@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.mbeddr.mpsutil.dev.build" uuid="dcd3e3f0-fb75-4b63-83e0-7a84aeddbb20" compileInMPS="true">
+<solution name="com.mbeddr.platform" uuid="3ae9cfda-f938-4524-b4ca-fbcba3b0525b" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

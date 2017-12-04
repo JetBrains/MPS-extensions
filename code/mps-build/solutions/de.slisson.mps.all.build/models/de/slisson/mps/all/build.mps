@@ -488,19 +488,19 @@
       </node>
     </node>
     <node concept="m$_wf" id="4p3FRivDLPy" role="3989C9">
-      <property role="m$_wk" value="org.apache.commons" />
+      <property role="m$_wk" value="org.apache.commons.math3" />
       <node concept="3_J27D" id="4p3FRivDLPz" role="m$_yQ">
         <node concept="3Mxwew" id="4p3FRivDLP$" role="3MwsjC">
           <property role="3MwjfP" value="Apache Commons Library" />
         </node>
       </node>
       <node concept="3_J27D" id="4p3FRivDLP_" role="m$_w8">
-        <node concept="3Mxwey" id="4MKCCgA1nW8" role="3MwsjC">
-          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        <node concept="3Mxwew" id="5mH$9t6dyMg" role="3MwsjC">
+          <property role="3MwjfP" value="3.3" />
         </node>
       </node>
       <node concept="m$f5U" id="31bAEZ0ssdw" role="m$_yh">
-        <ref role="m$f5T" node="31bAEZ0srdB" resolve="mps-apache-commons" />
+        <ref role="m$f5T" node="31bAEZ0srdB" resolve="mps-apache-commons-math" />
       </node>
       <node concept="m$_yC" id="4p3FRivDLPC" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
@@ -515,26 +515,26 @@
       </node>
       <node concept="2iUeEo" id="4p3FRivDLPX" role="2iVFfd">
         <property role="2iUeEt" value="Apache Foundation" />
-        <property role="2iUeEu" value="https://commons.apache.org/" />
+        <property role="2iUeEu" value="https://commons.apache.org/math" />
       </node>
     </node>
     <node concept="2G$12M" id="31bAEZ0srdB" role="3989C9">
-      <property role="TrG5h" value="mps-apache-commons" />
+      <property role="TrG5h" value="mps-apache-commons-math" />
       <node concept="1E1JtA" id="31bAEZ0srt5" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.apache.commons" />
+        <property role="TrG5h" value="org.apache.commons.math3" />
         <property role="3LESm3" value="b0f8641f-bd77-4421-8425-30d9088a82f7" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="3vzyAKEJTJY" role="3LF7KH">
           <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3vzyAKEJTK4" role="iGT6I">
-            <property role="2Ry0Am" value="mps-apache-commons" />
+            <property role="2Ry0Am" value="mps-apache-commons-math" />
             <node concept="2Ry0Ak" id="3vzyAKEJTK5" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="3vzyAKEJTK6" role="2Ry0An">
-                <property role="2Ry0Am" value="org.apache.commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEJTK7" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.apache.commons.msd" />
+                <property role="2Ry0Am" value="org.apache.commons.math" />
+                <node concept="2Ry0Ak" id="6FOuQ$eH0sJ" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.apache.commons.math3.msd" />
                 </node>
               </node>
             </node>
@@ -546,131 +546,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3vzyAKEK8p8" role="3bR37C">
-          <node concept="1BurEX" id="3vzyAKEK8p9" role="1SiIV1">
-            <node concept="398BVA" id="3vzyAKEK8oU" role="1BurEY">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK8oV" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK8oW" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK8oX" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK8oY" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK8oZ" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-io-2.4" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK8p0" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-io-2.4.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3vzyAKEK8po" role="3bR37C">
-          <node concept="1BurEX" id="3vzyAKEK8pp" role="1SiIV1">
-            <node concept="398BVA" id="3vzyAKEK8pa" role="1BurEY">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK8pb" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK8pc" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK8pd" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK8pe" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK8pf" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-lang3-3.3.2" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK8pg" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-lang3-3.3.2.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3vzyAKEK8pC" role="3bR37C">
-          <node concept="1BurEX" id="3vzyAKEK8pD" role="1SiIV1">
-            <node concept="398BVA" id="3vzyAKEK8pq" role="1BurEY">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK8pr" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK8ps" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK8pt" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK8pu" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK8pv" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-math3-3.3" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK8pw" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-math3-3.3.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3vzyAKEK8pS" role="3bR37C">
-          <node concept="1BurEX" id="3vzyAKEK8pT" role="1SiIV1">
-            <node concept="398BVA" id="3vzyAKEK8pE" role="1BurEY">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK8pF" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK8pG" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK8pH" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK8pI" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK8pJ" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-primitives-1.0" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK8pK" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-primitives-1.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3vzyAKEK8q8" role="3bR37C">
-          <node concept="1BurEX" id="3vzyAKEK8q9" role="1SiIV1">
-            <node concept="398BVA" id="3vzyAKEK8pU" role="1BurEY">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK8pV" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK8pW" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK8pX" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK8pY" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK8pZ" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-csv-1.0" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK8q0" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-csv-1.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3rtmxn" id="3xFG3bj5Mkz" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5Mk$" role="3rtmxm">
             <node concept="3qWCbU" id="3xFG3bj5Mk_" role="3LXTna">
@@ -679,11 +554,36 @@
             <node concept="398BVA" id="3xFG3bj5MkA" role="3LXTmr">
               <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3xFG3bj5MkB" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
+                <property role="2Ry0Am" value="mps-apache-commons-math" />
                 <node concept="2Ry0Ak" id="3xFG3bj5MkC" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3xFG3bj5MkD" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
+                  <node concept="2Ry0Ak" id="5mH$9t6dxN9" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons.math" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6FOuQ$eH1es" role="3bR37C">
+          <node concept="1BurEX" id="6FOuQ$eH1et" role="1SiIV1">
+            <node concept="398BVA" id="6FOuQ$eH1el" role="1BurEY">
+              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6FOuQ$eH1em" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons-math" />
+                <node concept="2Ry0Ak" id="6FOuQ$eH1en" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6FOuQ$eH1eo" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons.math" />
+                    <node concept="2Ry0Ak" id="6FOuQ$eH1ep" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6FOuQ$eH1eq" role="2Ry0An">
+                        <property role="2Ry0Am" value="commons-math3-3.3" />
+                        <node concept="2Ry0Ak" id="6FOuQ$eH1er" role="2Ry0An">
+                          <property role="2Ry0Am" value="commons-math3-3.3.jar" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3588,7 +3488,7 @@
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
       <node concept="m$_yC" id="7oiNWZV8BUc" role="m$_yJ">
-        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
+        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons.math3" />
       </node>
       <node concept="m$_yC" id="6$BmuzArR6F" role="m$_yJ">
         <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
@@ -3690,7 +3590,7 @@
         <node concept="1SiIV0" id="tUmIYfjym5" role="3bR37C">
           <node concept="3bR9La" id="tUmIYfjym6" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="31bAEZ0srt5" resolve="org.apache.commons" />
+            <ref role="3bR37D" node="31bAEZ0srt5" resolve="org.apache.commons.math3" />
           </node>
         </node>
         <node concept="1SiIV0" id="tUmIYfjym7" role="3bR37C">
@@ -4870,115 +4770,23 @@
         </node>
       </node>
       <node concept="m$_wl" id="31bAEZ0ssNL" role="39821P">
-        <ref role="m_rDy" node="4p3FRivDLPy" resolve="org.apache.commons" />
+        <ref role="m_rDy" node="4p3FRivDLPy" resolve="org.apache.commons.math3" />
         <node concept="398223" id="31bAEZ0stbU" role="39821P">
-          <node concept="28jJK3" id="31bAEZ0stcA" role="39821P">
-            <node concept="398BVA" id="3vzyAKEK3Wt" role="28jJRO">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK3W_" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK3WA" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK3WB" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK3WC" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK3WD" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-io-2.4" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK3WE" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-io-2.4.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="31bAEZ0stfc" role="39821P">
-            <node concept="398BVA" id="3vzyAKEK49w" role="28jJRO">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK49C" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK49D" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK49E" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK49F" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK49G" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-lang3-3.3.2" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK49H" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-lang3-3.3.2.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="28jJK3" id="31bAEZ0stf$" role="39821P">
             <node concept="398BVA" id="3vzyAKEK4mz" role="28jJRO">
               <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3vzyAKEK4mF" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
+                <property role="2Ry0Am" value="mps-apache-commons-math" />
                 <node concept="2Ry0Ak" id="3vzyAKEK4mG" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="3vzyAKEK4mH" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
+                    <property role="2Ry0Am" value="org.apache.commons.math" />
                     <node concept="2Ry0Ak" id="3vzyAKEK4mI" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
                       <node concept="2Ry0Ak" id="3vzyAKEK4mJ" role="2Ry0An">
                         <property role="2Ry0Am" value="commons-math3-3.3" />
                         <node concept="2Ry0Ak" id="3vzyAKEK4mK" role="2Ry0An">
                           <property role="2Ry0Am" value="commons-math3-3.3.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="31bAEZ0stg4" role="39821P">
-            <node concept="398BVA" id="3vzyAKEK4zA" role="28jJRO">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK4zI" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK4zJ" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK4zK" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK4zL" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK4zM" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-primitives-1.0" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK4zN" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-primitives-1.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3q_6Uj$06wM" role="39821P">
-            <node concept="398BVA" id="3vzyAKEK4KD" role="28jJRO">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3vzyAKEK4KL" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons" />
-                <node concept="2Ry0Ak" id="3vzyAKEK4KM" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3vzyAKEK4KN" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="3vzyAKEK4KO" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3vzyAKEK4KP" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-csv-1.0" />
-                        <node concept="2Ry0Ak" id="3vzyAKEK4KQ" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-csv-1.0.jar" />
                         </node>
                       </node>
                     </node>

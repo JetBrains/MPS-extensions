@@ -4,17 +4,14 @@
   <languages>
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
-    <use id="6ce9daa6-c7bc-4847-a19c-5cd82a4a13fc" name="de.itemis.mps.editor.math.java" version="0" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
-    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="rcub" ref="r:c83abd98-3982-4341-b913-7083d86baf99(de.itemis.mps.editor.math.java.structure)" />
-    <import index="3rlt" ref="6ce9daa6-c7bc-4847-a19c-5cd82a4a13fc/java:org.apache.commons.math3.analysis.integration(de.itemis.mps.editor.math.java/)" />
-    <import index="zl0b" ref="6ce9daa6-c7bc-4847-a19c-5cd82a4a13fc/java:org.apache.commons.math3.analysis(de.itemis.mps.editor.math.java/)" />
+    <import index="3rlt" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.math3.analysis.integration(org.apache.commons.math3/)" />
+    <import index="zl0b" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.math3.analysis(org.apache.commons.math3/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -31,6 +28,9 @@
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
@@ -108,7 +108,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -979,12 +978,12 @@
           <node concept="3cpWs8" id="2979S3pviDW" role="3cqZAp">
             <node concept="3cpWsn" id="2979S3pviDX" role="3cpWs9">
               <property role="TrG5h" value="integrator" />
-              <node concept="3uibUv" id="2979S3pviDY" role="1tU5fm">
+              <node concept="3uibUv" id="PE3B26C0q6" role="1tU5fm">
                 <ref role="3uigEE" to="3rlt:~TrapezoidIntegrator" resolve="TrapezoidIntegrator" />
               </node>
               <node concept="2ShNRf" id="2979S3pviTX" role="33vP2m">
-                <node concept="1pGfFk" id="2979S3pviTW" role="2ShVmc">
-                  <ref role="37wK5l" to="3rlt:~TrapezoidIntegrator.&lt;init&gt;()" resolve="TrapezoidIntegrator" />
+                <node concept="HV5vD" id="PE3B26C0U5" role="2ShVmc">
+                  <ref role="HV5vE" to="3rlt:~TrapezoidIntegrator" resolve="TrapezoidIntegrator" />
                 </node>
               </node>
             </node>
@@ -1006,8 +1005,8 @@
                     <node concept="YeOm9" id="2979S3pvpc$" role="2ShVmc">
                       <node concept="1Y3b0j" id="2979S3pvpcB" role="YeSDq">
                         <property role="2bfB8j" value="true" />
-                        <ref role="1Y3XeK" to="zl0b:~UnivariateFunction" resolve="UnivariateFunction" />
                         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                        <ref role="1Y3XeK" to="zl0b:~UnivariateFunction" resolve="UnivariateFunction" />
                         <node concept="3Tm1VV" id="2979S3pvpcC" role="1B3o_S" />
                         <node concept="3clFb_" id="2979S3pvpcD" role="jymVt">
                           <property role="1EzhhJ" value="false" />
@@ -1040,15 +1039,6 @@
                             </node>
                           </node>
                           <node concept="3clFbS" id="2979S3pvpcJ" role="3clF47">
-                            <node concept="3cpWs8" id="2979S3pyqjc" role="3cqZAp">
-                              <node concept="3cpWsn" id="2979S3pyqjf" role="3cpWs9">
-                                <property role="TrG5h" value="a" />
-                                <node concept="10P55v" id="2979S3pyqja" role="1tU5fm" />
-                                <node concept="3cmrfG" id="2979S3pyr20" role="33vP2m">
-                                  <property role="3cmrfH" value="10" />
-                                </node>
-                              </node>
-                            </node>
                             <node concept="3cpWs6" id="2979S3pvq3G" role="3cqZAp">
                               <node concept="3cpWs3" id="2979S3pvqr7" role="3cqZAk">
                                 <node concept="3cmrfG" id="2979S3pvqrj" role="3uHU7w">

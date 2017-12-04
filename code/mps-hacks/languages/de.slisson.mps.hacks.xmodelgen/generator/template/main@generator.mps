@@ -2,7 +2,6 @@
 <model ref="r:8f6d87bf-4654-418c-9c68-7759a9e9328a(de.slisson.mps.hacks.xmodelgen.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="c5eeb6dc-2f3d-45ae-a7be-929daeb6bda1" name="de.slisson.mps.hacks.xmodelgen" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports />

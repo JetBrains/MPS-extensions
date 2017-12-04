@@ -6,10 +6,6 @@
     </modelRoot>
   </models>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">fa13cc63-c476-4d46-9c96-d53670abe7bc(de.itemis.mps.editor.diagram)</dependency>
-    <dependency reexport="false">46b1f1f4-3955-4255-af94-7acb92d5711a(de.itemis.mps.editor.diagram.demoentities)</dependency>
-  </dependencies>
   <languageVersions>
     <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="0" />
     <language slang="l:46b1f1f4-3955-4255-af94-7acb92d5711a:de.itemis.mps.editor.diagram.demoentities" version="0" />

@@ -207,7 +207,7 @@
   </registry>
   <node concept="1l3spW" id="2Xjt3l56m0V">
     <property role="TrG5h" value="mps-extensions" />
-    <property role="2DA0ip" value="../../../../build" />
+    <property role="2DA0ip" value="../../../../build/MPS-extensions" />
     <node concept="m$_wf" id="4hvHh3QW$Eh" role="3989C9">
       <property role="m$_wk" value="de.slisson.mps.all" />
       <node concept="3_J27D" id="4hvHh3QW$Ei" role="m$_yQ">
@@ -4396,16 +4396,19 @@
                 <property role="2Ry0Am" value=".." />
                 <node concept="2Ry0Ak" id="1QLFoGOMPm4" role="2Ry0An">
                   <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="1QLFoGOMPm7" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="2IxvlKP9Jtn" role="2Ry0An">
                     <property role="2Ry0Am" value=".." />
-                    <node concept="2Ry0Ak" id="1QLFoGOMPma" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="2IxvlKP9Jti" role="2Ry0An">
                       <property role="2Ry0Am" value=".." />
-                      <node concept="2Ry0Ak" id="1QLFoGOMPmf" role="2Ry0An">
-                        <property role="2Ry0Am" value="Applications" />
-                        <node concept="2Ry0Ak" id="1QLFoGOMPmH" role="2Ry0An">
-                          <property role="2Ry0Am" value="MPS 2017.3.app" />
-                          <node concept="2Ry0Ak" id="1QLFoGOMPmM" role="2Ry0An">
-                            <property role="2Ry0Am" value="Contents" />
+                      <node concept="2Ry0Ak" id="2IxvlKP9Jtj" role="2Ry0An">
+                        <property role="2Ry0Am" value=".." />
+                        <node concept="2Ry0Ak" id="2IxvlKP9Jtk" role="2Ry0An">
+                          <property role="2Ry0Am" value="Applications" />
+                          <node concept="2Ry0Ak" id="2IxvlKP9Jtl" role="2Ry0An">
+                            <property role="2Ry0Am" value="MPS 2017.3.app" />
+                            <node concept="2Ry0Ak" id="2IxvlKP9Jtm" role="2Ry0An">
+                              <property role="2Ry0Am" value="Contents" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -4423,8 +4426,11 @@
       <node concept="55IIr" id="1QLFoGOMPmO" role="398pKh">
         <node concept="2Ry0Ak" id="1QLFoGOMPmR" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="1QLFoGOMPmW" role="2Ry0An">
-            <property role="2Ry0Am" value="code" />
+          <node concept="2Ry0Ak" id="2IxvlKP9Jtw" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="2IxvlKP9Jtv" role="2Ry0An">
+              <property role="2Ry0Am" value="code" />
+            </node>
           </node>
         </node>
       </node>
@@ -4653,8 +4659,8 @@
   </node>
   <node concept="1l3spW" id="6$6tsX_CERA">
     <property role="TrG5h" value="mps-extensions-tests" />
-    <property role="2DA0ip" value="../../../../build" />
-    <property role="turDy" value="build-tests.xml" />
+    <property role="2DA0ip" value="../../../../build/MPS-extensions-tests" />
+    <property role="turDy" value="build.xml" />
     <node concept="2_Ic$z" id="6$6tsX_CF79" role="3989C9">
       <property role="2_Ic$$" value="true" />
       <property role="TZNOO" value="1.8" />
@@ -5246,16 +5252,19 @@
                 <property role="2Ry0Am" value=".." />
                 <node concept="2Ry0Ak" id="1QLFoGON26y" role="2Ry0An">
                   <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="1QLFoGON26z" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="2IxvlKPaLFu" role="2Ry0An">
                     <property role="2Ry0Am" value=".." />
-                    <node concept="2Ry0Ak" id="1QLFoGON26$" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="2IxvlKPaLFp" role="2Ry0An">
                       <property role="2Ry0Am" value=".." />
-                      <node concept="2Ry0Ak" id="1QLFoGON26_" role="2Ry0An">
-                        <property role="2Ry0Am" value="Applications" />
-                        <node concept="2Ry0Ak" id="1QLFoGON26A" role="2Ry0An">
-                          <property role="2Ry0Am" value="MPS 2017.3.app" />
-                          <node concept="2Ry0Ak" id="1QLFoGON26B" role="2Ry0An">
-                            <property role="2Ry0Am" value="Contents" />
+                      <node concept="2Ry0Ak" id="2IxvlKPaLFq" role="2Ry0An">
+                        <property role="2Ry0Am" value=".." />
+                        <node concept="2Ry0Ak" id="2IxvlKPaLFr" role="2Ry0An">
+                          <property role="2Ry0Am" value="Applications" />
+                          <node concept="2Ry0Ak" id="2IxvlKPaLFs" role="2Ry0An">
+                            <property role="2Ry0Am" value="MPS 2017.3.app" />
+                            <node concept="2Ry0Ak" id="2IxvlKPaLFt" role="2Ry0An">
+                              <property role="2Ry0Am" value="Contents" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -5273,17 +5282,18 @@
       <node concept="55IIr" id="1QLFoGON23t" role="398pKh">
         <node concept="2Ry0Ak" id="1QLFoGON23u" role="iGT6I">
           <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="2IxvlKPaLFA" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+          </node>
         </node>
       </node>
     </node>
     <node concept="398rNT" id="PE3B26neqW" role="1l3spd">
       <property role="TrG5h" value="extensions.code" />
-      <node concept="55IIr" id="PE3B26neqX" role="398pKh">
-        <node concept="2Ry0Ak" id="PE3B26neqY" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="PE3B26neqZ" role="2Ry0An">
-            <property role="2Ry0Am" value="code" />
-          </node>
+      <node concept="398BVA" id="27epzEomQ$V" role="398pKh">
+        <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
+        <node concept="2Ry0Ak" id="27epzEomQ$Y" role="iGT6I">
+          <property role="2Ry0Am" value="code" />
         </node>
       </node>
     </node>
@@ -5344,12 +5354,15 @@
         <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
         <node concept="2Ry0Ak" id="PE3B26mcdJ" role="iGT6I">
           <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="PE3B26mchC" role="2Ry0An">
-            <property role="2Ry0Am" value="build" />
-            <node concept="2Ry0Ak" id="PE3B26mcjC" role="2Ry0An">
-              <property role="2Ry0Am" value="artifacts" />
-              <node concept="2Ry0Ak" id="PE3B26mcjK" role="2Ry0An">
-                <property role="2Ry0Am" value="mps-extensions" />
+          <node concept="2Ry0Ak" id="27epzEomR94" role="2Ry0An">
+            <property role="2Ry0Am" value="MPS-extensions" />
+            <node concept="2Ry0Ak" id="27epzEomR91" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="27epzEomR92" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="27epzEomR93" role="2Ry0An">
+                  <property role="2Ry0Am" value="mps-extensions" />
+                </node>
               </node>
             </node>
           </node>

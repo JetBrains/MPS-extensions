@@ -266,6 +266,25 @@
             <ref role="3bR37D" to="ffeo:1WGJoq9Wd0d" resolve="jetbrains.mps.build.workflow.preset" />
           </node>
         </node>
+        <node concept="3rtmxn" id="PE3B273Azl" role="3bR31x">
+          <node concept="3LXTmp" id="PE3B273Azm" role="3rtmxm">
+            <node concept="3qWCbU" id="PE3B273Azn" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="PE3B273Azo" role="3LXTmr">
+              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="PE3B273Azp" role="iGT6I">
+                <property role="2Ry0Am" value="mps-build" />
+                <node concept="2Ry0Ak" id="PE3B273Azq" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="PE3B273Azr" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.slisson.mps.all.build" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2igEWh" id="2MQBX6KMw95" role="1hWBAP">
@@ -532,6 +551,25 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="PE3B273Azd" role="3bR31x">
+          <node concept="3LXTmp" id="PE3B273Aze" role="3rtmxm">
+            <node concept="3qWCbU" id="PE3B273Azf" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="PE3B273Azg" role="3LXTmr">
+              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="PE3B273Azh" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons-math" />
+                <node concept="2Ry0Ak" id="PE3B273Azi" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="PE3B273Azj" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons.math" />
                   </node>
                 </node>
               </node>

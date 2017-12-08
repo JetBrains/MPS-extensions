@@ -106,7 +106,7 @@
   </registry>
   <node concept="1l3spW" id="2Xjt3l56m0V">
     <property role="TrG5h" value="mps-extensions.allScripts" />
-    <property role="2DA0ip" value="../../../../build/allScripts" />
+    <property role="2DA0ip" value="../../../../build/generated/allScripts" />
     <node concept="2G$12M" id="2Xjt3l5bx4Z" role="3989C9">
       <property role="TrG5h" value="de.slisson.mps.all" />
       <node concept="1E1JtA" id="PE3B26VOkn" role="2G$12L">
@@ -115,7 +115,7 @@
         <property role="3LESm3" value="f1fb7b1c-ce0d-423c-9369-4a661d600029" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="3vzyAKEJT3s" role="3LF7KH">
-          <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3vzyAKEJT3x" role="iGT6I">
             <property role="2Ry0Am" value="mps-build" />
             <node concept="2Ry0Ak" id="3vzyAKEJT3y" role="2Ry0An">
@@ -147,7 +147,7 @@
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
             <node concept="398BVA" id="PE3B273Azo" role="3LXTmr">
-              <ref role="398BVh" node="3vzyAKEJSiZ" resolve="extensions.code" />
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="PE3B273Azp" role="iGT6I">
                 <property role="2Ry0Am" value="mps-build" />
                 <node concept="2Ry0Ak" id="PE3B273Azq" role="2Ry0An">
@@ -216,17 +216,26 @@
         </node>
       </node>
     </node>
-    <node concept="398rNT" id="3vzyAKEJSiZ" role="1l3spd">
-      <property role="TrG5h" value="extensions.code" />
-      <node concept="55IIr" id="1QLFoGOMPmO" role="398pKh">
-        <node concept="2Ry0Ak" id="1QLFoGOMPmR" role="iGT6I">
+    <node concept="398rNT" id="1QLFoGON23s" role="1l3spd">
+      <property role="TrG5h" value="extensions.home" />
+      <node concept="55IIr" id="1QLFoGON23t" role="398pKh">
+        <node concept="2Ry0Ak" id="1QLFoGON23u" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="2IxvlKP9JgN" role="2Ry0An">
+          <node concept="2Ry0Ak" id="2IxvlKPaLFA" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="2IxvlKP9JgM" role="2Ry0An">
-              <property role="2Ry0Am" value="code" />
+            <node concept="2Ry0Ak" id="2fo8bJEzAKn" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="PE3B26neqW" role="1l3spd">
+      <property role="TrG5h" value="extensions.code" />
+      <node concept="398BVA" id="27epzEomQ$V" role="398pKh">
+        <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
+        <node concept="2Ry0Ak" id="27epzEomQ$Y" role="iGT6I">
+          <property role="2Ry0Am" value="code" />
         </node>
       </node>
     </node>

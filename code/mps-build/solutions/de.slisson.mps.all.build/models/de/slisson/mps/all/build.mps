@@ -5379,7 +5379,7 @@
         <node concept="2Ry0Ak" id="2fo8bJECJDk" role="iGT6I">
           <property role="2Ry0Am" value="artifacts" />
           <node concept="2Ry0Ak" id="2fo8bJECJDp" role="2Ry0An">
-            <property role="2Ry0Am" value="languages" />
+            <property role="2Ry0Am" value="de.itemis.mps.extensions" />
           </node>
         </node>
       </node>

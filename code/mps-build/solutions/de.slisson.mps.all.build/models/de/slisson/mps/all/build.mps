@@ -206,7 +206,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="2Xjt3l56m0V">
-    <property role="TrG5h" value="languages" />
+    <property role="TrG5h" value="de.itemis.mps.extensions" />
     <property role="2DA0ip" value="../../../../build/generated/languages" />
     <node concept="m$_wf" id="4hvHh3QW$Eh" role="3989C9">
       <property role="m$_wk" value="de.slisson.mps.all" />
@@ -5373,7 +5373,7 @@
       </node>
     </node>
     <node concept="2sgV4H" id="6$6tsX_CIho" role="1l3spa">
-      <ref role="1l3spb" node="2Xjt3l56m0V" resolve="languages" />
+      <ref role="1l3spb" node="2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
       <node concept="398BVA" id="2fo8bJECJBq" role="2JcizS">
         <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
         <node concept="2Ry0Ak" id="2fo8bJECJDk" role="iGT6I">

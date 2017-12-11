@@ -75,12 +75,6 @@ repositories {
         for (repoUrl in project.dependencyRepositories) {
             maven {
                 url repoUrl
-                if (project.hasProperty('nexusUsername')) {
-                    credentials {
-                        username project.nexusUsername
-                        password project.nexusPassword
-                    }
-                }
             }
         }
 }
@@ -114,12 +108,12 @@ def minor = '1'
 def major = '0'
 def commitHash = GitBasedVersioning.getGitShortCommitHash()
 def qualifier = '-SNAPSHOT'
-
+def artifactsDir = new File(rootDir, 'artifacts')
 
 version = "$major.$minor.${GitBasedVersioning.getGitCommitCount()}.$commitHash$qualifier"
 ext.mps_home =  '-Dmps.home=' + resolveMps.destinationDir.getAbsolutePath()
 ext.build_dir = '-Dbuild.dir=' + file(rootProject.projectDir.absolutePath).getAbsolutePath()
-ext.artifacts_dir = '-Dartifacts.root=' + new File(rootDir, 'artifacts')
+ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir
 ext.pluginVersion = "-Dversion=" + version
 ext.buildDate = "-DbuildDate=" + new Date().toString()
 ext.extensions_home =  '-Dextensions.home=' + rootDir
@@ -166,6 +160,56 @@ dependencies {
     }
     junitAnt('org.apache.ant:ant-junit4:1.9.7') {
         transitive = false
+    }
+}
+
+task packageAllScripts(type: Zip, dependsOn: run_tests) {
+    baseName 'de.itemis.mps.extensions.allScripts'
+    from artifactsDir
+    include 'de.itemis.mps.extensions.allScripts/**'
+}
+
+task packageExtensions(type: Zip, dependsOn: run_tests) {
+    baseName 'de.itemis.mps.extensions'
+    from artifactsDir
+    include 'de.itemis.mps.extensions/**'
+}
+
+publishing {
+    repositories {
+        maven {
+            url project.publishingRepository
+            if (project.hasProperty('nexusUsername')) {
+                credentials {
+                    username project.nexusUsername
+                    password project.nexusPassword
+                }
+            }
+        }
+    }
+    publications {
+        allScripts(MavenPublication) {
+            groupId 'de.itemis.mps.extensions'
+            artifactId 'allScripts'
+            artifact packageAllScripts
+        }
+        extensions(MavenPublication) {
+            groupId 'de.itemis.mps'
+            artifactId 'extensions'
+            artifact packageExtensions
+            //Pom.withProvidedDep pom, configurations.mps
+            pom.withXml {
+            def dependenciesNode = asNode().appendNode('dependencies')
+            config.resolvedConfiguration.firstLevelModuleDependencies.each {
+                def dependencyNode = dependenciesNode.appendNode('dependency')
+                dependencyNode.appendNode('groupId', it.moduleGroup)
+                dependencyNode.appendNode('artifactId', it.moduleName)
+                dependencyNode.appendNode('version', it.moduleVersion)
+                dependencyNode.appendNode('type', it.moduleArtifacts[0].type)
+                dependencyNode.appendNode('scope', 'provided')
+            }
+        }
+        }
     }
 }
 

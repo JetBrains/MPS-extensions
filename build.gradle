@@ -57,6 +57,12 @@ ext.dependencyRepositories = [
 // Dependency versions
 ext.mpsVersion = '2017.3'
 
+// artifacts version. this is the default versioning that is used
+def minor = '1'
+def major = '0'
+def commitHash = GitBasedVersioning.getGitShortCommitHash()
+version = "$major.$minor.${GitBasedVersioning.getGitCommitCount()}.$commitHash"
+
 ext.releaseRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr'
 ext.snapshotRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots'
 ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRepository : releaseRepository
@@ -100,17 +106,9 @@ dependencies {
 // tools might be needed later for running test scripts
 ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({ true }) + project.files("$project.jdk_home/lib/tools.jar")
 
-
-
-
-// artifacts version. this is the default versioning that is used
-def minor = '1'
-def major = '0'
-def commitHash = GitBasedVersioning.getGitShortCommitHash()
-def qualifier = '-SNAPSHOT'
 def artifactsDir = new File(rootDir, 'artifacts')
 
-version = "$major.$minor.${GitBasedVersioning.getGitCommitCount()}.$commitHash$qualifier"
+
 ext.mps_home =  '-Dmps.home=' + resolveMps.destinationDir.getAbsolutePath()
 ext.build_dir = '-Dbuild.dir=' + file(rootProject.projectDir.absolutePath).getAbsolutePath()
 ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir

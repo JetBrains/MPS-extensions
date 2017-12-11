@@ -197,16 +197,16 @@ publishing {
             artifact packageExtensions
             //Pom.withProvidedDep pom, configurations.mps
             pom.withXml {
-            def dependenciesNode = asNode().appendNode('dependencies')
-            mps.resolvedConfiguration.firstLevelModuleDependencies.each {
-                def dependencyNode = dependenciesNode.appendNode('dependency')
-                dependencyNode.appendNode('groupId', it.moduleGroup)
-                dependencyNode.appendNode('artifactId', it.moduleName)
-                dependencyNode.appendNode('version', it.moduleVersion)
-                dependencyNode.appendNode('type', it.moduleArtifacts[0].type)
-                dependencyNode.appendNode('scope', 'provided')
+                def dependenciesNode = asNode().appendNode('dependencies')
+                configurations.mps.resolvedConfiguration.firstLevelModuleDependencies.each {
+                    def dependencyNode = dependenciesNode.appendNode('dependency')
+                    dependencyNode.appendNode('groupId', it.moduleGroup)
+                    dependencyNode.appendNode('artifactId', it.moduleName)
+                    dependencyNode.appendNode('version', it.moduleVersion)
+                    dependencyNode.appendNode('type', it.moduleArtifacts[0].type)
+                    dependencyNode.appendNode('scope', 'provided')
+                }
             }
-        }
         }
     }
 }

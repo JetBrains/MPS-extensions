@@ -198,7 +198,7 @@ publishing {
             //Pom.withProvidedDep pom, configurations.mps
             pom.withXml {
             def dependenciesNode = asNode().appendNode('dependencies')
-            config.resolvedConfiguration.firstLevelModuleDependencies.each {
+            mps.resolvedConfiguration.firstLevelModuleDependencies.each {
                 def dependencyNode = dependenciesNode.appendNode('dependency')
                 dependencyNode.appendNode('groupId', it.moduleGroup)
                 dependencyNode.appendNode('artifactId', it.moduleName)

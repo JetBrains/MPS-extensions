@@ -3,4 +3,8 @@ source_gen
 source_gen.caches
 test_gen.caches
 workspace.xml
-build
+artifacts
+tmp
+.gradle/
+build/generated/
+build/mps/

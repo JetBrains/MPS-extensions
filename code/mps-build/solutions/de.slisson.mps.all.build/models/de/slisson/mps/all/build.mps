@@ -5415,6 +5415,12 @@
       <node concept="L2wRC" id="5mH$9t6eE6L" role="39821P">
         <ref role="L2wRA" node="5mH$9t6eA1O" resolve="de.slisson.mps.tables.demolang" />
       </node>
+      <node concept="L2wRC" id="7i5Cc6Lw5nc" role="39821P">
+        <ref role="L2wRA" node="5mH$9t6eAsB" resolve="test.de.itemis.mps.editor.celllayout" />
+      </node>
+      <node concept="L2wRC" id="7i5Cc6Lw73q" role="39821P">
+        <ref role="L2wRA" node="5mH$9t6eBsU" resolve="test.de.itemis.mps.editor.celllayout.lang" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />

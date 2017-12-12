@@ -21,6 +21,9 @@
       </concept>
     </language>
     <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
+      <concept id="4560297596904469355" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModuleGroup" flags="ng" index="22LTRF">
+        <reference id="4560297596904469356" name="group" index="22LTRG" />
+      </concept>
       <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules" flags="nn" index="22LTRH">
         <child id="4560297596904469360" name="modules" index="22LTRK" />
       </concept>
@@ -5420,6 +5423,12 @@
       </node>
       <node concept="22LTRM" id="5mH$9t6eAr5" role="22LTRK">
         <ref role="22LTRN" node="5mH$9t6e_Fl" resolve="test.de.slisson.mps.tables" />
+      </node>
+      <node concept="22LTRM" id="7i5Cc6Lw3P$" role="22LTRK">
+        <ref role="22LTRN" node="5mH$9t6eAsB" resolve="test.de.itemis.mps.editor.celllayout" />
+      </node>
+      <node concept="22LTRF" id="7i5Cc6Lw48Y" role="22LTRK">
+        <ref role="22LTRG" node="6$6tsX_CIRQ" resolve="de.slisson.mps.all.tests" />
       </node>
     </node>
   </node>

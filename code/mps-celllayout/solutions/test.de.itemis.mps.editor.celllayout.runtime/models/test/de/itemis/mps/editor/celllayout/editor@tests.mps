@@ -809,7 +809,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="rlw0PZL9m8">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/plugins/sl-all" />
+    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="LiM7Y" id="rlw0PZQAzU">
     <property role="TrG5h" value="Border_In_Grid" />

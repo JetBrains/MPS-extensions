@@ -5348,6 +5348,12 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="OJuIQq1NW4" role="1l3spd">
+      <property role="TrG5h" value="mps.macro.extensions.home" />
+      <node concept="398BVA" id="OJuIQq1NY5" role="398pKh">
+        <ref role="398BVh" node="1QLFoGON23s" resolve="extensions.home" />
+      </node>
+    </node>
     <node concept="2sgV4H" id="6$6tsX_CF7p" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="6$6tsX_CF7q" role="2JcizS">

@@ -5259,6 +5259,31 @@
           <ref role="1E0d5P" node="6SVXTgIejl1" resolve="de.itemis.mps.editor.celllayout.runtime" />
         </node>
       </node>
+      <node concept="1E1JtA" id="7i5Cc6LxCew" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.slisson.mps.testutils" />
+        <property role="3LESm3" value="3395a7d2-abac-467d-b35d-0e747a00a60e" />
+        <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources and tests" />
+        <node concept="398BVA" id="7i5Cc6LxCp3" role="3LF7KH">
+          <ref role="398BVh" node="5mH$9t6e_IG" resolve="tables.home" />
+          <node concept="2Ry0Ak" id="7i5Cc6LxCBi" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="7i5Cc6LxCKN" role="2Ry0An">
+              <property role="2Ry0Am" value="de.slisson.mps.testutils" />
+              <node concept="2Ry0Ak" id="7i5Cc6LxCUk" role="2Ry0An">
+                <property role="2Ry0Am" value="de.slisson.mps.testutils.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7i5Cc6LxD3L" role="3bR37C">
+          <node concept="3bR9La" id="7i5Cc6LxD3M" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="10PD9b" id="6$6tsX_CF7b" role="10PD9s" />
     <node concept="3b7kt6" id="6$6tsX_CF7c" role="10PD9s" />
@@ -5421,6 +5446,9 @@
       <node concept="L2wRC" id="7i5Cc6Lw73q" role="39821P">
         <ref role="L2wRA" node="5mH$9t6eBsU" resolve="test.de.itemis.mps.editor.celllayout.lang" />
       </node>
+      <node concept="L2wRC" id="7i5Cc6LxDjB" role="39821P">
+        <ref role="L2wRA" node="7i5Cc6LxCew" resolve="de.slisson.mps.testutils" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -5435,6 +5463,9 @@
       </node>
       <node concept="22LTRF" id="7i5Cc6Lw48Y" role="22LTRK">
         <ref role="22LTRG" node="6$6tsX_CIRQ" resolve="de.slisson.mps.all.tests" />
+      </node>
+      <node concept="22LTRM" id="7i5Cc6LxDze" role="22LTRK">
+        <ref role="22LTRN" node="7i5Cc6LxCew" resolve="de.slisson.mps.testutils" />
       </node>
     </node>
   </node>

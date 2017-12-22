@@ -474,7 +474,7 @@
       </node>
     </node>
     <node concept="m$_wf" id="4p3FRivDLPy" role="3989C9">
-      <property role="m$_wk" value="org.apache.commons.math3" />
+      <property role="m$_wk" value="org.apache.commons" />
       <node concept="3_J27D" id="4p3FRivDLPz" role="m$_yQ">
         <node concept="3Mxwew" id="4p3FRivDLP$" role="3MwsjC">
           <property role="3MwjfP" value="Apache Commons Library" />
@@ -540,11 +540,11 @@
             <node concept="398BVA" id="PE3B273Azg" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="PE3B273Azh" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
+                <property role="2Ry0Am" value="mps-apache-commons" />
                 <node concept="2Ry0Ak" id="PE3B273Azi" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="PE3B273Azj" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
+                    <property role="2Ry0Am" value="org.apache.commons" />
                   </node>
                 </node>
               </node>
@@ -3449,7 +3449,7 @@
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
       <node concept="m$_yC" id="7oiNWZV8BUc" role="m$_yJ">
-        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons.math3" />
+        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
       </node>
       <node concept="m$_yC" id="6$BmuzArR6F" role="m$_yJ">
         <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
@@ -4707,17 +4707,17 @@
         </node>
       </node>
       <node concept="m$_wl" id="31bAEZ0ssNL" role="39821P">
-        <ref role="m_rDy" node="4p3FRivDLPy" resolve="org.apache.commons.math3" />
+        <ref role="m_rDy" node="4p3FRivDLPy" resolve="org.apache.commons" />
         <node concept="398223" id="31bAEZ0stbU" role="39821P">
           <node concept="2HvfSZ" id="7i5Cc6LDoR9" role="39821P">
             <node concept="398BVA" id="7i5Cc6LDp6z" role="2HvfZ0">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="7i5Cc6LDpl_" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
+                <property role="2Ry0Am" value="mps-apache-commons" />
                 <node concept="2Ry0Ak" id="7i5Cc6LDplM" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="7i5Cc6LDplV" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
+                    <property role="2Ry0Am" value="org.apache.commons" />
                     <node concept="2Ry0Ak" id="7i5Cc6LDpm4" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
                     </node>

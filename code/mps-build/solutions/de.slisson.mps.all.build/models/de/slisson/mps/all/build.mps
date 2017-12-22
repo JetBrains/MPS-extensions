@@ -508,19 +508,19 @@
       <property role="TrG5h" value="mps-apache-commons-math" />
       <node concept="1E1JtA" id="PE3B26QCrP" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.apache.commons.math3" />
         <property role="3LESm3" value="b0f8641f-bd77-4421-8425-30d9088a82f7" />
         <property role="2GAjPV" value="false" />
+        <property role="TrG5h" value="org.apache.commons" />
         <node concept="398BVA" id="PE3B26QCyu" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="PE3B26QCyv" role="iGT6I">
-            <property role="2Ry0Am" value="mps-apache-commons-math" />
+            <property role="2Ry0Am" value="mps-apache-commons" />
             <node concept="2Ry0Ak" id="PE3B26QCyw" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="PE3B26QCyx" role="2Ry0An">
-                <property role="2Ry0Am" value="org.apache.commons.math" />
-                <node concept="2Ry0Ak" id="PE3B26QCyy" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.apache.commons.math3.msd" />
+                <property role="2Ry0Am" value="org.apache.commons" />
+                <node concept="2Ry0Ak" id="8UlAEJKT88" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.apache.commons.msd" />
                 </node>
               </node>
             </node>
@@ -530,31 +530,6 @@
           <node concept="3bR9La" id="PE3B26QCD9" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="PE3B26QCDh" role="3bR37C">
-          <node concept="1BurEX" id="PE3B26QCDi" role="1SiIV1">
-            <node concept="398BVA" id="PE3B26QCDa" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="PE3B26QCDb" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
-                <node concept="2Ry0Ak" id="PE3B26QCDc" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="PE3B26QCDd" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
-                    <node concept="2Ry0Ak" id="PE3B26QCDe" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="PE3B26QCDf" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-math3-3.3" />
-                        <node concept="2Ry0Ak" id="PE3B26QCDg" role="2Ry0An">
-                          <property role="2Ry0Am" value="commons-math3-3.3.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
           </node>
         </node>
         <node concept="3rtmxn" id="PE3B273Azd" role="3bR31x">
@@ -576,21 +551,46 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7i5Cc6LDo82" role="3bR37C">
-          <node concept="1BurEX" id="7i5Cc6LDo83" role="1SiIV1">
-            <node concept="398BVA" id="7i5Cc6LDo7N" role="1BurEY">
+        <node concept="1SiIV0" id="8UlAEJKTKj" role="3bR37C">
+          <node concept="1BurEX" id="8UlAEJKTKk" role="1SiIV1">
+            <node concept="398BVA" id="8UlAEJKTK4" role="1BurEY">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7i5Cc6LDo7O" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
-                <node concept="2Ry0Ak" id="7i5Cc6LDo7P" role="2Ry0An">
+              <node concept="2Ry0Ak" id="8UlAEJKTK5" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons" />
+                <node concept="2Ry0Ak" id="8UlAEJKTK6" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7i5Cc6LDo7Q" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
-                    <node concept="2Ry0Ak" id="7i5Cc6LDo7R" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="8UlAEJKTK7" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons" />
+                    <node concept="2Ry0Ak" id="8UlAEJKTK8" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="7i5Cc6LDo7S" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="8UlAEJKTK9" role="2Ry0An">
+                        <property role="2Ry0Am" value="commons-math3-3.3" />
+                        <node concept="2Ry0Ak" id="8UlAEJKTKa" role="2Ry0An">
+                          <property role="2Ry0Am" value="commons-math3-3.3.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="8UlAEJKTK$" role="3bR37C">
+          <node concept="1BurEX" id="8UlAEJKTK_" role="1SiIV1">
+            <node concept="398BVA" id="8UlAEJKTKl" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="8UlAEJKTKm" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons" />
+                <node concept="2Ry0Ak" id="8UlAEJKTKn" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="8UlAEJKTKo" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons" />
+                    <node concept="2Ry0Ak" id="8UlAEJKTKp" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="8UlAEJKTKq" role="2Ry0An">
                         <property role="2Ry0Am" value="commons-csv-1.0" />
-                        <node concept="2Ry0Ak" id="7i5Cc6LDo7T" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="8UlAEJKTKr" role="2Ry0An">
                           <property role="2Ry0Am" value="commons-csv-1.0.jar" />
                         </node>
                       </node>
@@ -601,21 +601,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7i5Cc6LDo8j" role="3bR37C">
-          <node concept="1BurEX" id="7i5Cc6LDo8k" role="1SiIV1">
-            <node concept="398BVA" id="7i5Cc6LDo84" role="1BurEY">
+        <node concept="1SiIV0" id="8UlAEJKTKP" role="3bR37C">
+          <node concept="1BurEX" id="8UlAEJKTKQ" role="1SiIV1">
+            <node concept="398BVA" id="8UlAEJKTKA" role="1BurEY">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7i5Cc6LDo85" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
-                <node concept="2Ry0Ak" id="7i5Cc6LDo86" role="2Ry0An">
+              <node concept="2Ry0Ak" id="8UlAEJKTKB" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons" />
+                <node concept="2Ry0Ak" id="8UlAEJKTKC" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7i5Cc6LDo87" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
-                    <node concept="2Ry0Ak" id="7i5Cc6LDo88" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="8UlAEJKTKD" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons" />
+                    <node concept="2Ry0Ak" id="8UlAEJKTKE" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="7i5Cc6LDo89" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="8UlAEJKTKF" role="2Ry0An">
                         <property role="2Ry0Am" value="commons-io-2.4" />
-                        <node concept="2Ry0Ak" id="7i5Cc6LDo8a" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="8UlAEJKTKG" role="2Ry0An">
                           <property role="2Ry0Am" value="commons-io-2.4.jar" />
                         </node>
                       </node>
@@ -626,21 +626,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7i5Cc6LDo8$" role="3bR37C">
-          <node concept="1BurEX" id="7i5Cc6LDo8_" role="1SiIV1">
-            <node concept="398BVA" id="7i5Cc6LDo8l" role="1BurEY">
+        <node concept="1SiIV0" id="8UlAEJKTL6" role="3bR37C">
+          <node concept="1BurEX" id="8UlAEJKTL7" role="1SiIV1">
+            <node concept="398BVA" id="8UlAEJKTKR" role="1BurEY">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7i5Cc6LDo8m" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
-                <node concept="2Ry0Ak" id="7i5Cc6LDo8n" role="2Ry0An">
+              <node concept="2Ry0Ak" id="8UlAEJKTKS" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons" />
+                <node concept="2Ry0Ak" id="8UlAEJKTKT" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7i5Cc6LDo8o" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
-                    <node concept="2Ry0Ak" id="7i5Cc6LDo8p" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="8UlAEJKTKU" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons" />
+                    <node concept="2Ry0Ak" id="8UlAEJKTKV" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="7i5Cc6LDo8q" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="8UlAEJKTKW" role="2Ry0An">
                         <property role="2Ry0Am" value="commons-lang3-3.3.2" />
-                        <node concept="2Ry0Ak" id="7i5Cc6LDo8r" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="8UlAEJKTKX" role="2Ry0An">
                           <property role="2Ry0Am" value="commons-lang3-3.3.2.jar" />
                         </node>
                       </node>
@@ -651,21 +651,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7i5Cc6LDo8P" role="3bR37C">
-          <node concept="1BurEX" id="7i5Cc6LDo8Q" role="1SiIV1">
-            <node concept="398BVA" id="7i5Cc6LDo8A" role="1BurEY">
+        <node concept="1SiIV0" id="8UlAEJKTLn" role="3bR37C">
+          <node concept="1BurEX" id="8UlAEJKTLo" role="1SiIV1">
+            <node concept="398BVA" id="8UlAEJKTL8" role="1BurEY">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7i5Cc6LDo8B" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
-                <node concept="2Ry0Ak" id="7i5Cc6LDo8C" role="2Ry0An">
+              <node concept="2Ry0Ak" id="8UlAEJKTL9" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons" />
+                <node concept="2Ry0Ak" id="8UlAEJKTLa" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7i5Cc6LDo8D" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
-                    <node concept="2Ry0Ak" id="7i5Cc6LDo8E" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="8UlAEJKTLb" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons" />
+                    <node concept="2Ry0Ak" id="8UlAEJKTLc" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="7i5Cc6LDo8F" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="8UlAEJKTLd" role="2Ry0An">
                         <property role="2Ry0Am" value="commons-primitives-1.0" />
-                        <node concept="2Ry0Ak" id="7i5Cc6LDo8G" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="8UlAEJKTLe" role="2Ry0An">
                           <property role="2Ry0Am" value="commons-primitives-1.0.jar" />
                         </node>
                       </node>
@@ -676,21 +676,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7i5Cc6LDo96" role="3bR37C">
-          <node concept="1BurEX" id="7i5Cc6LDo97" role="1SiIV1">
-            <node concept="398BVA" id="7i5Cc6LDo8R" role="1BurEY">
+        <node concept="1SiIV0" id="8UlAEJKTLC" role="3bR37C">
+          <node concept="1BurEX" id="8UlAEJKTLD" role="1SiIV1">
+            <node concept="398BVA" id="8UlAEJKTLp" role="1BurEY">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7i5Cc6LDo8S" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
-                <node concept="2Ry0Ak" id="7i5Cc6LDo8T" role="2Ry0An">
+              <node concept="2Ry0Ak" id="8UlAEJKTLq" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons" />
+                <node concept="2Ry0Ak" id="8UlAEJKTLr" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7i5Cc6LDo8U" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
-                    <node concept="2Ry0Ak" id="7i5Cc6LDo8V" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="8UlAEJKTLs" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons" />
+                    <node concept="2Ry0Ak" id="8UlAEJKTLt" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="7i5Cc6LDo8W" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="8UlAEJKTLu" role="2Ry0An">
                         <property role="2Ry0Am" value="miglayout" />
-                        <node concept="2Ry0Ak" id="7i5Cc6LDo8X" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="8UlAEJKTLv" role="2Ry0An">
                           <property role="2Ry0Am" value="miglayout-4.0-swing.jar" />
                         </node>
                       </node>
@@ -701,21 +701,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7i5Cc6LDo9n" role="3bR37C">
-          <node concept="1BurEX" id="7i5Cc6LDo9o" role="1SiIV1">
-            <node concept="398BVA" id="7i5Cc6LDo98" role="1BurEY">
+        <node concept="1SiIV0" id="8UlAEJKTLT" role="3bR37C">
+          <node concept="1BurEX" id="8UlAEJKTLU" role="1SiIV1">
+            <node concept="398BVA" id="8UlAEJKTLE" role="1BurEY">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7i5Cc6LDo99" role="iGT6I">
-                <property role="2Ry0Am" value="mps-apache-commons-math" />
-                <node concept="2Ry0Ak" id="7i5Cc6LDo9a" role="2Ry0An">
+              <node concept="2Ry0Ak" id="8UlAEJKTLF" role="iGT6I">
+                <property role="2Ry0Am" value="mps-apache-commons" />
+                <node concept="2Ry0Ak" id="8UlAEJKTLG" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7i5Cc6LDo9b" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons.math" />
-                    <node concept="2Ry0Ak" id="7i5Cc6LDo9c" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="8UlAEJKTLH" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.apache.commons" />
+                    <node concept="2Ry0Ak" id="8UlAEJKTLI" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="7i5Cc6LDo9d" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="8UlAEJKTLJ" role="2Ry0An">
                         <property role="2Ry0Am" value="miglayout" />
-                        <node concept="2Ry0Ak" id="7i5Cc6LDo9e" role="2Ry0An">
+                        <node concept="2Ry0Ak" id="8UlAEJKTLK" role="2Ry0An">
                           <property role="2Ry0Am" value="miglayout-4.0.jar" />
                         </node>
                       </node>
@@ -3713,7 +3713,7 @@
         <node concept="1SiIV0" id="PE3B26QD0w" role="3bR37C">
           <node concept="3bR9La" id="PE3B26QD0x" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="PE3B26QCrP" resolve="org.apache.commons.math3" />
+            <ref role="3bR37D" node="PE3B26QCrP" resolve="org.apache.commons" />
           </node>
         </node>
       </node>

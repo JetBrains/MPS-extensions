@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.apache.commons.math3" uuid="b0f8641f-bd77-4421-8425-30d9088a82f7" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="org.apache.commons" uuid="b0f8641f-bd77-4421-8425-30d9088a82f7" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

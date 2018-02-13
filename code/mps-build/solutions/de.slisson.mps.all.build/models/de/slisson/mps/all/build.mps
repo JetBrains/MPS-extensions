@@ -5788,7 +5788,7 @@
         <property role="TrG5h" value="test.com.mbeddr.mpsutil.blutil.genutil" />
         <property role="3LESm3" value="990da2f9-03a7-461e-90ee-1e2c77962d6b" />
         <property role="2GAjPV" value="false" />
-        <property role="aoJFB" value="sources and tests" />
+        <property role="aoJFB" value="sources" />
         <node concept="398BVA" id="2NyZxKpX824" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="2NyZxKpX8do" role="iGT6I">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="bb2d89dd-a4c7-4821-a0c8-7437446fd8d3/r:3734b8f4-ef8a-46f3-9666-61760fafcc11(test.ex.match/test.ex.match.main)">
+<model ref="bb2d89dd-a4c7-4821-a0c8-7437446fd8d3/r:3734b8f4-ef8a-46f3-9666-61760fafcc11(test.ex.match/test.ex.match.main@tests)">
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />

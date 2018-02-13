@@ -3,6 +3,10 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/mps-apache-commons/solutions/org.apache.commons/org.apache.commons.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/mps-blutil/languages/com.mbeddr.mpsutil.blutil.genutil/com.mbeddr.mpsutil.blutil.genutil.mpl" folder="mps-blutil" />
+      <modulePath path="$PROJECT_DIR$/mps-blutil/languages/com.mbeddr.mpsutil.blutil/blutil.mpl" folder="mps-blutil" />
+      <modulePath path="$PROJECT_DIR$/mps-blutil/languages/com.mbeddr.mpsutil.blutil/solutions/com.mbeddr.mpsutil.blutil.rt.msd" folder="mps-blutil" />
+      <modulePath path="$PROJECT_DIR$/mps-blutil/solutions/com.mbeddr.mpsutil.blutil.genutil.rt/com.mbeddr.mpsutil.blutil.genutil.rt.msd" folder="mps-blutil" />
       <modulePath path="$PROJECT_DIR$/mps-build/solutions/allScripts/allScripts.msd" folder="mps-build" />
       <modulePath path="$PROJECT_DIR$/mps-build/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd" folder="mps-build" />
       <modulePath path="$PROJECT_DIR$/mps-celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.mpl" folder="mps-celllayout" />

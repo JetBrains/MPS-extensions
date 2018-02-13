@@ -7,6 +7,10 @@
       <modulePath path="$PROJECT_DIR$/mps-blutil/languages/com.mbeddr.mpsutil.blutil/blutil.mpl" folder="mps-blutil" />
       <modulePath path="$PROJECT_DIR$/mps-blutil/languages/com.mbeddr.mpsutil.blutil/solutions/com.mbeddr.mpsutil.blutil.rt.msd" folder="mps-blutil" />
       <modulePath path="$PROJECT_DIR$/mps-blutil/solutions/com.mbeddr.mpsutil.blutil.genutil.rt/com.mbeddr.mpsutil.blutil.genutil.rt.msd" folder="mps-blutil" />
+      <modulePath path="$PROJECT_DIR$/mps-blutil/tests/test.com.mbeddr.mpsutil.blutil.genutil.lang/test.com.mbeddr.mpsutil.blutil.genutil.lang.mpl" folder="mps-blutil" />
+      <modulePath path="$PROJECT_DIR$/mps-blutil/tests/test.com.mbeddr.mpsutil.blutil.genutil/test.com.mbeddr.mpsutil.blutil.genutil.msd" folder="mps-blutil" />
+      <modulePath path="$PROJECT_DIR$/mps-blutil/tests/test.ts.conceptswitch/test.ts.conceptswitch.msd" folder="mps-blutil" />
+      <modulePath path="$PROJECT_DIR$/mps-blutil/tests/test.ts.match/match.msd" folder="mps-blutil" />
       <modulePath path="$PROJECT_DIR$/mps-build/solutions/allScripts/allScripts.msd" folder="mps-build" />
       <modulePath path="$PROJECT_DIR$/mps-build/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd" folder="mps-build" />
       <modulePath path="$PROJECT_DIR$/mps-celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.mpl" folder="mps-celllayout" />

@@ -5,12 +5,17 @@
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="hm5v" ref="r:3d8b4628-659e-4af1-a607-3cc893005b62(de.slisson.mps.tables.runtime.cells)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
     <import index="6lvu" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellMenu(MPS.Editor/)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
@@ -1357,10 +1362,15 @@
                                     <node concept="Xl_RD" id="4Fanv3X8Uph" role="3uHU7w">
                                       <property role="Xl_RC" value=".plugin" />
                                     </node>
-                                    <node concept="37shsh" id="4Fanv3X8TBF" role="3uHU7B">
-                                      <node concept="20RdaH" id="4Fanv3X8U56" role="37shsm">
-                                        <property role="20Rdg5" value="7e450f4e-1ac3-41ef-a851-4598161bdb94" />
-                                        <property role="20Rdg7" value="de.slisson.mps.tables" />
+                                    <node concept="2OqwBi" id="1x$5PmO0T6j" role="3uHU7B">
+                                      <node concept="37shsh" id="4Fanv3X8TBF" role="2Oq$k0">
+                                        <node concept="20RdaH" id="4Fanv3X8U56" role="37shsm">
+                                          <property role="20Rdg5" value="7e450f4e-1ac3-41ef-a851-4598161bdb94" />
+                                          <property role="20Rdg7" value="de.slisson.mps.tables" />
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="1x$5PmO0Twb" role="2OqNvi">
+                                        <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName():java.lang.String" resolve="getModuleName" />
                                       </node>
                                     </node>
                                   </node>

@@ -1479,7 +1479,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="5yvl18N8PtL">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil" />
+    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="1lH9Xt" id="XaN6GmzJW">
     <property role="TrG5h" value="TestFilter" />

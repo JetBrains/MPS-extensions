@@ -277,7 +277,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="4e437uDboTC">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil" />
+    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
 </model>
 

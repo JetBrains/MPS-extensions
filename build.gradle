@@ -15,7 +15,7 @@ import de.itemis.mps.gradle.*
 
 
 task wrapper(type: Wrapper) {
-    gradleVersion '3.1'
+    gradleVersion '4.4.1'
     distributionType 'all'
 }
 
@@ -62,6 +62,8 @@ def minor = '1'
 def major = '0'
 def commitHash = GitBasedVersioning.getGitShortCommitHash()
 version = "$major.$minor.${GitBasedVersioning.getGitCommitCount()}.$commitHash"
+
+println "##teamcity[buildNumber '${version}']"
 
 ext.releaseRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr'
 ext.snapshotRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots'

@@ -5068,6 +5068,33 @@
       </node>
     </node>
     <node concept="1l3spV" id="2Xjt3l56m3c" role="1l3spN">
+      <node concept="m$_wl" id="6860Y5A0_cI" role="39821P">
+        <ref role="m_rDy" node="6860Y5_ZW8e" resolve="de.itemis.mps.utils" />
+        <node concept="398223" id="6860Y5A0_J4" role="39821P">
+          <node concept="3_J27D" id="6860Y5A0_J5" role="Nbhlr">
+            <node concept="3Mxwew" id="6860Y5A0_J8" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="6860Y5A0_Ja" role="39821P">
+            <node concept="398BVA" id="6860Y5A0_Je" role="2HvfZ0">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6860Y5A0_ZV" role="iGT6I">
+                <property role="2Ry0Am" value="mps-utils" />
+                <node concept="2Ry0Ak" id="6860Y5A0A00" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6860Y5A0A05" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.serializer.xml" />
+                    <node concept="2Ry0Ak" id="6860Y5A0A0a" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="m$_wl" id="4hvHh3QWqH0" role="39821P">
         <ref role="m_rDy" node="4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
       </node>

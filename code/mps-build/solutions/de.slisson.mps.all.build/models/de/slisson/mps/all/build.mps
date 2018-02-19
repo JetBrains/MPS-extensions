@@ -4874,6 +4874,86 @@
     </node>
     <node concept="2G$12M" id="6860Y5_ZZT3" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.utils" />
+      <node concept="1E1JtA" id="457TI2XWdaZ" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.nodeversioning.runtime" />
+        <property role="3LESm3" value="380fa920-8f50-409f-80ed-2a1bd3741204" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="457TI2XWdsb" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="457TI2XWdXv" role="iGT6I">
+            <property role="2Ry0Am" value="mps-nodeversioning" />
+            <node concept="2Ry0Ak" id="457TI2XWeJp" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="457TI2XWfgG" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.nodeversioning.runtime.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="457TI2XWfLl" role="3bR37C">
+          <node concept="3bR9La" id="457TI2XWfLm" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="457TI2XWfLn" role="3bR37C">
+          <node concept="3bR9La" id="457TI2XWfLo" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="457TI2XWfLp" role="3bR37C">
+          <node concept="3bR9La" id="457TI2XWfLq" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="457TI2XWfLr" role="3bR37C">
+          <node concept="3bR9La" id="457TI2XWfLs" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6860Y5A00Lp" resolve="com.mbeddr.mpsutil.serializer.xml" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="457TI2XWjJw" role="3bR37C">
+          <node concept="3bR9La" id="457TI2XWjJx" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="457TI2XWgk_" resolve="de.itemis.mps.nodeversioning" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="457TI2XWgk_" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.nodeversioning" />
+        <property role="3LESm3" value="93b43956-3552-4a1d-bf2a-f4d377edbed6" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="457TI2XWgA7" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="457TI2XWh7H" role="iGT6I">
+            <property role="2Ry0Am" value="mps-nodeversioning" />
+            <node concept="2Ry0Ak" id="457TI2XWhDi" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="457TI2XWiaR" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.nodeversioning" />
+                <node concept="2Ry0Ak" id="457TI2XWiGs" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.nodeversioning.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="457TI2XWjdn" role="1TViLv">
+          <property role="TrG5h" value="de.itemis.mps.nodeversioning#6525061419584643890" />
+          <property role="3LESm3" value="fd3d0e89-8881-49ed-815d-6fc731a8b022" />
+          <property role="2GAjPV" value="false" />
+        </node>
+        <node concept="1SiIV0" id="457TI2XWjJF" role="3bR37C">
+          <node concept="3bR9La" id="457TI2XWjJG" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="457TI2XWgk_" resolve="de.itemis.mps.nodeversioning" />
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtA" id="6860Y5A00Lp" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.mbeddr.mpsutil.serializer.xml" />

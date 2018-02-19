@@ -47,7 +47,6 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">380fa920-8f50-409f-80ed-2a1bd3741204(de.itemis.mps.nodeversioning.runtime)</dependency>
     <dependency reexport="false">93b43956-3552-4a1d-bf2a-f4d377edbed6(de.itemis.mps.nodeversioning)</dependency>
   </dependencies>
   <languageVersions>
@@ -91,7 +90,6 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="93b43956-3552-4a1d-bf2a-f4d377edbed6(de.itemis.mps.nodeversioning)" version="0" />
-    <module reference="380fa920-8f50-409f-80ed-2a1bd3741204(de.itemis.mps.nodeversioning.runtime)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />

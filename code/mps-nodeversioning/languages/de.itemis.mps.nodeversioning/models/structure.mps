@@ -84,7 +84,7 @@
   <node concept="1TIwiD" id="5EdFcCNWId7">
     <property role="EcuMT" value="6525061419584643911" />
     <property role="TrG5h" value="LinkVersion" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDh" resolve="LinkAttribute" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyj" id="5EdFcCNWIdc" role="1TKVEi">
       <property role="IQ2ns" value="6525061419584643916" />
       <property role="20lmBu" value="reference" />
@@ -100,7 +100,7 @@
       <ref role="20lvS9" node="5EdFcCNWIcP" resolve="NodeVersion" />
     </node>
     <node concept="M6xJ_" id="5EdFcCNWId8" role="lGtFl">
-      <property role="Hh88m" value="versions" />
+      <property role="Hh88m" value="linkVersions" />
       <node concept="tn0Fv" id="5EdFcCNWIda" role="HhnKV">
         <property role="tnX3d" value="true" />
       </node>

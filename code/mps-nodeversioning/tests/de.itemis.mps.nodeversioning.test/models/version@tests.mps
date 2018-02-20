@@ -11,6 +11,7 @@
     <import index="wr0o" ref="r:cdad18ca-b998-4785-8c9d-729fc6de3218(de.itemis.mps.nodeversioning.runtime.rt)" />
     <import index="p06p" ref="r:f0bfa674-c42b-46b3-973f-d2b7ab51f441(de.itemis.mps.nodeversioning.structure)" />
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -135,6 +136,11 @@
       </concept>
       <concept id="1172075514136" name="jetbrains.mps.baseLanguage.unitTest.structure.MessageHolder" flags="ng" index="3_9gw8">
         <child id="1172075534298" name="message" index="3_9lra" />
+      </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1219352745532" name="jetbrains.mps.lang.smodel.structure.NodeRefExpression" flags="nn" index="3B5_sB">
+        <reference id="1219352800908" name="referentNode" index="3B5MYn" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -910,6 +916,26 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="7XTah2uhtVO" role="1SL9yI">
+      <property role="TrG5h" value="detectCycle" />
+      <node concept="3cqZAl" id="7XTah2uhtVP" role="3clF45" />
+      <node concept="3clFbS" id="7XTah2uhtVT" role="3clF47">
+        <node concept="3$NI$W" id="7XTah2uhuZN" role="3cqZAp">
+          <node concept="3clFbF" id="7XTah2uhvWK" role="3$Oloe">
+            <node concept="2YIFZM" id="7XTah2uhvZH" role="3clFbG">
+              <ref role="37wK5l" to="wr0o:5cotNpKy8b5" resolve="newVersion" />
+              <ref role="1Pybhc" to="wr0o:6860Y5A0CJT" resolve="VersioningHelper" />
+              <node concept="3B5_sB" id="7XTah2uhx10" role="37wK5m">
+                <ref role="3B5MYn" node="7XTah2uhtm9" resolve="CycleA" />
+              </node>
+            </node>
+          </node>
+          <node concept="3uibUv" id="7XTah2uhxZf" role="3$Qgvv">
+            <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1qefOq" id="2Xz0w9qDpSd" role="1SKRRt">
       <node concept="312cEu" id="2Xz0w9qDpSf" role="1qenE9">
         <property role="TrG5h" value="dummy" />
@@ -1218,6 +1244,34 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="7XTah2uhtm9">
+    <property role="TrG5h" value="CycleA" />
+    <node concept="312cEg" id="7XTah2uhtpA" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="b" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="7XTah2uhtp7" role="1B3o_S" />
+      <node concept="3uibUv" id="7XTah2uhtpn" role="1tU5fm">
+        <ref role="3uigEE" node="7XTah2uhtm_" resolve="CycleB" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="7XTah2uhtma" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="7XTah2uhtm_">
+    <property role="TrG5h" value="CycleB" />
+    <node concept="312cEg" id="7XTah2uhtov" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="a" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="7XTah2uhtnW" role="1B3o_S" />
+      <node concept="3uibUv" id="7XTah2uhtoe" role="1tU5fm">
+        <ref role="3uigEE" node="7XTah2uhtm9" resolve="CycleA" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="7XTah2uhtmA" role="1B3o_S" />
   </node>
 </model>
 

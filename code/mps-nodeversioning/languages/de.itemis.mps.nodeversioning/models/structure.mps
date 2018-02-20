@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -61,15 +64,28 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
+    <node concept="1TJgyj" id="2Xz0w9qAsWD" role="1TKVEi">
+      <property role="IQ2ns" value="3414575151610187561" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="dependencies" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5EdFcCNWId7" resolve="LinkVersion" />
+    </node>
     <node concept="1TJgyi" id="5EdFcCNWIcW" role="1TKVEl">
       <property role="IQ2nx" value="6525061419584643900" />
       <property role="TrG5h" value="version" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <node concept="t5JxF" id="2Xz0w9qAsWK" role="lGtFl">
+        <property role="t5JxN" value="Representing the version number, incremented for each new version. Must be unique for the node." />
+      </node>
     </node>
     <node concept="1TJgyi" id="5cotNpKxrQt" role="1TKVEl">
       <property role="IQ2nx" value="5987666780288826781" />
       <property role="TrG5h" value="hash" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="t5JxF" id="2Xz0w9qAsWI" role="lGtFl">
+        <property role="t5JxN" value="The hash SHA hash of the subtree, does not include referenced subtrees (nodes)" />
+      </node>
     </node>
     <node concept="M6xJ_" id="5EdFcCNWIcQ" role="lGtFl">
       <property role="Hh88m" value="versions" />
@@ -84,29 +100,13 @@
   <node concept="1TIwiD" id="5EdFcCNWId7">
     <property role="EcuMT" value="6525061419584643911" />
     <property role="TrG5h" value="LinkVersion" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="1TJgyj" id="5EdFcCNWIdc" role="1TKVEi">
-      <property role="IQ2ns" value="6525061419584643916" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2Xz0w9qAsWB" role="1TKVEi">
+      <property role="IQ2ns" value="3414575151610187559" />
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="source" />
+      <property role="20kJfa" value="nodeVersion" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5EdFcCNWIcP" resolve="NodeVersion" />
-    </node>
-    <node concept="1TJgyj" id="5EdFcCNWIde" role="1TKVEi">
-      <property role="IQ2ns" value="6525061419584643918" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5EdFcCNWIcP" resolve="NodeVersion" />
-    </node>
-    <node concept="M6xJ_" id="5EdFcCNWId8" role="lGtFl">
-      <property role="Hh88m" value="linkVersions" />
-      <node concept="tn0Fv" id="5EdFcCNWIda" role="HhnKV">
-        <property role="tnX3d" value="true" />
-      </node>
-      <node concept="trNpa" id="5EdFcCNWIdk" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
     </node>
   </node>
 </model>

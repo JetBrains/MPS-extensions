@@ -6016,7 +6016,7 @@
         <property role="TrG5h" value="test.com.mbeddr.mpsutil.blutil.genutil" />
         <property role="3LESm3" value="990da2f9-03a7-461e-90ee-1e2c77962d6b" />
         <property role="2GAjPV" value="false" />
-        <property role="aoJFB" value="sources and tests" />
+        <property role="aoJFB" value="sources" />
         <node concept="398BVA" id="2NyZxKpX824" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="2NyZxKpX8do" role="iGT6I">
@@ -6347,9 +6347,6 @@
       </node>
       <node concept="22LTRM" id="2NyZxKpXdDc" role="22LTRK">
         <ref role="22LTRN" node="2NyZxKpX96P" resolve="test.ts.conceptswitch" />
-      </node>
-      <node concept="22LTRM" id="2NyZxKpXdQi" role="22LTRK">
-        <ref role="22LTRN" node="2NyZxKpX7We" resolve="test.com.mbeddr.mpsutil.blutil.genutil" />
       </node>
       <node concept="22LTRM" id="7XTah2ufVII" role="22LTRK">
         <ref role="22LTRN" node="7XTah2ufTo1" resolve="de.itemis.mps.nodeversioning.test" />

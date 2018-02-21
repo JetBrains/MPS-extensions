@@ -32,6 +32,8 @@ if (project.hasProperty("forceCI")) {
 }
 
 
+
+
 // Detect jdk location, required to start ant with tools.jar on classpath otherwise javac and tests will fail
 def java_home = System.properties['java.home']
 def jdk_home = java_home
@@ -60,10 +62,14 @@ ext.mpsVersion = '2017.3.4'
 // artifacts version. this is the default versioning that is used
 def minor = '1'
 def major = '0'
-def commitHash = GitBasedVersioning.getGitShortCommitHash()
-version = GitBasedVersioning.getVersion(major,minor)
 
-println "##teamcity[buildNumber '${version}']"
+if (ciBuild) {
+    version = GitBasedVersioning.getVersionWithCount(major, minor, System.env.BUILD_NUMBER.toInteger())
+    println "##teamcity[buildNumber '${version}']"
+} else {
+    println "Local build detected, version will be SNAPSHOT"
+    version = "1.0-SNAPSHOT"
+}
 
 ext.releaseRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr'
 ext.snapshotRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots'

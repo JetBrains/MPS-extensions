@@ -61,7 +61,7 @@ ext.mpsVersion = '2017.3.4'
 def minor = '1'
 def major = '0'
 def commitHash = GitBasedVersioning.getGitShortCommitHash()
-version = "$major.$minor.${GitBasedVersioning.getGitCommitCount()}.$commitHash"
+version = GitBasedVersioning.getVersion(major,minor)
 
 println "##teamcity[buildNumber '${version}']"
 

@@ -57,7 +57,7 @@ ext.dependencyRepositories = [
         'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
 ]
 // Dependency versions
-ext.mpsVersion = '2017.3.4'
+ext.mpsVersion = '2017.3.5'
 
 // artifacts version. this is the default versioning that is used
 def minor = '1'

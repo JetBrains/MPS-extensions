@@ -219,4 +219,5 @@ publishing {
     }
 }
 
-assemble.dependsOn build_languages
+
+defaultTasks 'build_languages'

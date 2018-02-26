@@ -508,9 +508,6 @@
         <child id="1197687026896" name="keyType" index="3rHrn6" />
         <child id="1197687035757" name="valueType" index="3rHtpV" />
       </concept>
-      <concept id="1576845966386891367" name="jetbrains.mps.baseLanguage.collections.structure.CustomMapCreator" flags="nn" index="1u7pXE">
-        <reference id="1576845966386891370" name="containerDeclaration" index="1u7pXB" />
-      </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="1225711141656" name="jetbrains.mps.baseLanguage.collections.structure.ListElementAccessExpression" flags="nn" index="1y4W85">
@@ -3832,31 +3829,21 @@
         </node>
       </node>
     </node>
-    <node concept="Wx3nA" id="5Jx74hgxMip" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="ourOriginalChilds" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3rvAFt" id="5Jx74hgxMgp" role="1tU5fm">
-        <node concept="3uibUv" id="5Jx74hgxMgK" role="3rvQeY">
-          <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
+    <node concept="Wx3nA" id="3vGc7HK7dR5" role="jymVt">
+      <property role="TrG5h" value="ORIGINAL_CHILDREN_KEY" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="3vGc7HK7bwd" role="1tU5fm" />
+      <node concept="3Tm6S6" id="3vGc7HK79ZV" role="1B3o_S" />
+      <node concept="3cpWs3" id="3vGc7HK7die" role="33vP2m">
+        <node concept="Xl_RD" id="3vGc7HK7dlT" role="3uHU7w">
+          <property role="Xl_RC" value=".originalChildren" />
         </node>
-        <node concept="2hMVRd" id="5Jx74hgxTeQ" role="3rvSg0">
-          <node concept="3uibUv" id="5Jx74hgxTjP" role="2hN53Y">
-            <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+        <node concept="2OqwBi" id="3vGc7HK7c6V" role="3uHU7B">
+          <node concept="3VsKOn" id="3vGc7HK7bNf" role="2Oq$k0">
+            <ref role="3VsUkX" node="6OOkb_bf0Q2" resolve="PartialTableExtractor" />
           </node>
-        </node>
-      </node>
-      <node concept="3Tm6S6" id="5Jx74hgxLjN" role="1B3o_S" />
-      <node concept="2ShNRf" id="5Jx74hgxNgV" role="33vP2m">
-        <node concept="1u7pXE" id="5Jx74hgxNgS" role="2ShVmc">
-          <ref role="1u7pXB" to="z8iw:3TJnG96iD$S" resolve="weakHashMap" />
-          <node concept="3uibUv" id="5Jx74hgxNgT" role="3rHrn6">
-            <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-          </node>
-          <node concept="2hMVRd" id="5Jx74hgxToO" role="3rHtpV">
-            <node concept="3uibUv" id="5Jx74hgxTva" role="2hN53Y">
-              <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
-            </node>
+          <node concept="liA8E" id="3vGc7HK7d0N" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
           </node>
         </node>
       </node>
@@ -4417,7 +4404,7 @@
                   </node>
                 </node>
                 <node concept="1rXfSq" id="5Jx74hgyAX6" role="2GsD0m">
-                  <ref role="37wK5l" node="5Jx74hgxUKD" resolve="combineWithOriginalChilds" />
+                  <ref role="37wK5l" node="5Jx74hgxUKD" resolve="combineWithOriginalChildren" />
                   <node concept="37vLTw" id="5Jx74hgyAYQ" role="37wK5m">
                     <ref role="3cqZAo" node="6OOkb_biEBF" resolve="collection" />
                   </node>
@@ -4442,7 +4429,7 @@
     </node>
     <node concept="2tJIrI" id="1U60oYvmLsa" role="jymVt" />
     <node concept="3clFb_" id="5Jx74hgxUKD" role="jymVt">
-      <property role="TrG5h" value="combineWithOriginalChilds" />
+      <property role="TrG5h" value="combineWithOriginalChildren" />
       <node concept="A3Dl8" id="5Jx74hgyzxX" role="3clF45">
         <node concept="3uibUv" id="5Jx74hgyzxZ" role="A3Ik2">
           <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
@@ -4494,28 +4481,39 @@
               <ref role="3cqZAo" node="5Jx74hgynr0" resolve="all" />
             </node>
             <node concept="X8dFx" id="5Jx74hgys0L" role="2OqNvi">
-              <node concept="3EllGN" id="5Jx74hgythk" role="25WWJ7">
-                <node concept="37vLTw" id="5Jx74hgytuP" role="3ElVtu">
-                  <ref role="3cqZAo" node="5Jx74hgy4xP" resolve="parent" />
+              <node concept="10QFUN" id="3vGc7HK7pmg" role="25WWJ7">
+                <node concept="2OqwBi" id="3vGc7HK7pmc" role="10QFUP">
+                  <node concept="37vLTw" id="3vGc7HK7pmd" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5Jx74hgy4xP" resolve="parent" />
+                  </node>
+                  <node concept="liA8E" id="3vGc7HK7pme" role="2OqNvi">
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
+                    <node concept="37vLTw" id="3vGc7HK7pmf" role="37wK5m">
+                      <ref role="3cqZAo" node="3vGc7HK7dR5" resolve="ORIGINAL_CHILDREN_KEY" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="37vLTw" id="5Jx74hgysuh" role="3ElQJh">
-                  <ref role="3cqZAo" node="5Jx74hgxMip" resolve="ourOriginalChilds" />
+                <node concept="A3Dl8" id="3vGc7HK7qcN" role="10QFUM">
+                  <node concept="3uibUv" id="3vGc7HK7qpl" role="A3Ik2">
+                    <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5Jx74hgytNm" role="3cqZAp">
-          <node concept="37vLTI" id="5Jx74hgyuB0" role="3clFbG">
-            <node concept="37vLTw" id="5Jx74hgyuCM" role="37vLTx">
-              <ref role="3cqZAo" node="5Jx74hgynr0" resolve="all" />
+        <node concept="3clFbF" id="3vGc7HK77NK" role="3cqZAp">
+          <node concept="2OqwBi" id="3vGc7HK7856" role="3clFbG">
+            <node concept="37vLTw" id="3vGc7HK77NI" role="2Oq$k0">
+              <ref role="3cqZAo" node="5Jx74hgy4xP" resolve="parent" />
             </node>
-            <node concept="3EllGN" id="5Jx74hgyune" role="37vLTJ">
-              <node concept="37vLTw" id="5Jx74hgyup2" role="3ElVtu">
-                <ref role="3cqZAo" node="5Jx74hgy4xP" resolve="parent" />
+            <node concept="liA8E" id="3vGc7HK78Fm" role="2OqNvi">
+              <ref role="37wK5l" to="f4zo:~EditorCell.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
+              <node concept="37vLTw" id="3vGc7HK7jp6" role="37wK5m">
+                <ref role="3cqZAo" node="3vGc7HK7dR5" resolve="ORIGINAL_CHILDREN_KEY" />
               </node>
-              <node concept="37vLTw" id="5Jx74hgytNk" role="3ElQJh">
-                <ref role="3cqZAo" node="5Jx74hgxMip" resolve="ourOriginalChilds" />
+              <node concept="37vLTw" id="3vGc7HK7jzR" role="37wK5m">
+                <ref role="3cqZAo" node="5Jx74hgynr0" resolve="all" />
               </node>
             </node>
           </node>

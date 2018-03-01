@@ -18920,8 +18920,10 @@
                                     </node>
                                   </node>
                                 </node>
-                                <node concept="37vLTw" id="4ChVjVubhWd" role="37wK5m">
-                                  <ref role="3cqZAo" node="4ChVjVuaRC5" resolve="myAccessorFactory" />
+                                <node concept="2ShNRf" id="4uAxemQXFYi" role="37wK5m">
+                                  <node concept="HV5vD" id="4uAxemQYten" role="2ShVmc">
+                                    <ref role="HV5vE" node="4uAxemQYhmn" resolve="ModelSynchronizer.DeprecatedAccessorFactory" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -22970,6 +22972,149 @@
       <node concept="3Tm6S6" id="5A8i_2xsag4" role="1B3o_S" />
       <node concept="16euLQ" id="5A8i_2xspda" role="16eVyc">
         <property role="TrG5h" value="T" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4uAxemQY3no" role="jymVt" />
+    <node concept="312cEu" id="4uAxemQYhmn" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="DeprecatedAccessorFactory" />
+      <node concept="312cEg" id="4uAxemQYptA" role="jymVt">
+        <property role="TrG5h" value="msg" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm6S6" id="4uAxemQYptB" role="1B3o_S" />
+        <node concept="17QB3L" id="4uAxemQYptC" role="1tU5fm" />
+        <node concept="Xl_RD" id="4uAxemQYptD" role="33vP2m">
+          <property role="Xl_RC" value="Use of IAccessorFactory is deprecated here. Override the alternative method that doesn't require a return value." />
+        </node>
+      </node>
+      <node concept="2tJIrI" id="4uAxemQYptE" role="jymVt" />
+      <node concept="3clFb_" id="4uAxemQYptF" role="jymVt">
+        <property role="TrG5h" value="fromSNode" />
+        <property role="1EzhhJ" value="false" />
+        <node concept="37vLTG" id="4uAxemQYptG" role="3clF46">
+          <property role="TrG5h" value="node" />
+          <node concept="3Tqbb2" id="4uAxemQYptH" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="4uAxemQYptI" role="3clF46">
+          <property role="TrG5h" value="duplicatesSafe" />
+          <node concept="10P_77" id="4uAxemQYptJ" role="1tU5fm" />
+        </node>
+        <node concept="3uibUv" id="4uAxemQYptK" role="3clF45">
+          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+          <node concept="3uibUv" id="4uAxemQYptL" role="11_B2D">
+            <ref role="3uigEE" node="4teJTSBx0$0" resolve="IDiagramElementAccessor" />
+          </node>
+        </node>
+        <node concept="3Tm1VV" id="4uAxemQYptM" role="1B3o_S" />
+        <node concept="2AHcQZ" id="4uAxemQYptN" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3clFbS" id="4uAxemQYptO" role="3clF47">
+          <node concept="YS8fn" id="4uAxemQYptP" role="3cqZAp">
+            <node concept="2ShNRf" id="4uAxemQYptQ" role="YScLw">
+              <node concept="1pGfFk" id="4uAxemQYptR" role="2ShVmc">
+                <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+                <node concept="37vLTw" id="4uAxemQYptS" role="37wK5m">
+                  <ref role="3cqZAo" node="4uAxemQYptA" resolve="msg" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFb_" id="4uAxemQYptT" role="jymVt">
+        <property role="TrG5h" value="fromSNode" />
+        <property role="1EzhhJ" value="false" />
+        <node concept="37vLTG" id="4uAxemQYptU" role="3clF46">
+          <property role="TrG5h" value="node" />
+          <node concept="3Tqbb2" id="4uAxemQYptV" role="1tU5fm" />
+        </node>
+        <node concept="3uibUv" id="4uAxemQYptW" role="3clF45">
+          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+          <node concept="3uibUv" id="4uAxemQYptX" role="11_B2D">
+            <ref role="3uigEE" node="4teJTSBx0$0" resolve="IDiagramElementAccessor" />
+          </node>
+        </node>
+        <node concept="3Tm1VV" id="4uAxemQYptY" role="1B3o_S" />
+        <node concept="2AHcQZ" id="4uAxemQYptZ" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3clFbS" id="4uAxemQYpu0" role="3clF47">
+          <node concept="YS8fn" id="4uAxemQYpu1" role="3cqZAp">
+            <node concept="2ShNRf" id="4uAxemQYpu2" role="YScLw">
+              <node concept="1pGfFk" id="4uAxemQYpu3" role="2ShVmc">
+                <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+                <node concept="37vLTw" id="4uAxemQYpu4" role="37wK5m">
+                  <ref role="3cqZAo" node="4uAxemQYptA" resolve="msg" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFb_" id="4uAxemQYpu5" role="jymVt">
+        <property role="1EzhhJ" value="false" />
+        <property role="TrG5h" value="edgeFromSNode" />
+        <node concept="3uibUv" id="4uAxemQYpu6" role="3clF45">
+          <ref role="3uigEE" node="4teJTSBwOHa" resolve="IEdgeAccessor" />
+        </node>
+        <node concept="3Tm1VV" id="4uAxemQYpu7" role="1B3o_S" />
+        <node concept="37vLTG" id="4uAxemQYpu8" role="3clF46">
+          <property role="TrG5h" value="node" />
+          <node concept="3Tqbb2" id="4uAxemQYpu9" role="1tU5fm" />
+          <node concept="2AHcQZ" id="4uAxemQYpua" role="2AJF6D">
+            <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="4uAxemQYpub" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+        <node concept="3clFbS" id="4uAxemQYpuc" role="3clF47">
+          <node concept="YS8fn" id="4uAxemQYpud" role="3cqZAp">
+            <node concept="2ShNRf" id="4uAxemQYpue" role="YScLw">
+              <node concept="1pGfFk" id="4uAxemQYpuf" role="2ShVmc">
+                <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+                <node concept="37vLTw" id="4uAxemQYpug" role="37wK5m">
+                  <ref role="3cqZAo" node="4uAxemQYptA" resolve="msg" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFb_" id="4uAxemQYpuh" role="jymVt">
+        <property role="1EzhhJ" value="false" />
+        <property role="TrG5h" value="boxFromSNode" />
+        <node concept="3uibUv" id="4uAxemQYpui" role="3clF45">
+          <ref role="3uigEE" node="4teJTSBwM8R" resolve="IBoxAccessor" />
+        </node>
+        <node concept="3Tm1VV" id="4uAxemQYpuj" role="1B3o_S" />
+        <node concept="37vLTG" id="4uAxemQYpuk" role="3clF46">
+          <property role="TrG5h" value="node" />
+          <node concept="3Tqbb2" id="4uAxemQYpul" role="1tU5fm" />
+          <node concept="2AHcQZ" id="4uAxemQYpum" role="2AJF6D">
+            <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="4uAxemQYpun" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+        <node concept="3clFbS" id="4uAxemQYpuo" role="3clF47">
+          <node concept="YS8fn" id="4uAxemQYpup" role="3cqZAp">
+            <node concept="2ShNRf" id="4uAxemQYpuq" role="YScLw">
+              <node concept="1pGfFk" id="4uAxemQYpur" role="2ShVmc">
+                <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+                <node concept="37vLTw" id="4uAxemQYpus" role="37wK5m">
+                  <ref role="3cqZAo" node="4uAxemQYptA" resolve="msg" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4uAxemQYhmo" role="1B3o_S" />
+      <node concept="3uibUv" id="4uAxemQYplm" role="EKbjA">
+        <ref role="3uigEE" node="4ChVjVucpK0" resolve="IAccessorFactory" />
       </node>
     </node>
     <node concept="3Tm1VV" id="4teJTSBx6Ra" role="1B3o_S" />
@@ -31629,6 +31774,7 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="create" />
       <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="true" />
       <node concept="37vLTG" id="7vufT$m7AS5" role="3clF46">
         <property role="TrG5h" value="fromNode" />
         <node concept="3Tqbb2" id="7vufT$m7AS6" role="1tU5fm" />
@@ -31680,7 +31826,16 @@
       <node concept="2AHcQZ" id="7RbR7LCsH2H" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
-      <node concept="2AHcQZ" id="1h8WcYQ0GT$" role="2AJF6D">
+      <node concept="P$JXv" id="4uAxemQYvu_" role="lGtFl">
+        <node concept="TZ5HI" id="4uAxemQYvuA" role="3nqlJM">
+          <node concept="TZ5HA" id="4uAxemQYvuB" role="3HnX3l">
+            <node concept="1dT_AC" id="4uAxemQYvHB" role="1dT_Ay">
+              <property role="1dT_AB" value=" Override the create method that doesn't expect a return value and remove usages of IAccessorFactory" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4uAxemQYvuC" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
@@ -31857,80 +32012,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="4be4ERv3Oos" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="create" />
-      <node concept="37vLTG" id="4be4ERv3Oot" role="3clF46">
-        <property role="TrG5h" value="from" />
-        <node concept="3uibUv" id="4be4ERv3Oou" role="1tU5fm">
-          <ref role="3uigEE" node="6clvLV1YfKy" resolve="IConnectionEndpoint" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="4be4ERv3Oov" role="3clF46">
-        <property role="TrG5h" value="to" />
-        <node concept="3uibUv" id="4be4ERv3Oow" role="1tU5fm">
-          <ref role="3uigEE" node="6clvLV1YfKy" resolve="IConnectionEndpoint" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="4be4ERv3Oox" role="3clF46">
-        <property role="TrG5h" value="factory" />
-        <node concept="3uibUv" id="4be4ERv3Ooy" role="1tU5fm">
-          <ref role="3uigEE" node="4ChVjVucpK0" resolve="IAccessorFactory" />
-        </node>
-      </node>
-      <node concept="3uibUv" id="4be4ERv3Ooz" role="3clF45">
-        <ref role="3uigEE" node="4teJTSBwOHa" resolve="IEdgeAccessor" />
-      </node>
-      <node concept="3Tm1VV" id="4be4ERv3Oo$" role="1B3o_S" />
-      <node concept="2AHcQZ" id="4be4ERv3Oo_" role="2AJF6D">
-        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
-      </node>
-      <node concept="2AHcQZ" id="4be4ERv3OoQ" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-      <node concept="3clFbS" id="4be4ERv3OoR" role="3clF47">
-        <node concept="3clFbF" id="4be4ERv3WTK" role="3cqZAp">
-          <node concept="1rXfSq" id="4be4ERv3WTJ" role="3clFbG">
-            <ref role="37wK5l" node="7vufT$m7AS4" resolve="create" />
-            <node concept="2OqwBi" id="4be4ERv3XyV" role="37wK5m">
-              <node concept="37vLTw" id="4be4ERv3XyW" role="2Oq$k0">
-                <ref role="3cqZAo" node="4be4ERv3Oot" resolve="from" />
-              </node>
-              <node concept="liA8E" id="4be4ERv3XyX" role="2OqNvi">
-                <ref role="37wK5l" node="6clvLV1Yg6Z" resolve="getSNode" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="4be4ERv3XyY" role="37wK5m">
-              <node concept="37vLTw" id="4be4ERv3XyZ" role="2Oq$k0">
-                <ref role="3cqZAo" node="4be4ERv3Oot" resolve="from" />
-              </node>
-              <node concept="liA8E" id="4be4ERv3Xz0" role="2OqNvi">
-                <ref role="37wK5l" node="6clvLV1Yg88" resolve="getPortName" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="4be4ERv3Xz1" role="37wK5m">
-              <node concept="37vLTw" id="4be4ERv3Xz2" role="2Oq$k0">
-                <ref role="3cqZAo" node="4be4ERv3Oov" resolve="to" />
-              </node>
-              <node concept="liA8E" id="4be4ERv3Xz3" role="2OqNvi">
-                <ref role="37wK5l" node="6clvLV1Yg6Z" resolve="getSNode" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="4be4ERv3Xz4" role="37wK5m">
-              <node concept="37vLTw" id="4be4ERv3Xz5" role="2Oq$k0">
-                <ref role="3cqZAo" node="4be4ERv3Oov" resolve="to" />
-              </node>
-              <node concept="liA8E" id="4be4ERv3Xz6" role="2OqNvi">
-                <ref role="37wK5l" node="6clvLV1Yg88" resolve="getPortName" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="4be4ERv3YXx" role="37wK5m">
-              <ref role="3cqZAo" node="4be4ERv3Oox" resolve="factory" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="1h8WcYQ0LIv" role="jymVt" />
     <node concept="3clFb_" id="1h8WcYQ0LjM" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -31955,12 +32036,38 @@
       <node concept="3clFbS" id="1h8WcYQ0LjX" role="3clF47">
         <node concept="3clFbF" id="1h8WcYQ0LjY" role="3cqZAp">
           <node concept="1rXfSq" id="1h8WcYQ0LjZ" role="3clFbG">
-            <ref role="37wK5l" node="1h8WcYQ0LjM" resolve="create" />
-            <node concept="37vLTw" id="1h8WcYQ0MZI" role="37wK5m">
-              <ref role="3cqZAo" node="1h8WcYQ0LjN" resolve="from" />
+            <ref role="37wK5l" node="1h8WcYQ0Gzg" resolve="create" />
+            <node concept="2OqwBi" id="4uAxemRif1X" role="37wK5m">
+              <node concept="37vLTw" id="1h8WcYQ0MZI" role="2Oq$k0">
+                <ref role="3cqZAo" node="1h8WcYQ0LjN" resolve="from" />
+              </node>
+              <node concept="liA8E" id="4uAxemRifjR" role="2OqNvi">
+                <ref role="37wK5l" node="6clvLV1Yg6Z" resolve="getSNode" />
+              </node>
             </node>
-            <node concept="37vLTw" id="1h8WcYQ0Ndx" role="37wK5m">
-              <ref role="3cqZAo" node="1h8WcYQ0LjP" resolve="to" />
+            <node concept="2OqwBi" id="4uAxemRigWo" role="37wK5m">
+              <node concept="37vLTw" id="4uAxemRigAP" role="2Oq$k0">
+                <ref role="3cqZAo" node="1h8WcYQ0LjN" resolve="from" />
+              </node>
+              <node concept="liA8E" id="4uAxemRihtE" role="2OqNvi">
+                <ref role="37wK5l" node="6clvLV1Yg88" resolve="getPortName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4uAxemRifD8" role="37wK5m">
+              <node concept="37vLTw" id="1h8WcYQ0Ndx" role="2Oq$k0">
+                <ref role="3cqZAo" node="1h8WcYQ0LjP" resolve="to" />
+              </node>
+              <node concept="liA8E" id="4uAxemRig5e" role="2OqNvi">
+                <ref role="37wK5l" node="6clvLV1Yg6Z" resolve="getSNode" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4uAxemRiiFI" role="37wK5m">
+              <node concept="37vLTw" id="4uAxemRijp0" role="2Oq$k0">
+                <ref role="3cqZAo" node="1h8WcYQ0LjP" resolve="to" />
+              </node>
+              <node concept="liA8E" id="4uAxemRijNg" role="2OqNvi">
+                <ref role="37wK5l" node="6clvLV1Yg88" resolve="getPortName" />
+              </node>
             </node>
           </node>
         </node>
@@ -32176,6 +32283,7 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="create" />
       <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="true" />
       <node concept="37vLTG" id="4be4ERv0i38" role="3clF46">
         <property role="TrG5h" value="from" />
         <node concept="3uibUv" id="4be4ERv0i39" role="1tU5fm">
@@ -32220,7 +32328,16 @@
       <node concept="2AHcQZ" id="4be4ERv1Lhm" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
-      <node concept="2AHcQZ" id="6gM9UMJp2Zh" role="2AJF6D">
+      <node concept="P$JXv" id="4uAxemRidC9" role="lGtFl">
+        <node concept="TZ5HI" id="4uAxemRidCa" role="3nqlJM">
+          <node concept="TZ5HA" id="4uAxemRidCb" role="3HnX3l">
+            <node concept="1dT_AC" id="4uAxemRidZN" role="1dT_Ay">
+              <property role="1dT_AB" value=" Override the create method that doesn't expect a return value and remove usages of IAccessorFactory" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4uAxemRidCc" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>

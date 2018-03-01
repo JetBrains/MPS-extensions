@@ -196,6 +196,7 @@
       </concept>
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -1717,15 +1718,7 @@
                             <property role="TrG5h" value="toPort" />
                             <node concept="17QB3L" id="7vufT$m7ASc" role="1tU5fm" />
                           </node>
-                          <node concept="37vLTG" id="641jOpdAwMy" role="3clF46">
-                            <property role="TrG5h" value="factory" />
-                            <node concept="3uibUv" id="4ChVjVuc$Xv" role="1tU5fm">
-                              <ref role="3uigEE" to="nkm5:4ChVjVucpK0" resolve="IAccessorFactory" />
-                            </node>
-                          </node>
-                          <node concept="3uibUv" id="7jhYr4hPevo" role="3clF45">
-                            <ref role="3uigEE" to="nkm5:4teJTSBwOHa" resolve="IEdgeAccessor" />
-                          </node>
+                          <node concept="3cqZAl" id="4uAxemQZA5y" role="3clF45" />
                           <node concept="3Tm1VV" id="7vufT$m7ASe" role="1B3o_S" />
                           <node concept="3clFbS" id="7vufT$m7ASg" role="3clF47">
                             <node concept="3cpWs8" id="7jhYr4hPn8Y" role="3cqZAp">
@@ -1814,9 +1807,6 @@
                                   </node>
                                 </node>
                               </node>
-                            </node>
-                            <node concept="3cpWs6" id="7RbR7LCufiS" role="3cqZAp">
-                              <node concept="10Nm6u" id="7RbR7LCufC0" role="3cqZAk" />
                             </node>
                           </node>
                         </node>

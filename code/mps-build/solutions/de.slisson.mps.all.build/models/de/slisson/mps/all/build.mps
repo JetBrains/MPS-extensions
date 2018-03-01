@@ -4783,6 +4783,12 @@
         <node concept="1E0d5M" id="2NyZxKpUUgU" role="1E1XAP">
           <ref role="1E0d5P" node="2NyZxKpUQhZ" resolve="com.mbeddr.mpsutil.blutil.genutil.rt" />
         </node>
+        <node concept="1SiIV0" id="6DNydqPYb7m" role="3bR37C">
+          <node concept="3bR9La" id="6DNydqPYb7n" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L6C" resolve="jetbrains.mps.lang.generator" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2NyZxKpUL5F" role="2G$12L">
         <property role="BnDLt" value="true" />

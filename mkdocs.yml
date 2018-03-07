@@ -1,18 +1,17 @@
 site_name: MPS Extension
-theme: 'material'
+theme: 'cinder'
 
 # Project information
 site_description: Extensions and utilities for MPS
 site_url: https://jetbrains.github.io/MPS-extensions/
 
 # Repository
-repo_name: jetbrains/mps-extensions
+
 repo_url: https://github.com/jetbrains/mps-extensions
 
 pages:
 - Home: index.md
-- Getting started: getting-started.md
 - Building: building.md
-
 - Extensions:
   - Diagrams: extensions/diagrams.md
+- Contributing: contributing.md

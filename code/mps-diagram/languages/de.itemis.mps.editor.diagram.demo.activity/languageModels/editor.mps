@@ -199,6 +199,7 @@
       </concept>
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -683,15 +684,7 @@
                                 <ref role="3uigEE" to="nkm5:6clvLV1YfKy" resolve="IConnectionEndpoint" />
                               </node>
                             </node>
-                            <node concept="37vLTG" id="4be4ERv58If" role="3clF46">
-                              <property role="TrG5h" value="factory" />
-                              <node concept="3uibUv" id="4be4ERv58Ig" role="1tU5fm">
-                                <ref role="3uigEE" to="nkm5:4ChVjVucpK0" resolve="IAccessorFactory" />
-                              </node>
-                            </node>
-                            <node concept="3uibUv" id="4be4ERv58Ih" role="3clF45">
-                              <ref role="3uigEE" to="nkm5:4teJTSBwOHa" resolve="IEdgeAccessor" />
-                            </node>
+                            <node concept="3cqZAl" id="4uAxemRinw$" role="3clF45" />
                             <node concept="3Tm1VV" id="4be4ERv58Ii" role="1B3o_S" />
                             <node concept="2AHcQZ" id="4be4ERv58Ij" role="2AJF6D">
                               <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
@@ -809,9 +802,6 @@
                                     </node>
                                   </node>
                                 </node>
-                              </node>
-                              <node concept="3clFbF" id="4be4ERv7sxH" role="3cqZAp">
-                                <node concept="10Nm6u" id="4be4ERv7sxF" role="3clFbG" />
                               </node>
                             </node>
                           </node>

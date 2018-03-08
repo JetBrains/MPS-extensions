@@ -423,7 +423,7 @@
               <property role="VOm3f" value="true" />
             </node>
             <node concept="3F0ifn" id="7vufT$m6U0Q" role="3EZMnx">
-              <property role="3F0ifm" value="connections" />
+              <property role="3F0ifm" value="connection creators" />
             </node>
             <node concept="3F2HdR" id="2uX18svkFL8" role="3EZMnx">
               <ref role="1NtTu8" to="2qld:7vufT$m6QlG" resolve="connectionTypes" />

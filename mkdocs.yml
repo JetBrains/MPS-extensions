@@ -14,4 +14,5 @@ pages:
 - Building: building.md
 - Extensions:
   - Diagrams: extensions/diagrams.md
+  - Node Versioning: extensions/node-versioning.md
 - Contributing: contributing.md

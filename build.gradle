@@ -58,10 +58,10 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2017.3'
-ext.mpsMinor = '5'
+ext.mpsMajor = '2018.1'
+ext.mpsMinor = '-EAP4'
 
-ext.mpsVersion = "$mpsMajor.$mpsMinor"
+ext.mpsVersion = "$mpsMajor$mpsMinor"
 
 // artifacts version. this is the default versioning that is used
 def minor = '1'

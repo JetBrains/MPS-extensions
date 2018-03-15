@@ -6149,6 +6149,12 @@
             <ref role="3bR37D" node="457TI2XWdaZ" resolve="de.itemis.mps.nodeversioning.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2HAJXagydFJ" role="3bR37C">
+          <node concept="3bR9La" id="2HAJXagydFK" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="10PD9b" id="6$6tsX_CF7b" role="10PD9s" />

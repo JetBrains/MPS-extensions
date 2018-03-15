@@ -62,6 +62,7 @@
       <modulePath path="$PROJECT_DIR$/mps-multiline/solutions/de.slisson.mps.editor.multiline.sandbox/de.slisson.mps.editor.multiline.sandbox.msd" folder="mps-multiline" />
       <modulePath path="$PROJECT_DIR$/mps-nodeversioning/languages/de.itemis.mps.nodeversioning/de.itemis.mps.nodeversioning.mpl" folder="mps-noderversioning" />
       <modulePath path="$PROJECT_DIR$/mps-nodeversioning/solutions/de.itemis.mps.nodeversioning.runtime.msd" folder="mps-noderversioning" />
+      <modulePath path="$PROJECT_DIR$/mps-nodeversioning/tests/de.itemis.mps.nodeversioning.test/de.itemis.mps.nodeversioning.test.msd" folder="mps-noderversioning" />
       <modulePath path="$PROJECT_DIR$/mps-richtext/languages/de.slisson.richtext.customcell/de.slisson.richtext.customcell.mpl" folder="mps-richtext" />
       <modulePath path="$PROJECT_DIR$/mps-richtext/languages/javadoc/javadoc.mpl" folder="mps-richtext" />
       <modulePath path="$PROJECT_DIR$/mps-richtext/languages/richtext/richtext.mpl" folder="mps-richtext" />

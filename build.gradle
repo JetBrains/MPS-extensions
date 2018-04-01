@@ -149,10 +149,15 @@ def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.
 
 
 
-task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]){
-     script scriptFile('allScripts/build.xml')
-     scriptArgs = defaultScriptArgs
-     scriptClasspath = buildScriptClasspath
+task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]) {
+    script scriptFile('allScripts/build.xml')
+    inputs.file(scriptFile('allScripts/build.xml'))
+    inputs.dir("$rootDir/code/mps-build/solutions/de.slisson.mps.all.build/models")
+    inputs.file("$rootDir/code/mps-build/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd")
+    outputs.dir("$rootDir/build/generated/languages")
+    outputs.dir("$rootDir/build/generated/tests")
+    scriptArgs = defaultScriptArgs
+    scriptClasspath = buildScriptClasspath
 }
 
 task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {

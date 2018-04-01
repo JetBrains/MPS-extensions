@@ -2,7 +2,7 @@
 <model ref="r:ba3d4e66-2df7-41e2-9b21-7de676d807a4(com.mbeddr.mpsutil.blutil.genutil.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="4" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -42,6 +42,7 @@
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -116,6 +117,30 @@
               </node>
             </node>
             <node concept="3x8VRR" id="6DNydqPY4YC" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3HJIVevQ_6L">
+    <property role="3GE5qa" value="genUtil" />
+    <ref role="1M2myG" to="uvrt:3HJIVevQeZT" resolve="IsInTestsExpression" />
+    <node concept="9S07l" id="3HJIVevQ_6M" role="9Vyp8">
+      <node concept="3clFbS" id="3HJIVevQ_6N" role="2VODD2">
+        <node concept="3clFbF" id="3HJIVevQ_dW" role="3cqZAp">
+          <node concept="2OqwBi" id="3HJIVevQAyN" role="3clFbG">
+            <node concept="2OqwBi" id="3HJIVevQ_t0" role="2Oq$k0">
+              <node concept="nLn13" id="3HJIVevQ_dV" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="3HJIVevQ_HL" role="2OqNvi">
+                <node concept="1xMEDy" id="3HJIVevQ_HN" role="1xVPHs">
+                  <node concept="chp4Y" id="3HJIVevQ_QN" role="ri$Ld">
+                    <ref role="cht4Q" to="tpf8:hHd3awK" resolve="TemplateQueryBase" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="3HJIVevQAaR" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="3HJIVevQB8C" role="2OqNvi" />
           </node>
         </node>
       </node>

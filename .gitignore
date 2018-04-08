@@ -8,6 +8,6 @@ tmp
 .gradle/
 build/generated/
 build/mps/
-build/
+/build/
 test_gen/
 site

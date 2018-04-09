@@ -29,9 +29,11 @@ idea plugin com.mbeddr.mpsutil.jung
   << ... >> 
 ```
 
-First of all check the `dependencies` section of the plugin if it contains plugins that start with `com.meddr` then it still has dependencies and cannot be moved. Though you might want to move the plugin it depends. ;)
+First of all check the `dependencies` section of the plugin if it contains plugins that start with `com.meddr` then it still has dependencies and cannot be moved. Though you might want to move the plugin it depends. 😉
 
-Follow the reference(s) in the content section. `group.jung` in this case. 
+### Move the Files
+
+If all dependencies are already part of the MPS-extensions we can start with migrating the extension. Follow the reference(s) in the content section. `group.jung` in this case:
 
 ```
 mps group group.jung 
@@ -42,3 +44,6 @@ mps group group.jung
     load from $mbeddr.github.core.home/code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.jung/com.mbeddr.mpsutil.jung.mpl 
 ```
 
+Both of modules in the plugin are located under the `code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.jung` directory. 
+
+The first thing we need to do is create a folder in the MPS-extensions repository where we can place these files. This folder should be placed in under the `code` directory of the MPS-Extensions repository. The naming convention is that it shall contain the last name of the *namespace*. In this case `jung`. 

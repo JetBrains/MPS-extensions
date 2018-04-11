@@ -16,6 +16,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="gsia" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.event(JDK/)" />
+    <import index="hhnx" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime(MPS.Editor/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -51,6 +52,9 @@
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg">
         <property id="8606350594693632173" name="isTransient" index="eg7rD" />
@@ -554,6 +558,32 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="4U82Y3yZHfY" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2qBpcrwlgAY" role="jymVt" />
+    <node concept="3clFb_" id="2qBpcrwlhay" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="renderText" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="2qBpcrwlhaz" role="1B3o_S" />
+      <node concept="3uibUv" id="2qBpcrwlha_" role="3clF45">
+        <ref role="3uigEE" to="cj4x:~TextBuilder" resolve="TextBuilder" />
+      </node>
+      <node concept="3clFbS" id="2qBpcrwlhaA" role="3clF47">
+        <node concept="3cpWs6" id="2qBpcrwljpM" role="3cqZAp">
+          <node concept="2ShNRf" id="2qBpcrwljvh" role="3cqZAk">
+            <node concept="1pGfFk" id="2qBpcrwlDsE" role="2ShVmc">
+              <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;(java.lang.String)" resolve="TextBuilderImpl" />
+              <node concept="Xl_RD" id="2qBpcrwlE3f" role="37wK5m">
+                <property role="Xl_RC" value="------------------------------" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2qBpcrwlhaB" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

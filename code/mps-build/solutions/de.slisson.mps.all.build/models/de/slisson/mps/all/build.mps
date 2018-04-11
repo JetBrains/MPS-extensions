@@ -4,7 +4,7 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="-1" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="-1" />
     <use id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests" version="-1" />
   </languages>
   <imports>
@@ -4783,6 +4783,12 @@
         <node concept="1E0d5M" id="2NyZxKpUUgU" role="1E1XAP">
           <ref role="1E0d5P" node="2NyZxKpUQhZ" resolve="com.mbeddr.mpsutil.blutil.genutil.rt" />
         </node>
+        <node concept="1SiIV0" id="6DNydqPYb7m" role="3bR37C">
+          <node concept="3bR9La" id="6DNydqPYb7n" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L6C" resolve="jetbrains.mps.lang.generator" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2NyZxKpUL5F" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -4917,7 +4923,7 @@
         </node>
         <node concept="1SiIV0" id="457TI2XWjJw" role="3bR37C">
           <node concept="3bR9La" id="457TI2XWjJx" role="1SiIV1">
-            <property role="3bR36h" value="false" />
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="457TI2XWgk_" resolve="de.itemis.mps.nodeversioning" />
           </node>
         </node>
@@ -4951,6 +4957,12 @@
           <node concept="3bR9La" id="457TI2XWjJG" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="457TI2XWgk_" resolve="de.itemis.mps.nodeversioning" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="17ATm4iaFpq" role="3bR37C">
+          <node concept="3bR9La" id="17ATm4iaFpr" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>
@@ -6096,6 +6108,61 @@
         </node>
       </node>
     </node>
+    <node concept="2G$12M" id="7XTah2ufRUJ" role="3989C9">
+      <property role="TrG5h" value="mps-nodeVersioningTest" />
+      <node concept="1E1JtA" id="7XTah2ufTo1" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.nodeversioning.test" />
+        <property role="3LESm3" value="92dbf947-9ad7-4892-925f-1183ba0104c5" />
+        <property role="2GAjPV" value="false" />
+        <property role="aoJFB" value="sources and tests" />
+        <node concept="398BVA" id="7XTah2ufTuv" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="7XTah2ufUhZ" role="iGT6I">
+            <property role="2Ry0Am" value="mps-nodeversioning" />
+            <node concept="2Ry0Ak" id="7XTah2ufUuS" role="2Ry0An">
+              <property role="2Ry0Am" value="tests" />
+              <node concept="2Ry0Ak" id="7XTah2ufUFL" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.nodeversioning.test" />
+                <node concept="2Ry0Ak" id="7XTah2ufUSE" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.nodeversioning.test.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7XTah2ufV5w" role="3bR37C">
+          <node concept="3bR9La" id="7XTah2ufV5x" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7XTah2ufV5y" role="3bR37C">
+          <node concept="3bR9La" id="7XTah2ufV5z" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="457TI2XWgk_" resolve="de.itemis.mps.nodeversioning" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7XTah2ufV5$" role="3bR37C">
+          <node concept="3bR9La" id="7XTah2ufV5_" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7XTah2ufV5A" role="3bR37C">
+          <node concept="3bR9La" id="7XTah2ufV5B" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="457TI2XWdaZ" resolve="de.itemis.mps.nodeversioning.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2HAJXagydFJ" role="3bR37C">
+          <node concept="3bR9La" id="2HAJXagydFK" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="10PD9b" id="6$6tsX_CF7b" role="10PD9s" />
     <node concept="3b7kt6" id="6$6tsX_CF7c" role="10PD9s" />
     <node concept="1gjT0q" id="6$6tsX_CKLI" role="10PD9s" />
@@ -6272,6 +6339,9 @@
       <node concept="L2wRC" id="2NyZxKpXd8z" role="39821P">
         <ref role="L2wRA" node="2NyZxKpX7We" resolve="test.com.mbeddr.mpsutil.blutil.genutil" />
       </node>
+      <node concept="L2wRC" id="7XTah2ufVqi" role="39821P">
+        <ref role="L2wRA" node="7XTah2ufTo1" resolve="de.itemis.mps.nodeversioning.test" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -6296,8 +6366,8 @@
       <node concept="22LTRM" id="2NyZxKpXdDc" role="22LTRK">
         <ref role="22LTRN" node="2NyZxKpX96P" resolve="test.ts.conceptswitch" />
       </node>
-      <node concept="22LTRM" id="2NyZxKpXdQi" role="22LTRK">
-        <ref role="22LTRN" node="2NyZxKpX7We" resolve="test.com.mbeddr.mpsutil.blutil.genutil" />
+      <node concept="22LTRM" id="7XTah2ufVII" role="22LTRK">
+        <ref role="22LTRN" node="7XTah2ufTo1" resolve="de.itemis.mps.nodeversioning.test" />
       </node>
     </node>
   </node>

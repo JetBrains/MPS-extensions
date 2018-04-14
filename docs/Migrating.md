@@ -46,4 +46,14 @@ mps group group.jung
 
 Both of modules in the plugin are located under the `code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.jung` directory. 
 
-The first thing we need to do is create a folder in the MPS-extensions repository where we can place these files. This folder should be placed in under the `code` directory of the MPS-Extensions repository. The naming convention is that it shall contain the last name of the *namespace*. In this case `jung`. 
+The first thing to do is create a folder in the MPS-extensions repository where we can place these files. This folder should be placed in under the `code` directory of the MPS-Extensions repository. The naming convention is that it shall contain the last name of the *namespace*. In this case `jung`. 
+
+All the files from the mbeddr repository `code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.jung` are copied over to `code/jung/lanugages` in the MPS-extensions repository.
+
+The structure in the MPS-extensions repository slightly differs from the one in mbeddr. That requires an additional step. Some languages contain a dedicated `solutions` folder next to the language. We don't use this kind of file layout in the MPS-extensions repository. In theses cases the file from `code/jung/lanugages/solutions` need to get moved to `code/jung/solutions`.
+
+*Sounds too complicated? Don't worry we will help you when sent the pull request to get it right.* 😉
+
+### Adding the Files to the Project
+
+

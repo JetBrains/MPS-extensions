@@ -56,4 +56,12 @@ The structure in the MPS-extensions repository slightly differs from the one in 
 
 ### Adding the Files to the Project
 
+/img/add-files-1.png
 
+/img/add-files-2.png
+
+/img/add-files-4.png
+
+/img/add-files-5.png
+
+### Adding it to the Build

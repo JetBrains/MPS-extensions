@@ -11,3 +11,4 @@ build/mps/
 /build/
 test_gen/
 site
+.DS_Store

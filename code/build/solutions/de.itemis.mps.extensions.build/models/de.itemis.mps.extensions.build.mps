@@ -278,8 +278,8 @@
                 <property role="2Ry0Am" value="build" />
                 <node concept="2Ry0Ak" id="PE3B273Azq" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="PE3B273Azr" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.slisson.mps.all.build" />
+                  <node concept="2Ry0Ak" id="7uETHq$M52l" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.extensions.build" />
                   </node>
                 </node>
               </node>

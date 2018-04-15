@@ -42,7 +42,7 @@
     </echoxml>
     <jar destfile="${build.layout}/de.itemis.mps.extensions.build.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/de.itemis.mps.extensions.build" />
-      <fileset dir="${extensions.code}/build/solutions/de.slisson.mps.all.build" includes="icons/**, resources/**" />
+      <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build" includes="icons/**, resources/**" />
       <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/de.itemis.mps.extensions.build.jar" />
     </jar>

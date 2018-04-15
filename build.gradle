@@ -264,3 +264,4 @@ publishing {
 
 
 defaultTasks 'build_languages'
+task test(dependsOn: run_tests)

@@ -15,4 +15,5 @@ pages:
 - Extensions:
   - Diagrams: extensions/diagrams.md
   - Node Versioning: extensions/node-versioning.md
+- Migrating: Migrating.md
 - Contributing: contributing.md

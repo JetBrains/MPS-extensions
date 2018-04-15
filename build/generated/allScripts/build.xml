@@ -29,35 +29,35 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/de.slisson.mps.all.build.jar" />
-    <mkdir dir="${build.tmp}/default/de.slisson.mps.all.build.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/de.slisson.mps.all.build.jar/META-INF/module.xml">
-      <module namespace="de.slisson.mps.all.build" type="solution" uuid="f1fb7b1c-ce0d-423c-9369-4a661d600029">
+    <mkdir dir="${build.tmp}/default/de.itemis.mps.extensions.build.jar" />
+    <mkdir dir="${build.tmp}/default/de.itemis.mps.extensions.build.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/de.itemis.mps.extensions.build.jar/META-INF/module.xml">
+      <module namespace="de.itemis.mps.extensions.build" type="solution" uuid="f1fb7b1c-ce0d-423c-9369-4a661d600029">
         <dependencies />
         <classpath>
           <entry path="." />
         </classpath>
-        <sources jar="de.slisson.mps.all.build-src.jar" descriptor="de.slisson.mps.all.build.msd" />
+        <sources jar="de.itemis.mps.extensions.build-src.jar" descriptor="de.itemis.mps.extensions.build.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/de.slisson.mps.all.build.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/de.slisson.mps.all.build" />
+    <jar destfile="${build.layout}/de.itemis.mps.extensions.build.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/de.itemis.mps.extensions.build" />
       <fileset dir="${extensions.code}/build/solutions/de.slisson.mps.all.build" includes="icons/**, resources/**" />
-      <fileset dir="${extensions.code}/build/solutions/de.slisson.mps.all.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
-      <fileset dir="${build.tmp}/default/de.slisson.mps.all.build.jar" />
+      <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/de.itemis.mps.extensions.build.jar" />
     </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/build-solutions-de.slisson.mps.all.build-models">
-      <fileset dir="${extensions.code}/build/solutions/de.slisson.mps.all.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/build-solutions-de.itemis.mps.extensions.build-models">
+      <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/de.slisson.mps.all.build-src.jar" duplicate="preserve">
-      <fileset dir="${extensions.code}/build/solutions/de.slisson.mps.all.build/source_gen">
+    <jar destfile="${build.layout}/de.itemis.mps.extensions.build-src.jar" duplicate="preserve">
+      <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
         <exclude name="**/checkpoints" />
         <exclude name="**/*.mps" />
       </fileset>
-      <zipfileset file="${extensions.code}/build/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/build-solutions-de.slisson.mps.all.build-models" prefix="module/models" />
+      <zipfileset file="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/build-solutions-de.itemis.mps.extensions.build-models" prefix="module/models" />
     </jar>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
@@ -73,7 +73,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.de.slisson.mps.all.build" />
+  <target name="compileJava" depends="java.compile.de.itemis.mps.extensions.build" />
   
   <target name="processResources" />
   
@@ -153,7 +153,7 @@
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.preset.jar" />
       <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <chunk>
-        <module file="${extensions.code}/build/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd" />
+        <module file="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd" />
       </chunk>
       <jvmargs>
         <arg value="-Xmx2024m" />
@@ -171,24 +171,24 @@
   
   <target name="makeDependents" />
   
-  <target name="java.compile.de.slisson.mps.all.build">
-    <mkdir dir="${extensions.code}/build/solutions/de.slisson.mps.all.build/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/de.slisson.mps.all.build" />
-    <javac destdir="${build.tmp}/java/out/de.slisson.mps.all.build" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="1.8" target="1.8">
+  <target name="java.compile.de.itemis.mps.extensions.build">
+    <mkdir dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/de.itemis.mps.extensions.build" />
+    <javac destdir="${build.tmp}/java/out/de.itemis.mps.extensions.build" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${extensions.code}/build/solutions/de.slisson.mps.all.build/source_gen" />
+        <path location="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.preset.jar" />
       </classpath>
     </javac>
-    <copy todir="${build.tmp}/java/out/de.slisson.mps.all.build">
-      <fileset dir="${extensions.code}/build/solutions/de.slisson.mps.all.build/source_gen" excludes="**/*.java" />
+    <copy todir="${build.tmp}/java/out/de.itemis.mps.extensions.build">
+      <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" excludes="**/*.java" />
     </copy>
   </target>
   
   <target name="cleanSources">
-    <delete dir="${extensions.code}/build/solutions/de.slisson.mps.all.build/source_gen" />
+    <delete dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" />
   </target>
 </project>

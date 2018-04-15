@@ -237,11 +237,6 @@ publishing {
         }
     }
     publications {
-        allScripts(MavenPublication) {
-            groupId 'de.itemis.mps.extensions'
-            artifactId 'allScripts'
-            artifact packageAllScripts
-        }
         extensions(MavenPublication) {
             groupId 'de.itemis.mps'
             artifactId 'extensions'

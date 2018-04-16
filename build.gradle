@@ -56,7 +56,7 @@ ext.dependencyRepositories = [
 // Dependency versions
 
 ext.mpsMajor = '2017.3'
-ext.mpsMinor = '5'
+ext.mpsMinor = '6'
 
 ext.mpsVersion = "$mpsMajor.$mpsMinor"
 

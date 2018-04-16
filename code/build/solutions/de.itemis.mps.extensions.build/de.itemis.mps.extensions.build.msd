@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.slisson.mps.all.build" uuid="f1fb7b1c-ce0d-423c-9369-4a661d600029" moduleVersion="0" compileInMPS="true">
+<solution name="de.itemis.mps.extensions.build" uuid="f1fb7b1c-ce0d-423c-9369-4a661d600029" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -19,7 +19,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="f1fb7b1c-ce0d-423c-9369-4a661d600029(de.slisson.mps.all.build)" version="0" />
+    <module reference="f1fb7b1c-ce0d-423c-9369-4a661d600029(de.itemis.mps.extensions.build)" version="0" />
     <module reference="cca2431b-e74f-4066-9344-e40022d0908a(jetbrains.mps.build.workflow.preset)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
   </dependencyVersions>

@@ -111,7 +111,7 @@
       <property role="TrG5h" value="de.slisson.mps.all" />
       <node concept="1E1JtA" id="PE3B26VOkn" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.slisson.mps.all.build" />
+        <property role="TrG5h" value="de.itemis.mps.extensions.build" />
         <property role="3LESm3" value="f1fb7b1c-ce0d-423c-9369-4a661d600029" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="3vzyAKEJT3s" role="3LF7KH">
@@ -121,9 +121,9 @@
             <node concept="2Ry0Ak" id="3vzyAKEJT3y" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="1QLFoGOMPAy" role="2Ry0An">
-                <property role="2Ry0Am" value="de.slisson.mps.all.build" />
-                <node concept="2Ry0Ak" id="1QLFoGOMPIp" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.slisson.mps.all.build.msd" />
+                <property role="2Ry0Am" value="de.itemis.mps.extensions.build" />
+                <node concept="2Ry0Ak" id="7uETHq$LYWp" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.extensions.build.msd" />
                 </node>
               </node>
             </node>
@@ -152,8 +152,8 @@
                 <property role="2Ry0Am" value="build" />
                 <node concept="2Ry0Ak" id="PE3B273Azq" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="PE3B273Azr" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.slisson.mps.all.build" />
+                  <node concept="2Ry0Ak" id="7uETHq$M3ub" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.extensions.build" />
                   </node>
                 </node>
               </node>
@@ -259,7 +259,7 @@
     </node>
     <node concept="1l3spV" id="2Xjt3l56m3c" role="1l3spN">
       <node concept="L2wRC" id="PE3B273Bzy" role="39821P">
-        <ref role="L2wRA" node="PE3B26VOkn" resolve="de.slisson.mps.all.build" />
+        <ref role="L2wRA" node="PE3B26VOkn" resolve="de.itemis.mps.extensions.build" />
       </node>
     </node>
   </node>

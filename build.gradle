@@ -56,7 +56,8 @@ ext.dependencyRepositories = [
 // Dependency versions
 
 ext.mpsMajor = '2018.1'
-ext.mpsMinor = '-EAP4'
+ext.mpsMinor = ''
+
 
 ext.mpsVersion = "$mpsMajor$mpsMinor"
 
@@ -237,11 +238,6 @@ publishing {
         }
     }
     publications {
-        allScripts(MavenPublication) {
-            groupId 'de.itemis.mps.extensions'
-            artifactId 'allScripts'
-            artifact packageAllScripts
-        }
         extensions(MavenPublication) {
             groupId 'de.itemis.mps'
             artifactId 'extensions'
@@ -264,3 +260,4 @@ publishing {
 
 
 defaultTasks 'build_languages'
+task test(dependsOn: run_tests)

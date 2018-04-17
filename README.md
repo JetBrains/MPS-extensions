@@ -26,7 +26,7 @@ See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of
 
 ## Documentation
 
-For more information on the idividual extensions see our [documentation](https://jetbrains.github.com/mps-extensions).
+For more information on the idividual extensions see our [documentation](https://jetbrains.github.com/MPS-extensions).
 
 If you would like to contribute to the documentation it is located in the `docs` folder of this repository.
 

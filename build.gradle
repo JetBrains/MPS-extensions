@@ -61,11 +61,20 @@ ext.mpsMinor = '6'
 ext.mpsVersion = "$mpsMajor.$mpsMinor"
 
 // artifacts version. this is the default versioning that is used
-def minor = '1'
-def major = '0'
+def minor = '3'
+def major = '2017'
 
 if (ciBuild) {
-    version = GitBasedVersioning.getVersionWithCount(major, minor, System.env.BUILD_NUMBER.toInteger())
+    def branch = GitBasedVersioning.gitBranch
+
+    if (branch == "master" || branch.startsWith("maintenance")) {
+        // "master" here will force no branch prefix in the version
+        version = GitBasedVersioning.getVersion("master",major, minor, System.env.BUILD_NUMBER.toInteger())
+    } else {
+        version = GitBasedVersioning.getVersionWithCount(major, minor, System.env.BUILD_NUMBER.toInteger())
+    }
+
+
     println "##teamcity[buildNumber '${version}']"
 } else {
     println "Local build detected, version will be SNAPSHOT"

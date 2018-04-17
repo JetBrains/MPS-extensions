@@ -22,6 +22,8 @@ The default task does not run the test when building if you want to execute the 
 gradlew.bat run_tests # Windows
 ```
 
+See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of the documentation for more details.
+
 ## Documentation
 
 For more information on the idividual extensions see our [documentation](https://jetbrains.github.com/mps-extensions).

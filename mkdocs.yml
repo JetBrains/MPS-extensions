@@ -12,8 +12,8 @@ repo_url: https://github.com/jetbrains/mps-extensions
 pages:
 - Home: index.md
 - Building: building.md
+- Contributing: contributing.md
+- Migrating: Migrating.md
 - Extensions:
   - Diagrams: extensions/diagrams.md
   - Node Versioning: extensions/node-versioning.md
-- Migrating: Migrating.md
-- Contributing: contributing.md

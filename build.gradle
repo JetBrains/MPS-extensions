@@ -63,7 +63,7 @@ ext.mpsVersion = "$mpsMajor$mpsMinor"
 
 // artifacts version. this is the default versioning that is used
 def minor = '1'
-def major = '0'
+def major = '2018'
 
 if (ciBuild) {
     version = GitBasedVersioning.getVersionWithCount(major, minor, System.env.BUILD_NUMBER.toInteger())

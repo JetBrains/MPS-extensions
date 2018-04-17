@@ -55,10 +55,11 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2017.3'
-ext.mpsMinor = '5'
+ext.mpsMajor = '2018.1'
+ext.mpsMinor = ''
 
-ext.mpsVersion = "$mpsMajor.$mpsMinor"
+
+ext.mpsVersion = "$mpsMajor$mpsMinor"
 
 // artifacts version. this is the default versioning that is used
 def minor = '1'
@@ -237,11 +238,6 @@ publishing {
         }
     }
     publications {
-        allScripts(MavenPublication) {
-            groupId 'de.itemis.mps.extensions'
-            artifactId 'allScripts'
-            artifact packageAllScripts
-        }
         extensions(MavenPublication) {
             groupId 'de.itemis.mps'
             artifactId 'extensions'
@@ -264,3 +260,4 @@ publishing {
 
 
 defaultTasks 'build_languages'
+task test(dependsOn: run_tests)

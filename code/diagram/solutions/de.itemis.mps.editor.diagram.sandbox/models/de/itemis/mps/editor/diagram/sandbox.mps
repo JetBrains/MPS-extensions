@@ -4,7 +4,7 @@
   <languages>
     <use id="7cf26568-7255-45b6-b975-a44162a7e7e2" name="de.itemis.mps.editor.diagram.demolang" version="0" />
     <use id="3ba72f2f-a5c2-46e4-8b7e-b7ef6fb0cfc7" name="de.itemis.mps.editor.diagram.demo.callgraph" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <devkit ref="b1972fb0-9171-4e58-8cee-05866bb91ec2(de.itemis.mps.editor.diagram.devkit)" />
   </languages>
   <imports>

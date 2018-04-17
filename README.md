@@ -29,3 +29,5 @@ For more information on the idividual extensions see our [documentation](https:/
 If you would like to contribute to the documentation it is located in the `docs` folder of this repository.
 
 ## Contributing
+
+See our contribution guide [here](https://jetbrains.github.io/MPS-extensions/contributing/).

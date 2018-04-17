@@ -16,7 +16,54 @@ The MPS extensions aim to ease language development within MPS. They are maintai
 
 ## Getting Started
 
+To get started grab a release for our release page on [github](https://github.com/JetBrains/MPS-extensions/releases). Extract the archive and point a project or global library in MPS to the location where you extracted it. 
 
+See the documentation regarding the individual extensions above. The documentation is currently work in progress as it being ported over from the mbeddr platform repository. Documentation related contributions are very welcome!
+
+We are also working on a providing a zip file with all the sandboxes we have in our repository in order to try things out and see how the extensions works. See this issue for [details](https://github.com/JetBrains/MPS-extensions/issues/15). 
+
+### Artefacts in the Nexus
+
+We also provide the artefacts as a maven repository. Where you can fetch them during your CI build or to setup your local development environment. 
+
+Maven:
+
+```
+<project ...>
+	<repositories>
+	    <repository>
+	      <id>itemis.mbeddr</id>
+	      <url>https://projects.itemis.de/nexus/content/repositories/mbeddr</url>
+	    </repository>
+	 </repositories>
+	 
+	 <dependencies ...>
+		 <dependency>
+		  <groupId>de.itemis.mps</groupId>
+		  <artifactId>extensions</artifactId>
+		  <version>2018.1</version>
+		  <type>zip</type>
+		</dependency>
+	</dependencies>
+</project>
+
+```
+
+Gradle:
+
+```
+    repositories {
+        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
+    }
+
+	configurations {
+        mpsExtensions
+    }
+    
+    dependencies {
+        mpsExtensions "de.itemis.mps:extensions:2018.1.+"
+    }
+```
 
 ## Versions
 

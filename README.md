@@ -1,6 +1,6 @@
 # MPS Extensions
 
-This repository contains usefuly extensions to MPS that aim to ease language development withing MPS. They are maintained by itemis, JetBrains and the open source community and its development is closely related to the one of MPS.
+The MPS extensions aim to ease language development withing MPS. They are maintained by itemis, JetBrains and the open source community and its development is closely related to the development of MPS.
 
 ## Building
 

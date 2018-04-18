@@ -8,10 +8,18 @@ buildscript {
     }
 }
 
+plugins {
+    id "co.riiid.gradle" version "0.4.2"
+}
+
 apply plugin: 'maven-publish'
 apply plugin: 'base'
 
+
+
 import de.itemis.mps.gradle.*
+
+import java.time.LocalDateTime
 
 
 task wrapper(type: Wrapper) {
@@ -261,3 +269,31 @@ publishing {
 
 defaultTasks 'build_languages'
 task test(dependsOn: run_tests)
+
+def releaseNotes
+def releaseName
+def releaseTagName
+
+if (rootProject.hasProperty("nightly_build")) {
+    releaseName = 'Nighly Build ' + version
+    releaseTagName = 'nightly-' + version
+    releaseNotes = """Automated Nighly build from ${LocalDateTime.now() as String}."""
+} else {
+    releaseNotes = rootProject.findProperty("releaseNotes")
+    releaseTagName = 'release-' + version
+    releaseName = version
+}
+
+github {
+    owner = 'jetbrains'
+    repo = 'MPS-extensions'
+    token = rootProject.findProperty("github.token") ?: "empty"
+    tagName = releaseTagName
+    targetCommitish = GitBasedVersioning.getGitCommitHash()
+    name = releaseName
+    body = releaseNotes
+    prerelease = rootProject.hasProperty("nightly_build")
+    assets = packageExtensions.outputs.files
+}
+
+githubRelease.dependsOn packageExtensions

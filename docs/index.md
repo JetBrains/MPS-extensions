@@ -16,15 +16,15 @@ The MPS extensions aim to ease language development within MPS. They are maintai
 
 ## Getting Started
 
-To get started grab a release for our release page on [github](https://github.com/JetBrains/MPS-extensions/releases). Extract the archive and point a project or global library in MPS to the location where you extracted it. 
+To get started grab a release from our release page on [github](https://github.com/JetBrains/MPS-extensions/releases). Extract the archive and point a project or global library in MPS to the location where you extracted it. 
 
-See the documentation regarding the individual extensions above. The documentation is currently work in progress as it being ported over from the mbeddr platform repository. Documentation related contributions are very welcome!
+See the documentation regarding the individual extensions above. The documentation is "currently work in progress" as it being ported over from the mbeddr platform repository. Documentation related contributions are very welcome!
 
-We are also working on a providing a zip file with all the sandboxes we have in our repository in order to try things out and see how the extensions works. See this issue for [details](https://github.com/JetBrains/MPS-extensions/issues/15). 
+We are also working on providing a zip file with all the sandboxes we have in our repository in order to try things out and see how the extensions work. See this issue for [details](https://github.com/JetBrains/MPS-extensions/issues/15). 
 
 ### Artefacts in the Nexus
 
-We also provide the artefacts as a maven repository. Where you can fetch them during your CI build or to setup your local development environment. 
+We also provide the artefacts as a maven repository. Where you can fetch them during your CI build to setup your local development environment. 
 
 Maven:
 
@@ -73,7 +73,7 @@ The version number reflects the MPS version the extensions are compatible with. 
 
 Currently these MPS versions are supported. Versions prior to MPS 2017.3 might still be available as the mbeddr platform but are not maintained in the repository.
 
-A version in maintenance will not get actively get new features and is only maintained with bugfixes. We are happy to accept pull request for versions in maintenance with bugfixes but active feature development only happens for the latest MPS version.
+A version in maintenance will not get actively new features and is only maintained with bugfixes. We are happy to accept pull request for versions in maintenance with bugfixes but active feature development only happens for the latest MPS version.
 
 | MPS Version | State |
 |:--|:--|

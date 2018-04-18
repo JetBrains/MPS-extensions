@@ -284,6 +284,7 @@ if (rootProject.hasProperty("nightly_build")) {
     releaseName = version
 }
 
+
 github {
     owner = 'jetbrains'
     repo = 'MPS-extensions'
@@ -293,7 +294,7 @@ github {
     name = releaseName
     body = releaseNotes
     prerelease = rootProject.hasProperty("nightly_build")
-    assets = packageExtensions.outputs.files
+    assets = packageExtensions.outputs.files.files.collect {it.path}
 }
 
 githubRelease.dependsOn packageExtensions

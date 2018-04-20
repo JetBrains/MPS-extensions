@@ -2,6 +2,8 @@
 
 The MPS extensions aim to ease language development withing MPS. They are maintained by itemis, JetBrains and the open source community and its development is closely related to the development of MPS.
 
+Join the dicussion on [Slack](http://slack-mps.jetbrains.com) in the #mps-extensions room.
+
 ## Building
 
 The MPS extension are build using gradle. In order to build the source code all you need on the machine is a Java 8 JDK. Of course if you want to hack on the MPS extension you need MPS. The MPS version that is currently used is in our [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle#L61) file.

@@ -7461,19 +7461,23 @@
                                 </node>
                               </node>
                             </node>
-                            <node concept="3clFbF" id="3mI$71cQ5dx" role="3cqZAp">
-                              <node concept="2OqwBi" id="3mI$71cQ5dy" role="3clFbG">
-                                <node concept="37vLTw" id="51$nbrvExP2" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3mI$71cQ5d3" resolve="labelCell" />
-                                </node>
-                                <node concept="liA8E" id="3mI$71cQ5d$" role="2OqNvi">
-                                  <ref role="37wK5l" to="g51k:~EditorCell_Label.executeTextAction(jetbrains.mps.openapi.editor.cells.CellActionType,boolean):boolean" resolve="executeTextAction" />
-                                  <node concept="Rm8GO" id="51$nbrvFlJi" role="37wK5m">
-                                    <ref role="Rm8GQ" to="f4zo:~CellActionType.BACKSPACE" resolve="BACKSPACE" />
-                                    <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                            <node concept="3clFbF" id="s9qDDFH5Ou" role="3cqZAp">
+                              <node concept="2OqwBi" id="s9qDDFHbPn" role="3clFbG">
+                                <node concept="2OqwBi" id="s9qDDFH9Qx" role="2Oq$k0">
+                                  <node concept="1rXfSq" id="s9qDDFH5Os" role="2Oq$k0">
+                                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditor():jetbrains.mps.nodeEditor.EditorComponent" resolve="getEditor" />
                                   </node>
-                                  <node concept="37vLTw" id="51$nbrvFXJ7" role="37wK5m">
-                                    <ref role="3cqZAo" node="6tLsdkfIscP" resolve="allowErrors" />
+                                  <node concept="liA8E" id="s9qDDFHbJU" role="2OqNvi">
+                                    <ref role="37wK5l" to="exr9:~EditorComponent.getActionHandler():jetbrains.mps.openapi.editor.ActionHandler" resolve="getActionHandler" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="s9qDDFHcB1" role="2OqNvi">
+                                  <ref role="37wK5l" to="cj4x:~ActionHandler.executeAction(jetbrains.mps.openapi.editor.cells.EditorCell,jetbrains.mps.openapi.editor.cells.CellActionType):boolean" resolve="executeAction" />
+                                  <node concept="37vLTw" id="s9qDDFHdeP" role="37wK5m">
+                                    <ref role="3cqZAo" node="3mI$71cQ5d3" resolve="labelCell" />
+                                  </node>
+                                  <node concept="37vLTw" id="s9qDDFHf2J" role="37wK5m">
+                                    <ref role="3cqZAo" node="6tLsdkfIscN" resolve="type" />
                                   </node>
                                 </node>
                               </node>
@@ -7598,19 +7602,23 @@
                                   </node>
                                 </node>
                               </node>
-                              <node concept="3clFbF" id="3mI$71cQ4tn" role="3cqZAp">
-                                <node concept="2OqwBi" id="3mI$71cQ4to" role="3clFbG">
-                                  <node concept="37vLTw" id="51$nbrvHqST" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="3mI$71cQ59_" resolve="labelCell" />
-                                  </node>
-                                  <node concept="liA8E" id="3mI$71cQ4tq" role="2OqNvi">
-                                    <ref role="37wK5l" to="g51k:~EditorCell_Label.executeTextAction(jetbrains.mps.openapi.editor.cells.CellActionType,boolean):boolean" resolve="executeTextAction" />
-                                    <node concept="Rm8GO" id="51$nbrvM8Bi" role="37wK5m">
-                                      <ref role="Rm8GQ" to="f4zo:~CellActionType.DELETE" resolve="DELETE" />
-                                      <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                              <node concept="3clFbF" id="s9qDDFHu0v" role="3cqZAp">
+                                <node concept="2OqwBi" id="s9qDDFHu0w" role="3clFbG">
+                                  <node concept="2OqwBi" id="s9qDDFHu0x" role="2Oq$k0">
+                                    <node concept="1rXfSq" id="s9qDDFHu0y" role="2Oq$k0">
+                                      <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditor():jetbrains.mps.nodeEditor.EditorComponent" resolve="getEditor" />
                                     </node>
-                                    <node concept="37vLTw" id="51$nbrvMHLs" role="37wK5m">
-                                      <ref role="3cqZAo" node="6tLsdkfIscP" resolve="allowErrors" />
+                                    <node concept="liA8E" id="s9qDDFHu0z" role="2OqNvi">
+                                      <ref role="37wK5l" to="exr9:~EditorComponent.getActionHandler():jetbrains.mps.openapi.editor.ActionHandler" resolve="getActionHandler" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="s9qDDFHu0$" role="2OqNvi">
+                                    <ref role="37wK5l" to="cj4x:~ActionHandler.executeAction(jetbrains.mps.openapi.editor.cells.EditorCell,jetbrains.mps.openapi.editor.cells.CellActionType):boolean" resolve="executeAction" />
+                                    <node concept="37vLTw" id="s9qDDFHu0_" role="37wK5m">
+                                      <ref role="3cqZAo" node="3mI$71cQ59_" resolve="labelCell" />
+                                    </node>
+                                    <node concept="37vLTw" id="s9qDDFHu0A" role="37wK5m">
+                                      <ref role="3cqZAo" node="6tLsdkfIscN" resolve="type" />
                                     </node>
                                   </node>
                                 </node>

@@ -64,14 +64,10 @@ ext.dependencyRepositories = [
 // Dependency versions
 
 ext.mpsMajor = '2018.1'
-ext.mpsMinor = ''
+ext.mpsMinor = '1'
 
 
-ext.mpsVersion = "$mpsMajor$mpsMinor"
-
-// artifacts version. this is the default versioning that is used
-def minor = '1'
-def major = '2018'
+ext.mpsVersion =  mpsMinor.isEmpty() ?  "$mpsMajor" : "${mpsMajor}.${mpsMinor}"
 
 if (ciBuild) {
     version = GitBasedVersioning.getVersionWithCount(major, minor, System.env.BUILD_NUMBER.toInteger())

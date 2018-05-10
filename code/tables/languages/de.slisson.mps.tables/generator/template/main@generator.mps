@@ -50,6 +50,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
     <import index="qvne" ref="r:8ff33705-85bf-4855-805c-06d68fbe233c(jetbrains.mps.editor.runtime.descriptor)" />
+    <import index="kcid" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
@@ -3521,9 +3522,11 @@
                                                     <ref role="3cqZAo" node="XrIi9uPIRL" resolve="listHandler" />
                                                   </node>
                                                   <node concept="liA8E" id="XrIi9uPLwg" role="2OqNvi">
-                                                    <ref role="37wK5l" to="emqf:~AbstractCellListHandler.createCells_Horizontal(jetbrains.mps.openapi.editor.EditorContext):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createCells_Horizontal" />
-                                                    <node concept="37vLTw" id="XrIi9uPL$Q" role="37wK5m">
-                                                      <ref role="3cqZAo" node="1dAqnm8Mofe" resolve="editorContext" />
+                                                    <ref role="37wK5l" to="emqf:~AbstractCellListHandler.createCells(jetbrains.mps.nodeEditor.cellLayout.CellLayout):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createCells" />
+                                                    <node concept="2ShNRf" id="3600dVerJk$" role="37wK5m">
+                                                      <node concept="1pGfFk" id="3600dVerY41" role="2ShVmc">
+                                                        <ref role="37wK5l" to="kcid:~CellLayout_Horizontal.&lt;init&gt;()" resolve="CellLayout_Horizontal" />
+                                                      </node>
                                                     </node>
                                                   </node>
                                                   <node concept="1W57fq" id="XrIi9uPLJk" role="lGtFl">
@@ -3558,9 +3561,11 @@
                                                           <ref role="3cqZAo" node="XrIi9uPIRL" resolve="listHandler" />
                                                         </node>
                                                         <node concept="liA8E" id="XrIi9uPR7G" role="2OqNvi">
-                                                          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.createCells_Vertical(jetbrains.mps.openapi.editor.EditorContext):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createCells_Vertical" />
-                                                          <node concept="37vLTw" id="XrIi9uPR9g" role="37wK5m">
-                                                            <ref role="3cqZAo" node="1dAqnm8Mofe" resolve="editorContext" />
+                                                          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.createCells(jetbrains.mps.nodeEditor.cellLayout.CellLayout):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createCells" />
+                                                          <node concept="2ShNRf" id="3600dVes0fm" role="37wK5m">
+                                                            <node concept="HV5vD" id="3600dVes0IG" role="2ShVmc">
+                                                              <ref role="HV5vE" to="kcid:~CellLayout_Vertical" resolve="CellLayout_Vertical" />
+                                                            </node>
                                                           </node>
                                                         </node>
                                                       </node>

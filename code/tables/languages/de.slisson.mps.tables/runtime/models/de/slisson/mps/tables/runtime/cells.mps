@@ -30302,7 +30302,13 @@
       <node concept="3Tm1VV" id="XrIi9uGhZj" role="1B3o_S" />
       <node concept="3clFbS" id="XrIi9uGhZk" role="3clF47">
         <node concept="XkiVB" id="XrIi9uGjgy" role="3cqZAp">
-          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
+          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,java.lang.String,jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
+          <node concept="37vLTw" id="1lPv0NVhd5C" role="37wK5m">
+            <ref role="3cqZAo" node="XrIi9uGiyQ" resolve="ownerNode" />
+          </node>
+          <node concept="Xl_RD" id="1lPv0NVhdt1" role="37wK5m">
+            <property role="Xl_RC" value="" />
+          </node>
           <node concept="37vLTw" id="XrIi9uGjoF" role="37wK5m">
             <ref role="3cqZAo" node="XrIi9uGjbH" resolve="context" />
           </node>
@@ -30437,7 +30443,7 @@
                   <ref role="37wK5l" to="nivk:~AbstractEditorBuilder.getEditorContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getEditorContext" />
                 </node>
                 <node concept="1rXfSq" id="XrIi9uGxCl" role="37wK5m">
-                  <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                  <ref role="37wK5l" to="nivk:~AbstractEditorBuilder.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
                 </node>
                 <node concept="10Nm6u" id="XrIi9uGxCm" role="37wK5m" />
               </node>

@@ -1,6 +1,6 @@
 # Diagrams
 
-**Language Namespace :** `de.slisson.mps.editor.diagram`
+**Language Namespace :** `de.itemis.mps.editor.diagram`
 
 If you have downloaded the recent mbeddr master branch, you will have noticed that, for example, component wiring and state machines can now be edited graphically. The screenshots below show examples of these two notations.
 

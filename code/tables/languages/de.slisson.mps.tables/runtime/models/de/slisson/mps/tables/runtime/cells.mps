@@ -30443,7 +30443,7 @@
                   <ref role="37wK5l" to="nivk:~AbstractEditorBuilder.getEditorContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getEditorContext" />
                 </node>
                 <node concept="1rXfSq" id="XrIi9uGxCl" role="37wK5m">
-                  <ref role="37wK5l" to="nivk:~AbstractEditorBuilder.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                  <ref role="37wK5l" to="nivk:~EditorBuilderEnvironment.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
                 </node>
                 <node concept="10Nm6u" id="XrIi9uGxCm" role="37wK5m" />
               </node>

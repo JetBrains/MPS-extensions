@@ -2277,47 +2277,21 @@
               <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
             </node>
             <node concept="3K4zz7" id="mbKrkPb32O" role="33vP2m">
-              <node concept="2OqwBi" id="mbKrkPb33h" role="3K4E3e">
-                <node concept="37vLTw" id="5zEbkDOQNCQ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5zEbkDONhwX" resolve="internalCursorCell" />
-                </node>
-                <node concept="liA8E" id="mbKrkPb33E" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell.getUpper(org.jetbrains.mps.util.Condition,int):jetbrains.mps.nodeEditor.cells.EditorCell" resolve="getUpper" />
-                  <node concept="10M0yZ" id="mbKrkPb33G" role="37wK5m">
-                    <ref role="1PxDUh" to="g51k:~CellConditions" resolve="CellConditions" />
-                    <ref role="3cqZAo" to="g51k:~CellConditions.SELECTABLE" resolve="SELECTABLE" />
-                  </node>
-                  <node concept="2OqwBi" id="mbKrkPb349" role="37wK5m">
-                    <node concept="37vLTw" id="5zEbkDORovT" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5zEbkDONhwX" resolve="internalCursorCell" />
-                    </node>
-                    <node concept="liA8E" id="mbKrkPb34g" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell.getCaretX():int" resolve="getCaretX" />
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="37vLTw" id="mbKrkPb32s" role="3K4Cdx">
                 <ref role="3cqZAo" node="mbKrkPb2SM" resolve="previous" />
               </node>
-              <node concept="2OqwBi" id="mbKrkPb34i" role="3K4GZi">
-                <node concept="37vLTw" id="5zEbkDOR6tc" role="2Oq$k0">
+              <node concept="2YIFZM" id="22ekhmLt_pd" role="3K4E3e">
+                <ref role="37wK5l" to="93vl:22ekhmKS7vi" resolve="getUpper" />
+                <ref role="1Pybhc" to="93vl:22ekhmKS7fu" resolve="SelectionUtil" />
+                <node concept="37vLTw" id="22ekhmLtDoD" role="37wK5m">
                   <ref role="3cqZAo" node="5zEbkDONhwX" resolve="internalCursorCell" />
                 </node>
-                <node concept="liA8E" id="mbKrkPb34k" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell.getLower(org.jetbrains.mps.util.Condition,int):jetbrains.mps.nodeEditor.cells.EditorCell" resolve="getLower" />
-                  <node concept="10M0yZ" id="mbKrkPb34l" role="37wK5m">
-                    <ref role="3cqZAo" to="g51k:~CellConditions.SELECTABLE" resolve="SELECTABLE" />
-                    <ref role="1PxDUh" to="g51k:~CellConditions" resolve="CellConditions" />
-                  </node>
-                  <node concept="2OqwBi" id="mbKrkPb34m" role="37wK5m">
-                    <node concept="37vLTw" id="5zEbkDOREzt" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5zEbkDONhwX" resolve="internalCursorCell" />
-                    </node>
-                    <node concept="liA8E" id="mbKrkPb34o" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell.getCaretX():int" resolve="getCaretX" />
-                    </node>
-                  </node>
+              </node>
+              <node concept="2YIFZM" id="22ekhmLtDPu" role="3K4GZi">
+                <ref role="37wK5l" to="93vl:22ekhmKS7xL" resolve="getLower" />
+                <ref role="1Pybhc" to="93vl:22ekhmKS7fu" resolve="SelectionUtil" />
+                <node concept="37vLTw" id="22ekhmLtDPv" role="37wK5m">
+                  <ref role="3cqZAo" node="5zEbkDONhwX" resolve="internalCursorCell" />
                 </node>
               </node>
             </node>
@@ -5814,8 +5788,8 @@
         <node concept="3cpWs8" id="2_D0AvWRGmK" role="3cqZAp">
           <node concept="3cpWsn" id="2_D0AvWRGmL" role="3cpWs9">
             <property role="TrG5h" value="currentCell" />
-            <node concept="3uibUv" id="5zEbkDOCfUw" role="1tU5fm">
-              <ref role="3uigEE" to="g51k:~EditorCell" resolve="EditorCell" />
+            <node concept="3uibUv" id="22ekhmLtXUe" role="1tU5fm">
+              <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
             </node>
             <node concept="37vLTw" id="2_D0AvWRGB7" role="33vP2m">
               <ref role="3cqZAo" node="2_D0AvWRqTu" resolve="myStartCell" />
@@ -5859,7 +5833,7 @@
                       <ref role="3cqZAo" node="2_D0AvWRGmL" resolve="currentCell" />
                     </node>
                     <node concept="liA8E" id="2_D0AvWRGxD" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell.getPrevSibling():jetbrains.mps.nodeEditor.cells.EditorCell" resolve="getPrevSibling" />
+                      <ref role="37wK5l" to="f4zo:~EditorCell.getPrevSibling():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getPrevSibling" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="2_D0AvWRGxv" role="3K4Cdx">
@@ -5870,7 +5844,7 @@
                       <ref role="3cqZAo" node="2_D0AvWRGmL" resolve="currentCell" />
                     </node>
                     <node concept="liA8E" id="2_D0AvWRGxA" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell.getNextSibling():jetbrains.mps.nodeEditor.cells.EditorCell" resolve="getNextSibling" />
+                      <ref role="37wK5l" to="f4zo:~EditorCell.getNextSibling():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getNextSibling" />
                     </node>
                   </node>
                 </node>

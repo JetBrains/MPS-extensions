@@ -64,7 +64,7 @@ ext.dependencyRepositories = [
 // Dependency versions
 
 ext.mpsMajor = '2018.1'
-ext.mpsMinor = '1'
+ext.mpsMinor = '4'
 
 
 ext.mpsVersion =  mpsMinor.isEmpty() ?  "$mpsMajor" : "${mpsMajor}.${mpsMinor}"

@@ -32,7 +32,7 @@ if (project.hasProperty("forceCI")) {
     ext.ciBuild = true
 } else {
     //on teamcity we are in a CI build
-    if (project.hasProperty("teamcity")) {
+    if (project.hasProperty("teamcity") && !project.hasProperty('mpsHomeDir')) {
         ext.ciBuild = true
     } else {
         ext.ciBuild = false
@@ -64,10 +64,14 @@ ext.dependencyRepositories = [
 // Dependency versions
 
 ext.mpsMajor = '2018.1'
-ext.mpsMinor = '1'
+ext.mpsMinor = '4'
 
 
 ext.mpsVersion =  mpsMinor.isEmpty() ?  "$mpsMajor" : "${mpsMajor}.${mpsMinor}"
+
+
+def minor = '1'
+def major = '2018'
 
 if (ciBuild) {
     version = GitBasedVersioning.getVersionWithCount(major, minor, System.env.BUILD_NUMBER.toInteger())
@@ -113,12 +117,24 @@ repositories {
     }
 }
 
-task resolveMps(type: Copy) {
-    dependsOn configurations.mps
-    from {
-        configurations.mps.resolve().collect { zipTree(it) }
+ext.skipResolveMps = project.hasProperty('mpsHomeDir')
+ext.mpsHomeDir = rootProject.file(project.findProperty('mpsHomeDir') ?: "$buildDir/mps")
+
+if (project.skipResolveMps) {
+    task resolveMps {
+        doLast {
+            logger.info "MPS resolution skipped"
+            logger.info "MPS home: " + mpsHomeDir.getAbsolutePath()
+        }
     }
-    into "$buildDir/mps"
+} else {
+    task resolveMps(type: Copy) {
+        dependsOn configurations.mps
+        from {
+            configurations.mps.resolve().collect { zipTree(it) }
+        }
+        into mpsHomeDir
+    }
 }
 
 // Ant support
@@ -138,7 +154,7 @@ ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
 def artifactsDir = new File(rootDir, 'artifacts')
 
 
-ext.mps_home = '-Dmps.home=' + resolveMps.destinationDir.getAbsolutePath()
+ext.mps_home = '-Dmps.home=' + mpsHomeDir.getAbsolutePath()
 ext.build_dir = '-Dbuild.dir=' + file(rootProject.projectDir.absolutePath).getAbsolutePath()
 ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir
 ext.pluginVersion = "-Dversion=" + version

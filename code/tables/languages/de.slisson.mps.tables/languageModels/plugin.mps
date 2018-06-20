@@ -527,18 +527,18 @@
                 </node>
                 <node concept="3clFbJ" id="7cmJr8AaQzz" role="3cqZAp">
                   <node concept="1Wc70l" id="7cmJr8AaQz$" role="3clFbw">
-                    <node concept="2YIFZM" id="7cmJr8Ab5gE" role="3uHU7B">
-                      <ref role="37wK5l" to="g51k:~APICellAdapter.isLastPositionInBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):boolean" resolve="isLastPositionInBigCell" />
-                      <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
-                      <node concept="37vLTw" id="7cmJr8AaQzE" role="37wK5m">
+                    <node concept="2YIFZM" id="22ekhmLu1BS" role="3uHU7B">
+                      <ref role="37wK5l" to="g51k:~GeometryUtil.isLastPositionInBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):boolean" resolve="isLastPositionInBigCell" />
+                      <ref role="1Pybhc" to="g51k:~GeometryUtil" resolve="GeometryUtil" />
+                      <node concept="37vLTw" id="22ekhmLu1BT" role="37wK5m">
                         <ref role="3cqZAo" node="7cmJr8AbacE" resolve="selectedCell" />
                       </node>
                     </node>
                     <node concept="3fqX7Q" id="7cmJr8AaQzF" role="3uHU7w">
-                      <node concept="2YIFZM" id="7cmJr8Ab3Ei" role="3fr31v">
-                        <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
-                        <ref role="37wK5l" to="g51k:~APICellAdapter.isFirstPositionInBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):boolean" resolve="isFirstPositionInBigCell" />
-                        <node concept="37vLTw" id="7cmJr8AaQzH" role="37wK5m">
+                      <node concept="2YIFZM" id="22ekhmLu2ow" role="3fr31v">
+                        <ref role="37wK5l" to="g51k:~GeometryUtil.isFirstPositionInBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):boolean" resolve="isFirstPositionInBigCell" />
+                        <ref role="1Pybhc" to="g51k:~GeometryUtil" resolve="GeometryUtil" />
+                        <node concept="37vLTw" id="22ekhmLu2ox" role="37wK5m">
                           <ref role="3cqZAo" node="7cmJr8AbacE" resolve="selectedCell" />
                         </node>
                       </node>
@@ -564,10 +564,10 @@
                         <node concept="2YIFZM" id="7cmJr8AaQ$Y" role="33vP2m">
                           <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextSibling(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getNextSibling" />
                           <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
-                          <node concept="2YIFZM" id="7cmJr8Ab3X2" role="37wK5m">
-                            <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
-                            <ref role="37wK5l" to="g51k:~APICellAdapter.getContainingBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContainingBigCell" />
-                            <node concept="37vLTw" id="7cmJr8AaQzS" role="37wK5m">
+                          <node concept="2YIFZM" id="22ekhmLu39n" role="37wK5m">
+                            <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getContainingBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContainingBigCell" />
+                            <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
+                            <node concept="37vLTw" id="22ekhmLu39o" role="37wK5m">
                               <ref role="3cqZAo" node="7cmJr8AbacE" resolve="selectedCell" />
                             </node>
                           </node>
@@ -593,10 +593,10 @@
                               <node concept="2YIFZM" id="7cmJr8AaQ$Z" role="33vP2m">
                                 <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getNextSibling(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getNextSibling" />
                                 <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
-                                <node concept="2YIFZM" id="7cmJr8Ab3Xz" role="37wK5m">
-                                  <ref role="37wK5l" to="g51k:~APICellAdapter.getContainingBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContainingBigCell" />
-                                  <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
-                                  <node concept="37vLTw" id="7cmJr8AaQ$a" role="37wK5m">
+                                <node concept="2YIFZM" id="22ekhmLu3Ux" role="37wK5m">
+                                  <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getContainingBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContainingBigCell" />
+                                  <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
+                                  <node concept="37vLTw" id="22ekhmLu3Uy" role="37wK5m">
                                     <ref role="3cqZAo" node="7cmJr8AbacE" resolve="selectedCell" />
                                   </node>
                                 </node>
@@ -1098,18 +1098,18 @@
                 </node>
                 <node concept="3clFbJ" id="3Y7loYI5ZmH" role="3cqZAp">
                   <node concept="1Wc70l" id="3Y7loYI5ZmI" role="3clFbw">
-                    <node concept="2YIFZM" id="3Y7loYI5ZnZ" role="3uHU7B">
-                      <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
-                      <ref role="37wK5l" to="g51k:~APICellAdapter.isFirstPositionInBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):boolean" resolve="isFirstPositionInBigCell" />
-                      <node concept="37vLTw" id="3Y7loYI5ZmO" role="37wK5m">
+                    <node concept="2YIFZM" id="22ekhmLtZd6" role="3uHU7B">
+                      <ref role="37wK5l" to="g51k:~GeometryUtil.isFirstPositionInBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):boolean" resolve="isFirstPositionInBigCell" />
+                      <ref role="1Pybhc" to="g51k:~GeometryUtil" resolve="GeometryUtil" />
+                      <node concept="37vLTw" id="22ekhmLtZd7" role="37wK5m">
                         <ref role="3cqZAo" node="3Y7loYI5VYc" resolve="selectedCell" />
                       </node>
                     </node>
                     <node concept="3fqX7Q" id="3Y7loYI5ZmP" role="3uHU7w">
-                      <node concept="2YIFZM" id="3Y7loYI5Zo0" role="3fr31v">
-                        <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
-                        <ref role="37wK5l" to="g51k:~APICellAdapter.isLastPositionInBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):boolean" resolve="isLastPositionInBigCell" />
-                        <node concept="37vLTw" id="3Y7loYI5ZmR" role="37wK5m">
+                      <node concept="2YIFZM" id="22ekhmLtZOK" role="3fr31v">
+                        <ref role="37wK5l" to="g51k:~GeometryUtil.isLastPositionInBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):boolean" resolve="isLastPositionInBigCell" />
+                        <ref role="1Pybhc" to="g51k:~GeometryUtil" resolve="GeometryUtil" />
+                        <node concept="37vLTw" id="22ekhmLtZOL" role="37wK5m">
                           <ref role="3cqZAo" node="3Y7loYI5VYc" resolve="selectedCell" />
                         </node>
                       </node>
@@ -1135,10 +1135,10 @@
                         <node concept="2YIFZM" id="3Y7loYI5Zo1" role="33vP2m">
                           <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
                           <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getPrevSibling(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getPrevSibling" />
-                          <node concept="2YIFZM" id="3Y7loYI5Zo2" role="37wK5m">
-                            <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
-                            <ref role="37wK5l" to="g51k:~APICellAdapter.getContainingBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContainingBigCell" />
-                            <node concept="37vLTw" id="3Y7loYI5Zn2" role="37wK5m">
+                          <node concept="2YIFZM" id="22ekhmLu0sE" role="37wK5m">
+                            <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getContainingBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContainingBigCell" />
+                            <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
+                            <node concept="37vLTw" id="22ekhmLu0sF" role="37wK5m">
                               <ref role="3cqZAo" node="3Y7loYI5VYc" resolve="selectedCell" />
                             </node>
                           </node>

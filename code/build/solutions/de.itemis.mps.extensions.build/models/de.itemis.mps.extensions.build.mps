@@ -3897,6 +3897,12 @@
               <ref role="3bR37D" to="ffeo:7YI57w6K0iE" resolve="jetbrains.mps.lang.editor#1129914002149" />
             </node>
           </node>
+          <node concept="1SiIV0" id="44ByU5ZEzWz" role="3bR37C">
+            <node concept="3bR9La" id="44ByU5ZEzW$" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="6$BmuzArLGs" resolve="de.itemis.mps.tooltips" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3xFG3bj5Mmn" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5Mmo" role="3rtmxm">

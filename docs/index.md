@@ -14,6 +14,12 @@ table tbody tr + tr + tr td:nth-child(2) {
 
 The MPS extensions aim to ease language development within MPS. They are maintained by itemis, JetBrains and the open source community and its development is closely related to the development of MPS.
 
+## MPS Extensions and mbeddr (platform)
+
+**How is the relationship between the mbeddr (platform) and this project?**
+
+The mbeddr project in the past developed a set of extensions that where used to  allow easier development of languages with MPS. These extensions where not C specific and were called *mbeddr platform*. This project aims to give these extensions a new home. To make them more visible but also emphasise that these extensions are independent of mbeddr and it's C implementation in MPS. The midterm goal is to migrate most of these extensions in this project. Not all of them will really fit here because some of these are very experimental or have very specific use cases. Our goal is to migrate the stable bits first. See the [migration](/Migrating/) section of the documentation on what we plan to migrate at the moment and how you could help.
+
 ## Getting Started
 
 To get started grab a release from our release page on [github](https://github.com/JetBrains/MPS-extensions/releases). Extract the archive and point a project or global library in MPS to the location where you extracted it. 

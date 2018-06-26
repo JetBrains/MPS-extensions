@@ -81,7 +81,7 @@
     </node>
     <node concept="1YaCAy" id="3DSLkDUvPaF" role="1YuTPh">
       <property role="TrG5h" value="rootMappingHasBeenExecutedExpression" />
-      <ref role="1YaFvo" to="uvrt:3DSLkDUvP9k" resolve="RootMappingHasBeenExecutedExpression" />
+      <ref role="1YaFvo" to="uvrt:3DSLkDUvP9k" resolve="MappingHasBeenExecutedExpression" />
     </node>
   </node>
   <node concept="1YbPZF" id="3DSLkDUGEYr">
@@ -107,7 +107,7 @@
     </node>
     <node concept="1YaCAy" id="3DSLkDUGEYu" role="1YuTPh">
       <property role="TrG5h" value="rootMappingExecuteOnceExpression" />
-      <ref role="1YaFvo" to="uvrt:3DSLkDUGEYj" resolve="RootMappingExecuteOnceExpression" />
+      <ref role="1YaFvo" to="uvrt:3DSLkDUGEYj" resolve="MappingExecuteOnceExpression" />
     </node>
   </node>
   <node concept="1YbPZF" id="3DSLkDUGFBj">
@@ -133,7 +133,7 @@
     </node>
     <node concept="1YaCAy" id="3DSLkDUGFBm" role="1YuTPh">
       <property role="TrG5h" value="setRootMappingHasBeenExecutedExpression" />
-      <ref role="1YaFvo" to="uvrt:3DSLkDUGEYi" resolve="SetRootMappingHasBeenExecutedExpression" />
+      <ref role="1YaFvo" to="uvrt:3DSLkDUGEYi" resolve="SetMappingHasBeenExecutedExpression" />
     </node>
   </node>
 </model>

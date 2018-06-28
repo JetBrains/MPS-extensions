@@ -884,6 +884,12 @@
       <property role="IQ2ns" value="5126420796713997777" />
       <ref role="20lvS9" node="6uo2fN6gOXK" resolve="IShape" />
     </node>
+    <node concept="1TJgyj" id="1xHXqL1MXya" role="1TKVEi">
+      <property role="IQ2ns" value="1760333149558790282" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="buttonConfig" />
+      <ref role="20lvS9" node="1xHXqL1MV0p" resolve="ButtonConfig" />
+    </node>
     <node concept="1TJgyj" id="D0N6Dj0o1V" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="preservePortOrder" />
@@ -918,6 +924,9 @@
     </node>
     <node concept="PrWs8" id="7L$rKAV50Iu" role="PzmwI">
       <ref role="PrY4T" node="2J9gLgxqr14" resolve="IDiagramContent" />
+    </node>
+    <node concept="PrWs8" id="1xHXqL1Pbm2" role="PzmwI">
+      <ref role="PrY4T" node="1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
     </node>
   </node>
   <node concept="1TIwiD" id="7L$rKAV31Yz">
@@ -1987,6 +1996,64 @@
     <property role="34LRSv" value="editorContext" />
     <property role="EcuMT" value="5112292084089908370" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="PlHQZ" id="4h7S3972BLt">
+    <property role="EcuMT" value="4920147624470412381" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IVertexContainer" />
+    <node concept="1TJgyi" id="4h7S3972BMo" role="1TKVEl">
+      <property role="IQ2nx" value="4920147624470412440" />
+      <property role="TrG5h" value="align" />
+      <ref role="AX2Wp" to="tpc2:hZ7kHEa" resolve="AlignEnum" />
+    </node>
+    <node concept="1TJgyi" id="4h7S3972BMq" role="1TKVEl">
+      <property role="IQ2nx" value="4920147624470412442" />
+      <property role="TrG5h" value="hasAlignButtions" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4h7S3972BMt" role="1TKVEl">
+      <property role="IQ2nx" value="4920147624470412445" />
+      <property role="TrG5h" value="hasFitSizeButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4h7S3972BMx" role="1TKVEl">
+      <property role="IQ2nx" value="4920147624470412449" />
+      <property role="TrG5h" value="hasReorderPortsButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4h7S3972BMA" role="1TKVEl">
+      <property role="IQ2nx" value="4920147624470412454" />
+      <property role="TrG5h" value="hasOpenNodeButtons" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4h7S3972BMG" role="1TKVEl">
+      <property role="IQ2nx" value="4920147624470412460" />
+      <property role="TrG5h" value="hasRelayoutEdgesButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1xHXqL1MV0p">
+    <property role="EcuMT" value="1760333149558779929" />
+    <property role="TrG5h" value="ButtonConfig" />
+    <property role="34LRSv" value="button configuration" />
+    <property role="3GE5qa" value="config" />
+    <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
+    <node concept="PrWs8" id="1xHXqL1MV5N" role="PzmwI">
+      <ref role="PrY4T" node="4h7S3972BLt" resolve="IVertexContainer" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1xHXqL1Pbi0">
+    <property role="EcuMT" value="1760333149559370880" />
+    <property role="3GE5qa" value="content" />
+    <property role="TrG5h" value="IHasUserDefinedConfig" />
+  </node>
+  <node concept="1TIwiD" id="1xHXqL1PbjB">
+    <property role="EcuMT" value="1760333149559370983" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="UserDefinedConfig" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

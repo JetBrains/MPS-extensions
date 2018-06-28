@@ -89,6 +89,7 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -103,6 +104,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -125,6 +127,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
@@ -263,6 +268,53 @@
             <property role="3cmrfH" value="240" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3t5Usi" id="1xHXqL1ZAAj" role="V601i">
+      <property role="TrG5h" value="__align-enum" />
+      <node concept="17QB3L" id="1xHXqL1ZQBJ" role="3t5Oan" />
+      <node concept="Xl_RD" id="1xHXqL1ZQCm" role="3t49C2">
+        <property role="Xl_RC" value="RIGHT" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="1xHXqL1QIV9" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__align-buttons" />
+      <node concept="10P_77" id="1xHXqL1QIVP" role="3t5Oan" />
+      <node concept="3clFbT" id="1xHXqL1QIW4" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="1xHXqL1ZQCH" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__fit-size-button" />
+      <node concept="10P_77" id="1xHXqL1ZQCI" role="3t5Oan" />
+      <node concept="3clFbT" id="1xHXqL1ZQCJ" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="1xHXqL1ZQDy" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__reorder-ports-button" />
+      <node concept="10P_77" id="1xHXqL1ZQDz" role="3t5Oan" />
+      <node concept="3clFbT" id="1xHXqL1ZQD$" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="1xHXqL1ZQEq" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__open-node-buttons" />
+      <node concept="10P_77" id="1xHXqL1ZQEr" role="3t5Oan" />
+      <node concept="3clFbT" id="1xHXqL1ZQEs" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="1xHXqL1ZQFl" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__relayout-edges-button" />
+      <node concept="10P_77" id="1xHXqL1ZQFm" role="3t5Oan" />
+      <node concept="3clFbT" id="1xHXqL1ZQFn" role="3t49C2">
+        <property role="3clFbU" value="true" />
       </node>
     </node>
   </node>

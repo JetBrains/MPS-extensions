@@ -107,6 +107,12 @@
       <property role="IQ2ns" value="106212170332965259" />
       <ref role="20lvS9" node="6uo2fN6gOXK" resolve="IShape" />
     </node>
+    <node concept="1TJgyj" id="5ZBOFE3vCbm" role="1TKVEi">
+      <property role="IQ2ns" value="6910723851735171798" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="buttonConfig" />
+      <ref role="20lvS9" node="5ZBOFE3vobP" resolve="DiagramButtonConfig" />
+    </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="contentQuery" />
@@ -888,7 +894,7 @@
       <property role="IQ2ns" value="1760333149558790282" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="buttonConfig" />
-      <ref role="20lvS9" node="1xHXqL1MV0p" resolve="ButtonConfig" />
+      <ref role="20lvS9" node="1xHXqL1MV0p" resolve="BoxButtonConfig" />
     </node>
     <node concept="1TJgyj" id="D0N6Dj0o1V" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1997,10 +2003,12 @@
     <property role="EcuMT" value="5112292084089908370" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
-  <node concept="PlHQZ" id="4h7S3972BLt">
-    <property role="EcuMT" value="4920147624470412381" />
-    <property role="3GE5qa" value="content" />
-    <property role="TrG5h" value="IVertexContainer" />
+  <node concept="1TIwiD" id="1xHXqL1MV0p">
+    <property role="EcuMT" value="1760333149558779929" />
+    <property role="TrG5h" value="BoxButtonConfig" />
+    <property role="34LRSv" value="box button configuration" />
+    <property role="3GE5qa" value="config" />
+    <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
     <node concept="1TJgyi" id="4h7S3972BMo" role="1TKVEl">
       <property role="IQ2nx" value="4920147624470412440" />
       <property role="TrG5h" value="align" />
@@ -2032,16 +2040,6 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1xHXqL1MV0p">
-    <property role="EcuMT" value="1760333149558779929" />
-    <property role="TrG5h" value="ButtonConfig" />
-    <property role="34LRSv" value="button configuration" />
-    <property role="3GE5qa" value="config" />
-    <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
-    <node concept="PrWs8" id="1xHXqL1MV5N" role="PzmwI">
-      <ref role="PrY4T" node="4h7S3972BLt" resolve="IVertexContainer" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="1xHXqL1Pbi0">
     <property role="EcuMT" value="1760333149559370880" />
     <property role="3GE5qa" value="content" />
@@ -2054,6 +2052,48 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="5ZBOFE3vobP">
+    <property role="EcuMT" value="6910723851735106293" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="DiagramButtonConfig" />
+    <property role="34LRSv" value="diagram button configuration" />
+    <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
+    <node concept="1TJgyi" id="5ZBOFE3vtwC" role="1TKVEl">
+      <property role="IQ2nx" value="6910723851735128104" />
+      <property role="TrG5h" value="hasLayoutDiagramButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5ZBOFE3vtwE" role="1TKVEl">
+      <property role="IQ2nx" value="6910723851735128106" />
+      <property role="TrG5h" value="hasRelayoutAllEdgesButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5ZBOFE3vtwH" role="1TKVEl">
+      <property role="IQ2nx" value="6910723851735128109" />
+      <property role="TrG5h" value="hasMaximizeDiagramButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5ZBOFE3vtwL" role="1TKVEl">
+      <property role="IQ2nx" value="6910723851735128113" />
+      <property role="TrG5h" value="hasResetViewButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5ZBOFE3vv2G" role="1TKVEl">
+      <property role="IQ2nx" value="6910723851735134380" />
+      <property role="TrG5h" value="hasZoomInButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5ZBOFE3vv2M" role="1TKVEl">
+      <property role="IQ2nx" value="6910723851735134386" />
+      <property role="TrG5h" value="hasZoomOutButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5ZBOFE3vv2T" role="1TKVEl">
+      <property role="IQ2nx" value="6910723851735134393" />
+      <property role="TrG5h" value="hasFitSizeAllDiagramButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
 </model>
 

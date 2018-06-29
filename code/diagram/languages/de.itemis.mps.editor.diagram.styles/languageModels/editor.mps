@@ -317,6 +317,62 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="5ZBOFE3$JmS" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__layout-diagram-button" />
+      <node concept="10P_77" id="5ZBOFE3$JmT" role="3t5Oan" />
+      <node concept="3clFbT" id="5ZBOFE3$JmU" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5ZBOFE3$JmV" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__relayout-all-edges-button" />
+      <node concept="10P_77" id="5ZBOFE3$JmW" role="3t5Oan" />
+      <node concept="3clFbT" id="5ZBOFE3$JmX" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5ZBOFE3$JmY" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__maximize-diagram-button" />
+      <node concept="10P_77" id="5ZBOFE3$JmZ" role="3t5Oan" />
+      <node concept="3clFbT" id="5ZBOFE3$Jn0" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5ZBOFE3$Jn1" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__reset-view-button" />
+      <node concept="10P_77" id="5ZBOFE3$Jn2" role="3t5Oan" />
+      <node concept="3clFbT" id="5ZBOFE3$Jn3" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5ZBOFE3$Jn4" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__zoom-in-button" />
+      <node concept="10P_77" id="5ZBOFE3$Jn5" role="3t5Oan" />
+      <node concept="3clFbT" id="5ZBOFE3$Jn6" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5ZBOFE3$K73" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__zoom-out-button" />
+      <node concept="10P_77" id="5ZBOFE3$K74" role="3t5Oan" />
+      <node concept="3clFbT" id="5ZBOFE3$K75" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5ZBOFE3$K8k" role="V601i">
+      <property role="iBDjm" value="true" />
+      <property role="TrG5h" value="__fit-size-all-diagram-button" />
+      <node concept="10P_77" id="5ZBOFE3$K8l" role="3t5Oan" />
+      <node concept="3clFbT" id="5ZBOFE3$K8m" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
   </node>
   <node concept="Qs71p" id="4mmPun57bLu">
     <property role="TrG5h" value="LineStyle" />

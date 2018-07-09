@@ -165,6 +165,7 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -173,7 +174,6 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1172058436953" name="jetbrains.mps.baseLanguage.structure.LocalStaticMethodCall" flags="nn" index="3$87h9" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -2281,12 +2281,22 @@
               </node>
             </node>
             <node concept="TSZUe" id="5mf_X_La5Lo" role="2OqNvi">
-              <node concept="3$87h9" id="5mf_X_La5Lq" role="25WWJ7">
+              <node concept="1rXfSq" id="7YwMzcjUikz" role="25WWJ7">
                 <ref role="37wK5l" node="5mf_X_L9Y2C" resolve="createSingleWordFromText" />
-                <node concept="37vLTw" id="5mf_X_La5Lr" role="37wK5m">
+                <node concept="37vLTw" id="7YwMzcjUivP" role="37wK5m">
                   <ref role="3cqZAo" node="5mf_X_La5Kl" resolve="text" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7YwMzcjU8wq" role="3cqZAp">
+          <node concept="2OqwBi" id="7YwMzcjU8Kc" role="3clFbG">
+            <node concept="37vLTw" id="7YwMzcjU8wo" role="2Oq$k0">
+              <ref role="3cqZAo" node="5mf_X_La5Ko" resolve="t" />
+            </node>
+            <node concept="2qgKlT" id="7YwMzcjU98_" role="2OqNvi">
+              <ref role="37wK5l" node="3mI$71cQ6Aw" resolve="ensureNormalized" />
             </node>
           </node>
         </node>

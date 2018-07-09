@@ -67,7 +67,7 @@ ext.mpsMajor = '2018.2'
 ext.mpsMinor = 'Beta'
 
 
-ext.mpsVersion =  mpsMinor.isEmpty() ?  "$mpsMajor" : "${mpsMajor}.${mpsMinor}"
+ext.mpsVersion =  mpsMinor.isEmpty() ?  "$mpsMajor" : "${mpsMajor}-${mpsMinor}"
 
 
 def minor = '2'

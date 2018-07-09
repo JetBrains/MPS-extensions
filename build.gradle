@@ -63,14 +63,14 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2018.1'
-ext.mpsMinor = '4'
+ext.mpsMajor = '2018.2'
+ext.mpsMinor = 'Beta'
 
 
 ext.mpsVersion =  mpsMinor.isEmpty() ?  "$mpsMajor" : "${mpsMajor}.${mpsMinor}"
 
 
-def minor = '1'
+def minor = '2'
 def major = '2018'
 
 if (ciBuild) {

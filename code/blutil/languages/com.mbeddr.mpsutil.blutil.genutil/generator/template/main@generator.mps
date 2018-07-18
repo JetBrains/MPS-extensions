@@ -82,7 +82,7 @@
   <node concept="bUwia" id="7NuG4bMByYT">
     <property role="TrG5h" value="GeneratorUtil" />
     <node concept="3aamgX" id="7NuG4bMBzem" role="3acgRq">
-      <ref role="30HIoZ" to="uvrt:3DSLkDUvP9k" resolve="RootMappingHasBeenExecutedExpression" />
+      <ref role="30HIoZ" to="uvrt:3DSLkDUvP9k" resolve="MappingHasBeenExecutedExpression" />
       <node concept="1Koe21" id="7NuG4bMBzen" role="1lVwrX">
         <node concept="2YIFZL" id="7NuG4bMBzeo" role="1Koe22">
           <property role="TrG5h" value="baseMappingRuleCondition" />
@@ -132,7 +132,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7NuG4bMBzeE" role="3acgRq">
-      <ref role="30HIoZ" to="uvrt:3DSLkDUGEYi" resolve="SetRootMappingHasBeenExecutedExpression" />
+      <ref role="30HIoZ" to="uvrt:3DSLkDUGEYi" resolve="SetMappingHasBeenExecutedExpression" />
       <node concept="1Koe21" id="7NuG4bMBzeF" role="1lVwrX">
         <node concept="2YIFZL" id="7NuG4bMBzeG" role="1Koe22">
           <property role="TrG5h" value="baseMappingRuleCondition" />
@@ -182,7 +182,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7NuG4bMBzeY" role="3acgRq">
-      <ref role="30HIoZ" to="uvrt:3DSLkDUGEYj" resolve="RootMappingExecuteOnceExpression" />
+      <ref role="30HIoZ" to="uvrt:3DSLkDUGEYj" resolve="MappingExecuteOnceExpression" />
       <node concept="1Koe21" id="7NuG4bMBzeZ" role="1lVwrX">
         <node concept="2YIFZL" id="7NuG4bMBzf0" role="1Koe22">
           <property role="TrG5h" value="baseMappingRuleCondition" />

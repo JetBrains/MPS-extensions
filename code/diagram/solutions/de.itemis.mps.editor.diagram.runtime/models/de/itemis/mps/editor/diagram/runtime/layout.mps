@@ -426,7 +426,7 @@
     </language>
   </registry>
   <node concept="3HP615" id="190K99K5IrD">
-    <property role="TrG5h" value="ILayouter" />
+    <property role="TrG5h" value="IDeprecatedLayouter" />
     <node concept="3clFb_" id="190K99K5IO$" role="jymVt">
       <property role="TrG5h" value="layout" />
       <property role="1EzhhJ" value="true" />
@@ -459,7 +459,7 @@
     <node concept="3Tm1VV" id="190K99K5IrE" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="3FRjz$vys4Z">
-    <property role="TrG5h" value="PortLayouter" />
+    <property role="TrG5h" value="DeprecatedPortLayouter" />
     <node concept="Wx3nA" id="7TThwQl_5Ux" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="SPACE_BETWEEN_PORTS" />
@@ -481,7 +481,7 @@
           <node concept="2OqwBi" id="3FRjz$vGevI" role="3clFbG">
             <node concept="2ShNRf" id="3FRjz$vyZt7" role="2Oq$k0">
               <node concept="1pGfFk" id="3FRjz$vz0ln" role="2ShVmc">
-                <ref role="37wK5l" node="3FRjz$vyT_L" resolve="PortLayouter" />
+                <ref role="37wK5l" node="3FRjz$vyT_L" resolve="DeprecatedPortLayouter" />
                 <node concept="37vLTw" id="3FRjz$vz0mx" role="37wK5m">
                   <ref role="3cqZAo" node="3FRjz$vyQ21" resolve="ports" />
                 </node>
@@ -524,7 +524,7 @@
           <node concept="2OqwBi" id="2BjZSlQJ_r_" role="3clFbG">
             <node concept="2ShNRf" id="2BjZSlQJ_rA" role="2Oq$k0">
               <node concept="1pGfFk" id="2BjZSlQJ_rB" role="2ShVmc">
-                <ref role="37wK5l" node="3FRjz$vyT_L" resolve="PortLayouter" />
+                <ref role="37wK5l" node="3FRjz$vyT_L" resolve="DeprecatedPortLayouter" />
                 <node concept="2OqwBi" id="2BjZSlQJDBi" role="37wK5m">
                   <node concept="37vLTw" id="2BjZSlQJD$H" role="2Oq$k0">
                     <ref role="3cqZAo" node="2BjZSlQJ_rI" resolve="parentCell" />
@@ -3542,7 +3542,7 @@
     <node concept="3Tm1VV" id="3FRjz$vys50" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="5ubAKwglr$y">
-    <property role="TrG5h" value="KielerLayouter" />
+    <property role="TrG5h" value="DeprecatedKielerLayouter" />
     <property role="1sVAO0" value="true" />
     <node concept="Wx3nA" id="wPOpv3v6Ym" role="jymVt">
       <property role="IEkAT" value="false" />
@@ -3556,7 +3556,7 @@
         <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class):org.apache.log4j.Logger" resolve="getLogger" />
         <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
         <node concept="3VsKOn" id="wPOpv3v5TM" role="37wK5m">
-          <ref role="3VsUkX" node="5ubAKwglr$y" resolve="KielerLayouter" />
+          <ref role="3VsUkX" node="5ubAKwglr$y" resolve="DeprecatedKielerLayouter" />
         </node>
       </node>
     </node>
@@ -3884,7 +3884,7 @@
       <node concept="3Tm1VV" id="5ubAKwglr_f" role="1B3o_S" />
       <node concept="3clFbS" id="5ubAKwglr_g" role="3clF47">
         <node concept="1VxSAg" id="5ubAKwglr_h" role="3cqZAp">
-          <ref role="37wK5l" node="6Bd7VwqXxHZ" resolve="KielerLayouter" />
+          <ref role="37wK5l" node="6Bd7VwqXxHZ" resolve="DeprecatedKielerLayouter" />
           <node concept="Rm8GO" id="6Bd7VwqXeO4" role="37wK5m">
             <ref role="Rm8GQ" to="j1kf:~Direction.RIGHT" resolve="RIGHT" />
             <ref role="1Px2BO" to="j1kf:~Direction" resolve="Direction" />
@@ -3898,7 +3898,7 @@
       <node concept="3Tm1VV" id="6Bd7VwqXxI1" role="1B3o_S" />
       <node concept="3clFbS" id="6Bd7VwqXxI2" role="3clF47">
         <node concept="1VxSAg" id="6Bd7VwqXXEH" role="3cqZAp">
-          <ref role="37wK5l" node="5ubAKwglr_k" resolve="KielerLayouter" />
+          <ref role="37wK5l" node="5ubAKwglr_k" resolve="DeprecatedKielerLayouter" />
           <node concept="37vLTw" id="6Bd7VwqXZWz" role="37wK5m">
             <ref role="3cqZAo" node="6Bd7VwqXxId" resolve="direction" />
           </node>
@@ -4069,7 +4069,7 @@
     <node concept="2tJIrI" id="5Ck8edd6LvK" role="jymVt" />
     <node concept="3Tm1VV" id="5ubAKwglr_E" role="1B3o_S" />
     <node concept="3uibUv" id="5ubAKwglr_F" role="EKbjA">
-      <ref role="3uigEE" node="190K99K5IrD" resolve="ILayouter" />
+      <ref role="3uigEE" node="190K99K5IrD" resolve="IDeprecatedLayouter" />
     </node>
     <node concept="3clFb_" id="5ubAKwglr_G" role="jymVt">
       <property role="TrG5h" value="layout" />
@@ -4228,7 +4228,7 @@
             <node concept="3clFbF" id="4c$svNWoT3D" role="3cqZAp">
               <node concept="2YIFZM" id="4c$svNWoTel" role="3clFbG">
                 <ref role="37wK5l" node="2BjZSlQJ_ry" resolve="layoutPortCells" />
-                <ref role="1Pybhc" node="3FRjz$vys4Z" resolve="PortLayouter" />
+                <ref role="1Pybhc" node="3FRjz$vys4Z" resolve="DeprecatedPortLayouter" />
                 <node concept="2GrUjf" id="4c$svNWoTio" role="37wK5m">
                   <ref role="2Gs0qQ" node="4c$svNWozy$" resolve="box" />
                 </node>
@@ -5699,7 +5699,7 @@
                     <node concept="10QFUN" id="4vp4nPrTVpr" role="37wK5m">
                       <node concept="10OMs4" id="4vp4nPrTV$8" role="10QFUM" />
                       <node concept="10M0yZ" id="4vp4nPrTUYP" role="10QFUP">
-                        <ref role="1PxDUh" node="3FRjz$vys4Z" resolve="PortLayouter" />
+                        <ref role="1PxDUh" node="3FRjz$vys4Z" resolve="DeprecatedPortLayouter" />
                         <ref role="3cqZAo" node="7TThwQl_5Ux" resolve="SPACE_BETWEEN_PORTS" />
                       </node>
                     </node>
@@ -7348,7 +7348,7 @@
                 <node concept="3clFbF" id="6U8jGBYAt0e" role="3cqZAp">
                   <node concept="2YIFZM" id="6U8jGBYAtxZ" role="3clFbG">
                     <ref role="37wK5l" node="2BjZSlQJ_ry" resolve="layoutPortCells" />
-                    <ref role="1Pybhc" node="3FRjz$vys4Z" resolve="PortLayouter" />
+                    <ref role="1Pybhc" node="3FRjz$vys4Z" resolve="DeprecatedPortLayouter" />
                     <node concept="2GrUjf" id="6U8jGBYAzt9" role="37wK5m">
                       <ref role="2Gs0qQ" node="6U8jGBYAy9_" resolve="box" />
                     </node>
@@ -7887,7 +7887,7 @@
     </node>
   </node>
   <node concept="312cEu" id="6HXK0WhrJoS">
-    <property role="TrG5h" value="LibavoidLayouter" />
+    <property role="TrG5h" value="DeprecatedLibavoidLayouter" />
     <node concept="Wx3nA" id="wPOpv3wmCn" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="LOG" />
@@ -7900,7 +7900,7 @@
         <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
         <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class):org.apache.log4j.Logger" resolve="getLogger" />
         <node concept="3VsKOn" id="wPOpv3wpUa" role="37wK5m">
-          <ref role="3VsUkX" node="6HXK0WhrJoS" resolve="LibavoidLayouter" />
+          <ref role="3VsUkX" node="6HXK0WhrJoS" resolve="DeprecatedLibavoidLayouter" />
         </node>
       </node>
     </node>
@@ -7931,7 +7931,7 @@
                 <ref role="3cqZAo" to="nkm5:7TThwQl_N6n" resolve="DEFAULT_PORT_HEIGHT" />
               </node>
               <node concept="10M0yZ" id="7TThwQl_OKd" role="3uHU7B">
-                <ref role="1PxDUh" node="3FRjz$vys4Z" resolve="PortLayouter" />
+                <ref role="1PxDUh" node="3FRjz$vys4Z" resolve="DeprecatedPortLayouter" />
                 <ref role="3cqZAo" node="7TThwQl_5Ux" resolve="SPACE_BETWEEN_PORTS" />
               </node>
             </node>
@@ -7991,11 +7991,11 @@
           <node concept="3cpWsn" id="6rMuBfgszZH" role="3cpWs9">
             <property role="TrG5h" value="layouter" />
             <node concept="3uibUv" id="6aY42aVzHgO" role="1tU5fm">
-              <ref role="3uigEE" node="6HXK0WhrJoS" resolve="LibavoidLayouter" />
+              <ref role="3uigEE" node="6HXK0WhrJoS" resolve="DeprecatedLibavoidLayouter" />
             </node>
             <node concept="2ShNRf" id="6rMuBfgszZJ" role="33vP2m">
               <node concept="1pGfFk" id="4mmPun5ddoC" role="2ShVmc">
-                <ref role="37wK5l" node="2I6TvjSrawB" resolve="LibavoidLayouter" />
+                <ref role="37wK5l" node="2I6TvjSrawB" resolve="DeprecatedLibavoidLayouter" />
                 <node concept="2OqwBi" id="3Dr4gYIog$q" role="37wK5m">
                   <node concept="37vLTw" id="6Fu8whCCsgH" role="2Oq$k0">
                     <ref role="3cqZAo" node="6Fu8whCCpx6" resolve="model" />
@@ -8091,7 +8091,7 @@
       <node concept="3Tm1VV" id="2I6TvjSrawE" role="1B3o_S" />
       <node concept="3clFbS" id="2I6TvjSrawF" role="3clF47">
         <node concept="XkiVB" id="3Dr4gYImF7S" role="3cqZAp">
-          <ref role="37wK5l" node="6Bd7VwqXxHZ" resolve="KielerLayouter" />
+          <ref role="37wK5l" node="6Bd7VwqXxHZ" resolve="DeprecatedKielerLayouter" />
           <node concept="37vLTw" id="3Dr4gYImFeq" role="37wK5m">
             <ref role="3cqZAo" node="3Dr4gYImCsV" resolve="direction" />
           </node>
@@ -9339,7 +9339,7 @@
     </node>
     <node concept="2tJIrI" id="7TThwQlBUgx" role="jymVt" />
     <node concept="3uibUv" id="6HXK0WhtD3Z" role="1zkMxy">
-      <ref role="3uigEE" node="5ubAKwglr$y" resolve="KielerLayouter" />
+      <ref role="3uigEE" node="5ubAKwglr$y" resolve="DeprecatedKielerLayouter" />
     </node>
     <node concept="3clFb_" id="48DYfEsjqgK" role="jymVt">
       <property role="TrG5h" value="canLayoutLabels" />
@@ -9357,14 +9357,14 @@
     </node>
   </node>
   <node concept="312cEu" id="6HXK0WhsRfN">
-    <property role="TrG5h" value="LayeredLayouter" />
+    <property role="TrG5h" value="DeprecatedLayeredLayouter" />
     <node concept="2tJIrI" id="6Bd7Vwr12pL" role="jymVt" />
     <node concept="3clFbW" id="6Bd7Vwr12w_" role="jymVt">
       <node concept="3cqZAl" id="6Bd7Vwr12wA" role="3clF45" />
       <node concept="3Tm1VV" id="6Bd7Vwr12wB" role="1B3o_S" />
       <node concept="3clFbS" id="6Bd7Vwr12wD" role="3clF47">
         <node concept="XkiVB" id="6Bd7Vwr12wF" role="3cqZAp">
-          <ref role="37wK5l" node="6Bd7VwqXxHZ" resolve="KielerLayouter" />
+          <ref role="37wK5l" node="6Bd7VwqXxHZ" resolve="DeprecatedKielerLayouter" />
           <node concept="37vLTw" id="6Bd7Vwr12wJ" role="37wK5m">
             <ref role="3cqZAo" node="6Bd7Vwr12wG" resolve="direction" />
           </node>
@@ -9385,7 +9385,7 @@
     <node concept="2tJIrI" id="6Bd7Vwr12sC" role="jymVt" />
     <node concept="3Tm1VV" id="6HXK0WhsRfO" role="1B3o_S" />
     <node concept="3uibUv" id="6HXK0WhsRgq" role="1zkMxy">
-      <ref role="3uigEE" node="5ubAKwglr$y" resolve="KielerLayouter" />
+      <ref role="3uigEE" node="5ubAKwglr$y" resolve="DeprecatedKielerLayouter" />
     </node>
     <node concept="3clFb_" id="6HXK0WhtqrY" role="jymVt">
       <property role="TrG5h" value="doLayout" />
@@ -15603,7 +15603,7 @@
     <node concept="3Tm1VV" id="A8JW4hcJlP" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7k8PWDQnjGk">
-    <property role="TrG5h" value="TreeLayouter" />
+    <property role="TrG5h" value="DeprectatedTreeLayouter" />
     <node concept="3clFb_" id="7k8PWDQnGx7" role="jymVt">
       <property role="TrG5h" value="doLayout" />
       <property role="1EzhhJ" value="false" />
@@ -15811,7 +15811,7 @@
     </node>
     <node concept="3Tm1VV" id="7k8PWDQnjGl" role="1B3o_S" />
     <node concept="3uibUv" id="7k8PWDQnGvL" role="1zkMxy">
-      <ref role="3uigEE" node="5ubAKwglr$y" resolve="KielerLayouter" />
+      <ref role="3uigEE" node="5ubAKwglr$y" resolve="DeprecatedKielerLayouter" />
     </node>
   </node>
   <node concept="312cEu" id="6Bd7Vwqp86F">

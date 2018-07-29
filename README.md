@@ -1,5 +1,7 @@
 # MPS Extensions
 
+<a href="https://build.mbeddr.com/project.html?projectId=Mbeddr2_Mbeddr_Gradle_MpsExtensions&tab=projectOverview"><img src="http://build.mbeddr.com/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
+
 The MPS extensions aim to ease language development withing MPS. They are maintained by itemis, JetBrains and the open source community and its development is closely related to the development of MPS.
 
 Join the dicussion on [Slack](http://slack-mps.jetbrains.com) in the #mps-extensions room.

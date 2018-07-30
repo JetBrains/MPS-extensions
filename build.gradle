@@ -157,7 +157,7 @@ def artifactsDir = new File(rootDir, 'artifacts')
 ext.mps_home = '-Dmps.home=' + mpsHomeDir.getAbsolutePath()
 ext.build_dir = '-Dbuild.dir=' + file(rootProject.projectDir.absolutePath).getAbsolutePath()
 ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir
-ext.pluginVersion = "-Dversion=" + version
+ext.pluginVersion = "-DversionNumber=" + version
 ext.buildDate = "-DbuildDate=" + new Date().toString()
 ext.extensions_home = '-Dextensions.home=' + rootDir
 

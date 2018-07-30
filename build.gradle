@@ -74,7 +74,16 @@ def minor = '2'
 def major = '2018'
 
 if (ciBuild) {
-    version = GitBasedVersioning.getVersionWithCount(major, minor, System.env.BUILD_NUMBER.toInteger())
+    String branch = GitBasedVersioning.gitBranch
+
+    def buildNumber = System.env.BUILD_NUMBER.toInteger()
+    if (branch.startsWith("maintenance")) {
+        version = "$major.$minor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
+        //version = GitBasedVersioning.getVersion("" ,major, minor, buildNumber)
+    } else {
+        version = GitBasedVersioning.getVersionWithCount(major, minor, buildNumber)
+    }
+
     println "##teamcity[buildNumber '${version}']"
 } else {
     println "Local build detected, version will be SNAPSHOT"

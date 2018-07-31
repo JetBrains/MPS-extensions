@@ -5352,8 +5352,11 @@
             <property role="2Ry0Am" value="common" />
             <node concept="2Ry0Ak" id="3yHCXSNnVPj" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
-              <node concept="2Ry0Ak" id="3yHCXSNnW6$" role="2Ry0An">
-                <property role="2Ry0Am" value="com.mbeddr.mpsutil.common.msd" />
+              <node concept="2Ry0Ak" id="F1NWDquT2e" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.common" />
+                <node concept="2Ry0Ak" id="F1NWDquTAh" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.common.msd" />
+                </node>
               </node>
             </node>
           </node>

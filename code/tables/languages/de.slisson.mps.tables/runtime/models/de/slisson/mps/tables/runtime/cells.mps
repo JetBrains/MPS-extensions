@@ -30354,7 +30354,7 @@
       <node concept="3Tm1VV" id="XrIi9uGhZj" role="1B3o_S" />
       <node concept="3clFbS" id="XrIi9uGhZk" role="3clF47">
         <node concept="XkiVB" id="XrIi9uGjgy" role="3cqZAp">
-          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,java.lang.String,jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
+          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
           <node concept="37vLTw" id="1lPv0NVhd5C" role="37wK5m">
             <ref role="3cqZAo" node="XrIi9uGiyQ" resolve="ownerNode" />
           </node>

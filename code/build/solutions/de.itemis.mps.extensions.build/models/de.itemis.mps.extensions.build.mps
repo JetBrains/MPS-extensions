@@ -210,10 +210,10 @@
     <property role="TrG5h" value="de.itemis.mps.extensions" />
     <property role="2DA0ip" value="../../../../build/generated/languages" />
     <node concept="m$_wf" id="4hvHh3QW$Eh" role="3989C9">
-      <property role="m$_wk" value="de.slisson.mps.all" />
+      <property role="m$_wk" value="de.itemis.mps.extensions.build" />
       <node concept="3_J27D" id="4hvHh3QW$Ei" role="m$_yQ">
         <node concept="3Mxwew" id="4hvHh3QW$Ej" role="3MwsjC">
-          <property role="3MwjfP" value="de.slisson.mps.all" />
+          <property role="3MwjfP" value="de.itemis.mps.extensions.all" />
         </node>
       </node>
       <node concept="3_J27D" id="4hvHh3QW$Ek" role="m$_w8">
@@ -222,19 +222,19 @@
         </node>
       </node>
       <node concept="m$f5U" id="4hvHh3QWCcE" role="m$_yh">
-        <ref role="m$f5T" node="2Xjt3l5bx4Z" resolve="de.slisson.mps.all" />
+        <ref role="m$f5T" node="2Xjt3l5bx4Z" resolve="de.itemis.mps.extensions.build" />
       </node>
       <node concept="m$_yC" id="4hvHh3QWCLM" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="3_J27D" id="4hvHh3QW$Eo" role="m_cZH">
         <node concept="3Mxwew" id="4hvHh3QW$Ep" role="3MwsjC">
-          <property role="3MwjfP" value="de.slisson.mps.all" />
+          <property role="3MwjfP" value="de.itemis.mps.extensions.build" />
         </node>
       </node>
     </node>
     <node concept="2G$12M" id="2Xjt3l5bx4Z" role="3989C9">
-      <property role="TrG5h" value="de.slisson.mps.all" />
+      <property role="TrG5h" value="de.itemis.mps.extensions.build" />
       <node concept="1E1JtA" id="PE3B26VOkn" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.extensions.build" />
@@ -730,7 +730,7 @@
       </node>
     </node>
     <node concept="m$_wf" id="31bAEZ0srEa" role="3989C9">
-      <property role="m$_wk" value="de.slisson.mps.editor.multiline" />
+      <property role="m$_wk" value="de.itemis.mps.extensions.multiline" />
       <node concept="2pNNFK" id="5LEeV$4fWU$" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="5LEeV$4fWU_" role="3o6s8t">
@@ -983,7 +983,7 @@
       </node>
     </node>
     <node concept="m$_wf" id="1sO539bGQvt" role="3989C9">
-      <property role="m$_wk" value="de.slisson.mps.richtext" />
+      <property role="m$_wk" value="de.itemis.mps.extensions.richtext" />
       <node concept="2pNNFK" id="5LEeV$4fXaC" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="5LEeV$4fXaD" role="3o6s8t">
@@ -1010,7 +1010,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="31bAEZ0su6f" role="m$_yJ">
-        <ref role="m$_y1" node="31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
+        <ref role="m$_y1" node="31bAEZ0srEa" resolve="de.itemis.mps.extensions.multiline" />
       </node>
       <node concept="m$_yC" id="6Y0V2RJx6rY" role="m$_yJ">
         <ref role="m$_y1" node="6Y0V2RJk3uw" resolve="de.itemis.mps.selection" />
@@ -1264,7 +1264,7 @@
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="m$_yC" id="7szUFELHk3g" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.itemis.mps.extensions.hacks" />
       </node>
       <node concept="m$_yC" id="7szUFELOg4w" role="m$_yJ">
         <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
@@ -1958,7 +1958,7 @@
     <node concept="m$_wf" id="2Xjt3l57cLw" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.editor.math" />
       <node concept="m$_yC" id="6d7zaBDP3rM" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.itemis.mps.extensions.hacks" />
       </node>
       <node concept="3_J27D" id="2Xjt3l57cLx" role="m$_yQ">
         <node concept="3Mxwew" id="2Xjt3l57cLy" role="3MwsjC">
@@ -2330,7 +2330,7 @@
       </node>
     </node>
     <node concept="m$_wf" id="29so9Vb$6Tj" role="3989C9">
-      <property role="m$_wk" value="de.slisson.mps.tables" />
+      <property role="m$_wk" value="de.itemis.mps.extensions.tables" />
       <node concept="3_J27D" id="29so9Vb$6Tk" role="m$_yQ">
         <node concept="3Mxwew" id="29so9Vb$6Tl" role="3MwsjC">
           <property role="3MwjfP" value="MPS Table Editor Component" />
@@ -2822,7 +2822,7 @@
       </node>
     </node>
     <node concept="m$_wf" id="7klUZA6XM5S" role="3989C9">
-      <property role="m$_wk" value="de.slisson.mps.conditionalEditor" />
+      <property role="m$_wk" value="de.itemis.mps.extensions.conditionalEditor" />
       <node concept="3_J27D" id="7klUZA6XM5T" role="m$_yQ">
         <node concept="3Mxwew" id="7klUZA6XM5U" role="3MwsjC">
           <property role="3MwjfP" value="de.slisson.mps.conditionalEditor" />
@@ -2840,7 +2840,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="6Y0V2RJk5lz" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.itemis.mps.extensions.hacks" />
       </node>
       <node concept="3_J27D" id="7klUZA6XM5Z" role="m_cZH">
         <node concept="3Mxwew" id="7klUZA6XM60" role="3MwsjC">
@@ -3094,7 +3094,7 @@
       </node>
     </node>
     <node concept="m$_wf" id="2Xjt3l57iTJ" role="3989C9">
-      <property role="m$_wk" value="de.slisson.mps.hacks" />
+      <property role="m$_wk" value="de.itemis.mps.extensions.hacks" />
       <node concept="3_J27D" id="2Xjt3l57iTK" role="m$_yQ">
         <node concept="3Mxwew" id="2Xjt3l57iTL" role="3MwsjC">
           <property role="3MwjfP" value="de.slisson.mps.hacks" />
@@ -3447,7 +3447,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="3FRjz$vnjn1" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.itemis.mps.extensions.hacks" />
       </node>
       <node concept="m$_yC" id="7oiNWZV8BUc" role="m$_yJ">
         <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
@@ -3462,7 +3462,7 @@
         <ref role="m$_y1" node="6Y0V2RJk3uw" resolve="de.itemis.mps.selection" />
       </node>
       <node concept="m$_yC" id="1x69Amk7MyO" role="m$_yJ">
-        <ref role="m$_y1" node="7klUZA6XM5S" resolve="de.slisson.mps.conditionalEditor" />
+        <ref role="m$_y1" node="7klUZA6XM5S" resolve="de.itemis.mps.extensions.conditionalEditor" />
       </node>
       <node concept="m$_yC" id="3bNiYZ6W4aO" role="m$_yJ">
         <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
@@ -4080,7 +4080,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="6$BmuzArOtI" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.itemis.mps.extensions.hacks" />
       </node>
       <node concept="3_J27D" id="6$BmuzArOtJ" role="m_cZH">
         <node concept="3Mxwew" id="6$BmuzArOtK" role="3MwsjC">
@@ -4277,7 +4277,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="6SVXTgIenog" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.itemis.mps.extensions.hacks" />
       </node>
     </node>
     <node concept="2G$12M" id="6SVXTgIeisg" role="3989C9">
@@ -4558,10 +4558,10 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="2NyZxKpV1R9" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.itemis.mps.extensions.hacks" />
       </node>
       <node concept="m$_yC" id="2NyZxKpV2nh" role="m$_yJ">
-        <ref role="m$_y1" node="1sO539bGQvt" resolve="de.slisson.mps.richtext" />
+        <ref role="m$_y1" node="1sO539bGQvt" resolve="de.itemis.mps.extensions.richtext" />
       </node>
     </node>
     <node concept="2G$12M" id="2NyZxKpUBtX" role="3989C9">
@@ -5329,7 +5329,7 @@
         </node>
       </node>
       <node concept="m$_wl" id="4hvHh3QWqH0" role="39821P">
-        <ref role="m_rDy" node="4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
+        <ref role="m_rDy" node="4hvHh3QW$Eh" resolve="de.itemis.mps.extensions.build" />
       </node>
       <node concept="m$_wl" id="2H_mjOXw4dd" role="39821P">
         <ref role="m_rDy" node="2H_mjOXw1Ef" resolve="de.itemis.mps.nativelibs" />
@@ -5460,7 +5460,7 @@
         </node>
       </node>
       <node concept="m$_wl" id="4p3FRivDLPx" role="39821P">
-        <ref role="m_rDy" node="31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
+        <ref role="m_rDy" node="31bAEZ0srEa" resolve="de.itemis.mps.extensions.multiline" />
         <node concept="398223" id="3gBYXhg3Gtd" role="39821P">
           <node concept="3_J27D" id="3gBYXhg3Gte" role="Nbhlr">
             <node concept="3Mxwew" id="3gBYXhg3Gtf" role="3MwsjC">
@@ -5487,7 +5487,7 @@
         </node>
       </node>
       <node concept="m$_wl" id="1sO539bGQvs" role="39821P">
-        <ref role="m_rDy" node="1sO539bGQvt" resolve="de.slisson.mps.richtext" />
+        <ref role="m_rDy" node="1sO539bGQvt" resolve="de.itemis.mps.extensions.richtext" />
       </node>
       <node concept="m$_wl" id="7szUFELHiFQ" role="39821P">
         <ref role="m_rDy" node="7szUFELHeHf" resolve="de.itemis.mps.editor.widgets" />
@@ -5496,16 +5496,16 @@
         <ref role="m_rDy" node="2Xjt3l57cLw" resolve="de.itemis.mps.editor.math" />
       </node>
       <node concept="m$_wl" id="29so9Vb$6Tw" role="39821P">
-        <ref role="m_rDy" node="29so9Vb$6Tj" resolve="de.slisson.mps.tables" />
+        <ref role="m_rDy" node="29so9Vb$6Tj" resolve="de.itemis.mps.extensions.tables" />
       </node>
       <node concept="m$_wl" id="6Y0V2RJk5G9" role="39821P">
         <ref role="m_rDy" node="6Y0V2RJk3uw" resolve="de.itemis.mps.selection" />
       </node>
       <node concept="m$_wl" id="7klUZA6XM65" role="39821P">
-        <ref role="m_rDy" node="7klUZA6XM5S" resolve="de.slisson.mps.conditionalEditor" />
+        <ref role="m_rDy" node="7klUZA6XM5S" resolve="de.itemis.mps.extensions.conditionalEditor" />
       </node>
       <node concept="m$_wl" id="2Xjt3l57guk" role="39821P">
-        <ref role="m_rDy" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <ref role="m_rDy" node="2Xjt3l57iTJ" resolve="de.itemis.mps.extensions.hacks" />
       </node>
       <node concept="m$_wl" id="3prCiG1Zenn" role="39821P">
         <ref role="m_rDy" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />

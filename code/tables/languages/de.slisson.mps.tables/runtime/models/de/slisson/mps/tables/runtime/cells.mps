@@ -30532,9 +30532,9 @@
               <ref role="3cqZAo" node="XrIi9uGxCg" resolve="emptyCell" />
             </node>
             <node concept="liA8E" id="XrIi9uGxD0" role="2OqNvi">
-              <ref role="37wK5l" to="g51k:~EditorCell_Basic.setRole(java.lang.String):void" resolve="setRole" />
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.setSRole(org.jetbrains.mps.openapi.language.SConceptFeature):void" resolve="setSRole" />
               <node concept="1rXfSq" id="XrIi9uGxCA" role="37wK5m">
-                <ref role="37wK5l" node="I2JFyBQpMs" resolve="getElementRole" />
+                <ref role="37wK5l" node="I2JFyBQpMF" resolve="getElementSRole" />
               </node>
             </node>
           </node>

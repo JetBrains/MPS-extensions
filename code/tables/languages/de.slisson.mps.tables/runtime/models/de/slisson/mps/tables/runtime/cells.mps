@@ -30355,12 +30355,6 @@
       <node concept="3clFbS" id="XrIi9uGhZk" role="3clF47">
         <node concept="XkiVB" id="XrIi9uGjgy" role="3cqZAp">
           <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
-          <node concept="37vLTw" id="1lPv0NVhd5C" role="37wK5m">
-            <ref role="3cqZAo" node="XrIi9uGiyQ" resolve="ownerNode" />
-          </node>
-          <node concept="Xl_RD" id="1lPv0NVhdt1" role="37wK5m">
-            <property role="Xl_RC" value="" />
-          </node>
           <node concept="37vLTw" id="XrIi9uGjoF" role="37wK5m">
             <ref role="3cqZAo" node="XrIi9uGjbH" resolve="context" />
           </node>

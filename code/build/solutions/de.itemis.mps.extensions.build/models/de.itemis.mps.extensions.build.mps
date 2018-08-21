@@ -5498,12 +5498,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
-        <node concept="1SiIV0" id="F1NWDr9HR_" role="3bR37C">
-          <node concept="3bR9La" id="F1NWDr9HRA" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4j" resolve="jetbrains.mps.lang.actions" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="F1NWDr9HRB" role="3bR37C">
           <node concept="3bR9La" id="F1NWDr9HRC" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -5662,22 +5656,15 @@
               <ref role="3bR37D" node="F1NWDqqp7T" resolve="com.mbeddr.mpsutil.grammarcells.runtimelang" />
             </node>
           </node>
-          <node concept="1SiIV0" id="F1NWDr9JaV" role="3bR37C">
-            <node concept="3bR9La" id="F1NWDr9JaW" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="F1NWDrb0mq" role="3bR37C">
             <node concept="3bR9La" id="F1NWDrb0mr" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:7YI57w6K0iE" resolve="jetbrains.mps.lang.editor#1129914002149" />
             </node>
           </node>
-          <node concept="1SiIV0" id="F1NWDrb0ms" role="3bR37C">
-            <node concept="3bR9La" id="F1NWDrb0mt" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:2Qa9MYMHrcB" resolve="jetbrains.mps.editorlang.runtime" />
+          <node concept="1SiIV0" id="1HliSoaLzW8" role="3bR37C">
+            <node concept="3bR9La" id="1HliSoaLzW7" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7YI57w6K0hQ" resolve="jetbrains.mps.lang.actions#1154466409006" />
             </node>
           </node>
         </node>

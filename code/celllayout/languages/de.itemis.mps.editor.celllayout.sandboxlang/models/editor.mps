@@ -9,10 +9,14 @@
   <imports>
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="uvw8" ref="r:8779fe48-e315-4d07-bdd5-8767e3f955d0(de.itemis.mps.editor.celllayout.sandboxlang.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <child id="1140524464360" name="cellLayout" index="2czzBx" />
+      </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
@@ -62,6 +66,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -93,6 +98,9 @@
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
     </language>
     <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="8304752469786031156" name="de.itemis.mps.editor.celllayout.structure.VerticalLineCell" flags="ng" index="2up9LE" />
+      <concept id="8304752469786524965" name="de.itemis.mps.editor.celllayout.structure.VerticalLineColorStyle" flags="lg" index="2ur1lV" />
+      <concept id="8304752469786516942" name="de.itemis.mps.editor.celllayout.structure.VerticalLineWidthStyle" flags="lg" index="2ur3mg" />
       <concept id="4682418030829244851" name="de.itemis.mps.editor.celllayout.structure.StringStyle" flags="lg" index="2TzlJg">
         <property id="1238091709220" name="value" index="1413C4" />
         <child id="1236443321503" name="query" index="3xKXm0" />
@@ -203,7 +211,7 @@
         <node concept="3F0ifn" id="641A4deYo0q" role="3EZMnx">
           <property role="3F0ifm" value="Impact" />
           <node concept="2TzqKc" id="641A4deYo0r" role="3F10Kt">
-            <property role="1413C4" value="Impact" />
+            <property role="1413C4" value="Courier New" />
           </node>
         </node>
         <node concept="3F0ifn" id="6SVXTgIpu8N" role="3EZMnx">
@@ -1775,6 +1783,78 @@
         <node concept="2iRfu4" id="5vGqiR9VBkp" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="3Osd_ywVYlV" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7d0q5VHb5R2">
+    <ref role="1XX52x" to="uvw8:7d0q5VHb5QY" resolve="TextWithVerticalLine" />
+    <node concept="3EZMnI" id="7d0q5VHb5R4" role="2wV5jI">
+      <node concept="3F0ifn" id="7d0q5VHdIH0" role="3EZMnx">
+        <property role="3F0ifm" value="vertical line demo:" />
+      </node>
+      <node concept="2up9LE" id="7d0q5VHb5Rb" role="3EZMnx">
+        <node concept="2ur3mg" id="7d0q5VHbewF" role="3F10Kt">
+          <property role="1lJzqY" value="7" />
+        </node>
+        <node concept="2ur1lV" id="7d0q5VHbgV7" role="3F10Kt">
+          <property role="Vb096" value="magenta" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="7d0q5VHdIGF" role="3EZMnx">
+        <node concept="2iRkQZ" id="7d0q5VHdIGG" role="2iSdaV" />
+        <node concept="3F0ifn" id="7d0q5VHbhIX" role="3EZMnx">
+          <property role="3F0ifm" value="first line" />
+        </node>
+        <node concept="3F0ifn" id="7d0q5VHdIGO" role="3EZMnx">
+          <property role="3F0ifm" value="second line" />
+        </node>
+        <node concept="3F0ifn" id="7d0q5VHdIHa" role="3EZMnx">
+          <property role="3F0ifm" value="third line" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7d0q5VHb5R7" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7d0q5VHblIl">
+    <ref role="1XX52x" to="uvw8:7d0q5VHb5QX" resolve="LinesContainer" />
+    <node concept="3EZMnI" id="7d0q5VHblIn" role="2wV5jI">
+      <node concept="3EZMnI" id="7d0q5VHblIu" role="3EZMnx">
+        <node concept="VPM3Z" id="7d0q5VHblIw" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="7d0q5VHblID" role="3EZMnx">
+          <property role="3F0ifm" value="container name:" />
+        </node>
+        <node concept="3F0A7n" id="7d0q5VHblIN" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="l2Vlx" id="7d0q5VHblIz" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="7d0q5VHblIR" role="3EZMnx" />
+      <node concept="3F2HdR" id="7d0q5VHblJ6" role="3EZMnx">
+        <ref role="1NtTu8" to="uvw8:7d0q5VHb5R0" resolve="lines" />
+        <node concept="2iRkQZ" id="7d0q5VHblJ9" role="2czzBx" />
+        <node concept="VPM3Z" id="7d0q5VHblJa" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="7d0q5VHblIq" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7d0q5VHb$gY">
+    <ref role="1XX52x" to="uvw8:7d0q5VHb$gX" resolve="TextWithHorizontalLine" />
+    <node concept="3EZMnI" id="7d0q5VHb$h3" role="2wV5jI">
+      <node concept="3F0ifn" id="7d0q5VHb$h5" role="3EZMnx">
+        <property role="3F0ifm" value="text with horizontal line" />
+      </node>
+      <node concept="2T_mXK" id="7d0q5VHb$hd" role="3EZMnx">
+        <node concept="2T_bXS" id="7d0q5VHbHGj" role="3F10Kt">
+          <property role="Vb096" value="blue" />
+        </node>
+        <node concept="2T_bXT" id="7d0q5VHbHGo" role="3F10Kt">
+          <property role="1lJzqY" value="7" />
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="7d0q5VHb$h6" role="2iSdaV" />
     </node>
   </node>
 </model>

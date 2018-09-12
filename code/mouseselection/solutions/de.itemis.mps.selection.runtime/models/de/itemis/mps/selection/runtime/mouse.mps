@@ -202,6 +202,7 @@
     <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
       <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
       <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
         <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
       </concept>
       <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
@@ -2534,6 +2535,19 @@
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5OLC7TiM8xI" role="ukAjM">
+                <node concept="2OqwBi" id="5OLC7TiM8fL" role="2Oq$k0">
+                  <node concept="37vLTw" id="5OLC7TiM82C" role="2Oq$k0">
+                    <ref role="3cqZAo" node="630t2b8eeHG" resolve="editorComponent" />
+                  </node>
+                  <node concept="liA8E" id="5OLC7TiM8rx" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getEditorContext" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5OLC7TiM8Jz" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                 </node>
               </node>
             </node>

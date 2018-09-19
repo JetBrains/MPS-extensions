@@ -26869,7 +26869,22 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1MCPN0iswuF" role="3cqZAp" />
+        <node concept="3clFbH" id="3qQrmwQbBKk" role="3cqZAp" />
+        <node concept="3SKdUt" id="3qQrmwQcaxb" role="3cqZAp">
+          <node concept="3SKdUq" id="3qQrmwQcaxd" role="3SKWNk">
+            <property role="3SKdUp" value="INSERT action is only called on cells that have SRole set" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3qQrmwQbB8I" role="3cqZAp">
+          <node concept="1rXfSq" id="3qQrmwQbB8G" role="3clFbG">
+            <ref role="37wK5l" to="g51k:~EditorCell_Basic.setSRole(org.jetbrains.mps.openapi.language.SConceptFeature):void" resolve="setSRole" />
+            <node concept="10M0yZ" id="3qQrmwQc9Mf" role="37wK5m">
+              <ref role="3cqZAo" node="3qQrmwQc8UH" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="3qQrmwQbC3n" resolve="DummySLink" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3qQrmwQbA5w" role="3cqZAp" />
         <node concept="3clFbF" id="1MCPN0iswKf" role="3cqZAp">
           <node concept="2OqwBi" id="1MCPN0isx4v" role="3clFbG">
             <node concept="2YIFZM" id="1MCPN0iswVR" role="2Oq$k0">
@@ -30354,13 +30369,7 @@
       <node concept="3Tm1VV" id="XrIi9uGhZj" role="1B3o_S" />
       <node concept="3clFbS" id="XrIi9uGhZk" role="3clF47">
         <node concept="XkiVB" id="XrIi9uGjgy" role="3cqZAp">
-          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,java.lang.String,jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
-          <node concept="37vLTw" id="1lPv0NVhd5C" role="37wK5m">
-            <ref role="3cqZAo" node="XrIi9uGiyQ" resolve="ownerNode" />
-          </node>
-          <node concept="Xl_RD" id="1lPv0NVhdt1" role="37wK5m">
-            <property role="Xl_RC" value="" />
-          </node>
+          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
           <node concept="37vLTw" id="XrIi9uGjoF" role="37wK5m">
             <ref role="3cqZAo" node="XrIi9uGjbH" resolve="context" />
           </node>
@@ -30532,9 +30541,9 @@
               <ref role="3cqZAo" node="XrIi9uGxCg" resolve="emptyCell" />
             </node>
             <node concept="liA8E" id="XrIi9uGxD0" role="2OqNvi">
-              <ref role="37wK5l" to="g51k:~EditorCell_Basic.setRole(java.lang.String):void" resolve="setRole" />
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.setSRole(org.jetbrains.mps.openapi.language.SConceptFeature):void" resolve="setSRole" />
               <node concept="1rXfSq" id="XrIi9uGxCA" role="37wK5m">
-                <ref role="37wK5l" node="I2JFyBQpMs" resolve="getElementRole" />
+                <ref role="37wK5l" node="I2JFyBQpMF" resolve="getElementSRole" />
               </node>
             </node>
           </node>
@@ -33693,6 +33702,95 @@
       <node concept="3clFbS" id="5ivXze3ck8D" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="5ivXze3cgBZ" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="3qQrmwQbC3n">
+    <property role="TrG5h" value="DummySLink" />
+    <node concept="Wx3nA" id="3qQrmwQc8UH" role="jymVt">
+      <property role="TrG5h" value="INSTANCE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="3qQrmwQc7HK" role="1tU5fm">
+        <ref role="3uigEE" node="3qQrmwQbC3n" resolve="DummySLink" />
+      </node>
+      <node concept="3Tm1VV" id="3qQrmwQc90P" role="1B3o_S" />
+      <node concept="2ShNRf" id="3qQrmwQc843" role="33vP2m">
+        <node concept="HV5vD" id="3qQrmwQc8M$" role="2ShVmc">
+          <ref role="HV5vE" node="3qQrmwQbC3n" resolve="DummySLink" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3qQrmwQc94y" role="jymVt" />
+    <node concept="3Tm1VV" id="3qQrmwQbC3o" role="1B3o_S" />
+    <node concept="3uibUv" id="3qQrmwQbCFU" role="EKbjA">
+      <ref role="3uigEE" to="c17a:~SConceptFeature" resolve="SConceptFeature" />
+    </node>
+    <node concept="3clFb_" id="3qQrmwQbCMc" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getOwner" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="3qQrmwQbCMd" role="1B3o_S" />
+      <node concept="2AHcQZ" id="3qQrmwQbCMf" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="3qQrmwQbCMg" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+      </node>
+      <node concept="3clFbS" id="3qQrmwQbCMh" role="3clF47">
+        <node concept="YS8fn" id="3qQrmwQc6g3" role="3cqZAp">
+          <node concept="2ShNRf" id="3qQrmwQc6g4" role="YScLw">
+            <node concept="1pGfFk" id="3qQrmwQc6g5" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3qQrmwQbCMi" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3qQrmwQbCMl" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isValid" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="3qQrmwQbCMm" role="1B3o_S" />
+      <node concept="10P_77" id="3qQrmwQbCMo" role="3clF45" />
+      <node concept="3clFbS" id="3qQrmwQbCMp" role="3clF47">
+        <node concept="YS8fn" id="3qQrmwQbDdf" role="3cqZAp">
+          <node concept="2ShNRf" id="3qQrmwQbDkC" role="YScLw">
+            <node concept="1pGfFk" id="3qQrmwQc6cN" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3qQrmwQbCMq" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="3qQrmwQbCMt" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getName" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="3qQrmwQbCMu" role="1B3o_S" />
+      <node concept="2AHcQZ" id="3qQrmwQbCMw" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="17QB3L" id="3qQrmwQc6nC" role="3clF45" />
+      <node concept="3clFbS" id="3qQrmwQbCMz" role="3clF47">
+        <node concept="YS8fn" id="3qQrmwQc6i8" role="3cqZAp">
+          <node concept="2ShNRf" id="3qQrmwQc6i9" role="YScLw">
+            <node concept="1pGfFk" id="3qQrmwQc6ia" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3qQrmwQbCM$" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
 </model>
 

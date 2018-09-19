@@ -7,7 +7,7 @@
   <imports>
     <import index="uvrt" ref="r:c266b17e-13c4-40d1-81f3-e76cbf26809a(com.mbeddr.mpsutil.blutil.genutil.structure)" />
     <import index="wrkm" ref="r:9b3ce033-fa38-4dc3-b850-21cb7566c1ad(genUtil)" />
-    <import index="q1l7" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.template(MPS.Core/)" implicit="true" />
+    <import index="q1l7" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.template(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -91,8 +91,8 @@
           <node concept="37vLTG" id="7NuG4bMBzer" role="3clF46">
             <property role="TrG5h" value="_context" />
             <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="7NuG4bMBzes" role="1tU5fm">
-              <ref role="3uigEE" to="q1l7:~BaseMappingRuleContext" resolve="BaseMappingRuleContext" />
+            <node concept="3uibUv" id="3xsoX6oD4xU" role="1tU5fm">
+              <ref role="3uigEE" to="q1l7:~TemplateQueryContext" resolve="TemplateQueryContext" />
             </node>
           </node>
           <node concept="3clFbS" id="7NuG4bMBzet" role="3clF47">
@@ -117,11 +117,11 @@
                       <ref role="3cqZAo" node="7NuG4bMBzer" resolve="_context" />
                     </node>
                     <node concept="liA8E" id="7NuG4bMBzeB" role="2OqNvi">
-                      <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateNode():org.jetbrains.mps.openapi.model.SNode" resolve="getTemplateNode" />
+                      <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getTemplateReference" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzeC" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                    <ref role="37wK5l" to="mhbf:~SNodeReference.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
                   </node>
                 </node>
                 <node concept="raruj" id="7NuG4bMBzeD" role="lGtFl" />
@@ -141,8 +141,8 @@
           <node concept="37vLTG" id="7NuG4bMBzeJ" role="3clF46">
             <property role="TrG5h" value="_context" />
             <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="7NuG4bMBzeK" role="1tU5fm">
-              <ref role="3uigEE" to="q1l7:~BaseMappingRuleContext" resolve="BaseMappingRuleContext" />
+            <node concept="3uibUv" id="3xsoX6oD4$W" role="1tU5fm">
+              <ref role="3uigEE" to="q1l7:~TemplateQueryContext" resolve="TemplateQueryContext" />
             </node>
           </node>
           <node concept="3clFbS" id="7NuG4bMBzeL" role="3clF47">
@@ -167,11 +167,11 @@
                       <ref role="3cqZAo" node="7NuG4bMBzeJ" resolve="_context" />
                     </node>
                     <node concept="liA8E" id="7NuG4bMBzeV" role="2OqNvi">
-                      <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateNode():org.jetbrains.mps.openapi.model.SNode" resolve="getTemplateNode" />
+                      <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getTemplateReference" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzeW" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                    <ref role="37wK5l" to="mhbf:~SNodeReference.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
                   </node>
                 </node>
                 <node concept="raruj" id="7NuG4bMBzeX" role="lGtFl" />
@@ -191,8 +191,8 @@
           <node concept="37vLTG" id="7NuG4bMBzf3" role="3clF46">
             <property role="TrG5h" value="_context" />
             <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="7NuG4bMBzf4" role="1tU5fm">
-              <ref role="3uigEE" to="q1l7:~BaseMappingRuleContext" resolve="BaseMappingRuleContext" />
+            <node concept="3uibUv" id="3xsoX6oD4uS" role="1tU5fm">
+              <ref role="3uigEE" to="q1l7:~TemplateQueryContext" resolve="TemplateQueryContext" />
             </node>
           </node>
           <node concept="3clFbS" id="7NuG4bMBzf5" role="3clF47">
@@ -217,11 +217,11 @@
                       <ref role="3cqZAo" node="7NuG4bMBzf3" resolve="_context" />
                     </node>
                     <node concept="liA8E" id="7NuG4bMBzff" role="2OqNvi">
-                      <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateNode():org.jetbrains.mps.openapi.model.SNode" resolve="getTemplateNode" />
+                      <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getTemplateReference" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzfg" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                    <ref role="37wK5l" to="mhbf:~SNodeReference.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
                   </node>
                 </node>
                 <node concept="raruj" id="7NuG4bMBzfh" role="lGtFl" />

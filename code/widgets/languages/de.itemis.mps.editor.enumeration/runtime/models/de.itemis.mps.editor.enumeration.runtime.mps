@@ -20,19 +20,15 @@
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="p9jd" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.lang.editor.cellProviders(MPS.Editor/)" />
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
-    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="jan3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.image(JDK/)" />
     <import index="wcxw" ref="r:b9f36c08-4a75-4513-9277-a390d3426e0f(jetbrains.mps.editor.runtime.impl.cellActions)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="emqf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellProviders(MPS.Editor/)" />
-    <import index="zce0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.smodel.action(MPS.Editor/)" />
-    <import index="6lvu" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellMenu(MPS.Editor/)" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="zf81" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net(JDK/)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
@@ -2961,9 +2957,12 @@
       <node concept="3Tm1VV" id="44Oik0UpUHj" role="1B3o_S" />
       <node concept="3clFbS" id="44Oik0UpUHk" role="3clF47">
         <node concept="XkiVB" id="44Oik0UpUJR" role="3cqZAp">
-          <ref role="37wK5l" to="p9jd:~PropertyCellProvider.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,jetbrains.mps.openapi.editor.EditorContext)" resolve="PropertyCellProvider" />
+          <ref role="37wK5l" to="p9jd:~PropertyCellProvider.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext)" resolve="PropertyCellProvider" />
           <node concept="37vLTw" id="44Oik0UpUYl" role="37wK5m">
             <ref role="3cqZAo" node="44Oik0UpUHD" resolve="node" />
+          </node>
+          <node concept="37vLTw" id="5KpU9QZz7Mt" role="37wK5m">
+            <ref role="3cqZAo" node="5KpU9QZz7Ik" resolve="property" />
           </node>
           <node concept="37vLTw" id="44Oik0UpVj3" role="37wK5m">
             <ref role="3cqZAo" node="44Oik0UpUIF" resolve="editorContext" />
@@ -2974,6 +2973,12 @@
         <property role="TrG5h" value="node" />
         <node concept="3uibUv" id="44Oik0UpUI1" role="1tU5fm">
           <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5KpU9QZz7Ik" role="3clF46">
+        <property role="TrG5h" value="property" />
+        <node concept="3uibUv" id="5KpU9QZz7JS" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
         </node>
       </node>
       <node concept="37vLTG" id="44Oik0UpUIF" role="3clF46">
@@ -3008,12 +3013,12 @@
             </node>
             <node concept="2ShNRf" id="4g2H4r3Wsc7" role="33vP2m">
               <node concept="1pGfFk" id="4g2H4r3Wsc8" role="2ShVmc">
-                <ref role="37wK5l" to="g51k:~PropertyAccessor.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,java.lang.String,boolean,boolean,jetbrains.mps.openapi.editor.EditorContext)" resolve="PropertyAccessor" />
+                <ref role="37wK5l" to="g51k:~PropertyAccessor.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,boolean,boolean,jetbrains.mps.openapi.editor.EditorContext)" resolve="PropertyAccessor" />
                 <node concept="1rXfSq" id="4g2H4r3Ws9t" role="37wK5m">
                   <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
                 </node>
                 <node concept="1rXfSq" id="4cRxoxkc7Ls" role="37wK5m">
-                  <ref role="37wK5l" to="p9jd:~PropertyCellProvider.getPropertyName():java.lang.String" resolve="getPropertyName" />
+                  <ref role="37wK5l" to="p9jd:~PropertyCellProvider.getProperty():org.jetbrains.mps.openapi.language.SProperty" resolve="getProperty" />
                 </node>
                 <node concept="37vLTw" id="4g2H4r3Ws9v" role="37wK5m">
                   <ref role="3cqZAo" to="emqf:~CellProviderWithRole.myReadOnly" resolve="myReadOnly" />
@@ -3096,12 +3101,12 @@
                   </node>
                   <node concept="2ShNRf" id="4g2H4r3WsDt" role="37wK5m">
                     <node concept="1pGfFk" id="4g2H4r3WsDu" role="2ShVmc">
-                      <ref role="37wK5l" to="wcxw:1Z_xaSi0wPZ" resolve="CellAction_DeletePropertyOrNode" />
+                      <ref role="37wK5l" to="wcxw:3h3KQO7kxG9" resolve="CellAction_DeleteSPropertyOrNode" />
                       <node concept="1rXfSq" id="4g2H4r3Ws9P" role="37wK5m">
                         <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
                       </node>
                       <node concept="1rXfSq" id="4cRxoxkcfrs" role="37wK5m">
-                        <ref role="37wK5l" to="p9jd:~PropertyCellProvider.getPropertyName():java.lang.String" resolve="getPropertyName" />
+                        <ref role="37wK5l" to="p9jd:~PropertyCellProvider.getProperty():org.jetbrains.mps.openapi.language.SProperty" resolve="getProperty" />
                       </node>
                     </node>
                   </node>

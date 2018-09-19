@@ -25,7 +25,6 @@
     <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="tpcw" ref="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -2239,7 +2238,7 @@
                 <ref role="35c_gD" to="2qld:5qgNcfDn4ui" resolve="Parameter_Node" />
               </node>
               <node concept="35c_gC" id="44e9JOQDY1G" role="HW$Y0">
-                <ref role="35c_gD" to="tpcw:ho1XNXU" resolve="ConceptFunctionParameter_editorContext" />
+                <ref role="35c_gD" to="tpc2:gTQ80DJ" resolve="ConceptFunctionParameter_editorContext" />
               </node>
             </node>
           </node>

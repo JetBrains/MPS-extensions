@@ -1711,14 +1711,9 @@
               <ref role="3cqZAo" node="6rHj_ILDaol" resolve="dummyContextCell" />
             </node>
             <node concept="liA8E" id="6rHj_ILDao$" role="2OqNvi">
-              <ref role="37wK5l" to="f4zo:~EditorCell.setRole(java.lang.String):void" resolve="setRole" />
-              <node concept="2OqwBi" id="6rHj_ILDao_" role="37wK5m">
-                <node concept="37vLTw" id="6rHj_ILDaoA" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6rHj_ILSGf4" resolve="link" />
-                </node>
-                <node concept="liA8E" id="6rHj_ILDf2P" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SNamedElement.getName():java.lang.String" resolve="getName" />
-                </node>
+              <ref role="37wK5l" to="f4zo:~EditorCell.setSRole(org.jetbrains.mps.openapi.language.SConceptFeature):void" resolve="setSRole" />
+              <node concept="37vLTw" id="6rHj_ILDaoA" role="37wK5m">
+                <ref role="3cqZAo" node="6rHj_ILSGf4" resolve="link" />
               </node>
             </node>
           </node>

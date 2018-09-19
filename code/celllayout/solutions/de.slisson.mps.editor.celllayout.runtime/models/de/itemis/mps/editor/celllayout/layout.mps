@@ -5917,28 +5917,21 @@
                     </node>
                     <node concept="liA8E" id="5TZkGzvhoCz" role="2OqNvi">
                       <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean):jetbrains.mps.openapi.editor.TextBuilder" resolve="appendToTheRight" />
-                      <node concept="2OqwBi" id="5TZkGzvhqYh" role="37wK5m">
-                        <node concept="2OqwBi" id="5TZkGzvhqlv" role="2Oq$k0">
-                          <node concept="2OqwBi" id="5TZkGzvhp02" role="2Oq$k0">
-                            <node concept="37vLTw" id="5TZkGzvhoSF" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5TZkGzvgTJ9" resolve="grid" />
+                      <node concept="1rXfSq" id="6N6zH_hZfYi" role="37wK5m">
+                        <ref role="37wK5l" node="6N6zH_hZ2A8" resolve="gridElementToText" />
+                        <node concept="2OqwBi" id="5TZkGzvhp02" role="37wK5m">
+                          <node concept="37vLTw" id="5TZkGzvhoSF" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5TZkGzvgTJ9" resolve="grid" />
+                          </node>
+                          <node concept="liA8E" id="5TZkGzvhph3" role="2OqNvi">
+                            <ref role="37wK5l" node="40e1npHtdKn" resolve="getElement" />
+                            <node concept="3cmrfG" id="5TZkGzvhplI" role="37wK5m">
+                              <property role="3cmrfH" value="0" />
                             </node>
-                            <node concept="liA8E" id="5TZkGzvhph3" role="2OqNvi">
-                              <ref role="37wK5l" node="40e1npHtdKn" resolve="getElement" />
-                              <node concept="3cmrfG" id="5TZkGzvhplI" role="37wK5m">
-                                <property role="3cmrfH" value="0" />
-                              </node>
-                              <node concept="37vLTw" id="5TZkGzvhq8T" role="37wK5m">
-                                <ref role="3cqZAo" node="5TZkGzvgUX2" resolve="y" />
-                              </node>
+                            <node concept="37vLTw" id="5TZkGzvhq8T" role="37wK5m">
+                              <ref role="3cqZAo" node="5TZkGzvgUX2" resolve="y" />
                             </node>
                           </node>
-                          <node concept="liA8E" id="5TZkGzvhqKe" role="2OqNvi">
-                            <ref role="37wK5l" node="40e1npHtFkJ" resolve="getLayoutable" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="5TZkGzvhryt" role="2OqNvi">
-                          <ref role="37wK5l" node="5TZkGzvg0Nj" resolve="toText" />
                         </node>
                       </node>
                       <node concept="3clFbT" id="5TZkGzvhrVw" role="37wK5m">
@@ -6071,17 +6064,10 @@
                     </node>
                     <node concept="liA8E" id="5TZkGzvhkrj" role="2OqNvi">
                       <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean):jetbrains.mps.openapi.editor.TextBuilder" resolve="appendToTheRight" />
-                      <node concept="2OqwBi" id="5TZkGzvhldJ" role="37wK5m">
-                        <node concept="2OqwBi" id="5TZkGzvhkOE" role="2Oq$k0">
-                          <node concept="37vLTw" id="5TZkGzvhkFQ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5TZkGzvgUUm" resolve="element" />
-                          </node>
-                          <node concept="liA8E" id="5TZkGzvhl0_" role="2OqNvi">
-                            <ref role="37wK5l" node="40e1npHtFkJ" resolve="getLayoutable" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="5TZkGzvhlSs" role="2OqNvi">
-                          <ref role="37wK5l" node="5TZkGzvg0Nj" resolve="toText" />
+                      <node concept="1rXfSq" id="6N6zH_hZg_C" role="37wK5m">
+                        <ref role="37wK5l" node="6N6zH_hZ2A8" resolve="gridElementToText" />
+                        <node concept="37vLTw" id="6N6zH_hZgQK" role="37wK5m">
+                          <ref role="3cqZAo" node="5TZkGzvgUUm" resolve="element" />
                         </node>
                       </node>
                       <node concept="1rXfSq" id="5TZkGzvl7fZ" role="37wK5m">
@@ -6172,6 +6158,61 @@
       </node>
       <node concept="2AHcQZ" id="5TZkGzvgMI2" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6N6zH_hYY9H" role="jymVt" />
+    <node concept="3clFb_" id="6N6zH_hZ2A8" role="jymVt">
+      <property role="TrG5h" value="gridElementToText" />
+      <node concept="37vLTG" id="6N6zH_hZbx1" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="3uibUv" id="6N6zH_hZd_T" role="1tU5fm">
+          <ref role="3uigEE" node="40e1npHtdGy" resolve="GridElement" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="6N6zH_hZ806" role="3clF45">
+        <ref role="3uigEE" to="cj4x:~TextBuilder" resolve="TextBuilder" />
+      </node>
+      <node concept="3Tmbuc" id="6N6zH_hZgU_" role="1B3o_S" />
+      <node concept="3clFbS" id="6N6zH_hZ2Ac" role="3clF47">
+        <node concept="3cpWs8" id="6N6zH_hZeig" role="3cqZAp">
+          <node concept="3cpWsn" id="6N6zH_hZeih" role="3cpWs9">
+            <property role="TrG5h" value="layoutable" />
+            <node concept="3uibUv" id="6N6zH_hZeid" role="1tU5fm">
+              <ref role="3uigEE" node="ZjQ6tpoGLj" resolve="ILayoutable" />
+            </node>
+            <node concept="2OqwBi" id="6N6zH_hZeii" role="33vP2m">
+              <node concept="37vLTw" id="6N6zH_hZeij" role="2Oq$k0">
+                <ref role="3cqZAo" node="6N6zH_hZbx1" resolve="element" />
+              </node>
+              <node concept="liA8E" id="6N6zH_hZeik" role="2OqNvi">
+                <ref role="37wK5l" node="40e1npHtFkJ" resolve="getLayoutable" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6N6zH_hZdVX" role="3cqZAp">
+          <node concept="3K4zz7" id="6N6zH_hZePk" role="3clFbG">
+            <node concept="2OqwBi" id="6N6zH_hZfdI" role="3K4GZi">
+              <node concept="37vLTw" id="6N6zH_hZf4h" role="2Oq$k0">
+                <ref role="3cqZAo" node="6N6zH_hZeih" resolve="layoutable" />
+              </node>
+              <node concept="liA8E" id="6N6zH_hZfpZ" role="2OqNvi">
+                <ref role="37wK5l" node="5TZkGzvg0Nj" resolve="toText" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="6N6zH_hZeFu" role="3K4Cdx">
+              <node concept="10Nm6u" id="6N6zH_hZeL4" role="3uHU7w" />
+              <node concept="37vLTw" id="6N6zH_hZeil" role="3uHU7B">
+                <ref role="3cqZAo" node="6N6zH_hZeih" resolve="layoutable" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="6N6zH_hZ9Wi" role="3K4E3e">
+              <node concept="1pGfFk" id="6N6zH_hZb5m" role="2ShVmc">
+                <ref role="37wK5l" to="hhnx:~TextBuilderImpl.&lt;init&gt;()" resolve="TextBuilderImpl" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3uibUv" id="3Osd_yx1YzX" role="1zkMxy">

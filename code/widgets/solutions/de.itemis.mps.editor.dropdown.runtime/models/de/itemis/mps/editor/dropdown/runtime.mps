@@ -442,8 +442,12 @@
             </node>
             <node concept="liA8E" id="7szUFELGcB1" role="2OqNvi">
               <ref role="37wK5l" to="exr9:~EditorComponent.activateNodeSubstituteChooser(jetbrains.mps.openapi.editor.cells.EditorCell,boolean,boolean):boolean" resolve="activateNodeSubstituteChooser" />
-              <node concept="37vLTw" id="7szUFELGu6Z" role="37wK5m">
-                <ref role="3cqZAo" node="7szUFELGql2" resolve="myLabelCell" />
+              <node concept="2YIFZM" id="7mmXjFojzZk" role="37wK5m">
+                <ref role="37wK5l" to="f4zo:~CellTraversalUtil.getLastLeaf(jetbrains.mps.openapi.editor.cells.EditorCell):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getLastLeaf" />
+                <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
+                <node concept="37vLTw" id="7mmXjFoj$bS" role="37wK5m">
+                  <ref role="3cqZAo" node="7szUFELGql2" resolve="myLabelCell" />
+                </node>
               </node>
               <node concept="3clFbT" id="7szUFELGggc" role="37wK5m">
                 <property role="3clFbU" value="true" />

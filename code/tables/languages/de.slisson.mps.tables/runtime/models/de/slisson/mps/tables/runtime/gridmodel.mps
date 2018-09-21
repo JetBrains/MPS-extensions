@@ -27614,20 +27614,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6eakByRaCSg" role="3cqZAp" />
-        <node concept="3SKdUt" id="6eakByRaCYL" role="3cqZAp">
-          <node concept="3SKdUq" id="6eakByRaD0T" role="3SKWNk">
-            <property role="3SKdUp" value="otherwise the INSERT action is ignored" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="6eakByRaCPb" role="3cqZAp">
-          <node concept="1rXfSq" id="6eakByRaCP9" role="3clFbG">
-            <ref role="37wK5l" to="g51k:~EditorCell_Basic.setRole(java.lang.String):void" resolve="setRole" />
-            <node concept="Xl_RD" id="6eakByRaCRS" role="37wK5m">
-              <property role="Xl_RC" value="" />
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="37vLTG" id="1P2abX4Atar" role="3clF46">
         <property role="TrG5h" value="context" />

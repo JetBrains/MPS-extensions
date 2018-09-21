@@ -104,9 +104,9 @@
       </concept>
     </language>
     <language id="189537ea-2a28-44c9-91aa-a8e68b3e1e1b" name="com.mbeddr.mpsutil.blutil.genutil">
-      <concept id="4213334375078515284" name="com.mbeddr.mpsutil.blutil.genutil.structure.RootMappingHasBeenExecutedExpression" flags="ng" index="101Tsu" />
-      <concept id="4213334375081881490" name="com.mbeddr.mpsutil.blutil.genutil.structure.SetRootMappingHasBeenExecutedExpression" flags="ng" index="10MAFo" />
-      <concept id="4213334375081881491" name="com.mbeddr.mpsutil.blutil.genutil.structure.RootMappingExecuteOnceExpression" flags="ng" index="10MAFp" />
+      <concept id="4213334375078515284" name="com.mbeddr.mpsutil.blutil.genutil.structure.MappingHasBeenExecutedExpression" flags="ng" index="101Tsu" />
+      <concept id="4213334375081881490" name="com.mbeddr.mpsutil.blutil.genutil.structure.SetMappingHasBeenExecutedExpression" flags="ng" index="10MAFo" />
+      <concept id="4213334375081881491" name="com.mbeddr.mpsutil.blutil.genutil.structure.MappingExecuteOnceExpression" flags="ng" index="10MAFp" />
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
       <concept id="1217960179967" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowErrorMessage" flags="nn" index="2k5nB$" />

@@ -24,12 +24,11 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
-    <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="tpcw" ref="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -2308,7 +2307,7 @@
                 <ref role="35c_gD" to="2qld:5qgNcfDn4ui" resolve="Parameter_Node" />
               </node>
               <node concept="35c_gC" id="44e9JOQDY1G" role="HW$Y0">
-                <ref role="35c_gD" to="tpcw:ho1XNXU" resolve="ConceptFunctionParameter_editorContext" />
+                <ref role="35c_gD" to="tpc2:gTQ80DJ" resolve="ConceptFunctionParameter_editorContext" />
               </node>
             </node>
           </node>
@@ -3271,31 +3270,6 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="1xHXqL1Pbi1">
-    <property role="3GE5qa" value="content" />
-    <ref role="13h7C2" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
-    <node concept="13hLZK" id="1xHXqL1Pbi2" role="13h7CW">
-      <node concept="3clFbS" id="1xHXqL1Pbi3" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="1xHXqL1Pbic" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="hasUserDefinedStyle" />
-      <node concept="3Tm1VV" id="1xHXqL1Pbid" role="1B3o_S" />
-      <node concept="10P_77" id="1xHXqL1Pbis" role="3clF45" />
-      <node concept="3clFbS" id="1xHXqL1Pbif" role="3clF47" />
-    </node>
-    <node concept="13i0hz" id="1xHXqL1PbjC" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getUserDefinedConfigs" />
-      <node concept="3Tm1VV" id="1xHXqL1PbjD" role="1B3o_S" />
-      <node concept="2I9FWS" id="1xHXqL1Pbkc" role="3clF45">
-        <ref role="2I9WkF" to="2qld:1xHXqL1PbjB" resolve="UserDefinedConfig" />
-      </node>
-      <node concept="3clFbS" id="1xHXqL1PbjF" role="3clF47" />
-    </node>
-  </node>
   <node concept="13h7C7" id="1xHXqL1Pbm6">
     <property role="3GE5qa" value="content" />
     <ref role="13h7C2" to="2qld:2J9gLgxz45q" resolve="Content_GenericBoxQuery" />
@@ -3382,6 +3356,31 @@
       <node concept="2I9FWS" id="1xHXqL1Pbmu" role="3clF45">
         <ref role="2I9WkF" to="2qld:1xHXqL1PbjB" resolve="UserDefinedConfig" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1xHXqL1Pbi1">
+    <property role="3GE5qa" value="content" />
+    <ref role="13h7C2" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+    <node concept="13hLZK" id="1xHXqL1Pbi2" role="13h7CW">
+      <node concept="3clFbS" id="1xHXqL1Pbi3" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1xHXqL1Pbic" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="hasUserDefinedStyle" />
+      <node concept="3Tm1VV" id="1xHXqL1Pbid" role="1B3o_S" />
+      <node concept="10P_77" id="1xHXqL1Pbis" role="3clF45" />
+      <node concept="3clFbS" id="1xHXqL1Pbif" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="1xHXqL1PbjC" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getUserDefinedConfigs" />
+      <node concept="3Tm1VV" id="1xHXqL1PbjD" role="1B3o_S" />
+      <node concept="2I9FWS" id="1xHXqL1Pbkc" role="3clF45">
+        <ref role="2I9WkF" to="2qld:1xHXqL1PbjB" resolve="UserDefinedConfig" />
+      </node>
+      <node concept="3clFbS" id="1xHXqL1PbjF" role="3clF47" />
     </node>
   </node>
   <node concept="13h7C7" id="5ZBOFE3unq8">

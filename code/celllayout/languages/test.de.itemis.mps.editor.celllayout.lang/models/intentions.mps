@@ -18,6 +18,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
     <import index="qxi4" ref="r:45c19b6d-dd9a-4f15-973f-0267c5e76303(de.itemis.mps.editor.celllayout.runtime)" />
+    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
@@ -75,6 +76,7 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -846,46 +848,42 @@
                                       <ref role="3cqZAo" node="rlw0PZMTvi" resolve="cellStack" />
                                     </node>
                                     <node concept="TSZUe" id="rlw0PZMTvv" role="2OqNvi">
-                                      <node concept="2OqwBi" id="rlw0PZMTvw" role="25WWJ7">
-                                        <node concept="1eOMI4" id="rlw0PZMTvx" role="2Oq$k0">
-                                          <node concept="10QFUN" id="rlw0PZMTvy" role="1eOMHV">
-                                            <node concept="2OqwBi" id="rlw0PZMTvz" role="10QFUP">
-                                              <node concept="37vLTw" id="rlw0PZMTv$" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="rlw0PZMTvi" resolve="cellStack" />
-                                              </node>
-                                              <node concept="1yVyf7" id="rlw0PZMTv_" role="2OqNvi" />
+                                      <node concept="2YIFZM" id="22ekhmLoF7_" role="25WWJ7">
+                                        <ref role="37wK5l" to="18ew:~IterableUtil.get(java.lang.Iterable,int):java.lang.Object" resolve="get" />
+                                        <ref role="1Pybhc" to="18ew:~IterableUtil" resolve="IterableUtil" />
+                                        <node concept="10QFUN" id="22ekhmLoH0R" role="37wK5m">
+                                          <node concept="2OqwBi" id="22ekhmLoH0S" role="10QFUP">
+                                            <node concept="37vLTw" id="22ekhmLoH0T" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="rlw0PZMTvi" resolve="cellStack" />
                                             </node>
-                                            <node concept="3uibUv" id="rlw0PZMTvA" role="10QFUM">
-                                              <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-                                            </node>
+                                            <node concept="1yVyf7" id="22ekhmLoH0U" role="2OqNvi" />
+                                          </node>
+                                          <node concept="3uibUv" id="22ekhmLoH0V" role="10QFUM">
+                                            <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
                                           </node>
                                         </node>
-                                        <node concept="liA8E" id="rlw0PZMTvB" role="2OqNvi">
-                                          <ref role="37wK5l" to="f4zo:~EditorCell_Collection.getCellAt(int):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getCellAt" />
-                                          <node concept="3cmrfG" id="rlw0PZMTvC" role="37wK5m">
-                                            <property role="3cmrfH" value="0" />
-                                            <node concept="2EMmih" id="rlw0PZMTvD" role="lGtFl">
-                                              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
-                                              <property role="2qtEX9" value="value" />
-                                              <property role="3hQQBS" value="IntegerConstant" />
-                                              <node concept="2YIFZM" id="rlw0PZMTvE" role="2c44t1">
-                                                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
-                                                <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                                                <node concept="2OqwBi" id="rlw0PZMTvF" role="37wK5m">
-                                                  <node concept="2OqwBi" id="rlw0PZMTvG" role="2Oq$k0">
-                                                    <node concept="37vLTw" id="rlw0PZMTvH" role="2Oq$k0">
-                                                      <ref role="3cqZAo" node="rlw0PZMTvc" resolve="_cell" />
-                                                    </node>
-                                                    <node concept="liA8E" id="rlw0PZMTvI" role="2OqNvi">
-                                                      <ref role="37wK5l" to="f4zo:~EditorCell.getParent():jetbrains.mps.openapi.editor.cells.EditorCell_Collection" resolve="getParent" />
-                                                    </node>
+                                        <node concept="3cmrfG" id="22ekhmLoNHt" role="37wK5m">
+                                          <property role="3cmrfH" value="0" />
+                                          <node concept="2EMmih" id="22ekhmLoNHu" role="lGtFl">
+                                            <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                                            <property role="2qtEX9" value="value" />
+                                            <property role="3hQQBS" value="IntegerConstant" />
+                                            <node concept="2YIFZM" id="22ekhmLoNHv" role="2c44t1">
+                                              <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                                              <node concept="2YIFZM" id="22ekhmLoSlQ" role="37wK5m">
+                                                <ref role="37wK5l" to="18ew:~IterableUtil.indexOf(java.lang.Iterable,java.lang.Object):int" resolve="indexOf" />
+                                                <ref role="1Pybhc" to="18ew:~IterableUtil" resolve="IterableUtil" />
+                                                <node concept="2OqwBi" id="22ekhmLoX1o" role="37wK5m">
+                                                  <node concept="37vLTw" id="22ekhmLoX1p" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="rlw0PZMTvc" resolve="_cell" />
                                                   </node>
-                                                  <node concept="liA8E" id="rlw0PZMTvJ" role="2OqNvi">
-                                                    <ref role="37wK5l" to="f4zo:~EditorCell_Collection.indexOf(jetbrains.mps.openapi.editor.cells.EditorCell):int" resolve="indexOf" />
-                                                    <node concept="37vLTw" id="rlw0PZMTvK" role="37wK5m">
-                                                      <ref role="3cqZAo" node="rlw0PZMTvc" resolve="_cell" />
-                                                    </node>
+                                                  <node concept="liA8E" id="22ekhmLoX1q" role="2OqNvi">
+                                                    <ref role="37wK5l" to="f4zo:~EditorCell.getParent():jetbrains.mps.openapi.editor.cells.EditorCell_Collection" resolve="getParent" />
                                                   </node>
+                                                </node>
+                                                <node concept="37vLTw" id="22ekhmLoZbP" role="37wK5m">
+                                                  <ref role="3cqZAo" node="rlw0PZMTvc" resolve="_cell" />
                                                 </node>
                                               </node>
                                             </node>
@@ -1663,20 +1661,19 @@
                           <node concept="3cpWsn" id="rlw0Q06Xsh" role="3cpWs9">
                             <property role="TrG5h" value="index" />
                             <node concept="10Oyi0" id="rlw0Q06Xsc" role="1tU5fm" />
-                            <node concept="2OqwBi" id="rlw0Q06Xsi" role="33vP2m">
-                              <node concept="2OqwBi" id="rlw0Q06Xsj" role="2Oq$k0">
-                                <node concept="37vLTw" id="rlw0Q06Xsk" role="2Oq$k0">
+                            <node concept="2YIFZM" id="22ekhmLnSOg" role="33vP2m">
+                              <ref role="37wK5l" to="18ew:~IterableUtil.indexOf(java.lang.Iterable,java.lang.Object):int" resolve="indexOf" />
+                              <ref role="1Pybhc" to="18ew:~IterableUtil" resolve="IterableUtil" />
+                              <node concept="2OqwBi" id="22ekhmLnTa4" role="37wK5m">
+                                <node concept="37vLTw" id="22ekhmLnT34" role="2Oq$k0">
                                   <ref role="3cqZAo" node="rlw0Q06ITt" resolve="_cell" />
                                 </node>
-                                <node concept="liA8E" id="rlw0Q06Xsl" role="2OqNvi">
+                                <node concept="liA8E" id="22ekhmLnUGg" role="2OqNvi">
                                   <ref role="37wK5l" to="f4zo:~EditorCell.getParent():jetbrains.mps.openapi.editor.cells.EditorCell_Collection" resolve="getParent" />
                                 </node>
                               </node>
-                              <node concept="liA8E" id="rlw0Q06Xsm" role="2OqNvi">
-                                <ref role="37wK5l" to="f4zo:~EditorCell_Collection.indexOf(jetbrains.mps.openapi.editor.cells.EditorCell):int" resolve="indexOf" />
-                                <node concept="37vLTw" id="rlw0Q06Xsn" role="37wK5m">
-                                  <ref role="3cqZAo" node="rlw0Q06ITt" resolve="_cell" />
-                                </node>
+                              <node concept="37vLTw" id="22ekhmLnWgI" role="37wK5m">
+                                <ref role="3cqZAo" node="rlw0Q06ITt" resolve="_cell" />
                               </node>
                             </node>
                           </node>
@@ -1687,38 +1684,36 @@
                             <node concept="3Tqbb2" id="rlw0Q07sTX" role="1tU5fm">
                               <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
                             </node>
-                            <node concept="2c44tf" id="rlw0Q07tJq" role="33vP2m">
-                              <node concept="2OqwBi" id="rlw0Q07w_e" role="2c44tc">
-                                <node concept="1eOMI4" id="rlw0Q07vQ$" role="2Oq$k0">
-                                  <node concept="10QFUN" id="rlw0Q07vQ_" role="1eOMHV">
-                                    <node concept="37vLTw" id="rlw0Q07vQz" role="10QFUP">
-                                      <ref role="3cqZAo" node="rlw0Q06ITt" resolve="_cell" />
-                                      <node concept="2c44te" id="rlw0Q07zD9" role="lGtFl">
-                                        <node concept="37vLTw" id="rlw0Q07$nm" role="2c44t1">
+                            <node concept="2c44tf" id="22ekhmLo0cA" role="33vP2m">
+                              <node concept="2YIFZM" id="22ekhmLo3j8" role="2c44tc">
+                                <ref role="37wK5l" to="18ew:~IterableUtil.get(java.lang.Iterable,int):java.lang.Object" resolve="get" />
+                                <ref role="1Pybhc" to="18ew:~IterableUtil" resolve="IterableUtil" />
+                                <node concept="1eOMI4" id="22ekhmLo4H9" role="37wK5m">
+                                  <node concept="10QFUN" id="22ekhmLo4Ha" role="1eOMHV">
+                                    <node concept="3uibUv" id="22ekhmLobPh" role="10QFUM">
+                                      <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
+                                    </node>
+                                    <node concept="33vP2n" id="22ekhmLo4H8" role="10QFUP">
+                                      <node concept="2c44te" id="22ekhmLo7yb" role="lGtFl">
+                                        <node concept="37vLTw" id="22ekhmLoapq" role="2c44t1">
                                           <ref role="3cqZAo" node="rlw0Q07qan" resolve="parentVarExpression" />
                                         </node>
                                       </node>
                                     </node>
-                                    <node concept="3uibUv" id="rlw0Q07wyw" role="10QFUM">
-                                      <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
-                                    </node>
                                   </node>
                                 </node>
-                                <node concept="liA8E" id="rlw0Q07xrY" role="2OqNvi">
-                                  <ref role="37wK5l" to="f4zo:~EditorCell_Collection.getCellAt(int):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getCellAt" />
-                                  <node concept="3cmrfG" id="rlw0Q07xtr" role="37wK5m">
-                                    <property role="3cmrfH" value="0" />
-                                    <node concept="2EMmih" id="rlw0Q07yaf" role="lGtFl">
-                                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
-                                      <property role="2qtEX9" value="value" />
-                                      <property role="3hQQBS" value="IntegerConstant" />
-                                      <node concept="3cpWs3" id="rlw0Q07yTN" role="2c44t1">
-                                        <node concept="Xl_RD" id="rlw0Q07yVk" role="3uHU7B">
-                                          <property role="Xl_RC" value="" />
-                                        </node>
-                                        <node concept="37vLTw" id="rlw0Q07yQZ" role="3uHU7w">
-                                          <ref role="3cqZAo" node="rlw0Q06Xsh" resolve="index" />
-                                        </node>
+                                <node concept="3cmrfG" id="22ekhmLohRg" role="37wK5m">
+                                  <property role="3cmrfH" value="0" />
+                                  <node concept="2EMmih" id="22ekhmLokKz" role="lGtFl">
+                                    <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                                    <property role="2qtEX9" value="value" />
+                                    <property role="3hQQBS" value="IntegerConstant" />
+                                    <node concept="3cpWs3" id="22ekhmLomeL" role="2c44t1">
+                                      <node concept="Xl_RD" id="22ekhmLomeM" role="3uHU7B">
+                                        <property role="Xl_RC" value="" />
+                                      </node>
+                                      <node concept="37vLTw" id="22ekhmLomeN" role="3uHU7w">
+                                        <ref role="3cqZAo" node="rlw0Q06Xsh" resolve="index" />
                                       </node>
                                     </node>
                                   </node>

@@ -617,7 +617,7 @@
               <ref role="3cqZAo" node="3U1WNrHfzy9" resolve="provider" />
             </node>
             <node concept="liA8E" id="3U1WNrHjjLq" role="2OqNvi">
-              <ref role="37wK5l" node="3U1WNrHji8s" resolve="getNode" />
+              <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
             </node>
           </node>
         </node>
@@ -839,28 +839,15 @@
     <property role="TrG5h" value="EditorListenerCellProvider" />
     <property role="3GE5qa" value="cellprovider" />
     <property role="1sVAO0" value="true" />
-    <node concept="2tJIrI" id="3U1WNrHfyQK" role="jymVt" />
-    <node concept="312cEg" id="3U1WNrHfQy0" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="_node" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="3U1WNrHfQvs" role="1B3o_S" />
-      <node concept="3Tqbb2" id="3U1WNrHfQz_" role="1tU5fm" />
-    </node>
     <node concept="2tJIrI" id="3U1WNrHfRIt" role="jymVt" />
     <node concept="3clFbW" id="3U1WNrHfQqK" role="jymVt">
       <node concept="3cqZAl" id="3U1WNrHfQqM" role="3clF45" />
       <node concept="3Tm1VV" id="3U1WNrHfQqN" role="1B3o_S" />
       <node concept="3clFbS" id="3U1WNrHfQqO" role="3clF47">
-        <node concept="3clFbF" id="3U1WNrHfQ$L" role="3cqZAp">
-          <node concept="37vLTI" id="3U1WNrHfR9F" role="3clFbG">
-            <node concept="37vLTw" id="3U1WNrHfRdF" role="37vLTx">
-              <ref role="3cqZAo" node="3U1WNrHfQst" resolve="node" />
-            </node>
-            <node concept="37vLTw" id="3U1WNrHfQ$K" role="37vLTJ">
-              <ref role="3cqZAo" node="3U1WNrHfQy0" resolve="_node" />
-            </node>
+        <node concept="XkiVB" id="22ekhmKK4XE" role="3cqZAp">
+          <ref role="37wK5l" to="exr9:~AbstractCellProvider.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode)" resolve="AbstractCellProvider" />
+          <node concept="37vLTw" id="22ekhmKK51E" role="37wK5m">
+            <ref role="3cqZAo" node="3U1WNrHfQst" resolve="node" />
           </node>
         </node>
       </node>
@@ -878,8 +865,8 @@
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="3U1WNrHji8v" role="3clF47">
         <node concept="3cpWs6" id="3U1WNrHjifC" role="3cqZAp">
-          <node concept="37vLTw" id="3U1WNrHjig9" role="3cqZAk">
-            <ref role="3cqZAo" node="3U1WNrHfQy0" resolve="_node" />
+          <node concept="1rXfSq" id="22ekhmKKhc0" role="3cqZAk">
+            <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
           </node>
         </node>
       </node>

@@ -2,7 +2,7 @@
 <model ref="r:c266b17e-13c4-40d1-81f3-e76cbf26809a(com.mbeddr.mpsutil.blutil.genutil.structure)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
@@ -31,22 +31,22 @@
   <node concept="1TIwiD" id="3DSLkDUGEYj">
     <property role="EcuMT" value="4213334375081881491" />
     <property role="3GE5qa" value="genUtil" />
-    <property role="TrG5h" value="RootMappingExecuteOnceExpression" />
+    <property role="TrG5h" value="MappingExecuteOnceExpression" />
     <property role="34LRSv" value="executeOnce" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="3DSLkDUvP9k">
     <property role="EcuMT" value="4213334375078515284" />
-    <property role="TrG5h" value="RootMappingHasBeenExecutedExpression" />
-    <property role="34LRSv" value="rootMappingHasBeenExecuted" />
+    <property role="TrG5h" value="MappingHasBeenExecutedExpression" />
+    <property role="34LRSv" value="mappingHasBeenExecuted" />
     <property role="3GE5qa" value="genUtil" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="3DSLkDUGEYi">
     <property role="EcuMT" value="4213334375081881490" />
     <property role="3GE5qa" value="genUtil" />
-    <property role="TrG5h" value="SetRootMappingHasBeenExecutedExpression" />
-    <property role="34LRSv" value="setRootMappingHasBeenExecuted" />
+    <property role="TrG5h" value="SetMappingHasBeenExecutedExpression" />
+    <property role="34LRSv" value="setMappingHasBeenExecuted" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>

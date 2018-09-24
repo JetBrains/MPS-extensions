@@ -40,7 +40,6 @@
     <import index="suqv" ref="r:9a28b49a-e98c-4186-a7e1-7e782b3f4fc3(de.itemis.mps.editor.diagram.layout.structure)" />
     <import index="4io5" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.math3.geometry.euclidean.twod(org.apache.commons/)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
-    <import index="j1kf" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:de.cau.cs.kieler.kiml.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="e8no" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.containers(MPS.IDEA/)" />
     <import index="xnls" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.icons(MPS.Platform/)" />
     <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
@@ -6086,14 +6085,10 @@
     <node concept="312cEg" id="7k8PWDQgR6L" role="jymVt">
       <property role="TrG5h" value="myLayouter" />
       <node concept="3Tm6S6" id="7k8PWDQgR6M" role="1B3o_S" />
-      <node concept="3uibUv" id="7k8PWDQgY38" role="1tU5fm">
+      <node concept="3uibUv" id="7StZKY2OR17" role="1tU5fm">
         <ref role="3uigEE" to="xqcy:190K99K5IrD" resolve="IDeprecatedLayouter" />
       </node>
-      <node concept="2ShNRf" id="7k8PWDQiy$H" role="33vP2m">
-        <node concept="1pGfFk" id="360MgnXxs2t" role="2ShVmc">
-          <ref role="37wK5l" to="xqcy:6Bd7Vwr12wK" resolve="DeprecatedLayeredLayouter" />
-        </node>
-      </node>
+      <node concept="10Nm6u" id="7StZKY2O2DY" role="33vP2m" />
     </node>
     <node concept="312cEg" id="6rrvvVdCPg0" role="jymVt">
       <property role="TrG5h" value="myParentModel" />
@@ -8864,8 +8859,8 @@
     <node concept="2tJIrI" id="3Dr4gYIpQwZ" role="jymVt" />
     <node concept="3clFb_" id="3Dr4gYIpYTP" role="jymVt">
       <property role="TrG5h" value="getLayoutDirection" />
-      <node concept="3uibUv" id="3Dr4gYIqmPl" role="3clF45">
-        <ref role="3uigEE" to="j1kf:~Direction" resolve="Direction" />
+      <node concept="3uibUv" id="7StZKY2Opc_" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="3Dr4gYIpYTS" role="1B3o_S" />
       <node concept="3clFbS" id="3Dr4gYIpYTT" role="3clF47">
@@ -9449,7 +9444,7 @@
                   <ref role="3cqZAo" node="wPOpv34Nx8" resolve="layouter" />
                 </node>
                 <node concept="liA8E" id="wPOpv34Uj$" role="2OqNvi">
-                  <ref role="37wK5l" to="xqcy:5Ck8edd7kSF" resolve="dontLayout" />
+                  <ref role="37wK5l" to="xqcy:7StZKY2P6gU" resolve="dontLayout" />
                   <node concept="37vLTw" id="wPOpv34UlG" role="37wK5m">
                     <ref role="3cqZAo" node="wPOpv32NZj" resolve="nonMovedEdges" />
                   </node>
@@ -9462,7 +9457,7 @@
                   <ref role="3cqZAo" node="wPOpv34Nx8" resolve="layouter" />
                 </node>
                 <node concept="liA8E" id="wPOpv350Hx" role="2OqNvi">
-                  <ref role="37wK5l" to="xqcy:4SFQkFfKmWU" resolve="layout" />
+                  <ref role="37wK5l" to="xqcy:7StZKY2Obnr" resolve="layout" />
                   <node concept="37vLTw" id="6rrvvVeeW_t" role="37wK5m">
                     <ref role="3cqZAo" node="OCogGtAm1V" resolve="dmodel" />
                   </node>
@@ -20929,6 +20924,30 @@
               <ref role="37wK5l" node="D0N6Djtw4Y" resolve="writeLayout" />
               <node concept="37vLTw" id="D0N6DjwXSn" role="37wK5m">
                 <ref role="3cqZAo" node="4H2wsEjLe65" resolve="element" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7StZKY2oPDX" role="3cqZAp">
+          <node concept="2OqwBi" id="7StZKY2oPDU" role="3clFbG">
+            <node concept="10M0yZ" id="7StZKY2oPDV" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="7StZKY2oPDW" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="7StZKY2oQgS" role="37wK5m">
+                <node concept="2OqwBi" id="7StZKY2oQXt" role="3uHU7w">
+                  <node concept="37vLTw" id="7StZKY2oQvo" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4H2wsEjLe65" resolve="element" />
+                  </node>
+                  <node concept="liA8E" id="7StZKY2oRLz" role="2OqNvi">
+                    <ref role="37wK5l" node="190K99K25OU" resolve="getBounds" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="7StZKY2oPLi" role="3uHU7B">
+                  <property role="Xl_RC" value="Write box from ModelSynchronizer " />
+                </node>
               </node>
             </node>
           </node>

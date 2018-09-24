@@ -20928,30 +20928,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7StZKY2oPDX" role="3cqZAp">
-          <node concept="2OqwBi" id="7StZKY2oPDU" role="3clFbG">
-            <node concept="10M0yZ" id="7StZKY2oPDV" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="7StZKY2oPDW" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="7StZKY2oQgS" role="37wK5m">
-                <node concept="2OqwBi" id="7StZKY2oQXt" role="3uHU7w">
-                  <node concept="37vLTw" id="7StZKY2oQvo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4H2wsEjLe65" resolve="element" />
-                  </node>
-                  <node concept="liA8E" id="7StZKY2oRLz" role="2OqNvi">
-                    <ref role="37wK5l" node="190K99K25OU" resolve="getBounds" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="7StZKY2oPLi" role="3uHU7B">
-                  <property role="Xl_RC" value="Write box from ModelSynchronizer " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="37vLTG" id="4H2wsEjLe62" role="3clF46">
         <property role="TrG5h" value="accessor" />

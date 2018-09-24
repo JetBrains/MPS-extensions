@@ -40,6 +40,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -179,18 +182,21 @@
     <property role="TrG5h" value="HorizontalLineCell" />
     <property role="34LRSv" value="horizontal-line" />
     <property role="EcuMT" value="4682418030828725523" />
+    <property role="3GE5qa" value="lines" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
   </node>
   <node concept="1TIwiD" id="43ViAfTrZkq">
     <property role="TrG5h" value="HorzontalLineWidthStyle" />
     <property role="34LRSv" value="horizontal-line-width" />
     <property role="EcuMT" value="4682418030828844314" />
+    <property role="3GE5qa" value="lines" />
     <ref role="1TJDcQ" node="2nutuZsJ_4q" resolve="IntegerStyle" />
   </node>
   <node concept="1TIwiD" id="43ViAfTrZkr">
     <property role="TrG5h" value="HorizontalLineColorStyle" />
     <property role="34LRSv" value="horizontal-line-color" />
     <property role="EcuMT" value="4682418030828844315" />
+    <property role="3GE5qa" value="lines" />
     <ref role="1TJDcQ" node="2nutuZsLvZ1" resolve="ColorStyle" />
   </node>
   <node concept="1TIwiD" id="43ViAfTtx6N">
@@ -237,6 +243,27 @@
     <property role="34LRSv" value="grid-layout-row-span" />
     <property role="EcuMT" value="1059142979230421498" />
     <ref role="1TJDcQ" node="2nutuZsJ_4q" resolve="IntegerStyle" />
+  </node>
+  <node concept="1TIwiD" id="7d0q5VH9fgO">
+    <property role="EcuMT" value="8304752469786031156" />
+    <property role="TrG5h" value="VerticalLineCell" />
+    <property role="34LRSv" value="vertical-line" />
+    <property role="3GE5qa" value="lines" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+  </node>
+  <node concept="1TIwiD" id="7d0q5VHb5Re">
+    <property role="EcuMT" value="8304752469786516942" />
+    <property role="TrG5h" value="VerticalLineWidthStyle" />
+    <property role="34LRSv" value="vertical-line-width" />
+    <property role="3GE5qa" value="lines" />
+    <ref role="1TJDcQ" node="2nutuZsJ_4q" resolve="IntegerStyle" />
+  </node>
+  <node concept="1TIwiD" id="7d0q5VHb7O_">
+    <property role="EcuMT" value="8304752469786524965" />
+    <property role="TrG5h" value="VerticalLineColorStyle" />
+    <property role="34LRSv" value="vertical-line-color" />
+    <property role="3GE5qa" value="lines" />
+    <ref role="1TJDcQ" node="2nutuZsLvZ1" resolve="ColorStyle" />
   </node>
 </model>
 

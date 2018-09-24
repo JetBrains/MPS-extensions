@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -136,6 +137,11 @@
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
@@ -214,6 +220,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="43ViAfTtdtz">
+    <property role="3GE5qa" value="lines" />
     <ref role="1XX52x" to="pvux:43ViAfTrykj" resolve="HorizontalLineCell" />
     <node concept="PMmxH" id="43ViAfTtdt_" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -628,6 +635,40 @@
         </node>
       </node>
       <node concept="2iRfu4" id="641A4deYubp" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7d0q5VH9fgX">
+    <property role="3GE5qa" value="lines" />
+    <ref role="1XX52x" to="pvux:7d0q5VH9fgO" resolve="VerticalLineCell" />
+    <node concept="PMmxH" id="7d0q5VH9fgZ" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+    <node concept="3EZMnI" id="7d0q5VH9fh1" role="6VMZX">
+      <node concept="PMmxH" id="7d0q5VH9fh2" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+      </node>
+      <node concept="3F0ifn" id="7d0q5VH9fh3" role="3EZMnx">
+        <node concept="Vb9p2" id="7d0q5VH9fh4" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7d0q5VH9fh5" role="3EZMnx">
+        <property role="3F0ifm" value="Vertical Line Cell:" />
+        <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+      </node>
+      <node concept="3EZMnI" id="7d0q5VH9fh6" role="3EZMnx">
+        <node concept="VPM3Z" id="7d0q5VH9fh7" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="VPXOz" id="7d0q5VH9fh8" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="2EHx9g" id="7d0q5VH9fh9" role="2iSdaV" />
+      </node>
+      <node concept="VPM3Z" id="7d0q5VH9fha" role="3F10Kt">
+        <property role="VOm3f" value="false" />
+      </node>
+      <node concept="2iRkQZ" id="7d0q5VH9fhb" role="2iSdaV" />
     </node>
   </node>
 </model>

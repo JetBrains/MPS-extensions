@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:81b27dcd-384b-4445-bc06-bf1898f19e2b(de.itemis.mps.modelmerger.testlanguage.plugin)">
+<model ref="r:81b27dcd-384b-4445-bc06-bf1898f19e2b(test.de.itemis.mps.modelmerger.testlanguage.plugin)">
   <persistence version="9" />
   <languages>
     <use id="f159adf4-3c93-40f9-9c5a-1f245a8697af" name="jetbrains.mps.lang.aspect" version="2" />

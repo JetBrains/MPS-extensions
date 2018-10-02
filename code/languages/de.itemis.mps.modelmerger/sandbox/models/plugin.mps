@@ -4,7 +4,7 @@
   <languages>
     <use id="cdaf53d5-8786-43a0-bdba-ae0da5acb9e8" name="de.itemis.mps.modelmerger" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="de.itemis.mps.modelmerger.testlanguage" version="0" />
+    <use id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="test.de.itemis.mps.modelmerger.testlanguage" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
@@ -12,7 +12,7 @@
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
   </languages>
   <imports>
-    <import index="k6li" ref="r:7c40b043-67ab-4fff-a68c-bb3e633629e4(de.itemis.mps.modelmerger.testlanguage.structure)" />
+    <import index="k6li" ref="r:7c40b043-67ab-4fff-a68c-bb3e633629e4(test.de.itemis.mps.modelmerger.testlanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -35,8 +35,8 @@
       </concept>
     </language>
     <language id="cdaf53d5-8786-43a0-bdba-ae0da5acb9e8" name="de.itemis.mps.modelmerger">
-      <concept id="8424607763702362607" name="de.itemis.mps.modelmerger.structure.inputNode" flags="ng" index="1j$0Bf" />
-      <concept id="8424607763702354521" name="de.itemis.mps.modelmerger.structure.conceptIdentityMap" flags="ng" index="1j$2DT">
+      <concept id="8424607763702362607" name="de.itemis.mps.modelmerger.structure.InputNode" flags="ng" index="1j$0Bf" />
+      <concept id="8424607763702354521" name="de.itemis.mps.modelmerger.structure.ConceptIdentityMap" flags="ng" index="1j$2DT">
         <child id="8424607763702354522" name="conceptRef" index="1j$2DU" />
         <child id="8424607763702354524" name="identityCalculator" index="1j$2DW" />
       </concept>
@@ -53,9 +53,15 @@
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
   </registry>
   <node concept="2DaZZR" id="4_EzT8uAHO9" />
   <node concept="1j$NDg" id="lVcTBwuak$">
+    <property role="TrG5h" value="TestIdentityCalculator" />
     <node concept="1j$2DT" id="lVcTBwuak_" role="1j$2DZ">
       <node concept="3gn64h" id="lVcTBwuata" role="1j$2DU">
         <ref role="3gnhBz" to="k6li:59jNLF_cTS6" resolve="tComponent" />

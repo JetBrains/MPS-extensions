@@ -9,10 +9,10 @@
   <dependencies>
     <dependency reexport="false">efc9f360-4711-4223-b9a5-469bba1c960d(de.itemis.mps.modelmerger.runtime)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
-    <dependency reexport="false">d119cd03-ed7e-477f-adb6-22a3d2e6ea77(de.itemis.mps.modelmerger.testlanguage)</dependency>
+    <dependency reexport="false">d119cd03-ed7e-477f-adb6-22a3d2e6ea77(test.de.itemis.mps.modelmerger.testlanguage)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:d119cd03-ed7e-477f-adb6-22a3d2e6ea77:de.itemis.mps.modelmerger.testlanguage" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -25,6 +25,7 @@
     <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="11" />
     <language slang="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" version="2" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
+    <language slang="l:d119cd03-ed7e-477f-adb6-22a3d2e6ea77:test.de.itemis.mps.modelmerger.testlanguage" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
@@ -32,8 +33,8 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="efc9f360-4711-4223-b9a5-469bba1c960d(de.itemis.mps.modelmerger.runtime)" version="0" />
-    <module reference="d119cd03-ed7e-477f-adb6-22a3d2e6ea77(de.itemis.mps.modelmerger.testlanguage)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="d119cd03-ed7e-477f-adb6-22a3d2e6ea77(test.de.itemis.mps.modelmerger.testlanguage)" version="0" />
     <module reference="92726818-95f2-4d46-96d1-aacb660cb63a(tests.de.itemis.mps.modelmerger)" version="0" />
   </dependencyVersions>
 </solution>

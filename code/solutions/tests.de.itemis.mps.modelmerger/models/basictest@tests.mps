@@ -4,7 +4,7 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
-    <use id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="de.itemis.mps.modelmerger.testlanguage" version="-1" />
+    <use id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="test.de.itemis.mps.modelmerger.testlanguage" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
@@ -16,9 +16,9 @@
   <imports>
     <import index="tqvn" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.tempmodel(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="k6li" ref="r:7c40b043-67ab-4fff-a68c-bb3e633629e4(de.itemis.mps.modelmerger.testlanguage.structure)" />
+    <import index="k6li" ref="r:7c40b043-67ab-4fff-a68c-bb3e633629e4(test.de.itemis.mps.modelmerger.testlanguage.structure)" />
     <import index="vxmj" ref="r:177139eb-5c36-4470-b440-3a70f7e15410(de.itemis.mps.modelmerger.runtime.plugin)" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -62,7 +62,6 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
-      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -117,23 +116,23 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
-    <language id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="de.itemis.mps.modelmerger.testlanguage">
-      <concept id="2609647776493757391" name="de.itemis.mps.modelmerger.testlanguage.structure.tSubComponent" flags="ng" index="2AYNss">
+    <language id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="test.de.itemis.mps.modelmerger.testlanguage">
+      <concept id="2609647776493757391" name="test.de.itemis.mps.modelmerger.testlanguage.structure.tSubComponent" flags="ng" index="2AYNss">
         <reference id="2609647776493771094" name="inport" index="2AYWQ5" />
         <reference id="2609647776493771096" name="outport" index="2AYWQb" />
       </concept>
-      <concept id="5932312848598554099" name="de.itemis.mps.modelmerger.testlanguage.structure.tSystem" flags="ng" index="2Ro1FD">
+      <concept id="5932312848598554099" name="test.de.itemis.mps.modelmerger.testlanguage.structure.tSystem" flags="ng" index="2Ro1FD">
         <child id="5932312848598554105" name="outports" index="2Ro1Fz" />
         <child id="5932312848598554102" name="inports" index="2Ro1FG" />
         <child id="5932312848598554100" name="components" index="2Ro1FI" />
       </concept>
-      <concept id="5932312848598539793" name="de.itemis.mps.modelmerger.testlanguage.structure.tOutPort" flags="ng" index="2Ro54b">
+      <concept id="5932312848598539793" name="test.de.itemis.mps.modelmerger.testlanguage.structure.tOutPort" flags="ng" index="2Ro54b">
         <property id="5932312848598539795" name="value" index="2Ro549" />
       </concept>
-      <concept id="5932312848598539787" name="de.itemis.mps.modelmerger.testlanguage.structure.tInPort" flags="ng" index="2Ro54h">
+      <concept id="5932312848598539787" name="test.de.itemis.mps.modelmerger.testlanguage.structure.tInPort" flags="ng" index="2Ro54h">
         <property id="5932312848598539790" name="value" index="2Ro54k" />
       </concept>
-      <concept id="5932312848598539782" name="de.itemis.mps.modelmerger.testlanguage.structure.tComponent" flags="ng" index="2Ro54s">
+      <concept id="5932312848598539782" name="test.de.itemis.mps.modelmerger.testlanguage.structure.tComponent" flags="ng" index="2Ro54s">
         <property id="5932312848598539783" name="name" index="2Ro54t" />
         <reference id="5932312848598539799" name="outPort" index="2Ro54d" />
         <reference id="5932312848598539796" name="inPort" index="2Ro54e" />
@@ -405,14 +404,18 @@
           <node concept="3cpWsn" id="4Z26wkKjBLd" role="3cpWs9">
             <property role="TrG5h" value="testLangRegistry" />
             <node concept="3rvAFt" id="4Z26wkKjBLf" role="1tU5fm">
-              <node concept="17QB3L" id="4Z26wkKjC9y" role="3rvQeY" />
+              <node concept="3uibUv" id="36T3QpoTtD9" role="3rvQeY">
+                <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+              </node>
               <node concept="3uibUv" id="lVcTBwuNIQ" role="3rvSg0">
                 <ref role="3uigEE" to="vxmj:6NDRJQ9pWGW" resolve="IdentityCalculator" />
               </node>
             </node>
             <node concept="2ShNRf" id="4Z26wkKjClt" role="33vP2m">
               <node concept="3rGOSV" id="4Z26wkKjKsJ" role="2ShVmc">
-                <node concept="17QB3L" id="4Z26wkKjKHt" role="3rHrn6" />
+                <node concept="3uibUv" id="36T3QpoTtLx" role="3rHrn6">
+                  <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+                </node>
                 <node concept="3uibUv" id="4Z26wkKjKUB" role="3rHtpV">
                   <ref role="3uigEE" to="vxmj:6NDRJQ9pWGW" resolve="IdentityCalculator" />
                 </node>
@@ -437,17 +440,12 @@
                         <ref role="3cqZAo" node="4Z26wkKjNGL" resolve="extPoint" />
                       </node>
                       <node concept="3EllGN" id="4Z26wkKjQCW" role="37vLTJ">
-                        <node concept="2OqwBi" id="4Z26wkKjRzf" role="3ElVtu">
-                          <node concept="2OqwBi" id="4Z26wkKjQTN" role="2Oq$k0">
-                            <node concept="37vLTw" id="4Z26wkKjQMe" role="2Oq$k0">
-                              <ref role="3cqZAo" node="4Z26wkKjNGL" resolve="extPoint" />
-                            </node>
-                            <node concept="liA8E" id="4Z26wkKjReU" role="2OqNvi">
-                              <ref role="37wK5l" to="vxmj:6NDRJQ9pWJ3" resolve="applicableConcept" />
-                            </node>
+                        <node concept="2OqwBi" id="4Z26wkKjQTN" role="3ElVtu">
+                          <node concept="37vLTw" id="4Z26wkKjQMe" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4Z26wkKjNGL" resolve="extPoint" />
                           </node>
-                          <node concept="liA8E" id="4Z26wkKjRWW" role="2OqNvi">
-                            <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                          <node concept="liA8E" id="4Z26wkKjReU" role="2OqNvi">
+                            <ref role="37wK5l" to="vxmj:6NDRJQ9pWJ3" resolve="applicableConcept" />
                           </node>
                         </node>
                         <node concept="37vLTw" id="4Z26wkKjOCo" role="3ElQJh">

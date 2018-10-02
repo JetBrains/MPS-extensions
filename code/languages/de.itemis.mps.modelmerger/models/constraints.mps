@@ -48,7 +48,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="7jEe20Buz7K">
-    <ref role="1M2myG" to="hcn:7jEe20Buz7J" resolve="inputNode" />
+    <ref role="1M2myG" to="hcn:7jEe20Buz7J" resolve="InputNode" />
     <node concept="9S07l" id="7jEe20Buz7L" role="9Vyp8">
       <node concept="3clFbS" id="7jEe20Buz7M" role="2VODD2">
         <node concept="3clFbF" id="7jEe20Buzf5" role="3cqZAp">
@@ -58,7 +58,7 @@
               <node concept="2Xjw5R" id="7jEe20Bu$Hv" role="2OqNvi">
                 <node concept="1xMEDy" id="7jEe20Bu$Hx" role="1xVPHs">
                   <node concept="chp4Y" id="7jEe20Bu$Sh" role="ri$Ld">
-                    <ref role="cht4Q" to="hcn:7jEe20Bux9p" resolve="conceptIdentityMap" />
+                    <ref role="cht4Q" to="hcn:7jEe20Bux9p" resolve="ConceptIdentityMap" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="7jEe20BuA41" role="1xVPHs" />

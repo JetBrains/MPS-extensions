@@ -7,7 +7,7 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">d119cd03-ed7e-477f-adb6-22a3d2e6ea77(de.itemis.mps.modelmerger.testlanguage)</dependency>
+    <dependency reexport="false">d119cd03-ed7e-477f-adb6-22a3d2e6ea77(test.de.itemis.mps.modelmerger.testlanguage)</dependency>
     <dependency reexport="true">efc9f360-4711-4223-b9a5-469bba1c960d(de.itemis.mps.modelmerger.runtime)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
@@ -35,8 +35,8 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="efc9f360-4711-4223-b9a5-469bba1c960d(de.itemis.mps.modelmerger.runtime)" version="0" />
     <module reference="be1bf59c-934a-4cee-8859-a8bde460b96f(de.itemis.mps.modelmerger.sandbox)" version="0" />
-    <module reference="d119cd03-ed7e-477f-adb6-22a3d2e6ea77(de.itemis.mps.modelmerger.testlanguage)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="d119cd03-ed7e-477f-adb6-22a3d2e6ea77(test.de.itemis.mps.modelmerger.testlanguage)" version="0" />
   </dependencyVersions>
 </solution>
 

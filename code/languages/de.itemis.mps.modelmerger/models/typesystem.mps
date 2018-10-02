@@ -119,7 +119,7 @@
                 <node concept="2Xjw5R" id="7jEe20BuDm5" role="2OqNvi">
                   <node concept="1xMEDy" id="7jEe20BuDm6" role="1xVPHs">
                     <node concept="chp4Y" id="7jEe20BuDm7" role="ri$Ld">
-                      <ref role="cht4Q" to="hcn:7jEe20Bux9p" resolve="conceptIdentityMap" />
+                      <ref role="cht4Q" to="hcn:7jEe20Bux9p" resolve="ConceptIdentityMap" />
                     </node>
                   </node>
                 </node>
@@ -161,7 +161,7 @@
     </node>
     <node concept="1YaCAy" id="7jEe20BuB8m" role="1YuTPh">
       <property role="TrG5h" value="paramNode" />
-      <ref role="1YaFvo" to="hcn:7jEe20Buz7J" resolve="inputNode" />
+      <ref role="1YaFvo" to="hcn:7jEe20Buz7J" resolve="InputNode" />
     </node>
   </node>
 </model>

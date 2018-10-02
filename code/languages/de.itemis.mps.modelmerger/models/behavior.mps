@@ -157,7 +157,7 @@
             </node>
             <node concept="TSZUe" id="2D1PBM_bzuY" role="2OqNvi">
               <node concept="35c_gC" id="2xELmDxRo0v" role="25WWJ7">
-                <ref role="35c_gD" to="hcn:7jEe20Buz7J" resolve="inputNode" />
+                <ref role="35c_gD" to="hcn:7jEe20Buz7J" resolve="InputNode" />
               </node>
             </node>
           </node>

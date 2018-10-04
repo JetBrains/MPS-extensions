@@ -8203,34 +8203,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="5P3ZJ9cNS4j" role="jymVt" />
-    <node concept="2tJIrI" id="5P3ZJ9cQEyO" role="jymVt" />
-    <node concept="3clFb_" id="fQhyIMk1sq" role="jymVt">
-      <property role="TrG5h" value="layoutAllPorts" />
-      <node concept="3cqZAl" id="fQhyIMk1ss" role="3clF45" />
-      <node concept="3Tm1VV" id="fQhyIMk1st" role="1B3o_S" />
-      <node concept="3clFbS" id="fQhyIMk1su" role="3clF47">
-        <node concept="2Gpval" id="fQhyIMkjWQ" role="3cqZAp">
-          <node concept="2GrKxI" id="fQhyIMkjWR" role="2Gsz3X">
-            <property role="TrG5h" value="n" />
-          </node>
-          <node concept="37vLTw" id="fQhyIMkjXX" role="2GsD0m">
-            <ref role="3cqZAo" node="27djZ8A4qMR" resolve="myBoxes" />
-          </node>
-          <node concept="3clFbS" id="fQhyIMkjWT" role="2LFqv$">
-            <node concept="3clFbF" id="2BjZSlQJiQ8" role="3cqZAp">
-              <node concept="2YIFZM" id="2BjZSlQJkd5" role="3clFbG">
-                <ref role="37wK5l" to="xqcy:2BjZSlQJ_ry" resolve="layoutPortCells" />
-                <ref role="1Pybhc" to="xqcy:3FRjz$vys4Z" resolve="DeprecatedPortLayouter" />
-                <node concept="2GrUjf" id="fQhyIMkBKM" role="37wK5m">
-                  <ref role="2Gs0qQ" node="fQhyIMkjWR" resolve="n" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="6HcUfDV8iav" role="jymVt" />
     <node concept="3clFb_" id="6HcUfDV8xlL" role="jymVt">
       <property role="TrG5h" value="postprocessLayout" />
@@ -8252,15 +8224,6 @@
                 </node>
                 <node concept="liA8E" id="6HcUfDV9kAw" role="2OqNvi">
                   <ref role="37wK5l" node="6HcUfDV8OnB" resolve="postprocessLayout" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6HcUfDV9kJy" role="3cqZAp">
-              <node concept="2YIFZM" id="6HcUfDV9kJz" role="3clFbG">
-                <ref role="37wK5l" to="xqcy:2BjZSlQJ_ry" resolve="layoutPortCells" />
-                <ref role="1Pybhc" to="xqcy:3FRjz$vys4Z" resolve="DeprecatedPortLayouter" />
-                <node concept="2GrUjf" id="6HcUfDV9lgd" role="37wK5m">
-                  <ref role="2Gs0qQ" node="6HcUfDV9f_9" resolve="box" />
                 </node>
               </node>
             </node>

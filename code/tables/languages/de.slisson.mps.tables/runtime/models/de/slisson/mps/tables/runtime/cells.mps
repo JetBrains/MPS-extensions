@@ -2,16 +2,16 @@
 <model ref="r:3d8b4628-659e-4af1-a607-3cc893005b62(de.slisson.mps.tables.runtime.cells)">
   <persistence version="9" />
   <languages>
-    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
-    <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="0" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="-1" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
   </languages>
   <imports>
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
@@ -60,9 +60,9 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
+    <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" implicit="true" />
-    <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -8324,6 +8324,63 @@
           </node>
         </node>
         <node concept="3clFbH" id="6vDLSUv6voO" role="3cqZAp" />
+        <node concept="3clFbJ" id="4pEGNEjgDtS" role="3cqZAp">
+          <node concept="3clFbS" id="4pEGNEjgDtU" role="3clFbx">
+            <node concept="3SKdUt" id="4pEGNEjgMl7" role="3cqZAp">
+              <node concept="3SKdUq" id="4pEGNEjgMl9" role="3SKWNk">
+                <property role="3SKdUp" value="if we are a big cell, register as such" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="4pEGNEjgIIm" role="3cqZAp">
+              <node concept="1rXfSq" id="4pEGNEjgIIl" role="3clFbG">
+                <ref role="37wK5l" to="g51k:~EditorCell_Basic.setBig(boolean):void" resolve="setBig" />
+                <node concept="3clFbT" id="4pEGNEjgJvo" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4pEGNEjgJVb" role="3cqZAp">
+              <node concept="2OqwBi" id="4pEGNEjgL6a" role="3clFbG">
+                <node concept="2OqwBi" id="4pEGNEjgKO0" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4pEGNEjgK_7" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4pEGNEjgKh7" role="2Oq$k0">
+                      <node concept="37vLTw" id="4pEGNEjgJV9" role="2Oq$k0">
+                        <ref role="3cqZAo" node="20OswHE0eIQ" resolve="context" />
+                      </node>
+                      <node concept="liA8E" id="4pEGNEjgKwf" role="2OqNvi">
+                        <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4pEGNEjgKH_" role="2OqNvi">
+                      <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater():jetbrains.mps.openapi.editor.update.Updater" resolve="getUpdater" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="4pEGNEjgKZ3" role="2OqNvi">
+                    <ref role="37wK5l" to="22ra:~Updater.getCurrentUpdateSession():jetbrains.mps.openapi.editor.update.UpdateSession" resolve="getCurrentUpdateSession" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="4pEGNEjgLlC" role="2OqNvi">
+                  <ref role="37wK5l" to="22ra:~UpdateSession.registerAsBigCell(jetbrains.mps.openapi.editor.cells.EditorCell):void" resolve="registerAsBigCell" />
+                  <node concept="Xjq3P" id="4pEGNEjgLEg" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="4pEGNEjgFFp" role="3clFbw">
+            <node concept="2OqwBi" id="4pEGNEjgH3X" role="3uHU7w">
+              <node concept="37vLTw" id="4pEGNEjgGFq" role="2Oq$k0">
+                <ref role="3cqZAo" node="20OswHE1xW$" resolve="wrappedCell" />
+              </node>
+              <node concept="liA8E" id="4pEGNEjgHch" role="2OqNvi">
+                <ref role="37wK5l" to="f4zo:~EditorCell.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4pEGNEjgEwC" role="3uHU7B">
+              <ref role="3cqZAo" node="20OswHE0eJA" resolve="snode" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3MK3xlLYgiM" role="3cqZAp" />
         <node concept="3clFbF" id="6vDLSUv8mOr" role="3cqZAp">
           <node concept="1rXfSq" id="6vDLSUv8mOp" role="3clFbG">
             <ref role="37wK5l" node="6vDLSUv7Vr4" resolve="fixCellContext" />

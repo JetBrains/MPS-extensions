@@ -201,7 +201,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="651tS80wVkO">
-    <property role="2XOHcw" value="${extensions.home}/code/tables" />
+    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="LiM7Y" id="651tS80wVqy">
     <property role="TrG5h" value="Statemachine_CreateTransition" />

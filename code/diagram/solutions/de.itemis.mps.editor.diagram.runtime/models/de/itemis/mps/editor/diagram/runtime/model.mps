@@ -1587,37 +1587,6 @@
         <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
       </node>
     </node>
-    <node concept="2tJIrI" id="61$jGLY8eYS" role="jymVt" />
-    <node concept="2YIFZL" id="190K99K4w2Y" role="jymVt">
-      <property role="TrG5h" value="parseDoubleSafe" />
-      <property role="IEkAT" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3clFbS" id="190K99K4ked" role="3clF47">
-        <node concept="3clFbF" id="7L$rKAVcz8N" role="3cqZAp">
-          <node concept="2YIFZM" id="7L$rKAVczjB" role="3clFbG">
-            <ref role="37wK5l" to="2o4v:190K99K4w2Y" resolve="parseDoubleSafe" />
-            <ref role="1Pybhc" to="2o4v:7L$rKAVcmAh" resolve="DiagramUtil" />
-            <node concept="37vLTw" id="7L$rKAVczk8" role="37wK5m">
-              <ref role="3cqZAo" node="190K99K4meB" resolve="stringValue" />
-            </node>
-            <node concept="37vLTw" id="4s$H8QXi0lZ" role="37wK5m">
-              <ref role="3cqZAo" node="4s$H8QXhZOA" resolve="defaultValue" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="190K99K4meB" role="3clF46">
-        <property role="TrG5h" value="stringValue" />
-        <node concept="17QB3L" id="190K99K4meA" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4s$H8QXhZOA" role="3clF46">
-        <property role="TrG5h" value="defaultValue" />
-        <node concept="10P55v" id="4s$H8QXhZZs" role="1tU5fm" />
-      </node>
-      <node concept="10P55v" id="190K99K4rSb" role="3clF45" />
-      <node concept="3Tm1VV" id="190K99K4kec" role="1B3o_S" />
-    </node>
     <node concept="2tJIrI" id="2uX18suM3Fi" role="jymVt" />
     <node concept="3clFb_" id="2uX18suM4l6" role="jymVt">
       <property role="TrG5h" value="setAllowConnectionsToBox" />
@@ -1677,6 +1646,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="1tbbSi5djNC" role="jymVt" />
     <node concept="3clFb_" id="6xtM0K7WZV" role="jymVt">
       <property role="TrG5h" value="getSubdiagramModels" />
       <node concept="_YKpA" id="6xtM0K7WZW" role="3clF45">

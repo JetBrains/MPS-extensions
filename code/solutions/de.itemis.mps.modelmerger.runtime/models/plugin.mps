@@ -8,14 +8,13 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="4e0df6bd-e265-4d63-9ca0-ca97e44cf841" name="de.slisson.mps.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="1ci6" ref="r:7f6c3d7a-e369-4526-b6c9-7b08b07c82da(tests.de.itemis.mps.modelmerger.basictest@tests)" implicit="true" />
   </imports>
   <registry>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -29,7 +28,6 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
-      <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
@@ -149,10 +147,6 @@
       <concept id="3729007189729192406" name="jetbrains.mps.lang.extension.structure.ExtensionPointDeclaration" flags="ng" index="vrV6u">
         <child id="8029776554053057803" name="objectType" index="luc8K" />
       </concept>
-      <concept id="6626851894249711936" name="jetbrains.mps.lang.extension.structure.ExtensionPointExpression" flags="nn" index="2O5UvJ">
-        <reference id="6626851894249712469" name="extensionPoint" index="2O5UnU" />
-      </concept>
-      <concept id="3175313036448560967" name="jetbrains.mps.lang.extension.structure.GetExtensionObjectsOperation" flags="nn" index="SfwO_" />
     </language>
     <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
       <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
@@ -163,8 +157,24 @@
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
-        <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
+        <reference id="6832197706140518108" name="param" index="zr_51" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345530174" name="jetbrains.mps.baseLanguage.javadoc.structure.AuthorBlockDocTag" flags="ng" index="P$Jll">
+        <property id="5349172909345532826" name="text" index="P$JZL" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <property id="8465538089690881934" name="text" index="TUZQ4" />
+        <child id="6832197706140518123" name="parameter" index="zr_5Q" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -184,22 +194,11 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
-      <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
-        <child id="1204796294226" name="closure" index="23t8la" />
-      </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
-      <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -208,20 +207,7 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1173946412755" name="jetbrains.mps.baseLanguage.collections.structure.RemoveAllElementsOperation" flags="nn" index="1kEaZ2" />
-      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
-        <child id="1197683466920" name="keyType" index="3rvQeY" />
-        <child id="1197683475734" name="valueType" index="3rvSg0" />
-      </concept>
-      <concept id="1197686869805" name="jetbrains.mps.baseLanguage.collections.structure.HashMapCreator" flags="nn" index="3rGOSV">
-        <child id="1197687026896" name="keyType" index="3rHrn6" />
-        <child id="1197687035757" name="valueType" index="3rHtpV" />
-      </concept>
-      <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
-        <child id="1197932505799" name="map" index="3ElQJh" />
-        <child id="1197932525128" name="key" index="3ElVtu" />
-      </concept>
     </language>
   </registry>
   <node concept="vrV6u" id="2VC4eVXUC8b">
@@ -279,122 +265,6 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="6NDRJQ9sJiK" role="3clF47">
-        <node concept="3SKdUt" id="36T3QpoU$$d" role="3cqZAp">
-          <node concept="3SKdUq" id="36T3QpoU$Fy" role="3SKWNk">
-            <property role="3SKdUp" value="Method usage:" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="36T3QpoU$FQ" role="3cqZAp">
-          <node concept="3SKdUq" id="36T3QpoU$FS" role="3SKWNk">
-            <property role="3SKdUp" value="mdlSrc: Original model " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="36T3QpoU$MX" role="3cqZAp">
-          <node concept="3SKdUq" id="36T3QpoU$MZ" role="3SKWNk">
-            <property role="3SKdUp" value="mdlDest: Imported model" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="36T3QpoU$U8" role="3cqZAp">
-          <node concept="3SKdUq" id="36T3QpoU$Ua" role="3SKWNk">
-            <property role="3SKdUp" value="identityCalcReg: Points to the classes implementing the IdentityCalculator Interface. This is generally obtained from the extensions generated by the IdentityCalculatorRegistry node" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="36T3QpoU_1n" role="3cqZAp">
-          <node concept="3SKdUq" id="36T3QpoU_1p" role="3SKWNk">
-            <property role="3SKdUp" value="A typical usage looks like this:" />
-          </node>
-          <node concept="3SKdUq" id="36T3QpoU_8G" role="3SKWNk" />
-        </node>
-        <node concept="1X3_iC" id="36T3QpoUBjS" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs8" id="4Z26wkKjBL7" role="8Wnug">
-            <node concept="3cpWsn" id="4Z26wkKjBLd" role="3cpWs9">
-              <property role="TrG5h" value="testLangRegistry" />
-              <node concept="3rvAFt" id="4Z26wkKjBLf" role="1tU5fm">
-                <node concept="3uibUv" id="36T3QpoTtD9" role="3rvQeY">
-                  <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-                </node>
-                <node concept="3uibUv" id="lVcTBwuNIQ" role="3rvSg0">
-                  <ref role="3uigEE" node="6NDRJQ9pWGW" resolve="IdentityCalculator" />
-                </node>
-              </node>
-              <node concept="2ShNRf" id="4Z26wkKjClt" role="33vP2m">
-                <node concept="3rGOSV" id="4Z26wkKjKsJ" role="2ShVmc">
-                  <node concept="3uibUv" id="36T3QpoTtLx" role="3rHrn6">
-                    <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-                  </node>
-                  <node concept="3uibUv" id="4Z26wkKjKUB" role="3rHtpV">
-                    <ref role="3uigEE" node="6NDRJQ9pWGW" resolve="IdentityCalculator" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="36T3QpoUBsf" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="4Z26wkKjLor" role="8Wnug">
-            <node concept="2OqwBi" id="4Z26wkKjMXS" role="3clFbG">
-              <node concept="2OqwBi" id="4Z26wkKjLYX" role="2Oq$k0">
-                <node concept="2O5UvJ" id="4Z26wkKjLop" role="2Oq$k0">
-                  <ref role="2O5UnU" node="2VC4eVXUC8b" resolve="IdentityCalculators" />
-                </node>
-                <node concept="SfwO_" id="4Z26wkKjMxB" role="2OqNvi" />
-              </node>
-              <node concept="2es0OD" id="4Z26wkKjNGH" role="2OqNvi">
-                <node concept="1bVj0M" id="4Z26wkKjNGJ" role="23t8la">
-                  <node concept="3clFbS" id="4Z26wkKjNGK" role="1bW5cS">
-                    <node concept="3clFbF" id="4Z26wkKjO6k" role="3cqZAp">
-                      <node concept="37vLTI" id="4Z26wkKjT03" role="3clFbG">
-                        <node concept="37vLTw" id="4Z26wkKjTks" role="37vLTx">
-                          <ref role="3cqZAo" node="4Z26wkKjNGL" resolve="extPoint" />
-                        </node>
-                        <node concept="3EllGN" id="4Z26wkKjQCW" role="37vLTJ">
-                          <node concept="2OqwBi" id="4Z26wkKjQTN" role="3ElVtu">
-                            <node concept="37vLTw" id="4Z26wkKjQMe" role="2Oq$k0">
-                              <ref role="3cqZAo" node="4Z26wkKjNGL" resolve="extPoint" />
-                            </node>
-                            <node concept="liA8E" id="4Z26wkKjReU" role="2OqNvi">
-                              <ref role="37wK5l" node="6NDRJQ9pWJ3" resolve="applicableConcept" />
-                            </node>
-                          </node>
-                          <node concept="37vLTw" id="4Z26wkKjOCo" role="3ElQJh">
-                            <ref role="3cqZAo" node="4Z26wkKjBLd" resolve="testLangRegistry" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="4Z26wkKjNGL" role="1bW2Oz">
-                    <property role="TrG5h" value="extPoint" />
-                    <node concept="2jxLKc" id="4Z26wkKjNGM" role="1tU5fm" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="36T3QpoUBIt" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5Vsx_8fx15X" role="8Wnug">
-            <node concept="2YIFZM" id="4JOeV7knFeb" role="3clFbG">
-              <ref role="37wK5l" node="6NDRJQ9sJiH" resolve="matchModelsInto" />
-              <ref role="1Pybhc" node="3pOHGY6giq2" resolve="ModelMerger" />
-              <node concept="37vLTw" id="lVcTBwuPBj" role="37wK5m">
-                <ref role="3cqZAo" to="1ci6:lVcTBwuwOK" resolve="testMdlSource" />
-              </node>
-              <node concept="37vLTw" id="lVcTBwuPDn" role="37wK5m">
-                <ref role="3cqZAo" to="1ci6:lVcTBwuA8y" resolve="testMdlDestination" />
-              </node>
-              <node concept="37vLTw" id="4Z26wkKk7Nu" role="37wK5m">
-                <ref role="3cqZAo" node="4Z26wkKjBLd" resolve="testLangRegistry" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="1hFg4uOel3$" role="3cqZAp">
           <node concept="37vLTI" id="1hFg4uOelcD" role="3clFbG">
             <node concept="37vLTw" id="1hFg4uOelfi" role="37vLTx">
@@ -615,6 +485,29 @@
           <node concept="3uibUv" id="6NDRJQ9sOXZ" role="11_B2D">
             <ref role="3uigEE" node="6NDRJQ9pWGW" resolve="IdentityCalculator" />
           </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="4zKvG_YBrWl" role="lGtFl">
+        <node concept="TUZQ0" id="4zKvG_YBrWo" role="3nqlJM">
+          <property role="TUZQ4" value="Original Model" />
+          <node concept="zr_55" id="4zKvG_YBrWq" role="zr_5Q">
+            <ref role="zr_51" node="6NDRJQ9sN5P" resolve="mdlSrc" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="4zKvG_YBrWr" role="3nqlJM">
+          <property role="TUZQ4" value="Imported Model" />
+          <node concept="zr_55" id="4zKvG_YBrWt" role="zr_5Q">
+            <ref role="zr_51" node="6NDRJQ9sNla" resolve="mdlDest" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="4zKvG_YBrWu" role="3nqlJM">
+          <property role="TUZQ4" value="Points to the classes implementing the IdentityCalculator Interface. This is generally obtained from the extensions generated by the IdentityCalculatorRegistry node" />
+          <node concept="zr_55" id="4zKvG_YBrWw" role="zr_5Q">
+            <ref role="zr_51" node="6NDRJQ9sOXW" resolve="identityCalculatorReg" />
+          </node>
+        </node>
+        <node concept="P$Jll" id="4zKvG_YBFEO" role="3nqlJM">
+          <property role="P$JZL" value="For typical usage, look at basicTests inside tests.de.itemis.mps.modelmerger" />
         </node>
       </node>
     </node>

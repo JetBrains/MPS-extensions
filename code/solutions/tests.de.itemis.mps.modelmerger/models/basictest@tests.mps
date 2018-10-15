@@ -62,7 +62,6 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
-      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -70,7 +69,6 @@
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -83,19 +81,12 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
-        <child id="1160998896846" name="condition" index="1gVkn0" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-      </concept>
-      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
-        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
-        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
@@ -138,6 +129,13 @@
         <reference id="5932312848598539796" name="inPort" index="2Ro54e" />
         <child id="5932312848598539785" name="subComponents" index="2Ro54j" />
       </concept>
+    </language>
+    <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
+      <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
+        <child id="8427750732757990725" name="actual" index="3tpDZA" />
+        <child id="8427750732757990724" name="expected" index="3tpDZB" />
+      </concept>
+      <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
@@ -520,30 +518,28 @@
             <property role="3SKdUp" value="Ensure that the import has got the new outports from destination" />
           </node>
         </node>
-        <node concept="1gVbGN" id="lVcTBwuRXx" role="3cqZAp">
-          <node concept="3clFbC" id="lVcTBwv2bI" role="1gVkn0">
-            <node concept="2OqwBi" id="lVcTBwv9o1" role="3uHU7w">
-              <node concept="2OqwBi" id="lVcTBwv5Qw" role="2Oq$k0">
-                <node concept="3xONca" id="lVcTBwv5i2" role="2Oq$k0">
-                  <ref role="3xOPvv" node="lVcTBwuwxL" resolve="testDestination" />
-                </node>
-                <node concept="3Tsc0h" id="lVcTBwv6U_" role="2OqNvi">
-                  <ref role="3TtcxE" to="k6li:59jNLF_cXnT" resolve="outports" />
-                </node>
+        <node concept="3vlDli" id="4zKvG_YAXr5" role="3cqZAp">
+          <node concept="2OqwBi" id="4zKvG_YAYoa" role="3tpDZB">
+            <node concept="2OqwBi" id="4zKvG_YAYob" role="2Oq$k0">
+              <node concept="37vLTw" id="4zKvG_YAYoc" role="2Oq$k0">
+                <ref role="3cqZAo" node="lVcTBwuPFA" resolve="sysAfterImport" />
               </node>
-              <node concept="34oBXx" id="lVcTBwve7G" role="2OqNvi" />
-            </node>
-            <node concept="2OqwBi" id="lVcTBwuVac" role="3uHU7B">
-              <node concept="2OqwBi" id="lVcTBwuSyt" role="2Oq$k0">
-                <node concept="37vLTw" id="lVcTBwuSl4" role="2Oq$k0">
-                  <ref role="3cqZAo" node="lVcTBwuPFA" resolve="sysAfterImport" />
-                </node>
-                <node concept="3Tsc0h" id="lVcTBwuTqw" role="2OqNvi">
-                  <ref role="3TtcxE" to="k6li:59jNLF_cXnT" resolve="outports" />
-                </node>
+              <node concept="3Tsc0h" id="4zKvG_YAYod" role="2OqNvi">
+                <ref role="3TtcxE" to="k6li:59jNLF_cXnT" resolve="outports" />
               </node>
-              <node concept="34oBXx" id="lVcTBwuZ8T" role="2OqNvi" />
             </node>
+            <node concept="34oBXx" id="4zKvG_YAYoe" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="4zKvG_YAZls" role="3tpDZA">
+            <node concept="2OqwBi" id="4zKvG_YAZlt" role="2Oq$k0">
+              <node concept="3xONca" id="4zKvG_YAZlu" role="2Oq$k0">
+                <ref role="3xOPvv" node="lVcTBwuwxL" resolve="testDestination" />
+              </node>
+              <node concept="3Tsc0h" id="4zKvG_YAZlv" role="2OqNvi">
+                <ref role="3TtcxE" to="k6li:59jNLF_cXnT" resolve="outports" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="4zKvG_YAZlw" role="2OqNvi" />
           </node>
         </node>
         <node concept="3SKdUt" id="lVcTBwveTr" role="3cqZAp">
@@ -551,14 +547,12 @@
             <property role="3SKdUp" value="Ensure the ids of the old model does not change (import is incremental)" />
           </node>
         </node>
-        <node concept="1gVbGN" id="lVcTBwvg2c" role="3cqZAp">
-          <node concept="17R0WA" id="lVcTBwvkaj" role="1gVkn0">
-            <node concept="37vLTw" id="lVcTBwvlaF" role="3uHU7w">
-              <ref role="3cqZAo" node="lVcTBwuBpZ" resolve="rootIdBeforeImport" />
-            </node>
-            <node concept="37vLTw" id="lVcTBwvjDY" role="3uHU7B">
-              <ref role="3cqZAo" node="lVcTBwuPFI" resolve="rootIdAfterImport" />
-            </node>
+        <node concept="3vlDli" id="4zKvG_YB15s" role="3cqZAp">
+          <node concept="37vLTw" id="4zKvG_YB1vd" role="3tpDZB">
+            <ref role="3cqZAo" node="lVcTBwuPFI" resolve="rootIdAfterImport" />
+          </node>
+          <node concept="37vLTw" id="4zKvG_YB1BX" role="3tpDZA">
+            <ref role="3cqZAo" node="lVcTBwuBpZ" resolve="rootIdBeforeImport" />
           </node>
         </node>
       </node>

@@ -71,7 +71,6 @@
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.sandbox/de.slisson.mps.richtext.sandbox.msd" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.modelmerger.runtime/de.itemis.mps.modelmerger.runtime.msd" folder="modelmerger" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.modelmerger.stubs/de.itemis.mps.modelmerger.stubs.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/solutions/tests.de.itemis.mps.modelmerger/tests.de.itemis.mps.modelmerger.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />

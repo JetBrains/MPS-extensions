@@ -6529,6 +6529,45 @@
     </node>
     <node concept="2G$12M" id="GuygFg7$fH" role="3989C9">
       <property role="TrG5h" value="mps-modelmergerTest" />
+      <node concept="1E1JtA" id="3Afi$YnEYQQ" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.modelmerger.testhelper" />
+        <property role="3LESm3" value="be1bf59c-934a-4cee-8859-a8bde460b96f" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="3Afi$YnEYYs" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="3Afi$YnEZDh" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="3Afi$YnEZR$" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.mps.modelmerger" />
+              <node concept="2Ry0Ak" id="3Afi$YnF05R" role="2Ry0An">
+                <property role="2Ry0Am" value="sandbox" />
+                <node concept="2Ry0Ak" id="3Afi$YnF0ka" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.modelmerger.testhelper.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3Afi$YnF0xY" role="3bR37C">
+          <node concept="3bR9La" id="3Afi$YnF0xZ" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="GuygFg6VEV" resolve="de.itemis.mps.modelmerger.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3Afi$YnF0y0" role="3bR37C">
+          <node concept="3bR9La" id="3Afi$YnF0y1" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3Afi$YnF0y2" role="3bR37C">
+          <node concept="3bR9La" id="3Afi$YnF0y3" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="GuygFg7AfB" resolve="test.de.itemis.mps.modelmerger.testlanguage" />
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtA" id="GuygFg7$fI" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="tests.de.itemis.mps.modelmerger" />

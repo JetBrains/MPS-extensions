@@ -154,7 +154,7 @@
         <child id="1423104411234567454" name="repo" index="ukAjM" />
         <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
       </concept>
-      <concept id="8974276187400348177" name="jetbrains.mps.lang.access.structure.ExecuteCommandStatement" flags="nn" index="1QHqEO" />
+      <concept id="8974276187400348183" name="jetbrains.mps.lang.access.structure.ExecuteWriteActionStatement" flags="nn" index="1QHqEM" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -279,9 +279,9 @@
             </node>
           </node>
         </node>
-        <node concept="1QHqEO" id="6BMAc62p2Jv" role="3cqZAp">
-          <node concept="1QHqEC" id="6BMAc62p2Jx" role="1QHqEI">
-            <node concept="3clFbS" id="6BMAc62p2Jz" role="1bW5cS">
+        <node concept="1QHqEM" id="69JKvNKjFTk" role="3cqZAp">
+          <node concept="1QHqEC" id="69JKvNKjFTm" role="1QHqEI">
+            <node concept="3clFbS" id="69JKvNKjFTo" role="1bW5cS">
               <node concept="3cpWs8" id="6NDRJQ9ur$k" role="3cqZAp">
                 <node concept="3cpWsn" id="6NDRJQ9ur$q" role="3cpWs9">
                   <property role="TrG5h" value="nodesToRemove" />
@@ -465,13 +465,13 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="69JKvNKiN_a" role="ukAjM">
-            <node concept="2JrnkZ" id="69JKvNKiNwJ" role="2Oq$k0">
-              <node concept="37vLTw" id="69JKvNKiNjT" role="2JrQYb">
+          <node concept="2OqwBi" id="69JKvNKjHOS" role="ukAjM">
+            <node concept="2JrnkZ" id="69JKvNKjHK1" role="2Oq$k0">
+              <node concept="37vLTw" id="69JKvNKjHxR" role="2JrQYb">
                 <ref role="3cqZAo" node="6NDRJQ9sN5P" resolve="mdlSrc" />
               </node>
             </node>
-            <node concept="liA8E" id="69JKvNKiNQq" role="2OqNvi">
+            <node concept="liA8E" id="69JKvNKjI68" role="2OqNvi">
               <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
             </node>
           </node>

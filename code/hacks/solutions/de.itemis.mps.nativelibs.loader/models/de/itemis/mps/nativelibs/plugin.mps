@@ -32,6 +32,7 @@
     <import index="32g5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.library(MPS.Core/)" />
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
     <import index="b0pz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.facets(MPS.Core/)" />
+    <import index="4q51" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.classloading.reloading(MPS.Core/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -436,7 +437,7 @@
               <ref role="1Pybhc" to="w1kc:~ModelAccess" resolve="ModelAccess" />
             </node>
             <node concept="liA8E" id="5e66rAPG4HN" role="2OqNvi">
-              <ref role="37wK5l" to="w1kc:~ModelCommandExecutor.runReadAction(java.lang.Runnable):void" resolve="runReadAction" />
+              <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable):void" resolve="runReadAction" />
               <node concept="1bVj0M" id="5e66rAPG4YP" role="37wK5m">
                 <node concept="3clFbS" id="5e66rAPG4YQ" role="1bW5cS">
                   <node concept="2Gpval" id="3n_S09ZAqjD" role="3cqZAp">
@@ -1472,7 +1473,7 @@
           <node concept="3cpWsn" id="5wv8I7hhYvt" role="3cpWs9">
             <property role="TrG5h" value="classPathItem" />
             <node concept="3uibUv" id="5wv8I7hhYvu" role="1tU5fm">
-              <ref role="3uigEE" to="zkib:~IClassPathItem" resolve="IClassPathItem" />
+              <ref role="3uigEE" to="4q51:~IClassPathItem" resolve="IClassPathItem" />
             </node>
             <node concept="10QFUN" id="5wv8I7hi3qJ" role="33vP2m">
               <node concept="2OqwBi" id="5wv8I7hhZZl" role="10QFUP">
@@ -1487,7 +1488,7 @@
                 </node>
               </node>
               <node concept="3uibUv" id="5wv8I7hi3qK" role="10QFUM">
-                <ref role="3uigEE" to="zkib:~IClassPathItem" resolve="IClassPathItem" />
+                <ref role="3uigEE" to="4q51:~IClassPathItem" resolve="IClassPathItem" />
               </node>
             </node>
           </node>
@@ -1524,12 +1525,12 @@
               <node concept="3cpWsn" id="5wv8I7hhOqZ" role="3cpWs9">
                 <property role="TrG5h" value="composite" />
                 <node concept="3uibUv" id="5wv8I7hhOqW" role="1tU5fm">
-                  <ref role="3uigEE" to="zkib:~CompositeClassPathItem" resolve="CompositeClassPathItem" />
+                  <ref role="3uigEE" to="4q51:~CompositeClassPathItem" resolve="CompositeClassPathItem" />
                 </node>
                 <node concept="1eOMI4" id="5wv8I7hhOr0" role="33vP2m">
                   <node concept="10QFUN" id="5wv8I7hhOr1" role="1eOMHV">
                     <node concept="3uibUv" id="5wv8I7hhOr2" role="10QFUM">
-                      <ref role="3uigEE" to="zkib:~CompositeClassPathItem" resolve="CompositeClassPathItem" />
+                      <ref role="3uigEE" to="4q51:~CompositeClassPathItem" resolve="CompositeClassPathItem" />
                     </node>
                     <node concept="37vLTw" id="5wv8I7hhOr3" role="10QFUP">
                       <ref role="3cqZAo" node="5wv8I7hhKSz" resolve="cpi" />
@@ -1547,7 +1548,7 @@
                 </node>
                 <node concept="2OqwBi" id="5wv8I7higRY" role="33vP2m">
                   <node concept="3VsKOn" id="5wv8I7higRZ" role="2Oq$k0">
-                    <ref role="3VsUkX" to="zkib:~CompositeClassPathItem" resolve="CompositeClassPathItem" />
+                    <ref role="3VsUkX" to="4q51:~CompositeClassPathItem" resolve="CompositeClassPathItem" />
                   </node>
                   <node concept="liA8E" id="5wv8I7higS0" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String):java.lang.reflect.Field" resolve="getDeclaredField" />
@@ -1577,7 +1578,7 @@
                 <node concept="3uibUv" id="5wv8I7hiiUA" role="1tU5fm">
                   <ref role="3uigEE" to="33ny:~List" resolve="List" />
                   <node concept="3uibUv" id="5wv8I7hijsD" role="11_B2D">
-                    <ref role="3uigEE" to="zkib:~IClassPathItem" resolve="IClassPathItem" />
+                    <ref role="3uigEE" to="4q51:~IClassPathItem" resolve="IClassPathItem" />
                   </node>
                 </node>
                 <node concept="10QFUN" id="5wv8I7hinEj" role="33vP2m">
@@ -1595,7 +1596,7 @@
                   <node concept="3uibUv" id="5wv8I7hinEk" role="10QFUM">
                     <ref role="3uigEE" to="33ny:~List" resolve="List" />
                     <node concept="3uibUv" id="5wv8I7hinEl" role="11_B2D">
-                      <ref role="3uigEE" to="zkib:~IClassPathItem" resolve="IClassPathItem" />
+                      <ref role="3uigEE" to="4q51:~IClassPathItem" resolve="IClassPathItem" />
                     </node>
                   </node>
                 </node>
@@ -1608,7 +1609,7 @@
                 <node concept="3uibUv" id="5wv8I7hiApw" role="1tU5fm">
                   <ref role="3uigEE" to="33ny:~Iterator" resolve="Iterator" />
                   <node concept="3uibUv" id="5wv8I7hiApz" role="11_B2D">
-                    <ref role="3uigEE" to="zkib:~IClassPathItem" resolve="IClassPathItem" />
+                    <ref role="3uigEE" to="4q51:~IClassPathItem" resolve="IClassPathItem" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5wv8I7hiApE" role="33vP2m">
@@ -1627,7 +1628,7 @@
                   <node concept="3cpWsn" id="5wv8I7hiDkL" role="3cpWs9">
                     <property role="TrG5h" value="item" />
                     <node concept="3uibUv" id="5wv8I7hiDkM" role="1tU5fm">
-                      <ref role="3uigEE" to="zkib:~IClassPathItem" resolve="IClassPathItem" />
+                      <ref role="3uigEE" to="4q51:~IClassPathItem" resolve="IClassPathItem" />
                     </node>
                     <node concept="2OqwBi" id="5wv8I7hiDx0" role="33vP2m">
                       <node concept="37vLTw" id="5wv8I7hiDrA" role="2Oq$k0">
@@ -1645,12 +1646,12 @@
                       <node concept="3cpWsn" id="5wv8I7hjOqR" role="3cpWs9">
                         <property role="TrG5h" value="jarItem" />
                         <node concept="3uibUv" id="5wv8I7hjOqE" role="1tU5fm">
-                          <ref role="3uigEE" to="zkib:~JarFileClassPathItem" resolve="JarFileClassPathItem" />
+                          <ref role="3uigEE" to="4q51:~JarFileClassPathItem" resolve="JarFileClassPathItem" />
                         </node>
                         <node concept="1eOMI4" id="5wv8I7hjOqS" role="33vP2m">
                           <node concept="10QFUN" id="5wv8I7hjOqT" role="1eOMHV">
                             <node concept="3uibUv" id="5wv8I7hjOqU" role="10QFUM">
-                              <ref role="3uigEE" to="zkib:~JarFileClassPathItem" resolve="JarFileClassPathItem" />
+                              <ref role="3uigEE" to="4q51:~JarFileClassPathItem" resolve="JarFileClassPathItem" />
                             </node>
                             <node concept="37vLTw" id="5wv8I7hkcug" role="10QFUP">
                               <ref role="3cqZAo" node="5wv8I7hiDkL" resolve="item" />
@@ -1693,7 +1694,7 @@
                               <ref role="3cqZAo" node="5wv8I7hjOqR" resolve="jarItem" />
                             </node>
                             <node concept="liA8E" id="5wv8I7hjVFH" role="2OqNvi">
-                              <ref role="37wK5l" to="zkib:~JarFileClassPathItem.getPath():java.lang.String" resolve="getPath" />
+                              <ref role="37wK5l" to="4q51:~JarFileClassPathItem.getPath():java.lang.String" resolve="getPath" />
                             </node>
                           </node>
                           <node concept="liA8E" id="6clvLV2ceKQ" role="2OqNvi">
@@ -1711,7 +1712,7 @@
                   </node>
                   <node concept="2ZW3vV" id="5wv8I7hiFXH" role="3clFbw">
                     <node concept="3uibUv" id="5wv8I7hjNmX" role="2ZW6by">
-                      <ref role="3uigEE" to="zkib:~JarFileClassPathItem" resolve="JarFileClassPathItem" />
+                      <ref role="3uigEE" to="4q51:~JarFileClassPathItem" resolve="JarFileClassPathItem" />
                     </node>
                     <node concept="37vLTw" id="5wv8I7hiFws" role="2ZW6bz">
                       <ref role="3cqZAo" node="5wv8I7hiDkL" resolve="item" />
@@ -1731,7 +1732,7 @@
           </node>
           <node concept="2ZW3vV" id="5wv8I7hhL8z" role="3clFbw">
             <node concept="3uibUv" id="5wv8I7hhOjq" role="2ZW6by">
-              <ref role="3uigEE" to="zkib:~CompositeClassPathItem" resolve="CompositeClassPathItem" />
+              <ref role="3uigEE" to="4q51:~CompositeClassPathItem" resolve="CompositeClassPathItem" />
             </node>
             <node concept="37vLTw" id="5wv8I7hhL0V" role="2ZW6bz">
               <ref role="3cqZAo" node="5wv8I7hhKSz" resolve="cpi" />
@@ -1742,7 +1743,7 @@
       <node concept="37vLTG" id="5wv8I7hhKSz" role="3clF46">
         <property role="TrG5h" value="cpi" />
         <node concept="3uibUv" id="5wv8I7hhKSy" role="1tU5fm">
-          <ref role="3uigEE" to="zkib:~IClassPathItem" resolve="IClassPathItem" />
+          <ref role="3uigEE" to="4q51:~IClassPathItem" resolve="IClassPathItem" />
         </node>
       </node>
       <node concept="37vLTG" id="5wv8I7hi7dR" role="3clF46">

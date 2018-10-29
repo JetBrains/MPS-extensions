@@ -39,6 +39,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="bhcn" ref="r:b764cfb6-903f-41e9-95dc-ea24a6097dec(de.itemis.mps.tooltips.structure)" />
+    <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
@@ -2928,8 +2929,27 @@
       <node concept="gft3U" id="7k8PWDQne8C" role="1lVwrX">
         <node concept="2ShNRf" id="7k8PWDQne8O" role="gfFT$">
           <node concept="1pGfFk" id="6Bd7Vwr1D$$" role="2ShVmc">
-            <ref role="37wK5l" to="xqcy:6Bd7Vwr12w_" resolve="DeprecatedLayeredLayouter" />
-            <node concept="10Nm6u" id="6iN$YdpUOHM" role="37wK5m" />
+            <ref role="37wK5l" to="r3rm:6Bd7Vwr12w_" resolve="LayeredLayouter" />
+            <node concept="Rm8GO" id="6Bd7VwqXeO4" role="37wK5m">
+              <ref role="Rm8GQ" to="gwyy:~Direction.RIGHT" resolve="RIGHT" />
+              <ref role="1Px2BO" to="gwyy:~Direction" resolve="Direction" />
+              <node concept="1ZhdrF" id="774RaqL_oNf" role="lGtFl">
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <node concept="3$xsQk" id="774RaqL_oNg" role="3$ytzL">
+                  <node concept="3clFbS" id="774RaqL_oNh" role="2VODD2">
+                    <node concept="3clFbF" id="774RaqL_oOr" role="3cqZAp">
+                      <node concept="2OqwBi" id="774RaqL_p2q" role="3clFbG">
+                        <node concept="30H73N" id="774RaqL_oOq" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="774RaqL_sqt" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:6Bd7VwqYQHW" resolve="direction" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -2939,7 +2959,7 @@
       <node concept="gft3U" id="7k8PWDQnffD" role="1lVwrX">
         <node concept="2ShNRf" id="7k8PWDQnffE" role="gfFT$">
           <node concept="HV5vD" id="7k8PWDQofzc" role="2ShVmc">
-            <ref role="HV5vE" to="xqcy:7k8PWDQnjGk" resolve="DeprectatedTreeLayouter" />
+            <ref role="HV5vE" to="r3rm:7k8PWDQnjGk" resolve="TreeLayouter" />
           </node>
         </node>
       </node>

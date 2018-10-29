@@ -51,6 +51,7 @@
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
     <import index="jsda" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.dnd(JDK/)" />
     <import index="qxi4" ref="r:45c19b6d-dd9a-4f15-973f-0267c5e76303(de.itemis.mps.editor.celllayout.runtime)" />
+    <import index="99ht" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.model(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
@@ -17045,39 +17046,43 @@
                                                     </node>
                                                   </node>
                                                 </node>
-                                                <node concept="3clFbF" id="67E2MoTaX4R" role="3cqZAp">
-                                                  <node concept="2OqwBi" id="67E2MoTaZAv" role="3clFbG">
-                                                    <node concept="2OqwBi" id="67E2MoTaXDs" role="2Oq$k0">
-                                                      <node concept="37vLTw" id="67E2MoTaX4P" role="2Oq$k0">
-                                                        <ref role="3cqZAo" node="7LOkw6sf2Jp" resolve="editorComponent" />
+                                                <node concept="1X3_iC" id="774RaqLUaRv" role="lGtFl">
+                                                  <property role="3V$3am" value="statement" />
+                                                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                                                  <node concept="3clFbF" id="67E2MoTaX4R" role="8Wnug">
+                                                    <node concept="2OqwBi" id="67E2MoTaZAv" role="3clFbG">
+                                                      <node concept="2OqwBi" id="67E2MoTaXDs" role="2Oq$k0">
+                                                        <node concept="37vLTw" id="67E2MoTaX4P" role="2Oq$k0">
+                                                          <ref role="3cqZAo" node="7LOkw6sf2Jp" resolve="editorComponent" />
+                                                        </node>
+                                                        <node concept="liA8E" id="67E2MoTaZ_S" role="2OqNvi">
+                                                          <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                                                        </node>
                                                       </node>
-                                                      <node concept="liA8E" id="67E2MoTaZ_S" role="2OqNvi">
-                                                        <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
-                                                      </node>
-                                                    </node>
-                                                    <node concept="liA8E" id="67E2MoTaZDc" role="2OqNvi">
-                                                      <ref role="37wK5l" to="lwvz:~SelectionManager.setSelection(jetbrains.mps.openapi.editor.selection.Selection):void" resolve="setSelection" />
-                                                      <node concept="2ShNRf" id="67E2MoTbO4Q" role="37wK5m">
-                                                        <node concept="1pGfFk" id="67E2MoTbPAm" role="2ShVmc">
-                                                          <ref role="37wK5l" to="r3rm:2_D0AvWRGG9" resolve="GraphSelection" />
-                                                          <node concept="37vLTw" id="67E2MoTbQ3l" role="37wK5m">
-                                                            <ref role="3cqZAo" node="7LOkw6sf2Jp" resolve="editorComponent" />
-                                                          </node>
-                                                          <node concept="37vLTw" id="67E2MoTfr85" role="37wK5m">
-                                                            <ref role="3cqZAo" node="67E2MoTfr81" resolve="diagramCell" />
-                                                          </node>
-                                                          <node concept="2OqwBi" id="67E2MoTbTJ2" role="37wK5m">
-                                                            <node concept="2ShNRf" id="67E2MoTbS45" role="2Oq$k0">
-                                                              <node concept="2HTt$P" id="67E2MoTbSQ$" role="2ShVmc">
-                                                                <node concept="3uibUv" id="67E2MoTcI1p" role="2HTBi0">
-                                                                  <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
-                                                                </node>
-                                                                <node concept="37vLTw" id="67E2MoTdZdW" role="2HTEbv">
-                                                                  <ref role="3cqZAo" node="7LOkw6sfc9v" resolve="rootCell" />
+                                                      <node concept="liA8E" id="67E2MoTaZDc" role="2OqNvi">
+                                                        <ref role="37wK5l" to="lwvz:~SelectionManager.setSelection(jetbrains.mps.openapi.editor.selection.Selection):void" resolve="setSelection" />
+                                                        <node concept="2ShNRf" id="67E2MoTbO4Q" role="37wK5m">
+                                                          <node concept="1pGfFk" id="67E2MoTbPAm" role="2ShVmc">
+                                                            <ref role="37wK5l" to="r3rm:2_D0AvWRGG9" resolve="GraphSelection" />
+                                                            <node concept="37vLTw" id="67E2MoTbQ3l" role="37wK5m">
+                                                              <ref role="3cqZAo" node="7LOkw6sf2Jp" resolve="editorComponent" />
+                                                            </node>
+                                                            <node concept="37vLTw" id="67E2MoTfr85" role="37wK5m">
+                                                              <ref role="3cqZAo" node="67E2MoTfr81" resolve="diagramCell" />
+                                                            </node>
+                                                            <node concept="2OqwBi" id="67E2MoTbTJ2" role="37wK5m">
+                                                              <node concept="2ShNRf" id="67E2MoTbS45" role="2Oq$k0">
+                                                                <node concept="2HTt$P" id="67E2MoTbSQ$" role="2ShVmc">
+                                                                  <node concept="37vLTw" id="67E2MoTdZdW" role="2HTEbv">
+                                                                    <ref role="3cqZAo" node="7LOkw6sfc9v" resolve="rootCell" />
+                                                                  </node>
+                                                                  <node concept="3uibUv" id="67E2MoTcI1p" role="2HTBi0">
+                                                                    <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+                                                                  </node>
                                                                 </node>
                                                               </node>
+                                                              <node concept="ANE8D" id="67E2MoTbTTe" role="2OqNvi" />
                                                             </node>
-                                                            <node concept="ANE8D" id="67E2MoTbTTe" role="2OqNvi" />
                                                           </node>
                                                         </node>
                                                       </node>

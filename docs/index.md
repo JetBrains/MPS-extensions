@@ -5,7 +5,11 @@ table tbody tr td:nth-child(2) {
 table tbody tr + tr  td:nth-child(2) {
     color: orange;
 }
+	
 table tbody tr + tr + tr td:nth-child(2) {
+    color: orange;
+}
+table tbody tr + tr + tr + tr td:nth-child(2) {
     color: tomato;
 }
 
@@ -47,7 +51,7 @@ Maven:
 		 <dependency>
 		  <groupId>de.itemis.mps</groupId>
 		  <artifactId>extensions</artifactId>
-		  <version>2018.1</version>
+		  <version>2018.2</version>
 		  <type>zip</type>
 		</dependency>
 	</dependencies>
@@ -67,7 +71,7 @@ Gradle:
     }
     
     dependencies {
-        mpsExtensions "de.itemis.mps:extensions:2018.1.+"
+        mpsExtensions "de.itemis.mps:extensions:2018.2.+"
     }
 ```
 
@@ -83,7 +87,8 @@ A version in maintenance will not get actively new features and is only maintain
 
 | MPS Version | State |
 |:--|:--|
-| 2018.1 | active development |
+| 2018.2 | active development |
+| 2018.1 | maintenance |
 | 2017.3 | maintenance  |
 | 2017.2 | **not maintained** |
 | 2017.1 | **not maintained** |

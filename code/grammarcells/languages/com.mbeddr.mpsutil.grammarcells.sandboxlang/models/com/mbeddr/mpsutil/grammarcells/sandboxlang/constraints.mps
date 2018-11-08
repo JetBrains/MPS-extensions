@@ -23,6 +23,7 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -51,6 +52,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
@@ -101,6 +103,30 @@
   </node>
   <node concept="1M2fIO" id="4qdNcH$5qFv">
     <ref role="1M2myG" to="ibwz:4qdNcH$0Xwh" resolve="FloatLiteral" />
+    <node concept="EnEH3" id="35HSLjqSLVn" role="1MhHOB">
+      <ref role="EomxK" to="ibwz:4qdNcH$0YJP" resolve="value" />
+      <node concept="QB0g5" id="35HSLjqSLVp" role="QCWH9">
+        <node concept="3clFbS" id="35HSLjqSLVq" role="2VODD2">
+          <node concept="3clFbF" id="35HSLjqSQwu" role="3cqZAp">
+            <node concept="1Wc70l" id="35HSLjqST7p" role="3clFbG">
+              <node concept="2OqwBi" id="35HSLjqSTG$" role="3uHU7w">
+                <node concept="1Wqviy" id="35HSLjqSTfm" role="2Oq$k0" />
+                <node concept="liA8E" id="35HSLjqSUdw" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
+                  <node concept="Xl_RD" id="35HSLjqSUlL" role="37wK5m">
+                    <property role="Xl_RC" value="\\d+\\.\\d+" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="35HSLjqSRSP" role="3uHU7B">
+                <node concept="1Wqviy" id="35HSLjqSQwt" role="2Oq$k0" />
+                <node concept="17RvpY" id="35HSLjqSSzU" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1M2fIO" id="3pFNVizHnY_">
     <ref role="1M2myG" to="ibwz:6oKG1kMxn8B" resolve="StringLiteral" />

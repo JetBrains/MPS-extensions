@@ -111,9 +111,6 @@
     <property role="TrG5h" value="StubCellModel_Checkbox" />
     <property role="EcuMT" value="416014060004381438" />
     <ref role="1TJDcQ" node="4g2H4r3SHDB" resolve="CellModel_Checkbox" />
-    <node concept="PrWs8" id="n5YDls8hcc" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
     <node concept="PrWs8" id="n5YDls8hcd" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>
@@ -122,9 +119,6 @@
     <property role="TrG5h" value="StubCellModel_BooleanText" />
     <property role="EcuMT" value="416014060004530854" />
     <ref role="1TJDcQ" node="6bmIkNC799Q" resolve="CellModel_BooleanText" />
-    <node concept="PrWs8" id="n5YDls8PEB" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
     <node concept="PrWs8" id="n5YDls8PEC" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>

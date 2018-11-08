@@ -20,9 +20,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
-      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
-        <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
-      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -42,7 +40,6 @@
   <node concept="3HP615" id="5EJ7vKKS4Bp">
     <property role="TrG5h" value="IMapReduce" />
     <node concept="3clFb_" id="5EJ7vKKS4CO" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="map" />
       <node concept="16syzq" id="5EJ7vKKS4Da" role="3clF45">
         <ref role="16sUi3" node="5EJ7vKKS4CA" resolve="T" />
@@ -57,7 +54,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="5EJ7vKKS4Ew" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="reduce" />
       <node concept="16syzq" id="5EJ7vKKS4F3" role="3clF45">
         <ref role="16sUi3" node="5EJ7vKKS4CG" resolve="R" />

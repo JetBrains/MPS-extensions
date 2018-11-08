@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
@@ -23,9 +23,6 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -167,7 +164,6 @@
   <node concept="3HP615" id="2vJRo8g_3D0">
     <property role="TrG5h" value="IConditionalEditor" />
     <node concept="3clFb_" id="2vJRo8g_3D9" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getPriority" />
       <node concept="10Oyi0" id="2vJRo8g_3Ds" role="3clF45" />
       <node concept="3Tm1VV" id="2vJRo8g_3Dc" role="1B3o_S" />
@@ -195,7 +191,6 @@
     <node concept="2tJIrI" id="2he9CywXPrd" role="jymVt" />
     <node concept="2YIFZL" id="2he9CywXJf6" role="jymVt">
       <property role="TrG5h" value="getPriority" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="2he9CywXJf7" role="3clF47">
@@ -250,7 +245,6 @@
     <node concept="2tJIrI" id="2he9CywY64H" role="jymVt" />
     <node concept="2YIFZL" id="6OrbFWF8V4J" role="jymVt">
       <property role="TrG5h" value="installComparator" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="6OrbFWF8Uzs" role="3clF47">
@@ -508,7 +502,6 @@
     <node concept="2tJIrI" id="6OrbFWF9aWk" role="jymVt" />
     <node concept="2YIFZL" id="6OrbFWF9aw9" role="jymVt">
       <property role="TrG5h" value="uninstallComparator" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="6OrbFWF9awa" role="3clF47">
@@ -691,7 +684,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="compare" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3Tm1VV" id="6OrbFWF8N_2" role="1B3o_S" />
       <node concept="10Oyi0" id="6OrbFWF8N_4" role="3clF45" />

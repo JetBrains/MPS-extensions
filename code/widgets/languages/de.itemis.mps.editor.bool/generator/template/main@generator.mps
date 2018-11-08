@@ -2,7 +2,7 @@
 <model ref="r:c3558903-fb0c-4dbd-bd22-48039c413ad9(de.itemis.mps.editor.bool.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -47,9 +47,6 @@
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -181,9 +178,6 @@
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
       </concept>
-      <concept id="1194565793557" name="jetbrains.mps.lang.generator.structure.IncludeMacro" flags="ln" index="xERo3">
-        <reference id="1194566366375" name="includeTemplate" index="xH3mL" />
-      </concept>
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
@@ -257,11 +251,11 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
-        <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
+        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -752,8 +746,8 @@
               <property role="TrG5h" value="i" />
               <node concept="10Oyi0" id="3dYY$_sKB15" role="1tU5fm" />
             </node>
-            <node concept="xERo3" id="3dYY$_sKB16" role="lGtFl">
-              <ref role="xH3mL" to="tpc3:4v1iCryNDHi" resolve="template_cellSetupBlock" />
+            <node concept="5jKBG" id="zVbOZkcbRu" role="lGtFl">
+              <ref role="v9R2y" to="tpc3:4v1iCryNDHi" resolve="template_cellSetupBlock" />
             </node>
           </node>
           <node concept="3clFbF" id="2csR5Duk0Bv" role="3cqZAp">
@@ -1009,7 +1003,6 @@
           <property role="1EzhhJ" value="false" />
           <property role="TrG5h" value="createEditorCell" />
           <property role="DiZV1" value="false" />
-          <property role="IEkAT" value="false" />
           <node concept="3Tm1VV" id="115coIS9JOR" role="1B3o_S" />
           <node concept="3uibUv" id="115coIS9JOT" role="3clF45">
             <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
@@ -1031,7 +1024,6 @@
         </node>
         <node concept="3Tm6S6" id="55my_QKZzJ5" role="1B3o_S" />
         <node concept="3clFb_" id="55my_QKZNgb" role="jymVt">
-          <property role="IEkAT" value="false" />
           <property role="1EzhhJ" value="false" />
           <property role="TrG5h" value="setRole" />
           <property role="DiZV1" value="false" />
@@ -1049,7 +1041,6 @@
           <property role="1EzhhJ" value="false" />
           <property role="TrG5h" value="getRoleAttributes" />
           <property role="DiZV1" value="false" />
-          <property role="IEkAT" value="false" />
           <node concept="3Tm1VV" id="2n6u7U4Mpo9" role="1B3o_S" />
           <node concept="3uibUv" id="2n6u7U4Mpob" role="3clF45">
             <ref role="3uigEE" to="wyt6:~Iterable" resolve="Iterable" />
@@ -1082,7 +1073,6 @@
           </node>
         </node>
         <node concept="3clFb_" id="55my_QKZNgw" role="jymVt">
-          <property role="IEkAT" value="false" />
           <property role="1EzhhJ" value="false" />
           <property role="TrG5h" value="createDefaultSubstituteInfo" />
           <property role="DiZV1" value="false" />
@@ -1449,8 +1439,8 @@
               <property role="TrG5h" value="i" />
               <node concept="10Oyi0" id="6bmIkNC6Oet" role="1tU5fm" />
             </node>
-            <node concept="xERo3" id="6bmIkNC6Oeu" role="lGtFl">
-              <ref role="xH3mL" to="tpc3:4v1iCryNDHi" resolve="template_cellSetupBlock" />
+            <node concept="5jKBG" id="zVbOZkcbRv" role="lGtFl">
+              <ref role="v9R2y" to="tpc3:4v1iCryNDHi" resolve="template_cellSetupBlock" />
             </node>
           </node>
           <node concept="3clFbF" id="6bmIkNC6Oev" role="3cqZAp">
@@ -1707,7 +1697,6 @@
           <property role="1EzhhJ" value="false" />
           <property role="TrG5h" value="createEditorCell" />
           <property role="DiZV1" value="false" />
-          <property role="IEkAT" value="false" />
           <node concept="3Tm1VV" id="115coIS9uug" role="1B3o_S" />
           <node concept="3uibUv" id="115coIS9uui" role="3clF45">
             <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
@@ -1729,7 +1718,6 @@
         </node>
         <node concept="3Tm6S6" id="6bmIkNC6Ogk" role="1B3o_S" />
         <node concept="3clFb_" id="6bmIkNC6Ogl" role="jymVt">
-          <property role="IEkAT" value="false" />
           <property role="1EzhhJ" value="false" />
           <property role="TrG5h" value="setRole" />
           <property role="DiZV1" value="false" />
@@ -1762,7 +1750,6 @@
           </node>
         </node>
         <node concept="3clFb_" id="6bmIkNC6OgB" role="jymVt">
-          <property role="IEkAT" value="false" />
           <property role="1EzhhJ" value="false" />
           <property role="TrG5h" value="createDefaultSubstituteInfo" />
           <property role="DiZV1" value="false" />
@@ -1780,7 +1767,6 @@
           <property role="1EzhhJ" value="false" />
           <property role="TrG5h" value="getRoleAttributes" />
           <property role="DiZV1" value="false" />
-          <property role="IEkAT" value="false" />
           <node concept="3Tm1VV" id="2n6u7U4MoiU" role="1B3o_S" />
           <node concept="3uibUv" id="2n6u7U4MoiW" role="3clF45">
             <ref role="3uigEE" to="wyt6:~Iterable" resolve="Iterable" />

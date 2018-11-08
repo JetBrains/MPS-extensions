@@ -63,9 +63,6 @@
     <property role="TrG5h" value="StubCellModel_EnumCheckbox" />
     <property role="EcuMT" value="2135528801629813722" />
     <ref role="1TJDcQ" node="1QyV25GKFIu" resolve="CellModel_EnumCheckbox" />
-    <node concept="PrWs8" id="1QyV25GKFK7" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
     <node concept="PrWs8" id="1QyV25GKFJs" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>

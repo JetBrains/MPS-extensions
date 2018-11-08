@@ -2,7 +2,7 @@
 <model ref="r:177a91e6-0c16-46fd-b770-1327901d9b5c(de.slisson.mps.conditionalEditor.hints.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
   </languages>
   <imports />
   <registry>

@@ -2,7 +2,7 @@
 <model ref="r:748eba57-285a-4bef-8d61-fdc378bdf275(de.itemis.mps.editor.diagram.runtime.coordinates)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
@@ -25,9 +25,6 @@
       </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -353,7 +350,6 @@
     <node concept="2tJIrI" id="4xcnxwSzmuM" role="jymVt" />
     <node concept="2YIFZL" id="4xcnxwSzmuN" role="jymVt">
       <property role="TrG5h" value="transform" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="4xcnxwSzmuO" role="3clF47">
@@ -606,7 +602,6 @@
     <property role="TrG5h" value="GlobalCoordinateSystem" />
     <node concept="2tJIrI" id="4xcnxwSzmwv" role="jymVt" />
     <node concept="Wx3nA" id="4xcnxwS_LV_" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="INSTANCE" />
       <property role="3TUv4t" value="true" />
       <node concept="3uibUv" id="4xcnxwS_LGx" role="1tU5fm">
@@ -673,7 +668,6 @@
     <property role="TrG5h" value="ICoordinateSystem" />
     <node concept="2tJIrI" id="4xcnxwSzmwQ" role="jymVt" />
     <node concept="3clFb_" id="4xcnxwSzmwR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="toGlobal" />
       <node concept="3uibUv" id="4xcnxwSzmwS" role="3clF45">
         <ref role="3uigEE" node="4xcnxwSzmx5" resolve="ICoordinates" />
@@ -688,7 +682,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="4xcnxwSzmwX" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="toLocal" />
       <node concept="37vLTG" id="4xcnxwSzmwY" role="3clF46">
         <property role="TrG5h" value="coordinates" />
@@ -708,14 +701,12 @@
   <node concept="3HP615" id="4xcnxwSzmx5">
     <property role="TrG5h" value="ICoordinates" />
     <node concept="3clFb_" id="4xcnxwSzmx6" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getX" />
       <node concept="10P55v" id="4xcnxwSzmx7" role="3clF45" />
       <node concept="3Tm1VV" id="4xcnxwSzmx8" role="1B3o_S" />
       <node concept="3clFbS" id="4xcnxwSzmx9" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4xcnxwSzmxa" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getY" />
       <node concept="10P55v" id="4xcnxwSzmxb" role="3clF45" />
       <node concept="3Tm1VV" id="4xcnxwSzmxc" role="1B3o_S" />
@@ -723,7 +714,6 @@
     </node>
     <node concept="3clFb_" id="4xcnxwSzmxe" role="jymVt">
       <property role="TrG5h" value="getCoordinateSystem" />
-      <property role="1EzhhJ" value="true" />
       <node concept="3uibUv" id="4xcnxwSzmxf" role="3clF45">
         <ref role="3uigEE" node="4xcnxwSzmwP" resolve="ICoordinateSystem" />
       </node>
@@ -731,7 +721,6 @@
       <node concept="3clFbS" id="4xcnxwSzmxh" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4xcnxwSzmxi" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="toGlobal" />
       <node concept="3uibUv" id="4xcnxwSzmxj" role="3clF45">
         <ref role="3uigEE" node="4xcnxwSzmx5" resolve="ICoordinates" />

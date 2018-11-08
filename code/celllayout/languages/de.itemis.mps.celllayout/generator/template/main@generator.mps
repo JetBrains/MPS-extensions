@@ -2,7 +2,7 @@
 <model ref="r:5351c0ae-c8ff-43f0-845b-5f6990fdf8d1(de.itemis.mps.editor.celllayout.styles.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
   </languages>
   <imports />
   <registry>

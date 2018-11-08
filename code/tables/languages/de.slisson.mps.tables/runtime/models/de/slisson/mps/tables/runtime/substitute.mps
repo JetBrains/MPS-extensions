@@ -6,10 +6,10 @@
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="v2gd" ref="r:c6ef9172-b9db-4546-97ce-db76c1f2586f(de.slisson.mps.tables.runtime)" />
@@ -53,9 +53,6 @@
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -467,7 +464,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createActions" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tmbuc" id="6T7OHMQjUHl" role="1B3o_S" />
       <node concept="3uibUv" id="6T7OHMQjUHn" role="3clF45">
         <ref role="3uigEE" to="33ny:~List" resolve="List" />
@@ -974,7 +970,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getMatchingActions" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="4381QB0uFZv" role="1B3o_S" />
       <node concept="3uibUv" id="4381QB0uFZx" role="3clF45">
         <ref role="3uigEE" to="33ny:~List" resolve="List" />
@@ -1040,7 +1035,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getOriginalText" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="4381QB0uFZF" role="1B3o_S" />
       <node concept="17QB3L" id="4381QB0uHdb" role="3clF45" />
       <node concept="3clFbS" id="4381QB0uFZI" role="3clF47">
@@ -1060,7 +1054,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getSmartMatchingActions" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="4381QB0uFZM" role="1B3o_S" />
       <node concept="3uibUv" id="4381QB0uFZO" role="3clF45">
         <ref role="3uigEE" to="33ny:~List" resolve="List" />
@@ -1135,7 +1128,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="hasExactlyNActions" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="4381QB0uG00" role="1B3o_S" />
       <node concept="10P_77" id="4381QB0uG02" role="3clF45" />
       <node concept="37vLTG" id="4381QB0uG03" role="3clF46">
@@ -1176,7 +1168,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="invalidateActions" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="4381QB0uG0d" role="1B3o_S" />
       <node concept="3cqZAl" id="4381QB0uG0f" role="3clF45" />
       <node concept="3clFbS" id="4381QB0uG0g" role="3clF47">
@@ -1196,7 +1187,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setOriginalText" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="4381QB0uG0i" role="1B3o_S" />
       <node concept="3cqZAl" id="4381QB0uG0k" role="3clF45" />
       <node concept="37vLTG" id="4381QB0uG0l" role="3clF46">
@@ -1477,7 +1467,6 @@
     <property role="TrG5h" value="NodeSubstituter" />
     <node concept="3clFb_" id="lPJxikiczL" role="jymVt">
       <property role="TrG5h" value="substituteNode" />
-      <property role="1EzhhJ" value="true" />
       <node concept="37vLTG" id="lPJxikiczM" role="3clF46">
         <property role="TrG5h" value="newNode" />
         <node concept="3Tqbb2" id="lPJxikiczN" role="1tU5fm" />
@@ -1624,7 +1613,6 @@
       <ref role="3uigEE" to="6lvu:~AbstractNodeSubstituteInfo" resolve="AbstractNodeSubstituteInfo" />
     </node>
     <node concept="3clFb_" id="7C0FR5_dv3d" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createActions" />
       <property role="DiZV1" value="false" />
@@ -1650,7 +1638,6 @@
                   <ref role="37wK5l" to="zce0:~AbstractChildNodeSetter.&lt;init&gt;()" resolve="AbstractChildNodeSetter" />
                   <node concept="3Tm1VV" id="7C0FR5_dv3o" role="1B3o_S" />
                   <node concept="3clFb_" id="7C0FR5_dv3p" role="jymVt">
-                    <property role="IEkAT" value="false" />
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="doExecute" />
                     <property role="DiZV1" value="false" />

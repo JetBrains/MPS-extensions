@@ -384,6 +384,23 @@
         <property role="3cmrfH" value="1" />
       </node>
     </node>
+    <node concept="3t5Usi" id="7d0q5VH9BqM" role="V601i">
+      <property role="TrG5h" value="_vertical-line-color" />
+      <node concept="3uibUv" id="7d0q5VH9BqN" role="3t5Oan">
+        <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
+      </node>
+      <node concept="10M0yZ" id="7d0q5VH9BqO" role="3t49C2">
+        <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+        <ref role="3cqZAo" to="z60i:~Color.BLACK" resolve="BLACK" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="7d0q5VH9Btz" role="V601i">
+      <property role="TrG5h" value="_vertical-line-width" />
+      <node concept="10Oyi0" id="7d0q5VH9Bt$" role="3t5Oan" />
+      <node concept="3cmrfG" id="7d0q5VH9Bt_" role="3t49C2">
+        <property role="3cmrfH" value="1" />
+      </node>
+    </node>
   </node>
   <node concept="PKFIW" id="6SVXTgI9Y1W">
     <property role="TrG5h" value="Dummy" />

@@ -102,9 +102,6 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
-      <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
-        <child id="1070534760952" name="componentType" index="10Q1$1" />
-      </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -1108,34 +1105,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="6KgrWUngaYw" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getExtendedLanguageIDs" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tmbuc" id="6KgrWUngaYx" role="1B3o_S" />
-      <node concept="10Q1$e" id="6KgrWUngaYz" role="3clF45">
-        <node concept="3uibUv" id="6KgrWUngaY$" role="10Q1$1">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="6KgrWUngaY_" role="3clF47">
-        <node concept="YS8fn" id="6KgrWUngfxg" role="3cqZAp">
-          <node concept="2ShNRf" id="6KgrWUngfxh" role="YScLw">
-            <node concept="1pGfFk" id="6KgrWUngfxi" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="6KgrWUngaYA" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="6KgrWUngCMT" role="jymVt" />
-    <node concept="2tJIrI" id="6KgrWUngCUy" role="jymVt" />
-    <node concept="2tJIrI" id="6KgrWUngD2f" role="jymVt" />
-    <node concept="2tJIrI" id="6KgrWUngDa0" role="jymVt" />
+    <node concept="2tJIrI" id="4CFXng3h4nk" role="jymVt" />
     <node concept="3clFb_" id="6KgrWUngjzX" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getModels" />
@@ -1607,6 +1577,28 @@
       </node>
       <node concept="2AHcQZ" id="6KgrWUnh970" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4bHKNd_4XBh" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getDatatypes" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="4bHKNd_4XBi" role="1B3o_S" />
+      <node concept="3uibUv" id="4bHKNd_4XBj" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Iterable" resolve="Iterable" />
+        <node concept="3uibUv" id="4bHKNd_58xs" role="11_B2D">
+          <ref role="3uigEE" to="c17a:~SDataType" resolve="SDataType" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4bHKNd_4XBl" role="3clF47">
+        <node concept="YS8fn" id="4bHKNd_4XBm" role="3cqZAp">
+          <node concept="2ShNRf" id="4bHKNd_4XBn" role="YScLw">
+            <node concept="1pGfFk" id="4bHKNd_4XBo" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="6KgrWUnh971" role="jymVt">

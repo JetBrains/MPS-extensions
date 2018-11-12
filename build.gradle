@@ -39,6 +39,10 @@ if (project.hasProperty("forceCI")) {
     }
 }
 
+// comprehensible error message if not running java 8
+if(JavaVersion.current() != JavaVersion.VERSION_1_8){
+    throw new GradleException("This build script requires java " + JavaVersion.VERSION_1_8 + ", but you are currently using " + JavaVersion.current())
+}
 // Detect jdk location, required to start ant with tools.jar on classpath otherwise javac and tests will fail
 def java_home = System.properties['java.home']
 def jdk_home = java_home
@@ -63,11 +67,13 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2018.2.2'
-ext.mpsMinor = ''
+ext.mpsMajor = '2018.2'
+ext.mpsMinor = '5'
+// e.g. Beta, EAP, RC
+ext.mpsReleaseType = ''
 
-
-ext.mpsVersion =  mpsMinor.isEmpty() ?  "$mpsMajor" : "${mpsMajor}-${mpsMinor}"
+def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
+ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
 
 
 def minor = '2'

@@ -104,9 +104,6 @@
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
-      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
-        <child id="1160998896846" name="condition" index="1gVkn0" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -137,6 +134,9 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
       </concept>
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
+      <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
+        <child id="1171981057159" name="condition" index="3vwVQn" />
+      </concept>
     </language>
     <language id="2d56439e-634d-4d25-9d30-963e89ecda48" name="de.slisson.mps.tables.demolang">
       <concept id="1397920687865362527" name="de.slisson.mps.tables.demolang.structure.Requirement" flags="ng" index="2r114E">
@@ -201,7 +201,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="651tS80wVkO">
-    <property role="2XOHcw" value="${extensions.home}/code/tables" />
+    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="LiM7Y" id="651tS80wVqy">
     <property role="TrG5h" value="Statemachine_CreateTransition" />
@@ -1232,8 +1232,8 @@
           </node>
         </node>
       </node>
-      <node concept="1gVbGN" id="6_jcnh_pYXO" role="3cqZAp">
-        <node concept="2OqwBi" id="6_jcnh_pZ8_" role="1gVkn0">
+      <node concept="3vwNmj" id="6sRTg7sjJaU" role="3cqZAp">
+        <node concept="2OqwBi" id="6_jcnh_pZ8_" role="3vwVQn">
           <node concept="37vLTw" id="6_jcnh_pZ7_" role="2Oq$k0">
             <ref role="3cqZAo" node="6_jcnh_pXiC" resolve="selectedNode" />
           </node>
@@ -1497,13 +1497,13 @@
           </node>
         </node>
       </node>
-      <node concept="1gVbGN" id="6_jcnh_qwIv" role="3cqZAp">
-        <node concept="2OqwBi" id="6_jcnh_qwIw" role="1gVkn0">
-          <node concept="37vLTw" id="6_jcnh_qwIx" role="2Oq$k0">
+      <node concept="3vwNmj" id="6sRTg7sg3gv" role="3cqZAp">
+        <node concept="2OqwBi" id="6sRTg7sg3wx" role="3vwVQn">
+          <node concept="37vLTw" id="6sRTg7sg3wy" role="2Oq$k0">
             <ref role="3cqZAo" node="6_jcnh_qwIq" resolve="selectedNode" />
           </node>
-          <node concept="1mIQ4w" id="6_jcnh_qwIy" role="2OqNvi">
-            <node concept="chp4Y" id="6_jcnh_qwIz" role="cj9EA">
+          <node concept="1mIQ4w" id="6sRTg7sg3wz" role="2OqNvi">
+            <node concept="chp4Y" id="6sRTg7sg3w$" role="cj9EA">
               <ref role="cht4Q" to="nnej:1dAqnm8oBxv" resolve="Requirement" />
             </node>
           </node>
@@ -1759,8 +1759,8 @@
           </node>
         </node>
       </node>
-      <node concept="1gVbGN" id="6_jcnh_rknA" role="3cqZAp">
-        <node concept="2OqwBi" id="6_jcnh_rknB" role="1gVkn0">
+      <node concept="3vwNmj" id="6sRTg7sg4DY" role="3cqZAp">
+        <node concept="2OqwBi" id="6_jcnh_rknB" role="3vwVQn">
           <node concept="37vLTw" id="6_jcnh_rknC" role="2Oq$k0">
             <ref role="3cqZAo" node="6_jcnh_rknx" resolve="selectedNode" />
           </node>

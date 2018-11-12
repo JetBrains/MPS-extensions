@@ -76,6 +76,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -695,6 +698,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="43ViAfTrZle">
+    <property role="3GE5qa" value="lines" />
     <ref role="13h7C2" to="pvux:43ViAfTrZkr" resolve="HorizontalLineColorStyle" />
     <node concept="13i0hz" id="43ViAfTrZlh" role="13h7CS">
       <property role="2Ki8OM" value="true" />
@@ -726,6 +730,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="43ViAfTrZnl">
+    <property role="3GE5qa" value="lines" />
     <ref role="13h7C2" to="pvux:43ViAfTrZkq" resolve="HorzontalLineWidthStyle" />
     <node concept="13i0hz" id="43ViAfTrZno" role="13h7CS">
       <property role="2Ki8OM" value="true" />
@@ -847,6 +852,70 @@
     </node>
     <node concept="13hLZK" id="UMPeQjod7W" role="13h7CW">
       <node concept="3clFbS" id="UMPeQjod7X" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7d0q5VHb5TK">
+    <property role="3GE5qa" value="lines" />
+    <ref role="13h7C2" to="pvux:7d0q5VHb5Re" resolve="VerticalLineWidthStyle" />
+    <node concept="13i0hz" id="7d0q5VHb5TV" role="13h7CS">
+      <property role="2Ki8OM" value="true" />
+      <property role="TrG5h" value="getStyleAttributeDeclaration" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="2nutuZsM_FC" resolve="getStyleAttributeDeclaration" />
+      <node concept="3Tm1VV" id="7d0q5VHb5TW" role="1B3o_S" />
+      <node concept="3clFbS" id="7d0q5VHb5TX" role="3clF47">
+        <node concept="3clFbF" id="7d0q5VHb5TY" role="3cqZAp">
+          <node concept="2OqwBi" id="7d0q5VHb5TZ" role="3clFbG">
+            <node concept="2c44tf" id="7d0q5VHb5U0" role="2Oq$k0">
+              <node concept="1Z6Ecs" id="7d0q5VHb5U1" role="2c44tc">
+                <ref role="1Z6EpT" to="z0fb:7d0q5VH9Btz" resolve="_vertical-line-width" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="7d0q5VHb5U2" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpc2:5eGiGGGHIMM" resolve="attributeDeclaration" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7d0q5VHb5U3" role="3clF45">
+        <ref role="ehGHo" to="tpc2:3t4KfBEkQvF" resolve="StyleAttributeDeclaration" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="7d0q5VHb5TL" role="13h7CW">
+      <node concept="3clFbS" id="7d0q5VHb5TM" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7d0q5VHb7R6">
+    <property role="3GE5qa" value="lines" />
+    <ref role="13h7C2" to="pvux:7d0q5VHb7O_" resolve="VerticalLineColorStyle" />
+    <node concept="13i0hz" id="7d0q5VHb7Rh" role="13h7CS">
+      <property role="2Ki8OM" value="true" />
+      <property role="TrG5h" value="getStyleAttributeDeclaration" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="2nutuZsM_FC" resolve="getStyleAttributeDeclaration" />
+      <node concept="3Tm1VV" id="7d0q5VHb7Ri" role="1B3o_S" />
+      <node concept="3clFbS" id="7d0q5VHb7Rj" role="3clF47">
+        <node concept="3clFbF" id="7d0q5VHb7Rk" role="3cqZAp">
+          <node concept="2OqwBi" id="7d0q5VHb7Rl" role="3clFbG">
+            <node concept="2c44tf" id="7d0q5VHb7Rm" role="2Oq$k0">
+              <node concept="1Z6Ecs" id="7d0q5VHb7Rn" role="2c44tc">
+                <ref role="1Z6EpT" to="z0fb:7d0q5VH9BqM" resolve="_vertical-line-color" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="7d0q5VHb7Ro" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpc2:5eGiGGGHIMM" resolve="attributeDeclaration" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7d0q5VHb7Rp" role="3clF45">
+        <ref role="ehGHo" to="tpc2:3t4KfBEkQvF" resolve="StyleAttributeDeclaration" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="7d0q5VHb7R7" role="13h7CW">
+      <node concept="3clFbS" id="7d0q5VHb7R8" role="2VODD2" />
     </node>
   </node>
 </model>

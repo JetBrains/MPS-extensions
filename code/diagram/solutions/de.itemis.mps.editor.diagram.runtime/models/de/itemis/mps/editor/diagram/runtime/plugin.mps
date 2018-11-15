@@ -274,6 +274,19 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="99b0bd58-d9c1-4744-b159-3ea91da414ff" name="de.itemis.mps.nativelibs">
+      <concept id="1978400252114399609" name="de.itemis.mps.nativelibs.structure.JavaLibrary" flags="ng" index="1DG7P">
+        <property id="1978400252114406446" name="path" index="1DzMy" />
+      </concept>
+      <concept id="3127003635836719880" name="de.itemis.mps.nativelibs.structure.NativeLibrary" flags="ng" index="m0$CP">
+        <property id="3127003635836719887" name="path" index="m0$CM" />
+        <property id="3127003635836813259" name="os" index="m3irQ" />
+      </concept>
+      <concept id="3127003635836699072" name="de.itemis.mps.nativelibs.structure.NativeLibraries" flags="ng" index="m0TzX">
+        <child id="1978400252114418866" name="jars" index="1DwKY" />
+        <child id="3127003635836719881" name="libraries" index="m0$CO" />
+      </concept>
+    </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
@@ -591,6 +604,77 @@
     <node concept="tT9cl" id="6XHx0At_oNY" role="2f5YQi">
       <ref role="tU$_T" to="tprs:hyf4LYI" resolve="Tools" />
       <ref role="2f8Tey" to="tprs:hHYwqIT" resolve="customTools" />
+    </node>
+  </node>
+  <node concept="m0TzX" id="2H_mjOXqrZN">
+    <node concept="m0$CP" id="2H_mjOXqs0z" role="m0$CO">
+      <property role="m0$CM" value="lib/libavoid/linux32/adaptagrams.so" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXqsKP" role="m0$CO">
+      <property role="m3irQ" value="LINUX64" />
+      <property role="m0$CM" value="lib/libavoid/linux64/adaptagrams.so" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXqsKS" role="m0$CO">
+      <property role="m3irQ" value="OSX32" />
+      <property role="m0$CM" value="lib/libavoid/osx32/adaptagrams.dylib" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXqsKW" role="m0$CO">
+      <property role="m3irQ" value="OSX64" />
+      <property role="m0$CM" value="lib/libavoid/osx64/adaptagrams.dylib" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXquP4" role="m0$CO">
+      <property role="m0$CM" value="lib/libavoid/linux32/libavoid.so" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXquP5" role="m0$CO">
+      <property role="m3irQ" value="LINUX64" />
+      <property role="m0$CM" value="lib/libavoid/linux64/libavoid.so" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXquP6" role="m0$CO">
+      <property role="m3irQ" value="OSX32" />
+      <property role="m0$CM" value="lib/libavoid/osx32/libavoid.dylib" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXquP7" role="m0$CO">
+      <property role="m3irQ" value="OSX64" />
+      <property role="m0$CM" value="lib/libavoid/osx64/libavoid.dylib" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXqsL1" role="m0$CO">
+      <property role="m3irQ" value="WIN32" />
+      <property role="m0$CM" value="lib/libavoid/win32/libgcc_s_dw2-1.dll" />
+    </node>
+    <node concept="m0$CP" id="4qS97dKF6lz" role="m0$CO">
+      <property role="m3irQ" value="WIN32" />
+      <property role="m0$CM" value="lib/libavoid/win32/libstdc++-6.dll" />
+    </node>
+    <node concept="m0$CP" id="4qS97dKF6li" role="m0$CO">
+      <property role="m3irQ" value="WIN32" />
+      <property role="m0$CM" value="lib/libavoid/win32/adaptagrams.dll" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXquP8" role="m0$CO">
+      <property role="m3irQ" value="WIN32" />
+      <property role="m0$CM" value="lib/libavoid/win32/libavoid.dll" />
+    </node>
+    <node concept="m0$CP" id="3Smx8WEpoNL" role="m0$CO">
+      <property role="m3irQ" value="WIN64" />
+      <property role="m0$CM" value="lib/libavoid/win64/libwinpthread-1.dll" />
+    </node>
+    <node concept="m0$CP" id="3Smx8WEpoRY" role="m0$CO">
+      <property role="m3irQ" value="WIN64" />
+      <property role="m0$CM" value="lib/libavoid/win64/libgcc_s_seh-1.dll" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXqsL7" role="m0$CO">
+      <property role="m3irQ" value="WIN64" />
+      <property role="m0$CM" value="lib/libavoid/win64/libstdc++-6.dll" />
+    </node>
+    <node concept="m0$CP" id="3Smx8WEpk5S" role="m0$CO">
+      <property role="m3irQ" value="WIN64" />
+      <property role="m0$CM" value="lib/libavoid/win64/adaptagrams.dll" />
+    </node>
+    <node concept="m0$CP" id="2H_mjOXquP9" role="m0$CO">
+      <property role="m3irQ" value="WIN64" />
+      <property role="m0$CM" value="lib/libavoid/win64/libavoid.dll" />
+    </node>
+    <node concept="1DG7P" id="1HOG8KqORik" role="1DwKY">
+      <property role="1DzMy" value="lib/libavoid/adaptagrams.jar" />
     </node>
   </node>
   <node concept="Zd50a" id="5K7KC_qu7y_">

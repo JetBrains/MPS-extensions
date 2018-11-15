@@ -6,18 +6,46 @@
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/jgraphx.jar" />
-      <sourceRoot location="lib/klay-emf_2014-05.jar" />
-      <sourceRoot location="lib/KIELER/org.adaptagrams-0.1.0-SNAPSHOT.jar" />
-      <sourceRoot location="lib/KIELER/de.cau.cs.kieler.kiml.libavoid-0.1.0-SNAPSHOT.jar" />
-      <sourceRoot location="lib/libavoid/adaptagrams.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.common-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.disco-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.force-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.graphviz.dot-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.graphviz.layouter-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.layered-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.mrtree-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.radial-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.spore-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.core-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.core.meta-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.graph-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.graph.json-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.graph.text-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.graph.text.ide-0.4.0.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.common.compaction-0.3.0.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.ecore-2.15.0.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.common-2.15.0.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/jgraphx.jar" />
-    <stubModelEntry path="${module}/lib/klay-emf_2014-05.jar" />
-    <stubModelEntry path="${module}/lib/KIELER/org.adaptagrams-0.1.0-SNAPSHOT.jar" />
-    <stubModelEntry path="${module}/lib/KIELER/de.cau.cs.kieler.kiml.libavoid-0.1.0-SNAPSHOT.jar" />
-    <stubModelEntry path="${module}/lib/libavoid/adaptagrams.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.common-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.disco-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.force-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.graphviz.dot-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.graphviz.layouter-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.layered-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.mrtree-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.radial-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.spore-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.core-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.core.meta-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.graph-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.graph.json-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.graph.text-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.graph.text.ide-0.4.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.common.compaction-0.3.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore-2.15.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.common-2.15.0.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

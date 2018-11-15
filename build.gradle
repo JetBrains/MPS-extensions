@@ -70,7 +70,7 @@ ext.dependencyRepositories = [
 ext.mpsMajor = '2018.3'
 ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
-ext.mpsReleaseType = 'EAP8'
+ext.mpsReleaseType = 'RC1'
 
 def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')

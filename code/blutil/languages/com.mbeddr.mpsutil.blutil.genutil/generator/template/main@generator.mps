@@ -231,6 +231,40 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="3HJIVevQfMu" role="3acgRq">
+      <ref role="30HIoZ" to="uvrt:3HJIVevQeZT" resolve="IsInTestsExpression" />
+      <node concept="1Koe21" id="3HJIVevQfNA" role="1lVwrX">
+        <node concept="2YIFZL" id="3HJIVevQfNG" role="1Koe22">
+          <property role="TrG5h" value="baseMappingRuleCondition" />
+          <node concept="3Tm1VV" id="3HJIVevQfNH" role="1B3o_S" />
+          <node concept="10P_77" id="3HJIVevQfNI" role="3clF45" />
+          <node concept="37vLTG" id="3HJIVevQfNJ" role="3clF46">
+            <property role="TrG5h" value="_context" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="3HJIVevQfNK" role="1tU5fm">
+              <ref role="3uigEE" to="q1l7:~BaseMappingRuleContext" resolve="BaseMappingRuleContext" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="3HJIVevQfNL" role="3clF47">
+            <node concept="3clFbF" id="3HJIVevQfNM" role="3cqZAp">
+              <node concept="2YIFZM" id="3HJIVevQfVW" role="3clFbG">
+                <ref role="37wK5l" to="wrkm:3HJIVevQ4eA" resolve="isInTest" />
+                <ref role="1Pybhc" to="wrkm:3DSLkDUw7Gx" resolve="GeneratorUtil" />
+                <node concept="2OqwBi" id="3HJIVevQfVX" role="37wK5m">
+                  <node concept="37vLTw" id="3HJIVevQfVY" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3HJIVevQfNJ" resolve="_context" />
+                  </node>
+                  <node concept="liA8E" id="3HJIVevQgg2" role="2OqNvi">
+                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getOutputModel():org.jetbrains.mps.openapi.model.SModel" resolve="getOutputModel" />
+                  </node>
+                </node>
+                <node concept="raruj" id="3HJIVevQfW6" role="lGtFl" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -7071,7 +7071,7 @@
         <property role="TrG5h" value="test.com.mbeddr.mpsutil.blutil.genutil" />
         <property role="3LESm3" value="990da2f9-03a7-461e-90ee-1e2c77962d6b" />
         <property role="2GAjPV" value="false" />
-        <property role="aoJFB" value="sources" />
+        <property role="aoJFB" value="sources and tests" />
         <node concept="3rtmxn" id="1bWvPKNGzGN" role="3bR31x">
           <node concept="3LXTmp" id="1bWvPKNGzGO" role="3rtmxm">
             <node concept="3qWCbU" id="1bWvPKNGzGP" role="3LXTna">
@@ -7636,6 +7636,9 @@
       </node>
       <node concept="22LTRM" id="GuygFg7CGG" role="22LTRK">
         <ref role="22LTRN" node="GuygFg7$fI" resolve="tests.de.itemis.mps.modelmerger" />
+      </node>
+      <node concept="22LTRM" id="1VujIMZIYK" role="22LTRK">
+        <ref role="22LTRN" node="2NyZxKpX7We" resolve="test.com.mbeddr.mpsutil.blutil.genutil" />
       </node>
     </node>
   </node>

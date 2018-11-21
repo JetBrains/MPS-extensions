@@ -169,8 +169,8 @@
       </node>
       <node concept="37vLTG" id="3DSLkDUwhxX" role="3clF46">
         <property role="TrG5h" value="temlateID" />
-        <node concept="3uibUv" id="3DSLkDUwhyn" role="1tU5fm">
-          <ref role="3uigEE" to="mhbf:~SNodeId" resolve="SNodeId" />
+        <node concept="3uibUv" id="1VujIMZmjR" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
         </node>
       </node>
     </node>
@@ -230,8 +230,8 @@
       </node>
       <node concept="37vLTG" id="3DSLkDUwhCM" role="3clF46">
         <property role="TrG5h" value="temlateID" />
-        <node concept="3uibUv" id="3DSLkDUwhCN" role="1tU5fm">
-          <ref role="3uigEE" to="mhbf:~SNodeId" resolve="SNodeId" />
+        <node concept="3uibUv" id="1VujIMZmYx" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
         </node>
       </node>
     </node>
@@ -303,8 +303,8 @@
       </node>
       <node concept="37vLTG" id="3DSLkDUwhE9" role="3clF46">
         <property role="TrG5h" value="temlateID" />
-        <node concept="3uibUv" id="3DSLkDUwhEa" role="1tU5fm">
-          <ref role="3uigEE" to="mhbf:~SNodeId" resolve="SNodeId" />
+        <node concept="3uibUv" id="1VujIMZmX1" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
         </node>
       </node>
     </node>

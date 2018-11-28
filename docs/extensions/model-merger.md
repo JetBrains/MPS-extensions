@@ -24,7 +24,7 @@ Spec
 
 ### Partial and Complete Specifications 
 
-In many cases we want to reuse merge specifications for instance in case a concept B extends concept A we don’t want to be able to reuse the specification for A and only specify the additional aspect of the merge of B. But it should also be possible to override the behavior of the merge specification of A in B when required without respecifying the complete merge specification for A. The same applies for interface and their implementing concepts. Hence it should be possible to define a merge specification for a interface.
+In many cases we want to reuse merge specifications, for instance, in case a concept B extends concept A we want to be able to reuse the specification for A and only specify the additional aspect of the merge of B. But it should also be possible to override the behavior of the merge specification of A in B when required, without respecifying the complete merge specification for A. The same applies for interfaces and their implementing concepts. Hence it should be possible to define a merge specification for an interface.
 
 #### Complete Specification 
 

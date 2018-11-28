@@ -49,7 +49,7 @@
       <property role="IQ2ns" value="5932312848598539785" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="subComponents" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="2gRlde2N6ff" resolve="tSubComponent" />
     </node>
     <node concept="1TJgyi" id="59jNLF_cTS7" role="1TKVEl">

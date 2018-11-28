@@ -216,11 +216,11 @@
       </node>
     </node>
     <node concept="3lhOvk" id="3Kv0fmhJcwb" role="3lj3bC">
-      <ref role="30HIoZ" to="hcn:7jEe20Bug9K" resolve="IdentityCalculatorRegistry" />
+      <ref role="30HIoZ" to="hcn:7jEe20Bug9K" resolve="ModelMergerSpecification" />
       <ref role="3lhOvi" node="2VC4eVXUJvI" resolve="conceptIDMap_extension" />
     </node>
     <node concept="3lhOvk" id="3Kv0fmhJFsy" role="3lj3bC">
-      <ref role="30HIoZ" to="hcn:7jEe20Bug9K" resolve="IdentityCalculatorRegistry" />
+      <ref role="30HIoZ" to="hcn:7jEe20Bug9K" resolve="ModelMergerSpecification" />
       <ref role="3lhOvi" node="7rr3ESJDea0" resolve="map_conceptIdKeyValPair" />
     </node>
   </node>
@@ -290,7 +290,7 @@
       </node>
     </node>
     <node concept="n94m4" id="4JqtTEfdz7R" role="lGtFl">
-      <ref role="n9lRv" to="hcn:7jEe20Bug9K" resolve="IdentityCalculatorRegistry" />
+      <ref role="n9lRv" to="hcn:7jEe20Bug9K" resolve="ModelMergerSpecification" />
     </node>
     <node concept="17Uvod" id="4JqtTEfdzq8" role="lGtFl">
       <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -329,7 +329,7 @@
     <property role="TrG5h" value="map_conceptIdKeyValPair" />
     <node concept="3Tm1VV" id="7rr3ESJDea1" role="1B3o_S" />
     <node concept="n94m4" id="7rr3ESJDea2" role="lGtFl">
-      <ref role="n9lRv" to="hcn:7jEe20Bug9K" resolve="IdentityCalculatorRegistry" />
+      <ref role="n9lRv" to="hcn:7jEe20Bug9K" resolve="ModelMergerSpecification" />
     </node>
     <node concept="17Uvod" id="7rr3ESJDea8" role="lGtFl">
       <property role="2qtEX9" value="name" />

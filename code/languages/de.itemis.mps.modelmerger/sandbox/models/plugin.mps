@@ -31,15 +31,36 @@
       </concept>
     </language>
     <language id="cdaf53d5-8786-43a0-bdba-ae0da5acb9e8" name="de.itemis.mps.modelmerger">
+      <concept id="7321859546678642434" name="de.itemis.mps.modelmerger.structure.DirManual" flags="ng" index="2qyjXO" />
+      <concept id="7321859546678642435" name="de.itemis.mps.modelmerger.structure.DirDrop" flags="ng" index="2qyjXP" />
+      <concept id="7321859546678716578" name="de.itemis.mps.modelmerger.structure.DirPropManual" flags="ng" index="2qyx3k" />
       <concept id="8424607763702362607" name="de.itemis.mps.modelmerger.structure.InputNode" flags="ng" index="1j$0Bf" />
-      <concept id="8424607763702354521" name="de.itemis.mps.modelmerger.structure.ConceptIdentityMap" flags="ng" index="1j$2DT">
+      <concept id="8424607763702354521" name="de.itemis.mps.modelmerger.structure.ConceptSpecificationMap" flags="ng" index="1j$2DT">
+        <child id="4503896291217620330" name="childMerger" index="1hIb2U" />
         <child id="8424607763702354522" name="conceptRef" index="1j$2DU" />
         <child id="8424607763702354524" name="identityCalculator" index="1j$2DW" />
+        <child id="4344613861720440448" name="propertyMerger" index="3AnDn9" />
       </concept>
-      <concept id="8424607763702284912" name="de.itemis.mps.modelmerger.structure.IdentityCalculatorRegistry" flags="ng" index="1j$NDg">
+      <concept id="8424607763702284912" name="de.itemis.mps.modelmerger.structure.ModelMergerSpecification" flags="ng" index="1j$NDg">
         <child id="8424607763702354527" name="conceptIdMap" index="1j$2DZ" />
       </concept>
       <concept id="394966128313977116" name="de.itemis.mps.modelmerger.structure.IdentityCalculatorLogic" flags="ig" index="3_37E5" />
+      <concept id="4344613861721074643" name="de.itemis.mps.modelmerger.structure.ChildRefExpression" flags="ng" index="3Al42q">
+        <reference id="4344613861721074646" name="linkDeclaration" index="3Al42v" />
+      </concept>
+      <concept id="4344613861721072849" name="de.itemis.mps.modelmerger.structure.ChildStrategy" flags="ng" index="3Al4Yo">
+        <child id="7321859546678642444" name="direction" index="2qyjXU" />
+        <child id="4503896291217426888" name="child" index="1hHWgo" />
+      </concept>
+      <concept id="4344613861720417882" name="de.itemis.mps.modelmerger.structure.PropertyMergeFunction" flags="ig" index="3An$Oj" />
+      <concept id="4344613861720417874" name="de.itemis.mps.modelmerger.structure.PropertyStrategy" flags="ng" index="3An$Or">
+        <child id="7321859546678716616" name="direction" index="2qyx2Y" />
+        <child id="4344613861720440452" name="mergeFunction" index="3AnDnd" />
+        <child id="4344613861720429926" name="property" index="3AnFSJ" />
+      </concept>
+      <concept id="4344613861720440455" name="de.itemis.mps.modelmerger.structure.PropertyRefExpr" flags="ng" index="3AnDne">
+        <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">
@@ -59,6 +80,15 @@
   <node concept="1j$NDg" id="lVcTBwuak$">
     <property role="TrG5h" value="TestIdentityCalculator" />
     <node concept="1j$2DT" id="lVcTBwuak_" role="1j$2DZ">
+      <node concept="3An$Or" id="6msu7rZ5CDY" role="3AnDn9">
+        <node concept="3AnDne" id="6msu7rZ5COt" role="3AnFSJ">
+          <ref role="355D3u" to="k6li:59jNLF_cTS7" resolve="name" />
+        </node>
+        <node concept="2qyx3k" id="6msu7rZ5LdR" role="2qyx2Y" />
+        <node concept="3An$Oj" id="6msu7rZ5LdU" role="3AnDnd">
+          <node concept="3clFbS" id="6msu7rZ5LdV" role="2VODD2" />
+        </node>
+      </node>
       <node concept="3gn64h" id="lVcTBwuata" role="1j$2DU">
         <ref role="3gnhBz" to="k6li:59jNLF_cTS6" resolve="tComponent" />
       </node>
@@ -73,6 +103,12 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3Al4Yo" id="6msu7rZ5AnO" role="1hIb2U">
+        <node concept="3Al42q" id="6msu7rZ5Ayo" role="1hHWgo">
+          <ref role="3Al42v" to="k6li:59jNLF_cTS9" resolve="subComponents" />
+        </node>
+        <node concept="2qyjXP" id="6msu7rZ5Cv2" role="2qyjXU" />
       </node>
     </node>
     <node concept="1j$2DT" id="lVcTBwubus" role="1j$2DZ">
@@ -90,6 +126,12 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3Al4Yo" id="6msu7rZ5LoO" role="1hIb2U">
+        <node concept="3Al42q" id="6msu7rZ5Lzx" role="1hHWgo">
+          <ref role="3Al42v" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
+        </node>
+        <node concept="2qyjXO" id="6msu7rZ5LzH" role="2qyjXU" />
       </node>
     </node>
     <node concept="1j$2DT" id="lVcTBwucCQ" role="1j$2DZ">

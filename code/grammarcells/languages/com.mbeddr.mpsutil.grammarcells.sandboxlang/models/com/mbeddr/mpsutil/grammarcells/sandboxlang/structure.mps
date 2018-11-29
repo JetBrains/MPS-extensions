@@ -80,9 +80,6 @@
     <node concept="PrWs8" id="1x69AmkdZSL" role="PzmwI">
       <ref role="PrY4T" node="1x69AmkdYA2" resolve="IStatement" />
     </node>
-    <node concept="PrWs8" id="1x69Amke3UH" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1x69AmkdY_S">
     <property role="TrG5h" value="Function" />

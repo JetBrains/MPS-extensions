@@ -42,9 +42,6 @@
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -270,7 +267,6 @@
   <node concept="3HP615" id="630t2b86jvo">
     <property role="TrG5h" value="ISelectionIntentionsDescriptor" />
     <node concept="3clFb_" id="630t2b86pd9" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getFactories" />
       <node concept="_YKpA" id="630t2b86pdx" role="3clF45">
         <node concept="3uibUv" id="630t2b86pdG" role="_ZDj9">
@@ -285,7 +281,6 @@
   <node concept="312cEu" id="630t2b86nFa">
     <property role="TrG5h" value="SelectionIntentionsManager" />
     <node concept="Wx3nA" id="630t2b8buoa" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="LOG" />
       <property role="3TUv4t" value="true" />
       <node concept="3uibUv" id="630t2b8bu5_" role="1tU5fm">
@@ -302,7 +297,6 @@
     </node>
     <node concept="2tJIrI" id="630t2b8bu7N" role="jymVt" />
     <node concept="Wx3nA" id="630t2b86nI_" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="DESCRIPTOR_CLASS_NAME" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="630t2b86nFK" role="1tU5fm" />
@@ -313,7 +307,6 @@
     </node>
     <node concept="2tJIrI" id="630t2b8aWeM" role="jymVt" />
     <node concept="Wx3nA" id="630t2b8aWgj" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="INSTANCE" />
       <property role="3TUv4t" value="false" />
       <node concept="3uibUv" id="630t2b8aWg0" role="1tU5fm">
@@ -329,7 +322,6 @@
     <node concept="2tJIrI" id="630t2b8aWgC" role="jymVt" />
     <node concept="2YIFZL" id="630t2b8aWrV" role="jymVt">
       <property role="TrG5h" value="getInstance" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="630t2b8aWp$" role="3clF47">
@@ -389,7 +381,6 @@
               <property role="1EzhhJ" value="false" />
               <property role="TrG5h" value="beforeClassesUnloaded" />
               <property role="DiZV1" value="false" />
-              <property role="IEkAT" value="false" />
               <node concept="3Tm1VV" id="630t2b8boeM" role="1B3o_S" />
               <node concept="3cqZAl" id="630t2b8boeN" role="3clF45" />
               <node concept="37vLTG" id="630t2b8boeO" role="3clF46">
@@ -484,7 +475,6 @@
               <property role="1EzhhJ" value="false" />
               <property role="TrG5h" value="afterClassesLoaded" />
               <property role="DiZV1" value="false" />
-              <property role="IEkAT" value="false" />
               <node concept="3Tm1VV" id="630t2b8boeU" role="1B3o_S" />
               <node concept="3cqZAl" id="630t2b8boeV" role="3clF45" />
               <node concept="37vLTG" id="630t2b8boeW" role="3clF46">
@@ -1008,7 +998,6 @@
   <node concept="3HP615" id="630t2b86oF$">
     <property role="TrG5h" value="ISelectionIntentionExecutable" />
     <node concept="3clFb_" id="630t2b86oHh" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getDescription" />
       <node concept="37vLTG" id="630t2b86oIm" role="3clF46">
         <property role="TrG5h" value="selection" />
@@ -1021,7 +1010,6 @@
       <node concept="3clFbS" id="630t2b86oHl" role="3clF47" />
     </node>
     <node concept="3clFb_" id="630t2b86oFP" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="execute" />
       <node concept="37vLTG" id="630t2b86oG9" role="3clF46">
         <property role="TrG5h" value="selection" />
@@ -1034,7 +1022,6 @@
       <node concept="3clFbS" id="630t2b86oFT" role="3clF47" />
     </node>
     <node concept="3clFb_" id="630t2b87vP3" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isApplicable" />
       <node concept="10P_77" id="630t2b87vTz" role="3clF45" />
       <node concept="3Tm1VV" id="630t2b87vP6" role="1B3o_S" />
@@ -1058,7 +1045,6 @@
   <node concept="3HP615" id="630t2b86oTu">
     <property role="TrG5h" value="ISelectionIntentionFactory" />
     <node concept="3clFb_" id="630t2b86oUc" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getInstances" />
       <node concept="_YKpA" id="630t2b86oU$" role="3clF45">
         <node concept="3uibUv" id="630t2b86oUJ" role="_ZDj9">
@@ -1122,7 +1108,6 @@
     <property role="TrG5h" value="SelectionIntentionPopupStep" />
     <node concept="2tJIrI" id="630t2b8dcP$" role="jymVt" />
     <node concept="2YIFZL" id="630t2b8ddUU" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="showPopup" />
@@ -1154,7 +1139,6 @@
                         <property role="1EzhhJ" value="false" />
                         <property role="TrG5h" value="onChosen" />
                         <property role="DiZV1" value="false" />
-                        <property role="IEkAT" value="false" />
                         <node concept="3Tm1VV" id="630t2b8dgjK" role="1B3o_S" />
                         <node concept="3uibUv" id="630t2b8dgjM" role="3clF45">
                           <ref role="3uigEE" to="gspm:~PopupStep" resolve="PopupStep" />
@@ -1376,7 +1360,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getTextFor" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="630t2b8dcPY" role="1B3o_S" />
       <node concept="17QB3L" id="630t2b8dcPZ" role="3clF45" />
       <node concept="37vLTG" id="630t2b8dcQ0" role="3clF46">

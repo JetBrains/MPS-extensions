@@ -41,9 +41,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -206,7 +203,6 @@
     <property role="TrG5h" value="TableRangeSelection" />
     <node concept="2tJIrI" id="6Y0V2RJgRhS" role="jymVt" />
     <node concept="Wx3nA" id="6Y0V2RJhuee" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="PROPERTY_START_COLUMN" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="6Y0V2RJhuef" role="1tU5fm" />
@@ -216,7 +212,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="6Y0V2RJht08" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="PROPERTY_START_ROW" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="6Y0V2RJhsN3" role="1tU5fm" />
@@ -226,7 +221,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="6Y0V2RJhuB6" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="PROPERTY_END_COLUMN" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="6Y0V2RJhuB7" role="1tU5fm" />
@@ -236,7 +230,6 @@
       </node>
     </node>
     <node concept="Wx3nA" id="6Y0V2RJhuqS" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="PROPERTY_END_ROW" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="6Y0V2RJhuqT" role="1tU5fm" />
@@ -769,7 +762,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getSelectionInfo" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="2_D0AvWRqES" role="1B3o_S" />
       <node concept="3uibUv" id="2_D0AvWRqET" role="3clF45">
         <ref role="3uigEE" to="lwvz:~SelectionInfo" resolve="SelectionInfo" />
@@ -941,7 +933,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isSame" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="6Y0V2RJgQdx" role="1B3o_S" />
       <node concept="10P_77" id="6Y0V2RJgQdz" role="3clF45" />
       <node concept="37vLTG" id="6Y0V2RJgQd$" role="3clF46">

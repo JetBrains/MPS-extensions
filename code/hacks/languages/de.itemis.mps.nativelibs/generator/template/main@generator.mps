@@ -2,7 +2,7 @@
 <model ref="r:784e4ba6-313e-4061-a788-9c70080a486e(de.itemis.mps.nativelibs.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,9 +14,6 @@
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -130,7 +127,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -145,7 +142,6 @@
       <node concept="1Koe21" id="2H_mjOXu1DJ" role="1lVwrX">
         <node concept="2YIFZL" id="2H_mjOXu7ea" role="1Koe22">
           <property role="TrG5h" value="getLibraryPaths" />
-          <property role="IEkAT" value="false" />
           <property role="DiZV1" value="false" />
           <property role="od$2w" value="false" />
           <node concept="3clFbS" id="2H_mjOXu7eb" role="3clF47">
@@ -247,7 +243,6 @@
       <ref role="30HIoZ" to="9lvj:1HOG8KqOB5T" resolve="JavaLibrary" />
       <node concept="1Koe21" id="1HOG8KqQ3F4" role="1lVwrX">
         <node concept="2YIFZL" id="1HOG8KqQ3Gu" role="1Koe22">
-          <property role="IEkAT" value="false" />
           <property role="DiZV1" value="false" />
           <property role="od$2w" value="false" />
           <property role="TrG5h" value="getJarPaths" />
@@ -320,7 +315,6 @@
     <property role="TrG5h" value="NativeLibraries" />
     <node concept="2YIFZL" id="2H_mjOXs2d4" role="jymVt">
       <property role="TrG5h" value="getLibraryPaths" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="2H_mjOXs0Sm" role="3clF47">
@@ -399,7 +393,6 @@
     </node>
     <node concept="2tJIrI" id="1HOG8KqPTm0" role="jymVt" />
     <node concept="2YIFZL" id="1HOG8KqPTSU" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="getJarPaths" />

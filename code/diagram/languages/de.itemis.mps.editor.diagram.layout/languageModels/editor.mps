@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="b8bb702e-43ed-4090-a902-d180d3e5f292" name="de.slisson.mps.conditionalEditor" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -86,9 +86,6 @@
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -337,7 +334,6 @@
                       <property role="1EzhhJ" value="false" />
                       <property role="TrG5h" value="createEditorCell" />
                       <property role="DiZV1" value="false" />
-                      <property role="IEkAT" value="false" />
                       <node concept="3Tm1VV" id="5mBxd1SNq3G" role="1B3o_S" />
                       <node concept="3uibUv" id="5mBxd1SNq3I" role="3clF45">
                         <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
@@ -543,7 +539,6 @@
                       <property role="1EzhhJ" value="false" />
                       <property role="TrG5h" value="createEditorCell" />
                       <property role="DiZV1" value="false" />
-                      <property role="IEkAT" value="false" />
                       <node concept="3Tm1VV" id="5mBxd1SPr_v" role="1B3o_S" />
                       <node concept="3uibUv" id="5mBxd1SPr_w" role="3clF45">
                         <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />

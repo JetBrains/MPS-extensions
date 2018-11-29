@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -480,7 +480,6 @@
   <node concept="3HP615" id="3O7ZvCZIP4b">
     <property role="TrG5h" value="IArbitraryTextDeleteHandler" />
     <node concept="3clFb_" id="3O7ZvCZIP4x" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="delete" />
       <node concept="37vLTG" id="3O7ZvCZIP4X" role="3clF46">
         <property role="TrG5h" value="arbitraryTextAnnotation" />

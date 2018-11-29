@@ -2,7 +2,7 @@
 <model ref="r:5e1b2772-0e17-4c61-b473-cf6545b11d62(de.itemis.mps.modelmerger.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -20,7 +20,6 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
-        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -110,7 +109,6 @@
     <ref role="13h7C2" to="hcn:lVcTBwtO$s" resolve="IdentityCalculatorLogic" />
     <node concept="13i0hz" id="1653mnvAOGE" role="13h7CS">
       <property role="2Ki8OM" value="true" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="showName" />
       <property role="13i0it" value="false" />
       <ref role="13i0hy" to="tpek:1653mnvAgry" resolve="showName" />
@@ -126,7 +124,6 @@
     </node>
     <node concept="13i0hz" id="2D1PBM_bzuD" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
@@ -175,7 +172,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="$yZ68hBikh" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />

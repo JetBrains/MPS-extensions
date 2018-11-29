@@ -3,8 +3,8 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -42,9 +42,6 @@
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -251,7 +248,6 @@
   <node concept="312cEu" id="7C0FR5ALaCi">
     <property role="TrG5h" value="SimpleGrid" />
     <node concept="Wx3nA" id="5IlBEHnCEAC" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="NULL_ELEMENT_FACTORY" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="5IlBEHnCwle" role="1B3o_S" />
@@ -620,7 +616,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="clone" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="7C0FR5ANIlM" role="1B3o_S" />
       <node concept="3uibUv" id="7C0FR5AOIyN" role="3clF45">
         <ref role="3uigEE" node="7C0FR5ALaCi" resolve="SimpleGrid" />
@@ -3760,7 +3755,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="iterator" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="7C0FR5ANIBB" role="1B3o_S" />
       <node concept="3uibUv" id="7C0FR5ANIBC" role="3clF45">
         <ref role="3uigEE" to="33ny:~Iterator" resolve="Iterator" />
@@ -5203,7 +5197,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="hasNext" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="7C0FR5ADSue" role="1B3o_S" />
       <node concept="10P_77" id="7C0FR5ADSuf" role="3clF45" />
       <node concept="3clFbS" id="7C0FR5ADSug" role="3clF47">
@@ -5221,7 +5214,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="next" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="7C0FR5ADSul" role="1B3o_S" />
       <node concept="16syzq" id="7C0FR5AR71T" role="3clF45">
         <ref role="16sUi3" node="7C0FR5AR3kG" resolve="E" />
@@ -5399,7 +5391,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="remove" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="7C0FR5ADSvy" role="1B3o_S" />
       <node concept="3cqZAl" id="7C0FR5ADSvz" role="3clF45" />
       <node concept="3clFbS" id="7C0FR5ADSv$" role="3clF47" />
@@ -5825,7 +5816,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="equals" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="5t6rCduIfsx" role="1B3o_S" />
       <node concept="10P_77" id="5t6rCduIfsz" role="3clF45" />
       <node concept="37vLTG" id="5t6rCduIfs$" role="3clF46">
@@ -5912,7 +5902,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="hashCode" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="5t6rCduIAnK" role="1B3o_S" />
       <node concept="10Oyi0" id="5t6rCduIAnM" role="3clF45" />
       <node concept="3clFbS" id="5t6rCduIAnN" role="3clF47">
@@ -5941,7 +5930,6 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="toString" />
       <property role="DiZV1" value="false" />
-      <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="4381QB09Hr5" role="1B3o_S" />
       <node concept="17QB3L" id="4381QB0yYZ6" role="3clF45" />
       <node concept="3clFbS" id="4381QB09Hr8" role="3clF47">
@@ -6066,21 +6054,18 @@
   <node concept="3HP615" id="7C0FR5B8$cJ">
     <property role="TrG5h" value="IGridLike" />
     <node concept="3clFb_" id="7C0FR5B8$cR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getSizeX" />
       <node concept="10Oyi0" id="7C0FR5B8$da" role="3clF45" />
       <node concept="3Tm1VV" id="7C0FR5B8$cU" role="1B3o_S" />
       <node concept="3clFbS" id="7C0FR5B8$cV" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7C0FR5B8$dO" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getSizeY" />
       <node concept="10Oyi0" id="7C0FR5B8$ez" role="3clF45" />
       <node concept="3Tm1VV" id="7C0FR5B8$dR" role="1B3o_S" />
       <node concept="3clFbS" id="7C0FR5B8$dS" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7C0FR5B8R_6" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getElement" />
       <node concept="37vLTG" id="7C0FR5B8RBk" role="3clF46">
         <property role="TrG5h" value="x" />
@@ -6097,7 +6082,6 @@
       <node concept="3clFbS" id="7C0FR5B8R_a" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7C0FR5B8RQ2" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setElement" />
       <node concept="37vLTG" id="7C0FR5B8RSP" role="3clF46">
         <property role="TrG5h" value="x" />
@@ -6125,7 +6109,6 @@
   <node concept="3HP615" id="5IlBEHnC4tf">
     <property role="TrG5h" value="ElementFactory" />
     <node concept="3clFb_" id="5IlBEHnC4SX" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createNewElement" />
       <node concept="16syzq" id="5IlBEHnC4TC" role="3clF45">
         <ref role="16sUi3" node="5IlBEHnC4Ts" resolve="E" />

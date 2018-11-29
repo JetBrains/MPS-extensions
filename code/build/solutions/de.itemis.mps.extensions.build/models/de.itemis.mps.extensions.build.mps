@@ -4,8 +4,8 @@
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
-    <use id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests" version="0" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
+    <use id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests" version="1" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -26,10 +26,12 @@
       </concept>
       <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules" flags="nn" index="22LTRH">
         <child id="4560297596904469360" name="modules" index="22LTRK" />
+        <child id="6593674873639474544" name="options" index="24cAkG" />
       </concept>
       <concept id="4560297596904469362" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModule" flags="nn" index="22LTRM">
         <reference id="4560297596904469363" name="module" index="22LTRN" />
       </concept>
+      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules_Options" flags="ng" index="24cAiW" />
       <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
     </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -143,6 +145,7 @@
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
+        <child id="3570488090019868128" name="packagingType" index="pUk7w" />
       </concept>
       <concept id="6592112598314499036" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginModule" flags="ng" index="m$_yB">
         <reference id="6592112598314499037" name="target" index="m$_yA" />
@@ -150,6 +153,7 @@
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
+      <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
@@ -6074,6 +6078,7 @@
     <node concept="1l3spV" id="2Xjt3l56m3c" role="1l3spN">
       <node concept="m$_wl" id="F1NWDqrBeT" role="39821P">
         <ref role="m_rDy" node="F1NWDqr5lJ" resolve="de.itemis.mps.grammarcells" />
+        <node concept="pUk6x" id="6hpM9fmFEc_" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="6860Y5A0_cI" role="39821P">
         <ref role="m_rDy" node="6860Y5_ZW8e" resolve="de.itemis.mps.utils" />
@@ -6101,12 +6106,15 @@
             </node>
           </node>
         </node>
+        <node concept="pUk6x" id="6hpM9fmFEc$" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="4hvHh3QWqH0" role="39821P">
         <ref role="m_rDy" node="4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
+        <node concept="pUk6x" id="6hpM9fmFEcl" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="2H_mjOXw4dd" role="39821P">
         <ref role="m_rDy" node="2H_mjOXw1Ef" resolve="de.itemis.mps.nativelibs" />
+        <node concept="pUk6x" id="6hpM9fmFEcm" role="pUk7w" />
       </node>
       <node concept="398223" id="6aQMI6nGnZ6" role="39821P">
         <node concept="398223" id="6aQMI6nGrWv" role="39821P">
@@ -6205,6 +6213,7 @@
             </node>
           </node>
         </node>
+        <node concept="pUk6x" id="6hpM9fmFEcn" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="4be$WTb1O3_" role="39821P">
         <ref role="m_rDy" node="4be$WTb1MZD" resolve="de.itemis.mps.editor.diagram" />
@@ -6232,6 +6241,7 @@
             </node>
           </node>
         </node>
+        <node concept="pUk6x" id="6hpM9fmFEcw" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="4p3FRivDLPx" role="39821P">
         <ref role="m_rDy" node="31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
@@ -6259,36 +6269,47 @@
             </node>
           </node>
         </node>
+        <node concept="pUk6x" id="6hpM9fmFEco" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="1sO539bGQvs" role="39821P">
         <ref role="m_rDy" node="1sO539bGQvt" resolve="de.slisson.mps.richtext" />
+        <node concept="pUk6x" id="6hpM9fmFEcp" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="7szUFELHiFQ" role="39821P">
         <ref role="m_rDy" node="7szUFELHeHf" resolve="de.itemis.mps.editor.widgets" />
+        <node concept="pUk6x" id="6hpM9fmFEcq" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="2Xjt3l57cXL" role="39821P">
         <ref role="m_rDy" node="2Xjt3l57cLw" resolve="de.itemis.mps.editor.math" />
+        <node concept="pUk6x" id="6hpM9fmFEcr" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="29so9Vb$6Tw" role="39821P">
         <ref role="m_rDy" node="29so9Vb$6Tj" resolve="de.slisson.mps.tables" />
+        <node concept="pUk6x" id="6hpM9fmFEcs" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="6Y0V2RJk5G9" role="39821P">
         <ref role="m_rDy" node="6Y0V2RJk3uw" resolve="de.itemis.mps.selection" />
+        <node concept="pUk6x" id="6hpM9fmFEct" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="7klUZA6XM65" role="39821P">
         <ref role="m_rDy" node="7klUZA6XM5S" resolve="de.slisson.mps.conditionalEditor" />
+        <node concept="pUk6x" id="6hpM9fmFEcu" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="2Xjt3l57guk" role="39821P">
         <ref role="m_rDy" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
+        <node concept="pUk6x" id="6hpM9fmFEcv" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="3prCiG1Zenn" role="39821P">
         <ref role="m_rDy" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
+        <node concept="pUk6x" id="6hpM9fmFEcx" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="5QhEsDNBgC7" role="39821P">
         <ref role="m_rDy" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
+        <node concept="pUk6x" id="6hpM9fmFEcy" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="2NyZxKpV2Ss" role="39821P">
         <ref role="m_rDy" node="2NyZxKpUXYJ" resolve="de.itemis.mps.blutil" />
+        <node concept="pUk6x" id="6hpM9fmFEcz" role="pUk7w" />
       </node>
     </node>
   </node>
@@ -7640,6 +7661,7 @@
       <node concept="22LTRM" id="1VujIMZIYK" role="22LTRK">
         <ref role="22LTRN" node="2NyZxKpX7We" resolve="test.com.mbeddr.mpsutil.blutil.genutil" />
       </node>
+      <node concept="24cAiW" id="6hpM9fmFEj0" role="24cAkG" />
     </node>
   </node>
 </model>

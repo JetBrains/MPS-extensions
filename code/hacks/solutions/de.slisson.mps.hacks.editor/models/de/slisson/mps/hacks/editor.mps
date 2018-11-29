@@ -87,9 +87,6 @@
         <child id="1153952416686" name="body" index="2GV8ay" />
         <child id="1153952429843" name="finallyBody" index="2GVbov" />
       </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -377,7 +374,6 @@
     <node concept="2tJIrI" id="2WlJ6VKO_Xg" role="jymVt" />
     <node concept="2YIFZL" id="2WlJ6VKOSU7" role="jymVt">
       <property role="TrG5h" value="findAllInstances" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="2WlJ6VKOISW" role="3clF47">
@@ -515,7 +511,6 @@
     <node concept="2tJIrI" id="2WlJ6VKO_X$" role="jymVt" />
     <node concept="2YIFZL" id="MOb1pQbyfb" role="jymVt">
       <property role="TrG5h" value="getPositionTracker" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="MOb1pQ8MtD" role="3clF47">
@@ -733,7 +728,6 @@
                       <property role="1EzhhJ" value="false" />
                       <property role="TrG5h" value="editorComponentCreated" />
                       <property role="DiZV1" value="false" />
-                      <property role="IEkAT" value="false" />
                       <node concept="3Tm1VV" id="2vJRo8g$$xK" role="1B3o_S" />
                       <node concept="3cqZAl" id="2vJRo8g$$xL" role="3clF45" />
                       <node concept="37vLTG" id="2vJRo8g$$xM" role="3clF46">
@@ -760,7 +754,6 @@
                       <property role="1EzhhJ" value="false" />
                       <property role="TrG5h" value="editorComponentDisposed" />
                       <property role="DiZV1" value="false" />
-                      <property role="IEkAT" value="false" />
                       <node concept="3Tm1VV" id="2vJRo8g$$xU" role="1B3o_S" />
                       <node concept="3cqZAl" id="2vJRo8g$$xV" role="3clF45" />
                       <node concept="37vLTG" id="2vJRo8g$$xW" role="3clF46">
@@ -1004,7 +997,6 @@
     <node concept="2tJIrI" id="7oq1PhPcFNB" role="jymVt" />
     <node concept="2YIFZL" id="7oq1PhPcG78" role="jymVt">
       <property role="TrG5h" value="noCaching" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7oq1PhPcG5O" role="3clF47">

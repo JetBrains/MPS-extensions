@@ -1,6 +1,6 @@
 # Model Merger
 
-The model merge is used to automatically merge two models. Merge is not meant in the same way as in terms VCS systems like git. It‘s main use case is incrementalisation of importer at the moment but is not limited to it.
+The model merger is used to automatically merge two models. Merge is not meant in the same way as in VCS systems like git. At the moment its main use case is incremental imports, although it is not limited to it.
 ## Model Merge Specification 
 
 The model merge needs a customizable specification of how to merge instances of a given concept. The DSL should support the user to write correct specifications for a set of concepts and allow to reuse specifications for instance when a concept is extended or interfaces are implemented. Putting this into a DSL rather than writing this in plain java allows us to evolve the runtime and the language independently. Inspirations can be taken from the new VCD aspect in MPS. While a much simpler use case it might still be useful input.
@@ -32,12 +32,12 @@ A merge specification is complete if it defines the merge for all properties, ch
 
 #### Partial Specification
 
-A partial merge specification is a specification that does not include all properties, children or references of a concept. I reuses other complete or partial merge specifications. For instance inherited through the configuration for the base concept or by specifications of the implementing interfaces. A partial merge specification can override parts of the inherited specifications just like a complete specification can do. A partial merge specification must at least contain all the properties, children and references directly defined on the concept it is specifying for. 
+A partial merge specification is a specification that does not include all properties, children or references of a concept. It reuses other complete or partial merge specifications. For instance, inherited through the configuration for the base concept or by specifications of the implementing interfaces. A partial merge specification can override parts of the inherited specifications just like a complete specification can do. A partial merge specification must at least contain all the properties, children and references directly defined on the concept or interface it is specifying for. 
 
 
 ## Merge Specification Composition at Runtime 
 
-The runtime needs to be able to combine the merge specifications dynamically when it’s merging models. The runtime needs to construct a *complete* merge specification for each concept it tries to merge. If construction of a *complete* merge specification fails the runtime must not start the merge.  
+The runtime needs to be able to combine the merge specifications dynamically when it’s merging models. The runtime needs to construct a *complete* merge specification for each concept it tries to merge. If the construction of a *complete* merge specification fails, the runtime must not start the merge.  
 
 ### Examples
 
@@ -53,9 +53,9 @@ Given a concept A, concept B and a interface X where B extends A and B implement
 
 ### Precedence 
 
-A *complete* merge specification for a concept always dominates of *partial* specifications it might inherit though extensions of concepts or implementation of interfaces.
+A *complete* merge specification for a concept always dominates over a *partial* specification it might inherit through extensions of concepts or implementation of interfaces.
 
-Overriding (respecifying the merge for a property, child or reference) in a *partial* or *complete* merge specification always dominates over merge specifications inherited though extensions of concepts or implementation of interfaces. 
+Overriding (respecifying the merge for a property, child or reference) in a *partial* or *complete* merge specification always dominates over merge specifications inherited through extensions of concepts or implementation of interfaces. 
 
 ## Open Questions 
 

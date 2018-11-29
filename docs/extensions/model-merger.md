@@ -32,7 +32,7 @@ A merge specification is complete if it defines the merge for all properties, ch
 
 #### Partial Specification
 
-A partial merge specification is a specification that does not include all properties, children or references of a concept. It reuses other complete or partial merge specifications. For instance, inherited through the configuration for the base concept or by specifications of the implementing interfaces. A partial merge specification can override parts of the inherited specifications just like a complete specification can do. A partial merge specification must at least contain all the properties, children and references directly defined on the concept or interface it is specifying for. 
+A partial merge specification is a specification that does not include all properties, children or references of a concept. It reuses other complete or partial merge specifications. For instance, inherited through the specification for the base concept or by specifications of the implementing interfaces. A partial merge specification can override parts of the inherited specifications just like a complete specification can do. A partial merge specification must at least contain all the properties, children and references directly defined on the concept or interface it is specifying for. 
 
 
 ## Merge Specification Composition at Runtime 
@@ -49,7 +49,7 @@ Given a concept A, concept B and a interface X where B extends A and B implement
 
 Given a concept A, concept B and a interface X where B extends A and B implements X. And a *complete* specification for B then the runtime is able to merge instance of B.
 
-**Special case*: Given a concept A, concept B and a interface X where B extends A and B implements X where the concept B does not define additional properties, children or references. A *complete* merge specification for X exists and a *complete* merge specification for A exists the runtime is able to merge instance of B because the information present are enough to construct a complete merge specification for B.
+**Special case**: Given a concept A, concept B and a interface X where B extends A and B implements X where the concept B does not define additional properties, children or references. A *complete* merge specification for X exists and a *complete* merge specification for A exists the runtime is able to merge instance of B because the information present are enough to construct a complete merge specification for B.
 
 ### Precedence 
 

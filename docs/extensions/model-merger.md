@@ -3,12 +3,12 @@
 The model merger is used to automatically merge two models. Merge is not meant in the same way as in VCS systems like git. At the moment its main use case is incremental imports, although it is not limited to it.
 ## Model Merge Specification 
 
-The model merge needs a customizable specification of how to merge instances of a given concept. The DSL should support the user to write correct specifications for a set of concepts and allow to reuse specifications for instance when a concept is extended or interfaces are implemented. Putting this into a DSL rather than writing this in plain java allows us to evolve the runtime and the language independently. Inspirations can be taken from the new VCD aspect in MPS. While a much simpler use case it might still be useful input.
+The model merge needs a customizable specification of how to merge instances of a given concept. The DSL should support the user to write correct specifications for a set of concepts and allow to reuse specifications for instance when a concept is extended or interfaces are implemented. Putting this into a DSL rather than writing this in plain java allows us to evolve the runtime and the language independently. Inspirations can be taken from the new VCS aspect in MPS. While a much simpler use case it might still be useful input.
 
 ### Concrete Syntax Example
 ```
 Spec
-----
+---
 <Concept> -> Id : (node) = node.name
                          ---- Properties ----
                          name -> left | right | manual (left, right, node) -> <function returning the new property value>
@@ -21,6 +21,24 @@ Spec
                                                only existing on the the left: keep | drop 
                                                element:  left | right | drop | auto | manual 
 ```
+
+We explicitly don't use terms like ours/theirs, new/old or existing/incoming because we don't want to use terms associated with VCS use cases.
+
+### Operations 
+
+For all types of merges specification entries three operations are always available: *left*, *right* and *manual*. The semantics are largely the same no matter which part of a concept they are applied to.
+
+*left*: Changes on the left side of the merge dominate over changes on the right side. The result always contains the same state as passed as the left side,
+
+*right*: Changes on the right side of the merge dominate over changes on the left side. The result always contains the same state as passed as the right side.
+
+*manual*: The manual operation allows fine grained control about the the merge result. It allows to specify the merge result as a function. The function has three arguments: _left_, _right_ and _node_. The type of _left_ and _right_ depends on the part of the concept that is merged. For properties its the value of the property on the left and the right side of the merge. For a child role it's the child node on the left and right side of the merge. The _node_ argument always contained the complete node that is merged, for properties the node owning the property and for a child role the parent. 
+
+#### Properties 
+
+#### Children 
+
+#### References
 
 ### Partial and Complete Specifications 
 

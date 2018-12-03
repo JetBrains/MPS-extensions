@@ -78,9 +78,6 @@
     <node concept="PrWs8" id="4XPshStfJrz" role="PzmwI">
       <ref role="PrY4T" node="4XPshStfHmh" resolve="IActivityModuleContent" />
     </node>
-    <node concept="PrWs8" id="4XPshStfM20" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="PlHQZ" id="4XPshStfHmh">
     <property role="TrG5h" value="IActivityModuleContent" />

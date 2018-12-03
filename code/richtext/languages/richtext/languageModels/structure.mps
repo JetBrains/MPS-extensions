@@ -69,9 +69,6 @@
     <node concept="PrWs8" id="2dWzqxEBMSd" role="PzmwI">
       <ref role="PrY4T" node="2dWzqxEBBFG" resolve="IWord" />
     </node>
-    <node concept="PrWs8" id="o1roXC1_Kc" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
 </model>
 

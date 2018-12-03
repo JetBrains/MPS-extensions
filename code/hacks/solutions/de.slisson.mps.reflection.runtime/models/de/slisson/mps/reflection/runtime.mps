@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
@@ -13,9 +13,6 @@
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1224500764161" name="jetbrains.mps.baseLanguage.structure.BitwiseAndExpression" flags="nn" index="pVHWs" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -128,7 +125,6 @@
     <property role="TrG5h" value="ReflectionUtil" />
     <node concept="2YIFZL" id="7moa1g0RuMd" role="jymVt">
       <property role="TrG5h" value="readField" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7moa1g0QL6O" role="3clF47">
@@ -253,7 +249,6 @@
     </node>
     <node concept="2YIFZL" id="7moa1g0RG0k" role="jymVt">
       <property role="TrG5h" value="writeField" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7moa1g0RG0l" role="3clF47">
@@ -472,7 +467,6 @@
     </node>
     <node concept="2YIFZL" id="7moa1g0U01E" role="jymVt">
       <property role="TrG5h" value="callMethod" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7moa1g0TJt5" role="3clF47">
@@ -619,7 +613,6 @@
     </node>
     <node concept="2YIFZL" id="7moa1g0TZDu" role="jymVt">
       <property role="TrG5h" value="callVoidMethod" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7moa1g0TTod" role="3clF47">
@@ -681,7 +674,6 @@
     </node>
     <node concept="2YIFZL" id="7oXGHkvBVnu" role="jymVt">
       <property role="TrG5h" value="callStaticMethod" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7oXGHkvBVnv" role="3clF47">
@@ -737,7 +729,6 @@
     </node>
     <node concept="2YIFZL" id="7oXGHkvBVom" role="jymVt">
       <property role="TrG5h" value="callStaticVoidMethod" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7oXGHkvBVon" role="3clF47">
@@ -789,7 +780,6 @@
       <node concept="3Tm1VV" id="7oXGHkvBVoG" role="1B3o_S" />
     </node>
     <node concept="2YIFZL" id="7moa1g0ZZ_y" role="jymVt">
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="getClass" />

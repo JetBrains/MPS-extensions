@@ -2,7 +2,7 @@
 <model ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:ac36bf27-36e9-407d-ba8e-953c68088e41(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -31,7 +31,6 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
-        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -1208,7 +1207,6 @@
       <property role="TrG5h" value="getDeprecationMessage" />
       <property role="2Ki8OM" value="false" />
       <property role="13i0it" value="false" />
-      <property role="13i0is" value="false" />
       <property role="13i0iv" value="false" />
       <ref role="13i0hy" node="243ufko$Au9" resolve="getDeprecationMessage" />
       <node concept="3Tm1VV" id="7NouExiDxxc" role="1B3o_S" />
@@ -2112,7 +2110,6 @@
       <property role="TrG5h" value="getDeprecationMessage" />
       <property role="2Ki8OM" value="false" />
       <property role="13i0it" value="true" />
-      <property role="13i0is" value="false" />
       <node concept="3Tm1VV" id="243ufko$Aua" role="1B3o_S" />
       <node concept="17QB3L" id="243ufko$Aub" role="3clF45" />
       <node concept="3clFbS" id="243ufko$Auc" role="3clF47">
@@ -2195,7 +2192,6 @@
       <node concept="3clFbS" id="1VByUoAJmA1" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="1VByUoAJmAa" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="isLValue" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />

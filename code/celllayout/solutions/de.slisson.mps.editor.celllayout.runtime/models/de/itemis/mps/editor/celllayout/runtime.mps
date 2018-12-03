@@ -6,8 +6,8 @@
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="0" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -387,7 +387,7 @@
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
@@ -17541,7 +17541,6 @@
   <node concept="3HP615" id="3bNiYZ6RRgk">
     <property role="TrG5h" value="ISupportsTopDownLayout" />
     <node concept="3clFb_" id="3bNiYZ6RRho" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getTopDownLayoutable" />
       <node concept="3uibUv" id="3bNiYZ6RYTC" role="3clF45">
         <ref role="3uigEE" node="3bNiYZ6RRTc" resolve="IEditorCellBasedLayoutable" />
@@ -17557,7 +17556,6 @@
   <node concept="3HP615" id="3bNiYZ6RRTc">
     <property role="TrG5h" value="IEditorCellBasedLayoutable" />
     <node concept="3clFb_" id="3bNiYZ6RRU0" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getEditorCell" />
       <node concept="3uibUv" id="3bNiYZ6RRVq" role="3clF45">
         <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
@@ -17567,20 +17565,17 @@
     </node>
     <node concept="3clFb_" id="3bNiYZ6S1V3" role="jymVt">
       <property role="TrG5h" value="readSyncAll" />
-      <property role="1EzhhJ" value="true" />
       <node concept="3cqZAl" id="3bNiYZ6S1V4" role="3clF45" />
       <node concept="3Tm1VV" id="3bNiYZ6S1V5" role="1B3o_S" />
       <node concept="3clFbS" id="3bNiYZ6S1V6" role="3clF47" />
     </node>
     <node concept="3clFb_" id="3bNiYZ6S2qK" role="jymVt">
       <property role="TrG5h" value="writeSyncAll" />
-      <property role="1EzhhJ" value="true" />
       <node concept="3cqZAl" id="3bNiYZ6S2qL" role="3clF45" />
       <node concept="3Tm1VV" id="3bNiYZ6S2qM" role="1B3o_S" />
       <node concept="3clFbS" id="3bNiYZ6S2qN" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4ASLb1kC2Kq" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="hasIndent" />
       <node concept="3clFbS" id="4ASLb1kC2Kt" role="3clF47" />
@@ -20562,7 +20557,6 @@
   <node concept="3HP615" id="5TZkGzvpVHq">
     <property role="TrG5h" value="ICellLayoutWrapper" />
     <node concept="3clFb_" id="5TZkGzvpVYe" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getWrappedLayout" />
       <node concept="3uibUv" id="5TZkGzvpWJK" role="3clF45">
         <ref role="3uigEE" to="f4zo:~CellLayout" resolve="CellLayout" />

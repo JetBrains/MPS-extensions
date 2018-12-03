@@ -67,25 +67,24 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2018.2'
-ext.mpsMinor = '5'
+ext.mpsMajor = '2018.3'
+ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
-ext.mpsReleaseType = ''
+ext.mpsReleaseType = 'RC2'
 
 def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
 
 
-def minor = '2'
+def minor = '3'
 def major = '2018'
 
 if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch
 
     def buildNumber = System.env.BUILD_NUMBER.toInteger()
-    if (branch.startsWith("maintenance")) {
+    if (branch.startsWith("maintenance") || branch.startsWith("mps")) {
         version = "$major.$minor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
-        //version = GitBasedVersioning.getVersion("" ,major, minor, buildNumber)
     } else {
         version = GitBasedVersioning.getVersionWithCount(major, minor, buildNumber)
     }

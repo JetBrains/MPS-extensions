@@ -3,8 +3,8 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
@@ -20,9 +20,6 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -154,7 +151,6 @@
   <node concept="3HP615" id="7AHcygoqpzC">
     <property role="TrG5h" value="ITableStyleFactory" />
     <node concept="3clFb_" id="7AHcygoqpVD" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createStyle" />
       <node concept="3uibUv" id="3ubIyAZ3eVO" role="3clF45">
         <ref role="3uigEE" to="hox0:~Style" resolve="Style" />
@@ -273,7 +269,6 @@
     <property role="TrG5h" value="TableStyleUtils" />
     <node concept="2YIFZL" id="3ubIyAZ1FnO" role="jymVt">
       <property role="TrG5h" value="getParentStyle" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="3ubIyAZ0abX" role="3clF47">
@@ -410,7 +405,6 @@
     </node>
     <node concept="2YIFZL" id="3ubIyAZ36or" role="jymVt">
       <property role="TrG5h" value="copy" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="3ubIyAZ0ac5" role="3clF47">
@@ -459,7 +453,6 @@
     </node>
     <node concept="2YIFZL" id="3ubIyAZ3avL" role="jymVt">
       <property role="TrG5h" value="combine" />
-      <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="3ubIyAZ0acn" role="3clF47">

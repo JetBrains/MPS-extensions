@@ -2,7 +2,7 @@
 <model ref="r:07128e74-f1f2-4270-a3b2-527db0c9fcc5(de.slisson.mps.tables.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
@@ -40,7 +40,6 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
-        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -277,7 +276,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
-        <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
+        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -568,7 +567,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="1dAqnm8qVFo" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -594,7 +592,6 @@
     </node>
     <node concept="13i0hz" id="1dAqnm8repl" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -733,7 +730,6 @@
       <node concept="3clFbS" id="1dAqnm8u_B8" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="1dAqnm8u_Ds" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -750,7 +746,6 @@
     </node>
     <node concept="13i0hz" id="1dAqnm8vroZ" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -804,7 +799,6 @@
     <ref role="13h7C2" to="bnk3:1dAqnm8u_AK" resolve="TableCellQueryRowCount" />
     <node concept="13i0hz" id="1dAqnm8vrDK" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -853,7 +847,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="1dAqnm8u_J7" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -877,7 +870,6 @@
     <ref role="13h7C2" to="bnk3:1dAqnm8u_KA" resolve="TableCellQueryGetCell" />
     <node concept="13i0hz" id="1dAqnm8vr$h" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -965,7 +957,6 @@
       <node concept="3clFbS" id="1dAqnm8u_KD" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="1dAqnm8u_KU" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -1045,7 +1036,6 @@
       <node concept="3clFbS" id="1dAqnm8xRRD" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="1dAqnm8xRVJ" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -1062,7 +1052,6 @@
     </node>
     <node concept="13i0hz" id="1dAqnm8xSrl" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -1191,7 +1180,6 @@
     <property role="3GE5qa" value="Header.Query" />
     <ref role="13h7C2" to="bnk3:3vPRuXRQ5dJ" resolve="HeaderQuery_InsertNew" />
     <node concept="13i0hz" id="3vPRuXRQ5$a" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -1208,7 +1196,6 @@
     </node>
     <node concept="13i0hz" id="3vPRuXRQ5$p" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -1301,7 +1288,6 @@
     <ref role="13h7C2" to="bnk3:3vPRuXSzOLy" resolve="TableCellQueryGetSubstituteInfo" />
     <node concept="13i0hz" id="3vPRuXSzPuz" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -1386,7 +1372,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="3vPRuXSzPv0" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -1500,7 +1485,6 @@
     <ref role="13h7C2" to="bnk3:6T7OHMQ7YYK" resolve="SubstituteNodeFunction" />
     <node concept="13i0hz" id="6T7OHMQcP7h" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -1622,7 +1606,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="6T7OHMQcP7M" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -2059,7 +2042,6 @@
       <node concept="3clFbS" id="3iamoN_q7pq" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="7AHcygoHwUb" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -2217,7 +2199,6 @@
       <node concept="3clFbS" id="3iamoN_qJeE" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="3iamoN_qJeF" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -2240,7 +2221,6 @@
       <node concept="3clFbS" id="3iamoN_tgTD" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="3iamoN_tgUt" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -2660,7 +2640,6 @@
     <property role="3GE5qa" value="Header.Query" />
     <ref role="13h7C2" to="bnk3:1k7j3NO6TK$" resolve="HeaderQuery_Delete" />
     <node concept="13i0hz" id="1k7j3NOhhN_" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -2677,7 +2656,6 @@
     </node>
     <node concept="13i0hz" id="1k7j3NOhhNG" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -2833,7 +2811,6 @@
     <property role="3GE5qa" value="CellQuery" />
     <ref role="13h7C2" to="bnk3:Y6dcZbUKDL" resolve="CanCreate_Query" />
     <node concept="13i0hz" id="Y6dcZbUUER" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -2850,7 +2827,6 @@
     </node>
     <node concept="13i0hz" id="Y6dcZbUUEY" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -2979,7 +2955,6 @@
       <node concept="3clFbS" id="1gyFNfOBotK" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="1gyFNfOBpi8" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3093,7 +3068,6 @@
     <ref role="13h7C2" to="bnk3:1zEStST4TDV" resolve="TableCellQueryGetColumnHeader" />
     <node concept="13i0hz" id="1zEStST4UwN" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3166,7 +3140,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="1zEStST4Uxk" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3196,7 +3169,6 @@
     <ref role="13h7C2" to="bnk3:1zEStST4Vbt" resolve="TableCellQueryGetRowHeader" />
     <node concept="13i0hz" id="1zEStST4VnL" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3269,7 +3241,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="1zEStST4Vod" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3299,7 +3270,6 @@
     <ref role="13h7C2" to="bnk3:4GCAHOdRQfU" resolve="ChildFilter" />
     <node concept="13i0hz" id="4GCAHOdRQLO" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3360,7 +3330,6 @@
       </node>
     </node>
     <node concept="13i0hz" id="4GCAHOdRQMg" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3637,7 +3606,6 @@
     <ref role="13h7C2" to="bnk3:7EUu569hDQh" resolve="TableCellQuerySharedInit" />
     <node concept="13i0hz" id="7EUu569hDQl" role="13h7CS">
       <property role="2Ki8OM" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3696,7 +3664,6 @@
       <node concept="3clFbS" id="7EUu569ivbS" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="7EUu569ivbT" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="isLValue" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3718,7 +3685,6 @@
       <node concept="3clFbS" id="7EUu569l1_x" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="7EUu569l1_y" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3759,7 +3725,6 @@
       <node concept="3Tqbb2" id="7EUu569l1_D" role="3clF45" />
     </node>
     <node concept="13i0hz" id="7EUu569l1_I" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3792,7 +3757,6 @@
       <node concept="3clFbS" id="7EUu569oE3e" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="7EUu569oE3f" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getExpectedReturnType" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3808,7 +3772,6 @@
       <node concept="3Tqbb2" id="7EUu569oE3m" role="3clF45" />
     </node>
     <node concept="13i0hz" id="7EUu569oE3r" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -3841,7 +3804,6 @@
       <node concept="3clFbS" id="5ivXze3ccLz" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="5ivXze3ccL$" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />

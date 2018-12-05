@@ -19,9 +19,17 @@
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
       </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
@@ -233,6 +241,44 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="1VkzbspBBbp" role="3cqZAp">
+            <node concept="2OqwBi" id="1VkzbspBBoQ" role="3clFbG">
+              <node concept="37vLTw" id="1VkzbspBBbn" role="2Oq$k0">
+                <ref role="3cqZAo" node="g_CeiMo" resolve="editorCell" />
+              </node>
+              <node concept="liA8E" id="1VkzbspBBD6" role="2OqNvi">
+                <ref role="37wK5l" to="f4zo:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
+                <node concept="Rm8GO" id="1VkzbspBCm6" role="37wK5m">
+                  <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT" resolve="INSERT" />
+                  <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                </node>
+                <node concept="2ShNRf" id="1VkzbspBLtt" role="37wK5m">
+                  <node concept="HV5vD" id="1VkzbspBO9D" role="2ShVmc">
+                    <ref role="HV5vE" to="4dud:1VkzbspBDgD" resolve="CellAction_DoNothing" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="1VkzbspJKr6" role="3cqZAp">
+            <node concept="2OqwBi" id="1VkzbspJKr7" role="3clFbG">
+              <node concept="37vLTw" id="1VkzbspJKr8" role="2Oq$k0">
+                <ref role="3cqZAo" node="g_CeiMo" resolve="editorCell" />
+              </node>
+              <node concept="liA8E" id="1VkzbspJKr9" role="2OqNvi">
+                <ref role="37wK5l" to="f4zo:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction):void" resolve="setAction" />
+                <node concept="Rm8GO" id="1VkzbspJLmD" role="37wK5m">
+                  <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
+                  <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                </node>
+                <node concept="2ShNRf" id="1VkzbspJKrb" role="37wK5m">
+                  <node concept="HV5vD" id="1VkzbspJKrc" role="2ShVmc">
+                    <ref role="HV5vE" to="4dud:1VkzbspBDgD" resolve="CellAction_DoNothing" />
                   </node>
                 </node>
               </node>

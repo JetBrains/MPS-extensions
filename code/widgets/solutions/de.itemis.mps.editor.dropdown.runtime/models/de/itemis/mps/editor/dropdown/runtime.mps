@@ -53,6 +53,9 @@
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
@@ -84,6 +87,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -91,6 +95,7 @@
         <property id="1113006610751" name="value" index="$nhwW" />
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
+        <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
@@ -1143,6 +1148,89 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3_TG3j98QzT" role="jymVt" />
+  </node>
+  <node concept="312cEu" id="1VkzbspBDgD">
+    <property role="TrG5h" value="CellAction_DoNothing" />
+    <node concept="3Tm1VV" id="1VkzbspBDgE" role="1B3o_S" />
+    <node concept="3uibUv" id="1VkzbspBH$3" role="EKbjA">
+      <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+    </node>
+    <node concept="3clFb_" id="1VkzbspBH$e" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getDescriptionText" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="1VkzbspBH$f" role="1B3o_S" />
+      <node concept="17QB3L" id="1VkzbspBHRe" role="3clF45" />
+      <node concept="3clFbS" id="1VkzbspBH$i" role="3clF47">
+        <node concept="3clFbF" id="1VkzbspBHIR" role="3cqZAp">
+          <node concept="Xl_RD" id="1VkzbspBHIQ" role="3clFbG">
+            <property role="Xl_RC" value="Do nothing" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1VkzbspBH$j" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1VkzbspBH$m" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="executeInCommand" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="1VkzbspBH$n" role="1B3o_S" />
+      <node concept="10P_77" id="1VkzbspBH$p" role="3clF45" />
+      <node concept="3clFbS" id="1VkzbspBH$q" role="3clF47">
+        <node concept="3clFbF" id="1VkzbspBH$t" role="3cqZAp">
+          <node concept="3clFbT" id="1VkzbspBH$s" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1VkzbspBH$r" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1VkzbspBH$u" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="canExecute" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="1VkzbspBH$v" role="1B3o_S" />
+      <node concept="10P_77" id="1VkzbspBH$x" role="3clF45" />
+      <node concept="37vLTG" id="1VkzbspBH$y" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="1VkzbspBH$z" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1VkzbspBH$$" role="3clF47">
+        <node concept="3clFbF" id="1VkzbspBH$B" role="3cqZAp">
+          <node concept="3clFbT" id="1VkzbspBH$A" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1VkzbspBH$_" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="1VkzbspBH$C" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="execute" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="1VkzbspBH$D" role="1B3o_S" />
+      <node concept="3cqZAl" id="1VkzbspBH$F" role="3clF45" />
+      <node concept="37vLTG" id="1VkzbspBH$G" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="1VkzbspBH$H" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1VkzbspBH$I" role="3clF47" />
+      <node concept="2AHcQZ" id="1VkzbspBH$J" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
 </model>
 

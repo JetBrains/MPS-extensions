@@ -5,7 +5,8 @@ Transformations are described in a special language designed to support incremen
 Dynamic dependency tracking is used during the executing of the transformations which removes the need for a declarative language. BaseLanguage expressions with all its extensions are supported inside the transformation rules.
 
 While the primary use cases of shadow models are not code generation, they come with a transformation language that solves some other issues of the MPS generator in a more elegant way (cross model generation, multiple target languages, extensibility).
-
+# Download
+Download the nighty build of the plugins from the [release page](https://github.com/JetBrains/MPS-extensions/releases).
 # Examples
 There is a separate **Shadow Models (Examples)** plugin that contains some example languages and transformation implementations to show you how to build your own shadow models.
 The languages and input models can be found in the namespace **de.q60.mps.shadowmodels.examples**. The transformations are implemented in the *transformation* aspect.

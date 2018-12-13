@@ -387,12 +387,14 @@
             <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
             <node concept="3Tm1VV" id="3jGmESsMU7X" role="1B3o_S" />
             <node concept="3clFb_" id="3jGmESsMU9Q" role="jymVt">
-              <property role="TrG5h" value="dependencyChanged" />
+              <property role="TrG5h" value="dependenciesChanged" />
               <property role="1EzhhJ" value="false" />
               <node concept="37vLTG" id="3jGmESsMU9R" role="3clF46">
-                <property role="TrG5h" value="dep" />
-                <node concept="3uibUv" id="3jGmESsMU9S" role="1tU5fm">
-                  <ref role="3uigEE" to="ee18:5gTrVpGx$gB" resolve="DependencyKey" />
+                <property role="TrG5h" value="deps" />
+                <node concept="A3Dl8" id="6FW8YbTXTFF" role="1tU5fm">
+                  <node concept="3uibUv" id="6FW8YbTXTFG" role="A3Ik2">
+                    <ref role="3uigEE" to="ee18:5gTrVpGx$gB" resolve="DependencyKey" />
+                  </node>
                 </node>
               </node>
               <node concept="3cqZAl" id="3jGmESsMU9T" role="3clF45" />
@@ -405,9 +407,9 @@
                       <ref role="1PxDUh" to="ee18:3SvKIiMamz" resolve="DependencyBroadcaster" />
                     </node>
                     <node concept="liA8E" id="3jGmESsMVMV" role="2OqNvi">
-                      <ref role="37wK5l" to="ee18:3SvKIiMgN$" resolve="dependencyChanged" />
+                      <ref role="37wK5l" to="ee18:6FW8YbTWWpS" resolve="dependenciesChanged" />
                       <node concept="37vLTw" id="3jGmESsMWeW" role="37wK5m">
-                        <ref role="3cqZAo" node="3jGmESsMU9R" resolve="dep" />
+                        <ref role="3cqZAo" node="3jGmESsMU9R" resolve="deps" />
                       </node>
                     </node>
                   </node>

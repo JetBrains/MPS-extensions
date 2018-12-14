@@ -37,7 +37,7 @@
     </language>
   </registry>
   <node concept="02vhO" id="7YhLqbpfNzd">
-    <property role="TrG5h" value="Repository" />
+    <property role="TrG5h" value="ShadowRepository" />
     <node concept="02vpq" id="7YhLqbpfNME" role="02uzr">
       <property role="TrG5h" value="$Repository" />
       <node concept="026TG" id="7YhLqbpfNNb" role="026TK">

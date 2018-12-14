@@ -15,6 +15,7 @@
     <import index="yb34" ref="r:530aea2f-dc0b-465c-91dd-a75239ac9e81(de.q60.mps.shadowmodels.examples.statemachine.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -129,8 +130,17 @@
         <reference id="1382135219952452158" name="label" index="3NZdqm" />
         <child id="1382135219952452156" name="transformation" index="3NZdqk" />
       </concept>
+      <concept id="7898342489379026629" name="de.q60.mps.shadowmodels.transformation.structure.BLExpressionTarget" flags="ng" index="3OkNDw">
+        <child id="7898342489379026632" name="expr" index="3OkNDH" />
+      </concept>
       <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.CopyMacro" flags="ng" index="1XuIBW">
         <child id="2573073122887437734" name="sourceQuery" index="1XuIBT" />
+      </concept>
+    </language>
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="4733039728785194814" name="jetbrains.mps.lang.modelapi.structure.NamedNodeReference" flags="ng" index="ZC_QK">
+        <reference id="7256306938026143658" name="target" index="2aWVGs" />
+        <child id="7256306938026143676" name="child" index="2aWVGa" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -139,6 +149,9 @@
       </concept>
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
+      <concept id="7400021826774799413" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="ng" index="2tJFMh">
+        <child id="7400021826774799510" name="ref" index="2tJFKM" />
       </concept>
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
@@ -966,63 +979,36 @@
     <node concept="2OrE70" id="I$iOOfIZNd" role="02uzr" />
     <node concept="02vpq" id="5o5qH$CQKcR" role="02uzr">
       <property role="TrG5h" value="enumConst" />
-      <property role="1YBnZf" value="true" />
       <node concept="02i3K" id="5o5qH$CQKcS" role="02i3f">
-        <node concept="02i3D" id="5o5qH$CQKcT" role="02i2B">
-          <ref role="02i3$" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        <node concept="02i3D" id="4JmkJs3_ULS" role="02i2B">
+          <ref role="02i3$" to="tpck:h0TrEE$" resolve="INamedConcept" />
         </node>
       </node>
       <node concept="026TG" id="5o5qH$CQKcU" role="026TK">
         <node concept="027og" id="5o5qH$CQKcV" role="026TJ">
           <ref role="02LMe" to="tpee:fKQsSyN" resolve="EnumConstantDeclaration" />
-        </node>
-      </node>
-    </node>
-    <node concept="02vpq" id="7X4ppfYlfKR" role="02uzr">
-      <ref role="1YyVLo" node="5o5qH$CQKcR" resolve="enumConst" />
-      <node concept="02i3K" id="7X4ppfYlfLx" role="02i3f">
-        <node concept="02i3D" id="7X4ppfYlfLD" role="02i2B">
-          <ref role="02i3$" to="yb34:6ndA7L_L0uJ" resolve="Event" />
-        </node>
-      </node>
-      <node concept="026TG" id="7X4ppfYlfLL" role="026TK">
-        <node concept="027og" id="7X4ppfYlfLP" role="026TJ">
-          <ref role="02LMe" to="tpee:fKQsSyN" resolve="EnumConstantDeclaration" />
-          <node concept="027oh" id="7X4ppfYlfLS" role="02LM9">
+          <node concept="027oh" id="4JmkJs3_UOf" role="02LM9">
             <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
-            <node concept="2OqwBi" id="7X4ppfYllO9" role="027of">
-              <node concept="2155sH" id="7X4ppfYllGz" role="2Oq$k0">
-                <ref role="2155sG" node="7X4ppfYlfLx" />
-              </node>
-              <node concept="3TrcHB" id="7X4ppfYllZt" role="2OqNvi">
+            <node concept="2OqwBi" id="4JmkJs3_UWQ" role="027of">
+              <node concept="214o7A" id="4JmkJs3_UPk" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4JmkJs3_Vgp" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-    <node concept="02vpq" id="7X4ppfYl3sU" role="02uzr">
-      <ref role="1YyVLo" node="5o5qH$CQKcR" resolve="enumConst" />
-      <node concept="026TG" id="7X4ppfYlpWI" role="026TK">
-        <node concept="027og" id="7X4ppfYlpWJ" role="026TJ">
-          <ref role="02LMe" to="tpee:fKQsSyN" resolve="EnumConstantDeclaration" />
-          <node concept="027oh" id="7X4ppfYlpWK" role="02LM9">
-            <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
-            <node concept="2OqwBi" id="7X4ppfYlpWL" role="027of">
-              <node concept="2155sH" id="7X4ppfYlpZ2" role="2Oq$k0">
-                <ref role="2155sG" node="7X4ppfYlfIl" />
-              </node>
-              <node concept="3TrcHB" id="7X4ppfYlpWN" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+          <node concept="027ru" id="4JmkJs3_Vvu" role="02LM9">
+            <ref role="027ri" to="tpee:hZVQs$S" resolve="constructor" />
+            <node concept="3OkNDw" id="4JmkJs3_Vyv" role="027rd">
+              <node concept="2tJFMh" id="4JmkJs3A2LG" role="3OkNDH">
+                <node concept="ZC_QK" id="4JmkJs3A2LP" role="2tJFKM">
+                  <ref role="2aWVGs" to="wyt6:~Object" resolve="Object" />
+                  <node concept="ZC_QK" id="4JmkJs3A2M2" role="2aWVGa">
+                    <ref role="2aWVGs" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
-        </node>
-      </node>
-      <node concept="02i3K" id="7X4ppfYlfIl" role="02i3f">
-        <node concept="02i3D" id="7X4ppfYlfIt" role="02i2B">
-          <ref role="02i3$" to="yb34:6ndA7L_L0uH" resolve="State" />
         </node>
       </node>
     </node>

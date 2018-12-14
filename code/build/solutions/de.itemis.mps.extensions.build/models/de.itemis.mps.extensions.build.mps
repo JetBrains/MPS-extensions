@@ -7830,6 +7830,16 @@
             <ref role="3bR37D" to="ffeo:6aIAM_Qd5ki" resolve="jetbrains.mps.lang.test.matcher" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4JmkJs3KO_i" role="3bR37C">
+          <node concept="3bR9La" id="4JmkJs3KO_j" role="1SiIV1">
+            <ref role="3bR37D" node="BRK1N8p1qk" resolve="de.q60.mps.shadowmodels.examples.entities" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4JmkJs3KO_k" role="3bR37C">
+          <node concept="3bR9La" id="4JmkJs3KO_l" role="1SiIV1">
+            <ref role="3bR37D" node="BRK1N8p1xv" resolve="de.q60.mps.shadowmodels.examples.input" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="10PD9b" id="6$6tsX_CF7b" role="10PD9s" />

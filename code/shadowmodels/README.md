@@ -40,3 +40,5 @@ transformation enumConst overrides ... [i0: INamedConcept]
        }
 ```
 The constructor reference is pointing to the constructor of the Object class in the JDK stub models.
+# Traceback
+A debug view for visualising the transformation calls is planed, but currently there is only an API to query the input nodes of a given output node. You can find it in the `TransformationTrace` class.

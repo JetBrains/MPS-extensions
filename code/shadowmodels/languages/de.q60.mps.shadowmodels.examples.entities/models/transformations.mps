@@ -1662,7 +1662,7 @@
               <node concept="027oh" id="TC$M5wSFxI" role="02LM9">
                 <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
                 <node concept="Xl_RD" id="TC$M5wSFxR" role="027of">
-                  <property role="Xl_RC" value="entities" />
+                  <property role="Xl_RC" value="examples.entities" />
                 </node>
               </node>
               <node concept="027rt" id="TC$M5wSMQK" role="02LM9">

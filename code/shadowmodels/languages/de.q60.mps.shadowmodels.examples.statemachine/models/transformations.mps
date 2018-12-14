@@ -1296,7 +1296,7 @@
               <node concept="027oh" id="7YhLqbpfPcU" role="02LM9">
                 <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
                 <node concept="Xl_RD" id="7YhLqbpfPcV" role="027of">
-                  <property role="Xl_RC" value="statemachines" />
+                  <property role="Xl_RC" value="examples.statemachines" />
                 </node>
               </node>
               <node concept="027rt" id="7YhLqbpfPcW" role="02LM9">

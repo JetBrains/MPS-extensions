@@ -29,3 +29,14 @@ Sometimes, you need to generate your DSL into multiple target languages. Or just
 In the MPS generator it's hard to control on which input a reduction rule is applied and when (since  [MPS 2018.2](https://www.jetbrains.com/mps/whatsnew/2018.2/) it's possible to add forks to a generation plan which is supposed to solve some of the issues for this use case).
 
 In shadow models, transformations are similar to function calls that accept an input node and return an output node. The engine doesn't automatically apply transformation rules. You always have control over what is applied where. A transformation rule doesn't replace the input node, but is inserted at the location of the call in the output.
+## References to Non-Shadow Nodes
+If you want to generate code against an existing runtime library, you can just write a baseLanguage expression that returns an `SNode` or `SNodeReference`.
+In the *statemachines* example you can find the following transformation:
+```
+transformation enumConst overrides ... [i0: INamedConcept]
+-> o0: EnumConstantDeclaration {
+         name: _.name
+         constructor -> *[node-ptr/Object->Object/]
+       }
+```
+The constructor reference is pointing to the constructor of the Object class in the JDK stub models.

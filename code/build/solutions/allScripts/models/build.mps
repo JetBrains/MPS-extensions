@@ -106,7 +106,7 @@
   </registry>
   <node concept="1l3spW" id="2Xjt3l56m0V">
     <property role="TrG5h" value="de.itemis.mps.extensions.allScripts" />
-    <property role="2DA0ip" value="../../../../build/generated/allScripts" />
+    <property role="2DA0ip" value="../../../../scripts" />
     <node concept="2G$12M" id="2Xjt3l5bx4Z" role="3989C9">
       <property role="TrG5h" value="de.slisson.mps.all" />
       <node concept="1E1JtA" id="PE3B26VOkn" role="2G$12L">
@@ -221,12 +221,6 @@
       <node concept="55IIr" id="1QLFoGON23t" role="398pKh">
         <node concept="2Ry0Ak" id="1QLFoGON23u" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="2IxvlKPaLFA" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="2fo8bJEzAKn" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-            </node>
-          </node>
         </node>
       </node>
     </node>

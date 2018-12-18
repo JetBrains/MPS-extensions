@@ -174,23 +174,19 @@ ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir
 ext.pluginVersion = "-DversionNumber=" + version
 ext.buildDate = "-DbuildDate=" + new Date().toString()
 ext.extensions_home = '-Dextensions.home=' + rootDir
+ext.skipUnmodifiedModels = "-Dmps.generator.skipUnmodifiedModels=true" //incremental build support
 
 // ___________________ utilities ___________________
 File scriptFile(String relativePath) {
     new File("$rootDir/build/generated/$relativePath")
 }
 
-def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
+def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion, ext.skipUnmodifiedModels]
 
 
 
 task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]) {
-    script scriptFile('allScripts/build.xml')
-    inputs.file(scriptFile('allScripts/build.xml'))
-    inputs.dir("$rootDir/code/mps-build/solutions/de.slisson.mps.all.build/models")
-    inputs.file("$rootDir/code/mps-build/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd")
-    outputs.dir("$rootDir/build/generated/languages")
-    outputs.dir("$rootDir/build/generated/tests")
+    script "$rootDir/scripts/build.xml"
     scriptArgs = defaultScriptArgs
     scriptClasspath = buildScriptClasspath
 }
@@ -259,6 +255,12 @@ task packageExtensions(type: Zip, dependsOn: run_tests) {
     include 'de.itemis.mps.extensions/**'
 }
 
+task cleanMps(type: Delete) {
+    delete fileTree(dir: projectDir, include: ["**/classes_gen/**", "**/source_gen/**", "**/source_gen.caches/**", "tmp/**", "artifacts/**"])
+}
+
+clean.dependsOn cleanMps
+
 publishing {
     repositories {
         maven {
@@ -295,6 +297,10 @@ publishing {
 
 defaultTasks 'build_languages'
 task test(dependsOn: run_tests)
+
+build_languages.mustRunAfter clean
+
+task rebuild(dependsOn:[clean, build_languages])
 
 def releaseNotes
 def releaseName

@@ -4,7 +4,7 @@ Contributes are always welcome, no matter if it's additional documentation, a bu
 
 If you are looking for an easy first contribution have a look at [this](https://github.com/JetBrains/MPS-extensions/labels/good%20first%20issue) list.
 
-Currently one of the biggest tasks we are working on is migrating some of the extensions from the mbeddr platform to this repository. If you like to help have a look at this [page](/Migration).
+Currently one of the biggest tasks we are working on is migrating some of the extensions from the mbeddr platform to this repository. If you like to help have a look at this [page](https://jetbrains.github.io/MPS-extensions/Migrating/).
 
 Should you not feel comfortable to start with a code contribution additions to our documentation are always very welcome. Our [documentation](https://github.com/JetBrains/MPS-extensions/tree/master/docs) is in this repository as well. You can have edit it in your browser right a way if you like.
 

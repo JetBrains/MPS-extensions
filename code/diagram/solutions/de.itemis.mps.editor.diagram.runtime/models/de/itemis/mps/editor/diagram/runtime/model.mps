@@ -52,6 +52,7 @@
     <import index="jsda" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.dnd(JDK/)" />
     <import index="qxi4" ref="r:45c19b6d-dd9a-4f15-973f-0267c5e76303(de.itemis.mps.editor.celllayout.runtime)" />
     <import index="99ht" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.model(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
@@ -22433,7 +22434,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="7zLXdpwpgYZ" role="2OqNvi">
-                            <ref role="37wK5l" to="22ra:~UpdateSession.updateReferencedNodeCell(jetbrains.mps.util.Computable,org.jetbrains.mps.openapi.model.SNode,java.lang.String):java.lang.Object" resolve="updateReferencedNodeCell" />
+                            <ref role="37wK5l" to="22ra:~UpdateSession.updateReferencedNodeCell(jetbrains.mps.util.Computable,org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SReferenceLink):java.lang.Object" resolve="updateReferencedNodeCell" />
                             <node concept="1bVj0M" id="7zLXdpwphqo" role="37wK5m">
                               <property role="3yWfEV" value="true" />
                               <node concept="3clFbS" id="7zLXdpwphqp" role="1bW5cS">
@@ -22465,16 +22466,21 @@
                             <node concept="37vLTw" id="7zLXdpwpmqO" role="37wK5m">
                               <ref role="3cqZAo" node="641jOpdAVPz" resolve="node" />
                             </node>
-                            <node concept="3cpWs3" id="7EpvT6MysV_" role="37wK5m">
-                              <node concept="2YIFZM" id="7EpvT6Mytgo" role="3uHU7w">
-                                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                                <ref role="37wK5l" to="wyt6:~System.identityHashCode(java.lang.Object):int" resolve="identityHashCode" />
-                                <node concept="37vLTw" id="7EpvT6Mytvd" role="37wK5m">
-                                  <ref role="3cqZAo" node="2xOEQMPLWFW" resolve="myModel" />
+                            <node concept="2ShNRf" id="5nA3diwsTIb" role="37wK5m">
+                              <node concept="1pGfFk" id="5nA3diwsVfm" role="2ShVmc">
+                                <ref role="37wK5l" to="kvq8:5nA3diwsOPO" resolve="DummyReferenceLink" />
+                                <node concept="3cpWs3" id="7EpvT6MysV_" role="37wK5m">
+                                  <node concept="2YIFZM" id="7EpvT6Mytgo" role="3uHU7w">
+                                    <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                                    <ref role="37wK5l" to="wyt6:~System.identityHashCode(java.lang.Object):int" resolve="identityHashCode" />
+                                    <node concept="37vLTw" id="7EpvT6Mytvd" role="37wK5m">
+                                      <ref role="3cqZAo" node="2xOEQMPLWFW" resolve="myModel" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="7EpvT6MysH$" role="3uHU7B">
+                                    <property role="Xl_RC" value="Diagram" />
+                                  </node>
                                 </node>
-                              </node>
-                              <node concept="Xl_RD" id="7EpvT6MysH$" role="3uHU7B">
-                                <property role="Xl_RC" value="Diagram" />
                               </node>
                             </node>
                           </node>

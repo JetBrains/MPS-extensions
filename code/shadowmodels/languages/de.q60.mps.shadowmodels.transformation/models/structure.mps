@@ -452,7 +452,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="call" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7X4ppfYlm1v" resolve="TransformationCall" />
+      <ref role="20lvS9" node="6ndA7L_LuUC" resolve="INodeSpec" />
     </node>
     <node concept="PrWs8" id="4EhVFrZoNdE" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />

@@ -8664,11 +8664,11 @@
       <node concept="3clFbS" id="4EhVFrZ9ET8" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4EhVFrZaXbj" role="jymVt">
-      <property role="TrG5h" value="forContextNode" />
+      <property role="TrG5h" value="forContextValue" />
       <node concept="37vLTG" id="4EhVFrZaXlg" role="3clF46">
-        <property role="TrG5h" value="contextNode" />
-        <node concept="3uibUv" id="4EhVFrZaXo9" role="1tU5fm">
-          <ref role="3uigEE" node="5gTrVpGiHIH" resolve="INode" />
+        <property role="TrG5h" value="contextValue" />
+        <node concept="3uibUv" id="7NImM050Bdx" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
       <node concept="3uibUv" id="4EhVFrZaXkj" role="3clF45">
@@ -9081,11 +9081,11 @@
     </node>
     <node concept="3clFb_" id="4EhVFrZaZmr" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="forContextNode" />
+      <property role="TrG5h" value="forContextValue" />
       <node concept="37vLTG" id="4EhVFrZaZms" role="3clF46">
-        <property role="TrG5h" value="inputNode" />
-        <node concept="3uibUv" id="4EhVFrZaZmt" role="1tU5fm">
-          <ref role="3uigEE" node="5gTrVpGiHIH" resolve="INode" />
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="7NImM050Z2V" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
       <node concept="3uibUv" id="4EhVFrZaZmu" role="3clF45">
@@ -9099,7 +9099,7 @@
               <ref role="37wK5l" node="4EhVFrZawdC" resolve="ContextValueContext" />
               <node concept="Xjq3P" id="4EhVFrZaZm$" role="37wK5m" />
               <node concept="37vLTw" id="4EhVFrZaZm_" role="37wK5m">
-                <ref role="3cqZAo" node="4EhVFrZaZms" resolve="inputNode" />
+                <ref role="3cqZAo" node="4EhVFrZaZms" resolve="value" />
               </node>
             </node>
           </node>
@@ -10155,11 +10155,11 @@
     <node concept="2tJIrI" id="4EhVFrZkiPV" role="jymVt" />
     <node concept="3clFb_" id="4EhVFrZaYS8" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="forContextNode" />
+      <property role="TrG5h" value="forContextValue" />
       <node concept="37vLTG" id="4EhVFrZaYS9" role="3clF46">
-        <property role="TrG5h" value="inputNode" />
-        <node concept="3uibUv" id="4EhVFrZaYSa" role="1tU5fm">
-          <ref role="3uigEE" node="5gTrVpGiHIH" resolve="INode" />
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="7NImM050CWw" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
       <node concept="3uibUv" id="4EhVFrZaYSb" role="3clF45">
@@ -10173,7 +10173,7 @@
               <ref role="37wK5l" node="4EhVFrZawdC" resolve="ContextValueContext" />
               <node concept="Xjq3P" id="4EhVFrZaYSh" role="37wK5m" />
               <node concept="37vLTw" id="4EhVFrZaYSi" role="37wK5m">
-                <ref role="3cqZAo" node="4EhVFrZaYS9" resolve="inputNode" />
+                <ref role="3cqZAo" node="4EhVFrZaYS9" resolve="value" />
               </node>
             </node>
           </node>

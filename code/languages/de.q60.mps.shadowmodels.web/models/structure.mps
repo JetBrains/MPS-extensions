@@ -12,6 +12,8 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -60,6 +62,12 @@
     <property role="EcuMT" value="9002232898238990774" />
     <property role="TrG5h" value="HTMLElement" />
     <ref role="1TJDcQ" node="7NImM04RGAP" resolve="Element" />
+    <node concept="1TJgyj" id="7q7cTU0P3Ee" role="1TKVEi">
+      <property role="IQ2ns" value="8540851974190676622" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="style" />
+      <ref role="20lvS9" node="7q7cTU0P41s" resolve="CSSStyleDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7NImM04RGAR">
     <property role="EcuMT" value="9002232898238990775" />
@@ -78,7 +86,7 @@
   </node>
   <node concept="1TIwiD" id="7NImM04RGAT">
     <property role="EcuMT" value="9002232898238990777" />
-    <property role="TrG5h" value="Text" />
+    <property role="TrG5h" value="HtmlText" />
     <ref role="1TJDcQ" node="7NImM04RGAS" resolve="CharacterData" />
   </node>
   <node concept="1TIwiD" id="7NImM04RGAU">
@@ -89,7 +97,7 @@
   <node concept="1TIwiD" id="7NImM04RGAV">
     <property role="EcuMT" value="9002232898238990779" />
     <property role="TrG5h" value="CDATASection" />
-    <ref role="1TJDcQ" node="7NImM04RGAT" resolve="Text" />
+    <ref role="1TJDcQ" node="7NImM04RGAT" resolve="HtmlText" />
   </node>
   <node concept="1TIwiD" id="7NImM04RGAW">
     <property role="EcuMT" value="9002232898238990780" />
@@ -115,7 +123,13 @@
     <property role="EcuMT" value="9002232898239389194" />
     <property role="3GE5qa" value="htmlElement" />
     <property role="TrG5h" value="HTMLAnchorElement" />
+    <property role="34LRSv" value="a" />
     <ref role="1TJDcQ" node="7NImM04RGAQ" resolve="HTMLElement" />
+    <node concept="1TJgyi" id="7q7cTU0SJQ8" role="1TKVEl">
+      <property role="IQ2nx" value="8540851974191644040" />
+      <property role="TrG5h" value="href" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7NImM04TdSb">
     <property role="EcuMT" value="9002232898239389195" />
@@ -175,6 +189,7 @@
     <property role="EcuMT" value="9002232898239389204" />
     <property role="3GE5qa" value="htmlElement" />
     <property role="TrG5h" value="HTMLDivElement" />
+    <property role="34LRSv" value="div" />
     <ref role="1TJDcQ" node="7NImM04RGAQ" resolve="HTMLElement" />
   </node>
   <node concept="1TIwiD" id="7NImM04TdSl">
@@ -265,6 +280,7 @@
     <property role="EcuMT" value="9002232898239389219" />
     <property role="3GE5qa" value="htmlElement" />
     <property role="TrG5h" value="HTMLLIElement" />
+    <property role="34LRSv" value="li" />
     <ref role="1TJDcQ" node="7NImM04RGAQ" resolve="HTMLElement" />
   </node>
   <node concept="1TIwiD" id="7NImM04TdS$">
@@ -361,6 +377,7 @@
     <property role="EcuMT" value="9002232898239389235" />
     <property role="3GE5qa" value="htmlElement" />
     <property role="TrG5h" value="HTMLSpanElement" />
+    <property role="34LRSv" value="span" />
     <ref role="1TJDcQ" node="7NImM04RGAQ" resolve="HTMLElement" />
   </node>
   <node concept="1TIwiD" id="7NImM04TdSO">
@@ -427,6 +444,7 @@
     <property role="EcuMT" value="9002232898239389246" />
     <property role="3GE5qa" value="htmlElement" />
     <property role="TrG5h" value="HTMLUListElement" />
+    <property role="34LRSv" value="ul" />
     <ref role="1TJDcQ" node="7NImM04RGAQ" resolve="HTMLElement" />
   </node>
   <node concept="1TIwiD" id="7NImM04TdSZ">
@@ -758,6 +776,44 @@
     <property role="3GE5qa" value="svgElement" />
     <property role="TrG5h" value="SVGViewElement" />
     <ref role="1TJDcQ" node="7NImM04RGB2" resolve="SVGElement" />
+  </node>
+  <node concept="1TIwiD" id="7q7cTU0P41s">
+    <property role="EcuMT" value="8540851974190678108" />
+    <property role="TrG5h" value="CSSStyleDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7q7cTU0P4oO" role="1TKVEi">
+      <property role="IQ2ns" value="8540851974190679604" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7q7cTU0P4oF" resolve="StyleItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7q7cTU0P4oF">
+    <property role="EcuMT" value="8540851974190679595" />
+    <property role="TrG5h" value="StyleItem" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="7q7cTU0P4oG">
+    <property role="EcuMT" value="8540851974190679596" />
+    <property role="TrG5h" value="StringStyleItem" />
+    <ref role="1TJDcQ" node="7q7cTU0P4oF" resolve="StyleItem" />
+    <node concept="1TJgyi" id="7q7cTU0P4oH" role="1TKVEl">
+      <property role="IQ2nx" value="8540851974190679597" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7q7cTU0P4oJ">
+    <property role="EcuMT" value="8540851974190679599" />
+    <property role="TrG5h" value="GenericStringStyleItem" />
+    <ref role="1TJDcQ" node="7q7cTU0P4oG" resolve="StringStyleItem" />
+    <node concept="1TJgyi" id="7q7cTU0P4oM" role="1TKVEl">
+      <property role="IQ2nx" value="8540851974190679602" />
+      <property role="TrG5h" value="key" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 

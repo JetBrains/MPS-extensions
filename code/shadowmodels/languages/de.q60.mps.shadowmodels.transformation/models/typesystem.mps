@@ -1351,5 +1351,33 @@
       <ref role="1YaFvo" to="oyp0:TC$M5wVude" resolve="TransformationCallExpression" />
     </node>
   </node>
+  <node concept="1YbPZF" id="7NImM056qJH">
+    <property role="TrG5h" value="typeof_PropertyBuilder" />
+    <property role="3GE5qa" value="builder" />
+    <node concept="3clFbS" id="7NImM056qJI" role="18ibNy">
+      <node concept="1ZobV4" id="7NImM056r0T" role="3cqZAp">
+        <node concept="mw_s8" id="7NImM056r1d" role="1ZfhKB">
+          <node concept="2ShNRf" id="7NImM056r19" role="mwGJk">
+            <node concept="3zrR0B" id="7NImM056r7m" role="2ShVmc">
+              <node concept="3Tqbb2" id="7NImM056r7o" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:hP7QB7G" resolve="StringType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="7NImM056r0W" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7NImM056qQq" role="mwGJk">
+            <node concept="1YBJjd" id="7NImM056qSg" role="1Z2MuG">
+              <ref role="1YBMHb" node="7NImM056qJK" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7NImM056qJK" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:6ndA7L_LuTH" resolve="PropertyBuilder" />
+    </node>
+  </node>
 </model>
 

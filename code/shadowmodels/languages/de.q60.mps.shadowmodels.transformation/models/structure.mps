@@ -989,5 +989,14 @@
       <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
     </node>
   </node>
+  <node concept="1TIwiD" id="AkkmJBM7jn">
+    <property role="EcuMT" value="690266166786553047" />
+    <property role="TrG5h" value="InstanceMethodDeclaration" />
+    <property role="34LRSv" value="method" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="AkkmJBM7ph" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
+    </node>
+  </node>
 </model>
 

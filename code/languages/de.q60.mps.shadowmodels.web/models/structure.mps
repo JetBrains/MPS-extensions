@@ -65,6 +65,11 @@
     <property role="TrG5h" value="HTMLElement" />
     <property role="3GE5qa" value="dom" />
     <ref role="1TJDcQ" node="7NImM04RGAP" resolve="Element" />
+    <node concept="1TJgyi" id="AkkmJBUItt" role="1TKVEl">
+      <property role="IQ2nx" value="690266166788810589" />
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyi" id="AkkmJBR8z6" role="1TKVEl">
       <property role="IQ2nx" value="690266166787868870" />
       <property role="TrG5h" value="class" />
@@ -951,6 +956,29 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="target" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="AkkmJBSm4G">
+    <property role="EcuMT" value="690266166788186412" />
+    <property role="3GE5qa" value="viewer" />
+    <property role="TrG5h" value="TextCellSelection" />
+    <ref role="1TJDcQ" node="AkkmJBMaEA" resolve="Selection" />
+    <node concept="1TJgyi" id="AkkmJBSmaD" role="1TKVEl">
+      <property role="IQ2nx" value="690266166788186793" />
+      <property role="TrG5h" value="start" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="AkkmJBSmaF" role="1TKVEl">
+      <property role="IQ2nx" value="690266166788186795" />
+      <property role="TrG5h" value="end" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="AkkmJBSmaB" role="1TKVEi">
+      <property role="IQ2ns" value="690266166788186791" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="cell" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="AkkmJBMaED" resolve="TextCell" />
     </node>
   </node>
 </model>

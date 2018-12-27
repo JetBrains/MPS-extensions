@@ -4,6 +4,11 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
+    <modelRoot contentPath="${module}/lib" type="java_classes">
+      <sourceRoot location="java_websocket.jar" />
+      <sourceRoot location="gson-2.8.0.jar" />
+      <sourceRoot location="json-20160810.jar" />
+    </modelRoot>
   </models>
   <accessoryModels />
   <generators>
@@ -44,6 +49,11 @@
       <mapping-priorities />
     </generator>
   </generators>
+  <stubModelEntries>
+    <stubModelEntry path="${module}/lib/java_websocket.jar" />
+    <stubModelEntry path="${module}/lib/gson-2.8.0.jar" />
+    <stubModelEntry path="${module}/lib/json-20160810.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">fdda8484-fc57-4faa-9059-032e2b8b648f(de.q60.mps.shadowmodels.repository)</dependency>

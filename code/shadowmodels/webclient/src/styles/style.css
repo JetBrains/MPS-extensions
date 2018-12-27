@@ -1,6 +1,31 @@
+body {
+    margin: 12px;
+    background-color: #212121;
+    color: #fff;
+}
+
+a:link {
+    color: #ccccff;
+}
+
+a:visited {
+    color: #c0c0ff;
+}
+
+a:hover {
+    color: #b8e6b8;
+}
+
+a:active {
+    color: #b8e6b8;
+}
+
 .viewer {
     font-family: Menlo, monospace;
     font-size: 11pt;
+    border: 1px solid #555;
+    padding: 3px 6px;
+    background-color: #424242;
 }
 
 .textCell {
@@ -10,7 +35,12 @@
 
 .caret {
     position: absolute;
-    background-color: black;
+    background-color: #fff;
     width: 2px;
     height: 20px;
+    display: none;
+}
+
+.cellContainer {
+    position: relative;
 }

@@ -973,12 +973,10 @@
       <property role="TrG5h" value="end" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyj" id="AkkmJBSmaB" role="1TKVEi">
-      <property role="IQ2ns" value="690266166788186791" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="cell" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="AkkmJBMaED" resolve="TextCell" />
+    <node concept="1TJgyi" id="AkkmJC2CWC" role="1TKVEl">
+      <property role="IQ2nx" value="690266166790885160" />
+      <property role="TrG5h" value="cellId" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

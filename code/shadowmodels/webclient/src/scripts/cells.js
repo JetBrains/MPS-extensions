@@ -7,17 +7,18 @@ window.onload = () => {
         constructor() {
             this.dom = document.createElement("div");
             this.dom.classList.add("caret");
-            const viewer = document.getElementsByClassName("viewer").item(0);
-            viewer.appendChild(this.dom);
+            this.parent = document.getElementsByClassName("cellContainer").item(0);
+            this.parent.appendChild(this.dom);
         }
 
         show(textCell, pos) {
             this.dom.style.display = "block";
-            const rect = absoluteBounds(textCell);
+            const textCellRect = absoluteBounds(textCell);
+            const parentRect = absoluteBounds(this.parent);
             let x = caretToX(textCell, pos);
-            this.dom.style.left = x + "px";
-            this.dom.style.top = rect.y + "px";
-            this.dom.style.height = rect.height + "px";
+            this.dom.style.left = (x - parentRect.x) + "px";
+            this.dom.style.top = (textCellRect.y - parentRect.y) + "px";
+            this.dom.style.height = textCellRect.height + "px";
         }
 
         hide() {
@@ -51,11 +52,6 @@ window.onload = () => {
                 pos: xToCaret(textCell, event.x - document.body.getBoundingClientRect().left)
             }));
         });
-    }
-
-    for (const viewer of document.getElementsByClassName("viewer")) {
-        viewer.style.backgroundColor = "#ddd";
-        viewer.style.position = "relative";
     }
 };
 

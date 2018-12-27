@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "importHelpers": true,
+        "noImplicitAny": false,
+        "noEmitHelpers": true,
+        "sourceMap": true
+    }
+}

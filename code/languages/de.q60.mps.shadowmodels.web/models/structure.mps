@@ -65,6 +65,11 @@
     <property role="TrG5h" value="HTMLElement" />
     <property role="3GE5qa" value="dom" />
     <ref role="1TJDcQ" node="7NImM04RGAP" resolve="Element" />
+    <node concept="1TJgyi" id="AkkmJBR8z6" role="1TKVEl">
+      <property role="IQ2nx" value="690266166787868870" />
+      <property role="TrG5h" value="class" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="7q7cTU0P3Ee" role="1TKVEi">
       <property role="IQ2ns" value="8540851974190676622" />
       <property role="20lmBu" value="aggregation" />
@@ -934,6 +939,18 @@
       <property role="IQ2nx" value="690266166786790011" />
       <property role="TrG5h" value="url" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="AkkmJBRtFI">
+    <property role="EcuMT" value="690266166787955438" />
+    <property role="3GE5qa" value="cell" />
+    <property role="TrG5h" value="ReferenceCell" />
+    <ref role="1TJDcQ" node="AkkmJBMaED" resolve="TextCell" />
+    <node concept="1TJgyj" id="AkkmJBRtJq" role="1TKVEi">
+      <property role="IQ2ns" value="690266166787955674" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
 </model>

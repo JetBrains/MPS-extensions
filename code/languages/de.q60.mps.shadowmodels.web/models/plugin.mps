@@ -24,6 +24,9 @@
     <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" />
     <import index="aoe3" ref="r:2b841f9e-64f6-48c4-8c54-2ee495cb0445(de.q60.mps.shadowmodels.target.text.structure)" />
     <import index="tt46" ref="r:49704863-d656-4884-8ea8-c407f9808c46(de.q60.mps.shadowmodels.target.text.behavior)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="8oaq" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.io(org.apache.commons/)" />
+    <import index="4o98" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.core.platform(MPS.Core/)" />
   </imports>
   <registry>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -344,6 +347,27 @@
           </node>
           <node concept="37vLTw" id="7NImM0573WL" role="ukAjM">
             <ref role="3cqZAo" node="7NImM0571cl" resolve="repo" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="AkkmJBO6pb" role="3cqZAp" />
+        <node concept="3clFbF" id="AkkmJBO6Wl" role="3cqZAp">
+          <node concept="37vLTI" id="AkkmJBO7AI" role="3clFbG">
+            <node concept="3cpWs3" id="AkkmJBR5d4" role="37vLTx">
+              <node concept="Xl_RD" id="AkkmJBR5dd" role="3uHU7w">
+                <property role="Xl_RC" value="&lt;/body&gt;&lt;/html&gt;" />
+              </node>
+              <node concept="3cpWs3" id="AkkmJBO7FG" role="3uHU7B">
+                <node concept="Xl_RD" id="AkkmJBO7ZE" role="3uHU7B">
+                  <property role="Xl_RC" value="&lt;html&gt;&lt;head&gt;&lt;script type=\&quot;text/javascript\&quot; src=\&quot;static?path=src/scripts/cells.js\&quot;&gt;&lt;/script&gt;&lt;/head&gt;&lt;body&gt;" />
+                </node>
+                <node concept="37vLTw" id="AkkmJBO7Z5" role="3uHU7w">
+                  <ref role="3cqZAo" node="7NImM05781j" resolve="text" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="AkkmJBO6Wj" role="37vLTJ">
+              <ref role="3cqZAo" node="7NImM05781j" resolve="text" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="5ueUq77WF4i" role="3cqZAp">
@@ -1041,6 +1065,100 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="pFx2x" id="AkkmJBO8Zi">
+    <property role="TrG5h" value="Static" />
+    <node concept="std77" id="AkkmJBO8Zj" role="std7D">
+      <node concept="std78" id="AkkmJBO8Zk" role="std7y">
+        <property role="svBHv" value="static" />
+      </node>
+    </node>
+    <node concept="pF8on" id="AkkmJBO8Zl" role="pCJbe">
+      <node concept="3clFbS" id="AkkmJBO8Zm" role="2VODD2">
+        <node concept="3cpWs8" id="AkkmJBShTV" role="3cqZAp">
+          <node concept="3cpWsn" id="AkkmJBShTW" role="3cpWs9">
+            <property role="TrG5h" value="file" />
+            <node concept="3uibUv" id="AkkmJBShTX" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            </node>
+            <node concept="2ShNRf" id="AkkmJBShYv" role="33vP2m">
+              <node concept="1pGfFk" id="AkkmJBShYu" role="2ShVmc">
+                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                <node concept="2OqwBi" id="AkkmJBShZu" role="37wK5m">
+                  <node concept="2YIFZM" id="AkkmJBShZv" role="2Oq$k0">
+                    <ref role="37wK5l" to="z1c3:~PathMacros.getInstance():jetbrains.mps.project.PathMacros" resolve="getInstance" />
+                    <ref role="1Pybhc" to="z1c3:~PathMacros" resolve="PathMacros" />
+                  </node>
+                  <node concept="liA8E" id="AkkmJBShZw" role="2OqNvi">
+                    <ref role="37wK5l" to="z1c3:~PathMacros.getValue(java.lang.String):java.lang.String" resolve="getValue" />
+                    <node concept="Xl_RD" id="AkkmJBShZx" role="37wK5m">
+                      <property role="Xl_RC" value="extensions.home" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="AkkmJBSicJ" role="3cqZAp">
+          <node concept="37vLTI" id="AkkmJBSivx" role="3clFbG">
+            <node concept="2ShNRf" id="AkkmJBSiBd" role="37vLTx">
+              <node concept="1pGfFk" id="AkkmJBSiBc" role="2ShVmc">
+                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.io.File,java.lang.String)" resolve="File" />
+                <node concept="37vLTw" id="AkkmJBSiCE" role="37wK5m">
+                  <ref role="3cqZAo" node="AkkmJBShTW" resolve="file" />
+                </node>
+                <node concept="Xl_RD" id="AkkmJBSiIN" role="37wK5m">
+                  <property role="Xl_RC" value="code/shadowmodels/webclient" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="AkkmJBSicH" role="37vLTJ">
+              <ref role="3cqZAo" node="AkkmJBShTW" resolve="file" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="AkkmJBSiNL" role="3cqZAp">
+          <node concept="37vLTI" id="AkkmJBSiNM" role="3clFbG">
+            <node concept="2ShNRf" id="AkkmJBSiNN" role="37vLTx">
+              <node concept="1pGfFk" id="AkkmJBSiNO" role="2ShVmc">
+                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.io.File,java.lang.String)" resolve="File" />
+                <node concept="37vLTw" id="AkkmJBSiNP" role="37wK5m">
+                  <ref role="3cqZAo" node="AkkmJBShTW" resolve="file" />
+                </node>
+                <node concept="3_PKRz" id="AkkmJBSiXM" role="37wK5m">
+                  <ref role="3_PKRw" node="AkkmJBO90q" resolve="path" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="AkkmJBSiNR" role="37vLTJ">
+              <ref role="3cqZAo" node="AkkmJBShTW" resolve="file" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="AkkmJBO90l" role="3cqZAp">
+          <node concept="2OqwBi" id="AkkmJBO90m" role="3clFbG">
+            <node concept="pFkrN" id="AkkmJBO90n" role="2Oq$k0" />
+            <node concept="1W9Qq2" id="AkkmJBO90o" role="2OqNvi">
+              <property role="1W9R_Y" value="text/javascript" />
+              <node concept="2YIFZM" id="AkkmJBPiL2" role="1W9R_W">
+                <ref role="37wK5l" to="8oaq:~FileUtils.readFileToString(java.io.File):java.lang.String" resolve="readFileToString" />
+                <ref role="1Pybhc" to="8oaq:~FileUtils" resolve="FileUtils" />
+                <node concept="37vLTw" id="AkkmJBSj3x" role="37wK5m">
+                  <ref role="3cqZAo" node="AkkmJBShTW" resolve="file" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3_QJtf" id="AkkmJBO90q" role="3_QDjO">
+      <property role="TrG5h" value="path" />
+      <node concept="1TjqYI" id="AkkmJBO90r" role="1TjXUf">
+        <node concept="17QB3L" id="AkkmJBOaeW" role="1TjqZ8" />
       </node>
     </node>
   </node>

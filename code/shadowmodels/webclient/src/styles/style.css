@@ -1,0 +1,16 @@
+.viewer {
+    font-family: Menlo, monospace;
+    font-size: 11pt;
+}
+
+.textCell {
+    font-family: Menlo, monospace;
+    font-size: 11pt;
+}
+
+.caret {
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 20px;
+}

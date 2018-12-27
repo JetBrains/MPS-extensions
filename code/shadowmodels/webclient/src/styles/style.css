@@ -44,3 +44,10 @@ a:active {
 .cellContainer {
     position: relative;
 }
+
+.breadcrumbs {
+    padding: 6px 6px;
+    border: 1px solid #555;
+    margin: 0 0 6px 0;
+    background-color: #303030;
+}

@@ -97,6 +97,9 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -1622,6 +1625,55 @@
               </node>
             </node>
             <node concept="3clFbH" id="AkkmJC1iZR" role="3cqZAp" />
+            <node concept="1QHqEK" id="6kYN8GagmX3" role="3cqZAp">
+              <node concept="1QHqEC" id="6kYN8GagmX5" role="1QHqEI">
+                <node concept="3clFbS" id="6kYN8GagmX7" role="1bW5cS">
+                  <node concept="SfApY" id="6kYN8GagyNG" role="3cqZAp">
+                    <node concept="3clFbS" id="6kYN8GagyNI" role="SfCbr">
+                      <node concept="3clFbF" id="AkkmJC6oT5" role="3cqZAp">
+                        <node concept="2OqwBi" id="AkkmJC6phu" role="3clFbG">
+                          <node concept="10M0yZ" id="AkkmJC6pbi" role="2Oq$k0">
+                            <ref role="3cqZAo" to="m3vg:AkkmJC5XOW" resolve="INSTANCE" />
+                            <ref role="1PxDUh" to="m3vg:AkkmJC58Z9" resolve="InteractionState" />
+                          </node>
+                          <node concept="liA8E" id="AkkmJC6pTL" role="2OqNvi">
+                            <ref role="37wK5l" to="m3vg:AkkmJC59hO" resolve="setString" />
+                            <node concept="Xl_RD" id="AkkmJC6pUU" role="37wK5m">
+                              <property role="Xl_RC" value="selectedCellId" />
+                            </node>
+                            <node concept="37vLTw" id="AkkmJC6q0b" role="37wK5m">
+                              <ref role="3cqZAo" node="AkkmJBYz2y" resolve="elementId" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="TDmWw" id="6kYN8GagyNJ" role="TEbGg">
+                      <node concept="3cpWsn" id="6kYN8GagyNL" role="TDEfY">
+                        <property role="TrG5h" value="ex" />
+                        <node concept="3uibUv" id="6kYN8GagzfT" role="1tU5fm">
+                          <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="6kYN8GagyNP" role="TDEfX">
+                        <node concept="RRSsy" id="6kYN8GagAjA" role="3cqZAp">
+                          <property role="RRSoG" value="error" />
+                          <node concept="Xl_RD" id="6kYN8GagAjC" role="RRSoy" />
+                          <node concept="37vLTw" id="6kYN8GagAjE" role="RRSow">
+                            <ref role="3cqZAo" node="6kYN8GagyNL" resolve="ex" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="6kYN8GagnjR" role="ukAjM">
+                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+                <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="AkkmJC6oxb" role="3cqZAp" />
             <node concept="3cpWs8" id="AkkmJBYEuu" role="3cqZAp">
               <node concept="3cpWsn" id="AkkmJBYEuv" role="3cpWs9">
                 <property role="TrG5h" value="responseMessage" />

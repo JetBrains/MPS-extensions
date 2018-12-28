@@ -979,5 +979,66 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6kYN8GaiMYH">
+    <property role="EcuMT" value="7295493343932002221" />
+    <property role="TrG5h" value="JSONValue" />
+    <property role="3GE5qa" value="json" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="6kYN8GaiMZW">
+    <property role="EcuMT" value="7295493343932002300" />
+    <property role="3GE5qa" value="json" />
+    <property role="TrG5h" value="JSONObject" />
+    <ref role="1TJDcQ" node="6kYN8GaiMYH" resolve="JSONValue" />
+    <node concept="1TJgyj" id="6kYN8GaiN54" role="1TKVEi">
+      <property role="IQ2ns" value="7295493343932002628" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="properties" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6kYN8GaiN2t" resolve="JSONProperty" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6kYN8GaiN1b">
+    <property role="EcuMT" value="7295493343932002379" />
+    <property role="3GE5qa" value="json" />
+    <property role="TrG5h" value="JSONString" />
+    <ref role="1TJDcQ" node="6kYN8GaiMYH" resolve="JSONValue" />
+    <node concept="1TJgyi" id="6kYN8GaiN2q" role="1TKVEl">
+      <property role="IQ2nx" value="7295493343932002458" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6kYN8GaiN2t">
+    <property role="EcuMT" value="7295493343932002461" />
+    <property role="3GE5qa" value="json" />
+    <property role="TrG5h" value="JSONProperty" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6kYN8GaiN3J" role="1TKVEi">
+      <property role="IQ2ns" value="7295493343932002543" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="value" />
+      <ref role="20lvS9" node="6kYN8GaiMYH" resolve="JSONValue" />
+    </node>
+    <node concept="1TJgyi" id="6kYN8GaiN3G" role="1TKVEl">
+      <property role="IQ2nx" value="7295493343932002540" />
+      <property role="TrG5h" value="key" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6kYN8GaiN3M">
+    <property role="EcuMT" value="7295493343932002546" />
+    <property role="3GE5qa" value="json" />
+    <property role="TrG5h" value="JSONArray" />
+    <ref role="1TJDcQ" node="6kYN8GaiMYH" resolve="JSONValue" />
+    <node concept="1TJgyj" id="6kYN8GaiN51" role="1TKVEi">
+      <property role="IQ2ns" value="7295493343932002625" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6kYN8GaiMYH" resolve="JSONValue" />
+    </node>
+  </node>
 </model>
 

@@ -32,6 +32,25 @@ window.onload = () => {
         caret: (message) => {
             caretInstance.show(document.getElementById(message.elementId), message.pos);
         },
+        dom: (message) => {
+            function buildDom(json) {
+                if (json.type === "text") {
+                    return document.createTextNode(json.text);
+                } else {
+                    const dom = document.createElement(json.type);
+                    if (json.class) dom.className = json.class;
+                    if (json.href) dom.href = json.href;
+                    if (json.id) dom.id = json.id;
+                    for (let childJson of json.children) {
+                        dom.appendChild(buildDom(childJson));
+                    }
+                    return dom;
+                }
+            }
+            const newDom = buildDom(message.dom);
+            const cellContainer = document.getElementsByClassName("cellContainer").item(0);
+            cellContainer.replaceChild(newDom, cellContainer.firstElementChild);
+        }
     };
 
     socket.onmessage = (event) => {
@@ -53,6 +72,16 @@ window.onload = () => {
             }));
         });
     }
+
+    const url_string = window.location.href
+    const url = new URL(url_string);
+    const nodeRef = url.searchParams.get("nodeRef");
+    socket.onopen = () => {
+        socket.send(JSON.stringify({
+            type: "rootNode",
+            nodeRef: nodeRef
+        }));
+    };
 };
 
 function xToCaret(textCell, x) {

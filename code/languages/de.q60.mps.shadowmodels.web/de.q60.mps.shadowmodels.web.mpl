@@ -70,6 +70,8 @@
     <dependency reexport="false">94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)</dependency>
+    <dependency reexport="false">78874af2-5dd2-42a7-a21d-42fab3737d1d(de.q60.mps.shadowmodels.web)</dependency>
+    <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:a7322769-ef64-4daa-a2f4-fd4228fb713e:de.q60.mps.shadowmodels.target.text" version="0" />

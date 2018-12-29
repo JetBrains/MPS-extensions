@@ -7,7 +7,7 @@ window.onload = () => {
         constructor() {
             this.dom = document.createElement("div");
             this.dom.classList.add("caret");
-            this.parent = document.getElementsByClassName("cellContainer").item(0);
+            this.parent = document.getElementsByClassName("interactionLayer").item(0);
             this.parent.appendChild(this.dom);
         }
 
@@ -48,7 +48,7 @@ window.onload = () => {
                 }
             }
             const newDom = buildDom(message.dom);
-            const cellContainer = document.getElementsByClassName("cellContainer").item(0);
+            const cellContainer = document.getElementsByClassName("contentLayer").item(0);
             cellContainer.replaceChild(newDom, cellContainer.firstElementChild);
         }
     };

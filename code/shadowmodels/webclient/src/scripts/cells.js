@@ -50,6 +50,18 @@ window.onload = () => {
             const newDom = buildDom(message.dom);
             const cellContainer = document.getElementsByClassName("contentLayer").item(0);
             cellContainer.replaceChild(newDom, cellContainer.firstElementChild);
+            
+            for (const textCell of document.getElementsByClassName("textCell")) {
+                textCell.onclick = (event) => {
+                    socket.send(JSON.stringify({
+                        type: "click",
+                        elementId: textCell.id,
+                        x: event.x - textCell.getBoundingClientRect().x,
+                        y: event.y - textCell.getBoundingClientRect().y,
+                        pos: xToCaret(textCell, event.x - document.body.getBoundingClientRect().left)
+                    }));
+                };
+            }
         }
     };
 
@@ -60,18 +72,6 @@ window.onload = () => {
             handler(message);
         }
     };
-
-    for (const textCell of document.getElementsByClassName("textCell")) {
-        textCell.addEventListener("click", (event) => {
-            socket.send(JSON.stringify({
-                type: "click",
-                elementId: textCell.id,
-                x: event.x - textCell.getBoundingClientRect().x,
-                y: event.y - textCell.getBoundingClientRect().y,
-                pos: xToCaret(textCell, event.x - document.body.getBoundingClientRect().left)
-            }));
-        });
-    }
 
     const url_string = window.location.href
     const url = new URL(url_string);

@@ -1078,11 +1078,19 @@
                   </node>
                   <node concept="027rt" id="AkkmJC4Mzc" role="02LM9">
                     <ref role="027rv" to="j481:7NImM053Sep" resolve="children" />
-                    <node concept="214gnc" id="AkkmJC4Mzd" role="027rp">
-                      <ref role="1YEVMl" node="AkkmJBMrJL" resolve="cell" />
-                      <node concept="1Ixn1J" id="7vWAzuEB1NR" role="214sll">
-                        <ref role="1YLLVi" node="AkkmJBMp90" resolve="node" />
-                        <node concept="214o7A" id="7vWAzuEB1Oh" role="1Ixn1I" />
+                    <node concept="027og" id="7vWAzuEBnIJ" role="027rp">
+                      <ref role="02LMe" to="j481:7NImM04TdSk" resolve="HTMLDivElement" />
+                      <node concept="027rt" id="7vWAzuEBnIY" role="02LM9">
+                        <ref role="027rv" to="j481:7NImM053Sep" resolve="children" />
+                        <node concept="027og" id="7vWAzuEBnJ8" role="027rp">
+                          <ref role="02LMe" to="j481:7NImM04RGAT" resolve="HtmlText" />
+                          <node concept="027oh" id="7vWAzuEBnJl" role="02LM9">
+                            <ref role="027oj" to="j481:7NImM04TrPE" resolve="data" />
+                            <node concept="Xl_RD" id="7vWAzuEBnJA" role="027of">
+                              <property role="Xl_RC" value="Loading ..." />
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>

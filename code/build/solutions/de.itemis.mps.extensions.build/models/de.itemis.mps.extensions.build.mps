@@ -12,9 +12,17 @@
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
+      <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
+        <property id="6666499814681541920" name="text" index="2pMdty" />
+      </concept>
       <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
         <property id="6666499814681415862" name="tagName" index="2pNNFO" />
+        <child id="6666499814681415861" name="attributes" index="2pNNFR" />
         <child id="1622293396948928802" name="content" index="3o6s8t" />
+      </concept>
+      <concept id="6666499814681447923" name="jetbrains.mps.core.xml.structure.XmlAttribute" flags="ng" index="2pNUuL">
+        <property id="6666499814681447926" name="attrName" index="2pNUuO" />
+        <child id="6666499814681541918" name="value" index="2pMdts" />
       </concept>
       <concept id="1622293396948952339" name="jetbrains.mps.core.xml.structure.XmlText" flags="nn" index="3o6iSG">
         <property id="1622293396948953704" name="value" index="3o6i5n" />
@@ -5617,6 +5625,176 @@
         </node>
       </node>
     </node>
+    <node concept="m$_wf" id="2NTGYE$JTH6" role="3989C9">
+      <property role="m$_wk" value="com.dslfoundry.plaintextgen" />
+      <node concept="3_J27D" id="2NTGYE$JTH7" role="m$_yQ">
+        <node concept="3Mxwew" id="2NTGYE$JTH8" role="3MwsjC">
+          <property role="3MwjfP" value="com.dslfoundry.plaintextgen" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="2NTGYE$JTH9" role="m$_w8">
+        <node concept="3Mxwew" id="2NTGYE$JTHa" role="3MwsjC">
+          <property role="3MwjfP" value="2018.3.1" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="2NTGYE$JTHb" role="m$_yh">
+        <ref role="m$f5T" node="2NTGYE$JTH5" resolve="com.dslfoundry.plaintextgen" />
+      </node>
+      <node concept="m$_yC" id="2NTGYE$JTHc" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="5rkDY7YkDQH" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
+      <node concept="m$_yC" id="9C_B26zzHz" role="m$_yJ">
+        <ref role="m$_y1" node="6Y0V2RJk3uw" resolve="de.itemis.mps.selection" />
+      </node>
+      <node concept="3_J27D" id="2NTGYE$JTHd" role="m_cZH">
+        <node concept="3Mxwew" id="2NTGYE$JTHe" role="3MwsjC">
+          <property role="3MwjfP" value="com.dslfoundry.plaintextgen" />
+        </node>
+      </node>
+      <node concept="2iUeEo" id="iQ9iC8xd62" role="2iVFfd">
+        <property role="2iUeEt" value="DSLFoundry" />
+        <property role="2iUeEu" value="http://dslfoundry.com/" />
+      </node>
+      <node concept="2pNNFK" id="2aMbqeN3MWF" role="20twgj">
+        <property role="2pNNFO" value="idea-version" />
+        <node concept="2pNUuL" id="2aMbqeN3MX5" role="2pNNFR">
+          <property role="2pNUuO" value="until-build" />
+          <node concept="2pMdtt" id="2aMbqeN3MXg" role="2pMdts">
+            <property role="2pMdty" value="191.1" />
+          </node>
+        </node>
+        <node concept="2pNUuL" id="2aMbqeN3MXk" role="2pNNFR">
+          <property role="2pNUuO" value="since-build" />
+          <node concept="2pMdtt" id="2aMbqeN3MXx" role="2pMdts">
+            <property role="2pMdty" value="183.1" />
+          </node>
+        </node>
+      </node>
+      <node concept="3_J27D" id="6HJqx3w3Loa" role="3s6cr7">
+        <node concept="3Mxwew" id="6HJqx3w3Loc" role="3MwsjC">
+          <property role="3MwjfP" value="Alternative Textgen for JetBrains MPS using regular reduction rules" />
+        </node>
+      </node>
+    </node>
+    <node concept="2G$12M" id="2NTGYE$JTH5" role="3989C9">
+      <property role="TrG5h" value="com.dslfoundry.plaintextgen" />
+      <node concept="1E1JtD" id="2NTGYE$JTGY" role="2G$12L">
+        <property role="TrG5h" value="com.dslfoundry.plaintextgen" />
+        <property role="3LESm3" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
+        <property role="BnDLt" value="true" />
+        <node concept="398BVA" id="34s2qA2cqLa" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="34s2qA2cr3Q" role="iGT6I">
+            <property role="2Ry0Am" value="plaintextgen" />
+            <node concept="2Ry0Ak" id="34s2qA2crzl" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="34s2qA2crDx" role="2Ry0An">
+                <property role="2Ry0Am" value="com.dslfoundry.plaintextgen" />
+                <node concept="2Ry0Ak" id="34s2qA2cs8h" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.dslfoundry.plaintextgen.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2NTGYE$JTHl" role="3bR37C">
+          <node concept="3bR9La" id="2NTGYE$JTHm" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2NTGYE$JTHn" role="3bR37C">
+          <node concept="3bR9La" id="2NTGYE$JTHo" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2NTGYE$JTHp" role="3bR37C">
+          <node concept="3bR9La" id="2NTGYE$JTHq" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2NTGYE$JTIr" role="3bR37C">
+          <node concept="3bR9La" id="2NTGYE$JTIs" role="1SiIV1">
+            <ref role="3bR37D" node="2NTGYE$JTGY" resolve="com.dslfoundry.plaintextgen" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="2NTGYE$JTIt" role="1TViLv">
+          <property role="TrG5h" value="com.dslfoundry.plaintextgen#5198309202559528987" />
+          <property role="3LESm3" value="ebbc2a81-6618-40a2-b3b8-997fd1520167" />
+        </node>
+        <node concept="1SiIV0" id="4GbnmmUeWl$" role="3bR37C">
+          <node concept="3bR9La" id="4GbnmmUeWl_" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="4kNfJosWyxF" role="3bR31x">
+          <node concept="3LXTmp" id="4kNfJosWyxG" role="3rtmxm">
+            <node concept="3qWCbU" id="4kNfJosWyxH" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="55IIr" id="4kNfJosWyxI" role="3LXTmr">
+              <node concept="2Ry0Ak" id="4kNfJosWyxJ" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="4kNfJosWyxK" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.dslfoundry.plaintextgen" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="9C_B26L$HM" role="3bR37C">
+          <node concept="3bR9La" id="9C_B26L$HN" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="1WlvqD8AO2R" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.dslfoundry.plaintextflow" />
+        <property role="3LESm3" value="cf681fc9-c798-4f89-af38-ba3c0ac342d9" />
+        <node concept="398BVA" id="34s2qA2ct5T" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="34s2qA2ct5Y" role="iGT6I">
+            <property role="2Ry0Am" value="plaintextgen" />
+            <node concept="2Ry0Ak" id="34s2qA2ctiq" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="34s2qA2ctio" role="2Ry0An">
+                <property role="2Ry0Am" value="com.dslfoundry.plaintextflow" />
+                <node concept="2Ry0Ak" id="34s2qA2ctip" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.dslfoundry.plaintextflow.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="1WlvqD8AO5P" role="1TViLv">
+          <property role="TrG5h" value="com.dslfoundry.plaintextflow#01" />
+          <property role="3LESm3" value="736153ab-0665-4767-a720-756ab69c61f0" />
+        </node>
+        <node concept="1SiIV0" id="xX3kRLlx8$" role="3bR37C">
+          <node concept="3bR9La" id="xX3kRLlx8_" role="1SiIV1">
+            <ref role="3bR37D" node="1WlvqD8AO2R" resolve="com.dslfoundry.plaintextflow" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="xX3kRLlx8A" role="3bR37C">
+          <node concept="3bR9La" id="xX3kRLlx8B" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="xX3kRLlx8C" role="3bR37C">
+          <node concept="3bR9La" id="xX3kRLlx8D" role="1SiIV1">
+            <ref role="3bR37D" node="2NTGYE$JTGY" resolve="com.dslfoundry.plaintextgen" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="xX3kRLlx8E" role="3bR37C">
+          <node concept="1Busua" id="xX3kRLlx8F" role="1SiIV1">
+            <ref role="1Busuk" node="2NTGYE$JTGY" resolve="com.dslfoundry.plaintextgen" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="m$_wf" id="4iIKqJTZ5I8" role="3989C9">
       <property role="m$_wk" value="de.q60.shadowmodels" />
       <node concept="3_J27D" id="4iIKqJTZ5I9" role="m$_yQ">
@@ -6743,6 +6921,10 @@
       <node concept="m$_wl" id="2NyZxKpV2Ss" role="39821P">
         <ref role="m_rDy" node="2NyZxKpUXYJ" resolve="de.itemis.mps.blutil" />
         <node concept="pUk6x" id="6hpM9fmFEcz" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="2NTGYE$JTHj" role="39821P">
+        <ref role="m_rDy" node="2NTGYE$JTH6" resolve="com.dslfoundry.plaintextgen" />
+        <node concept="pUk6x" id="1jpfXD$n5lw" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="1RCZH7X6nCV" role="39821P">
         <ref role="m_rDy" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />

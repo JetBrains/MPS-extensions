@@ -264,6 +264,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ndA7L_LuUK" resolve="ITargetSpec" />
     </node>
+    <node concept="1TJgyj" id="7vWAzuEMZGV" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948523883323" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="writeHandler" />
+      <ref role="20lvS9" node="7vWAzuEMZwE" resolve="ReferenceWriteHandler" />
+    </node>
     <node concept="1TJgyj" id="6ndA7L_LuUI" role="1TKVEi">
       <property role="IQ2ns" value="7335687028107243182" />
       <property role="20lmBu" value="reference" />
@@ -997,6 +1003,22 @@
     <node concept="PrWs8" id="AkkmJBM7ph" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7vWAzuEMZwE">
+    <property role="EcuMT" value="8645954948523882538" />
+    <property role="3GE5qa" value="builder" />
+    <property role="TrG5h" value="ReferenceWriteHandler" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="7vWAzuEMZwF" role="PzmwI">
+      <ref role="PrY4T" node="35N923ApTor" resolve="IWriteHandler" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7vWAzuEMZxU">
+    <property role="EcuMT" value="8645954948523882618" />
+    <property role="3GE5qa" value="builder" />
+    <property role="TrG5h" value="ReferenceWriteHandler_target" />
+    <property role="34LRSv" value="target" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

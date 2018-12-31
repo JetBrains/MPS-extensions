@@ -1,10 +1,14 @@
 
 
 window.onload = () => {
+    let clickTime = 0;
+
     const socket = new WebSocket("ws://localhost:2810/");
 
     const messageHandlers = {
         dom: (message) => {
+            console.log("Answer " + (Date.now() - clickTime));
+
             const postprocessors = [];
 
             const styleHandlers = {
@@ -54,6 +58,7 @@ window.onload = () => {
 
             for (const textCell of document.getElementsByClassName("textCell")) {
                 textCell.onclick = (event) => {
+                    clickTime = Date.now();
                     socket.send(JSON.stringify({
                         type: "click",
                         elementId: textCell.id,
@@ -65,6 +70,8 @@ window.onload = () => {
             }
 
             for (const f of postprocessors) f();
+
+            console.log("Full update " + (Date.now() - clickTime));
         }
     };
 

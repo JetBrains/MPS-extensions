@@ -35,7 +35,11 @@ window.onload = () => {
                     if (json.href) dom.href = json.href;
                     if (json.id) {
                         dom.id = json.id;
+                        const existing = id2dom.get(json.id);
                         id2dom.set(json.id, dom);
+                        if (existing && existing.parentElement) {
+                            existing.parentElement.replaceChild(dom, existing);
+                        }
                     }
                     if (json.style) {
                         for (const key of Object.keys(json.style)) {

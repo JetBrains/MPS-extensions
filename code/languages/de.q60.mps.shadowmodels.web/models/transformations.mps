@@ -3103,8 +3103,28 @@
         </node>
       </node>
       <node concept="026TG" id="7vWAzuEMHBw" role="026TK">
-        <node concept="027og" id="7vWAzuETwo3" role="026TJ">
+        <node concept="027og" id="7vWAzuFepmI" role="026TJ">
           <ref role="02LMe" to="j481:AkkmJBMaEB" resolve="Cell" />
+        </node>
+      </node>
+    </node>
+    <node concept="2OrE70" id="7vWAzuFeqTH" role="02uzr" />
+    <node concept="02vpq" id="7vWAzuFenNo" role="02uzr">
+      <ref role="1YyVLo" node="7vWAzuEMFCA" resolve="selection2caret" />
+      <node concept="02i3K" id="7vWAzuFenNp" role="02i3f">
+        <node concept="02i3D" id="7vWAzuFepjl" role="02i2B">
+          <ref role="02i3$" to="j481:AkkmJBMaEA" resolve="Selection" />
+        </node>
+      </node>
+      <node concept="026TG" id="7vWAzuFenNr" role="026TK">
+        <node concept="027og" id="7vWAzuFenNs" role="026TJ">
+          <ref role="02LMe" to="j481:AkkmJBMaED" resolve="TextCell" />
+          <node concept="027oh" id="7vWAzuFenNt" role="02LM9">
+            <ref role="027oj" to="j481:AkkmJBMou0" resolve="text" />
+            <node concept="Xl_RD" id="7vWAzuFenNu" role="027of">
+              <property role="Xl_RC" value="No caret" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -3126,7 +3146,7 @@
         </node>
       </node>
     </node>
-    <node concept="2OrE70" id="7vWAzuETwHb" role="02uzr" />
+    <node concept="2OrE70" id="7vWAzuFemZ9" role="02uzr" />
     <node concept="02vpq" id="7vWAzuEMHBM" role="02uzr">
       <ref role="1YyVLo" node="7vWAzuEMFCA" resolve="selection2caret" />
       <node concept="026TG" id="7vWAzuEMITD" role="026TK">
@@ -3192,6 +3212,15 @@
         <node concept="02i3D" id="7vWAzuEMIjK" role="02i2B">
           <ref role="02i3$" to="j481:7vWAzuEL3Az" resolve="CaretSelection" />
         </node>
+      </node>
+      <node concept="2OqwBi" id="7vWAzuFdl8e" role="vpezr">
+        <node concept="2OqwBi" id="7vWAzuFdjCn" role="2Oq$k0">
+          <node concept="214o7A" id="7vWAzuFdjmE" role="2Oq$k0" />
+          <node concept="3TrEf2" id="7vWAzuFdkIM" role="2OqNvi">
+            <ref role="3Tt5mk" to="j481:7vWAzuEMigU" resolve="focusCell" />
+          </node>
+        </node>
+        <node concept="3x8VRR" id="7vWAzuFdm3r" role="2OqNvi" />
       </node>
     </node>
     <node concept="2OrE70" id="7vWAzuEMGVT" role="02uzr" />

@@ -1,15 +1,13 @@
 
 
 window.onload = () => {
-    let clickTime = 0;
-
     const socket = new WebSocket("ws://localhost:2810/");
+    const id2dom = new Map();
 
     const messageHandlers = {
         dom: (message) => {
-            console.log("Answer " + (Date.now() - clickTime));
-
             const postprocessors = [];
+            const wiring = [];
 
             const styleHandlers = {
                 caretAlignment: (value, caretDom) => {
@@ -35,7 +33,10 @@ window.onload = () => {
                     const dom = document.createElement(json.type);
                     if (json.class) dom.className = json.class;
                     if (json.href) dom.href = json.href;
-                    if (json.id) dom.id = json.id;
+                    if (json.id) {
+                        dom.id = json.id;
+                        id2dom.set(json.id, dom);
+                    }
                     if (json.style) {
                         for (const key of Object.keys(json.style)) {
                             const styleHandler = styleHandlers[key];
@@ -46,32 +47,40 @@ window.onload = () => {
                             }
                         }
                     }
-                    for (let childJson of json.children) {
-                        dom.appendChild(buildDom(childJson));
+                    if (dom.classList.contains("textCell")) {
+                        dom.onclick = (event) => {
+                            socket.send(JSON.stringify({
+                                type: "click",
+                                elementId: dom.id,
+                                x: event.x - dom.getBoundingClientRect().x,
+                                y: event.y - dom.getBoundingClientRect().y,
+                                pos: xToCaret(dom, event.x - document.body.getBoundingClientRect().left)
+                            }));
+                        };
+                    }
+                    if (json.children) {
+                        wiring.push({
+                            parent: dom,
+                            children: json.children.map(c => typeof c === "string" ? c : buildDom(c))
+                        });
                     }
                     return dom;
                 }
             }
-            const newViewer = buildDom(message.dom);
-            const oldViewer = document.getElementsByClassName("viewer").item(0);
-            oldViewer.parentElement.replaceChild(newViewer, oldViewer);
 
-            for (const textCell of document.getElementsByClassName("textCell")) {
-                textCell.onclick = (event) => {
-                    clickTime = Date.now();
-                    socket.send(JSON.stringify({
-                        type: "click",
-                        elementId: textCell.id,
-                        x: event.x - textCell.getBoundingClientRect().x,
-                        y: event.y - textCell.getBoundingClientRect().y,
-                        pos: xToCaret(textCell, event.x - document.body.getBoundingClientRect().left)
-                    }));
-                };
+            for (const element of message.elements) {
+                buildDom(element);
             }
 
-            for (const f of postprocessors) f();
+            for (const w of wiring) {
+                setDomChildren(w.parent, w.children.map(c => typeof c === "string" ? id2dom.get(c) : c));
+            }
 
-            console.log("Full update " + (Date.now() - clickTime));
+            const newViewer = id2dom.get("viewer");
+            const oldViewer = document.getElementById("viewer");
+            oldViewer.parentElement.replaceChild(newViewer, oldViewer);
+
+            for (const f of postprocessors) f();
         }
     };
 
@@ -79,7 +88,9 @@ window.onload = () => {
         const message = JSON.parse(event.data);
         const handler = messageHandlers[message.type];
         if (handler) {
+            console.time("handler");
             handler(message);
+            console.timeEnd("handler");
         }
     };
 
@@ -93,6 +104,27 @@ window.onload = () => {
         }));
     };
 };
+
+function setDomChildren(parent, children) {
+    // TODO replace only those children that have a different/no parent
+
+    if (arrayEquals(parent.childNodes, children)) return;
+
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+    for (const child of children) {
+        parent.appendChild(child);
+    }
+}
+
+function arrayEquals(a1, a2) {
+    if (a1.length !== a2.length) return false;
+    for (let i = 0; i < a1.length; i++) {
+        if (a1[i] !== a2[i]) return false;
+    }
+    return true
+}
 
 function xToCaret(textCell, x) {
     const bounds = absoluteBounds(textCell);

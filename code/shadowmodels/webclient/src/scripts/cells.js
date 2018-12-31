@@ -91,6 +91,7 @@ window.onload = () => {
             console.time("handler");
             handler(message);
             console.timeEnd("handler");
+            console.log("Handler done " + Date.now());
         }
     };
 

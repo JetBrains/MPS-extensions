@@ -5452,7 +5452,6 @@
         </node>
       </node>
       <node concept="1E1JtD" id="F1NWDr9_MX" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.mbeddr.mpsutil.grammarcells" />
         <property role="3LESm3" value="9d69e719-78c8-4286-90db-fb19c107d049" />
         <node concept="398BVA" id="F1NWDr9AaR" role="3LF7KH">
@@ -5734,11 +5733,15 @@
             <node concept="3qWCbU" id="4kNfJosWyxH" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
-            <node concept="55IIr" id="4kNfJosWyxI" role="3LXTmr">
-              <node concept="2Ry0Ak" id="4kNfJosWyxJ" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="4kNfJosWyxK" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.dslfoundry.plaintextgen" />
+            <node concept="398BVA" id="4vOQ3lvDBNq" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4vOQ3lvDBTD" role="iGT6I">
+                <property role="2Ry0Am" value="plaintextgen" />
+                <node concept="2Ry0Ak" id="4vOQ3lvDBZR" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="4vOQ3lvDBZW" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.dslfoundry.plaintextgen" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -5751,9 +5754,9 @@
         </node>
       </node>
       <node concept="1E1JtD" id="1WlvqD8AO2R" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.dslfoundry.plaintextflow" />
         <property role="3LESm3" value="cf681fc9-c798-4f89-af38-ba3c0ac342d9" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="34s2qA2ct5T" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="34s2qA2ct5Y" role="iGT6I">

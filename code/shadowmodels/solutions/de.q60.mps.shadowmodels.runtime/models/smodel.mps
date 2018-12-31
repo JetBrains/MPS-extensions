@@ -2215,6 +2215,48 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3ECE8iPHPPr" role="jymVt" />
+    <node concept="3clFb_" id="7vWAzuF9QCW" role="jymVt">
+      <property role="TrG5h" value="removeChild" />
+      <node concept="37vLTG" id="7vWAzuF9QCX" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3uibUv" id="7vWAzuF9QCY" role="1tU5fm">
+          <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7vWAzuF9QCZ" role="3clF45" />
+      <node concept="3Tm1VV" id="7vWAzuF9QD0" role="1B3o_S" />
+      <node concept="3clFbS" id="7vWAzuF9QD2" role="3clF47">
+        <node concept="3clFbF" id="7vWAzuF9VRf" role="3cqZAp">
+          <node concept="2OqwBi" id="7vWAzuF9W0Z" role="3clFbG">
+            <node concept="37vLTw" id="7vWAzuF9VRe" role="2Oq$k0">
+              <ref role="3cqZAo" node="5gTrVpGjuMh" resolve="node" />
+            </node>
+            <node concept="liA8E" id="7vWAzuF9Yp7" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.removeChild(org.jetbrains.mps.openapi.model.SNode):void" resolve="removeChild" />
+              <node concept="2OqwBi" id="7vWAzuFa0OJ" role="37wK5m">
+                <node concept="1eOMI4" id="7vWAzuF9Z5_" role="2Oq$k0">
+                  <node concept="10QFUN" id="7vWAzuF9Z5y" role="1eOMHV">
+                    <node concept="3uibUv" id="7vWAzuF9Zan" role="10QFUM">
+                      <ref role="3uigEE" node="5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                    </node>
+                    <node concept="37vLTw" id="7vWAzuFa0ef" role="10QFUP">
+                      <ref role="3cqZAo" node="7vWAzuF9QCX" resolve="child" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OwXpG" id="7vWAzuFa1YG" role="2OqNvi">
+                  <ref role="2Oxat5" node="5gTrVpGjuMh" resolve="node" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7vWAzuF9QD3" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7vWAzuF9SMz" role="jymVt" />
     <node concept="3clFb_" id="5gTrVpGjETv" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getReferenceTarget" />
@@ -4950,12 +4992,20 @@
       <node concept="3Tm1VV" id="4EhVFrZ3Aol" role="1B3o_S" />
       <node concept="3cqZAl" id="4EhVFrZ3Aon" role="3clF45" />
       <node concept="3clFbS" id="4EhVFrZ3Aoo" role="3clF47">
-        <node concept="YS8fn" id="4EhVFrZ5eG0" role="3cqZAp">
-          <node concept="2ShNRf" id="4EhVFrZ5eG1" role="YScLw">
-            <node concept="1pGfFk" id="4EhVFrZ5eG2" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
-              <node concept="Xl_RD" id="4EhVFrZ5eG3" role="37wK5m">
-                <property role="Xl_RC" value="Not implemented" />
+        <node concept="3clFbF" id="7vWAzuFbhOm" role="3cqZAp">
+          <node concept="2OqwBi" id="7vWAzuFblrA" role="3clFbG">
+            <node concept="2OqwBi" id="7vWAzuFbhUu" role="2Oq$k0">
+              <node concept="37vLTw" id="7vWAzuFbhOl" role="2Oq$k0">
+                <ref role="3cqZAo" node="4EhVFrZ3AlB" resolve="node" />
+              </node>
+              <node concept="liA8E" id="7vWAzuFblaU" role="2OqNvi">
+                <ref role="37wK5l" to="6tkd:5gTrVpGyv8x" resolve="getParent" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7vWAzuFbpfO" role="2OqNvi">
+              <ref role="37wK5l" to="6tkd:7vWAzuF7mor" resolve="removeChild" />
+              <node concept="37vLTw" id="7vWAzuFbpAl" role="37wK5m">
+                <ref role="3cqZAo" node="4EhVFrZ3AlB" resolve="node" />
               </node>
             </node>
           </node>
@@ -17422,6 +17472,29 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="qmkA5fOOYk" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7vWAzuF7Bjm" role="jymVt">
+      <property role="TrG5h" value="removeChild" />
+      <node concept="37vLTG" id="7vWAzuF7Bjn" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3uibUv" id="7vWAzuF7Bjo" role="1tU5fm">
+          <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7vWAzuF7Bjp" role="3clF45" />
+      <node concept="3Tm1VV" id="7vWAzuF7Bjq" role="1B3o_S" />
+      <node concept="3clFbS" id="7vWAzuF7Bjs" role="3clF47">
+        <node concept="YS8fn" id="7vWAzuF7D6b" role="3cqZAp">
+          <node concept="2ShNRf" id="7vWAzuF7D6c" role="YScLw">
+            <node concept="1pGfFk" id="7vWAzuF7D6d" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7vWAzuF7Bjt" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

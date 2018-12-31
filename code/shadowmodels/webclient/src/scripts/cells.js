@@ -1,38 +1,29 @@
 
 
 window.onload = () => {
-
-    class Caret {
-
-        constructor() {
-            this.dom = document.createElement("div");
-            this.dom.classList.add("caret");
-            this.parent = document.getElementsByClassName("interactionLayer").item(0);
-            this.parent.appendChild(this.dom);
-        }
-
-        show(textCell, pos) {
-            this.dom.style.display = "block";
-            const textCellRect = absoluteBounds(textCell);
-            const parentRect = absoluteBounds(this.parent);
-            let x = caretToX(textCell, pos);
-            this.dom.style.left = (x - parentRect.x) + "px";
-            this.dom.style.top = (textCellRect.y - parentRect.y) + "px";
-            this.dom.style.height = textCellRect.height + "px";
-        }
-
-        hide() {
-            this.dom.style.display = "none";
-        }
-    }
-    const caretInstance = new Caret();
-
     const socket = new WebSocket("ws://localhost:2810/");
+
     const messageHandlers = {
-        caret: (message) => {
-            caretInstance.show(document.getElementById(message.elementId), message.pos);
-        },
         dom: (message) => {
+            const postprocessors = [];
+
+            const styleHandlers = {
+                caretAlignment: (value, caretDom) => {
+                    postprocessors.push(() => {
+                        const textCell = document.getElementById(value.cellId);
+                        const pos = Number.parseInt(value.position, 10);
+                        if (textCell) {
+                            const textCellRect = absoluteBounds(textCell);
+                            const parentRect = absoluteBounds(caretDom.parentElement);
+                            let x = caretToX(textCell, pos);
+                            caretDom.style.left = (x - parentRect.x) + "px";
+                            caretDom.style.top = (textCellRect.y - parentRect.y) + "px";
+                            caretDom.style.height = textCellRect.height + "px";
+                        }
+                    });
+                },
+            };
+
             function buildDom(json) {
                 if (json.type === "text") {
                     return document.createTextNode(json.text);
@@ -41,16 +32,26 @@ window.onload = () => {
                     if (json.class) dom.className = json.class;
                     if (json.href) dom.href = json.href;
                     if (json.id) dom.id = json.id;
+                    if (json.style) {
+                        for (const key of Object.keys(json.style)) {
+                            const styleHandler = styleHandlers[key];
+                            if (styleHandler) {
+                                styleHandler(json.style[key], dom);
+                            } else {
+                                dom.style[key] = json.style[key];
+                            }
+                        }
+                    }
                     for (let childJson of json.children) {
                         dom.appendChild(buildDom(childJson));
                     }
                     return dom;
                 }
             }
-            const newDom = buildDom(message.dom);
-            const cellContainer = document.getElementsByClassName("contentLayer").item(0);
-            cellContainer.replaceChild(newDom, cellContainer.firstElementChild);
-            
+            const newViewer = buildDom(message.dom);
+            const oldViewer = document.getElementsByClassName("viewer").item(0);
+            oldViewer.parentElement.replaceChild(newViewer, oldViewer);
+
             for (const textCell of document.getElementsByClassName("textCell")) {
                 textCell.onclick = (event) => {
                     socket.send(JSON.stringify({
@@ -62,6 +63,8 @@ window.onload = () => {
                     }));
                 };
             }
+
+            for (const f of postprocessors) f();
         }
     };
 
@@ -73,7 +76,7 @@ window.onload = () => {
         }
     };
 
-    const url_string = window.location.href
+    const url_string = window.location.href;
     const url = new URL(url_string);
     const nodeRef = url.searchParams.get("nodeRef");
     socket.onopen = () => {

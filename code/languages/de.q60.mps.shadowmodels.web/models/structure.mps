@@ -878,43 +878,30 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="AkkmJBMaEz">
-    <property role="EcuMT" value="690266166786566819" />
-    <property role="TrG5h" value="InteractionState" />
-    <property role="3GE5qa" value="viewer" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="AkkmJBMaE$" role="1TKVEi">
-      <property role="IQ2ns" value="690266166786566820" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="selection" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="AkkmJBMaEA" resolve="Selection" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="AkkmJBMaEA">
     <property role="EcuMT" value="690266166786566822" />
     <property role="TrG5h" value="Selection" />
     <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="viewer" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="AkkmJBMaEx">
-    <property role="EcuMT" value="690266166786566817" />
-    <property role="TrG5h" value="Session" />
-    <property role="3GE5qa" value="viewer" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="AkkmJBMaEw">
-    <property role="EcuMT" value="690266166786566816" />
-    <property role="TrG5h" value="Sessions" />
-    <property role="3GE5qa" value="viewer" />
+    <property role="3GE5qa" value="viewerState" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="AkkmJBMaEy">
     <property role="EcuMT" value="690266166786566818" />
-    <property role="TrG5h" value="Viewer" />
-    <property role="3GE5qa" value="viewer" />
+    <property role="TrG5h" value="ViewerState" />
+    <property role="3GE5qa" value="viewerState" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7vWAzuES8nI" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948525229550" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="rootNode" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1TJgyj" id="7vWAzuEDEWf" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948521438991" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="selection" />
+      <ref role="20lvS9" node="AkkmJBMaEA" resolve="Selection" />
+    </node>
   </node>
   <node concept="1TIwiD" id="AkkmJBMp9x">
     <property role="EcuMT" value="690266166786626145" />
@@ -960,7 +947,7 @@
   </node>
   <node concept="1TIwiD" id="AkkmJBSm4G">
     <property role="EcuMT" value="690266166788186412" />
-    <property role="3GE5qa" value="viewer" />
+    <property role="3GE5qa" value="viewerState" />
     <property role="TrG5h" value="TextCellSelection" />
     <ref role="1TJDcQ" node="AkkmJBMaEA" resolve="Selection" />
     <node concept="1TJgyi" id="AkkmJBSmaD" role="1TKVEl">
@@ -1038,6 +1025,87 @@
       <property role="20kJfa" value="elements" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6kYN8GaiMYH" resolve="JSONValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7vWAzuEL3Az">
+    <property role="EcuMT" value="8645954948523375011" />
+    <property role="3GE5qa" value="viewerState" />
+    <property role="TrG5h" value="CaretSelection" />
+    <ref role="1TJDcQ" node="AkkmJBMaEA" resolve="Selection" />
+    <node concept="1TJgyj" id="7vWAzuEMigU" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948523697210" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="focusCell" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="AkkmJBMaED" resolve="TextCell" />
+    </node>
+    <node concept="1TJgyi" id="7vWAzuEL3BP" role="1TKVEl">
+      <property role="IQ2nx" value="8645954948523375093" />
+      <property role="TrG5h" value="position" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7vWAzuEMeQA">
+    <property role="EcuMT" value="8645954948523683238" />
+    <property role="3GE5qa" value="cell" />
+    <property role="TrG5h" value="Viewer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7vWAzuEMeRP" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948523683317" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contentLayer" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7vWAzuEMeRS" resolve="Layer" />
+    </node>
+    <node concept="1TJgyj" id="7vWAzuEMeTc" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948523683404" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="interactionLayer" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7vWAzuEMeRS" resolve="Layer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7vWAzuEMeRS">
+    <property role="EcuMT" value="8645954948523683320" />
+    <property role="3GE5qa" value="cell" />
+    <property role="TrG5h" value="Layer" />
+    <ref role="1TJDcQ" node="AkkmJBMaEC" resolve="CollectionCell" />
+  </node>
+  <node concept="1TIwiD" id="7vWAzuEMhly">
+    <property role="EcuMT" value="8645954948523693410" />
+    <property role="3GE5qa" value="cell" />
+    <property role="TrG5h" value="CaretCell" />
+    <ref role="1TJDcQ" node="AkkmJBMaEB" resolve="Cell" />
+    <node concept="1TJgyi" id="7vWAzuEMhrU" role="1TKVEl">
+      <property role="IQ2nx" value="8645954948523693818" />
+      <property role="TrG5h" value="position" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="7vWAzuEMhrR" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948523693815" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="focusCell" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="AkkmJBMaED" resolve="TextCell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7vWAzuF3R_s">
+    <property role="EcuMT" value="8645954948528306524" />
+    <property role="3GE5qa" value="dom" />
+    <property role="TrG5h" value="CaretAlignmentItem" />
+    <property role="34LRSv" value="caretAlignment" />
+    <ref role="1TJDcQ" node="7q7cTU0P4oF" resolve="StyleItem" />
+    <node concept="1TJgyj" id="7vWAzuF3RWm" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948528307990" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="textCell" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7NImM04RGAQ" resolve="HTMLElement" />
+    </node>
+    <node concept="1TJgyi" id="7vWAzuF3RAL" role="1TKVEl">
+      <property role="IQ2nx" value="8645954948528306609" />
+      <property role="TrG5h" value="position" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

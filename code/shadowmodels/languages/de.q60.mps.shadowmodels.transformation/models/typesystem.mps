@@ -1379,5 +1379,58 @@
       <ref role="1YaFvo" to="oyp0:6ndA7L_LuTH" resolve="PropertyBuilder" />
     </node>
   </node>
+  <node concept="1YbPZF" id="7vWAzuEODM2">
+    <property role="TrG5h" value="typeof_ReferenceWriteHandler_target" />
+    <property role="3GE5qa" value="builder" />
+    <node concept="3clFbS" id="7vWAzuEODM3" role="18ibNy">
+      <node concept="1Z5TYs" id="7vWAzuEODWn" role="3cqZAp">
+        <node concept="mw_s8" id="7vWAzuEODWP" role="1ZfhKB">
+          <node concept="2pJPEk" id="7vWAzuEODXi" role="mwGJk">
+            <node concept="2pJPED" id="7vWAzuEODXw" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+              <node concept="2pIpSj" id="7vWAzuEODXN" role="2pJxcM">
+                <ref role="2pIpSl" to="tp25:g$ehGDh" resolve="concept" />
+                <node concept="36biLy" id="7vWAzuEODYb" role="2pJxcZ">
+                  <node concept="2OqwBi" id="7vWAzuEOHTQ" role="36biLW">
+                    <node concept="2OqwBi" id="7vWAzuEOF2N" role="2Oq$k0">
+                      <node concept="2OqwBi" id="7vWAzuEOEaM" role="2Oq$k0">
+                        <node concept="1YBJjd" id="7vWAzuEODYo" role="2Oq$k0">
+                          <ref role="1YBMHb" node="7vWAzuEODM5" resolve="n" />
+                        </node>
+                        <node concept="2Xjw5R" id="7vWAzuEOEOt" role="2OqNvi">
+                          <node concept="1xMEDy" id="7vWAzuEOEOv" role="1xVPHs">
+                            <node concept="chp4Y" id="7vWAzuEOEQW" role="ri$Ld">
+                              <ref role="cht4Q" to="oyp0:6ndA7L_LuUy" resolve="ReferenceBuilder" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="7vWAzuEOFfK" role="2OqNvi">
+                        <ref role="3Tt5mk" to="oyp0:6ndA7L_LuUI" resolve="link" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="7vWAzuEOIjq" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpce:fA0lvVK" resolve="target" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="7vWAzuEODWq" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7vWAzuEODNq" role="mwGJk">
+            <node concept="1YBJjd" id="7vWAzuEODPj" role="1Z2MuG">
+              <ref role="1YBMHb" node="7vWAzuEODM5" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7vWAzuEODM5" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:7vWAzuEMZxU" resolve="ReferenceWriteHandler_target" />
+    </node>
+  </node>
 </model>
 

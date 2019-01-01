@@ -3381,6 +3381,20 @@
                         <ref role="37wK5l" to="mhbf:~SReference.getTargetNode():org.jetbrains.mps.openapi.model.SNode" resolve="getTargetNode" />
                       </node>
                     </node>
+                    <node concept="2155sH" id="3zTK92KSo5o" role="214sll">
+                      <ref role="2155sG" node="AkkmJBMpal" resolve="node" />
+                    </node>
+                    <node concept="2OqwBi" id="3zTK92KSprv" role="214sll">
+                      <node concept="2OqwBi" id="3zTK92KSoF1" role="2Oq$k0">
+                        <node concept="214o7A" id="3zTK92KSogW" role="2Oq$k0" />
+                        <node concept="liA8E" id="3zTK92KSp1I" role="2OqNvi">
+                          <ref role="37wK5l" to="mhbf:~SReference.getLink():org.jetbrains.mps.openapi.language.SReferenceLink" resolve="getLink" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3zTK92KSIub" role="2OqNvi">
+                        <ref role="37wK5l" to="c17a:~SNamedElement.getName():java.lang.String" resolve="getName" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3512,6 +3526,16 @@
           <ref role="02i3$" to="tpck:gw2VY9q" resolve="BaseConcept" />
         </node>
       </node>
+      <node concept="02i3K" id="3zTK92KSmhP" role="02i3f">
+        <property role="TrG5h" value="source" />
+        <node concept="02i3D" id="3zTK92KSm_i" role="02i2B">
+          <ref role="02i3$" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+      </node>
+      <node concept="02i3K" id="3zTK92KSmHg" role="02i3f">
+        <property role="TrG5h" value="role" />
+        <node concept="38sA1o" id="3zTK92KSn0J" role="02i2B" />
+      </node>
     </node>
     <node concept="2OrE70" id="AkkmJBNeN$" role="02uzr" />
     <node concept="02vpq" id="AkkmJBNd0i" role="02uzr">
@@ -3521,6 +3545,16 @@
         <node concept="02i3D" id="AkkmJBNd0k" role="02i2B">
           <ref role="02i3$" to="tpck:h0TrEE$" resolve="INamedConcept" />
         </node>
+      </node>
+      <node concept="02i3K" id="3zTK92KSn7g" role="02i3f">
+        <property role="TrG5h" value="source" />
+        <node concept="02i3D" id="3zTK92KSn7h" role="02i2B">
+          <ref role="02i3$" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+      </node>
+      <node concept="02i3K" id="3zTK92KSn7i" role="02i3f">
+        <property role="TrG5h" value="role" />
+        <node concept="38sA1o" id="3zTK92KSn7j" role="02i2B" />
       </node>
       <node concept="026TG" id="AkkmJBNd0l" role="026TK">
         <node concept="027og" id="AkkmJBNe1x" role="026TJ">

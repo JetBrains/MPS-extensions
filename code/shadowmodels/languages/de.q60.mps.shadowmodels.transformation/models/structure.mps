@@ -1024,6 +1024,11 @@
     <property role="EcuMT" value="4105524263001228310" />
     <property role="TrG5h" value="StaticId" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="3zTK92LiF7m" role="1TKVEl">
+      <property role="IQ2nx" value="4105524263007203798" />
+      <property role="TrG5h" value="guid" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
 </model>
 

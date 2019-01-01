@@ -1432,5 +1432,32 @@
       <ref role="1YaFvo" to="oyp0:7vWAzuEMZxU" resolve="ReferenceWriteHandler_target" />
     </node>
   </node>
+  <node concept="1YbPZF" id="3zTK92L0gwd">
+    <property role="TrG5h" value="typeof_StaticId" />
+    <node concept="3clFbS" id="3zTK92L0gwe" role="18ibNy">
+      <node concept="1Z5TYs" id="3zTK92L0gBD" role="3cqZAp">
+        <node concept="mw_s8" id="3zTK92L0gBX" role="1ZfhKB">
+          <node concept="2ShNRf" id="3zTK92L0gBT" role="mwGJk">
+            <node concept="3zrR0B" id="3zTK92L0gI6" role="2ShVmc">
+              <node concept="3Tqbb2" id="3zTK92L0gI8" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:hP7QB7G" resolve="StringType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3zTK92L0gBG" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3zTK92L0gwn" role="mwGJk">
+            <node concept="1YBJjd" id="3zTK92L0gwB" role="1Z2MuG">
+              <ref role="1YBMHb" node="3zTK92L0gwg" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3zTK92L0gwg" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:3zTK92KVSgm" resolve="StaticId" />
+    </node>
+  </node>
 </model>
 

@@ -1020,5 +1020,10 @@
     <property role="34LRSv" value="target" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="3zTK92KVSgm">
+    <property role="EcuMT" value="4105524263001228310" />
+    <property role="TrG5h" value="StaticId" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
 </model>
 

@@ -1621,9 +1621,14 @@
             </node>
             <node concept="3cpWs6" id="3zTK92LibqA" role="3cqZAp">
               <node concept="2OqwBi" id="3zTK92LibqC" role="3cqZAk">
-                <node concept="2YIFZM" id="3zTK92LibqD" role="2Oq$k0">
-                  <ref role="37wK5l" to="33ny:~Base64.getUrlEncoder():java.util.Base64$Encoder" resolve="getUrlEncoder" />
-                  <ref role="1Pybhc" to="33ny:~Base64" resolve="Base64" />
+                <node concept="2OqwBi" id="3zTK92Lob1b" role="2Oq$k0">
+                  <node concept="2YIFZM" id="3zTK92LibqD" role="2Oq$k0">
+                    <ref role="37wK5l" to="33ny:~Base64.getUrlEncoder():java.util.Base64$Encoder" resolve="getUrlEncoder" />
+                    <ref role="1Pybhc" to="33ny:~Base64" resolve="Base64" />
+                  </node>
+                  <node concept="liA8E" id="3zTK92LobVc" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~Base64$Encoder.withoutPadding():java.util.Base64$Encoder" resolve="withoutPadding" />
+                  </node>
                 </node>
                 <node concept="liA8E" id="3zTK92LibqE" role="2OqNvi">
                   <ref role="37wK5l" to="33ny:~Base64$Encoder.encodeToString(byte[]):java.lang.String" resolve="encodeToString" />

@@ -77,7 +77,7 @@ window.onload = () => {
                     }
                     if (dom.classList.contains("textCell")) {
                         dom.onclick = (event) => {
-                            console.time("click");
+                            console.time("uievent");
                             socket.send(JSON.stringify({
                                 type: "click",
                                 elementId: dom.id,
@@ -116,6 +116,7 @@ window.onload = () => {
     };
 
     document.body.onkeypress = (event) => {
+        console.time("uievent");
         const text = event.key;
         if (text.length === 1) {
             socket.send(JSON.stringify({
@@ -129,12 +130,9 @@ window.onload = () => {
         const message = JSON.parse(event.data);
         const handler = messageHandlers[message.type];
         if (handler) {
-            console.time("handler");
             handler(message);
-            console.timeEnd("handler");
-            console.log("Handler done " + Date.now());
         }
-        console.timeEnd("click");
+        console.timeEnd("uievent");
     };
 
     const url_string = window.location.href;
@@ -168,7 +166,7 @@ function arrayEquals(a1, a2) {
     }
     return true
 }
-
+6
 function xToCaret(textCell, x) {
     const bounds = absoluteBounds(textCell);
     let left = bounds.x;

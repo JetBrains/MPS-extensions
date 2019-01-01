@@ -798,7 +798,7 @@
                         <ref role="2Gs0qQ" node="4OBfrz$xMr9" resolve="l" />
                       </node>
                       <node concept="Xl_RD" id="4OBfrz$xMrr" role="3uHU7B">
-                        <property role="Xl_RC" value="Expection in IInvalidationListener " />
+                        <property role="Xl_RC" value="Exception in IInvalidationListener " />
                       </node>
                     </node>
                     <node concept="37vLTw" id="4OBfrz$xMrs" role="RRSow">

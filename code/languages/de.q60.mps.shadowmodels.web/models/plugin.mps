@@ -3207,21 +3207,6 @@
       <node concept="3cqZAl" id="6kYN8Gal74i" role="3clF45" />
       <node concept="3Tm1VV" id="6kYN8Gal74j" role="1B3o_S" />
       <node concept="3clFbS" id="6kYN8Gal74k" role="3clF47">
-        <node concept="3clFbF" id="3zTK92KMu6i" role="3cqZAp">
-          <node concept="2OqwBi" id="3zTK92KMu6j" role="3clFbG">
-            <node concept="10M0yZ" id="3zTK92KMu6k" role="2Oq$k0">
-              <ref role="3cqZAo" node="3zTK92KKwXc" resolve="INSTANCE" />
-              <ref role="1PxDUh" node="3zTK92KKwLT" resolve="Stopwatch" />
-            </node>
-            <node concept="liA8E" id="3zTK92KMu6l" role="2OqNvi">
-              <ref role="37wK5l" node="3zTK92KK$cV" resolve="lap" />
-              <node concept="Xl_RD" id="3zTK92KMu6m" role="37wK5m">
-                <property role="Xl_RC" value="Compute dom changes" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3zTK92KMtxg" role="3cqZAp" />
         <node concept="3cpWs8" id="7vWAzuFlDEv" role="3cqZAp">
           <node concept="3cpWsn" id="7vWAzuFlDEw" role="3cpWs9">
             <property role="TrG5h" value="message" />
@@ -3637,20 +3622,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3zTK92KMvu5" role="3cqZAp">
-          <node concept="2OqwBi" id="3zTK92KMvu6" role="3clFbG">
-            <node concept="10M0yZ" id="3zTK92KMvu7" role="2Oq$k0">
-              <ref role="3cqZAo" node="3zTK92KKwXc" resolve="INSTANCE" />
-              <ref role="1PxDUh" node="3zTK92KKwLT" resolve="Stopwatch" />
-            </node>
-            <node concept="liA8E" id="3zTK92KMvu8" role="2OqNvi">
-              <ref role="37wK5l" node="3zTK92KK$cV" resolve="lap" />
-              <node concept="Xl_RD" id="3zTK92KMvu9" role="37wK5m">
-                <property role="Xl_RC" value="Send message" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="7vWAzuFlDEM" role="3cqZAp">
           <node concept="2OqwBi" id="7vWAzuFlDEN" role="3clFbG">
             <node concept="37vLTw" id="7vWAzuFlDEO" role="2Oq$k0">
@@ -3666,31 +3637,6 @@
                   <ref role="37wK5l" to="mxf6:~JSONObject.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3zTK92KMEIb" role="3cqZAp">
-          <node concept="2OqwBi" id="3zTK92KMEIc" role="3clFbG">
-            <node concept="10M0yZ" id="3zTK92KMEId" role="2Oq$k0">
-              <ref role="3cqZAo" node="3zTK92KKwXc" resolve="INSTANCE" />
-              <ref role="1PxDUh" node="3zTK92KKwLT" resolve="Stopwatch" />
-            </node>
-            <node concept="liA8E" id="3zTK92KMEIe" role="2OqNvi">
-              <ref role="37wK5l" node="3zTK92KK$cV" resolve="lap" />
-              <node concept="Xl_RD" id="3zTK92KMEIf" role="37wK5m">
-                <property role="Xl_RC" value="Message sent" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3zTK92KMIMc" role="3cqZAp">
-          <node concept="2OqwBi" id="3zTK92KMIMd" role="3clFbG">
-            <node concept="10M0yZ" id="3zTK92KMIMe" role="2Oq$k0">
-              <ref role="3cqZAo" node="3zTK92KKwXc" resolve="INSTANCE" />
-              <ref role="1PxDUh" node="3zTK92KKwLT" resolve="Stopwatch" />
-            </node>
-            <node concept="liA8E" id="3zTK92KMLQo" role="2OqNvi">
-              <ref role="37wK5l" node="3zTK92KM28y" resolve="log" />
             </node>
           </node>
         </node>

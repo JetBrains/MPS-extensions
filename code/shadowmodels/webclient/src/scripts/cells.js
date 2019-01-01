@@ -77,6 +77,7 @@ window.onload = () => {
                     }
                     if (dom.classList.contains("textCell")) {
                         dom.onclick = (event) => {
+                            console.time("click");
                             socket.send(JSON.stringify({
                                 type: "click",
                                 elementId: dom.id,
@@ -123,6 +124,7 @@ window.onload = () => {
             console.timeEnd("handler");
             console.log("Handler done " + Date.now());
         }
+        console.timeEnd("click");
     };
 
     const url_string = window.location.href;

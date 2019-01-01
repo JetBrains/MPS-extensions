@@ -467,6 +467,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3zTK92KPpo6" role="3cqZAp">
+          <node concept="2OqwBi" id="3zTK92KPpQT" role="3clFbG">
+            <node concept="2YIFZM" id="3zTK92KPpvL" role="2Oq$k0">
+              <ref role="37wK5l" to="l6bp:3zTK92KPmA1" resolve="getInstance" />
+              <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="TransformationsFromGlobalRepository" />
+            </node>
+            <node concept="liA8E" id="3zTK92KPqhC" role="2OqNvi">
+              <ref role="37wK5l" to="l6bp:3zTK92KPneu" resolve="dispose" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2uRRBj" id="7YhLqbpg0rQ" role="2uRRBE">

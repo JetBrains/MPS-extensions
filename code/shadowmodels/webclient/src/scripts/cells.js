@@ -115,6 +115,16 @@ window.onload = () => {
         }
     };
 
+    document.body.onkeypress = (event) => {
+        const text = event.key;
+        if (text.length === 1) {
+            socket.send(JSON.stringify({
+                type: "keypress",
+                key: text
+            }));
+        }
+    };
+
     socket.onmessage = (event) => {
         const message = JSON.parse(event.data);
         const handler = messageHandlers[message.type];

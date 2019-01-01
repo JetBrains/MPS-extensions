@@ -3327,6 +3327,24 @@
                           <node concept="214o7A" id="AkkmJBMVQt" role="37wK5m" />
                         </node>
                       </node>
+                      <node concept="3EkmR2" id="3zTK92L0PFO" role="3EkvFU">
+                        <node concept="3clFbS" id="3zTK92L0PFP" role="2VODD2">
+                          <node concept="3clFbF" id="3zTK92L0PVW" role="3cqZAp">
+                            <node concept="2OqwBi" id="3zTK92L0Sda" role="3clFbG">
+                              <node concept="2JrnkZ" id="3zTK92L0RPH" role="2Oq$k0">
+                                <node concept="2155sH" id="3zTK92L0PVV" role="2JrQYb">
+                                  <ref role="2155sG" node="AkkmJBMpal" resolve="node" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="3zTK92L0Tfu" role="2OqNvi">
+                                <ref role="37wK5l" to="mhbf:~SNode.setProperty(org.jetbrains.mps.openapi.language.SProperty,java.lang.String):void" resolve="setProperty" />
+                                <node concept="214o7A" id="3zTK92L0ThB" role="37wK5m" />
+                                <node concept="3EkmR1" id="3zTK92L0TRB" role="37wK5m" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>

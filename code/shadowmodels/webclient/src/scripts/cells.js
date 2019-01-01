@@ -30,25 +30,49 @@ window.onload = () => {
                 if (json.type === "text") {
                     return document.createTextNode(json.text);
                 } else {
-                    const dom = document.createElement(json.type);
+                    let dom;
+
+                    // Try to reuse the existing element
+                    if (json.id) {
+                        const existing = id2dom.get(json.id);
+                        if (existing) {
+                            if (existing.tagName.toLowerCase() === json.type.toLowerCase()) {
+                                dom = existing;
+                            } else {
+                                dom = document.createElement(json.type);
+                                dom.id = json.id;
+                                id2dom.set(json.id, dom);
+                                if (existing.parentElement) {
+                                    existing.parentElement.replaceChild(dom, existing);
+                                }
+                            }
+                        } else {
+                            dom = document.createElement(json.type);
+                            dom.id = json.id;
+                            id2dom.set(json.id, dom);
+                        }
+                    } else {
+                        dom = document.createElement(json.type);
+                    }
+
                     if (json.class) dom.className = json.class;
                     if (json.href) dom.href = json.href;
-                    if (json.id) {
-                        dom.id = json.id;
-                        const existing = id2dom.get(json.id);
-                        id2dom.set(json.id, dom);
-                        if (existing && existing.parentElement) {
-                            existing.parentElement.replaceChild(dom, existing);
-                        }
-                    }
                     if (json.style) {
+                        const stylesToRemove = new Set();
+                        for (let i = 0; i < dom.style.length; i++) {
+                            stylesToRemove.add(dom.style.item(i));
+                        }
                         for (const key of Object.keys(json.style)) {
+                            stylesToRemove.delete(key);
                             const styleHandler = styleHandlers[key];
                             if (styleHandler) {
                                 styleHandler(json.style[key], dom);
                             } else {
-                                dom.style[key] = json.style[key];
+                                dom.style.setProperty(key, json.style[key]);
                             }
+                        }
+                        for (const key of stylesToRemove) {
+                            dom.style.removeProperty(key);
                         }
                     }
                     if (dom.classList.contains("textCell")) {
@@ -82,7 +106,9 @@ window.onload = () => {
 
             const newViewer = id2dom.get("viewer");
             const oldViewer = document.getElementById("viewer");
-            oldViewer.parentElement.replaceChild(newViewer, oldViewer);
+            if (oldViewer !== newViewer) {
+                oldViewer.parentElement.replaceChild(newViewer, oldViewer);
+            }
 
             for (const f of postprocessors) f();
         }

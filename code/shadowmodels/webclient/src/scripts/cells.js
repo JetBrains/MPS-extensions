@@ -24,6 +24,17 @@ window.onload = () => {
                         }
                     });
                 },
+                ccAlignment: (value, ccDom) => {
+                    postprocessors.push(() => {
+                        const textCell = document.getElementById(value.cellId);
+                        if (textCell) {
+                            const textCellRect = absoluteBounds(textCell);
+                            const parentRect = absoluteBounds(ccDom.parentElement);
+                            ccDom.style.left = (textCellRect.x - parentRect.x) + "px";
+                            ccDom.style.top = (textCellRect.y + textCellRect.height - parentRect.y) + "px";
+                        }
+                    });
+                },
             };
 
             function buildDom(json) {
@@ -122,6 +133,14 @@ window.onload = () => {
             socket.send(JSON.stringify({
                 type: "keypress",
                 key: text
+            }));
+        }
+    };
+    document.body.onkeydown = (event) => {
+        if (event.keyCode === 32 && event.ctrlKey) { // CTRL+Space
+            event.preventDefault();
+            socket.send(JSON.stringify({
+                type: "complete"
             }));
         }
     };

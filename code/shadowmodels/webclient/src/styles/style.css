@@ -47,6 +47,29 @@ a:active {
     display: none;
 }
 
+.ccmenu {
+    position: absolute;
+    background-color: #2a2a2a;
+    border: 1px solid #888;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+.ccmenu .selection {
+    background-color: #707070;
+    padding: 0;
+}
+
+.ccmenu .matchingText {
+    padding: 0 10px 0 3px;
+    white-space: nowrap;
+}
+
+.ccmenu .description {
+    padding: 0 3px 0 10px;
+    white-space: nowrap;
+}
+
 .cellContainer {
     position: relative;
 }

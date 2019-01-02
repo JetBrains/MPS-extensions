@@ -1459,5 +1459,59 @@
       <ref role="1YaFvo" to="oyp0:3zTK92KVSgm" resolve="StaticId" />
     </node>
   </node>
+  <node concept="1YbPZF" id="3zTK92L$ykx">
+    <property role="TrG5h" value="typeof_TIntType" />
+    <node concept="3clFbS" id="3zTK92L$yky" role="18ibNy">
+      <node concept="1Z5TYs" id="3zTK92L$ykF" role="3cqZAp">
+        <node concept="mw_s8" id="3zTK92L$ykG" role="1ZfhKB">
+          <node concept="2ShNRf" id="3zTK92L$ykH" role="mwGJk">
+            <node concept="3zrR0B" id="3zTK92L$ykI" role="2ShVmc">
+              <node concept="3Tqbb2" id="3zTK92L$ykJ" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:f_0OyhT" resolve="IntegerType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3zTK92L$ykK" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3zTK92L$ykL" role="mwGJk">
+            <node concept="1YBJjd" id="3zTK92L$ykM" role="1Z2MuG">
+              <ref role="1YBMHb" node="3zTK92L$yk$" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3zTK92L$yk$" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:3zTK92L$xs2" resolve="TIntType" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="3zTK92L$ylT">
+    <property role="TrG5h" value="typeof_TBooleanType" />
+    <node concept="3clFbS" id="3zTK92L$ylU" role="18ibNy">
+      <node concept="1Z5TYs" id="3zTK92L$ym3" role="3cqZAp">
+        <node concept="mw_s8" id="3zTK92L$ym4" role="1ZfhKB">
+          <node concept="2ShNRf" id="3zTK92L$ym5" role="mwGJk">
+            <node concept="3zrR0B" id="3zTK92L$ym6" role="2ShVmc">
+              <node concept="3Tqbb2" id="3zTK92L$ym7" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3zTK92L$ym8" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3zTK92L$ym9" role="mwGJk">
+            <node concept="1YBJjd" id="3zTK92L$yma" role="1Z2MuG">
+              <ref role="1YBMHb" node="3zTK92L$ylW" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3zTK92L$ylW" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:3zTK92L$xrW" resolve="TBooleanType" />
+    </node>
+  </node>
 </model>
 

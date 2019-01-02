@@ -1035,5 +1035,23 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3zTK92L$xrW">
+    <property role="EcuMT" value="4105524263011882748" />
+    <property role="TrG5h" value="TBooleanType" />
+    <property role="34LRSv" value="boolean" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="PrWs8" id="3zTK92L$xrX" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_Lbyk" resolve="ITransformationParameterType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3zTK92L$xs2">
+    <property role="EcuMT" value="4105524263011882754" />
+    <property role="TrG5h" value="TIntType" />
+    <property role="34LRSv" value="int" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="PrWs8" id="3zTK92L$xs3" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_Lbyk" resolve="ITransformationParameterType" />
+    </node>
+  </node>
 </model>
 

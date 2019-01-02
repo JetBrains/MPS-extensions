@@ -1122,6 +1122,11 @@
     <property role="3GE5qa" value="cell" />
     <property role="TrG5h" value="CCMenuCell" />
     <ref role="1TJDcQ" node="AkkmJBMaEB" resolve="Cell" />
+    <node concept="1TJgyi" id="3zTK92L$X8F" role="1TKVEl">
+      <property role="IQ2nx" value="4105524263011996203" />
+      <property role="TrG5h" value="selectionIndex" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyj" id="3zTK92LqQ$c" role="1TKVEi">
       <property role="IQ2ns" value="4105524263009347852" />
       <property role="20lmBu" value="reference" />

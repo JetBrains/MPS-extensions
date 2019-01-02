@@ -171,6 +171,11 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
@@ -235,6 +240,7 @@
       <concept id="9170566427534439102" name="de.q60.mps.shadowmodels.transformation.structure.ParameterReference" flags="ng" index="2155sH">
         <reference id="9170566427534439103" name="decl" index="2155sG" />
       </concept>
+      <concept id="4105524263011882748" name="de.q60.mps.shadowmodels.transformation.structure.TBooleanType" flags="ig" index="29qXpG" />
       <concept id="7475940883580517769" name="de.q60.mps.shadowmodels.transformation.structure.TNullType" flags="ng" index="2K7hOm" />
       <concept id="5373338300159315830" name="de.q60.mps.shadowmodels.transformation.structure.EmptyLine" flags="ng" index="2OrE70" />
       <concept id="5373338300165862249" name="de.q60.mps.shadowmodels.transformation.structure.MapMacro" flags="ng" index="2PWHRv">
@@ -252,6 +258,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -3327,6 +3334,15 @@
               </node>
             </node>
           </node>
+          <node concept="027oh" id="3zTK92L$Y4N" role="02LM9">
+            <ref role="027oj" to="j481:3zTK92L$X8F" resolve="selectionIndex" />
+            <node concept="2OqwBi" id="3zTK92L$Yf_" role="027of">
+              <node concept="214o7A" id="3zTK92L$Y9$" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3zTK92L$Yod" role="2OqNvi">
+                <ref role="3TsBF5" to="j481:3zTK92LqFrC" resolve="selectionIndex" />
+              </node>
+            </node>
+          </node>
           <node concept="027rt" id="3zTK92LqKLH" role="02LM9">
             <ref role="027rv" to="j481:3zTK92LqKFp" resolve="entries" />
             <node concept="027og" id="3zTK92LqKLR" role="027rp">
@@ -4250,6 +4266,7 @@
     <node concept="02vpq" id="3zTK92LqMhy" role="02uzr">
       <ref role="1YyVLo" node="AkkmJBMrJL" resolve="cell" />
       <node concept="02i3K" id="3zTK92LqMIb" role="02i3f">
+        <property role="TrG5h" value="menu" />
         <node concept="02i3D" id="3zTK92LqN8o" role="02i2B">
           <ref role="02i3$" to="j481:3zTK92LqFr$" resolve="CCMenuCell" />
         </node>
@@ -4303,6 +4320,20 @@
                   <node concept="214gnc" id="3zTK92LqPMj" role="2PWHRo">
                     <ref role="1YEVMl" node="3zTK92LqO9_" resolve="ccEntry" />
                     <node concept="214o7A" id="3zTK92LqPQY" role="214sll" />
+                    <node concept="3clFbC" id="3zTK92L_0sz" role="214sll">
+                      <node concept="2OqwBi" id="3zTK92L_1o0" role="3uHU7w">
+                        <node concept="214o7A" id="3zTK92L_0O$" role="2Oq$k0" />
+                        <node concept="2bSWHS" id="3zTK92L_3P5" role="2OqNvi" />
+                      </node>
+                      <node concept="2OqwBi" id="3zTK92L$YRx" role="3uHU7B">
+                        <node concept="2155sH" id="3zTK92L$YEq" role="2Oq$k0">
+                          <ref role="2155sG" node="3zTK92LqMIb" resolve="menu" />
+                        </node>
+                        <node concept="3TrcHB" id="3zTK92L$Zu7" role="2OqNvi">
+                          <ref role="3TsBF5" to="j481:3zTK92L$X8F" resolve="selectionIndex" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -4317,6 +4348,18 @@
       <node concept="026TG" id="3zTK92LqOA$" role="026TK">
         <node concept="027og" id="3zTK92LqOAG" role="026TJ">
           <ref role="02LMe" to="j481:7NImM04TdST" resolve="HTMLTableRowElement" />
+          <node concept="027oh" id="3zTK92L_qoE" role="02LM9">
+            <ref role="027oj" to="j481:AkkmJBR8z6" resolve="class" />
+            <node concept="3K4zz7" id="3zTK92L_qDu" role="027of">
+              <node concept="Xl_RD" id="3zTK92L_qG0" role="3K4E3e">
+                <property role="Xl_RC" value="selection" />
+              </node>
+              <node concept="10Nm6u" id="3zTK92L_qKy" role="3K4GZi" />
+              <node concept="2155sH" id="3zTK92L_qri" role="3K4Cdx">
+                <ref role="2155sG" node="3zTK92L$xpH" resolve="selected" />
+              </node>
+            </node>
+          </node>
           <node concept="027rt" id="3zTK92LqOBo" role="02LM9">
             <ref role="027rv" to="j481:7NImM053Sep" resolve="children" />
             <node concept="027og" id="3zTK92LqOBy" role="027rp">
@@ -4377,6 +4420,10 @@
         <node concept="02i3D" id="3zTK92LqOAs" role="02i2B">
           <ref role="02i3$" to="j481:3zTK92LqKFj" resolve="CCMenuEntry" />
         </node>
+      </node>
+      <node concept="02i3K" id="3zTK92L$xpH" role="02i3f">
+        <property role="TrG5h" value="selected" />
+        <node concept="29qXpG" id="3zTK92L$X02" role="02i2B" />
       </node>
     </node>
   </node>

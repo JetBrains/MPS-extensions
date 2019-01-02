@@ -137,10 +137,15 @@ window.onload = () => {
         }
     };
     document.body.onkeydown = (event) => {
-        if (event.keyCode === 32 && event.ctrlKey) { // CTRL+Space
+        if (event.code === "Space" && event.ctrlKey) { // CTRL+Space
             event.preventDefault();
             socket.send(JSON.stringify({
                 type: "complete"
+            }));
+        } else if (event.code === "ArrowDown") { // Down
+            event.preventDefault();
+            socket.send(JSON.stringify({
+                type: "down"
             }));
         }
     };
@@ -185,7 +190,7 @@ function arrayEquals(a1, a2) {
     }
     return true
 }
-6
+
 function xToCaret(textCell, x) {
     const bounds = absoluteBounds(textCell);
     let left = bounds.x;

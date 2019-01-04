@@ -137,6 +137,7 @@ window.onload = () => {
         }
     };
     document.body.onkeydown = (event) => {
+        console.time("uievent");
         if (event.code === "Space" && event.ctrlKey) { // CTRL+Space
             event.preventDefault();
             socket.send(JSON.stringify({

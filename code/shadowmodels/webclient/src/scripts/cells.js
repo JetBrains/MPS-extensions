@@ -138,15 +138,30 @@ window.onload = () => {
     };
     document.body.onkeydown = (event) => {
         console.time("uievent");
-        if (event.code === "Space" && event.ctrlKey) { // CTRL+Space
+        if (event.code === "Space" && event.ctrlKey) {
             event.preventDefault();
             socket.send(JSON.stringify({
                 type: "complete"
             }));
-        } else if (event.code === "ArrowDown") { // Down
+        } else if (event.code === "ArrowDown") {
             event.preventDefault();
             socket.send(JSON.stringify({
                 type: "down"
+            }));
+        } else if (event.code === "ArrowUp") {
+            event.preventDefault();
+            socket.send(JSON.stringify({
+                type: "up"
+            }));
+        } else if (event.code === "ArrowLeft") {
+            event.preventDefault();
+            socket.send(JSON.stringify({
+                type: "left"
+            }));
+        } else if (event.code === "ArrowRight") {
+            event.preventDefault();
+            socket.send(JSON.stringify({
+                type: "right"
             }));
         }
     };

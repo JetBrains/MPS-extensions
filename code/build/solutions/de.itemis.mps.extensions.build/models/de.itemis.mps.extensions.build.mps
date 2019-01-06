@@ -5769,6 +5769,11 @@
               <ref role="3bR37D" node="4iIKqJTZ5HO" resolve="de.q60.mps.shadowmodels.transformation" />
             </node>
           </node>
+          <node concept="1SiIV0" id="3zTK92Lpave" role="3bR37C">
+            <node concept="3bR9La" id="3zTK92Lpavf" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1E1JtA" id="4iIKqJTZ5Hm" role="2G$12L">
@@ -6157,6 +6162,11 @@
         </node>
         <node concept="1E0d5M" id="4iIKqJTZ63v" role="1E1XAP">
           <ref role="1E0d5P" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+        </node>
+        <node concept="1SiIV0" id="3zTK92Lpavg" role="3bR37C">
+          <node concept="3bR9La" id="3zTK92Lpavh" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
         </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5I0" role="2G$12L">

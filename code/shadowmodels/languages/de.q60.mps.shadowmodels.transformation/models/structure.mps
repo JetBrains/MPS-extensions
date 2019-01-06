@@ -12,7 +12,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
+      </concept>
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
@@ -264,6 +266,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ndA7L_LuUK" resolve="ITargetSpec" />
     </node>
+    <node concept="1TJgyj" id="7vWAzuEMZGV" role="1TKVEi">
+      <property role="IQ2ns" value="8645954948523883323" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="writeHandler" />
+      <ref role="20lvS9" node="7vWAzuEMZwE" resolve="ReferenceWriteHandler" />
+    </node>
     <node concept="1TJgyj" id="6ndA7L_LuUI" role="1TKVEi">
       <property role="IQ2ns" value="7335687028107243182" />
       <property role="20lmBu" value="reference" />
@@ -383,6 +391,9 @@
     <node concept="PrWs8" id="7X4ppfYlxW$" role="PzmwI">
       <ref role="PrY4T" node="7X4ppfYlui3" resolve="IContextNodeProvider" />
     </node>
+    <node concept="asaX9" id="3zTK92LzTu8" role="lGtFl">
+      <property role="YLQ7P" value="Use map instead. It does the same." />
+    </node>
   </node>
   <node concept="1TIwiD" id="4EhVFrYY$lq">
     <property role="EcuMT" value="5373338300158985562" />
@@ -452,7 +463,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="call" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7X4ppfYlm1v" resolve="TransformationCall" />
+      <ref role="20lvS9" node="6ndA7L_LuUC" resolve="INodeSpec" />
     </node>
     <node concept="PrWs8" id="4EhVFrZoNdE" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
@@ -988,6 +999,65 @@
     <node concept="PrWs8" id="2Dmy1k6WpaM" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="AkkmJBM7jn">
+    <property role="EcuMT" value="690266166786553047" />
+    <property role="TrG5h" value="InstanceMethodDeclaration" />
+    <property role="34LRSv" value="method" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="AkkmJBM7ph" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7vWAzuEMZwE">
+    <property role="EcuMT" value="8645954948523882538" />
+    <property role="3GE5qa" value="builder" />
+    <property role="TrG5h" value="ReferenceWriteHandler" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="7vWAzuEMZwF" role="PzmwI">
+      <ref role="PrY4T" node="35N923ApTor" resolve="IWriteHandler" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7vWAzuEMZxU">
+    <property role="EcuMT" value="8645954948523882618" />
+    <property role="3GE5qa" value="builder" />
+    <property role="TrG5h" value="ReferenceWriteHandler_target" />
+    <property role="34LRSv" value="target" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3zTK92KVSgm">
+    <property role="EcuMT" value="4105524263001228310" />
+    <property role="TrG5h" value="StaticId" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="3zTK92LiF7m" role="1TKVEl">
+      <property role="IQ2nx" value="4105524263007203798" />
+      <property role="TrG5h" value="guid" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3zTK92L$xrW">
+    <property role="EcuMT" value="4105524263011882748" />
+    <property role="TrG5h" value="TBooleanType" />
+    <property role="34LRSv" value="boolean" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="PrWs8" id="3zTK92L$xrX" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_Lbyk" resolve="ITransformationParameterType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3zTK92L$xs2">
+    <property role="EcuMT" value="4105524263011882754" />
+    <property role="TrG5h" value="TIntType" />
+    <property role="34LRSv" value="int" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="PrWs8" id="3zTK92L$xs3" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_Lbyk" resolve="ITransformationParameterType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1HMbik_FiMj">
+    <property role="EcuMT" value="1977692823938215059" />
+    <property role="TrG5h" value="RepositoryExpression" />
+    <property role="34LRSv" value="repository" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>
 

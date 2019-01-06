@@ -7801,11 +7801,14 @@
         <node concept="398BVA" id="4JmkJs3Gs4y" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="4JmkJs3Gs4C" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="4JmkJs3Gs4H" role="2Ry0An">
-              <property role="2Ry0Am" value="test.de.q60.mps.shadowmodels.examples" />
-              <node concept="2Ry0Ak" id="4JmkJs3Gs4M" role="2Ry0An">
-                <property role="2Ry0Am" value="test.de.q60.mps.shadowmodels.examples.msd" />
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="4wrAhqcwXxO" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="4wrAhqcwXxM" role="2Ry0An">
+                <property role="2Ry0Am" value="test.de.q60.mps.shadowmodels.examples" />
+                <node concept="2Ry0Ak" id="4wrAhqcwXxN" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.q60.mps.shadowmodels.examples.msd" />
+                </node>
               </node>
             </node>
           </node>

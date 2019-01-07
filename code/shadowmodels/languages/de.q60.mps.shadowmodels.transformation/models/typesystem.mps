@@ -13,6 +13,7 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -34,6 +35,7 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -41,6 +43,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -65,6 +68,9 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -83,6 +89,9 @@
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
+      <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
+        <child id="1196350785114" name="quotedNode" index="2c44tc" />
+      </concept>
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
       </concept>
@@ -1655,6 +1664,206 @@
     <node concept="1YaCAy" id="1HMbik_FiMt" role="1YuTPh">
       <property role="TrG5h" value="n" />
       <ref role="1YaFvo" to="oyp0:1HMbik_FiMj" resolve="RepositoryExpression" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4wrAhqcD13b">
+    <property role="TrG5h" value="typeof_CopyHandler_Reference_target" />
+    <property role="3GE5qa" value="macros.copy" />
+    <node concept="3clFbS" id="4wrAhqcD13c" role="18ibNy">
+      <node concept="1Z5TYs" id="4wrAhqcD1aG" role="3cqZAp">
+        <node concept="mw_s8" id="4wrAhqcD1b8" role="1ZfhKB">
+          <node concept="2pJPEk" id="4wrAhqcD1b4" role="mwGJk">
+            <node concept="2pJPED" id="4wrAhqcD1bm" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4wrAhqcD1aJ" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4wrAhqcD13l" role="mwGJk">
+            <node concept="1YBJjd" id="4wrAhqcD13C" role="1Z2MuG">
+              <ref role="1YBMHb" node="4wrAhqcD13e" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4wrAhqcD13e" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4wrAhqcD12T" resolve="CopyHandler_Reference_target" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4wrAhqcFqIr">
+    <property role="TrG5h" value="typeof_CopyHandler_Reference_link" />
+    <property role="3GE5qa" value="macros.copy" />
+    <node concept="3clFbS" id="4wrAhqcFqIs" role="18ibNy">
+      <node concept="1Z5TYs" id="4wrAhqcFqRy" role="3cqZAp">
+        <node concept="mw_s8" id="4wrAhqcFqRY" role="1ZfhKB">
+          <node concept="2c44tf" id="4wrAhqcFqRU" role="mwGJk">
+            <node concept="3uibUv" id="4wrAhqcFC0f" role="2c44tc">
+              <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4wrAhqcFqR_" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4wrAhqcFqI_" role="mwGJk">
+            <node concept="1YBJjd" id="4wrAhqcFqIS" role="1Z2MuG">
+              <ref role="1YBMHb" node="4wrAhqcFqIu" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4wrAhqcFqIu" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4wrAhqcFqIk" resolve="CopyHandler_Reference_link" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4wrAhqcHBVI">
+    <property role="TrG5h" value="typeof_CopyHandler_Child_child" />
+    <property role="3GE5qa" value="macros.copy" />
+    <node concept="3clFbS" id="4wrAhqcHBVJ" role="18ibNy">
+      <node concept="1Z5TYs" id="4wrAhqcHC3f" role="3cqZAp">
+        <node concept="mw_s8" id="4wrAhqcHC3F" role="1ZfhKB">
+          <node concept="2c44tf" id="4wrAhqcHC3B" role="mwGJk">
+            <node concept="3Tqbb2" id="4wrAhqcHC45" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="4wrAhqcHC3i" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4wrAhqcHBVS" role="mwGJk">
+            <node concept="1YBJjd" id="4wrAhqcHBWb" role="1Z2MuG">
+              <ref role="1YBMHb" node="4wrAhqcHBVL" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4wrAhqcHBVL" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4wrAhqcHBVB" resolve="CopyHandler_Child_child" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4wrAhqcHDp0">
+    <property role="TrG5h" value="typeof_CopyHandler_Child_link" />
+    <property role="3GE5qa" value="macros.copy" />
+    <node concept="3clFbS" id="4wrAhqcHDp1" role="18ibNy">
+      <node concept="1Z5TYs" id="4wrAhqcHDy7" role="3cqZAp">
+        <node concept="mw_s8" id="4wrAhqcHDyz" role="1ZfhKB">
+          <node concept="2c44tf" id="4wrAhqcHDyv" role="mwGJk">
+            <node concept="3uibUv" id="4wrAhqcHDzl" role="2c44tc">
+              <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4wrAhqcHDya" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4wrAhqcHDpa" role="mwGJk">
+            <node concept="1YBJjd" id="4wrAhqcHDpt" role="1Z2MuG">
+              <ref role="1YBMHb" node="4wrAhqcHDp3" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4wrAhqcHDp3" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4wrAhqcHCXg" resolve="CopyHandler_Child_link" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4wrAhqcJm8z">
+    <property role="TrG5h" value="typeof_CopyHandler_Property_value" />
+    <property role="3GE5qa" value="macros.copy" />
+    <node concept="3clFbS" id="4wrAhqcJm8$" role="18ibNy">
+      <node concept="1Z5TYs" id="4wrAhqcJmhC" role="3cqZAp">
+        <node concept="mw_s8" id="4wrAhqcJmi4" role="1ZfhKB">
+          <node concept="2c44tf" id="4wrAhqcJmi0" role="mwGJk">
+            <node concept="17QB3L" id="4wrAhqcJmiu" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="4wrAhqcJmhF" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4wrAhqcJm8H" role="mwGJk">
+            <node concept="1YBJjd" id="4wrAhqcJm90" role="1Z2MuG">
+              <ref role="1YBMHb" node="4wrAhqcJm8A" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4wrAhqcJm8A" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4wrAhqcJl_G" resolve="CopyHandler_Property_value" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4wrAhqcJmiU">
+    <property role="TrG5h" value="typeof_CopyHandler_Property_role" />
+    <property role="3GE5qa" value="macros.copy" />
+    <node concept="3clFbS" id="4wrAhqcJmiV" role="18ibNy">
+      <node concept="1Z5TYs" id="4wrAhqcJmqr" role="3cqZAp">
+        <node concept="mw_s8" id="4wrAhqcJmqR" role="1ZfhKB">
+          <node concept="2c44tf" id="4wrAhqcJmqN" role="mwGJk">
+            <node concept="3uibUv" id="4wrAhqcJmrD" role="2c44tc">
+              <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4wrAhqcJmqu" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4wrAhqcJmj4" role="mwGJk">
+            <node concept="1YBJjd" id="4wrAhqcJmjn" role="1Z2MuG">
+              <ref role="1YBMHb" node="4wrAhqcJmiX" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4wrAhqcJmiX" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4wrAhqcJkoE" resolve="CopyHandler_Property_role" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4wrAhqcK2np">
+    <property role="TrG5h" value="typeof_CopyHandler_Property" />
+    <property role="3GE5qa" value="macros.copy" />
+    <node concept="3clFbS" id="4wrAhqcK2nq" role="18ibNy">
+      <node concept="1ZobV4" id="4wrAhqcK3fm" role="3cqZAp">
+        <node concept="mw_s8" id="4wrAhqcK3fU" role="1ZfhKB">
+          <node concept="2c44tf" id="4wrAhqcK3fQ" role="mwGJk">
+            <node concept="10P_77" id="4wrAhqcK3gl" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="4wrAhqcK3fp" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4wrAhqcK2nz" role="mwGJk">
+            <node concept="2OqwBi" id="4wrAhqcK2wA" role="1Z2MuG">
+              <node concept="1YBJjd" id="4wrAhqcK2nQ" role="2Oq$k0">
+                <ref role="1YBMHb" node="4wrAhqcK2ns" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="4wrAhqcK32V" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:4wrAhqcJknX" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1ZobV4" id="4wrAhqcK3gG" role="3cqZAp">
+        <node concept="mw_s8" id="4wrAhqcK3gH" role="1ZfhKB">
+          <node concept="2c44tf" id="4wrAhqcK3gI" role="mwGJk">
+            <node concept="17QB3L" id="4wrAhqcK3xF" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="4wrAhqcK3gK" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4wrAhqcK3gL" role="mwGJk">
+            <node concept="2OqwBi" id="4wrAhqcK3gM" role="1Z2MuG">
+              <node concept="1YBJjd" id="4wrAhqcK3gN" role="2Oq$k0">
+                <ref role="1YBMHb" node="4wrAhqcK2ns" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="4wrAhqcK3uR" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:4wrAhqcJko0" resolve="replacement" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4wrAhqcK2ns" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4wrAhqcJknT" resolve="CopyHandler_Property" />
     </node>
   </node>
 </model>

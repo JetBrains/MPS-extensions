@@ -7853,6 +7853,11 @@
             <ref role="3bR37D" node="BRK1N8p1xv" resolve="de.q60.mps.shadowmodels.examples.input" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2qi4B7uvqM5" role="3bR37C">
+          <node concept="3bR9La" id="2qi4B7uvqM6" role="1SiIV1">
+            <ref role="3bR37D" node="BRK1N8p1tm" resolve="de.q60.mps.shadowmodels.examples.blext" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="10PD9b" id="6$6tsX_CF7b" role="10PD9s" />

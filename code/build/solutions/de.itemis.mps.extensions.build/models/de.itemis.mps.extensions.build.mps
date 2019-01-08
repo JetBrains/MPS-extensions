@@ -6302,6 +6302,21 @@
             <ref role="3bR37D" node="BRK1N8p1tm" resolve="de.q60.mps.shadowmodels.examples.blext" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2qi4B7uzvIW" role="3bR37C">
+          <node concept="3bR9La" id="2qi4B7uzvIX" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2qi4B7uzvIY" role="3bR37C">
+          <node concept="3bR9La" id="2qi4B7uzvIZ" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5I0" resolve="de.q60.mps.shadowmodels.repository" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2qi4B7uzvJ0" role="3bR37C">
+          <node concept="3bR9La" id="2qi4B7uzvJ1" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="BRK1N8p1qk" role="2G$12L">
         <property role="BnDLt" value="true" />

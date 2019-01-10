@@ -72,6 +72,13 @@
       <modulePath path="$PROJECT_DIR$/nodeversioning/languages/de.itemis.mps.nodeversioning/de.itemis.mps.nodeversioning.mpl" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/solutions/de.itemis.mps.nodeversioning.runtime.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/tests/de.itemis.mps.nodeversioning.test/de.itemis.mps.nodeversioning.test.msd" folder="nodeversioning" />
+      <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextflow/com.dslfoundry.plaintextflow.mpl" folder="plaintextgen" />
+      <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.nestedlist/com.dslfoundry.plaintextgen.example.nestedlist.mpl" folder="plaintextgen" />
+      <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.testlang/com.dslfoundry.plaintextgen.example.testlang.mpl" folder="plaintextgen" />
+      <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen/com.dslfoundry.plaintextgen.mpl" folder="plaintextgen" />
+      <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.nestedlist.sandbox/com.dslfoundry.plaintextgen.example.nestedlist.sandbox.msd" folder="plaintextgen" />
+      <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.plaintextflow/com.dslfoundry.plaintextgen.example.plaintextflow.msd" folder="plaintextgen" />
+      <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.testlang.sandbox/com.dslfoundry.plaintextgen.example.testlang.sandbox.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/de.slisson.richtext.customcell/de.slisson.richtext.customcell.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/javadoc/javadoc.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />

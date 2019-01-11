@@ -1241,5 +1241,149 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="4wrAhqcFC2o">
+    <property role="3GE5qa" value="macros.copy" />
+    <ref role="1M2myG" to="oyp0:4wrAhqcFqIk" resolve="CopyHandler_Reference_link" />
+    <node concept="9S07l" id="4wrAhqcFC2p" role="9Vyp8">
+      <node concept="3clFbS" id="4wrAhqcFC2q" role="2VODD2">
+        <node concept="3clFbF" id="4wrAhqcFC9L" role="3cqZAp">
+          <node concept="2OqwBi" id="4wrAhqcFDGc" role="3clFbG">
+            <node concept="2OqwBi" id="4wrAhqcFCnS" role="2Oq$k0">
+              <node concept="nLn13" id="4wrAhqcGqYA" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4wrAhqcFCV$" role="2OqNvi">
+                <node concept="1xMEDy" id="4wrAhqcFCVA" role="1xVPHs">
+                  <node concept="chp4Y" id="4wrAhqcFD6D" role="ri$Ld">
+                    <ref role="cht4Q" to="oyp0:4wrAhqcD12P" resolve="CopyHandler_Reference" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="4wrAhqcFDq6" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4wrAhqcFEVT" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4wrAhqcFFcF">
+    <property role="3GE5qa" value="macros.copy" />
+    <ref role="1M2myG" to="oyp0:4wrAhqcD12T" resolve="CopyHandler_Reference_target" />
+    <node concept="9S07l" id="4wrAhqcFFcG" role="9Vyp8">
+      <node concept="3clFbS" id="4wrAhqcFFcH" role="2VODD2">
+        <node concept="3clFbF" id="4wrAhqcFFk3" role="3cqZAp">
+          <node concept="2OqwBi" id="4wrAhqcFFk4" role="3clFbG">
+            <node concept="2OqwBi" id="4wrAhqcFFk5" role="2Oq$k0">
+              <node concept="nLn13" id="4wrAhqcGrpg" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4wrAhqcFFk7" role="2OqNvi">
+                <node concept="1xMEDy" id="4wrAhqcFFk8" role="1xVPHs">
+                  <node concept="chp4Y" id="4wrAhqcFFk9" role="ri$Ld">
+                    <ref role="cht4Q" to="oyp0:4wrAhqcD12P" resolve="CopyHandler_Reference" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="4wrAhqcFFka" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4wrAhqcFFkb" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4wrAhqcHCnc">
+    <property role="3GE5qa" value="macros.copy" />
+    <ref role="1M2myG" to="oyp0:4wrAhqcHBVB" resolve="CopyHandler_Child_child" />
+    <node concept="9S07l" id="4wrAhqcHCnd" role="9Vyp8">
+      <node concept="3clFbS" id="4wrAhqcHCne" role="2VODD2">
+        <node concept="3clFbF" id="4wrAhqcHCu$" role="3cqZAp">
+          <node concept="2OqwBi" id="4wrAhqcHCu_" role="3clFbG">
+            <node concept="2OqwBi" id="4wrAhqcHCuA" role="2Oq$k0">
+              <node concept="nLn13" id="4wrAhqcHCuB" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4wrAhqcHCuC" role="2OqNvi">
+                <node concept="1xMEDy" id="4wrAhqcHCuD" role="1xVPHs">
+                  <node concept="chp4Y" id="4wrAhqcHCJT" role="ri$Ld">
+                    <ref role="cht4Q" to="oyp0:4wrAhqcH2n8" resolve="CopyHandler_Child" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="4wrAhqcHCuF" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4wrAhqcHCuG" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4wrAhqcHDaE">
+    <property role="3GE5qa" value="macros.copy" />
+    <ref role="1M2myG" to="oyp0:4wrAhqcHCXg" resolve="CopyHandler_Child_link" />
+    <node concept="9S07l" id="4wrAhqcHDaF" role="9Vyp8">
+      <node concept="3clFbS" id="4wrAhqcHDaG" role="2VODD2">
+        <node concept="3clFbF" id="4wrAhqcHDaO" role="3cqZAp">
+          <node concept="2OqwBi" id="4wrAhqcHDaP" role="3clFbG">
+            <node concept="2OqwBi" id="4wrAhqcHDaQ" role="2Oq$k0">
+              <node concept="nLn13" id="4wrAhqcHDaR" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4wrAhqcHDaS" role="2OqNvi">
+                <node concept="1xMEDy" id="4wrAhqcHDaT" role="1xVPHs">
+                  <node concept="chp4Y" id="4wrAhqcHDaU" role="ri$Ld">
+                    <ref role="cht4Q" to="oyp0:4wrAhqcH2n8" resolve="CopyHandler_Child" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="4wrAhqcHDaV" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4wrAhqcHDaW" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4wrAhqcJkZC">
+    <property role="3GE5qa" value="macros.copy" />
+    <ref role="1M2myG" to="oyp0:4wrAhqcJkoE" resolve="CopyHandler_Property_role" />
+    <node concept="9S07l" id="4wrAhqcJkZD" role="9Vyp8">
+      <node concept="3clFbS" id="4wrAhqcJkZE" role="2VODD2">
+        <node concept="3clFbF" id="4wrAhqcJl70" role="3cqZAp">
+          <node concept="2OqwBi" id="4wrAhqcJl71" role="3clFbG">
+            <node concept="2OqwBi" id="4wrAhqcJl72" role="2Oq$k0">
+              <node concept="nLn13" id="4wrAhqcJl73" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4wrAhqcJl74" role="2OqNvi">
+                <node concept="1xMEDy" id="4wrAhqcJl75" role="1xVPHs">
+                  <node concept="chp4Y" id="4wrAhqcJlol" role="ri$Ld">
+                    <ref role="cht4Q" to="oyp0:4wrAhqcJknT" resolve="CopyHandler_Property" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="4wrAhqcJl77" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4wrAhqcJl78" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4wrAhqcJlNh">
+    <property role="3GE5qa" value="macros.copy" />
+    <ref role="1M2myG" to="oyp0:4wrAhqcJl_G" resolve="CopyHandler_Property_value" />
+    <node concept="9S07l" id="4wrAhqcJlNi" role="9Vyp8">
+      <node concept="3clFbS" id="4wrAhqcJlNj" role="2VODD2">
+        <node concept="3clFbF" id="4wrAhqcJlUD" role="3cqZAp">
+          <node concept="2OqwBi" id="4wrAhqcJlUE" role="3clFbG">
+            <node concept="2OqwBi" id="4wrAhqcJlUF" role="2Oq$k0">
+              <node concept="nLn13" id="4wrAhqcJlUG" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="4wrAhqcJlUH" role="2OqNvi">
+                <node concept="1xMEDy" id="4wrAhqcJlUI" role="1xVPHs">
+                  <node concept="chp4Y" id="4wrAhqcJlUJ" role="ri$Ld">
+                    <ref role="cht4Q" to="oyp0:4wrAhqcJknT" resolve="CopyHandler_Property" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="4wrAhqcJlUK" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4wrAhqcJlUL" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -15,7 +15,9 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -129,6 +131,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6QszampKyCT" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="7uapjVB0MEe">
+    <property role="TrG5h" value="ClassB" />
+    <node concept="3Tm1VV" id="7uapjVB0MEf" role="1B3o_S" />
+    <node concept="3uibUv" id="7uapjVB0MEN" role="1zkMxy">
+      <ref role="3uigEE" node="6QszampKyCS" resolve="ClassA" />
+    </node>
   </node>
 </model>
 

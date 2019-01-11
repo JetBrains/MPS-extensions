@@ -13,3 +13,4 @@ test_gen/
 site
 .DS_Store
 .gradletasknamecache
+.idea/encodings.xml

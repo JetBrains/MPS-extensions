@@ -2,11 +2,11 @@
 <model ref="r:53747654-8f0d-48ae-96f3-1e68e62f0a2f(test.de.slisson.mps.tables@tests)">
   <persistence version="9" />
   <languages>
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="2d56439e-634d-4d25-9d30-963e89ecda48" name="de.slisson.mps.tables.demolang" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
   </languages>
   <imports>
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
@@ -104,9 +104,6 @@
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
-      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
-        <child id="1160998896846" name="condition" index="1gVkn0" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -137,6 +134,9 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
       </concept>
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
+      <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
+        <child id="1171981057159" name="condition" index="3vwVQn" />
+      </concept>
     </language>
     <language id="2d56439e-634d-4d25-9d30-963e89ecda48" name="de.slisson.mps.tables.demolang">
       <concept id="1397920687865362527" name="de.slisson.mps.tables.demolang.structure.Requirement" flags="ng" index="2r114E">
@@ -1232,8 +1232,8 @@
           </node>
         </node>
       </node>
-      <node concept="1gVbGN" id="6_jcnh_pYXO" role="3cqZAp">
-        <node concept="2OqwBi" id="6_jcnh_pZ8_" role="1gVkn0">
+      <node concept="3vwNmj" id="6sRTg7sjJaU" role="3cqZAp">
+        <node concept="2OqwBi" id="6_jcnh_pZ8_" role="3vwVQn">
           <node concept="37vLTw" id="6_jcnh_pZ7_" role="2Oq$k0">
             <ref role="3cqZAo" node="6_jcnh_pXiC" resolve="selectedNode" />
           </node>
@@ -1497,13 +1497,13 @@
           </node>
         </node>
       </node>
-      <node concept="1gVbGN" id="6_jcnh_qwIv" role="3cqZAp">
-        <node concept="2OqwBi" id="6_jcnh_qwIw" role="1gVkn0">
-          <node concept="37vLTw" id="6_jcnh_qwIx" role="2Oq$k0">
+      <node concept="3vwNmj" id="6sRTg7sg3gv" role="3cqZAp">
+        <node concept="2OqwBi" id="6sRTg7sg3wx" role="3vwVQn">
+          <node concept="37vLTw" id="6sRTg7sg3wy" role="2Oq$k0">
             <ref role="3cqZAo" node="6_jcnh_qwIq" resolve="selectedNode" />
           </node>
-          <node concept="1mIQ4w" id="6_jcnh_qwIy" role="2OqNvi">
-            <node concept="chp4Y" id="6_jcnh_qwIz" role="cj9EA">
+          <node concept="1mIQ4w" id="6sRTg7sg3wz" role="2OqNvi">
+            <node concept="chp4Y" id="6sRTg7sg3w$" role="cj9EA">
               <ref role="cht4Q" to="nnej:1dAqnm8oBxv" resolve="Requirement" />
             </node>
           </node>
@@ -1759,8 +1759,8 @@
           </node>
         </node>
       </node>
-      <node concept="1gVbGN" id="6_jcnh_rknA" role="3cqZAp">
-        <node concept="2OqwBi" id="6_jcnh_rknB" role="1gVkn0">
+      <node concept="3vwNmj" id="6sRTg7sg4DY" role="3cqZAp">
+        <node concept="2OqwBi" id="6_jcnh_rknB" role="3vwVQn">
           <node concept="37vLTw" id="6_jcnh_rknC" role="2Oq$k0">
             <ref role="3cqZAo" node="6_jcnh_rknx" resolve="selectedNode" />
           </node>

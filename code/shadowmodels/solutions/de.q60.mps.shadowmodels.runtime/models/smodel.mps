@@ -4388,6 +4388,176 @@
   <node concept="312cEu" id="4EhVFrZ3AjR">
     <property role="TrG5h" value="NodeToSNodeAdapter" />
     <node concept="2tJIrI" id="4EhVFrZ6cxR" role="jymVt" />
+    <node concept="Wx3nA" id="56YPHTopiR0" role="jymVt">
+      <property role="TrG5h" value="ourInstances" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="56YPHTooWJq" role="1tU5fm">
+        <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
+        <node concept="1LlUBW" id="56YPHTopK7t" role="11_B2D">
+          <node concept="3uibUv" id="56YPHTopNaO" role="1Lm7xW">
+            <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+          </node>
+          <node concept="3uibUv" id="56YPHTopQel" role="1Lm7xW">
+            <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+          </node>
+        </node>
+        <node concept="3uibUv" id="56YPHTop0YY" role="11_B2D">
+          <ref role="3uigEE" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="56YPHTooRvk" role="1B3o_S" />
+      <node concept="2OqwBi" id="56YPHTopfr0" role="33vP2m">
+        <node concept="2OqwBi" id="56YPHTopcxT" role="2Oq$k0">
+          <node concept="2ShNRf" id="56YPHTop8Ea" role="2Oq$k0">
+            <node concept="1pGfFk" id="56YPHTopb6k" role="2ShVmc">
+              <ref role="37wK5l" to="3o3z:~MapMaker.&lt;init&gt;()" resolve="MapMaker" />
+            </node>
+          </node>
+          <node concept="liA8E" id="56YPHTopdXD" role="2OqNvi">
+            <ref role="37wK5l" to="3o3z:~MapMaker.weakValues():com.google.common.collect.MapMaker" resolve="weakValues" />
+          </node>
+        </node>
+        <node concept="liA8E" id="56YPHTophtm" role="2OqNvi">
+          <ref role="37wK5l" to="3o3z:~MapMaker.makeMap():java.util.concurrent.ConcurrentMap" resolve="makeMap" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="56YPHTooLsd" role="jymVt" />
+    <node concept="2YIFZL" id="56YPHToqKHJ" role="jymVt">
+      <property role="TrG5h" value="getInstance" />
+      <node concept="3clFbS" id="56YPHTopXDY" role="3clF47">
+        <node concept="3cpWs8" id="56YPHToqjNE" role="3cqZAp">
+          <node concept="3cpWsn" id="56YPHToqjNF" role="3cpWs9">
+            <property role="TrG5h" value="key" />
+            <node concept="1LlUBW" id="56YPHToqjNz" role="1tU5fm">
+              <node concept="3uibUv" id="56YPHToqjND" role="1Lm7xW">
+                <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+              </node>
+              <node concept="3uibUv" id="56YPHToqjNC" role="1Lm7xW">
+                <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+              </node>
+            </node>
+            <node concept="1Ls8ON" id="56YPHToqjNG" role="33vP2m">
+              <node concept="37vLTw" id="56YPHToqjNH" role="1Lso8e">
+                <ref role="3cqZAo" node="56YPHToq9Jh" resolve="node" />
+              </node>
+              <node concept="37vLTw" id="56YPHToqjNI" role="1Lso8e">
+                <ref role="3cqZAo" node="56YPHToq9Jj" resolve="repository" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="56YPHToqurR" role="3cqZAp">
+          <node concept="3cpWsn" id="56YPHToqurS" role="3cpWs9">
+            <property role="TrG5h" value="instance" />
+            <node concept="3uibUv" id="56YPHToquqS" role="1tU5fm">
+              <ref role="3uigEE" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+            </node>
+            <node concept="2OqwBi" id="56YPHToqurT" role="33vP2m">
+              <node concept="37vLTw" id="56YPHToqurU" role="2Oq$k0">
+                <ref role="3cqZAo" node="56YPHTopiR0" resolve="ourInstances" />
+              </node>
+              <node concept="liA8E" id="56YPHToqurV" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
+                <node concept="37vLTw" id="56YPHToqurW" role="37wK5m">
+                  <ref role="3cqZAo" node="56YPHToqjNF" resolve="key" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="56YPHToqxnT" role="3cqZAp">
+          <node concept="3clFbS" id="56YPHToqxnV" role="3clFbx">
+            <node concept="3clFbF" id="56YPHToqyDr" role="3cqZAp">
+              <node concept="37vLTI" id="56YPHToqzen" role="3clFbG">
+                <node concept="2ShNRf" id="56YPHToqzui" role="37vLTx">
+                  <node concept="1pGfFk" id="56YPHToqzlw" role="2ShVmc">
+                    <ref role="37wK5l" node="4EhVFrZ5iKh" resolve="NodeToSNodeAdapter" />
+                    <node concept="37vLTw" id="56YPHToq$VM" role="37wK5m">
+                      <ref role="3cqZAo" node="56YPHToq9Jh" resolve="node" />
+                    </node>
+                    <node concept="37vLTw" id="56YPHToq_tt" role="37wK5m">
+                      <ref role="3cqZAo" node="56YPHToq9Jj" resolve="repository" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="56YPHToqyDp" role="37vLTJ">
+                  <ref role="3cqZAo" node="56YPHToqurS" resolve="instance" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="56YPHToq_TG" role="3cqZAp">
+              <node concept="2OqwBi" id="56YPHToqC1Z" role="3clFbG">
+                <node concept="37vLTw" id="56YPHToq_TE" role="2Oq$k0">
+                  <ref role="3cqZAo" node="56YPHTopiR0" resolve="ourInstances" />
+                </node>
+                <node concept="liA8E" id="56YPHToqIdt" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                  <node concept="37vLTw" id="56YPHToqJeK" role="37wK5m">
+                    <ref role="3cqZAo" node="56YPHToqjNF" resolve="key" />
+                  </node>
+                  <node concept="37vLTw" id="56YPHToqIws" role="37wK5m">
+                    <ref role="3cqZAo" node="56YPHToqurS" resolve="instance" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="56YPHToqyig" role="3clFbw">
+            <node concept="10Nm6u" id="56YPHToqyvG" role="3uHU7w" />
+            <node concept="37vLTw" id="56YPHToqxD$" role="3uHU7B">
+              <ref role="3cqZAo" node="56YPHToqurS" resolve="instance" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="56YPHToqXs5" role="9aQIa">
+            <node concept="3clFbS" id="56YPHToqXs6" role="9aQI4">
+              <node concept="3SKdUt" id="56YPHTovrpw" role="3cqZAp">
+                <node concept="3SKdUq" id="56YPHTovrpy" role="3SKWNk">
+                  <property role="3SKdUp" value="TODO Required because ResultElementAsNode carries containmentData that is not part of the equalitity." />
+                </node>
+              </node>
+              <node concept="3clFbF" id="56YPHToqX_B" role="3cqZAp">
+                <node concept="37vLTI" id="56YPHTorfOm" role="3clFbG">
+                  <node concept="37vLTw" id="56YPHTorh6a" role="37vLTx">
+                    <ref role="3cqZAo" node="56YPHToq9Jh" resolve="node" />
+                  </node>
+                  <node concept="2OqwBi" id="56YPHToqY6l" role="37vLTJ">
+                    <node concept="37vLTw" id="56YPHToqX_A" role="2Oq$k0">
+                      <ref role="3cqZAo" node="56YPHToqurS" resolve="instance" />
+                    </node>
+                    <node concept="2OwXpG" id="56YPHToqYok" role="2OqNvi">
+                      <ref role="2Oxat5" node="4EhVFrZ3AlB" resolve="node" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56YPHToqK7j" role="3cqZAp">
+          <node concept="37vLTw" id="56YPHToqKxI" role="3clFbG">
+            <ref role="3cqZAo" node="56YPHToqurS" resolve="instance" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="56YPHToq9Jh" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3uibUv" id="56YPHToq9Ji" role="1tU5fm">
+          <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="56YPHToq9Jj" role="3clF46">
+        <property role="TrG5h" value="repository" />
+        <node concept="3uibUv" id="56YPHToq9Jk" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="56YPHToqe$_" role="3clF45">
+        <ref role="3uigEE" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+      </node>
+      <node concept="3Tm6S6" id="56YPHToqQtK" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="56YPHTopSp3" role="jymVt" />
     <node concept="2YIFZL" id="4EhVFrZ6z9$" role="jymVt">
       <property role="TrG5h" value="wrap" />
       <property role="DiZV1" value="false" />
@@ -4463,15 +4633,13 @@
           </node>
         </node>
         <node concept="3clFbF" id="75046mm7IEf" role="3cqZAp">
-          <node concept="2ShNRf" id="75046mm7IEg" role="3clFbG">
-            <node concept="1pGfFk" id="75046mm7IEh" role="2ShVmc">
-              <ref role="37wK5l" node="4EhVFrZ5iKh" resolve="NodeToSNodeAdapter" />
-              <node concept="37vLTw" id="75046mm7IEi" role="37wK5m">
-                <ref role="3cqZAo" node="75046mm7IEk" resolve="nodeToWrap" />
-              </node>
-              <node concept="37vLTw" id="75046mm7IEj" role="37wK5m">
-                <ref role="3cqZAo" node="75046mm7IEm" resolve="repository" />
-              </node>
+          <node concept="1rXfSq" id="56YPHToqS4s" role="3clFbG">
+            <ref role="37wK5l" node="56YPHToqKHJ" resolve="getInstance" />
+            <node concept="37vLTw" id="75046mm7IEi" role="37wK5m">
+              <ref role="3cqZAo" node="75046mm7IEk" resolve="nodeToWrap" />
+            </node>
+            <node concept="37vLTw" id="75046mm7IEj" role="37wK5m">
+              <ref role="3cqZAo" node="75046mm7IEm" resolve="repository" />
             </node>
           </node>
         </node>

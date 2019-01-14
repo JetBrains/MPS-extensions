@@ -1191,11 +1191,11 @@
                       <node concept="3cpWs3" id="6DbeQdm2sn_" role="37wK5m">
                         <node concept="2OqwBi" id="6DbeQdm2wqb" role="3uHU7w">
                           <node concept="2OqwBi" id="6DbeQdm2vt2" role="2Oq$k0">
-                            <node concept="37vLTw" id="6DbeQdm2uEI" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5wnrAmTIGZ$" resolve="nodeToTrace" />
+                            <node concept="37vLTw" id="6DbeQdm2CKP" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1EWB5bl1a_e" resolve="proxy" />
                             </node>
-                            <node concept="liA8E" id="6DbeQdm2w9o" role="2OqNvi">
-                              <ref role="37wK5l" to="mhbf:~SNode.getReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getReference" />
+                            <node concept="liA8E" id="6DbeQdm2EIZ" role="2OqNvi">
+                              <ref role="37wK5l" to="6tkd:42zqTR3lK_R" resolve="getReference" />
                             </node>
                           </node>
                           <node concept="liA8E" id="6DbeQdm2xyR" role="2OqNvi">

@@ -1039,16 +1039,16 @@
           </node>
         </node>
         <node concept="3clFbH" id="5wnrAmTJLjj" role="3cqZAp" />
-        <node concept="3cpWs8" id="5wnrAmTIWk8" role="3cqZAp">
-          <node concept="3cpWsn" id="5wnrAmTIWk9" role="3cpWs9">
-            <property role="TrG5h" value="call" />
-            <node concept="3uibUv" id="5wnrAmTIWk6" role="1tU5fm">
-              <ref role="3uigEE" to="6tkd:5gTrVpGiXy3" resolve="TransformationProblem" />
+        <node concept="3cpWs8" id="1EWB5bl1a_d" role="3cqZAp">
+          <node concept="3cpWsn" id="1EWB5bl1a_e" role="3cpWs9">
+            <property role="TrG5h" value="proxy" />
+            <node concept="3uibUv" id="1EWB5bl1gw1" role="1tU5fm">
+              <ref role="3uigEE" to="6tkd:42zqTR3lI0q" resolve="ResultElementAsNode" />
             </node>
-            <node concept="2YIFZM" id="5wnrAmTIWka" role="33vP2m">
-              <ref role="37wK5l" to="l6bp:5wnrAmTHHgq" resolve="getCall" />
+            <node concept="2YIFZM" id="1EWB5bl1cnC" role="33vP2m">
+              <ref role="37wK5l" to="l6bp:5wnrAmUh0IZ" resolve="getResultElementProxy" />
               <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
-              <node concept="37vLTw" id="5wnrAmTIWkb" role="37wK5m">
+              <node concept="37vLTw" id="1EWB5bl1hk5" role="37wK5m">
                 <ref role="3cqZAo" node="5wnrAmTIGZ$" resolve="nodeToTrace" />
               </node>
             </node>
@@ -1056,6 +1056,22 @@
         </node>
         <node concept="3clFbJ" id="5wnrAmTIWSU" role="3cqZAp">
           <node concept="3clFbS" id="5wnrAmTIWSW" role="3clFbx">
+            <node concept="3cpWs8" id="5wnrAmTIWk8" role="3cqZAp">
+              <node concept="3cpWsn" id="5wnrAmTIWk9" role="3cpWs9">
+                <property role="TrG5h" value="call" />
+                <node concept="3uibUv" id="5wnrAmTIWk6" role="1tU5fm">
+                  <ref role="3uigEE" to="6tkd:5gTrVpGiXy3" resolve="TransformationProblem" />
+                </node>
+                <node concept="2OqwBi" id="1EWB5bl1k4s" role="33vP2m">
+                  <node concept="37vLTw" id="1EWB5bl1jog" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1EWB5bl1a_e" resolve="proxy" />
+                  </node>
+                  <node concept="liA8E" id="1EWB5bl1kDU" role="2OqNvi">
+                    <ref role="37wK5l" to="6tkd:42zqTR3roGh" resolve="getProblem" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="5wnrAmUavr7" role="3cqZAp">
               <node concept="3cpWsn" id="5wnrAmUavr8" role="3cpWs9">
                 <property role="TrG5h" value="transformationName" />
@@ -1117,6 +1133,45 @@
                       <ref role="3cqZAo" node="5wnrAmTJKHz" resolve="treeNode" />
                     </node>
                     <node concept="liA8E" id="5wnrAmTJxzO" role="2OqNvi">
+                      <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getChildCount():int" resolve="getChildCount" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1EWB5bl1kRi" role="3cqZAp">
+              <node concept="2OqwBi" id="1EWB5bl1kRj" role="3clFbG">
+                <node concept="37vLTw" id="1EWB5bl1kRk" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5wnrAmTIIHn" resolve="model" />
+                </node>
+                <node concept="liA8E" id="1EWB5bl1kRl" role="2OqNvi">
+                  <ref role="37wK5l" to="rgfa:~DefaultTreeModel.insertNodeInto(javax.swing.tree.MutableTreeNode,javax.swing.tree.MutableTreeNode,int):void" resolve="insertNodeInto" />
+                  <node concept="2ShNRf" id="1EWB5bl1kRn" role="37wK5m">
+                    <node concept="1pGfFk" id="1EWB5bl1kRo" role="2ShVmc">
+                      <ref role="37wK5l" node="5wnrAmTUBpz" resolve="TransformationTraceComponent.TNode" />
+                      <node concept="3cpWs3" id="1EWB5bl1odJ" role="37wK5m">
+                        <node concept="2OqwBi" id="1EWB5bl1pkm" role="3uHU7w">
+                          <node concept="37vLTw" id="1EWB5bl1oBw" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1EWB5bl1a_e" resolve="proxy" />
+                          </node>
+                          <node concept="liA8E" id="1EWB5bl1pCS" role="2OqNvi">
+                            <ref role="37wK5l" to="6tkd:AkkmJBVkwA" resolve="getElementId" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1EWB5bl1nxx" role="3uHU7B">
+                          <property role="Xl_RC" value="ID: " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="1EWB5bl1kRy" role="37wK5m">
+                    <ref role="3cqZAo" node="5wnrAmTJKHz" resolve="treeNode" />
+                  </node>
+                  <node concept="2OqwBi" id="1EWB5bl1kRz" role="37wK5m">
+                    <node concept="37vLTw" id="1EWB5bl1kR$" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5wnrAmTJKHz" resolve="treeNode" />
+                    </node>
+                    <node concept="liA8E" id="1EWB5bl1kR_" role="2OqNvi">
                       <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getChildCount():int" resolve="getChildCount" />
                     </node>
                   </node>
@@ -1263,8 +1318,8 @@
             </node>
           </node>
           <node concept="3y3z36" id="5wnrAmTJxup" role="3clFbw">
-            <node concept="37vLTw" id="5wnrAmTIXif" role="3uHU7B">
-              <ref role="3cqZAo" node="5wnrAmTIWk9" resolve="call" />
+            <node concept="37vLTw" id="1EWB5bl1hUz" role="3uHU7B">
+              <ref role="3cqZAo" node="1EWB5bl1a_e" resolve="proxy" />
             </node>
             <node concept="10Nm6u" id="5wnrAmTIYdx" role="3uHU7w" />
           </node>

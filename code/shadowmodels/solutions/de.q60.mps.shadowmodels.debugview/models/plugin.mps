@@ -1178,6 +1178,50 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="6DbeQdm2snv" role="3cqZAp">
+              <node concept="2OqwBi" id="6DbeQdm2snw" role="3clFbG">
+                <node concept="37vLTw" id="6DbeQdm2snx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5wnrAmTIIHn" resolve="model" />
+                </node>
+                <node concept="liA8E" id="6DbeQdm2sny" role="2OqNvi">
+                  <ref role="37wK5l" to="rgfa:~DefaultTreeModel.insertNodeInto(javax.swing.tree.MutableTreeNode,javax.swing.tree.MutableTreeNode,int):void" resolve="insertNodeInto" />
+                  <node concept="2ShNRf" id="6DbeQdm2snz" role="37wK5m">
+                    <node concept="1pGfFk" id="6DbeQdm2sn$" role="2ShVmc">
+                      <ref role="37wK5l" node="5wnrAmTUBpz" resolve="TransformationTraceComponent.TNode" />
+                      <node concept="3cpWs3" id="6DbeQdm2sn_" role="37wK5m">
+                        <node concept="2OqwBi" id="6DbeQdm2wqb" role="3uHU7w">
+                          <node concept="2OqwBi" id="6DbeQdm2vt2" role="2Oq$k0">
+                            <node concept="37vLTw" id="6DbeQdm2uEI" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5wnrAmTIGZ$" resolve="nodeToTrace" />
+                            </node>
+                            <node concept="liA8E" id="6DbeQdm2w9o" role="2OqNvi">
+                              <ref role="37wK5l" to="mhbf:~SNode.getReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getReference" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="6DbeQdm2xyR" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="6DbeQdm2snD" role="3uHU7B">
+                          <property role="Xl_RC" value="REF: " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="6DbeQdm2snE" role="37wK5m">
+                    <ref role="3cqZAo" node="5wnrAmTJKHz" resolve="treeNode" />
+                  </node>
+                  <node concept="2OqwBi" id="6DbeQdm2snF" role="37wK5m">
+                    <node concept="37vLTw" id="6DbeQdm2snG" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5wnrAmTJKHz" resolve="treeNode" />
+                    </node>
+                    <node concept="liA8E" id="6DbeQdm2snH" role="2OqNvi">
+                      <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getChildCount():int" resolve="getChildCount" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="5wnrAmUpuvq" role="3cqZAp">
               <node concept="3cpWsn" id="5wnrAmUpuvt" role="3cpWs9">
                 <property role="TrG5h" value="index" />

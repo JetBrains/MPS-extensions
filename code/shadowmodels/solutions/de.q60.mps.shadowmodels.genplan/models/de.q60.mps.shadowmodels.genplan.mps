@@ -33,6 +33,12 @@
   </registry>
   <node concept="2VgMpV" id="q2F95_HSDf">
     <property role="TrG5h" value="ShadowmodelsGenplan" />
+    <node concept="2VgMA2" id="6DbeQdm8sGG" role="2VgMA7">
+      <node concept="2V$Bhx" id="6DbeQdm8sJG" role="1t_9vn">
+        <property role="2V$B1T" value="6f76dbc8-9615-4a2e-8034-c27700f8983b" />
+        <property role="2V$B1Q" value="de.q60.mps.shadowmodels.gen.desugar" />
+      </node>
+    </node>
     <node concept="2VgMA2" id="2WBbN6NEgss" role="2VgMA7">
       <node concept="2V$Bhx" id="2WBbN6NEgsO" role="1t_9vn">
         <property role="2V$B1T" value="94b64715-a263-4c36-a138-8da14705ffa7" />

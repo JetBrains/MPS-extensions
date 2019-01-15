@@ -17,6 +17,7 @@
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
     <import index="j8aq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.module(MPS.Core/)" />
+    <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -400,7 +401,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="7NatPTM0KCu" role="3clF45">
-        <ref role="3uigEE" to="6tkd:5gTrVpGiJ3S" resolve="TransformationEngine" />
+        <ref role="3uigEE" to="nv3w:5gTrVpGiJ3S" resolve="TransformationEngine" />
       </node>
       <node concept="3Tm1VV" id="7NatPTLZR7u" role="1B3o_S" />
     </node>
@@ -470,14 +471,14 @@
     <node concept="2tJIrI" id="7NatPTM0Q04" role="jymVt" />
     <node concept="3Tm1VV" id="7NatPTLZR6N" role="1B3o_S" />
     <node concept="3uibUv" id="7NatPTM0OB$" role="1zkMxy">
-      <ref role="3uigEE" to="6tkd:5gTrVpGiJ3S" resolve="TransformationEngine" />
+      <ref role="3uigEE" to="nv3w:5gTrVpGiJ3S" resolve="TransformationEngine" />
     </node>
     <node concept="3clFbW" id="7NatPTM0OG5" role="jymVt">
       <node concept="3cqZAl" id="7NatPTM0OG6" role="3clF45" />
       <node concept="3Tm1VV" id="7NatPTM0OG7" role="1B3o_S" />
       <node concept="3clFbS" id="7NatPTM0OG9" role="3clF47">
         <node concept="XkiVB" id="7NatPTM0OGb" role="3cqZAp">
-          <ref role="37wK5l" to="6tkd:5gTrVpGmaY5" resolve="TransformationEngine" />
+          <ref role="37wK5l" to="nv3w:5gTrVpGmaY5" resolve="TransformationEngine" />
           <node concept="37vLTw" id="7NatPTM0OGf" role="37wK5m">
             <ref role="3cqZAo" node="7NatPTM0OGc" resolve="transformationFunctions" />
           </node>
@@ -614,17 +615,17 @@
       <node concept="37vLTG" id="6Zl5h8P$8qQ" role="3clF46">
         <property role="TrG5h" value="problem" />
         <node concept="3uibUv" id="6Zl5h8P$8qR" role="1tU5fm">
-          <ref role="3uigEE" to="6tkd:5gTrVpGiXy3" resolve="TransformationProblem" />
+          <ref role="3uigEE" to="nv3w:5gTrVpGiXy3" resolve="TransformationProblem" />
         </node>
       </node>
       <node concept="3uibUv" id="6Zl5h8P$8qS" role="3clF45">
-        <ref role="3uigEE" to="6tkd:5gTrVpGiHGv" resolve="TransformationResult" />
+        <ref role="3uigEE" to="nv3w:5gTrVpGiHGv" resolve="TransformationResult" />
       </node>
       <node concept="3Tm1VV" id="6Zl5h8P$8qT" role="1B3o_S" />
       <node concept="3clFbS" id="6Zl5h8P$8s8" role="3clF47">
         <node concept="3clFbF" id="6Zl5h8P$9BZ" role="3cqZAp">
           <node concept="1rXfSq" id="6Zl5h8P$9BX" role="3clFbG">
-            <ref role="37wK5l" to="6tkd:6Zl5h8Psf$8" resolve="invalidate" />
+            <ref role="37wK5l" to="nv3w:6Zl5h8Psf$8" resolve="invalidate" />
             <node concept="2OqwBi" id="6Zl5h8P$ajw" role="37wK5m">
               <node concept="37vLTw" id="6Zl5h8P$a1w" role="2Oq$k0">
                 <ref role="3cqZAo" node="7NatPTM2sQg" resolve="changeCollector" />
@@ -637,7 +638,7 @@
         </node>
         <node concept="3clFbF" id="6Zl5h8P$8sc" role="3cqZAp">
           <node concept="3nyPlj" id="6Zl5h8P$8sb" role="3clFbG">
-            <ref role="37wK5l" to="6tkd:6Zl5h8Pro8G" resolve="updateResult" />
+            <ref role="37wK5l" to="nv3w:6Zl5h8Pro8G" resolve="updateResult" />
             <node concept="37vLTw" id="6Zl5h8P$8sa" role="37wK5m">
               <ref role="3cqZAo" node="6Zl5h8P$8qQ" resolve="problem" />
             </node>

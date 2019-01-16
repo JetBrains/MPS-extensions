@@ -40,6 +40,7 @@
     <import index="xr52" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.ui.tree.smodel(MPS.Platform/)" />
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
+    <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -3373,6 +3374,28 @@
             </node>
             <node concept="liA8E" id="43OnoQB1Mre" role="2OqNvi">
               <ref role="37wK5l" to="l6bp:43OnoQB0HHh" resolve="invalidateAll" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3fc1D1kY9Uu" role="3cqZAp">
+          <node concept="2OqwBi" id="3fc1D1kYalf" role="3clFbG">
+            <node concept="2YIFZM" id="3fc1D1kYa06" role="2Oq$k0">
+              <ref role="37wK5l" to="l6bp:3zTK92KPmA1" resolve="getInstance" />
+              <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="TransformationsFromGlobalRepository" />
+            </node>
+            <node concept="liA8E" id="3fc1D1kYaHV" role="2OqNvi">
+              <ref role="37wK5l" to="l6bp:3zTK92KPttI" resolve="invalidate" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3fc1D1kYaYz" role="3cqZAp">
+          <node concept="2OqwBi" id="3fc1D1kYbjY" role="3clFbG">
+            <node concept="2YIFZM" id="3fc1D1kYba3" role="2Oq$k0">
+              <ref role="37wK5l" to="od2j:4F4X830WI8n" resolve="getInstance" />
+              <ref role="1Pybhc" to="od2j:4F4X830W9jd" resolve="DescriptorCache" />
+            </node>
+            <node concept="liA8E" id="3fc1D1kYbwA" role="2OqNvi">
+              <ref role="37wK5l" to="od2j:4F4X830WBPc" resolve="invalidate" />
             </node>
           </node>
         </node>

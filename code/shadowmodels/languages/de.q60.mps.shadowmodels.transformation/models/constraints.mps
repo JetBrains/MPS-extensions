@@ -1429,5 +1429,72 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="2$QnGbu_ovg">
+    <property role="3GE5qa" value="rewrite" />
+    <ref role="1M2myG" to="oyp0:2$QnGbu1Jhv" resolve="Rewriter" />
+    <node concept="1N5Pfh" id="2$QnGbu_ovX" role="1Mr941">
+      <ref role="1N5Vy1" to="oyp0:2$QnGbu$sBe" resolve="extends" />
+      <node concept="3dgokm" id="2$QnGbu_oxp" role="1N6uqs">
+        <node concept="3clFbS" id="2$QnGbu_oxq" role="2VODD2">
+          <node concept="3clFbF" id="2$QnGbu_oxr" role="3cqZAp">
+            <node concept="2ShNRf" id="2$QnGbu_oxs" role="3clFbG">
+              <node concept="YeOm9" id="2$QnGbu_oxt" role="2ShVmc">
+                <node concept="1Y3b0j" id="2$QnGbu_oxu" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="1Y3XeK" to="o8zo:3rV3sBXetA0" resolve="FilteringScope" />
+                  <ref role="37wK5l" to="o8zo:3rV3sBXetA2" resolve="FilteringScope" />
+                  <node concept="3Tm1VV" id="2$QnGbu_oxv" role="1B3o_S" />
+                  <node concept="2ShNRf" id="2$QnGbu_oxw" role="37wK5m">
+                    <node concept="1pGfFk" id="2$QnGbu_oxx" role="2ShVmc">
+                      <ref role="37wK5l" to="o8zo:4k9eBec$QVW" resolve="ModelPlusImportedScope" />
+                      <node concept="2OqwBi" id="2$QnGbu_oxy" role="37wK5m">
+                        <node concept="2rP1CM" id="2$QnGbu_oxz" role="2Oq$k0" />
+                        <node concept="I4A8Y" id="2$QnGbu_ox$" role="2OqNvi" />
+                      </node>
+                      <node concept="3clFbT" id="2$QnGbu_ox_" role="37wK5m" />
+                      <node concept="35c_gC" id="2$QnGbu_oxA" role="37wK5m">
+                        <ref role="35c_gD" to="oyp0:2$QnGbu1Jhv" resolve="Rewriter" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFb_" id="2$QnGbu_oxB" role="jymVt">
+                    <property role="TrG5h" value="isExcluded" />
+                    <node concept="10P_77" id="2$QnGbu_oxC" role="3clF45" />
+                    <node concept="3Tm1VV" id="2$QnGbu_oxD" role="1B3o_S" />
+                    <node concept="37vLTG" id="2$QnGbu_oxE" role="3clF46">
+                      <property role="TrG5h" value="node" />
+                      <node concept="3Tqbb2" id="2$QnGbu_oxF" role="1tU5fm" />
+                    </node>
+                    <node concept="3clFbS" id="2$QnGbu_oxG" role="3clF47">
+                      <node concept="3clFbF" id="2$QnGbu_oxH" role="3cqZAp">
+                        <node concept="3fqX7Q" id="2$QnGbu_oxI" role="3clFbG">
+                          <node concept="2OqwBi" id="2$QnGbu_oxJ" role="3fr31v">
+                            <node concept="1PxgMI" id="2$QnGbu_oxK" role="2Oq$k0">
+                              <node concept="chp4Y" id="2$QnGbu_wBB" role="3oSUPX">
+                                <ref role="cht4Q" to="oyp0:2$QnGbu1Jhv" resolve="Rewriter" />
+                              </node>
+                              <node concept="37vLTw" id="2$QnGbu_oxM" role="1m5AlR">
+                                <ref role="3cqZAo" node="2$QnGbu_oxE" resolve="node" />
+                              </node>
+                            </node>
+                            <node concept="2qgKlT" id="2$QnGbuKIAy" role="2OqNvi">
+                              <ref role="37wK5l" to="hm90:2$QnGbu_gk1" resolve="isBase" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2AHcQZ" id="2$QnGbu_oxO" role="2AJF6D">
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

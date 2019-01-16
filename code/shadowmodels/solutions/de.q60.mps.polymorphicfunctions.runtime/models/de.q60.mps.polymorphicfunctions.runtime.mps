@@ -265,6 +265,13 @@
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261755" name="throwable" index="RRSow" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1204834851141" name="jetbrains.mps.lang.smodel.structure.PoundExpression" flags="ng" index="25Kdxt">
         <child id="1204834868751" name="expression" index="25KhWn" />
@@ -4620,26 +4627,6 @@
               </node>
             </node>
           </node>
-          <node concept="TDmWw" id="6N6zH_i3f2S" role="TEbGg">
-            <node concept="3clFbS" id="6N6zH_i3f2T" role="TDEfX">
-              <node concept="YS8fn" id="6N6zH_i3f2U" role="3cqZAp">
-                <node concept="2ShNRf" id="6N6zH_i3f2V" role="YScLw">
-                  <node concept="1pGfFk" id="6N6zH_i3f2W" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="6N6zH_i3f2X" role="37wK5m">
-                      <ref role="3cqZAo" node="6N6zH_i3f2Y" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="6N6zH_i3f2Y" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="6N6zH_i3f2Z" role="1tU5fm">
-                <ref role="3uigEE" to="3qmy:~ModuleIsNotLoadableException" resolve="ModuleIsNotLoadableException" />
-              </node>
-            </node>
-          </node>
           <node concept="TDmWw" id="6N6zH_i3f30" role="TEbGg">
             <node concept="3clFbS" id="6N6zH_i3f31" role="TDEfX">
               <node concept="3cpWs6" id="6N6zH_i3f32" role="3cqZAp">
@@ -4697,43 +4684,23 @@
               </node>
             </node>
           </node>
-          <node concept="TDmWw" id="6N6zH_i3f3c" role="TEbGg">
-            <node concept="3clFbS" id="6N6zH_i3f3d" role="TDEfX">
-              <node concept="YS8fn" id="6N6zH_i3f3e" role="3cqZAp">
-                <node concept="2ShNRf" id="6N6zH_i3f3f" role="YScLw">
-                  <node concept="1pGfFk" id="6N6zH_i3f3g" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="6N6zH_i3f3h" role="37wK5m">
-                      <ref role="3cqZAo" node="6N6zH_i3f3i" resolve="e" />
-                    </node>
-                  </node>
+          <node concept="TDmWw" id="4wLzh65SUxE" role="TEbGg">
+            <node concept="3clFbS" id="4wLzh65SUxF" role="TDEfX">
+              <node concept="RRSsy" id="4wLzh65SYhs" role="3cqZAp">
+                <property role="RRSoG" value="error" />
+                <node concept="Xl_RD" id="4wLzh65SYht" role="RRSoy" />
+                <node concept="37vLTw" id="4wLzh65SYhu" role="RRSow">
+                  <ref role="3cqZAo" node="4wLzh65SUxK" resolve="e" />
                 </node>
               </node>
-            </node>
-            <node concept="3cpWsn" id="6N6zH_i3f3i" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="6N6zH_i3f3j" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~IllegalAccessException" resolve="IllegalAccessException" />
+              <node concept="3cpWs6" id="4wLzh65T32R" role="3cqZAp">
+                <node concept="10Nm6u" id="4wLzh65T32S" role="3cqZAk" />
               </node>
             </node>
-          </node>
-          <node concept="TDmWw" id="6N6zH_i3f3k" role="TEbGg">
-            <node concept="3clFbS" id="6N6zH_i3f3l" role="TDEfX">
-              <node concept="YS8fn" id="6N6zH_i3f3m" role="3cqZAp">
-                <node concept="2ShNRf" id="6N6zH_i3f3n" role="YScLw">
-                  <node concept="1pGfFk" id="6N6zH_i3f3o" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="6N6zH_i3f3p" role="37wK5m">
-                      <ref role="3cqZAo" node="6N6zH_i3f3q" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="6N6zH_i3f3q" role="TDEfY">
+            <node concept="3cpWsn" id="4wLzh65SUxK" role="TDEfY">
               <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="6N6zH_i3f3r" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~NoSuchFieldException" resolve="NoSuchFieldException" />
+              <node concept="3uibUv" id="4wLzh65UaeG" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
               </node>
             </node>
           </node>

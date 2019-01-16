@@ -355,8 +355,8 @@
                         <ref role="37wK5l" to="g51k:~EditorCell_Label.setDefaultText(java.lang.String):void" resolve="setDefaultText" />
                         <node concept="2OqwBi" id="5o5qH$CAeZ6" role="37wK5m">
                           <node concept="pncrf" id="5o5qH$CAeI_" role="2Oq$k0" />
-                          <node concept="2qgKlT" id="5o5qH$CAjib" role="2OqNvi">
-                            <ref role="37wK5l" to="hm90:5o5qH$CAfX5" resolve="getDefaultName" />
+                          <node concept="2qgKlT" id="2$QnGbu_24l" role="2OqNvi">
+                            <ref role="37wK5l" to="hm90:2$QnGbu$Y2o" resolve="getDefaultName" />
                           </node>
                         </node>
                       </node>
@@ -2106,6 +2106,85 @@
       <ref role="1NtTu8" to="oyp0:6DbeQdm5ans" resolve="valDecl" />
       <node concept="1sVBvm" id="6DbeQdm6y14" role="1sWHZn">
         <node concept="3F0A7n" id="6DbeQdm6y1i" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2$QnGbu1JiD">
+    <property role="3GE5qa" value="rewrite" />
+    <ref role="1XX52x" to="oyp0:2$QnGbu1J6j" resolve="Rewrite" />
+    <node concept="3EZMnI" id="2$QnGbu1Jjn" role="2wV5jI">
+      <node concept="PMmxH" id="2$QnGbu1Jjx" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="2$QnGbu1JjD" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:2$QnGbu1Jhs" resolve="rootInput" />
+      </node>
+      <node concept="3F0ifn" id="2$QnGbu1JjQ" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+      </node>
+      <node concept="1iCGBv" id="2$QnGbu1Jk7" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:2$QnGbu1Jis" resolve="rewriter" />
+        <node concept="1sVBvm" id="2$QnGbu1Jk9" role="1sWHZn">
+          <node concept="3SHvHV" id="2$QnGbuJSjG" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2$QnGbu1Jjq" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2$QnGbu1KQj">
+    <property role="3GE5qa" value="rewrite" />
+    <ref role="1XX52x" to="oyp0:2$QnGbu1Jhv" resolve="Rewriter" />
+    <node concept="3EZMnI" id="2$QnGbu1KR1" role="2wV5jI">
+      <node concept="PMmxH" id="2$QnGbu1KRb" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0A7n" id="2$QnGbu1KRp" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="2$QnGbu$sBC" role="3EZMnx">
+        <property role="3F0ifm" value="extends" />
+      </node>
+      <node concept="1iCGBv" id="2$QnGbu$sCl" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:2$QnGbu$sBe" resolve="extends" />
+        <node concept="1sVBvm" id="2$QnGbu$sCn" role="1sWHZn">
+          <node concept="3F0A7n" id="2$QnGbu$sCT" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2$QnGbu1KRA" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="ljvvj" id="2$QnGbu1KSv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="2$QnGbu1KSc" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:2$QnGbu1KQ8" resolve="includes" />
+        <node concept="2iRkQZ" id="2$QnGbu1KSr" role="2czzBx" />
+        <node concept="lj46D" id="2$QnGbu1KS_" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2$QnGbu1KRR" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="pVoyu" id="2$QnGbu1KSy" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2$QnGbu1KR4" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2$QnGbu9aAB">
+    <property role="3GE5qa" value="rewrite" />
+    <ref role="1XX52x" to="oyp0:2$QnGbu1KO_" resolve="RewriterInclude_Transformation" />
+    <node concept="1iCGBv" id="2$QnGbu9aBl" role="2wV5jI">
+      <ref role="1NtTu8" to="oyp0:2$QnGbu1KPZ" resolve="transformation" />
+      <node concept="1sVBvm" id="2$QnGbu9aBn" role="1sWHZn">
+        <node concept="3F0A7n" id="2$QnGbu9aB_" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>

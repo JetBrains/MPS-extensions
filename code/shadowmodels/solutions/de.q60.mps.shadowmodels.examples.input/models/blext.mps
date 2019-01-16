@@ -133,7 +133,7 @@
     <node concept="3Tm1VV" id="6QszampKyCT" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7uapjVB0MEe">
-    <property role="TrG5h" value="ClassB" />
+    <property role="TrG5h" value="ClassBBB" />
     <node concept="3Tm1VV" id="7uapjVB0MEf" role="1B3o_S" />
     <node concept="3uibUv" id="7uapjVB0MEN" role="1zkMxy">
       <ref role="3uigEE" node="6QszampKyCS" resolve="ClassA" />

@@ -1238,5 +1238,78 @@
       <ref role="20lvS9" node="6DbeQdm4Jze" resolve="ValueDecl" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2$QnGbu1J6j">
+    <property role="EcuMT" value="2969665195339084179" />
+    <property role="TrG5h" value="Rewrite" />
+    <property role="34LRSv" value="rewrite" />
+    <property role="3GE5qa" value="rewrite" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2$QnGbu1Jis" role="1TKVEi">
+      <property role="IQ2ns" value="2969665195339084956" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="rewriter" />
+      <ref role="20lvS9" node="2$QnGbu1Jhv" resolve="Rewriter" />
+    </node>
+    <node concept="1TJgyj" id="2$QnGbu1Jhs" role="1TKVEi">
+      <property role="IQ2ns" value="2969665195339084892" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rootInput" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="2$QnGbu1Jhm" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2$QnGbu1Jhv">
+    <property role="EcuMT" value="2969665195339084895" />
+    <property role="TrG5h" value="Rewriter" />
+    <property role="34LRSv" value="rewrite" />
+    <property role="3GE5qa" value="rewrite" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2$QnGbu$sBe" role="1TKVEi">
+      <property role="IQ2ns" value="2969665195348183502" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="extends" />
+      <ref role="20lvS9" node="2$QnGbu1Jhv" resolve="Rewriter" />
+    </node>
+    <node concept="1TJgyj" id="2$QnGbu1KQ8" role="1TKVEi">
+      <property role="IQ2ns" value="2969665195339091336" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="includes" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="2$QnGbu1KPi" resolve="IRewriterInclude" />
+    </node>
+    <node concept="PrWs8" id="2$QnGbu1Jic" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
+    </node>
+    <node concept="PrWs8" id="2$QnGbu1Jim" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="2$QnGbuJF8c" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2$QnGbu1KO_">
+    <property role="EcuMT" value="2969665195339091237" />
+    <property role="TrG5h" value="RewriterInclude_Transformation" />
+    <property role="3GE5qa" value="rewrite" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2$QnGbu1KPZ" role="1TKVEi">
+      <property role="IQ2ns" value="2969665195339091327" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="transformation" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6ndA7L_L6SA" resolve="Transformation" />
+    </node>
+    <node concept="PrWs8" id="2$QnGbu1KQ2" role="PzmwI">
+      <ref role="PrY4T" node="2$QnGbu1KPi" resolve="IRewriterInclude" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2$QnGbu1KPi">
+    <property role="EcuMT" value="2969665195339091282" />
+    <property role="TrG5h" value="IRewriterInclude" />
+    <property role="3GE5qa" value="rewrite" />
+  </node>
 </model>
 

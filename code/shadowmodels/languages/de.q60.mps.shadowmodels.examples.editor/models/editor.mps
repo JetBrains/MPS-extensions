@@ -17,6 +17,8 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="6ysr" ref="r:a73fc1f5-45e8-4482-83d8-21741e260fa8(de.q60.mps.shadowmodels.target.editor.structure)" />
+    <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
+    <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
@@ -236,7 +238,7 @@
                     <property role="TrG5h" value="output" />
                     <node concept="A3Dl8" id="7NatPTM2Yqg" role="1tU5fm">
                       <node concept="3uibUv" id="7NatPTM2Yqj" role="A3Ik2">
-                        <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+                        <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
                       </node>
                     </node>
                     <node concept="2OqwBi" id="7NatPTM2Yqn" role="33vP2m">
@@ -251,10 +253,10 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="7NatPTM2Yqs" role="2OqNvi">
-                        <ref role="37wK5l" to="6tkd:5gTrVpG_uHA" resolve="update" />
+                        <ref role="37wK5l" to="nv3w:5gTrVpG_uHA" resolve="update" />
                         <node concept="2ShNRf" id="7NatPTM2Yqt" role="37wK5m">
                           <node concept="1pGfFk" id="7NatPTM2Yqu" role="2ShVmc">
-                            <ref role="37wK5l" to="6tkd:5yVaV$3$fjx" resolve="TransformationProblem" />
+                            <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="TransformationProblem" />
                             <node concept="2ShNRf" id="5yVaV$3GR0v" role="37wK5m">
                               <node concept="2HTt$P" id="5yVaV$3GR0t" role="2ShVmc">
                                 <node concept="3uibUv" id="5yVaV$3GR0u" role="2HTBi0">
@@ -467,7 +469,7 @@
                     <property role="TrG5h" value="output" />
                     <node concept="A3Dl8" id="3CYlK6ygJ0n" role="1tU5fm">
                       <node concept="3uibUv" id="3CYlK6ygJ0o" role="A3Ik2">
-                        <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+                        <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
                       </node>
                     </node>
                     <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">
@@ -482,10 +484,10 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="3CYlK6ygJ0u" role="2OqNvi">
-                        <ref role="37wK5l" to="6tkd:5gTrVpG_uHA" resolve="update" />
+                        <ref role="37wK5l" to="nv3w:5gTrVpG_uHA" resolve="update" />
                         <node concept="2ShNRf" id="3CYlK6ygJ0v" role="37wK5m">
                           <node concept="1pGfFk" id="3CYlK6ygJ0w" role="2ShVmc">
-                            <ref role="37wK5l" to="6tkd:5yVaV$3$fjx" resolve="TransformationProblem" />
+                            <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="TransformationProblem" />
                             <node concept="2ShNRf" id="5yVaV$3GWNj" role="37wK5m">
                               <node concept="2HTt$P" id="5yVaV$3GWNh" role="2ShVmc">
                                 <node concept="3uibUv" id="5yVaV$3GWNi" role="2HTBi0">

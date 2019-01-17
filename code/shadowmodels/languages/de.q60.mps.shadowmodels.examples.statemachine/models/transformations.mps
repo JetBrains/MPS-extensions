@@ -90,6 +90,7 @@
         <child id="7335687028107245068" name="output" index="026TK" />
         <child id="7335687028107163827" name="input" index="02i3f" />
         <child id="8156066107234763314" name="condition" index="vpezr" />
+        <child id="7659280889105202204" name="content" index="WhCtZ" />
       </concept>
       <concept id="9170566427534778463" name="de.q60.mps.shadowmodels.transformation.structure.TransformationCall" flags="ng" index="214gnc">
         <reference id="6198477943068350028" name="transformation" index="1YEVMl" />
@@ -120,6 +121,12 @@
       <concept id="5373338300165862249" name="de.q60.mps.shadowmodels.transformation.structure.MapMacro" flags="ng" index="2PWHRv">
         <child id="5373338300165862254" name="call" index="2PWHRo" />
         <child id="5373338300165862252" name="input" index="2PWHRq" />
+      </concept>
+      <concept id="7659280889105545422" name="de.q60.mps.shadowmodels.transformation.structure.ValueDecl" flags="ng" index="WmseH">
+        <child id="7659280889105545437" name="value" index="WmseY" />
+      </concept>
+      <concept id="7659280889105655259" name="de.q60.mps.shadowmodels.transformation.structure.ValueRef" flags="ng" index="WnTUS">
+        <reference id="7659280889105655260" name="valDecl" index="WnTUZ" />
       </concept>
       <concept id="1382135219955669992" name="de.q60.mps.shadowmodels.transformation.structure.IfMacro" flags="ng" index="3MbsX0">
         <child id="1382135219955669995" name="condition" index="3MbsX3" />
@@ -614,13 +621,8 @@
           <node concept="027rt" id="I$iOOfIISb" role="02LM9">
             <ref role="027rv" to="tpee:hzeNLa7" resolve="elsifClauses" />
             <node concept="2PWHRv" id="I$iOOfIIVs" role="027rp">
-              <node concept="2OqwBi" id="I$iOOfIJ3i" role="2PWHRq">
-                <node concept="2155sH" id="I$iOOfIIV_" role="2Oq$k0">
-                  <ref role="2155sG" node="I$iOOfIIh$" resolve="s" />
-                </node>
-                <node concept="3Tsc0h" id="I$iOOfIJrp" role="2OqNvi">
-                  <ref role="3TtcxE" to="yb34:6ndA7L_L0uR" resolve="transitions" />
-                </node>
+              <node concept="WnTUS" id="6DbeQdm8gSA" role="2PWHRq">
+                <ref role="WnTUZ" node="6DbeQdm8bwI" resolve="transitions" />
               </node>
               <node concept="214gnc" id="I$iOOfIIVw" role="2PWHRo">
                 <ref role="1YEVMl" node="I$iOOfIJNZ" resolve="transitionsAsIf_elseIf" />
@@ -638,19 +640,25 @@
       </node>
       <node concept="2OqwBi" id="74KaI_Imt7H" role="vpezr">
         <node concept="2OqwBi" id="74KaI_Imt7I" role="2Oq$k0">
-          <node concept="2OqwBi" id="74KaI_Imt7J" role="2Oq$k0">
-            <node concept="2155sH" id="74KaI_InSgR" role="2Oq$k0">
-              <ref role="2155sG" node="I$iOOfIIh$" resolve="s" />
-            </node>
-            <node concept="3Tsc0h" id="74KaI_Imt7L" role="2OqNvi">
-              <ref role="3TtcxE" to="yb34:6ndA7L_L0uR" resolve="transitions" />
-            </node>
+          <node concept="WnTUS" id="6DbeQdm8k3O" role="2Oq$k0">
+            <ref role="WnTUZ" node="6DbeQdm8bwI" resolve="transitions" />
           </node>
           <node concept="13MTOL" id="74KaI_Imt7M" role="2OqNvi">
             <ref role="13MTZf" to="yb34:6ndA7L_L174" resolve="guard" />
           </node>
         </node>
         <node concept="3GX2aA" id="74KaI_ImtNx" role="2OqNvi" />
+      </node>
+      <node concept="WmseH" id="6DbeQdm8bwI" role="WhCtZ">
+        <property role="TrG5h" value="transitions" />
+        <node concept="2OqwBi" id="6DbeQdm8cXu" role="WmseY">
+          <node concept="2155sH" id="6DbeQdm8cFN" role="2Oq$k0">
+            <ref role="2155sG" node="I$iOOfIIh$" resolve="s" />
+          </node>
+          <node concept="3Tsc0h" id="6DbeQdm8eJI" role="2OqNvi">
+            <ref role="3TtcxE" to="yb34:6ndA7L_L0uR" resolve="transitions" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2OrE70" id="I$iOOfII7y" role="02uzr" />

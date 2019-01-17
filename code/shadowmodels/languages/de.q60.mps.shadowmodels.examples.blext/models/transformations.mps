@@ -2,6 +2,7 @@
 <model ref="r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)">
   <persistence version="9" />
   <languages>
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
     <devkit ref="a2812d5e-a72e-4739-ab3f-d01ec647c5de(de.q60.mps.shadowmodels.devkit)" />
   </languages>
@@ -175,10 +176,23 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j" />
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j">
+        <child id="3717301156197626301" name="content" index="3DQ709" />
+      </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="ng" index="1Pa9Pv">
+        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -472,6 +486,32 @@
       <node concept="026TG" id="Vl1zEEoA57" role="026TK">
         <node concept="027og" id="Vl1zEEoA5b" role="026TJ">
           <ref role="02LMe" to="tpee:fIYIFWa" resolve="StaticMethodDeclaration" />
+          <node concept="3DQ70j" id="56YPHTow3f1" role="lGtFl">
+            <property role="3V$3am" value="content" />
+            <property role="3V$3ak" value="94b64715-a263-4c36-a138-8da14705ffa7/7335687028107243116/7335687028107281653" />
+            <node concept="1Pa9Pv" id="56YPHTowvOo" role="3DQ709">
+              <node concept="1PaTwC" id="56YPHTowvOp" role="1PaQFQ">
+                <node concept="3oM_SD" id="56YPHTow$QS" role="1PaTwD">
+                  <property role="3oM_SC" value="Why" />
+                </node>
+                <node concept="3oM_SD" id="56YPHTow$W_" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="56YPHTow_vk" role="1PaTwD">
+                  <property role="3oM_SC" value="index==-1" />
+                </node>
+                <node concept="3oM_SD" id="56YPHTow_QG" role="1PaTwD">
+                  <property role="3oM_SC" value="check:" />
+                </node>
+                <node concept="3oM_SD" id="56YPHTow_KN" role="1PaTwD">
+                  <property role="3oM_SC" value="https://github.com/slisson/shadowmodels/issues/114" />
+                </node>
+                <node concept="3oM_SD" id="56YPHTow_85" role="1PaTwD">
+                  <property role="3oM_SC" value="" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="027oh" id="Vl1zEEoA5p" role="02LM9">
             <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
             <node concept="3cpWs3" id="Vl1zEEoAmV" role="027of">

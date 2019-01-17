@@ -5957,6 +5957,35 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="2$QnGbtLXzL" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.q60.mps.shadowmodels.gen.desugar" />
+        <property role="3LESm3" value="6f76dbc8-9615-4a2e-8034-c27700f8983b" />
+        <node concept="398BVA" id="2$QnGbtLXKY" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="2$QnGbtLXRf" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="2$QnGbtLY3C" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="2$QnGbtLYg1" role="2Ry0An">
+                <property role="2Ry0Am" value="de.q60.mps.shadowmodels.gen.desugar" />
+                <node concept="2Ry0Ak" id="2$QnGbtLYsq" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.q60.mps.shadowmodels.gen.desugar.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="2$QnGbtLYCJ" role="1TViLv">
+          <property role="TrG5h" value="de.q60.mps.shadowmodels.gen.desugar#01" />
+          <property role="3LESm3" value="a43f7197-7a27-4359-ba57-28004fb9c0e0" />
+          <node concept="1SiIV0" id="2$QnGbtLYCK" role="3bR37C">
+            <node concept="3bR9La" id="2$QnGbtLYCL" role="1SiIV1">
+              <ref role="3bR37D" node="4iIKqJTZ5HO" resolve="de.q60.mps.shadowmodels.transformation" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtA" id="4iIKqJTZ5Hm" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.shadowmodels.runtime" />

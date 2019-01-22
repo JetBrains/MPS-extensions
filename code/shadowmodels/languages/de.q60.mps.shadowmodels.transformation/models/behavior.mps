@@ -1685,5 +1685,41 @@
       <node concept="3clFbS" id="2$QnGbu_gbE" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="32qWz0KiF32">
+    <property role="3GE5qa" value="mappingLabel" />
+    <ref role="13h7C2" to="oyp0:3fc1D1miYno" resolve="MappingLabelDeclaration" />
+    <node concept="13i0hz" id="32qWz0KiFdx" role="13h7CS">
+      <property role="TrG5h" value="getLabelId" />
+      <node concept="3Tm1VV" id="32qWz0KiFdy" role="1B3o_S" />
+      <node concept="17QB3L" id="32qWz0KiFdz" role="3clF45" />
+      <node concept="3clFbS" id="32qWz0KiFd$" role="3clF47">
+        <node concept="3clFbF" id="32qWz0KiFdD" role="3cqZAp">
+          <node concept="3cpWs3" id="32qWz0KiFdE" role="3clFbG">
+            <node concept="3cpWs3" id="32qWz0KiFdF" role="3uHU7B">
+              <node concept="2OqwBi" id="32qWz0KiFdG" role="3uHU7B">
+                <node concept="2OqwBi" id="32qWz0KiFdH" role="2Oq$k0">
+                  <node concept="13iPFW" id="32qWz0KiH8H" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="32qWz0KiFdJ" role="2OqNvi" />
+                </node>
+                <node concept="LkI2h" id="32qWz0KiFdK" role="2OqNvi" />
+              </node>
+              <node concept="Xl_RD" id="32qWz0KiFdL" role="3uHU7w">
+                <property role="Xl_RC" value="." />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="32qWz0KiFdM" role="3uHU7w">
+              <node concept="13iPFW" id="32qWz0KiHnY" role="2Oq$k0" />
+              <node concept="2qgKlT" id="32qWz0KiFdO" role="2OqNvi">
+                <ref role="37wK5l" node="2$QnGbu$Y3I" resolve="getFullQualifiedName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="32qWz0KiF33" role="13h7CW">
+      <node concept="3clFbS" id="32qWz0KiF34" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

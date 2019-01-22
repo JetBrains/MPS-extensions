@@ -431,7 +431,7 @@
   </node>
   <node concept="1M2fIO" id="4EhVFrYZew3">
     <property role="3GE5qa" value="macros" />
-    <ref role="1M2myG" to="oyp0:4EhVFrYZevB" resolve="LabelReferenceExpression" />
+    <ref role="1M2myG" to="oyp0:4EhVFrYZevB" resolve="LocalLabelReferenceExpression" />
     <node concept="1N5Pfh" id="4EhVFrYZew4" role="1Mr941">
       <ref role="1N5Vy1" to="oyp0:4EhVFrYZevC" resolve="label" />
       <node concept="3dgokm" id="4EhVFrYZew6" role="1N6uqs">
@@ -455,7 +455,7 @@
                   <node concept="2Rf3mk" id="4EhVFrYZhgH" role="2OqNvi">
                     <node concept="1xMEDy" id="4EhVFrYZhgJ" role="1xVPHs">
                       <node concept="chp4Y" id="4EhVFrYZhos" role="ri$Ld">
-                        <ref role="cht4Q" to="oyp0:4EhVFrYY$lq" resolve="Label" />
+                        <ref role="cht4Q" to="oyp0:4EhVFrYY$lq" resolve="LocalLabel" />
                       </node>
                     </node>
                   </node>

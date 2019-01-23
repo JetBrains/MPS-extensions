@@ -1033,7 +1033,7 @@
                 </node>
               </node>
               <node concept="3RcaXh" id="3fc1D1m7Wbk" role="2PWHRo">
-                <ref role="3RcaDu" node="3fc1D1m7MuN" resolve="rewriter" />
+                <ref role="3RcaDu" node="3fc1D1m7MuN" resolve="classRewriter" />
                 <node concept="214o7A" id="3fc1D1m7Wbl" role="3RcaEu" />
               </node>
             </node>
@@ -1053,7 +1053,7 @@
     <property role="TrG5h" value="desugarUsingRewrite" />
     <node concept="2OrE70" id="3fc1D1m6PQJ" role="02uzr" />
     <node concept="3RcaEt" id="3fc1D1m7MuN" role="02uzr">
-      <property role="TrG5h" value="rewriter" />
+      <property role="TrG5h" value="classRewriter" />
       <ref role="0nUnY" to="tpee:fz12cDA" resolve="ClassConcept" />
       <node concept="3RclfB" id="3fc1D1m7MIY" role="3Rclda">
         <ref role="3RcleX" node="3fc1D1m6PQK" resolve="desugar" />
@@ -1080,7 +1080,7 @@
       <ref role="1YyVLo" node="3fc1D1m6PQK" resolve="desugar" />
       <node concept="04HMe" id="32qWz0KClHn" role="WhCtZ">
         <node concept="3RcaXh" id="32qWz0KClHp" role="04HNL">
-          <ref role="3RcaDu" node="3fc1D1m7MuN" resolve="rewriter" />
+          <ref role="3RcaDu" node="3fc1D1m7MuN" resolve="classRewriter" />
           <node concept="1PxgMI" id="32qWz0KOnB0" role="3RcaEu">
             <node concept="chp4Y" id="32qWz0KOnXj" role="3oSUPX">
               <ref role="cht4Q" to="tpee:fz12cDA" resolve="ClassConcept" />

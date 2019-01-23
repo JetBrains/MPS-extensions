@@ -150,8 +150,12 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
+      <concept id="1227096620180" name="jetbrains.mps.lang.typesystem.structure.ReferenceMessageTarget" flags="ng" index="2OE7Q9">
+        <reference id="1227096645744" name="linkDeclaration" index="2OEe5H" />
+      </concept>
       <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
         <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
+        <child id="1227096836496" name="messageTarget" index="2OEWyd" />
       </concept>
       <concept id="1205762105978" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableDeclaration" flags="ng" index="2X1qdy" />
       <concept id="1205762656241" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableReference" flags="nn" index="2X3wrD">
@@ -3061,6 +3065,52 @@
     <node concept="1YaCAy" id="32qWz0KNQad" role="1YuTPh">
       <property role="TrG5h" value="n" />
       <ref role="1YaFvo" to="oyp0:2$QnGbu1J6j" resolve="Rewrite" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="32qWz0KZD1o">
+    <property role="TrG5h" value="check_RewriterInclude_Transformation" />
+    <property role="3GE5qa" value="rewrite" />
+    <node concept="3clFbS" id="32qWz0KZD1p" role="18ibNy">
+      <node concept="3clFbJ" id="32qWz0KZD1y" role="3cqZAp">
+        <node concept="3y3z36" id="32qWz0KZMtV" role="3clFbw">
+          <node concept="3cmrfG" id="32qWz0KZM$1" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="32qWz0KZGMC" role="3uHU7B">
+            <node concept="2OqwBi" id="32qWz0KZDWq" role="2Oq$k0">
+              <node concept="2OqwBi" id="32qWz0KZDc6" role="2Oq$k0">
+                <node concept="1YBJjd" id="32qWz0KZD1I" role="2Oq$k0">
+                  <ref role="1YBMHb" node="32qWz0KZD1r" resolve="n" />
+                </node>
+                <node concept="3TrEf2" id="32qWz0KZDnd" role="2OqNvi">
+                  <ref role="3Tt5mk" to="oyp0:2$QnGbu1KPZ" resolve="transformation" />
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="32qWz0KZEhT" role="2OqNvi">
+                <ref role="3TtcxE" to="oyp0:6ndA7L_LbyN" resolve="input" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="32qWz0KZKAH" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="32qWz0KZD1$" role="3clFbx">
+          <node concept="2MkqsV" id="32qWz0KZMBE" role="3cqZAp">
+            <node concept="Xl_RD" id="32qWz0KZMBQ" role="2MkJ7o">
+              <property role="Xl_RC" value="Only transformations with one input parameter are supported" />
+            </node>
+            <node concept="1YBJjd" id="32qWz0KZMEd" role="2OEOjV">
+              <ref role="1YBMHb" node="32qWz0KZD1r" resolve="n" />
+            </node>
+            <node concept="2OE7Q9" id="32qWz0KZMFD" role="2OEWyd">
+              <ref role="2OEe5H" to="oyp0:2$QnGbu1KPZ" resolve="transformation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="32qWz0KZD1r" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:2$QnGbu1KO_" resolve="RewriterInclude_Transformation" />
     </node>
   </node>
 </model>

@@ -1278,6 +1278,12 @@
       <property role="20kJfa" value="extends" />
       <ref role="20lvS9" node="2$QnGbu1Jhv" resolve="Rewriter" />
     </node>
+    <node concept="1TJgyj" id="32qWz0KLlve" role="1TKVEi">
+      <property role="IQ2ns" value="3502377949024573390" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="rootConcept" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
     <node concept="1TJgyj" id="2$QnGbu1KQ8" role="1TKVEi">
       <property role="IQ2ns" value="2969665195339091336" />
       <property role="20lmBu" value="aggregation" />

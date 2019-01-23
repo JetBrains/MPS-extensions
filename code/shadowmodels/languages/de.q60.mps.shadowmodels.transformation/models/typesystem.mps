@@ -3014,5 +3014,54 @@
       <ref role="1YaFvo" to="oyp0:6uZS9ZnCJQ9" resolve="TNullType" />
     </node>
   </node>
+  <node concept="1YbPZF" id="32qWz0KNQaa">
+    <property role="TrG5h" value="typeof_Rewrite" />
+    <property role="3GE5qa" value="rewrite" />
+    <node concept="3clFbS" id="32qWz0KNQab" role="18ibNy">
+      <node concept="1ZobV4" id="32qWz0KNQJA" role="3cqZAp">
+        <node concept="mw_s8" id="32qWz0KNQJY" role="1ZfhKB">
+          <node concept="2pJPEk" id="32qWz0KNQJU" role="mwGJk">
+            <node concept="2pJPED" id="32qWz0KNQK9" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+              <node concept="2pIpSj" id="32qWz0KNQKr" role="2pJxcM">
+                <ref role="2pIpSl" to="tp25:g$ehGDh" resolve="concept" />
+                <node concept="36biLy" id="32qWz0KNQKL" role="2pJxcZ">
+                  <node concept="2OqwBi" id="32qWz0KNSbp" role="36biLW">
+                    <node concept="2OqwBi" id="32qWz0KNQWm" role="2Oq$k0">
+                      <node concept="1YBJjd" id="32qWz0KNQKW" role="2Oq$k0">
+                        <ref role="1YBMHb" node="32qWz0KNQad" resolve="n" />
+                      </node>
+                      <node concept="3TrEf2" id="32qWz0KNRKW" role="2OqNvi">
+                        <ref role="3Tt5mk" to="oyp0:2$QnGbu1Jis" resolve="rewriter" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="32qWz0KNSvb" role="2OqNvi">
+                      <ref role="37wK5l" to="hm90:32qWz0KLm8r" resolve="getRootConcept" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="32qWz0KNQJD" role="1ZfhK$">
+          <node concept="1Z2H0r" id="32qWz0KNQak" role="mwGJk">
+            <node concept="2OqwBi" id="32qWz0KNQlJ" role="1Z2MuG">
+              <node concept="1YBJjd" id="32qWz0KNQca" role="2Oq$k0">
+                <ref role="1YBMHb" node="32qWz0KNQad" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="32qWz0KNQ$E" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:2$QnGbu1Jhs" resolve="rootInput" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="32qWz0KNQad" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:2$QnGbu1J6j" resolve="Rewrite" />
+    </node>
+  </node>
 </model>
 

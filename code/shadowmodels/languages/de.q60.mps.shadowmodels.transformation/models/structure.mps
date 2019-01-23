@@ -1396,5 +1396,27 @@
       <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
     </node>
   </node>
+  <node concept="1TIwiD" id="32qWz0Ky2UY">
+    <property role="EcuMT" value="3502377949020565182" />
+    <property role="TrG5h" value="RewriteDependency" />
+    <property role="34LRSv" value="depends on" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="32qWz0Ky2V1" role="1TKVEi">
+      <property role="IQ2ns" value="3502377949020565185" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rewrite" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2$QnGbu1J6j" resolve="Rewrite" />
+    </node>
+    <node concept="1TJgyj" id="32qWz0KCsPo" role="1TKVEi">
+      <property role="IQ2ns" value="3502377949022244184" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="32qWz0Ky2UZ" role="PzmwI">
+      <ref role="PrY4T" node="6DbeQdm3prL" resolve="ITransformationContent" />
+    </node>
+  </node>
 </model>
 

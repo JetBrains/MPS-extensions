@@ -95,6 +95,11 @@
         <reference id="6198477943066252929" name="base" index="1YyVLo" />
         <child id="7335687028107245068" name="output" index="026TK" />
         <child id="7335687028107163827" name="input" index="02i3f" />
+        <child id="7659280889105202204" name="content" index="WhCtZ" />
+      </concept>
+      <concept id="3502377949020565182" name="de.q60.mps.shadowmodels.transformation.structure.RewriteDependency" flags="ng" index="04HMe">
+        <child id="3502377949020565185" name="rewrite" index="04HNL" />
+        <child id="3502377949022244184" name="condition" index="0eNXC" />
       </concept>
       <concept id="9170566427534778463" name="de.q60.mps.shadowmodels.transformation.structure.TransformationCall" flags="ng" index="214gnc">
         <reference id="6198477943068350028" name="transformation" index="1YEVMl" />
@@ -1063,6 +1068,57 @@
     <node concept="2OrE70" id="3fc1D1m6PRf" role="02uzr" />
     <node concept="02vpq" id="3fc1D1m6PRg" role="02uzr">
       <ref role="1YyVLo" node="3fc1D1m6PQK" resolve="desugar" />
+      <node concept="04HMe" id="32qWz0KClHn" role="WhCtZ">
+        <node concept="3RcaXh" id="32qWz0KClHp" role="04HNL">
+          <node concept="2OqwBi" id="32qWz0KI0Ot" role="3RcaEu">
+            <node concept="2OqwBi" id="32qWz0KCndo" role="2Oq$k0">
+              <node concept="2OqwBi" id="32qWz0KClYx" role="2Oq$k0">
+                <node concept="2155sH" id="32qWz0KClLb" role="2Oq$k0">
+                  <ref role="2155sG" node="3fc1D1m6PRh" />
+                </node>
+                <node concept="2Xjw5R" id="32qWz0KCmOr" role="2OqNvi">
+                  <node concept="1xMEDy" id="32qWz0KCmOt" role="1xVPHs">
+                    <node concept="chp4Y" id="32qWz0KCmOP" role="ri$Ld">
+                      <ref role="cht4Q" to="tpee:fz12cDA" resolve="ClassConcept" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="32qWz0KCsKu" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="32qWz0KI1nm" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="32qWz0KDTW3" role="0eNXC">
+          <node concept="2OqwBi" id="32qWz0KI58l" role="2Oq$k0">
+            <node concept="2OqwBi" id="32qWz0KDPGz" role="2Oq$k0">
+              <node concept="2OqwBi" id="32qWz0KDPG$" role="2Oq$k0">
+                <node concept="2155sH" id="32qWz0KDPG_" role="2Oq$k0">
+                  <ref role="2155sG" node="3fc1D1m6PRh" />
+                </node>
+                <node concept="2Xjw5R" id="32qWz0KDPGA" role="2OqNvi">
+                  <node concept="1xMEDy" id="32qWz0KDPGB" role="1xVPHs">
+                    <node concept="chp4Y" id="32qWz0KDPGC" role="ri$Ld">
+                      <ref role="cht4Q" to="tpee:fz12cDA" resolve="ClassConcept" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="32qWz0KDPGD" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:gXzkM_H" resolve="superclass" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="32qWz0KI9fD" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpee:g7uigIF" resolve="classifier" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="32qWz0KDXZC" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="02i3K" id="3fc1D1m6PRh" role="02i3f">
         <node concept="02i3D" id="3fc1D1m6PRi" role="02i2B">
           <ref role="02i3$" to="prps:6QszampOHpW" resolve="UntilStatement" />

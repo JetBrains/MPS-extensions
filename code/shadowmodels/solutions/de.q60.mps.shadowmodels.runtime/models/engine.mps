@@ -19274,6 +19274,12 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="32qWz0LIUVL" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="2AHcQZ" id="32qWz0LJ0OK" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
     </node>
     <node concept="2tJIrI" id="3fc1D1ljKX5" role="jymVt" />
     <node concept="3clFb_" id="3fc1D1ljIis" role="jymVt">
@@ -19780,6 +19786,17 @@
   <node concept="3HP615" id="3fc1D1l7D4_">
     <property role="TrG5h" value="IResultElementReference" />
     <property role="3GE5qa" value="resultRef" />
+    <node concept="3clFb_" id="32qWz0LISu7" role="jymVt">
+      <property role="TrG5h" value="getTransformationResultReference" />
+      <node concept="3uibUv" id="32qWz0LISFT" role="3clF45">
+        <ref role="3uigEE" node="3fc1D1lzQwj" resolve="ITransformationResultReference" />
+      </node>
+      <node concept="3Tm1VV" id="32qWz0LISua" role="1B3o_S" />
+      <node concept="3clFbS" id="32qWz0LISub" role="3clF47" />
+      <node concept="2AHcQZ" id="32qWz0LIY8C" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
     <node concept="3clFb_" id="3fc1D1l7D5M" role="jymVt">
       <property role="TrG5h" value="resolve" />
       <node concept="37vLTG" id="3fc1D1l7D79" role="3clF46">
@@ -20530,6 +20547,12 @@
             <ref role="3cqZAo" node="3fc1D1l$x7J" resolve="transformationResultReference" />
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="32qWz0LITvX" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="2AHcQZ" id="32qWz0LIZHK" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
     </node>
     <node concept="2tJIrI" id="3fc1D1l$x8q" role="jymVt" />
@@ -22518,6 +22541,25 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3fc1D1n5anb" role="jymVt" />
+    <node concept="3clFb_" id="32qWz0LIY_m" role="jymVt">
+      <property role="TrG5h" value="getTransformationResultReference" />
+      <node concept="3uibUv" id="32qWz0LIY_n" role="3clF45">
+        <ref role="3uigEE" node="3fc1D1lzQwj" resolve="ITransformationResultReference" />
+      </node>
+      <node concept="3Tm1VV" id="32qWz0LIY_o" role="1B3o_S" />
+      <node concept="2AHcQZ" id="32qWz0LIY_s" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="2AHcQZ" id="32qWz0LIY_q" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3clFbS" id="32qWz0LIY_r" role="3clF47">
+        <node concept="3clFbF" id="32qWz0LIY_u" role="3cqZAp">
+          <node concept="10Nm6u" id="32qWz0LIY_t" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="32qWz0LIZ2F" role="jymVt" />
     <node concept="3clFb_" id="3fc1D1n59Fb" role="jymVt">
       <property role="TrG5h" value="resolve" />
       <node concept="37vLTG" id="3fc1D1n59Fc" role="3clF46">
@@ -22996,6 +23038,27 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3fc1D1n8Oxo" role="jymVt" />
+    <node concept="3clFb_" id="32qWz0LIWhj" role="jymVt">
+      <property role="TrG5h" value="getTransformationResultReference" />
+      <node concept="3uibUv" id="32qWz0LIWhk" role="3clF45">
+        <ref role="3uigEE" node="3fc1D1lzQwj" resolve="ITransformationResultReference" />
+      </node>
+      <node concept="3Tm1VV" id="32qWz0LIWhl" role="1B3o_S" />
+      <node concept="3clFbS" id="32qWz0LIWhn" role="3clF47">
+        <node concept="3clFbF" id="32qWz0LIXdc" role="3cqZAp">
+          <node concept="37vLTw" id="32qWz0LIXdb" role="3clFbG">
+            <ref role="3cqZAo" node="3fc1D1n8MyK" resolve="transformationResultRef" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="32qWz0LIWho" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="2AHcQZ" id="32qWz0LJ2kM" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="32qWz0LIWIw" role="jymVt" />
     <node concept="3clFb_" id="3fc1D1n8Q86" role="jymVt">
       <property role="TrG5h" value="resolve" />
       <node concept="37vLTG" id="3fc1D1n8Q87" role="3clF46">

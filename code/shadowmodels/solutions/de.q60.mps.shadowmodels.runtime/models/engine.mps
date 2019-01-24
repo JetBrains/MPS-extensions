@@ -4371,9 +4371,6 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5gTrVpGiHGw" role="1B3o_S" />
-    <node concept="3uibUv" id="2$QnGbtLGJJ" role="EKbjA">
-      <ref role="3uigEE" node="2$QnGbtLzrq" resolve="ITransformationSolution" />
-    </node>
   </node>
   <node concept="312cEu" id="5gTrVpGiXy3">
     <property role="TrG5h" value="TransformationCall" />
@@ -5393,14 +5390,14 @@
       <node concept="3uibUv" id="2$QnGbtWpS3" role="1tU5fm">
         <ref role="3uigEE" to="pxvb:7vWAzuEE15A" resolve="ContextValue" />
         <node concept="3uibUv" id="2$QnGbtXjZi" role="11_B2D">
-          <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+          <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
         </node>
       </node>
       <node concept="2ShNRf" id="2$QnGbtWqiK" role="33vP2m">
         <node concept="HV5vD" id="2$QnGbtWqNR" role="2ShVmc">
           <ref role="HV5vE" to="pxvb:7vWAzuEE15A" resolve="ContextValue" />
           <node concept="3uibUv" id="2$QnGbtXlfa" role="HU9BZ">
-            <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+            <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
           </node>
         </node>
       </node>
@@ -6013,7 +6010,7 @@
       </node>
       <node concept="1LlUBW" id="2$QnGbuhDoU" role="3clF45">
         <node concept="3uibUv" id="2$QnGbuhIOm" role="1Lm7xW">
-          <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+          <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
         </node>
         <node concept="3uibUv" id="2$QnGbuhO5h" role="1Lm7xW">
           <ref role="3uigEE" node="5gTrVpGiHGv" resolve="TransformationResult" />
@@ -6025,7 +6022,7 @@
           <node concept="3cpWsn" id="2$QnGbtPk_h" role="3cpWs9">
             <property role="TrG5h" value="rresult" />
             <node concept="3uibUv" id="2$QnGbtPzDS" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
             </node>
             <node concept="2OqwBi" id="2$QnGbucmJs" role="33vP2m">
               <node concept="37vLTw" id="2$QnGbuckP$" role="2Oq$k0">
@@ -6072,11 +6069,11 @@
                           <node concept="3cpWsn" id="2$QnGbtZsa5" role="3cpWs9">
                             <property role="TrG5h" value="r" />
                             <node concept="3uibUv" id="2$QnGbtZsa0" role="1tU5fm">
-                              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+                              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
                             </node>
                             <node concept="2ShNRf" id="2$QnGbucvt7" role="33vP2m">
                               <node concept="1pGfFk" id="2$QnGbucvt8" role="2ShVmc">
-                                <ref role="37wK5l" node="2$QnGbtPXsm" resolve="RewriteResult" />
+                                <ref role="37wK5l" node="2$QnGbtPXsm" resolve="SubgraphResult" />
                                 <node concept="2OqwBi" id="3fc1D1lMgj5" role="37wK5m">
                                   <node concept="37vLTw" id="3fc1D1lMg0K" role="2Oq$k0">
                                     <ref role="3cqZAo" node="2$QnGbtOHK8" resolve="problem" />
@@ -6464,7 +6461,7 @@
           <node concept="3cpWsn" id="3fc1D1lv6eB" role="3cpWs9">
             <property role="TrG5h" value="root" />
             <node concept="3uibUv" id="3fc1D1lv6ew" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
             </node>
             <node concept="2OqwBi" id="3fc1D1lv6eC" role="33vP2m">
               <node concept="37vLTw" id="3fc1D1lv6eD" role="2Oq$k0">
@@ -6668,7 +6665,7 @@
           <node concept="3cpWsn" id="3fc1D1n4ufM" role="3cpWs9">
             <property role="TrG5h" value="root" />
             <node concept="3uibUv" id="3fc1D1n4ufN" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
             </node>
             <node concept="2OqwBi" id="3fc1D1n4ufO" role="33vP2m">
               <node concept="37vLTw" id="3fc1D1n4ufP" role="2Oq$k0">
@@ -6756,7 +6753,7 @@
           <node concept="3cpWsn" id="3fc1D1nrx7w" role="3cpWs9">
             <property role="TrG5h" value="root" />
             <node concept="3uibUv" id="3fc1D1nrx7x" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
             </node>
             <node concept="2OqwBi" id="3fc1D1nrx7y" role="33vP2m">
               <node concept="37vLTw" id="3fc1D1nrx7z" role="2Oq$k0">
@@ -6843,7 +6840,7 @@
           <node concept="3cpWsn" id="3fc1D1nfJh9" role="3cpWs9">
             <property role="TrG5h" value="root" />
             <node concept="3uibUv" id="3fc1D1nfJha" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
             </node>
             <node concept="2OqwBi" id="3fc1D1nfJhb" role="33vP2m">
               <node concept="37vLTw" id="3fc1D1nfJhc" role="2Oq$k0">
@@ -6949,7 +6946,7 @@
           <node concept="3cpWsn" id="32qWz0KznfZ" role="3cpWs9">
             <property role="TrG5h" value="root" />
             <node concept="3uibUv" id="32qWz0KznfS" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
             </node>
             <node concept="2OqwBi" id="32qWz0Kzng0" role="33vP2m">
               <node concept="37vLTw" id="32qWz0Kzng1" role="2Oq$k0">
@@ -7386,7 +7383,7 @@
       <node concept="37vLTG" id="2$QnGbubPWb" role="3clF46">
         <property role="TrG5h" value="result" />
         <node concept="3uibUv" id="2$QnGbubTlP" role="1tU5fm">
-          <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+          <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
         </node>
       </node>
       <node concept="3uibUv" id="2$QnGbudqnb" role="3clF45">
@@ -14822,7 +14819,7 @@
     </node>
   </node>
   <node concept="312cEu" id="3eNjk1XQmDi">
-    <property role="TrG5h" value="RewriteResult" />
+    <property role="TrG5h" value="SubgraphResult" />
     <node concept="2tJIrI" id="2$QnGbtW374" role="jymVt" />
     <node concept="312cEg" id="3eNjk1XQo2j" role="jymVt">
       <property role="TrG5h" value="engine" />
@@ -14876,11 +14873,11 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="3fc1D1n2iAY" role="1B3o_S" />
       <node concept="3uibUv" id="3fc1D1n2kI6" role="1tU5fm">
-        <ref role="3uigEE" node="3fc1D1n26dW" resolve="RewriteResult.MappingLabels" />
+        <ref role="3uigEE" node="3fc1D1n26dW" resolve="SubgraphResult.MappingLabels" />
       </node>
       <node concept="2ShNRf" id="3fc1D1n2kU7" role="33vP2m">
         <node concept="HV5vD" id="3fc1D1n2l6H" role="2ShVmc">
-          <ref role="HV5vE" node="3fc1D1n26dW" resolve="RewriteResult.MappingLabels" />
+          <ref role="HV5vE" node="3fc1D1n26dW" resolve="SubgraphResult.MappingLabels" />
         </node>
       </node>
     </node>
@@ -14905,11 +14902,11 @@
       <property role="TrG5h" value="phase" />
       <node concept="3Tm6S6" id="32qWz0LFja2" role="1B3o_S" />
       <node concept="3uibUv" id="32qWz0LFmtS" role="1tU5fm">
-        <ref role="3uigEE" node="32qWz0LFb7u" resolve="RewriteResult.Phase" />
+        <ref role="3uigEE" node="32qWz0LFb7u" resolve="SubgraphResult.Phase" />
       </node>
       <node concept="Rm8GO" id="32qWz0LFmKH" role="33vP2m">
         <ref role="Rm8GQ" node="32qWz0LFeIb" resolve="TRANSFORM" />
-        <ref role="1Px2BO" node="32qWz0LFb7u" resolve="RewriteResult.Phase" />
+        <ref role="1Px2BO" node="32qWz0LFb7u" resolve="SubgraphResult.Phase" />
       </node>
     </node>
     <node concept="2tJIrI" id="3eNjk1XQo1N" role="jymVt" />
@@ -14986,7 +14983,7 @@
           <node concept="37vLTI" id="32qWz0LFye9" role="3clFbG">
             <node concept="Rm8GO" id="32qWz0LFyuE" role="37vLTx">
               <ref role="Rm8GQ" node="32qWz0LFfgk" resolve="CONTRIBUTIONS" />
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="RewriteResult.Phase" />
+              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="SubgraphResult.Phase" />
             </node>
             <node concept="37vLTw" id="32qWz0LFxMu" role="37vLTJ">
               <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
@@ -15002,7 +14999,7 @@
           <node concept="37vLTI" id="32qWz0LFyMl" role="3clFbG">
             <node concept="Rm8GO" id="32qWz0LFz20" role="37vLTx">
               <ref role="Rm8GQ" node="32qWz0LFfGR" resolve="DONE" />
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="RewriteResult.Phase" />
+              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="SubgraphResult.Phase" />
             </node>
             <node concept="37vLTw" id="32qWz0LFyMn" role="37vLTJ">
               <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
@@ -15021,7 +15018,7 @@
           <node concept="3clFbC" id="32qWz0LFATc" role="3clFbw">
             <node concept="Rm8GO" id="32qWz0LGFwk" role="3uHU7w">
               <ref role="Rm8GQ" node="32qWz0LFfGR" resolve="DONE" />
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="RewriteResult.Phase" />
+              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="SubgraphResult.Phase" />
             </node>
             <node concept="37vLTw" id="32qWz0LFAca" role="3uHU7B">
               <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
@@ -15632,7 +15629,7 @@
           <node concept="3clFbC" id="32qWz0LHlpy" role="3clFbw">
             <node concept="Rm8GO" id="32qWz0LHlJQ" role="3uHU7w">
               <ref role="Rm8GQ" node="32qWz0LFeIb" resolve="TRANSFORM" />
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="RewriteResult.Phase" />
+              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="SubgraphResult.Phase" />
             </node>
             <node concept="37vLTw" id="32qWz0LHkTJ" role="3uHU7B">
               <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
@@ -15645,7 +15642,7 @@
             <property role="TrG5h" value="rewriteResults" />
             <node concept="A3Dl8" id="3fc1D1mcB4S" role="1tU5fm">
               <node concept="3uibUv" id="3fc1D1mcB4V" role="A3Ik2">
-                <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+                <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
               </node>
             </node>
             <node concept="2OqwBi" id="3fc1D1mk0VN" role="33vP2m">
@@ -15653,7 +15650,7 @@
                 <node concept="2ShNRf" id="3fc1D1mcB5F" role="2Oq$k0">
                   <node concept="2HTt$P" id="3fc1D1mcB5G" role="2ShVmc">
                     <node concept="3uibUv" id="3fc1D1mcB5H" role="2HTBi0">
-                      <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+                      <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
                     </node>
                     <node concept="Xjq3P" id="3fc1D1mcB5I" role="2HTEbv" />
                   </node>
@@ -16180,7 +16177,7 @@
           </node>
           <node concept="3clFbC" id="32qWz0LHngs" role="3clFbw">
             <node concept="Rm8GO" id="32qWz0LHngt" role="3uHU7w">
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="RewriteResult.Phase" />
+              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="SubgraphResult.Phase" />
               <ref role="Rm8GQ" node="32qWz0LFeIb" resolve="TRANSFORM" />
             </node>
             <node concept="37vLTw" id="32qWz0LHngu" role="3uHU7B">
@@ -16604,14 +16601,14 @@
         <node concept="3rvAFt" id="3fc1D1n28jO" role="1tU5fm">
           <node concept="17QB3L" id="3fc1D1n28kC" role="3rvQeY" />
           <node concept="3uibUv" id="3fc1D1n29fu" role="3rvSg0">
-            <ref role="3uigEE" node="3fc1D1n1Or4" resolve="RewriteResult.MappingLabel" />
+            <ref role="3uigEE" node="3fc1D1n1Or4" resolve="SubgraphResult.MappingLabel" />
           </node>
         </node>
         <node concept="2ShNRf" id="3fc1D1n29yr" role="33vP2m">
           <node concept="3rGOSV" id="3fc1D1n29wk" role="2ShVmc">
             <node concept="17QB3L" id="3fc1D1n29wl" role="3rHrn6" />
             <node concept="3uibUv" id="3fc1D1n29wm" role="3rHtpV">
-              <ref role="3uigEE" node="3fc1D1n1Or4" resolve="RewriteResult.MappingLabel" />
+              <ref role="3uigEE" node="3fc1D1n1Or4" resolve="SubgraphResult.MappingLabel" />
             </node>
           </node>
         </node>
@@ -16623,7 +16620,7 @@
           <node concept="17QB3L" id="3fc1D1n29u3" role="1tU5fm" />
         </node>
         <node concept="3uibUv" id="3fc1D1n29qD" role="3clF45">
-          <ref role="3uigEE" node="3fc1D1n1Or4" resolve="RewriteResult.MappingLabel" />
+          <ref role="3uigEE" node="3fc1D1n1Or4" resolve="SubgraphResult.MappingLabel" />
         </node>
         <node concept="3Tm1VV" id="3fc1D1n29j9" role="1B3o_S" />
         <node concept="3clFbS" id="3fc1D1n29ja" role="3clF47">
@@ -16631,7 +16628,7 @@
             <node concept="3cpWsn" id="3fc1D1n2a9q" role="3cpWs9">
               <property role="TrG5h" value="label" />
               <node concept="3uibUv" id="3fc1D1n2a9f" role="1tU5fm">
-                <ref role="3uigEE" node="3fc1D1n1Or4" resolve="RewriteResult.MappingLabel" />
+                <ref role="3uigEE" node="3fc1D1n1Or4" resolve="SubgraphResult.MappingLabel" />
               </node>
               <node concept="3EllGN" id="3fc1D1n2a9r" role="33vP2m">
                 <node concept="37vLTw" id="3fc1D1n2a9s" role="3ElVtu">
@@ -16654,7 +16651,7 @@
                 <node concept="37vLTI" id="3fc1D1n2aSv" role="3clFbG">
                   <node concept="2ShNRf" id="3fc1D1n2aUv" role="37vLTx">
                     <node concept="1pGfFk" id="3fc1D1n2BCf" role="2ShVmc">
-                      <ref role="37wK5l" node="3fc1D1n2AcK" resolve="RewriteResult.MappingLabel" />
+                      <ref role="37wK5l" node="3fc1D1n2AcK" resolve="SubgraphResult.MappingLabel" />
                       <node concept="37vLTw" id="3fc1D1n2BEV" role="37wK5m">
                         <ref role="3cqZAo" node="3fc1D1n29sb" resolve="id" />
                       </node>
@@ -16702,7 +16699,7 @@
           <node concept="17QB3L" id="3fc1D1n2e1y" role="1tU5fm" />
         </node>
         <node concept="3uibUv" id="3fc1D1n2e33" role="3clF45">
-          <ref role="3uigEE" node="3fc1D1n1Or4" resolve="RewriteResult.MappingLabel" />
+          <ref role="3uigEE" node="3fc1D1n1Or4" resolve="SubgraphResult.MappingLabel" />
         </node>
         <node concept="3Tm1VV" id="3fc1D1n2dIV" role="1B3o_S" />
         <node concept="3clFbS" id="3fc1D1n2dIW" role="3clF47">
@@ -16744,7 +16741,7 @@
             <node concept="3cpWsn" id="3fc1D1n2lsJ" role="3cpWs9">
               <property role="TrG5h" value="label" />
               <node concept="3uibUv" id="3fc1D1n2lsH" role="1tU5fm">
-                <ref role="3uigEE" node="3fc1D1n1Or4" resolve="RewriteResult.MappingLabel" />
+                <ref role="3uigEE" node="3fc1D1n1Or4" resolve="SubgraphResult.MappingLabel" />
               </node>
               <node concept="1rXfSq" id="3fc1D1n2lsK" role="33vP2m">
                 <ref role="37wK5l" node="3fc1D1n2dIS" resolve="getLabel" />
@@ -17089,18 +17086,11 @@
       <node concept="3Tmbuc" id="32qWz0LFeFd" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="3eNjk1XQmDj" role="1B3o_S" />
-    <node concept="3uibUv" id="2$QnGbtLKH0" role="EKbjA">
-      <ref role="3uigEE" node="2$QnGbtLzrq" resolve="ITransformationSolution" />
-    </node>
   </node>
   <node concept="3HP615" id="2$QnGbtLuzE">
     <property role="TrG5h" value="ITransformationProblem" />
     <node concept="2tJIrI" id="3fc1D1l80rS" role="jymVt" />
     <node concept="3Tm1VV" id="2$QnGbtLuzF" role="1B3o_S" />
-  </node>
-  <node concept="3HP615" id="2$QnGbtLzrq">
-    <property role="TrG5h" value="ITransformationSolution" />
-    <node concept="3Tm1VV" id="2$QnGbtLzrr" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="2$QnGbtLLA8">
     <property role="TrG5h" value="RewriteCall" />
@@ -22577,7 +22567,7 @@
           <node concept="3cpWsn" id="3fc1D1n5d7y" role="3cpWs9">
             <property role="TrG5h" value="rewriteResult" />
             <node concept="3uibUv" id="3fc1D1n5d7n" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
             </node>
             <node concept="1LFfDK" id="3fc1D1n5d7z" role="33vP2m">
               <node concept="3cmrfG" id="3fc1D1n5d7$" role="1LF_Uc">
@@ -22640,7 +22630,7 @@
           <node concept="3cpWsn" id="3fc1D1n5yja" role="3cpWs9">
             <property role="TrG5h" value="rewriteResult" />
             <node concept="3uibUv" id="3fc1D1n5yjb" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="RewriteResult" />
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="SubgraphResult" />
             </node>
             <node concept="1LFfDK" id="3fc1D1n5yjc" role="33vP2m">
               <node concept="3cmrfG" id="3fc1D1n5yjd" role="1LF_Uc">

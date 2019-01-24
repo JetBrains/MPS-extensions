@@ -1816,5 +1816,46 @@
       <node concept="3clFbS" id="32qWz0KiF34" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="32qWz0KZZlo">
+    <property role="3GE5qa" value="contribution" />
+    <ref role="13h7C2" to="oyp0:32qWz0KZXF2" resolve="Contribution" />
+    <node concept="13i0hz" id="32qWz0KZZlM" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getNodeBuilderConcept" />
+      <ref role="13i0hy" node="6QszampN4Ee" resolve="getNodeBuilderConcept" />
+      <node concept="3Tm1VV" id="32qWz0KZZlN" role="1B3o_S" />
+      <node concept="3clFbS" id="32qWz0KZZlO" role="3clF47">
+        <node concept="3clFbF" id="32qWz0KZZlP" role="3cqZAp">
+          <node concept="2OqwBi" id="32qWz0KZZlQ" role="3clFbG">
+            <node concept="1UaxmW" id="32qWz0KZZlR" role="2Oq$k0">
+              <node concept="1YaCAy" id="32qWz0KZZlS" role="1Ub_4A">
+                <property role="TrG5h" value="sNodeType" />
+                <ref role="1YaFvo" to="tp25:gzTqbfa" resolve="SNodeType" />
+              </node>
+              <node concept="2OqwBi" id="32qWz0KZZlT" role="1Ub_4B">
+                <node concept="2OqwBi" id="32qWz0KZZlU" role="2Oq$k0">
+                  <node concept="13iPFW" id="32qWz0KZZlV" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="32qWz0KZZJE" role="2OqNvi">
+                    <ref role="3Tt5mk" to="oyp0:32qWz0KZXF5" resolve="target" />
+                  </node>
+                </node>
+                <node concept="3JvlWi" id="32qWz0KZZlX" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="32qWz0KZZlY" role="2OqNvi">
+              <ref role="3Tt5mk" to="tp25:g$ehGDh" resolve="concept" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="32qWz0KZZlZ" role="3clF45">
+        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="32qWz0KZZlp" role="13h7CW">
+      <node concept="3clFbS" id="32qWz0KZZlq" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

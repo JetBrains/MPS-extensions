@@ -1006,49 +1006,58 @@
           </node>
         </node>
       </node>
-      <node concept="026TG" id="3fc1D1m7Wb4" role="026TK">
-        <node concept="027og" id="3fc1D1m7Wb5" role="026TJ">
+      <node concept="02i3K" id="7YhLqbpfsW9" role="02i3f">
+        <node concept="02i3D" id="7YhLqbpfsWj" role="02i2B">
+          <ref role="02i3$" to="dj5d:qmkA5fOskc" resolve="Model" />
+        </node>
+      </node>
+    </node>
+    <node concept="2OrE70" id="32qWz0LN8$8" role="02uzr" />
+    <node concept="02vpq" id="32qWz0LN88n" role="02uzr">
+      <property role="TrG5h" value="outputModelWithRewrite" />
+      <node concept="026TG" id="32qWz0LN88E" role="026TK">
+        <node concept="027og" id="32qWz0LN88F" role="026TJ">
           <ref role="02LMe" to="dj5d:qmkA5fOskc" resolve="Model" />
-          <node concept="027oh" id="3fc1D1m7Wb6" role="02LM9">
+          <node concept="027oh" id="32qWz0LN88G" role="02LM9">
             <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
-            <node concept="3cpWs3" id="3fc1D1m7Wb7" role="027of">
-              <node concept="Xl_RD" id="3fc1D1m7Wb8" role="3uHU7w">
+            <node concept="3cpWs3" id="32qWz0LN88H" role="027of">
+              <node concept="Xl_RD" id="32qWz0LN88I" role="3uHU7w">
                 <property role="Xl_RC" value=".desugar_rewrite" />
               </node>
-              <node concept="2OqwBi" id="3fc1D1m7Wb9" role="3uHU7B">
-                <node concept="214o7A" id="3fc1D1m7Wba" role="2Oq$k0" />
-                <node concept="3TrcHB" id="3fc1D1m7Wbb" role="2OqNvi">
+              <node concept="2OqwBi" id="32qWz0LN88J" role="3uHU7B">
+                <node concept="214o7A" id="32qWz0LN88K" role="2Oq$k0" />
+                <node concept="3TrcHB" id="32qWz0LN88L" role="2OqNvi">
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="027rt" id="3fc1D1m7Wbc" role="02LM9">
+          <node concept="027rt" id="32qWz0LN88M" role="02LM9">
             <ref role="027rv" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
-            <node concept="2PWHRv" id="3fc1D1m7Wbd" role="027rp">
-              <node concept="2OqwBi" id="3fc1D1m7Wbe" role="2PWHRq">
-                <node concept="2OqwBi" id="3fc1D1m7Wbf" role="2Oq$k0">
-                  <node concept="214o7A" id="3fc1D1m7Wbg" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="3fc1D1m7Wbh" role="2OqNvi">
+            <node concept="2PWHRv" id="32qWz0LN88N" role="027rp">
+              <node concept="2OqwBi" id="32qWz0LN88O" role="2PWHRq">
+                <node concept="2OqwBi" id="32qWz0LN88P" role="2Oq$k0">
+                  <node concept="214o7A" id="32qWz0LN88Q" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="32qWz0LN88R" role="2OqNvi">
                     <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
                   </node>
                 </node>
-                <node concept="v3k3i" id="3fc1D1m7Wbi" role="2OqNvi">
-                  <node concept="chp4Y" id="3fc1D1m7Wbj" role="v3oSu">
+                <node concept="v3k3i" id="32qWz0LN88S" role="2OqNvi">
+                  <node concept="chp4Y" id="32qWz0LN88T" role="v3oSu">
                     <ref role="cht4Q" to="tpee:fz12cDA" resolve="ClassConcept" />
                   </node>
                 </node>
               </node>
-              <node concept="3RcaXh" id="3fc1D1m7Wbk" role="2PWHRo">
+              <node concept="3RcaXh" id="32qWz0LN88U" role="2PWHRo">
                 <ref role="3RcaDu" node="3fc1D1m7MuN" resolve="classRewriter" />
-                <node concept="214o7A" id="3fc1D1m7Wbl" role="3RcaEu" />
+                <node concept="214o7A" id="32qWz0LN88V" role="3RcaEu" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="02i3K" id="7YhLqbpfsW9" role="02i3f">
-        <node concept="02i3D" id="7YhLqbpfsWj" role="02i2B">
+      <node concept="02i3K" id="32qWz0LN88W" role="02i3f">
+        <node concept="02i3D" id="32qWz0LN88X" role="02i2B">
           <ref role="02i3$" to="dj5d:qmkA5fOskc" resolve="Model" />
         </node>
       </node>

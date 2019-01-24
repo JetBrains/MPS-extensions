@@ -82,10 +82,6 @@
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
       <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
-      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
-        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
-        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
-      </concept>
       <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
         <child id="1164879758292" name="body" index="SfCbr" />
         <child id="1164903496223" name="catchClause" index="TEbGg" />
@@ -306,6 +302,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -5899,7 +5902,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3fc1D1lBOvk" role="2OqNvi">
-                          <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                          <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                         </node>
                       </node>
                       <node concept="37vLTw" id="3fc1D1lBOvl" role="37wK5m">
@@ -6212,7 +6215,7 @@
                                                   <ref role="3cqZAo" node="2$QnGbtZsa5" resolve="r" />
                                                 </node>
                                                 <node concept="liA8E" id="3fc1D1l9TNC" role="2OqNvi">
-                                                  <ref role="37wK5l" node="3fc1D1l9uvi" resolve="transformDone" />
+                                                  <ref role="37wK5l" node="3fc1D1l9uvi" resolve="freeze" />
                                                 </node>
                                               </node>
                                             </node>
@@ -6262,7 +6265,7 @@
                                     <ref role="3cqZAo" node="2$QnGbtPk_h" resolve="rresult" />
                                   </node>
                                   <node concept="liA8E" id="2$QnGbukxQi" role="2OqNvi">
-                                    <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                                    <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="2$QnGbukxQj" role="2OqNvi">
@@ -6303,7 +6306,7 @@
                           <ref role="3cqZAo" node="2$QnGbtPk_h" resolve="rresult" />
                         </node>
                         <node concept="liA8E" id="2$QnGbukpG1" role="2OqNvi">
-                          <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                          <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                         </node>
                       </node>
                       <node concept="liA8E" id="2$QnGbukq4w" role="2OqNvi">
@@ -6357,7 +6360,7 @@
                         <ref role="3cqZAo" node="2$QnGbtPk_h" resolve="rresult" />
                       </node>
                       <node concept="liA8E" id="32qWz0LC5PS" role="2OqNvi">
-                        <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                        <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                       </node>
                     </node>
                     <node concept="liA8E" id="32qWz0LC8FL" role="2OqNvi">
@@ -6521,7 +6524,7 @@
                                     <ref role="3cqZAo" node="3fc1D1lv6eB" resolve="root" />
                                   </node>
                                   <node concept="liA8E" id="3fc1D1lwwoi" role="2OqNvi">
-                                    <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                                    <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="3fc1D1lwwoj" role="2OqNvi">
@@ -6552,7 +6555,7 @@
                               <ref role="3cqZAo" node="3fc1D1lv6eB" resolve="root" />
                             </node>
                             <node concept="liA8E" id="3fc1D1lwvnm" role="2OqNvi">
-                              <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                              <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                             </node>
                           </node>
                           <node concept="liA8E" id="3fc1D1lwvnn" role="2OqNvi">
@@ -6607,7 +6610,7 @@
                         <ref role="3cqZAo" node="3fc1D1lv6eB" resolve="root" />
                       </node>
                       <node concept="liA8E" id="3fc1D1lD0gb" role="2OqNvi">
-                        <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                        <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="3fc1D1lCNMr" role="37wK5m">
@@ -6686,7 +6689,7 @@
                         <ref role="3cqZAo" node="3fc1D1n4ufM" resolve="root" />
                       </node>
                       <node concept="liA8E" id="3fc1D1n4ugT" role="2OqNvi">
-                        <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                        <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="3fc1D1n6xqf" role="37wK5m">
@@ -6890,7 +6893,7 @@
                         <ref role="3cqZAo" node="3fc1D1nfJh9" resolve="root" />
                       </node>
                       <node concept="liA8E" id="3fc1D1nhd4n" role="2OqNvi">
-                        <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                        <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="3fc1D1nhw6Y" role="37wK5m">
@@ -6971,7 +6974,7 @@
                           <ref role="3cqZAo" node="32qWz0KznfZ" resolve="root" />
                         </node>
                         <node concept="liA8E" id="32qWz0K$Xt_" role="2OqNvi">
-                          <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getCall" />
+                          <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                         </node>
                       </node>
                       <node concept="liA8E" id="32qWz0K$Y00" role="2OqNvi">
@@ -14566,11 +14569,11 @@
       </node>
     </node>
     <node concept="312cEg" id="2$QnGbtNZ2k" role="jymVt">
-      <property role="TrG5h" value="call" />
+      <property role="TrG5h" value="rootCall" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="2$QnGbtNZ2l" role="1B3o_S" />
-      <node concept="3uibUv" id="2$QnGbtNZ7h" role="1tU5fm">
-        <ref role="3uigEE" node="2$QnGbtLLA8" resolve="RewriteTCall" />
+      <node concept="3uibUv" id="32qWz0LRhwL" role="1tU5fm">
+        <ref role="3uigEE" node="2$QnGbtLuzE" resolve="ITransformationCall" />
       </node>
     </node>
     <node concept="312cEg" id="2$QnGbuz8Ue" role="jymVt">
@@ -14635,15 +14638,10 @@
       </node>
     </node>
     <node concept="312cEg" id="32qWz0LFja1" role="jymVt">
-      <property role="TrG5h" value="phase" />
+      <property role="TrG5h" value="frozen" />
       <node concept="3Tm6S6" id="32qWz0LFja2" role="1B3o_S" />
-      <node concept="3uibUv" id="32qWz0LFmtS" role="1tU5fm">
-        <ref role="3uigEE" node="32qWz0LFb7u" resolve="Subgraph.Phase" />
-      </node>
-      <node concept="Rm8GO" id="32qWz0LFmKH" role="33vP2m">
-        <ref role="Rm8GQ" node="32qWz0LFeIb" resolve="TRANSFORM" />
-        <ref role="1Px2BO" node="32qWz0LFb7u" resolve="Subgraph.Phase" />
-      </node>
+      <node concept="10P_77" id="32qWz0LRrOH" role="1tU5fm" />
+      <node concept="3clFbT" id="32qWz0LRtck" role="33vP2m" />
     </node>
     <node concept="2tJIrI" id="3eNjk1XQo1N" role="jymVt" />
     <node concept="3clFbW" id="2$QnGbtPXsm" role="jymVt">
@@ -14655,7 +14653,7 @@
             <node concept="2OqwBi" id="2$QnGbtPXsK" role="37vLTJ">
               <node concept="Xjq3P" id="2$QnGbtPXsL" role="2Oq$k0" />
               <node concept="2OwXpG" id="2$QnGbtPXsM" role="2OqNvi">
-                <ref role="2Oxat5" node="2$QnGbtNZ2k" resolve="call" />
+                <ref role="2Oxat5" node="2$QnGbtNZ2k" resolve="rootCall" />
               </node>
             </node>
             <node concept="37vLTw" id="2$QnGbtPXsN" role="37vLTx">
@@ -14711,34 +14709,31 @@
     </node>
     <node concept="2tJIrI" id="2$QnGbu4_X_" role="jymVt" />
     <node concept="3clFb_" id="3fc1D1l9uvi" role="jymVt">
-      <property role="TrG5h" value="transformDone" />
+      <property role="TrG5h" value="freeze" />
       <node concept="3cqZAl" id="3fc1D1l9uvk" role="3clF45" />
       <node concept="3Tm1VV" id="3fc1D1l9uvl" role="1B3o_S" />
       <node concept="3clFbS" id="3fc1D1l9uvm" role="3clF47">
-        <node concept="3clFbF" id="32qWz0LFxMw" role="3cqZAp">
-          <node concept="37vLTI" id="32qWz0LFye9" role="3clFbG">
-            <node concept="Rm8GO" id="32qWz0LFyuE" role="37vLTx">
-              <ref role="Rm8GQ" node="32qWz0LFfgk" resolve="CONTRIBUTIONS" />
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="Subgraph.Phase" />
+        <node concept="3clFbF" id="32qWz0LR$By" role="3cqZAp">
+          <node concept="37vLTI" id="32qWz0LR_ei" role="3clFbG">
+            <node concept="3clFbT" id="32qWz0LR_ml" role="37vLTx">
+              <property role="3clFbU" value="true" />
             </node>
-            <node concept="37vLTw" id="32qWz0LFxMu" role="37vLTJ">
-              <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
+            <node concept="37vLTw" id="32qWz0LR$Bw" role="37vLTJ">
+              <ref role="3cqZAo" node="32qWz0LFja1" resolve="frozen" />
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="32qWz0Lykdg" role="3cqZAp">
-          <node concept="1rXfSq" id="32qWz0Lykde" role="3clFbG">
-            <ref role="37wK5l" node="32qWz0LvPPj" resolve="applyContributions" />
+        <node concept="3SKdUt" id="32qWz0LR_HW" role="3cqZAp">
+          <node concept="3SKdUq" id="32qWz0LR_HY" role="3SKWNk">
+            <property role="3SKdUp" value="TODO" />
           </node>
         </node>
-        <node concept="3clFbF" id="32qWz0LFyMk" role="3cqZAp">
-          <node concept="37vLTI" id="32qWz0LFyMl" role="3clFbG">
-            <node concept="Rm8GO" id="32qWz0LFz20" role="37vLTx">
-              <ref role="Rm8GQ" node="32qWz0LFfGR" resolve="DONE" />
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="Subgraph.Phase" />
-            </node>
-            <node concept="37vLTw" id="32qWz0LFyMn" role="37vLTJ">
-              <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
+        <node concept="1X3_iC" id="32qWz0LRA1L" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="32qWz0Lykdg" role="8Wnug">
+            <node concept="1rXfSq" id="32qWz0Lykde" role="3clFbG">
+              <ref role="37wK5l" node="32qWz0LvPPj" resolve="applyContributions" />
             </node>
           </node>
         </node>
@@ -14746,19 +14741,13 @@
     </node>
     <node concept="2tJIrI" id="3fc1D1l9y6p" role="jymVt" />
     <node concept="3clFb_" id="3fc1D1l9zPu" role="jymVt">
-      <property role="TrG5h" value="checkDone" />
+      <property role="TrG5h" value="checkNotFrozen" />
       <node concept="3cqZAl" id="3fc1D1l9zPw" role="3clF45" />
       <node concept="3Tmbuc" id="3fc1D1l9_fQ" role="1B3o_S" />
       <node concept="3clFbS" id="3fc1D1l9zPy" role="3clF47">
         <node concept="3clFbJ" id="3fc1D1l9FqS" role="3cqZAp">
-          <node concept="3clFbC" id="32qWz0LFATc" role="3clFbw">
-            <node concept="Rm8GO" id="32qWz0LGFwk" role="3uHU7w">
-              <ref role="Rm8GQ" node="32qWz0LFfGR" resolve="DONE" />
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="Subgraph.Phase" />
-            </node>
-            <node concept="37vLTw" id="32qWz0LFAca" role="3uHU7B">
-              <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
-            </node>
+          <node concept="37vLTw" id="32qWz0LFAca" role="3clFbw">
+            <ref role="3cqZAo" node="32qWz0LFja1" resolve="frozen" />
           </node>
           <node concept="3clFbS" id="3fc1D1l9FqU" role="3clFbx">
             <node concept="YS8fn" id="3fc1D1l9Fyu" role="3cqZAp">
@@ -14767,10 +14756,42 @@
                   <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
                   <node concept="3cpWs3" id="3fc1D1l9G_u" role="37wK5m">
                     <node concept="37vLTw" id="3fc1D1l9GB8" role="3uHU7w">
-                      <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="call" />
+                      <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="rootCall" />
                     </node>
                     <node concept="Xl_RD" id="3fc1D1l9FUs" role="3uHU7B">
-                      <property role="Xl_RC" value="Still in transformation phase. " />
+                      <property role="Xl_RC" value="Subgraph computation is already completed. " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="32qWz0LRYk5" role="jymVt" />
+    <node concept="3clFb_" id="32qWz0LRPzJ" role="jymVt">
+      <property role="TrG5h" value="checkFrozen" />
+      <node concept="3cqZAl" id="32qWz0LRPzK" role="3clF45" />
+      <node concept="3Tmbuc" id="32qWz0LRPzL" role="1B3o_S" />
+      <node concept="3clFbS" id="32qWz0LRPzM" role="3clF47">
+        <node concept="3clFbJ" id="32qWz0LRPzN" role="3cqZAp">
+          <node concept="3fqX7Q" id="32qWz0LRXza" role="3clFbw">
+            <node concept="37vLTw" id="32qWz0LRXzc" role="3fr31v">
+              <ref role="3cqZAo" node="32qWz0LFja1" resolve="frozen" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="32qWz0LRPzP" role="3clFbx">
+            <node concept="YS8fn" id="32qWz0LRPzQ" role="3cqZAp">
+              <node concept="2ShNRf" id="32qWz0LRPzR" role="YScLw">
+                <node concept="1pGfFk" id="32qWz0LRPzS" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="3cpWs3" id="32qWz0LRPzT" role="37wK5m">
+                    <node concept="37vLTw" id="32qWz0LRPzU" role="3uHU7w">
+                      <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="rootCall" />
+                    </node>
+                    <node concept="Xl_RD" id="32qWz0LRPzV" role="3uHU7B">
+                      <property role="Xl_RC" value="Subgraph computation is still in progress. " />
                     </node>
                   </node>
                 </node>
@@ -15085,8 +15106,8 @@
             <node concept="2ShNRf" id="3fc1D1lBiPz" role="33vP2m">
               <node concept="1pGfFk" id="3fc1D1lBiP$" role="2ShVmc">
                 <ref role="37wK5l" node="3fc1D1l$4pI" resolve="TransformationResultReference_Rewrite" />
-                <node concept="37vLTw" id="3fc1D1lBiP_" role="37wK5m">
-                  <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="call" />
+                <node concept="1rXfSq" id="32qWz0LTDHh" role="37wK5m">
+                  <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                 </node>
                 <node concept="37vLTw" id="3fc1D1lBiPA" role="37wK5m">
                   <ref role="3cqZAo" node="3fc1D1l_tfx" resolve="input" />
@@ -15134,15 +15155,35 @@
     </node>
     <node concept="2tJIrI" id="2$QnGbtRnv5" role="jymVt" />
     <node concept="3clFb_" id="2$QnGbtXrgj" role="jymVt">
-      <property role="TrG5h" value="getCall" />
-      <node concept="3uibUv" id="2$QnGbtXrgk" role="3clF45">
+      <property role="TrG5h" value="getRootRewrite" />
+      <node concept="3uibUv" id="32qWz0LVXIX" role="3clF45">
         <ref role="3uigEE" node="2$QnGbtLLA8" resolve="RewriteTCall" />
       </node>
       <node concept="3Tm1VV" id="2$QnGbtXrgl" role="1B3o_S" />
       <node concept="3clFbS" id="2$QnGbtXrgm" role="3clF47">
+        <node concept="3clFbF" id="32qWz0LTjeg" role="3cqZAp">
+          <node concept="10QFUN" id="32qWz0LTwC1" role="3clFbG">
+            <node concept="37vLTw" id="32qWz0LTwC0" role="10QFUP">
+              <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="rootCall" />
+            </node>
+            <node concept="3uibUv" id="32qWz0LTwPO" role="10QFUM">
+              <ref role="3uigEE" node="2$QnGbtLLA8" resolve="RewriteTCall" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="32qWz0LTmlE" role="jymVt" />
+    <node concept="3clFb_" id="32qWz0LTjec" role="jymVt">
+      <property role="TrG5h" value="getRootCall" />
+      <node concept="3uibUv" id="32qWz0LW0UI" role="3clF45">
+        <ref role="3uigEE" node="2$QnGbtLuzE" resolve="ITransformationCall" />
+      </node>
+      <node concept="3Tm1VV" id="32qWz0LTjee" role="1B3o_S" />
+      <node concept="3clFbS" id="32qWz0LTjef" role="3clF47">
         <node concept="3clFbF" id="2$QnGbtXrgn" role="3cqZAp">
           <node concept="37vLTw" id="2$QnGbtXrgi" role="3clFbG">
-            <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="call" />
+            <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="rootCall" />
           </node>
         </node>
       </node>
@@ -15182,7 +15223,7 @@
       <node concept="3clFbS" id="2$QnGbtRnD6" role="3clF47">
         <node concept="3clFbF" id="3fc1D1l9HVZ" role="3cqZAp">
           <node concept="1rXfSq" id="3fc1D1l9HVX" role="3clFbG">
-            <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkDone" />
+            <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkNotFrozen" />
           </node>
         </node>
         <node concept="3cpWs8" id="2$QnGbtRyTi" role="3cqZAp">
@@ -15348,28 +15389,9 @@
       </node>
       <node concept="3Tm1VV" id="2$QnGbtRHi0" role="1B3o_S" />
       <node concept="3clFbS" id="2$QnGbtRHi1" role="3clF47">
-        <node concept="3clFbJ" id="3fc1D1lPcjm" role="3cqZAp">
-          <property role="TyiWK" value="true" />
-          <node concept="3clFbS" id="3fc1D1lPcjo" role="3clFbx">
-            <node concept="YS8fn" id="3fc1D1lPdXc" role="3cqZAp">
-              <node concept="2ShNRf" id="3fc1D1lPdZ9" role="YScLw">
-                <node concept="1pGfFk" id="3fc1D1lPeh9" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="3fc1D1lPeq$" role="37wK5m">
-                    <property role="Xl_RC" value="Output is incomplete during the transformation phase" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="32qWz0LHlpy" role="3clFbw">
-            <node concept="Rm8GO" id="32qWz0LHlJQ" role="3uHU7w">
-              <ref role="Rm8GQ" node="32qWz0LFeIb" resolve="TRANSFORM" />
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="Subgraph.Phase" />
-            </node>
-            <node concept="37vLTw" id="32qWz0LHkTJ" role="3uHU7B">
-              <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
-            </node>
+        <node concept="3clFbF" id="32qWz0LS4A5" role="3cqZAp">
+          <node concept="1rXfSq" id="32qWz0LS4A3" role="3clFbG">
+            <ref role="37wK5l" node="32qWz0LRPzJ" resolve="checkFrozen" />
           </node>
         </node>
         <node concept="3clFbH" id="3fc1D1mcqAZ" role="3cqZAp" />
@@ -15791,8 +15813,8 @@
               <node concept="2ShNRf" id="3fc1D1mfQXC" role="3cqZAk">
                 <node concept="1pGfFk" id="3fc1D1mfQXD" role="2ShVmc">
                   <ref role="37wK5l" node="3fc1D1l$4pI" resolve="TransformationResultReference_Rewrite" />
-                  <node concept="37vLTw" id="3fc1D1mfQXE" role="37wK5m">
-                    <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="call" />
+                  <node concept="1rXfSq" id="32qWz0LTA62" role="37wK5m">
+                    <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                   </node>
                   <node concept="2OqwBi" id="3fc1D1mfQXF" role="37wK5m">
                     <node concept="1eOMI4" id="3fc1D1mfQXG" role="2Oq$k0">
@@ -15829,8 +15851,8 @@
               <node concept="2ShNRf" id="3fc1D1mgaLQ" role="3cqZAk">
                 <node concept="1pGfFk" id="3fc1D1mgaLR" role="2ShVmc">
                   <ref role="37wK5l" node="3fc1D1lBu8X" resolve="TransformationResultReference_CallInRewrite" />
-                  <node concept="37vLTw" id="3fc1D1mgaLS" role="37wK5m">
-                    <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="call" />
+                  <node concept="1rXfSq" id="32qWz0LTzrv" role="37wK5m">
+                    <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                   </node>
                   <node concept="2OqwBi" id="3fc1D1mgaLT" role="37wK5m">
                     <node concept="1eOMI4" id="3fc1D1mgaLU" role="2Oq$k0">
@@ -15897,28 +15919,9 @@
       </node>
       <node concept="3Tm1VV" id="3fc1D1lP2pF" role="1B3o_S" />
       <node concept="3clFbS" id="3fc1D1lP2pG" role="3clF47">
-        <node concept="3clFbJ" id="32qWz0LHngm" role="3cqZAp">
-          <property role="TyiWK" value="true" />
-          <node concept="3clFbS" id="32qWz0LHngn" role="3clFbx">
-            <node concept="YS8fn" id="32qWz0LHngo" role="3cqZAp">
-              <node concept="2ShNRf" id="32qWz0LHngp" role="YScLw">
-                <node concept="1pGfFk" id="32qWz0LHngq" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="32qWz0LHngr" role="37wK5m">
-                    <property role="Xl_RC" value="Output is incomplete during the transformation phase" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="32qWz0LHngs" role="3clFbw">
-            <node concept="Rm8GO" id="32qWz0LHngt" role="3uHU7w">
-              <ref role="1Px2BO" node="32qWz0LFb7u" resolve="Subgraph.Phase" />
-              <ref role="Rm8GQ" node="32qWz0LFeIb" resolve="TRANSFORM" />
-            </node>
-            <node concept="37vLTw" id="32qWz0LHngu" role="3uHU7B">
-              <ref role="3cqZAo" node="32qWz0LFja1" resolve="phase" />
-            </node>
+        <node concept="3clFbF" id="32qWz0LSzb5" role="3cqZAp">
+          <node concept="1rXfSq" id="32qWz0LSzb3" role="3clFbG">
+            <ref role="37wK5l" node="32qWz0LRPzJ" resolve="checkFrozen" />
           </node>
         </node>
         <node concept="3clFbF" id="3fc1D1lPfyl" role="3cqZAp">
@@ -15952,7 +15955,7 @@
       <node concept="3clFbS" id="2$QnGbueVIt" role="3clF47">
         <node concept="3clFbF" id="3fc1D1l9M02" role="3cqZAp">
           <node concept="1rXfSq" id="3fc1D1l9M00" role="3clFbG">
-            <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkDone" />
+            <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkNotFrozen" />
           </node>
         </node>
         <node concept="3cpWs8" id="2$QnGbuf9V3" role="3cqZAp">
@@ -16149,8 +16152,8 @@
                       <node concept="2ShNRf" id="3fc1D1lZrcw" role="37wK5m">
                         <node concept="1pGfFk" id="3fc1D1lZrcx" role="2ShVmc">
                           <ref role="37wK5l" node="3fc1D1l$4pI" resolve="TransformationResultReference_Rewrite" />
-                          <node concept="37vLTw" id="3fc1D1lZrcy" role="37wK5m">
-                            <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="call" />
+                          <node concept="1rXfSq" id="32qWz0LTCYl" role="37wK5m">
+                            <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                           </node>
                           <node concept="2GrUjf" id="3fc1D1lZrcz" role="37wK5m">
                             <ref role="2Gs0qQ" node="2$QnGbuf0dz" resolve="child" />
@@ -16235,8 +16238,8 @@
                               <node concept="2ShNRf" id="3fc1D1m8_vu" role="33vP2m">
                                 <node concept="1pGfFk" id="3fc1D1m8_vv" role="2ShVmc">
                                   <ref role="37wK5l" node="3fc1D1l$4pI" resolve="TransformationResultReference_Rewrite" />
-                                  <node concept="37vLTw" id="3fc1D1m8_vw" role="37wK5m">
-                                    <ref role="3cqZAo" node="2$QnGbtNZ2k" resolve="call" />
+                                  <node concept="1rXfSq" id="32qWz0LTDje" role="37wK5m">
+                                    <ref role="37wK5l" node="2$QnGbtXrgj" resolve="getRootRewrite" />
                                   </node>
                                   <node concept="37vLTw" id="3fc1D1m8_vx" role="37wK5m">
                                     <ref role="3cqZAo" node="2$QnGbuf0e5" resolve="originalTarget" />
@@ -16380,7 +16383,7 @@
             <node concept="3clFbS" id="3fc1D1n2aiO" role="3clFbx">
               <node concept="3clFbF" id="3fc1D1n2d66" role="3cqZAp">
                 <node concept="1rXfSq" id="3fc1D1n2d64" role="3clFbG">
-                  <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkDone" />
+                  <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkNotFrozen" />
                 </node>
               </node>
               <node concept="3clFbF" id="3fc1D1n2aMY" role="3cqZAp">
@@ -16550,7 +16553,7 @@
         <node concept="3clFbS" id="3fc1D1n2mGu" role="3clF47">
           <node concept="3clFbF" id="3fc1D1n2ozP" role="3cqZAp">
             <node concept="1rXfSq" id="3fc1D1n2ozN" role="3clFbG">
-              <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkDone" />
+              <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkNotFrozen" />
             </node>
           </node>
           <node concept="3clFbF" id="32qWz0Kn0m1" role="3cqZAp">
@@ -16683,7 +16686,7 @@
         <node concept="3clFbS" id="3fc1D1n1RQD" role="3clF47">
           <node concept="3clFbF" id="3fc1D1n2RO2" role="3cqZAp">
             <node concept="1rXfSq" id="3fc1D1n2RO0" role="3clFbG">
-              <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkDone" />
+              <ref role="37wK5l" node="3fc1D1l9zPu" resolve="checkNotFrozen" />
             </node>
           </node>
           <node concept="3cpWs8" id="3fc1D1n2LY7" role="3cqZAp">

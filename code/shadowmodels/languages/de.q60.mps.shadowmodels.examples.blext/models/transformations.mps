@@ -1006,6 +1006,47 @@
           </node>
         </node>
       </node>
+      <node concept="026TG" id="3kkgoki$kou" role="026TK">
+        <node concept="027og" id="3kkgoki$kov" role="026TJ">
+          <ref role="02LMe" to="dj5d:qmkA5fOskc" resolve="Model" />
+          <node concept="027oh" id="3kkgoki$kow" role="02LM9">
+            <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
+            <node concept="3cpWs3" id="3kkgoki$kox" role="027of">
+              <node concept="Xl_RD" id="3kkgoki$koy" role="3uHU7w">
+                <property role="Xl_RC" value=".desugar_rewrite" />
+              </node>
+              <node concept="2OqwBi" id="3kkgoki$koz" role="3uHU7B">
+                <node concept="214o7A" id="3kkgoki$ko$" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3kkgoki$ko_" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="027rt" id="3kkgoki$koA" role="02LM9">
+            <ref role="027rv" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+            <node concept="2PWHRv" id="3kkgoki$koB" role="027rp">
+              <node concept="2OqwBi" id="3kkgoki$koC" role="2PWHRq">
+                <node concept="2OqwBi" id="3kkgoki$koD" role="2Oq$k0">
+                  <node concept="214o7A" id="3kkgoki$koE" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="3kkgoki$koF" role="2OqNvi">
+                    <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                  </node>
+                </node>
+                <node concept="v3k3i" id="3kkgoki$koG" role="2OqNvi">
+                  <node concept="chp4Y" id="3kkgoki$koH" role="v3oSu">
+                    <ref role="cht4Q" to="tpee:fz12cDA" resolve="ClassConcept" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3RcaXh" id="3kkgoki$koI" role="2PWHRo">
+                <ref role="3RcaDu" node="3fc1D1m7MuN" resolve="classRewriter" />
+                <node concept="214o7A" id="3kkgoki$koJ" role="3RcaEu" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="02i3K" id="7YhLqbpfsW9" role="02i3f">
         <node concept="02i3D" id="7YhLqbpfsWj" role="02i2B">
           <ref role="02i3$" to="dj5d:qmkA5fOskc" resolve="Model" />

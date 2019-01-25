@@ -3144,5 +3144,35 @@
       <ref role="1YaFvo" to="oyp0:6QszampNVr5" resolve="BLExpressionTarget" />
     </node>
   </node>
+  <node concept="1YbPZF" id="3kkgoki__Ug">
+    <property role="TrG5h" value="typeof_Subgraph" />
+    <node concept="3clFbS" id="3kkgoki__Uh" role="18ibNy">
+      <node concept="1Z5TYs" id="3kkgoki_A1H" role="3cqZAp">
+        <node concept="mw_s8" id="3kkgoki_A21" role="1ZfhKB">
+          <node concept="1Z2H0r" id="3kkgoki_A1X" role="mwGJk">
+            <node concept="2OqwBi" id="3kkgoki_Ab2" role="1Z2MuG">
+              <node concept="1YBJjd" id="3kkgoki_A2i" role="2Oq$k0">
+                <ref role="1YBMHb" node="3kkgoki__Uj" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="3kkgoki_Am$" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:3kkgoki__Tv" resolve="rootNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3kkgoki_A1K" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3kkgoki__Uq" role="mwGJk">
+            <node concept="1YBJjd" id="3kkgoki__UE" role="1Z2MuG">
+              <ref role="1YBMHb" node="3kkgoki__Uj" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3kkgoki__Uj" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:3kkgoki__Ts" resolve="Subgraph" />
+    </node>
+  </node>
 </model>
 

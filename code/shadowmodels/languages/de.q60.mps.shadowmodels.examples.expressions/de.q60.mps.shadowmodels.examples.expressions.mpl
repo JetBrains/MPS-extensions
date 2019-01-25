@@ -46,6 +46,8 @@
   </generators>
   <sourcePath />
   <languageVersions>
+    <language slang="l:96089812-effe-4a96-bb2e-75f8162046af:de.q60.mps.shadowmodels.gen.afterPF" version="0" />
+    <language slang="l:6f76dbc8-9615-4a2e-8034-c27700f8983b:de.q60.mps.shadowmodels.gen.desugar" version="0" />
     <language slang="l:94b64715-a263-4c36-a138-8da14705ffa7:de.q60.mps.shadowmodels.transformation" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />

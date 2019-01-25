@@ -2466,7 +2466,7 @@
   </node>
   <node concept="24kQdi" id="32qWz0KZXFf">
     <property role="3GE5qa" value="contribution" />
-    <ref role="1XX52x" to="oyp0:32qWz0KZXF2" resolve="Weaving" />
+    <ref role="1XX52x" to="oyp0:32qWz0KZXF2" resolve="InlineContribution" />
     <node concept="3EZMnI" id="32qWz0KZXFh" role="2wV5jI">
       <node concept="PMmxH" id="3kkgokiJ7ig" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -2526,6 +2526,18 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="3F1sOY" id="3kkgokjR5Sg" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:3kkgokjR5sz" resolve="contribution" />
+        <node concept="ljvvj" id="3kkgokjR64f" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="3kkgokjR64k" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="3kkgokjR6gr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="32qWz0KZXFK" role="3EZMnx">

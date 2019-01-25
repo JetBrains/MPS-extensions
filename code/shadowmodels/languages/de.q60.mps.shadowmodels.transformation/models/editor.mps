@@ -2466,10 +2466,10 @@
   </node>
   <node concept="24kQdi" id="32qWz0KZXFf">
     <property role="3GE5qa" value="contribution" />
-    <ref role="1XX52x" to="oyp0:32qWz0KZXF2" resolve="Contribution" />
+    <ref role="1XX52x" to="oyp0:32qWz0KZXF2" resolve="Weaving" />
     <node concept="3EZMnI" id="32qWz0KZXFh" role="2wV5jI">
-      <node concept="3F0ifn" id="32qWz0KZXFo" role="3EZMnx">
-        <property role="3F0ifm" value="contribute to" />
+      <node concept="PMmxH" id="3kkgokiJ7ig" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="3F0ifn" id="32qWz0L77CM" role="3EZMnx">
         <property role="3F0ifm" value="?" />

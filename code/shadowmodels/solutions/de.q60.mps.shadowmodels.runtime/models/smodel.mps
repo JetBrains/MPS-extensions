@@ -4748,8 +4748,8 @@
         <node concept="3cpWs8" id="B8a55UE1bt" role="3cqZAp">
           <node concept="3cpWsn" id="B8a55UE1bu" role="3cpWs9">
             <property role="TrG5h" value="engine" />
-            <node concept="3uibUv" id="B8a55UE1bs" role="1tU5fm">
-              <ref role="3uigEE" to="nv3w:5gTrVpGiJ3S" resolve="TransformationEngine" />
+            <node concept="3uibUv" id="3kkgokiZjBZ" role="1tU5fm">
+              <ref role="3uigEE" to="nv3w:5gTrVpGiJ4w" resolve="ITransformationEngine" />
             </node>
             <node concept="2YIFZM" id="6DbeQdmabP5" role="33vP2m">
               <ref role="37wK5l" to="nv3w:B8a55UwGvZ" resolve="getInstanceFromNode" />
@@ -22284,8 +22284,8 @@
           </node>
         </node>
       </node>
-      <node concept="3uibUv" id="5wnrAmUh0em" role="3clF45">
-        <ref role="3uigEE" to="nv3w:5gTrVpGiJUq" resolve="TransformationResult.ResultElement" />
+      <node concept="3uibUv" id="3kkgokiWv0R" role="3clF45">
+        <ref role="3uigEE" to="nv3w:3kkgokiK8h8" resolve="IResultElement" />
       </node>
       <node concept="3Tm1VV" id="5wnrAmUgZcI" role="1B3o_S" />
       <node concept="2AHcQZ" id="5wnrAmUgZcJ" role="2AJF6D">

@@ -1436,8 +1436,8 @@
   </node>
   <node concept="1TIwiD" id="32qWz0KZXF2">
     <property role="EcuMT" value="3502377949028408002" />
-    <property role="TrG5h" value="Contribution" />
-    <property role="34LRSv" value="contribute" />
+    <property role="TrG5h" value="Weaving" />
+    <property role="34LRSv" value="weave" />
     <property role="3GE5qa" value="contribution" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="32qWz0KZXF5" role="1TKVEi">

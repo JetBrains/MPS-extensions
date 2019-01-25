@@ -101,7 +101,7 @@
         <child id="3502377949020565185" name="rewrite" index="04HNL" />
         <child id="3502377949022244184" name="condition" index="0eNXC" />
       </concept>
-      <concept id="3502377949028408002" name="de.q60.mps.shadowmodels.transformation.structure.Contribution" flags="ng" index="0pizM">
+      <concept id="3502377949028408002" name="de.q60.mps.shadowmodels.transformation.structure.Weaving" flags="ng" index="0pizM">
         <child id="3502377949028408005" name="target" index="0pizP" />
         <child id="3502377949028530404" name="content" index="1AOFk" />
       </concept>
@@ -139,9 +139,6 @@
       <concept id="5195914917229891769" name="de.q60.mps.shadowmodels.transformation.structure.CopyHandler_Reference_target" flags="ng" index="34JSAJ" />
       <concept id="3359783165116356100" name="de.q60.mps.shadowmodels.transformation.structure.CopyWithModifications" flags="ng" index="3LIkVS">
         <child id="3359783165116356103" name="modifications" index="3LIkVV" />
-      </concept>
-      <concept id="7898342489379026629" name="de.q60.mps.shadowmodels.transformation.structure.BLExpressionTarget" flags="ng" index="3OkNDw">
-        <child id="7898342489379026632" name="expr" index="3OkNDH" />
       </concept>
       <concept id="2969665195339084895" name="de.q60.mps.shadowmodels.transformation.structure.Rewriter" flags="ng" index="3RcaEt">
         <reference id="3502377949024573390" name="rootConcept" index="0nUnY" />
@@ -1307,8 +1304,8 @@
         </node>
       </node>
       <node concept="0pizM" id="32qWz0L1mC_" role="WhCtZ">
-        <node concept="3OkNDw" id="32qWz0L1pI4" role="0pizP">
-          <node concept="2OqwBi" id="32qWz0L1qcK" role="3OkNDH">
+        <node concept="3RcaXh" id="3kkgokiK0RI" role="0pizP">
+          <node concept="2OqwBi" id="32qWz0L1qcK" role="3RcaEu">
             <node concept="2155sH" id="32qWz0L1q4i" role="2Oq$k0">
               <ref role="2155sG" node="32qWz0L1meU" />
             </node>

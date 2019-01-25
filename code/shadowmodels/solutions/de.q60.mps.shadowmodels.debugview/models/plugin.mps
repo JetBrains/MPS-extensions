@@ -1175,11 +1175,11 @@
               <node concept="3cpWsn" id="5wnrAmTIWk9" role="3cpWs9">
                 <property role="TrG5h" value="call" />
                 <node concept="3uibUv" id="5wnrAmTIWk6" role="1tU5fm">
-                  <ref role="3uigEE" to="nv3w:5gTrVpGiXy3" resolve="TransformationCall" />
+                  <ref role="3uigEE" to="nv3w:5gTrVpGiXy3" resolve="DirectTCall" />
                 </node>
                 <node concept="0kSF2" id="3fc1D1lWh1G" role="33vP2m">
                   <node concept="3uibUv" id="3fc1D1lWh1J" role="0kSFW">
-                    <ref role="3uigEE" to="nv3w:5gTrVpGiXy3" resolve="TransformationCall" />
+                    <ref role="3uigEE" to="nv3w:5gTrVpGiXy3" resolve="DirectTCall" />
                   </node>
                   <node concept="2EnYce" id="3fc1D1lWHiJ" role="0kSFX">
                     <node concept="0kSF2" id="3fc1D1lWdBb" role="2Oq$k0">
@@ -1214,7 +1214,7 @@
                         <ref role="3cqZAo" node="5wnrAmTIWk9" resolve="call" />
                       </node>
                       <node concept="liA8E" id="5wnrAmUavrb" role="2OqNvi">
-                        <ref role="37wK5l" to="nv3w:5gTrVpGw38m" resolve="getTransformationName" />
+                        <ref role="37wK5l" to="nv3w:5gTrVpGw38m" resolve="getTransformationId" />
                       </node>
                     </node>
                   </node>
@@ -1503,8 +1503,8 @@
         <node concept="3cpWs8" id="5wnrAmUhB1L" role="3cqZAp">
           <node concept="3cpWsn" id="5wnrAmUhB1M" role="3cpWs9">
             <property role="TrG5h" value="element" />
-            <node concept="3uibUv" id="5wnrAmUhB1J" role="1tU5fm">
-              <ref role="3uigEE" to="nv3w:5gTrVpGiJUq" resolve="TransformationResult.ResultElement" />
+            <node concept="3uibUv" id="3kkgokiW$8n" role="1tU5fm">
+              <ref role="3uigEE" to="nv3w:3kkgokiK8h8" resolve="IResultElement" />
             </node>
             <node concept="2YIFZM" id="5wnrAmUhB1N" role="33vP2m">
               <ref role="37wK5l" to="l6bp:5wnrAmUgZbG" resolve="getResultElement" />
@@ -1541,7 +1541,7 @@
                   <ref role="3cqZAo" node="5wnrAmUhB1M" resolve="element" />
                 </node>
                 <node concept="liA8E" id="5wnrAmUvxsT" role="2OqNvi">
-                  <ref role="37wK5l" to="nv3w:5wnrAmUbMs2" resolve="getTraceInfo" />
+                  <ref role="37wK5l" to="nv3w:3kkgokiWBWd" resolve="getTraceInfo" />
                 </node>
               </node>
             </node>
@@ -1572,11 +1572,11 @@
                     <ref role="3cqZAo" node="5wnrAmUhB1M" resolve="element" />
                   </node>
                   <node concept="liA8E" id="5wnrAmUvYRq" role="2OqNvi">
-                    <ref role="37wK5l" to="nv3w:IdPituxy3r" resolve="getTransformationResult" />
+                    <ref role="37wK5l" to="nv3w:3kkgokiWO0D" resolve="getTransformationResult" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5wnrAmUvZfW" role="2OqNvi">
-                  <ref role="37wK5l" to="nv3w:5wnrAmUd7Bf" resolve="getTraceInfo" />
+                  <ref role="37wK5l" to="nv3w:3kkgokiX6Fb" resolve="getTraceInfo" />
                 </node>
               </node>
             </node>

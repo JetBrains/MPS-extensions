@@ -1818,7 +1818,7 @@
   </node>
   <node concept="13h7C7" id="32qWz0KZZlo">
     <property role="3GE5qa" value="contribution" />
-    <ref role="13h7C2" to="oyp0:32qWz0KZXF2" resolve="Contribution" />
+    <ref role="13h7C2" to="oyp0:32qWz0KZXF2" resolve="Weaving" />
     <node concept="13i0hz" id="32qWz0KZZlM" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />

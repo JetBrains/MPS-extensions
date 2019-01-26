@@ -6373,24 +6373,9 @@
                           <node concept="3uibUv" id="3kkgokj1VN6" role="1tU5fm">
                             <ref role="3uigEE" to="nv3w:3kkgokiKm6n" resolve="ITransformationResult" />
                           </node>
-                          <node concept="2OqwBi" id="3kkgokiolQX" role="33vP2m">
-                            <node concept="2YIFZM" id="3kkgokioliL" role="2Oq$k0">
-                              <ref role="1Pybhc" to="nv3w:5gTrVpGiJ3S" resolve="TransformationEngine" />
-                              <ref role="37wK5l" to="nv3w:3fc1D1nivUY" resolve="getInstance" />
-                            </node>
-                            <node concept="liA8E" id="3kkgokioms0" role="2OqNvi">
-                              <ref role="37wK5l" to="nv3w:32qWz0M6upN" resolve="execute" />
-                              <node concept="2ShNRf" id="3kkgokiomS5" role="37wK5m">
-                                <node concept="1pGfFk" id="3kkgokiomS6" role="2ShVmc">
-                                  <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="DirectTCall" />
-                                  <node concept="10Nm6u" id="3kkgokiomS7" role="37wK5m" />
-                                  <node concept="10Nm6u" id="3kkgokiomS8" role="37wK5m" />
-                                </node>
-                                <node concept="1sPUBX" id="3kkgokiomS9" role="lGtFl">
-                                  <ref role="v9R2y" node="1cIlazwRV1T" resolve="switch_target" />
-                                  <node concept="3clFbT" id="3kkgokiomSa" role="v9R3O" />
-                                </node>
-                              </node>
+                          <node concept="10Nm6u" id="3kkgokknCUf" role="33vP2m">
+                            <node concept="5jKBG" id="3kkgokknCUg" role="lGtFl">
+                              <ref role="v9R2y" node="3kkgokkn$lw" resolve="template_TransformationCallExpression_queryResult" />
                             </node>
                           </node>
                         </node>
@@ -6559,19 +6544,9 @@
                           <node concept="3uibUv" id="3kkgokj1WVi" role="1tU5fm">
                             <ref role="3uigEE" to="nv3w:3kkgokiKm6n" resolve="ITransformationResult" />
                           </node>
-                          <node concept="2OqwBi" id="5b_lky_XYG7" role="33vP2m">
-                            <node concept="2YIFZM" id="3fc1D1nkk83" role="2Oq$k0">
-                              <ref role="37wK5l" to="nv3w:3fc1D1nivUY" resolve="getInstance" />
-                              <ref role="1Pybhc" to="nv3w:5gTrVpGiJ3S" resolve="TransformationEngine" />
-                            </node>
-                            <node concept="liA8E" id="5b_lky_XYGb" role="2OqNvi">
-                              <ref role="37wK5l" to="nv3w:32qWz0M3tKJ" resolve="execute" />
-                              <node concept="10Nm6u" id="5b_lky_XYGc" role="37wK5m">
-                                <node concept="1sPUBX" id="5b_lky_XYGd" role="lGtFl">
-                                  <ref role="v9R2y" node="1cIlazwRV1T" resolve="switch_target" />
-                                  <node concept="3clFbT" id="3fc1D1nksSr" role="v9R3O" />
-                                </node>
-                              </node>
+                          <node concept="10Nm6u" id="3kkgokkn_Bf" role="33vP2m">
+                            <node concept="5jKBG" id="3kkgokknBj2" role="lGtFl">
+                              <ref role="v9R2y" node="3kkgokkn$lw" resolve="template_TransformationCallExpression_queryResult" />
                             </node>
                           </node>
                         </node>
@@ -11523,6 +11498,45 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="3kkgokkn$lw">
+    <property role="TrG5h" value="template_TransformationCallExpression_queryResult" />
+    <ref role="3gUMe" to="oyp0:TC$M5wVude" resolve="TransformationCallExpression" />
+    <node concept="2OqwBi" id="3kkgokkn$Ss" role="13RCb5">
+      <node concept="2YIFZM" id="3kkgokkn$St" role="2Oq$k0">
+        <ref role="1Pybhc" to="nv3w:5gTrVpGiJ3S" resolve="TransformationEngine" />
+        <ref role="37wK5l" to="nv3w:3fc1D1nivUY" resolve="getInstance" />
+      </node>
+      <node concept="liA8E" id="3kkgokkn$Su" role="2OqNvi">
+        <ref role="37wK5l" to="nv3w:32qWz0M3tKJ" resolve="execute" />
+        <node concept="2ShNRf" id="3kkgokkn$Sv" role="37wK5m">
+          <node concept="1pGfFk" id="3kkgokkn$Sw" role="2ShVmc">
+            <ref role="37wK5l" to="nv3w:32qWz0M1Tbu" resolve="CallInContext" />
+            <node concept="2ShNRf" id="3kkgokkn$Sx" role="37wK5m">
+              <node concept="1pGfFk" id="3kkgokkn$Sy" role="2ShVmc">
+                <ref role="37wK5l" to="nv3w:3kkgokkkU8r" resolve="LazyContext" />
+                <node concept="2OqwBi" id="3kkgokkn$Sz" role="37wK5m">
+                  <node concept="2YIFZM" id="3kkgokkn$S$" role="2Oq$k0">
+                    <ref role="1Pybhc" to="nv3w:5gTrVpGiJ3S" resolve="TransformationEngine" />
+                    <ref role="37wK5l" to="nv3w:3fc1D1nivUY" resolve="getInstance" />
+                  </node>
+                  <node concept="liA8E" id="3kkgokkn$S_" role="2OqNvi">
+                    <ref role="37wK5l" to="nv3w:3kkgokhms0D" resolve="getCurrentContext" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="10Nm6u" id="3kkgokkn$SA" role="37wK5m">
+              <node concept="1sPUBX" id="3kkgokkn$SB" role="lGtFl">
+                <ref role="v9R2y" node="1cIlazwRV1T" resolve="switch_target" />
+                <node concept="3clFbT" id="3kkgokkn$SC" role="v9R3O" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="3kkgokkn$Wo" role="lGtFl" />
     </node>
   </node>
 </model>

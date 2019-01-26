@@ -23409,9 +23409,7 @@
                               <node concept="3clFbF" id="6FW8YbU5swR" role="3cqZAp">
                                 <node concept="1rXfSq" id="6FW8YbU5swS" role="3clFbG">
                                   <ref role="37wK5l" node="4VxHqcqZoV$" resolve="synchronizeAll" />
-                                  <node concept="3clFbT" id="6FW8YbU5swT" role="37wK5m">
-                                    <property role="3clFbU" value="true" />
-                                  </node>
+                                  <node concept="3clFbT" id="6FW8YbU5swT" role="37wK5m" />
                                 </node>
                               </node>
                             </node>

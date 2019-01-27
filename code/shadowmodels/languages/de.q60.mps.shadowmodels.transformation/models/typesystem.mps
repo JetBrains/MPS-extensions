@@ -3174,5 +3174,38 @@
       <ref role="1YaFvo" to="oyp0:3kkgoki__Ts" resolve="Subgraph" />
     </node>
   </node>
+  <node concept="18kY7G" id="7zy9ho7I0Sn">
+    <property role="TrG5h" value="check_Rewrite" />
+    <property role="3GE5qa" value="rewrite" />
+    <node concept="3clFbS" id="7zy9ho7I0So" role="18ibNy">
+      <node concept="3clFbJ" id="7zy9ho7I0Sx" role="3cqZAp">
+        <node concept="2OqwBi" id="7zy9ho7I23v" role="3clFbw">
+          <node concept="2OqwBi" id="7zy9ho7I145" role="2Oq$k0">
+            <node concept="1YBJjd" id="7zy9ho7I0SH" role="2Oq$k0">
+              <ref role="1YBMHb" node="7zy9ho7I0Sq" resolve="n" />
+            </node>
+            <node concept="3TrEf2" id="7zy9ho7I1Dh" role="2OqNvi">
+              <ref role="3Tt5mk" to="oyp0:2$QnGbu1Jis" resolve="rewriter" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="7zy9ho7I2GI" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="7zy9ho7I0Sz" role="3clFbx">
+          <node concept="2MkqsV" id="7zy9ho7I2J_" role="3cqZAp">
+            <node concept="Xl_RD" id="7zy9ho7I2JL" role="2MkJ7o">
+              <property role="Xl_RC" value="Use 'transform' for the descendants of a rewrite" />
+            </node>
+            <node concept="1YBJjd" id="7zy9ho7I2NE" role="2OEOjV">
+              <ref role="1YBMHb" node="7zy9ho7I0Sq" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7zy9ho7I0Sq" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:2$QnGbu1J6j" resolve="Rewrite" />
+    </node>
+  </node>
 </model>
 

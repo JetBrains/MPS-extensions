@@ -2864,15 +2864,11 @@
                       </node>
                     </node>
                     <node concept="2OqwBi" id="AkkmJC5BuH" role="3K4E3e">
-                      <node concept="2YIFZM" id="AkkmJC5BuI" role="2Oq$k0">
-                        <ref role="37wK5l" to="wyt6:~String.valueOf(java.lang.Object):java.lang.String" resolve="valueOf" />
-                        <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                        <node concept="37vLTw" id="AkkmJC5Buz" role="37wK5m">
-                          <ref role="3cqZAo" node="AkkmJC5nRX" resolve="key" />
-                        </node>
+                      <node concept="37vLTw" id="7zy9ho7BDQ$" role="2Oq$k0">
+                        <ref role="3cqZAo" node="AkkmJC5nRX" resolve="key" />
                       </node>
                       <node concept="liA8E" id="AkkmJC5BuJ" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.hashCode():int" resolve="hashCode" />
+                        <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
                       </node>
                     </node>
                   </node>

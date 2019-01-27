@@ -2,7 +2,7 @@
 <model ref="r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)">
   <persistence version="9" />
   <languages>
-    <use id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation" version="0" />
+    <use id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
     <devkit ref="a2812d5e-a72e-4739-ab3f-d01ec647c5de(de.q60.mps.shadowmodels.devkit)" />
   </languages>

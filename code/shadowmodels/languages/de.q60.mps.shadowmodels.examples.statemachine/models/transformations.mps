@@ -2,7 +2,7 @@
 <model ref="r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)">
   <persistence version="9" />
   <languages>
-    <use id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation" version="0" />
+    <use id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
@@ -165,6 +165,9 @@
       </concept>
       <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.CopyMacro" flags="ng" index="1XuIBW">
         <child id="2573073122887437734" name="sourceQuery" index="1XuIBT" />
+      </concept>
+      <concept id="8710565405836969859" name="de.q60.mps.shadowmodels.transformation.structure.Transform" flags="ng" index="1Zmyal">
+        <child id="8710565405836969869" name="input" index="1Zmyar" />
       </concept>
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
@@ -1989,8 +1992,8 @@
                     <ref role="02LMe" to="tpee:fHeOMHZ" resolve="ParenthesizedExpression" />
                     <node concept="027rt" id="3fc1D1mYtLw" role="02LM9">
                       <ref role="027rv" to="tpee:fHeOMI0" resolve="expression" />
-                      <node concept="3RcaXh" id="3fc1D1n0TvB" role="027rp">
-                        <node concept="2OqwBi" id="3fc1D1mYtLy" role="3RcaEu">
+                      <node concept="1Zmyal" id="7pvOHdL7A2o" role="027rp">
+                        <node concept="2OqwBi" id="3fc1D1mYtLy" role="1Zmyar">
                           <node concept="2155sH" id="3fc1D1mYtLz" role="2Oq$k0">
                             <ref role="2155sG" node="3fc1D1mYtLE" resolve="t" />
                           </node>

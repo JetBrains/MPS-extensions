@@ -15,6 +15,7 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="cx9y" ref="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" />
+    <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -3215,8 +3216,26 @@
       <node concept="1ZobV4" id="6m9HZIKTw_f" role="3cqZAp">
         <node concept="mw_s8" id="6m9HZIKTw_F" role="1ZfhKB">
           <node concept="2pJPEk" id="6m9HZIKTw_B" role="mwGJk">
-            <node concept="2pJPED" id="6m9HZIKTw_T" role="2pJPEn">
-              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+            <node concept="2pJPED" id="3RcjyAt08R8" role="2pJPEn">
+              <ref role="2pJxaS" to="tpd4:hausRW2" resolve="JoinType" />
+              <node concept="2pIpSj" id="3RcjyAt0906" role="2pJxcM">
+                <ref role="2pIpSl" to="tpd4:hausUtE" resolve="argument" />
+                <node concept="2pJPED" id="3RcjyAt09v_" role="2pJxcZ">
+                  <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+                </node>
+              </node>
+              <node concept="2pIpSj" id="3RcjyAt09wx" role="2pJxcM">
+                <ref role="2pIpSl" to="tpd4:hausUtE" resolve="argument" />
+                <node concept="2pJPED" id="3RcjyAt09xt" role="2pJxcZ">
+                  <ref role="2pJxaS" to="tp2q:gKA3Dh4" resolve="SequenceType" />
+                  <node concept="2pIpSj" id="3RcjyAt09xJ" role="2pJxcM">
+                    <ref role="2pIpSl" to="tp2q:gKA3Ige" resolve="elementType" />
+                    <node concept="2pJPED" id="3RcjyAt09y0" role="2pJxcZ">
+                      <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -3250,8 +3269,8 @@
               <node concept="1YBJjd" id="3RcjyAsr8BG" role="2Oq$k0">
                 <ref role="1YBMHb" node="3RcjyAsr8Bi" resolve="n" />
               </node>
-              <node concept="3TrEf2" id="3RcjyAsr8BH" role="2OqNvi">
-                <ref role="3Tt5mk" to="oyp0:6ndA7L_Lbzr" resolve="type" />
+              <node concept="3TrEf2" id="3RcjyAtaNcJ" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:3RcjyAsr88k" resolve="type" />
               </node>
             </node>
           </node>
@@ -3264,6 +3283,7 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="3RcjyAtayG2" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="3RcjyAsr8Bi" role="1YuTPh">
       <property role="TrG5h" value="n" />

@@ -3383,5 +3383,36 @@
       <ref role="1YaFvo" to="oyp0:3RcjyAszged" resolve="ForkContext" />
     </node>
   </node>
+  <node concept="1YbPZF" id="3RcjyAtd471">
+    <property role="TrG5h" value="typeof_ExternalForkParameterRef" />
+    <property role="3GE5qa" value="fork" />
+    <node concept="3clFbS" id="3RcjyAtd472" role="18ibNy">
+      <node concept="1Z5TYs" id="3RcjyAtd4gN" role="3cqZAp">
+        <node concept="mw_s8" id="3RcjyAtd4hf" role="1ZfhKB">
+          <node concept="1Z2H0r" id="3RcjyAtd4hb" role="mwGJk">
+            <node concept="2OqwBi" id="3RcjyAtd4qX" role="1Z2MuG">
+              <node concept="1YBJjd" id="3RcjyAtd4hz" role="2Oq$k0">
+                <ref role="1YBMHb" node="3RcjyAtd474" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="3RcjyAtd4Be" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:3RcjyAtbl1O" resolve="decl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3RcjyAtd4gQ" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3RcjyAtd47b" role="mwGJk">
+            <node concept="1YBJjd" id="3RcjyAtd494" role="1Z2MuG">
+              <ref role="1YBMHb" node="3RcjyAtd474" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3RcjyAtd474" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:3RcjyAtbl1N" resolve="ExternalForkParameterRef" />
+    </node>
+  </node>
 </model>
 

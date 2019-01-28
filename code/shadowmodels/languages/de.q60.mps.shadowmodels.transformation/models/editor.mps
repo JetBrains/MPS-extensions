@@ -70,6 +70,9 @@
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1186414999511" name="jetbrains.mps.lang.editor.structure.UnderlinedStyleClassItem" flags="ln" index="VQ3r3">
+        <property id="1214316229833" name="underlined" index="2USNnj" />
+      </concept>
       <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
         <property id="1221209241505" name="value" index="1lJzqX" />
       </concept>
@@ -2755,6 +2758,20 @@
         <ref role="1NtTu8" to="oyp0:3RcjyAszgep" resolve="targetInFork" />
       </node>
       <node concept="l2Vlx" id="3RcjyAszgeL" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3RcjyAtbl26">
+    <property role="3GE5qa" value="fork" />
+    <ref role="1XX52x" to="oyp0:3RcjyAtbl1N" resolve="ExternalForkParameterRef" />
+    <node concept="1iCGBv" id="3RcjyAtbl28" role="2wV5jI">
+      <ref role="1NtTu8" to="oyp0:3RcjyAtbl1O" resolve="decl" />
+      <node concept="1sVBvm" id="3RcjyAtbl2a" role="1sWHZn">
+        <node concept="3SHvHV" id="3RcjyAtbl2k" role="2wV5jI">
+          <node concept="VQ3r3" id="3RcjyAtdlHF" role="3F10Kt">
+            <property role="2USNnj" value="2" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

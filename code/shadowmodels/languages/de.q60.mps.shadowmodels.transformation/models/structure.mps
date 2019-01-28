@@ -1586,6 +1586,9 @@
     <node concept="PrWs8" id="3RcjyAsr87$" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="3RcjyAtbl6T" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3RcjyAsr9iA">
     <property role="EcuMT" value="4453020072187565222" />
@@ -1629,6 +1632,19 @@
     </node>
     <node concept="PrWs8" id="3RcjyAszgee" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_LuUK" resolve="ITargetSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3RcjyAtbl1N">
+    <property role="EcuMT" value="4453020072200196211" />
+    <property role="3GE5qa" value="fork" />
+    <property role="TrG5h" value="ExternalForkParameterRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="3RcjyAtbl1O" role="1TKVEi">
+      <property role="IQ2ns" value="4453020072200196212" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="decl" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3RcjyAsr869" resolve="ForkParameter" />
     </node>
   </node>
 </model>

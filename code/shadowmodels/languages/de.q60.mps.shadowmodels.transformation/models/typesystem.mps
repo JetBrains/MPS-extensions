@@ -3146,6 +3146,7 @@
   </node>
   <node concept="1YbPZF" id="3kkgoki__Ug">
     <property role="TrG5h" value="typeof_Subgraph" />
+    <property role="3GE5qa" value="fork" />
     <node concept="3clFbS" id="3kkgoki__Uh" role="18ibNy">
       <node concept="1Z5TYs" id="3kkgoki_A1H" role="3cqZAp">
         <node concept="mw_s8" id="3kkgoki_A21" role="1ZfhKB">
@@ -3154,8 +3155,8 @@
               <node concept="1YBJjd" id="3kkgoki_A2i" role="2Oq$k0">
                 <ref role="1YBMHb" node="3kkgoki__Uj" resolve="n" />
               </node>
-              <node concept="3TrEf2" id="3kkgoki_Am$" role="2OqNvi">
-                <ref role="3Tt5mk" to="oyp0:3kkgoki__Tv" resolve="rootNode" />
+              <node concept="3TrEf2" id="3RcjyAswJYC" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:3RcjyAsvSkC" resolve="decl" />
               </node>
             </node>
           </node>
@@ -3171,7 +3172,7 @@
     </node>
     <node concept="1YaCAy" id="3kkgoki__Uj" role="1YuTPh">
       <property role="TrG5h" value="n" />
-      <ref role="1YaFvo" to="oyp0:3kkgoki__Ts" resolve="Subgraph" />
+      <ref role="1YaFvo" to="oyp0:3kkgoki__Ts" resolve="ForkCall" />
     </node>
   </node>
   <node concept="18kY7G" id="7zy9ho7I0Sn">
@@ -3205,6 +3206,161 @@
     <node concept="1YaCAy" id="7zy9ho7I0Sq" role="1YuTPh">
       <property role="TrG5h" value="n" />
       <ref role="1YaFvo" to="oyp0:2$QnGbu1J6j" resolve="Rewrite" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6m9HZIKTwpu">
+    <property role="TrG5h" value="typeof_Transform" />
+    <property role="3GE5qa" value="rewrite" />
+    <node concept="3clFbS" id="6m9HZIKTwpv" role="18ibNy">
+      <node concept="1ZobV4" id="6m9HZIKTw_f" role="3cqZAp">
+        <node concept="mw_s8" id="6m9HZIKTw_F" role="1ZfhKB">
+          <node concept="2pJPEk" id="6m9HZIKTw_B" role="mwGJk">
+            <node concept="2pJPED" id="6m9HZIKTw_T" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6m9HZIKTw_i" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6m9HZIKTwp_" role="mwGJk">
+            <node concept="2OqwBi" id="6m9HZIKTH90" role="1Z2MuG">
+              <node concept="1YBJjd" id="6m9HZIKTwrx" role="2Oq$k0">
+                <ref role="1YBMHb" node="6m9HZIKTwpx" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="6m9HZIKTHmt" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:7zy9ho7I0ud" resolve="input" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6m9HZIKTwpx" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:7zy9ho7I0u3" resolve="Transform" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="3RcjyAsr8Bf">
+    <property role="TrG5h" value="typeof_ForkParameter" />
+    <property role="3GE5qa" value="fork" />
+    <node concept="3clFbS" id="3RcjyAsr8Bg" role="18ibNy">
+      <node concept="1Z5TYs" id="3RcjyAsr8BC" role="3cqZAp">
+        <node concept="mw_s8" id="3RcjyAsr8BD" role="1ZfhKB">
+          <node concept="1Z2H0r" id="3RcjyAsr8BE" role="mwGJk">
+            <node concept="2OqwBi" id="3RcjyAsr8BF" role="1Z2MuG">
+              <node concept="1YBJjd" id="3RcjyAsr8BG" role="2Oq$k0">
+                <ref role="1YBMHb" node="3RcjyAsr8Bi" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="3RcjyAsr8BH" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:6ndA7L_Lbzr" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3RcjyAsr8BI" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3RcjyAsr8BJ" role="mwGJk">
+            <node concept="1YBJjd" id="3RcjyAsr8BK" role="1Z2MuG">
+              <ref role="1YBMHb" node="3RcjyAsr8Bi" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3RcjyAsr8Bi" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:3RcjyAsr869" resolve="ForkParameter" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="3RcjyAsrb0u">
+    <property role="TrG5h" value="typeof_ForkParameterRef" />
+    <property role="3GE5qa" value="fork" />
+    <node concept="3clFbS" id="3RcjyAsrb0v" role="18ibNy">
+      <node concept="1Z5TYs" id="3RcjyAsrb1c" role="3cqZAp">
+        <node concept="mw_s8" id="3RcjyAsrb1d" role="1ZfhKB">
+          <node concept="1Z2H0r" id="3RcjyAsrb1e" role="mwGJk">
+            <node concept="2OqwBi" id="3RcjyAsrb1f" role="1Z2MuG">
+              <node concept="1YBJjd" id="3RcjyAsrb1g" role="2Oq$k0">
+                <ref role="1YBMHb" node="3RcjyAsrb0x" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="3RcjyAsrbfW" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:3RcjyAsr9jS" resolve="decl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3RcjyAsrb1i" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3RcjyAsrb1j" role="mwGJk">
+            <node concept="1YBJjd" id="3RcjyAsrb1k" role="1Z2MuG">
+              <ref role="1YBMHb" node="3RcjyAsrb0x" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3RcjyAsrb0x" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:3RcjyAsr9iA" resolve="ForkParameterRef" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="3RcjyAswK1I">
+    <property role="TrG5h" value="typeof_ForkDeclaration" />
+    <property role="3GE5qa" value="fork" />
+    <node concept="3clFbS" id="3RcjyAswK1J" role="18ibNy">
+      <node concept="1Z5TYs" id="3RcjyAswK9D" role="3cqZAp">
+        <node concept="mw_s8" id="3RcjyAswKa5" role="1ZfhKB">
+          <node concept="1Z2H0r" id="3RcjyAswKa1" role="mwGJk">
+            <node concept="2OqwBi" id="3RcjyAswKko" role="1Z2MuG">
+              <node concept="1YBJjd" id="3RcjyAswKap" role="2Oq$k0">
+                <ref role="1YBMHb" node="3RcjyAswK1L" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="3RcjyAswKyz" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:6m9HZIKViOI" resolve="rootCall" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3RcjyAswK9G" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3RcjyAswK1S" role="mwGJk">
+            <node concept="1YBJjd" id="3RcjyAswK2b" role="1Z2MuG">
+              <ref role="1YBMHb" node="3RcjyAswK1L" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3RcjyAswK1L" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:6m9HZIKVisp" resolve="ForkDeclaration" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="3RcjyAs$gWD">
+    <property role="TrG5h" value="typeof_ForkContext" />
+    <property role="3GE5qa" value="fork" />
+    <node concept="3clFbS" id="3RcjyAs$gWE" role="18ibNy">
+      <node concept="1Z5TYs" id="3RcjyAs$h4r" role="3cqZAp">
+        <node concept="mw_s8" id="3RcjyAs$h4R" role="1ZfhKB">
+          <node concept="1Z2H0r" id="3RcjyAs$h4N" role="mwGJk">
+            <node concept="2OqwBi" id="3RcjyAs$heb" role="1Z2MuG">
+              <node concept="1YBJjd" id="3RcjyAs$h5b" role="2Oq$k0">
+                <ref role="1YBMHb" node="3RcjyAs$gWG" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="3RcjyAs$hq2" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:3RcjyAszgep" resolve="targetInFork" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3RcjyAs$h4u" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3RcjyAs$gWN" role="mwGJk">
+            <node concept="1YBJjd" id="3RcjyAs$gX6" role="1Z2MuG">
+              <ref role="1YBMHb" node="3RcjyAs$gWG" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3RcjyAs$gWG" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:3RcjyAszged" resolve="ForkContext" />
     </node>
   </node>
 </model>

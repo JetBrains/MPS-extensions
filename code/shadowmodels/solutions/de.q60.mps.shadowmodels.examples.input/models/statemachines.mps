@@ -34,7 +34,7 @@
     </language>
   </registry>
   <node concept="02pZm" id="6ndA7L_L0Q_">
-    <property role="TrG5h" value="SM1" />
+    <property role="TrG5h" value="SM111" />
     <node concept="02pZj" id="6ndA7L_L0QA" role="02pZ9">
       <property role="TrG5h" value="forward" />
     </node>
@@ -43,6 +43,9 @@
     </node>
     <node concept="02pZj" id="6ndA7L_L0QF" role="02pZ9">
       <property role="TrG5h" value="reset" />
+    </node>
+    <node concept="02pZj" id="3RcjyAulQ6A" role="02pZ9">
+      <property role="TrG5h" value="event1" />
     </node>
     <node concept="02pZh" id="6ndA7L_L0QJ" role="02p66">
       <property role="TrG5h" value="s1" />

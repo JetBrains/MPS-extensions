@@ -2361,13 +2361,13 @@
     </node>
   </node>
   <node concept="24kQdi" id="32qWz0Ky2Vb">
-    <ref role="1XX52x" to="oyp0:32qWz0Ky2UY" resolve="RewriteDependency" />
+    <ref role="1XX52x" to="oyp0:32qWz0Ky2UY" resolve="ForkDependency" />
     <node concept="3EZMnI" id="32qWz0Ky2Vd" role="2wV5jI">
       <node concept="PMmxH" id="32qWz0Ky2Vk" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="3F1sOY" id="32qWz0Ky2Vp" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:32qWz0Ky2V1" resolve="rewrite" />
+        <ref role="1NtTu8" to="oyp0:32qWz0Ky2V1" resolve="fork" />
       </node>
       <node concept="l2Vlx" id="32qWz0Ky2Vg" role="2iSdaV" />
     </node>

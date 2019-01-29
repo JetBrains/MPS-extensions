@@ -3216,26 +3216,8 @@
       <node concept="1ZobV4" id="6m9HZIKTw_f" role="3cqZAp">
         <node concept="mw_s8" id="6m9HZIKTw_F" role="1ZfhKB">
           <node concept="2pJPEk" id="6m9HZIKTw_B" role="mwGJk">
-            <node concept="2pJPED" id="3RcjyAt08R8" role="2pJPEn">
-              <ref role="2pJxaS" to="tpd4:hausRW2" resolve="JoinType" />
-              <node concept="2pIpSj" id="3RcjyAt0906" role="2pJxcM">
-                <ref role="2pIpSl" to="tpd4:hausUtE" resolve="argument" />
-                <node concept="2pJPED" id="3RcjyAt09v_" role="2pJxcZ">
-                  <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
-                </node>
-              </node>
-              <node concept="2pIpSj" id="3RcjyAt09wx" role="2pJxcM">
-                <ref role="2pIpSl" to="tpd4:hausUtE" resolve="argument" />
-                <node concept="2pJPED" id="3RcjyAt09xt" role="2pJxcZ">
-                  <ref role="2pJxaS" to="tp2q:gKA3Dh4" resolve="SequenceType" />
-                  <node concept="2pIpSj" id="3RcjyAt09xJ" role="2pJxcM">
-                    <ref role="2pIpSl" to="tp2q:gKA3Ige" resolve="elementType" />
-                    <node concept="2pJPED" id="3RcjyAt09y0" role="2pJxcZ">
-                      <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="2pJPED" id="3RcjyAt09v_" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
             </node>
           </node>
         </node>

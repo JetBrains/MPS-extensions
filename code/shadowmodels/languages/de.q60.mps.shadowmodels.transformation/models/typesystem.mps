@@ -2332,37 +2332,6 @@
       <ref role="1YaFvo" to="oyp0:4wrAhqcJknT" resolve="CopyHandler_Property" />
     </node>
   </node>
-  <node concept="1YbPZF" id="56YPHTonmWO">
-    <property role="TrG5h" value="typeof_ApplyRecursively" />
-    <property role="3GE5qa" value="macros" />
-    <node concept="3clFbS" id="56YPHTonmWP" role="18ibNy">
-      <node concept="1Z5TYs" id="56YPHTonn8i" role="3cqZAp">
-        <node concept="mw_s8" id="56YPHTonn8I" role="1ZfhKB">
-          <node concept="1Z2H0r" id="56YPHTonn8E" role="mwGJk">
-            <node concept="2OqwBi" id="56YPHTonniB" role="1Z2MuG">
-              <node concept="1YBJjd" id="56YPHTonn92" role="2Oq$k0">
-                <ref role="1YBMHb" node="56YPHTonmWR" resolve="n" />
-              </node>
-              <node concept="3TrEf2" id="56YPHTonnv1" role="2OqNvi">
-                <ref role="3Tt5mk" to="oyp0:5o5qH$CLHy8" resolve="transformation" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="56YPHTonn8l" role="1ZfhK$">
-          <node concept="1Z2H0r" id="56YPHTonmWV" role="mwGJk">
-            <node concept="1YBJjd" id="56YPHTonmYO" role="1Z2MuG">
-              <ref role="1YBMHb" node="56YPHTonmWR" resolve="n" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="56YPHTonmWR" role="1YuTPh">
-      <property role="TrG5h" value="n" />
-      <ref role="1YaFvo" to="oyp0:2UwmfNuTFE_" resolve="ApplyRecursively" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="56YPHTonnzH">
     <property role="TrG5h" value="typeof_CopyMacro" />
     <property role="3GE5qa" value="macros.copy" />

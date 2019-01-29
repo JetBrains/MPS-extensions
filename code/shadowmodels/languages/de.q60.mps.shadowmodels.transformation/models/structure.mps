@@ -694,46 +694,6 @@
       <ref role="PrY4T" node="6ndA7L_LuUK" resolve="ITargetSpec" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2UwmfNuTFE_">
-    <property role="EcuMT" value="3359783165113055909" />
-    <property role="3GE5qa" value="macros" />
-    <property role="TrG5h" value="ApplyRecursively" />
-    <property role="34LRSv" value="applyRecursively" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="asaX9" id="4wrAhqcySos" role="lGtFl">
-      <property role="YLQ7P" value="Use CopyMacro" />
-    </node>
-    <node concept="1TJgyj" id="5o5qH$CLHy8" role="1TKVEi">
-      <property role="IQ2ns" value="6198477943069923464" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="transformation" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ndA7L_L6SA" resolve="Transformation" />
-    </node>
-    <node concept="PrWs8" id="2UwmfNuTFEA" role="PzmwI">
-      <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2UwmfNv6ho4">
-    <property role="EcuMT" value="3359783165116356100" />
-    <property role="3GE5qa" value="macros" />
-    <property role="TrG5h" value="CopyWithModifications" />
-    <property role="34LRSv" value="copyWithModification" />
-    <ref role="1TJDcQ" node="2ePp5XuNSQz" resolve="CopyMacro" />
-    <node concept="1TJgyj" id="2UwmfNv6ho7" role="1TKVEi">
-      <property role="IQ2ns" value="3359783165116356103" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="modifications" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6ndA7L_LCjO" resolve="INodeBuilderContent" />
-    </node>
-    <node concept="PrWs8" id="2UwmfNv7kRg" role="PzmwI">
-      <ref role="PrY4T" node="6QszampN4lI" resolve="INodeBuilderContext" />
-    </node>
-    <node concept="asaX9" id="5o5qH$CT60b" role="lGtFl">
-      <property role="YLQ7P" value="Use CopyMacro" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="TB2rf$dAhL">
     <property role="EcuMT" value="1037808907364754545" />
     <property role="3GE5qa" value="builder" />

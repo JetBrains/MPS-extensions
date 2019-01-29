@@ -9591,66 +9591,6 @@
       <ref role="3uigEE" to="nv3w:2ePp5XuOJj0" resolve="CopyNodeToTransformationResult" />
     </node>
   </node>
-  <node concept="312cEu" id="2UwmfNuV2A1">
-    <property role="TrG5h" value="CopySNodeAndApplyTransformationRecursively" />
-    <node concept="3clFbW" id="2UwmfNuV2A2" role="jymVt">
-      <node concept="3cqZAl" id="2UwmfNuV2A3" role="3clF45" />
-      <node concept="3Tm1VV" id="2UwmfNuV2A4" role="1B3o_S" />
-      <node concept="3clFbS" id="2UwmfNuV2A5" role="3clF47">
-        <node concept="XkiVB" id="2UwmfNuV2A6" role="3cqZAp">
-          <ref role="37wK5l" to="nv3w:2UwmfNuUNB8" resolve="CopyNodeAndApplyTransformationRecursively" />
-          <node concept="37vLTw" id="2UwmfNuV2A7" role="37wK5m">
-            <ref role="3cqZAo" node="2UwmfNuV2A8" resolve="context" />
-          </node>
-          <node concept="37vLTw" id="2UwmfNuV38r" role="37wK5m">
-            <ref role="3cqZAo" node="2UwmfNuV2Ym" resolve="transformationId" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="2UwmfNuV2A8" role="3clF46">
-        <property role="TrG5h" value="context" />
-        <node concept="3uibUv" id="2UwmfNuV2A9" role="1tU5fm">
-          <ref role="3uigEE" to="nv3w:4EhVFrZ9nZd" resolve="IBuilderContext" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="2UwmfNuV2Ym" role="3clF46">
-        <property role="TrG5h" value="transformationId" />
-        <node concept="17QB3L" id="2UwmfNuV31r" role="1tU5fm" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="2UwmfNuV2Aa" role="jymVt" />
-    <node concept="3clFb_" id="2UwmfNuV2Ab" role="jymVt">
-      <property role="TrG5h" value="copy" />
-      <node concept="37vLTG" id="2UwmfNuV2Ac" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3uibUv" id="2UwmfNuV2Ad" role="1tU5fm">
-          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-        </node>
-      </node>
-      <node concept="3uibUv" id="2UwmfNvdiwg" role="3clF45">
-        <ref role="3uigEE" to="nv3w:4EhVFrZ9nZd" resolve="IBuilderContext" />
-      </node>
-      <node concept="3Tm1VV" id="2UwmfNuV2Af" role="1B3o_S" />
-      <node concept="3clFbS" id="2UwmfNuV2Ag" role="3clF47">
-        <node concept="3clFbF" id="2UwmfNuV2Ah" role="3cqZAp">
-          <node concept="1rXfSq" id="2UwmfNuV2Ai" role="3clFbG">
-            <ref role="37wK5l" to="nv3w:2ePp5XuOJkd" resolve="copy" />
-            <node concept="2YIFZM" id="2UwmfNuV2Aj" role="37wK5m">
-              <ref role="1Pybhc" node="5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
-              <ref role="37wK5l" node="5gTrVpGyMwR" resolve="wrap" />
-              <node concept="37vLTw" id="2UwmfNuV2Ak" role="37wK5m">
-                <ref role="3cqZAo" node="2UwmfNuV2Ac" resolve="node" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="2UwmfNuV2Al" role="1B3o_S" />
-    <node concept="3uibUv" id="2UwmfNuV2TE" role="1zkMxy">
-      <ref role="3uigEE" to="nv3w:2UwmfNuUN_0" resolve="CopyNodeAndApplyTransformationRecursively" />
-    </node>
-  </node>
   <node concept="312cEu" id="7NatPTM17SS">
     <property role="TrG5h" value="DependencyChangeCollector" />
     <property role="1sVAO0" value="false" />

@@ -829,47 +829,6 @@
       <node concept="17QB3L" id="2Dmy1k6UuE6" role="3clF45" />
     </node>
   </node>
-  <node concept="13h7C7" id="2UwmfNv7kRi">
-    <property role="3GE5qa" value="macros" />
-    <ref role="13h7C2" to="oyp0:2UwmfNv6ho4" resolve="CopyWithModifications" />
-    <node concept="13hLZK" id="2UwmfNv7kRj" role="13h7CW">
-      <node concept="3clFbS" id="2UwmfNv7kRk" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="2UwmfNv7kRt" role="13h7CS">
-      <property role="13i0iv" value="false" />
-      <property role="13i0it" value="false" />
-      <property role="TrG5h" value="getNodeBuilderConcept" />
-      <ref role="13i0hy" node="6QszampN4Ee" resolve="getNodeBuilderConcept" />
-      <node concept="3Tm1VV" id="2UwmfNv7kRu" role="1B3o_S" />
-      <node concept="3clFbS" id="2UwmfNv7kRx" role="3clF47">
-        <node concept="3clFbF" id="2UwmfNv7m3n" role="3cqZAp">
-          <node concept="2OqwBi" id="2UwmfNv7mse" role="3clFbG">
-            <node concept="1UaxmW" id="2UwmfNv7m3k" role="2Oq$k0">
-              <node concept="1YaCAy" id="2UwmfNv7m6$" role="1Ub_4A">
-                <property role="TrG5h" value="sNodeType" />
-                <ref role="1YaFvo" to="tp25:gzTqbfa" resolve="SNodeType" />
-              </node>
-              <node concept="2OqwBi" id="2UwmfNv7lHu" role="1Ub_4B">
-                <node concept="2OqwBi" id="2UwmfNv7l2R" role="2Oq$k0">
-                  <node concept="13iPFW" id="2UwmfNv7kRK" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="2UwmfNv7liM" role="2OqNvi">
-                    <ref role="3Tt5mk" to="oyp0:2ePp5XuNSQA" resolve="sourceQuery" />
-                  </node>
-                </node>
-                <node concept="3JvlWi" id="2UwmfNv7lVP" role="2OqNvi" />
-              </node>
-            </node>
-            <node concept="3TrEf2" id="2UwmfNv7mJd" role="2OqNvi">
-              <ref role="3Tt5mk" to="tp25:g$ehGDh" resolve="concept" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="2UwmfNv7kRy" role="3clF45">
-        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-      </node>
-    </node>
-  </node>
   <node concept="13h7C7" id="1apE37RqhPp">
     <property role="3GE5qa" value="macros" />
     <ref role="13h7C2" to="oyp0:4EhVFrZoNdD" resolve="MapMacro" />

@@ -35,9 +35,9 @@
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" />
     <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
     <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
+    <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" implicit="true" />
-    <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -337,10 +337,17 @@
       <node concept="3clFbS" id="5wnrAmTKBHB" role="3clF47">
         <node concept="3clFbF" id="5wnrAmTKCmY" role="3cqZAp">
           <node concept="2OqwBi" id="5wnrAmTKD7H" role="3clFbG">
-            <node concept="2OqwBi" id="5wnrAmTKCmS" role="2Oq$k0">
-              <node concept="2WthIp" id="5wnrAmTKCmV" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="5wnrAmTKCmX" role="2OqNvi">
-                <ref role="2WH_rO" node="5wnrAmTFkah" resolve="component" />
+            <node concept="1eOMI4" id="3RcjyAv1Vku" role="2Oq$k0">
+              <node concept="10QFUN" id="3RcjyAv1Vkt" role="1eOMHV">
+                <node concept="2OqwBi" id="3RcjyAv1Vkq" role="10QFUP">
+                  <node concept="2WthIp" id="3RcjyAv1Vkr" role="2Oq$k0" />
+                  <node concept="liA8E" id="3RcjyAv1Vks" role="2OqNvi">
+                    <ref role="37wK5l" to="71xd:~BaseTool.getComponent():javax.swing.JComponent" resolve="getComponent" />
+                  </node>
+                </node>
+                <node concept="3uibUv" id="3RcjyAv1VuF" role="10QFUM">
+                  <ref role="3uigEE" node="5wnrAmTF3RP" resolve="TransformationTraceComponent" />
+                </node>
               </node>
             </node>
             <node concept="liA8E" id="5wnrAmTKDKs" role="2OqNvi">

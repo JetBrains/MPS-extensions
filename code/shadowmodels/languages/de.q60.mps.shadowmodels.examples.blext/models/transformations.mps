@@ -109,6 +109,16 @@
       <concept id="9170566427534439102" name="de.q60.mps.shadowmodels.transformation.structure.ParameterReference" flags="ng" index="2155sH">
         <reference id="9170566427534439103" name="decl" index="2155sG" />
       </concept>
+      <concept id="4453020072187560329" name="de.q60.mps.shadowmodels.transformation.structure.ForkParameter" flags="ng" index="2xCcYw">
+        <child id="4453020072187560468" name="type" index="2xCcKX" />
+      </concept>
+      <concept id="4453020072187565222" name="de.q60.mps.shadowmodels.transformation.structure.ForkParameterRef" flags="ng" index="2xCdEf">
+        <reference id="4453020072187565304" name="decl" index="2xCdFh" />
+      </concept>
+      <concept id="3824754023342693980" name="de.q60.mps.shadowmodels.transformation.structure.ForkCall" flags="ng" index="BwxZp">
+        <reference id="4453020072188806440" name="decl" index="2xGWG1" />
+        <child id="4453020072188806447" name="parameterValues" index="2xGWG6" />
+      </concept>
       <concept id="5373338300158985562" name="de.q60.mps.shadowmodels.transformation.structure.LocalLabel" flags="ng" index="2OqUJG">
         <child id="5373338300158985572" name="node" index="2OqUJi" />
       </concept>
@@ -135,18 +145,15 @@
         <child id="5195914917230391196" name="replacement" index="34G3qa" />
       </concept>
       <concept id="5195914917229891769" name="de.q60.mps.shadowmodels.transformation.structure.CopyHandler_Reference_target" flags="ng" index="34JSAJ" />
+      <concept id="7316581361273087769" name="de.q60.mps.shadowmodels.transformation.structure.ForkDeclaration" flags="ng" index="3lp93y">
+        <child id="4453020072187189211" name="parameters" index="2xEDBM" />
+        <child id="3399411678333878506" name="autoApply" index="NiI83" />
+        <child id="7316581361273089326" name="rootCall" index="3lp9Fl" />
+      </concept>
       <concept id="7898342489379026629" name="de.q60.mps.shadowmodels.transformation.structure.BLExpressionTarget" flags="ng" index="3OkNDw">
         <child id="7898342489379026632" name="expr" index="3OkNDH" />
       </concept>
-      <concept id="2969665195339084895" name="de.q60.mps.shadowmodels.transformation.structure.Rewriter" flags="ng" index="3RcaEt">
-        <reference id="3502377949024573390" name="rootConcept" index="0nUnY" />
-        <child id="2969665195339091336" name="includes" index="3Rclda" />
-      </concept>
-      <concept id="2969665195339084179" name="de.q60.mps.shadowmodels.transformation.structure.Rewrite" flags="ng" index="3RcaXh">
-        <reference id="2969665195339084956" name="rewriter" index="3RcaDu" />
-        <child id="2969665195339084892" name="rootInput" index="3RcaEu" />
-      </concept>
-      <concept id="2969665195339091237" name="de.q60.mps.shadowmodels.transformation.structure.RewriterInclude_Transformation" flags="ng" index="3RclfB">
+      <concept id="2969665195339091237" name="de.q60.mps.shadowmodels.transformation.structure.TransformationInclude" flags="ng" index="3RclfB">
         <reference id="2969665195339091327" name="transformation" index="3RcleX" />
       </concept>
       <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.CopyMacro" flags="ng" index="1XuIBW">
@@ -1038,9 +1045,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="3RcaXh" id="3kkgoki$koI" role="2PWHRo">
-                <ref role="3RcaDu" node="3fc1D1m7MuN" resolve="classRewriter" />
-                <node concept="214o7A" id="3kkgoki$koJ" role="3RcaEu" />
+              <node concept="BwxZp" id="2WH8I$swiWF" role="2PWHRo">
+                <ref role="2xGWG1" node="2WH8I$spE_a" resolve="classFork" />
+                <node concept="214o7A" id="2WH8I$swj7m" role="2xGWG6" />
               </node>
             </node>
           </node>
@@ -1088,9 +1095,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="3RcaXh" id="32qWz0LN88U" role="2PWHRo">
-                <ref role="3RcaDu" node="3fc1D1m7MuN" resolve="classRewriter" />
-                <node concept="214o7A" id="32qWz0LN88V" role="3RcaEu" />
+              <node concept="BwxZp" id="2WH8I$swjil" role="2PWHRo">
+                <ref role="2xGWG1" node="2WH8I$spE_a" resolve="classFork" />
+                <node concept="214o7A" id="2WH8I$swjr6" role="2xGWG6" />
               </node>
             </node>
           </node>
@@ -1108,10 +1115,20 @@
   <node concept="02vhO" id="3fc1D1m6PQI">
     <property role="TrG5h" value="desugarUsingRewrite" />
     <node concept="2OrE70" id="3fc1D1m6PQJ" role="02uzr" />
-    <node concept="3RcaEt" id="3fc1D1m7MuN" role="02uzr">
-      <property role="TrG5h" value="classRewriter" />
-      <ref role="0nUnY" to="tpee:fz12cDA" resolve="ClassConcept" />
-      <node concept="3RclfB" id="3fc1D1m7MIY" role="3Rclda">
+    <node concept="3lp93y" id="2WH8I$spE_a" role="02uzr">
+      <property role="TrG5h" value="classFork" />
+      <node concept="2xCcYw" id="2WH8I$spEYk" role="2xEDBM">
+        <property role="TrG5h" value="cls" />
+        <node concept="02i3D" id="2WH8I$spEYC" role="2xCcKX">
+          <ref role="02i3$" to="tpee:fz12cDA" resolve="ClassConcept" />
+        </node>
+      </node>
+      <node concept="1Zmyal" id="2WH8I$spEY4" role="3lp9Fl">
+        <node concept="2xCdEf" id="2WH8I$spT_y" role="1Zmyar">
+          <ref role="2xCdFh" node="2WH8I$spEYk" resolve="cls" />
+        </node>
+      </node>
+      <node concept="3RclfB" id="2WH8I$srKBh" role="NiI83">
         <ref role="3RcleX" node="3fc1D1m6PQK" resolve="reduce" />
       </node>
     </node>

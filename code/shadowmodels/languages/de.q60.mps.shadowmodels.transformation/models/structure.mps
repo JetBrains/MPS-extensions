@@ -1237,6 +1237,9 @@
     <node concept="PrWs8" id="3fc1D1mCLsE" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_LuUK" resolve="ITargetSpec" />
     </node>
+    <node concept="asaX9" id="2WH8I$stP7q" role="lGtFl">
+      <property role="YLQ7P" value="Use forks" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2$QnGbu1Jhv">
     <property role="EcuMT" value="2969665195339084895" />
@@ -1261,7 +1264,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="includes" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="2$QnGbu1KPi" resolve="IRewriterInclude" />
+      <ref role="20lvS9" node="2$QnGbu1KPi" resolve="IForkInclude" />
     </node>
     <node concept="PrWs8" id="2$QnGbu1Jic" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
@@ -1272,12 +1275,14 @@
     <node concept="PrWs8" id="2$QnGbuJF8c" role="PzmwI">
       <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
     </node>
+    <node concept="asaX9" id="2WH8I$spEOX" role="lGtFl">
+      <property role="YLQ7P" value="Use forks" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2$QnGbu1KO_">
     <property role="EcuMT" value="2969665195339091237" />
-    <property role="TrG5h" value="RewriterInclude_Transformation" />
+    <property role="TrG5h" value="TransformationInclude" />
     <property role="3GE5qa" value="rewrite" />
-    <property role="34LRSv" value="include" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2$QnGbu1KPZ" role="1TKVEi">
       <property role="IQ2ns" value="2969665195339091327" />
@@ -1287,12 +1292,12 @@
       <ref role="20lvS9" node="6ndA7L_L6SA" resolve="Transformation" />
     </node>
     <node concept="PrWs8" id="2$QnGbu1KQ2" role="PzmwI">
-      <ref role="PrY4T" node="2$QnGbu1KPi" resolve="IRewriterInclude" />
+      <ref role="PrY4T" node="2$QnGbu1KPi" resolve="IForkInclude" />
     </node>
   </node>
   <node concept="PlHQZ" id="2$QnGbu1KPi">
     <property role="EcuMT" value="2969665195339091282" />
-    <property role="TrG5h" value="IRewriterInclude" />
+    <property role="TrG5h" value="IForkInclude" />
     <property role="3GE5qa" value="rewrite" />
   </node>
   <node concept="1TIwiD" id="3fc1D1miYno">
@@ -1500,6 +1505,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="rewriter" />
       <ref role="20lvS9" node="2$QnGbu1Jhv" resolve="Rewriter" />
+      <node concept="asaX9" id="2WH8I$spTIW" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="6m9HZIKViOI" role="1TKVEi">
       <property role="IQ2ns" value="7316581361273089326" />
@@ -1513,6 +1519,13 @@
       <property role="20kJfa" value="parameters" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3RcjyAsr869" resolve="ForkParameter" />
+    </node>
+    <node concept="1TJgyj" id="2WH8I$spW3E" role="1TKVEi">
+      <property role="IQ2ns" value="3399411678333878506" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="autoApply" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2$QnGbu1KPi" resolve="IForkInclude" />
     </node>
     <node concept="PrWs8" id="6m9HZIKVisq" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />

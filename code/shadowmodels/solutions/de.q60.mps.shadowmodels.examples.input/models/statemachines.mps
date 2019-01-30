@@ -34,7 +34,7 @@
     </language>
   </registry>
   <node concept="02pZm" id="6ndA7L_L0Q_">
-    <property role="TrG5h" value="SM111" />
+    <property role="TrG5h" value="SM1" />
     <node concept="02pZj" id="6ndA7L_L0QA" role="02pZ9">
       <property role="TrG5h" value="forward" />
     </node>

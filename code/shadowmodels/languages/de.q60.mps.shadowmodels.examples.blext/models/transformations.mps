@@ -1562,6 +1562,48 @@
             <ref role="027rv" to="tpee:fzclF7Z" resolve="body" />
             <node concept="027og" id="32qWz0L667w" role="027rp">
               <ref role="02LMe" to="tpee:fzclF80" resolve="StatementList" />
+              <node concept="027rt" id="3CcyxRChdi$" role="02LM9">
+                <ref role="027rv" to="tpee:fzcqZ_x" resolve="statement" />
+                <node concept="027og" id="3CcyxRChdj0" role="027rp">
+                  <ref role="02LMe" to="prps:6QszampOHpW" resolve="UntilStatement" />
+                  <node concept="027rt" id="3CcyxRChdjb" role="02LM9">
+                    <ref role="027rv" to="prps:6QszampOHpX" resolve="condition" />
+                    <node concept="027og" id="3CcyxRChdjj" role="027rp">
+                      <ref role="02LMe" to="tpee:fzclF81" resolve="BooleanConstant" />
+                      <node concept="027oh" id="3CcyxRChdju" role="02LM9">
+                        <ref role="027oj" to="tpee:fzclF82" resolve="value" />
+                        <node concept="Xl_RD" id="3CcyxRChdjH" role="027of">
+                          <property role="Xl_RC" value="true" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="027rt" id="3CcyxRChdk4" role="02LM9">
+                    <ref role="027rv" to="prps:6QszampOHpZ" resolve="body" />
+                    <node concept="027og" id="3CcyxRChdkg" role="027rp">
+                      <ref role="02LMe" to="tpee:fzclF80" resolve="StatementList" />
+                      <node concept="027rt" id="3CcyxRChvUN" role="02LM9">
+                        <ref role="027rv" to="tpee:fzcqZ_x" resolve="statement" />
+                        <node concept="027og" id="3CcyxRChw0l" role="027rp">
+                          <ref role="02LMe" to="tpee:5vlcUuJ5uOU" resolve="SingleLineComment" />
+                          <node concept="027rt" id="3CcyxRChw0w" role="02LM9">
+                            <ref role="027rv" to="tpee:5vlcUuJ5JXN" resolve="commentPart" />
+                            <node concept="027og" id="3CcyxRChw0T" role="027rp">
+                              <ref role="02LMe" to="tpee:5vlcUuJ5uOX" resolve="TextCommentPart" />
+                              <node concept="027oh" id="3CcyxRChw14" role="02LM9">
+                                <ref role="027oj" to="tpee:5vlcUuJ5uOY" resolve="text" />
+                                <node concept="Xl_RD" id="3CcyxRChw1j" role="027of">
+                                  <property role="Xl_RC" value="For testing multi stage subgraphs" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="027rt" id="32qWz0L667x" role="02LM9">
                 <ref role="027rv" to="tpee:fzcqZ_x" resolve="statement" />
                 <node concept="027og" id="32qWz0L667y" role="027rp">

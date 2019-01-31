@@ -2,11 +2,11 @@
 <model ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
+    <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="-1" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1076,9 +1076,6 @@
     <node concept="2tJIrI" id="42zqTR3mi4v" role="jymVt" />
     <node concept="3clFb_" id="IdPituBu4C" role="jymVt">
       <property role="TrG5h" value="getResultReference" />
-      <node concept="3uibUv" id="3fc1D1l_zqU" role="3clF45">
-        <ref role="3uigEE" node="3fc1D1lzQwj" resolve="ITransformationResultReferencee" />
-      </node>
       <node concept="3Tm1VV" id="IdPituBu4F" role="1B3o_S" />
       <node concept="3clFbS" id="IdPituBu4G" role="3clF47">
         <node concept="3clFbF" id="IdPituBQYa" role="3cqZAp">
@@ -1086,6 +1083,9 @@
             <ref role="3cqZAo" node="IdPituBdgS" resolve="call" />
           </node>
         </node>
+      </node>
+      <node concept="3uibUv" id="3fc1D1l_zqU" role="3clF45">
+        <ref role="3uigEE" node="3fc1D1lzQwj" resolve="ITransformationResultReferencee" />
       </node>
     </node>
     <node concept="2tJIrI" id="5wnrAmUdaYI" role="jymVt" />
@@ -6201,9 +6201,6 @@
               <node concept="3cpWs8" id="3kkgokhDaKj" role="3cqZAp">
                 <node concept="3cpWsn" id="3kkgokhDaKk" role="3cpWs9">
                   <property role="TrG5h" value="subgraph" />
-                  <node concept="3uibUv" id="3kkgokhDaKb" role="1tU5fm">
-                    <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
-                  </node>
                   <node concept="1rXfSq" id="3kkgokhDaKl" role="33vP2m">
                     <ref role="37wK5l" node="3kkgokhAOce" resolve="getSubgraph" />
                     <node concept="2ShNRf" id="3kkgokhDaKm" role="37wK5m">
@@ -6229,6 +6226,9 @@
                         </node>
                       </node>
                     </node>
+                  </node>
+                  <node concept="3uibUv" id="3kkgokhDaKb" role="1tU5fm">
+                    <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
                   </node>
                 </node>
               </node>
@@ -6558,9 +6558,6 @@
                   <node concept="3cpWs8" id="3kkgokk3e5f" role="3cqZAp">
                     <node concept="3cpWsn" id="3kkgokk3e5g" role="3cpWs9">
                       <property role="TrG5h" value="subgraph" />
-                      <node concept="3uibUv" id="3kkgokk3e5a" role="1tU5fm">
-                        <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
-                      </node>
                       <node concept="1rXfSq" id="3kkgokk3e5h" role="33vP2m">
                         <ref role="37wK5l" node="3kkgokhAOce" resolve="getSubgraph" />
                         <node concept="2OqwBi" id="3kkgokk3e5i" role="37wK5m">
@@ -6571,6 +6568,9 @@
                             <ref role="37wK5l" node="32qWz0M1USa" resolve="getContext" />
                           </node>
                         </node>
+                      </node>
+                      <node concept="3uibUv" id="3kkgokk3e5a" role="1tU5fm">
+                        <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
                       </node>
                     </node>
                   </node>
@@ -7214,9 +7214,6 @@
           <ref role="3uigEE" node="32qWz0LOgh1" resolve="ICallContext" />
         </node>
       </node>
-      <node concept="3uibUv" id="3kkgokhCE9p" role="3clF45">
-        <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
-      </node>
       <node concept="3Tm1VV" id="3kkgokhAOci" role="1B3o_S" />
       <node concept="3clFbS" id="3kkgokhAOcj" role="3clF47">
         <node concept="3clFbF" id="3RcjyAuQFEU" role="3cqZAp">
@@ -7358,18 +7355,18 @@
       <node concept="2AHcQZ" id="3kkgokhEmVg" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="3uibUv" id="3kkgokhCE9p" role="3clF45">
+        <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
+      </node>
     </node>
     <node concept="2tJIrI" id="3kkgokjyaxQ" role="jymVt" />
     <node concept="3clFb_" id="3kkgokkNmID" role="jymVt">
-      <property role="TrG5h" value="getFinalSubgrapgStage" />
+      <property role="TrG5h" value="findSubgraphStage" />
       <node concept="37vLTG" id="3kkgokkNFbo" role="3clF46">
         <property role="TrG5h" value="context" />
         <node concept="3uibUv" id="3kkgokkNKWI" role="1tU5fm">
           <ref role="3uigEE" node="32qWz0LOghn" resolve="SubgraphCallContext" />
         </node>
-      </node>
-      <node concept="3uibUv" id="3kkgokkNM4a" role="3clF45">
-        <ref role="3uigEE" node="3kkgokjwp4$" resolve="SubgraphStage" />
       </node>
       <node concept="3Tmbuc" id="3kkgokkNAFV" role="1B3o_S" />
       <node concept="3clFbS" id="3kkgokkNmIH" role="3clF47">
@@ -7447,6 +7444,9 @@
             </node>
             <node concept="3clFbF" id="3kkgokkOE_o" role="3cqZAp">
               <node concept="37vLTI" id="3kkgokkOEFl" role="3clFbG">
+                <node concept="37vLTw" id="3kkgokkOE_m" role="37vLTJ">
+                  <ref role="3cqZAo" node="3kkgokkNR26" resolve="stage" />
+                </node>
                 <node concept="1rXfSq" id="3kkgokkOEKD" role="37vLTx">
                   <ref role="37wK5l" node="3kkgokjy6c9" resolve="getSubgraphStage" />
                   <node concept="2OqwBi" id="3kkgokkOF$y" role="37wK5m">
@@ -7460,9 +7460,6 @@
                   <node concept="37vLTw" id="3kkgokkOGuY" role="37wK5m">
                     <ref role="3cqZAo" node="3kkgokkNUKi" resolve="stageCall" />
                   </node>
-                </node>
-                <node concept="37vLTw" id="3kkgokkOE_m" role="37vLTJ">
-                  <ref role="3cqZAo" node="3kkgokkNR26" resolve="stage" />
                 </node>
               </node>
             </node>
@@ -7486,6 +7483,9 @@
             <ref role="3cqZAo" node="3kkgokkNR26" resolve="stage" />
           </node>
         </node>
+      </node>
+      <node concept="3uibUv" id="3kkgokkNM4a" role="3clF45">
+        <ref role="3uigEE" node="3kkgokjwp4$" resolve="SubgraphStage" />
       </node>
     </node>
     <node concept="2tJIrI" id="3kkgokkNhIe" role="jymVt" />
@@ -7805,13 +7805,14 @@
     <node concept="3clFb_" id="32qWz0MeEJ7" role="jymVt">
       <property role="TrG5h" value="loadSubgraphData" />
       <node concept="37vLTG" id="32qWz0MeZSJ" role="3clF46">
-        <property role="TrG5h" value="subgraph" />
+        <property role="TrG5h" value="stage" />
         <node concept="3uibUv" id="3kkgokjxEkL" role="1tU5fm">
           <ref role="3uigEE" node="3kkgokjwp4$" resolve="SubgraphStage" />
         </node>
       </node>
       <node concept="37vLTG" id="32qWz0Mf5fH" role="3clF46">
         <property role="TrG5h" value="call" />
+        <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="32qWz0Mf9qr" role="1tU5fm">
           <ref role="3uigEE" node="2$QnGbtLuzE" resolve="ITransformationCall" />
         </node>
@@ -13287,9 +13288,16 @@
               <ref role="1PxDUh" to="ee18:3SvKIiMamz" resolve="DependencyBroadcaster" />
             </node>
             <node concept="liA8E" id="7vWAzuEJPq8" role="2OqNvi">
-              <ref role="37wK5l" to="ee18:3SvKIiMgN$" resolve="dependencyChanged" />
-              <node concept="37vLTw" id="7vWAzuEJPtk" role="37wK5m">
-                <ref role="3cqZAo" node="7vWAzuEJNio" resolve="dep" />
+              <ref role="37wK5l" to="ee18:6FW8YbTWWpS" resolve="dependenciesChanged" />
+              <node concept="2ShNRf" id="3CcyxRCkcgj" role="37wK5m">
+                <node concept="2HTt$P" id="3CcyxRCkd2k" role="2ShVmc">
+                  <node concept="3uibUv" id="3CcyxRCkd6P" role="2HTBi0">
+                    <ref role="3uigEE" to="ee18:5gTrVpGx$gB" resolve="DependencyKey" />
+                  </node>
+                  <node concept="37vLTw" id="3CcyxRCkdFA" role="2HTEbv">
+                    <ref role="3cqZAo" node="7vWAzuEJNio" resolve="dep" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -15584,11 +15592,11 @@
           <ref role="3uigEE" node="32qWz0LOgh1" resolve="ICallContext" />
         </node>
       </node>
+      <node concept="3Tm1VV" id="3kkgokhEgIo" role="1B3o_S" />
+      <node concept="3clFbS" id="3kkgokhEgIp" role="3clF47" />
       <node concept="3uibUv" id="3kkgokhEgIn" role="3clF45">
         <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
       </node>
-      <node concept="3Tm1VV" id="3kkgokhEgIo" role="1B3o_S" />
-      <node concept="3clFbS" id="3kkgokhEgIp" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3kkgokhmrYG" role="jymVt" />
     <node concept="3clFb_" id="3kkgokhms0D" role="jymVt">
@@ -15879,7 +15887,7 @@
     </node>
   </node>
   <node concept="312cEu" id="3eNjk1XQmDi">
-    <property role="TrG5h" value="Subgraph" />
+    <property role="TrG5h" value="FinalSubgraph" />
     <property role="3GE5qa" value="subgraph" />
     <node concept="2tJIrI" id="2$QnGbtW374" role="jymVt" />
     <node concept="312cEg" id="32qWz0LFja1" role="jymVt">
@@ -18874,7 +18882,7 @@
     <node concept="3Tm1VV" id="3fc1D1l7D4A" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3fc1D1lzQwj">
-    <property role="TrG5h" value="ITransformationResultReferencee" />
+    <property role="TrG5h" value="ITransformationResultReference" />
     <property role="3GE5qa" value="resultRef" />
     <node concept="3clFb_" id="3fc1D1lzQyJ" role="jymVt">
       <property role="TrG5h" value="resolve" />
@@ -22499,9 +22507,6 @@
         <node concept="3cpWs8" id="3kkgokhXD2i" role="3cqZAp">
           <node concept="3cpWsn" id="3kkgokhXD2j" role="3cpWs9">
             <property role="TrG5h" value="subgraph" />
-            <node concept="3uibUv" id="3kkgokhXD2d" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
-            </node>
             <node concept="2OqwBi" id="3kkgokhXD2k" role="33vP2m">
               <node concept="37vLTw" id="3kkgokhXD2l" role="2Oq$k0">
                 <ref role="3cqZAo" node="3kkgokhXA1X" resolve="engine" />
@@ -22510,6 +22515,9 @@
                 <ref role="37wK5l" node="3kkgokhEgIk" resolve="getSubgraph" />
                 <node concept="Xjq3P" id="3kkgokhXD2n" role="37wK5m" />
               </node>
+            </node>
+            <node concept="3uibUv" id="3kkgokhXD2d" role="1tU5fm">
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
             </node>
           </node>
         </node>
@@ -22711,9 +22719,6 @@
         <node concept="3cpWs8" id="3RcjyAtABnp" role="3cqZAp">
           <node concept="3cpWsn" id="3RcjyAtABnq" role="3cpWs9">
             <property role="TrG5h" value="subgraph" />
-            <node concept="3uibUv" id="3RcjyAtABnr" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
-            </node>
             <node concept="2OqwBi" id="3RcjyAtABns" role="33vP2m">
               <node concept="37vLTw" id="3RcjyAtABnt" role="2Oq$k0">
                 <ref role="3cqZAo" node="3RcjyAtAztF" resolve="engine" />
@@ -22722,6 +22727,9 @@
                 <ref role="37wK5l" node="3kkgokhEgIk" resolve="getSubgraph" />
                 <node concept="Xjq3P" id="3RcjyAtABnv" role="37wK5m" />
               </node>
+            </node>
+            <node concept="3uibUv" id="3RcjyAtABnr" role="1tU5fm">
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
             </node>
           </node>
         </node>
@@ -22799,9 +22807,6 @@
         <node concept="3cpWs8" id="3RcjyAuwnJ9" role="3cqZAp">
           <node concept="3cpWsn" id="3RcjyAuwnJa" role="3cpWs9">
             <property role="TrG5h" value="ownSubgraph" />
-            <node concept="3uibUv" id="3RcjyAuwnJb" role="1tU5fm">
-              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
-            </node>
             <node concept="2OqwBi" id="3RcjyAuwnJc" role="33vP2m">
               <node concept="37vLTw" id="3RcjyAuwnJd" role="2Oq$k0">
                 <ref role="3cqZAo" node="3RcjyAuwogU" resolve="engine" />
@@ -22810,6 +22815,9 @@
                 <ref role="37wK5l" node="3kkgokhEgIk" resolve="getSubgraph" />
                 <node concept="Xjq3P" id="3RcjyAuwnJf" role="37wK5m" />
               </node>
+            </node>
+            <node concept="3uibUv" id="3RcjyAuwnJb" role="1tU5fm">
+              <ref role="3uigEE" node="3eNjk1XQmDi" resolve="Subgraph" />
             </node>
           </node>
         </node>
@@ -28641,7 +28649,7 @@
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                   <node concept="3cpWs3" id="3kkgokkAPWt" role="37wK5m">
                     <node concept="37vLTw" id="3kkgokkAPZH" role="3uHU7w">
-                      <ref role="3cqZAo" node="3kkgokjwp5K" resolve="call" />
+                      <ref role="3cqZAo" node="3kkgokjwp5K" />
                     </node>
                     <node concept="Xl_RD" id="3kkgokkANAZ" role="3uHU7B">
                       <property role="Xl_RC" value="Subgraph stage limit (100) exceeded: " />
@@ -28654,10 +28662,10 @@
           <node concept="2d3UOw" id="3kkgokkAOvw" role="3clFbw">
             <node concept="2OqwBi" id="3kkgokkAIIO" role="3uHU7B">
               <node concept="37vLTw" id="3kkgokkAHWT" role="2Oq$k0">
-                <ref role="3cqZAo" node="3kkgokjwp5K" resolve="call" />
+                <ref role="3cqZAo" node="3kkgokjwp5K" />
               </node>
               <node concept="liA8E" id="3kkgokkAJH2" role="2OqNvi">
-                <ref role="37wK5l" node="3kkgokkptWl" resolve="getStage" />
+                <ref role="37wK5l" node="3kkgokkptWl" />
               </node>
             </node>
             <node concept="3cmrfG" id="3kkgokkAKOz" role="3uHU7w">
@@ -29863,7 +29871,7 @@
     </node>
     <node concept="2tJIrI" id="3kkgokky80b" role="jymVt" />
     <node concept="3clFb_" id="3kkgokkyeeQ" role="jymVt">
-      <property role="TrG5h" value="getAllContributions" />
+      <property role="TrG5h" value="getPendingContributions" />
       <node concept="37vLTG" id="3kkgokkyrDf" role="3clF46">
         <property role="TrG5h" value="call" />
         <node concept="3uibUv" id="3kkgokkyuRc" role="1tU5fm">
@@ -30270,7 +30278,7 @@
     </node>
     <node concept="2tJIrI" id="3kkgokjzrOY" role="jymVt" />
     <node concept="3clFb_" id="3kkgokjztBz" role="jymVt">
-      <property role="TrG5h" value="getAllContent" />
+      <property role="TrG5h" value="getContent" />
       <node concept="A3Dl8" id="3kkgokjzy7T" role="3clF45">
         <node concept="3uibUv" id="3kkgokjzzxP" role="A3Ik2">
           <ref role="3uigEE" node="2$QnGbtLuzE" resolve="ITransformationCall" />

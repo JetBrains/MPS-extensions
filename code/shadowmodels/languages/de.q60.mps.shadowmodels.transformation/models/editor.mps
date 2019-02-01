@@ -5,6 +5,7 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <use id="1dfdade0-0417-484f-b787-4c41692c0052" name="de.q60.mps.shadowmodels.util" version="-1" />
     <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="-1" />
+    <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -239,6 +240,11 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+      </concept>
+    </language>
+    <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
+        <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
     </language>
     <language id="1dfdade0-0417-484f-b787-4c41692c0052" name="de.q60.mps.shadowmodels.util">
@@ -843,8 +849,10 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F1sOY" id="6ndA7L_Lbzt" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:6ndA7L_Lbzr" resolve="type" />
+      <node concept="1kIj98" id="3JPN2vWjFo0" role="3EZMnx">
+        <node concept="3F1sOY" id="6ndA7L_Lbzt" role="1kIj9b">
+          <ref role="1NtTu8" to="oyp0:6ndA7L_Lbzr" resolve="type" />
+        </node>
       </node>
       <node concept="2iRfu4" id="6ndA7L_Lr1p" role="2iSdaV" />
     </node>
@@ -968,8 +976,10 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F1sOY" id="6ndA7L_L$Sx" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:6ndA7L_Lvoj" resolve="output" />
+      <node concept="1kIj98" id="3JPN2vWk_MC" role="3EZMnx">
+        <node concept="3F1sOY" id="6ndA7L_L$Sx" role="1kIj9b">
+          <ref role="1NtTu8" to="oyp0:6ndA7L_Lvoj" resolve="output" />
+        </node>
       </node>
       <node concept="2iRfu4" id="6ndA7L_Lyvh" role="2iSdaV" />
     </node>
@@ -2788,6 +2798,12 @@
         <ref role="1NtTu8" to="oyp0:3RcjyAufXpL" resolve="target" />
       </node>
       <node concept="l2Vlx" id="3RcjyAufXqN" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3JPN2vWlCmz">
+    <ref role="1XX52x" to="oyp0:7X4ppfYluhP" resolve="ContextNodeExpression" />
+    <node concept="3F0ifn" id="3JPN2vWlCmB" role="2wV5jI">
+      <property role="3F0ifm" value="_" />
     </node>
   </node>
 </model>

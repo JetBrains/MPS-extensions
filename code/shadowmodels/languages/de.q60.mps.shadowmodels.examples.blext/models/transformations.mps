@@ -146,6 +146,7 @@
       </concept>
       <concept id="5195914917229891769" name="de.q60.mps.shadowmodels.transformation.structure.CopyHandler_Reference_target" flags="ng" index="34JSAJ" />
       <concept id="7316581361273087769" name="de.q60.mps.shadowmodels.transformation.structure.ForkDeclaration" flags="ng" index="3lp93y">
+        <property id="6346149633702738472" name="fixpoint" index="2Cgrtv" />
         <child id="4453020072187189211" name="parameters" index="2xEDBM" />
         <child id="3399411678333878506" name="autoApply" index="NiI83" />
         <child id="7316581361273089326" name="rootCall" index="3lp9Fl" />
@@ -1117,6 +1118,7 @@
     <node concept="2OrE70" id="3fc1D1m6PQJ" role="02uzr" />
     <node concept="3lp93y" id="2WH8I$spE_a" role="02uzr">
       <property role="TrG5h" value="classFork" />
+      <property role="2Cgrtv" value="true" />
       <node concept="2xCcYw" id="2WH8I$spEYk" role="2xEDBM">
         <property role="TrG5h" value="cls" />
         <node concept="02i3D" id="2WH8I$spEYC" role="2xCcKX">
@@ -1562,6 +1564,48 @@
             <ref role="027rv" to="tpee:fzclF7Z" resolve="body" />
             <node concept="027og" id="32qWz0L667w" role="027rp">
               <ref role="02LMe" to="tpee:fzclF80" resolve="StatementList" />
+              <node concept="027rt" id="3CcyxRChdi$" role="02LM9">
+                <ref role="027rv" to="tpee:fzcqZ_x" resolve="statement" />
+                <node concept="027og" id="3CcyxRChdj0" role="027rp">
+                  <ref role="02LMe" to="prps:6QszampOHpW" resolve="UntilStatement" />
+                  <node concept="027rt" id="3CcyxRChdjb" role="02LM9">
+                    <ref role="027rv" to="prps:6QszampOHpX" resolve="condition" />
+                    <node concept="027og" id="3CcyxRChdjj" role="027rp">
+                      <ref role="02LMe" to="tpee:fzclF81" resolve="BooleanConstant" />
+                      <node concept="027oh" id="3CcyxRChdju" role="02LM9">
+                        <ref role="027oj" to="tpee:fzclF82" resolve="value" />
+                        <node concept="Xl_RD" id="3CcyxRChdjH" role="027of">
+                          <property role="Xl_RC" value="true" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="027rt" id="3CcyxRChdk4" role="02LM9">
+                    <ref role="027rv" to="prps:6QszampOHpZ" resolve="body" />
+                    <node concept="027og" id="3CcyxRChdkg" role="027rp">
+                      <ref role="02LMe" to="tpee:fzclF80" resolve="StatementList" />
+                      <node concept="027rt" id="3CcyxRChvUN" role="02LM9">
+                        <ref role="027rv" to="tpee:fzcqZ_x" resolve="statement" />
+                        <node concept="027og" id="3CcyxRChw0l" role="027rp">
+                          <ref role="02LMe" to="tpee:5vlcUuJ5uOU" resolve="SingleLineComment" />
+                          <node concept="027rt" id="3CcyxRChw0w" role="02LM9">
+                            <ref role="027rv" to="tpee:5vlcUuJ5JXN" resolve="commentPart" />
+                            <node concept="027og" id="3CcyxRChw0T" role="027rp">
+                              <ref role="02LMe" to="tpee:5vlcUuJ5uOX" resolve="TextCommentPart" />
+                              <node concept="027oh" id="3CcyxRChw14" role="02LM9">
+                                <ref role="027oj" to="tpee:5vlcUuJ5uOY" resolve="text" />
+                                <node concept="Xl_RD" id="3CcyxRChw1j" role="027of">
+                                  <property role="Xl_RC" value="For testing multi stage subgraphs" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="027rt" id="32qWz0L667x" role="02LM9">
                 <ref role="027rv" to="tpee:fzcqZ_x" resolve="statement" />
                 <node concept="027og" id="32qWz0L667y" role="027rp">

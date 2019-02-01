@@ -146,6 +146,7 @@
       </concept>
       <concept id="5195914917229891769" name="de.q60.mps.shadowmodels.transformation.structure.CopyHandler_Reference_target" flags="ng" index="34JSAJ" />
       <concept id="7316581361273087769" name="de.q60.mps.shadowmodels.transformation.structure.ForkDeclaration" flags="ng" index="3lp93y">
+        <property id="6346149633702738472" name="fixpoint" index="2Cgrtv" />
         <child id="4453020072187189211" name="parameters" index="2xEDBM" />
         <child id="3399411678333878506" name="autoApply" index="NiI83" />
         <child id="7316581361273089326" name="rootCall" index="3lp9Fl" />
@@ -1117,6 +1118,7 @@
     <node concept="2OrE70" id="3fc1D1m6PQJ" role="02uzr" />
     <node concept="3lp93y" id="2WH8I$spE_a" role="02uzr">
       <property role="TrG5h" value="classFork" />
+      <property role="2Cgrtv" value="true" />
       <node concept="2xCcYw" id="2WH8I$spEYk" role="2xEDBM">
         <property role="TrG5h" value="cls" />
         <node concept="02i3D" id="2WH8I$spEYC" role="2xCcKX">

@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="1ab7bfac-29d6-4772-a483-50110408ac43" name="de.q60.mps.shadowmodels.examples.expressions" version="0" />
+    <use id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="de.q60.mps.shadowmodels.examples.expext" version="0" />
   </languages>
   <imports />
   <registry>
@@ -47,6 +48,9 @@
       <concept id="1667935720929469325" name="de.q60.mps.shadowmodels.examples.expressions.structure.BlockExpr" flags="ng" index="1H2x4Y">
         <child id="1667935720929469326" name="contents" index="1H2x4X" />
       </concept>
+    </language>
+    <language id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="de.q60.mps.shadowmodels.examples.expext">
+      <concept id="1667935720929568683" name="de.q60.mps.shadowmodels.examples.expext.structure.Blubber" flags="ng" index="1H59ko" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -111,43 +115,10 @@
                 <property role="1H2aK3" value="2" />
               </node>
             </node>
-            <node concept="38Xu9M" id="1s_GFdUc70L" role="38X86o">
-              <node concept="1H2aKy" id="1s_GFdUc70M" role="38Xu9u" />
-              <node concept="38X$Zd" id="1s_GFdUc7pA" role="38Xu9j">
-                <node concept="38Xu9M" id="1s_GFdUc7pB" role="38X86o">
-                  <node concept="1H2aUO" id="1s_GFdUc7pC" role="38Xu9u" />
-                  <node concept="1H2aKs" id="1s_GFdUc7pD" role="38Xu9j">
-                    <property role="1H2aK3" value="2" />
-                  </node>
-                </node>
-                <node concept="38Xu9M" id="1s_GFdUc7pE" role="38X86o">
-                  <node concept="1H2aKy" id="1s_GFdUc7pF" role="38Xu9u" />
-                  <node concept="38X$Zd" id="1s_GFdUc7qk" role="38Xu9j">
-                    <node concept="38Xu9M" id="1s_GFdUc7ql" role="38X86o">
-                      <node concept="1H2aUO" id="1s_GFdUc7qm" role="38Xu9u" />
-                      <node concept="1H2aKs" id="1s_GFdUc7qn" role="38Xu9j">
-                        <property role="1H2aK3" value="2" />
-                      </node>
-                    </node>
-                    <node concept="38Xu9M" id="1s_GFdUc7qo" role="38X86o">
-                      <node concept="1H2aKy" id="1s_GFdUc7qp" role="38Xu9u" />
-                      <node concept="38X$Zd" id="1s_GFdUc7r2" role="38Xu9j">
-                        <node concept="38Xu9M" id="1s_GFdUc7r3" role="38X86o">
-                          <node concept="1H2aUO" id="1s_GFdUc7r4" role="38Xu9u" />
-                          <node concept="1H2aKs" id="1s_GFdUc7r5" role="38Xu9j">
-                            <property role="1H2aK3" value="2" />
-                          </node>
-                        </node>
-                        <node concept="38Xu9M" id="1s_GFdUc7r6" role="38X86o">
-                          <node concept="1H2aKy" id="1s_GFdUc7r7" role="38Xu9u" />
-                          <node concept="1H2aKs" id="1s_GFdUc70N" role="38Xu9j">
-                            <property role="1H2aK3" value="3" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
+            <node concept="38Xu9M" id="1s_GFdUcjsy" role="38X86o">
+              <node concept="1H2aKy" id="1s_GFdUcjt3" role="38Xu9u" />
+              <node concept="1H2aKs" id="1s_GFdUcjs$" role="38Xu9j">
+                <property role="1H2aK3" value="3" />
               </node>
             </node>
           </node>
@@ -207,6 +178,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="37GxwB" id="1s_GFdUcjx8" role="37GxYA">
+      <property role="TrG5h" value="z" />
+      <node concept="1H59ko" id="1s_GFdUcjzf" role="37Gxwy" />
     </node>
   </node>
 </model>

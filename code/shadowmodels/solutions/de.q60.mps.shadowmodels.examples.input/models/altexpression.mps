@@ -48,6 +48,11 @@
       <concept id="1667935720929469325" name="de.q60.mps.shadowmodels.examples.expressions.structure.BlockExpr" flags="ng" index="1H2x4Y">
         <child id="1667935720929469326" name="contents" index="1H2x4X" />
       </concept>
+      <concept id="1667935720929659158" name="de.q60.mps.shadowmodels.examples.expressions.structure.BinaryExpr" flags="ng" index="1H5NI_">
+        <child id="1667935720929659162" name="right" index="1H5NID" />
+        <child id="1667935720929659160" name="left" index="1H5NIF" />
+      </concept>
+      <concept id="1667935720930234148" name="de.q60.mps.shadowmodels.examples.expressions.structure.PlusExpr" flags="ng" index="1H7JQn" />
     </language>
     <language id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="de.q60.mps.shadowmodels.examples.expext">
       <concept id="1667935720929568683" name="de.q60.mps.shadowmodels.examples.expext.structure.Blubber" flags="ng" index="1H59ko" />
@@ -62,8 +67,18 @@
     <property role="TrG5h" value="Example" />
     <node concept="37GxwB" id="3JPN2vWiLrB" role="37GxYA">
       <property role="TrG5h" value="const1" />
-      <node concept="1H2aKs" id="1s_GFdUbuXp" role="37Gxwy">
-        <property role="1H2aK3" value="10" />
+      <node concept="1H7JQn" id="1s_GFdUivtg" role="37Gxwy">
+        <node concept="1H7JQn" id="1s_GFdUivth" role="1H5NIF">
+          <node concept="1H2aKs" id="1s_GFdUi7OJ" role="1H5NIF">
+            <property role="1H2aK3" value="10" />
+          </node>
+          <node concept="1H2aKs" id="1s_GFdUitZx" role="1H5NID">
+            <property role="1H2aK3" value="1" />
+          </node>
+        </node>
+        <node concept="1H2aKs" id="1s_GFdUivtD" role="1H5NID">
+          <property role="1H2aK3" value="2" />
+        </node>
       </node>
     </node>
     <node concept="37GxwB" id="3JPN2vWiPJF" role="37GxYA">
@@ -157,7 +172,7 @@
         <node concept="37FMLf" id="3JPN2vWmTkE" role="37FMM1" />
       </node>
       <node concept="1H2x4Y" id="1s_GFdUc5zt" role="38WgZW">
-        <node concept="1H2aKs" id="1s_GFdUc5z_" role="1H2x4X">
+        <node concept="1H2aKs" id="1s_GFdUc$SO" role="1H2x4X">
           <property role="1H2aK3" value="10" />
         </node>
         <node concept="1H2aKs" id="1s_GFdUc5zZ" role="1H2x4X">

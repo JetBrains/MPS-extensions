@@ -288,7 +288,7 @@
   <node concept="1TIwiD" id="1s_GFdUbvEB">
     <property role="EcuMT" value="1667935720929360551" />
     <property role="TrG5h" value="NeverLit" />
-    <property role="34LRSv" value="&lt;&gt;" />
+    <property role="34LRSv" value="&lt;!&gt;" />
     <ref role="1TJDcQ" node="2frx7BFaCHD" resolve="Expr" />
   </node>
   <node concept="1TIwiD" id="1s_GFdUbUed">
@@ -303,6 +303,41 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2frx7BFaCHD" resolve="Expr" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1s_GFdUcC$m">
+    <property role="EcuMT" value="1667935720929659158" />
+    <property role="TrG5h" value="BinaryExpr" />
+    <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="bin" />
+    <ref role="1TJDcQ" node="2frx7BFaCHD" resolve="Expr" />
+    <node concept="1TJgyj" id="1s_GFdUcC$o" role="1TKVEi">
+      <property role="IQ2ns" value="1667935720929659160" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2frx7BFaCHD" resolve="Expr" />
+    </node>
+    <node concept="1TJgyj" id="1s_GFdUcC$q" role="1TKVEi">
+      <property role="IQ2ns" value="1667935720929659162" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2frx7BFaCHD" resolve="Expr" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1s_GFdUcC$n">
+    <property role="EcuMT" value="1667935720929659159" />
+    <property role="3GE5qa" value="bin" />
+    <property role="TrG5h" value="BinaryArithExpr" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="1s_GFdUcC$m" resolve="BinaryExpr" />
+  </node>
+  <node concept="1TIwiD" id="1s_GFdUeOW$">
+    <property role="EcuMT" value="1667935720930234148" />
+    <property role="3GE5qa" value="bin" />
+    <property role="TrG5h" value="PlusExpr" />
+    <property role="34LRSv" value="+" />
+    <ref role="1TJDcQ" node="1s_GFdUcC$n" resolve="BinaryArithExpr" />
   </node>
 </model>
 

@@ -147,5 +147,20 @@
       <ref role="20lvS9" node="qmkA5fOskf" resolve="Module" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7pvOHdLgGRB">
+    <property role="EcuMT" value="8529768024843144679" />
+    <property role="TrG5h" value="ErrorPlaceholder" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7pvOHdLgGRC" role="1TKVEl">
+      <property role="IQ2nx" value="8529768024843144680" />
+      <property role="TrG5h" value="message" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7pvOHdLiok9" role="1TKVEl">
+      <property role="IQ2nx" value="8529768024843584777" />
+      <property role="TrG5h" value="stacktrace" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

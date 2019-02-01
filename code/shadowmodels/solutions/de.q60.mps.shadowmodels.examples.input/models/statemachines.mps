@@ -44,6 +44,9 @@
     <node concept="02pZj" id="6ndA7L_L0QF" role="02pZ9">
       <property role="TrG5h" value="reset" />
     </node>
+    <node concept="02pZj" id="3RcjyAulQ6A" role="02pZ9">
+      <property role="TrG5h" value="event1" />
+    </node>
     <node concept="02pZh" id="6ndA7L_L0QJ" role="02p66">
       <property role="TrG5h" value="s1" />
       <node concept="02pZi" id="6ndA7L_L2GO" role="02pZb">

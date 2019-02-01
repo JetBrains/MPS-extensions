@@ -6326,6 +6326,21 @@
           <property role="TrG5h" value="de.q60.mps.shadowmodels.runtimelang#01" />
           <property role="3LESm3" value="d81a5946-dea0-44cd-93bb-ab50632b69c4" />
         </node>
+        <node concept="1SiIV0" id="5mB228OosSq" role="3bR37C">
+          <node concept="3bR9La" id="5mB228OosSr" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5mB228OosSs" role="3bR37C">
+          <node concept="3bR9La" id="5mB228OosSt" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5mB228OosSu" role="3bR37C">
+          <node concept="3bR9La" id="5mB228OosSv" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5HO" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -6448,6 +6463,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
           </node>
         </node>
+        <node concept="1SiIV0" id="3RcjyAtlZAY" role="3bR37C">
+          <node concept="3bR9La" id="3RcjyAtlZAZ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5I0" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -6514,6 +6534,12 @@
         </node>
         <node concept="3LEDTy" id="46Sq7W2pmIP" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+        </node>
+        <node concept="3LEDTy" id="3fc1D1mGraZ" role="3LEDUa">
+          <ref role="3LEDTV" node="4iIKqJTZ5Hg" resolve="de.q60.mps.shadowmodels.gen.afterPF" />
+        </node>
+        <node concept="3LEDTy" id="3fc1D1mGrb0" role="3LEDUa">
+          <ref role="3LEDTV" node="2$QnGbtLXzL" resolve="de.q60.mps.shadowmodels.gen.desugar" />
         </node>
       </node>
     </node>

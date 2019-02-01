@@ -29,6 +29,7 @@
       <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
+      <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
       </concept>
@@ -85,6 +86,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3aamgX" id="32qWz0K$sBT" role="3acgRq">
+      <ref role="30HIoZ" to="oyp0:6DbeQdm4Jze" resolve="ValueDecl" />
+      <node concept="b5Tf3" id="32qWz0K$sC9" role="1lVwrX" />
     </node>
   </node>
 </model>

@@ -1097,7 +1097,7 @@
                       <ref role="37wK5l" to="nv3w:5gTrVpG_uHA" resolve="update" />
                       <node concept="2ShNRf" id="56YPHTotlDS" role="37wK5m">
                         <node concept="1pGfFk" id="56YPHTotlDT" role="2ShVmc">
-                          <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="TransformationProblem" />
+                          <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="DirectTCall" />
                           <node concept="2ShNRf" id="56YPHTotlDU" role="37wK5m">
                             <node concept="2HTt$P" id="56YPHTotlDV" role="2ShVmc">
                               <node concept="3uibUv" id="56YPHTotlDW" role="2HTBi0">
@@ -1507,7 +1507,7 @@
             </node>
             <node concept="2tJFMh" id="4wrAhqcXL0Z" role="37wK5m">
               <node concept="ZC_QK" id="4wrAhqcXL10" role="2tJFKM">
-                <ref role="2aWVGs" to="bp4t:6QszampKRkd" resolve="desugar" />
+                <ref role="2aWVGs" to="bp4t:6QszampKRkd" resolve="desugarUsingCopy" />
                 <node concept="ZC_QK" id="5VZCLuIS_po" role="2aWVGa">
                   <ref role="2aWVGs" to="bp4t:5o5qH$CQKca" resolve="desugar" />
                 </node>

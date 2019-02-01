@@ -45,11 +45,13 @@
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1204908117386" name="jetbrains.mps.lang.plugin.structure.Separator" flags="ng" index="2a7GMi" />
       <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
         <child id="1207145201301" name="reference" index="ftvYc" />
       </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
@@ -64,6 +66,7 @@
       <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
+      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
       <concept id="1217252042208" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration" flags="ng" index="1DS2jV">
         <reference id="1217252646389" name="key" index="1DUlNI" />
@@ -232,6 +235,9 @@
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -463,15 +469,23 @@
             <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
           </node>
         </node>
-        <node concept="3clFbF" id="7YhLqbpg11A" role="3cqZAp">
-          <node concept="2OqwBi" id="7YhLqbpg11B" role="3clFbG">
-            <node concept="2YIFZM" id="7YhLqbpg1ai" role="2Oq$k0">
-              <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+        <node concept="3clFbJ" id="7zI2priSBy2" role="3cqZAp">
+          <node concept="3clFbS" id="7zI2priSBy4" role="3clFbx">
+            <node concept="3clFbF" id="7YhLqbpg11A" role="3cqZAp">
+              <node concept="2OqwBi" id="7YhLqbpg11B" role="3clFbG">
+                <node concept="2YIFZM" id="7YhLqbpg1ai" role="2Oq$k0">
+                  <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
+                  <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                </node>
+                <node concept="liA8E" id="7YhLqbpg11D" role="2OqNvi">
+                  <ref role="37wK5l" to="l6bp:7YhLqbpfZYl" resolve="dispose" />
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="7YhLqbpg11D" role="2OqNvi">
-              <ref role="37wK5l" to="l6bp:7YhLqbpfZYl" resolve="dispose" />
-            </node>
+          </node>
+          <node concept="2YIFZM" id="7zI2priSBDG" role="3clFbw">
+            <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
           </node>
         </node>
         <node concept="3clFbF" id="TC$M5wUhyU" role="3cqZAp">
@@ -505,14 +519,9 @@
     <node concept="2uRRBj" id="7YhLqbpg0rQ" role="2uRRBE">
       <node concept="3clFbS" id="7YhLqbpg0rR" role="2VODD2">
         <node concept="3clFbF" id="7YhLqbpg0EQ" role="3cqZAp">
-          <node concept="2OqwBi" id="7YhLqbpg0LP" role="3clFbG">
-            <node concept="2YIFZM" id="7YhLqbpg1ah" role="2Oq$k0">
-              <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
-            </node>
-            <node concept="liA8E" id="7YhLqbpg101" role="2OqNvi">
-              <ref role="37wK5l" to="l6bp:7YhLqbpg05h" resolve="init" />
-            </node>
+          <node concept="2YIFZM" id="7zI2priSBip" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:7zI2priS6_P" resolve="applyEnabledState" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
           </node>
         </node>
         <node concept="3clFbF" id="3jGmESsMWqC" role="3cqZAp">
@@ -889,9 +898,9 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbF" id="115Xaa41wE3" role="3cqZAp">
-                      <node concept="1rXfSq" id="115Xaa41wE1" role="3clFbG">
-                        <ref role="37wK5l" node="115Xaa41jby" resolve="attachShadowRoot" />
+                    <node concept="3clFbF" id="7zI2priWPx3" role="3cqZAp">
+                      <node concept="1rXfSq" id="7zI2priWPx4" role="3clFbG">
+                        <ref role="37wK5l" node="7zI2priU5Kn" resolve="attachShadowRootIfNotEmpty" />
                       </node>
                     </node>
                   </node>
@@ -1274,11 +1283,6 @@
                 <node concept="3clFbF" id="6AlUJyrx0Jj" role="3cqZAp">
                   <node concept="1rXfSq" id="6AlUJyrx0Jh" role="3clFbG">
                     <ref role="37wK5l" node="6AlUJyrwjTk" resolve="updateModules" />
-                  </node>
-                </node>
-                <node concept="3clFbF" id="115Xaa436pP" role="3cqZAp">
-                  <node concept="1rXfSq" id="115Xaa436pN" role="3clFbG">
-                    <ref role="37wK5l" node="115Xaa41jby" resolve="attachShadowRoot" />
                   </node>
                 </node>
               </node>
@@ -1802,6 +1806,91 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7zI2priU0Lo" role="jymVt" />
+    <node concept="3clFb_" id="7zI2priU5Kn" role="jymVt">
+      <property role="TrG5h" value="attachShadowRootIfNotEmpty" />
+      <node concept="3cqZAl" id="7zI2priU5Kp" role="3clF45" />
+      <node concept="3Tm1VV" id="7zI2priU5Kq" role="1B3o_S" />
+      <node concept="3clFbS" id="7zI2priU5Kr" role="3clF47">
+        <node concept="3clFbJ" id="7zI2priUQE1" role="3cqZAp">
+          <node concept="3clFbS" id="7zI2priUQE3" role="3clFbx">
+            <node concept="3clFbJ" id="7zI2priUU4y" role="3cqZAp">
+              <node concept="1Wc70l" id="7zI2priWtpc" role="3clFbw">
+                <node concept="3y3z36" id="7zI2priWFH3" role="3uHU7w">
+                  <node concept="10Nm6u" id="7zI2priWGD$" role="3uHU7w" />
+                  <node concept="2OqwBi" id="7zI2priWvc_" role="3uHU7B">
+                    <node concept="37vLTw" id="7zI2priWuw6" role="2Oq$k0">
+                      <ref role="3cqZAo" node="115Xaa41cD5" resolve="shadowTreeNode" />
+                    </node>
+                    <node concept="liA8E" id="7zI2priWE5H" role="2OqNvi">
+                      <ref role="37wK5l" to="7e8u:~MPSTreeNode.getTree():jetbrains.mps.ide.ui.tree.MPSTree" resolve="getTree" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="7zI2priV6Wa" role="3uHU7B">
+                  <node concept="2OqwBi" id="7zI2priUVsY" role="3uHU7B">
+                    <node concept="37vLTw" id="7zI2priUUeZ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="115Xaa41cD5" resolve="shadowTreeNode" />
+                    </node>
+                    <node concept="liA8E" id="7zI2priV66s" role="2OqNvi">
+                      <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getParent():javax.swing.tree.TreeNode" resolve="getParent" />
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="7zI2priV7Fq" role="3uHU7w" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="7zI2priUU4$" role="3clFbx">
+                <node concept="3clFbF" id="7zI2priVx$v" role="3cqZAp">
+                  <node concept="2OqwBi" id="7zI2priWhlQ" role="3clFbG">
+                    <node concept="2OqwBi" id="7zI2priVV0b" role="2Oq$k0">
+                      <node concept="2OqwBi" id="7zI2priVyh6" role="2Oq$k0">
+                        <node concept="37vLTw" id="7zI2priVx$t" role="2Oq$k0">
+                          <ref role="3cqZAo" node="115Xaa41cD5" resolve="shadowTreeNode" />
+                        </node>
+                        <node concept="liA8E" id="7zI2priVTDz" role="2OqNvi">
+                          <ref role="37wK5l" to="7e8u:~MPSTreeNode.getTree():jetbrains.mps.ide.ui.tree.MPSTree" resolve="getTree" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="7zI2priWcO4" role="2OqNvi">
+                        <ref role="37wK5l" to="7e8u:~MPSTree.getModel():javax.swing.tree.DefaultTreeModel" resolve="getModel" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="7zI2priWtbV" role="2OqNvi">
+                      <ref role="37wK5l" to="rgfa:~DefaultTreeModel.removeNodeFromParent(javax.swing.tree.MutableTreeNode):void" resolve="removeNodeFromParent" />
+                      <node concept="37vLTw" id="7zI2priWGT9" role="37wK5m">
+                        <ref role="3cqZAo" node="115Xaa41cD5" resolve="shadowTreeNode" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="7zI2priUSkf" role="3clFbw">
+            <node concept="3cmrfG" id="7zI2priUSTF" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="7zI2priUO6U" role="3uHU7B">
+              <node concept="37vLTw" id="7zI2priUN6N" role="2Oq$k0">
+                <ref role="3cqZAo" node="115Xaa41cD5" resolve="shadowTreeNode" />
+              </node>
+              <node concept="liA8E" id="7zI2priUPht" role="2OqNvi">
+                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getChildCount():int" resolve="getChildCount" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="7zI2priVbmy" role="9aQIa">
+            <node concept="3clFbS" id="7zI2priVbmz" role="9aQI4">
+              <node concept="3clFbF" id="7zI2priVdYM" role="3cqZAp">
+                <node concept="1rXfSq" id="7zI2priVdYL" role="3clFbG">
+                  <ref role="37wK5l" node="115Xaa41jby" resolve="attachShadowRoot" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="115Xaa44GIW" role="jymVt" />
     <node concept="3clFb_" id="56YPHTokZqG" role="jymVt">
       <property role="TrG5h" value="forceUpdate" />
@@ -2263,6 +2352,11 @@
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7zI2priWMwH" role="3cqZAp">
+                <node concept="1rXfSq" id="7zI2priWMwF" role="3clFbG">
+                  <ref role="37wK5l" node="7zI2priU5Kn" resolve="attachShadowRootIfNotEmpty" />
                 </node>
               </node>
             </node>
@@ -3353,6 +3447,13 @@
   <node concept="tC5Ba" id="43OnoQB0wqZ">
     <property role="TrG5h" value="ShadowGroup" />
     <node concept="ftmFs" id="43OnoQB0wr1" role="ftER_">
+      <node concept="2a7GMi" id="7zI2priTJ1J" role="ftvYc" />
+      <node concept="tCFHf" id="7zI2priTCpN" role="ftvYc">
+        <ref role="tCJdB" node="7zI2priSBZ4" resolve="ActivateShadowRepository" />
+      </node>
+      <node concept="tCFHf" id="7zI2priTCpV" role="ftvYc">
+        <ref role="tCJdB" node="7zI2priSETQ" resolve="DeactivateShadowRepository" />
+      </node>
       <node concept="tCFHf" id="43OnoQB2D2I" role="ftvYc">
         <ref role="tCJdB" node="43OnoQB0wr4" resolve="ReexecuteAllTransformations" />
       </node>
@@ -3438,6 +3539,16 @@
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
       <node concept="1oajcY" id="56YPHTokgJr" role="1oa70y" />
+    </node>
+    <node concept="2ScWuX" id="7zI2priTPWX" role="tmbBb">
+      <node concept="3clFbS" id="7zI2priTPWY" role="2VODD2">
+        <node concept="3clFbF" id="7zI2priTQfw" role="3cqZAp">
+          <node concept="2YIFZM" id="7zI2priTQnT" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="4NO8rntUJNs">
@@ -3910,6 +4021,60 @@
     <node concept="3Tm1VV" id="4NO8rntUJNt" role="1B3o_S" />
     <node concept="3uibUv" id="4NO8rntUPV_" role="EKbjA">
       <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
+    </node>
+  </node>
+  <node concept="sE7Ow" id="7zI2priSBZ4">
+    <property role="TrG5h" value="ActivateShadowRepository" />
+    <property role="2uzpH1" value="Activate Shadow Repository" />
+    <node concept="tnohg" id="7zI2priSBZ5" role="tncku">
+      <node concept="3clFbS" id="7zI2priSBZ6" role="2VODD2">
+        <node concept="3clFbF" id="7zI2priSBZ7" role="3cqZAp">
+          <node concept="2YIFZM" id="7zI2priSDwd" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:7zI2priRdct" resolve="setEnable" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <node concept="3clFbT" id="7zI2priSD$W" role="37wK5m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="7zI2priSDCt" role="tmbBb">
+      <node concept="3clFbS" id="7zI2priSDCu" role="2VODD2">
+        <node concept="3clFbF" id="7zI2priSDJM" role="3cqZAp">
+          <node concept="3fqX7Q" id="7zI2priSELE" role="3clFbG">
+            <node concept="2YIFZM" id="7zI2priSELG" role="3fr31v">
+              <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
+              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="7zI2priSETQ">
+    <property role="TrG5h" value="DeactivateShadowRepository" />
+    <property role="2uzpH1" value="Deactivate Shadow Repository" />
+    <node concept="tnohg" id="7zI2priSETR" role="tncku">
+      <node concept="3clFbS" id="7zI2priSETS" role="2VODD2">
+        <node concept="3clFbF" id="7zI2priSETT" role="3cqZAp">
+          <node concept="2YIFZM" id="7zI2priSETU" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:7zI2priRdct" resolve="setEnable" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <node concept="3clFbT" id="7zI2priSETV" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="7zI2priSETW" role="tmbBb">
+      <node concept="3clFbS" id="7zI2priSETX" role="2VODD2">
+        <node concept="3clFbF" id="7zI2priSETY" role="3cqZAp">
+          <node concept="2YIFZM" id="7zI2priSEU0" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

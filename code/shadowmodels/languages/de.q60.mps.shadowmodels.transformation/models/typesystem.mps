@@ -2333,7 +2333,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="56YPHTonnzH">
-    <property role="TrG5h" value="typeof_CopyMacro" />
+    <property role="TrG5h" value="typeof_Duplicate" />
     <property role="3GE5qa" value="macros.copy" />
     <node concept="3clFbS" id="56YPHTonnzI" role="18ibNy">
       <node concept="1Z5TYs" id="56YPHTonnJe" role="3cqZAp">
@@ -2360,7 +2360,7 @@
     </node>
     <node concept="1YaCAy" id="56YPHTonnzK" role="1YuTPh">
       <property role="TrG5h" value="n" />
-      <ref role="1YaFvo" to="oyp0:2ePp5XuNSQz" resolve="CopyMacro" />
+      <ref role="1YaFvo" to="oyp0:2ePp5XuNSQz" resolve="Duplicate" />
     </node>
   </node>
   <node concept="1YbPZF" id="56YPHTono_h">

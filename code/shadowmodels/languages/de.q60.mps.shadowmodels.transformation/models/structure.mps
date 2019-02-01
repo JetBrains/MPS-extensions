@@ -651,8 +651,8 @@
   <node concept="1TIwiD" id="2ePp5XuNSQz">
     <property role="EcuMT" value="2573073122887437731" />
     <property role="3GE5qa" value="macros.copy" />
-    <property role="TrG5h" value="CopyMacro" />
-    <property role="34LRSv" value="copy" />
+    <property role="TrG5h" value="Duplicate" />
+    <property role="34LRSv" value="duplicate" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2ePp5XuNSQA" role="1TKVEi">
       <property role="IQ2ns" value="2573073122887437734" />

@@ -5,7 +5,13 @@
       <sourceRoot location="models" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="lib" />
+      <sourceRoot location="lib/commons-csv-1.0/commons-csv-1.0.jar" />
+      <sourceRoot location="lib/commons-io-2.4/commons-io-2.4.jar" />
+      <sourceRoot location="lib/commons-lang3-3.3.2/commons-lang3-3.3.2.jar" />
+      <sourceRoot location="lib/commons-math3-3.3/commons-math3-3.3.jar" />
+      <sourceRoot location="lib/commons-primitives-1.0/commons-primitives-1.0.jar" />
+      <sourceRoot location="lib/miglayout/miglayout-4.0.jar" />
+      <sourceRoot location="lib/miglayout/miglayout-4.0-swing.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>

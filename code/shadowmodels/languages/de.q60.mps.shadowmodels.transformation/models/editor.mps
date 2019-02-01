@@ -1711,69 +1711,6 @@
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
-  <node concept="24kQdi" id="7WfC1hyCVCM">
-    <property role="3GE5qa" value="parentRelation" />
-    <ref role="1XX52x" to="oyp0:7WfC1hyC8uc" resolve="ParentRelationVariableDeclaration" />
-    <node concept="3EZMnI" id="7WfC1hyGtqN" role="2wV5jI">
-      <node concept="2iRfu4" id="7WfC1hyGtqO" role="2iSdaV" />
-      <node concept="3F0A7n" id="7WfC1hyCVCQ" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="7WfC1hyGtqQ" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="7WfC1hyGtqV" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="7WfC1hyGtqT" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:7WfC1hyGtqM" resolve="type" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="7WfC1hyBatB">
-    <property role="3GE5qa" value="parentRelation" />
-    <ref role="1XX52x" to="oyp0:7WfC1hyB3Hf" resolve="ParentRelationRule" />
-    <node concept="3EZMnI" id="7WfC1hyBatD" role="2wV5jI">
-      <node concept="3F0ifn" id="7WfC1hyBatH" role="3EZMnx">
-        <property role="3F0ifm" value="parent of" />
-      </node>
-      <node concept="3F1sOY" id="7WfC1hyBatK" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:7WfC1hyBatj" resolve="child" />
-      </node>
-      <node concept="3F0ifn" id="7WfC1hyBatN" role="3EZMnx">
-        <property role="3F0ifm" value="=" />
-      </node>
-      <node concept="3F1sOY" id="7WfC1hyBNWF" role="3EZMnx">
-        <property role="1$x2rV" value="null" />
-        <ref role="1NtTu8" to="oyp0:7WfC1hyBatk" resolve="parent" />
-      </node>
-      <node concept="l2Vlx" id="7WfC1hyBatG" role="2iSdaV" />
-    </node>
-    <node concept="3EZMnI" id="7WfC1hyC8uf" role="6VMZX">
-      <node concept="l2Vlx" id="7WfC1hyC8ug" role="2iSdaV" />
-      <node concept="3F0ifn" id="7WfC1hyC8uh" role="3EZMnx">
-        <property role="3F0ifm" value="variables:" />
-      </node>
-      <node concept="3F2HdR" id="7WfC1hyC8uj" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="oyp0:7WfC1hyC8ue" resolve="variables" />
-        <node concept="l2Vlx" id="7WfC1hyC8ul" role="2czzBx" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="7WfC1hyCu1o">
-    <property role="3GE5qa" value="parentRelation" />
-    <ref role="1XX52x" to="oyp0:7WfC1hyCu1f" resolve="ParentRelationVariableReference" />
-    <node concept="1iCGBv" id="7WfC1hyCu1r" role="2wV5jI">
-      <ref role="1NtTu8" to="oyp0:7WfC1hyCu1q" resolve="decl" />
-      <node concept="1sVBvm" id="7WfC1hyCu1t" role="1sWHZn">
-        <node concept="3F0A7n" id="7WfC1hyCu1z" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="_UxhR7cOV5">
     <property role="3GE5qa" value="fold" />
     <ref role="1XX52x" to="oyp0:_UxhR7cOUp" resolve="Fold" />

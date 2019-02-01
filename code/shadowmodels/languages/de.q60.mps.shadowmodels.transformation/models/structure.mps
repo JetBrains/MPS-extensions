@@ -733,68 +733,6 @@
     <property role="34LRSv" value="index" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
-  <node concept="1TIwiD" id="7WfC1hyB3Hf">
-    <property role="EcuMT" value="9155712576881703759" />
-    <property role="TrG5h" value="ParentRelationRule" />
-    <property role="34LRSv" value="parent" />
-    <property role="3GE5qa" value="parentRelation" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7WfC1hyC8ue" role="1TKVEi">
-      <property role="IQ2ns" value="9155712576881985422" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="variables" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="7WfC1hyC8uc" resolve="ParentRelationVariableDeclaration" />
-    </node>
-    <node concept="1TJgyj" id="7WfC1hyBatj" role="1TKVEi">
-      <property role="IQ2ns" value="9155712576881731411" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="child" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7X4ppfYlm1v" resolve="TransformationCall" />
-    </node>
-    <node concept="1TJgyj" id="7WfC1hyBatk" role="1TKVEi">
-      <property role="IQ2ns" value="9155712576881731412" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="parent" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="7X4ppfYlm1v" resolve="TransformationCall" />
-    </node>
-    <node concept="PrWs8" id="7WfC1hyB3Hg" role="PzmwI">
-      <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
-    </node>
-    <node concept="asaX9" id="32qWz0Ma3yd" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="7WfC1hyC8uc">
-    <property role="EcuMT" value="9155712576881985420" />
-    <property role="3GE5qa" value="parentRelation" />
-    <property role="TrG5h" value="ParentRelationVariableDeclaration" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7WfC1hyGtqM" role="1TKVEi">
-      <property role="IQ2ns" value="9155712576883119794" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
-    </node>
-    <node concept="PrWs8" id="7WfC1hyC8ud" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="asaX9" id="32qWz0Ma3yf" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="7WfC1hyCu1f">
-    <property role="EcuMT" value="9155712576882073679" />
-    <property role="3GE5qa" value="parentRelation" />
-    <property role="TrG5h" value="ParentRelationVariableReference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="7WfC1hyCu1q" role="1TKVEi">
-      <property role="IQ2ns" value="9155712576882073690" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="decl" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7WfC1hyC8uc" resolve="ParentRelationVariableDeclaration" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="_UxhR7cOUp">
     <property role="EcuMT" value="683004656442625689" />
     <property role="TrG5h" value="Fold" />

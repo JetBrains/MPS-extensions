@@ -384,36 +384,6 @@
     <property role="EcuMT" value="9170566427534812291" />
     <property role="TrG5h" value="IContextNodeProvider" />
   </node>
-  <node concept="1TIwiD" id="7X4ppfYlxji">
-    <property role="EcuMT" value="9170566427534824658" />
-    <property role="TrG5h" value="Loop" />
-    <property role="34LRSv" value="loop" />
-    <property role="3GE5qa" value="macros" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7X4ppfYlxjj" role="1TKVEi">
-      <property role="IQ2ns" value="9170566427534824659" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="input" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="7X4ppfYlxWu" role="1TKVEi">
-      <property role="IQ2ns" value="9170566427534827294" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ndA7L_LuUC" resolve="INodeSpec" />
-    </node>
-    <node concept="PrWs8" id="7X4ppfYlxjl" role="PzmwI">
-      <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
-    </node>
-    <node concept="PrWs8" id="7X4ppfYlxW$" role="PzmwI">
-      <ref role="PrY4T" node="7X4ppfYlui3" resolve="IContextNodeProvider" />
-    </node>
-    <node concept="asaX9" id="3zTK92LzTu8" role="lGtFl">
-      <property role="YLQ7P" value="Use map instead. It does the same." />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4EhVFrYY$lq">
     <property role="EcuMT" value="5373338300158985562" />
     <property role="TrG5h" value="LocalLabel" />

@@ -13,6 +13,9 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
@@ -76,6 +79,93 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2frx7BFbAob" resolve="AltCase" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3DYDRw0K4c8">
+    <property role="TrG5h" value="DecTab" />
+    <property role="3GE5qa" value="dectab" />
+    <property role="34LRSv" value="dectab" />
+    <property role="EcuMT" value="4214990435115877128" />
+    <property role="R4oN_" value="a binary decision table" />
+    <ref role="1TJDcQ" to="nup6:2frx7BFaCHD" resolve="Expr" />
+    <node concept="1TJgyj" id="3DYDRw0K4d1" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowHeaders" />
+      <property role="20lbJX" value="0..n" />
+      <property role="IQ2ns" value="4214990435115877185" />
+      <ref role="20lvS9" node="3DYDRw0K4c9" resolve="DecTabRowHeader" />
+    </node>
+    <node concept="1TJgyj" id="3DYDRw0K4d4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="colHeaders" />
+      <property role="20lbJX" value="0..n" />
+      <property role="IQ2ns" value="4214990435115877188" />
+      <ref role="20lvS9" node="3DYDRw0K4ca" resolve="DecTabColHeader" />
+    </node>
+    <node concept="1TJgyj" id="3DYDRw0K4d9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contents" />
+      <property role="20lbJX" value="0..n" />
+      <property role="IQ2ns" value="4214990435115877193" />
+      <ref role="20lvS9" node="3DYDRw0K4ce" resolve="DecTabContent" />
+    </node>
+    <node concept="1TJgyj" id="3DYDRw0NJeI" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="default" />
+      <property role="20lbJX" value="0..1" />
+      <property role="IQ2ns" value="4214990435116839854" />
+      <ref role="20lvS9" to="nup6:2frx7BFaCHD" resolve="Expr" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3DYDRw0K4ca">
+    <property role="3GE5qa" value="dectab" />
+    <property role="TrG5h" value="DecTabColHeader" />
+    <property role="EcuMT" value="4214990435115877130" />
+    <property role="R4oN_" value="--" />
+    <ref role="1TJDcQ" node="3DYDRw0K4cf" resolve="DecTabExpression" />
+  </node>
+  <node concept="1TIwiD" id="3DYDRw0K4ce">
+    <property role="3GE5qa" value="dectab" />
+    <property role="TrG5h" value="DecTabContent" />
+    <property role="EcuMT" value="4214990435115877134" />
+    <property role="R4oN_" value="--" />
+    <ref role="1TJDcQ" node="3DYDRw0K4cf" resolve="DecTabExpression" />
+    <node concept="1TJgyj" id="3DYDRw0K4cT" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="row" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="4214990435115877177" />
+      <ref role="20lvS9" node="3DYDRw0K4c9" resolve="DecTabRowHeader" />
+    </node>
+    <node concept="1TJgyj" id="3DYDRw0K4cW" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="col" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="4214990435115877180" />
+      <ref role="20lvS9" node="3DYDRw0K4ca" resolve="DecTabColHeader" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3DYDRw0K4cf">
+    <property role="3GE5qa" value="dectab" />
+    <property role="TrG5h" value="DecTabExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="EcuMT" value="4214990435115877135" />
+    <property role="R4oN_" value="--" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3DYDRw0K4cg" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="4214990435115877136" />
+      <ref role="20lvS9" to="nup6:2frx7BFaCHD" resolve="Expr" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3DYDRw0K4c9">
+    <property role="3GE5qa" value="dectab" />
+    <property role="TrG5h" value="DecTabRowHeader" />
+    <property role="EcuMT" value="4214990435115877129" />
+    <property role="R4oN_" value="--" />
+    <ref role="1TJDcQ" node="3DYDRw0K4cf" resolve="DecTabExpression" />
   </node>
 </model>
 

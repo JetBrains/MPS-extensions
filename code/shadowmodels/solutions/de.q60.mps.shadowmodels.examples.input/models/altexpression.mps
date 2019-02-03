@@ -8,7 +8,7 @@
   <imports />
   <registry>
     <language id="1ab7bfac-29d6-4772-a483-50110408ac43" name="de.q60.mps.shadowmodels.examples.expressions">
-      <concept id="4320583889641463912" name="de.q60.mps.shadowmodels.examples.expressions.structure.IntType" flags="ng" index="37FMLf" />
+      <concept id="4320583889641463912" name="de.q60.mps.shadowmodels.examples.expressions.structure.BoolType" flags="ng" index="37FMLf" />
       <concept id="4320583889640215552" name="de.q60.mps.shadowmodels.examples.expressions.structure.Constant" flags="ng" index="37GxwB">
         <child id="4320583889640215557" name="value" index="37Gxwy" />
       </concept>
@@ -48,12 +48,27 @@
       <concept id="1667935720930234148" name="de.q60.mps.shadowmodels.examples.expressions.structure.PlusExpr" flags="ng" index="1H7JQn" />
     </language>
     <language id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="de.q60.mps.shadowmodels.examples.expext">
-      <concept id="2583804470398707211" name="" flags="ng" index="38Xu9M">
-        <child id="2583804470398707242" name="" index="38Xu9j" />
-        <child id="2583804470398707239" name="" index="38Xu9u" />
+      <concept id="4214990435115877128" name="de.q60.mps.shadowmodels.examples.expext.structure.DecTab" flags="ng" index="UJIhK">
+        <child id="4214990435116839854" name="default" index="UG5jm" />
+        <child id="4214990435115877193" name="contents" index="UJIgL" />
+        <child id="4214990435115877185" name="rowHeaders" index="UJIgT" />
+        <child id="4214990435115877188" name="colHeaders" index="UJIgW" />
       </concept>
-      <concept id="2583804470398667700" name="" flags="ng" index="38X$Zd">
-        <child id="2583804470398748129" name="" index="38X86o" />
+      <concept id="4214990435115877129" name="de.q60.mps.shadowmodels.examples.expext.structure.DecTabRowHeader" flags="ng" index="UJIhL" />
+      <concept id="4214990435115877130" name="de.q60.mps.shadowmodels.examples.expext.structure.DecTabColHeader" flags="ng" index="UJIhM" />
+      <concept id="4214990435115877134" name="de.q60.mps.shadowmodels.examples.expext.structure.DecTabContent" flags="ng" index="UJIhQ">
+        <reference id="4214990435115877177" name="row" index="UJIh1" />
+        <reference id="4214990435115877180" name="col" index="UJIh4" />
+      </concept>
+      <concept id="4214990435115877135" name="de.q60.mps.shadowmodels.examples.expext.structure.DecTabExpression" flags="ng" index="UJIhR">
+        <child id="4214990435115877136" name="expr" index="UJIhC" />
+      </concept>
+      <concept id="2583804470398707211" name="de.q60.mps.shadowmodels.examples.expext.structure.AltCase" flags="ng" index="38Xu9M">
+        <child id="2583804470398707242" name="val" index="38Xu9j" />
+        <child id="2583804470398707239" name="cond" index="38Xu9u" />
+      </concept>
+      <concept id="2583804470398667700" name="de.q60.mps.shadowmodels.examples.expext.structure.AltExpr" flags="ng" index="38X$Zd">
+        <child id="2583804470398748129" name="cases" index="38X86o" />
       </concept>
       <concept id="1667935720929568683" name="de.q60.mps.shadowmodels.examples.expext.structure.Blubber" flags="ng" index="1H59ko" />
     </language>
@@ -207,6 +222,62 @@
     <node concept="37GxwB" id="1s_GFdUcjx8" role="37GxYA">
       <property role="TrG5h" value="z" />
       <node concept="1H59ko" id="1s_GFdUcjzf" role="37Gxwy" />
+    </node>
+    <node concept="37GxwB" id="1_cQhkfGt5Z" role="37GxYA">
+      <property role="TrG5h" value="z2" />
+      <node concept="UJIhK" id="1_cQhkfGznQ" role="37Gxwy">
+        <node concept="UJIhM" id="1_cQhkfGznR" role="UJIgW">
+          <node concept="1H2aKs" id="1_cQhkfGzoq" role="UJIhC">
+            <property role="1H2aK3" value="11" />
+          </node>
+        </node>
+        <node concept="UJIhM" id="1_cQhkfGznS" role="UJIgW">
+          <node concept="1H2aKs" id="1_cQhkfGzoH" role="UJIhC">
+            <property role="1H2aK3" value="12" />
+          </node>
+        </node>
+        <node concept="UJIhL" id="1_cQhkfGznT" role="UJIgT">
+          <node concept="1H2aKs" id="1_cQhkfGzp2" role="UJIhC">
+            <property role="1H2aK3" value="23" />
+          </node>
+        </node>
+        <node concept="UJIhL" id="1_cQhkfGznU" role="UJIgT">
+          <node concept="1H2aKs" id="1_cQhkfGzpq" role="UJIhC">
+            <property role="1H2aK3" value="24" />
+          </node>
+        </node>
+        <node concept="UJIhQ" id="1_cQhkfGzpQ" role="UJIgL">
+          <ref role="UJIh1" node="1_cQhkfGznT" />
+          <ref role="UJIh4" node="1_cQhkfGznR" />
+          <node concept="1H2aKs" id="1_cQhkfGzpP" role="UJIhC">
+            <property role="1H2aK3" value="84" />
+          </node>
+        </node>
+        <node concept="UJIhQ" id="1_cQhkfGzqr" role="UJIgL">
+          <ref role="UJIh1" node="1_cQhkfGznT" />
+          <ref role="UJIh4" node="1_cQhkfGznS" />
+          <node concept="1H2aKs" id="1_cQhkfGzqq" role="UJIhC">
+            <property role="1H2aK3" value="85" />
+          </node>
+        </node>
+        <node concept="UJIhQ" id="1_cQhkfGzra" role="UJIgL">
+          <ref role="UJIh1" node="1_cQhkfGznU" />
+          <ref role="UJIh4" node="1_cQhkfGznR" />
+          <node concept="1H2aKs" id="1_cQhkfGzr9" role="UJIhC">
+            <property role="1H2aK3" value="86" />
+          </node>
+        </node>
+        <node concept="UJIhQ" id="1_cQhkfGzru" role="UJIgL">
+          <ref role="UJIh1" node="1_cQhkfGznU" />
+          <ref role="UJIh4" node="1_cQhkfGznS" />
+          <node concept="1H2aKs" id="1_cQhkfGzrt" role="UJIhC">
+            <property role="1H2aK3" value="87" />
+          </node>
+        </node>
+        <node concept="1H2aKs" id="1_cQhkfIFzc" role="UG5jm">
+          <property role="1H2aK3" value="99" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

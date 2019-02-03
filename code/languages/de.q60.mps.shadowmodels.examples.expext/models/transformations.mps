@@ -517,7 +517,7 @@
     </node>
     <node concept="2OrE70" id="1_cQhkfK8ux" role="02uzr" />
     <node concept="02vpq" id="1_cQhkfJuml" role="02uzr">
-      <ref role="1YyVLo" to="shry:3JPN2vWi7Cz" resolve="decl" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
       <node concept="02i3K" id="1_cQhkfJumw" role="02i3f">
         <node concept="02i3D" id="1_cQhkfJunz" role="02i2B">
           <ref role="02i3$" to="r8g4:1_cQhkfIO1K" resolve="EnumDecl" />

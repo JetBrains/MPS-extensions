@@ -23346,11 +23346,15 @@
             </node>
             <node concept="liA8E" id="5wi3nvL6UAw" role="2OqNvi">
               <ref role="37wK5l" node="5wi3nvKQ2g8" resolve="getOutput" />
-              <node concept="2YIFZM" id="5wi3nvL6Vhb" role="37wK5m">
-                <ref role="1Pybhc" node="5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
-                <ref role="37wK5l" node="5gTrVpGyMwR" resolve="wrap" />
-                <node concept="37vLTw" id="5wi3nvL6Vp5" role="37wK5m">
-                  <ref role="3cqZAo" node="4VxHqcqZoVU" resolve="repositorySpec" />
+              <node concept="2YIFZM" id="5bqHObSUCS5" role="37wK5m">
+                <ref role="37wK5l" to="nv3w:5gTrVpGzMW2" resolve="wrap" />
+                <ref role="1Pybhc" to="nv3w:5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+                <node concept="2YIFZM" id="5wi3nvL6Vhb" role="37wK5m">
+                  <ref role="37wK5l" node="5gTrVpGyMwR" resolve="wrap" />
+                  <ref role="1Pybhc" node="5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                  <node concept="37vLTw" id="5wi3nvL6Vp5" role="37wK5m">
+                    <ref role="3cqZAo" node="4VxHqcqZoVU" resolve="repositorySpec" />
+                  </node>
                 </node>
               </node>
             </node>

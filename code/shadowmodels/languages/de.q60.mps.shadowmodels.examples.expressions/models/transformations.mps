@@ -11,6 +11,7 @@
     <import index="jwvb" ref="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="r8g4" ref="r:bba4935b-e963-4377-96f6-d91b7da9aab3(de.q60.mps.shadowmodels.examples.expext.structure)" />
     <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(de.q60.mps.shadowmodels.examples.expressions.structure)" implicit="true" />
   </imports>
   <registry>
@@ -104,14 +105,6 @@
         <child id="5373338300165862254" name="call" index="2PWHRo" />
         <child id="5373338300165862252" name="input" index="2PWHRq" />
       </concept>
-      <concept id="683004656443065966" name="de.q60.mps.shadowmodels.transformation.structure.FoldAccumulator" flags="ng" index="3eg8dN" />
-      <concept id="683004656442625689" name="de.q60.mps.shadowmodels.transformation.structure.Fold" flags="ng" index="3eisI4">
-        <child id="683004656442625690" name="input" index="3eisI7" />
-        <child id="683004656442625705" name="body" index="3eisIO" />
-        <child id="683004656442625702" name="seed" index="3eisIV" />
-      </concept>
-      <concept id="683004656442625710" name="de.q60.mps.shadowmodels.transformation.structure.FoldR" flags="ng" index="3eisIN" />
-      <concept id="683004656442891684" name="de.q60.mps.shadowmodels.transformation.structure.FoldElementVariable" flags="ng" index="3ejtyT" />
       <concept id="7316581361273087769" name="de.q60.mps.shadowmodels.transformation.structure.ForkDeclaration" flags="ng" index="3lp93y">
         <property id="6346149633702738472" name="fixpoint" index="2Cgrtv" />
         <child id="4453020072187189211" name="parameters" index="2xEDBM" />
@@ -120,9 +113,6 @@
       </concept>
       <concept id="2969665195339091237" name="de.q60.mps.shadowmodels.transformation.structure.TransformationInclude" flags="ng" index="3RclfB">
         <reference id="2969665195339091327" name="transformation" index="3RcleX" />
-      </concept>
-      <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.CopyMacro" flags="ng" index="1XuIBW">
-        <child id="2573073122887437734" name="sourceQuery" index="1XuIBT" />
       </concept>
       <concept id="8710565405836969859" name="de.q60.mps.shadowmodels.transformation.structure.Transform" flags="ng" index="1Zmyal">
         <child id="8710565405836969869" name="input" index="1Zmyar" />
@@ -190,65 +180,6 @@
     <node concept="2OrE70" id="3JPN2vWiDz$" role="02uzr" />
     <node concept="2OrE70" id="3JPN2vWjrNI" role="02uzr" />
     <node concept="2OrE70" id="3JPN2vWmC5J" role="02uzr" />
-    <node concept="02vpq" id="_UxhR7dlNV" role="02uzr">
-      <ref role="1YyVLo" node="5o5qH$CQKdO" resolve="desugar" />
-      <node concept="02i3K" id="_UxhR7dlNW" role="02i3f">
-        <property role="TrG5h" value="alt" />
-        <node concept="02i3D" id="_UxhR7dlNX" role="02i2B">
-          <ref role="02i3$" to="nup6:2frx7BFbsIO" resolve="AltExpr" />
-        </node>
-      </node>
-      <node concept="026TG" id="_UxhR7dlNY" role="026TK">
-        <node concept="3eisIN" id="_UxhR7dlWD" role="026TJ">
-          <node concept="027og" id="1s_GFdUbwv4" role="3eisIV">
-            <ref role="02LMe" to="nup6:1s_GFdUbvEB" resolve="NeverLit" />
-          </node>
-          <node concept="2OqwBi" id="_UxhR7dm67" role="3eisI7">
-            <node concept="2155sH" id="_UxhR7dlXD" role="2Oq$k0">
-              <ref role="2155sG" node="_UxhR7dlNW" resolve="alt" />
-            </node>
-            <node concept="3Tsc0h" id="_UxhR7dmgP" role="2OqNvi">
-              <ref role="3TtcxE" to="nup6:2frx7BFbKnx" resolve="cases" />
-            </node>
-          </node>
-          <node concept="027og" id="_UxhR7dPQ2" role="3eisIO">
-            <ref role="02LMe" to="nup6:2frx7BFaCIG" resolve="IfExpr" />
-            <node concept="027rt" id="_UxhR7dPQ7" role="02LM9">
-              <ref role="027rv" to="nup6:2frx7BFaCKu" resolve="cond" />
-              <node concept="1XuIBW" id="_UxhR7ev4Z" role="027rp">
-                <node concept="2OqwBi" id="_UxhR7eve2" role="1XuIBT">
-                  <node concept="3ejtyT" id="_UxhR7ev55" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="_UxhR7evsJ" role="2OqNvi">
-                    <ref role="3Tt5mk" to="nup6:2frx7BFbAoB" resolve="cond" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="027rt" id="_UxhR7evBS" role="02LM9">
-              <ref role="027rv" to="nup6:2frx7BFaCKx" resolve="thenPart" />
-              <node concept="1XuIBW" id="_UxhR7evHw" role="027rp">
-                <node concept="2OqwBi" id="_UxhR7evQz" role="1XuIBT">
-                  <node concept="3ejtyT" id="_UxhR7evHA" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="_UxhR7ew4y" role="2OqNvi">
-                    <ref role="3Tt5mk" to="nup6:2frx7BFbAoE" resolve="val" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="027rt" id="_UxhR7ewiA" role="02LM9">
-              <ref role="027rv" to="nup6:2frx7BFaCKA" resolve="elsePart" />
-              <node concept="027og" id="_UxhR7jx2H" role="027rp">
-                <ref role="02LMe" to="nup6:2frx7BFaCNF" resolve="ElsePart" />
-                <node concept="027rt" id="_UxhR7jx2M" role="02LM9">
-                  <ref role="027rv" to="nup6:2frx7BFaCO7" resolve="expr" />
-                  <node concept="3eg8dN" id="_UxhR7jx2R" role="027rp" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2OrE70" id="_UxhR7lqFx" role="02uzr" />
   </node>
   <node concept="02vhO" id="3JPN2vWi3AW">

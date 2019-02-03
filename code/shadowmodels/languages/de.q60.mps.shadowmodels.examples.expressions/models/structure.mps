@@ -155,41 +155,6 @@
       <ref role="20lvS9" node="2frx7BFaCI8" resolve="Arg" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2frx7BFbsIO">
-    <property role="EcuMT" value="2583804470398667700" />
-    <property role="TrG5h" value="AltExpr" />
-    <property role="34LRSv" value="alt" />
-    <property role="3GE5qa" value="cond" />
-    <ref role="1TJDcQ" node="2frx7BFaCHD" resolve="Expr" />
-    <node concept="1TJgyj" id="2frx7BFbKnx" role="1TKVEi">
-      <property role="IQ2ns" value="2583804470398748129" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="cases" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2frx7BFbAob" resolve="AltCase" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2frx7BFbAob">
-    <property role="EcuMT" value="2583804470398707211" />
-    <property role="TrG5h" value="AltCase" />
-    <property role="34LRSv" value="case" />
-    <property role="3GE5qa" value="cond" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2frx7BFbAoB" role="1TKVEi">
-      <property role="IQ2ns" value="2583804470398707239" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="cond" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2frx7BFaCHD" resolve="Expr" />
-    </node>
-    <node concept="1TJgyj" id="2frx7BFbAoE" role="1TKVEi">
-      <property role="IQ2ns" value="2583804470398707242" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="val" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2frx7BFaCHD" resolve="Expr" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3JPN2vWhXdY">
     <property role="EcuMT" value="4320583889640215422" />
     <property role="TrG5h" value="Program" />
@@ -240,7 +205,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3JPN2vWmI1C">
-    <property role="EcuMT" value="4320583889641463912" />
+    <property role="EcuMT" value="7818310780750182400" />
     <property role="3GE5qa" value="types" />
     <property role="TrG5h" value="IntType" />
     <property role="34LRSv" value="int" />

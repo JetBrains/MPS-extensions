@@ -30,13 +30,6 @@
       <concept id="2583804470398454664" name="de.q60.mps.shadowmodels.examples.expressions.structure.Arg" flags="ng" index="38WgZL">
         <child id="4320583889641463974" name="type" index="37FMM1" />
       </concept>
-      <concept id="2583804470398707211" name="de.q60.mps.shadowmodels.examples.expressions.structure.AltCase" flags="ng" index="38Xu9M">
-        <child id="2583804470398707242" name="val" index="38Xu9j" />
-        <child id="2583804470398707239" name="cond" index="38Xu9u" />
-      </concept>
-      <concept id="2583804470398667700" name="de.q60.mps.shadowmodels.examples.expressions.structure.AltExpr" flags="ng" index="38X$Zd">
-        <child id="2583804470398748129" name="cases" index="38X86o" />
-      </concept>
       <concept id="2583804470398611321" name="de.q60.mps.shadowmodels.examples.expressions.structure.ArgRef" flags="ng" index="38XQG0">
         <reference id="2583804470398611349" name="arg" index="38XQJG" />
       </concept>
@@ -55,6 +48,13 @@
       <concept id="1667935720930234148" name="de.q60.mps.shadowmodels.examples.expressions.structure.PlusExpr" flags="ng" index="1H7JQn" />
     </language>
     <language id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="de.q60.mps.shadowmodels.examples.expext">
+      <concept id="2583804470398707211" name="" flags="ng" index="38Xu9M">
+        <child id="2583804470398707242" name="" index="38Xu9j" />
+        <child id="2583804470398707239" name="" index="38Xu9u" />
+      </concept>
+      <concept id="2583804470398667700" name="" flags="ng" index="38X$Zd">
+        <child id="2583804470398748129" name="" index="38X86o" />
+      </concept>
       <concept id="1667935720929568683" name="de.q60.mps.shadowmodels.examples.expext.structure.Blubber" flags="ng" index="1H59ko" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -67,17 +67,27 @@
     <property role="TrG5h" value="Example" />
     <node concept="37GxwB" id="3JPN2vWiLrB" role="37GxYA">
       <property role="TrG5h" value="const1" />
-      <node concept="1H7JQn" id="1s_GFdUivtg" role="37Gxwy">
-        <node concept="1H7JQn" id="1s_GFdUivth" role="1H5NIF">
-          <node concept="1H2aKs" id="1s_GFdUi7OJ" role="1H5NIF">
-            <property role="1H2aK3" value="10" />
+      <node concept="1H7JQn" id="1s_GFdUivNJ" role="37Gxwy">
+        <node concept="1H7JQn" id="1s_GFdUivNK" role="1H5NIF">
+          <node concept="1H7JQn" id="1s_GFdUivNL" role="1H5NIF">
+            <node concept="1H7JQn" id="1s_GFdUivNM" role="1H5NIF">
+              <node concept="1H2aKs" id="1s_GFdUi7OJ" role="1H5NIF">
+                <property role="1H2aK3" value="10" />
+              </node>
+              <node concept="1H2aKs" id="1s_GFdUitZx" role="1H5NID">
+                <property role="1H2aK3" value="1" />
+              </node>
+            </node>
+            <node concept="1H2aKs" id="1s_GFdUivtD" role="1H5NID">
+              <property role="1H2aK3" value="2" />
+            </node>
           </node>
-          <node concept="1H2aKs" id="1s_GFdUitZx" role="1H5NID">
+          <node concept="1H2aKs" id="1s_GFdUivNr" role="1H5NID">
             <property role="1H2aK3" value="1" />
           </node>
         </node>
-        <node concept="1H2aKs" id="1s_GFdUivtD" role="1H5NID">
-          <property role="1H2aK3" value="2" />
+        <node concept="1H2aKs" id="1s_GFdUivOi" role="1H5NID">
+          <property role="1H2aK3" value="4" />
         </node>
       </node>
     </node>

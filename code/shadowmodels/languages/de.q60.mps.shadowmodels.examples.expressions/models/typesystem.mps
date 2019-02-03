@@ -109,5 +109,31 @@
       <ref role="1YaFvo" to="nup6:1s_GFdUbhUJ" resolve="NumLit" />
     </node>
   </node>
+  <node concept="1YbPZF" id="1_cQhkfL2Nd">
+    <property role="TrG5h" value="typeof_MaybeLit" />
+    <property role="3GE5qa" value="types" />
+    <node concept="3clFbS" id="1_cQhkfL2Ne" role="18ibNy">
+      <node concept="1Z5TYs" id="1_cQhkfL2Wz" role="3cqZAp">
+        <node concept="mw_s8" id="1_cQhkfL2WZ" role="1ZfhKB">
+          <node concept="2pJPEk" id="1_cQhkfL2WV" role="mwGJk">
+            <node concept="2pJPED" id="1_cQhkfL2Xd" role="2pJPEn">
+              <ref role="2pJxaS" to="nup6:3JPN2vWmI27" resolve="BoolType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="1_cQhkfL2WA" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1_cQhkfL2Nk" role="mwGJk">
+            <node concept="1YBJjd" id="1_cQhkfL2NB" role="1Z2MuG">
+              <ref role="1YBMHb" node="1_cQhkfL2Ng" resolve="maybeLit" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1_cQhkfL2Ng" role="1YuTPh">
+      <property role="TrG5h" value="maybeLit" />
+      <ref role="1YaFvo" to="nup6:1_cQhkfL2Mk" resolve="MaybeLit" />
+    </node>
+  </node>
 </model>
 

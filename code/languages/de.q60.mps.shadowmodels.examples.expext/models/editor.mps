@@ -10,12 +10,15 @@
   <imports>
     <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(de.q60.mps.shadowmodels.examples.expressions.structure)" />
     <import index="r8g4" ref="r:bba4935b-e963-4377-96f6-d91b7da9aab3(de.q60.mps.shadowmodels.examples.expext.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
@@ -28,10 +31,16 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414949600" name="jetbrains.mps.lang.editor.structure.AutoDeletableStyleClassItem" flags="ln" index="VPRnO" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -46,6 +55,7 @@
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
+      <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
@@ -830,6 +840,58 @@
         <ref role="1NtTu8" to="r8g4:3DYDRw0K4cg" resolve="expr" />
         <node concept="VPRnO" id="3DYDRw0OuPY" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1_cQhkfIO2h">
+    <property role="3GE5qa" value="enum" />
+    <ref role="1XX52x" to="r8g4:1_cQhkfIO1O" resolve="EnumLit" />
+    <node concept="1kIj98" id="1_cQhkfIO2j" role="2wV5jI">
+      <node concept="3F0A7n" id="1_cQhkfIO2r" role="1kIj9b">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1_cQhkfIO2V">
+    <property role="3GE5qa" value="enum" />
+    <ref role="1XX52x" to="r8g4:1_cQhkfIO1K" resolve="EnumDecl" />
+    <node concept="3EZMnI" id="1_cQhkfIO31" role="2wV5jI">
+      <node concept="2iRfu4" id="1_cQhkfIO32" role="2iSdaV" />
+      <node concept="3F0ifn" id="1_cQhkfIO2X" role="3EZMnx">
+        <property role="3F0ifm" value="enum" />
+      </node>
+      <node concept="3F0A7n" id="1_cQhkfIO3g" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1_cQhkfIO3t" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="3F2HdR" id="1_cQhkfIO3I" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="r8g4:1_cQhkfIO2v" resolve="literals" />
+        <node concept="2iRfu4" id="1_cQhkfIO3K" role="2czzBx" />
+        <node concept="3F0ifn" id="1_cQhkfIO3V" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <node concept="VPxyj" id="1_cQhkfIO3Y" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1_cQhkfIO4k" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1_cQhkfIO53">
+    <property role="3GE5qa" value="enum" />
+    <ref role="1XX52x" to="r8g4:1_cQhkfIO4A" resolve="EnumLitRef" />
+    <node concept="1iCGBv" id="1_cQhkfIO55" role="2wV5jI">
+      <ref role="1NtTu8" to="r8g4:1_cQhkfIO4B" resolve="lit" />
+      <node concept="1sVBvm" id="1_cQhkfIO57" role="1sWHZn">
+        <node concept="3F0A7n" id="1_cQhkfIO5h" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>

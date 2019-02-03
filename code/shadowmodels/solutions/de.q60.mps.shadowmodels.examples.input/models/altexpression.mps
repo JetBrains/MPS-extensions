@@ -8,6 +8,9 @@
   <imports />
   <registry>
     <language id="1ab7bfac-29d6-4772-a483-50110408ac43" name="de.q60.mps.shadowmodels.examples.expressions">
+      <concept id="1823070633659905357" name="de.q60.mps.shadowmodels.examples.expressions.structure.ConstantRef" flags="ng" index="mWALo">
+        <reference id="1823070633659905358" name="const" index="mWALr" />
+      </concept>
       <concept id="4320583889641463912" name="de.q60.mps.shadowmodels.examples.expressions.structure.BoolType" flags="ng" index="37FMLf" />
       <concept id="4320583889640215552" name="de.q60.mps.shadowmodels.examples.expressions.structure.Constant" flags="ng" index="37GxwB">
         <child id="4320583889640215557" name="value" index="37Gxwy" />
@@ -48,6 +51,13 @@
       <concept id="1667935720930234148" name="de.q60.mps.shadowmodels.examples.expressions.structure.PlusExpr" flags="ng" index="1H7JQn" />
     </language>
     <language id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="de.q60.mps.shadowmodels.examples.expext">
+      <concept id="1823070633659679014" name="de.q60.mps.shadowmodels.examples.expext.structure.EnumLitRef" flags="ng" index="mXTwN">
+        <reference id="1823070633659679015" name="lit" index="mXTwM" />
+      </concept>
+      <concept id="1823070633659678836" name="de.q60.mps.shadowmodels.examples.expext.structure.EnumLit" flags="ng" index="mXT_x" />
+      <concept id="1823070633659678832" name="de.q60.mps.shadowmodels.examples.expext.structure.EnumDecl" flags="ng" index="mXT__">
+        <child id="1823070633659678879" name="literals" index="mXTAa" />
+      </concept>
       <concept id="4214990435115877128" name="de.q60.mps.shadowmodels.examples.expext.structure.DecTab" flags="ng" index="UJIhK">
         <child id="4214990435116839854" name="default" index="UG5jm" />
         <child id="4214990435115877193" name="contents" index="UJIgL" />
@@ -80,6 +90,18 @@
   </registry>
   <node concept="37GxXp" id="3JPN2vWhXDA">
     <property role="TrG5h" value="Example" />
+    <node concept="mXT__" id="1_cQhkfJ7F4" role="37GxYA">
+      <property role="TrG5h" value="Color" />
+      <node concept="mXT_x" id="1_cQhkfJ8oc" role="mXTAa">
+        <property role="TrG5h" value="red" />
+      </node>
+      <node concept="mXT_x" id="1_cQhkfJ8og" role="mXTAa">
+        <property role="TrG5h" value="green" />
+      </node>
+      <node concept="mXT_x" id="1_cQhkfJ8om" role="mXTAa">
+        <property role="TrG5h" value="yellow" />
+      </node>
+    </node>
     <node concept="37GxwB" id="3JPN2vWiLrB" role="37GxYA">
       <property role="TrG5h" value="const1" />
       <node concept="1H7JQn" id="1s_GFdUivNJ" role="37Gxwy">
@@ -190,6 +212,12 @@
         <node concept="37FMLf" id="1s_GFdUbvDi" role="37FMM1" />
       </node>
     </node>
+    <node concept="37GxwB" id="1_cQhkfJ8tg" role="37GxYA">
+      <property role="TrG5h" value="temp" />
+      <node concept="mXTwN" id="1_cQhkfJsJ3" role="37Gxwy">
+        <ref role="mXTwM" node="1_cQhkfJ8og" resolve="green" />
+      </node>
+    </node>
     <node concept="38WgWO" id="3JPN2vWjqnt" role="37GxYA">
       <property role="TrG5h" value="f2" />
       <node concept="38WgZL" id="3JPN2vWjqn_" role="38WgZu">
@@ -197,8 +225,13 @@
         <node concept="37FMLf" id="3JPN2vWmTkE" role="37FMM1" />
       </node>
       <node concept="1H2x4Y" id="1s_GFdUc5zt" role="38WgZW">
-        <node concept="1H2aKs" id="1s_GFdUc$SO" role="1H2x4X">
-          <property role="1H2aK3" value="10" />
+        <node concept="1H7JQn" id="1_cQhkfK8nR" role="1H2x4X">
+          <node concept="mWALo" id="1_cQhkfK8oI" role="1H5NID">
+            <ref role="mWALr" node="3JPN2vWiLrB" resolve="const1" />
+          </node>
+          <node concept="1H2aKs" id="1s_GFdUc$SO" role="1H5NIF">
+            <property role="1H2aK3" value="10" />
+          </node>
         </node>
         <node concept="1H2aKs" id="1s_GFdUc5zZ" role="1H2x4X">
           <property role="1H2aK3" value="20" />

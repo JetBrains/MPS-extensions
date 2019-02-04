@@ -77,6 +77,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2frx7BFbAob" resolve="AltCase" />
     </node>
+    <node concept="PrWs8" id="4vHhYRO2dEF" role="PzmwI">
+      <ref role="PrY4T" to="nup6:4vHhYRO2dEE" resolve="IBigExpr" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3DYDRw0K4c8">
     <property role="TrG5h" value="DecTab" />
@@ -112,6 +115,9 @@
       <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="4214990435116839854" />
       <ref role="20lvS9" to="nup6:2frx7BFaCHD" resolve="Expr" />
+    </node>
+    <node concept="PrWs8" id="4vHhYRO2iBs" role="PzmwI">
+      <ref role="PrY4T" to="nup6:4vHhYRO2dEE" resolve="IBigExpr" />
     </node>
   </node>
   <node concept="1TIwiD" id="3DYDRw0K4ca">

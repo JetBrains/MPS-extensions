@@ -24,9 +24,6 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
-      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
@@ -115,7 +112,7 @@
         <child id="1382135219955669997" name="then" index="3MbsX5" />
         <child id="1382135219955670000" name="else" index="3MbsXo" />
       </concept>
-      <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.CopyMacro" flags="ng" index="1XuIBW">
+      <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.Duplicate" flags="ng" index="1XuIBW">
         <child id="2573073122887437734" name="sourceQuery" index="1XuIBT" />
       </concept>
       <concept id="8710565405836969859" name="de.q60.mps.shadowmodels.transformation.structure.Transform" flags="ng" index="1Zmyal">
@@ -143,7 +140,7 @@
   <node concept="02vhO" id="1s_GFdUcl0m">
     <property role="TrG5h" value="ExtDesugarings" />
     <node concept="02vpq" id="_UxhR7dlNV" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="altToIf" />
       <node concept="02i3K" id="_UxhR7dlNW" role="02i3f">
         <property role="TrG5h" value="alt" />
         <node concept="02i3D" id="_UxhR7dlNX" role="02i2B">
@@ -203,71 +200,9 @@
     </node>
     <node concept="2OrE70" id="1_cQhkfByd1" role="02uzr" />
     <node concept="2OrE70" id="1_cQhkfBycE" role="02uzr" />
-    <node concept="02vpq" id="1s_GFdUcl0n" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
-      <node concept="02i3K" id="1s_GFdUcl0s" role="02i3f">
-        <property role="TrG5h" value="alt" />
-        <node concept="02i3D" id="1s_GFdUcl12" role="02i2B">
-          <ref role="02i3$" to="r8g4:1s_GFdUciuF" resolve="Blubber" />
-        </node>
-      </node>
-      <node concept="026TG" id="1s_GFdUcl0u" role="026TK">
-        <node concept="027og" id="1s_GFdUclhM" role="026TJ">
-          <ref role="02LMe" to="r8g4:2frx7BFbsIO" resolve="AltExpr" />
-          <node concept="027rt" id="1s_GFdUcliP" role="02LM9">
-            <ref role="027rv" to="r8g4:2frx7BFbKnx" resolve="cases" />
-            <node concept="027og" id="1s_GFdUcljR" role="027rp">
-              <ref role="02LMe" to="r8g4:2frx7BFbAob" resolve="AltCase" />
-              <node concept="027rt" id="1s_GFdUcljX" role="02LM9">
-                <ref role="027rv" to="r8g4:2frx7BFbAoB" resolve="cond" />
-                <node concept="027og" id="1s_GFdUclk4" role="027rp">
-                  <ref role="02LMe" to="nup6:1s_GFdUbhK7" resolve="TrueLit" />
-                </node>
-              </node>
-              <node concept="027rt" id="1s_GFdUclkh" role="02LM9">
-                <ref role="027rv" to="r8g4:2frx7BFbAoE" resolve="val" />
-                <node concept="027og" id="1s_GFdUclkr" role="027rp">
-                  <ref role="02LMe" to="nup6:1s_GFdUbhUJ" resolve="NumLit" />
-                  <node concept="027oh" id="1s_GFdUclkx" role="02LM9">
-                    <ref role="027oj" to="nup6:1s_GFdUbhUK" resolve="value" />
-                    <node concept="3cmrfG" id="1s_GFdUclkI" role="027of">
-                      <property role="3cmrfH" value="42" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="027rt" id="1s_GFdUclkW" role="02LM9">
-            <ref role="027rv" to="r8g4:2frx7BFbKnx" resolve="cases" />
-            <node concept="027og" id="1s_GFdUclkX" role="027rp">
-              <ref role="02LMe" to="r8g4:2frx7BFbAob" resolve="AltCase" />
-              <node concept="027rt" id="1s_GFdUclkY" role="02LM9">
-                <ref role="027rv" to="r8g4:2frx7BFbAoB" resolve="cond" />
-                <node concept="027og" id="1s_GFdUclm$" role="027rp">
-                  <ref role="02LMe" to="nup6:1s_GFdUbhUh" resolve="FalseLit" />
-                </node>
-              </node>
-              <node concept="027rt" id="1s_GFdUcll0" role="02LM9">
-                <ref role="027rv" to="r8g4:2frx7BFbAoE" resolve="val" />
-                <node concept="027og" id="1s_GFdUcll1" role="027rp">
-                  <ref role="02LMe" to="nup6:1s_GFdUbhUJ" resolve="NumLit" />
-                  <node concept="027oh" id="1s_GFdUcll2" role="02LM9">
-                    <ref role="027oj" to="nup6:1s_GFdUbhUK" resolve="value" />
-                    <node concept="3cmrfG" id="1s_GFdUcll3" role="027of">
-                      <property role="3cmrfH" value="33" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2OrE70" id="1_cQhkfGzXd" role="02uzr" />
     <node concept="02vpq" id="1_cQhkfGzTk" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="altToIf" />
       <node concept="02i3K" id="1_cQhkfGzTl" role="02i3f">
         <property role="TrG5h" value="dt" />
         <node concept="02i3D" id="1_cQhkfGzZo" role="02i2B">
@@ -517,7 +452,7 @@
     </node>
     <node concept="2OrE70" id="1_cQhkfK8ux" role="02uzr" />
     <node concept="02vpq" id="1_cQhkfJuml" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="altToIf" />
       <node concept="02i3K" id="1_cQhkfJumw" role="02i3f">
         <node concept="02i3D" id="1_cQhkfJunz" role="02i2B">
           <ref role="02i3$" to="r8g4:1_cQhkfIO1K" resolve="EnumDecl" />
@@ -605,7 +540,7 @@
     <node concept="2OrE70" id="1_cQhkfJume" role="02uzr" />
     <node concept="2OrE70" id="1_cQhkfKyUG" role="02uzr" />
     <node concept="02vpq" id="1_cQhkfJEOO" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="altToIf" />
       <node concept="02i3K" id="1_cQhkfJF1R" role="02i3f">
         <property role="TrG5h" value="l" />
         <node concept="02i3D" id="1_cQhkfJFej" role="02i2B">

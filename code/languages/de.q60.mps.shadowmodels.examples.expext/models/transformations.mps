@@ -140,7 +140,7 @@
   <node concept="02vhO" id="1s_GFdUcl0m">
     <property role="TrG5h" value="ExtDesugarings" />
     <node concept="02vpq" id="_UxhR7dlNV" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="altToIf" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
       <node concept="02i3K" id="_UxhR7dlNW" role="02i3f">
         <property role="TrG5h" value="alt" />
         <node concept="02i3D" id="_UxhR7dlNX" role="02i2B">
@@ -199,10 +199,25 @@
       </node>
     </node>
     <node concept="2OrE70" id="1_cQhkfByd1" role="02uzr" />
-    <node concept="2OrE70" id="1_cQhkfBycE" role="02uzr" />
+    <node concept="2OrE70" id="4vHhYRO3ieQ" role="02uzr" />
+    <node concept="02vpq" id="4vHhYRO3iZV" role="02uzr">
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
+      <node concept="02i3K" id="4vHhYRO3jL4" role="02i3f">
+        <property role="TrG5h" value="o" />
+        <node concept="02i3D" id="4vHhYRO3kw$" role="02i2B">
+          <ref role="02i3$" to="r8g4:4vHhYRO37bf" resolve="OtherwiseLiteral" />
+        </node>
+      </node>
+      <node concept="026TG" id="4vHhYRO3jL6" role="026TK">
+        <node concept="027og" id="4vHhYRO3m1o" role="026TJ">
+          <ref role="02LMe" to="nup6:1s_GFdUbhK7" resolve="TrueLit" />
+        </node>
+      </node>
+    </node>
+    <node concept="2OrE70" id="4vHhYRO3har" role="02uzr" />
     <node concept="2OrE70" id="1_cQhkfGzXd" role="02uzr" />
     <node concept="02vpq" id="1_cQhkfGzTk" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="altToIf" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
       <node concept="02i3K" id="1_cQhkfGzTl" role="02i3f">
         <property role="TrG5h" value="dt" />
         <node concept="02i3D" id="1_cQhkfGzZo" role="02i2B">
@@ -452,7 +467,7 @@
     </node>
     <node concept="2OrE70" id="1_cQhkfK8ux" role="02uzr" />
     <node concept="02vpq" id="1_cQhkfJuml" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="altToIf" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
       <node concept="02i3K" id="1_cQhkfJumw" role="02i3f">
         <node concept="02i3D" id="1_cQhkfJunz" role="02i2B">
           <ref role="02i3$" to="r8g4:1_cQhkfIO1K" resolve="EnumDecl" />
@@ -540,7 +555,7 @@
     <node concept="2OrE70" id="1_cQhkfJume" role="02uzr" />
     <node concept="2OrE70" id="1_cQhkfKyUG" role="02uzr" />
     <node concept="02vpq" id="1_cQhkfJEOO" role="02uzr">
-      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="altToIf" />
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
       <node concept="02i3K" id="1_cQhkfJF1R" role="02i3f">
         <property role="TrG5h" value="l" />
         <node concept="02i3D" id="1_cQhkfJFej" role="02i2B">

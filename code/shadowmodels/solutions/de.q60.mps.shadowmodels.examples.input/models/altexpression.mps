@@ -58,6 +58,7 @@
       <concept id="1823070633659678832" name="de.q60.mps.shadowmodels.examples.expext.structure.EnumDecl" flags="ng" index="mXT__">
         <child id="1823070633659678879" name="literals" index="mXTAa" />
       </concept>
+      <concept id="5182877833500586703" name="de.q60.mps.shadowmodels.examples.expext.structure.OtherwiseLiteral" flags="ng" index="2NSjky" />
       <concept id="4214990435115877128" name="de.q60.mps.shadowmodels.examples.expext.structure.DecTab" flags="ng" index="UJIhK">
         <child id="4214990435116839854" name="default" index="UG5jm" />
         <child id="4214990435115877193" name="contents" index="UJIgL" />
@@ -191,7 +192,7 @@
           </node>
         </node>
         <node concept="38Xu9M" id="3JPN2vWjiG1" role="38X86o">
-          <node concept="myfm1" id="1_cQhkfLvLJ" role="38Xu9u" />
+          <node concept="2NSjky" id="4vHhYRO4RJS" role="38Xu9u" />
           <node concept="38XQG0" id="1s_GFdUbvDs" role="38Xu9j">
             <ref role="38XQJG" node="1s_GFdUbvDh" resolve="b" />
           </node>

@@ -423,5 +423,31 @@
       <ref role="1YaFvo" to="r8g4:3DYDRw0K4c8" resolve="DecTab" />
     </node>
   </node>
+  <node concept="1YbPZF" id="4vHhYRO37c7">
+    <property role="TrG5h" value="typeof_OtherwiseExpr" />
+    <property role="3GE5qa" value="cond" />
+    <node concept="3clFbS" id="4vHhYRO37c8" role="18ibNy">
+      <node concept="1Z5TYs" id="4vHhYRO37rI" role="3cqZAp">
+        <node concept="mw_s8" id="4vHhYRO37s2" role="1ZfhKB">
+          <node concept="2pJPEk" id="4vHhYRO37rY" role="mwGJk">
+            <node concept="2pJPED" id="4vHhYRO37sd" role="2pJPEn">
+              <ref role="2pJxaS" to="nup6:3JPN2vWmI27" resolve="BoolType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4vHhYRO37rL" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4vHhYRO37ce" role="mwGJk">
+            <node concept="1YBJjd" id="4vHhYRO37e4" role="1Z2MuG">
+              <ref role="1YBMHb" node="4vHhYRO37ca" resolve="otherwise" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4vHhYRO37ca" role="1YuTPh">
+      <property role="TrG5h" value="otherwise" />
+      <ref role="1YaFvo" to="r8g4:4vHhYRO37bf" resolve="OtherwiseLiteral" />
+    </node>
+  </node>
 </model>
 

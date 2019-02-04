@@ -110,7 +110,7 @@
       <concept id="2969665195339091237" name="de.q60.mps.shadowmodels.transformation.structure.TransformationInclude" flags="ng" index="3RclfB">
         <reference id="2969665195339091327" name="transformation" index="3RcleX" />
       </concept>
-      <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.CopyMacro" flags="ng" index="1XuIBW">
+      <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.Duplicate" flags="ng" index="1XuIBW">
         <child id="2573073122887437734" name="sourceQuery" index="1XuIBT" />
       </concept>
       <concept id="8710565405836969859" name="de.q60.mps.shadowmodels.transformation.structure.Transform" flags="ng" index="1Zmyal">
@@ -162,7 +162,7 @@
   <node concept="02vhO" id="2frx7BFbW5R">
     <property role="TrG5h" value="Desugar" />
     <node concept="02vpq" id="5o5qH$CQKdO" role="02uzr">
-      <property role="TrG5h" value="altToIf" />
+      <property role="TrG5h" value="desugar" />
       <property role="1YBnZf" value="true" />
       <node concept="02i3K" id="5o5qH$CQKdP" role="02i3f">
         <property role="TrG5h" value="alt" />

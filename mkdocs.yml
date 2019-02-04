@@ -17,3 +17,4 @@ pages:
 - Extensions:
   - Diagrams: extensions/diagrams.md
   - Node Versioning: extensions/node-versioning.md
+  - Shadow Models: extensions/shadowmodels.md

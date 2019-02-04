@@ -1,4 +1,4 @@
-# Shadowmodels
+# Shadow Models
 A shadow model is a non-editable model derived from existing models by model-to-model transformations. It is incrementally maintained while editing the input model.
 
 Transformations are described in a special language designed to support incremental updates of the output model.

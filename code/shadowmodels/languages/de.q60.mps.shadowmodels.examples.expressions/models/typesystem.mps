@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -26,9 +29,16 @@
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
       </concept>
+      <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
+        <child id="1175517851849" name="errorString" index="2MkJ7o" />
+      </concept>
+      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
+        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
+      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
+      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
@@ -133,6 +143,23 @@
     <node concept="1YaCAy" id="1_cQhkfL2Ng" role="1YuTPh">
       <property role="TrG5h" value="maybeLit" />
       <ref role="1YaFvo" to="nup6:1_cQhkfL2Mk" resolve="MaybeLit" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="4vHhYRO4RKz">
+    <property role="TrG5h" value="check_NeverLit" />
+    <node concept="3clFbS" id="4vHhYRO4RK$" role="18ibNy">
+      <node concept="2MkqsV" id="4vHhYRO4RKE" role="3cqZAp">
+        <node concept="Xl_RD" id="4vHhYRO4RKQ" role="2MkJ7o">
+          <property role="Xl_RC" value="this should never occur in a program" />
+        </node>
+        <node concept="1YBJjd" id="4vHhYRO4RM7" role="2OEOjV">
+          <ref role="1YBMHb" node="4vHhYRO4RKA" resolve="neverLit" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4vHhYRO4RKA" role="1YuTPh">
+      <property role="TrG5h" value="neverLit" />
+      <ref role="1YaFvo" to="nup6:1s_GFdUbvEB" resolve="NeverLit" />
     </node>
   </node>
 </model>

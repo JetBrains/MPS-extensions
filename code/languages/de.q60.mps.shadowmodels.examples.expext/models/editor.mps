@@ -239,12 +239,6 @@
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
     </language>
   </registry>
-  <node concept="24kQdi" id="1s_GFdUciv5">
-    <ref role="1XX52x" to="r8g4:1s_GFdUciuF" resolve="Blubber" />
-    <node concept="3F0ifn" id="1s_GFdUciv7" role="2wV5jI">
-      <property role="3F0ifm" value="blubber" />
-    </node>
-  </node>
   <node concept="24kQdi" id="2frx7BFbAp8">
     <property role="3GE5qa" value="cond" />
     <ref role="1XX52x" to="r8g4:2frx7BFbAob" resolve="AltCase" />

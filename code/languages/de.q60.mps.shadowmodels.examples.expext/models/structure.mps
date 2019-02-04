@@ -43,12 +43,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="1s_GFdUciuF">
-    <property role="EcuMT" value="1667935720929568683" />
-    <property role="TrG5h" value="Blubber" />
-    <property role="34LRSv" value="blubber" />
-    <ref role="1TJDcQ" to="nup6:2frx7BFaCHD" resolve="Expr" />
-  </node>
   <node concept="1TIwiD" id="2frx7BFbAob">
     <property role="EcuMT" value="2583804470398707211" />
     <property role="TrG5h" value="AltCase" />

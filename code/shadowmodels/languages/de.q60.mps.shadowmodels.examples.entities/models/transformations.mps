@@ -100,16 +100,6 @@
         <child id="9170566427534794950" name="parameterValues" index="214sll" />
       </concept>
       <concept id="9170566427534812277" name="de.q60.mps.shadowmodels.transformation.structure.ContextNodeExpression" flags="ng" index="214o7A" />
-      <concept id="9155712576881703759" name="de.q60.mps.shadowmodels.transformation.structure.ParentRelationRule" flags="ng" index="t$THr">
-        <child id="9155712576881731411" name="child" index="t$Kt7" />
-        <child id="9155712576881985422" name="variables" index="tFMuq" />
-      </concept>
-      <concept id="9155712576882073679" name="de.q60.mps.shadowmodels.transformation.structure.ParentRelationVariableReference" flags="ng" index="tF$1r">
-        <reference id="9155712576882073690" name="decl" index="tF$1e" />
-      </concept>
-      <concept id="9155712576881985420" name="de.q60.mps.shadowmodels.transformation.structure.ParentRelationVariableDeclaration" flags="ng" index="tFMuo">
-        <child id="9155712576883119794" name="type" index="tJBqA" />
-      </concept>
       <concept id="7475940883580517769" name="de.q60.mps.shadowmodels.transformation.structure.TNullType" flags="ng" index="2K7hOm" />
       <concept id="5373338300158985562" name="de.q60.mps.shadowmodels.transformation.structure.LocalLabel" flags="ng" index="2OqUJG">
         <child id="5373338300158985572" name="node" index="2OqUJi" />
@@ -501,20 +491,6 @@
               </node>
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-    <node concept="t$THr" id="6uZS9ZnIvRh" role="02uzr">
-      <node concept="tFMuo" id="6uZS9ZnIw3l" role="tFMuq">
-        <property role="TrG5h" value="c" />
-        <node concept="02i3D" id="6uZS9ZnIw3t" role="tJBqA">
-          <ref role="02i3$" to="tn36:TC$M5wSnRe" resolve="Entity" />
-        </node>
-      </node>
-      <node concept="214gnc" id="6uZS9ZnIvRj" role="t$Kt7">
-        <ref role="1YEVMl" node="5o5qH$CQKdg" resolve="toJava" />
-        <node concept="tF$1r" id="6uZS9ZnIw3_" role="214sll">
-          <ref role="tF$1e" node="6uZS9ZnIw3l" resolve="c" />
         </node>
       </node>
     </node>

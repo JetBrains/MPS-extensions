@@ -789,66 +789,6 @@
       <ref role="1YaFvo" to="oyp0:4EhVFrZoNdD" resolve="MapMacro" />
     </node>
   </node>
-  <node concept="1YbPZF" id="7WfC1hyCT9T">
-    <property role="TrG5h" value="typeof_ParentRelationVariableReference" />
-    <property role="3GE5qa" value="parentRelation" />
-    <node concept="3clFbS" id="7WfC1hyCT9U" role="18ibNy">
-      <node concept="1Z5TYs" id="7WfC1hyCTh2" role="3cqZAp">
-        <node concept="mw_s8" id="7WfC1hyCThe" role="1ZfhKB">
-          <node concept="1Z2H0r" id="7WfC1hyCTha" role="mwGJk">
-            <node concept="2OqwBi" id="7WfC1hyCTpy" role="1Z2MuG">
-              <node concept="1YBJjd" id="7WfC1hyCThs" role="2Oq$k0">
-                <ref role="1YBMHb" node="7WfC1hyCT9W" resolve="n" />
-              </node>
-              <node concept="3TrEf2" id="7WfC1hyCTys" role="2OqNvi">
-                <ref role="3Tt5mk" to="oyp0:7WfC1hyCu1q" resolve="decl" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="7WfC1hyCTh5" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7WfC1hyCTa6" role="mwGJk">
-            <node concept="1YBJjd" id="7WfC1hyCTaj" role="1Z2MuG">
-              <ref role="1YBMHb" node="7WfC1hyCT9W" resolve="n" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7WfC1hyCT9W" role="1YuTPh">
-      <property role="TrG5h" value="n" />
-      <ref role="1YaFvo" to="oyp0:7WfC1hyCu1f" resolve="ParentRelationVariableReference" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="7WfC1hyHqsV">
-    <property role="TrG5h" value="typeof_ParentRelationVariableDeclaration" />
-    <property role="3GE5qa" value="parentRelation" />
-    <node concept="3clFbS" id="7WfC1hyHqsW" role="18ibNy">
-      <node concept="1Z5TYs" id="7WfC1hyHq$8" role="3cqZAp">
-        <node concept="mw_s8" id="7WfC1hyHq$i" role="1ZfhKB">
-          <node concept="2OqwBi" id="7WfC1hyHqGp" role="mwGJk">
-            <node concept="1YBJjd" id="7WfC1hyHq$g" role="2Oq$k0">
-              <ref role="1YBMHb" node="7WfC1hyHqsY" resolve="n" />
-            </node>
-            <node concept="3TrEf2" id="7WfC1hyHqPk" role="2OqNvi">
-              <ref role="3Tt5mk" to="oyp0:7WfC1hyGtqM" resolve="type" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="7WfC1hyHq$b" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7WfC1hyHqt5" role="mwGJk">
-            <node concept="1YBJjd" id="7WfC1hyHqti" role="1Z2MuG">
-              <ref role="1YBMHb" node="7WfC1hyHqsY" resolve="n" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7WfC1hyHqsY" role="1YuTPh">
-      <property role="TrG5h" value="n" />
-      <ref role="1YaFvo" to="oyp0:7WfC1hyC8uc" resolve="ParentRelationVariableDeclaration" />
-    </node>
-  </node>
   <node concept="2sgARr" id="7WfC1hyHRkT">
     <property role="TrG5h" value="supertypesof_ConceptType_SNodeType" />
     <node concept="3clFbS" id="7WfC1hyHRkU" role="2sgrp5">
@@ -2333,7 +2273,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="56YPHTonnzH">
-    <property role="TrG5h" value="typeof_CopyMacro" />
+    <property role="TrG5h" value="typeof_Duplicate" />
     <property role="3GE5qa" value="macros.copy" />
     <node concept="3clFbS" id="56YPHTonnzI" role="18ibNy">
       <node concept="1Z5TYs" id="56YPHTonnJe" role="3cqZAp">
@@ -2360,7 +2300,7 @@
     </node>
     <node concept="1YaCAy" id="56YPHTonnzK" role="1YuTPh">
       <property role="TrG5h" value="n" />
-      <ref role="1YaFvo" to="oyp0:2ePp5XuNSQz" resolve="CopyMacro" />
+      <ref role="1YaFvo" to="oyp0:2ePp5XuNSQz" resolve="Duplicate" />
     </node>
   </node>
   <node concept="1YbPZF" id="56YPHTono_h">

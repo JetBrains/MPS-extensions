@@ -9,7 +9,7 @@ site_url: https://jetbrains.github.io/MPS-extensions/
 
 repo_url: https://github.com/jetbrains/mps-extensions
 
-pages:
+nav:
 - Home: index.md
 - Building: building.md
 - Contributing: contributing.md

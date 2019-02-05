@@ -1,1 +1,1 @@
-Documentation moved to [docs/extensions/shadowmodels.md](../../docs/extensions/shadowmodels.md)
+Documentation moved to [https://jetbrains.github.io/MPS-extensions/extensions/shadowmodels/](https://jetbrains.github.io/MPS-extensions/extensions/shadowmodels/)

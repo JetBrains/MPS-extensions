@@ -31,6 +31,36 @@ The right side is similar to
 [light quotations](https://confluence.jetbrains.com/display/MPSD20183/Quotations#Quotations-Lightquotations%28quotationbuilders%29)
 instead of using the concrete syntax of the target language.
 
+## Repository Meta Model
+
+When you implement transformations there is an important difference when working with modules and models.
+In the world of shadow models there is only one root node concept `Repository`.
+Modules and models are descendants of this single root node.
+What in MPS is a root node is here just a child of a node of concept `Model`.
+When you ask a root node for its parent you will get the `Model` node.
+
+This has the advantage that you can define transformations on modules and models in the same way as on any other node.
+You can query them using the more convenient smodel language instead of the Java API.
+
+You have to keep in mind that asking a node for its root node will always return the repository.
+If you need to know the model of a node you have to write `node.ancestor<Model>` instead.
+`node.getModel()` will always return null.
+
+You can find the whole meta model in the language `de.q60.mps.shadowmodels.runtimelang`.
+Here is a summary of it:
+
+```
+Repository
+  modules: Module[0..n]
+  
+Module implements INamedConcept
+  id: string
+  models: Model[0..n]
+  
+Model implements INamedConcept
+  rootNodes: BaseConcept[0..n]
+```
+
 ## Forks
 
 Shadow models allows you to write transformations in two different styles.

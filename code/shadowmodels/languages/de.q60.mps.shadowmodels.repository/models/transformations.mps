@@ -39,7 +39,7 @@
   <node concept="02vhO" id="7YhLqbpfNzd">
     <property role="TrG5h" value="ShadowRepository" />
     <node concept="02vpq" id="7YhLqbpfNME" role="02uzr">
-      <property role="TrG5h" value="$Repository" />
+      <property role="TrG5h" value="Repository" />
       <node concept="026TG" id="7YhLqbpfNNb" role="026TK">
         <node concept="027og" id="7YhLqbpfNNh" role="026TJ">
           <ref role="02LMe" to="dj5d:qmkA5fOskm" resolve="Repository" />

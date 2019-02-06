@@ -61,6 +61,29 @@ Model implements INamedConcept
   rootNodes: BaseConcept[0..n]
 ```
 
+## Shadow Repository
+
+You can make the output of your transformations appear in the project explorer as shown in the image below.
+
+![Shadow repository in the project view](shadowmodels/shadow-repository-project-view.png)
+
+By default this is disabled.
+You can activate it by choosing **Tools > Activate Shadow Repository** in the main menu.
+
+To add your own output you have to define a transformation that contributes to the predefined transformation
+**ShadowRepository.Repository** in the transformations aspect of the language *de.q60.mps.shadowmodels.repository*.
+
+Here is an example that you can find in the language *de.q60.mps.shadowmodels.examples.statemachine*:
+```
+transformation t1 contributes to ShadowRepository.Repository (i0: Repository)
+-> o0: Repository {
+         modules: Module {
+           name: "examples.statemachines" 
+           models: map _.modules.models.where(...) -> call outputModel _  
+         } 
+       }
+```
+
 ## Forks
 
 Shadow models allows you to write transformations in two different styles.

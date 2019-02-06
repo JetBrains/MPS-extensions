@@ -330,5 +330,13 @@
     <property role="EcuMT" value="5182877833500351146" />
     <property role="TrG5h" value="IBigExpr" />
   </node>
+  <node concept="1TIwiD" id="4vHhYROhnJX">
+    <property role="EcuMT" value="5182877833504324605" />
+    <property role="TrG5h" value="EmptyDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4vHhYROhnJY" role="PzmwI">
+      <ref role="PrY4T" node="3JPN2vWhXe0" resolve="IDeclaration" />
+    </node>
+  </node>
 </model>
 

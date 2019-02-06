@@ -9,7 +9,6 @@
   <imports>
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="jwvb" ref="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)" />
-    <import index="r8g4" ref="r:bba4935b-e963-4377-96f6-d91b7da9aab3(de.q60.mps.shadowmodels.examples.expext.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(de.q60.mps.shadowmodels.examples.expressions.structure)" implicit="true" />
@@ -166,13 +165,13 @@
       <property role="1YBnZf" value="true" />
       <node concept="02i3K" id="5o5qH$CQKdP" role="02i3f">
         <property role="TrG5h" value="alt" />
-        <node concept="02i3D" id="3JPN2vWiD91" role="02i2B">
-          <ref role="02i3$" to="nup6:2frx7BFaCHD" resolve="Expr" />
+        <node concept="02i3D" id="27vxCXg$zV2" role="02i2B">
+          <ref role="02i3$" to="tpck:gw2VY9q" resolve="BaseConcept" />
         </node>
       </node>
       <node concept="026TG" id="5o5qH$CQKdR" role="026TK">
-        <node concept="027og" id="56YPHTonC$p" role="026TJ">
-          <ref role="02LMe" to="nup6:2frx7BFaCHD" resolve="Expr" />
+        <node concept="027og" id="27vxCXg$zVa" role="026TJ">
+          <ref role="02LMe" to="tpck:gw2VY9q" resolve="BaseConcept" />
         </node>
       </node>
     </node>
@@ -369,7 +368,7 @@
     <property role="TrG5h" value="Repo" />
     <node concept="02vpq" id="TC$M5wSEGY" role="02uzr">
       <property role="2$mnfv" value="true" />
-      <ref role="1YyVLo" to="jwvb:7YhLqbpfNME" resolve="$Repository" />
+      <ref role="1YyVLo" to="jwvb:7YhLqbpfNME" resolve="Repository" />
       <node concept="02i3K" id="TC$M5wSEZL" role="02i3f">
         <node concept="02i3D" id="TC$M5wSEZM" role="02i2B">
           <ref role="02i3$" to="dj5d:qmkA5fOskm" resolve="Repository" />

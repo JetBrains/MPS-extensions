@@ -8,7 +8,7 @@ which removes the need for a declarative language.
 BaseLanguage expressions with all its extensions are supported inside the transformation rules.
 
 ## Download
-Download the nighty build of the plugins from the [release page](https://github.com/JetBrains/MPS-extensions/releases).
+Download the nightly build of the plugins from the [release page](https://github.com/JetBrains/MPS-extensions/releases).
 
 ## Examples
 There is a separate **Shadow Models (Examples)** plugin that contains some example languages and transformation

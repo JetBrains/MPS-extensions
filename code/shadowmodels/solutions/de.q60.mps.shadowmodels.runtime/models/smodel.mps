@@ -23241,41 +23241,49 @@
             <node concept="37vLTw" id="3vsFnFUNSca" role="37vLTJ">
               <ref role="3cqZAo" node="3vsFnFUNPHD" resolve="rootTransformationProblem" />
             </node>
-            <node concept="2OqwBi" id="5wi3nvKgeMh" role="37vLTx">
-              <node concept="2ShNRf" id="3kkgokiD7WA" role="2Oq$k0">
-                <node concept="1pGfFk" id="3kkgokiD9$E" role="2ShVmc">
-                  <ref role="37wK5l" to="nv3w:32qWz0M0pCy" resolve="SubgraphTCall" />
-                  <node concept="Xl_RD" id="3kkgokiD9Bn" role="37wK5m">
-                    <property role="Xl_RC" value="$shadowRepository" />
-                  </node>
-                  <node concept="2ShNRf" id="3vsFnFUNT4g" role="37wK5m">
-                    <node concept="1pGfFk" id="3vsFnFUNT4h" role="2ShVmc">
-                      <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="DirectTCall" />
-                      <node concept="2ShNRf" id="3vsFnFUNT4i" role="37wK5m">
-                        <node concept="2HTt$P" id="3vsFnFUNT4j" role="2ShVmc">
-                          <node concept="3uibUv" id="3vsFnFUNT4k" role="2HTBi0">
-                            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                          </node>
-                          <node concept="2ShNRf" id="3vsFnFUNT4l" role="2HTEbv">
-                            <node concept="1pGfFk" id="3vsFnFUNT4m" role="2ShVmc">
-                              <ref role="37wK5l" node="qmkA5fOYD8" resolve="SRepositoryAsNode" />
-                              <node concept="37vLTw" id="3vsFnFUNT4n" role="37wK5m">
-                                <ref role="3cqZAo" node="7YhLqbpgbxU" resolve="repository" />
+            <node concept="2OqwBi" id="2BHSBiu6gpZ" role="37vLTx">
+              <node concept="2OqwBi" id="5wi3nvKgeMh" role="2Oq$k0">
+                <node concept="2ShNRf" id="3kkgokiD7WA" role="2Oq$k0">
+                  <node concept="1pGfFk" id="3kkgokiD9$E" role="2ShVmc">
+                    <ref role="37wK5l" to="nv3w:32qWz0M0pCy" resolve="SubgraphTCall" />
+                    <node concept="Xl_RD" id="3kkgokiD9Bn" role="37wK5m">
+                      <property role="Xl_RC" value="$shadowRepository" />
+                    </node>
+                    <node concept="2ShNRf" id="3vsFnFUNT4g" role="37wK5m">
+                      <node concept="1pGfFk" id="3vsFnFUNT4h" role="2ShVmc">
+                        <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="DirectTCall" />
+                        <node concept="2ShNRf" id="3vsFnFUNT4i" role="37wK5m">
+                          <node concept="2HTt$P" id="3vsFnFUNT4j" role="2ShVmc">
+                            <node concept="3uibUv" id="3vsFnFUNT4k" role="2HTBi0">
+                              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                            </node>
+                            <node concept="2ShNRf" id="3vsFnFUNT4l" role="2HTEbv">
+                              <node concept="1pGfFk" id="3vsFnFUNT4m" role="2ShVmc">
+                                <ref role="37wK5l" node="qmkA5fOYD8" resolve="SRepositoryAsNode" />
+                                <node concept="37vLTw" id="3vsFnFUNT4n" role="37wK5m">
+                                  <ref role="3cqZAo" node="7YhLqbpgbxU" resolve="repository" />
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
-                      </node>
-                      <node concept="Xl_RD" id="3vsFnFUNT4o" role="37wK5m">
-                        <property role="Xl_RC" value="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository" />
+                        <node concept="Xl_RD" id="3vsFnFUNT4o" role="37wK5m">
+                          <property role="Xl_RC" value="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository" />
+                        </node>
                       </node>
                     </node>
+                    <node concept="10Nm6u" id="3kkgokiDb3m" role="37wK5m" />
                   </node>
-                  <node concept="10Nm6u" id="3kkgokiDb3m" role="37wK5m" />
+                </node>
+                <node concept="liA8E" id="5wi3nvKggs6" role="2OqNvi">
+                  <ref role="37wK5l" to="nv3w:5wi3nvKhuiy" resolve="withoutFixpoint" />
                 </node>
               </node>
-              <node concept="liA8E" id="5wi3nvKggs6" role="2OqNvi">
-                <ref role="37wK5l" to="nv3w:5wi3nvKhuiy" resolve="withoutFixpoint" />
+              <node concept="liA8E" id="2BHSBiu6wxA" role="2OqNvi">
+                <ref role="37wK5l" to="nv3w:2BHSBiu09gY" resolve="setTraceInfo" />
+                <node concept="Xl_RD" id="2BHSBiu6xyl" role="37wK5m">
+                  <property role="Xl_RC" value="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)/9192345617660066986" />
+                </node>
               </node>
             </node>
           </node>

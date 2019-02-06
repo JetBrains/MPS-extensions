@@ -115,7 +115,7 @@ In shadow models you can define **fork dependencies**. The two forks don't have 
 They just have to use the same mapping label.
 During the reference resolution mappings are queried from the same fork and all forks defined as a dependency.
 
-As all transformations forks are executed on demand.
+As all transformations, forks are executed on demand.
 You don't have to take care of generating your *models* in the correct order.
 If you define a fork dependency, the transformation engine will make sure that the target fork exists when it's needed.
 
@@ -134,7 +134,7 @@ The fork identity is part of the node identity of all its output nodes.
 
 ## Reference Resolution
 
-### Differences for forks
+### Differences for Forks
 
 All transformations inside a fork are executed before any reference resolution happens.
 You will get an exception when the reference target was not created in this first phase.
@@ -142,7 +142,7 @@ If you are not inside a fork, there aren't these two phases.
 Transformations are executed independent of if you access it through a parent-child relation or a reference.
 You won't get an exception in this.
 
-### Identity of a node
+### Identity of a Node
 A node in the output is identified by the transformation name and the parameter values of the transformation call. 
 If you call a fork then the identity of the fork (fork name + parameter values) will be part of all it's output nodes.
 

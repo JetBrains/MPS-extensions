@@ -84,6 +84,10 @@ transformation t1 contributes to ShadowRepository.Repository (i0: Repository)
        }
 ```
 
+It is important to know that the whole shadow repository is executed inside a fork.
+This will make sure that references are updated to point to nodes inside the shadow repository.
+You can of course create additional sub forks.
+
 ## Forks
 
 Shadow models allows you to write transformations in two different styles.
@@ -130,9 +134,28 @@ The fork identity is part of the node identity of all its output nodes.
 
 ## Reference Resolution
 
+### Differences for forks
+
+All transformations inside a fork are executed before any reference resolution happens.
+You will get an exception when the reference target was not created in this first phase.
+If you are not inside a fork, there aren't these two phases.
+Transformations are executed independent of if you access it through a parent-child relation or a reference.
+You won't get an exception in this.
+
+### Identity of a node
+A node in the output is identified by the transformation name and the parameter values of the transformation call. 
+If you call a fork then the identity of the fork (fork name + parameter values) will be part of all it's output nodes.
+
+For references it's often enough to specify the transformation call that creates the target.
+It will then be resolved in the same fork, its dependencies or the parent fork.
+If you need to, you can also specify the exact fork of the reference target. 
+
 ### References to Non-Shadow Nodes
 If you want to generate code against an existing runtime library,
-you can just write a baseLanguage expression that returns an `SNode` or `SNodeReference`.
+you can just write a baseLanguage expression that returns an `SNode` or `SNodeReference`
+to set a reference to a fixed target.
+No resolution will happen in this case.
+
 In the *statemachines* example you can find the following transformation:
 ```
 transformation enumConst overrides ... [i0: INamedConcept]

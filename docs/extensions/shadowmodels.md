@@ -135,8 +135,8 @@ The fork identity is part of the node identity of all its output nodes.
 All transformations inside a fork are executed before any reference resolution happens.
 You will get an exception when the reference target was not created in this first phase.
 If you are not inside a fork, there aren't these two phases.
-Transformations are executed independent of if you access it through a parent-child relation or a reference.
-You won't get an exception in this.
+Transformations are executed independent of whether you access it through a parent-child relation or a reference.
+You won't get an exception in this case.
 
 ### Identity of a Node
 A node in the output is identified by the transformation name and the parameter values of the transformation call. 

@@ -4436,6 +4436,29 @@
         <node concept="3cqZAl" id="4JmkJs3BlOh" role="3clF45" />
         <node concept="3Tm1VV" id="4JmkJs3BlOi" role="1B3o_S" />
         <node concept="3clFbS" id="4JmkJs3BlOj" role="3clF47">
+          <node concept="3clFbJ" id="2BHSBiu_BNF" role="3cqZAp">
+            <property role="TyiWK" value="true" />
+            <node concept="3clFbS" id="2BHSBiu_BNH" role="3clFbx">
+              <node concept="YS8fn" id="2BHSBiu_CdB" role="3cqZAp">
+                <node concept="2ShNRf" id="2BHSBiu_CfJ" role="YScLw">
+                  <node concept="1pGfFk" id="2BHSBiu_CCr" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="2BHSBiu_Eug" role="37wK5m">
+                      <property role="Xl_RC" value="Unwrap DependencyTrackingNodes before adding them to a TransformationResult" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2ZW3vV" id="2BHSBiu_C5u" role="3clFbw">
+              <node concept="3uibUv" id="2BHSBiu_C9_" role="2ZW6by">
+                <ref role="3uigEE" node="5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+              </node>
+              <node concept="37vLTw" id="2BHSBiu_BR9" role="2ZW6bz">
+                <ref role="3cqZAo" node="4JmkJs3BlOf" resolve="target" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="4JmkJs3BlOk" role="3cqZAp">
             <node concept="37vLTI" id="4JmkJs3BlOl" role="3clFbG">
               <node concept="37vLTw" id="4JmkJs3BlOm" role="37vLTx">
@@ -4531,12 +4554,46 @@
         </node>
         <node concept="3Tm1VV" id="3fc1D1l60J5" role="1B3o_S" />
         <node concept="3clFbS" id="3fc1D1l60J6" role="3clF47">
-          <node concept="3clFbF" id="3fc1D1l60J7" role="3cqZAp">
-            <node concept="2OqwBi" id="3fc1D1l67bx" role="3clFbG">
-              <node concept="37vLTw" id="3fc1D1l60J8" role="2Oq$k0">
-                <ref role="3cqZAo" node="3fc1D1l60IM" resolve="target" />
+          <node concept="3cpWs8" id="2BHSBiu_G$x" role="3cqZAp">
+            <node concept="3cpWsn" id="2BHSBiu_G$y" role="3cpWs9">
+              <property role="TrG5h" value="node" />
+              <node concept="3uibUv" id="2BHSBiu_G$w" role="1tU5fm">
+                <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
               </node>
-              <node concept="1Bd96e" id="3fc1D1l67Ou" role="2OqNvi" />
+              <node concept="2OqwBi" id="2BHSBiu_G$z" role="33vP2m">
+                <node concept="37vLTw" id="2BHSBiu_G$$" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3fc1D1l60IM" resolve="target" />
+                </node>
+                <node concept="1Bd96e" id="2BHSBiu_G$_" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="2BHSBiu_I6_" role="3cqZAp">
+            <property role="TyiWK" value="true" />
+            <node concept="3clFbS" id="2BHSBiu_I6A" role="3clFbx">
+              <node concept="YS8fn" id="2BHSBiu_I6B" role="3cqZAp">
+                <node concept="2ShNRf" id="2BHSBiu_I6C" role="YScLw">
+                  <node concept="1pGfFk" id="2BHSBiu_I6D" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="2BHSBiu_I6E" role="37wK5m">
+                      <property role="Xl_RC" value="Unwrap DependencyTrackingNodes before adding them to a TransformationResult" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2ZW3vV" id="2BHSBiu_I6F" role="3clFbw">
+              <node concept="3uibUv" id="2BHSBiu_I6G" role="2ZW6by">
+                <ref role="3uigEE" node="5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+              </node>
+              <node concept="37vLTw" id="2BHSBiu_Jcg" role="2ZW6bz">
+                <ref role="3cqZAo" node="2BHSBiu_G$y" resolve="node" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="3fc1D1l60J7" role="3cqZAp">
+            <node concept="37vLTw" id="2BHSBiu_G$A" role="3clFbG">
+              <ref role="3cqZAo" node="2BHSBiu_G$y" resolve="node" />
             </node>
           </node>
         </node>
@@ -15668,8 +15725,12 @@
                     </node>
                   </node>
                   <node concept="3cpWs6" id="3RcjyAtVJ_b" role="3cqZAp">
-                    <node concept="37vLTw" id="7zI2priIppf" role="3cqZAk">
-                      <ref role="3cqZAo" node="7zI2priIppb" resolve="t" />
+                    <node concept="2YIFZM" id="2BHSBiu_KWK" role="3cqZAk">
+                      <ref role="37wK5l" node="1cIlazwYlj7" resolve="unwrap" />
+                      <ref role="1Pybhc" node="5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+                      <node concept="37vLTw" id="2BHSBiu_L9p" role="37wK5m">
+                        <ref role="3cqZAo" node="7zI2priIppb" resolve="t" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -17845,17 +17906,56 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2$QnGbukBCA" role="3cqZAp">
-          <node concept="2OqwBi" id="2$QnGbukBCB" role="3clFbG">
-            <node concept="37vLTw" id="2$QnGbukBCC" role="2Oq$k0">
-              <ref role="3cqZAo" node="2$QnGbukBCp" resolve="target" />
+        <node concept="3cpWs8" id="2BHSBiu$zXl" role="3cqZAp">
+          <node concept="3cpWsn" id="2BHSBiu$zXm" role="3cpWs9">
+            <property role="TrG5h" value="targetNode" />
+            <node concept="3uibUv" id="2BHSBiu$zXk" role="1tU5fm">
+              <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
             </node>
-            <node concept="liA8E" id="2$QnGbukBCD" role="2OqNvi">
-              <ref role="37wK5l" node="4JmkJs3B6lS" resolve="resolveNode" />
-              <node concept="37vLTw" id="2$QnGbukBCE" role="37wK5m">
-                <ref role="3cqZAo" node="2$QnGbulkx1" resolve="engine" />
+            <node concept="2OqwBi" id="2BHSBiu$zXn" role="33vP2m">
+              <node concept="37vLTw" id="2BHSBiu$zXo" role="2Oq$k0">
+                <ref role="3cqZAo" node="2$QnGbukBCp" resolve="target" />
+              </node>
+              <node concept="liA8E" id="2BHSBiu$zXp" role="2OqNvi">
+                <ref role="37wK5l" node="4JmkJs3B6lS" resolve="resolveNode" />
+                <node concept="37vLTw" id="2BHSBiu$zXq" role="37wK5m">
+                  <ref role="3cqZAo" node="2$QnGbulkx1" resolve="engine" />
+                </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2BHSBiu_jdq" role="3cqZAp">
+          <property role="TyiWK" value="true" />
+          <node concept="3clFbS" id="2BHSBiu_jds" role="3clFbx">
+            <node concept="YS8fn" id="2BHSBiu_l4S" role="3cqZAp">
+              <node concept="2ShNRf" id="2BHSBiu_l6T" role="YScLw">
+                <node concept="1pGfFk" id="2BHSBiu_lub" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="3cpWs3" id="2BHSBiu_ngQ" role="37wK5m">
+                    <node concept="37vLTw" id="2BHSBiu_nmO" role="3uHU7w">
+                      <ref role="3cqZAo" node="2BHSBiu$zXm" resolve="targetNode" />
+                    </node>
+                    <node concept="Xl_RD" id="2BHSBiu_lZJ" role="3uHU7B">
+                      <property role="Xl_RC" value="Unexpected dependency tracking: " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="2BHSBiu_kTi" role="3clFbw">
+            <node concept="3uibUv" id="2BHSBiu_l1_" role="2ZW6by">
+              <ref role="3uigEE" node="5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+            </node>
+            <node concept="37vLTw" id="2BHSBiu_kAy" role="2ZW6bz">
+              <ref role="3cqZAo" node="2BHSBiu$zXm" resolve="targetNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2BHSBiu_s50" role="3cqZAp">
+          <node concept="37vLTw" id="2BHSBiu_teS" role="3cqZAk">
+            <ref role="3cqZAo" node="2BHSBiu$zXm" resolve="targetNode" />
           </node>
         </node>
       </node>

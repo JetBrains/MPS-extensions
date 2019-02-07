@@ -619,6 +619,11 @@
       <ref role="2rTdP9" to="oyp0:3RcjyAsr869" resolve="ForkParameter" />
       <ref role="2rZz_L" to="bx8c:1upvoB3RW3z" resolve="PFParameterDeclaration" />
     </node>
+    <node concept="2rT7sh" id="2BHSBiuCZI3" role="2rTMjI">
+      <property role="TrG5h" value="mapMacroVariable" />
+      <ref role="2rTdP9" to="oyp0:4EhVFrZoNdD" resolve="MapMacro" />
+      <ref role="2rZz_L" to="tp2q:gMGrK_y" resolve="ForEachVariable" />
+    </node>
     <node concept="3lhOvk" id="TB2rf$jPRq" role="3lj3bC">
       <ref role="30HIoZ" to="oyp0:6ndA7L_L6K8" resolve="TransformationsNamespace" />
       <ref role="3lhOvi" node="TB2rf$jUVF" resolve="map_TransformationsModule" />
@@ -5743,6 +5748,9 @@
                     </node>
                   </node>
                 </node>
+                <node concept="2ZBi8u" id="2BHSBiuDde7" role="lGtFl">
+                  <ref role="2rW$FS" node="2BHSBiuCZI3" resolve="mapMacroVariable" />
+                </node>
               </node>
               <node concept="2ShNRf" id="1cIlazwQ_LG" role="2GsD0m">
                 <node concept="kMnCb" id="1cIlazwQ_LH" role="2ShVmc">
@@ -5980,6 +5988,56 @@
                 </node>
               </node>
               <node concept="raruj" id="1cIlazwQ_Mo" role="lGtFl" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="2BHSBiuCJ3u" role="3acgRq">
+      <ref role="30HIoZ" to="oyp0:2BHSBiuAPDA" resolve="MapMacroVarRef" />
+      <node concept="1Koe21" id="2BHSBiuCVfX" role="1lVwrX">
+        <node concept="2Gpval" id="2BHSBiuCVg3" role="1Koe22">
+          <node concept="2GrKxI" id="2BHSBiuCVg4" role="2Gsz3X">
+            <property role="TrG5h" value="e" />
+          </node>
+          <node concept="2ShNRf" id="2BHSBiuCVgM" role="2GsD0m">
+            <node concept="kMnCb" id="2BHSBiuCVrJ" role="2ShVmc">
+              <node concept="17QB3L" id="2BHSBiuCXfA" role="kMuH3" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2BHSBiuCVg6" role="2LFqv$">
+            <node concept="3clFbF" id="2BHSBiuCZ2$" role="3cqZAp">
+              <node concept="2OqwBi" id="2BHSBiuCZjR" role="3clFbG">
+                <node concept="2GrUjf" id="2BHSBiuCZ2z" role="2Oq$k0">
+                  <ref role="2Gs0qQ" node="2BHSBiuCVg4" resolve="e" />
+                  <node concept="raruj" id="2BHSBiuCZH8" role="lGtFl" />
+                  <node concept="1ZhdrF" id="2BHSBiuDejx" role="lGtFl">
+                    <property role="2qtEX8" value="variable" />
+                    <property role="P3scX" value="83888646-71ce-4f1c-9c53-c54016f6ad4f/1153944233411/1153944258490" />
+                    <node concept="3$xsQk" id="2BHSBiuDejy" role="3$ytzL">
+                      <node concept="3clFbS" id="2BHSBiuDejz" role="2VODD2">
+                        <node concept="3clFbF" id="2BHSBiuDjuO" role="3cqZAp">
+                          <node concept="2OqwBi" id="2BHSBiuDjEr" role="3clFbG">
+                            <node concept="1iwH7S" id="2BHSBiuDjuN" role="2Oq$k0" />
+                            <node concept="1iwH70" id="2BHSBiuDjV9" role="2OqNvi">
+                              <ref role="1iwH77" node="2BHSBiuCZI3" resolve="mapMacroVariable" />
+                              <node concept="2OqwBi" id="2BHSBiuDklu" role="1iwH7V">
+                                <node concept="30H73N" id="2BHSBiuDk9W" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="2BHSBiuDkyI" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="oyp0:2BHSBiuAPZH" resolve="map" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="2BHSBiuCZ$h" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

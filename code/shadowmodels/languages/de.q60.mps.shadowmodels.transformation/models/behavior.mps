@@ -822,6 +822,46 @@
       </node>
       <node concept="10P_77" id="ZW5KS9Ryaw" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="6TeLv_uMXZ" role="13h7CS">
+      <property role="TrG5h" value="getMatchingText" />
+      <ref role="13i0hy" to="tpcu:69Qfsw3InJX" resolve="getMatchingText" />
+      <node concept="3Tm1VV" id="6TeLv_uMY0" role="1B3o_S" />
+      <node concept="3clFbS" id="6TeLv_uMYp" role="3clF47">
+        <node concept="3clFbF" id="6TeLv_uOet" role="3cqZAp">
+          <node concept="2OqwBi" id="6TeLv_uOqR" role="3clFbG">
+            <node concept="13iPFW" id="6TeLv_uOes" role="2Oq$k0" />
+            <node concept="3TrcHB" id="6TeLv_uOJd" role="2OqNvi">
+              <ref role="3TsBF5" to="oyp0:2BHSBiuAPDn" resolve="variableName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6TeLv_uMYq" role="3clF46">
+        <property role="TrG5h" value="reference" />
+        <node concept="3Tqbb2" id="6TeLv_uMYr" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="6TeLv_uMYs" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="6TeLv_v6pU" role="13h7CS">
+      <property role="TrG5h" value="getVisibleMatchingText" />
+      <ref role="13i0hy" to="tpcu:69Qfsw3Ipre" resolve="getVisibleMatchingText" />
+      <node concept="3Tm1VV" id="6TeLv_v6pV" role="1B3o_S" />
+      <node concept="3clFbS" id="6TeLv_v6q5" role="3clF47">
+        <node concept="3clFbF" id="6TeLv_v6C7" role="3cqZAp">
+          <node concept="2OqwBi" id="6TeLv_v6Ox" role="3clFbG">
+            <node concept="13iPFW" id="6TeLv_v6C1" role="2Oq$k0" />
+            <node concept="3TrcHB" id="6TeLv_v7$m" role="2OqNvi">
+              <ref role="3TsBF5" to="oyp0:2BHSBiuAPDn" resolve="variableName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6TeLv_v6q6" role="3clF46">
+        <property role="TrG5h" value="reference" />
+        <node concept="3Tqbb2" id="6TeLv_v6q7" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="6TeLv_v6q8" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="TB2rf$dAhN">
     <property role="3GE5qa" value="builder" />

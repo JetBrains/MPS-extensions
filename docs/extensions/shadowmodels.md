@@ -16,11 +16,6 @@ implementations to show you how to build your own shadow models.
 The languages and input models can be found in the namespace **de.q60.mps.shadowmodels.examples**.
 The transformations are implemented in the *transformation* aspect.
 
-## Traceback
-A debug view for visualising the transformation calls is planed,
-but currently there is only an API to query the input nodes of a given output node.
-You can find it in the `TransformationTrace` class.
-
 ## Transformations
 
 The transformation language is similar to the MPS generator language.
@@ -165,3 +160,10 @@ transformation enumConst overrides ... [i0: INamedConcept]
        }
 ```
 The constructor reference is pointing to the constructor of the Object class in the JDK stub models.
+
+## Traceback
+
+For debugging the output in the shadow repository you show the transformations that produced a given output node.
+Right click on an output node and choose **Language Debug > Shadow Models: Traceback** from the context menu.
+
+![Traceback View](shadowmodels/traceback-view.png)

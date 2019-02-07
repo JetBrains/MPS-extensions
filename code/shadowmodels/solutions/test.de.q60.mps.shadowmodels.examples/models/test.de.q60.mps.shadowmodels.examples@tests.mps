@@ -117,6 +117,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -437,6 +438,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbT" id="6TeLv_BirJ" role="37wK5m" />
           </node>
         </node>
       </node>
@@ -972,6 +974,9 @@
                 </node>
               </node>
             </node>
+            <node concept="37vLTw" id="6TeLv_B7Kv" role="37wK5m">
+              <ref role="3cqZAo" node="6TeLv_B2uH" resolve="shadowRepositoryMode" />
+            </node>
           </node>
         </node>
       </node>
@@ -997,6 +1002,10 @@
             <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
           </node>
         </node>
+      </node>
+      <node concept="37vLTG" id="6TeLv_B2uH" role="3clF46">
+        <property role="TrG5h" value="shadowRepositoryMode" />
+        <node concept="10P_77" id="6TeLv_B3f6" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="4JmkJs3K8d8" role="3clF45" />
       <node concept="3Tm1VV" id="4JmkJs3K8d9" role="1B3o_S" />
@@ -1126,8 +1135,8 @@
                 <node concept="37vLTw" id="56YPHTotlDI" role="37wK5m">
                   <ref role="3cqZAo" node="56YPHTotlDx" resolve="pfcontext" />
                 </node>
-                <node concept="3clFbT" id="2BHSBiuzYNc" role="37wK5m">
-                  <property role="3clFbU" value="true" />
+                <node concept="37vLTw" id="6TeLv_Ba4v" role="37wK5m">
+                  <ref role="3cqZAo" node="6TeLv_B3Cv" resolve="shadowRepositoryMode" />
                 </node>
               </node>
             </node>
@@ -1395,6 +1404,10 @@
           <node concept="3cqZAl" id="56YPHTot_rJ" role="1ajl9A" />
         </node>
       </node>
+      <node concept="37vLTG" id="6TeLv_B3Cv" role="3clF46">
+        <property role="TrG5h" value="shadowRepositoryMode" />
+        <node concept="10P_77" id="6TeLv_B3Cw" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="56YPHTotlF1" role="3clF45" />
       <node concept="3Tm1VV" id="56YPHTotlF2" role="1B3o_S" />
     </node>
@@ -1438,6 +1451,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbT" id="6TeLv_Bh7$" role="37wK5m" />
           </node>
         </node>
       </node>
@@ -1565,6 +1579,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbT" id="6TeLv_Bp$t" role="37wK5m" />
           </node>
         </node>
         <node concept="3clFbH" id="56YPHTou7aL" role="3cqZAp" />
@@ -1715,6 +1730,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbT" id="6TeLv_BekY" role="37wK5m" />
           </node>
         </node>
       </node>
@@ -1802,7 +1818,7 @@
               <node concept="3cpWsn" id="5VZCLuISq9q" role="3cpWs9">
                 <property role="TrG5h" value="b" />
                 <node concept="2YIFZM" id="5VZCLuISq9r" role="33vP2m">
-                  <ref role="37wK5l" node="5VZCLuISq9s" resolve="na_0_0_5_0_0_0_1_0_0" />
+                  <ref role="37wK5l" node="5VZCLuISq9s" resolve="na_0_0_6_0_0_0_1_0_0" />
                   <ref role="1Pybhc" node="5VZCLuISq9g" resolve="ClassA_out" />
                   <node concept="37vLTw" id="5VZCLuISq9L" role="37wK5m">
                     <ref role="3cqZAo" node="5VZCLuISq9m" resolve="a" />
@@ -1850,7 +1866,7 @@
           <node concept="3Tm1VV" id="5VZCLuISq9Y" role="1B3o_S" />
         </node>
         <node concept="2YIFZL" id="5VZCLuISq9s" role="jymVt">
-          <property role="TrG5h" value="na_0_0_5_0_0_0_1_0_0" />
+          <property role="TrG5h" value="na_0_0_6_0_0_0_1_0_0" />
           <node concept="16syzq" id="5VZCLuISq9t" role="3clF45">
             <ref role="16sUi3" node="5VZCLuISq9u" resolve="T" />
           </node>
@@ -1944,6 +1960,9 @@
                   <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
                 </node>
               </node>
+            </node>
+            <node concept="3clFbT" id="6TeLv_BgNK" role="37wK5m">
+              <property role="3clFbU" value="true" />
             </node>
           </node>
         </node>

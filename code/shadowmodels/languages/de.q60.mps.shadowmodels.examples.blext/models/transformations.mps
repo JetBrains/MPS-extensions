@@ -157,7 +157,7 @@
       <concept id="2969665195339091237" name="de.q60.mps.shadowmodels.transformation.structure.TransformationInclude" flags="ng" index="3RclfB">
         <reference id="2969665195339091327" name="transformation" index="3RcleX" />
       </concept>
-      <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.CopyMacro" flags="ng" index="1XuIBW">
+      <concept id="2573073122887437731" name="de.q60.mps.shadowmodels.transformation.structure.Duplicate" flags="ng" index="1XuIBW">
         <child id="5195914917229892329" name="handlers" index="34JSJZ" />
         <child id="2573073122887437734" name="sourceQuery" index="1XuIBT" />
       </concept>
@@ -871,7 +871,7 @@
     <node concept="2OrE70" id="2Dmy1k6YWEz" role="02uzr" />
     <node concept="02vpq" id="7YhLqbpfO9B" role="02uzr">
       <property role="2$mnfv" value="true" />
-      <ref role="1YyVLo" to="jwvb:7YhLqbpfNME" resolve="$Repository" />
+      <ref role="1YyVLo" to="jwvb:7YhLqbpfNME" resolve="Repository" />
       <node concept="026TG" id="7YhLqbpfOYD" role="026TK">
         <node concept="027og" id="7YhLqbpfOYJ" role="026TJ">
           <ref role="02LMe" to="dj5d:qmkA5fOskm" resolve="Repository" />

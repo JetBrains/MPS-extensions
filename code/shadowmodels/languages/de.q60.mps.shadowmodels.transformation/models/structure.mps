@@ -406,19 +406,12 @@
     <node concept="PrWs8" id="4EhVFrYY$lw" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="asaX9" id="3fc1D1mmh9W" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="4EhVFrYZevB">
     <property role="EcuMT" value="5373338300159158247" />
     <property role="3GE5qa" value="macros" />
     <property role="TrG5h" value="LocalLabelReferenceExpression" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="4EhVFrZo2Vu" role="1TKVEi">
-      <property role="IQ2ns" value="5373338300165664478" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inputNode" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
     <node concept="1TJgyj" id="4EhVFrYZevC" role="1TKVEi">
       <property role="IQ2ns" value="5373338300159158248" />
       <property role="20lmBu" value="reference" />
@@ -429,7 +422,6 @@
     <node concept="PrWs8" id="4EhVFrYZmJB" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_LuUK" resolve="ITargetSpec" />
     </node>
-    <node concept="asaX9" id="3fc1D1mnpfL" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="4EhVFrYZOXQ">
     <property role="EcuMT" value="5373338300159315830" />
@@ -451,6 +443,11 @@
     <property role="TrG5h" value="MapMacro" />
     <property role="34LRSv" value="map" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2BHSBiuAPDn" role="1TKVEl">
+      <property role="IQ2nx" value="3021319915540535895" />
+      <property role="TrG5h" value="variableName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="4EhVFrZoNdG" role="1TKVEi">
       <property role="IQ2ns" value="5373338300165862252" />
       <property role="20lmBu" value="aggregation" />
@@ -470,6 +467,9 @@
     </node>
     <node concept="PrWs8" id="1apE37RqhPd" role="PzmwI">
       <ref role="PrY4T" node="7X4ppfYlui3" resolve="IContextNodeProvider" />
+    </node>
+    <node concept="PrWs8" id="6TeLv_uMR8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
     </node>
   </node>
   <node concept="1TIwiD" id="1cIlazwMtn_">
@@ -1556,6 +1556,19 @@
   <node concept="PlHQZ" id="2BHSBitNWCy">
     <property role="EcuMT" value="3021319915527195170" />
     <property role="TrG5h" value="IGeneratesBuilderContext" />
+  </node>
+  <node concept="1TIwiD" id="2BHSBiuAPDA">
+    <property role="EcuMT" value="3021319915540535910" />
+    <property role="3GE5qa" value="macros" />
+    <property role="TrG5h" value="MapMacroVarRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="2BHSBiuAPZH" role="1TKVEi">
+      <property role="IQ2ns" value="3021319915540537325" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="map" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4EhVFrZoNdD" resolve="MapMacro" />
+    </node>
   </node>
 </model>
 

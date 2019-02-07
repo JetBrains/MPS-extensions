@@ -16,11 +16,6 @@ implementations to show you how to build your own shadow models.
 The languages and input models can be found in the namespace **de.q60.mps.shadowmodels.examples**.
 The transformations are implemented in the *transformation* aspect.
 
-## Traceback
-A debug view for visualising the transformation calls is planed,
-but currently there is only an API to query the input nodes of a given output node.
-You can find it in the `TransformationTrace` class.
-
 ## Transformations
 
 The transformation language is similar to the MPS generator language.
@@ -111,9 +106,10 @@ As in MPS where mapping labels only work inside the same model, here they only w
 Luckily, both have a solution for that.
 MPS introduced [cross model generation](https://confluence.jetbrains.com/display/MPSD20183/Generator#Generator-Cross-modelgeneration)
 where you define special checkpoints inside the generation plan.
-In shadow models you can define **fork dependencies**. The two forks don't have to be of the same type.
-They just have to use the same mapping label.
-During the reference resolution mappings are queried from the same fork and all forks defined as a dependency.
+In shadow models you can define **fork dependencies**.
+If a transformation or mapping cannot be found in the same fork,
+they are searched in all forks that are defined as a dependency.
+You can add dependencies in the upper part of any transformation that is part of the fork.
 
 As all transformations, forks are executed on demand.
 You don't have to take care of generating your *models* in the correct order.
@@ -139,8 +135,8 @@ The fork identity is part of the node identity of all its output nodes.
 All transformations inside a fork are executed before any reference resolution happens.
 You will get an exception when the reference target was not created in this first phase.
 If you are not inside a fork, there aren't these two phases.
-Transformations are executed independent of if you access it through a parent-child relation or a reference.
-You won't get an exception in this.
+Transformations are executed independent of whether you access it through a parent-child relation or a reference.
+You won't get an exception in this case.
 
 ### Identity of a Node
 A node in the output is identified by the transformation name and the parameter values of the transformation call. 
@@ -165,3 +161,10 @@ transformation enumConst overrides ... [i0: INamedConcept]
        }
 ```
 The constructor reference is pointing to the constructor of the Object class in the JDK stub models.
+
+## Traceback
+
+For debugging the output in the shadow repository you show the transformations that produced a given output node.
+Right click on an output node and choose **Language Debug > Shadow Models: Traceback** from the context menu.
+
+![Traceback View](shadowmodels/traceback-view.png)

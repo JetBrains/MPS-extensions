@@ -3442,5 +3442,66 @@
       <ref role="1YaFvo" to="oyp0:3RcjyAufXpH" resolve="ParentContext" />
     </node>
   </node>
+  <node concept="1YbPZF" id="6TeLv_vgti">
+    <property role="TrG5h" value="typeof_MapMacroVarRef" />
+    <property role="3GE5qa" value="macros" />
+    <node concept="3clFbS" id="6TeLv_vgtj" role="18ibNy">
+      <node concept="1ZxtTE" id="6TeLv_vgts" role="3cqZAp">
+        <property role="TrG5h" value="refType" />
+      </node>
+      <node concept="1Z5TYs" id="6TeLv_vgtt" role="3cqZAp">
+        <node concept="mw_s8" id="6TeLv_vgtu" role="1ZfhKB">
+          <node concept="1Z$b5t" id="6TeLv_vgtv" role="mwGJk">
+            <ref role="1Z$eMM" node="6TeLv_vgts" resolve="refType" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6TeLv_vgtw" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6TeLv_vgtx" role="mwGJk">
+            <node concept="1YBJjd" id="6TeLv_vgty" role="1Z2MuG">
+              <ref role="1YBMHb" node="6TeLv_vgtl" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1ZoDhX" id="6TeLv_vgtz" role="3cqZAp">
+        <node concept="mw_s8" id="6TeLv_vgt$" role="1ZfhKB">
+          <node concept="1Z2H0r" id="6TeLv_vgt_" role="mwGJk">
+            <node concept="2OqwBi" id="6TeLv_vgtA" role="1Z2MuG">
+              <node concept="2OqwBi" id="6TeLv_vh7J" role="2Oq$k0">
+                <node concept="1YBJjd" id="6TeLv_vgYW" role="2Oq$k0">
+                  <ref role="1YBMHb" node="6TeLv_vgtl" resolve="n" />
+                </node>
+                <node concept="3TrEf2" id="6TeLv_vhjs" role="2OqNvi">
+                  <ref role="3Tt5mk" to="oyp0:2BHSBiuAPZH" resolve="map" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="6TeLv_vgtE" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:4EhVFrZoNdG" resolve="input" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6TeLv_vgtF" role="1ZfhK$">
+          <node concept="2pJPEk" id="6TeLv_vgtG" role="mwGJk">
+            <node concept="2pJPED" id="6TeLv_vgtH" role="2pJPEn">
+              <ref role="2pJxaS" to="tp2q:gKA3Dh4" resolve="SequenceType" />
+              <node concept="2pIpSj" id="6TeLv_vgtI" role="2pJxcM">
+                <ref role="2pIpSl" to="tp2q:gKA3Ige" resolve="elementType" />
+                <node concept="36biLy" id="6TeLv_vgtJ" role="2pJxcZ">
+                  <node concept="1Z$b5t" id="6TeLv_vgtK" role="36biLW">
+                    <ref role="1Z$eMM" node="6TeLv_vgts" resolve="refType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6TeLv_vgtl" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:2BHSBiuAPDA" resolve="MapMacroVarRef" />
+    </node>
+  </node>
 </model>
 

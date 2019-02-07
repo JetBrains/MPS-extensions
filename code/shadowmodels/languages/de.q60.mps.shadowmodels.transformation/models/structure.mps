@@ -343,9 +343,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ndA7L_Lbyc" resolve="TransformationParameter" />
     </node>
-    <node concept="PrWs8" id="1cIlazwNIof" role="PzmwI">
-      <ref role="PrY4T" node="6ndA7L_LuUK" resolve="ITargetSpec" />
-    </node>
   </node>
   <node concept="1TIwiD" id="7X4ppfYlm1v">
     <property role="EcuMT" value="9170566427534778463" />

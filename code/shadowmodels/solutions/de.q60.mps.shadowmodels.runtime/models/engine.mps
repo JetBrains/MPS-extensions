@@ -3188,8 +3188,12 @@
               <node concept="2ShNRf" id="4JmkJs3BBNU" role="37vLTx">
                 <node concept="1pGfFk" id="4JmkJs3BBNV" role="2ShVmc">
                   <ref role="37wK5l" node="4JmkJs3BlOe" resolve="TransformationResult.KnownNodeReferenceTarget" />
-                  <node concept="37vLTw" id="4JmkJs3BBNW" role="37wK5m">
-                    <ref role="3cqZAo" node="4JmkJs3BBNN" resolve="target" />
+                  <node concept="2YIFZM" id="6TeLv_LcWC" role="37wK5m">
+                    <ref role="37wK5l" node="1cIlazwYlj7" resolve="unwrap" />
+                    <ref role="1Pybhc" node="5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+                    <node concept="37vLTw" id="6TeLv_Ld8o" role="37wK5m">
+                      <ref role="3cqZAo" node="4JmkJs3BBNN" resolve="target" />
+                    </node>
                   </node>
                 </node>
               </node>

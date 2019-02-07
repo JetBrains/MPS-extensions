@@ -106,9 +106,10 @@ As in MPS where mapping labels only work inside the same model, here they only w
 Luckily, both have a solution for that.
 MPS introduced [cross model generation](https://confluence.jetbrains.com/display/MPSD20183/Generator#Generator-Cross-modelgeneration)
 where you define special checkpoints inside the generation plan.
-In shadow models you can define **fork dependencies**. The two forks don't have to be of the same type.
-They just have to use the same mapping label.
-During the reference resolution mappings are queried from the same fork and all forks defined as a dependency.
+In shadow models you can define **fork dependencies**.
+If a transformation or mapping cannot be found in the same fork,
+they are searched in all forks that are defined as a dependency.
+You can add dependencies in the upper part of any transformation that is part of the fork.
 
 As all transformations, forks are executed on demand.
 You don't have to take care of generating your *models* in the correct order.

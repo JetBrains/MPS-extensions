@@ -22566,6 +22566,15 @@
         </node>
       </node>
     </node>
+    <node concept="Wx3nA" id="7uM3WAaoJn4" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="REPOSITORY_TRANSFORMATION_ID" />
+      <node concept="3Tm6S6" id="7uM3WAaoJn1" role="1B3o_S" />
+      <node concept="17QB3L" id="7uM3WAaoJn2" role="1tU5fm" />
+      <node concept="Xl_RD" id="7uM3WAaoJn3" role="33vP2m">
+        <property role="Xl_RC" value="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository" />
+      </node>
+    </node>
     <node concept="2YIFZL" id="7zI2priRdct" role="jymVt">
       <property role="TrG5h" value="setEnable" />
       <node concept="3clFbS" id="7zI2priQLoP" role="3clF47">
@@ -23267,8 +23276,8 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="Xl_RD" id="3vsFnFUNT4o" role="37wK5m">
-                          <property role="Xl_RC" value="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository" />
+                        <node concept="37vLTw" id="7uM3WAaoJn7" role="37wK5m">
+                          <ref role="3cqZAo" node="7uM3WAaoJn4" resolve="REPOSITORY_TRANSFORMATION_ID" />
                         </node>
                       </node>
                     </node>
@@ -23556,6 +23565,30 @@
               </node>
             </node>
             <node concept="3clFbS" id="1qXv6Eg78Zn" role="TDEfX">
+              <node concept="3clFbJ" id="7uM3WAaoJ8X" role="3cqZAp">
+                <node concept="3clFbS" id="7uM3WAaoJ8Z" role="3clFbx">
+                  <node concept="RRSsy" id="7uM3WAanL01" role="3cqZAp">
+                    <property role="RRSoG" value="error" />
+                    <node concept="Xl_RD" id="7uM3WAanL03" role="RRSoy" />
+                    <node concept="37vLTw" id="7uM3WAanL05" role="RRSow">
+                      <ref role="3cqZAo" node="1qXv6Eg78Zj" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="17QLQc" id="7uM3WAaoWw4" role="3clFbw">
+                  <node concept="37vLTw" id="7uM3WAaoU9A" role="3uHU7B">
+                    <ref role="3cqZAo" node="7uM3WAaoJn4" resolve="REPOSITORY_TRANSFORMATION_ID" />
+                  </node>
+                  <node concept="2OqwBi" id="7uM3WAaoSEc" role="3uHU7w">
+                    <node concept="37vLTw" id="7uM3WAaoShs" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1qXv6Eg78Zj" resolve="ex" />
+                    </node>
+                    <node concept="liA8E" id="7uM3WAaoTl5" role="2OqNvi">
+                      <ref role="37wK5l" to="od2j:7uM3WAaoNcb" resolve="getFunctionId" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="1qXv6Eg8s49" role="3cqZAp">
                 <node concept="37vLTI" id="1qXv6Eg8vFZ" role="3clFbG">
                   <node concept="2ShNRf" id="1qXv6Eg8vVb" role="37vLTx">

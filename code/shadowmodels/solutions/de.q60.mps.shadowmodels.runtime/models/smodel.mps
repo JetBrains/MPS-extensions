@@ -5035,7 +5035,6 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3Tm1VV" id="4EhVFrZ3Anh" role="1B3o_S" />
-      <node concept="17QB3L" id="2BHSBitU4Ms" role="3clF45" />
       <node concept="3clFbS" id="4EhVFrZ3Ank" role="3clF47">
         <node concept="3cpWs8" id="2BHSBisivNm" role="3cqZAp">
           <node concept="3cpWsn" id="2BHSBisivNn" role="3cpWs9">
@@ -5099,6 +5098,7 @@
       <node concept="2AHcQZ" id="4EhVFrZ3Anl" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="17QB3L" id="2BHSBitU4Ms" role="3clF45" />
     </node>
     <node concept="3clFb_" id="4EhVFrZ3Ano" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -9377,7 +9377,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="4wrAhqcMCaX" role="3clF46">
-        <property role="TrG5h" value="value_" />
+        <property role="TrG5h" value="value" />
         <node concept="1ajhzC" id="4k1tkzD8NJg" role="1tU5fm">
           <node concept="17QB3L" id="4k1tkzD8OcG" role="1ajl9A" />
         </node>
@@ -9399,7 +9399,7 @@
                 <node concept="17QB3L" id="4k1tkzD8SvD" role="1tU5fm" />
                 <node concept="2OqwBi" id="4k1tkzD8SvG" role="33vP2m">
                   <node concept="37vLTw" id="4k1tkzD8SvH" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4wrAhqcMCaX" resolve="value_" />
+                    <ref role="3cqZAo" node="4wrAhqcMCaX" resolve="lazyValue" />
                   </node>
                   <node concept="1Bd96e" id="4k1tkzD8SvI" role="2OqNvi" />
                 </node>
@@ -9439,7 +9439,6 @@
                 <node concept="3cpWs8" id="4wrAhqcNp0R" role="3cqZAp">
                   <node concept="3cpWsn" id="4wrAhqcNp0S" role="3cpWs9">
                     <property role="TrG5h" value="replacement" />
-                    <property role="3TUv4t" value="true" />
                     <node concept="17QB3L" id="4wrAhqcNp0K" role="1tU5fm" />
                     <node concept="2OqwBi" id="4wrAhqcNp0T" role="33vP2m">
                       <node concept="2GrUjf" id="4wrAhqcNp0U" role="2Oq$k0">
@@ -9508,7 +9507,7 @@
               <ref role="3cqZAo" node="4wrAhqcMCaV" resolve="property" />
             </node>
             <node concept="37vLTw" id="4wrAhqcMCbe" role="37wK5m">
-              <ref role="3cqZAo" node="4wrAhqcMCaX" resolve="value_" />
+              <ref role="3cqZAo" node="4wrAhqcMCaX" resolve="lazyValue" />
             </node>
           </node>
         </node>
@@ -18395,6 +18394,13 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3Tm1VV" id="qmkA5fOvG5" role="1B3o_S" />
+    <node concept="3uibUv" id="qmkA5fOYHD" role="1zkMxy">
+      <ref role="3uigEE" node="qmkA5fOOmI" resolve="TreeElementAsNode" />
+      <node concept="3uibUv" id="qmkA5fOYQu" role="11_B2D">
+        <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+      </node>
+    </node>
     <node concept="3clFb_" id="2BHSBisk4kW" role="jymVt">
       <property role="TrG5h" value="toString" />
       <node concept="3Tm1VV" id="2BHSBisk4kX" role="1B3o_S" />
@@ -18408,13 +18414,6 @@
       </node>
       <node concept="2AHcQZ" id="2BHSBisk4l3" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-    <node concept="3Tm1VV" id="qmkA5fOvG5" role="1B3o_S" />
-    <node concept="3uibUv" id="qmkA5fOYHD" role="1zkMxy">
-      <ref role="3uigEE" node="qmkA5fOOmI" resolve="TreeElementAsNode" />
-      <node concept="3uibUv" id="qmkA5fOYQu" role="11_B2D">
-        <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
       </node>
     </node>
   </node>
@@ -22811,7 +22810,7 @@
       <property role="TrG5h" value="synchronizer" />
       <node concept="3Tm6S6" id="3jGmESsDqCg" role="1B3o_S" />
       <node concept="3uibUv" id="3jGmESsDr$P" role="1tU5fm">
-        <ref role="3uigEE" node="4ZED3xnXvcy" resolve="ShadowOutputSynchronizer" />
+        <ref role="3uigEE" node="4ZED3xnXvcy" resolve="NodeSynchronizer" />
       </node>
     </node>
     <node concept="312cEg" id="3jGmESsNgxn" role="jymVt">
@@ -23075,7 +23074,7 @@
                                   </node>
                                   <node concept="3clFbF" id="5wi3nvL75N7" role="3cqZAp">
                                     <node concept="1rXfSq" id="5wi3nvL75N5" role="3clFbG">
-                                      <ref role="37wK5l" node="4VxHqcqZoV$" resolve="synchronize" />
+                                      <ref role="37wK5l" node="4VxHqcqZoV$" resolve="synchronizeAll" />
                                     </node>
                                   </node>
                                   <node concept="3clFbF" id="5wi3nvL7Lrp" role="3cqZAp">
@@ -23344,7 +23343,7 @@
             </node>
             <node concept="2ShNRf" id="5wi3nvL8aoU" role="37vLTx">
               <node concept="1pGfFk" id="5wi3nvL8aoV" role="2ShVmc">
-                <ref role="37wK5l" node="5wi3nvKOjhx" resolve="ShadowOutputSynchronizer" />
+                <ref role="37wK5l" node="5wi3nvKOjhx" resolve="NodeSynchronizer" />
                 <node concept="2OqwBi" id="5wi3nvL8aoW" role="37wK5m">
                   <node concept="37vLTw" id="5wi3nvL8aoX" role="2Oq$k0">
                     <ref role="3cqZAo" node="7YhLqbpgih0" resolve="engine" />
@@ -23415,7 +23414,7 @@
           <node concept="37vLTI" id="2NbR2yrqbiQ" role="3clFbG">
             <node concept="2ShNRf" id="2NbR2yrqbmR" role="37vLTx">
               <node concept="1pGfFk" id="5wi3nvL7Xue" role="2ShVmc">
-                <ref role="37wK5l" node="5wi3nvKOjhx" resolve="ShadowOutputSynchronizer" />
+                <ref role="37wK5l" node="5wi3nvKOjhx" resolve="NodeSynchronizer" />
                 <node concept="2OqwBi" id="5wi3nvL7XYa" role="37wK5m">
                   <node concept="37vLTw" id="5wi3nvL7XDa" role="2Oq$k0">
                     <ref role="3cqZAo" node="7YhLqbpgih0" resolve="engine" />
@@ -23458,7 +23457,7 @@
     </node>
     <node concept="2tJIrI" id="4VxHqcqZrW4" role="jymVt" />
     <node concept="3clFb_" id="4VxHqcqZoV$" role="jymVt">
-      <property role="TrG5h" value="synchronize" />
+      <property role="TrG5h" value="synchronizeAll" />
       <node concept="3cqZAl" id="4VxHqcqZoV_" role="3clF45" />
       <node concept="3Tmbuc" id="4VxHqcqZoVA" role="1B3o_S" />
       <node concept="3clFbS" id="4VxHqcqZoVB" role="3clF47">
@@ -24343,7 +24342,7 @@
     <node concept="3Tm1VV" id="4QZGLsLESlP" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="4ZED3xnXvcy">
-    <property role="TrG5h" value="ShadowOutputSynchronizer" />
+    <property role="TrG5h" value="NodeSynchronizer" />
     <node concept="Wx3nA" id="37_exlY2u8Y" role="jymVt">
       <property role="TrG5h" value="INPUT_NODE_KEY" />
       <property role="3TUv4t" value="true" />
@@ -24355,7 +24354,7 @@
         </node>
         <node concept="2OqwBi" id="37_exlY2qGd" role="3uHU7B">
           <node concept="3VsKOn" id="37_exlY2qeC" role="2Oq$k0">
-            <ref role="3VsUkX" node="4ZED3xnXvcy" resolve="ShadowOutputSynchronizer" />
+            <ref role="3VsUkX" node="4ZED3xnXvcy" resolve="NodeSynchronizer" />
           </node>
           <node concept="liA8E" id="37_exlY2so8" role="2OqNvi">
             <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
@@ -26187,11 +26186,11 @@
           <node concept="3cpWsn" id="2SVwmLqqI2y" role="3cpWs9">
             <property role="TrG5h" value="imports" />
             <node concept="3uibUv" id="2SVwmLqqI2z" role="1tU5fm">
-              <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+              <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
             </node>
             <node concept="10M0yZ" id="2SVwmLqqJ8B" role="33vP2m">
               <ref role="3cqZAo" node="2SVwmLqoEIx" resolve="EMPTY" />
-              <ref role="1PxDUh" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+              <ref role="1PxDUh" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
             </node>
           </node>
         </node>
@@ -26215,8 +26214,8 @@
                   <node concept="liA8E" id="2SVwmLqqN4E" role="2OqNvi">
                     <ref role="37wK5l" node="2SVwmLqqzga" resolve="merge" />
                     <node concept="2YIFZM" id="2SVwmLqqNDc" role="37wK5m">
-                      <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
                       <ref role="37wK5l" node="2SVwmLqpQrz" resolve="get" />
+                      <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
                       <node concept="2GrUjf" id="2SVwmLqqNWC" role="37wK5m">
                         <ref role="2Gs0qQ" node="2SVwmLqqK0k" resolve="root" />
                       </node>
@@ -26246,19 +26245,10 @@
     <node concept="3clFb_" id="3jGmESsGwgU" role="jymVt">
       <property role="TrG5h" value="synchronizeNode" />
       <node concept="37vLTG" id="3jGmESsGwgV" role="3clF46">
-        <property role="TrG5h" value="input" />
+        <property role="TrG5h" value="input_" />
         <node concept="3uibUv" id="5wi3nvL1M1p" role="1tU5fm">
           <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
         </node>
-      </node>
-      <node concept="37vLTG" id="5wi3nvL11qf" role="3clF46">
-        <property role="TrG5h" value="output" />
-        <node concept="3uibUv" id="5wi3nvL16eb" role="1tU5fm">
-          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-        </node>
-      </node>
-      <node concept="3uibUv" id="5wi3nvL2ir9" role="3clF45">
-        <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
       </node>
       <node concept="3Tm1VV" id="3jGmESsGwgY" role="1B3o_S" />
       <node concept="3clFbS" id="3jGmESsGwgZ" role="3clF47">
@@ -26267,7 +26257,7 @@
             <node concept="3clFbF" id="2SVwmLqqpwM" role="3cqZAp">
               <node concept="2YIFZM" id="2SVwmLqquMJ" role="3clFbG">
                 <ref role="37wK5l" node="2SVwmLqq7rs" resolve="addLanguage" />
-                <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
                 <node concept="37vLTw" id="2SVwmLqqv9K" role="37wK5m">
                   <ref role="3cqZAo" node="5wi3nvL11qf" resolve="output" />
                 </node>
@@ -26289,7 +26279,7 @@
               <node concept="2OqwBi" id="3jGmESsGwhH" role="2GsD0m">
                 <node concept="2OqwBi" id="3jGmESsGwhI" role="2Oq$k0">
                   <node concept="37vLTw" id="3jGmESsGwhJ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input" />
+                    <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input_" />
                   </node>
                   <node concept="liA8E" id="3jGmESsGwhK" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SNode.getConcept():org.jetbrains.mps.openapi.language.SConcept" resolve="getConcept" />
@@ -26306,7 +26296,7 @@
                     <node concept="17QB3L" id="3vsFnFV8jV5" role="1tU5fm" />
                     <node concept="2OqwBi" id="3vsFnFV8ipO" role="33vP2m">
                       <node concept="37vLTw" id="3vsFnFV8ipP" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input" />
+                        <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input_" />
                       </node>
                       <node concept="liA8E" id="3vsFnFV8ipQ" role="2OqNvi">
                         <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty):java.lang.String" resolve="getProperty" />
@@ -26363,7 +26353,7 @@
               <node concept="2OqwBi" id="3vsFnFUEi9V" role="2GsD0m">
                 <node concept="2OqwBi" id="3vsFnFUEi9W" role="2Oq$k0">
                   <node concept="37vLTw" id="3vsFnFUEnZX" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input" />
+                    <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input_" />
                   </node>
                   <node concept="liA8E" id="3vsFnFUEi9Y" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SNode.getConcept():org.jetbrains.mps.openapi.language.SConcept" resolve="getConcept" />
@@ -26382,7 +26372,7 @@
                     </node>
                     <node concept="2OqwBi" id="4JmkJs3EvGe" role="33vP2m">
                       <node concept="37vLTw" id="4JmkJs3EvGf" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input" />
+                        <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input_" />
                       </node>
                       <node concept="liA8E" id="4JmkJs3EvGg" role="2OqNvi">
                         <ref role="37wK5l" to="mhbf:~SNode.getReferenceTarget(org.jetbrains.mps.openapi.language.SReferenceLink):org.jetbrains.mps.openapi.model.SNode" resolve="getReferenceTarget" />
@@ -26429,8 +26419,8 @@
                     </node>
                     <node concept="3clFbF" id="2SVwmLqtAyx" role="3cqZAp">
                       <node concept="2YIFZM" id="2SVwmLqtBjQ" role="3clFbG">
-                        <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
                         <ref role="37wK5l" node="2SVwmLqtkYS" resolve="addModel" />
+                        <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
                         <node concept="37vLTw" id="2SVwmLqtBMG" role="37wK5m">
                           <ref role="3cqZAo" node="5wi3nvL11qf" resolve="output" />
                         </node>
@@ -26530,7 +26520,7 @@
                       <node concept="3clFbF" id="2SVwmLqtCDM" role="3cqZAp">
                         <node concept="2YIFZM" id="2SVwmLqtCDN" role="3clFbG">
                           <ref role="37wK5l" node="2SVwmLqtkYS" resolve="addModel" />
-                          <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                          <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
                           <node concept="37vLTw" id="2SVwmLqtCDO" role="37wK5m">
                             <ref role="3cqZAo" node="5wi3nvL11qf" resolve="output" />
                           </node>
@@ -26552,7 +26542,7 @@
               <node concept="2OqwBi" id="7kQU9sgtgDN" role="2GsD0m">
                 <node concept="2OqwBi" id="7kQU9sgtfZI" role="2Oq$k0">
                   <node concept="37vLTw" id="7kQU9sgtfJo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input" />
+                    <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input_" />
                   </node>
                   <node concept="liA8E" id="7kQU9sgtgkv" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SNode.getConcept():org.jetbrains.mps.openapi.language.SConcept" resolve="getConcept" />
@@ -26567,7 +26557,7 @@
                   <node concept="1rXfSq" id="7kQU9sgu_Jc" role="3clFbG">
                     <ref role="37wK5l" node="7kQU9sgthZg" resolve="synchronizeChildren" />
                     <node concept="37vLTw" id="7kQU9sguA5D" role="37wK5m">
-                      <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input" />
+                      <ref role="3cqZAo" node="3jGmESsGwgV" resolve="input_" />
                     </node>
                     <node concept="37vLTw" id="7kQU9sguAka" role="37wK5m">
                       <ref role="3cqZAo" node="5wi3nvL11qf" resolve="output" />
@@ -26613,12 +26603,21 @@
           </node>
         </node>
       </node>
+      <node concept="37vLTG" id="5wi3nvL11qf" role="3clF46">
+        <property role="TrG5h" value="output" />
+        <node concept="3uibUv" id="5wi3nvL16eb" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="5wi3nvL2ir9" role="3clF45">
+        <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+      </node>
     </node>
     <node concept="2tJIrI" id="4ZED3xnXLsN" role="jymVt" />
     <node concept="3clFb_" id="7kQU9sgthZg" role="jymVt">
       <property role="TrG5h" value="synchronizeChildren" />
       <node concept="37vLTG" id="7kQU9sgtk3d" role="3clF46">
-        <property role="TrG5h" value="inputParent" />
+        <property role="TrG5h" value="inputParent_" />
         <node concept="3uibUv" id="5wi3nvL3jbP" role="1tU5fm">
           <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
         </node>
@@ -26652,7 +26651,7 @@
                 <node concept="10QFUN" id="3vsFnFUGRTO" role="1eOMHV">
                   <node concept="2OqwBi" id="3vsFnFUGRTP" role="10QFUP">
                     <node concept="37vLTw" id="3vsFnFUGS$U" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7kQU9sgtk3d" resolve="inputParent" />
+                      <ref role="3cqZAo" node="7kQU9sgtk3d" resolve="inputParent_" />
                     </node>
                     <node concept="liA8E" id="3vsFnFUGRTR" role="2OqNvi">
                       <ref role="37wK5l" to="mhbf:~SNode.getChildren(org.jetbrains.mps.openapi.language.SContainmentLink):java.lang.Iterable" resolve="getChildren" />
@@ -26696,7 +26695,7 @@
                               <ref role="1Pybhc" node="5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
                               <ref role="37wK5l" node="5gTrVpGyMwR" resolve="wrap" />
                               <node concept="37vLTw" id="5wi3nvL3LWY" role="37wK5m">
-                                <ref role="3cqZAo" node="3vsFnFUH98e" resolve="it" />
+                                <ref role="3cqZAo" node="3vsFnFUH98e" resolve="inputChild_" />
                               </node>
                             </node>
                           </node>
@@ -26707,7 +26706,7 @@
                       </node>
                     </node>
                     <node concept="Rh6nW" id="3vsFnFUH98e" role="1bW2Oz">
-                      <property role="TrG5h" value="it" />
+                      <property role="TrG5h" value="inputChild_" />
                       <node concept="2jxLKc" id="3vsFnFUH98f" role="1tU5fm" />
                     </node>
                   </node>
@@ -26879,7 +26878,7 @@
                           <node concept="2OqwBi" id="2SVwmLqw42z" role="2Oq$k0">
                             <node concept="2YIFZM" id="2SVwmLqw2Ql" role="2Oq$k0">
                               <ref role="37wK5l" node="2SVwmLqpQrz" resolve="get" />
-                              <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                              <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
                               <node concept="37vLTw" id="2SVwmLqw3tH" role="37wK5m">
                                 <ref role="3cqZAo" node="7kQU9sgtkx_" resolve="outputParent" />
                               </node>
@@ -26888,7 +26887,7 @@
                               <ref role="37wK5l" node="2SVwmLqqzga" resolve="merge" />
                               <node concept="2YIFZM" id="2SVwmLqw5Ni" role="37wK5m">
                                 <ref role="37wK5l" node="2SVwmLqpQrz" resolve="get" />
-                                <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                                <ref role="1Pybhc" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
                                 <node concept="37vLTw" id="2SVwmLqw6mv" role="37wK5m">
                                   <ref role="3cqZAo" node="3vsFnFUHmRB" resolve="it" />
                                 </node>
@@ -26924,6 +26923,7 @@
         </node>
       </node>
     </node>
+    <node concept="3Tm1VV" id="4ZED3xnXvcz" role="1B3o_S" />
     <node concept="2tJIrI" id="5wi3nvKSVIC" role="jymVt" />
     <node concept="3clFb_" id="5_qLwQs_dgC" role="jymVt">
       <property role="TrG5h" value="createModule" />
@@ -27276,7 +27276,7 @@
         <node concept="3Tm6S6" id="2SVwmLqpvE5" role="1B3o_S" />
         <node concept="2OqwBi" id="2SVwmLqpxMW" role="33vP2m">
           <node concept="3VsKOn" id="2SVwmLqpxiQ" role="2Oq$k0">
-            <ref role="3VsUkX" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+            <ref role="3VsUkX" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
           </node>
           <node concept="liA8E" id="2SVwmLqpyM6" role="2OqNvi">
             <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
@@ -27286,12 +27286,12 @@
       <node concept="Wx3nA" id="2SVwmLqoEIx" role="jymVt">
         <property role="TrG5h" value="EMPTY" />
         <node concept="3uibUv" id="2SVwmLqolIW" role="1tU5fm">
-          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
         </node>
         <node concept="3Tm1VV" id="2SVwmLqoF20" role="1B3o_S" />
         <node concept="2ShNRf" id="2SVwmLqoCyF" role="33vP2m">
           <node concept="1pGfFk" id="2SVwmLqoDKE" role="2ShVmc">
-            <ref role="37wK5l" node="2SVwmLqom6T" resolve="ShadowOutputSynchronizer.Imports" />
+            <ref role="37wK5l" node="2SVwmLqom6T" resolve="NodeSynchronizer.Imports" />
             <node concept="2ShNRf" id="2SVwmLqoDUC" role="37wK5m">
               <node concept="kMnCb" id="2SVwmLqoEyj" role="2ShVmc">
                 <node concept="3uibUv" id="2SVwmLqoECU" role="kMuH3">
@@ -27464,7 +27464,7 @@
           </node>
         </node>
         <node concept="3uibUv" id="2SVwmLqoNgR" role="3clF45">
-          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
         </node>
         <node concept="3Tmbuc" id="2SVwmLqoM4N" role="1B3o_S" />
         <node concept="3clFbS" id="2SVwmLqoM4O" role="3clF47">
@@ -27488,7 +27488,7 @@
           <node concept="3clFbF" id="2SVwmLqp7eT" role="3cqZAp">
             <node concept="2ShNRf" id="2SVwmLqp7eP" role="3clFbG">
               <node concept="1pGfFk" id="2SVwmLqp8Lg" role="2ShVmc">
-                <ref role="37wK5l" node="2SVwmLqom6T" resolve="ShadowOutputSynchronizer.Imports" />
+                <ref role="37wK5l" node="2SVwmLqom6T" resolve="NodeSynchronizer.Imports" />
                 <node concept="2OqwBi" id="2SVwmLqpa5v" role="37wK5m">
                   <node concept="37vLTw" id="2SVwmLqp9hT" role="2Oq$k0">
                     <ref role="3cqZAo" node="2SVwmLqok1U" resolve="languages" />
@@ -27524,7 +27524,7 @@
           </node>
         </node>
         <node concept="3uibUv" id="2SVwmLqtcDl" role="3clF45">
-          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
         </node>
         <node concept="3Tmbuc" id="2SVwmLqtcDm" role="1B3o_S" />
         <node concept="3clFbS" id="2SVwmLqtcDn" role="3clF47">
@@ -27548,7 +27548,7 @@
           <node concept="3clFbF" id="2SVwmLqtcDw" role="3cqZAp">
             <node concept="2ShNRf" id="2SVwmLqtcDx" role="3clFbG">
               <node concept="1pGfFk" id="2SVwmLqtcDy" role="2ShVmc">
-                <ref role="37wK5l" node="2SVwmLqom6T" resolve="ShadowOutputSynchronizer.Imports" />
+                <ref role="37wK5l" node="2SVwmLqom6T" resolve="NodeSynchronizer.Imports" />
                 <node concept="37vLTw" id="2SVwmLqtip3" role="37wK5m">
                   <ref role="3cqZAo" node="2SVwmLqok1U" resolve="languages" />
                 </node>
@@ -27580,11 +27580,11 @@
         <node concept="37vLTG" id="2SVwmLqq$V$" role="3clF46">
           <property role="TrG5h" value="other" />
           <node concept="3uibUv" id="2SVwmLqq_N$" role="1tU5fm">
-            <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+            <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
           </node>
         </node>
         <node concept="3uibUv" id="2SVwmLqqA9c" role="3clF45">
-          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
         </node>
         <node concept="3Tmbuc" id="2SVwmLqqzgd" role="1B3o_S" />
         <node concept="3clFbS" id="2SVwmLqqzge" role="3clF47">
@@ -27592,7 +27592,7 @@
             <node concept="3cpWsn" id="2SVwmLqqC93" role="3cpWs9">
               <property role="TrG5h" value="result" />
               <node concept="3uibUv" id="2SVwmLqqC94" role="1tU5fm">
-                <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
               </node>
               <node concept="Xjq3P" id="2SVwmLqqCj7" role="33vP2m" />
             </node>
@@ -27720,11 +27720,11 @@
             <node concept="3cpWsn" id="2SVwmLqpDFw" role="3cpWs9">
               <property role="TrG5h" value="imports" />
               <node concept="3uibUv" id="2SVwmLqpDFu" role="1tU5fm">
-                <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
               </node>
               <node concept="0kSF2" id="2SVwmLqpDFx" role="33vP2m">
                 <node concept="3uibUv" id="2SVwmLqpDFy" role="0kSFW">
-                  <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                  <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
                 </node>
                 <node concept="2OqwBi" id="2SVwmLqpDFz" role="0kSFX">
                   <node concept="37vLTw" id="2SVwmLqpDF$" role="2Oq$k0">
@@ -27764,7 +27764,7 @@
           </node>
         </node>
         <node concept="3uibUv" id="2SVwmLqpAJn" role="3clF45">
-          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+          <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
         </node>
         <node concept="3Tmbuc" id="2SVwmLqp$cs" role="1B3o_S" />
       </node>
@@ -28012,11 +28012,11 @@
             <node concept="3cpWsn" id="2SVwmLquPSY" role="3cpWs9">
               <property role="TrG5h" value="that" />
               <node concept="3uibUv" id="2SVwmLquPSZ" role="1tU5fm">
-                <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
               </node>
               <node concept="10QFUN" id="2SVwmLquPT0" role="33vP2m">
                 <node concept="3uibUv" id="2SVwmLquPT1" role="10QFUM">
-                  <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="ShadowOutputSynchronizer.Imports" />
+                  <ref role="3uigEE" node="2SVwmLqoeeQ" resolve="NodeSynchronizer.Imports" />
                 </node>
                 <node concept="37vLTw" id="2SVwmLquPT2" role="10QFUP">
                   <ref role="3cqZAo" node="2SVwmLquPT3" resolve="o" />
@@ -28259,7 +28259,6 @@
         </node>
       </node>
     </node>
-    <node concept="3Tm1VV" id="4ZED3xnXvcz" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="3jGmESsJegk">
     <property role="TrG5h" value="RepositoryChangeTranslator" />
@@ -31956,6 +31955,7 @@
       </node>
       <node concept="3Tm1VV" id="3RcjyAsXVOm" role="1B3o_S" />
     </node>
+    <node concept="3Tm1VV" id="7NImM04Z3QG" role="1B3o_S" />
     <node concept="2tJIrI" id="4k1tkzDdml2" role="jymVt" />
     <node concept="2YIFZL" id="4k1tkzDdwaK" role="jymVt">
       <property role="TrG5h" value="asString" />
@@ -32145,7 +32145,6 @@
       <node concept="17QB3L" id="4k1tkzDdnrW" role="3clF45" />
       <node concept="3Tm1VV" id="4k1tkzDdnrX" role="1B3o_S" />
     </node>
-    <node concept="3Tm1VV" id="7NImM04Z3QG" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="3zTK92KPl8A">
     <property role="TrG5h" value="TransformationsFromGlobalRepository" />

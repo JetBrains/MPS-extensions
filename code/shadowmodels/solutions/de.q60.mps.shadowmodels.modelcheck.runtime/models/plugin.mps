@@ -17,11 +17,17 @@
       <concept id="1204478074808" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_MPSProject" flags="nn" index="1KvdUw" />
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
+      <concept id="481983775135178851" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginInitBlock" flags="in" index="2uRRBj" />
       <concept id="481983775135178834" name="jetbrains.mps.lang.plugin.standalone.structure.ProjectPluginDeclaration" flags="ng" index="2uRRBy">
         <child id="481983775135178836" name="initBlock" index="2uRRB$" />
         <child id="481983775135178837" name="disposeBlock" index="2uRRB_" />
         <child id="481983775135178838" name="fieldDeclaration" index="2uRRBA" />
       </concept>
+      <concept id="481983775135178840" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginDeclaration" flags="ng" index="2uRRBC">
+        <child id="481983775135178842" name="initBlock" index="2uRRBE" />
+        <child id="481983775135178843" name="disposeBlock" index="2uRRBF" />
+      </concept>
+      <concept id="481983775135178846" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginDisposeBlock" flags="in" index="2uRRBI" />
       <concept id="481983775135178819" name="jetbrains.mps.lang.plugin.standalone.structure.ProjectPluginDisposeBlock" flags="in" index="2uRRBN" />
       <concept id="481983775135178825" name="jetbrains.mps.lang.plugin.standalone.structure.ProjectPluginInitBlock" flags="in" index="2uRRBT" />
       <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
@@ -41,6 +47,9 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -192,6 +201,39 @@
                   <ref role="2WH_rO" node="7uM3WAarnf9" resolve="checker" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2uRRBC" id="5lWcBwJYr8_">
+    <property role="TrG5h" value="ApplicationPlugin" />
+    <node concept="2uRRBj" id="5lWcBwJYG1y" role="2uRRBE">
+      <node concept="3clFbS" id="5lWcBwJYG1z" role="2VODD2">
+        <node concept="3clFbF" id="5lWcBwJYUd5" role="3cqZAp">
+          <node concept="2OqwBi" id="5lWcBwJZ5zK" role="3clFbG">
+            <node concept="2YIFZM" id="5lWcBwJZ2E2" role="2Oq$k0">
+              <ref role="37wK5l" to="j9xc:5lWcBwJKrMr" resolve="getInstance" />
+              <ref role="1Pybhc" to="j9xc:5lWcBwJq37R" resolve="ShadowModelChecker" />
+            </node>
+            <node concept="liA8E" id="5lWcBwJZe7z" role="2OqNvi">
+              <ref role="37wK5l" to="j9xc:5lWcBwJyd9j" resolve="start" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2uRRBI" id="5lWcBwJZsd7" role="2uRRBF">
+      <node concept="3clFbS" id="5lWcBwJZsd8" role="2VODD2">
+        <node concept="3clFbF" id="5lWcBwJZv1o" role="3cqZAp">
+          <node concept="2OqwBi" id="5lWcBwJZv1p" role="3clFbG">
+            <node concept="2YIFZM" id="5lWcBwJZv1q" role="2Oq$k0">
+              <ref role="1Pybhc" to="j9xc:5lWcBwJq37R" resolve="ShadowModelChecker" />
+              <ref role="37wK5l" to="j9xc:5lWcBwJKrMr" resolve="getInstance" />
+            </node>
+            <node concept="liA8E" id="5lWcBwJZv1r" role="2OqNvi">
+              <ref role="37wK5l" to="j9xc:5lWcBwJyx1y" resolve="stop" />
             </node>
           </node>
         </node>

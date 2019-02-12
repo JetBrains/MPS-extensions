@@ -43,11 +43,6 @@
       </concept>
       <concept id="7335687028107243116" name="de.q60.mps.shadowmodels.transformation.structure.NodeBuilder" flags="ng" index="027og">
         <reference id="7335687028107281650" name="concept" index="02LMe" />
-        <child id="7335687028107281653" name="content" index="02LM9" />
-      </concept>
-      <concept id="7335687028107243169" name="de.q60.mps.shadowmodels.transformation.structure.ChildBuilder" flags="ng" index="027rt">
-        <reference id="7335687028107243171" name="link" index="027rv" />
-        <child id="7335687028107243173" name="child" index="027rp" />
       </concept>
       <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ig" index="02i3D">
         <reference id="7335687028107163800" name="concept" index="02i3$" />
@@ -87,12 +82,6 @@
       <node concept="026TG" id="7YhLqbpfNNb" role="026TK">
         <node concept="027og" id="7YhLqbpfNNh" role="026TJ">
           <ref role="02LMe" to="dj5d:qmkA5fOskm" resolve="Repository" />
-          <node concept="027rt" id="7Ks$D7Gn6bk" role="02LM9">
-            <ref role="027rv" to="dj5d:qmkA5fOskn" resolve="modules" />
-            <node concept="027og" id="7Ks$D7Gn6by" role="027rp">
-              <ref role="02LMe" to="dj5d:qmkA5fOskf" resolve="Module" />
-            </node>
-          </node>
         </node>
       </node>
       <node concept="02i3K" id="7YhLqbpfNMS" role="02i3f">

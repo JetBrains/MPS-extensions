@@ -61,6 +61,16 @@
     <property role="EcuMT" value="4196887567284746232" />
     <property role="TrG5h" value="CollectionCell" />
     <ref role="1TJDcQ" node="3CYlK6ygFvQ" resolve="Cell" />
+    <node concept="1TJgyi" id="2VTIUrjmCk2" role="1TKVEl">
+      <property role="IQ2nx" value="3384942920130528514" />
+      <property role="TrG5h" value="vertical" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2VTIUrjmDbj" role="1TKVEl">
+      <property role="IQ2nx" value="3384942920130532051" />
+      <property role="TrG5h" value="indent" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="3CYlK6yhHqM" role="1TKVEi">
       <property role="IQ2ns" value="4196887567285016242" />
       <property role="20lmBu" value="aggregation" />
@@ -87,6 +97,31 @@
       <property role="IQ2nx" value="4196887567285122182" />
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2VTIUrjlpJ0">
+    <property role="EcuMT" value="3384942920130206656" />
+    <property role="TrG5h" value="GridCell" />
+    <ref role="1TJDcQ" node="3CYlK6ygFvS" resolve="CollectionCell" />
+    <node concept="1TJgyi" id="2VTIUrjlpKv" role="1TKVEl">
+      <property role="IQ2nx" value="3384942920130206751" />
+      <property role="TrG5h" value="vertical" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2VTIUrjl_zS">
+    <property role="EcuMT" value="3384942920130255096" />
+    <property role="TrG5h" value="NodeCell" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2VTIUrjl_$r" role="1TKVEi">
+      <property role="IQ2ns" value="3384942920130255131" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="node" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="PrWs8" id="2VTIUrjl_$o" role="PzmwI">
+      <ref role="PrY4T" node="3CYlK6ygFvR" resolve="ICell" />
     </node>
   </node>
 </model>

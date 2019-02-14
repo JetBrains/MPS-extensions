@@ -6214,6 +6214,11 @@
           <property role="TrG5h" value="de.q60.mps.shadowmodels.target.editor#01" />
           <property role="3LESm3" value="28036230-ca8e-4a87-ba2b-7d1c304f9681" />
         </node>
+        <node concept="1SiIV0" id="2FosA_pFQLK" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pFQLL" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hy" resolve="de.q60.mps.shadowmodels.target.editor" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="BRK1N8p1Qt" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -6466,6 +6471,11 @@
         <node concept="1SiIV0" id="3RcjyAtlZAY" role="3bR37C">
           <node concept="3bR9La" id="3RcjyAtlZAZ" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pFQLO" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pFQLP" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
       </node>
@@ -6733,6 +6743,36 @@
         <node concept="1SiIV0" id="BRK1N8p1Qj" role="3bR37C">
           <node concept="3bR9La" id="BRK1N8p1Qk" role="1SiIV1">
             <ref role="3bR37D" node="BRK1N8p1ux" resolve="de.q60.mps.shadowmodels.examples.statemachine" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pFQLQ" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pFQLR" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pFQLS" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pFQLT" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hy" resolve="de.q60.mps.shadowmodels.target.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pFQLU" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pFQLV" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pFQLW" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pFQLX" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pFQLY" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pFQLZ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pFQM0" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pFQM1" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5HO" resolve="de.q60.mps.shadowmodels.transformation" />
           </node>
         </node>
       </node>

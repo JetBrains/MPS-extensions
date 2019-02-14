@@ -1387,9 +1387,9 @@
       <property role="TrG5h" value="table" />
       <node concept="026TG" id="2VTIUrjljwN" role="026TK">
         <node concept="027og" id="2VTIUrjmHs0" role="026TJ">
-          <ref role="02LMe" to="6ysr:2VTIUrjlpJ0" resolve="GridCell" />
+          <ref role="02LMe" to="6ysr:3CYlK6ygFvS" resolve="CollectionCell" />
           <node concept="027oh" id="2VTIUrjmIZD" role="02LM9">
-            <ref role="027oj" to="6ysr:2VTIUrjmCk2" resolve="vertical" />
+            <ref role="027oj" to="6ysr:2FosA_pFR7T" resolve="verticalGrid" />
             <node concept="3clFbT" id="2VTIUrjmJc7" role="027of">
               <property role="3clFbU" value="true" />
             </node>
@@ -1397,11 +1397,23 @@
           <node concept="027rt" id="2VTIUrjmIB3" role="02LM9">
             <ref role="027rv" to="6ysr:3CYlK6yhHqM" resolve="childCells" />
             <node concept="027og" id="2VTIUrjmJcj" role="027rp">
-              <ref role="02LMe" to="6ysr:2VTIUrjlpJ0" resolve="GridCell" />
+              <ref role="02LMe" to="6ysr:3CYlK6ygFvS" resolve="CollectionCell" />
+              <node concept="027oh" id="2FosA_pGNON" role="02LM9">
+                <ref role="027oj" to="6ysr:2FosA_pG$nZ" resolve="drawBorder" />
+                <node concept="3clFbT" id="2FosA_pGNRU" role="027of">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
               <node concept="027rt" id="2VTIUrjmJcw" role="02LM9">
                 <ref role="027rv" to="6ysr:3CYlK6yhHqM" resolve="childCells" />
                 <node concept="027og" id="2VTIUrjmJcE" role="027rp">
                   <ref role="02LMe" to="6ysr:3CYlK6ygFvT" resolve="ConstantCell" />
+                  <node concept="027oh" id="2FosA_pHczX" role="02LM9">
+                    <ref role="027oj" to="6ysr:2FosA_pG$nZ" resolve="drawBorder" />
+                    <node concept="3clFbT" id="2FosA_pHczY" role="027of">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="027rt" id="2VTIUrjmJcV" role="02LM9">
@@ -1462,7 +1474,13 @@
       <property role="TrG5h" value="row" />
       <node concept="026TG" id="2VTIUrjlzh8" role="026TK">
         <node concept="027og" id="2VTIUrjlzhk" role="026TJ">
-          <ref role="02LMe" to="6ysr:2VTIUrjlpJ0" resolve="GridCell" />
+          <ref role="02LMe" to="6ysr:3CYlK6ygFvS" resolve="CollectionCell" />
+          <node concept="027oh" id="2FosA_pGNS6" role="02LM9">
+            <ref role="027oj" to="6ysr:2FosA_pG$nZ" resolve="drawBorder" />
+            <node concept="3clFbT" id="2FosA_pGNS7" role="027of">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
           <node concept="027rt" id="2VTIUrjmKzW" role="02LM9">
             <ref role="027rv" to="6ysr:3CYlK6yhHqM" resolve="childCells" />
             <node concept="027og" id="2VTIUrjodE2" role="027rp">
@@ -1566,9 +1584,21 @@
           </node>
           <node concept="027og" id="739BlCoVqJ3" role="3MbsXo">
             <ref role="02LMe" to="6ysr:3CYlK6ygFvT" resolve="ConstantCell" />
+            <node concept="027oh" id="2FosA_pGOgU" role="02LM9">
+              <ref role="027oj" to="6ysr:2FosA_pG$nZ" resolve="drawBorder" />
+              <node concept="3clFbT" id="2FosA_pGOgV" role="027of">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
           </node>
           <node concept="027og" id="739BlCoWGmS" role="3MbsX5">
             <ref role="02LMe" to="6ysr:3CYlK6ygFvS" resolve="CollectionCell" />
+            <node concept="027oh" id="2FosA_pGO4_" role="02LM9">
+              <ref role="027oj" to="6ysr:2FosA_pG$nZ" resolve="drawBorder" />
+              <node concept="3clFbT" id="2FosA_pGO4A" role="027of">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
             <node concept="027oh" id="739BlCoWH1J" role="02LM9">
               <ref role="027oj" to="6ysr:2VTIUrjmCk2" resolve="vertical" />
               <node concept="3clFbT" id="739BlCoWHeD" role="027of">

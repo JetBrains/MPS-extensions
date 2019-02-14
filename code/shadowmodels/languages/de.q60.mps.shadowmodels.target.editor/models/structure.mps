@@ -49,6 +49,11 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2FosA_pG$nZ" role="1TKVEl">
+      <property role="IQ2nx" value="3087343341364463103" />
+      <property role="TrG5h" value="drawBorder" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="3CYlK6ygFvU" role="PzmwI">
       <ref role="PrY4T" node="3CYlK6ygFvR" resolve="ICell" />
     </node>
@@ -64,6 +69,11 @@
     <node concept="1TJgyi" id="2VTIUrjmCk2" role="1TKVEl">
       <property role="IQ2nx" value="3384942920130528514" />
       <property role="TrG5h" value="vertical" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2FosA_pFR7T" role="1TKVEl">
+      <property role="IQ2nx" value="3087343341364277753" />
+      <property role="TrG5h" value="verticalGrid" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="2VTIUrjmDbj" role="1TKVEl">
@@ -104,20 +114,10 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2VTIUrjlpJ0">
-    <property role="EcuMT" value="3384942920130206656" />
-    <property role="TrG5h" value="GridCell" />
-    <ref role="1TJDcQ" node="3CYlK6ygFvS" resolve="CollectionCell" />
-    <node concept="1TJgyi" id="2VTIUrjlpKv" role="1TKVEl">
-      <property role="IQ2nx" value="3384942920130206751" />
-      <property role="TrG5h" value="vertical" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2VTIUrjl_zS">
     <property role="EcuMT" value="3384942920130255096" />
     <property role="TrG5h" value="NodeCell" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3CYlK6ygFvQ" resolve="Cell" />
     <node concept="1TJgyj" id="2VTIUrjl_$r" role="1TKVEi">
       <property role="IQ2ns" value="3384942920130255131" />
       <property role="20lmBu" value="aggregation" />

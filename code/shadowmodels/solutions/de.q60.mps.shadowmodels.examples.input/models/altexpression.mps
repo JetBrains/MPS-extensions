@@ -61,7 +61,6 @@
       </concept>
       <concept id="5182877833500586703" name="de.q60.mps.shadowmodels.examples.expext.structure.OtherwiseLiteral" flags="ng" index="2NSjky" />
       <concept id="4214990435115877128" name="de.q60.mps.shadowmodels.examples.expext.structure.DecTab" flags="ng" index="UJIhK">
-        <child id="4214990435116839854" name="default" index="UG5jm" />
         <child id="4214990435115877193" name="contents" index="UJIgL" />
         <child id="4214990435115877185" name="rowHeaders" index="UJIgT" />
         <child id="4214990435115877188" name="colHeaders" index="UJIgW" />
@@ -157,7 +156,7 @@
           </node>
         </node>
         <node concept="38Xu9M" id="59lSyF52rjH" role="38X86o">
-          <node concept="myfm1" id="59lSyF52rjI" role="38Xu9u" />
+          <node concept="myfm1" id="MNhuapTWNj" role="38Xu9u" />
           <node concept="1H2aKs" id="59lSyF52rjJ" role="38Xu9j">
             <property role="1H2aK3" value="2" />
           </node>
@@ -259,7 +258,7 @@
             </node>
           </node>
           <node concept="38Xu9M" id="1s_GFdUc5$r" role="38X86o">
-            <node concept="1H2aKy" id="1s_GFdUc5$s" role="38Xu9u" />
+            <node concept="1H2aKy" id="MNhuapTOx2" role="38Xu9u" />
             <node concept="38XQG0" id="1s_GFdUc5$t" role="38Xu9j">
               <ref role="38XQJG" node="3JPN2vWjqn_" resolve="b" />
             </node>
@@ -313,9 +312,6 @@
           <node concept="1H2aKs" id="1_cQhkfGzrt" role="UJIhC">
             <property role="1H2aK3" value="87" />
           </node>
-        </node>
-        <node concept="1H2aKs" id="1_cQhkfIFzc" role="UG5jm">
-          <property role="1H2aK3" value="99" />
         </node>
         <node concept="UJIhQ" id="4vHhYROjs1a" role="UJIgL">
           <ref role="UJIh1" node="1_cQhkfGznT" />

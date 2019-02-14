@@ -10,10 +10,31 @@
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="j9xc" ref="r:6aee7d67-7b82-4d41-8ae4-450924f3612f(de.q60.mps.shadowmodels.modelcheck.runtime)" />
+    <import index="y9oj" ref="r:3014a312-a1f1-41c3-9ecc-5491810305c3(de.q60.mps.shadowmodels.runtime.plugin)" />
     <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
+        <child id="1207145201301" name="reference" index="ftvYc" />
+      </concept>
+      <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
+        <property id="1205250923097" name="caption" index="2uzpH1" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
+        <child id="1203083461638" name="executeFunction" index="tncku" />
+      </concept>
+      <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
+      <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <child id="1204991552650" name="modifier" index="2f5YQi" />
+        <child id="1207145245948" name="contents" index="ftER_" />
+      </concept>
+      <concept id="1203088046679" name="jetbrains.mps.lang.plugin.structure.ActionInstance" flags="ng" index="tCFHf">
+        <reference id="1203088061055" name="action" index="tCJdB" />
+      </concept>
+      <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
+        <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
+      </concept>
+      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
       <concept id="1204478074808" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_MPSProject" flags="nn" index="1KvdUw" />
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -67,10 +88,16 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -212,14 +239,9 @@
     <node concept="2uRRBj" id="5lWcBwJYG1y" role="2uRRBE">
       <node concept="3clFbS" id="5lWcBwJYG1z" role="2VODD2">
         <node concept="3clFbF" id="5lWcBwJYUd5" role="3cqZAp">
-          <node concept="2OqwBi" id="5lWcBwJZ5zK" role="3clFbG">
-            <node concept="2YIFZM" id="5lWcBwJZ2E2" role="2Oq$k0">
-              <ref role="37wK5l" to="j9xc:5lWcBwJKrMr" resolve="getInstance" />
-              <ref role="1Pybhc" to="j9xc:5lWcBwJq37R" resolve="ShadowModelChecker" />
-            </node>
-            <node concept="liA8E" id="5lWcBwJZe7z" role="2OqNvi">
-              <ref role="37wK5l" to="j9xc:5lWcBwJyd9j" resolve="start" />
-            </node>
+          <node concept="2YIFZM" id="6CK31f5s1Yb" role="3clFbG">
+            <ref role="37wK5l" to="j9xc:7zI2priS6_P" resolve="applyEnabledState" />
+            <ref role="1Pybhc" to="j9xc:5lWcBwJq37R" resolve="ShadowModelChecker" />
           </node>
         </node>
       </node>
@@ -235,6 +257,74 @@
             <node concept="liA8E" id="5lWcBwJZv1r" role="2OqNvi">
               <ref role="37wK5l" to="j9xc:5lWcBwJyx1y" resolve="stop" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="tC5Ba" id="6CK31f5q_Xt">
+    <property role="TrG5h" value="ErrorLiftingGroup" />
+    <node concept="ftmFs" id="6CK31f5rUWC" role="ftER_">
+      <node concept="tCFHf" id="6CK31f5rUWF" role="ftvYc">
+        <ref role="tCJdB" node="6CK31f5q_Xv" resolve="EnableErrorLifting" />
+      </node>
+      <node concept="tCFHf" id="6CK31f5rUWK" role="ftvYc">
+        <ref role="tCJdB" node="6CK31f5rUDi" resolve="DisableErrorLifting" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="6CK31f5rUWO" role="2f5YQi">
+      <ref role="tU$_T" to="y9oj:43OnoQB0wqZ" resolve="ShadowGroup" />
+    </node>
+  </node>
+  <node concept="sE7Ow" id="6CK31f5q_Xv">
+    <property role="2uzpH1" value="Enable Error Lifting" />
+    <property role="TrG5h" value="EnableErrorLifting" />
+    <node concept="tnohg" id="6CK31f5q_Xw" role="tncku">
+      <node concept="3clFbS" id="6CK31f5q_Xx" role="2VODD2">
+        <node concept="3clFbF" id="6CK31f5rTIj" role="3cqZAp">
+          <node concept="2YIFZM" id="6CK31f5rTIP" role="3clFbG">
+            <ref role="37wK5l" to="j9xc:7zI2priRdct" resolve="setEnable" />
+            <ref role="1Pybhc" to="j9xc:5lWcBwJq37R" resolve="ShadowModelChecker" />
+            <node concept="3clFbT" id="6CK31f5rTJj" role="37wK5m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="6CK31f5rTJQ" role="tmbBb">
+      <node concept="3clFbS" id="6CK31f5rTJR" role="2VODD2">
+        <node concept="3clFbF" id="6CK31f5rTXL" role="3cqZAp">
+          <node concept="3fqX7Q" id="6CK31f5rUw_" role="3clFbG">
+            <node concept="2YIFZM" id="6CK31f5rUwB" role="3fr31v">
+              <ref role="37wK5l" to="j9xc:7zI2priRPPb" resolve="isEnabled" />
+              <ref role="1Pybhc" to="j9xc:5lWcBwJq37R" resolve="ShadowModelChecker" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="6CK31f5rUDi">
+    <property role="2uzpH1" value="Disable Error Lifting" />
+    <property role="TrG5h" value="DisableErrorLifting" />
+    <node concept="tnohg" id="6CK31f5rUDj" role="tncku">
+      <node concept="3clFbS" id="6CK31f5rUDk" role="2VODD2">
+        <node concept="3clFbF" id="6CK31f5rUDl" role="3cqZAp">
+          <node concept="2YIFZM" id="6CK31f5rUDm" role="3clFbG">
+            <ref role="37wK5l" to="j9xc:7zI2priRdct" resolve="setEnable" />
+            <ref role="1Pybhc" to="j9xc:5lWcBwJq37R" resolve="ShadowModelChecker" />
+            <node concept="3clFbT" id="6CK31f5rUDn" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="6CK31f5rUDo" role="tmbBb">
+      <node concept="3clFbS" id="6CK31f5rUDp" role="2VODD2">
+        <node concept="3clFbF" id="6CK31f5rUDq" role="3cqZAp">
+          <node concept="2YIFZM" id="6CK31f5rUDs" role="3clFbG">
+            <ref role="37wK5l" to="j9xc:7zI2priRPPb" resolve="isEnabled" />
+            <ref role="1Pybhc" to="j9xc:5lWcBwJq37R" resolve="ShadowModelChecker" />
           </node>
         </node>
       </node>

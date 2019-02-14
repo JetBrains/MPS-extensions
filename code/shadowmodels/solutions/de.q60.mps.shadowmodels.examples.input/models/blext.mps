@@ -35,11 +35,15 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
@@ -64,6 +68,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" name="de.q60.mps.shadowmodels.examples.blext">
+      <concept id="7651629045960405901" name="de.q60.mps.shadowmodels.examples.blext.structure.ErrorStatement" flags="ng" index="2JHZYu">
+        <property id="7651629045960405902" name="message" index="2JHZYt" />
+      </concept>
       <concept id="7898342489379231356" name="de.q60.mps.shadowmodels.examples.blext.structure.UntilStatement" flags="ng" index="3Oj_Fp">
         <child id="7898342489379231357" name="condition" index="3Oj_Fo" />
         <child id="7898342489379231359" name="body" index="3Oj_Fq" />
@@ -83,7 +90,7 @@
     <property role="TrG5h" value="ClassA" />
     <node concept="3clFb_" id="45rECHPB$Np" role="jymVt">
       <property role="TrG5h" value="f" />
-      <node concept="3cqZAl" id="45rECHPB$Nr" role="3clF45" />
+      <node concept="10Oyi0" id="6CK31f5x_Af" role="3clF45" />
       <node concept="3Tm1VV" id="45rECHPB$Ns" role="1B3o_S" />
       <node concept="3clFbS" id="45rECHPB$Nt" role="3clF47">
         <node concept="3cpWs8" id="Vl1zEEwGPx" role="3cqZAp">
@@ -110,14 +117,6 @@
           </node>
         </node>
         <node concept="3Oj_Fp" id="4dnJ3mx5i3s" role="3cqZAp">
-          <node concept="3eOSWO" id="IdPituvzA6" role="3Oj_Fo">
-            <node concept="37vLTw" id="IdPituvyRg" role="3uHU7B">
-              <ref role="3cqZAo" node="4dnJ3mx5i4$" resolve="x" />
-            </node>
-            <node concept="3cmrfG" id="IdPituvzAj" role="3uHU7w">
-              <property role="3cmrfH" value="10" />
-            </node>
-          </node>
           <node concept="3clFbS" id="4dnJ3mx5i3u" role="3Oj_Fq">
             <node concept="3clFbF" id="Vl1zEEll7q" role="3cqZAp">
               <node concept="3uNrnE" id="Vl1zEElloO" role="3clFbG">
@@ -126,6 +125,24 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="3eOSWO" id="IdPituvzA6" role="3Oj_Fo">
+            <node concept="37vLTw" id="IdPituvyRg" role="3uHU7B">
+              <ref role="3cqZAo" node="4dnJ3mx5i4$" resolve="x" />
+            </node>
+            <node concept="3cmrfG" id="IdPituvzAj" role="3uHU7w">
+              <property role="3cmrfH" value="10" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6CK31f5y4KN" role="3cqZAp" />
+        <node concept="2JHZYu" id="6CK31f5y9_Z" role="3cqZAp">
+          <property role="2JHZYt" value="This is wrong" />
+        </node>
+        <node concept="3clFbH" id="6CK31f5xtI1" role="3cqZAp" />
+        <node concept="3cpWs6" id="6CK31f5xyY$" role="3cqZAp">
+          <node concept="3cmrfG" id="6CK31f5xER1" role="3cqZAk">
+            <property role="3cmrfH" value="10" />
           </node>
         </node>
       </node>

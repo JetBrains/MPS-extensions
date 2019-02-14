@@ -8,10 +8,11 @@
   <imports>
     <import index="shry" ref="r:49e489bb-f00f-4c40-a675-08c681da1ac3(de.q60.mps.shadowmodels.examples.expressions.transformations)" />
     <import index="r8g4" ref="r:bba4935b-e963-4377-96f6-d91b7da9aab3(de.q60.mps.shadowmodels.examples.expext.structure)" />
+    <import index="jwvb" ref="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)" />
     <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(de.q60.mps.shadowmodels.examples.expressions.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="5den" ref="r:26502da1-c4f2-4cdc-afaf-5fa494d208c6(de.q60.mps.shadowmodels.examples.expext.behavior)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -24,6 +25,16 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
@@ -108,6 +119,13 @@
         <child id="7316581361273089326" name="rootCall" index="3lp9Fl" />
       </concept>
       <concept id="3563231453904357666" name="de.q60.mps.shadowmodels.transformation.structure.NullNode" flags="ng" index="3n1eO2" />
+      <concept id="6159853882139040253" name="de.q60.mps.shadowmodels.transformation.structure.OperationParameterRef" flags="ng" index="1$imI5">
+        <reference id="6159853882139040254" name="parameterDecl" index="1$imI6" />
+      </concept>
+      <concept id="6159853882138530356" name="de.q60.mps.shadowmodels.transformation.structure.OperationImplementation" flags="ng" index="1$kq1c">
+        <reference id="6159853882138530357" name="operationDecl" index="1$kq1d" />
+        <child id="6159853882138824697" name="body" index="1$jzQ1" />
+      </concept>
       <concept id="3732365408176170456" name="de.q60.mps.shadowmodels.transformation.structure.MappingLabelDeclaration" flags="ng" index="1_xYd8">
         <reference id="3732365408176209693" name="outputConcept" index="1_w7Ad" />
         <child id="3732365408176205846" name="inputTypes" index="1_w7q6" />
@@ -165,6 +183,24 @@
         <node concept="3eisIN" id="_UxhR7dlWD" role="026TJ">
           <node concept="027og" id="1s_GFdUbwv4" role="3eisIV">
             <ref role="02LMe" to="nup6:1s_GFdUbvEB" resolve="NeverLit" />
+            <node concept="1$kq1c" id="MNhuapTeR0" role="02LM9">
+              <ref role="1$kq1d" to="jwvb:5lWcBwL9257" resolve="liftMessage" />
+              <node concept="3clFbS" id="MNhuapTeR2" role="1$jzQ1">
+                <node concept="3clFbF" id="MNhuapTqjq" role="3cqZAp">
+                  <node concept="2OqwBi" id="MNhuapTqnB" role="3clFbG">
+                    <node concept="1$imI5" id="MNhuapTqjp" role="2Oq$k0">
+                      <ref role="1$imI6" to="jwvb:7Ks$D7GvoxV" resolve="lifter" />
+                    </node>
+                    <node concept="liA8E" id="MNhuapTqtk" role="2OqNvi">
+                      <ref role="37wK5l" to="jwvb:7Ks$D7Gwulu" resolve="liftMessage" />
+                      <node concept="Xl_RD" id="MNhuapTqtO" role="37wK5m">
+                        <property role="Xl_RC" value="This alt is not guaranteed to succeed; unhandled combination." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="2OqwBi" id="_UxhR7dm67" role="3eisI7">
             <node concept="2155sH" id="_UxhR7dlXD" role="2Oq$k0">
@@ -293,6 +329,39 @@
                       </node>
                       <node concept="3TrEf2" id="1_cQhkfIfOg" role="2OqNvi">
                         <ref role="3Tt5mk" to="r8g4:3DYDRw0NJeI" resolve="default" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1$kq1c" id="MNhuapU3Ay" role="02LM9">
+            <ref role="1$kq1d" to="jwvb:5lWcBwL9257" resolve="liftMessage" />
+            <node concept="3clFbS" id="MNhuapU3A$" role="1$jzQ1">
+              <node concept="3clFbJ" id="MNhuapU5Jx" role="3cqZAp">
+                <node concept="2OqwBi" id="MNhuapU616" role="3clFbw">
+                  <node concept="1$imI5" id="MNhuapU5JH" role="2Oq$k0">
+                    <ref role="1$imI6" to="jwvb:5lWcBwLan$L" resolve="text" />
+                  </node>
+                  <node concept="liA8E" id="MNhuapU6Ag" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <node concept="Xl_RD" id="MNhuapU6AM" role="37wK5m">
+                      <property role="Xl_RC" value="guaranteed" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbS" id="MNhuapU5Jz" role="3clFbx">
+                  <node concept="3clFbF" id="MNhuapU6Mf" role="3cqZAp">
+                    <node concept="2OqwBi" id="MNhuapU6Mh" role="3clFbG">
+                      <node concept="1$imI5" id="MNhuapU6Mi" role="2Oq$k0">
+                        <ref role="1$imI6" to="jwvb:7Ks$D7GvoxV" resolve="lifter" />
+                      </node>
+                      <node concept="liA8E" id="MNhuapU6Mj" role="2OqNvi">
+                        <ref role="37wK5l" to="jwvb:7Ks$D7Gwulu" resolve="liftMessage" />
+                        <node concept="Xl_RD" id="MNhuapU6Mk" role="37wK5m">
+                          <property role="Xl_RC" value="This table is not guaranteed to succeed; unhandled combinations possible." />
+                        </node>
                       </node>
                     </node>
                   </node>

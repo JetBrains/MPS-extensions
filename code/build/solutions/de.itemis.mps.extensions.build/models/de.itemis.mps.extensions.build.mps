@@ -6409,11 +6409,6 @@
               <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
             </node>
           </node>
-          <node concept="1SiIV0" id="3dJFrKmAaW$" role="3bR37C">
-            <node concept="3bR9La" id="3dJFrKmAb31" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="4iIKqJTZ5JK" role="3bR37C">
             <node concept="3bR9La" id="4iIKqJTZ5JL" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
@@ -6481,11 +6476,6 @@
         <node concept="1SiIV0" id="3RcjyAtlZAY" role="3bR37C">
           <node concept="3bR9La" id="3RcjyAtlZAZ" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2FosA_pFQLO" role="3bR37C">
-          <node concept="3bR9La" id="2FosA_pFQLP" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
       </node>
@@ -6806,6 +6796,16 @@
         <node concept="1SiIV0" id="27vxCXgy$JF" role="3bR37C">
           <node concept="1Busua" id="27vxCXgy$JG" role="1SiIV1">
             <ref role="1Busuk" node="BRK1N8p1rh" resolve="de.q60.mps.shadowmodels.examples.expressions" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pIwMZ" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pIwN0" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2FosA_pIwN1" role="3bR37C">
+          <node concept="3bR9La" id="2FosA_pIwN2" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5I0" resolve="de.q60.mps.shadowmodels.repository" />
           </node>
         </node>
       </node>

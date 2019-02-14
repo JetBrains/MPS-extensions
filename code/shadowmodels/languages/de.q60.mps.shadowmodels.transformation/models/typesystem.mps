@@ -3859,6 +3859,22 @@
     <property role="TrG5h" value="typeof_Transform" />
     <property role="3GE5qa" value="rewrite" />
     <node concept="3clFbS" id="6m9HZIKTwpv" role="18ibNy">
+      <node concept="1Z5TYs" id="2FosA_pMGTC" role="3cqZAp">
+        <node concept="mw_s8" id="2FosA_pMGWH" role="1ZfhKB">
+          <node concept="2pJPEk" id="2FosA_pMGWD" role="mwGJk">
+            <node concept="2pJPED" id="2FosA_pMGWV" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2FosA_pMGTF" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2FosA_pMGCq" role="mwGJk">
+            <node concept="1YBJjd" id="2FosA_pMGGY" role="1Z2MuG">
+              <ref role="1YBMHb" node="6m9HZIKTwpx" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1ZobV4" id="6m9HZIKTw_f" role="3cqZAp">
         <node concept="mw_s8" id="6m9HZIKTw_F" role="1ZfhKB">
           <node concept="2pJPEk" id="6m9HZIKTw_B" role="mwGJk">

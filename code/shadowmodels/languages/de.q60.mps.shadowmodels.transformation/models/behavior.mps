@@ -505,15 +505,37 @@
               <node concept="2ShNRf" id="5b_lky_ZpL9" role="YScLw">
                 <node concept="1pGfFk" id="5b_lky_ZpZp" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="5b_lky_ZqKh" role="37wK5m">
+                  <node concept="3cpWs3" id="2FosA_pMke0" role="37wK5m">
                     <node concept="2OqwBi" id="5b_lky_Zr0v" role="3uHU7w">
                       <node concept="13iPFW" id="5b_lky_ZqMf" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="5b_lky_ZrBD" role="2OqNvi">
-                        <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                      <node concept="2qgKlT" id="2FosA_pMjXX" role="2OqNvi">
+                        <ref role="37wK5l" node="1cIlazwM6L0" resolve="getName" />
                       </node>
                     </node>
-                    <node concept="Xl_RD" id="5b_lky_Zq0V" role="3uHU7B">
-                      <property role="Xl_RC" value="Cannot calculate the type for " />
+                    <node concept="3cpWs3" id="2FosA_pMq9Z" role="3uHU7B">
+                      <node concept="Xl_RD" id="2FosA_pMqa2" role="3uHU7w">
+                        <property role="Xl_RC" value="." />
+                      </node>
+                      <node concept="3cpWs3" id="5b_lky_ZqKh" role="3uHU7B">
+                        <node concept="Xl_RD" id="5b_lky_Zq0V" role="3uHU7B">
+                          <property role="Xl_RC" value="Cannot calculate the type for " />
+                        </node>
+                        <node concept="2OqwBi" id="2FosA_pMmLe" role="3uHU7w">
+                          <node concept="2OqwBi" id="2FosA_pMlpL" role="2Oq$k0">
+                            <node concept="13iPFW" id="2FosA_pMlbe" role="2Oq$k0" />
+                            <node concept="2Xjw5R" id="2FosA_pMm5i" role="2OqNvi">
+                              <node concept="1xMEDy" id="2FosA_pMm5k" role="1xVPHs">
+                                <node concept="chp4Y" id="2FosA_pMmpM" role="ri$Ld">
+                                  <ref role="cht4Q" to="oyp0:6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="2FosA_pMp$g" role="2OqNvi">
+                            <ref role="37wK5l" node="2$QnGbu$Y3I" resolve="getFullQualifiedName" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>

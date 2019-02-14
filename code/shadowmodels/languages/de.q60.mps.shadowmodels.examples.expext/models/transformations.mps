@@ -654,6 +654,56 @@
                   </node>
                 </node>
               </node>
+              <node concept="1$kq1c" id="MNhuapU_$6" role="02LM9">
+                <ref role="1$kq1d" to="jwvb:5lWcBwL9257" resolve="liftMessage" />
+                <node concept="3clFbS" id="MNhuapU_$8" role="1$jzQ1">
+                  <node concept="3clFbJ" id="MNhuapUA7t" role="3cqZAp">
+                    <node concept="2OqwBi" id="MNhuapUAp2" role="3clFbw">
+                      <node concept="1$imI5" id="MNhuapUA7D" role="2Oq$k0">
+                        <ref role="1$imI6" to="jwvb:5lWcBwLan$L" resolve="text" />
+                      </node>
+                      <node concept="liA8E" id="MNhuapUAYc" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                        <node concept="Xl_RD" id="MNhuapUAYx" role="37wK5m">
+                          <property role="Xl_RC" value="duplicate" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="MNhuapUA7v" role="3clFbx">
+                      <node concept="3clFbF" id="MNhuapUB5n" role="3cqZAp">
+                        <node concept="2OqwBi" id="MNhuapUB9$" role="3clFbG">
+                          <node concept="1$imI5" id="MNhuapUB5l" role="2Oq$k0">
+                            <ref role="1$imI6" to="jwvb:7Ks$D7GvoxV" resolve="lifter" />
+                          </node>
+                          <node concept="liA8E" id="MNhuapUBfh" role="2OqNvi">
+                            <ref role="37wK5l" to="jwvb:7Ks$D7GupFD" resolve="liftMessage" />
+                            <node concept="Xl_RD" id="MNhuapUBfL" role="37wK5m">
+                              <property role="Xl_RC" value="this is the duplicate" />
+                            </node>
+                            <node concept="214o7A" id="MNhuapUJxd" role="37wK5m" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="MNhuapUWQ7" role="3cqZAp">
+                        <node concept="2OqwBi" id="MNhuapUWQ8" role="3clFbG">
+                          <node concept="1$imI5" id="MNhuapUWQ9" role="2Oq$k0">
+                            <ref role="1$imI6" to="jwvb:7Ks$D7GvoxV" resolve="lifter" />
+                          </node>
+                          <node concept="liA8E" id="MNhuapUWQa" role="2OqNvi">
+                            <ref role="37wK5l" to="jwvb:7Ks$D7GupFD" resolve="liftMessage" />
+                            <node concept="Xl_RD" id="MNhuapUWQb" role="37wK5m">
+                              <property role="Xl_RC" value="duplicate literal names" />
+                            </node>
+                            <node concept="2155sH" id="MNhuapUY1Y" role="37wK5m">
+                              <ref role="2155sG" node="1_cQhkfJumw" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="214o7A" id="1_cQhkfKb1v" role="1_$sAB" />
           </node>

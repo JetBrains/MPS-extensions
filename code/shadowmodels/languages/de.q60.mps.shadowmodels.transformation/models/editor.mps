@@ -2920,6 +2920,7 @@
     <property role="3GE5qa" value="operation" />
     <ref role="1XX52x" to="oyp0:5lWcBwLbp8O" resolve="OperationImplementation" />
     <node concept="3EZMnI" id="5lWcBwLbp91" role="2wV5jI">
+      <property role="S$Qs1" value="true" />
       <node concept="3F0ifn" id="MNhuapSiA5" role="3EZMnx">
         <property role="3F0ifm" value="implementation" />
       </node>
@@ -3044,6 +3045,22 @@
         </node>
       </node>
       <node concept="l2Vlx" id="5lWcBwLbp94" role="2iSdaV" />
+      <node concept="3EZMnI" id="MNhuapVmXE" role="AHCbl">
+        <node concept="3F0ifn" id="MNhuapVkWp" role="3EZMnx">
+          <property role="3F0ifm" value="implementation" />
+        </node>
+        <node concept="l2Vlx" id="MNhuapVmXF" role="2iSdaV" />
+        <node concept="VPM3Z" id="MNhuapVmXG" role="3F10Kt" />
+        <node concept="1iCGBv" id="MNhuapVnmv" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:5lWcBwLbp8P" resolve="operationDecl" />
+          <node concept="1sVBvm" id="MNhuapVnmw" role="1sWHZn">
+            <node concept="3SHvHV" id="MNhuapVnmx" role="2wV5jI" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="MNhuapVnmG" role="3EZMnx">
+          <property role="3F0ifm" value="{...}" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5lWcBwL7BYC">

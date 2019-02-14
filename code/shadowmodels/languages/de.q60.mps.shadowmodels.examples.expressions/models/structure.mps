@@ -338,5 +338,24 @@
       <ref role="PrY4T" node="3JPN2vWhXe0" resolve="IDeclaration" />
     </node>
   </node>
+  <node concept="1TIwiD" id="MNhuapWfCV">
+    <property role="EcuMT" value="915151988833974843" />
+    <property role="TrG5h" value="FunCall" />
+    <ref role="1TJDcQ" node="2frx7BFaCHD" resolve="Expr" />
+    <node concept="1TJgyj" id="MNhuapWfCW" role="1TKVEi">
+      <property role="IQ2ns" value="915151988833974844" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="fun" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2frx7BFaCHd" resolve="Function" />
+    </node>
+    <node concept="1TJgyj" id="MNhuapWfCY" role="1TKVEi">
+      <property role="IQ2ns" value="915151988833974846" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2frx7BFaCHD" resolve="Expr" />
+    </node>
+  </node>
 </model>
 

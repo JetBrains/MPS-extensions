@@ -118,10 +118,17 @@
     <property role="EcuMT" value="3384942920130255096" />
     <property role="TrG5h" value="NodeCell" />
     <ref role="1TJDcQ" node="3CYlK6ygFvQ" resolve="Cell" />
+    <node concept="1TJgyj" id="2FosA_pLmBn" role="1TKVEi">
+      <property role="IQ2ns" value="3087343341365717463" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="asReference" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
     <node concept="1TJgyj" id="2VTIUrjl_$r" role="1TKVEi">
       <property role="IQ2ns" value="3384942920130255131" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="node" />
+      <property role="20kJfa" value="asContainment" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>

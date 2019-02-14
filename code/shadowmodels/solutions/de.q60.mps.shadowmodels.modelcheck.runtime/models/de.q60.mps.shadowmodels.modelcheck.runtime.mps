@@ -1264,6 +1264,22 @@
             <node concept="1QHqEK" id="5lWcBwKRw1r" role="3cqZAp">
               <node concept="1QHqEC" id="5lWcBwKRw1t" role="1QHqEI">
                 <node concept="3clFbS" id="5lWcBwKRw1v" role="1bW5cS">
+                  <node concept="3clFbJ" id="739BlCoQO6M" role="3cqZAp">
+                    <node concept="3clFbS" id="739BlCoQO6O" role="3clFbx">
+                      <node concept="3cpWs6" id="739BlCoTAb9" role="3cqZAp" />
+                    </node>
+                    <node concept="3clFbC" id="739BlCoTxAn" role="3clFbw">
+                      <node concept="10Nm6u" id="739BlCoTxGk" role="3uHU7w" />
+                      <node concept="2OqwBi" id="739BlCoQR5S" role="3uHU7B">
+                        <node concept="2GrUjf" id="739BlCoQPFr" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="5lWcBwKwSEj" resolve="root" />
+                        </node>
+                        <node concept="liA8E" id="739BlCoTw6O" role="2OqNvi">
+                          <ref role="37wK5l" to="mhbf:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3cpWs8" id="5lWcBwKT6R5" role="3cqZAp">
                     <node concept="3cpWsn" id="5lWcBwKT6R8" role="3cpWs9">
                       <property role="TrG5h" value="start" />

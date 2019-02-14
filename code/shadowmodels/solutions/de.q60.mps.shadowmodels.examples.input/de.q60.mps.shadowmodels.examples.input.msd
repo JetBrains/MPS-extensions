@@ -13,6 +13,8 @@
     <language slang="l:66825d3a-38b0-4346-8da1-1f85e007e4ed:de.q60.mps.delta.unification.test.entities" version="0" />
     <language slang="l:bbb5f4e2-794a-4b91-bd27-caf7d437ac9e:de.q60.mps.shadowmodels.examples.blext" version="0" />
     <language slang="l:ca32b5fa-caea-4f97-9686-6f60d4d677d4:de.q60.mps.shadowmodels.examples.entities" version="0" />
+    <language slang="l:e338ecf2-0845-499a-be53-35713f291278:de.q60.mps.shadowmodels.examples.expext" version="0" />
+    <language slang="l:4441485a-f7fc-4cfb-8044-d8997096c5d6:de.q60.mps.shadowmodels.examples.expext" version="0" />
     <language slang="l:1ab7bfac-29d6-4772-a483-50110408ac43:de.q60.mps.shadowmodels.examples.expressions" version="0" />
     <language slang="l:ebb56408-a287-44ca-ab2d-1b6ee6850446:de.q60.mps.shadowmodels.examples.statemachine" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />

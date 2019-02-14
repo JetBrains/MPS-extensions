@@ -76,8 +76,8 @@ def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
 
 
-def minor = '3'
-def major = '2018'
+def minor = '1'
+def major = '2019'
 
 if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch

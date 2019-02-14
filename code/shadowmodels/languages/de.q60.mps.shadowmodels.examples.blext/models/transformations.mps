@@ -984,14 +984,6 @@
     <node concept="2OrE70" id="7YhLqbpfNV3" role="02uzr" />
     <node concept="02vpq" id="7YhLqbpfsMH" role="02uzr">
       <property role="TrG5h" value="outputModel" />
-      <node concept="026TG" id="7YhLqbpfsWs" role="026TK">
-        <node concept="214gnc" id="6CK31f5_LJB" role="026TJ">
-          <ref role="1YEVMl" node="6CK31f5_JPV" resolve="outputModelWithCopy" />
-          <node concept="2155sH" id="6CK31f5_MvJ" role="214sll">
-            <ref role="2155sG" node="7YhLqbpfsW9" />
-          </node>
-        </node>
-      </node>
       <node concept="026TG" id="3kkgoki$kou" role="026TK">
         <node concept="214gnc" id="6CK31f5_N75" role="026TJ">
           <ref role="1YEVMl" node="32qWz0LN88n" resolve="outputModelWithRewrite" />

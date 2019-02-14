@@ -56,9 +56,6 @@
       <node concept="02pZi" id="6ndA7L_L2GB" role="02pZb">
         <ref role="02oBk" node="6ndA7L_L0QC" resolve="backward" />
         <ref role="02oBg" node="6ndA7L_L0QO" resolve="s3" />
-        <node concept="3clFbT" id="5o5qH$CzHpR" role="02oAS">
-          <property role="3clFbU" value="true" />
-        </node>
       </node>
       <node concept="02pZi" id="6ndA7L_L2GG" role="02pZb">
         <ref role="02oBg" node="6ndA7L_L0QJ" resolve="s1" />

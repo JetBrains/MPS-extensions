@@ -30259,7 +30259,7 @@
       </node>
     </node>
     <node concept="312cEg" id="3kkgokkraFd" role="jymVt">
-      <property role="TrG5h" value="pendingContributions" />
+      <property role="TrG5h" value="allContributions" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="3kkgokkraFe" role="1B3o_S" />
       <node concept="3uibUv" id="3kkgokkraFg" role="1tU5fm">
@@ -31688,7 +31688,7 @@
               </node>
             </node>
             <node concept="1rXfSq" id="3kkgokkzLLG" role="33vP2m">
-              <ref role="37wK5l" node="3kkgokkyeeQ" resolve="getContributions" />
+              <ref role="37wK5l" node="3kkgokkyeeQ" resolve="getPendingContributions" />
               <node concept="37vLTw" id="3kkgokkzLTk" role="37wK5m">
                 <ref role="3cqZAo" node="3kkgokkxIMH" resolve="call" />
               </node>

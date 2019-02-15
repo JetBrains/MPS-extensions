@@ -6745,6 +6745,16 @@
             <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4JzLSfq0CeY" role="3bR37C">
+          <node concept="3bR9La" id="4JzLSfq0CeZ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4JzLSfq0Cf0" role="3bR37C">
+          <node concept="3bR9La" id="4JzLSfq0Cf1" role="1SiIV1">
+            <ref role="3bR37D" node="BRK1N8p1rh" resolve="de.q60.mps.shadowmodels.examples.expressions" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="27vxCXgy$2z" role="2G$12L">
         <property role="BnDLt" value="true" />

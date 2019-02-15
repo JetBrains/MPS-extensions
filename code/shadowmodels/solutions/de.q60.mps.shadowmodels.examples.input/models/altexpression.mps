@@ -8,6 +8,10 @@
   <imports />
   <registry>
     <language id="1ab7bfac-29d6-4772-a483-50110408ac43" name="de.q60.mps.shadowmodels.examples.expressions">
+      <concept id="915151988833974843" name="de.q60.mps.shadowmodels.examples.expressions.structure.FunCall" flags="ng" index="2lgVZp">
+        <reference id="915151988833974844" name="fun" index="2lgVZu" />
+        <child id="915151988833974846" name="args" index="2lgVZs" />
+      </concept>
       <concept id="1823070633660263572" name="de.q60.mps.shadowmodels.examples.expressions.structure.MaybeLit" flags="ng" index="myfm1" />
       <concept id="1823070633659905357" name="de.q60.mps.shadowmodels.examples.expressions.structure.ConstantRef" flags="ng" index="mWALo">
         <reference id="1823070633659905358" name="const" index="mWALr" />
@@ -42,6 +46,7 @@
         <property id="1667935720929304240" name="value" index="1H2aK3" />
       </concept>
       <concept id="1667935720929304209" name="de.q60.mps.shadowmodels.examples.expressions.structure.FalseLit" flags="ng" index="1H2aKy" />
+      <concept id="1667935720929303559" name="de.q60.mps.shadowmodels.examples.expressions.structure.TrueLit" flags="ng" index="1H2aUO" />
       <concept id="1667935720929469325" name="de.q60.mps.shadowmodels.examples.expressions.structure.BlockExpr" flags="ng" index="1H2x4Y">
         <child id="1667935720929469326" name="contents" index="1H2x4X" />
       </concept>
@@ -99,6 +104,9 @@
         <property role="TrG5h" value="green" />
       </node>
       <node concept="mXT_x" id="1_cQhkfJ8om" role="mXTAa">
+        <property role="TrG5h" value="yellow" />
+      </node>
+      <node concept="mXT_x" id="MNhuapVjRn" role="mXTAa">
         <property role="TrG5h" value="yellow" />
       </node>
     </node>
@@ -264,6 +272,21 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2NE3Kg" id="MNhuapXwE1" role="37GxYA" />
+    <node concept="38WgWO" id="MNhuapXwKY" role="37GxYA">
+      <property role="TrG5h" value="f3" />
+      <node concept="2lgVZp" id="MNhuapXwVu" role="38WgZW">
+        <ref role="2lgVZu" node="3JPN2vWjqnt" resolve="f2" />
+        <node concept="1H2aUO" id="MNhuapXwXr" role="2lgVZs" />
+      </node>
+    </node>
+    <node concept="2NE3Kg" id="MNhuapXx8O" role="37GxYA" />
+    <node concept="38WgWO" id="MNhuapXwZm" role="37GxYA">
+      <property role="TrG5h" value="f4" />
+      <node concept="2lgVZp" id="MNhuapXwZn" role="38WgZW">
+        <ref role="2lgVZu" node="MNhuapXwKY" resolve="f3" />
       </node>
     </node>
     <node concept="2NE3Kg" id="4vHhYROhRru" role="37GxYA" />

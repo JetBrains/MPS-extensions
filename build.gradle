@@ -4,7 +4,7 @@ buildscript {
         maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }
     dependencies {
-        classpath 'de.itemis.mps:mps-gradle-plugin:1.0+'
+        classpath 'de.itemis.mps:mps-gradle-plugin:1.2+'
     }
 }
 
@@ -183,25 +183,22 @@ File scriptFile(String relativePath) {
 
 def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion, ext.skipUnmodifiedModels]
 
+// properties for default configuration
+ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
 
 task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]) {
     script "$rootDir/scripts/build.xml"
-    scriptArgs = defaultScriptArgs
-    scriptClasspath = buildScriptClasspath
 }
 
 task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {
     script scriptFile('languages/build.xml')
-    scriptArgs = defaultScriptArgs
-    scriptClasspath = buildScriptClasspath
 }
 
 task run_tests(type: TestLanguages, dependsOn: build_languages) {
     description "Will execute all tests from command line"
     script scriptFile('tests/build.xml')
-    scriptArgs = defaultScriptArgs
-    scriptClasspath = buildScriptClasspath
 }
 
 task install_nativelibs(type: Copy, dependsOn: build_languages) {

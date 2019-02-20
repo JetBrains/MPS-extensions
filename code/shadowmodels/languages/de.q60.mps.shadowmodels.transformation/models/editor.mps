@@ -1878,6 +1878,11 @@
     <node concept="3EZMnI" id="TC$M5wVudF" role="2wV5jI">
       <node concept="PMmxH" id="32qWz0L3LEz" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <node concept="VechU" id="4JzLSfq15q1" role="3F10Kt">
+          <node concept="1iSF2X" id="4JzLSfq15q5" role="VblUZ">
+            <property role="1iTho6" value="cc6666" />
+          </node>
+        </node>
       </node>
       <node concept="1iCGBv" id="5o5qH$CKIwE" role="3EZMnx">
         <ref role="1NtTu8" to="oyp0:5o5qH$CKBgb" resolve="transformation" />

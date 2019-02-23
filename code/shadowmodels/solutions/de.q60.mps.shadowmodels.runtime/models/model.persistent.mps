@@ -5484,20 +5484,34 @@
             <ref role="37wK5l" node="5QP6xyjLClF" resolve="notifyAccess" />
           </node>
         </node>
-        <node concept="3clFbF" id="4_SQzDOfuQs" role="3cqZAp">
-          <node concept="2OqwBi" id="4_SQzDOfxm0" role="3clFbG">
-            <node concept="2OqwBi" id="4_SQzDOfvdG" role="2Oq$k0">
-              <node concept="37vLTw" id="4_SQzDOfuQr" role="2Oq$k0">
-                <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
-              </node>
-              <node concept="liA8E" id="4_SQzDOfxfD" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
-              </node>
+        <node concept="3clFbF" id="5G4qAEn6hm9" role="3cqZAp">
+          <node concept="2OqwBi" id="5G4qAEn6ibm" role="3clFbG">
+            <node concept="37vLTw" id="5G4qAEn6hm7" role="2Oq$k0">
+              <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
             </node>
-            <node concept="liA8E" id="4_SQzDOgvs3" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDOfxLJ" resolve="getConcept" />
-              <node concept="37vLTw" id="4_SQzDOgvuP" role="37wK5m">
-                <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
+            <node concept="liA8E" id="5G4qAEn6kDA" role="2OqNvi">
+              <ref role="37wK5l" node="4_SQzDO0k4c" resolve="computeRead" />
+              <node concept="1bVj0M" id="5G4qAEn6kLN" role="37wK5m">
+                <node concept="3clFbS" id="5G4qAEn6kLO" role="1bW5cS">
+                  <node concept="3clFbF" id="5G4qAEn6kPb" role="3cqZAp">
+                    <node concept="2OqwBi" id="5G4qAEn6kPd" role="3clFbG">
+                      <node concept="2OqwBi" id="5G4qAEn6kPe" role="2Oq$k0">
+                        <node concept="37vLTw" id="5G4qAEn6kPf" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
+                        </node>
+                        <node concept="liA8E" id="5G4qAEn6kPg" role="2OqNvi">
+                          <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5G4qAEn6kPh" role="2OqNvi">
+                        <ref role="37wK5l" node="4_SQzDOfxLJ" resolve="getConcept" />
+                        <node concept="37vLTw" id="5G4qAEn6kPi" role="37wK5m">
+                          <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

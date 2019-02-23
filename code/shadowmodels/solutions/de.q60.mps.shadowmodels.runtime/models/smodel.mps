@@ -200,6 +200,9 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
+        <property id="1113006610751" name="value" index="$nhwW" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
@@ -23457,7 +23460,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5wi3nvL7pwc" role="jymVt" />
-    <node concept="2tJIrI" id="QurUgjaQwK" role="jymVt" />
     <node concept="312cEg" id="QurUgjayib" role="jymVt">
       <property role="TrG5h" value="stopSyncThread" />
       <property role="34CwA1" value="true" />
@@ -23487,17 +23489,6 @@
               <node concept="2$JKZl" id="QurUgjaptm" role="3cqZAp">
                 <node concept="3clFbS" id="QurUgjapto" role="2LFqv$">
                   <node concept="SfApY" id="QurUgjajju" role="3cqZAp">
-                    <node concept="TDmWw" id="QurUgjakFx" role="TEbGg">
-                      <node concept="3cpWsn" id="QurUgjakFy" role="TDEfY">
-                        <property role="TrG5h" value="ex" />
-                        <node concept="3uibUv" id="QurUgjaldU" role="1tU5fm">
-                          <ref role="3uigEE" to="wyt6:~InterruptedException" resolve="InterruptedException" />
-                        </node>
-                      </node>
-                      <node concept="3clFbS" id="QurUgjakF$" role="TDEfX">
-                        <node concept="3cpWs6" id="QurUgjaqf1" role="3cqZAp" />
-                      </node>
-                    </node>
                     <node concept="3clFbS" id="QurUgjajjv" role="SfCbr">
                       <node concept="3clFbJ" id="QurUgja_h0" role="3cqZAp">
                         <node concept="3clFbS" id="QurUgja_h2" role="3clFbx">
@@ -23516,6 +23507,14 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3clFbJ" id="5G4qAEnevDL" role="3cqZAp">
+                        <node concept="3clFbS" id="5G4qAEnevDM" role="3clFbx">
+                          <node concept="3cpWs6" id="5G4qAEnevDN" role="3cqZAp" />
+                        </node>
+                        <node concept="37vLTw" id="5G4qAEnevDO" role="3clFbw">
+                          <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="QurUgjajjw" role="3cqZAp">
                         <node concept="1rXfSq" id="QurUgjajjx" role="3clFbG">
                           <ref role="37wK5l" node="4VxHqcqZoV$" resolve="synchronize" />
@@ -23532,6 +23531,17 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="TDmWw" id="QurUgjakFx" role="TEbGg">
+                      <node concept="3cpWsn" id="QurUgjakFy" role="TDEfY">
+                        <property role="TrG5h" value="ex" />
+                        <node concept="3uibUv" id="QurUgjaldU" role="1tU5fm">
+                          <ref role="3uigEE" to="wyt6:~InterruptedException" resolve="InterruptedException" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="QurUgjakF$" role="TDEfX">
+                        <node concept="3cpWs6" id="QurUgjaqf1" role="3cqZAp" />
+                      </node>
+                    </node>
                     <node concept="TDmWw" id="QurUgjajjB" role="TEbGg">
                       <node concept="3cpWsn" id="QurUgjajjC" role="TDEfY">
                         <property role="TrG5h" value="ex" />
@@ -23540,6 +23550,14 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="QurUgjajjE" role="TDEfX">
+                        <node concept="3clFbJ" id="5G4qAEnewSV" role="3cqZAp">
+                          <node concept="3clFbS" id="5G4qAEnewSW" role="3clFbx">
+                            <node concept="3cpWs6" id="5G4qAEnewSX" role="3cqZAp" />
+                          </node>
+                          <node concept="37vLTw" id="5G4qAEnewSY" role="3clFbw">
+                            <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+                          </node>
+                        </node>
                         <node concept="RRSsy" id="QurUgjajjF" role="3cqZAp">
                           <property role="RRSoG" value="error" />
                           <node concept="Xl_RD" id="QurUgjajjG" role="RRSoy" />
@@ -24050,9 +24068,9 @@
               <node concept="3cpWsn" id="QurUgik3Sx" role="3cpWs9">
                 <property role="TrG5h" value="transformStart" />
                 <node concept="3cpWsb" id="QurUgik3Sy" role="1tU5fm" />
-                <node concept="2YIFZM" id="QurUgik3Sz" role="33vP2m">
+                <node concept="2YIFZM" id="5G4qAEn9EvD" role="33vP2m">
+                  <ref role="37wK5l" to="wyt6:~System.nanoTime():long" resolve="nanoTime" />
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
                 </node>
               </node>
             </node>
@@ -24402,8 +24420,8 @@
               <node concept="3cpWsn" id="QurUgik3SF" role="3cpWs9">
                 <property role="TrG5h" value="transformEnd" />
                 <node concept="3cpWsb" id="QurUgik3SG" role="1tU5fm" />
-                <node concept="2YIFZM" id="QurUgik3SH" role="33vP2m">
-                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                <node concept="2YIFZM" id="5G4qAEn9EBt" role="33vP2m">
+                  <ref role="37wK5l" to="wyt6:~System.nanoTime():long" resolve="nanoTime" />
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                 </node>
               </node>
@@ -24418,13 +24436,18 @@
                   <node concept="Xl_RD" id="QurUgik3SM" role="3uHU7B">
                     <property role="Xl_RC" value="Transformations executed in " />
                   </node>
-                  <node concept="1eOMI4" id="QurUgik3SN" role="3uHU7w">
-                    <node concept="3cpWsd" id="QurUgik3SO" role="1eOMHV">
-                      <node concept="37vLTw" id="QurUgik3SP" role="3uHU7w">
-                        <ref role="3cqZAo" node="QurUgik3Sx" resolve="transformStart" />
-                      </node>
-                      <node concept="37vLTw" id="QurUgik3SQ" role="3uHU7B">
-                        <ref role="3cqZAo" node="QurUgik3SF" resolve="transformEnd" />
+                  <node concept="17qRlL" id="5G4qAEn9EIV" role="3uHU7w">
+                    <node concept="3b6qkQ" id="5G4qAEn9EPB" role="3uHU7B">
+                      <property role="$nhwW" value="0.000001" />
+                    </node>
+                    <node concept="1eOMI4" id="QurUgik3SN" role="3uHU7w">
+                      <node concept="3cpWsd" id="QurUgik3SO" role="1eOMHV">
+                        <node concept="37vLTw" id="QurUgik3SP" role="3uHU7w">
+                          <ref role="3cqZAo" node="QurUgik3Sx" resolve="transformStart" />
+                        </node>
+                        <node concept="37vLTw" id="QurUgik3SQ" role="3uHU7B">
+                          <ref role="3cqZAo" node="QurUgik3SF" resolve="transformEnd" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -24432,6 +24455,15 @@
               </node>
             </node>
             <node concept="3clFbH" id="QurUgikrTJ" role="3cqZAp" />
+            <node concept="3clFbJ" id="5G4qAEney2S" role="3cqZAp">
+              <node concept="3clFbS" id="5G4qAEney2T" role="3clFbx">
+                <node concept="3cpWs6" id="5G4qAEney2U" role="3cqZAp" />
+              </node>
+              <node concept="37vLTw" id="5G4qAEney2V" role="3clFbw">
+                <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="5G4qAEnd3Fr" role="3cqZAp" />
             <node concept="3SKdUt" id="QurUgijcdb" role="3cqZAp">
               <node concept="3SKdUq" id="QurUgijcdd" role="3SKWNk">
                 <property role="3SKdUp" value="Possibly expensive transformations are executed outside any write or read action." />
@@ -24449,6 +24481,14 @@
                 <node concept="1bVj0M" id="QurUgij8ep" role="37wK5m">
                   <property role="3yWfEV" value="true" />
                   <node concept="3clFbS" id="QurUgij8eq" role="1bW5cS">
+                    <node concept="3clFbJ" id="5G4qAEne_R8" role="3cqZAp">
+                      <node concept="3clFbS" id="5G4qAEne_R9" role="3clFbx">
+                        <node concept="3cpWs6" id="5G4qAEne_Ra" role="3cqZAp" />
+                      </node>
+                      <node concept="37vLTw" id="5G4qAEne_Rb" role="3clFbw">
+                        <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+                      </node>
+                    </node>
                     <node concept="3clFbF" id="7gxeZuyfDMt" role="3cqZAp">
                       <node concept="2OqwBi" id="7gxeZuyfEvR" role="3clFbG">
                         <node concept="10M0yZ" id="7gxeZuyfE5e" role="2Oq$k0">
@@ -24471,8 +24511,8 @@
                                 <node concept="3cpWsn" id="QurUgijAEa" role="3cpWs9">
                                   <property role="TrG5h" value="start" />
                                   <node concept="3cpWsb" id="QurUgijAEb" role="1tU5fm" />
-                                  <node concept="2YIFZM" id="QurUgik07D" role="33vP2m">
-                                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                                  <node concept="2YIFZM" id="5G4qAEn8uoq" role="33vP2m">
+                                    <ref role="37wK5l" to="wyt6:~System.nanoTime():long" resolve="nanoTime" />
                                     <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                                   </node>
                                 </node>
@@ -24499,8 +24539,8 @@
                                 <node concept="3cpWsn" id="QurUgijAEq" role="3cpWs9">
                                   <property role="TrG5h" value="end" />
                                   <node concept="3cpWsb" id="QurUgijAEr" role="1tU5fm" />
-                                  <node concept="2YIFZM" id="QurUgik0FJ" role="33vP2m">
-                                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                                  <node concept="2YIFZM" id="5G4qAEn8v96" role="33vP2m">
+                                    <ref role="37wK5l" to="wyt6:~System.nanoTime():long" resolve="nanoTime" />
                                     <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                                   </node>
                                 </node>
@@ -24515,13 +24555,18 @@
                                     <node concept="Xl_RD" id="QurUgijAEx" role="3uHU7B">
                                       <property role="Xl_RC" value="Shadow repository written in " />
                                     </node>
-                                    <node concept="1eOMI4" id="QurUgijAE_" role="3uHU7w">
-                                      <node concept="3cpWsd" id="QurUgijAEA" role="1eOMHV">
-                                        <node concept="37vLTw" id="QurUgijAEB" role="3uHU7w">
-                                          <ref role="3cqZAo" node="QurUgijAEa" resolve="start" />
-                                        </node>
-                                        <node concept="37vLTw" id="QurUgijAEC" role="3uHU7B">
-                                          <ref role="3cqZAo" node="QurUgijAEq" resolve="end" />
+                                    <node concept="17qRlL" id="5G4qAEn8vTG" role="3uHU7w">
+                                      <node concept="3b6qkQ" id="5G4qAEn8wEK" role="3uHU7B">
+                                        <property role="$nhwW" value="0.000001" />
+                                      </node>
+                                      <node concept="1eOMI4" id="QurUgijAE_" role="3uHU7w">
+                                        <node concept="3cpWsd" id="QurUgijAEA" role="1eOMHV">
+                                          <node concept="37vLTw" id="QurUgijAEB" role="3uHU7w">
+                                            <ref role="3cqZAo" node="QurUgijAEa" resolve="start" />
+                                          </node>
+                                          <node concept="37vLTw" id="QurUgijAEC" role="3uHU7B">
+                                            <ref role="3cqZAo" node="QurUgijAEq" resolve="end" />
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
@@ -24906,16 +24951,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7gxeZuyA5ug" role="3cqZAp">
-          <node concept="2OqwBi" id="7gxeZuyA6aP" role="3clFbG">
-            <node concept="37vLTw" id="7gxeZuyA5ue" role="2Oq$k0">
-              <ref role="3cqZAo" node="QurUgjagxC" resolve="syncThread" />
-            </node>
-            <node concept="liA8E" id="7gxeZuyA8l6" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Thread.interrupt():void" resolve="interrupt" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="5tQmAwPTZkg" role="3cqZAp">
           <node concept="2OqwBi" id="5tQmAwPTZU0" role="3clFbG">
             <node concept="37vLTw" id="5tQmAwPTZke" role="2Oq$k0">
@@ -24936,6 +24971,16 @@
               <node concept="37vLTw" id="3jGmESsNmgV" role="37wK5m">
                 <ref role="3cqZAo" node="3jGmESsNgxn" resolve="invalidationListener" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5G4qAEni4C1" role="3cqZAp">
+          <node concept="2OqwBi" id="5G4qAEni51F" role="3clFbG">
+            <node concept="37vLTw" id="5G4qAEni4BZ" role="2Oq$k0">
+              <ref role="3cqZAo" node="QurUgi5ucV" resolve="synchronizer1" />
+            </node>
+            <node concept="liA8E" id="5G4qAEni70t" role="2OqNvi">
+              <ref role="37wK5l" node="5wi3nvL6acn" resolve="dispose" />
             </node>
           </node>
         </node>

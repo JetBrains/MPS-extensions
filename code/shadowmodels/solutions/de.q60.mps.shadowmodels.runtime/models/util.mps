@@ -137,6 +137,7 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
@@ -914,6 +915,29 @@
       </node>
       <node concept="17QB3L" id="3zTK92Li5Xl" role="3clF45" />
       <node concept="3Tm1VV" id="3zTK92Li5V7" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="4S3q4YkFgoA" role="jymVt" />
+    <node concept="2YIFZL" id="4S3q4YkFg3q" role="jymVt">
+      <property role="TrG5h" value="shorten" />
+      <node concept="3clFbS" id="4S3q4YkFg3r" role="3clF47">
+        <node concept="3clFbF" id="4S3q4YkFgPJ" role="3cqZAp">
+          <node concept="1rXfSq" id="4S3q4YkFgPI" role="3clFbG">
+            <ref role="37wK5l" node="3zTK92Li5XE" resolve="shorten" />
+            <node concept="37vLTw" id="4S3q4YkFgQU" role="37wK5m">
+              <ref role="3cqZAo" node="4S3q4YkFg3Y" resolve="longId" />
+            </node>
+            <node concept="3cmrfG" id="4S3q4YkFgYi" role="37wK5m">
+              <property role="3cmrfH" value="43" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4S3q4YkFg3Y" role="3clF46">
+        <property role="TrG5h" value="longId" />
+        <node concept="17QB3L" id="4S3q4YkFg3Z" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="4S3q4YkFg42" role="3clF45" />
+      <node concept="3Tm1VV" id="4S3q4YkFg43" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="3zTK92Li5UJ" role="jymVt" />
     <node concept="3Tm1VV" id="3zTK92Li5TZ" role="1B3o_S" />

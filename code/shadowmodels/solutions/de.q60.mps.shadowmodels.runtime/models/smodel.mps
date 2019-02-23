@@ -53,8 +53,8 @@
     <import index="jmi8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.util(MPS.IDEA/)" />
     <import index="dglc" ref="r:713965c4-2968-4619-9821-2429551acbb4(de.q60.mps.shadowmodels.runtime.concurrentrepo)" />
     <import index="3hky" ref="r:bef1bfa7-20fd-413a-ae11-793b0a8ee364(de.q60.mps.shadowmodels.runtime.model.persistent)" />
+    <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
-    <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -23609,10 +23609,10 @@
     </node>
     <node concept="2tJIrI" id="QurUgiG5TX" role="jymVt" />
     <node concept="312cEg" id="QurUgihbxO" role="jymVt">
-      <property role="TrG5h" value="inputSynchronizer" />
+      <property role="TrG5h" value="inputRepositoryMirror" />
       <node concept="3Tm6S6" id="QurUgihbxP" role="1B3o_S" />
       <node concept="3uibUv" id="QurUgihdAH" role="1tU5fm">
-        <ref role="3uigEE" to="dglc:QurUgi5J93" resolve="BranchSynchronizer" />
+        <ref role="3uigEE" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
       </node>
     </node>
     <node concept="312cEg" id="7gxeZuyBe5o" role="jymVt">
@@ -23648,14 +23648,14 @@
           <node concept="37vLTI" id="QurUgihfNg" role="3clFbG">
             <node concept="2ShNRf" id="QurUgihg$u" role="37vLTx">
               <node concept="1pGfFk" id="QurUgihgnX" role="2ShVmc">
-                <ref role="37wK5l" to="dglc:QurUgi6nZ4" resolve="BranchSynchronizer" />
+                <ref role="37wK5l" to="dglc:QurUgi6nZ4" resolve="RepositoryMirror" />
                 <node concept="37vLTw" id="QurUgihgJJ" role="37wK5m">
                   <ref role="3cqZAo" node="7YhLqbpgbxU" resolve="repository" />
                 </node>
               </node>
             </node>
             <node concept="37vLTw" id="QurUgiheQP" role="37vLTJ">
-              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
             </node>
           </node>
         </node>
@@ -23667,7 +23667,7 @@
             </node>
             <node concept="2OqwBi" id="QurUgii1qH" role="33vP2m">
               <node concept="37vLTw" id="QurUgii0VJ" role="2Oq$k0">
-                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
               </node>
               <node concept="liA8E" id="QurUgii51Q" role="2OqNvi">
                 <ref role="37wK5l" to="dglc:QurUgihQwv" resolve="getRepositoryNode" />
@@ -23794,7 +23794,7 @@
                 </node>
                 <node concept="2OqwBi" id="7gxeZuyai9B" role="37wK5m">
                   <node concept="37vLTw" id="7gxeZuyahK8" role="2Oq$k0">
-                    <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                    <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
                   </node>
                   <node concept="liA8E" id="7gxeZuyaivI" role="2OqNvi">
                     <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
@@ -23901,7 +23901,7 @@
                 </node>
                 <node concept="2OqwBi" id="7gxeZuyaiIC" role="37wK5m">
                   <node concept="37vLTw" id="7gxeZuyaiID" role="2Oq$k0">
-                    <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                    <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
                   </node>
                   <node concept="liA8E" id="7gxeZuyaiIE" role="2OqNvi">
                     <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
@@ -23962,12 +23962,41 @@
             <ref role="3cqZAo" node="2X32U$0Rp$Z" resolve="disposed" />
           </node>
         </node>
+        <node concept="3clFbH" id="5G4qAEnoCz_" role="3cqZAp" />
+        <node concept="3clFbJ" id="5G4qAEnoBuT" role="3cqZAp">
+          <node concept="3clFbS" id="5G4qAEnoBuU" role="3clFbx">
+            <node concept="3cpWs6" id="5G4qAEnoBuV" role="3cqZAp" />
+          </node>
+          <node concept="37vLTw" id="5G4qAEnoBuW" role="3clFbw">
+            <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+          </node>
+        </node>
         <node concept="3clFbH" id="7gxeZuyBl67" role="3cqZAp" />
+        <node concept="3clFbF" id="5G4qAEnozTM" role="3cqZAp">
+          <node concept="2OqwBi" id="5G4qAEno_db" role="3clFbG">
+            <node concept="37vLTw" id="5G4qAEnozTK" role="2Oq$k0">
+              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
+            </node>
+            <node concept="liA8E" id="5G4qAEnoAmk" role="2OqNvi">
+              <ref role="37wK5l" to="dglc:5G4qAEnnhiK" resolve="flush" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5G4qAEnoDAp" role="3cqZAp" />
+        <node concept="3clFbJ" id="5G4qAEnoAqq" role="3cqZAp">
+          <node concept="3clFbS" id="5G4qAEnoAqr" role="3clFbx">
+            <node concept="3cpWs6" id="5G4qAEnoAqs" role="3cqZAp" />
+          </node>
+          <node concept="37vLTw" id="5G4qAEnoAqt" role="3clFbw">
+            <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="5G4qAEnoxGr" role="3cqZAp" />
         <node concept="3clFbF" id="5G4qAEn1uBN" role="3cqZAp">
           <node concept="2OqwBi" id="7gxeZuyBzjm" role="3clFbG">
             <node concept="2OqwBi" id="7gxeZuyBzjn" role="2Oq$k0">
               <node concept="37vLTw" id="7gxeZuyBzjo" role="2Oq$k0">
-                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
               </node>
               <node concept="liA8E" id="7gxeZuyBzjp" role="2OqNvi">
                 <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
@@ -23987,7 +24016,7 @@
                         <node concept="2OqwBi" id="5G4qAEn1vE8" role="2Oq$k0">
                           <node concept="2OqwBi" id="5G4qAEn1vE9" role="2Oq$k0">
                             <node concept="37vLTw" id="5G4qAEn1vEa" role="2Oq$k0">
-                              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
                             </node>
                             <node concept="liA8E" id="5G4qAEn1vEb" role="2OqNvi">
                               <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
@@ -24098,7 +24127,7 @@
                           <node concept="2OqwBi" id="QurUgikinV" role="3clFbG">
                             <node concept="2OqwBi" id="QurUgikh6q" role="2Oq$k0">
                               <node concept="37vLTw" id="QurUgikghl" role="2Oq$k0">
-                                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
                               </node>
                               <node concept="liA8E" id="QurUgikhOK" role="2OqNvi">
                                 <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
@@ -24116,7 +24145,7 @@
                                         <node concept="2OqwBi" id="7gxeZuyDi4H" role="2Oq$k0">
                                           <node concept="2OqwBi" id="7gxeZuyDceY" role="2Oq$k0">
                                             <node concept="37vLTw" id="7gxeZuyDbwQ" role="2Oq$k0">
-                                              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                                              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
                                             </node>
                                             <node concept="liA8E" id="7gxeZuyDhtb" role="2OqNvi">
                                               <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
@@ -24142,7 +24171,7 @@
                                       <node concept="liA8E" id="QurUgiznaj" role="2OqNvi">
                                         <ref role="37wK5l" to="pxvb:32qWz0M44Jm" resolve="computeWith" />
                                         <node concept="37vLTw" id="QurUgiznOu" role="37wK5m">
-                                          <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                                          <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
                                         </node>
                                         <node concept="1bVj0M" id="QurUgizp5z" role="37wK5m">
                                           <node concept="3clFbS" id="QurUgizp5_" role="1bW5cS">
@@ -24679,7 +24708,7 @@
                                 </node>
                                 <node concept="2OqwBi" id="7gxeZuyCckj" role="37wK5m">
                                   <node concept="37vLTw" id="7gxeZuyCbPo" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                                    <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
                                   </node>
                                   <node concept="liA8E" id="7gxeZuyChsa" role="2OqNvi">
                                     <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
@@ -24997,7 +25026,7 @@
         <node concept="3clFbF" id="QurUgihe08" role="3cqZAp">
           <node concept="2OqwBi" id="QurUgiheoM" role="3clFbG">
             <node concept="37vLTw" id="QurUgihe06" role="2Oq$k0">
-              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
             </node>
             <node concept="liA8E" id="QurUgiheFn" role="2OqNvi">
               <ref role="37wK5l" to="dglc:QurUgigC5f" resolve="dispose" />
@@ -25074,7 +25103,7 @@
           <node concept="2OqwBi" id="5G4qAEn6Wnc" role="3clFbG">
             <node concept="2OqwBi" id="5G4qAEn6VUK" role="2Oq$k0">
               <node concept="37vLTw" id="5G4qAEn6VAg" role="2Oq$k0">
-                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputSynchronizer" />
+                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
               </node>
               <node concept="liA8E" id="5G4qAEn6WaC" role="2OqNvi">
                 <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
@@ -33405,7 +33434,6 @@
         <node concept="3cpWs8" id="QurUghQjm$" role="3cqZAp">
           <node concept="3cpWsn" id="QurUghQjm_" role="3cpWs9">
             <property role="TrG5h" value="name" />
-            <property role="3TUv4t" value="true" />
             <node concept="17QB3L" id="QurUghQjmA" role="1tU5fm" />
             <node concept="2OqwBi" id="QurUghQjmB" role="33vP2m">
               <node concept="37vLTw" id="QurUghQjmC" role="2Oq$k0">
@@ -33423,6 +33451,43 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5G4qAEnqoi5" role="3cqZAp">
+          <node concept="3clFbS" id="5G4qAEnqoi7" role="3clFbx">
+            <node concept="3clFbF" id="5G4qAEnqCDg" role="3cqZAp">
+              <node concept="37vLTI" id="5G4qAEnqD0p" role="3clFbG">
+                <node concept="2YIFZM" id="5G4qAEnqDJi" role="37vLTx">
+                  <ref role="37wK5l" to="pxvb:3zTK92Li5XE" resolve="shorten" />
+                  <ref role="1Pybhc" to="pxvb:3zTK92Li5TY" resolve="IdShortener" />
+                  <node concept="2OqwBi" id="5G4qAEnqEel" role="37wK5m">
+                    <node concept="2OqwBi" id="5G4qAEnqG3v" role="2Oq$k0">
+                      <node concept="37vLTw" id="5G4qAEnqDTG" role="2Oq$k0">
+                        <ref role="3cqZAo" node="QurUghQjms" resolve="input" />
+                      </node>
+                      <node concept="liA8E" id="5G4qAEnqGw7" role="2OqNvi">
+                        <ref role="37wK5l" to="mjcn:5gTrVpGxZ3E" resolve="getReference" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="5G4qAEnqEF$" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="5G4qAEnqGUt" role="37wK5m">
+                    <property role="3cmrfH" value="10" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="5G4qAEnqCDe" role="37vLTJ">
+                  <ref role="3cqZAo" node="QurUghQjm_" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="5G4qAEnqy4p" role="3clFbw">
+            <node concept="10Nm6u" id="5G4qAEnq_YP" role="3uHU7w" />
+            <node concept="37vLTw" id="5G4qAEnqsBo" role="3uHU7B">
+              <ref role="3cqZAo" node="QurUghQjm_" resolve="name" />
             </node>
           </node>
         </node>

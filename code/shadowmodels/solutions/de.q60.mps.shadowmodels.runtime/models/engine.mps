@@ -3980,6 +3980,7 @@
                         <node concept="1Y3b0j" id="7WfC1hyPp4j" role="YeSDq">
                           <property role="2bfB8j" value="true" />
                           <ref role="1Y3XeK" to="mjcn:7WfC1hyOIlJ" resolve="LazyContainment" />
+                          <ref role="37wK5l" to="mjcn:3n90qvztu6J" resolve="LazyContainment" />
                           <node concept="3Tm1VV" id="7WfC1hyPp4k" role="1B3o_S" />
                           <node concept="3clFb_" id="7WfC1hyPp4n" role="jymVt">
                             <property role="TrG5h" value="getContainment" />

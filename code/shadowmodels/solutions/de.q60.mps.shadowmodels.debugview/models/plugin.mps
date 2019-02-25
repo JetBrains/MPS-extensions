@@ -792,11 +792,16 @@
                           <node concept="3uibUv" id="2BHSBitT27v" role="1tU5fm">
                             <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
                           </node>
-                          <node concept="2YIFZM" id="2BHSBitT27_" role="33vP2m">
-                            <ref role="37wK5l" to="l6bp:3KKRs1ArmiX" resolve="getOriginalNode" />
-                            <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SNodeAPI" />
-                            <node concept="37vLTw" id="2BHSBitT27A" role="37wK5m">
-                              <ref role="3cqZAo" node="2BHSBis5x_7" resolve="nodeToTrace" />
+                          <node concept="2OqwBi" id="5z3H0sE0PYt" role="33vP2m">
+                            <node concept="2YIFZM" id="5z3H0sE0PkF" role="2Oq$k0">
+                              <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
+                              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                            </node>
+                            <node concept="liA8E" id="5z3H0sE0QE9" role="2OqNvi">
+                              <ref role="37wK5l" to="l6bp:5z3H0sDX929" resolve="getOriginalInputNode" />
+                              <node concept="37vLTw" id="5z3H0sE0U6O" role="37wK5m">
+                                <ref role="3cqZAo" node="2BHSBis5x_7" resolve="nodeToTrace" />
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -857,8 +862,8 @@
                                   </node>
                                   <node concept="2OqwBi" id="2BHSBis5mxq" role="3uHU7w">
                                     <node concept="2OqwBi" id="2BHSBis5mxr" role="2Oq$k0">
-                                      <node concept="37vLTw" id="2BHSBis5mxs" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="2BHSBis5x_7" resolve="nodeToTrace" />
+                                      <node concept="37vLTw" id="5z3H0sE16Py" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="2BHSBitTom1" resolve="snode" />
                                       </node>
                                       <node concept="liA8E" id="2BHSBis5mxt" role="2OqNvi">
                                         <ref role="37wK5l" to="mhbf:~SNode.getConcept():org.jetbrains.mps.openapi.language.SConcept" resolve="getConcept" />
@@ -896,8 +901,8 @@
                               </node>
                               <node concept="1rXfSq" id="2BHSBis5mxC" role="3K4Cdx">
                                 <ref role="37wK5l" node="5wnrAmTUiv6" resolve="isShadowNode" />
-                                <node concept="37vLTw" id="2BHSBis5mxD" role="37wK5m">
-                                  <ref role="3cqZAo" node="2BHSBis5x_7" resolve="nodeToTrace" />
+                                <node concept="37vLTw" id="5z3H0sE17Yw" role="37wK5m">
+                                  <ref role="3cqZAo" node="2BHSBitTom1" resolve="snode" />
                                 </node>
                               </node>
                               <node concept="37vLTw" id="2BHSBis5mxN" role="3K4E3e">

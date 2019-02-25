@@ -14,6 +14,8 @@
     <import index="3o3z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
+    <import index="lktc" ref="134ef213-c518-42b0-b12c-c109aa13d320/java:gnu.trove(collections_trove.runtime/)" />
+    <import index="gyfg" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.base(MPS.Core/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -214,6 +216,7 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+        <child id="1201186121363" name="typeParameter" index="2Ghqu4" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -336,23 +339,59 @@
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
-      <node concept="2OqwBi" id="4OBfrz$xMn_" role="33vP2m">
-        <node concept="2OqwBi" id="4OBfrz$xMnA" role="2Oq$k0">
-          <node concept="2YIFZM" id="4OBfrz$xMnB" role="2Oq$k0">
-            <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys():com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys" resolve="hashKeys" />
-            <ref role="1Pybhc" to="3o3z:~MultimapBuilder" resolve="MultimapBuilder" />
-          </node>
-          <node concept="liA8E" id="4OBfrz$xMnC" role="2OqNvi">
-            <ref role="37wK5l" to="3o3z:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues():com.google.common.collect.MultimapBuilder$SetMultimapBuilder" resolve="hashSetValues" />
+      <node concept="2YIFZM" id="Zou7Ch0vy4" role="33vP2m">
+        <ref role="37wK5l" to="3o3z:~Multimaps.newSetMultimap(java.util.Map,com.google.common.base.Supplier):com.google.common.collect.SetMultimap" resolve="newSetMultimap" />
+        <ref role="1Pybhc" to="3o3z:~Multimaps" resolve="Multimaps" />
+        <node concept="2ShNRf" id="Zou7Ch0JV$" role="37wK5m">
+          <node concept="1pGfFk" id="Zou7Ch0LGu" role="2ShVmc">
+            <ref role="37wK5l" to="lktc:~THashMap.&lt;init&gt;()" resolve="THashMap" />
+            <node concept="3uibUv" id="Zou7Ch0OUA" role="1pMfVU">
+              <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+            </node>
+            <node concept="3uibUv" id="Zou7Ch1a6I" role="1pMfVU">
+              <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
+              <node concept="3uibUv" id="Zou7Ch1dAr" role="11_B2D">
+                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+              </node>
+            </node>
           </node>
         </node>
-        <node concept="liA8E" id="4OBfrz$xMnD" role="2OqNvi">
-          <ref role="37wK5l" to="3o3z:~MultimapBuilder$SetMultimapBuilder.build():com.google.common.collect.SetMultimap" resolve="build" />
-          <node concept="3uibUv" id="4OBfrz$xMnE" role="3PaCim">
-            <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
-          </node>
-          <node concept="3uibUv" id="4OBfrz$_BlB" role="3PaCim">
-            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        <node concept="2ShNRf" id="Zou7Ch0WeG" role="37wK5m">
+          <node concept="YeOm9" id="Zou7Ch0YGk" role="2ShVmc">
+            <node concept="1Y3b0j" id="Zou7Ch0YGn" role="YeSDq">
+              <property role="2bfB8j" value="true" />
+              <ref role="1Y3XeK" to="gyfg:~Supplier" resolve="Supplier" />
+              <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+              <node concept="3Tm1VV" id="Zou7Ch0YGo" role="1B3o_S" />
+              <node concept="3clFb_" id="Zou7Ch0YGq" role="jymVt">
+                <property role="TrG5h" value="get" />
+                <node concept="3Tm1VV" id="Zou7Ch0YGr" role="1B3o_S" />
+                <node concept="3uibUv" id="Zou7Ch0YGC" role="3clF45">
+                  <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
+                  <node concept="3uibUv" id="Zou7Ch14Zm" role="11_B2D">
+                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="Zou7Ch0YGv" role="3clF47">
+                  <node concept="3clFbF" id="Zou7Ch16pp" role="3cqZAp">
+                    <node concept="2ShNRf" id="Zou7Ch16pn" role="3clFbG">
+                      <node concept="1pGfFk" id="Zou7Ch16TE" role="2ShVmc">
+                        <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+                        <node concept="3uibUv" id="Zou7Ch17cu" role="1pMfVU">
+                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3uibUv" id="Zou7Ch0YGA" role="2Ghqu4">
+                <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
+                <node concept="3uibUv" id="Zou7Ch12_C" role="11_B2D">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -369,11 +408,12 @@
         </node>
       </node>
       <node concept="2ShNRf" id="4OBfrz$xMnL" role="33vP2m">
-        <node concept="3rGOSV" id="4OBfrz$xMnM" role="2ShVmc">
-          <node concept="3uibUv" id="4OBfrz$z1nF" role="3rHrn6">
+        <node concept="1pGfFk" id="Zou7Ch00GL" role="2ShVmc">
+          <ref role="37wK5l" to="lktc:~THashMap.&lt;init&gt;()" resolve="THashMap" />
+          <node concept="3uibUv" id="Zou7Ch0btz" role="1pMfVU">
             <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
           </node>
-          <node concept="3uibUv" id="5bqHObSR6W8" role="3rHtpV">
+          <node concept="3uibUv" id="Zou7Ch0mrB" role="1pMfVU">
             <ref role="3uigEE" node="5bqHObSR6HQ" resolve="IncrementalEngine.CacheEntry" />
           </node>
         </node>
@@ -484,9 +524,10 @@
           <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
         </node>
       </node>
-      <node concept="2ShNRf" id="5bqHObT7Q0f" role="33vP2m">
-        <node concept="2i4dXS" id="5bqHObT7PXG" role="2ShVmc">
-          <node concept="3uibUv" id="5bqHObT7PXH" role="HW$YZ">
+      <node concept="2ShNRf" id="Zou7Ch1lGp" role="33vP2m">
+        <node concept="1pGfFk" id="Zou7Ch1s0F" role="2ShVmc">
+          <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <node concept="3uibUv" id="Zou7Ch1A92" role="1pMfVU">
             <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
           </node>
         </node>

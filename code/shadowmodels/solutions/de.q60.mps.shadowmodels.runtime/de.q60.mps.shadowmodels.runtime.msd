@@ -27,7 +27,7 @@
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
     <dependency reexport="false">e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)</dependency>
-    <dependency reexport="false">134ef213-c518-42b0-b12c-c109aa13d320(collections_trove.runtime)</dependency>
+    <dependency reexport="true">134ef213-c518-42b0-b12c-c109aa13d320(collections_trove.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:0bf7bc3b-b11d-42e4-b160-93d72af96397:de.q60.mps.shadowmodels.runtimelang" version="0" />

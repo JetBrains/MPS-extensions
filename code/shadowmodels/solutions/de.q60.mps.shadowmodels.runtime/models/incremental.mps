@@ -216,7 +216,6 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
-        <child id="1201186121363" name="typeParameter" index="2Ghqu4" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -263,6 +262,9 @@
       <concept id="1226516258405" name="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" flags="nn" index="2i4dXS" />
       <concept id="1207233427108" name="jetbrains.mps.baseLanguage.collections.structure.MapRemoveOperation" flags="nn" index="kI3uX">
         <child id="1207233489861" name="key" index="kIiFs" />
+      </concept>
+      <concept id="1224414427926" name="jetbrains.mps.baseLanguage.collections.structure.SequenceCreator" flags="nn" index="kMnCb">
+        <child id="1224414456414" name="elementType" index="kMuH3" />
       </concept>
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
@@ -317,6 +319,8 @@
       <concept id="1208542034276" name="jetbrains.mps.baseLanguage.collections.structure.MapClearOperation" flags="nn" index="1yHZxX" />
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
+      <concept id="1240824834947" name="jetbrains.mps.baseLanguage.collections.structure.ValueAccessOperation" flags="nn" index="3AV6Ez" />
+      <concept id="1240825616499" name="jetbrains.mps.baseLanguage.collections.structure.KeyAccessOperation" flags="nn" index="3AY5_j" />
       <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
         <child id="1197932505799" name="map" index="3ElQJh" />
         <child id="1197932525128" name="key" index="3ElVtu" />
@@ -330,69 +334,12 @@
     <node concept="312cEg" id="4OBfrz$xMnw" role="jymVt">
       <property role="TrG5h" value="dependencies" />
       <node concept="3Tm6S6" id="4OBfrz$xMnx" role="1B3o_S" />
-      <node concept="3uibUv" id="4OBfrz$xMny" role="1tU5fm">
-        <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
-        <node concept="3uibUv" id="4OBfrz$xMnz" role="11_B2D">
-          <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
-        </node>
-        <node concept="3uibUv" id="4OBfrz$_AzV" role="11_B2D">
-          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-        </node>
+      <node concept="3uibUv" id="3RWdhMVxKH7" role="1tU5fm">
+        <ref role="3uigEE" node="3RWdhMVxx0J" resolve="IncrementalEngine.DependenciesMap" />
       </node>
-      <node concept="2YIFZM" id="Zou7Ch0vy4" role="33vP2m">
-        <ref role="37wK5l" to="3o3z:~Multimaps.newSetMultimap(java.util.Map,com.google.common.base.Supplier):com.google.common.collect.SetMultimap" resolve="newSetMultimap" />
-        <ref role="1Pybhc" to="3o3z:~Multimaps" resolve="Multimaps" />
-        <node concept="2ShNRf" id="Zou7Ch0JV$" role="37wK5m">
-          <node concept="1pGfFk" id="Zou7Ch0LGu" role="2ShVmc">
-            <ref role="37wK5l" to="lktc:~THashMap.&lt;init&gt;()" resolve="THashMap" />
-            <node concept="3uibUv" id="Zou7Ch0OUA" role="1pMfVU">
-              <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
-            </node>
-            <node concept="3uibUv" id="Zou7Ch1a6I" role="1pMfVU">
-              <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
-              <node concept="3uibUv" id="Zou7Ch1dAr" role="11_B2D">
-                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2ShNRf" id="Zou7Ch0WeG" role="37wK5m">
-          <node concept="YeOm9" id="Zou7Ch0YGk" role="2ShVmc">
-            <node concept="1Y3b0j" id="Zou7Ch0YGn" role="YeSDq">
-              <property role="2bfB8j" value="true" />
-              <ref role="1Y3XeK" to="gyfg:~Supplier" resolve="Supplier" />
-              <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-              <node concept="3Tm1VV" id="Zou7Ch0YGo" role="1B3o_S" />
-              <node concept="3clFb_" id="Zou7Ch0YGq" role="jymVt">
-                <property role="TrG5h" value="get" />
-                <node concept="3Tm1VV" id="Zou7Ch0YGr" role="1B3o_S" />
-                <node concept="3uibUv" id="Zou7Ch0YGC" role="3clF45">
-                  <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
-                  <node concept="3uibUv" id="Zou7Ch14Zm" role="11_B2D">
-                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                  </node>
-                </node>
-                <node concept="3clFbS" id="Zou7Ch0YGv" role="3clF47">
-                  <node concept="3clFbF" id="Zou7Ch16pp" role="3cqZAp">
-                    <node concept="2ShNRf" id="Zou7Ch16pn" role="3clFbG">
-                      <node concept="1pGfFk" id="Zou7Ch16TE" role="2ShVmc">
-                        <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
-                        <node concept="3uibUv" id="Zou7Ch17cu" role="1pMfVU">
-                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3uibUv" id="Zou7Ch0YGA" role="2Ghqu4">
-                <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
-                <node concept="3uibUv" id="Zou7Ch12_C" role="11_B2D">
-                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                </node>
-              </node>
-            </node>
-          </node>
+      <node concept="2ShNRf" id="3RWdhMVxQjr" role="33vP2m">
+        <node concept="HV5vD" id="3RWdhMVxT3l" role="2ShVmc">
+          <ref role="HV5vE" node="3RWdhMVxx0J" resolve="IncrementalEngine.DependenciesMap" />
         </node>
       </node>
     </node>
@@ -873,7 +820,7 @@
               <ref role="3cqZAo" node="4OBfrz$xMnw" resolve="dependencies" />
             </node>
             <node concept="liA8E" id="5z3H0sE3vNO" role="2OqNvi">
-              <ref role="37wK5l" to="3o3z:~Multimap.clear():void" resolve="clear" />
+              <ref role="37wK5l" node="3RWdhMVxUC9" resolve="clear" />
             </node>
           </node>
         </node>
@@ -1246,7 +1193,7 @@
                               <ref role="3cqZAo" node="4OBfrz$xMnw" resolve="dependencies" />
                             </node>
                             <node concept="liA8E" id="3CcyxRChP2X" role="2OqNvi">
-                              <ref role="37wK5l" to="3o3z:~SetMultimap.get(java.lang.Object):java.util.Set" resolve="get" />
+                              <ref role="37wK5l" node="3RWdhMVzdWV" resolve="get" />
                               <node concept="37vLTw" id="3CcyxRChP2Y" role="37wK5m">
                                 <ref role="3cqZAo" node="3CcyxRChP2Z" resolve="it" />
                               </node>
@@ -1282,7 +1229,7 @@
               <ref role="3cqZAo" node="4OBfrz$xMnw" resolve="dependencies" />
             </node>
             <node concept="liA8E" id="3CcyxRChP3a" role="2OqNvi">
-              <ref role="37wK5l" to="3o3z:~SetMultimap.removeAll(java.lang.Object):java.util.Set" resolve="removeAll" />
+              <ref role="37wK5l" node="3RWdhMVyn1D" resolve="removeAll" />
               <node concept="37vLTw" id="3CcyxRChP3b" role="37wK5m">
                 <ref role="3cqZAo" node="3CcyxRChP2C" resolve="changes" />
               </node>
@@ -2001,7 +1948,7 @@
                         <ref role="3cqZAo" node="4OBfrz$xMnw" resolve="dependencies" />
                       </node>
                       <node concept="liA8E" id="3vsFnFV6S7$" role="2OqNvi">
-                        <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object):boolean" resolve="put" />
+                        <ref role="37wK5l" node="3RWdhMV_4tI" resolve="put" />
                         <node concept="37vLTw" id="3vsFnFV6SHm" role="37wK5m">
                           <ref role="3cqZAo" node="3vsFnFV6QI_" resolve="dep" />
                         </node>
@@ -2047,7 +1994,7 @@
             <property role="TrG5h" value="reverseDependencies" />
             <property role="3TUv4t" value="true" />
             <node concept="3uibUv" id="3jJPbiRT_A7" role="1tU5fm">
-              <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
+              <ref role="3uigEE" to="3o3z:~Multimap" resolve="Multimap" />
               <node concept="3uibUv" id="3jJPbiRT_Ad" role="11_B2D">
                 <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
               </node>
@@ -2055,31 +2002,12 @@
                 <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
               </node>
             </node>
-            <node concept="2YIFZM" id="3jJPbiRT_AD" role="33vP2m">
-              <ref role="37wK5l" to="3o3z:~Multimaps.invertFrom(com.google.common.collect.Multimap,com.google.common.collect.Multimap):com.google.common.collect.Multimap" resolve="invertFrom" />
-              <ref role="1Pybhc" to="3o3z:~Multimaps" resolve="Multimaps" />
-              <node concept="37vLTw" id="3jJPbiRT_AE" role="37wK5m">
+            <node concept="2OqwBi" id="3RWdhMVCggP" role="33vP2m">
+              <node concept="37vLTw" id="3jJPbiRT_AE" role="2Oq$k0">
                 <ref role="3cqZAo" node="4OBfrz$xMnw" resolve="dependencies" />
               </node>
-              <node concept="2OqwBi" id="3jJPbiRT_AF" role="37wK5m">
-                <node concept="2OqwBi" id="3jJPbiRT_AG" role="2Oq$k0">
-                  <node concept="2YIFZM" id="3jJPbiRT_AH" role="2Oq$k0">
-                    <ref role="1Pybhc" to="3o3z:~MultimapBuilder" resolve="MultimapBuilder" />
-                    <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys():com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys" resolve="hashKeys" />
-                  </node>
-                  <node concept="liA8E" id="3jJPbiRT_AI" role="2OqNvi">
-                    <ref role="37wK5l" to="3o3z:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues():com.google.common.collect.MultimapBuilder$SetMultimapBuilder" resolve="hashSetValues" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="3jJPbiRT_AJ" role="2OqNvi">
-                  <ref role="37wK5l" to="3o3z:~MultimapBuilder$SetMultimapBuilder.build():com.google.common.collect.SetMultimap" resolve="build" />
-                  <node concept="3uibUv" id="3jJPbiRT_AK" role="3PaCim">
-                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                  </node>
-                  <node concept="3uibUv" id="3jJPbiRT_AL" role="3PaCim">
-                    <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
-                  </node>
-                </node>
+              <node concept="liA8E" id="3RWdhMVCiNu" role="2OqNvi">
+                <ref role="37wK5l" node="3RWdhMVAKGv" resolve="toInverse" />
               </node>
             </node>
           </node>
@@ -2153,8 +2081,8 @@
                       <node concept="3cpWs8" id="3jJPbiRUnNv" role="3cqZAp">
                         <node concept="3cpWsn" id="3jJPbiRUnNw" role="3cpWs9">
                           <property role="TrG5h" value="d" />
-                          <node concept="2hMVRd" id="3jJPbiRUoQh" role="1tU5fm">
-                            <node concept="3uibUv" id="3jJPbiRUoQj" role="2hN53Y">
+                          <node concept="A3Dl8" id="3RWdhMVCmkI" role="1tU5fm">
+                            <node concept="3uibUv" id="3RWdhMVCmkK" role="A3Ik2">
                               <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
                             </node>
                           </node>
@@ -2163,7 +2091,7 @@
                               <ref role="3cqZAo" node="3jJPbiRT_AC" resolve="reverseDependencies" />
                             </node>
                             <node concept="liA8E" id="3jJPbiRUnNz" role="2OqNvi">
-                              <ref role="37wK5l" to="3o3z:~SetMultimap.get(java.lang.Object):java.util.Set" resolve="get" />
+                              <ref role="37wK5l" to="3o3z:~Multimap.get(java.lang.Object):java.util.Collection" resolve="get" />
                               <node concept="37vLTw" id="3jJPbiRVP1q" role="37wK5m">
                                 <ref role="3cqZAo" node="3jJPbiRVEq$" resolve="k" />
                               </node>
@@ -2407,6 +2335,526 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="3RWdhMVxqkY" role="jymVt" />
+    <node concept="312cEu" id="3RWdhMVxx0J" role="jymVt">
+      <property role="TrG5h" value="DependenciesMap" />
+      <node concept="Wx3nA" id="3RWdhMV$$xf" role="jymVt">
+        <property role="TrG5h" value="EMPTY_SEQUENCE" />
+        <property role="3TUv4t" value="true" />
+        <node concept="A3Dl8" id="3RWdhMV$srz" role="1tU5fm">
+          <node concept="3uibUv" id="3RWdhMV$stA" role="A3Ik2">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+        <node concept="3Tm6S6" id="3RWdhMV$q_7" role="1B3o_S" />
+        <node concept="2ShNRf" id="3RWdhMV$k4G" role="33vP2m">
+          <node concept="kMnCb" id="3RWdhMV$k1q" role="2ShVmc">
+            <node concept="3uibUv" id="3RWdhMV$k1r" role="kMuH3">
+              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="312cEg" id="3RWdhMVxCDn" role="jymVt">
+        <property role="TrG5h" value="map" />
+        <node concept="3Tm6S6" id="3RWdhMVxCDo" role="1B3o_S" />
+        <node concept="3uibUv" id="3RWdhMVxD4b" role="1tU5fm">
+          <ref role="3uigEE" to="lktc:~THashMap" resolve="THashMap" />
+          <node concept="3uibUv" id="3RWdhMVxD6r" role="11_B2D">
+            <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+          </node>
+          <node concept="3uibUv" id="3RWdhMVxDd$" role="11_B2D">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+        <node concept="2ShNRf" id="3RWdhMVxEAv" role="33vP2m">
+          <node concept="1pGfFk" id="3RWdhMVxEzq" role="2ShVmc">
+            <ref role="37wK5l" to="lktc:~THashMap.&lt;init&gt;()" resolve="THashMap" />
+            <node concept="3uibUv" id="3RWdhMVxEzr" role="1pMfVU">
+              <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+            </node>
+            <node concept="3uibUv" id="3RWdhMVxEzs" role="1pMfVU">
+              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="3RWdhMVxFWr" role="jymVt" />
+      <node concept="3clFb_" id="3RWdhMVxUC9" role="jymVt">
+        <property role="TrG5h" value="clear" />
+        <node concept="3cqZAl" id="3RWdhMVxUCb" role="3clF45" />
+        <node concept="3Tmbuc" id="3RWdhMVxUCc" role="1B3o_S" />
+        <node concept="3clFbS" id="3RWdhMVxUCd" role="3clF47">
+          <node concept="3clFbF" id="3RWdhMVxYZW" role="3cqZAp">
+            <node concept="2OqwBi" id="3RWdhMVxZU8" role="3clFbG">
+              <node concept="37vLTw" id="3RWdhMVxYZV" role="2Oq$k0">
+                <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
+              </node>
+              <node concept="liA8E" id="3RWdhMVylfL" role="2OqNvi">
+                <ref role="37wK5l" to="lktc:~THashMap.clear():void" resolve="clear" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="3RWdhMVylxf" role="jymVt" />
+      <node concept="3clFb_" id="3RWdhMVyn1D" role="jymVt">
+        <property role="TrG5h" value="removeAll" />
+        <node concept="37vLTG" id="3RWdhMVyrg2" role="3clF46">
+          <property role="TrG5h" value="keys" />
+          <node concept="A3Dl8" id="3RWdhMVysZW" role="1tU5fm">
+            <node concept="3uibUv" id="3RWdhMVyt61" role="A3Ik2">
+              <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cqZAl" id="3RWdhMVyn1F" role="3clF45" />
+        <node concept="3Tmbuc" id="3RWdhMVyn1G" role="1B3o_S" />
+        <node concept="3clFbS" id="3RWdhMVyn1H" role="3clF47">
+          <node concept="2Gpval" id="3RWdhMVyOST" role="3cqZAp">
+            <node concept="2GrKxI" id="3RWdhMVyOSV" role="2Gsz3X">
+              <property role="TrG5h" value="k" />
+            </node>
+            <node concept="37vLTw" id="3RWdhMVyP4K" role="2GsD0m">
+              <ref role="3cqZAo" node="3RWdhMVyrg2" resolve="keys" />
+            </node>
+            <node concept="3clFbS" id="3RWdhMVyOSZ" role="2LFqv$">
+              <node concept="3clFbF" id="3RWdhMVyPdd" role="3cqZAp">
+                <node concept="2OqwBi" id="3RWdhMVyQ77" role="3clFbG">
+                  <node concept="37vLTw" id="3RWdhMVyPdc" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
+                  </node>
+                  <node concept="liA8E" id="3RWdhMVzbtg" role="2OqNvi">
+                    <ref role="37wK5l" to="lktc:~THashMap.remove(java.lang.Object):java.lang.Object" resolve="remove" />
+                    <node concept="2GrUjf" id="3RWdhMVzbL3" role="37wK5m">
+                      <ref role="2Gs0qQ" node="3RWdhMVyOSV" resolve="k" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="3RWdhMVzcoi" role="jymVt" />
+      <node concept="3clFb_" id="3RWdhMVzdWV" role="jymVt">
+        <property role="TrG5h" value="get" />
+        <node concept="37vLTG" id="3RWdhMVzlXk" role="3clF46">
+          <property role="TrG5h" value="key" />
+          <node concept="3uibUv" id="3RWdhMVznG$" role="1tU5fm">
+            <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+          </node>
+        </node>
+        <node concept="A3Dl8" id="3RWdhMVzivL" role="3clF45">
+          <node concept="3uibUv" id="3RWdhMVzk1S" role="A3Ik2">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+        <node concept="3Tmbuc" id="3RWdhMVzdWY" role="1B3o_S" />
+        <node concept="3clFbS" id="3RWdhMVzdWZ" role="3clF47">
+          <node concept="3cpWs8" id="3RWdhMV$65C" role="3cqZAp">
+            <node concept="3cpWsn" id="3RWdhMV$65D" role="3cpWs9">
+              <property role="TrG5h" value="value" />
+              <node concept="3uibUv" id="3RWdhMV$65t" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+              </node>
+              <node concept="2OqwBi" id="3RWdhMV$65E" role="33vP2m">
+                <node concept="37vLTw" id="3RWdhMV$65F" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
+                </node>
+                <node concept="liA8E" id="3RWdhMV$65G" role="2OqNvi">
+                  <ref role="37wK5l" to="lktc:~THashMap.get(java.lang.Object):java.lang.Object" resolve="get" />
+                  <node concept="37vLTw" id="3RWdhMV$65H" role="37wK5m">
+                    <ref role="3cqZAo" node="3RWdhMVzlXk" resolve="key" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="3RWdhMV$8$t" role="3cqZAp">
+            <node concept="3clFbS" id="3RWdhMV$8$v" role="3clFbx">
+              <node concept="3cpWs6" id="3RWdhMV$9oR" role="3cqZAp">
+                <node concept="37vLTw" id="3RWdhMV$BbD" role="3cqZAk">
+                  <ref role="3cqZAo" node="3RWdhMV$$xf" resolve="EMPTY_SEQUENCE" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="3RWdhMV$96O" role="3clFbw">
+              <node concept="10Nm6u" id="3RWdhMV$9hI" role="3uHU7w" />
+              <node concept="37vLTw" id="3RWdhMV$8SG" role="3uHU7B">
+                <ref role="3cqZAo" node="3RWdhMV$65D" resolve="value" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="3RWdhMVzpQV" role="3cqZAp">
+            <node concept="3K4zz7" id="3RWdhMV$Dgn" role="3clFbG">
+              <node concept="1eOMI4" id="3RWdhMV$D_m" role="3K4E3e">
+                <node concept="10QFUN" id="3RWdhMV$D_j" role="1eOMHV">
+                  <node concept="3uibUv" id="3RWdhMV$DAS" role="10QFUM">
+                    <ref role="3uigEE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                  </node>
+                  <node concept="37vLTw" id="3RWdhMV$DGj" role="10QFUP">
+                    <ref role="3cqZAo" node="3RWdhMV$65D" resolve="value" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2ShNRf" id="3RWdhMV$ZLa" role="3K4GZi">
+                <node concept="2HTt$P" id="3RWdhMV_04n" role="2ShVmc">
+                  <node concept="3uibUv" id="3RWdhMV_0Rr" role="2HTBi0">
+                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                  </node>
+                  <node concept="37vLTw" id="3RWdhMV_2sn" role="2HTEbv">
+                    <ref role="3cqZAo" node="3RWdhMV$65D" resolve="value" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2ZW3vV" id="3RWdhMV$81S" role="3K4Cdx">
+                <node concept="3uibUv" id="3RWdhMV$8b0" role="2ZW6by">
+                  <ref role="3uigEE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                </node>
+                <node concept="37vLTw" id="3RWdhMV$65I" role="2ZW6bz">
+                  <ref role="3cqZAo" node="3RWdhMV$65D" resolve="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="3RWdhMV_2Fu" role="jymVt" />
+      <node concept="3clFb_" id="3RWdhMV_4tI" role="jymVt">
+        <property role="TrG5h" value="put" />
+        <node concept="37vLTG" id="3RWdhMV_9Ax" role="3clF46">
+          <property role="TrG5h" value="key" />
+          <node concept="3uibUv" id="3RWdhMV_bmk" role="1tU5fm">
+            <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+          </node>
+        </node>
+        <node concept="37vLTG" id="3RWdhMV_c33" role="3clF46">
+          <property role="TrG5h" value="value" />
+          <node concept="3uibUv" id="3RWdhMV_dLL" role="1tU5fm">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+        <node concept="3cqZAl" id="3RWdhMV_4tK" role="3clF45" />
+        <node concept="3Tmbuc" id="3RWdhMV_4tL" role="1B3o_S" />
+        <node concept="3clFbS" id="3RWdhMV_4tM" role="3clF47">
+          <node concept="3cpWs8" id="3RWdhMV_ADd" role="3cqZAp">
+            <node concept="3cpWsn" id="3RWdhMV_ADe" role="3cpWs9">
+              <property role="TrG5h" value="existing" />
+              <node concept="3uibUv" id="3RWdhMV_AD3" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+              </node>
+              <node concept="2OqwBi" id="3RWdhMV_ADf" role="33vP2m">
+                <node concept="37vLTw" id="3RWdhMV_ADg" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
+                </node>
+                <node concept="liA8E" id="3RWdhMV_ADh" role="2OqNvi">
+                  <ref role="37wK5l" to="lktc:~THashMap.get(java.lang.Object):java.lang.Object" resolve="get" />
+                  <node concept="37vLTw" id="3RWdhMV_ADi" role="37wK5m">
+                    <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="3RWdhMV_D3X" role="3cqZAp">
+            <node concept="3clFbS" id="3RWdhMV_D3Z" role="3clFbx">
+              <node concept="3clFbF" id="3RWdhMV_DKy" role="3cqZAp">
+                <node concept="2OqwBi" id="3RWdhMV_ESC" role="3clFbG">
+                  <node concept="37vLTw" id="3RWdhMV_DKw" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
+                  </node>
+                  <node concept="liA8E" id="3RWdhMVA0gR" role="2OqNvi">
+                    <ref role="37wK5l" to="lktc:~THashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                    <node concept="37vLTw" id="3RWdhMVA0Fh" role="37wK5m">
+                      <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
+                    </node>
+                    <node concept="37vLTw" id="3RWdhMVA1yB" role="37wK5m">
+                      <ref role="3cqZAo" node="3RWdhMV_c33" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="3RWdhMV_Dyl" role="3clFbw">
+              <node concept="10Nm6u" id="3RWdhMV_DDG" role="3uHU7w" />
+              <node concept="37vLTw" id="3RWdhMV_DnK" role="3uHU7B">
+                <ref role="3cqZAo" node="3RWdhMV_ADe" resolve="existing" />
+              </node>
+            </node>
+            <node concept="9aQIb" id="3RWdhMVA1QN" role="9aQIa">
+              <node concept="3clFbS" id="3RWdhMVA1QO" role="9aQI4">
+                <node concept="3clFbJ" id="3RWdhMVAd8Y" role="3cqZAp">
+                  <node concept="3clFbS" id="3RWdhMVAd90" role="3clFbx">
+                    <node concept="3cpWs8" id="3RWdhMVAFd$" role="3cqZAp">
+                      <node concept="3cpWsn" id="3RWdhMVAFd_" role="3cpWs9">
+                        <property role="TrG5h" value="multiple" />
+                        <node concept="3uibUv" id="3RWdhMVAFdA" role="1tU5fm">
+                          <ref role="3uigEE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                        </node>
+                        <node concept="1eOMI4" id="3RWdhMVAGM5" role="33vP2m">
+                          <node concept="10QFUN" id="3RWdhMVAGM2" role="1eOMHV">
+                            <node concept="3uibUv" id="3RWdhMVAGM7" role="10QFUM">
+                              <ref role="3uigEE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                            </node>
+                            <node concept="37vLTw" id="3RWdhMVAGM8" role="10QFUP">
+                              <ref role="3cqZAo" node="3RWdhMV_ADe" resolve="existing" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="3RWdhMVAFdI" role="3cqZAp">
+                      <node concept="2OqwBi" id="3RWdhMVAFdJ" role="3clFbG">
+                        <node concept="37vLTw" id="3RWdhMVAFdK" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3RWdhMVAFd_" resolve="multiple" />
+                        </node>
+                        <node concept="liA8E" id="3RWdhMVAFdL" role="2OqNvi">
+                          <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object):boolean" resolve="add" />
+                          <node concept="37vLTw" id="3RWdhMVAFdM" role="37wK5m">
+                            <ref role="3cqZAo" node="3RWdhMV_c33" resolve="value" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ZW3vV" id="3RWdhMVAdxP" role="3clFbw">
+                    <node concept="3uibUv" id="3RWdhMVAdCl" role="2ZW6by">
+                      <ref role="3uigEE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                    </node>
+                    <node concept="37vLTw" id="3RWdhMVAdj6" role="2ZW6bz">
+                      <ref role="3cqZAo" node="3RWdhMV_ADe" resolve="existing" />
+                    </node>
+                  </node>
+                  <node concept="9aQIb" id="3RWdhMVAdNc" role="9aQIa">
+                    <node concept="3clFbS" id="3RWdhMVAdNd" role="9aQI4">
+                      <node concept="3cpWs8" id="3RWdhMVA2o$" role="3cqZAp">
+                        <node concept="3cpWsn" id="3RWdhMVA2o_" role="3cpWs9">
+                          <property role="TrG5h" value="multiple" />
+                          <node concept="3uibUv" id="3RWdhMVA2oy" role="1tU5fm">
+                            <ref role="3uigEE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                          </node>
+                          <node concept="2ShNRf" id="3RWdhMVA2oA" role="33vP2m">
+                            <node concept="HV5vD" id="3RWdhMVA2oB" role="2ShVmc">
+                              <ref role="HV5vE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="3RWdhMVA26C" role="3cqZAp">
+                        <node concept="2OqwBi" id="3RWdhMVA8$U" role="3clFbG">
+                          <node concept="37vLTw" id="3RWdhMVA2oC" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3RWdhMVA2o_" resolve="multiple" />
+                          </node>
+                          <node concept="liA8E" id="3RWdhMVAbpb" role="2OqNvi">
+                            <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object):boolean" resolve="add" />
+                            <node concept="37vLTw" id="3RWdhMVAbBx" role="37wK5m">
+                              <ref role="3cqZAo" node="3RWdhMV_ADe" resolve="existing" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="3RWdhMVAbV2" role="3cqZAp">
+                        <node concept="2OqwBi" id="3RWdhMVAd0W" role="3clFbG">
+                          <node concept="37vLTw" id="3RWdhMVAbV0" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3RWdhMVA2o_" resolve="multiple" />
+                          </node>
+                          <node concept="liA8E" id="3RWdhMVAhP1" role="2OqNvi">
+                            <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object):boolean" resolve="add" />
+                            <node concept="37vLTw" id="3RWdhMVAi1B" role="37wK5m">
+                              <ref role="3cqZAo" node="3RWdhMV_c33" resolve="value" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="3RWdhMVAipP" role="3cqZAp">
+                        <node concept="2OqwBi" id="3RWdhMVAjs8" role="3clFbG">
+                          <node concept="37vLTw" id="3RWdhMVAipN" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
+                          </node>
+                          <node concept="liA8E" id="3RWdhMVACPf" role="2OqNvi">
+                            <ref role="37wK5l" to="lktc:~THashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                            <node concept="37vLTw" id="3RWdhMVADhQ" role="37wK5m">
+                              <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
+                            </node>
+                            <node concept="37vLTw" id="3RWdhMVAEdn" role="37wK5m">
+                              <ref role="3cqZAo" node="3RWdhMVA2o_" resolve="multiple" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="3RWdhMVzqkG" role="jymVt" />
+      <node concept="3clFb_" id="3RWdhMVAKGv" role="jymVt">
+        <property role="TrG5h" value="toInverse" />
+        <node concept="3uibUv" id="3RWdhMVASzt" role="3clF45">
+          <ref role="3uigEE" to="3o3z:~Multimap" resolve="Multimap" />
+          <node concept="3uibUv" id="3RWdhMVATVu" role="11_B2D">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+          <node concept="3uibUv" id="3RWdhMVAVC6" role="11_B2D">
+            <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+          </node>
+        </node>
+        <node concept="3Tmbuc" id="3RWdhMVAKGy" role="1B3o_S" />
+        <node concept="3clFbS" id="3RWdhMVAKGz" role="3clF47">
+          <node concept="3cpWs8" id="3RWdhMVAXLq" role="3cqZAp">
+            <node concept="3cpWsn" id="3RWdhMVAXLr" role="3cpWs9">
+              <property role="TrG5h" value="result" />
+              <node concept="3uibUv" id="3RWdhMVAXL8" role="1tU5fm">
+                <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
+                <node concept="3uibUv" id="3RWdhMVAXLd" role="11_B2D">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+                <node concept="3uibUv" id="3RWdhMVAXLe" role="11_B2D">
+                  <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3RWdhMVAXLs" role="33vP2m">
+                <node concept="2OqwBi" id="3RWdhMVAXLt" role="2Oq$k0">
+                  <node concept="2YIFZM" id="3RWdhMVAXLu" role="2Oq$k0">
+                    <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys():com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys" resolve="hashKeys" />
+                    <ref role="1Pybhc" to="3o3z:~MultimapBuilder" resolve="MultimapBuilder" />
+                  </node>
+                  <node concept="liA8E" id="3RWdhMVAXLv" role="2OqNvi">
+                    <ref role="37wK5l" to="3o3z:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues():com.google.common.collect.MultimapBuilder$SetMultimapBuilder" resolve="hashSetValues" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3RWdhMVAXLw" role="2OqNvi">
+                  <ref role="37wK5l" to="3o3z:~MultimapBuilder$SetMultimapBuilder.build():com.google.common.collect.SetMultimap" resolve="build" />
+                  <node concept="3uibUv" id="3RWdhMVAXLx" role="3PaCim">
+                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                  </node>
+                  <node concept="3uibUv" id="3RWdhMVAXLy" role="3PaCim">
+                    <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2Gpval" id="3RWdhMVB0dW" role="3cqZAp">
+            <node concept="2GrKxI" id="3RWdhMVB0dY" role="2Gsz3X">
+              <property role="TrG5h" value="entry" />
+            </node>
+            <node concept="37vLTw" id="3RWdhMVB0Gf" role="2GsD0m">
+              <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
+            </node>
+            <node concept="3clFbS" id="3RWdhMVB0e2" role="2LFqv$">
+              <node concept="3cpWs8" id="3RWdhMVC2wO" role="3cqZAp">
+                <node concept="3cpWsn" id="3RWdhMVC2wP" role="3cpWs9">
+                  <property role="TrG5h" value="value" />
+                  <node concept="3uibUv" id="3RWdhMVC2wl" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                  </node>
+                  <node concept="2OqwBi" id="3RWdhMVC2wQ" role="33vP2m">
+                    <node concept="2GrUjf" id="3RWdhMVC2wR" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="3RWdhMVB0dY" resolve="entry" />
+                    </node>
+                    <node concept="3AV6Ez" id="3RWdhMVC2wS" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="3RWdhMVC6H1" role="3cqZAp">
+                <node concept="3clFbS" id="3RWdhMVC6H3" role="3clFbx">
+                  <node concept="2Gpval" id="3RWdhMVC9aq" role="3cqZAp">
+                    <node concept="2GrKxI" id="3RWdhMVC9as" role="2Gsz3X">
+                      <property role="TrG5h" value="v" />
+                    </node>
+                    <node concept="1eOMI4" id="3RWdhMVC9Pg" role="2GsD0m">
+                      <node concept="10QFUN" id="3RWdhMVC9Pd" role="1eOMHV">
+                        <node concept="3uibUv" id="3RWdhMVC9Pi" role="10QFUM">
+                          <ref role="3uigEE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                        </node>
+                        <node concept="37vLTw" id="3RWdhMVC9Pj" role="10QFUP">
+                          <ref role="3cqZAo" node="3RWdhMVC2wP" resolve="value" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="3RWdhMVC9aw" role="2LFqv$">
+                      <node concept="3clFbF" id="3RWdhMVB1eV" role="3cqZAp">
+                        <node concept="2OqwBi" id="3RWdhMVB1$v" role="3clFbG">
+                          <node concept="37vLTw" id="3RWdhMVB1eU" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3RWdhMVAXLr" resolve="result" />
+                          </node>
+                          <node concept="liA8E" id="3RWdhMVBb1j" role="2OqNvi">
+                            <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object):boolean" resolve="put" />
+                            <node concept="2GrUjf" id="3RWdhMVCb6Z" role="37wK5m">
+                              <ref role="2Gs0qQ" node="3RWdhMVC9as" resolve="v" />
+                            </node>
+                            <node concept="2OqwBi" id="3RWdhMVBbJ0" role="37wK5m">
+                              <node concept="2GrUjf" id="3RWdhMVBbfe" role="2Oq$k0">
+                                <ref role="2Gs0qQ" node="3RWdhMVB0dY" resolve="entry" />
+                              </node>
+                              <node concept="3AY5_j" id="3RWdhMVBcFV" role="2OqNvi" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ZW3vV" id="3RWdhMVC7z4" role="3clFbw">
+                  <node concept="3uibUv" id="3RWdhMVC7DI" role="2ZW6by">
+                    <ref role="3uigEE" node="3RWdhMVzFis" resolve="IncrementalEngine.DependenciesMap.MultipleValues" />
+                  </node>
+                  <node concept="37vLTw" id="3RWdhMVC7kb" role="2ZW6bz">
+                    <ref role="3cqZAo" node="3RWdhMVC2wP" resolve="value" />
+                  </node>
+                </node>
+                <node concept="9aQIb" id="3RWdhMVC7U$" role="9aQIa">
+                  <node concept="3clFbS" id="3RWdhMVC7U_" role="9aQI4">
+                    <node concept="3clFbF" id="3RWdhMVCcsn" role="3cqZAp">
+                      <node concept="2OqwBi" id="3RWdhMVCcso" role="3clFbG">
+                        <node concept="37vLTw" id="3RWdhMVCcsp" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3RWdhMVAXLr" resolve="result" />
+                        </node>
+                        <node concept="liA8E" id="3RWdhMVCcsq" role="2OqNvi">
+                          <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object):boolean" resolve="put" />
+                          <node concept="37vLTw" id="3RWdhMVCeJ8" role="37wK5m">
+                            <ref role="3cqZAo" node="3RWdhMVC2wP" resolve="value" />
+                          </node>
+                          <node concept="2OqwBi" id="3RWdhMVCcss" role="37wK5m">
+                            <node concept="2GrUjf" id="3RWdhMVCcst" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="3RWdhMVB0dY" resolve="entry" />
+                            </node>
+                            <node concept="3AY5_j" id="3RWdhMVCcsu" role="2OqNvi" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="3RWdhMVAVMC" role="3cqZAp">
+            <node concept="37vLTw" id="3RWdhMVAXLz" role="3clFbG">
+              <ref role="3cqZAo" node="3RWdhMVAXLr" resolve="result" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="3RWdhMVAItJ" role="jymVt" />
+      <node concept="312cEu" id="3RWdhMVzFis" role="jymVt">
+        <property role="TrG5h" value="MultipleValues" />
+        <node concept="2tJIrI" id="3RWdhMVA5pe" role="jymVt" />
+        <node concept="3Tm6S6" id="3RWdhMVCp$Q" role="1B3o_S" />
+        <node concept="3uibUv" id="3RWdhMVA2Vt" role="1zkMxy">
+          <ref role="3uigEE" to="lktc:~THashSet" resolve="THashSet" />
+          <node concept="3uibUv" id="3RWdhMVA3Hi" role="11_B2D">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="3RWdhMVxH_D" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="4OBfrz$xLo2" role="1B3o_S" />
   </node>

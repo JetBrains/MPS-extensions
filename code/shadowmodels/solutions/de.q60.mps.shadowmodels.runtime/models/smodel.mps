@@ -23518,7 +23518,7 @@
       </node>
       <node concept="2ShNRf" id="QurUgjaj0k" role="33vP2m">
         <node concept="1pGfFk" id="QurUgjaiV_" role="2ShVmc">
-          <ref role="37wK5l" to="wyt6:~Thread.&lt;init&gt;(java.lang.Runnable)" resolve="Thread" />
+          <ref role="37wK5l" to="wyt6:~Thread.&lt;init&gt;(java.lang.Runnable,java.lang.String)" resolve="Thread" />
           <node concept="1bVj0M" id="QurUgjajb9" role="37wK5m">
             <node concept="3clFbS" id="QurUgjajba" role="1bW5cS">
               <node concept="2$JKZl" id="QurUgjaptm" role="3cqZAp">
@@ -23548,6 +23548,20 @@
                         </node>
                         <node concept="37vLTw" id="5G4qAEnevDO" role="3clFbw">
                           <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="2atEpSpMpVA" role="3cqZAp">
+                        <node concept="3clFbS" id="2atEpSpMpVC" role="3clFbx">
+                          <node concept="RRSsy" id="2atEpSpMxsx" role="3cqZAp">
+                            <property role="RRSoG" value="error" />
+                            <node concept="Xl_RD" id="2atEpSpMxsz" role="RRSoy">
+                              <property role="Xl_RC" value="Class loader is disposed, but this thread is still running" />
+                            </node>
+                          </node>
+                          <node concept="3cpWs6" id="2atEpSpMqZ4" role="3cqZAp" />
+                        </node>
+                        <node concept="1rXfSq" id="2atEpSpMqy6" role="3clFbw">
+                          <ref role="37wK5l" node="2atEpSpM5zv" resolve="isClassLoaderDisposed" />
                         </node>
                       </node>
                       <node concept="3clFbF" id="QurUgjajjw" role="3cqZAp">
@@ -23631,6 +23645,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="Xl_RD" id="2atEpSpMjcn" role="37wK5m">
+            <property role="Xl_RC" value="Shadow Repository Sync Thread" />
           </node>
         </node>
       </node>
@@ -24998,6 +25015,32 @@
             </node>
           </node>
         </node>
+        <node concept="SfApY" id="2atEpSpMnOq" role="3cqZAp">
+          <node concept="3clFbS" id="2atEpSpMnOs" role="SfCbr">
+            <node concept="3clFbF" id="2atEpSpMhyJ" role="3cqZAp">
+              <node concept="2OqwBi" id="2atEpSpMi23" role="3clFbG">
+                <node concept="37vLTw" id="2atEpSpMhyH" role="2Oq$k0">
+                  <ref role="3cqZAo" node="QurUgjagxC" resolve="syncThread" />
+                </node>
+                <node concept="liA8E" id="2atEpSpMi$s" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Thread.join(long):void" resolve="join" />
+                  <node concept="3cmrfG" id="2atEpSpMp8N" role="37wK5m">
+                    <property role="3cmrfH" value="3000" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="2atEpSpMnOt" role="TEbGg">
+            <node concept="3cpWsn" id="2atEpSpMnOv" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="2atEpSpMo5e" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~InterruptedException" resolve="InterruptedException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="2atEpSpMnOz" role="TDEfX" />
+          </node>
+        </node>
         <node concept="3clFbF" id="5tQmAwPTZkg" role="3cqZAp">
           <node concept="2OqwBi" id="5tQmAwPTZU0" role="3clFbG">
             <node concept="37vLTw" id="5tQmAwPTZke" role="2Oq$k0">
@@ -25225,6 +25268,46 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2atEpSpLZRL" role="jymVt" />
+    <node concept="2YIFZL" id="2atEpSpM5zv" role="jymVt">
+      <property role="TrG5h" value="isClassLoaderDisposed" />
+      <node concept="3clFbS" id="2atEpSpLx$Y" role="3clF47">
+        <node concept="3cpWs8" id="2atEpSpMg7O" role="3cqZAp">
+          <node concept="3cpWsn" id="2atEpSpMg7P" role="3cpWs9">
+            <property role="TrG5h" value="cl" />
+            <node concept="3uibUv" id="2atEpSpMg7N" role="1tU5fm">
+              <ref role="3uigEE" to="3qmy:~ModuleClassLoader" resolve="ModuleClassLoader" />
+            </node>
+            <node concept="10QFUN" id="2atEpSpMg7Q" role="33vP2m">
+              <node concept="2OqwBi" id="2atEpSpMg7R" role="10QFUP">
+                <node concept="3VsKOn" id="2atEpSpMg7S" role="2Oq$k0">
+                  <ref role="3VsUkX" node="7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                </node>
+                <node concept="liA8E" id="2atEpSpMg7T" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="2atEpSpMg7U" role="10QFUM">
+                <ref role="3uigEE" to="3qmy:~ModuleClassLoader" resolve="ModuleClassLoader" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2atEpSpMcVM" role="3cqZAp">
+          <node concept="2OqwBi" id="2atEpSpMgTm" role="3clFbG">
+            <node concept="37vLTw" id="2atEpSpMg7V" role="2Oq$k0">
+              <ref role="3cqZAo" node="2atEpSpMg7P" resolve="cl" />
+            </node>
+            <node concept="liA8E" id="2atEpSpMh3d" role="2OqNvi">
+              <ref role="37wK5l" to="3qmy:~ModuleClassLoader.isDisposed():boolean" resolve="isDisposed" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="2atEpSpLMGP" role="3clF45" />
+      <node concept="3Tmbuc" id="2atEpSpLPYL" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="2atEpSpM05H" role="jymVt" />
     <node concept="3Tm1VV" id="7YhLqbpfZWZ" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7YhLqbpjCuk">

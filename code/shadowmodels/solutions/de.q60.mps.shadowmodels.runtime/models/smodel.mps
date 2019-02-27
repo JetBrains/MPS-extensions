@@ -4508,6 +4508,24 @@
       </node>
       <node concept="3Tm6S6" id="56YPHToqQtK" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="3Gcr_8xKb_g" role="jymVt" />
+    <node concept="2YIFZL" id="3Gcr_8xKHvg" role="jymVt">
+      <property role="TrG5h" value="clearInstancesCache" />
+      <node concept="3clFbS" id="3Gcr_8xKgAt" role="3clF47">
+        <node concept="3clFbF" id="3Gcr_8xKO1H" role="3cqZAp">
+          <node concept="2OqwBi" id="3Gcr_8xKQ62" role="3clFbG">
+            <node concept="37vLTw" id="3Gcr_8xKO1G" role="2Oq$k0">
+              <ref role="3cqZAo" node="56YPHTopiR0" resolve="ourInstances" />
+            </node>
+            <node concept="liA8E" id="3Gcr_8xKWqD" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Map.clear():void" resolve="clear" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3Gcr_8xKgAr" role="3clF45" />
+      <node concept="3Tm1VV" id="3Gcr_8xKgAs" role="1B3o_S" />
+    </node>
     <node concept="2tJIrI" id="56YPHTopSp3" role="jymVt" />
     <node concept="2YIFZL" id="4EhVFrZ6z9$" role="jymVt">
       <property role="TrG5h" value="wrap" />
@@ -25092,6 +25110,22 @@
             <node concept="liA8E" id="QurUgiheFn" role="2OqNvi">
               <ref role="37wK5l" to="dglc:QurUgigC5f" resolve="dispose" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="10MAzj3dBnZ" role="3cqZAp">
+          <node concept="2OqwBi" id="10MAzj3dBOs" role="3clFbG">
+            <node concept="37vLTw" id="10MAzj3dBnX" role="2Oq$k0">
+              <ref role="3cqZAo" node="7YhLqbpgih0" resolve="engine" />
+            </node>
+            <node concept="liA8E" id="10MAzj3dHmF" role="2OqNvi">
+              <ref role="37wK5l" to="nv3w:7q7cTU0YTwr" resolve="dispose" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3Gcr_8xKXAf" role="3cqZAp">
+          <node concept="2YIFZM" id="3Gcr_8xKXPn" role="3clFbG">
+            <ref role="37wK5l" node="3Gcr_8xKHvg" resolve="clearInstancesCache" />
+            <ref role="1Pybhc" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
           </node>
         </node>
       </node>

@@ -2386,7 +2386,7 @@
         <property role="TrG5h" value="weakValue" />
         <node concept="3Tmbuc" id="5mk$ZgTpJ8U" role="1B3o_S" />
         <node concept="3uibUv" id="5mk$ZgToWyD" role="1tU5fm">
-          <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+          <ref role="3uigEE" to="mpcv:~SoftReference" resolve="SoftReference" />
           <node concept="16syzq" id="5mk$ZgToWyE" role="11_B2D">
             <ref role="16sUi3" node="5mk$ZgToWyK" resolve="E" />
           </node>
@@ -2445,7 +2445,7 @@
                   <ref role="3cqZAo" node="5mk$ZgToWyB" resolve="weakValue" />
                 </node>
                 <node concept="liA8E" id="5mk$ZgTpGZz" role="2OqNvi">
-                  <ref role="37wK5l" to="mpcv:~Reference.get():java.lang.Object" resolve="get" />
+                  <ref role="37wK5l" to="mpcv:~SoftReference.get():java.lang.Object" resolve="get" />
                 </node>
               </node>
               <node concept="3clFbC" id="5mk$ZgTp$ue" role="3K4Cdx">
@@ -2490,7 +2490,7 @@
                 </node>
                 <node concept="2ShNRf" id="5mk$ZgTrZzP" role="3K4GZi">
                   <node concept="1pGfFk" id="5mk$ZgTrZzQ" role="2ShVmc">
-                    <ref role="37wK5l" to="mpcv:~WeakReference.&lt;init&gt;(java.lang.Object)" resolve="WeakReference" />
+                    <ref role="37wK5l" to="mpcv:~SoftReference.&lt;init&gt;(java.lang.Object)" resolve="SoftReference" />
                     <node concept="16syzq" id="5mk$ZgTrZzR" role="1pMfVU">
                       <ref role="16sUi3" node="5mk$ZgToWyK" resolve="E" />
                     </node>

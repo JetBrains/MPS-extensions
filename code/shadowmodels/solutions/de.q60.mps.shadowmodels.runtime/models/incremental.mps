@@ -14,9 +14,10 @@
     <import index="3o3z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
-    <import index="lktc" ref="134ef213-c518-42b0-b12c-c109aa13d320/java:gnu.trove(collections_trove.runtime/)" />
     <import index="gyfg" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.base(MPS.Core/)" />
     <import index="mpcv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.ref(JDK/)" />
+    <import index="5ka6" ref="e52a4835-844d-46a1-99f8-c06129db796f/java:gnu.trove.map.hash(de.q60.mps.shadowmodels.runtime/)" />
+    <import index="bv6w" ref="e52a4835-844d-46a1-99f8-c06129db796f/java:gnu.trove.set.hash(de.q60.mps.shadowmodels.runtime/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -350,7 +351,7 @@
       </node>
       <node concept="2ShNRf" id="4OBfrz$xMnL" role="33vP2m">
         <node concept="1pGfFk" id="Zou7Ch00GL" role="2ShVmc">
-          <ref role="37wK5l" to="lktc:~THashMap.&lt;init&gt;()" resolve="THashMap" />
+          <ref role="37wK5l" to="5ka6:~THashMap.&lt;init&gt;()" resolve="THashMap" />
           <node concept="3uibUv" id="Zou7Ch0btz" role="1pMfVU">
             <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
           </node>
@@ -467,7 +468,7 @@
       </node>
       <node concept="2ShNRf" id="Zou7Ch1lGp" role="33vP2m">
         <node concept="1pGfFk" id="Zou7Ch1s0F" role="2ShVmc">
-          <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
           <node concept="3uibUv" id="Zou7Ch1A92" role="1pMfVU">
             <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
           </node>
@@ -2643,7 +2644,7 @@
         <property role="TrG5h" value="map" />
         <node concept="3Tm6S6" id="3RWdhMVxCDo" role="1B3o_S" />
         <node concept="3uibUv" id="3RWdhMVxD4b" role="1tU5fm">
-          <ref role="3uigEE" to="lktc:~THashMap" resolve="THashMap" />
+          <ref role="3uigEE" to="5ka6:~THashMap" resolve="THashMap" />
           <node concept="3uibUv" id="3RWdhMVxD6r" role="11_B2D">
             <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
           </node>
@@ -2653,7 +2654,7 @@
         </node>
         <node concept="2ShNRf" id="3RWdhMVxEAv" role="33vP2m">
           <node concept="1pGfFk" id="3RWdhMVxEzq" role="2ShVmc">
-            <ref role="37wK5l" to="lktc:~THashMap.&lt;init&gt;()" resolve="THashMap" />
+            <ref role="37wK5l" to="5ka6:~THashMap.&lt;init&gt;()" resolve="THashMap" />
             <node concept="3uibUv" id="3RWdhMVxEzr" role="1pMfVU">
               <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
             </node>
@@ -2675,7 +2676,7 @@
                 <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
               </node>
               <node concept="liA8E" id="3RWdhMVylfL" role="2OqNvi">
-                <ref role="37wK5l" to="lktc:~THashMap.clear():void" resolve="clear" />
+                <ref role="37wK5l" to="5ka6:~THashMap.clear():void" resolve="clear" />
               </node>
             </node>
           </node>
@@ -2709,7 +2710,7 @@
                     <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                   </node>
                   <node concept="liA8E" id="3RWdhMVzbtg" role="2OqNvi">
-                    <ref role="37wK5l" to="lktc:~THashMap.remove(java.lang.Object):java.lang.Object" resolve="remove" />
+                    <ref role="37wK5l" to="5ka6:~THashMap.remove(java.lang.Object):java.lang.Object" resolve="remove" />
                     <node concept="2GrUjf" id="3RWdhMVzbL3" role="37wK5m">
                       <ref role="2Gs0qQ" node="3RWdhMVyOSV" resolve="k" />
                     </node>
@@ -2747,7 +2748,7 @@
                   <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                 </node>
                 <node concept="liA8E" id="3RWdhMV$65G" role="2OqNvi">
-                  <ref role="37wK5l" to="lktc:~THashMap.get(java.lang.Object):java.lang.Object" resolve="get" />
+                  <ref role="37wK5l" to="5ka6:~THashMap.get(java.lang.Object):java.lang.Object" resolve="get" />
                   <node concept="37vLTw" id="3RWdhMV$65H" role="37wK5m">
                     <ref role="3cqZAo" node="3RWdhMVzlXk" resolve="key" />
                   </node>
@@ -2833,7 +2834,7 @@
                   <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                 </node>
                 <node concept="liA8E" id="3RWdhMV_ADh" role="2OqNvi">
-                  <ref role="37wK5l" to="lktc:~THashMap.get(java.lang.Object):java.lang.Object" resolve="get" />
+                  <ref role="37wK5l" to="5ka6:~THashMap.get(java.lang.Object):java.lang.Object" resolve="get" />
                   <node concept="37vLTw" id="3RWdhMV_ADi" role="37wK5m">
                     <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
                   </node>
@@ -2849,7 +2850,7 @@
                     <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                   </node>
                   <node concept="liA8E" id="3RWdhMVA0gR" role="2OqNvi">
-                    <ref role="37wK5l" to="lktc:~THashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                    <ref role="37wK5l" to="5ka6:~THashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
                     <node concept="37vLTw" id="3RWdhMVA0Fh" role="37wK5m">
                       <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
                     </node>
@@ -2894,7 +2895,7 @@
                           <ref role="3cqZAo" node="3RWdhMVAFd_" resolve="multiple" />
                         </node>
                         <node concept="liA8E" id="3RWdhMVAFdL" role="2OqNvi">
-                          <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object):boolean" resolve="add" />
+                          <ref role="37wK5l" to="bv6w:~THashSet.add(java.lang.Object):boolean" resolve="add" />
                           <node concept="37vLTw" id="3RWdhMVAFdM" role="37wK5m">
                             <ref role="3cqZAo" node="3RWdhMV_c33" resolve="value" />
                           </node>
@@ -2931,7 +2932,7 @@
                             <ref role="3cqZAo" node="3RWdhMVA2o_" resolve="multiple" />
                           </node>
                           <node concept="liA8E" id="3RWdhMVAbpb" role="2OqNvi">
-                            <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object):boolean" resolve="add" />
+                            <ref role="37wK5l" to="bv6w:~THashSet.add(java.lang.Object):boolean" resolve="add" />
                             <node concept="37vLTw" id="3RWdhMVAbBx" role="37wK5m">
                               <ref role="3cqZAo" node="3RWdhMV_ADe" resolve="existing" />
                             </node>
@@ -2944,7 +2945,7 @@
                             <ref role="3cqZAo" node="3RWdhMVA2o_" resolve="multiple" />
                           </node>
                           <node concept="liA8E" id="3RWdhMVAhP1" role="2OqNvi">
-                            <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object):boolean" resolve="add" />
+                            <ref role="37wK5l" to="bv6w:~THashSet.add(java.lang.Object):boolean" resolve="add" />
                             <node concept="37vLTw" id="3RWdhMVAi1B" role="37wK5m">
                               <ref role="3cqZAo" node="3RWdhMV_c33" resolve="value" />
                             </node>
@@ -2957,7 +2958,7 @@
                             <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                           </node>
                           <node concept="liA8E" id="3RWdhMVACPf" role="2OqNvi">
-                            <ref role="37wK5l" to="lktc:~THashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+                            <ref role="37wK5l" to="5ka6:~THashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
                             <node concept="37vLTw" id="3RWdhMVADhQ" role="37wK5m">
                               <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
                             </node>
@@ -3131,7 +3132,7 @@
         <node concept="2tJIrI" id="3RWdhMVA5pe" role="jymVt" />
         <node concept="3Tm6S6" id="3RWdhMVCp$Q" role="1B3o_S" />
         <node concept="3uibUv" id="3RWdhMVA2Vt" role="1zkMxy">
-          <ref role="3uigEE" to="lktc:~THashSet" resolve="THashSet" />
+          <ref role="3uigEE" to="bv6w:~THashSet" resolve="THashSet" />
           <node concept="3uibUv" id="3RWdhMVA3Hi" role="11_B2D">
             <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
           </node>

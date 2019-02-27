@@ -6112,10 +6112,26 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2atEpSpK6_g" role="3bR37C">
-          <node concept="3bR9La" id="2atEpSpK6_h" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" to="ffeo:568PkTlPWh5" resolve="collections_trove.runtime" />
+        <node concept="1SiIV0" id="3QW6fV02btG" role="3bR37C">
+          <node concept="1BurEX" id="3QW6fV02btH" role="1SiIV1">
+            <node concept="398BVA" id="3QW6fV02btv" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="3QW6fV02btw" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="3QW6fV02btx" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="3QW6fV02bty" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.runtime" />
+                    <node concept="2Ry0Ak" id="3QW6fV02btz" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="3QW6fV02bt$" role="2Ry0An">
+                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -6686,6 +6702,11 @@
         <node concept="1SiIV0" id="2qi4B7uzvJ0" role="3bR37C">
           <node concept="3bR9La" id="2qi4B7uzvJ1" role="1SiIV1">
             <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3QW6fV02btI" role="3bR37C">
+          <node concept="3bR9La" id="3QW6fV02btJ" role="1SiIV1">
+            <ref role="3bR37D" node="BRK1N8p1Qt" resolve="de.q60.mps.shadowmodels.target.text" />
           </node>
         </node>
       </node>

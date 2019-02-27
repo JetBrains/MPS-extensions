@@ -55,7 +55,7 @@
     <import index="3hky" ref="r:bef1bfa7-20fd-413a-ae11-793b0a8ee364(de.q60.mps.shadowmodels.runtime.model.persistent)" />
     <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
-    <import index="lktc" ref="134ef213-c518-42b0-b12c-c109aa13d320/java:gnu.trove(collections_trove.runtime/)" />
+    <import index="bv6w" ref="e52a4835-844d-46a1-99f8-c06129db796f/java:gnu.trove.set.hash(de.q60.mps.shadowmodels.runtime/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
@@ -10855,7 +10855,7 @@
       </node>
       <node concept="2ShNRf" id="5m02zYhGnry" role="33vP2m">
         <node concept="1pGfFk" id="Zou7CgZ_s_" role="2ShVmc">
-          <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
           <node concept="3uibUv" id="Zou7CgZCON" role="1pMfVU">
             <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
           </node>
@@ -10872,7 +10872,7 @@
       </node>
       <node concept="2ShNRf" id="5m02zYhGsuG" role="33vP2m">
         <node concept="1pGfFk" id="Zou7CgZDTV" role="2ShVmc">
-          <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
           <node concept="3uibUv" id="Zou7CgZG7x" role="1pMfVU">
             <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
           </node>
@@ -10889,7 +10889,7 @@
       </node>
       <node concept="2ShNRf" id="5m02zYhGtsL" role="33vP2m">
         <node concept="1pGfFk" id="Zou7CgZFlB" role="2ShVmc">
-          <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
           <node concept="3uibUv" id="Zou7CgZIt$" role="1pMfVU">
             <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
           </node>

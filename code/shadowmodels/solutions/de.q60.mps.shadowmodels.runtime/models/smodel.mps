@@ -24126,18 +24126,57 @@
           </node>
         </node>
         <node concept="3clFbH" id="5G4qAEn1yry" role="3cqZAp" />
-        <node concept="3clFbF" id="QurUgihiUf" role="3cqZAp">
-          <node concept="2OqwBi" id="QurUgihiUg" role="3clFbG">
-            <node concept="2OqwBi" id="QurUgihiUh" role="2Oq$k0">
-              <node concept="37vLTw" id="QurUgihiUi" role="2Oq$k0">
-                <ref role="3cqZAo" node="7YhLqbpgih0" resolve="engine" />
+        <node concept="3clFbF" id="5wism0xM9nn" role="3cqZAp">
+          <node concept="2OqwBi" id="5wism0xMh1I" role="3clFbG">
+            <node concept="2OqwBi" id="5wism0xMaQb" role="2Oq$k0">
+              <node concept="37vLTw" id="5wism0xM9nl" role="2Oq$k0">
+                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
               </node>
-              <node concept="liA8E" id="QurUgihiUj" role="2OqNvi">
-                <ref role="37wK5l" to="nv3w:5wi3nvKLEEQ" resolve="getIncrementalEngine" />
+              <node concept="liA8E" id="5wism0xMgMJ" role="2OqNvi">
+                <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
               </node>
             </node>
-            <node concept="liA8E" id="QurUgihiUk" role="2OqNvi">
-              <ref role="37wK5l" to="ee18:5bqHObT6HMh" resolve="flushInvalidations" />
+            <node concept="liA8E" id="5wism0xMndj" role="2OqNvi">
+              <ref role="37wK5l" to="3hky:4_SQzDObVFY" resolve="runRead" />
+              <node concept="1bVj0M" id="5wism0xMnqN" role="37wK5m">
+                <property role="3yWfEV" value="true" />
+                <node concept="3clFbS" id="5wism0xMnqO" role="1bW5cS">
+                  <node concept="3clFbF" id="5wism0xNyw9" role="3cqZAp">
+                    <node concept="2OqwBi" id="5wism0xNzct" role="3clFbG">
+                      <node concept="10M0yZ" id="5wism0xNyMf" role="2Oq$k0">
+                        <ref role="3cqZAo" to="mjcn:QurUgiyqpm" resolve="CONTEXT_VALUE" />
+                        <ref role="1PxDUh" to="mjcn:5wi3nvJWiQu" resolve="INodeResolveContext" />
+                      </node>
+                      <node concept="liA8E" id="5wism0xN$YM" role="2OqNvi">
+                        <ref role="37wK5l" to="pxvb:7vWAzuEE3Ye" resolve="runWith" />
+                        <node concept="37vLTw" id="5wism0xN_hQ" role="37wK5m">
+                          <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
+                        </node>
+                        <node concept="1bVj0M" id="5wism0xN_Rn" role="37wK5m">
+                          <property role="3yWfEV" value="true" />
+                          <node concept="3clFbS" id="5wism0xN_Rp" role="1bW5cS">
+                            <node concept="3clFbF" id="QurUgihiUf" role="3cqZAp">
+                              <node concept="2OqwBi" id="QurUgihiUg" role="3clFbG">
+                                <node concept="2OqwBi" id="QurUgihiUh" role="2Oq$k0">
+                                  <node concept="37vLTw" id="QurUgihiUi" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="7YhLqbpgih0" resolve="engine" />
+                                  </node>
+                                  <node concept="liA8E" id="QurUgihiUj" role="2OqNvi">
+                                    <ref role="37wK5l" to="nv3w:5wi3nvKLEEQ" resolve="getIncrementalEngine" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="QurUgihiUk" role="2OqNvi">
+                                  <ref role="37wK5l" to="ee18:5bqHObT6HMh" resolve="flushInvalidations" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

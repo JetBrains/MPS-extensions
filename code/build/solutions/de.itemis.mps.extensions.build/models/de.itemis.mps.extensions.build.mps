@@ -6551,6 +6551,9 @@
         <node concept="3LEDTy" id="3fc1D1mGrb0" role="3LEDUa">
           <ref role="3LEDTV" node="2$QnGbtLXzL" resolve="de.q60.mps.shadowmodels.gen.desugar" />
         </node>
+        <node concept="3LEDTy" id="5zrTIjlonkS" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="BRK1N8p1kg" role="3989C9">

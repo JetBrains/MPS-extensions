@@ -46,7 +46,6 @@
   <node concept="1TIwiD" id="2frx7BFbAob">
     <property role="EcuMT" value="2583804470398707211" />
     <property role="TrG5h" value="AltCase" />
-    <property role="34LRSv" value="case" />
     <property role="3GE5qa" value="cond" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2frx7BFbAoB" role="1TKVEi">

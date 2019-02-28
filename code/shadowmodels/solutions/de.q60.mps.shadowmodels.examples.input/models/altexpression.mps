@@ -10,6 +10,13 @@
   <registry>
     <language id="1ab7bfac-29d6-4772-a483-50110408ac43" name="de.q60.mps.shadowmodels.examples.expressions">
       <concept id="7155053225565206528" name="de.q60.mps.shadowmodels.examples.expressions.structure.IntType" flags="ng" index="21A6bZ" />
+      <concept id="1610040818624260736" name="de.q60.mps.shadowmodels.examples.expressions.structure.TypeVarType" flags="ng" index="dCA$o">
+        <reference id="1610040818624260737" name="typeVar" index="dCA$p" />
+      </concept>
+      <concept id="1610040818622985178" name="de.q60.mps.shadowmodels.examples.expressions.structure.TypeVar" flags="ng" index="dJJ12" />
+      <concept id="1610040818622985175" name="de.q60.mps.shadowmodels.examples.expressions.structure.IGenericDeclaration" flags="ng" index="dJJ1f">
+        <child id="1610040818622985176" name="typeVars" index="dJJ10" />
+      </concept>
       <concept id="8403212614956385757" name="de.q60.mps.shadowmodels.examples.expressions.structure.ListType" flags="ng" index="2i4b24" />
       <concept id="8403212614955795569" name="de.q60.mps.shadowmodels.examples.expressions.structure.UnaryExpr" flags="ng" index="2i6V4C">
         <child id="8403212614955795822" name="expr" index="2i6V0R" />
@@ -118,6 +125,9 @@
         <child id="5955298286240875038" name="result" index="1Kh3Cz" />
       </concept>
       <concept id="5955298286240956410" name="org.kf2.adt.structure.WildcardExpr" flags="ng" index="1KhKv7" />
+      <concept id="5955298286239347343" name="org.kf2.adt.structure.AlgebraicType" flags="ng" index="1Kr8EM">
+        <reference id="5955298286239347344" name="declaration" index="1Kr8EH" />
+      </concept>
       <concept id="5955298286239339288" name="org.kf2.adt.structure.AlgebraicDeclaration" flags="ng" index="1KraG_">
         <child id="5955298286239340413" name="constructors" index="1KraX0" />
       </concept>
@@ -125,11 +135,8 @@
         <child id="2460310434937431133" name="args" index="5xicj" />
       </concept>
       <concept id="5955298286239452388" name="org.kf2.adt.structure.AlgebraicTerm" flags="ng" index="1KrJjp">
+        <reference id="1610040818624991068" name="cons" index="anoN4" />
         <child id="5955298286239452394" name="args" index="1KrJjn" />
-        <child id="5955298286239452566" name="type" index="1KrJmF" />
-      </concept>
-      <concept id="5955298286239373077" name="org.kf2.adt.structure.AlgebraicConstructorType" flags="ng" index="1KrMWC">
-        <reference id="5955298286239373084" name="constructor" index="1KrMWx" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -163,56 +170,58 @@
     <node concept="1KraG_" id="7iudlBAC1Pw" role="37GxYA">
       <property role="TrG5h" value="Maybe" />
       <node concept="1KraX1" id="7iudlBAC1Px" role="1KraX0">
-        <property role="TrG5h" value="Something" />
+        <property role="TrG5h" value="Some" />
         <node concept="5xh$E" id="7iudlBAC2_0" role="5xicj">
-          <node concept="1LuOxu" id="7iudlBAJ7Dv" role="5xidU" />
+          <node concept="dCA$o" id="1po0TwrZBDN" role="5xidU">
+            <ref role="dCA$p" node="1po0TwrXM6i" resolve="T" />
+          </node>
         </node>
       </node>
       <node concept="1KraX1" id="7iudlBAC2_F" role="1KraX0">
-        <property role="TrG5h" value="Nothing" />
+        <property role="TrG5h" value="None" />
+      </node>
+      <node concept="dJJ12" id="1po0TwrXM6i" role="dJJ10">
+        <property role="TrG5h" value="T" />
       </node>
     </node>
     <node concept="2NE3Kg" id="7iudlBAFHsQ" role="37GxYA" />
-    <node concept="38WgWO" id="7iudlBAFHsZ" role="37GxYA">
-      <property role="TrG5h" value="perhaps" />
-      <node concept="1KrJjp" id="7iudlBAFKng" role="38WgZW">
-        <node concept="1KrMWC" id="7iudlBAFKnq" role="1KrJmF">
-          <ref role="1KrMWx" node="7iudlBAC1Px" resolve="Something" />
-        </node>
-        <node concept="38XQG0" id="7iudlBAFKnA" role="1KrJjn">
-          <ref role="38XQJG" node="7iudlBAFHtg" resolve="n" />
+    <node concept="37GxwB" id="1po0TwrZBFH" role="37GxYA">
+      <property role="TrG5h" value="someInt" />
+      <node concept="1KrJjp" id="1po0TwrZBGG" role="37Gxwy">
+        <ref role="anoN4" node="7iudlBAC1Px" resolve="Some" />
+        <node concept="1H2aKs" id="1po0Tws5ODu" role="1KrJjn">
+          <property role="1H2aK3" value="12" />
         </node>
       </node>
-      <node concept="38WgZL" id="7iudlBAFHtg" role="38WgZu">
-        <property role="TrG5h" value="n" />
-        <node concept="21A6bZ" id="7iudlBAFKnx" role="37FMM1" />
+      <node concept="1Kr8EM" id="Ura7pomp2P" role="2ij1d7">
+        <ref role="1Kr8EH" node="7iudlBAC1Pw" resolve="Maybe" />
+        <node concept="21A6bZ" id="Ura7pomp3f" role="2imC1U" />
       </node>
     </node>
+    <node concept="2NE3Kg" id="Ura7pomp3O" role="37GxYA" />
+    <node concept="37GxwB" id="Ura7pomp4R" role="37GxYA">
+      <property role="TrG5h" value="isSome" />
+      <node concept="1Kh3BH" id="Ura7pomp5Z" role="37Gxwy">
+        <node concept="1Kh3CC" id="Ura7pomp60" role="1Kh3EZ">
+          <node concept="1KrJjp" id="Ura7pomp6X" role="1Kh3Cx">
+            <ref role="anoN4" node="7iudlBAC1Px" resolve="Some" />
+            <node concept="1KhKv7" id="Ura7pomp84" role="1KrJjn" />
+          </node>
+          <node concept="1KhKv7" id="Ura7pomph_" role="1Kh3Cz" />
+        </node>
+        <node concept="1Kh3CC" id="Ura7pomp61" role="1Kh3EZ">
+          <node concept="1KhKv7" id="Ura7pomp62" role="1Kh3Cx" />
+          <node concept="1H2aKs" id="Ura7pompj5" role="1Kh3Cz">
+            <property role="1H2aK3" value="0" />
+          </node>
+        </node>
+        <node concept="mWALo" id="Ura7pomp6p" role="1Kh3BE">
+          <ref role="mWALr" node="1po0TwrZBFH" resolve="someInt" />
+        </node>
+      </node>
+    </node>
+    <node concept="2NE3Kg" id="1po0TwrZBF5" role="37GxYA" />
     <node concept="2NE3Kg" id="7iudlBAFLYw" role="37GxYA" />
-    <node concept="38WgWO" id="7iudlBAFLZ8" role="37GxYA">
-      <property role="TrG5h" value="do" />
-      <node concept="1Kh3BH" id="7iudlBAFLZD" role="38WgZW">
-        <node concept="1Kh3CC" id="7iudlBAFLZE" role="1Kh3EZ">
-          <node concept="1KrJjp" id="7iudlBAGrSL" role="1Kh3Cx">
-            <node concept="1KrMWC" id="7iudlBAHKfS" role="1KrJmF">
-              <ref role="1KrMWx" node="7iudlBAC1Px" resolve="Something" />
-            </node>
-            <node concept="1KhKv7" id="7iudlBAKxua" role="1KrJjn" />
-          </node>
-          <node concept="1H2aUO" id="7iudlBAHKgZ" role="1Kh3Cz" />
-        </node>
-        <node concept="1Kh3CC" id="7iudlBAFLZF" role="1Kh3EZ">
-          <node concept="1KhKv7" id="7iudlBAFLZG" role="1Kh3Cx" />
-          <node concept="1H2aKy" id="7iudlBAHKgt" role="1Kh3Cz" />
-        </node>
-        <node concept="2lgVZp" id="7iudlBAFM03" role="1Kh3BE">
-          <ref role="2lgVZu" node="7iudlBAFHsZ" resolve="perhaps" />
-          <node concept="1H2aKs" id="7iudlBAFM0i" role="2lgVZs">
-            <property role="1H2aK3" value="3" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2NE3Kg" id="7iudlBAFHsB" role="37GxYA" />
   </node>
   <node concept="37GxXp" id="1po0TwrS3ie">

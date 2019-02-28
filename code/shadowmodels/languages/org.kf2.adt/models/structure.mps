@@ -76,6 +76,9 @@
     <node concept="PrWs8" id="7iudlBAzgfu" role="PzmwI">
       <ref role="PrY4T" to="nup6:7iudlBAz2Rb" resolve="ICheckUniqueNames" />
     </node>
+    <node concept="PrWs8" id="1po0TwrTJgO" role="PzmwI">
+      <ref role="PrY4T" to="nup6:1po0TwrTJfn" resolve="IGenericDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5a_u3OyMttW">
     <property role="EcuMT" value="5955298286239340412" />
@@ -131,6 +134,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5a_u3OyMtco" resolve="AlgebraicDeclaration" />
     </node>
+    <node concept="PrWs8" id="1po0Tws0ny3" role="PzmwI">
+      <ref role="PrY4T" to="nup6:7iudlBALbky" resolve="IGenericType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5a_u3OyM_sl">
     <property role="EcuMT" value="5955298286239373077" />
@@ -143,24 +149,27 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5a_u3OyMttW" resolve="AlgebraicConstructor" />
     </node>
+    <node concept="PrWs8" id="1po0Tws2Frt" role="PzmwI">
+      <ref role="PrY4T" to="nup6:7iudlBALbky" resolve="IGenericType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5a_u3OyMSN$">
     <property role="EcuMT" value="5955298286239452388" />
     <property role="TrG5h" value="AlgebraicTerm" />
     <ref role="1TJDcQ" to="nup6:2frx7BFaCHD" resolve="Expr" />
-    <node concept="1TJgyj" id="5a_u3OyMSQm" role="1TKVEi">
-      <property role="IQ2ns" value="5955298286239452566" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5a_u3OyM_sl" resolve="AlgebraicConstructorType" />
-    </node>
     <node concept="1TJgyj" id="5a_u3OyMSNE" role="1TKVEi">
       <property role="IQ2ns" value="5955298286239452394" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="args" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="nup6:2frx7BFaCHD" resolve="Expr" />
+    </node>
+    <node concept="1TJgyj" id="1po0Tws1oXs" role="1TKVEi">
+      <property role="IQ2ns" value="1610040818624991068" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="cons" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5a_u3OyMttW" resolve="AlgebraicConstructor" />
     </node>
   </node>
   <node concept="1TIwiD" id="5a_u3OyQ3QL">

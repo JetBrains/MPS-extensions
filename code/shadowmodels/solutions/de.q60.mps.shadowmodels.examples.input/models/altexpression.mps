@@ -16,6 +16,7 @@
       <concept id="1823070633659905357" name="de.q60.mps.shadowmodels.examples.expressions.structure.ConstantRef" flags="ng" index="mWALo">
         <reference id="1823070633659905358" name="const" index="mWALr" />
       </concept>
+      <concept id="3994264775390228623" name="de.q60.mps.shadowmodels.examples.expressions.structure.EqualsExpr" flags="ng" index="2$$KCD" />
       <concept id="5182877833504324605" name="de.q60.mps.shadowmodels.examples.expressions.structure.EmptyDeclaration" flags="ng" index="2NE3Kg" />
       <concept id="4320583889641463912" name="de.q60.mps.shadowmodels.examples.expressions.structure.BoolType" flags="ng" index="37FMLf" />
       <concept id="4320583889640215552" name="de.q60.mps.shadowmodels.examples.expressions.structure.Constant" flags="ng" index="37GxwB">
@@ -42,8 +43,6 @@
       <concept id="2583804470398611321" name="de.q60.mps.shadowmodels.examples.expressions.structure.ArgRef" flags="ng" index="38XQG0">
         <reference id="2583804470398611349" name="arg" index="38XQJG" />
       </concept>
-      <concept id="3931513068711982944" name="de.q60.mps.shadowmodels.examples.expressions.structure.DivExpr" flags="ng" index="1$VrOI" />
-      <concept id="3931513068711982298" name="de.q60.mps.shadowmodels.examples.expressions.structure.MulExpr" flags="ng" index="1$VrUk" />
       <concept id="1667935720929304239" name="de.q60.mps.shadowmodels.examples.expressions.structure.NumLit" flags="ng" index="1H2aKs">
         <property id="1667935720929304240" name="value" index="1H2aK3" />
       </concept>
@@ -115,25 +114,20 @@
     <node concept="2NE3Kg" id="4vHhYROhRlx" role="37GxYA" />
     <node concept="37GxwB" id="3JPN2vWiLrB" role="37GxYA">
       <property role="TrG5h" value="const1" />
-      <node concept="1H7JQn" id="3tIuEqjZ9h4" role="37Gxwy">
-        <node concept="1H7JQn" id="3tIuEqjZ9h5" role="1H5NIF">
-          <node concept="1H2aKs" id="3tIuEqjYmN4" role="1H5NIF">
+      <node concept="38WgZl" id="3tIuEqk1ozP" role="37Gxwy">
+        <node concept="2$$KCD" id="3tIuEqk1oCF" role="38WgxB">
+          <node concept="1H2aKs" id="3tIuEqk1oES" role="1H5NID">
             <property role="1H2aK3" value="1" />
           </node>
-          <node concept="1$VrUk" id="3tIuEqjZ9h6" role="1H5NID">
-            <node concept="1H2aKs" id="3tIuEqjZ9aH" role="1H5NIF">
-              <property role="1H2aK3" value="1" />
-            </node>
-            <node concept="1H2aKs" id="3tIuEqjZ9eV" role="1H5NID">
-              <property role="1H2aK3" value="2" />
-            </node>
+          <node concept="1H2aKs" id="3tIuEqk1oAu" role="1H5NIF">
+            <property role="1H2aK3" value="1" />
           </node>
         </node>
-        <node concept="1$VrOI" id="3tIuEqjZ9lh" role="1H5NID">
-          <node concept="1H2aKs" id="3tIuEqjZ9np" role="1H5NID">
-            <property role="1H2aK3" value="0" />
-          </node>
-          <node concept="1H2aKs" id="3tIuEqjZ9jc" role="1H5NIF">
+        <node concept="1H2aKs" id="3tIuEqk1oJ8" role="38Wgxo">
+          <property role="1H2aK3" value="2" />
+        </node>
+        <node concept="38Wgyi" id="3tIuEqk1o$7" role="38Wgxv">
+          <node concept="1H2aKs" id="3tIuEqk1oLl" role="38Wg_Y">
             <property role="1H2aK3" value="4" />
           </node>
         </node>

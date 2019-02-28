@@ -1436,7 +1436,9 @@
                     <node concept="3clFbS" id="5bqHObT2MvH" role="TDEfX">
                       <node concept="RRSsy" id="5wism0xLzpY" role="3cqZAp">
                         <property role="RRSoG" value="debug" />
-                        <node concept="Xl_RD" id="5wism0xLzq0" role="RRSoy" />
+                        <node concept="Xl_RD" id="5wism0xLzq0" role="RRSoy">
+                          <property role="Xl_RC" value="Exception during invalidation avoidance" />
+                        </node>
                         <node concept="37vLTw" id="5wism0xLzq2" role="RRSow">
                           <ref role="3cqZAo" node="5bqHObT2MvF" resolve="ex" />
                         </node>

@@ -357,5 +357,33 @@
       <ref role="20lvS9" node="2frx7BFaCHD" resolve="Expr" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3qfy$Tioz9w">
+    <property role="EcuMT" value="3931513068711981664" />
+    <property role="3GE5qa" value="bin" />
+    <property role="TrG5h" value="MinusExpr" />
+    <property role="34LRSv" value="-" />
+    <ref role="1TJDcQ" node="1s_GFdUcC$n" resolve="BinaryArithExpr" />
+  </node>
+  <node concept="1TIwiD" id="3qfy$Tiozjq">
+    <property role="EcuMT" value="3931513068711982298" />
+    <property role="3GE5qa" value="bin" />
+    <property role="TrG5h" value="MulExpr" />
+    <property role="34LRSv" value="*" />
+    <ref role="1TJDcQ" node="1s_GFdUcC$n" resolve="BinaryArithExpr" />
+  </node>
+  <node concept="1TIwiD" id="3qfy$Tioztw">
+    <property role="EcuMT" value="3931513068711982944" />
+    <property role="3GE5qa" value="bin" />
+    <property role="TrG5h" value="DivExpr" />
+    <property role="34LRSv" value="/" />
+    <ref role="1TJDcQ" node="1s_GFdUcC$n" resolve="BinaryArithExpr" />
+  </node>
+  <node concept="1TIwiD" id="3qfy$TiozJL">
+    <property role="EcuMT" value="3931513068711984113" />
+    <property role="3GE5qa" value="types" />
+    <property role="TrG5h" value="NaNLit" />
+    <property role="34LRSv" value="NaN" />
+    <ref role="1TJDcQ" node="2frx7BFaCHD" resolve="Expr" />
+  </node>
 </model>
 

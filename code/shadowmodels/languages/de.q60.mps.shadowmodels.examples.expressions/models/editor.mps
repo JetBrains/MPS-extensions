@@ -574,5 +574,12 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="3qfy$TiozKc">
+    <property role="3GE5qa" value="types" />
+    <ref role="1XX52x" to="nup6:3qfy$TiozJL" resolve="NaNLit" />
+    <node concept="3F0ifn" id="3qfy$TiozKe" role="2wV5jI">
+      <property role="3F0ifm" value="NaN" />
+    </node>
+  </node>
 </model>
 

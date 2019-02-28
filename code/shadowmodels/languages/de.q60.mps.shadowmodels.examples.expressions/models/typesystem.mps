@@ -496,5 +496,49 @@
       <ref role="1YaFvo" to="nup6:MNhuapWfCV" resolve="FunCall" />
     </node>
   </node>
+  <node concept="1YbPZF" id="3qfy$TiozLg">
+    <property role="TrG5h" value="typeof_NaNLit" />
+    <property role="3GE5qa" value="types" />
+    <node concept="3clFbS" id="3qfy$TiozLh" role="18ibNy">
+      <node concept="1Z5TYs" id="3qfy$TiozLn" role="3cqZAp">
+        <node concept="mw_s8" id="3qfy$TiozLo" role="1ZfhKB">
+          <node concept="2pJPEk" id="3qfy$TiozLp" role="mwGJk">
+            <node concept="2pJPED" id="3qfy$TiozLq" role="2pJPEn">
+              <ref role="2pJxaS" to="nup6:3JPN2vWmI1C" resolve="IntType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="3qfy$TiozLr" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3qfy$TiozLs" role="mwGJk">
+            <node concept="1YBJjd" id="3qfy$TiozMb" role="1Z2MuG">
+              <ref role="1YBMHb" node="3qfy$TiozLj" resolve="naNLit" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3qfy$TiozLj" role="1YuTPh">
+      <property role="TrG5h" value="naNLit" />
+      <ref role="1YaFvo" to="nup6:3qfy$TiozJL" resolve="NaNLit" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3qfy$TiozMV">
+    <property role="TrG5h" value="check_NaNLit" />
+    <property role="3GE5qa" value="types" />
+    <node concept="3clFbS" id="3qfy$TiozMW" role="18ibNy">
+      <node concept="2MkqsV" id="3qfy$TiozN2" role="3cqZAp">
+        <node concept="Xl_RD" id="3qfy$TiozN8" role="2MkJ7o">
+          <property role="Xl_RC" value="NaN should not be used" />
+        </node>
+        <node concept="1YBJjd" id="3qfy$TiozNX" role="2OEOjV">
+          <ref role="1YBMHb" node="3qfy$TiozMY" resolve="naNLit" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3qfy$TiozMY" role="1YuTPh">
+      <property role="TrG5h" value="naNLit" />
+      <ref role="1YaFvo" to="nup6:3qfy$TiozJL" resolve="NaNLit" />
+    </node>
+  </node>
 </model>
 

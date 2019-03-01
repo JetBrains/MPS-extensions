@@ -1197,5 +1197,51 @@
       <node concept="3clFbS" id="Ura7potubo" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="Ura7poSavp">
+    <property role="3GE5qa" value="fun" />
+    <ref role="13h7C2" to="nup6:Ura7potKkI" resolve="FunType" />
+    <node concept="13hLZK" id="Ura7poSavq" role="13h7CW">
+      <node concept="3clFbS" id="Ura7poSavr" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="Ura7poSa$D" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3Tm1VV" id="Ura7poSa$Q" role="1B3o_S" />
+      <node concept="3clFbS" id="Ura7poSa$R" role="3clF47">
+        <node concept="3clFbF" id="Ura7poSaHv" role="3cqZAp">
+          <node concept="3cpWs3" id="Ura7poSf5e" role="3clFbG">
+            <node concept="Xl_RD" id="Ura7poSf5h" role="3uHU7w">
+              <property role="Xl_RC" value=")" />
+            </node>
+            <node concept="3cpWs3" id="Ura7poSdU6" role="3uHU7B">
+              <node concept="3cpWs3" id="Ura7poSdjA" role="3uHU7B">
+                <node concept="3cpWs3" id="Ura7poSaZ3" role="3uHU7B">
+                  <node concept="Xl_RD" id="Ura7poSaHu" role="3uHU7B">
+                    <property role="Xl_RC" value="(" />
+                  </node>
+                  <node concept="2OqwBi" id="Ura7poSbc9" role="3uHU7w">
+                    <node concept="13iPFW" id="Ura7poSaZe" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="Ura7poSbns" role="2OqNvi">
+                      <ref role="3TtcxE" to="nup6:Ura7potKmd" resolve="argTypes" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="Ura7poSdjD" role="3uHU7w">
+                  <property role="Xl_RC" value=" -&gt; " />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="Ura7poSe7R" role="3uHU7w">
+                <node concept="13iPFW" id="Ura7poSdUF" role="2Oq$k0" />
+                <node concept="3TrEf2" id="Ura7poSepQ" role="2OqNvi">
+                  <ref role="3Tt5mk" to="nup6:Ura7potKkM" resolve="return" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="Ura7poSa$S" role="3clF45" />
+    </node>
+  </node>
 </model>
 

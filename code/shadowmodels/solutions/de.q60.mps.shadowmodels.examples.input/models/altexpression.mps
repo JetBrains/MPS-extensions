@@ -17,6 +17,7 @@
       <concept id="1610040818622985175" name="de.q60.mps.shadowmodels.examples.expressions.structure.IGenericDeclaration" flags="ng" index="dJJ1f">
         <child id="1610040818622985176" name="typeVars" index="dJJ10" />
       </concept>
+      <concept id="8403212614956599404" name="de.q60.mps.shadowmodels.examples.expressions.structure.StringType" flags="ng" index="2i3ZOP" />
       <concept id="8403212614956385757" name="de.q60.mps.shadowmodels.examples.expressions.structure.ListType" flags="ng" index="2i4b24" />
       <concept id="8403212614955795569" name="de.q60.mps.shadowmodels.examples.expressions.structure.UnaryExpr" flags="ng" index="2i6V4C">
         <child id="8403212614955795822" name="expr" index="2i6V0R" />
@@ -151,22 +152,43 @@
   </registry>
   <node concept="37GxXp" id="3JPN2vWhXDA">
     <property role="TrG5h" value="T" />
-    <node concept="37GxwB" id="7iudlBANKZo" role="37GxYA">
-      <property role="TrG5h" value="ll" />
-      <node concept="2ikicd" id="7iudlBAOyer" role="37Gxwy">
-        <node concept="1H2aKs" id="7iudlBAOygK" role="2ikicc">
-          <property role="1H2aK3" value="1" />
-        </node>
-        <node concept="1H2aKs" id="7iudlBAOylJ" role="2ikicc">
-          <property role="1H2aK3" value="2" />
-        </node>
-        <node concept="1H2aKs" id="7iudlBAUkgX" role="2ikicc">
-          <property role="1H2aK3" value="3" />
+    <node concept="38WgWO" id="Ura7poRiiZ" role="37GxYA">
+      <property role="TrG5h" value="id" />
+      <node concept="38XQG0" id="Ura7poRij0" role="38WgZW">
+        <ref role="38XQJG" node="Ura7poRij2" resolve="t" />
+      </node>
+      <node concept="dJJ12" id="Ura7poRij1" role="dJJ10">
+        <property role="TrG5h" value="U" />
+      </node>
+      <node concept="38WgZL" id="Ura7poRij2" role="38WgZu">
+        <property role="TrG5h" value="t" />
+        <node concept="dCA$o" id="Ura7poRij3" role="37FMM1">
+          <ref role="dCA$p" node="Ura7poRij1" resolve="U" />
         </node>
       </node>
-      <node concept="2i4b24" id="7iudlBAPCON" role="2ij1d7">
-        <node concept="1LuOxu" id="7iudlBAR2j5" role="2imC1U" />
+      <node concept="dCA$o" id="Ura7pp0wZe" role="1mc52V">
+        <ref role="dCA$p" node="Ura7poRij1" resolve="U" />
       </node>
+    </node>
+    <node concept="37GxwB" id="Ura7poRij5" role="37GxYA">
+      <property role="TrG5h" value="xint" />
+      <node concept="2lgVZp" id="Ura7poRij6" role="37Gxwy">
+        <ref role="2lgVZu" node="Ura7poRiiZ" resolve="id" />
+        <node concept="1H2aKs" id="Ura7pp3vrO" role="2lgVZs">
+          <property role="1H2aK3" value="22" />
+        </node>
+      </node>
+      <node concept="21A6bZ" id="Ura7poRij8" role="2ij1d7" />
+    </node>
+    <node concept="37GxwB" id="Ura7pp3wq4" role="37GxYA">
+      <property role="TrG5h" value="xs" />
+      <node concept="2lgVZp" id="Ura7pp3wq5" role="37Gxwy">
+        <ref role="2lgVZu" node="Ura7poRiiZ" resolve="id" />
+        <node concept="1mbQyJ" id="Ura7pp3wtK" role="2lgVZs">
+          <property role="1mbQyG" value="string" />
+        </node>
+      </node>
+      <node concept="2i3ZOP" id="Ura7pp3wAt" role="2ij1d7" />
     </node>
   </node>
   <node concept="37GxXp" id="7iudlBABulZ">
@@ -178,7 +200,7 @@
         <property role="TrG5h" value="Some" />
         <node concept="5xh$E" id="7iudlBAC2_0" role="5xicj">
           <node concept="dCA$o" id="1po0TwrZBDN" role="5xidU">
-            <ref role="dCA$p" node="1po0TwrXM6i" resolve="T" />
+            <ref role="dCA$p" node="1po0TwrXM6i" resolve="U" />
           </node>
         </node>
       </node>
@@ -186,7 +208,7 @@
         <property role="TrG5h" value="None" />
       </node>
       <node concept="dJJ12" id="1po0TwrXM6i" role="dJJ10">
-        <property role="TrG5h" value="T" />
+        <property role="TrG5h" value="U" />
       </node>
     </node>
     <node concept="2NE3Kg" id="Ura7porcjU" role="37GxYA" />

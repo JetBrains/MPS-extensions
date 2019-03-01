@@ -27066,8 +27066,8 @@
                 <ref role="3cqZAo" to="3hky:5QP6xyjNAP1" resolve="ROOT_ID" />
                 <ref role="1PxDUh" to="3hky:4_SQzDO0jRP" resolve="PTree" />
               </node>
-              <node concept="Xl_RD" id="4j_LshTNAZ5" role="37wK5m">
-                <property role="Xl_RC" value="detached" />
+              <node concept="37vLTw" id="41QOk3Iis1M" role="37wK5m">
+                <ref role="3cqZAo" node="QurUghXZCU" resolve="DETACHED_ROLE_NAME" />
               </node>
             </node>
           </node>

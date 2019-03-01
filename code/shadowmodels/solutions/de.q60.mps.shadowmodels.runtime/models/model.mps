@@ -11,6 +11,7 @@
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -139,7 +140,9 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
+        <child id="1212687122400" name="typeParameter" index="1pMfVU" />
+      </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -150,6 +153,7 @@
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -2019,6 +2023,39 @@
   </node>
   <node concept="3HP615" id="5wi3nvJWiQu">
     <property role="TrG5h" value="INodeResolveContext" />
+    <node concept="Wx3nA" id="QurUgiyqpm" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="CONTEXT_VALUE" />
+      <node concept="3Tm1VV" id="QurUgiyqpo" role="1B3o_S" />
+      <node concept="2ShNRf" id="QurUgiyqqj" role="33vP2m">
+        <node concept="1pGfFk" id="QurUgiyqqa" role="2ShVmc">
+          <ref role="37wK5l" to="pxvb:32qWz0M5VME" resolve="ContextValue" />
+          <node concept="3uibUv" id="QurUgiyD0Q" role="1pMfVU">
+            <ref role="3uigEE" node="5wi3nvJWiQu" resolve="INodeResolveContext" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="QurUgiyqpA" role="1tU5fm">
+        <ref role="3uigEE" to="pxvb:7vWAzuEE15A" resolve="ContextValue" />
+        <node concept="3uibUv" id="QurUgiyCXY" role="11_B2D">
+          <ref role="3uigEE" node="5wi3nvJWiQu" resolve="INodeResolveContext" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="QurUgiyqqK" role="jymVt">
+      <property role="TrG5h" value="resolve" />
+      <node concept="37vLTG" id="QurUgiyqs6" role="3clF46">
+        <property role="TrG5h" value="ref" />
+        <node concept="3uibUv" id="QurUgiyqsv" role="1tU5fm">
+          <ref role="3uigEE" node="5gTrVpGiJqG" resolve="INodeReference" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="QurUgiyqtN" role="3clF45">
+        <ref role="3uigEE" node="5gTrVpGiHIH" resolve="INode" />
+      </node>
+      <node concept="3Tm1VV" id="QurUgiyqqN" role="1B3o_S" />
+      <node concept="3clFbS" id="QurUgiyqqO" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="5wi3nvJWiQv" role="1B3o_S" />
   </node>
 </model>

@@ -85,6 +85,13 @@
         <property role="YLQ7P" value="it's slow" />
       </node>
     </node>
+    <node concept="1TJgyj" id="5zrTIjkWMUS" role="1TKVEi">
+      <property role="IQ2ns" value="6402965165736931000" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="modelImports" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5zrTIjkWNaz" resolve="ModelReference" />
+    </node>
     <node concept="PrWs8" id="qmkA5fOskd" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -160,6 +167,18 @@
       <property role="IQ2nx" value="8529768024843584777" />
       <property role="TrG5h" value="stacktrace" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5zrTIjkWNaz">
+    <property role="EcuMT" value="6402965165736932003" />
+    <property role="TrG5h" value="ModelReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5zrTIjkWNa$" role="1TKVEi">
+      <property role="IQ2ns" value="6402965165736932004" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="model" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="qmkA5fOskc" resolve="Model" />
     </node>
   </node>
 </model>

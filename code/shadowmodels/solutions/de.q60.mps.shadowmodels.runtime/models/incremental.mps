@@ -1436,11 +1436,18 @@
                     <node concept="3clFbS" id="5bqHObT2MvH" role="TDEfX">
                       <node concept="RRSsy" id="5wism0xLzpY" role="3cqZAp">
                         <property role="RRSoG" value="debug" />
-                        <node concept="Xl_RD" id="5wism0xLzq0" role="RRSoy">
-                          <property role="Xl_RC" value="Exception during invalidation avoidance" />
-                        </node>
-                        <node concept="37vLTw" id="5wism0xLzq2" role="RRSow">
-                          <ref role="3cqZAo" node="5bqHObT2MvF" resolve="ex" />
+                        <node concept="3cpWs3" id="41QOk3IjUi7" role="RRSoy">
+                          <node concept="2OqwBi" id="41QOk3Ik6ii" role="3uHU7w">
+                            <node concept="37vLTw" id="41QOk3Ik5Ux" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5bqHObT2MvF" resolve="ex" />
+                            </node>
+                            <node concept="liA8E" id="41QOk3Ik7xZ" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="5wism0xLzq0" role="3uHU7B">
+                            <property role="Xl_RC" value="Exception during invalidation avoidance: " />
+                          </node>
                         </node>
                       </node>
                     </node>

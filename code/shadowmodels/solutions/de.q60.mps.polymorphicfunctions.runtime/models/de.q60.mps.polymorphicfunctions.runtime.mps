@@ -4043,13 +4043,6 @@
       </node>
       <node concept="10Nm6u" id="4F4X830WJ71" role="33vP2m" />
     </node>
-    <node concept="312cEg" id="5tQmAwPTdTC" role="jymVt">
-      <property role="TrG5h" value="reloadedListener" />
-      <node concept="3Tm6S6" id="5tQmAwPTdTD" role="1B3o_S" />
-      <node concept="3uibUv" id="5tQmAwPTeKk" role="1tU5fm">
-        <ref role="3uigEE" to="3qmy:~ModuleReloadListener" resolve="ModuleReloadListener" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="4F4X830Wcax" role="jymVt" />
     <node concept="3clFb_" id="4F4X830WBPc" role="jymVt">
       <property role="TrG5h" value="invalidate" />
@@ -4114,19 +4107,6 @@
                   <ref role="37wK5l" to="3qmy:~ClassLoaderManager.removeListener(jetbrains.mps.classloading.DeployListener):void" resolve="removeListener" />
                   <node concept="37vLTw" id="4F4X830WYE6" role="37wK5m">
                     <ref role="3cqZAo" node="4F4X830Wc_8" resolve="deployListener" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="5tQmAwPThOs" role="3cqZAp">
-              <node concept="2OqwBi" id="5tQmAwPTi0_" role="3clFbG">
-                <node concept="37vLTw" id="5tQmAwPThOq" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5tQmAwPThxt" resolve="classLoaderManager" />
-                </node>
-                <node concept="liA8E" id="5tQmAwPTihl" role="2OqNvi">
-                  <ref role="37wK5l" to="3qmy:~ClassLoaderManager.removeReloadListener(jetbrains.mps.classloading.ModuleReloadListener):void" resolve="removeReloadListener" />
-                  <node concept="37vLTw" id="5tQmAwPTiss" role="37wK5m">
-                    <ref role="3cqZAo" node="5tQmAwPTdTC" resolve="reloadedListener" />
                   </node>
                 </node>
               </node>
@@ -4260,47 +4240,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="5tQmAwPTeXO" role="3cqZAp">
-                  <node concept="37vLTI" id="5tQmAwPTfi6" role="3clFbG">
-                    <node concept="2ShNRf" id="5tQmAwPTfkc" role="37vLTx">
-                      <node concept="YeOm9" id="5tQmAwPTf$A" role="2ShVmc">
-                        <node concept="1Y3b0j" id="5tQmAwPTf$D" role="YeSDq">
-                          <property role="2bfB8j" value="true" />
-                          <ref role="1Y3XeK" to="3qmy:~ModuleReloadListener" resolve="ModuleReloadListener" />
-                          <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                          <node concept="3Tm1VV" id="5tQmAwPTf$E" role="1B3o_S" />
-                          <node concept="3clFb_" id="5tQmAwPTf$F" role="jymVt">
-                            <property role="1EzhhJ" value="false" />
-                            <property role="TrG5h" value="modulesReloaded" />
-                            <property role="DiZV1" value="false" />
-                            <property role="od$2w" value="false" />
-                            <node concept="3Tm1VV" id="5tQmAwPTf$G" role="1B3o_S" />
-                            <node concept="3cqZAl" id="5tQmAwPTf$I" role="3clF45" />
-                            <node concept="37vLTG" id="5tQmAwPTf$J" role="3clF46">
-                              <property role="TrG5h" value="p0" />
-                              <node concept="3uibUv" id="5tQmAwPTf$K" role="1tU5fm">
-                                <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
-                                <node concept="3uibUv" id="5tQmAwPTf$L" role="11_B2D">
-                                  <ref role="3uigEE" to="j8aq:~ReloadableModule" resolve="ReloadableModule" />
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3clFbS" id="5tQmAwPTf$M" role="3clF47">
-                              <node concept="3clFbF" id="5tQmAwPTiM5" role="3cqZAp">
-                                <node concept="1rXfSq" id="5tQmAwPTiM4" role="3clFbG">
-                                  <ref role="37wK5l" node="4F4X830WBPc" resolve="invalidate" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="5tQmAwPTeXM" role="37vLTJ">
-                      <ref role="3cqZAo" node="5tQmAwPTdTC" resolve="reloadedListener" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="3cpWs8" id="5tQmAwPTfOQ" role="3cqZAp">
                   <node concept="3cpWsn" id="5tQmAwPTfOR" role="3cpWs9">
                     <property role="TrG5h" value="classLoaderManager" />
@@ -4335,19 +4274,6 @@
                       <ref role="37wK5l" to="3qmy:~ClassLoaderManager.addListener(jetbrains.mps.classloading.DeployListener):void" resolve="addListener" />
                       <node concept="37vLTw" id="4F4X830WWFj" role="37wK5m">
                         <ref role="3cqZAo" node="4F4X830Wc_8" resolve="deployListener" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="5tQmAwPTgvC" role="3cqZAp">
-                  <node concept="2OqwBi" id="5tQmAwPTgRK" role="3clFbG">
-                    <node concept="37vLTw" id="5tQmAwPTgvA" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5tQmAwPTfOR" resolve="classLoaderManager" />
-                    </node>
-                    <node concept="liA8E" id="5tQmAwPTh8y" role="2OqNvi">
-                      <ref role="37wK5l" to="3qmy:~ClassLoaderManager.addReloadListener(jetbrains.mps.classloading.ModuleReloadListener):void" resolve="addReloadListener" />
-                      <node concept="37vLTw" id="5tQmAwPThjB" role="37wK5m">
-                        <ref role="3cqZAo" node="5tQmAwPTdTC" resolve="reloadedListener" />
                       </node>
                     </node>
                   </node>

@@ -777,7 +777,7 @@
                         <ref role="3cqZAo" node="7wXnfGE6MoI" resolve="reloadableModule" />
                       </node>
                       <node concept="liA8E" id="4N7geoKspZ4" role="2OqNvi">
-                        <ref role="37wK5l" to="j8aq:~ReloadableModule.getClassLoader():jetbrains.mps.classloading.MPSModuleClassLoader" resolve="getClassLoader" />
+                        <ref role="37wK5l" to="j8aq:~ReloadableModule.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
                       </node>
                     </node>
                   </node>
@@ -1797,7 +1797,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="7wXnfGE71Hn" role="2OqNvi">
-                    <ref role="37wK5l" to="j8aq:~ReloadableModule.getClassLoader():jetbrains.mps.classloading.MPSModuleClassLoader" resolve="getClassLoader" />
+                    <ref role="37wK5l" to="j8aq:~ReloadableModule.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
                   </node>
                 </node>
               </node>

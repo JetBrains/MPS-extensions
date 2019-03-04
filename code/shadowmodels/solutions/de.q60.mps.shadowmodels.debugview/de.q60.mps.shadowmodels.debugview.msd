@@ -15,8 +15,12 @@
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)</dependency>
+    <dependency reexport="false">18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)</dependency>
+    <dependency reexport="false">bc963c22-d419-49b6-8543-ea411eb9d3a1(de.q60.mps.polymorphicfunctions)</dependency>
+    <dependency reexport="false">0bf7bc3b-b11d-42e4-b160-93d72af96397(de.q60.mps.shadowmodels.runtimelang)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:bc963c22-d419-49b6-8543-ea411eb9d3a1:de.q60.mps.polymorphicfunctions" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:774bf8a0-62e5-41e1-af63-f4812e60e48b:jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -45,9 +49,11 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)" version="0" />
+    <module reference="bc963c22-d419-49b6-8543-ea411eb9d3a1(de.q60.mps.polymorphicfunctions)" version="0" />
     <module reference="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" version="0" />
     <module reference="883c431a-2ba7-415a-a318-5eb9b7eb3672(de.q60.mps.shadowmodels.debugview)" version="0" />
     <module reference="e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)" version="0" />
+    <module reference="0bf7bc3b-b11d-42e4-b160-93d72af96397(de.q60.mps.shadowmodels.runtimelang)" version="0" />
     <module reference="94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />

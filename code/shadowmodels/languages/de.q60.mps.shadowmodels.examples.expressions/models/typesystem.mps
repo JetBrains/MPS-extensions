@@ -13,9 +13,6 @@
     <import index="pooj" ref="r:70e02a2e-ae8f-4ef2-bcd1-2d85e8689f6a(de.q60.mps.shadowmodels.examples.expressions.behavior)" />
     <import index="gsp2" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typesystem.inference.util(MPS.Core/)" />
     <import index="u78q" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typesystem.inference(MPS.Core/)" />
-    <import index="cnr6" ref="r:ee408fec-be69-48f4-bef2-a761eaabcf3b(org.kf2.adt.structure)" />
-    <import index="c0m2" ref="r:bcf0dfc2-938e-4dc5-bbbf-30b9f619eba4(org.kf2.adt.behavior)" />
-    <import index="yxvh" ref="r:272b6891-c7a7-4bd3-b8b9-aab0c9cc9a0f(org.kf2.adt.typesystem)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />

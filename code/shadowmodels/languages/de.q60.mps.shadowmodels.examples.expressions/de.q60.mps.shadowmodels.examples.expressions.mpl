@@ -50,10 +50,8 @@
     <dependency reexport="false">fdda8484-fc57-4faa-9059-032e2b8b648f(de.q60.mps.shadowmodels.repository)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
-    <dependency reexport="false">1ab7bfac-29d6-4772-a483-50110408ac43(de.q60.mps.shadowmodels.examples.expressions)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
-    <dependency reexport="false">3280d6dd-a43e-4aaf-bfe8-9c7c48bb5a12(org.kf2.adt)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
   </dependencies>
   <languageVersions>
@@ -101,7 +99,6 @@
     <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
-    <module reference="3280d6dd-a43e-4aaf-bfe8-9c7c48bb5a12(org.kf2.adt)" version="0" />
   </dependencyVersions>
   <extendedLanguages />
 </language>

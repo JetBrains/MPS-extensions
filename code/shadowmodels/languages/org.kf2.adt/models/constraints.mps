@@ -8,10 +8,10 @@
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="cnr6" ref="r:ee408fec-be69-48f4-bef2-a761eaabcf3b(org.kf2.adt.structure)" />
-    <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(de.q60.mps.shadowmodels.examples.expressions.structure)" />
+    <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(org.kf2.core.structure)" />
     <import index="c0m2" ref="r:bcf0dfc2-938e-4dc5-bbbf-30b9f619eba4(org.kf2.adt.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="pooj" ref="r:70e02a2e-ae8f-4ef2-bcd1-2d85e8689f6a(de.q60.mps.shadowmodels.examples.expressions.behavior)" implicit="true" />
+    <import index="pooj" ref="r:70e02a2e-ae8f-4ef2-bcd1-2d85e8689f6a(org.kf2.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -195,7 +195,7 @@
                     <node concept="2Xjw5R" id="5a_u3OzPSQW" role="2OqNvi">
                       <node concept="1xMEDy" id="5a_u3OzPSQX" role="1xVPHs">
                         <node concept="chp4Y" id="7iudlBAzw2D" role="ri$Ld">
-                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Program" />
+                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
                         </node>
                       </node>
                     </node>
@@ -256,7 +256,7 @@
                     <node concept="2Xjw5R" id="7iudlBAzuzA" role="2OqNvi">
                       <node concept="1xMEDy" id="7iudlBAzuzB" role="1xVPHs">
                         <node concept="chp4Y" id="7iudlBAzuzC" role="ri$Ld">
-                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Program" />
+                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
                         </node>
                       </node>
                       <node concept="1xIGOp" id="7iudlBAFHOz" role="1xVPHs" />
@@ -692,7 +692,7 @@
                   <node concept="2Xjw5R" id="Ura7pp3SoL" role="2OqNvi">
                     <node concept="1xMEDy" id="Ura7pp3SoN" role="1xVPHs">
                       <node concept="chp4Y" id="Ura7pp3Svo" role="ri$Ld">
-                        <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Program" />
+                        <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
                       </node>
                     </node>
                   </node>

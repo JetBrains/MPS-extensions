@@ -6754,7 +6754,7 @@
       </node>
       <node concept="1E1JtD" id="BRK1N8p1rh" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expressions" />
+        <property role="TrG5h" value="org.kf2.core" />
         <property role="3LESm3" value="1ab7bfac-29d6-4772-a483-50110408ac43" />
         <node concept="398BVA" id="1RCZH7X6xai" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
@@ -6763,16 +6763,16 @@
             <node concept="2Ry0Ak" id="BRK1N8p1rM" role="2Ry0An">
               <property role="2Ry0Am" value="languages" />
               <node concept="2Ry0Ak" id="BRK1N8p1rN" role="2Ry0An">
-                <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions" />
-                <node concept="2Ry0Ak" id="BRK1N8p1rT" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions.mpl" />
+                <property role="2Ry0Am" value="org.kf2.core" />
+                <node concept="2Ry0Ak" id="4JbHIKA7mTq" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.kf2.core.mpl" />
                 </node>
               </node>
             </node>
           </node>
         </node>
         <node concept="1yeLz9" id="BRK1N8p1rV" role="1TViLv">
-          <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expressions#01" />
+          <property role="TrG5h" value="org.kf2.core#01" />
           <property role="3LESm3" value="566097a6-68e9-42f5-b4c6-f11ea34090bf" />
         </node>
         <node concept="3rtmxn" id="5bDu5aAC0nu" role="3bR31x">
@@ -6831,9 +6831,9 @@
         </node>
       </node>
       <node concept="1E1JtD" id="27vxCXgy$2z" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expext" />
+        <property role="TrG5h" value="org.kf2.sugar" />
         <property role="3LESm3" value="4441485a-f7fc-4cfb-8044-d8997096c5d6" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="27vxCXgy$2$" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="27vxCXgy$2_" role="iGT6I">
@@ -6841,16 +6841,16 @@
             <node concept="2Ry0Ak" id="27vxCXgy$2A" role="2Ry0An">
               <property role="2Ry0Am" value="languages" />
               <node concept="2Ry0Ak" id="27vxCXgy$2B" role="2Ry0An">
-                <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expext" />
-                <node concept="2Ry0Ak" id="27vxCXgy$gQ" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expext.mpl" />
+                <property role="2Ry0Am" value="org.kf2.sugar" />
+                <node concept="2Ry0Ak" id="4JbHIKA7nks" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.kf2.sugar.mpl" />
                 </node>
               </node>
             </node>
           </node>
         </node>
         <node concept="1yeLz9" id="27vxCXgy$2D" role="1TViLv">
-          <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expext#01" />
+          <property role="TrG5h" value="org.kf2.sugar#01" />
           <property role="3LESm3" value="8e63eb8c-e662-412c-b5fc-65805fe6d198" />
         </node>
         <node concept="3rtmxn" id="27vxCXgy$2E" role="3bR31x">
@@ -6879,7 +6879,7 @@
         </node>
         <node concept="1SiIV0" id="27vxCXgy$JF" role="3bR37C">
           <node concept="1Busua" id="27vxCXgy$JG" role="1SiIV1">
-            <ref role="1Busuk" node="BRK1N8p1rh" resolve="de.q60.mps.shadowmodels.examples.expressions" />
+            <ref role="1Busuk" node="BRK1N8p1rh" resolve="org.kf2.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="2FosA_pIwMZ" role="3bR37C">
@@ -6892,14 +6892,14 @@
             <ref role="3bR37D" node="4iIKqJTZ5I0" resolve="de.q60.mps.shadowmodels.repository" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2FZjDWBNXEa" role="3bR37C">
-          <node concept="3bR9La" id="2FZjDWBNXEb" role="1SiIV1">
-            <ref role="3bR37D" node="2FZjDWBNXcv" resolve="org.kf2.adt" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="2FZjDWBNXSA" role="3bR37C">
           <node concept="3bR9La" id="2FZjDWBNXSB" role="1SiIV1">
-            <ref role="3bR37D" node="27vxCXgy$2z" resolve="de.q60.mps.shadowmodels.examples.expext" />
+            <ref role="3bR37D" node="27vxCXgy$2z" resolve="org.kf2.sugar" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4JbHIKA7oDf" role="3bR37C">
+          <node concept="3bR9La" id="4JbHIKA7oDg" role="1SiIV1">
+            <ref role="3bR37D" node="2FZjDWBNXcv" resolve="org.kf2.adt" />
           </node>
         </node>
       </node>
@@ -6952,7 +6952,7 @@
         </node>
         <node concept="1SiIV0" id="2FZjDWBNXcJ" role="3bR37C">
           <node concept="1Busua" id="2FZjDWBNXcK" role="1SiIV1">
-            <ref role="1Busuk" node="BRK1N8p1rh" resolve="de.q60.mps.shadowmodels.examples.expressions" />
+            <ref role="1Busuk" node="BRK1N8p1rh" resolve="org.kf2.core" />
           </node>
         </node>
         <node concept="1SiIV0" id="2FZjDWBNXcL" role="3bR37C">
@@ -6975,9 +6975,57 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2FZjDWBNXSC" role="3bR37C">
-          <node concept="3bR9La" id="2FZjDWBNXSD" role="1SiIV1">
+        <node concept="1SiIV0" id="4JbHIKA7oDh" role="3bR37C">
+          <node concept="3bR9La" id="4JbHIKA7oDi" role="1SiIV1">
             <ref role="3bR37D" node="2FZjDWBNXcv" resolve="org.kf2.adt" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="4JbHIKA7nQe" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.kf2.state" />
+        <property role="3LESm3" value="752448bb-7c63-426e-9e72-23f7606eb6f4" />
+        <node concept="398BVA" id="4JbHIKA7nQf" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4JbHIKA7nQg" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="4JbHIKA7nQh" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="4JbHIKA7nQi" role="2Ry0An">
+                <property role="2Ry0Am" value="org.kf2.state" />
+                <node concept="2Ry0Ak" id="4JbHIKA7odH" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.kf2.state.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="4JbHIKA7nQk" role="1TViLv">
+          <property role="TrG5h" value="org.kf2.state#01" />
+          <property role="3LESm3" value="03d698c0-17df-4aa5-9207-45646f831951" />
+        </node>
+        <node concept="3rtmxn" id="4JbHIKA7nQl" role="3bR31x">
+          <node concept="3LXTmp" id="4JbHIKA7nQm" role="3rtmxm">
+            <node concept="398BVA" id="4JbHIKA7nQn" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4JbHIKA7nQo" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="4JbHIKA7nQp" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="4JbHIKA7nQq" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="4JbHIKA7nQr" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4JbHIKA7nQu" role="3bR37C">
+          <node concept="1Busua" id="4JbHIKA7nQv" role="1SiIV1">
+            <ref role="1Busuk" node="BRK1N8p1rh" resolve="org.kf2.core" />
           </node>
         </node>
       </node>

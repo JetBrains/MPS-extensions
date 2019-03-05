@@ -6,6 +6,7 @@
     <use id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="org.kf2.sugar" version="-1" />
     <use id="1ab7bfac-29d6-4772-a483-50110408ac43" name="org.kf2.core" version="-1" />
     <use id="752448bb-7c63-426e-9e72-23f7606eb6f4" name="org.kf2.state" version="0" />
+    <use id="d3b01dcd-2240-445f-90f7-2552a830adac" name="org.kf2.statemachine" version="0" />
   </languages>
   <imports />
   <registry>
@@ -135,6 +136,27 @@
       </concept>
       <concept id="2583804470398667700" name="org.kf2.sugar.structure.AltExpr" flags="ng" index="38X$Zd">
         <child id="2583804470398748129" name="cases" index="38X86o" />
+      </concept>
+    </language>
+    <language id="d3b01dcd-2240-445f-90f7-2552a830adac" name="org.kf2.statemachine">
+      <concept id="5461660098486001695" name="org.kf2.statemachine.structure.EventTrigger" flags="ng" index="1HTlrN">
+        <reference id="5461660098486001696" name="event" index="1HTlrc" />
+      </concept>
+      <concept id="5461660098485946303" name="org.kf2.statemachine.structure.Event" flags="ng" index="1HTr5j" />
+      <concept id="5461660098485946242" name="org.kf2.statemachine.structure.Guard" flags="ng" index="1HTr5I">
+        <child id="5461660098485946243" name="expr" index="1HTr5J" />
+      </concept>
+      <concept id="5461660098485946234" name="org.kf2.statemachine.structure.State" flags="ng" index="1HTr6m">
+        <property id="5461660098485949125" name="initial" index="1HTqgD" />
+        <child id="5461660098485946236" name="contents" index="1HTr6g" />
+      </concept>
+      <concept id="5461660098485946235" name="org.kf2.statemachine.structure.Transition" flags="ng" index="1HTr6n">
+        <reference id="5461660098485946245" name="target" index="1HTr5D" />
+        <child id="5461660098485949403" name="trigger" index="1HTqkR" />
+        <child id="5461660098485946240" name="guard" index="1HTr5G" />
+      </concept>
+      <concept id="5461660098485946228" name="org.kf2.statemachine.structure.StateMachine" flags="ng" index="1HTr6o">
+        <child id="5461660098485946238" name="contents" index="1HTr6i" />
       </concept>
     </language>
     <language id="3280d6dd-a43e-4aaf-bfe8-9c7c48bb5a12" name="org.kf2.adt">
@@ -553,7 +575,37 @@
     <node concept="2NE3Kg" id="2FZjDWBUVJ5" role="37GxYA" />
     <node concept="d63gK" id="2FZjDWBUj6I" role="37GxYA">
       <property role="TrG5h" value="button" />
-      <node concept="2i3Dsq" id="2FZjDWBUjhy" role="2ij1d7" />
+      <node concept="21A6bZ" id="4JbHIKAbtdb" role="2ij1d7" />
+      <node concept="d5BFC" id="4JbHIKA2emU" role="d5BDi">
+        <ref role="d5BFB" node="4JbHIKA2aPC" resolve="someOtherState" />
+        <node concept="38X$Zd" id="4JbHIKA2TJ4" role="d5BF_">
+          <node concept="38Xu9M" id="4JbHIKA2TP6" role="38X86o">
+            <node concept="2$$Lbh" id="4JbHIKA2ZcR" role="38Xu9u">
+              <node concept="1H7JQn" id="4JbHIKA2WQU" role="1H5NIF">
+                <node concept="1HKPTD" id="4JbHIKA2WXS" role="1H5NID" />
+                <node concept="d5sZn" id="4JbHIKA2TP5" role="1H5NIF">
+                  <ref role="d5sZm" node="4JbHIKA2aPC" resolve="someOtherState" />
+                </node>
+              </node>
+              <node concept="mWALo" id="4JbHIKA2Zkn" role="1H5NID">
+                <ref role="mWALr" node="4JbHIKA2XJJ" resolve="MAXNUM" />
+              </node>
+            </node>
+            <node concept="1H2aKs" id="4JbHIKA2Ueh" role="38Xu9j">
+              <property role="1H2aK3" value="0" />
+            </node>
+          </node>
+          <node concept="38Xu9M" id="4JbHIKA2UZK" role="38X86o">
+            <node concept="2NSjky" id="4JbHIKA2V6g" role="38Xu9u" />
+            <node concept="1H7JQn" id="4JbHIKA305y" role="38Xu9j">
+              <node concept="1HKPTD" id="4JbHIKA30df" role="1H5NID" />
+              <node concept="d5sZn" id="4JbHIKA2Vck" role="1H5NIF">
+                <ref role="d5sZm" node="4JbHIKA2aPC" resolve="someOtherState" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="d5BFC" id="2FZjDWBUC35" role="d5BDi">
         <ref role="d5BFB" node="2FZjDWBTRC1" resolve="state" />
         <node concept="38X$Zd" id="2FZjDWBUC3G" role="d5BF_">
@@ -605,40 +657,6 @@
       </node>
     </node>
     <node concept="2NE3Kg" id="2FZjDWBUVlt" role="37GxYA" />
-    <node concept="d63gK" id="4JbHIKA2ca_" role="37GxYA">
-      <property role="TrG5h" value="addToNumber" />
-      <node concept="21A6bZ" id="4JbHIKA2d2H" role="2ij1d7" />
-      <node concept="d5BFC" id="4JbHIKA2emU" role="d5BDi">
-        <ref role="d5BFB" node="4JbHIKA2aPC" resolve="someOtherState" />
-        <node concept="38X$Zd" id="4JbHIKA2TJ4" role="d5BF_">
-          <node concept="38Xu9M" id="4JbHIKA2TP6" role="38X86o">
-            <node concept="2$$Lbh" id="4JbHIKA2ZcR" role="38Xu9u">
-              <node concept="1H7JQn" id="4JbHIKA2WQU" role="1H5NIF">
-                <node concept="1HKPTD" id="4JbHIKA2WXS" role="1H5NID" />
-                <node concept="d5sZn" id="4JbHIKA2TP5" role="1H5NIF">
-                  <ref role="d5sZm" node="4JbHIKA2aPC" resolve="someOtherState" />
-                </node>
-              </node>
-              <node concept="mWALo" id="4JbHIKA2Zkn" role="1H5NID">
-                <ref role="mWALr" node="4JbHIKA2XJJ" resolve="MAXNUM" />
-              </node>
-            </node>
-            <node concept="1H2aKs" id="4JbHIKA2Ueh" role="38Xu9j">
-              <property role="1H2aK3" value="0" />
-            </node>
-          </node>
-          <node concept="38Xu9M" id="4JbHIKA2UZK" role="38X86o">
-            <node concept="2NSjky" id="4JbHIKA2V6g" role="38Xu9u" />
-            <node concept="1H7JQn" id="4JbHIKA305y" role="38Xu9j">
-              <node concept="1HKPTD" id="4JbHIKA30df" role="1H5NID" />
-              <node concept="d5sZn" id="4JbHIKA2Vck" role="1H5NIF">
-                <ref role="d5sZm" node="4JbHIKA2aPC" resolve="someOtherState" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2NE3Kg" id="2FZjDWBUj6n" role="37GxYA" />
   </node>
   <node concept="37GxXp" id="2FZjDWBMOf8">
@@ -1055,6 +1073,95 @@
       <node concept="21A6bZ" id="2FZjDWBN5Te" role="2ij1d7" />
     </node>
     <node concept="2NE3Kg" id="2FZjDWBMN86" role="37GxYA" />
+  </node>
+  <node concept="37GxXp" id="4JbHIKAc1Cr">
+    <property role="TrG5h" value="StateMachine" />
+    <node concept="2NE3Kg" id="4JbHIKAc1Cs" role="37GxYA" />
+    <node concept="d7kyL" id="4JbHIKAiKoT" role="37GxYA">
+      <property role="TrG5h" value="counter" />
+      <node concept="1H2aKs" id="4JbHIKAiKAg" role="37Gxwz">
+        <property role="1H2aK3" value="0" />
+      </node>
+    </node>
+    <node concept="2NE3Kg" id="4JbHIKAiKk1" role="37GxYA" />
+    <node concept="1HTr6o" id="4JbHIKAc1W8" role="37GxYA">
+      <property role="TrG5h" value="TrafficLight" />
+      <node concept="1HTr5j" id="4JbHIKAc1Wt" role="1HTr6i">
+        <property role="TrG5h" value="button" />
+      </node>
+      <node concept="1HTr5j" id="4JbHIKAibmP" role="1HTr6i">
+        <property role="TrG5h" value="e2" />
+      </node>
+      <node concept="1HTr5j" id="4JbHIKAiL0r" role="1HTr6i">
+        <property role="TrG5h" value="e21" />
+      </node>
+      <node concept="1HTr5j" id="4JbHIKAiL0N" role="1HTr6i">
+        <property role="TrG5h" value="e22" />
+      </node>
+      <node concept="1HTr5j" id="4JbHIKAiL3k" role="1HTr6i">
+        <property role="TrG5h" value="e32" />
+      </node>
+      <node concept="1HTr5j" id="4JbHIKAiL5V" role="1HTr6i">
+        <property role="TrG5h" value="e24" />
+      </node>
+      <node concept="1HTr5j" id="4JbHIKAiL8D" role="1HTr6i">
+        <property role="TrG5h" value="e25" />
+      </node>
+      <node concept="1HTr5j" id="4JbHIKAiL90" role="1HTr6i">
+        <property role="TrG5h" value="e26" />
+      </node>
+      <node concept="1HTr6m" id="4JbHIKAc1We" role="1HTr6i">
+        <property role="TrG5h" value="red" />
+        <property role="1HTqgD" value="true" />
+        <node concept="1HTr6n" id="4JbHIKAc2ib" role="1HTr6g">
+          <ref role="1HTr5D" node="4JbHIKAc1Wh" resolve="green" />
+          <node concept="1HTlrN" id="4JbHIKAc2LK" role="1HTqkR">
+            <ref role="1HTlrc" node="4JbHIKAc1Wt" resolve="button" />
+          </node>
+        </node>
+      </node>
+      <node concept="1HTr6m" id="4JbHIKAc1Wh" role="1HTr6i">
+        <property role="TrG5h" value="green" />
+        <node concept="1HTr6n" id="4JbHIKAc2LO" role="1HTr6g">
+          <ref role="1HTr5D" node="4JbHIKAc1We" resolve="red" />
+          <node concept="1HTlrN" id="4JbHIKAc2LU" role="1HTqkR">
+            <ref role="1HTlrc" node="4JbHIKAc1Wt" resolve="button" />
+          </node>
+        </node>
+        <node concept="1HTr6n" id="4JbHIKAibrj" role="1HTr6g">
+          <ref role="1HTr5D" node="4JbHIKAibrF" resolve="error" />
+          <node concept="1HTlrN" id="4JbHIKAibrr" role="1HTqkR">
+            <ref role="1HTlrc" node="4JbHIKAibmP" resolve="e2" />
+          </node>
+          <node concept="1HTr5I" id="4JbHIKAiKC5" role="1HTr5G">
+            <node concept="2$$KCD" id="4JbHIKAiKHe" role="1HTr5J">
+              <node concept="1H2aKs" id="4JbHIKAiKJd" role="1H5NID">
+                <property role="1H2aK3" value="1" />
+              </node>
+              <node concept="d5sZn" id="4JbHIKAiKFk" role="1H5NIF">
+                <ref role="d5sZm" node="4JbHIKAiKoT" resolve="counter" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1HTr6m" id="4JbHIKAibrF" role="1HTr6i">
+        <property role="TrG5h" value="error" />
+        <node concept="1HTr6n" id="4JbHIKAj7CM" role="1HTr6g">
+          <ref role="1HTr5D" node="4JbHIKAiKTW" resolve="error3" />
+          <node concept="1HTlrN" id="4JbHIKAj7CQ" role="1HTqkR">
+            <ref role="1HTlrc" node="4JbHIKAiL5V" resolve="e24" />
+          </node>
+        </node>
+      </node>
+      <node concept="1HTr6m" id="4JbHIKAiKNH" role="1HTr6i">
+        <property role="TrG5h" value="error2" />
+      </node>
+      <node concept="1HTr6m" id="4JbHIKAiKTW" role="1HTr6i">
+        <property role="TrG5h" value="error3" />
+      </node>
+    </node>
+    <node concept="2NE3Kg" id="4JbHIKAc1CM" role="37GxYA" />
   </node>
 </model>
 

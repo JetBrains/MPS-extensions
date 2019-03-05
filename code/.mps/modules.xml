@@ -101,6 +101,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/org.kf2.adt/org.kf2.adt.mpl" folder="shadowmodels.kf2" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/org.kf2.core/org.kf2.core.mpl" folder="shadowmodels.kf2" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/org.kf2.state/org.kf2.state.mpl" folder="shadowmodels.kf2" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/languages/org.kf2.statemachine/org.kf2.statemachine.mpl" folder="shadowmodels.kf2" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/org.kf2.sugar/org.kf2.sugar.mpl" folder="shadowmodels.kf2" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.runtime/de.q60.mps.polymorphicfunctions.runtime.msd" folder="shadowmodels.polymorphicfunctions" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.sandbox/de.q60.mps.polymorphicfunctions.sandbox.msd" folder="shadowmodels.polymorphicfunctions" />

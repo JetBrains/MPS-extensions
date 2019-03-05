@@ -7029,6 +7029,74 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="4JbHIKAknWf" role="2G$12L">
+        <property role="TrG5h" value="org.kf2.statemachine" />
+        <property role="3LESm3" value="d3b01dcd-2240-445f-90f7-2552a830adac" />
+        <property role="BnDLt" value="true" />
+        <node concept="398BVA" id="4JbHIKAknWg" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4JbHIKAknWh" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="4JbHIKAknWi" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="4JbHIKAknWj" role="2Ry0An">
+                <property role="2Ry0Am" value="org.kf2.statemachine" />
+                <node concept="2Ry0Ak" id="4JbHIKAkocQ" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.kf2.statemachine.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="4JbHIKAknWl" role="1TViLv">
+          <property role="TrG5h" value="org.kf2.statemachine#01" />
+          <property role="3LESm3" value="31e3e5a7-9c7a-42b2-8a1d-4550af9db696" />
+        </node>
+        <node concept="3rtmxn" id="4JbHIKAknWm" role="3bR31x">
+          <node concept="3LXTmp" id="4JbHIKAknWn" role="3rtmxm">
+            <node concept="398BVA" id="4JbHIKAknWo" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4JbHIKAknWp" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="4JbHIKAknWq" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="4JbHIKAknWr" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="4JbHIKAknWs" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4JbHIKAknWt" role="3bR37C">
+          <node concept="1Busua" id="4JbHIKAknWu" role="1SiIV1">
+            <ref role="1Busuk" node="BRK1N8p1rh" resolve="org.kf2.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4JbHIKAkoBS" role="3bR37C">
+          <node concept="3bR9La" id="4JbHIKAkoBT" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4JbHIKAkoBU" role="3bR37C">
+          <node concept="3bR9La" id="4JbHIKAkoBV" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4JbHIKAkoBW" role="3bR37C">
+          <node concept="1Busua" id="4JbHIKAkoBX" role="1SiIV1">
+            <ref role="1Busuk" node="27vxCXgy$2z" resolve="org.kf2.sugar" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="Tius9XrPoB" role="3bR37C">
+          <node concept="1Busua" id="Tius9XrPoC" role="1SiIV1">
+            <ref role="1Busuk" node="4JbHIKA7nQe" resolve="org.kf2.state" />
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtD" id="BRK1N8p1ux" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.statemachine" />

@@ -11,6 +11,7 @@
     <language slang="l:3280d6dd-a43e-4aaf-bfe8-9c7c48bb5a12:org.kf2.adt" version="0" />
     <language slang="l:1ab7bfac-29d6-4772-a483-50110408ac43:org.kf2.core" version="-1" />
     <language slang="l:752448bb-7c63-426e-9e72-23f7606eb6f4:org.kf2.state" version="0" />
+    <language slang="l:d3b01dcd-2240-445f-90f7-2552a830adac:org.kf2.statemachine" version="0" />
     <language slang="l:4441485a-f7fc-4cfb-8044-d8997096c5d6:org.kf2.sugar" version="-1" />
   </languageVersions>
   <dependencyVersions>

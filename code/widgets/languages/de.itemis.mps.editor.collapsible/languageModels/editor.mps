@@ -27,6 +27,10 @@
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
+      <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
+        <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
+      </concept>
+      <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -186,8 +190,27 @@
         </node>
         <node concept="2iRfu4" id="48DYfEtzmOR" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="1$t5g3Q$e7J" role="3EZMnx">
+        <node concept="VPM3Z" id="1$t5g3Q$e7L" role="3F10Kt" />
+        <node concept="VPXOz" id="1$t5g3Q$iVt" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="1$t5g3Q$e7N" role="3EZMnx">
+          <property role="3F0ifm" value="glyph width" />
+        </node>
+        <node concept="3F1sOY" id="1$t5g3Q$e97" role="3EZMnx">
+          <ref role="1NtTu8" to="o1st:1$t5g3Q$dBC" resolve="glyphWidth" />
+          <node concept="VPXOz" id="1$t5g3Q$iV_" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="1$t5g3Q$e7O" role="2iSdaV" />
+      </node>
       <node concept="2EHx9g" id="48DYfEtA0bV" role="2iSdaV" />
     </node>
+  </node>
+  <node concept="3p36aQ" id="1$t5g3Q$v88">
+    <ref role="aqKnT" to="o1st:1$t5g3Q$iVD" resolve="ConceptFunctionParameter_height" />
   </node>
 </model>
 

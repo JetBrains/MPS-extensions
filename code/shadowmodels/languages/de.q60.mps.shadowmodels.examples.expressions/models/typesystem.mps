@@ -2682,5 +2682,30 @@
       <ref role="1YaFvo" to="nup6:2FZjDWBIhDU" resolve="CastExpr" />
     </node>
   </node>
+  <node concept="1YbPZF" id="2FZjDWC4pwQ">
+    <property role="TrG5h" value="typeof_FatalExpr" />
+    <node concept="3clFbS" id="2FZjDWC4pwR" role="18ibNy">
+      <node concept="1Z5TYs" id="2FZjDWC4pDY" role="3cqZAp">
+        <node concept="mw_s8" id="2FZjDWC4pEH" role="1ZfhKB">
+          <node concept="2pJPEk" id="2FZjDWC4pE_" role="mwGJk">
+            <node concept="2pJPED" id="2FZjDWC4pES" role="2pJPEn">
+              <ref role="2pJxaS" to="nup6:3JPN2vWmI27" resolve="BoolType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2FZjDWC4pE1" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2FZjDWC4pwX" role="mwGJk">
+            <node concept="1YBJjd" id="2FZjDWC4pyN" role="1Z2MuG">
+              <ref role="1YBMHb" node="2FZjDWC4pwT" resolve="fatalExpr" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2FZjDWC4pwT" role="1YuTPh">
+      <property role="TrG5h" value="fatalExpr" />
+      <ref role="1YaFvo" to="nup6:2FZjDWC4pv_" resolve="FatalExpr" />
+    </node>
+  </node>
 </model>
 

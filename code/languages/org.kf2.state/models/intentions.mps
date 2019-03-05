@@ -33,6 +33,7 @@
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
       <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
+        <property id="2522969319638091386" name="isAvailableInChildNodes" index="2ZfUl0" />
         <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
         <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
         <child id="2522969319638093993" name="descriptionFunction" index="2ZfVej" />
@@ -52,6 +53,7 @@
   </registry>
   <node concept="2S6QgY" id="2FZjDWBUjkW">
     <property role="TrG5h" value="addUpdater" />
+    <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="mwg5:2FZjDWBTREJ" resolve="Event" />
     <node concept="2S6ZIM" id="2FZjDWBUjkX" role="2ZfVej">
       <node concept="3clFbS" id="2FZjDWBUjkY" role="2VODD2">

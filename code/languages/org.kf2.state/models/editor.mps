@@ -63,12 +63,17 @@
       <concept id="5083944728298846680" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell" flags="ng" index="_tjkj">
         <child id="5083944728298846681" name="option" index="_tjki" />
       </concept>
+      <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G" />
     </language>
   </registry>
   <node concept="24kQdi" id="2FZjDWBSwpl">
     <ref role="1XX52x" to="mwg5:2FZjDWBSwoI" resolve="Box" />
     <node concept="3EZMnI" id="3JPN2vWhXg_" role="2wV5jI">
       <node concept="2iRfu4" id="3JPN2vWhXgA" role="2iSdaV" />
+      <node concept="1kHk_G" id="2FZjDWBZiHZ" role="3EZMnx">
+        <ref role="1NtTu8" to="mwg5:2FZjDWBZiH$" resolve="observable" />
+        <ref role="1k5W1q" to="68hx:3tIuEqk1SFg" resolve="kf2Keyword" />
+      </node>
       <node concept="3F0ifn" id="3JPN2vWhXgy" role="3EZMnx">
         <property role="3F0ifm" value="box" />
         <ref role="1k5W1q" to="68hx:3tIuEqk1SFg" resolve="kf2Keyword" />
@@ -183,6 +188,31 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2FZjDWC2sat">
+    <ref role="1XX52x" to="mwg5:2FZjDWC2s9Z" resolve="Invariant" />
+    <node concept="3EZMnI" id="2FZjDWC2say" role="2wV5jI">
+      <node concept="2iRfu4" id="2FZjDWC2saz" role="2iSdaV" />
+      <node concept="3F0ifn" id="2FZjDWC2sav" role="3EZMnx">
+        <property role="3F0ifm" value="inv" />
+        <ref role="1k5W1q" to="68hx:3tIuEqk1SFg" resolve="kf2Keyword" />
+      </node>
+      <node concept="3F0A7n" id="2FZjDWC2PbB" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="2FZjDWC2PbL" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="2FZjDWC2saJ" role="3EZMnx">
+        <ref role="1NtTu8" to="mwg5:2FZjDWC2sa2" resolve="cond" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4JbHIKA2eyv">
+    <ref role="1XX52x" to="mwg5:4JbHIKA2ey5" resolve="EventRefExpr" />
+    <node concept="3F0ifn" id="4JbHIKA2eyx" role="2wV5jI">
+      <property role="3F0ifm" value="event" />
     </node>
   </node>
 </model>

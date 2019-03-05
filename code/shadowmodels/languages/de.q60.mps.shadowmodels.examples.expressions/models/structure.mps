@@ -685,5 +685,23 @@
       <ref role="20lvS9" node="3JPN2vWmI1B" resolve="Type" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2FZjDWC3cs$">
+    <property role="EcuMT" value="3098281514132883236" />
+    <property role="3GE5qa" value="bin.logical" />
+    <property role="TrG5h" value="LogicalImpliesExpr" />
+    <property role="34LRSv" value="=&gt;" />
+    <ref role="1TJDcQ" node="3tIuEqjZo2m" resolve="BinaryLogicalExpr" />
+  </node>
+  <node concept="1TIwiD" id="2FZjDWC4pv_">
+    <property role="EcuMT" value="3098281514133198821" />
+    <property role="TrG5h" value="FatalExpr" />
+    <property role="34LRSv" value="FATAL" />
+    <ref role="1TJDcQ" node="2frx7BFaCHD" resolve="Expr" />
+    <node concept="1TJgyi" id="2FZjDWC5Uu9" role="1TKVEl">
+      <property role="IQ2nx" value="3098281514133596041" />
+      <property role="TrG5h" value="error" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

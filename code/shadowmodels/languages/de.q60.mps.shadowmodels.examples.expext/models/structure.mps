@@ -295,5 +295,18 @@
       <ref role="20lvS9" to="nup6:2frx7BFaCHD" resolve="Expr" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2FZjDWBUZDt">
+    <property role="EcuMT" value="3098281514130733661" />
+    <property role="3GE5qa" value="enum" />
+    <property role="TrG5h" value="EnumType" />
+    <ref role="1TJDcQ" to="nup6:3JPN2vWmI1B" resolve="Type" />
+    <node concept="1TJgyj" id="2FZjDWBUZDu" role="1TKVEi">
+      <property role="IQ2ns" value="3098281514130733662" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="enum" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1_cQhkfIO1K" resolve="EnumDecl" />
+    </node>
+  </node>
 </model>
 

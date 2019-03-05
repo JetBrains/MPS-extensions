@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(de.q60.mps.shadowmodels.examples.expressions.structure)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -151,7 +150,7 @@
   <node concept="2S6QgY" id="MNhuaq0ZFs">
     <property role="3GE5qa" value="prog" />
     <property role="TrG5h" value="Explode" />
-    <ref role="2ZfgGC" to="nup6:3JPN2vWhXdY" resolve="Program" />
+    <ref role="2ZfgGC" to="nup6:3JPN2vWhXdY" resolve="Module" />
     <node concept="2S6ZIM" id="MNhuaq0ZFt" role="2ZfVej">
       <node concept="3clFbS" id="MNhuaq0ZFu" role="2VODD2">
         <node concept="3clFbF" id="MNhuaq0ZOp" role="3cqZAp">

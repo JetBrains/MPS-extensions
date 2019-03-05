@@ -169,7 +169,7 @@
   </node>
   <node concept="1TIwiD" id="3JPN2vWhXdY">
     <property role="EcuMT" value="4320583889640215422" />
-    <property role="TrG5h" value="Program" />
+    <property role="TrG5h" value="Module" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="prog" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />

@@ -30,6 +30,7 @@
     <language slang="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" version="0" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:3280d6dd-a43e-4aaf-bfe8-9c7c48bb5a12:org.kf2.adt" version="0" />
+    <language slang="l:752448bb-7c63-426e-9e72-23f7606eb6f4:org.kf2.state" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />

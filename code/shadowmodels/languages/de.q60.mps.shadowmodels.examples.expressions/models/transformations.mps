@@ -266,7 +266,7 @@
                                 </node>
                                 <node concept="v3k3i" id="TC$M5wT1vG" role="2OqNvi">
                                   <node concept="chp4Y" id="3JPN2vWi5I9" role="v3oSu">
-                                    <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Program" />
+                                    <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
                                   </node>
                                 </node>
                               </node>
@@ -309,7 +309,7 @@
                           </node>
                           <node concept="v3k3i" id="3JPN2vWipX$" role="2OqNvi">
                             <node concept="chp4Y" id="3JPN2vWipX_" role="v3oSu">
-                              <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Program" />
+                              <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
                             </node>
                           </node>
                         </node>
@@ -345,7 +345,7 @@
       </node>
       <node concept="2xCcYw" id="3JPN2vWiD_t" role="2xEDBM">
         <node concept="02i3D" id="5bqHObTjROf" role="2xCcKX">
-          <ref role="02i3$" to="nup6:3JPN2vWhXdY" resolve="Program" />
+          <ref role="02i3$" to="nup6:3JPN2vWhXdY" resolve="Module" />
         </node>
       </node>
       <node concept="1Zmyal" id="5bqHObTjSgI" role="3lp9Fl">

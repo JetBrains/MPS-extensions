@@ -841,7 +841,7 @@
   </node>
   <node concept="13h7C7" id="7iudlBAza0i">
     <property role="3GE5qa" value="prog" />
-    <ref role="13h7C2" to="nup6:3JPN2vWhXdY" resolve="Program" />
+    <ref role="13h7C2" to="nup6:3JPN2vWhXdY" resolve="Module" />
     <node concept="13hLZK" id="7iudlBAza0j" role="13h7CW">
       <node concept="3clFbS" id="7iudlBAza0k" role="2VODD2" />
     </node>

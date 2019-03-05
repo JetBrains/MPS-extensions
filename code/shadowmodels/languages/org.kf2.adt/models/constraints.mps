@@ -68,9 +68,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -643,9 +640,6 @@
                   <node concept="35c_gC" id="7aipPVpF_O3" role="37wK5m">
                     <ref role="35c_gD" to="cnr6:5a_u3Ozm4Y3" resolve="GenericAlgebraicType" />
                   </node>
-                  <node concept="3clFbT" id="7aipPVpFA_2" role="37wK5m">
-                    <property role="3clFbU" value="false" />
-                  </node>
                 </node>
               </node>
               <node concept="2OqwBi" id="28$LOSAKMwZ" role="3uHU7w">
@@ -659,9 +653,6 @@
                   <ref role="37wK5l" to="pooj:5WNmJ7DokMG" resolve="expectType" />
                   <node concept="35c_gC" id="28$LOSAKMx4" role="37wK5m">
                     <ref role="35c_gD" to="cnr6:5a_u3OyMvaf" resolve="AlgebraicType" />
-                  </node>
-                  <node concept="3clFbT" id="28$LOSAKMx5" role="37wK5m">
-                    <property role="3clFbU" value="false" />
                   </node>
                 </node>
               </node>
@@ -677,9 +668,6 @@
                 <ref role="37wK5l" to="pooj:5WNmJ7DokMG" resolve="expectType" />
                 <node concept="35c_gC" id="28$LOSAPxby" role="37wK5m">
                   <ref role="35c_gD" to="cnr6:5a_u3OyM_sl" resolve="AlgebraicConstructorType" />
-                </node>
-                <node concept="3clFbT" id="28$LOSAPxbz" role="37wK5m">
-                  <property role="3clFbU" value="false" />
                 </node>
               </node>
             </node>

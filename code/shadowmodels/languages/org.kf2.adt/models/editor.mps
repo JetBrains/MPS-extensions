@@ -195,6 +195,7 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -266,6 +267,19 @@
         <node concept="2iRfu4" id="5a_u3OyMtwv" role="2iSdaV" />
         <node concept="3F0ifn" id="5a_u3OyMtwr" role="3EZMnx">
           <property role="3F0ifm" value="|" />
+          <node concept="pkWqt" id="2FZjDWBN6ic" role="pqm2j">
+            <node concept="3clFbS" id="2FZjDWBN6id" role="2VODD2">
+              <node concept="3clFbF" id="2FZjDWBN6py" role="3cqZAp">
+                <node concept="2OqwBi" id="2FZjDWBN8vH" role="3clFbG">
+                  <node concept="2OqwBi" id="2FZjDWBN6CD" role="2Oq$k0">
+                    <node concept="pncrf" id="2FZjDWBN6px" role="2Oq$k0" />
+                    <node concept="2TvwIu" id="2FZjDWBN74c" role="2OqNvi" />
+                  </node>
+                  <node concept="3GX2aA" id="2FZjDWBNbbl" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="1kHk_G" id="5a_u3OzNmH_" role="3EZMnx">
           <ref role="1NtTu8" to="cnr6:5a_u3OzNkkU" resolve="abstract" />
@@ -562,8 +576,8 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F0A7n" id="5a_u3OyQs_2" role="3EZMnx">
-          <ref role="1NtTu8" to="cnr6:5a_u3OyQ3QS" resolve="index" />
+        <node concept="3F1sOY" id="2FZjDWBGl0H" role="3EZMnx">
+          <ref role="1NtTu8" to="cnr6:2FZjDWBGkdc" resolve="index" />
         </node>
         <node concept="3F0ifn" id="54HsVvNUXf5" role="3EZMnx">
           <property role="3F0ifm" value="]" />

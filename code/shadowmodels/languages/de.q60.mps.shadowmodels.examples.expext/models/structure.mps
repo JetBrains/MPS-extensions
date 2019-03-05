@@ -216,5 +216,84 @@
     <property role="3GE5qa" value="cond" />
     <ref role="1TJDcQ" to="nup6:2frx7BFaCHD" resolve="Expr" />
   </node>
+  <node concept="1TIwiD" id="2FZjDWBy$pU">
+    <property role="EcuMT" value="3098281514124330618" />
+    <property role="TrG5h" value="RecordDecl" />
+    <property role="3GE5qa" value="record" />
+    <property role="34LRSv" value="record" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2FZjDWBy$pV" role="PzmwI">
+      <ref role="PrY4T" to="nup6:3JPN2vWhXe0" resolve="IDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="2FZjDWBy$q0" role="1TKVEi">
+      <property role="IQ2ns" value="3098281514124330624" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2FZjDWBy$pX" resolve="Member" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2FZjDWBy$pX">
+    <property role="EcuMT" value="3098281514124330621" />
+    <property role="3GE5qa" value="record" />
+    <property role="TrG5h" value="Member" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2FZjDWBy$pY" role="PzmwI">
+      <ref role="PrY4T" to="nup6:7iudlBAySbV" resolve="IIdentifier" />
+    </node>
+    <node concept="PrWs8" id="2FZjDWByR8q" role="PzmwI">
+      <ref role="PrY4T" to="nup6:7iudlBAOyot" resolve="IOptionallyTyped" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2FZjDWB_0Wa">
+    <property role="EcuMT" value="3098281514124971786" />
+    <property role="3GE5qa" value="record" />
+    <property role="TrG5h" value="RecordType" />
+    <ref role="1TJDcQ" to="nup6:3JPN2vWmI1B" resolve="Type" />
+    <node concept="1TJgyj" id="2FZjDWB_0Wb" role="1TKVEi">
+      <property role="IQ2ns" value="3098281514124971787" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="rec" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2FZjDWBy$pU" resolve="RecordDecl" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2FZjDWB_Gtq">
+    <property role="EcuMT" value="3098281514125150042" />
+    <property role="3GE5qa" value="record" />
+    <property role="TrG5h" value="MemberAccessOP" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2FZjDWB_Gtr" role="PzmwI">
+      <ref role="PrY4T" to="nup6:7iudlBAzgfU" resolve="IDotOp" />
+    </node>
+    <node concept="1TJgyj" id="2FZjDWB_Gtt" role="1TKVEi">
+      <property role="IQ2ns" value="3098281514125150045" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="member" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2FZjDWBy$pX" resolve="Member" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2FZjDWBKulJ">
+    <property role="EcuMT" value="3098281514127975791" />
+    <property role="3GE5qa" value="record" />
+    <property role="TrG5h" value="RecordInstance" />
+    <property role="34LRSv" value="#" />
+    <ref role="1TJDcQ" to="nup6:2frx7BFaCHD" resolve="Expr" />
+    <node concept="1TJgyj" id="2FZjDWBKulK" role="1TKVEi">
+      <property role="IQ2ns" value="3098281514127975792" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="record" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2FZjDWB_0Wa" resolve="RecordType" />
+    </node>
+    <node concept="1TJgyj" id="2FZjDWBKumR" role="1TKVEi">
+      <property role="IQ2ns" value="3098281514127975863" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="nup6:2frx7BFaCHD" resolve="Expr" />
+    </node>
+  </node>
 </model>
 

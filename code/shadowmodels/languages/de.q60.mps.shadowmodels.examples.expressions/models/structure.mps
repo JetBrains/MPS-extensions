@@ -673,5 +673,17 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2FZjDWBIhDU">
+    <property role="EcuMT" value="3098281514127399546" />
+    <property role="TrG5h" value="CastExpr" />
+    <ref role="1TJDcQ" node="7iudlBAxohL" resolve="UnaryExpr" />
+    <node concept="1TJgyj" id="2FZjDWBIhDV" role="1TKVEi">
+      <property role="IQ2ns" value="3098281514127399547" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3JPN2vWmI1B" resolve="Type" />
+    </node>
+  </node>
 </model>
 

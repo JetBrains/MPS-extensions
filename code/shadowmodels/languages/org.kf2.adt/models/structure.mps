@@ -177,10 +177,12 @@
     <property role="TrG5h" value="AlgebraicArgAccess" />
     <property role="34LRSv" value="[" />
     <ref role="1TJDcQ" to="nup6:7iudlBAxohL" resolve="UnaryExpr" />
-    <node concept="1TJgyi" id="5a_u3OyQ3QS" role="1TKVEl">
-      <property role="IQ2nx" value="5955298286240284088" />
-      <property role="TrG5h" value="index" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="1TJgyj" id="2FZjDWBGkdc" role="1TKVEi">
+      <property role="IQ2ns" value="3098281514126885708" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="index" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="nup6:2frx7BFaCHD" resolve="Expr" />
     </node>
   </node>
   <node concept="1TIwiD" id="5a_u3OySk7g">

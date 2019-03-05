@@ -89,6 +89,7 @@
       </concept>
       <concept id="1174658326157" name="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" flags="nn" index="1Z5TYs" />
       <concept id="1174660718586" name="jetbrains.mps.lang.typesystem.structure.AbstractEquationStatement" flags="nn" index="1Zf1VF">
+        <property id="1206359757216" name="checkOnly" index="3wDh2S" />
         <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
       </concept>
@@ -395,6 +396,7 @@
         </node>
         <node concept="3clFbS" id="1_cQhkfFZJk" role="2LFqv$">
           <node concept="1Z5TYs" id="1_cQhkfG8Zw" role="3cqZAp">
+            <property role="3wDh2S" value="true" />
             <node concept="mw_s8" id="1_cQhkfG904" role="1ZfhKB">
               <node concept="2pJPEk" id="1_cQhkfG900" role="mwGJk">
                 <node concept="2pJPED" id="1_cQhkfG90i" role="2pJPEn">

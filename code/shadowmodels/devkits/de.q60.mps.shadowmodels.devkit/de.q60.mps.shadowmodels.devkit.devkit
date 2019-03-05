@@ -7,6 +7,7 @@
   <exported-language name="94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)" />
   <exported-language name="96089812-effe-4a96-bb2e-75f8162046af(de.q60.mps.shadowmodels.gen.afterPF)" />
   <exported-language name="6f76dbc8-9615-4a2e-8034-c27700f8983b(de.q60.mps.shadowmodels.gen.desugar)" />
+  <exported-language name="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <exported-solutions>
     <exported-solution>f5997610-4d27-40a3-872c-d06cf404755b(de.q60.mps.shadowmodels.genplan)</exported-solution>
   </exported-solutions>

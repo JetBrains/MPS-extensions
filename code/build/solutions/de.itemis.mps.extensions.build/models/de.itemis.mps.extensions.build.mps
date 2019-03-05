@@ -6622,6 +6622,9 @@
         <node concept="3LEDTy" id="3fc1D1mGrb0" role="3LEDUa">
           <ref role="3LEDTV" node="2$QnGbtLXzL" resolve="de.q60.mps.shadowmodels.gen.desugar" />
         </node>
+        <node concept="3LEDTy" id="5zrTIjlonkS" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="BRK1N8p1kg" role="3989C9">
@@ -8854,10 +8857,10 @@
       <node concept="22LTRM" id="4JmkJs3Gsci" role="22LTRK">
         <ref role="22LTRN" node="4JmkJs3Gs4u" resolve="test.de.q60.mps.shadowmodels.examples" />
       </node>
+      <node concept="24cAiW" id="6hpM9fmFEj0" role="24cAkG" />
       <node concept="22LTRM" id="5QP6xyk3oDX" role="22LTRK">
         <ref role="22LTRN" node="5QP6xyk3oCB" resolve="test.de.q60.mps.shadowmodels.runtime" />
       </node>
-      <node concept="24cAiW" id="6hpM9fmFEj0" role="24cAkG" />
     </node>
   </node>
 </model>

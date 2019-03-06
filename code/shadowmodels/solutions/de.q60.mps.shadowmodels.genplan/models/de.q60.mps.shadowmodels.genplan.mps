@@ -62,6 +62,12 @@
         <property role="2V$B1Q" value="de.q60.mps.shadowmodel.gen.afterPF" />
       </node>
     </node>
+    <node concept="2VgMA2" id="1pTQQaTnSs4" role="2VgMA7">
+      <node concept="2V$Bhx" id="5zrTIjlon8y" role="1t_9vn">
+        <property role="2V$B1T" value="7a5dda62-9140-4668-ab76-d5ed1746f2b2" />
+        <property role="2V$B1Q" value="jetbrains.mps.lang.typesystem" />
+      </node>
+    </node>
     <node concept="2VgMA2" id="q2F95_I4Xr" role="2VgMA7">
       <node concept="2V$Bhx" id="q2F95_I4XG" role="1t_9vn">
         <property role="2V$B1T" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1" />
@@ -81,10 +87,6 @@
       </node>
     </node>
     <node concept="2VgMA2" id="7YhLqbpjabl" role="2VgMA7">
-      <node concept="2V$Bhx" id="5zrTIjlon8y" role="1t_9vn">
-        <property role="2V$B1T" value="7a5dda62-9140-4668-ab76-d5ed1746f2b2" />
-        <property role="2V$B1Q" value="jetbrains.mps.lang.typesystem" />
-      </node>
       <node concept="2V$Bhx" id="7YhLqbpjabo" role="1t_9vn">
         <property role="2V$B1T" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
         <property role="2V$B1Q" value="jetbrains.mps.baseLanguage" />

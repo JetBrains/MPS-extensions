@@ -44,6 +44,10 @@
         <property role="2V$B1T" value="94b64715-a263-4c36-a138-8da14705ffa7" />
         <property role="2V$B1Q" value="de.q60.mps.shadowmodel.transformation" />
       </node>
+      <node concept="2V$Bhx" id="1pTQQaTFOVI" role="1t_9vn">
+        <property role="2V$B1T" value="c6082896-edff-4380-997b-5b96de2fdc12" />
+        <property role="2V$B1Q" value="de.q60.mps.shadowmodels.gen.typesystem" />
+      </node>
     </node>
     <node concept="2VgMA1" id="1HyxlLhHrvr" role="2VgMA7">
       <node concept="3ps74r" id="1HyxlLhHrwc" role="3ps6aC">
@@ -60,12 +64,6 @@
       <node concept="2V$Bhx" id="2WBbN6NEgtB" role="1t_9vn">
         <property role="2V$B1T" value="96089812-effe-4a96-bb2e-75f8162046af" />
         <property role="2V$B1Q" value="de.q60.mps.shadowmodel.gen.afterPF" />
-      </node>
-    </node>
-    <node concept="2VgMA2" id="1pTQQaTnSs4" role="2VgMA7">
-      <node concept="2V$Bhx" id="5zrTIjlon8y" role="1t_9vn">
-        <property role="2V$B1T" value="7a5dda62-9140-4668-ab76-d5ed1746f2b2" />
-        <property role="2V$B1Q" value="jetbrains.mps.lang.typesystem" />
       </node>
     </node>
     <node concept="2VgMA2" id="q2F95_I4Xr" role="2VgMA7">

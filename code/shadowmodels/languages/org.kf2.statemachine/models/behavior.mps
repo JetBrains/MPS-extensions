@@ -7,6 +7,8 @@
   </languages>
   <imports>
     <import index="ocaj" ref="r:70a35c8f-df0a-4a8a-aaf2-0525bdcd591b(org.kf2.statemachine.structure)" />
+    <import index="pooj" ref="r:70e02a2e-ae8f-4ef2-bcd1-2d85e8689f6a(org.kf2.core.behavior)" />
+    <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(org.kf2.core.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -16,7 +18,9 @@
         <child id="1225194240801" name="constructor" index="13h7CW" />
       </concept>
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
-      <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz" />
+      <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
+        <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
+      </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -25,6 +29,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -91,6 +98,9 @@
       </concept>
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+      <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
+        <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -427,6 +437,31 @@
     </node>
     <node concept="13hLZK" id="4JbHIKAd3ID" role="13h7CW">
       <node concept="3clFbS" id="4JbHIKAd3IE" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5vAcs0XnWWL">
+    <ref role="13h7C2" to="ocaj:4JbHIKAbwtV" resolve="Transition" />
+    <node concept="13hLZK" id="5vAcs0XnWWM" role="13h7CW">
+      <node concept="3clFbS" id="5vAcs0XnWWN" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5vAcs0XnWWW" role="13h7CS">
+      <property role="TrG5h" value="describeEffect" />
+      <ref role="13i0hy" to="pooj:5vAcs0Xe9Qc" resolve="describeEffect" />
+      <node concept="3Tm1VV" id="5vAcs0XnWWX" role="1B3o_S" />
+      <node concept="3clFbS" id="5vAcs0XnWX0" role="3clF47">
+        <node concept="3clFbF" id="5vAcs0XnWXg" role="3cqZAp">
+          <node concept="2ShNRf" id="5vAcs0XnWXe" role="3clFbG">
+            <node concept="3zrR0B" id="5vAcs0XnX3p" role="2ShVmc">
+              <node concept="3Tqbb2" id="5vAcs0XnX3r" role="3zrR0E">
+                <ref role="ehGHo" to="nup6:5vAcs0XebHH" resolve="WriteEffect" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="5vAcs0XnWX1" role="3clF45">
+        <ref role="ehGHo" to="nup6:5vAcs0Xe9PA" resolve="EffectDescription" />
+      </node>
     </node>
   </node>
 </model>

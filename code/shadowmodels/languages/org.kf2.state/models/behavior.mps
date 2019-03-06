@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="pooj" ref="r:70e02a2e-ae8f-4ef2-bcd1-2d85e8689f6a(org.kf2.core.behavior)" />
+    <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(org.kf2.core.structure)" />
     <import index="mwg5" ref="r:d82f3afe-4f95-461e-93ae-4c8788affda2(org.kf2.state.structure)" implicit="true" />
   </imports>
   <registry>
@@ -26,6 +27,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -47,7 +51,12 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
+      <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
+        <child id="1180636770616" name="createdType" index="3zrR0E" />
+      </concept>
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
+        <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -95,6 +104,56 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="2FZjDWBVKsJ" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5vAcs0XeCGq">
+    <ref role="13h7C2" to="mwg5:2FZjDWBUC58" resolve="BoxRead" />
+    <node concept="13hLZK" id="5vAcs0XeCGr" role="13h7CW">
+      <node concept="3clFbS" id="5vAcs0XeCGs" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5vAcs0XeCG_" role="13h7CS">
+      <property role="TrG5h" value="describeEffect" />
+      <ref role="13i0hy" to="pooj:5vAcs0Xe9Qc" resolve="describeEffect" />
+      <node concept="3Tm1VV" id="5vAcs0XeCGA" role="1B3o_S" />
+      <node concept="3clFbS" id="5vAcs0XeCGD" role="3clF47">
+        <node concept="3clFbF" id="5vAcs0XeCGT" role="3cqZAp">
+          <node concept="2ShNRf" id="5vAcs0XeCGR" role="3clFbG">
+            <node concept="3zrR0B" id="5vAcs0XeCN2" role="2ShVmc">
+              <node concept="3Tqbb2" id="5vAcs0XeCN4" role="3zrR0E">
+                <ref role="ehGHo" to="nup6:5vAcs0XebHG" resolve="ReadEffect" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="5vAcs0XeCGE" role="3clF45">
+        <ref role="ehGHo" to="nup6:5vAcs0Xe9PA" resolve="EffectDescription" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="5vAcs0Xmeuv">
+    <ref role="13h7C2" to="mwg5:2FZjDWBUjhR" resolve="Updater" />
+    <node concept="13hLZK" id="5vAcs0Xmeuw" role="13h7CW">
+      <node concept="3clFbS" id="5vAcs0Xmeux" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5vAcs0XmeuE" role="13h7CS">
+      <property role="TrG5h" value="describeEffect" />
+      <ref role="13i0hy" to="pooj:5vAcs0Xe9Qc" resolve="describeEffect" />
+      <node concept="3Tm1VV" id="5vAcs0XmeuF" role="1B3o_S" />
+      <node concept="3clFbS" id="5vAcs0XmeuI" role="3clF47">
+        <node concept="3clFbF" id="5vAcs0XmeuY" role="3cqZAp">
+          <node concept="2ShNRf" id="5vAcs0XmeuW" role="3clFbG">
+            <node concept="3zrR0B" id="5vAcs0Xme_7" role="2ShVmc">
+              <node concept="3Tqbb2" id="5vAcs0Xme_9" role="3zrR0E">
+                <ref role="ehGHo" to="nup6:5vAcs0XebHH" resolve="WriteEffect" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="5vAcs0XmeuJ" role="3clF45">
+        <ref role="ehGHo" to="nup6:5vAcs0Xe9PA" resolve="EffectDescription" />
+      </node>
     </node>
   </node>
 </model>

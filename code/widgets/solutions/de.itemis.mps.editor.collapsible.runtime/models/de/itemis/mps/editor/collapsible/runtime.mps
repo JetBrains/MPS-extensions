@@ -505,10 +505,6 @@
       <node concept="3Tmbuc" id="HkLTsH$uXX" role="1B3o_S" />
       <node concept="1ajhzC" id="HkLTsH$rN7" role="1tU5fm">
         <node concept="10Oyi0" id="HkLTsH$rN8" role="1ajl9A" />
-        <node concept="3uibUv" id="HkLTsH$rN9" role="1ajw0F">
-          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-        </node>
-        <node concept="3Tqbb2" id="HkLTsH$rNa" role="1ajw0F" />
         <node concept="10Oyi0" id="HkLTsH$rNb" role="1ajw0F" />
       </node>
     </node>
@@ -547,16 +543,6 @@
                   <ref role="3cqZAo" node="HkLTsH$Ezc" resolve="height" />
                 </node>
               </node>
-            </node>
-            <node concept="37vLTG" id="HkLTsH$DR3" role="1bW2Oz">
-              <property role="TrG5h" value="c" />
-              <node concept="3uibUv" id="HkLTsH$DR2" role="1tU5fm">
-                <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-              </node>
-            </node>
-            <node concept="37vLTG" id="HkLTsH$Ejf" role="1bW2Oz">
-              <property role="TrG5h" value="n" />
-              <node concept="3Tqbb2" id="HkLTsH$Eqw" role="1tU5fm" />
             </node>
             <node concept="37vLTG" id="HkLTsH$Ezc" role="1bW2Oz">
               <property role="TrG5h" value="height" />
@@ -765,10 +751,6 @@
         <property role="TrG5h" value="glyphWidthFunction" />
         <node concept="1ajhzC" id="HkLTsH$o8Q" role="1tU5fm">
           <node concept="10Oyi0" id="HkLTsH$o8R" role="1ajl9A" />
-          <node concept="3uibUv" id="HkLTsH$o8S" role="1ajw0F">
-            <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-          </node>
-          <node concept="3Tqbb2" id="HkLTsH$o8T" role="1ajw0F" />
           <node concept="10Oyi0" id="HkLTsH$o8U" role="1ajw0F" />
         </node>
       </node>
@@ -1938,17 +1920,6 @@
               <ref role="3cqZAo" node="HkLTsH$rN4" resolve="myGlyphWidthFunction" />
             </node>
             <node concept="1Bd96e" id="HkLTsHOzN3" role="2OqNvi">
-              <node concept="2OqwBi" id="HkLTsI7Dlr" role="1BdPVh">
-                <node concept="1rXfSq" id="HkLTsI7COX" role="2Oq$k0">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
-                </node>
-                <node concept="liA8E" id="HkLTsI7Ejm" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getEditorContext" />
-                </node>
-              </node>
-              <node concept="1rXfSq" id="HkLTsI7BBl" role="1BdPVh">
-                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
-              </node>
               <node concept="37vLTw" id="HkLTsHO$rG" role="1BdPVh">
                 <ref role="3cqZAo" node="HkLTsHOuYp" resolve="heigth" />
               </node>
@@ -3223,10 +3194,6 @@
         <property role="TrG5h" value="glyphWidthFunction" />
         <node concept="1ajhzC" id="1$t5g3Q_fmK" role="1tU5fm">
           <node concept="10Oyi0" id="1$t5g3Q_fUA" role="1ajl9A" />
-          <node concept="3uibUv" id="1$t5g3Q_fXM" role="1ajw0F">
-            <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-          </node>
-          <node concept="3Tqbb2" id="1$t5g3Q_fZ5" role="1ajw0F" />
           <node concept="10Oyi0" id="1$t5g3Q_g0m" role="1ajw0F" />
         </node>
       </node>
@@ -3370,10 +3337,6 @@
         <property role="TrG5h" value="glyphWidthFunction" />
         <node concept="1ajhzC" id="HkLTsH$2Mi" role="1tU5fm">
           <node concept="10Oyi0" id="HkLTsH$2Mj" role="1ajl9A" />
-          <node concept="3uibUv" id="HkLTsH$2Mk" role="1ajw0F">
-            <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-          </node>
-          <node concept="3Tqbb2" id="HkLTsH$2Ml" role="1ajw0F" />
           <node concept="10Oyi0" id="HkLTsH$2Mm" role="1ajw0F" />
         </node>
       </node>

@@ -331,10 +331,6 @@
               <property role="TrG5h" value="glyphWidthFunction" />
               <node concept="1ajhzC" id="1$t5g3Q_fmK" role="1tU5fm">
                 <node concept="10Oyi0" id="1$t5g3Q_fUA" role="1ajl9A" />
-                <node concept="3uibUv" id="1$t5g3Q_fXM" role="1ajw0F">
-                  <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-                </node>
-                <node concept="3Tqbb2" id="1$t5g3Q_fZ5" role="1ajw0F" />
                 <node concept="10Oyi0" id="1$t5g3Q_g0m" role="1ajw0F" />
               </node>
               <node concept="1bVj0M" id="1$t5g3Q_g2a" role="33vP2m">
@@ -389,16 +385,6 @@
                       </node>
                     </node>
                   </node>
-                </node>
-                <node concept="37vLTG" id="1$t5g3Q_hsY" role="1bW2Oz">
-                  <property role="TrG5h" value="c" />
-                  <node concept="3uibUv" id="1$t5g3Q_hsX" role="1tU5fm">
-                    <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
-                  </node>
-                </node>
-                <node concept="37vLTG" id="1$t5g3Q_hv2" role="1bW2Oz">
-                  <property role="TrG5h" value="n" />
-                  <node concept="3Tqbb2" id="1$t5g3Q_hyS" role="1tU5fm" />
                 </node>
                 <node concept="37vLTG" id="1$t5g3Q_hA_" role="1bW2Oz">
                   <property role="TrG5h" value="height" />

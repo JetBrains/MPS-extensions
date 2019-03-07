@@ -5957,6 +5957,50 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="7c10t$7lQIA" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.q60.mps.shadowmodels.gen.typesystem" />
+        <property role="3LESm3" value="c6082896-edff-4380-997b-5b96de2fdc12" />
+        <node concept="398BVA" id="7c10t$7lQIB" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="7c10t$7lQIC" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="7c10t$7lQID" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="7c10t$7lQIE" role="2Ry0An">
+                <property role="2Ry0Am" value="de.q60.mps.shadowmodels.gen.typesystem" />
+                <node concept="2Ry0Ak" id="7c10t$7lR0Q" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.q60.mps.shadowmodels.gen.typesystem.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="7c10t$7lQIG" role="1TViLv">
+          <property role="TrG5h" value="de.q60.mps.shadowmodels.gen.typesystem#01" />
+          <property role="3LESm3" value="c73f63ab-b6de-4f05-9a97-5020302f092a" />
+          <node concept="1SiIV0" id="7c10t$7lQIH" role="3bR37C">
+            <node concept="3bR9La" id="7c10t$7lQII" role="1SiIV1">
+              <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7c10t$7lQIJ" role="3bR37C">
+            <node concept="3bR9La" id="7c10t$7lQIK" role="1SiIV1">
+              <ref role="3bR37D" node="4iIKqJTZ5HO" resolve="de.q60.mps.shadowmodels.transformation" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7c10t$7lRdL" role="3bR37C">
+            <node concept="3bR9La" id="7c10t$7lRdM" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7c10t$7lRdN" role="3bR37C">
+            <node concept="3bR9La" id="7c10t$7lRdO" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtD" id="2$QnGbtLXzL" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.shadowmodels.gen.desugar" />
@@ -6192,6 +6236,21 @@
         <node concept="1SiIV0" id="5wnrAmUmBXJ" role="3bR37C">
           <node concept="3bR9La" id="5wnrAmUmBXK" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="21SKqk9XKfm" role="3bR37C">
+          <node concept="3bR9La" id="21SKqk9XKfn" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5H4" resolve="de.q60.mps.polymorphicfunctions.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="21SKqk9XKfo" role="3bR37C">
+          <node concept="3bR9La" id="21SKqk9XKfp" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hs" resolve="de.q60.mps.polymorphicfunctions" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="21SKqk9XKfq" role="3bR37C">
+          <node concept="3bR9La" id="21SKqk9XKfr" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
           </node>
         </node>
       </node>
@@ -6616,14 +6675,14 @@
         <node concept="3LEDTy" id="46Sq7W2pmIP" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
         </node>
-        <node concept="3LEDTy" id="3fc1D1mGraZ" role="3LEDUa">
-          <ref role="3LEDTV" node="4iIKqJTZ5Hg" resolve="de.q60.mps.shadowmodels.gen.afterPF" />
-        </node>
         <node concept="3LEDTy" id="3fc1D1mGrb0" role="3LEDUa">
           <ref role="3LEDTV" node="2$QnGbtLXzL" resolve="de.q60.mps.shadowmodels.gen.desugar" />
         </node>
         <node concept="3LEDTy" id="5zrTIjlonkS" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+        </node>
+        <node concept="3LEDTy" id="7c10t$7lRsi" role="3LEDUa">
+          <ref role="3LEDTV" node="4iIKqJTZ5Hg" resolve="de.q60.mps.shadowmodels.gen.afterPF" />
         </node>
       </node>
     </node>
@@ -6754,7 +6813,7 @@
       </node>
       <node concept="1E1JtD" id="BRK1N8p1rh" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.kf2.core" />
+        <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expressions" />
         <property role="3LESm3" value="1ab7bfac-29d6-4772-a483-50110408ac43" />
         <node concept="398BVA" id="1RCZH7X6xai" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
@@ -6763,7 +6822,7 @@
             <node concept="2Ry0Ak" id="BRK1N8p1rM" role="2Ry0An">
               <property role="2Ry0Am" value="languages" />
               <node concept="2Ry0Ak" id="BRK1N8p1rN" role="2Ry0An">
-                <property role="2Ry0Am" value="org.kf2.core" />
+                <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions" />
                 <node concept="2Ry0Ak" id="4JbHIKA7mTq" role="2Ry0An">
                   <property role="2Ry0Am" value="org.kf2.core.mpl" />
                 </node>
@@ -6772,7 +6831,7 @@
           </node>
         </node>
         <node concept="1yeLz9" id="BRK1N8p1rV" role="1TViLv">
-          <property role="TrG5h" value="org.kf2.core#01" />
+          <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expressions#01" />
           <property role="3LESm3" value="566097a6-68e9-42f5-b4c6-f11ea34090bf" />
         </node>
         <node concept="3rtmxn" id="5bDu5aAC0nu" role="3bR31x">
@@ -6831,9 +6890,9 @@
         </node>
       </node>
       <node concept="1E1JtD" id="27vxCXgy$2z" role="2G$12L">
-        <property role="TrG5h" value="org.kf2.sugar" />
-        <property role="3LESm3" value="4441485a-f7fc-4cfb-8044-d8997096c5d6" />
         <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expext" />
+        <property role="3LESm3" value="4441485a-f7fc-4cfb-8044-d8997096c5d6" />
         <node concept="398BVA" id="27vxCXgy$2$" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="27vxCXgy$2_" role="iGT6I">
@@ -6841,7 +6900,7 @@
             <node concept="2Ry0Ak" id="27vxCXgy$2A" role="2Ry0An">
               <property role="2Ry0Am" value="languages" />
               <node concept="2Ry0Ak" id="27vxCXgy$2B" role="2Ry0An">
-                <property role="2Ry0Am" value="org.kf2.sugar" />
+                <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expext" />
                 <node concept="2Ry0Ak" id="4JbHIKA7nks" role="2Ry0An">
                   <property role="2Ry0Am" value="org.kf2.sugar.mpl" />
                 </node>
@@ -6850,7 +6909,7 @@
           </node>
         </node>
         <node concept="1yeLz9" id="27vxCXgy$2D" role="1TViLv">
-          <property role="TrG5h" value="org.kf2.sugar#01" />
+          <property role="TrG5h" value="de.q60.mps.shadowmodels.examples.expext#01" />
           <property role="3LESm3" value="8e63eb8c-e662-412c-b5fc-65805fe6d198" />
         </node>
         <node concept="3rtmxn" id="27vxCXgy$2E" role="3bR31x">

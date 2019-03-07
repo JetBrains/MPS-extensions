@@ -15,7 +15,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
+      </concept>
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
@@ -839,6 +841,9 @@
     <property role="R4oN_" value="no write action" />
     <property role="EcuMT" value="4911414230406655008" />
     <ref role="1TJDcQ" to="qff7:7Mb2akafE8c" resolve="BaseExecuteCommandStatementSync" />
+    <node concept="asaX9" id="4xXBKS7JdWb" role="lGtFl">
+      <property role="YLQ7P" value="Dangerous approach; of no use as it throws exception now" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2MkQqmZm$oR">
     <property role="3GE5qa" value="conceptswitch" />

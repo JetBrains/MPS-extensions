@@ -91,6 +91,13 @@
       <concept id="1667935720930234148" name="org.kf2.core.structure.PlusExpr" flags="ng" index="1H7JQn" />
     </language>
     <language id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="org.kf2.sugar">
+      <concept id="3098281514132050133" name="org.kf2.sugar.structure.WithArg" flags="ng" index="2ZPTa">
+        <reference id="3098281514132198334" name="member" index="2ZhOx" />
+        <child id="3098281514132198336" name="value" index="2ZhPv" />
+      </concept>
+      <concept id="3098281514132050130" name="org.kf2.sugar.structure.WithOp" flags="ng" index="2ZPTd">
+        <child id="3098281514132050134" name="args" index="2ZPT9" />
+      </concept>
       <concept id="3098281514130733661" name="org.kf2.sugar.structure.EnumType" flags="ng" index="d5bj2">
         <reference id="3098281514130733662" name="enum" index="d5bj1" />
       </concept>
@@ -633,25 +640,25 @@
                 </node>
               </node>
             </node>
-            <node concept="dfEJK" id="2FZjDWC2rSc" role="38Xu9j">
-              <node concept="dqO6l" id="2FZjDWC2rSd" role="dfEJJ">
-                <ref role="dqO6k" node="2FZjDWBUZzN" resolve="TLState" />
+            <node concept="2i4NqJ" id="4mp3zYk6EdD" role="38Xu9j">
+              <node concept="2ZPTd" id="4mp3zYk6E_y" role="2i4Nqy">
+                <node concept="2ZPTa" id="4mp3zYk6EGt" role="2ZPT9">
+                  <ref role="2ZhOx" node="2FZjDWBUZA2" resolve="light" />
+                  <node concept="mXTwN" id="4mp3zYk6EOK" role="2ZhPv">
+                    <ref role="mXTwM" node="2FZjDWBTRD6" resolve="green" />
+                  </node>
+                </node>
               </node>
-              <node concept="1H2aUO" id="2FZjDWC2rSe" role="dfEGC" />
-              <node concept="mXTwN" id="2FZjDWC2s1k" role="dfEGC">
-                <ref role="mXTwM" node="2FZjDWBTRD6" resolve="green" />
+              <node concept="d5sZn" id="4mp3zYk6Edb" role="2i6V0R">
+                <ref role="d5sZm" node="2FZjDWBTRC1" resolve="state" />
               </node>
             </node>
           </node>
           <node concept="38Xu9M" id="2FZjDWBUUWs" role="38X86o">
             <node concept="2NSjky" id="2FZjDWBUUXV" role="38Xu9u" />
-            <node concept="dfEJK" id="2FZjDWBVL$X" role="38Xu9j">
-              <node concept="dqO6l" id="2FZjDWBVLBf" role="dfEJJ">
+            <node concept="dfEJK" id="4mp3zYk7dNA" role="38Xu9j">
+              <node concept="dqO6l" id="4mp3zYk7dWt" role="dfEJJ">
                 <ref role="dqO6k" node="2FZjDWBUZzN" resolve="TLState" />
-              </node>
-              <node concept="1H2aUO" id="2FZjDWBWQa$" role="dfEGC" />
-              <node concept="mXTwN" id="2FZjDWBVLDw" role="dfEGC">
-                <ref role="mXTwM" node="2FZjDWBTRCM" resolve="red" />
               </node>
             </node>
           </node>

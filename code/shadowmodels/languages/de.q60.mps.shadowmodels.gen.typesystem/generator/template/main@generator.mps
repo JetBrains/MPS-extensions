@@ -10,7 +10,6 @@
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <import index="oyp0" ref="r:ff4bc8f2-4e53-41b7-a27c-792a5dcc86cb(de.q60.mps.shadowmodels.transformation.structure)" />
     <import index="cspb" ref="r:d2d007b0-88a6-449c-9140-0f6d538e580e(de.q60.mps.shadowmodels.runtime.typesystem)" />
-    <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="ee18" ref="r:ae5491dd-13f2-4540-8a18-9d4eafbb865f(de.q60.mps.shadowmodels.runtime.incremental)" />
     <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
@@ -261,8 +260,8 @@
                     </node>
                     <node concept="3cpWs6" id="1pTQQaTNmcO" role="3cqZAp">
                       <node concept="2YIFZM" id="1pTQQaTO1i$" role="3cqZAk">
-                        <ref role="37wK5l" to="cspb:1pTQQaTNZz5" resolve="getTypeWithoutMaterialization" />
-                        <ref role="1Pybhc" to="cspb:1pTQQaTBb9G" resolve="ShadowTypesystem" />
+                        <ref role="37wK5l" to="cspb:1pTQQaTNZz5" resolve="getType" />
+                        <ref role="1Pybhc" to="cspb:1pTQQaTBb9G" resolve="ShadowTypesystemUtil" />
                         <node concept="37vLTw" id="1pTQQaTO1wp" role="37wK5m">
                           <ref role="3cqZAo" node="1pTQQaTFtMa" resolve="expr" />
                         </node>

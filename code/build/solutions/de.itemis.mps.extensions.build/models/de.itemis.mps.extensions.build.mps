@@ -5957,6 +5957,50 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="7c10t$7lQIA" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.q60.mps.shadowmodels.gen.typesystem" />
+        <property role="3LESm3" value="c6082896-edff-4380-997b-5b96de2fdc12" />
+        <node concept="398BVA" id="7c10t$7lQIB" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="7c10t$7lQIC" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="7c10t$7lQID" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="7c10t$7lQIE" role="2Ry0An">
+                <property role="2Ry0Am" value="de.q60.mps.shadowmodels.gen.typesystem" />
+                <node concept="2Ry0Ak" id="7c10t$7lR0Q" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.q60.mps.shadowmodels.gen.typesystem.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="7c10t$7lQIG" role="1TViLv">
+          <property role="TrG5h" value="de.q60.mps.shadowmodels.gen.typesystem#01" />
+          <property role="3LESm3" value="c73f63ab-b6de-4f05-9a97-5020302f092a" />
+          <node concept="1SiIV0" id="7c10t$7lQIH" role="3bR37C">
+            <node concept="3bR9La" id="7c10t$7lQII" role="1SiIV1">
+              <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7c10t$7lQIJ" role="3bR37C">
+            <node concept="3bR9La" id="7c10t$7lQIK" role="1SiIV1">
+              <ref role="3bR37D" node="4iIKqJTZ5HO" resolve="de.q60.mps.shadowmodels.transformation" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7c10t$7lRdL" role="3bR37C">
+            <node concept="3bR9La" id="7c10t$7lRdM" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7c10t$7lRdN" role="3bR37C">
+            <node concept="3bR9La" id="7c10t$7lRdO" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtD" id="2$QnGbtLXzL" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.shadowmodels.gen.desugar" />
@@ -6631,14 +6675,14 @@
         <node concept="3LEDTy" id="46Sq7W2pmIP" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
         </node>
-        <node concept="3LEDTy" id="3fc1D1mGraZ" role="3LEDUa">
-          <ref role="3LEDTV" node="4iIKqJTZ5Hg" resolve="de.q60.mps.shadowmodels.gen.afterPF" />
-        </node>
         <node concept="3LEDTy" id="3fc1D1mGrb0" role="3LEDUa">
           <ref role="3LEDTV" node="2$QnGbtLXzL" resolve="de.q60.mps.shadowmodels.gen.desugar" />
         </node>
         <node concept="3LEDTy" id="5zrTIjlonkS" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+        </node>
+        <node concept="3LEDTy" id="7c10t$7lRsi" role="3LEDUa">
+          <ref role="3LEDTV" node="4iIKqJTZ5Hg" resolve="de.q60.mps.shadowmodels.gen.afterPF" />
         </node>
       </node>
     </node>

@@ -12,6 +12,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c0m2" ref="r:bcf0dfc2-938e-4dc5-bbbf-30b9f619eba4(org.kf2.adt.behavior)" implicit="true" />
     <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(org.kf2.core.structure)" implicit="true" />
+    <import index="pooj" ref="r:70e02a2e-ae8f-4ef2-bcd1-2d85e8689f6a(org.kf2.core.behavior)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -455,6 +456,28 @@
       </node>
       <node concept="PMmxH" id="1po0Tws2FrI" role="3EZMnx">
         <ref role="PMmxG" to="68hx:7iudlBALbkZ" resolve="typeArgs" />
+        <node concept="pkWqt" id="4mp3zYjXqjo" role="pqm2j">
+          <node concept="3clFbS" id="4mp3zYjXqjp" role="2VODD2">
+            <node concept="3clFbF" id="4mp3zYjXqqK" role="3cqZAp">
+              <node concept="2OqwBi" id="4mp3zYjXvih" role="3clFbG">
+                <node concept="2OqwBi" id="4mp3zYjXs3t" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4mp3zYjXqDR" role="2Oq$k0">
+                    <node concept="pncrf" id="4mp3zYjXqqJ" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="4mp3zYjXrnY" role="2OqNvi">
+                      <ref role="3Tt5mk" to="cnr6:5a_u3OyM_ss" resolve="constructor" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="4mp3zYjXuZZ" role="2OqNvi">
+                    <ref role="37wK5l" to="c0m2:5a_u3OyMB2Y" resolve="decl" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="4mp3zYjXvW3" role="2OqNvi">
+                  <ref role="37wK5l" to="pooj:Ura7potubx" resolve="isGeneric" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

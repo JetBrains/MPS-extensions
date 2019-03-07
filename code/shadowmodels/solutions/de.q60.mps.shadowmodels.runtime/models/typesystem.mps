@@ -4,6 +4,7 @@
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -112,6 +113,19 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
+    <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
+      <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
+      <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
+        <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
+      </concept>
+      <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
+    </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
+        <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
         <property id="2034914114981261751" name="severity" index="RRSoG" />
@@ -135,6 +149,19 @@
       <node concept="3clFbS" id="1pTQQaTNIfE" role="3clF47">
         <node concept="3clFbJ" id="7c10t$781lo" role="3cqZAp">
           <node concept="3clFbS" id="7c10t$781lq" role="3clFbx">
+            <node concept="3clFbF" id="6DdMXMencF7" role="3cqZAp">
+              <node concept="2YIFZM" id="6DdMXMend4u" role="3clFbG">
+                <ref role="37wK5l" to="nv3w:3RcjyAuQv9G" resolve="checkHasTracking" />
+                <ref role="1Pybhc" to="nv3w:5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+                <node concept="2YIFZM" id="6DdMXMeni07" role="37wK5m">
+                  <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                  <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
+                  <node concept="37vLTw" id="6DdMXMeni4Q" role="37wK5m">
+                    <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="1pTQQaTNaEp" role="3cqZAp">
               <node concept="2OqwBi" id="1pTQQaTNb_t" role="3clFbG">
                 <node concept="1eOMI4" id="1pTQQaTNaEn" role="2Oq$k0">
@@ -183,34 +210,44 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1pTQQaTOEAO" role="3cqZAp">
-          <node concept="37vLTI" id="1pTQQaTOEAQ" role="3clFbG">
-            <node concept="37vLTw" id="1pTQQaTOEAU" role="37vLTJ">
-              <ref role="3cqZAo" node="1pTQQaTNUgE" resolve="type" />
-            </node>
-            <node concept="2OqwBi" id="7c10t$7ejOz" role="37vLTx">
-              <node concept="2ShNRf" id="7c10t$7ejO$" role="2Oq$k0">
-                <node concept="1pGfFk" id="7c10t$7ejO_" role="2ShVmc">
-                  <ref role="37wK5l" to="evo:~TargetTypecheckingContext.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,jetbrains.mps.typesystem.inference.TypeChecker)" resolve="TargetTypecheckingContext" />
-                  <node concept="37vLTw" id="7c10t$7ejOA" role="37wK5m">
-                    <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
+        <node concept="1QHqEK" id="6DdMXMen0je" role="3cqZAp">
+          <node concept="1QHqEC" id="6DdMXMen0jg" role="1QHqEI">
+            <node concept="3clFbS" id="6DdMXMen0ji" role="1bW5cS">
+              <node concept="3clFbF" id="1pTQQaTOEAO" role="3cqZAp">
+                <node concept="37vLTI" id="1pTQQaTOEAQ" role="3clFbG">
+                  <node concept="37vLTw" id="1pTQQaTOEAU" role="37vLTJ">
+                    <ref role="3cqZAo" node="1pTQQaTNUgE" resolve="type" />
                   </node>
-                  <node concept="37vLTw" id="7c10t$7ejOB" role="37wK5m">
-                    <ref role="3cqZAo" node="7c10t$7eiwJ" resolve="typeChecker" />
+                  <node concept="2OqwBi" id="7c10t$7ejOz" role="37vLTx">
+                    <node concept="2ShNRf" id="7c10t$7ejO$" role="2Oq$k0">
+                      <node concept="1pGfFk" id="7c10t$7ejO_" role="2ShVmc">
+                        <ref role="37wK5l" to="evo:~TargetTypecheckingContext.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,jetbrains.mps.typesystem.inference.TypeChecker)" resolve="TargetTypecheckingContext" />
+                        <node concept="37vLTw" id="7c10t$7ejOA" role="37wK5m">
+                          <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
+                        </node>
+                        <node concept="37vLTw" id="7c10t$7ejOB" role="37wK5m">
+                          <ref role="3cqZAo" node="7c10t$7eiwJ" resolve="typeChecker" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="7c10t$7ejOC" role="2OqNvi">
+                      <ref role="37wK5l" to="evo:~SimpleTypecheckingContext.getTypeOf_generationMode(org.jetbrains.mps.openapi.model.SNode):org.jetbrains.mps.openapi.model.SNode" resolve="getTypeOf_generationMode" />
+                      <node concept="2YIFZM" id="6DdMXMem_wQ" role="37wK5m">
+                        <ref role="37wK5l" to="l6bp:75046mlPk8L" resolve="wrap" />
+                        <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
+                        <node concept="37vLTw" id="6DdMXMem_KN" role="37wK5m">
+                          <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
-              <node concept="liA8E" id="7c10t$7ejOC" role="2OqNvi">
-                <ref role="37wK5l" to="evo:~SimpleTypecheckingContext.getTypeOf_generationMode(org.jetbrains.mps.openapi.model.SNode):org.jetbrains.mps.openapi.model.SNode" resolve="getTypeOf_generationMode" />
-                <node concept="2YIFZM" id="6DdMXMem_wQ" role="37wK5m">
-                  <ref role="37wK5l" to="l6bp:75046mlPk8L" resolve="wrap" />
-                  <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
-                  <node concept="37vLTw" id="6DdMXMem_KN" role="37wK5m">
-                    <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
-                  </node>
-                </node>
-              </node>
             </node>
+          </node>
+          <node concept="2YIFZM" id="6DdMXMen0SJ" role="ukAjM">
+            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+            <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
           </node>
         </node>
         <node concept="3clFbJ" id="7c10t$79rtp" role="3cqZAp">

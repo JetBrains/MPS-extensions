@@ -98,6 +98,10 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="1153952380246" name="jetbrains.mps.baseLanguage.structure.TryStatement" flags="nn" index="2GUZhq">
+        <child id="1153952416686" name="body" index="2GV8ay" />
+        <child id="1153952429843" name="finallyBody" index="2GVbov" />
+      </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
@@ -8900,7 +8904,7 @@
             </node>
             <node concept="3cpWs3" id="2deitUvWtTj" role="3uHU7B">
               <node concept="Xl_RD" id="2deitUvWtAV" role="3uHU7B">
-                <property role="Xl_RC" value="NodeToSNodeAdapter[" />
+                <property role="Xl_RC" value=":NodeToSNodeAdapter[" />
               </node>
               <node concept="2OqwBi" id="2deitUvWuFy" role="3uHU7w">
                 <node concept="Xjq3P" id="2deitUvWuak" role="2Oq$k0" />
@@ -23719,127 +23723,139 @@
           <ref role="37wK5l" to="wyt6:~Thread.&lt;init&gt;(java.lang.Runnable,java.lang.String)" resolve="Thread" />
           <node concept="1bVj0M" id="QurUgjajb9" role="37wK5m">
             <node concept="3clFbS" id="QurUgjajba" role="1bW5cS">
-              <node concept="2$JKZl" id="QurUgjaptm" role="3cqZAp">
-                <node concept="3clFbS" id="QurUgjapto" role="2LFqv$">
-                  <node concept="SfApY" id="QurUgjajju" role="3cqZAp">
-                    <node concept="3clFbS" id="QurUgjajjv" role="SfCbr">
-                      <node concept="3clFbJ" id="QurUgja_h0" role="3cqZAp">
-                        <node concept="3clFbS" id="QurUgja_h2" role="3clFbx">
-                          <node concept="3cpWs6" id="QurUgjaBc$" role="3cqZAp" />
-                        </node>
-                        <node concept="37vLTw" id="QurUgjaA1t" role="3clFbw">
-                          <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="QurUgjanm$" role="3cqZAp">
-                        <node concept="2YIFZM" id="QurUgjanR4" role="3clFbG">
-                          <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
-                          <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                          <node concept="37vLTw" id="QurUgjaHo0" role="37wK5m">
-                            <ref role="3cqZAo" node="QurUgjaEwZ" resolve="syncDelay" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbJ" id="5G4qAEnevDL" role="3cqZAp">
-                        <node concept="3clFbS" id="5G4qAEnevDM" role="3clFbx">
-                          <node concept="3cpWs6" id="5G4qAEnevDN" role="3cqZAp" />
-                        </node>
-                        <node concept="37vLTw" id="5G4qAEnevDO" role="3clFbw">
-                          <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
-                        </node>
-                      </node>
-                      <node concept="3clFbJ" id="2atEpSpMpVA" role="3cqZAp">
-                        <node concept="3clFbS" id="2atEpSpMpVC" role="3clFbx">
-                          <node concept="RRSsy" id="2atEpSpMxsx" role="3cqZAp">
-                            <property role="RRSoG" value="error" />
-                            <node concept="Xl_RD" id="2atEpSpMxsz" role="RRSoy">
-                              <property role="Xl_RC" value="Class loader is disposed, but this thread is still running" />
+              <node concept="2GUZhq" id="21SKqk9FLjq" role="3cqZAp">
+                <node concept="3clFbS" id="21SKqk9FLjs" role="2GV8ay">
+                  <node concept="2$JKZl" id="QurUgjaptm" role="3cqZAp">
+                    <node concept="3clFbS" id="QurUgjapto" role="2LFqv$">
+                      <node concept="SfApY" id="QurUgjajju" role="3cqZAp">
+                        <node concept="3clFbS" id="QurUgjajjv" role="SfCbr">
+                          <node concept="3clFbJ" id="QurUgja_h0" role="3cqZAp">
+                            <node concept="3clFbS" id="QurUgja_h2" role="3clFbx">
+                              <node concept="3cpWs6" id="QurUgjaBc$" role="3cqZAp" />
+                            </node>
+                            <node concept="37vLTw" id="QurUgjaA1t" role="3clFbw">
+                              <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
                             </node>
                           </node>
-                          <node concept="3cpWs6" id="2atEpSpMqZ4" role="3cqZAp" />
-                        </node>
-                        <node concept="1rXfSq" id="2atEpSpMqy6" role="3clFbw">
-                          <ref role="37wK5l" node="2atEpSpM5zv" resolve="isClassLoaderDisposed" />
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="QurUgjajjw" role="3cqZAp">
-                        <node concept="1rXfSq" id="QurUgjajjx" role="3clFbG">
-                          <ref role="37wK5l" node="4VxHqcqZoV$" resolve="synchronize" />
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="QurUgjaISp" role="3cqZAp">
-                        <node concept="37vLTI" id="QurUgjaKaF" role="3clFbG">
-                          <node concept="3cmrfG" id="QurUgjaKsN" role="37vLTx">
-                            <property role="3cmrfH" value="100" />
-                          </node>
-                          <node concept="37vLTw" id="QurUgjaISn" role="37vLTJ">
-                            <ref role="3cqZAo" node="QurUgjaEwZ" resolve="syncDelay" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="TDmWw" id="QurUgjakFx" role="TEbGg">
-                      <node concept="3cpWsn" id="QurUgjakFy" role="TDEfY">
-                        <property role="TrG5h" value="ex" />
-                        <node concept="3uibUv" id="QurUgjaldU" role="1tU5fm">
-                          <ref role="3uigEE" to="wyt6:~InterruptedException" resolve="InterruptedException" />
-                        </node>
-                      </node>
-                      <node concept="3clFbS" id="QurUgjakF$" role="TDEfX">
-                        <node concept="3cpWs6" id="QurUgjaqf1" role="3cqZAp" />
-                      </node>
-                    </node>
-                    <node concept="TDmWw" id="QurUgjajjB" role="TEbGg">
-                      <node concept="3cpWsn" id="QurUgjajjC" role="TDEfY">
-                        <property role="TrG5h" value="ex" />
-                        <node concept="3uibUv" id="QurUgjajjD" role="1tU5fm">
-                          <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-                        </node>
-                      </node>
-                      <node concept="3clFbS" id="QurUgjajjE" role="TDEfX">
-                        <node concept="3clFbJ" id="5G4qAEnewSV" role="3cqZAp">
-                          <node concept="3clFbS" id="5G4qAEnewSW" role="3clFbx">
-                            <node concept="3cpWs6" id="5G4qAEnewSX" role="3cqZAp" />
-                          </node>
-                          <node concept="37vLTw" id="5G4qAEnewSY" role="3clFbw">
-                            <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
-                          </node>
-                        </node>
-                        <node concept="RRSsy" id="QurUgjajjF" role="3cqZAp">
-                          <property role="RRSoG" value="error" />
-                          <node concept="Xl_RD" id="QurUgjajjG" role="RRSoy" />
-                          <node concept="37vLTw" id="QurUgjajjH" role="RRSow">
-                            <ref role="3cqZAo" node="QurUgjajjC" resolve="ex" />
-                          </node>
-                        </node>
-                        <node concept="3clFbF" id="QurUgjaM$W" role="3cqZAp">
-                          <node concept="37vLTI" id="QurUgjaNJt" role="3clFbG">
-                            <node concept="37vLTw" id="QurUgjaM$U" role="37vLTJ">
-                              <ref role="3cqZAo" node="QurUgjaEwZ" resolve="syncDelay" />
-                            </node>
-                            <node concept="2YIFZM" id="QurUgjaO1z" role="37vLTx">
-                              <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                              <ref role="37wK5l" to="wyt6:~Math.min(long,long):long" resolve="min" />
-                              <node concept="3cmrfG" id="QurUgjaO1$" role="37wK5m">
-                                <property role="3cmrfH" value="10000" />
+                          <node concept="3clFbF" id="QurUgjanm$" role="3cqZAp">
+                            <node concept="2YIFZM" id="QurUgjanR4" role="3clFbG">
+                              <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
+                              <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                              <node concept="37vLTw" id="QurUgjaHo0" role="37wK5m">
+                                <ref role="3cqZAo" node="QurUgjaEwZ" resolve="syncDelay" />
                               </node>
-                              <node concept="17qRlL" id="QurUgjaO1_" role="37wK5m">
-                                <node concept="3cmrfG" id="QurUgjaO1A" role="3uHU7w">
-                                  <property role="3cmrfH" value="2" />
+                            </node>
+                          </node>
+                          <node concept="3clFbJ" id="5G4qAEnevDL" role="3cqZAp">
+                            <node concept="3clFbS" id="5G4qAEnevDM" role="3clFbx">
+                              <node concept="3cpWs6" id="5G4qAEnevDN" role="3cqZAp" />
+                            </node>
+                            <node concept="37vLTw" id="5G4qAEnevDO" role="3clFbw">
+                              <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+                            </node>
+                          </node>
+                          <node concept="3clFbJ" id="2atEpSpMpVA" role="3cqZAp">
+                            <node concept="3clFbS" id="2atEpSpMpVC" role="3clFbx">
+                              <node concept="RRSsy" id="2atEpSpMxsx" role="3cqZAp">
+                                <property role="RRSoG" value="error" />
+                                <node concept="Xl_RD" id="2atEpSpMxsz" role="RRSoy">
+                                  <property role="Xl_RC" value="Class loader is disposed, but this thread is still running" />
                                 </node>
-                                <node concept="37vLTw" id="QurUgjaYjr" role="3uHU7B">
+                              </node>
+                              <node concept="3cpWs6" id="2atEpSpMqZ4" role="3cqZAp" />
+                            </node>
+                            <node concept="1rXfSq" id="2atEpSpMqy6" role="3clFbw">
+                              <ref role="37wK5l" node="2atEpSpM5zv" resolve="isClassLoaderDisposed" />
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="QurUgjajjw" role="3cqZAp">
+                            <node concept="1rXfSq" id="QurUgjajjx" role="3clFbG">
+                              <ref role="37wK5l" node="4VxHqcqZoV$" resolve="synchronize" />
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="QurUgjaISp" role="3cqZAp">
+                            <node concept="37vLTI" id="QurUgjaKaF" role="3clFbG">
+                              <node concept="3cmrfG" id="QurUgjaKsN" role="37vLTx">
+                                <property role="3cmrfH" value="100" />
+                              </node>
+                              <node concept="37vLTw" id="QurUgjaISn" role="37vLTJ">
+                                <ref role="3cqZAo" node="QurUgjaEwZ" resolve="syncDelay" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="TDmWw" id="QurUgjakFx" role="TEbGg">
+                          <node concept="3cpWsn" id="QurUgjakFy" role="TDEfY">
+                            <property role="TrG5h" value="ex" />
+                            <node concept="3uibUv" id="QurUgjaldU" role="1tU5fm">
+                              <ref role="3uigEE" to="wyt6:~InterruptedException" resolve="InterruptedException" />
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="QurUgjakF$" role="TDEfX">
+                            <node concept="3cpWs6" id="QurUgjaqf1" role="3cqZAp" />
+                          </node>
+                        </node>
+                        <node concept="TDmWw" id="QurUgjajjB" role="TEbGg">
+                          <node concept="3cpWsn" id="QurUgjajjC" role="TDEfY">
+                            <property role="TrG5h" value="ex" />
+                            <node concept="3uibUv" id="21SKqk9HS8Y" role="1tU5fm">
+                              <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="QurUgjajjE" role="TDEfX">
+                            <node concept="3clFbJ" id="5G4qAEnewSV" role="3cqZAp">
+                              <node concept="3clFbS" id="5G4qAEnewSW" role="3clFbx">
+                                <node concept="3cpWs6" id="5G4qAEnewSX" role="3cqZAp" />
+                              </node>
+                              <node concept="37vLTw" id="5G4qAEnewSY" role="3clFbw">
+                                <ref role="3cqZAo" node="QurUgjayib" resolve="stopSyncThread" />
+                              </node>
+                            </node>
+                            <node concept="RRSsy" id="QurUgjajjF" role="3cqZAp">
+                              <property role="RRSoG" value="error" />
+                              <node concept="Xl_RD" id="QurUgjajjG" role="RRSoy" />
+                              <node concept="37vLTw" id="QurUgjajjH" role="RRSow">
+                                <ref role="3cqZAo" node="QurUgjajjC" resolve="ex" />
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="QurUgjaM$W" role="3cqZAp">
+                              <node concept="37vLTI" id="QurUgjaNJt" role="3clFbG">
+                                <node concept="37vLTw" id="QurUgjaM$U" role="37vLTJ">
                                   <ref role="3cqZAo" node="QurUgjaEwZ" resolve="syncDelay" />
                                 </node>
+                                <node concept="2YIFZM" id="QurUgjaO1z" role="37vLTx">
+                                  <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                                  <ref role="37wK5l" to="wyt6:~Math.min(long,long):long" resolve="min" />
+                                  <node concept="3cmrfG" id="QurUgjaO1$" role="37wK5m">
+                                    <property role="3cmrfH" value="10000" />
+                                  </node>
+                                  <node concept="17qRlL" id="QurUgjaO1_" role="37wK5m">
+                                    <node concept="3cmrfG" id="QurUgjaO1A" role="3uHU7w">
+                                      <property role="3cmrfH" value="2" />
+                                    </node>
+                                    <node concept="37vLTw" id="QurUgjaYjr" role="3uHU7B">
+                                      <ref role="3cqZAo" node="QurUgjaEwZ" resolve="syncDelay" />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
+                    </node>
+                    <node concept="3clFbT" id="QurUgjarcM" role="2$JKZa">
+                      <property role="3clFbU" value="true" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbT" id="QurUgjarcM" role="2$JKZa">
-                  <property role="3clFbU" value="true" />
+                <node concept="3clFbS" id="21SKqk9FLjt" role="2GVbov">
+                  <node concept="RRSsy" id="21SKqk9FQ67" role="3cqZAp">
+                    <property role="RRSoG" value="debug" />
+                    <node concept="Xl_RD" id="21SKqk9FQ69" role="RRSoy">
+                      <property role="Xl_RC" value="Stopping sync thread" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -24193,6 +24209,16 @@
             </node>
             <node concept="37vLTw" id="5wi3nvL844g" role="37vLTJ">
               <ref role="3cqZAo" node="5wi3nvL7iea" resolve="dirty" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="21SKqk9IRMg" role="3cqZAp">
+          <node concept="37vLTI" id="21SKqk9ISKw" role="3clFbG">
+            <node concept="3cmrfG" id="21SKqk9IT2f" role="37vLTx">
+              <property role="3cmrfH" value="100" />
+            </node>
+            <node concept="37vLTw" id="21SKqk9IRMe" role="37vLTJ">
+              <ref role="3cqZAo" node="QurUgjaEwZ" resolve="syncDelay" />
             </node>
           </node>
         </node>

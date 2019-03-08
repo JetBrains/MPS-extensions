@@ -23451,6 +23451,15 @@
         <property role="Xl_RC" value="de.q60.mps.shadowmodels.repository.transformations.ShadowRepository.Repository" />
       </node>
     </node>
+    <node concept="Wx3nA" id="1_qG3hO2mKL" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="SHADOW_REPOSITORY_FORK_ID" />
+      <node concept="3Tm1VV" id="1_qG3hO2mKI" role="1B3o_S" />
+      <node concept="17QB3L" id="1_qG3hO2mKJ" role="1tU5fm" />
+      <node concept="Xl_RD" id="1_qG3hO2mKK" role="33vP2m">
+        <property role="Xl_RC" value="$shadowRepository" />
+      </node>
+    </node>
     <node concept="2YIFZL" id="7zI2priRdct" role="jymVt">
       <property role="TrG5h" value="setEnable" />
       <node concept="3clFbS" id="7zI2priQLoP" role="3clF47">
@@ -24057,8 +24066,8 @@
                 <node concept="2ShNRf" id="3kkgokiD7WA" role="2Oq$k0">
                   <node concept="1pGfFk" id="3kkgokiD9$E" role="2ShVmc">
                     <ref role="37wK5l" to="nv3w:32qWz0M0pCy" resolve="SubgraphTCall" />
-                    <node concept="Xl_RD" id="3kkgokiD9Bn" role="37wK5m">
-                      <property role="Xl_RC" value="$shadowRepository" />
+                    <node concept="37vLTw" id="1_qG3hO2mKO" role="37wK5m">
+                      <ref role="3cqZAo" node="1_qG3hO2mKL" resolve="SHADOW_REPOSITORY_FORK_ID" />
                     </node>
                     <node concept="2ShNRf" id="3vsFnFUNT4g" role="37wK5m">
                       <node concept="1pGfFk" id="3vsFnFUNT4h" role="2ShVmc">
@@ -25771,6 +25780,39 @@
       <node concept="3cqZAl" id="1pTQQaTWqtS" role="3clF45" />
       <node concept="3Tm1VV" id="1pTQQaTWqtT" role="1B3o_S" />
       <node concept="3clFbS" id="1pTQQaTWqtU" role="3clF47">
+        <node concept="3clFbJ" id="2BYLcdbZSbW" role="3cqZAp">
+          <property role="TyiWK" value="true" />
+          <node concept="3clFbS" id="2BYLcdbZSbY" role="3clFbx">
+            <node concept="YS8fn" id="2BYLcdbZVQh" role="3cqZAp">
+              <node concept="2ShNRf" id="2BYLcdbZVVu" role="YScLw">
+                <node concept="1pGfFk" id="2BYLcdc04$u" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="2BYLcdc04EZ" role="37wK5m">
+                    <property role="Xl_RC" value="Running this from a repository read/write action can result in a deadlock" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="2BYLcdc06ha" role="3cqZAp">
+              <node concept="3SKdUq" id="2BYLcdc06hc" role="3SKWNk">
+                <property role="3SKdUp" value="ShadowTypesystemUtil starts read actions" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2BYLcdbZURE" role="3clFbw">
+            <node concept="2OqwBi" id="2BYLcdbZTPE" role="2Oq$k0">
+              <node concept="37vLTw" id="2BYLcdbZT5z" role="2Oq$k0">
+                <ref role="3cqZAo" node="7YhLqbpgbxU" resolve="repository" />
+              </node>
+              <node concept="liA8E" id="2BYLcdbZUJl" role="2OqNvi">
+                <ref role="37wK5l" to="lui2:~SRepository.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2BYLcdbZVJ2" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~ModelAccess.canRead():boolean" resolve="canRead" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1pTQQaTXgBx" role="3cqZAp">
           <node concept="2OqwBi" id="1pTQQaTXgBy" role="3clFbG">
             <node concept="2OqwBi" id="1pTQQaTXgBz" role="2Oq$k0">

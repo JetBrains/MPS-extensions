@@ -25780,36 +25780,55 @@
       <node concept="3cqZAl" id="1pTQQaTWqtS" role="3clF45" />
       <node concept="3Tm1VV" id="1pTQQaTWqtT" role="1B3o_S" />
       <node concept="3clFbS" id="1pTQQaTWqtU" role="3clF47">
-        <node concept="3clFbJ" id="2BYLcdbZSbW" role="3cqZAp">
-          <property role="TyiWK" value="true" />
-          <node concept="3clFbS" id="2BYLcdbZSbY" role="3clFbx">
-            <node concept="YS8fn" id="2BYLcdbZVQh" role="3cqZAp">
-              <node concept="2ShNRf" id="2BYLcdbZVVu" role="YScLw">
-                <node concept="1pGfFk" id="2BYLcdc04$u" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="2BYLcdc04EZ" role="37wK5m">
-                    <property role="Xl_RC" value="Running this from a repository read/write action can result in a deadlock" />
+        <node concept="3clFbJ" id="2BYLcdc8Hn4" role="3cqZAp">
+          <node concept="3clFbS" id="2BYLcdc8Hn6" role="3clFbx">
+            <node concept="3clFbJ" id="2BYLcdbZSbW" role="3cqZAp">
+              <property role="TyiWK" value="true" />
+              <node concept="3clFbS" id="2BYLcdbZSbY" role="3clFbx">
+                <node concept="YS8fn" id="2BYLcdbZVQh" role="3cqZAp">
+                  <node concept="2ShNRf" id="2BYLcdbZVVu" role="YScLw">
+                    <node concept="1pGfFk" id="2BYLcdc04$u" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                      <node concept="Xl_RD" id="2BYLcdc04EZ" role="37wK5m">
+                        <property role="Xl_RC" value="Running this from a repository read/write action can result in a deadlock" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="2BYLcdc06ha" role="3cqZAp">
+                  <node concept="3SKdUq" id="2BYLcdc06hc" role="3SKWNk">
+                    <property role="3SKdUp" value="ShadowTypesystemUtil starts read actions" />
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="3SKdUt" id="2BYLcdc06ha" role="3cqZAp">
-              <node concept="3SKdUq" id="2BYLcdc06hc" role="3SKWNk">
-                <property role="3SKdUp" value="ShadowTypesystemUtil starts read actions" />
+              <node concept="2OqwBi" id="2BYLcdbZURE" role="3clFbw">
+                <node concept="2OqwBi" id="2BYLcdbZTPE" role="2Oq$k0">
+                  <node concept="37vLTw" id="2BYLcdbZT5z" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7YhLqbpgbxU" resolve="repository" />
+                  </node>
+                  <node concept="liA8E" id="2BYLcdbZUJl" role="2OqNvi">
+                    <ref role="37wK5l" to="lui2:~SRepository.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2BYLcdbZVJ2" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~ModelAccess.canRead():boolean" resolve="canRead" />
+                </node>
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="2BYLcdbZURE" role="3clFbw">
-            <node concept="2OqwBi" id="2BYLcdbZTPE" role="2Oq$k0">
-              <node concept="37vLTw" id="2BYLcdbZT5z" role="2Oq$k0">
-                <ref role="3cqZAo" node="7YhLqbpgbxU" resolve="repository" />
+          <node concept="3fqX7Q" id="2BYLcdc9lqV" role="3clFbw">
+            <node concept="2OqwBi" id="2BYLcdc9lqX" role="3fr31v">
+              <node concept="2OqwBi" id="2BYLcdc9lqY" role="2Oq$k0">
+                <node concept="37vLTw" id="2BYLcdc9lqZ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
+                </node>
+                <node concept="liA8E" id="2BYLcdc9lr0" role="2OqNvi">
+                  <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
+                </node>
               </node>
-              <node concept="liA8E" id="2BYLcdbZUJl" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SRepository.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
+              <node concept="liA8E" id="2BYLcdc9lr1" role="2OqNvi">
+                <ref role="37wK5l" to="3hky:2BYLcdc8TLg" resolve="canRead" />
               </node>
-            </node>
-            <node concept="liA8E" id="2BYLcdbZVJ2" role="2OqNvi">
-              <ref role="37wK5l" to="lui2:~ModelAccess.canRead():boolean" resolve="canRead" />
             </node>
           </node>
         </node>

@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="o1st" ref="r:bca3993a-2dc4-4449-a654-c9f2fa86dc9c(de.itemis.mps.editor.collapsible.structure)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
@@ -40,6 +41,7 @@
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
@@ -53,6 +55,9 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
@@ -159,7 +164,7 @@
                 <ref role="35c_gD" to="tpc2:gCpncv5" resolve="ConceptFunctionParameter_node" />
               </node>
               <node concept="35c_gC" id="1$t5g3Q$bge" role="HW$Y0">
-                <ref role="35c_gD" to="o1st:1$t5g3Q$iVD" resolve="ConceptFunctionParameter_height" />
+                <ref role="35c_gD" to="o1st:1$t5g3Q$iVD" resolve="ConceptFunctionParameter_Height" />
               </node>
             </node>
           </node>
@@ -190,7 +195,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1$t5g3Q$jqA">
-    <ref role="13h7C2" to="o1st:1$t5g3Q$iVD" resolve="ConceptFunctionParameter_height" />
+    <ref role="13h7C2" to="o1st:1$t5g3Q$iVD" resolve="ConceptFunctionParameter_Height" />
     <node concept="13i0hz" id="1$t5g3Q$jqL" role="13h7CS">
       <property role="TrG5h" value="getType" />
       <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
@@ -208,6 +213,128 @@
     </node>
     <node concept="13hLZK" id="1$t5g3Q$jqB" role="13h7CW">
       <node concept="3clFbS" id="1$t5g3Q$jqC" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="69rYimo5LOa">
+    <ref role="13h7C2" to="o1st:69rYimo5LH8" resolve="ConceptFunction_PaintGlyph" />
+    <node concept="13i0hz" id="69rYimo5LOl" role="13h7CS">
+      <property role="TrG5h" value="getParameterConcepts" />
+      <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
+      <node concept="3clFbS" id="69rYimo5LOo" role="3clF47">
+        <node concept="3clFbF" id="69rYimo5OWk" role="3cqZAp">
+          <node concept="2ShNRf" id="69rYimo5OWi" role="3clFbG">
+            <node concept="Tc6Ow" id="69rYimo5Qk0" role="2ShVmc">
+              <node concept="3bZ5Sz" id="69rYimo5Q_n" role="HW$YZ">
+                <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="35c_gC" id="69rYimo5QQ0" role="HW$Y0">
+                <ref role="35c_gD" to="tpc2:gTQ80DJ" resolve="ConceptFunctionParameter_editorContext" />
+              </node>
+              <node concept="35c_gC" id="69rYimo5R6w" role="HW$Y0">
+                <ref role="35c_gD" to="tpc2:gCpncv5" resolve="ConceptFunctionParameter_node" />
+              </node>
+              <node concept="35c_gC" id="69rYimo65xX" role="HW$Y0">
+                <ref role="35c_gD" to="o1st:69rYimo5Rzo" resolve="ConceptFunctionParameter_Graphics2D" />
+              </node>
+              <node concept="35c_gC" id="69rYimpio15" role="HW$Y0">
+                <ref role="35c_gD" to="o1st:69rYimpipxQ" resolve="ConceptFunctionParameter_Bounds" />
+              </node>
+              <node concept="35c_gC" id="69rYimo66aR" role="HW$Y0">
+                <ref role="35c_gD" to="o1st:69rYimo65Uo" resolve="ConceptFunctionParameter_Highlighted" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="69rYimo5LOP" role="3clF45">
+        <node concept="3bZ5Sz" id="69rYimo5LOQ" role="_ZDj9">
+          <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="69rYimo5LOR" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="69rYimotlok" role="13h7CS">
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3clFbS" id="69rYimotlon" role="3clF47">
+        <node concept="3clFbF" id="69rYimotlpH" role="3cqZAp">
+          <node concept="2c44tf" id="69rYimotlpF" role="3clFbG">
+            <node concept="10P_77" id="69rYimotlqV" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="69rYimotlpr" role="3clF45" />
+      <node concept="3Tm1VV" id="69rYimotlps" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="69rYimo5LOb" role="13h7CW">
+      <node concept="3clFbS" id="69rYimo5LOc" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="69rYimo5RA2">
+    <ref role="13h7C2" to="o1st:69rYimo5Rzo" resolve="ConceptFunctionParameter_Graphics2D" />
+    <node concept="13i0hz" id="69rYimo5RAd" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3clFbS" id="69rYimo5RAg" role="3clF47">
+        <node concept="3clFbF" id="69rYimo5RAZ" role="3cqZAp">
+          <node concept="2c44tf" id="6uo2fN6fIoN" role="3clFbG">
+            <node concept="3uibUv" id="6uo2fN6gOKR" role="2c44tc">
+              <ref role="3uigEE" to="z60i:~Graphics2D" resolve="Graphics2D" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="69rYimo5RAH" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+      <node concept="3Tm1VV" id="69rYimo5RAI" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="69rYimo5RA3" role="13h7CW">
+      <node concept="3clFbS" id="69rYimo5RA4" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="69rYimo65Up">
+    <ref role="13h7C2" to="o1st:69rYimo65Uo" resolve="ConceptFunctionParameter_Highlighted" />
+    <node concept="13i0hz" id="69rYimo65U$" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3clFbS" id="69rYimo65UB" role="3clF47">
+        <node concept="3clFbF" id="69rYimo65Vm" role="3cqZAp">
+          <node concept="2c44tf" id="69rYimo65Vk" role="3clFbG">
+            <node concept="10P_77" id="69rYimo65Xm" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="69rYimo65V4" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+      <node concept="3Tm1VV" id="69rYimo65V5" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="69rYimo65Uq" role="13h7CW">
+      <node concept="3clFbS" id="69rYimo65Ur" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="69rYimpipxR">
+    <ref role="13h7C2" to="o1st:69rYimpipxQ" resolve="ConceptFunctionParameter_Bounds" />
+    <node concept="13hLZK" id="69rYimpipxS" role="13h7CW">
+      <node concept="3clFbS" id="69rYimpipxT" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="69rYimpipy2" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3clFbS" id="69rYimpipy5" role="3clF47">
+        <node concept="3clFbF" id="69rYimpiyhy" role="3cqZAp">
+          <node concept="2c44tf" id="69rYimpiyhz" role="3clFbG">
+            <node concept="3uibUv" id="69rYimpiycm" role="2c44tc">
+              <ref role="3uigEE" to="z60i:~Rectangle" resolve="Rectangle" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="69rYimpipyy" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+      <node concept="3Tm1VV" id="69rYimpipyz" role="1B3o_S" />
     </node>
   </node>
 </model>

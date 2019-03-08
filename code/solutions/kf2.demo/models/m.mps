@@ -2,8 +2,6 @@
 <model ref="r:ea5dc6d5-a3b9-4537-ad5c-d713c28bad0e(kf2.demo.m)">
   <persistence version="9" />
   <languages>
-    <use id="3280d6dd-a43e-4aaf-bfe8-9c7c48bb5a12" name="org.kf2.adt" version="0" />
-    <use id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="org.kf2.sugar" version="-1" />
     <use id="1ab7bfac-29d6-4772-a483-50110408ac43" name="org.kf2.core" version="-1" />
     <use id="752448bb-7c63-426e-9e72-23f7606eb6f4" name="org.kf2.state" version="0" />
     <use id="d3b01dcd-2240-445f-90f7-2552a830adac" name="org.kf2.statemachine" version="0" />
@@ -14,6 +12,9 @@
     <language id="1ab7bfac-29d6-4772-a483-50110408ac43" name="org.kf2.core">
       <concept id="7155053225565206528" name="org.kf2.core.structure.IntType" flags="ng" index="21A6bZ" />
       <concept id="3098281514132883236" name="org.kf2.core.structure.LogicalImpliesExpr" flags="ng" index="2WSAV" />
+      <concept id="2460310434937429604" name="org.kf2.core.structure.AlgebraicConstructorArg" flags="ng" index="5xh$E">
+        <child id="2460310434937431092" name="type" index="5xidU" />
+      </concept>
       <concept id="1610040818624260736" name="org.kf2.core.structure.TypeVarType" flags="ng" index="dCA$o">
         <reference id="1610040818624260737" name="typeVar" index="dCA$p" />
       </concept>
@@ -90,6 +91,31 @@
         <child id="1667935720929659160" name="left" index="1H5NIF" />
       </concept>
       <concept id="1667935720930234148" name="org.kf2.core.structure.PlusExpr" flags="ng" index="1H7JQn" />
+      <concept id="5955298286240874960" name="org.kf2.core.structure.MatchExpr" flags="ng" index="1Kh3BH">
+        <child id="5955298286240874967" name="expr" index="1Kh3BE" />
+        <child id="5955298286240875138" name="cases" index="1Kh3EZ" />
+      </concept>
+      <concept id="5955298286240875029" name="org.kf2.core.structure.MatchCase" flags="ng" index="1Kh3CC">
+        <child id="5955298286240875036" name="pattern" index="1Kh3Cx" />
+        <child id="5955298286240875038" name="result" index="1Kh3Cz" />
+      </concept>
+      <concept id="5955298286240956410" name="org.kf2.core.structure.WildcardExpr" flags="ng" index="1KhKv7" />
+      <concept id="5955298286239347343" name="org.kf2.core.structure.AlgebraicType" flags="ng" index="1Kr8EM">
+        <reference id="5955298286239347344" name="declaration" index="1Kr8EH" />
+      </concept>
+      <concept id="5955298286239339288" name="org.kf2.core.structure.AlgebraicDeclaration" flags="ng" index="1KraG_">
+        <child id="5955298286239340413" name="constructors" index="1KraX0" />
+      </concept>
+      <concept id="5955298286239340412" name="org.kf2.core.structure.AlgebraicConstructor" flags="ng" index="1KraX1">
+        <child id="2460310434937431133" name="args" index="5xicj" />
+      </concept>
+      <concept id="5955298286239452388" name="org.kf2.core.structure.AlgebraicTerm" flags="ng" index="1KrJjp">
+        <reference id="1610040818624991068" name="cons" index="anoN4" />
+        <child id="5955298286239452394" name="args" index="1KrJjn" />
+      </concept>
+      <concept id="5955298286240284081" name="org.kf2.core.structure.AlgebraicArgAccess" flags="ng" index="1Kvkmc">
+        <child id="3098281514126885708" name="index" index="djwRj" />
+      </concept>
     </language>
     <language id="a05cab6b-522f-4255-b2ed-8d6bfca9b584" name="org.kf2.test">
       <concept id="3134161923459080046" name="org.kf2.test.structure.AssertEquals" flags="ng" index="3vaTz7">
@@ -174,36 +200,6 @@
       </concept>
       <concept id="5461660098485946228" name="org.kf2.statemachine.structure.StateMachine" flags="ng" index="1HTr6o">
         <child id="5461660098485946238" name="contents" index="1HTr6i" />
-      </concept>
-    </language>
-    <language id="3280d6dd-a43e-4aaf-bfe8-9c7c48bb5a12" name="org.kf2.adt">
-      <concept id="2460310434937429604" name="org.kf2.adt.structure.AlgebraicConstructorArg" flags="ng" index="5xh$E">
-        <child id="2460310434937431092" name="type" index="5xidU" />
-      </concept>
-      <concept id="5955298286240874960" name="org.kf2.adt.structure.MatchExpr" flags="ng" index="1Kh3BH">
-        <child id="5955298286240874967" name="expr" index="1Kh3BE" />
-        <child id="5955298286240875138" name="cases" index="1Kh3EZ" />
-      </concept>
-      <concept id="5955298286240875029" name="org.kf2.adt.structure.MatchCase" flags="ng" index="1Kh3CC">
-        <child id="5955298286240875036" name="pattern" index="1Kh3Cx" />
-        <child id="5955298286240875038" name="result" index="1Kh3Cz" />
-      </concept>
-      <concept id="5955298286240956410" name="org.kf2.adt.structure.WildcardExpr" flags="ng" index="1KhKv7" />
-      <concept id="5955298286239347343" name="org.kf2.adt.structure.AlgebraicType" flags="ng" index="1Kr8EM">
-        <reference id="5955298286239347344" name="declaration" index="1Kr8EH" />
-      </concept>
-      <concept id="5955298286239339288" name="org.kf2.adt.structure.AlgebraicDeclaration" flags="ng" index="1KraG_">
-        <child id="5955298286239340413" name="constructors" index="1KraX0" />
-      </concept>
-      <concept id="5955298286239340412" name="org.kf2.adt.structure.AlgebraicConstructor" flags="ng" index="1KraX1">
-        <child id="2460310434937431133" name="args" index="5xicj" />
-      </concept>
-      <concept id="5955298286239452388" name="org.kf2.adt.structure.AlgebraicTerm" flags="ng" index="1KrJjp">
-        <reference id="1610040818624991068" name="cons" index="anoN4" />
-        <child id="5955298286239452394" name="args" index="1KrJjn" />
-      </concept>
-      <concept id="5955298286240284081" name="org.kf2.adt.structure.AlgebraicArgAccess" flags="ng" index="1Kvkmc">
-        <child id="3098281514126885708" name="index" index="djwRj" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -965,6 +961,9 @@
     <node concept="2NE3Kg" id="Ura7pp4bOZ" role="37GxYA" />
     <node concept="1KraG_" id="Ura7pp4bP0" role="37GxYA">
       <property role="TrG5h" value="Maybe" />
+      <node concept="dJJ12" id="Ura7pp4bP5" role="dJJ10">
+        <property role="TrG5h" value="U" />
+      </node>
       <node concept="1KraX1" id="Ura7pp4bP1" role="1KraX0">
         <property role="TrG5h" value="Some" />
         <node concept="5xh$E" id="Ura7pp4bP2" role="5xicj">
@@ -976,14 +975,14 @@
       <node concept="1KraX1" id="Ura7pp4bP4" role="1KraX0">
         <property role="TrG5h" value="None" />
       </node>
-      <node concept="dJJ12" id="Ura7pp4bP5" role="dJJ10">
-        <property role="TrG5h" value="U" />
-      </node>
     </node>
     <node concept="2NE3Kg" id="Ura7pp4bP6" role="37GxYA" />
     <node concept="38WgWO" id="Ura7pp4bP7" role="37GxYA">
       <property role="TrG5h" value="grab" />
       <node concept="1Kh3BH" id="Ura7pp4bP8" role="38WgZW">
+        <node concept="38XQG0" id="Ura7pp4bPg" role="1Kh3BE">
+          <ref role="38XQJG" node="Ura7pp4bPi" resolve="m" />
+        </node>
         <node concept="1Kh3CC" id="Ura7pp4bP9" role="1Kh3EZ">
           <node concept="1KrJjp" id="Ura7pp4bPa" role="1Kh3Cx">
             <ref role="anoN4" node="Ura7pp4bP1" resolve="Some" />
@@ -996,9 +995,6 @@
           <node concept="38XQG0" id="Ura7pp4bPf" role="1Kh3Cz">
             <ref role="38XQJG" node="Ura7pp4bPl" resolve="v" />
           </node>
-        </node>
-        <node concept="38XQG0" id="Ura7pp4bPg" role="1Kh3BE">
-          <ref role="38XQJG" node="Ura7pp4bPi" resolve="m" />
         </node>
       </node>
       <node concept="dJJ12" id="Ura7pp4bPh" role="dJJ10">
@@ -1236,22 +1232,22 @@
     <node concept="37GxwB" id="4mp3zYjSXnG" role="37GxYA">
       <property role="TrG5h" value="px1" />
       <node concept="1Kvkmc" id="4mp3zYjSXnF" role="37Gxwy">
-        <node concept="mWALo" id="4mp3zYjSXnM" role="djwRj">
-          <ref role="mWALr" node="4mp3zYjSXnr" resolve="Point_x" />
-        </node>
         <node concept="mWALo" id="4mp3zYjSXnL" role="2i6V0R">
           <ref role="mWALr" node="4mp3zYjSXnD" resolve="p" />
+        </node>
+        <node concept="mWALo" id="4mp3zYjSXnM" role="djwRj">
+          <ref role="mWALr" node="4mp3zYjSXnr" resolve="Point_x" />
         </node>
       </node>
     </node>
     <node concept="37GxwB" id="4mp3zYjSXnK" role="37GxYA">
       <property role="TrG5h" value="px2" />
       <node concept="1Kvkmc" id="4mp3zYjSXnJ" role="37Gxwy">
-        <node concept="mWALo" id="4mp3zYjSXnQ" role="djwRj">
-          <ref role="mWALr" node="4mp3zYjSXnr" resolve="Point_x" />
-        </node>
         <node concept="mWALo" id="4mp3zYjSXnP" role="2i6V0R">
           <ref role="mWALr" node="4mp3zYjSXnD" resolve="p" />
+        </node>
+        <node concept="mWALo" id="4mp3zYjSXnQ" role="djwRj">
+          <ref role="mWALr" node="4mp3zYjSXnr" resolve="Point_x" />
         </node>
       </node>
       <node concept="21A6bZ" id="4mp3zYjXkEx" role="2ij1d7" />

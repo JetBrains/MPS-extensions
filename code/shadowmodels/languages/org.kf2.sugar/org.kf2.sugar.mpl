@@ -50,7 +50,6 @@
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">fdda8484-fc57-4faa-9059-032e2b8b648f(de.q60.mps.shadowmodels.repository)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">3280d6dd-a43e-4aaf-bfe8-9c7c48bb5a12(org.kf2.adt)</dependency>
     <dependency reexport="false">4441485a-f7fc-4cfb-8044-d8997096c5d6(org.kf2.sugar)</dependency>
     <dependency reexport="false">e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)</dependency>
   </dependencies>

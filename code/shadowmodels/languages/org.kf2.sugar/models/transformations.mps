@@ -9,7 +9,6 @@
     <import index="shry" ref="r:49e489bb-f00f-4c40-a675-08c681da1ac3(org.kf2.core.transformations)" />
     <import index="r8g4" ref="r:bba4935b-e963-4377-96f6-d91b7da9aab3(org.kf2.sugar.structure)" />
     <import index="jwvb" ref="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)" />
-    <import index="cnr6" ref="r:ee408fec-be69-48f4-bef2-a761eaabcf3b(org.kf2.adt.structure)" />
     <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(org.kf2.core.structure)" />
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -631,14 +630,14 @@
     </node>
     <node concept="1_xYd8" id="2FZjDWBDaxM" role="02uzr">
       <property role="TrG5h" value="recToAlgbraic" />
-      <ref role="1_w7Ad" to="cnr6:5a_u3OyMtco" resolve="AlgebraicDeclaration" />
+      <ref role="1_w7Ad" to="nup6:5a_u3OyMtco" resolve="AlgebraicDeclaration" />
       <node concept="02i3D" id="2FZjDWBDb1B" role="1_w7q6">
         <ref role="02i3$" to="r8g4:2FZjDWBy$pU" resolve="RecordDecl" />
       </node>
     </node>
     <node concept="1_xYd8" id="2FZjDWBM$Uh" role="02uzr">
       <property role="TrG5h" value="recToAlgbraicCons" />
-      <ref role="1_w7Ad" to="cnr6:5a_u3OyMttW" resolve="AlgebraicConstructor" />
+      <ref role="1_w7Ad" to="nup6:5a_u3OyMttW" resolve="AlgebraicConstructor" />
       <node concept="02i3D" id="2FZjDWBM$Ui" role="1_w7q6">
         <ref role="02i3$" to="r8g4:2FZjDWBy$pU" resolve="RecordDecl" />
       </node>
@@ -729,7 +728,7 @@
         <node concept="1_$sxC" id="2FZjDWBDbv4" role="026TJ">
           <ref role="1_$sxD" node="2FZjDWBDaxM" resolve="recToAlgbraic" />
           <node concept="027og" id="2FZjDWBDbv5" role="1_FlVf">
-            <ref role="02LMe" to="cnr6:5a_u3OyMtco" resolve="AlgebraicDeclaration" />
+            <ref role="02LMe" to="nup6:5a_u3OyMtco" resolve="AlgebraicDeclaration" />
             <node concept="027oh" id="2FZjDWBDbv6" role="02LM9">
               <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
               <node concept="2OqwBi" id="2FZjDWBDbv7" role="027of">
@@ -742,11 +741,11 @@
               </node>
             </node>
             <node concept="027rt" id="2FZjDWBDbva" role="02LM9">
-              <ref role="027rv" to="cnr6:5a_u3OyMttX" resolve="constructors" />
+              <ref role="027rv" to="nup6:5a_u3OyMttX" resolve="constructors" />
               <node concept="1_$sxC" id="2FZjDWBMA$_" role="027rp">
                 <ref role="1_$sxD" node="2FZjDWBM$Uh" resolve="recToAlgbraicCons" />
                 <node concept="027og" id="2FZjDWBMA$A" role="1_FlVf">
-                  <ref role="02LMe" to="cnr6:5a_u3OyMttW" resolve="AlgebraicConstructor" />
+                  <ref role="02LMe" to="nup6:5a_u3OyMttW" resolve="AlgebraicConstructor" />
                   <node concept="027oh" id="2FZjDWBMA$B" role="02LM9">
                     <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
                     <node concept="2OqwBi" id="2FZjDWBMA$E" role="027of">
@@ -759,7 +758,7 @@
                     </node>
                   </node>
                   <node concept="027rt" id="2FZjDWBMA$H" role="02LM9">
-                    <ref role="027rv" to="cnr6:28$LOSBCuht" resolve="args" />
+                    <ref role="027rv" to="nup6:28$LOSBCuht" resolve="args" />
                     <node concept="2PWHRv" id="2FZjDWBMA$I" role="027rp">
                       <node concept="2OqwBi" id="2FZjDWBMA$J" role="2PWHRq">
                         <node concept="2155sH" id="2FZjDWBMA$K" role="2Oq$k0">
@@ -770,9 +769,9 @@
                         </node>
                       </node>
                       <node concept="027og" id="2FZjDWBMA$M" role="2PWHRo">
-                        <ref role="02LMe" to="cnr6:28$LOSBCtT$" resolve="AlgebraicConstructorArg" />
+                        <ref role="02LMe" to="nup6:28$LOSBCtT$" resolve="AlgebraicConstructorArg" />
                         <node concept="027rt" id="2FZjDWBMA$N" role="02LM9">
-                          <ref role="027rv" to="cnr6:28$LOSBCugO" resolve="type" />
+                          <ref role="027rv" to="nup6:28$LOSBCugO" resolve="type" />
                           <node concept="1XuIBW" id="2FZjDWBMA$O" role="027rp">
                             <node concept="2OqwBi" id="2FZjDWBMA$P" role="1XuIBT">
                               <node concept="214o7A" id="2FZjDWBMA$Q" role="2Oq$k0" />
@@ -805,9 +804,9 @@
       </node>
       <node concept="026TG" id="2FZjDWBMapC" role="026TK">
         <node concept="027og" id="2FZjDWBMcCg" role="026TJ">
-          <ref role="02LMe" to="cnr6:5a_u3OyMSN$" resolve="AlgebraicTerm" />
+          <ref role="02LMe" to="nup6:5a_u3OyMSN$" resolve="AlgebraicTerm" />
           <node concept="027ru" id="2FZjDWBMk_a" role="02LM9">
-            <ref role="027ri" to="cnr6:1po0Tws1oXs" resolve="cons" />
+            <ref role="027ri" to="nup6:1po0Tws1oXs" resolve="cons" />
             <node concept="1_$sxB" id="2FZjDWBMvjl" role="027rd">
               <ref role="1_cnka" node="2FZjDWBM$Uh" resolve="recToAlgbraicCons" />
               <node concept="2OqwBi" id="2FZjDWBMz1U" role="1_cnkc">
@@ -826,7 +825,7 @@
             </node>
           </node>
           <node concept="027rt" id="2FZjDWBMgqo" role="02LM9">
-            <ref role="027rv" to="cnr6:5a_u3OyMSNE" resolve="args" />
+            <ref role="027rv" to="nup6:5a_u3OyMSNE" resolve="args" />
             <node concept="2PWHRv" id="2FZjDWBWtjo" role="027rp">
               <node concept="2OqwBi" id="2FZjDWBWtLm" role="2PWHRq">
                 <node concept="2155sH" id="2FZjDWBWtEC" role="2Oq$k0">
@@ -856,9 +855,9 @@
       </node>
       <node concept="026TG" id="2FZjDWBDdn$" role="026TK">
         <node concept="027og" id="2FZjDWBDfiG" role="026TJ">
-          <ref role="02LMe" to="cnr6:5a_u3OyMvaf" resolve="AlgebraicType" />
+          <ref role="02LMe" to="nup6:5a_u3OyMvaf" resolve="AlgebraicType" />
           <node concept="027ru" id="2FZjDWBDgiB" role="02LM9">
-            <ref role="027ri" to="cnr6:5a_u3OyMvag" resolve="declaration" />
+            <ref role="027ri" to="nup6:5a_u3OyMvag" resolve="declaration" />
             <node concept="1_$sxB" id="2FZjDWBDgMB" role="027rd">
               <ref role="1_cnka" node="2FZjDWBDaxM" resolve="recToAlgbraic" />
               <node concept="2OqwBi" id="2FZjDWBDhr8" role="1_cnkc">
@@ -886,7 +885,7 @@
       </node>
       <node concept="026TG" id="2FZjDWBDKd4" role="026TK">
         <node concept="027og" id="2FZjDWBEznC" role="026TJ">
-          <ref role="02LMe" to="cnr6:5a_u3OyQ3QL" resolve="AlgebraicArgAccess" />
+          <ref role="02LMe" to="nup6:5a_u3OyQ3QL" resolve="AlgebraicArgAccess" />
           <node concept="027rt" id="2FZjDWBE$FH" role="02LM9">
             <ref role="027rv" to="nup6:7iudlBAxolI" resolve="expr" />
             <node concept="1XuIBW" id="2FZjDWBE_lM" role="027rp">
@@ -901,7 +900,7 @@
             </node>
           </node>
           <node concept="027rt" id="2FZjDWBHXLR" role="02LM9">
-            <ref role="027rv" to="cnr6:2FZjDWBGkdc" resolve="index" />
+            <ref role="027rv" to="nup6:2FZjDWBGkdc" resolve="index" />
             <node concept="027og" id="2FZjDWBHZ6q" role="027rp">
               <ref role="02LMe" to="nup6:1_cQhkfJFld" resolve="ConstantRef" />
               <node concept="027ru" id="2FZjDWBHZ6_" role="02LM9">

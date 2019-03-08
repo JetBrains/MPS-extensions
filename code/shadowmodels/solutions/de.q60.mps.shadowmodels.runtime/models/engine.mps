@@ -310,6 +310,12 @@
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
@@ -6478,6 +6484,12 @@
       <node concept="3cqZAl" id="1apE37Rok_h" role="3clF45" />
       <node concept="3Tm1VV" id="1apE37Rok_i" role="1B3o_S" />
       <node concept="3clFbS" id="1apE37Rok_j" role="3clF47">
+        <node concept="RRSsy" id="6DdMXMeoxdz" role="3cqZAp">
+          <property role="RRSoG" value="debug" />
+          <node concept="Xl_RD" id="6DdMXMeoxd_" role="RRSoy">
+            <property role="Xl_RC" value="Invalidate Engine" />
+          </node>
+        </node>
         <node concept="3clFbF" id="4OBfrz$BMM4" role="3cqZAp">
           <node concept="2OqwBi" id="4OBfrz$BMYf" role="3clFbG">
             <node concept="37vLTw" id="4OBfrz$BMM2" role="2Oq$k0">

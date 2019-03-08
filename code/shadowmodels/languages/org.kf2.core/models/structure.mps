@@ -342,6 +342,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3JPN2vWhXg0" resolve="Constant" />
     </node>
+    <node concept="PrWs8" id="2HYLUBOmq6J" role="PzmwI">
+      <ref role="PrY4T" node="3tIuEqk0nG0" resolve="IStaticallyEquallably" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1_cQhkfL2Mk">
     <property role="EcuMT" value="1823070633660263572" />

@@ -1261,6 +1261,19 @@
   <node concept="37GxXp" id="2HYLUBOlosw">
     <property role="TrG5h" value="Tests" />
     <node concept="2NE3Kg" id="2HYLUBOlt7b" role="37GxYA" />
+    <node concept="mXT__" id="2HYLUBOlD$E" role="37GxYA">
+      <property role="TrG5h" value="Colors" />
+      <node concept="mXT_x" id="2HYLUBOlDBK" role="mXTAa">
+        <property role="TrG5h" value="red" />
+      </node>
+      <node concept="mXT_x" id="2HYLUBOlDEI" role="mXTAa">
+        <property role="TrG5h" value="green" />
+      </node>
+      <node concept="mXT_x" id="2HYLUBOm_W3" role="mXTAa">
+        <property role="TrG5h" value="yellow" />
+      </node>
+    </node>
+    <node concept="2NE3Kg" id="2HYLUBOlDwg" role="37GxYA" />
     <node concept="3vaVmc" id="2HYLUBOlt6$" role="37GxYA">
       <node concept="1H2aUO" id="2HYLUBOlt6V" role="3vaVmf" />
     </node>
@@ -1280,14 +1293,22 @@
       <node concept="1H2aKs" id="2HYLUBOluPL" role="3vaTz6">
         <property role="1H2aK3" value="10" />
       </node>
-      <node concept="2lgVZp" id="2HYLUBOlDfv" role="3vaTzo">
+      <node concept="2lgVZp" id="2HYLUBOmAcu" role="3vaTzo">
         <ref role="2lgVZu" node="2HYLUBOlD9z" resolve="calc" />
-        <node concept="1H2aKs" id="2HYLUBOlDgc" role="2lgVZs">
+        <node concept="1H2aKs" id="2HYLUBOmAcC" role="2lgVZs">
           <property role="1H2aK3" value="10" />
         </node>
       </node>
     </node>
-    <node concept="2NE3Kg" id="2HYLUBOlt7$" role="37GxYA" />
+    <node concept="2NE3Kg" id="2HYLUBOlDPA" role="37GxYA" />
+    <node concept="3vaTz7" id="2HYLUBOlDUR" role="37GxYA">
+      <node concept="mXTwN" id="2HYLUBOnLOR" role="3vaTz6">
+        <ref role="mXTwM" node="2HYLUBOlDEI" resolve="green" />
+      </node>
+      <node concept="mXTwN" id="2HYLUBOmAaa" role="3vaTzo">
+        <ref role="mXTwM" node="2HYLUBOlDEI" resolve="green" />
+      </node>
+    </node>
   </node>
 </model>
 

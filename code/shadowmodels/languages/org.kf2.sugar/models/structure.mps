@@ -208,6 +208,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1_cQhkfIO1O" resolve="EnumLit" />
     </node>
+    <node concept="PrWs8" id="2HYLUBOlE2u" role="PzmwI">
+      <ref role="PrY4T" to="nup6:3tIuEqk0nG0" resolve="IStaticallyEquallably" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4vHhYRO37bf">
     <property role="EcuMT" value="5182877833500586703" />

@@ -7,6 +7,7 @@
     <use id="1ab7bfac-29d6-4772-a483-50110408ac43" name="org.kf2.core" version="-1" />
     <use id="752448bb-7c63-426e-9e72-23f7606eb6f4" name="org.kf2.state" version="0" />
     <use id="d3b01dcd-2240-445f-90f7-2552a830adac" name="org.kf2.statemachine" version="0" />
+    <use id="a05cab6b-522f-4255-b2ed-8d6bfca9b584" name="org.kf2.test" version="0" />
   </languages>
   <imports />
   <registry>
@@ -89,6 +90,15 @@
         <child id="1667935720929659160" name="left" index="1H5NIF" />
       </concept>
       <concept id="1667935720930234148" name="org.kf2.core.structure.PlusExpr" flags="ng" index="1H7JQn" />
+    </language>
+    <language id="a05cab6b-522f-4255-b2ed-8d6bfca9b584" name="org.kf2.test">
+      <concept id="3134161923459080046" name="org.kf2.test.structure.AssertEquals" flags="ng" index="3vaTz7">
+        <child id="3134161923459080047" name="actual" index="3vaTz6" />
+        <child id="3134161923459080049" name="expected" index="3vaTzo" />
+      </concept>
+      <concept id="3134161923459084837" name="org.kf2.test.structure.AssertTrue" flags="ng" index="3vaVmc">
+        <child id="3134161923459084838" name="expr" index="3vaVmf" />
+      </concept>
     </language>
     <language id="4441485a-f7fc-4cfb-8044-d8997096c5d6" name="org.kf2.sugar">
       <concept id="3098281514132050133" name="org.kf2.sugar.structure.WithArg" flags="ng" index="2ZPTa">
@@ -1247,6 +1257,37 @@
       <node concept="21A6bZ" id="4mp3zYjXkEx" role="2ij1d7" />
     </node>
     <node concept="2NE3Kg" id="4mp3zYjT0BI" role="37GxYA" />
+  </node>
+  <node concept="37GxXp" id="2HYLUBOlosw">
+    <property role="TrG5h" value="Tests" />
+    <node concept="2NE3Kg" id="2HYLUBOlt7b" role="37GxYA" />
+    <node concept="3vaVmc" id="2HYLUBOlt6$" role="37GxYA">
+      <node concept="1H2aUO" id="2HYLUBOlt6V" role="3vaVmf" />
+    </node>
+    <node concept="2NE3Kg" id="2HYLUBOloHs" role="37GxYA" />
+    <node concept="38WgWO" id="2HYLUBOlD9z" role="37GxYA">
+      <property role="TrG5h" value="calc" />
+      <node concept="1H2aKs" id="2HYLUBOlDek" role="38WgZW">
+        <property role="1H2aK3" value="10" />
+      </node>
+      <node concept="38WgZL" id="2HYLUBOlDc8" role="38WgZu">
+        <property role="TrG5h" value="a" />
+        <node concept="21A6bZ" id="2HYLUBOlDdd" role="37FMM1" />
+      </node>
+    </node>
+    <node concept="2NE3Kg" id="2HYLUBOlD8Z" role="37GxYA" />
+    <node concept="3vaTz7" id="2HYLUBOluPm" role="37GxYA">
+      <node concept="1H2aKs" id="2HYLUBOluPL" role="3vaTz6">
+        <property role="1H2aK3" value="10" />
+      </node>
+      <node concept="2lgVZp" id="2HYLUBOlDfv" role="3vaTzo">
+        <ref role="2lgVZu" node="2HYLUBOlD9z" resolve="calc" />
+        <node concept="1H2aKs" id="2HYLUBOlDgc" role="2lgVZs">
+          <property role="1H2aK3" value="10" />
+        </node>
+      </node>
+    </node>
+    <node concept="2NE3Kg" id="2HYLUBOlt7$" role="37GxYA" />
   </node>
 </model>
 

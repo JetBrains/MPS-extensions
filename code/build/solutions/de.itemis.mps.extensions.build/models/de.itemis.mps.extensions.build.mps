@@ -130,6 +130,7 @@
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
       <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
+        <property id="6503355885715353788" name="bootstrap" index="2igJW4" />
         <property id="7981469545489178349" name="generationMaxHeapSizeInMb" index="3UIfUI" />
         <property id="353547257300482730" name="generationMaxPermSizeInMb" index="1YnnvL" />
       </concept>
@@ -305,6 +306,7 @@
     <node concept="2igEWh" id="2MQBX6KMw95" role="1hWBAP">
       <property role="3UIfUI" value="2024" />
       <property role="1YnnvL" value="1000" />
+      <property role="2igJW4" value="true" />
     </node>
     <node concept="m$_wf" id="2H_mjOXw1Ef" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.nativelibs" />
@@ -6924,8 +6926,8 @@
                 <property role="2Ry0Am" value="shadowmodels" />
                 <node concept="2Ry0Ak" id="5bDu5aAC0ny" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="5bDu5aAC0nz" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions" />
+                  <node concept="2Ry0Ak" id="1Xjxpd26Ia4" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.kf2.core" />
                   </node>
                 </node>
               </node>
@@ -7012,8 +7014,8 @@
                 <property role="2Ry0Am" value="shadowmodels" />
                 <node concept="2Ry0Ak" id="27vxCXgy$2I" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="27vxCXgy$2J" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions" />
+                  <node concept="2Ry0Ak" id="1Xjxpd26IgQ" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.kf2.sugar" />
                   </node>
                 </node>
               </node>
@@ -7085,8 +7087,8 @@
                 <property role="2Ry0Am" value="shadowmodels" />
                 <node concept="2Ry0Ak" id="4JbHIKA7nQp" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="4JbHIKA7nQq" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions" />
+                  <node concept="2Ry0Ak" id="1Xjxpd26InC" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.kf2.state" />
                   </node>
                 </node>
               </node>
@@ -7133,8 +7135,8 @@
                 <property role="2Ry0Am" value="shadowmodels" />
                 <node concept="2Ry0Ak" id="4JbHIKAknWq" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="4JbHIKAknWr" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.examples.expressions" />
+                  <node concept="2Ry0Ak" id="1Xjxpd26Iuq" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.kf2.statemachine" />
                   </node>
                 </node>
               </node>

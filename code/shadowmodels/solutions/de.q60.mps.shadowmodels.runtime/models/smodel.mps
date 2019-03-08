@@ -57,7 +57,7 @@
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
     <import index="bv6w" ref="e52a4835-844d-46a1-99f8-c06129db796f/java:gnu.trove.set.hash(de.q60.mps.shadowmodels.runtime/)" />
     <import index="87lp" ref="e52a4835-844d-46a1-99f8-c06129db796f/java:io.vavr.collection(de.q60.mps.shadowmodels.runtime/)" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
@@ -5125,14 +5125,61 @@
             <node concept="Xjq3P" id="21SKqk9PDdJ" role="33vP2m" />
           </node>
         </node>
+        <node concept="3cpWs8" id="2BYLcdcjJp1" role="3cqZAp">
+          <node concept="3cpWsn" id="2BYLcdcjJp2" role="3cpWs9">
+            <property role="TrG5h" value="presentation" />
+            <node concept="17QB3L" id="2BYLcdcjJoW" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="SfApY" id="2BYLcdcjYpC" role="3cqZAp">
+          <node concept="3clFbS" id="2BYLcdcjYpE" role="SfCbr">
+            <node concept="3clFbF" id="2BYLcdcjP0S" role="3cqZAp">
+              <node concept="37vLTI" id="2BYLcdcjP0U" role="3clFbG">
+                <node concept="2OqwBi" id="2BYLcdcjJp3" role="37vLTx">
+                  <node concept="37vLTw" id="2BYLcdcjJp4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="21SKqk9PDdG" resolve="snode" />
+                  </node>
+                  <node concept="2qgKlT" id="2BYLcdcjJp5" role="2OqNvi">
+                    <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2BYLcdcjP0Y" role="37vLTJ">
+                  <ref role="3cqZAo" node="2BYLcdcjJp2" resolve="presentation" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="2BYLcdcjYpF" role="TEbGg">
+            <node concept="3cpWsn" id="2BYLcdcjYpH" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="2BYLcdckdtd" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="2BYLcdcjYpL" role="TDEfX">
+              <node concept="RRSsy" id="2BYLcdckdPb" role="3cqZAp">
+                <property role="RRSoG" value="debug" />
+                <node concept="Xl_RD" id="2BYLcdckdPd" role="RRSoy" />
+                <node concept="37vLTw" id="2BYLcdckdPf" role="RRSow">
+                  <ref role="3cqZAo" node="2BYLcdcjYpH" resolve="ex" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="2BYLcdckeaI" role="3cqZAp">
+                <node concept="37vLTI" id="2BYLcdckeEw" role="3clFbG">
+                  <node concept="1rXfSq" id="2BYLcdckhd9" role="37vLTx">
+                    <ref role="37wK5l" node="2deitUvWkXI" resolve="toString" />
+                  </node>
+                  <node concept="37vLTw" id="2BYLcdckeaG" role="37vLTJ">
+                    <ref role="3cqZAo" node="2BYLcdcjJp2" resolve="presentation" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="21SKqk9PF5o" role="3cqZAp">
-          <node concept="2OqwBi" id="21SKqk9PF5q" role="3cqZAk">
-            <node concept="37vLTw" id="21SKqk9PF5r" role="2Oq$k0">
-              <ref role="3cqZAo" node="21SKqk9PDdG" resolve="snode" />
-            </node>
-            <node concept="2qgKlT" id="21SKqk9PF5s" role="2OqNvi">
-              <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-            </node>
+          <node concept="37vLTw" id="2BYLcdcjJp6" role="3cqZAk">
+            <ref role="3cqZAo" node="2BYLcdcjJp2" resolve="presentation" />
           </node>
         </node>
       </node>

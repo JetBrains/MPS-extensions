@@ -124,5 +124,23 @@
     <property role="34LRSv" value="bounds" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="69rYimqig5X">
+    <property role="EcuMT" value="7087532378495189373" />
+    <property role="TrG5h" value="ConceptFunctionParameter_Indent" />
+    <property role="34LRSv" value="indent" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3SbGHEnR4ly">
+    <property role="EcuMT" value="4470863707015759202" />
+    <property role="TrG5h" value="ConceptFunctionParameter_LastChildY" />
+    <property role="34LRSv" value="lastChildY" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3SbGHEnRva6">
+    <property role="EcuMT" value="4470863707015869062" />
+    <property role="TrG5h" value="ConceptFunctionParameter_Expanded" />
+    <property role="34LRSv" value="expanded" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 

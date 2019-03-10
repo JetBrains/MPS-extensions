@@ -406,13 +406,16 @@
             <node concept="3cpWsn" id="69rYimomi9i" role="3cpWs9">
               <property role="TrG5h" value="paintGlyphFunction" />
               <node concept="1ajhzC" id="69rYimomi9b" role="1tU5fm">
-                <node concept="10P_77" id="69rYimotmDg" role="1ajl9A" />
+                <node concept="3cqZAl" id="3SbGHEntmS0" role="1ajl9A" />
                 <node concept="3uibUv" id="69rYimomiRD" role="1ajw0F">
                   <ref role="3uigEE" to="z60i:~Graphics2D" resolve="Graphics2D" />
                 </node>
                 <node concept="3uibUv" id="69rYimpiTtS" role="1ajw0F">
                   <ref role="3uigEE" to="z60i:~Rectangle" resolve="Rectangle" />
                 </node>
+                <node concept="10Oyi0" id="69rYimqih94" role="1ajw0F" />
+                <node concept="10Oyi0" id="3SbGHEnQ9ef" role="1ajw0F" />
+                <node concept="10P_77" id="3SbGHEo1qTU" role="1ajw0F" />
                 <node concept="10P_77" id="69rYimomiTB" role="1ajw0F" />
               </node>
               <node concept="1bVj0M" id="69rYimomj3n" role="33vP2m">
@@ -480,9 +483,21 @@
                     <ref role="3uigEE" to="z60i:~Rectangle" resolve="Rectangle" />
                   </node>
                 </node>
+                <node concept="37vLTG" id="69rYimqihQq" role="1bW2Oz">
+                  <property role="TrG5h" value="indent" />
+                  <node concept="10Oyi0" id="69rYimqiiHo" role="1tU5fm" />
+                </node>
+                <node concept="37vLTG" id="3SbGHEnQ9UN" role="1bW2Oz">
+                  <property role="TrG5h" value="lastChildY" />
+                  <node concept="10Oyi0" id="3SbGHEnQaL4" role="1tU5fm" />
+                </node>
                 <node concept="37vLTG" id="69rYimomj7z" role="1bW2Oz">
                   <property role="TrG5h" value="highlighted" />
                   <node concept="10P_77" id="69rYimomjdI" role="1tU5fm" />
+                </node>
+                <node concept="37vLTG" id="3SbGHEo1rAW" role="1bW2Oz">
+                  <property role="TrG5h" value="expanded" />
+                  <node concept="10P_77" id="3SbGHEo1sp5" role="1tU5fm" />
                 </node>
               </node>
             </node>

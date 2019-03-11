@@ -26451,6 +26451,9 @@
     <node concept="3uibUv" id="4j_LshTVk7i" role="EKbjA">
       <ref role="3uigEE" to="pxvb:B8a55Urgn8" resolve="IUserObjectContainer" />
     </node>
+    <node concept="3uibUv" id="3mxFqZU6ndJ" role="EKbjA">
+      <ref role="3uigEE" to="g3l6:~TransientSModel" resolve="TransientSModel" />
+    </node>
     <node concept="312cEg" id="4QZGLsLEOdP" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />

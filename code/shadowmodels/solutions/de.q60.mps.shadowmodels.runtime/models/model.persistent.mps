@@ -5189,6 +5189,19 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4_SQzDOeg5L" role="jymVt" />
+    <node concept="3clFb_" id="2BYLcdc8SfK" role="jymVt">
+      <property role="TrG5h" value="canRead" />
+      <node concept="10P_77" id="2BYLcdc8Srj" role="3clF45" />
+      <node concept="3Tm1VV" id="2BYLcdc8SfN" role="1B3o_S" />
+      <node concept="3clFbS" id="2BYLcdc8SfO" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="2BYLcdc8SsS" role="jymVt">
+      <property role="TrG5h" value="canWrite" />
+      <node concept="10P_77" id="2BYLcdc8SsT" role="3clF45" />
+      <node concept="3Tm1VV" id="2BYLcdc8SsU" role="1B3o_S" />
+      <node concept="3clFbS" id="2BYLcdc8SsV" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="2BYLcdc8Sdi" role="jymVt" />
     <node concept="3clFb_" id="4_SQzDOeg7H" role="jymVt">
       <property role="TrG5h" value="getTransaction" />
       <node concept="3uibUv" id="4_SQzDOev9D" role="3clF45">
@@ -7706,6 +7719,58 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4_SQzDOc091" role="jymVt" />
+    <node concept="3clFb_" id="2BYLcdc8TLg" role="jymVt">
+      <property role="TrG5h" value="canRead" />
+      <node concept="10P_77" id="2BYLcdc8TLh" role="3clF45" />
+      <node concept="3Tm1VV" id="2BYLcdc8TLi" role="1B3o_S" />
+      <node concept="3clFbS" id="2BYLcdc8TLk" role="3clF47">
+        <node concept="3clFbF" id="2BYLcdc8YMd" role="3cqZAp">
+          <node concept="2ZW3vV" id="2BYLcdc9265" role="3clFbG">
+            <node concept="3uibUv" id="2BYLcdc9bqv" role="2ZW6by">
+              <ref role="3uigEE" node="4_SQzDO0jSL" resolve="ITransaction" />
+            </node>
+            <node concept="2OqwBi" id="2BYLcdc8ZfT" role="2ZW6bz">
+              <node concept="37vLTw" id="2BYLcdc8YMc" role="2Oq$k0">
+                <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
+              </node>
+              <node concept="liA8E" id="2BYLcdc91HR" role="2OqNvi">
+                <ref role="37wK5l" to="pxvb:7vWAzuEE1gr" resolve="getValue" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2BYLcdc8TLl" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2BYLcdc8Xu9" role="jymVt" />
+    <node concept="3clFb_" id="2BYLcdc8TLo" role="jymVt">
+      <property role="TrG5h" value="canWrite" />
+      <node concept="10P_77" id="2BYLcdc8TLp" role="3clF45" />
+      <node concept="3Tm1VV" id="2BYLcdc8TLq" role="1B3o_S" />
+      <node concept="3clFbS" id="2BYLcdc8TLs" role="3clF47">
+        <node concept="3clFbF" id="2BYLcdc97CT" role="3cqZAp">
+          <node concept="2ZW3vV" id="2BYLcdc9aG0" role="3clFbG">
+            <node concept="3uibUv" id="2BYLcdc9b71" role="2ZW6by">
+              <ref role="3uigEE" node="4_SQzDOc0eq" resolve="IWriteTransaction" />
+            </node>
+            <node concept="2OqwBi" id="2BYLcdc97Pv" role="2ZW6bz">
+              <node concept="37vLTw" id="2BYLcdc97CS" role="2Oq$k0">
+                <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
+              </node>
+              <node concept="liA8E" id="2BYLcdc9ajz" role="2OqNvi">
+                <ref role="37wK5l" to="pxvb:7vWAzuEE1gr" resolve="getValue" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2BYLcdc8TLt" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2BYLcdc8Who" role="jymVt" />
     <node concept="3clFb_" id="4_SQzDOc3HM" role="jymVt">
       <property role="TrG5h" value="getTransaction" />
       <node concept="3uibUv" id="4_SQzDOc3Lf" role="3clF45">

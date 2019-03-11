@@ -8,6 +8,7 @@
   <imports>
     <import index="shry" ref="r:49e489bb-f00f-4c40-a675-08c681da1ac3(org.kf2.core.transformations)" />
     <import index="nup6" ref="r:1539980b-b231-4c7d-8cde-acae8ba318f2(org.kf2.core.structure)" />
+    <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="r8g4" ref="r:bba4935b-e963-4377-96f6-d91b7da9aab3(org.kf2.sugar.structure)" implicit="true" />
     <import index="ocaj" ref="r:70a35c8f-df0a-4a8a-aaf2-0525bdcd591b(org.kf2.statemachine.structure)" implicit="true" />
     <import index="mwg5" ref="r:d82f3afe-4f95-461e-93ae-4c8788affda2(org.kf2.state.structure)" implicit="true" />
@@ -31,6 +32,7 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -87,6 +89,7 @@
         <reference id="6198477943066252929" name="base" index="1YyVLo" />
         <child id="7335687028107245068" name="output" index="026TK" />
         <child id="7335687028107163827" name="input" index="02i3f" />
+        <child id="8156066107234763314" name="condition" index="vpezr" />
       </concept>
       <concept id="9170566427534778463" name="de.q60.mps.shadowmodels.transformation.structure.TransformationCall" flags="ng" index="214gnc">
         <reference id="6198477943068350028" name="transformation" index="1YEVMl" />
@@ -436,6 +439,50 @@
                 </node>
               </node>
               <node concept="1v1jN8" id="4JbHIKAj2_h" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3y3z36" id="1IIUxduie9S" role="vpezr">
+        <node concept="10Nm6u" id="1IIUxduieKt" role="3uHU7w" />
+        <node concept="2OqwBi" id="1IIUxduicjk" role="3uHU7B">
+          <node concept="2155sH" id="1IIUxduibSF" role="2Oq$k0">
+            <ref role="2155sG" node="4JbHIKAc2M4" resolve="sm" />
+          </node>
+          <node concept="2qgKlT" id="1IIUxduidV5" role="2OqNvi">
+            <ref role="37wK5l" to="4i2u:4JbHIKAcC42" resolve="initialState" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2OrE70" id="1IIUxduiq1T" role="02uzr" />
+    <node concept="2OrE70" id="1IIUxduipFk" role="02uzr" />
+    <node concept="02vpq" id="1IIUxduilPB" role="02uzr">
+      <ref role="1YyVLo" to="shry:5o5qH$CQKdO" resolve="desugar" />
+      <node concept="02i3K" id="1IIUxduilPC" role="02i3f">
+        <property role="TrG5h" value="sm" />
+        <node concept="02i3D" id="1IIUxduilPD" role="02i2B">
+          <ref role="02i3$" to="ocaj:4JbHIKAbwtO" resolve="StateMachine" />
+        </node>
+      </node>
+      <node concept="3clFbC" id="1IIUxduincY" role="vpezr">
+        <node concept="2OqwBi" id="1IIUxduilRc" role="3uHU7B">
+          <node concept="2155sH" id="1IIUxduilRd" role="2Oq$k0">
+            <ref role="2155sG" node="1IIUxduilPC" resolve="sm" />
+          </node>
+          <node concept="2qgKlT" id="1IIUxduilRe" role="2OqNvi">
+            <ref role="37wK5l" to="4i2u:4JbHIKAcC42" resolve="initialState" />
+          </node>
+        </node>
+        <node concept="10Nm6u" id="1IIUxduilRb" role="3uHU7w" />
+      </node>
+      <node concept="026TG" id="1IIUxduiowU" role="026TK">
+        <node concept="027og" id="1IIUxduiqE9" role="026TJ">
+          <ref role="02LMe" to="dj5d:7pvOHdLgGRB" resolve="ErrorPlaceholder" />
+          <node concept="027oh" id="1IIUxduis1d" role="02LM9">
+            <ref role="027oj" to="dj5d:7pvOHdLgGRC" resolve="message" />
+            <node concept="Xl_RD" id="1IIUxduisHm" role="027of">
+              <property role="Xl_RC" value="no initial state given." />
             </node>
           </node>
         </node>

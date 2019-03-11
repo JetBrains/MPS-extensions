@@ -6982,6 +6982,11 @@
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
+        <node concept="1SiIV0" id="Y68irh7dKM" role="3bR37C">
+          <node concept="3bR9La" id="Y68irh7dKN" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="27vxCXgy$2z" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -7151,24 +7156,9 @@
             <ref role="1Busuk" node="BRK1N8p1rh" resolve="org.kf2.core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="4JbHIKAkoBS" role="3bR37C">
-          <node concept="3bR9La" id="4JbHIKAkoBT" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="4JbHIKAkoBU" role="3bR37C">
           <node concept="3bR9La" id="4JbHIKAkoBV" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4JbHIKAkoBW" role="3bR37C">
-          <node concept="1Busua" id="4JbHIKAkoBX" role="1SiIV1">
-            <ref role="1Busuk" node="27vxCXgy$2z" resolve="org.kf2.sugar" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="Tius9XrPoB" role="3bR37C">
-          <node concept="1Busua" id="Tius9XrPoC" role="1SiIV1">
-            <ref role="1Busuk" node="4JbHIKA7nQe" resolve="org.kf2.state" />
           </node>
         </node>
       </node>

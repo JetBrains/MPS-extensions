@@ -25838,35 +25838,26 @@
       <node concept="3cqZAl" id="5G4qAEn6Il6" role="3clF45" />
       <node concept="3Tm1VV" id="5G4qAEn6Il7" role="1B3o_S" />
       <node concept="3clFbS" id="5G4qAEn6Il8" role="3clF47">
-        <node concept="3clFbF" id="5G4qAEn6VAh" role="3cqZAp">
-          <node concept="2OqwBi" id="5G4qAEn6Wnc" role="3clFbG">
-            <node concept="2OqwBi" id="5G4qAEn6VUK" role="2Oq$k0">
-              <node concept="37vLTw" id="5G4qAEn6VAg" role="2Oq$k0">
-                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
+        <node concept="3clFbF" id="5G4qAEn72ap" role="3cqZAp">
+          <node concept="2OqwBi" id="5G4qAEn72Py" role="3clFbG">
+            <node concept="2OqwBi" id="5G4qAEn72sp" role="2Oq$k0">
+              <node concept="37vLTw" id="5G4qAEn72an" role="2Oq$k0">
+                <ref role="3cqZAo" node="QurUgi5ucV" resolve="synchronizer1" />
               </node>
-              <node concept="liA8E" id="5G4qAEn6WaC" role="2OqNvi">
-                <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
+              <node concept="liA8E" id="5G4qAEn72Dg" role="2OqNvi">
+                <ref role="37wK5l" node="QurUgii$vI" resolve="getOutputBranch" />
               </node>
             </node>
-            <node concept="liA8E" id="5G4qAEn71F7" role="2OqNvi">
-              <ref role="37wK5l" to="3hky:4_SQzDObVFY" resolve="runRead" />
-              <node concept="1bVj0M" id="5G4qAEn71S9" role="37wK5m">
-                <node concept="3clFbS" id="5G4qAEn71Sa" role="1bW5cS">
-                  <node concept="3clFbF" id="5G4qAEn72ap" role="3cqZAp">
-                    <node concept="2OqwBi" id="5G4qAEn72Py" role="3clFbG">
-                      <node concept="2OqwBi" id="5G4qAEn72sp" role="2Oq$k0">
-                        <node concept="37vLTw" id="5G4qAEn72an" role="2Oq$k0">
-                          <ref role="3cqZAo" node="QurUgi5ucV" resolve="synchronizer1" />
-                        </node>
-                        <node concept="liA8E" id="5G4qAEn72Dg" role="2OqNvi">
-                          <ref role="37wK5l" node="QurUgii$vI" resolve="getOutputBranch" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="5G4qAEn75ac" role="2OqNvi">
-                        <ref role="37wK5l" to="3hky:4_SQzDO0jTM" resolve="runRead" />
-                        <node concept="37vLTw" id="5G4qAEn75p8" role="37wK5m">
-                          <ref role="3cqZAo" node="5G4qAEn6Q1W" resolve="runnable" />
-                        </node>
+            <node concept="liA8E" id="5G4qAEn75ac" role="2OqNvi">
+              <ref role="37wK5l" to="3hky:4_SQzDO0jTM" resolve="runRead" />
+              <node concept="1bVj0M" id="5dH6dsfIPo_" role="37wK5m">
+                <property role="3yWfEV" value="true" />
+                <node concept="3clFbS" id="5dH6dsfIPoB" role="1bW5cS">
+                  <node concept="3clFbF" id="5dH6dsfJg9j" role="3cqZAp">
+                    <node concept="1rXfSq" id="5dH6dsfJg9h" role="3clFbG">
+                      <ref role="37wK5l" node="1pTQQaTWqtQ" resolve="runReadOnTransformationOutput" />
+                      <node concept="37vLTw" id="5dH6dsfJg$n" role="37wK5m">
+                        <ref role="3cqZAo" node="5G4qAEn6Q1W" resolve="runnable" />
                       </node>
                     </node>
                   </node>

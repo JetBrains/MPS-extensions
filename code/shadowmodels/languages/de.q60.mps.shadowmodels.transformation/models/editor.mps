@@ -1421,7 +1421,7 @@
   </node>
   <node concept="24kQdi" id="4EhVFrYZevM">
     <property role="3GE5qa" value="macros" />
-    <ref role="1XX52x" to="oyp0:4EhVFrYZevB" resolve="LocalLabelReferenceExpression" />
+    <ref role="1XX52x" to="oyp0:4EhVFrYZevB" resolve="LocalLabelReference" />
     <node concept="3EZMnI" id="4EhVFrZo2V$" role="2wV5jI">
       <node concept="l2Vlx" id="4EhVFrZo2V_" role="2iSdaV" />
       <node concept="1iCGBv" id="4EhVFrYZevO" role="3EZMnx">

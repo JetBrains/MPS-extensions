@@ -26,9 +26,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -1092,21 +1089,17 @@
                           </node>
                         </node>
                         <node concept="3clFbF" id="3mxFqZU5tw2" role="3cqZAp">
-                          <node concept="2YIFZM" id="3mxFqZU5tw3" role="3clFbG">
-                            <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
-                            <ref role="37wK5l" to="l6bp:3ECE8iPOQCm" resolve="unwrap" />
-                            <node concept="2OqwBi" id="3mxFqZU5tw4" role="37wK5m">
-                              <node concept="1PxgMI" id="3mxFqZU5tw5" role="2Oq$k0">
-                                <node concept="chp4Y" id="3mxFqZU5tw6" role="3oSUPX">
-                                  <ref role="cht4Q" to="r8g4:2FZjDWB_0Wa" resolve="RecordType" />
-                                </node>
-                                <node concept="37vLTw" id="3mxFqZU5tw7" role="1m5AlR">
-                                  <ref role="3cqZAo" node="3mxFqZU5tvD" resolve="t" />
-                                </node>
+                          <node concept="2OqwBi" id="3mxFqZU5tw4" role="3clFbG">
+                            <node concept="1PxgMI" id="3mxFqZU5tw5" role="2Oq$k0">
+                              <node concept="chp4Y" id="3mxFqZU5tw6" role="3oSUPX">
+                                <ref role="cht4Q" to="r8g4:2FZjDWB_0Wa" resolve="RecordType" />
                               </node>
-                              <node concept="3TrEf2" id="3mxFqZU5tw8" role="2OqNvi">
-                                <ref role="3Tt5mk" to="r8g4:2FZjDWB_0Wb" resolve="rec" />
+                              <node concept="37vLTw" id="3mxFqZU5tw7" role="1m5AlR">
+                                <ref role="3cqZAo" node="3mxFqZU5tvD" resolve="t" />
                               </node>
+                            </node>
+                            <node concept="3TrEf2" id="3mxFqZU5tw8" role="2OqNvi">
+                              <ref role="3Tt5mk" to="r8g4:2FZjDWB_0Wb" resolve="rec" />
                             </node>
                           </node>
                         </node>

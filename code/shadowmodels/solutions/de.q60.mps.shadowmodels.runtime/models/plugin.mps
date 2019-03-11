@@ -569,7 +569,7 @@
     <node concept="Wx3nA" id="4NO8rntTnzD" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="ROOT_ICON" />
-      <node concept="3Tm6S6" id="4NO8rntTny2" role="1B3o_S" />
+      <node concept="3Tm1VV" id="1_qG3hO2Zlc" role="1B3o_S" />
       <node concept="3uibUv" id="4NO8rntTny3" role="1tU5fm">
         <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
       </node>
@@ -594,7 +594,7 @@
     <node concept="Wx3nA" id="4NO8rntTrX3" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="MODULE_ICON" />
-      <node concept="3Tm6S6" id="4NO8rntTrVy" role="1B3o_S" />
+      <node concept="3Tm1VV" id="1_qG3hO2Zt8" role="1B3o_S" />
       <node concept="3uibUv" id="4NO8rntTrVz" role="1tU5fm">
         <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
       </node>
@@ -619,7 +619,7 @@
     <node concept="Wx3nA" id="4NO8rntTytf" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="MODEL_ICON" />
-      <node concept="3Tm6S6" id="4NO8rntTytg" role="1B3o_S" />
+      <node concept="3Tm1VV" id="1_qG3hO2Zxh" role="1B3o_S" />
       <node concept="3uibUv" id="4NO8rntTyth" role="1tU5fm">
         <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
       </node>
@@ -3567,8 +3567,8 @@
                   <node concept="3clFbF" id="56YPHTojVHW" role="3cqZAp">
                     <node concept="2OqwBi" id="56YPHTokeC_" role="3clFbG">
                       <node concept="2YIFZM" id="56YPHTojVJe" role="2Oq$k0">
-                        <ref role="37wK5l" node="115Xaa3Zk30" resolve="getInstance" />
                         <ref role="1Pybhc" node="115Xaa3Z2Jb" resolve="ProjectViewExtension" />
+                        <ref role="37wK5l" node="4S3q4YkONiE" resolve="getInstance" />
                         <node concept="2OqwBi" id="56YPHTokeaJ" role="37wK5m">
                           <node concept="2WthIp" id="56YPHTokeaM" role="2Oq$k0" />
                           <node concept="1DTwFV" id="56YPHTokh1A" role="2OqNvi">

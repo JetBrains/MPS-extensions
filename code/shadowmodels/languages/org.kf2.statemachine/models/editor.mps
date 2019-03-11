@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="ocaj" ref="r:70a35c8f-df0a-4a8a-aaf2-0525bdcd591b(org.kf2.statemachine.structure)" implicit="true" />
+    <import index="68hx" ref="r:a6aa1c94-2467-44b7-a96e-1b746644f9d2(org.kf2.core.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -31,6 +32,9 @@
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
@@ -84,6 +88,7 @@
       <node concept="2iRfu4" id="4JbHIKAbxfj" role="2iSdaV" />
       <node concept="3F0ifn" id="4JbHIKAbwuW" role="3EZMnx">
         <property role="3F0ifm" value="on" />
+        <ref role="1k5W1q" to="68hx:3tIuEqk1SFg" resolve="kf2Keyword" />
       </node>
       <node concept="3F1sOY" id="4JbHIKAbxfv" role="3EZMnx">
         <ref role="1NtTu8" to="ocaj:4JbHIKAbxfr" resolve="trigger" />
@@ -122,6 +127,7 @@
       <node concept="2iRfu4" id="4JbHIKAbwvy" role="2iSdaV" />
       <node concept="3F0ifn" id="4JbHIKAbwvu" role="3EZMnx">
         <property role="3F0ifm" value="event" />
+        <ref role="1k5W1q" to="68hx:3tIuEqk1SFg" resolve="kf2Keyword" />
       </node>
       <node concept="3F0A7n" id="4JbHIKAbwvL" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -157,9 +163,11 @@
         <node concept="2iRfu4" id="4JbHIKAbxbz" role="2iSdaV" />
         <node concept="1kHk_G" id="4JbHIKAbxbC" role="3EZMnx">
           <ref role="1NtTu8" to="ocaj:4JbHIKAbxb5" resolve="initial" />
+          <ref role="1k5W1q" to="68hx:3tIuEqk1SFg" resolve="kf2Keyword" />
         </node>
         <node concept="3F0ifn" id="4JbHIKAbxbI" role="3EZMnx">
           <property role="3F0ifm" value="state" />
+          <ref role="1k5W1q" to="68hx:3tIuEqk1SFg" resolve="kf2Keyword" />
         </node>
         <node concept="3F0A7n" id="4JbHIKAbxbZ" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -196,6 +204,7 @@
         <node concept="2iRfu4" id="4JbHIKAbxdU" role="2iSdaV" />
         <node concept="3F0ifn" id="4JbHIKAbxdZ" role="3EZMnx">
           <property role="3F0ifm" value="machine" />
+          <ref role="1k5W1q" to="68hx:3tIuEqk1SFg" resolve="kf2Keyword" />
         </node>
         <node concept="3F0A7n" id="4JbHIKAbxe5" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />

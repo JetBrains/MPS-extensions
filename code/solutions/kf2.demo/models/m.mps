@@ -1205,16 +1205,34 @@
         </node>
       </node>
       <node concept="1HTr6m" id="1IIUxduiyQS" role="1HTr6i">
-        <property role="1HTqgD" value="true" />
+        <property role="1HTqgD" value="false" />
         <property role="TrG5h" value="redyellow" />
-      </node>
-      <node concept="1HTr6m" id="1IIUxduiySM" role="1HTr6i">
-        <property role="1HTqgD" value="true" />
-        <property role="TrG5h" value="yellow" />
+        <node concept="1HTr6n" id="1IIUxduiVBO" role="1HTr6g">
+          <ref role="1HTr5D" node="1IIUxduiyUs" resolve="green" />
+          <node concept="1HTlrN" id="1IIUxduiVC0" role="1HTqkR">
+            <ref role="1HTlrc" node="1IIUxduiyXS" resolve="Button" />
+          </node>
+        </node>
       </node>
       <node concept="1HTr6m" id="1IIUxduiyUs" role="1HTr6i">
-        <property role="1HTqgD" value="true" />
+        <property role="1HTqgD" value="false" />
         <property role="TrG5h" value="green" />
+        <node concept="1HTr6n" id="1IIUxduiVCt" role="1HTr6g">
+          <ref role="1HTr5D" node="1IIUxduiySM" resolve="yellow" />
+          <node concept="1HTlrN" id="1IIUxduiVCD" role="1HTqkR">
+            <ref role="1HTlrc" node="1IIUxduiyXS" resolve="Button" />
+          </node>
+        </node>
+      </node>
+      <node concept="1HTr6m" id="1IIUxduiySM" role="1HTr6i">
+        <property role="1HTqgD" value="false" />
+        <property role="TrG5h" value="yellow" />
+        <node concept="1HTr6n" id="1IIUxduiVCO" role="1HTr6g">
+          <ref role="1HTr5D" node="1IIUxduiyQ5" resolve="red" />
+          <node concept="1HTlrN" id="1IIUxduiVD0" role="1HTqkR">
+            <ref role="1HTlrc" node="1IIUxduiyXS" resolve="Button" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

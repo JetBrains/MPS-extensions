@@ -312,6 +312,10 @@
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
+      <concept id="1170075670744" name="jetbrains.mps.baseLanguage.structure.SynchronizedStatement" flags="nn" index="1HWtB8">
+        <child id="1170075728144" name="expression" index="1HWFw0" />
+        <child id="1170075736412" name="block" index="1HWHxc" />
+      </concept>
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
         <child id="1163668914799" name="condition" index="3K4Cdx" />
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
@@ -25939,41 +25943,45 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1pTQQaTXgBx" role="3cqZAp">
-          <node concept="2OqwBi" id="1pTQQaTXgBy" role="3clFbG">
-            <node concept="2OqwBi" id="1pTQQaTXgBz" role="2Oq$k0">
-              <node concept="37vLTw" id="1pTQQaTXgB$" role="2Oq$k0">
-                <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
-              </node>
-              <node concept="liA8E" id="1pTQQaTXgB_" role="2OqNvi">
-                <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
-              </node>
-            </node>
-            <node concept="liA8E" id="1pTQQaTXgBA" role="2OqNvi">
-              <ref role="37wK5l" to="3hky:4_SQzDObVFY" resolve="runRead" />
-              <node concept="1bVj0M" id="1pTQQaTXgBB" role="37wK5m">
-                <property role="3yWfEV" value="true" />
-                <node concept="3clFbS" id="1pTQQaTXgBC" role="1bW5cS">
-                  <node concept="3clFbF" id="1pTQQaTXgBN" role="3cqZAp">
-                    <node concept="2OqwBi" id="1pTQQaTXgBO" role="3clFbG">
-                      <node concept="10M0yZ" id="1pTQQaTXgBP" role="2Oq$k0">
-                        <ref role="1PxDUh" to="mjcn:5wi3nvJWiQu" resolve="INodeResolveContext" />
-                        <ref role="3cqZAo" to="mjcn:QurUgiyqpm" resolve="CONTEXT_VALUE" />
-                      </node>
-                      <node concept="liA8E" id="1pTQQaTXgBQ" role="2OqNvi">
-                        <ref role="37wK5l" to="pxvb:7vWAzuEE3Ye" resolve="runWith" />
-                        <node concept="37vLTw" id="1pTQQaTXgBR" role="37wK5m">
-                          <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
-                        </node>
-                        <node concept="1bVj0M" id="1pTQQaTXgBS" role="37wK5m">
-                          <property role="3yWfEV" value="true" />
-                          <node concept="3clFbS" id="1pTQQaTXgBT" role="1bW5cS">
-                            <node concept="3clFbF" id="1pTQQaTXhno" role="3cqZAp">
-                              <node concept="2OqwBi" id="1pTQQaTXhue" role="3clFbG">
-                                <node concept="37vLTw" id="1pTQQaTXhni" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1pTQQaTXbA9" resolve="r" />
+        <node concept="1HWtB8" id="1Ix1gaEEIWJ" role="3cqZAp">
+          <node concept="3clFbS" id="1Ix1gaEEIWN" role="1HWHxc">
+            <node concept="3clFbF" id="1pTQQaTXgBx" role="3cqZAp">
+              <node concept="2OqwBi" id="1pTQQaTXgBy" role="3clFbG">
+                <node concept="2OqwBi" id="1pTQQaTXgBz" role="2Oq$k0">
+                  <node concept="37vLTw" id="1pTQQaTXgB$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
+                  </node>
+                  <node concept="liA8E" id="1pTQQaTXgB_" role="2OqNvi">
+                    <ref role="37wK5l" to="dglc:QurUgihrgX" resolve="getBranch" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1pTQQaTXgBA" role="2OqNvi">
+                  <ref role="37wK5l" to="3hky:4_SQzDObVFY" resolve="runRead" />
+                  <node concept="1bVj0M" id="1pTQQaTXgBB" role="37wK5m">
+                    <property role="3yWfEV" value="true" />
+                    <node concept="3clFbS" id="1pTQQaTXgBC" role="1bW5cS">
+                      <node concept="3clFbF" id="1pTQQaTXgBN" role="3cqZAp">
+                        <node concept="2OqwBi" id="1pTQQaTXgBO" role="3clFbG">
+                          <node concept="10M0yZ" id="1pTQQaTXgBP" role="2Oq$k0">
+                            <ref role="1PxDUh" to="mjcn:5wi3nvJWiQu" resolve="INodeResolveContext" />
+                            <ref role="3cqZAo" to="mjcn:QurUgiyqpm" resolve="CONTEXT_VALUE" />
+                          </node>
+                          <node concept="liA8E" id="1pTQQaTXgBQ" role="2OqNvi">
+                            <ref role="37wK5l" to="pxvb:7vWAzuEE3Ye" resolve="runWith" />
+                            <node concept="37vLTw" id="1pTQQaTXgBR" role="37wK5m">
+                              <ref role="3cqZAo" node="QurUgihbxO" resolve="inputRepositoryMirror" />
+                            </node>
+                            <node concept="1bVj0M" id="1pTQQaTXgBS" role="37wK5m">
+                              <property role="3yWfEV" value="true" />
+                              <node concept="3clFbS" id="1pTQQaTXgBT" role="1bW5cS">
+                                <node concept="3clFbF" id="1pTQQaTXhno" role="3cqZAp">
+                                  <node concept="2OqwBi" id="1pTQQaTXhue" role="3clFbG">
+                                    <node concept="37vLTw" id="1pTQQaTXhni" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="1pTQQaTXbA9" resolve="r" />
+                                    </node>
+                                    <node concept="1Bd96e" id="1pTQQaTXi5K" role="2OqNvi" />
+                                  </node>
                                 </node>
-                                <node concept="1Bd96e" id="1pTQQaTXi5K" role="2OqNvi" />
                               </node>
                             </node>
                           </node>
@@ -25983,6 +25991,14 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1Ix1gaEEGKx" role="1HWFw0">
+            <node concept="37vLTw" id="1Ix1gaEEFXE" role="2Oq$k0">
+              <ref role="3cqZAo" node="7YhLqbpgih0" resolve="engine" />
+            </node>
+            <node concept="liA8E" id="1Ix1gaEEHLE" role="2OqNvi">
+              <ref role="37wK5l" to="nv3w:5wi3nvKLEEQ" resolve="getIncrementalEngine" />
             </node>
           </node>
         </node>

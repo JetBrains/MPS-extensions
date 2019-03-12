@@ -58,9 +58,6 @@
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
-      <concept id="1203071677434" name="jetbrains.mps.lang.plugin.structure.ToolDeclaration" flags="ng" index="sEfby">
-        <child id="1214307129846" name="getComponentBlock" index="2Um5zG" />
-      </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
         <child id="1204991552650" name="modifier" index="2f5YQi" />
@@ -72,11 +69,18 @@
       <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
+      <concept id="5896642449625987000" name="jetbrains.mps.lang.plugin.structure.AddTabOperation" flags="nn" index="2wDMaC">
+        <child id="7566788359602201160" name="tab" index="11Dce$" />
+      </concept>
+      <concept id="5896642449625981893" name="jetbrains.mps.lang.plugin.structure.TabbedToolDeclaration" flags="ng" index="2wDNrl" />
       <concept id="1213888653896" name="jetbrains.mps.lang.plugin.structure.InitBlock" flags="in" index="2xpIHi" />
       <concept id="1213888797251" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_Project" flags="nn" index="2xqhHp" />
+      <concept id="6938053545825350222" name="jetbrains.mps.lang.plugin.structure.ToolTab" flags="ng" index="2BLXyY">
+        <child id="6938053545825381648" name="componentExpression" index="2BLOvw" />
+        <child id="6938053545825381649" name="titleExpression" index="2BLOvx" />
+      </concept>
       <concept id="1205679047295" name="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration" flags="ig" index="2S4$dB" />
       <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
-      <concept id="1214307303872" name="jetbrains.mps.lang.plugin.structure.GetComponentBlock" flags="in" index="2UmK3q" />
       <concept id="6547237850567458268" name="jetbrains.mps.lang.plugin.structure.BaseToolDeclaration" flags="ng" index="2XNcJY">
         <property id="6547237850567462620" name="caption" index="2XNbzY" />
         <child id="8096638938275469614" name="toolInitBlock" index="uR5cp" />
@@ -366,125 +370,6 @@
     </language>
   </registry>
   <node concept="2DaZZR" id="5wnrAmTEVvB" />
-  <node concept="sEfby" id="5wnrAmTEVvC">
-    <property role="TrG5h" value="ShadowModelDebugTool" />
-    <property role="2XNbzY" value="Shadow Models" />
-    <node concept="2XrIbr" id="5wnrAmTKBH_" role="2XNbBy">
-      <property role="TrG5h" value="loadTrace" />
-      <node concept="37vLTG" id="5wnrAmTKC5t" role="3clF46">
-        <property role="TrG5h" value="element" />
-        <node concept="3uibUv" id="55FR5sarouS" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="5wnrAmTKC52" role="3clF45" />
-      <node concept="3clFbS" id="5wnrAmTKBHB" role="3clF47">
-        <node concept="3clFbF" id="5wnrAmTKCmY" role="3cqZAp">
-          <node concept="2OqwBi" id="5wnrAmTKD7H" role="3clFbG">
-            <node concept="1eOMI4" id="3RcjyAv1Vku" role="2Oq$k0">
-              <node concept="10QFUN" id="3RcjyAv1Vkt" role="1eOMHV">
-                <node concept="2OqwBi" id="3RcjyAv1Vkq" role="10QFUP">
-                  <node concept="2WthIp" id="3RcjyAv1Vkr" role="2Oq$k0" />
-                  <node concept="liA8E" id="3RcjyAv1Vks" role="2OqNvi">
-                    <ref role="37wK5l" to="71xd:~BaseTool.getComponent():javax.swing.JComponent" resolve="getComponent" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="3RcjyAv1VuF" role="10QFUM">
-                  <ref role="3uigEE" node="5wnrAmTF3RP" resolve="TransformationTraceComponent" />
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="5wnrAmTKDKs" role="2OqNvi">
-              <ref role="37wK5l" node="5wnrAmTHAVN" resolve="loadTrace" />
-              <node concept="37vLTw" id="5wnrAmTKDL7" role="37wK5m">
-                <ref role="3cqZAo" node="5wnrAmTKC5t" resolve="element" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="5wnrAmTKC1F" role="1B3o_S" />
-    </node>
-    <node concept="2BZ0e9" id="5wnrAmTKwEo" role="2XNbBz">
-      <property role="TrG5h" value="project" />
-      <node concept="3Tm6S6" id="5wnrAmTKwEp" role="1B3o_S" />
-      <node concept="3uibUv" id="5wnrAmTW9ck" role="1tU5fm">
-        <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
-      </node>
-    </node>
-    <node concept="2BZ0e9" id="5wnrAmTFkah" role="2XNbBz">
-      <property role="TrG5h" value="component" />
-      <node concept="3Tm6S6" id="5wnrAmTFkai" role="1B3o_S" />
-      <node concept="3uibUv" id="5wnrAmTFkgN" role="1tU5fm">
-        <ref role="3uigEE" node="5wnrAmTF3RP" resolve="TransformationTraceComponent" />
-      </node>
-    </node>
-    <node concept="2UmK3q" id="5wnrAmTEVvD" role="2Um5zG">
-      <node concept="3clFbS" id="5wnrAmTEVvE" role="2VODD2">
-        <node concept="3clFbJ" id="5wnrAmTFt2J" role="3cqZAp">
-          <node concept="3clFbS" id="5wnrAmTFt2L" role="3clFbx">
-            <node concept="3clFbF" id="5wnrAmTFqKa" role="3cqZAp">
-              <node concept="37vLTI" id="5wnrAmTFrW7" role="3clFbG">
-                <node concept="2ShNRf" id="5wnrAmTFsgM" role="37vLTx">
-                  <node concept="1pGfFk" id="5wnrAmTFs9j" role="2ShVmc">
-                    <ref role="37wK5l" node="5wnrAmTFjTQ" resolve="TransformationTraceComponent" />
-                    <node concept="2OqwBi" id="5wnrAmTKyEJ" role="37wK5m">
-                      <node concept="2WthIp" id="5wnrAmTKyEM" role="2Oq$k0" />
-                      <node concept="2BZ7hE" id="5wnrAmTKyEO" role="2OqNvi">
-                        <ref role="2WH_rO" node="5wnrAmTKwEo" resolve="project" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="5wnrAmTFqK4" role="37vLTJ">
-                  <node concept="2WthIp" id="5wnrAmTFqK7" role="2Oq$k0" />
-                  <node concept="2BZ7hE" id="5wnrAmTFqK9" role="2OqNvi">
-                    <ref role="2WH_rO" node="5wnrAmTFkah" resolve="component" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="5wnrAmTFul5" role="3clFbw">
-            <node concept="10Nm6u" id="5wnrAmTFuDT" role="3uHU7w" />
-            <node concept="2OqwBi" id="5wnrAmTFtg4" role="3uHU7B">
-              <node concept="2WthIp" id="5wnrAmTFtg7" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="5wnrAmTFtg9" role="2OqNvi">
-                <ref role="2WH_rO" node="5wnrAmTFkah" resolve="component" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5wnrAmTFvxE" role="3cqZAp">
-          <node concept="2OqwBi" id="5wnrAmTFvx$" role="3clFbG">
-            <node concept="2WthIp" id="5wnrAmTFvxB" role="2Oq$k0" />
-            <node concept="2BZ7hE" id="5wnrAmTFvxD" role="2OqNvi">
-              <ref role="2WH_rO" node="5wnrAmTFkah" resolve="component" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2xpIHi" id="5wnrAmTFzbH" role="uR5cp">
-      <node concept="3clFbS" id="5wnrAmTFzbI" role="2VODD2">
-        <node concept="3clFbF" id="5wnrAmTKx5E" role="3cqZAp">
-          <node concept="37vLTI" id="5wnrAmTKxZu" role="3clFbG">
-            <node concept="2YIFZM" id="5wnrAmTKyz5" role="37vLTx">
-              <ref role="37wK5l" to="alof:~ProjectHelper.toMPSProject(com.intellij.openapi.project.Project):jetbrains.mps.project.Project" resolve="toMPSProject" />
-              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-              <node concept="2xqhHp" id="5wnrAmTKyAd" role="37wK5m" />
-            </node>
-            <node concept="2OqwBi" id="5wnrAmTKxi9" role="37vLTJ">
-              <node concept="2WthIp" id="5wnrAmTKx5C" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="5wnrAmTKxLV" role="2OqNvi">
-                <ref role="2WH_rO" node="5wnrAmTKwEo" resolve="project" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="312cEu" id="5wnrAmTF3RP">
     <property role="TrG5h" value="TransformationTraceComponent" />
     <node concept="2tJIrI" id="2BHSBis4yxY" role="jymVt" />
@@ -2400,16 +2285,19 @@
                 </node>
               </node>
               <node concept="LR4U6" id="5wnrAmTKF5T" role="2OqNvi">
-                <ref role="LR4U5" node="5wnrAmTEVvC" resolve="ShadowModelDebugTool" />
+                <ref role="LR4U5" node="7POzUCriGz7" resolve="ShadowModelsDebugTool" />
               </node>
             </node>
             <node concept="2XshWL" id="5wnrAmTKFsu" role="2OqNvi">
-              <ref role="2WH_rO" node="5wnrAmTKBH_" resolve="loadTrace" />
+              <ref role="2WH_rO" node="7POzUCriZua" resolve="loadTrace" />
               <node concept="2OqwBi" id="5wnrAmTKFu_" role="2XxRq1">
                 <node concept="2WthIp" id="5wnrAmTKFuC" role="2Oq$k0" />
                 <node concept="3gHZIF" id="5wnrAmTKFuE" role="2OqNvi">
                   <ref role="2WH_rO" node="5wnrAmTKE2b" resolve="node" />
                 </node>
+              </node>
+              <node concept="Xl_RD" id="7POzUCrj1LM" role="2XxRq1">
+                <property role="Xl_RC" value="Traceback" />
               </node>
             </node>
           </node>
@@ -2424,7 +2312,7 @@
                 </node>
               </node>
               <node concept="LR4U6" id="5wnrAmTNTMv" role="2OqNvi">
-                <ref role="LR4U5" node="5wnrAmTEVvC" resolve="ShadowModelDebugTool" />
+                <ref role="LR4U5" node="7POzUCriGz7" resolve="ShadowModelsDebugTool" />
               </node>
             </node>
             <node concept="liA8E" id="5wnrAmTNUaX" role="2OqNvi">
@@ -2574,13 +2462,16 @@
                           </node>
                         </node>
                         <node concept="LR4U6" id="55FR5sargne" role="2OqNvi">
-                          <ref role="LR4U5" node="5wnrAmTEVvC" resolve="ShadowModelDebugTool" />
+                          <ref role="LR4U5" node="7POzUCriGz7" resolve="ShadowModelsDebugTool" />
                         </node>
                       </node>
                       <node concept="2XshWL" id="55FR5sargnf" role="2OqNvi">
-                        <ref role="2WH_rO" node="5wnrAmTKBH_" resolve="loadTrace" />
+                        <ref role="2WH_rO" node="7POzUCriZua" resolve="loadTrace" />
                         <node concept="37vLTw" id="55FR5sariEo" role="2XxRq1">
                           <ref role="3cqZAo" node="1pTQQaTYy2t" resolve="subgraph" />
+                        </node>
+                        <node concept="Xl_RD" id="7POzUCrj0HI" role="2XxRq1">
+                          <property role="Xl_RC" value="Shadow Repository Forks" />
                         </node>
                       </node>
                     </node>
@@ -2600,7 +2491,7 @@
                 </node>
               </node>
               <node concept="LR4U6" id="55FR5sargnp" role="2OqNvi">
-                <ref role="LR4U5" node="5wnrAmTEVvC" resolve="ShadowModelDebugTool" />
+                <ref role="LR4U5" node="7POzUCriGz7" resolve="ShadowModelsDebugTool" />
               </node>
             </node>
             <node concept="liA8E" id="55FR5sargnq" role="2OqNvi">
@@ -3024,6 +2915,133 @@
       <node concept="3cqZAl" id="2BYLcdc3IDh" role="3clF45" />
       <node concept="3Tmbuc" id="2BYLcdc3IZE" role="1B3o_S" />
       <node concept="3clFbS" id="2BYLcdc3IDj" role="3clF47" />
+    </node>
+  </node>
+  <node concept="2wDNrl" id="7POzUCriGz7">
+    <property role="TrG5h" value="ShadowModelsDebugTool" />
+    <property role="2XNbzY" value="Shadow Models" />
+    <node concept="2XrIbr" id="7POzUCriJ3E" role="2XNbBy">
+      <property role="TrG5h" value="loadTrace" />
+      <node concept="37vLTG" id="7POzUCriJ3F" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="3uibUv" id="7POzUCriJ3G" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7POzUCriJ3H" role="3clF45" />
+      <node concept="3clFbS" id="7POzUCriJ3I" role="3clF47">
+        <node concept="3clFbF" id="7POzUCriZSu" role="3cqZAp">
+          <node concept="2OqwBi" id="7POzUCriZSo" role="3clFbG">
+            <node concept="2WthIp" id="7POzUCriZSr" role="2Oq$k0" />
+            <node concept="2XshWL" id="7POzUCriZSt" role="2OqNvi">
+              <ref role="2WH_rO" node="7POzUCriZua" resolve="loadTrace" />
+              <node concept="37vLTw" id="7POzUCriZUa" role="2XxRq1">
+                <ref role="3cqZAo" node="7POzUCriJ3F" resolve="element" />
+              </node>
+              <node concept="3cpWs3" id="7POzUCrj0cv" role="2XxRq1">
+                <node concept="37vLTw" id="7POzUCrj0d1" role="3uHU7w">
+                  <ref role="3cqZAo" node="7POzUCriJ3F" resolve="element" />
+                </node>
+                <node concept="Xl_RD" id="7POzUCriZUQ" role="3uHU7B">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7POzUCriJ3T" role="1B3o_S" />
+    </node>
+    <node concept="2XrIbr" id="7POzUCriZua" role="2XNbBy">
+      <property role="TrG5h" value="loadTrace" />
+      <node concept="37vLTG" id="7POzUCriZub" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="3uibUv" id="7POzUCriZuc" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7POzUCriZCc" role="3clF46">
+        <property role="TrG5h" value="title" />
+        <node concept="17QB3L" id="7POzUCriZHW" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="7POzUCriZud" role="3clF45" />
+      <node concept="3clFbS" id="7POzUCriZue" role="3clF47">
+        <node concept="3cpWs8" id="7POzUCriZuf" role="3cqZAp">
+          <node concept="3cpWsn" id="7POzUCriZug" role="3cpWs9">
+            <property role="TrG5h" value="comp" />
+            <node concept="3uibUv" id="7POzUCriZuh" role="1tU5fm">
+              <ref role="3uigEE" node="5wnrAmTF3RP" resolve="TransformationTraceComponent" />
+            </node>
+            <node concept="2ShNRf" id="7POzUCriZui" role="33vP2m">
+              <node concept="1pGfFk" id="7POzUCriZuj" role="2ShVmc">
+                <ref role="37wK5l" node="5wnrAmTFjTQ" resolve="TransformationTraceComponent" />
+                <node concept="2OqwBi" id="7POzUCriZuk" role="37wK5m">
+                  <node concept="2WthIp" id="7POzUCriZul" role="2Oq$k0" />
+                  <node concept="2BZ7hE" id="7POzUCriZum" role="2OqNvi">
+                    <ref role="2WH_rO" node="7POzUCriJ0A" resolve="project" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7POzUCriZun" role="3cqZAp">
+          <node concept="2OqwBi" id="7POzUCriZuo" role="3clFbG">
+            <node concept="37vLTw" id="7POzUCriZup" role="2Oq$k0">
+              <ref role="3cqZAo" node="7POzUCriZug" resolve="comp" />
+            </node>
+            <node concept="liA8E" id="7POzUCriZuq" role="2OqNvi">
+              <ref role="37wK5l" node="5wnrAmTHAVN" resolve="loadTrace" />
+              <node concept="37vLTw" id="7POzUCriZur" role="37wK5m">
+                <ref role="3cqZAo" node="7POzUCriZub" resolve="element" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7POzUCriZus" role="3cqZAp">
+          <node concept="2OqwBi" id="7POzUCriZut" role="3clFbG">
+            <node concept="2WthIp" id="7POzUCriZuu" role="2Oq$k0" />
+            <node concept="2wDMaC" id="7POzUCriZuv" role="2OqNvi">
+              <node concept="2BLXyY" id="7POzUCriZuw" role="11Dce$">
+                <node concept="37vLTw" id="7POzUCriZux" role="2BLOvw">
+                  <ref role="3cqZAo" node="7POzUCriZug" resolve="comp" />
+                </node>
+                <node concept="37vLTw" id="7POzUCriZIm" role="2BLOvx">
+                  <ref role="3cqZAo" node="7POzUCriZCc" resolve="title" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7POzUCrjCIt" role="3cqZAp" />
+      </node>
+      <node concept="3Tm1VV" id="7POzUCriZu_" role="1B3o_S" />
+    </node>
+    <node concept="2BZ0e9" id="7POzUCriJ0A" role="2XNbBz">
+      <property role="TrG5h" value="project" />
+      <node concept="3Tm6S6" id="7POzUCriJ0B" role="1B3o_S" />
+      <node concept="3uibUv" id="7POzUCriJ0C" role="1tU5fm">
+        <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+      </node>
+    </node>
+    <node concept="2xpIHi" id="7POzUCriJ1C" role="uR5cp">
+      <node concept="3clFbS" id="7POzUCriJ1D" role="2VODD2">
+        <node concept="3clFbF" id="7POzUCriJ1E" role="3cqZAp">
+          <node concept="37vLTI" id="7POzUCriJ1F" role="3clFbG">
+            <node concept="2YIFZM" id="7POzUCriJ1G" role="37vLTx">
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <ref role="37wK5l" to="alof:~ProjectHelper.toMPSProject(com.intellij.openapi.project.Project):jetbrains.mps.project.Project" resolve="toMPSProject" />
+              <node concept="2xqhHp" id="7POzUCriJ1H" role="37wK5m" />
+            </node>
+            <node concept="2OqwBi" id="7POzUCriJ1I" role="37vLTJ">
+              <node concept="2WthIp" id="7POzUCriJ1J" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="7POzUCriJ1K" role="2OqNvi">
+                <ref role="2WH_rO" node="7POzUCriJ0A" resolve="project" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

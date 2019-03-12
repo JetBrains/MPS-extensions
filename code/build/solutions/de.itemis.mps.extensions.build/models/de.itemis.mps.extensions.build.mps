@@ -6766,6 +6766,9 @@
         <node concept="3LEDTy" id="7c10t$7lRsi" role="3LEDUa">
           <ref role="3LEDTV" node="4iIKqJTZ5Hg" resolve="de.q60.mps.shadowmodels.gen.afterPF" />
         </node>
+        <node concept="3LEDTy" id="36ihF502GIu" role="3LEDUa">
+          <ref role="3LEDTV" node="7c10t$7lQIA" resolve="de.q60.mps.shadowmodels.gen.typesystem" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="BRK1N8p1kg" role="3989C9">

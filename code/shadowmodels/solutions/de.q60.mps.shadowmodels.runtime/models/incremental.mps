@@ -1977,6 +1977,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4OBfrz$xMu7" role="jymVt" />
+    <node concept="312cEg" id="1FJzl_0Ez8" role="jymVt">
+      <property role="TrG5h" value="lostDependencies" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tmbuc" id="1FJzl_2euo" role="1B3o_S" />
+      <node concept="2hMVRd" id="1FJzl_0Ltb" role="1tU5fm">
+        <node concept="3uibUv" id="1FJzl_0LVj" role="2hN53Y">
+          <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+        </node>
+      </node>
+      <node concept="2ShNRf" id="1FJzl_0QR3" role="33vP2m">
+        <node concept="1pGfFk" id="1FJzl_0RXB" role="2ShVmc">
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <node concept="3uibUv" id="1FJzl_0ULB" role="1pMfVU">
+            <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4OBfrz$xMu8" role="jymVt">
       <property role="TrG5h" value="evaluateWithTracking" />
       <node concept="37vLTG" id="4OBfrz$xMub" role="3clF46">
@@ -2000,42 +2018,178 @@
       </node>
       <node concept="3Tmbuc" id="4OBfrz$xMug" role="1B3o_S" />
       <node concept="3clFbS" id="4OBfrz$xMuh" role="3clF47">
-        <node concept="3clFbF" id="3vsFnFV6Oc_" role="3cqZAp">
-          <node concept="2OqwBi" id="3vsFnFV6Q3O" role="3clFbG">
-            <node concept="10M0yZ" id="3vsFnFV6PLX" role="2Oq$k0">
-              <ref role="3cqZAo" node="3SvKIiMoXH" resolve="INSTANCE" />
-              <ref role="1PxDUh" node="3SvKIiMamz" resolve="DependencyBroadcaster" />
-            </node>
-            <node concept="liA8E" id="3vsFnFV6QtI" role="2OqNvi">
-              <ref role="37wK5l" node="3vsFnFV6mHG" resolve="evaluateWithTracking" />
-              <node concept="37vLTw" id="3vsFnFV6Qxk" role="37wK5m">
-                <ref role="3cqZAo" node="4OBfrz$_ySS" resolve="computable" />
+        <node concept="3cpWs8" id="1FJzl$ZMlZ" role="3cqZAp">
+          <node concept="3cpWsn" id="1FJzl$ZMm2" role="3cpWs9">
+            <property role="TrG5h" value="collectedDeps" />
+            <property role="3TUv4t" value="true" />
+            <node concept="2hMVRd" id="1FJzl$ZMlV" role="1tU5fm">
+              <node concept="3uibUv" id="1FJzl$ZMzH" role="2hN53Y">
+                <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
               </node>
-              <node concept="1bVj0M" id="3vsFnFV6QDE" role="37wK5m">
-                <property role="3yWfEV" value="true" />
-                <node concept="3clFbS" id="3vsFnFV6QDG" role="1bW5cS">
-                  <node concept="3clFbF" id="3vsFnFV6R0_" role="3cqZAp">
-                    <node concept="2OqwBi" id="3vsFnFV6Roh" role="3clFbG">
-                      <node concept="37vLTw" id="3vsFnFV6R0$" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4OBfrz$xMnw" resolve="dependencies" />
-                      </node>
-                      <node concept="liA8E" id="3vsFnFV6S7$" role="2OqNvi">
-                        <ref role="37wK5l" node="3RWdhMV_4tI" resolve="put" />
-                        <node concept="37vLTw" id="3vsFnFV6SHm" role="37wK5m">
-                          <ref role="3cqZAo" node="3vsFnFV6QI_" resolve="dep" />
+            </node>
+            <node concept="2ShNRf" id="1FJzl$ZN5B" role="33vP2m">
+              <node concept="1pGfFk" id="1FJzl$ZRwd" role="2ShVmc">
+                <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+                <node concept="3uibUv" id="1FJzl$ZS7z" role="1pMfVU">
+                  <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="SfApY" id="1FJzl_0rP4" role="3cqZAp">
+          <node concept="3clFbS" id="1FJzl_0rP6" role="SfCbr">
+            <node concept="3cpWs6" id="1FJzl_2dkF" role="3cqZAp">
+              <node concept="2OqwBi" id="1FJzl_2dkH" role="3cqZAk">
+                <node concept="10M0yZ" id="1FJzl_2dkI" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3SvKIiMoXH" resolve="INSTANCE" />
+                  <ref role="1PxDUh" node="3SvKIiMamz" resolve="DependencyBroadcaster" />
+                </node>
+                <node concept="liA8E" id="1FJzl_2dkJ" role="2OqNvi">
+                  <ref role="37wK5l" node="3vsFnFV6mHG" resolve="evaluateWithTracking" />
+                  <node concept="1bVj0M" id="1FJzl_2dkK" role="37wK5m">
+                    <node concept="3clFbS" id="1FJzl_2dkL" role="1bW5cS">
+                      <node concept="3cpWs8" id="1FJzl_2dkM" role="3cqZAp">
+                        <node concept="3cpWsn" id="1FJzl_2dkN" role="3cpWs9">
+                          <property role="TrG5h" value="r" />
+                          <node concept="16syzq" id="1FJzl_2dkO" role="1tU5fm">
+                            <ref role="16sUi3" node="64zIT8S9Ta5" resolve="T" />
+                          </node>
+                          <node concept="2OqwBi" id="1FJzl_2dkP" role="33vP2m">
+                            <node concept="37vLTw" id="1FJzl_2dkQ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4OBfrz$_ySS" resolve="computable" />
+                            </node>
+                            <node concept="1Bd96e" id="1FJzl_2dkR" role="2OqNvi" />
+                          </node>
                         </node>
-                        <node concept="37vLTw" id="3vsFnFV6U0o" role="37wK5m">
-                          <ref role="3cqZAo" node="4OBfrz$xMub" resolve="key" />
+                      </node>
+                      <node concept="2Gpval" id="1FJzl_2dkS" role="3cqZAp">
+                        <node concept="2GrKxI" id="1FJzl_2dkT" role="2Gsz3X">
+                          <property role="TrG5h" value="dep" />
+                        </node>
+                        <node concept="37vLTw" id="1FJzl_2dkU" role="2GsD0m">
+                          <ref role="3cqZAo" node="1FJzl$ZMm2" resolve="collectedDeps" />
+                        </node>
+                        <node concept="3clFbS" id="1FJzl_2dkV" role="2LFqv$">
+                          <node concept="3clFbF" id="1FJzl_2dkW" role="3cqZAp">
+                            <node concept="2OqwBi" id="1FJzl_2dkX" role="3clFbG">
+                              <node concept="37vLTw" id="1FJzl_2dkY" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4OBfrz$xMnw" resolve="dependencies" />
+                              </node>
+                              <node concept="liA8E" id="1FJzl_2dkZ" role="2OqNvi">
+                                <ref role="37wK5l" node="3RWdhMV_4tI" resolve="put" />
+                                <node concept="2GrUjf" id="1FJzl_2dl0" role="37wK5m">
+                                  <ref role="2Gs0qQ" node="1FJzl_2dkT" resolve="dep" />
+                                </node>
+                                <node concept="37vLTw" id="1FJzl_2dl1" role="37wK5m">
+                                  <ref role="3cqZAo" node="4OBfrz$xMub" resolve="key" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="1FJzl_2dl2" role="3cqZAp">
+                        <node concept="3clFbS" id="1FJzl_2dl3" role="3clFbx">
+                          <node concept="2Gpval" id="1FJzl_2dl4" role="3cqZAp">
+                            <node concept="2GrKxI" id="1FJzl_2dl5" role="2Gsz3X">
+                              <property role="TrG5h" value="dep" />
+                            </node>
+                            <node concept="37vLTw" id="1FJzl_2dl6" role="2GsD0m">
+                              <ref role="3cqZAo" node="1FJzl_0Ez8" resolve="lostDependencies" />
+                            </node>
+                            <node concept="3clFbS" id="1FJzl_2dl7" role="2LFqv$">
+                              <node concept="3clFbF" id="1FJzl_2dl8" role="3cqZAp">
+                                <node concept="2OqwBi" id="1FJzl_2dl9" role="3clFbG">
+                                  <node concept="37vLTw" id="1FJzl_2dla" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4OBfrz$xMnw" resolve="dependencies" />
+                                  </node>
+                                  <node concept="liA8E" id="1FJzl_2dlb" role="2OqNvi">
+                                    <ref role="37wK5l" node="3RWdhMV_4tI" resolve="put" />
+                                    <node concept="2GrUjf" id="1FJzl_2dlc" role="37wK5m">
+                                      <ref role="2Gs0qQ" node="1FJzl_2dl5" resolve="dep" />
+                                    </node>
+                                    <node concept="37vLTw" id="1FJzl_2dld" role="37wK5m">
+                                      <ref role="3cqZAo" node="4OBfrz$xMub" resolve="key" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="1FJzl_2dle" role="3cqZAp">
+                            <node concept="2OqwBi" id="1FJzl_2dlf" role="3clFbG">
+                              <node concept="37vLTw" id="1FJzl_2dlg" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1FJzl_0Ez8" resolve="lostDependencies" />
+                              </node>
+                              <node concept="2EZike" id="1FJzl_2dlh" role="2OqNvi" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="1FJzl_2dli" role="3clFbw">
+                          <node concept="37vLTw" id="1FJzl_2dlj" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1FJzl_0Ez8" resolve="lostDependencies" />
+                          </node>
+                          <node concept="3GX2aA" id="1FJzl_2dlk" role="2OqNvi" />
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="1FJzl_2dll" role="3cqZAp">
+                        <node concept="37vLTw" id="1FJzl_2dlm" role="3cqZAk">
+                          <ref role="3cqZAo" node="1FJzl_2dkN" resolve="r" />
                         </node>
                       </node>
                     </node>
                   </node>
-                </node>
-                <node concept="37vLTG" id="3vsFnFV6QI_" role="1bW2Oz">
-                  <property role="TrG5h" value="dep" />
-                  <node concept="3uibUv" id="3vsFnFV6QNu" role="1tU5fm">
-                    <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+                  <node concept="1bVj0M" id="1FJzl_2dln" role="37wK5m">
+                    <property role="3yWfEV" value="true" />
+                    <node concept="3clFbS" id="1FJzl_2dlo" role="1bW5cS">
+                      <node concept="3clFbF" id="1FJzl_2dlp" role="3cqZAp">
+                        <node concept="2OqwBi" id="1FJzl_2dlq" role="3clFbG">
+                          <node concept="37vLTw" id="1FJzl_2dlr" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1FJzl$ZMm2" resolve="collectedDeps" />
+                          </node>
+                          <node concept="TSZUe" id="1FJzl_2dls" role="2OqNvi">
+                            <node concept="37vLTw" id="1FJzl_2dlt" role="25WWJ7">
+                              <ref role="3cqZAo" node="1FJzl_2dlu" resolve="dep" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTG" id="1FJzl_2dlu" role="1bW2Oz">
+                      <property role="TrG5h" value="dep" />
+                      <node concept="3uibUv" id="1FJzl_2dlv" role="1tU5fm">
+                        <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
+                      </node>
+                    </node>
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="1FJzl_0rP7" role="TEbGg">
+            <node concept="3cpWsn" id="1FJzl_0rP9" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="1FJzl_0u96" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1FJzl_0rPd" role="TDEfX">
+              <node concept="3clFbF" id="1FJzl_1WZy" role="3cqZAp">
+                <node concept="2OqwBi" id="1FJzl_1XJu" role="3clFbG">
+                  <node concept="37vLTw" id="1FJzl_1WZw" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1FJzl_0Ez8" resolve="lostDependencies" />
+                  </node>
+                  <node concept="X8dFx" id="1FJzl_2c9_" role="2OqNvi">
+                    <node concept="37vLTw" id="1FJzl_2cLA" role="25WWJ7">
+                      <ref role="3cqZAo" node="1FJzl$ZMm2" resolve="collectedDeps" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="YS8fn" id="1FJzl_0tG6" role="3cqZAp">
+                <node concept="37vLTw" id="1FJzl_0tQ3" role="YScLw">
+                  <ref role="3cqZAo" node="1FJzl_0rP9" resolve="ex" />
                 </node>
               </node>
             </node>

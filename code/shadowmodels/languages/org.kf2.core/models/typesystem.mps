@@ -75,6 +75,10 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -130,6 +134,9 @@
       <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
@@ -3615,18 +3622,26 @@
                     </node>
                   </node>
                   <node concept="TSZUe" id="Ura7pooZnz" role="2OqNvi">
-                    <node concept="2OqwBi" id="Ura7pop5lD" role="25WWJ7">
-                      <node concept="2OqwBi" id="Ura7pop47_" role="2Oq$k0">
-                        <node concept="37vLTw" id="Ura7pooZyR" role="2Oq$k0">
-                          <ref role="3cqZAo" node="Ura7pooSKQ" resolve="superTypes" />
-                        </node>
-                        <node concept="liA8E" id="Ura7pop4XD" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~Set.iterator():java.util.Iterator" resolve="iterator" />
+                    <node concept="2OqwBi" id="7bBy93lgil4" role="25WWJ7">
+                      <node concept="1eOMI4" id="7bBy93lghTv" role="2Oq$k0">
+                        <node concept="10QFUN" id="7bBy93lghgd" role="1eOMHV">
+                          <node concept="2OqwBi" id="7bBy93lghg8" role="10QFUP">
+                            <node concept="2OqwBi" id="7bBy93lghg9" role="2Oq$k0">
+                              <node concept="37vLTw" id="7bBy93lghga" role="2Oq$k0">
+                                <ref role="3cqZAo" node="Ura7pooSKQ" resolve="superTypes" />
+                              </node>
+                              <node concept="liA8E" id="7bBy93lghgb" role="2OqNvi">
+                                <ref role="37wK5l" to="33ny:~Set.iterator():java.util.Iterator" resolve="iterator" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7bBy93lghgc" role="2OqNvi">
+                              <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
+                            </node>
+                          </node>
+                          <node concept="3Tqbb2" id="7bBy93lghzH" role="10QFUM" />
                         </node>
                       </node>
-                      <node concept="liA8E" id="Y68irgYwyn" role="2OqNvi">
-                        <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
-                      </node>
+                      <node concept="1$rogu" id="7bBy93lgux$" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
@@ -5591,17 +5606,6 @@
             <node concept="1YBJjd" id="Y68irh51pz" role="1Z2MuG">
               <ref role="1YBMHb" node="Y68irh3f5W" resolve="input" />
             </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="Y68irh4SZR" role="3cqZAp" />
-      <node concept="3clFbF" id="Y68irh4Tpx" role="3cqZAp">
-        <node concept="1Z2H0r" id="Y68irh4Tpt" role="3clFbG">
-          <node concept="2OqwBi" id="Y68irh4TX7" role="1Z2MuG">
-            <node concept="1YBJjd" id="Y68irh4TNr" role="2Oq$k0">
-              <ref role="1YBMHb" node="Y68irh3f5W" resolve="input" />
-            </node>
-            <node concept="1mfA1w" id="Y68irh4UwF" role="2OqNvi" />
           </node>
         </node>
       </node>

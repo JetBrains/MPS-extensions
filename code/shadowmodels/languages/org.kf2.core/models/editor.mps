@@ -217,6 +217,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -1326,14 +1327,17 @@
     <node concept="RtMap" id="5vAcs0XeV2N" role="RtEXV">
       <node concept="3clFbS" id="5vAcs0XeV2O" role="2VODD2">
         <node concept="3clFbF" id="5vAcs0XeVa9" role="3cqZAp">
-          <node concept="2OqwBi" id="5vAcs0XeWAk" role="3clFbG">
-            <node concept="2OqwBi" id="5vAcs0XeVmg" role="2Oq$k0">
-              <node concept="pncrf" id="5vAcs0XeVa8" role="2Oq$k0" />
-              <node concept="2Rxl7S" id="5vAcs0XeWfm" role="2OqNvi" />
-            </node>
-            <node concept="1mIQ4w" id="5vAcs0XeXe7" role="2OqNvi">
-              <node concept="chp4Y" id="5vAcs0XeXr3" role="cj9EA">
-                <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
+          <node concept="1Wc70l" id="7bBy93lkYib" role="3clFbG">
+            <node concept="3clFbT" id="7bBy93lkYiV" role="3uHU7B" />
+            <node concept="2OqwBi" id="5vAcs0XeWAk" role="3uHU7w">
+              <node concept="2OqwBi" id="5vAcs0XeVmg" role="2Oq$k0">
+                <node concept="pncrf" id="5vAcs0XeVa8" role="2Oq$k0" />
+                <node concept="2Rxl7S" id="5vAcs0XeWfm" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="5vAcs0XeXe7" role="2OqNvi">
+                <node concept="chp4Y" id="5vAcs0XeXr3" role="cj9EA">
+                  <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
+                </node>
               </node>
             </node>
           </node>

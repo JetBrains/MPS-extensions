@@ -734,6 +734,13 @@
     <property role="TrG5h" value="EffectDescription" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5wz9KQaFN6B" role="1TKVEi">
+      <property role="IQ2ns" value="6350962838637326759" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="creator" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5vAcs0Xe9PB">
     <property role="EcuMT" value="6333804627673783655" />

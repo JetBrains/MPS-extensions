@@ -5,7 +5,6 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="j10v" ref="e52a4835-844d-46a1-99f8-c06129db796f/java:org.pcollections(de.q60.mps.shadowmodels.runtime/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
@@ -14,9 +13,9 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
     <import index="ee18" ref="r:ae5491dd-13f2-4540-8a18-9d4eafbb865f(de.q60.mps.shadowmodels.runtime.incremental)" />
-    <import index="3o3z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" />
-    <import index="87lp" ref="e52a4835-844d-46a1-99f8-c06129db796f/java:io.vavr.collection(de.q60.mps.shadowmodels.runtime/)" />
-    <import index="3xem" ref="e52a4835-844d-46a1-99f8-c06129db796f/java:io.vavr.control(de.q60.mps.shadowmodels.runtime/)" />
+    <import index="87lp" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.collection(de.q60.mps.libs/)" />
+    <import index="3xem" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.control(de.q60.mps.libs/)" />
+    <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -5574,12 +5573,12 @@
       <node concept="3clFbS" id="5QP6xyjLClJ" role="3clF47">
         <node concept="3clFbF" id="5QP6xyjLSPr" role="3cqZAp">
           <node concept="2OqwBi" id="5QP6xyjLSZm" role="3clFbG">
-            <node concept="10M0yZ" id="5QP6xyjLSQg" role="2Oq$k0">
-              <ref role="3cqZAo" to="ee18:3SvKIiMoXH" resolve="INSTANCE" />
-              <ref role="1PxDUh" to="ee18:3SvKIiMamz" resolve="DependencyBroadcaster" />
+            <node concept="10M0yZ" id="4Ymt9DISP1H" role="2Oq$k0">
+              <ref role="3cqZAo" to="2wxy:3SvKIiMoXH" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="2wxy:3SvKIiMamz" resolve="DependencyBroadcaster" />
             </node>
             <node concept="liA8E" id="5QP6xyjLT8i" role="2OqNvi">
-              <ref role="37wK5l" to="ee18:3SvKIiMgNs" resolve="dependencyAccessed" />
+              <ref role="37wK5l" to="2wxy:3SvKIiMgNs" resolve="dependencyAccessed" />
               <node concept="2ShNRf" id="5QP6xyjLY8L" role="37wK5m">
                 <node concept="1pGfFk" id="5QP6xyjLYq8" role="2ShVmc">
                   <ref role="37wK5l" node="5QP6xyjLTbZ" resolve="PNodeDependency" />
@@ -9895,7 +9894,7 @@
     <node concept="2tJIrI" id="5QP6xyjLTbB" role="jymVt" />
     <node concept="3Tm1VV" id="5QP6xyjLT9o" role="1B3o_S" />
     <node concept="3uibUv" id="5QP6xyjLTae" role="1zkMxy">
-      <ref role="3uigEE" to="ee18:5gTrVpGx$gB" resolve="DependencyKey" />
+      <ref role="3uigEE" to="2wxy:5gTrVpGx$gB" resolve="DependencyKey" />
     </node>
     <node concept="3clFbW" id="5QP6xyjLTbZ" role="jymVt">
       <node concept="3cqZAl" id="5QP6xyjLTc0" role="3clF45" />
@@ -10924,8 +10923,8 @@
           </node>
           <node concept="2OqwBi" id="1CWZn1pW1te" role="37wK5m">
             <node concept="2YIFZM" id="1CWZn1pW1tf" role="2Oq$k0">
-              <ref role="37wK5l" to="87lp:~HashMultimap.withSet():io.vavr.collection.HashMultimap$Builder" resolve="withSet" />
               <ref role="1Pybhc" to="87lp:~HashMultimap" resolve="HashMultimap" />
+              <ref role="37wK5l" to="87lp:~HashMultimap.withSet():io.vavr.collection.HashMultimap$Builder" resolve="withSet" />
             </node>
             <node concept="liA8E" id="1CWZn1pW1tg" role="2OqNvi">
               <ref role="37wK5l" to="87lp:~HashMultimap$Builder.empty():io.vavr.collection.HashMultimap" resolve="empty" />
@@ -11143,8 +11142,8 @@
             <node concept="liA8E" id="1CWZn1pU2M7" role="2OqNvi">
               <ref role="37wK5l" to="3xem:~Option.getOrElse(java.lang.Object):java.lang.Object" resolve="getOrElse" />
               <node concept="2YIFZM" id="1CWZn1pUq3l" role="37wK5m">
-                <ref role="37wK5l" to="87lp:~List.empty():io.vavr.collection.List" resolve="empty" />
                 <ref role="1Pybhc" to="87lp:~List" resolve="List" />
+                <ref role="37wK5l" to="87lp:~List.empty():io.vavr.collection.List" resolve="empty" />
                 <node concept="3uibUv" id="1CWZn1pUztD" role="3PaCim">
                   <ref role="3uigEE" to="wyt6:~Long" resolve="Long" />
                 </node>
@@ -12118,8 +12117,8 @@
           </node>
           <node concept="2OqwBi" id="5zrTIjkZTBY" role="37wK5m">
             <node concept="2YIFZM" id="5zrTIjkZTBZ" role="2Oq$k0">
-              <ref role="37wK5l" to="87lp:~HashMultimap.withSet():io.vavr.collection.HashMultimap$Builder" resolve="withSet" />
               <ref role="1Pybhc" to="87lp:~HashMultimap" resolve="HashMultimap" />
+              <ref role="37wK5l" to="87lp:~HashMultimap.withSet():io.vavr.collection.HashMultimap$Builder" resolve="withSet" />
             </node>
             <node concept="liA8E" id="5zrTIjkZTC0" role="2OqNvi">
               <ref role="37wK5l" to="87lp:~HashMultimap$Builder.empty():io.vavr.collection.HashMultimap" resolve="empty" />
@@ -12992,8 +12991,8 @@
             <node concept="liA8E" id="5zrTIjkZTDm" role="2OqNvi">
               <ref role="37wK5l" to="3xem:~Option.getOrElse(java.lang.Object):java.lang.Object" resolve="getOrElse" />
               <node concept="2YIFZM" id="5zrTIjkZTDn" role="37wK5m">
-                <ref role="37wK5l" to="87lp:~List.empty():io.vavr.collection.List" resolve="empty" />
                 <ref role="1Pybhc" to="87lp:~List" resolve="List" />
+                <ref role="37wK5l" to="87lp:~List.empty():io.vavr.collection.List" resolve="empty" />
                 <node concept="3uibUv" id="5zrTIjl1owj" role="3PaCim">
                   <ref role="3uigEE" node="5zrTIjl0jEH" resolve="ReverseReferences.NodeAndRole" />
                 </node>

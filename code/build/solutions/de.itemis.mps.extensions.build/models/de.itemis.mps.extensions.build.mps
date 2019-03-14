@@ -5999,6 +5999,11 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
             </node>
           </node>
+          <node concept="1SiIV0" id="5yx1Sl1wN_9" role="3bR37C">
+            <node concept="3bR9La" id="5yx1Sl1wN_a" role="1SiIV1">
+              <ref role="3bR37D" node="6fQhGuklPrV" resolve="de.q60.mps.incremental.runtime" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1E1JtD" id="2$QnGbtLXzL" role="2G$12L">
@@ -6107,20 +6112,95 @@
             <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
           </node>
         </node>
-        <node concept="1SiIV0" id="4_SQzDOof47" role="3bR37C">
-          <node concept="1BurEX" id="4_SQzDOof48" role="1SiIV1">
-            <node concept="398BVA" id="4_SQzDOof3U" role="1BurEY">
+        <node concept="1SiIV0" id="QurUghRWbb" role="3bR37C">
+          <node concept="3bR9La" id="QurUghRWbc" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fQhGuklSjc" role="3bR37C">
+          <node concept="3bR9La" id="6fQhGuklSjd" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5yx1Sl1wN_b" role="3bR37C">
+          <node concept="3bR9La" id="5yx1Sl1wN_c" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklPrV" resolve="de.q60.mps.incremental.runtime" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6fQhGuklPrV" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.q60.mps.incremental.runtime" />
+        <property role="3LESm3" value="95085166-3236-4dd7-bd8e-e753c8d20885" />
+        <node concept="398BVA" id="6fQhGuklPNw" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="6fQhGuklPTJ" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="6fQhGuklQ66" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="6fQhGuklQit" role="2Ry0An">
+                <property role="2Ry0Am" value="de.q60.mps.incremental.runtime" />
+                <node concept="2Ry0Ak" id="6fQhGuklQuO" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.q60.mps.incremental.runtime.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fQhGuklQF8" role="3bR37C">
+          <node concept="3bR9La" id="6fQhGuklQF9" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fQhGuklQFa" role="3bR37C">
+          <node concept="3bR9La" id="6fQhGuklQFb" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fQhGuklQFc" role="3bR37C">
+          <node concept="3bR9La" id="6fQhGuklQFd" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fQhGuklSje" role="3bR37C">
+          <node concept="3bR9La" id="6fQhGuklSjf" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="6fQhGuklQWU" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.q60.mps.libs" />
+        <property role="3LESm3" value="ecfb9949-7433-4db5-85de-0f84d172e4ce" />
+        <node concept="398BVA" id="6fQhGuklR81" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="6fQhGuklRkp" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="6fQhGuklRwK" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="6fQhGuklRH7" role="2Ry0An">
+                <property role="2Ry0Am" value="de.q60.mps.libs" />
+                <node concept="2Ry0Ak" id="6fQhGuklRTu" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.q60.mps.libs.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fQhGuklS5Z" role="3bR37C">
+          <node concept="1BurEX" id="6fQhGuklS60" role="1SiIV1">
+            <node concept="398BVA" id="6fQhGuklS5M" role="1BurEY">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4_SQzDOof3V" role="iGT6I">
+              <node concept="2Ry0Ak" id="6fQhGuklS5N" role="iGT6I">
                 <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="4_SQzDOof3W" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6fQhGuklS5O" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="4_SQzDOof3X" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.runtime" />
-                    <node concept="2Ry0Ak" id="4_SQzDOof3Y" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="6fQhGuklS5P" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                    <node concept="2Ry0Ak" id="6fQhGuklS5Q" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="4_SQzDOof3Z" role="2Ry0An">
-                        <property role="2Ry0Am" value="pcollections-2.1.3.jar" />
+                      <node concept="2Ry0Ak" id="6fQhGuklS5R" role="2Ry0An">
+                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
                       </node>
                     </node>
                   </node>
@@ -6129,24 +6209,19 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="QurUghRWbb" role="3bR37C">
-          <node concept="3bR9La" id="QurUghRWbc" role="1SiIV1">
-            <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="QurUghRWbB" role="3bR37C">
-          <node concept="1BurEX" id="QurUghRWbC" role="1SiIV1">
-            <node concept="398BVA" id="QurUghRWbq" role="1BurEY">
+        <node concept="1SiIV0" id="6fQhGuklS6e" role="3bR37C">
+          <node concept="1BurEX" id="6fQhGuklS6f" role="1SiIV1">
+            <node concept="398BVA" id="6fQhGuklS61" role="1BurEY">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="QurUghRWbr" role="iGT6I">
+              <node concept="2Ry0Ak" id="6fQhGuklS62" role="iGT6I">
                 <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="QurUghRWbs" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6fQhGuklS63" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="QurUghRWbt" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.runtime" />
-                    <node concept="2Ry0Ak" id="QurUghRWbu" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="6fQhGuklS64" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                    <node concept="2Ry0Ak" id="6fQhGuklS65" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="QurUghRWbv" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="6fQhGuklS66" role="2Ry0An">
                         <property role="2Ry0Am" value="vavr-0.9.3.jar" />
                       </node>
                     </node>
@@ -6156,26 +6231,9 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3QW6fV02btG" role="3bR37C">
-          <node concept="1BurEX" id="3QW6fV02btH" role="1SiIV1">
-            <node concept="398BVA" id="3QW6fV02btv" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3QW6fV02btw" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="3QW6fV02btx" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3QW6fV02bty" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.runtime" />
-                    <node concept="2Ry0Ak" id="3QW6fV02btz" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="3QW6fV02bt$" role="2Ry0An">
-                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+        <node concept="1SiIV0" id="59804$yR$NJ" role="3bR37C">
+          <node concept="3bR9La" id="59804$yR$NK" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>
@@ -6607,6 +6665,9 @@
           <node concept="3bR9La" id="3RcjyAtlZAZ" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
           </node>
+        </node>
+        <node concept="1E0d5M" id="5yx1Sl1DyEc" role="1E1XAP">
+          <ref role="1E0d5P" node="6fQhGuklPrV" resolve="de.q60.mps.incremental.runtime" />
         </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5I0" role="2G$12L">
@@ -7471,7 +7532,7 @@
                 <node concept="2Ry0Ak" id="4_SQzDOofuk" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="4_SQzDOofup" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.shadowmodels.runtime" />
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
                     <node concept="2Ry0Ak" id="4_SQzDOofuu" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
                     </node>

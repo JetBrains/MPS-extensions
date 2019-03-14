@@ -29,7 +29,6 @@
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
-    <import index="ee18" ref="r:ae5491dd-13f2-4540-8a18-9d4eafbb865f(de.q60.mps.shadowmodels.runtime.incremental)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="dush" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.persistence(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -45,6 +44,7 @@
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
+    <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -425,7 +425,7 @@
                 <property role="TrG5h" value="deps" />
                 <node concept="A3Dl8" id="6FW8YbTXTFF" role="1tU5fm">
                   <node concept="3uibUv" id="6FW8YbTXTFG" role="A3Ik2">
-                    <ref role="3uigEE" to="ee18:5gTrVpGx$gB" resolve="DependencyKey" />
+                    <ref role="3uigEE" to="2wxy:5gTrVpGx$gB" resolve="DependencyKey" />
                   </node>
                 </node>
               </node>
@@ -434,12 +434,12 @@
               <node concept="3clFbS" id="3jGmESsMU9W" role="3clF47">
                 <node concept="3clFbF" id="3jGmESsMVtV" role="3cqZAp">
                   <node concept="2OqwBi" id="3jGmESsMVBS" role="3clFbG">
-                    <node concept="10M0yZ" id="3jGmESsMVuO" role="2Oq$k0">
-                      <ref role="3cqZAo" to="ee18:3SvKIiMoXH" resolve="INSTANCE" />
-                      <ref role="1PxDUh" to="ee18:3SvKIiMamz" resolve="DependencyBroadcaster" />
+                    <node concept="10M0yZ" id="4Ymt9DISP1G" role="2Oq$k0">
+                      <ref role="3cqZAo" to="2wxy:3SvKIiMoXH" resolve="INSTANCE" />
+                      <ref role="1PxDUh" to="2wxy:3SvKIiMamz" resolve="DependencyBroadcaster" />
                     </node>
                     <node concept="liA8E" id="3jGmESsMVMV" role="2OqNvi">
-                      <ref role="37wK5l" to="ee18:6FW8YbTWWpS" resolve="dependenciesChanged" />
+                      <ref role="37wK5l" to="2wxy:6FW8YbTWWpS" resolve="dependenciesChanged" />
                       <node concept="37vLTw" id="3jGmESsMWeW" role="37wK5m">
                         <ref role="3cqZAo" node="3jGmESsMU9R" resolve="deps" />
                       </node>

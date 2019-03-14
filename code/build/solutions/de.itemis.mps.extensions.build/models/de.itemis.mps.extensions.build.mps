@@ -7174,6 +7174,11 @@
             <ref role="1Busuk" node="4JbHIKA7nQe" resolve="org.kf2.state" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2AWSbzJtogn" role="3bR37C">
+          <node concept="3bR9La" id="2AWSbzJtogo" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="BRK1N8p1ux" role="2G$12L">
         <property role="BnDLt" value="true" />

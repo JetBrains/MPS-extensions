@@ -451,7 +451,7 @@
   </node>
   <node concept="24kQdi" id="3JPN2vWhXes">
     <property role="3GE5qa" value="prog" />
-    <ref role="1XX52x" to="nup6:3JPN2vWhXdY" resolve="Module" />
+    <ref role="1XX52x" to="nup6:3JPN2vWhXdY" resolve="Component" />
     <node concept="3EZMnI" id="3JPN2vWhXeT" role="2wV5jI">
       <node concept="2iRkQZ" id="3JPN2vWhXeU" role="2iSdaV" />
       <node concept="3EZMnI" id="3JPN2vWhXex" role="3EZMnx">
@@ -462,6 +462,20 @@
         </node>
         <node concept="3F0A7n" id="3JPN2vWhXeG" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="_tjkj" id="4c5xFgTSYZS" role="3EZMnx">
+          <node concept="3EZMnI" id="4c5xFgTSZ01" role="_tjki">
+            <node concept="3F0ifn" id="4c5xFgTSZ0a" role="3EZMnx">
+              <property role="3F0ifm" value="imports" />
+              <ref role="1k5W1q" node="3tIuEqk1SFg" resolve="kf2Keyword" />
+            </node>
+            <node concept="3F2HdR" id="4c5xFgTSZ51" role="3EZMnx">
+              <ref role="1NtTu8" to="nup6:4c5xFgTSZ0i" resolve="imports" />
+              <node concept="2iRkQZ" id="4c5xFgTSZ57" role="2czzBx" />
+            </node>
+            <node concept="2iRfu4" id="4c5xFgTSZ04" role="2iSdaV" />
+            <node concept="VPM3Z" id="4c5xFgTSZ05" role="3F10Kt" />
+          </node>
         </node>
         <node concept="3F0ifn" id="3JPN2vWhXeO" role="3EZMnx">
           <property role="3F0ifm" value="{" />
@@ -1343,7 +1357,7 @@
               </node>
               <node concept="1mIQ4w" id="5vAcs0XeXe7" role="2OqNvi">
                 <node concept="chp4Y" id="5vAcs0XeXr3" role="cj9EA">
-                  <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
+                  <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Component" />
                 </node>
               </node>
             </node>
@@ -2436,6 +2450,19 @@
     </node>
     <node concept="2tJIrI" id="7aipPVpTU9V" role="jymVt" />
     <node concept="3Tm1VV" id="7aipPVpTU92" role="1B3o_S" />
+  </node>
+  <node concept="24kQdi" id="4c5xFgTR4rW">
+    <property role="3GE5qa" value="prog" />
+    <ref role="1XX52x" to="nup6:4c5xFgTR4pC" resolve="Import" />
+    <node concept="1iCGBv" id="4c5xFgTR4sa" role="2wV5jI">
+      <ref role="1NtTu8" to="nup6:4c5xFgTR4rx" resolve="mod" />
+      <node concept="1sVBvm" id="4c5xFgTR4sc" role="1sWHZn">
+        <node concept="3F0A7n" id="4c5xFgTR4sk" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

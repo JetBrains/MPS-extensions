@@ -177,7 +177,7 @@
   </node>
   <node concept="1TIwiD" id="3JPN2vWhXdY">
     <property role="EcuMT" value="4320583889640215422" />
-    <property role="TrG5h" value="Module" />
+    <property role="TrG5h" value="Component" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="prog" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -187,6 +187,13 @@
       <property role="20kJfa" value="declarations" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3JPN2vWhXe0" resolve="IDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="4c5xFgTSZ0i" role="1TKVEi">
+      <property role="IQ2ns" value="4829414284048199698" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="imports" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4c5xFgTR4pC" resolve="Import" />
     </node>
     <node concept="PrWs8" id="7iudlBAz9M_" role="PzmwI">
       <ref role="PrY4T" node="7iudlBAySbV" resolve="IIdentifier" />
@@ -1265,6 +1272,19 @@
   <node concept="PlHQZ" id="5qkNGtsVKVH">
     <property role="EcuMT" value="6238838739467964141" />
     <property role="TrG5h" value="IParameterizedType" />
+  </node>
+  <node concept="1TIwiD" id="4c5xFgTR4pC">
+    <property role="EcuMT" value="4829414284047697512" />
+    <property role="3GE5qa" value="prog" />
+    <property role="TrG5h" value="Import" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4c5xFgTR4rx" role="1TKVEi">
+      <property role="IQ2ns" value="4829414284047697633" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="mod" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3JPN2vWhXdY" resolve="Component" />
+    </node>
   </node>
 </model>
 

@@ -230,7 +230,7 @@
   <node concept="2S6QgY" id="MNhuaq0ZFs">
     <property role="3GE5qa" value="prog" />
     <property role="TrG5h" value="Explode" />
-    <ref role="2ZfgGC" to="nup6:3JPN2vWhXdY" resolve="Module" />
+    <ref role="2ZfgGC" to="nup6:3JPN2vWhXdY" resolve="Component" />
     <node concept="2S6ZIM" id="MNhuaq0ZFt" role="2ZfVej">
       <node concept="3clFbS" id="MNhuaq0ZFu" role="2VODD2">
         <node concept="3clFbF" id="MNhuaq0ZOp" role="3cqZAp">

@@ -58,6 +58,7 @@
       </concept>
       <concept id="4320583889640215422" name="org.kf2.core.structure.Module" flags="ng" index="37GxXp">
         <child id="4320583889640215425" name="declarations" index="37GxYA" />
+        <child id="4829414284048199698" name="imports" index="1UTBqA" />
       </concept>
       <concept id="2583804470398455019" name="org.kf2.core.structure.ElsePart" flags="ng" index="38Wgyi">
         <child id="2583804470398455047" name="expr" index="38Wg_Y" />
@@ -129,6 +130,9 @@
       </concept>
       <concept id="5955298286243782799" name="org.kf2.core.structure.NameExprRefExpr" flags="ng" index="1LEdyM">
         <reference id="5955298286243782803" name="nameExpr" index="1LEdyI" />
+      </concept>
+      <concept id="4829414284047697512" name="org.kf2.core.structure.Import" flags="ng" index="1UQs3s">
+        <reference id="4829414284047697633" name="mod" index="1UQs1l" />
       </concept>
     </language>
     <language id="a05cab6b-522f-4255-b2ed-8d6bfca9b584" name="org.kf2.test">
@@ -2003,6 +2007,12 @@
       </node>
     </node>
     <node concept="2NE3Kg" id="5wz9KQaU0U8" role="37GxYA" />
+  </node>
+  <node concept="37GxXp" id="4c5xFgTV1sH">
+    <property role="TrG5h" value="Imports" />
+    <node concept="1UQs3s" id="4c5xFgTV2Yh" role="1UTBqA">
+      <ref role="1UQs1l" node="4mp3zYjT0BC" resolve="Algebraic" />
+    </node>
   </node>
 </model>
 

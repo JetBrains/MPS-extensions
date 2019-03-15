@@ -249,7 +249,7 @@
                     <node concept="2Xjw5R" id="MNhuapWg3e" role="2OqNvi">
                       <node concept="1xMEDy" id="MNhuapWg3g" role="1xVPHs">
                         <node concept="chp4Y" id="MNhuapWg9M" role="ri$Ld">
-                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
+                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Component" />
                         </node>
                       </node>
                       <node concept="1xIGOp" id="MNhuapWgfR" role="1xVPHs" />
@@ -402,7 +402,7 @@
                     <node concept="2Xjw5R" id="5wz9KQaUVKp" role="2OqNvi">
                       <node concept="1xMEDy" id="5wz9KQaUVKq" role="1xVPHs">
                         <node concept="chp4Y" id="5wz9KQaUVKr" role="ri$Ld">
-                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
+                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Component" />
                         </node>
                       </node>
                       <node concept="1xIGOp" id="5wz9KQaUVKs" role="1xVPHs" />
@@ -641,7 +641,7 @@
                     <node concept="2Xjw5R" id="5a_u3OzPSQW" role="2OqNvi">
                       <node concept="1xMEDy" id="5a_u3OzPSQX" role="1xVPHs">
                         <node concept="chp4Y" id="7iudlBAzw2D" role="ri$Ld">
-                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
+                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Component" />
                         </node>
                       </node>
                     </node>
@@ -703,7 +703,7 @@
                     <node concept="2Xjw5R" id="7iudlBAzuzA" role="2OqNvi">
                       <node concept="1xMEDy" id="7iudlBAzuzB" role="1xVPHs">
                         <node concept="chp4Y" id="7iudlBAzuzC" role="ri$Ld">
-                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
+                          <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Component" />
                         </node>
                       </node>
                       <node concept="1xIGOp" id="7iudlBAFHOz" role="1xVPHs" />
@@ -918,7 +918,7 @@
                   <node concept="2Xjw5R" id="Ura7pp3SoL" role="2OqNvi">
                     <node concept="1xMEDy" id="Ura7pp3SoN" role="1xVPHs">
                       <node concept="chp4Y" id="Ura7pp3Svo" role="ri$Ld">
-                        <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Module" />
+                        <ref role="cht4Q" to="nup6:3JPN2vWhXdY" resolve="Component" />
                       </node>
                     </node>
                   </node>

@@ -2211,16 +2211,6 @@
     <node concept="3clFb_" id="3SbGHEnI6no" role="jymVt">
       <property role="TrG5h" value="computeLastChildY" />
       <node concept="3clFbS" id="3SbGHEnI6nr" role="3clF47">
-        <node concept="3SKdUt" id="3SbGHEnIi88" role="3cqZAp">
-          <node concept="3SKdUq" id="3SbGHEnIi8a" role="3SKWNk">
-            <property role="3SKdUp" value="compute the y of the collapsible of the last child" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3SbGHEnJc_8" role="3cqZAp">
-          <node concept="3SKdUq" id="3SbGHEnJc_a" role="3SKWNk">
-            <property role="3SKdUp" value="last child = " />
-          </node>
-        </node>
         <node concept="3cpWs8" id="3SbGHEnPc4B" role="3cqZAp">
           <node concept="3cpWsn" id="3SbGHEnPc4C" role="3cpWs9">
             <property role="TrG5h" value="cell" />
@@ -2247,7 +2237,6 @@
             <node concept="10Nm6u" id="3SbGHEnPpGk" role="3uHU7w" />
           </node>
         </node>
-        <node concept="3clFbH" id="3SbGHEnJ9uh" role="3cqZAp" />
         <node concept="3cpWs6" id="3SbGHEnIkD2" role="3cqZAp">
           <node concept="2OqwBi" id="3SbGHEnPzVC" role="3cqZAk">
             <node concept="37vLTw" id="3SbGHEnPx6R" role="2Oq$k0">
@@ -3250,7 +3239,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="69rYimqfdXo" role="3cqZAp" />
             <node concept="3cpWs8" id="69rYimpz92U" role="3cqZAp">
               <node concept="3cpWsn" id="69rYimpz92V" role="3cpWs9">
                 <property role="TrG5h" value="areaBounds" />
@@ -3262,23 +3250,17 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="69rYimpzbqB" role="3cqZAp">
-              <node concept="2OqwBi" id="69rYimpzcfz" role="3clFbG">
-                <node concept="37vLTw" id="69rYimpzbq_" role="2Oq$k0">
-                  <ref role="3cqZAo" node="69rYimpz92V" resolve="areaBounds" />
+            <node concept="3clFbF" id="3SbGHEoI3GE" role="3cqZAp">
+              <node concept="37vLTI" id="3SbGHEoI7tn" role="3clFbG">
+                <node concept="1rXfSq" id="3SbGHEoI81j" role="37vLTx">
+                  <ref role="37wK5l" node="69rYimpI96b" resolve="getGlyphAreaHeight" />
                 </node>
-                <node concept="liA8E" id="69rYimpzdz_" role="2OqNvi">
-                  <ref role="37wK5l" to="z60i:~Rectangle.setSize(int,int):void" resolve="setSize" />
-                  <node concept="2OqwBi" id="69rYimpze9L" role="37wK5m">
-                    <node concept="37vLTw" id="69rYimpzdLA" role="2Oq$k0">
-                      <ref role="3cqZAo" node="69rYimpz92V" resolve="areaBounds" />
-                    </node>
-                    <node concept="2OwXpG" id="69rYimpziDV" role="2OqNvi">
-                      <ref role="2Oxat5" to="z60i:~Rectangle.width" resolve="width" />
-                    </node>
+                <node concept="2OqwBi" id="3SbGHEoI4Mm" role="37vLTJ">
+                  <node concept="37vLTw" id="3SbGHEoI3GC" role="2Oq$k0">
+                    <ref role="3cqZAo" node="69rYimpz92V" resolve="areaBounds" />
                   </node>
-                  <node concept="1rXfSq" id="69rYimpIiMc" role="37wK5m">
-                    <ref role="37wK5l" node="69rYimpI96b" resolve="getGlyphAreaHeight" />
+                  <node concept="2OwXpG" id="3SbGHEoI5SF" role="2OqNvi">
+                    <ref role="2Oxat5" to="z60i:~Rectangle.height" resolve="height" />
                   </node>
                 </node>
               </node>
@@ -3669,50 +3651,62 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="69rYimoFJY$" role="3cqZAp">
-          <node concept="3cpWsn" id="69rYimoFJYB" role="3cpWs9">
-            <property role="TrG5h" value="size" />
-            <node concept="10Oyi0" id="69rYimoFJYy" role="1tU5fm" />
-            <node concept="2YIFZM" id="69rYimoFKC4" role="33vP2m">
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
-              <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <node concept="1rXfSq" id="69rYimoFLcL" role="37wK5m">
-                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getWidth():int" resolve="getWidth" />
-              </node>
-              <node concept="1rXfSq" id="69rYimoFM$D" role="37wK5m">
-                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getHeight():int" resolve="getHeight" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="HkLTsI5vek" role="3cqZAp">
-          <node concept="2OqwBi" id="HkLTsI5vMn" role="3clFbG">
-            <node concept="37vLTw" id="HkLTsI5vei" role="2Oq$k0">
-              <ref role="3cqZAo" node="HkLTsI5upv" resolve="result" />
-            </node>
-            <node concept="liA8E" id="HkLTsI5wWW" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Rectangle.setSize(int,int):void" resolve="setSize" />
-              <node concept="37vLTw" id="69rYimoFT4D" role="37wK5m">
-                <ref role="3cqZAo" node="69rYimoFJYB" resolve="size" />
-              </node>
-              <node concept="37vLTw" id="69rYimoFTXM" role="37wK5m">
-                <ref role="3cqZAo" node="69rYimoFJYB" resolve="size" />
+        <node concept="1X3_iC" id="3SbGHEp42O0" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3cpWs8" id="69rYimoFJY$" role="8Wnug">
+            <node concept="3cpWsn" id="69rYimoFJYB" role="3cpWs9">
+              <property role="TrG5h" value="size" />
+              <node concept="10Oyi0" id="69rYimoFJYy" role="1tU5fm" />
+              <node concept="2YIFZM" id="69rYimoFKC4" role="33vP2m">
+                <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                <node concept="1rXfSq" id="69rYimoFLcL" role="37wK5m">
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getWidth():int" resolve="getWidth" />
+                </node>
+                <node concept="1rXfSq" id="69rYimoFM$D" role="37wK5m">
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getHeight():int" resolve="getHeight" />
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="69rYimoG1q5" role="3cqZAp">
-          <node concept="2OqwBi" id="69rYimoG2cR" role="3clFbG">
-            <node concept="37vLTw" id="69rYimoG1q3" role="2Oq$k0">
-              <ref role="3cqZAo" node="HkLTsI5upv" resolve="result" />
-            </node>
-            <node concept="liA8E" id="69rYimoG3yw" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Rectangle.grow(int,int):void" resolve="grow" />
-              <node concept="3cmrfG" id="69rYimoG3Ku" role="37wK5m">
-                <property role="3cmrfH" value="-1" />
+        <node concept="1X3_iC" id="3SbGHEp441v" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="HkLTsI5vek" role="8Wnug">
+            <node concept="2OqwBi" id="HkLTsI5vMn" role="3clFbG">
+              <node concept="37vLTw" id="HkLTsI5vei" role="2Oq$k0">
+                <ref role="3cqZAo" node="HkLTsI5upv" resolve="result" />
               </node>
-              <node concept="3cmrfG" id="69rYimoG3TM" role="37wK5m">
-                <property role="3cmrfH" value="-1" />
+              <node concept="liA8E" id="HkLTsI5wWW" role="2OqNvi">
+                <ref role="37wK5l" to="z60i:~Rectangle.setSize(int,int):void" resolve="setSize" />
+                <node concept="37vLTw" id="69rYimoFT4D" role="37wK5m">
+                  <ref role="3cqZAo" node="69rYimoFJYB" resolve="size" />
+                </node>
+                <node concept="37vLTw" id="69rYimoFTXM" role="37wK5m">
+                  <ref role="3cqZAo" node="69rYimoFJYB" resolve="size" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="3SbGHEp44iY" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="69rYimoG1q5" role="8Wnug">
+            <node concept="2OqwBi" id="69rYimoG2cR" role="3clFbG">
+              <node concept="37vLTw" id="69rYimoG1q3" role="2Oq$k0">
+                <ref role="3cqZAo" node="HkLTsI5upv" resolve="result" />
+              </node>
+              <node concept="liA8E" id="69rYimoG3yw" role="2OqNvi">
+                <ref role="37wK5l" to="z60i:~Rectangle.grow(int,int):void" resolve="grow" />
+                <node concept="3cmrfG" id="69rYimoG3Ku" role="37wK5m">
+                  <property role="3cmrfH" value="-1" />
+                </node>
+                <node concept="3cmrfG" id="69rYimoG3TM" role="37wK5m">
+                  <property role="3cmrfH" value="-1" />
+                </node>
               </node>
             </node>
           </node>
@@ -3741,6 +3735,14 @@
             <node concept="10Nm6u" id="69rYimpInzV" role="37vLTx" />
             <node concept="37vLTw" id="69rYimpuc$_" role="37vLTJ">
               <ref role="3cqZAo" node="69rYimptIog" resolve="myGlyphAreaHeight" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3SbGHEoGwWC" role="3cqZAp">
+          <node concept="37vLTI" id="3SbGHEoGyVd" role="3clFbG">
+            <node concept="10Nm6u" id="3SbGHEoG$oC" role="37vLTx" />
+            <node concept="37vLTw" id="3SbGHEoGwWA" role="37vLTJ">
+              <ref role="3cqZAo" node="3SbGHEnHqBE" resolve="myLastChildY" />
             </node>
           </node>
         </node>

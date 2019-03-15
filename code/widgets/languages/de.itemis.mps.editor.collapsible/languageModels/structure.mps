@@ -83,8 +83,20 @@
     <node concept="1TJgyj" id="69rYimo66sD" role="1TKVEi">
       <property role="IQ2ns" value="7087532378458449705" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="paintGlyph" />
-      <ref role="20lvS9" node="69rYimo5LH8" resolve="ConceptFunction_PaintGlyph" />
+      <property role="20kJfa" value="paintNode" />
+      <ref role="20lvS9" node="69rYimo5LH8" resolve="ConceptFunction_PaintNode" />
+    </node>
+    <node concept="1TJgyj" id="5pN$eUp1WSL" role="1TKVEi">
+      <property role="IQ2ns" value="6229482064027569713" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="paintEdge" />
+      <ref role="20lvS9" node="5pN$eUp1Ruy" resolve="ConceptFunction_PaintEdge" />
+    </node>
+    <node concept="1TJgyj" id="5pN$eUp1WT1" role="1TKVEi">
+      <property role="IQ2ns" value="6229482064027569729" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="paintLine" />
+      <ref role="20lvS9" node="5pN$eUp1SMn" resolve="ConceptFunction_PaintLine" />
     </node>
   </node>
   <node concept="1TIwiD" id="1$t5g3Q$5tQ">
@@ -102,8 +114,8 @@
   </node>
   <node concept="1TIwiD" id="69rYimo5LH8">
     <property role="EcuMT" value="7087532378458364744" />
-    <property role="TrG5h" value="ConceptFunction_PaintGlyph" />
-    <property role="34LRSv" value="paint glyph" />
+    <property role="TrG5h" value="ConceptFunction_PaintNode" />
+    <property role="34LRSv" value="paint node" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="69rYimo5Rzo">
@@ -124,23 +136,29 @@
     <property role="34LRSv" value="bounds" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
-  <node concept="1TIwiD" id="69rYimqig5X">
-    <property role="EcuMT" value="7087532378495189373" />
-    <property role="TrG5h" value="ConceptFunctionParameter_Indent" />
-    <property role="34LRSv" value="indent" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="1TIwiD" id="3SbGHEnR4ly">
-    <property role="EcuMT" value="4470863707015759202" />
-    <property role="TrG5h" value="ConceptFunctionParameter_LastChildY" />
-    <property role="34LRSv" value="lastChildY" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
   <node concept="1TIwiD" id="3SbGHEnRva6">
     <property role="EcuMT" value="4470863707015869062" />
     <property role="TrG5h" value="ConceptFunctionParameter_Expanded" />
     <property role="34LRSv" value="expanded" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="5pN$eUp1Ruy">
+    <property role="EcuMT" value="6229482064027547554" />
+    <property role="TrG5h" value="ConceptFunction_PaintEdge" />
+    <property role="34LRSv" value="paint edge" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5pN$eUp1S8G">
+    <property role="EcuMT" value="6229482064027550252" />
+    <property role="TrG5h" value="ConceptFunctionParameter_ParentBounds" />
+    <property role="34LRSv" value="parentBounds" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="5pN$eUp1SMn">
+    <property role="EcuMT" value="6229482064027552919" />
+    <property role="TrG5h" value="ConceptFunction_PaintLine" />
+    <property role="34LRSv" value="paint line" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

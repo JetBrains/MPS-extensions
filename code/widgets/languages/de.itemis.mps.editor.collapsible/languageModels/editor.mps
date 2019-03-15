@@ -206,21 +206,53 @@
         </node>
         <node concept="2iRfu4" id="1$t5g3Q$e7O" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="5pN$eUpp9sq" role="3EZMnx">
+        <node concept="VPM3Z" id="5pN$eUpp9sr" role="3F10Kt" />
+        <node concept="VPXOz" id="5pN$eUpp9ss" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="5pN$eUpp9st" role="3EZMnx">
+          <property role="3F0ifm" value="paint node" />
+        </node>
+        <node concept="3F1sOY" id="5pN$eUpp9su" role="3EZMnx">
+          <ref role="1NtTu8" to="o1st:69rYimo66sD" resolve="paintNode" />
+          <node concept="VPXOz" id="5pN$eUpp9sv" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="5pN$eUpp9sw" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="69rYimo6gnR" role="3EZMnx">
         <node concept="VPM3Z" id="69rYimo6gnT" role="3F10Kt" />
         <node concept="VPXOz" id="69rYimo6gpR" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="3F0ifn" id="69rYimo6gnV" role="3EZMnx">
-          <property role="3F0ifm" value="paint glyph" />
+          <property role="3F0ifm" value="paint edge" />
         </node>
         <node concept="3F1sOY" id="69rYimo6gp$" role="3EZMnx">
-          <ref role="1NtTu8" to="o1st:69rYimo66sD" resolve="paintGlyph" />
+          <ref role="1NtTu8" to="o1st:5pN$eUp1WSL" resolve="paintEdge" />
           <node concept="VPXOz" id="69rYimo6gpG" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
         <node concept="2iRfu4" id="69rYimo6gnW" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="5pN$eUpp9yv" role="3EZMnx">
+        <node concept="VPM3Z" id="5pN$eUpp9yw" role="3F10Kt" />
+        <node concept="VPXOz" id="5pN$eUpp9yx" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="5pN$eUpp9yy" role="3EZMnx">
+          <property role="3F0ifm" value="paint line" />
+        </node>
+        <node concept="3F1sOY" id="5pN$eUpp9yz" role="3EZMnx">
+          <ref role="1NtTu8" to="o1st:5pN$eUp1WT1" resolve="paintLine" />
+          <node concept="VPXOz" id="5pN$eUpp9y$" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="5pN$eUpp9y_" role="2iSdaV" />
       </node>
       <node concept="2EHx9g" id="48DYfEtA0bV" role="2iSdaV" />
     </node>

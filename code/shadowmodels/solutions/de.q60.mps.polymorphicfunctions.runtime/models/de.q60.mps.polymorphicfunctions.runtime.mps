@@ -6,7 +6,6 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="3o3z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
@@ -22,6 +21,7 @@
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -1225,8 +1225,8 @@
       <node concept="2OqwBi" id="3jJoUQ6YJGW" role="33vP2m">
         <node concept="2OqwBi" id="3jJoUQ6YJ4w" role="2Oq$k0">
           <node concept="2YIFZM" id="3jJoUQ6YIRW" role="2Oq$k0">
-            <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys():com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys" resolve="hashKeys" />
             <ref role="1Pybhc" to="3o3z:~MultimapBuilder" resolve="MultimapBuilder" />
+            <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys():com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys" resolve="hashKeys" />
           </node>
           <node concept="liA8E" id="3jJoUQ6YJje" role="2OqNvi">
             <ref role="37wK5l" to="3o3z:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues():com.google.common.collect.MultimapBuilder$SetMultimapBuilder" resolve="hashSetValues" />

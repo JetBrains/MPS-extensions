@@ -12,7 +12,6 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="6tkd" ref="r:78e136b2-7585-4d85-b01c-3174a10b3d6e(de.q60.mps.shadowmodels.runtime)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -38,7 +37,6 @@
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" />
     <import index="4it6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.loading(MPS.Core/)" />
-    <import index="3o3z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
     <import index="3qmy" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.classloading(MPS.Core/)" />
@@ -47,8 +45,6 @@
     <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
     <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
-    <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="jmi8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.util(MPS.IDEA/)" />
     <import index="dglc" ref="r:713965c4-2968-4619-9821-2429551acbb4(de.q60.mps.shadowmodels.runtime.concurrentrepo)" />
     <import index="3hky" ref="r:bef1bfa7-20fd-413a-ae11-793b0a8ee364(de.q60.mps.shadowmodels.runtime.model.persistent)" />
@@ -56,9 +52,10 @@
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="bv6w" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.set.hash(de.q60.mps.libs/)" />
-    <import index="87lp" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.collection(de.q60.mps.libs/)" />
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
     <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
+    <import index="3o40" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:com.google.common.collect(MPS.Core/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
@@ -4393,15 +4390,15 @@
         <node concept="2OqwBi" id="56YPHTopcxT" role="2Oq$k0">
           <node concept="2ShNRf" id="56YPHTop8Ea" role="2Oq$k0">
             <node concept="1pGfFk" id="56YPHTopb6k" role="2ShVmc">
-              <ref role="37wK5l" to="3o3z:~MapMaker.&lt;init&gt;()" resolve="MapMaker" />
+              <ref role="37wK5l" to="3o40:~MapMaker.&lt;init&gt;()" resolve="MapMaker" />
             </node>
           </node>
           <node concept="liA8E" id="56YPHTopdXD" role="2OqNvi">
-            <ref role="37wK5l" to="3o3z:~MapMaker.weakValues():com.google.common.collect.MapMaker" resolve="weakValues" />
+            <ref role="37wK5l" to="3o40:~MapMaker.weakValues():com.google.common.collect.MapMaker" resolve="weakValues" />
           </node>
         </node>
         <node concept="liA8E" id="56YPHTophtm" role="2OqNvi">
-          <ref role="37wK5l" to="3o3z:~MapMaker.makeMap():java.util.concurrent.ConcurrentMap" resolve="makeMap" />
+          <ref role="37wK5l" to="3o40:~MapMaker.makeMap():java.util.concurrent.ConcurrentMap" resolve="makeMap" />
         </node>
       </node>
     </node>
@@ -33896,7 +33893,7 @@
       <property role="TrG5h" value="reusableNodes" />
       <node concept="3Tm6S6" id="4j_LshU2n$y" role="1B3o_S" />
       <node concept="3uibUv" id="4j_LshU2voy" role="1tU5fm">
-        <ref role="3uigEE" to="3o3z:~SetMultimap" resolve="SetMultimap" />
+        <ref role="3uigEE" to="3o40:~SetMultimap" resolve="SetMultimap" />
         <node concept="3bZ5Sz" id="4j_LshU4iWd" role="11_B2D" />
         <node concept="3uibUv" id="4j_LshU2wD7" role="11_B2D">
           <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
@@ -33905,15 +33902,15 @@
       <node concept="2OqwBi" id="3RWdhMVAXLs" role="33vP2m">
         <node concept="2OqwBi" id="3RWdhMVAXLt" role="2Oq$k0">
           <node concept="2YIFZM" id="3RWdhMVAXLu" role="2Oq$k0">
-            <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys():com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys" resolve="hashKeys" />
-            <ref role="1Pybhc" to="3o3z:~MultimapBuilder" resolve="MultimapBuilder" />
+            <ref role="37wK5l" to="3o40:~MultimapBuilder.hashKeys():com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys" resolve="hashKeys" />
+            <ref role="1Pybhc" to="3o40:~MultimapBuilder" resolve="MultimapBuilder" />
           </node>
           <node concept="liA8E" id="3RWdhMVAXLv" role="2OqNvi">
-            <ref role="37wK5l" to="3o3z:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues():com.google.common.collect.MultimapBuilder$SetMultimapBuilder" resolve="hashSetValues" />
+            <ref role="37wK5l" to="3o40:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues():com.google.common.collect.MultimapBuilder$SetMultimapBuilder" resolve="hashSetValues" />
           </node>
         </node>
         <node concept="liA8E" id="3RWdhMVAXLw" role="2OqNvi">
-          <ref role="37wK5l" to="3o3z:~MultimapBuilder$SetMultimapBuilder.build():com.google.common.collect.SetMultimap" resolve="build" />
+          <ref role="37wK5l" to="3o40:~MultimapBuilder$SetMultimapBuilder.build():com.google.common.collect.SetMultimap" resolve="build" />
           <node concept="3bZ5Sz" id="4j_LshU4l_w" role="3PaCim" />
           <node concept="3uibUv" id="4j_LshU2Pbd" role="3PaCim">
             <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
@@ -34492,7 +34489,7 @@
                                     <ref role="3cqZAo" node="4j_LshU2n$x" resolve="reusableNodes" />
                                   </node>
                                   <node concept="liA8E" id="4j_LshU3hcf" role="2OqNvi">
-                                    <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object):boolean" resolve="put" />
+                                    <ref role="37wK5l" to="3o40:~Multimap.put(java.lang.Object,java.lang.Object):boolean" resolve="put" />
                                     <node concept="2OqwBi" id="4j_LshU3kuA" role="37wK5m">
                                       <node concept="37vLTw" id="4j_LshU3iHb" role="2Oq$k0">
                                         <ref role="3cqZAo" node="4j_LshU2QTZ" resolve="reusableNode" />
@@ -35119,7 +35116,7 @@
                         <ref role="3cqZAo" node="4j_LshU2n$x" resolve="reusableNodes" />
                       </node>
                       <node concept="liA8E" id="41QOk3IfOpu" role="2OqNvi">
-                        <ref role="37wK5l" to="3o3z:~Multimap.clear():void" resolve="clear" />
+                        <ref role="37wK5l" to="3o40:~Multimap.clear():void" resolve="clear" />
                       </node>
                     </node>
                   </node>
@@ -35449,7 +35446,7 @@
                 <ref role="3cqZAo" node="4j_LshU2n$x" resolve="reusableNodes" />
               </node>
               <node concept="liA8E" id="4j_LshU4a$7" role="2OqNvi">
-                <ref role="37wK5l" to="3o3z:~SetMultimap.get(java.lang.Object):java.util.Set" resolve="get" />
+                <ref role="37wK5l" to="3o40:~SetMultimap.get(java.lang.Object):java.util.Set" resolve="get" />
                 <node concept="37vLTw" id="4j_LshU4a$8" role="37wK5m">
                   <ref role="3cqZAo" node="4S3q4YkKnJv" resolve="concept" />
                 </node>
@@ -35570,7 +35567,7 @@
                     <ref role="3cqZAo" node="4j_LshU2n$x" resolve="reusableNodes" />
                   </node>
                   <node concept="liA8E" id="4j_LshU53H7" role="2OqNvi">
-                    <ref role="37wK5l" to="3o3z:~Multimap.remove(java.lang.Object,java.lang.Object):boolean" resolve="remove" />
+                    <ref role="37wK5l" to="3o40:~Multimap.remove(java.lang.Object,java.lang.Object):boolean" resolve="remove" />
                     <node concept="37vLTw" id="4j_LshU53Zw" role="37wK5m">
                       <ref role="3cqZAo" node="4S3q4YkKnJv" resolve="concept" />
                     </node>

@@ -18,6 +18,9 @@
     <import index="bv6w" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.set.hash(de.q60.mps.libs/)" />
     <import index="87lp" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.collection(de.q60.mps.libs/)" />
     <import index="mmb3" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr(de.q60.mps.libs/)" />
+    <import index="j8em" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.impl.hash(de.q60.mps.libs/)" />
+    <import index="e8no" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.containers(MPS.IDEA/)" />
+    <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1519,6 +1522,26 @@
   </node>
   <node concept="312cEu" id="4OBfrz$xLo1">
     <property role="TrG5h" value="IncrementalEngine" />
+    <node concept="Wx3nA" id="VwH9Cd042X" role="jymVt">
+      <property role="TrG5h" value="CONTEXT_ENGINE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="VwH9CcZWMo" role="1tU5fm">
+        <ref role="3uigEE" to="3d38:7vWAzuEE15A" resolve="ContextValue" />
+        <node concept="3uibUv" id="VwH9CcZXSH" role="11_B2D">
+          <ref role="3uigEE" node="4OBfrz$xLo1" resolve="IncrementalEngine" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="VwH9Cd0dlK" role="1B3o_S" />
+      <node concept="2ShNRf" id="VwH9Cd02jY" role="33vP2m">
+        <node concept="1pGfFk" id="VwH9Cd01HW" role="2ShVmc">
+          <ref role="37wK5l" to="3d38:32qWz0M5VME" resolve="ContextValue" />
+          <node concept="3uibUv" id="VwH9Cd01HX" role="1pMfVU">
+            <ref role="3uigEE" node="4OBfrz$xLo1" resolve="IncrementalEngine" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="VwH9CcZN0y" role="jymVt" />
     <node concept="312cEg" id="4OBfrz$xMnw" role="jymVt">
       <property role="TrG5h" value="dependencies" />
       <node concept="3Tm6S6" id="4OBfrz$xMnx" role="1B3o_S" />
@@ -2354,9 +2377,6 @@
                   <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                 </node>
                 <node concept="2OqwBi" id="3CcyxRChP2P" role="I$8f6">
-                  <node concept="37vLTw" id="3CcyxRChP2Q" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3CcyxRChP2C" resolve="changes" />
-                  </node>
                   <node concept="3goQfb" id="3CcyxRChP2R" role="2OqNvi">
                     <node concept="1bVj0M" id="3CcyxRChP2S" role="23t8la">
                       <node concept="3clFbS" id="3CcyxRChP2T" role="1bW5cS">
@@ -2379,6 +2399,9 @@
                         <node concept="2jxLKc" id="3CcyxRChP30" role="1tU5fm" />
                       </node>
                     </node>
+                  </node>
+                  <node concept="37vLTw" id="3CcyxRChP2Q" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3CcyxRChP2C" resolve="changes" />
                   </node>
                 </node>
               </node>
@@ -4340,6 +4363,7 @@
           </node>
         </node>
       </node>
+      <node concept="3Tmbuc" id="3RWdhMVxH_D" role="1B3o_S" />
       <node concept="2tJIrI" id="3RWdhMVzqkG" role="jymVt" />
       <node concept="3clFb_" id="3RWdhMVAKGv" role="jymVt">
         <property role="TrG5h" value="toInverse" />
@@ -4502,7 +4526,6 @@
           </node>
         </node>
       </node>
-      <node concept="3Tmbuc" id="3RWdhMVxH_D" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="4OBfrz$xLo2" role="1B3o_S" />
   </node>

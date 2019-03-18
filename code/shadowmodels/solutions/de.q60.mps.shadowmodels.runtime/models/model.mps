@@ -12,6 +12,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
+    <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2029,14 +2030,14 @@
       <node concept="3Tm1VV" id="QurUgiyqpo" role="1B3o_S" />
       <node concept="2ShNRf" id="QurUgiyqqj" role="33vP2m">
         <node concept="1pGfFk" id="QurUgiyqqa" role="2ShVmc">
-          <ref role="37wK5l" to="pxvb:32qWz0M5VME" resolve="ContextValue" />
+          <ref role="37wK5l" to="3d38:32qWz0M5VME" resolve="ContextValue" />
           <node concept="3uibUv" id="QurUgiyD0Q" role="1pMfVU">
             <ref role="3uigEE" node="5wi3nvJWiQu" resolve="INodeResolveContext" />
           </node>
         </node>
       </node>
       <node concept="3uibUv" id="QurUgiyqpA" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:7vWAzuEE15A" resolve="ContextValue" />
+        <ref role="3uigEE" to="3d38:7vWAzuEE15A" resolve="ContextValue" />
         <node concept="3uibUv" id="QurUgiyCXY" role="11_B2D">
           <ref role="3uigEE" node="5wi3nvJWiQu" resolve="INodeResolveContext" />
         </node>

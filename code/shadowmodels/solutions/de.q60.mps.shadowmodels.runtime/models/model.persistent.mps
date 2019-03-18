@@ -12,10 +12,10 @@
     <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
-    <import index="ee18" ref="r:ae5491dd-13f2-4540-8a18-9d4eafbb865f(de.q60.mps.shadowmodels.runtime.incremental)" />
     <import index="87lp" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.collection(de.q60.mps.libs/)" />
     <import index="3xem" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.control(de.q60.mps.libs/)" />
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
+    <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -6112,7 +6112,7 @@
                     <ref role="1PxDUh" to="mjcn:5wi3nvJWiQu" resolve="INodeResolveContext" />
                   </node>
                   <node concept="liA8E" id="QurUgjt9L9" role="2OqNvi">
-                    <ref role="37wK5l" to="pxvb:7vWAzuEE1gr" resolve="getValue" />
+                    <ref role="37wK5l" to="3d38:7vWAzuEE1gr" resolve="getValue" />
                   </node>
                 </node>
               </node>
@@ -6824,14 +6824,14 @@
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="4_SQzDObZt6" role="1B3o_S" />
       <node concept="3uibUv" id="4_SQzDObZtI" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:7vWAzuEE15A" resolve="ContextValue" />
+        <ref role="3uigEE" to="3d38:7vWAzuEE15A" resolve="ContextValue" />
         <node concept="3uibUv" id="4_SQzDOc49J" role="11_B2D">
           <ref role="3uigEE" node="4_SQzDObZMi" resolve="Transaction" />
         </node>
       </node>
       <node concept="2ShNRf" id="4_SQzDObZvP" role="33vP2m">
         <node concept="1pGfFk" id="4_SQzDObZvv" role="2ShVmc">
-          <ref role="37wK5l" to="pxvb:32qWz0M5VME" resolve="ContextValue" />
+          <ref role="37wK5l" to="3d38:32qWz0M5VME" resolve="ContextValue" />
           <node concept="3uibUv" id="4_SQzDOc4cx" role="1pMfVU">
             <ref role="3uigEE" node="4_SQzDObZMi" resolve="Transaction" />
           </node>
@@ -7013,7 +7013,7 @@
               <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
             </node>
             <node concept="liA8E" id="1CWZn1pMAVs" role="2OqNvi">
-              <ref role="37wK5l" to="pxvb:4_SQzDOcIKd" resolve="runWith" />
+              <ref role="37wK5l" to="3d38:4_SQzDOcIKd" resolve="runWith" />
               <node concept="10QFUN" id="1CWZn1pMBjM" role="37wK5m">
                 <node concept="37vLTw" id="1CWZn1pMBjL" role="10QFUP">
                   <ref role="3cqZAo" node="1CWZn1pM_9T" resolve="transaction" />
@@ -7047,7 +7047,7 @@
                 <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
               </node>
               <node concept="liA8E" id="5QP6xyk6KlB" role="2OqNvi">
-                <ref role="37wK5l" to="pxvb:7vWAzuEE1gr" resolve="getValue" />
+                <ref role="37wK5l" to="3d38:7vWAzuEE1gr" resolve="getValue" />
               </node>
             </node>
           </node>
@@ -7163,7 +7163,7 @@
                             <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
                           </node>
                           <node concept="liA8E" id="4_SQzDOcKgW" role="2OqNvi">
-                            <ref role="37wK5l" to="pxvb:4_SQzDOcIKd" resolve="runWith" />
+                            <ref role="37wK5l" to="3d38:4_SQzDOcIKd" resolve="runWith" />
                             <node concept="37vLTw" id="7FcLFF4eome" role="37wK5m">
                               <ref role="3cqZAo" node="7FcLFF4eom9" resolve="t" />
                             </node>
@@ -7370,7 +7370,7 @@
                     <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
                   </node>
                   <node concept="liA8E" id="5QP6xykjSxY" role="2OqNvi">
-                    <ref role="37wK5l" to="pxvb:7vWAzuEE1gr" resolve="getValue" />
+                    <ref role="37wK5l" to="3d38:7vWAzuEE1gr" resolve="getValue" />
                   </node>
                 </node>
               </node>
@@ -7486,7 +7486,7 @@
                       <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
                     </node>
                     <node concept="liA8E" id="4_SQzDOcGhT" role="2OqNvi">
-                      <ref role="37wK5l" to="pxvb:4_SQzDOcIKd" resolve="runWith" />
+                      <ref role="37wK5l" to="3d38:4_SQzDOcIKd" resolve="runWith" />
                       <node concept="37vLTw" id="4_SQzDOcGkg" role="37wK5m">
                         <ref role="3cqZAo" node="4_SQzDOcDUs" resolve="newWrite" />
                       </node>
@@ -7733,7 +7733,7 @@
                 <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
               </node>
               <node concept="liA8E" id="2BYLcdc91HR" role="2OqNvi">
-                <ref role="37wK5l" to="pxvb:7vWAzuEE1gr" resolve="getValue" />
+                <ref role="37wK5l" to="3d38:7vWAzuEE1gr" resolve="getValue" />
               </node>
             </node>
           </node>
@@ -7759,7 +7759,7 @@
                 <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
               </node>
               <node concept="liA8E" id="2BYLcdc9ajz" role="2OqNvi">
-                <ref role="37wK5l" to="pxvb:7vWAzuEE1gr" resolve="getValue" />
+                <ref role="37wK5l" to="3d38:7vWAzuEE1gr" resolve="getValue" />
               </node>
             </node>
           </node>
@@ -7788,7 +7788,7 @@
                 <ref role="3cqZAo" node="4_SQzDObZt5" resolve="contextTransactions" />
               </node>
               <node concept="liA8E" id="4_SQzDOc5im" role="2OqNvi">
-                <ref role="37wK5l" to="pxvb:7vWAzuEE1gr" resolve="getValue" />
+                <ref role="37wK5l" to="3d38:7vWAzuEE1gr" resolve="getValue" />
               </node>
             </node>
           </node>

@@ -28,7 +28,7 @@
     <import index="oyp0" ref="r:ff4bc8f2-4e53-41b7-a27c-792a5dcc86cb(de.q60.mps.shadowmodels.transformation.structure)" />
     <import index="ao3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.text(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" implicit="true" />
+    <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1436,7 +1436,7 @@
                   <ref role="1PxDUh" to="mjcn:5wi3nvJWiQu" resolve="INodeResolveContext" />
                 </node>
                 <node concept="liA8E" id="3QW6fV02o$g" role="2OqNvi">
-                  <ref role="37wK5l" to="pxvb:4_SQzDOcIKd" resolve="runWith" />
+                  <ref role="37wK5l" to="3d38:4_SQzDOcIKd" resolve="runWith" />
                   <node concept="2ShNRf" id="3QW6fV02uWY" role="37wK5m">
                     <node concept="1pGfFk" id="3QW6fV02x6L" role="2ShVmc">
                       <ref role="37wK5l" to="l6bp:7gxeZuyfxRC" resolve="SRepositoryResolveContext" />

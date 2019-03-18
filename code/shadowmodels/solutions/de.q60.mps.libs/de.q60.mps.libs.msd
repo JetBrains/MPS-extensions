@@ -7,11 +7,13 @@
     <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="trove4j-3.0.3.jar" />
       <sourceRoot location="vavr-0.9.3.jar" />
+      <sourceRoot location="guava-27.1-jre.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/trove4j-3.0.3.jar" />
     <stubModelEntry path="${module}/lib/vavr-0.9.3.jar" />
+    <stubModelEntry path="${module}/lib/guava-27.1-jre.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

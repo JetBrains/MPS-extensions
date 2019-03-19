@@ -6225,6 +6225,11 @@
             <ref role="3bR37D" node="56N5Q5feHaK" resolve="de.q60.mps.incremental" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7qGGLAl3P0D" role="3bR37C">
+          <node concept="3bR9La" id="7qGGLAl3P0E" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklPrV" resolve="de.q60.mps.incremental.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6fQhGuklQWU" role="2G$12L">
         <property role="BnDLt" value="true" />

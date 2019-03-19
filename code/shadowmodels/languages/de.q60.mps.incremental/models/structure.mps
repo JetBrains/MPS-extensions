@@ -115,6 +115,9 @@
     <node concept="PrWs8" id="4owK417bxOV" role="PzmwI">
       <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
     </node>
+    <node concept="PrWs8" id="7qGGLAkZP$t" role="PzmwI">
+      <ref role="PrY4T" node="7qGGLAkZPfL" resolve="IIncrementalFunction" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4owK417btoe">
     <property role="EcuMT" value="5053250164214322702" />
@@ -191,6 +194,73 @@
     <node concept="PrWs8" id="VwH9Cd5Ln5" role="PzmwI">
       <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7qGGLAkShCm">
+    <property role="EcuMT" value="8551406714923063830" />
+    <property role="TrG5h" value="IncrementalFunctionLiteral" />
+    <property role="34LRSv" value="incremental function" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="7qGGLAkSiE$" role="1TKVEi">
+      <property role="IQ2ns" value="8551406714923068068" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4owK417btoe" resolve="IncrementalFunctionParameter" />
+    </node>
+    <node concept="1TJgyj" id="7qGGLAkSiE_" role="1TKVEi">
+      <property role="IQ2ns" value="8551406714923068069" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
+    <node concept="1TJgyj" id="7qGGLAkSiEA" role="1TKVEi">
+      <property role="IQ2ns" value="8551406714923068070" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="returnType" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="7qGGLAkSiEB" role="1TKVEi">
+      <property role="IQ2ns" value="8551406714923068071" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cacheKeys" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="7qGGLAkVXol" role="PzmwI">
+      <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
+    </node>
+    <node concept="PrWs8" id="7qGGLAkW_eS" role="PzmwI">
+      <ref role="PrY4T" to="tpee:i2fhoOR" resolve="IMethodLike" />
+    </node>
+    <node concept="PrWs8" id="7qGGLAkZP$G" role="PzmwI">
+      <ref role="PrY4T" node="7qGGLAkZPfL" resolve="IIncrementalFunction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7qGGLAkYBYd">
+    <property role="EcuMT" value="8551406714924728205" />
+    <property role="TrG5h" value="WithEngineStatement" />
+    <property role="34LRSv" value="with engine" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="7qGGLAkYBYe" role="1TKVEi">
+      <property role="IQ2ns" value="8551406714924728206" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="engine" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="7qGGLAkYBYV" role="1TKVEi">
+      <property role="IQ2ns" value="8551406714924728251" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7qGGLAkZPfL">
+    <property role="EcuMT" value="8551406714925044721" />
+    <property role="TrG5h" value="IIncrementalFunction" />
   </node>
 </model>
 

@@ -6214,6 +6214,11 @@
               <ref role="3bR37D" to="ffeo:7YI57w6K08M" resolve="jetbrains.mps.baseLanguage.closures#1199623535494" />
             </node>
           </node>
+          <node concept="1SiIV0" id="7qGGLAkRmDA" role="3bR37C">
+            <node concept="3bR9La" id="7qGGLAkRmDB" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="56N5Q5feITi" role="3bR37C">
           <node concept="3bR9La" id="56N5Q5feITj" role="1SiIV1">

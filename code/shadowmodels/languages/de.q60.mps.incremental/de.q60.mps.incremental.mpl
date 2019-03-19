@@ -17,6 +17,7 @@
       <dependencies>
         <dependency reexport="false">95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)</dependency>
         <dependency reexport="false">857d0a79-6f44-4f46-84ed-9c5b42632011(jetbrains.mps.baseLanguage.closures#1199623535494)</dependency>
+        <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:da8e6b62-7ca3-4489-86bc-b70a501ca28f:de.q60.mps.incremental" version="0" />

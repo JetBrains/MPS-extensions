@@ -2580,9 +2580,9 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="5pN$eUqwqk8" role="3cqZAp" />
-                <node concept="3SKdUt" id="5pN$eUqvtn3" role="3cqZAp">
-                  <node concept="3SKdUq" id="5pN$eUqvtn5" role="3SKWNk">
-                    <property role="3SKdUp" value="TODO check node" />
+                <node concept="3SKdUt" id="5pN$eUq_lt3" role="3cqZAp">
+                  <node concept="3SKdUq" id="5pN$eUq_lt5" role="3SKWNk">
+                    <property role="3SKdUp" value="check editor id, otherwise unrelated collapsibles will be found" />
                   </node>
                 </node>
                 <node concept="3clFbJ" id="5pN$eUquhbf" role="3cqZAp">
@@ -2598,12 +2598,30 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="2ZW3vV" id="5pN$eUquiv1" role="3clFbw">
-                    <node concept="3uibUv" id="5pN$eUquje2" role="2ZW6by">
-                      <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
+                  <node concept="1Wc70l" id="5pN$eUq$RcI" role="3clFbw">
+                    <node concept="2OqwBi" id="5pN$eUq$VYq" role="3uHU7w">
+                      <node concept="1rXfSq" id="5pN$eUq$UT1" role="2Oq$k0">
+                        <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellId():java.lang.String" resolve="getCellId" />
+                      </node>
+                      <node concept="liA8E" id="5pN$eUq$XrI" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <node concept="2OqwBi" id="5pN$eUq$Ye0" role="37wK5m">
+                          <node concept="37vLTw" id="5pN$eUq$Y0a" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5pN$eUqwzV5" resolve="child" />
+                          </node>
+                          <node concept="liA8E" id="5pN$eUq_1zr" role="2OqNvi">
+                            <ref role="37wK5l" to="f4zo:~EditorCell.getCellId():java.lang.String" resolve="getCellId" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
-                    <node concept="37vLTw" id="5pN$eUqwQW6" role="2ZW6bz">
-                      <ref role="3cqZAo" node="5pN$eUqwzV5" resolve="child" />
+                    <node concept="2ZW3vV" id="5pN$eUquiv1" role="3uHU7B">
+                      <node concept="3uibUv" id="5pN$eUquje2" role="2ZW6by">
+                        <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
+                      </node>
+                      <node concept="37vLTw" id="5pN$eUqwQW6" role="2ZW6bz">
+                        <ref role="3cqZAo" node="5pN$eUqwzV5" resolve="child" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -2779,12 +2797,30 @@
                       </node>
                       <node concept="3zACq4" id="69rYimqh3Qu" role="3cqZAp" />
                     </node>
-                    <node concept="2ZW3vV" id="69rYimqgMYV" role="3clFbw">
-                      <node concept="37vLTw" id="69rYimqgNcY" role="2ZW6bz">
-                        <ref role="3cqZAo" node="69rYimqgtWI" resolve="c" />
+                    <node concept="1Wc70l" id="5pN$eUq_VE9" role="3clFbw">
+                      <node concept="2OqwBi" id="5pN$eUq_YED" role="3uHU7w">
+                        <node concept="1rXfSq" id="5pN$eUq_Xgi" role="2Oq$k0">
+                          <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellId():java.lang.String" resolve="getCellId" />
+                        </node>
+                        <node concept="liA8E" id="5pN$eUqA0DH" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <node concept="2OqwBi" id="5pN$eUqA1lt" role="37wK5m">
+                            <node concept="37vLTw" id="5pN$eUqA11e" role="2Oq$k0">
+                              <ref role="3cqZAo" node="69rYimqgtWI" resolve="c" />
+                            </node>
+                            <node concept="liA8E" id="5pN$eUqAdKo" role="2OqNvi">
+                              <ref role="37wK5l" to="f4zo:~EditorCell.getCellId():java.lang.String" resolve="getCellId" />
+                            </node>
+                          </node>
+                        </node>
                       </node>
-                      <node concept="3uibUv" id="69rYimqgNq$" role="2ZW6by">
-                        <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
+                      <node concept="2ZW3vV" id="69rYimqgMYV" role="3uHU7B">
+                        <node concept="37vLTw" id="69rYimqgNcY" role="2ZW6bz">
+                          <ref role="3cqZAo" node="69rYimqgtWI" resolve="c" />
+                        </node>
+                        <node concept="3uibUv" id="69rYimqgNq$" role="2ZW6by">
+                          <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
+                        </node>
                       </node>
                     </node>
                   </node>

@@ -196,10 +196,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="3F0ifn" id="1$t5g3Q$e7N" role="3EZMnx">
-          <property role="3F0ifm" value="glyph width" />
+          <property role="3F0ifm" value="node size" />
         </node>
         <node concept="3F1sOY" id="1$t5g3Q$e97" role="3EZMnx">
-          <ref role="1NtTu8" to="o1st:1$t5g3Q$dBC" resolve="glyphWidth" />
+          <ref role="1NtTu8" to="o1st:1$t5g3Q$dBC" resolve="getNodeSize" />
           <node concept="VPXOz" id="1$t5g3Q$iV_" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -256,9 +256,6 @@
       </node>
       <node concept="2EHx9g" id="48DYfEtA0bV" role="2iSdaV" />
     </node>
-  </node>
-  <node concept="3p36aQ" id="1$t5g3Q$v88">
-    <ref role="aqKnT" to="o1st:1$t5g3Q$iVD" resolve="ConceptFunctionParameter_Height" />
   </node>
   <node concept="3p36aQ" id="69rYimo5RzM">
     <ref role="aqKnT" to="o1st:69rYimo5Rzo" resolve="ConceptFunctionParameter_Graphics2D" />

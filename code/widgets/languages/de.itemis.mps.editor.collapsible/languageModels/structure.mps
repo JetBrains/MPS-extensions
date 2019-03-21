@@ -14,7 +14,6 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
-        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -77,8 +76,8 @@
     <node concept="1TJgyj" id="1$t5g3Q$dBC" role="1TKVEi">
       <property role="IQ2ns" value="1809625719153678824" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="glyphWidth" />
-      <ref role="20lvS9" node="1$t5g3Q$5tQ" resolve="ConceptFunction_GetGlyphWidth" />
+      <property role="20kJfa" value="getNodeSize" />
+      <ref role="20lvS9" node="1$t5g3Q$5tQ" resolve="ConceptFunction_GetNodeSize" />
     </node>
     <node concept="1TJgyj" id="69rYimo66sD" role="1TKVEi">
       <property role="IQ2ns" value="7087532378458449705" />
@@ -101,16 +100,9 @@
   </node>
   <node concept="1TIwiD" id="1$t5g3Q$5tQ">
     <property role="EcuMT" value="1809625719153645430" />
-    <property role="TrG5h" value="ConceptFunction_GetGlyphWidth" />
-    <property role="34LRSv" value="glyph width" />
+    <property role="TrG5h" value="ConceptFunction_GetNodeSize" />
+    <property role="34LRSv" value="node size" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-  </node>
-  <node concept="1TIwiD" id="1$t5g3Q$iVD">
-    <property role="EcuMT" value="1809625719153700585" />
-    <property role="TrG5h" value="ConceptFunctionParameter_Height" />
-    <property role="34LRSv" value="height" />
-    <property role="R4oN_" value="function parameter" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="69rYimo5LH8">
     <property role="EcuMT" value="7087532378458364744" />

@@ -40,7 +40,6 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
@@ -146,7 +145,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1$t5g3Q$5tR">
-    <ref role="13h7C2" to="o1st:1$t5g3Q$5tQ" resolve="ConceptFunction_GetGlyphWidth" />
+    <ref role="13h7C2" to="o1st:1$t5g3Q$5tQ" resolve="ConceptFunction_GetNodeSize" />
     <node concept="13i0hz" id="1$t5g3Q$5u2" role="13h7CS">
       <property role="TrG5h" value="getParameterConcepts" />
       <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
@@ -162,9 +161,6 @@
               </node>
               <node concept="35c_gC" id="1$t5g3Q$aYW" role="HW$Y0">
                 <ref role="35c_gD" to="tpc2:gCpncv5" resolve="ConceptFunctionParameter_node" />
-              </node>
-              <node concept="35c_gC" id="1$t5g3Q$bge" role="HW$Y0">
-                <ref role="35c_gD" to="o1st:1$t5g3Q$iVD" resolve="ConceptFunctionParameter_Height" />
               </node>
             </node>
           </node>
@@ -183,7 +179,9 @@
       <node concept="3clFbS" id="1$t5g3Q$5uT" role="3clF47">
         <node concept="3clFbF" id="HkLTsI83_B" role="3cqZAp">
           <node concept="2c44tf" id="1$t5g3Q$5wp" role="3clFbG">
-            <node concept="10Oyi0" id="1$t5g3Q$5xF" role="2c44tc" />
+            <node concept="3uibUv" id="5pN$eUq0R6r" role="2c44tc">
+              <ref role="3uigEE" to="z60i:~Dimension" resolve="Dimension" />
+            </node>
           </node>
         </node>
       </node>
@@ -192,27 +190,6 @@
     </node>
     <node concept="13hLZK" id="1$t5g3Q$5tS" role="13h7CW">
       <node concept="3clFbS" id="1$t5g3Q$5tT" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="1$t5g3Q$jqA">
-    <ref role="13h7C2" to="o1st:1$t5g3Q$iVD" resolve="ConceptFunctionParameter_Height" />
-    <node concept="13i0hz" id="1$t5g3Q$jqL" role="13h7CS">
-      <property role="TrG5h" value="getType" />
-      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
-      <node concept="3clFbS" id="1$t5g3Q$jqO" role="3clF47">
-        <node concept="3clFbF" id="HkLTsI83z7" role="3cqZAp">
-          <node concept="2c44tf" id="1$t5g3Q$jrX" role="3clFbG">
-            <node concept="10Oyi0" id="1$t5g3Q$ju0" role="2c44tc" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="1$t5g3Q$jrh" role="3clF45">
-        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
-      </node>
-      <node concept="3Tm1VV" id="1$t5g3Q$jri" role="1B3o_S" />
-    </node>
-    <node concept="13hLZK" id="1$t5g3Q$jqB" role="13h7CW">
-      <node concept="3clFbS" id="1$t5g3Q$jqC" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="69rYimo5LOa">

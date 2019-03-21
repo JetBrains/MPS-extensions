@@ -4583,16 +4583,6 @@
             <ref role="1Y3XeK" node="5pN$eUp3hSY" resolve="ICollapsibleCallback" />
             <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
             <node concept="3Tm1VV" id="5pN$eUp4ja9" role="1B3o_S" />
-            <node concept="3clFb_" id="5pN$eUp4jab" role="jymVt">
-              <property role="TrG5h" value="customNodeSize" />
-              <node concept="3Tm1VV" id="5pN$eUp4jad" role="1B3o_S" />
-              <node concept="10P_77" id="5pN$eUp4jae" role="3clF45" />
-              <node concept="3clFbS" id="5pN$eUp4jaf" role="3clF47">
-                <node concept="3clFbF" id="5pN$eUp4jPB" role="3cqZAp">
-                  <node concept="3clFbT" id="5pN$eUp4jDf" role="3clFbG" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFb_" id="5pN$eUp4jah" role="jymVt">
               <property role="TrG5h" value="getNodeSize" />
               <node concept="3Tm1VV" id="5pN$eUp4jaj" role="1B3o_S" />
@@ -4694,12 +4684,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5pN$eUp4aOa" role="jymVt" />
-    <node concept="3clFb_" id="5pN$eUp3kU9" role="jymVt">
-      <property role="TrG5h" value="customNodeSize" />
-      <node concept="3clFbS" id="5pN$eUp3kUc" role="3clF47" />
-      <node concept="3Tm1VV" id="5pN$eUp3kUd" role="1B3o_S" />
-      <node concept="10P_77" id="5pN$eUp3kQ$" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="5pN$eUp3hW$" role="jymVt">
       <property role="TrG5h" value="getNodeSize" />
       <node concept="3clFbS" id="5pN$eUp3hWB" role="3clF47" />

@@ -388,38 +388,6 @@
                     <ref role="1Y3XeK" to="s6s:5pN$eUp3hSY" resolve="ICollapsibleCallback" />
                     <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="5pN$eUp3qX0" role="1B3o_S" />
-                    <node concept="3clFb_" id="5pN$eUp3qX2" role="jymVt">
-                      <property role="TrG5h" value="customNodeSize" />
-                      <node concept="3Tm1VV" id="5pN$eUp3qX4" role="1B3o_S" />
-                      <node concept="10P_77" id="5pN$eUp3qX5" role="3clF45" />
-                      <node concept="3clFbS" id="5pN$eUp3qX6" role="3clF47">
-                        <node concept="3cpWs6" id="5pN$eUp3rmn" role="3cqZAp">
-                          <node concept="3clFbT" id="5pN$eUp3rAT" role="3cqZAk">
-                            <property role="3clFbU" value="true" />
-                            <node concept="1W57fq" id="5pN$eUp3t4g" role="lGtFl">
-                              <node concept="3IZrLx" id="5pN$eUp3t4h" role="3IZSJc">
-                                <node concept="3clFbS" id="5pN$eUp3t4i" role="2VODD2">
-                                  <node concept="3clFbF" id="5pN$eUp3trv" role="3cqZAp">
-                                    <node concept="2OqwBi" id="5pN$eUp3vMn" role="3clFbG">
-                                      <node concept="2OqwBi" id="5pN$eUp3tFA" role="2Oq$k0">
-                                        <node concept="30H73N" id="5pN$eUp3tru" role="2Oq$k0" />
-                                        <node concept="3TrEf2" id="5pN$eUp3uSF" role="2OqNvi">
-                                          <ref role="3Tt5mk" to="o1st:1$t5g3Q$dBC" resolve="glyphWidth" />
-                                        </node>
-                                      </node>
-                                      <node concept="3x8VRR" id="5pN$eUp3wwT" role="2OqNvi" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="gft3U" id="5pN$eUp3x7b" role="UU_$l">
-                                <node concept="3clFbT" id="5pN$eUp3xw8" role="gfFT$" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
                     <node concept="3clFb_" id="5pN$eUp3qX8" role="jymVt">
                       <property role="TrG5h" value="getNodeSize" />
                       <node concept="3Tm1VV" id="5pN$eUp3qXa" role="1B3o_S" />
@@ -438,7 +406,7 @@
                                   <node concept="2OqwBi" id="5pN$eUp3Q0g" role="2Oq$k0">
                                     <node concept="30H73N" id="5pN$eUp3PK6" role="2Oq$k0" />
                                     <node concept="3TrEf2" id="5pN$eUp3QMl" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="o1st:1$t5g3Q$dBC" resolve="glyphWidth" />
+                                      <ref role="3Tt5mk" to="o1st:1$t5g3Q$dBC" resolve="getNodeSize" />
                                     </node>
                                   </node>
                                   <node concept="3x8VRR" id="5pN$eUp3SaJ" role="2OqNvi" />
@@ -459,7 +427,7 @@
                                 <node concept="2OqwBi" id="5pN$eUp3MYm" role="3clFbG">
                                   <node concept="2OqwBi" id="5pN$eUp3LRm" role="2Oq$k0">
                                     <node concept="3TrEf2" id="5pN$eUp3LRp" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="o1st:1$t5g3Q$dBC" resolve="glyphWidth" />
+                                      <ref role="3Tt5mk" to="o1st:1$t5g3Q$dBC" resolve="getNodeSize" />
                                     </node>
                                     <node concept="30H73N" id="5pN$eUp3LRq" role="2Oq$k0" />
                                   </node>

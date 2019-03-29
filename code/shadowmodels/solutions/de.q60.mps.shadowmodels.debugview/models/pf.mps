@@ -1022,8 +1022,8 @@
               <node concept="3cpWs3" id="41QOk3IFgOD" role="3uHU7B">
                 <node concept="3cpWs3" id="41QOk3IFgOE" role="3uHU7B">
                   <node concept="2OqwBi" id="41QOk3IFgOH" role="3uHU7B">
-                    <node concept="37vLTw" id="41QOk3IFgOI" role="2Oq$k0">
-                      <ref role="3cqZAo" node="41QOk3IEF5z" resolve="snode" />
+                    <node concept="3kvyP4" id="2pzk5fRQ1WO" role="2Oq$k0">
+                      <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
                     </node>
                     <node concept="liA8E" id="41QOk3IFgOJ" role="2OqNvi">
                       <ref role="37wK5l" to="mhbf:~SNode.getPresentation():java.lang.String" resolve="getPresentation" />
@@ -1035,8 +1035,8 @@
                 </node>
                 <node concept="2OqwBi" id="41QOk3IFgOL" role="3uHU7w">
                   <node concept="2OqwBi" id="41QOk3IFgOM" role="2Oq$k0">
-                    <node concept="37vLTw" id="41QOk3IFgON" role="2Oq$k0">
-                      <ref role="3cqZAo" node="41QOk3IEF5z" resolve="snode" />
+                    <node concept="3kvyP4" id="2pzk5fRQ2ed" role="2Oq$k0">
+                      <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
                     </node>
                     <node concept="liA8E" id="41QOk3IFgOO" role="2OqNvi">
                       <ref role="37wK5l" to="mhbf:~SNode.getConcept():org.jetbrains.mps.openapi.language.SConcept" resolve="getConcept" />

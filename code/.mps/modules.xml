@@ -2,6 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/actions/de.itemis.mps.gotoactions.plugin/de.itemis.mps.gotoactions.plugin.msd" folder="actions" />
+      <modulePath path="$PROJECT_DIR$/actions/de.itemis.mps.gotoactions/de.itemis.mps.gotoactions.mpl" folder="actions" />
       <modulePath path="$PROJECT_DIR$/apache-commons/solutions/org.apache.commons/org.apache.commons.msd" folder="apache-commons" />
       <modulePath path="$PROJECT_DIR$/blutil/languages/com.mbeddr.mpsutil.blutil.genutil/com.mbeddr.mpsutil.blutil.genutil.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/languages/com.mbeddr.mpsutil.blutil/blutil.mpl" folder="blutil" />

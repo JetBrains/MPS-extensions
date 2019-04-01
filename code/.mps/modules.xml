@@ -56,6 +56,8 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
+      <modulePath path="$PROJECT_DIR$/languages/de.q60.mps.virtualinterfaces.sandboxlang/de.q60.mps.virtualinterfaces.sandboxlang.mpl" folder="shadowmodels.virtualinterfaces" />
+      <modulePath path="$PROJECT_DIR$/languages/de.q60.mps.virtualinterfaces/de.q60.mps.virtualinterfaces.mpl" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.demolang/de.itemis.mps.editor.math.demolang.mpl" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.java/de.itemis.mps.editor.math.java.mpl" folder="math" />
@@ -119,6 +121,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.modelmerger.runtime/de.itemis.mps.modelmerger.runtime.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/solutions/de.q60.mps.shadowmodels.examples.javainterpreter/de.q60.mps.shadowmodels.examples.javainterpreter.msd" folder="shadowmodels.examples" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.q60.mps.virtualinterfaces.sandbox/de.q60.mps.virtualinterfaces.sandbox.msd" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/solutions/tests.de.itemis.mps.modelmerger/tests.de.itemis.mps.modelmerger.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />

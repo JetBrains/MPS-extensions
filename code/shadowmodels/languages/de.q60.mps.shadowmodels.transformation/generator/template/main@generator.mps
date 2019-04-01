@@ -31,6 +31,7 @@
     <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" implicit="true" />
     <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" implicit="true" />
@@ -7126,7 +7127,7 @@
             <ref role="1PxDUh" to="nv3w:1CWZn1qnQdy" resolve="ContextForCalls" />
           </node>
           <node concept="liA8E" id="1CWZn1qocvj" role="2OqNvi">
-            <ref role="37wK5l" to="pxvb:32qWz0M44Jm" resolve="computeWith" />
+            <ref role="37wK5l" to="3d38:32qWz0M44Jm" resolve="computeWith" />
             <node concept="2ShNRf" id="1CWZn1qoeEC" role="37wK5m">
               <node concept="1pGfFk" id="1CWZn1qoeED" role="2ShVmc">
                 <ref role="37wK5l" to="nv3w:32qWz0LOgNZ" resolve="SubgraphCallContext" />
@@ -7221,7 +7222,7 @@
             <ref role="1PxDUh" to="nv3w:1CWZn1qnQdy" resolve="ContextForCalls" />
           </node>
           <node concept="liA8E" id="3RcjyAuiSXS" role="2OqNvi">
-            <ref role="37wK5l" to="pxvb:32qWz0M44Jm" resolve="computeWith" />
+            <ref role="37wK5l" to="3d38:32qWz0M44Jm" resolve="computeWith" />
             <node concept="2OqwBi" id="3RcjyAuiUtx" role="37wK5m">
               <node concept="2YIFZM" id="1CWZn1qo3LN" role="2Oq$k0">
                 <ref role="37wK5l" to="nv3w:1CWZn1qo0fm" resolve="get" />
@@ -11407,7 +11408,7 @@
             <ref role="1PxDUh" to="nv3w:1CWZn1qnQdy" resolve="ContextForCalls" />
           </node>
           <node concept="liA8E" id="1CWZn1qpNQy" role="2OqNvi">
-            <ref role="37wK5l" to="pxvb:32qWz0M44Jm" resolve="computeWith" />
+            <ref role="37wK5l" to="3d38:32qWz0M44Jm" resolve="computeWith" />
             <node concept="2ShNRf" id="1CWZn1qpNQz" role="37wK5m">
               <node concept="1pGfFk" id="1CWZn1qpNQ$" role="2ShVmc">
                 <ref role="37wK5l" to="nv3w:32qWz0LOgNZ" resolve="SubgraphCallContext" />
@@ -11501,7 +11502,7 @@
             <ref role="1PxDUh" to="nv3w:1CWZn1qnQdy" resolve="ContextForCalls" />
           </node>
           <node concept="liA8E" id="1CWZn1qpNRb" role="2OqNvi">
-            <ref role="37wK5l" to="pxvb:32qWz0M44Jm" resolve="computeWith" />
+            <ref role="37wK5l" to="3d38:32qWz0M44Jm" resolve="computeWith" />
             <node concept="2OqwBi" id="1CWZn1qpNRc" role="37wK5m">
               <node concept="2YIFZM" id="1CWZn1qpNRd" role="2Oq$k0">
                 <ref role="37wK5l" to="nv3w:1CWZn1qo0fm" resolve="get" />

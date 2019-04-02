@@ -1309,6 +1309,19 @@
       <property role="20kJfa" value="condition" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="2jT_SG7dd0k" role="1TKVEi">
+      <property role="IQ2ns" value="2664327277943509012" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="reexport" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2jT_SG7dd0r" role="1TKVEi">
+      <property role="IQ2ns" value="2664327277943509019" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="transitive" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="32qWz0Ky2UZ" role="PzmwI">
       <ref role="PrY4T" node="6DbeQdm3prL" resolve="ITransformationContent" />
     </node>

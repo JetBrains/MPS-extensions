@@ -2409,13 +2409,56 @@
       </node>
       <node concept="l2Vlx" id="32qWz0Ky2Vg" role="2iSdaV" />
     </node>
-    <node concept="3EZMnI" id="32qWz0KCsPr" role="6VMZX">
-      <node concept="l2Vlx" id="32qWz0KCsPs" role="2iSdaV" />
-      <node concept="3F0ifn" id="32qWz0KCsP$" role="3EZMnx">
-        <property role="3F0ifm" value="condition:" />
+    <node concept="3EZMnI" id="2jT_SG7dd0$" role="6VMZX">
+      <node concept="2iRkQZ" id="2jT_SG7dd0_" role="2iSdaV" />
+      <node concept="3EZMnI" id="32qWz0KCsPr" role="3EZMnx">
+        <node concept="2iRfu4" id="2jT_SG7dd0U" role="2iSdaV" />
+        <node concept="3F0ifn" id="32qWz0KCsP$" role="3EZMnx">
+          <property role="3F0ifm" value="condition:" />
+        </node>
+        <node concept="3F1sOY" id="32qWz0KCsPv" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:32qWz0KCsPo" resolve="condition" />
+        </node>
       </node>
-      <node concept="3F1sOY" id="32qWz0KCsPv" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:32qWz0KCsPo" resolve="condition" />
+      <node concept="3EZMnI" id="2jT_SG7dd0Y" role="3EZMnx">
+        <node concept="2iRfu4" id="2jT_SG7dd0Z" role="2iSdaV" />
+        <node concept="3F0ifn" id="2jT_SG7dd10" role="3EZMnx">
+          <property role="3F0ifm" value="reexport:" />
+        </node>
+        <node concept="3F1sOY" id="2jT_SG7dd1i" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:2jT_SG7dd0k" resolve="reexport" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2jT_SG7dd1o" role="3EZMnx">
+        <node concept="2iRfu4" id="2jT_SG7dd1p" role="2iSdaV" />
+        <node concept="3F0ifn" id="2jT_SG7dd1q" role="3EZMnx">
+          <property role="3F0ifm" value="include transitive:" />
+        </node>
+        <node concept="3F1sOY" id="2jT_SG7dd1r" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:2jT_SG7dd0r" resolve="transitive" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2jT_SG7q4Qp" role="3EZMnx" />
+      <node concept="3F0ifn" id="2jT_SG7q4QO" role="3EZMnx">
+        <property role="3F0ifm" value="Given this dependency graph: S1 --&gt; S2 --this dependency--&gt; S3 --&gt; S4 --&gt; S5" />
+        <node concept="VechU" id="2jT_SG7q4Sh" role="3F10Kt">
+          <property role="Vb096" value="gray" />
+        </node>
+        <node concept="Vb9p2" id="2jT_SG7q4Sv" role="3F10Kt" />
+      </node>
+      <node concept="3F0ifn" id="2jT_SG7q4Rh" role="3EZMnx">
+        <property role="3F0ifm" value="Setting 'reexport' will make S3 (but not S4) visible to S1" />
+        <node concept="VechU" id="2jT_SG7q4S_" role="3F10Kt">
+          <property role="Vb096" value="gray" />
+        </node>
+        <node concept="Vb9p2" id="2jT_SG7q4SA" role="3F10Kt" />
+      </node>
+      <node concept="3F0ifn" id="2jT_SG7q4RK" role="3EZMnx">
+        <property role="3F0ifm" value="Setting 'include transitive' will make S4 (but not S5) visible to S2" />
+        <node concept="VechU" id="2jT_SG7q4SF" role="3F10Kt">
+          <property role="Vb096" value="gray" />
+        </node>
+        <node concept="Vb9p2" id="2jT_SG7q4SG" role="3F10Kt" />
       </node>
     </node>
   </node>

@@ -7347,36 +7347,10 @@
             <ref role="3bR37D" to="ffeo:2eDSGe9d1qi" resolve="jetbrains.mps.ide" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7qsuyMdSUz9" role="3bR37C">
-          <node concept="3bR9La" id="7qsuyMdSUza" role="1SiIV1">
-            <ref role="3bR37D" node="1CPMbFkekuD" resolve="de.itemis.mps.gotoactions" />
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtD" id="1CPMbFkekuD" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.itemis.mps.gotoactions" />
-        <property role="3LESm3" value="2e8c2df7-ea0c-4cfb-a84e-73c4685087a2" />
-        <node concept="398BVA" id="1CPMbFkek_v" role="3LF7KH">
-          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-          <node concept="2Ry0Ak" id="1CPMbFkekN5" role="iGT6I">
-            <property role="2Ry0Am" value="actions" />
-            <node concept="2Ry0Ak" id="7qsuyMdSsd2" role="2Ry0An">
-              <property role="2Ry0Am" value="de.itemis.mps.gotoactions" />
-              <node concept="2Ry0Ak" id="7qsuyMdSsqB" role="2Ry0An">
-                <property role="2Ry0Am" value="de.itemis.mps.gotoactions.mpl" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7qsuyMdSsJb" role="3bR37C">
-          <node concept="3bR9La" id="7qsuyMdSsJc" role="1SiIV1">
+        <node concept="1SiIV0" id="fHXT1i8uiB" role="3bR37C">
+          <node concept="3bR9La" id="fHXT1i8uiC" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
-        </node>
-        <node concept="1yeLz9" id="7qsuyMdSsJd" role="1TViLv">
-          <property role="TrG5h" value="de.itemis.mps.gotoactions#01" />
-          <property role="3LESm3" value="0b981cc6-e75e-49ac-8a5b-f235cb2769f1" />
         </node>
       </node>
     </node>

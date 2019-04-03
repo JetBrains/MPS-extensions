@@ -6267,6 +6267,31 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="5I2DPFwwHiY" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getActionNoHacks" />
+      <property role="DiZV1" value="false" />
+      <node concept="3Tm1VV" id="5I2DPFwwHiZ" role="1B3o_S" />
+      <node concept="3uibUv" id="5I2DPFwwHj0" role="3clF45">
+        <ref role="3uigEE" to="f4zo:~CellAction" resolve="CellAction" />
+      </node>
+      <node concept="37vLTG" id="5I2DPFwwHj1" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="5I2DPFwwHj2" role="1tU5fm">
+          <ref role="3uigEE" to="f4zo:~CellActionType" resolve="CellActionType" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5I2DPFwwHj3" role="3clF47">
+        <node concept="3clFbF" id="5I2DPFwwHjl" role="3cqZAp">
+          <node concept="3nyPlj" id="5I2DPFwwHjm" role="3clFbG">
+            <ref role="37wK5l" to="g51k:~EditorCell_Basic.getAction(jetbrains.mps.openapi.editor.cells.CellActionType):jetbrains.mps.openapi.editor.cells.CellAction" resolve="getAction" />
+            <node concept="37vLTw" id="5I2DPFwwHjn" role="37wK5m">
+              <ref role="3cqZAo" node="5I2DPFwwHj1" resolve="type" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="453OnIlrYSP" role="jymVt">
       <property role="TrG5h" value="setIndentLayoutNewLine" />
       <node concept="37vLTG" id="453OnIlrYSQ" role="3clF46">

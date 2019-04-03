@@ -125,7 +125,7 @@
       <concept id="5373338300158985562" name="de.q60.mps.shadowmodels.transformation.structure.LocalLabel" flags="ng" index="2OqUJG">
         <child id="5373338300158985572" name="node" index="2OqUJi" />
       </concept>
-      <concept id="5373338300159158247" name="de.q60.mps.shadowmodels.transformation.structure.LocalLabelReferenceExpression" flags="ng" index="2Org_h">
+      <concept id="5373338300159158247" name="de.q60.mps.shadowmodels.transformation.structure.LocalLabelReference" flags="ng" index="2Org_h">
         <reference id="5373338300159158248" name="label" index="2Org_u" />
       </concept>
       <concept id="5373338300159315830" name="de.q60.mps.shadowmodels.transformation.structure.EmptyLine" flags="ng" index="2OrE70" />
@@ -1009,6 +1009,10 @@
               <node concept="027rt" id="7YhLqbpfPcW" role="02LM9">
                 <ref role="027rv" to="dj5d:qmkA5fOski" resolve="models" />
                 <node concept="2PWHRv" id="7YhLqbpfPcX" role="027rp">
+                  <node concept="214gnc" id="7YhLqbpfPdi" role="2PWHRo">
+                    <ref role="1YEVMl" node="7YhLqbpfsMH" resolve="outputModel" />
+                    <node concept="214o7A" id="7YhLqbpfPdj" role="214sll" />
+                  </node>
                   <node concept="2OqwBi" id="7YhLqbpfPcY" role="2PWHRq">
                     <node concept="2OqwBi" id="7YhLqbpfPcZ" role="2Oq$k0">
                       <node concept="2OqwBi" id="4wrAhqcXPGI" role="2Oq$k0">
@@ -1073,10 +1077,6 @@
                         </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="214gnc" id="7YhLqbpfPdi" role="2PWHRo">
-                    <ref role="1YEVMl" node="7YhLqbpfsMH" resolve="outputModel" />
-                    <node concept="214o7A" id="7YhLqbpfPdj" role="214sll" />
                   </node>
                 </node>
               </node>

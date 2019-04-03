@@ -4315,5 +4315,77 @@
       <ref role="1YaFvo" to="oyp0:5lWcBwL7BRW" resolve="OperationParameterDecl" />
     </node>
   </node>
+  <node concept="1YbPZF" id="m_yL2M_Y2g">
+    <property role="TrG5h" value="typeof_ForkDependency" />
+    <node concept="3clFbS" id="m_yL2M_Y2h" role="18ibNy">
+      <node concept="1ZobV4" id="m_yL2M_Y$i" role="3cqZAp">
+        <node concept="mw_s8" id="m_yL2M_Y$E" role="1ZfhKB">
+          <node concept="2pJPEk" id="m_yL2M_Y_3" role="mwGJk">
+            <node concept="2pJPED" id="m_yL2M_Y_f" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:f_0P_4Y" resolve="BooleanType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="m_yL2M_Y$l" role="1ZfhK$">
+          <node concept="1Z2H0r" id="m_yL2M_Y2t" role="mwGJk">
+            <node concept="2OqwBi" id="m_yL2M_YdF" role="1Z2MuG">
+              <node concept="1YBJjd" id="m_yL2M_Y4j" role="2Oq$k0">
+                <ref role="1YBMHb" node="m_yL2M_Y2j" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="m_yL2M_Yqr" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:32qWz0KCsPo" resolve="condition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1ZobV4" id="m_yL2M_YAc" role="3cqZAp">
+        <node concept="mw_s8" id="m_yL2M_YAd" role="1ZfhKB">
+          <node concept="2pJPEk" id="m_yL2M_YAe" role="mwGJk">
+            <node concept="2pJPED" id="m_yL2M_YAf" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:f_0P_4Y" resolve="BooleanType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="m_yL2M_YAg" role="1ZfhK$">
+          <node concept="1Z2H0r" id="m_yL2M_YAh" role="mwGJk">
+            <node concept="2OqwBi" id="m_yL2M_YAi" role="1Z2MuG">
+              <node concept="1YBJjd" id="m_yL2M_YAj" role="2Oq$k0">
+                <ref role="1YBMHb" node="m_yL2M_Y2j" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="m_yL2M_YPl" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:2jT_SG7dd0k" resolve="reexport" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1ZobV4" id="m_yL2M_YSs" role="3cqZAp">
+        <node concept="mw_s8" id="m_yL2M_YSt" role="1ZfhKB">
+          <node concept="2pJPEk" id="m_yL2M_YSu" role="mwGJk">
+            <node concept="2pJPED" id="m_yL2M_YSv" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:f_0P_4Y" resolve="BooleanType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="m_yL2M_YSw" role="1ZfhK$">
+          <node concept="1Z2H0r" id="m_yL2M_YSx" role="mwGJk">
+            <node concept="2OqwBi" id="m_yL2M_YSy" role="1Z2MuG">
+              <node concept="1YBJjd" id="m_yL2M_YSz" role="2Oq$k0">
+                <ref role="1YBMHb" node="m_yL2M_Y2j" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="m_yL2M_Z7I" role="2OqNvi">
+                <ref role="3Tt5mk" to="oyp0:2jT_SG7dd0r" resolve="transitive" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="m_yL2M_Y2j" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:32qWz0Ky2UY" resolve="ForkDependency" />
+    </node>
+  </node>
 </model>
 

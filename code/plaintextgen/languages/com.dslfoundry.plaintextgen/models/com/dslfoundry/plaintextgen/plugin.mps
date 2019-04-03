@@ -1054,12 +1054,12 @@
                             <node concept="3cpWsn" id="KbPw5Fd7SR" role="3cpWs9">
                               <property role="TrG5h" value="container" />
                               <node concept="3Tqbb2" id="KbPw5Fd7SN" role="1tU5fm">
-                                <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+                                <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
                               </node>
                               <node concept="2ShNRf" id="KbPw5Fd7Va" role="33vP2m">
                                 <node concept="3zrR0B" id="KbPw5Fd7UB" role="2ShVmc">
                                   <node concept="3Tqbb2" id="KbPw5Fd7UC" role="3zrR0E">
-                                    <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+                                    <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
                                   </node>
                                 </node>
                               </node>
@@ -1174,7 +1174,7 @@
                                         <ref role="3cqZAo" node="2jBmyzyIDFz" resolve="last_container" />
                                       </node>
                                       <node concept="chp4Y" id="7QDDCoBFCHS" role="3oSUPX">
-                                        <ref role="cht4Q" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+                                        <ref role="cht4Q" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
                                       </node>
                                     </node>
                                     <node concept="3TrcHB" id="2jBmyzyIPqF" role="2OqNvi">

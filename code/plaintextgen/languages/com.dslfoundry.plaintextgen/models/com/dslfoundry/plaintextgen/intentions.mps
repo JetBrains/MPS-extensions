@@ -1160,7 +1160,7 @@
             <node concept="2ShNRf" id="7nnaVmO_0tU" role="33vP2m">
               <node concept="3zrR0B" id="7nnaVmO_0tV" role="2ShVmc">
                 <node concept="3Tqbb2" id="7nnaVmO_0tW" role="3zrR0E">
-                  <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+                  <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
                 </node>
               </node>
             </node>
@@ -1392,14 +1392,14 @@
           <node concept="3cpWsn" id="9C_B26w5wa" role="3cpWs9">
             <property role="TrG5h" value="parent" />
             <node concept="3Tqbb2" id="9C_B26w5w5" role="1tU5fm">
-              <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+              <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
             </node>
             <node concept="2OqwBi" id="9C_B26w5HM" role="33vP2m">
               <node concept="37vLTw" id="9C_B26w5zs" role="2Oq$k0">
                 <ref role="3cqZAo" node="9C_B26vZsV" resolve="ile" />
               </node>
               <node concept="1_qnLN" id="9C_B26w97H" role="2OqNvi">
-                <ref role="1_rbq0" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+                <ref role="1_rbq0" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
               </node>
             </node>
           </node>
@@ -1561,12 +1561,12 @@
           <node concept="3cpWsn" id="9C_B26$Ybs" role="3cpWs9">
             <property role="TrG5h" value="converted" />
             <node concept="3Tqbb2" id="9C_B26$Ybo" role="1tU5fm">
-              <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+              <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
             </node>
             <node concept="2ShNRf" id="9C_B26$YeI" role="33vP2m">
               <node concept="3zrR0B" id="9C_B26$YeG" role="2ShVmc">
                 <node concept="3Tqbb2" id="9C_B26$YeH" role="3zrR0E">
-                  <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+                  <ref role="ehGHo" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
                 </node>
               </node>
             </node>
@@ -1643,7 +1643,7 @@
   </node>
   <node concept="2S6QgY" id="9C_B26A5KG">
     <property role="TrG5h" value="ChangeToVertical" />
-    <ref role="2ZfgGC" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+    <ref role="2ZfgGC" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
     <node concept="2S6ZIM" id="9C_B26A5KH" role="2ZfVej">
       <node concept="3clFbS" id="9C_B26A5KI" role="2VODD2">
         <node concept="3clFbF" id="9C_B26A5TP" role="3cqZAp">

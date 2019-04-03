@@ -333,7 +333,7 @@
   </node>
   <node concept="WtQ9Q" id="4GbnmmUd$PO">
     <property role="3GE5qa" value="vertical" />
-    <ref role="WuzLi" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+    <ref role="WuzLi" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
     <node concept="11bSqf" id="4GbnmmUd$PP" role="11c4hB">
       <node concept="3clFbS" id="4GbnmmUd$PQ" role="2VODD2">
         <node concept="3cpWs8" id="4GbnmmUd$Q2" role="3cqZAp">

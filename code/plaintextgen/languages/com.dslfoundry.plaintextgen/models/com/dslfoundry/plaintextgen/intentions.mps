@@ -46,9 +46,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -333,45 +330,6 @@
               </node>
               <node concept="37vLTw" id="1SFgcLT$bIX" role="10QFUP">
                 <ref role="3cqZAo" node="1SFgcLT$bqL" resolve="contextCell" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2xdQw9" id="7OK$UMc1rYo" role="3cqZAp">
-          <property role="2xdLsb" value="info" />
-          <node concept="3cpWs3" id="1SFgcLT$ceo" role="9lYJi">
-            <node concept="2YIFZM" id="1SFgcLT$chR" role="3uHU7w">
-              <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
-              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-              <node concept="2OqwBi" id="1SFgcLT$clz" role="37wK5m">
-                <node concept="37vLTw" id="1SFgcLT$cjq" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1SFgcLT$bHF" resolve="label" />
-                </node>
-                <node concept="liA8E" id="1SFgcLT$cpM" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd():int" resolve="getSelectionEnd" />
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs3" id="1SFgcLT$c5x" role="3uHU7B">
-              <node concept="3cpWs3" id="1SFgcLT$bU8" role="3uHU7B">
-                <node concept="Xl_RD" id="1SFgcLT$bQj" role="3uHU7B">
-                  <property role="Xl_RC" value="start: " />
-                </node>
-                <node concept="2YIFZM" id="1SFgcLT$bW3" role="3uHU7w">
-                  <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
-                  <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                  <node concept="2OqwBi" id="1SFgcLT$bY_" role="37wK5m">
-                    <node concept="37vLTw" id="1SFgcLT$bX2" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1SFgcLT$bHF" resolve="label" />
-                    </node>
-                    <node concept="liA8E" id="1SFgcLT$c2g" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart():int" resolve="getSelectionStart" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="Xl_RD" id="1SFgcLT$c7q" role="3uHU7w">
-                <property role="Xl_RC" value=" end: " />
               </node>
             </node>
           </node>

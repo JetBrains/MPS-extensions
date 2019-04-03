@@ -1318,10 +1318,23 @@
     <property role="3GE5qa" value="horizontal" />
     <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="tab" />
     <node concept="3F0ifn" id="2u5C0Bwz6Jr" role="2wV5jI">
-      <property role="3F0ifm" value="---&gt;" />
+      <property role="3F0ifm" value="→" />
       <node concept="VechU" id="2u5C0Bwz6Ju" role="3F10Kt">
         <property role="Vb096" value="lightGray" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1rAvrZzziLI">
+    <property role="3GE5qa" value="horizontal" />
+    <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="tab" />
+    <node concept="3F0ifn" id="1rAvrZzziLJ" role="2wV5jI">
+      <property role="3F0ifm" value="→" />
+      <node concept="VechU" id="1rAvrZzziLK" role="3F10Kt">
+        <property role="Vb096" value="lightGray" />
+      </node>
+    </node>
+    <node concept="2aJ2om" id="1rAvrZzzphd" role="CpUAK">
+      <ref role="2$4xQ3" node="2jBmyzyH$LX" resolve="Structural" />
     </node>
   </node>
 </model>

@@ -1439,6 +1439,18 @@
         <ref role="3uigEE" node="5ivXze3cgBY" resolve="IGridPostprocessor" />
       </node>
     </node>
+    <node concept="312cEg" id="m_yL2MIe51" role="jymVt">
+      <property role="TrG5h" value="myDisableLeftRowEndCells" />
+      <node concept="3Tm6S6" id="m_yL2MIe52" role="1B3o_S" />
+      <node concept="10P_77" id="m_yL2MIhN6" role="1tU5fm" />
+      <node concept="3clFbT" id="m_yL2MInOx" role="33vP2m" />
+    </node>
+    <node concept="312cEg" id="m_yL2MIoz_" role="jymVt">
+      <property role="TrG5h" value="myDisableRightRowEndCells" />
+      <node concept="3Tm6S6" id="m_yL2MIozA" role="1B3o_S" />
+      <node concept="10P_77" id="m_yL2MIozB" role="1tU5fm" />
+      <node concept="3clFbT" id="m_yL2MIozC" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="1cFYsK3ojJM" role="jymVt" />
     <node concept="3clFbW" id="1dAqnm8$zKt" role="jymVt">
       <node concept="3cqZAl" id="1dAqnm8$zKu" role="3clF45" />
@@ -1545,6 +1557,50 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="m_yL2MI_Bc" role="jymVt" />
+    <node concept="3clFb_" id="m_yL2MICN7" role="jymVt">
+      <property role="TrG5h" value="disableLeftRowEndCells" />
+      <node concept="37vLTG" id="m_yL2MIVWm" role="3clF46">
+        <property role="TrG5h" value="hide" />
+        <node concept="10P_77" id="m_yL2MIXRP" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="m_yL2MICN9" role="3clF45" />
+      <node concept="3Tm1VV" id="m_yL2MICNa" role="1B3o_S" />
+      <node concept="3clFbS" id="m_yL2MICNb" role="3clF47">
+        <node concept="3clFbF" id="m_yL2MJ1fa" role="3cqZAp">
+          <node concept="37vLTI" id="m_yL2MJ2rL" role="3clFbG">
+            <node concept="37vLTw" id="m_yL2MJ2Fv" role="37vLTx">
+              <ref role="3cqZAo" node="m_yL2MIVWm" resolve="hide" />
+            </node>
+            <node concept="37vLTw" id="m_yL2MJ1f9" role="37vLTJ">
+              <ref role="3cqZAo" node="m_yL2MIe51" resolve="myDisableLeftRowEndCells" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="m_yL2MJ744" role="jymVt" />
+    <node concept="3clFb_" id="m_yL2MJ3re" role="jymVt">
+      <property role="TrG5h" value="disableRightRowEndCells" />
+      <node concept="37vLTG" id="m_yL2MJ3rf" role="3clF46">
+        <property role="TrG5h" value="hide" />
+        <node concept="10P_77" id="m_yL2MJ3rg" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="m_yL2MJ3rh" role="3clF45" />
+      <node concept="3Tm1VV" id="m_yL2MJ3ri" role="1B3o_S" />
+      <node concept="3clFbS" id="m_yL2MJ3rj" role="3clF47">
+        <node concept="3clFbF" id="m_yL2MJ3rk" role="3cqZAp">
+          <node concept="37vLTI" id="m_yL2MJ3rl" role="3clFbG">
+            <node concept="37vLTw" id="m_yL2MJ3rm" role="37vLTx">
+              <ref role="3cqZAo" node="m_yL2MJ3rf" resolve="hide" />
+            </node>
+            <node concept="37vLTw" id="m_yL2MJepZ" role="37vLTJ">
+              <ref role="3cqZAo" node="m_yL2MIoz_" resolve="myDisableRightRowEndCells" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="1MCPN0ijS0A" role="jymVt" />
     <node concept="3clFb_" id="1MCPN0ikrXv" role="jymVt">
       <property role="TrG5h" value="init" />
@@ -1634,6 +1690,12 @@
             </node>
             <node concept="liA8E" id="5PYr1ZdRuW2" role="2OqNvi">
               <ref role="37wK5l" to="6dpw:RywcYwuy3C" resolve="finalizeGrid" />
+              <node concept="37vLTw" id="m_yL2MIu52" role="37wK5m">
+                <ref role="3cqZAo" node="m_yL2MIe51" resolve="myDisableLeftRowEndCells" />
+              </node>
+              <node concept="37vLTw" id="m_yL2MIwfB" role="37wK5m">
+                <ref role="3cqZAo" node="m_yL2MIoz_" resolve="myDisableRightRowEndCells" />
+              </node>
             </node>
           </node>
         </node>

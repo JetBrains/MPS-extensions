@@ -2467,6 +2467,11 @@
               <ref role="3bR37D" to="ffeo:2Qa9MYMHrcB" resolve="jetbrains.mps.editorlang.runtime" />
             </node>
           </node>
+          <node concept="1SiIV0" id="m_yL2MYDGP" role="3bR37C">
+            <node concept="3bR9La" id="m_yL2MYDGQ" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="27YNgA28xCu" role="1E1XAP">
           <ref role="1E0d5P" node="29so9Vb$6T5" resolve="de.slisson.mps.tables.runtime" />

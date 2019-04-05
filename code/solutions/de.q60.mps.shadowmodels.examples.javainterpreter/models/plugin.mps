@@ -393,6 +393,31 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="1zncNMQUNSC" role="jymVt">
+      <property role="TrG5h" value="dispose" />
+      <node concept="3cqZAl" id="1zncNMQUNSE" role="3clF45" />
+      <node concept="3Tm1VV" id="1zncNMQUNSF" role="1B3o_S" />
+      <node concept="3clFbS" id="1zncNMQUNSG" role="3clF47">
+        <node concept="3clFbF" id="1zncNMQURKT" role="3cqZAp">
+          <node concept="2OqwBi" id="1zncNMQUSdE" role="3clFbG">
+            <node concept="37vLTw" id="1zncNMQURKS" role="2Oq$k0">
+              <ref role="3cqZAo" node="m_yL2NdM9$" resolve="incrementalEngine" />
+            </node>
+            <node concept="liA8E" id="1zncNMQUUEO" role="2OqNvi">
+              <ref role="37wK5l" to="2wxy:7q7cTU0Y__v" resolve="dispose" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1zncNMQV1o0" role="3cqZAp">
+          <node concept="37vLTI" id="1zncNMQV1PV" role="3clFbG">
+            <node concept="10Nm6u" id="1zncNMQV1X3" role="37vLTx" />
+            <node concept="37vLTw" id="1zncNMQV1nY" role="37vLTJ">
+              <ref role="3cqZAo" node="m_yL2NdM9$" resolve="incrementalEngine" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="m_yL2MNtV9" role="1B3o_S" />
     <node concept="3uibUv" id="m_yL2MNtWM" role="1zkMxy">
       <ref role="3uigEE" to="exr9:~AbstractAdditionalPainter" resolve="AbstractAdditionalPainter" />
@@ -513,7 +538,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="m_yL2NcowA" role="3cqZAp" />
             <node concept="3clFbF" id="m_yL2N23TF" role="3cqZAp">
               <node concept="2OqwBi" id="m_yL2N246Y" role="3clFbG">
                 <node concept="37vLTw" id="m_yL2N23TD" role="2Oq$k0">
@@ -1246,8 +1270,15 @@
             <node concept="37vLTw" id="m_yL2NdRQ9" role="3Z2Tp">
               <ref role="3cqZAo" node="m_yL2NdM9$" resolve="incrementalEngine" />
             </node>
-            <node concept="37vLTw" id="m_yL2NdTvs" role="3WLBm">
-              <ref role="3cqZAo" node="m_yL2N0zBQ" resolve="node" />
+            <node concept="2OqwBi" id="1zncNMQTX2t" role="3WLBm">
+              <node concept="2JrnkZ" id="1zncNMQTV8C" role="2Oq$k0">
+                <node concept="37vLTw" id="m_yL2NdTvs" role="2JrQYb">
+                  <ref role="3cqZAo" node="m_yL2N0zBQ" resolve="node" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1zncNMQTZna" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SNode.getReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getReference" />
+              </node>
             </node>
           </node>
         </node>
@@ -1528,6 +1559,16 @@
                   <node concept="37vLTw" id="m_yL2MO2Tp" role="37wK5m">
                     <ref role="3cqZAo" node="m_yL2MNT6H" resolve="painter" />
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1zncNMQUVz2" role="3cqZAp">
+              <node concept="2OqwBi" id="1zncNMQUVVq" role="3clFbG">
+                <node concept="37vLTw" id="1zncNMQUVz0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="m_yL2MNT6H" resolve="painter" />
+                </node>
+                <node concept="liA8E" id="1zncNMQV0fw" role="2OqNvi">
+                  <ref role="37wK5l" node="1zncNMQUNSC" resolve="dispose" />
                 </node>
               </node>
             </node>

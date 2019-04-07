@@ -601,6 +601,15 @@
       </node>
       <node concept="2iRkQZ" id="Z$zlZaZkP6" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="71qbzSbCuXk" role="6VMZX">
+      <node concept="2iRfu4" id="71qbzSbCuXl" role="2iSdaV" />
+      <node concept="3F0ifn" id="71qbzSbCuXh" role="3EZMnx">
+        <property role="3F0ifm" value="LineEnding:" />
+      </node>
+      <node concept="3F0A7n" id="71qbzSbCuXt" role="3EZMnx">
+        <ref role="1NtTu8" to="myiq:71qbzSbCuXc" resolve="lineEnding" />
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="4q7d2VGNzUl">
     <property role="3GE5qa" value="horizontal" />

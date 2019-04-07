@@ -116,11 +116,12 @@
         <child id="5082088080656976323" name="newlineMarker" index="2EinRH" />
         <child id="1145195647825954802" name="words" index="356sEH" />
       </concept>
-      <concept id="1145195647825954793" name="com.dslfoundry.plaintextgen.structure.IndentedText" flags="ng" index="356sEQ">
+      <concept id="1145195647825954793" name="com.dslfoundry.plaintextgen.structure.SpaceIndentedText" flags="ng" index="356sEQ">
         <property id="5198309202558919052" name="indent" index="333NGx" />
       </concept>
       <concept id="1145195647825954788" name="com.dslfoundry.plaintextgen.structure.TextgenText" flags="ng" index="356sEV">
         <property id="5407518469085446424" name="ext" index="3Le9LX" />
+        <property id="8095834124169899852" name="lineEnding" index="1VYW5M" />
         <child id="1145195647826100986" name="content" index="356KY_" />
       </concept>
       <concept id="1145195647826084325" name="com.dslfoundry.plaintextgen.structure.VerticalLines" flags="ng" index="356WMU" />
@@ -352,6 +353,7 @@
   <node concept="356sEV" id="3OQCuKRw1Vh">
     <property role="TrG5h" value="ListAsHierarchy" />
     <property role="3Le9LX" value=".txt" />
+    <property role="1VYW5M" value="CRLF" />
     <node concept="356WMU" id="3OQCuKRw1Xb" role="356KY_">
       <node concept="356WMU" id="3OQCuKRw20$" role="383Ya9">
         <property role="384gMa" value="left" />

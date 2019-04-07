@@ -45,6 +45,7 @@
         <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
+        <module reference="95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)" version="0" />
         <module reference="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" version="0" />
         <module reference="96089812-effe-4a96-bb2e-75f8162046af(de.q60.mps.shadowmodels.gen.afterPF)" version="0" />
         <module reference="e70fd3e6-9682-4063-ada9-6af13d7a942f(de.q60.mps.shadowmodels.gen.afterPF#01)" version="0" />

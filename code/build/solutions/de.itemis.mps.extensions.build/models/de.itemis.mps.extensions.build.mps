@@ -1644,9 +1644,9 @@
         </node>
       </node>
       <node concept="1E1JtD" id="48DYfEtkkjU" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.editor.collapsible" />
         <property role="3LESm3" value="3bdedd09-792a-4e15-a4db-83970df3ee86" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="48DYfEtkkzS" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="48DYfEtkkVv" role="iGT6I">
@@ -1706,6 +1706,11 @@
               <ref role="3bR37D" to="ffeo:7YI57w6K0iE" resolve="jetbrains.mps.lang.editor#1129914002149" />
             </node>
           </node>
+          <node concept="1SiIV0" id="4RVEq9c_w4S" role="3bR37C">
+            <node concept="3bR9La" id="4RVEq9c_w4T" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7YI57w6K08j" resolve="jetbrains.mps.baseLanguage#1129914002933" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3xFG3bj5MnA" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5MnB" role="3rtmxm">
@@ -1724,6 +1729,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4RVEq9c_w4Q" role="3bR37C">
+          <node concept="3bR9La" id="4RVEq9c_w4R" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>

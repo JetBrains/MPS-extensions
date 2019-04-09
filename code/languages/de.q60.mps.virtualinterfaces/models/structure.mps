@@ -177,6 +177,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
     </node>
+    <node concept="1TJgyj" id="1KLm$DhQ4RL" role="1TKVEi">
+      <property role="IQ2ns" value="2031504182168014321" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5I2DPFvR763" resolve="ParameterDeclaration" />
+    </node>
     <node concept="1TJgyj" id="5I2DPFvRKr1" role="1TKVEi">
       <property role="IQ2ns" value="6594016813168658113" />
       <property role="20lmBu" value="reference" />

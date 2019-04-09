@@ -11,6 +11,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
+        <property id="5279705229678483899" name="value" index="2$xPTl" />
+      </concept>
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -119,15 +122,43 @@
       <node concept="10Oyi0" id="6CK31f5x_Af" role="3clF45" />
       <node concept="3Tm1VV" id="45rECHPB$Ns" role="1B3o_S" />
       <node concept="3clFbS" id="45rECHPB$Nt" role="3clF47">
+        <node concept="3clFbH" id="1KLm$DhLpnM" role="3cqZAp" />
         <node concept="3cpWs8" id="Vl1zEEwGPx" role="3cqZAp">
           <node concept="3cpWsn" id="Vl1zEEwGPy" role="3cpWs9">
             <property role="TrG5h" value="a" />
             <node concept="10Oyi0" id="3n90qvzCo1l" role="1tU5fm" />
-            <node concept="3cmrfG" id="3n90qvzCo1T" role="33vP2m">
-              <property role="3cmrfH" value="0" />
+            <node concept="3cpWs3" id="1KLm$DhPYmI" role="33vP2m">
+              <node concept="2$xPTn" id="1KLm$DhPZ$S" role="3uHU7w">
+                <property role="2$xPTl" value="1.5f" />
+              </node>
+              <node concept="3cpWs3" id="1KLm$DhIDA8" role="3uHU7B">
+                <node concept="3cpWs3" id="1KLm$DhID4s" role="3uHU7B">
+                  <node concept="3cpWs3" id="1KLm$DhICz1" role="3uHU7B">
+                    <node concept="3cpWs3" id="1KLm$DhIC1T" role="3uHU7B">
+                      <node concept="3cmrfG" id="3n90qvzCo1T" role="3uHU7B">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="3cmrfG" id="1KLm$DhQ1bw" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                    </node>
+                    <node concept="3cmrfG" id="1KLm$DhICzc" role="3uHU7w">
+                      <property role="3cmrfH" value="2" />
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="1KLm$DhID4B" role="3uHU7w">
+                    <property role="3cmrfH" value="3" />
+                  </node>
+                </node>
+                <node concept="3cmrfG" id="1KLm$DhIDAj" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1KLm$DhIDQK" role="3cqZAp" />
+        <node concept="3clFbH" id="1KLm$DhIDS5" role="3cqZAp" />
         <node concept="3Oj_Fp" id="4dnJ3mx5i3s" role="3cqZAp">
           <node concept="3clFbS" id="4dnJ3mx5i3u" role="3Oj_Fq">
             <node concept="3clFbF" id="Vl1zEEll7q" role="3cqZAp">

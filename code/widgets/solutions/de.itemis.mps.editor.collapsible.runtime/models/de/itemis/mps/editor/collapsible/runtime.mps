@@ -555,6 +555,11 @@
       <node concept="10P_77" id="5pN$eUqs8s7" role="1tU5fm" />
       <node concept="3clFbT" id="5pN$eUqsdoI" role="33vP2m" />
     </node>
+    <node concept="312cEg" id="62nlqxEfGCk" role="jymVt">
+      <property role="TrG5h" value="myGroup" />
+      <node concept="3Tmbuc" id="62nlqxEfCbX" role="1B3o_S" />
+      <node concept="17QB3L" id="62nlqxEfFEd" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="48DYfEt2KWW" role="jymVt" />
     <node concept="3clFbW" id="48DYfEt2u6Z" role="jymVt">
       <node concept="3cqZAl" id="48DYfEt2u71" role="3clF45" />
@@ -587,6 +592,7 @@
             <ref role="3cqZAo" node="5pN$eUp4aYI" resolve="EMPTY" />
             <ref role="1PxDUh" node="5pN$eUp3hSY" resolve="ICollapsibleCallback" />
           </node>
+          <node concept="10Nm6u" id="62nlqxEfzZV" role="37wK5m" />
         </node>
       </node>
       <node concept="37vLTG" id="48DYfEt2u9Q" role="3clF46">
@@ -744,6 +750,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="62nlqxEfLOT" role="3cqZAp">
+          <node concept="37vLTI" id="62nlqxEfN62" role="3clFbG">
+            <node concept="37vLTw" id="62nlqxEfO1w" role="37vLTx">
+              <ref role="3cqZAo" node="62nlqxEfyXC" resolve="group" />
+            </node>
+            <node concept="37vLTw" id="62nlqxEfLOR" role="37vLTJ">
+              <ref role="3cqZAo" node="62nlqxEfGCk" resolve="myGroup" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="HkLTsH$ek6" role="3clF46">
         <property role="TrG5h" value="context" />
@@ -793,6 +809,10 @@
         <node concept="2AHcQZ" id="5pN$eUp4oIM" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
+      </node>
+      <node concept="37vLTG" id="62nlqxEfyXC" role="3clF46">
+        <property role="TrG5h" value="group" />
+        <node concept="17QB3L" id="62nlqxEfzOy" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="48DYfEt2M3j" role="jymVt" />
@@ -2598,30 +2618,10 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1Wc70l" id="5pN$eUq$RcI" role="3clFbw">
-                    <node concept="2OqwBi" id="5pN$eUq$VYq" role="3uHU7w">
-                      <node concept="1rXfSq" id="5pN$eUq$UT1" role="2Oq$k0">
-                        <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellId():java.lang.String" resolve="getCellId" />
-                      </node>
-                      <node concept="liA8E" id="5pN$eUq$XrI" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                        <node concept="2OqwBi" id="5pN$eUq$Ye0" role="37wK5m">
-                          <node concept="37vLTw" id="5pN$eUq$Y0a" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5pN$eUqwzV5" resolve="child" />
-                          </node>
-                          <node concept="liA8E" id="5pN$eUq_1zr" role="2OqNvi">
-                            <ref role="37wK5l" to="f4zo:~EditorCell.getCellId():java.lang.String" resolve="getCellId" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2ZW3vV" id="5pN$eUquiv1" role="3uHU7B">
-                      <node concept="3uibUv" id="5pN$eUquje2" role="2ZW6by">
-                        <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
-                      </node>
-                      <node concept="37vLTw" id="5pN$eUqwQW6" role="2ZW6bz">
-                        <ref role="3cqZAo" node="5pN$eUqwzV5" resolve="child" />
-                      </node>
+                  <node concept="1rXfSq" id="62nlqxEeRrM" role="3clFbw">
+                    <ref role="37wK5l" node="62nlqxEeNoj" resolve="isLinkedCollapsible" />
+                    <node concept="37vLTw" id="62nlqxEeRrL" role="37wK5m">
+                      <ref role="3cqZAo" node="5pN$eUqwzV5" resolve="child" />
                     </node>
                   </node>
                 </node>
@@ -2797,30 +2797,10 @@
                       </node>
                       <node concept="3zACq4" id="69rYimqh3Qu" role="3cqZAp" />
                     </node>
-                    <node concept="1Wc70l" id="5pN$eUq_VE9" role="3clFbw">
-                      <node concept="2OqwBi" id="5pN$eUq_YED" role="3uHU7w">
-                        <node concept="1rXfSq" id="5pN$eUq_Xgi" role="2Oq$k0">
-                          <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellId():java.lang.String" resolve="getCellId" />
-                        </node>
-                        <node concept="liA8E" id="5pN$eUqA0DH" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                          <node concept="2OqwBi" id="5pN$eUqA1lt" role="37wK5m">
-                            <node concept="37vLTw" id="5pN$eUqA11e" role="2Oq$k0">
-                              <ref role="3cqZAo" node="69rYimqgtWI" resolve="c" />
-                            </node>
-                            <node concept="liA8E" id="5pN$eUqAdKo" role="2OqNvi">
-                              <ref role="37wK5l" to="f4zo:~EditorCell.getCellId():java.lang.String" resolve="getCellId" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="2ZW3vV" id="69rYimqgMYV" role="3uHU7B">
-                        <node concept="37vLTw" id="69rYimqgNcY" role="2ZW6bz">
-                          <ref role="3cqZAo" node="69rYimqgtWI" resolve="c" />
-                        </node>
-                        <node concept="3uibUv" id="69rYimqgNq$" role="2ZW6by">
-                          <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
-                        </node>
+                    <node concept="1rXfSq" id="62nlqxEeNon" role="3clFbw">
+                      <ref role="37wK5l" node="62nlqxEeNoj" resolve="isLinkedCollapsible" />
+                      <node concept="37vLTw" id="62nlqxEeNom" role="37wK5m">
+                        <ref role="3cqZAo" node="69rYimqgtWI" resolve="c" />
                       </node>
                     </node>
                   </node>
@@ -2860,6 +2840,104 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="5pN$eUpSnK_" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="62nlqxEkykZ" role="jymVt" />
+    <node concept="3clFb_" id="62nlqxEeNoj" role="jymVt">
+      <property role="TrG5h" value="isLinkedCollapsible" />
+      <node concept="3Tm6S6" id="62nlqxEeNok" role="1B3o_S" />
+      <node concept="10P_77" id="62nlqxEeNol" role="3clF45" />
+      <node concept="37vLTG" id="62nlqxEeNe7" role="3clF46">
+        <property role="TrG5h" value="cell" />
+        <node concept="3uibUv" id="62nlqxEeNe8" role="1tU5fm">
+          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="62nlqxEeN6F" role="3clF47">
+        <node concept="3clFbJ" id="62nlqxEf5yB" role="3cqZAp">
+          <node concept="3clFbS" id="62nlqxEf5yD" role="3clFbx">
+            <node concept="3cpWs6" id="62nlqxEfemn" role="3cqZAp">
+              <node concept="3clFbT" id="62nlqxEfetq" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="62nlqxEf8Ql" role="3clFbw">
+            <node concept="1eOMI4" id="62nlqxEf8Qn" role="3fr31v">
+              <node concept="2ZW3vV" id="62nlqxEfc3W" role="1eOMHV">
+                <node concept="3uibUv" id="62nlqxEfd3z" role="2ZW6by">
+                  <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
+                </node>
+                <node concept="37vLTw" id="62nlqxEfboo" role="2ZW6bz">
+                  <ref role="3cqZAo" node="62nlqxEeNe7" resolve="cell" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="62nlqxEj7sj" role="3cqZAp">
+          <node concept="3clFbS" id="62nlqxEj7sl" role="3clFbx">
+            <node concept="3cpWs6" id="62nlqxEjhZu" role="3cqZAp">
+              <node concept="2OqwBi" id="62nlqxEjkOu" role="3cqZAk">
+                <node concept="37vLTw" id="62nlqxEjidd" role="2Oq$k0">
+                  <ref role="3cqZAo" node="62nlqxEfGCk" resolve="myGroup" />
+                </node>
+                <node concept="liA8E" id="62nlqxEjqe_" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="2OqwBi" id="62nlqxEkkD5" role="37wK5m">
+                    <node concept="1eOMI4" id="62nlqxEk9rZ" role="2Oq$k0">
+                      <node concept="0kSF2" id="62nlqxEkdgn" role="1eOMHV">
+                        <node concept="3uibUv" id="62nlqxEkgCy" role="0kSFW">
+                          <ref role="3uigEE" node="48DYfEt2p$b" resolve="CollapsibleCell" />
+                        </node>
+                        <node concept="37vLTw" id="62nlqxEjtzX" role="0kSFX">
+                          <ref role="3cqZAo" node="62nlqxEeNe7" resolve="cell" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OwXpG" id="62nlqxEkoxY" role="2OqNvi">
+                      <ref role="2Oxat5" node="62nlqxEfGCk" resolve="myGroup" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="62nlqxEjey$" role="3clFbw">
+            <node concept="10Nm6u" id="62nlqxEjhRy" role="3uHU7w" />
+            <node concept="37vLTw" id="62nlqxEjaSs" role="3uHU7B">
+              <ref role="3cqZAo" node="62nlqxEfGCk" resolve="myGroup" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="62nlqxEeNdW" role="3cqZAp">
+          <node concept="2OqwBi" id="62nlqxEeNdY" role="3cqZAk">
+            <node concept="1rXfSq" id="62nlqxEeNdZ" role="2Oq$k0">
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellId():java.lang.String" resolve="getCellId" />
+            </node>
+            <node concept="liA8E" id="62nlqxEeNe0" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="2OqwBi" id="62nlqxEeNe1" role="37wK5m">
+                <node concept="37vLTw" id="62nlqxEeNh0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="62nlqxEeNe7" resolve="cell" />
+                </node>
+                <node concept="liA8E" id="62nlqxEeNe3" role="2OqNvi">
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getCellId():java.lang.String" resolve="getCellId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="62nlqxEkApc" role="lGtFl">
+        <node concept="TZ5HA" id="62nlqxEkApd" role="TZ5H$">
+          <node concept="1dT_AC" id="62nlqxEkApe" role="1dT_Ay">
+            <property role="1dT_AB" value="Check if the cell is a collapsible that is linked to this one." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="62nlqxEkHWf" role="TZ5H$">
+          <node concept="1dT_AC" id="62nlqxEkHWg" role="1dT_Ay">
+            <property role="1dT_AB" value="If that's the case, edges are drawn between these collapsibles." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5pN$eUoNqRY" role="jymVt" />
     <node concept="3clFb_" id="5pN$eUoNzLK" role="jymVt">
@@ -4198,6 +4276,10 @@
           <ref role="3uigEE" node="5pN$eUp3hSY" resolve="ICollapsibleCallback" />
         </node>
       </node>
+      <node concept="37vLTG" id="62nlqxEfO6T" role="3clF46">
+        <property role="TrG5h" value="group" />
+        <node concept="17QB3L" id="62nlqxEfOaT" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="5pN$eUoErQV" role="3clF45">
         <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
       </node>
@@ -4364,6 +4446,10 @@
           <ref role="3uigEE" node="5pN$eUp3hSY" resolve="ICollapsibleCallback" />
         </node>
       </node>
+      <node concept="37vLTG" id="62nlqxEfOqL" role="3clF46">
+        <property role="TrG5h" value="group" />
+        <node concept="17QB3L" id="62nlqxEfODp" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="HkLTsH$2Mn" role="3clF45">
         <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
       </node>
@@ -4396,6 +4482,9 @@
               </node>
               <node concept="37vLTw" id="5pN$eUp46f$" role="37wK5m">
                 <ref role="3cqZAo" node="5pN$eUp44BG" resolve="callback" />
+              </node>
+              <node concept="37vLTw" id="62nlqxEfP5n" role="37wK5m">
+                <ref role="3cqZAo" node="62nlqxEfOqL" resolve="group" />
               </node>
             </node>
           </node>

@@ -36,6 +36,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD" />
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
@@ -756,6 +757,24 @@
                   </node>
                   <node concept="37vLTw" id="5pN$eUp40WX" role="37wK5m">
                     <ref role="3cqZAo" node="5pN$eUp3pqf" resolve="callback" />
+                  </node>
+                  <node concept="Xl_RD" id="62nlqxEiGqj" role="37wK5m">
+                    <node concept="17Uvod" id="62nlqxEiUxR" role="lGtFl">
+                      <property role="2qtEX9" value="value" />
+                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                      <node concept="3zFVjK" id="62nlqxEiUxS" role="3zH0cK">
+                        <node concept="3clFbS" id="62nlqxEiUxT" role="2VODD2">
+                          <node concept="3clFbF" id="62nlqxEiVw_" role="3cqZAp">
+                            <node concept="2OqwBi" id="62nlqxEiVLn" role="3clFbG">
+                              <node concept="30H73N" id="62nlqxEiVw$" role="2Oq$k0" />
+                              <node concept="3TrcHB" id="62nlqxEiWzO" role="2OqNvi">
+                                <ref role="3TsBF5" to="o1st:62nlqxEeKX8" resolve="group" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

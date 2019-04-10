@@ -70,5 +70,15 @@
       <ref role="20lvS9" node="7CjItjXuch$" resolve="CollapsibleWithCallbackExpanded" />
     </node>
   </node>
+  <node concept="1TIwiD" id="62nlqxEmnHA">
+    <property role="EcuMT" value="6960125930951506790" />
+    <property role="TrG5h" value="CollapsibleGouped" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="62nlqxEmuXg">
+    <property role="EcuMT" value="6960125930951536464" />
+    <property role="TrG5h" value="CollapsibleUngrouped" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
 </model>
 

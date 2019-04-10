@@ -32,6 +32,7 @@
       </concept>
       <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -189,6 +190,25 @@
           </node>
         </node>
         <node concept="2iRfu4" id="48DYfEtzmOR" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="62nlqxEj17o" role="3EZMnx">
+        <node concept="VPM3Z" id="62nlqxEj17p" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="VPXOz" id="62nlqxEj17q" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="62nlqxEj17r" role="3EZMnx">
+          <property role="3F0ifm" value="group" />
+        </node>
+        <node concept="3F0A7n" id="62nlqxEj17s" role="3EZMnx">
+          <property role="1O74Pk" value="true" />
+          <ref role="1NtTu8" to="o1st:62nlqxEeKX8" resolve="group" />
+          <node concept="VPXOz" id="62nlqxEj17t" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="62nlqxEj17u" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="1$t5g3Q$e7J" role="3EZMnx">
         <node concept="VPM3Z" id="1$t5g3Q$e7L" role="3F10Kt" />

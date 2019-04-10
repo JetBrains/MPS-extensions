@@ -28,8 +28,6 @@
     <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
-    <import index="z89u" ref="r:ec6b4eb1-9efb-4bfb-8c9b-e87e12f21896(de.q60.mps.shadowmodels.examples.javainterpreter.interpreter)" />
-    <import index="e9uj" ref="r:a0737da3-c8e0-437c-a9b2-5b254393a0a1(de.q60.mps.polymorphicfunctions.behavior)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
@@ -251,12 +249,6 @@
         <reference id="1205756909548" name="member" index="2WH_rO" />
       </concept>
     </language>
-    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
-      <concept id="4733039728785194814" name="jetbrains.mps.lang.modelapi.structure.NamedNodeReference" flags="ng" index="ZC_QK">
-        <reference id="7256306938026143658" name="target" index="2aWVGs" />
-        <child id="7256306938026143676" name="child" index="2aWVGa" />
-      </concept>
-    </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
         <property id="2034914114981261751" name="severity" index="RRSoG" />
@@ -269,12 +261,6 @@
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="7400021826774799413" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="ng" index="2tJFMh">
-        <child id="7400021826774799510" name="ref" index="2tJFKM" />
-      </concept>
-      <concept id="4065387505485742749" name="jetbrains.mps.lang.smodel.structure.AbstractPointerResolveOperation" flags="ng" index="2yCiFS">
-        <child id="3648723375513868575" name="repositoryArg" index="Vysub" />
-      </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -283,7 +269,6 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
-      <concept id="3648723375513868532" name="jetbrains.mps.lang.smodel.structure.NodePointer_ResolveOperation" flags="ng" index="Vyspw" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -1256,25 +1241,8 @@
                     </node>
                     <node concept="liA8E" id="1KLm$DhNsc4" role="2OqNvi">
                       <ref role="37wK5l" to="od2j:3jJoUQ71IUe" resolve="callFunction" />
-                      <node concept="2OqwBi" id="1KLm$DhNsc5" role="37wK5m">
-                        <node concept="2OqwBi" id="1KLm$DhNsc6" role="2Oq$k0">
-                          <node concept="2tJFMh" id="1KLm$DhNsc7" role="2Oq$k0">
-                            <node concept="ZC_QK" id="1KLm$DhNsc8" role="2tJFKM">
-                              <ref role="2aWVGs" to="z89u:1KLm$DhLAGh" resolve="Interpreter" />
-                              <node concept="ZC_QK" id="1KLm$DhNsc9" role="2aWVGa">
-                                <ref role="2aWVGs" to="z89u:1KLm$DhLAGj" resolve="interpret" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Vyspw" id="1KLm$DhNsca" role="2OqNvi">
-                            <node concept="37vLTw" id="1KLm$DhNscb" role="Vysub">
-                              <ref role="3cqZAo" node="1KLm$DhMZxP" resolve="repository" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="2qgKlT" id="1KLm$DhNscc" role="2OqNvi">
-                          <ref role="37wK5l" to="e9uj:3jJoUQ7114V" resolve="getId" />
-                        </node>
+                      <node concept="Xl_RD" id="1KLm$DhVjlx" role="37wK5m">
+                        <property role="Xl_RC" value="de.q60.mps.shadowmodels.examples.javainterpreter.virtualinterfaces.Interpreter.IInterpretable_interpret" />
                       </node>
                       <node concept="2ShNRf" id="1KLm$DhNscd" role="37wK5m">
                         <node concept="1pGfFk" id="1KLm$DhNsce" role="2ShVmc">
@@ -1307,25 +1275,8 @@
                       </node>
                       <node concept="liA8E" id="1KLm$DhOtJb" role="2OqNvi">
                         <ref role="37wK5l" to="od2j:3jJoUQ71IUe" resolve="callFunction" />
-                        <node concept="2OqwBi" id="1KLm$DhOtJc" role="37wK5m">
-                          <node concept="2OqwBi" id="1KLm$DhOtJd" role="2Oq$k0">
-                            <node concept="2tJFMh" id="1KLm$DhOtJe" role="2Oq$k0">
-                              <node concept="ZC_QK" id="1KLm$DhOtJf" role="2tJFKM">
-                                <ref role="2aWVGs" to="z89u:1KLm$DhLAGh" resolve="Interpreter" />
-                                <node concept="ZC_QK" id="1KLm$DhOtJg" role="2aWVGa">
-                                  <ref role="2aWVGs" to="z89u:1KLm$DhLAGn" resolve="toString" />
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="Vyspw" id="1KLm$DhOtJh" role="2OqNvi">
-                              <node concept="37vLTw" id="1KLm$DhOtJi" role="Vysub">
-                                <ref role="3cqZAo" node="1KLm$DhMZxP" resolve="repository" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="2qgKlT" id="1KLm$DhOtJj" role="2OqNvi">
-                            <ref role="37wK5l" to="e9uj:3jJoUQ7114V" resolve="getId" />
-                          </node>
+                        <node concept="Xl_RD" id="1KLm$DhVwhi" role="37wK5m">
+                          <property role="Xl_RC" value="de.q60.mps.shadowmodels.examples.javainterpreter.virtualinterfaces.Interpreter.IInterpretable_toString" />
                         </node>
                         <node concept="2ShNRf" id="1KLm$DhOtJk" role="37wK5m">
                           <node concept="1pGfFk" id="1KLm$DhOtJl" role="2ShVmc">
@@ -1802,7 +1753,7 @@
                     <node concept="Tc6Ow" id="1KLm$DhMe29" role="2ShVmc">
                       <node concept="17QB3L" id="1KLm$DhMf0Q" role="HW$YZ" />
                       <node concept="Xl_RD" id="1KLm$DhMg3r" role="HW$Y0">
-                        <property role="Xl_RC" value="interpreter" />
+                        <property role="Xl_RC" value="virtualinterfaces" />
                       </node>
                     </node>
                   </node>

@@ -275,5 +275,11 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="1KLm$DhTug8">
+    <ref role="1M2myG" to="nq6j:1KLm$DhTueT" resolve="ImplementsOperation" />
+  </node>
+  <node concept="1M2fIO" id="1KLm$DhTJwg">
+    <ref role="1M2myG" to="nq6j:1KLm$DhTJsP" resolve="VirtualMethodCallOperation" />
+  </node>
 </model>
 

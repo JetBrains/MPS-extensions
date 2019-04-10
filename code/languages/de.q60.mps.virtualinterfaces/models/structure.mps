@@ -95,7 +95,7 @@
       <property role="IQ2ns" value="6594016813168593101" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="implementingConcept" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="1TJgyj" id="5I2DPFvRxEN" role="1TKVEi">
@@ -212,6 +212,45 @@
     <property role="TrG5h" value="ThisExpression" />
     <property role="34LRSv" value="this" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="1KLm$DhTueT">
+    <property role="EcuMT" value="2031504182168904633" />
+    <property role="TrG5h" value="ImplementsOperation" />
+    <property role="34LRSv" value="implements" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1KLm$DhTueX" role="1TKVEi">
+      <property role="IQ2ns" value="2031504182168904637" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="interface" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5I2DPFvQrRx" resolve="VirtualInterfaceDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1KLm$DhTueU" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1KLm$DhTJsP">
+    <property role="EcuMT" value="2031504182168975157" />
+    <property role="TrG5h" value="VirtualMethodCallOperation" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1KLm$DhTJtl" role="1TKVEi">
+      <property role="IQ2ns" value="2031504182168975189" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameterValues" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1KLm$DhTJsT" role="1TKVEi">
+      <property role="IQ2ns" value="2031504182168975161" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5I2DPFvQUXt" resolve="InterfaceMethod" />
+    </node>
+    <node concept="PrWs8" id="1KLm$DhTJsQ" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
   </node>
 </model>
 

@@ -33,6 +33,12 @@
   </registry>
   <node concept="2VgMpV" id="1KLm$DhSOrG">
     <property role="TrG5h" value="VirtualInterfacesGenplan" />
+    <node concept="2VgMA2" id="1KLm$DhU6ZU" role="2VgMA7">
+      <node concept="2V$Bhx" id="1KLm$DhU70v" role="1t_9vn">
+        <property role="2V$B1T" value="3a13115c-633c-4c5c-bbcc-75c4219e9555" />
+        <property role="2V$B1Q" value="jetbrains.mps.lang.quotation" />
+      </node>
+    </node>
     <node concept="2VgMA2" id="1KLm$DhSOs4" role="2VgMA7">
       <node concept="2V$Bhx" id="1KLm$DhSOsa" role="1t_9vn">
         <property role="2V$B1T" value="2b95e175-4fca-48d9-982b-58c954a32b02" />

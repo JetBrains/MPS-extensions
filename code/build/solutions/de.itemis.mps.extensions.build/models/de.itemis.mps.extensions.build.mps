@@ -6896,7 +6896,6 @@
         </node>
       </node>
       <node concept="1E1JtD" id="BRK1N8p1rh" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.kf2.core" />
         <property role="3LESm3" value="1ab7bfac-29d6-4772-a483-50110408ac43" />
         <node concept="398BVA" id="1RCZH7X6xai" role="3LF7KH">
@@ -6985,6 +6984,11 @@
         <node concept="1SiIV0" id="Y68irh7dKM" role="3bR37C">
           <node concept="3bR9La" id="Y68irh7dKN" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1$fhWC_mSHh" role="3bR37C">
+          <node concept="3bR9La" id="1$fhWC_mSHi" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
           </node>
         </node>
       </node>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="de.q60.mps.genplan.virutalinterfaces_incremental.devkit" uuid="4e151864-4b4e-41ea-b14f-961cbd1f5e4d">
+  <exported-language name="da8e6b62-7ca3-4489-86bc-b70a501ca28f(de.q60.mps.incremental)" />
+  <extendedDevKits>
+    <extendedDevKit>b83f902a-169f-41ec-b2ae-ee1414ffa45c(de.q60.mps.virtualinterfaces.devkit)</extendedDevKit>
+  </extendedDevKits>
+  <exported-solutions>
+    <exported-solution>ae5bedd2-61e9-4188-8478-7c052b471565(de.q60.mps.genplan.virutalinterfaces_incremental)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:4fd2fe86-6c60-406f-9c19-b585ae8b7ecb(de.q60.mps.genplan.virutalinterfaces_incremental)" />
+</dev-kit>
+

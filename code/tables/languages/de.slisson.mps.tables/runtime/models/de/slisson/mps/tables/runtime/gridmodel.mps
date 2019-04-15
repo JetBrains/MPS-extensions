@@ -1892,6 +1892,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3jHPIDnIyJY" role="jymVt" />
+    <node concept="3clFb_" id="6YHX03f68sF" role="jymVt">
+      <property role="TrG5h" value="rowHeadersEmpty" />
+      <node concept="3clFbS" id="6YHX03f68sI" role="3clF47">
+        <node concept="3clFbF" id="6YHX03f6oGG" role="3cqZAp">
+          <node concept="2OqwBi" id="6YHX03f6qxi" role="3clFbG">
+            <node concept="37vLTw" id="6YHX03f6oGF" role="2Oq$k0">
+              <ref role="3cqZAo" node="7C0FR5B53dF" resolve="myRowHeaders" />
+            </node>
+            <node concept="liA8E" id="6YHX03f6Eky" role="2OqNvi">
+              <ref role="37wK5l" to="sse1:7C0FR5ANIr3" resolve="isEmpty" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6YHX03f5RBC" role="1B3o_S" />
+      <node concept="10P_77" id="6YHX03f62qy" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="6YHX03f6FWj" role="jymVt" />
     <node concept="3clFb_" id="3jHPIDnIDaU" role="jymVt">
       <property role="TrG5h" value="getColumnHeader" />
       <node concept="37vLTG" id="3jHPIDnJ3xn" role="3clF46">
@@ -19234,32 +19252,22 @@
             <node concept="10P_77" id="6fCslEdUe5j" role="1tU5fm" />
             <node concept="22lmx$" id="6fCslEdUitR" role="33vP2m">
               <node concept="3fqX7Q" id="6fCslEdVeUc" role="3uHU7w">
-                <node concept="2OqwBi" id="6fCslEdVeUe" role="3fr31v">
-                  <node concept="2OqwBi" id="6fCslEdVeUf" role="2Oq$k0">
-                    <node concept="37vLTw" id="6fCslEdVeUg" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1BnAmOU1kVd" resolve="subgrid" />
-                    </node>
-                    <node concept="liA8E" id="6fCslEdVeUh" role="2OqNvi">
-                      <ref role="37wK5l" node="3jHPIDnnbjb" resolve="getRowHeaders" />
-                    </node>
+                <node concept="2OqwBi" id="6fCslEdVeUf" role="3fr31v">
+                  <node concept="37vLTw" id="6fCslEdVeUg" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1BnAmOU1kVd" resolve="subgrid" />
                   </node>
-                  <node concept="liA8E" id="6fCslEdVeUi" role="2OqNvi">
-                    <ref role="37wK5l" to="sse1:7C0FR5ANIr3" resolve="isEmpty" />
+                  <node concept="liA8E" id="6YHX03f7aFK" role="2OqNvi">
+                    <ref role="37wK5l" node="6YHX03f68sF" resolve="rowHeadersEmpty" />
                   </node>
                 </node>
               </node>
               <node concept="3fqX7Q" id="6fCslEdUieD" role="3uHU7B">
-                <node concept="2OqwBi" id="6fCslEdUieF" role="3fr31v">
-                  <node concept="2OqwBi" id="6fCslEdUieG" role="2Oq$k0">
-                    <node concept="37vLTw" id="6fCslEdUieH" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1BnAmOUy1hr" resolve="myGrid" />
-                    </node>
-                    <node concept="liA8E" id="6fCslEdUieI" role="2OqNvi">
-                      <ref role="37wK5l" node="3jHPIDnnbjb" resolve="getRowHeaders" />
-                    </node>
+                <node concept="2OqwBi" id="6fCslEdUieG" role="3fr31v">
+                  <node concept="37vLTw" id="6fCslEdUieH" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1BnAmOUy1hr" resolve="myGrid" />
                   </node>
-                  <node concept="liA8E" id="6fCslEdUieJ" role="2OqNvi">
-                    <ref role="37wK5l" to="sse1:7C0FR5ANIr3" resolve="isEmpty" />
+                  <node concept="liA8E" id="6YHX03f77rr" role="2OqNvi">
+                    <ref role="37wK5l" node="6YHX03f68sF" resolve="rowHeadersEmpty" />
                   </node>
                 </node>
               </node>

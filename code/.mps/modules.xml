@@ -84,6 +84,7 @@
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.sandbox/de.slisson.mps.richtext.sandbox.msd" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/devkits/de.q60.mps.shadowmodels.devkit/de.q60.mps.shadowmodels.devkit.devkit" folder="shadowmodels.core" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.incremental/de.q60.mps.incremental.mpl" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.polymorphicfunctions.sandboxlang/de.q60.mps.polymorphicfunctions.sandboxlang.mpl" folder="shadowmodels.polymorphicfunctions" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.polymorphicfunctions/de.q60.mps.polymorphicfunctions.mpl" folder="shadowmodels.polymorphicfunctions" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.examples.blext/de.q60.mps.shadowmodels.examples.blext.mpl" folder="shadowmodels.examples" />
@@ -104,6 +105,8 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/org.kf2.statemachine/org.kf2.statemachine.mpl" folder="shadowmodels.kf2" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/org.kf2.sugar/org.kf2.sugar.mpl" folder="shadowmodels.kf2" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/org.kf2.test/org.kf2.test.mpl" folder="shadowmodels.kf2" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.runtime/de.q60.mps.incremental.runtime.msd" folder="shadowmodels.incremental" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.libs/de.q60.mps.libs.msd" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.runtime/de.q60.mps.polymorphicfunctions.runtime.msd" folder="shadowmodels.polymorphicfunctions" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.sandbox/de.q60.mps.polymorphicfunctions.sandbox.msd" folder="shadowmodels.polymorphicfunctions" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.debugview/de.q60.mps.shadowmodels.debugview.msd" folder="shadowmodels.core" />

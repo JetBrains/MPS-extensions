@@ -1421,7 +1421,7 @@
   </node>
   <node concept="24kQdi" id="4EhVFrYZevM">
     <property role="3GE5qa" value="macros" />
-    <ref role="1XX52x" to="oyp0:4EhVFrYZevB" resolve="LocalLabelReferenceExpression" />
+    <ref role="1XX52x" to="oyp0:4EhVFrYZevB" resolve="LocalLabelReference" />
     <node concept="3EZMnI" id="4EhVFrZo2V$" role="2wV5jI">
       <node concept="l2Vlx" id="4EhVFrZo2V_" role="2iSdaV" />
       <node concept="1iCGBv" id="4EhVFrYZevO" role="3EZMnx">
@@ -2409,13 +2409,56 @@
       </node>
       <node concept="l2Vlx" id="32qWz0Ky2Vg" role="2iSdaV" />
     </node>
-    <node concept="3EZMnI" id="32qWz0KCsPr" role="6VMZX">
-      <node concept="l2Vlx" id="32qWz0KCsPs" role="2iSdaV" />
-      <node concept="3F0ifn" id="32qWz0KCsP$" role="3EZMnx">
-        <property role="3F0ifm" value="condition:" />
+    <node concept="3EZMnI" id="2jT_SG7dd0$" role="6VMZX">
+      <node concept="2iRkQZ" id="2jT_SG7dd0_" role="2iSdaV" />
+      <node concept="3EZMnI" id="32qWz0KCsPr" role="3EZMnx">
+        <node concept="2iRfu4" id="2jT_SG7dd0U" role="2iSdaV" />
+        <node concept="3F0ifn" id="32qWz0KCsP$" role="3EZMnx">
+          <property role="3F0ifm" value="condition:" />
+        </node>
+        <node concept="3F1sOY" id="32qWz0KCsPv" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:32qWz0KCsPo" resolve="condition" />
+        </node>
       </node>
-      <node concept="3F1sOY" id="32qWz0KCsPv" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:32qWz0KCsPo" resolve="condition" />
+      <node concept="3EZMnI" id="2jT_SG7dd0Y" role="3EZMnx">
+        <node concept="2iRfu4" id="2jT_SG7dd0Z" role="2iSdaV" />
+        <node concept="3F0ifn" id="2jT_SG7dd10" role="3EZMnx">
+          <property role="3F0ifm" value="reexport:" />
+        </node>
+        <node concept="3F1sOY" id="2jT_SG7dd1i" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:2jT_SG7dd0k" resolve="reexport" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2jT_SG7dd1o" role="3EZMnx">
+        <node concept="2iRfu4" id="2jT_SG7dd1p" role="2iSdaV" />
+        <node concept="3F0ifn" id="2jT_SG7dd1q" role="3EZMnx">
+          <property role="3F0ifm" value="include transitive:" />
+        </node>
+        <node concept="3F1sOY" id="2jT_SG7dd1r" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:2jT_SG7dd0r" resolve="transitive" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2jT_SG7q4Qp" role="3EZMnx" />
+      <node concept="3F0ifn" id="2jT_SG7q4QO" role="3EZMnx">
+        <property role="3F0ifm" value="Given this dependency graph: S1 --&gt; S2 --this dependency--&gt; S3 --&gt; S4 --&gt; S5" />
+        <node concept="VechU" id="2jT_SG7q4Sh" role="3F10Kt">
+          <property role="Vb096" value="gray" />
+        </node>
+        <node concept="Vb9p2" id="2jT_SG7q4Sv" role="3F10Kt" />
+      </node>
+      <node concept="3F0ifn" id="2jT_SG7q4Rh" role="3EZMnx">
+        <property role="3F0ifm" value="Setting 'reexport' will make S3 (but not S4) visible to S1" />
+        <node concept="VechU" id="2jT_SG7q4S_" role="3F10Kt">
+          <property role="Vb096" value="gray" />
+        </node>
+        <node concept="Vb9p2" id="2jT_SG7q4SA" role="3F10Kt" />
+      </node>
+      <node concept="3F0ifn" id="2jT_SG7q4RK" role="3EZMnx">
+        <property role="3F0ifm" value="Setting 'include transitive' will make S4 (but not S5) visible to S2" />
+        <node concept="VechU" id="2jT_SG7q4SF" role="3F10Kt">
+          <property role="Vb096" value="gray" />
+        </node>
+        <node concept="Vb9p2" id="2jT_SG7q4SG" role="3F10Kt" />
       </node>
     </node>
   </node>
@@ -3102,6 +3145,49 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7POzUCrfqiO">
+    <property role="3GE5qa" value="macros" />
+    <ref role="1XX52x" to="oyp0:7POzUCrfqiz" resolve="IfTarget" />
+    <node concept="3EZMnI" id="7POzUCrfqiQ" role="2wV5jI">
+      <node concept="3EZMnI" id="7POzUCrfqiR" role="3EZMnx">
+        <node concept="VPM3Z" id="7POzUCrfqiS" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="7POzUCrfqiT" role="3EZMnx">
+          <property role="3F0ifm" value="if  " />
+        </node>
+        <node concept="3F1sOY" id="7POzUCrfqiU" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:7POzUCrfqiA" resolve="condition" />
+        </node>
+        <node concept="2iRfu4" id="7POzUCrfqiV" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="7POzUCrfqiW" role="3EZMnx">
+        <node concept="VPM3Z" id="7POzUCrfqiX" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="7POzUCrfqiY" role="3EZMnx">
+          <property role="3F0ifm" value="then" />
+        </node>
+        <node concept="3F1sOY" id="7POzUCrfqiZ" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:7POzUCrfqiB" resolve="then" />
+        </node>
+        <node concept="2iRfu4" id="7POzUCrfqj0" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="7POzUCrfqj1" role="3EZMnx">
+        <node concept="VPM3Z" id="7POzUCrfqj2" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="7POzUCrfqj3" role="3EZMnx">
+          <property role="3F0ifm" value="else" />
+        </node>
+        <node concept="3F1sOY" id="7POzUCrfqj4" role="3EZMnx">
+          <ref role="1NtTu8" to="oyp0:7POzUCrfqiC" resolve="else" />
+        </node>
+        <node concept="2iRfu4" id="7POzUCrfqj5" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="7POzUCrfqj6" role="2iSdaV" />
     </node>
   </node>
 </model>

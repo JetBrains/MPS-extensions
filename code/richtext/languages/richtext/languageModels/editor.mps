@@ -2061,7 +2061,7 @@
                                           <ref role="3cqZAo" node="6rJIibKuQ9t" resolve="wordCell" />
                                         </node>
                                         <node concept="liA8E" id="58xH_U7k6ZW" role="2OqNvi">
-                                          <ref role="37wK5l" to="93vl:1if8LHMx0ny" resolve="getAction" />
+                                          <ref role="37wK5l" to="93vl:5I2DPFwwHiY" resolve="getActionNoHacks" />
                                           <node concept="Rm8GO" id="58xH_U7k784" role="37wK5m">
                                             <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT" resolve="INSERT" />
                                             <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
@@ -2095,7 +2095,7 @@
                                           <ref role="3cqZAo" node="6rJIibKuQ9t" resolve="wordCell" />
                                         </node>
                                         <node concept="liA8E" id="58xH_U7ka0v" role="2OqNvi">
-                                          <ref role="37wK5l" to="93vl:1if8LHMx0ny" resolve="getAction" />
+                                          <ref role="37wK5l" to="93vl:5I2DPFwwHiY" resolve="getActionNoHacks" />
                                           <node concept="Rm8GO" id="58xH_U7kajl" role="37wK5m">
                                             <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT_BEFORE" resolve="INSERT_BEFORE" />
                                             <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />

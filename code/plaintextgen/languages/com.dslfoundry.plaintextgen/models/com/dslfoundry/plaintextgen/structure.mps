@@ -110,20 +110,20 @@
   </node>
   <node concept="Az7Fb" id="4w$6EQbc7yf">
     <property role="3GE5qa" value="vertical" />
-    <property role="TrG5h" value="Indentation" />
+    <property role="TrG5h" value="SpaceIndentation" />
     <property role="FLfZY" value="( )*" />
   </node>
   <node concept="1TIwiD" id="Z$zlZaZkvD">
-    <property role="TrG5h" value="IndentedText" />
+    <property role="TrG5h" value="SpaceIndentedText" />
     <property role="3GE5qa" value="vertical" />
     <property role="34LRSv" value="-" />
-    <property role="R4oN_" value="Indent Collection" />
+    <property role="R4oN_" value="Indent Collection (spaces)" />
     <property role="EcuMT" value="1145195647825954793" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4w$6EQbaM6c" role="1TKVEl">
       <property role="TrG5h" value="indent" />
       <property role="IQ2nx" value="5198309202558919052" />
-      <ref role="AX2Wp" node="4w$6EQbc7yf" resolve="Indentation" />
+      <ref role="AX2Wp" node="4w$6EQbc7yf" resolve="SpaceIndentation" />
     </node>
     <node concept="PrWs8" id="6gwxh6GbQuq" role="PzmwI">
       <ref role="PrY4T" node="6gwxh6GbQu8" resolve="IVerticalGroup" />
@@ -159,6 +159,11 @@
       <property role="TrG5h" value="ext" />
       <property role="IQ2nx" value="5407518469085446424" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="71qbzSbCuXc" role="1TKVEl">
+      <property role="IQ2nx" value="8095834124169899852" />
+      <property role="TrG5h" value="lineEnding" />
+      <ref role="AX2Wp" node="71qbzSbCuX3" resolve="LineEnding" />
     </node>
     <node concept="1TJgyj" id="Z$zlZaZSbU" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -217,6 +222,33 @@
     <node concept="M4N5e" id="2jBmyzyFesG" role="M5hS2">
       <property role="1uS6qo" value="◨" />
       <property role="1uS6qv" value="right" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2u5C0Bwy3V8">
+    <property role="EcuMT" value="2847858303663881928" />
+    <property role="3GE5qa" value="horizontal" />
+    <property role="TrG5h" value="tab" />
+    <property role="34LRSv" value="---&gt;" />
+    <property role="R4oN_" value="a literal tab character" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2u5C0Bwymf7" role="PzmwI">
+      <ref role="PrY4T" node="7g_oPKUKThq" resolve="ILineElement" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="71qbzSbCuX3">
+    <property role="TrG5h" value="LineEnding" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="71qbzSbCuX8" role="M5hS2">
+      <property role="1uS6qo" value="CRLF" />
+      <property role="1uS6qv" value="CRLF" />
+    </node>
+    <node concept="M4N5e" id="71qbzSbCuX4" role="M5hS2">
+      <property role="1uS6qv" value="CR" />
+      <property role="1uS6qo" value="CR" />
+    </node>
+    <node concept="M4N5e" id="71qbzSbCuX5" role="M5hS2">
+      <property role="1uS6qo" value="LF" />
+      <property role="1uS6qv" value="LF" />
     </node>
   </node>
 </model>

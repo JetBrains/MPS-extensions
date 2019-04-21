@@ -251,10 +251,6 @@
         <child id="5721587534047265374" name="message" index="9lYJi" />
         <child id="5721587534047265375" name="throwable" index="9lYJj" />
       </concept>
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
-      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -1733,41 +1729,6 @@
             </node>
             <node concept="37vLTw" id="pWUoI9j4xE" role="3uHU7w">
               <ref role="3cqZAo" node="pWUoI9gBdb" resolve="row" />
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2jBmyzyBX_T" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="34ab3g" id="pWUoI9iLbo" role="8Wnug">
-            <property role="35gtTG" value="info" />
-            <node concept="2YIFZM" id="pWUoI9iLOy" role="34bqiv">
-              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-              <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
-              <node concept="Xl_RD" id="pWUoI9iM1C" role="37wK5m">
-                <property role="Xl_RC" value="row: %d, column: %d, string: %s, Matrix: %d, LastColumn: %d" />
-              </node>
-              <node concept="37vLTw" id="pWUoI9iMbE" role="37wK5m">
-                <ref role="3cqZAo" node="pWUoI9gBdb" resolve="row" />
-              </node>
-              <node concept="37vLTw" id="pWUoI9iMfN" role="37wK5m">
-                <ref role="3cqZAo" node="pWUoI9gBdn" resolve="column" />
-              </node>
-              <node concept="37vLTw" id="pWUoI9iMnp" role="37wK5m">
-                <ref role="3cqZAo" node="pWUoI9gBkw" resolve="word" />
-              </node>
-              <node concept="2OqwBi" id="pWUoI9iUH3" role="37wK5m">
-                <node concept="37vLTw" id="pWUoI9iUw7" role="2Oq$k0">
-                  <ref role="3cqZAo" node="pWUoI9gAX7" resolve="Matrix" />
-                </node>
-                <node concept="34oBXx" id="pWUoI9iV5H" role="2OqNvi" />
-              </node>
-              <node concept="2OqwBi" id="pWUoI9iVx0" role="37wK5m">
-                <node concept="37vLTw" id="pWUoI9iVfO" role="2Oq$k0">
-                  <ref role="3cqZAo" node="pWUoI9gBBu" resolve="LastColumn" />
-                </node>
-                <node concept="34oBXx" id="pWUoI9iVXG" role="2OqNvi" />
-              </node>
             </node>
           </node>
         </node>

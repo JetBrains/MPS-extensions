@@ -657,7 +657,7 @@
                     <node concept="2NL2c5" id="6$f9FDeCSGH" role="2OqNvi" />
                   </node>
                   <node concept="liA8E" id="6$f9FDeCT93" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept()" resolve="getTargetConcept" />
+                    <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept():org.jetbrains.mps.openapi.language.SAbstractConcept" resolve="getTargetConcept" />
                   </node>
                 </node>
               </node>

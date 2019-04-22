@@ -27644,7 +27644,7 @@
                   <node concept="2NL2c5" id="6$f9FDeDenF" role="2OqNvi" />
                 </node>
                 <node concept="liA8E" id="6$f9FDeDenG" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SAbstractLink.isMultiple()" resolve="isMultiple" />
+                  <ref role="37wK5l" to="c17a:~SAbstractLink.isMultiple():boolean" resolve="isMultiple" />
                 </node>
               </node>
             </node>
@@ -27698,7 +27698,7 @@
                   <node concept="2NL2c5" id="6$f9FDeDfma" role="2OqNvi" />
                 </node>
                 <node concept="liA8E" id="6$f9FDeDfPV" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept()" resolve="getTargetConcept" />
+                  <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept():org.jetbrains.mps.openapi.language.SAbstractConcept" resolve="getTargetConcept" />
                 </node>
               </node>
             </node>

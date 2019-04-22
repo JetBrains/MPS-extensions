@@ -8493,11 +8493,11 @@
                   <ref role="3cqZAo" node="4dksFc0uKtd" resolve="cellLayout" />
                 </node>
                 <node concept="liA8E" id="4dksFc0uKuq" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
                 </node>
               </node>
               <node concept="liA8E" id="4dksFc0uKur" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+                <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
               </node>
             </node>
             <node concept="Xl_RD" id="4dksFc0uKus" role="3uHU7B">

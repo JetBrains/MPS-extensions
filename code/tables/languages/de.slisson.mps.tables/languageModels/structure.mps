@@ -75,6 +75,16 @@
       <property role="IQ2nx" value="715726600225886309" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="m_yL2MI1K9" role="1TKVEl">
+      <property role="IQ2nx" value="406884245181045769" />
+      <property role="TrG5h" value="disableLeftRowEndCells" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="m_yL2MI1Kc" role="1TKVEl">
+      <property role="IQ2nx" value="406884245181045772" />
+      <property role="TrG5h" value="disableRightRowEndCells" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="5X6T0_NE_dS" role="PzmwI">
       <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
     </node>

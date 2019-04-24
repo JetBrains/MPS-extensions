@@ -299,9 +299,9 @@
       </concept>
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -2221,9 +2221,9 @@
           <property role="TyiWK" value="true" />
           <property role="TyiWL" value="false" />
           <node concept="3clFbS" id="9vHlV2xwOe" role="3clFbx">
-            <node concept="34ab3g" id="1S$2iq4KcjM" role="3cqZAp">
-              <property role="35gtTG" value="debug" />
-              <node concept="3cpWs3" id="1S$2iq4KclL" role="34bqiv">
+            <node concept="RRSsy" id="6$f9FDe_kvu" role="3cqZAp">
+              <property role="RRSoG" value="debug" />
+              <node concept="3cpWs3" id="1S$2iq4KclL" role="RRSoy">
                 <node concept="2OqwBi" id="1S$2iq4KclM" role="3uHU7w">
                   <node concept="37vLTw" id="1S$2iq4KclN" role="2Oq$k0">
                     <ref role="3cqZAo" node="40e1npHuVWs" resolve="grid" />
@@ -5484,9 +5484,9 @@
         <node concept="3clFbH" id="7ndnMNtbJOc" role="3cqZAp" />
         <node concept="3clFbJ" id="5h2rxDjVAMO" role="3cqZAp">
           <node concept="3clFbS" id="5h2rxDjVAMQ" role="3clFbx">
-            <node concept="34ab3g" id="6dpt5FOtiqH" role="3cqZAp">
-              <property role="35gtTG" value="debug" />
-              <node concept="3cpWs3" id="1Uhue4O0LZo" role="34bqiv">
+            <node concept="RRSsy" id="6$f9FDe_jN2" role="3cqZAp">
+              <property role="RRSoG" value="debug" />
+              <node concept="3cpWs3" id="1Uhue4O0LZo" role="RRSoy">
                 <node concept="2OqwBi" id="1Uhue4O0M3B" role="3uHU7w">
                   <node concept="37vLTw" id="1Uhue4O0M1F" role="2Oq$k0">
                     <ref role="3cqZAo" node="1XCA2wmshXY" resolve="sizeConstraint" />

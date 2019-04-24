@@ -631,7 +631,7 @@
   </node>
   <node concept="sE7Ow" id="5K7KC_qu7$R">
     <property role="TrG5h" value="RotateBoxClockwiseAction" />
-    <property role="2uzpH1" value="Rotate Diagram Box" />
+    <property role="2uzpH1" value="Rotate Diagram Box Clockwise" />
     <node concept="tnohg" id="5K7KC_qu7$S" role="tncku">
       <node concept="3clFbS" id="5K7KC_qu7$T" role="2VODD2">
         <node concept="3cpWs8" id="5K7KC_q_GdP" role="3cqZAp">
@@ -886,7 +886,7 @@
   </node>
   <node concept="sE7Ow" id="2THfnm7nq5w">
     <property role="TrG5h" value="FlipBoxAction" />
-    <property role="2uzpH1" value="Rotate Diagram Box" />
+    <property role="2uzpH1" value="Flip Diagram Box Horizontally" />
     <node concept="tnohg" id="2THfnm7nq5x" role="tncku">
       <node concept="3clFbS" id="2THfnm7nq5y" role="2VODD2">
         <node concept="3cpWs8" id="2THfnm7nq5z" role="3cqZAp">
@@ -965,7 +965,7 @@
   </node>
   <node concept="sE7Ow" id="2THfnm7nqSH">
     <property role="TrG5h" value="RotateBoxCounterClockWiseAction" />
-    <property role="2uzpH1" value="Rotate Diagram Box" />
+    <property role="2uzpH1" value="Rotate Diagram Box Counterclockwise" />
     <node concept="tnohg" id="2THfnm7nqSI" role="tncku">
       <node concept="3clFbS" id="2THfnm7nqSJ" role="2VODD2">
         <node concept="3cpWs8" id="2THfnm7nqSK" role="3cqZAp">

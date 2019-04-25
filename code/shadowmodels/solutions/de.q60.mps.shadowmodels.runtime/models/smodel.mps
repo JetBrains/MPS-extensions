@@ -23666,23 +23666,31 @@
           </node>
           <node concept="9aQIb" id="37_exlY3Iyt" role="9aQIa">
             <node concept="3clFbS" id="37_exlY3Iyu" role="9aQI4">
-              <node concept="3clFbF" id="5wnrAmUh0Js" role="3cqZAp">
-                <node concept="37vLTI" id="5wnrAmUh0Jt" role="3clFbG">
-                  <node concept="37vLTw" id="5wnrAmUh0Ju" role="37vLTJ">
-                    <ref role="3cqZAo" node="5wnrAmUh0J9" resolve="outputNode" />
-                  </node>
-                  <node concept="2OqwBi" id="5wnrAmUh0Jv" role="37vLTx">
-                    <node concept="2YIFZM" id="5wnrAmUh0Jw" role="2Oq$k0">
-                      <ref role="1Pybhc" node="7YhLqbpfZWY" resolve="RepositoryModulesManager" />
-                      <ref role="37wK5l" node="7YhLqbpg02T" resolve="getInstance" />
-                    </node>
-                    <node concept="liA8E" id="5wnrAmUh0Jx" role="2OqNvi">
-                      <ref role="37wK5l" node="4JmkJs3Paz$" resolve="getTransformationOutputNode" />
-                      <node concept="37vLTw" id="5wnrAmUh0Jy" role="37wK5m">
-                        <ref role="3cqZAo" node="5wnrAmUh0J4" resolve="outputSNode" />
+              <node concept="3clFbJ" id="7br$_3Kdvht" role="3cqZAp">
+                <node concept="3clFbS" id="7br$_3Kdvhv" role="3clFbx">
+                  <node concept="3clFbF" id="5wnrAmUh0Js" role="3cqZAp">
+                    <node concept="37vLTI" id="5wnrAmUh0Jt" role="3clFbG">
+                      <node concept="37vLTw" id="5wnrAmUh0Ju" role="37vLTJ">
+                        <ref role="3cqZAo" node="5wnrAmUh0J9" resolve="outputNode" />
+                      </node>
+                      <node concept="2OqwBi" id="5wnrAmUh0Jv" role="37vLTx">
+                        <node concept="2YIFZM" id="5wnrAmUh0Jw" role="2Oq$k0">
+                          <ref role="1Pybhc" node="7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                          <ref role="37wK5l" node="7YhLqbpg02T" resolve="getInstance" />
+                        </node>
+                        <node concept="liA8E" id="5wnrAmUh0Jx" role="2OqNvi">
+                          <ref role="37wK5l" node="4JmkJs3Paz$" resolve="getTransformationOutputNode" />
+                          <node concept="37vLTw" id="5wnrAmUh0Jy" role="37wK5m">
+                            <ref role="3cqZAo" node="5wnrAmUh0J4" resolve="outputSNode" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
+                </node>
+                <node concept="2YIFZM" id="7br$_3Kdvmm" role="3clFbw">
+                  <ref role="37wK5l" node="7zI2priRPPb" resolve="isEnabled" />
+                  <ref role="1Pybhc" node="7YhLqbpfZWY" resolve="RepositoryModulesManager" />
                 </node>
               </node>
             </node>
@@ -25976,6 +25984,19 @@
               <node concept="3uibUv" id="5G4qAEn4Kkg" role="10QFUM">
                 <ref role="3uigEE" to="3hky:4_SQzDObR22" resolve="PNodeAdapter" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7br$_3Kcwky" role="3cqZAp">
+          <node concept="3clFbS" id="7br$_3Kcwk$" role="3clFbx">
+            <node concept="3cpWs6" id="7br$_3KcwMI" role="3cqZAp">
+              <node concept="10Nm6u" id="7br$_3KcwOo" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3clFbC" id="7br$_3KcwGb" role="3clFbw">
+            <node concept="10Nm6u" id="7br$_3KcwHS" role="3uHU7w" />
+            <node concept="37vLTw" id="7br$_3KcwpU" role="3uHU7B">
+              <ref role="3cqZAo" node="5G4qAEn4JG2" resolve="pnode" />
             </node>
           </node>
         </node>

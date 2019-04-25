@@ -2033,8 +2033,8 @@
           <node concept="2GrKxI" id="m_yL2M$mA4" role="2Gsz3X">
             <property role="TrG5h" value="child" />
           </node>
-          <node concept="37vLTw" id="m_yL2M$xbU" role="2GsD0m">
-            <ref role="3cqZAo" node="3vsFnFUGRTJ" resolve="inputChildren" />
+          <node concept="37vLTw" id="1KLm$Di9YKV" role="2GsD0m">
+            <ref role="3cqZAo" node="QurUgifur6" resolve="childrenToUpdate" />
           </node>
           <node concept="3clFbS" id="m_yL2M$mA8" role="2LFqv$">
             <node concept="3cpWs8" id="m_yL2M$tmD" role="3cqZAp">
@@ -2059,33 +2059,20 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="m_yL2M$XBR" role="3cqZAp">
-              <node concept="3clFbS" id="m_yL2M$XBT" role="3clFbx">
-                <node concept="3clFbF" id="m_yL2M$w2L" role="3cqZAp">
-                  <node concept="1rXfSq" id="m_yL2M$w2J" role="3clFbG">
-                    <ref role="37wK5l" node="1CWZn1pMdtM" resolve="updateNode" />
-                    <node concept="2GrUjf" id="m_yL2M$x6p" role="37wK5m">
-                      <ref role="2Gs0qQ" node="m_yL2M$mA4" resolve="child" />
-                    </node>
-                    <node concept="37vLTw" id="m_yL2M$wZb" role="37wK5m">
-                      <ref role="3cqZAo" node="m_yL2M$tmE" resolve="childId" />
-                    </node>
-                    <node concept="37vLTw" id="m_yL2M$PS4" role="37wK5m">
-                      <ref role="3cqZAo" node="QurUgia1lr" resolve="t" />
-                    </node>
-                    <node concept="37vLTw" id="m_yL2M$RwF" role="37wK5m">
-                      <ref role="3cqZAo" node="m_yL2MvPob" resolve="updateDescendants" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="1rXfSq" id="m_yL2M$Yqw" role="3clFbw">
-                <ref role="37wK5l" node="5G4qAEnk6y5" resolve="isLoaded" />
-                <node concept="2GrUjf" id="m_yL2M$Yqx" role="37wK5m">
+            <node concept="3clFbF" id="m_yL2M$w2L" role="3cqZAp">
+              <node concept="1rXfSq" id="m_yL2M$w2J" role="3clFbG">
+                <ref role="37wK5l" node="1CWZn1pMdtM" resolve="updateNode" />
+                <node concept="2GrUjf" id="m_yL2M$x6p" role="37wK5m">
                   <ref role="2Gs0qQ" node="m_yL2M$mA4" resolve="child" />
                 </node>
-                <node concept="37vLTw" id="m_yL2M$Yqy" role="37wK5m">
+                <node concept="37vLTw" id="m_yL2M$wZb" role="37wK5m">
+                  <ref role="3cqZAo" node="m_yL2M$tmE" resolve="childId" />
+                </node>
+                <node concept="37vLTw" id="m_yL2M$PS4" role="37wK5m">
                   <ref role="3cqZAo" node="QurUgia1lr" resolve="t" />
+                </node>
+                <node concept="37vLTw" id="m_yL2M$RwF" role="37wK5m">
+                  <ref role="3cqZAo" node="m_yL2MvPob" resolve="updateDescendants" />
                 </node>
               </node>
             </node>

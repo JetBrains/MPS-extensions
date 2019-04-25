@@ -26,6 +26,7 @@
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/de.slisson.mps.conditionalEditor.runtime/de.slisson.mps.conditionalEditor.runtime.msd" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/de.slisson.mps.conditionalEditor.sandbox/de.slisson.mps.conditionalEditor.sandbox.msd" folder="conditional-editor" />
+      <modulePath path="$PROJECT_DIR$/devkits/de.q60.mps.genplan.virutalinterfaces_incremental.devkit/de.q60.mps.genplan.virutalinterfaces_incremental.devkit.devkit" folder="shadowmodels.examples.interpreter" />
       <modulePath path="$PROJECT_DIR$/devkits/de.q60.mps.incremental.devkit/de.q60.mps.incremental.devkit.devkit" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/diagram/devkits/de.itemis.mps.editor.diagram.devkit.devkit" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram.demo.activity/de.itemis.mps.editor.diagram.demo.activity.mpl" folder="diagram" />
@@ -56,6 +57,8 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
+      <modulePath path="$PROJECT_DIR$/languages/de.q60.mps.virtualinterfaces.sandboxlang/de.q60.mps.virtualinterfaces.sandboxlang.mpl" folder="shadowmodels.virtualinterfaces" />
+      <modulePath path="$PROJECT_DIR$/languages/de.q60.mps.virtualinterfaces/de.q60.mps.virtualinterfaces.mpl" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.demolang/de.itemis.mps.editor.math.demolang.mpl" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.java/de.itemis.mps.editor.math.java.mpl" folder="math" />
@@ -85,6 +88,7 @@
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.sandbox/de.slisson.mps.richtext.sandbox.msd" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/devkits/de.q60.mps.shadowmodels.devkit/de.q60.mps.shadowmodels.devkit.devkit" folder="shadowmodels.core" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/devkits/de.q60.mps.virtualinterfaces.devkit/de.q60.mps.virtualinterfaces.devkit.devkit" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.incremental.sandboxlang/de.q60.mps.incremental.sandboxlang.mpl" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.incremental/de.q60.mps.incremental.mpl" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.polymorphicfunctions.sandboxlang/de.q60.mps.polymorphicfunctions.sandboxlang.mpl" folder="shadowmodels.polymorphicfunctions" />
@@ -92,8 +96,6 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.examples.blext/de.q60.mps.shadowmodels.examples.blext.mpl" folder="shadowmodels.examples" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.examples.editor/de.q60.mps.shadowmodels.examples.editor.mpl" folder="shadowmodels.examples" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.examples.entities/de.q60.mps.shadowmodels.examples.entities.mpl" folder="shadowmodels.examples" />
-      <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.examples.expext/de.q60.mps.shadowmodels.examples.expext.mpl" folder="shadowmodels.examples" />
-      <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.examples.expressions/de.q60.mps.shadowmodels.examples.expressions.mpl" folder="shadowmodels.examples" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.examples.statemachine/de.q60.mps.shadowmodels.examples.statemachine.mpl" folder="shadowmodels.examples" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.gen.afterPF/de.q60.mps.shadowmodels.gen.afterPF.mpl" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.gen.desugar/de.q60.mps.shadowmodels.gen.desugar.mpl" folder="shadowmodels.core" />
@@ -114,10 +116,14 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.genplan/de.q60.mps.shadowmodels.genplan.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.modelcheck.runtime/de.q60.mps.shadowmodels.modelcheck.runtime.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.runtime/de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.core" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.virtualinterfaces.genplan/de.q60.mps.virtualinterfaces.genplan.msd" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.incremental.runtime/test.de.q60.mps.incremental.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.modelmerger.runtime/de.itemis.mps.modelmerger.runtime.msd" folder="modelmerger" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.q60.mps.genplan.virutalinterfaces_incremental/de.q60.mps.genplan.virutalinterfaces_incremental.msd" folder="shadowmodels.examples.interpreter" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.q60.mps.shadowmodels.examples.javainterpreter/de.q60.mps.shadowmodels.examples.javainterpreter.msd" folder="shadowmodels.examples.interpreter" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.q60.mps.virtualinterfaces.sandbox/de.q60.mps.virtualinterfaces.sandbox.msd" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/solutions/tests.de.itemis.mps.modelmerger/tests.de.itemis.mps.modelmerger.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />

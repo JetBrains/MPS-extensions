@@ -32,6 +32,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -677,6 +680,33 @@
                                 <ref role="3Tt5mk" to="tpee:hqOq$gm" resolve="operand" />
                               </node>
                               <node concept="30H73N" id="1KLm$DhUh3N" role="2Oq$k0" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="4ZNDsNOvtiX" role="2M0c$y">
+                    <property role="3cmrfH" value="0" />
+                    <node concept="2b32R4" id="4ZNDsNOvtOL" role="lGtFl">
+                      <node concept="3JmXsc" id="4ZNDsNOvtOM" role="2P8S$">
+                        <node concept="3clFbS" id="4ZNDsNOvtON" role="2VODD2">
+                          <node concept="3clFbF" id="4ZNDsNOvuUy" role="3cqZAp">
+                            <node concept="2OqwBi" id="4ZNDsNOvwXu" role="3clFbG">
+                              <node concept="1PxgMI" id="4ZNDsNOvwzz" role="2Oq$k0">
+                                <node concept="chp4Y" id="4ZNDsNOvwFf" role="3oSUPX">
+                                  <ref role="cht4Q" to="nq6j:1KLm$DhTJsP" resolve="VirtualMethodCallOperation" />
+                                </node>
+                                <node concept="2OqwBi" id="4ZNDsNOvv8$" role="1m5AlR">
+                                  <node concept="30H73N" id="4ZNDsNOvuUx" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="4ZNDsNOvvMT" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="tpee:hqOqNr4" resolve="operation" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3Tsc0h" id="4ZNDsNOvxot" role="2OqNvi">
+                                <ref role="3TtcxE" to="nq6j:1KLm$DhTJtl" resolve="parameterValues" />
+                              </node>
                             </node>
                           </node>
                         </node>

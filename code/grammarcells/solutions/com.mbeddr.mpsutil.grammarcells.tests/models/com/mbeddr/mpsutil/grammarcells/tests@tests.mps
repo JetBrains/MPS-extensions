@@ -245,7 +245,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="65E6xpGUrwD">
-    <property role="2XOHcw" value="${extensions.home}/code/grammarcells" />
+    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="LiM7Y" id="6B579NFHqCQ">
     <property role="TrG5h" value="DeleteLeftParentOperator" />

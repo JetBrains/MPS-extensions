@@ -778,7 +778,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="3SM_R9yrRwZ" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="Xl_RD" id="3SM_R9yrRx0" role="37wK5m">
                   <property role="Xl_RC" value="string" />
                 </node>
@@ -831,7 +831,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="3SM_R9yrRxs" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="Xl_RD" id="3SM_R9yrRxt" role="37wK5m">
                   <property role="Xl_RC" value="integer" />
                 </node>
@@ -884,7 +884,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="3SM_R9yrRxM" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="Xl_RD" id="3SM_R9yrRxN" role="37wK5m">
                   <property role="Xl_RC" value="boolean" />
                 </node>
@@ -1423,7 +1423,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="3SM_R9ytvTi" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                            <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                             <node concept="Xl_RD" id="3SM_R9ytvTj" role="37wK5m">
                               <property role="Xl_RC" value="boolean" />
                             </node>

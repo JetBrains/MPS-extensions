@@ -2237,7 +2237,7 @@
                                     <ref role="3cqZAo" node="6QwB8wTLAzV" resolve="it" />
                                   </node>
                                   <node concept="liA8E" id="6QwB8wTLCLP" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~Enum.toString():java.lang.String" resolve="toString" />
+                                    <ref role="37wK5l" to="wyt6:~Enum.toString()" resolve="toString" />
                                   </node>
                                 </node>
                               </node>

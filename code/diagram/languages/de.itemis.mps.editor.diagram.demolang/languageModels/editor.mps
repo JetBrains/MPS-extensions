@@ -892,7 +892,7 @@
             <node concept="2OqwBi" id="1HYYbxG06LU" role="3K4Cdx">
               <node concept="15kUEO" id="1HYYbxG06Bw" role="2Oq$k0" />
               <node concept="liA8E" id="1HYYbxG07UO" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                 <node concept="Xl_RD" id="1HYYbxG07YY" role="37wK5m">
                   <property role="Xl_RC" value="out1" />
                 </node>
@@ -1276,7 +1276,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="Xrn1Rs$drY" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                 <node concept="3cpWs3" id="Xrn1Rs$dCg" role="37wK5m">
                   <node concept="2OqwBi" id="Xrn1Rs$dFZ" role="3uHU7w">
                     <node concept="1Pxb5l" id="Xrn1Rs$dDK" role="2Oq$k0" />
@@ -1298,7 +1298,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="Xrn1Rs$dLa" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                 <node concept="3cpWs3" id="Xrn1Rs$dLb" role="37wK5m">
                   <node concept="2OqwBi" id="Xrn1Rs$dLc" role="3uHU7w">
                     <node concept="1Pxb5l" id="Xrn1Rs$dLd" role="2Oq$k0" />
@@ -1581,7 +1581,7 @@
                 <node concept="2EnYce" id="1DVF61OWU8u" role="33vP2m">
                   <node concept="1yATlc" id="3GatLR3$k1a" role="2Oq$k0" />
                   <node concept="liA8E" id="5KX1OsEbaSj" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                   </node>
                 </node>
               </node>
@@ -2317,7 +2317,7 @@
           <node concept="2OqwBi" id="6uo2fN6Fof9" role="3clFbG">
             <node concept="2xDIQ0" id="6uo2fN6Foe7" role="2Oq$k0" />
             <node concept="liA8E" id="6uo2fN6Fotf" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Graphics2D.draw(java.awt.Shape):void" resolve="draw" />
+              <ref role="37wK5l" to="z60i:~Graphics2D.draw(java.awt.Shape)" resolve="draw" />
               <node concept="2xDkLB" id="6uo2fN6FotN" role="37wK5m" />
             </node>
           </node>
@@ -2330,7 +2330,7 @@
           <node concept="2OqwBi" id="6uo2fN6FHhh" role="3clFbG">
             <node concept="2xDIQ0" id="6uo2fN6FHgo" role="2Oq$k0" />
             <node concept="liA8E" id="6uo2fN6FHvn" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Graphics2D.fill(java.awt.Shape):void" resolve="fill" />
+              <ref role="37wK5l" to="z60i:~Graphics2D.fill(java.awt.Shape)" resolve="fill" />
               <node concept="2xDkLB" id="6uo2fN6FHvV" role="37wK5m" />
             </node>
           </node>
@@ -2367,7 +2367,7 @@
             <node concept="2OqwBi" id="6uo2fN6BJT5" role="33vP2m">
               <node concept="2xDkLB" id="6uo2fN6BJT6" role="2Oq$k0" />
               <node concept="liA8E" id="6uo2fN6BJT7" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth():double" resolve="getWidth" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth()" resolve="getWidth" />
               </node>
             </node>
           </node>
@@ -2379,7 +2379,7 @@
             <node concept="2OqwBi" id="6uo2fN6BJTb" role="33vP2m">
               <node concept="2xDkLB" id="6uo2fN6BJTc" role="2Oq$k0" />
               <node concept="liA8E" id="6uo2fN6BJTd" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight():double" resolve="getHeight" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight()" resolve="getHeight" />
               </node>
             </node>
           </node>
@@ -2391,7 +2391,7 @@
             <node concept="2OqwBi" id="6uo2fN6BJTh" role="33vP2m">
               <node concept="2xDkLB" id="6uo2fN6BJTi" role="2Oq$k0" />
               <node concept="liA8E" id="6uo2fN6BJTj" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getX():double" resolve="getX" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getX()" resolve="getX" />
               </node>
             </node>
           </node>
@@ -2403,7 +2403,7 @@
             <node concept="2OqwBi" id="6uo2fN6BJTn" role="33vP2m">
               <node concept="2xDkLB" id="6uo2fN6BJTo" role="2Oq$k0" />
               <node concept="liA8E" id="6uo2fN6BJTp" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getY():double" resolve="getY" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getY()" resolve="getY" />
               </node>
             </node>
           </node>
@@ -2414,7 +2414,7 @@
               <ref role="3cqZAo" node="6uo2fN6BJSY" resolve="shape" />
             </node>
             <node concept="liA8E" id="6uo2fN6BJTt" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double):void" resolve="moveTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double)" resolve="moveTo" />
               <node concept="3cpWs3" id="6uo2fN6BJTu" role="37wK5m">
                 <node concept="37vLTw" id="6uo2fN6BJTv" role="3uHU7B">
                   <ref role="3cqZAo" node="6uo2fN6BJTf" resolve="x" />
@@ -2440,7 +2440,7 @@
               <ref role="3cqZAo" node="6uo2fN6BJSY" resolve="shape" />
             </node>
             <node concept="liA8E" id="6uo2fN6BJTB" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
               <node concept="3cpWsd" id="6uo2fN6BMes" role="37wK5m">
                 <node concept="1xnly_" id="2ZLA1heFKM8" role="3uHU7w">
                   <ref role="1xnlzC" node="2ZLA1heFc1y" resolve="cutLength" />
@@ -2481,7 +2481,7 @@
               <ref role="3cqZAo" node="6uo2fN6BJSY" resolve="shape" />
             </node>
             <node concept="liA8E" id="6uo2fN6BJTP" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
               <node concept="3cpWs3" id="6uo2fN6BJTQ" role="37wK5m">
                 <node concept="37vLTw" id="6uo2fN6BJTR" role="3uHU7B">
                   <ref role="3cqZAo" node="6uo2fN6BJTf" resolve="x" />
@@ -2522,7 +2522,7 @@
               <ref role="3cqZAo" node="6uo2fN6BJSY" resolve="shape" />
             </node>
             <node concept="liA8E" id="6uo2fN6BJU3" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
               <node concept="3cpWs3" id="6uo2fN6BJU4" role="37wK5m">
                 <node concept="37vLTw" id="6uo2fN6BJU5" role="3uHU7B">
                   <ref role="3cqZAo" node="6uo2fN6BJTf" resolve="x" />
@@ -2558,7 +2558,7 @@
               <ref role="3cqZAo" node="6uo2fN6BJSY" resolve="shape" />
             </node>
             <node concept="liA8E" id="6uo2fN6BJUh" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
               <node concept="3cpWs3" id="6uo2fN6BJUi" role="37wK5m">
                 <node concept="37vLTw" id="6uo2fN6BJUj" role="3uHU7B">
                   <ref role="3cqZAo" node="6uo2fN6BJTf" resolve="x" />
@@ -2594,7 +2594,7 @@
               <ref role="3cqZAo" node="6uo2fN6BJSY" resolve="shape" />
             </node>
             <node concept="liA8E" id="6uo2fN6BJUt" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D.closePath():void" resolve="closePath" />
+              <ref role="37wK5l" to="fbzs:~Path2D.closePath()" resolve="closePath" />
             </node>
           </node>
         </node>
@@ -2639,7 +2639,7 @@
             <node concept="2OqwBi" id="7z30MUmeex6" role="33vP2m">
               <node concept="2xDkLB" id="7z30MUmeex7" role="2Oq$k0" />
               <node concept="liA8E" id="7z30MUmeex8" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth():double" resolve="getWidth" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth()" resolve="getWidth" />
               </node>
             </node>
           </node>
@@ -2651,7 +2651,7 @@
             <node concept="2OqwBi" id="7z30MUmeexc" role="33vP2m">
               <node concept="2xDkLB" id="7z30MUmeexd" role="2Oq$k0" />
               <node concept="liA8E" id="7z30MUmeexe" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight():double" resolve="getHeight" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight()" resolve="getHeight" />
               </node>
             </node>
           </node>
@@ -2663,7 +2663,7 @@
             <node concept="2OqwBi" id="7z30MUmeexi" role="33vP2m">
               <node concept="2xDkLB" id="7z30MUmeexj" role="2Oq$k0" />
               <node concept="liA8E" id="7z30MUmeexk" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getX():double" resolve="getX" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getX()" resolve="getX" />
               </node>
             </node>
           </node>
@@ -2675,7 +2675,7 @@
             <node concept="2OqwBi" id="7z30MUmeexo" role="33vP2m">
               <node concept="2xDkLB" id="7z30MUmeexp" role="2Oq$k0" />
               <node concept="liA8E" id="7z30MUmeexq" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getY():double" resolve="getY" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getY()" resolve="getY" />
               </node>
             </node>
           </node>
@@ -2733,7 +2733,7 @@
               <ref role="3cqZAo" node="7z30MUmeewZ" resolve="shape" />
             </node>
             <node concept="liA8E" id="7z30MUmeexu" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double):void" resolve="moveTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double)" resolve="moveTo" />
               <node concept="37vLTw" id="7z30MUmep3W" role="37wK5m">
                 <ref role="3cqZAo" node="7z30MUmeexg" resolve="x" />
               </node>
@@ -2759,7 +2759,7 @@
               <ref role="3cqZAo" node="7z30MUmeewZ" resolve="shape" />
             </node>
             <node concept="liA8E" id="7z30MUmeexC" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
               <node concept="37vLTw" id="7z30MUmeBhK" role="37wK5m">
                 <ref role="3cqZAo" node="7z30MUmepLO" resolve="x2" />
               </node>
@@ -2775,7 +2775,7 @@
               <ref role="3cqZAo" node="7z30MUmeewZ" resolve="shape" />
             </node>
             <node concept="liA8E" id="7z30MUmeexS" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
               <node concept="37vLTw" id="7z30MUmeCSl" role="37wK5m">
                 <ref role="3cqZAo" node="7z30MUmeexg" resolve="x" />
               </node>
@@ -2801,7 +2801,7 @@
               <ref role="3cqZAo" node="7z30MUmeewZ" resolve="shape" />
             </node>
             <node concept="liA8E" id="7z30MUmeey$" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D.closePath():void" resolve="closePath" />
+              <ref role="37wK5l" to="fbzs:~Path2D.closePath()" resolve="closePath" />
             </node>
           </node>
         </node>
@@ -2812,7 +2812,7 @@
               <node concept="2OqwBi" id="3GatLR2TZWV" role="3clFbG">
                 <node concept="2xDIQ0" id="3GatLR2TZW6" role="2Oq$k0" />
                 <node concept="liA8E" id="3GatLR2U0aR" role="2OqNvi">
-                  <ref role="37wK5l" to="z60i:~Graphics2D.fill(java.awt.Shape):void" resolve="fill" />
+                  <ref role="37wK5l" to="z60i:~Graphics2D.fill(java.awt.Shape)" resolve="fill" />
                   <node concept="37vLTw" id="3GatLR2U0bp" role="37wK5m">
                     <ref role="3cqZAo" node="7z30MUmeewZ" resolve="shape" />
                   </node>
@@ -2829,7 +2829,7 @@
                 <node concept="2OqwBi" id="3GatLR2U0rc" role="3clFbG">
                   <node concept="2xDIQ0" id="3GatLR2U0qn" role="2Oq$k0" />
                   <node concept="liA8E" id="3GatLR2U0D8" role="2OqNvi">
-                    <ref role="37wK5l" to="z60i:~Graphics2D.draw(java.awt.Shape):void" resolve="draw" />
+                    <ref role="37wK5l" to="z60i:~Graphics2D.draw(java.awt.Shape)" resolve="draw" />
                     <node concept="37vLTw" id="3GatLR2U0DE" role="37wK5m">
                       <ref role="3cqZAo" node="7z30MUmeewZ" resolve="shape" />
                     </node>
@@ -2864,7 +2864,7 @@
             <node concept="2OqwBi" id="5QzTOlcGc3x" role="33vP2m">
               <node concept="2xDkLB" id="5QzTOlcGc3y" role="2Oq$k0" />
               <node concept="liA8E" id="5QzTOlcGc3z" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth():double" resolve="getWidth" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth()" resolve="getWidth" />
               </node>
             </node>
           </node>
@@ -2876,7 +2876,7 @@
             <node concept="2OqwBi" id="5QzTOlcGc3B" role="33vP2m">
               <node concept="2xDkLB" id="5QzTOlcGc3C" role="2Oq$k0" />
               <node concept="liA8E" id="5QzTOlcGc3D" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight():double" resolve="getHeight" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight()" resolve="getHeight" />
               </node>
             </node>
           </node>
@@ -2888,7 +2888,7 @@
             <node concept="2OqwBi" id="5QzTOlcGc3H" role="33vP2m">
               <node concept="2xDkLB" id="5QzTOlcGc3I" role="2Oq$k0" />
               <node concept="liA8E" id="5QzTOlcGc3J" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getX():double" resolve="getX" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getX()" resolve="getX" />
               </node>
             </node>
           </node>
@@ -2900,7 +2900,7 @@
             <node concept="2OqwBi" id="5QzTOlcGc3N" role="33vP2m">
               <node concept="2xDkLB" id="5QzTOlcGc3O" role="2Oq$k0" />
               <node concept="liA8E" id="5QzTOlcGc3P" role="2OqNvi">
-                <ref role="37wK5l" to="fbzs:~RectangularShape.getY():double" resolve="getY" />
+                <ref role="37wK5l" to="fbzs:~RectangularShape.getY()" resolve="getY" />
               </node>
             </node>
           </node>
@@ -2958,7 +2958,7 @@
               <ref role="3cqZAo" node="5QzTOlcGc3q" resolve="shape" />
             </node>
             <node concept="liA8E" id="5QzTOlcGc4d" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double):void" resolve="moveTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double)" resolve="moveTo" />
               <node concept="37vLTw" id="5QzTOlcGc4e" role="37wK5m">
                 <ref role="3cqZAo" node="5QzTOlcGc3F" resolve="x" />
               </node>
@@ -2984,7 +2984,7 @@
               <ref role="3cqZAo" node="5QzTOlcGc3q" resolve="shape" />
             </node>
             <node concept="liA8E" id="5QzTOlcGc4n" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
               <node concept="37vLTw" id="5QzTOlcGc4o" role="37wK5m">
                 <ref role="3cqZAo" node="5QzTOlcGc3R" resolve="x2" />
               </node>
@@ -3000,7 +3000,7 @@
               <ref role="3cqZAo" node="5QzTOlcGc3q" resolve="shape" />
             </node>
             <node concept="liA8E" id="5QzTOlcGc4t" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+              <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
               <node concept="37vLTw" id="5QzTOlcGc4u" role="37wK5m">
                 <ref role="3cqZAo" node="5QzTOlcGc3F" resolve="x" />
               </node>
@@ -3026,7 +3026,7 @@
               <ref role="3cqZAo" node="5QzTOlcGc3q" resolve="shape" />
             </node>
             <node concept="liA8E" id="5QzTOlcGc4B" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~Path2D.closePath():void" resolve="closePath" />
+              <ref role="37wK5l" to="fbzs:~Path2D.closePath()" resolve="closePath" />
             </node>
           </node>
         </node>
@@ -3073,7 +3073,7 @@
                 <node concept="2OqwBi" id="3FRjz$vfyql" role="33vP2m">
                   <node concept="2xDkLB" id="3FRjz$vfyqm" role="2Oq$k0" />
                   <node concept="liA8E" id="3FRjz$vfyqn" role="2OqNvi">
-                    <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth():double" resolve="getWidth" />
+                    <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth()" resolve="getWidth" />
                   </node>
                 </node>
               </node>
@@ -3085,7 +3085,7 @@
                 <node concept="2OqwBi" id="3FRjz$vfyqr" role="33vP2m">
                   <node concept="2xDkLB" id="3FRjz$vfyqs" role="2Oq$k0" />
                   <node concept="liA8E" id="3FRjz$vfyqt" role="2OqNvi">
-                    <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight():double" resolve="getHeight" />
+                    <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight()" resolve="getHeight" />
                   </node>
                 </node>
               </node>
@@ -3097,7 +3097,7 @@
                 <node concept="2OqwBi" id="3FRjz$vfyqx" role="33vP2m">
                   <node concept="2xDkLB" id="3FRjz$vfyqy" role="2Oq$k0" />
                   <node concept="liA8E" id="3FRjz$vfyqz" role="2OqNvi">
-                    <ref role="37wK5l" to="fbzs:~RectangularShape.getX():double" resolve="getX" />
+                    <ref role="37wK5l" to="fbzs:~RectangularShape.getX()" resolve="getX" />
                   </node>
                 </node>
               </node>
@@ -3109,7 +3109,7 @@
                 <node concept="2OqwBi" id="3FRjz$vfyqB" role="33vP2m">
                   <node concept="2xDkLB" id="3FRjz$vfyqC" role="2Oq$k0" />
                   <node concept="liA8E" id="3FRjz$vfyqD" role="2OqNvi">
-                    <ref role="37wK5l" to="fbzs:~RectangularShape.getY():double" resolve="getY" />
+                    <ref role="37wK5l" to="fbzs:~RectangularShape.getY()" resolve="getY" />
                   </node>
                 </node>
               </node>
@@ -3170,7 +3170,7 @@
                       <ref role="3cqZAo" node="3FRjz$vfyqe" resolve="triangle" />
                     </node>
                     <node concept="liA8E" id="3FRjz$vgWsb" role="2OqNvi">
-                      <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double):void" resolve="moveTo" />
+                      <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double)" resolve="moveTo" />
                       <node concept="37vLTw" id="3FRjz$vgX0u" role="37wK5m">
                         <ref role="3cqZAo" node="3FRjz$vfyqF" resolve="x2" />
                       </node>
@@ -3186,7 +3186,7 @@
                       <ref role="3cqZAo" node="3FRjz$vfyqe" resolve="triangle" />
                     </node>
                     <node concept="liA8E" id="3FRjz$vgWsh" role="2OqNvi">
-                      <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+                      <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
                       <node concept="37vLTw" id="3FRjz$vgXzu" role="37wK5m">
                         <ref role="3cqZAo" node="3FRjz$vfyqv" resolve="x" />
                       </node>
@@ -3202,7 +3202,7 @@
                       <ref role="3cqZAo" node="3FRjz$vfyqe" resolve="triangle" />
                     </node>
                     <node concept="liA8E" id="3FRjz$vgWsn" role="2OqNvi">
-                      <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+                      <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
                       <node concept="37vLTw" id="3FRjz$vgY6u" role="37wK5m">
                         <ref role="3cqZAo" node="3FRjz$vfyqF" resolve="x2" />
                       </node>
@@ -3218,7 +3218,7 @@
                       <ref role="3cqZAo" node="3FRjz$vfyqe" resolve="triangle" />
                     </node>
                     <node concept="liA8E" id="3FRjz$vgWst" role="2OqNvi">
-                      <ref role="37wK5l" to="fbzs:~Path2D.closePath():void" resolve="closePath" />
+                      <ref role="37wK5l" to="fbzs:~Path2D.closePath()" resolve="closePath" />
                     </node>
                   </node>
                 </node>
@@ -3234,7 +3234,7 @@
                         <ref role="3cqZAo" node="3FRjz$vfyqe" resolve="triangle" />
                       </node>
                       <node concept="liA8E" id="3FRjz$vfyr1" role="2OqNvi">
-                        <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double):void" resolve="moveTo" />
+                        <ref role="37wK5l" to="fbzs:~Path2D$Float.moveTo(double,double)" resolve="moveTo" />
                         <node concept="37vLTw" id="3FRjz$vfyr2" role="37wK5m">
                           <ref role="3cqZAo" node="3FRjz$vfyqv" resolve="x" />
                         </node>
@@ -3250,7 +3250,7 @@
                         <ref role="3cqZAo" node="3FRjz$vfyqe" resolve="triangle" />
                       </node>
                       <node concept="liA8E" id="3FRjz$vfyrb" role="2OqNvi">
-                        <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+                        <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
                         <node concept="37vLTw" id="3FRjz$vfyrc" role="37wK5m">
                           <ref role="3cqZAo" node="3FRjz$vfyqF" resolve="x2" />
                         </node>
@@ -3266,7 +3266,7 @@
                         <ref role="3cqZAo" node="3FRjz$vfyqe" resolve="triangle" />
                       </node>
                       <node concept="liA8E" id="3FRjz$vfyrh" role="2OqNvi">
-                        <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double):void" resolve="lineTo" />
+                        <ref role="37wK5l" to="fbzs:~Path2D$Float.lineTo(double,double)" resolve="lineTo" />
                         <node concept="37vLTw" id="3FRjz$vfyri" role="37wK5m">
                           <ref role="3cqZAo" node="3FRjz$vfyqv" resolve="x" />
                         </node>
@@ -3282,7 +3282,7 @@
                         <ref role="3cqZAo" node="3FRjz$vfyqe" resolve="triangle" />
                       </node>
                       <node concept="liA8E" id="3FRjz$vfyrr" role="2OqNvi">
-                        <ref role="37wK5l" to="fbzs:~Path2D.closePath():void" resolve="closePath" />
+                        <ref role="37wK5l" to="fbzs:~Path2D.closePath()" resolve="closePath" />
                       </node>
                     </node>
                   </node>

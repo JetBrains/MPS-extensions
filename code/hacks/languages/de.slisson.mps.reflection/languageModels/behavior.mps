@@ -719,7 +719,7 @@
         </node>
         <node concept="3clFbF" id="hEwJhHD" role="3cqZAp">
           <node concept="2YIFZM" id="svyVWh9DZ4" role="3clFbG">
-            <ref role="37wK5l" to="zkib:~ReflectionUtil.staticInvoke(java.lang.reflect.Method,java.lang.Object[]):java.lang.Object" resolve="staticInvoke" />
+            <ref role="37wK5l" to="zkib:~ReflectionUtil.staticInvoke(java.lang.reflect.Method,java.lang.Object[])" resolve="staticInvoke" />
             <ref role="1Pybhc" to="zkib:~ReflectionUtil" resolve="ReflectionUtil" />
             <node concept="37vLTw" id="svyVWh9DZ5" role="37wK5m">
               <ref role="3cqZAo" node="hEwJhHp" resolve="method" />
@@ -819,7 +819,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="3GYNqYJWKUt" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                    <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
                   </node>
                 </node>
               </node>
@@ -840,7 +840,7 @@
                     <node concept="3clFbF" id="2XH9zWkDf6e" role="3cqZAp">
                       <node concept="37vLTI" id="2XH9zWkDf6f" role="3clFbG">
                         <node concept="2YIFZM" id="3GYNqYJWKUz" role="37vLTx">
-                          <ref role="37wK5l" to="zkib:~ReflectionUtil.getConstant(org.jetbrains.mps.openapi.module.SModule,org.jetbrains.mps.openapi.model.SNode,java.lang.String):java.lang.Object" resolve="getConstant" />
+                          <ref role="37wK5l" to="zkib:~ReflectionUtil.getConstant(org.jetbrains.mps.openapi.module.SModule,org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="getConstant" />
                           <ref role="1Pybhc" to="zkib:~ReflectionUtil" resolve="ReflectionUtil" />
                           <node concept="37vLTw" id="3GM_nagTB3B" role="37wK5m">
                             <ref role="3cqZAo" node="3GYNqYJWKUk" resolve="m" />
@@ -905,7 +905,7 @@
             <node concept="3cpWs6" id="3GYNqYJWKUN" role="3cqZAp">
               <node concept="2YIFZM" id="3GYNqYJWKUO" role="3cqZAk">
                 <ref role="1Pybhc" to="zkib:~ReflectionUtil" resolve="ReflectionUtil" />
-                <ref role="37wK5l" to="zkib:~ReflectionUtil.getConstant(org.jetbrains.mps.openapi.module.SModule,org.jetbrains.mps.openapi.model.SNode,java.lang.String):java.lang.Object" resolve="getConstant" />
+                <ref role="37wK5l" to="zkib:~ReflectionUtil.getConstant(org.jetbrains.mps.openapi.module.SModule,org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="getConstant" />
                 <node concept="37vLTw" id="1zqEQG3VD8X" role="37wK5m">
                   <ref role="3cqZAo" node="i1LUr7Q" resolve="module" />
                 </node>
@@ -932,17 +932,17 @@
             </node>
             <node concept="2YIFZM" id="52KGz6lS4Vt" role="3uHU7w">
               <ref role="1Pybhc" to="w1kc:~SModelStereotype" resolve="SModelStereotype" />
-              <ref role="37wK5l" to="w1kc:~SModelStereotype.isStubModelStereotype(java.lang.String):boolean" resolve="isStubModelStereotype" />
+              <ref role="37wK5l" to="w1kc:~SModelStereotype.isStubModelStereotype(java.lang.String)" resolve="isStubModelStereotype" />
               <node concept="2YIFZM" id="4DcpLEzkFv" role="37wK5m">
                 <ref role="1Pybhc" to="w1kc:~SModelStereotype" resolve="SModelStereotype" />
-                <ref role="37wK5l" to="w1kc:~SModelStereotype.getStereotype(java.lang.String):java.lang.String" resolve="getStereotype" />
+                <ref role="37wK5l" to="w1kc:~SModelStereotype.getStereotype(java.lang.String)" resolve="getStereotype" />
                 <node concept="2OqwBi" id="4DcpLEzkFw" role="37wK5m">
                   <node concept="liA8E" id="4DcpLEzkFx" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SModelReference.getModelName():java.lang.String" resolve="getModelName" />
+                    <ref role="37wK5l" to="mhbf:~SModelReference.getModelName()" resolve="getModelName" />
                   </node>
                   <node concept="2OqwBi" id="4DcpLEzkFy" role="2Oq$k0">
                     <node concept="liA8E" id="4DcpLEzkFz" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SModel.getReference():org.jetbrains.mps.openapi.model.SModelReference" resolve="getReference" />
+                      <ref role="37wK5l" to="mhbf:~SModel.getReference()" resolve="getReference" />
                     </node>
                     <node concept="2JrnkZ" id="4DcpLEzkF$" role="2Oq$k0">
                       <node concept="2OqwBi" id="4DcpLEzkF_" role="2JrQYb">

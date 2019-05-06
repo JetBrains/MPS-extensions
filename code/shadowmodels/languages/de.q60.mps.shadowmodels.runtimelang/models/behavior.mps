@@ -130,15 +130,15 @@
                               <ref role="3cqZAo" node="3Ezg1fMDSXh" resolve="language" />
                             </node>
                             <node concept="liA8E" id="3Ezg1fMDYI7" role="2OqNvi">
-                              <ref role="37wK5l" to="c17a:~SLanguage.getSourceModuleReference():org.jetbrains.mps.openapi.module.SModuleReference" resolve="getSourceModuleReference" />
+                              <ref role="37wK5l" to="c17a:~SLanguage.getSourceModuleReference()" resolve="getSourceModuleReference" />
                             </node>
                           </node>
                           <node concept="liA8E" id="3Ezg1fMDZgx" role="2OqNvi">
-                            <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId():org.jetbrains.mps.openapi.module.SModuleId" resolve="getModuleId" />
+                            <ref role="37wK5l" to="lui2:~SModuleReference.getModuleId()" resolve="getModuleId" />
                           </node>
                         </node>
                         <node concept="liA8E" id="3Ezg1fME2fX" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="3Ezg1fME16F" role="3uHU7B">

@@ -183,7 +183,7 @@
         <child id="8551406714923068068" name="parameters" index="3yjpAX" />
         <child id="8551406714923068070" name="returnType" index="3yjpAZ" />
       </concept>
-      <concept id="8551406714924728205" name="de.q60.mps.incremental.structure.UseEngineStatement" flags="ng" index="3ylGMk">
+      <concept id="8551406714924728205" name="de.q60.mps.incremental.structure.WithEngineStatement" flags="ng" index="3ylGMk">
         <child id="8551406714924728206" name="engine" index="3ylGMn" />
         <child id="8551406714924728251" name="body" index="3ylGMy" />
       </concept>
@@ -1274,7 +1274,7 @@
               <node concept="2OqwBi" id="4owK417a9An" role="3uHU7B">
                 <node concept="Xjq3P" id="4owK417a9Ao" role="2Oq$k0" />
                 <node concept="liA8E" id="4owK417a9Ap" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="4owK417a9Aq" role="3uHU7w">
@@ -1282,7 +1282,7 @@
                   <ref role="3cqZAo" node="4owK417a9A$" resolve="o" />
                 </node>
                 <node concept="liA8E" id="4owK417a9As" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -1315,7 +1315,7 @@
             <node concept="3fqX7Q" id="4owK417a9AN" role="3K4E3e">
               <node concept="2OqwBi" id="4owK417a9AO" role="3fr31v">
                 <node concept="liA8E" id="4owK417a9AP" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="4owK417a9AQ" role="37wK5m">
                     <node concept="37vLTw" id="4owK417a9AB" role="2Oq$k0">
                       <ref role="3cqZAo" node="4owK417a9Av" resolve="that" />
@@ -1407,7 +1407,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="4owK417a9Bu" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                      <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                     </node>
                   </node>
                 </node>

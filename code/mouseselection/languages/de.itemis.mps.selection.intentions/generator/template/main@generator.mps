@@ -2,7 +2,7 @@
 <model ref="r:6b87c6e2-9e8f-4fa5-bad3-76317dd6d415(de.itemis.mps.selection.intentions.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -304,7 +304,7 @@
                   <ref role="Rm8GQ" to="w1kc:~LanguageAspect.INTENTIONS" resolve="INTENTIONS" />
                 </node>
                 <node concept="2YIFZM" id="3jb7BNzEsYN" role="3uHU7B">
-                  <ref role="37wK5l" to="w1kc:~Language.getModelAspect(org.jetbrains.mps.openapi.model.SModel):jetbrains.mps.smodel.LanguageAspect" resolve="getModelAspect" />
+                  <ref role="37wK5l" to="w1kc:~Language.getModelAspect(org.jetbrains.mps.openapi.model.SModel)" resolve="getModelAspect" />
                   <ref role="1Pybhc" to="w1kc:~Language" resolve="Language" />
                   <node concept="2JrnkZ" id="3jb7BNzEsYP" role="37wK5m">
                     <node concept="37vLTw" id="3GM_nagT$b_" role="2JrQYb">
@@ -733,7 +733,7 @@
             </node>
             <node concept="3cpWs6" id="630t2b86E7l" role="3cqZAp">
               <node concept="2YIFZM" id="630t2b87pUh" role="3cqZAk">
-                <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object):java.util.List" resolve="singletonList" />
+                <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
                 <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                 <node concept="37vLTw" id="630t2b87q5_" role="37wK5m">
                   <ref role="3cqZAo" node="630t2b86xPN" resolve="intention" />
@@ -767,7 +767,7 @@
             <node concept="3clFbS" id="630t2b87AKp" role="9aQI4">
               <node concept="3cpWs6" id="630t2b87BhC" role="3cqZAp">
                 <node concept="2YIFZM" id="630t2b87FDB" role="3cqZAk">
-                  <ref role="37wK5l" to="33ny:~Collections.emptyList():java.util.List" resolve="emptyList" />
+                  <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
                   <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                   <node concept="3uibUv" id="630t2b87H7$" role="3PaCim">
                     <ref role="3uigEE" to="hceu:630t2b86oF$" resolve="ISelectionIntentionExecutable" />

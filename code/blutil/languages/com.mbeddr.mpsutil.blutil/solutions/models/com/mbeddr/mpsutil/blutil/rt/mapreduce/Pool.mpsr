@@ -117,14 +117,14 @@
                         </node>
                         <node concept="2YIFZM" id="5EJ7vKKSXB2" role="37vLTx">
                           <ref role="1Pybhc" to="5zyv:~Executors" resolve="Executors" />
-                          <ref role="37wK5l" to="5zyv:~Executors.newFixedThreadPool(int):java.util.concurrent.ExecutorService" resolve="newFixedThreadPool" />
+                          <ref role="37wK5l" to="5zyv:~Executors.newFixedThreadPool(int)" resolve="newFixedThreadPool" />
                           <node concept="2OqwBi" id="5EJ7vKKSXB3" role="37wK5m">
                             <node concept="2YIFZM" id="5EJ7vKKSXB4" role="2Oq$k0">
-                              <ref role="37wK5l" to="wyt6:~Runtime.getRuntime():java.lang.Runtime" resolve="getRuntime" />
+                              <ref role="37wK5l" to="wyt6:~Runtime.getRuntime()" resolve="getRuntime" />
                               <ref role="1Pybhc" to="wyt6:~Runtime" resolve="Runtime" />
                             </node>
                             <node concept="liA8E" id="5EJ7vKKSXB5" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~Runtime.availableProcessors():int" resolve="availableProcessors" />
+                              <ref role="37wK5l" to="wyt6:~Runtime.availableProcessors()" resolve="availableProcessors" />
                             </node>
                           </node>
                         </node>

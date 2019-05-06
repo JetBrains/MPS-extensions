@@ -460,11 +460,11 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="2jBmyzyFJ7a" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                            <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                           </node>
                         </node>
                         <node concept="liA8E" id="2jBmyzyFLnY" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                          <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                         </node>
                       </node>
                     </node>
@@ -550,11 +550,11 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="2jBmyzyFLWE" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                         </node>
                       </node>
                       <node concept="liA8E" id="2jBmyzyFLWF" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                        <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                       </node>
                     </node>
                   </node>
@@ -761,7 +761,7 @@
                         <ref role="3cqZAo" node="2jBmyzyAT_M" resolve="b" />
                       </node>
                       <node concept="liA8E" id="2jBmyzyAW26" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                         <node concept="Xl_RD" id="2jBmyzyAW4I" role="37wK5m">
                           <property role="Xl_RC" value=" " />
                         </node>
@@ -796,7 +796,7 @@
                     <ref role="3cqZAo" node="2jBmyzyAT_M" resolve="b" />
                   </node>
                   <node concept="liA8E" id="2jBmyzyAWJt" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                    <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
                   </node>
                 </node>
               </node>
@@ -1016,11 +1016,11 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="2jBmyzyH_G9" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                         </node>
                       </node>
                       <node concept="liA8E" id="2jBmyzyH_Ga" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                        <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                       </node>
                     </node>
                   </node>
@@ -1140,11 +1140,11 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="2jBmyzyH_Vg" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                         </node>
                       </node>
                       <node concept="liA8E" id="2jBmyzyH_Vh" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                        <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                       </node>
                     </node>
                   </node>

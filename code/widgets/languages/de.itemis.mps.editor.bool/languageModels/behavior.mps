@@ -170,7 +170,7 @@
               <node concept="3w_OXm" id="4JS9aP7s7Mt" role="2OqNvi" />
             </node>
             <node concept="2YIFZM" id="4JS9aP7sVQc" role="3K4GZi">
-              <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+              <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String)" resolve="parseDouble" />
               <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
               <node concept="2OqwBi" id="4JS9aP7sVQd" role="37wK5m">
                 <node concept="37vLTw" id="4JS9aP7sVQe" role="2Oq$k0">
@@ -231,7 +231,7 @@
               <node concept="3w_OXm" id="4JS9aP7s8d0" role="2OqNvi" />
             </node>
             <node concept="2YIFZM" id="4JS9aP7sW64" role="3K4GZi">
-              <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+              <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String)" resolve="parseDouble" />
               <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
               <node concept="2OqwBi" id="4JS9aP7sW65" role="37wK5m">
                 <node concept="37vLTw" id="4JS9aP7sW66" role="2Oq$k0">
@@ -320,7 +320,7 @@
                     <node concept="3cpWs6" id="4JS9aP7wZH9" role="3cqZAp">
                       <node concept="2YIFZM" id="4JS9aP7sWqI" role="3cqZAk">
                         <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
-                        <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                        <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String)" resolve="parseDouble" />
                         <node concept="2OqwBi" id="4JS9aP7sWqJ" role="37wK5m">
                           <node concept="13iPFW" id="4JS9aP7sWqK" role="2Oq$k0" />
                           <node concept="3TrcHB" id="4JS9aP7sWqL" role="2OqNvi">
@@ -403,7 +403,7 @@
                   <node concept="3clFbS" id="4JS9aP7x1x8" role="3clFbx">
                     <node concept="3cpWs6" id="4JS9aP7x1x9" role="3cqZAp">
                       <node concept="2YIFZM" id="4JS9aP7x1xa" role="3cqZAk">
-                        <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                        <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String)" resolve="parseDouble" />
                         <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                         <node concept="2OqwBi" id="4JS9aP7x1xb" role="37wK5m">
                           <node concept="13iPFW" id="4JS9aP7x1xc" role="2Oq$k0" />

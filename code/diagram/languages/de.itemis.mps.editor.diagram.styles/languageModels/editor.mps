@@ -214,7 +214,7 @@
       </node>
       <node concept="2YIFZM" id="4mmPun56RuF" role="3t49C2">
         <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
-        <ref role="37wK5l" to="wyt6:~Float.valueOf(float):java.lang.Float" resolve="valueOf" />
+        <ref role="37wK5l" to="wyt6:~Float.valueOf(float)" resolve="valueOf" />
         <node concept="2$xPTn" id="4opyGmeaqbj" role="37wK5m">
           <property role="2$xPTl" value="1.0f" />
         </node>
@@ -407,13 +407,13 @@
               <ref role="3cqZAo" node="4mmPun57bMB" resolve="g" />
             </node>
             <node concept="liA8E" id="4mmPun57bLC" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color):void" resolve="setColor" />
+              <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
               <node concept="2OqwBi" id="4mmPun57bLD" role="37wK5m">
                 <node concept="37vLTw" id="4mmPun57bLE" role="2Oq$k0">
                   <ref role="3cqZAo" node="4mmPun57bMD" resolve="style" />
                 </node>
                 <node concept="liA8E" id="4mmPun57bLF" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                  <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
                   <node concept="1Z6Ecs" id="4mmPun57bLG" role="37wK5m">
                     <ref role="1Z6EpT" node="4mmPun56RuH" resolve="__line-color" />
                   </node>
@@ -440,7 +440,7 @@
                   <ref role="3cqZAo" node="4mmPun57bMD" resolve="style" />
                 </node>
                 <node concept="liA8E" id="4mmPun57bLM" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                  <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
                   <node concept="1Z6Ecs" id="4mmPun57bLN" role="37wK5m">
                     <ref role="1Z6EpT" node="4mmPun56RuD" resolve="__line-width" />
                   </node>
@@ -460,7 +460,7 @@
                 <ref role="3cqZAo" node="4mmPun57bMD" resolve="style" />
               </node>
               <node concept="liA8E" id="4mmPun57bLT" role="2OqNvi">
-                <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
                 <node concept="1Z6Ecs" id="4mmPun57bLU" role="37wK5m">
                   <ref role="1Z6EpT" node="4mmPun56RuA" resolve="__line-style" />
                 </node>
@@ -498,7 +498,7 @@
               <ref role="3cqZAo" node="4mmPun57bMB" resolve="g" />
             </node>
             <node concept="liA8E" id="4opyGmegcH7" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Graphics2D.setStroke(java.awt.Stroke):void" resolve="setStroke" />
+              <ref role="37wK5l" to="z60i:~Graphics2D.setStroke(java.awt.Stroke)" resolve="setStroke" />
               <node concept="1rXfSq" id="4opyGmegd59" role="37wK5m">
                 <ref role="37wK5l" node="4opyGmegcHQ" resolve="createStroke" />
                 <node concept="37vLTw" id="4opyGmegd6b" role="37wK5m">

@@ -141,7 +141,7 @@
                     <ref role="3cqZAo" node="7moa1g0QLj4" resolve="cls" />
                   </node>
                   <node concept="liA8E" id="7moa1g0QOxe" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String):java.lang.reflect.Field" resolve="getDeclaredField" />
+                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String)" resolve="getDeclaredField" />
                     <node concept="37vLTw" id="7moa1g0QQO2" role="37wK5m">
                       <ref role="3cqZAo" node="7moa1g0QLkc" resolve="fieldName" />
                     </node>
@@ -155,7 +155,7 @@
                   <ref role="3cqZAo" node="7moa1g0QObk" resolve="field" />
                 </node>
                 <node concept="liA8E" id="7moa1g0QR4K" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean):void" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="7moa1g0QR6T" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -168,7 +168,7 @@
                   <ref role="3cqZAo" node="7moa1g0QObk" resolve="field" />
                 </node>
                 <node concept="liA8E" id="7moa1g0QS7e" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~Field.get(java.lang.Object):java.lang.Object" resolve="get" />
+                  <ref role="37wK5l" to="t6h5:~Field.get(java.lang.Object)" resolve="get" />
                   <node concept="37vLTw" id="7moa1g0QSiq" role="37wK5m">
                     <ref role="3cqZAo" node="7moa1g0QLjB" resolve="obj" />
                   </node>
@@ -265,7 +265,7 @@
                     <ref role="3cqZAo" node="7moa1g0RG0W" resolve="cls" />
                   </node>
                   <node concept="liA8E" id="7moa1g0RG0t" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String):java.lang.reflect.Field" resolve="getDeclaredField" />
+                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String)" resolve="getDeclaredField" />
                     <node concept="37vLTw" id="7moa1g0RG0u" role="37wK5m">
                       <ref role="3cqZAo" node="7moa1g0RG10" resolve="fieldName" />
                     </node>
@@ -279,7 +279,7 @@
                   <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
                 </node>
                 <node concept="liA8E" id="7moa1g0RG0y" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean):void" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="7moa1g0RG0z" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -300,7 +300,7 @@
                         <ref role="3VsUkX" to="t6h5:~Field" resolve="Field" />
                       </node>
                       <node concept="liA8E" id="6U7y_4Fz524" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String):java.lang.reflect.Field" resolve="getDeclaredField" />
+                        <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String)" resolve="getDeclaredField" />
                         <node concept="Xl_RD" id="6U7y_4Fz525" role="37wK5m">
                           <property role="Xl_RC" value="modifiers" />
                         </node>
@@ -314,7 +314,7 @@
                       <ref role="3cqZAo" node="6U7y_4Fz51Y" resolve="modifiersField" />
                     </node>
                     <node concept="liA8E" id="6U7y_4Fz52t" role="2OqNvi">
-                      <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean):void" resolve="setAccessible" />
+                      <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
                       <node concept="3clFbT" id="6U7y_4Fz528" role="37wK5m">
                         <property role="3clFbU" value="true" />
                       </node>
@@ -330,7 +330,7 @@
                         <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
                       </node>
                       <node concept="liA8E" id="6U7y_4FzbYN" role="2OqNvi">
-                        <ref role="37wK5l" to="t6h5:~Field.getModifiers():int" resolve="getModifiers" />
+                        <ref role="37wK5l" to="t6h5:~Field.getModifiers()" resolve="getModifiers" />
                       </node>
                     </node>
                   </node>
@@ -341,7 +341,7 @@
                       <ref role="3cqZAo" node="6U7y_4Fz51Y" resolve="modifiersField" />
                     </node>
                     <node concept="liA8E" id="6U7y_4Fz52F" role="2OqNvi">
-                      <ref role="37wK5l" to="t6h5:~Field.setInt(java.lang.Object,int):void" resolve="setInt" />
+                      <ref role="37wK5l" to="t6h5:~Field.setInt(java.lang.Object,int)" resolve="setInt" />
                       <node concept="37vLTw" id="6U7y_4Fz9cL" role="37wK5m">
                         <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
                       </node>
@@ -361,14 +361,14 @@
                 </node>
               </node>
               <node concept="2YIFZM" id="6U7y_4Fz3qg" role="3clFbw">
-                <ref role="37wK5l" to="t6h5:~Modifier.isFinal(int):boolean" resolve="isFinal" />
+                <ref role="37wK5l" to="t6h5:~Modifier.isFinal(int)" resolve="isFinal" />
                 <ref role="1Pybhc" to="t6h5:~Modifier" resolve="Modifier" />
                 <node concept="2OqwBi" id="6U7y_4Fz3ve" role="37wK5m">
                   <node concept="37vLTw" id="6U7y_4Fz94u" role="2Oq$k0">
                     <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
                   </node>
                   <node concept="liA8E" id="6U7y_4Fz3$Y" role="2OqNvi">
-                    <ref role="37wK5l" to="t6h5:~Field.getModifiers():int" resolve="getModifiers" />
+                    <ref role="37wK5l" to="t6h5:~Field.getModifiers()" resolve="getModifiers" />
                   </node>
                 </node>
               </node>
@@ -379,7 +379,7 @@
                   <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
                 </node>
                 <node concept="liA8E" id="7moa1g0RG0B" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~Field.set(java.lang.Object,java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="t6h5:~Field.set(java.lang.Object,java.lang.Object)" resolve="set" />
                   <node concept="37vLTw" id="7moa1g0RG0C" role="37wK5m">
                     <ref role="3cqZAo" node="7moa1g0RG0Y" resolve="obj" />
                   </node>
@@ -483,7 +483,7 @@
                     <ref role="3cqZAo" node="7moa1g0TJC2" resolve="cls" />
                   </node>
                   <node concept="liA8E" id="7moa1g0TNoe" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...):java.lang.reflect.Method" resolve="getDeclaredMethod" />
+                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...)" resolve="getDeclaredMethod" />
                     <node concept="37vLTw" id="7moa1g0TNMM" role="37wK5m">
                       <ref role="3cqZAo" node="7moa1g0TJWO" resolve="methodName" />
                     </node>
@@ -500,7 +500,7 @@
                   <ref role="3cqZAo" node="7moa1g0TKks" resolve="method" />
                 </node>
                 <node concept="liA8E" id="7moa1g0TKk_" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean):void" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="7moa1g0TKkA" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -513,7 +513,7 @@
                   <ref role="3cqZAo" node="7moa1g0TKks" resolve="method" />
                 </node>
                 <node concept="liA8E" id="7moa1g0TRA$" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
+                  <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...)" resolve="invoke" />
                   <node concept="37vLTw" id="7moa1g0TRU_" role="37wK5m">
                     <ref role="3cqZAo" node="7moa1g0TJCq" resolve="obj" />
                   </node>
@@ -792,7 +792,7 @@
           <node concept="3clFbS" id="7moa1g0ZZSx" role="SfCbr">
             <node concept="3cpWs6" id="7q7LIEysjc1" role="3cqZAp">
               <node concept="2YIFZM" id="7moa1g0ZZVt" role="3cqZAk">
-                <ref role="37wK5l" to="wyt6:~Class.forName(java.lang.String):java.lang.Class" resolve="forName" />
+                <ref role="37wK5l" to="wyt6:~Class.forName(java.lang.String)" resolve="forName" />
                 <ref role="1Pybhc" to="wyt6:~Class" resolve="Class" />
                 <node concept="37vLTw" id="7moa1g10006" role="37wK5m">
                   <ref role="3cqZAo" node="7moa1g0ZZRt" resolve="fqName" />

@@ -154,22 +154,22 @@
                 <node concept="2OqwBi" id="7pvOHdLiOyk" role="2Oq$k0">
                   <node concept="1Q80Hx" id="7pvOHdLiOyl" role="2Oq$k0" />
                   <node concept="liA8E" id="7pvOHdLiOym" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7pvOHdLiOyn" role="2OqNvi">
-                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
                 </node>
               </node>
             </node>
           </node>
           <node concept="3clFbF" id="7pvOHdLi_Fl" role="3cqZAp">
             <node concept="2YIFZM" id="7pvOHdLiBWk" role="3clFbG">
-              <ref role="37wK5l" to="be1c:~AnalyzeStacktraceUtil.addConsole(com.intellij.openapi.project.Project,com.intellij.unscramble.AnalyzeStacktraceUtil$ConsoleFactory,java.lang.String,java.lang.String):void" resolve="addConsole" />
+              <ref role="37wK5l" to="be1c:~AnalyzeStacktraceUtil.addConsole(com.intellij.openapi.project.Project,com.intellij.unscramble.AnalyzeStacktraceUtil$ConsoleFactory,java.lang.String,java.lang.String)" resolve="addConsole" />
               <ref role="1Pybhc" to="be1c:~AnalyzeStacktraceUtil" resolve="AnalyzeStacktraceUtil" />
               <node concept="2YIFZM" id="7pvOHdLiQwu" role="37wK5m">
                 <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
                 <node concept="37vLTw" id="7pvOHdLiQwv" role="37wK5m">
                   <ref role="3cqZAo" node="7pvOHdLiOyi" resolve="mpsProject" />
                 </node>

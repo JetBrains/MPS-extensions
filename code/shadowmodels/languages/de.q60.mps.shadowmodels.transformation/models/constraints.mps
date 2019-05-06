@@ -1124,11 +1124,11 @@
                 <node concept="2OqwBi" id="7Ks$D7GlLLE" role="2Oq$k0">
                   <node concept="2DA6wF" id="7Ks$D7GlLLF" role="2Oq$k0" />
                   <node concept="liA8E" id="7Ks$D7GlLLG" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept():org.jetbrains.mps.openapi.language.SAbstractConcept" resolve="getTargetConcept" />
+                    <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept()" resolve="getTargetConcept" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7Ks$D7GlLLH" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SAbstractConcept.isSubConceptOf(org.jetbrains.mps.openapi.language.SAbstractConcept):boolean" resolve="isSubConceptOf" />
+                  <ref role="37wK5l" to="c17a:~SAbstractConcept.isSubConceptOf(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isSubConceptOf" />
                   <node concept="35c_gC" id="7Ks$D7GlLLI" role="37wK5m">
                     <ref role="35c_gD" to="oyp0:6ndA7L_Lbyk" resolve="ITransformationParameterType" />
                   </node>
@@ -1142,7 +1142,7 @@
               <node concept="2OqwBi" id="7Ks$D7GlKdQ" role="3uHU7B">
                 <node concept="2DA6wF" id="7Ks$D7GlJOw" role="2Oq$k0" />
                 <node concept="liA8E" id="7Ks$D7GlKVT" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept():org.jetbrains.mps.openapi.language.SAbstractConcept" resolve="getTargetConcept" />
+                  <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept()" resolve="getTargetConcept" />
                 </node>
               </node>
             </node>

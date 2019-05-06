@@ -162,7 +162,7 @@
           <node concept="3clFbS" id="1QyV25GL1mZ" role="2VODD2">
             <node concept="3cpWs6" id="1QyV25GL1z9" role="3cqZAp">
               <node concept="2YIFZM" id="1QyV25GL24b" role="3cqZAk">
-                <ref role="37wK5l" to="hhnx:~EditorUtil.createSelectIconButton(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext,boolean):javax.swing.JComponent" resolve="createSelectIconButton" />
+                <ref role="37wK5l" to="hhnx:~EditorUtil.createSelectIconButton(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext,boolean)" resolve="createSelectIconButton" />
                 <ref role="1Pybhc" to="hhnx:~EditorUtil" resolve="EditorUtil" />
                 <node concept="pncrf" id="1QyV25GL2fm" role="37wK5m" />
                 <node concept="355D3s" id="1QyV25GL2I6" role="37wK5m">

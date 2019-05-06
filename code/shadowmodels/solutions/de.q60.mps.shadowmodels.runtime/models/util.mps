@@ -279,7 +279,7 @@
               <node concept="2OqwBi" id="B8a55Urgw4" role="3uHU7B">
                 <node concept="Xjq3P" id="B8a55Urgw5" role="2Oq$k0" />
                 <node concept="liA8E" id="B8a55Urgw6" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="B8a55Urgw7" role="3uHU7w">
@@ -287,7 +287,7 @@
                   <ref role="3cqZAo" node="B8a55Urgwh" resolve="o" />
                 </node>
                 <node concept="liA8E" id="B8a55Urgw9" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -322,7 +322,7 @@
             <node concept="3fqX7Q" id="B8a55Urgww" role="3K4E3e">
               <node concept="2OqwBi" id="B8a55Urgwx" role="3fr31v">
                 <node concept="liA8E" id="B8a55Urgwy" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="B8a55Urgwz" role="37wK5m">
                     <node concept="37vLTw" id="B8a55Urgwk" role="2Oq$k0">
                       <ref role="3cqZAo" node="B8a55Urgwc" resolve="that" />
@@ -425,7 +425,7 @@
                       <ref role="3cqZAo" node="B8a55Urgp4" resolve="id" />
                     </node>
                     <node concept="liA8E" id="B8a55Urgxd" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.hashCode():int" resolve="hashCode" />
+                      <ref role="37wK5l" to="wyt6:~String.hashCode()" resolve="hashCode" />
                     </node>
                   </node>
                 </node>
@@ -460,7 +460,7 @@
                 </node>
                 <node concept="2YIFZM" id="3zTK92Li6RG" role="33vP2m">
                   <ref role="1Pybhc" to="jgjw:~MessageDigest" resolve="MessageDigest" />
-                  <ref role="37wK5l" to="jgjw:~MessageDigest.getInstance(java.lang.String):java.security.MessageDigest" resolve="getInstance" />
+                  <ref role="37wK5l" to="jgjw:~MessageDigest.getInstance(java.lang.String)" resolve="getInstance" />
                   <node concept="Xl_RD" id="3zTK92Li6RH" role="37wK5m">
                     <property role="Xl_RC" value="SHA-256" />
                   </node>
@@ -473,13 +473,13 @@
                   <ref role="3cqZAo" node="3zTK92Li6RF" resolve="md" />
                 </node>
                 <node concept="liA8E" id="3zTK92Li7yd" role="2OqNvi">
-                  <ref role="37wK5l" to="jgjw:~MessageDigest.update(byte[]):void" resolve="update" />
+                  <ref role="37wK5l" to="jgjw:~MessageDigest.update(byte[])" resolve="update" />
                   <node concept="2OqwBi" id="3zTK92Li87F" role="37wK5m">
                     <node concept="37vLTw" id="3zTK92Li7zu" role="2Oq$k0">
                       <ref role="3cqZAo" node="3zTK92Li5VK" resolve="longId" />
                     </node>
                     <node concept="liA8E" id="3zTK92Li8y1" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.getBytes(java.lang.String):byte[]" resolve="getBytes" />
+                      <ref role="37wK5l" to="wyt6:~String.getBytes(java.lang.String)" resolve="getBytes" />
                       <node concept="Xl_RD" id="3zTK92Li8A4" role="37wK5m">
                         <property role="Xl_RC" value="UTF-8" />
                       </node>
@@ -493,27 +493,27 @@
                 <node concept="2OqwBi" id="3zTK92LibqC" role="2Oq$k0">
                   <node concept="2OqwBi" id="3zTK92Lob1b" role="2Oq$k0">
                     <node concept="2YIFZM" id="3zTK92LibqD" role="2Oq$k0">
-                      <ref role="37wK5l" to="33ny:~Base64.getUrlEncoder():java.util.Base64$Encoder" resolve="getUrlEncoder" />
+                      <ref role="37wK5l" to="33ny:~Base64.getUrlEncoder()" resolve="getUrlEncoder" />
                       <ref role="1Pybhc" to="33ny:~Base64" resolve="Base64" />
                     </node>
                     <node concept="liA8E" id="3zTK92LobVc" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Base64$Encoder.withoutPadding():java.util.Base64$Encoder" resolve="withoutPadding" />
+                      <ref role="37wK5l" to="33ny:~Base64$Encoder.withoutPadding()" resolve="withoutPadding" />
                     </node>
                   </node>
                   <node concept="liA8E" id="3zTK92LibqE" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Base64$Encoder.encodeToString(byte[]):java.lang.String" resolve="encodeToString" />
+                    <ref role="37wK5l" to="33ny:~Base64$Encoder.encodeToString(byte[])" resolve="encodeToString" />
                     <node concept="2OqwBi" id="6DbeQdm1UWX" role="37wK5m">
                       <node concept="37vLTw" id="6DbeQdm1UWY" role="2Oq$k0">
                         <ref role="3cqZAo" node="3zTK92Li6RF" resolve="md" />
                       </node>
                       <node concept="liA8E" id="6DbeQdm1UWZ" role="2OqNvi">
-                        <ref role="37wK5l" to="jgjw:~MessageDigest.digest():byte[]" resolve="digest" />
+                        <ref role="37wK5l" to="jgjw:~MessageDigest.digest()" resolve="digest" />
                       </node>
                     </node>
                   </node>
                 </node>
                 <node concept="liA8E" id="6DbeQdm1vSq" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                  <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
                   <node concept="3cmrfG" id="6DbeQdm1wsL" role="37wK5m">
                     <property role="3cmrfH" value="0" />
                   </node>

@@ -944,7 +944,7 @@
                 <node concept="1eOMI4" id="3IzYpDNG4ru" role="33vP2m">
                   <node concept="10QFUN" id="3IzYpDNG4rv" role="1eOMHV">
                     <node concept="3nyPlj" id="3IzYpDNG4rt" role="10QFUP">
-                      <ref role="37wK5l" to="wyt6:~Object.clone():java.lang.Object" resolve="clone" />
+                      <ref role="37wK5l" to="wyt6:~Object.clone()" resolve="clone" />
                     </node>
                     <node concept="3uibUv" id="3IzYpDNG4rs" role="10QFUM">
                       <ref role="3uigEE" node="1p6ZfyCPv74" resolve="DefaultBoxModel" />
@@ -1134,7 +1134,7 @@
               <node concept="2OqwBi" id="3IzYpDNHxRh" role="3uHU7B">
                 <node concept="Xjq3P" id="3IzYpDNHxRi" role="2Oq$k0" />
                 <node concept="liA8E" id="3IzYpDNHxRj" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="3IzYpDNHxRk" role="3uHU7w">
@@ -1142,7 +1142,7 @@
                   <ref role="3cqZAo" node="3IzYpDNHxRu" resolve="o" />
                 </node>
                 <node concept="liA8E" id="3IzYpDNHxRm" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -1177,7 +1177,7 @@
             <node concept="3fqX7Q" id="3IzYpDNHxRH" role="3K4E3e">
               <node concept="2OqwBi" id="3IzYpDNHxRI" role="3fr31v">
                 <node concept="liA8E" id="3IzYpDNHxRJ" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="3IzYpDNHxRK" role="37wK5m">
                     <node concept="37vLTw" id="3IzYpDNHxRx" role="2Oq$k0">
                       <ref role="3cqZAo" node="3IzYpDNHxRp" resolve="that" />
@@ -1269,7 +1269,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="3IzYpDNHxSo" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                      <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                     </node>
                   </node>
                 </node>
@@ -1816,7 +1816,7 @@
               <node concept="2OqwBi" id="3IzYpDNHm_m" role="3uHU7B">
                 <node concept="Xjq3P" id="3IzYpDNHm_n" role="2Oq$k0" />
                 <node concept="liA8E" id="3IzYpDNHm_o" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="3IzYpDNHm_p" role="3uHU7w">
@@ -1824,7 +1824,7 @@
                   <ref role="3cqZAo" node="3IzYpDNHm_z" resolve="o" />
                 </node>
                 <node concept="liA8E" id="3IzYpDNHm_r" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -1881,7 +1881,7 @@
             <node concept="3fqX7Q" id="3IzYpDNHm_U" role="3K4E3e">
               <node concept="2OqwBi" id="3IzYpDNHm_V" role="3fr31v">
                 <node concept="liA8E" id="3IzYpDNHm_W" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="3IzYpDNHm_X" role="37wK5m">
                     <node concept="37vLTw" id="3IzYpDNHm_Y" role="2Oq$k0">
                       <ref role="3cqZAo" node="3IzYpDNHm_u" resolve="that" />
@@ -2059,7 +2059,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="3IzYpDNHmB9" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                      <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                     </node>
                   </node>
                 </node>
@@ -2847,7 +2847,7 @@
               <node concept="2OqwBi" id="3IzYpDNHoXE" role="3uHU7B">
                 <node concept="Xjq3P" id="3IzYpDNHoXF" role="2Oq$k0" />
                 <node concept="liA8E" id="3IzYpDNHoXG" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="3IzYpDNHoXH" role="3uHU7w">
@@ -2855,7 +2855,7 @@
                   <ref role="3cqZAo" node="3IzYpDNHoXR" resolve="o" />
                 </node>
                 <node concept="liA8E" id="3IzYpDNHoXJ" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -3938,7 +3938,7 @@
                 <node concept="1eOMI4" id="3IzYpDNG8f9" role="33vP2m">
                   <node concept="10QFUN" id="3IzYpDNG8fa" role="1eOMHV">
                     <node concept="3nyPlj" id="3IzYpDNG8fb" role="10QFUP">
-                      <ref role="37wK5l" to="wyt6:~Object.clone():java.lang.Object" resolve="clone" />
+                      <ref role="37wK5l" to="wyt6:~Object.clone()" resolve="clone" />
                     </node>
                     <node concept="3uibUv" id="3IzYpDNG9k6" role="10QFUM">
                       <ref role="3uigEE" node="1p6ZfyCPvZL" resolve="AbstractLayoutBox" />
@@ -4141,7 +4141,7 @@
               <ref role="3cqZAo" node="ZjQ6tpoDFL" resolve="myWidth" />
             </node>
             <node concept="2YIFZM" id="JPngvNuULJ" role="37vLTx">
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="37vLTw" id="JPngvNuUMX" role="37wK5m">
                 <ref role="3cqZAo" node="ZjQ6tpoDHZ" resolve="width" />
@@ -4159,7 +4159,7 @@
             </node>
             <node concept="2YIFZM" id="JPngvNuUX4" role="37vLTx">
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <node concept="37vLTw" id="JPngvNuV2Y" role="37wK5m">
                 <ref role="3cqZAo" node="ZjQ6tpoDI9" resolve="height" />
               </node>
@@ -4445,7 +4445,7 @@
               <ref role="37wK5l" node="ZjQ6tpoDHS" resolve="Size" />
               <node concept="2YIFZM" id="17yTjuFS0a" role="37wK5m">
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                 <node concept="37vLTw" id="17yTjuFS0b" role="37wK5m">
                   <ref role="3cqZAo" node="ZjQ6tpoDFL" resolve="myWidth" />
                 </node>
@@ -4460,7 +4460,7 @@
               </node>
               <node concept="2YIFZM" id="17yTjuFS9o" role="37wK5m">
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                 <node concept="37vLTw" id="17yTjuFS9p" role="37wK5m">
                   <ref role="3cqZAo" node="ZjQ6tpoDGs" resolve="myHeight" />
                 </node>
@@ -4497,7 +4497,7 @@
             <node concept="1pGfFk" id="5h2rxDjWjCm" role="2ShVmc">
               <ref role="37wK5l" node="ZjQ6tpoDHS" resolve="Size" />
               <node concept="2YIFZM" id="5h2rxDjWkVx" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 <node concept="37vLTw" id="5h2rxDjWkVy" role="37wK5m">
                   <ref role="3cqZAo" node="ZjQ6tpoDFL" resolve="myWidth" />
@@ -4513,7 +4513,7 @@
               </node>
               <node concept="2YIFZM" id="5h2rxDjWl1U" role="37wK5m">
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <node concept="37vLTw" id="5h2rxDjWl1V" role="37wK5m">
                   <ref role="3cqZAo" node="ZjQ6tpoDGs" resolve="myHeight" />
                 </node>
@@ -4616,7 +4616,7 @@
               <node concept="2OqwBi" id="40e1npHBgF4" role="3uHU7B">
                 <node concept="Xjq3P" id="40e1npHBgF5" role="2Oq$k0" />
                 <node concept="liA8E" id="40e1npHBgF6" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="40e1npHBgF7" role="3uHU7w">
@@ -4624,7 +4624,7 @@
                   <ref role="3cqZAo" node="40e1npHBgFh" resolve="o" />
                 </node>
                 <node concept="liA8E" id="40e1npHBgF9" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -5701,7 +5701,7 @@
                   <ref role="3cqZAo" node="JPngvNsUWj" resolve="cell" />
                 </node>
                 <node concept="liA8E" id="2nPeMB3nbr_" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getUserObject(java.lang.Object)" resolve="getUserObject" />
                   <node concept="37vLTw" id="2nPeMB3nbJ9" role="37wK5m">
                     <ref role="3cqZAo" node="2nPeMB3naJs" resolve="USER_OBJECT_KEY" />
                   </node>
@@ -5733,7 +5733,7 @@
                   <ref role="3cqZAo" node="JPngvNsUWj" resolve="cell" />
                 </node>
                 <node concept="liA8E" id="2nPeMB3nb_B" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
                   <node concept="37vLTw" id="2nPeMB3nbAC" role="37wK5m">
                     <ref role="3cqZAo" node="2nPeMB3naJs" resolve="USER_OBJECT_KEY" />
                   </node>
@@ -5788,7 +5788,7 @@
                   <ref role="3cqZAo" node="2lZhNqQjcfI" resolve="cell" />
                 </node>
                 <node concept="liA8E" id="2lZhNqQjdOn" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
                   <node concept="37vLTw" id="2lZhNqQjdOq" role="37wK5m">
                     <ref role="3cqZAo" node="2nPeMB3naJs" resolve="USER_OBJECT_KEY" />
                   </node>
@@ -5804,7 +5804,7 @@
                 <ref role="3cqZAo" node="2lZhNqQjcfI" resolve="cell" />
               </node>
               <node concept="liA8E" id="2lZhNqQjbXo" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.getUserObject(java.lang.Object)" resolve="getUserObject" />
                 <node concept="37vLTw" id="2lZhNqQjbXr" role="37wK5m">
                   <ref role="3cqZAo" node="2nPeMB3naJs" resolve="USER_OBJECT_KEY" />
                 </node>
@@ -6071,7 +6071,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2hEgJWEoVfH" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.isDrawBrackets():boolean" resolve="isDrawBrackets" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.isDrawBrackets()" resolve="isDrawBrackets" />
                 </node>
               </node>
               <node concept="3clFbT" id="2hEgJWEoVfI" role="3K4GZi">
@@ -6141,7 +6141,7 @@
                   <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
                 <node concept="liA8E" id="7x0eTkptog" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getLeftGap():int" resolve="getLeftGap" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getLeftGap()" resolve="getLeftGap" />
                 </node>
               </node>
             </node>
@@ -6165,7 +6165,7 @@
                   <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
                 <node concept="liA8E" id="7x0eTkptXU" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getRightGap():int" resolve="getRightGap" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getRightGap()" resolve="getRightGap" />
                 </node>
               </node>
             </node>
@@ -6277,7 +6277,7 @@
                 <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
               </node>
               <node concept="liA8E" id="9vHlV2_EnR" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.getWidth():int" resolve="getWidth" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.getWidth()" resolve="getWidth" />
               </node>
             </node>
           </node>
@@ -6291,7 +6291,7 @@
                 <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
               </node>
               <node concept="liA8E" id="9vHlV2_F4E" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.getHeight():int" resolve="getHeight" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.getHeight()" resolve="getHeight" />
               </node>
             </node>
           </node>
@@ -6396,7 +6396,7 @@
           <node concept="37vLTI" id="9vHlV2_OFy" role="3clFbG">
             <node concept="2YIFZM" id="9vHlV2_EnO" role="37vLTx">
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+              <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
               <node concept="37vLTw" id="9vHlV2_P$1" role="37wK5m">
                 <ref role="3cqZAo" node="9vHlV2_EnN" resolve="width" />
               </node>
@@ -6423,7 +6423,7 @@
           <node concept="37vLTI" id="9vHlV2_Qjj" role="3clFbG">
             <node concept="2YIFZM" id="9vHlV2_F4B" role="37vLTx">
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+              <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
               <node concept="37vLTw" id="9vHlV2_QYF" role="37wK5m">
                 <ref role="3cqZAo" node="9vHlV2_F4A" resolve="height" />
               </node>
@@ -6477,7 +6477,7 @@
                   <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
                 <node concept="liA8E" id="3Osd_yxeiR5" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getX():int" resolve="getX" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getX()" resolve="getX" />
                 </node>
               </node>
             </node>
@@ -6500,7 +6500,7 @@
                   <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
                 <node concept="liA8E" id="3Osd_yxeiRc" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getY():int" resolve="getY" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getY()" resolve="getY" />
                 </node>
               </node>
             </node>
@@ -6523,7 +6523,7 @@
                   <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
                 <node concept="liA8E" id="3Osd_yxeiRj" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getAscent():int" resolve="getAscent" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getAscent()" resolve="getAscent" />
                 </node>
               </node>
             </node>
@@ -6556,7 +6556,7 @@
             <node concept="liA8E" id="6SVXTgI9KP9" role="2OqNvi">
               <ref role="37wK5l" node="1p6ZfyCPv6q" resolve="setLeftSize" />
               <node concept="2YIFZM" id="6SVXTgI9MN2" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 <node concept="3cmrfG" id="6SVXTgI9MNV" role="37wK5m">
                   <property role="3cmrfH" value="0" />
@@ -6585,7 +6585,7 @@
             <node concept="liA8E" id="2FAXvauF$Hl" role="2OqNvi">
               <ref role="37wK5l" node="1p6ZfyCPv6w" resolve="setRightSize" />
               <node concept="2YIFZM" id="2FAXvauF$Hm" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 <node concept="3cmrfG" id="2FAXvauF$Hn" role="37wK5m">
                   <property role="3cmrfH" value="0" />
@@ -6614,7 +6614,7 @@
             <node concept="liA8E" id="2FAXvauF_1g" role="2OqNvi">
               <ref role="37wK5l" node="1p6ZfyCPv6A" resolve="setTopSize" />
               <node concept="2YIFZM" id="2FAXvauF_1h" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 <node concept="3cmrfG" id="2FAXvauF_1i" role="37wK5m">
                   <property role="3cmrfH" value="0" />
@@ -6643,7 +6643,7 @@
             <node concept="liA8E" id="2FAXvauF_mh" role="2OqNvi">
               <ref role="37wK5l" node="1p6ZfyCPv6G" resolve="setBottomSize" />
               <node concept="2YIFZM" id="2FAXvauF_mi" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 <node concept="3cmrfG" id="2FAXvauF_mj" role="37wK5m">
                   <property role="3cmrfH" value="0" />
@@ -6682,7 +6682,7 @@
                   <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
                 <node concept="liA8E" id="6Ku7D28fBLh" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getX():int" resolve="getX" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getX()" resolve="getX" />
                 </node>
               </node>
             </node>
@@ -6705,7 +6705,7 @@
                   <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
                 <node concept="liA8E" id="6Ku7D28fBLq" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getY():int" resolve="getY" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getY()" resolve="getY" />
                 </node>
               </node>
             </node>
@@ -6738,7 +6738,7 @@
               <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
             </node>
             <node concept="liA8E" id="3Osd_yxeiRw" role="2OqNvi">
-              <ref role="37wK5l" to="f4zo:~EditorCell.setLeftGap(int):void" resolve="setLeftGap" />
+              <ref role="37wK5l" to="f4zo:~EditorCell.setLeftGap(int)" resolve="setLeftGap" />
               <node concept="3cpWs3" id="5ivXze39aiN" role="37wK5m">
                 <node concept="2OqwBi" id="5ivXze39aEl" role="3uHU7w">
                   <node concept="1rXfSq" id="5ivXze39at$" role="2Oq$k0">
@@ -6766,7 +6766,7 @@
               <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
             </node>
             <node concept="liA8E" id="3Osd_yxeiRB" role="2OqNvi">
-              <ref role="37wK5l" to="f4zo:~EditorCell.setRightGap(int):void" resolve="setRightGap" />
+              <ref role="37wK5l" to="f4zo:~EditorCell.setRightGap(int)" resolve="setRightGap" />
               <node concept="3cpWs3" id="5ivXze39b0d" role="37wK5m">
                 <node concept="2OqwBi" id="5ivXze39bnw" role="3uHU7w">
                   <node concept="1rXfSq" id="5ivXze39baQ" role="2Oq$k0">
@@ -6794,7 +6794,7 @@
               <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
             </node>
             <node concept="liA8E" id="3Osd_yxeiS0" role="2OqNvi">
-              <ref role="37wK5l" to="f4zo:~EditorCell.setWidth(int):void" resolve="setWidth" />
+              <ref role="37wK5l" to="f4zo:~EditorCell.setWidth(int)" resolve="setWidth" />
               <node concept="2OqwBi" id="3Osd_yxeiS1" role="37wK5m">
                 <node concept="2OqwBi" id="3Osd_yxeiS2" role="2Oq$k0">
                   <node concept="1rXfSq" id="3Osd_yxeiS3" role="2Oq$k0">
@@ -6817,7 +6817,7 @@
               <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
             </node>
             <node concept="liA8E" id="3Osd_yxeiS9" role="2OqNvi">
-              <ref role="37wK5l" to="f4zo:~EditorCell.setHeight(int):void" resolve="setHeight" />
+              <ref role="37wK5l" to="f4zo:~EditorCell.setHeight(int)" resolve="setHeight" />
               <node concept="2OqwBi" id="3Osd_yxeiSa" role="37wK5m">
                 <node concept="2OqwBi" id="3Osd_yxeiSb" role="2Oq$k0">
                   <node concept="1rXfSq" id="3Osd_yxeiSc" role="2Oq$k0">
@@ -6842,7 +6842,7 @@
                   <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                 </node>
                 <node concept="liA8E" id="4NrC_fvuM20" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.moveTo(int,int):void" resolve="moveTo" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.moveTo(int,int)" resolve="moveTo" />
                   <node concept="2OqwBi" id="4NrC_fvuM2z" role="37wK5m">
                     <node concept="2OqwBi" id="4NrC_fvuM2$" role="2Oq$k0">
                       <node concept="1rXfSq" id="4NrC_fvuM2_" role="2Oq$k0">
@@ -6884,7 +6884,7 @@
                     <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                   </node>
                   <node concept="liA8E" id="3Osd_yxeiRI" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.setX(int):void" resolve="setX" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell.setX(int)" resolve="setX" />
                     <node concept="2OqwBi" id="3Osd_yxeiRJ" role="37wK5m">
                       <node concept="2OqwBi" id="3Osd_yxeiRK" role="2Oq$k0">
                         <node concept="1rXfSq" id="3Osd_yxeiRL" role="2Oq$k0">
@@ -6907,7 +6907,7 @@
                     <ref role="3cqZAo" node="3Osd_yxeiPj" resolve="myEditorCell" />
                   </node>
                   <node concept="liA8E" id="3Osd_yxeiRR" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.setY(int):void" resolve="setY" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell.setY(int)" resolve="setY" />
                     <node concept="2OqwBi" id="3Osd_yxeiRS" role="37wK5m">
                       <node concept="2OqwBi" id="3Osd_yxeiRT" role="2Oq$k0">
                         <node concept="1rXfSq" id="3Osd_yxeiRU" role="2Oq$k0">
@@ -6942,7 +6942,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3ISeRDV787m" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.setAscent(int):void" resolve="setAscent" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.setAscent(int)" resolve="setAscent" />
                   <node concept="2OqwBi" id="3ISeRDV78WE" role="37wK5m">
                     <node concept="2OqwBi" id="3ISeRDV78EJ" role="2Oq$k0">
                       <node concept="1rXfSq" id="3ISeRDV78w3" role="2Oq$k0">
@@ -6972,7 +6972,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3ISeRDV79ds" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.setDescent(int):void" resolve="setDescent" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.setDescent(int)" resolve="setDescent" />
                   <node concept="2OqwBi" id="3ISeRDV79dt" role="37wK5m">
                     <node concept="2OqwBi" id="3ISeRDV79du" role="2Oq$k0">
                       <node concept="1rXfSq" id="3ISeRDV79dv" role="2Oq$k0">
@@ -7224,7 +7224,7 @@
               <node concept="2OqwBi" id="3IzYpDNHuRJ" role="3uHU7B">
                 <node concept="Xjq3P" id="3IzYpDNHuRK" role="2Oq$k0" />
                 <node concept="liA8E" id="3IzYpDNHuRL" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="3IzYpDNHuRM" role="3uHU7w">
@@ -7232,7 +7232,7 @@
                   <ref role="3cqZAo" node="3IzYpDNHuRW" resolve="o" />
                 </node>
                 <node concept="liA8E" id="3IzYpDNHuRO" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -7267,7 +7267,7 @@
             <node concept="3fqX7Q" id="3IzYpDNHuSb" role="3K4E3e">
               <node concept="2OqwBi" id="3IzYpDNHuSc" role="3fr31v">
                 <node concept="liA8E" id="3IzYpDNHuSd" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="3IzYpDNHuSe" role="37wK5m">
                     <node concept="37vLTw" id="3IzYpDNHuRZ" role="2Oq$k0">
                       <ref role="3cqZAo" node="3IzYpDNHuRR" resolve="that" />
@@ -7313,7 +7313,7 @@
             <node concept="3fqX7Q" id="3IzYpDNHuSu" role="3K4E3e">
               <node concept="2OqwBi" id="3IzYpDNHuSv" role="3fr31v">
                 <node concept="liA8E" id="3IzYpDNHuSw" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="3IzYpDNHuSx" role="37wK5m">
                     <node concept="37vLTw" id="3IzYpDNHuSy" role="2Oq$k0">
                       <ref role="3cqZAo" node="3IzYpDNHuRR" resolve="that" />
@@ -7405,7 +7405,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="3IzYpDNHuTa" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                      <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                     </node>
                   </node>
                 </node>
@@ -7450,7 +7450,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="3IzYpDNHuTt" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                      <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                     </node>
                   </node>
                 </node>
@@ -7851,7 +7851,7 @@
               <node concept="2OqwBi" id="5AiOsAUZZTd" role="3uHU7B">
                 <node concept="Xjq3P" id="5AiOsAUZZTe" role="2Oq$k0" />
                 <node concept="liA8E" id="5AiOsAUZZTf" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="5AiOsAUZZTg" role="3uHU7w">
@@ -7859,7 +7859,7 @@
                   <ref role="3cqZAo" node="5AiOsAUZZTq" resolve="o" />
                 </node>
                 <node concept="liA8E" id="5AiOsAUZZTi" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -9747,7 +9747,7 @@
               <node concept="2OqwBi" id="2hEgJWEr$3R" role="3uHU7B">
                 <node concept="Xjq3P" id="2hEgJWEr$3S" role="2Oq$k0" />
                 <node concept="liA8E" id="2hEgJWEr$3T" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="2hEgJWEr$3U" role="3uHU7w">
@@ -9755,7 +9755,7 @@
                   <ref role="3cqZAo" node="2hEgJWEr$44" resolve="o" />
                 </node>
                 <node concept="liA8E" id="2hEgJWEr$3W" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -9790,7 +9790,7 @@
             <node concept="3fqX7Q" id="2hEgJWEr$4j" role="3K4E3e">
               <node concept="2OqwBi" id="2hEgJWEr$4k" role="3fr31v">
                 <node concept="liA8E" id="2hEgJWEr$4l" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="2hEgJWEr$4m" role="37wK5m">
                     <node concept="37vLTw" id="2hEgJWEr$47" role="2Oq$k0">
                       <ref role="3cqZAo" node="2hEgJWEr$3Z" resolve="that" />
@@ -9969,7 +9969,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="2hEgJWEr$5y" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                      <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
                     </node>
                   </node>
                 </node>
@@ -10103,7 +10103,7 @@
                 <node concept="1eOMI4" id="2hEgJWEr_VU" role="33vP2m">
                   <node concept="10QFUN" id="2hEgJWEr_VV" role="1eOMHV">
                     <node concept="3nyPlj" id="2hEgJWEr_VW" role="10QFUP">
-                      <ref role="37wK5l" to="wyt6:~Object.clone():java.lang.Object" resolve="clone" />
+                      <ref role="37wK5l" to="wyt6:~Object.clone()" resolve="clone" />
                     </node>
                     <node concept="3uibUv" id="2hEgJWErBKC" role="10QFUM">
                       <ref role="3uigEE" node="2hEgJWEqGBk" resolve="CalcOnWriteFrame" />

@@ -928,7 +928,7 @@
                           <ref role="3cqZAo" node="4JmkJs3K8fJ" resolve="diff" />
                         </node>
                         <node concept="liA8E" id="4JmkJs3K8fX" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~List.isEmpty():boolean" resolve="isEmpty" />
+                          <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
                         </node>
                       </node>
                     </node>
@@ -964,7 +964,7 @@
                               <ref role="3cqZAo" node="4JmkJs3K8g0" resolve="sb" />
                             </node>
                             <node concept="liA8E" id="4JmkJs3K8gc" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                               <node concept="2OqwBi" id="4JmkJs3K8gd" role="37wK5m">
                                 <node concept="37vLTw" id="4JmkJs3K8ge" role="2Oq$k0">
                                   <ref role="3cqZAo" node="4JmkJs3K8g6" resolve="nd" />
@@ -985,7 +985,7 @@
                             <ref role="3cqZAo" node="4JmkJs3K8g0" resolve="sb" />
                           </node>
                           <node concept="liA8E" id="4JmkJs3K8gk" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                            <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
                           </node>
                         </node>
                       </node>
@@ -1051,7 +1051,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="56YPHTotlD4" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>
@@ -1093,7 +1093,7 @@
                                         <ref role="3cqZAo" node="56YPHTotlDu" resolve="it" />
                                       </node>
                                       <node concept="liA8E" id="56YPHTotlDr" role="2OqNvi">
-                                        <ref role="37wK5l" to="lui2:~SModuleReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.module.SModule" resolve="resolve" />
+                                        <ref role="37wK5l" to="lui2:~SModuleReference.resolve(org.jetbrains.mps.openapi.module.SRepository)" resolve="resolve" />
                                         <node concept="37vLTw" id="56YPHTotlDs" role="37wK5m">
                                           <ref role="3cqZAo" node="56YPHTotlCX" resolve="repository" />
                                         </node>
@@ -1441,7 +1441,7 @@
                     <node concept="1pGfFk" id="3QW6fV02x6L" role="2ShVmc">
                       <ref role="37wK5l" to="l6bp:7gxeZuyfxRC" resolve="SRepositoryResolveContext" />
                       <node concept="2YIFZM" id="3QW6fV02oGx" role="37wK5m">
-                        <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+                        <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
                         <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
                       </node>
                     </node>

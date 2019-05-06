@@ -285,11 +285,11 @@
                                                           <ref role="3cqZAo" node="7NatPTLZR8h" resolve="editor" />
                                                         </node>
                                                         <node concept="liA8E" id="5yVaV$3DusL" role="2OqNvi">
-                                                          <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getEditorContext" />
+                                                          <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
                                                         </node>
                                                       </node>
                                                       <node concept="liA8E" id="5yVaV$3DusM" role="2OqNvi">
-                                                        <ref role="37wK5l" to="cj4x:~EditorContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                                                        <ref role="37wK5l" to="cj4x:~EditorContext.getModel()" resolve="getModel" />
                                                       </node>
                                                     </node>
                                                     <node concept="3uibUv" id="5yVaV$3DusN" role="10QFUM">
@@ -298,7 +298,7 @@
                                                   </node>
                                                 </node>
                                                 <node concept="liA8E" id="5yVaV$3DusO" role="2OqNvi">
-                                                  <ref role="37wK5l" to="g3l6:~SModelDescriptorStub.importedLanguageIds():java.util.Collection" resolve="importedLanguageIds" />
+                                                  <ref role="37wK5l" to="g3l6:~SModelDescriptorStub.importedLanguageIds()" resolve="importedLanguageIds" />
                                                 </node>
                                               </node>
                                             </node>
@@ -320,7 +320,7 @@
                                                         <ref role="3cqZAo" node="5yVaV$3Dx95" resolve="it" />
                                                       </node>
                                                       <node concept="liA8E" id="5yVaV$3DDXB" role="2OqNvi">
-                                                        <ref role="37wK5l" to="c17a:~SLanguage.getSourceModule():org.jetbrains.mps.openapi.module.SModule" resolve="getSourceModule" />
+                                                        <ref role="37wK5l" to="c17a:~SLanguage.getSourceModule()" resolve="getSourceModule" />
                                                       </node>
                                                     </node>
                                                     <node concept="3uibUv" id="5yVaV$3DFoi" role="10QFUM">
@@ -495,7 +495,7 @@
               </node>
             </node>
             <node concept="liA8E" id="7NatPTM12sx" role="2OqNvi">
-              <ref role="37wK5l" to="exr9:~EditorComponent.addDisposeListener(jetbrains.mps.nodeEditor.EditorComponent$EditorDisposeListener):void" resolve="addDisposeListener" />
+              <ref role="37wK5l" to="exr9:~EditorComponent.addDisposeListener(jetbrains.mps.nodeEditor.EditorComponent$EditorDisposeListener)" resolve="addDisposeListener" />
               <node concept="2ShNRf" id="7NatPTM12v0" role="37wK5m">
                 <node concept="YeOm9" id="7NatPTM12J6" role="2ShVmc">
                   <node concept="1Y3b0j" id="7NatPTM12J9" role="YeSDq">

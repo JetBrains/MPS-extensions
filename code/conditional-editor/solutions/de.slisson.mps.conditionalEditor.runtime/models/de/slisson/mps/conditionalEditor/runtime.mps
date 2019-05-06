@@ -473,7 +473,7 @@
               <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
             </node>
             <node concept="2YIFZM" id="5P1DsEq50fv" role="33vP2m">
-              <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.String):org.apache.log4j.Logger" resolve="getLogger" />
+              <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.String)" resolve="getLogger" />
               <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
               <node concept="37vLTw" id="5P1DsEq50fw" role="37wK5m">
                 <ref role="3cqZAo" node="5P1DsEq53Q7" resolve="editorRegistryClassName" />
@@ -487,7 +487,7 @@
               <ref role="3cqZAo" node="nR2eIyJaRu" resolve="logger" />
             </node>
             <node concept="liA8E" id="5P1DsEq51Pe" role="2OqNvi">
-              <ref role="37wK5l" to="q7tw:~Category.setLevel(org.apache.log4j.Level):void" resolve="setLevel" />
+              <ref role="37wK5l" to="q7tw:~Category.setLevel(org.apache.log4j.Level)" resolve="setLevel" />
               <node concept="10M0yZ" id="5P1DsEq51PL" role="37wK5m">
                 <ref role="1PxDUh" to="q7tw:~Level" resolve="Level" />
                 <ref role="3cqZAo" to="q7tw:~Level.OFF" resolve="OFF" />
@@ -740,7 +740,7 @@
                 <ref role="3cqZAo" node="6OrbFWF8Oz4" resolve="secondary" />
               </node>
               <node concept="liA8E" id="6OrbFWF8RKB" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Comparator.compare(java.lang.Object,java.lang.Object):int" resolve="compare" />
+                <ref role="37wK5l" to="33ny:~Comparator.compare(java.lang.Object,java.lang.Object)" resolve="compare" />
                 <node concept="37vLTw" id="6OrbFWF8RQ0" role="37wK5m">
                   <ref role="3cqZAo" node="6OrbFWF8N_5" resolve="editor1" />
                 </node>

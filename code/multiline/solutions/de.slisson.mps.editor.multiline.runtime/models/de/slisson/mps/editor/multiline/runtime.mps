@@ -194,11 +194,11 @@
           </node>
           <node concept="2OqwBi" id="16btBGPd5xW" role="2GsD0m">
             <node concept="2YIFZM" id="16btBGPd5xB" role="2Oq$k0">
-              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx():com.intellij.ide.CopyPasteManagerEx" resolve="getInstanceEx" />
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx()" resolve="getInstanceEx" />
               <ref role="1Pybhc" to="ddhc:~CopyPasteManagerEx" resolve="CopyPasteManagerEx" />
             </node>
             <node concept="liA8E" id="16btBGPd5y2" role="2OqNvi">
-              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getAllContents():java.awt.datatransfer.Transferable[]" resolve="getAllContents" />
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getAllContents()" resolve="getAllContents" />
             </node>
           </node>
           <node concept="3clFbS" id="16btBGPd5x_" role="2LFqv$">
@@ -208,7 +208,7 @@
                   <ref role="2Gs0qQ" node="16btBGPd5xz" resolve="content" />
                 </node>
                 <node concept="liA8E" id="16btBGPd5yx" role="2OqNvi">
-                  <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor):boolean" resolve="isDataFlavorSupported" />
+                  <ref role="37wK5l" to="kt01:~Transferable.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)" resolve="isDataFlavorSupported" />
                   <node concept="10M0yZ" id="16btBGPd5yz" role="37wK5m">
                     <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
                     <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
@@ -230,7 +230,7 @@
                               <ref role="2Gs0qQ" node="16btBGPd5xz" resolve="content" />
                             </node>
                             <node concept="liA8E" id="16btBGPd5zo" role="2OqNvi">
-                              <ref role="37wK5l" to="kt01:~Transferable.getTransferData(java.awt.datatransfer.DataFlavor):java.lang.Object" resolve="getTransferData" />
+                              <ref role="37wK5l" to="kt01:~Transferable.getTransferData(java.awt.datatransfer.DataFlavor)" resolve="getTransferData" />
                               <node concept="10M0yZ" id="16btBGPd5zp" role="37wK5m">
                                 <ref role="1PxDUh" to="kt01:~DataFlavor" resolve="DataFlavor" />
                                 <ref role="3cqZAo" to="kt01:~DataFlavor.stringFlavor" resolve="stringFlavor" />
@@ -280,11 +280,11 @@
         <node concept="3clFbF" id="3x42ltMQFG5" role="3cqZAp">
           <node concept="2OqwBi" id="3x42ltMQFGk" role="3clFbG">
             <node concept="2YIFZM" id="3x42ltMQFG7" role="2Oq$k0">
-              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx():com.intellij.ide.CopyPasteManagerEx" resolve="getInstanceEx" />
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.getInstanceEx()" resolve="getInstanceEx" />
               <ref role="1Pybhc" to="ddhc:~CopyPasteManagerEx" resolve="CopyPasteManagerEx" />
             </node>
             <node concept="liA8E" id="3x42ltMQFGq" role="2OqNvi">
-              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.setContents(java.awt.datatransfer.Transferable):void" resolve="setContents" />
+              <ref role="37wK5l" to="ddhc:~CopyPasteManagerEx.setContents(java.awt.datatransfer.Transferable)" resolve="setContents" />
               <node concept="2ShNRf" id="3x42ltMQFGr" role="37wK5m">
                 <node concept="1pGfFk" id="3x42ltMQHdC" role="2ShVmc">
                   <ref role="37wK5l" to="kt01:~StringSelection.&lt;init&gt;(java.lang.String)" resolve="StringSelection" />
@@ -326,7 +326,7 @@
           <node concept="2OqwBi" id="51$nbrwc_XW" role="3clFbG">
             <node concept="2OqwBi" id="51$nbrwc_XX" role="2Oq$k0">
               <node concept="liA8E" id="51$nbrwc_XY" role="2OqNvi">
-                <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
               </node>
               <node concept="1eOMI4" id="51$nbrwc_XZ" role="2Oq$k0">
                 <node concept="10QFUN" id="51$nbrwc_Y0" role="1eOMHV">
@@ -335,7 +335,7 @@
                       <ref role="3cqZAo" node="51$nbrwc_WF" resolve="context" />
                     </node>
                     <node concept="liA8E" id="51$nbrwc_Y3" role="2OqNvi">
-                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
                     </node>
                   </node>
                   <node concept="3uibUv" id="51$nbrwc_Y4" role="10QFUM">
@@ -345,7 +345,7 @@
               </node>
             </node>
             <node concept="liA8E" id="51$nbrwc_Y5" role="2OqNvi">
-              <ref role="37wK5l" to="lwvz:~SelectionManager.setSelection(jetbrains.mps.openapi.editor.cells.EditorCell):void" resolve="setSelection" />
+              <ref role="37wK5l" to="lwvz:~SelectionManager.setSelection(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="setSelection" />
               <node concept="10QFUN" id="51$nbrwc_Y6" role="37wK5m">
                 <node concept="3uibUv" id="1rfeXz7R5Dy" role="10QFUM">
                   <ref role="3uigEE" to="g51k:~EditorCell" resolve="EditorCell" />
@@ -406,7 +406,7 @@
                 <ref role="3cqZAo" node="5H3MsraaPVz" resolve="escaped" />
               </node>
               <node concept="liA8E" id="4MPZfBDxxhK" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                 <node concept="Xl_RD" id="4MPZfBDxxiC" role="37wK5m">
                   <property role="Xl_RC" value="\\n" />
                 </node>
@@ -417,7 +417,7 @@
                 <ref role="3cqZAo" node="5H3MsraaPVz" resolve="escaped" />
               </node>
               <node concept="liA8E" id="4MPZfBDxxGO" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                 <node concept="Xl_RD" id="4MPZfBDxxID" role="37wK5m">
                   <property role="Xl_RC" value="\\t" />
                 </node>
@@ -489,17 +489,17 @@
                 <node concept="2OqwBi" id="5LEeV$43oIS" role="33vP2m">
                   <node concept="2YIFZM" id="5LEeV$43oIT" role="2Oq$k0">
                     <ref role="1Pybhc" to="w1kc:~ModuleRepositoryFacade" resolve="ModuleRepositoryFacade" />
-                    <ref role="37wK5l" to="w1kc:~ModuleRepositoryFacade.getInstance():jetbrains.mps.smodel.ModuleRepositoryFacade" resolve="getInstance" />
+                    <ref role="37wK5l" to="w1kc:~ModuleRepositoryFacade.getInstance()" resolve="getInstance" />
                   </node>
                   <node concept="liA8E" id="5LEeV$43oIU" role="2OqNvi">
-                    <ref role="37wK5l" to="w1kc:~ModuleRepositoryFacade.getModule(org.jetbrains.mps.openapi.module.SModuleReference):org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                    <ref role="37wK5l" to="w1kc:~ModuleRepositoryFacade.getModule(org.jetbrains.mps.openapi.module.SModuleReference)" resolve="getModule" />
                     <node concept="2OqwBi" id="5LEeV$43oIV" role="37wK5m">
                       <node concept="2YIFZM" id="5LEeV$43oIW" role="2Oq$k0">
                         <ref role="1Pybhc" to="dush:~PersistenceFacade" resolve="PersistenceFacade" />
-                        <ref role="37wK5l" to="dush:~PersistenceFacade.getInstance():org.jetbrains.mps.openapi.persistence.PersistenceFacade" resolve="getInstance" />
+                        <ref role="37wK5l" to="dush:~PersistenceFacade.getInstance()" resolve="getInstance" />
                       </node>
                       <node concept="liA8E" id="5LEeV$43oIX" role="2OqNvi">
-                        <ref role="37wK5l" to="dush:~PersistenceFacade.createModuleReference(java.lang.String):org.jetbrains.mps.openapi.module.SModuleReference" resolve="createModuleReference" />
+                        <ref role="37wK5l" to="dush:~PersistenceFacade.createModuleReference(java.lang.String)" resolve="createModuleReference" />
                         <node concept="Xl_RD" id="5LEeV$43oIY" role="37wK5m">
                           <property role="Xl_RC" value="b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)" />
                         </node>
@@ -562,7 +562,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5LEeV$43umW" role="2OqNvi">
-                    <ref role="37wK5l" to="j8aq:~ReloadableModule.getOwnClass(java.lang.String):java.lang.Class" resolve="getOwnClass" />
+                    <ref role="37wK5l" to="j8aq:~ReloadableModule.getOwnClass(java.lang.String)" resolve="getOwnClass" />
                     <node concept="Xl_RD" id="5LEeV$43umX" role="37wK5m">
                       <property role="Xl_RC" value="org.apache.commons.lang3.StringEscapeUtils" />
                     </node>
@@ -596,7 +596,7 @@
                     <ref role="3cqZAo" node="5LEeV$43umQ" resolve="escapeUtil" />
                   </node>
                   <node concept="liA8E" id="5LEeV$43x4L" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...):java.lang.reflect.Method" resolve="getDeclaredMethod" />
+                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...)" resolve="getDeclaredMethod" />
                     <node concept="Xl_RD" id="5LEeV$43x4M" role="37wK5m">
                       <property role="Xl_RC" value="unescapeJava" />
                     </node>
@@ -618,7 +618,7 @@
                       <ref role="3cqZAo" node="5LEeV$43x4I" resolve="escapeJavaMethod" />
                     </node>
                     <node concept="liA8E" id="5LEeV$43zqM" role="2OqNvi">
-                      <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
+                      <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...)" resolve="invoke" />
                       <node concept="10Nm6u" id="5LEeV$43zqN" role="37wK5m" />
                       <node concept="37vLTw" id="5LEeV$43zqO" role="37wK5m">
                         <ref role="3cqZAo" node="5LEeV$41ab6" resolve="escaped" />

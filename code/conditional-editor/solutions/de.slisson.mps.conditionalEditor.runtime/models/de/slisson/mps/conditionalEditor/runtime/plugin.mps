@@ -131,10 +131,10 @@
               <ref role="3uigEE" to="zwau:~ConceptEditorHintSettingsComponent" resolve="ConceptEditorHintSettingsComponent" />
             </node>
             <node concept="2YIFZM" id="7SbG$tCPl6x" role="33vP2m">
-              <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent.getInstance(com.intellij.openapi.project.Project):jetbrains.mps.nodeEditor.hintsSettings.ConceptEditorHintSettingsComponent" resolve="getInstance" />
+              <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent.getInstance(com.intellij.openapi.project.Project)" resolve="getInstance" />
               <ref role="1Pybhc" to="zwau:~ConceptEditorHintSettingsComponent" resolve="ConceptEditorHintSettingsComponent" />
               <node concept="2YIFZM" id="7SbG$tCPl6y" role="37wK5m">
-                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
                 <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
                 <node concept="1KvdUw" id="7SbG$tCPl6z" role="37wK5m" />
               </node>
@@ -152,7 +152,7 @@
                 <ref role="3cqZAo" node="7SbG$tCPl6w" resolve="settingsComponent" />
               </node>
               <node concept="liA8E" id="7SbG$tCPlHr" role="2OqNvi">
-                <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent.getState():jetbrains.mps.nodeEditor.hintsSettings.ConceptEditorHintSettingsComponent$HintsState" resolve="getState" />
+                <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent.getState()" resolve="getState" />
               </node>
             </node>
           </node>
@@ -171,7 +171,7 @@
                 <ref role="3cqZAo" node="7SbG$tCPlHo" resolve="state" />
               </node>
               <node concept="liA8E" id="7SbG$tCPm1S" role="2OqNvi">
-                <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent$HintsState.getEnabledHints():java.util.Set" resolve="getEnabledHints" />
+                <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent$HintsState.getEnabledHints()" resolve="getEnabledHints" />
               </node>
             </node>
           </node>
@@ -193,7 +193,7 @@
               <ref role="3cqZAo" node="7SbG$tCPm1P" resolve="enabledHints" />
             </node>
             <node concept="liA8E" id="7SbG$tCPnkt" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="2pYGij" id="7SbG$tCPnuH" role="37wK5m">
                 <ref role="2pYH_C" to="461n:2kbUaNP7dpe" resolve="conditionalEditor" />
               </node>
@@ -222,7 +222,7 @@
               <ref role="3cqZAo" node="7SbG$tCPm1P" resolve="enabledHints" />
             </node>
             <node concept="liA8E" id="2kbUaNP7p15" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
               <node concept="2pYGij" id="2kbUaNP7p16" role="37wK5m">
                 <ref role="2pYH_C" to="461n:2kbUaNP7dpg" resolve="conditionalEditor_doNotUseThisHint" />
               </node>
@@ -236,7 +236,7 @@
               <ref role="3cqZAo" node="7SbG$tCPlHo" resolve="state" />
             </node>
             <node concept="liA8E" id="7SbG$tCPoic" role="2OqNvi">
-              <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent$HintsState.setEnabledHints(java.util.Set):void" resolve="setEnabledHints" />
+              <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent$HintsState.setEnabledHints(java.util.Set)" resolve="setEnabledHints" />
               <node concept="37vLTw" id="7SbG$tCPonf" role="37wK5m">
                 <ref role="3cqZAo" node="7SbG$tCPm1P" resolve="enabledHints" />
               </node>
@@ -249,7 +249,7 @@
               <ref role="3cqZAo" node="7SbG$tCPl6w" resolve="settingsComponent" />
             </node>
             <node concept="liA8E" id="7SbG$tCPpaC" role="2OqNvi">
-              <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent.loadState(jetbrains.mps.nodeEditor.hintsSettings.ConceptEditorHintSettingsComponent$HintsState):void" resolve="loadState" />
+              <ref role="37wK5l" to="zwau:~ConceptEditorHintSettingsComponent.loadState(jetbrains.mps.nodeEditor.hintsSettings.ConceptEditorHintSettingsComponent$HintsState)" resolve="loadState" />
               <node concept="37vLTw" id="7SbG$tCPpb1" role="37wK5m">
                 <ref role="3cqZAo" node="7SbG$tCPlHo" resolve="state" />
               </node>

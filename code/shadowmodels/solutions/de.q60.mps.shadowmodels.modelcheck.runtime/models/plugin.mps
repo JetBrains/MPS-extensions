@@ -148,7 +148,7 @@
                 <node concept="2OqwBi" id="7iY3uI$KkTL" role="37wK5m">
                   <node concept="1KvdUw" id="7iY3uI$Kkrj" role="2Oq$k0" />
                   <node concept="liA8E" id="7iY3uI$KmP0" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c4:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                    <ref role="37wK5l" to="z1c4:~Project.getRepository()" resolve="getRepository" />
                   </node>
                 </node>
               </node>
@@ -170,7 +170,7 @@
             <node concept="2OqwBi" id="7uM3WAark3B" role="33vP2m">
               <node concept="1KvdUw" id="7uM3WAark3C" role="2Oq$k0" />
               <node concept="liA8E" id="7uM3WAark3D" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="7uM3WAark3E" role="37wK5m">
                   <ref role="3VsUkX" to="exr9:~Highlighter" resolve="Highlighter" />
                 </node>
@@ -184,7 +184,7 @@
               <ref role="3cqZAo" node="7uM3WAark3A" resolve="highlighter" />
             </node>
             <node concept="liA8E" id="7uM3WAarneu" role="2OqNvi">
-              <ref role="37wK5l" to="exr9:~Highlighter.addChecker(jetbrains.mps.nodeEditor.checking.EditorChecker):void" resolve="addChecker" />
+              <ref role="37wK5l" to="exr9:~Highlighter.addChecker(jetbrains.mps.nodeEditor.checking.EditorChecker)" resolve="addChecker" />
               <node concept="2OqwBi" id="7uM3WAaroo8" role="37wK5m">
                 <node concept="2WthIp" id="7uM3WAaroob" role="2Oq$k0" />
                 <node concept="2BZ7hE" id="7uM3WAarood" role="2OqNvi">
@@ -207,7 +207,7 @@
             <node concept="2OqwBi" id="7uM3WAaroxK" role="33vP2m">
               <node concept="1KvdUw" id="7uM3WAaroxL" role="2Oq$k0" />
               <node concept="liA8E" id="7uM3WAaroxM" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="7uM3WAaroxN" role="37wK5m">
                   <ref role="3VsUkX" to="exr9:~Highlighter" resolve="Highlighter" />
                 </node>
@@ -221,7 +221,7 @@
               <ref role="3cqZAo" node="7uM3WAaroxI" resolve="highlighter" />
             </node>
             <node concept="liA8E" id="7uM3WAaroxR" role="2OqNvi">
-              <ref role="37wK5l" to="exr9:~Highlighter.removeChecker(jetbrains.mps.nodeEditor.checking.EditorChecker):void" resolve="removeChecker" />
+              <ref role="37wK5l" to="exr9:~Highlighter.removeChecker(jetbrains.mps.nodeEditor.checking.EditorChecker)" resolve="removeChecker" />
               <node concept="2OqwBi" id="7uM3WAaroxS" role="37wK5m">
                 <node concept="2WthIp" id="7uM3WAaroxT" role="2Oq$k0" />
                 <node concept="2BZ7hE" id="7uM3WAaroxU" role="2OqNvi">

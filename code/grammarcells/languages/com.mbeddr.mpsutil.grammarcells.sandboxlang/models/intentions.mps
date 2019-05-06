@@ -95,7 +95,7 @@
                 <node concept="2OqwBi" id="5OsvY4g_2jO" role="37wK5m">
                   <node concept="1XNTG" id="5OsvY4g_2iC" role="2Oq$k0" />
                   <node concept="liA8E" id="5OsvY4g_2mG" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorContext.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getModel()" resolve="getModel" />
                   </node>
                 </node>
               </node>

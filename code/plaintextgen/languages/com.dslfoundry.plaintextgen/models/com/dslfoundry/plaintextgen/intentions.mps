@@ -238,7 +238,7 @@
             <node concept="2OqwBi" id="2AdBM2T4TbA" role="33vP2m">
               <node concept="1XNTG" id="2AdBM2T4TbB" role="2Oq$k0" />
               <node concept="liA8E" id="2AdBM2T4TbC" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContextCell" />
+                <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell()" resolve="getContextCell" />
               </node>
             </node>
           </node>
@@ -277,7 +277,7 @@
                   <ref role="3cqZAo" node="2AdBM2T4TbE" resolve="label" />
                 </node>
                 <node concept="liA8E" id="2AdBM2T4TnR" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd():int" resolve="getSelectionEnd" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd()" resolve="getSelectionEnd" />
                 </node>
               </node>
               <node concept="2OqwBi" id="2AdBM2T4TAq" role="3uHU7w">
@@ -285,7 +285,7 @@
                   <ref role="3cqZAo" node="2AdBM2T4TbE" resolve="label" />
                 </node>
                 <node concept="liA8E" id="2AdBM2T4TFt" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart():int" resolve="getSelectionStart" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart()" resolve="getSelectionStart" />
                 </node>
               </node>
             </node>
@@ -313,7 +313,7 @@
             <node concept="2OqwBi" id="1SFgcLT$bxq" role="33vP2m">
               <node concept="1XNTG" id="1SFgcLT$bwM" role="2Oq$k0" />
               <node concept="liA8E" id="1SFgcLT$byN" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContextCell" />
+                <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell()" resolve="getContextCell" />
               </node>
             </node>
           </node>
@@ -343,7 +343,7 @@
                 <ref role="3cqZAo" node="1SFgcLT$bHF" resolve="label" />
               </node>
               <node concept="liA8E" id="1SFgcLT$xAq" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText():java.lang.String" resolve="getText" />
+                <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText()" resolve="getText" />
               </node>
             </node>
           </node>
@@ -367,7 +367,7 @@
                 <ref role="3cqZAo" node="1SFgcLT$xx8" resolve="text" />
               </node>
               <node concept="liA8E" id="1SFgcLT$xXP" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
                 <node concept="3cmrfG" id="1SFgcLT$xYj" role="37wK5m">
                   <property role="3cmrfH" value="0" />
                 </node>
@@ -376,7 +376,7 @@
                     <ref role="3cqZAo" node="1SFgcLT$bHF" resolve="label" />
                   </node>
                   <node concept="liA8E" id="1SFgcLT$y8y" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart():int" resolve="getSelectionStart" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart()" resolve="getSelectionStart" />
                   </node>
                 </node>
               </node>
@@ -407,13 +407,13 @@
                 <ref role="3cqZAo" node="1SFgcLT$xx8" resolve="text" />
               </node>
               <node concept="liA8E" id="1SFgcLT$zKY" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
                 <node concept="2OqwBi" id="1SFgcLT$zMD" role="37wK5m">
                   <node concept="37vLTw" id="1SFgcLT$zLv" role="2Oq$k0">
                     <ref role="3cqZAo" node="1SFgcLT$bHF" resolve="label" />
                   </node>
                   <node concept="liA8E" id="1SFgcLT$zO$" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart():int" resolve="getSelectionStart" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart()" resolve="getSelectionStart" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="1SFgcLT$zSa" role="37wK5m">
@@ -421,7 +421,7 @@
                     <ref role="3cqZAo" node="1SFgcLT$bHF" resolve="label" />
                   </node>
                   <node concept="liA8E" id="1SFgcLT$zVA" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd():int" resolve="getSelectionEnd" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd()" resolve="getSelectionEnd" />
                   </node>
                 </node>
               </node>
@@ -498,13 +498,13 @@
                 <ref role="3cqZAo" node="1SFgcLT$xx8" resolve="text" />
               </node>
               <node concept="liA8E" id="1SFgcLT$CZp" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
                 <node concept="2OqwBi" id="1SFgcLT$D0U" role="37wK5m">
                   <node concept="37vLTw" id="1SFgcLT$CZR" role="2Oq$k0">
                     <ref role="3cqZAo" node="1SFgcLT$bHF" resolve="label" />
                   </node>
                   <node concept="liA8E" id="1SFgcLT$D43" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd():int" resolve="getSelectionEnd" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd()" resolve="getSelectionEnd" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="1SFgcLT$D9n" role="37wK5m">
@@ -512,7 +512,7 @@
                     <ref role="3cqZAo" node="1SFgcLT$xx8" resolve="text" />
                   </node>
                   <node concept="liA8E" id="1SFgcLT$Dl1" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                    <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                   </node>
                 </node>
               </node>
@@ -593,7 +593,7 @@
           <node concept="2OqwBi" id="1SFgcLT$JDo" role="3clFbG">
             <node concept="1XNTG" id="1SFgcLT$Jxs" role="2Oq$k0" />
             <node concept="liA8E" id="1SFgcLT$JKj" role="2OqNvi">
-              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode)" resolve="select" />
               <node concept="37vLTw" id="7Y69gu1JBso" role="37wK5m">
                 <ref role="3cqZAo" node="7Y69gu1J$qn" resolve="selected_node" />
               </node>
@@ -613,7 +613,7 @@
             <node concept="2OqwBi" id="7Y69gu1JTkH" role="33vP2m">
               <node concept="1XNTG" id="7Y69gu1JTkI" role="2Oq$k0" />
               <node concept="liA8E" id="7Y69gu1JTkJ" role="2OqNvi">
-                <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getContextCell" />
+                <ref role="37wK5l" to="cj4x:~EditorContext.getContextCell()" resolve="getContextCell" />
               </node>
             </node>
           </node>
@@ -644,11 +644,11 @@
                   <ref role="3cqZAo" node="7Y69gu1JTkL" resolve="label" />
                 </node>
                 <node concept="liA8E" id="7Y69gu1K4q3" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText():java.lang.String" resolve="getText" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText()" resolve="getText" />
                 </node>
               </node>
               <node concept="liA8E" id="7Y69gu1K5gy" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
               </node>
             </node>
           </node>
@@ -662,7 +662,7 @@
                 <ref role="3cqZAo" node="7Y69gu1JTkL" resolve="label" />
               </node>
               <node concept="liA8E" id="7Y69gu1KaCh" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart():int" resolve="getSelectionStart" />
+                <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionStart()" resolve="getSelectionStart" />
               </node>
             </node>
           </node>
@@ -676,7 +676,7 @@
                 <ref role="3cqZAo" node="7Y69gu1JTkL" resolve="label" />
               </node>
               <node concept="liA8E" id="7Y69gu1KbFo" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd():int" resolve="getSelectionEnd" />
+                <ref role="37wK5l" to="f4zo:~EditorCell_Label.getSelectionEnd()" resolve="getSelectionEnd" />
               </node>
             </node>
           </node>
@@ -1323,7 +1323,7 @@
               <node concept="2OqwBi" id="9C_B26vXR2" role="10QFUP">
                 <node concept="71T_Y" id="9C_B26vTkX" role="2Oq$k0" />
                 <node concept="liA8E" id="9C_B26vYwQ" role="2OqNvi">
-                  <ref role="37wK5l" to="b8lf:~AbstractMultipleSelection.getSelectedNodes():java.util.List" resolve="getSelectedNodes" />
+                  <ref role="37wK5l" to="b8lf:~AbstractMultipleSelection.getSelectedNodes()" resolve="getSelectedNodes" />
                 </node>
               </node>
               <node concept="2I9FWS" id="9C_B26vZgI" role="10QFUM">
@@ -1425,7 +1425,7 @@
               <node concept="2OqwBi" id="9C_B26xiGb" role="10QFUP">
                 <node concept="71T_Y" id="9C_B26xiGc" role="2Oq$k0" />
                 <node concept="liA8E" id="9C_B26xiGd" role="2OqNvi">
-                  <ref role="37wK5l" to="b8lf:~AbstractMultipleSelection.getSelectedNodes():java.util.List" resolve="getSelectedNodes" />
+                  <ref role="37wK5l" to="b8lf:~AbstractMultipleSelection.getSelectedNodes()" resolve="getSelectedNodes" />
                 </node>
               </node>
               <node concept="2I9FWS" id="9C_B26xiGe" role="10QFUM">

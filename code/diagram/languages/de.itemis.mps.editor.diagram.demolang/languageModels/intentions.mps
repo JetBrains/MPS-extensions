@@ -238,7 +238,7 @@
         </node>
         <node concept="3clFbF" id="5qgNcfDzOgl" role="3cqZAp">
           <node concept="2YIFZM" id="5qgNcfDzOIf" role="3clFbG">
-            <ref role="37wK5l" to="33ny:~Collections.shuffle(java.util.List):void" resolve="shuffle" />
+            <ref role="37wK5l" to="33ny:~Collections.shuffle(java.util.List)" resolve="shuffle" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <node concept="37vLTw" id="5qgNcfDzP5N" role="37wK5m">
               <ref role="3cqZAo" node="5qgNcfDzFvS" resolve="components" />
@@ -281,7 +281,7 @@
         <node concept="3clFbF" id="5qgNcfDzQiB" role="3cqZAp">
           <node concept="2YIFZM" id="5qgNcfDzQiC" role="3clFbG">
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <ref role="37wK5l" to="33ny:~Collections.shuffle(java.util.List):void" resolve="shuffle" />
+            <ref role="37wK5l" to="33ny:~Collections.shuffle(java.util.List)" resolve="shuffle" />
             <node concept="37vLTw" id="5qgNcfDzQiD" role="37wK5m">
               <ref role="3cqZAo" node="5qgNcfDzQiv" resolve="components2" />
             </node>

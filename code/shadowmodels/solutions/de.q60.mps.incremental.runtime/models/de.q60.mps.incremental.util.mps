@@ -205,7 +205,7 @@
                 <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
               </node>
               <node concept="liA8E" id="7vWAzuEE52_" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~ThreadLocal.get():java.lang.Object" resolve="get" />
+                <ref role="37wK5l" to="wyt6:~ThreadLocal.get()" resolve="get" />
               </node>
             </node>
           </node>
@@ -218,7 +218,7 @@
                   <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
                 </node>
                 <node concept="liA8E" id="7vWAzuEE9SD" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object)" resolve="set" />
                   <node concept="37vLTw" id="7vWAzuEE9Wp" role="37wK5m">
                     <ref role="3cqZAo" node="7vWAzuEE48M" resolve="newValue" />
                   </node>
@@ -231,7 +231,7 @@
                   <ref role="3cqZAo" node="7vWAzuEE4eg" resolve="r" />
                 </node>
                 <node concept="liA8E" id="7vWAzuEEae6" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Runnable.run():void" resolve="run" />
+                  <ref role="37wK5l" to="wyt6:~Runnable.run()" resolve="run" />
                 </node>
               </node>
             </node>
@@ -243,7 +243,7 @@
                   <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
                 </node>
                 <node concept="liA8E" id="7vWAzuEE7uR" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object)" resolve="set" />
                   <node concept="37vLTw" id="7vWAzuEE7yy" role="37wK5m">
                     <ref role="3cqZAo" node="7vWAzuEE52y" resolve="previous" />
                   </node>
@@ -283,7 +283,7 @@
                 <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
               </node>
               <node concept="liA8E" id="4_SQzDOcIKq" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~ThreadLocal.get():java.lang.Object" resolve="get" />
+                <ref role="37wK5l" to="wyt6:~ThreadLocal.get()" resolve="get" />
               </node>
             </node>
           </node>
@@ -296,7 +296,7 @@
                   <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
                 </node>
                 <node concept="liA8E" id="4_SQzDOcIKw" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object)" resolve="set" />
                   <node concept="37vLTw" id="4_SQzDOcIKx" role="37wK5m">
                     <ref role="3cqZAo" node="4_SQzDOcIKe" resolve="newValue" />
                   </node>
@@ -319,7 +319,7 @@
                   <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
                 </node>
                 <node concept="liA8E" id="4_SQzDOcIKE" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object)" resolve="set" />
                   <node concept="37vLTw" id="4_SQzDOcIKF" role="37wK5m">
                     <ref role="3cqZAo" node="4_SQzDOcIKm" resolve="previous" />
                   </node>
@@ -363,7 +363,7 @@
                 <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
               </node>
               <node concept="liA8E" id="32qWz0M44Jz" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~ThreadLocal.get():java.lang.Object" resolve="get" />
+                <ref role="37wK5l" to="wyt6:~ThreadLocal.get()" resolve="get" />
               </node>
             </node>
           </node>
@@ -376,7 +376,7 @@
                   <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
                 </node>
                 <node concept="liA8E" id="32qWz0M44JD" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object)" resolve="set" />
                   <node concept="37vLTw" id="32qWz0M44JE" role="37wK5m">
                     <ref role="3cqZAo" node="32qWz0M44Jn" resolve="newValue" />
                   </node>
@@ -399,7 +399,7 @@
                   <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
                 </node>
                 <node concept="liA8E" id="32qWz0M44JN" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="wyt6:~ThreadLocal.set(java.lang.Object)" resolve="set" />
                   <node concept="37vLTw" id="32qWz0M44JO" role="37wK5m">
                     <ref role="3cqZAo" node="32qWz0M44Jv" resolve="previous" />
                   </node>
@@ -432,7 +432,7 @@
                 <ref role="3cqZAo" node="7vWAzuEE1bE" resolve="value" />
               </node>
               <node concept="liA8E" id="32qWz0M5VXP" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~ThreadLocal.get():java.lang.Object" resolve="get" />
+                <ref role="37wK5l" to="wyt6:~ThreadLocal.get()" resolve="get" />
               </node>
             </node>
           </node>

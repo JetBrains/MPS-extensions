@@ -174,10 +174,10 @@
               <node concept="1pGfFk" id="7Pi_Fu5Sqnh" role="2ShVmc">
                 <ref role="37wK5l" to="g51k:~PropertyAccessor.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,boolean,boolean,jetbrains.mps.openapi.editor.EditorContext)" resolve="PropertyAccessor" />
                 <node concept="1rXfSq" id="1rfeXz7xsbT" role="37wK5m">
-                  <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
+                  <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode()" resolve="getSNode" />
                 </node>
                 <node concept="1rXfSq" id="4cRxoxkcxhu" role="37wK5m">
-                  <ref role="37wK5l" to="p9jd:~PropertyCellProvider.getProperty():org.jetbrains.mps.openapi.language.SProperty" resolve="getProperty" />
+                  <ref role="37wK5l" to="p9jd:~PropertyCellProvider.getProperty()" resolve="getProperty" />
                 </node>
                 <node concept="37vLTw" id="1rfeXz7xrXN" role="37wK5m">
                   <ref role="3cqZAo" to="emqf:~CellProviderWithRole.myReadOnly" resolve="myReadOnly" />
@@ -208,7 +208,7 @@
                 <ref role="3cqZAo" node="7Pi_Fu5Sqne" resolve="propertyAccessor" />
               </node>
               <node concept="1rXfSq" id="1rfeXz7xsd6" role="37wK5m">
-                <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
+                <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode()" resolve="getSNode" />
               </node>
             </node>
           </node>

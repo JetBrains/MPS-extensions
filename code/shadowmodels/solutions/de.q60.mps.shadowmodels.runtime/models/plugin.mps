@@ -41,6 +41,7 @@
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
+    <import index="dglc" ref="r:713965c4-2968-4619-9821-2429551acbb4(de.q60.mps.shadowmodels.runtime.concurrentrepo)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -448,6 +449,13 @@
         </node>
       </node>
     </node>
+    <node concept="2BZ0e9" id="1lswC14_m6Y" role="2uRRBG">
+      <property role="TrG5h" value="mirror" />
+      <node concept="3Tm6S6" id="1lswC14_m6Z" role="1B3o_S" />
+      <node concept="3uibUv" id="1lswC14_mH0" role="1tU5fm">
+        <ref role="3uigEE" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
+      </node>
+    </node>
     <node concept="2uRRBI" id="5HQgaiNsNbp" role="2uRRBF">
       <node concept="3clFbS" id="5HQgaiNsNbq" role="2VODD2">
         <node concept="3clFbF" id="3jGmESsMXSg" role="3cqZAp">
@@ -514,6 +522,37 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1lswC14_poO" role="3cqZAp">
+          <node concept="2OqwBi" id="1lswC14_pX0" role="3clFbG">
+            <node concept="2OqwBi" id="1lswC14_poI" role="2Oq$k0">
+              <node concept="2WthIp" id="1lswC14_poL" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1lswC14_poN" role="2OqNvi">
+                <ref role="2WH_rO" node="1lswC14_m6Y" resolve="mirror" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1lswC14_qLf" role="2OqNvi">
+              <ref role="37wK5l" to="dglc:QurUgigC5f" resolve="dispose" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1lswC14_r6T" role="3cqZAp">
+          <node concept="37vLTI" id="1lswC14_rAx" role="3clFbG">
+            <node concept="10Nm6u" id="1lswC14_rHO" role="37vLTx" />
+            <node concept="2OqwBi" id="1lswC14_r6N" role="37vLTJ">
+              <node concept="2WthIp" id="1lswC14_r6Q" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1lswC14_r6S" role="2OqNvi">
+                <ref role="2WH_rO" node="1lswC14_m6Y" resolve="mirror" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1lswC14_l7W" role="3cqZAp">
+          <node concept="2YIFZM" id="1lswC14_oVo" role="3clFbG">
+            <ref role="37wK5l" to="dglc:1lswC14zOOU" resolve="setInstance" />
+            <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
+            <node concept="10Nm6u" id="1lswC14_p3G" role="37wK5m" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2uRRBj" id="7YhLqbpg0rQ" role="2uRRBE">
@@ -556,7 +595,37 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="QurUgiHox4" role="3cqZAp" />
+        <node concept="3clFbF" id="1lswC14_nhr" role="3cqZAp">
+          <node concept="37vLTI" id="1lswC14_nY7" role="3clFbG">
+            <node concept="2OqwBi" id="1lswC14_nhl" role="37vLTJ">
+              <node concept="2WthIp" id="1lswC14_nho" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1lswC14_nhq" role="2OqNvi">
+                <ref role="2WH_rO" node="1lswC14_m6Y" resolve="mirror" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="1lswC14_o9K" role="37vLTx">
+              <node concept="1pGfFk" id="1lswC14_o9L" role="2ShVmc">
+                <ref role="37wK5l" to="dglc:QurUgi6nZ4" resolve="RepositoryMirror" />
+                <node concept="2YIFZM" id="1lswC14_o9M" role="37wK5m">
+                  <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+                  <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1lswC14_0sq" role="3cqZAp">
+          <node concept="2YIFZM" id="1lswC14_0QL" role="3clFbG">
+            <ref role="37wK5l" to="dglc:1lswC14zOOU" resolve="setInstance" />
+            <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
+            <node concept="2OqwBi" id="1lswC14_op3" role="37wK5m">
+              <node concept="2WthIp" id="1lswC14_op6" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1lswC14_op8" role="2OqNvi">
+                <ref role="2WH_rO" node="1lswC14_m6Y" resolve="mirror" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

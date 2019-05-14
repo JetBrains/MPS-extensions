@@ -86,6 +86,7 @@
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
+      <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -2490,6 +2491,90 @@
   <node concept="312cEu" id="QurUgi5J93">
     <property role="TrG5h" value="RepositoryMirror" />
     <node concept="2tJIrI" id="QurUgigKP7" role="jymVt" />
+    <node concept="Wx3nA" id="1lswC14$DQh" role="jymVt">
+      <property role="TrG5h" value="ourInstance" />
+      <node concept="3uibUv" id="1lswC14$AtN" role="1tU5fm">
+        <ref role="3uigEE" node="QurUgi5J93" resolve="RepositoryMirror" />
+      </node>
+      <node concept="3Tm6S6" id="1lswC14$tkp" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="1lswC14$2Uv" role="jymVt" />
+    <node concept="2YIFZL" id="1lswC14yXdj" role="jymVt">
+      <property role="TrG5h" value="getInstance" />
+      <node concept="3clFbS" id="1lswC14ydYw" role="3clF47">
+        <node concept="3cpWs8" id="1lswC14$PAs" role="3cqZAp">
+          <node concept="3cpWsn" id="1lswC14$PAt" role="3cpWs9">
+            <property role="TrG5h" value="instance" />
+            <node concept="3uibUv" id="1lswC14$PAr" role="1tU5fm">
+              <ref role="3uigEE" node="QurUgi5J93" resolve="RepositoryMirror" />
+            </node>
+            <node concept="37vLTw" id="1lswC14$PAu" role="33vP2m">
+              <ref role="3cqZAo" node="1lswC14$DQh" resolve="ourInstance" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1lswC14$OjD" role="3cqZAp">
+          <node concept="3clFbC" id="1lswC14$P7W" role="3clFbw">
+            <node concept="10Nm6u" id="1lswC14$PnK" role="3uHU7w" />
+            <node concept="37vLTw" id="1lswC14$PAv" role="3uHU7B">
+              <ref role="3cqZAo" node="1lswC14$PAt" resolve="instance" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="1lswC14$OjF" role="3clFbx">
+            <node concept="YS8fn" id="1lswC14$SYA" role="3cqZAp">
+              <node concept="2ShNRf" id="1lswC14$SZ_" role="YScLw">
+                <node concept="1pGfFk" id="1lswC14$THf" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="1lswC14$TZq" role="37wK5m">
+                    <property role="Xl_RC" value="Instance not initialised yet" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1lswC14$QYc" role="3cqZAp">
+          <node concept="37vLTw" id="1lswC14$R9n" role="3cqZAk">
+            <ref role="3cqZAo" node="1lswC14$PAt" resolve="instance" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1lswC14yNIB" role="3clF46">
+        <property role="TrG5h" value="repository" />
+        <node concept="3uibUv" id="1lswC14yVVV" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="1lswC14yGej" role="3clF45">
+        <ref role="3uigEE" node="QurUgi5J93" resolve="RepositoryMirror" />
+      </node>
+      <node concept="3Tm1VV" id="1lswC14ydYv" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="1lswC14z5wc" role="jymVt" />
+    <node concept="2YIFZL" id="1lswC14zOOU" role="jymVt">
+      <property role="TrG5h" value="setInstance" />
+      <node concept="37vLTG" id="1lswC14zZHe" role="3clF46">
+        <property role="TrG5h" value="instance" />
+        <node concept="3uibUv" id="1lswC14$0va" role="1tU5fm">
+          <ref role="3uigEE" node="QurUgi5J93" resolve="RepositoryMirror" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1lswC14zevA" role="3clF47">
+        <node concept="3clFbF" id="1lswC14$MBp" role="3cqZAp">
+          <node concept="37vLTI" id="1lswC14$NfB" role="3clFbG">
+            <node concept="37vLTw" id="1lswC14$NDS" role="37vLTx">
+              <ref role="3cqZAo" node="1lswC14zZHe" resolve="instance" />
+            </node>
+            <node concept="37vLTw" id="1lswC14$MBo" role="37vLTJ">
+              <ref role="3cqZAo" node="1lswC14$DQh" resolve="ourInstance" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1lswC14zYob" role="3clF45" />
+      <node concept="3Tm1VV" id="1lswC14zev_" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="1lswC14y62g" role="jymVt" />
     <node concept="312cEg" id="QurUgi6v8M" role="jymVt">
       <property role="TrG5h" value="branch" />
       <node concept="3Tm6S6" id="QurUgi6v8N" role="1B3o_S" />
@@ -5592,12 +5677,11 @@
         </node>
         <node concept="3clFbF" id="QurUgiheQR" role="3cqZAp">
           <node concept="37vLTI" id="QurUgihfNg" role="3clFbG">
-            <node concept="2ShNRf" id="QurUgihg$u" role="37vLTx">
-              <node concept="1pGfFk" id="QurUgihgnX" role="2ShVmc">
-                <ref role="37wK5l" node="QurUgi6nZ4" resolve="RepositoryMirror" />
-                <node concept="37vLTw" id="QurUgihgJJ" role="37wK5m">
-                  <ref role="3cqZAo" node="D$OtjtWtOy" resolve="repository" />
-                </node>
+            <node concept="2YIFZM" id="1lswC14A1gy" role="37vLTx">
+              <ref role="37wK5l" node="1lswC14yXdj" resolve="getInstance" />
+              <ref role="1Pybhc" node="QurUgi5J93" resolve="RepositoryMirror" />
+              <node concept="37vLTw" id="1lswC14A1Ze" role="37wK5m">
+                <ref role="3cqZAo" node="D$OtjtWtOy" resolve="repository" />
               </node>
             </node>
             <node concept="37vLTw" id="QurUgiheQP" role="37vLTJ">
@@ -5877,16 +5961,6 @@
               <node concept="37vLTw" id="3jGmESsNmgV" role="37wK5m">
                 <ref role="3cqZAo" node="3jGmESsNgxn" resolve="invalidationListener" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="QurUgihe08" role="3cqZAp">
-          <node concept="2OqwBi" id="QurUgiheoM" role="3clFbG">
-            <node concept="37vLTw" id="QurUgihe06" role="2Oq$k0">
-              <ref role="3cqZAo" node="QurUgihbxO" resolve="repositoryMirror" />
-            </node>
-            <node concept="liA8E" id="QurUgiheFn" role="2OqNvi">
-              <ref role="37wK5l" node="QurUgigC5f" resolve="dispose" />
             </node>
           </node>
         </node>

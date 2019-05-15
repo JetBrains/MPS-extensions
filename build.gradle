@@ -291,6 +291,19 @@ publishing {
     }
 }
 
+task pipInstall(type: Exec) {
+    inputs.file("requirements.txt")
+    commandLine "pip", "install", "-r", "requirements.txt"
+}
+
+task previewDocs(type: Exec, dependsOn: pipInstall) {
+    commandLine "mkdocs", "serve"
+}
+
+task deployDocs(type: Exec, dependsOn: pipInstall) {
+    commandLine "git", "remote", "add",  "gh-pages", "https://${rootProject.findProperty("system.github.token")}@github.com/JetBrains/MPS-extensions.git"
+    commandLine "mkdocs", "gh-deploy", "--clean", "-r", "gh-pages", "--force"
+}
 
 defaultTasks 'build_languages'
 task test(dependsOn: run_tests)

@@ -1069,6 +1069,18 @@
       <node concept="3cqZAl" id="5lWcBwJELAd" role="3clF45" />
       <node concept="3Tmbuc" id="5lWcBwJF5xx" role="1B3o_S" />
       <node concept="3clFbS" id="5lWcBwJELAf" role="3clF47">
+        <node concept="3clFbJ" id="70DEt$5TFFI" role="3cqZAp">
+          <node concept="3clFbS" id="70DEt$5TFFK" role="3clFbx">
+            <node concept="3cpWs6" id="70DEt$5TLjk" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="70DEt$5TJUB" role="3clFbw">
+            <node concept="2YIFZM" id="70DEt$5TJUD" role="3fr31v">
+              <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
+              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="70DEt$5TLjF" role="3cqZAp" />
         <node concept="3cpWs8" id="5lWcBwJUb$g" role="3cqZAp">
           <node concept="3cpWsn" id="5lWcBwJUb$j" role="3cpWs9">
             <property role="TrG5h" value="newMessages" />

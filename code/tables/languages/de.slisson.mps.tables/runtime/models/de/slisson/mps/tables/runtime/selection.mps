@@ -438,7 +438,7 @@
                   <ref role="3cqZAo" node="1laD9eY9cE6" resolve="cellInfo" />
                 </node>
                 <node concept="liA8E" id="2_D0AvWRGDA" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~CellInfo.findCell(jetbrains.mps.openapi.editor.EditorComponent):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="findCell" />
+                  <ref role="37wK5l" to="f4zo:~CellInfo.findCell(jetbrains.mps.openapi.editor.EditorComponent)" resolve="findCell" />
                   <node concept="10QFUN" id="6tOcB$JAjo7" role="37wK5m">
                     <node concept="37vLTw" id="6tOcB$JAjo5" role="10QFUP">
                       <ref role="3cqZAo" node="1laD9eY9cE0" resolve="editorComponent" />
@@ -475,7 +475,7 @@
         <node concept="3clFbF" id="6Y0V2RJhwAU" role="3cqZAp">
           <node concept="37vLTI" id="6Y0V2RJhwAV" role="3clFbG">
             <node concept="2YIFZM" id="6Y0V2RJhwAW" role="37vLTx">
-              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getIntProperty(java.util.Map,java.lang.String):int" resolve="getIntProperty" />
+              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getIntProperty(java.util.Map,java.lang.String)" resolve="getIntProperty" />
               <ref role="1Pybhc" to="b8lf:~SelectionInfoImpl$Util" resolve="SelectionInfoImpl.Util" />
               <node concept="37vLTw" id="6Y0V2RJhwAX" role="37wK5m">
                 <ref role="3cqZAo" node="1laD9eY9cE2" resolve="properties" />
@@ -492,7 +492,7 @@
         <node concept="3clFbF" id="2_D0AvWRGDD" role="3cqZAp">
           <node concept="37vLTI" id="2_D0AvWRGDZ" role="3clFbG">
             <node concept="2YIFZM" id="2_D0AvWRGE3" role="37vLTx">
-              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getIntProperty(java.util.Map,java.lang.String):int" resolve="getIntProperty" />
+              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getIntProperty(java.util.Map,java.lang.String)" resolve="getIntProperty" />
               <ref role="1Pybhc" to="b8lf:~SelectionInfoImpl$Util" resolve="SelectionInfoImpl.Util" />
               <node concept="37vLTw" id="2_D0AvWRGE4" role="37wK5m">
                 <ref role="3cqZAo" node="1laD9eY9cE2" resolve="properties" />
@@ -509,7 +509,7 @@
         <node concept="3clFbF" id="6Y0V2RJhwPs" role="3cqZAp">
           <node concept="37vLTI" id="6Y0V2RJhwPt" role="3clFbG">
             <node concept="2YIFZM" id="6Y0V2RJhwPu" role="37vLTx">
-              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getIntProperty(java.util.Map,java.lang.String):int" resolve="getIntProperty" />
+              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getIntProperty(java.util.Map,java.lang.String)" resolve="getIntProperty" />
               <ref role="1Pybhc" to="b8lf:~SelectionInfoImpl$Util" resolve="SelectionInfoImpl.Util" />
               <node concept="37vLTw" id="6Y0V2RJhwPv" role="37wK5m">
                 <ref role="3cqZAo" node="1laD9eY9cE2" resolve="properties" />
@@ -526,7 +526,7 @@
         <node concept="3clFbF" id="6Y0V2RJhwHs" role="3cqZAp">
           <node concept="37vLTI" id="6Y0V2RJhwHt" role="3clFbG">
             <node concept="2YIFZM" id="6Y0V2RJhwHu" role="37vLTx">
-              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getIntProperty(java.util.Map,java.lang.String):int" resolve="getIntProperty" />
+              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl$Util.getIntProperty(java.util.Map,java.lang.String)" resolve="getIntProperty" />
               <ref role="1Pybhc" to="b8lf:~SelectionInfoImpl$Util" resolve="SelectionInfoImpl.Util" />
               <node concept="37vLTw" id="6Y0V2RJhwHv" role="37wK5m">
                 <ref role="3cqZAo" node="1laD9eY9cE2" resolve="properties" />
@@ -562,7 +562,7 @@
       <node concept="3clFbS" id="6Y0V2RJhTW6" role="3clF47">
         <node concept="3clFbF" id="6Y0V2RJiJcJ" role="3cqZAp">
           <node concept="1rXfSq" id="6Y0V2RJiJcI" role="3clFbG">
-            <ref role="37wK5l" to="b8lf:~AbstractMultipleSelection.setSelectedCells(java.util.List):void" resolve="setSelectedCells" />
+            <ref role="37wK5l" to="b8lf:~AbstractMultipleSelection.setSelectedCells(java.util.List)" resolve="setSelectedCells" />
             <node concept="1rXfSq" id="6Y0V2RJiJf3" role="37wK5m">
               <ref role="37wK5l" node="6Y0V2RJiAgN" resolve="getSelectedGridCells" />
             </node>
@@ -678,7 +678,7 @@
                 <property role="TrG5h" value="y" />
                 <node concept="10Oyi0" id="6Y0V2RJitUk" role="1tU5fm" />
                 <node concept="2YIFZM" id="6Y0V2RJitUl" role="33vP2m">
-                  <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                  <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="37vLTw" id="6Y0V2RJiuYx" role="37wK5m">
                     <ref role="3cqZAo" node="6Y0V2RJh4bV" resolve="myStartRow" />
@@ -690,7 +690,7 @@
               </node>
               <node concept="2dkUwp" id="6Y0V2RJitUo" role="1Dwp0S">
                 <node concept="2YIFZM" id="6Y0V2RJitUp" role="3uHU7w">
-                  <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                  <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="37vLTw" id="6Y0V2RJiv_d" role="37wK5m">
                     <ref role="3cqZAo" node="6Y0V2RJh4bV" resolve="myStartRow" />
@@ -715,7 +715,7 @@
             <property role="TrG5h" value="x" />
             <node concept="10Oyi0" id="6Y0V2RJisdQ" role="1tU5fm" />
             <node concept="2YIFZM" id="6Y0V2RJiseD" role="33vP2m">
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="37vLTw" id="6Y0V2RJisfa" role="37wK5m">
                 <ref role="3cqZAo" node="6Y0V2RJh5le" resolve="myStartColumn" />
@@ -727,7 +727,7 @@
           </node>
           <node concept="2dkUwp" id="6Y0V2RJit8u" role="1Dwp0S">
             <node concept="2YIFZM" id="6Y0V2RJitcD" role="3uHU7w">
-              <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+              <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="37vLTw" id="6Y0V2RJiteD" role="37wK5m">
                 <ref role="3cqZAo" node="6Y0V2RJh5le" resolve="myStartColumn" />
@@ -783,11 +783,11 @@
                   <node concept="2OqwBi" id="1laD9eY9cqj" role="2Oq$k0">
                     <node concept="Xjq3P" id="1laD9eY9cqk" role="2Oq$k0" />
                     <node concept="liA8E" id="1laD9eY9cql" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                     </node>
                   </node>
                   <node concept="liA8E" id="1laD9eY9cqm" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                   </node>
                 </node>
                 <node concept="37shsh" id="6VQ_L2mqnhF" role="37wK5m">
@@ -806,13 +806,13 @@
               <ref role="3cqZAo" node="1laD9eY9cqe" resolve="selectionInfo" />
             </node>
             <node concept="liA8E" id="1laD9eY9cqt" role="2OqNvi">
-              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.setCellInfo(jetbrains.mps.openapi.editor.cells.CellInfo):void" resolve="setCellInfo" />
+              <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.setCellInfo(jetbrains.mps.openapi.editor.cells.CellInfo)" resolve="setCellInfo" />
               <node concept="2OqwBi" id="2_D0AvWRGCp" role="37wK5m">
                 <node concept="37vLTw" id="6Y0V2RJhCBt" role="2Oq$k0">
                   <ref role="3cqZAo" node="6Y0V2RJgZML" resolve="myTable" />
                 </node>
                 <node concept="liA8E" id="2_D0AvWRGCv" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellInfo():jetbrains.mps.openapi.editor.cells.CellInfo" resolve="getCellInfo" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellInfo()" resolve="getCellInfo" />
                 </node>
               </node>
             </node>
@@ -825,16 +825,16 @@
                 <ref role="3cqZAo" node="1laD9eY9cqe" resolve="selectionInfo" />
               </node>
               <node concept="liA8E" id="6Y0V2RJhDPX" role="2OqNvi">
-                <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.getPropertiesMap():java.util.Map" resolve="getPropertiesMap" />
+                <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.getPropertiesMap()" resolve="getPropertiesMap" />
               </node>
             </node>
             <node concept="liA8E" id="6Y0V2RJhDPY" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="37vLTw" id="6Y0V2RJhGE9" role="37wK5m">
                 <ref role="3cqZAo" node="6Y0V2RJhuee" resolve="PROPERTY_START_COLUMN" />
               </node>
               <node concept="2YIFZM" id="6Y0V2RJhDQ0" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                 <node concept="37vLTw" id="6Y0V2RJhHwJ" role="37wK5m">
                   <ref role="3cqZAo" node="6Y0V2RJh5le" resolve="myStartColumn" />
@@ -850,16 +850,16 @@
                 <ref role="3cqZAo" node="1laD9eY9cqe" resolve="selectionInfo" />
               </node>
               <node concept="liA8E" id="1laD9eY9cqI" role="2OqNvi">
-                <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.getPropertiesMap():java.util.Map" resolve="getPropertiesMap" />
+                <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.getPropertiesMap()" resolve="getPropertiesMap" />
               </node>
             </node>
             <node concept="liA8E" id="1laD9eY9cqJ" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="37vLTw" id="6Y0V2RJhDz7" role="37wK5m">
                 <ref role="3cqZAo" node="6Y0V2RJht08" resolve="PROPERTY_START_ROW" />
               </node>
               <node concept="2YIFZM" id="1laD9eY9cqL" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                 <node concept="37vLTw" id="6Y0V2RJhDFN" role="37wK5m">
                   <ref role="3cqZAo" node="6Y0V2RJh4bV" resolve="myStartRow" />
@@ -875,16 +875,16 @@
                 <ref role="3cqZAo" node="1laD9eY9cqe" resolve="selectionInfo" />
               </node>
               <node concept="liA8E" id="6Y0V2RJhETU" role="2OqNvi">
-                <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.getPropertiesMap():java.util.Map" resolve="getPropertiesMap" />
+                <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.getPropertiesMap()" resolve="getPropertiesMap" />
               </node>
             </node>
             <node concept="liA8E" id="6Y0V2RJhETV" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="37vLTw" id="6Y0V2RJhH2X" role="37wK5m">
                 <ref role="3cqZAo" node="6Y0V2RJhuB6" resolve="PROPERTY_END_COLUMN" />
               </node>
               <node concept="2YIFZM" id="6Y0V2RJhETX" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                 <node concept="37vLTw" id="6Y0V2RJhHUf" role="37wK5m">
                   <ref role="3cqZAo" node="6Y0V2RJh6qa" resolve="myEndColumn" />
@@ -900,16 +900,16 @@
                 <ref role="3cqZAo" node="1laD9eY9cqe" resolve="selectionInfo" />
               </node>
               <node concept="liA8E" id="6Y0V2RJhEm7" role="2OqNvi">
-                <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.getPropertiesMap():java.util.Map" resolve="getPropertiesMap" />
+                <ref role="37wK5l" to="b8lf:~SelectionInfoImpl.getPropertiesMap()" resolve="getPropertiesMap" />
               </node>
             </node>
             <node concept="liA8E" id="6Y0V2RJhEm8" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object)" resolve="put" />
               <node concept="37vLTw" id="6Y0V2RJhGRO" role="37wK5m">
                 <ref role="3cqZAo" node="6Y0V2RJhuqS" resolve="PROPERTY_END_ROW" />
               </node>
               <node concept="2YIFZM" id="6Y0V2RJhEma" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                 <node concept="37vLTw" id="6Y0V2RJhHHv" role="37wK5m">
                   <ref role="3cqZAo" node="6Y0V2RJh6qd" resolve="myEndRow" />
@@ -976,7 +976,7 @@
               <node concept="2OqwBi" id="6Y0V2RJido5" role="3uHU7B">
                 <node concept="Xjq3P" id="6Y0V2RJido6" role="2Oq$k0" />
                 <node concept="liA8E" id="6Y0V2RJido7" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
               <node concept="2OqwBi" id="6Y0V2RJido8" role="3uHU7w">
@@ -984,7 +984,7 @@
                   <ref role="3cqZAo" node="6Y0V2RJgQd$" resolve="other" />
                 </node>
                 <node concept="liA8E" id="6Y0V2RJidoa" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -1107,7 +1107,7 @@
             <node concept="3fqX7Q" id="6Y0V2RJidoV" role="3K4E3e">
               <node concept="2OqwBi" id="6Y0V2RJidoW" role="3fr31v">
                 <node concept="liA8E" id="6Y0V2RJidoX" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object)" resolve="equals" />
                   <node concept="2OqwBi" id="6Y0V2RJidoY" role="37wK5m">
                     <node concept="37vLTw" id="6Y0V2RJidoZ" role="2Oq$k0">
                       <ref role="3cqZAo" node="6Y0V2RJidod" resolve="that" />

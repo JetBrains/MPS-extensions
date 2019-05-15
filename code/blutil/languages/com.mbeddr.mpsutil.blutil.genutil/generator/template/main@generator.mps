@@ -105,7 +105,7 @@
                     <ref role="3cqZAo" node="7NuG4bMBzer" resolve="_context" />
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzey" role="2OqNvi">
-                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getInputNode():org.jetbrains.mps.openapi.model.SNode" resolve="getInputNode" />
+                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getInputNode()" resolve="getInputNode" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="1VujIMZCdc" role="37wK5m">
@@ -116,7 +116,7 @@
                     <ref role="3cqZAo" node="7NuG4bMBzer" resolve="_context" />
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzeB" role="2OqNvi">
-                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getTemplateReference" />
+                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference()" resolve="getTemplateReference" />
                   </node>
                 </node>
                 <node concept="raruj" id="7NuG4bMBzeD" role="lGtFl" />
@@ -150,7 +150,7 @@
                     <ref role="3cqZAo" node="7NuG4bMBzeJ" resolve="_context" />
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzeQ" role="2OqNvi">
-                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getInputNode():org.jetbrains.mps.openapi.model.SNode" resolve="getInputNode" />
+                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getInputNode()" resolve="getInputNode" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="1VujIMZCad" role="37wK5m">
@@ -161,7 +161,7 @@
                     <ref role="3cqZAo" node="7NuG4bMBzeJ" resolve="_context" />
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzeV" role="2OqNvi">
-                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getTemplateReference" />
+                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference()" resolve="getTemplateReference" />
                   </node>
                 </node>
                 <node concept="raruj" id="7NuG4bMBzeX" role="lGtFl" />
@@ -195,7 +195,7 @@
                     <ref role="3cqZAo" node="7NuG4bMBzf3" resolve="_context" />
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzfa" role="2OqNvi">
-                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getInputNode():org.jetbrains.mps.openapi.model.SNode" resolve="getInputNode" />
+                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getInputNode()" resolve="getInputNode" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="1VujIMZokf" role="37wK5m">
@@ -206,7 +206,7 @@
                     <ref role="3cqZAo" node="7NuG4bMBzf3" resolve="_context" />
                   </node>
                   <node concept="liA8E" id="7NuG4bMBzff" role="2OqNvi">
-                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getTemplateReference" />
+                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getTemplateReference()" resolve="getTemplateReference" />
                   </node>
                 </node>
                 <node concept="raruj" id="7NuG4bMBzfh" role="lGtFl" />
@@ -240,7 +240,7 @@
                     <ref role="3cqZAo" node="3HJIVevQfNJ" resolve="_context" />
                   </node>
                   <node concept="liA8E" id="3HJIVevQgg2" role="2OqNvi">
-                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getOutputModel():org.jetbrains.mps.openapi.model.SModel" resolve="getOutputModel" />
+                    <ref role="37wK5l" to="q1l7:~TemplateQueryContext.getOutputModel()" resolve="getOutputModel" />
                   </node>
                 </node>
                 <node concept="raruj" id="3HJIVevQfW6" role="lGtFl" />

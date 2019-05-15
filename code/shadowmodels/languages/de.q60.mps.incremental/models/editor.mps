@@ -402,7 +402,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="VwH9CcW5MV" role="2OqNvi">
-                        <ref role="37wK5l" to="g51k:~EditorCell_Label.setDefaultText(java.lang.String):void" resolve="setDefaultText" />
+                        <ref role="37wK5l" to="g51k:~EditorCell_Label.setDefaultText(java.lang.String)" resolve="setDefaultText" />
                         <node concept="37vLTw" id="VwH9CcW5MW" role="37wK5m">
                           <ref role="3cqZAo" node="VwH9CcW5Mz" resolve="text" />
                         </node>
@@ -685,7 +685,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="7qGGLAkSik6" role="2OqNvi">
-                        <ref role="37wK5l" to="g51k:~EditorCell_Label.setDefaultText(java.lang.String):void" resolve="setDefaultText" />
+                        <ref role="37wK5l" to="g51k:~EditorCell_Label.setDefaultText(java.lang.String)" resolve="setDefaultText" />
                         <node concept="37vLTw" id="7qGGLAkSik7" role="37wK5m">
                           <ref role="3cqZAo" node="7qGGLAkSijI" resolve="text" />
                         </node>

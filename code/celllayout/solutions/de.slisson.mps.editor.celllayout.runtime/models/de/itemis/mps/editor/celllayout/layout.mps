@@ -5627,7 +5627,7 @@
               <node concept="37vLTI" id="7ndnMNt8GQc" role="3clFbG">
                 <node concept="2YIFZM" id="7ndnMNt8GSq" role="37vLTx">
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                  <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                  <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                   <node concept="37vLTw" id="7ndnMNt8GT1" role="37wK5m">
                     <ref role="3cqZAo" node="7ndnMNt8GHN" resolve="minWidth" />
                   </node>
@@ -5864,7 +5864,7 @@
                       <ref role="3cqZAo" node="5TZkGzvhdmg" resolve="rowText" />
                     </node>
                     <node concept="liA8E" id="5TZkGzvhoCz" role="2OqNvi">
-                      <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean):jetbrains.mps.openapi.editor.TextBuilder" resolve="appendToTheRight" />
+                      <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean)" resolve="appendToTheRight" />
                       <node concept="1rXfSq" id="6N6zH_hZfYi" role="37wK5m">
                         <ref role="37wK5l" node="6N6zH_hZ2A8" resolve="gridElementToText" />
                         <node concept="2OqwBi" id="5TZkGzvhp02" role="37wK5m">
@@ -6011,7 +6011,7 @@
                       <ref role="3cqZAo" node="5TZkGzvhdmg" resolve="rowText" />
                     </node>
                     <node concept="liA8E" id="5TZkGzvhkrj" role="2OqNvi">
-                      <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean):jetbrains.mps.openapi.editor.TextBuilder" resolve="appendToTheRight" />
+                      <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean)" resolve="appendToTheRight" />
                       <node concept="1rXfSq" id="6N6zH_hZg_C" role="37wK5m">
                         <ref role="37wK5l" node="6N6zH_hZ2A8" resolve="gridElementToText" />
                         <node concept="37vLTw" id="6N6zH_hZgQK" role="37wK5m">
@@ -6063,7 +6063,7 @@
                   <ref role="3cqZAo" node="5TZkGzvidQV" resolve="text" />
                 </node>
                 <node concept="liA8E" id="5TZkGzvijCc" role="2OqNvi">
-                  <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheBottom(jetbrains.mps.openapi.editor.TextBuilder):jetbrains.mps.openapi.editor.TextBuilder" resolve="appendToTheBottom" />
+                  <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheBottom(jetbrains.mps.openapi.editor.TextBuilder)" resolve="appendToTheBottom" />
                   <node concept="37vLTw" id="5TZkGzvijFC" role="37wK5m">
                     <ref role="3cqZAo" node="5TZkGzvhdmg" resolve="rowText" />
                   </node>
@@ -6293,7 +6293,7 @@
             <node concept="3clFbF" id="6CbEPf1ZJvn" role="3cqZAp">
               <node concept="37vLTI" id="6CbEPf1ZJvo" role="3clFbG">
                 <node concept="2YIFZM" id="6CbEPf1ZJvp" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                  <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="37vLTw" id="6CbEPf1ZJvq" role="37wK5m">
                     <ref role="3cqZAo" node="6CbEPf1ZJuW" resolve="minX" />
@@ -6315,7 +6315,7 @@
             <node concept="3clFbF" id="6CbEPf1ZJvv" role="3cqZAp">
               <node concept="37vLTI" id="6CbEPf1ZJvw" role="3clFbG">
                 <node concept="2YIFZM" id="6CbEPf1ZJvx" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                  <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="37vLTw" id="6CbEPf1ZJvy" role="37wK5m">
                     <ref role="3cqZAo" node="6CbEPf1ZJv2" resolve="maxX" />
@@ -6337,7 +6337,7 @@
             <node concept="3clFbF" id="6CbEPf1ZJvB" role="3cqZAp">
               <node concept="37vLTI" id="6CbEPf1ZJvC" role="3clFbG">
                 <node concept="2YIFZM" id="6CbEPf1ZJvD" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                  <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="37vLTw" id="6CbEPf1ZJvE" role="37wK5m">
                     <ref role="3cqZAo" node="6CbEPf1ZJv8" resolve="minY" />
@@ -6359,7 +6359,7 @@
             <node concept="3clFbF" id="6CbEPf1ZJvJ" role="3cqZAp">
               <node concept="37vLTI" id="6CbEPf1ZJvK" role="3clFbG">
                 <node concept="2YIFZM" id="6CbEPf1ZJvL" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                  <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="37vLTw" id="6CbEPf1ZJvM" role="37wK5m">
                     <ref role="3cqZAo" node="6CbEPf1ZJve" resolve="maxY" />
@@ -7311,7 +7311,7 @@
                   <node concept="3clFbS" id="3UHDYDErCaX" role="1bW5cS">
                     <node concept="3clFbF" id="3UHDYDErCaY" role="3cqZAp">
                       <node concept="2YIFZM" id="3UHDYDErCaZ" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                        <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                         <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                         <node concept="37vLTw" id="3UHDYDErCb0" role="37wK5m">
                           <ref role="3cqZAo" node="3UHDYDErCb2" resolve="s" />
@@ -7850,7 +7850,7 @@
             <node concept="10Oyi0" id="3uJMZ8xCsJv" role="1tU5fm" />
             <node concept="2YIFZM" id="3uJMZ8xBlcQ" role="33vP2m">
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <node concept="37vLTw" id="3uJMZ8xBpCs" role="37wK5m">
                 <ref role="3cqZAo" node="3uJMZ8xAuer" resolve="parentMaxWidth" />
               </node>
@@ -8152,7 +8152,7 @@
         <node concept="3clFbF" id="5fv6XwgKBbk" role="3cqZAp">
           <node concept="3clFbC" id="5fv6XwgKBj_" role="3clFbG">
             <node concept="1rXfSq" id="5fv6XwgKBsS" role="3uHU7w">
-              <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+              <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
             </node>
             <node concept="2OqwBi" id="5fv6XwgKA_4" role="3uHU7B">
               <node concept="2OqwBi" id="3Osd_ywWfVW" role="2Oq$k0">
@@ -8171,7 +8171,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5fv6XwgKAHF" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
               </node>
             </node>
           </node>
@@ -8734,7 +8734,7 @@
             <node concept="3clFbF" id="3uJMZ8xE5hw" role="3cqZAp">
               <node concept="37vLTI" id="3uJMZ8xE6bb" role="3clFbG">
                 <node concept="2YIFZM" id="3uJMZ8xE6zp" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                  <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="37vLTw" id="3uJMZ8xE6C9" role="37wK5m">
                     <ref role="3cqZAo" node="7ndnMNt7O3D" resolve="widthLimit" />
@@ -9305,7 +9305,7 @@
             <property role="TrG5h" value="difference" />
             <node concept="10Oyi0" id="6SW4un74fAW" role="1tU5fm" />
             <node concept="2YIFZM" id="6SW4un74fAX" role="33vP2m">
-              <ref role="37wK5l" to="wyt6:~Math.abs(int):int" resolve="abs" />
+              <ref role="37wK5l" to="wyt6:~Math.abs(int)" resolve="abs" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="3cpWsd" id="6SW4un74fAY" role="37wK5m">
                 <node concept="2OqwBi" id="6SW4un74fAZ" role="3uHU7B">
@@ -9334,7 +9334,7 @@
             <node concept="10Oyi0" id="6SW4un74fB7" role="1tU5fm" />
             <node concept="10QFUN" id="6SW4un74fB8" role="33vP2m">
               <node concept="2YIFZM" id="6SW4un74fB9" role="10QFUP">
-                <ref role="37wK5l" to="wyt6:~Math.round(double):long" resolve="round" />
+                <ref role="37wK5l" to="wyt6:~Math.round(double)" resolve="round" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 <node concept="17qRlL" id="6SW4un74fBa" role="37wK5m">
                   <node concept="3cmrfG" id="6SW4un74fBb" role="3uHU7w">
@@ -9342,7 +9342,7 @@
                   </node>
                   <node concept="2YIFZM" id="6SW4un74fBc" role="3uHU7B">
                     <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                    <ref role="37wK5l" to="wyt6:~Math.log(double):double" resolve="log" />
+                    <ref role="37wK5l" to="wyt6:~Math.log(double)" resolve="log" />
                     <node concept="3cpWs3" id="6SW4un74fBd" role="37wK5m">
                       <node concept="3cmrfG" id="6SW4un74fBe" role="3uHU7w">
                         <property role="3cmrfH" value="1" />
@@ -9809,7 +9809,7 @@
                     <node concept="3clFbS" id="1XCA2wmrLtB" role="1bW5cS">
                       <node concept="3clFbF" id="1XCA2wmrLtC" role="3cqZAp">
                         <node concept="2YIFZM" id="1XCA2wmrLtD" role="3clFbG">
-                          <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                          <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                           <node concept="37vLTw" id="1XCA2wms1SD" role="37wK5m">
                             <ref role="3cqZAo" node="1XCA2wmrLtI" resolve="s" />
@@ -10303,7 +10303,7 @@
                       <ref role="3cqZAo" node="5TZkGzvlf3J" resolve="resultLine" />
                     </node>
                     <node concept="liA8E" id="5TZkGzvlfZa" role="2OqNvi">
-                      <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean):jetbrains.mps.openapi.editor.TextBuilder" resolve="appendToTheRight" />
+                      <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean)" resolve="appendToTheRight" />
                       <node concept="2OqwBi" id="5TZkGzvliqv" role="37wK5m">
                         <node concept="2OqwBi" id="5TZkGzvlgut" role="2Oq$k0">
                           <node concept="2GrUjf" id="5TZkGzvlglY" role="2Oq$k0">
@@ -10341,7 +10341,7 @@
                   <ref role="3cqZAo" node="5TZkGzvjFAZ" resolve="resultText" />
                 </node>
                 <node concept="liA8E" id="5TZkGzvl$1k" role="2OqNvi">
-                  <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheBottom(jetbrains.mps.openapi.editor.TextBuilder):jetbrains.mps.openapi.editor.TextBuilder" resolve="appendToTheBottom" />
+                  <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheBottom(jetbrains.mps.openapi.editor.TextBuilder)" resolve="appendToTheBottom" />
                   <node concept="37vLTw" id="5TZkGzvl$83" role="37wK5m">
                     <ref role="3cqZAo" node="5TZkGzvlf3J" resolve="resultLine" />
                   </node>
@@ -10810,7 +10810,7 @@
                   <node concept="3clFbS" id="40e1npH$O0_" role="1bW5cS">
                     <node concept="3clFbF" id="40e1npH$O0A" role="3cqZAp">
                       <node concept="2YIFZM" id="40e1npH$O0B" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                        <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                         <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                         <node concept="37vLTw" id="6SVXTgI0Miy" role="37wK5m">
                           <ref role="3cqZAo" node="40e1npH$O0E" resolve="s" />
@@ -10876,7 +10876,7 @@
                   <node concept="3clFbS" id="40e1npH$N0L" role="1bW5cS">
                     <node concept="3clFbF" id="40e1npH$N0M" role="3cqZAp">
                       <node concept="2YIFZM" id="40e1npH$N0N" role="3clFbG">
-                        <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                        <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                         <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                         <node concept="37vLTw" id="6SVXTgI0Nws" role="37wK5m">
                           <ref role="3cqZAo" node="40e1npH$N0Q" resolve="s" />
@@ -12552,7 +12552,7 @@
                       <ref role="37wK5l" node="6IJAP0oSycr" resolve="getRowIndex" />
                     </node>
                     <node concept="2YIFZM" id="4BfDHEqFLn" role="37wK5m">
-                      <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                      <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                       <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                       <node concept="2OqwBi" id="4BfDHEqFNW" role="37wK5m">
                         <node concept="37vLTw" id="4BfDHEqFMv" role="2Oq$k0">
@@ -13586,14 +13586,14 @@
             <node concept="10Oyi0" id="3nEEzTHOIZQ" role="1tU5fm" />
             <node concept="2YIFZM" id="3nEEzTHOJ07" role="33vP2m">
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <node concept="10M0yZ" id="3nEEzTHOJ08" role="37wK5m">
                 <ref role="3cqZAo" to="rtot:JPngvNsfcW" resolve="UNLIMITED" />
                 <ref role="1PxDUh" to="rtot:ZjQ6tpoDFn" resolve="Size" />
               </node>
               <node concept="2YIFZM" id="3nEEzTHOJ09" role="37wK5m">
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <node concept="AH0OO" id="3nEEzTHOJ0a" role="37wK5m">
                   <node concept="37vLTw" id="3nEEzTHOJ0b" role="AHEQo">
                     <ref role="3cqZAo" node="40e1npHtBpo" resolve="column" />
@@ -13718,14 +13718,14 @@
             <property role="TrG5h" value="newAscent" />
             <node concept="10Oyi0" id="3nEEzTHOJHH" role="1tU5fm" />
             <node concept="2YIFZM" id="3nEEzTHOJHN" role="33vP2m">
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="10M0yZ" id="3nEEzTHOJHO" role="37wK5m">
                 <ref role="1PxDUh" to="rtot:ZjQ6tpoDFn" resolve="Size" />
                 <ref role="3cqZAo" to="rtot:JPngvNsfcW" resolve="UNLIMITED" />
               </node>
               <node concept="2YIFZM" id="3nEEzTHOJHP" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 <node concept="AH0OO" id="3nEEzTHOJHQ" role="37wK5m">
                   <node concept="37vLTw" id="3nEEzTHOJHR" role="AHEQo">
@@ -13747,14 +13747,14 @@
             <property role="TrG5h" value="newDescent" />
             <node concept="10Oyi0" id="3nEEzTHOJZ5" role="1tU5fm" />
             <node concept="2YIFZM" id="3nEEzTHOJZl" role="33vP2m">
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="10M0yZ" id="3nEEzTHOJZm" role="37wK5m">
                 <ref role="1PxDUh" to="rtot:ZjQ6tpoDFn" resolve="Size" />
                 <ref role="3cqZAo" to="rtot:JPngvNsfcW" resolve="UNLIMITED" />
               </node>
               <node concept="2YIFZM" id="3nEEzTHOJZn" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                 <node concept="AH0OO" id="3nEEzTHOJZo" role="37wK5m">
                   <node concept="37vLTw" id="3nEEzTHOJZp" role="AHEQo">
@@ -14143,7 +14143,7 @@
                   </node>
                 </node>
                 <node concept="2YIFZM" id="7ndnMNt9kc5" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~Math.round(float):int" resolve="round" />
+                  <ref role="37wK5l" to="wyt6:~Math.round(float)" resolve="round" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="17qRlL" id="7ndnMNt9kc6" role="37wK5m">
                     <node concept="37vLTw" id="6SVXTgI4$Ml" role="3uHU7B">
@@ -14633,7 +14633,7 @@
                   </node>
                 </node>
                 <node concept="2YIFZM" id="7lS0O50cc_S" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~Math.round(float):int" resolve="round" />
+                  <ref role="37wK5l" to="wyt6:~Math.round(float)" resolve="round" />
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                   <node concept="17qRlL" id="7lS0O50cc_T" role="37wK5m">
                     <node concept="1eOMI4" id="7lS0O50cc_U" role="3uHU7w">
@@ -14685,7 +14685,7 @@
                 </node>
                 <node concept="2YIFZM" id="7lS0O50ccHU" role="37vLTx">
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                  <ref role="37wK5l" to="wyt6:~Math.round(float):int" resolve="round" />
+                  <ref role="37wK5l" to="wyt6:~Math.round(float)" resolve="round" />
                   <node concept="17qRlL" id="7lS0O50ccHV" role="37wK5m">
                     <node concept="1eOMI4" id="7lS0O50ccHW" role="3uHU7w">
                       <node concept="FJ1c_" id="7lS0O50ccHX" role="1eOMHV">
@@ -15482,7 +15482,7 @@
                   <node concept="37vLTI" id="2hEgJWEzU0a" role="3clFbG">
                     <node concept="2YIFZM" id="2hEgJWEzU0b" role="37vLTx">
                       <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                      <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                      <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                       <node concept="37vLTw" id="2hEgJWEzU0c" role="37wK5m">
                         <ref role="3cqZAo" node="3nEEzTHOGcK" resolve="pos" />
                       </node>
@@ -15657,7 +15657,7 @@
                 <node concept="3clFbF" id="2hEgJWEzTvo" role="3cqZAp">
                   <node concept="37vLTI" id="2hEgJWEzTDL" role="3clFbG">
                     <node concept="2YIFZM" id="2hEgJWEzTHn" role="37vLTx">
-                      <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                      <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                       <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                       <node concept="37vLTw" id="2hEgJWEzTHS" role="37wK5m">
                         <ref role="3cqZAo" node="4dksFc0vJ7d" resolve="pos" />
@@ -17445,7 +17445,7 @@
                     <node concept="liA8E" id="UMPeQjndiU" role="2OqNvi">
                       <ref role="37wK5l" node="4BfDHEq63o" resolve="setColumnSpan" />
                       <node concept="2YIFZM" id="5bmYXgoCRE_" role="37wK5m">
-                        <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                        <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                         <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                         <node concept="3cmrfG" id="5bmYXgoCRFj" role="37wK5m">
                           <property role="3cmrfH" value="1" />
@@ -17468,7 +17468,7 @@
                     <node concept="liA8E" id="UMPeQjneFq" role="2OqNvi">
                       <ref role="37wK5l" node="4BfDHEq63C" resolve="setRowSpan" />
                       <node concept="2YIFZM" id="5bmYXgoCRKv" role="37wK5m">
-                        <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                        <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                         <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                         <node concept="3cmrfG" id="5bmYXgoCRLd" role="37wK5m">
                           <property role="3cmrfH" value="1" />
@@ -18116,7 +18116,7 @@
                           <property role="3cmrfH" value="1" />
                         </node>
                         <node concept="2YIFZM" id="5bmYXgoCTbL" role="3uHU7B">
-                          <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                          <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                           <node concept="3cmrfG" id="5bmYXgoCToM" role="37wK5m">
                             <property role="3cmrfH" value="1" />
@@ -18164,7 +18164,7 @@
                           <property role="3cmrfH" value="1" />
                         </node>
                         <node concept="2YIFZM" id="5bmYXgoCUNN" role="3uHU7B">
-                          <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+                          <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
                           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                           <node concept="3cmrfG" id="5bmYXgoCV13" role="37wK5m">
                             <property role="3cmrfH" value="1" />
@@ -19559,7 +19559,7 @@
                   <ref role="3cqZAo" node="5TZkGzvfYf7" resolve="text" />
                 </node>
                 <node concept="liA8E" id="5TZkGzvfZ42" role="2OqNvi">
-                  <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean):jetbrains.mps.openapi.editor.TextBuilder" resolve="appendToTheRight" />
+                  <ref role="37wK5l" to="hhnx:~TextBuilderImpl.appendToTheRight(jetbrains.mps.openapi.editor.TextBuilder,boolean)" resolve="appendToTheRight" />
                   <node concept="2OqwBi" id="5TZkGzvfZSW" role="37wK5m">
                     <node concept="2GrUjf" id="5TZkGzvfZQS" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="5TZkGzvfZbP" resolve="child" />
@@ -20837,7 +20837,7 @@
             <ref role="37wK5l" node="7C0FR5ANIv9" resolve="setSize" />
             <node concept="2YIFZM" id="7C0FR5ANIuY" role="37wK5m">
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-              <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+              <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
               <node concept="37vLTw" id="7C0FR5ANIuZ" role="37wK5m">
                 <ref role="3cqZAo" node="7C0FR5ANIv4" resolve="minSizeX" />
               </node>
@@ -20846,7 +20846,7 @@
               </node>
             </node>
             <node concept="2YIFZM" id="7C0FR5ANIv1" role="37wK5m">
-              <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+              <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="37vLTw" id="7C0FR5ANIv2" role="37wK5m">
                 <ref role="3cqZAo" node="7C0FR5ANIv6" resolve="minSizeY" />
@@ -21140,7 +21140,7 @@
                 </node>
                 <node concept="2YIFZM" id="3nEEzTHNHKJ" role="3uHU7w">
                   <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                  <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                  <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                   <node concept="37vLTw" id="3nEEzTHNHPu" role="37wK5m">
                     <ref role="3cqZAo" node="3nEEzTHNqlv" resolve="myInternalSizeX" />
                   </node>
@@ -21165,7 +21165,7 @@
           </node>
           <node concept="3eOVzh" id="3nEEzTHN$Ep" role="1Dwp0S">
             <node concept="2YIFZM" id="3nEEzTHNHyR" role="3uHU7w">
-              <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="37vLTw" id="3nEEzTHNHBn" role="37wK5m">
                 <ref role="3cqZAo" node="3nEEzTHNr14" resolve="myInternalSizeY" />

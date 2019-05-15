@@ -2399,7 +2399,7 @@
                       </node>
                     </node>
                     <node concept="2YIFZM" id="hLFMn43" role="3clFbw">
-                      <ref role="37wK5l" to="ggp6:~MatchingUtil.matchNodes(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode):boolean" resolve="matchNodes" />
+                      <ref role="37wK5l" to="ggp6:~MatchingUtil.matchNodes(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="matchNodes" />
                       <ref role="1Pybhc" to="ggp6:~MatchingUtil" resolve="MatchingUtil" />
                       <node concept="37vLTw" id="3GM_nagTrhX" role="37wK5m">
                         <ref role="3cqZAo" node="hLFMn47" resolve="one" />
@@ -2514,7 +2514,7 @@
                     </node>
                     <node concept="2YIFZM" id="25sdewUNSvN" role="3clFbw">
                       <ref role="1Pybhc" to="ggp6:~MatchingUtil" resolve="MatchingUtil" />
-                      <ref role="37wK5l" to="ggp6:~MatchingUtil.matchNodes(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode):boolean" resolve="matchNodes" />
+                      <ref role="37wK5l" to="ggp6:~MatchingUtil.matchNodes(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="matchNodes" />
                       <node concept="37vLTw" id="3GM_nagTxiF" role="37wK5m">
                         <ref role="3cqZAo" node="25sdewUNSuP" resolve="caught" />
                       </node>

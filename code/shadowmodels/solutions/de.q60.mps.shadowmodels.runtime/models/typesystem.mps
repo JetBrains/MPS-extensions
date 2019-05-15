@@ -198,7 +198,7 @@
               <ref role="3uigEE" to="u78q:~TypeChecker" resolve="TypeChecker" />
             </node>
             <node concept="2YIFZM" id="7c10t$7eiwK" role="33vP2m">
-              <ref role="37wK5l" to="u78q:~TypeChecker.getInstance():jetbrains.mps.typesystem.inference.TypeChecker" resolve="getInstance" />
+              <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
               <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
             </node>
           </node>
@@ -224,7 +224,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="7c10t$7ejOC" role="2OqNvi">
-                      <ref role="37wK5l" to="evo:~SimpleTypecheckingContext.getTypeOf_generationMode(org.jetbrains.mps.openapi.model.SNode):org.jetbrains.mps.openapi.model.SNode" resolve="getTypeOf_generationMode" />
+                      <ref role="37wK5l" to="evo:~SimpleTypecheckingContext.getTypeOf_generationMode(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf_generationMode" />
                       <node concept="2YIFZM" id="6DdMXMem_wQ" role="37wK5m">
                         <ref role="37wK5l" to="l6bp:75046mlPk8L" resolve="wrap" />
                         <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
@@ -239,7 +239,7 @@
             </node>
           </node>
           <node concept="2YIFZM" id="6DdMXMen0SJ" role="ukAjM">
-            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
             <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
           </node>
         </node>

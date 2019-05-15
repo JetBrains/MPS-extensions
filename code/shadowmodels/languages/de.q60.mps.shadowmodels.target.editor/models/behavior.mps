@@ -270,7 +270,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="2FosA_pFUus" role="2OqNvi">
-                    <ref role="37wK5l" to="kcid:~CellLayout_Vertical.setGridLayout(boolean):void" resolve="setGridLayout" />
+                    <ref role="37wK5l" to="kcid:~CellLayout_Vertical.setGridLayout(boolean)" resolve="setGridLayout" />
                     <node concept="3clFbT" id="2FosA_pFU$9" role="37wK5m">
                       <property role="3clFbU" value="true" />
                     </node>
@@ -339,7 +339,7 @@
                   <ref role="3cqZAo" node="2VTIUrjmDOy" resolve="result" />
                 </node>
                 <node concept="liA8E" id="3CYlK6yhK2L" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.addEditorCell(jetbrains.mps.openapi.editor.cells.EditorCell):void" resolve="addEditorCell" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.addEditorCell(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="addEditorCell" />
                   <node concept="2OqwBi" id="3CYlK6yhKhl" role="37wK5m">
                     <node concept="2GrUjf" id="3CYlK6yhKbs" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="3CYlK6yhG_l" resolve="child" />
@@ -365,11 +365,11 @@
                     <ref role="3cqZAo" node="2VTIUrjmDOy" resolve="result" />
                   </node>
                   <node concept="liA8E" id="2FosA_pGBS0" role="2OqNvi">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle()" resolve="getStyle" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2FosA_pGJm1" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                   <node concept="10M0yZ" id="2FosA_pGJBk" role="37wK5m">
                     <ref role="3cqZAo" to="5ueo:~StyleAttributes.DRAW_BORDER" resolve="DRAW_BORDER" />
                     <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
@@ -446,7 +446,7 @@
               <ref role="3cqZAo" node="739BlCoVLTy" resolve="cell" />
             </node>
             <node concept="liA8E" id="739BlCoVWpI" role="2OqNvi">
-              <ref role="37wK5l" to="g51k:~EditorCell_Label.setDefaultText(java.lang.String):void" resolve="setDefaultText" />
+              <ref role="37wK5l" to="g51k:~EditorCell_Label.setDefaultText(java.lang.String)" resolve="setDefaultText" />
               <node concept="2OqwBi" id="739BlCoVWK6" role="37wK5m">
                 <node concept="13iPFW" id="739BlCoVWu$" role="2Oq$k0" />
                 <node concept="3TrcHB" id="739BlCoVXqV" role="2OqNvi">
@@ -465,11 +465,11 @@
                     <ref role="3cqZAo" node="739BlCoVLTy" resolve="cell" />
                   </node>
                   <node concept="liA8E" id="2FosA_pGKbt" role="2OqNvi">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle()" resolve="getStyle" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2FosA_pGKbu" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                   <node concept="10M0yZ" id="2FosA_pGKbv" role="37wK5m">
                     <ref role="3cqZAo" to="5ueo:~StyleAttributes.DRAW_BORDER" resolve="DRAW_BORDER" />
                     <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
@@ -549,11 +549,11 @@
                     <ref role="3cqZAo" node="2FosA_pGMnu" resolve="result" />
                   </node>
                   <node concept="liA8E" id="2FosA_pGME4" role="2OqNvi">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle()" resolve="getStyle" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2FosA_pGME5" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                   <node concept="10M0yZ" id="2FosA_pGME6" role="37wK5m">
                     <ref role="3cqZAo" to="5ueo:~StyleAttributes.DRAW_BORDER" resolve="DRAW_BORDER" />
                     <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
@@ -649,19 +649,19 @@
                       <ref role="3cqZAo" node="2VTIUrjmmQH" resolve="editorContext" />
                     </node>
                     <node concept="liA8E" id="2FosA_pGNdF" role="2OqNvi">
-                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2FosA_pGNdG" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater():jetbrains.mps.openapi.editor.update.Updater" resolve="getUpdater" />
+                    <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater()" resolve="getUpdater" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2FosA_pGNdH" role="2OqNvi">
-                  <ref role="37wK5l" to="22ra:~Updater.getCurrentUpdateSession():jetbrains.mps.openapi.editor.update.UpdateSession" resolve="getCurrentUpdateSession" />
+                  <ref role="37wK5l" to="22ra:~Updater.getCurrentUpdateSession()" resolve="getCurrentUpdateSession" />
                 </node>
               </node>
               <node concept="liA8E" id="2FosA_pGNdI" role="2OqNvi">
-                <ref role="37wK5l" to="22ra:~UpdateSession.updateChildNodeCell(org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="updateChildNodeCell" />
+                <ref role="37wK5l" to="22ra:~UpdateSession.updateChildNodeCell(org.jetbrains.mps.openapi.model.SNode)" resolve="updateChildNodeCell" />
                 <node concept="37vLTw" id="2FosA_pLmS0" role="37wK5m">
                   <ref role="3cqZAo" node="2FosA_pLmRW" resolve="node" />
                 </node>
@@ -678,11 +678,11 @@
                     <ref role="3cqZAo" node="2FosA_pGNd_" resolve="result" />
                   </node>
                   <node concept="liA8E" id="2FosA_pGNpA" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getStyle()" resolve="getStyle" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2FosA_pGNpB" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                   <node concept="10M0yZ" id="2FosA_pGNpC" role="37wK5m">
                     <ref role="3cqZAo" to="5ueo:~StyleAttributes.DRAW_BORDER" resolve="DRAW_BORDER" />
                     <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />

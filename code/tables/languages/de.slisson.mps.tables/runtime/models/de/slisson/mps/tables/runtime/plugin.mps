@@ -229,7 +229,7 @@
                 <ref role="3uigEE" to="hm5v:20OswHE0eA6" resolve="EditorCell_GridCell" />
               </node>
               <node concept="2YIFZM" id="6Y0V2RJj7zW" role="10QFUP">
-                <ref role="37wK5l" to="g51k:~CellFinderUtil.findParent(jetbrains.mps.openapi.editor.cells.EditorCell,org.jetbrains.mps.util.Condition):jetbrains.mps.openapi.editor.cells.EditorCell_Collection" resolve="findParent" />
+                <ref role="37wK5l" to="g51k:~CellFinderUtil.findParent(jetbrains.mps.openapi.editor.cells.EditorCell,org.jetbrains.mps.util.Condition)" resolve="findParent" />
                 <ref role="1Pybhc" to="g51k:~CellFinderUtil" resolve="CellFinderUtil" />
                 <node concept="37vLTw" id="6Y0V2RJj7zX" role="37wK5m">
                   <ref role="3cqZAo" node="6Y0V2RJgIpo" resolve="fromCell" />
@@ -273,7 +273,7 @@
                 <ref role="3uigEE" to="hm5v:20OswHE0eA6" resolve="EditorCell_GridCell" />
               </node>
               <node concept="2YIFZM" id="6Y0V2RJj8Rh" role="10QFUP">
-                <ref role="37wK5l" to="g51k:~CellFinderUtil.findParent(jetbrains.mps.openapi.editor.cells.EditorCell,org.jetbrains.mps.util.Condition):jetbrains.mps.openapi.editor.cells.EditorCell_Collection" resolve="findParent" />
+                <ref role="37wK5l" to="g51k:~CellFinderUtil.findParent(jetbrains.mps.openapi.editor.cells.EditorCell,org.jetbrains.mps.util.Condition)" resolve="findParent" />
                 <ref role="1Pybhc" to="g51k:~CellFinderUtil" resolve="CellFinderUtil" />
                 <node concept="37vLTw" id="6Y0V2RJjX_a" role="37wK5m">
                   <ref role="3cqZAo" node="6Y0V2RJgIpq" resolve="toCell" />
@@ -381,7 +381,7 @@
                   <ref role="3cqZAo" node="6Y0V2RJgIpo" resolve="fromCell" />
                 </node>
                 <node concept="liA8E" id="6Y0V2RJjvC_" role="2OqNvi">
-                  <ref role="37wK5l" to="f4zo:~EditorCell.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                  <ref role="37wK5l" to="f4zo:~EditorCell.getEditorComponent()" resolve="getEditorComponent" />
                 </node>
               </node>
               <node concept="2OqwBi" id="6Y0V2RJjyng" role="37wK5m">
@@ -480,7 +480,7 @@
               <ref role="3cqZAo" node="6Y0V2RJiY49" resolve="myType" />
             </node>
             <node concept="liA8E" id="6Y0V2RJj4oR" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Class.isInstance(java.lang.Object):boolean" resolve="isInstance" />
+              <ref role="37wK5l" to="wyt6:~Class.isInstance(java.lang.Object)" resolve="isInstance" />
               <node concept="37vLTw" id="6Y0V2RJj4vx" role="37wK5m">
                 <ref role="3cqZAo" node="6Y0V2RJiVWj" resolve="t" />
               </node>

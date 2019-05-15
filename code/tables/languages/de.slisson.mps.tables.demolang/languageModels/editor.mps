@@ -920,7 +920,7 @@
                     <node concept="1eOMI4" id="2FAXvauIIPR" role="3clFbG">
                       <node concept="10QFUN" id="2FAXvauIIPS" role="1eOMHV">
                         <node concept="2YIFZM" id="2FAXvauIIPN" role="10QFUP">
-                          <ref role="37wK5l" to="wyt6:~Math.round(double):long" resolve="round" />
+                          <ref role="37wK5l" to="wyt6:~Math.round(double)" resolve="round" />
                           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                           <node concept="17qRlL" id="2FAXvauIIPO" role="37wK5m">
                             <node concept="3cmrfG" id="2FAXvauIIPP" role="3uHU7w">
@@ -928,7 +928,7 @@
                             </node>
                             <node concept="2YIFZM" id="2FAXvauIIPQ" role="3uHU7B">
                               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                              <ref role="37wK5l" to="wyt6:~Math.random():double" resolve="random" />
+                              <ref role="37wK5l" to="wyt6:~Math.random()" resolve="random" />
                             </node>
                           </node>
                         </node>
@@ -1331,7 +1331,7 @@
                               <ref role="359W_F" to="nnej:NS8B56NMed" resolve="value" />
                             </node>
                             <node concept="liA8E" id="19kmAzCDdAf" role="2OqNvi">
-                              <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept():org.jetbrains.mps.openapi.language.SAbstractConcept" resolve="getTargetConcept" />
+                              <ref role="37wK5l" to="c17a:~SAbstractLink.getTargetConcept()" resolve="getTargetConcept" />
                             </node>
                           </node>
                           <node concept="2ShNRf" id="7C0FR5_gnZK" role="37wK5m">
@@ -1958,14 +1958,14 @@
               <node concept="3clFbF" id="4izrigqu1hd" role="3cqZAp">
                 <node concept="2OqwBi" id="4izrigquvjq" role="3clFbG">
                   <node concept="2YIFZM" id="4izrigqu2aG" role="2Oq$k0">
-                    <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.String):org.apache.log4j.Logger" resolve="getLogger" />
+                    <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.String)" resolve="getLogger" />
                     <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
                     <node concept="Xl_RD" id="4izrigqu37q" role="37wK5m">
                       <property role="Xl_RC" value="StateMachine_Editor_SubstituteNode" />
                     </node>
                   </node>
                   <node concept="liA8E" id="4izrigquwUv" role="2OqNvi">
-                    <ref role="37wK5l" to="q7tw:~Category.info(java.lang.Object):void" resolve="info" />
+                    <ref role="37wK5l" to="q7tw:~Category.info(java.lang.Object)" resolve="info" />
                     <node concept="3cpWs3" id="4izrigqvsta" role="37wK5m">
                       <node concept="3oseBL" id="4izrigqvtUQ" role="3uHU7w" />
                       <node concept="3cpWs3" id="4izrigqvhOY" role="3uHU7B">
@@ -3572,14 +3572,14 @@
             <node concept="3clFbF" id="40oIQyIfKs4" role="3cqZAp">
               <node concept="2OqwBi" id="40oIQyImA80" role="3clFbG">
                 <node concept="2YIFZM" id="40oIQyIfLcd" role="2Oq$k0">
-                  <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.String):org.apache.log4j.Logger" resolve="getLogger" />
+                  <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.String)" resolve="getLogger" />
                   <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
                   <node concept="Xl_RD" id="40oIQyImuOD" role="37wK5m">
                     <property role="Xl_RC" value="DecTab Substitute" />
                   </node>
                 </node>
                 <node concept="liA8E" id="40oIQyImBwi" role="2OqNvi">
-                  <ref role="37wK5l" to="q7tw:~Category.info(java.lang.Object):void" resolve="info" />
+                  <ref role="37wK5l" to="q7tw:~Category.info(java.lang.Object)" resolve="info" />
                   <node concept="3cpWs3" id="40oIQyIgAkQ" role="37wK5m">
                     <node concept="3oseBL" id="40oIQyIgC8d" role="3uHU7w" />
                     <node concept="3cpWs3" id="40oIQyIgv58" role="3uHU7B">

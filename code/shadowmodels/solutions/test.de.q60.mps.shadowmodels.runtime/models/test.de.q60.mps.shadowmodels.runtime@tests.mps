@@ -957,7 +957,7 @@
                                             <ref role="3cqZAo" node="5QP6xyjZwts" resolve="writeDone" />
                                           </node>
                                           <node concept="liA8E" id="5QP6xyjZHX_" role="2OqNvi">
-                                            <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean):void" resolve="set" />
+                                            <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean)" resolve="set" />
                                             <node concept="3clFbT" id="5QP6xyjZId7" role="37wK5m">
                                               <property role="3clFbU" value="true" />
                                             </node>
@@ -984,7 +984,7 @@
                                   <ref role="3cqZAo" node="5QP6xyjZxg_" resolve="commitDone" />
                                 </node>
                                 <node concept="liA8E" id="5QP6xyjZQAq" role="2OqNvi">
-                                  <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean):void" resolve="set" />
+                                  <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean)" resolve="set" />
                                   <node concept="3clFbT" id="5QP6xyjZQE6" role="37wK5m">
                                     <property role="3clFbU" value="true" />
                                   </node>
@@ -999,7 +999,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5QP6xyjYi16" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
+                <ref role="37wK5l" to="wyt6:~Thread.start()" resolve="start" />
               </node>
             </node>
           </node>
@@ -1095,7 +1095,7 @@
                                             <ref role="3cqZAo" node="5QP6xyjYrU0" resolve="write" />
                                           </node>
                                           <node concept="liA8E" id="5QP6xyjZUW5" role="2OqNvi">
-                                            <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean):void" resolve="set" />
+                                            <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean)" resolve="set" />
                                             <node concept="3clFbT" id="5QP6xyjZUZC" role="37wK5m">
                                               <property role="3clFbU" value="true" />
                                             </node>
@@ -1148,7 +1148,7 @@
                                             <ref role="3cqZAo" node="5QP6xyjZwQi" resolve="commit" />
                                           </node>
                                           <node concept="liA8E" id="5QP6xyk0jVS" role="2OqNvi">
-                                            <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean):void" resolve="set" />
+                                            <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean)" resolve="set" />
                                             <node concept="3clFbT" id="5QP6xyk0jXN" role="37wK5m">
                                               <property role="3clFbU" value="true" />
                                             </node>
@@ -1279,7 +1279,7 @@
                                   <ref role="3cqZAo" node="5QP6xyk0uw6" resolve="checkDone" />
                                 </node>
                                 <node concept="liA8E" id="5QP6xyk0xh9" role="2OqNvi">
-                                  <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean):void" resolve="set" />
+                                  <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean)" resolve="set" />
                                   <node concept="3clFbT" id="5QP6xyk0xr4" role="37wK5m">
                                     <property role="3clFbU" value="true" />
                                   </node>
@@ -1294,7 +1294,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5QP6xyjYi5O" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
+                <ref role="37wK5l" to="wyt6:~Thread.start()" resolve="start" />
               </node>
             </node>
           </node>
@@ -1408,7 +1408,7 @@
                                             <node concept="3clFbS" id="5QP6xyk563p" role="2LFqv$">
                                               <node concept="3clFbF" id="5QP6xyk563q" role="3cqZAp">
                                                 <node concept="2YIFZM" id="5QP6xyk563r" role="3clFbG">
-                                                  <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
+                                                  <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
                                                   <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                                                   <node concept="3cmrfG" id="5QP6xyk563s" role="37wK5m">
                                                     <property role="3cmrfH" value="3" />
@@ -1536,7 +1536,7 @@
                 <ref role="3cqZAo" node="5QP6xyk562J" resolve="t1" />
               </node>
               <node concept="liA8E" id="5QP6xyk3sIc" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
+                <ref role="37wK5l" to="wyt6:~Thread.start()" resolve="start" />
               </node>
             </node>
           </node>
@@ -1633,7 +1633,7 @@
                                             <node concept="3clFbS" id="5QP6xyk59Je" role="2LFqv$">
                                               <node concept="3clFbF" id="5QP6xyk59Jf" role="3cqZAp">
                                                 <node concept="2YIFZM" id="5QP6xyk59Jg" role="3clFbG">
-                                                  <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
+                                                  <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
                                                   <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                                                   <node concept="3cmrfG" id="5QP6xyk59Jh" role="37wK5m">
                                                     <property role="3cmrfH" value="2" />
@@ -1761,7 +1761,7 @@
                 <ref role="3cqZAo" node="5QP6xyk59I$" resolve="t2" />
               </node>
               <node concept="liA8E" id="5QP6xyk4A2H" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
+                <ref role="37wK5l" to="wyt6:~Thread.start()" resolve="start" />
               </node>
             </node>
           </node>
@@ -1772,7 +1772,7 @@
                 <ref role="3cqZAo" node="5QP6xyk562J" resolve="t1" />
               </node>
               <node concept="liA8E" id="5QP6xyk64Ms" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Thread.join(long):void" resolve="join" />
+                <ref role="37wK5l" to="wyt6:~Thread.join(long)" resolve="join" />
                 <node concept="3cmrfG" id="5QP6xyk64Rw" role="37wK5m">
                   <property role="3cmrfH" value="1000" />
                 </node>
@@ -1785,7 +1785,7 @@
                 <ref role="3cqZAo" node="5QP6xyk59I$" resolve="t2" />
               </node>
               <node concept="liA8E" id="5QP6xyk65l6" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Thread.join(long):void" resolve="join" />
+                <ref role="37wK5l" to="wyt6:~Thread.join(long)" resolve="join" />
                 <node concept="3cmrfG" id="5QP6xyk65l7" role="37wK5m">
                   <property role="3cmrfH" value="1000" />
                 </node>
@@ -1986,13 +1986,13 @@
                       <ref role="3cqZAo" node="5QP6xyjZyaO" resolve="value" />
                     </node>
                     <node concept="liA8E" id="5QP6xyjZAt0" role="2OqNvi">
-                      <ref role="37wK5l" to="i5cy:~AtomicBoolean.get():boolean" resolve="get" />
+                      <ref role="37wK5l" to="i5cy:~AtomicBoolean.get()" resolve="get" />
                     </node>
                   </node>
                 </node>
                 <node concept="3clFbF" id="5QP6xyjZ$cf" role="3cqZAp">
                   <node concept="2YIFZM" id="5QP6xyjZ$c$" role="3clFbG">
-                    <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
+                    <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
                     <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                     <node concept="3cmrfG" id="5QP6xyjZ$d5" role="37wK5m">
                       <property role="3cmrfH" value="1" />

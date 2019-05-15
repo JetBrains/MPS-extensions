@@ -209,7 +209,7 @@
                     <property role="TrG5h" value="idString" />
                     <node concept="17QB3L" id="3zTK92Lj0Qx" role="1tU5fm" />
                     <node concept="2YIFZM" id="3zTK92Lj0Bv" role="33vP2m">
-                      <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                      <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
                       <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                       <node concept="3uNrnE" id="3zTK92Lj0Bw" role="37wK5m">
                         <node concept="37vLTw" id="3zTK92Lj1F3" role="2$L3a6">
@@ -249,7 +249,7 @@
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="6DbeQdlXKMV" role="2OqNvi">
-                                      <ref role="37wK5l" to="mhbf:~SModel.getReference():org.jetbrains.mps.openapi.model.SModelReference" resolve="getReference" />
+                                      <ref role="37wK5l" to="mhbf:~SModel.getReference()" resolve="getReference" />
                                     </node>
                                   </node>
                                   <node concept="Xl_RD" id="6DbeQdlXKMW" role="3uHU7w">

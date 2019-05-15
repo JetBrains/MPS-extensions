@@ -527,7 +527,7 @@
         </node>
         <node concept="3clFbF" id="7qGGLAkBiwq" role="3cqZAp">
           <node concept="2YIFZM" id="7qGGLAkBj9C" role="3clFbG">
-            <ref role="37wK5l" to="18ew:~NameUtil.toValidIdentifier(java.lang.String):java.lang.String" resolve="toValidIdentifier" />
+            <ref role="37wK5l" to="18ew:~NameUtil.toValidIdentifier(java.lang.String)" resolve="toValidIdentifier" />
             <ref role="1Pybhc" to="18ew:~NameUtil" resolve="NameUtil" />
             <node concept="37vLTw" id="7qGGLAkBja$" role="37wK5m">
               <ref role="3cqZAo" node="7qGGLAkBgZJ" resolve="name" />

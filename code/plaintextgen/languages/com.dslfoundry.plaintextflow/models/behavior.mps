@@ -194,7 +194,7 @@
                       <ref role="3cqZAo" node="6$Hx0f8lm4M" resolve="sb" />
                     </node>
                     <node concept="liA8E" id="6$Hx0f8lo7n" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                      <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                       <node concept="37vLTw" id="6FSgq4qcaK6" role="37wK5m">
                         <ref role="3cqZAo" node="6FSgq4qc8OH" resolve="prefix" />
                       </node>
@@ -230,7 +230,7 @@
               <ref role="3cqZAo" node="6$Hx0f8lm4M" resolve="sb" />
             </node>
             <node concept="liA8E" id="6$Hx0f8lqrH" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
+              <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
             </node>
           </node>
         </node>

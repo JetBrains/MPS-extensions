@@ -67,7 +67,7 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2018.3.+'
+ext.mpsMajor = '2019.1.+'
 ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
@@ -76,8 +76,8 @@ def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
 
 
-def minor = '3'
-def major = '2018'
+def minor = '1'
+def major = '2019'
 
 if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch

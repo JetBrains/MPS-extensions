@@ -346,7 +346,7 @@
                     <ref role="3uigEE" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
                   </node>
                   <node concept="2YIFZM" id="3CYlK6ygJ0f" role="33vP2m">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Collection.createHorizontal(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createHorizontal" />
+                    <ref role="37wK5l" to="g51k:~EditorCell_Collection.createHorizontal(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode)" resolve="createHorizontal" />
                     <ref role="1Pybhc" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
                     <node concept="1Q80Hx" id="3CYlK6ygJ0g" role="37wK5m" />
                     <node concept="pncrf" id="3CYlK6ygJ0h" role="37wK5m" />
@@ -371,7 +371,7 @@
                           <node concept="2OqwBi" id="3CYlK6ygJ0r" role="37wK5m">
                             <node concept="1Q80Hx" id="3CYlK6ygJ0s" role="2Oq$k0" />
                             <node concept="liA8E" id="3CYlK6ygJ0t" role="2OqNvi">
-                              <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                              <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
                             </node>
                           </node>
                         </node>
@@ -411,7 +411,7 @@
                                     <node concept="2OqwBi" id="2VTIUrjz2gL" role="Vysub">
                                       <node concept="1Q80Hx" id="2VTIUrjz1Vj" role="2Oq$k0" />
                                       <node concept="liA8E" id="2VTIUrjz3AQ" role="2OqNvi">
-                                        <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                                        <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                                       </node>
                                     </node>
                                   </node>
@@ -444,7 +444,7 @@
                         <node concept="2OqwBi" id="2VTIUrjrLwY" role="37wK5m">
                           <node concept="1Q80Hx" id="2VTIUrjrLwZ" role="2Oq$k0" />
                           <node concept="liA8E" id="2VTIUrjrLx0" role="2OqNvi">
-                            <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                            <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                           </node>
                         </node>
                       </node>
@@ -505,7 +505,7 @@
                         <ref role="3cqZAo" node="3CYlK6ygJ0d" resolve="wrapper" />
                       </node>
                       <node concept="liA8E" id="3CYlK6ygJ0H" role="2OqNvi">
-                        <ref role="37wK5l" to="g51k:~EditorCell_Collection.addEditorCell(jetbrains.mps.openapi.editor.cells.EditorCell):void" resolve="addEditorCell" />
+                        <ref role="37wK5l" to="g51k:~EditorCell_Collection.addEditorCell(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="addEditorCell" />
                         <node concept="2OqwBi" id="3CYlK6yh83S" role="37wK5m">
                           <node concept="37vLTw" id="3CYlK6yh7tM" role="2Oq$k0">
                             <ref role="3cqZAo" node="3CYlK6yh5ha" resolve="snode" />

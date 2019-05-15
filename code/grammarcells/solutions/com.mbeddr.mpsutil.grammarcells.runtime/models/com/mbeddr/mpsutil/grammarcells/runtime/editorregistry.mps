@@ -232,10 +232,10 @@
       </node>
       <node concept="2YIFZM" id="20mebiU_xnO" role="33vP2m">
         <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger):jetbrains.mps.logging.Logger" resolve="wrap" />
+        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
         <node concept="2YIFZM" id="20mebiU_xnP" role="37wK5m">
           <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class):org.apache.log4j.Logger" resolve="getLogger" />
+          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
           <node concept="3VsKOn" id="20mebiU_xnQ" role="37wK5m">
             <ref role="3VsUkX" node="20mebiU_kAm" resolve="ConceptEditorRegistry" />
           </node>
@@ -279,7 +279,7 @@
         <node concept="XkiVB" id="20mebiU_$Cj" role="3cqZAp">
           <ref role="37wK5l" node="5094wKnoSjC" resolve="AbstractEditorRegistry" />
           <node concept="2YIFZM" id="20mebiU_$Wa" role="37wK5m">
-            <ref role="37wK5l" to="33ny:~Collections.emptySet():java.util.Set" resolve="emptySet" />
+            <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <node concept="17QB3L" id="20mebiU__16" role="3PaCim" />
           </node>
@@ -315,7 +315,7 @@
               <ref role="3cqZAo" node="20mebiU_kA$" resolve="aspectDescriptor" />
             </node>
             <node concept="liA8E" id="5094wKnp5cj" role="2OqNvi">
-              <ref role="37wK5l" to="iwf0:~EditorAspectDescriptor.getEditors(org.jetbrains.mps.openapi.language.SAbstractConcept):java.util.Collection" resolve="getEditors" />
+              <ref role="37wK5l" to="iwf0:~EditorAspectDescriptor.getEditors(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="getEditors" />
               <node concept="37vLTw" id="5094wKnp5ck" role="37wK5m">
                 <ref role="3cqZAo" node="20mebiU_kAA" resolve="concept" />
               </node>
@@ -363,10 +363,10 @@
       </node>
       <node concept="2YIFZM" id="5094wKnoI3D" role="33vP2m">
         <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger):jetbrains.mps.logging.Logger" resolve="wrap" />
+        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
         <node concept="2YIFZM" id="5094wKnoI40" role="37wK5m">
           <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class):org.apache.log4j.Logger" resolve="getLogger" />
+          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
           <node concept="3VsKOn" id="5094wKnoHAu" role="37wK5m">
             <ref role="3VsUkX" node="5094wKnoHAl" resolve="AbstractEditorRegistry" />
           </node>
@@ -571,7 +571,7 @@
                   <ref role="3cqZAo" node="5094wKnoHBc" resolve="processedConcepts" />
                 </node>
                 <node concept="liA8E" id="5094wKnoI4x" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~Set.contains(java.lang.Object):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="33ny:~Set.contains(java.lang.Object)" resolve="contains" />
                   <node concept="37vLTw" id="5094wKnoHBy" role="37wK5m">
                     <ref role="3cqZAo" node="5094wKnoHC1" resolve="next" />
                   </node>
@@ -622,7 +622,7 @@
                             <ref role="3cqZAo" node="5094wKnoHBn" resolve="resultList" />
                           </node>
                           <node concept="liA8E" id="5094wKnoI4U" role="2OqNvi">
-                            <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                            <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                             <node concept="37vLTw" id="5094wKnoHBX" role="37wK5m">
                               <ref role="3cqZAo" node="5094wKnoHBA" resolve="conceptEditor" />
                             </node>
@@ -647,7 +647,7 @@
                   <ref role="3cqZAo" node="5094wKnoHBc" resolve="processedConcepts" />
                 </node>
                 <node concept="liA8E" id="5094wKnoI5j" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
+                  <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
                   <node concept="37vLTw" id="5094wKnoHC0" role="37wK5m">
                     <ref role="3cqZAo" node="5094wKnoHC1" resolve="next" />
                   </node>
@@ -662,7 +662,7 @@
               <ref role="3cqZAo" node="5094wKnoHBn" resolve="resultList" />
             </node>
             <node concept="liA8E" id="5094wKnoI5G" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.isEmpty():boolean" resolve="isEmpty" />
+              <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
             </node>
           </node>
           <node concept="3clFbS" id="5094wKnoHC8" role="3clFbx">
@@ -674,7 +674,7 @@
         <node concept="3clFbF" id="5094wKnoHCb" role="3cqZAp">
           <node concept="2YIFZM" id="5094wKnoI63" role="3clFbG">
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <ref role="37wK5l" to="33ny:~Collections.sort(java.util.List,java.util.Comparator):void" resolve="sort" />
+            <ref role="37wK5l" to="33ny:~Collections.sort(java.util.List,java.util.Comparator)" resolve="sort" />
             <node concept="37vLTw" id="5094wKnoHCd" role="37wK5m">
               <ref role="3cqZAo" node="5094wKnoHBn" resolve="resultList" />
             </node>
@@ -689,7 +689,7 @@
               <ref role="3cqZAo" node="5094wKnoHBn" resolve="resultList" />
             </node>
             <node concept="liA8E" id="5094wKnoI6s" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+              <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
               <node concept="3cmrfG" id="5094wKnoHCh" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
@@ -753,7 +753,7 @@
         <node concept="3clFbJ" id="5094wKnoHCz" role="3cqZAp">
           <node concept="2OqwBi" id="5094wKnoI6O" role="3clFbw">
             <node concept="liA8E" id="5094wKnoI6P" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.isEmpty():boolean" resolve="isEmpty" />
+              <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
             </node>
             <node concept="37vLTw" id="5094wKnoI6N" role="2Oq$k0">
               <ref role="3cqZAo" node="5094wKnoHCt" resolve="conceptEditors" />
@@ -768,7 +768,7 @@
         <node concept="3clFbF" id="5094wKnoHCD" role="3cqZAp">
           <node concept="2YIFZM" id="5094wKnoI7c" role="3clFbG">
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <ref role="37wK5l" to="33ny:~Collections.sort(java.util.List,java.util.Comparator):void" resolve="sort" />
+            <ref role="37wK5l" to="33ny:~Collections.sort(java.util.List,java.util.Comparator)" resolve="sort" />
             <node concept="37vLTw" id="5094wKnoHCF" role="37wK5m">
               <ref role="3cqZAo" node="5094wKnoHCt" resolve="conceptEditors" />
             </node>
@@ -814,11 +814,11 @@
                         <ref role="3cqZAo" node="5094wKnoHDm" resolve="conceptEditor" />
                       </node>
                       <node concept="liA8E" id="5094wKnoI7_" role="2OqNvi">
-                        <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                        <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                       </node>
                     </node>
                     <node concept="liA8E" id="5094wKnoHD8" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                      <ref role="37wK5l" to="33ny:~Collection.size()" resolve="size" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="5094wKnoHD9" role="3uHU7w">
@@ -827,11 +827,11 @@
                         <ref role="3cqZAo" node="5094wKnoHCH" resolve="result" />
                       </node>
                       <node concept="liA8E" id="5094wKnoI7Y" role="2OqNvi">
-                        <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                        <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                       </node>
                     </node>
                     <node concept="liA8E" id="5094wKnoHDb" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                      <ref role="37wK5l" to="33ny:~Collection.size()" resolve="size" />
                     </node>
                   </node>
                 </node>
@@ -847,7 +847,7 @@
                         <ref role="3cqZAo" node="5094wKnoHAp" resolve="LOG" />
                       </node>
                       <node concept="liA8E" id="5094wKnoI8n" role="2OqNvi">
-                        <ref role="37wK5l" to="wwqx:~Logger.error(java.lang.String):void" resolve="error" />
+                        <ref role="37wK5l" to="wwqx:~Logger.error(java.lang.String)" resolve="error" />
                         <node concept="1rXfSq" id="5094wKnoHDg" role="37wK5m">
                           <ref role="37wK5l" node="5094wKnoHFB" resolve="getErrorMessage" />
                           <node concept="37vLTw" id="5094wKnoHDh" role="37wK5m">
@@ -879,13 +879,13 @@
                           <ref role="3cqZAo" node="5094wKnoHCm" resolve="excludedEditors" />
                         </node>
                         <node concept="liA8E" id="5094wKnoI8K" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~Collection.contains(java.lang.Object):boolean" resolve="contains" />
+                          <ref role="37wK5l" to="33ny:~Collection.contains(java.lang.Object)" resolve="contains" />
                           <node concept="2OqwBi" id="5094wKnoI98" role="37wK5m">
                             <node concept="37vLTw" id="5094wKnoI97" role="2Oq$k0">
                               <ref role="3cqZAo" node="5094wKnoHDm" resolve="conceptEditor" />
                             </node>
                             <node concept="liA8E" id="5094wKnoI99" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                              <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                             </node>
                           </node>
                         </node>
@@ -980,16 +980,16 @@
             <node concept="2OqwBi" id="5094wKnoHDF" role="33vP2m">
               <node concept="2YIFZM" id="5094wKnoIhC" role="2Oq$k0">
                 <ref role="1Pybhc" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
-                <ref role="37wK5l" to="vndm:~LanguageRegistry.getInstance():jetbrains.mps.smodel.language.LanguageRegistry" resolve="getInstance" />
+                <ref role="37wK5l" to="vndm:~LanguageRegistry.getInstance()" resolve="getInstance" />
               </node>
               <node concept="liA8E" id="5094wKnoHDH" role="2OqNvi">
-                <ref role="37wK5l" to="vndm:~LanguageRegistry.getLanguage(org.jetbrains.mps.openapi.language.SLanguage):jetbrains.mps.smodel.language.LanguageRuntime" resolve="getLanguage" />
+                <ref role="37wK5l" to="vndm:~LanguageRegistry.getLanguage(org.jetbrains.mps.openapi.language.SLanguage)" resolve="getLanguage" />
                 <node concept="2OqwBi" id="5094wKnoIi0" role="37wK5m">
                   <node concept="37vLTw" id="5094wKnoIhZ" role="2Oq$k0">
                     <ref role="3cqZAo" node="5094wKnoHDv" resolve="concept" />
                   </node>
                   <node concept="liA8E" id="5094wKnoIi1" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage():org.jetbrains.mps.openapi.language.SLanguage" resolve="getLanguage" />
+                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
                   </node>
                 </node>
               </node>
@@ -1010,7 +1010,7 @@
                   <ref role="3cqZAo" node="5094wKnoHAp" resolve="LOG" />
                 </node>
                 <node concept="liA8E" id="5094wKnoIiq" role="2OqNvi">
-                  <ref role="37wK5l" to="wwqx:~Logger.warning(java.lang.String):void" resolve="warning" />
+                  <ref role="37wK5l" to="wwqx:~Logger.warning(java.lang.String)" resolve="warning" />
                   <node concept="3cpWs3" id="5094wKnoHDR" role="37wK5m">
                     <node concept="3cpWs3" id="5094wKnoHDS" role="3uHU7B">
                       <node concept="Xl_RD" id="5094wKnoHDT" role="3uHU7B">
@@ -1021,7 +1021,7 @@
                           <ref role="3cqZAo" node="5094wKnoHDv" resolve="concept" />
                         </node>
                         <node concept="liA8E" id="5094wKnoIiN" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage():org.jetbrains.mps.openapi.language.SLanguage" resolve="getLanguage" />
+                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
                         </node>
                       </node>
                     </node>
@@ -1058,7 +1058,7 @@
                     <ref role="3cqZAo" node="5094wKnoHAp" resolve="LOG" />
                   </node>
                   <node concept="liA8E" id="5094wKnoIjc" role="2OqNvi">
-                    <ref role="37wK5l" to="wwqx:~Logger.error(java.lang.String,java.lang.Throwable):void" resolve="error" />
+                    <ref role="37wK5l" to="wwqx:~Logger.error(java.lang.String,java.lang.Throwable)" resolve="error" />
                     <node concept="3cpWs3" id="5094wKnoHEh" role="37wK5m">
                       <node concept="Xl_RD" id="5094wKnoHEi" role="3uHU7B">
                         <property role="Xl_RC" value="Failed to get editor aspect descriptor for language: " />
@@ -1093,7 +1093,7 @@
                     <ref role="3cqZAo" node="5094wKnoHDC" resolve="languageRuntime" />
                   </node>
                   <node concept="liA8E" id="5094wKnoIj_" role="2OqNvi">
-                    <ref role="37wK5l" to="vndm:~LanguageRuntime.getAspect(java.lang.Class):jetbrains.mps.smodel.runtime.ILanguageAspect" resolve="getAspect" />
+                    <ref role="37wK5l" to="vndm:~LanguageRuntime.getAspect(java.lang.Class)" resolve="getAspect" />
                     <node concept="3VsKOn" id="5094wKnoHE9" role="37wK5m">
                       <ref role="3VsUkX" to="iwf0:~EditorAspectDescriptor" resolve="EditorAspectDescriptor" />
                     </node>
@@ -1143,7 +1143,7 @@
                           <ref role="3cqZAo" node="5094wKnoHDy" resolve="result" />
                         </node>
                         <node concept="liA8E" id="5094wKnoIjY" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                          <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                           <node concept="37vLTw" id="5094wKnoHEB" role="37wK5m">
                             <ref role="3cqZAo" node="5094wKnoHEC" resolve="conceptEditor" />
                           </node>
@@ -1202,11 +1202,11 @@
                       <ref role="3cqZAo" node="5094wKnoHEO" resolve="editor" />
                     </node>
                     <node concept="liA8E" id="5094wKnoIkK" role="2OqNvi">
-                      <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                      <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                     </node>
                   </node>
                   <node concept="liA8E" id="5094wKnoHEY" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Collection.contains(java.lang.Object):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="33ny:~Collection.contains(java.lang.Object)" resolve="contains" />
                     <node concept="37vLTw" id="5094wKnoHEZ" role="37wK5m">
                       <ref role="3cqZAo" node="5094wKnoHF4" resolve="hint" />
                     </node>
@@ -1250,7 +1250,7 @@
               <ref role="3cqZAo" node="5094wKnoHFf" resolve="editor" />
             </node>
             <node concept="liA8E" id="5094wKnoIl9" role="2OqNvi">
-              <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+              <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
             </node>
           </node>
           <node concept="3cpWsn" id="5094wKnoHFv" role="1Duv9x">
@@ -1343,7 +1343,7 @@
                     <ref role="3cqZAo" node="5094wKnoHFH" resolve="context" />
                   </node>
                   <node concept="liA8E" id="5094wKnoImk" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.isEmpty():boolean" resolve="isEmpty" />
+                    <ref role="37wK5l" to="wyt6:~String.isEmpty()" resolve="isEmpty" />
                   </node>
                 </node>
               </node>
@@ -1387,7 +1387,7 @@
                           <ref role="3cqZAo" node="5094wKnoHFC" resolve="additionalEditor" />
                         </node>
                         <node concept="liA8E" id="5094wKnoImH" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                          <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                         </node>
                       </node>
                     </node>
@@ -1408,7 +1408,7 @@
                   <ref role="3cqZAo" node="5094wKnoHFE" resolve="mainEditor" />
                 </node>
                 <node concept="liA8E" id="5094wKnoIn6" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                 </node>
               </node>
             </node>
@@ -1480,11 +1480,11 @@
                                     <ref role="3cqZAo" node="5094wKnoHGC" resolve="editor1" />
                                   </node>
                                   <node concept="liA8E" id="5094wKnoIo3" role="2OqNvi">
-                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="5094wKnoHGL" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                                  <ref role="37wK5l" to="33ny:~Collection.size()" resolve="size" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="5094wKnoHGM" role="3uHU7w">
@@ -1493,11 +1493,11 @@
                                     <ref role="3cqZAo" node="5094wKnoHGE" resolve="editor2" />
                                   </node>
                                   <node concept="liA8E" id="5094wKnoIp0" role="2OqNvi">
-                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="5094wKnoHGO" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                                  <ref role="37wK5l" to="33ny:~Collection.size()" resolve="size" />
                                 </node>
                               </node>
                             </node>
@@ -1510,26 +1510,26 @@
                                         <ref role="3cqZAo" node="5094wKnoHGC" resolve="editor1" />
                                       </node>
                                       <node concept="liA8E" id="5094wKnoIpX" role="2OqNvi">
-                                        <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                        <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="5094wKnoHGV" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                      <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5094wKnoHGW" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String):int" resolve="compareTo" />
+                                    <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
                                     <node concept="2OqwBi" id="5094wKnoHGX" role="37wK5m">
                                       <node concept="2OqwBi" id="5094wKnoIqT" role="2Oq$k0">
                                         <node concept="37vLTw" id="5094wKnoIqS" role="2Oq$k0">
                                           <ref role="3cqZAo" node="5094wKnoHGE" resolve="editor2" />
                                         </node>
                                         <node concept="liA8E" id="5094wKnoIqU" role="2OqNvi">
-                                          <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                          <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                                         </node>
                                       </node>
                                       <node concept="liA8E" id="5094wKnoHGZ" role="2OqNvi">
-                                        <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                        <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                                       </node>
                                     </node>
                                   </node>
@@ -1545,11 +1545,11 @@
                                     <ref role="3cqZAo" node="5094wKnoHGE" resolve="editor2" />
                                   </node>
                                   <node concept="liA8E" id="5094wKnoIrR" role="2OqNvi">
-                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="5094wKnoHH4" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                                  <ref role="37wK5l" to="33ny:~Collection.size()" resolve="size" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="5094wKnoHH5" role="3uHU7w">
@@ -1558,11 +1558,11 @@
                                     <ref role="3cqZAo" node="5094wKnoHGC" resolve="editor1" />
                                   </node>
                                   <node concept="liA8E" id="5094wKnoIsO" role="2OqNvi">
-                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="5094wKnoHH7" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                                  <ref role="37wK5l" to="33ny:~Collection.size()" resolve="size" />
                                 </node>
                               </node>
                             </node>
@@ -1652,11 +1652,11 @@
                                     <ref role="3cqZAo" node="5094wKnoHHz" resolve="editor2" />
                                   </node>
                                   <node concept="liA8E" id="5094wKnoItL" role="2OqNvi">
-                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="5094wKnoHHE" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                                  <ref role="37wK5l" to="33ny:~Collection.size()" resolve="size" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="5094wKnoHHF" role="3uHU7w">
@@ -1665,11 +1665,11 @@
                                     <ref role="3cqZAo" node="5094wKnoHHx" resolve="editor1" />
                                   </node>
                                   <node concept="liA8E" id="5094wKnoIuI" role="2OqNvi">
-                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints():java.util.Collection" resolve="getContextHints" />
+                                    <ref role="37wK5l" to="iwf0:~EditorHintsSpecific.getContextHints()" resolve="getContextHints" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="5094wKnoHHH" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                                  <ref role="37wK5l" to="33ny:~Collection.size()" resolve="size" />
                                 </node>
                               </node>
                             </node>

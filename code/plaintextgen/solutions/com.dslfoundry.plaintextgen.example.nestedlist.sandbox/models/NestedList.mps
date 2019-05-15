@@ -2,11 +2,11 @@
 <model ref="r:c0fa6426-e8a0-4f7a-8acd-f0867b7ff8ee(NestedList)">
   <persistence version="9" />
   <languages>
-    <use id="a50fc719-4261-4a46-8e65-d98071469ff6" name="ExampleNestedList" version="-1" />
+    <use id="a50fc719-4261-4a46-8e65-d98071469ff6" name="com.dslfoundry.plaintextgen.example.nestedlist" version="-1" />
   </languages>
   <imports />
   <registry>
-    <language id="a50fc719-4261-4a46-8e65-d98071469ff6" name="ExampleNestedList">
+    <language id="a50fc719-4261-4a46-8e65-d98071469ff6" name="com.dslfoundry.plaintextgen.example.nestedlist">
       <concept id="7022720084780710583" name="ExampleNestedList.structure.Branch" flags="ng" index="3FbOK2">
         <child id="7022720084780710590" name="branches" index="3FbOKb" />
       </concept>

@@ -344,11 +344,11 @@
                               <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
                             </node>
                             <node concept="liA8E" id="3Osd_yxgrUt" role="2OqNvi">
-                              <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater():jetbrains.mps.openapi.editor.update.Updater" resolve="getUpdater" />
+                              <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater()" resolve="getUpdater" />
                             </node>
                           </node>
                           <node concept="liA8E" id="3Osd_yxgs2u" role="2OqNvi">
-                            <ref role="37wK5l" to="22ra:~Updater.addListener(jetbrains.mps.openapi.editor.update.UpdaterListener):void" resolve="addListener" />
+                            <ref role="37wK5l" to="22ra:~Updater.addListener(jetbrains.mps.openapi.editor.update.UpdaterListener)" resolve="addListener" />
                             <node concept="2OqwBi" id="3Osd_yxgtyM" role="37wK5m">
                               <node concept="2WthIp" id="3Osd_yxgtyP" role="2Oq$k0">
                                 <ref role="32nkFo" node="3Osd_yxgjRl" resolve="ProjectPlugin" />
@@ -366,7 +366,7 @@
                             <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
                           </node>
                           <node concept="liA8E" id="6IJAP0oQjti" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.addAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter):void" resolve="addAdditionalPainter" />
+                            <ref role="37wK5l" to="exr9:~EditorComponent.addAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter)" resolve="addAdditionalPainter" />
                             <node concept="2OqwBi" id="6IJAP0oQjzk" role="37wK5m">
                               <node concept="2WthIp" id="6IJAP0oQjzn" role="2Oq$k0">
                                 <ref role="32nkFo" node="3Osd_yxgjRl" resolve="ProjectPlugin" />
@@ -384,7 +384,7 @@
                             <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
                           </node>
                           <node concept="liA8E" id="6SVXTgIaykK" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.addAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter):void" resolve="addAdditionalPainter" />
+                            <ref role="37wK5l" to="exr9:~EditorComponent.addAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter)" resolve="addAdditionalPainter" />
                             <node concept="2OqwBi" id="6SVXTgIaykL" role="37wK5m">
                               <node concept="2WthIp" id="6SVXTgIaykM" role="2Oq$k0">
                                 <ref role="32nkFo" node="3Osd_yxgjRl" resolve="ProjectPlugin" />
@@ -414,7 +414,7 @@
                               <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
                             </node>
                             <node concept="liA8E" id="2hEgJWEwT5v" role="2OqNvi">
-                              <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell():jetbrains.mps.nodeEditor.cells.EditorCell" resolve="getRootCell" />
+                              <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
                             </node>
                           </node>
                         </node>
@@ -425,7 +425,7 @@
                             <ref role="3cqZAo" node="3Osd_yxgp5H" resolve="editorComponent" />
                           </node>
                           <node concept="liA8E" id="2hEgJWExe5w" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.relayout():void" resolve="relayout" />
+                            <ref role="37wK5l" to="exr9:~EditorComponent.relayout()" resolve="relayout" />
                           </node>
                         </node>
                       </node>
@@ -449,7 +449,7 @@
                             <ref role="3cqZAo" node="3Osd_yxgp5P" resolve="editorComponent" />
                           </node>
                           <node concept="liA8E" id="6SVXTgIayrb" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.removeAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter):void" resolve="removeAdditionalPainter" />
+                            <ref role="37wK5l" to="exr9:~EditorComponent.removeAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter)" resolve="removeAdditionalPainter" />
                             <node concept="2OqwBi" id="6SVXTgIayrc" role="37wK5m">
                               <node concept="2WthIp" id="6SVXTgIayrd" role="2Oq$k0">
                                 <ref role="32nkFo" node="3Osd_yxgjRl" resolve="ProjectPlugin" />
@@ -467,7 +467,7 @@
                             <ref role="3cqZAo" node="3Osd_yxgp5P" resolve="editorComponent" />
                           </node>
                           <node concept="liA8E" id="6IJAP0oQlVI" role="2OqNvi">
-                            <ref role="37wK5l" to="exr9:~EditorComponent.removeAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter):void" resolve="removeAdditionalPainter" />
+                            <ref role="37wK5l" to="exr9:~EditorComponent.removeAdditionalPainter(jetbrains.mps.nodeEditor.AdditionalPainter)" resolve="removeAdditionalPainter" />
                             <node concept="2OqwBi" id="6IJAP0oQm1K" role="37wK5m">
                               <node concept="2WthIp" id="6IJAP0oQm1N" role="2Oq$k0">
                                 <ref role="32nkFo" node="3Osd_yxgjRl" resolve="ProjectPlugin" />
@@ -486,11 +486,11 @@
                               <ref role="3cqZAo" node="3Osd_yxgp5P" resolve="editorComponent" />
                             </node>
                             <node concept="liA8E" id="3Osd_yxgtA8" role="2OqNvi">
-                              <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater():jetbrains.mps.openapi.editor.update.Updater" resolve="getUpdater" />
+                              <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater()" resolve="getUpdater" />
                             </node>
                           </node>
                           <node concept="liA8E" id="3Osd_yxgtA9" role="2OqNvi">
-                            <ref role="37wK5l" to="22ra:~Updater.removeListener(jetbrains.mps.openapi.editor.update.UpdaterListener):void" resolve="removeListener" />
+                            <ref role="37wK5l" to="22ra:~Updater.removeListener(jetbrains.mps.openapi.editor.update.UpdaterListener)" resolve="removeListener" />
                             <node concept="2OqwBi" id="3Osd_yxgtAa" role="37wK5m">
                               <node concept="2WthIp" id="3Osd_yxgtAb" role="2Oq$k0">
                                 <ref role="32nkFo" node="3Osd_yxgjRl" resolve="ProjectPlugin" />

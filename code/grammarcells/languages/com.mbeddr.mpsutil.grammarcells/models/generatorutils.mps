@@ -1695,7 +1695,7 @@
                   <ref role="3cqZAo" node="19dgrWhCj1o" resolve="parentStopCondition" />
                 </node>
                 <node concept="liA8E" id="4U82Y3z1ykP" role="2OqNvi">
-                  <ref role="37wK5l" to="y49u:~Condition.met(java.lang.Object):boolean" resolve="met" />
+                  <ref role="37wK5l" to="y49u:~Condition.met(java.lang.Object)" resolve="met" />
                   <node concept="37vLTw" id="4U82Y3z1yql" role="37wK5m">
                     <ref role="3cqZAo" node="RbLMy6ca0j" resolve="parent" />
                   </node>
@@ -1763,7 +1763,7 @@
                   <ref role="3cqZAo" node="19dgrWhCg1n" resolve="parentStopCondition" />
                 </node>
                 <node concept="liA8E" id="19dgrWhChqR" role="2OqNvi">
-                  <ref role="37wK5l" to="y49u:~Condition.met(java.lang.Object):boolean" resolve="met" />
+                  <ref role="37wK5l" to="y49u:~Condition.met(java.lang.Object)" resolve="met" />
                   <node concept="2OqwBi" id="19dgrWhChtX" role="37wK5m">
                     <node concept="37vLTw" id="19dgrWhChsz" role="2Oq$k0">
                       <ref role="3cqZAo" node="RbLMy6c4rS" resolve="node" />
@@ -1906,7 +1906,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="2uT2PLmV7Ex" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getPrevSibling():org.jetbrains.mps.openapi.model.SNode" resolve="getPrevSibling" />
+                <ref role="37wK5l" to="mhbf:~SNode.getPrevSibling()" resolve="getPrevSibling" />
               </node>
             </node>
             <node concept="2OqwBi" id="2uT2PLmV7Ey" role="3K4E3e">
@@ -1916,7 +1916,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="2uT2PLmV7E_" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getNextSibling():org.jetbrains.mps.openapi.model.SNode" resolve="getNextSibling" />
+                <ref role="37wK5l" to="mhbf:~SNode.getNextSibling()" resolve="getNextSibling" />
               </node>
             </node>
             <node concept="37vLTw" id="2uT2PLmV7EA" role="3K4Cdx">

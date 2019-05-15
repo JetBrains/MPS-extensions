@@ -2,7 +2,7 @@
 <model ref="r:d27c2e6f-c729-4f98-a538-a8b3388b8365(de.itemis.mps.editor.math.java.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -709,7 +709,7 @@
       <ref role="30HIoZ" to="rcub:4Ajzui6QFZa" resolve="Sqrt" />
       <node concept="1Koe21" id="2979S3pyTVM" role="1lVwrX">
         <node concept="2YIFZM" id="2979S3pyTW7" role="1Koe22">
-          <ref role="37wK5l" to="wyt6:~Math.sqrt(double):double" resolve="sqrt" />
+          <ref role="37wK5l" to="wyt6:~Math.sqrt(double)" resolve="sqrt" />
           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
           <node concept="3cmrfG" id="2979S3pyTWm" role="37wK5m">
             <property role="3cmrfH" value="10" />
@@ -737,7 +737,7 @@
       <node concept="1Koe21" id="2979S3pyW10" role="1lVwrX">
         <node concept="2YIFZM" id="2979S3pyW2R" role="1Koe22">
           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-          <ref role="37wK5l" to="wyt6:~Math.abs(int):int" resolve="abs" />
+          <ref role="37wK5l" to="wyt6:~Math.abs(int)" resolve="abs" />
           <node concept="3cmrfG" id="2979S3pyW36" role="37wK5m">
             <property role="3cmrfH" value="10" />
             <node concept="29HgVG" id="2979S3pyX$7" role="lGtFl">
@@ -763,7 +763,7 @@
       <ref role="30HIoZ" to="rcub:4$yggntIoE0" resolve="Cosine" />
       <node concept="1Koe21" id="2979S3pyYOK" role="1lVwrX">
         <node concept="2YIFZM" id="2979S3pyYRH" role="1Koe22">
-          <ref role="37wK5l" to="wyt6:~Math.cos(double):double" resolve="cos" />
+          <ref role="37wK5l" to="wyt6:~Math.cos(double)" resolve="cos" />
           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
           <node concept="3cmrfG" id="2979S3pyYWS" role="37wK5m">
             <property role="3cmrfH" value="10" />
@@ -790,7 +790,7 @@
       <ref role="30HIoZ" to="rcub:4Ajzui6SjSZ" resolve="Sine" />
       <node concept="1Koe21" id="2979S3pz2Uh" role="1lVwrX">
         <node concept="2YIFZM" id="2979S3pz2UA" role="1Koe22">
-          <ref role="37wK5l" to="wyt6:~Math.sin(double):double" resolve="sin" />
+          <ref role="37wK5l" to="wyt6:~Math.sin(double)" resolve="sin" />
           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
           <node concept="3cmrfG" id="2979S3pz2UP" role="37wK5m">
             <property role="3cmrfH" value="10" />
@@ -817,7 +817,7 @@
       <ref role="30HIoZ" to="rcub:4Ajzui6R4Tl" resolve="Power" />
       <node concept="1Koe21" id="2979S3pz1bK" role="1lVwrX">
         <node concept="2YIFZM" id="2979S3pz1c3" role="1Koe22">
-          <ref role="37wK5l" to="wyt6:~Math.pow(double,double):double" resolve="pow" />
+          <ref role="37wK5l" to="wyt6:~Math.pow(double,double)" resolve="pow" />
           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
           <node concept="3cmrfG" id="2979S3pz1hq" role="37wK5m">
             <property role="3cmrfH" value="1" />
@@ -861,7 +861,7 @@
       <ref role="30HIoZ" to="rcub:4Ajzui6QSvq" resolve="NRoot" />
       <node concept="1Koe21" id="2979S3pzcpV" role="1lVwrX">
         <node concept="2YIFZM" id="2979S3pzc_T" role="1Koe22">
-          <ref role="37wK5l" to="wyt6:~Math.pow(double,double):double" resolve="pow" />
+          <ref role="37wK5l" to="wyt6:~Math.pow(double,double)" resolve="pow" />
           <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
           <node concept="3cmrfG" id="2979S3pzcA8" role="37wK5m">
             <property role="3cmrfH" value="10" />
@@ -919,7 +919,7 @@
         <node concept="1eOMI4" id="2979S3pzWoR" role="1Koe22">
           <node concept="FJ1c_" id="2979S3pzWpp" role="1eOMHV">
             <node concept="2YIFZM" id="2979S3pzW$e" role="3uHU7w">
-              <ref role="37wK5l" to="wyt6:~Math.log(double):double" resolve="log" />
+              <ref role="37wK5l" to="wyt6:~Math.log(double)" resolve="log" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="3cmrfG" id="2979S3pzW_v" role="37wK5m">
                 <property role="3cmrfH" value="10" />
@@ -940,7 +940,7 @@
               </node>
             </node>
             <node concept="2YIFZM" id="2979S3pzWxP" role="3uHU7B">
-              <ref role="37wK5l" to="wyt6:~Math.log(double):double" resolve="log" />
+              <ref role="37wK5l" to="wyt6:~Math.log(double)" resolve="log" />
               <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="3cmrfG" id="2979S3pzWyo" role="37wK5m">
                 <property role="3cmrfH" value="10" />
@@ -994,7 +994,7 @@
                   <ref role="3cqZAo" node="2979S3pviDX" resolve="integrator" />
                 </node>
                 <node concept="liA8E" id="2979S3pvkD8" role="2OqNvi">
-                  <ref role="37wK5l" to="3rlt:~BaseAbstractUnivariateIntegrator.integrate(int,org.apache.commons.math3.analysis.UnivariateFunction,double,double):double" resolve="integrate" />
+                  <ref role="37wK5l" to="3rlt:~BaseAbstractUnivariateIntegrator.integrate(int,org.apache.commons.math3.analysis.UnivariateFunction,double,double)" resolve="integrate" />
                   <node concept="3cmrfG" id="2979S3pvkLE" role="37wK5m">
                     <property role="3cmrfH" value="100000" />
                   </node>

@@ -87,10 +87,11 @@ A version in maintenance will not get actively new features and is only maintain
 
 | MPS Version | State |
 |:--|:--|
-| 2018.3 | active development |
+| 2019.1 | active development |
+| 2018.3 | maintenance |
 | 2018.2 | maintenance |
-| 2018.1 | maintenance |
-| 2017.3 | maintenance  |
+| 2018.1 | **not maintained** |
+| 2017.3 | **not maintained** |
 | 2017.2 | **not maintained** |
 | 2017.1 | **not maintained** |
 

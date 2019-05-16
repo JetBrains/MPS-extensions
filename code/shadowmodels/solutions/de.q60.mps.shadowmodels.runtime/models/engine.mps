@@ -24,6 +24,7 @@
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
     <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
+    <import index="34yc" ref="r:87ef0c11-2693-4e35-aa6f-6a270f0e2cd7(de.q60.mps.shadowmodels.runtime.logging)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -1419,17 +1420,38 @@
         </node>
         <node concept="3clFbJ" id="5b_lky_SKOZ" role="3cqZAp">
           <node concept="3clFbS" id="5b_lky_SKP1" role="3clFbx">
+            <node concept="3cpWs8" id="7rXsP$3XbSa" role="3cqZAp">
+              <node concept="3cpWsn" id="7rXsP$3XbSb" role="3cpWs9">
+                <property role="TrG5h" value="msg" />
+                <node concept="17QB3L" id="7rXsP$3XbS6" role="1tU5fm" />
+                <node concept="3cpWs3" id="7rXsP$3XbSc" role="33vP2m">
+                  <node concept="37vLTw" id="7rXsP$3XbSd" role="3uHU7w">
+                    <ref role="3cqZAo" node="Vl1zEEAwwB" resolve="index" />
+                  </node>
+                  <node concept="Xl_RD" id="7rXsP$3XbSe" role="3uHU7B">
+                    <property role="Xl_RC" value="No root elements found at index " />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7rXsP$3XcRf" role="3cqZAp">
+              <node concept="2YIFZM" id="7rXsP$3XcTu" role="3clFbG">
+                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="34yc:7rXsP$3PvDy" resolve="logError" />
+                <node concept="37vLTw" id="7rXsP$3XcWu" role="37wK5m">
+                  <ref role="3cqZAo" node="7rXsP$3XbSb" resolve="msg" />
+                </node>
+                <node concept="37vLTw" id="7rXsP$3Xd3d" role="37wK5m">
+                  <ref role="3cqZAo" node="IdPituBdgS" resolve="call" />
+                </node>
+              </node>
+            </node>
             <node concept="YS8fn" id="5b_lky_SyoX" role="3cqZAp">
               <node concept="2ShNRf" id="5b_lky_SyoY" role="YScLw">
                 <node concept="1pGfFk" id="5b_lky_SyoZ" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="5b_lky_Syp0" role="37wK5m">
-                    <node concept="37vLTw" id="5b_lky_Syp1" role="3uHU7w">
-                      <ref role="3cqZAo" node="Vl1zEEAwwB" resolve="index" />
-                    </node>
-                    <node concept="Xl_RD" id="5b_lky_Syp2" role="3uHU7B">
-                      <property role="Xl_RC" value="No root elements found at index " />
-                    </node>
+                  <node concept="37vLTw" id="7rXsP$3XbSf" role="37wK5m">
+                    <ref role="3cqZAo" node="7rXsP$3XbSb" resolve="msg" />
                   </node>
                 </node>
               </node>
@@ -1460,17 +1482,69 @@
         </node>
         <node concept="3clFbJ" id="5b_lky_SVCG" role="3cqZAp">
           <node concept="3clFbS" id="5b_lky_SVCI" role="3clFbx">
+            <node concept="3cpWs8" id="7rXsP$3V7FZ" role="3cqZAp">
+              <node concept="3cpWsn" id="7rXsP$3V7G0" role="3cpWs9">
+                <property role="TrG5h" value="msg" />
+                <node concept="17QB3L" id="7rXsP$3V7FY" role="1tU5fm" />
+                <node concept="3cpWs3" id="7rXsP$3V7G1" role="33vP2m">
+                  <node concept="37vLTw" id="7rXsP$3V7G2" role="3uHU7w">
+                    <ref role="3cqZAo" node="Vl1zEEAwwB" resolve="index" />
+                  </node>
+                  <node concept="Xl_RD" id="7rXsP$3V7G3" role="3uHU7B">
+                    <property role="Xl_RC" value="Multiple root elements found at index " />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7rXsP$3V7yr" role="3cqZAp">
+              <node concept="2YIFZM" id="7rXsP$3V9z1" role="3clFbG">
+                <ref role="37wK5l" to="34yc:7rXsP$3PvDy" resolve="logError" />
+                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <node concept="37vLTw" id="7rXsP$3V9_u" role="37wK5m">
+                  <ref role="3cqZAo" node="7rXsP$3V7G0" resolve="msg" />
+                </node>
+                <node concept="37vLTw" id="7rXsP$3VaQc" role="37wK5m">
+                  <ref role="3cqZAo" node="IdPituBdgS" resolve="call" />
+                </node>
+                <node concept="Xl_RD" id="7rXsP$3Vc1k" role="37wK5m">
+                  <property role="Xl_RC" value="Found elements: " />
+                </node>
+                <node concept="2OqwBi" id="7rXsP$3VcRK" role="37wK5m">
+                  <node concept="2OqwBi" id="7rXsP$3W7Yd" role="2Oq$k0">
+                    <node concept="37vLTw" id="7rXsP$3Vczh" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5b_lky_SlC_" resolve="elements" />
+                    </node>
+                    <node concept="3$u5V9" id="7rXsP$3WaAw" role="2OqNvi">
+                      <node concept="1bVj0M" id="7rXsP$3WaAy" role="23t8la">
+                        <node concept="3clFbS" id="7rXsP$3WaAz" role="1bW5cS">
+                          <node concept="3clFbF" id="7rXsP$3WaQg" role="3cqZAp">
+                            <node concept="2OqwBi" id="7rXsP$3Wb9$" role="3clFbG">
+                              <node concept="37vLTw" id="7rXsP$3WaQf" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7rXsP$3WaA$" resolve="it" />
+                              </node>
+                              <node concept="liA8E" id="7rXsP$3WdFC" role="2OqNvi">
+                                <ref role="37wK5l" node="7WfC1hyOtId" resolve="toNode" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="7rXsP$3WaA$" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="7rXsP$3WaA_" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="ANE8D" id="7rXsP$3VfvT" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
             <node concept="YS8fn" id="5b_lky_SvL7" role="3cqZAp">
               <node concept="2ShNRf" id="5b_lky_SvMh" role="YScLw">
                 <node concept="1pGfFk" id="5b_lky_Sw2n" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="5b_lky_Sy8Y" role="37wK5m">
-                    <node concept="37vLTw" id="5b_lky_Sy9R" role="3uHU7w">
-                      <ref role="3cqZAo" node="Vl1zEEAwwB" resolve="index" />
-                    </node>
-                    <node concept="Xl_RD" id="5b_lky_SwM0" role="3uHU7B">
-                      <property role="Xl_RC" value="Multiple root elements found at index " />
-                    </node>
+                  <node concept="37vLTw" id="7rXsP$3V7G4" role="37wK5m">
+                    <ref role="3cqZAo" node="7rXsP$3V7G0" resolve="msg" />
                   </node>
                 </node>
               </node>
@@ -29191,6 +29265,19 @@
         </node>
         <node concept="3clFbJ" id="3kkgokk6dRC" role="3cqZAp">
           <node concept="3clFbS" id="3kkgokk6dRE" role="3clFbx">
+            <node concept="3clFbF" id="7rXsP$3RYHW" role="3cqZAp">
+              <node concept="2YIFZM" id="7rXsP$3RYUW" role="3clFbG">
+                <ref role="37wK5l" to="34yc:7rXsP$3PvDy" resolve="logError" />
+                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <node concept="3cpWs3" id="7rXsP$3RYhO" role="37wK5m">
+                  <node concept="Xjq3P" id="7rXsP$3RYjy" role="3uHU7w" />
+                  <node concept="Xl_RD" id="7rXsP$3RXN4" role="3uHU7B">
+                    <property role="Xl_RC" value="Failed to resolve " />
+                  </node>
+                </node>
+                <node concept="Xjq3P" id="7rXsP$3RZnP" role="37wK5m" />
+              </node>
+            </node>
             <node concept="YS8fn" id="3kkgokk6e8X" role="3cqZAp">
               <node concept="2ShNRf" id="3kkgokk6eaq" role="YScLw">
                 <node concept="1pGfFk" id="3kkgokk6ex6" role="2ShVmc">

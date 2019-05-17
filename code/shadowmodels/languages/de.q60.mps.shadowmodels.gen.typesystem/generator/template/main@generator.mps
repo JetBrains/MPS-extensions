@@ -10,7 +10,6 @@
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <import index="oyp0" ref="r:ff4bc8f2-4e53-41b7-a27c-792a5dcc86cb(de.q60.mps.shadowmodels.transformation.structure)" />
     <import index="cspb" ref="r:d2d007b0-88a6-449c-9140-0f6d538e580e(de.q60.mps.shadowmodels.runtime.typesystem)" />
-    <import index="ee18" ref="r:ae5491dd-13f2-4540-8a18-9d4eafbb865f(de.q60.mps.shadowmodels.runtime.incremental)" />
     <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
     <import index="u78q" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typesystem.inference(MPS.Core/)" />
@@ -153,13 +152,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
   </registry>
   <node concept="bUwia" id="1pTQQaTEvxJ">
@@ -232,28 +224,6 @@
                                   </node>
                                 </node>
                               </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="1X3_iC" id="1pTQQaTNanK" role="lGtFl">
-                      <property role="3V$3am" value="statement" />
-                      <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                      <node concept="3cpWs6" id="1pTQQaTFNIy" role="8Wnug">
-                        <node concept="2OqwBi" id="1pTQQaTFNI$" role="3cqZAk">
-                          <node concept="2ShNRf" id="1pTQQaTFNI_" role="2Oq$k0">
-                            <node concept="1pGfFk" id="1pTQQaTFNIA" role="2ShVmc">
-                              <ref role="37wK5l" to="cspb:1pTQQaTEoy0" resolve="ShadowTypesystem" />
-                              <node concept="37vLTw" id="1pTQQaTFNIB" role="37wK5m">
-                                <ref role="3cqZAo" node="1pTQQaTFMrI" resolve="engine" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="1pTQQaTFNIC" role="2OqNvi">
-                            <ref role="37wK5l" to="cspb:1pTQQaTMYr2" resolve="getType" />
-                            <node concept="37vLTw" id="1pTQQaTFNJ0" role="37wK5m">
-                              <ref role="3cqZAo" node="1pTQQaTFtMa" resolve="expr" />
                             </node>
                           </node>
                         </node>

@@ -2,10 +2,10 @@
 <model ref="r:3014a312-a1f1-41c3-9ecc-5491810305c3(de.q60.mps.shadowmodels.runtime.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
-    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="-1" />
+    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -41,6 +41,7 @@
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
+    <import index="dglc" ref="r:713965c4-2968-4619-9821-2429551acbb4(de.q60.mps.shadowmodels.runtime.concurrentrepo)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -491,8 +492,8 @@
         <node concept="3clFbF" id="TC$M5wUhyU" role="3cqZAp">
           <node concept="2OqwBi" id="TC$M5wUhyV" role="3clFbG">
             <node concept="2YIFZM" id="TC$M5wUhyW" role="2Oq$k0">
-              <ref role="37wK5l" to="pa15:~PersistenceRegistry.getInstance()" resolve="getInstance" />
               <ref role="1Pybhc" to="pa15:~PersistenceRegistry" resolve="PersistenceRegistry" />
+              <ref role="37wK5l" to="pa15:~PersistenceRegistry.getInstance()" resolve="getInstance" />
             </node>
             <node concept="liA8E" id="TC$M5wUhyX" role="2OqNvi">
               <ref role="37wK5l" to="pa15:~PersistenceRegistry.removeFindUsagesParticipant(org.jetbrains.mps.openapi.persistence.FindUsagesParticipant)" resolve="removeFindUsagesParticipant" />
@@ -512,6 +513,37 @@
             <node concept="liA8E" id="3zTK92KPqhC" role="2OqNvi">
               <ref role="37wK5l" to="l6bp:3zTK92KPneu" resolve="dispose" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1lswC14_poO" role="3cqZAp">
+          <node concept="2OqwBi" id="1lswC14_pX0" role="3clFbG">
+            <node concept="2OqwBi" id="1lswC14_poI" role="2Oq$k0">
+              <node concept="2WthIp" id="1lswC14_poL" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1lswC14_poN" role="2OqNvi">
+                <ref role="2WH_rO" node="1lswC14_m6Y" resolve="mirror" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1lswC14_qLf" role="2OqNvi">
+              <ref role="37wK5l" to="dglc:QurUgigC5f" resolve="dispose" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1lswC14_r6T" role="3cqZAp">
+          <node concept="37vLTI" id="1lswC14_rAx" role="3clFbG">
+            <node concept="10Nm6u" id="1lswC14_rHO" role="37vLTx" />
+            <node concept="2OqwBi" id="1lswC14_r6N" role="37vLTJ">
+              <node concept="2WthIp" id="1lswC14_r6Q" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1lswC14_r6S" role="2OqNvi">
+                <ref role="2WH_rO" node="1lswC14_m6Y" resolve="mirror" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1lswC14_l7W" role="3cqZAp">
+          <node concept="2YIFZM" id="1lswC14_oVo" role="3clFbG">
+            <ref role="37wK5l" to="dglc:1lswC14zOOU" resolve="setInstance" />
+            <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
+            <node concept="10Nm6u" id="1lswC14_p3G" role="37wK5m" />
           </node>
         </node>
       </node>
@@ -535,8 +567,8 @@
             <node concept="liA8E" id="3jGmESsMXzX" role="2OqNvi">
               <ref role="37wK5l" to="l6bp:ncHX0OS6Ab" resolve="start" />
               <node concept="2YIFZM" id="3jGmESsMXHv" role="37wK5m">
-                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
                 <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
               </node>
             </node>
           </node>
@@ -544,8 +576,8 @@
         <node concept="3clFbF" id="TC$M5wUgKD" role="3cqZAp">
           <node concept="2OqwBi" id="TC$M5wUhco" role="3clFbG">
             <node concept="2YIFZM" id="TC$M5wUgWI" role="2Oq$k0">
-              <ref role="37wK5l" to="pa15:~PersistenceRegistry.getInstance()" resolve="getInstance" />
               <ref role="1Pybhc" to="pa15:~PersistenceRegistry" resolve="PersistenceRegistry" />
+              <ref role="37wK5l" to="pa15:~PersistenceRegistry.getInstance()" resolve="getInstance" />
             </node>
             <node concept="liA8E" id="TC$M5wUhvB" role="2OqNvi">
               <ref role="37wK5l" to="pa15:~PersistenceRegistry.addFindUsagesParticipant(org.jetbrains.mps.openapi.persistence.FindUsagesParticipant)" resolve="addFindUsagesParticipant" />
@@ -556,7 +588,44 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="QurUgiHox4" role="3cqZAp" />
+        <node concept="3clFbF" id="1lswC14_nhr" role="3cqZAp">
+          <node concept="37vLTI" id="1lswC14_nY7" role="3clFbG">
+            <node concept="2OqwBi" id="1lswC14_nhl" role="37vLTJ">
+              <node concept="2WthIp" id="1lswC14_nho" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1lswC14_nhq" role="2OqNvi">
+                <ref role="2WH_rO" node="1lswC14_m6Y" resolve="mirror" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="1lswC14_o9K" role="37vLTx">
+              <node concept="1pGfFk" id="1lswC14_o9L" role="2ShVmc">
+                <ref role="37wK5l" to="dglc:QurUgi6nZ4" resolve="RepositoryMirror" />
+                <node concept="2YIFZM" id="1lswC14_o9M" role="37wK5m">
+                  <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+                  <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1lswC14_0sq" role="3cqZAp">
+          <node concept="2YIFZM" id="1lswC14_0QL" role="3clFbG">
+            <ref role="37wK5l" to="dglc:1lswC14zOOU" resolve="setInstance" />
+            <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
+            <node concept="2OqwBi" id="1lswC14_op3" role="37wK5m">
+              <node concept="2WthIp" id="1lswC14_op6" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1lswC14_op8" role="2OqNvi">
+                <ref role="2WH_rO" node="1lswC14_m6Y" resolve="mirror" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2BZ0e9" id="1lswC14_m6Y" role="2uRRBG">
+      <property role="TrG5h" value="mirror" />
+      <node concept="3Tm6S6" id="1lswC14_m6Z" role="1B3o_S" />
+      <node concept="3uibUv" id="1lswC14_mH0" role="1tU5fm">
+        <ref role="3uigEE" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
       </node>
     </node>
   </node>
@@ -692,8 +761,8 @@
                   <ref role="3uigEE" to="z1c4:~MPSProject" resolve="MPSProject" />
                 </node>
                 <node concept="2YIFZM" id="4S3q4YkOLgR" role="33vP2m">
-                  <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project)" resolve="fromIdeaProject" />
                   <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project)" resolve="fromIdeaProject" />
                   <node concept="37vLTw" id="4S3q4YkOLgS" role="37wK5m">
                     <ref role="3cqZAo" node="115Xaa3ZfVW" resolve="ideaProject" />
                   </node>
@@ -764,8 +833,8 @@
           <node concept="1rXfSq" id="4S3q4YkOSLY" role="3clFbG">
             <ref role="37wK5l" node="115Xaa3Zk30" resolve="getInstance" />
             <node concept="2YIFZM" id="4S3q4YkOTEE" role="37wK5m">
-              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
               <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
               <node concept="37vLTw" id="4S3q4YkOTTc" role="37wK5m">
                 <ref role="3cqZAo" node="4S3q4YkONja" resolve="mpsProject" />
               </node>
@@ -1558,8 +1627,8 @@
                   <ref role="37wK5l" to="rvbb:~ProjectPane.getTree()" resolve="getTree" />
                 </node>
                 <node concept="2YIFZM" id="115Xaa41$bL" role="2Oq$k0">
-                  <ref role="37wK5l" to="rvbb:~ProjectPane.getInstance(jetbrains.mps.project.Project)" resolve="getInstance" />
                   <ref role="1Pybhc" to="rvbb:~ProjectPane" resolve="ProjectPane" />
+                  <ref role="37wK5l" to="rvbb:~ProjectPane.getInstance(jetbrains.mps.project.Project)" resolve="getInstance" />
                   <node concept="37vLTw" id="115Xaa41$bM" role="37wK5m">
                     <ref role="3cqZAo" node="115Xaa3Z2NL" resolve="project" />
                   </node>
@@ -1584,8 +1653,8 @@
             </node>
             <node concept="kI3uX" id="115Xaa3ZlPx" role="2OqNvi">
               <node concept="2YIFZM" id="4S3q4YkP1ZJ" role="kIiFs">
-                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
                 <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
                 <node concept="37vLTw" id="4S3q4YkP2bt" role="37wK5m">
                   <ref role="3cqZAo" node="115Xaa3Z2NL" resolve="project" />
                 </node>
@@ -1608,8 +1677,8 @@
               <ref role="3uigEE" to="rvbb:~ProjectPane" resolve="ProjectPane" />
             </node>
             <node concept="2YIFZM" id="115Xaa41HDg" role="33vP2m">
-              <ref role="37wK5l" to="rvbb:~ProjectPane.getInstance(jetbrains.mps.project.Project)" resolve="getInstance" />
               <ref role="1Pybhc" to="rvbb:~ProjectPane" resolve="ProjectPane" />
+              <ref role="37wK5l" to="rvbb:~ProjectPane.getInstance(jetbrains.mps.project.Project)" resolve="getInstance" />
               <node concept="37vLTw" id="115Xaa41HDh" role="37wK5m">
                 <ref role="3cqZAo" node="115Xaa3Z2NL" resolve="project" />
               </node>
@@ -1779,8 +1848,8 @@
                 </node>
               </node>
               <node concept="2YIFZM" id="151UdFuY8YW" role="3uHU7w">
-                <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                 <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                 <node concept="3cpWsd" id="151UdFuY8YX" role="37wK5m">
                   <node concept="3cmrfG" id="151UdFuY8YY" role="3uHU7w">
                     <property role="3cmrfH" value="1" />
@@ -1823,8 +1892,8 @@
                     <ref role="3cqZAo" node="7YhLqbpvh8s" resolve="root" />
                   </node>
                   <node concept="2YIFZM" id="151UdFuYahp" role="37wK5m">
-                    <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                     <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                    <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                     <node concept="2OqwBi" id="151UdFuYahs" role="37wK5m">
                       <node concept="37vLTw" id="5_qLwQsxlmn" role="2Oq$k0">
                         <ref role="3cqZAo" node="7YhLqbpvh8s" resolve="root" />
@@ -3552,8 +3621,8 @@
         <node concept="3clFbF" id="56YPHTojUz_" role="3cqZAp">
           <node concept="2OqwBi" id="56YPHTojUNj" role="3clFbG">
             <node concept="2YIFZM" id="56YPHTojU$R" role="2Oq$k0">
-              <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
               <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+              <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
             </node>
             <node concept="liA8E" id="56YPHTojVxc" role="2OqNvi">
               <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable)" resolve="invokeLater" />

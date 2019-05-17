@@ -1815,32 +1815,6 @@
         </node>
       </node>
     </node>
-    <node concept="2r74Ui" id="4dUgPRE4kej" role="LiRBU">
-      <node concept="2r747v" id="4dUgPRE4kek" role="2r746Q">
-        <property role="TrG5h" value="State1" />
-      </node>
-      <node concept="2r747v" id="4dUgPRE4kel" role="2r746Q">
-        <property role="TrG5h" value="State2" />
-      </node>
-      <node concept="2r747w" id="4dUgPRE4kem" role="2r746P">
-        <property role="TrG5h" value="Event1" />
-        <node concept="LIFWc" id="PE3B26Ompf" role="lGtFl">
-          <property role="ZRATv" value="true" />
-          <property role="OXtK3" value="true" />
-          <property role="p6zMq" value="6" />
-          <property role="p6zMs" value="6" />
-          <property role="LIFWd" value="property_name" />
-        </node>
-      </node>
-      <node concept="2r747w" id="4dUgPRE4ken" role="2r746P">
-        <property role="TrG5h" value="Event2" />
-      </node>
-      <node concept="2r747a" id="4dUgPRE4keo" role="2r746X">
-        <ref role="2r741x" node="4dUgPRE4kek" resolve="State1" />
-        <ref role="2r741U" node="4dUgPRE4kem" resolve="Event1" />
-        <ref role="2r741I" node="4dUgPRE4kel" resolve="State2" />
-      </node>
-    </node>
     <node concept="2r74Ui" id="4dUgPRE4oYC" role="LiZbd">
       <node concept="2r747v" id="4dUgPRE4oYD" role="2r746Q">
         <property role="TrG5h" value="State1" />
@@ -1859,6 +1833,32 @@
         <ref role="2r741x" node="4dUgPRE4oYD" resolve="State1" />
         <ref role="2r741I" node="4dUgPRE4oYE" resolve="State2" />
         <ref role="2r741U" node="4dUgPRE4oYF" resolve="Event1" />
+      </node>
+    </node>
+    <node concept="2r74Ui" id="xHXNSek3Ei" role="LiRBU">
+      <node concept="2r747v" id="xHXNSek3Ej" role="2r746Q">
+        <property role="TrG5h" value="State1" />
+      </node>
+      <node concept="2r747v" id="xHXNSek3Ek" role="2r746Q">
+        <property role="TrG5h" value="State2" />
+      </node>
+      <node concept="2r747w" id="xHXNSek3El" role="2r746P">
+        <property role="TrG5h" value="Event1" />
+        <node concept="LIFWc" id="xHXNSek3EU" role="lGtFl">
+          <property role="ZRATv" value="true" />
+          <property role="OXtK3" value="true" />
+          <property role="p6zMq" value="6" />
+          <property role="p6zMs" value="6" />
+          <property role="LIFWd" value="property_name" />
+        </node>
+      </node>
+      <node concept="2r747w" id="xHXNSek3En" role="2r746P">
+        <property role="TrG5h" value="Event2" />
+      </node>
+      <node concept="2r747a" id="xHXNSek3Eo" role="2r746X">
+        <ref role="2r741I" node="xHXNSek3Ek" resolve="State2" />
+        <ref role="2r741x" node="xHXNSek3Ej" resolve="State1" />
+        <ref role="2r741U" node="xHXNSek3El" resolve="Event1" />
       </node>
     </node>
   </node>

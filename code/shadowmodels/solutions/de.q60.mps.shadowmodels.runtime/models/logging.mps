@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="mpcv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.ref(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -376,6 +377,11 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="xHXNSeNS1H" role="jymVt">
+      <property role="TrG5h" value="thread" />
+      <node concept="3Tm6S6" id="xHXNSeNS1I" role="1B3o_S" />
+      <node concept="17QB3L" id="xHXNSeNSmo" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="7rXsP$3PXGZ" role="jymVt" />
     <node concept="3Tm1VV" id="7rXsP$3PvHM" role="1B3o_S" />
     <node concept="3clFbW" id="7rXsP$3PXI8" role="jymVt">
@@ -451,6 +457,22 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="xHXNSeNSBc" role="3cqZAp">
+          <node concept="37vLTI" id="xHXNSeNT58" role="3clFbG">
+            <node concept="2OqwBi" id="xHXNSeNTwp" role="37vLTx">
+              <node concept="2YIFZM" id="xHXNSeNTkW" role="2Oq$k0">
+                <ref role="37wK5l" to="wyt6:~Thread.currentThread()" resolve="currentThread" />
+                <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+              </node>
+              <node concept="liA8E" id="xHXNSeNTId" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Thread.getName()" resolve="getName" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="xHXNSeNSBa" role="37vLTJ">
+              <ref role="3cqZAo" node="xHXNSeNS1H" resolve="thread" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="7rXsP$3PXIs" role="3clF46">
         <property role="TrG5h" value="message" />
@@ -521,6 +543,22 @@
         <node concept="3clFbF" id="7rXsP$3Xg0B" role="3cqZAp">
           <node concept="37vLTw" id="7rXsP$3Xg0x" role="3clFbG">
             <ref role="3cqZAo" node="7rXsP$3Xe$W" resolve="stackTrace" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="xHXNSeNU7Q" role="jymVt" />
+    <node concept="3clFb_" id="xHXNSeNTOb" role="jymVt">
+      <property role="TrG5h" value="getThreadName" />
+      <node concept="17QB3L" id="xHXNSeNTOc" role="3clF45" />
+      <node concept="3Tm1VV" id="xHXNSeNTOd" role="1B3o_S" />
+      <node concept="3clFbS" id="xHXNSeNTOe" role="3clF47">
+        <node concept="3clFbF" id="xHXNSeNTOf" role="3cqZAp">
+          <node concept="2OqwBi" id="xHXNSeNTO8" role="3clFbG">
+            <node concept="Xjq3P" id="xHXNSeNTO9" role="2Oq$k0" />
+            <node concept="2OwXpG" id="xHXNSeNTOa" role="2OqNvi">
+              <ref role="2Oxat5" node="xHXNSeNS1H" resolve="thread" />
+            </node>
           </node>
         </node>
       </node>

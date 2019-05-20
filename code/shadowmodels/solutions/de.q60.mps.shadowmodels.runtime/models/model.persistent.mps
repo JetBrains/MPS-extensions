@@ -16,6 +16,7 @@
     <import index="3xem" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.control(de.q60.mps.libs/)" />
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
     <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
+    <import index="34yc" ref="r:87ef0c11-2693-4e35-aa6f-6a270f0e2cd7(de.q60.mps.shadowmodels.runtime.logging)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">

@@ -6411,6 +6411,11 @@
             <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
           </node>
         </node>
+        <node concept="1SiIV0" id="xHXNSeYVms" role="3bR37C">
+          <node concept="3bR9La" id="xHXNSeYVmt" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5Hs" role="2G$12L">
         <property role="BnDLt" value="true" />

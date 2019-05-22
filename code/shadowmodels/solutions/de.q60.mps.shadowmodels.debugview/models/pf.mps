@@ -992,34 +992,25 @@
             <node concept="3uibUv" id="41QOk3IEF5t" role="1tU5fm">
               <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
-            <node concept="10Nm6u" id="70DEt$5Ti5K" role="33vP2m" />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="70DEt$5TiGN" role="3cqZAp">
-          <node concept="3clFbS" id="70DEt$5TiGP" role="3clFbx">
-            <node concept="3clFbF" id="70DEt$5TaY0" role="3cqZAp">
-              <node concept="37vLTI" id="70DEt$5TaY2" role="3clFbG">
-                <node concept="2OqwBi" id="41QOk3IEF5u" role="37vLTx">
-                  <node concept="2YIFZM" id="41QOk3IEF5v" role="2Oq$k0">
-                    <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
-                    <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-                  </node>
-                  <node concept="liA8E" id="41QOk3IEF5w" role="2OqNvi">
-                    <ref role="37wK5l" to="l6bp:5z3H0sDX929" resolve="getOriginalInputNode" />
-                    <node concept="3kvyP4" id="41QOk3IEF5x" role="37wK5m">
-                      <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
-                    </node>
-                  </node>
+            <node concept="2YIFZM" id="61gRJt5hblS" role="33vP2m">
+              <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
+              <ref role="37wK5l" to="dglc:61gRJt5gwlk" resolve="getOriginalNode" />
+              <node concept="2YIFZM" id="61gRJt5hblT" role="37wK5m">
+                <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
+                <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                <node concept="3kvyP4" id="61gRJt5hblU" role="37wK5m">
+                  <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
                 </node>
-                <node concept="37vLTw" id="70DEt$5TaY6" role="37vLTJ">
-                  <ref role="3cqZAo" node="41QOk3IEF5s" resolve="originalNode" />
+              </node>
+              <node concept="2OqwBi" id="61gRJt5hblV" role="37wK5m">
+                <node concept="3kvyP4" id="61gRJt5hblW" role="2Oq$k0">
+                  <ref role="3kvyN1" node="41QOk3IEF6S" resolve="context" />
+                </node>
+                <node concept="liA8E" id="61gRJt5hblX" role="2OqNvi">
+                  <ref role="37wK5l" node="7rXsP$40kBM" resolve="getRepository" />
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="2YIFZM" id="70DEt$5Tj2B" role="3clFbw">
-            <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
           </node>
         </node>
         <node concept="3cpWs8" id="41QOk3IEF5y" role="3cqZAp">
@@ -1233,14 +1224,48 @@
     <node concept="3ku1Nf" id="1_qG3hO1H3i" role="3khUj0">
       <ref role="3ku1L4" node="41QOk3IEF5d" resolve="buildTrace" />
       <node concept="3clFbS" id="1_qG3hO1H3k" role="3ku1Le">
+        <node concept="3cpWs8" id="61gRJt5lrXS" role="3cqZAp">
+          <node concept="3cpWsn" id="61gRJt5lrXT" role="3cpWs9">
+            <property role="TrG5h" value="originalNode" />
+            <node concept="3uibUv" id="61gRJt5lrXR" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2YIFZM" id="61gRJt5lrXU" role="33vP2m">
+              <ref role="37wK5l" to="dglc:61gRJt5gwlk" resolve="getOriginalNode" />
+              <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
+              <node concept="3kvyP4" id="61gRJt5lrXV" role="37wK5m">
+                <ref role="3kvyN1" node="1_qG3hO1KpN" resolve="element" />
+              </node>
+              <node concept="2OqwBi" id="61gRJt5lrXW" role="37wK5m">
+                <node concept="3kvyP4" id="61gRJt5lrXX" role="2Oq$k0">
+                  <ref role="3kvyN1" node="1_qG3hO1KpP" resolve="context" />
+                </node>
+                <node concept="liA8E" id="61gRJt5lrXY" role="2OqNvi">
+                  <ref role="37wK5l" node="7rXsP$40kBM" resolve="getRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="1_qG3hO1NA6" role="3cqZAp">
           <node concept="2M0cAz" id="1_qG3hO1NAe" role="3cqZAk">
             <ref role="2M0c$$" node="41QOk3IEF5d" resolve="buildTrace" />
-            <node concept="2YIFZM" id="1_qG3hO1OyW" role="2M0c$y">
-              <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
-              <node concept="3kvyP4" id="1_qG3hO1Px9" role="37wK5m">
-                <ref role="3kvyN1" node="1_qG3hO1KpN" resolve="element" />
+            <node concept="3K4zz7" id="61gRJt5lQpE" role="2M0c$y">
+              <node concept="37vLTw" id="61gRJt5lQpF" role="3K4E3e">
+                <ref role="3cqZAo" node="61gRJt5lrXT" resolve="originalNode" />
+              </node>
+              <node concept="2YIFZM" id="61gRJt5lQpG" role="3K4GZi">
+                <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
+                <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+                <node concept="3kvyP4" id="61gRJt5lQpH" role="37wK5m">
+                  <ref role="3kvyN1" node="1_qG3hO1KpN" resolve="element" />
+                </node>
+              </node>
+              <node concept="3y3z36" id="61gRJt5lQpI" role="3K4Cdx">
+                <node concept="10Nm6u" id="61gRJt5lQpJ" role="3uHU7w" />
+                <node concept="37vLTw" id="61gRJt5lQpK" role="3uHU7B">
+                  <ref role="3cqZAo" node="61gRJt5lrXT" resolve="originalNode" />
+                </node>
               </node>
             </node>
             <node concept="3kvyP4" id="1_qG3hO1Rsb" role="2M0c$y">
@@ -2440,16 +2465,12 @@
               <node concept="Xl_RD" id="41QOk3IUw1c" role="37wK5m">
                 <property role="Xl_RC" value="Input: " />
               </node>
-              <node concept="2YIFZM" id="41QOk3IUw8K" role="37wK5m">
-                <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
-                <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                <node concept="2OqwBi" id="41QOk3IUw8L" role="37wK5m">
-                  <node concept="3kvyP4" id="41QOk3IUw8M" role="2Oq$k0">
-                    <ref role="3kvyN1" node="41QOk3ISOTa" resolve="call" />
-                  </node>
-                  <node concept="liA8E" id="41QOk3IUw8N" role="2OqNvi">
-                    <ref role="37wK5l" to="nv3w:2$QnGbtLReB" resolve="getInput" />
-                  </node>
+              <node concept="2OqwBi" id="61gRJt5kIDM" role="37wK5m">
+                <node concept="3kvyP4" id="61gRJt5kIDN" role="2Oq$k0">
+                  <ref role="3kvyN1" node="41QOk3ISOTa" resolve="call" />
+                </node>
+                <node concept="liA8E" id="61gRJt5kIDO" role="2OqNvi">
+                  <ref role="37wK5l" to="nv3w:2$QnGbtLReB" resolve="getInput" />
                 </node>
               </node>
             </node>

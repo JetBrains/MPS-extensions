@@ -37,6 +37,7 @@
     <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" />
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
     <import index="jmi8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.util(MPS.IDEA/)" />
+    <import index="dglc" ref="r:713965c4-2968-4619-9821-2429551acbb4(de.q60.mps.shadowmodels.runtime.concurrentrepo)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -1706,16 +1707,18 @@
                                                               <node concept="3uibUv" id="7Ks$D7GwY4N" role="1tU5fm">
                                                                 <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
                                                               </node>
-                                                              <node concept="2OqwBi" id="5z3H0sDX6JB" role="33vP2m">
-                                                                <node concept="2YIFZM" id="5z3H0sDX6xr" role="2Oq$k0">
-                                                                  <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-                                                                  <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
-                                                                </node>
-                                                                <node concept="liA8E" id="5z3H0sDX6Y8" role="2OqNvi">
-                                                                  <ref role="37wK5l" to="l6bp:5z3H0sDX929" resolve="getOriginalInputNode" />
-                                                                  <node concept="37vLTw" id="5z3H0sDX7CW" role="37wK5m">
+                                                              <node concept="2YIFZM" id="61gRJt5hkt6" role="33vP2m">
+                                                                <ref role="37wK5l" to="dglc:61gRJt5gwlk" resolve="getOriginalNode" />
+                                                                <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
+                                                                <node concept="2YIFZM" id="61gRJt5hljM" role="37wK5m">
+                                                                  <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                                                                  <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
+                                                                  <node concept="37vLTw" id="61gRJt5hlJl" role="37wK5m">
                                                                     <ref role="3cqZAo" node="7Ks$D7GwLZL" resolve="target" />
                                                                   </node>
+                                                                </node>
+                                                                <node concept="37vLTw" id="61gRJt5hmJx" role="37wK5m">
+                                                                  <ref role="3cqZAo" node="5lWcBwJGihM" resolve="repository" />
                                                                 </node>
                                                               </node>
                                                             </node>

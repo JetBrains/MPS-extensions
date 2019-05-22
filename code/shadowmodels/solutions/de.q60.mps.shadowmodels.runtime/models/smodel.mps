@@ -381,6 +381,21 @@
       </concept>
       <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e" />
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
         <property id="2034914114981261751" name="severity" index="RRSoG" />
@@ -26279,6 +26294,18 @@
       <node concept="2AHcQZ" id="5z3H0sDWKGn" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
+      <node concept="P$JXv" id="61gRJt5hxG5" role="lGtFl">
+        <node concept="TZ5HI" id="61gRJt5hxG6" role="3nqlJM">
+          <node concept="TZ5HA" id="61gRJt5hxG7" role="3HnX3l">
+            <node concept="1dT_AC" id="61gRJt5h_mr" role="1dT_Ay">
+              <property role="1dT_AB" value=" Use RepositoryMirror.getOriginalNode" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="61gRJt5hxG8" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="2tJIrI" id="5z3H0sDXcoy" role="jymVt" />
     <node concept="3clFb_" id="5z3H0sDX929" role="jymVt">
@@ -26309,6 +26336,18 @@
       </node>
       <node concept="2AHcQZ" id="5z3H0sDX92k" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="P$JXv" id="61gRJt5hrA6" role="lGtFl">
+        <node concept="TZ5HI" id="61gRJt5hrA7" role="3nqlJM">
+          <node concept="TZ5HA" id="61gRJt5hrA8" role="3HnX3l">
+            <node concept="1dT_AC" id="61gRJt5hvTU" role="1dT_Ay">
+              <property role="1dT_AB" value=" Use RepositoryMirror.getOriginalNode" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="61gRJt5hrA9" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="2tJIrI" id="5z3H0sDUaBO" role="jymVt" />

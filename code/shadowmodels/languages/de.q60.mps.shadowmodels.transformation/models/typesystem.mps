@@ -1538,95 +1538,143 @@
                 <node concept="3clFbS" id="5b_lkyAab0v" role="nvhr_">
                   <node concept="nvevp" id="5b_lkyAab2w" role="3cqZAp">
                     <node concept="3clFbS" id="5b_lkyAab2x" role="nvhr_">
-                      <node concept="3cpWs8" id="5b_lkyAabMm" role="3cqZAp">
-                        <node concept="3cpWsn" id="5b_lkyAabMn" role="3cpWs9">
-                          <property role="TrG5h" value="implSequence" />
-                          <node concept="3Tqbb2" id="5b_lkyAabMb" role="1tU5fm">
-                            <ref role="ehGHo" to="tp2q:gKA3Dh4" resolve="SequenceType" />
-                          </node>
-                          <node concept="1UaxmW" id="5b_lkyAabMo" role="33vP2m">
-                            <node concept="1YaCAy" id="5b_lkyAabMp" role="1Ub_4A">
-                              <property role="TrG5h" value="implSequence" />
-                              <ref role="1YaFvo" to="tp2q:gKA3Dh4" resolve="SequenceType" />
-                            </node>
-                            <node concept="2X3wrD" id="5b_lkyAabMq" role="1Ub_4B">
-                              <ref role="2X3Bk0" node="5b_lkyAab0z" resolve="implType" />
-                            </node>
-                          </node>
+                      <node concept="3SKdUt" id="6yk5G9LM2Dx" role="3cqZAp">
+                        <node concept="3SKdUq" id="6yk5G9LM2Dz" role="3SKWNk">
+                          <property role="3SKdUp" value="It's not always possible to know the output concept statically. Disable the typecheck in this case." />
                         </node>
                       </node>
-                      <node concept="3cpWs8" id="5b_lkyAabNx" role="3cqZAp">
-                        <node concept="3cpWsn" id="5b_lkyAabNy" role="3cpWs9">
-                          <property role="TrG5h" value="intfSequence" />
-                          <node concept="3Tqbb2" id="5b_lkyAabNz" role="1tU5fm">
-                            <ref role="ehGHo" to="tp2q:gKA3Dh4" resolve="SequenceType" />
-                          </node>
-                          <node concept="1UaxmW" id="5b_lkyAabN$" role="33vP2m">
-                            <node concept="1YaCAy" id="5b_lkyAabN_" role="1Ub_4A">
-                              <property role="TrG5h" value="implSequence" />
-                              <ref role="1YaFvo" to="tp2q:gKA3Dh4" resolve="SequenceType" />
-                            </node>
-                            <node concept="2X3wrD" id="5b_lkyAabOg" role="1Ub_4B">
-                              <ref role="2X3Bk0" node="5b_lkyAab2$" resolve="intfType" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3clFbJ" id="5b_lkyAabOK" role="3cqZAp">
-                        <node concept="3clFbS" id="5b_lkyAabOM" role="3clFbx">
-                          <node concept="3SKdUt" id="5b_lkyAaqa3" role="3cqZAp">
-                            <node concept="3SKdUq" id="5b_lkyAaqa5" role="3SKWNk">
-                              <property role="3SKdUp" value="A single element is also valid when then interface allows multiple" />
-                            </node>
-                          </node>
-                          <node concept="1ZobV4" id="5b_lkyAamDz" role="3cqZAp">
-                            <property role="3wDh2S" value="true" />
-                            <node concept="mw_s8" id="5b_lkyAamD$" role="1ZfhKB">
-                              <node concept="2OqwBi" id="5b_lkyAanmV" role="mwGJk">
-                                <node concept="37vLTw" id="5b_lkyAan55" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="5b_lkyAabNy" resolve="intfSequence" />
+                      <node concept="3cpWs8" id="6yk5G9LM28p" role="3cqZAp">
+                        <node concept="3cpWsn" id="6yk5G9LM28q" role="3cpWs9">
+                          <property role="TrG5h" value="implConceptUnknown" />
+                          <node concept="10P_77" id="6yk5G9LM28i" role="1tU5fm" />
+                          <node concept="1Wc70l" id="6yk5G9LM28r" role="33vP2m">
+                            <node concept="2OqwBi" id="6yk5G9LM28s" role="3uHU7w">
+                              <node concept="2OqwBi" id="6yk5G9LM28t" role="2Oq$k0">
+                                <node concept="1PxgMI" id="6yk5G9LM28u" role="2Oq$k0">
+                                  <node concept="chp4Y" id="6yk5G9LM28v" role="3oSUPX">
+                                    <ref role="cht4Q" to="tp25:gzTqbfa" resolve="SNodeType" />
+                                  </node>
+                                  <node concept="2X3wrD" id="6yk5G9LM28w" role="1m5AlR">
+                                    <ref role="2X3Bk0" node="5b_lkyAab0z" resolve="implType" />
+                                  </node>
                                 </node>
-                                <node concept="3TrEf2" id="5b_lkyAaq75" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="tp2q:gKA3Ige" resolve="elementType" />
+                                <node concept="3TrEf2" id="6yk5G9LM28x" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="tp25:g$ehGDh" resolve="concept" />
                                 </node>
                               </node>
+                              <node concept="3w_OXm" id="6yk5G9LM28y" role="2OqNvi" />
                             </node>
-                            <node concept="mw_s8" id="5b_lkyAamDA" role="1ZfhK$">
-                              <node concept="2X3wrD" id="5b_lkyAamRO" role="mwGJk">
+                            <node concept="2OqwBi" id="6yk5G9LM28z" role="3uHU7B">
+                              <node concept="2X3wrD" id="6yk5G9LM28$" role="2Oq$k0">
                                 <ref role="2X3Bk0" node="5b_lkyAab0z" resolve="implType" />
                               </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="1Wc70l" id="5b_lkyAajPd" role="3clFbw">
-                          <node concept="2OqwBi" id="5b_lkyAakc7" role="3uHU7w">
-                            <node concept="37vLTw" id="5b_lkyAajW1" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5b_lkyAabMn" resolve="implSequence" />
-                            </node>
-                            <node concept="3w_OXm" id="5b_lkyAamuV" role="2OqNvi" />
-                          </node>
-                          <node concept="2OqwBi" id="5b_lkyAac2D" role="3uHU7B">
-                            <node concept="37vLTw" id="5b_lkyAajT9" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5b_lkyAabNy" resolve="intfSequence" />
-                            </node>
-                            <node concept="3x8VRR" id="5b_lkyAaezX" role="2OqNvi" />
-                          </node>
-                        </node>
-                        <node concept="9aQIb" id="5b_lkyAamxT" role="9aQIa">
-                          <node concept="3clFbS" id="5b_lkyAamxU" role="9aQI4">
-                            <node concept="1ZobV4" id="3Ezg1fMVhMd" role="3cqZAp">
-                              <property role="3wDh2S" value="true" />
-                              <node concept="mw_s8" id="5b_lkyAabxU" role="1ZfhKB">
-                                <node concept="2X3wrD" id="5b_lkyAan0E" role="mwGJk">
-                                  <ref role="2X3Bk0" node="5b_lkyAab2$" resolve="intfType" />
+                              <node concept="1mIQ4w" id="6yk5G9LM28_" role="2OqNvi">
+                                <node concept="chp4Y" id="6yk5G9LM28A" role="cj9EA">
+                                  <ref role="cht4Q" to="tp25:gzTqbfa" resolve="SNodeType" />
                                 </node>
                               </node>
-                              <node concept="mw_s8" id="3Ezg1fMVhMh" role="1ZfhK$">
-                                <node concept="2X3wrD" id="5b_lkyAamWf" role="mwGJk">
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="6yk5G9LM2mq" role="3cqZAp">
+                        <node concept="3clFbS" id="6yk5G9LM2ms" role="3clFbx">
+                          <node concept="3cpWs8" id="5b_lkyAabMm" role="3cqZAp">
+                            <node concept="3cpWsn" id="5b_lkyAabMn" role="3cpWs9">
+                              <property role="TrG5h" value="implSequence" />
+                              <node concept="3Tqbb2" id="5b_lkyAabMb" role="1tU5fm">
+                                <ref role="ehGHo" to="tp2q:gKA3Dh4" resolve="SequenceType" />
+                              </node>
+                              <node concept="1UaxmW" id="5b_lkyAabMo" role="33vP2m">
+                                <node concept="1YaCAy" id="5b_lkyAabMp" role="1Ub_4A">
+                                  <property role="TrG5h" value="implSequence" />
+                                  <ref role="1YaFvo" to="tp2q:gKA3Dh4" resolve="SequenceType" />
+                                </node>
+                                <node concept="2X3wrD" id="5b_lkyAabMq" role="1Ub_4B">
                                   <ref role="2X3Bk0" node="5b_lkyAab0z" resolve="implType" />
                                 </node>
                               </node>
                             </node>
+                          </node>
+                          <node concept="3cpWs8" id="5b_lkyAabNx" role="3cqZAp">
+                            <node concept="3cpWsn" id="5b_lkyAabNy" role="3cpWs9">
+                              <property role="TrG5h" value="intfSequence" />
+                              <node concept="3Tqbb2" id="5b_lkyAabNz" role="1tU5fm">
+                                <ref role="ehGHo" to="tp2q:gKA3Dh4" resolve="SequenceType" />
+                              </node>
+                              <node concept="1UaxmW" id="5b_lkyAabN$" role="33vP2m">
+                                <node concept="1YaCAy" id="5b_lkyAabN_" role="1Ub_4A">
+                                  <property role="TrG5h" value="implSequence" />
+                                  <ref role="1YaFvo" to="tp2q:gKA3Dh4" resolve="SequenceType" />
+                                </node>
+                                <node concept="2X3wrD" id="5b_lkyAabOg" role="1Ub_4B">
+                                  <ref role="2X3Bk0" node="5b_lkyAab2$" resolve="intfType" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbJ" id="5b_lkyAabOK" role="3cqZAp">
+                            <node concept="3clFbS" id="5b_lkyAabOM" role="3clFbx">
+                              <node concept="3SKdUt" id="5b_lkyAaqa3" role="3cqZAp">
+                                <node concept="3SKdUq" id="5b_lkyAaqa5" role="3SKWNk">
+                                  <property role="3SKdUp" value="A single element is also valid when then interface allows multiple" />
+                                </node>
+                              </node>
+                              <node concept="1ZobV4" id="5b_lkyAamDz" role="3cqZAp">
+                                <property role="3wDh2S" value="true" />
+                                <node concept="mw_s8" id="5b_lkyAamD$" role="1ZfhKB">
+                                  <node concept="2OqwBi" id="5b_lkyAanmV" role="mwGJk">
+                                    <node concept="37vLTw" id="5b_lkyAan55" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="5b_lkyAabNy" resolve="intfSequence" />
+                                    </node>
+                                    <node concept="3TrEf2" id="5b_lkyAaq75" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="tp2q:gKA3Ige" resolve="elementType" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="mw_s8" id="5b_lkyAamDA" role="1ZfhK$">
+                                  <node concept="2X3wrD" id="5b_lkyAamRO" role="mwGJk">
+                                    <ref role="2X3Bk0" node="5b_lkyAab0z" resolve="implType" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="1Wc70l" id="5b_lkyAajPd" role="3clFbw">
+                              <node concept="2OqwBi" id="5b_lkyAakc7" role="3uHU7w">
+                                <node concept="37vLTw" id="5b_lkyAajW1" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="5b_lkyAabMn" resolve="implSequence" />
+                                </node>
+                                <node concept="3w_OXm" id="5b_lkyAamuV" role="2OqNvi" />
+                              </node>
+                              <node concept="2OqwBi" id="5b_lkyAac2D" role="3uHU7B">
+                                <node concept="37vLTw" id="5b_lkyAajT9" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="5b_lkyAabNy" resolve="intfSequence" />
+                                </node>
+                                <node concept="3x8VRR" id="5b_lkyAaezX" role="2OqNvi" />
+                              </node>
+                            </node>
+                            <node concept="9aQIb" id="5b_lkyAamxT" role="9aQIa">
+                              <node concept="3clFbS" id="5b_lkyAamxU" role="9aQI4">
+                                <node concept="1ZobV4" id="3Ezg1fMVhMd" role="3cqZAp">
+                                  <property role="3wDh2S" value="true" />
+                                  <node concept="mw_s8" id="5b_lkyAabxU" role="1ZfhKB">
+                                    <node concept="2X3wrD" id="5b_lkyAan0E" role="mwGJk">
+                                      <ref role="2X3Bk0" node="5b_lkyAab2$" resolve="intfType" />
+                                    </node>
+                                  </node>
+                                  <node concept="mw_s8" id="3Ezg1fMVhMh" role="1ZfhK$">
+                                    <node concept="2X3wrD" id="5b_lkyAamWf" role="mwGJk">
+                                      <ref role="2X3Bk0" node="5b_lkyAab0z" resolve="implType" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3fqX7Q" id="6yk5G9LM2ol" role="3clFbw">
+                          <node concept="37vLTw" id="6yk5G9LM2oB" role="3fr31v">
+                            <ref role="3cqZAo" node="6yk5G9LM28q" resolve="implConceptUnknown" />
                           </node>
                         </node>
                       </node>

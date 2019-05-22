@@ -6208,6 +6208,11 @@
             <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
           </node>
         </node>
+        <node concept="1SiIV0" id="475LaDXmBeQ" role="3bR37C">
+          <node concept="3bR9La" id="475LaDXmBeR" role="1SiIV1">
+            <ref role="3bR37D" node="61gRJt5pslx" resolve="de.q60.mps.logging.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="56N5Q5feHaK" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -6444,6 +6449,11 @@
         <node concept="1SiIV0" id="xHXNSeYVms" role="3bR37C">
           <node concept="3bR9La" id="xHXNSeYVmt" role="1SiIV1">
             <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="475LaDXmBfv" role="3bR37C">
+          <node concept="3bR9La" id="475LaDXmBfw" role="1SiIV1">
+            <ref role="3bR37D" node="61gRJt5pslx" resolve="de.q60.mps.logging.runtime" />
           </node>
         </node>
       </node>

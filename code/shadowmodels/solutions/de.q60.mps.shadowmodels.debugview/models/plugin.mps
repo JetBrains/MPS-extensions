@@ -2395,12 +2395,6 @@
       <node concept="tCFHf" id="5wnrAmUkXSs" role="ftvYc">
         <ref role="tCJdB" node="5wnrAmTKzuc" resolve="LoadTraceback" />
       </node>
-      <node concept="tCFHf" id="21SKqk9Wp6j" role="ftvYc">
-        <ref role="tCJdB" node="55FR5sargmZ" resolve="LoadForkExplorer" />
-      </node>
-      <node concept="tCFHf" id="7rXsP$3RrDi" role="ftvYc">
-        <ref role="tCJdB" node="7rXsP$3QQU3" resolve="LoadErrors" />
-      </node>
       <node concept="2a7GMi" id="5wnrAmUkZlq" role="ftvYc" />
     </node>
     <node concept="tT9cl" id="5wnrAmUkXSn" role="2f5YQi">
@@ -2409,7 +2403,7 @@
   </node>
   <node concept="sE7Ow" id="55FR5sargmZ">
     <property role="TrG5h" value="LoadForkExplorer" />
-    <property role="2uzpH1" value="Shadow Models: Fork Explorer" />
+    <property role="2uzpH1" value="Fork Explorer" />
     <property role="72QZ$" value="true" />
     <node concept="1DS2jV" id="55FR5sargn0" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -2588,6 +2582,9 @@
       </node>
       <node concept="tCFHf" id="7rXsP$3RzW4" role="ftvYc">
         <ref role="tCJdB" node="7rXsP$3QQU3" resolve="LoadErrors" />
+      </node>
+      <node concept="tCFHf" id="6yk5G9LLpKq" role="ftvYc">
+        <ref role="tCJdB" node="6yk5G9LLa8K" resolve="ClearErrorLog" />
       </node>
     </node>
     <node concept="tT9cl" id="21SKqk9W$ej" role="2f5YQi">
@@ -3114,7 +3111,7 @@
   </node>
   <node concept="sE7Ow" id="7rXsP$3QQU3">
     <property role="TrG5h" value="LoadErrors" />
-    <property role="2uzpH1" value="Shadow Models: Error Log" />
+    <property role="2uzpH1" value="Show Error Log" />
     <property role="72QZ$" value="true" />
     <node concept="1DS2jV" id="7rXsP$3QQU4" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -3175,6 +3172,20 @@
                 <property role="3clFbU" value="true" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="6yk5G9LLa8K">
+    <property role="2uzpH1" value="Clear Error Log" />
+    <property role="TrG5h" value="ClearErrorLog" />
+    <node concept="tnohg" id="6yk5G9LLa8L" role="tncku">
+      <node concept="3clFbS" id="6yk5G9LLa8M" role="2VODD2">
+        <node concept="3clFbF" id="475LaDXmUa6" role="3cqZAp">
+          <node concept="2YIFZM" id="475LaDXnemE" role="3clFbG">
+            <ref role="37wK5l" to="y071:475LaDXmXpP" resolve="clear" />
+            <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
           </node>
         </node>
       </node>

@@ -136,6 +136,7 @@
       </concept>
       <concept id="1227008614712" name="jetbrains.mps.baseLanguage.collections.structure.LinkedListCreator" flags="nn" index="2Jqq0_" />
       <concept id="1227022159410" name="jetbrains.mps.baseLanguage.collections.structure.AddFirstElementOperation" flags="nn" index="2Ke4WJ" />
+      <concept id="1227022210526" name="jetbrains.mps.baseLanguage.collections.structure.ClearAllElementsOperation" flags="nn" index="2Kehj3" />
       <concept id="1227026094155" name="jetbrains.mps.baseLanguage.collections.structure.RemoveLastElementOperation" flags="nn" index="2Kt5_m" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
@@ -418,6 +419,22 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="7rXsP$3PZxG" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="475LaDXmV9c" role="jymVt" />
+    <node concept="2YIFZL" id="475LaDXmXpP" role="jymVt">
+      <property role="TrG5h" value="clear" />
+      <node concept="3clFbS" id="475LaDXmVUN" role="3clF47">
+        <node concept="3clFbF" id="475LaDXmYnY" role="3cqZAp">
+          <node concept="2OqwBi" id="475LaDXmZ0a" role="3clFbG">
+            <node concept="37vLTw" id="475LaDXmYnX" role="2Oq$k0">
+              <ref role="3cqZAo" node="7rXsP$3PvR5" resolve="entries" />
+            </node>
+            <node concept="2Kehj3" id="475LaDXndIO" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="475LaDXmVUL" role="3clF45" />
+      <node concept="3Tm1VV" id="475LaDXmVUM" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="7rXsP$3Pvyh" role="1B3o_S" />
   </node>

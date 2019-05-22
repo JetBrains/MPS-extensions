@@ -44,7 +44,7 @@
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="gsia" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.event(JDK/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
-    <import index="34yc" ref="r:87ef0c11-2693-4e35-aa6f-6a270f0e2cd7(de.q60.mps.shadowmodels.runtime.logging)" />
+    <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -3143,8 +3143,8 @@
                   <ref role="37wK5l" to="2uyn:7rXsP$43VAz" resolve="ErrorLog" />
                   <node concept="2OqwBi" id="7rXsP$43Zv2" role="37wK5m">
                     <node concept="2YIFZM" id="7rXsP$3RoMK" role="2Oq$k0">
-                      <ref role="37wK5l" to="34yc:7rXsP$3QL5v" resolve="getEntries" />
-                      <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                      <ref role="37wK5l" to="y071:7rXsP$3QL5v" resolve="getEntries" />
+                      <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                     </node>
                     <node concept="ANE8D" id="7rXsP$440Z_" role="2OqNvi" />
                   </node>

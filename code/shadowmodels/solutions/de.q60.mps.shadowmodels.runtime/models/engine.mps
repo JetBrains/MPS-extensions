@@ -24,7 +24,7 @@
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
     <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
-    <import index="34yc" ref="r:87ef0c11-2693-4e35-aa6f-6a270f0e2cd7(de.q60.mps.shadowmodels.runtime.logging)" />
+    <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -1436,8 +1436,8 @@
             </node>
             <node concept="3clFbF" id="7rXsP$3XcRf" role="3cqZAp">
               <node concept="2YIFZM" id="7rXsP$3XcTu" role="3clFbG">
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
-                <ref role="37wK5l" to="34yc:7rXsP$3PvDy" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3PvDy" resolve="logError" />
                 <node concept="37vLTw" id="7rXsP$3XcWu" role="37wK5m">
                   <ref role="3cqZAo" node="7rXsP$3XbSb" resolve="msg" />
                 </node>
@@ -1498,8 +1498,8 @@
             </node>
             <node concept="3clFbF" id="7rXsP$3V7yr" role="3cqZAp">
               <node concept="2YIFZM" id="7rXsP$3V9z1" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3PvDy" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3PvDy" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="7rXsP$3V9_u" role="37wK5m">
                   <ref role="3cqZAo" node="7rXsP$3V7G0" resolve="msg" />
                 </node>
@@ -1709,8 +1709,8 @@
             </node>
             <node concept="3clFbF" id="xHXNSeBoQS" role="3cqZAp">
               <node concept="2YIFZM" id="xHXNSeBoXz" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="xHXNSeBoZx" role="37wK5m">
                   <ref role="3cqZAo" node="xHXNSeBmWz" resolve="ex" />
                 </node>
@@ -2151,8 +2151,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSeBwTp" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSeBx10" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSeBx90" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSeBvCM" resolve="ex" />
                   </node>
@@ -2604,8 +2604,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSeB$UC" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSeB_2q" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSeB_80" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSeByrJ" resolve="ex" />
                   </node>
@@ -2692,8 +2692,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSeBCX1" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSeBD5e" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSeBDaW" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSeBAsJ" resolve="ex" />
                   </node>
@@ -2965,8 +2965,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSeBHKX" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSeBHKY" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSeBHKZ" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSeBEz_" resolve="ex" />
                   </node>
@@ -3214,8 +3214,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSeBVUq" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSeBVUr" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSeBVUs" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSeBT7l" resolve="ex" />
                   </node>
@@ -3264,8 +3264,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSeBYDn" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSeBYDo" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSeBYDp" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSeBXza" resolve="ex" />
                   </node>
@@ -4020,8 +4020,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSeC2wQ" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSeC2wR" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSeC2wS" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSeC01x" resolve="ex" />
                   </node>
@@ -4803,8 +4803,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSeC5uB" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSeC5uC" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSeC5uD" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSeC3SZ" resolve="ex" />
                   </node>
@@ -7382,8 +7382,8 @@
                       </node>
                       <node concept="3clFbF" id="xHXNSe_LSj" role="3cqZAp">
                         <node concept="2YIFZM" id="xHXNSe_LZc" role="3clFbG">
-                          <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                          <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                          <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                          <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                           <node concept="37vLTw" id="xHXNSe_M2q" role="37wK5m">
                             <ref role="3cqZAo" node="xHXNSe_Kzg" resolve="ex" />
                           </node>
@@ -8218,8 +8218,8 @@
             </node>
             <node concept="3clFbF" id="xHXNSe_P2$" role="3cqZAp">
               <node concept="2YIFZM" id="xHXNSe_P8I" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="xHXNSe_PaQ" role="37wK5m">
                   <ref role="3cqZAo" node="xHXNSe_NxI" resolve="ex" />
                 </node>
@@ -8462,8 +8462,8 @@
                     </node>
                     <node concept="3clFbF" id="xHXNSe_RrF" role="3cqZAp">
                       <node concept="2YIFZM" id="xHXNSe_RyK" role="3clFbG">
-                        <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                        <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                        <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                        <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                         <node concept="37vLTw" id="xHXNSe_RAQ" role="37wK5m">
                           <ref role="3cqZAo" node="xHXNSe_Qn3" resolve="ex" />
                         </node>
@@ -8836,8 +8836,8 @@
                                               </node>
                                               <node concept="3clFbF" id="xHXNSeA41f" role="3cqZAp">
                                                 <node concept="2YIFZM" id="xHXNSeA8_R" role="3clFbG">
-                                                  <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                                                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                                                  <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                                                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                                                   <node concept="37vLTw" id="xHXNSeAdqP" role="37wK5m">
                                                     <ref role="3cqZAo" node="xHXNSe_SrY" resolve="ex" />
                                                   </node>
@@ -9119,8 +9119,8 @@
                           </node>
                           <node concept="3clFbF" id="xHXNSeAtQE" role="3cqZAp">
                             <node concept="2YIFZM" id="xHXNSeAu8u" role="3clFbG">
-                              <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                              <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                              <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                              <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                               <node concept="37vLTw" id="xHXNSeAugn" role="37wK5m">
                                 <ref role="3cqZAo" node="xHXNSeAsbs" resolve="ex" />
                               </node>
@@ -9631,8 +9631,8 @@
                 </node>
                 <node concept="3clFbF" id="xHXNSeB5Gu" role="3cqZAp">
                   <node concept="2YIFZM" id="xHXNSeB5NE" role="3clFbG">
-                    <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                    <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                    <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                    <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                     <node concept="37vLTw" id="xHXNSeB5Wq" role="37wK5m">
                       <ref role="3cqZAo" node="xHXNSeB4is" resolve="ex" />
                     </node>
@@ -20809,8 +20809,8 @@
             </node>
             <node concept="3clFbF" id="xHXNSe_bTB" role="3cqZAp">
               <node concept="2YIFZM" id="xHXNSe_c0c" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="xHXNSe_c29" role="37wK5m">
                   <ref role="3cqZAo" node="xHXNSe_bdR" resolve="ex" />
                 </node>
@@ -21571,8 +21571,8 @@
             </node>
             <node concept="3clFbF" id="xHXNSe_9dZ" role="3cqZAp">
               <node concept="2YIFZM" id="xHXNSe_9u8" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="xHXNSe_9w5" role="37wK5m">
                   <ref role="3cqZAo" node="xHXNSe_8_P" resolve="ex" />
                 </node>
@@ -23116,8 +23116,8 @@
             </node>
             <node concept="3clFbF" id="xHXNSe_eAk" role="3cqZAp">
               <node concept="2YIFZM" id="xHXNSe_ePa" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="xHXNSe_eR7" role="37wK5m">
                   <ref role="3cqZAo" node="xHXNSe_dGv" resolve="ex" />
                 </node>
@@ -28028,8 +28028,8 @@
             </node>
             <node concept="3clFbF" id="xHXNSe_DoC" role="3cqZAp">
               <node concept="2YIFZM" id="xHXNSe_Due" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="xHXNSe_Dwd" role="37wK5m">
                   <ref role="3cqZAo" node="xHXNSe_CRs" resolve="ex" />
                 </node>
@@ -29749,8 +29749,8 @@
             </node>
             <node concept="3clFbF" id="7rXsP$3RYHW" role="3cqZAp">
               <node concept="2YIFZM" id="7rXsP$3RYUW" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3PvDy" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3PvDy" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="xHXNSe$NVy" role="37wK5m">
                   <ref role="3cqZAo" node="xHXNSe$NVu" resolve="msg" />
                 </node>
@@ -30973,8 +30973,8 @@
               </node>
               <node concept="3clFbF" id="xHXNSe_2Q7" role="3cqZAp">
                 <node concept="2YIFZM" id="xHXNSe_2ZW" role="3clFbG">
-                  <ref role="37wK5l" to="34yc:7rXsP$3PvDy" resolve="logError" />
-                  <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                  <ref role="37wK5l" to="y071:7rXsP$3PvDy" resolve="logError" />
+                  <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                   <node concept="37vLTw" id="xHXNSe_33k" role="37wK5m">
                     <ref role="3cqZAo" node="xHXNSe_27Y" resolve="msg" />
                   </node>
@@ -32946,8 +32946,8 @@
                 </node>
                 <node concept="3clFbF" id="xHXNSe_omD" role="3cqZAp">
                   <node concept="2YIFZM" id="xHXNSe_osY" role="3clFbG">
-                    <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                    <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                    <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                    <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                     <node concept="37vLTw" id="xHXNSe_ovB" role="37wK5m">
                       <ref role="3cqZAo" node="xHXNSe_npj" resolve="ex" />
                     </node>
@@ -33330,8 +33330,8 @@
                 </node>
                 <node concept="3clFbF" id="xHXNSe_rDP" role="3cqZAp">
                   <node concept="2YIFZM" id="xHXNSe_rRh" role="3clFbG">
-                    <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                    <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                    <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                    <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                     <node concept="37vLTw" id="xHXNSe_rUs" role="37wK5m">
                       <ref role="3cqZAo" node="xHXNSe_qck" resolve="ex" />
                     </node>
@@ -33463,8 +33463,8 @@
                 </node>
                 <node concept="3clFbF" id="xHXNSe_xbV" role="3cqZAp">
                   <node concept="2YIFZM" id="xHXNSe_xqB" role="3clFbG">
-                    <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                    <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                    <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                    <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                     <node concept="37vLTw" id="xHXNSe_xtZ" role="37wK5m">
                       <ref role="3cqZAo" node="xHXNSe_v$n" resolve="ex" />
                     </node>
@@ -34357,8 +34357,8 @@
             </node>
             <node concept="3clFbF" id="xHXNSe_zDH" role="3cqZAp">
               <node concept="2YIFZM" id="xHXNSe_zK8" role="3clFbG">
-                <ref role="37wK5l" to="34yc:7rXsP$3RVaU" resolve="logError" />
-                <ref role="1Pybhc" to="34yc:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
                 <node concept="37vLTw" id="xHXNSe_zMz" role="37wK5m">
                   <ref role="3cqZAo" node="xHXNSe_yIj" resolve="ex" />
                 </node>

@@ -42436,5 +42436,47 @@
       <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
     </node>
   </node>
+  <node concept="312cEu" id="6yk5G9LOul3">
+    <property role="TrG5h" value="GeneratedTransformationRule" />
+    <property role="1sVAO0" value="true" />
+    <node concept="3Tm1VV" id="6yk5G9LOul4" role="1B3o_S" />
+    <node concept="3uibUv" id="6yk5G9LOunb" role="1zkMxy">
+      <ref role="3uigEE" to="nv3w:5gTrVpGjojK" resolve="AbstractTransformationRule" />
+    </node>
+    <node concept="312cEg" id="6yk5G9LOGbU" role="jymVt">
+      <property role="TrG5h" value="declaration" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="6yk5G9LOGfg" role="1B3o_S" />
+      <node concept="3uibUv" id="6yk5G9LOGed" role="1tU5fm">
+        <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6yk5G9LOuoj" role="jymVt" />
+    <node concept="3clFbW" id="6yk5G9LOun$" role="jymVt">
+      <node concept="3cqZAl" id="6yk5G9LOun_" role="3clF45" />
+      <node concept="3Tm1VV" id="6yk5G9LOunA" role="1B3o_S" />
+      <node concept="3clFbS" id="6yk5G9LOunC" role="3clF47">
+        <node concept="3clFbF" id="6yk5G9LOGl9" role="3cqZAp">
+          <node concept="37vLTI" id="6yk5G9LOHba" role="3clFbG">
+            <node concept="37vLTw" id="6yk5G9LOHkm" role="37vLTx">
+              <ref role="3cqZAo" node="6yk5G9LOGhv" resolve="declaration" />
+            </node>
+            <node concept="2OqwBi" id="6yk5G9LOGw9" role="37vLTJ">
+              <node concept="Xjq3P" id="6yk5G9LOGl8" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6yk5G9LOGWq" role="2OqNvi">
+                <ref role="2Oxat5" node="6yk5G9LOGbU" resolve="declaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6yk5G9LOGhv" role="3clF46">
+        <property role="TrG5h" value="declaration" />
+        <node concept="3uibUv" id="6yk5G9LOGhu" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

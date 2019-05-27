@@ -340,3 +340,40 @@ github {
 }
 
 githubRelease.dependsOn packageExtensions
+
+// DependenciesViewer
+apply from: 'dv-ddg-client/build.gradle'
+
+if(ciBuild){
+    project.ext.ddgEnabled = hasProperty("ddgEnabledCi") && property("ddgEnabledCi").equalsIgnoreCase("true")
+    println "findProperty ddgEnabledCi: " + findProperty("ddgEnabledCi")
+}else{
+    project.ext.ddgEnabled = System.getProperty("ddgEnabledLocal") != null && System.getProperty("ddgEnabledLocal").equalsIgnoreCase("true")
+    println "System-property ddgEndabledLocal: " + System.getProperty("ddgEnabledLocal")
+}
+println "project.ext.ddgEnabled: ${ddgEnabled}"
+
+task buildLanguagesBeforeDdg {
+    doFirst {println "task build_languages"}
+    dependsOn 'build_languages'
+}
+
+run_ddg_mps_extensions.dependsOn buildLanguagesBeforeDdg
+
+task buildWithDdg {
+    doFirst {println 'ddg'}
+    dependsOn run_ddg_mps_extensions
+}
+
+if(project.ext.ciBuild && ddgEnabled){
+    def urlTemp = remote? url : "localhost"
+    println "ddg is executed. Sending to url: ${urlTemp}"
+    tasks.getByName("publish").dependsOn buildWithDdg
+}else{
+    println "run_ddg: ciBuild: " + project.ext.ciBuild
+    if(project.ext.ciBuild){
+        println "run_ddg: ddgEnabled: " + ddgEnabled
+    }
+    println "run_ddg: SKIPPED"
+}
+//End DependenciesViewer

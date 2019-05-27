@@ -51,16 +51,15 @@ def java_args_config = {
   classpath fileTree("${mps_home}/plugins")
 }
 
-// ##################### iets3 #####################
+// ##################### mps extensions #####################
 
-task run_ddg_iets3_opensource(type: JavaExec) {
+task run_ddg_mps_extensions(type: JavaExec) {
 
     configure java_args_config
 
     args '---vp'
-    args 'iets3.opensource'
+    args 'mps.extensions'
 
     args '---f'
-    //args "${projects_home}/iets3.opensource/code/languages/org.iets3.opensource"
-    args "./code/languages/org.iets3.opensource"
+    args "./code"
 }

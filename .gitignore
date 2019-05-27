@@ -14,3 +14,9 @@ site
 .DS_Store
 .gradletasknamecache
 .idea/encodings.xml
+
+# ----------------
+# DV
+# ----------------
+# ddgconfig.gradle
+/ddg-error-log/*

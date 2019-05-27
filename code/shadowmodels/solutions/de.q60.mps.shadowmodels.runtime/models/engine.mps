@@ -19555,10 +19555,13 @@
       <node concept="3cqZAl" id="2$QnGbukBBs" role="3clF45" />
       <node concept="3Tm1VV" id="2$QnGbukBBt" role="1B3o_S" />
       <node concept="3clFbS" id="2$QnGbukBBu" role="3clF47">
-        <node concept="YS8fn" id="2$QnGbukBBv" role="3cqZAp">
-          <node concept="2ShNRf" id="2$QnGbukBBw" role="YScLw">
-            <node concept="1pGfFk" id="2$QnGbukBBx" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+        <node concept="YS8fn" id="2fAW4l4Cdo" role="3cqZAp">
+          <node concept="2ShNRf" id="2fAW4l4Cdp" role="YScLw">
+            <node concept="1pGfFk" id="2fAW4l4Cdq" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+              <node concept="Xl_RD" id="2fAW4l4Cdr" role="37wK5m">
+                <property role="Xl_RC" value="Modifying the output of a transformation is not supported" />
+              </node>
             </node>
           </node>
         </node>
@@ -19673,7 +19676,10 @@
         <node concept="YS8fn" id="2$QnGbukBCe" role="3cqZAp">
           <node concept="2ShNRf" id="2$QnGbukBCf" role="YScLw">
             <node concept="1pGfFk" id="2$QnGbukBCg" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+              <node concept="Xl_RD" id="2fAW4l4BwP" role="37wK5m">
+                <property role="Xl_RC" value="Modifying the output of a transformation is not supported" />
+              </node>
             </node>
           </node>
         </node>

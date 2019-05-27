@@ -8888,6 +8888,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2fAW4lf42S" role="3bR37C">
+          <node concept="3bR9La" id="2fAW4lf42T" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5HI" resolve="de.q60.mps.shadowmodels.runtimelang" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7qGGLAjNnEU" role="2G$12L">
         <property role="BnDLt" value="true" />

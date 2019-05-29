@@ -180,7 +180,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="7NatPTLZR6M">
-    <property role="TrG5h" value="UpdaterForEditor" />
+    <property role="TrG5h" value="TransformationEngineForEditor" />
     <node concept="2tJIrI" id="7NatPTLZR7c" role="jymVt" />
     <node concept="Wx3nA" id="7NatPTM0n6b" role="jymVt">
       <property role="TrG5h" value="instances" />
@@ -190,7 +190,7 @@
           <ref role="3uigEE" to="cj4x:~EditorComponent" resolve="EditorComponent" />
         </node>
         <node concept="3uibUv" id="5HQgaiNsKuP" role="3rvSg0">
-          <ref role="3uigEE" node="7NatPTLZR6M" resolve="UpdaterForEditor" />
+          <ref role="3uigEE" node="7NatPTLZR6M" resolve="TransformationEngineForEditor" />
         </node>
       </node>
       <node concept="3Tm6S6" id="7NatPTM0n2i" role="1B3o_S" />
@@ -200,7 +200,7 @@
             <ref role="3uigEE" to="cj4x:~EditorComponent" resolve="EditorComponent" />
           </node>
           <node concept="3uibUv" id="5HQgaiNsKVs" role="3rHtpV">
-            <ref role="3uigEE" node="7NatPTLZR6M" resolve="UpdaterForEditor" />
+            <ref role="3uigEE" node="7NatPTLZR6M" resolve="TransformationEngineForEditor" />
           </node>
         </node>
       </node>
@@ -215,14 +215,14 @@
           <node concept="3cpWsn" id="7NatPTM0nA$" role="3cpWs9">
             <property role="TrG5h" value="instance" />
             <node concept="3uibUv" id="5HQgaiNsLkb" role="1tU5fm">
-              <ref role="3uigEE" node="7NatPTLZR6M" resolve="UpdaterForEditor" />
+              <ref role="3uigEE" node="7NatPTLZR6M" resolve="TransformationEngineForEditor" />
             </node>
             <node concept="3EllGN" id="7NatPTM0nA_" role="33vP2m">
               <node concept="37vLTw" id="7NatPTM0nAA" role="3ElVtu">
                 <ref role="3cqZAo" node="7NatPTLZR8h" resolve="editor" />
               </node>
               <node concept="10M0yZ" id="7NatPTM0RDa" role="3ElQJh">
-                <ref role="1PxDUh" node="7NatPTLZR6M" resolve="UpdaterForEditor" />
+                <ref role="1PxDUh" node="7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                 <ref role="3cqZAo" node="7NatPTM0n6b" resolve="instances" />
               </node>
             </node>
@@ -234,7 +234,7 @@
               <node concept="37vLTI" id="7NatPTM0nU_" role="3clFbG">
                 <node concept="2ShNRf" id="7NatPTM0nWF" role="37vLTx">
                   <node concept="1pGfFk" id="7NatPTM0nVc" role="2ShVmc">
-                    <ref role="37wK5l" node="7NatPTM0OG5" resolve="UpdaterForEditor" />
+                    <ref role="37wK5l" node="7NatPTM0OG5" resolve="TransformationEngineForEditor" />
                     <node concept="37vLTw" id="7NatPTM0Rhs" role="37wK5m">
                       <ref role="3cqZAo" node="7NatPTLZR8h" resolve="editor" />
                     </node>
@@ -366,7 +366,7 @@
                     <ref role="3cqZAo" node="7NatPTLZR8h" resolve="editor" />
                   </node>
                   <node concept="10M0yZ" id="7NatPTM0RDc" role="3ElQJh">
-                    <ref role="1PxDUh" node="7NatPTLZR6M" resolve="UpdaterForEditor" />
+                    <ref role="1PxDUh" node="7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                     <ref role="3cqZAo" node="7NatPTM0n6b" resolve="instances" />
                   </node>
                 </node>

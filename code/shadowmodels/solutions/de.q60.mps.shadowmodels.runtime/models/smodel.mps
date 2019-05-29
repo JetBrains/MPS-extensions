@@ -7166,10 +7166,21 @@
                     <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
                   </node>
                   <node concept="3clFbS" id="75046mlZbqH" role="3clF47">
-                    <node concept="3clFbF" id="4_SQzDOUgLG" role="3cqZAp">
-                      <node concept="2OqwBi" id="4_SQzDOUh3b" role="3clFbG">
-                        <node concept="1rXfSq" id="4_SQzDOUgLF" role="2Oq$k0">
+                    <node concept="3cpWs8" id="52$J9HAZFQH" role="3cqZAp">
+                      <node concept="3cpWsn" id="52$J9HAZFQI" role="3cpWs9">
+                        <property role="TrG5h" value="targetNode" />
+                        <node concept="3uibUv" id="52$J9HAZFQG" role="1tU5fm">
+                          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                        </node>
+                        <node concept="1rXfSq" id="52$J9HAZFQJ" role="33vP2m">
                           <ref role="37wK5l" node="75046mlZbqz" resolve="getTargetNode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="4_SQzDOUgLG" role="3cqZAp">
+                      <node concept="2EnYce" id="52$J9HAYHjn" role="3clFbG">
+                        <node concept="37vLTw" id="52$J9HAZFQK" role="2Oq$k0">
+                          <ref role="3cqZAo" node="52$J9HAZFQI" resolve="targetNode" />
                         </node>
                         <node concept="liA8E" id="4_SQzDOUhEG" role="2OqNvi">
                           <ref role="37wK5l" to="mhbf:~SNode.getReference()" resolve="getReference" />
@@ -7191,15 +7202,26 @@
                     <ref role="3uigEE" to="mhbf:~SModelReference" resolve="SModelReference" />
                   </node>
                   <node concept="3clFbS" id="75046mlZbqO" role="3clF47">
+                    <node concept="3cpWs8" id="52$J9HAZDuc" role="3cqZAp">
+                      <node concept="3cpWsn" id="52$J9HAZDud" role="3cpWs9">
+                        <property role="TrG5h" value="targetNode" />
+                        <node concept="3uibUv" id="52$J9HAZDub" role="1tU5fm">
+                          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                        </node>
+                        <node concept="1rXfSq" id="52$J9HAZDue" role="33vP2m">
+                          <ref role="37wK5l" node="75046mlZbqz" resolve="getTargetNode" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3cpWs8" id="4_SQzDOUmH6" role="3cqZAp">
                       <node concept="3cpWsn" id="4_SQzDOUmH7" role="3cpWs9">
                         <property role="TrG5h" value="model" />
                         <node concept="3uibUv" id="4_SQzDOUmH4" role="1tU5fm">
                           <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
                         </node>
-                        <node concept="2OqwBi" id="4_SQzDOUmH8" role="33vP2m">
-                          <node concept="1rXfSq" id="4_SQzDOUmH9" role="2Oq$k0">
-                            <ref role="37wK5l" node="75046mlZbqz" resolve="getTargetNode" />
+                        <node concept="2EnYce" id="52$J9HAXM11" role="33vP2m">
+                          <node concept="37vLTw" id="52$J9HAZDuf" role="2Oq$k0">
+                            <ref role="3cqZAo" node="52$J9HAZDud" resolve="targetNode" />
                           </node>
                           <node concept="liA8E" id="4_SQzDOUmHa" role="2OqNvi">
                             <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
@@ -7617,11 +7639,22 @@
                               <ref role="3uigEE" to="mhbf:~SModelReference" resolve="SModelReference" />
                             </node>
                             <node concept="3clFbS" id="3PvZBOPaaI_" role="3clF47">
+                              <node concept="3cpWs8" id="52$J9HB0Nc4" role="3cqZAp">
+                                <node concept="3cpWsn" id="52$J9HB0Nc5" role="3cpWs9">
+                                  <property role="TrG5h" value="targetNode" />
+                                  <node concept="3uibUv" id="52$J9HB0Nc3" role="1tU5fm">
+                                    <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                                  </node>
+                                  <node concept="1rXfSq" id="52$J9HB0Nc6" role="33vP2m">
+                                    <ref role="37wK5l" node="3PvZBOPaaIk" resolve="getTargetNode" />
+                                  </node>
+                                </node>
+                              </node>
                               <node concept="3clFbF" id="3PvZBOPaFK5" role="3cqZAp">
-                                <node concept="2OqwBi" id="B8a55UpJnC" role="3clFbG">
-                                  <node concept="2OqwBi" id="B8a55Uohdm" role="2Oq$k0">
-                                    <node concept="1rXfSq" id="3PvZBOPaFK4" role="2Oq$k0">
-                                      <ref role="37wK5l" node="3PvZBOPaaIk" resolve="getTargetNode" />
+                                <node concept="2EnYce" id="52$J9HB0LPi" role="3clFbG">
+                                  <node concept="2EnYce" id="52$J9HB0JIM" role="2Oq$k0">
+                                    <node concept="37vLTw" id="52$J9HB0Nc7" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="52$J9HB0Nc5" resolve="targetNode" />
                                     </node>
                                     <node concept="liA8E" id="3PvZBOPaGm7" role="2OqNvi">
                                       <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
@@ -12986,14 +13019,9 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="7NatPTM618M" role="3clF47">
-        <node concept="YS8fn" id="7NatPTM618N" role="3cqZAp">
-          <node concept="2ShNRf" id="7NatPTM618O" role="YScLw">
-            <node concept="1pGfFk" id="7NatPTM618P" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
-              <node concept="Xl_RD" id="7NatPTM618Q" role="37wK5m">
-                <property role="Xl_RC" value="Not implemented" />
-              </node>
-            </node>
+        <node concept="3clFbF" id="52$J9HAWCLX" role="3cqZAp">
+          <node concept="3clFbT" id="52$J9HAWCLW" role="3clFbG">
+            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>
@@ -13008,18 +13036,7 @@
       <node concept="2AHcQZ" id="7NatPTM5WSh" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
-      <node concept="3clFbS" id="7NatPTM618R" role="3clF47">
-        <node concept="YS8fn" id="7NatPTM618S" role="3cqZAp">
-          <node concept="2ShNRf" id="7NatPTM618T" role="YScLw">
-            <node concept="1pGfFk" id="7NatPTM618U" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
-              <node concept="Xl_RD" id="7NatPTM618V" role="37wK5m">
-                <property role="Xl_RC" value="Not implemented" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="7NatPTM618R" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7NatPTM5WSi" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -13040,13 +13057,12 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="7NatPTM618W" role="3clF47">
-        <node concept="YS8fn" id="7NatPTM618X" role="3cqZAp">
-          <node concept="2ShNRf" id="7NatPTM618Y" role="YScLw">
-            <node concept="1pGfFk" id="7NatPTM618Z" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
-              <node concept="Xl_RD" id="7NatPTM6190" role="37wK5m">
-                <property role="Xl_RC" value="Not implemented" />
-              </node>
+        <node concept="3clFbF" id="52$J9HAVDVu" role="3cqZAp">
+          <node concept="2YIFZM" id="52$J9HAVDWJ" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <node concept="3uibUv" id="52$J9HAVEdU" role="3PaCim">
+              <ref role="3uigEE" to="mhbf:~SModel$Problem" resolve="SModel.Problem" />
             </node>
           </node>
         </node>
@@ -17652,11 +17668,9 @@
       <node concept="3Tm1VV" id="75046mm0h87" role="1B3o_S" />
       <node concept="10P_77" id="75046mm0h89" role="3clF45" />
       <node concept="3clFbS" id="75046mm0h8a" role="3clF47">
-        <node concept="YS8fn" id="75046mm0ic2" role="3cqZAp">
-          <node concept="2ShNRf" id="75046mm0ic3" role="YScLw">
-            <node concept="1pGfFk" id="75046mm0ic4" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
-            </node>
+        <node concept="3clFbF" id="52$J9HATCrZ" role="3cqZAp">
+          <node concept="3clFbT" id="52$J9HATCrY" role="3clFbG">
+            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>
@@ -17672,12 +17686,8 @@
       <node concept="3Tm1VV" id="75046mm0h8f" role="1B3o_S" />
       <node concept="10P_77" id="75046mm0h8h" role="3clF45" />
       <node concept="3clFbS" id="75046mm0h8i" role="3clF47">
-        <node concept="YS8fn" id="75046mm0ifv" role="3cqZAp">
-          <node concept="2ShNRf" id="75046mm0ifw" role="YScLw">
-            <node concept="1pGfFk" id="75046mm0ifx" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
-            </node>
-          </node>
+        <node concept="3clFbF" id="52$J9HATCxY" role="3cqZAp">
+          <node concept="3clFbT" id="52$J9HATCxX" role="3clFbG" />
         </node>
       </node>
       <node concept="2AHcQZ" id="75046mm0h8j" role="2AJF6D">
@@ -17697,10 +17707,12 @@
         </node>
       </node>
       <node concept="3clFbS" id="75046mm0h8$" role="3clF47">
-        <node concept="YS8fn" id="75046mm0imO" role="3cqZAp">
-          <node concept="2ShNRf" id="75046mm0imP" role="YScLw">
-            <node concept="1pGfFk" id="75046mm0imQ" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+        <node concept="3clFbF" id="52$J9HATAQk" role="3cqZAp">
+          <node concept="2YIFZM" id="52$J9HATARp" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <node concept="3uibUv" id="52$J9HATB8f" role="3PaCim">
+              <ref role="3uigEE" to="lui2:~SDependency" resolve="SDependency" />
             </node>
           </node>
         </node>
@@ -17722,10 +17734,12 @@
         </node>
       </node>
       <node concept="3clFbS" id="75046mm0h8H" role="3clF47">
-        <node concept="YS8fn" id="75046mm0iqO" role="3cqZAp">
-          <node concept="2ShNRf" id="75046mm0iqP" role="YScLw">
-            <node concept="1pGfFk" id="75046mm0iqQ" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+        <node concept="3clFbF" id="52$J9HATBGe" role="3cqZAp">
+          <node concept="2YIFZM" id="52$J9HATBIf" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.emptySet()" resolve="emptySet" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <node concept="3uibUv" id="52$J9HATBRP" role="3PaCim">
+              <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />
             </node>
           </node>
         </node>
@@ -17751,11 +17765,9 @@
         </node>
       </node>
       <node concept="3clFbS" id="75046mm0h8S" role="3clF47">
-        <node concept="YS8fn" id="75046mm0iuP" role="3cqZAp">
-          <node concept="2ShNRf" id="75046mm0iuQ" role="YScLw">
-            <node concept="1pGfFk" id="75046mm0iuR" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
-            </node>
+        <node concept="3clFbF" id="52$J9HATCdr" role="3cqZAp">
+          <node concept="3cmrfG" id="52$J9HATCdq" role="3clFbG">
+            <property role="3cmrfH" value="-1" />
           </node>
         </node>
       </node>
@@ -17838,10 +17850,12 @@
         </node>
       </node>
       <node concept="3clFbS" id="75046mm0h9l" role="3clF47">
-        <node concept="YS8fn" id="75046mm0iG6" role="3cqZAp">
-          <node concept="2ShNRf" id="75046mm0iG7" role="YScLw">
-            <node concept="1pGfFk" id="75046mm0iG8" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+        <node concept="3clFbF" id="52$J9HATCJC" role="3cqZAp">
+          <node concept="2YIFZM" id="52$J9HATCLP" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <node concept="3uibUv" id="52$J9HATD3b" role="3PaCim">
+              <ref role="3uigEE" to="lui2:~SModuleFacet" resolve="SModuleFacet" />
             </node>
           </node>
         </node>

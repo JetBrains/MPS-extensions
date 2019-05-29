@@ -14,6 +14,7 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -49,6 +50,13 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="52$J9HB1RG8" role="1TKVEi">
+      <property role="IQ2ns" value="5810976794849278728" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="52$J9HB1RG4" resolve="Action" />
+    </node>
     <node concept="1TJgyi" id="2FosA_pG$nZ" role="1TKVEl">
       <property role="IQ2nx" value="3087343341364463103" />
       <property role="TrG5h" value="drawBorder" />
@@ -134,6 +142,17 @@
     </node>
     <node concept="PrWs8" id="2VTIUrjl_$o" role="PzmwI">
       <ref role="PrY4T" node="3CYlK6ygFvR" resolve="ICell" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52$J9HB1RG4">
+    <property role="EcuMT" value="5810976794849278724" />
+    <property role="TrG5h" value="Action" />
+    <property role="34LRSv" value="action" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="52$J9HB1RG5" role="1TKVEl">
+      <property role="IQ2nx" value="5810976794849278725" />
+      <property role="TrG5h" value="key" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

@@ -67,6 +67,10 @@
       </node>
     </node>
     <node concept="2VgMA2" id="q2F95_I4Xr" role="2VgMA7">
+      <node concept="2V$Bhx" id="52$J9HB3dI1" role="1t_9vn">
+        <property role="2V$B1T" value="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" />
+        <property role="2V$B1Q" value="jetbrains.mps.lang.actions" />
+      </node>
       <node concept="2V$Bhx" id="q2F95_I4XG" role="1t_9vn">
         <property role="2V$B1T" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1" />
         <property role="2V$B1Q" value="jetbrains.mps.lang.smodel" />

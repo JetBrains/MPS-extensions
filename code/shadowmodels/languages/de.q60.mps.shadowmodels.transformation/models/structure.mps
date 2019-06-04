@@ -1724,5 +1724,28 @@
       <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6g556hX08Yw">
+    <property role="EcuMT" value="7207189200502820768" />
+    <property role="3GE5qa" value="operation" />
+    <property role="TrG5h" value="OperationCall" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="6g556hX1p2e" role="1TKVEi">
+      <property role="IQ2ns" value="7207189200503148686" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameterValues" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="6g556hX08Zh" role="1TKVEi">
+      <property role="IQ2ns" value="7207189200502820817" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="operation" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5lWcBwL7B1V" resolve="OperationDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6g556hX25PD" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
+  </node>
 </model>
 

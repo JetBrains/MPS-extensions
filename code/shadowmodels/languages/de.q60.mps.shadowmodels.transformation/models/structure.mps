@@ -1747,5 +1747,12 @@
       <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2sNIAl_oTZc">
+    <property role="EcuMT" value="2824806335946923980" />
+    <property role="3GE5qa" value="operation" />
+    <property role="TrG5h" value="OperationThisExpression" />
+    <property role="34LRSv" value="this" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
 </model>
 

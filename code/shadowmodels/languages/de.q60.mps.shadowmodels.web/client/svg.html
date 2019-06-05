@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="./Beispiel:SELFHTML-Beispiel-Grundlayout.css" />
+    <style>
+        svg {
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            border: 1px dotted #3983ab;
+        }
+        path {
+            fill: none;
+            stroke-width: 5px;
+        }
+        text {
+            font-size:12px;
+        }
+    </style>
+    <title>Beispiel: Einbindung von Inline-SVG</title>
+</head>
+
+<body>
+    <svg>
+        <style>
+            .gelb{
+                fill:	rgb(223,172,32);
+                stroke-width:	1px;
+                stroke:	rgb(40,130,225);
+            }
+            .blau{
+                fill:	rgb(57,131,171);
+            }
+
+            .linie,.pblau,.quad {
+                fill:	none;
+                stroke-width:	1px;
+                stroke-linecap:	round;
+                stroke:	rgb(40,130,225);
+            }
+
+            .pblau{
+                fill:	rgb(40,130,225);
+                stroke:white;
+            }
+            .quad{
+                fill:	white;
+            }
+
+        </style>
+
+        <g>
+            <ellipse cx="170" cy="20" rx="10" ry="10" style="fill: rgb(57,131,171)"/>
+            <circle cx="50" cy="50" r="10"/>
+            <rect height="20" width="100" x="50" y="100" fill="none" stroke-width="10" stroke="rgb(0,0,0)"/>
+            <rect height="20" width="100" x="50" y="100" fill="none" stroke-width="1" stroke="white"/>
+            <path d="M10,10 l10,10 l10,-10 l10,10 l10,-10 l10,10 l10,-10 l10,10 l10,-10 l10,10 l10,-10 l10,10 l10,-10 l10,10 l10,-10" stroke-width="3" stroke="black"/>
+            <text x="30" y="80" style="font-family:Georgia,monospace;font-size:12px">Abcd edfg</text>
+            <rect x="30" y="80" height="12px" width="100px" style="stroke-width:1;stroke:black"/>
+        </g>
+    </svg>
+</body>
+</html>

@@ -57,6 +57,7 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
+      <modulePath path="$PROJECT_DIR$/languages/de.q60.mps.shadowmodels.web.statemachine/de.q60.mps.shadowmodels.web.statemachine.mpl" folder="shadowmodels.web" />
       <modulePath path="$PROJECT_DIR$/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.demolang/de.itemis.mps.editor.math.demolang.mpl" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.java/de.itemis.mps.editor.math.java.mpl" folder="math" />

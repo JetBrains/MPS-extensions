@@ -5884,9 +5884,6 @@
       <node concept="m$_yC" id="D0xzCAnEqm" role="m$_yJ">
         <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
       </node>
-      <node concept="m$_yC" id="D0xzCApSSV" role="m$_yJ">
-        <ref role="m$_y1" node="BRK1N8p1BI" resolve="de.q60.shadowmodels.examples" />
-      </node>
       <node concept="m$f5U" id="D0xzCApTtT" role="m$_yh">
         <ref role="m$f5T" node="5L2wfmgqIEF" resolve="de.q60.shadowmodels.web" />
       </node>
@@ -7447,11 +7444,6 @@
         <node concept="1SiIV0" id="$vZpdmzmG4" role="3bR37C">
           <node concept="3bR9La" id="$vZpdmzmG5" role="1SiIV1">
             <ref role="3bR37D" node="4iIKqJTZ5HO" resolve="de.q60.mps.shadowmodels.transformation" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="$vZpdmzmG6" role="3bR37C">
-          <node concept="3bR9La" id="$vZpdmzmG7" role="1SiIV1">
-            <ref role="3bR37D" node="BRK1N8p1ux" resolve="de.q60.mps.shadowmodels.examples.statemachine" />
           </node>
         </node>
         <node concept="1SiIV0" id="$vZpdmzmG8" role="3bR37C">

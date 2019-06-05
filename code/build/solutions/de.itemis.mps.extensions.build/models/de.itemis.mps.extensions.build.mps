@@ -8320,6 +8320,11 @@
             <ref role="3bR37D" node="5mH$9t6eA1O" resolve="de.slisson.mps.tables.demolang" />
           </node>
         </node>
+        <node concept="1SiIV0" id="D0xzCAzUZQ" role="3bR37C">
+          <node concept="3bR9La" id="D0xzCAzUZR" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5mH$9t6eA1O" role="2G$12L">
         <property role="BnDLt" value="true" />

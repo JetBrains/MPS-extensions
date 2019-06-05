@@ -6552,6 +6552,26 @@
             <ref role="3bR37D" node="4iIKqJTZ5Hy" resolve="de.q60.mps.shadowmodels.target.editor" />
           </node>
         </node>
+        <node concept="1SiIV0" id="2sNIAl_Wwft" role="3bR37C">
+          <node concept="3bR9La" id="2sNIAl_Wwfu" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2sNIAl_Wwfv" role="3bR37C">
+          <node concept="3bR9La" id="2sNIAl_Wwfw" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2sNIAl_Wwfx" role="3bR37C">
+          <node concept="3bR9La" id="2sNIAl_Wwfy" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5H4" resolve="de.q60.mps.polymorphicfunctions.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2sNIAl_Wwfz" role="3bR37C">
+          <node concept="3bR9La" id="2sNIAl_Wwf$" role="1SiIV1">
+            <ref role="3bR37D" node="763TrXRFx3C" resolve="de.q60.mps.shadowmodels.modelcheck.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="BRK1N8p1Qt" role="2G$12L">
         <property role="BnDLt" value="true" />

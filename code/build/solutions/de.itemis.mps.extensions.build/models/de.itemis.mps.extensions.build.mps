@@ -5857,11 +5857,38 @@
       <node concept="m$f5U" id="BRK1N8p1FQ" role="m$_yh">
         <ref role="m$f5T" node="BRK1N8p1kg" resolve="de.q60.shadowmodels.examples" />
       </node>
-      <node concept="m$_yB" id="5FTdsn6UPni" role="m$_yh">
-        <ref role="m$_yA" node="$vZpdmzleg" resolve="de.q60.mps.shadowmodels.web" />
-      </node>
       <node concept="m$_yC" id="BRK1N8p1FS" role="m$_yJ">
         <ref role="m$_y1" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
+      </node>
+    </node>
+    <node concept="m$_wf" id="D0xzCAnDcS" role="3989C9">
+      <property role="m$_wk" value="de.q60.shadowmodels.web" />
+      <node concept="3_J27D" id="D0xzCAnDcT" role="m$_yQ">
+        <node concept="3Mxwew" id="D0xzCAnDcU" role="3MwsjC">
+          <property role="3MwjfP" value="Shadow Models based web editor" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="D0xzCAnDcV" role="m_cZH">
+        <node concept="3Mxwew" id="D0xzCAnDcW" role="3MwsjC">
+          <property role="3MwjfP" value="de.q60.shadowmodels.web" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="D0xzCAnDcX" role="m$_w8">
+        <node concept="3Mxwew" id="D0xzCAnDcY" role="3MwsjC">
+          <property role="3MwjfP" value="2019.1.0" />
+        </node>
+      </node>
+      <node concept="m$_yC" id="D0xzCAnDd1" role="m$_yJ">
+        <ref role="m$_y1" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
+      </node>
+      <node concept="m$_yC" id="D0xzCAnEqm" role="m$_yJ">
+        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
+      </node>
+      <node concept="m$_yC" id="D0xzCApSSV" role="m$_yJ">
+        <ref role="m$_y1" node="BRK1N8p1BI" resolve="de.q60.shadowmodels.examples" />
+      </node>
+      <node concept="m$f5U" id="D0xzCApTtT" role="m$_yh">
+        <ref role="m$f5T" node="5L2wfmgqIEF" resolve="de.q60.shadowmodels.web" />
       </node>
     </node>
     <node concept="2G$12M" id="4iIKqJTZ5I7" role="3989C9">
@@ -7841,6 +7868,10 @@
       <node concept="m$_wl" id="1RCZH7X6nZZ" role="39821P">
         <ref role="m_rDy" node="BRK1N8p1BI" resolve="de.q60.shadowmodels.examples" />
         <node concept="pUk6x" id="1RCZH7X8l7T" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="D0xzCAnEMq" role="39821P">
+        <ref role="m_rDy" node="D0xzCAnDcS" resolve="de.q60.shadowmodels.web" />
+        <node concept="pUk6x" id="D0xzCAnF37" role="pUk7w" />
         <node concept="398223" id="$vZpdmzxY7" role="39821P">
           <node concept="3_J27D" id="$vZpdmzxY8" role="Nbhlr">
             <node concept="3Mxwew" id="$vZpdmzy5y" role="3MwsjC">

@@ -6,8 +6,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="mxf6" ref="78874af2-5dd2-42a7-a21d-42fab3737d1d/java:org.json(de.q60.mps.shadowmodels.web/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="mxf6" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.json(de.q60.mps.shadowmodels.web.lib/)" />
     <import index="j481" ref="r:b20089df-f3d6-4bf7-8b24-9a8e9c01d887(de.q60.mps.shadowmodels.web.structure)" implicit="true" />
   </imports>
   <registry>
@@ -277,11 +277,11 @@
         <node concept="3cpWs8" id="6kYN8GajpbI" role="3cqZAp">
           <node concept="3cpWsn" id="6kYN8GajpbJ" role="3cpWs9">
             <property role="TrG5h" value="o" />
-            <node concept="3uibUv" id="6kYN8GajpbG" role="1tU5fm">
+            <node concept="3uibUv" id="D0xzCA8y5J" role="1tU5fm">
               <ref role="3uigEE" to="mxf6:~JSONObject" resolve="JSONObject" />
             </node>
             <node concept="2ShNRf" id="6kYN8GajpbK" role="33vP2m">
-              <node concept="1pGfFk" id="6kYN8GajpbL" role="2ShVmc">
+              <node concept="1pGfFk" id="D0xzCA8ymo" role="2ShVmc">
                 <ref role="37wK5l" to="mxf6:~JSONObject.&lt;init&gt;()" resolve="JSONObject" />
               </node>
             </node>

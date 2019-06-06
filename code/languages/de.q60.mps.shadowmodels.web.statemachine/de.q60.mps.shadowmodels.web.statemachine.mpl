@@ -52,6 +52,7 @@
     <dependency reexport="false">e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)</dependency>
     <dependency reexport="false">fdda8484-fc57-4faa-9059-032e2b8b648f(de.q60.mps.shadowmodels.repository)</dependency>
     <dependency reexport="false">0bf7bc3b-b11d-42e4-b160-93d72af96397(de.q60.mps.shadowmodels.runtimelang)</dependency>
+    <dependency reexport="false">6f6906a4-f244-4806-a98b-0bc781cef2a8(de.q60.mps.shadowmodels.web.dom)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:96089812-effe-4a96-bb2e-75f8162046af:de.q60.mps.shadowmodels.gen.afterPF" version="0" />
@@ -97,6 +98,7 @@
     <module reference="e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)" version="0" />
     <module reference="0bf7bc3b-b11d-42e4-b160-93d72af96397(de.q60.mps.shadowmodels.runtimelang)" version="0" />
     <module reference="78874af2-5dd2-42a7-a21d-42fab3737d1d(de.q60.mps.shadowmodels.web)" version="0" />
+    <module reference="6f6906a4-f244-4806-a98b-0bc781cef2a8(de.q60.mps.shadowmodels.web.dom)" version="0" />
     <module reference="d1a299af-6de9-4777-969e-8d0b8c941558(de.q60.mps.shadowmodels.web.statemachine)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />

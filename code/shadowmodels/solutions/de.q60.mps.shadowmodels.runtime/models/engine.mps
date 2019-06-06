@@ -12262,6 +12262,68 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="5wHEIYKwwMK" role="3cqZAp">
+          <property role="TyiWK" value="true" />
+          <node concept="3clFbS" id="5wHEIYKwwMM" role="3clFbx">
+            <node concept="3cpWs8" id="5wHEIYKwAWC" role="3cqZAp">
+              <node concept="3cpWsn" id="5wHEIYKwAWD" role="3cpWs9">
+                <property role="TrG5h" value="ex" />
+                <node concept="3uibUv" id="5wHEIYKwAWB" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+                </node>
+                <node concept="2ShNRf" id="5wHEIYKwAWE" role="33vP2m">
+                  <node concept="1pGfFk" id="5wHEIYKwAWF" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="5wHEIYKwAWG" role="37wK5m">
+                      <property role="Xl_RC" value="Attempt to contribute to a transformation whose root is a transformation call" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5wHEIYKwBlE" role="3cqZAp">
+              <node concept="2YIFZM" id="5wHEIYKwBpD" role="3clFbG">
+                <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+                <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
+                <node concept="37vLTw" id="5wHEIYKwBuJ" role="37wK5m">
+                  <ref role="3cqZAo" node="5wHEIYKwAWD" resolve="ex" />
+                </node>
+                <node concept="37vLTw" id="5wHEIYKwD1a" role="37wK5m">
+                  <ref role="3cqZAo" node="4EhVFrZ9ovR" resolve="problem" />
+                </node>
+                <node concept="37vLTw" id="5wHEIYKwD$B" role="37wK5m">
+                  <ref role="3cqZAo" node="4EhVFrZ9oAZ" resolve="result" />
+                </node>
+                <node concept="2OqwBi" id="5wHEIYKwFpX" role="37wK5m">
+                  <node concept="37vLTw" id="5wHEIYKwEWL" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Vl1zEECkff" resolve="rootElement" />
+                  </node>
+                  <node concept="liA8E" id="5wHEIYKwMk7" role="2OqNvi">
+                    <ref role="37wK5l" node="IdPituxy3r" resolve="getTransformationResult" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="YS8fn" id="5wHEIYKw$0M" role="3cqZAp">
+              <node concept="37vLTw" id="5wHEIYKwAWH" role="YScLw">
+                <ref role="3cqZAo" node="5wHEIYKwAWD" resolve="ex" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5wHEIYKwyZ3" role="3clFbw">
+            <node concept="37vLTw" id="5wHEIYKwzD$" role="3uHU7w">
+              <ref role="3cqZAo" node="4EhVFrZ9oAZ" resolve="result" />
+            </node>
+            <node concept="2OqwBi" id="5wHEIYKwxX9" role="3uHU7B">
+              <node concept="37vLTw" id="5wHEIYKwxut" role="2Oq$k0">
+                <ref role="3cqZAo" node="Vl1zEECkff" resolve="rootElement" />
+              </node>
+              <node concept="liA8E" id="5wHEIYKwyHO" role="2OqNvi">
+                <ref role="37wK5l" node="IdPituxy3r" resolve="getTransformationResult" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="Vl1zEEA72N" role="3cqZAp">
           <node concept="2ShNRf" id="Vl1zEEA72O" role="3clFbG">
             <node concept="YeOm9" id="3ytz0M0T9XJ" role="2ShVmc">

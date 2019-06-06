@@ -154,6 +154,7 @@
     <property role="EcuMT" value="9002232898239389211" />
     <property role="3GE5qa" value="dom.htmlElement" />
     <property role="TrG5h" value="HTMLHRElement" />
+    <property role="34LRSv" value="hr" />
     <ref role="1TJDcQ" node="7NImM04RGAQ" resolve="HTMLElement" />
   </node>
   <node concept="1TIwiD" id="7NImM04TdSs">

@@ -279,6 +279,11 @@
         <reference id="6198477943069635595" name="transformation" index="1YLLVi" />
         <child id="1038241485678306127" name="parameterValues" index="1Ixn1I" />
       </concept>
+      <concept id="1382135219955669992" name="de.q60.mps.shadowmodels.transformation.structure.IfMacro" flags="ng" index="3MbsX0">
+        <child id="1382135219955669995" name="condition" index="3MbsX3" />
+        <child id="1382135219955669997" name="then" index="3MbsX5" />
+        <child id="1382135219955670000" name="else" index="3MbsXo" />
+      </concept>
       <concept id="7898342489379026629" name="de.q60.mps.shadowmodels.transformation.structure.BLExpressionTarget" flags="ng" index="3OkNDw">
         <child id="7898342489379026632" name="expr" index="3OkNDH" />
       </concept>
@@ -5094,6 +5099,39 @@
       <node concept="026TG" id="AkkmJBND_e" role="026TK">
         <node concept="027og" id="AkkmJBNDE_" role="026TJ">
           <ref role="02LMe" to="70w2:7NImM04TdSk" resolve="HTMLDivElement" />
+          <node concept="027rt" id="5wHEIYJQkIw" role="02LM9">
+            <ref role="027rv" to="70w2:7q7cTU0P3Ee" resolve="style" />
+            <node concept="3MbsX0" id="5wHEIYJTQbQ" role="027rp">
+              <node concept="2OqwBi" id="5wHEIYJTQjq" role="3MbsX3">
+                <node concept="214o7A" id="5wHEIYJTQcI" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5wHEIYJTQu5" role="2OqNvi">
+                  <ref role="3TsBF5" to="j481:5wHEIYJQcaT" resolve="indent" />
+                </node>
+              </node>
+              <node concept="3n1eO2" id="5wHEIYJTQwl" role="3MbsXo" />
+              <node concept="027og" id="5wHEIYJQlM7" role="3MbsX5">
+                <ref role="02LMe" to="70w2:7q7cTU0P41s" resolve="CSSStyleDeclaration" />
+                <node concept="027rt" id="5wHEIYJQlMi" role="02LM9">
+                  <ref role="027rv" to="70w2:7q7cTU0P4oO" resolve="items" />
+                  <node concept="027og" id="5wHEIYJQlMQ" role="027rp">
+                    <ref role="02LMe" to="70w2:7q7cTU0P4oJ" resolve="GenericStringStyleItem" />
+                    <node concept="027oh" id="5wHEIYJQlN1" role="02LM9">
+                      <ref role="027oj" to="70w2:7q7cTU0P4oM" resolve="key" />
+                      <node concept="Xl_RD" id="5wHEIYJQlNg" role="027of">
+                        <property role="Xl_RC" value="margin-left" />
+                      </node>
+                    </node>
+                    <node concept="027oh" id="5wHEIYJQlNO" role="02LM9">
+                      <ref role="027oj" to="70w2:7q7cTU0P4oH" resolve="value" />
+                      <node concept="Xl_RD" id="5wHEIYJQlO5" role="027of">
+                        <property role="Xl_RC" value="20px" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="027rt" id="AkkmJBNDIa" role="02LM9">
             <ref role="027rv" to="70w2:7NImM053Sep" resolve="children" />
             <node concept="2PWHRv" id="AkkmJBNDJZ" role="027rp">
@@ -5832,9 +5870,9 @@
           </node>
         </node>
       </node>
-      <node concept="1Wc70l" id="5XCQ9eOS6O5" role="vpezr">
-        <node concept="3clFbT" id="5XCQ9eOS7_t" role="3uHU7w" />
-        <node concept="3y3z36" id="1HMbik_FZLk" role="3uHU7B">
+      <node concept="1Wc70l" id="5wHEIYJZgxa" role="vpezr">
+        <node concept="3clFbT" id="5wHEIYJZiK1" role="3uHU7B" />
+        <node concept="3y3z36" id="1HMbik_FZLk" role="3uHU7w">
           <node concept="2YIFZM" id="1HMbik_FZyg" role="3uHU7B">
             <ref role="1Pybhc" node="62_qJBxL8mp" resolve="Util" />
             <ref role="37wK5l" node="1HMbik_ChJa" resolve="findConceptEditor" />

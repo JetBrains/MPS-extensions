@@ -12,7 +12,10 @@
     <import index="m3vg" ref="r:9bcdcf0c-f978-4630-9b17-a35339e80a73(de.q60.mps.shadowmodels.web.transformations)" />
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="jwvb" ref="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)" />
+    <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -101,9 +104,11 @@
         <child id="7335687028107145383" name="content" index="02uzr" />
       </concept>
       <concept id="7335687028107144742" name="de.q60.mps.shadowmodels.transformation.structure.Transformation" flags="ng" index="02vpq">
+        <property id="1068767335609562597" name="contribution" index="2$mnfv" />
         <reference id="6198477943066252929" name="base" index="1YyVLo" />
         <child id="7335687028107245068" name="output" index="026TK" />
         <child id="7335687028107163827" name="input" index="02i3f" />
+        <child id="8156066107234763314" name="condition" index="vpezr" />
       </concept>
       <concept id="9170566427534778463" name="de.q60.mps.shadowmodels.transformation.structure.TransformationCall" flags="ng" index="214gnc">
         <reference id="6198477943068350028" name="transformation" index="1YEVMl" />
@@ -133,11 +138,21 @@
       <concept id="5979988948250981289" name="jetbrains.mps.lang.actions.structure.SNodeCreatorAndInitializer" flags="nn" index="2fJWfE" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
+        <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
+      </concept>
       <concept id="1143224066846" name="jetbrains.mps.lang.smodel.structure.Node_InsertNextSiblingOperation" flags="nn" index="HtI8k">
         <child id="1143224066849" name="insertedNode" index="HtI8F" />
       </concept>
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
+      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
+        <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
       <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
         <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
@@ -268,6 +283,12 @@
             <ref role="027rv" to="j481:AkkmJBMaEM" resolve="children" />
             <node concept="027og" id="A2HQDPW1$x" role="027rp">
               <ref role="02LMe" to="j481:AkkmJBMaEC" resolve="CollectionCell" />
+              <node concept="027oh" id="5wHEIYJQewl" role="02LM9">
+                <ref role="027oj" to="j481:5wHEIYJQcaT" resolve="indent" />
+                <node concept="3clFbT" id="5wHEIYJQf1B" role="027of">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
               <node concept="027rt" id="A2HQDPW1$G" role="02LM9">
                 <ref role="027rv" to="j481:AkkmJBMaEM" resolve="children" />
                 <node concept="2PWHRv" id="A2HQDPW1$O" role="027rp">
@@ -530,6 +551,12 @@
             <ref role="027rv" to="j481:AkkmJBMaEM" resolve="children" />
             <node concept="027og" id="A2HQDQ6jxo" role="027rp">
               <ref role="02LMe" to="j481:AkkmJBMaEC" resolve="CollectionCell" />
+              <node concept="027oh" id="5wHEIYKahKT" role="02LM9">
+                <ref role="027oj" to="j481:5wHEIYJQcaT" resolve="indent" />
+                <node concept="3clFbT" id="5wHEIYKaii0" role="027of">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
               <node concept="027rt" id="A2HQDQ6jxp" role="02LM9">
                 <ref role="027rv" to="j481:AkkmJBMaEM" resolve="children" />
                 <node concept="2PWHRv" id="A2HQDQ6jxq" role="027rp">
@@ -803,6 +830,97 @@
     <node concept="2OrE70" id="A2HQDPVYQf" role="02uzr" />
     <node concept="2OrE70" id="A2HQDPVYQu" role="02uzr" />
     <node concept="2OrE70" id="A2HQDPVYQB" role="02uzr" />
+  </node>
+  <node concept="02vhO" id="5wHEIYJXj8m">
+    <property role="TrG5h" value="StatemachinesInRepository" />
+    <node concept="02vpq" id="5wHEIYJXj8n" role="02uzr">
+      <property role="2$mnfv" value="true" />
+      <ref role="1YyVLo" to="jwvb:7YhLqbpfNME" resolve="Repository" />
+      <node concept="02i3K" id="5wHEIYJXj8s" role="02i3f">
+        <node concept="02i3D" id="5wHEIYJXj8t" role="02i2B">
+          <ref role="02i3$" to="dj5d:qmkA5fOskm" resolve="Repository" />
+        </node>
+      </node>
+      <node concept="026TG" id="5wHEIYJXj8u" role="026TK">
+        <node concept="027og" id="5wHEIYJXj8v" role="026TJ">
+          <ref role="02LMe" to="dj5d:qmkA5fOskm" resolve="Repository" />
+          <node concept="027rt" id="5wHEIYJXj9A" role="02LM9">
+            <ref role="027rv" to="dj5d:qmkA5fOskn" resolve="modules" />
+            <node concept="027og" id="5wHEIYJXwE$" role="027rp">
+              <ref role="02LMe" to="dj5d:qmkA5fOskf" resolve="Module" />
+              <node concept="027oh" id="5wHEIYJXXk0" role="02LM9">
+                <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
+                <node concept="Xl_RD" id="5wHEIYJXXrX" role="027of">
+                  <property role="Xl_RC" value="statemachines.web" />
+                </node>
+              </node>
+              <node concept="027rt" id="5wHEIYJXwEJ" role="02LM9">
+                <ref role="027rv" to="dj5d:qmkA5fOski" resolve="models" />
+                <node concept="2PWHRv" id="5wHEIYJXwG5" role="027rp">
+                  <node concept="2OqwBi" id="5wHEIYJXUeG" role="2PWHRq">
+                    <node concept="2OqwBi" id="5wHEIYJXA6v" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5wHEIYJXyy6" role="2Oq$k0">
+                        <node concept="2OqwBi" id="5wHEIYJXwMo" role="2Oq$k0">
+                          <node concept="214o7A" id="5wHEIYJXwGl" role="2Oq$k0" />
+                          <node concept="3Tsc0h" id="5wHEIYJXx9S" role="2OqNvi">
+                            <ref role="3TtcxE" to="dj5d:qmkA5fOskn" resolve="modules" />
+                          </node>
+                        </node>
+                        <node concept="13MTOL" id="5wHEIYJX$Jl" role="2OqNvi">
+                          <ref role="13MTZf" to="dj5d:qmkA5fOski" resolve="models" />
+                        </node>
+                      </node>
+                      <node concept="13MTOL" id="5wHEIYJXSWx" role="2OqNvi">
+                        <ref role="13MTZf" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                      </node>
+                    </node>
+                    <node concept="v3k3i" id="5wHEIYJXWhx" role="2OqNvi">
+                      <node concept="chp4Y" id="5wHEIYJXWkR" role="v3oSu">
+                        <ref role="cht4Q" to="yb34:6ndA7L_L0uE" resolve="Statemachine" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="214gnc" id="5wHEIYJXPUo" role="2PWHRo">
+                    <ref role="1YEVMl" node="5wHEIYJXwFe" />
+                    <node concept="214o7A" id="5wHEIYJXRas" role="214sll" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbT" id="5wHEIYK2Oab" role="vpezr" />
+    </node>
+    <node concept="2OrE70" id="5wHEIYJXwER" role="02uzr" />
+    <node concept="02vpq" id="5wHEIYJXwFe" role="02uzr">
+      <node concept="026TG" id="5wHEIYJXwFL" role="026TK">
+        <node concept="027og" id="5wHEIYJXwFV" role="026TJ">
+          <ref role="02LMe" to="dj5d:qmkA5fOskc" resolve="Model" />
+          <node concept="027oh" id="5wHEIYJXWwY" role="02LM9">
+            <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
+            <node concept="2OqwBi" id="5wHEIYJXWFg" role="027of">
+              <node concept="214o7A" id="5wHEIYJXW$z" role="2Oq$k0" />
+              <node concept="2qgKlT" id="5wHEIYJXX6Q" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+              </node>
+            </node>
+          </node>
+          <node concept="027rt" id="5wHEIYJXRpF" role="02LM9">
+            <ref role="027rv" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+            <node concept="214gnc" id="5wHEIYJXRxl" role="027rp">
+              <ref role="1YEVMl" to="m3vg:AkkmJBMp90" resolve="node" />
+              <node concept="214o7A" id="5wHEIYJXXsF" role="214sll" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="02i3K" id="5wHEIYJXwFu" role="02i3f">
+        <node concept="02i3D" id="5wHEIYJXWq9" role="02i2B">
+          <ref role="02i3$" to="yb34:6ndA7L_L0uE" resolve="Statemachine" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

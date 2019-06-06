@@ -37,6 +37,8 @@
     <import index="mi4d" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.java_websocket.server(de.q60.mps.shadowmodels.web.lib/)" />
     <import index="mxf6" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.json(de.q60.mps.shadowmodels.web.lib/)" />
     <import index="bge5" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.java_websocket.handshake(de.q60.mps.shadowmodels.web.lib/)" />
+    <import index="6y8" ref="r:84bdf498-a7b7-4050-8eec-ebd94d3bd321(de.q60.mps.shadowmodels.web.json.structure)" />
+    <import index="yhmx" ref="r:e87ae99a-a050-4d92-b546-f559a1ec5998(de.q60.mps.shadowmodels.web.json.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -4563,11 +4565,11 @@
           <node concept="3cpWsn" id="6kYN8GamiG$" role="3cpWs9">
             <property role="TrG5h" value="json" />
             <node concept="3Tqbb2" id="6kYN8GamiG_" role="1tU5fm">
-              <ref role="ehGHo" to="j481:6kYN8GaiMZW" resolve="JSONObject" />
+              <ref role="ehGHo" to="6y8:6kYN8GaiMZW" resolve="JSONObject" />
             </node>
             <node concept="1PxgMI" id="6kYN8GamiGA" role="33vP2m">
-              <node concept="chp4Y" id="6kYN8GamjTN" role="3oSUPX">
-                <ref role="cht4Q" to="j481:6kYN8GaiMZW" resolve="JSONObject" />
+              <node concept="chp4Y" id="D0xzCABwtM" role="3oSUPX">
+                <ref role="cht4Q" to="6y8:6kYN8GaiMZW" resolve="JSONObject" />
               </node>
               <node concept="2YIFZM" id="6kYN8GamiGC" role="1m5AlR">
                 <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
@@ -4692,13 +4694,13 @@
       <node concept="37vLTG" id="7vWAzuFm5Hl" role="3clF46">
         <property role="TrG5h" value="json" />
         <node concept="3Tqbb2" id="7vWAzuFm7$7" role="1tU5fm">
-          <ref role="ehGHo" to="j481:6kYN8GaiMYH" resolve="JSONValue" />
+          <ref role="ehGHo" to="6y8:6kYN8GaiMYH" resolve="JSONValue" />
         </node>
       </node>
       <node concept="37vLTG" id="7vWAzuFoWOH" role="3clF46">
         <property role="TrG5h" value="parent" />
         <node concept="3Tqbb2" id="7vWAzuFoZrc" role="1tU5fm">
-          <ref role="ehGHo" to="j481:6kYN8GaiMYH" resolve="JSONValue" />
+          <ref role="ehGHo" to="6y8:6kYN8GaiMYH" resolve="JSONValue" />
         </node>
       </node>
       <node concept="3uibUv" id="5XCQ9eOQzlJ" role="3clF45">
@@ -4737,8 +4739,8 @@
                         <ref role="3cqZAo" node="7vWAzuFm5Hl" resolve="json" />
                       </node>
                       <node concept="1mIQ4w" id="7vWAzuFmdES" role="2OqNvi">
-                        <node concept="chp4Y" id="7vWAzuFmdIn" role="cj9EA">
-                          <ref role="cht4Q" to="j481:6kYN8GaiMZW" resolve="JSONObject" />
+                        <node concept="chp4Y" id="D0xzCABCOG" role="cj9EA">
+                          <ref role="cht4Q" to="6y8:6kYN8GaiMZW" resolve="JSONObject" />
                         </node>
                       </node>
                     </node>
@@ -4747,20 +4749,20 @@
                         <node concept="3cpWsn" id="7vWAzuFtmVF" role="3cpWs9">
                           <property role="TrG5h" value="idProperty" />
                           <node concept="3Tqbb2" id="7vWAzuFtmVq" role="1tU5fm">
-                            <ref role="ehGHo" to="j481:6kYN8GaiN2t" resolve="JSONProperty" />
+                            <ref role="ehGHo" to="6y8:6kYN8GaiN2t" resolve="JSONProperty" />
                           </node>
                           <node concept="2OqwBi" id="7vWAzuFtmVG" role="33vP2m">
                             <node concept="2OqwBi" id="7vWAzuFtmVH" role="2Oq$k0">
                               <node concept="1PxgMI" id="7vWAzuFtmVI" role="2Oq$k0">
-                                <node concept="chp4Y" id="7vWAzuFtmVJ" role="3oSUPX">
-                                  <ref role="cht4Q" to="j481:6kYN8GaiMZW" resolve="JSONObject" />
+                                <node concept="chp4Y" id="D0xzCABE4C" role="3oSUPX">
+                                  <ref role="cht4Q" to="6y8:6kYN8GaiMZW" resolve="JSONObject" />
                                 </node>
                                 <node concept="37vLTw" id="7vWAzuFtmVK" role="1m5AlR">
                                   <ref role="3cqZAo" node="7vWAzuFm5Hl" resolve="json" />
                                 </node>
                               </node>
                               <node concept="3Tsc0h" id="7vWAzuFtmVL" role="2OqNvi">
-                                <ref role="3TtcxE" to="j481:6kYN8GaiN54" resolve="properties" />
+                                <ref role="3TtcxE" to="6y8:6kYN8GaiN54" resolve="properties" />
                               </node>
                             </node>
                             <node concept="1z4cxt" id="7vWAzuFtmVM" role="2OqNvi">
@@ -4776,7 +4778,7 @@
                                           <ref role="3cqZAo" node="7vWAzuFtmVV" resolve="it" />
                                         </node>
                                         <node concept="3TrcHB" id="7vWAzuFtmVU" role="2OqNvi">
-                                          <ref role="3TsBF5" to="j481:6kYN8GaiN3G" resolve="key" />
+                                          <ref role="3TsBF5" to="6y8:6kYN8GaiN3G" resolve="key" />
                                         </node>
                                       </node>
                                     </node>
@@ -4805,20 +4807,20 @@
                             </node>
                             <node concept="2OqwBi" id="7vWAzuFuq6F" role="3K4GZi">
                               <node concept="1PxgMI" id="7vWAzuFuq6G" role="2Oq$k0">
-                                <node concept="chp4Y" id="7vWAzuFuq6H" role="3oSUPX">
-                                  <ref role="cht4Q" to="j481:6kYN8GaiN1b" resolve="JSONString" />
+                                <node concept="chp4Y" id="D0xzCABCOC" role="3oSUPX">
+                                  <ref role="cht4Q" to="6y8:6kYN8GaiN1b" resolve="JSONString" />
                                 </node>
                                 <node concept="2OqwBi" id="7vWAzuFuq6I" role="1m5AlR">
                                   <node concept="37vLTw" id="7vWAzuFuq6J" role="2Oq$k0">
                                     <ref role="3cqZAo" node="7vWAzuFtmVF" resolve="idProperty" />
                                   </node>
                                   <node concept="3TrEf2" id="7vWAzuFuq6K" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="j481:6kYN8GaiN3J" resolve="value" />
+                                    <ref role="3Tt5mk" to="6y8:6kYN8GaiN3J" resolve="value" />
                                   </node>
                                 </node>
                               </node>
                               <node concept="3TrcHB" id="7vWAzuFuq6L" role="2OqNvi">
-                                <ref role="3TsBF5" to="j481:6kYN8GaiN2q" resolve="value" />
+                                <ref role="3TsBF5" to="6y8:6kYN8GaiN2q" resolve="value" />
                               </node>
                             </node>
                           </node>
@@ -4886,15 +4888,15 @@
                         </node>
                         <node concept="2OqwBi" id="7vWAzuFmg$t" role="2GsD0m">
                           <node concept="1PxgMI" id="7vWAzuFmgaK" role="2Oq$k0">
-                            <node concept="chp4Y" id="7vWAzuFmgiy" role="3oSUPX">
-                              <ref role="cht4Q" to="j481:6kYN8GaiMZW" resolve="JSONObject" />
+                            <node concept="chp4Y" id="D0xzCABsb3" role="3oSUPX">
+                              <ref role="cht4Q" to="6y8:6kYN8GaiMZW" resolve="JSONObject" />
                             </node>
                             <node concept="37vLTw" id="7vWAzuFmf2U" role="1m5AlR">
                               <ref role="3cqZAo" node="7vWAzuFm5Hl" resolve="json" />
                             </node>
                           </node>
                           <node concept="3Tsc0h" id="7vWAzuFmgYS" role="2OqNvi">
-                            <ref role="3TtcxE" to="j481:6kYN8GaiN54" resolve="properties" />
+                            <ref role="3TtcxE" to="6y8:6kYN8GaiN54" resolve="properties" />
                           </node>
                         </node>
                         <node concept="3clFbS" id="6kYN8GajpeJ" role="2LFqv$">
@@ -4911,7 +4913,7 @@
                                     <ref role="2Gs0qQ" node="6kYN8GajpeF" resolve="p" />
                                   </node>
                                   <node concept="3TrEf2" id="3zTK92KEOyX" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="j481:6kYN8GaiN3J" resolve="value" />
+                                    <ref role="3Tt5mk" to="6y8:6kYN8GaiN3J" resolve="value" />
                                   </node>
                                 </node>
                                 <node concept="37vLTw" id="3zTK92KEOyY" role="37wK5m">
@@ -4934,7 +4936,7 @@
                                         <ref role="2Gs0qQ" node="6kYN8GajpeF" resolve="p" />
                                       </node>
                                       <node concept="3TrcHB" id="6kYN8GajqBm" role="2OqNvi">
-                                        <ref role="3TsBF5" to="j481:6kYN8GaiN3G" resolve="key" />
+                                        <ref role="3TsBF5" to="6y8:6kYN8GaiN3G" resolve="key" />
                                       </node>
                                     </node>
                                     <node concept="37vLTw" id="3zTK92KEOz0" role="37wK5m">
@@ -5059,8 +5061,8 @@
                           <ref role="3cqZAo" node="7vWAzuFm5Hl" resolve="json" />
                         </node>
                         <node concept="1mIQ4w" id="7vWAzuFmuXe" role="2OqNvi">
-                          <node concept="chp4Y" id="7vWAzuFmvcr" role="cj9EA">
-                            <ref role="cht4Q" to="j481:6kYN8GaiN1b" resolve="JSONString" />
+                          <node concept="chp4Y" id="D0xzCABwtK" role="cj9EA">
+                            <ref role="cht4Q" to="6y8:6kYN8GaiN1b" resolve="JSONString" />
                           </node>
                         </node>
                       </node>
@@ -5068,15 +5070,15 @@
                         <node concept="3cpWs6" id="7vWAzuFmxPf" role="3cqZAp">
                           <node concept="2OqwBi" id="7vWAzuFmxPh" role="3cqZAk">
                             <node concept="1PxgMI" id="7vWAzuFmxPi" role="2Oq$k0">
-                              <node concept="chp4Y" id="7vWAzuFmxPj" role="3oSUPX">
-                                <ref role="cht4Q" to="j481:6kYN8GaiN1b" resolve="JSONString" />
+                              <node concept="chp4Y" id="D0xzCABTsO" role="3oSUPX">
+                                <ref role="cht4Q" to="6y8:6kYN8GaiN1b" resolve="JSONString" />
                               </node>
                               <node concept="37vLTw" id="7vWAzuFmxPk" role="1m5AlR">
                                 <ref role="3cqZAo" node="7vWAzuFm5Hl" resolve="json" />
                               </node>
                             </node>
                             <node concept="2qgKlT" id="7vWAzuFmxPl" role="2OqNvi">
-                              <ref role="37wK5l" to="v1cj:6kYN8Gaj5VO" resolve="create" />
+                              <ref role="37wK5l" to="yhmx:6kYN8Gaj5VO" resolve="create" />
                             </node>
                           </node>
                         </node>
@@ -5088,8 +5090,8 @@
                           <ref role="3cqZAo" node="7vWAzuFm5Hl" resolve="json" />
                         </node>
                         <node concept="1mIQ4w" id="7vWAzuFmyhU" role="2OqNvi">
-                          <node concept="chp4Y" id="7vWAzuFm$Cr" role="cj9EA">
-                            <ref role="cht4Q" to="j481:6kYN8GaiN3M" resolve="JSONArray" />
+                          <node concept="chp4Y" id="D0xzCABCOE" role="cj9EA">
+                            <ref role="cht4Q" to="6y8:6kYN8GaiN3M" resolve="JSONArray" />
                           </node>
                         </node>
                       </node>
@@ -5102,15 +5104,15 @@
                                 <node concept="2OqwBi" id="6kYN8Gaj9vb" role="2Oq$k0">
                                   <node concept="2OqwBi" id="7vWAzuFmJWy" role="2Oq$k0">
                                     <node concept="1PxgMI" id="7vWAzuFmF3B" role="2Oq$k0">
-                                      <node concept="chp4Y" id="7vWAzuFmHg$" role="3oSUPX">
-                                        <ref role="cht4Q" to="j481:6kYN8GaiN3M" resolve="JSONArray" />
+                                      <node concept="chp4Y" id="D0xzCABTsQ" role="3oSUPX">
+                                        <ref role="cht4Q" to="6y8:6kYN8GaiN3M" resolve="JSONArray" />
                                       </node>
                                       <node concept="37vLTw" id="7vWAzuFmCcr" role="1m5AlR">
                                         <ref role="3cqZAo" node="7vWAzuFm5Hl" resolve="json" />
                                       </node>
                                     </node>
                                     <node concept="3Tsc0h" id="7vWAzuFmMDX" role="2OqNvi">
-                                      <ref role="3TtcxE" to="j481:6kYN8GaiN51" resolve="elements" />
+                                      <ref role="3TtcxE" to="6y8:6kYN8GaiN51" resolve="elements" />
                                     </node>
                                   </node>
                                   <node concept="3$u5V9" id="6kYN8GajdMn" role="2OqNvi">

@@ -7406,6 +7406,35 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="D0xzCAG7Kw" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.q60.mps.shadowmodels.web.json" />
+        <property role="3LESm3" value="0f2359af-040e-43bb-b438-cf024da41518" />
+        <node concept="398BVA" id="D0xzCAG7SU" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="D0xzCAG8f5" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="D0xzCAG8_f" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="D0xzCAG8Vp" role="2Ry0An">
+                <property role="2Ry0Am" value="de.q60.mps.shadowmodels.web.json" />
+                <node concept="2Ry0Ak" id="D0xzCAG9ac" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.q60.mps.shadowmodels.web.json.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="D0xzCAG9oW" role="3bR37C">
+          <node concept="3bR9La" id="D0xzCAG9oX" role="1SiIV1">
+            <ref role="3bR37D" node="5L2wfmgqJZr" resolve="de.q60.mps.shadowmodels.web.lib" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="D0xzCAG9oY" role="1TViLv">
+          <property role="TrG5h" value="de.q60.mps.shadowmodels.web.json#01" />
+          <property role="3LESm3" value="7111509f-e08e-4fa2-bc4e-046235ec2a86" />
+        </node>
+      </node>
       <node concept="1E1JtD" id="$vZpdmzleg" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.shadowmodels.web" />
@@ -7483,6 +7512,11 @@
         <node concept="1SiIV0" id="D0xzCAcHh_" role="3bR37C">
           <node concept="3bR9La" id="D0xzCAcHhA" role="1SiIV1">
             <ref role="3bR37D" node="5L2wfmgqJZr" resolve="de.q60.mps.shadowmodels.web.lib" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="D0xzCAG9BK" role="3bR37C">
+          <node concept="3bR9La" id="D0xzCAG9BL" role="1SiIV1">
+            <ref role="3bR37D" node="D0xzCAG7Kw" resolve="de.q60.mps.shadowmodels.web.json" />
           </node>
         </node>
       </node>

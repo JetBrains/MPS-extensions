@@ -38,6 +38,7 @@
     <import index="mxf6" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.json(de.q60.mps.shadowmodels.web.lib/)" />
     <import index="bge5" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.java_websocket.handshake(de.q60.mps.shadowmodels.web.lib/)" />
     <import index="6y8" ref="r:84bdf498-a7b7-4050-8eec-ebd94d3bd321(de.q60.mps.shadowmodels.web.json.structure)" />
+    <import index="70w2" ref="r:59e1f3dd-5dad-4bbd-ad65-fef01059d9d2(de.q60.mps.shadowmodels.web.dom.structure)" implicit="true" />
     <import index="yhmx" ref="r:e87ae99a-a050-4d92-b546-f559a1ec5998(de.q60.mps.shadowmodels.web.json.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -526,11 +527,11 @@
                 <node concept="3cpWsn" id="7vWAzuE_1eb" role="3cpWs9">
                   <property role="TrG5h" value="html" />
                   <node concept="3Tqbb2" id="7vWAzuE_1N5" role="1tU5fm">
-                    <ref role="ehGHo" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+                    <ref role="ehGHo" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
                   </node>
                   <node concept="1PxgMI" id="7vWAzuE_2hN" role="33vP2m">
-                    <node concept="chp4Y" id="7vWAzuE_2KM" role="3oSUPX">
-                      <ref role="cht4Q" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+                    <node concept="chp4Y" id="D0xzCAHFOU" role="3oSUPX">
+                      <ref role="cht4Q" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
                     </node>
                     <node concept="2YIFZM" id="7vWAzuE_1ec" role="1m5AlR">
                       <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
@@ -808,11 +809,11 @@
                 <node concept="3cpWsn" id="7vWAzuE__L7" role="3cpWs9">
                   <property role="TrG5h" value="html" />
                   <node concept="3Tqbb2" id="7vWAzuE__L8" role="1tU5fm">
-                    <ref role="ehGHo" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+                    <ref role="ehGHo" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
                   </node>
                   <node concept="1PxgMI" id="7vWAzuE__L9" role="33vP2m">
-                    <node concept="chp4Y" id="7vWAzuE__La" role="3oSUPX">
-                      <ref role="cht4Q" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+                    <node concept="chp4Y" id="D0xzCAHCFx" role="3oSUPX">
+                      <ref role="cht4Q" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
                     </node>
                     <node concept="2YIFZM" id="7vWAzuE__Lb" role="1m5AlR">
                       <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
@@ -1072,11 +1073,11 @@
                 <node concept="3cpWsn" id="7vWAzuE_xuh" role="3cpWs9">
                   <property role="TrG5h" value="html" />
                   <node concept="3Tqbb2" id="7vWAzuE_xui" role="1tU5fm">
-                    <ref role="ehGHo" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+                    <ref role="ehGHo" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
                   </node>
                   <node concept="1PxgMI" id="7vWAzuE_xuj" role="33vP2m">
-                    <node concept="chp4Y" id="7vWAzuE_xuk" role="3oSUPX">
-                      <ref role="cht4Q" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+                    <node concept="chp4Y" id="D0xzCAHEli" role="3oSUPX">
+                      <ref role="cht4Q" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
                     </node>
                     <node concept="2YIFZM" id="7vWAzuE_xul" role="1m5AlR">
                       <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
@@ -1292,11 +1293,11 @@
                 <node concept="3cpWsn" id="7vWAzuEAveX" role="3cpWs9">
                   <property role="TrG5h" value="html" />
                   <node concept="3Tqbb2" id="7vWAzuEAveY" role="1tU5fm">
-                    <ref role="ehGHo" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+                    <ref role="ehGHo" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
                   </node>
                   <node concept="1PxgMI" id="7vWAzuEAveZ" role="33vP2m">
-                    <node concept="chp4Y" id="7vWAzuEAvf0" role="3oSUPX">
-                      <ref role="cht4Q" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+                    <node concept="chp4Y" id="D0xzCAHGZg" role="3oSUPX">
+                      <ref role="cht4Q" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
                     </node>
                     <node concept="2YIFZM" id="7vWAzuEAvf1" role="1m5AlR">
                       <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
@@ -4498,11 +4499,11 @@
           <node concept="3cpWsn" id="6kYN8GambYe" role="3cpWs9">
             <property role="TrG5h" value="html" />
             <node concept="3Tqbb2" id="6kYN8GambXM" role="1tU5fm">
-              <ref role="ehGHo" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+              <ref role="ehGHo" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
             </node>
             <node concept="1PxgMI" id="6kYN8GambYf" role="33vP2m">
-              <node concept="chp4Y" id="6kYN8GambYg" role="3oSUPX">
-                <ref role="cht4Q" to="j481:7NImM04RGAQ" resolve="HTMLElement" />
+              <node concept="chp4Y" id="D0xzCAHLAT" role="3oSUPX">
+                <ref role="cht4Q" to="70w2:7NImM04RGAQ" resolve="HTMLElement" />
               </node>
               <node concept="2YIFZM" id="6kYN8GambYh" role="1m5AlR">
                 <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />

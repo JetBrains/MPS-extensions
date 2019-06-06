@@ -105,6 +105,8 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.target.text/de.q60.mps.shadowmodels.target.text.mpl" folder="shadowmodels.target" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.transformation/de.q60.mps.shadowmodels.transformation.mpl" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.util/de.q60.mps.shadowmodels.util.mpl" folder="shadowmodels.core" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.web.dom/de.q60.mps.shadowmodels.web.dom.mpl" folder="shadowmodels.web" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.web.json/de.q60.mps.shadowmodels.web.json.mpl" folder="shadowmodels.web" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.web/de.q60.mps.shadowmodels.web.mpl" folder="shadowmodels.web" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.virtualinterfaces.sandboxlang/de.q60.mps.virtualinterfaces.sandboxlang.mpl" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.virtualinterfaces/de.q60.mps.virtualinterfaces.mpl" folder="shadowmodels.virtualinterfaces" />

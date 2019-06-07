@@ -481,26 +481,18 @@
         <node concept="3clFbF" id="5HQgaiNsNk$" role="3cqZAp">
           <node concept="2YIFZM" id="5HQgaiNsNqf" role="3clFbG">
             <ref role="37wK5l" to="yyp8:5HQgaiNsH$u" resolve="disposeAll" />
-            <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
+            <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="TransformationEngineForEditor" />
           </node>
         </node>
-        <node concept="3clFbJ" id="7zI2priSBy2" role="3cqZAp">
-          <node concept="3clFbS" id="7zI2priSBy4" role="3clFbx">
-            <node concept="3clFbF" id="7YhLqbpg11A" role="3cqZAp">
-              <node concept="2OqwBi" id="7YhLqbpg11B" role="3clFbG">
-                <node concept="2YIFZM" id="7YhLqbpg1ai" role="2Oq$k0">
-                  <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-                  <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
-                </node>
-                <node concept="liA8E" id="7YhLqbpg11D" role="2OqNvi">
-                  <ref role="37wK5l" to="l6bp:7YhLqbpfZYl" resolve="dispose" />
-                </node>
-              </node>
+        <node concept="3clFbF" id="5wHEIYKL2YK" role="3cqZAp">
+          <node concept="2OqwBi" id="5wHEIYKL2YL" role="3clFbG">
+            <node concept="10M0yZ" id="5wHEIYKL2YM" role="2Oq$k0">
+              <ref role="3cqZAo" node="5wHEIYKKN4h" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
             </node>
-          </node>
-          <node concept="2YIFZM" id="7zI2priSBDG" role="3clFbw">
-            <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <node concept="liA8E" id="5wHEIYKL3Ls" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKKvCf" resolve="moduleDisposed" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="TC$M5wUhyU" role="3cqZAp">
@@ -564,10 +556,15 @@
     </node>
     <node concept="2uRRBj" id="7YhLqbpg0rQ" role="2uRRBE">
       <node concept="3clFbS" id="7YhLqbpg0rR" role="2VODD2">
-        <node concept="3clFbF" id="7YhLqbpg0EQ" role="3cqZAp">
-          <node concept="2YIFZM" id="7zI2priSBip" role="3clFbG">
-            <ref role="37wK5l" to="l6bp:7zI2priS6_P" resolve="applyEnabledState" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+        <node concept="3clFbF" id="5wHEIYKL2fE" role="3cqZAp">
+          <node concept="2OqwBi" id="5wHEIYKL2Bc" role="3clFbG">
+            <node concept="10M0yZ" id="5wHEIYKL2n_" role="2Oq$k0">
+              <ref role="3cqZAo" node="5wHEIYKKN4h" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
+            </node>
+            <node concept="liA8E" id="5wHEIYKL2St" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKKx0y" resolve="moduleInitialized" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3jGmESsMWqC" role="3cqZAp">
@@ -4251,12 +4248,17 @@
     <property role="2uzpH1" value="Activate Shadow Repository" />
     <node concept="tnohg" id="7zI2priSBZ5" role="tncku">
       <node concept="3clFbS" id="7zI2priSBZ6" role="2VODD2">
-        <node concept="3clFbF" id="7zI2priSBZ7" role="3cqZAp">
-          <node concept="2YIFZM" id="7zI2priSDwd" role="3clFbG">
-            <ref role="37wK5l" to="l6bp:7zI2priRdct" resolve="setEnable" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
-            <node concept="3clFbT" id="7zI2priSD$W" role="37wK5m">
-              <property role="3clFbU" value="true" />
+        <node concept="3clFbF" id="5wHEIYKKXGm" role="3cqZAp">
+          <node concept="2OqwBi" id="5wHEIYKKXPY" role="3clFbG">
+            <node concept="10M0yZ" id="5wHEIYKKXH7" role="2Oq$k0">
+              <ref role="3cqZAo" node="5wHEIYKKN4h" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
+            </node>
+            <node concept="liA8E" id="5wHEIYKKY0t" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKKbLG" resolve="setEnabledByUser" />
+              <node concept="3clFbT" id="5wHEIYKKY1c" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
             </node>
           </node>
         </node>
@@ -4264,11 +4266,16 @@
     </node>
     <node concept="2ScWuX" id="7zI2priSDCt" role="tmbBb">
       <node concept="3clFbS" id="7zI2priSDCu" role="2VODD2">
-        <node concept="3clFbF" id="7zI2priSDJM" role="3cqZAp">
-          <node concept="3fqX7Q" id="7zI2priSELE" role="3clFbG">
-            <node concept="2YIFZM" id="7zI2priSELG" role="3fr31v">
-              <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
-              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+        <node concept="3clFbF" id="5wHEIYKKYcn" role="3cqZAp">
+          <node concept="3fqX7Q" id="5wHEIYKKYMf" role="3clFbG">
+            <node concept="2OqwBi" id="5wHEIYKKYMh" role="3fr31v">
+              <node concept="10M0yZ" id="5wHEIYKKYMi" role="2Oq$k0">
+                <ref role="1PxDUh" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
+                <ref role="3cqZAo" node="5wHEIYKKN4h" resolve="INSTANCE" />
+              </node>
+              <node concept="liA8E" id="7rjtEVhPJNs" role="2OqNvi">
+                <ref role="37wK5l" to="pxvb:5wHEIYKNq2x" resolve="isEnabled" />
+              </node>
             </node>
           </node>
         </node>
@@ -4280,21 +4287,31 @@
     <property role="2uzpH1" value="Deactivate Shadow Repository" />
     <node concept="tnohg" id="7zI2priSETR" role="tncku">
       <node concept="3clFbS" id="7zI2priSETS" role="2VODD2">
-        <node concept="3clFbF" id="7zI2priSETT" role="3cqZAp">
-          <node concept="2YIFZM" id="7zI2priSETU" role="3clFbG">
-            <ref role="37wK5l" to="l6bp:7zI2priRdct" resolve="setEnable" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
-            <node concept="3clFbT" id="7zI2priSETV" role="37wK5m" />
+        <node concept="3clFbF" id="5wHEIYKKZi6" role="3cqZAp">
+          <node concept="2OqwBi" id="5wHEIYKKZi7" role="3clFbG">
+            <node concept="10M0yZ" id="5wHEIYKKZi8" role="2Oq$k0">
+              <ref role="1PxDUh" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
+              <ref role="3cqZAo" node="5wHEIYKKN4h" resolve="INSTANCE" />
+            </node>
+            <node concept="liA8E" id="5wHEIYKKZi9" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKKbLG" resolve="setEnabledByUser" />
+              <node concept="3clFbT" id="5wHEIYKKZia" role="37wK5m" />
+            </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="2ScWuX" id="7zI2priSETW" role="tmbBb">
       <node concept="3clFbS" id="7zI2priSETX" role="2VODD2">
-        <node concept="3clFbF" id="7zI2priSETY" role="3cqZAp">
-          <node concept="2YIFZM" id="7zI2priSEU0" role="3clFbG">
-            <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+        <node concept="3clFbF" id="5wHEIYKKZxb" role="3cqZAp">
+          <node concept="2OqwBi" id="5wHEIYKKZxc" role="3clFbG">
+            <node concept="10M0yZ" id="5wHEIYKKZxd" role="2Oq$k0">
+              <ref role="3cqZAo" node="5wHEIYKKN4h" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
+            </node>
+            <node concept="liA8E" id="7rjtEVhPKi4" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKNq2x" resolve="isEnabled" />
+            </node>
           </node>
         </node>
       </node>
@@ -4651,6 +4668,109 @@
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
       <node concept="1oajcY" id="5b2TV0XwqzS" role="1oa70y" />
+    </node>
+  </node>
+  <node concept="312cEu" id="5wHEIYKKFXe">
+    <property role="TrG5h" value="OptionalPlugin_ShadowRepository" />
+    <node concept="Wx3nA" id="5wHEIYKKN4h" role="jymVt">
+      <property role="TrG5h" value="INSTANCE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="5wHEIYKKGAK" role="1tU5fm">
+        <ref role="3uigEE" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
+      </node>
+      <node concept="3Tm1VV" id="5wHEIYKKN5_" role="1B3o_S" />
+      <node concept="2ShNRf" id="5wHEIYKKGGL" role="33vP2m">
+        <node concept="HV5vD" id="5wHEIYKKNnC" role="2ShVmc">
+          <ref role="HV5vE" node="5wHEIYKKFXe" resolve="OptionalPlugin_ShadowRepository" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5wHEIYKKMWh" role="jymVt" />
+    <node concept="3clFb_" id="5wHEIYKKNoc" role="jymVt">
+      <property role="TrG5h" value="init" />
+      <node concept="3cqZAl" id="5wHEIYKKNod" role="3clF45" />
+      <node concept="3Tm1VV" id="5wHEIYKKNoe" role="1B3o_S" />
+      <node concept="3clFbS" id="5wHEIYKKNog" role="3clF47">
+        <node concept="3cpWs8" id="5wHEIYKLK3S" role="3cqZAp">
+          <node concept="3cpWsn" id="5wHEIYKLK3T" role="3cpWs9">
+            <property role="TrG5h" value="instance" />
+            <node concept="3uibUv" id="5wHEIYKLK3Q" role="1tU5fm">
+              <ref role="3uigEE" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            </node>
+            <node concept="2ShNRf" id="5wHEIYKLK3U" role="33vP2m">
+              <node concept="HV5vD" id="5wHEIYKLK3V" role="2ShVmc">
+                <ref role="HV5vE" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5wHEIYKLIRg" role="3cqZAp">
+          <node concept="2YIFZM" id="5wHEIYKLIRC" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:5wHEIYKLCwf" resolve="setInstance" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <node concept="37vLTw" id="5wHEIYKLK3W" role="37wK5m">
+              <ref role="3cqZAo" node="5wHEIYKLK3T" resolve="instance" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5wHEIYKLKn$" role="3cqZAp">
+          <node concept="2OqwBi" id="5wHEIYKLL60" role="3clFbG">
+            <node concept="37vLTw" id="5wHEIYKLKny" role="2Oq$k0">
+              <ref role="3cqZAo" node="5wHEIYKLK3T" resolve="instance" />
+            </node>
+            <node concept="liA8E" id="5wHEIYKLLIG" role="2OqNvi">
+              <ref role="37wK5l" to="l6bp:7YhLqbpg05h" resolve="init" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5wHEIYKKNoh" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5wHEIYKKNrc" role="jymVt" />
+    <node concept="3clFb_" id="5wHEIYKKNoi" role="jymVt">
+      <property role="TrG5h" value="dispose" />
+      <node concept="3cqZAl" id="5wHEIYKKNoj" role="3clF45" />
+      <node concept="3Tm1VV" id="5wHEIYKKNok" role="1B3o_S" />
+      <node concept="3clFbS" id="5wHEIYKKNom" role="3clF47">
+        <node concept="3cpWs8" id="5wHEIYKLM2L" role="3cqZAp">
+          <node concept="3cpWsn" id="5wHEIYKLM2M" role="3cpWs9">
+            <property role="TrG5h" value="instance" />
+            <node concept="3uibUv" id="5wHEIYKLM2K" role="1tU5fm">
+              <ref role="3uigEE" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            </node>
+            <node concept="2YIFZM" id="5wHEIYKLM2N" role="33vP2m">
+              <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
+              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5wHEIYKLMm5" role="3cqZAp">
+          <node concept="2OqwBi" id="5wHEIYKLMxw" role="3clFbG">
+            <node concept="37vLTw" id="5wHEIYKLMm3" role="2Oq$k0">
+              <ref role="3cqZAo" node="5wHEIYKLM2M" resolve="instance" />
+            </node>
+            <node concept="liA8E" id="5wHEIYKLNa2" role="2OqNvi">
+              <ref role="37wK5l" to="l6bp:7YhLqbpfZYl" resolve="dispose" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5wHEIYKLNvE" role="3cqZAp">
+          <node concept="2YIFZM" id="5wHEIYKLNx6" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:5wHEIYKLCwf" resolve="setInstance" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <node concept="10Nm6u" id="5wHEIYKLNBK" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5wHEIYKKNon" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="5wHEIYKKFXf" role="1B3o_S" />
+    <node concept="3uibUv" id="5wHEIYKKMpR" role="1zkMxy">
+      <ref role="3uigEE" to="pxvb:5wHEIYKK7G9" resolve="OptionalPlugin" />
     </node>
   </node>
 </model>

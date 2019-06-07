@@ -15,6 +15,7 @@
     <use id="817e4e70-961e-4a95-98a1-15e9f32231f1" name="jetbrains.mps.ide.httpsupport" version="0" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -45,12 +46,36 @@
     <import index="yhmx" ref="r:e87ae99a-a050-4d92-b546-f559a1ec5998(de.q60.mps.shadowmodels.web.json.behavior)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="8oaq" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.io(org.apache.commons/)" />
+    <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
+    <import index="y9oj" ref="r:3014a312-a1f1-41c3-9ecc-5491810305c3(de.q60.mps.shadowmodels.runtime.plugin)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
       <concept id="1238853782547" name="jetbrains.mps.baseLanguage.tuples.structure.IndexedTupleLiteral" flags="nn" index="1Ls8ON">
         <child id="1238853845806" name="component" index="1Lso8e" />
       </concept>
+    </language>
+    <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
+        <child id="1207145201301" name="reference" index="ftvYc" />
+      </concept>
+      <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
+        <property id="1205250923097" name="caption" index="2uzpH1" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
+        <child id="1203083461638" name="executeFunction" index="tncku" />
+      </concept>
+      <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
+      <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <child id="1204991552650" name="modifier" index="2f5YQi" />
+        <child id="1207145245948" name="contents" index="ftER_" />
+      </concept>
+      <concept id="1203088046679" name="jetbrains.mps.lang.plugin.structure.ActionInstance" flags="ng" index="tCFHf">
+        <reference id="1203088061055" name="action" index="tCJdB" />
+      </concept>
+      <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
+        <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
+      </concept>
+      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
       <concept id="481983775135178851" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginInitBlock" flags="in" index="2uRRBj" />
@@ -259,11 +284,6 @@
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
       <concept id="1213999088275" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldDeclaration" flags="ig" index="2BZ0e9" />
-      <concept id="1213999117680" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldAccessOperation" flags="nn" index="2BZ7hE" />
-      <concept id="1205752633985" name="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" flags="nn" index="2WthIp" />
-      <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ng" index="2WEnae">
-        <reference id="1205756909548" name="member" index="2WH_rO" />
-      </concept>
     </language>
     <language id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation">
       <concept id="7207189200502820768" name="de.q60.mps.shadowmodels.transformation.structure.OperationCall" flags="ng" index="p1pJ4">
@@ -471,31 +491,14 @@
     </node>
     <node concept="2uRRBj" id="7q7cTU0Y2Cf" role="2uRRBE">
       <node concept="3clFbS" id="7q7cTU0Y2Cg" role="2VODD2">
-        <node concept="3clFbF" id="AkkmJBUmKC" role="3cqZAp">
-          <node concept="37vLTI" id="AkkmJBUnjK" role="3clFbG">
-            <node concept="2ShNRf" id="AkkmJBUnpf" role="37vLTx">
-              <node concept="1pGfFk" id="AkkmJBUnkm" role="2ShVmc">
-                <ref role="37wK5l" node="AkkmJBTVKA" resolve="InteractionServer" />
-              </node>
+        <node concept="3clFbF" id="6Is9Rqa3O61" role="3cqZAp">
+          <node concept="2OqwBi" id="6Is9Rqa3Ofb" role="3clFbG">
+            <node concept="10M0yZ" id="6Is9Rqa3O86" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Is9Rqa3LL2" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="6Is9Rqa3nYK" resolve="OptionalPlugin_InteractionServer" />
             </node>
-            <node concept="2OqwBi" id="AkkmJBUmKy" role="37vLTJ">
-              <node concept="2WthIp" id="AkkmJBUmK_" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="AkkmJBUmKB" role="2OqNvi">
-                <ref role="2WH_rO" node="AkkmJBUmAE" resolve="server" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="AkkmJBUnu0" role="3cqZAp">
-          <node concept="2OqwBi" id="AkkmJBUo1o" role="3clFbG">
-            <node concept="2OqwBi" id="AkkmJBUntU" role="2Oq$k0">
-              <node concept="2WthIp" id="AkkmJBUntX" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="AkkmJBUntZ" role="2OqNvi">
-                <ref role="2WH_rO" node="AkkmJBUmAE" resolve="server" />
-              </node>
-            </node>
-            <node concept="liA8E" id="AkkmJBUoES" role="2OqNvi">
-              <ref role="37wK5l" to="mi4d:~WebSocketServer.start()" resolve="start" />
+            <node concept="liA8E" id="6Is9Rqa3Oo9" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKKx0y" resolve="moduleInitialized" />
             </node>
           </node>
         </node>
@@ -514,16 +517,14 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="AkkmJBUoJK" role="3cqZAp">
-          <node concept="2OqwBi" id="AkkmJBUpj1" role="3clFbG">
-            <node concept="2OqwBi" id="AkkmJBUoJE" role="2Oq$k0">
-              <node concept="2WthIp" id="AkkmJBUoJH" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="AkkmJBUoJJ" role="2OqNvi">
-                <ref role="2WH_rO" node="AkkmJBUmAE" resolve="server" />
-              </node>
+        <node concept="3clFbF" id="6Is9Rqa3Osu" role="3cqZAp">
+          <node concept="2OqwBi" id="6Is9Rqa3Osv" role="3clFbG">
+            <node concept="10M0yZ" id="6Is9Rqa3Osw" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Is9Rqa3LL2" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="6Is9Rqa3nYK" resolve="OptionalPlugin_InteractionServer" />
             </node>
-            <node concept="liA8E" id="AkkmJBUqk5" role="2OqNvi">
-              <ref role="37wK5l" node="AkkmJBUsC1" resolve="stop" />
+            <node concept="liA8E" id="6Is9Rqa3QJx" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKKvCf" resolve="moduleDisposed" />
             </node>
           </node>
         </node>
@@ -5591,6 +5592,184 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="6Is9Rqa3nYK">
+    <property role="TrG5h" value="OptionalPlugin_InteractionServer" />
+    <node concept="Wx3nA" id="6Is9Rqa3LL2" role="jymVt">
+      <property role="TrG5h" value="INSTANCE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="6Is9Rqa3vJ2" role="1tU5fm">
+        <ref role="3uigEE" to="pxvb:5wHEIYKK7G9" resolve="OptionalPlugin" />
+      </node>
+      <node concept="3Tm1VV" id="6Is9Rqa3LKs" role="1B3o_S" />
+      <node concept="2ShNRf" id="6Is9Rqa3vK8" role="33vP2m">
+        <node concept="HV5vD" id="6Is9Rqa3KNc" role="2ShVmc">
+          <ref role="HV5vE" node="6Is9Rqa3nYK" resolve="OptionalPlugin_InteractionServer" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6Is9Rqa3M20" role="jymVt" />
+    <node concept="312cEg" id="6Is9Rqa3M9z" role="jymVt">
+      <property role="TrG5h" value="server" />
+      <node concept="3Tm6S6" id="6Is9Rqa3M9$" role="1B3o_S" />
+      <node concept="3uibUv" id="6Is9Rqa3MjW" role="1tU5fm">
+        <ref role="3uigEE" node="AkkmJBTMtq" resolve="InteractionServer" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6Is9Rqa3MpX" role="jymVt" />
+    <node concept="3clFb_" id="6Is9Rqa3LO4" role="jymVt">
+      <property role="TrG5h" value="init" />
+      <node concept="3cqZAl" id="6Is9Rqa3LO5" role="3clF45" />
+      <node concept="3Tm1VV" id="6Is9Rqa3LO6" role="1B3o_S" />
+      <node concept="3clFbS" id="6Is9Rqa3LO8" role="3clF47">
+        <node concept="3clFbF" id="6Is9Rqa3LUD" role="3cqZAp">
+          <node concept="37vLTI" id="6Is9Rqa3LUE" role="3clFbG">
+            <node concept="2ShNRf" id="6Is9Rqa3LUF" role="37vLTx">
+              <node concept="1pGfFk" id="6Is9Rqa3LUG" role="2ShVmc">
+                <ref role="37wK5l" node="AkkmJBTVKA" resolve="InteractionServer" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6Is9Rqa3MFO" role="37vLTJ">
+              <ref role="3cqZAo" node="6Is9Rqa3M9z" resolve="server" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6Is9Rqa3LUK" role="3cqZAp">
+          <node concept="2OqwBi" id="6Is9Rqa3LUL" role="3clFbG">
+            <node concept="37vLTw" id="6Is9Rqa3MMj" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Is9Rqa3M9z" resolve="server" />
+            </node>
+            <node concept="liA8E" id="6Is9Rqa3LUP" role="2OqNvi">
+              <ref role="37wK5l" to="mi4d:~WebSocketServer.start()" resolve="start" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6Is9Rqa3LO9" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6Is9Rqa3NNv" role="jymVt" />
+    <node concept="3clFb_" id="6Is9Rqa3LOa" role="jymVt">
+      <property role="TrG5h" value="dispose" />
+      <node concept="3cqZAl" id="6Is9Rqa3LOb" role="3clF45" />
+      <node concept="3Tm1VV" id="6Is9Rqa3LOc" role="1B3o_S" />
+      <node concept="3clFbS" id="6Is9Rqa3LOe" role="3clF47">
+        <node concept="3clFbF" id="6Is9Rqa3LZm" role="3cqZAp">
+          <node concept="2OqwBi" id="6Is9Rqa3LZn" role="3clFbG">
+            <node concept="37vLTw" id="6Is9Rqa3MSQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Is9Rqa3M9z" resolve="server" />
+            </node>
+            <node concept="liA8E" id="6Is9Rqa3LZr" role="2OqNvi">
+              <ref role="37wK5l" node="AkkmJBUsC1" resolve="stop" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6Is9Rqa3N6w" role="3cqZAp">
+          <node concept="37vLTI" id="6Is9Rqa3Nw9" role="3clFbG">
+            <node concept="10Nm6u" id="6Is9Rqa3N$_" role="37vLTx" />
+            <node concept="37vLTw" id="6Is9Rqa3N6u" role="37vLTJ">
+              <ref role="3cqZAo" node="6Is9Rqa3M9z" resolve="server" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6Is9Rqa3LOf" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="6Is9Rqa3nYL" role="1B3o_S" />
+    <node concept="3uibUv" id="6Is9Rqa3vt$" role="1zkMxy">
+      <ref role="3uigEE" to="pxvb:5wHEIYKK7G9" resolve="OptionalPlugin" />
+    </node>
+  </node>
+  <node concept="sE7Ow" id="6Is9Rqa3QUB">
+    <property role="TrG5h" value="ActivateInteractionServer" />
+    <property role="2uzpH1" value="Enable Web UI Server" />
+    <node concept="tnohg" id="6Is9Rqa3QUC" role="tncku">
+      <node concept="3clFbS" id="6Is9Rqa3QUD" role="2VODD2">
+        <node concept="3clFbF" id="6Is9Rqa3S3v" role="3cqZAp">
+          <node concept="2OqwBi" id="6Is9Rqa3Saf" role="3clFbG">
+            <node concept="10M0yZ" id="6Is9Rqa3S49" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Is9Rqa3LL2" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="6Is9Rqa3nYK" resolve="OptionalPlugin_InteractionServer" />
+            </node>
+            <node concept="liA8E" id="6Is9Rqa3Sj0" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKKbLG" resolve="setEnabledByUser" />
+              <node concept="3clFbT" id="6Is9Rqa3SjI" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="6Is9Rqa3QUW" role="tmbBb">
+      <node concept="3clFbS" id="6Is9Rqa3QUX" role="2VODD2">
+        <node concept="3clFbF" id="6Is9Rqa3R8G" role="3cqZAp">
+          <node concept="3fqX7Q" id="6Is9Rqa3ROZ" role="3clFbG">
+            <node concept="2OqwBi" id="6Is9Rqa3RP1" role="3fr31v">
+              <node concept="10M0yZ" id="6Is9Rqa3RP2" role="2Oq$k0">
+                <ref role="3cqZAo" node="6Is9Rqa3LL2" resolve="INSTANCE" />
+                <ref role="1PxDUh" node="6Is9Rqa3nYK" resolve="OptionalPlugin_InteractionServer" />
+              </node>
+              <node concept="liA8E" id="6Is9Rqa3RP3" role="2OqNvi">
+                <ref role="37wK5l" to="pxvb:5wHEIYKNq2x" resolve="isEnabled" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="6Is9Rqa3SlO">
+    <property role="TrG5h" value="DeactivateInteractionServer" />
+    <property role="2uzpH1" value="Disable Web UI Server" />
+    <node concept="tnohg" id="6Is9Rqa3SlP" role="tncku">
+      <node concept="3clFbS" id="6Is9Rqa3SlQ" role="2VODD2">
+        <node concept="3clFbF" id="6Is9Rqa3SlR" role="3cqZAp">
+          <node concept="2OqwBi" id="6Is9Rqa3SlS" role="3clFbG">
+            <node concept="10M0yZ" id="6Is9Rqa3SlT" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Is9Rqa3LL2" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="6Is9Rqa3nYK" resolve="OptionalPlugin_InteractionServer" />
+            </node>
+            <node concept="liA8E" id="6Is9Rqa3SlU" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKKbLG" resolve="setEnabledByUser" />
+              <node concept="3clFbT" id="6Is9Rqa3SlV" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="6Is9Rqa3SlW" role="tmbBb">
+      <node concept="3clFbS" id="6Is9Rqa3SlX" role="2VODD2">
+        <node concept="3clFbF" id="6Is9Rqa3SlY" role="3cqZAp">
+          <node concept="2OqwBi" id="6Is9Rqa3Sm0" role="3clFbG">
+            <node concept="10M0yZ" id="6Is9Rqa3Sm1" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Is9Rqa3LL2" resolve="INSTANCE" />
+              <ref role="1PxDUh" node="6Is9Rqa3nYK" resolve="OptionalPlugin_InteractionServer" />
+            </node>
+            <node concept="liA8E" id="6Is9Rqa3T7$" role="2OqNvi">
+              <ref role="37wK5l" to="pxvb:5wHEIYKNq2x" resolve="isEnabled" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="tC5Ba" id="6Is9Rqa3TrR">
+    <property role="TrG5h" value="InteractionServerGroup" />
+    <node concept="ftmFs" id="6Is9Rqa3TrT" role="ftER_">
+      <node concept="tCFHf" id="6Is9Rqa3TrW" role="ftvYc">
+        <ref role="tCJdB" node="6Is9Rqa3QUB" resolve="ActivateInteractionServer" />
+      </node>
+      <node concept="tCFHf" id="6Is9Rqa3Ts1" role="ftvYc">
+        <ref role="tCJdB" node="6Is9Rqa3SlO" resolve="DeactivateInteractionServer" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="6Is9Rqa3Ts5" role="2f5YQi">
+      <ref role="tU$_T" to="y9oj:43OnoQB0wqZ" resolve="ShadowGroup" />
     </node>
   </node>
 </model>

@@ -7565,6 +7565,7 @@
         </node>
         <node concept="1SiIV0" id="D0xzCAT8p5" role="3bR37C">
           <node concept="3bR9La" id="D0xzCAT8p6" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
           </node>
         </node>

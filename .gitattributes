@@ -8,5 +8,3 @@ dependencies text merge=mps
 *.mpsr text merge=mps
 *.model text merge=mps
 *.mps text merge=mps
-*.jar filter=lfs diff=lfs merge=lfs -text
-*.bin filter=lfs diff=lfs merge=lfs -text

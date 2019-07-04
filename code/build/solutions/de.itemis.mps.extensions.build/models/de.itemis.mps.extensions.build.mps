@@ -5829,6 +5829,472 @@
         </node>
       </node>
     </node>
+    <node concept="m$_wf" id="4tTeOKHFPAP" role="3989C9">
+      <property role="m$_wk" value="de.itemis.mps.jung" />
+      <node concept="3_J27D" id="4tTeOKHFPAR" role="m$_yQ">
+        <node concept="3Mxwew" id="4tTeOKHFRl$" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.jung" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="4tTeOKHFPAT" role="m_cZH">
+        <node concept="3Mxwew" id="4tTeOKHFRlA" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.jung" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="4tTeOKHFPAV" role="m$_w8">
+        <node concept="3Mxwey" id="4tTeOKHFRwD" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="4tTeOKHFRFG" role="m$_yh">
+        <ref role="m$f5T" node="4tTeOKHFF_O" resolve="de.itemis.mps.jung" />
+      </node>
+      <node concept="m$_yC" id="4tTeOKHFRQJ" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="4tTeOKHFF_O" role="3989C9">
+      <property role="TrG5h" value="de.itemis.mps.jung" />
+      <node concept="1E1JtD" id="4tTeOKHFHOP" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.jung" />
+        <property role="3LESm3" value="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" />
+        <node concept="398BVA" id="4tTeOKHFJam" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4tTeOKHFJib" role="iGT6I">
+            <property role="2Ry0Am" value="jung" />
+            <node concept="2Ry0Ak" id="4tTeOKHFJLk" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="4tTeOKHFK0V" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.jung.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsI" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsJ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsK" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsL" role="1SiIV1">
+            <ref role="3bR37D" node="4tTeOKHFKgC" resolve="com.mbeddr.mpsutil.jung.pluginSolution" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="4tTeOKHFKgC" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.jung.pluginSolution" />
+        <property role="3LESm3" value="1338ba73-5059-479b-a929-de86597a62b8" />
+        <node concept="398BVA" id="4tTeOKHFN8a" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4tTeOKHFNvz" role="iGT6I">
+            <property role="2Ry0Am" value="jung" />
+            <node concept="2Ry0Ak" id="4tTeOKHFNJa" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="4tTeOKHFNYL" role="2Ry0An">
+                <property role="2Ry0Am" value="pluginSolution" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOeo" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.jung.pluginSolution.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsM" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsN" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsO" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsP" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsQ" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsR" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsS" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsT" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsU" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsV" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsW" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsX" role="1SiIV1">
+            <ref role="3bR37D" node="4tTeOKHFHOP" resolve="com.mbeddr.mpsutil.jung" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOsY" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOsZ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOt0" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFOt1" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOtf" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOtg" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOt2" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOt3" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOt4" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOt5" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOt6" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOt7" role="2Ry0An">
+                        <property role="2Ry0Am" value="collections-generic-4.01.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOtu" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOtv" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOth" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOti" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOtj" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOtk" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOtl" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOtm" role="2Ry0An">
+                        <property role="2Ry0Am" value="colt-1.2.0.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOtH" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOtI" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOtw" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOtx" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOty" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOtz" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOt$" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOt_" role="2Ry0An">
+                        <property role="2Ry0Am" value="concurrent-1.3.4.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOtW" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOtX" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOtJ" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOtK" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOtL" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOtM" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOtN" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOtO" role="2Ry0An">
+                        <property role="2Ry0Am" value="j3d-core-1.3.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOub" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOuc" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOtY" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOtZ" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOu0" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOu1" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOu2" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOu3" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-3d-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOuq" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOur" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOud" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOue" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOuf" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOug" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOuh" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOui" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-3d-demos-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOuD" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOuE" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOus" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOut" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOuu" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOuv" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOuw" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOux" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-algorithms-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOuS" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOuT" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOuF" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOuG" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOuH" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOuI" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOuJ" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOuK" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-api-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOv7" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOv8" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOuU" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOuV" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOuW" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOuX" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOuY" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOuZ" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-graph-impl-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOvm" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOvn" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOv9" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOva" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOvb" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOvc" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOvd" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOve" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-io-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOv_" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOvA" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOvo" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOvp" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOvq" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOvr" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOvs" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOvt" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-jai-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOvO" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOvP" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOvB" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOvC" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOvD" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOvE" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOvF" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOvG" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-jai-samples-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOw3" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOw4" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOvQ" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOvR" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOvS" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOvT" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOvU" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOvV" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-samples-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOwi" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOwj" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOw5" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOw6" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOw7" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOw8" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOw9" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOwa" role="2Ry0An">
+                        <property role="2Ry0Am" value="jung-visualization-2.0.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOwx" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOwy" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOwk" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOwl" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOwm" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOwn" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOwo" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOwp" role="2Ry0An">
+                        <property role="2Ry0Am" value="vecmath-1.3.1.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFOwK" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFOwL" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFOwz" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFOw$" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFOw_" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFOwA" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFOwB" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFOwC" role="2Ry0An">
+                        <property role="2Ry0Am" value="wstx-asl-3.2.6.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="m$_wf" id="2NTGYE$JTH6" role="3989C9">
       <property role="m$_wk" value="com.dslfoundry.plaintextgen" />
       <node concept="3_J27D" id="2NTGYE$JTH7" role="m$_yQ">
@@ -8155,6 +8621,34 @@
                   <node concept="2Ry0Ak" id="4tTeOKHFkDw" role="2Ry0An">
                     <property role="2Ry0Am" value="com.mbeddr.mpsutil.jfreechart.runtime" />
                     <node concept="2Ry0Ak" id="4tTeOKHFkD_" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="m$_wl" id="4tTeOKHFSzf" role="39821P">
+        <ref role="m_rDy" node="4tTeOKHFPAP" resolve="de.itemis.mps.jung" />
+        <node concept="pUk6x" id="4tTeOKHFSVv" role="pUk7w" />
+        <node concept="398223" id="4tTeOKHFT6z" role="39821P">
+          <node concept="3_J27D" id="4tTeOKHFT6$" role="Nbhlr">
+            <node concept="3Mxwew" id="4tTeOKHFThC" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="4tTeOKHFThE" role="39821P">
+            <node concept="398BVA" id="4tTeOKHFTsJ" role="2HvfZ0">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFTBO" role="iGT6I">
+                <property role="2Ry0Am" value="jung" />
+                <node concept="2Ry0Ak" id="4tTeOKHFTBT" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFTBY" role="2Ry0An">
+                    <property role="2Ry0Am" value="pluginSolution" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFTC3" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
                     </node>
                   </node>

@@ -58,8 +58,8 @@
       <modulePath path="$PROJECT_DIR$/jfreechart/languages/com.mbeddr.mpsutil.jfreechart/com.mbeddr.mpsutil.jfreechart.mpl" folder="jfreechart" />
       <modulePath path="$PROJECT_DIR$/jfreechart/solutions/com.mbeddr.mpsutil.jfreechart.runtime/com.mbeddr.mpsutil.jfreechart.runtime.msd" folder="jfreechart" />
       <modulePath path="$PROJECT_DIR$/json/languages/com.mbeddr.mpsutil.json/com.mbeddr.mpsutil.json.mpl" folder="json" />
-      <modulePath path="$PROJECT_DIR$/jung/languages/com.mbeddr.mpsutil.jung.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/jung/solutions/pluginSolution/com.mbeddr.mpsutil.jung.pluginSolution.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/jung/languages/com.mbeddr.mpsutil.jung.mpl" folder="jung" />
+      <modulePath path="$PROJECT_DIR$/jung/solutions/pluginSolution/com.mbeddr.mpsutil.jung.pluginSolution.msd" folder="jung" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.q60.mps.shadowmodels.web.statemachine/de.q60.mps.shadowmodels.web.statemachine.mpl" folder="shadowmodels.web" />
@@ -153,6 +153,8 @@
       <modulePath path="$PROJECT_DIR$/treenotation/solutions/com.mbeddr.mpsutil.treenotation.runtime/com.mbeddr.mpsutil.treenotation.runtime.msd" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/com.mbeddr.mpsutil.serializer.xml/com.mbeddr.mpsutil.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
+      <modulePath path="$PROJECT_DIR$/varscope/languages/com.mbeddr.mpsutil.varscope/com.mbeddr.mpsutil.varscope.mpl" folder="varscope" />
+      <modulePath path="$PROJECT_DIR$/varscope/solutions/com.mbeddr.mpsutil.varscope.runtime/com.mbeddr.mpsutil.varscope.runtime.msd" folder="varscope" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool/de.itemis.mps.editor.bool.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.collapsible.testlang/de.itemis.mps.editor.collapsible.testlang.mpl" folder="widgets" />

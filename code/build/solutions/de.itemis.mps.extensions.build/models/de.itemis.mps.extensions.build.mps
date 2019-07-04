@@ -5639,6 +5639,139 @@
         </node>
       </node>
     </node>
+    <node concept="m$_wf" id="4tTeOKHFh3w" role="3989C9">
+      <property role="m$_wk" value="de.itemis.mps.jfreechart" />
+      <node concept="3_J27D" id="4tTeOKHFh3y" role="m$_yQ">
+        <node concept="3Mxwew" id="4tTeOKHFiVa" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.jfreechart" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="4tTeOKHFh3$" role="m_cZH">
+        <node concept="3Mxwew" id="4tTeOKHFiVc" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.jfreechart" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="4tTeOKHFh3A" role="m$_w8">
+        <node concept="3Mxwey" id="4tTeOKHFj2Z" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="4tTeOKHFjaM" role="m$_yh">
+        <ref role="m$f5T" node="4tTeOKHF5Mu" resolve="de.itemis.mps.jfreechart" />
+      </node>
+      <node concept="m$_yC" id="4tTeOKHFjAR" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="4tTeOKHF5Mu" role="3989C9">
+      <property role="TrG5h" value="de.itemis.mps.jfreechart" />
+      <node concept="1E1JtD" id="4tTeOKHF7Vr" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.jfreechart" />
+        <property role="3LESm3" value="12660903-78c0-48ab-832f-9da144d9d346" />
+        <node concept="398BVA" id="4tTeOKHF9DS" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4tTeOKHFa7q" role="iGT6I">
+            <property role="2Ry0Am" value="jfreechart" />
+            <node concept="2Ry0Ak" id="4tTeOKHFamd" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="4tTeOKHFa_0" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.jfreechart" />
+                <node concept="2Ry0Ak" id="4tTeOKHFaNN" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.jfreechart.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="4tTeOKHFb1l" role="1TViLv">
+          <property role="TrG5h" value="com.mbeddr.mpsutil.jfreechart#2296766543766842087" />
+          <property role="3LESm3" value="636d2bdb-e584-495f-a82a-0c36f097cac1" />
+        </node>
+        <node concept="1E0d5M" id="4tTeOKHFg7Y" role="1E1XAP">
+          <ref role="1E0d5P" node="4tTeOKHFct8" resolve="com.mbeddr.mpsutil.jfreechart.runtime" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="4tTeOKHFct8" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.jfreechart.runtime" />
+        <property role="3LESm3" value="7fe13e34-8620-4d5d-92c7-df091b0ed628" />
+        <node concept="398BVA" id="4tTeOKHFeqs" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4tTeOKHFeZl" role="iGT6I">
+            <property role="2Ry0Am" value="jfreechart" />
+            <node concept="2Ry0Ak" id="4tTeOKHFflv" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="4tTeOKHFfFD" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.jfreechart.runtime" />
+                <node concept="2Ry0Ak" id="4tTeOKHFfUs" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.jfreechart.runtime.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFg7Z" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFg80" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFg81" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFg82" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFg83" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHFg84" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFg8i" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFg8j" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFg85" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFg86" role="iGT6I">
+                <property role="2Ry0Am" value="jfreechart" />
+                <node concept="2Ry0Ak" id="4tTeOKHFg87" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFg88" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.jfreechart.runtime" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFg89" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFg8a" role="2Ry0An">
+                        <property role="2Ry0Am" value="jfreechart-1.0.19.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHFg8x" role="3bR37C">
+          <node concept="1BurEX" id="4tTeOKHFg8y" role="1SiIV1">
+            <node concept="398BVA" id="4tTeOKHFg8k" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFg8l" role="iGT6I">
+                <property role="2Ry0Am" value="jfreechart" />
+                <node concept="2Ry0Ak" id="4tTeOKHFg8m" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFg8n" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.jfreechart.runtime" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFg8o" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4tTeOKHFg8p" role="2Ry0An">
+                        <property role="2Ry0Am" value="jcommon-1.0.23.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="m$_wf" id="4tTeOKHF19d" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.json" />
       <node concept="m$f5U" id="4tTeOKHF3pH" role="m$_yh">
@@ -8002,6 +8135,34 @@
       <node concept="m$_wl" id="4tTeOKHF466" role="39821P">
         <ref role="m_rDy" node="4tTeOKHF19d" resolve="de.itemis.mps.json" />
         <node concept="pUk6x" id="4tTeOKHF4mP" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="4tTeOKHFjSq" role="39821P">
+        <ref role="m_rDy" node="4tTeOKHFh3w" resolve="de.itemis.mps.jfreechart" />
+        <node concept="pUk6x" id="4tTeOKHFk9Z" role="pUk7w" />
+        <node concept="398223" id="4tTeOKHFkhN" role="39821P">
+          <node concept="3_J27D" id="4tTeOKHFkhO" role="Nbhlr">
+            <node concept="3Mxwew" id="4tTeOKHFkpC" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="4tTeOKHFkpE" role="39821P">
+            <node concept="398BVA" id="4tTeOKHFkxv" role="2HvfZ0">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4tTeOKHFkDm" role="iGT6I">
+                <property role="2Ry0Am" value="jfreechart" />
+                <node concept="2Ry0Ak" id="4tTeOKHFkDr" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4tTeOKHFkDw" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.jfreechart.runtime" />
+                    <node concept="2Ry0Ak" id="4tTeOKHFkD_" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="m$_wl" id="1RCZH7X6nCV" role="39821P">
         <ref role="m_rDy" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />

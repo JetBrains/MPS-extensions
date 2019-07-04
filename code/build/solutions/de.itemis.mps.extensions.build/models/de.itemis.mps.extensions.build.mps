@@ -6506,6 +6506,77 @@
         </node>
       </node>
     </node>
+    <node concept="m$_wf" id="4tTeOKHGHVi" role="3989C9">
+      <property role="m$_wk" value="de.itemis.mps.filepicker" />
+      <node concept="3_J27D" id="4tTeOKHGHVk" role="m$_yQ">
+        <node concept="3Mxwew" id="4tTeOKHGKc$" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.filepicker" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="4tTeOKHGHVm" role="m_cZH">
+        <node concept="3Mxwew" id="4tTeOKHGKcA" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.filepicker" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="4tTeOKHGHVo" role="m$_w8">
+        <node concept="3Mxwey" id="4tTeOKHGKnD" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="4tTeOKHGKyG" role="m$_yh">
+        <ref role="m$f5T" node="4tTeOKHG_Wi" resolve="de.itemis.mps.filepicker" />
+      </node>
+      <node concept="m$_yC" id="4tTeOKHGKHJ" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="3_J27D" id="4tTeOKHGLd4" role="3s6cr7">
+        <node concept="3Mxwew" id="4tTeOKHGLd6" role="3MwsjC">
+          <property role="3MwjfP" value="File Picker language from mbeddr" />
+        </node>
+      </node>
+    </node>
+    <node concept="2G$12M" id="4tTeOKHG_Wi" role="3989C9">
+      <property role="TrG5h" value="de.itemis.mps.filepicker" />
+      <node concept="1E1JtD" id="4tTeOKHGCzf" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.filepicker" />
+        <property role="3LESm3" value="d3a0fd26-445a-466c-900e-10444ddfed52" />
+        <node concept="398BVA" id="4tTeOKHGEXx" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4tTeOKHGFuE" role="iGT6I">
+            <property role="2Ry0Am" value="filepicker" />
+            <node concept="2Ry0Ak" id="4tTeOKHGFOL" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="4tTeOKHGGaS" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.filepicker" />
+                <node concept="2Ry0Ak" id="4tTeOKHGGwZ" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.filepicker.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHGGPP" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHGGPQ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHGGPR" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHGGPS" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHGGPT" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHGGPU" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="4tTeOKHGGPV" role="1TViLv">
+          <property role="TrG5h" value="com.mbeddr.mpsutil.filepicker#4067882553846359376" />
+          <property role="3LESm3" value="4b706ccc-acf2-4850-a93e-1884d0a0fb68" />
+        </node>
+      </node>
+    </node>
     <node concept="m$_wf" id="2NTGYE$JTH6" role="3989C9">
       <property role="m$_wk" value="com.dslfoundry.plaintextgen" />
       <node concept="3_J27D" id="2NTGYE$JTH7" role="m$_yQ">
@@ -8876,6 +8947,10 @@
       <node concept="m$_wl" id="4tTeOKHGzGq" role="39821P">
         <ref role="m_rDy" node="4tTeOKHGvW8" resolve="de.itemis.mps.modellisteners" />
         <node concept="pUk6x" id="4tTeOKHG$4R" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="4tTeOKHGLTP" role="39821P">
+        <ref role="m_rDy" node="4tTeOKHGHVi" resolve="de.itemis.mps.filepicker" />
+        <node concept="pUk6x" id="4tTeOKHGMik" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="1RCZH7X6nCV" role="39821P">
         <ref role="m_rDy" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />

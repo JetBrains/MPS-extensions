@@ -5639,6 +5639,63 @@
         </node>
       </node>
     </node>
+    <node concept="m$_wf" id="4tTeOKHF19d" role="3989C9">
+      <property role="m$_wk" value="de.itemis.mps.json" />
+      <node concept="m$f5U" id="4tTeOKHF3pH" role="m$_yh">
+        <ref role="m$f5T" node="4tTeOKHEUO7" resolve="de.itemis.mps.json" />
+      </node>
+      <node concept="3_J27D" id="4tTeOKHF19f" role="m$_yQ">
+        <node concept="3Mxwew" id="4tTeOKHF33y" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.json" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="4tTeOKHF19h" role="m_cZH">
+        <node concept="3Mxwew" id="4tTeOKHF3aV" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.json" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="4tTeOKHF19j" role="m$_w8">
+        <node concept="3Mxwey" id="4tTeOKHF3ik" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="m$_yC" id="4tTeOKHF3Pp" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="4tTeOKHEUO7" role="3989C9">
+      <property role="TrG5h" value="de.itemis.mps.json" />
+      <node concept="1E1JtD" id="4tTeOKHEWIe" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.json" />
+        <property role="3LESm3" value="b5c0bb04-c583-4b2a-a66e-1eab92d33c68" />
+        <node concept="398BVA" id="4tTeOKHEWPD" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="4tTeOKHEWX4" role="iGT6I">
+            <property role="2Ry0Am" value="json" />
+            <node concept="2Ry0Ak" id="4tTeOKHEXDl" role="2Ry0An">
+              <property role="2Ry0Am" value="languages" />
+              <node concept="2Ry0Ak" id="4tTeOKHEXS8" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.json" />
+                <node concept="2Ry0Ak" id="4tTeOKHEY6V" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.json.mpl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHF0g1" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHF0g2" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4tTeOKHF0g3" role="3bR37C">
+          <node concept="3bR9La" id="4tTeOKHF0g4" role="1SiIV1">
+            <ref role="3bR37D" node="4tTeOKHEWIe" resolve="com.mbeddr.mpsutil.json" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="m$_wf" id="2NTGYE$JTH6" role="3989C9">
       <property role="m$_wk" value="com.dslfoundry.plaintextgen" />
       <node concept="3_J27D" id="2NTGYE$JTH7" role="m$_yQ">
@@ -7624,11 +7681,20 @@
                       <node concept="2Ry0Ak" id="2IxvlKP9Jtj" role="2Ry0An">
                         <property role="2Ry0Am" value=".." />
                         <node concept="2Ry0Ak" id="2IxvlKP9Jtk" role="2Ry0An">
-                          <property role="2Ry0Am" value="Applications" />
+                          <property role="2Ry0Am" value="opt" />
                           <node concept="2Ry0Ak" id="2IxvlKP9Jtl" role="2Ry0An">
-                            <property role="2Ry0Am" value="MPS 2017.3.app" />
+                            <property role="2Ry0Am" value="JetBrains" />
                             <node concept="2Ry0Ak" id="2IxvlKP9Jtm" role="2Ry0An">
-                              <property role="2Ry0Am" value="Contents" />
+                              <property role="2Ry0Am" value="Toolbox" />
+                              <node concept="2Ry0Ak" id="4tTeOKHEMnf" role="2Ry0An">
+                                <property role="2Ry0Am" value="apps" />
+                                <node concept="2Ry0Ak" id="4tTeOKHEMOI" role="2Ry0An">
+                                  <property role="2Ry0Am" value="MPS" />
+                                  <node concept="2Ry0Ak" id="4tTeOKHENid" role="2Ry0An">
+                                    <property role="2Ry0Am" value="ch-0" />
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -7932,6 +7998,10 @@
       <node concept="m$_wl" id="2NTGYE$JTHj" role="39821P">
         <ref role="m_rDy" node="2NTGYE$JTH6" resolve="com.dslfoundry.plaintextgen" />
         <node concept="pUk6x" id="1jpfXD$n5lw" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="4tTeOKHF466" role="39821P">
+        <ref role="m_rDy" node="4tTeOKHF19d" resolve="de.itemis.mps.json" />
+        <node concept="pUk6x" id="4tTeOKHF4mP" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="1RCZH7X6nCV" role="39821P">
         <ref role="m_rDy" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />

@@ -71,6 +71,8 @@
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.runtime/de.itemis.mps.editor.math.runtime.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.sandbox/de.itemis.mps.editor.math.sandbox.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" folder="math" />
+      <modulePath path="$PROJECT_DIR$/modellisteners/langauges/com.mbeddr.mpsutil.modellisteners/com.mbeddr.mpsutil.modellisteners.mpl" folder="modellisteners" />
+      <modulePath path="$PROJECT_DIR$/modellisteners/solutions/com.mbeddr.mpsutil.modellisteners.runtime/com.mbeddr.mpsutil.modellisteners.runtime.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/mouseselection/languages/de.itemis.mps.selection.intentions/de.itemis.mps.selection.intentions.mpl" folder="mouseselection" />
       <modulePath path="$PROJECT_DIR$/mouseselection/solutions/de.itemis.mps.selection.runtime/de.itemis.mps.selection.runtime.msd" folder="mouseselection" />
       <modulePath path="$PROJECT_DIR$/multiline/languages/demolang/demolang.mpl" folder="multiline" />

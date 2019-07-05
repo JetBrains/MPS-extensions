@@ -7865,6 +7865,73 @@
         </node>
       </node>
     </node>
+    <node concept="m$_wf" id="41M8ZsEHMju" role="3989C9">
+      <property role="m$_wk" value="de.itemis.mps.xmlImport" />
+      <node concept="3_J27D" id="41M8ZsEHMjw" role="m$_yQ">
+        <node concept="3Mxwew" id="41M8ZsEHP35" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.xmlImport" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="41M8ZsEHMjy" role="m_cZH">
+        <node concept="3Mxwew" id="41M8ZsEHP37" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.xmlImport" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="41M8ZsEHMj$" role="m$_w8">
+        <node concept="3Mxwey" id="41M8ZsEHPzB" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="m$_yC" id="41M8ZsEHPJP" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="41M8ZsEHQ8i" role="m$_yJ">
+        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="41M8ZsEHD4t" role="3989C9">
+      <property role="TrG5h" value="de.itemis.mps.xmlImport " />
+      <node concept="1E1JtA" id="41M8ZsEHFNG" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.xmlImport" />
+        <property role="3LESm3" value="6f6d5be9-a352-48db-9081-851a6d5c535b" />
+        <node concept="398BVA" id="41M8ZsEHIYQ" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="41M8ZsEHJzw" role="iGT6I">
+            <property role="2Ry0Am" value="xmlImport" />
+            <node concept="2Ry0Ak" id="41M8ZsEHJVX" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="41M8ZsEHKkq" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.xmlImport" />
+                <node concept="2Ry0Ak" id="41M8ZsEHKGR" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.xmlImport.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="41M8ZsEHL43" role="3bR37C">
+          <node concept="3bR9La" id="41M8ZsEHL44" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="41M8ZsEHL45" role="3bR37C">
+          <node concept="3bR9La" id="41M8ZsEHL46" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="41M8ZsEHL47" role="3bR37C">
+          <node concept="3bR9La" id="41M8ZsEHL48" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:568PkTlOK5Q" resolve="jetbrains.mps.core.xml" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="41M8ZsEHL49" role="3bR37C">
+          <node concept="3bR9La" id="41M8ZsEHL4a" role="1SiIV1">
+            <ref role="3bR37D" node="PE3B26QCrP" resolve="org.apache.commons" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="m$_wf" id="2NTGYE$JTH6" role="3989C9">
       <property role="m$_wk" value="com.dslfoundry.plaintextgen" />
       <node concept="3_J27D" id="2NTGYE$JTH7" role="m$_yQ">
@@ -10187,6 +10254,10 @@
       <node concept="m$_wl" id="4tTeOKHF466" role="39821P">
         <ref role="m_rDy" node="4tTeOKHF19d" resolve="de.itemis.mps.json" />
         <node concept="pUk6x" id="4tTeOKHF4mP" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="41M8ZsEHQzz" role="39821P">
+        <ref role="m_rDy" node="41M8ZsEHMju" resolve="de.itemis.mps.xmlImport" />
+        <node concept="pUk6x" id="41M8ZsEHQYO" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="4tTeOKHFjSq" role="39821P">
         <ref role="m_rDy" node="4tTeOKHFh3w" resolve="de.itemis.mps.jfreechart" />

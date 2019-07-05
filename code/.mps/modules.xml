@@ -96,7 +96,7 @@
       <modulePath path="$PROJECT_DIR$/nodeversioning/languages/de.itemis.mps.nodeversioning/de.itemis.mps.nodeversioning.mpl" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/solutions/de.itemis.mps.nodeversioning.runtime.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/tests/de.itemis.mps.nodeversioning.test/de.itemis.mps.nodeversioning.test.msd" folder="nodeversioning" />
-      <modulePath path="$PROJECT_DIR$/org-xml/org.xml.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/org-xml/org.xml.msd" folder="org-xml" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextflow/com.dslfoundry.plaintextflow.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.nestedlist/com.dslfoundry.plaintextgen.example.nestedlist.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.testlang/com.dslfoundry.plaintextgen.example.testlang.mpl" folder="plaintextgen" />
@@ -193,6 +193,7 @@
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.dropdown.runtime/de.itemis.mps.editor.dropdown.runtime.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.editor.dropdown.sandbox/de.itemis.mps.editor.dropdown.sandbox.msd" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/solutions/de.itemis.mps.mouselistener.runtime/de.itemis.mps.mouselistener.runtime.msd" folder="widgets" />
+      <modulePath path="$PROJECT_DIR$/xmlImport/solutions/com.mbeddr.mpsutil.xmlImport/com.mbeddr.mpsutil.xmlImport.msd" folder="xmlImport" />
     </projectModules>
   </component>
 </project>

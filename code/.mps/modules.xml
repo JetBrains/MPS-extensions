@@ -52,6 +52,7 @@
       <modulePath path="$PROJECT_DIR$/diagram/solutions/test.de.itemis.mps.editor.diagram.solution/test.de.itemis.mps.editor.diagram.solution.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/editor-querylist/languages/com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.mpl" folder="editor-querylist" />
       <modulePath path="$PROJECT_DIR$/editor-querylist/solutions/com.mbeddr.mpsutil.editor.querylist.runtime/com.mbeddr.mpsutil.editor.querylist.runtime.msd" folder="editor-querylist" />
+      <modulePath path="$PROJECT_DIR$/editor-querylist/solutions/com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox.msd" folder="editor-querylist" />
       <modulePath path="$PROJECT_DIR$/editorsupport/languages/com.mbeddr.mpsutil.framecell/com.mbeddr.mpsutil.framecell.mpl" folder="editorsupport" />
       <modulePath path="$PROJECT_DIR$/editorsupport/languages/com.mbeddr.mpsutil.hyperlink/com.mbeddr.mpsutil.hyperlink.mpl" folder="editorsupport" />
       <modulePath path="$PROJECT_DIR$/editorsupport/solutions/com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.msd" folder="editorsupport" />
@@ -73,6 +74,7 @@
       <modulePath path="$PROJECT_DIR$/intentions/solutions/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentions" />
       <modulePath path="$PROJECT_DIR$/jfreechart/languages/com.mbeddr.mpsutil.jfreechart/com.mbeddr.mpsutil.jfreechart.mpl" folder="jfreechart" />
       <modulePath path="$PROJECT_DIR$/jfreechart/solutions/com.mbeddr.mpsutil.jfreechart.runtime/com.mbeddr.mpsutil.jfreechart.runtime.msd" folder="jfreechart" />
+      <modulePath path="$PROJECT_DIR$/jfreechart/solutions/com.mbeddr.mpsutil.jfreechart.sandbox/com.mbeddr.mpsutil.jfreechart.sandbox.msd" folder="jfreechart" />
       <modulePath path="$PROJECT_DIR$/json/languages/com.mbeddr.mpsutil.json/com.mbeddr.mpsutil.json.mpl" folder="json" />
       <modulePath path="$PROJECT_DIR$/jung/languages/com.mbeddr.mpsutil.jung.mpl" folder="jung" />
       <modulePath path="$PROJECT_DIR$/jung/solutions/pluginSolution/com.mbeddr.mpsutil.jung.pluginSolution.msd" folder="jung" />
@@ -89,6 +91,7 @@
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/modellisteners/langauges/com.mbeddr.mpsutil.modellisteners/com.mbeddr.mpsutil.modellisteners.mpl" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/solutions/com.mbeddr.mpsutil.modellisteners.runtime/com.mbeddr.mpsutil.modellisteners.runtime.msd" folder="modellisteners" />
+      <modulePath path="$PROJECT_DIR$/modellisteners/solutions/com.mbeddr.mpsutil.modellisteners.sandbox/com.mbeddr.mpsutil.modellisteners.sandbox.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/mouseselection/languages/de.itemis.mps.selection.intentions/de.itemis.mps.selection.intentions.mpl" folder="mouseselection" />
       <modulePath path="$PROJECT_DIR$/mouseselection/solutions/de.itemis.mps.selection.runtime/de.itemis.mps.selection.runtime.msd" folder="mouseselection" />
       <modulePath path="$PROJECT_DIR$/multiline/languages/demolang/demolang.mpl" folder="multiline" />
@@ -155,6 +158,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/smodule/languages/com.mbeddr.mpsutil.smodule/com.mbeddr.mpsutil.smodule.mpl" folder="smodule" />
       <modulePath path="$PROJECT_DIR$/smodule/solutions/com.mbeddr.mpsutil.smodule.runtime/com.mbeddr.mpsutil.smodule.runtime.msd" folder="smodule" />
+      <modulePath path="$PROJECT_DIR$/smodule/solutions/com.mbeddr.mpsutil.smodule.sandbox/com.mbeddr.mpdutil.smodule.sandbox.msd" folder="smodule" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.modelmerger.runtime/de.itemis.mps.modelmerger.runtime.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/solutions/tests.de.itemis.mps.modelmerger/tests.de.itemis.mps.modelmerger.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
@@ -171,6 +175,7 @@
       <modulePath path="$PROJECT_DIR$/treenotation/languages/com.mbeddr.mpsutil.treenotation.styles/com.mbeddr.mpsutil.treenotation.styles.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/languages/com.mbeddr.mpsutil.treenotation/com.mbeddr.mpsutil.treenotation.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/solutions/com.mbeddr.mpsutil.treenotation.runtime/com.mbeddr.mpsutil.treenotation.runtime.msd" folder="treenotation" />
+      <modulePath path="$PROJECT_DIR$/treenotation/solutions/com.mbeddr.mpsutil.treenotation.sandbox/com.mbeddr.mpsutil.treenotation.sandbox.msd" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/uniquenames/languages/com.mbeddr.mpsutil.uniquenames/com.mbeddr.mpsutil.uniquenames.mpl" folder="uniquenames" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/com.mbeddr.mpsutil.serializer.xml/com.mbeddr.mpsutil.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />

@@ -7351,6 +7351,26 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="1TonxQVJ_l6" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.mbeddr.mpsutil.json.sandbox" />
+        <property role="3LESm3" value="def0c586-0b96-457b-823f-8a6dc4de654c" />
+        <node concept="398BVA" id="1TonxQVJASv" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="1TonxQVJBpC" role="iGT6I">
+            <property role="2Ry0Am" value="json" />
+            <node concept="2Ry0Ak" id="1TonxQVJBJJ" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="1TonxQVJC5Q" role="2Ry0An">
+                <property role="2Ry0Am" value="com.mbeddr.mpsutil.json.sandbox" />
+                <node concept="2Ry0Ak" id="1TonxQVJCrX" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.json.sandbox.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="m$_wf" id="4tTeOKHFPAP" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.jung" />

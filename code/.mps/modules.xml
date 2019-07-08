@@ -76,6 +76,7 @@
       <modulePath path="$PROJECT_DIR$/jfreechart/solutions/com.mbeddr.mpsutil.jfreechart.runtime/com.mbeddr.mpsutil.jfreechart.runtime.msd" folder="jfreechart" />
       <modulePath path="$PROJECT_DIR$/jfreechart/solutions/com.mbeddr.mpsutil.jfreechart.sandbox/com.mbeddr.mpsutil.jfreechart.sandbox.msd" folder="jfreechart" />
       <modulePath path="$PROJECT_DIR$/json/languages/com.mbeddr.mpsutil.json/com.mbeddr.mpsutil.json.mpl" folder="json" />
+      <modulePath path="$PROJECT_DIR$/json/solutions/com.mbeddr.mpsutil.json.sandbox/com.mbeddr.mpsutil.json.sandbox.msd" folder="json" />
       <modulePath path="$PROJECT_DIR$/jung/languages/com.mbeddr.mpsutil.jung.mpl" folder="jung" />
       <modulePath path="$PROJECT_DIR$/jung/solutions/pluginSolution/com.mbeddr.mpsutil.jung.pluginSolution.msd" folder="jung" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />

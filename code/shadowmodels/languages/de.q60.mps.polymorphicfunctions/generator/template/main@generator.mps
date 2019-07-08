@@ -332,7 +332,7 @@
                     <ref role="3cqZAo" to="od2j:3jJoUQ6YEnK" resolve="myImplementations" />
                   </node>
                   <node concept="liA8E" id="3jJoUQ70qM5" role="2OqNvi">
-                    <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object):boolean" resolve="put" />
+                    <ref role="37wK5l" to="3o3z:~Multimap.put(java.lang.Object,java.lang.Object)" resolve="put" />
                     <node concept="Xl_RD" id="3jJoUQ70rsH" role="37wK5m">
                       <property role="Xl_RC" value="declId" />
                       <node concept="17Uvod" id="3jJoUQ710he" role="lGtFl">

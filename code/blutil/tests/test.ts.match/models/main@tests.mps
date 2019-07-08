@@ -137,7 +137,7 @@
         <child id="8025082581146144258" name="reduce" index="3heHKk" />
         <child id="6534474553284006017" name="map" index="1OZoPX" />
       </concept>
-      <concept id="8025082581149630579" name="com.mbeddr.mpsutil.blutil.structure.MapParamter" flags="ig" index="3hLT9_" />
+      <concept id="8025082581149630579" name="com.mbeddr.mpsutil.blutil.structure.MapParamter" flags="ng" index="3hLT9_" />
       <concept id="6534474553320999773" name="com.mbeddr.mpsutil.blutil.structure.RunQueryExpression" flags="ng" index="1Ea1qx">
         <reference id="6534474553321000229" name="query" index="1Ea13p" />
         <child id="6534474553321000968" name="actual" index="1Ea0RO" />
@@ -170,7 +170,7 @@
         <reference id="6385915233778584164" name="concept" index="1FJTTQ" />
       </concept>
       <concept id="6534474553281587656" name="com.mbeddr.mpsutil.blutil.structure.MapPhase" flags="ng" index="1OwFgO" />
-      <concept id="6534474553297332581" name="com.mbeddr.mpsutil.blutil.structure.ReduceParameter" flags="ig" index="1PGJip" />
+      <concept id="6534474553297332581" name="com.mbeddr.mpsutil.blutil.structure.ReduceParameter" flags="ng" index="1PGJip" />
       <concept id="6534474553296588279" name="com.mbeddr.mpsutil.blutil.structure.ReducePhase" flags="ng" index="1PJp0b" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">

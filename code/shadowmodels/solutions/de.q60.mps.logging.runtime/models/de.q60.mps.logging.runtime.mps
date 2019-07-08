@@ -155,7 +155,7 @@
       </node>
       <node concept="3Tm6S6" id="7rXsP$3PvFy" role="1B3o_S" />
       <node concept="2YIFZM" id="7rXsP$3PH_B" role="33vP2m">
-        <ref role="37wK5l" to="33ny:~Collections.synchronizedList(java.util.List):java.util.List" resolve="synchronizedList" />
+        <ref role="37wK5l" to="33ny:~Collections.synchronizedList(java.util.List)" resolve="synchronizedList" />
         <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
         <node concept="2ShNRf" id="7rXsP$3QI82" role="37wK5m">
           <node concept="2Jqq0_" id="7rXsP$3QJJR" role="2ShVmc">

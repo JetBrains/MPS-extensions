@@ -244,7 +244,7 @@
                     <node concept="2OqwBi" id="7NatPTM2Yqn" role="33vP2m">
                       <node concept="2YIFZM" id="7NatPTM2Yqo" role="2Oq$k0">
                         <ref role="37wK5l" to="yyp8:7NatPTM0nC_" resolve="getUpdater" />
-                        <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
+                        <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                         <node concept="2OqwBi" id="7NatPTM2Yqp" role="37wK5m">
                           <node concept="1Q80Hx" id="7NatPTM2Yqq" role="2Oq$k0" />
                           <node concept="liA8E" id="7NatPTM2Yqr" role="2OqNvi">
@@ -475,7 +475,7 @@
                     <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">
                       <node concept="2YIFZM" id="3CYlK6ygJ0q" role="2Oq$k0">
                         <ref role="37wK5l" to="yyp8:7NatPTM0nC_" resolve="getUpdater" />
-                        <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
+                        <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                         <node concept="2OqwBi" id="3CYlK6ygJ0r" role="37wK5m">
                           <node concept="1Q80Hx" id="3CYlK6ygJ0s" role="2Oq$k0" />
                           <node concept="liA8E" id="3CYlK6ygJ0t" role="2OqNvi">

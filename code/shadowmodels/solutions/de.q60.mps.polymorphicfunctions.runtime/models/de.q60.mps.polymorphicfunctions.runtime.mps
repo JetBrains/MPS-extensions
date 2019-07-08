@@ -4895,7 +4895,7 @@
                 <ref role="3cqZAo" node="7YhLqbpjEfD" resolve="repository" />
               </node>
               <node concept="liA8E" id="7YhLqbpjDYt" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SRepository.getModules():java.lang.Iterable" resolve="getModules" />
+                <ref role="37wK5l" to="lui2:~SRepository.getModules()" resolve="getModules" />
               </node>
             </node>
           </node>
@@ -4952,7 +4952,7 @@
         <node concept="XkiVB" id="3zTK92KPlao" role="3cqZAp">
           <ref role="37wK5l" node="7YhLqbpjFao" resolve="ImplementationsFromRepository" />
           <node concept="2YIFZM" id="3zTK92KPlfT" role="37wK5m">
-            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
             <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
           </node>
         </node>
@@ -5069,17 +5069,17 @@
                   <node concept="2OqwBi" id="1KLm$DhM1Ga" role="2Oq$k0">
                     <node concept="2YIFZM" id="1KLm$DhM1Gb" role="2Oq$k0">
                       <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-                      <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication():com.intellij.openapi.application.Application" resolve="getApplication" />
+                      <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
                     </node>
                     <node concept="liA8E" id="1KLm$DhM1Gc" role="2OqNvi">
-                      <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                      <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
                       <node concept="3VsKOn" id="1KLm$DhM1Gd" role="37wK5m">
                         <ref role="3VsUkX" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
                       </node>
                     </node>
                   </node>
                   <node concept="liA8E" id="1KLm$DhM1Ge" role="2OqNvi">
-                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getClassLoaderManager():jetbrains.mps.classloading.ClassLoaderManager" resolve="getClassLoaderManager" />
+                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getClassLoaderManager()" resolve="getClassLoaderManager" />
                   </node>
                 </node>
               </node>
@@ -5090,7 +5090,7 @@
                   <ref role="3cqZAo" node="1KLm$DhM1G7" resolve="classLoaderManager" />
                 </node>
                 <node concept="liA8E" id="1KLm$DhM1Gi" role="2OqNvi">
-                  <ref role="37wK5l" to="3qmy:~ClassLoaderManager.addListener(jetbrains.mps.classloading.DeployListener):void" resolve="addListener" />
+                  <ref role="37wK5l" to="3qmy:~ClassLoaderManager.addListener(jetbrains.mps.classloading.DeployListener)" resolve="addListener" />
                   <node concept="37vLTw" id="1KLm$DhM1Gj" role="37wK5m">
                     <ref role="3cqZAo" node="1KLm$DhM1Fu" resolve="deployListener" />
                   </node>
@@ -5122,7 +5122,7 @@
               </node>
               <node concept="2YIFZM" id="QurUgitd1w" role="ukAjM">
                 <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
               </node>
             </node>
           </node>
@@ -5205,18 +5205,18 @@
                 <node concept="2OqwBi" id="1KLm$DhM1Gt" role="33vP2m">
                   <node concept="2OqwBi" id="1KLm$DhM1Gu" role="2Oq$k0">
                     <node concept="2YIFZM" id="1KLm$DhM1Gv" role="2Oq$k0">
-                      <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication():com.intellij.openapi.application.Application" resolve="getApplication" />
+                      <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
                       <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
                     </node>
                     <node concept="liA8E" id="1KLm$DhM1Gw" role="2OqNvi">
-                      <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class):java.lang.Object" resolve="getComponent" />
+                      <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
                       <node concept="3VsKOn" id="1KLm$DhM1Gx" role="37wK5m">
                         <ref role="3VsUkX" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
                       </node>
                     </node>
                   </node>
                   <node concept="liA8E" id="1KLm$DhM1Gy" role="2OqNvi">
-                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getClassLoaderManager():jetbrains.mps.classloading.ClassLoaderManager" resolve="getClassLoaderManager" />
+                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getClassLoaderManager()" resolve="getClassLoaderManager" />
                   </node>
                 </node>
               </node>
@@ -5227,7 +5227,7 @@
                   <ref role="3cqZAo" node="1KLm$DhM1Gr" resolve="classLoaderManager" />
                 </node>
                 <node concept="liA8E" id="1KLm$DhM1GA" role="2OqNvi">
-                  <ref role="37wK5l" to="3qmy:~ClassLoaderManager.removeListener(jetbrains.mps.classloading.DeployListener):void" resolve="removeListener" />
+                  <ref role="37wK5l" to="3qmy:~ClassLoaderManager.removeListener(jetbrains.mps.classloading.DeployListener)" resolve="removeListener" />
                   <node concept="37vLTw" id="1KLm$DhM1GB" role="37wK5m">
                     <ref role="3cqZAo" node="1KLm$DhM1Fu" resolve="deployListener" />
                   </node>

@@ -6079,7 +6079,7 @@
                       <node concept="3clFbS" id="7rXsP$4a9v3" role="1bW5cS">
                         <node concept="3clFbF" id="7rXsP$4abxw" role="3cqZAp">
                           <node concept="2YIFZM" id="7rXsP$4adxY" role="3clFbG">
-                            <ref role="37wK5l" to="wyt6:~Math.min(long,long):long" resolve="min" />
+                            <ref role="37wK5l" to="wyt6:~Math.min(long,long)" resolve="min" />
                             <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
                             <node concept="37vLTw" id="7rXsP$4afz2" role="37wK5m">
                               <ref role="3cqZAo" node="7rXsP$4a9v4" resolve="a" />
@@ -6521,23 +6521,23 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="7rXsP$41p16" role="2OqNvi">
-                          <ref role="37wK5l" to="fwk:~TraceInfoProvider.debugInfo(java.lang.String):java.util.stream.Stream" resolve="debugInfo" />
+                          <ref role="37wK5l" to="fwk:~TraceInfoProvider.debugInfo(java.lang.String)" resolve="debugInfo" />
                           <node concept="2YIFZM" id="7rXsP$41p17" role="37wK5m">
                             <ref role="1Pybhc" to="18ew:~NameUtil" resolve="NameUtil" />
-                            <ref role="37wK5l" to="18ew:~NameUtil.namespaceFromLongName(java.lang.String):java.lang.String" resolve="namespaceFromLongName" />
+                            <ref role="37wK5l" to="18ew:~NameUtil.namespaceFromLongName(java.lang.String)" resolve="namespaceFromLongName" />
                             <node concept="2OqwBi" id="7rXsP$41p18" role="37wK5m">
                               <node concept="3kvyP4" id="7rXsP$41p19" role="2Oq$k0">
                                 <ref role="3kvyN1" node="7rXsP$3X$6F" resolve="ste" />
                               </node>
                               <node concept="liA8E" id="7rXsP$41p1a" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~StackTraceElement.getClassName():java.lang.String" resolve="getClassName" />
+                                <ref role="37wK5l" to="wyt6:~StackTraceElement.getClassName()" resolve="getClassName" />
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                       <node concept="liA8E" id="7rXsP$41p1b" role="2OqNvi">
-                        <ref role="37wK5l" to="1ctc:~BaseStream.iterator():java.util.Iterator" resolve="iterator" />
+                        <ref role="37wK5l" to="1ctc:~BaseStream.iterator()" resolve="iterator" />
                       </node>
                     </node>
                   </node>
@@ -6555,7 +6555,7 @@
                             <ref role="3cqZAo" node="7rXsP$41ggk" resolve="itr" />
                           </node>
                           <node concept="liA8E" id="7rXsP$41KxP" role="2OqNvi">
-                            <ref role="37wK5l" to="33ny:~Iterator.next():java.lang.Object" resolve="next" />
+                            <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
                           </node>
                         </node>
                       </node>
@@ -6576,13 +6576,13 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="7rXsP$42vIM" role="2OqNvi">
-                            <ref role="37wK5l" to="fwk:~BaseLanguageNodeLookup.getNodeAt(java.lang.String,int):org.jetbrains.mps.openapi.model.SNodeReference" resolve="getNodeAt" />
+                            <ref role="37wK5l" to="fwk:~BaseLanguageNodeLookup.getNodeAt(java.lang.String,int)" resolve="getNodeAt" />
                             <node concept="2OqwBi" id="7rXsP$42vIN" role="37wK5m">
                               <node concept="3kvyP4" id="7rXsP$42vIO" role="2Oq$k0">
                                 <ref role="3kvyN1" node="7rXsP$3X$6F" resolve="ste" />
                               </node>
                               <node concept="liA8E" id="7rXsP$42vIP" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~StackTraceElement.getFileName():java.lang.String" resolve="getFileName" />
+                                <ref role="37wK5l" to="wyt6:~StackTraceElement.getFileName()" resolve="getFileName" />
                               </node>
                             </node>
                             <node concept="2OqwBi" id="7rXsP$42vIQ" role="37wK5m">
@@ -6590,7 +6590,7 @@
                                 <ref role="3kvyN1" node="7rXsP$3X$6F" resolve="ste" />
                               </node>
                               <node concept="liA8E" id="7rXsP$42vIS" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~StackTraceElement.getLineNumber():int" resolve="getLineNumber" />
+                                <ref role="37wK5l" to="wyt6:~StackTraceElement.getLineNumber()" resolve="getLineNumber" />
                               </node>
                             </node>
                           </node>
@@ -6614,7 +6614,7 @@
                           <ref role="3cqZAo" node="7rXsP$42vIH" resolve="nodeRef" />
                         </node>
                         <node concept="liA8E" id="7rXsP$43262" role="2OqNvi">
-                          <ref role="37wK5l" to="mhbf:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                          <ref role="37wK5l" to="mhbf:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository)" resolve="resolve" />
                           <node concept="2OqwBi" id="7rXsP$43263" role="37wK5m">
                             <node concept="3kvyP4" id="7rXsP$43264" role="2Oq$k0">
                               <ref role="3kvyN1" node="7rXsP$3X$6H" resolve="context" />
@@ -6632,7 +6632,7 @@
                       <ref role="3cqZAo" node="7rXsP$41ggk" resolve="itr" />
                     </node>
                     <node concept="liA8E" id="7rXsP$41DxX" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Iterator.hasNext():boolean" resolve="hasNext" />
+                      <ref role="37wK5l" to="33ny:~Iterator.hasNext()" resolve="hasNext" />
                     </node>
                   </node>
                 </node>
@@ -6680,7 +6680,7 @@
               <ref role="3kvyN1" node="7rXsP$3YfOn" resolve="element" />
             </node>
             <node concept="liA8E" id="7rXsP$3Ylcf" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StackTraceElement.toString():java.lang.String" resolve="toString" />
+              <ref role="37wK5l" to="wyt6:~StackTraceElement.toString()" resolve="toString" />
             </node>
           </node>
         </node>

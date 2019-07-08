@@ -1195,7 +1195,7 @@
                                       <ref role="3cqZAo" node="5wnrAmTJlJb" resolve="myProject" />
                                     </node>
                                     <node concept="liA8E" id="2BYLcdc8hSt" role="2OqNvi">
-                                      <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                                      <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                                     </node>
                                   </node>
                                 </node>
@@ -1234,7 +1234,7 @@
                     <ref role="3cqZAo" node="5wnrAmTJlJb" resolve="myProject" />
                   </node>
                   <node concept="liA8E" id="70DEt$5Tww$" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                   </node>
                 </node>
               </node>
@@ -1518,7 +1518,7 @@
                             <ref role="3cqZAo" node="5wnrAmTJlJb" resolve="myProject" />
                           </node>
                           <node concept="liA8E" id="7rXsP$40s$8" role="2OqNvi">
-                            <ref role="37wK5l" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                            <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                           </node>
                         </node>
                       </node>
@@ -3167,7 +3167,7 @@
               </node>
             </node>
             <node concept="liA8E" id="7rXsP$3QQV0" role="2OqNvi">
-              <ref role="37wK5l" to="71xd:~BaseTool.openTool(boolean):void" resolve="openTool" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openTool(boolean)" resolve="openTool" />
               <node concept="3clFbT" id="7rXsP$3QQV1" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>

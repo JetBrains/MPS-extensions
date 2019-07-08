@@ -95,7 +95,7 @@
         <child id="7335687028107243173" name="child" index="027rp" />
         <child id="3563231453904579041" name="createHandler" index="3n20R1" />
       </concept>
-      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ig" index="02i3D">
+      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ng" index="02i3D">
         <reference id="7335687028107163800" name="concept" index="02i3$" />
       </concept>
       <concept id="7335687028107163788" name="de.q60.mps.shadowmodels.transformation.structure.TransformationParameter" flags="ng" index="02i3K">
@@ -127,13 +127,13 @@
         <child id="5373338300165862254" name="call" index="2PWHRo" />
         <child id="5373338300165862252" name="input" index="2PWHRq" />
       </concept>
-      <concept id="3563231453904558863" name="de.q60.mps.shadowmodels.transformation.structure.ChildCreateHandler" flags="ig" index="3n2vWJ" />
+      <concept id="3563231453904558863" name="de.q60.mps.shadowmodels.transformation.structure.ChildCreateHandler" flags="ng" index="3n2vWJ" />
       <concept id="6159853882138530356" name="de.q60.mps.shadowmodels.transformation.structure.OperationImplementation" flags="ng" index="1$kq1c">
         <reference id="6159853882138530357" name="operationDecl" index="1$kq1d" />
         <child id="6159853882138824697" name="body" index="1$jzQ1" />
       </concept>
       <concept id="1037808907364754546" name="de.q60.mps.shadowmodels.transformation.structure.PropertyWriteHandler_value" flags="ng" index="3EkmR1" />
-      <concept id="1037808907364754545" name="de.q60.mps.shadowmodels.transformation.structure.PropertyWriteHandler" flags="ig" index="3EkmR2" />
+      <concept id="1037808907364754545" name="de.q60.mps.shadowmodels.transformation.structure.PropertyWriteHandler" flags="ng" index="3EkmR2" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="5979988948250981289" name="jetbrains.mps.lang.actions.structure.SNodeCreatorAndInitializer" flags="nn" index="2fJWfE" />

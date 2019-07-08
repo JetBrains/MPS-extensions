@@ -69,6 +69,8 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.itemis.mps.nativelibs.loader/de.itemis.mps.nativelibs.loader.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.hacks.editor/de.slisson.mps.hacks.editor.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
+      <modulePath path="$PROJECT_DIR$/intentions/languages/com.mbeddr.mpsutil.intentions/com.mbeddr.mpsutil.intentions.mpl" folder="intentions" />
+      <modulePath path="$PROJECT_DIR$/intentions/solutions/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentions" />
       <modulePath path="$PROJECT_DIR$/jfreechart/languages/com.mbeddr.mpsutil.jfreechart/com.mbeddr.mpsutil.jfreechart.mpl" folder="jfreechart" />
       <modulePath path="$PROJECT_DIR$/jfreechart/solutions/com.mbeddr.mpsutil.jfreechart.runtime/com.mbeddr.mpsutil.jfreechart.runtime.msd" folder="jfreechart" />
       <modulePath path="$PROJECT_DIR$/json/languages/com.mbeddr.mpsutil.json/com.mbeddr.mpsutil.json.mpl" folder="json" />
@@ -96,7 +98,6 @@
       <modulePath path="$PROJECT_DIR$/nodeversioning/languages/de.itemis.mps.nodeversioning/de.itemis.mps.nodeversioning.mpl" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/solutions/de.itemis.mps.nodeversioning.runtime.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/tests/de.itemis.mps.nodeversioning.test/de.itemis.mps.nodeversioning.test.msd" folder="nodeversioning" />
-      <modulePath path="$PROJECT_DIR$/org-xml/org.xml.msd" folder="org-xml" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextflow/com.dslfoundry.plaintextflow.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.nestedlist/com.dslfoundry.plaintextgen.example.nestedlist.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.testlang/com.dslfoundry.plaintextgen.example.testlang.mpl" folder="plaintextgen" />
@@ -104,8 +105,6 @@
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.nestedlist.sandbox/com.dslfoundry.plaintextgen.example.nestedlist.sandbox.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.plaintextflow/com.dslfoundry.plaintextgen.example.plaintextflow.msd" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/solutions/com.dslfoundry.plaintextgen.example.testlang.sandbox/com.dslfoundry.plaintextgen.example.testlang.sandbox.msd" folder="plaintextgen" />
-      <modulePath path="$PROJECT_DIR$/plantuml/languages/com.mbeddr.mpsutil.plantuml.node/com.mbeddr.mpsutil.plantuml.node.mpl" folder="plantuml" />
-      <modulePath path="$PROJECT_DIR$/plantuml/solutions/com.mbeddr.mpsutil.plantuml/pluginSolution.msd" folder="plantuml" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/de.slisson.richtext.customcell/de.slisson.richtext.customcell.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/javadoc/javadoc.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />
@@ -172,6 +171,7 @@
       <modulePath path="$PROJECT_DIR$/treenotation/languages/com.mbeddr.mpsutil.treenotation.styles/com.mbeddr.mpsutil.treenotation.styles.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/languages/com.mbeddr.mpsutil.treenotation/com.mbeddr.mpsutil.treenotation.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/solutions/com.mbeddr.mpsutil.treenotation.runtime/com.mbeddr.mpsutil.treenotation.runtime.msd" folder="treenotation" />
+      <modulePath path="$PROJECT_DIR$/uniquenames/languages/com.mbeddr.mpsutil.uniquenames/com.mbeddr.mpsutil.uniquenames.mpl" folder="uniquenames" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/com.mbeddr.mpsutil.serializer.xml/com.mbeddr.mpsutil.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/varscope/languages/com.mbeddr.mpsutil.varscope/com.mbeddr.mpsutil.varscope.mpl" folder="varscope" />

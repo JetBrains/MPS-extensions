@@ -441,11 +441,11 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="1KLm$DhSRpt" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                  <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
                 </node>
               </node>
               <node concept="liA8E" id="1KLm$DhSSBT" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SModule.getModuleName():java.lang.String" resolve="getModuleName" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleName()" resolve="getModuleName" />
               </node>
             </node>
           </node>

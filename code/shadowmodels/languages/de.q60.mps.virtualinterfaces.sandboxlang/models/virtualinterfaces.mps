@@ -103,7 +103,7 @@
                 <ref role="24pWH3" node="1KLm$DhRLd8" resolve="ctx" />
               </node>
               <node concept="liA8E" id="1KLm$DhQ3QU" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                 <node concept="2OqwBi" id="1KLm$DhQ4nM" role="37wK5m">
                   <node concept="24pvgE" id="1KLm$DhQ3Rl" role="2Oq$k0" />
                   <node concept="3TrcHB" id="1KLm$DhQ4AS" role="2OqNvi">

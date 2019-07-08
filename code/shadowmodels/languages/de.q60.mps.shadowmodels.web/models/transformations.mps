@@ -217,7 +217,7 @@
         <child id="7335687028107243185" name="target" index="027rd" />
         <child id="8645954948523883323" name="writeHandler" index="3tdQ4c" />
       </concept>
-      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ig" index="02i3D">
+      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ng" index="02i3D">
         <reference id="7335687028107163800" name="concept" index="02i3$" />
       </concept>
       <concept id="7335687028107163788" name="de.q60.mps.shadowmodels.transformation.structure.TransformationParameter" flags="ng" index="02i3K">
@@ -242,7 +242,7 @@
       <concept id="9170566427534439102" name="de.q60.mps.shadowmodels.transformation.structure.ParameterReference" flags="ng" index="2155sH">
         <reference id="9170566427534439103" name="decl" index="2155sG" />
       </concept>
-      <concept id="4105524263011882748" name="de.q60.mps.shadowmodels.transformation.structure.TBooleanType" flags="ig" index="29qXpG" />
+      <concept id="4105524263011882748" name="de.q60.mps.shadowmodels.transformation.structure.TBooleanType" flags="ng" index="29qXpG" />
       <concept id="3050775421482275177" name="de.q60.mps.shadowmodels.transformation.structure.TransformationPriority" flags="ng" index="GDL_W">
         <reference id="3050775421482276648" name="low" index="GDLWX" />
         <reference id="3050775421482276650" name="high" index="GDLWZ" />
@@ -254,10 +254,10 @@
         <child id="5373338300165862252" name="input" index="2PWHRq" />
       </concept>
       <concept id="2824806335946923980" name="de.q60.mps.shadowmodels.transformation.structure.OperationThisExpression" flags="ng" index="12k2mD" />
-      <concept id="4225291329826005067" name="de.q60.mps.shadowmodels.transformation.structure.TStringType" flags="ig" index="38sA1o" />
+      <concept id="4225291329826005067" name="de.q60.mps.shadowmodels.transformation.structure.TStringType" flags="ng" index="38sA1o" />
       <concept id="3563231453904357666" name="de.q60.mps.shadowmodels.transformation.structure.NullNode" flags="ng" index="3n1eO2" />
-      <concept id="3563231453904558863" name="de.q60.mps.shadowmodels.transformation.structure.ChildCreateHandler" flags="ig" index="3n2vWJ" />
-      <concept id="8645954948523882538" name="de.q60.mps.shadowmodels.transformation.structure.ReferenceWriteHandler" flags="ig" index="3tdQ8t" />
+      <concept id="3563231453904558863" name="de.q60.mps.shadowmodels.transformation.structure.ChildCreateHandler" flags="ng" index="3n2vWJ" />
+      <concept id="8645954948523882538" name="de.q60.mps.shadowmodels.transformation.structure.ReferenceWriteHandler" flags="ng" index="3tdQ8t" />
       <concept id="8645954948523882618" name="de.q60.mps.shadowmodels.transformation.structure.ReferenceWriteHandler_target" flags="ng" index="3tdQ9d" />
       <concept id="6159853882139040253" name="de.q60.mps.shadowmodels.transformation.structure.OperationParameterRef" flags="ng" index="1$imI5">
         <reference id="6159853882139040254" name="parameterDecl" index="1$imI6" />
@@ -274,7 +274,7 @@
         <child id="6159853882137542143" name="type" index="1$o$Y7" />
       </concept>
       <concept id="1037808907364754546" name="de.q60.mps.shadowmodels.transformation.structure.PropertyWriteHandler_value" flags="ng" index="3EkmR1" />
-      <concept id="1037808907364754545" name="de.q60.mps.shadowmodels.transformation.structure.PropertyWriteHandler" flags="ig" index="3EkmR2" />
+      <concept id="1037808907364754545" name="de.q60.mps.shadowmodels.transformation.structure.PropertyWriteHandler" flags="ng" index="3EkmR2" />
       <concept id="1038241485678306126" name="de.q60.mps.shadowmodels.transformation.structure.TransformationCallExpression" flags="ng" index="1Ixn1J">
         <reference id="6198477943069635595" name="transformation" index="1YLLVi" />
         <child id="1038241485678306127" name="parameterValues" index="1Ixn1I" />

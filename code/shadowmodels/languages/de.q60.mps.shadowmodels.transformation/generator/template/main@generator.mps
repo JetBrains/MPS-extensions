@@ -359,7 +359,7 @@
     </language>
     <language id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation">
       <concept id="4105524263001228310" name="de.q60.mps.shadowmodels.transformation.structure.StaticId" flags="ng" index="285$i6" />
-      <concept id="5395534041253795867" name="de.q60.mps.shadowmodels.transformation.structure.ShadowmodelNodeType" flags="ig" index="3$_h64">
+      <concept id="5395534041253795867" name="de.q60.mps.shadowmodels.transformation.structure.ShadowmodelNodeType" flags="ng" index="3$_h64">
         <reference id="5395534041253795868" name="concept" index="3$_h63" />
       </concept>
     </language>

@@ -145,6 +145,7 @@
       <modulePath path="$PROJECT_DIR$/tooltips/solutions/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="tooltips" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/com.mbeddr.mpsutil.serializer.xml/com.mbeddr.mpsutil.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
+      <modulePath path="$PROJECT_DIR$/web/de.q60.mps.web.model/de.q60.mps.web.model.msd" folder="web" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool/de.itemis.mps.editor.bool.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.collapsible.testlang/de.itemis.mps.editor.collapsible.testlang.mpl" folder="widgets" />

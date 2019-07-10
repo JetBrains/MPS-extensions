@@ -2873,6 +2873,87 @@
       <node concept="17QB3L" id="8pH3FQ2RBo" role="3clF45" />
       <node concept="3Tm1VV" id="8pH3FQ2RBp" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="4OyL8R_5aGn" role="jymVt" />
+    <node concept="2YIFZL" id="4OyL8R_5ba0" role="jymVt">
+      <property role="TrG5h" value="base64encode" />
+      <node concept="37vLTG" id="4OyL8R_5bl9" role="3clF46">
+        <property role="TrG5h" value="input" />
+        <node concept="17QB3L" id="4OyL8R_5boQ" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="4OyL8R_5aRB" role="3clF47">
+        <node concept="3cpWs6" id="4OyL8R_5dDf" role="3cqZAp">
+          <node concept="2OqwBi" id="4OyL8R_5dDh" role="3cqZAk">
+            <node concept="2OqwBi" id="4OyL8R_5dDi" role="2Oq$k0">
+              <node concept="2YIFZM" id="4OyL8R_5dDj" role="2Oq$k0">
+                <ref role="37wK5l" to="33ny:~Base64.getUrlEncoder()" resolve="getUrlEncoder" />
+                <ref role="1Pybhc" to="33ny:~Base64" resolve="Base64" />
+              </node>
+              <node concept="liA8E" id="4OyL8R_5dDk" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Base64$Encoder.withoutPadding()" resolve="withoutPadding" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4OyL8R_5dDl" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Base64$Encoder.encodeToString(byte[])" resolve="encodeToString" />
+              <node concept="2OqwBi" id="4OyL8R_5em3" role="37wK5m">
+                <node concept="37vLTw" id="4OyL8R_5dT4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4OyL8R_5bl9" resolve="input" />
+                </node>
+                <node concept="liA8E" id="4OyL8R_5ev1" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.getBytes(java.nio.charset.Charset)" resolve="getBytes" />
+                  <node concept="37vLTw" id="4OyL8R_5fLa" role="37wK5m">
+                    <ref role="3cqZAo" node="8pH3FQ2yuo" resolve="UTF8" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="4OyL8R_5bjt" role="3clF45" />
+      <node concept="3Tm1VV" id="4OyL8R_5aRA" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="4OyL8R_5g7c" role="jymVt" />
+    <node concept="2YIFZL" id="4OyL8R_5fSG" role="jymVt">
+      <property role="TrG5h" value="base64decode" />
+      <node concept="37vLTG" id="4OyL8R_5fSH" role="3clF46">
+        <property role="TrG5h" value="input" />
+        <node concept="17QB3L" id="4OyL8R_5fSI" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="4OyL8R_5fSJ" role="3clF47">
+        <node concept="3cpWs6" id="4OyL8R_5fSK" role="3cqZAp">
+          <node concept="2ShNRf" id="4OyL8R_5gYG" role="3cqZAk">
+            <node concept="1pGfFk" id="4OyL8R_5hyS" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~String.&lt;init&gt;(byte[],java.nio.charset.Charset)" resolve="String" />
+              <node concept="2OqwBi" id="4OyL8R_5fSL" role="37wK5m">
+                <node concept="2YIFZM" id="4OyL8R_5goY" role="2Oq$k0">
+                  <ref role="1Pybhc" to="33ny:~Base64" resolve="Base64" />
+                  <ref role="37wK5l" to="33ny:~Base64.getUrlDecoder()" resolve="getUrlDecoder" />
+                </node>
+                <node concept="liA8E" id="4OyL8R_5fSP" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~Base64$Decoder.decode(byte[])" resolve="decode" />
+                  <node concept="2OqwBi" id="4OyL8R_5fSQ" role="37wK5m">
+                    <node concept="37vLTw" id="4OyL8R_5fSR" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4OyL8R_5fSH" resolve="input" />
+                    </node>
+                    <node concept="liA8E" id="4OyL8R_5fSS" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.getBytes(java.nio.charset.Charset)" resolve="getBytes" />
+                      <node concept="37vLTw" id="4OyL8R_5hAt" role="37wK5m">
+                        <ref role="3cqZAo" node="8pH3FQ2yuo" resolve="UTF8" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="4OyL8R_5i0b" role="37wK5m">
+                <ref role="3cqZAo" node="8pH3FQ2yuo" resolve="UTF8" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="4OyL8R_5fSU" role="3clF45" />
+      <node concept="3Tm1VV" id="4OyL8R_5fSV" role="1B3o_S" />
+    </node>
     <node concept="3Tm1VV" id="5RRPxDXOMRM" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="1SVbIFIiXye">

@@ -16,6 +16,7 @@
     <import index="6shs" ref="r:3ca2f5b1-1b25-441b-b059-2ddba424a0b1(de.q60.mps.web.model.persistent)" />
     <import index="kxbk" ref="r:46060cc2-3362-406a-b40d-9ba8d71212b0(de.q60.mps.web.model.api)" />
     <import index="ep6k" ref="r:0db4078f-2cd3-46f9-8953-276af91586e0(de.q60.mps.web.model.util)" />
+    <import index="1ikp" ref="r:da7cf74a-6366-4cd3-81fd-87283980def8(de.q60.mps.web.model.api2)" />
   </imports>
   <registry>
     <language id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods">
@@ -7180,8 +7181,8 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1SVbIFIiXt3" role="1B3o_S" />
-    <node concept="3uibUv" id="ifAKfhOJMh" role="EKbjA">
-      <ref role="3uigEE" to="kxbk:4tzwkINLhb4" resolve="ITree" />
+    <node concept="3uibUv" id="1zKPvQfvIWV" role="EKbjA">
+      <ref role="3uigEE" to="1ikp:1zKPvQfsBsj" resolve="IPersistentTree" />
     </node>
   </node>
   <node concept="3HP615" id="4_P7CAmwzDr">

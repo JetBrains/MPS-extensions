@@ -88,6 +88,12 @@
         <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.closures" />
       </node>
     </node>
+    <node concept="2VgMA2" id="4cjCYvg839T" role="2VgMA7">
+      <node concept="2V$Bhx" id="4cjCYvg83aE" role="1t_9vn">
+        <property role="2V$B1T" value="a247e09e-2435-45ba-b8d2-07e93feba96a" />
+        <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.tuples" />
+      </node>
+    </node>
     <node concept="2VgMA2" id="7YhLqbpjabl" role="2VgMA7">
       <node concept="2V$Bhx" id="7YhLqbpjabo" role="1t_9vn">
         <property role="2V$B1T" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />

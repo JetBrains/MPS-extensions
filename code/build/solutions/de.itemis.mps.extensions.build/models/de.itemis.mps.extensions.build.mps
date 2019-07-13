@@ -12,17 +12,9 @@
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
-      <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
-        <property id="6666499814681541920" name="text" index="2pMdty" />
-      </concept>
       <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
         <property id="6666499814681415862" name="tagName" index="2pNNFO" />
-        <child id="6666499814681415861" name="attributes" index="2pNNFR" />
         <child id="1622293396948928802" name="content" index="3o6s8t" />
-      </concept>
-      <concept id="6666499814681447923" name="jetbrains.mps.core.xml.structure.XmlAttribute" flags="ng" index="2pNUuL">
-        <property id="6666499814681447926" name="attrName" index="2pNUuO" />
-        <child id="6666499814681541918" name="value" index="2pMdts" />
       </concept>
       <concept id="1622293396948952339" name="jetbrains.mps.core.xml.structure.XmlText" flags="nn" index="3o6iSG">
         <property id="1622293396948953704" name="value" index="3o6i5n" />
@@ -5671,21 +5663,6 @@
       <node concept="2iUeEo" id="iQ9iC8xd62" role="2iVFfd">
         <property role="2iUeEt" value="DSLFoundry" />
         <property role="2iUeEu" value="http://dslfoundry.com/" />
-      </node>
-      <node concept="2pNNFK" id="2aMbqeN3MWF" role="20twgj">
-        <property role="2pNNFO" value="idea-version" />
-        <node concept="2pNUuL" id="2aMbqeN3MX5" role="2pNNFR">
-          <property role="2pNUuO" value="until-build" />
-          <node concept="2pMdtt" id="2aMbqeN3MXg" role="2pMdts">
-            <property role="2pMdty" value="191.1" />
-          </node>
-        </node>
-        <node concept="2pNUuL" id="2aMbqeN3MXk" role="2pNNFR">
-          <property role="2pNUuO" value="since-build" />
-          <node concept="2pMdtt" id="2aMbqeN3MXx" role="2pMdts">
-            <property role="2pMdty" value="183.1" />
-          </node>
-        </node>
       </node>
       <node concept="3_J27D" id="6HJqx3w3Loa" role="3s6cr7">
         <node concept="3Mxwew" id="6HJqx3w3Loc" role="3MwsjC">

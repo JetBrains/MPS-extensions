@@ -40,16 +40,13 @@ if (project.hasProperty("forceCI")) {
 }
 
 // comprehensible error message if not running java 8
-if(JavaVersion.current() != JavaVersion.VERSION_1_8){
-    throw new GradleException("This build script requires java " + JavaVersion.VERSION_1_8 + ", but you are currently using " + JavaVersion.current())
-}
+//if(JavaVersion.current() != JavaVersion.VERSION_1_8){
+//    throw new GradleException("This build script requires java " + JavaVersion.VERSION_1_8 + ", but you are currently using " + JavaVersion.current())
+//}
 // Detect jdk location, required to start ant with tools.jar on classpath otherwise javac and tests will fail
 def java_home = System.properties['java.home']
 def jdk_home = java_home
-if (!file("$jdk_home/lib/tools.jar").isFile()) {
-    jdk_home = jdk_home + "/.."
-}
-if (!file("$jdk_home/lib/tools.jar").isFile()) {
+if (!file("$jdk_home/lib").exists()) {
     throw new GradleException("Was not able to locate jdk home folder. Use 'jdk_home' project variable to specify JDK location explicitly. Current JAVA_HOME is: $java_home")
 }
 ext.jdk_home = jdk_home
@@ -67,7 +64,7 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2019.1.+'
+ext.mpsMajor = '2019.2.+'
 ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
@@ -76,7 +73,7 @@ def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
 
 
-def minor = '1'
+def minor = '2'
 def major = '2019'
 
 if (ciBuild) {

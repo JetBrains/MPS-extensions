@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="3hky" ref="r:bef1bfa7-20fd-413a-ae11-793b0a8ee364(de.q60.mps.shadowmodels.runtime.model.persistent)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -56,6 +57,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -156,8 +158,8 @@
     <property role="TrG5h" value="IElement" />
     <node concept="3clFb_" id="4_P7CAmvu1W" role="jymVt">
       <property role="TrG5h" value="getTree" />
-      <node concept="3uibUv" id="4_P7CAmvu4X" role="3clF45">
-        <ref role="3uigEE" node="4tzwkINLhb4" resolve="ITree" />
+      <node concept="3uibUv" id="4TPMxteXkVQ" role="3clF45">
+        <ref role="3uigEE" to="3hky:4_SQzDOqQ5x" resolve="ITree" />
       </node>
       <node concept="3Tm1VV" id="4_P7CAmvu1Z" role="1B3o_S" />
       <node concept="3clFbS" id="4_P7CAmvu20" role="3clF47" />
@@ -184,6 +186,12 @@
       <node concept="3Tm1VV" id="ifAKfhPj_P" role="1B3o_S" />
       <node concept="3clFbS" id="ifAKfhPj_Q" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="4TPMxtfJzds" role="jymVt">
+      <property role="TrG5h" value="getId" />
+      <node concept="3cpWsb" id="4TPMxtfJzf4" role="3clF45" />
+      <node concept="3Tm1VV" id="4TPMxtfJzdv" role="1B3o_S" />
+      <node concept="3clFbS" id="4TPMxtfJzdw" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="4tzwkINLh9T" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="1SVbIFIiQbN">
@@ -206,6 +214,12 @@
   </node>
   <node concept="3HP615" id="4tzwkINLhd2">
     <property role="TrG5h" value="INode" />
+    <node concept="3clFb_" id="4TPMxteN6ZG" role="jymVt">
+      <property role="TrG5h" value="getConcept" />
+      <node concept="17QB3L" id="4TPMxteN70r" role="3clF45" />
+      <node concept="3Tm1VV" id="4TPMxteN6ZJ" role="1B3o_S" />
+      <node concept="3clFbS" id="4TPMxteN6ZK" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="4tzwkINLhd3" role="1B3o_S" />
     <node concept="3uibUv" id="ifAKfhYrqa" role="3HQHJm">
       <ref role="3uigEE" node="1SVbIFIiQ3n" resolve="IContainerElement" />

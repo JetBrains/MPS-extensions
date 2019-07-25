@@ -15,6 +15,8 @@
     <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="jon5" ref="r:49169b91-8585-49ee-98e0-962a243b40d4(de.q60.mps.web.model.lazy)" />
+    <import index="6shs" ref="r:3ca2f5b1-1b25-441b-b059-2ddba424a0b1(de.q60.mps.web.model.persistent)" />
     <import index="31cb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.module(MPS.Core/)" implicit="true" />
   </imports>
   <registry>
@@ -43,6 +45,9 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -221,7 +226,22 @@
                     </node>
                     <node concept="2ShNRf" id="3l$kG67rdWY" role="33vP2m">
                       <node concept="1pGfFk" id="3l$kG67revw" role="2ShVmc">
-                        <ref role="37wK5l" to="3hky:1CWZn1pGsum" resolve="PBranch" />
+                        <ref role="37wK5l" to="3hky:1CWZn1pMM04" resolve="PBranch" />
+                        <node concept="2ShNRf" id="4TPMxteXWqf" role="37wK5m">
+                          <node concept="1pGfFk" id="4TPMxteXX7o" role="2ShVmc">
+                            <ref role="37wK5l" to="jon5:ifAKfhOLqs" resolve="CLTree" />
+                            <node concept="2ShNRf" id="4TPMxteXY3z" role="37wK5m">
+                              <node concept="1pGfFk" id="4TPMxteXZiS" role="2ShVmc">
+                                <ref role="37wK5l" to="jon5:ifAKfhOMkk" resolve="StoreCache" />
+                                <node concept="2ShNRf" id="4TPMxteXZNp" role="37wK5m">
+                                  <node concept="HV5vD" id="4TPMxteY0MA" role="2ShVmc">
+                                    <ref role="HV5vE" to="6shs:ifAKfhON9p" resolve="MapBaseStore" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -370,7 +390,7 @@
                           <node concept="3clFbF" id="7Zr9caICs4R" role="3cqZAp">
                             <node concept="37vLTI" id="7Zr9caICRzy" role="3clFbG">
                               <node concept="Xl_RD" id="7Zr9caICRVb" role="37vLTx">
-                                <property role="Xl_RC" value="ClassA" />
+                                <property role="Xl_RC" value="ClassAbcc" />
                               </node>
                               <node concept="2OqwBi" id="7Zr9caIC_MS" role="37vLTJ">
                                 <node concept="37vLTw" id="7Zr9caICy$k" role="2Oq$k0">

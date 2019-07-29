@@ -153,6 +153,9 @@
       <concept id="4269842503726207156" name="jetbrains.mps.baseLanguage.structure.LongLiteral" flags="nn" index="1adDum">
         <property id="4269842503726207157" name="value" index="1adDun" />
       </concept>
+      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
+        <property id="1113006610751" name="value" index="$nhwW" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <child id="1068580123133" name="returnType" index="3clF45" />
@@ -8727,6 +8730,19 @@
       <node concept="3Tm1VV" id="1CWZn1pMjus" role="1B3o_S" />
       <node concept="3clFbS" id="1CWZn1pMjut" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="KwHEfXfoUP" role="jymVt" />
+    <node concept="3clFb_" id="KwHEfXfzEc" role="jymVt">
+      <property role="TrG5h" value="setTree" />
+      <node concept="37vLTG" id="KwHEfXf$0r" role="3clF46">
+        <property role="TrG5h" value="tree" />
+        <node concept="3uibUv" id="KwHEfXf$5R" role="1tU5fm">
+          <ref role="3uigEE" node="4_SQzDOqQ5x" resolve="ITree" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="KwHEfXfzEe" role="3clF45" />
+      <node concept="3Tm1VV" id="KwHEfXfzEf" role="1B3o_S" />
+      <node concept="3clFbS" id="KwHEfXfzEg" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="4_SQzDOc0ev" role="1B3o_S" />
     <node concept="3uibUv" id="4_SQzDOeeAI" role="3HQHJm">
       <ref role="3uigEE" node="4_SQzDO0jSL" resolve="ITransaction" />
@@ -9930,6 +9946,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="KwHEfXfABg" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="5QP6xykk7$l" role="jymVt" />
@@ -14453,8 +14472,27 @@
       <node concept="2ShNRf" id="4TPMxteYnVP" role="33vP2m">
         <node concept="1pGfFk" id="4TPMxteYnVQ" role="2ShVmc">
           <ref role="37wK5l" to="i5cy:~AtomicLong.&lt;init&gt;(long)" resolve="AtomicLong" />
-          <node concept="3cmrfG" id="4TPMxteYoyl" role="37wK5m">
-            <property role="3cmrfH" value="1" />
+          <node concept="17qRlL" id="6HiBqPCsGLn" role="37wK5m">
+            <node concept="1adDum" id="6HiBqPCsHyG" role="3uHU7w">
+              <property role="1adDun" value="1000000000L" />
+            </node>
+            <node concept="2YIFZM" id="6HiBqPCszPs" role="3uHU7B">
+              <ref role="37wK5l" to="wyt6:~Math.round(double)" resolve="round" />
+              <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+              <node concept="17qRlL" id="6HiBqPCs$CG" role="37wK5m">
+                <node concept="3b6qkQ" id="6HiBqPCs_GG" role="3uHU7w">
+                  <property role="$nhwW" value="1000000000.0" />
+                </node>
+                <node concept="2YIFZM" id="6HiBqPCs$bb" role="3uHU7B">
+                  <ref role="37wK5l" to="wyt6:~Math.abs(double)" resolve="abs" />
+                  <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                  <node concept="2YIFZM" id="6HiBqPCszYc" role="37wK5m">
+                    <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                    <ref role="37wK5l" to="wyt6:~Math.random()" resolve="random" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

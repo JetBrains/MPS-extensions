@@ -15,6 +15,7 @@
     <import index="5ka6" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.map.hash(de.q60.mps.libs/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
+    <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -63,6 +64,9 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
+        <child id="1182160096073" name="cls" index="YeSDq" />
+      </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
@@ -104,6 +108,7 @@
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
+        <child id="1164879685961" name="throwsItem" index="Sfmx6" />
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -203,6 +208,10 @@
       <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
         <property id="1200397540847" name="charConstant" index="1XhdNS" />
+      </concept>
+      <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
+        <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+        <child id="1201186121363" name="typeParameter" index="2Ghqu4" />
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
@@ -825,12 +834,96 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="6HiBqPCtnLR" role="3cqZAp">
+          <node concept="3cpWsn" id="6HiBqPCtnLS" role="3cpWs9">
+            <property role="TrG5h" value="gson" />
+            <node concept="3uibUv" id="6HiBqPCtnLQ" role="1tU5fm">
+              <ref role="3uigEE" to="wy2b:~Gson" resolve="Gson" />
+            </node>
+            <node concept="2OqwBi" id="6HiBqPCtryL" role="33vP2m">
+              <node concept="2OqwBi" id="6HiBqPCtqYZ" role="2Oq$k0">
+                <node concept="2ShNRf" id="6HiBqPCtpZh" role="2Oq$k0">
+                  <node concept="1pGfFk" id="6HiBqPCtqVQ" role="2ShVmc">
+                    <ref role="37wK5l" to="wy2b:~GsonBuilder.&lt;init&gt;()" resolve="GsonBuilder" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6HiBqPCtrgM" role="2OqNvi">
+                  <ref role="37wK5l" to="wy2b:~GsonBuilder.registerTypeAdapter(java.lang.reflect.Type,java.lang.Object)" resolve="registerTypeAdapter" />
+                  <node concept="3VsKOn" id="6HiBqPCtrs8" role="37wK5m">
+                    <ref role="3VsUkX" node="5RRPxDXNPpX" resolve="CPElementRef" />
+                  </node>
+                  <node concept="2ShNRf" id="6HiBqPCtsFc" role="37wK5m">
+                    <node concept="YeOm9" id="6HiBqPCttoO" role="2ShVmc">
+                      <node concept="1Y3b0j" id="6HiBqPCttoR" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <ref role="1Y3XeK" to="wy2b:~JsonDeserializer" resolve="JsonDeserializer" />
+                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                        <node concept="3Tm1VV" id="6HiBqPCttoS" role="1B3o_S" />
+                        <node concept="3clFb_" id="6HiBqPCttoX" role="jymVt">
+                          <property role="TrG5h" value="deserialize" />
+                          <node concept="3Tm1VV" id="6HiBqPCttoY" role="1B3o_S" />
+                          <node concept="3uibUv" id="6HiBqPCttpk" role="3clF45">
+                            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                          </node>
+                          <node concept="37vLTG" id="6HiBqPCttp1" role="3clF46">
+                            <property role="TrG5h" value="element" />
+                            <node concept="3uibUv" id="6HiBqPCttp2" role="1tU5fm">
+                              <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
+                            </node>
+                          </node>
+                          <node concept="37vLTG" id="6HiBqPCttp3" role="3clF46">
+                            <property role="TrG5h" value="type" />
+                            <node concept="3uibUv" id="6HiBqPCtuop" role="1tU5fm">
+                              <ref role="3uigEE" to="t6h5:~Type" resolve="Type" />
+                            </node>
+                          </node>
+                          <node concept="37vLTG" id="6HiBqPCttp5" role="3clF46">
+                            <property role="TrG5h" value="context" />
+                            <node concept="3uibUv" id="6HiBqPCttp6" role="1tU5fm">
+                              <ref role="3uigEE" to="wy2b:~JsonDeserializationContext" resolve="JsonDeserializationContext" />
+                            </node>
+                          </node>
+                          <node concept="3uibUv" id="6HiBqPCttp7" role="Sfmx6">
+                            <ref role="3uigEE" to="wy2b:~JsonParseException" resolve="JsonParseException" />
+                          </node>
+                          <node concept="3clFbS" id="6HiBqPCttp8" role="3clF47">
+                            <node concept="3clFbF" id="6HiBqPCtw8p" role="3cqZAp">
+                              <node concept="2YIFZM" id="6HiBqPCtwb3" role="3clFbG">
+                                <ref role="37wK5l" node="5RRPxDXOCrJ" resolve="fromString" />
+                                <ref role="1Pybhc" node="5RRPxDXNPpX" resolve="CPElementRef" />
+                                <node concept="2OqwBi" id="6HiBqPCtvoG" role="37wK5m">
+                                  <node concept="37vLTw" id="6HiBqPCtv3Y" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="6HiBqPCttp1" resolve="element" />
+                                  </node>
+                                  <node concept="liA8E" id="6HiBqPCtvvz" role="2OqNvi">
+                                    <ref role="37wK5l" to="wy2b:~JsonElement.getAsString()" resolve="getAsString" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2AHcQZ" id="6HiBqPCttpa" role="2AJF6D">
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                          </node>
+                        </node>
+                        <node concept="3uibUv" id="6HiBqPCttpj" role="2Ghqu4">
+                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="6HiBqPCtrLa" role="2OqNvi">
+                <ref role="37wK5l" to="wy2b:~GsonBuilder.create()" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="ifAKfhPswp" role="3cqZAp">
           <node concept="2OqwBi" id="ifAKfhPswq" role="3clFbG">
-            <node concept="2ShNRf" id="ifAKfhPswr" role="2Oq$k0">
-              <node concept="1pGfFk" id="6sqLxIGH80u" role="2ShVmc">
-                <ref role="37wK5l" to="wy2b:~Gson.&lt;init&gt;()" resolve="Gson" />
-              </node>
+            <node concept="37vLTw" id="6HiBqPCtnLV" role="2Oq$k0">
+              <ref role="3cqZAo" node="6HiBqPCtnLS" resolve="gson" />
             </node>
             <node concept="liA8E" id="ifAKfhPswt" role="2OqNvi">
               <ref role="37wK5l" to="wy2b:~Gson.fromJson(java.lang.String,java.lang.Class)" resolve="fromJson" />
@@ -1109,16 +1202,105 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="6HiBqPCtD31" role="3cqZAp">
+          <node concept="3cpWsn" id="6HiBqPCtD32" role="3cpWs9">
+            <property role="TrG5h" value="gson" />
+            <node concept="3uibUv" id="6HiBqPCtD2Z" role="1tU5fm">
+              <ref role="3uigEE" to="wy2b:~Gson" resolve="Gson" />
+            </node>
+            <node concept="2OqwBi" id="6HiBqPCtDDV" role="33vP2m">
+              <node concept="2OqwBi" id="6HiBqPCtEnC" role="2Oq$k0">
+                <node concept="2ShNRf" id="6HiBqPCtD33" role="2Oq$k0">
+                  <node concept="1pGfFk" id="6HiBqPCtD34" role="2ShVmc">
+                    <ref role="37wK5l" to="wy2b:~GsonBuilder.&lt;init&gt;()" resolve="GsonBuilder" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6HiBqPCtEAs" role="2OqNvi">
+                  <ref role="37wK5l" to="wy2b:~GsonBuilder.registerTypeAdapter(java.lang.reflect.Type,java.lang.Object)" resolve="registerTypeAdapter" />
+                  <node concept="3VsKOn" id="6HiBqPCtEXJ" role="37wK5m">
+                    <ref role="3VsUkX" node="5RRPxDXNPpX" resolve="CPElementRef" />
+                  </node>
+                  <node concept="2ShNRf" id="6HiBqPCtFqH" role="37wK5m">
+                    <node concept="YeOm9" id="6HiBqPCtGa$" role="2ShVmc">
+                      <node concept="1Y3b0j" id="6HiBqPCtGaB" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <ref role="1Y3XeK" to="wy2b:~JsonSerializer" resolve="JsonSerializer" />
+                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                        <node concept="3Tm1VV" id="6HiBqPCtGaC" role="1B3o_S" />
+                        <node concept="3clFb_" id="6HiBqPCtGaI" role="jymVt">
+                          <property role="TrG5h" value="serialize" />
+                          <node concept="3Tm1VV" id="6HiBqPCtGaJ" role="1B3o_S" />
+                          <node concept="3uibUv" id="6HiBqPCtGaL" role="3clF45">
+                            <ref role="3uigEE" to="wy2b:~JsonElement" resolve="JsonElement" />
+                          </node>
+                          <node concept="37vLTG" id="6HiBqPCtGaM" role="3clF46">
+                            <property role="TrG5h" value="ref" />
+                            <node concept="3uibUv" id="6HiBqPCtGb4" role="1tU5fm">
+                              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                            </node>
+                          </node>
+                          <node concept="37vLTG" id="6HiBqPCtGaO" role="3clF46">
+                            <property role="TrG5h" value="type" />
+                            <node concept="3uibUv" id="6HiBqPCtGaP" role="1tU5fm">
+                              <ref role="3uigEE" to="t6h5:~Type" resolve="Type" />
+                            </node>
+                          </node>
+                          <node concept="37vLTG" id="6HiBqPCtGaQ" role="3clF46">
+                            <property role="TrG5h" value="context" />
+                            <node concept="3uibUv" id="6HiBqPCtGaR" role="1tU5fm">
+                              <ref role="3uigEE" to="wy2b:~JsonSerializationContext" resolve="JsonSerializationContext" />
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="6HiBqPCtGaS" role="3clF47">
+                            <node concept="3clFbF" id="6HiBqPCtJTu" role="3cqZAp">
+                              <node concept="2ShNRf" id="6HiBqPCtJTs" role="3clFbG">
+                                <node concept="1pGfFk" id="6HiBqPCtLf9" role="2ShVmc">
+                                  <ref role="37wK5l" to="wy2b:~JsonPrimitive.&lt;init&gt;(java.lang.String)" resolve="JsonPrimitive" />
+                                  <node concept="2OqwBi" id="6HiBqPCtJlz" role="37wK5m">
+                                    <node concept="1eOMI4" id="6HiBqPCtIKr" role="2Oq$k0">
+                                      <node concept="10QFUN" id="6HiBqPCtIKo" role="1eOMHV">
+                                        <node concept="3uibUv" id="6HiBqPCtJ0O" role="10QFUM">
+                                          <ref role="3uigEE" node="5RRPxDXNPpX" resolve="CPElementRef" />
+                                        </node>
+                                        <node concept="37vLTw" id="6HiBqPCtJhG" role="10QFUP">
+                                          <ref role="3cqZAo" node="6HiBqPCtGaM" resolve="ref" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="6HiBqPCtJqM" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2AHcQZ" id="6HiBqPCtGaU" role="2AJF6D">
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                          </node>
+                        </node>
+                        <node concept="3uibUv" id="6HiBqPCtGb3" role="2Ghqu4">
+                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="6HiBqPCtDSD" role="2OqNvi">
+                <ref role="37wK5l" to="wy2b:~GsonBuilder.create()" resolve="create" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="ifAKfhPswD" role="3cqZAp">
           <node concept="3cpWs3" id="ifAKfhPCiO" role="3clFbG">
             <node concept="37vLTw" id="ifAKfhPCDp" role="3uHU7B">
               <ref role="3cqZAo" node="ifAKfhPukO" resolve="prefix" />
             </node>
             <node concept="2OqwBi" id="ifAKfhPswE" role="3uHU7w">
-              <node concept="2ShNRf" id="ifAKfhPswF" role="2Oq$k0">
-                <node concept="1pGfFk" id="6sqLxIGH80w" role="2ShVmc">
-                  <ref role="37wK5l" to="wy2b:~Gson.&lt;init&gt;()" resolve="Gson" />
-                </node>
+              <node concept="37vLTw" id="6HiBqPCtD35" role="2Oq$k0">
+                <ref role="3cqZAo" node="6HiBqPCtD32" resolve="gson" />
               </node>
               <node concept="liA8E" id="ifAKfhPswH" role="2OqNvi">
                 <ref role="37wK5l" to="wy2b:~Gson.toJson(java.lang.Object)" resolve="toJson" />
@@ -1361,16 +1543,16 @@
     <node concept="312cEg" id="5RRPxDXNPpG" role="jymVt">
       <property role="TrG5h" value="targetRef" />
       <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="5RRPxDXNPpH" role="1B3o_S" />
       <node concept="3uibUv" id="5RRPxDXOMMN" role="1tU5fm">
         <ref role="3uigEE" node="5RRPxDXNPpX" resolve="CPElementRef" />
       </node>
+      <node concept="3Tm6S6" id="5RRPxDXNPpH" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="5RRPxDXNPpz" role="jymVt" />
     <node concept="3Tm1VV" id="5vGqiR9LHJa" role="1B3o_S" />
     <node concept="3uibUv" id="5vGqiR9LHVI" role="1zkMxy">
       <ref role="3uigEE" node="5vGqiR9LEPX" resolve="CPElement" />
     </node>
+    <node concept="2tJIrI" id="5RRPxDXNPpz" role="jymVt" />
     <node concept="3clFbW" id="4_P7CAmdGeI" role="jymVt">
       <node concept="3cqZAl" id="4_P7CAmdGeJ" role="3clF45" />
       <node concept="3Tm1VV" id="4_P7CAmdGeK" role="1B3o_S" />
@@ -1658,16 +1840,8 @@
                   <node concept="2YIFZM" id="5RRPxDXOaEs" role="37wK5m">
                     <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
                     <ref role="37wK5l" to="wyt6:~Long.valueOf(java.lang.String)" resolve="valueOf" />
-                    <node concept="2OqwBi" id="5RRPxDXObrR" role="37wK5m">
-                      <node concept="37vLTw" id="5RRPxDXOb5p" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5RRPxDXO1KM" resolve="str" />
-                      </node>
-                      <node concept="liA8E" id="5RRPxDXOcic" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
-                        <node concept="3cmrfG" id="5RRPxDXOciv" role="37wK5m">
-                          <property role="3cmrfH" value="1" />
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="5RRPxDXOb5p" role="37wK5m">
+                      <ref role="3cqZAo" node="5RRPxDXO1KM" resolve="str" />
                     </node>
                   </node>
                 </node>

@@ -4742,6 +4742,57 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="KwHEfXfdyP" role="jymVt" />
+    <node concept="3clFbW" id="KwHEfXf6e4" role="jymVt">
+      <node concept="37vLTG" id="KwHEfXf6e5" role="3clF46">
+        <property role="TrG5h" value="hash" />
+        <node concept="17QB3L" id="KwHEfXf6e6" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KwHEfXf6e7" role="3clF46">
+        <property role="TrG5h" value="store" />
+        <node concept="3uibUv" id="KwHEfXfkIb" role="1tU5fm">
+          <ref role="3uigEE" node="4_P7CAmwzDr" resolve="IDeserializingKeyValueStore" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="KwHEfXf6e9" role="3clF45" />
+      <node concept="3Tm1VV" id="KwHEfXf6ea" role="1B3o_S" />
+      <node concept="3clFbS" id="KwHEfXf6eb" role="3clF47">
+        <node concept="1VxSAg" id="KwHEfXf6ec" role="3cqZAp">
+          <ref role="37wK5l" node="4_P7CAmq2c4" resolve="CLTree" />
+          <node concept="2OqwBi" id="KwHEfXfl8e" role="37wK5m">
+            <node concept="37vLTw" id="KwHEfXfl6o" role="2Oq$k0">
+              <ref role="3cqZAo" node="KwHEfXf6e7" resolve="store" />
+            </node>
+            <node concept="liA8E" id="KwHEfXflkD" role="2OqNvi">
+              <ref role="37wK5l" node="4_P7CAmwzTl" resolve="get" />
+              <node concept="37vLTw" id="KwHEfXflpm" role="37wK5m">
+                <ref role="3cqZAo" node="KwHEfXf6e5" resolve="hash" />
+              </node>
+              <node concept="1bVj0M" id="KwHEfXflAk" role="37wK5m">
+                <node concept="37vLTG" id="KwHEfXflCT" role="1bW2Oz">
+                  <property role="TrG5h" value="serialized" />
+                  <node concept="17QB3L" id="KwHEfXflNz" role="1tU5fm" />
+                </node>
+                <node concept="3clFbS" id="KwHEfXflAm" role="1bW5cS">
+                  <node concept="3clFbF" id="KwHEfXfm5h" role="3cqZAp">
+                    <node concept="2YIFZM" id="KwHEfXf6ed" role="3clFbG">
+                      <ref role="37wK5l" to="6shs:7A36R9$W6Sl" resolve="deserialize" />
+                      <ref role="1Pybhc" to="6shs:5vGqiR9LGQC" resolve="CPTree" />
+                      <node concept="37vLTw" id="KwHEfXfmsr" role="37wK5m">
+                        <ref role="3cqZAo" node="KwHEfXflCT" resolve="serialized" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="KwHEfXfl2h" role="37wK5m">
+            <ref role="3cqZAo" node="KwHEfXf6e7" resolve="store" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4_P7CAmz7yl" role="jymVt" />
     <node concept="3clFbW" id="ifAKfhOLqs" role="jymVt">
       <node concept="3cqZAl" id="ifAKfhOLqu" role="3clF45" />

@@ -4,7 +4,43 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
+    <modelRoot contentPath="${module}/lib" type="java_classes">
+      <sourceRoot location="commons-pool2-2.6.0.jar" />
+      <sourceRoot location="HdrHistogram-2.1.11.jar" />
+      <sourceRoot location="LatencyUtils-2.0.3.jar" />
+      <sourceRoot location="lettuce-core-5.1.7.RELEASE.jar" />
+      <sourceRoot location="netty-buffer-4.1.36.Final.jar" />
+      <sourceRoot location="netty-codec-4.1.36.Final.jar" />
+      <sourceRoot location="netty-common-4.1.36.Final.jar" />
+      <sourceRoot location="netty-handler-4.1.36.Final.jar" />
+      <sourceRoot location="netty-resolver-4.1.36.Final.jar" />
+      <sourceRoot location="netty-tcnative-1.1.33.Fork26-osx-x86_64.jar" />
+      <sourceRoot location="netty-transport-4.1.36.Final.jar" />
+      <sourceRoot location="netty-transport-native-epoll-4.1.36.Final-linux-x86_64.jar" />
+      <sourceRoot location="netty-transport-native-kqueue-4.1.36.Final-osx-x86_64.jar" />
+      <sourceRoot location="netty-transport-native-unix-common-4.1.36.Final.jar" />
+      <sourceRoot location="reactive-streams-1.0.2.jar" />
+      <sourceRoot location="reactor-core-3.2.8.RELEASE.jar" />
+    </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="${module}/lib/commons-pool2-2.6.0.jar" />
+    <stubModelEntry path="${module}/lib/HdrHistogram-2.1.11.jar" />
+    <stubModelEntry path="${module}/lib/LatencyUtils-2.0.3.jar" />
+    <stubModelEntry path="${module}/lib/lettuce-core-5.1.7.RELEASE.jar" />
+    <stubModelEntry path="${module}/lib/netty-buffer-4.1.36.Final.jar" />
+    <stubModelEntry path="${module}/lib/netty-codec-4.1.36.Final.jar" />
+    <stubModelEntry path="${module}/lib/netty-common-4.1.36.Final.jar" />
+    <stubModelEntry path="${module}/lib/netty-handler-4.1.36.Final.jar" />
+    <stubModelEntry path="${module}/lib/netty-resolver-4.1.36.Final.jar" />
+    <stubModelEntry path="${module}/lib/netty-tcnative-1.1.33.Fork26-osx-x86_64.jar" />
+    <stubModelEntry path="${module}/lib/netty-transport-4.1.36.Final.jar" />
+    <stubModelEntry path="${module}/lib/netty-transport-native-epoll-4.1.36.Final-linux-x86_64.jar" />
+    <stubModelEntry path="${module}/lib/netty-transport-native-kqueue-4.1.36.Final-osx-x86_64.jar" />
+    <stubModelEntry path="${module}/lib/netty-transport-native-unix-common-4.1.36.Final.jar" />
+    <stubModelEntry path="${module}/lib/reactive-streams-1.0.2.jar" />
+    <stubModelEntry path="${module}/lib/reactor-core-3.2.8.RELEASE.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
@@ -15,6 +51,7 @@
     <dependency reexport="false">134ef213-c518-42b0-b12c-c109aa13d320(collections_trove.runtime)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">87f4b21e-a3a5-459e-a54b-408fd9eb7350(de.q60.mps.shadowmodels.web.lib)</dependency>
+    <dependency reexport="false">5622e615-959d-4843-9df6-ef04ee578c18(de.q60.mps.web.model)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />

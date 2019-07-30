@@ -10,6 +10,8 @@
     <import index="v6wz" ref="5622e615-959d-4843-9df6-ef04ee578c18/java:io.lettuce.core.api(de.q60.mps.web.model/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="8lwm" ref="5622e615-959d-4843-9df6-ef04ee578c18/java:io.lettuce.core.api.sync(de.q60.mps.web.model/)" />
+    <import index="7gey" ref="5622e615-959d-4843-9df6-ef04ee578c18/java:io.lettuce.core.pubsub(de.q60.mps.web.model/)" />
+    <import index="y3r7" ref="5622e615-959d-4843-9df6-ef04ee578c18/java:io.lettuce.core.pubsub.api.sync(de.q60.mps.web.model/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -33,8 +35,14 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
+        <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
@@ -44,6 +52,7 @@
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -52,6 +61,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -63,6 +73,11 @@
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -78,6 +93,7 @@
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
+        <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
@@ -85,11 +101,28 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
+        <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+        <child id="1201186121363" name="typeParameter" index="2Ghqu4" />
+      </concept>
+    </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
+        <child id="1199542457201" name="resultType" index="1ajl9A" />
+        <child id="1199542501692" name="parameterType" index="1ajw0F" />
+      </concept>
+      <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e">
+        <child id="1225797361612" name="parameter" index="1BdPVh" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -124,8 +157,44 @@
         <node concept="17QB3L" id="CLn71NqWaH" role="11_B2D" />
       </node>
     </node>
+    <node concept="2tJIrI" id="68JFWaycxKE" role="jymVt" />
+    <node concept="312cEg" id="68JFWayc$$K" role="jymVt">
+      <property role="TrG5h" value="subConnection" />
+      <node concept="3Tm6S6" id="68JFWayc$$L" role="1B3o_S" />
+      <node concept="3uibUv" id="68JFWaycBmn" role="1tU5fm">
+        <ref role="3uigEE" to="7gey:~StatefulRedisPubSubConnection" resolve="StatefulRedisPubSubConnection" />
+        <node concept="17QB3L" id="68JFWaycBtt" role="11_B2D" />
+        <node concept="17QB3L" id="68JFWaycB$Z" role="11_B2D" />
+      </node>
+    </node>
+    <node concept="312cEg" id="68JFWaycC38" role="jymVt">
+      <property role="TrG5h" value="subCommands" />
+      <node concept="3Tm6S6" id="68JFWaycC39" role="1B3o_S" />
+      <node concept="3uibUv" id="68JFWaycEOO" role="1tU5fm">
+        <ref role="3uigEE" to="y3r7:~RedisPubSubCommands" resolve="RedisPubSubCommands" />
+        <node concept="17QB3L" id="68JFWaycFZm" role="11_B2D" />
+        <node concept="17QB3L" id="68JFWaycG3c" role="11_B2D" />
+      </node>
+    </node>
+    <node concept="312cEg" id="68JFWaydGNf" role="jymVt">
+      <property role="TrG5h" value="pubConnection" />
+      <node concept="3Tm6S6" id="68JFWaydGNg" role="1B3o_S" />
+      <node concept="3uibUv" id="68JFWaydGNh" role="1tU5fm">
+        <ref role="3uigEE" to="7gey:~StatefulRedisPubSubConnection" resolve="StatefulRedisPubSubConnection" />
+        <node concept="17QB3L" id="68JFWaydGNi" role="11_B2D" />
+        <node concept="17QB3L" id="68JFWaydGNj" role="11_B2D" />
+      </node>
+    </node>
+    <node concept="312cEg" id="68JFWaydGNa" role="jymVt">
+      <property role="TrG5h" value="pubCommands" />
+      <node concept="3Tm6S6" id="68JFWaydGNb" role="1B3o_S" />
+      <node concept="3uibUv" id="68JFWaydGNc" role="1tU5fm">
+        <ref role="3uigEE" to="y3r7:~RedisPubSubCommands" resolve="RedisPubSubCommands" />
+        <node concept="17QB3L" id="68JFWaydGNd" role="11_B2D" />
+        <node concept="17QB3L" id="68JFWaydGNe" role="11_B2D" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="CLn71Nq4S3" role="jymVt" />
-    <node concept="2tJIrI" id="CLn71Nq4Zn" role="jymVt" />
     <node concept="3clFbW" id="CLn71Nq52T" role="jymVt">
       <node concept="3cqZAl" id="CLn71Nq52V" role="3clF45" />
       <node concept="3Tm1VV" id="CLn71Nq52W" role="1B3o_S" />
@@ -222,6 +291,68 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="68JFWaycGTo" role="3cqZAp" />
+            <node concept="3clFbF" id="68JFWaycIfU" role="3cqZAp">
+              <node concept="37vLTI" id="68JFWaycJBp" role="3clFbG">
+                <node concept="2OqwBi" id="68JFWaycKHn" role="37vLTx">
+                  <node concept="37vLTw" id="68JFWaycJTc" role="2Oq$k0">
+                    <ref role="3cqZAo" node="CLn71NqY06" resolve="redisClient" />
+                  </node>
+                  <node concept="liA8E" id="68JFWaycOEz" role="2OqNvi">
+                    <ref role="37wK5l" to="djpz:~RedisClient.connectPubSub()" resolve="connectPubSub" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="68JFWaycIfS" role="37vLTJ">
+                  <ref role="3cqZAo" node="68JFWayc$$K" resolve="subConnection" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="68JFWaycPzS" role="3cqZAp">
+              <node concept="37vLTI" id="68JFWaycSby" role="3clFbG">
+                <node concept="2OqwBi" id="68JFWaycUoa" role="37vLTx">
+                  <node concept="37vLTw" id="68JFWaydfe$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="68JFWayc$$K" resolve="subConnection" />
+                  </node>
+                  <node concept="liA8E" id="68JFWayd5u2" role="2OqNvi">
+                    <ref role="37wK5l" to="7gey:~StatefulRedisPubSubConnection.sync()" resolve="sync" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="68JFWaycPzQ" role="37vLTJ">
+                  <ref role="3cqZAo" node="68JFWaycC38" resolve="subCommands" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="68JFWaydKDR" role="3cqZAp" />
+            <node concept="3clFbF" id="68JFWaydJFk" role="3cqZAp">
+              <node concept="37vLTI" id="68JFWaydJFl" role="3clFbG">
+                <node concept="2OqwBi" id="68JFWaydJFm" role="37vLTx">
+                  <node concept="37vLTw" id="68JFWaydJFn" role="2Oq$k0">
+                    <ref role="3cqZAo" node="CLn71NqY06" resolve="redisClient" />
+                  </node>
+                  <node concept="liA8E" id="68JFWaydJFo" role="2OqNvi">
+                    <ref role="37wK5l" to="djpz:~RedisClient.connectPubSub()" resolve="connectPubSub" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="68JFWaydLBH" role="37vLTJ">
+                  <ref role="3cqZAo" node="68JFWaydGNf" resolve="pubConnection" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="68JFWaydJFe" role="3cqZAp">
+              <node concept="37vLTI" id="68JFWaydJFf" role="3clFbG">
+                <node concept="2OqwBi" id="68JFWaydJFg" role="37vLTx">
+                  <node concept="37vLTw" id="68JFWaydNtC" role="2Oq$k0">
+                    <ref role="3cqZAo" node="68JFWaydGNf" resolve="pubConnection" />
+                  </node>
+                  <node concept="liA8E" id="68JFWaydJFi" role="2OqNvi">
+                    <ref role="37wK5l" to="7gey:~StatefulRedisPubSubConnection.sync()" resolve="sync" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="68JFWaydMif" role="37vLTJ">
+                  <ref role="3cqZAo" node="68JFWaydGNa" resolve="pubCommands" />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="3clFbS" id="KwHEfXd1ek" role="2GVbov">
             <node concept="3clFbF" id="KwHEfXcYZI" role="3cqZAp">
@@ -253,6 +384,26 @@
               <ref role="3cqZAo" node="CLn71NqY09" resolve="connection" />
             </node>
             <node concept="liA8E" id="CLn71Nr9Db" role="2OqNvi">
+              <ref role="37wK5l" to="v6wz:~StatefulConnection.close()" resolve="close" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="68JFWaydj$M" role="3cqZAp">
+          <node concept="2OqwBi" id="68JFWaydkiu" role="3clFbG">
+            <node concept="37vLTw" id="68JFWaydj$K" role="2Oq$k0">
+              <ref role="3cqZAo" node="68JFWayc$$K" resolve="subConnection" />
+            </node>
+            <node concept="liA8E" id="68JFWaydyBA" role="2OqNvi">
+              <ref role="37wK5l" to="v6wz:~StatefulConnection.close()" resolve="close" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="68JFWaydOHK" role="3cqZAp">
+          <node concept="2OqwBi" id="68JFWaydQDJ" role="3clFbG">
+            <node concept="37vLTw" id="68JFWaydPOp" role="2Oq$k0">
+              <ref role="3cqZAo" node="68JFWaydGNf" resolve="pubConnection" />
+            </node>
+            <node concept="liA8E" id="68JFWaye4sF" role="2OqNvi">
               <ref role="37wK5l" to="v6wz:~StatefulConnection.close()" resolve="close" />
             </node>
           </node>
@@ -330,6 +481,136 @@
       </node>
       <node concept="2AHcQZ" id="CLn71Nq4SU" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="68JFWayaOSy" role="jymVt" />
+    <node concept="3clFb_" id="68JFWayaRX7" role="jymVt">
+      <property role="TrG5h" value="subscribe" />
+      <node concept="37vLTG" id="68JFWaybdro" role="3clF46">
+        <property role="TrG5h" value="channel" />
+        <property role="3TUv4t" value="true" />
+        <node concept="17QB3L" id="68JFWaybeZ4" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="68JFWaybvg_" role="3clF46">
+        <property role="TrG5h" value="listener" />
+        <property role="3TUv4t" value="true" />
+        <node concept="1ajhzC" id="68JFWaybxlL" role="1tU5fm">
+          <node concept="17QB3L" id="68JFWaybxrl" role="1ajw0F" />
+          <node concept="3cqZAl" id="68JFWaybxnD" role="1ajl9A" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="68JFWayaRX9" role="3clF45" />
+      <node concept="3Tm1VV" id="68JFWayaRXa" role="1B3o_S" />
+      <node concept="3clFbS" id="68JFWayaRXb" role="3clF47">
+        <node concept="3clFbF" id="68JFWayb3xT" role="3cqZAp">
+          <node concept="2OqwBi" id="68JFWayb5Wl" role="3clFbG">
+            <node concept="37vLTw" id="68JFWayd6vT" role="2Oq$k0">
+              <ref role="3cqZAo" node="68JFWaycC38" resolve="subCommands" />
+            </node>
+            <node concept="liA8E" id="68JFWaybavt" role="2OqNvi">
+              <ref role="37wK5l" to="y3r7:~RedisPubSubCommands.subscribe(java.lang.Object...)" resolve="subscribe" />
+              <node concept="37vLTw" id="68JFWaybgSr" role="37wK5m">
+                <ref role="3cqZAo" node="68JFWaybdro" resolve="channel" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="68JFWaybiKD" role="3cqZAp">
+          <node concept="2OqwBi" id="68JFWaybk7V" role="3clFbG">
+            <node concept="37vLTw" id="68JFWaydh2Y" role="2Oq$k0">
+              <ref role="3cqZAo" node="68JFWayc$$K" resolve="subConnection" />
+            </node>
+            <node concept="liA8E" id="68JFWayblB9" role="2OqNvi">
+              <ref role="37wK5l" to="7gey:~StatefulRedisPubSubConnection.addListener(io.lettuce.core.pubsub.RedisPubSubListener)" resolve="addListener" />
+              <node concept="2ShNRf" id="68JFWayblSl" role="37wK5m">
+                <node concept="YeOm9" id="68JFWaybq2k" role="2ShVmc">
+                  <node concept="1Y3b0j" id="68JFWaybq2n" role="YeSDq">
+                    <property role="2bfB8j" value="true" />
+                    <ref role="1Y3XeK" to="7gey:~RedisPubSubAdapter" resolve="RedisPubSubAdapter" />
+                    <ref role="37wK5l" to="7gey:~RedisPubSubAdapter.&lt;init&gt;()" resolve="RedisPubSubAdapter" />
+                    <node concept="3Tm1VV" id="68JFWaybq2o" role="1B3o_S" />
+                    <node concept="3clFb_" id="68JFWaybq2A" role="jymVt">
+                      <property role="TrG5h" value="message" />
+                      <node concept="3Tm1VV" id="68JFWaybq2B" role="1B3o_S" />
+                      <node concept="3cqZAl" id="68JFWaybq2D" role="3clF45" />
+                      <node concept="37vLTG" id="68JFWaybq2E" role="3clF46">
+                        <property role="TrG5h" value="chan" />
+                        <node concept="17QB3L" id="68JFWaybq9Z" role="1tU5fm" />
+                      </node>
+                      <node concept="37vLTG" id="68JFWaybq2G" role="3clF46">
+                        <property role="TrG5h" value="message" />
+                        <node concept="17QB3L" id="68JFWaybqa7" role="1tU5fm" />
+                      </node>
+                      <node concept="3clFbS" id="68JFWaybq2I" role="3clF47">
+                        <node concept="3clFbJ" id="68JFWaybuFU" role="3cqZAp">
+                          <node concept="17R0WA" id="68JFWaybv9X" role="3clFbw">
+                            <node concept="37vLTw" id="68JFWaybvds" role="3uHU7w">
+                              <ref role="3cqZAo" node="68JFWaybq2E" resolve="chan" />
+                            </node>
+                            <node concept="37vLTw" id="68JFWaybuKR" role="3uHU7B">
+                              <ref role="3cqZAo" node="68JFWaybdro" resolve="channel" />
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="68JFWaybuFW" role="3clFbx">
+                            <node concept="3clFbF" id="68JFWaybxyS" role="3cqZAp">
+                              <node concept="2OqwBi" id="68JFWaybxAp" role="3clFbG">
+                                <node concept="37vLTw" id="68JFWaybxyR" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="68JFWaybvg_" resolve="listener" />
+                                </node>
+                                <node concept="1Bd96e" id="68JFWaybxDR" role="2OqNvi">
+                                  <node concept="37vLTw" id="68JFWaybxH_" role="1BdPVh">
+                                    <ref role="3cqZAo" node="68JFWaybq2G" resolve="message" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2AHcQZ" id="68JFWaybq2K" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
+                    </node>
+                    <node concept="17QB3L" id="68JFWaybq9Y" role="2Ghqu4" />
+                    <node concept="17QB3L" id="68JFWaybqa6" role="2Ghqu4" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="68JFWaybMaO" role="jymVt" />
+    <node concept="3clFb_" id="68JFWaybOk4" role="jymVt">
+      <property role="TrG5h" value="publish" />
+      <node concept="37vLTG" id="68JFWaybTBG" role="3clF46">
+        <property role="TrG5h" value="channel" />
+        <node concept="17QB3L" id="68JFWaybVGY" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="68JFWaybVK8" role="3clF46">
+        <property role="TrG5h" value="message" />
+        <node concept="17QB3L" id="68JFWaybXPz" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="68JFWaybOk6" role="3clF45" />
+      <node concept="3Tm1VV" id="68JFWaybOk7" role="1B3o_S" />
+      <node concept="3clFbS" id="68JFWaybOk8" role="3clF47">
+        <node concept="3clFbF" id="68JFWaybZmL" role="3cqZAp">
+          <node concept="2OqwBi" id="68JFWayc1Pp" role="3clFbG">
+            <node concept="37vLTw" id="68JFWaye5cJ" role="2Oq$k0">
+              <ref role="3cqZAo" node="68JFWaydGNa" resolve="pubCommands" />
+            </node>
+            <node concept="liA8E" id="68JFWayc6p1" role="2OqNvi">
+              <ref role="37wK5l" to="8lwm:~BaseRedisCommands.publish(java.lang.Object,java.lang.Object)" resolve="publish" />
+              <node concept="37vLTw" id="68JFWaycaeR" role="37wK5m">
+                <ref role="3cqZAo" node="68JFWaybTBG" resolve="channel" />
+              </node>
+              <node concept="37vLTw" id="68JFWaycdWS" role="37wK5m">
+                <ref role="3cqZAo" node="68JFWaybVK8" resolve="message" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="CLn71Nq4Qc" role="1B3o_S" />

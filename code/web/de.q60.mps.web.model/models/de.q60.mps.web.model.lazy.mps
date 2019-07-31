@@ -24,6 +24,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
+    <import index="j26e" ref="r:1badce27-46a5-46ca-a980-25bc2393f597(de.q60.mps.web.base)" />
   </imports>
   <registry>
     <language id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods">
@@ -4708,7 +4709,7 @@
       <node concept="37vLTG" id="4_P7CAmzbCQ" role="3clF46">
         <property role="TrG5h" value="store" />
         <node concept="3uibUv" id="4_P7CAmzbQT" role="1tU5fm">
-          <ref role="3uigEE" to="6shs:1SVbIFIiXye" resolve="IKeyValueStore" />
+          <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
         </node>
       </node>
       <node concept="3cqZAl" id="4_P7CAmz9tC" role="3clF45" />
@@ -4724,7 +4725,7 @@
                 <ref role="3cqZAo" node="4_P7CAmzbCQ" resolve="store" />
               </node>
               <node concept="liA8E" id="4_P7CAmzcFK" role="2OqNvi">
-                <ref role="37wK5l" to="6shs:1SVbIFIiXyE" resolve="get" />
+                <ref role="37wK5l" to="j26e:1SVbIFIiXyE" resolve="get" />
                 <node concept="37vLTw" id="4_P7CAmzcHX" role="37wK5m">
                   <ref role="3cqZAo" node="4_P7CAmzboR" resolve="hash" />
                 </node>
@@ -11400,7 +11401,7 @@
       <property role="TrG5h" value="store" />
       <node concept="3Tm6S6" id="1SVbIFIiY2N" role="1B3o_S" />
       <node concept="3uibUv" id="1SVbIFIiY32" role="1tU5fm">
-        <ref role="3uigEE" to="6shs:1SVbIFIiXye" resolve="IKeyValueStore" />
+        <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
       </node>
     </node>
     <node concept="312cEg" id="1SVbIFIiY3B" role="jymVt">
@@ -11453,7 +11454,7 @@
                       <ref role="3cqZAo" node="1SVbIFIiY2M" resolve="store" />
                     </node>
                     <node concept="liA8E" id="1SVbIFIiYFA" role="2OqNvi">
-                      <ref role="37wK5l" to="6shs:1SVbIFIiXyE" resolve="get" />
+                      <ref role="37wK5l" to="j26e:1SVbIFIiXyE" resolve="get" />
                       <node concept="37vLTw" id="1SVbIFIiYJv" role="37wK5m">
                         <ref role="3cqZAo" node="1SVbIFIiY3B" resolve="hash" />
                       </node>
@@ -11502,7 +11503,7 @@
       <property role="TrG5h" value="store" />
       <node concept="3Tm6S6" id="7A36R9$WotY" role="1B3o_S" />
       <node concept="3uibUv" id="7A36R9$Woun" role="1tU5fm">
-        <ref role="3uigEE" to="6shs:1SVbIFIiXye" resolve="IKeyValueStore" />
+        <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
       </node>
     </node>
     <node concept="312cEg" id="7A36R9$WoAD" role="jymVt">
@@ -11544,7 +11545,7 @@
       <node concept="37vLTG" id="ifAKfhOMkr" role="3clF46">
         <property role="TrG5h" value="store1" />
         <node concept="3uibUv" id="ifAKfhOMkq" role="1tU5fm">
-          <ref role="3uigEE" to="6shs:1SVbIFIiXye" resolve="IKeyValueStore" />
+          <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
         </node>
       </node>
     </node>
@@ -11610,7 +11611,7 @@
                         <ref role="3cqZAo" node="7A36R9$WotX" resolve="store" />
                       </node>
                       <node concept="liA8E" id="7A36R9$WtbJ" role="2OqNvi">
-                        <ref role="37wK5l" to="6shs:1SVbIFIiXyE" resolve="get" />
+                        <ref role="37wK5l" to="j26e:1SVbIFIiXyE" resolve="get" />
                         <node concept="37vLTw" id="7A36R9$WtbK" role="37wK5m">
                           <ref role="3cqZAo" node="7A36R9$Wowx" resolve="hash" />
                         </node>
@@ -11680,7 +11681,7 @@
               <ref role="3cqZAo" node="7A36R9$WotX" resolve="store" />
             </node>
             <node concept="liA8E" id="4_P7CAmhfeD" role="2OqNvi">
-              <ref role="37wK5l" to="6shs:1SVbIFIiX_K" resolve="put" />
+              <ref role="37wK5l" to="j26e:1SVbIFIiX_K" resolve="put" />
               <node concept="37vLTw" id="4_P7CAmhfhZ" role="37wK5m">
                 <ref role="3cqZAo" node="4_P7CAmhwZS" resolve="hash" />
               </node>

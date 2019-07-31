@@ -149,7 +149,7 @@
       <property role="TrG5h" value="client" />
       <node concept="3Tm6S6" id="5nE7Pe9cUw9" role="1B3o_S" />
       <node concept="3uibUv" id="5nE7Pe9cVWr" role="1tU5fm">
-        <ref role="3uigEE" to="fldo:2JgPm8hG8Qx" resolve="PIGClient" />
+        <ref role="3uigEE" to="csg2:2JgPm8hG8Qx" resolve="PIGClient" />
       </node>
     </node>
     <node concept="2uRRBj" id="26ispG7ZZOJ" role="2uRRBE">
@@ -210,7 +210,7 @@
               <node concept="37vLTI" id="5nE7Pe9cVW_" role="3clFbG">
                 <node concept="2ShNRf" id="5nE7Pe9cVWA" role="37vLTx">
                   <node concept="1pGfFk" id="5nE7Pe9cVWB" role="2ShVmc">
-                    <ref role="37wK5l" to="fldo:5nE7Pe9bvhv" resolve="PIGClient" />
+                    <ref role="37wK5l" to="csg2:5nE7Pe9bvhv" resolve="PIGClient" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5nE7Pe9cVWC" role="37vLTJ">

@@ -12,6 +12,7 @@
     <import index="8lwm" ref="5622e615-959d-4843-9df6-ef04ee578c18/java:io.lettuce.core.api.sync(de.q60.mps.web.model/)" />
     <import index="7gey" ref="5622e615-959d-4843-9df6-ef04ee578c18/java:io.lettuce.core.pubsub(de.q60.mps.web.model/)" />
     <import index="y3r7" ref="5622e615-959d-4843-9df6-ef04ee578c18/java:io.lettuce.core.pubsub.api.sync(de.q60.mps.web.model/)" />
+    <import index="j26e" ref="r:1badce27-46a5-46ca-a980-25bc2393f597(de.q60.mps.web.base)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -628,9 +629,8 @@
       <node concept="37vLTG" id="5nE7Pe9iFth" role="3clF46">
         <property role="TrG5h" value="listener" />
         <property role="3TUv4t" value="true" />
-        <node concept="1ajhzC" id="5nE7Pe9iFti" role="1tU5fm">
-          <node concept="17QB3L" id="5nE7Pe9iFtj" role="1ajw0F" />
-          <node concept="3cqZAl" id="5nE7Pe9iFtk" role="1ajl9A" />
+        <node concept="3uibUv" id="2$MJqfj0jBc" role="1tU5fm">
+          <ref role="3uigEE" to="j26e:2$MJqfiZrgX" resolve="IKeyListener" />
         </node>
       </node>
       <node concept="3cqZAl" id="5nE7Pe9iFtl" role="3clF45" />
@@ -650,7 +650,7 @@
     </node>
     <node concept="3Tm1VV" id="CLn71Nq4Qc" role="1B3o_S" />
     <node concept="3uibUv" id="CLn71Nq4RF" role="EKbjA">
-      <ref role="3uigEE" to="6shs:1SVbIFIiXye" resolve="IKeyValueStore" />
+      <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
     </node>
   </node>
 </model>

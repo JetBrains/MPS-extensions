@@ -8,12 +8,14 @@
       <sourceRoot location="trove4j-3.0.3.jar" />
       <sourceRoot location="vavr-0.9.3.jar" />
       <sourceRoot location="guava-27.1-jre.jar" />
+      <sourceRoot location="commons-collections4-4.4.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/trove4j-3.0.3.jar" />
     <stubModelEntry path="${module}/lib/vavr-0.9.3.jar" />
     <stubModelEntry path="${module}/lib/guava-27.1-jre.jar" />
+    <stubModelEntry path="${module}/lib/commons-collections4-4.4.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

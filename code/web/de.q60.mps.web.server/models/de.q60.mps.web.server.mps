@@ -71,6 +71,7 @@
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
+      <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -83,6 +84,9 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
+        <child id="1070534760952" name="componentType" index="10Q1$1" />
+      </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
@@ -2028,6 +2032,60 @@
     <node concept="3uibUv" id="gibv3bWnbi" role="EKbjA">
       <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
     </node>
+  </node>
+  <node concept="312cEu" id="2$MJqfj64cn">
+    <property role="TrG5h" value="Main" />
+    <node concept="2YIFZL" id="2$MJqfj64da" role="jymVt">
+      <property role="TrG5h" value="main" />
+      <node concept="37vLTG" id="2$MJqfj64db" role="3clF46">
+        <property role="TrG5h" value="args" />
+        <node concept="10Q1$e" id="2$MJqfj64dc" role="1tU5fm">
+          <node concept="17QB3L" id="2$MJqfj64dd" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2$MJqfj64de" role="3clF45" />
+      <node concept="3Tm1VV" id="2$MJqfj64df" role="1B3o_S" />
+      <node concept="3clFbS" id="2$MJqfj64dg" role="3clF47">
+        <node concept="3cpWs8" id="2$MJqfj64gw" role="3cqZAp">
+          <node concept="3cpWsn" id="2$MJqfj64gx" role="3cpWs9">
+            <property role="TrG5h" value="server" />
+            <node concept="3uibUv" id="2$MJqfj64gy" role="1tU5fm">
+              <ref role="3uigEE" node="AkkmJBTMtq" resolve="PIGServer" />
+            </node>
+            <node concept="2ShNRf" id="2$MJqfj64mk" role="33vP2m">
+              <node concept="1pGfFk" id="2$MJqfj64lA" role="2ShVmc">
+                <ref role="37wK5l" node="AkkmJBTVKA" resolve="PIGServer" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2$MJqfj64o_" role="3cqZAp">
+          <node concept="2OqwBi" id="2$MJqfj64un" role="3clFbG">
+            <node concept="37vLTw" id="2$MJqfj64oz" role="2Oq$k0">
+              <ref role="3cqZAo" node="2$MJqfj64gx" resolve="server" />
+            </node>
+            <node concept="liA8E" id="2$MJqfj65Zn" role="2OqNvi">
+              <ref role="37wK5l" to="mi4d:~WebSocketServer.start()" resolve="start" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2$MJqfj66eX" role="3cqZAp">
+          <node concept="2OqwBi" id="2$MJqfj66eU" role="3clFbG">
+            <node concept="10M0yZ" id="2$MJqfj66eV" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="2$MJqfj66eW" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="Xl_RD" id="2$MJqfj66hu" role="37wK5m">
+                <property role="Xl_RC" value="Server started" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="2$MJqfj64co" role="1B3o_S" />
   </node>
 </model>
 

@@ -148,7 +148,6 @@
       <modulePath path="${extensions.home}/code/web/de.q60.mps.web.base/de.q60.mps.web.base.msd" folder="web" />
       <modulePath path="${extensions.home}/code/web/de.q60.mps.web.model.mpsplugin/de.q60.mps.web.model.mpsplugin.msd" folder="web" />
       <modulePath path="${extensions.home}/code/web/de.q60.mps.web.model/de.q60.mps.web.model.msd" folder="web" />
-      <modulePath path="${extensions.home}/code/web/de.q60.mps.web.server/de.q60.mps.web.server.msd" folder="web" />
       <modulePath path="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets" />
       <modulePath path="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool/de.itemis.mps.editor.bool.mpl" folder="widgets" />
       <modulePath path="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.collapsible.testlang/de.itemis.mps.editor.collapsible.testlang.mpl" folder="widgets" />

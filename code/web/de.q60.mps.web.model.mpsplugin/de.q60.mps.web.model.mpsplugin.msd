@@ -21,7 +21,6 @@
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)</dependency>
     <dependency reexport="false">87f4b21e-a3a5-459e-a54b-408fd9eb7350(de.q60.mps.shadowmodels.web.lib)</dependency>
-    <dependency reexport="false">ad11c189-1efe-4d3c-9d2e-6c97efb43add(de.q60.mps.web.server)</dependency>
     <dependency reexport="false">d61d0364-ad0e-4e94-a337-a144f1a052a3(de.q60.mps.web.base)</dependency>
   </dependencies>
   <languageVersions>

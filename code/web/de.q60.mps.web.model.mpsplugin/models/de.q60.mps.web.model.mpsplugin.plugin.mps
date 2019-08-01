@@ -26,9 +26,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
     <import index="28m1" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.time(JDK/)" />
-    <import index="fldo" ref="r:8a97c304-eeb6-4f95-b29f-586837d67305(de.q60.mps.web.server)" />
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
-    <import index="mi4d" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.java_websocket.server(de.q60.mps.shadowmodels.web.lib/)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -122,18 +120,8 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -147,13 +135,6 @@
         <ref role="3uigEE" to="csg2:68rqGk1601" resolve="CollaborativeEditing" />
       </node>
     </node>
-    <node concept="2BZ0e9" id="68rqGk6n1U" role="2uRRBG">
-      <property role="TrG5h" value="server" />
-      <node concept="3Tm6S6" id="68rqGk6n1V" role="1B3o_S" />
-      <node concept="3uibUv" id="68rqGk6n9L" role="1tU5fm">
-        <ref role="3uigEE" to="fldo:AkkmJBTMtq" resolve="PIGServer" />
-      </node>
-    </node>
     <node concept="2BZ0e9" id="5nE7Pe9cUw8" role="2uRRBG">
       <property role="TrG5h" value="client" />
       <node concept="3Tm6S6" id="5nE7Pe9cUw9" role="1B3o_S" />
@@ -163,65 +144,6 @@
     </node>
     <node concept="2uRRBj" id="26ispG7ZZOJ" role="2uRRBE">
       <node concept="3clFbS" id="26ispG7ZZOK" role="2VODD2">
-        <node concept="SfApY" id="68rqGk6rB9" role="3cqZAp">
-          <node concept="3clFbS" id="68rqGk6rBb" role="SfCbr">
-            <node concept="1X3_iC" id="2$MJqfj68sM" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="68rqGk6neU" role="8Wnug">
-                <node concept="37vLTI" id="68rqGk6nLo" role="3clFbG">
-                  <node concept="2ShNRf" id="68rqGk6nR3" role="37vLTx">
-                    <node concept="1pGfFk" id="68rqGk6nR2" role="2ShVmc">
-                      <ref role="37wK5l" to="fldo:AkkmJBTVKA" resolve="PIGServer" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="68rqGk6neO" role="37vLTJ">
-                    <node concept="2WthIp" id="68rqGk6neR" role="2Oq$k0" />
-                    <node concept="2BZ7hE" id="68rqGk6neT" role="2OqNvi">
-                      <ref role="2WH_rO" node="68rqGk6n1U" resolve="server" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="2$MJqfj68v_" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="68rqGk6nVl" role="8Wnug">
-                <node concept="2OqwBi" id="68rqGk6ouc" role="3clFbG">
-                  <node concept="2OqwBi" id="68rqGk6nVf" role="2Oq$k0">
-                    <node concept="2WthIp" id="68rqGk6nVi" role="2Oq$k0" />
-                    <node concept="2BZ7hE" id="68rqGk6nVk" role="2OqNvi">
-                      <ref role="2WH_rO" node="68rqGk6n1U" resolve="server" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="68rqGk6puY" role="2OqNvi">
-                    <ref role="37wK5l" to="mi4d:~WebSocketServer.start()" resolve="start" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="68rqGk6rBc" role="TEbGg">
-            <node concept="3cpWsn" id="68rqGk6rBe" role="TDEfY">
-              <property role="TrG5h" value="ex" />
-              <node concept="3uibUv" id="68rqGk6rJK" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="68rqGk6rBi" role="TDEfX">
-              <node concept="RRSsy" id="68rqGk6rYV" role="3cqZAp">
-                <property role="RRSoG" value="error" />
-                <node concept="Xl_RD" id="68rqGk6rYX" role="RRSoy" />
-                <node concept="37vLTw" id="68rqGk6rYZ" role="RRSow">
-                  <ref role="3cqZAo" node="68rqGk6rBe" resolve="ex" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="5nE7Pe9cW6R" role="3cqZAp" />
-        <node concept="3clFbH" id="2$MJqfj68O6" role="3cqZAp" />
         <node concept="SfApY" id="5nE7Pe9cVWy" role="3cqZAp">
           <node concept="3clFbS" id="5nE7Pe9cVWz" role="SfCbr">
             <node concept="3clFbF" id="5nE7Pe9cVW$" role="3cqZAp">
@@ -307,44 +229,6 @@
             </node>
             <node concept="liA8E" id="68rqGk1z1g" role="2OqNvi">
               <ref role="37wK5l" to="csg2:68rqGk1a8n" resolve="dispose" />
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="2$MJqfj68wH" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="SfApY" id="68rqGk6s8r" role="8Wnug">
-            <node concept="3clFbS" id="68rqGk6s8t" role="SfCbr">
-              <node concept="3clFbF" id="68rqGk6pzL" role="3cqZAp">
-                <node concept="2OqwBi" id="68rqGk6q5A" role="3clFbG">
-                  <node concept="2OqwBi" id="68rqGk6pzF" role="2Oq$k0">
-                    <node concept="2WthIp" id="68rqGk6pzI" role="2Oq$k0" />
-                    <node concept="2BZ7hE" id="68rqGk6pzK" role="2OqNvi">
-                      <ref role="2WH_rO" node="68rqGk6n1U" resolve="server" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="68rqGk6r6o" role="2OqNvi">
-                    <ref role="37wK5l" to="fldo:AkkmJBUsC1" resolve="stop" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="TDmWw" id="68rqGk6s8u" role="TEbGg">
-              <node concept="3cpWsn" id="68rqGk6s8w" role="TDEfY">
-                <property role="TrG5h" value="ex" />
-                <node concept="3uibUv" id="68rqGk6sgd" role="1tU5fm">
-                  <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="68rqGk6s8$" role="TDEfX">
-                <node concept="RRSsy" id="68rqGk6sv7" role="3cqZAp">
-                  <property role="RRSoG" value="error" />
-                  <node concept="Xl_RD" id="68rqGk6sv9" role="RRSoy" />
-                  <node concept="37vLTw" id="68rqGk6svb" role="RRSow">
-                    <ref role="3cqZAo" node="68rqGk6s8w" resolve="ex" />
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>

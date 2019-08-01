@@ -60,7 +60,6 @@
     <import index="28m1" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.time(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="mi4d" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.java_websocket.server(de.q60.mps.shadowmodels.web.lib/)" />
-    <import index="fldo" ref="r:8a97c304-eeb6-4f95-b29f-586837d67305(de.q60.mps.web.server)" />
     <import index="j26e" ref="r:1badce27-46a5-46ca-a980-25bc2393f597(de.q60.mps.web.base)" />
     <import index="zf81" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net(JDK/)" />
     <import index="ffp0" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:org.java_websocket(de.q60.mps.shadowmodels.web.lib/)" />
@@ -285,6 +284,7 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1170075670744" name="jetbrains.mps.baseLanguage.structure.SynchronizedStatement" flags="nn" index="1HWtB8">
         <child id="1170075728144" name="expression" index="1HWFw0" />
         <child id="1170075736412" name="block" index="1HWHxc" />
@@ -10358,14 +10358,14 @@
       <node concept="3rvAFt" id="5nE7Pe9cyDD" role="1tU5fm">
         <node concept="17QB3L" id="5nE7Pe9cyDE" role="3rvQeY" />
         <node concept="3uibUv" id="5nE7Pe9cyDF" role="3rvSg0">
-          <ref role="3uigEE" to="fldo:68rqGk8aEu" resolve="MessageHandler" />
+          <ref role="3uigEE" node="7$AqCYouD$9" resolve="MessageHandler" />
         </node>
       </node>
       <node concept="2ShNRf" id="5nE7Pe9cyDG" role="33vP2m">
         <node concept="3rGOSV" id="5nE7Pe9cyDH" role="2ShVmc">
           <node concept="17QB3L" id="5nE7Pe9cyDI" role="3rHrn6" />
           <node concept="3uibUv" id="5nE7Pe9cyDJ" role="3rHtpV">
-            <ref role="3uigEE" to="fldo:68rqGk8aEu" resolve="MessageHandler" />
+            <ref role="3uigEE" node="7$AqCYouD$9" resolve="MessageHandler" />
           </node>
         </node>
       </node>
@@ -10380,7 +10380,7 @@
                 <node concept="1Y3b0j" id="5nE7Pe9cyDR" role="YeSDq">
                   <property role="2bfB8j" value="true" />
                   <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                  <ref role="1Y3XeK" to="fldo:68rqGk8aEu" resolve="MessageHandler" />
+                  <ref role="1Y3XeK" node="7$AqCYouD$9" resolve="MessageHandler" />
                   <node concept="3Tm1VV" id="5nE7Pe9cyDS" role="1B3o_S" />
                   <node concept="3clFb_" id="5nE7Pe9cyDT" role="jymVt">
                     <property role="TrG5h" value="handle" />
@@ -10534,7 +10534,7 @@
                 <node concept="1Y3b0j" id="5nE7Pe9i0LS" role="YeSDq">
                   <property role="2bfB8j" value="true" />
                   <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                  <ref role="1Y3XeK" to="fldo:68rqGk8aEu" resolve="MessageHandler" />
+                  <ref role="1Y3XeK" node="7$AqCYouD$9" resolve="MessageHandler" />
                   <node concept="3Tm1VV" id="5nE7Pe9i0LT" role="1B3o_S" />
                   <node concept="3clFb_" id="5nE7Pe9i0LU" role="jymVt">
                     <property role="TrG5h" value="handle" />
@@ -10785,7 +10785,7 @@
           <node concept="3cpWsn" id="5nE7Pe9cApg" role="3cpWs9">
             <property role="TrG5h" value="handler" />
             <node concept="3uibUv" id="5nE7Pe9cAph" role="1tU5fm">
-              <ref role="3uigEE" to="fldo:68rqGk8aEu" resolve="MessageHandler" />
+              <ref role="3uigEE" node="7$AqCYouD$9" resolve="MessageHandler" />
             </node>
             <node concept="3EllGN" id="5nE7Pe9cApi" role="33vP2m">
               <node concept="37vLTw" id="5nE7Pe9cApj" role="3ElVtu">
@@ -10805,7 +10805,7 @@
                   <ref role="3cqZAo" node="5nE7Pe9cApg" resolve="handler" />
                 </node>
                 <node concept="liA8E" id="5nE7Pe9cApq" role="2OqNvi">
-                  <ref role="37wK5l" to="fldo:68rqGk8bCn" resolve="handle" />
+                  <ref role="37wK5l" node="7$AqCYouE3O" resolve="handle" />
                   <node concept="37vLTw" id="5nE7Pe9cApr" role="37wK5m">
                     <ref role="3cqZAo" node="5nE7Pe9cAp1" resolve="conn" />
                   </node>
@@ -11809,6 +11809,28 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3HP615" id="7$AqCYouD$9">
+    <property role="TrG5h" value="MessageHandler" />
+    <node concept="3clFb_" id="7$AqCYouE3O" role="jymVt">
+      <property role="TrG5h" value="handle" />
+      <node concept="37vLTG" id="7$AqCYouE4w" role="3clF46">
+        <property role="TrG5h" value="conn" />
+        <node concept="3uibUv" id="7$AqCYouE4x" role="1tU5fm">
+          <ref role="3uigEE" to="ffp0:~WebSocket" resolve="WebSocket" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7$AqCYouE4y" role="3clF46">
+        <property role="TrG5h" value="message" />
+        <node concept="3uibUv" id="7$AqCYouE4z" role="1tU5fm">
+          <ref role="3uigEE" to="mxf6:~JSONObject" resolve="JSONObject" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7$AqCYouE3Q" role="3clF45" />
+      <node concept="3Tm1VV" id="7$AqCYouE3R" role="1B3o_S" />
+      <node concept="3clFbS" id="7$AqCYouE3S" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="7$AqCYouD$a" role="1B3o_S" />
   </node>
 </model>
 

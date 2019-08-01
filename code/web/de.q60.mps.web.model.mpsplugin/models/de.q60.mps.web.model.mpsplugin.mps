@@ -490,7 +490,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="4QZGLsLEOdM">
-    <property role="TrG5h" value="PIGModel" />
+    <property role="TrG5h" value="WebModel" />
     <property role="2bfB8j" value="true" />
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
@@ -553,7 +553,7 @@
         <property role="TrG5h" value="module" />
         <property role="3TUv4t" value="false" />
         <node concept="3uibUv" id="4QZGLsLEXGZ" role="1tU5fm">
-          <ref role="3uigEE" node="115Xaa43tZI" resolve="PIGModule" />
+          <ref role="3uigEE" node="115Xaa43tZI" resolve="WebModule" />
         </node>
       </node>
       <node concept="37vLTG" id="4QZGLsLEU6z" role="3clF46">
@@ -1034,7 +1034,7 @@
     </node>
   </node>
   <node concept="312cEu" id="115Xaa43tZI">
-    <property role="TrG5h" value="PIGModule" />
+    <property role="TrG5h" value="WebModule" />
     <property role="2bfB8j" value="true" />
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
@@ -1315,7 +1315,7 @@
     </node>
   </node>
   <node concept="312cEu" id="26ispG7Y1u2">
-    <property role="TrG5h" value="PIGRepository" />
+    <property role="TrG5h" value="WebRepository" />
     <node concept="2tJIrI" id="26ispG7Y1va" role="jymVt" />
     <node concept="312cEg" id="26ispG7Y1wQ" role="jymVt">
       <property role="TrG5h" value="mpsRepository" />
@@ -1329,13 +1329,13 @@
       <node concept="3Tm6S6" id="26ispG7Y1Gp" role="1B3o_S" />
       <node concept="_YKpA" id="26ispG7Y1Ia" role="1tU5fm">
         <node concept="3uibUv" id="26ispG7Y1Iu" role="_ZDj9">
-          <ref role="3uigEE" node="115Xaa43tZI" resolve="PIGModule" />
+          <ref role="3uigEE" node="115Xaa43tZI" resolve="WebModule" />
         </node>
       </node>
       <node concept="2ShNRf" id="26ispG7Y1Ka" role="33vP2m">
         <node concept="Tc6Ow" id="26ispG7Y1JS" role="2ShVmc">
           <node concept="3uibUv" id="26ispG7Y1JT" role="HW$YZ">
-            <ref role="3uigEE" node="115Xaa43tZI" resolve="PIGModule" />
+            <ref role="3uigEE" node="115Xaa43tZI" resolve="WebModule" />
           </node>
         </node>
       </node>
@@ -1406,7 +1406,7 @@
         <node concept="17QB3L" id="26ispG7YvDQ" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="26ispG7YuDO" role="3clF45">
-        <ref role="3uigEE" node="115Xaa43tZI" resolve="PIGModule" />
+        <ref role="3uigEE" node="115Xaa43tZI" resolve="WebModule" />
       </node>
       <node concept="3Tm1VV" id="26ispG7YsJK" role="1B3o_S" />
       <node concept="3clFbS" id="26ispG7YsJL" role="3clF47">
@@ -1414,7 +1414,7 @@
           <node concept="3cpWsn" id="26ispG7YvFh" role="3cpWs9">
             <property role="TrG5h" value="module" />
             <node concept="3uibUv" id="26ispG7YvFc" role="1tU5fm">
-              <ref role="3uigEE" node="115Xaa43tZI" resolve="PIGModule" />
+              <ref role="3uigEE" node="115Xaa43tZI" resolve="WebModule" />
             </node>
             <node concept="10Nm6u" id="1zKPvQfsh6O" role="33vP2m" />
           </node>
@@ -1426,7 +1426,7 @@
                 <node concept="37vLTI" id="1zKPvQfsgmS" role="3clFbG">
                   <node concept="2ShNRf" id="26ispG7YvFi" role="37vLTx">
                     <node concept="1pGfFk" id="26ispG7YvFj" role="2ShVmc">
-                      <ref role="37wK5l" node="115Xaa43tZP" resolve="PIGModule" />
+                      <ref role="37wK5l" node="115Xaa43tZP" resolve="WebModule" />
                       <node concept="37vLTw" id="26ispG7YvFk" role="37wK5m">
                         <ref role="3cqZAo" node="26ispG7Yvqv" resolve="name" />
                       </node>
@@ -1539,7 +1539,7 @@
                       </node>
                       <node concept="UnYns" id="4TPMxtdF47Q" role="2OqNvi">
                         <node concept="3uibUv" id="4TPMxtdF4yw" role="UnYnz">
-                          <ref role="3uigEE" node="4QZGLsLEOdM" resolve="PIGModel" />
+                          <ref role="3uigEE" node="4QZGLsLEOdM" resolve="WebModel" />
                         </node>
                       </node>
                     </node>
@@ -1570,7 +1570,7 @@
     <node concept="3Tm1VV" id="26ispG7Y1u3" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="115Xaa3Z2Jb">
-    <property role="TrG5h" value="PIGProjectViewExtension" />
+    <property role="TrG5h" value="WebProjectViewExtension" />
     <node concept="Wx3nA" id="4NO8rntTnzD" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="ROOT_ICON" />
@@ -1582,13 +1582,13 @@
         <node concept="1pGfFk" id="4NO8rntVkUG" role="2ShVmc">
           <ref role="37wK5l" to="y9oj:5wnrAmTLyBN" resolve="ShadowIcon" />
           <node concept="Xl_RD" id="4NO8rntVld_" role="37wK5m">
-            <property role="Xl_RC" value="P" />
+            <property role="Xl_RC" value="W" />
           </node>
           <node concept="3cmrfG" id="4NO8rntVlvV" role="37wK5m">
-            <property role="3cmrfH" value="16" />
+            <property role="3cmrfH" value="14" />
           </node>
           <node concept="2$xPTn" id="4NO8rntVmFg" role="37wK5m">
-            <property role="2$xPTl" value="2.7f" />
+            <property role="2$xPTl" value="1.6f" />
           </node>
           <node concept="2$xPTn" id="4NO8rntVny2" role="37wK5m">
             <property role="2$xPTl" value="13.8f" />
@@ -1654,7 +1654,7 @@
             <property role="3cmrfH" value="14" />
           </node>
           <node concept="2$xPTn" id="4NO8rntVzWt" role="37wK5m">
-            <property role="2$xPTl" value="1.7f" />
+            <property role="2$xPTl" value="2.0f" />
           </node>
           <node concept="2$xPTn" id="4NO8rntV$IG" role="37wK5m">
             <property role="2$xPTl" value="12.0f" />
@@ -1679,7 +1679,7 @@
           <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
         </node>
         <node concept="3uibUv" id="115Xaa3Zfk7" role="3rvSg0">
-          <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="PIGProjectViewExtension" />
+          <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="WebProjectViewExtension" />
         </node>
       </node>
       <node concept="3Tm6S6" id="115Xaa3Zf3Z" role="1B3o_S" />
@@ -1689,7 +1689,7 @@
             <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
           </node>
           <node concept="3uibUv" id="115Xaa3Zflq" role="3rHtpV">
-            <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="PIGProjectViewExtension" />
+            <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="WebProjectViewExtension" />
           </node>
         </node>
       </node>
@@ -1704,7 +1704,7 @@
           <node concept="3cpWsn" id="115Xaa3ZgCD" role="3cpWs9">
             <property role="TrG5h" value="instance" />
             <node concept="3uibUv" id="115Xaa3ZgC_" role="1tU5fm">
-              <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="PIGProjectViewExtension" />
+              <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="WebProjectViewExtension" />
             </node>
             <node concept="3EllGN" id="115Xaa3ZgCE" role="33vP2m">
               <node concept="37vLTw" id="115Xaa3ZgCF" role="3ElVtu">
@@ -1737,7 +1737,7 @@
               <node concept="37vLTI" id="115Xaa3Zhea" role="3clFbG">
                 <node concept="2ShNRf" id="115Xaa3Zhgp" role="37vLTx">
                   <node concept="1pGfFk" id="115Xaa3ZheU" role="2ShVmc">
-                    <ref role="37wK5l" node="115Xaa3ZeUG" resolve="PIGProjectViewExtension" />
+                    <ref role="37wK5l" node="115Xaa3ZeUG" resolve="WebProjectViewExtension" />
                     <node concept="37vLTw" id="4S3q4YkOLyC" role="37wK5m">
                       <ref role="3cqZAo" node="4S3q4YkOLgQ" resolve="mpsProject" />
                     </node>
@@ -1784,7 +1784,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="115Xaa3ZfUW" role="3clF45">
-        <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="PIGProjectViewExtension" />
+        <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="WebProjectViewExtension" />
       </node>
       <node concept="3Tm1VV" id="115Xaa3Zftz" role="1B3o_S" />
     </node>
@@ -1813,7 +1813,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="4S3q4YkONjc" role="3clF45">
-        <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="PIGProjectViewExtension" />
+        <ref role="3uigEE" node="115Xaa3Z2Jb" resolve="WebProjectViewExtension" />
       </node>
       <node concept="3Tm1VV" id="4S3q4YkONjd" role="1B3o_S" />
     </node>
@@ -1826,7 +1826,7 @@
       </node>
     </node>
     <node concept="312cEg" id="115Xaa41cD5" role="jymVt">
-      <property role="TrG5h" value="pigTreeNode" />
+      <property role="TrG5h" value="webTreeNode" />
       <node concept="3Tm6S6" id="115Xaa41cD6" role="1B3o_S" />
       <node concept="3uibUv" id="115Xaa41dDU" role="1tU5fm">
         <ref role="3uigEE" to="7e8u:~TextTreeNode" resolve="TextTreeNode" />
@@ -1978,7 +1978,7 @@
                     </node>
                     <node concept="3clFbF" id="7zI2priWPx3" role="3cqZAp">
                       <node concept="1rXfSq" id="7zI2priWPx4" role="3clFbG">
-                        <ref role="37wK5l" node="7zI2priU5Kn" resolve="attachPIGRootIfNotEmpty" />
+                        <ref role="37wK5l" node="7zI2priU5Kn" resolve="attachWebRootIfNotEmpty" />
                       </node>
                     </node>
                   </node>
@@ -2070,7 +2070,7 @@
                   </node>
                   <node concept="2ZW3vV" id="6AlUJyrxJsh" role="3clFbw">
                     <node concept="3uibUv" id="26ispG7Zyx_" role="2ZW6by">
-                      <ref role="3uigEE" node="115Xaa43tZI" resolve="PIGModule" />
+                      <ref role="3uigEE" node="115Xaa43tZI" resolve="WebModule" />
                     </node>
                     <node concept="37vLTw" id="6AlUJyrxJc3" role="2ZW6bz">
                       <ref role="3cqZAo" node="6AlUJyrxacw" resolve="m" />
@@ -2365,19 +2365,19 @@
               <node concept="1pGfFk" id="115Xaa41hE$" role="2ShVmc">
                 <ref role="37wK5l" to="7e8u:~TextTreeNode.&lt;init&gt;(java.lang.String)" resolve="TextTreeNode" />
                 <node concept="Xl_RD" id="115Xaa41hIY" role="37wK5m">
-                  <property role="Xl_RC" value="PIG" />
+                  <property role="Xl_RC" value="Web" />
                 </node>
               </node>
             </node>
             <node concept="37vLTw" id="115Xaa41ewx" role="37vLTJ">
-              <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+              <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3Ezg1fN0dhi" role="3cqZAp">
           <node concept="2OqwBi" id="3Ezg1fN0dX6" role="3clFbG">
             <node concept="37vLTw" id="3Ezg1fN0dhg" role="2Oq$k0">
-              <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+              <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
             </node>
             <node concept="liA8E" id="3Ezg1fN0fia" role="2OqNvi">
               <ref role="37wK5l" to="7e8u:~MPSTreeNode.setIcon(javax.swing.Icon)" resolve="setIcon" />
@@ -2716,7 +2716,7 @@
     </node>
     <node concept="2tJIrI" id="115Xaa41EuW" role="jymVt" />
     <node concept="3clFb_" id="115Xaa41jby" role="jymVt">
-      <property role="TrG5h" value="attachPIGRoot" />
+      <property role="TrG5h" value="attachWebRoot" />
       <node concept="3cqZAl" id="115Xaa41jb$" role="3clF45" />
       <node concept="3Tm1VV" id="115Xaa41jb_" role="1B3o_S" />
       <node concept="3clFbS" id="115Xaa41jbA" role="3clF47">
@@ -2804,7 +2804,7 @@
                 <node concept="liA8E" id="7YhLqbpQ3u4" role="2OqNvi">
                   <ref role="37wK5l" to="rgfa:~DefaultTreeModel.removeNodeFromParent(javax.swing.tree.MutableTreeNode)" resolve="removeNodeFromParent" />
                   <node concept="37vLTw" id="115Xaa41Lm8" role="37wK5m">
-                    <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                    <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                   </node>
                 </node>
               </node>
@@ -2815,7 +2815,7 @@
               <node concept="10Nm6u" id="115Xaa42Qjd" role="3uHU7w" />
               <node concept="2OqwBi" id="115Xaa42OsO" role="3uHU7B">
                 <node concept="37vLTw" id="115Xaa42NP3" role="2Oq$k0">
-                  <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                  <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                 </node>
                 <node concept="liA8E" id="115Xaa42PIj" role="2OqNvi">
                   <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getParent()" resolve="getParent" />
@@ -2828,7 +2828,7 @@
               </node>
               <node concept="2OqwBi" id="7YhLqbpShMr" role="3uHU7B">
                 <node concept="37vLTw" id="115Xaa41Lc_" role="2Oq$k0">
-                  <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                  <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                 </node>
                 <node concept="liA8E" id="115Xaa42J2g" role="2OqNvi">
                   <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getParent()" resolve="getParent" />
@@ -2862,7 +2862,7 @@
                 <node concept="liA8E" id="7YhLqbpKHeU" role="2OqNvi">
                   <ref role="37wK5l" to="rgfa:~DefaultTreeModel.removeNodeFromParent(javax.swing.tree.MutableTreeNode)" resolve="removeNodeFromParent" />
                   <node concept="37vLTw" id="115Xaa41NI$" role="37wK5m">
-                    <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                    <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                   </node>
                 </node>
               </node>
@@ -2873,7 +2873,7 @@
               <node concept="10Nm6u" id="115Xaa42TpS" role="3uHU7w" />
               <node concept="2OqwBi" id="115Xaa42TpT" role="3uHU7B">
                 <node concept="37vLTw" id="115Xaa42TpU" role="2Oq$k0">
-                  <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                  <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                 </node>
                 <node concept="liA8E" id="115Xaa42TpV" role="2OqNvi">
                   <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getParent()" resolve="getParent" />
@@ -2884,7 +2884,7 @@
               <node concept="2OqwBi" id="115Xaa42TpX" role="3uHU7B">
                 <node concept="2OqwBi" id="115Xaa42TpY" role="2Oq$k0">
                   <node concept="37vLTw" id="115Xaa42TpZ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                    <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                   </node>
                   <node concept="liA8E" id="115Xaa42Tq0" role="2OqNvi">
                     <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getParent()" resolve="getParent" />
@@ -2893,7 +2893,7 @@
                 <node concept="liA8E" id="115Xaa42Tq1" role="2OqNvi">
                   <ref role="37wK5l" to="rgfa:~TreeNode.getIndex(javax.swing.tree.TreeNode)" resolve="getIndex" />
                   <node concept="37vLTw" id="115Xaa42Tq2" role="37wK5m">
-                    <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                    <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                   </node>
                 </node>
               </node>
@@ -2907,7 +2907,7 @@
                   <node concept="2OqwBi" id="151UdFuY8YZ" role="3uHU7B">
                     <node concept="2OqwBi" id="151UdFuY8Z0" role="2Oq$k0">
                       <node concept="37vLTw" id="151UdFuY8Z1" role="2Oq$k0">
-                        <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                        <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                       </node>
                       <node concept="liA8E" id="151UdFuY8Z2" role="2OqNvi">
                         <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getParent()" resolve="getParent" />
@@ -2939,7 +2939,7 @@
                       <node concept="liA8E" id="7YhLqbpJI1e" role="2OqNvi">
                         <ref role="37wK5l" to="rgfa:~DefaultTreeModel.insertNodeInto(javax.swing.tree.MutableTreeNode,javax.swing.tree.MutableTreeNode,int)" resolve="insertNodeInto" />
                         <node concept="37vLTw" id="115Xaa41OaV" role="37wK5m">
-                          <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                          <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                         </node>
                         <node concept="37vLTw" id="7YhLqbpJI1g" role="37wK5m">
                           <ref role="3cqZAo" node="7YhLqbpvh8s" resolve="root" />
@@ -2977,7 +2977,7 @@
           <node concept="3clFbC" id="115Xaa430PP" role="3clFbw">
             <node concept="2OqwBi" id="7YhLqbpP9Bm" role="3uHU7B">
               <node concept="37vLTw" id="115Xaa41Mgd" role="2Oq$k0">
-                <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
               </node>
               <node concept="liA8E" id="7YhLqbpPbFj" role="2OqNvi">
                 <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getParent()" resolve="getParent" />
@@ -2990,7 +2990,7 @@
     </node>
     <node concept="2tJIrI" id="7zI2priU0Lo" role="jymVt" />
     <node concept="3clFb_" id="7zI2priU5Kn" role="jymVt">
-      <property role="TrG5h" value="attachPIGRootIfNotEmpty" />
+      <property role="TrG5h" value="attachWebRootIfNotEmpty" />
       <node concept="3cqZAl" id="7zI2priU5Kp" role="3clF45" />
       <node concept="3Tm1VV" id="7zI2priU5Kq" role="1B3o_S" />
       <node concept="3clFbS" id="7zI2priU5Kr" role="3clF47">
@@ -3002,7 +3002,7 @@
                   <node concept="10Nm6u" id="7zI2priWGD$" role="3uHU7w" />
                   <node concept="2OqwBi" id="7zI2priWvc_" role="3uHU7B">
                     <node concept="37vLTw" id="7zI2priWuw6" role="2Oq$k0">
-                      <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                      <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                     </node>
                     <node concept="liA8E" id="7zI2priWE5H" role="2OqNvi">
                       <ref role="37wK5l" to="7e8u:~MPSTreeNode.getTree()" resolve="getTree" />
@@ -3012,7 +3012,7 @@
                 <node concept="3y3z36" id="7zI2priV6Wa" role="3uHU7B">
                   <node concept="2OqwBi" id="7zI2priUVsY" role="3uHU7B">
                     <node concept="37vLTw" id="7zI2priUUeZ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                      <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                     </node>
                     <node concept="liA8E" id="7zI2priV66s" role="2OqNvi">
                       <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getParent()" resolve="getParent" />
@@ -3027,7 +3027,7 @@
                     <node concept="2OqwBi" id="7zI2priVV0b" role="2Oq$k0">
                       <node concept="2OqwBi" id="7zI2priVyh6" role="2Oq$k0">
                         <node concept="37vLTw" id="7zI2priVx$t" role="2Oq$k0">
-                          <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                          <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                         </node>
                         <node concept="liA8E" id="7zI2priVTDz" role="2OqNvi">
                           <ref role="37wK5l" to="7e8u:~MPSTreeNode.getTree()" resolve="getTree" />
@@ -3040,7 +3040,7 @@
                     <node concept="liA8E" id="7zI2priWtbV" role="2OqNvi">
                       <ref role="37wK5l" to="rgfa:~DefaultTreeModel.removeNodeFromParent(javax.swing.tree.MutableTreeNode)" resolve="removeNodeFromParent" />
                       <node concept="37vLTw" id="7zI2priWGT9" role="37wK5m">
-                        <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                        <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                       </node>
                     </node>
                   </node>
@@ -3054,7 +3054,7 @@
             </node>
             <node concept="2OqwBi" id="7zI2priUO6U" role="3uHU7B">
               <node concept="37vLTw" id="7zI2priUN6N" role="2Oq$k0">
-                <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
               </node>
               <node concept="liA8E" id="7zI2priUPht" role="2OqNvi">
                 <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getChildCount()" resolve="getChildCount" />
@@ -3065,7 +3065,7 @@
             <node concept="3clFbS" id="7zI2priVbmz" role="9aQI4">
               <node concept="3clFbF" id="7zI2priVdYM" role="3cqZAp">
                 <node concept="1rXfSq" id="7zI2priVdYL" role="3clFbG">
-                  <ref role="37wK5l" node="115Xaa41jby" resolve="attachPIGRoot" />
+                  <ref role="37wK5l" node="115Xaa41jby" resolve="attachWebRoot" />
                 </node>
               </node>
             </node>
@@ -3085,12 +3085,12 @@
               <node concept="3cpWsn" id="56YPHTom8yD" role="3cpWs9">
                 <property role="TrG5h" value="moduleTreeNode" />
                 <node concept="3uibUv" id="56YPHTom8y_" role="1tU5fm">
-                  <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                  <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                 </node>
                 <node concept="10QFUN" id="56YPHTom8yE" role="33vP2m">
                   <node concept="2OqwBi" id="56YPHTom8yF" role="10QFUP">
                     <node concept="37vLTw" id="56YPHTom8yG" role="2Oq$k0">
-                      <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                      <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                     </node>
                     <node concept="liA8E" id="56YPHTom8yH" role="2OqNvi">
                       <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getChildAt(int)" resolve="getChildAt" />
@@ -3100,7 +3100,7 @@
                     </node>
                   </node>
                   <node concept="3uibUv" id="56YPHTom8yJ" role="10QFUM">
-                    <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                    <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                   </node>
                 </node>
               </node>
@@ -3140,7 +3140,7 @@
             </node>
             <node concept="2OqwBi" id="56YPHTolrnU" role="3uHU7B">
               <node concept="37vLTw" id="56YPHTolqde" role="2Oq$k0">
-                <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
               </node>
               <node concept="liA8E" id="56YPHTolG6U" role="2OqNvi">
                 <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getChildCount()" resolve="getChildCount" />
@@ -3241,7 +3241,7 @@
                       <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
                     </node>
                     <node concept="3uibUv" id="115Xaa452nY" role="3rvSg0">
-                      <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                      <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                     </node>
                   </node>
                   <node concept="2ShNRf" id="115Xaa452o9" role="33vP2m">
@@ -3250,7 +3250,7 @@
                         <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
                       </node>
                       <node concept="3uibUv" id="115Xaa452oc" role="3rHtpV">
-                        <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                        <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                       </node>
                     </node>
                   </node>
@@ -3261,13 +3261,13 @@
                   <property role="TrG5h" value="treeNodesToRemove" />
                   <node concept="2hMVRd" id="U8fLbAo41z" role="1tU5fm">
                     <node concept="3uibUv" id="U8fLbAo5ee" role="2hN53Y">
-                      <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                      <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                     </node>
                   </node>
                   <node concept="2ShNRf" id="U8fLbAocLm" role="33vP2m">
                     <node concept="2i4dXS" id="U8fLbAocGe" role="2ShVmc">
                       <node concept="3uibUv" id="U8fLbAocGf" role="HW$YZ">
-                        <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                        <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                       </node>
                     </node>
                   </node>
@@ -3279,12 +3279,12 @@
                     <node concept="1rXfSq" id="115Xaa453NZ" role="2Oq$k0">
                       <ref role="37wK5l" node="115Xaa44KEi" resolve="getChildren" />
                       <node concept="37vLTw" id="115Xaa453O0" role="37wK5m">
-                        <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                        <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                       </node>
                     </node>
                     <node concept="UnYns" id="115Xaa453O1" role="2OqNvi">
                       <node concept="3uibUv" id="115Xaa453O2" role="UnYnz">
-                        <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                        <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                       </node>
                     </node>
                   </node>
@@ -3343,18 +3343,18 @@
               </node>
               <node concept="2Gpval" id="115Xaa44_zR" role="3cqZAp">
                 <node concept="2GrKxI" id="115Xaa44_zT" role="2Gsz3X">
-                  <property role="TrG5h" value="pigModule" />
+                  <property role="TrG5h" value="webModule" />
                 </node>
                 <node concept="3clFbS" id="115Xaa44_zX" role="2LFqv$">
                   <node concept="3cpWs8" id="115Xaa45h80" role="3cqZAp">
                     <node concept="3cpWsn" id="115Xaa45h81" role="3cpWs9">
                       <property role="TrG5h" value="moduleTreeNode" />
                       <node concept="3uibUv" id="115Xaa45h7V" role="1tU5fm">
-                        <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                        <ref role="3uigEE" node="7YhLqbpW_Qz" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                       </node>
                       <node concept="3EllGN" id="115Xaa45h82" role="33vP2m">
                         <node concept="2GrUjf" id="115Xaa45h83" role="3ElVtu">
-                          <ref role="2Gs0qQ" node="115Xaa44_zT" resolve="pigModule" />
+                          <ref role="2Gs0qQ" node="115Xaa44_zT" resolve="webModule" />
                         </node>
                         <node concept="37vLTw" id="115Xaa45h84" role="3ElQJh">
                           <ref role="3cqZAo" node="115Xaa452o8" resolve="module2treeNode" />
@@ -3373,14 +3373,14 @@
                             <ref role="37wK5l" to="rgfa:~DefaultTreeModel.insertNodeInto(javax.swing.tree.MutableTreeNode,javax.swing.tree.MutableTreeNode,int)" resolve="insertNodeInto" />
                             <node concept="2ShNRf" id="115Xaa45on0" role="37wK5m">
                               <node concept="1pGfFk" id="115Xaa45p2M" role="2ShVmc">
-                                <ref role="37wK5l" node="7YhLqbpWBIq" resolve="PIGProjectViewExtension.PIGModuleTreeNode" />
+                                <ref role="37wK5l" node="7YhLqbpWBIq" resolve="WebProjectViewExtension.WebModuleTreeNode" />
                                 <node concept="2GrUjf" id="115Xaa45psb" role="37wK5m">
-                                  <ref role="2Gs0qQ" node="115Xaa44_zT" resolve="pigModule" />
+                                  <ref role="2Gs0qQ" node="115Xaa44_zT" resolve="webModule" />
                                 </node>
                               </node>
                             </node>
                             <node concept="37vLTw" id="115Xaa45tfT" role="37wK5m">
-                              <ref role="3cqZAo" node="115Xaa41cD5" resolve="pigTreeNode" />
+                              <ref role="3cqZAo" node="115Xaa41cD5" resolve="webTreeNode" />
                             </node>
                             <node concept="37vLTw" id="5_qLwQsyYoX" role="37wK5m">
                               <ref role="3cqZAo" node="5_qLwQsyTB9" resolve="insertAt" />
@@ -3439,7 +3439,7 @@
                             </node>
                             <node concept="kI3uX" id="5_qLwQsy_d3" role="2OqNvi">
                               <node concept="2GrUjf" id="5_qLwQsy_Wp" role="kIiFs">
-                                <ref role="2Gs0qQ" node="115Xaa44_zT" resolve="pigModule" />
+                                <ref role="2Gs0qQ" node="115Xaa44_zT" resolve="webModule" />
                               </node>
                             </node>
                           </node>
@@ -3467,7 +3467,7 @@
                     </node>
                     <node concept="UnYns" id="115Xaa44$Do" role="2OqNvi">
                       <node concept="3uibUv" id="26ispG7ZTHs" role="UnYnz">
-                        <ref role="3uigEE" node="115Xaa43tZI" resolve="PIGModule" />
+                        <ref role="3uigEE" node="115Xaa43tZI" resolve="WebModule" />
                       </node>
                     </node>
                   </node>
@@ -3538,7 +3538,7 @@
               </node>
               <node concept="3clFbF" id="7zI2priWMwH" role="3cqZAp">
                 <node concept="1rXfSq" id="7zI2priWMwF" role="3clFbG">
-                  <ref role="37wK5l" node="7zI2priU5Kn" resolve="attachPIGRootIfNotEmpty" />
+                  <ref role="37wK5l" node="7zI2priU5Kn" resolve="attachWebRootIfNotEmpty" />
                 </node>
               </node>
             </node>
@@ -3648,7 +3648,7 @@
     <node concept="2tJIrI" id="115Xaa3ZoqC" role="jymVt" />
     <node concept="312cEu" id="7YhLqbpW_Qz" role="jymVt">
       <property role="2bfB8j" value="false" />
-      <property role="TrG5h" value="PIGModuleTreeNode" />
+      <property role="TrG5h" value="WebModuleTreeNode" />
       <node concept="312cEg" id="4QZGLsL_Wl0" role="jymVt">
         <property role="TrG5h" value="myInitialized" />
         <node concept="3Tm6S6" id="4QZGLsL_Wl1" role="1B3o_S" />
@@ -9080,10 +9080,10 @@
   <node concept="312cEu" id="68rqGk1601">
     <property role="TrG5h" value="CollaborativeEditing" />
     <node concept="312cEg" id="68rqGk1TdX" role="jymVt">
-      <property role="TrG5h" value="pigRepository" />
+      <property role="TrG5h" value="webRepository" />
       <node concept="3Tm6S6" id="68rqGk1TdY" role="1B3o_S" />
       <node concept="3uibUv" id="68rqGk1UXz" role="1tU5fm">
-        <ref role="3uigEE" node="26ispG7Y1u2" resolve="PIGRepository" />
+        <ref role="3uigEE" node="26ispG7Y1u2" resolve="WebRepository" />
       </node>
     </node>
     <node concept="312cEg" id="68rqGk23e5" role="jymVt">
@@ -9181,14 +9181,14 @@
           <node concept="37vLTI" id="68rqGk16ht" role="3clFbG">
             <node concept="2ShNRf" id="68rqGk16hu" role="37vLTx">
               <node concept="1pGfFk" id="68rqGk16hv" role="2ShVmc">
-                <ref role="37wK5l" node="26ispG7Y1yJ" resolve="PIGRepository" />
+                <ref role="37wK5l" node="26ispG7Y1yJ" resolve="WebRepository" />
                 <node concept="37vLTw" id="68rqGk16hw" role="37wK5m">
                   <ref role="3cqZAo" node="68rqGk16hp" resolve="repo" />
                 </node>
               </node>
             </node>
             <node concept="37vLTw" id="68rqGk1C0b" role="37vLTJ">
-              <ref role="3cqZAo" node="68rqGk1TdX" resolve="pigRepository" />
+              <ref role="3cqZAo" node="68rqGk1TdX" resolve="webRepository" />
             </node>
           </node>
         </node>
@@ -9200,18 +9200,18 @@
               <node concept="3clFbS" id="68rqGk16hB" role="1bW5cS">
                 <node concept="3cpWs8" id="68rqGk16hC" role="3cqZAp">
                   <node concept="3cpWsn" id="68rqGk16hD" role="3cpWs9">
-                    <property role="TrG5h" value="pigModule" />
+                    <property role="TrG5h" value="webModule" />
                     <node concept="3uibUv" id="68rqGk16hE" role="1tU5fm">
-                      <ref role="3uigEE" node="115Xaa43tZI" resolve="PIGModule" />
+                      <ref role="3uigEE" node="115Xaa43tZI" resolve="WebModule" />
                     </node>
                     <node concept="2OqwBi" id="68rqGk16hF" role="33vP2m">
                       <node concept="37vLTw" id="68rqGk1Eaq" role="2Oq$k0">
-                        <ref role="3cqZAo" node="68rqGk1TdX" resolve="pigRepository" />
+                        <ref role="3cqZAo" node="68rqGk1TdX" resolve="webRepository" />
                       </node>
                       <node concept="liA8E" id="68rqGk16hJ" role="2OqNvi">
                         <ref role="37wK5l" node="26ispG7YsJH" resolve="createModule" />
                         <node concept="Xl_RD" id="68rqGk16hK" role="37wK5m">
-                          <property role="Xl_RC" value="dummy.pig.module" />
+                          <property role="Xl_RC" value="module" />
                         </node>
                       </node>
                     </node>
@@ -9562,18 +9562,18 @@
                 <node concept="3clFbH" id="68rqGk16jC" role="3cqZAp" />
                 <node concept="3cpWs8" id="68rqGk16jD" role="3cqZAp">
                   <node concept="3cpWsn" id="68rqGk16jE" role="3cpWs9">
-                    <property role="TrG5h" value="pigModelA" />
+                    <property role="TrG5h" value="webModelA" />
                     <node concept="3uibUv" id="68rqGk16jF" role="1tU5fm">
-                      <ref role="3uigEE" node="4QZGLsLEOdM" resolve="PIGModel" />
+                      <ref role="3uigEE" node="4QZGLsLEOdM" resolve="WebModel" />
                     </node>
                     <node concept="2ShNRf" id="68rqGk16jG" role="33vP2m">
                       <node concept="1pGfFk" id="68rqGk16jH" role="2ShVmc">
-                        <ref role="37wK5l" node="4QZGLsLEOdX" resolve="PIGModel" />
+                        <ref role="37wK5l" node="4QZGLsLEOdX" resolve="WebModel" />
                         <node concept="37vLTw" id="68rqGk16jI" role="37wK5m">
-                          <ref role="3cqZAo" node="68rqGk16hD" resolve="pigModule" />
+                          <ref role="3cqZAo" node="68rqGk16hD" resolve="webModule" />
                         </node>
                         <node concept="Xl_RD" id="68rqGk16jJ" role="37wK5m">
-                          <property role="Xl_RC" value="dummy.pig.model.a" />
+                          <property role="Xl_RC" value="model" />
                         </node>
                         <node concept="37vLTw" id="68rqGk16jK" role="37wK5m">
                           <ref role="3cqZAo" node="68rqGk16i1" resolve="clientBranch" />
@@ -9585,12 +9585,12 @@
                 <node concept="3clFbF" id="68rqGk16jL" role="3cqZAp">
                   <node concept="2OqwBi" id="68rqGk16jM" role="3clFbG">
                     <node concept="37vLTw" id="68rqGk16jN" role="2Oq$k0">
-                      <ref role="3cqZAo" node="68rqGk16hD" resolve="pigModule" />
+                      <ref role="3cqZAo" node="68rqGk16hD" resolve="webModule" />
                     </node>
                     <node concept="liA8E" id="68rqGk16jO" role="2OqNvi">
                       <ref role="37wK5l" to="31cb:~SModuleBase.registerModel(jetbrains.mps.extapi.model.SModelBase)" resolve="registerModel" />
                       <node concept="37vLTw" id="68rqGk16jP" role="37wK5m">
-                        <ref role="3cqZAo" node="68rqGk16jE" resolve="pigModelA" />
+                        <ref role="3cqZAo" node="68rqGk16jE" resolve="webModelA" />
                       </node>
                     </node>
                   </node>
@@ -9601,18 +9601,18 @@
                   <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
                   <node concept="3cpWs8" id="68rqGk16jS" role="8Wnug">
                     <node concept="3cpWsn" id="68rqGk16jT" role="3cpWs9">
-                      <property role="TrG5h" value="pigModelB" />
+                      <property role="TrG5h" value="webModelB" />
                       <node concept="3uibUv" id="68rqGk16jU" role="1tU5fm">
-                        <ref role="3uigEE" node="4QZGLsLEOdM" resolve="PIGModel" />
+                        <ref role="3uigEE" node="4QZGLsLEOdM" resolve="WebModel" />
                       </node>
                       <node concept="2ShNRf" id="68rqGk16jV" role="33vP2m">
                         <node concept="1pGfFk" id="68rqGk16jW" role="2ShVmc">
-                          <ref role="37wK5l" node="4QZGLsLEOdX" resolve="PIGModel" />
+                          <ref role="37wK5l" node="4QZGLsLEOdX" resolve="WebModel" />
                           <node concept="37vLTw" id="68rqGk16jX" role="37wK5m">
-                            <ref role="3cqZAo" node="68rqGk16hD" resolve="pigModule" />
+                            <ref role="3cqZAo" node="68rqGk16hD" resolve="webModule" />
                           </node>
                           <node concept="Xl_RD" id="68rqGk16jY" role="37wK5m">
-                            <property role="Xl_RC" value="dummy.pig.model.b" />
+                            <property role="Xl_RC" value="dummy.web.model.b" />
                           </node>
                           <node concept="37vLTw" id="68rqGk16jZ" role="37wK5m">
                             <ref role="3cqZAo" node="68rqGk16i1" resolve="clientBranch" />
@@ -9628,12 +9628,12 @@
                   <node concept="3clFbF" id="68rqGk16k1" role="8Wnug">
                     <node concept="2OqwBi" id="68rqGk16k2" role="3clFbG">
                       <node concept="37vLTw" id="68rqGk16k3" role="2Oq$k0">
-                        <ref role="3cqZAo" node="68rqGk16hD" resolve="pigModule" />
+                        <ref role="3cqZAo" node="68rqGk16hD" resolve="webModule" />
                       </node>
                       <node concept="liA8E" id="68rqGk16k4" role="2OqNvi">
                         <ref role="37wK5l" to="31cb:~SModuleBase.registerModel(jetbrains.mps.extapi.model.SModelBase)" resolve="registerModel" />
                         <node concept="37vLTw" id="68rqGk16k5" role="37wK5m">
-                          <ref role="3cqZAo" node="68rqGk16jT" resolve="pigModelB" />
+                          <ref role="3cqZAo" node="68rqGk16jT" resolve="webModelB" />
                         </node>
                       </node>
                     </node>
@@ -9902,7 +9902,7 @@
         <node concept="3clFbF" id="68rqGk1bOo" role="3cqZAp">
           <node concept="2EnYce" id="68rqGk9SfU" role="3clFbG">
             <node concept="37vLTw" id="68rqGk2NUf" role="2Oq$k0">
-              <ref role="3cqZAo" node="68rqGk1TdX" resolve="pigRepository" />
+              <ref role="3cqZAo" node="68rqGk1TdX" resolve="webRepository" />
             </node>
             <node concept="liA8E" id="68rqGk1bOt" role="2OqNvi">
               <ref role="37wK5l" node="26ispG7Y1vD" resolve="dispose" />
@@ -10245,7 +10245,7 @@
     <node concept="3Tm1VV" id="KwHEfXeJCI" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="2JgPm8hG8Qx">
-    <property role="TrG5h" value="PIGClient" />
+    <property role="TrG5h" value="WebClient" />
     <node concept="Wx3nA" id="36zMFG3eyzr" role="jymVt">
       <property role="TrG5h" value="uri" />
       <property role="3TUv4t" value="true" />
@@ -10382,7 +10382,7 @@
                         <node concept="3cpWsn" id="5nE7Pe9cIIi" role="3cpWs9">
                           <property role="TrG5h" value="getRequest" />
                           <node concept="3uibUv" id="5nE7Pe9cIIj" role="1tU5fm">
-                            <ref role="3uigEE" node="5nE7Pe9c4CA" resolve="PIGClient.GetRequest" />
+                            <ref role="3uigEE" node="5nE7Pe9c4CA" resolve="WebClient.GetRequest" />
                           </node>
                         </node>
                       </node>
@@ -10594,14 +10594,14 @@
       <node concept="3rvAFt" id="5nE7Pe9cg8p" role="1tU5fm">
         <node concept="17QB3L" id="5nE7Pe9cghB" role="3rvQeY" />
         <node concept="3uibUv" id="5nE7Pe9cgqJ" role="3rvSg0">
-          <ref role="3uigEE" node="5nE7Pe9c4CA" resolve="PIGClient.GetRequest" />
+          <ref role="3uigEE" node="5nE7Pe9c4CA" resolve="WebClient.GetRequest" />
         </node>
       </node>
       <node concept="2ShNRf" id="5nE7Pe9chhH" role="33vP2m">
         <node concept="3rGOSV" id="5nE7Pe9chh4" role="2ShVmc">
           <node concept="17QB3L" id="5nE7Pe9chh5" role="3rHrn6" />
           <node concept="3uibUv" id="5nE7Pe9chh6" role="3rHtpV">
-            <ref role="3uigEE" node="5nE7Pe9c4CA" resolve="PIGClient.GetRequest" />
+            <ref role="3uigEE" node="5nE7Pe9c4CA" resolve="WebClient.GetRequest" />
           </node>
         </node>
       </node>
@@ -10639,7 +10639,7 @@
       <property role="TrG5h" value="connection" />
       <node concept="3Tm6S6" id="36zMFG3bL3e" role="1B3o_S" />
       <node concept="3uibUv" id="36zMFG3bMDM" role="1tU5fm">
-        <ref role="3uigEE" node="36zMFG3bnV6" resolve="PIGClient.Connection" />
+        <ref role="3uigEE" node="36zMFG3bnV6" resolve="WebClient.Connection" />
       </node>
     </node>
     <node concept="2tJIrI" id="36zMFG3bJ$i" role="jymVt" />
@@ -10793,7 +10793,7 @@
           <node concept="3cpWsn" id="5nE7Pe9ckGS" role="3cpWs9">
             <property role="TrG5h" value="getRequest" />
             <node concept="3uibUv" id="5nE7Pe9ckGJ" role="1tU5fm">
-              <ref role="3uigEE" node="5nE7Pe9c4CA" resolve="PIGClient.GetRequest" />
+              <ref role="3uigEE" node="5nE7Pe9c4CA" resolve="WebClient.GetRequest" />
             </node>
           </node>
         </node>
@@ -10872,7 +10872,7 @@
                   <node concept="37vLTI" id="5nE7Pe9cmkd" role="3clFbG">
                     <node concept="2ShNRf" id="5nE7Pe9cmwi" role="37vLTx">
                       <node concept="1pGfFk" id="5nE7Pe9cn5I" role="2ShVmc">
-                        <ref role="37wK5l" node="5nE7Pe9c6Mz" resolve="PIGClient.GetRequest" />
+                        <ref role="37wK5l" node="5nE7Pe9c6Mz" resolve="WebClient.GetRequest" />
                         <node concept="37vLTw" id="5nE7Pe9cn7j" role="37wK5m">
                           <ref role="3cqZAo" node="5nE7Pe9buQL" resolve="key" />
                         </node>
@@ -11189,7 +11189,7 @@
                   <node concept="37vLTI" id="36zMFG3c3$z" role="3clFbG">
                     <node concept="2ShNRf" id="36zMFG3c401" role="37vLTx">
                       <node concept="1pGfFk" id="36zMFG3ctsA" role="2ShVmc">
-                        <ref role="37wK5l" node="36zMFG3cqXv" resolve="PIGClient.Connection" />
+                        <ref role="37wK5l" node="36zMFG3cqXv" resolve="WebClient.Connection" />
                         <node concept="37vLTw" id="36zMFG3eAY4" role="37wK5m">
                           <ref role="3cqZAo" node="36zMFG3eyzr" resolve="uri" />
                         </node>

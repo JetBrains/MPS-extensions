@@ -13,10 +13,9 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="wy2b" ref="87f4b21e-a3a5-459e-a54b-408fd9eb7350/java:com.google.gson(de.q60.mps.shadowmodels.web.lib/)" />
     <import index="5ka6" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.map.hash(de.q60.mps.libs/)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
-    <import index="j26e" ref="r:1badce27-46a5-46ca-a980-25bc2393f597(de.q60.mps.web.base)" />
+    <import index="zdal" ref="r:88aa2c17-3990-45f2-9b79-06884112d260(de.q60.mps.web.model)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -3680,7 +3679,7 @@
     <node concept="2tJIrI" id="5nE7Pe9f0h7" role="jymVt" />
     <node concept="3Tm1VV" id="ifAKfhON9q" role="1B3o_S" />
     <node concept="3uibUv" id="ifAKfhONay" role="EKbjA">
-      <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
+      <ref role="3uigEE" to="zdal:1SVbIFIiXye" resolve="IKeyValueStore" />
     </node>
     <node concept="3clFb_" id="ifAKfhONaL" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -3782,7 +3781,7 @@
         <property role="TrG5h" value="listener" />
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="2$MJqfiZGsB" role="1tU5fm">
-          <ref role="3uigEE" to="j26e:2$MJqfiZrgX" resolve="IKeyListener" />
+          <ref role="3uigEE" to="zdal:2$MJqfiZrgX" resolve="IKeyListener" />
         </node>
       </node>
       <node concept="3cqZAl" id="5nE7Pe9e0Xc" role="3clF45" />

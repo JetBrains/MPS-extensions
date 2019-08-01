@@ -145,7 +145,6 @@
       <modulePath path="${extensions.home}/code/tooltips/solutions/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="tooltips" />
       <modulePath path="${extensions.home}/code/utils/solutions/com.mbeddr.mpsutil.serializer.xml/com.mbeddr.mpsutil.serializer.xml.msd" folder="utils" />
       <modulePath path="${extensions.home}/code/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
-      <modulePath path="${extensions.home}/code/web/de.q60.mps.web.base/de.q60.mps.web.base.msd" folder="web" />
       <modulePath path="${extensions.home}/code/web/de.q60.mps.web.model.mpsplugin/de.q60.mps.web.model.mpsplugin.msd" folder="web" />
       <modulePath path="${extensions.home}/code/web/de.q60.mps.web.model/de.q60.mps.web.model.msd" folder="web" />
       <modulePath path="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets" />

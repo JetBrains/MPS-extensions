@@ -15,16 +15,14 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="6shs" ref="r:3ca2f5b1-1b25-441b-b059-2ddba424a0b1(de.q60.mps.web.model.persistent)" />
     <import index="kxbk" ref="r:46060cc2-3362-406a-b40d-9ba8d71212b0(de.q60.mps.web.model.api)" />
-    <import index="1ikp" ref="r:da7cf74a-6366-4cd3-81fd-87283980def8(de.q60.mps.web.model.api2)" />
     <import index="3hky" ref="r:bef1bfa7-20fd-413a-ae11-793b0a8ee364(de.q60.mps.shadowmodels.runtime.model.persistent)" />
     <import index="l6bp" ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
     <import index="vxxo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.concept(MPS.Core/)" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
-    <import index="j26e" ref="r:1badce27-46a5-46ca-a980-25bc2393f597(de.q60.mps.web.base)" />
+    <import index="zdal" ref="r:88aa2c17-3990-45f2-9b79-06884112d260(de.q60.mps.web.model)" />
   </imports>
   <registry>
     <language id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods">
@@ -4709,7 +4707,7 @@
       <node concept="37vLTG" id="4_P7CAmzbCQ" role="3clF46">
         <property role="TrG5h" value="store" />
         <node concept="3uibUv" id="4_P7CAmzbQT" role="1tU5fm">
-          <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
+          <ref role="3uigEE" to="zdal:1SVbIFIiXye" resolve="IKeyValueStore" />
         </node>
       </node>
       <node concept="3cqZAl" id="4_P7CAmz9tC" role="3clF45" />
@@ -4725,7 +4723,7 @@
                 <ref role="3cqZAo" node="4_P7CAmzbCQ" resolve="store" />
               </node>
               <node concept="liA8E" id="4_P7CAmzcFK" role="2OqNvi">
-                <ref role="37wK5l" to="j26e:1SVbIFIiXyE" resolve="get" />
+                <ref role="37wK5l" to="zdal:1SVbIFIiXyE" resolve="get" />
                 <node concept="37vLTw" id="4_P7CAmzcHX" role="37wK5m">
                   <ref role="3cqZAo" node="4_P7CAmzboR" resolve="hash" />
                 </node>
@@ -11401,7 +11399,7 @@
       <property role="TrG5h" value="store" />
       <node concept="3Tm6S6" id="1SVbIFIiY2N" role="1B3o_S" />
       <node concept="3uibUv" id="1SVbIFIiY32" role="1tU5fm">
-        <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
+        <ref role="3uigEE" to="zdal:1SVbIFIiXye" resolve="IKeyValueStore" />
       </node>
     </node>
     <node concept="312cEg" id="1SVbIFIiY3B" role="jymVt">
@@ -11454,7 +11452,7 @@
                       <ref role="3cqZAo" node="1SVbIFIiY2M" resolve="store" />
                     </node>
                     <node concept="liA8E" id="1SVbIFIiYFA" role="2OqNvi">
-                      <ref role="37wK5l" to="j26e:1SVbIFIiXyE" resolve="get" />
+                      <ref role="37wK5l" to="zdal:1SVbIFIiXyE" resolve="get" />
                       <node concept="37vLTw" id="1SVbIFIiYJv" role="37wK5m">
                         <ref role="3cqZAo" node="1SVbIFIiY3B" resolve="hash" />
                       </node>
@@ -11503,7 +11501,7 @@
       <property role="TrG5h" value="store" />
       <node concept="3Tm6S6" id="7A36R9$WotY" role="1B3o_S" />
       <node concept="3uibUv" id="7A36R9$Woun" role="1tU5fm">
-        <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
+        <ref role="3uigEE" to="zdal:1SVbIFIiXye" resolve="IKeyValueStore" />
       </node>
     </node>
     <node concept="312cEg" id="7A36R9$WoAD" role="jymVt">
@@ -11545,7 +11543,7 @@
       <node concept="37vLTG" id="ifAKfhOMkr" role="3clF46">
         <property role="TrG5h" value="store1" />
         <node concept="3uibUv" id="ifAKfhOMkq" role="1tU5fm">
-          <ref role="3uigEE" to="j26e:1SVbIFIiXye" resolve="IKeyValueStore" />
+          <ref role="3uigEE" to="zdal:1SVbIFIiXye" resolve="IKeyValueStore" />
         </node>
       </node>
     </node>
@@ -11611,7 +11609,7 @@
                         <ref role="3cqZAo" node="7A36R9$WotX" resolve="store" />
                       </node>
                       <node concept="liA8E" id="7A36R9$WtbJ" role="2OqNvi">
-                        <ref role="37wK5l" to="j26e:1SVbIFIiXyE" resolve="get" />
+                        <ref role="37wK5l" to="zdal:1SVbIFIiXyE" resolve="get" />
                         <node concept="37vLTw" id="7A36R9$WtbK" role="37wK5m">
                           <ref role="3cqZAo" node="7A36R9$Wowx" resolve="hash" />
                         </node>
@@ -11681,7 +11679,7 @@
               <ref role="3cqZAo" node="7A36R9$WotX" resolve="store" />
             </node>
             <node concept="liA8E" id="4_P7CAmhfeD" role="2OqNvi">
-              <ref role="37wK5l" to="j26e:1SVbIFIiX_K" resolve="put" />
+              <ref role="37wK5l" to="zdal:1SVbIFIiX_K" resolve="put" />
               <node concept="37vLTw" id="4_P7CAmhfhZ" role="37wK5m">
                 <ref role="3cqZAo" node="4_P7CAmhwZS" resolve="hash" />
               </node>

@@ -227,7 +227,7 @@
     <property role="TrG5h" value="IUserObjectContainer" />
     <property role="3GE5qa" value="userobject" />
     <node concept="3clFb_" id="B8a55UrhHy" role="jymVt">
-      <property role="TrG5h" value="putUserOject" />
+      <property role="TrG5h" value="putUserObject" />
       <node concept="37vLTG" id="B8a55UrhJ7" role="3clF46">
         <property role="TrG5h" value="key" />
         <node concept="3uibUv" id="B8a55UrhJM" role="1tU5fm">
@@ -251,7 +251,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="B8a55UrhNn" role="jymVt">
-      <property role="TrG5h" value="getUserOject" />
+      <property role="TrG5h" value="getUserObject" />
       <node concept="37vLTG" id="B8a55UrhNo" role="3clF46">
         <property role="TrG5h" value="key" />
         <node concept="3uibUv" id="B8a55UrhNp" role="1tU5fm">

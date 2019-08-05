@@ -5094,20 +5094,8 @@
           </node>
           <node concept="9aQIb" id="QurUgiz0SQ" role="9aQIa">
             <node concept="3clFbS" id="QurUgiz0SR" role="9aQI4">
-              <node concept="YS8fn" id="QurUgiz0TN" role="3cqZAp">
-                <node concept="2ShNRf" id="QurUgiz0Uu" role="YScLw">
-                  <node concept="1pGfFk" id="QurUgiz1eS" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="3cpWs3" id="QurUgiz42l" role="37wK5m">
-                      <node concept="37vLTw" id="QurUgiz433" role="3uHU7w">
-                        <ref role="3cqZAo" node="QurUgiyUMn" resolve="ref" />
-                      </node>
-                      <node concept="Xl_RD" id="QurUgiz1h7" role="3uHU7B">
-                        <property role="Xl_RC" value="Unsupported reference: " />
-                      </node>
-                    </node>
-                  </node>
-                </node>
+              <node concept="3cpWs6" id="6TdxBJ4kq2u" role="3cqZAp">
+                <node concept="10Nm6u" id="6TdxBJ4kq4n" role="3cqZAk" />
               </node>
             </node>
           </node>

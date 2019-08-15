@@ -10,6 +10,8 @@
     <import index="jgjw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.security(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="jmi8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.util(MPS.IDEA/)" />
+    <import index="fyhk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps(MPS.Core/)" />
+    <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1133,6 +1135,21 @@
       <node concept="10P_77" id="5wHEIYKNsNm" role="3clF45" />
       <node concept="3Tm1VV" id="5wHEIYKNq2$" role="1B3o_S" />
       <node concept="3clFbS" id="5wHEIYKNq2_" role="3clF47">
+        <node concept="3cpWs8" id="4wJBxozLoZx" role="3cqZAp">
+          <node concept="3cpWsn" id="4wJBxozLoZy" role="3cpWs9">
+            <property role="TrG5h" value="headless" />
+            <node concept="10P_77" id="4wJBxozLoZw" role="1tU5fm" />
+            <node concept="2OqwBi" id="4wJBxozLoZz" role="33vP2m">
+              <node concept="2YIFZM" id="4wJBxozLoZ$" role="2Oq$k0">
+                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+              </node>
+              <node concept="liA8E" id="4wJBxozLoZ_" role="2OqNvi">
+                <ref role="37wK5l" to="bd8o:~Application.isHeadlessEnvironment()" resolve="isHeadlessEnvironment" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5wHEIYKNtiU" role="3cqZAp">
           <node concept="1Wc70l" id="5wHEIYKNtB7" role="3clFbG">
             <node concept="1eOMI4" id="6Is9Rqa4$3c" role="3uHU7w">
@@ -1140,8 +1157,13 @@
                 <node concept="1rXfSq" id="6Is9Rqa4$r6" role="3uHU7w">
                   <ref role="37wK5l" node="5wHEIYKNusR" resolve="isEnabledByDependencies" />
                 </node>
-                <node concept="1rXfSq" id="5wHEIYKNtEG" role="3uHU7B">
-                  <ref role="37wK5l" node="5wHEIYKKax8" resolve="isEnabledByUser" />
+                <node concept="22lmx$" id="4wJBxozLpwb" role="3uHU7B">
+                  <node concept="37vLTw" id="4wJBxozLpzR" role="3uHU7B">
+                    <ref role="3cqZAo" node="4wJBxozLoZy" resolve="headless" />
+                  </node>
+                  <node concept="1rXfSq" id="5wHEIYKNtEG" role="3uHU7w">
+                    <ref role="37wK5l" node="5wHEIYKKax8" resolve="isEnabledByUser" />
+                  </node>
                 </node>
               </node>
             </node>

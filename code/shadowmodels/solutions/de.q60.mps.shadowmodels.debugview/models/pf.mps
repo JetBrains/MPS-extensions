@@ -1113,8 +1113,12 @@
             <node concept="1bVj0M" id="41QOk3IFn45" role="37vLTx">
               <node concept="3clFbS" id="41QOk3IFn47" role="1bW5cS">
                 <node concept="3clFbF" id="41QOk3IFndE" role="3cqZAp">
-                  <node concept="37vLTw" id="41QOk3IFndD" role="3clFbG">
-                    <ref role="3cqZAo" node="41QOk3IEF5s" resolve="originalNode" />
+                  <node concept="2YIFZM" id="1TwRhL0_v6c" role="3clFbG">
+                    <ref role="37wK5l" to="l6bp:7uapjVAY0et" resolve="tryGetUnwrappedNode" />
+                    <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SNodeAPI" />
+                    <node concept="37vLTw" id="1TwRhL0_xbX" role="37wK5m">
+                      <ref role="3cqZAo" node="41QOk3IEF5z" resolve="snode" />
+                    </node>
                   </node>
                 </node>
               </node>

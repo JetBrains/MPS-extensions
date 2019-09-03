@@ -7,6 +7,7 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="bc963c22-d419-49b6-8543-ea411eb9d3a1" name="de.q60.mps.polymorphicfunctions" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -291,11 +292,8 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -361,6 +359,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -710,8 +716,40 @@
                                               </node>
                                               <node concept="3clFbH" id="2BYLcdcblsn" role="3cqZAp" />
                                               <node concept="3SKdUt" id="2BYLcdcbmv9" role="3cqZAp">
-                                                <node concept="3SKdUq" id="2BYLcdcbmvb" role="3SKWNk">
-                                                  <property role="3SKdUp" value="Ensure the expand/collapse icon shows correctly is there are child nodes" />
+                                                <node concept="1PaTwC" id="4Z9cV$lDHoW" role="3ndbpf">
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHoX" role="1PaTwD">
+                                                    <property role="3oM_SC" value="Ensure" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHoY" role="1PaTwD">
+                                                    <property role="3oM_SC" value="the" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHoZ" role="1PaTwD">
+                                                    <property role="3oM_SC" value="expand/collapse" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHp0" role="1PaTwD">
+                                                    <property role="3oM_SC" value="icon" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHp1" role="1PaTwD">
+                                                    <property role="3oM_SC" value="shows" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHp2" role="1PaTwD">
+                                                    <property role="3oM_SC" value="correctly" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHp3" role="1PaTwD">
+                                                    <property role="3oM_SC" value="is" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHp4" role="1PaTwD">
+                                                    <property role="3oM_SC" value="there" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHp5" role="1PaTwD">
+                                                    <property role="3oM_SC" value="are" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHp6" role="1PaTwD">
+                                                    <property role="3oM_SC" value="child" />
+                                                  </node>
+                                                  <node concept="3oM_SD" id="4Z9cV$lDHp7" role="1PaTwD">
+                                                    <property role="3oM_SC" value="nodes" />
+                                                  </node>
                                                 </node>
                                               </node>
                                               <node concept="1Dw8fO" id="2BYLcdcaNCx" role="3cqZAp">
@@ -2114,8 +2152,16 @@
               </node>
               <node concept="3clFbH" id="5wnrAmUlzGN" role="3cqZAp" />
               <node concept="3SKdUt" id="5wnrAmUlJdW" role="3cqZAp">
-                <node concept="3SKdUq" id="5wnrAmUlJdY" role="3SKWNk">
-                  <property role="3SKdUp" value="Navigate to node" />
+                <node concept="1PaTwC" id="4Z9cV$lDHp8" role="3ndbpf">
+                  <node concept="3oM_SD" id="4Z9cV$lDHp9" role="1PaTwD">
+                    <property role="3oM_SC" value="Navigate" />
+                  </node>
+                  <node concept="3oM_SD" id="4Z9cV$lDHpa" role="1PaTwD">
+                    <property role="3oM_SC" value="to" />
+                  </node>
+                  <node concept="3oM_SD" id="4Z9cV$lDHpb" role="1PaTwD">
+                    <property role="3oM_SC" value="node" />
+                  </node>
                 </node>
               </node>
               <node concept="3cpWs8" id="5wnrAmUlvX_" role="3cqZAp">
@@ -2219,8 +2265,25 @@
               </node>
               <node concept="3clFbH" id="5wnrAmUlvXl" role="3cqZAp" />
               <node concept="3SKdUt" id="5wnrAmUlvX0" role="3cqZAp">
-                <node concept="3SKdUq" id="5wnrAmUlvX2" role="3SKWNk">
-                  <property role="3SKdUp" value="Don't expand/collapse nodes on double click" />
+                <node concept="1PaTwC" id="4Z9cV$lDHpc" role="3ndbpf">
+                  <node concept="3oM_SD" id="4Z9cV$lDHpd" role="1PaTwD">
+                    <property role="3oM_SC" value="Don't" />
+                  </node>
+                  <node concept="3oM_SD" id="4Z9cV$lDHpe" role="1PaTwD">
+                    <property role="3oM_SC" value="expand/collapse" />
+                  </node>
+                  <node concept="3oM_SD" id="4Z9cV$lDHpf" role="1PaTwD">
+                    <property role="3oM_SC" value="nodes" />
+                  </node>
+                  <node concept="3oM_SD" id="4Z9cV$lDHpg" role="1PaTwD">
+                    <property role="3oM_SC" value="on" />
+                  </node>
+                  <node concept="3oM_SD" id="4Z9cV$lDHph" role="1PaTwD">
+                    <property role="3oM_SC" value="double" />
+                  </node>
+                  <node concept="3oM_SD" id="4Z9cV$lDHpi" role="1PaTwD">
+                    <property role="3oM_SC" value="click" />
+                  </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="5wnrAmUlvd7" role="3cqZAp" />

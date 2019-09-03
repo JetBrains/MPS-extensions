@@ -4,7 +4,7 @@
   <attribute name="concise" value="true" />
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
   </languages>
   <imports>
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
@@ -304,7 +304,7 @@
                   <ref role="3cqZAo" node="3ubIyAZ0AO4" resolve="m" />
                 </node>
                 <node concept="liA8E" id="3ubIyAZ0DGK" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~Method.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="3ubIyAZ0Eo_" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>

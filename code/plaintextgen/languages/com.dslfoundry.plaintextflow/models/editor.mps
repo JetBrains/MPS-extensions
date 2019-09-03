@@ -2,7 +2,7 @@
 <model ref="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -134,9 +134,7 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045201" name="initValue" index="28ntcv" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -316,7 +314,7 @@
         <ref role="1NtTu8" to="ssyn:6$Hx0f8jvpe" resolve="indent" />
         <ref role="1k5W1q" node="3HMKjsylBr3" resolve="nogap" />
         <node concept="Veino" id="6$Hx0f8o2hC" role="3F10Kt">
-          <property role="Vb096" value="green" />
+          <property role="Vb096" value="fLwANPr/green" />
         </node>
       </node>
       <node concept="3F2HdR" id="6$Hx0f8lTAi" role="3EZMnx">
@@ -331,7 +329,7 @@
                   <ref role="2pJxaS" to="ssyn:6$Hx0f8j5UT" resolve="FlowWord" />
                   <node concept="2pJxcG" id="6FSgq4qbzst" role="2pJxcM">
                     <ref role="2pJxcJ" to="ssyn:6$Hx0f8jbah" resolve="text" />
-                    <node concept="Xl_RD" id="6FSgq4qbzwe" role="2pJxcZ">
+                    <node concept="Xl_RD" id="6FSgq4qbzwe" role="28ntcv">
                       <property role="Xl_RC" value="" />
                     </node>
                   </node>
@@ -345,7 +343,7 @@
         <property role="3F0ifm" value="]" />
         <ref role="1k5W1q" node="3HMKjsylBr3" resolve="nogap" />
         <node concept="VechU" id="6FSgq4qb97A" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
     </node>
@@ -361,7 +359,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="61QejaUBpNK" role="3F10Kt">
-          <property role="Vb096" value="LIGHT_BLUE" />
+          <property role="Vb096" value="hGRnIZc/lightBlue" />
         </node>
       </node>
       <node concept="1HlG4h" id="6$Hx0f8mwDW" role="3EZMnx">
@@ -381,7 +379,7 @@
           </node>
         </node>
         <node concept="30gYXW" id="6$Hx0f8mxES" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
           <node concept="1iSF2X" id="6FSgq4qcNXi" role="VblUZ">
             <property role="1iTho6" value="DEDEDE" />
           </node>
@@ -418,7 +416,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="61QejaUC65W" role="3F10Kt">
-          <property role="Vb096" value="LIGHT_BLUE" />
+          <property role="Vb096" value="hGRnIZc/lightBlue" />
         </node>
       </node>
     </node>

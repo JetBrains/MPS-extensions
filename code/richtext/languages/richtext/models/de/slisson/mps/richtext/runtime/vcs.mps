@@ -2,7 +2,7 @@
 <model ref="r:c4c46e75-b5a7-40d5-8bfd-d711bc589fc1(de.slisson.mps.richtext.runtime.vcs)">
   <persistence version="9" />
   <languages>
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1915,7 +1915,7 @@
                           <ref role="3cqZAo" node="3gBYXhg34VP" resolve="highlightedField" />
                         </node>
                         <node concept="liA8E" id="3gBYXhg36Xh" role="2OqNvi">
-                          <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                          <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
                           <node concept="3clFbT" id="3gBYXhg36Xi" role="37wK5m">
                             <property role="3clFbU" value="true" />
                           </node>

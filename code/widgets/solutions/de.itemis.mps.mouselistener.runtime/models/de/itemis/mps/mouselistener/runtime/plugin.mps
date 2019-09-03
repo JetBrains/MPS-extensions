@@ -7,7 +7,7 @@
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
   </languages>
   <imports>
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
@@ -184,11 +184,8 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -214,6 +211,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1202,13 +1207,74 @@
         <node concept="3clFbJ" id="6mIiWXQkfBM" role="3cqZAp">
           <node concept="3clFbS" id="6mIiWXQkfBO" role="3clFbx">
             <node concept="3SKdUt" id="6mIiWXQkGq1" role="3cqZAp">
-              <node concept="3SKdUq" id="6mIiWXQkGrW" role="3SKWNk">
-                <property role="3SKdUp" value="Because there are no enter/exit events for individual cells, we fire an additional motion event when the" />
+              <node concept="1PaTwC" id="4Z9cV$lDHCs" role="3ndbpf">
+                <node concept="3oM_SD" id="4Z9cV$lDHCt" role="1PaTwD">
+                  <property role="3oM_SC" value="Because" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCu" role="1PaTwD">
+                  <property role="3oM_SC" value="there" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCv" role="1PaTwD">
+                  <property role="3oM_SC" value="are" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCw" role="1PaTwD">
+                  <property role="3oM_SC" value="no" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCx" role="1PaTwD">
+                  <property role="3oM_SC" value="enter/exit" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCy" role="1PaTwD">
+                  <property role="3oM_SC" value="events" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCz" role="1PaTwD">
+                  <property role="3oM_SC" value="for" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHC$" role="1PaTwD">
+                  <property role="3oM_SC" value="individual" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHC_" role="1PaTwD">
+                  <property role="3oM_SC" value="cells," />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCA" role="1PaTwD">
+                  <property role="3oM_SC" value="we" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCB" role="1PaTwD">
+                  <property role="3oM_SC" value="fire" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCC" role="1PaTwD">
+                  <property role="3oM_SC" value="an" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCD" role="1PaTwD">
+                  <property role="3oM_SC" value="additional" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCE" role="1PaTwD">
+                  <property role="3oM_SC" value="motion" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCF" role="1PaTwD">
+                  <property role="3oM_SC" value="event" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCG" role="1PaTwD">
+                  <property role="3oM_SC" value="when" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCH" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
               </node>
             </node>
             <node concept="3SKdUt" id="6mIiWXQkGx8" role="3cqZAp">
-              <node concept="3SKdUq" id="6mIiWXQkGz8" role="3SKWNk">
-                <property role="3SKdUp" value="cursor leaves the cell" />
+              <node concept="1PaTwC" id="4Z9cV$lDHCI" role="3ndbpf">
+                <node concept="3oM_SD" id="4Z9cV$lDHCJ" role="1PaTwD">
+                  <property role="3oM_SC" value="cursor" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCK" role="1PaTwD">
+                  <property role="3oM_SC" value="leaves" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCL" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="4Z9cV$lDHCM" role="1PaTwD">
+                  <property role="3oM_SC" value="cell" />
+                </node>
               </node>
             </node>
             <node concept="3clFbF" id="6mIiWXQkgwn" role="3cqZAp">

@@ -4,7 +4,7 @@
   <attribute name="concise" value="true" />
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
   </languages>
   <imports>
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
@@ -138,11 +138,8 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -153,6 +150,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -370,8 +375,31 @@
       <node concept="3Tm1VV" id="5H3MsraaPVa" role="1B3o_S" />
       <node concept="3clFbS" id="5H3MsraaPVb" role="3clF47">
         <node concept="3SKdUt" id="4MPZfBDxwuG" role="3cqZAp">
-          <node concept="3SKdUq" id="4MPZfBDxwuH" role="3SKWNk">
-            <property role="3SKdUp" value="escaping is not required anymore in MPS 3.2" />
+          <node concept="1PaTwC" id="4Z9cV$lDHi_" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHiA" role="1PaTwD">
+              <property role="3oM_SC" value="escaping" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiB" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiC" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiD" role="1PaTwD">
+              <property role="3oM_SC" value="required" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiE" role="1PaTwD">
+              <property role="3oM_SC" value="anymore" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiF" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiG" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiH" role="1PaTwD">
+              <property role="3oM_SC" value="3.2" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="4MPZfBDxyLb" role="3cqZAp">
@@ -442,8 +470,31 @@
       <node concept="3Tm1VV" id="5H3Msrabsyc" role="1B3o_S" />
       <node concept="3clFbS" id="5H3Msrabsyd" role="3clF47">
         <node concept="3SKdUt" id="4MPZfBDxt4f" role="3cqZAp">
-          <node concept="3SKdUq" id="4MPZfBDxt5b" role="3SKWNk">
-            <property role="3SKdUp" value="escaping is not required anymore in MPS 3.2" />
+          <node concept="1PaTwC" id="4Z9cV$lDHiI" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHiJ" role="1PaTwD">
+              <property role="3oM_SC" value="escaping" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiK" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiL" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiM" role="1PaTwD">
+              <property role="3oM_SC" value="required" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiN" role="1PaTwD">
+              <property role="3oM_SC" value="anymore" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiO" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiP" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiQ" role="1PaTwD">
+              <property role="3oM_SC" value="3.2" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3Hv4KUmLgOw" role="3cqZAp">
@@ -464,18 +515,129 @@
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="5LEeV$41a6j" role="3clF47">
         <node concept="3SKdUt" id="5LEeV$43_S8" role="3cqZAp">
-          <node concept="3SKdUq" id="5LEeV$43Ad9" role="3SKWNk">
-            <property role="3SKdUp" value="Unescaping is required for models, that existed before 3.2 and have not been edited after migrating to 3.2" />
+          <node concept="1PaTwC" id="4Z9cV$lDHiR" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHiS" role="1PaTwD">
+              <property role="3oM_SC" value="Unescaping" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiT" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiU" role="1PaTwD">
+              <property role="3oM_SC" value="required" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiV" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiW" role="1PaTwD">
+              <property role="3oM_SC" value="models," />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiX" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiY" role="1PaTwD">
+              <property role="3oM_SC" value="existed" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHiZ" role="1PaTwD">
+              <property role="3oM_SC" value="before" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj0" role="1PaTwD">
+              <property role="3oM_SC" value="3.2" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj1" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj2" role="1PaTwD">
+              <property role="3oM_SC" value="have" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj3" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj4" role="1PaTwD">
+              <property role="3oM_SC" value="been" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj5" role="1PaTwD">
+              <property role="3oM_SC" value="edited" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj6" role="1PaTwD">
+              <property role="3oM_SC" value="after" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj7" role="1PaTwD">
+              <property role="3oM_SC" value="migrating" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj8" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj9" role="1PaTwD">
+              <property role="3oM_SC" value="3.2" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="5LEeV$43AGt" role="3cqZAp">
-          <node concept="3SKdUq" id="5LEeV$43B1C" role="3SKWNk">
-            <property role="3SKdUp" value="To get rid of the dependency to apache commons, the unescape method is executed using reflection and only if" />
+          <node concept="1PaTwC" id="4Z9cV$lDHja" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHjb" role="1PaTwD">
+              <property role="3oM_SC" value="To" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjc" role="1PaTwD">
+              <property role="3oM_SC" value="get" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjd" role="1PaTwD">
+              <property role="3oM_SC" value="rid" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHje" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjf" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjg" role="1PaTwD">
+              <property role="3oM_SC" value="dependency" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjh" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHji" role="1PaTwD">
+              <property role="3oM_SC" value="apache" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjj" role="1PaTwD">
+              <property role="3oM_SC" value="commons," />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjk" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjl" role="1PaTwD">
+              <property role="3oM_SC" value="unescape" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjm" role="1PaTwD">
+              <property role="3oM_SC" value="method" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjn" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjo" role="1PaTwD">
+              <property role="3oM_SC" value="executed" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjp" role="1PaTwD">
+              <property role="3oM_SC" value="using" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjq" role="1PaTwD">
+              <property role="3oM_SC" value="reflection" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjr" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjs" role="1PaTwD">
+              <property role="3oM_SC" value="only" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjt" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="5LEeV$43C$T" role="3cqZAp">
-          <node concept="3SKdUq" id="5LEeV$43CUe" role="3SKWNk">
-            <property role="3SKdUp" value="available." />
+          <node concept="1PaTwC" id="4Z9cV$lDHju" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHjv" role="1PaTwD">
+              <property role="3oM_SC" value="available." />
+            </node>
           </node>
         </node>
         <node concept="SfApY" id="5LEeV$43pZl" role="3cqZAp">

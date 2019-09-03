@@ -200,7 +200,7 @@
                         <node concept="2Ry0Ak" id="2IxvlKP9JgA" role="2Ry0An">
                           <property role="2Ry0Am" value="Applications" />
                           <node concept="2Ry0Ak" id="2IxvlKP9JgB" role="2Ry0An">
-                            <property role="2Ry0Am" value="MPS 2017.3.app" />
+                            <property role="2Ry0Am" value="MPS_2019.2_192.2072_master.app" />
                             <node concept="2Ry0Ak" id="2IxvlKP9JgC" role="2Ry0An">
                               <property role="2Ry0Am" value="Contents" />
                             </node>

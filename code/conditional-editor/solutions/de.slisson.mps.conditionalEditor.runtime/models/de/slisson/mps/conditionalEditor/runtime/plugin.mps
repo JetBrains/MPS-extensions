@@ -5,8 +5,8 @@
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
   </languages>
   <imports>
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
@@ -78,16 +78,21 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -120,8 +125,25 @@
     <node concept="2uRRBT" id="7SbG$tCPhpo" role="2uRRB$">
       <node concept="3clFbS" id="7SbG$tCPhpp" role="2VODD2">
         <node concept="3SKdUt" id="7SbG$tCPpkP" role="3cqZAp">
-          <node concept="3SKdUq" id="7SbG$tCPpr2" role="3SKWNk">
-            <property role="3SKdUp" value="enable conditional editor hint by default" />
+          <node concept="1PaTwC" id="4Z9cV$lDGMu" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDGMv" role="1PaTwD">
+              <property role="3oM_SC" value="enable" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMw" role="1PaTwD">
+              <property role="3oM_SC" value="conditional" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMx" role="1PaTwD">
+              <property role="3oM_SC" value="editor" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMy" role="1PaTwD">
+              <property role="3oM_SC" value="hint" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMz" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGM$" role="1PaTwD">
+              <property role="3oM_SC" value="default" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7SbG$tCPl6v" role="3cqZAp">
@@ -178,13 +200,68 @@
         </node>
         <node concept="3clFbH" id="5vQ_hAOOgeQ" role="3cqZAp" />
         <node concept="3SKdUt" id="5vQ_hAOOfyd" role="3cqZAp">
-          <node concept="3SKdUq" id="5vQ_hAOOfDT" role="3SKWNk">
-            <property role="3SKdUp" value="All conditional editors use this hint. This allows the user to disable the conditional editor" />
+          <node concept="1PaTwC" id="4Z9cV$lDGM_" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDGMA" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMB" role="1PaTwD">
+              <property role="3oM_SC" value="conditional" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMC" role="1PaTwD">
+              <property role="3oM_SC" value="editors" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMD" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGME" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMF" role="1PaTwD">
+              <property role="3oM_SC" value="hint." />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMG" role="1PaTwD">
+              <property role="3oM_SC" value="This" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMH" role="1PaTwD">
+              <property role="3oM_SC" value="allows" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMI" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMJ" role="1PaTwD">
+              <property role="3oM_SC" value="user" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMK" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGML" role="1PaTwD">
+              <property role="3oM_SC" value="disable" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMM" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMN" role="1PaTwD">
+              <property role="3oM_SC" value="conditional" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMO" role="1PaTwD">
+              <property role="3oM_SC" value="editor" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="5vQ_hAOOg25" role="3cqZAp">
-          <node concept="3SKdUq" id="5vQ_hAOOg9T" role="3SKWNk">
-            <property role="3SKdUp" value="by removing this hint" />
+          <node concept="1PaTwC" id="4Z9cV$lDGMP" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDGMQ" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMR" role="1PaTwD">
+              <property role="3oM_SC" value="removing" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMS" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMT" role="1PaTwD">
+              <property role="3oM_SC" value="hint" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="7SbG$tCPiAN" role="3cqZAp">
@@ -202,18 +279,126 @@
         </node>
         <node concept="3clFbH" id="5vQ_hAOOgmL" role="3cqZAp" />
         <node concept="3SKdUt" id="5vQ_hAOOgSG" role="3cqZAp">
-          <node concept="3SKdUq" id="5vQ_hAOOh0S" role="3SKWNk">
-            <property role="3SKdUp" value="MPS stops searching for editors, if one has exactly the hints, that are currently enabled." />
+          <node concept="1PaTwC" id="4Z9cV$lDGMU" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDGMV" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMW" role="1PaTwD">
+              <property role="3oM_SC" value="stops" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMX" role="1PaTwD">
+              <property role="3oM_SC" value="searching" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMY" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGMZ" role="1PaTwD">
+              <property role="3oM_SC" value="editors," />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN0" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN1" role="1PaTwD">
+              <property role="3oM_SC" value="one" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN2" role="1PaTwD">
+              <property role="3oM_SC" value="has" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN3" role="1PaTwD">
+              <property role="3oM_SC" value="exactly" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN4" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN5" role="1PaTwD">
+              <property role="3oM_SC" value="hints," />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN6" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN7" role="1PaTwD">
+              <property role="3oM_SC" value="are" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN8" role="1PaTwD">
+              <property role="3oM_SC" value="currently" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGN9" role="1PaTwD">
+              <property role="3oM_SC" value="enabled." />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="5vQ_hAOOhkw" role="3cqZAp">
-          <node concept="3SKdUq" id="5vQ_hAOOhsO" role="3SKWNk">
-            <property role="3SKdUp" value="This hint is enabled, so that this condition is never true. That's why this hint should not be used by" />
+          <node concept="1PaTwC" id="4Z9cV$lDGNa" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDGNb" role="1PaTwD">
+              <property role="3oM_SC" value="This" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNc" role="1PaTwD">
+              <property role="3oM_SC" value="hint" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNd" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNe" role="1PaTwD">
+              <property role="3oM_SC" value="enabled," />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNf" role="1PaTwD">
+              <property role="3oM_SC" value="so" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNg" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNh" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNi" role="1PaTwD">
+              <property role="3oM_SC" value="condition" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNj" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNk" role="1PaTwD">
+              <property role="3oM_SC" value="never" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNl" role="1PaTwD">
+              <property role="3oM_SC" value="true." />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNm" role="1PaTwD">
+              <property role="3oM_SC" value="That's" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNn" role="1PaTwD">
+              <property role="3oM_SC" value="why" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNo" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNp" role="1PaTwD">
+              <property role="3oM_SC" value="hint" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNq" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNr" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNs" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNt" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNu" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="5vQ_hAOOhNU" role="3cqZAp">
-          <node concept="3SKdUq" id="5vQ_hAOOhWm" role="3SKWNk">
-            <property role="3SKdUp" value="any editor." />
+          <node concept="1PaTwC" id="4Z9cV$lDGNv" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDGNw" role="1PaTwD">
+              <property role="3oM_SC" value="any" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDGNx" role="1PaTwD">
+              <property role="3oM_SC" value="editor." />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="2kbUaNP7p12" role="3cqZAp">

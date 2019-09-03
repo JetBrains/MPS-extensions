@@ -2,11 +2,12 @@
 <model ref="r:31870c99-39a5-4a38-9ce4-c2dcd8b5c206(de.slisson.mps.conditionalEditor.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
     <use id="b8bb702e-43ed-4090-a902-d180d3e5f292" name="de.slisson.mps.conditionalEditor" version="0" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -182,11 +183,8 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -334,6 +332,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1402,13 +1408,41 @@
       <node concept="30G5F_" id="3MtSE7vpE3M" role="30HLyM">
         <node concept="3clFbS" id="3MtSE7vpE3N" role="2VODD2">
           <node concept="3SKdUt" id="2fDCuuysbqx" role="3cqZAp">
-            <node concept="3SKdUq" id="2fDCuuysbqy" role="3SKWNk">
-              <property role="3SKdUp" value="TODO: Suggesrtion: do not use PriorityInfoCell, " />
+            <node concept="1PaTwC" id="4Z9cV$lDGvY" role="3ndbpf">
+              <node concept="3oM_SD" id="4Z9cV$lDGvZ" role="1PaTwD">
+                <property role="3oM_SC" value="TODO:" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGw0" role="1PaTwD">
+                <property role="3oM_SC" value="Suggesrtion:" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGw1" role="1PaTwD">
+                <property role="3oM_SC" value="do" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGw2" role="1PaTwD">
+                <property role="3oM_SC" value="not" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGw3" role="1PaTwD">
+                <property role="3oM_SC" value="use" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGw4" role="1PaTwD">
+                <property role="3oM_SC" value="PriorityInfoCell," />
+              </node>
             </node>
           </node>
           <node concept="3SKdUt" id="2fDCuuysbqz" role="3cqZAp">
-            <node concept="3SKdUq" id="2fDCuuysbq$" role="3SKWNk">
-              <property role="3SKdUp" value="TODO: rather sub-concept ConceptEditorDeclaration" />
+            <node concept="1PaTwC" id="4Z9cV$lDGw5" role="3ndbpf">
+              <node concept="3oM_SD" id="4Z9cV$lDGw6" role="1PaTwD">
+                <property role="3oM_SC" value="TODO:" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGw7" role="1PaTwD">
+                <property role="3oM_SC" value="rather" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGw8" role="1PaTwD">
+                <property role="3oM_SC" value="sub-concept" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGw9" role="1PaTwD">
+                <property role="3oM_SC" value="ConceptEditorDeclaration" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="3MtSE7vpE3O" role="3cqZAp">
@@ -1439,13 +1473,41 @@
       <node concept="30G5F_" id="3MtSE7vpwcX" role="30HLyM">
         <node concept="3clFbS" id="3MtSE7vpwcY" role="2VODD2">
           <node concept="3SKdUt" id="2fDCuuysagr" role="3cqZAp">
-            <node concept="3SKdUq" id="2fDCuuysagt" role="3SKWNk">
-              <property role="3SKdUp" value="TODO: Suggesrtion: do not use PriorityInfoCell, " />
+            <node concept="1PaTwC" id="4Z9cV$lDGwa" role="3ndbpf">
+              <node concept="3oM_SD" id="4Z9cV$lDGwb" role="1PaTwD">
+                <property role="3oM_SC" value="TODO:" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGwc" role="1PaTwD">
+                <property role="3oM_SC" value="Suggesrtion:" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGwd" role="1PaTwD">
+                <property role="3oM_SC" value="do" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGwe" role="1PaTwD">
+                <property role="3oM_SC" value="not" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGwf" role="1PaTwD">
+                <property role="3oM_SC" value="use" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGwg" role="1PaTwD">
+                <property role="3oM_SC" value="PriorityInfoCell," />
+              </node>
             </node>
           </node>
           <node concept="3SKdUt" id="2fDCuuysa_t" role="3cqZAp">
-            <node concept="3SKdUq" id="2fDCuuysa_u" role="3SKWNk">
-              <property role="3SKdUp" value="TODO: rather sub-concept ConceptEditorDeclaration" />
+            <node concept="1PaTwC" id="4Z9cV$lDGwh" role="3ndbpf">
+              <node concept="3oM_SD" id="4Z9cV$lDGwi" role="1PaTwD">
+                <property role="3oM_SC" value="TODO:" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGwj" role="1PaTwD">
+                <property role="3oM_SC" value="rather" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGwk" role="1PaTwD">
+                <property role="3oM_SC" value="sub-concept" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGwl" role="1PaTwD">
+                <property role="3oM_SC" value="ConceptEditorDeclaration" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="3MtSE7vpwk7" role="3cqZAp">

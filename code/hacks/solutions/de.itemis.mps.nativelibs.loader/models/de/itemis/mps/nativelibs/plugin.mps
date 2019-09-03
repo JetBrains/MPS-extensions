@@ -3,10 +3,10 @@
   <persistence version="9" />
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -185,11 +185,8 @@
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -212,6 +209,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1029,8 +1034,16 @@
                   </node>
                 </node>
                 <node concept="3SKdUt" id="1HOG8KqU7cL" role="3cqZAp">
-                  <node concept="3SKdUq" id="1HOG8KqU89s" role="3SKWNk">
-                    <property role="3SKdUp" value="for loading LibraryLodingClass" />
+                  <node concept="1PaTwC" id="4Z9cV$lDHd0" role="3ndbpf">
+                    <node concept="3oM_SD" id="4Z9cV$lDHd1" role="1PaTwD">
+                      <property role="3oM_SC" value="for" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHd2" role="1PaTwD">
+                      <property role="3oM_SC" value="loading" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHd3" role="1PaTwD">
+                      <property role="3oM_SC" value="LibraryLodingClass" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3clFbF" id="1HOG8KqRNSD" role="3cqZAp">
@@ -1295,7 +1308,7 @@
               <ref role="3cqZAo" node="7xsJPFCeIsy" resolve="getDependencyClassLoaders" />
             </node>
             <node concept="liA8E" id="7xsJPFCeV3F" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Method.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="7xsJPFCeVzt" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1416,7 +1429,7 @@
               <ref role="3cqZAo" node="5wv8I7hhr_R" resolve="supportField" />
             </node>
             <node concept="liA8E" id="5wv8I7hh$Aw" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="5wv8I7hh$N_" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1473,7 +1486,7 @@
               <ref role="3cqZAo" node="5wv8I7hhQUw" resolve="classPathItemField" />
             </node>
             <node concept="liA8E" id="5wv8I7hhWL2" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="5wv8I7hhXd4" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1576,7 +1589,7 @@
                   <ref role="3cqZAo" node="5wv8I7higRX" resolve="childrenField" />
                 </node>
                 <node concept="liA8E" id="6J4kZVO1$Pz" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="6J4kZVO1$SG" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -2203,13 +2216,107 @@
         </node>
         <node concept="3clFbH" id="1HOG8KqRjEC" role="3cqZAp" />
         <node concept="3SKdUt" id="1HOG8KqRIAE" role="3cqZAp">
-          <node concept="3SKdUq" id="1HOG8KqRJzt" role="3SKWNk">
-            <property role="3SKdUp" value="A native library is assigned to the class loader of the calling class." />
+          <node concept="1PaTwC" id="4Z9cV$lDHd4" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHd5" role="1PaTwD">
+              <property role="3oM_SC" value="A" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHd6" role="1PaTwD">
+              <property role="3oM_SC" value="native" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHd7" role="1PaTwD">
+              <property role="3oM_SC" value="library" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHd8" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHd9" role="1PaTwD">
+              <property role="3oM_SC" value="assigned" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHda" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdb" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdc" role="1PaTwD">
+              <property role="3oM_SC" value="class" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdd" role="1PaTwD">
+              <property role="3oM_SC" value="loader" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHde" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdf" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdg" role="1PaTwD">
+              <property role="3oM_SC" value="calling" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdh" role="1PaTwD">
+              <property role="3oM_SC" value="class." />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="1HOG8KqRKZ_" role="3cqZAp">
-          <node concept="3SKdUq" id="1HOG8KqRLWw" role="3SKWNk">
-            <property role="3SKdUp" value="That's why we need to load the library from a class that was loaded by the same class loader." />
+          <node concept="1PaTwC" id="4Z9cV$lDHdi" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHdj" role="1PaTwD">
+              <property role="3oM_SC" value="That's" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdk" role="1PaTwD">
+              <property role="3oM_SC" value="why" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdl" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdm" role="1PaTwD">
+              <property role="3oM_SC" value="need" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdn" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdo" role="1PaTwD">
+              <property role="3oM_SC" value="load" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdp" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdq" role="1PaTwD">
+              <property role="3oM_SC" value="library" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdr" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHds" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdt" role="1PaTwD">
+              <property role="3oM_SC" value="class" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdu" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdv" role="1PaTwD">
+              <property role="3oM_SC" value="was" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdw" role="1PaTwD">
+              <property role="3oM_SC" value="loaded" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdx" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdy" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHdz" role="1PaTwD">
+              <property role="3oM_SC" value="same" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHd$" role="1PaTwD">
+              <property role="3oM_SC" value="class" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHd_" role="1PaTwD">
+              <property role="3oM_SC" value="loader." />
+            </node>
           </node>
         </node>
         <node concept="SfApY" id="1HOG8KqRpIK" role="3cqZAp">

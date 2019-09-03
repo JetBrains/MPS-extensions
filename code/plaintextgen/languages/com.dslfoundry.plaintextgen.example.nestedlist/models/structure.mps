@@ -41,8 +41,8 @@
     <property role="EcuMT" value="7022720084780710582" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="65PHFmamJES" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="trunk" />
       <property role="IQ2ns" value="7022720084780710584" />
       <ref role="20lvS9" node="65PHFmamJER" resolve="Branch" />
@@ -56,8 +56,8 @@
     <property role="EcuMT" value="7022720084780710583" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="65PHFmamJEY" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="branches" />
       <property role="IQ2ns" value="7022720084780710590" />
       <ref role="20lvS9" node="65PHFmamJER" resolve="Branch" />

@@ -5,7 +5,7 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="0" />
     <use id="3bdedd09-792a-4e15-a4db-83970df3ee86" name="de.itemis.mps.editor.collapsible" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -686,9 +686,6 @@
                             </node>
                             <node concept="3cqZAl" id="4uAxemRinw$" role="3clF45" />
                             <node concept="3Tm1VV" id="4be4ERv58Ii" role="1B3o_S" />
-                            <node concept="2AHcQZ" id="4be4ERv58Ij" role="2AJF6D">
-                              <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
-                            </node>
                             <node concept="2AHcQZ" id="4be4ERv58I$" role="2AJF6D">
                               <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                             </node>
@@ -1193,7 +1190,7 @@
             </node>
           </node>
           <node concept="39fpm" id="6Bd7VwqR2pu" role="35U2g">
-            <property role="1NdBj4" value="DOWN" />
+            <property role="1NdBj4" value="6Bd7VwqYQBY/DOWN" />
           </node>
         </node>
         <node concept="3F0ifn" id="3fwTI8g3c$Q" role="3EZMnx">
@@ -2106,10 +2103,10 @@
           </node>
         </node>
         <node concept="3C0NmK" id="4EOrrTBwV3L" role="3F10Kt">
-          <property role="Vb096" value="DARK_MAGENTA" />
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
         </node>
         <node concept="3C0lA2" id="3jgtgXHQbv9" role="3F10Kt">
-          <property role="3DY1wP" value="DASHED" />
+          <property role="3DY1wP" value="63Tq0M90n0Q/DASHED" />
         </node>
         <node concept="1PNbMa" id="6clvLV1QUpn" role="1PN8qh">
           <node concept="23hSZX" id="gKFhvEIgNI" role="ljJml">
@@ -2195,7 +2192,7 @@
         </node>
       </node>
       <node concept="3C0NmK" id="gKFhvFejtE" role="3F10Kt">
-        <property role="Vb096" value="orange" />
+        <property role="Vb096" value="fLwANPp/orange" />
       </node>
       <node concept="3C0NmR" id="4GZkTSmeN_8" role="3F10Kt">
         <property role="3DY3mF" value="2.0" />
@@ -3059,7 +3056,7 @@
           </node>
         </node>
         <node concept="3C0NmK" id="4EOrrTBPZoS" role="3F10Kt">
-          <property role="Vb096" value="DARK_MAGENTA" />
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
         </node>
         <node concept="1PNbMa" id="6clvLV1QL3l" role="1PN8q7">
           <node concept="23hSZX" id="4EOrrTBPZnT" role="ljJml">
@@ -3127,7 +3124,7 @@
         </node>
       </node>
       <node concept="3C0NmK" id="4EOrrTBPZp9" role="3F10Kt">
-        <property role="Vb096" value="orange" />
+        <property role="Vb096" value="fLwANPp/orange" />
       </node>
       <node concept="3C0NmR" id="4EOrrTBPZpa" role="3F10Kt">
         <property role="3DY3mF" value="2.0" />

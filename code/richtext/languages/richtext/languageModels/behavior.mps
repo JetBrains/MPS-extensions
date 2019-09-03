@@ -5,6 +5,7 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -183,11 +184,8 @@
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -260,6 +258,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1415,8 +1421,19 @@
               </node>
               <node concept="3clFbS" id="4Lll81Ty9Sp" role="3clFbx">
                 <node concept="3SKdUt" id="G25GphK_zk" role="3cqZAp">
-                  <node concept="3SKdUq" id="G25GphK_zl" role="3SKWNk">
-                    <property role="3SKdUp" value="Merge two consecutive 'Word's" />
+                  <node concept="1PaTwC" id="4Z9cV$lDG$B" role="3ndbpf">
+                    <node concept="3oM_SD" id="4Z9cV$lDG$C" role="1PaTwD">
+                      <property role="3oM_SC" value="Merge" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDG$D" role="1PaTwD">
+                      <property role="3oM_SC" value="two" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDG$E" role="1PaTwD">
+                      <property role="3oM_SC" value="consecutive" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDG$F" role="1PaTwD">
+                      <property role="3oM_SC" value="'Word's" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3cpWs8" id="IKrxbBHfsP" role="3cqZAp">
@@ -1534,8 +1551,28 @@
               <node concept="9aQIb" id="4Lll81Ty9Yh" role="9aQIa">
                 <node concept="3clFbS" id="4Lll81Ty9Yi" role="9aQI4">
                   <node concept="3SKdUt" id="G25GphK_zo" role="3cqZAp">
-                    <node concept="3SKdUq" id="G25GphK_zp" role="3SKWNk">
-                      <property role="3SKdUp" value="Always a 'Word' between two embedded nodes" />
+                    <node concept="1PaTwC" id="4Z9cV$lDG$G" role="3ndbpf">
+                      <node concept="3oM_SD" id="4Z9cV$lDG$H" role="1PaTwD">
+                        <property role="3oM_SC" value="Always" />
+                      </node>
+                      <node concept="3oM_SD" id="4Z9cV$lDG$I" role="1PaTwD">
+                        <property role="3oM_SC" value="a" />
+                      </node>
+                      <node concept="3oM_SD" id="4Z9cV$lDG$J" role="1PaTwD">
+                        <property role="3oM_SC" value="'Word'" />
+                      </node>
+                      <node concept="3oM_SD" id="4Z9cV$lDG$K" role="1PaTwD">
+                        <property role="3oM_SC" value="between" />
+                      </node>
+                      <node concept="3oM_SD" id="4Z9cV$lDG$L" role="1PaTwD">
+                        <property role="3oM_SC" value="two" />
+                      </node>
+                      <node concept="3oM_SD" id="4Z9cV$lDG$M" role="1PaTwD">
+                        <property role="3oM_SC" value="embedded" />
+                      </node>
+                      <node concept="3oM_SD" id="4Z9cV$lDG$N" role="1PaTwD">
+                        <property role="3oM_SC" value="nodes" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbJ" id="4eM$0ePYdFV" role="3cqZAp">
@@ -1588,8 +1625,16 @@
                     </node>
                   </node>
                   <node concept="3SKdUt" id="G25GphK_zu" role="3cqZAp">
-                    <node concept="3SKdUq" id="G25GphK_zv" role="3SKWNk">
-                      <property role="3SKdUp" value="Everything is fine" />
+                    <node concept="1PaTwC" id="4Z9cV$lDG$O" role="3ndbpf">
+                      <node concept="3oM_SD" id="4Z9cV$lDG$P" role="1PaTwD">
+                        <property role="3oM_SC" value="Everything" />
+                      </node>
+                      <node concept="3oM_SD" id="4Z9cV$lDG$Q" role="1PaTwD">
+                        <property role="3oM_SC" value="is" />
+                      </node>
+                      <node concept="3oM_SD" id="4Z9cV$lDG$R" role="1PaTwD">
+                        <property role="3oM_SC" value="fine" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbF" id="4Lll81Ty9Yj" role="3cqZAp">
@@ -1617,8 +1662,19 @@
         </node>
         <node concept="3clFbH" id="G25GphK_zw" role="3cqZAp" />
         <node concept="3SKdUt" id="G25GphK_zy" role="3cqZAp">
-          <node concept="3SKdUq" id="G25GphK_zz" role="3SKWNk">
-            <property role="3SKdUp" value="End with a word" />
+          <node concept="1PaTwC" id="4Z9cV$lDG$S" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDG$T" role="1PaTwD">
+              <property role="3oM_SC" value="End" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG$U" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG$V" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG$W" role="1PaTwD">
+              <property role="3oM_SC" value="word" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="G25GphKJI6" role="3cqZAp">
@@ -1719,8 +1775,22 @@
       <node concept="10P_77" id="IKrxbBHaGT" role="3clF45" />
       <node concept="3clFbS" id="IKrxbBHaGS" role="3clF47">
         <node concept="3SKdUt" id="G25GphK_xC" role="3cqZAp">
-          <node concept="3SKdUq" id="G25GphK_xD" role="3SKWNk">
-            <property role="3SKdUp" value="contains at least one child" />
+          <node concept="1PaTwC" id="4Z9cV$lDG$X" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDG$Y" role="1PaTwD">
+              <property role="3oM_SC" value="contains" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG$Z" role="1PaTwD">
+              <property role="3oM_SC" value="at" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_0" role="1PaTwD">
+              <property role="3oM_SC" value="least" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_1" role="1PaTwD">
+              <property role="3oM_SC" value="one" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_2" role="1PaTwD">
+              <property role="3oM_SC" value="child" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="G25GphK_y8" role="3cqZAp">
@@ -1742,8 +1812,19 @@
           </node>
         </node>
         <node concept="3SKdUt" id="G25GphK_vZ" role="3cqZAp">
-          <node concept="3SKdUq" id="G25GphK_w0" role="3SKWNk">
-            <property role="3SKdUp" value="starts with a 'Word'" />
+          <node concept="1PaTwC" id="4Z9cV$lDG_3" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDG_4" role="1PaTwD">
+              <property role="3oM_SC" value="starts" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_5" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_6" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_7" role="1PaTwD">
+              <property role="3oM_SC" value="'Word'" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="G25GphK_vS" role="3cqZAp">
@@ -1774,8 +1855,19 @@
           </node>
         </node>
         <node concept="3SKdUt" id="G25GphK_w5" role="3cqZAp">
-          <node concept="3SKdUq" id="G25GphK_w6" role="3SKWNk">
-            <property role="3SKdUp" value="ends with a 'Word'" />
+          <node concept="1PaTwC" id="4Z9cV$lDG_8" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDG_9" role="1PaTwD">
+              <property role="3oM_SC" value="ends" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_a" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_b" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_c" role="1PaTwD">
+              <property role="3oM_SC" value="'Word'" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="G25GphK_w8" role="3cqZAp">
@@ -1806,8 +1898,40 @@
           </node>
         </node>
         <node concept="3SKdUt" id="G25GphK_zf" role="3cqZAp">
-          <node concept="3SKdUq" id="G25GphK_zi" role="3SKWNk">
-            <property role="3SKdUp" value="A 'Word' between two embedded nodes and not two consecutive 'Word's" />
+          <node concept="1PaTwC" id="4Z9cV$lDG_d" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDG_e" role="1PaTwD">
+              <property role="3oM_SC" value="A" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_f" role="1PaTwD">
+              <property role="3oM_SC" value="'Word'" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_g" role="1PaTwD">
+              <property role="3oM_SC" value="between" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_h" role="1PaTwD">
+              <property role="3oM_SC" value="two" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_i" role="1PaTwD">
+              <property role="3oM_SC" value="embedded" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_j" role="1PaTwD">
+              <property role="3oM_SC" value="nodes" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_k" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_l" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_m" role="1PaTwD">
+              <property role="3oM_SC" value="two" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_n" role="1PaTwD">
+              <property role="3oM_SC" value="consecutive" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDG_o" role="1PaTwD">
+              <property role="3oM_SC" value="'Word's" />
+            </node>
           </node>
         </node>
         <node concept="2Gpval" id="G25GphK_tU" role="3cqZAp">

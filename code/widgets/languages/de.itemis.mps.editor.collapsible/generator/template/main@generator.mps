@@ -2,8 +2,9 @@
 <model ref="r:f36e8220-7a0c-4569-a244-97a5077332fe(de.itemis.mps.editor.collapsible.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -98,11 +99,8 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -179,6 +177,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -274,8 +280,28 @@
         <node concept="3Tm1VV" id="3NbAIGiCiyR" role="1B3o_S" />
         <node concept="3clFbS" id="3NbAIGiCiyS" role="3clF47">
           <node concept="3SKdUt" id="5pN$eUoOXh0" role="3cqZAp">
-            <node concept="3SKdUq" id="5pN$eUoOXh2" role="3SKWNk">
-              <property role="3SKdUp" value="dummy calls to prevent unnecessary 'unused' warnings" />
+            <node concept="1PaTwC" id="4Z9cV$lDGDX" role="3ndbpf">
+              <node concept="3oM_SD" id="4Z9cV$lDGDY" role="1PaTwD">
+                <property role="3oM_SC" value="dummy" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGDZ" role="1PaTwD">
+                <property role="3oM_SC" value="calls" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGE0" role="1PaTwD">
+                <property role="3oM_SC" value="to" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGE1" role="1PaTwD">
+                <property role="3oM_SC" value="prevent" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGE2" role="1PaTwD">
+                <property role="3oM_SC" value="unnecessary" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGE3" role="1PaTwD">
+                <property role="3oM_SC" value="'unused'" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDGE4" role="1PaTwD">
+                <property role="3oM_SC" value="warnings" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="5pN$eUoOX3r" role="3cqZAp">

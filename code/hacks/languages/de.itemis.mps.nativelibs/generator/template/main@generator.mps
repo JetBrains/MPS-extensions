@@ -2,7 +2,7 @@
 <model ref="r:784e4ba6-313e-4061-a788-9c70080a486e(de.itemis.mps.nativelibs.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -115,6 +115,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1966870290083281362" name="jetbrains.mps.lang.smodel.structure.EnumMember_NameOperation" flags="ng" index="24Tkf9" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -201,10 +202,13 @@
                     <node concept="3zFVjK" id="2H_mjOXu7Lr" role="3zH0cK">
                       <node concept="3clFbS" id="2H_mjOXu7Ls" role="2VODD2">
                         <node concept="3clFbF" id="2H_mjOXu7Y2" role="3cqZAp">
-                          <node concept="2OqwBi" id="2H_mjOXu822" role="3clFbG">
-                            <node concept="30H73N" id="2H_mjOXu7Y1" role="2Oq$k0" />
-                            <node concept="3TrcHB" id="2H_mjOXu8rx" role="2OqNvi">
-                              <ref role="3TsBF5" to="9lvj:2H_mjOXq7Zb" resolve="os" />
+                          <node concept="2OqwBi" id="4Z9cV$lDHOg" role="3clFbG">
+                            <node concept="24Tkf9" id="4Z9cV$lDHOi" role="2OqNvi" />
+                            <node concept="2OqwBi" id="2H_mjOXu822" role="2Oq$k0">
+                              <node concept="30H73N" id="2H_mjOXu7Y1" role="2Oq$k0" />
+                              <node concept="3TrcHB" id="2H_mjOXu8rx" role="2OqNvi">
+                                <ref role="3TsBF5" to="9lvj:4Z9cV$lDHFq" resolve="os" />
+                              </node>
                             </node>
                           </node>
                         </node>

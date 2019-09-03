@@ -5,6 +5,7 @@
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="da8e6b62-7ca3-4489-86bc-b70a501ca28f" name="de.q60.mps.incremental" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -235,11 +236,8 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -310,6 +308,14 @@
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="da8e6b62-7ca3-4489-86bc-b70a501ca28f" name="de.q60.mps.incremental">
@@ -757,7 +763,6 @@
           </node>
         </node>
         <node concept="RRSsy" id="QurUghPSyp" role="3cqZAp">
-          <property role="RRSoG" value="debug" />
           <node concept="3cpWs3" id="QurUghPSLJ" role="RRSoy">
             <node concept="Xl_RD" id="QurUghPSLK" role="3uHU7w">
               <property role="Xl_RC" value=")" />
@@ -1513,7 +1518,7 @@
                 </node>
                 <node concept="3clFbS" id="2e4kaHtwaSd" role="TDEfX">
                   <node concept="RRSsy" id="2e4kaHtwaSe" role="3cqZAp">
-                    <property role="RRSoG" value="error" />
+                    <property role="RRSoG" value="gZ5fh_4/error" />
                     <node concept="Xl_RD" id="2e4kaHtwaSf" role="RRSoy">
                       <property role="Xl_RC" value="Failed to resolve reference" />
                     </node>
@@ -2949,7 +2954,7 @@
                     </node>
                     <node concept="3clFbS" id="QurUgiDRIf" role="TDEfX">
                       <node concept="RRSsy" id="QurUgiDRIg" role="3cqZAp">
-                        <property role="RRSoG" value="error" />
+                        <property role="RRSoG" value="gZ5fh_4/error" />
                         <node concept="Xl_RD" id="QurUgiDRIh" role="RRSoy" />
                         <node concept="37vLTw" id="QurUgiDRIi" role="RRSow">
                           <ref role="3cqZAo" node="QurUgiDRId" resolve="ex" />
@@ -3202,7 +3207,7 @@
                     </node>
                     <node concept="3clFbS" id="QurUgiDQss" role="TDEfX">
                       <node concept="RRSsy" id="QurUgiDQst" role="3cqZAp">
-                        <property role="RRSoG" value="error" />
+                        <property role="RRSoG" value="gZ5fh_4/error" />
                         <node concept="Xl_RD" id="QurUgiDQsu" role="RRSoy" />
                         <node concept="37vLTw" id="QurUgiDQsv" role="RRSow">
                           <ref role="3cqZAo" node="QurUgiDQsq" resolve="ex" />
@@ -3451,8 +3456,52 @@
               </node>
               <node concept="3clFbS" id="ssWfzYTdei" role="3clF47">
                 <node concept="3SKdUt" id="6srC2UU6Cmw" role="3cqZAp">
-                  <node concept="3SKdUq" id="6srC2UU6Cmy" role="3SKWNk">
-                    <property role="3SKdUp" value="Not an actual change. This event happens during the first access of the model content." />
+                  <node concept="1PaTwC" id="4Z9cV$lDHpv" role="3ndbpf">
+                    <node concept="3oM_SD" id="4Z9cV$lDHpw" role="1PaTwD">
+                      <property role="3oM_SC" value="Not" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpx" role="1PaTwD">
+                      <property role="3oM_SC" value="an" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpy" role="1PaTwD">
+                      <property role="3oM_SC" value="actual" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpz" role="1PaTwD">
+                      <property role="3oM_SC" value="change." />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHp$" role="1PaTwD">
+                      <property role="3oM_SC" value="This" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHp_" role="1PaTwD">
+                      <property role="3oM_SC" value="event" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpA" role="1PaTwD">
+                      <property role="3oM_SC" value="happens" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpB" role="1PaTwD">
+                      <property role="3oM_SC" value="during" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpC" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpD" role="1PaTwD">
+                      <property role="3oM_SC" value="first" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpE" role="1PaTwD">
+                      <property role="3oM_SC" value="access" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpF" role="1PaTwD">
+                      <property role="3oM_SC" value="of" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpG" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpH" role="1PaTwD">
+                      <property role="3oM_SC" value="model" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpI" role="1PaTwD">
+                      <property role="3oM_SC" value="content." />
+                    </node>
                   </node>
                 </node>
                 <node concept="1X3_iC" id="6srC2UU6Ck5" role="lGtFl">
@@ -4130,7 +4179,7 @@
             </node>
             <node concept="3clFbS" id="5G4qAEnlZuV" role="TDEfX">
               <node concept="RRSsy" id="5G4qAEnlZuW" role="3cqZAp">
-                <property role="RRSoG" value="error" />
+                <property role="RRSoG" value="gZ5fh_4/error" />
                 <node concept="Xl_RD" id="5G4qAEnlZuX" role="RRSoy" />
                 <node concept="37vLTw" id="5G4qAEnlZuY" role="RRSow">
                   <ref role="3cqZAo" node="5G4qAEnlZuT" resolve="ex" />
@@ -6076,7 +6125,7 @@
             </node>
             <node concept="3clFbS" id="d42IEITS_P" role="TDEfX">
               <node concept="RRSsy" id="d42IEITU3P" role="3cqZAp">
-                <property role="RRSoG" value="error" />
+                <property role="RRSoG" value="gZ5fh_4/error" />
                 <node concept="Xl_RD" id="d42IEITU3R" role="RRSoy" />
                 <node concept="37vLTw" id="d42IEITU3T" role="RRSow">
                   <ref role="3cqZAo" node="d42IEITS_L" resolve="ex" />
@@ -6293,7 +6342,7 @@
                     <node concept="3clFbJ" id="2atEpSpMpVA" role="3cqZAp">
                       <node concept="3clFbS" id="2atEpSpMpVC" role="3clFbx">
                         <node concept="RRSsy" id="2atEpSpMxsx" role="3cqZAp">
-                          <property role="RRSoG" value="error" />
+                          <property role="RRSoG" value="gZ5fh_4/error" />
                           <node concept="Xl_RD" id="2atEpSpMxsz" role="RRSoy">
                             <property role="Xl_RC" value="Class loader is disposed, but this thread is still running" />
                           </node>
@@ -6360,7 +6409,7 @@
                         </node>
                       </node>
                       <node concept="RRSsy" id="QurUgjajjF" role="3cqZAp">
-                        <property role="RRSoG" value="error" />
+                        <property role="RRSoG" value="gZ5fh_4/error" />
                         <node concept="Xl_RD" id="QurUgjajjG" role="RRSoy" />
                         <node concept="37vLTw" id="QurUgjajjH" role="RRSow">
                           <ref role="3cqZAo" node="QurUgjajjC" resolve="ex" />
@@ -6399,7 +6448,6 @@
           </node>
           <node concept="3clFbS" id="21SKqk9FLjt" role="2GVbov">
             <node concept="RRSsy" id="21SKqk9FQ67" role="3cqZAp">
-              <property role="RRSoG" value="debug" />
               <node concept="Xl_RD" id="21SKqk9FQ69" role="RRSoy">
                 <property role="Xl_RC" value="Stopping sync thread" />
               </node>
@@ -6684,7 +6732,6 @@
               </node>
             </node>
             <node concept="RRSsy" id="D$OtjtYC$b" role="3cqZAp">
-              <property role="RRSoG" value="debug" />
               <node concept="Xl_RD" id="D$OtjtYC$c" role="RRSoy">
                 <property role="Xl_RC" value="Start analysis" />
               </node>
@@ -6746,7 +6793,6 @@
               </node>
             </node>
             <node concept="RRSsy" id="QurUgik3SI" role="3cqZAp">
-              <property role="RRSoG" value="debug" />
               <node concept="3cpWs3" id="QurUgik3SJ" role="RRSoy">
                 <node concept="Xl_RD" id="QurUgik3SK" role="3uHU7w">
                   <property role="Xl_RC" value=" ms" />
@@ -7283,8 +7329,19 @@
                   </node>
                 </node>
                 <node concept="3SKdUt" id="2BYLcdc06ha" role="3cqZAp">
-                  <node concept="3SKdUq" id="2BYLcdc06hc" role="3SKWNk">
-                    <property role="3SKdUp" value="ShadowTypesystemUtil starts read actions" />
+                  <node concept="1PaTwC" id="4Z9cV$lDHpJ" role="3ndbpf">
+                    <node concept="3oM_SD" id="4Z9cV$lDHpK" role="1PaTwD">
+                      <property role="3oM_SC" value="ShadowTypesystemUtil" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpL" role="1PaTwD">
+                      <property role="3oM_SC" value="starts" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpM" role="1PaTwD">
+                      <property role="3oM_SC" value="read" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHpN" role="1PaTwD">
+                      <property role="3oM_SC" value="actions" />
+                    </node>
                   </node>
                 </node>
               </node>

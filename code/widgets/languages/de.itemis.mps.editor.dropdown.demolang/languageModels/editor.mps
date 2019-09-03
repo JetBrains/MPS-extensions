@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="cd6ee994-5ea3-4b72-9d40-a3e80432a522" name="de.itemis.mps.editor.dropdown" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
   </languages>
   <imports>
     <import index="o1o8" ref="r:6c9e1aa1-351b-46c1-a2fe-f9fea225bfe6(de.itemis.mps.editor.dropdown.demolang.structure)" implicit="true" />
@@ -47,7 +47,7 @@
         </node>
         <node concept="LrGm3" id="3_TG3j96HXc" role="3EZMnx">
           <node concept="3F0A7n" id="3_TG3j96HXp" role="LrInP">
-            <ref role="1NtTu8" to="o1o8:3_TG3j96HWS" resolve="value" />
+            <ref role="1NtTu8" to="o1o8:4Z9cV$lDHFE" resolve="value" />
           </node>
         </node>
         <node concept="l2Vlx" id="3_TG3j96g8q" role="2iSdaV" />

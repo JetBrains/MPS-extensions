@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
   </languages>
   <imports>
     <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.slisson.mps.structurecheck.structure)" implicit="true" />
@@ -146,7 +146,7 @@
         <ref role="1NtTu8" to="7met:l6SLw3lU0m" resolve="ordered" />
       </node>
       <node concept="3F0A7n" id="l6SLw3lU_Q" role="3EZMnx">
-        <ref role="1NtTu8" to="7met:l6SLw3lU_B" resolve="rule" />
+        <ref role="1NtTu8" to="7met:4Z9cV$lDHFw" resolve="rule" />
       </node>
       <node concept="3F0ifn" id="l6SLw3lUAp" role="3EZMnx">
         <property role="3F0ifm" value="{" />

@@ -5,7 +5,7 @@
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
   </languages>
   <imports>
     <import index="6dpw" ref="r:ea653f2d-c829-4182-b311-a544ef1f4c1f(de.slisson.mps.tables.runtime.gridmodel)" />
@@ -141,11 +141,8 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -194,6 +191,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -2272,8 +2277,58 @@
             </node>
           </node>
           <node concept="3SKdUt" id="7C0FR5Bf1h0" role="3cqZAp">
-            <node concept="3SKdUq" id="7C0FR5Bf1qQ" role="3SKWNk">
-              <property role="3SKdUp" value="the higher the distance from the root the higher the priority if the explicit priority is equal" />
+            <node concept="1PaTwC" id="4Z9cV$lDHAO" role="3ndbpf">
+              <node concept="3oM_SD" id="4Z9cV$lDHAP" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAQ" role="1PaTwD">
+                <property role="3oM_SC" value="higher" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAR" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAS" role="1PaTwD">
+                <property role="3oM_SC" value="distance" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAT" role="1PaTwD">
+                <property role="3oM_SC" value="from" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAU" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAV" role="1PaTwD">
+                <property role="3oM_SC" value="root" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAW" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAX" role="1PaTwD">
+                <property role="3oM_SC" value="higher" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAY" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHAZ" role="1PaTwD">
+                <property role="3oM_SC" value="priority" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHB0" role="1PaTwD">
+                <property role="3oM_SC" value="if" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHB1" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHB2" role="1PaTwD">
+                <property role="3oM_SC" value="explicit" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHB3" role="1PaTwD">
+                <property role="3oM_SC" value="priority" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHB4" role="1PaTwD">
+                <property role="3oM_SC" value="is" />
+              </node>
+              <node concept="3oM_SD" id="4Z9cV$lDHB5" role="1PaTwD">
+                <property role="3oM_SC" value="equal" />
+              </node>
             </node>
           </node>
           <node concept="3vMLTj" id="7C0FR5BeZe2" role="3cqZAp">

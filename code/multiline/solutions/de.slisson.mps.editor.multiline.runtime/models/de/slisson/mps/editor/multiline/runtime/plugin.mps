@@ -7,7 +7,7 @@
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
   </languages>
   <imports>
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
@@ -178,11 +178,8 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -214,6 +211,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -283,8 +288,58 @@
     <node concept="2ScWuX" id="2dxKnIw_bOT" role="tmbBb">
       <node concept="3clFbS" id="2dxKnIw_bOU" role="2VODD2">
         <node concept="3SKdUt" id="2dxKnIw_ijw" role="3cqZAp">
-          <node concept="3SKdUq" id="2dxKnIw_ijx" role="3SKWNk">
-            <property role="3SKdUp" value=" similar to SelectLeft action from MPS. Most probably this case should be handled there in future" />
+          <node concept="1PaTwC" id="4Z9cV$lDHjw" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHjx" role="1PaTwD">
+              <property role="3oM_SC" value="" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjy" role="1PaTwD">
+              <property role="3oM_SC" value="similar" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjz" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj$" role="1PaTwD">
+              <property role="3oM_SC" value="SelectLeft" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHj_" role="1PaTwD">
+              <property role="3oM_SC" value="action" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjA" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjB" role="1PaTwD">
+              <property role="3oM_SC" value="MPS." />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjC" role="1PaTwD">
+              <property role="3oM_SC" value="Most" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjD" role="1PaTwD">
+              <property role="3oM_SC" value="probably" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjE" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjF" role="1PaTwD">
+              <property role="3oM_SC" value="case" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjG" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjH" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjI" role="1PaTwD">
+              <property role="3oM_SC" value="handled" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjJ" role="1PaTwD">
+              <property role="3oM_SC" value="there" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjK" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjL" role="1PaTwD">
+              <property role="3oM_SC" value="future" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="11MD$rT$uDY" role="3cqZAp">
@@ -447,8 +502,58 @@
     <node concept="2ScWuX" id="2dxKnIw_bP$" role="tmbBb">
       <node concept="3clFbS" id="2dxKnIw_bP_" role="2VODD2">
         <node concept="3SKdUt" id="635SBilAYVG" role="3cqZAp">
-          <node concept="3SKdUq" id="635SBilAYVH" role="3SKWNk">
-            <property role="3SKdUp" value=" similar to SelectLeft action from MPS. Most probably this case should be handled there in future" />
+          <node concept="1PaTwC" id="4Z9cV$lDHjM" role="3ndbpf">
+            <node concept="3oM_SD" id="4Z9cV$lDHjN" role="1PaTwD">
+              <property role="3oM_SC" value="" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjO" role="1PaTwD">
+              <property role="3oM_SC" value="similar" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjP" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjQ" role="1PaTwD">
+              <property role="3oM_SC" value="SelectLeft" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjR" role="1PaTwD">
+              <property role="3oM_SC" value="action" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjS" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjT" role="1PaTwD">
+              <property role="3oM_SC" value="MPS." />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjU" role="1PaTwD">
+              <property role="3oM_SC" value="Most" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjV" role="1PaTwD">
+              <property role="3oM_SC" value="probably" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjW" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjX" role="1PaTwD">
+              <property role="3oM_SC" value="case" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjY" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHjZ" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHk0" role="1PaTwD">
+              <property role="3oM_SC" value="handled" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHk1" role="1PaTwD">
+              <property role="3oM_SC" value="there" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHk2" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="4Z9cV$lDHk3" role="1PaTwD">
+              <property role="3oM_SC" value="future" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="635SBilAYVI" role="3cqZAp">

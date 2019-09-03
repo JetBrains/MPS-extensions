@@ -3,8 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -448,7 +448,7 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0A7n" id="4_qW8fWLeJE" role="3EZMnx">
-        <ref role="1NtTu8" to="g93z:4_qW8fWLenH" resolve="kind" />
+        <ref role="1NtTu8" to="g93z:4Z9cV$lDHF8" resolve="kind" />
       </node>
       <node concept="3F0ifn" id="4_qW8fWLeJN" role="3EZMnx">
         <property role="3F0ifm" value="to" />
@@ -582,7 +582,7 @@
         </node>
         <node concept="238au4" id="6rPpQ1NKF$K" role="3kqczz">
           <node concept="3F0A7n" id="6rPpQ1NKF$L" role="2wV5jI">
-            <ref role="1NtTu8" to="g93z:4_qW8fWLenH" resolve="kind" />
+            <ref role="1NtTu8" to="g93z:4Z9cV$lDHF8" resolve="kind" />
             <node concept="VPxyj" id="6rPpQ1NKF$M" role="3F10Kt">
               <property role="VOm3f" value="false" />
             </node>

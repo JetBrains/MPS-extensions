@@ -2,11 +2,12 @@
 <model ref="r:d779ef4d-b8f4-4bf2-9b31-f1c1d22129f6(test.de.q60.mps.shadowmodels.examples@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="ebb56408-a287-44ca-ab2d-1b6ee6850446" name="de.q60.mps.shadowmodels.examples.statemachine" version="0" />
     <use id="ca32b5fa-caea-4f97-9686-6f60d4d677d4" name="de.q60.mps.shadowmodels.examples.entities" version="0" />
     <use id="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" name="de.q60.mps.shadowmodels.examples.blext" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -248,11 +249,8 @@
         <child id="1163670677455" name="expression" index="3Kbmr1" />
         <child id="1163670683720" name="body" index="3Kbo56" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -306,6 +304,10 @@
         <reference id="7256306938026143658" name="target" index="2aWVGs" />
         <child id="7256306938026143676" name="child" index="2aWVGa" />
       </concept>
+      <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
+        <property id="1863527487546097500" name="moduleId" index="1XweGW" />
+        <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
+      </concept>
     </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
       <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
@@ -322,10 +324,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="427659576753752243" name="jetbrains.mps.lang.smodel.structure.ModulePointer" flags="ng" index="20RdaH">
-        <property id="427659576753753627" name="moduleId" index="20Rdg5" />
-        <property id="427659576753753625" name="moduleName" index="20Rdg7" />
-      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -379,6 +377,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -448,9 +454,9 @@
             <node concept="2ShNRf" id="4JmkJs3KBaV" role="37wK5m">
               <node concept="Tc6Ow" id="4JmkJs3KCMD" role="2ShVmc">
                 <node concept="37shsh" id="4JmkJs3KG8U" role="HW$Y0">
-                  <node concept="20RdaH" id="4JmkJs3KG8V" role="37shsm">
-                    <property role="20Rdg5" value="ebb56408-a287-44ca-ab2d-1b6ee6850446" />
-                    <property role="20Rdg7" value="de.q60.mps.shadowmodels.examples.statemachine" />
+                  <node concept="1dCxOk" id="4Z9cV$lDHFU" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.statemachine" />
+                    <property role="1XweGW" value="ebb56408-a287-44ca-ab2d-1b6ee6850446" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="4JmkJs3KH0a" role="HW$YZ">
@@ -1545,9 +1551,9 @@
             <node concept="2ShNRf" id="4JmkJs3KI9V" role="37wK5m">
               <node concept="Tc6Ow" id="4JmkJs3KI9W" role="2ShVmc">
                 <node concept="37shsh" id="4JmkJs3KI9X" role="HW$Y0">
-                  <node concept="20RdaH" id="4JmkJs3KLRZ" role="37shsm">
-                    <property role="20Rdg5" value="ca32b5fa-caea-4f97-9686-6f60d4d677d4" />
-                    <property role="20Rdg7" value="de.q60.mps.shadowmodels.examples.entities" />
+                  <node concept="1dCxOk" id="4Z9cV$lDHFV" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.entities" />
+                    <property role="1XweGW" value="ca32b5fa-caea-4f97-9686-6f60d4d677d4" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="4JmkJs3KI9Z" role="HW$YZ">
@@ -1582,9 +1588,9 @@
             <node concept="2ShNRf" id="56YPHTou7eV" role="37wK5m">
               <node concept="Tc6Ow" id="56YPHTou7eW" role="2ShVmc">
                 <node concept="37shsh" id="56YPHTou7eX" role="HW$Y0">
-                  <node concept="20RdaH" id="56YPHTou7eY" role="37shsm">
-                    <property role="20Rdg5" value="ca32b5fa-caea-4f97-9686-6f60d4d677d4" />
-                    <property role="20Rdg7" value="de.q60.mps.shadowmodels.examples.entities" />
+                  <node concept="1dCxOk" id="4Z9cV$lDHFW" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.entities" />
+                    <property role="1XweGW" value="ca32b5fa-caea-4f97-9686-6f60d4d677d4" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="56YPHTou7eZ" role="HW$YZ">
@@ -1824,9 +1830,9 @@
             <node concept="2ShNRf" id="4wrAhqcXL12" role="37wK5m">
               <node concept="Tc6Ow" id="4wrAhqcXL13" role="2ShVmc">
                 <node concept="37shsh" id="4wrAhqcXL14" role="HW$Y0">
-                  <node concept="20RdaH" id="5VZCLuIS$vl" role="37shsm">
-                    <property role="20Rdg5" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
-                    <property role="20Rdg7" value="de.q60.mps.shadowmodels.examples.blext" />
+                  <node concept="1dCxOk" id="4Z9cV$lDHFX" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.blext" />
+                    <property role="1XweGW" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="4wrAhqcXL16" role="HW$YZ">
@@ -2055,9 +2061,9 @@
             <node concept="2ShNRf" id="2BHSBiuwPS1" role="37wK5m">
               <node concept="Tc6Ow" id="2BHSBiuwPS2" role="2ShVmc">
                 <node concept="37shsh" id="2BHSBiuwPS3" role="HW$Y0">
-                  <node concept="20RdaH" id="2BHSBiuwPS4" role="37shsm">
-                    <property role="20Rdg5" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
-                    <property role="20Rdg7" value="de.q60.mps.shadowmodels.examples.blext" />
+                  <node concept="1dCxOk" id="4Z9cV$lDHFY" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.blext" />
+                    <property role="1XweGW" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="2BHSBiuwPS5" role="HW$YZ">
@@ -2216,8 +2222,22 @@
               </node>
               <node concept="3clFbS" id="2BHSBiuwvc0" role="2LFqv$">
                 <node concept="3SKdUt" id="2BHSBiuwvc1" role="3cqZAp">
-                  <node concept="3SKdUq" id="2BHSBiuwvc2" role="3SKWNk">
-                    <property role="3SKdUp" value="For testing multi stage subgraphs" />
+                  <node concept="1PaTwC" id="4Z9cV$lDHvh" role="3ndbpf">
+                    <node concept="3oM_SD" id="4Z9cV$lDHvi" role="1PaTwD">
+                      <property role="3oM_SC" value="For" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHvj" role="1PaTwD">
+                      <property role="3oM_SC" value="testing" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHvk" role="1PaTwD">
+                      <property role="3oM_SC" value="multi" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHvl" role="1PaTwD">
+                      <property role="3oM_SC" value="stage" />
+                    </node>
+                    <node concept="3oM_SD" id="4Z9cV$lDHvm" role="1PaTwD">
+                      <property role="3oM_SC" value="subgraphs" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -2290,9 +2310,9 @@
             <node concept="2ShNRf" id="7c10t$7fcIM" role="37wK5m">
               <node concept="Tc6Ow" id="7c10t$7fcIN" role="2ShVmc">
                 <node concept="37shsh" id="7c10t$7fcIO" role="HW$Y0">
-                  <node concept="20RdaH" id="7c10t$7fcIP" role="37shsm">
-                    <property role="20Rdg5" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
-                    <property role="20Rdg7" value="de.q60.mps.shadowmodels.examples.blext" />
+                  <node concept="1dCxOk" id="4Z9cV$lDHFZ" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.blext" />
+                    <property role="1XweGW" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="7c10t$7fcIQ" role="HW$YZ">
@@ -2332,9 +2352,9 @@
             <node concept="2ShNRf" id="7c10t$7fgt$" role="37wK5m">
               <node concept="Tc6Ow" id="7c10t$7fgt_" role="2ShVmc">
                 <node concept="37shsh" id="7c10t$7fgtA" role="HW$Y0">
-                  <node concept="20RdaH" id="7c10t$7fgtB" role="37shsm">
-                    <property role="20Rdg5" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
-                    <property role="20Rdg7" value="de.q60.mps.shadowmodels.examples.blext" />
+                  <node concept="1dCxOk" id="4Z9cV$lDHG0" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.blext" />
+                    <property role="1XweGW" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="7c10t$7fgtC" role="HW$YZ">

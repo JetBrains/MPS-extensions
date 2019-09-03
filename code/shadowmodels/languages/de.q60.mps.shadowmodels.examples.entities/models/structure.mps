@@ -2,7 +2,7 @@
 <model ref="r:cc5d8794-93e1-4a17-9568-f7b92b71d018(de.q60.mps.shadowmodels.examples.entities.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -45,9 +45,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="TC$M5wSnRm" role="1TKVEi">
       <property role="IQ2ns" value="1038241485677493718" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="properties" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TC$M5wSnRf" resolve="Property" />
     </node>
     <node concept="PrWs8" id="TC$M5wSnRo" role="PzmwI">
@@ -60,9 +60,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="TC$M5wSnRt" role="1TKVEi">
       <property role="IQ2ns" value="1038241485677493725" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="TC$M5wSnRh" resolve="Type" />
     </node>
     <node concept="PrWs8" id="TC$M5wSnRr" role="PzmwI">
@@ -75,9 +75,8 @@
     <ref role="1TJDcQ" node="TC$M5wSnRh" resolve="Type" />
     <node concept="1TJgyj" id="TC$M5wSnRk" role="1TKVEi">
       <property role="IQ2ns" value="1038241485677493716" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="entity" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="TC$M5wSnRe" resolve="Entity" />
     </node>
   </node>

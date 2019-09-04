@@ -1839,6 +1839,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="EtsnPr2PV9" role="3bR37C">
+          <node concept="3bR9La" id="EtsnPr2PVa" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6oSQRDqpviL" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -5837,6 +5842,9 @@
       </node>
       <node concept="m$_yC" id="4iIKqJTZ5Ie" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="EtsnPr2Qen" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
       </node>
       <node concept="3_J27D" id="4iIKqJTZ5If" role="m_cZH">
         <node concept="3Mxwew" id="4iIKqJTZ5Ig" role="3MwsjC">

@@ -43,7 +43,7 @@ if (project.hasProperty("forceCI")) {
 //if(JavaVersion.current() != JavaVersion.VERSION_1_8){
 //    throw new GradleException("This build script requires java " + JavaVersion.VERSION_1_8 + ", but you are currently using " + JavaVersion.current())
 //}
-// Detect jdk location, required to start ant with tools.jar on classpath otherwise javac and tests will fail
+// Detect jdk location, required to start ant with JDK on classpath otherwise javac and tests will fail
 def java_home = System.properties['java.home']
 def jdk_home = java_home
 if (!file("$jdk_home/lib").exists()) {
@@ -64,7 +64,7 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2019.2.+'
+ext.mpsMajor = '2019.2'
 ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
@@ -157,10 +157,9 @@ dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.1"
 }
 
-// tools might be needed later for running test scripts
 ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
     true
-}) + project.files("$project.jdk_home/lib/tools.jar")
+})
 
 def artifactsDir = new File(rootDir, 'artifacts')
 

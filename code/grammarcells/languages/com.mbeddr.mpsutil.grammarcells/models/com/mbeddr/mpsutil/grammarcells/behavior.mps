@@ -767,8 +767,8 @@
                   </node>
                 </node>
                 <node concept="1mIQ4w" id="3KoBPk0PfY3" role="2OqNvi">
-                  <node concept="chp4Y" id="3KoBPk0Pg4c" role="cj9EA">
-                    <ref role="cht4Q" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration_Old" />
+                  <node concept="chp4Y" id="_I9mxtzpkq" role="cj9EA">
+                    <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
                   </node>
                 </node>
               </node>
@@ -879,8 +879,8 @@
                   </node>
                   <node concept="2OqwBi" id="3KoBPk0Pkgj" role="3uHU7w">
                     <node concept="1PxgMI" id="3KoBPk0PjYt" role="2Oq$k0">
-                      <node concept="chp4Y" id="5RIakkDIVBF" role="3oSUPX">
-                        <ref role="cht4Q" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration_Old" />
+                      <node concept="chp4Y" id="_I9mxtzpu0" role="3oSUPX">
+                        <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
                       </node>
                       <node concept="2OqwBi" id="3KoBPk0PjoI" role="1m5AlR">
                         <node concept="2OqwBi" id="3KoBPk0PiA2" role="2Oq$k0">

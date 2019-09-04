@@ -2,8 +2,8 @@
 <model ref="r:780bbc81-d170-48ec-b42e-89f51d5b0ee5(com.mbeddr.mpsutil.grammarcells.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -766,8 +766,8 @@
                   </node>
                 </node>
                 <node concept="1mIQ4w" id="3KoBPk0PfY3" role="2OqNvi">
-                  <node concept="chp4Y" id="3KoBPk0Pg4c" role="cj9EA">
-                    <ref role="cht4Q" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration_Old" />
+                  <node concept="chp4Y" id="_I9mxtzpkq" role="cj9EA">
+                    <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
                   </node>
                 </node>
               </node>
@@ -878,9 +878,6 @@
                   </node>
                   <node concept="2OqwBi" id="3KoBPk0Pkgj" role="3uHU7w">
                     <node concept="1PxgMI" id="3KoBPk0PjYt" role="2Oq$k0">
-                      <node concept="chp4Y" id="5RIakkDIVBF" role="3oSUPX">
-                        <ref role="cht4Q" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration_Old" />
-                      </node>
                       <node concept="2OqwBi" id="3KoBPk0PjoI" role="1m5AlR">
                         <node concept="2OqwBi" id="3KoBPk0PiA2" role="2Oq$k0">
                           <node concept="1PxgMI" id="3KoBPk0PijT" role="2Oq$k0">
@@ -898,6 +895,9 @@
                         <node concept="3TrEf2" id="3KoBPk0PjHJ" role="2OqNvi">
                           <ref role="3Tt5mk" to="tpce:fKAX2Z_" resolve="dataType" />
                         </node>
+                      </node>
+                      <node concept="chp4Y" id="_I9mxtzpu0" role="3oSUPX">
+                        <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="3KoBPk0PkrK" role="2OqNvi">

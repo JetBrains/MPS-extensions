@@ -84,7 +84,7 @@
       <property role="IQ2ns" value="2135528801629813762" />
       <property role="20kJfa" value="literal" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpce:fKM4N6M" resolve="EnumerationMemberDeclaration_Old" />
+      <ref role="20lvS9" to="tpce:2TR3acGo7Lw" resolve="EnumerationMemberDeclaration" />
     </node>
     <node concept="1TJgyj" id="44Oik0UqB59" role="1TKVEi">
       <property role="IQ2ns" value="4698460851461058889" />

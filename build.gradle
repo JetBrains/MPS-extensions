@@ -76,7 +76,7 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2019.1.+'
+ext.mpsMajor = '2019.2'
 ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
@@ -85,7 +85,7 @@ def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
 
 
-def minor = '1'
+def minor = '2'
 def major = '2019'
 
 if (ciBuild) {
@@ -169,10 +169,9 @@ dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.1"
 }
 
-// tools might be needed later for running test scripts
 ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
     true
-}) + project.files("$project.jdk_home/lib/tools.jar")
+})
 
 def artifactsDir = new File(rootDir, 'artifacts')
 

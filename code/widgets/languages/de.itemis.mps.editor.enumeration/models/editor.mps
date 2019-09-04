@@ -12,7 +12,6 @@
     <import index="t51k" ref="r:69e29f69-e5fe-4c7c-8fb9-def0a236032d(de.itemis.mps.editor.enumeration.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -250,9 +249,9 @@
           <ref role="1NtTu8" to="t51k:1QyV25GKFK2" resolve="literal" />
           <ref role="1ERwB7" to="tpc5:3Un2VKKuWkG" resolve="PropertyExpressionDelete_Actions" />
           <node concept="1sVBvm" id="1QyV25GKG9v" role="1sWHZn">
-            <node concept="3F0A7n" id="1QyV25GKG9F" role="2wV5jI">
+            <node concept="3F0A7n" id="_I9mxudoQb" role="2wV5jI">
               <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpce:fLuS6p$" resolve="externalValue" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
           <node concept="VPM3Z" id="5ZOdHnczgMR" role="3F10Kt">

@@ -3102,7 +3102,6 @@
   </node>
   <node concept="18kY7G" id="243ufko$AbW">
     <property role="TrG5h" value="check_IDeprecatedLangConcept" />
-    <property role="18ip37" value="true" />
     <node concept="3clFbS" id="243ufko$AbX" role="18ibNy">
       <node concept="3cpWs8" id="243ufko$AbY" role="3cqZAp">
         <node concept="3cpWsn" id="243ufko$AbZ" role="3cpWs9">

@@ -14,3 +14,7 @@ site
 .DS_Store
 .gradletasknamecache
 .idea/encodings.xml
+
+# MPS temporary directories
+/system/
+/config/

@@ -4,7 +4,7 @@ buildscript {
         maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }
     dependencies {
-        classpath 'de.itemis.mps:mps-gradle-plugin:1.2+'
+        classpath('de.itemis.mps:mps-gradle-plugin:1.2.165.6d9d3c9')
     }
 }
 
@@ -39,19 +39,28 @@ if (project.hasProperty("forceCI")) {
     }
 }
 
-// comprehensible error message if not running java 8
-if(JavaVersion.current() != JavaVersion.VERSION_1_8){
-    throw new GradleException("This build script requires java " + JavaVersion.VERSION_1_8 + ", but you are currently using " + JavaVersion.current())
+def jdk_home
+
+if (ext.has('java11_home')) {
+    jdk_home = ext.get('java11_home')
+} else if (System.getenv('JAVA11_HOME') != null) {
+    jdk_home = System.getenv('JAVA11_HOME')
+} else {
+    def expected = JavaVersion.VERSION_11
+    if (JavaVersion.current() != expected) {
+        throw new GradleException("This build script requires Java 11 but you are currently using ${JavaVersion.current()}.\nWhat you can do:\n"
+            + "  * Use project property java11_home to point to the Java 11 SDK.\n"
+            + "  * Use environment variable JAVA11_HOME to point to the Java 11 SDK\n"
+            + "  * Run Gradle using Java 11")
+    }
+    jdk_home = System.getProperty('java.home')
 }
-// Detect jdk location, required to start ant with tools.jar on classpath otherwise javac and tests will fail
-def java_home = System.properties['java.home']
-def jdk_home = java_home
-if (!file("$jdk_home/lib/tools.jar").isFile()) {
-    jdk_home = jdk_home + "/.."
+
+// Check JDK location
+if (!new File(jdk_home, "lib").exists()) {
+    throw new GradleException("Unable to locate JDK home folder. Detected folder is: $jdk_home")
 }
-if (!file("$jdk_home/lib/tools.jar").isFile()) {
-    throw new GradleException("Was not able to locate jdk home folder. Use 'jdk_home' project variable to specify JDK location explicitly. Current JAVA_HOME is: $java_home")
-}
+
 ext.jdk_home = jdk_home
 
 // Default repository credentials
@@ -186,6 +195,7 @@ def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.
 // enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
+ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
 
 
 task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]) {

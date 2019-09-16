@@ -5,7 +5,8 @@
     <use id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="-1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -252,11 +253,8 @@
         <child id="1163670683720" name="body" index="3Kbo56" />
       </concept>
       <concept id="3066917033203108594" name="jetbrains.mps.baseLanguage.structure.LocalInstanceMethodCall" flags="nn" index="3P9mCS" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -312,6 +310,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline">
@@ -880,13 +886,80 @@
         </node>
         <node concept="3clFbH" id="2af7$rtzEfD" role="3cqZAp" />
         <node concept="3SKdUt" id="2af7$rtzdtE" role="3cqZAp">
-          <node concept="3SKdUq" id="2af7$rtzdtF" role="3SKWNk">
-            <property role="3SKdUp" value="Replace the indent cell layout to apply some custom changes to the default behavior" />
+          <node concept="1PaTwC" id="7WTFIQIcXmY" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXmZ" role="1PaTwD">
+              <property role="3oM_SC" value="Replace" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn0" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn1" role="1PaTwD">
+              <property role="3oM_SC" value="indent" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn2" role="1PaTwD">
+              <property role="3oM_SC" value="cell" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn3" role="1PaTwD">
+              <property role="3oM_SC" value="layout" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn4" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn5" role="1PaTwD">
+              <property role="3oM_SC" value="apply" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn6" role="1PaTwD">
+              <property role="3oM_SC" value="some" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn7" role="1PaTwD">
+              <property role="3oM_SC" value="custom" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn8" role="1PaTwD">
+              <property role="3oM_SC" value="changes" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn9" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXna" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnb" role="1PaTwD">
+              <property role="3oM_SC" value="default" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnc" role="1PaTwD">
+              <property role="3oM_SC" value="behavior" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="2af7$rtzdtG" role="3cqZAp">
-          <node concept="3SKdUq" id="2af7$rtzdtH" role="3SKWNk">
-            <property role="3SKdUp" value="(where to wrap lines, no indentation after wrapping, ...)" />
+          <node concept="1PaTwC" id="7WTFIQIcXnd" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXne" role="1PaTwD">
+              <property role="3oM_SC" value="(where" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnf" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXng" role="1PaTwD">
+              <property role="3oM_SC" value="wrap" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnh" role="1PaTwD">
+              <property role="3oM_SC" value="lines," />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXni" role="1PaTwD">
+              <property role="3oM_SC" value="no" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnj" role="1PaTwD">
+              <property role="3oM_SC" value="indentation" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnk" role="1PaTwD">
+              <property role="3oM_SC" value="after" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnl" role="1PaTwD">
+              <property role="3oM_SC" value="wrapping," />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnm" role="1PaTwD">
+              <property role="3oM_SC" value="...)" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="5yrLEGnVGRb" role="3cqZAp">
@@ -1025,8 +1098,28 @@
                       </node>
                       <node concept="3clFbS" id="4Q9g1gQQZMi" role="3clF47">
                         <node concept="3SKdUt" id="5pfU$MGtg5V" role="3cqZAp">
-                          <node concept="3SKdUq" id="5pfU$MGtg5X" role="3SKWNk">
-                            <property role="3SKdUp" value="Fix for non working heuristic in EditorCellLabelSelection.processSideDeletes" />
+                          <node concept="1PaTwC" id="7WTFIQIcXnn" role="3ndbpf">
+                            <node concept="3oM_SD" id="7WTFIQIcXno" role="1PaTwD">
+                              <property role="3oM_SC" value="Fix" />
+                            </node>
+                            <node concept="3oM_SD" id="7WTFIQIcXnp" role="1PaTwD">
+                              <property role="3oM_SC" value="for" />
+                            </node>
+                            <node concept="3oM_SD" id="7WTFIQIcXnq" role="1PaTwD">
+                              <property role="3oM_SC" value="non" />
+                            </node>
+                            <node concept="3oM_SD" id="7WTFIQIcXnr" role="1PaTwD">
+                              <property role="3oM_SC" value="working" />
+                            </node>
+                            <node concept="3oM_SD" id="7WTFIQIcXns" role="1PaTwD">
+                              <property role="3oM_SC" value="heuristic" />
+                            </node>
+                            <node concept="3oM_SD" id="7WTFIQIcXnt" role="1PaTwD">
+                              <property role="3oM_SC" value="in" />
+                            </node>
+                            <node concept="3oM_SD" id="7WTFIQIcXnu" role="1PaTwD">
+                              <property role="3oM_SC" value="EditorCellLabelSelection.processSideDeletes" />
+                            </node>
                           </node>
                         </node>
                         <node concept="3clFbJ" id="5pfU$MGsYPF" role="3cqZAp">
@@ -1292,8 +1385,34 @@
         </node>
         <node concept="3clFbH" id="4Q9g1gQQR2x" role="3cqZAp" />
         <node concept="3SKdUt" id="2af7$rtzdpN" role="3cqZAp">
-          <node concept="3SKdUq" id="2af7$rtzdpO" role="3SKWNk">
-            <property role="3SKdUp" value="A delete on a constant cell deletes the node" />
+          <node concept="1PaTwC" id="7WTFIQIcXnv" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXnw" role="1PaTwD">
+              <property role="3oM_SC" value="A" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnx" role="1PaTwD">
+              <property role="3oM_SC" value="delete" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXny" role="1PaTwD">
+              <property role="3oM_SC" value="on" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnz" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn$" role="1PaTwD">
+              <property role="3oM_SC" value="constant" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXn_" role="1PaTwD">
+              <property role="3oM_SC" value="cell" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnA" role="1PaTwD">
+              <property role="3oM_SC" value="deletes" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnB" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnC" role="1PaTwD">
+              <property role="3oM_SC" value="node" />
+            </node>
           </node>
         </node>
         <node concept="2Gpval" id="2af7$rtzdpP" role="3cqZAp">
@@ -1498,8 +1617,43 @@
         </node>
         <node concept="3clFbH" id="2af7$rtzdqA" role="3cqZAp" />
         <node concept="3SKdUt" id="2af7$rtzdqB" role="3cqZAp">
-          <node concept="3SKdUq" id="2af7$rtzdqC" role="3SKWNk">
-            <property role="3SKdUp" value="remove spaces from the indent layout between plain text and other nodes" />
+          <node concept="1PaTwC" id="7WTFIQIcXnD" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXnE" role="1PaTwD">
+              <property role="3oM_SC" value="remove" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnF" role="1PaTwD">
+              <property role="3oM_SC" value="spaces" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnG" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnH" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnI" role="1PaTwD">
+              <property role="3oM_SC" value="indent" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnJ" role="1PaTwD">
+              <property role="3oM_SC" value="layout" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnK" role="1PaTwD">
+              <property role="3oM_SC" value="between" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnL" role="1PaTwD">
+              <property role="3oM_SC" value="plain" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnM" role="1PaTwD">
+              <property role="3oM_SC" value="text" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnN" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnO" role="1PaTwD">
+              <property role="3oM_SC" value="other" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnP" role="1PaTwD">
+              <property role="3oM_SC" value="nodes" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="2af7$rtzdqD" role="3cqZAp">
@@ -1714,8 +1868,46 @@
         </node>
         <node concept="3clFbH" id="2af7$rtzdsh" role="3cqZAp" />
         <node concept="3SKdUt" id="2af7$rtzdsi" role="3cqZAp">
-          <node concept="3SKdUq" id="2af7$rtzdsj" role="3SKWNk">
-            <property role="3SKdUp" value="Override some actions of the EditorCell_Word to make selections work with embedded nodes" />
+          <node concept="1PaTwC" id="7WTFIQIcXnQ" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXnR" role="1PaTwD">
+              <property role="3oM_SC" value="Override" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnS" role="1PaTwD">
+              <property role="3oM_SC" value="some" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnT" role="1PaTwD">
+              <property role="3oM_SC" value="actions" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnU" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnV" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnW" role="1PaTwD">
+              <property role="3oM_SC" value="EditorCell_Word" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnX" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnY" role="1PaTwD">
+              <property role="3oM_SC" value="make" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXnZ" role="1PaTwD">
+              <property role="3oM_SC" value="selections" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXo0" role="1PaTwD">
+              <property role="3oM_SC" value="work" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXo1" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXo2" role="1PaTwD">
+              <property role="3oM_SC" value="embedded" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXo3" role="1PaTwD">
+              <property role="3oM_SC" value="nodes" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="2af7$rtzdsk" role="3cqZAp">
@@ -1970,8 +2162,13 @@
                             </node>
                             <node concept="3clFbH" id="511fZqnuS9l" role="3cqZAp" />
                             <node concept="3SKdUt" id="511fZqnuz7i" role="3cqZAp">
-                              <node concept="3SKdUq" id="511fZqnuzy8" role="3SKWNk">
-                                <property role="3SKdUp" value="substitute info" />
+                              <node concept="1PaTwC" id="7WTFIQIcXo4" role="3ndbpf">
+                                <node concept="3oM_SD" id="7WTFIQIcXo5" role="1PaTwD">
+                                  <property role="3oM_SC" value="substitute" />
+                                </node>
+                                <node concept="3oM_SD" id="7WTFIQIcXo6" role="1PaTwD">
+                                  <property role="3oM_SC" value="info" />
+                                </node>
                               </node>
                             </node>
                             <node concept="3clFbF" id="511fZqnuSDF" role="3cqZAp">
@@ -2012,8 +2209,13 @@
         </node>
         <node concept="3clFbH" id="2af7$rtzduN" role="3cqZAp" />
         <node concept="3SKdUt" id="2af7$rtzduO" role="3cqZAp">
-          <node concept="3SKdUq" id="2af7$rtzduP" role="3SKWNk">
-            <property role="3SKdUp" value="VCS support" />
+          <node concept="1PaTwC" id="7WTFIQIcXo7" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXo8" role="1PaTwD">
+              <property role="3oM_SC" value="VCS" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXo9" role="1PaTwD">
+              <property role="3oM_SC" value="support" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="2af7$rtzduQ" role="3cqZAp">
@@ -2092,8 +2294,22 @@
         </node>
         <node concept="3clFbH" id="2af7$rtzZJH" role="3cqZAp" />
         <node concept="3SKdUt" id="6rJIibKur1v" role="3cqZAp">
-          <node concept="3SKdUq" id="6rJIibKurLO" role="3SKWNk">
-            <property role="3SKdUp" value="disable shift+mouse selection of multiline" />
+          <node concept="1PaTwC" id="7WTFIQIcXoa" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXob" role="1PaTwD">
+              <property role="3oM_SC" value="disable" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXoc" role="1PaTwD">
+              <property role="3oM_SC" value="shift+mouse" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXod" role="1PaTwD">
+              <property role="3oM_SC" value="selection" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXoe" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXof" role="1PaTwD">
+              <property role="3oM_SC" value="multiline" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="6rJIibKuAyO" role="3cqZAp">

@@ -2,7 +2,7 @@
 <model ref="r:ace17141-8c1f-467c-85bb-014605eca047(de.q60.mps.shadowmodels.examples.statemachine.intentions)">
   <persistence version="9" />
   <languages>
-    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -88,9 +88,7 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -208,7 +206,7 @@
                       <ref role="2pJxaS" to="yb34:6ndA7L_L0uI" resolve="Transition" />
                       <node concept="2pIpSj" id="4ZkYAL4eVEK" role="2pJxcM">
                         <ref role="2pIpSl" to="yb34:6ndA7L_L16G" resolve="target" />
-                        <node concept="36biLy" id="4ZkYAL4eVWa" role="2pJxcZ">
+                        <node concept="36biLy" id="4ZkYAL4eVWa" role="28nt2d">
                           <node concept="2OqwBi" id="4ZkYAL4feEA" role="36biLW">
                             <node concept="2OqwBi" id="4ZkYAL4fcyA" role="2Oq$k0">
                               <node concept="2Sf5sV" id="4ZkYAL4fcoT" role="2Oq$k0" />
@@ -222,7 +220,7 @@
                       </node>
                       <node concept="2pIpSj" id="4ZkYAL4eRtD" role="2pJxcM">
                         <ref role="2pIpSl" to="yb34:6ndA7L_L16C" resolve="event" />
-                        <node concept="36biLy" id="4ZkYAL4eRE$" role="2pJxcZ">
+                        <node concept="36biLy" id="4ZkYAL4eRE$" role="28nt2d">
                           <node concept="2OqwBi" id="4ZkYAL4eTUY" role="36biLW">
                             <node concept="2OqwBi" id="4ZkYAL4eROD" role="2Oq$k0">
                               <node concept="2Sf5sV" id="4ZkYAL4eRF0" role="2Oq$k0" />
@@ -255,7 +253,7 @@
                       <ref role="2pJxaS" to="yb34:6ndA7L_L0uI" resolve="Transition" />
                       <node concept="2pIpSj" id="4ZkYAL4eWDz" role="2pJxcM">
                         <ref role="2pIpSl" to="yb34:6ndA7L_L16G" resolve="target" />
-                        <node concept="36biLy" id="4ZkYAL4eWD$" role="2pJxcZ">
+                        <node concept="36biLy" id="4ZkYAL4eWD$" role="28nt2d">
                           <node concept="2OqwBi" id="4ZkYAL4f9zm" role="36biLW">
                             <node concept="2OqwBi" id="4ZkYAL4f7t1" role="2Oq$k0">
                               <node concept="2Sf5sV" id="4ZkYAL4f7ji" role="2Oq$k0" />
@@ -273,7 +271,7 @@
                       </node>
                       <node concept="2pIpSj" id="4ZkYAL4eWDE" role="2pJxcM">
                         <ref role="2pIpSl" to="yb34:6ndA7L_L16C" resolve="event" />
-                        <node concept="36biLy" id="4ZkYAL4eWDF" role="2pJxcZ">
+                        <node concept="36biLy" id="4ZkYAL4eWDF" role="28nt2d">
                           <node concept="2OqwBi" id="4ZkYAL4eWDG" role="36biLW">
                             <node concept="2OqwBi" id="4ZkYAL4eWDH" role="2Oq$k0">
                               <node concept="2Sf5sV" id="4ZkYAL4eWDI" role="2Oq$k0" />

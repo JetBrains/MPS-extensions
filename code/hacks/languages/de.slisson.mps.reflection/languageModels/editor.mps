@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
   </languages>
   <imports>
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
@@ -213,7 +213,7 @@
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
               <ref role="1k5W1q" to="tpen:6H7j4iMM5Cm" resolve="MPSMethodCall" />
               <node concept="Vb9p2" id="hEUNQY6" role="3F10Kt">
-                <property role="Vbekb" value="ITALIC" />
+                <property role="Vbekb" value="g1_kEg4/ITALIC" />
               </node>
             </node>
           </node>
@@ -269,7 +269,7 @@
         <node concept="1sVBvm" id="fPFlXsc" role="1sWHZn">
           <node concept="3F0A7n" id="fPFlXsd" role="2wV5jI">
             <property role="1Intyy" value="true" />
-            <property role="1cu_pB" value="1" />
+            <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1k5W1q" to="tpen:hrRWGGt" resolve="StaticField" />
           </node>
@@ -295,10 +295,10 @@
     <node concept="1Qtc8_" id="4iNiUqGz3k9" role="IW6Ez">
       <node concept="3cWJ9i" id="4iNiUqGz3ka" role="1Qtc8$">
         <node concept="CtIbL" id="4iNiUqGz3kb" role="CtIbM">
-          <property role="CtIbK" value="LEFT" />
+          <property role="CtIbK" value="1A4kJjlVmVt/LEFT" />
         </node>
         <node concept="CtIbL" id="4iNiUqGz3kc" role="CtIbM">
-          <property role="CtIbK" value="RIGHT" />
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
         </node>
       </node>
       <node concept="mvV$s" id="4iNiUqGz3kd" role="1Qtc8A">

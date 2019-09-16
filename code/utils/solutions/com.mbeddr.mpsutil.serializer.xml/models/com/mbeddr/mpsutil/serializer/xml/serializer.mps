@@ -5,8 +5,8 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -1271,7 +1271,7 @@
           <node concept="3cpWsn" id="i2lWoUt" role="3cpWs9">
             <property role="TrG5h" value="def" />
             <node concept="3Tqbb2" id="i2lWoUu" role="1tU5fm">
-              <ref role="ehGHo" to="tpce:fKM4N6M" resolve="EnumerationMemberDeclaration" />
+              <ref role="ehGHo" to="tpce:fKM4N6M" resolve="EnumerationMemberDeclaration_Old" />
             </node>
             <node concept="2OqwBi" id="i2lWoUv" role="33vP2m">
               <node concept="37vLTw" id="2B_XTD6XXM$" role="2Oq$k0">
@@ -1327,7 +1327,7 @@
       <node concept="37vLTG" id="2B_XTD6XUAj" role="3clF46">
         <property role="TrG5h" value="enumDecl" />
         <node concept="3Tqbb2" id="2B_XTD6XUAi" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration" />
+          <ref role="ehGHo" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration_Old" />
         </node>
       </node>
     </node>
@@ -1736,7 +1736,7 @@
                                 <ref role="3cqZAo" node="6ADng3LaCp" resolve="dataType" />
                               </node>
                               <node concept="chp4Y" id="5RIakkDMepe" role="3oSUPX">
-                                <ref role="cht4Q" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration" />
+                                <ref role="cht4Q" to="tpce:fKAxPRV" resolve="EnumerationDataTypeDeclaration_Old" />
                               </node>
                             </node>
                           </node>

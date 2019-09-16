@@ -2,9 +2,9 @@
 <model ref="r:33ba366d-6b72-41ff-886d-59761f1ab916(test.de.itemis.mps.editor.celllayout.lang.intentions)">
   <persistence version="9" />
   <languages>
-    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="1" />
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="3" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -196,6 +196,9 @@
       <concept id="1196350785112" name="jetbrains.mps.lang.quotation.structure.Antiquotation" flags="ng" index="2c44te" />
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
         <child id="1196350785114" name="quotedNode" index="2c44tc" />
+      </concept>
+      <concept id="4056363777117001481" name="jetbrains.mps.lang.quotation.structure.StringToTypedValueMigrationInfo" flags="ng" index="AAgTk">
+        <property id="2173356959483005420" name="stringValueMigrated" index="3qcH_f" />
       </concept>
       <concept id="1196866233735" name="jetbrains.mps.lang.quotation.structure.PropertyAntiquotation" flags="ng" index="2EMmih" />
     </language>
@@ -491,6 +494,7 @@
                                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104957/6329021646629104958" />
                                       <property role="2qtEX9" value="text" />
                                       <property role="3hQQBS" value="TextCommentPart" />
+                                      <property role="3qcH_f" value="true" />
                                       <node concept="1rXfSq" id="rlw0PZSYpi" role="2c44t1">
                                         <ref role="37wK5l" node="rlw0PZSHZK" resolve="getCellDescription" />
                                         <node concept="37vLTw" id="rlw0PZSYv5" role="37wK5m">
@@ -507,27 +511,23 @@
                                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                                       <property role="2qtEX9" value="value" />
                                       <property role="3hQQBS" value="IntegerConstant" />
-                                      <node concept="3cpWs3" id="rlw0PZMO_A" role="2c44t1">
-                                        <node concept="Xl_RD" id="rlw0PZMOA$" role="3uHU7B">
-                                          <property role="Xl_RC" value="" />
-                                        </node>
-                                        <node concept="1eOMI4" id="rlw0PZOhxx" role="3uHU7w">
-                                          <node concept="3cpWsd" id="rlw0PZOhBW" role="1eOMHV">
-                                            <node concept="2OqwBi" id="rlw0PZOiOS" role="3uHU7w">
-                                              <node concept="37vLTw" id="rlw0PZOiMC" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="rlw0PZOdZ7" resolve="_root" />
-                                              </node>
-                                              <node concept="liA8E" id="rlw0PZOjoP" role="2OqNvi">
-                                                <ref role="37wK5l" to="f4zo:~EditorCell.getX()" resolve="getX" />
-                                              </node>
+                                      <property role="3qcH_f" value="true" />
+                                      <node concept="1eOMI4" id="rlw0PZOhxx" role="2c44t1">
+                                        <node concept="3cpWsd" id="rlw0PZOhBW" role="1eOMHV">
+                                          <node concept="2OqwBi" id="rlw0PZOiOS" role="3uHU7w">
+                                            <node concept="37vLTw" id="rlw0PZOiMC" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="rlw0PZOdZ7" resolve="_root" />
                                             </node>
-                                            <node concept="2OqwBi" id="rlw0PZOhxy" role="3uHU7B">
-                                              <node concept="37vLTw" id="rlw0PZOhxz" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
-                                              </node>
-                                              <node concept="liA8E" id="rlw0PZOhx$" role="2OqNvi">
-                                                <ref role="37wK5l" to="f4zo:~EditorCell.getX()" resolve="getX" />
-                                              </node>
+                                            <node concept="liA8E" id="rlw0PZOjoP" role="2OqNvi">
+                                              <ref role="37wK5l" to="f4zo:~EditorCell.getX()" resolve="getX" />
+                                            </node>
+                                          </node>
+                                          <node concept="2OqwBi" id="rlw0PZOhxy" role="3uHU7B">
+                                            <node concept="37vLTw" id="rlw0PZOhxz" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
+                                            </node>
+                                            <node concept="liA8E" id="rlw0PZOhx$" role="2OqNvi">
+                                              <ref role="37wK5l" to="f4zo:~EditorCell.getX()" resolve="getX" />
                                             </node>
                                           </node>
                                         </node>
@@ -563,29 +563,25 @@
                                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                                       <property role="2qtEX9" value="value" />
                                       <property role="3hQQBS" value="IntegerConstant" />
-                                      <node concept="3cpWs3" id="rlw0PZMP$V" role="2c44t1">
-                                        <node concept="1eOMI4" id="rlw0PZOWaj" role="3uHU7w">
-                                          <node concept="3cpWsd" id="rlw0PZOWgJ" role="1eOMHV">
-                                            <node concept="2OqwBi" id="rlw0PZOWRr" role="3uHU7w">
-                                              <node concept="37vLTw" id="rlw0PZOWPa" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="rlw0PZOdZ7" resolve="_root" />
-                                              </node>
-                                              <node concept="liA8E" id="rlw0PZOWTk" role="2OqNvi">
-                                                <ref role="37wK5l" to="f4zo:~EditorCell.getY()" resolve="getY" />
-                                              </node>
+                                      <property role="3qcH_f" value="true" />
+                                      <node concept="1eOMI4" id="rlw0PZOWaj" role="2c44t1">
+                                        <node concept="3cpWsd" id="rlw0PZOWgJ" role="1eOMHV">
+                                          <node concept="2OqwBi" id="rlw0PZOWRr" role="3uHU7w">
+                                            <node concept="37vLTw" id="rlw0PZOWPa" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="rlw0PZOdZ7" resolve="_root" />
                                             </node>
-                                            <node concept="2OqwBi" id="rlw0PZOWak" role="3uHU7B">
-                                              <node concept="37vLTw" id="rlw0PZOWal" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
-                                              </node>
-                                              <node concept="liA8E" id="rlw0PZOWam" role="2OqNvi">
-                                                <ref role="37wK5l" to="f4zo:~EditorCell.getY()" resolve="getY" />
-                                              </node>
+                                            <node concept="liA8E" id="rlw0PZOWTk" role="2OqNvi">
+                                              <ref role="37wK5l" to="f4zo:~EditorCell.getY()" resolve="getY" />
                                             </node>
                                           </node>
-                                        </node>
-                                        <node concept="Xl_RD" id="rlw0PZMPyJ" role="3uHU7B">
-                                          <property role="Xl_RC" value="" />
+                                          <node concept="2OqwBi" id="rlw0PZOWak" role="3uHU7B">
+                                            <node concept="37vLTw" id="rlw0PZOWal" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
+                                            </node>
+                                            <node concept="liA8E" id="rlw0PZOWam" role="2OqNvi">
+                                              <ref role="37wK5l" to="f4zo:~EditorCell.getY()" resolve="getY" />
+                                            </node>
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
@@ -619,16 +615,21 @@
                                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                                       <property role="2qtEX9" value="value" />
                                       <property role="3hQQBS" value="IntegerConstant" />
-                                      <node concept="3cpWs3" id="rlw0PZMQBY" role="2c44t1">
-                                        <node concept="2OqwBi" id="rlw0PZMQDC" role="3uHU7w">
-                                          <node concept="37vLTw" id="rlw0PZMQCo" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
+                                      <property role="3qcH_f" value="true" />
+                                      <node concept="2YIFZM" id="7WTFIQIcZlp" role="2c44t1">
+                                        <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                                        <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
+                                        <node concept="3cpWs3" id="rlw0PZMQBY" role="37wK5m">
+                                          <node concept="2OqwBi" id="rlw0PZMQDC" role="3uHU7w">
+                                            <node concept="37vLTw" id="rlw0PZMQCo" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
+                                            </node>
+                                            <node concept="liA8E" id="rlw0PZMRaA" role="2OqNvi">
+                                              <ref role="37wK5l" to="f4zo:~EditorCell.getWidth()" resolve="getWidth" />
+                                            </node>
                                           </node>
-                                          <node concept="liA8E" id="rlw0PZMRaA" role="2OqNvi">
-                                            <ref role="37wK5l" to="f4zo:~EditorCell.getWidth()" resolve="getWidth" />
-                                          </node>
+                                          <node concept="Xl_RD" id="rlw0PZMQ_q" role="3uHU7B" />
                                         </node>
-                                        <node concept="Xl_RD" id="rlw0PZMQ_q" role="3uHU7B" />
                                       </node>
                                     </node>
                                   </node>
@@ -651,17 +652,13 @@
                                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                                       <property role="2qtEX9" value="value" />
                                       <property role="3hQQBS" value="IntegerConstant" />
-                                      <node concept="3cpWs3" id="rlw0PZMSai" role="2c44t1">
-                                        <node concept="2OqwBi" id="rlw0PZMSbW" role="3uHU7w">
-                                          <node concept="37vLTw" id="rlw0PZMSaG" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
-                                          </node>
-                                          <node concept="liA8E" id="rlw0PZMSeD" role="2OqNvi">
-                                            <ref role="37wK5l" to="f4zo:~EditorCell.getHeight()" resolve="getHeight" />
-                                          </node>
+                                      <property role="3qcH_f" value="true" />
+                                      <node concept="2OqwBi" id="rlw0PZMSbW" role="2c44t1">
+                                        <node concept="37vLTw" id="rlw0PZMSaG" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
                                         </node>
-                                        <node concept="Xl_RD" id="rlw0PZMS86" role="3uHU7B">
-                                          <property role="Xl_RC" value="" />
+                                        <node concept="liA8E" id="rlw0PZMSeD" role="2OqNvi">
+                                          <ref role="37wK5l" to="f4zo:~EditorCell.getHeight()" resolve="getHeight" />
                                         </node>
                                       </node>
                                     </node>
@@ -685,17 +682,13 @@
                                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                                       <property role="2qtEX9" value="value" />
                                       <property role="3hQQBS" value="IntegerConstant" />
-                                      <node concept="3cpWs3" id="5ivXze3ajBT" role="2c44t1">
-                                        <node concept="2OqwBi" id="5ivXze3ajBU" role="3uHU7w">
-                                          <node concept="37vLTw" id="5ivXze3ajBV" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
-                                          </node>
-                                          <node concept="liA8E" id="5ivXze3ajBW" role="2OqNvi">
-                                            <ref role="37wK5l" to="f4zo:~EditorCell.getLeftGap()" resolve="getLeftGap" />
-                                          </node>
+                                      <property role="3qcH_f" value="true" />
+                                      <node concept="2OqwBi" id="5ivXze3ajBU" role="2c44t1">
+                                        <node concept="37vLTw" id="5ivXze3ajBV" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
                                         </node>
-                                        <node concept="Xl_RD" id="5ivXze3ajBX" role="3uHU7B">
-                                          <property role="Xl_RC" value="" />
+                                        <node concept="liA8E" id="5ivXze3ajBW" role="2OqNvi">
+                                          <ref role="37wK5l" to="f4zo:~EditorCell.getLeftGap()" resolve="getLeftGap" />
                                         </node>
                                       </node>
                                     </node>
@@ -719,17 +712,13 @@
                                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                                       <property role="2qtEX9" value="value" />
                                       <property role="3hQQBS" value="IntegerConstant" />
-                                      <node concept="3cpWs3" id="5ivXze3ajZF" role="2c44t1">
-                                        <node concept="2OqwBi" id="5ivXze3ajZG" role="3uHU7w">
-                                          <node concept="37vLTw" id="5ivXze3ajZH" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
-                                          </node>
-                                          <node concept="liA8E" id="5ivXze3ajZI" role="2OqNvi">
-                                            <ref role="37wK5l" to="f4zo:~EditorCell.getRightGap()" resolve="getRightGap" />
-                                          </node>
+                                      <property role="3qcH_f" value="true" />
+                                      <node concept="2OqwBi" id="5ivXze3ajZG" role="2c44t1">
+                                        <node concept="37vLTw" id="5ivXze3ajZH" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="rlw0PZLNp2" resolve="_cell" />
                                         </node>
-                                        <node concept="Xl_RD" id="5ivXze3ajZJ" role="3uHU7B">
-                                          <property role="Xl_RC" value="" />
+                                        <node concept="liA8E" id="5ivXze3ajZI" role="2OqNvi">
+                                          <ref role="37wK5l" to="f4zo:~EditorCell.getRightGap()" resolve="getRightGap" />
                                         </node>
                                       </node>
                                     </node>
@@ -868,23 +857,20 @@
                                             <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                                             <property role="2qtEX9" value="value" />
                                             <property role="3hQQBS" value="IntegerConstant" />
-                                            <node concept="2YIFZM" id="22ekhmLoNHv" role="2c44t1">
-                                              <ref role="37wK5l" to="wyt6:~Integer.toString(int)" resolve="toString" />
-                                              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                                              <node concept="2YIFZM" id="22ekhmLoSlQ" role="37wK5m">
-                                                <ref role="37wK5l" to="18ew:~IterableUtil.indexOf(java.lang.Iterable,java.lang.Object)" resolve="indexOf" />
-                                                <ref role="1Pybhc" to="18ew:~IterableUtil" resolve="IterableUtil" />
-                                                <node concept="2OqwBi" id="22ekhmLoX1o" role="37wK5m">
-                                                  <node concept="37vLTw" id="22ekhmLoX1p" role="2Oq$k0">
-                                                    <ref role="3cqZAo" node="rlw0PZMTvc" resolve="_cell" />
-                                                  </node>
-                                                  <node concept="liA8E" id="22ekhmLoX1q" role="2OqNvi">
-                                                    <ref role="37wK5l" to="f4zo:~EditorCell.getParent()" resolve="getParent" />
-                                                  </node>
-                                                </node>
-                                                <node concept="37vLTw" id="22ekhmLoZbP" role="37wK5m">
+                                            <property role="3qcH_f" value="true" />
+                                            <node concept="2YIFZM" id="22ekhmLoSlQ" role="2c44t1">
+                                              <ref role="37wK5l" to="18ew:~IterableUtil.indexOf(java.lang.Iterable,java.lang.Object)" resolve="indexOf" />
+                                              <ref role="1Pybhc" to="18ew:~IterableUtil" resolve="IterableUtil" />
+                                              <node concept="2OqwBi" id="22ekhmLoX1o" role="37wK5m">
+                                                <node concept="37vLTw" id="22ekhmLoX1p" role="2Oq$k0">
                                                   <ref role="3cqZAo" node="rlw0PZMTvc" resolve="_cell" />
                                                 </node>
+                                                <node concept="liA8E" id="22ekhmLoX1q" role="2OqNvi">
+                                                  <ref role="37wK5l" to="f4zo:~EditorCell.getParent()" resolve="getParent" />
+                                                </node>
+                                              </node>
+                                              <node concept="37vLTw" id="22ekhmLoZbP" role="37wK5m">
+                                                <ref role="3cqZAo" node="rlw0PZMTvc" resolve="_cell" />
                                               </node>
                                             </node>
                                           </node>
@@ -1521,6 +1507,7 @@
                                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104957/6329021646629104958" />
                                       <property role="2qtEX9" value="text" />
                                       <property role="3hQQBS" value="TextCommentPart" />
+                                      <property role="3qcH_f" value="true" />
                                       <node concept="1rXfSq" id="rlw0Q06IRW" role="2c44t1">
                                         <ref role="37wK5l" node="rlw0Q06IVH" resolve="getCellDescription" />
                                         <node concept="37vLTw" id="rlw0Q06IRX" role="37wK5m">
@@ -1547,6 +1534,7 @@
                                     <node concept="2EMmih" id="rlw0Q072SF" role="lGtFl">
                                       <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
                                       <property role="2qtEX9" value="name" />
+                                      <property role="3qcH_f" value="true" />
                                       <node concept="37vLTw" id="rlw0Q073Fz" role="2c44t1">
                                         <ref role="3cqZAo" node="rlw0Q06Txe" resolve="varName" />
                                       </node>
@@ -1708,13 +1696,9 @@
                                     <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
                                     <property role="2qtEX9" value="value" />
                                     <property role="3hQQBS" value="IntegerConstant" />
-                                    <node concept="3cpWs3" id="22ekhmLomeL" role="2c44t1">
-                                      <node concept="Xl_RD" id="22ekhmLomeM" role="3uHU7B">
-                                        <property role="Xl_RC" value="" />
-                                      </node>
-                                      <node concept="37vLTw" id="22ekhmLomeN" role="3uHU7w">
-                                        <ref role="3cqZAo" node="rlw0Q06Xsh" resolve="index" />
-                                      </node>
+                                    <property role="3qcH_f" value="true" />
+                                    <node concept="37vLTw" id="22ekhmLomeN" role="2c44t1">
+                                      <ref role="3cqZAo" node="rlw0Q06Xsh" resolve="index" />
                                     </node>
                                   </node>
                                 </node>

@@ -4,7 +4,7 @@
   <languages>
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
@@ -258,11 +258,8 @@
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -300,7 +297,6 @@
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
-        <property id="2034914114981261751" name="severity" index="RRSoG" />
         <child id="2034914114981261753" name="message" index="RRSoy" />
       </concept>
     </language>
@@ -317,6 +313,14 @@
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -2222,7 +2226,6 @@
           <property role="TyiWL" value="false" />
           <node concept="3clFbS" id="9vHlV2xwOe" role="3clFbx">
             <node concept="RRSsy" id="6$f9FDe_kvu" role="3cqZAp">
-              <property role="RRSoG" value="debug" />
               <node concept="3cpWs3" id="1S$2iq4KclL" role="RRSoy">
                 <node concept="2OqwBi" id="1S$2iq4KclM" role="3uHU7w">
                   <node concept="37vLTw" id="1S$2iq4KclN" role="2Oq$k0">
@@ -3432,8 +3435,13 @@
         <node concept="3clFbJ" id="5vGqiR9Wjn$" role="3cqZAp">
           <node concept="3clFbS" id="5vGqiR9WjnA" role="3clFbx">
             <node concept="3SKdUt" id="5vGqiR9Wo1c" role="3cqZAp">
-              <node concept="3SKdUq" id="5vGqiR9Wo1e" role="3SKWNk">
-                <property role="3SKdUp" value="handle DEFAULT_BASE_LINE" />
+              <node concept="1PaTwC" id="7WTFIQIcXsf" role="3ndbpf">
+                <node concept="3oM_SD" id="7WTFIQIcXsg" role="1PaTwD">
+                  <property role="3oM_SC" value="handle" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXsh" role="1PaTwD">
+                  <property role="3oM_SC" value="DEFAULT_BASE_LINE" />
+                </node>
               </node>
             </node>
             <node concept="3cpWs8" id="5vGqiR9WmX9" role="3cqZAp">
@@ -3702,8 +3710,52 @@
         </node>
         <node concept="3clFbH" id="65V3BR19R9c" role="3cqZAp" />
         <node concept="3SKdUt" id="65V3BR19Qht" role="3cqZAp">
-          <node concept="3SKdUq" id="65V3BR19Qhv" role="3SKWNk">
-            <property role="3SKdUp" value="cells without span first, because later cells may create enough space for the spanning cell" />
+          <node concept="1PaTwC" id="7WTFIQIcXsi" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXsj" role="1PaTwD">
+              <property role="3oM_SC" value="cells" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsk" role="1PaTwD">
+              <property role="3oM_SC" value="without" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsl" role="1PaTwD">
+              <property role="3oM_SC" value="span" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsm" role="1PaTwD">
+              <property role="3oM_SC" value="first," />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsn" role="1PaTwD">
+              <property role="3oM_SC" value="because" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXso" role="1PaTwD">
+              <property role="3oM_SC" value="later" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsp" role="1PaTwD">
+              <property role="3oM_SC" value="cells" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsq" role="1PaTwD">
+              <property role="3oM_SC" value="may" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsr" role="1PaTwD">
+              <property role="3oM_SC" value="create" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXss" role="1PaTwD">
+              <property role="3oM_SC" value="enough" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXst" role="1PaTwD">
+              <property role="3oM_SC" value="space" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsu" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsv" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsw" role="1PaTwD">
+              <property role="3oM_SC" value="spanning" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsx" role="1PaTwD">
+              <property role="3oM_SC" value="cell" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="40e1npHv1sb" role="3cqZAp">
@@ -4377,8 +4429,16 @@
         </node>
         <node concept="3clFbH" id="4rMwD1WnnSU" role="3cqZAp" />
         <node concept="3SKdUt" id="4rMwD1WnoNj" role="3cqZAp">
-          <node concept="3SKdUq" id="4rMwD1WnoNl" role="3SKWNk">
-            <property role="3SKdUp" value="grow the grid" />
+          <node concept="1PaTwC" id="7WTFIQIcXsy" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXsz" role="1PaTwD">
+              <property role="3oM_SC" value="grow" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs$" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs_" role="1PaTwD">
+              <property role="3oM_SC" value="grid" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="4rMwD1WpnJW" role="3cqZAp">
@@ -4874,8 +4934,13 @@
         </node>
         <node concept="3clFbH" id="4rMwD1Wnojf" role="3cqZAp" />
         <node concept="3SKdUt" id="1XCA2wmshYu" role="3cqZAp">
-          <node concept="3SKdUq" id="1XCA2wmshYv" role="3SKWNk">
-            <property role="3SKdUp" value="width constraint" />
+          <node concept="1PaTwC" id="7WTFIQIcXsA" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXsB" role="1PaTwD">
+              <property role="3oM_SC" value="width" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsC" role="1PaTwD">
+              <property role="3oM_SC" value="constraint" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7ndnMNt8S8h" role="3cqZAp">
@@ -4999,8 +5064,22 @@
             </node>
             <node concept="3clFbH" id="7ndnMNt8UAk" role="3cqZAp" />
             <node concept="3SKdUt" id="7ndnMNt9ylO" role="3cqZAp">
-              <node concept="3SKdUq" id="7ndnMNt9ylQ" role="3SKWNk">
-                <property role="3SKdUp" value="reduce width of the grid" />
+              <node concept="1PaTwC" id="7WTFIQIcXsD" role="3ndbpf">
+                <node concept="3oM_SD" id="7WTFIQIcXsE" role="1PaTwD">
+                  <property role="3oM_SC" value="reduce" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXsF" role="1PaTwD">
+                  <property role="3oM_SC" value="width" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXsG" role="1PaTwD">
+                  <property role="3oM_SC" value="of" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXsH" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXsI" role="1PaTwD">
+                  <property role="3oM_SC" value="grid" />
+                </node>
               </node>
             </node>
             <node concept="3cpWs8" id="7ndnMNt9urH" role="3cqZAp">
@@ -5132,8 +5211,16 @@
             </node>
             <node concept="3clFbH" id="1XCA2wmshYD" role="3cqZAp" />
             <node concept="3SKdUt" id="17yTjuDXxE" role="3cqZAp">
-              <node concept="3SKdUq" id="17yTjuDXxG" role="3SKWNk">
-                <property role="3SKdUp" value="ensure min width" />
+              <node concept="1PaTwC" id="7WTFIQIcXsJ" role="3ndbpf">
+                <node concept="3oM_SD" id="7WTFIQIcXsK" role="1PaTwD">
+                  <property role="3oM_SC" value="ensure" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXsL" role="1PaTwD">
+                  <property role="3oM_SC" value="min" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXsM" role="1PaTwD">
+                  <property role="3oM_SC" value="width" />
+                </node>
               </node>
             </node>
             <node concept="2Gpval" id="17yTjuDXKn" role="3cqZAp">
@@ -5233,8 +5320,13 @@
             </node>
             <node concept="3clFbH" id="17yTjuDXAz" role="3cqZAp" />
             <node concept="3SKdUt" id="6SVXTgI2ul8" role="3cqZAp">
-              <node concept="3SKdUq" id="6SVXTgI2ula" role="3SKWNk">
-                <property role="3SKdUp" value="update heights" />
+              <node concept="1PaTwC" id="7WTFIQIcXsN" role="3ndbpf">
+                <node concept="3oM_SD" id="7WTFIQIcXsO" role="1PaTwD">
+                  <property role="3oM_SC" value="update" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXsP" role="1PaTwD">
+                  <property role="3oM_SC" value="heights" />
+                </node>
               </node>
             </node>
             <node concept="2Gpval" id="6SVXTgI2h7Q" role="3cqZAp">
@@ -5485,7 +5577,6 @@
         <node concept="3clFbJ" id="5h2rxDjVAMO" role="3cqZAp">
           <node concept="3clFbS" id="5h2rxDjVAMQ" role="3clFbx">
             <node concept="RRSsy" id="6$f9FDe_jN2" role="3cqZAp">
-              <property role="RRSoG" value="debug" />
               <node concept="3cpWs3" id="1Uhue4O0LZo" role="RRSoy">
                 <node concept="2OqwBi" id="1Uhue4O0M3B" role="3uHU7w">
                   <node concept="37vLTw" id="1Uhue4O0M1F" role="2Oq$k0">
@@ -9296,8 +9387,31 @@
           </node>
         </node>
         <node concept="3SKdUt" id="6SW4un74fAS" role="3cqZAp">
-          <node concept="3SKdUq" id="6SW4un74fAT" role="3SKWNk">
-            <property role="3SKdUp" value="prefer wrap at the beginning/end of indent collections" />
+          <node concept="1PaTwC" id="7WTFIQIcXsQ" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXsR" role="1PaTwD">
+              <property role="3oM_SC" value="prefer" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsS" role="1PaTwD">
+              <property role="3oM_SC" value="wrap" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsT" role="1PaTwD">
+              <property role="3oM_SC" value="at" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsU" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsV" role="1PaTwD">
+              <property role="3oM_SC" value="beginning/end" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsW" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsX" role="1PaTwD">
+              <property role="3oM_SC" value="indent" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsY" role="1PaTwD">
+              <property role="3oM_SC" value="collections" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="6SW4un74fAU" role="3cqZAp">
@@ -9412,8 +9526,16 @@
         </node>
         <node concept="3clFbH" id="6SW4un74fBA" role="3cqZAp" />
         <node concept="3SKdUt" id="6SW4un74fBB" role="3cqZAp">
-          <node concept="3SKdUq" id="6SW4un74fBC" role="3SKWNk">
-            <property role="3SKdUp" value="after an operator" />
+          <node concept="1PaTwC" id="7WTFIQIcXsZ" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXt0" role="1PaTwD">
+              <property role="3oM_SC" value="after" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt1" role="1PaTwD">
+              <property role="3oM_SC" value="an" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt2" role="1PaTwD">
+              <property role="3oM_SC" value="operator" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="6SW4un74fBD" role="3cqZAp">
@@ -9480,8 +9602,31 @@
         </node>
         <node concept="3clFbH" id="6SW4un74fC3" role="3cqZAp" />
         <node concept="3SKdUt" id="6SW4un74fC4" role="3cqZAp">
-          <node concept="3SKdUq" id="6SW4un74fC5" role="3SKWNk">
-            <property role="3SKdUp" value="prefer cells that already have space between them" />
+          <node concept="1PaTwC" id="7WTFIQIcXt3" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXt4" role="1PaTwD">
+              <property role="3oM_SC" value="prefer" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt5" role="1PaTwD">
+              <property role="3oM_SC" value="cells" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt6" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt7" role="1PaTwD">
+              <property role="3oM_SC" value="already" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt8" role="1PaTwD">
+              <property role="3oM_SC" value="have" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt9" role="1PaTwD">
+              <property role="3oM_SC" value="space" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXta" role="1PaTwD">
+              <property role="3oM_SC" value="between" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtb" role="1PaTwD">
+              <property role="3oM_SC" value="them" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="6SW4un74fC6" role="3cqZAp">
@@ -10453,8 +10598,25 @@
           </node>
           <node concept="3clFbH" id="6SVXTgI8tZ4" role="3cqZAp" />
           <node concept="3SKdUt" id="6SVXTgI8UzM" role="3cqZAp">
-            <node concept="3SKdUq" id="6SVXTgI8UzO" role="3SKWNk">
-              <property role="3SKdUp" value="incremental update of the cached width" />
+            <node concept="1PaTwC" id="7WTFIQIcXtc" role="3ndbpf">
+              <node concept="3oM_SD" id="7WTFIQIcXtd" role="1PaTwD">
+                <property role="3oM_SC" value="incremental" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXte" role="1PaTwD">
+                <property role="3oM_SC" value="update" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXtf" role="1PaTwD">
+                <property role="3oM_SC" value="of" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXtg" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXth" role="1PaTwD">
+                <property role="3oM_SC" value="cached" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXti" role="1PaTwD">
+                <property role="3oM_SC" value="width" />
+              </node>
             </node>
           </node>
           <node concept="3clFbJ" id="6SVXTgI8u7X" role="3cqZAp">
@@ -10954,8 +11116,22 @@
           </node>
           <node concept="3clFbH" id="vtaHb5U$vj" role="3cqZAp" />
           <node concept="3SKdUt" id="vtaHb5V52K" role="3cqZAp">
-            <node concept="3SKdUq" id="vtaHb5V52M" role="3SKWNk">
-              <property role="3SKdUp" value="grow words in x direction" />
+            <node concept="1PaTwC" id="7WTFIQIcXtj" role="3ndbpf">
+              <node concept="3oM_SD" id="7WTFIQIcXtk" role="1PaTwD">
+                <property role="3oM_SC" value="grow" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXtl" role="1PaTwD">
+                <property role="3oM_SC" value="words" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXtm" role="1PaTwD">
+                <property role="3oM_SC" value="in" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXtn" role="1PaTwD">
+                <property role="3oM_SC" value="x" />
+              </node>
+              <node concept="3oM_SD" id="7WTFIQIcXto" role="1PaTwD">
+                <property role="3oM_SC" value="direction" />
+              </node>
             </node>
           </node>
           <node concept="3cpWs8" id="vtaHb5UEyg" role="3cqZAp">
@@ -12342,8 +12518,28 @@
       <node concept="3Tmbuc" id="qs_JakDcUu" role="1B3o_S" />
       <node concept="3clFbS" id="qs_JakD87D" role="3clF47">
         <node concept="3SKdUt" id="qs_JakDldy" role="3cqZAp">
-          <node concept="3SKdUq" id="qs_JakDld$" role="3SKWNk">
-            <property role="3SKdUp" value="TODO do the same for the height" />
+          <node concept="1PaTwC" id="7WTFIQIcXtp" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXtq" role="1PaTwD">
+              <property role="3oM_SC" value="TODO" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtr" role="1PaTwD">
+              <property role="3oM_SC" value="do" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXts" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtt" role="1PaTwD">
+              <property role="3oM_SC" value="same" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtu" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtv" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtw" role="1PaTwD">
+              <property role="3oM_SC" value="height" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="qs_JakDep9" role="3cqZAp">
@@ -14196,8 +14392,19 @@
         </node>
         <node concept="3clFbH" id="7ndnMNt9kBy" role="3cqZAp" />
         <node concept="3SKdUt" id="40e1npHvCDv" role="3cqZAp">
-          <node concept="3SKdUq" id="40e1npHvCDx" role="3SKWNk">
-            <property role="3SKdUp" value="compensate possible rounding error" />
+          <node concept="1PaTwC" id="7WTFIQIcXtx" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXty" role="1PaTwD">
+              <property role="3oM_SC" value="compensate" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtz" role="1PaTwD">
+              <property role="3oM_SC" value="possible" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt$" role="1PaTwD">
+              <property role="3oM_SC" value="rounding" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXt_" role="1PaTwD">
+              <property role="3oM_SC" value="error" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7HQUZCSMr7E" role="3cqZAp">
@@ -14757,8 +14964,16 @@
         </node>
         <node concept="3clFbH" id="3nEEzTHODj4" role="3cqZAp" />
         <node concept="3SKdUt" id="5AiOsAUXDDI" role="3cqZAp">
-          <node concept="3SKdUq" id="5AiOsAUXDDJ" role="3SKWNk">
-            <property role="3SKdUp" value="possible rounding error" />
+          <node concept="1PaTwC" id="7WTFIQIcXtA" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXtB" role="1PaTwD">
+              <property role="3oM_SC" value="possible" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtC" role="1PaTwD">
+              <property role="3oM_SC" value="rounding" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtD" role="1PaTwD">
+              <property role="3oM_SC" value="error" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="6IJAP0oRLKC" role="3cqZAp">
@@ -14962,8 +15177,22 @@
       <node concept="3Tm1VV" id="7ndnMNt8Yo5" role="1B3o_S" />
       <node concept="3clFbS" id="7ndnMNt8Yo6" role="3clF47">
         <node concept="3SKdUt" id="7ndnMNt93rn" role="3cqZAp">
-          <node concept="3SKdUq" id="7ndnMNt93rp" role="3SKWNk">
-            <property role="3SKdUp" value="The sum will be 1.0" />
+          <node concept="1PaTwC" id="7WTFIQIcXtE" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXtF" role="1PaTwD">
+              <property role="3oM_SC" value="The" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtG" role="1PaTwD">
+              <property role="3oM_SC" value="sum" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtH" role="1PaTwD">
+              <property role="3oM_SC" value="will" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtI" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXtJ" role="1PaTwD">
+              <property role="3oM_SC" value="1.0" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7ndnMNt92Mh" role="3cqZAp">
@@ -16132,8 +16361,13 @@
             </node>
             <node concept="3clFbH" id="6SVXTgIoGte" role="3cqZAp" />
             <node concept="3SKdUt" id="6SVXTgIoGHM" role="3cqZAp">
-              <node concept="3SKdUq" id="6SVXTgIoGHO" role="3SKWNk">
-                <property role="3SKdUp" value="horizontal alignment" />
+              <node concept="1PaTwC" id="7WTFIQIcXtK" role="3ndbpf">
+                <node concept="3oM_SD" id="7WTFIQIcXtL" role="1PaTwD">
+                  <property role="3oM_SC" value="horizontal" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXtM" role="1PaTwD">
+                  <property role="3oM_SC" value="alignment" />
+                </node>
               </node>
             </node>
             <node concept="3cpWs8" id="6SVXTgIoGXx" role="3cqZAp">
@@ -16209,8 +16443,10 @@
             </node>
             <node concept="3clFbH" id="6SVXTgIoGub" role="3cqZAp" />
             <node concept="3SKdUt" id="6aN_eBJ1K7z" role="3cqZAp">
-              <node concept="3SKdUq" id="6aN_eBJ1K7_" role="3SKWNk">
-                <property role="3SKdUp" value="overflow" />
+              <node concept="1PaTwC" id="7WTFIQIcXtN" role="3ndbpf">
+                <node concept="3oM_SD" id="7WTFIQIcXtO" role="1PaTwD">
+                  <property role="3oM_SC" value="overflow" />
+                </node>
               </node>
             </node>
             <node concept="3clFbJ" id="6aN_eBJ1Haw" role="3cqZAp">
@@ -16605,8 +16841,25 @@
               <node concept="9aQIb" id="4BfDHEt$Ax" role="9aQIa">
                 <node concept="3clFbS" id="4BfDHEt$Ay" role="9aQI4">
                   <node concept="3SKdUt" id="4BfDHEt_32" role="3cqZAp">
-                    <node concept="3SKdUq" id="4BfDHEt_34" role="3SKWNk">
-                      <property role="3SKdUp" value="Use padding to grow the cell" />
+                    <node concept="1PaTwC" id="7WTFIQIcXtP" role="3ndbpf">
+                      <node concept="3oM_SD" id="7WTFIQIcXtQ" role="1PaTwD">
+                        <property role="3oM_SC" value="Use" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXtR" role="1PaTwD">
+                        <property role="3oM_SC" value="padding" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXtS" role="1PaTwD">
+                        <property role="3oM_SC" value="to" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXtT" role="1PaTwD">
+                        <property role="3oM_SC" value="grow" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXtU" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXtV" role="1PaTwD">
+                        <property role="3oM_SC" value="cell" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3cpWs8" id="6SVXTgIeSQE" role="3cqZAp">
@@ -16887,8 +17140,25 @@
               <node concept="9aQIb" id="4BfDHEtA2X" role="9aQIa">
                 <node concept="3clFbS" id="4BfDHEtA2Y" role="9aQI4">
                   <node concept="3SKdUt" id="4BfDHEtA4C" role="3cqZAp">
-                    <node concept="3SKdUq" id="4BfDHEtA4D" role="3SKWNk">
-                      <property role="3SKdUp" value="Use padding to grow the cell" />
+                    <node concept="1PaTwC" id="7WTFIQIcXtW" role="3ndbpf">
+                      <node concept="3oM_SD" id="7WTFIQIcXtX" role="1PaTwD">
+                        <property role="3oM_SC" value="Use" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXtY" role="1PaTwD">
+                        <property role="3oM_SC" value="padding" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXtZ" role="1PaTwD">
+                        <property role="3oM_SC" value="to" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXu0" role="1PaTwD">
+                        <property role="3oM_SC" value="grow" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXu1" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXu2" role="1PaTwD">
+                        <property role="3oM_SC" value="cell" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3cpWs8" id="6SVXTgIeRDB" role="3cqZAp">
@@ -19095,8 +19365,31 @@
         <node concept="3clFbJ" id="6SVXTgInln8" role="3cqZAp">
           <node concept="3clFbS" id="6SVXTgInlna" role="3clFbx">
             <node concept="3SKdUt" id="6SVXTgInKfq" role="3cqZAp">
-              <node concept="3SKdUq" id="6SVXTgInKfs" role="3SKWNk">
-                <property role="3SKdUp" value="cells with a border already have a padding" />
+              <node concept="1PaTwC" id="7WTFIQIcXu3" role="3ndbpf">
+                <node concept="3oM_SD" id="7WTFIQIcXu4" role="1PaTwD">
+                  <property role="3oM_SC" value="cells" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXu5" role="1PaTwD">
+                  <property role="3oM_SC" value="with" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXu6" role="1PaTwD">
+                  <property role="3oM_SC" value="a" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXu7" role="1PaTwD">
+                  <property role="3oM_SC" value="border" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXu8" role="1PaTwD">
+                  <property role="3oM_SC" value="already" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXu9" role="1PaTwD">
+                  <property role="3oM_SC" value="have" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXua" role="1PaTwD">
+                  <property role="3oM_SC" value="a" />
+                </node>
+                <node concept="3oM_SD" id="7WTFIQIcXub" role="1PaTwD">
+                  <property role="3oM_SC" value="padding" />
+                </node>
               </node>
             </node>
             <node concept="3cpWs6" id="6SVXTgInmEg" role="3cqZAp">

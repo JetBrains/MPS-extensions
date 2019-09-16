@@ -193,11 +193,13 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="427659576753752243" name="jetbrains.mps.lang.smodel.structure.ModulePointer" flags="ng" index="20RdaH">
-        <property id="427659576753753627" name="moduleId" index="20Rdg5" />
-        <property id="427659576753753625" name="moduleName" index="20Rdg7" />
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
+        <property id="1863527487546097500" name="moduleId" index="1XweGW" />
+        <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
       </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1678062499342629858" name="jetbrains.mps.lang.smodel.structure.ModuleRefExpression" flags="ng" index="37shsh">
         <child id="1678062499342629861" name="moduleId" index="37shsm" />
       </concept>
@@ -524,9 +526,9 @@
                           </node>
                           <node concept="17R0WA" id="4jHuzb0ERPP" role="3clFbw">
                             <node concept="37shsh" id="4jHuzb0ES2T" role="3uHU7w">
-                              <node concept="20RdaH" id="4jHuzb0ES4d" role="37shsm">
-                                <property role="20Rdg5" value="cce85e64-7b37-4ad5-b0e6-9d18324cdfb3" />
-                                <property role="20Rdg7" value="de.itemis.mps.selection.runtime" />
+                              <node concept="1dCxOk" id="7WTFIQIcYxH" role="37shsm">
+                                <property role="1XxBO9" value="de.itemis.mps.selection.runtime" />
+                                <property role="1XweGW" value="cce85e64-7b37-4ad5-b0e6-9d18324cdfb3" />
                               </node>
                             </node>
                             <node concept="2OqwBi" id="4jHuzb0ERuj" role="3uHU7B">

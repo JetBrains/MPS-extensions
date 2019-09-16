@@ -2,10 +2,10 @@
 <model ref="r:04a2b58c-69ac-4637-994b-5f138ad88810(com.dslfoundry.plaintextgen.example.testlang.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="90aa1f1b-f65c-4e9a-99b4-4030e09d0bb2" name="com.dslfoundry.plaintextgen.example.testlang" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -116,7 +116,7 @@
     <property role="TrG5h" value="map_TestConcept" />
     <property role="3Le9LX" value=".txt" />
     <node concept="356WMU" id="pWUoI9jkQY" role="356KY_">
-      <property role="384gMa" value="center" />
+      <property role="384gMa" value="2jBmyzyFesD/center" />
       <node concept="356sEK" id="6gwxh6GdRMk" role="383Ya9">
         <node concept="356sEF" id="6gwxh6GdRMl" role="356sEH">
           <property role="TrG5h" value="short" />
@@ -139,16 +139,14 @@
         <node concept="2EixSi" id="6gwxh6GdRN1" role="2EinRH" />
       </node>
       <node concept="356sEQ" id="6gwxh6GdSgq" role="383Ya9">
-        <property role="384gMa" value="left" />
         <property role="333NGx" value="  " />
         <node concept="356WMU" id="6gwxh6GdSgB" role="383Ya9">
-          <property role="384gMa" value="center" />
+          <property role="384gMa" value="2jBmyzyFesD/center" />
           <node concept="356sEK" id="6gwxh6GdSgD" role="383Ya9">
             <node concept="356sEF" id="6gwxh6GdSgE" role="356sEH">
               <property role="TrG5h" value="Let's get " />
             </node>
             <node concept="356WMU" id="6gwxh6GdSh3" role="356sEH">
-              <property role="384gMa" value="left" />
               <node concept="356sEK" id="6gwxh6GdSlQ" role="383Ya9">
                 <node concept="356sEF" id="6gwxh6GdSlR" role="356sEH">
                   <property role="TrG5h" value="fancy" />
@@ -173,7 +171,7 @@
             </node>
             <node concept="356sEQ" id="6gwxh6GdSin" role="356sEH">
               <property role="333NGx" value="  " />
-              <property role="384gMa" value="right" />
+              <property role="384gMa" value="2jBmyzyFesG/right" />
               <node concept="356sEK" id="6gwxh6GdSki" role="383Ya9">
                 <node concept="356sEF" id="6gwxh6GdSkj" role="356sEH">
                   <property role="TrG5h" value="complex" />
@@ -202,14 +200,13 @@
       </node>
       <node concept="356sEQ" id="6gwxh6Gejx1" role="383Ya9">
         <property role="333NGx" value="  " />
-        <property role="384gMa" value="center" />
+        <property role="384gMa" value="2jBmyzyFesD/center" />
         <node concept="356sEK" id="6gwxh6GejxD" role="383Ya9">
           <node concept="356sEF" id="6gwxh6GejxE" role="356sEH">
             <property role="TrG5h" value="a" />
           </node>
           <node concept="356sEQ" id="6gwxh6GejzJ" role="356sEH">
             <property role="333NGx" value="  " />
-            <property role="384gMa" value="left" />
             <node concept="356sEK" id="6gwxh6GekXv" role="383Ya9">
               <node concept="356sEF" id="6gwxh6GekXw" role="356sEH">
                 <property role="TrG5h" value="b" />
@@ -228,7 +225,7 @@
           </node>
           <node concept="356sEQ" id="2jBmyzyD$nr" role="356sEH">
             <property role="333NGx" value="  " />
-            <property role="384gMa" value="right" />
+            <property role="384gMa" value="2jBmyzyFesG/right" />
             <node concept="356sEK" id="2jBmyzyD$nA" role="383Ya9">
               <node concept="356sEF" id="2jBmyzyD$nB" role="356sEH">
                 <property role="TrG5h" value="asbcd" />
@@ -296,7 +293,6 @@
         </node>
         <node concept="356sEQ" id="4B6IYqj2AJ0" role="383Ya9">
           <property role="333NGx" value="  " />
-          <property role="384gMa" value="left" />
           <node concept="356sEK" id="4B6IYqj2AY4" role="383Ya9">
             <node concept="356sEF" id="4B6IYqj2AY5" role="356sEH">
               <property role="TrG5h" value="TestSubSubConcept" />

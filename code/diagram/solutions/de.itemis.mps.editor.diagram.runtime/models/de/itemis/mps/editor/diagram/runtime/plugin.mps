@@ -7,8 +7,8 @@
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="99b0bd58-d9c1-4744-b159-3ea91da414ff" name="de.itemis.mps.nativelibs" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -82,7 +82,6 @@
         <child id="1562714432501166206" name="keystroke" index="Zd501" />
       </concept>
       <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a">
-        <property id="1562714432501166281" name="keymap" index="Zd52Q" />
         <child id="1562714432501166199" name="shortcutChange" index="Zd508" />
       </concept>
       <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="lg" index="1bYyw_">
@@ -254,11 +253,13 @@
         <child id="1205770614681" name="actualArgument" index="2XxRq1" />
       </concept>
     </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="427659576753752243" name="jetbrains.mps.lang.smodel.structure.ModulePointer" flags="ng" index="20RdaH">
-        <property id="427659576753753627" name="moduleId" index="20Rdg5" />
-        <property id="427659576753753625" name="moduleName" index="20Rdg7" />
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
+        <property id="1863527487546097500" name="moduleId" index="1XweGW" />
+        <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
       </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1678062499342629858" name="jetbrains.mps.lang.smodel.structure.ModuleRefExpression" flags="ng" index="37shsh">
         <child id="1678062499342629861" name="moduleId" index="37shsm" />
       </concept>
@@ -296,7 +297,7 @@
   <node concept="2DaZZR" id="4KKQOHIVBAY" />
   <node concept="sEfby" id="4KKQOHIVBBM">
     <property role="TrG5h" value="Diagram Palette" />
-    <property role="2bmUCM" value="RIGHT" />
+    <property role="2bmUCM" value="2aGS$UDXOxV/RIGHT" />
     <node concept="2XrIbr" id="4KKQOHJ2Z6D" role="2XNbBy">
       <property role="TrG5h" value="update" />
       <node concept="3cqZAl" id="4KKQOHJ2Zwx" role="3clF45" />
@@ -592,7 +593,6 @@
   </node>
   <node concept="Zd50a" id="5K7KC_qu7y_">
     <property role="TrG5h" value="DiagramKeymap" />
-    <property role="Zd52Q" value="$default" />
     <node concept="Zd509" id="5K7KC_qu7$D" role="Zd508">
       <ref role="1bYAoF" node="5K7KC_qu7$R" resolve="RotateBoxClockwiseAction" />
       <node concept="pLAjd" id="5K7KC_qu7$E" role="Zd501">
@@ -791,9 +791,9 @@
                                     </node>
                                     <node concept="2OqwBi" id="4Fanv3X8IYL" role="3uHU7B">
                                       <node concept="37shsh" id="4Fanv3X8IrV" role="2Oq$k0">
-                                        <node concept="20RdaH" id="4Fanv3X8K1H" role="37shsm">
-                                          <property role="20Rdg5" value="1144260c-e9a5-49a2-9add-39a1a1a7077e" />
-                                          <property role="20Rdg7" value="de.itemis.mps.editor.diagram.runtime" />
+                                        <node concept="1dCxOk" id="7WTFIQIcYxE" role="37shsm">
+                                          <property role="1XxBO9" value="de.itemis.mps.editor.diagram.runtime" />
+                                          <property role="1XweGW" value="1144260c-e9a5-49a2-9add-39a1a1a7077e" />
                                         </node>
                                       </node>
                                       <node concept="liA8E" id="4Fanv3X8JN5" role="2OqNvi">

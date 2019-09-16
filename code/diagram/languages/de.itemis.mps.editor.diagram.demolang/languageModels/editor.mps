@@ -6,7 +6,7 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="3bdedd09-792a-4e15-a4db-83970df3ee86" name="de.itemis.mps.editor.collapsible" version="-1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -692,10 +692,10 @@
         <property role="3DY3mF" value="2.0" />
       </node>
       <node concept="3C0NmK" id="3Rs0sZPKK7j" role="3F10Kt">
-        <property role="Vb096" value="yellow" />
+        <property role="Vb096" value="fLwANPq/yellow" />
       </node>
       <node concept="3C0lA2" id="3Rs0sZPKL3N" role="3F10Kt">
-        <property role="3DY1wP" value="DASHED" />
+        <property role="3DY1wP" value="63Tq0M90n0Q/DASHED" />
       </node>
       <node concept="3EZMnI" id="3GatLR3aHnL" role="1ytjkN">
         <node concept="3EZMnI" id="190K99KdUE$" role="3EZMnx">
@@ -745,11 +745,9 @@
                 <property role="3DY3mF" value="1.0" />
               </node>
               <node concept="3C0NmK" id="48DYfEtv$NY" role="3F10Kt">
-                <property role="Vb096" value="black" />
+                <property role="Vb096" value="6cZGtrcKCoS/black" />
               </node>
-              <node concept="3C0lA2" id="48DYfEtv$NZ" role="3F10Kt">
-                <property role="3DY1wP" value="SOLID" />
-              </node>
+              <node concept="3C0lA2" id="48DYfEtv$NZ" role="3F10Kt" />
             </node>
             <node concept="2iRfu4" id="48DYfEttsUl" role="2iSdaV" />
             <node concept="VPM3Z" id="48DYfEttsUm" role="3F10Kt">
@@ -952,7 +950,7 @@
         </node>
       </node>
       <node concept="3C0NmK" id="3Rs0sZPJ6Rs" role="3F10Kt">
-        <property role="Vb096" value="black" />
+        <property role="Vb096" value="6cZGtrcKCoS/black" />
       </node>
       <node concept="1PNbMa" id="7sHDEc2TAwd" role="1PN8q7">
         <node concept="3R4teh" id="7sHDEc2UgoO" role="1PNbKM">
@@ -3327,10 +3325,10 @@
       <node concept="3F0ifn" id="30_McRiYPEH" role="3EZMnx">
         <property role="3F0ifm" value="Component Annotation" />
         <node concept="VechU" id="7wRVABXszjo" role="3F10Kt">
-          <property role="Vb096" value="DARK_BLUE" />
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
         </node>
         <node concept="30gYXW" id="7wRVABXsQbk" role="3F10Kt">
-          <property role="Vb096" value="yellow" />
+          <property role="Vb096" value="fLwANPq/yellow" />
         </node>
       </node>
       <node concept="2SsqMj" id="30_McRiYPEW" role="3EZMnx" />
@@ -3343,10 +3341,10 @@
       <node concept="3F0ifn" id="6OhZPz3aZmy" role="3EZMnx">
         <property role="3F0ifm" value="Component Annotation 2" />
         <node concept="VechU" id="6OhZPz3aZmz" role="3F10Kt">
-          <property role="Vb096" value="yellow" />
+          <property role="Vb096" value="fLwANPq/yellow" />
         </node>
         <node concept="30gYXW" id="6OhZPz3aZm$" role="3F10Kt">
-          <property role="Vb096" value="red" />
+          <property role="Vb096" value="fLwANPn/red" />
         </node>
       </node>
       <node concept="2SsqMj" id="6OhZPz3aZm_" role="3EZMnx" />

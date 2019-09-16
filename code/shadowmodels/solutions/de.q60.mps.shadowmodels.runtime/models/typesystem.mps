@@ -2,7 +2,7 @@
 <model ref="r:d2d007b0-88a6-449c-9140-0f6d538e580e(de.q60.mps.shadowmodels.runtime.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -121,7 +121,6 @@
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
-        <property id="2034914114981261751" name="severity" index="RRSoG" />
         <child id="2034914114981261755" name="throwable" index="RRSow" />
         <child id="2034914114981261753" name="message" index="RRSoy" />
       </concept>
@@ -246,7 +245,6 @@
         <node concept="3clFbJ" id="7c10t$79rtp" role="3cqZAp">
           <node concept="3clFbS" id="7c10t$79rtr" role="3clFbx">
             <node concept="RRSsy" id="7c10t$77Ueu" role="3cqZAp">
-              <property role="RRSoG" value="debug" />
               <node concept="3cpWs3" id="7c10t$77Vpj" role="RRSoy">
                 <node concept="37vLTw" id="7c10t$77Vqa" role="3uHU7w">
                   <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />

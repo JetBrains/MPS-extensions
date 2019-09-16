@@ -2,7 +2,7 @@
 <model ref="r:ccc912a6-16e8-466b-b48a-0e82310c4cc7(de.itemis.mps.tooltips.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
   </languages>
   <imports>
     <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
@@ -74,7 +74,7 @@
       <node concept="3F0ifn" id="7XU1fOGp87N" role="3EZMnx">
         <property role="3F0ifm" value="with tooltip" />
         <node concept="Veino" id="7XU1fOGp8a_" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
       <node concept="3F1sOY" id="7XU1fOGp880" role="3EZMnx">

@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -201,7 +201,7 @@
         <node concept="3F0A7n" id="4qdNcH$7DAZ" role="3EZMny">
           <ref role="1NtTu8" to="878o:4qdNcH$7DAQ" resolve="text" />
           <node concept="VechU" id="4qdNcH$7EkW" role="3F10Kt">
-            <property role="Vb096" value="red" />
+            <property role="Vb096" value="fLwANPn/red" />
           </node>
           <node concept="Veino" id="4qdNcH$7EmK" role="3F10Kt">
             <node concept="1iSF2X" id="4qdNcH$7EmX" role="VblUZ">

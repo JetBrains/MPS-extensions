@@ -6,6 +6,7 @@
     <use id="f159adf4-3c93-40f9-9c5a-1f245a8697af" name="jetbrains.mps.lang.aspect" version="2" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -214,11 +215,8 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -297,6 +295,14 @@
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -524,7 +530,7 @@
                 </node>
                 <node concept="3clFbS" id="4TtYrYGuXoi" role="TDEfX">
                   <node concept="2xdQw9" id="7OK$UMc1xnw" role="3cqZAp">
-                    <property role="2xdLsb" value="error" />
+                    <property role="2xdLsb" value="gZ5fh_4/error" />
                     <node concept="Xl_RD" id="3bf11hdNZKH" role="9lYJi">
                       <property role="Xl_RC" value="Pasting from clipboard went wrong!" />
                     </node>
@@ -902,8 +908,46 @@
                   <node concept="9aQIb" id="KbPw5FcEfp" role="9aQIa">
                     <node concept="3clFbS" id="KbPw5FcEfq" role="9aQI4">
                       <node concept="3SKdUt" id="KbPw5Fc4iO" role="3cqZAp">
-                        <node concept="3SKdUq" id="KbPw5Fc4iQ" role="3SKWNk">
-                          <property role="3SKdUp" value="MPS text fields strip away the tabs, so we replace them by spaces." />
+                        <node concept="1PaTwC" id="7WTFIQIcXlK" role="3ndbpf">
+                          <node concept="3oM_SD" id="7WTFIQIcXlL" role="1PaTwD">
+                            <property role="3oM_SC" value="MPS" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlM" role="1PaTwD">
+                            <property role="3oM_SC" value="text" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlN" role="1PaTwD">
+                            <property role="3oM_SC" value="fields" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlO" role="1PaTwD">
+                            <property role="3oM_SC" value="strip" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlP" role="1PaTwD">
+                            <property role="3oM_SC" value="away" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlQ" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlR" role="1PaTwD">
+                            <property role="3oM_SC" value="tabs," />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlS" role="1PaTwD">
+                            <property role="3oM_SC" value="so" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlT" role="1PaTwD">
+                            <property role="3oM_SC" value="we" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlU" role="1PaTwD">
+                            <property role="3oM_SC" value="replace" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlV" role="1PaTwD">
+                            <property role="3oM_SC" value="them" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlW" role="1PaTwD">
+                            <property role="3oM_SC" value="by" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXlX" role="1PaTwD">
+                            <property role="3oM_SC" value="spaces." />
+                          </node>
                         </node>
                       </node>
                       <node concept="3cpWs8" id="KbPw5FcDep" role="3cqZAp">
@@ -1442,8 +1486,46 @@
                   <node concept="9aQIb" id="2u5C0BwBNW3" role="9aQIa">
                     <node concept="3clFbS" id="2u5C0BwBNW4" role="9aQI4">
                       <node concept="3SKdUt" id="2u5C0BwBNW5" role="3cqZAp">
-                        <node concept="3SKdUq" id="2u5C0BwBNW6" role="3SKWNk">
-                          <property role="3SKdUp" value="MPS text fields strip away the tabs, so we replace them by spaces." />
+                        <node concept="1PaTwC" id="7WTFIQIcXlY" role="3ndbpf">
+                          <node concept="3oM_SD" id="7WTFIQIcXlZ" role="1PaTwD">
+                            <property role="3oM_SC" value="MPS" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm0" role="1PaTwD">
+                            <property role="3oM_SC" value="text" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm1" role="1PaTwD">
+                            <property role="3oM_SC" value="fields" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm2" role="1PaTwD">
+                            <property role="3oM_SC" value="strip" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm3" role="1PaTwD">
+                            <property role="3oM_SC" value="away" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm4" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm5" role="1PaTwD">
+                            <property role="3oM_SC" value="tabs," />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm6" role="1PaTwD">
+                            <property role="3oM_SC" value="so" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm7" role="1PaTwD">
+                            <property role="3oM_SC" value="we" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm8" role="1PaTwD">
+                            <property role="3oM_SC" value="replace" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXm9" role="1PaTwD">
+                            <property role="3oM_SC" value="them" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXma" role="1PaTwD">
+                            <property role="3oM_SC" value="by" />
+                          </node>
+                          <node concept="3oM_SD" id="7WTFIQIcXmb" role="1PaTwD">
+                            <property role="3oM_SC" value="spaces." />
+                          </node>
                         </node>
                       </node>
                       <node concept="3clFbF" id="2u5C0BwN3AZ" role="3cqZAp">

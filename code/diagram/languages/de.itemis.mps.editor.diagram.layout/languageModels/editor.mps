@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="b8bb702e-43ed-4090-a902-d180d3e5f292" name="de.slisson.mps.conditionalEditor" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -438,7 +438,7 @@
       <node concept="3F0ifn" id="5mBxd1SPagY" role="3EZMnx">
         <property role="3F0ifm" value="Layout" />
         <node concept="VQ3r3" id="5mBxd1SPakc" role="3F10Kt">
-          <property role="2USNnj" value="2" />
+          <property role="2USNnj" value="gtbM8PH/underlined" />
         </node>
       </node>
       <node concept="VPM3Z" id="5mBxd1SMHTM" role="3F10Kt">
@@ -643,7 +643,7 @@
       <node concept="3F0ifn" id="5mBxd1SPrV2" role="3EZMnx">
         <property role="3F0ifm" value="Layout" />
         <node concept="VQ3r3" id="5mBxd1SPrV3" role="3F10Kt">
-          <property role="2USNnj" value="2" />
+          <property role="2USNnj" value="gtbM8PH/underlined" />
         </node>
       </node>
       <node concept="VPM3Z" id="5mBxd1SPrV4" role="3F10Kt">

@@ -2,7 +2,7 @@
 <model ref="r:cd90bbe6-a617-4ef7-b0ce-a27b18fe035e(de.q60.mps.shadowmodels.examples.statemachine.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -367,7 +367,7 @@
                       <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">
                         <node concept="2YIFZM" id="3CYlK6ygJ0q" role="2Oq$k0">
                           <ref role="37wK5l" to="yyp8:7NatPTM0nC_" resolve="getUpdater" />
-                          <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
+                          <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                           <node concept="2OqwBi" id="3CYlK6ygJ0r" role="37wK5m">
                             <node concept="1Q80Hx" id="3CYlK6ygJ0s" role="2Oq$k0" />
                             <node concept="liA8E" id="3CYlK6ygJ0t" role="2OqNvi">

@@ -4,6 +4,7 @@
   <languages>
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -224,11 +225,8 @@
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -313,6 +311,14 @@
       </concept>
       <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -4125,7 +4131,6 @@
       <node concept="3Tm1VV" id="4F4X830WBPf" role="1B3o_S" />
       <node concept="3clFbS" id="4F4X830WBPg" role="3clF47">
         <node concept="RRSsy" id="6DdMXMepg$J" role="3cqZAp">
-          <property role="RRSoG" value="debug" />
           <node concept="Xl_RD" id="6DdMXMepg$L" role="RRSoy">
             <property role="Xl_RC" value="Invalidate Descriptors" />
           </node>
@@ -4322,8 +4327,58 @@
                   </node>
                 </node>
                 <node concept="3SKdUt" id="24_feQlUt3U" role="3cqZAp">
-                  <node concept="3SKdUq" id="24_feQlUt3W" role="3SKWNk">
-                    <property role="3SKdUp" value="The non deprecated API doesn't work when executing tests from the command line, because getApplication returns NULL." />
+                  <node concept="1PaTwC" id="7WTFIQIcY9Z" role="3ndbpf">
+                    <node concept="3oM_SD" id="7WTFIQIcYa0" role="1PaTwD">
+                      <property role="3oM_SC" value="The" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa1" role="1PaTwD">
+                      <property role="3oM_SC" value="non" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa2" role="1PaTwD">
+                      <property role="3oM_SC" value="deprecated" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa3" role="1PaTwD">
+                      <property role="3oM_SC" value="API" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa4" role="1PaTwD">
+                      <property role="3oM_SC" value="doesn't" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa5" role="1PaTwD">
+                      <property role="3oM_SC" value="work" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa6" role="1PaTwD">
+                      <property role="3oM_SC" value="when" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa7" role="1PaTwD">
+                      <property role="3oM_SC" value="executing" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa8" role="1PaTwD">
+                      <property role="3oM_SC" value="tests" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYa9" role="1PaTwD">
+                      <property role="3oM_SC" value="from" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYaa" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYab" role="1PaTwD">
+                      <property role="3oM_SC" value="command" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYac" role="1PaTwD">
+                      <property role="3oM_SC" value="line," />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYad" role="1PaTwD">
+                      <property role="3oM_SC" value="because" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYae" role="1PaTwD">
+                      <property role="3oM_SC" value="getApplication" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYaf" role="1PaTwD">
+                      <property role="3oM_SC" value="returns" />
+                    </node>
+                    <node concept="3oM_SD" id="7WTFIQIcYag" role="1PaTwD">
+                      <property role="3oM_SC" value="NULL." />
+                    </node>
                   </node>
                 </node>
                 <node concept="1X3_iC" id="24_feQlUrjN" role="lGtFl">
@@ -4666,7 +4721,6 @@
               </node>
             </node>
             <node concept="RRSsy" id="6DdMXMeoxdz" role="3cqZAp">
-              <property role="RRSoG" value="debug" />
               <node concept="3cpWs3" id="763TrXRxbb3" role="RRSoy">
                 <node concept="Xl_RD" id="763TrXRxbb9" role="3uHU7B">
                   <property role="Xl_RC" value="Loaded descriptor from " />
@@ -4704,8 +4758,31 @@
             </node>
             <node concept="3clFbS" id="4O$txDMQ56B" role="TDEfX">
               <node concept="3SKdUt" id="4O$txDMQnwf" role="3cqZAp">
-                <node concept="3SKdUq" id="4O$txDMQnwh" role="3SKWNk">
-                  <property role="3SKdUp" value="Module is not part of the repository anymore" />
+                <node concept="1PaTwC" id="7WTFIQIcYah" role="3ndbpf">
+                  <node concept="3oM_SD" id="7WTFIQIcYai" role="1PaTwD">
+                    <property role="3oM_SC" value="Module" />
+                  </node>
+                  <node concept="3oM_SD" id="7WTFIQIcYaj" role="1PaTwD">
+                    <property role="3oM_SC" value="is" />
+                  </node>
+                  <node concept="3oM_SD" id="7WTFIQIcYak" role="1PaTwD">
+                    <property role="3oM_SC" value="not" />
+                  </node>
+                  <node concept="3oM_SD" id="7WTFIQIcYal" role="1PaTwD">
+                    <property role="3oM_SC" value="part" />
+                  </node>
+                  <node concept="3oM_SD" id="7WTFIQIcYam" role="1PaTwD">
+                    <property role="3oM_SC" value="of" />
+                  </node>
+                  <node concept="3oM_SD" id="7WTFIQIcYan" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="7WTFIQIcYao" role="1PaTwD">
+                    <property role="3oM_SC" value="repository" />
+                  </node>
+                  <node concept="3oM_SD" id="7WTFIQIcYap" role="1PaTwD">
+                    <property role="3oM_SC" value="anymore" />
+                  </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="4O$txDMQmwS" role="3cqZAp">
@@ -4742,7 +4819,7 @@
           <node concept="TDmWw" id="4wLzh65SUxE" role="TEbGg">
             <node concept="3clFbS" id="4wLzh65SUxF" role="TDEfX">
               <node concept="RRSsy" id="4wLzh65SYhs" role="3cqZAp">
-                <property role="RRSoG" value="error" />
+                <property role="RRSoG" value="gZ5fh_4/error" />
                 <node concept="Xl_RD" id="4wLzh65SYht" role="RRSoy" />
                 <node concept="37vLTw" id="4wLzh65SYhu" role="RRSow">
                   <ref role="3cqZAo" node="4wLzh65SUxK" resolve="e" />
@@ -5167,7 +5244,6 @@
       <node concept="3Tm1VV" id="3zTK92KPttL" role="1B3o_S" />
       <node concept="3clFbS" id="3zTK92KPttM" role="3clF47">
         <node concept="RRSsy" id="1KLm$DhM1Gk" role="3cqZAp">
-          <property role="RRSoG" value="debug" />
           <node concept="Xl_RD" id="6DdMXMeoxd_" role="RRSoy">
             <property role="Xl_RC" value="Invalidate Transformation Descriptors Cache" />
           </node>

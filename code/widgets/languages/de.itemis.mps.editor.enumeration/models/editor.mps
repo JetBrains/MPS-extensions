@@ -2,7 +2,7 @@
 <model ref="r:dddecde0-39df-4993-94a0-e0dc5b25eed3(de.itemis.mps.editor.enumeration.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -215,7 +215,7 @@
       <node concept="3F0A7n" id="1QyV25GKG7q" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <node concept="Vb9p2" id="5ZOdHnczaBN" role="3F10Kt">
-          <property role="Vbekb" value="BOLD" />
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
         </node>
       </node>
       <node concept="3EZMnI" id="1QyV25GKG7z" role="3EZMnx">
@@ -334,25 +334,25 @@
   <node concept="1h_SRR" id="5ZOdHnczgMT">
     <property role="TrG5h" value="preventDeletion" />
     <node concept="1hA7zw" id="44i1HsMhWIO" role="1h_SK8">
-      <property role="1hAc7j" value="backspace_action_id" />
+      <property role="1hAc7j" value="7P1WhNABvta/backspace_action_id" />
       <node concept="1hAIg9" id="44i1HsMhWIP" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMhWIQ" role="2VODD2" />
       </node>
     </node>
     <node concept="1hA7zw" id="44i1HsMhWJ2" role="1h_SK8">
-      <property role="1hAc7j" value="delete_action_id" />
+      <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
       <node concept="1hAIg9" id="44i1HsMhWJ3" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMhWJ4" role="2VODD2" />
       </node>
     </node>
     <node concept="1hA7zw" id="44i1HsMhWJj" role="1h_SK8">
-      <property role="1hAc7j" value="cut_action_id" />
+      <property role="1hAc7j" value="7P1WhNABBii/cut_action_id" />
       <node concept="1hAIg9" id="44i1HsMhWJk" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMhWJl" role="2VODD2" />
       </node>
     </node>
     <node concept="1hA7zw" id="44i1HsMhWJB" role="1h_SK8">
-      <property role="1hAc7j" value="delete_to_word_end_action_id" />
+      <property role="1hAc7j" value="7P1WhNABBig/delete_to_word_end_action_id" />
       <node concept="1hAIg9" id="44i1HsMhWJC" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMhWJD" role="2VODD2" />
       </node>
@@ -361,7 +361,7 @@
   <node concept="1h_SRR" id="44i1HsMiIVA">
     <property role="TrG5h" value="preventCreation" />
     <node concept="1hA7zw" id="44i1HsMiIVB" role="1h_SK8">
-      <property role="1hAc7j" value="insert_action_id" />
+      <property role="1hAc7j" value="13S4mXuSN7V/insert_action_id" />
       <node concept="1hAIg9" id="44i1HsMiIVC" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMiIVD" role="2VODD2">
           <node concept="3clFbH" id="44i1HsMiIVP" role="3cqZAp" />
@@ -369,7 +369,7 @@
       </node>
     </node>
     <node concept="1hA7zw" id="44i1HsMiIVZ" role="1h_SK8">
-      <property role="1hAc7j" value="insert_before_action_id" />
+      <property role="1hAc7j" value="13S4mXuSN7W/insert_before_action_id" />
       <node concept="1hAIg9" id="44i1HsMiIW0" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMiIW1" role="2VODD2">
           <node concept="3clFbH" id="44i1HsMiIWh" role="3cqZAp" />
@@ -377,19 +377,19 @@
       </node>
     </node>
     <node concept="1hA7zw" id="44i1HsMiIWr" role="1h_SK8">
-      <property role="1hAc7j" value="paste_action_id" />
+      <property role="1hAc7j" value="7P1WhNABBij/paste_action_id" />
       <node concept="1hAIg9" id="44i1HsMiIWs" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMiIWt" role="2VODD2" />
       </node>
     </node>
     <node concept="1hA7zw" id="44i1HsMiIWL" role="1h_SK8">
-      <property role="1hAc7j" value="paste_after_action_id" />
+      <property role="1hAc7j" value="7P1WhNABBil/paste_after_action_id" />
       <node concept="1hAIg9" id="44i1HsMiIWM" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMiIWN" role="2VODD2" />
       </node>
     </node>
     <node concept="1hA7zw" id="44i1HsMiIXa" role="1h_SK8">
-      <property role="1hAc7j" value="paste_before_action_id" />
+      <property role="1hAc7j" value="7P1WhNABBik/paste_before_action_id" />
       <node concept="1hAIg9" id="44i1HsMiIXb" role="1hA7z_">
         <node concept="3clFbS" id="44i1HsMiIXc" role="2VODD2" />
       </node>

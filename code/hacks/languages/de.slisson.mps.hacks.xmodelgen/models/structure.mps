@@ -45,9 +45,9 @@
     <ref role="1TJDcQ" to="bjdw:1_4co2y1Lw2" resolve="Transform" />
     <node concept="1TJgyj" id="6KgrWUnhWLD" role="1TKVEi">
       <property role="IQ2ns" value="7786846688815598697" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="mappingConfigurations" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6KgrWUnhely" resolve="MappingConfigurationReference" />
     </node>
   </node>
@@ -66,7 +66,6 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6KgrWUnhelz" role="1TKVEi">
       <property role="IQ2ns" value="7786846688815408483" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="mc" />
       <ref role="20lvS9" to="tpf8:fWbUwhP" resolve="MappingConfiguration" />
     </node>

@@ -43,8 +43,8 @@ def jdk_home
 
 if (ext.has('java11_home')) {
     jdk_home = ext.get('java11_home')
-} else if (System.getenv('JAVA11_HOME') != null) {
-    jdk_home = System.getenv('JAVA11_HOME')
+} else if (System.getenv('JB_JAVA11_HOME') != null) {
+    jdk_home = System.getenv('JB_JAVA11_HOME')
 } else {
     def expected = JavaVersion.VERSION_11
     if (JavaVersion.current() != expected) {
@@ -62,6 +62,7 @@ if (!new File(jdk_home, "lib").exists()) {
 }
 
 ext.jdk_home = jdk_home
+logger.info 'Using JDK at {}', jdk_home
 
 // Default repository credentials
 if (!project.hasProperty('nexusUsername')) {

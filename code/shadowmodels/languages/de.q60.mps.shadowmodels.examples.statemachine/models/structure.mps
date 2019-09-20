@@ -110,5 +110,18 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2VTIUrjljym">
+    <property role="EcuMT" value="3384942920130181270" />
+    <property role="TrG5h" value="StatemachineContainer" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2VTIUrjljyQ" role="1TKVEi">
+      <property role="IQ2ns" value="3384942920130181302" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="statemachine" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6ndA7L_L0uE" resolve="Statemachine" />
+    </node>
+  </node>
 </model>
 

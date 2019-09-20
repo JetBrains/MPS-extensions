@@ -348,7 +348,7 @@
                   <ref role="3cqZAo" node="69mEcW04p$6" resolve="model" />
                 </node>
                 <node concept="liA8E" id="69mEcW0hufT" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModel.removeChangeListener(org.jetbrains.mps.openapi.model.SNodeChangeListener):void" resolve="removeChangeListener" />
+                  <ref role="37wK5l" to="mhbf:~SModel.removeChangeListener(org.jetbrains.mps.openapi.model.SNodeChangeListener)" resolve="removeChangeListener" />
                   <node concept="37vLTw" id="69mEcW0huhE" role="37wK5m">
                     <ref role="3cqZAo" node="69mEcW0hh54" resolve="existingListener" />
                   </node>
@@ -369,7 +369,7 @@
               <ref role="3cqZAo" node="69mEcW04p$6" resolve="model" />
             </node>
             <node concept="liA8E" id="69mEcW0hwwH" role="2OqNvi">
-              <ref role="37wK5l" to="mhbf:~SModel.addChangeListener(org.jetbrains.mps.openapi.model.SNodeChangeListener):void" resolve="addChangeListener" />
+              <ref role="37wK5l" to="mhbf:~SModel.addChangeListener(org.jetbrains.mps.openapi.model.SNodeChangeListener)" resolve="addChangeListener" />
               <node concept="37vLTw" id="69mEcW0hwz6" role="37wK5m">
                 <ref role="3cqZAo" node="69mEcW04p$8" resolve="listener" />
               </node>
@@ -628,7 +628,7 @@
                     <ref role="3cqZAo" node="7TiosyQOJTN" resolve="event" />
                   </node>
                   <node concept="liA8E" id="7TiosyQOLw8" role="2OqNvi">
-                    <ref role="37wK5l" to="cmfw:~SNodeRemoveEvent.getChild():org.jetbrains.mps.openapi.model.SNode" resolve="getChild" />
+                    <ref role="37wK5l" to="cmfw:~SNodeRemoveEvent.getChild()" resolve="getChild" />
                   </node>
                 </node>
               </node>
@@ -650,7 +650,7 @@
                   <ref role="3cqZAo" node="7TiosyQOJTN" resolve="event" />
                 </node>
                 <node concept="liA8E" id="7TiosyQOKOx" role="2OqNvi">
-                  <ref role="37wK5l" to="cmfw:~SNodeRemoveEvent.getChild():org.jetbrains.mps.openapi.model.SNode" resolve="getChild" />
+                  <ref role="37wK5l" to="cmfw:~SNodeRemoveEvent.getChild()" resolve="getChild" />
                 </node>
               </node>
             </node>

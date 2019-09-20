@@ -113,7 +113,7 @@
           <node concept="2OqwBi" id="651tS80wHkm" role="33vP2m">
             <node concept="369mXd" id="651tS80wH40" role="2Oq$k0" />
             <node concept="liA8E" id="651tS80wJTw" role="2OqNvi">
-              <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell():jetbrains.mps.nodeEditor.cells.EditorCell" resolve="getRootCell" />
+              <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
             </node>
           </node>
         </node>
@@ -129,7 +129,7 @@
             <ref role="3cqZAo" node="651tS80wJU$" resolve="cell" />
           </node>
           <node concept="liA8E" id="651tS80wKoR" role="2OqNvi">
-            <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+            <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
           </node>
         </node>
         <node concept="3VsKOn" id="651tS80wKMF" role="3tpDZA">

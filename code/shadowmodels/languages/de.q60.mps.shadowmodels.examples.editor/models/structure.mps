@@ -43,7 +43,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="transformation" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="oyp0:6ndA7L_L6SA" resolve="TransformationImplementation" />
+      <ref role="20lvS9" to="oyp0:6ndA7L_L6SA" resolve="Transformation" />
     </node>
     <node concept="1TJgyj" id="7NatPTM2w$H" role="1TKVEi">
       <property role="IQ2ns" value="8992130853522508077" />
@@ -70,7 +70,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="transformation" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="oyp0:6ndA7L_L6SA" resolve="TransformationImplementation" />
+      <ref role="20lvS9" to="oyp0:6ndA7L_L6SA" resolve="Transformation" />
     </node>
   </node>
 </model>

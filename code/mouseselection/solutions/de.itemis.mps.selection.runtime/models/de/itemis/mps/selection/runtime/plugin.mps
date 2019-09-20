@@ -212,7 +212,7 @@
             </node>
             <node concept="2YIFZM" id="2vJRo8g$$xo" role="33vP2m">
               <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
               <node concept="1KvdUw" id="2vJRo8g$$xp" role="37wK5m" />
             </node>
           </node>
@@ -231,11 +231,11 @@
                   <ref role="3cqZAo" node="2vJRo8g$$xm" resolve="ideaProject" />
                 </node>
                 <node concept="liA8E" id="2vJRo8g$$xy" role="2OqNvi">
-                  <ref role="37wK5l" to="1m72:~ComponentManager.getMessageBus():com.intellij.util.messages.MessageBus" resolve="getMessageBus" />
+                  <ref role="37wK5l" to="1m72:~ComponentManager.getMessageBus()" resolve="getMessageBus" />
                 </node>
               </node>
               <node concept="liA8E" id="2vJRo8g$$xz" role="2OqNvi">
-                <ref role="37wK5l" to="4b2m:~MessageBus.connect():com.intellij.util.messages.MessageBusConnection" resolve="connect" />
+                <ref role="37wK5l" to="4b2m:~MessageBus.connect()" resolve="connect" />
               </node>
             </node>
           </node>
@@ -249,7 +249,7 @@
               </node>
             </node>
             <node concept="liA8E" id="2vJRo8g$$xD" role="2OqNvi">
-              <ref role="37wK5l" to="4b2m:~MessageBusConnection.subscribe(com.intellij.util.messages.Topic,java.lang.Object):void" resolve="subscribe" />
+              <ref role="37wK5l" to="4b2m:~MessageBusConnection.subscribe(com.intellij.util.messages.Topic,java.lang.Object)" resolve="subscribe" />
               <node concept="10M0yZ" id="2vJRo8g$$xE" role="37wK5m">
                 <ref role="3cqZAo" to="rlg8:~EditorComponentCreateListener.EDITOR_COMPONENT_CREATION" resolve="EDITOR_COMPONENT_CREATION" />
                 <ref role="1PxDUh" to="rlg8:~EditorComponentCreateListener" resolve="EditorComponentCreateListener" />
@@ -346,7 +346,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2vJRo8g$$y7" role="2OqNvi">
-                  <ref role="37wK5l" to="4b2m:~MessageBusConnection.disconnect():void" resolve="disconnect" />
+                  <ref role="37wK5l" to="4b2m:~MessageBusConnection.disconnect()" resolve="disconnect" />
                 </node>
               </node>
             </node>
@@ -396,11 +396,11 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="630t2b8c7EX" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
                 </node>
               </node>
               <node concept="liA8E" id="630t2b8c7EY" role="2OqNvi">
-                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
               </node>
             </node>
           </node>
@@ -438,11 +438,11 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="630t2b84JD2" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
                 </node>
               </node>
               <node concept="liA8E" id="630t2b84JD3" role="2OqNvi">
-                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
               </node>
             </node>
           </node>

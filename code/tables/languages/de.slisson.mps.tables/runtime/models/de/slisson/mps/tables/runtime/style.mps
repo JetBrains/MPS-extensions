@@ -286,11 +286,11 @@
                       <ref role="3cqZAo" node="3ubIyAZ0l9N" resolve="style" />
                     </node>
                     <node concept="liA8E" id="3ubIyAZ0lF0" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                     </node>
                   </node>
                   <node concept="liA8E" id="3ubIyAZ0nVA" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...):java.lang.reflect.Method" resolve="getDeclaredMethod" />
+                    <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...)" resolve="getDeclaredMethod" />
                     <node concept="Xl_RD" id="3ubIyAZ0o8T" role="37wK5m">
                       <property role="Xl_RC" value="getParentStyle" />
                     </node>
@@ -304,7 +304,7 @@
                   <ref role="3cqZAo" node="3ubIyAZ0AO4" resolve="m" />
                 </node>
                 <node concept="liA8E" id="3ubIyAZ0DGK" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean):void" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="3ubIyAZ0Eo_" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -321,7 +321,7 @@
                     <ref role="3cqZAo" node="3ubIyAZ0AO4" resolve="m" />
                   </node>
                   <node concept="liA8E" id="3ubIyAZ0HHe" role="2OqNvi">
-                    <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
+                    <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...)" resolve="invoke" />
                     <node concept="37vLTw" id="3ubIyAZ0INb" role="37wK5m">
                       <ref role="3cqZAo" node="3ubIyAZ0l9N" resolve="style" />
                     </node>
@@ -427,7 +427,7 @@
               <ref role="3cqZAo" node="3ubIyAZ0ac7" resolve="copy" />
             </node>
             <node concept="liA8E" id="3ubIyAZ0ace" role="2OqNvi">
-              <ref role="37wK5l" to="hox0:~Style.putAll(jetbrains.mps.openapi.editor.style.Style):void" resolve="putAll" />
+              <ref role="37wK5l" to="hox0:~Style.putAll(jetbrains.mps.openapi.editor.style.Style)" resolve="putAll" />
               <node concept="37vLTw" id="3ubIyAZ24CC" role="37wK5m">
                 <ref role="3cqZAo" node="3ubIyAZ1QOl" resolve="style" />
               </node>
@@ -556,7 +556,7 @@
               <ref role="3cqZAo" node="3ubIyAZ0acl" resolve="style2" />
             </node>
             <node concept="liA8E" id="3ubIyAZ0acB" role="2OqNvi">
-              <ref role="37wK5l" to="hox0:~Style.getSpecifiedAttributes():java.lang.Iterable" resolve="getSpecifiedAttributes" />
+              <ref role="37wK5l" to="hox0:~Style.getSpecifiedAttributes()" resolve="getSpecifiedAttributes" />
             </node>
           </node>
           <node concept="3clFbS" id="3ubIyAZ0acC" role="2LFqv$">
@@ -577,7 +577,7 @@
                   <ref role="3cqZAo" node="3ubIyAZ0acw" resolve="combined" />
                 </node>
                 <node concept="liA8E" id="3ubIyAZ0acG" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                   <node concept="2GrUjf" id="3ubIyAZ0acH" role="37wK5m">
                     <ref role="2Gs0qQ" node="3ubIyAZ0ac$" resolve="attribute" />
                   </node>
@@ -586,13 +586,13 @@
                       <ref role="2Gs0qQ" node="3ubIyAZ0ac$" resolve="attribute" />
                     </node>
                     <node concept="liA8E" id="3ubIyAZ0acK" role="2OqNvi">
-                      <ref role="37wK5l" to="hox0:~StyleAttribute.combine(java.lang.Object,java.lang.Object):java.lang.Object" resolve="combine" />
+                      <ref role="37wK5l" to="hox0:~StyleAttribute.combine(java.lang.Object,java.lang.Object)" resolve="combine" />
                       <node concept="2OqwBi" id="3ubIyAZ0acL" role="37wK5m">
                         <node concept="37vLTw" id="3ubIyAZ0acM" role="2Oq$k0">
                           <ref role="3cqZAo" node="3ubIyAZ0acw" resolve="combined" />
                         </node>
                         <node concept="liA8E" id="3ubIyAZ0acN" role="2OqNvi">
-                          <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                          <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
                           <node concept="2GrUjf" id="3ubIyAZ0acO" role="37wK5m">
                             <ref role="2Gs0qQ" node="3ubIyAZ0ac$" resolve="attribute" />
                           </node>
@@ -603,7 +603,7 @@
                           <ref role="3cqZAo" node="3ubIyAZ0acl" resolve="style2" />
                         </node>
                         <node concept="liA8E" id="3ubIyAZ0acR" role="2OqNvi">
-                          <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                          <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
                           <node concept="2GrUjf" id="3ubIyAZ0acS" role="37wK5m">
                             <ref role="2Gs0qQ" node="3ubIyAZ0ac$" resolve="attribute" />
                           </node>

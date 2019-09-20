@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -58,6 +59,11 @@
       <property role="IQ2nx" value="4767615435817184498" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="62nlqxEeKX8" role="1TKVEl">
+      <property role="IQ2nx" value="6960125930949513032" />
+      <property role="TrG5h" value="group" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="48DYfEt2oMe" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expandedCell" />
@@ -72,6 +78,84 @@
       <property role="IQ2ns" value="4767615435811051865" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
+    <node concept="1TJgyj" id="1$t5g3Q$dBC" role="1TKVEi">
+      <property role="IQ2ns" value="1809625719153678824" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="getNodeSize" />
+      <ref role="20lvS9" node="1$t5g3Q$5tQ" resolve="ConceptFunction_GetNodeSize" />
+    </node>
+    <node concept="1TJgyj" id="69rYimo66sD" role="1TKVEi">
+      <property role="IQ2ns" value="7087532378458449705" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="paintNode" />
+      <ref role="20lvS9" node="69rYimo5LH8" resolve="ConceptFunction_PaintNode" />
+    </node>
+    <node concept="1TJgyj" id="5pN$eUp1WSL" role="1TKVEi">
+      <property role="IQ2ns" value="6229482064027569713" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="paintEdge" />
+      <ref role="20lvS9" node="5pN$eUp1Ruy" resolve="ConceptFunction_PaintEdge" />
+    </node>
+    <node concept="1TJgyj" id="5pN$eUp1WT1" role="1TKVEi">
+      <property role="IQ2ns" value="6229482064027569729" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="paintLine" />
+      <ref role="20lvS9" node="5pN$eUp1SMn" resolve="ConceptFunction_PaintLine" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1$t5g3Q$5tQ">
+    <property role="EcuMT" value="1809625719153645430" />
+    <property role="TrG5h" value="ConceptFunction_GetNodeSize" />
+    <property role="34LRSv" value="node size" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="69rYimo5LH8">
+    <property role="EcuMT" value="7087532378458364744" />
+    <property role="TrG5h" value="ConceptFunction_PaintNode" />
+    <property role="34LRSv" value="paint node" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="69rYimo5Rzo">
+    <property role="EcuMT" value="7087532378458388696" />
+    <property role="TrG5h" value="ConceptFunctionParameter_Graphics2D" />
+    <property role="34LRSv" value="graphics" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="69rYimo65Uo">
+    <property role="EcuMT" value="7087532378458447512" />
+    <property role="TrG5h" value="ConceptFunctionParameter_Highlighted" />
+    <property role="34LRSv" value="highlighted" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="69rYimpipxQ">
+    <property role="EcuMT" value="7087532378478450806" />
+    <property role="TrG5h" value="ConceptFunctionParameter_Bounds" />
+    <property role="34LRSv" value="bounds" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3SbGHEnRva6">
+    <property role="EcuMT" value="4470863707015869062" />
+    <property role="TrG5h" value="ConceptFunctionParameter_Expanded" />
+    <property role="34LRSv" value="expanded" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="5pN$eUp1Ruy">
+    <property role="EcuMT" value="6229482064027547554" />
+    <property role="TrG5h" value="ConceptFunction_PaintEdge" />
+    <property role="34LRSv" value="paint edge" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5pN$eUp1S8G">
+    <property role="EcuMT" value="6229482064027550252" />
+    <property role="TrG5h" value="ConceptFunctionParameter_ParentBounds" />
+    <property role="34LRSv" value="parentBounds" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="5pN$eUp1SMn">
+    <property role="EcuMT" value="6229482064027552919" />
+    <property role="TrG5h" value="ConceptFunction_PaintLine" />
+    <property role="34LRSv" value="paint line" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

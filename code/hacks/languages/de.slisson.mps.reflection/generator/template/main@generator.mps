@@ -2637,7 +2637,7 @@
                     <node concept="3clFbS" id="1lru49Vk69b" role="3clFbx">
                       <node concept="3cpWs6" id="1lru49Vk9xr" role="3cqZAp">
                         <node concept="2YIFZM" id="6Ehn3QO55I5" role="3cqZAk">
-                          <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+                          <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
                           <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
                           <node concept="Xl_RD" id="6Ehn3QO56d5" role="37wK5m">
                             <property role="Xl_RC" value="%s.%s" />

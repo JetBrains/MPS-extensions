@@ -353,8 +353,8 @@
     <property role="3GE5qa" value="horizontal" />
     <ref role="1XX52x" to="myiq:Z$zlZaZkvO" resolve="word" />
     <node concept="3F0A7n" id="Z$zlZaZlkm" role="2wV5jI">
-      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       <ref role="34QXea" node="2jBmyzyHOOA" resolve="TextGenElement_Keymap" />
+      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       <node concept="VPXOz" id="4w$6EQbaGUe" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
@@ -365,7 +365,7 @@
   </node>
   <node concept="24kQdi" id="Z$zlZaZkBc">
     <property role="3GE5qa" value="vertical" />
-    <ref role="1XX52x" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+    <ref role="1XX52x" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
     <node concept="3EZMnI" id="4w$6EQbbzp9" role="2wV5jI">
       <property role="S$Qs1" value="true" />
       <ref role="34QXea" node="2jBmyzyHOOA" resolve="TextGenElement_Keymap" />
@@ -426,43 +426,46 @@
         <property role="3$6WeP" value="0" />
       </node>
     </node>
-    <node concept="3EZMnI" id="6gwxh6GcxZe" role="6VMZX">
-      <node concept="VPM3Z" id="6gwxh6GcxZg" role="3F10Kt">
-        <property role="VOm3f" value="false" />
-      </node>
-      <node concept="3F0ifn" id="6gwxh6GcxZi" role="3EZMnx">
-        <property role="3F0ifm" value="Horizontal alignment:" />
-      </node>
-      <node concept="3F0A7n" id="6gwxh6GcxZy" role="3EZMnx">
-        <ref role="1NtTu8" to="myiq:6gwxh6GcoAr" resolve="align" />
-      </node>
-      <node concept="1HlG4h" id="2jBmyzyFGyv" role="3EZMnx">
-        <node concept="1HfYo3" id="2jBmyzyFGyx" role="1HlULh">
-          <node concept="3TQlhw" id="2jBmyzyFGyz" role="1Hhtcw">
-            <node concept="3clFbS" id="2jBmyzyFGy_" role="2VODD2">
-              <node concept="3clFbF" id="2jBmyzyFLtz" role="3cqZAp">
-                <node concept="3cpWs3" id="2jBmyzyFLLj" role="3clFbG">
-                  <node concept="Xl_RD" id="2jBmyzyFLNL" role="3uHU7w">
-                    <property role="Xl_RC" value=")" />
-                  </node>
-                  <node concept="3cpWs3" id="2jBmyzyFLAz" role="3uHU7B">
-                    <node concept="Xl_RD" id="2jBmyzyFLty" role="3uHU7B">
-                      <property role="Xl_RC" value="(" />
+    <node concept="3EZMnI" id="2u5C0Bw$Gk9" role="6VMZX">
+      <node concept="2iRkQZ" id="2u5C0Bw$Gka" role="2iSdaV" />
+      <node concept="3EZMnI" id="6gwxh6GcxZe" role="3EZMnx">
+        <node concept="VPM3Z" id="6gwxh6GcxZg" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="6gwxh6GcxZi" role="3EZMnx">
+          <property role="3F0ifm" value="Horizontal alignment:" />
+        </node>
+        <node concept="3F0A7n" id="6gwxh6GcxZy" role="3EZMnx">
+          <ref role="1NtTu8" to="myiq:6gwxh6GcoAr" resolve="align" />
+        </node>
+        <node concept="1HlG4h" id="2jBmyzyFGyv" role="3EZMnx">
+          <node concept="1HfYo3" id="2jBmyzyFGyx" role="1HlULh">
+            <node concept="3TQlhw" id="2jBmyzyFGyz" role="1Hhtcw">
+              <node concept="3clFbS" id="2jBmyzyFGy_" role="2VODD2">
+                <node concept="3clFbF" id="2jBmyzyFLtz" role="3cqZAp">
+                  <node concept="3cpWs3" id="2jBmyzyFLLj" role="3clFbG">
+                    <node concept="Xl_RD" id="2jBmyzyFLNL" role="3uHU7w">
+                      <property role="Xl_RC" value=")" />
                     </node>
-                    <node concept="2OqwBi" id="2jBmyzyFLem" role="3uHU7w">
-                      <node concept="2OqwBi" id="2jBmyzyFIY_" role="2Oq$k0">
-                        <node concept="2OqwBi" id="2jBmyzyFIF0" role="2Oq$k0">
-                          <node concept="pncrf" id="2jBmyzyFIAQ" role="2Oq$k0" />
-                          <node concept="3TrcHB" id="2jBmyzyFIOu" role="2OqNvi">
-                            <ref role="3TsBF5" to="myiq:6gwxh6GcoAr" resolve="align" />
+                    <node concept="3cpWs3" id="2jBmyzyFLAz" role="3uHU7B">
+                      <node concept="Xl_RD" id="2jBmyzyFLty" role="3uHU7B">
+                        <property role="Xl_RC" value="(" />
+                      </node>
+                      <node concept="2OqwBi" id="2jBmyzyFLem" role="3uHU7w">
+                        <node concept="2OqwBi" id="2jBmyzyFIY_" role="2Oq$k0">
+                          <node concept="2OqwBi" id="2jBmyzyFIF0" role="2Oq$k0">
+                            <node concept="pncrf" id="2jBmyzyFIAQ" role="2Oq$k0" />
+                            <node concept="3TrcHB" id="2jBmyzyFIOu" role="2OqNvi">
+                              <ref role="3TsBF5" to="myiq:6gwxh6GcoAr" resolve="align" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="2jBmyzyFJ7a" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                           </node>
                         </node>
-                        <node concept="liA8E" id="2jBmyzyFJ7a" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                        <node concept="liA8E" id="2jBmyzyFLnY" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                         </node>
-                      </node>
-                      <node concept="liA8E" id="2jBmyzyFLnY" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
                       </node>
                     </node>
                   </node>
@@ -471,8 +474,8 @@
             </node>
           </node>
         </node>
+        <node concept="2iRfu4" id="6gwxh6GcxZj" role="2iSdaV" />
       </node>
-      <node concept="2iRfu4" id="6gwxh6GcxZj" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="Z$zlZaZO7J">
@@ -547,11 +550,11 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="2jBmyzyFLWE" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                         </node>
                       </node>
                       <node concept="liA8E" id="2jBmyzyFLWF" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                        <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                       </node>
                     </node>
                   </node>
@@ -597,6 +600,15 @@
         <ref role="1NtTu8" to="myiq:Z$zlZaZSbU" resolve="content" />
       </node>
       <node concept="2iRkQZ" id="Z$zlZaZkP6" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="71qbzSbCuXk" role="6VMZX">
+      <node concept="2iRfu4" id="71qbzSbCuXl" role="2iSdaV" />
+      <node concept="3F0ifn" id="71qbzSbCuXh" role="3EZMnx">
+        <property role="3F0ifm" value="LineEnding:" />
+      </node>
+      <node concept="3F0A7n" id="71qbzSbCuXt" role="3EZMnx">
+        <ref role="1NtTu8" to="myiq:71qbzSbCuXc" resolve="lineEnding" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="4q7d2VGNzUl">
@@ -749,7 +761,7 @@
                         <ref role="3cqZAo" node="2jBmyzyAT_M" resolve="b" />
                       </node>
                       <node concept="liA8E" id="2jBmyzyAW26" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String)" resolve="append" />
                         <node concept="Xl_RD" id="2jBmyzyAW4I" role="37wK5m">
                           <property role="Xl_RC" value=" " />
                         </node>
@@ -784,7 +796,7 @@
                     <ref role="3cqZAo" node="2jBmyzyAT_M" resolve="b" />
                   </node>
                   <node concept="liA8E" id="2jBmyzyAWJt" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                    <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
                   </node>
                 </node>
               </node>
@@ -888,7 +900,7 @@
   </node>
   <node concept="24kQdi" id="2jBmyzyH_w6">
     <property role="3GE5qa" value="vertical" />
-    <ref role="1XX52x" to="myiq:Z$zlZaZkvD" resolve="IndentedText" />
+    <ref role="1XX52x" to="myiq:Z$zlZaZkvD" resolve="SpaceIndentedText" />
     <node concept="2aJ2om" id="2jBmyzyH_$v" role="CpUAK">
       <ref role="2$4xQ3" node="2jBmyzyH$LX" resolve="Structural" />
     </node>
@@ -1004,11 +1016,11 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="2jBmyzyH_G9" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                         </node>
                       </node>
                       <node concept="liA8E" id="2jBmyzyH_Ga" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                        <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                       </node>
                     </node>
                   </node>
@@ -1128,11 +1140,11 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="2jBmyzyH_Vg" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                          <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                         </node>
                       </node>
                       <node concept="liA8E" id="2jBmyzyH_Vh" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                        <ref role="37wK5l" to="wyt6:~String.toLowerCase()" resolve="toLowerCase" />
                       </node>
                     </node>
                   </node>
@@ -1148,6 +1160,60 @@
   <node concept="325Ffw" id="2jBmyzyHOOA">
     <property role="2XBEHb" value="true" />
     <property role="TrG5h" value="TextGenElement_Keymap" />
+    <node concept="2PxR9H" id="2u5C0BwzEq$" role="2QnnpI">
+      <property role="2PxWOX" value="Append literal tab [Ctrl+Alt+Enter]" />
+      <node concept="2Py5lD" id="2u5C0BwzEq_" role="2PyaAO">
+        <property role="2PWKIB" value="ctrl+alt" />
+        <property role="2PWKIS" value="VK_ENTER" />
+      </node>
+      <node concept="2Pz7Y7" id="2u5C0BwzFgB" role="2Pzqsi">
+        <node concept="3clFbS" id="2u5C0BwzFgC" role="2VODD2">
+          <node concept="3clFbF" id="2u5C0BwzFgD" role="3cqZAp">
+            <node concept="2OqwBi" id="2u5C0BwzFgE" role="3clFbG">
+              <node concept="2OqwBi" id="2u5C0BwzFgF" role="2Oq$k0">
+                <node concept="0GJ7k" id="2u5C0BwzFgG" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="2u5C0BwzFgH" role="2OqNvi">
+                  <node concept="1xMEDy" id="2u5C0BwzFgI" role="1xVPHs">
+                    <node concept="chp4Y" id="2u5C0BwzGo2" role="ri$Ld">
+                      <ref role="cht4Q" to="myiq:Z$zlZaZkvJ" resolve="Line" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="2u5C0BwzFgK" role="1xVPHs" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="2u5C0BwzFgL" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2PzhpH" id="2u5C0BwzFr8" role="2PL9iG">
+        <node concept="3clFbS" id="2u5C0BwzFr9" role="2VODD2">
+          <node concept="3clFbF" id="2u5C0BwzFra" role="3cqZAp">
+            <node concept="2OqwBi" id="2u5C0BwzFrb" role="3clFbG">
+              <node concept="2OqwBi" id="2u5C0BwzFrc" role="2Oq$k0">
+                <node concept="2OqwBi" id="2u5C0BwzFrd" role="2Oq$k0">
+                  <node concept="0GJ7k" id="2u5C0BwzFre" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="2u5C0BwzFrf" role="2OqNvi">
+                    <node concept="1xMEDy" id="2u5C0BwzFrg" role="1xVPHs">
+                      <node concept="chp4Y" id="2u5C0BwzG$m" role="ri$Ld">
+                        <ref role="cht4Q" to="myiq:Z$zlZaZkvJ" resolve="Line" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="2u5C0BwzFri" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="2u5C0BwzIrM" role="2OqNvi">
+                  <ref role="3TtcxE" to="myiq:Z$zlZaZkvM" resolve="words" />
+                </node>
+              </node>
+              <node concept="WFELt" id="2u5C0BwzFrk" role="2OqNvi">
+                <ref role="1A0vxQ" to="myiq:2u5C0Bwy3V8" resolve="tab" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2PxR9H" id="2jBmyzyHOOB" role="2QnnpI">
       <property role="2PxWOX" value="Append line [Ctrl+Enter]" />
       <property role="3ArL7W" value="true" />
@@ -1255,6 +1321,29 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2u5C0Bwy3Vh">
+    <property role="3GE5qa" value="horizontal" />
+    <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="tab" />
+    <node concept="3F0ifn" id="2u5C0Bwz6Jr" role="2wV5jI">
+      <property role="3F0ifm" value="→" />
+      <node concept="VechU" id="2u5C0Bwz6Ju" role="3F10Kt">
+        <property role="Vb096" value="lightGray" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1rAvrZzziLI">
+    <property role="3GE5qa" value="horizontal" />
+    <ref role="1XX52x" to="myiq:2u5C0Bwy3V8" resolve="tab" />
+    <node concept="3F0ifn" id="1rAvrZzziLJ" role="2wV5jI">
+      <property role="3F0ifm" value="→" />
+      <node concept="VechU" id="1rAvrZzziLK" role="3F10Kt">
+        <property role="Vb096" value="lightGray" />
+      </node>
+    </node>
+    <node concept="2aJ2om" id="1rAvrZzzphd" role="CpUAK">
+      <ref role="2$4xQ3" node="2jBmyzyH$LX" resolve="Structural" />
     </node>
   </node>
 </model>

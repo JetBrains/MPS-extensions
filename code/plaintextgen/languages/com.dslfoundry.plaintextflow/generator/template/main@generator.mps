@@ -89,7 +89,7 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -132,7 +132,7 @@
               <node concept="3clFbS" id="3McofITYuVh" role="2VODD2">
                 <node concept="3cpWs6" id="3McofITYv3Q" role="3cqZAp">
                   <node concept="2YIFZM" id="3McofITYvtM" role="3cqZAk">
-                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
                     <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
                     <node concept="Xl_RD" id="3McofITYvBn" role="37wK5m">
                       <property role="Xl_RC" value="\n%s" />
@@ -176,7 +176,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="3McofITYy55" role="3acgRq">
-      <ref role="30HIoZ" to="ssyn:6$Hx0f8ja4S" resolve="FlowIndent" />
+      <ref role="30HIoZ" to="ssyn:6$Hx0f8ja4S" resolve="Flow" />
       <node concept="gft3U" id="3McofITYy5s" role="1lVwrX">
         <node concept="356sEK" id="3McofITYy5y" role="gfFT$">
           <node concept="356sEF" id="3McofITZuQ1" role="356sEH">

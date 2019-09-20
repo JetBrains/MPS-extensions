@@ -9,7 +9,7 @@ site_url: https://jetbrains.github.io/MPS-extensions/
 
 repo_url: https://github.com/jetbrains/mps-extensions
 
-pages:
+nav:
 - Home: index.md
 - Building: building.md
 - Contributing: contributing.md
@@ -18,3 +18,4 @@ pages:
   - Diagrams: extensions/diagrams.md
   - Node Versioning: extensions/node-versioning.md
   - Plaintext Generator: extensions/plaintext-gen.md
+  - Shadow Models: extensions/shadowmodels.md

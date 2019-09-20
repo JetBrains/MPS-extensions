@@ -57,25 +57,25 @@
               <node concept="2OqwBi" id="4Te4zGtlJMV" role="37wK5m">
                 <node concept="2xDkLB" id="4Te4zGtlJMW" role="2Oq$k0" />
                 <node concept="liA8E" id="4Te4zGtlJMX" role="2OqNvi">
-                  <ref role="37wK5l" to="fbzs:~RectangularShape.getX():double" resolve="getX" />
+                  <ref role="37wK5l" to="fbzs:~RectangularShape.getX()" resolve="getX" />
                 </node>
               </node>
               <node concept="2OqwBi" id="4Te4zGtlJMY" role="37wK5m">
                 <node concept="2xDkLB" id="4Te4zGtlJMZ" role="2Oq$k0" />
                 <node concept="liA8E" id="4Te4zGtlJN0" role="2OqNvi">
-                  <ref role="37wK5l" to="fbzs:~RectangularShape.getY():double" resolve="getY" />
+                  <ref role="37wK5l" to="fbzs:~RectangularShape.getY()" resolve="getY" />
                 </node>
               </node>
               <node concept="2OqwBi" id="4Te4zGtlJN1" role="37wK5m">
                 <node concept="2xDkLB" id="4Te4zGtlJN2" role="2Oq$k0" />
                 <node concept="liA8E" id="4Te4zGtlJN3" role="2OqNvi">
-                  <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth():double" resolve="getWidth" />
+                  <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth()" resolve="getWidth" />
                 </node>
               </node>
               <node concept="2OqwBi" id="4Te4zGtlJN4" role="37wK5m">
                 <node concept="2xDkLB" id="4Te4zGtlJN5" role="2Oq$k0" />
                 <node concept="liA8E" id="4Te4zGtlJN6" role="2OqNvi">
-                  <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight():double" resolve="getHeight" />
+                  <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight()" resolve="getHeight" />
                 </node>
               </node>
             </node>

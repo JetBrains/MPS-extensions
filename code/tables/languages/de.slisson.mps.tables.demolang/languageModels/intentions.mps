@@ -460,7 +460,7 @@
             <node concept="1y4W85" id="1dAqnm9dV6b" role="37vLTx">
               <node concept="2OqwBi" id="1dAqnm9dVgL" role="1y58nS">
                 <node concept="liA8E" id="1dAqnm9dWm3" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~Random.nextInt(int):int" resolve="nextInt" />
+                  <ref role="37wK5l" to="33ny:~Random.nextInt(int)" resolve="nextInt" />
                   <node concept="2OqwBi" id="1dAqnm9dZ6g" role="37wK5m">
                     <node concept="34oBXx" id="1dAqnm9eb7M" role="2OqNvi" />
                     <node concept="2OqwBi" id="1dAqnm9dWxO" role="2Oq$k0">
@@ -497,7 +497,7 @@
             <node concept="1y4W85" id="1dAqnm9ebxs" role="37vLTx">
               <node concept="2OqwBi" id="1dAqnm9ebxt" role="1y58nS">
                 <node concept="liA8E" id="1dAqnm9ebxu" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~Random.nextInt(int):int" resolve="nextInt" />
+                  <ref role="37wK5l" to="33ny:~Random.nextInt(int)" resolve="nextInt" />
                   <node concept="2OqwBi" id="1dAqnm9ebxv" role="37wK5m">
                     <node concept="34oBXx" id="1dAqnm9ebxw" role="2OqNvi" />
                     <node concept="2OqwBi" id="1dAqnm9ebxx" role="2Oq$k0">
@@ -542,7 +542,7 @@
             <node concept="1y4W85" id="1dAqnm9efBb" role="37vLTx">
               <node concept="2OqwBi" id="1dAqnm9efBc" role="1y58nS">
                 <node concept="liA8E" id="1dAqnm9efBd" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~Random.nextInt(int):int" resolve="nextInt" />
+                  <ref role="37wK5l" to="33ny:~Random.nextInt(int)" resolve="nextInt" />
                   <node concept="2OqwBi" id="1dAqnm9efBe" role="37wK5m">
                     <node concept="34oBXx" id="1dAqnm9efBf" role="2OqNvi" />
                     <node concept="2OqwBi" id="1dAqnm9efBg" role="2Oq$k0">
@@ -804,7 +804,7 @@
                   <node concept="2yIwOk" id="5KX1OsE1Jsx" role="2OqNvi" />
                 </node>
                 <node concept="liA8E" id="5KX1OsE1KBe" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SAbstractConcept.getName():java.lang.String" resolve="getName" />
+                  <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -873,7 +873,7 @@
               <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="630t2b85Dlo" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="3cpWs3" id="630t2b8619B" role="37wK5m">
                 <node concept="Xl_RD" id="630t2b8619E" role="3uHU7w">
                   <property role="Xl_RC" value=")" />

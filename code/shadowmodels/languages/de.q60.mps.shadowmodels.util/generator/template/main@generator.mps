@@ -240,7 +240,7 @@
             <node concept="3clFbS" id="2CFqHq6$j9C" role="3clFbx">
               <node concept="3cpWs6" id="2CFqHq6$lPS" role="3cqZAp">
                 <node concept="2YIFZM" id="2CFqHq6$n1W" role="3cqZAk">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.createVertical(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createVertical" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.createVertical(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode)" resolve="createVertical" />
                   <ref role="1Pybhc" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
                   <node concept="37vLTw" id="2CFqHq6$ngu" role="37wK5m">
                     <ref role="3cqZAo" node="fXNLFfU" resolve="editorContext" />
@@ -419,7 +419,7 @@
                 <ref role="3cqZAo" node="fXOjGGL" resolve="editorCell" />
               </node>
               <node concept="liA8E" id="13c7lpEz_Ao" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.setSubstituteInfo(jetbrains.mps.openapi.editor.cells.SubstituteInfo):void" resolve="setSubstituteInfo" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.setSubstituteInfo(jetbrains.mps.openapi.editor.cells.SubstituteInfo)" resolve="setSubstituteInfo" />
                 <node concept="10Nm6u" id="13c7lpEz_Ap" role="37wK5m" />
               </node>
             </node>

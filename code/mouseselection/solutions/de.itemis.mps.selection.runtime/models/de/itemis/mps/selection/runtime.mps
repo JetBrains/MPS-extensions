@@ -81,18 +81,18 @@
                 <ref role="3cqZAo" node="6Y0V2RJtN5b" resolve="label" />
               </node>
               <node concept="1PvZjq" id="4BxMnKBmNUs" role="2OqNvi">
-                <ref role="37wK5l" to="g51k:~EditorCell_Label.getTextLine():jetbrains.mps.nodeEditor.cells.TextLine" resolve="getTextLine" />
+                <ref role="37wK5l" to="g51k:~EditorCell_Label.getTextLine()" resolve="getTextLine" />
               </node>
             </node>
             <node concept="liA8E" id="4BxMnKBmO3Y" role="2OqNvi">
-              <ref role="37wK5l" to="g51k:~TextLine.getCaretPositionByXCoord(int):int" resolve="getCaretPositionByXCoord" />
+              <ref role="37wK5l" to="g51k:~TextLine.getCaretPositionByXCoord(int)" resolve="getCaretPositionByXCoord" />
               <node concept="3cpWsd" id="4BxMnKBmPm4" role="37wK5m">
                 <node concept="2OqwBi" id="4BxMnKBmPso" role="3uHU7w">
                   <node concept="37vLTw" id="4BxMnKBmPoe" role="2Oq$k0">
                     <ref role="3cqZAo" node="6Y0V2RJtN5b" resolve="label" />
                   </node>
                   <node concept="liA8E" id="4BxMnKBmPA3" role="2OqNvi">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getX():int" resolve="getX" />
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getX()" resolve="getX" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="4BxMnKBmO6b" role="3uHU7B">

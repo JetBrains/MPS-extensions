@@ -21,6 +21,9 @@
         <child id="7335687028107119098" name="states" index="02p66" />
         <child id="7335687028107118517" name="events" index="02pZ9" />
       </concept>
+      <concept id="3384942920130181270" name="de.q60.mps.shadowmodels.examples.statemachine.structure.StatemachineContainer" flags="ng" index="3XF8cK">
+        <child id="3384942920130181302" name="statemachine" index="3XF8cg" />
+      </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -53,9 +56,6 @@
       <node concept="02pZi" id="6ndA7L_L2GB" role="02pZb">
         <ref role="02oBk" node="6ndA7L_L0QC" resolve="backward" />
         <ref role="02oBg" node="6ndA7L_L0QO" resolve="s3" />
-        <node concept="3clFbT" id="5o5qH$CzHpR" role="02oAS">
-          <property role="3clFbU" value="true" />
-        </node>
       </node>
       <node concept="02pZi" id="6ndA7L_L2GG" role="02pZb">
         <ref role="02oBg" node="6ndA7L_L0QJ" resolve="s1" />
@@ -1206,6 +1206,68 @@
       <node concept="02pZi" id="3zTK92KAI6o" role="02pZb">
         <ref role="02oBg" node="3zTK92KAHtT" resolve="s2" />
         <ref role="02oBk" node="3zTK92KAHtx" resolve="E2" />
+      </node>
+    </node>
+  </node>
+  <node concept="3XF8cK" id="2VTIUrjnoT_">
+    <node concept="02pZm" id="2VTIUrjnoU9" role="3XF8cg">
+      <property role="TrG5h" value="SM1" />
+      <node concept="02pZj" id="2VTIUrjnoUa" role="02pZ9">
+        <property role="TrG5h" value="forward" />
+      </node>
+      <node concept="02pZj" id="2VTIUrjnoUb" role="02pZ9">
+        <property role="TrG5h" value="backward" />
+      </node>
+      <node concept="02pZj" id="2VTIUrjnoUc" role="02pZ9">
+        <property role="TrG5h" value="reset" />
+      </node>
+      <node concept="02pZh" id="2VTIUrjnoUd" role="02p66">
+        <property role="TrG5h" value="s1" />
+        <node concept="02pZi" id="2VTIUrjnoUe" role="02pZb">
+          <ref role="02oBk" node="2VTIUrjnoUa" resolve="forward" />
+          <ref role="02oBg" node="2VTIUrjnoUi" resolve="s2" />
+        </node>
+        <node concept="02pZi" id="2VTIUrjnoUf" role="02pZb">
+          <ref role="02oBk" node="2VTIUrjnoUb" resolve="backward" />
+          <ref role="02oBg" node="2VTIUrjnoUm" resolve="s3" />
+          <node concept="3clFbT" id="2VTIUrjnoUg" role="02oAS">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+        <node concept="02pZi" id="2VTIUrjnoUh" role="02pZb">
+          <ref role="02oBg" node="2VTIUrjnoUd" resolve="s1" />
+          <ref role="02oBk" node="2VTIUrjnoUc" resolve="reset" />
+        </node>
+      </node>
+      <node concept="02pZh" id="2VTIUrjnoUi" role="02p66">
+        <property role="TrG5h" value="s2" />
+        <node concept="02pZi" id="2VTIUrjnoUj" role="02pZb">
+          <ref role="02oBg" node="2VTIUrjnoUm" resolve="s3" />
+          <ref role="02oBk" node="2VTIUrjnoUa" resolve="forward" />
+        </node>
+        <node concept="02pZi" id="2VTIUrjnoUk" role="02pZb">
+          <ref role="02oBg" node="2VTIUrjnoUd" resolve="s1" />
+          <ref role="02oBk" node="2VTIUrjnoUb" resolve="backward" />
+        </node>
+        <node concept="02pZi" id="2VTIUrjnoUl" role="02pZb">
+          <ref role="02oBk" node="2VTIUrjnoUc" resolve="reset" />
+          <ref role="02oBg" node="2VTIUrjnoUd" resolve="s1" />
+        </node>
+      </node>
+      <node concept="02pZh" id="2VTIUrjnoUm" role="02p66">
+        <property role="TrG5h" value="s3" />
+        <node concept="02pZi" id="2VTIUrjnoUn" role="02pZb">
+          <ref role="02oBg" node="2VTIUrjnoUd" resolve="s1" />
+          <ref role="02oBk" node="2VTIUrjnoUa" resolve="forward" />
+        </node>
+        <node concept="02pZi" id="2VTIUrjnoUo" role="02pZb">
+          <ref role="02oBg" node="2VTIUrjnoUi" resolve="s2" />
+          <ref role="02oBk" node="2VTIUrjnoUb" resolve="backward" />
+        </node>
+        <node concept="02pZi" id="2VTIUrjnoUp" role="02pZb">
+          <ref role="02oBk" node="2VTIUrjnoUc" resolve="reset" />
+          <ref role="02oBg" node="2VTIUrjnoUd" resolve="s1" />
+        </node>
       </node>
     </node>
   </node>

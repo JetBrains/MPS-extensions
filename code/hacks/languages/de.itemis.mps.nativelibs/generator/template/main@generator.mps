@@ -168,7 +168,7 @@
                       <ref role="3cqZAo" node="2H_mjOXu7ed" resolve="libraries" />
                     </node>
                     <node concept="liA8E" id="2H_mjOXu7eo" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                      <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                       <node concept="Xl_RD" id="2H_mjOXu7ep" role="37wK5m">
                         <property role="Xl_RC" value="lib/abc64.dll" />
                         <node concept="17Uvod" id="2H_mjOXu8M7" role="lGtFl">
@@ -213,7 +213,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2H_mjOXu7es" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                   <node concept="37vLTw" id="2H_mjOXu7et" role="37wK5m">
                     <ref role="3cqZAo" node="2H_mjOXu7eB" resolve="operatingSystem" />
                   </node>
@@ -268,7 +268,7 @@
                   <ref role="3cqZAo" node="1HOG8KqQ3Gx" resolve="jars" />
                 </node>
                 <node concept="liA8E" id="1HOG8KqQ3GE" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                   <node concept="Xl_RD" id="1HOG8KqQ3GF" role="37wK5m">
                     <property role="Xl_RC" value="abc.jar" />
                     <node concept="17Uvod" id="1HOG8KqQ4M4" role="lGtFl">
@@ -341,7 +341,7 @@
                   <ref role="3cqZAo" node="2H_mjOXtUKV" resolve="libraries" />
                 </node>
                 <node concept="liA8E" id="2H_mjOXu0nM" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                  <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
                   <node concept="Xl_RD" id="2H_mjOXu0rf" role="37wK5m">
                     <property role="Xl_RC" value="lib/abc64.dll" />
                   </node>
@@ -354,7 +354,7 @@
               <property role="Xl_RC" value="LINUX32" />
             </node>
             <node concept="liA8E" id="2H_mjOXu5Tx" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
               <node concept="37vLTw" id="2H_mjOXu5Yn" role="37wK5m">
                 <ref role="3cqZAo" node="2H_mjOXs28U" resolve="operatingSystem" />
               </node>
@@ -418,7 +418,7 @@
               <ref role="3cqZAo" node="1HOG8KqPUeT" resolve="jars" />
             </node>
             <node concept="liA8E" id="1HOG8KqQ21u" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+              <ref role="37wK5l" to="33ny:~List.add(java.lang.Object)" resolve="add" />
               <node concept="Xl_RD" id="1HOG8KqQ24X" role="37wK5m">
                 <property role="Xl_RC" value="abc.jar" />
               </node>

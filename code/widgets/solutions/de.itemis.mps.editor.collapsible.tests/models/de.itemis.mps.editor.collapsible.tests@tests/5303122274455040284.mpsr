@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:828eb6d5-1690-461e-9f19-db5557826aa2(de.itemis.mps.editor.collapsible.tests@tests)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
+        <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="2XOHcx" id="4AoupM9mF4s">
+    <property role="2XOHcw" value="${extensions.home}/code" />
+  </node>
+</model>
+

@@ -88,7 +88,7 @@
             <node concept="2OqwBi" id="6oKG1kMxtFn" role="3clFbG">
               <node concept="1Wqviy" id="6oKG1kMxtBE" role="2Oq$k0" />
               <node concept="liA8E" id="6oKG1kMxtQZ" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
+                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                 <node concept="Xl_RD" id="6oKG1kMxu76" role="37wK5m">
                   <property role="Xl_RC" value="[A-Za-z][A-Za-z0-9_]*" />
                 </node>
@@ -113,7 +113,7 @@
               <node concept="2OqwBi" id="3pFNVizHonz" role="3fr31v">
                 <node concept="1Wqviy" id="3pFNVizHon$" role="2Oq$k0" />
                 <node concept="liA8E" id="3pFNVizHon_" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
                   <node concept="Xl_RD" id="3pFNVizHonA" role="37wK5m">
                     <property role="Xl_RC" value="\&quot;" />
                   </node>

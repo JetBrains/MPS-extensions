@@ -17,6 +17,8 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="6ysr" ref="r:a73fc1f5-45e8-4482-83d8-21741e260fa8(de.q60.mps.shadowmodels.target.editor.structure)" />
+    <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
+    <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
@@ -221,7 +223,7 @@
                   <ref role="3uigEE" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
                 </node>
                 <node concept="2YIFZM" id="7NatPTM2yaz" role="33vP2m">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.createHorizontal(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createHorizontal" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.createHorizontal(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode)" resolve="createHorizontal" />
                   <ref role="1Pybhc" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
                   <node concept="1Q80Hx" id="7NatPTM2ya$" role="37wK5m" />
                   <node concept="pncrf" id="7NatPTM2ya_" role="37wK5m" />
@@ -236,7 +238,7 @@
                     <property role="TrG5h" value="output" />
                     <node concept="A3Dl8" id="7NatPTM2Yqg" role="1tU5fm">
                       <node concept="3uibUv" id="7NatPTM2Yqj" role="A3Ik2">
-                        <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+                        <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
                       </node>
                     </node>
                     <node concept="2OqwBi" id="7NatPTM2Yqn" role="33vP2m">
@@ -246,15 +248,15 @@
                         <node concept="2OqwBi" id="7NatPTM2Yqp" role="37wK5m">
                           <node concept="1Q80Hx" id="7NatPTM2Yqq" role="2Oq$k0" />
                           <node concept="liA8E" id="7NatPTM2Yqr" role="2OqNvi">
-                            <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                            <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
                           </node>
                         </node>
                       </node>
                       <node concept="liA8E" id="7NatPTM2Yqs" role="2OqNvi">
-                        <ref role="37wK5l" to="6tkd:5gTrVpG_uHA" resolve="update" />
+                        <ref role="37wK5l" to="nv3w:5gTrVpG_uHA" resolve="update" />
                         <node concept="2ShNRf" id="7NatPTM2Yqt" role="37wK5m">
                           <node concept="1pGfFk" id="7NatPTM2Yqu" role="2ShVmc">
-                            <ref role="37wK5l" to="6tkd:5yVaV$3$fjx" resolve="TransformationProblem" />
+                            <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="DirectTCall" />
                             <node concept="2ShNRf" id="5yVaV$3GR0v" role="37wK5m">
                               <node concept="2HTt$P" id="5yVaV$3GR0t" role="2ShVmc">
                                 <node concept="3uibUv" id="5yVaV$3GR0u" role="2HTBi0">
@@ -295,26 +297,26 @@
                       <ref role="3cqZAo" node="7NatPTM2yay" resolve="wrapper" />
                     </node>
                     <node concept="liA8E" id="7NatPTM2ErI" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell_Collection.addEditorCell(jetbrains.mps.openapi.editor.cells.EditorCell):void" resolve="addEditorCell" />
+                      <ref role="37wK5l" to="g51k:~EditorCell_Collection.addEditorCell(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="addEditorCell" />
                       <node concept="2OqwBi" id="7NatPTM2AIu" role="37wK5m">
                         <node concept="2OqwBi" id="7NatPTM2_NQ" role="2Oq$k0">
                           <node concept="2OqwBi" id="7NatPTM2$Xi" role="2Oq$k0">
                             <node concept="2OqwBi" id="7NatPTM2$8P" role="2Oq$k0">
                               <node concept="1Q80Hx" id="7NatPTM2zR0" role="2Oq$k0" />
                               <node concept="liA8E" id="7NatPTM2$Fs" role="2OqNvi">
-                                <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                                <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
                               </node>
                             </node>
                             <node concept="liA8E" id="7NatPTM2_xl" role="2OqNvi">
-                              <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater():jetbrains.mps.openapi.editor.update.Updater" resolve="getUpdater" />
+                              <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater()" resolve="getUpdater" />
                             </node>
                           </node>
                           <node concept="liA8E" id="7NatPTM2AqU" role="2OqNvi">
-                            <ref role="37wK5l" to="22ra:~Updater.getCurrentUpdateSession():jetbrains.mps.openapi.editor.update.UpdateSession" resolve="getCurrentUpdateSession" />
+                            <ref role="37wK5l" to="22ra:~Updater.getCurrentUpdateSession()" resolve="getCurrentUpdateSession" />
                           </node>
                         </node>
                         <node concept="liA8E" id="7NatPTM2Bpf" role="2OqNvi">
-                          <ref role="37wK5l" to="22ra:~UpdateSession.updateChildNodeCell(org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="updateChildNodeCell" />
+                          <ref role="37wK5l" to="22ra:~UpdateSession.updateChildNodeCell(org.jetbrains.mps.openapi.model.SNode)" resolve="updateChildNodeCell" />
                           <node concept="2YIFZM" id="75046mlRUOD" role="37wK5m">
                             <ref role="37wK5l" to="l6bp:75046mlPk8L" resolve="wrap" />
                             <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
@@ -330,7 +332,7 @@
                               <node concept="2OqwBi" id="75046mm8IcW" role="37wK5m">
                                 <node concept="1Q80Hx" id="75046mm8HIF" role="2Oq$k0" />
                                 <node concept="liA8E" id="75046mm8J2X" role="2OqNvi">
-                                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                                 </node>
                               </node>
                             </node>
@@ -452,7 +454,7 @@
                   <ref role="3uigEE" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
                 </node>
                 <node concept="2YIFZM" id="3CYlK6ygJ0f" role="33vP2m">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.createHorizontal(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createHorizontal" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Collection.createHorizontal(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode)" resolve="createHorizontal" />
                   <ref role="1Pybhc" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
                   <node concept="1Q80Hx" id="3CYlK6ygJ0g" role="37wK5m" />
                   <node concept="pncrf" id="3CYlK6ygJ0h" role="37wK5m" />
@@ -467,7 +469,7 @@
                     <property role="TrG5h" value="output" />
                     <node concept="A3Dl8" id="3CYlK6ygJ0n" role="1tU5fm">
                       <node concept="3uibUv" id="3CYlK6ygJ0o" role="A3Ik2">
-                        <ref role="3uigEE" to="6tkd:5gTrVpGiHIH" resolve="INode" />
+                        <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
                       </node>
                     </node>
                     <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">
@@ -477,15 +479,15 @@
                         <node concept="2OqwBi" id="3CYlK6ygJ0r" role="37wK5m">
                           <node concept="1Q80Hx" id="3CYlK6ygJ0s" role="2Oq$k0" />
                           <node concept="liA8E" id="3CYlK6ygJ0t" role="2OqNvi">
-                            <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                            <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
                           </node>
                         </node>
                       </node>
                       <node concept="liA8E" id="3CYlK6ygJ0u" role="2OqNvi">
-                        <ref role="37wK5l" to="6tkd:5gTrVpG_uHA" resolve="update" />
+                        <ref role="37wK5l" to="nv3w:5gTrVpG_uHA" resolve="update" />
                         <node concept="2ShNRf" id="3CYlK6ygJ0v" role="37wK5m">
                           <node concept="1pGfFk" id="3CYlK6ygJ0w" role="2ShVmc">
-                            <ref role="37wK5l" to="6tkd:5yVaV$3$fjx" resolve="TransformationProblem" />
+                            <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="DirectTCall" />
                             <node concept="2ShNRf" id="5yVaV$3GWNj" role="37wK5m">
                               <node concept="2HTt$P" id="5yVaV$3GWNh" role="2ShVmc">
                                 <node concept="3uibUv" id="5yVaV$3GWNi" role="2HTBi0">
@@ -539,7 +541,7 @@
                         <node concept="2OqwBi" id="3CYlK6ygXwJ" role="37wK5m">
                           <node concept="1Q80Hx" id="3CYlK6ygXwK" role="2Oq$k0" />
                           <node concept="liA8E" id="3CYlK6ygXwL" role="2OqNvi">
-                            <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                            <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                           </node>
                         </node>
                       </node>
@@ -568,7 +570,7 @@
                       <ref role="3cqZAo" node="3CYlK6ygJ0d" resolve="wrapper" />
                     </node>
                     <node concept="liA8E" id="3CYlK6ygJ0H" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell_Collection.addEditorCell(jetbrains.mps.openapi.editor.cells.EditorCell):void" resolve="addEditorCell" />
+                      <ref role="37wK5l" to="g51k:~EditorCell_Collection.addEditorCell(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="addEditorCell" />
                       <node concept="2OqwBi" id="3CYlK6yh83S" role="37wK5m">
                         <node concept="37vLTw" id="3CYlK6yh7tM" role="2Oq$k0">
                           <ref role="3cqZAo" node="3CYlK6yh5ha" resolve="snode" />

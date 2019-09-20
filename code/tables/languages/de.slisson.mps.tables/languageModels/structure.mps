@@ -75,6 +75,16 @@
       <property role="IQ2nx" value="715726600225886309" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="m_yL2MI1K9" role="1TKVEl">
+      <property role="IQ2nx" value="406884245181045769" />
+      <property role="TrG5h" value="disableLeftRowEndCells" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="m_yL2MI1Kc" role="1TKVEl">
+      <property role="IQ2nx" value="406884245181045772" />
+      <property role="TrG5h" value="disableRightRowEndCells" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="5X6T0_NE_dS" role="PzmwI">
       <ref role="PrY4T" node="4UkcdCu_Hbr" resolve="IStylable" />
     </node>
@@ -84,6 +94,7 @@
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="1397920687864864726" />
       <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+      <node concept="asaX9" id="ovdreq9d2o" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="1dAqnm8mIel" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -91,6 +102,7 @@
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="1397920687864865685" />
       <ref role="20lvS9" node="1dAqnm8qrRW" resolve="IHeaderNode" />
+      <node concept="asaX9" id="ovdreq9d2q" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="1dAqnm8mI9a" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

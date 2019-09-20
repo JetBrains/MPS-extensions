@@ -2,7 +2,7 @@
 <model ref="r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)">
   <persistence version="9" />
   <languages>
-    <use id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation" version="0" />
+    <use id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
     <devkit ref="a2812d5e-a72e-4739-ab3f-d01ec647c5de(de.q60.mps.shadowmodels.devkit)" />
   </languages>
@@ -100,21 +100,11 @@
         <child id="9170566427534794950" name="parameterValues" index="214sll" />
       </concept>
       <concept id="9170566427534812277" name="de.q60.mps.shadowmodels.transformation.structure.ContextNodeExpression" flags="ng" index="214o7A" />
-      <concept id="9155712576881703759" name="de.q60.mps.shadowmodels.transformation.structure.ParentRelationRule" flags="ng" index="t$THr">
-        <child id="9155712576881731411" name="child" index="t$Kt7" />
-        <child id="9155712576881985422" name="variables" index="tFMuq" />
-      </concept>
-      <concept id="9155712576882073679" name="de.q60.mps.shadowmodels.transformation.structure.ParentRelationVariableReference" flags="ng" index="tF$1r">
-        <reference id="9155712576882073690" name="decl" index="tF$1e" />
-      </concept>
-      <concept id="9155712576881985420" name="de.q60.mps.shadowmodels.transformation.structure.ParentRelationVariableDeclaration" flags="ng" index="tFMuo">
-        <child id="9155712576883119794" name="type" index="tJBqA" />
-      </concept>
       <concept id="7475940883580517769" name="de.q60.mps.shadowmodels.transformation.structure.TNullType" flags="ng" index="2K7hOm" />
-      <concept id="5373338300158985562" name="de.q60.mps.shadowmodels.transformation.structure.Label" flags="ng" index="2OqUJG">
+      <concept id="5373338300158985562" name="de.q60.mps.shadowmodels.transformation.structure.LocalLabel" flags="ng" index="2OqUJG">
         <child id="5373338300158985572" name="node" index="2OqUJi" />
       </concept>
-      <concept id="5373338300159158247" name="de.q60.mps.shadowmodels.transformation.structure.LabelReferenceExpression" flags="ng" index="2Org_h">
+      <concept id="5373338300159158247" name="de.q60.mps.shadowmodels.transformation.structure.LocalLabelReference" flags="ng" index="2Org_h">
         <reference id="5373338300159158248" name="label" index="2Org_u" />
       </concept>
       <concept id="5373338300159315830" name="de.q60.mps.shadowmodels.transformation.structure.EmptyLine" flags="ng" index="2OrE70" />
@@ -504,20 +494,6 @@
         </node>
       </node>
     </node>
-    <node concept="t$THr" id="6uZS9ZnIvRh" role="02uzr">
-      <node concept="tFMuo" id="6uZS9ZnIw3l" role="tFMuq">
-        <property role="TrG5h" value="c" />
-        <node concept="02i3D" id="6uZS9ZnIw3t" role="tJBqA">
-          <ref role="02i3$" to="tn36:TC$M5wSnRe" resolve="Entity" />
-        </node>
-      </node>
-      <node concept="214gnc" id="6uZS9ZnIvRj" role="t$Kt7">
-        <ref role="1YEVMl" node="5o5qH$CQKdg" resolve="toJava" />
-        <node concept="tF$1r" id="6uZS9ZnIw3_" role="214sll">
-          <ref role="tF$1e" node="6uZS9ZnIw3l" resolve="c" />
-        </node>
-      </node>
-    </node>
     <node concept="2OrE70" id="6uZS9ZnIvFh" role="02uzr" />
     <node concept="02vpq" id="5o5qH$CQKdl" role="02uzr">
       <property role="TrG5h" value="propertyToFieldSetterGetter" />
@@ -600,7 +576,7 @@
           <node concept="027oh" id="TC$M5wUGz_" role="02LM9">
             <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
             <node concept="2YIFZM" id="TC$M5wUG_T" role="027of">
-              <ref role="37wK5l" to="18ew:~NameUtil.getGetterName(java.lang.String):java.lang.String" resolve="getGetterName" />
+              <ref role="37wK5l" to="18ew:~NameUtil.getGetterName(java.lang.String)" resolve="getGetterName" />
               <ref role="1Pybhc" to="18ew:~NameUtil" resolve="NameUtil" />
               <node concept="2OqwBi" id="TC$M5wUGIJ" role="37wK5m">
                 <node concept="214o7A" id="TC$M5wUGA3" role="2Oq$k0" />
@@ -663,7 +639,7 @@
           <node concept="027oh" id="TC$M5wUJ2j" role="02LM9">
             <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
             <node concept="2YIFZM" id="TC$M5wUJgM" role="027of">
-              <ref role="37wK5l" to="18ew:~NameUtil.getSetterName(java.lang.String):java.lang.String" resolve="getSetterName" />
+              <ref role="37wK5l" to="18ew:~NameUtil.getSetterName(java.lang.String)" resolve="getSetterName" />
               <ref role="1Pybhc" to="18ew:~NameUtil" resolve="NameUtil" />
               <node concept="2OqwBi" id="TC$M5wUJgN" role="37wK5m">
                 <node concept="214o7A" id="TC$M5wUJgO" role="2Oq$k0" />
@@ -1646,7 +1622,7 @@
     <node concept="2OrE70" id="TC$M5wV9Y9" role="02uzr" />
     <node concept="02vpq" id="TC$M5wSEGY" role="02uzr">
       <property role="2$mnfv" value="true" />
-      <ref role="1YyVLo" to="jwvb:7YhLqbpfNME" resolve="$Repository" />
+      <ref role="1YyVLo" to="jwvb:7YhLqbpfNME" resolve="Repository" />
       <node concept="02i3K" id="TC$M5wSEZL" role="02i3f">
         <node concept="02i3D" id="TC$M5wSEZM" role="02i2B">
           <ref role="02i3$" to="dj5d:qmkA5fOskm" resolve="Repository" />

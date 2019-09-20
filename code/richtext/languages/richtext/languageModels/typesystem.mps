@@ -122,7 +122,7 @@
             <node concept="3cpWs3" id="4nlPAM$WFVf" role="2MkJ7o">
               <node concept="2OqwBi" id="5zEbkDPmn2N" role="3uHU7w">
                 <node concept="liA8E" id="5zEbkDPmozd" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                 </node>
                 <node concept="2OqwBi" id="4nlPAM$WFVX" role="2Oq$k0">
                   <node concept="2JrnkZ" id="4nlPAM$WFVB" role="2Oq$k0">
@@ -131,7 +131,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="4nlPAM$WFW3" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+                    <ref role="37wK5l" to="mhbf:~SNode.getNodeId()" resolve="getNodeId" />
                   </node>
                 </node>
               </node>
@@ -150,7 +150,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="4nlPAM$WFUy" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SModel.getModelName():java.lang.String" resolve="getModelName" />
+                      <ref role="37wK5l" to="mhbf:~SModel.getModelName()" resolve="getModelName" />
                     </node>
                   </node>
                 </node>

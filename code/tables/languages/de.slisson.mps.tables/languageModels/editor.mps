@@ -231,6 +231,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -584,6 +585,38 @@
             <ref role="1NtTu8" to="bnk3:5ivXze3ceBe" resolve="gridPostprocessor" />
           </node>
           <node concept="2iRfu4" id="3Fwx_UqEOU7" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="m_yL2MI1SO" role="3EZMnx">
+          <node concept="VPM3Z" id="m_yL2MI1SP" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+          <node concept="VPXOz" id="m_yL2MI1SQ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="m_yL2MI1SR" role="3EZMnx">
+            <property role="3F0ifm" value="disable left row end cells" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F0A7n" id="m_yL2MI1Tm" role="3EZMnx">
+            <ref role="1NtTu8" to="bnk3:m_yL2MI1K9" resolve="disableLeftRowEndCells" />
+          </node>
+          <node concept="2iRfu4" id="m_yL2MI1ST" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="m_yL2MI1Tt" role="3EZMnx">
+          <node concept="VPM3Z" id="m_yL2MI1Tu" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+          <node concept="VPXOz" id="m_yL2MI1Tv" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="m_yL2MI1Tw" role="3EZMnx">
+            <property role="3F0ifm" value="disable right row end cells" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F0A7n" id="m_yL2MI1Tx" role="3EZMnx">
+            <ref role="1NtTu8" to="bnk3:m_yL2MI1Kc" resolve="disableRightRowEndCells" />
+          </node>
+          <node concept="2iRfu4" id="m_yL2MI1Ty" role="2iSdaV" />
         </node>
         <node concept="VPM3Z" id="hEU$PEH" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -3246,6 +3279,16 @@
         <ref role="Rm8GQ" to="oghc:5PDTdguqLf_" resolve="TOP" />
         <ref role="1Px2BO" to="oghc:5PDTdguqLfz" resolve="VerticalAlignment" />
       </node>
+    </node>
+    <node concept="3t5Usi" id="m_yL2MCjEU" role="V601i">
+      <property role="TrG5h" value="hide-left-row-end-cells" />
+      <node concept="10P_77" id="m_yL2MCjGx" role="3t5Oan" />
+      <node concept="3clFbT" id="m_yL2MCjG$" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="m_yL2MFbPs" role="V601i">
+      <property role="TrG5h" value="hide-right-row-end-cells" />
+      <node concept="10P_77" id="m_yL2MFbPt" role="3t5Oan" />
+      <node concept="3clFbT" id="m_yL2MFbPu" role="3t49C2" />
     </node>
   </node>
   <node concept="24kQdi" id="3t1pVyvZ9YZ">

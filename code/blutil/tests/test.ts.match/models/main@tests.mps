@@ -1639,7 +1639,7 @@
                 <ref role="3cqZAo" node="5EJ7vKKimtD" resolve="map" />
               </node>
               <node concept="liA8E" id="5EJ7vKLstDw" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                <ref role="37wK5l" to="wyt6:~String.split(java.lang.String)" resolve="split" />
                 <node concept="Xl_RD" id="5EJ7vKLstDx" role="37wK5m">
                   <property role="Xl_RC" value="," />
                 </node>
@@ -1664,7 +1664,7 @@
               <ref role="3cqZAo" node="5EJ7vKKimtI" resolve="reduce" />
             </node>
             <node concept="liA8E" id="5EJ7vKLsA4F" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
+              <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
             </node>
           </node>
         </node>

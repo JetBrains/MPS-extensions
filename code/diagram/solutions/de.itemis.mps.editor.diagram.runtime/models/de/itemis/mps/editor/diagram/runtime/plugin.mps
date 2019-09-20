@@ -321,7 +321,7 @@
           <node concept="2OqwBi" id="30G27JVSFQc" role="3clFbG">
             <node concept="2WthIp" id="30G27JVSFLb" role="2Oq$k0" />
             <node concept="liA8E" id="30G27JVSG9w" role="2OqNvi">
-              <ref role="37wK5l" to="71xd:~BaseTool.makeAvailable():void" resolve="makeAvailable" />
+              <ref role="37wK5l" to="71xd:~BaseTool.makeAvailable()" resolve="makeAvailable" />
             </node>
           </node>
         </node>
@@ -511,7 +511,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="4KKQOHJ43iK" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getSelectedCell" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedCell()" resolve="getSelectedCell" />
                 </node>
               </node>
             </node>
@@ -561,7 +561,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="4KKQOHJ3Zt9" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getSelectedCell" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectedCell()" resolve="getSelectedCell" />
                 </node>
               </node>
             </node>
@@ -631,7 +631,7 @@
   </node>
   <node concept="sE7Ow" id="5K7KC_qu7$R">
     <property role="TrG5h" value="RotateBoxClockwiseAction" />
-    <property role="2uzpH1" value="Rotate Diagram Box" />
+    <property role="2uzpH1" value="Rotate Diagram Box Clockwise" />
     <node concept="tnohg" id="5K7KC_qu7$S" role="tncku">
       <node concept="3clFbS" id="5K7KC_qu7$T" role="2VODD2">
         <node concept="3cpWs8" id="5K7KC_q_GdP" role="3cqZAp">
@@ -650,11 +650,11 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5K7KC_q_GdW" role="2OqNvi">
-                    <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                    <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5K7KC_q_GdX" role="2OqNvi">
-                  <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                  <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
                 </node>
               </node>
               <node concept="3uibUv" id="5K7KC_q_GUT" role="10QFUM">
@@ -691,11 +691,11 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="5K7KC_qujbv" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
                 </node>
               </node>
               <node concept="liA8E" id="5K7KC_qujS2" role="2OqNvi">
-                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
               </node>
             </node>
           </node>
@@ -776,15 +776,15 @@
                                       <ref role="3cqZAo" node="3Y7loYI1IIO" resolve="it" />
                                     </node>
                                     <node concept="liA8E" id="3Y7loYI1MnJ" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="3Y7loYI1TU7" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="3Y7loYI1Z0u" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
                                   <node concept="3cpWs3" id="4Fanv3X8Kwd" role="37wK5m">
                                     <node concept="Xl_RD" id="4Fanv3X8KwG" role="3uHU7w">
                                       <property role="Xl_RC" value=".plugin" />
@@ -797,7 +797,7 @@
                                         </node>
                                       </node>
                                       <node concept="liA8E" id="4Fanv3X8JN5" role="2OqNvi">
-                                        <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName():java.lang.String" resolve="getModuleName" />
+                                        <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName()" resolve="getModuleName" />
                                       </node>
                                     </node>
                                   </node>
@@ -828,11 +828,11 @@
             <node concept="2OqwBi" id="3Y7loYI0ZXo" role="2Oq$k0">
               <node concept="2YIFZM" id="3Y7loYI0ZFY" role="2Oq$k0">
                 <ref role="1Pybhc" to="9ti4:~Extensions" resolve="Extensions" />
-                <ref role="37wK5l" to="9ti4:~Extensions.getArea(com.intellij.openapi.extensions.AreaInstance):com.intellij.openapi.extensions.ExtensionsArea" resolve="getArea" />
+                <ref role="37wK5l" to="9ti4:~Extensions.getArea(com.intellij.openapi.extensions.AreaInstance)" resolve="getArea" />
                 <node concept="10Nm6u" id="3Y7loYI0ZVo" role="37wK5m" />
               </node>
               <node concept="liA8E" id="3Y7loYI11r1" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName):com.intellij.openapi.extensions.ExtensionPoint" resolve="getExtensionPoint" />
+                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />
                 <node concept="10M0yZ" id="3Y7loYI11I$" role="37wK5m">
                   <ref role="3cqZAo" to="qkt:~ActionPromoter.EP_NAME" resolve="EP_NAME" />
                   <ref role="1PxDUh" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
@@ -840,7 +840,7 @@
               </node>
             </node>
             <node concept="liA8E" id="3Y7loYI14Ye" role="2OqNvi">
-              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object):void" resolve="registerExtension" />
+              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object)" resolve="registerExtension" />
               <node concept="2OqwBi" id="5K7KC_qutcs" role="37wK5m">
                 <node concept="2WthIp" id="5K7KC_qutcv" role="2Oq$k0" />
                 <node concept="2BZ7hE" id="5K7KC_qutcx" role="2OqNvi">
@@ -859,11 +859,11 @@
             <node concept="2OqwBi" id="5K7KC_qurlL" role="2Oq$k0">
               <node concept="2YIFZM" id="5K7KC_qurlM" role="2Oq$k0">
                 <ref role="1Pybhc" to="9ti4:~Extensions" resolve="Extensions" />
-                <ref role="37wK5l" to="9ti4:~Extensions.getArea(com.intellij.openapi.extensions.AreaInstance):com.intellij.openapi.extensions.ExtensionsArea" resolve="getArea" />
+                <ref role="37wK5l" to="9ti4:~Extensions.getArea(com.intellij.openapi.extensions.AreaInstance)" resolve="getArea" />
                 <node concept="10Nm6u" id="5K7KC_qurlN" role="37wK5m" />
               </node>
               <node concept="liA8E" id="5K7KC_qurlO" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName):com.intellij.openapi.extensions.ExtensionPoint" resolve="getExtensionPoint" />
+                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />
                 <node concept="10M0yZ" id="5K7KC_qurlP" role="37wK5m">
                   <ref role="1PxDUh" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
                   <ref role="3cqZAo" to="qkt:~ActionPromoter.EP_NAME" resolve="EP_NAME" />
@@ -871,7 +871,7 @@
               </node>
             </node>
             <node concept="liA8E" id="5K7KC_qus5h" role="2OqNvi">
-              <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Object):void" resolve="unregisterExtension" />
+              <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Object)" resolve="unregisterExtension" />
               <node concept="2OqwBi" id="5K7KC_qutjo" role="37wK5m">
                 <node concept="2WthIp" id="5K7KC_qutjr" role="2Oq$k0" />
                 <node concept="2BZ7hE" id="5K7KC_qutjt" role="2OqNvi">
@@ -886,7 +886,7 @@
   </node>
   <node concept="sE7Ow" id="2THfnm7nq5w">
     <property role="TrG5h" value="FlipBoxAction" />
-    <property role="2uzpH1" value="Rotate Diagram Box" />
+    <property role="2uzpH1" value="Flip Diagram Box Horizontally" />
     <node concept="tnohg" id="2THfnm7nq5x" role="tncku">
       <node concept="3clFbS" id="2THfnm7nq5y" role="2VODD2">
         <node concept="3cpWs8" id="2THfnm7nq5z" role="3cqZAp">
@@ -905,11 +905,11 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="2THfnm7nq5G" role="2OqNvi">
-                    <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                    <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2THfnm7nq5H" role="2OqNvi">
-                  <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                  <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
                 </node>
               </node>
               <node concept="3uibUv" id="2THfnm7nq5I" role="10QFUM">
@@ -946,11 +946,11 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2THfnm7nq5X" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
                 </node>
               </node>
               <node concept="liA8E" id="2THfnm7nq5Y" role="2OqNvi">
-                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
               </node>
             </node>
           </node>
@@ -965,7 +965,7 @@
   </node>
   <node concept="sE7Ow" id="2THfnm7nqSH">
     <property role="TrG5h" value="RotateBoxCounterClockWiseAction" />
-    <property role="2uzpH1" value="Rotate Diagram Box" />
+    <property role="2uzpH1" value="Rotate Diagram Box Counterclockwise" />
     <node concept="tnohg" id="2THfnm7nqSI" role="tncku">
       <node concept="3clFbS" id="2THfnm7nqSJ" role="2VODD2">
         <node concept="3cpWs8" id="2THfnm7nqSK" role="3cqZAp">
@@ -984,11 +984,11 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="2THfnm7nqST" role="2OqNvi">
-                    <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                    <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2THfnm7nqSU" role="2OqNvi">
-                  <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                  <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
                 </node>
               </node>
               <node concept="3uibUv" id="2THfnm7nqSV" role="10QFUM">
@@ -1025,11 +1025,11 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="2THfnm7nqTa" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
                 </node>
               </node>
               <node concept="liA8E" id="2THfnm7nqTb" role="2OqNvi">
-                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
               </node>
             </node>
           </node>
@@ -1169,7 +1169,7 @@
                       <ref role="3cqZAo" node="5IQEFjDEw3B" resolve="graph" />
                     </node>
                     <node concept="liA8E" id="5IQEFjDEziI" role="2OqNvi">
-                      <ref role="37wK5l" to="1njx:~mxGraph.getSelectionCells():java.lang.Object[]" resolve="getSelectionCells" />
+                      <ref role="37wK5l" to="1njx:~mxGraph.getSelectionCells()" resolve="getSelectionCells" />
                     </node>
                   </node>
                   <node concept="39bAoz" id="5IQEFjDEziJ" role="2OqNvi" />
@@ -1209,11 +1209,11 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5IQEFjDEALB" role="2OqNvi">
-                                    <ref role="37wK5l" to="99ht:~mxGraphModel.getCells():java.util.Map" resolve="getCells" />
+                                    <ref role="37wK5l" to="99ht:~mxGraphModel.getCells()" resolve="getCells" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="5IQEFjDEBcz" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~Map.values():java.util.Collection" resolve="values" />
+                                  <ref role="37wK5l" to="33ny:~Map.values()" resolve="values" />
                                 </node>
                               </node>
                             </node>
@@ -1532,11 +1532,11 @@
                   <ref role="3cqZAo" node="5IQEFjDH0Fe" resolve="editorContext" />
                 </node>
                 <node concept="liA8E" id="5IQEFjDH0GX" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
                 </node>
               </node>
               <node concept="liA8E" id="5IQEFjDH0GY" role="2OqNvi">
-                <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
               </node>
             </node>
           </node>
@@ -1549,7 +1549,7 @@
             </node>
             <node concept="2YIFZM" id="5IQEFjDH0H2" role="33vP2m">
               <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
               <node concept="37vLTw" id="5IQEFjDH0H3" role="37wK5m">
                 <ref role="3cqZAo" node="5IQEFjDH0GS" resolve="mpsProject" />
               </node>
@@ -1604,7 +1604,7 @@
                       <ref role="3cqZAo" node="5IQEFjDH0Fe" resolve="editorContext" />
                     </node>
                     <node concept="liA8E" id="5IQEFjDH0Hq" role="2OqNvi">
-                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
                     </node>
                   </node>
                   <node concept="3uibUv" id="5IQEFjDH0Hr" role="10QFUM">

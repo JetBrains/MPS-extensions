@@ -2,7 +2,7 @@
 <model ref="r:31870c99-39a5-4a38-9ce4-c2dcd8b5c206(de.slisson.mps.conditionalEditor.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <use id="b8bb702e-43ed-4090-a902-d180d3e5f292" name="de.slisson.mps.conditionalEditor" version="0" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
@@ -409,7 +409,7 @@
         </node>
       </node>
       <node concept="2YIFZM" id="6xjWUW6Z8hu" role="33vP2m">
-        <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...):java.util.List" resolve="asList" />
+        <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...)" resolve="asList" />
         <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
         <node concept="2ShNRf" id="6xjWUW6Z8Xe" role="37wK5m">
           <node concept="3g6Rrh" id="6xjWUW6ZAE$" role="2ShVmc">
@@ -1004,7 +1004,7 @@
                 <ref role="3cqZAo" node="g0oKc32" resolve="editorCell" />
               </node>
               <node concept="liA8E" id="59YMGDNQoZd" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.setBig(boolean):void" resolve="setBig" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.setBig(boolean)" resolve="setBig" />
                 <node concept="3clFbT" id="59YMGDNQp2e" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>
@@ -1268,7 +1268,7 @@
                 <ref role="3cqZAo" node="1CDgnklDLqp" resolve="editorCell" />
               </node>
               <node concept="liA8E" id="3iKg_Wfobnt" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.setBig(boolean):void" resolve="setBig" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.setBig(boolean)" resolve="setBig" />
                 <node concept="3clFbT" id="3iKg_Wfobqq" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>

@@ -2,7 +2,7 @@
 <model ref="r:97c9f48b-46c3-422c-82ba-6ec3a1417cb2(de.slisson.mps.editor.multiline.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -393,7 +393,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="hF9uL6i" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                                <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                               </node>
                             </node>
                             <node concept="3cmrfG" id="hF9uL6d" role="3uHU7w">
@@ -421,7 +421,7 @@
                 <ref role="3cqZAo" node="g_Cet49" resolve="provider" />
               </node>
               <node concept="liA8E" id="h_XJ9TH" role="2OqNvi">
-                <ref role="37wK5l" to="emqf:~CellProviderWithRole.setNoTargetText(java.lang.String):void" resolve="setNoTargetText" />
+                <ref role="37wK5l" to="emqf:~CellProviderWithRole.setNoTargetText(java.lang.String)" resolve="setNoTargetText" />
                 <node concept="Xl_RD" id="g_Cf8_A" role="37wK5m">
                   <property role="Xl_RC" value="noTarget" />
                   <node concept="17Uvod" id="g_Cf8_B" role="lGtFl">
@@ -477,7 +477,7 @@
                 <ref role="3cqZAo" node="g_Cet49" resolve="provider" />
               </node>
               <node concept="liA8E" id="hF5tlF4" role="2OqNvi">
-                <ref role="37wK5l" to="emqf:~CellProviderWithRole.setNoTargetText(java.lang.String):void" resolve="setNoTargetText" />
+                <ref role="37wK5l" to="emqf:~CellProviderWithRole.setNoTargetText(java.lang.String)" resolve="setNoTargetText" />
                 <node concept="Xl_RD" id="hF5tlF5" role="37wK5m">
                   <property role="Xl_RC" value="noTarget" />
                   <node concept="17Uvod" id="hF5tlF6" role="lGtFl">
@@ -530,7 +530,7 @@
                 <ref role="3cqZAo" node="g_Cet49" resolve="provider" />
               </node>
               <node concept="liA8E" id="h_XJ8y2" role="2OqNvi">
-                <ref role="37wK5l" to="emqf:~CellProviderWithRole.setReadOnly(boolean):void" resolve="setReadOnly" />
+                <ref role="37wK5l" to="emqf:~CellProviderWithRole.setReadOnly(boolean)" resolve="setReadOnly" />
                 <node concept="3clFbT" id="g_IqT62" role="37wK5m">
                   <property role="3clFbU" value="true" />
                 </node>
@@ -555,7 +555,7 @@
                   <ref role="3cqZAo" node="g_Cet49" resolve="provider" />
                 </node>
                 <node concept="liA8E" id="3dYY$_sKB2f" role="2OqNvi">
-                  <ref role="37wK5l" to="exr9:~AbstractCellProvider.createEditorCell(jetbrains.mps.openapi.editor.EditorContext):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="createEditorCell" />
+                  <ref role="37wK5l" to="exr9:~AbstractCellProvider.createEditorCell(jetbrains.mps.openapi.editor.EditorContext)" resolve="createEditorCell" />
                   <node concept="37vLTw" id="1rfeXz7xt85" role="37wK5m">
                     <ref role="3cqZAo" node="g_CeiMc" resolve="editorContext" />
                   </node>
@@ -578,7 +578,7 @@
                 <ref role="3cqZAo" node="g_CeiMo" resolve="editorCell" />
               </node>
               <node concept="liA8E" id="2csR5Duk0Ct" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.setSubstituteInfo(jetbrains.mps.openapi.editor.cells.SubstituteInfo):void" resolve="setSubstituteInfo" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.setSubstituteInfo(jetbrains.mps.openapi.editor.cells.SubstituteInfo)" resolve="setSubstituteInfo" />
                 <node concept="2ShNRf" id="2csR5Duk0Cw" role="37wK5m">
                   <node concept="1W57fq" id="2csR5Duk0D7" role="lGtFl">
                     <node concept="3IZrLx" id="2csR5Duk0D8" role="3IZSJc">
@@ -602,7 +602,7 @@
                           <ref role="3cqZAo" node="g_Cet49" resolve="provider" />
                         </node>
                         <node concept="liA8E" id="2csR5Duk0Dn" role="2OqNvi">
-                          <ref role="37wK5l" to="emqf:~CellProviderWithRole.createDefaultSubstituteInfo():jetbrains.mps.openapi.editor.cells.SubstituteInfo" resolve="createDefaultSubstituteInfo" />
+                          <ref role="37wK5l" to="emqf:~CellProviderWithRole.createDefaultSubstituteInfo()" resolve="createDefaultSubstituteInfo" />
                         </node>
                       </node>
                     </node>
@@ -617,7 +617,7 @@
                         <ref role="3cqZAo" node="g_Cet49" resolve="provider" />
                       </node>
                       <node concept="liA8E" id="2csR5Duk0C_" role="2OqNvi">
-                        <ref role="37wK5l" to="exr9:~AbstractCellProvider.getCellContext():jetbrains.mps.nodeEditor.cellMenu.CellContext" resolve="getCellContext" />
+                        <ref role="37wK5l" to="exr9:~AbstractCellProvider.getCellContext()" resolve="getCellContext" />
                       </node>
                     </node>
                     <node concept="2ShNRf" id="2csR5Duk0CA" role="37wK5m">
@@ -701,7 +701,7 @@
                   <ref role="3cqZAo" node="g_Cet49" resolve="provider" />
                 </node>
                 <node concept="liA8E" id="h_XJ9y8" role="2OqNvi">
-                  <ref role="37wK5l" to="emqf:~CellProviderWithRole.getRoleAttribute():org.jetbrains.mps.openapi.model.SNode" resolve="getRoleAttribute" />
+                  <ref role="37wK5l" to="emqf:~CellProviderWithRole.getRoleAttribute()" resolve="getRoleAttribute" />
                 </node>
               </node>
             </node>
@@ -719,13 +719,13 @@
                     <ref role="37wK5l" to="qvne:7fcz_bZtWO$" resolve="getUpdateSession" />
                   </node>
                   <node concept="liA8E" id="h_XJ7y$" role="2OqNvi">
-                    <ref role="37wK5l" to="22ra:~UpdateSession.updateAttributeCell(jetbrains.mps.openapi.editor.update.AttributeKind,jetbrains.mps.openapi.editor.cells.EditorCell,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="updateAttributeCell" />
+                    <ref role="37wK5l" to="22ra:~UpdateSession.updateAttributeCell(jetbrains.mps.openapi.editor.update.AttributeKind,jetbrains.mps.openapi.editor.cells.EditorCell,org.jetbrains.mps.openapi.model.SNode)" resolve="updateAttributeCell" />
                     <node concept="2OqwBi" id="17pH$TAFMga" role="37wK5m">
                       <node concept="37vLTw" id="17pH$TAFL$W" role="2Oq$k0">
                         <ref role="3cqZAo" node="g_Cet49" resolve="provider" />
                       </node>
                       <node concept="liA8E" id="17pH$TAFNpp" role="2OqNvi">
-                        <ref role="37wK5l" to="emqf:~CellProviderWithRole.getRoleAttributeKind():jetbrains.mps.openapi.editor.update.AttributeKind" resolve="getRoleAttributeKind" />
+                        <ref role="37wK5l" to="emqf:~CellProviderWithRole.getRoleAttributeKind()" resolve="getRoleAttributeKind" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="1rfeXz7xsGZ" role="37wK5m">

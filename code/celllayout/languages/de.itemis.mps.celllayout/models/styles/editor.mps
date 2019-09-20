@@ -864,11 +864,11 @@
                     <ref role="3cqZAo" node="2FAXvauFxRR" resolve="cell" />
                   </node>
                   <node concept="liA8E" id="6p1TdwlQ4Vw" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getStyle()" resolve="getStyle" />
                   </node>
                 </node>
                 <node concept="liA8E" id="6p1TdwlQ507" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                  <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
                   <node concept="10M0yZ" id="6p1TdwlQ5HS" role="37wK5m">
                     <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
                     <ref role="3cqZAo" to="5ueo:~StyleAttributes.DRAW_BORDER" resolve="DRAW_BORDER" />
@@ -937,7 +937,7 @@
                 <ref role="3cqZAo" node="2FAXvauFuP7" resolve="cell" />
               </node>
               <node concept="liA8E" id="2FAXvauFwRw" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+                <ref role="37wK5l" to="f4zo:~EditorCell.getStyle()" resolve="getStyle" />
               </node>
             </node>
           </node>
@@ -960,7 +960,7 @@
                     <ref role="2Gs0qQ" node="2FAXvauFuYX" resolve="attribute" />
                   </node>
                   <node concept="liA8E" id="2yfEchPRsbH" role="2OqNvi">
-                    <ref role="37wK5l" to="hox0:~StyleAttribute.getIndex():int" resolve="getIndex" />
+                    <ref role="37wK5l" to="hox0:~StyleAttribute.getIndex()" resolve="getIndex" />
                   </node>
                 </node>
               </node>
@@ -973,7 +973,7 @@
                       <ref role="3cqZAo" node="2FAXvauFwRt" resolve="style" />
                     </node>
                     <node concept="liA8E" id="2FAXvauFv_h" role="2OqNvi">
-                      <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                      <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
                       <node concept="2GrUjf" id="2FAXvauFvDS" role="37wK5m">
                         <ref role="2Gs0qQ" node="2FAXvauFuYX" resolve="attribute" />
                       </node>
@@ -986,7 +986,7 @@
                   <ref role="3cqZAo" node="2FAXvauFwRt" resolve="style" />
                 </node>
                 <node concept="liA8E" id="2FAXvauFvf$" role="2OqNvi">
-                  <ref role="37wK5l" to="hox0:~Style.isSpecified(jetbrains.mps.openapi.editor.style.StyleAttribute):boolean" resolve="isSpecified" />
+                  <ref role="37wK5l" to="hox0:~Style.isSpecified(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="isSpecified" />
                   <node concept="2GrUjf" id="2FAXvauFvjb" role="37wK5m">
                     <ref role="2Gs0qQ" node="2FAXvauFuYX" resolve="attribute" />
                   </node>
@@ -1004,7 +1004,7 @@
               <ref role="3cqZAo" node="2FAXvauFwRt" resolve="style" />
             </node>
             <node concept="liA8E" id="2FAXvauFw5P" role="2OqNvi">
-              <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+              <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
               <node concept="AH0OO" id="2FAXvauFwh4" role="37wK5m">
                 <node concept="3cpWsd" id="2FAXvauFwKK" role="AHEQo">
                   <node concept="3cmrfG" id="2FAXvauFwMk" role="3uHU7w">

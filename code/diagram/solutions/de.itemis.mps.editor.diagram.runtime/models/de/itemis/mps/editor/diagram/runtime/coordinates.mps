@@ -178,7 +178,7 @@
       <node concept="3clFbS" id="4xcnxwSzmu9" role="3clF47">
         <node concept="3clFbF" id="4xcnxwSzmua" role="3cqZAp">
           <node concept="2YIFZM" id="4xcnxwSzmub" role="3clFbG">
-            <ref role="37wK5l" to="fbzs:~AffineTransform.getTranslateInstance(double,double):java.awt.geom.AffineTransform" resolve="getTranslateInstance" />
+            <ref role="37wK5l" to="fbzs:~AffineTransform.getTranslateInstance(double,double)" resolve="getTranslateInstance" />
             <ref role="1Pybhc" to="fbzs:~AffineTransform" resolve="AffineTransform" />
             <node concept="3b6qkQ" id="4xcnxwSzmuc" role="37wK5m">
               <property role="$nhwW" value="0.0" />
@@ -219,11 +219,11 @@
                         <node concept="2OqwBi" id="4xcnxwSAujF" role="2Oq$k0">
                           <node concept="Xjq3P" id="4xcnxwSAu8y" role="2Oq$k0" />
                           <node concept="liA8E" id="4xcnxwSAume" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                            <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                           </node>
                         </node>
                         <node concept="liA8E" id="4xcnxwSAuJJ" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                          <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="4xcnxwSAvmQ" role="3uHU7B">
@@ -232,11 +232,11 @@
                             <node concept="2OqwBi" id="4xcnxwSAvPb" role="2Oq$k0">
                               <node concept="Xjq3P" id="4xcnxwSAvJM" role="2Oq$k0" />
                               <node concept="liA8E" id="4xcnxwSAvUA" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                               </node>
                             </node>
                             <node concept="liA8E" id="4xcnxwSAwmD" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                              <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
                             </node>
                           </node>
                           <node concept="Xl_RD" id="4xcnxwSAvmW" role="3uHU7B">
@@ -278,7 +278,7 @@
                     <ref role="37wK5l" node="4xcnxwSzmu6" resolve="getTransformation" />
                   </node>
                   <node concept="liA8E" id="4xcnxwSzmur" role="2OqNvi">
-                    <ref role="37wK5l" to="fbzs:~AffineTransform.createInverse():java.awt.geom.AffineTransform" resolve="createInverse" />
+                    <ref role="37wK5l" to="fbzs:~AffineTransform.createInverse()" resolve="createInverse" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="4xcnxwSzmus" role="37wK5m">
@@ -372,7 +372,7 @@
               <ref role="3cqZAo" node="4xcnxwSzmvh" resolve="transformation" />
             </node>
             <node concept="liA8E" id="4xcnxwSzmuX" role="2OqNvi">
-              <ref role="37wK5l" to="fbzs:~AffineTransform.transform(java.awt.geom.Point2D,java.awt.geom.Point2D):java.awt.geom.Point2D" resolve="transform" />
+              <ref role="37wK5l" to="fbzs:~AffineTransform.transform(java.awt.geom.Point2D,java.awt.geom.Point2D)" resolve="transform" />
               <node concept="2ShNRf" id="4xcnxwSzmuY" role="37wK5m">
                 <node concept="1pGfFk" id="4xcnxwSzmuZ" role="2ShVmc">
                   <ref role="37wK5l" to="fbzs:~Point2D$Double.&lt;init&gt;(double,double)" resolve="Point2D.Double" />
@@ -409,7 +409,7 @@
                   <ref role="3cqZAo" node="4xcnxwSzmuQ" resolve="result" />
                 </node>
                 <node concept="liA8E" id="4xcnxwSzmvc" role="2OqNvi">
-                  <ref role="37wK5l" to="fbzs:~Point2D.getX():double" resolve="getX" />
+                  <ref role="37wK5l" to="fbzs:~Point2D.getX()" resolve="getX" />
                 </node>
               </node>
               <node concept="2OqwBi" id="4xcnxwSzmvd" role="37wK5m">
@@ -417,7 +417,7 @@
                   <ref role="3cqZAo" node="4xcnxwSzmuQ" resolve="result" />
                 </node>
                 <node concept="liA8E" id="4xcnxwSzmvf" role="2OqNvi">
-                  <ref role="37wK5l" to="fbzs:~Point2D.getY():double" resolve="getY" />
+                  <ref role="37wK5l" to="fbzs:~Point2D.getY()" resolve="getY" />
                 </node>
               </node>
               <node concept="37vLTw" id="4xcnxwSzmvg" role="37wK5m">

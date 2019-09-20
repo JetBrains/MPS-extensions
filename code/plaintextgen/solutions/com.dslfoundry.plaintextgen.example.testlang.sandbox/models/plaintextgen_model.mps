@@ -13,7 +13,7 @@
         <child id="5082088080656976323" name="newlineMarker" index="2EinRH" />
         <child id="1145195647825954802" name="words" index="356sEH" />
       </concept>
-      <concept id="1145195647825954793" name="com.dslfoundry.plaintextgen.structure.IndentedText" flags="ng" index="356sEQ">
+      <concept id="1145195647825954793" name="com.dslfoundry.plaintextgen.structure.SpaceIndentedText" flags="ng" index="356sEQ">
         <property id="5198309202558919052" name="indent" index="333NGx" />
       </concept>
       <concept id="1145195647825954788" name="com.dslfoundry.plaintextgen.structure.TextgenText" flags="ng" index="356sEV">
@@ -21,6 +21,7 @@
         <child id="1145195647826100986" name="content" index="356KY_" />
       </concept>
       <concept id="1145195647826084325" name="com.dslfoundry.plaintextgen.structure.VerticalLines" flags="ng" index="356WMU" />
+      <concept id="2847858303663881928" name="com.dslfoundry.plaintextgen.structure.tab" flags="ng" index="373pV1" />
       <concept id="7214912913997260680" name="com.dslfoundry.plaintextgen.structure.IVerticalGroup" flags="ng" index="383Yap">
         <property id="7214912913997400475" name="align" index="384gMa" />
         <child id="7214912913997260696" name="lines" index="383Ya9" />
@@ -3255,6 +3256,24 @@
           <property role="TrG5h" value="}" />
         </node>
         <node concept="2EixSi" id="2jBmyzyHtJS" role="2EinRH" />
+      </node>
+    </node>
+  </node>
+  <node concept="356sEV" id="2u5C0Bwyuz5">
+    <property role="TrG5h" value="tabTest." />
+    <property role="3Le9LX" value="tld" />
+    <node concept="356WMU" id="2u5C0Bwyuz6" role="356KY_">
+      <node concept="356WMU" id="2u5C0Bwyuz7" role="383Ya9">
+        <node concept="356sEK" id="2u5C0Bwyuz9" role="383Ya9">
+          <node concept="373pV1" id="2u5C0BwyPm9" role="356sEH" />
+          <node concept="373pV1" id="2u5C0BwzkN5" role="356sEH" />
+          <node concept="356sEF" id="2u5C0BwyEG9" role="356sEH">
+            <property role="TrG5h" value="test" />
+          </node>
+          <node concept="2EixSi" id="2u5C0Bwyuzb" role="2EinRH" />
+          <node concept="373pV1" id="2u5C0BwzQ1Y" role="356sEH" />
+          <node concept="373pV1" id="2u5C0BwzQ23" role="356sEH" />
+        </node>
       </node>
     </node>
   </node>

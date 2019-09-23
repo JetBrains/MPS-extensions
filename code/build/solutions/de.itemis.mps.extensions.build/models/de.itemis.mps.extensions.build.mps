@@ -470,6 +470,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="70SL9i7CNPB" role="3bR37C">
+          <node concept="3bR9La" id="70SL9i7CNWM" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="4p3FRivDLPy" role="3989C9">
@@ -5818,13 +5823,13 @@
       <node concept="m$_yC" id="4iIKqJTZ5Ie" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="7WTFIQHH9th" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
-      </node>
       <node concept="3_J27D" id="4iIKqJTZ5If" role="m_cZH">
         <node concept="3Mxwew" id="4iIKqJTZ5Ig" role="3MwsjC">
           <property role="3MwjfP" value="de.q60.shadowmodels" />
         </node>
+      </node>
+      <node concept="m$_yC" id="7WTFIQHH9th" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
       </node>
     </node>
     <node concept="m$_wf" id="BRK1N8p1BI" role="3989C9">

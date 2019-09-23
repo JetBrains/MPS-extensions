@@ -4,7 +4,7 @@
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
   </languages>
   <imports>
     <import index="tiy4" ref="r:52d3e3bd-e2f1-411a-979a-f9c3c6870a48(com.mbeddr.mpsutil.grammarcells.runtimelang.editor)" />
@@ -153,11 +153,13 @@
         <reference id="1205756909548" name="member" index="2WH_rO" />
       </concept>
     </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="427659576753752243" name="jetbrains.mps.lang.smodel.structure.ModulePointer" flags="ng" index="20RdaH">
-        <property id="427659576753753627" name="moduleId" index="20Rdg5" />
-        <property id="427659576753753625" name="moduleName" index="20Rdg7" />
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="361130699826193249" name="jetbrains.mps.lang.modelapi.structure.ModulePointer" flags="ng" index="1dCxOk">
+        <property id="1863527487546097500" name="moduleId" index="1XweGW" />
+        <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
       </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1678062499342629858" name="jetbrains.mps.lang.smodel.structure.ModuleRefExpression" flags="ng" index="37shsh">
@@ -423,9 +425,9 @@
                           <node concept="3clFbJ" id="77z0Sgz0VgK" role="3cqZAp">
                             <node concept="17R0WA" id="77z0Sgz0VgL" role="3clFbw">
                               <node concept="37shsh" id="77z0Sgz0VgM" role="3uHU7w">
-                                <node concept="20RdaH" id="77z0Sgz0VgN" role="37shsm">
-                                  <property role="20Rdg5" value="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" />
-                                  <property role="20Rdg7" value="com.mbeddr.mpsutil.grammarcells.runtime" />
+                                <node concept="1dCxOk" id="7WTFIQIcYxF" role="37shsm">
+                                  <property role="1XxBO9" value="com.mbeddr.mpsutil.grammarcells.runtime" />
+                                  <property role="1XweGW" value="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="77z0Sgz0VgO" role="3uHU7B">
@@ -499,9 +501,9 @@
                           <node concept="3clFbJ" id="77z0Sgz1GzN" role="3cqZAp">
                             <node concept="17R0WA" id="77z0Sgz1GzO" role="3clFbw">
                               <node concept="37shsh" id="77z0Sgz1GzP" role="3uHU7w">
-                                <node concept="20RdaH" id="77z0Sgz1GzQ" role="37shsm">
-                                  <property role="20Rdg5" value="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" />
-                                  <property role="20Rdg7" value="com.mbeddr.mpsutil.grammarcells.runtime" />
+                                <node concept="1dCxOk" id="7WTFIQIcYxG" role="37shsm">
+                                  <property role="1XxBO9" value="com.mbeddr.mpsutil.grammarcells.runtime" />
+                                  <property role="1XweGW" value="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="77z0Sgz1GzR" role="3uHU7B">

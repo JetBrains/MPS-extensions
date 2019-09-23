@@ -33,7 +33,6 @@
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
-        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
@@ -55,9 +54,8 @@
     <property role="EcuMT" value="2728748097294192922" />
     <ref role="1TJDcQ" to="tpc2:hgV6hR6" resolve="StyleClassItem" />
     <node concept="1TJgyj" id="hLd8cI8" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="query" />
-      <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="1221064706952" />
       <ref role="20lvS9" to="tpc2:hLcFafI" resolve="QueryFunction_Integer" />
     </node>
@@ -206,9 +204,8 @@
     <property role="EcuMT" value="4682418030829244851" />
     <ref role="1TJDcQ" to="tpc2:hgV6hR6" resolve="StyleClassItem" />
     <node concept="1TJgyj" id="hZxKXiv" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="query" />
-      <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="1236443321503" />
       <ref role="20lvS9" to="tpc2:hZxMbdG" resolve="QueryFunction_String" />
     </node>

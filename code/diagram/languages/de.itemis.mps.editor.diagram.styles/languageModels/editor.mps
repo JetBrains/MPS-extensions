@@ -2,7 +2,7 @@
 <model ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -188,7 +188,7 @@
     <property role="TrG5h" value="DiagramStyleAttributes" />
     <node concept="3t5Usi" id="4mmPun56Ruz" role="V601i">
       <property role="TrG5h" value="vertical-align" />
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <node concept="3uibUv" id="4mmPun56Ru$" role="3t5Oan">
         <ref role="3uigEE" node="4mmPun57bMI" resolve="VerticalAlign" />
       </node>
@@ -242,7 +242,6 @@
     </node>
     <node concept="3t5Usi" id="4opyGmearNg" role="V601i">
       <property role="TrG5h" value="__shade-color" />
-      <property role="iBDjm" value="true" />
       <node concept="3uibUv" id="4opyGmearPi" role="3t5Oan">
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
       </node>
@@ -275,7 +274,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="1xHXqL1QIV9" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__align-buttons" />
       <node concept="10P_77" id="1xHXqL1QIVP" role="3t5Oan" />
       <node concept="3clFbT" id="1xHXqL1QIW4" role="3t49C2">
@@ -283,7 +281,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="1xHXqL1ZQCH" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__fit-size-button" />
       <node concept="10P_77" id="1xHXqL1ZQCI" role="3t5Oan" />
       <node concept="3clFbT" id="1xHXqL1ZQCJ" role="3t49C2">
@@ -291,7 +288,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="1xHXqL1ZQDy" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__reorder-ports-button" />
       <node concept="10P_77" id="1xHXqL1ZQDz" role="3t5Oan" />
       <node concept="3clFbT" id="1xHXqL1ZQD$" role="3t49C2">
@@ -299,7 +295,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="1xHXqL1ZQEq" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__open-node-buttons" />
       <node concept="10P_77" id="1xHXqL1ZQEr" role="3t5Oan" />
       <node concept="3clFbT" id="1xHXqL1ZQEs" role="3t49C2">
@@ -307,7 +302,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="1xHXqL1ZQFl" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__relayout-edges-button" />
       <node concept="10P_77" id="1xHXqL1ZQFm" role="3t5Oan" />
       <node concept="3clFbT" id="1xHXqL1ZQFn" role="3t49C2">
@@ -315,7 +309,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="5ZBOFE3$JmS" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__layout-diagram-button" />
       <node concept="10P_77" id="5ZBOFE3$JmT" role="3t5Oan" />
       <node concept="3clFbT" id="5ZBOFE3$JmU" role="3t49C2">
@@ -323,7 +316,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="5ZBOFE3$JmV" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__relayout-all-edges-button" />
       <node concept="10P_77" id="5ZBOFE3$JmW" role="3t5Oan" />
       <node concept="3clFbT" id="5ZBOFE3$JmX" role="3t49C2">
@@ -331,7 +323,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="5ZBOFE3$JmY" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__maximize-diagram-button" />
       <node concept="10P_77" id="5ZBOFE3$JmZ" role="3t5Oan" />
       <node concept="3clFbT" id="5ZBOFE3$Jn0" role="3t49C2">
@@ -339,7 +330,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="5ZBOFE3$Jn1" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__reset-view-button" />
       <node concept="10P_77" id="5ZBOFE3$Jn2" role="3t5Oan" />
       <node concept="3clFbT" id="5ZBOFE3$Jn3" role="3t49C2">
@@ -347,7 +337,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="5ZBOFE3$Jn4" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__zoom-in-button" />
       <node concept="10P_77" id="5ZBOFE3$Jn5" role="3t5Oan" />
       <node concept="3clFbT" id="5ZBOFE3$Jn6" role="3t49C2">
@@ -355,7 +344,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="5ZBOFE3$K73" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__zoom-out-button" />
       <node concept="10P_77" id="5ZBOFE3$K74" role="3t5Oan" />
       <node concept="3clFbT" id="5ZBOFE3$K75" role="3t49C2">
@@ -363,7 +351,6 @@
       </node>
     </node>
     <node concept="3t5Usi" id="5ZBOFE3$K8k" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="__fit-size-all-diagram-button" />
       <node concept="10P_77" id="5ZBOFE3$K8l" role="3t5Oan" />
       <node concept="3clFbT" id="5ZBOFE3$K8m" role="3t49C2">

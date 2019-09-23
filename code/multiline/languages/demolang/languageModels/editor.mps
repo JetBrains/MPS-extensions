@@ -4,7 +4,7 @@
   <attribute name="concise" value="true" />
   <languages>
     <use id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <engage id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -146,7 +146,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="5lTqPuSdl4n" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="VSNWy" id="5lTqPuSdl4p" role="3F10Kt">
           <property role="1lJzqX" value="14" />
@@ -289,7 +289,7 @@
     <property role="TrG5h" value="am" />
     <ref role="1h_SK9" to="kyaz:6Wsm6VK0frh" resolve="ConceptA" />
     <node concept="1hA7zw" id="5lTqPuSdlcO" role="1h_SK8">
-      <property role="1hAc7j" value="delete_to_word_end_action_id" />
+      <property role="1hAc7j" value="7P1WhNABBig/delete_to_word_end_action_id" />
       <node concept="1hAIg9" id="5lTqPuSdlcP" role="1hA7z_">
         <node concept="3clFbS" id="5lTqPuSdlcQ" role="2VODD2">
           <node concept="3clFbF" id="5lTqPuSdlcR" role="3cqZAp">

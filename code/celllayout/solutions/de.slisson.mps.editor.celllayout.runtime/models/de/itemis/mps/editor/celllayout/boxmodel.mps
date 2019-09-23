@@ -4,7 +4,7 @@
   <languages>
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -209,11 +209,8 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -241,6 +238,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -6539,13 +6544,95 @@
         </node>
         <node concept="3clFbH" id="6SVXTgIa5zP" role="3cqZAp" />
         <node concept="3SKdUt" id="6SVXTgI9O3V" role="3cqZAp">
-          <node concept="3SKdUq" id="6SVXTgI9O3X" role="3SKWNk">
-            <property role="3SKdUp" value="The default behavior of MPS is not to reserve any space for the border and let it overlap" />
+          <node concept="1PaTwC" id="7WTFIQIcXrL" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXrM" role="1PaTwD">
+              <property role="3oM_SC" value="The" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrN" role="1PaTwD">
+              <property role="3oM_SC" value="default" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrO" role="1PaTwD">
+              <property role="3oM_SC" value="behavior" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrP" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrQ" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrR" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrS" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrT" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrU" role="1PaTwD">
+              <property role="3oM_SC" value="reserve" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrV" role="1PaTwD">
+              <property role="3oM_SC" value="any" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrW" role="1PaTwD">
+              <property role="3oM_SC" value="space" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrX" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrY" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXrZ" role="1PaTwD">
+              <property role="3oM_SC" value="border" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs0" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs1" role="1PaTwD">
+              <property role="3oM_SC" value="let" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs2" role="1PaTwD">
+              <property role="3oM_SC" value="it" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs3" role="1PaTwD">
+              <property role="3oM_SC" value="overlap" />
+            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="6SVXTgI9QZk" role="3cqZAp">
-          <node concept="3SKdUq" id="6SVXTgI9QZm" role="3SKWNk">
-            <property role="3SKdUp" value="That's why we let them overlap here by one pixel." />
+          <node concept="1PaTwC" id="7WTFIQIcXs4" role="3ndbpf">
+            <node concept="3oM_SD" id="7WTFIQIcXs5" role="1PaTwD">
+              <property role="3oM_SC" value="That's" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs6" role="1PaTwD">
+              <property role="3oM_SC" value="why" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs7" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs8" role="1PaTwD">
+              <property role="3oM_SC" value="let" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXs9" role="1PaTwD">
+              <property role="3oM_SC" value="them" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsa" role="1PaTwD">
+              <property role="3oM_SC" value="overlap" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsb" role="1PaTwD">
+              <property role="3oM_SC" value="here" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsc" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXsd" role="1PaTwD">
+              <property role="3oM_SC" value="one" />
+            </node>
+            <node concept="3oM_SD" id="7WTFIQIcXse" role="1PaTwD">
+              <property role="3oM_SC" value="pixel." />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="6SVXTgI9KyL" role="3cqZAp">

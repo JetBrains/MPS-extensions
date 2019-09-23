@@ -4,7 +4,7 @@
   <attribute name="concise" value="true" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -359,7 +359,7 @@
           </node>
         </node>
         <node concept="3F1sOY" id="hNs0XVA" role="3EZMnx">
-          <property role="1cu_pB" value="3" />
+          <property role="1cu_pB" value="hQNNVxO/attractsRecursively" />
           <property role="2ru_X1" value="true" />
           <ref role="1NtTu8" to="diuo:7sJd_4s02pi" resolve="showParenthesesQuery" />
           <node concept="3EZMnI" id="4Tiud0Td6Qf" role="2ruayu">
@@ -1082,10 +1082,10 @@
     <node concept="14StLt" id="1Wl9xzO4GTy" role="V601i">
       <property role="TrG5h" value="Caption" />
       <node concept="30gYXW" id="1Wl9xzO4GUj" role="3F10Kt">
-        <property role="Vb096" value="black" />
+        <property role="Vb096" value="6cZGtrcKCoS/black" />
       </node>
       <node concept="VechU" id="1Wl9xzO4GUf" role="3F10Kt">
-        <property role="Vb096" value="lightGray" />
+        <property role="Vb096" value="fLJRk5A/lightGray" />
       </node>
       <node concept="VPM3Z" id="1Wl9xzO4GUx" role="3F10Kt">
         <property role="VOm3f" value="false" />

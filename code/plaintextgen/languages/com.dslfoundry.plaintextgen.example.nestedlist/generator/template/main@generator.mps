@@ -2,11 +2,12 @@
 <model ref="r:479e99c8-287b-4479-bad2-199ba5ad2cfb(com.dslfoundry.plaintextgen.example.nestedlist.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="a50fc719-4261-4a46-8e65-d98071469ff6" name="com.dslfoundry.plaintextgen.example.nestedlist" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -54,11 +55,8 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -121,12 +119,10 @@
       </concept>
       <concept id="1145195647825954788" name="com.dslfoundry.plaintextgen.structure.TextgenText" flags="ng" index="356sEV">
         <property id="5407518469085446424" name="ext" index="3Le9LX" />
-        <property id="8095834124169899852" name="lineEnding" index="1VYW5M" />
         <child id="1145195647826100986" name="content" index="356KY_" />
       </concept>
       <concept id="1145195647826084325" name="com.dslfoundry.plaintextgen.structure.VerticalLines" flags="ng" index="356WMU" />
       <concept id="7214912913997260680" name="com.dslfoundry.plaintextgen.structure.IVerticalGroup" flags="ng" index="383Yap">
-        <property id="7214912913997400475" name="align" index="384gMa" />
         <child id="7214912913997260696" name="lines" index="383Ya9" />
       </concept>
     </language>
@@ -160,6 +156,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -267,8 +271,34 @@
               <node concept="3zFVjK" id="3OQCuKRwvZx" role="3zH0cK">
                 <node concept="3clFbS" id="3OQCuKRwvZy" role="2VODD2">
                   <node concept="3SKdUt" id="4muWmjxApB0" role="3cqZAp">
-                    <node concept="3SKdUq" id="4muWmjxApB2" role="3SKWNk">
-                      <property role="3SKdUp" value="The &quot;+&quot; includes the node itself to its ancestors" />
+                    <node concept="1PaTwC" id="7WTFIQIcXkQ" role="3ndbpf">
+                      <node concept="3oM_SD" id="7WTFIQIcXkR" role="1PaTwD">
+                        <property role="3oM_SC" value="The" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXkS" role="1PaTwD">
+                        <property role="3oM_SC" value="&quot;+&quot;" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXkT" role="1PaTwD">
+                        <property role="3oM_SC" value="includes" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXkU" role="1PaTwD">
+                        <property role="3oM_SC" value="the" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXkV" role="1PaTwD">
+                        <property role="3oM_SC" value="node" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXkW" role="1PaTwD">
+                        <property role="3oM_SC" value="itself" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXkX" role="1PaTwD">
+                        <property role="3oM_SC" value="to" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXkY" role="1PaTwD">
+                        <property role="3oM_SC" value="its" />
+                      </node>
+                      <node concept="3oM_SD" id="7WTFIQIcXkZ" role="1PaTwD">
+                        <property role="3oM_SC" value="ancestors" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbF" id="4muWmjxAfvA" role="3cqZAp">
@@ -353,10 +383,8 @@
   <node concept="356sEV" id="3OQCuKRw1Vh">
     <property role="TrG5h" value="ListAsHierarchy" />
     <property role="3Le9LX" value=".txt" />
-    <property role="1VYW5M" value="CRLF" />
     <node concept="356WMU" id="3OQCuKRw1Xb" role="356KY_">
       <node concept="356WMU" id="3OQCuKRw20$" role="383Ya9">
-        <property role="384gMa" value="left" />
         <node concept="356sEK" id="3OQCuKRw1Xc" role="383Ya9">
           <node concept="356sEF" id="3OQCuKRw1Xd" role="356sEH">
             <property role="TrG5h" value="* Reduce the branches ... " />

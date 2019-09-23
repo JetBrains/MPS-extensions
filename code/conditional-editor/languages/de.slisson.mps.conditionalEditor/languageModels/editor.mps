@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
@@ -63,7 +63,6 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
-        <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
         <reference id="1081339532145" name="keyMap" index="34QXea" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -88,9 +87,7 @@
   <node concept="24kQdi" id="2vJRo8gA3Du">
     <ref role="1XX52x" to="91fu:2vJRo8gA3oP" resolve="ConditionalConceptEditorDeclaration" />
     <node concept="3EZMnI" id="fG705JJ" role="2wV5jI">
-      <property role="1cu_pB" value="0" />
       <node concept="3EZMnI" id="fG705JK" role="3EZMnx">
-        <property role="1cu_pB" value="0" />
         <node concept="3F2HdR" id="2gbCHSczkzO" role="3EZMnx">
           <property role="2czwfO" value="&amp;" />
           <ref role="1NtTu8" to="tpc2:2gbCHScr0HI" resolve="contextHints" />
@@ -99,10 +96,10 @@
             <property role="3F0ifm" value="&lt;default&gt;" />
             <ref role="34QXea" to="tpc5:3Nez1fVxdLf" resolve="ConceptEditor_DefaultContextHintLabel" />
             <node concept="VechU" id="3Nez1fVluPu" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
             <node concept="34dVlM" id="l3qzLlu60f" role="3F10Kt">
-              <property role="34dVlN" value="FIRST" />
+              <property role="34dVlN" value="hrC1nx$/FIRST" />
             </node>
           </node>
           <node concept="tppnM" id="l3qzLmIunX" role="sWeuL">
@@ -241,7 +238,6 @@
           </node>
           <node concept="3F0ifn" id="fGbFJ$U" role="3EZMnx">
             <property role="3F0ifm" value="inspected cell layout:" />
-            <property role="1cu_pB" value="0" />
             <node concept="VPM3Z" id="hEU$P6m" role="3F10Kt">
               <property role="VOm3f" value="false" />
             </node>
@@ -282,7 +278,7 @@
     <node concept="3F0ifn" id="2vJRo8gAxGG" role="2wV5jI">
       <property role="3F0ifm" value="[next-editor]" />
       <node concept="VechU" id="2vJRo8gAxIl" role="3F10Kt">
-        <property role="Vb096" value="blue" />
+        <property role="Vb096" value="fLwANPu/blue" />
       </node>
       <node concept="VPXOz" id="7klUZA6YFa_" role="3F10Kt">
         <property role="VOm3f" value="true" />

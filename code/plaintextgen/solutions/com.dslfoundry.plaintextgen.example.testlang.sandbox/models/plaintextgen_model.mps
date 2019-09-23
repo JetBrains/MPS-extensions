@@ -37,7 +37,7 @@
     <property role="TrG5h" value="Test" />
     <property role="3Le9LX" value=".tst" />
     <node concept="356WMU" id="pWUoI9jkQY" role="356KY_">
-      <property role="384gMa" value="center" />
+      <property role="384gMa" value="2jBmyzyFesD/center" />
       <node concept="356sEK" id="6gwxh6GdRMk" role="383Ya9">
         <node concept="356sEF" id="6gwxh6GdRMl" role="356sEH">
           <property role="TrG5h" value="short" />
@@ -60,17 +60,15 @@
         <node concept="2EixSi" id="6gwxh6GdRN1" role="2EinRH" />
       </node>
       <node concept="356sEQ" id="6gwxh6GdSgq" role="383Ya9">
-        <property role="384gMa" value="left" />
         <property role="333NGx" value="  " />
         <node concept="356WMU" id="6gwxh6GdSgB" role="383Ya9">
-          <property role="384gMa" value="center" />
+          <property role="384gMa" value="2jBmyzyFesD/center" />
           <node concept="356sEK" id="6gwxh6GdSgD" role="383Ya9">
             <node concept="2EixSi" id="6gwxh6GdSgF" role="2EinRH" />
             <node concept="356sEF" id="6gwxh6GdSgE" role="356sEH">
               <property role="TrG5h" value="Let's get " />
             </node>
             <node concept="356WMU" id="6gwxh6GdSh3" role="356sEH">
-              <property role="384gMa" value="left" />
               <node concept="356sEK" id="6gwxh6GdSlQ" role="383Ya9">
                 <node concept="356sEF" id="6gwxh6GdSlR" role="356sEH">
                   <property role="TrG5h" value="fancy" />
@@ -95,7 +93,7 @@
             </node>
             <node concept="356sEQ" id="6gwxh6GdSin" role="356sEH">
               <property role="333NGx" value="  " />
-              <property role="384gMa" value="right" />
+              <property role="384gMa" value="2jBmyzyFesG/right" />
               <node concept="356sEK" id="6gwxh6GdSki" role="383Ya9">
                 <node concept="356sEF" id="6gwxh6GdSkj" role="356sEH">
                   <property role="TrG5h" value="complex" />
@@ -123,14 +121,13 @@
       </node>
       <node concept="356sEQ" id="6gwxh6Gejx1" role="383Ya9">
         <property role="333NGx" value="  " />
-        <property role="384gMa" value="center" />
+        <property role="384gMa" value="2jBmyzyFesD/center" />
         <node concept="356sEK" id="6gwxh6GejxD" role="383Ya9">
           <node concept="356sEF" id="6gwxh6GejxE" role="356sEH">
             <property role="TrG5h" value="a" />
           </node>
           <node concept="356sEQ" id="6gwxh6GejzJ" role="356sEH">
             <property role="333NGx" value="  " />
-            <property role="384gMa" value="left" />
             <node concept="356sEK" id="6gwxh6GekXv" role="383Ya9">
               <node concept="356sEF" id="6gwxh6GekXw" role="356sEH">
                 <property role="TrG5h" value="b" />
@@ -149,7 +146,7 @@
           </node>
           <node concept="356sEQ" id="2jBmyzyD$nr" role="356sEH">
             <property role="333NGx" value="  " />
-            <property role="384gMa" value="right" />
+            <property role="384gMa" value="2jBmyzyFesG/right" />
             <node concept="356sEK" id="2jBmyzyD$nA" role="383Ya9">
               <node concept="356sEF" id="2jBmyzyD$nB" role="356sEH">
                 <property role="TrG5h" value="asbcd" />

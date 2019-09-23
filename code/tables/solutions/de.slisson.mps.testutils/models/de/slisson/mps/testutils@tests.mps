@@ -3,8 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
   </languages>
   <imports>
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
@@ -15,7 +15,7 @@
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
       <concept id="1229187653856" name="jetbrains.mps.lang.test.structure.EditorTestCase" flags="lg" index="LiM7Y">
-        <child id="1229187676388" name="nodeToEdit" index="LiRBU" />
+        <child id="3143335925185262946" name="testNodeBefore" index="25YQCW" />
         <child id="1229187755283" name="code" index="LjaKd" />
       </concept>
       <concept id="1229194968594" name="jetbrains.mps.lang.test.structure.AnonymousCellAnnotation" flags="ng" index="LIFWc">
@@ -26,6 +26,9 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
+      <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
+        <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -93,16 +96,6 @@
   </node>
   <node concept="LiM7Y" id="651tS80wlvx">
     <property role="TrG5h" value="abc" />
-    <node concept="3clFb_" id="651tS80wlvA" role="LiRBU">
-      <property role="TrG5h" value="a" />
-      <node concept="3cqZAl" id="651tS80wlvB" role="3clF45" />
-      <node concept="3Tm1VV" id="651tS80wlvC" role="1B3o_S" />
-      <node concept="3clFbS" id="651tS80wlvD" role="3clF47" />
-      <node concept="LIFWc" id="651tS80wL0c" role="lGtFl">
-        <property role="LIFWa" value="0" />
-        <property role="LIFWd" value="Collection_359zr8_a" />
-      </node>
-    </node>
     <node concept="3clFbS" id="651tS80wC8B" role="LjaKd">
       <node concept="3cpWs8" id="651tS80wJUz" role="3cqZAp">
         <node concept="3cpWsn" id="651tS80wJU$" role="3cpWs9">
@@ -134,6 +127,18 @@
         </node>
         <node concept="3VsKOn" id="651tS80wKMF" role="3tpDZA">
           <ref role="3VsUkX" to="g51k:~EditorCell_Collection" resolve="EditorCell_Collection" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="7WTFIQIcZxd" role="25YQCW">
+      <node concept="3clFb_" id="651tS80wlvA" role="1qenE9">
+        <property role="TrG5h" value="a" />
+        <node concept="3cqZAl" id="651tS80wlvB" role="3clF45" />
+        <node concept="3Tm1VV" id="651tS80wlvC" role="1B3o_S" />
+        <node concept="3clFbS" id="651tS80wlvD" role="3clF47" />
+        <node concept="LIFWc" id="651tS80wL0c" role="lGtFl">
+          <property role="LIFWa" value="0" />
+          <property role="LIFWd" value="Collection_359zr8_a" />
         </node>
       </node>
     </node>

@@ -2,7 +2,7 @@
 <model ref="r:308b675c-b25d-4541-8cb3-67afa3799e8b(de.q60.mps.polymorphicfunctions.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -223,7 +223,7 @@
       <node concept="3F0ifn" id="5yVaV$3OLZ1" role="3EZMnx">
         <property role="3F0ifm" value="sequence&lt;" />
         <node concept="VechU" id="5yVaV$3OM22" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
         <node concept="VPxyj" id="5yVaV$3OM2g" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -253,7 +253,7 @@
       <node concept="3F0ifn" id="5yVaV$3OM10" role="3EZMnx">
         <property role="3F0ifm" value="&gt;" />
         <node concept="VechU" id="5yVaV$3OM3o" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
         <node concept="VPxyj" id="5yVaV$3OM3p" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -331,7 +331,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="1sd2boLsIve" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
         <node concept="VPM3Z" id="1sd2boLsQEk" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -339,7 +339,7 @@
       </node>
       <node concept="1HlG4h" id="1sd2boLsGCL" role="3EZMnx">
         <node concept="VechU" id="1sd2boLsIvm" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
         <node concept="11LMrY" id="1sd2boLsITz" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -427,7 +427,7 @@
         <node concept="3F0ifn" id="1sd2boLp1I7" role="3EZMnx">
           <property role="3F0ifm" value="if" />
           <node concept="VechU" id="1sd2boLpits" role="3F10Kt">
-            <property role="Vb096" value="lightGray" />
+            <property role="Vb096" value="fLJRk5A/lightGray" />
           </node>
         </node>
         <node concept="3F1sOY" id="1sd2boLp1JL" role="3EZMnx">

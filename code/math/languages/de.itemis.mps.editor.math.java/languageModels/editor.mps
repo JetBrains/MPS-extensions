@@ -5,7 +5,7 @@
   <languages>
     <use id="766348f7-6a67-4b85-9323-384840132299" name="de.itemis.mps.editor.math" version="0" />
     <use id="e359e0a2-368a-4c40-ae2a-e5a09f9cfd58" name="de.itemis.mps.editor.math.notations" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -499,7 +499,7 @@
     <node concept="1Qtc8_" id="4iNiUqGz3wR" role="IW6Ez">
       <node concept="3cWJ9i" id="4iNiUqGz3wP" role="1Qtc8$">
         <node concept="CtIbL" id="4iNiUqGz3wQ" role="CtIbM">
-          <property role="CtIbK" value="RIGHT" />
+          <property role="CtIbK" value="30NnNOohrQL/RIGHT" />
         </node>
       </node>
       <node concept="IWgqT" id="4iNiUqGz3wT" role="1Qtc8A">
@@ -560,7 +560,7 @@
                 <node concept="1OKiuA" id="4iNiUqGz3xm" role="2OqNvi">
                   <node concept="1Q80Hx" id="4iNiUqGz3xn" role="lBI5i" />
                   <node concept="2B6iha" id="4iNiUqGz3xo" role="lGT1i">
-                    <property role="1lyBwo" value="mostRelevant" />
+                    <property role="1lyBwo" value="59pBc0SIIVt/mostRelevant" />
                   </node>
                   <node concept="3cmrfG" id="4iNiUqGz3xp" role="3dN3m$">
                     <property role="3cmrfH" value="-1" />

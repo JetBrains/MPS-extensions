@@ -65,40 +65,39 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="48DYfEt2oMe" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expandedCell" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="4767615435808541838" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="1TJgyj" id="48DYfEtbX_p" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="collapsedCell" />
-      <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="4767615435811051865" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="1TJgyj" id="1$t5g3Q$dBC" role="1TKVEi">
       <property role="IQ2ns" value="1809625719153678824" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="getNodeSize" />
       <ref role="20lvS9" node="1$t5g3Q$5tQ" resolve="ConceptFunction_GetNodeSize" />
     </node>
     <node concept="1TJgyj" id="69rYimo66sD" role="1TKVEi">
       <property role="IQ2ns" value="7087532378458449705" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paintNode" />
       <ref role="20lvS9" node="69rYimo5LH8" resolve="ConceptFunction_PaintNode" />
     </node>
     <node concept="1TJgyj" id="5pN$eUp1WSL" role="1TKVEi">
       <property role="IQ2ns" value="6229482064027569713" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paintEdge" />
       <ref role="20lvS9" node="5pN$eUp1Ruy" resolve="ConceptFunction_PaintEdge" />
     </node>
     <node concept="1TJgyj" id="5pN$eUp1WT1" role="1TKVEi">
       <property role="IQ2ns" value="6229482064027569729" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paintLine" />
       <ref role="20lvS9" node="5pN$eUp1SMn" resolve="ConceptFunction_PaintLine" />
     </node>

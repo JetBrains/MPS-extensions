@@ -5,7 +5,7 @@
   <languages>
     <use id="e359e0a2-368a-4c40-ae2a-e5a09f9cfd58" name="de.itemis.mps.editor.math.notations" version="0" />
     <use id="766348f7-6a67-4b85-9323-384840132299" name="de.itemis.mps.editor.math" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -320,7 +320,7 @@
       <node concept="3F1sOY" id="7UiI8OoXxaB" role="1B_Wn3">
         <ref role="1NtTu8" to="96v7:9L22EoXBFv" resolve="body" />
         <node concept="VechU" id="5PByBcumBR6" role="3F10Kt">
-          <property role="Vb096" value="DARK_GREEN" />
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
         </node>
         <node concept="3tD6jV" id="7$IFRLyt_nn" role="3F10Kt">
           <ref role="3tD7wE" to="19h7:7$IFRLyfD3F" resolve="math-symbol-color" />

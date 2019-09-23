@@ -2,8 +2,8 @@
 <model ref="r:c46cda72-c4ea-4697-bc78-94cc192adb34(de.slisson.mps.structurecheck.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -192,6 +192,7 @@
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1966870290083281362" name="jetbrains.mps.lang.smodel.structure.EnumMember_NameOperation" flags="ng" index="24Tkf9" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -1002,10 +1003,13 @@
                   <node concept="3$xsQk" id="l6SLw3tmuH" role="3$ytzL">
                     <node concept="3clFbS" id="l6SLw3tmuI" role="2VODD2">
                       <node concept="3clFbF" id="l6SLw3tmGF" role="3cqZAp">
-                        <node concept="2OqwBi" id="l6SLw3tmJl" role="3clFbG">
-                          <node concept="30H73N" id="l6SLw3tmGE" role="2Oq$k0" />
-                          <node concept="3TrcHB" id="l6SLw3tmTT" role="2OqNvi">
-                            <ref role="3TsBF5" to="7met:l6SLw3lU_B" resolve="rule" />
+                        <node concept="2OqwBi" id="7WTFIQIcYJt" role="3clFbG">
+                          <node concept="24Tkf9" id="7WTFIQIcYJv" role="2OqNvi" />
+                          <node concept="2OqwBi" id="l6SLw3tmJl" role="2Oq$k0">
+                            <node concept="30H73N" id="l6SLw3tmGE" role="2Oq$k0" />
+                            <node concept="3TrcHB" id="l6SLw3tmTT" role="2OqNvi">
+                              <ref role="3TsBF5" to="7met:7WTFIQIcYwE" resolve="rule" />
+                            </node>
                           </node>
                         </node>
                       </node>

@@ -2,7 +2,7 @@
 <model ref="r:0b928dd6-dd7e-45a8-b309-a2e315b7877a(de.itemis.mps.editor.celllayout.styles.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -156,7 +156,7 @@
   <node concept="V5hpn" id="6SVXTgI9FWP">
     <property role="TrG5h" value="LayoutStyleAttributes" />
     <node concept="3t5Usi" id="6SVXTgI9FWQ" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-color" />
       <node concept="3uibUv" id="6SVXTgI9FWU" role="3t5Oan">
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
@@ -167,7 +167,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="2FAXvauFoRY" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-left-color" />
       <node concept="3uibUv" id="2FAXvauFoRZ" role="3t5Oan">
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
@@ -178,7 +178,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="2FAXvauFoUY" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-right-color" />
       <node concept="3uibUv" id="2FAXvauFoUZ" role="3t5Oan">
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
@@ -189,7 +189,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="2FAXvauFoXW" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-top-color" />
       <node concept="3uibUv" id="2FAXvauFoXX" role="3t5Oan">
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
@@ -200,7 +200,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="2FAXvauFp1a" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-bottom-color" />
       <node concept="3uibUv" id="2FAXvauFp1b" role="3t5Oan">
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
@@ -211,7 +211,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="6SVXTgI9G1E" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-size" />
       <node concept="10Oyi0" id="6SVXTgI9G1K" role="3t5Oan" />
       <node concept="3cmrfG" id="6SVXTgI9G1R" role="3t49C2">
@@ -219,7 +219,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="2FAXvauFoRV" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-left-size" />
       <node concept="10Oyi0" id="2FAXvauFoRW" role="3t5Oan" />
       <node concept="3cmrfG" id="2FAXvauFoRX" role="3t49C2">
@@ -227,7 +227,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="2FAXvauFp4v" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-right-size" />
       <node concept="10Oyi0" id="2FAXvauFp4w" role="3t5Oan" />
       <node concept="3cmrfG" id="2FAXvauFp4x" role="3t49C2">
@@ -235,7 +235,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="2FAXvauFp7O" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-top-size" />
       <node concept="10Oyi0" id="2FAXvauFp7P" role="3t5Oan" />
       <node concept="3cmrfG" id="2FAXvauFp7Q" role="3t49C2">
@@ -243,7 +243,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="2FAXvauFpbi" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-bottom-size" />
       <node concept="10Oyi0" id="2FAXvauFpbj" role="3t5Oan" />
       <node concept="3cmrfG" id="2FAXvauFpbk" role="3t49C2">
@@ -251,13 +251,12 @@
       </node>
     </node>
     <node concept="3t5Usi" id="6SVXTgIpgkb" role="V601i">
-      <property role="iBDjm" value="true" />
       <property role="TrG5h" value="_font-family" />
       <node concept="17QB3L" id="6SVXTgIpgkS" role="3t5Oan" />
     </node>
     <node concept="3t5Usi" id="7lS0O5066sF" role="V601i">
       <property role="TrG5h" value="_grow-x" />
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <node concept="10P_77" id="7lS0O5066t3" role="3t5Oan" />
       <node concept="3clFbT" id="7lS0O5066t7" role="3t49C2">
         <property role="3clFbU" value="false" />
@@ -265,7 +264,7 @@
     </node>
     <node concept="3t5Usi" id="7lS0O5066tg" role="V601i">
       <property role="TrG5h" value="_grow-y" />
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <node concept="10P_77" id="7lS0O5066th" role="3t5Oan" />
       <node concept="3clFbT" id="7lS0O5066ti" role="3t49C2">
         <property role="3clFbU" value="false" />
@@ -273,7 +272,7 @@
     </node>
     <node concept="3t5Usi" id="7lS0O5066tP" role="V601i">
       <property role="TrG5h" value="_push-x" />
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <node concept="10P_77" id="7lS0O5066tQ" role="3t5Oan" />
       <node concept="3clFbT" id="7lS0O5066tR" role="3t49C2">
         <property role="3clFbU" value="false" />
@@ -281,14 +280,14 @@
     </node>
     <node concept="3t5Usi" id="7lS0O5066uD" role="V601i">
       <property role="TrG5h" value="_push-y" />
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <node concept="10P_77" id="7lS0O5066uE" role="3t5Oan" />
       <node concept="3clFbT" id="7lS0O5066uF" role="3t49C2">
         <property role="3clFbU" value="false" />
       </node>
     </node>
     <node concept="3t5Usi" id="vtaHb5XoqY" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_margin-top" />
       <node concept="10Oyi0" id="vtaHb5XorI" role="3t5Oan" />
       <node concept="3cmrfG" id="vtaHb5XorM" role="3t49C2">
@@ -296,7 +295,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="vtaHb5XorS" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_margin-bottom" />
       <node concept="10Oyi0" id="vtaHb5XorT" role="3t5Oan" />
       <node concept="3cmrfG" id="vtaHb5XorU" role="3t49C2">
@@ -304,7 +303,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="vtaHb5XosV" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_margin-left" />
       <node concept="10Oyi0" id="vtaHb5XosW" role="3t5Oan" />
       <node concept="3cmrfG" id="vtaHb5XosX" role="3t49C2">
@@ -312,7 +311,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="vtaHb5XotY" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_margin-right" />
       <node concept="10Oyi0" id="vtaHb5XotZ" role="3t5Oan" />
       <node concept="3cmrfG" id="vtaHb5Xou0" role="3t49C2">
@@ -320,7 +319,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="vtaHb5Xov7" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_margin" />
       <node concept="10Oyi0" id="vtaHb5Xov8" role="3t5Oan" />
       <node concept="3cmrfG" id="vtaHb5Xov9" role="3t49C2">
@@ -328,7 +327,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="6aN_eBJ0Dst" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_overflow-x" />
       <node concept="10P_77" id="6aN_eBJ0DtF" role="3t5Oan" />
       <node concept="3clFbT" id="6aN_eBJ0DtJ" role="3t49C2">
@@ -336,7 +335,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="6aN_eBJ0LqJ" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_overflow-y" />
       <node concept="10P_77" id="6aN_eBJ0LqK" role="3t5Oan" />
       <node concept="3clFbT" id="6aN_eBJ0LqL" role="3t49C2">
@@ -344,7 +343,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7ND7w4acsmT" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_grid-layout-flatten" />
       <node concept="10P_77" id="7ND7w4acsmU" role="3t5Oan" />
       <node concept="3clFbT" id="7ND7w4acsmV" role="3t49C2">
@@ -352,7 +351,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="UMPeQjnwzX" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_grid-layout-column-span" />
       <node concept="10Oyi0" id="UMPeQjnwAA" role="3t5Oan" />
       <node concept="3cmrfG" id="UMPeQjnwAH" role="3t49C2">
@@ -360,7 +359,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="UMPeQjnwAN" role="V601i">
-      <property role="iBDjm" value="false" />
+      <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_grid-layout-row-span" />
       <node concept="10Oyi0" id="UMPeQjnwAO" role="3t5Oan" />
       <node concept="3cmrfG" id="UMPeQjnwAP" role="3t49C2">

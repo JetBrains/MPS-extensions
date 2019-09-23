@@ -53,9 +53,9 @@
     <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
     <node concept="1TJgyj" id="1QyV25GL40V" role="1TKVEi">
       <property role="IQ2ns" value="2135528801629913147" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1QyV25GKFJ$" resolve="EnumCheckbox_Selectable" />
     </node>
   </node>
@@ -76,23 +76,20 @@
     </node>
     <node concept="1TJgyj" id="1QyV25GKFJZ" role="1TKVEi">
       <property role="IQ2ns" value="2135528801629813759" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="icon" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1QyV25GKFJC" resolve="Icon" />
     </node>
     <node concept="1TJgyj" id="1QyV25GKFK2" role="1TKVEi">
       <property role="IQ2ns" value="2135528801629813762" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="literal" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpce:fKM4N6M" resolve="EnumerationMemberDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:2TR3acGo7Lw" resolve="EnumerationMemberDeclaration" />
     </node>
     <node concept="1TJgyj" id="44Oik0UqB59" role="1TKVEi">
       <property role="IQ2ns" value="4698460851461058889" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="next" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1QyV25GKFJ$" resolve="EnumCheckbox_Selectable" />
     </node>
   </node>
@@ -124,9 +121,9 @@
     </node>
     <node concept="1TJgyj" id="1QyV25GKFJS" role="1TKVEi">
       <property role="IQ2ns" value="2135528801629813752" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="icons" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1QyV25GKFJC" resolve="Icon" />
     </node>
   </node>

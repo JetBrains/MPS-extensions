@@ -50,7 +50,7 @@
     <property role="EcuMT" value="492440529738339434" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="rlw0Q03LhF" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="child" />
       <property role="IQ2ns" value="492440529738339435" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />

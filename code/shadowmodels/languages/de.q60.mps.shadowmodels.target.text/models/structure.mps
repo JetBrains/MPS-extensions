@@ -2,7 +2,7 @@
 <model ref="r:2b841f9e-64f6-48c4-8c54-2ee495cb0445(de.q60.mps.shadowmodels.target.text.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -51,9 +51,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="TC$M5wRTmd" role="1TKVEi">
       <property role="IQ2ns" value="1038241485677368717" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TC$M5wRTlk" resolve="ITextElement" />
     </node>
     <node concept="PrWs8" id="TC$M5wRTml" role="PzmwI">
@@ -87,9 +87,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="TC$M5wSrql" role="1TKVEi">
       <property role="IQ2ns" value="1038241485677508245" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TC$M5wRTlk" resolve="ITextElement" />
     </node>
     <node concept="PrWs8" id="TC$M5wUo0s" role="PzmwI">
@@ -106,9 +106,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="TC$M5wS6tK" role="1TKVEi">
       <property role="IQ2ns" value="1038241485677422448" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TC$M5wRTlk" resolve="ITextElement" />
     </node>
     <node concept="PrWs8" id="TC$M5wRZui" role="PzmwI">
@@ -122,9 +122,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="TC$M5wRTmz" role="1TKVEi">
       <property role="IQ2ns" value="1038241485677368739" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TC$M5wRTmo" resolve="IFolderContent" />
     </node>
     <node concept="PrWs8" id="TC$M5wRTmx" role="PzmwI">
@@ -151,9 +151,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="TC$M5wV15C" role="1TKVEi">
       <property role="IQ2ns" value="1038241485678186856" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TC$M5wRTlk" resolve="ITextElement" />
     </node>
     <node concept="PrWs8" id="TC$M5wV15E" role="PzmwI">
@@ -166,9 +166,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6uZS9ZnEN9m" role="1TKVEi">
       <property role="IQ2ns" value="7475940883581055574" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TC$M5wRTlk" resolve="ITextElement" />
     </node>
     <node concept="PrWs8" id="6uZS9ZnEN9k" role="PzmwI">

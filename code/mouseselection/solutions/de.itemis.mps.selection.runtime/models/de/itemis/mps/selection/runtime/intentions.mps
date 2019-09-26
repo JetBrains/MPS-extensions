@@ -22,7 +22,7 @@
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="yyf4" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.util(MPS.OpenAPI/)" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1134,6 +1134,33 @@
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="showPopup" />
       <node concept="3clFbS" id="630t2b8ddPu" role="3clF47">
+        <node concept="3cpWs8" id="UA8EIkq9MR" role="3cqZAp">
+          <node concept="3cpWsn" id="UA8EIkq9MS" role="3cpWs9">
+            <property role="TrG5h" value="repo" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="UA8EIkq9LP" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+            </node>
+            <node concept="2OqwBi" id="UA8EIkq9MT" role="33vP2m">
+              <node concept="2OqwBi" id="UA8EIkq9MU" role="2Oq$k0">
+                <node concept="2OqwBi" id="UA8EIkq9MV" role="2Oq$k0">
+                  <node concept="37vLTw" id="UA8EIkq9MW" role="2Oq$k0">
+                    <ref role="3cqZAo" node="630t2b8deGG" resolve="selection" />
+                  </node>
+                  <node concept="liA8E" id="UA8EIkq9MX" role="2OqNvi">
+                    <ref role="37wK5l" to="lwvz:~Selection.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="UA8EIkq9MY" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="UA8EIkq9MZ" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="5FAfkXhQJYy" role="3cqZAp">
           <node concept="3cpWsn" id="5FAfkXhQJYz" role="3cpWs9">
             <property role="TrG5h" value="popup" />
@@ -1193,6 +1220,9 @@
                                   </node>
                                 </node>
                               </node>
+                            </node>
+                            <node concept="37vLTw" id="UA8EIkqaIP" role="ukAjM">
+                              <ref role="3cqZAo" node="UA8EIkq9MS" resolve="repo" />
                             </node>
                           </node>
                           <node concept="3clFbF" id="630t2b8dgk0" role="3cqZAp">

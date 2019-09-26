@@ -36896,6 +36896,24 @@
                   </node>
                 </node>
               </node>
+              <node concept="2OqwBi" id="UA8EIkq1Qs" role="ukAjM">
+                <node concept="2OqwBi" id="UA8EIkq1br" role="2Oq$k0">
+                  <node concept="2OqwBi" id="UA8EIkq0BO" role="2Oq$k0">
+                    <node concept="37vLTw" id="UA8EIkq07V" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7MH10IURH7s" resolve="myGraph" />
+                    </node>
+                    <node concept="liA8E" id="UA8EIkq13Z" role="2OqNvi">
+                      <ref role="37wK5l" to="r3rm:zdi$i4F31o" resolve="getRootDiagramModel" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="UA8EIkq1CW" role="2OqNvi">
+                    <ref role="37wK5l" node="6HH$p8MLgcb" resolve="getEditorContext" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="UA8EIkq2tq" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
             </node>
             <node concept="3clFbH" id="1spXWKqm6Zw" role="3cqZAp" />
             <node concept="3SKdUt" id="1spXWKqmanU" role="3cqZAp">
@@ -37548,6 +37566,24 @@
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="UA8EIkq4JD" role="ukAjM">
+                <node concept="2OqwBi" id="UA8EIkq4dl" role="2Oq$k0">
+                  <node concept="2OqwBi" id="UA8EIkq3NT" role="2Oq$k0">
+                    <node concept="37vLTw" id="UA8EIkq3BH" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7MH10IURH7s" resolve="myGraph" />
+                    </node>
+                    <node concept="liA8E" id="UA8EIkq41h" role="2OqNvi">
+                      <ref role="37wK5l" to="r3rm:zdi$i4F31o" resolve="getRootDiagramModel" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="UA8EIkq4yD" role="2OqNvi">
+                    <ref role="37wK5l" node="6HH$p8MLgcb" resolve="getEditorContext" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="UA8EIkq54B" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                 </node>
               </node>
             </node>

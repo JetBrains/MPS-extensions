@@ -213,6 +213,7 @@
     <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
       <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
       <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
         <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
       </concept>
       <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
@@ -2301,6 +2302,7 @@
       <node concept="3cpWs8" id="l6SLw4he_0" role="3cqZAp">
         <node concept="3cpWsn" id="l6SLw4he_1" role="3cpWs9">
           <property role="TrG5h" value="component" />
+          <property role="3TUv4t" value="true" />
           <node concept="3uibUv" id="l6SLw4he_2" role="1tU5fm">
             <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
           </node>
@@ -2619,6 +2621,19 @@
                             </node>
                           </node>
                         </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="UA8EIkqwvm" role="ukAjM">
+                      <node concept="2OqwBi" id="UA8EIkqezQ" role="2Oq$k0">
+                        <node concept="37vLTw" id="UA8EIkqdZc" role="2Oq$k0">
+                          <ref role="3cqZAo" node="l6SLw4he_1" resolve="component" />
+                        </node>
+                        <node concept="liA8E" id="UA8EIkqwhE" role="2OqNvi">
+                          <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="UA8EIkqwP9" role="2OqNvi">
+                        <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
                       </node>
                     </node>
                   </node>
@@ -2950,6 +2965,19 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="UA8EIkqwSq" role="ukAjM">
+              <node concept="2OqwBi" id="UA8EIkqwSr" role="2Oq$k0">
+                <node concept="37vLTw" id="UA8EIkqwSs" role="2Oq$k0">
+                  <ref role="3cqZAo" node="l6SLw4he_1" resolve="component" />
+                </node>
+                <node concept="liA8E" id="UA8EIkqwSt" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                </node>
+              </node>
+              <node concept="liA8E" id="UA8EIkqwSu" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
               </node>
             </node>
           </node>

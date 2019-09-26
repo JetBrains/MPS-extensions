@@ -737,9 +737,13 @@
               <node concept="1rXfSq" id="78AnKv6dvcH" role="37wK5m">
                 <ref role="37wK5l" to="g51k:~EditorCell_Basic.getSNode()" resolve="getSNode" />
               </node>
-              <node concept="2YIFZM" id="78AnKv6dvjk" role="37wK5m">
-                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+              <node concept="2OqwBi" id="UA8EIkrdZ8" role="37wK5m">
+                <node concept="1rXfSq" id="UA8EIkrdZ9" role="2Oq$k0">
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getContext()" resolve="getContext" />
+                </node>
+                <node concept="liA8E" id="UA8EIkrdZa" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                </node>
               </node>
             </node>
           </node>

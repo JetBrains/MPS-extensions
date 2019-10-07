@@ -2,7 +2,7 @@
 <model ref="r:4f63c6b6-b076-460d-bb12-3a773fb193b2(de.q60.mps.virtualinterfaces.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -405,7 +405,7 @@
         <node concept="VPxyj" id="5I2DPFvSnNw" role="3F10Kt" />
         <node concept="VPM3Z" id="5I2DPFvSovJ" role="3F10Kt" />
         <node concept="VechU" id="5I2DPFvS$i2" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
       <node concept="3F0ifn" id="5I2DPFvRKsc" role="3EZMnx">

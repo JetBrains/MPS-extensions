@@ -1,6 +1,6 @@
 # JetBrains MPS Text Generator Plugin
 
-This plugin is an alternative text generator for MPS, using the standard model to model generation mechanisms (node macros, loop macros, property macros, etc.) to generate plain text, as opposed to MPS's programmatical textgens.
+This extension is an alternative text generator for MPS, using the standard model to model generation mechanisms (node macros, loop macros, property macros, etc.) to generate plain text, as opposed to MPS's programmatical textgens.
 
 It allows you to:
 * generate directly to plain text without modeling your generation target language
@@ -42,11 +42,3 @@ For example: You generate from your DSL directly to VHDL, but VHDL has not yet b
 
 Additionally, because text is now also an MPS model, all standard generator mechanisms (including reductions and generator priorities) apply. This is not the case for the default textgens, which are only triggered after all model to model transformations are complete.
 Also, this approach enables you to implement the textgen as a language extension (and therefore define multiple textgens for the same concept).
-
-Build instructions
-------------------
-To run the build, you need `ant`.
-The build is run by performing the following command on the command line:
-```
-ant -Dmps_home=<your MPS install directory> clean generate assemble
-```

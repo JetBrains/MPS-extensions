@@ -10,6 +10,7 @@
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="jwvb" ref="r:23ae1252-8737-4390-a684-2a013001dae4(de.q60.mps.shadowmodels.repository.transformations)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="prps" ref="r:1349fda1-905b-4e8f-847a-6db91f972f07(de.q60.mps.shadowmodels.examples.blext.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -1822,14 +1823,68 @@
                         <ref role="027rv" to="tpee:fzcqZ_x" resolve="statement" />
                         <node concept="027og" id="3CcyxRChw0l" role="027rp">
                           <ref role="02LMe" to="tpee:5vlcUuJ5uOU" resolve="SingleLineComment" />
-                          <node concept="027rt" id="3CcyxRChw0w" role="02LM9">
-                            <ref role="027rv" to="tpee:5vlcUuJ5JXN" resolve="commentPart" />
-                            <node concept="027og" id="3CcyxRChw0T" role="027rp">
-                              <ref role="02LMe" to="tpee:5vlcUuJ5uOX" resolve="TextCommentPart" />
-                              <node concept="027oh" id="3CcyxRChw14" role="02LM9">
-                                <ref role="027oj" to="tpee:5vlcUuJ5uOY" resolve="text" />
-                                <node concept="Xl_RD" id="3CcyxRChw1j" role="027of">
-                                  <property role="Xl_RC" value="For testing multi stage subgraphs" />
+                          <node concept="027rt" id="2mXJ07HVrWg" role="02LM9">
+                            <ref role="027rv" to="tpee:1aWAmJ5y2W$" resolve="text" />
+                            <node concept="027og" id="2mXJ07HVrWO" role="027rp">
+                              <ref role="02LMe" to="zqge:2cLqkTm6J5A" resolve="Line" />
+                              <node concept="027rt" id="2mXJ07HVsAS" role="02LM9">
+                                <ref role="027rv" to="zqge:2cLqkTm6J5B" resolve="elements" />
+                                <node concept="027og" id="2mXJ07HVsB0" role="027rp">
+                                  <ref role="02LMe" to="zqge:8D0iRqSPW4" resolve="Word" />
+                                  <node concept="027oh" id="2mXJ07HVsBn" role="02LM9">
+                                    <ref role="027oj" to="zqge:8D0iRqSPW5" resolve="value" />
+                                    <node concept="Xl_RD" id="2mXJ07HVsB$" role="027of">
+                                      <property role="Xl_RC" value="For" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="027rt" id="2mXJ07HVsCb" role="02LM9">
+                                <ref role="027rv" to="zqge:2cLqkTm6J5B" resolve="elements" />
+                                <node concept="027og" id="2mXJ07HVsCn" role="027rp">
+                                  <ref role="02LMe" to="zqge:8D0iRqSPW4" resolve="Word" />
+                                  <node concept="027oh" id="2mXJ07HVsCt" role="02LM9">
+                                    <ref role="027oj" to="zqge:8D0iRqSPW5" resolve="value" />
+                                    <node concept="Xl_RD" id="2mXJ07HVsCE" role="027of">
+                                      <property role="Xl_RC" value="testing" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="027rt" id="2mXJ07HVsCS" role="02LM9">
+                                <ref role="027rv" to="zqge:2cLqkTm6J5B" resolve="elements" />
+                                <node concept="027og" id="2mXJ07HVsCT" role="027rp">
+                                  <ref role="02LMe" to="zqge:8D0iRqSPW4" resolve="Word" />
+                                  <node concept="027oh" id="2mXJ07HVsCU" role="02LM9">
+                                    <ref role="027oj" to="zqge:8D0iRqSPW5" resolve="value" />
+                                    <node concept="Xl_RD" id="2mXJ07HVsCV" role="027of">
+                                      <property role="Xl_RC" value="multi" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="027rt" id="2mXJ07HVsDn" role="02LM9">
+                                <ref role="027rv" to="zqge:2cLqkTm6J5B" resolve="elements" />
+                                <node concept="027og" id="2mXJ07HVsDo" role="027rp">
+                                  <ref role="02LMe" to="zqge:8D0iRqSPW4" resolve="Word" />
+                                  <node concept="027oh" id="2mXJ07HVsDp" role="02LM9">
+                                    <ref role="027oj" to="zqge:8D0iRqSPW5" resolve="value" />
+                                    <node concept="Xl_RD" id="2mXJ07HVsDq" role="027of">
+                                      <property role="Xl_RC" value="stage" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="027rt" id="2mXJ07HVsE0" role="02LM9">
+                                <ref role="027rv" to="zqge:2cLqkTm6J5B" resolve="elements" />
+                                <node concept="027og" id="2mXJ07HVsE1" role="027rp">
+                                  <ref role="02LMe" to="zqge:8D0iRqSPW4" resolve="Word" />
+                                  <node concept="027oh" id="2mXJ07HVsE2" role="02LM9">
+                                    <ref role="027oj" to="zqge:8D0iRqSPW5" resolve="value" />
+                                    <node concept="Xl_RD" id="2mXJ07HVsE3" role="027of">
+                                      <property role="Xl_RC" value="subgraphs" />
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>

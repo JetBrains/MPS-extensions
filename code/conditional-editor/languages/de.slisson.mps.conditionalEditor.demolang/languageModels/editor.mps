@@ -4,8 +4,8 @@
   <attribute name="concise" value="true" />
   <languages>
     <use id="b8bb702e-43ed-4090-a902-d180d3e5f292" name="de.slisson.mps.conditionalEditor" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -258,7 +258,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="VechU" id="7klUZA6XnLn" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
       <node concept="1HlG4h" id="7klUZA6VU9L" role="3EZMnx">
@@ -296,7 +296,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="VechU" id="7klUZA6XnLD" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
       <node concept="Rtstu" id="7klUZA6VUpt" role="3EZMnx" />
@@ -363,7 +363,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="VechU" id="7klUZA70mLn" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
       <node concept="2iRkQZ" id="7klUZA6YEsD" role="2iSdaV" />
@@ -399,7 +399,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="VechU" id="6eakByRhY7I" role="3F10Kt">
-          <property role="Vb096" value="lightGray" />
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
       <node concept="2iRkQZ" id="6eakByRhY1D" role="2iSdaV" />

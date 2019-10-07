@@ -2,7 +2,7 @@
 <model ref="r:558acfc6-1a50-4cc1-9a5a-49bfe9543be0(de.q60.mps.shadowmodels.transformation.intentions)">
   <persistence version="9" />
   <languages>
-    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -93,9 +93,7 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045827" name="initValue" index="28nt2d" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -307,7 +305,7 @@
                             <ref role="2pJxaS" to="oyp0:6ndA7L_LuTH" resolve="PropertyBuilder" />
                             <node concept="2pIpSj" id="52uYHestMBA" role="2pJxcM">
                               <ref role="2pIpSl" to="oyp0:6ndA7L_LuTJ" resolve="property" />
-                              <node concept="36biLy" id="52uYHestMIJ" role="2pJxcZ">
+                              <node concept="36biLy" id="52uYHestMIJ" role="28nt2d">
                                 <node concept="37vLTw" id="52uYHestMNO" role="36biLW">
                                   <ref role="3cqZAo" node="52uYHestJtN" resolve="it" />
                                 </node>
@@ -315,21 +313,21 @@
                             </node>
                             <node concept="2pIpSj" id="52uYHestK4x" role="2pJxcM">
                               <ref role="2pIpSl" to="oyp0:6ndA7L_LuTN" resolve="value" />
-                              <node concept="2pJPED" id="52uYHestKUG" role="2pJxcZ">
+                              <node concept="2pJPED" id="52uYHestKUG" role="28nt2d">
                                 <ref role="2pJxaS" to="tpee:hqOqwz4" resolve="DotExpression" />
                                 <node concept="2pIpSj" id="52uYHestL6o" role="2pJxcM">
                                   <ref role="2pIpSl" to="tpee:hqOq$gm" resolve="operand" />
-                                  <node concept="2pJPED" id="52uYHestLoP" role="2pJxcZ">
+                                  <node concept="2pJPED" id="52uYHestLoP" role="28nt2d">
                                     <ref role="2pJxaS" to="oyp0:7X4ppfYluhP" resolve="ContextNodeExpression" />
                                   </node>
                                 </node>
                                 <node concept="2pIpSj" id="52uYHestLAv" role="2pJxcM">
                                   <ref role="2pIpSl" to="tpee:hqOqNr4" resolve="operation" />
-                                  <node concept="2pJPED" id="52uYHestLJn" role="2pJxcZ">
+                                  <node concept="2pJPED" id="52uYHestLJn" role="28nt2d">
                                     <ref role="2pJxaS" to="tp25:gzTrcDJ" resolve="SPropertyAccess" />
                                     <node concept="2pIpSj" id="52uYHestLV5" role="2pJxcM">
                                       <ref role="2pIpSl" to="tp25:gzTsBJd" resolve="property" />
-                                      <node concept="36biLy" id="52uYHestM21" role="2pJxcZ">
+                                      <node concept="36biLy" id="52uYHestM21" role="28nt2d">
                                         <node concept="37vLTw" id="52uYHestM6Z" role="36biLW">
                                           <ref role="3cqZAo" node="52uYHestJtN" resolve="it" />
                                         </node>

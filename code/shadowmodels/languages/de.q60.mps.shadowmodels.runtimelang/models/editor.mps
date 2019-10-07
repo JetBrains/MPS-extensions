@@ -2,7 +2,7 @@
 <model ref="r:cac4dbd2-18c0-4e2a-9dfb-18878a9838a1(de.q60.mps.shadowmodels.runtimelang.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -130,10 +130,10 @@
       <ref role="1NtTu8" to="dj5d:7pvOHdLgGRC" resolve="message" />
       <ref role="1ERwB7" node="7pvOHdLiokc" resolve="am_ErrorPlaceholder" />
       <node concept="Veino" id="7pvOHdLgGRR" role="3F10Kt">
-        <property role="Vb096" value="red" />
+        <property role="Vb096" value="fLwANPn/red" />
       </node>
       <node concept="VechU" id="7pvOHdLieAb" role="3F10Kt">
-        <property role="Vb096" value="yellow" />
+        <property role="Vb096" value="fLwANPq/yellow" />
       </node>
     </node>
   </node>
@@ -141,7 +141,7 @@
     <property role="TrG5h" value="am_ErrorPlaceholder" />
     <ref role="1h_SK9" to="dj5d:7pvOHdLgGRB" resolve="ErrorPlaceholder" />
     <node concept="1hA7zw" id="7pvOHdLiokd" role="1h_SK8">
-      <property role="1hAc7j" value="click_action_id" />
+      <property role="1hAc7j" value="1FSxSwWqMNJ/click_action_id" />
       <node concept="1hAIg9" id="7pvOHdLioke" role="1hA7z_">
         <node concept="3clFbS" id="7pvOHdLiokf" role="2VODD2">
           <node concept="3cpWs8" id="7pvOHdLiOyh" role="3cqZAp">

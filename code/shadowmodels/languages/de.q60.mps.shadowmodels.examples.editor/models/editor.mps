@@ -2,7 +2,7 @@
 <model ref="r:47dc6cda-434b-4d5e-afbf-1c617503975c(de.q60.mps.shadowmodels.examples.editor.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -244,7 +244,7 @@
                     <node concept="2OqwBi" id="7NatPTM2Yqn" role="33vP2m">
                       <node concept="2YIFZM" id="7NatPTM2Yqo" role="2Oq$k0">
                         <ref role="37wK5l" to="yyp8:7NatPTM0nC_" resolve="getUpdater" />
-                        <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
+                        <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                         <node concept="2OqwBi" id="7NatPTM2Yqp" role="37wK5m">
                           <node concept="1Q80Hx" id="7NatPTM2Yqq" role="2Oq$k0" />
                           <node concept="liA8E" id="7NatPTM2Yqr" role="2OqNvi">
@@ -475,7 +475,7 @@
                     <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">
                       <node concept="2YIFZM" id="3CYlK6ygJ0q" role="2Oq$k0">
                         <ref role="37wK5l" to="yyp8:7NatPTM0nC_" resolve="getUpdater" />
-                        <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="UpdaterForEditor" />
+                        <ref role="1Pybhc" to="yyp8:7NatPTLZR6M" resolve="TransformationEngineForEditor" />
                         <node concept="2OqwBi" id="3CYlK6ygJ0r" role="37wK5m">
                           <node concept="1Q80Hx" id="3CYlK6ygJ0s" role="2Oq$k0" />
                           <node concept="liA8E" id="3CYlK6ygJ0t" role="2OqNvi">

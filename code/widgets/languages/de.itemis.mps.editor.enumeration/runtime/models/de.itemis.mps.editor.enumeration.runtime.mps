@@ -2,8 +2,8 @@
 <model ref="r:8efaf1cb-bed1-4451-aa1a-8289f218b553(de.itemis.mps.editor.enumeration.runtime)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
@@ -714,9 +714,13 @@
               <node concept="1rXfSq" id="78AnKv6dvcH" role="37wK5m">
                 <ref role="37wK5l" to="g51k:~EditorCell_Basic.getSNode()" resolve="getSNode" />
               </node>
-              <node concept="2YIFZM" id="78AnKv6dvjk" role="37wK5m">
-                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+              <node concept="2OqwBi" id="UA8EIkrhnV" role="37wK5m">
+                <node concept="1rXfSq" id="UA8EIkrhnW" role="2Oq$k0">
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getContext()" resolve="getContext" />
+                </node>
+                <node concept="liA8E" id="UA8EIkrhnX" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                </node>
               </node>
             </node>
           </node>
@@ -2767,7 +2771,7 @@
               <node concept="TDmWw" id="HtNrEHBcIA" role="TEbGg">
                 <node concept="3clFbS" id="HtNrEHBcID" role="TDEfX">
                   <node concept="RRSsy" id="HtNrEHAY8_" role="3cqZAp">
-                    <property role="RRSoG" value="error" />
+                    <property role="RRSoG" value="gZ5fh_4/error" />
                     <node concept="Xl_RD" id="HtNrEHAY8B" role="RRSoy">
                       <property role="Xl_RC" value="Failed to load enum checkbox image" />
                     </node>

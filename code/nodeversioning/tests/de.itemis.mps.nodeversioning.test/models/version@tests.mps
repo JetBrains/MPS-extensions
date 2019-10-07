@@ -2,7 +2,7 @@
 <model ref="r:eb14c4b2-655e-48b1-89f5-73990288505b(de.itemis.mps.nodeversioning.test.version@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="93b43956-3552-4a1d-bf2a-f4d377edbed6" name="de.itemis.mps.nodeversioning" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />

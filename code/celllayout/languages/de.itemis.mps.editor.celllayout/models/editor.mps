@@ -2,7 +2,7 @@
 <model ref="r:23d4f4b2-26c2-403d-be1f-e68afa5e7ef9(de.itemis.mps.editor.celllayout.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -154,7 +154,6 @@
     <ref role="1XX52x" to="pvux:2nutuZsJ_4q" resolve="IntegerStyle" />
     <node concept="3EZMnI" id="hgVSUvi" role="2wV5jI">
       <node concept="PMmxH" id="2wdLO7KhY9q" role="3EZMnx">
-        <property role="1cu_pB" value="0" />
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" to="tpc5:hoxUe05" resolve="item" />
         <node concept="OXEIz" id="2wdLO7KhY9r" role="P5bDN">
@@ -206,7 +205,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="hLd8kdq" role="3EZMnx">
-        <property role="1cu_pB" value="3" />
+        <property role="1cu_pB" value="hQNNVxO/attractsRecursively" />
         <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="pvux:hLd8cI8" resolve="query" />
         <node concept="3EZMnI" id="7VkeY3lFk_V" role="2ruayu">
@@ -234,7 +233,7 @@
       </node>
       <node concept="3F0ifn" id="hF4Bju5" role="3EZMnx">
         <node concept="Vb9p2" id="hN2HAca" role="3F10Kt">
-          <property role="Vbekb" value="BOLD" />
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
         </node>
       </node>
       <node concept="3F0ifn" id="fIxjeVz" role="3EZMnx">
@@ -260,7 +259,6 @@
     <ref role="1XX52x" to="pvux:43ViAfTtx6N" resolve="StringStyle" />
     <node concept="3EZMnI" id="hZmYNTi" role="2wV5jI">
       <node concept="PMmxH" id="2wdLO7KhYd6" role="3EZMnx">
-        <property role="1cu_pB" value="0" />
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" to="tpc5:hoxUe05" resolve="item" />
       </node>
@@ -403,7 +401,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="hZxMoiR" role="3EZMnx">
-        <property role="1cu_pB" value="3" />
+        <property role="1cu_pB" value="hQNNVxO/attractsRecursively" />
         <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="pvux:hZxKXiv" resolve="query" />
         <node concept="pkWqt" id="43ViAfTubf6" role="pqm2j">
@@ -429,7 +427,6 @@
     <ref role="1XX52x" to="pvux:43ViAfTtIpJ" resolve="FontFamilyStyle" />
     <node concept="3EZMnI" id="641A4deYuac" role="2wV5jI">
       <node concept="PMmxH" id="641A4deYuad" role="3EZMnx">
-        <property role="1cu_pB" value="0" />
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" to="tpc5:hoxUe05" resolve="item" />
       </node>
@@ -615,7 +612,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="641A4deYubg" role="3EZMnx">
-        <property role="1cu_pB" value="3" />
+        <property role="1cu_pB" value="hQNNVxO/attractsRecursively" />
         <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="pvux:hZxKXiv" resolve="query" />
         <node concept="pkWqt" id="641A4deYubh" role="pqm2j">
@@ -649,7 +646,7 @@
       </node>
       <node concept="3F0ifn" id="7d0q5VH9fh3" role="3EZMnx">
         <node concept="Vb9p2" id="7d0q5VH9fh4" role="3F10Kt">
-          <property role="Vbekb" value="BOLD" />
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
         </node>
       </node>
       <node concept="3F0ifn" id="7d0q5VH9fh5" role="3EZMnx">

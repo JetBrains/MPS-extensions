@@ -2,7 +2,7 @@
 <model ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1139,13 +1139,21 @@
           <node concept="3cpWsn" id="4wJBxozLoZy" role="3cpWs9">
             <property role="TrG5h" value="headless" />
             <node concept="10P_77" id="4wJBxozLoZw" role="1tU5fm" />
-            <node concept="2OqwBi" id="4wJBxozLoZz" role="33vP2m">
-              <node concept="2YIFZM" id="4wJBxozLoZ$" role="2Oq$k0">
-                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+            <node concept="1Wc70l" id="6LjCc5n11vb" role="33vP2m">
+              <node concept="3fqX7Q" id="6LjCc5n11yI" role="3uHU7w">
+                <node concept="2YIFZM" id="6LjCc5n11Dd" role="3fr31v">
+                  <ref role="37wK5l" to="fyhk:~RuntimeFlags.isTestMode()" resolve="isTestMode" />
+                  <ref role="1Pybhc" to="fyhk:~RuntimeFlags" resolve="RuntimeFlags" />
+                </node>
               </node>
-              <node concept="liA8E" id="4wJBxozLoZ_" role="2OqNvi">
-                <ref role="37wK5l" to="bd8o:~Application.isHeadlessEnvironment()" resolve="isHeadlessEnvironment" />
+              <node concept="2OqwBi" id="4wJBxozLoZz" role="3uHU7B">
+                <node concept="2YIFZM" id="4wJBxozLoZ$" role="2Oq$k0">
+                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+                </node>
+                <node concept="liA8E" id="4wJBxozLoZ_" role="2OqNvi">
+                  <ref role="37wK5l" to="bd8o:~Application.isHeadlessEnvironment()" resolve="isHeadlessEnvironment" />
+                </node>
               </node>
             </node>
           </node>

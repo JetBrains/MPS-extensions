@@ -125,9 +125,7 @@
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157993911077" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitProperty" flags="ng" index="2pJxcG">
         <reference id="5455284157993911078" name="property" index="2pJxcJ" />
-      </concept>
-      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
-        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+        <child id="1595412875168045201" name="initValue" index="28ntcv" />
       </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
@@ -704,7 +702,7 @@
                 <ref role="2pJxaS" to="tpee:fzclF81" resolve="BooleanConstant" />
                 <node concept="2pJxcG" id="2$PstQMrOwY" role="2pJxcM">
                   <ref role="2pJxcJ" to="tpee:fzclF82" resolve="value" />
-                  <node concept="3fqX7Q" id="2$PstQMrOxj" role="2pJxcZ">
+                  <node concept="3fqX7Q" id="2$PstQMrOxj" role="28ntcv">
                     <node concept="2OqwBi" id="2$PstQMrOE1" role="3fr31v">
                       <node concept="37vLTw" id="2$PstQMrOxp" role="2Oq$k0">
                         <ref role="3cqZAo" node="2$PstQMrDPQ" resolve="inner" />
@@ -916,7 +914,7 @@
               <ref role="2pJxaS" to="tpee:fzcmrck" resolve="IntegerConstant" />
               <node concept="2pJxcG" id="1KLm$DhUQoD" role="2pJxcM">
                 <ref role="2pJxcJ" to="tpee:fzcmrcl" resolve="value" />
-                <node concept="37vLTw" id="1KLm$DhUQoE" role="2pJxcZ">
+                <node concept="37vLTw" id="1KLm$DhUQoE" role="28ntcv">
                   <ref role="3cqZAo" node="1KLm$DhUQot" resolve="resultValue" />
                 </node>
               </node>
@@ -984,8 +982,8 @@
               <ref role="2pJxaS" to="tpee:4_5hYVHKxAT" resolve="FloatingPointFloatConstant" />
               <node concept="2pJxcG" id="1KLm$DhWItg" role="2pJxcM">
                 <ref role="2pJxcJ" to="tpee:4_5hYVHKxAV" resolve="value" />
-                <node concept="2YIFZM" id="1KLm$DhWMkr" role="2pJxcZ">
-                  <ref role="37wK5l" to="wyt6:~Double.toString(double):java.lang.String" resolve="toString" />
+                <node concept="2YIFZM" id="1KLm$DhWMkr" role="28ntcv">
+                  <ref role="37wK5l" to="wyt6:~Double.toString(double)" resolve="toString" />
                   <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                   <node concept="37vLTw" id="1KLm$DhWMoL" role="37wK5m">
                     <ref role="3cqZAo" node="1KLm$DhWIt4" resolve="resultValue" />
@@ -1052,8 +1050,8 @@
               <ref role="2pJxaS" to="tpee:4_5hYVHKxAT" resolve="FloatingPointFloatConstant" />
               <node concept="2pJxcG" id="1KLm$DhWNxe" role="2pJxcM">
                 <ref role="2pJxcJ" to="tpee:4_5hYVHKxAV" resolve="value" />
-                <node concept="2YIFZM" id="1KLm$DhWNxf" role="2pJxcZ">
-                  <ref role="37wK5l" to="wyt6:~Double.toString(double):java.lang.String" resolve="toString" />
+                <node concept="2YIFZM" id="1KLm$DhWNxf" role="28ntcv">
+                  <ref role="37wK5l" to="wyt6:~Double.toString(double)" resolve="toString" />
                   <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                   <node concept="37vLTw" id="1KLm$DhWNxg" role="37wK5m">
                     <ref role="3cqZAo" node="1KLm$DhWNx0" resolve="resultValue" />
@@ -1120,8 +1118,8 @@
               <ref role="2pJxaS" to="tpee:4_5hYVHKxAT" resolve="FloatingPointFloatConstant" />
               <node concept="2pJxcG" id="1KLm$DhWPu$" role="2pJxcM">
                 <ref role="2pJxcJ" to="tpee:4_5hYVHKxAV" resolve="value" />
-                <node concept="2YIFZM" id="1KLm$DhWPu_" role="2pJxcZ">
-                  <ref role="37wK5l" to="wyt6:~Double.toString(double):java.lang.String" resolve="toString" />
+                <node concept="2YIFZM" id="1KLm$DhWPu_" role="28ntcv">
+                  <ref role="37wK5l" to="wyt6:~Double.toString(double)" resolve="toString" />
                   <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                   <node concept="37vLTw" id="1KLm$DhWPuA" role="37wK5m">
                     <ref role="3cqZAo" node="1KLm$DhWPun" resolve="resultValue" />
@@ -1193,8 +1191,8 @@
               <ref role="2pJxaS" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
               <node concept="2pJxcG" id="1KLm$DhXoIF" role="2pJxcM">
                 <ref role="2pJxcJ" to="tpee:gc$nh$Z" resolve="value" />
-                <node concept="2YIFZM" id="1KLm$DhXoIG" role="2pJxcZ">
-                  <ref role="37wK5l" to="wyt6:~Double.toString(double):java.lang.String" resolve="toString" />
+                <node concept="2YIFZM" id="1KLm$DhXoIG" role="28ntcv">
+                  <ref role="37wK5l" to="wyt6:~Double.toString(double)" resolve="toString" />
                   <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                   <node concept="37vLTw" id="1KLm$DhXoIH" role="37wK5m">
                     <ref role="3cqZAo" node="1KLm$DhXoIt" resolve="resultValue" />
@@ -1233,7 +1231,7 @@
               <ref role="2pJxaS" to="tpee:fzclF81" resolve="BooleanConstant" />
               <node concept="2pJxcG" id="2$PstQMr9tU" role="2pJxcM">
                 <ref role="2pJxcJ" to="tpee:fzclF82" resolve="value" />
-                <node concept="22lmx$" id="2$PstQMqtbf" role="2pJxcZ">
+                <node concept="22lmx$" id="2$PstQMqtbf" role="28ntcv">
                   <node concept="2OqwBi" id="2$PstQMqtbg" role="3uHU7w">
                     <node concept="3kvyP4" id="2$PstQMqtbh" role="2Oq$k0">
                       <ref role="3kvyN1" node="2$PstQMqqLE" resolve="rightValue" />
@@ -1284,7 +1282,7 @@
               <ref role="2pJxaS" to="tpee:fzclF81" resolve="BooleanConstant" />
               <node concept="2pJxcG" id="2$PstQMr9zm" role="2pJxcM">
                 <ref role="2pJxcJ" to="tpee:fzclF82" resolve="value" />
-                <node concept="1Wc70l" id="2$PstQMr9AC" role="2pJxcZ">
+                <node concept="1Wc70l" id="2$PstQMr9AC" role="28ntcv">
                   <node concept="2OqwBi" id="2$PstQMr9zr" role="3uHU7B">
                     <node concept="3kvyP4" id="2$PstQMr9zs" role="2Oq$k0">
                       <ref role="3kvyN1" node="2$PstQMqtgy" resolve="leftValue" />

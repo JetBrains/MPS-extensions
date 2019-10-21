@@ -2,10 +2,10 @@
 <model ref="r:45c19b6d-dd9a-4f15-973f-0267c5e76303(de.itemis.mps.editor.celllayout.runtime)">
   <persistence version="9" />
   <languages>
-    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
-    <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="0" />
-    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="-1" />
+    <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="-1" />
+    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -18391,32 +18391,28 @@
           <property role="TyiWK" value="true" />
           <property role="TyiWL" value="false" />
           <node concept="3clFbS" id="3VzM1am1os8" role="3clFbx">
-            <node concept="YS8fn" id="3VzM1am1pyk" role="3cqZAp">
-              <node concept="2ShNRf" id="3VzM1am1p$J" role="YScLw">
-                <node concept="1pGfFk" id="3VzM1am1q69" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="3VzM1am1r2c" role="37wK5m">
-                    <node concept="2OqwBi" id="3VzM1am1rpq" role="3uHU7w">
-                      <node concept="37vLTw" id="3VzM1am1rlA" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3VzM1am1ncv" resolve="minSize" />
-                      </node>
-                      <node concept="liA8E" id="3VzM1am1ru4" role="2OqNvi">
-                        <ref role="37wK5l" to="rtot:ZjQ6tpoDOy" resolve="getWidth" />
-                      </node>
+            <node concept="RRSsy" id="6PNE5xfr7tF" role="3cqZAp">
+              <property role="RRSoG" value="warn" />
+              <node concept="3cpWs3" id="6PNE5xfr7Fe" role="RRSoy">
+                <node concept="2OqwBi" id="6PNE5xfr7Ff" role="3uHU7w">
+                  <node concept="37vLTw" id="6PNE5xfr7Fg" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3VzM1am1ncv" resolve="minSize" />
+                  </node>
+                  <node concept="liA8E" id="6PNE5xfr7Fh" role="2OqNvi">
+                    <ref role="37wK5l" to="rtot:ZjQ6tpoDOy" resolve="getWidth" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="6PNE5xfr7Fi" role="3uHU7B">
+                  <node concept="3cpWs3" id="6PNE5xfr7Fj" role="3uHU7B">
+                    <node concept="Xl_RD" id="6PNE5xfr7Fk" role="3uHU7B">
+                      <property role="Xl_RC" value="Width set to " />
                     </node>
-                    <node concept="3cpWs3" id="3VzM1am1qzF" role="3uHU7B">
-                      <node concept="3cpWs3" id="3VzM1am1qdU" role="3uHU7B">
-                        <node concept="Xl_RD" id="3VzM1am1q8J" role="3uHU7B">
-                          <property role="Xl_RC" value="Cannot set width to " />
-                        </node>
-                        <node concept="37vLTw" id="3VzM1am1qh9" role="3uHU7w">
-                          <ref role="3cqZAo" node="3VzM1am0rgx" resolve="width" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="3VzM1am1q_N" role="3uHU7w">
-                        <property role="Xl_RC" value=". Minimum width is " />
-                      </node>
+                    <node concept="37vLTw" id="6PNE5xfr7Fl" role="3uHU7w">
+                      <ref role="3cqZAo" node="3VzM1am0rgx" resolve="width" />
                     </node>
+                  </node>
+                  <node concept="Xl_RD" id="6PNE5xfr7Fm" role="3uHU7w">
+                    <property role="Xl_RC" value=". Minimum width is " />
                   </node>
                 </node>
               </node>
@@ -18440,32 +18436,28 @@
           <property role="TyiWK" value="true" />
           <property role="TyiWL" value="false" />
           <node concept="3clFbS" id="3VzM1am1rAc" role="3clFbx">
-            <node concept="YS8fn" id="3VzM1am1rAd" role="3cqZAp">
-              <node concept="2ShNRf" id="3VzM1am1rAe" role="YScLw">
-                <node concept="1pGfFk" id="3VzM1am1rAf" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="3VzM1am1rAg" role="37wK5m">
-                    <node concept="2OqwBi" id="3VzM1am1rAh" role="3uHU7w">
-                      <node concept="37vLTw" id="3VzM1am1s$B" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3VzM1am1nFy" resolve="maxSize" />
-                      </node>
-                      <node concept="liA8E" id="3VzM1am1rAj" role="2OqNvi">
-                        <ref role="37wK5l" to="rtot:ZjQ6tpoDOy" resolve="getWidth" />
-                      </node>
+            <node concept="RRSsy" id="6PNE5xfqL7M" role="3cqZAp">
+              <property role="RRSoG" value="warn" />
+              <node concept="3cpWs3" id="6PNE5xfr8UJ" role="RRSoy">
+                <node concept="2OqwBi" id="6PNE5xfr8UK" role="3uHU7w">
+                  <node concept="37vLTw" id="6PNE5xfr8UL" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3VzM1am1nFy" resolve="maxSize" />
+                  </node>
+                  <node concept="liA8E" id="6PNE5xfr8UM" role="2OqNvi">
+                    <ref role="37wK5l" to="rtot:ZjQ6tpoDOy" resolve="getWidth" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="6PNE5xfr8UN" role="3uHU7B">
+                  <node concept="3cpWs3" id="6PNE5xfr8UO" role="3uHU7B">
+                    <node concept="Xl_RD" id="6PNE5xfr8UP" role="3uHU7B">
+                      <property role="Xl_RC" value="Width set to " />
                     </node>
-                    <node concept="3cpWs3" id="3VzM1am1rAk" role="3uHU7B">
-                      <node concept="3cpWs3" id="3VzM1am1rAl" role="3uHU7B">
-                        <node concept="Xl_RD" id="3VzM1am1rAm" role="3uHU7B">
-                          <property role="Xl_RC" value="Cannot set width to " />
-                        </node>
-                        <node concept="37vLTw" id="3VzM1am1rAn" role="3uHU7w">
-                          <ref role="3cqZAo" node="3VzM1am0rgx" resolve="width" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="3VzM1am1rAo" role="3uHU7w">
-                        <property role="Xl_RC" value=". Maximum width is " />
-                      </node>
+                    <node concept="37vLTw" id="6PNE5xfr8UQ" role="3uHU7w">
+                      <ref role="3cqZAo" node="3VzM1am0rgx" resolve="width" />
                     </node>
+                  </node>
+                  <node concept="Xl_RD" id="6PNE5xfr8UR" role="3uHU7w">
+                    <property role="Xl_RC" value=". Maximum width is " />
                   </node>
                 </node>
               </node>
@@ -18489,32 +18481,28 @@
           <property role="TyiWK" value="true" />
           <property role="TyiWL" value="false" />
           <node concept="3clFbS" id="3VzM1am1sA$" role="3clFbx">
-            <node concept="YS8fn" id="3VzM1am1sA_" role="3cqZAp">
-              <node concept="2ShNRf" id="3VzM1am1sAA" role="YScLw">
-                <node concept="1pGfFk" id="3VzM1am1sAB" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="3VzM1am1sAC" role="37wK5m">
-                    <node concept="2OqwBi" id="3VzM1am1sAD" role="3uHU7w">
-                      <node concept="37vLTw" id="3VzM1am1sAE" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3VzM1am1ncv" resolve="minSize" />
-                      </node>
-                      <node concept="liA8E" id="3VzM1am1sAF" role="2OqNvi">
-                        <ref role="37wK5l" to="rtot:ZjQ6tpoDOC" resolve="getHeight" />
-                      </node>
+            <node concept="RRSsy" id="6PNE5xfrai6" role="3cqZAp">
+              <property role="RRSoG" value="warn" />
+              <node concept="3cpWs3" id="6PNE5xfravj" role="RRSoy">
+                <node concept="2OqwBi" id="6PNE5xfravk" role="3uHU7w">
+                  <node concept="37vLTw" id="6PNE5xfravl" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3VzM1am1ncv" resolve="minSize" />
+                  </node>
+                  <node concept="liA8E" id="6PNE5xfravm" role="2OqNvi">
+                    <ref role="37wK5l" to="rtot:ZjQ6tpoDOC" resolve="getHeight" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="6PNE5xfravn" role="3uHU7B">
+                  <node concept="3cpWs3" id="6PNE5xfravo" role="3uHU7B">
+                    <node concept="Xl_RD" id="6PNE5xfravp" role="3uHU7B">
+                      <property role="Xl_RC" value="Height set to " />
                     </node>
-                    <node concept="3cpWs3" id="3VzM1am1sAG" role="3uHU7B">
-                      <node concept="3cpWs3" id="3VzM1am1sAH" role="3uHU7B">
-                        <node concept="Xl_RD" id="3VzM1am1sAI" role="3uHU7B">
-                          <property role="Xl_RC" value="Cannot set height to " />
-                        </node>
-                        <node concept="37vLTw" id="3VzM1am21ZF" role="3uHU7w">
-                          <ref role="3cqZAo" node="3VzM1am0rgz" resolve="height" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="3VzM1am1sAK" role="3uHU7w">
-                        <property role="Xl_RC" value=". Minimum height is " />
-                      </node>
+                    <node concept="37vLTw" id="6PNE5xfravq" role="3uHU7w">
+                      <ref role="3cqZAo" node="3VzM1am0rgz" resolve="height" />
                     </node>
+                  </node>
+                  <node concept="Xl_RD" id="6PNE5xfravr" role="3uHU7w">
+                    <property role="Xl_RC" value=". Minimum height is " />
                   </node>
                 </node>
               </node>
@@ -18538,32 +18526,28 @@
           <property role="TyiWK" value="true" />
           <property role="TyiWL" value="false" />
           <node concept="3clFbS" id="3VzM1am1sAh" role="3clFbx">
-            <node concept="YS8fn" id="3VzM1am1sAi" role="3cqZAp">
-              <node concept="2ShNRf" id="3VzM1am1sAj" role="YScLw">
-                <node concept="1pGfFk" id="3VzM1am1sAk" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="3VzM1am1sAl" role="37wK5m">
-                    <node concept="2OqwBi" id="3VzM1am1sAm" role="3uHU7w">
-                      <node concept="37vLTw" id="3VzM1am1sAn" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3VzM1am1nFy" resolve="maxSize" />
-                      </node>
-                      <node concept="liA8E" id="3VzM1am1sAo" role="2OqNvi">
-                        <ref role="37wK5l" to="rtot:ZjQ6tpoDOC" resolve="getHeight" />
-                      </node>
+            <node concept="RRSsy" id="6PNE5xfrbLS" role="3cqZAp">
+              <property role="RRSoG" value="warn" />
+              <node concept="3cpWs3" id="6PNE5xfrbYp" role="RRSoy">
+                <node concept="2OqwBi" id="6PNE5xfrbYq" role="3uHU7w">
+                  <node concept="37vLTw" id="6PNE5xfrbYr" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3VzM1am1nFy" resolve="maxSize" />
+                  </node>
+                  <node concept="liA8E" id="6PNE5xfrbYs" role="2OqNvi">
+                    <ref role="37wK5l" to="rtot:ZjQ6tpoDOC" resolve="getHeight" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="6PNE5xfrbYt" role="3uHU7B">
+                  <node concept="3cpWs3" id="6PNE5xfrbYu" role="3uHU7B">
+                    <node concept="Xl_RD" id="6PNE5xfrbYv" role="3uHU7B">
+                      <property role="Xl_RC" value="Height set to " />
                     </node>
-                    <node concept="3cpWs3" id="3VzM1am1sAp" role="3uHU7B">
-                      <node concept="3cpWs3" id="3VzM1am1sAq" role="3uHU7B">
-                        <node concept="Xl_RD" id="3VzM1am1sAr" role="3uHU7B">
-                          <property role="Xl_RC" value="Cannot set height to " />
-                        </node>
-                        <node concept="37vLTw" id="3VzM1am20XR" role="3uHU7w">
-                          <ref role="3cqZAo" node="3VzM1am0rgz" resolve="height" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="3VzM1am1sAt" role="3uHU7w">
-                        <property role="Xl_RC" value=". Maximum height is " />
-                      </node>
+                    <node concept="37vLTw" id="6PNE5xfrbYw" role="3uHU7w">
+                      <ref role="3cqZAo" node="3VzM1am0rgz" resolve="height" />
                     </node>
+                  </node>
+                  <node concept="Xl_RD" id="6PNE5xfrbYx" role="3uHU7w">
+                    <property role="Xl_RC" value=". Maximum height is " />
                   </node>
                 </node>
               </node>

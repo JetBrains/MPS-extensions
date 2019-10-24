@@ -54,9 +54,6 @@
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1219920932475" name="jetbrains.mps.baseLanguage.structure.VariableArityType" flags="in" index="8X2XB">
-        <child id="1219921048460" name="componentType" index="8Xvag" />
-      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -1594,17 +1591,9 @@
         <ref role="3uigEE" to="r99j:~TemplateDeclaration" resolve="TemplateDeclaration" />
       </node>
       <node concept="37vLTG" id="6KgrWUngnk4" role="3clF46">
-        <property role="TrG5h" value="reference" />
-        <node concept="3uibUv" id="6KgrWUngnk5" role="1tU5fm">
-          <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="6KgrWUngnk6" role="3clF46">
-        <property role="TrG5h" value="objects" />
-        <node concept="8X2XB" id="6KgrWUngnk7" role="1tU5fm">
-          <node concept="3uibUv" id="6KgrWUngnk8" role="8Xvag">
-            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-          </node>
+        <property role="TrG5h" value="key" />
+        <node concept="3uibUv" id="4IrJ7fhw6QL" role="1tU5fm">
+          <ref role="3uigEE" to="r99j:~TemplateDeclarationKey" resolve="TemplateDeclarationKey" />
         </node>
       </node>
       <node concept="3clFbS" id="6KgrWUngnk9" role="3clF47">

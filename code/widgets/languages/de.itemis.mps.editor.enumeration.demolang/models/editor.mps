@@ -67,13 +67,18 @@
     <property role="TrG5h" value="MyIcons" />
     <node concept="1Lo5v9" id="1kojPMTgynt" role="1Lo5vp">
       <property role="TrG5h" value="icona" />
-      <property role="1Lo5vd" value="${mbeddr.github.core.home}/code/plugins/sl-all/mps-boolean-editor/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-ok-3.png" />
+      <property role="1Lo5vd" value="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-ok-3.png" />
       <property role="1Lo5ve" value="0.4" />
     </node>
     <node concept="1Lo5v9" id="1kojPMTgyn$" role="1Lo5vp">
       <property role="TrG5h" value="iconb" />
-      <property role="1Lo5vd" value="${mbeddr.github.core.home}/code/plugins/sl-all/mps-boolean-editor/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-close.png" />
+      <property role="1Lo5vd" value="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/dialog-close.png" />
       <property role="1Lo5ve" value="0.4" />
+    </node>
+    <node concept="1Lo5v9" id="28ATBdUo1d8" role="1Lo5vp">
+      <property role="TrG5h" value="iconc" />
+      <property role="1Lo5ve" value="0.4" />
+      <property role="1Lo5vd" value="${extensions.home}/code/widgets/languages/de.itemis.mps.editor.bool.demolang/icons/circle.png" />
     </node>
   </node>
   <node concept="24kQdi" id="1QyV25GL5NV">
@@ -92,20 +97,20 @@
           <ref role="1NtTu8" to="xd7r:7WTFIQIcYxr" resolve="test1" />
           <node concept="1Lo5v5" id="_I9mxudiv3" role="1LpEKq">
             <property role="TrG5h" value="a" />
-            <ref role="1Vnzw9" node="_I9mxudAUj" resolve="b" />
             <ref role="1Lo5vu" node="1kojPMTgynt" resolve="icona" />
             <ref role="1Lo50z" to="xd7r:7WTFIQIcYv0" resolve="a" />
+            <ref role="1Vnzw9" node="_I9mxudAUj" resolve="b" />
           </node>
           <node concept="1Lo5v5" id="_I9mxudAUj" role="1LpEKq">
             <property role="TrG5h" value="b" />
-            <ref role="1Vnzw9" node="_I9mxudAUs" resolve="c" />
             <ref role="1Lo5vu" node="1kojPMTgyn$" resolve="iconb" />
             <ref role="1Lo50z" to="xd7r:7WTFIQIcYv1" resolve="b" />
+            <ref role="1Vnzw9" node="_I9mxudAUs" resolve="c" />
           </node>
           <node concept="1Lo5v5" id="_I9mxudAUs" role="1LpEKq">
             <property role="TrG5h" value="c" />
             <ref role="1Vnzw9" node="_I9mxudiv3" resolve="a" />
-            <ref role="1Lo5vu" node="1kojPMTgyn$" resolve="iconb" />
+            <ref role="1Lo5vu" node="28ATBdUo1d8" resolve="iconc" />
             <ref role="1Lo50z" to="xd7r:7WTFIQIcYv2" resolve="c" />
           </node>
         </node>

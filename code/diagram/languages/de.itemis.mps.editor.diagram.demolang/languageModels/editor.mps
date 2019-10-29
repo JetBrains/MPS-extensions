@@ -225,6 +225,9 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
@@ -477,6 +480,14 @@
         <property id="4767615435817184498" name="showBracketLine" index="3vD9g8" />
         <child id="4767615435811051865" name="collapsedCell" index="3v1y6z" />
         <child id="4767615435808541838" name="expandedCell" index="3v87hO" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1586,6 +1597,43 @@
             </node>
             <node concept="3clFbJ" id="3GatLR3$kPf" role="3cqZAp">
               <node concept="3clFbS" id="3GatLR3$kPi" role="3clFbx">
+                <node concept="3SKdUt" id="2j435p$CH0T" role="3cqZAp">
+                  <node concept="1PaTwC" id="2j435p$CH0U" role="3ndbpf">
+                    <node concept="3oM_SD" id="2j435p$CH0W" role="1PaTwD">
+                      <property role="3oM_SC" value="'/'" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH2u" role="1PaTwD">
+                      <property role="3oM_SC" value="represents" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH3E" role="1PaTwD">
+                      <property role="3oM_SC" value="a" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH3L" role="1PaTwD">
+                      <property role="3oM_SC" value="marker" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH4F" role="1PaTwD">
+                      <property role="3oM_SC" value="for" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH4Y" role="1PaTwD">
+                      <property role="3oM_SC" value="creating" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH5i" role="1PaTwD">
+                      <property role="3oM_SC" value="sub-folders" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH5V" role="1PaTwD">
+                      <property role="3oM_SC" value="in" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH67" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH6k" role="1PaTwD">
+                      <property role="3oM_SC" value="palette" />
+                    </node>
+                    <node concept="3oM_SD" id="2j435p$CH7a" role="1PaTwD">
+                      <property role="3oM_SC" value="" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="3GatLR3$ln6" role="3cqZAp">
                   <node concept="d57v9" id="3GatLR3$lyR" role="3clFbG">
                     <node concept="3cpWs3" id="3GatLR3F7mT" role="37vLTx">

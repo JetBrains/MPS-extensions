@@ -116,6 +116,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.debugview/de.q60.mps.shadowmodels.debugview.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.examples.input/de.q60.mps.shadowmodels.examples.input.msd" folder="shadowmodels.examples" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.examples.javainterpreter/de.q60.mps.shadowmodels.examples.javainterpreter.msd" folder="shadowmodels.examples.interpreter" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.examples.output/de.q60.mps.shadowmodels.examples.output.msd" folder="shadowmodels.examples" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.genplan/de.q60.mps.shadowmodels.genplan.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.modelcheck.runtime/de.q60.mps.shadowmodels.modelcheck.runtime.msd" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.shadowmodels.runtime/de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.core" />

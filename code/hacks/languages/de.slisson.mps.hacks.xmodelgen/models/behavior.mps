@@ -441,6 +441,7 @@
       <property role="TrG5h" value="getMCRuntime" />
       <node concept="37vLTG" id="6KgrWUnjwFZ" role="3clF46">
         <property role="TrG5h" value="mc" />
+        <property role="3TUv4t" value="true" />
         <node concept="3Tqbb2" id="6KgrWUnjwGj" role="1tU5fm">
           <ref role="ehGHo" to="tpf8:fWbUwhP" resolve="MappingConfiguration" />
         </node>
@@ -469,25 +470,23 @@
                     <ref role="3cqZAo" node="6KgrWUnjRUK" resolve="langReg" />
                   </node>
                   <node concept="liA8E" id="6KgrWUnjwGY" role="2OqNvi">
-                    <ref role="37wK5l" to="vndm:~LanguageRegistry.getGenerator(jetbrains.mps.smodel.Generator)" resolve="getGenerator" />
-                    <node concept="1eOMI4" id="6KgrWUnjwGZ" role="37wK5m">
-                      <node concept="10QFUN" id="6KgrWUnjwH0" role="1eOMHV">
-                        <node concept="2OqwBi" id="6KgrWUnjwH1" role="10QFUP">
-                          <node concept="2JrnkZ" id="6KgrWUnjwH2" role="2Oq$k0">
-                            <node concept="2OqwBi" id="6KgrWUnjwH3" role="2JrQYb">
-                              <node concept="37vLTw" id="6KgrWUnjR8t" role="2Oq$k0">
-                                <ref role="3cqZAo" node="6KgrWUnjwFZ" resolve="mc" />
-                              </node>
-                              <node concept="I4A8Y" id="6KgrWUnjwH5" role="2OqNvi" />
+                    <ref role="37wK5l" to="vndm:~LanguageRegistry.getGenerator(org.jetbrains.mps.openapi.module.SModuleReference)" resolve="getGenerator" />
+                    <node concept="2OqwBi" id="4L1Le7tldAF" role="37wK5m">
+                      <node concept="2OqwBi" id="6KgrWUnjwH1" role="2Oq$k0">
+                        <node concept="2JrnkZ" id="6KgrWUnjwH2" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6KgrWUnjwH3" role="2JrQYb">
+                            <node concept="37vLTw" id="6KgrWUnjR8t" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6KgrWUnjwFZ" resolve="mc" />
                             </node>
-                          </node>
-                          <node concept="liA8E" id="6KgrWUnjwH6" role="2OqNvi">
-                            <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
+                            <node concept="I4A8Y" id="6KgrWUnjwH5" role="2OqNvi" />
                           </node>
                         </node>
-                        <node concept="3uibUv" id="6KgrWUnjwH7" role="10QFUM">
-                          <ref role="3uigEE" to="w1kc:~Generator" resolve="Generator" />
+                        <node concept="liA8E" id="6KgrWUnjwH6" role="2OqNvi">
+                          <ref role="37wK5l" to="mhbf:~SModel.getModule()" resolve="getModule" />
                         </node>
+                      </node>
+                      <node concept="liA8E" id="4L1Le7tleaI" role="2OqNvi">
+                        <ref role="37wK5l" to="lui2:~SModule.getModuleReference()" resolve="getModuleReference" />
                       </node>
                     </node>
                   </node>
@@ -651,11 +650,11 @@
                     <node concept="3clFbF" id="6KgrWUnjwHQ" role="3cqZAp">
                       <node concept="17R0WA" id="6KgrWUnjwHR" role="3clFbG">
                         <node concept="2OqwBi" id="6KgrWUnjwHS" role="3uHU7w">
-                          <node concept="37vLTw" id="3D0nl1t65pL" role="2Oq$k0">
-                            <ref role="3cqZAo" node="6KgrWUnjwFZ" resolve="mc" />
-                          </node>
                           <node concept="3TrcHB" id="6KgrWUnjwHU" role="2OqNvi">
                             <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                          <node concept="37vLTw" id="4L1Le7tlfpL" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6KgrWUnjwFZ" resolve="mc" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="6KgrWUnjwHV" role="3uHU7B">

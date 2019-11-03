@@ -117,4 +117,4 @@ This command should finish successfully. After that please create pull request a
 
 ### Bonus
 
-If you are really eager you can send a PR to the mbeddr platform repository that removed the plugin there. 
+If you are really eager you can send a PR to the mbeddr platform repository to remove the plugin there. 

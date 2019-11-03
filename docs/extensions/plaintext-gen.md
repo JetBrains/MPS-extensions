@@ -20,6 +20,9 @@ The quickest way to install the plaintextgen plugin is to add it from the JetBra
 After installation, add `com.dslfoundry.plaintextgen` to the `Used Languages` of your generator (`main@generator` model) and create a `TextgenText` template in your generator.
 For examples, see the test language in this repository.
 
+# Presentations and tutorials
+A presentation that was held at the 27 February 2019 meeting of [MPS Power Users Group](http://mps-community.nl/power-users-group/) can be found at the [DSLFoundry MPS-teaching repository](https://github.com/DSLFoundry/mps-teaching/blob/master/Plaintextgen.pdf).
+
 ## Main features
 * Group and layout your content using horizontal, vertical, and indented collections
 * Split plain text into various cells to apply MPS generator macros to them

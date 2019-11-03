@@ -1,7 +1,7 @@
 # Building
-The MPS extension are build using gradle. In order to build the source code all you need on the machine is a Java 8 JDK. Of course if you want to hack on the MPS extension you need MPS. The MPS version that is currently used is in our [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle#L61) file.
+The MPS extensions are built using gradle. In order to build the source code, all you need on the machine is a Java 8 JDK. Of course, if you want to hack on the MPS extensions you need MPS. The MPS version that is currently used, is in our [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle#L61) file under the value ext.mpsMajor.
 
-In order to build the project run:
+In order to build the project, run:
 
 ```
 ./gradlew # Mac and Linux

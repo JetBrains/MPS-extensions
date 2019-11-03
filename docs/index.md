@@ -111,7 +111,7 @@ The 1.0+ versions remain in our nexus as they are in the current state but will 
 
 Other than that the artefacts didn't change and still contain the repackaged platform. We are planning to add a additional artefact that doesn't repackaged the MPS-extensions in the future to allow you more flexibility. 
 
-### MPS extension changes
+### Changes to MPS Extensions
 
 In the MPS extensions we only have additive changes. We added the mpsutil.grammarcells.* modules in that same state as they were in the mbeddr platform. You shouldn't observe any changes. In addition to that we kept the language ids to avoid any visible change for existing users of the languages. 
 

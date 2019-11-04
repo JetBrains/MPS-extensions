@@ -6,7 +6,7 @@
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1489,14 +1489,14 @@
                 </node>
                 <node concept="3clFbF" id="7YhLqbpA$qR" role="3cqZAp">
                   <node concept="2OqwBi" id="7YhLqbpAUTl" role="3clFbG">
-                    <node concept="37vLTw" id="6EruykV8Ixp" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6EruykV8CMZ" resolve="treeModel" />
-                    </node>
                     <node concept="liA8E" id="7YhLqbpB9HX" role="2OqNvi">
                       <ref role="37wK5l" to="rgfa:~TreeModel.addTreeModelListener(javax.swing.event.TreeModelListener)" resolve="addTreeModelListener" />
                       <node concept="37vLTw" id="115Xaa41yNQ" role="37wK5m">
                         <ref role="3cqZAo" node="115Xaa41sOA" resolve="treeListener" />
                       </node>
+                    </node>
+                    <node concept="37vLTw" id="6EruykV8Ixp" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6EruykV8CMZ" resolve="treeModel" />
                     </node>
                   </node>
                 </node>
@@ -1679,6 +1679,21 @@
       </node>
       <node concept="3Tm6S6" id="1cRLf1_Z1L1" role="1B3o_S" />
       <node concept="3clFbS" id="1cRLf1_YMsp" role="3clF47">
+        <node concept="3clFbJ" id="2wBC8Z9fyz_" role="3cqZAp">
+          <node concept="3clFbS" id="2wBC8Z9fyzB" role="3clFbx">
+            <node concept="3cpWs6" id="2wBC8Z9fESZ" role="3cqZAp">
+              <node concept="10Nm6u" id="2wBC8Z9fEZ4" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2wBC8Z9fCbG" role="3clFbw">
+            <node concept="37vLTw" id="2wBC8Z9fBIw" role="2Oq$k0">
+              <ref role="3cqZAo" node="115Xaa3Z2NL" resolve="project" />
+            </node>
+            <node concept="liA8E" id="2wBC8Z9fE_b" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~Project.isDisposed()" resolve="isDisposed" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1cRLf1_Z67F" role="3cqZAp">
           <node concept="3cpWsn" id="1cRLf1_Z67G" role="3cpWs9">
             <property role="TrG5h" value="pane" />

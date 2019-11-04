@@ -1642,6 +1642,21 @@
       </node>
       <node concept="3Tm6S6" id="1cRLf1_Z1L1" role="1B3o_S" />
       <node concept="3clFbS" id="1cRLf1_YMsp" role="3clF47">
+        <node concept="3clFbJ" id="2wBC8Z9fyz_" role="3cqZAp">
+          <node concept="3clFbS" id="2wBC8Z9fyzB" role="3clFbx">
+            <node concept="3cpWs6" id="2wBC8Z9fESZ" role="3cqZAp">
+              <node concept="10Nm6u" id="2wBC8Z9fEZ4" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2wBC8Z9fCbG" role="3clFbw">
+            <node concept="37vLTw" id="2wBC8Z9fBIw" role="2Oq$k0">
+              <ref role="3cqZAo" node="115Xaa3Z2NL" resolve="project" />
+            </node>
+            <node concept="liA8E" id="2wBC8Z9fE_b" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~Project.isDisposed()" resolve="isDisposed" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1cRLf1_Z67F" role="3cqZAp">
           <node concept="3cpWsn" id="1cRLf1_Z67G" role="3cpWs9">
             <property role="TrG5h" value="pane" />

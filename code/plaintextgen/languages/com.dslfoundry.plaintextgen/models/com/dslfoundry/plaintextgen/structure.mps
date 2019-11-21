@@ -160,6 +160,11 @@
       <property role="IQ2nx" value="5407518469085446424" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="6OyQ54Ew5ZF" role="1TKVEl">
+      <property role="IQ2nx" value="7864085742459314155" />
+      <property role="TrG5h" value="encoding" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyi" id="71qbzSbCuXc" role="1TKVEl">
       <property role="IQ2nx" value="8095834124169899852" />
       <property role="TrG5h" value="lineEnding" />

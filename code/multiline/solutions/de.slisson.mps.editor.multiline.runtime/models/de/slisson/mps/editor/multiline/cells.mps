@@ -83,6 +83,9 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="1188220165133" name="jetbrains.mps.baseLanguage.structure.ArrayLiteral" flags="nn" index="2BsdOp">
+        <child id="1188220173759" name="item" index="2BsfMF" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -222,6 +225,10 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
+      <concept id="1154542696413" name="jetbrains.mps.baseLanguage.structure.ArrayCreatorWithInitializer" flags="nn" index="3g6Rrh">
+        <child id="1154542793668" name="componentType" index="3g7fb8" />
+        <child id="1154542803372" name="initValue" index="3g7hyw" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -326,9 +333,16 @@
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
+      <concept id="2217234381367049075" name="jetbrains.mps.baseLanguage.javadoc.structure.CodeInlineDocTag" flags="ng" index="VVOAv">
+        <child id="3106559687488741665" name="line" index="2Xj1qM" />
+      </concept>
+      <concept id="8970989240999019145" name="jetbrains.mps.baseLanguage.javadoc.structure.InlineTagCommentLinePart" flags="ng" index="1dT_AA">
+        <child id="6962838954693749192" name="tag" index="qph3F" />
+      </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="427659576753752243" name="jetbrains.mps.lang.smodel.structure.ModulePointer" flags="ng" index="20RdaH">
@@ -347,7 +361,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
@@ -418,7 +431,6 @@
       <concept id="1184963466173" name="jetbrains.mps.baseLanguage.collections.structure.ToArrayOperation" flags="nn" index="3_kTaI" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
-      <concept id="1522217801069359738" name="jetbrains.mps.baseLanguage.collections.structure.ReduceLeftOperation" flags="nn" index="1MCZdW" />
       <concept id="1522217801069396578" name="jetbrains.mps.baseLanguage.collections.structure.FoldLeftOperation" flags="nn" index="1MD8d$">
         <child id="1522217801069421796" name="seed" index="1MDeny" />
       </concept>
@@ -969,6 +981,11 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5q_mX3yXcrm" role="3cqZAp">
+          <node concept="1rXfSq" id="5q_mX3yXcrk" role="3clFbG">
+            <ref role="37wK5l" node="5lTqPuSdjuT" resolve="modelToView" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="dJX1uxkIcz" role="jymVt" />
@@ -1293,57 +1310,17 @@
           <node concept="3cpWsn" id="453OnIlrZye" role="3cpWs9">
             <property role="TrG5h" value="totalWords" />
             <node concept="10Oyi0" id="453OnIlrZyf" role="1tU5fm" />
-            <node concept="2OqwBi" id="453OnIlrZyA" role="33vP2m">
-              <node concept="2OqwBi" id="453OnIlrZ_L" role="2Oq$k0">
-                <node concept="37vLTw" id="1rfeXz7xsCi" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6tLsdkfI4Im" resolve="lines" />
-                </node>
-                <node concept="3$u5V9" id="453OnIlrZ_R" role="2OqNvi">
-                  <node concept="1bVj0M" id="453OnIlrZ_S" role="23t8la">
-                    <node concept="3clFbS" id="453OnIlrZ_T" role="1bW5cS">
-                      <node concept="3clFbF" id="453OnIlrZ_W" role="3cqZAp">
-                        <node concept="2OqwBi" id="453OnIlrZAi" role="3clFbG">
-                          <node concept="37vLTw" id="1rfeXz7xtbl" role="2Oq$k0">
-                            <ref role="3cqZAo" node="453OnIlrZ_U" resolve="it" />
-                          </node>
-                          <node concept="1Rwk04" id="453OnIlrZAn" role="2OqNvi" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Rh6nW" id="453OnIlrZ_U" role="1bW2Oz">
-                      <property role="TrG5h" value="it" />
-                      <node concept="2jxLKc" id="453OnIlrZ_V" role="1tU5fm" />
-                    </node>
-                  </node>
-                </node>
+            <node concept="2OqwBi" id="5q_mX3yWyq3" role="33vP2m">
+              <node concept="37vLTw" id="5q_mX3yWxbY" role="2Oq$k0">
+                <ref role="3cqZAo" node="5lTqPuSdd55" resolve="myMultilineText" />
               </node>
-              <node concept="1MCZdW" id="453OnIlrZ$5" role="2OqNvi">
-                <node concept="1bVj0M" id="453OnIlrZ$6" role="23t8la">
-                  <node concept="3clFbS" id="453OnIlrZ$7" role="1bW5cS">
-                    <node concept="3clFbF" id="453OnIlrZ$d" role="3cqZAp">
-                      <node concept="3cpWs3" id="453OnIlrZ$Y" role="3clFbG">
-                        <node concept="37vLTw" id="1rfeXz7xtc0" role="3uHU7B">
-                          <ref role="3cqZAo" node="453OnIlrZ$8" resolve="a" />
-                        </node>
-                        <node concept="37vLTw" id="1rfeXz7xt6U" role="3uHU7w">
-                          <ref role="3cqZAo" node="453OnIlrZ$a" resolve="b" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="453OnIlrZ$8" role="1bW2Oz">
-                    <property role="TrG5h" value="a" />
-                    <node concept="2jxLKc" id="453OnIlrZ$9" role="1tU5fm" />
-                  </node>
-                  <node concept="Rh6nW" id="453OnIlrZ$a" role="1bW2Oz">
-                    <property role="TrG5h" value="b" />
-                    <node concept="2jxLKc" id="453OnIlrZ$b" role="1tU5fm" />
-                  </node>
-                </node>
+              <node concept="liA8E" id="5q_mX3yW$OC" role="2OqNvi">
+                <ref role="37wK5l" node="5q_mX3yWcil" resolve="getTotalWords" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5q_mX3yU8n5" role="3cqZAp" />
         <node concept="3clFbF" id="6tLsdkfI4Jl" role="3cqZAp">
           <node concept="1rXfSq" id="1rfeXz7xsfv" role="3clFbG">
             <ref role="37wK5l" node="453OnIlrZjr" resolve="setNumberOfWordCells" />
@@ -1377,6 +1354,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5q_mX3yW_7_" role="3cqZAp" />
         <node concept="2Gpval" id="453OnIlrZAT" role="3cqZAp">
           <node concept="37vLTw" id="1rfeXz7xsD5" role="2GsD0m">
             <ref role="3cqZAo" node="6tLsdkfI4Im" resolve="lines" />
@@ -5864,6 +5842,9 @@
       <node concept="2AHcQZ" id="59YTMv9J7mu" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="2AHcQZ" id="5q_mX3yPPS9" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="5lTqPuSd937">
@@ -9524,6 +9505,10 @@
           <node concept="17QB3L" id="5lTqPuSdk5V" role="10Q1$1" />
         </node>
       </node>
+      <node concept="1rXfSq" id="5q_mX3yVmpN" role="33vP2m">
+        <ref role="37wK5l" node="4p3FRivD$sm" resolve="textToWords" />
+        <node concept="10Nm6u" id="5q_mX3yVord" role="37wK5m" />
+      </node>
     </node>
     <node concept="3clFbW" id="5lTqPuSdk5I" role="jymVt">
       <node concept="3cqZAl" id="5lTqPuSdk5J" role="3clF45" />
@@ -10499,6 +10484,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5q_mX3yQqVz" role="jymVt" />
     <node concept="3clFb_" id="2ksXEJIIkiA" role="jymVt">
       <property role="TrG5h" value="deleteWords" />
       <node concept="3cqZAl" id="2ksXEJIIkiB" role="3clF45" />
@@ -10828,7 +10814,6 @@
               </node>
             </node>
           </node>
-          <node concept="15s5l7" id="2ksXEJIIvt4" role="lGtFl" />
         </node>
       </node>
       <node concept="37vLTG" id="2ksXEJIIkj2" role="3clF46">
@@ -10839,7 +10824,32 @@
         <property role="TrG5h" value="to" />
         <node concept="10Oyi0" id="2ksXEJIIkju" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="5q_mX3yQw$a" role="lGtFl">
+        <node concept="TZ5HA" id="5q_mX3yQywc" role="TZ5H$">
+          <node concept="1dT_AC" id="5q_mX3yQywd" role="1dT_Ay">
+            <property role="1dT_AB" value="Delete words from range [from, to], inclusive, where from and to are word numbers." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5q_mX3yQyx$" role="TZ5H$">
+          <node concept="1dT_AC" id="5q_mX3yQyx_" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AA" id="5q_mX3yQyyZ" role="1dT_Ay">
+            <node concept="VVOAv" id="5q_mX3yQyzh" role="qph3F">
+              <node concept="TZ5HA" id="5q_mX3yQyzj" role="2Xj1qM">
+                <node concept="1dT_AC" id="5q_mX3yQyzD" role="1dT_Ay">
+                  <property role="1dT_AB" value=" deleteWords(2, 3)" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1dT_AC" id="5q_mX3yQyyY" role="1dT_Ay">
+            <property role="1dT_AB" value=" will delete the third and fourth word." />
+          </node>
+        </node>
+      </node>
     </node>
+    <node concept="2tJIrI" id="5q_mX3yQbfh" role="jymVt" />
     <node concept="2YIFZL" id="4p3FRivD$sm" role="jymVt">
       <property role="TrG5h" value="textToWords" />
       <property role="DiZV1" value="false" />
@@ -10871,28 +10881,25 @@
                   <ref role="3cqZAo" node="5lTqPuSdk6b" resolve="words" />
                 </node>
                 <node concept="2ShNRf" id="5lTqPuSdk6j" role="37vLTx">
-                  <node concept="3$_iS1" id="5lTqPuSdk6k" role="2ShVmc">
-                    <node concept="3$GHV9" id="5lTqPuSdk6l" role="3$GQph">
-                      <node concept="3cmrfG" id="5lTqPuSdk6m" role="3$I4v7">
-                        <property role="3cmrfH" value="0" />
+                  <node concept="3g6Rrh" id="5q_mX3yVekP" role="2ShVmc">
+                    <node concept="10Q1$e" id="5q_mX3yVekZ" role="3g7fb8">
+                      <node concept="17QB3L" id="5q_mX3yVel0" role="10Q1$1" />
+                    </node>
+                    <node concept="2BsdOp" id="5q_mX3yVel1" role="3g7hyw">
+                      <node concept="Xl_RD" id="5q_mX3yVeqN" role="2BsfMF">
+                        <property role="Xl_RC" value="" />
                       </node>
                     </node>
-                    <node concept="3$GHV9" id="5lTqPuSdk6n" role="3$GQph">
-                      <node concept="3cmrfG" id="5lTqPuSdk6o" role="3$I4v7">
-                        <property role="3cmrfH" value="0" />
-                      </node>
-                    </node>
-                    <node concept="17QB3L" id="5lTqPuSdk6p" role="3$_nBY" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbC" id="5lTqPuSdk6r" role="3clFbw">
-            <node concept="37vLTw" id="1rfeXz7xtbn" role="3uHU7B">
+          <node concept="2OqwBi" id="5q_mX3yQz_0" role="3clFbw">
+            <node concept="37vLTw" id="1rfeXz7xtbn" role="2Oq$k0">
               <ref role="3cqZAo" node="4p3FRivD$s8" resolve="text" />
             </node>
-            <node concept="10Nm6u" id="5lTqPuSdk6s" role="3uHU7w" />
+            <node concept="17RlXB" id="5q_mX3yQ$j5" role="2OqNvi" />
           </node>
           <node concept="9aQIb" id="5lTqPuSdk6u" role="9aQIa">
             <node concept="3clFbS" id="5lTqPuSdk6v" role="9aQI4">
@@ -10938,7 +10945,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="15s5l7" id="5lTqPuSdk6N" role="lGtFl" />
               </node>
               <node concept="1Dw8fO" id="5lTqPuSdk6O" role="3cqZAp">
                 <node concept="3clFbS" id="5lTqPuSdk6P" role="2LFqv$">
@@ -11008,6 +11014,78 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="4p3FRivD$rb" role="1B3o_S" />
+      <node concept="P$JXv" id="5q_mX3yQdug" role="lGtFl">
+        <node concept="TZ5HA" id="5q_mX3yQduh" role="TZ5H$">
+          <node concept="1dT_AC" id="5q_mX3yQdui" role="1dT_Ay">
+            <property role="1dT_AB" value="Split text into an array of lines where each line is an array of words. If text is null or empty, returns an array" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5q_mX3yVd62" role="TZ5H$">
+          <node concept="1dT_AC" id="5q_mX3yVd63" role="1dT_Ay">
+            <property role="1dT_AB" value="of one array with one empty string." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5q_mX3yW72r" role="jymVt" />
+    <node concept="3clFb_" id="5q_mX3yWcil" role="jymVt">
+      <property role="TrG5h" value="getTotalWords" />
+      <node concept="3clFbS" id="5q_mX3yWcio" role="3clF47">
+        <node concept="3clFbF" id="5q_mX3yWeNf" role="3cqZAp">
+          <node concept="2OqwBi" id="5q_mX3yWif_" role="3clFbG">
+            <node concept="2OqwBi" id="5q_mX3yWfqy" role="2Oq$k0">
+              <node concept="37vLTw" id="5q_mX3yWeNe" role="2Oq$k0">
+                <ref role="3cqZAo" node="5lTqPuSdk5R" resolve="myWords" />
+              </node>
+              <node concept="39bAoz" id="5q_mX3yWhaO" role="2OqNvi" />
+            </node>
+            <node concept="1MD8d$" id="5q_mX3yWiGz" role="2OqNvi">
+              <node concept="1bVj0M" id="5q_mX3yWiG_" role="23t8la">
+                <node concept="3clFbS" id="5q_mX3yWiGA" role="1bW5cS">
+                  <node concept="3clFbF" id="5q_mX3yWjyA" role="3cqZAp">
+                    <node concept="3cpWs3" id="5q_mX3yWkgx" role="3clFbG">
+                      <node concept="2OqwBi" id="5q_mX3yWl61" role="3uHU7w">
+                        <node concept="37vLTw" id="5q_mX3yWkk$" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5q_mX3yWiGD" resolve="it" />
+                        </node>
+                        <node concept="1Rwk04" id="5q_mX3yWlKu" role="2OqNvi" />
+                      </node>
+                      <node concept="37vLTw" id="5q_mX3yWjy_" role="3uHU7B">
+                        <ref role="3cqZAo" node="5q_mX3yWiGB" resolve="s" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTG" id="5q_mX3yWiGB" role="1bW2Oz">
+                  <property role="TrG5h" value="s" />
+                  <node concept="10Oyi0" id="5q_mX3yWji5" role="1tU5fm" />
+                </node>
+                <node concept="Rh6nW" id="5q_mX3yWiGD" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="5q_mX3yWiGE" role="1tU5fm" />
+                </node>
+              </node>
+              <node concept="3cmrfG" id="5q_mX3yWiVg" role="1MDeny">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5q_mX3yW9QN" role="1B3o_S" />
+      <node concept="10Oyi0" id="5q_mX3yWcbI" role="3clF45" />
+    </node>
+    <node concept="3UR2Jj" id="5q_mX3yVRd$" role="lGtFl">
+      <node concept="TZ5HA" id="5q_mX3yVRd_" role="TZ5H$">
+        <node concept="1dT_AC" id="5q_mX3yVRdA" role="1dT_Ay">
+          <property role="1dT_AB" value="Maintains a list (lines) of lists of words. An empty MultilineText has a single line with one empty word." />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="5q_mX3yVTqZ" role="TZ5H$">
+        <node concept="1dT_AC" id="5q_mX3yVTr0" role="1dT_Ay">
+          <property role="1dT_AB" value="Therefore an instance of this class always has at least one word." />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="6tLsdkfHMY5">
@@ -14866,6 +14944,13 @@
           </node>
         </node>
       </node>
+      <node concept="P$JXv" id="5q_mX3yQubA" role="lGtFl">
+        <node concept="TZ5HA" id="5q_mX3yQubB" role="TZ5H$">
+          <node concept="1dT_AC" id="5q_mX3yQubC" role="1dT_Ay">
+            <property role="1dT_AB" value="Range maximum value, inclusive" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5LEeV$45khq" role="jymVt" />
     <node concept="3clFb_" id="5LEeV$45kvZ" role="jymVt">
@@ -14876,6 +14961,13 @@
         <node concept="3clFbF" id="5LEeV$45l8k" role="3cqZAp">
           <node concept="37vLTw" id="5LEeV$45l8j" role="3clFbG">
             <ref role="3cqZAo" node="5LEeV$44Rwp" resolve="min" />
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="5q_mX3yQtTA" role="lGtFl">
+        <node concept="TZ5HA" id="5q_mX3yQtTB" role="TZ5H$">
+          <node concept="1dT_AC" id="5q_mX3yQtTC" role="1dT_Ay">
+            <property role="1dT_AB" value="Range minimum value, inclusive" />
           </node>
         </node>
       </node>
@@ -14974,7 +15066,7 @@
     </node>
     <node concept="2tJIrI" id="5LEeV$45zHH" role="jymVt" />
     <node concept="3clFb_" id="5LEeV$45$2Y" role="jymVt">
-      <property role="TrG5h" value="overlapseRange" />
+      <property role="TrG5h" value="overlapsRange" />
       <node concept="37vLTG" id="5LEeV$45$ON" role="3clF46">
         <property role="TrG5h" value="range" />
         <node concept="3uibUv" id="5LEeV$45$Ud" role="1tU5fm">
@@ -15058,7 +15150,7 @@
               <ref role="3cqZAo" node="5LEeV$45DpB" resolve="range" />
             </node>
             <node concept="liA8E" id="5LEeV$45DGQ" role="2OqNvi">
-              <ref role="37wK5l" node="5LEeV$45$2Y" resolve="overlapseRange" />
+              <ref role="37wK5l" node="5LEeV$45$2Y" resolve="overlapsRange" />
               <node concept="Xjq3P" id="5LEeV$45DH_" role="37wK5m" />
             </node>
           </node>
@@ -15066,6 +15158,13 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="5LEeV$44Nwb" role="1B3o_S" />
+    <node concept="3UR2Jj" id="5q_mX3yQtCd" role="lGtFl">
+      <node concept="TZ5HA" id="5q_mX3yQtCe" role="TZ5H$">
+        <node concept="1dT_AC" id="5q_mX3yQtCf" role="1dT_Ay">
+          <property role="1dT_AB" value="An inclusive range between two integers" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5yrLEGnUPV4">
     <property role="TrG5h" value="MultilineLayout" />

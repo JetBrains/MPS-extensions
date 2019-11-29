@@ -5643,6 +5643,11 @@
               <ref role="3bR37D" to="ffeo:7YI57w6K0hQ" resolve="jetbrains.mps.lang.actions#1154466409006" />
             </node>
           </node>
+          <node concept="1SiIV0" id="17heSRQmGcw" role="3bR37C">
+            <node concept="3bR9La" id="17heSRQmGcx" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:2Qa9MYMHrcB" resolve="jetbrains.mps.editorlang.runtime" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

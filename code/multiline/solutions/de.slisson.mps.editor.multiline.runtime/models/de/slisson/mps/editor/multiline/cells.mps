@@ -2981,6 +2981,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5BSUddgz$FL" role="3cqZAp">
+          <node concept="2OqwBi" id="5BSUddgzDMT" role="3clFbG">
+            <node concept="37vLTw" id="5BSUddgz$FJ" role="2Oq$k0">
+              <ref role="3cqZAo" node="5lTqPuSdhTl" resolve="wordCell" />
+            </node>
+            <node concept="liA8E" id="5BSUddgzNKx" role="2OqNvi">
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.setCellContext(jetbrains.mps.openapi.editor.cells.EditorCellContext)" resolve="setCellContext" />
+              <node concept="1rXfSq" id="5BSUddgzQeO" role="37wK5m">
+                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getCellContext()" resolve="getCellContext" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="2Gpval" id="4WdkpBdiNmH" role="3cqZAp">
           <node concept="37vLTw" id="1rfeXz7xrWU" role="2GsD0m">
             <ref role="3cqZAo" node="4WdkpBdiNiu" resolve="myWordCellInitializers" />

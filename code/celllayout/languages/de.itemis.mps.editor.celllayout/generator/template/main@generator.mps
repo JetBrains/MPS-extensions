@@ -4,6 +4,7 @@
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -651,6 +652,28 @@
   <node concept="jVnub" id="43ViAfTumJT">
     <property role="TrG5h" value="UserDefinedStyleQueryMethods" />
     <ref role="phYkn" to="tpc3:2dv1ick$axh" resolve="StyleClassItemQueryMethods" />
+    <node concept="3aamgX" id="3gObvz68epf" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="pvux:2nutuZsJ_4q" resolve="IntegerStyle" />
+      <node concept="gft3U" id="3gObvz68epw" role="1lVwrX">
+        <node concept="3clFbH" id="3gObvz68epx" role="gfFT$">
+          <node concept="29HgVG" id="3gObvz68epy" role="lGtFl">
+            <node concept="3NFfHV" id="3gObvz68epz" role="3NFExx">
+              <node concept="3clFbS" id="3gObvz68ep$" role="2VODD2">
+                <node concept="3clFbF" id="3gObvz68ep_" role="3cqZAp">
+                  <node concept="2OqwBi" id="3gObvz68epA" role="3clFbG">
+                    <node concept="3TrEf2" id="3gObvz68epB" role="2OqNvi">
+                      <ref role="3Tt5mk" to="pvux:hLd8cI8" resolve="query" />
+                    </node>
+                    <node concept="30H73N" id="3gObvz68epC" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="2dv1ick$uOw" role="3aUrZf">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="pvux:43ViAfTtx6N" resolve="StringStyle" />

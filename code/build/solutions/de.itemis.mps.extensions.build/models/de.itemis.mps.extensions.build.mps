@@ -770,7 +770,7 @@
       </node>
       <node concept="2iUeEo" id="31bAEZ0srEk" role="2iVFfd">
         <property role="2iUeEt" value="Sascha Lisson" />
-        <property role="2iUeEu" value="http://github.com/slisson/mps-multiline" />
+        <property role="2iUeEu" value="https://github.com/slisson/mps-multiline" />
       </node>
     </node>
     <node concept="2G$12M" id="4p3FRivDLPF" role="3989C9">
@@ -5643,6 +5643,11 @@
               <ref role="3bR37D" to="ffeo:7YI57w6K0hQ" resolve="jetbrains.mps.lang.actions#1154466409006" />
             </node>
           </node>
+          <node concept="1SiIV0" id="17heSRQmGcw" role="3bR37C">
+            <node concept="3bR9La" id="17heSRQmGcx" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:2Qa9MYMHrcB" resolve="jetbrains.mps.editorlang.runtime" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -5677,7 +5682,7 @@
       </node>
       <node concept="2iUeEo" id="iQ9iC8xd62" role="2iVFfd">
         <property role="2iUeEt" value="DSLFoundry" />
-        <property role="2iUeEu" value="http://dslfoundry.com/" />
+        <property role="2iUeEu" value="https://dslfoundry.com/" />
       </node>
       <node concept="3_J27D" id="6HJqx3w3Loa" role="3s6cr7">
         <node concept="3Mxwew" id="6HJqx3w3Loc" role="3MwsjC">

@@ -259,6 +259,7 @@
       <concept id="1167168920554" name="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" flags="in" index="30G5F_" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
+        <property id="1167272244852" name="applyToConceptInheritors" index="36QftV" />
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
         <child id="1167169362365" name="conditionFunction" index="30HLyM" />
       </concept>
@@ -5761,7 +5762,7 @@
                         <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                       </node>
                       <node concept="liA8E" id="4U_WvDiWDZP" role="2OqNvi">
-                        <ref role="37wK5l" to="33ny:~Hashtable.get(java.lang.Object)" resolve="get" />
+                        <ref role="37wK5l" to="33ny:~Properties.get(java.lang.Object)" resolve="get" />
                         <node concept="Xl_RD" id="4U_WvDiWDZQ" role="37wK5m">
                           <property role="Xl_RC" value="$$$log" />
                         </node>
@@ -5795,7 +5796,7 @@
                       <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
                     </node>
                     <node concept="liA8E" id="4U_WvDiWtzX" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object)" resolve="put" />
+                      <ref role="37wK5l" to="33ny:~Properties.put(java.lang.Object,java.lang.Object)" resolve="put" />
                       <node concept="Xl_RD" id="4U_WvDiWtE9" role="37wK5m">
                         <property role="Xl_RC" value="$$$log" />
                       </node>
@@ -6794,6 +6795,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="2$_w8oMFbZ9" role="3acgRq">
+      <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="hba4:4U_WvDi7GEK" resolve="LogStatement" />
       <node concept="b5Tf3" id="2$_w8oMFlJq" role="1lVwrX" />
       <node concept="30G5F_" id="2$_w8oMFkdW" role="30HLyM">

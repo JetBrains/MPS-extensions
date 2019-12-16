@@ -41942,7 +41942,7 @@
             <ref role="1Pybhc" node="5gTrVpGjuL2" resolve="SConceptAdapter" />
             <ref role="37wK5l" node="3ECE8iPOmg5" resolve="wrap" />
             <node concept="35c_gC" id="5zrTIjkXNeS" role="37wK5m">
-              <ref role="35c_gD" to="dj5d:5100827Ptfk" resolve="ModuleReference" />
+              <ref role="35c_gD" to="dj5d:5zrTIjkWNaz" resolve="ModelReference" />
             </node>
           </node>
         </node>

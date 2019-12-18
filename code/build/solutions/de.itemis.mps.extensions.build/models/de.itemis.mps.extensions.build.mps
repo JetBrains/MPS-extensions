@@ -7628,6 +7628,12 @@
         <node concept="3LEDTy" id="36ihF502GIu" role="3LEDUa">
           <ref role="3LEDTV" node="7c10t$7lQIA" resolve="de.q60.mps.shadowmodels.gen.typesystem" />
         </node>
+        <node concept="3LEDTy" id="2$j3xkr5f7H" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L4j" resolve="jetbrains.mps.lang.actions" />
+        </node>
+        <node concept="3LEDTy" id="2$j3xkr5f7I" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+        </node>
       </node>
       <node concept="1E1JtA" id="4hqUO9aIeR_" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -7749,6 +7755,27 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="3LEDTy" id="2$j3xkr5f8t" role="3LEDUa">
+          <ref role="3LEDTV" node="4hqUO9aIi3T" resolve="de.q60.mps.virtualinterfaces" />
+        </node>
+        <node concept="3LEDTy" id="2$j3xkr5f8u" role="3LEDUa">
+          <ref role="3LEDTV" node="4iIKqJTZ5Hs" resolve="de.q60.mps.polymorphicfunctions" />
+        </node>
+        <node concept="3LEDTy" id="2$j3xkr5f8v" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+        </node>
+        <node concept="3LEDTy" id="2$j3xkr5f8w" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZG" resolve="jetbrains.mps.baseLanguage.closures" />
+        </node>
+        <node concept="3LEDTy" id="2$j3xkr5f8x" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
+        </node>
+        <node concept="3LEDTy" id="2$j3xkr5f8y" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L9c" resolve="jetbrains.mps.lang.quotation" />
+        </node>
+        <node concept="3LEDTM" id="2$j3xkr5f8z" role="3LEDUa">
+          <ref role="3LEDTN" node="4hqUO9aIeR_" resolve="de.q60.mps.virtualinterfaces.genplan" />
         </node>
       </node>
     </node>

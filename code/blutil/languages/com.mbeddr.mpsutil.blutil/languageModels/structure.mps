@@ -15,9 +15,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
-        <property id="1225118933224" name="comment" index="YLQ7P" />
-      </concept>
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
@@ -40,7 +38,6 @@
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="5404671619616246344" name="staticScope" index="2_RsDV" />
-        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -817,17 +814,6 @@
     <property role="EcuMT" value="8680547451703937984" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
-  <node concept="1TIwiD" id="4gCQjy4bYKw">
-    <property role="3GE5qa" value="helpers" />
-    <property role="TrG5h" value="UnWrite" />
-    <property role="34LRSv" value="unwrite" />
-    <property role="R4oN_" value="no write action" />
-    <property role="EcuMT" value="4911414230406655008" />
-    <ref role="1TJDcQ" to="qff7:7Mb2akafE8c" resolve="BaseExecuteCommandStatementSync" />
-    <node concept="asaX9" id="4xXBKS7JdWb" role="lGtFl">
-      <property role="YLQ7P" value="Dangerous approach; of no use as it throws exception now" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2MkQqmZm$oR">
     <property role="3GE5qa" value="conceptswitch" />
     <property role="TrG5h" value="CSDefault" />
@@ -840,98 +826,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="3212431740125201976" />
       <ref role="20lvS9" to="tpee:fK9aQHR" resolve="BlockStatement" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6XuOxqYp0JR">
-    <property role="TrG5h" value="MapReduceQuery" />
-    <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="mr" />
-    <property role="EcuMT" value="8025082581146143735" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5EJ7vKIkD21" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="map" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="6534474553284006017" />
-      <ref role="20lvS9" node="5EJ7vKIbqB8" resolve="MapPhase" />
-    </node>
-    <node concept="1TJgyj" id="6XuOxqYp0S2" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="reduce" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="8025082581146144258" />
-      <ref role="20lvS9" node="5EJ7vKJ4CRR" resolve="ReducePhase" />
-    </node>
-    <node concept="1TJgyj" id="6XuOxqYt$Oq" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="targetType" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="8025082581147340058" />
-      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
-    </node>
-    <node concept="PrWs8" id="6XuOxqYp0Q8" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6XuOxqYAk1N">
-    <property role="TrG5h" value="MapParamter" />
-    <property role="3GE5qa" value="mr" />
-    <property role="EcuMT" value="8025082581149630579" />
-    <ref role="1TJDcQ" node="5EJ7vKJ4L2u" resolve="MapOrReduceParameter" />
-  </node>
-  <node concept="1TIwiD" id="5EJ7vKIbqB8">
-    <property role="TrG5h" value="MapPhase" />
-    <property role="3GE5qa" value="mr" />
-    <property role="34LRSv" value="map" />
-    <property role="EcuMT" value="6534474553281587656" />
-    <ref role="1TJDcQ" node="5EJ7vKJ4DcG" resolve="MapOrReducePhase" />
-  </node>
-  <node concept="1TIwiD" id="5EJ7vKJ4CRR">
-    <property role="3GE5qa" value="mr" />
-    <property role="TrG5h" value="ReducePhase" />
-    <property role="34LRSv" value="reduce" />
-    <property role="EcuMT" value="6534474553296588279" />
-    <ref role="1TJDcQ" node="5EJ7vKJ4DcG" resolve="MapOrReducePhase" />
-  </node>
-  <node concept="1TIwiD" id="5EJ7vKJ4DcG">
-    <property role="3GE5qa" value="mr" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <property role="TrG5h" value="MapOrReducePhase" />
-    <property role="EcuMT" value="6534474553296589612" />
-    <ref role="1TJDcQ" to="tpee:6LFqxSRBTg8" resolve="MethodDeclaration" />
-  </node>
-  <node concept="1TIwiD" id="5EJ7vKJ4L2u">
-    <property role="3GE5qa" value="mr" />
-    <property role="R5$K7" value="true" />
-    <property role="TrG5h" value="MapOrReduceParameter" />
-    <property role="EcuMT" value="6534474553296621726" />
-    <ref role="1TJDcQ" to="tpee:fz7vLUk" resolve="ParameterDeclaration" />
-  </node>
-  <node concept="1TIwiD" id="5EJ7vKJ7u__">
-    <property role="3GE5qa" value="mr" />
-    <property role="TrG5h" value="ReduceParameter" />
-    <property role="EcuMT" value="6534474553297332581" />
-    <ref role="1TJDcQ" node="5EJ7vKJ4L2u" resolve="MapOrReduceParameter" />
-  </node>
-  <node concept="1TIwiD" id="5EJ7vKKxKHt">
-    <property role="3GE5qa" value="mr" />
-    <property role="TrG5h" value="RunQueryExpression" />
-    <property role="34LRSv" value="runQuery" />
-    <property role="EcuMT" value="6534474553320999773" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="5EJ7vKKxL08" role="1TKVEi">
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="actual" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="6534474553321000968" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="5EJ7vKKxKO_" role="1TKVEi">
-      <property role="20kJfa" value="query" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="6534474553321000229" />
-      <ref role="20lvS9" node="6XuOxqYp0JR" resolve="MapReduceQuery" />
     </node>
   </node>
   <node concept="1TIwiD" id="1uZspiY4ep3">

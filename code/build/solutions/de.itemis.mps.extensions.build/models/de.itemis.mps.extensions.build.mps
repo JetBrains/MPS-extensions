@@ -219,10 +219,10 @@
     <property role="TrG5h" value="de.itemis.mps.extensions" />
     <property role="2DA0ip" value="../../../../build/generated/languages" />
     <node concept="m$_wf" id="4hvHh3QW$Eh" role="3989C9">
-      <property role="m$_wk" value="de.slisson.mps.all" />
+      <property role="m$_wk" value="de.itemis.mps.extensions.build" />
       <node concept="3_J27D" id="4hvHh3QW$Ei" role="m$_yQ">
         <node concept="3Mxwew" id="4hvHh3QW$Ej" role="3MwsjC">
-          <property role="3MwjfP" value="de.slisson.mps.all" />
+          <property role="3MwjfP" value="de.itemis.mps.extensions.build" />
         </node>
       </node>
       <node concept="3_J27D" id="4hvHh3QW$Ek" role="m$_w8">
@@ -231,19 +231,19 @@
         </node>
       </node>
       <node concept="m$f5U" id="4hvHh3QWCcE" role="m$_yh">
-        <ref role="m$f5T" node="2Xjt3l5bx4Z" resolve="de.slisson.mps.all" />
+        <ref role="m$f5T" node="2Xjt3l5bx4Z" resolve="de.itemis.mps.extensions.build" />
       </node>
       <node concept="m$_yC" id="4hvHh3QWCLM" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="3_J27D" id="4hvHh3QW$Eo" role="m_cZH">
         <node concept="3Mxwew" id="4hvHh3QW$Ep" role="3MwsjC">
-          <property role="3MwjfP" value="de.slisson.mps.all" />
+          <property role="3MwjfP" value="de.itemis.mps.extensions.build" />
         </node>
       </node>
     </node>
     <node concept="2G$12M" id="2Xjt3l5bx4Z" role="3989C9">
-      <property role="TrG5h" value="de.slisson.mps.all" />
+      <property role="TrG5h" value="de.itemis.mps.extensions.build" />
       <node concept="1E1JtA" id="PE3B26VOkn" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.extensions.build" />
@@ -7449,7 +7449,7 @@
         <node concept="pUk6x" id="6hpM9fmFEc$" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="4hvHh3QWqH0" role="39821P">
-        <ref role="m_rDy" node="4hvHh3QW$Eh" resolve="de.slisson.mps.all" />
+        <ref role="m_rDy" node="4hvHh3QW$Eh" resolve="de.itemis.mps.extensions.build" />
         <node concept="pUk6x" id="6hpM9fmFEcl" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="2H_mjOXw4dd" role="39821P">

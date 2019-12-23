@@ -767,7 +767,7 @@
                 </node>
                 <node concept="1mIQ4w" id="3KoBPk0PfY3" role="2OqNvi">
                   <node concept="chp4Y" id="_I9mxtzpkq" role="cj9EA">
-                    <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
+                    <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
                   </node>
                 </node>
               </node>
@@ -897,7 +897,7 @@
                         </node>
                       </node>
                       <node concept="chp4Y" id="_I9mxtzpu0" role="3oSUPX">
-                        <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
+                        <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="3KoBPk0PkrK" role="2OqNvi">

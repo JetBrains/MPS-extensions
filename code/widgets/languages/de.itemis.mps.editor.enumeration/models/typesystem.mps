@@ -263,7 +263,7 @@
           <node concept="1PxgMI" id="_I9mxt$LzE" role="2Oq$k0">
             <property role="1BlNFB" value="true" />
             <node concept="chp4Y" id="_I9mxt$LEu" role="3oSUPX">
-              <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
+              <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
             </node>
             <node concept="2OqwBi" id="5ZOdHncye$1" role="1m5AlR">
               <node concept="2OqwBi" id="5ZOdHncye$2" role="2Oq$k0">

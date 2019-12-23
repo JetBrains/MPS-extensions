@@ -176,7 +176,7 @@
                           </node>
                           <node concept="1mIQ4w" id="1lcLMGyEvtY" role="2OqNvi">
                             <node concept="chp4Y" id="_I9mxt$Ko3" role="cj9EA">
-                              <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
+                              <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
                             </node>
                           </node>
                         </node>

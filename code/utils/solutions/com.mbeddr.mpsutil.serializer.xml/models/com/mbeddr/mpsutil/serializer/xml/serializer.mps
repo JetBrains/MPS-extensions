@@ -1354,7 +1354,7 @@
       <node concept="37vLTG" id="2B_XTD6XUAj" role="3clF46">
         <property role="TrG5h" value="enumDecl" />
         <node concept="3Tqbb2" id="2B_XTD6XUAi" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
+          <ref role="ehGHo" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
         </node>
       </node>
     </node>
@@ -1755,7 +1755,7 @@
                 </node>
                 <node concept="1mIQ4w" id="_I9mxt$v0d" role="2OqNvi">
                   <node concept="chp4Y" id="_I9mxt$v3m" role="cj9EA">
-                    <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
+                    <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
                   </node>
                 </node>
               </node>
@@ -1854,7 +1854,7 @@
                       </node>
                       <node concept="1mIQ4w" id="_I9mxt$j70" role="2OqNvi">
                         <node concept="chp4Y" id="_I9mxt$ja9" role="cj9EA">
-                          <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
+                          <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
                         </node>
                       </node>
                     </node>
@@ -1871,7 +1871,7 @@
                                 <ref role="3cqZAo" node="6ADng3LaCp" resolve="dataType" />
                               </node>
                               <node concept="chp4Y" id="_I9mxt$9dk" role="3oSUPX">
-                                <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclartaion" />
+                                <ref role="cht4Q" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
                               </node>
                             </node>
                           </node>

@@ -7,10 +7,10 @@
   <imports />
   <registry>
     <language id="a50fc719-4261-4a46-8e65-d98071469ff6" name="com.dslfoundry.plaintextgen.example.nestedlist">
-      <concept id="7022720084780710583" name="ExampleNestedList.structure.Branch" flags="ng" index="3FbOK2">
+      <concept id="7022720084780710583" name="com.dslfoundry.plaintextgen.example.nestedlist.structure.Branch" flags="ng" index="3FbOK2">
         <child id="7022720084780710590" name="branches" index="3FbOKb" />
       </concept>
-      <concept id="7022720084780710582" name="ExampleNestedList.structure.Tree" flags="ng" index="3FbOK3">
+      <concept id="7022720084780710582" name="com.dslfoundry.plaintextgen.example.nestedlist.structure.Tree" flags="ng" index="3FbOK3">
         <child id="7022720084780710584" name="trunk" index="3FbOKd" />
       </concept>
     </language>

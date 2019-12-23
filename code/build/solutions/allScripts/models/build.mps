@@ -76,12 +76,10 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
-        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
-        <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
@@ -113,7 +111,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.extensions.build" />
         <property role="3LESm3" value="f1fb7b1c-ce0d-423c-9369-4a661d600029" />
-        <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="3vzyAKEJT3s" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3vzyAKEJT3x" role="iGT6I">
@@ -131,14 +128,7 @@
         </node>
         <node concept="1SiIV0" id="PE3B26VOwG" role="3bR37C">
           <node concept="3bR9La" id="PE3B26VOwH" role="1SiIV1">
-            <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="PE3B270YNJ" role="3bR37C">
-          <node concept="3bR9La" id="PE3B270YNK" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1WGJoq9Wd0d" resolve="jetbrains.mps.build.workflow.preset" />
           </node>
         </node>
         <node concept="3rtmxn" id="PE3B273Azl" role="3bR31x">

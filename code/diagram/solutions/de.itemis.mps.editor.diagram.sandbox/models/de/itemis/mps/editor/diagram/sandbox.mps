@@ -8,7 +8,6 @@
     <devkit ref="b1972fb0-9171-4e58-8cee-05866bb91ec2(de.itemis.mps.editor.diagram.devkit)" />
   </languages>
   <imports>
-    <import index="u6zr" ref="r:80d21cd7-e3af-48c3-ace4-e6b51dcca746(de.itemis.mps.editor.diagram.sandbox_lib)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>

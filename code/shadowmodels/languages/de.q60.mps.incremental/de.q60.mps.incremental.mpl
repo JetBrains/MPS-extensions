@@ -107,7 +107,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
-    <dependency reexport="false">da8e6b62-7ca3-4489-86bc-b70a501ca28f(de.q60.mps.incremental)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
     <dependency reexport="false" scope="generate-into">fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)</dependency>
     <dependency reexport="false">95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)</dependency>

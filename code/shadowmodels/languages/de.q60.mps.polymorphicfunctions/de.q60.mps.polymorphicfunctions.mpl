@@ -63,8 +63,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)</dependency>
-    <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
-    <dependency reexport="false">bc963c22-d419-49b6-8543-ea411eb9d3a1(de.q60.mps.polymorphicfunctions)</dependency>
     <dependency reexport="false">83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</dependency>
   </dependencies>
   <languageVersions>

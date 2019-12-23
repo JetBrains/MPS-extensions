@@ -13,7 +13,6 @@
     <dependency reexport="false">94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)</dependency>
     <dependency reexport="false">e55e6749-03cb-4ea7-9695-2322bab791c1(jetbrains.mps.lang.test.matcher)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">f65cad6f-55b3-4700-8f71-5f4c15c50e34(de.q60.mps.shadowmodels.examples.input)</dependency>
     <dependency reexport="false">ca32b5fa-caea-4f97-9686-6f60d4d677d4(de.q60.mps.shadowmodels.examples.entities)</dependency>
     <dependency reexport="false">bbb5f4e2-794a-4b91-bd27-caf7d437ac9e(de.q60.mps.shadowmodels.examples.blext)</dependency>
   </dependencies>
@@ -49,7 +48,6 @@
     <module reference="18463265-6d45-4514-82f1-cf7eb1222492(de.q60.mps.polymorphicfunctions.runtime)" version="0" />
     <module reference="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e(de.q60.mps.shadowmodels.examples.blext)" version="0" />
     <module reference="ca32b5fa-caea-4f97-9686-6f60d4d677d4(de.q60.mps.shadowmodels.examples.entities)" version="0" />
-    <module reference="f65cad6f-55b3-4700-8f71-5f4c15c50e34(de.q60.mps.shadowmodels.examples.input)" version="0" />
     <module reference="ebb56408-a287-44ca-ab2d-1b6ee6850446(de.q60.mps.shadowmodels.examples.statemachine)" version="0" />
     <module reference="e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)" version="0" />
     <module reference="94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)" version="0" />

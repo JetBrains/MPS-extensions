@@ -50,11 +50,10 @@
     <dependency reexport="false">94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
     <dependency reexport="false">e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)</dependency>
-    <dependency reexport="false">fc86eb59-1aa6-4c55-87af-07be910a1eb2(de.q60.mps.shadowmodels.examples.editor)</dependency>
-    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">9826ee01-d0ba-4048-a622-61eda9424397(de.q60.mps.shadowmodels.target.editor)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:bc963c22-d419-49b6-8543-ea411eb9d3a1:de.q60.mps.polymorphicfunctions" version="0" />
     <language slang="l:96089812-effe-4a96-bb2e-75f8162046af:de.q60.mps.shadowmodels.gen.afterPF" version="0" />
     <language slang="l:6f76dbc8-9615-4a2e-8034-c27700f8983b:de.q60.mps.shadowmodels.gen.desugar" version="0" />
     <language slang="l:c6082896-edff-4380-997b-5b96de2fdc12:de.q60.mps.shadowmodels.gen.typesystem" version="-1" />
@@ -67,6 +66,7 @@
     <language slang="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" version="2" />
     <language slang="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" version="0" />
     <language slang="l:a247e09e-2435-45ba-b8d2-07e93feba96a:jetbrains.mps.baseLanguage.tuples" version="0" />
+    <language slang="l:df345b11-b8c7-4213-ac66-48d2a9b75d88:jetbrains.mps.baseLanguageInternal" version="0" />
     <language slang="l:aee9cad2-acd4-4608-aef2-0004f6a1cdbd:jetbrains.mps.lang.actions" version="4" />
     <language slang="l:af65afd8-f0dd-4942-87d9-63a55f2a9db1:jetbrains.mps.lang.behavior" version="2" />
     <language slang="l:3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1:jetbrains.mps.lang.constraints" version="5" />

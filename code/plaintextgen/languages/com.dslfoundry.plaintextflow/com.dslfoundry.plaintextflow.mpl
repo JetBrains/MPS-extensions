@@ -50,7 +50,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)</dependency>
-    <dependency reexport="false">cf681fc9-c798-4f89-af38-ba3c0ac342d9(com.dslfoundry.plaintextflow)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>

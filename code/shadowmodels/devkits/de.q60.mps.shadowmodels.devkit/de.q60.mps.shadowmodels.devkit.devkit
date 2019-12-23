@@ -11,6 +11,8 @@
   <exported-language name="c6082896-edff-4380-997b-5b96de2fdc12(de.q60.mps.shadowmodels.gen.typesystem)" />
   <exported-language name="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
   <exported-language name="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
+  <exported-language name="df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)" />
+  <exported-language name="bc963c22-d419-49b6-8543-ea411eb9d3a1(de.q60.mps.polymorphicfunctions)" />
   <exported-solutions>
     <exported-solution>f5997610-4d27-40a3-872c-d06cf404755b(de.q60.mps.shadowmodels.genplan)</exported-solution>
   </exported-solutions>

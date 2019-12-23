@@ -35,7 +35,6 @@
     <echoxml file="${build.tmp}/default/de.itemis.mps.extensions.build.jar/META-INF/module.xml">
       <module namespace="de.itemis.mps.extensions.build" type="solution" uuid="f1fb7b1c-ce0d-423c-9369-4a661d600029">
         <dependencies>
-          <module ref="cca2431b-e74f-4066-9344-e40022d0908a(jetbrains.mps.build.workflow.preset)" kind="cl" />
           <module ref="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" kind="cl" />
         </dependencies>
         <uses>
@@ -201,7 +200,7 @@
   
   <target name="makeDependents" />
   
-  <target name="java.compile.de.itemis.mps.extensions.build" depends="fetchDependencies">
+  <target name="java.compile.de.itemis.mps.extensions.build">
     <mkdir dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.itemis.mps.extensions.build" />
     <javac destdir="${build.tmp}/java/out/de.itemis.mps.extensions.build" fork="false" encoding="utf8" includeantruntime="false" debug="true" source="1.8" target="1.8">
@@ -209,9 +208,7 @@
       <src>
         <path location="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" />
       </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.preset.jar" />
-      </classpath>
+      <classpath />
     </javac>
     <copy todir="${build.tmp}/java/out/de.itemis.mps.extensions.build">
       <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" excludes="**/*.java" />

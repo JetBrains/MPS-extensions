@@ -10,6 +10,7 @@
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -337,12 +338,8 @@
         <child id="1206629521979" name="statementList" index="3KIlGz" />
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="1350122676458893092" name="text" index="3ndbpf" />
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -26179,13 +26176,74 @@
         <property role="TrG5h" value="_cell_factory_method_" />
         <node concept="3clFbS" id="3dIwcSTyQ3c" role="3clF47">
           <node concept="3SKdUt" id="1pA5V1UG4ak" role="3cqZAp">
-            <node concept="3SKdUq" id="1pA5V1UG4am" role="3SKWNk">
-              <property role="3SKdUp" value="(*): lines added to the factory method from reduce_CellModel_Property (originally used for SplittableCell: reduce_CellModel_WithRole)" />
+            <node concept="1PaTwC" id="5py4VqXmftZ" role="3ndbpf">
+              <node concept="3oM_SD" id="5py4VqXmfu0" role="1PaTwD">
+                <property role="3oM_SC" value="(*):" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu1" role="1PaTwD">
+                <property role="3oM_SC" value="lines" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu2" role="1PaTwD">
+                <property role="3oM_SC" value="added" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu3" role="1PaTwD">
+                <property role="3oM_SC" value="to" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu4" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu5" role="1PaTwD">
+                <property role="3oM_SC" value="factory" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu6" role="1PaTwD">
+                <property role="3oM_SC" value="method" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu7" role="1PaTwD">
+                <property role="3oM_SC" value="from" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu8" role="1PaTwD">
+                <property role="3oM_SC" value="reduce_CellModel_Property" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfu9" role="1PaTwD">
+                <property role="3oM_SC" value="(originally" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfua" role="1PaTwD">
+                <property role="3oM_SC" value="used" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfub" role="1PaTwD">
+                <property role="3oM_SC" value="for" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfuc" role="1PaTwD">
+                <property role="3oM_SC" value="SplittableCell:" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfud" role="1PaTwD">
+                <property role="3oM_SC" value="reduce_CellModel_WithRole)" />
+              </node>
             </node>
           </node>
           <node concept="3SKdUt" id="1pA5V1UFWie" role="3cqZAp">
-            <node concept="3SKdUq" id="1pA5V1UFWig" role="3SKWNk">
-              <property role="3SKdUp" value="(*) push new cell context to stack" />
+            <node concept="1PaTwC" id="5py4VqXmfue" role="3ndbpf">
+              <node concept="3oM_SD" id="5py4VqXmfuf" role="1PaTwD">
+                <property role="3oM_SC" value="(*)" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfug" role="1PaTwD">
+                <property role="3oM_SC" value="push" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfuh" role="1PaTwD">
+                <property role="3oM_SC" value="new" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfui" role="1PaTwD">
+                <property role="3oM_SC" value="cell" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfuj" role="1PaTwD">
+                <property role="3oM_SC" value="context" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmfuk" role="1PaTwD">
+                <property role="3oM_SC" value="to" />
+              </node>
+              <node concept="3oM_SD" id="5py4VqXmful" role="1PaTwD">
+                <property role="3oM_SC" value="stack" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="1ByWmfQyWQB" role="3cqZAp">
@@ -26201,8 +26259,31 @@
           <node concept="2GUZhq" id="3dIwcSTAG9J" role="3cqZAp">
             <node concept="3clFbS" id="3dIwcSTAFmM" role="2GV8ay">
               <node concept="3SKdUt" id="1pA5V1UG1xZ" role="3cqZAp">
-                <node concept="3SKdUq" id="1pA5V1UG1y1" role="3SKWNk">
-                  <property role="3SKdUp" value="(*) set property info into the cell context" />
+                <node concept="1PaTwC" id="5py4VqXmfum" role="3ndbpf">
+                  <node concept="3oM_SD" id="5py4VqXmfun" role="1PaTwD">
+                    <property role="3oM_SC" value="(*)" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuo" role="1PaTwD">
+                    <property role="3oM_SC" value="set" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfup" role="1PaTwD">
+                    <property role="3oM_SC" value="property" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuq" role="1PaTwD">
+                    <property role="3oM_SC" value="info" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfur" role="1PaTwD">
+                    <property role="3oM_SC" value="into" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfus" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfut" role="1PaTwD">
+                    <property role="3oM_SC" value="cell" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuu" role="1PaTwD">
+                    <property role="3oM_SC" value="context" />
+                  </node>
                 </node>
               </node>
               <node concept="3cpWs8" id="6J9VvZhUtHu" role="3cqZAp">
@@ -26663,8 +26744,31 @@
               </node>
               <node concept="3clFbH" id="3dIwcSTMWf2" role="3cqZAp" />
               <node concept="3SKdUt" id="1pA5V1UG9Fr" role="3cqZAp">
-                <node concept="3SKdUq" id="1pA5V1UG9Ft" role="3SKWNk">
-                  <property role="3SKdUp" value="(*) store cell context for the new cell" />
+                <node concept="1PaTwC" id="5py4VqXmfuv" role="3ndbpf">
+                  <node concept="3oM_SD" id="5py4VqXmfuw" role="1PaTwD">
+                    <property role="3oM_SC" value="(*)" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfux" role="1PaTwD">
+                    <property role="3oM_SC" value="store" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuy" role="1PaTwD">
+                    <property role="3oM_SC" value="cell" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuz" role="1PaTwD">
+                    <property role="3oM_SC" value="context" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfu$" role="1PaTwD">
+                    <property role="3oM_SC" value="for" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfu_" role="1PaTwD">
+                    <property role="3oM_SC" value="the" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuA" role="1PaTwD">
+                    <property role="3oM_SC" value="new" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuB" role="1PaTwD">
+                    <property role="3oM_SC" value="cell" />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="6dQuMDPfRat" role="3cqZAp">
@@ -26748,8 +26852,25 @@
             </node>
             <node concept="3clFbS" id="3dIwcSTAG9M" role="2GVbov">
               <node concept="3SKdUt" id="1pA5V1UGb0w" role="3cqZAp">
-                <node concept="3SKdUq" id="1pA5V1UGb0y" role="3SKWNk">
-                  <property role="3SKdUp" value="(*) remove cell context from stack" />
+                <node concept="1PaTwC" id="5py4VqXmfuC" role="3ndbpf">
+                  <node concept="3oM_SD" id="5py4VqXmfuD" role="1PaTwD">
+                    <property role="3oM_SC" value="(*)" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuE" role="1PaTwD">
+                    <property role="3oM_SC" value="remove" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuF" role="1PaTwD">
+                    <property role="3oM_SC" value="cell" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuG" role="1PaTwD">
+                    <property role="3oM_SC" value="context" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuH" role="1PaTwD">
+                    <property role="3oM_SC" value="from" />
+                  </node>
+                  <node concept="3oM_SD" id="5py4VqXmfuI" role="1PaTwD">
+                    <property role="3oM_SC" value="stack" />
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="1ByWmfQz0li" role="3cqZAp">

@@ -118,24 +118,12 @@
   <node concept="18kY7G" id="5lWUryxdkD_">
     <property role="TrG5h" value="check_Connection" />
     <node concept="3clFbS" id="5lWUryxdkDA" role="18ibNy">
-      <node concept="2MkqsV" id="5lWUryxdmBM" role="3cqZAp">
-        <node concept="1YBJjd" id="5lWUryxdmCP" role="2OEOjV">
+      <node concept="a7r0C" id="5lWUryyou1c" role="3cqZAp">
+        <node concept="Xl_RD" id="5lWUryyou1W" role="a7wSD">
+          <property role="Xl_RC" value="Test Warning" />
+        </node>
+        <node concept="1YBJjd" id="5lWUryyou4T" role="2OEOjV">
           <ref role="1YBMHb" node="5lWUryxdkDC" resolve="connection" />
-        </node>
-        <node concept="Xl_RD" id="5lWUryxdmCa" role="2MkJ7o">
-          <property role="Xl_RC" value="Test Error" />
-        </node>
-      </node>
-      <node concept="1X3_iC" id="5GwePVE4w5S" role="lGtFl">
-        <property role="3V$3am" value="statement" />
-        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-        <node concept="a7r0C" id="5lWUryyou1c" role="8Wnug">
-          <node concept="Xl_RD" id="5lWUryyou1W" role="a7wSD">
-            <property role="Xl_RC" value="Test Warning" />
-          </node>
-          <node concept="1YBJjd" id="5lWUryyou4T" role="2OEOjV">
-            <ref role="1YBMHb" node="5lWUryxdkDC" resolve="connection" />
-          </node>
         </node>
       </node>
       <node concept="Dpp1Q" id="5lWUryyutWY" role="3cqZAp">

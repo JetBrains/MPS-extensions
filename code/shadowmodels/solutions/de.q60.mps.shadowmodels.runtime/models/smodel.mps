@@ -14541,7 +14541,7 @@
                   <ref role="2Gs0qQ" node="1pDhRu0Nj9G" resolve="field" />
                 </node>
                 <node concept="liA8E" id="1pDhRu0Nl7z" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="1pDhRu0Nlfr" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>

@@ -2,6 +2,7 @@
 <model ref="r:9a91b5e6-ae62-4c53-acd2-6de1a1816316(com.dslfoundry.plaintextgen.structure)">
   <persistence version="9" />
   <languages>
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -97,16 +98,16 @@
     <property role="EcuMT" value="1145195647825954799" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Z$zlZaZkvM" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="words" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="1145195647825954802" />
       <ref role="20lvS9" node="7g_oPKUKThq" resolve="ILineElement" />
     </node>
     <node concept="1TJgyj" id="4q7d2VGN$B3" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="newlineMarker" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="5082088080656976323" />
       <ref role="20lvS9" node="4q7d2VGNiCW" resolve="NewlineMarker" />
     </node>
@@ -182,9 +183,9 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="Z$zlZaZSbU" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="1145195647826100986" />
       <ref role="20lvS9" node="Z$zlZaZO7_" resolve="VerticalLines" />
     </node>
@@ -220,9 +221,9 @@
     <property role="TrG5h" value="IVerticalGroup" />
     <property role="EcuMT" value="7214912913997260680" />
     <node concept="1TJgyj" id="6gwxh6GbQuo" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="lines" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="7214912913997260696" />
       <ref role="20lvS9" node="Z$zlZaZkvE" resolve="IText" />
     </node>

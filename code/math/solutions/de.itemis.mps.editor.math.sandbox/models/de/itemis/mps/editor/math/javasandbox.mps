@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a1b2dcb5-2820-4845-96aa-82be2358cbe1(de.itemis.mps.editor.math.javasandbox)">
+<model ref="r:a1b2dcb5-2820-4845-96aa-82be2358cbe1(de.itemis.mps.editor.math.javasandbox)" doNotGenerate="true">
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>

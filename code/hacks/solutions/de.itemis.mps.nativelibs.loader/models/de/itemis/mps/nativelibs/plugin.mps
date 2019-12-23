@@ -1508,7 +1508,7 @@
               <ref role="3cqZAo" node="7xsJPFCeIsy" resolve="getDependencyClassLoaders" />
             </node>
             <node concept="liA8E" id="7xsJPFCeV3F" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Method.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="7xsJPFCeVzt" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1629,7 +1629,7 @@
               <ref role="3cqZAo" node="5wv8I7hhr_R" resolve="supportField" />
             </node>
             <node concept="liA8E" id="5wv8I7hh$Aw" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="5wv8I7hh$N_" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1686,7 +1686,7 @@
               <ref role="3cqZAo" node="5wv8I7hhQUw" resolve="classPathItemField" />
             </node>
             <node concept="liA8E" id="5wv8I7hhWL2" role="2OqNvi">
-              <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+              <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
               <node concept="3clFbT" id="5wv8I7hhXd4" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1789,7 +1789,7 @@
                   <ref role="3cqZAo" node="5wv8I7higRX" resolve="childrenField" />
                 </node>
                 <node concept="liA8E" id="6J4kZVO1$Pz" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="6J4kZVO1$SG" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>

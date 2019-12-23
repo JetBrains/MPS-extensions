@@ -28,9 +28,6 @@
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -105,6 +102,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -979,8 +977,8 @@
                 <ref role="3uigEE" to="3rlt:~TrapezoidIntegrator" resolve="TrapezoidIntegrator" />
               </node>
               <node concept="2ShNRf" id="2979S3pviTX" role="33vP2m">
-                <node concept="HV5vD" id="PE3B26C0U5" role="2ShVmc">
-                  <ref role="HV5vE" to="3rlt:~TrapezoidIntegrator" resolve="TrapezoidIntegrator" />
+                <node concept="1pGfFk" id="34tM7SkZOQx" role="2ShVmc">
+                  <ref role="37wK5l" to="3rlt:~TrapezoidIntegrator.&lt;init&gt;()" resolve="TrapezoidIntegrator" />
                 </node>
               </node>
             </node>

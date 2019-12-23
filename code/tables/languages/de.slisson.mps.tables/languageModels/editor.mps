@@ -2272,7 +2272,7 @@
         <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
         <node concept="Vb9p2" id="hPj1mAA" role="3F10Kt" />
         <node concept="3$7jql" id="hPjiF12" role="3F10Kt">
-          <property role="2hoDZC" value="spaces" />
+          <property role="2hoDZC" value="hQhnRQp/PIXELS" />
           <property role="3$6WeP" value="0.0" />
         </node>
       </node>

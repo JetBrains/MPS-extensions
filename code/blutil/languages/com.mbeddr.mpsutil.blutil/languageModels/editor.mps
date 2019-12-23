@@ -5,6 +5,7 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1101,10 +1102,10 @@
                       <node concept="2OqwBi" id="3Q2hMLtMjwx" role="2Oq$k0">
                         <node concept="1PxgMI" id="3Q2hMLtMjwy" role="2Oq$k0">
                           <node concept="2OqwBi" id="3Q2hMLtMjwz" role="1m5AlR">
-                            <node concept="1NM5Ph" id="3Q2hMLtMjwI" role="2Oq$k0" />
+                            <node concept="1NM5Ph" id="3D0nl1t5AUD" role="2Oq$k0" />
                             <node concept="3JvlWi" id="3Q2hMLtMjw_" role="2OqNvi" />
                           </node>
-                          <node concept="chp4Y" id="3Q2hMLtMjwA" role="3oSUPX">
+                          <node concept="chp4Y" id="3D0nl1t5Anl" role="3oSUPX">
                             <ref role="cht4Q" to="tp25:gzTqbfa" resolve="SNodeType" />
                           </node>
                         </node>

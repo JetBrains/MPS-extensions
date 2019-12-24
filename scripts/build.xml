@@ -56,7 +56,7 @@
       <fileset dir="${build.tmp}/default/de.itemis.mps.extensions.build.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/build-solutions-de.itemis.mps.extensions.build-models">
-      <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+      <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.layout}/de.itemis.mps.extensions.build-src.jar" duplicate="preserve">
       <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen">
@@ -156,7 +156,7 @@
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.search.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.util.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.platform.jar" />
-      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.ui.jar" />
+      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.refactoring.platform.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.findUsages.runtime.jar" />
@@ -210,9 +210,6 @@
       </src>
       <classpath />
     </javac>
-    <copy todir="${build.tmp}/java/out/de.itemis.mps.extensions.build">
-      <fileset dir="${extensions.code}/build/solutions/de.itemis.mps.extensions.build/source_gen" excludes="**/*.java" />
-    </copy>
   </target>
   
   <target name="cleanSources">

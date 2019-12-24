@@ -5,6 +5,11 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">d119cd03-ed7e-477f-adb6-22a3d2e6ea77(test.de.itemis.mps.modelmerger.testlanguage)</dependency>

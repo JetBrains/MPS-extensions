@@ -5,6 +5,11 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">4c0d9543-a1b0-4384-8a5d-1cb92075413c(de.q60.mps.virtualinterfaces.genplan)</dependency>

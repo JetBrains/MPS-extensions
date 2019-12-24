@@ -140,11 +140,6 @@
       <concept id="1227096620180" name="jetbrains.mps.lang.typesystem.structure.ReferenceMessageTarget" flags="ng" index="2OE7Q9">
         <reference id="1227096645744" name="linkDeclaration" index="2OEe5H" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-        <child id="1227096836496" name="messageTarget" index="2OEWyd" />
-      </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216383476350" name="quickFixArgument" index="Q6Id_" />
@@ -166,6 +161,11 @@
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643443" name="messageTarget" index="1urrC5" />
+        <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
         <property id="1216127910019" name="applyImmediately" index="ARO6o" />
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
@@ -957,7 +957,7 @@
                 <node concept="Xl_RD" id="5xedRWY4hvj" role="a7wSD">
                   <property role="Xl_RC" value="Concept is deprecated" />
                 </node>
-                <node concept="2OqwBi" id="5xedRWY4i$o" role="2OEOjV">
+                <node concept="2OqwBi" id="5xedRWY4i$o" role="1urrMF">
                   <node concept="1YBJjd" id="5xedRWY4ix8" role="2Oq$k0">
                     <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
                   </node>
@@ -1126,11 +1126,11 @@
                         <property role="Xl_RC" value="can only have one child in " />
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="3SM_R9ytx1g" role="2OEOjV">
-                      <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
-                    </node>
-                    <node concept="2OE7Q9" id="3SM_R9ytwmz" role="2OEWyd">
+                    <node concept="2OE7Q9" id="3SM_R9ytwmz" role="1urrC5">
                       <ref role="2OEe5H" to="hba4:3SM_R9yrStr" resolve="childLink" />
+                    </node>
+                    <node concept="1YBJjd" id="3SM_R9ytx1g" role="1urrMF">
+                      <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
                     </node>
                   </node>
                 </node>
@@ -1225,11 +1225,11 @@
                         <property role="Xl_RC" value="exactly one element required in " />
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="3SM_R9ytoA0" role="2OEOjV">
-                      <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
-                    </node>
-                    <node concept="2OE7Q9" id="3SM_R9ytoA1" role="2OEWyd">
+                    <node concept="2OE7Q9" id="3SM_R9ytoA1" role="1urrC5">
                       <ref role="2OEe5H" to="hba4:3SM_R9yrStr" resolve="childLink" />
+                    </node>
+                    <node concept="1YBJjd" id="3SM_R9ytoA0" role="1urrMF">
+                      <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
                     </node>
                   </node>
                 </node>
@@ -1304,11 +1304,11 @@
                         <property role="Xl_RC" value="at least one element required in " />
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="3SM_R9ytwlg" role="2OEOjV">
-                      <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
-                    </node>
-                    <node concept="2OE7Q9" id="3SM_R9ytwlh" role="2OEWyd">
+                    <node concept="2OE7Q9" id="3SM_R9ytwlh" role="1urrC5">
                       <ref role="2OEe5H" to="hba4:3SM_R9yrStr" resolve="childLink" />
+                    </node>
+                    <node concept="1YBJjd" id="3SM_R9ytwlg" role="1urrMF">
+                      <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
                     </node>
                   </node>
                 </node>
@@ -1373,11 +1373,11 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="3SM_R9ytu_U" role="2OEOjV">
-                      <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
-                    </node>
-                    <node concept="2OE7Q9" id="3SM_R9ytu_W" role="2OEWyd">
+                    <node concept="2OE7Q9" id="3SM_R9ytu_W" role="1urrC5">
                       <ref role="2OEe5H" to="hba4:3SM_R9yrStr" resolve="childLink" />
+                    </node>
+                    <node concept="1YBJjd" id="3SM_R9ytu_U" role="1urrMF">
+                      <ref role="1YBMHb" node="3SM_R9yrY3r" resolve="cs" />
                     </node>
                   </node>
                 </node>
@@ -2012,7 +2012,7 @@
                 <node concept="Xl_RD" id="5yvl18N9ehP" role="2MkJ7o">
                   <property role="Xl_RC" value="cannot have two clauses of the same kind" />
                 </node>
-                <node concept="2GrUjf" id="5yvl18N9ehQ" role="2OEOjV">
+                <node concept="2GrUjf" id="5yvl18N9ehQ" role="1urrMF">
                   <ref role="2Gs0qQ" node="5yvl18N9eg2" resolve="c" />
                 </node>
               </node>
@@ -2093,7 +2093,7 @@
             <node concept="Xl_RD" id="5yvl18N9_Wi" role="2MkJ7o">
               <property role="Xl_RC" value="this clause needs a concept criterion (/)" />
             </node>
-            <node concept="1YBJjd" id="5yvl18N9_Wj" role="2OEOjV">
+            <node concept="1YBJjd" id="5yvl18N9_Wj" role="1urrMF">
               <ref role="1YBMHb" node="5yvl18N9_TS" resolve="arc" />
             </node>
           </node>
@@ -2137,10 +2137,10 @@
             <node concept="Xl_RD" id="5yvl18N9Ecx" role="2MkJ7o">
               <property role="Xl_RC" value="cannot be used - not corresponding criterion!" />
             </node>
-            <node concept="1YBJjd" id="5yvl18N9Rcm" role="2OEOjV">
+            <node concept="1YBJjd" id="5yvl18N9Rcm" role="1urrMF">
               <ref role="1YBMHb" node="5yvl18N9R3A" resolve="mce" />
             </node>
-            <node concept="3Cnw8n" id="5yvl18N9Wbz" role="2OEOjU">
+            <node concept="3Cnw8n" id="5yvl18N9Wbz" role="1urrFz">
               <ref role="QpYPw" node="5yvl18N9VBw" resolve="addClause" />
               <node concept="3CnSsL" id="5yvl18N9Wb$" role="3Coj4f">
                 <ref role="QkamJ" node="5yvl18N9VBz" resolve="expr" />
@@ -2181,7 +2181,7 @@
                       <node concept="Xl_RD" id="5yvl18Na9xM" role="2MkJ7o">
                         <property role="Xl_RC" value="wrong order - referenced clause must be defined earlier" />
                       </node>
-                      <node concept="1YBJjd" id="5yvl18Na9xN" role="2OEOjV">
+                      <node concept="1YBJjd" id="5yvl18Na9xN" role="1urrMF">
                         <ref role="1YBMHb" node="5yvl18N9R3A" resolve="mce" />
                       </node>
                     </node>
@@ -2630,7 +2630,7 @@
             <node concept="Xl_RD" id="7xRvYDMT4ey" role="2MkJ7o">
               <property role="Xl_RC" value="only nodes can be used here." />
             </node>
-            <node concept="2OqwBi" id="7xRvYDMT4pA" role="2OEOjV">
+            <node concept="2OqwBi" id="7xRvYDMT4pA" role="1urrMF">
               <node concept="1YBJjd" id="7xRvYDMT4jS" role="2Oq$k0">
                 <ref role="1YBMHb" node="7xRvYDMSZTC" resolve="css" />
               </node>
@@ -2712,10 +2712,10 @@
                     <ref role="3cqZAo" node="243ufko$AbZ" resolve="msg" />
                   </node>
                 </node>
-                <node concept="1YBJjd" id="243ufko$Aci" role="2OEOjV">
+                <node concept="1YBJjd" id="243ufko$Aci" role="1urrMF">
                   <ref role="1YBMHb" node="243ufko$AcF" resolve="iDep" />
                 </node>
-                <node concept="3Cnw8n" id="243ufko$Acj" role="2OEOjU">
+                <node concept="3Cnw8n" id="243ufko$Acj" role="1urrFz">
                   <property role="ARO6o" value="true" />
                   <ref role="QpYPw" node="6DV2S7Ik$24" resolve="fixMustBeMigratedAutomatically" />
                   <node concept="3CnSsL" id="243ufko$Ack" role="3Coj4f">
@@ -2746,10 +2746,10 @@
                       <ref role="3cqZAo" node="243ufko$AbZ" resolve="msg" />
                     </node>
                   </node>
-                  <node concept="1YBJjd" id="243ufko$Acv" role="2OEOjV">
+                  <node concept="1YBJjd" id="243ufko$Acv" role="1urrMF">
                     <ref role="1YBMHb" node="243ufko$AcF" resolve="iDep" />
                   </node>
-                  <node concept="3Cnw8n" id="243ufko$Acw" role="2OEOjU">
+                  <node concept="3Cnw8n" id="243ufko$Acw" role="1urrFz">
                     <ref role="QpYPw" node="6DV2S7Ik$24" resolve="fixMustBeMigratedAutomatically" />
                     <node concept="3CnSsL" id="243ufko$Acx" role="3Coj4f">
                       <ref role="QkamJ" node="6DV2S7Ik$25" resolve="nodeToBeFixed" />
@@ -2777,7 +2777,7 @@
               <node concept="37vLTw" id="243ufko$AcD" role="a7wSD">
                 <ref role="3cqZAo" node="243ufko$AbZ" resolve="msg" />
               </node>
-              <node concept="1YBJjd" id="243ufko$AcE" role="2OEOjV">
+              <node concept="1YBJjd" id="243ufko$AcE" role="1urrMF">
                 <ref role="1YBMHb" node="243ufko$AcF" resolve="iDep" />
               </node>
             </node>
@@ -3025,11 +3025,11 @@
                     <node concept="1bVj0M" id="6HZ4hJu0y1p" role="23t8la">
                       <node concept="3clFbS" id="6HZ4hJu0y1q" role="1bW5cS">
                         <node concept="2MkqsV" id="6HZ4hJu0y88" role="3cqZAp">
-                          <node concept="37vLTw" id="6HZ4hJu0$ua" role="2OEOjV">
-                            <ref role="3cqZAo" node="6HZ4hJu0y1r" resolve="it" />
-                          </node>
                           <node concept="Xl_RD" id="6HZ4hJu0ynA" role="2MkJ7o">
                             <property role="Xl_RC" value="Duplicate name!" />
+                          </node>
+                          <node concept="37vLTw" id="6HZ4hJu0$ua" role="1urrMF">
+                            <ref role="3cqZAo" node="6HZ4hJu0y1r" resolve="it" />
                           </node>
                         </node>
                       </node>
@@ -3086,7 +3086,7 @@
               <node concept="Xl_RD" id="1eZSuKdVpo$" role="a7wSD">
                 <property role="Xl_RC" value="Shall specify a repository to lock" />
               </node>
-              <node concept="1YBJjd" id="5KHBa6l7Gxk" role="2OEOjV">
+              <node concept="1YBJjd" id="5KHBa6l7Gxk" role="1urrMF">
                 <ref role="1YBMHb" node="5KHBa6l7Glo" resolve="safeReadAction" />
               </node>
             </node>
@@ -3120,7 +3120,7 @@
             <node concept="Xl_RD" id="5KHBa6l7GUZ" role="a7wSD">
               <property role="Xl_RC" value="Shall specify a repository to lock" />
             </node>
-            <node concept="1YBJjd" id="5KHBa6l7H6Y" role="2OEOjV">
+            <node concept="1YBJjd" id="5KHBa6l7H6Y" role="1urrMF">
               <ref role="1YBMHb" node="5KHBa6l7GUS" resolve="safeWriteAction" />
             </node>
           </node>

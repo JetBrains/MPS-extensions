@@ -84,13 +84,13 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
@@ -182,7 +182,7 @@
                 <property role="Xl_RC" value="Must be in a model named " />
               </node>
             </node>
-            <node concept="1YBJjd" id="6r4GR4a3YEX" role="2OEOjV">
+            <node concept="1YBJjd" id="6r4GR4a3YEX" role="1urrMF">
               <ref role="1YBMHb" node="6r4GR4a3BS$" resolve="node" />
             </node>
           </node>
@@ -218,7 +218,7 @@
                 </node>
               </node>
             </node>
-            <node concept="1YBJjd" id="6r4GR4a6_55" role="2OEOjV">
+            <node concept="1YBJjd" id="6r4GR4a6_55" role="1urrMF">
               <ref role="1YBMHb" node="6r4GR4a3BS$" resolve="node" />
             </node>
           </node>
@@ -310,9 +310,6 @@
       <node concept="3clFbJ" id="6r4GR4adyig" role="3cqZAp">
         <node concept="3clFbS" id="6r4GR4adyij" role="3clFbx">
           <node concept="a7r0C" id="6r4GR4adFkt" role="3cqZAp">
-            <node concept="1YBJjd" id="6r4GR4adFzN" role="2OEOjV">
-              <ref role="1YBMHb" node="6r4GR4adnIY" resolve="node" />
-            </node>
             <node concept="3cpWs3" id="6r4GR4adzzL" role="a7wSD">
               <node concept="2OqwBi" id="6r4GR4adzJi" role="3uHU7w">
                 <node concept="37vLTw" id="6r4GR4adz$4" role="2Oq$k0">
@@ -325,6 +322,9 @@
               <node concept="Xl_RD" id="6r4GR4adzrX" role="3uHU7B">
                 <property role="Xl_RC" value="File not found: " />
               </node>
+            </node>
+            <node concept="1YBJjd" id="6r4GR4adFzN" role="1urrMF">
+              <ref role="1YBMHb" node="6r4GR4adnIY" resolve="node" />
             </node>
           </node>
         </node>
@@ -415,9 +415,6 @@
       <node concept="3clFbJ" id="6r4GR4adIZf" role="3cqZAp">
         <node concept="3clFbS" id="6r4GR4adIZg" role="3clFbx">
           <node concept="a7r0C" id="6r4GR4adIZh" role="3cqZAp">
-            <node concept="1YBJjd" id="6r4GR4adIZi" role="2OEOjV">
-              <ref role="1YBMHb" node="6r4GR4adIWe" resolve="node" />
-            </node>
             <node concept="3cpWs3" id="6r4GR4adIZj" role="a7wSD">
               <node concept="2OqwBi" id="6r4GR4adIZk" role="3uHU7w">
                 <node concept="37vLTw" id="6r4GR4adIZl" role="2Oq$k0">
@@ -430,6 +427,9 @@
               <node concept="Xl_RD" id="6r4GR4adIZn" role="3uHU7B">
                 <property role="Xl_RC" value="File not found: " />
               </node>
+            </node>
+            <node concept="1YBJjd" id="6r4GR4adIZi" role="1urrMF">
+              <ref role="1YBMHb" node="6r4GR4adIWe" resolve="node" />
             </node>
           </node>
         </node>

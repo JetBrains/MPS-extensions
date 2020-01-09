@@ -983,5 +983,16 @@
     <property role="34LRSv" value="parentNode" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="2q0cFwEBOkL">
+    <property role="EcuMT" value="2774273137030677809" />
+    <property role="TrG5h" value="Parameter_smartReferent" />
+    <property role="34LRSv" value="smartReferent" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+    <node concept="1TJgyj" id="2q0cFwF9Zg$" role="1TKVEi">
+      <property role="IQ2ns" value="2774273137039635492" />
+      <property role="20kJfa" value="link" />
+      <ref role="20lvS9" node="6oKG1kMxv_T" resolve="FlagCell" />
+    </node>
+  </node>
 </model>
 

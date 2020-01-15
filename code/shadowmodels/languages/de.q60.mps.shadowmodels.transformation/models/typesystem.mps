@@ -3896,11 +3896,11 @@
             <node concept="Xl_RD" id="32qWz0KZMBQ" role="2MkJ7o">
               <property role="Xl_RC" value="Only transformations with one input parameter are supported" />
             </node>
-            <node concept="2OE7Q9" id="32qWz0KZMFD" role="1urrC5">
-              <ref role="2OEe5H" to="oyp0:2$QnGbu1KPZ" resolve="transformation" />
-            </node>
             <node concept="1YBJjd" id="32qWz0KZMEd" role="1urrMF">
               <ref role="1YBMHb" node="32qWz0KZD1r" resolve="n" />
+            </node>
+            <node concept="2OE7Q9" id="32qWz0KZMFD" role="1urrC5">
+              <ref role="2OEe5H" to="oyp0:2$QnGbu1KPZ" resolve="transformation" />
             </node>
           </node>
         </node>
@@ -4985,6 +4985,80 @@
     <node concept="1YaCAy" id="2sNIAl_oYWG" role="1YuTPh">
       <property role="TrG5h" value="n" />
       <ref role="1YaFvo" to="oyp0:2sNIAl_oTZc" resolve="OperationThisExpression" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4ygyjZjeTmy">
+    <property role="TrG5h" value="typeof_GoalCall" />
+    <property role="3GE5qa" value="mpslike" />
+    <node concept="3clFbS" id="4ygyjZjeTmz" role="18ibNy">
+      <node concept="1Z5TYs" id="4ygyjZjeTy9" role="3cqZAp">
+        <node concept="mw_s8" id="4ygyjZjeTyt" role="1ZfhKB">
+          <node concept="2pJPEk" id="4ygyjZjeTyp" role="mwGJk">
+            <node concept="2pJPED" id="4ygyjZjeTyC" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4ygyjZjeTyc" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4ygyjZjeTmG" role="mwGJk">
+            <node concept="1YBJjd" id="4ygyjZjeTo$" role="1Z2MuG">
+              <ref role="1YBMHb" node="4ygyjZjeTm_" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4ygyjZjeTm_" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4ygyjZj7zbI" resolve="GoalCall" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4ygyjZj1r7T">
+    <property role="TrG5h" value="typeof_ReductionRuleInputRef" />
+    <property role="3GE5qa" value="mpslike" />
+    <node concept="3clFbS" id="4ygyjZj1r7U" role="18ibNy">
+      <node concept="1Z5TYs" id="4ygyjZj1rgh" role="3cqZAp">
+        <node concept="mw_s8" id="4ygyjZj1rg_" role="1ZfhKB">
+          <node concept="2pJPEk" id="4ygyjZj1rhY" role="mwGJk">
+            <node concept="2pJPED" id="4ygyjZj1rhX" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+              <node concept="2pIpSj" id="4ygyjZj1rif" role="2pJxcM">
+                <ref role="2pIpSl" to="tp25:g$ehGDh" resolve="concept" />
+                <node concept="36biLy" id="4ygyjZj1riu" role="28nt2d">
+                  <node concept="2OqwBi" id="4ygyjZj1rQy" role="36biLW">
+                    <node concept="2OqwBi" id="4ygyjZj1rsF" role="2Oq$k0">
+                      <node concept="1YBJjd" id="4ygyjZj1riD" role="2Oq$k0">
+                        <ref role="1YBMHb" node="4ygyjZj1r7W" resolve="n" />
+                      </node>
+                      <node concept="2Xjw5R" id="4ygyjZj1rCb" role="2OqNvi">
+                        <node concept="1xMEDy" id="4ygyjZj1rCd" role="1xVPHs">
+                          <node concept="chp4Y" id="4ygyjZjb$ve" role="ri$Ld">
+                            <ref role="cht4Q" to="oyp0:4ygyjZjbyXO" resolve="ISingleInputRule" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="4ygyjZjb$DY" role="2OqNvi">
+                      <ref role="37wK5l" to="hm90:4ygyjZjb$vD" resolve="getInputConcept" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4ygyjZj1rgk" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4ygyjZj1r83" role="mwGJk">
+            <node concept="1YBJjd" id="4ygyjZj1r8j" role="1Z2MuG">
+              <ref role="1YBMHb" node="4ygyjZj1r7W" resolve="n" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4ygyjZj1r7W" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="oyp0:4ygyjZiZrST" resolve="SingleInputRef" />
     </node>
   </node>
 </model>

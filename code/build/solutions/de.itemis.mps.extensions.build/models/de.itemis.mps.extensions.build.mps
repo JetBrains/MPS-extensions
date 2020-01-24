@@ -7634,6 +7634,12 @@
         <node concept="3LEDTy" id="2$j3xkr5f7I" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
         </node>
+        <node concept="3LEDTy" id="4CvHZ0pb0aW" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
+        </node>
+        <node concept="3LEDTy" id="4CvHZ0pb0pk" role="3LEDUa">
+          <ref role="3LEDTV" node="4iIKqJTZ5Hs" resolve="de.q60.mps.polymorphicfunctions" />
+        </node>
       </node>
       <node concept="1E1JtA" id="4hqUO9aIeR_" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -7776,6 +7782,12 @@
         </node>
         <node concept="3LEDTM" id="2$j3xkr5f8z" role="3LEDUa">
           <ref role="3LEDTN" node="4hqUO9aIeR_" resolve="de.q60.mps.virtualinterfaces.genplan" />
+        </node>
+        <node concept="3LEDTy" id="4CvHZ0pb0Xd" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+        </node>
+        <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
         </node>
       </node>
     </node>

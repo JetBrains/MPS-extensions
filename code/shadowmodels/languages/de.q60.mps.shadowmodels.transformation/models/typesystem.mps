@@ -2,7 +2,7 @@
 <model ref="r:fd3ba2d5-05a9-4b3b-93ad-a566c0e12538(de.q60.mps.shadowmodels.transformation.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
@@ -184,10 +184,6 @@
       <concept id="1227096620180" name="jetbrains.mps.lang.typesystem.structure.ReferenceMessageTarget" flags="ng" index="2OE7Q9">
         <reference id="1227096645744" name="linkDeclaration" index="2OEe5H" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-        <child id="1227096836496" name="messageTarget" index="2OEWyd" />
-      </concept>
       <concept id="1205762105978" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableDeclaration" flags="ng" index="2X1qdy" />
       <concept id="1205762656241" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableReference" flags="nn" index="2X3wrD">
         <reference id="1205762683928" name="whenConcreteVar" index="2X3Bk0" />
@@ -196,6 +192,10 @@
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643443" name="messageTarget" index="1urrC5" />
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1176558773329" name="jetbrains.mps.lang.typesystem.structure.CoerceStatement" flags="nn" index="3Knyl0">
         <child id="1176558868203" name="body" index="3KnTvU" />
         <child id="1176558876970" name="pattern" index="3KnVwV" />
@@ -765,7 +765,7 @@
                 <property role="Xl_RC" value=" parameters expected" />
               </node>
             </node>
-            <node concept="1YBJjd" id="1cIlazwO4nB" role="2OEOjV">
+            <node concept="1YBJjd" id="1cIlazwO4nB" role="1urrMF">
               <ref role="1YBMHb" node="1cIlazwNOVI" resolve="n" />
             </node>
           </node>
@@ -1222,7 +1222,23 @@
             </node>
             <node concept="3clFbS" id="3Ezg1fMUrCC" role="3clFbx">
               <node concept="2MkqsV" id="3Ezg1fMUDSX" role="3cqZAp">
-                <node concept="3K4zz7" id="3Ezg1fMURd9" role="2OEOjV">
+                <node concept="3cpWs3" id="3Ezg1fMUGiq" role="2MkJ7o">
+                  <node concept="Xl_RD" id="3Ezg1fMUGit" role="3uHU7w">
+                    <property role="Xl_RC" value=" input paramters expected" />
+                  </node>
+                  <node concept="2OqwBi" id="3Ezg1fMUDTi" role="3uHU7B">
+                    <node concept="2OqwBi" id="3Ezg1fMUDTj" role="2Oq$k0">
+                      <node concept="37vLTw" id="5o5qH$CFzQ0" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5o5qH$CFvrM" resolve="base" />
+                      </node>
+                      <node concept="3Tsc0h" id="3Ezg1fMUDTn" role="2OqNvi">
+                        <ref role="3TtcxE" to="oyp0:6ndA7L_LbyN" resolve="input" />
+                      </node>
+                    </node>
+                    <node concept="34oBXx" id="3Ezg1fMUDTo" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="3K4zz7" id="3Ezg1fMURd9" role="1urrMF">
                   <node concept="1YBJjd" id="3Ezg1fMURBH" role="3K4E3e">
                     <ref role="1YBMHb" node="3Ezg1fMUrC7" resolve="n" />
                   </node>
@@ -1247,22 +1263,6 @@
                       </node>
                     </node>
                     <node concept="1v1jN8" id="3Ezg1fMUPt8" role="2OqNvi" />
-                  </node>
-                </node>
-                <node concept="3cpWs3" id="3Ezg1fMUGiq" role="2MkJ7o">
-                  <node concept="Xl_RD" id="3Ezg1fMUGit" role="3uHU7w">
-                    <property role="Xl_RC" value=" input paramters expected" />
-                  </node>
-                  <node concept="2OqwBi" id="3Ezg1fMUDTi" role="3uHU7B">
-                    <node concept="2OqwBi" id="3Ezg1fMUDTj" role="2Oq$k0">
-                      <node concept="37vLTw" id="5o5qH$CFzQ0" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5o5qH$CFvrM" resolve="base" />
-                      </node>
-                      <node concept="3Tsc0h" id="3Ezg1fMUDTn" role="2OqNvi">
-                        <ref role="3TtcxE" to="oyp0:6ndA7L_LbyN" resolve="input" />
-                      </node>
-                    </node>
-                    <node concept="34oBXx" id="3Ezg1fMUDTo" role="2OqNvi" />
                   </node>
                 </node>
               </node>
@@ -1295,7 +1295,23 @@
             </node>
             <node concept="3clFbS" id="3Ezg1fMV1Ma" role="3clFbx">
               <node concept="2MkqsV" id="3Ezg1fMV1Mb" role="3cqZAp">
-                <node concept="3K4zz7" id="3Ezg1fMV1Mc" role="2OEOjV">
+                <node concept="3cpWs3" id="3Ezg1fMV1Mo" role="2MkJ7o">
+                  <node concept="Xl_RD" id="3Ezg1fMV1Mp" role="3uHU7w">
+                    <property role="Xl_RC" value=" output paramters expected" />
+                  </node>
+                  <node concept="2OqwBi" id="3Ezg1fMV1Mq" role="3uHU7B">
+                    <node concept="2OqwBi" id="3Ezg1fMV1Mr" role="2Oq$k0">
+                      <node concept="37vLTw" id="5o5qH$CF_3I" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5o5qH$CFvrM" resolve="base" />
+                      </node>
+                      <node concept="3Tsc0h" id="3Ezg1fMV4jC" role="2OqNvi">
+                        <ref role="3TtcxE" to="oyp0:6ndA7L_Lvoc" resolve="output" />
+                      </node>
+                    </node>
+                    <node concept="34oBXx" id="3Ezg1fMV1Mw" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="3K4zz7" id="3Ezg1fMV1Mc" role="1urrMF">
                   <node concept="1YBJjd" id="3Ezg1fMV1Md" role="3K4E3e">
                     <ref role="1YBMHb" node="3Ezg1fMUrC7" resolve="n" />
                   </node>
@@ -1320,22 +1336,6 @@
                       </node>
                     </node>
                     <node concept="1v1jN8" id="3Ezg1fMV1Mn" role="2OqNvi" />
-                  </node>
-                </node>
-                <node concept="3cpWs3" id="3Ezg1fMV1Mo" role="2MkJ7o">
-                  <node concept="Xl_RD" id="3Ezg1fMV1Mp" role="3uHU7w">
-                    <property role="Xl_RC" value=" output paramters expected" />
-                  </node>
-                  <node concept="2OqwBi" id="3Ezg1fMV1Mq" role="3uHU7B">
-                    <node concept="2OqwBi" id="3Ezg1fMV1Mr" role="2Oq$k0">
-                      <node concept="37vLTw" id="5o5qH$CF_3I" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5o5qH$CFvrM" resolve="base" />
-                      </node>
-                      <node concept="3Tsc0h" id="3Ezg1fMV4jC" role="2OqNvi">
-                        <ref role="3TtcxE" to="oyp0:6ndA7L_Lvoc" resolve="output" />
-                      </node>
-                    </node>
-                    <node concept="34oBXx" id="3Ezg1fMV1Mw" role="2OqNvi" />
                   </node>
                 </node>
               </node>
@@ -2094,7 +2094,7 @@
                 <property role="Xl_RC" value=" parameters expected" />
               </node>
             </node>
-            <node concept="1YBJjd" id="1HMbik_TtfS" role="2OEOjV">
+            <node concept="1YBJjd" id="1HMbik_TtfS" role="1urrMF">
               <ref role="1YBMHb" node="TC$M5wVWXv" resolve="n" />
             </node>
           </node>
@@ -3550,7 +3550,7 @@
                 <property role="Xl_RC" value=" parameters expected" />
               </node>
             </node>
-            <node concept="1YBJjd" id="3fc1D1mDdaG" role="2OEOjV">
+            <node concept="1YBJjd" id="3fc1D1mDdaG" role="1urrMF">
               <ref role="1YBMHb" node="3fc1D1mD8qC" resolve="n" />
             </node>
           </node>
@@ -3728,7 +3728,7 @@
                 <property role="Xl_RC" value=" parameters expected" />
               </node>
             </node>
-            <node concept="1YBJjd" id="3fc1D1mZQfF" role="2OEOjV">
+            <node concept="1YBJjd" id="3fc1D1mZQfF" role="1urrMF">
               <ref role="1YBMHb" node="3fc1D1mZQeS" resolve="n" />
             </node>
           </node>
@@ -3896,11 +3896,11 @@
             <node concept="Xl_RD" id="32qWz0KZMBQ" role="2MkJ7o">
               <property role="Xl_RC" value="Only transformations with one input parameter are supported" />
             </node>
-            <node concept="1YBJjd" id="32qWz0KZMEd" role="2OEOjV">
-              <ref role="1YBMHb" node="32qWz0KZD1r" resolve="n" />
-            </node>
-            <node concept="2OE7Q9" id="32qWz0KZMFD" role="2OEWyd">
+            <node concept="2OE7Q9" id="32qWz0KZMFD" role="1urrC5">
               <ref role="2OEe5H" to="oyp0:2$QnGbu1KPZ" resolve="transformation" />
+            </node>
+            <node concept="1YBJjd" id="32qWz0KZMEd" role="1urrMF">
+              <ref role="1YBMHb" node="32qWz0KZD1r" resolve="n" />
             </node>
           </node>
         </node>
@@ -3995,7 +3995,7 @@
                 <property role="Xl_RC" value=" parameters expected" />
               </node>
             </node>
-            <node concept="1YBJjd" id="3RcjyAueMDE" role="2OEOjV">
+            <node concept="1YBJjd" id="3RcjyAueMDE" role="1urrMF">
               <ref role="1YBMHb" node="3kkgoki__Uj" resolve="n" />
             </node>
           </node>
@@ -4100,7 +4100,7 @@
             <node concept="Xl_RD" id="7zy9ho7I2JL" role="2MkJ7o">
               <property role="Xl_RC" value="Use 'transform' for the descendants of a rewrite" />
             </node>
-            <node concept="1YBJjd" id="7zy9ho7I2NE" role="2OEOjV">
+            <node concept="1YBJjd" id="7zy9ho7I2NE" role="1urrMF">
               <ref role="1YBMHb" node="7zy9ho7I0Sq" resolve="n" />
             </node>
           </node>
@@ -4837,7 +4837,7 @@
                 <property role="Xl_RC" value=" parameters expected" />
               </node>
             </node>
-            <node concept="1YBJjd" id="6g556hX6C46" role="2OEOjV">
+            <node concept="1YBJjd" id="6g556hX6C46" role="1urrMF">
               <ref role="1YBMHb" node="6g556hX0ZHu" resolve="n" />
             </node>
           </node>

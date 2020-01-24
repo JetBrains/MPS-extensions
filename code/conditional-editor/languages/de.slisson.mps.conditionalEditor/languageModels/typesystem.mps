@@ -86,10 +86,6 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216383476350" name="quickFixArgument" index="Q6Id_" />
@@ -109,6 +105,10 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G">
         <child id="2329696648448631592" name="overridenRules" index="dp_RE" />
+      </concept>
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
@@ -259,10 +259,10 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="3VzM1alZaX2" role="2OEOjV">
+                <node concept="1YBJjd" id="3VzM1alZaX2" role="1urrMF">
                   <ref role="1YBMHb" node="3VzM1alZ3Yv" resolve="node" />
                 </node>
-                <node concept="3Cnw8n" id="3VzM1alZd_7" role="2OEOjU">
+                <node concept="3Cnw8n" id="3VzM1alZd_7" role="1urrFz">
                   <ref role="QpYPw" node="3VzM1alZbkd" resolve="fix_AddExtendedLanguage" />
                   <node concept="3CnSsL" id="3VzM1alZdF8" role="3Coj4f">
                     <ref role="QkamJ" node="3VzM1alZbkq" resolve="languageToExtend" />

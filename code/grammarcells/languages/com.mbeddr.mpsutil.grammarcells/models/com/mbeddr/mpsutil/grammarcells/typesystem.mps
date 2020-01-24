@@ -95,10 +95,6 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216391046856" name="descriptionBlock" index="QzAvj" />
@@ -110,6 +106,10 @@
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
       </concept>
@@ -362,10 +362,10 @@
             <node concept="Xl_RD" id="5l1k7_Rb0Ba" role="2MkJ7o">
               <property role="Xl_RC" value="You need to define a grammar rule" />
             </node>
-            <node concept="1YBJjd" id="5l1k7_Rb0E1" role="2OEOjV">
+            <node concept="1YBJjd" id="5l1k7_Rb0E1" role="1urrMF">
               <ref role="1YBMHb" node="5l1k7_Rb0eN" resolve="node" />
             </node>
-            <node concept="3Cnw8n" id="5l1k7_RbH6S" role="2OEOjU">
+            <node concept="3Cnw8n" id="5l1k7_RbH6S" role="1urrFz">
               <ref role="QpYPw" node="5l1k7_Rb0Eu" resolve="addGrammarRule" />
             </node>
           </node>
@@ -467,11 +467,11 @@
       <node concept="3clFbJ" id="7VjNOn_D4kM" role="3cqZAp">
         <node concept="3clFbS" id="7VjNOn_D4kN" role="3clFbx">
           <node concept="a7r0C" id="7VjNOn_DbKX" role="3cqZAp">
-            <node concept="1YBJjd" id="7VjNOn_DbL_" role="2OEOjV">
-              <ref role="1YBMHb" node="7VjNOn_D4ky" resolve="node" />
-            </node>
             <node concept="Xl_RD" id="7VjNOn_DbKZ" role="a7wSD">
               <property role="Xl_RC" value="Will be inlined. Override will not work." />
+            </node>
+            <node concept="1YBJjd" id="7VjNOn_DbL_" role="1urrMF">
+              <ref role="1YBMHb" node="7VjNOn_D4ky" resolve="node" />
             </node>
           </node>
         </node>
@@ -495,11 +495,11 @@
       <node concept="3clFbJ" id="7VjNOn_D4B7" role="3cqZAp">
         <node concept="3clFbS" id="7VjNOn_D4B8" role="3clFbx">
           <node concept="a7r0C" id="7VjNOn_DbJi" role="3cqZAp">
-            <node concept="1YBJjd" id="7VjNOn_DbJX" role="2OEOjV">
-              <ref role="1YBMHb" node="7VjNOn_D4Bd" resolve="node" />
-            </node>
             <node concept="Xl_RD" id="7VjNOn_DbJI" role="a7wSD">
               <property role="Xl_RC" value="Will be inlined. Override will not work." />
+            </node>
+            <node concept="1YBJjd" id="7VjNOn_DbJX" role="1urrMF">
+              <ref role="1YBMHb" node="7VjNOn_D4Bd" resolve="node" />
             </node>
           </node>
         </node>
@@ -527,7 +527,7 @@
             <node concept="Xl_RD" id="65e5JdYM9HP" role="2MkJ7o">
               <property role="Xl_RC" value="Postprocessor not supported for single child cells without transformation text" />
             </node>
-            <node concept="1YBJjd" id="65e5JdYM9JN" role="2OEOjV">
+            <node concept="1YBJjd" id="65e5JdYM9JN" role="1urrMF">
               <ref role="1YBMHb" node="65e5JdYM4uq" resolve="n" />
             </node>
           </node>

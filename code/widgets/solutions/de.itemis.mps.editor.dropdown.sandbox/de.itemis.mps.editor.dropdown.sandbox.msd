@@ -5,6 +5,11 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <sourcePath />
   <languageVersions>
     <language slang="l:6b5dd191-3c21-47c5-a7d3-c6e1f7c7cbd0:de.itemis.mps.editor.dropdown.demolang" version="0" />

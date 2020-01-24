@@ -5,6 +5,11 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <sourcePath />
   <languageVersions>
     <language slang="l:a50fc719-4261-4a46-8e65-d98071469ff6:com.dslfoundry.plaintextgen.example.nestedlist" version="-1" />

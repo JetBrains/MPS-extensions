@@ -28,6 +28,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
+    <import index="r3rm" ref="r:7fc96130-6279-4a55-aeeb-422a6879539d(de.itemis.mps.editor.diagram.runtime.jgraph)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
@@ -43,6 +44,7 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
+        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -3670,6 +3672,78 @@
     </node>
     <node concept="13hLZK" id="5ZBOFE3unq9" role="13h7CW">
       <node concept="3clFbS" id="5ZBOFE3unqa" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="3YGiJOY1y7t">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <ref role="13h7C2" to="2qld:3YGiJOY1y6Y" resolve="QueryLayoutAlgorithm" />
+    <node concept="13hLZK" id="3YGiJOY1y7u" role="13h7CW">
+      <node concept="3clFbS" id="3YGiJOY1y7v" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3YGiJOY1y7C" role="13h7CS">
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0is" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="3YGiJOY1y7G" role="1B3o_S" />
+      <node concept="3clFbS" id="3YGiJOY1y7I" role="3clF47">
+        <node concept="3clFbF" id="3YGiJOY1yZJ" role="3cqZAp">
+          <node concept="2c44tf" id="3YGiJOY1yZD" role="3clFbG">
+            <node concept="3uibUv" id="3YGiJOY1O19" role="2c44tc">
+              <ref role="3uigEE" to="r3rm:xqQxwstVLN" resolve="ILayouter" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="3YGiJOY1y7J" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="3YGiJOY2lff" role="13h7CS">
+      <property role="TrG5h" value="getParameterConcepts" />
+      <property role="13i0is" value="false" />
+      <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
+      <node concept="3Tm1VV" id="3YGiJOY2lfn" role="1B3o_S" />
+      <node concept="3clFbS" id="3YGiJOY2lfo" role="3clF47">
+        <node concept="3clFbF" id="3YGiJOY2lqg" role="3cqZAp">
+          <node concept="2ShNRf" id="3YGiJOY2lq6" role="3clFbG">
+            <node concept="Tc6Ow" id="3YGiJOY2qKh" role="2ShVmc">
+              <node concept="3bZ5Sz" id="3YGiJOY2rhw" role="HW$YZ">
+                <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="35c_gC" id="3YGiJOY2rJ2" role="HW$Y0">
+                <ref role="35c_gD" to="2qld:3YGiJOY24vX" resolve="ContextNodeParameter" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="3YGiJOY2lfp" role="3clF45">
+        <node concept="3bZ5Sz" id="3YGiJOY2lfq" role="_ZDj9">
+          <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3YGiJOY24wp">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <ref role="13h7C2" to="2qld:3YGiJOY24vX" resolve="ContextNodeParameter" />
+    <node concept="13hLZK" id="3YGiJOY24wq" role="13h7CW">
+      <node concept="3clFbS" id="3YGiJOY24wr" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3YGiJOY24w$" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="3YGiJOY24w_" role="1B3o_S" />
+      <node concept="3clFbS" id="3YGiJOY24wE" role="3clF47">
+        <node concept="3clFbF" id="3YGiJOY24C1" role="3cqZAp">
+          <node concept="2pJPEk" id="3YGiJOY24BR" role="3clFbG">
+            <node concept="2pJPED" id="3YGiJOY24Fx" role="2pJPEn">
+              <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="3YGiJOY24wF" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
     </node>
   </node>
 </model>

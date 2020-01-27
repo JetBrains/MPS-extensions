@@ -2183,5 +2183,22 @@
       <ref role="2wpffI" node="6Bd7VwqYQBY" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3YGiJOY1y6Y">
+    <property role="EcuMT" value="4588124571911463358" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="QueryLayoutAlgorithm" />
+    <property role="34LRSv" value="query" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="3YGiJOY1y6Z" role="PzmwI">
+      <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3YGiJOY24vX">
+    <property role="EcuMT" value="4588124571911604221" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="ContextNodeParameter" />
+    <property role="34LRSv" value="contextNode" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 

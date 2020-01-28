@@ -58,16 +58,16 @@ The structure in the MPS-extensions repository slightly differs from the one in 
 
 The files need to be part of the MPS project to show up in MPS. This is done by adding them to the project path:
 
-<img style="width:75%;" src="Migrating/img/add-files-1.png">
+<img style="width:75%;" src="img/add-files-1.png">
 
 And then selecting the before copied files: 
 
-<img style="width:75%;" src="Migrating/img/add-files-2.png">
+<img style="width:75%;" src="img/add-files-2.png">
 
 The files end up in no folder in the project by default. They should be placed in a virtual folder of the project matches subfolder in `code`. In this case `jung`:
 
-<img style="width:75%;" src="Migrating/img/add-files-4.png">
-<img style="width:75%;" src="Migrating/img/add-files-5.png">
+<img style="width:75%;" src="img/add-files-4.png">
+<img style="width:75%;" src="img/add-files-5.png">
 
 After this is done the last step that is missing is adding the plugin to the build.
 
@@ -75,19 +75,19 @@ After this is done the last step that is missing is adding the plugin to the bui
 
 To build plugin that was moved it needs to beb part of the build scripts. These scripts are located under the `build` folder of the project. The solution of interest is `de.itemis.mps.extensions.build`. And then the `de.itemis.mps.extensions` build project:
 
-<img style="width:75%;" src="Migrating/img/add-files-7.png">
+<img style="width:75%;" src="img/add-files-7.png">
 
 The first thing required is a group where all the implementation modules of the plugin are places. Tests are placed in a different script. The group is named similar to the mbeddr group name but the prefix is not `com.mbeddr.mpsutil` but `de.itemis.mps`. In this case this results to `de.itemis.mps.jung`. This group then contains all the the solutions and languages of the plugin:
 
-<img style="width:75%;" src="Migrating/img/add-files.gif">
+<img style="width:75%;" src="img/add-files.gif">
 
 After the group is created a `idea plugin` is required. This plugin references the group and should be placed right above the group in the build script. This is very important to keep the build script maintainable. 
 
-<img style="width:75%;" src="Migrating/img/add-files-8.png">
+<img style="width:75%;" src="img/add-files-8.png">
 
 The final step is adding the plugin to the layout section of the build project. 
 
-<img style="width:75%;" src="Migrating/img/add-files-9.png">
+<img style="width:75%;" src="img/add-files-9.png">
 
 After adding the plugin to the layout it should be possible to build the model. But in most cases a error like this will be shown:
 
@@ -99,7 +99,7 @@ cannot build relative path to `wstx-asl-3.2.6.jar': No such path in local layout
 
 This error message means that some jar files that are used by the language or some solution are missing. The convention here is to create a `lib` folder in the plugin and include the required `jar` files. These files are usually contained in a `lib` folder. 
 
-<img style="width:75%;" src="Migrating/img/add-files-10.png">
+<img style="width:75%;" src="img/add-files-10.png">
 
 ### Sending the Pull Request
 

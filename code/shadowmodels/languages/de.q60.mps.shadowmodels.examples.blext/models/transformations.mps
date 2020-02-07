@@ -100,9 +100,10 @@
         <child id="8156066107234763314" name="condition" index="vpezr" />
         <child id="7659280889105202204" name="content" index="WhCtZ" />
       </concept>
-      <concept id="3502377949028408002" name="de.q60.mps.shadowmodels.transformation.structure.InlineContribution" flags="ng" index="0pizM">
+      <concept id="3502377949028408002" name="de.q60.mps.shadowmodels.transformation.structure.InlineWeaving" flags="ng" index="0pizM">
+        <reference id="8608661697987662160" name="targetRole" index="1jqcP$" />
         <child id="3502377949028408005" name="target" index="0pizP" />
-        <child id="3824754023364056867" name="contribution" index="AM1qA" />
+        <child id="8608661697987690166" name="transformationCall" index="1jqia2" />
       </concept>
       <concept id="9170566427534778463" name="de.q60.mps.shadowmodels.transformation.structure.TransformationCall" flags="ng" index="214gnc">
         <reference id="6198477943068350028" name="transformation" index="1YEVMl" />
@@ -1468,6 +1469,7 @@
         </node>
       </node>
       <node concept="0pizM" id="32qWz0L1mC_" role="WhCtZ">
+        <ref role="1jqcP$" to="tpee:4EqhHTp4Mw3" resolve="member" />
         <node concept="3OkNDw" id="3kkgokjLqTZ" role="0pizP">
           <node concept="2OqwBi" id="32qWz0L1qcK" role="3OkNDH">
             <node concept="2155sH" id="32qWz0L1q4i" role="2Oq$k0">
@@ -1482,16 +1484,10 @@
             </node>
           </node>
         </node>
-        <node concept="027og" id="3kkgokjRMqw" role="AM1qA">
-          <ref role="02LMe" to="tpee:fz12cDA" resolve="ClassConcept" />
-          <node concept="027rt" id="3kkgokjRM_0" role="02LM9">
-            <ref role="027rv" to="tpee:4EqhHTp4Mw3" resolve="member" />
-            <node concept="214gnc" id="3kkgokjRM_1" role="027rp">
-              <ref role="1YEVMl" node="32qWz0L665Q" resolve="naMethod" />
-              <node concept="2155sH" id="3kkgokjRM_2" role="214sll">
-                <ref role="2155sG" node="32qWz0L1meU" />
-              </node>
-            </node>
+        <node concept="214gnc" id="7tS73g$8eSl" role="1jqia2">
+          <ref role="1YEVMl" node="32qWz0L665Q" resolve="naMethod" />
+          <node concept="2155sH" id="7tS73g$8eSE" role="214sll">
+            <ref role="2155sG" node="32qWz0L1meU" />
           </node>
         </node>
       </node>

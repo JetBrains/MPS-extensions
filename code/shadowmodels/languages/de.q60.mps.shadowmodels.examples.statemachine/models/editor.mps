@@ -21,8 +21,8 @@
     <import index="yb34" ref="r:530aea2f-dc0b-465c-91dd-a75239ac9e81(de.q60.mps.shadowmodels.examples.statemachine.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -376,27 +376,10 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3CYlK6ygJ0u" role="2OqNvi">
-                          <ref role="37wK5l" to="nv3w:5gTrVpG_uHA" resolve="update" />
+                          <ref role="37wK5l" to="nv3w:4NgaqHYYk1V" resolve="executeLazy" />
                           <node concept="2ShNRf" id="3CYlK6ygJ0v" role="37wK5m">
                             <node concept="1pGfFk" id="3CYlK6ygJ0w" role="2ShVmc">
-                              <ref role="37wK5l" to="nv3w:5yVaV$3$fjx" resolve="DirectTCall" />
-                              <node concept="2ShNRf" id="5yVaV$3GWNj" role="37wK5m">
-                                <node concept="2HTt$P" id="5yVaV$3GWNh" role="2ShVmc">
-                                  <node concept="3uibUv" id="5yVaV$3GWNi" role="2HTBi0">
-                                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                                  </node>
-                                  <node concept="2YIFZM" id="3CYlK6ygJ0x" role="2HTEbv">
-                                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
-                                    <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
-                                    <node concept="2OqwBi" id="3CYlK6ygJ0y" role="37wK5m">
-                                      <node concept="pncrf" id="3CYlK6ygJ0z" role="2Oq$k0" />
-                                      <node concept="3TrEf2" id="2VTIUrjn5vn" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="yb34:2VTIUrjljyQ" resolve="statemachine" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
+                              <ref role="37wK5l" to="nv3w:4NgaqHYY5n_" resolve="_TransformationCall" />
                               <node concept="2OqwBi" id="2VTIUrjn0Sv" role="37wK5m">
                                 <node concept="2OqwBi" id="2VTIUrjyZQZ" role="2Oq$k0">
                                   <node concept="2tJFMh" id="2VTIUrjyXo3" role="2Oq$k0">
@@ -418,6 +401,23 @@
                                 </node>
                                 <node concept="2qgKlT" id="2VTIUrjn1Mp" role="2OqNvi">
                                   <ref role="37wK5l" to="hm90:5o5qH$CR4Za" resolve="getBaseId" />
+                                </node>
+                              </node>
+                              <node concept="2ShNRf" id="5yVaV$3GWNj" role="37wK5m">
+                                <node concept="2HTt$P" id="5yVaV$3GWNh" role="2ShVmc">
+                                  <node concept="3uibUv" id="5yVaV$3GWNi" role="2HTBi0">
+                                    <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                                  </node>
+                                  <node concept="2YIFZM" id="3CYlK6ygJ0x" role="2HTEbv">
+                                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                                    <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
+                                    <node concept="2OqwBi" id="3CYlK6ygJ0y" role="37wK5m">
+                                      <node concept="pncrf" id="3CYlK6ygJ0z" role="2Oq$k0" />
+                                      <node concept="3TrEf2" id="2VTIUrjn5vn" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="yb34:2VTIUrjljyQ" resolve="statemachine" />
+                                      </node>
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>

@@ -10346,6 +10346,11 @@
               </node>
             </node>
           </node>
+          <node concept="1SiIV0" id="4NgaqHYIuiH" role="3bR37C">
+            <node concept="3bR9La" id="4NgaqHYIuiG" role="1SiIV1">
+              <ref role="3bR37D" node="4iIKqJTZ5J5" resolve="de.q60.mps.polymorphicfunctions#01" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="4iIKqJTZ63v" role="1E1XAP">
           <ref role="1E0d5P" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
@@ -10387,6 +10392,16 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6y2Ymn$Fp5J" role="3bR37C">
+          <node concept="3bR9La" id="6y2Ymn$Fp5K" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:4SM2EuqHUPF" resolve="jetbrains.mps.lang.modelapi" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6y2Ymn$Fp5L" role="3bR37C">
+          <node concept="3bR9La" id="6y2Ymn$Fp5M" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
         <node concept="1BupzO" id="6y2Ymn$Fp5Y" role="3bR31x">
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
@@ -10410,16 +10425,6 @@
             <node concept="3qWCbU" id="6y2Ymn$Fp60" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6y2Ymn$Fp5J" role="3bR37C">
-          <node concept="3bR9La" id="6y2Ymn$Fp5K" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:4SM2EuqHUPF" resolve="jetbrains.mps.lang.modelapi" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6y2Ymn$Fp5L" role="3bR37C">
-          <node concept="3bR9La" id="6y2Ymn$Fp5M" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>
@@ -10698,9 +10703,6 @@
         </node>
         <node concept="3LEDTy" id="6y2Ymn$Fp6X" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:4SM2EuqHUPF" resolve="jetbrains.mps.lang.modelapi" />
-        </node>
-        <node concept="3LEDTy" id="6y2Ymn$Fp6Y" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
       <node concept="1E1JtA" id="4hqUO9aIeR_" role="2G$12L">

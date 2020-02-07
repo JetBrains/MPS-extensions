@@ -141,8 +141,8 @@
           <node concept="3clFbS" id="7c10t$781lq" role="3clFbx">
             <node concept="3clFbF" id="6DdMXMencF7" role="3cqZAp">
               <node concept="2YIFZM" id="6DdMXMend4u" role="3clFbG">
-                <ref role="37wK5l" to="nv3w:3RcjyAuQv9G" resolve="checkHasTracking" />
                 <ref role="1Pybhc" to="nv3w:5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+                <ref role="37wK5l" to="nv3w:3RcjyAuNlAx" resolve="checkHasTracking" />
                 <node concept="2YIFZM" id="6DdMXMeni07" role="37wK5m">
                   <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
                   <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />

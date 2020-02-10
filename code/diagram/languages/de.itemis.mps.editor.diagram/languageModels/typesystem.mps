@@ -74,6 +74,9 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
+      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
+        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
+      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
@@ -112,6 +115,7 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101597970" name="jetbrains.mps.lang.smodel.structure.OperationParm_Root" flags="ng" index="1xLf8o" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -982,6 +986,87 @@
     <node concept="1YaCAy" id="4rMwD1We6Ux" role="1YuTPh">
       <property role="TrG5h" value="node" />
       <ref role="1YaFvo" to="2qld:4rMwD1We6Mi" resolve="EditorContextExpression" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7W7dK_Oc0ZB">
+    <property role="TrG5h" value="check_ShapeDefinition" />
+    <property role="3GE5qa" value="shape" />
+    <node concept="3clFbS" id="7W7dK_Oc0ZC" role="18ibNy">
+      <node concept="3clFbJ" id="7W7dK_Oc19R" role="3cqZAp">
+        <node concept="2OqwBi" id="7W7dK_Oc29_" role="3clFbw">
+          <node concept="2OqwBi" id="7W7dK_Oc1mm" role="2Oq$k0">
+            <node concept="1YBJjd" id="7W7dK_Oc1a6" role="2Oq$k0">
+              <ref role="1YBMHb" node="7W7dK_Oc0ZE" resolve="n" />
+            </node>
+            <node concept="3TrEf2" id="7W7dK_Oc1xy" role="2OqNvi">
+              <ref role="3Tt5mk" to="2qld:6uo2fN6x_Ux" resolve="getShape" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="7W7dK_Oc3ky" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="7W7dK_Oc19T" role="3clFbx">
+          <node concept="3clFbJ" id="7W7dK_Oc3nJ" role="3cqZAp">
+            <node concept="2OqwBi" id="7W7dK_Oc4qP" role="3clFbw">
+              <node concept="2OqwBi" id="7W7dK_Oc3ym" role="2Oq$k0">
+                <node concept="1YBJjd" id="7W7dK_Oc3nY" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7W7dK_Oc0ZE" resolve="n" />
+                </node>
+                <node concept="3TrEf2" id="7W7dK_Oc3MM" role="2OqNvi">
+                  <ref role="3Tt5mk" to="2qld:6uo2fN6iiLz" resolve="draw" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="7W7dK_Oc5zP" role="2OqNvi" />
+            </node>
+            <node concept="3clFbS" id="7W7dK_Oc3nL" role="3clFbx">
+              <node concept="2MkqsV" id="7W7dK_Oc5Gb" role="3cqZAp">
+                <node concept="Xl_RD" id="7W7dK_Oc5Gq" role="2MkJ7o">
+                  <property role="Xl_RC" value="This is ignored if a shape is specified" />
+                </node>
+                <node concept="2OqwBi" id="7W7dK_Oc5QT" role="2OEOjV">
+                  <node concept="1YBJjd" id="7W7dK_Oc5I1" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7W7dK_Oc0ZE" resolve="n" />
+                  </node>
+                  <node concept="3TrEf2" id="7W7dK_Oc6a$" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2qld:6uo2fN6iiLz" resolve="draw" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="7W7dK_Oc6da" role="3cqZAp">
+            <node concept="2OqwBi" id="7W7dK_Oc6db" role="3clFbw">
+              <node concept="2OqwBi" id="7W7dK_Oc6dc" role="2Oq$k0">
+                <node concept="1YBJjd" id="7W7dK_Oc6dd" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7W7dK_Oc0ZE" resolve="n" />
+                </node>
+                <node concept="3TrEf2" id="7W7dK_Oc6Od" role="2OqNvi">
+                  <ref role="3Tt5mk" to="2qld:6uo2fN6x_Uq" resolve="drawShadow" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="7W7dK_Oc6df" role="2OqNvi" />
+            </node>
+            <node concept="3clFbS" id="7W7dK_Oc6dg" role="3clFbx">
+              <node concept="2MkqsV" id="7W7dK_Oc6dh" role="3cqZAp">
+                <node concept="Xl_RD" id="7W7dK_Oc6di" role="2MkJ7o">
+                  <property role="Xl_RC" value="This is ignored if a shape is specified" />
+                </node>
+                <node concept="2OqwBi" id="7W7dK_Oc6dj" role="2OEOjV">
+                  <node concept="1YBJjd" id="7W7dK_Oc6dk" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7W7dK_Oc0ZE" resolve="n" />
+                  </node>
+                  <node concept="3TrEf2" id="7W7dK_Oc7fn" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2qld:6uo2fN6x_Uq" resolve="drawShadow" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7W7dK_Oc0ZE" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="2qld:6uo2fN6fbSW" resolve="ShapeDefinition" />
     </node>
   </node>
 </model>

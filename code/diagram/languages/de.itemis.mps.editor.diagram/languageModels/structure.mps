@@ -2,7 +2,7 @@
 <model ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -543,6 +543,9 @@
     <property role="TrG5h" value="StandardShape" />
     <property role="EcuMT" value="7464726264117682320" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6uo2fN6iN_R" role="PzmwI">
+      <ref role="PrY4T" node="6uo2fN6gOXK" resolve="IShape" />
+    </node>
     <node concept="1TJgyi" id="7WTFIQIcYvn" role="1TKVEl">
       <property role="TrG5h" value="shape" />
       <property role="IQ2nx" value="7464726264117682321" />
@@ -554,9 +557,6 @@
           <ref role="AX2Wp" node="6uo2fN6gPY$" resolve="StandardShapes" />
         </node>
       </node>
-    </node>
-    <node concept="PrWs8" id="6uo2fN6iN_R" role="PzmwI">
-      <ref role="PrY4T" node="6uo2fN6gOXK" resolve="IShape" />
     </node>
   </node>
   <node concept="1TIwiD" id="6uo2fN6xziV">
@@ -1398,6 +1398,9 @@
     <property role="3GE5qa" value="layoutAlgorithm" />
     <property role="EcuMT" value="8433227566817223068" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7k8PWDQb2b0" role="PzmwI">
+      <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
+    </node>
     <node concept="1TJgyi" id="7WTFIQIcYvr" role="1TKVEl">
       <property role="TrG5h" value="direction" />
       <property role="IQ2nx" value="7623784619795245948" />
@@ -1409,9 +1412,6 @@
           <ref role="AX2Wp" node="6Bd7VwqYQAS" resolve="LayoutDirection" />
         </node>
       </node>
-    </node>
-    <node concept="PrWs8" id="7k8PWDQb2b0" role="PzmwI">
-      <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
     </node>
   </node>
   <node concept="1TIwiD" id="7k8PWDQd3nq">
@@ -2096,41 +2096,6 @@
       <ref role="2wpffI" node="6uo2fN6gQ8h" />
     </node>
   </node>
-  <node concept="25R3W" id="7WTFIQIcYq9">
-    <property role="TrG5h" value="LineStyleValues" />
-    <property role="3GE5qa" value="style" />
-    <property role="3F6X1D" value="6987730699889504308" />
-    <ref role="1H5jkz" node="7WTFIQIcYqb" resolve="SOLID" />
-    <node concept="2JgGob" id="7WTFIQIcYqa" role="lGtFl">
-      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
-      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
-      <node concept="AxPO7" id="63Tq0M90n0O" role="3lCyv">
-        <property role="3GE5qa" value="style" />
-        <property role="TrG5h" value="LineStyleValues" />
-        <property role="3lZH7k" value="hrlZj6Q/derive_from_internal_value" />
-        <property role="3F6X1D" value="6987730699889504308" />
-        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-        <node concept="M4N5e" id="63Tq0M90n0P" role="M5hS2">
-          <property role="1uS6qo" value="SOLID" />
-          <property role="1uS6qv" value="SOLID" />
-        </node>
-        <node concept="M4N5e" id="63Tq0M90n0Q" role="M5hS2">
-          <property role="1uS6qo" value="DASHED" />
-          <property role="1uS6qv" value="DASHED" />
-        </node>
-      </node>
-    </node>
-    <node concept="25R33" id="7WTFIQIcYqb" role="25R1y">
-      <property role="TrG5h" value="SOLID" />
-      <property role="3tVfz5" value="6987730699889504309" />
-      <ref role="2wpffI" node="63Tq0M90n0P" />
-    </node>
-    <node concept="25R33" id="7WTFIQIcYqc" role="25R1y">
-      <property role="TrG5h" value="DASHED" />
-      <property role="3tVfz5" value="6987730699889504310" />
-      <ref role="2wpffI" node="63Tq0M90n0Q" />
-    </node>
-  </node>
   <node concept="25R3W" id="7WTFIQIcYqd">
     <property role="TrG5h" value="LayoutDirection" />
     <property role="3GE5qa" value="layoutAlgorithm" />
@@ -2183,6 +2148,48 @@
       <ref role="2wpffI" node="6Bd7VwqYQBY" />
     </node>
   </node>
+  <node concept="25R3W" id="7WTFIQIcYq9">
+    <property role="TrG5h" value="LineStyleValues" />
+    <property role="3GE5qa" value="style" />
+    <property role="3F6X1D" value="6987730699889504308" />
+    <ref role="1H5jkz" node="7WTFIQIcYqb" resolve="SOLID" />
+    <node concept="2JgGob" id="7WTFIQIcYqa" role="lGtFl">
+      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
+      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
+      <node concept="AxPO7" id="63Tq0M90n0O" role="3lCyv">
+        <property role="3GE5qa" value="style" />
+        <property role="TrG5h" value="LineStyleValues" />
+        <property role="3lZH7k" value="hrlZj6Q/derive_from_internal_value" />
+        <property role="3F6X1D" value="6987730699889504308" />
+        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+        <node concept="M4N5e" id="63Tq0M90n0P" role="M5hS2">
+          <property role="1uS6qo" value="SOLID" />
+          <property role="1uS6qv" value="SOLID" />
+        </node>
+        <node concept="M4N5e" id="63Tq0M90n0Q" role="M5hS2">
+          <property role="1uS6qo" value="DASHED" />
+          <property role="1uS6qv" value="DASHED" />
+        </node>
+      </node>
+    </node>
+    <node concept="25R33" id="7WTFIQIcYqb" role="25R1y">
+      <property role="TrG5h" value="SOLID" />
+      <property role="3tVfz5" value="6987730699889504309" />
+      <ref role="2wpffI" node="63Tq0M90n0P" />
+    </node>
+    <node concept="25R33" id="7WTFIQIcYqc" role="25R1y">
+      <property role="TrG5h" value="DASHED" />
+      <property role="3tVfz5" value="6987730699889504310" />
+      <ref role="2wpffI" node="63Tq0M90n0Q" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3YGiJOY24vX">
+    <property role="EcuMT" value="4588124571911604221" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="ContextNodeParameter" />
+    <property role="34LRSv" value="contextNode" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
   <node concept="1TIwiD" id="3YGiJOY1y6Y">
     <property role="EcuMT" value="4588124571911463358" />
     <property role="3GE5qa" value="layoutAlgorithm" />
@@ -2193,12 +2200,21 @@
       <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3YGiJOY24vX">
-    <property role="EcuMT" value="4588124571911604221" />
-    <property role="3GE5qa" value="layoutAlgorithm" />
-    <property role="TrG5h" value="ContextNodeParameter" />
-    <property role="34LRSv" value="contextNode" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  <node concept="1TIwiD" id="6FffmPTa0lS">
+    <property role="EcuMT" value="7696437828592862584" />
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="JavaShape" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6FffmPTa0w2" role="1TKVEi">
+      <property role="IQ2ns" value="7696437828592863234" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6FffmPTa0vZ" role="PzmwI">
+      <ref role="PrY4T" node="6uo2fN6gOXK" resolve="IShape" />
+    </node>
   </node>
 </model>
 

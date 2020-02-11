@@ -6454,50 +6454,86 @@
       <node concept="3cqZAl" id="27djZ8_ZBvp" role="3clF45" />
       <node concept="3Tm1VV" id="27djZ8_ZBvq" role="1B3o_S" />
       <node concept="3clFbS" id="27djZ8_ZBvr" role="3clF47">
-        <node concept="3clFbF" id="1hOAOJDc482" role="3cqZAp">
-          <node concept="2YIFZM" id="1hOAOJDc4pu" role="3clFbG">
-            <ref role="37wK5l" node="1ICLe2s9fBs" resolve="withScalingDisabled" />
-            <ref role="1Pybhc" node="4HsXOWVy42$" resolve="ScalableEditorCell" />
-            <node concept="1bVj0M" id="1hOAOJDc4Cr" role="37wK5m">
-              <node concept="3clFbS" id="1hOAOJDc4Cs" role="1bW5cS">
-                <node concept="3clFbF" id="7jhYr4hGrX7" role="3cqZAp">
-                  <node concept="2OqwBi" id="7jhYr4hGs2W" role="3clFbG">
-                    <node concept="37vLTw" id="7jhYr4hGrX6" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7jhYr4hG4mW" resolve="mySynchronizer" />
-                    </node>
-                    <node concept="liA8E" id="7jhYr4hGsg8" role="2OqNvi">
-                      <ref role="37wK5l" node="4teJTSBx7Rz" resolve="fromSModel" />
-                      <node concept="37vLTw" id="iiBXaONP4V" role="37wK5m">
-                        <ref role="3cqZAo" node="iiBXaONAQ6" resolve="diagramECell" />
-                      </node>
-                    </node>
-                  </node>
+        <node concept="3clFbF" id="7ua5tfi_Nbd" role="3cqZAp">
+          <node concept="2YIFZM" id="7ua5tfi_NOR" role="3clFbG">
+            <ref role="1Pybhc" to="2o4v:4rMwD1WgcG$" resolve="DiagramContext" />
+            <ref role="37wK5l" to="2o4v:4rMwD1Wh_T2" resolve="withContext" />
+            <node concept="1eOMI4" id="7ua5tfiAc_Y" role="37wK5m">
+              <node concept="10QFUN" id="7ua5tfiAc_X" role="1eOMHV">
+                <node concept="37vLTw" id="7ua5tfiAc_W" role="10QFUP">
+                  <ref role="3cqZAo" node="iiBXaONAQ6" resolve="diagramECell" />
                 </node>
-                <node concept="2Gpval" id="6rrvvVebeXf" role="3cqZAp">
-                  <node concept="2GrKxI" id="6rrvvVebeXg" role="2Gsz3X">
-                    <property role="TrG5h" value="child" />
-                  </node>
-                  <node concept="1rXfSq" id="6rrvvVebeXh" role="2GsD0m">
-                    <ref role="37wK5l" node="6rrvvVe9a3n" resolve="getChildModels" />
-                  </node>
-                  <node concept="3clFbS" id="6rrvvVebeXi" role="2LFqv$">
-                    <node concept="3clFbF" id="6rrvvVebeXj" role="3cqZAp">
-                      <node concept="2OqwBi" id="6rrvvVebeXk" role="3clFbG">
-                        <node concept="2GrUjf" id="6rrvvVebeXl" role="2Oq$k0">
-                          <ref role="2Gs0qQ" node="6rrvvVebeXg" resolve="child" />
-                        </node>
-                        <node concept="liA8E" id="6rrvvVebeXm" role="2OqNvi">
-                          <ref role="37wK5l" node="27djZ8_ZBvn" resolve="synchronizeRead" />
-                          <node concept="3EllGN" id="4opyGmeYp1G" role="37wK5m">
-                            <node concept="2GrUjf" id="4opyGmeYpg1" role="3ElVtu">
-                              <ref role="2Gs0qQ" node="6rrvvVebeXg" resolve="child" />
-                            </node>
-                            <node concept="37vLTw" id="4opyGmeYoyF" role="3ElQJh">
-                              <ref role="3cqZAo" node="6rrvvVe4YqA" resolve="myChildModels" />
+                <node concept="3uibUv" id="50FX_V3eux9" role="10QFUM">
+                  <ref role="3uigEE" to="r3rm:5S8_I2FY6vo" resolve="BaseDiagramECell" />
+                </node>
+              </node>
+            </node>
+            <node concept="2ShNRf" id="7ua5tfi_Pb0" role="37wK5m">
+              <node concept="YeOm9" id="7ua5tfiAaPE" role="2ShVmc">
+                <node concept="1Y3b0j" id="7ua5tfiAaPH" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <node concept="3Tm1VV" id="7ua5tfiAaPI" role="1B3o_S" />
+                  <node concept="3clFb_" id="7ua5tfiAaPN" role="jymVt">
+                    <property role="TrG5h" value="run" />
+                    <node concept="3Tm1VV" id="7ua5tfiAaPO" role="1B3o_S" />
+                    <node concept="3cqZAl" id="7ua5tfiAaPQ" role="3clF45" />
+                    <node concept="3clFbS" id="7ua5tfiAaPR" role="3clF47">
+                      <node concept="3clFbF" id="1hOAOJDc482" role="3cqZAp">
+                        <node concept="2YIFZM" id="1hOAOJDc4pu" role="3clFbG">
+                          <ref role="37wK5l" node="1ICLe2s9fBs" resolve="withScalingDisabled" />
+                          <ref role="1Pybhc" node="4HsXOWVy42$" resolve="ScalableEditorCell" />
+                          <node concept="1bVj0M" id="1hOAOJDc4Cr" role="37wK5m">
+                            <node concept="3clFbS" id="1hOAOJDc4Cs" role="1bW5cS">
+                              <node concept="3clFbF" id="7jhYr4hGrX7" role="3cqZAp">
+                                <node concept="2OqwBi" id="7jhYr4hGs2W" role="3clFbG">
+                                  <node concept="37vLTw" id="7jhYr4hGrX6" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="7jhYr4hG4mW" resolve="mySynchronizer" />
+                                  </node>
+                                  <node concept="liA8E" id="7jhYr4hGsg8" role="2OqNvi">
+                                    <ref role="37wK5l" node="4teJTSBx7Rz" resolve="fromSModel" />
+                                    <node concept="37vLTw" id="iiBXaONP4V" role="37wK5m">
+                                      <ref role="3cqZAo" node="iiBXaONAQ6" resolve="diagramECell" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="2Gpval" id="6rrvvVebeXf" role="3cqZAp">
+                                <node concept="2GrKxI" id="6rrvvVebeXg" role="2Gsz3X">
+                                  <property role="TrG5h" value="child" />
+                                </node>
+                                <node concept="1rXfSq" id="6rrvvVebeXh" role="2GsD0m">
+                                  <ref role="37wK5l" node="6rrvvVe9a3n" resolve="getChildModels" />
+                                </node>
+                                <node concept="3clFbS" id="6rrvvVebeXi" role="2LFqv$">
+                                  <node concept="3clFbF" id="6rrvvVebeXj" role="3cqZAp">
+                                    <node concept="2OqwBi" id="6rrvvVebeXk" role="3clFbG">
+                                      <node concept="2GrUjf" id="6rrvvVebeXl" role="2Oq$k0">
+                                        <ref role="2Gs0qQ" node="6rrvvVebeXg" resolve="child" />
+                                      </node>
+                                      <node concept="liA8E" id="6rrvvVebeXm" role="2OqNvi">
+                                        <ref role="37wK5l" node="27djZ8_ZBvn" resolve="synchronizeRead" />
+                                        <node concept="3EllGN" id="4opyGmeYp1G" role="37wK5m">
+                                          <node concept="2GrUjf" id="4opyGmeYpg1" role="3ElVtu">
+                                            <ref role="2Gs0qQ" node="6rrvvVebeXg" resolve="child" />
+                                          </node>
+                                          <node concept="37vLTw" id="4opyGmeYoyF" role="3ElQJh">
+                                            <ref role="3cqZAo" node="6rrvvVe4YqA" resolve="myChildModels" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
                       </node>
+                    </node>
+                    <node concept="2AHcQZ" id="7ua5tfiAaPT" role="2AJF6D">
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                 </node>

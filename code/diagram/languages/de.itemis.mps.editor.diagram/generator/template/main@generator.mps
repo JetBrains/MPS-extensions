@@ -8,7 +8,7 @@
     <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="-1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
-    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -766,6 +766,27 @@
                       </node>
                       <node concept="30H73N" id="4Te4zGtn22u" role="2Oq$k0" />
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="6FffmPTafYB" role="3acgRq">
+      <ref role="30HIoZ" to="2qld:6FffmPTa0lS" resolve="JavaShape" />
+      <node concept="gft3U" id="6FffmPTapva" role="1lVwrX">
+        <node concept="10Nm6u" id="6FffmPTapLC" role="gfFT$">
+          <node concept="29HgVG" id="6FffmPTapLK" role="lGtFl">
+            <node concept="3NFfHV" id="6FffmPTapLL" role="3NFExx">
+              <node concept="3clFbS" id="6FffmPTapLM" role="2VODD2">
+                <node concept="3clFbF" id="6FffmPTapLS" role="3cqZAp">
+                  <node concept="2OqwBi" id="6FffmPTapLN" role="3clFbG">
+                    <node concept="3TrEf2" id="6FffmPTapLQ" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:6FffmPTa0w2" resolve="expression" />
+                    </node>
+                    <node concept="30H73N" id="6FffmPTapLR" role="2Oq$k0" />
                   </node>
                 </node>
               </node>

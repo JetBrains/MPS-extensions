@@ -10,6 +10,7 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="7ou7" ref="r:c2174d48-8423-45ea-b84e-77408df7449d(de.itemis.mps.editor.diagram.runtime.shape)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
@@ -1064,6 +1065,37 @@
     <node concept="1YaCAy" id="7W7dK_Oc0ZE" role="1YuTPh">
       <property role="TrG5h" value="n" />
       <ref role="1YaFvo" to="2qld:6uo2fN6fbSW" resolve="ShapeDefinition" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6FffmPTa0Ev">
+    <property role="TrG5h" value="typeof_JavaShape" />
+    <property role="3GE5qa" value="shape" />
+    <node concept="3clFbS" id="6FffmPTa0Ew" role="18ibNy">
+      <node concept="1ZobV4" id="6FffmPTa1Gt" role="3cqZAp">
+        <node concept="mw_s8" id="6FffmPTa1H1" role="1ZfhKB">
+          <node concept="2c44tf" id="6FffmPTa1GX" role="mwGJk">
+            <node concept="3uibUv" id="6FffmPTafC0" role="2c44tc">
+              <ref role="3uigEE" to="7ou7:6uo2fN6kjTa" resolve="IShape" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6FffmPTa1Gw" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6FffmPTa0OJ" role="mwGJk">
+            <node concept="2OqwBi" id="6FffmPTa0Zl" role="1Z2MuG">
+              <node concept="1YBJjd" id="6FffmPTa0QC" role="2Oq$k0">
+                <ref role="1YBMHb" node="6FffmPTa0Ey" resolve="n" />
+              </node>
+              <node concept="3TrEf2" id="6FffmPTa1xE" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:6FffmPTa0w2" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6FffmPTa0Ey" role="1YuTPh">
+      <property role="TrG5h" value="n" />
+      <ref role="1YaFvo" to="2qld:6FffmPTa0lS" resolve="JavaShape" />
     </node>
   </node>
 </model>

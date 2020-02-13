@@ -6,6 +6,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -270,7 +271,31 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
+        <reference id="6832197706140518108" name="param" index="zr_51" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <property id="8465538089690881934" name="text" index="TUZQ4" />
+        <child id="6832197706140518123" name="parameter" index="zr_5Q" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -284,6 +309,9 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1201306600024" name="jetbrains.mps.baseLanguage.collections.structure.ContainsKeyOperation" flags="nn" index="2Nt0df">
+        <child id="1201654602639" name="key" index="38cxEo" />
+      </concept>
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
         <child id="1197683466920" name="keyType" index="3rvQeY" />
         <child id="1197683475734" name="valueType" index="3rvSg0" />
@@ -4437,19 +4465,59 @@
       <node concept="3cqZAl" id="5P1DsEq0EWy" role="3clF45" />
       <node concept="3Tm1VV" id="5P1DsEq0EWz" role="1B3o_S" />
       <node concept="3clFbS" id="5P1DsEq0EW$" role="3clF47">
-        <node concept="3clFbF" id="5P1DsEq4CZk" role="3cqZAp">
-          <node concept="37vLTI" id="5P1DsEq4DhL" role="3clFbG">
-            <node concept="37vLTw" id="5P1DsEq4Dox" role="37vLTx">
-              <ref role="3cqZAo" node="5P1DsEq0HXK" resolve="cell" />
-            </node>
-            <node concept="3EllGN" id="5P1DsEq4D9u" role="37vLTJ">
-              <node concept="37vLTw" id="5P1DsEq4Dg8" role="3ElVtu">
-                <ref role="3cqZAo" node="5P1DsEq0HXI" resolve="id" />
+        <node concept="3clFbJ" id="7PPhX9$YjSr" role="3cqZAp">
+          <node concept="3clFbS" id="7PPhX9$YjSt" role="3clFbx">
+            <node concept="3clFbF" id="5P1DsEq4CZk" role="3cqZAp">
+              <node concept="37vLTI" id="5P1DsEq4DhL" role="3clFbG">
+                <node concept="37vLTw" id="5P1DsEq4Dox" role="37vLTx">
+                  <ref role="3cqZAo" node="5P1DsEq0HXK" resolve="cell" />
+                </node>
+                <node concept="3EllGN" id="5P1DsEq4D9u" role="37vLTJ">
+                  <node concept="37vLTw" id="5P1DsEq4Dg8" role="3ElVtu">
+                    <ref role="3cqZAo" node="5P1DsEq0HXI" resolve="id" />
+                  </node>
+                  <node concept="37vLTw" id="5P1DsEq4CZj" role="3ElQJh">
+                    <ref role="3cqZAo" node="5P1DsEq0GG0" resolve="myTooltipCell" />
+                  </node>
+                </node>
               </node>
-              <node concept="37vLTw" id="5P1DsEq4CZj" role="3ElQJh">
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="7PPhX9$YlCk" role="3clFbw">
+            <node concept="2OqwBi" id="7PPhX9$YlCm" role="3fr31v">
+              <node concept="37vLTw" id="7PPhX9$YlCn" role="2Oq$k0">
                 <ref role="3cqZAo" node="5P1DsEq0GG0" resolve="myTooltipCell" />
               </node>
+              <node concept="2Nt0df" id="7PPhX9$YlCo" role="2OqNvi">
+                <node concept="37vLTw" id="7PPhX9$YlCp" role="38cxEo">
+                  <ref role="3cqZAo" node="5P1DsEq0HXI" resolve="id" />
+                </node>
+              </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="7PPhX9$YyYO" role="lGtFl">
+        <node concept="TZ5HA" id="7PPhX9$YyYP" role="TZ5H$">
+          <node concept="1dT_AC" id="7PPhX9$YyYQ" role="1dT_Ay">
+            <property role="1dT_AB" value="Registers cell for the given tooltip ID in the current context, if the ID doesn't have a registered cell yet." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7PPhX9$YEh4" role="TZ5H$">
+          <node concept="1dT_AC" id="7PPhX9$YEh5" role="1dT_Ay">
+            <property role="1dT_AB" value="Thus, the first cell registered for the tooltip ID will be the resulting cell from the context." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7PPhX9$YyYR" role="3nqlJM">
+          <property role="TUZQ4" value="tooltip id identifying specific tooltip in the editor" />
+          <node concept="zr_55" id="7PPhX9$YyYT" role="zr_5Q">
+            <ref role="zr_51" node="5P1DsEq0HXI" resolve="id" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="7PPhX9$YyYU" role="3nqlJM">
+          <property role="TUZQ4" value="rendered tooltip cell" />
+          <node concept="zr_55" id="7PPhX9$YyYW" role="zr_5Q">
+            <ref role="zr_51" node="5P1DsEq0HXK" resolve="cell" />
           </node>
         </node>
       </node>

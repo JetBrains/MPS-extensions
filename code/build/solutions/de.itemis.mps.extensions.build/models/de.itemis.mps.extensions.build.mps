@@ -9065,6 +9065,7 @@
         </node>
         <node concept="1SiIV0" id="6fQhGuklSjc" role="3bR37C">
           <node concept="3bR9La" id="6fQhGuklSjd" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
           </node>
         </node>

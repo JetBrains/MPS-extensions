@@ -2495,7 +2495,7 @@
                     <node concept="3cpWsn" id="1pTQQaTYpDs" role="3cpWs9">
                       <property role="TrG5h" value="resultElementProxy" />
                       <node concept="3uibUv" id="1pTQQaTYpDn" role="1tU5fm">
-                        <ref role="3uigEE" to="nv3w:2$QnGbukB$1" resolve="ResultElementAsNode" />
+                        <ref role="3uigEE" to="nv3w:2$QnGbukB$1" resolve="ResultElementAsOutputNode" />
                       </node>
                       <node concept="2YIFZM" id="1pTQQaTYpDt" role="33vP2m">
                         <ref role="37wK5l" to="l6bp:5wnrAmUh0IZ" resolve="getResultElementProxy" />
@@ -2506,35 +2506,24 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3cpWs8" id="1pTQQaTYt1z" role="3cqZAp">
-                    <node concept="3cpWsn" id="1pTQQaTYt1$" role="3cpWs9">
-                      <property role="TrG5h" value="callContext" />
-                      <node concept="3uibUv" id="1pTQQaTYxUY" role="1tU5fm">
-                        <ref role="3uigEE" to="nv3w:32qWz0LOgh1" resolve="ICallContext" />
+                  <node concept="3clFbH" id="6$M6y1eIjyr" role="3cqZAp" />
+                  <node concept="3cpWs8" id="6$M6y1eIrak" role="3cqZAp">
+                    <node concept="3cpWsn" id="6$M6y1eIral" role="3cpWs9">
+                      <property role="TrG5h" value="stageRef" />
+                      <node concept="3uibUv" id="6$M6y1eIr8w" role="1tU5fm">
+                        <ref role="3uigEE" to="nv3w:2dy3jLYuT3w" resolve="_IStageReference" />
                       </node>
-                      <node concept="2OqwBi" id="1pTQQaTYtPV" role="33vP2m">
-                        <node concept="1eOMI4" id="1pTQQaTYt$i" role="2Oq$k0">
-                          <node concept="10QFUN" id="1pTQQaTYtcz" role="1eOMHV">
-                            <node concept="2OqwBi" id="1pTQQaTYtcu" role="10QFUP">
-                              <node concept="2OqwBi" id="1pTQQaTYtcv" role="2Oq$k0">
-                                <node concept="37vLTw" id="1pTQQaTYtcw" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1pTQQaTYpDs" resolve="resultElementProxy" />
-                                </node>
-                                <node concept="liA8E" id="1pTQQaTYtcx" role="2OqNvi">
-                                  <ref role="37wK5l" to="nv3w:3fc1D1lj2k8" resolve="getElementReference" />
-                                </node>
-                              </node>
-                              <node concept="liA8E" id="1pTQQaTYtcy" role="2OqNvi">
-                                <ref role="37wK5l" to="nv3w:32qWz0LISu7" resolve="getTransformationResultReference" />
-                              </node>
-                            </node>
-                            <node concept="3uibUv" id="1pTQQaTYtpf" role="10QFUM">
-                              <ref role="3uigEE" to="nv3w:32qWz0M1R8y" resolve="CallInContext" />
-                            </node>
+                      <node concept="2OqwBi" id="6$M6y1eIram" role="33vP2m">
+                        <node concept="2OqwBi" id="6$M6y1eIran" role="2Oq$k0">
+                          <node concept="37vLTw" id="6$M6y1eIrao" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1pTQQaTYpDs" resolve="resultElementProxy" />
+                          </node>
+                          <node concept="liA8E" id="6$M6y1eIrap" role="2OqNvi">
+                            <ref role="37wK5l" to="nv3w:5$YruQr7iAd" resolve="getOutputNodeReference" />
                           </node>
                         </node>
-                        <node concept="liA8E" id="1pTQQaTYxe_" role="2OqNvi">
-                          <ref role="37wK5l" to="nv3w:32qWz0M1USa" resolve="getContext" />
+                        <node concept="liA8E" id="6$M6y1eIraq" role="2OqNvi">
+                          <ref role="37wK5l" to="nv3w:22rzPeg2moT" resolve="getStageRef" />
                         </node>
                       </node>
                     </node>
@@ -2542,8 +2531,8 @@
                   <node concept="3cpWs8" id="1pTQQaTYy2s" role="3cqZAp">
                     <node concept="3cpWsn" id="1pTQQaTYy2t" role="3cpWs9">
                       <property role="TrG5h" value="subgraph" />
-                      <node concept="3uibUv" id="1pTQQaTYy2a" role="1tU5fm">
-                        <ref role="3uigEE" to="nv3w:2X32U$0UO86" resolve="ISubgraph" />
+                      <node concept="3uibUv" id="6$M6y1eIjtP" role="1tU5fm">
+                        <ref role="3uigEE" to="nv3w:2dy3jLYuTpp" resolve="_ISubgraphStage" />
                       </node>
                       <node concept="2OqwBi" id="1pTQQaTYy2u" role="33vP2m">
                         <node concept="2OqwBi" id="1pTQQaTYy2v" role="2Oq$k0">
@@ -2555,9 +2544,9 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="1pTQQaTYy2y" role="2OqNvi">
-                          <ref role="37wK5l" to="nv3w:3kkgokhEgIk" resolve="getSubgraph" />
-                          <node concept="37vLTw" id="1pTQQaTYy2z" role="37wK5m">
-                            <ref role="3cqZAo" node="1pTQQaTYt1$" resolve="callContext" />
+                          <ref role="37wK5l" to="nv3w:5$YruQqL1Ym" resolve="resolveStage" />
+                          <node concept="37vLTw" id="6$M6y1eIrzP" role="37wK5m">
+                            <ref role="3cqZAo" node="6$M6y1eIral" resolve="stageRef" />
                           </node>
                         </node>
                       </node>

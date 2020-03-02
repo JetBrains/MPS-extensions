@@ -3035,14 +3035,14 @@
                   </node>
                   <node concept="3cpWs8" id="1pTQQaTYpDr" role="3cqZAp">
                     <node concept="3cpWsn" id="1pTQQaTYpDs" role="3cpWs9">
-                      <property role="TrG5h" value="resultElementProxy" />
-                      <node concept="3uibUv" id="1pTQQaTYpDn" role="1tU5fm">
-                        <ref role="3uigEE" to="nv3w:2$QnGbukB$1" resolve="ResultElementAsOutputNode" />
+                      <property role="TrG5h" value="outputNodeRef" />
+                      <node concept="3uibUv" id="6$M6y1eLs9b" role="1tU5fm">
+                        <ref role="3uigEE" to="nv3w:2dy3jLYuSc6" resolve="_IOutputNodeReference" />
                       </node>
-                      <node concept="2YIFZM" id="1pTQQaTYpDt" role="33vP2m">
-                        <ref role="37wK5l" to="l6bp:5wnrAmUh0IZ" resolve="getResultElementProxy" />
+                      <node concept="2YIFZM" id="6$M6y1eLrh3" role="33vP2m">
+                        <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
                         <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
-                        <node concept="37vLTw" id="1pTQQaTYpDu" role="37wK5m">
+                        <node concept="37vLTw" id="6$M6y1eLrh4" role="37wK5m">
                           <ref role="3cqZAo" node="1pTQQaTXokD" resolve="repository" />
                         </node>
                       </node>
@@ -3055,16 +3055,11 @@
                       <node concept="3uibUv" id="6$M6y1eIr8w" role="1tU5fm">
                         <ref role="3uigEE" to="nv3w:2dy3jLYuT3w" resolve="_IStageReference" />
                       </node>
-                      <node concept="2OqwBi" id="6$M6y1eIram" role="33vP2m">
-                        <node concept="2OqwBi" id="6$M6y1eIran" role="2Oq$k0">
-                          <node concept="37vLTw" id="6$M6y1eIrao" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1pTQQaTYpDs" resolve="resultElementProxy" />
-                          </node>
-                          <node concept="liA8E" id="6$M6y1eIrap" role="2OqNvi">
-                            <ref role="37wK5l" to="nv3w:5$YruQr7iAd" resolve="getOutputNodeReference" />
-                          </node>
+                      <node concept="2OqwBi" id="6$M6y1eIran" role="33vP2m">
+                        <node concept="37vLTw" id="6$M6y1eIrao" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1pTQQaTYpDs" resolve="outputNodeRef" />
                         </node>
-                        <node concept="liA8E" id="6$M6y1eIraq" role="2OqNvi">
+                        <node concept="liA8E" id="6$M6y1eLsNZ" role="2OqNvi">
                           <ref role="37wK5l" to="nv3w:22rzPeg2moT" resolve="getStageRef" />
                         </node>
                       </node>
@@ -3072,14 +3067,13 @@
                   </node>
                   <node concept="3cpWs8" id="1pTQQaTYy2s" role="3cqZAp">
                     <node concept="3cpWsn" id="1pTQQaTYy2t" role="3cpWs9">
-                      <property role="TrG5h" value="subgraph" />
+                      <property role="TrG5h" value="stage" />
                       <node concept="2OqwBi" id="1pTQQaTYy2u" role="33vP2m">
-                        <node concept="2OqwBi" id="1pTQQaTYy2v" role="2Oq$k0">
-                          <node concept="37vLTw" id="1pTQQaTYy2w" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1pTQQaTYpDs" resolve="resultElementProxy" />
-                          </node>
-                          <node concept="liA8E" id="1pTQQaTYy2x" role="2OqNvi">
-                            <ref role="37wK5l" to="nv3w:2$QnGbukBEp" resolve="getEngine" />
+                        <node concept="2YIFZM" id="6$M6y1eLzE_" role="2Oq$k0">
+                          <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                          <ref role="37wK5l" to="l6bp:6$M6y1eLyFF" resolve="getEngine" />
+                          <node concept="37vLTw" id="6$M6y1eLzJ8" role="37wK5m">
+                            <ref role="3cqZAo" node="1pTQQaTXokD" resolve="repository" />
                           </node>
                         </node>
                         <node concept="liA8E" id="1pTQQaTYy2y" role="2OqNvi">
@@ -3110,7 +3104,7 @@
                       <node concept="2XshWL" id="55FR5sargnf" role="2OqNvi">
                         <ref role="2WH_rO" node="7POzUCriZua" resolve="loadTrace" />
                         <node concept="37vLTw" id="55FR5sariEo" role="2XxRq1">
-                          <ref role="3cqZAo" node="1pTQQaTYy2t" resolve="subgraph" />
+                          <ref role="3cqZAo" node="1pTQQaTYy2t" resolve="stage" />
                         </node>
                         <node concept="Xl_RD" id="7POzUCrj0HI" role="2XxRq1">
                           <property role="Xl_RC" value="Shadow Repository Forks" />

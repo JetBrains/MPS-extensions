@@ -153,6 +153,9 @@
     <node concept="PrWs8" id="1upvoB3Sm71" role="PzmwI">
       <ref role="PrY4T" node="1upvoB3RHkF" resolve="IPFModuleContent" />
     </node>
+    <node concept="PrWs8" id="3kUHLKEBbJg" role="PzmwI">
+      <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1upvoB3TP3d">
     <property role="EcuMT" value="1700528364959781069" />

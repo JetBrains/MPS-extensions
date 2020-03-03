@@ -485,10 +485,7 @@
       <node concept="1iCGBv" id="3jJoUQ6VUGu" role="3EZMnx">
         <ref role="1NtTu8" to="bx8c:3jJoUQ6VUE9" resolve="decl" />
         <node concept="1sVBvm" id="3jJoUQ6VUGw" role="1sWHZn">
-          <node concept="3F0A7n" id="3jJoUQ6VUGU" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
+          <node concept="3SHvHV" id="6$M6y1eTV9z" role="2wV5jI" />
         </node>
       </node>
       <node concept="3F0ifn" id="3jJoUQ6VUI0" role="3EZMnx">

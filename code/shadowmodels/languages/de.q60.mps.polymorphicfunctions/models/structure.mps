@@ -75,6 +75,9 @@
     <node concept="PrWs8" id="1upvoB3RW0a" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="2Vy1$4MU8VH" role="PzmwI">
+      <ref role="PrY4T" node="2Vy1$4MSjLS" resolve="IGroupContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1upvoB3RHiK">
     <property role="EcuMT" value="1700528364959225008" />
@@ -102,6 +105,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1upvoB3RHv7" role="PzmwI">
       <ref role="PrY4T" node="1upvoB3RHkF" resolve="IPFModuleContent" />
+    </node>
+    <node concept="PrWs8" id="2Vy1$4MSjLZ" role="PzmwI">
+      <ref role="PrY4T" node="2Vy1$4MSjLS" resolve="IGroupContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="1upvoB3RW3z">
@@ -156,6 +162,9 @@
     <node concept="PrWs8" id="3kUHLKEBbJg" role="PzmwI">
       <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
     </node>
+    <node concept="PrWs8" id="2Vy1$4MSOiB" role="PzmwI">
+      <ref role="PrY4T" node="2Vy1$4MSjLS" resolve="IGroupContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1upvoB3TP3d">
     <property role="EcuMT" value="1700528364959781069" />
@@ -177,6 +186,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="parameterValues" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="4iwHBRd1JS3" role="1TKVEi">
+      <property role="IQ2ns" value="4945153042279759363" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="pfcontext" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="3jJoUQ6VUE9" role="1TKVEi">
@@ -228,6 +243,104 @@
     </node>
     <node concept="PrWs8" id="1z8Uup0r9KM" role="PzmwI">
       <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2Vy1$4MSjLH">
+    <property role="EcuMT" value="3378269547577556077" />
+    <property role="TrG5h" value="GroupDeclaration" />
+    <property role="34LRSv" value="group declaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2Vy1$4MSjLU" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547577556090" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2Vy1$4MSk5R" resolve="GroupParameterDeclaration" />
+    </node>
+    <node concept="PrWs8" id="2Vy1$4MSjLJ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="2Vy1$4MSjLO" role="PzmwI">
+      <ref role="PrY4T" node="1upvoB3RHkF" resolve="IPFModuleContent" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2Vy1$4MSjLS">
+    <property role="EcuMT" value="3378269547577556088" />
+    <property role="TrG5h" value="IGroupContent" />
+  </node>
+  <node concept="1TIwiD" id="2Vy1$4MSk5E">
+    <property role="EcuMT" value="3378269547577557354" />
+    <property role="TrG5h" value="GroupContainer" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2Vy1$4MSkhL" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547577558129" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2Vy1$4MSjLS" resolve="IGroupContent" />
+    </node>
+    <node concept="1TJgyj" id="2Vy1$4MSk5P" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547577557365" />
+      <property role="20kJfa" value="groupDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2Vy1$4MSjLH" resolve="GroupDeclaration" />
+    </node>
+    <node concept="PrWs8" id="2Vy1$4MSk5G" role="PzmwI">
+      <ref role="PrY4T" node="1upvoB3RHkF" resolve="IPFModuleContent" />
+    </node>
+    <node concept="PrWs8" id="2Vy1$4MSk5L" role="PzmwI">
+      <ref role="PrY4T" node="2Vy1$4MSjLS" resolve="IGroupContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2Vy1$4MSk5R">
+    <property role="EcuMT" value="3378269547577557367" />
+    <property role="TrG5h" value="GroupParameterDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2Vy1$4MSk5S" role="1TKVEi">
+      <property role="IQ2ns" value="1700528364959285604" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
+    <node concept="PrWs8" id="2Vy1$4MSk5T" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2Vy1$4MVjvm">
+    <property role="EcuMT" value="3378269547578341334" />
+    <property role="TrG5h" value="GroupParameterReference" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="2Vy1$4MVjvo" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547578341336" />
+      <property role="20kJfa" value="decl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2Vy1$4MSk5R" resolve="GroupParameterDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2Vy1$4MVY6t">
+    <property role="EcuMT" value="3378269547578515869" />
+    <property role="TrG5h" value="GroupCall" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="2Vy1$4MVY6$" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547578515876" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="groupParameterValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2Vy1$4MVY6x" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547578515873" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2Vy1$4MVY6v" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547578515871" />
+      <property role="20kJfa" value="group" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2Vy1$4MSjLH" resolve="GroupDeclaration" />
     </node>
   </node>
 </model>

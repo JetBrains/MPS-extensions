@@ -9766,6 +9766,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="1rUziX7odPu" role="3bR37C">
+          <node concept="3bR9La" id="1rUziX7odPv" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5H4" resolve="de.q60.mps.polymorphicfunctions.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5Hy" role="2G$12L">
         <property role="BnDLt" value="true" />

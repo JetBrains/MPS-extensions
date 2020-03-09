@@ -3046,5 +3046,325 @@
       </node>
     </node>
   </node>
+  <node concept="1lH9Xt" id="5ndwm32JhHf">
+    <property role="TrG5h" value="BLExt_types_reduce" />
+    <node concept="1LZb2c" id="5ndwm32JhHg" role="1SL9yI">
+      <property role="TrG5h" value="checkOutput" />
+      <node concept="3cqZAl" id="5ndwm32JhHh" role="3clF45" />
+      <node concept="3clFbS" id="5ndwm32JhHi" role="3clF47">
+        <node concept="3clFbF" id="5ndwm32JhHj" role="3cqZAp">
+          <node concept="2YIFZM" id="5ndwm32JhHk" role="3clFbG">
+            <ref role="37wK5l" node="4JmkJs3KdFW" resolve="runTest" />
+            <ref role="1Pybhc" node="4JmkJs3K82n" resolve="TransformationTestUtil" />
+            <node concept="3xONca" id="5ndwm32JhHl" role="37wK5m">
+              <ref role="3xOPvv" node="5ndwm32Jig_" resolve="input" />
+            </node>
+            <node concept="3xONca" id="5ndwm32JhHm" role="37wK5m">
+              <ref role="3xOPvv" node="5ndwm32JizV" resolve="expectedOutput" />
+            </node>
+            <node concept="2tJFMh" id="5ndwm32JhHn" role="37wK5m">
+              <node concept="ZC_QK" id="5ndwm32JhHo" role="2tJFKM">
+                <ref role="2aWVGs" to="bp4t:4ygyjZj7d4S" resolve="desugarUsingReductionRules" />
+                <node concept="ZC_QK" id="5ndwm32JhHp" role="2aWVGa">
+                  <ref role="2aWVGs" to="bp4t:4ygyjZj7vOL" resolve="toJava" />
+                </node>
+              </node>
+            </node>
+            <node concept="2ShNRf" id="5ndwm32JhHq" role="37wK5m">
+              <node concept="Tc6Ow" id="5ndwm32JhHr" role="2ShVmc">
+                <node concept="37shsh" id="5ndwm32JhHs" role="HW$Y0">
+                  <node concept="1dCxOk" id="5ndwm32JhHt" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.blext" />
+                    <property role="1XweGW" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
+                  </node>
+                </node>
+                <node concept="3uibUv" id="5ndwm32JhHu" role="HW$YZ">
+                  <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbT" id="5ndwm32JhHv" role="37wK5m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="5ndwm32JhHw" role="1SKRRt">
+      <node concept="312cEu" id="5ndwm32Ji5T" role="1qenE9">
+        <property role="TrG5h" value="Types" />
+        <node concept="3clFb_" id="5ndwm32Ji5U" role="jymVt">
+          <property role="TrG5h" value="f" />
+          <node concept="3cqZAl" id="5ndwm32Ji5V" role="3clF45" />
+          <node concept="3Tm1VV" id="5ndwm32Ji5W" role="1B3o_S" />
+          <node concept="3clFbS" id="5ndwm32Ji5X" role="3clF47">
+            <node concept="1O9KAR" id="5ndwm32Ji5Y" role="3cqZAp">
+              <property role="TrG5h" value="a" />
+              <node concept="3cmrfG" id="5ndwm32Ji5Z" role="1O9KAF">
+                <property role="3cmrfH" value="1" />
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji60" role="3cqZAp">
+              <property role="TrG5h" value="b" />
+              <node concept="Xl_RD" id="5ndwm32Ji61" role="1O9KAF">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji62" role="3cqZAp">
+              <property role="TrG5h" value="c" />
+              <node concept="3b6qkQ" id="5ndwm32Ji63" role="1O9KAF">
+                <property role="$nhwW" value="1.2" />
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji64" role="3cqZAp">
+              <property role="TrG5h" value="d" />
+              <node concept="1Obn3K" id="5ndwm32Ji65" role="1O9KAF">
+                <ref role="1Obn3N" node="5ndwm32Ji5Y" resolve="a" />
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji66" role="3cqZAp">
+              <property role="TrG5h" value="e" />
+              <node concept="3cpWs3" id="5ndwm32Ji67" role="1O9KAF">
+                <node concept="3cmrfG" id="5ndwm32Ji68" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="3cmrfG" id="5ndwm32Ji69" role="3uHU7B">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji6a" role="3cqZAp">
+              <property role="TrG5h" value="g" />
+              <node concept="3cpWs3" id="5ndwm32Ji6b" role="1O9KAF">
+                <node concept="3cmrfG" id="5ndwm32Ji6c" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="Xl_RD" id="5ndwm32Ji6d" role="3uHU7B">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji6e" role="3cqZAp">
+              <property role="TrG5h" value="h" />
+              <node concept="3cpWs3" id="5ndwm32Ji6f" role="1O9KAF">
+                <node concept="1Obn3K" id="5ndwm32Ji6g" role="3uHU7w">
+                  <ref role="1Obn3N" node="5ndwm32Ji62" resolve="c" />
+                </node>
+                <node concept="1Obn3K" id="5ndwm32Ji6h" role="3uHU7B">
+                  <ref role="1Obn3N" node="5ndwm32Ji5Y" resolve="a" />
+                </node>
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji6i" role="3cqZAp">
+              <property role="TrG5h" value="i" />
+              <node concept="3cpWs3" id="5ndwm32Ji6j" role="1O9KAF">
+                <node concept="1Obn3K" id="5ndwm32Ji6k" role="3uHU7w">
+                  <ref role="1Obn3N" node="5ndwm32Ji60" resolve="b" />
+                </node>
+                <node concept="1Obn3K" id="5ndwm32Ji6l" role="3uHU7B">
+                  <ref role="1Obn3N" node="5ndwm32Ji5Y" resolve="a" />
+                </node>
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji6m" role="3cqZAp">
+              <property role="TrG5h" value="j" />
+              <node concept="3cpWs3" id="5ndwm32Ji6n" role="1O9KAF">
+                <node concept="1Obn3K" id="5ndwm32Ji6o" role="3uHU7w">
+                  <ref role="1Obn3N" node="5ndwm32Ji6i" resolve="i" />
+                </node>
+                <node concept="1Obn3K" id="5ndwm32Ji6p" role="3uHU7B">
+                  <ref role="1Obn3N" node="5ndwm32Ji6e" resolve="h" />
+                </node>
+              </node>
+            </node>
+            <node concept="1O9KAR" id="5ndwm32Ji6q" role="3cqZAp">
+              <property role="TrG5h" value="k" />
+              <node concept="2OqwBi" id="5ndwm32Ji6r" role="1O9KAF">
+                <node concept="1bVj0M" id="5ndwm32Ji6s" role="2Oq$k0">
+                  <node concept="3clFbS" id="5ndwm32Ji6t" role="1bW5cS">
+                    <node concept="3cpWs6" id="5ndwm32Ji6u" role="3cqZAp">
+                      <node concept="3cmrfG" id="5ndwm32Ji6v" role="3cqZAk">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1Bd96e" id="5ndwm32Ji6w" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="1O9KAR" id="7c10t$7e97q" role="3cqZAp">
+              <property role="TrG5h" value="l" />
+              <node concept="3cpWs3" id="7c10t$7eIsi" role="1O9KAF">
+                <node concept="3cmrfG" id="7c10t$7eIst" role="3uHU7w">
+                  <property role="3cmrfH" value="2" />
+                </node>
+                <node concept="Xl_RD" id="7c10t$7eIny" role="3uHU7B">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3Tm1VV" id="5ndwm32Ji6x" role="1B3o_S" />
+        <node concept="3xLA65" id="5ndwm32Jig_" role="lGtFl">
+          <property role="TrG5h" value="input" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="5ndwm32JhHU" role="1SKRRt">
+      <node concept="312cEu" id="5ndwm32Gu_k" role="1qenE9">
+        <property role="TrG5h" value="Types" />
+        <node concept="3clFb_" id="5ndwm32Gu_j" role="jymVt">
+          <property role="TrG5h" value="f" />
+          <node concept="3cqZAl" id="5ndwm32Gu_i" role="3clF45" />
+          <node concept="3clFbS" id="5ndwm32Gu_h" role="3clF47">
+            <node concept="3cpWs8" id="5ndwm32Gu_g" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu_f" role="3cpWs9">
+                <property role="TrG5h" value="a" />
+                <node concept="3cmrfG" id="5ndwm32Gu$Y" role="33vP2m">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="10Oyi0" id="5ndwm32JhhX" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu$W" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu$V" role="3cpWs9">
+                <property role="TrG5h" value="b" />
+                <node concept="Xl_RD" id="5ndwm32Gu$U" role="33vP2m">
+                  <property role="Xl_RC" value="" />
+                </node>
+                <node concept="17QB3L" id="5ndwm32JhhW" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu$S" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu$R" role="3cpWs9">
+                <property role="TrG5h" value="c" />
+                <node concept="3b6qkQ" id="5ndwm32Gu_6" role="33vP2m">
+                  <property role="$nhwW" value="1.2" />
+                </node>
+                <node concept="10P55v" id="5ndwm32JhhV" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu_4" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu_3" role="3cpWs9">
+                <property role="TrG5h" value="d" />
+                <node concept="37vLTw" id="5ndwm32Gu_2" role="33vP2m">
+                  <ref role="3cqZAo" node="5ndwm32Gu_f" resolve="a" />
+                </node>
+                <node concept="10Oyi0" id="5ndwm32JhhU" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu_0" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu$Z" role="3cpWs9">
+                <property role="TrG5h" value="e" />
+                <node concept="3cpWs3" id="5ndwm32Gu_J" role="33vP2m">
+                  <node concept="3cmrfG" id="5ndwm32Gu_I" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="3cmrfG" id="5ndwm32Gu_H" role="3uHU7B">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+                <node concept="10Oyi0" id="5ndwm32JhhT" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu_F" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu_E" role="3cpWs9">
+                <property role="TrG5h" value="g" />
+                <node concept="3cpWs3" id="5ndwm32Gu_D" role="33vP2m">
+                  <node concept="3cmrfG" id="5ndwm32Gu_C" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="Xl_RD" id="5ndwm32Gu_R" role="3uHU7B">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                </node>
+                <node concept="17QB3L" id="5ndwm32JhhS" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu_P" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu_O" role="3cpWs9">
+                <property role="TrG5h" value="h" />
+                <node concept="3cpWs3" id="5ndwm32Gu_N" role="33vP2m">
+                  <node concept="37vLTw" id="5ndwm32Gu_M" role="3uHU7w">
+                    <ref role="3cqZAo" node="5ndwm32Gu$R" resolve="c" />
+                  </node>
+                  <node concept="37vLTw" id="5ndwm32Gu_L" role="3uHU7B">
+                    <ref role="3cqZAo" node="5ndwm32Gu_f" resolve="a" />
+                  </node>
+                </node>
+                <node concept="10P55v" id="5ndwm32JhhR" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu_v" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu_u" role="3cpWs9">
+                <property role="TrG5h" value="i" />
+                <node concept="3cpWs3" id="5ndwm32Gu_t" role="33vP2m">
+                  <node concept="37vLTw" id="5ndwm32Gu_s" role="3uHU7w">
+                    <ref role="3cqZAo" node="5ndwm32Gu$V" resolve="b" />
+                  </node>
+                  <node concept="37vLTw" id="5ndwm32Gu_r" role="3uHU7B">
+                    <ref role="3cqZAo" node="5ndwm32Gu_f" resolve="a" />
+                  </node>
+                </node>
+                <node concept="17QB3L" id="5ndwm32JhhQ" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu_p" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu_o" role="3cpWs9">
+                <property role="TrG5h" value="j" />
+                <node concept="3cpWs3" id="5ndwm32Gu_B" role="33vP2m">
+                  <node concept="37vLTw" id="5ndwm32Gu_A" role="3uHU7w">
+                    <ref role="3cqZAo" node="5ndwm32Gu_u" resolve="i" />
+                  </node>
+                  <node concept="37vLTw" id="5ndwm32Gu__" role="3uHU7B">
+                    <ref role="3cqZAo" node="5ndwm32Gu_O" resolve="h" />
+                  </node>
+                </node>
+                <node concept="17QB3L" id="5ndwm32JhhP" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu_z" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu_y" role="3cpWs9">
+                <property role="TrG5h" value="k" />
+                <node concept="2OqwBi" id="5ndwm32Gu_x" role="33vP2m">
+                  <node concept="1bVj0M" id="5ndwm32Gu_w" role="2Oq$k0">
+                    <node concept="3clFbS" id="5ndwm32Gu_Z" role="1bW5cS">
+                      <node concept="3cpWs6" id="5ndwm32Gu_Y" role="3cqZAp">
+                        <node concept="3cmrfG" id="5ndwm32Gu_X" role="3cqZAk">
+                          <property role="3cmrfH" value="1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Bd96e" id="5ndwm32Gu_W" role="2OqNvi" />
+                </node>
+                <node concept="10Oyi0" id="5ndwm32JhhO" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5ndwm32Gu_U" role="3cqZAp">
+              <node concept="3cpWsn" id="5ndwm32Gu_T" role="3cpWs9">
+                <property role="TrG5h" value="l" />
+                <node concept="3cpWs3" id="5ndwm32Gu_S" role="33vP2m">
+                  <node concept="3cmrfG" id="5ndwm32GuA4" role="3uHU7w">
+                    <property role="3cmrfH" value="2" />
+                  </node>
+                  <node concept="Xl_RD" id="5ndwm32GuA3" role="3uHU7B">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                </node>
+                <node concept="17QB3L" id="5ndwm32JhhN" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+          <node concept="3Tm1VV" id="5ndwm32GuA1" role="1B3o_S" />
+        </node>
+        <node concept="3Tm1VV" id="5ndwm32GuA0" role="1B3o_S" />
+        <node concept="3xLA65" id="5ndwm32JizV" role="lGtFl">
+          <property role="TrG5h" value="expectedOutput" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

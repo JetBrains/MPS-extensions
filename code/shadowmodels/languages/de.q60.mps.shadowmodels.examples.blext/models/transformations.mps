@@ -2834,6 +2834,88 @@
       </node>
     </node>
     <node concept="2OrE70" id="4ygyjZj7d6Q" role="02uzr" />
+    <node concept="2OrE70" id="5ndwm32DG_g" role="02uzr" />
+    <node concept="1_xYd8" id="5ndwm32DGvI" role="02uzr">
+      <property role="TrG5h" value="inferredTypeVar" />
+      <ref role="1_w7Ad" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+      <node concept="02i3D" id="5ndwm32DGFC" role="1_w7q6">
+        <ref role="02i3$" to="prps:7c10t$79wxI" resolve="VariableWithInferredType" />
+      </node>
+    </node>
+    <node concept="1d2ef" id="5ndwm32$b0M" role="02uzr">
+      <property role="TrG5h" value="mc_varWithInferredType" />
+      <ref role="1d2e9" node="4ygyjZj7vOL" resolve="toJava" />
+      <node concept="2qhRzR" id="5ndwm32$b9I" role="1dsjU">
+        <ref role="2qhRDY" to="prps:7c10t$79wxI" resolve="VariableWithInferredType" />
+        <node concept="027og" id="5ndwm32$b9M" role="2qhRW7">
+          <ref role="02LMe" to="tpee:fzcpWvK" resolve="LocalVariableDeclarationStatement" />
+          <node concept="027rt" id="5ndwm32$b9X" role="02LM9">
+            <ref role="027rv" to="tpee:fzcpWvL" resolve="localVariableDeclaration" />
+            <node concept="1_$sxC" id="5ndwm32DGIE" role="027rp">
+              <ref role="1_$sxD" node="5ndwm32DGvI" resolve="inferredTypeVar" />
+              <node concept="027og" id="5ndwm32$ba5" role="1_FlVf">
+                <ref role="02LMe" to="tpee:fzcpWvJ" resolve="LocalVariableDeclaration" />
+                <node concept="027oh" id="5ndwm32$baz" role="02LM9">
+                  <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
+                  <node concept="2OqwBi" id="5ndwm32$bnG" role="027of">
+                    <node concept="2qrjs6" id="5ndwm32$baM" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5ndwm32$bFO" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="027rt" id="5ndwm32$bLR" role="02LM9">
+                  <ref role="027rv" to="tpee:4VkOLwjf83e" resolve="type" />
+                  <node concept="1Zmyal" id="5ndwm32$bMI" role="027rp">
+                    <node concept="2OqwBi" id="5ndwm32$cvE" role="1Zmyar">
+                      <node concept="2OqwBi" id="5ndwm32$c01" role="2Oq$k0">
+                        <node concept="2qrjs6" id="5ndwm32$bMX" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5ndwm32$ckt" role="2OqNvi">
+                          <ref role="3Tt5mk" to="prps:7c10t$79wxM" resolve="initializer" />
+                        </node>
+                      </node>
+                      <node concept="3JvlWi" id="5ndwm32$cE9" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="027rt" id="5ndwm32$cLk" role="02LM9">
+                  <ref role="027rv" to="tpee:fz3vP1I" resolve="initializer" />
+                  <node concept="1Zmyal" id="5ndwm32$cLY" role="027rp">
+                    <node concept="2OqwBi" id="5ndwm32$d4C" role="1Zmyar">
+                      <node concept="2qrjs6" id="5ndwm32$cR$" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="5ndwm32$dr_" role="2OqNvi">
+                        <ref role="3Tt5mk" to="prps:7c10t$79wxM" resolve="initializer" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2qrjs6" id="5ndwm32DGPE" role="1_$sAB" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2OrE70" id="5ndwm32$e4w" role="1dsjU" />
+      <node concept="2qhRzR" id="5ndwm32$dHp" role="1dsjU">
+        <ref role="2qhRDY" to="prps:7c10t$7b74D" resolve="VariableWithInferredType_Reference" />
+        <node concept="027og" id="5ndwm32$dIk" role="2qhRW7">
+          <ref role="02LMe" to="tpee:fz7vLUo" resolve="VariableReference" />
+          <node concept="027ru" id="5ndwm32$dIv" role="02LM9">
+            <ref role="027ri" to="tpee:fzcqZ_w" resolve="variableDeclaration" />
+            <node concept="1_$sxB" id="5ndwm32Gvr5" role="027rd">
+              <ref role="1_cnka" node="5ndwm32DGvI" resolve="inferredTypeVar" />
+              <node concept="2OqwBi" id="5ndwm32GvBM" role="1_cnkc">
+                <node concept="2qrjs6" id="5ndwm32Gvrd" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5ndwm32GvR9" role="2OqNvi">
+                  <ref role="3Tt5mk" to="prps:7c10t$7b74E" resolve="var" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2OrE70" id="5ndwm32$aTj" role="02uzr" />
   </node>
 </model>
 

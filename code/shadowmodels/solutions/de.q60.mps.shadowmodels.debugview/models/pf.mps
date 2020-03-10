@@ -6532,26 +6532,31 @@
                         </node>
                         <node concept="liA8E" id="5BuKZPIi1PM" role="2OqNvi">
                           <ref role="37wK5l" node="41QOk3IFokw" resolve="addChild" />
-                          <node concept="3cpWs3" id="5BuKZPIi320" role="37wK5m">
-                            <node concept="2OqwBi" id="5BuKZPIi3lS" role="3uHU7w">
-                              <node concept="2GrUjf" id="5BuKZPIi32h" role="2Oq$k0">
-                                <ref role="2Gs0qQ" node="5BuKZPIhZ4y" resolve="field" />
-                              </node>
-                              <node concept="liA8E" id="5BuKZPIi41e" role="2OqNvi">
-                                <ref role="37wK5l" to="t6h5:~Field.getName()" resolve="getName" />
-                              </node>
+                          <node concept="3cpWs3" id="5BuKZPIkxJn" role="37wK5m">
+                            <node concept="Xl_RD" id="5BuKZPIkxJq" role="3uHU7w">
+                              <property role="Xl_RC" value=" = " />
                             </node>
-                            <node concept="3cpWs3" id="5BuKZPIi2PA" role="3uHU7B">
-                              <node concept="2OqwBi" id="5BuKZPIi2bO" role="3uHU7B">
-                                <node concept="37vLTw" id="5BuKZPIi1Up" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="5BuKZPIhWQl" resolve="cls" />
+                            <node concept="3cpWs3" id="5BuKZPIi320" role="3uHU7B">
+                              <node concept="3cpWs3" id="5BuKZPIi2PA" role="3uHU7B">
+                                <node concept="2OqwBi" id="5BuKZPIi2bO" role="3uHU7B">
+                                  <node concept="37vLTw" id="5BuKZPIi1Up" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="5BuKZPIhWQl" resolve="cls" />
+                                  </node>
+                                  <node concept="liA8E" id="5BuKZPIi2$8" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                                  </node>
                                 </node>
-                                <node concept="liA8E" id="5BuKZPIi2$8" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~Class.getSimpleName()" resolve="getSimpleName" />
+                                <node concept="Xl_RD" id="5BuKZPIi2PD" role="3uHU7w">
+                                  <property role="Xl_RC" value="." />
                                 </node>
                               </node>
-                              <node concept="Xl_RD" id="5BuKZPIi2PD" role="3uHU7w">
-                                <property role="Xl_RC" value="." />
+                              <node concept="2OqwBi" id="5BuKZPIi3lS" role="3uHU7w">
+                                <node concept="2GrUjf" id="5BuKZPIi32h" role="2Oq$k0">
+                                  <ref role="2Gs0qQ" node="5BuKZPIhZ4y" resolve="field" />
+                                </node>
+                                <node concept="liA8E" id="5BuKZPIi41e" role="2OqNvi">
+                                  <ref role="37wK5l" to="t6h5:~Field.getName()" resolve="getName" />
+                                </node>
                               </node>
                             </node>
                           </node>

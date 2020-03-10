@@ -150,7 +150,7 @@
         <reference id="5228830074590458689" name="inputConcept" index="2qhRDY" />
         <child id="5228830074590459448" name="output" index="2qhRW7" />
       </concept>
-      <concept id="5228830074592935481" name="de.q60.mps.shadowmodels.transformation.structure.ReductionRuleInputRef" flags="ng" index="2qrjs6" />
+      <concept id="5228830074592935481" name="de.q60.mps.shadowmodels.transformation.structure.SingleInputRef" flags="ng" index="2qrjs6" />
       <concept id="4453020072187560329" name="de.q60.mps.shadowmodels.transformation.structure.ForkParameter" flags="ng" index="2xCcYw">
         <child id="4453020072187560468" name="type" index="2xCcKX" />
       </concept>
@@ -1950,7 +1950,7 @@
     <node concept="2OrE70" id="2VTIUrjnp4d" role="02uzr" />
   </node>
   <node concept="02vhO" id="4ygyjZj3QYF">
-    <property role="TrG5h" value="StatemachineToJavaRedesign" />
+    <property role="TrG5h" value="StatemachineToJava_reduce" />
     <node concept="2OrE70" id="4ygyjZj3RB9" role="02uzr" />
     <node concept="1d2ee" id="YSRTOe$DcZ" role="02uzr">
       <property role="TrG5h" value="toJava" />
@@ -1974,10 +1974,6 @@
     <node concept="1d2ef" id="YSRTOe$C2J" role="02uzr">
       <property role="TrG5h" value="statemachine2java" />
       <ref role="1d2e9" node="YSRTOe$DcZ" resolve="toJava" />
-      <node concept="2qgb7m" id="4ygyjZiPZ6$" role="1dsj2">
-        <property role="2qgb7j" value="ca32b5fa-caea-4f97-9686-6f60d4d677d4" />
-        <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.entities" />
-      </node>
       <node concept="2qgb7m" id="4ygyjZiPZ6A" role="1dsjZ">
         <property role="2qgb7j" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
         <property role="2qgb7l" value="jetbrains.mps.baseLanguage" />
@@ -2175,6 +2171,10 @@
         </node>
       </node>
       <node concept="2OrE70" id="4ygyjZiZqir" role="1dsjU" />
+      <node concept="2qgb7m" id="1fpIz1gsYxI" role="1dsj2">
+        <property role="2qgb7j" value="ebb56408-a287-44ca-ab2d-1b6ee6850446" />
+        <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.statemachine" />
+      </node>
     </node>
     <node concept="2OrE70" id="4ygyjZj3RBb" role="02uzr" />
     <node concept="2OrE70" id="4ygyjZj3RBe" role="02uzr" />

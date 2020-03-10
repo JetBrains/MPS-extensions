@@ -2046,7 +2046,7 @@
     </node>
   </node>
   <node concept="02vhO" id="4ygyjZj3T7f">
-    <property role="TrG5h" value="EntitiesToJavaRedesign" />
+    <property role="TrG5h" value="EntitiesToJava_reduce" />
     <node concept="2OrE70" id="4ygyjZj3Tar" role="02uzr" />
     <node concept="1d2ee" id="4ygyjZj3Ta$" role="02uzr">
       <property role="TrG5h" value="toJava" />

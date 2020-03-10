@@ -116,7 +116,13 @@
       <concept id="1132901171930659859" name="de.q60.mps.shadowmodels.transformation.structure.Goal" flags="ng" index="1d2ee" />
       <concept id="1132901171930659858" name="de.q60.mps.shadowmodels.transformation.structure.MappingConfiguration" flags="ng" index="1d2ef">
         <reference id="1132901171930659860" name="goal" index="1d2e9" />
+        <child id="1132901171930667871" name="inputLanguages" index="1dsj2" />
         <child id="1132901171930667879" name="content" index="1dsjU" />
+        <child id="1132901171930667874" name="outputLanguages" index="1dsjZ" />
+      </concept>
+      <concept id="5228830074589952233" name="de.q60.mps.shadowmodels.transformation.structure.LanguageReference" flags="ng" index="2qgb7m">
+        <property id="5228830074589952236" name="moduleId" index="2qgb7j" />
+        <property id="5228830074589952234" name="moduleName" index="2qgb7l" />
       </concept>
       <concept id="5228830074590458312" name="de.q60.mps.shadowmodels.transformation.structure.ReductionRule" flags="ng" index="2qhRzR">
         <reference id="5228830074590458689" name="inputConcept" index="2qhRDY" />
@@ -2204,6 +2210,14 @@
       </node>
       <node concept="2OrE70" id="4ygyjZj8OG5" role="1dsjU" />
       <node concept="2OrE70" id="4ygyjZjeI2T" role="1dsjU" />
+      <node concept="2qgb7m" id="1fpIz1gpXAY" role="1dsj2">
+        <property role="2qgb7j" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
+        <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.blext" />
+      </node>
+      <node concept="2qgb7m" id="1fpIz1gpXB0" role="1dsjZ">
+        <property role="2qgb7j" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
+        <property role="2qgb7l" value="jetbrains.mps.baseLanguage" />
+      </node>
     </node>
     <node concept="2OrE70" id="2o1Vo3YXy33" role="02uzr" />
     <node concept="1d2ef" id="2o1Vo3YXycq" role="02uzr">
@@ -2264,6 +2278,14 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="2qgb7m" id="1fpIz1gpXAU" role="1dsj2">
+        <property role="2qgb7j" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
+        <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.blext" />
+      </node>
+      <node concept="2qgb7m" id="1fpIz1gpXAW" role="1dsjZ">
+        <property role="2qgb7j" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
+        <property role="2qgb7l" value="jetbrains.mps.baseLanguage" />
       </node>
     </node>
     <node concept="2OrE70" id="2o1Vo3YXpsE" role="02uzr" />
@@ -2772,6 +2794,22 @@
           <node concept="2qrjs6" id="4ygyjZjey$v" role="1_$sAB" />
         </node>
       </node>
+      <node concept="2qgb7m" id="1fpIz1gpX_J" role="1dsj2">
+        <property role="2qgb7j" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
+        <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.blext" />
+      </node>
+      <node concept="2qgb7m" id="1fpIz1gpXA1" role="1dsjZ">
+        <property role="2qgb7j" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
+        <property role="2qgb7l" value="jetbrains.mps.baseLanguage" />
+      </node>
+      <node concept="2qgb7m" id="1fpIz1gpXAA" role="1dsjZ">
+        <property role="2qgb7j" value="c7fb639f-be78-4307-89b0-b5959c3fa8c8" />
+        <property role="2qgb7l" value="jetbrains.mps.lang.text" />
+      </node>
+      <node concept="2qgb7m" id="1fpIz1gpXBk" role="1dsjZ">
+        <property role="2qgb7j" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
+        <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.blext" />
+      </node>
     </node>
     <node concept="2OrE70" id="4ygyjZjeEER" role="02uzr" />
     <node concept="2rwPNH" id="2HTxpGQdeeU" role="02uzr">
@@ -2913,6 +2951,14 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="2qgb7m" id="1fpIz1gpX_F" role="1dsj2">
+        <property role="2qgb7j" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
+        <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.blext" />
+      </node>
+      <node concept="2qgb7m" id="1fpIz1gpX_H" role="1dsjZ">
+        <property role="2qgb7j" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
+        <property role="2qgb7l" value="jetbrains.mps.baseLanguage" />
       </node>
     </node>
     <node concept="2OrE70" id="5ndwm32$aTj" role="02uzr" />

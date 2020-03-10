@@ -7261,8 +7261,8 @@
                 <node concept="3cpWsn" id="73LuVOQeowe" role="3cpWs9">
                   <property role="TrG5h" value="rules" />
                   <node concept="_YKpA" id="73LuVOQeowf" role="1tU5fm">
-                    <node concept="3uibUv" id="73LuVOQeowg" role="_ZDj9">
-                      <ref role="3uigEE" to="kgaa:4ygyjZjm85J" resolve="GenplanRule" />
+                    <node concept="3uibUv" id="1fpIz1guvd5" role="_ZDj9">
+                      <ref role="3uigEE" to="kgaa:1fpIz1gtpeO" resolve="IGenplanRule" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="73LuVOQeowh" role="33vP2m">
@@ -7304,8 +7304,8 @@
                         </node>
                       </node>
                       <node concept="UnYns" id="73LuVOQeowy" role="2OqNvi">
-                        <node concept="3uibUv" id="73LuVOQeowz" role="UnYnz">
-                          <ref role="3uigEE" to="kgaa:4ygyjZjm85J" resolve="GenplanRule" />
+                        <node concept="3uibUv" id="1fpIz1gu_oQ" role="UnYnz">
+                          <ref role="3uigEE" to="kgaa:1fpIz1gtpeO" resolve="IGenplanRule" />
                         </node>
                       </node>
                     </node>

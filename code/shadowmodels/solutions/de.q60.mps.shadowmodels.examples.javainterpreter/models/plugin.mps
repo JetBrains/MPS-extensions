@@ -336,6 +336,7 @@
         <child id="1197687026896" name="keyType" index="3rHrn6" />
         <child id="1197687035757" name="valueType" index="3rHtpV" />
       </concept>
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1208542034276" name="jetbrains.mps.baseLanguage.collections.structure.MapClearOperation" flags="nn" index="1yHZxX" />
       <concept id="1240824834947" name="jetbrains.mps.baseLanguage.collections.structure.ValueAccessOperation" flags="nn" index="3AV6Ez" />
       <concept id="1240825616499" name="jetbrains.mps.baseLanguage.collections.structure.KeyAccessOperation" flags="nn" index="3AY5_j" />
@@ -1553,8 +1554,8 @@
         <node concept="3cpWs8" id="1KLm$Di1ZK3" role="3cqZAp">
           <node concept="3cpWsn" id="1KLm$Di1ZK4" role="3cpWs9">
             <property role="TrG5h" value="call" />
-            <node concept="3uibUv" id="1KLm$Di3p_L" role="1tU5fm">
-              <ref role="3uigEE" to="nv3w:2$QnGbtLuzE" resolve="ITransformationCall" />
+            <node concept="3uibUv" id="1fpIz1gDaNZ" role="1tU5fm">
+              <ref role="3uigEE" to="nv3w:2dy3jLYuHXY" resolve="IContainmentTarget" />
             </node>
             <node concept="1rXfSq" id="1KLm$Di1ZK5" role="33vP2m">
               <ref role="37wK5l" node="1KLm$Di1BeH" resolve="getTCall" />
@@ -1566,25 +1567,6 @@
         </node>
         <node concept="3clFbJ" id="1KLm$Di20rw" role="3cqZAp">
           <node concept="3clFbS" id="1KLm$Di20ry" role="3clFbx">
-            <node concept="3cpWs8" id="1KLm$Di21Qm" role="3cqZAp">
-              <node concept="3cpWsn" id="1KLm$Di21Qn" role="3cpWs9">
-                <property role="TrG5h" value="output" />
-                <node concept="3uibUv" id="1KLm$Di21Ql" role="1tU5fm">
-                  <ref role="3uigEE" to="nv3w:3kkgokiKm6n" resolve="ITransformationResult" />
-                </node>
-                <node concept="2OqwBi" id="1KLm$Di21Qo" role="33vP2m">
-                  <node concept="37vLTw" id="1KLm$Di21Qp" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1KLm$Di04q9" resolve="transformationEngine" />
-                  </node>
-                  <node concept="liA8E" id="1KLm$Di21Qq" role="2OqNvi">
-                    <ref role="37wK5l" to="nv3w:32qWz0M5ujN" resolve="execute" />
-                    <node concept="37vLTw" id="1KLm$Di21Qr" role="37wK5m">
-                      <ref role="3cqZAo" node="1KLm$Di1ZK4" resolve="call" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="1KLm$Di23kC" role="3cqZAp">
               <node concept="3cpWsn" id="1KLm$Di23kD" role="3cpWs9">
                 <property role="TrG5h" value="outputRoot" />
@@ -1592,21 +1574,19 @@
                 <node concept="2YIFZM" id="1KLm$Di2gQU" role="33vP2m">
                   <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
                   <ref role="37wK5l" to="l6bp:75046mm7IDU" resolve="wrap" />
-                  <node concept="2OqwBi" id="1KLm$Di25Xu" role="37wK5m">
-                    <node concept="2OqwBi" id="1KLm$Di23kE" role="2Oq$k0">
-                      <node concept="37vLTw" id="1KLm$Di23kF" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1KLm$Di21Qn" resolve="output" />
+                  <node concept="2OqwBi" id="1fpIz1gDheY" role="37wK5m">
+                    <node concept="2OqwBi" id="1fpIz1gDheZ" role="2Oq$k0">
+                      <node concept="37vLTw" id="1fpIz1gDhf0" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1KLm$Di04q9" resolve="transformationEngine" />
                       </node>
-                      <node concept="liA8E" id="1KLm$Di23kG" role="2OqNvi">
-                        <ref role="37wK5l" to="nv3w:3kkgokiMQTR" resolve="getRootElement" />
-                        <node concept="3cmrfG" id="1KLm$Di23kH" role="37wK5m">
-                          <property role="3cmrfH" value="0" />
+                      <node concept="liA8E" id="1fpIz1gDhf1" role="2OqNvi">
+                        <ref role="37wK5l" to="nv3w:4NgaqHYYk1V" resolve="executeInCurrentStage" />
+                        <node concept="37vLTw" id="1fpIz1gDhf2" role="37wK5m">
+                          <ref role="3cqZAo" node="1KLm$Di1ZK4" resolve="call" />
                         </node>
                       </node>
                     </node>
-                    <node concept="liA8E" id="1KLm$Di2ffY" role="2OqNvi">
-                      <ref role="37wK5l" to="nv3w:7WfC1hyOtId" resolve="toNode" />
-                    </node>
+                    <node concept="1uHKPH" id="1fpIz1gDhf3" role="2OqNvi" />
                   </node>
                   <node concept="37vLTw" id="1KLm$Di2yM8" role="37wK5m">
                     <ref role="3cqZAo" node="1KLm$Di2kt9" resolve="repository" />
@@ -1711,8 +1691,8 @@
         <property role="TrG5h" value="input" />
         <node concept="3Tqbb2" id="1KLm$Di1ICd" role="1tU5fm" />
       </node>
-      <node concept="3uibUv" id="1KLm$Di3pYJ" role="3clF45">
-        <ref role="3uigEE" to="nv3w:2$QnGbtLuzE" resolve="ITransformationCall" />
+      <node concept="3uibUv" id="1fpIz1gDbar" role="3clF45">
+        <ref role="3uigEE" to="nv3w:2dy3jLYuHXY" resolve="IContainmentTarget" />
       </node>
       <node concept="3Tm1VV" id="1KLm$Di1BeK" role="1B3o_S" />
       <node concept="3clFbS" id="1KLm$Di1BeL" role="3clF47">
@@ -1747,8 +1727,8 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3uibUv" id="1KLm$Di3rKc" role="10QFUM">
-                  <ref role="3uigEE" to="nv3w:2$QnGbtLuzE" resolve="ITransformationCall" />
+                <node concept="3uibUv" id="1fpIz1gDda0" role="10QFUM">
+                  <ref role="3uigEE" to="nv3w:2dy3jLYuHXY" resolve="IContainmentTarget" />
                 </node>
               </node>
             </node>

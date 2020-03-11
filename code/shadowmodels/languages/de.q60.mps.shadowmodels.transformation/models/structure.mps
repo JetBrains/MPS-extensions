@@ -144,6 +144,9 @@
     <node concept="PrWs8" id="6EAoUhFFKfd" role="PzmwI">
       <ref role="PrY4T" node="6EAoUhFFKf3" resolve="IGeneratesTransformation" />
     </node>
+    <node concept="PrWs8" id="2rBW8JErHrH" role="PzmwI">
+      <ref role="PrY4T" node="2rBW8JErG8y" resolve="IValueDeclContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6ndA7L_Lbyc">
     <property role="EcuMT" value="7335687028107163788" />
@@ -1861,6 +1864,13 @@
       <property role="20kJfa" value="condition" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="2rBW8JEo0Qg" role="1TKVEi">
+      <property role="IQ2ns" value="2803473776784706960" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6DbeQdm3prL" resolve="ITransformationContent" />
+    </node>
     <node concept="1TJgyj" id="4ygyjZiPZd1" role="1TKVEi">
       <property role="IQ2ns" value="5228830074590458689" />
       <property role="20kJfa" value="inputConcept" />
@@ -1875,6 +1885,12 @@
     </node>
     <node concept="PrWs8" id="6EAoUhFGplM" role="PzmwI">
       <ref role="PrY4T" node="6EAoUhFFKf3" resolve="IGeneratesTransformation" />
+    </node>
+    <node concept="PrWs8" id="2rBW8JErabi" role="PzmwI">
+      <ref role="PrY4T" node="7X4ppfYlui3" resolve="IContextNodeProvider" />
+    </node>
+    <node concept="PrWs8" id="2rBW8JErQt8" role="PzmwI">
+      <ref role="PrY4T" node="2rBW8JErG8y" resolve="IValueDeclContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="4ygyjZiZrST">
@@ -2006,6 +2022,13 @@
       <property role="20kJfa" value="condition" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="2rBW8JEo0Qp" role="1TKVEi">
+      <property role="IQ2ns" value="2803473776784706969" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6DbeQdm3prL" resolve="ITransformationContent" />
+    </node>
     <node concept="PrWs8" id="4ygyjZj99Eq" role="PzmwI">
       <ref role="PrY4T" node="YSRTOezhHA" resolve="IMappingConfigurationContent" />
     </node>
@@ -2014,6 +2037,12 @@
     </node>
     <node concept="PrWs8" id="6EAoUhFG1Kr" role="PzmwI">
       <ref role="PrY4T" node="6EAoUhFFKf3" resolve="IGeneratesTransformation" />
+    </node>
+    <node concept="PrWs8" id="2rBW8JErqBq" role="PzmwI">
+      <ref role="PrY4T" node="7X4ppfYlui3" resolve="IContextNodeProvider" />
+    </node>
+    <node concept="PrWs8" id="2rBW8JErQsL" role="PzmwI">
+      <ref role="PrY4T" node="2rBW8JErG8y" resolve="IValueDeclContainer" />
     </node>
   </node>
   <node concept="PlHQZ" id="4ygyjZjbyXO">
@@ -2024,6 +2053,10 @@
   <node concept="PlHQZ" id="6EAoUhFFKf3">
     <property role="EcuMT" value="7684939371986748355" />
     <property role="TrG5h" value="IGeneratesTransformation" />
+  </node>
+  <node concept="PlHQZ" id="2rBW8JErG8y">
+    <property role="EcuMT" value="2803473776785670690" />
+    <property role="TrG5h" value="IValueDeclContainer" />
   </node>
 </model>
 

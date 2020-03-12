@@ -4194,8 +4194,14 @@
               </node>
               <node concept="2pIpSj" id="2rBW8JEtzq$" role="2pJxcM">
                 <ref role="2pIpSl" to="tpd4:hausUtE" resolve="argument" />
-                <node concept="2pJPED" id="2rBW8JEtzrI" role="28nt2d">
-                  <ref role="2pJxaS" to="tp25:gEI9FSM" resolve="SNodeListType" />
+                <node concept="2pJPED" id="2rBW8JEvo1b" role="28nt2d">
+                  <ref role="2pJxaS" to="tp2q:gKA3Dh4" resolve="SequenceType" />
+                  <node concept="2pIpSj" id="2rBW8JEvo1N" role="2pJxcM">
+                    <ref role="2pIpSl" to="tp2q:gKA3Ige" resolve="elementType" />
+                    <node concept="2pJPED" id="2rBW8JEvo30" role="28nt2d">
+                      <ref role="2pJxaS" to="tp25:gzTqbfa" resolve="SNodeType" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

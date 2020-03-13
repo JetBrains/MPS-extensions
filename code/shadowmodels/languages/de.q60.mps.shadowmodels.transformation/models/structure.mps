@@ -2064,5 +2064,133 @@
     <property role="EcuMT" value="2803473776785670690" />
     <property role="TrG5h" value="IValueDeclContainer" />
   </node>
+  <node concept="1TIwiD" id="wx6yrzrauI">
+    <property role="EcuMT" value="585778180861503406" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="Scope" />
+    <property role="34LRSv" value="scope" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3fKulKFdRuQ" role="1TKVEi">
+      <property role="IQ2ns" value="3742624727113889718" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="scopeRef" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3fKulKFdRuj" resolve="IScopeReference" />
+    </node>
+    <node concept="1TJgyj" id="wx6yrzrawj" role="1TKVEi">
+      <property role="IQ2ns" value="585778180861503507" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6ndA7L_LuUC" resolve="INodeSpec" />
+    </node>
+    <node concept="PrWs8" id="wx6yrzraw5" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3fKulKFdKp9">
+    <property role="EcuMT" value="3742624727113860681" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="ScopeDecl" />
+    <property role="34LRSv" value="scope" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3fKulKFQXSE" role="1TKVEi">
+      <property role="IQ2ns" value="3742624727124663850" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3fKulKFIVMi" resolve="IScopeDeclContent" />
+    </node>
+    <node concept="1TJgyj" id="3fKulKFdKps" role="1TKVEi">
+      <property role="IQ2ns" value="3742624727113860700" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="parameters" />
+      <ref role="20lvS9" node="1W$iTP$k8cF" resolve="ScopeParameter" />
+    </node>
+    <node concept="PrWs8" id="3fKulKFdKpp" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
+    </node>
+    <node concept="PrWs8" id="3fKulKFgmO2" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3fKulKFdRuj">
+    <property role="EcuMT" value="3742624727113889683" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="IScopeReference" />
+  </node>
+  <node concept="1TIwiD" id="3fKulKFdRuz">
+    <property role="EcuMT" value="3742624727113889699" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="ScopeCall" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3fKulKFdRvO" role="1TKVEi">
+      <property role="IQ2ns" value="3742624727113889780" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameterValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3fKulKFdRvL" role="1TKVEi">
+      <property role="IQ2ns" value="3742624727113889777" />
+      <property role="20kJfa" value="scopeDecl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3fKulKFdKp9" resolve="ScopeDecl" />
+    </node>
+    <node concept="PrWs8" id="3fKulKFdRuN" role="PzmwI">
+      <ref role="PrY4T" node="3fKulKFdRuj" resolve="IScopeReference" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3fKulKFIVMi">
+    <property role="EcuMT" value="3742624727122558098" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="IScopeDeclContent" />
+  </node>
+  <node concept="1TIwiD" id="3fKulKFKcgp">
+    <property role="EcuMT" value="3742624727122887705" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="ScopeImport" />
+    <property role="34LRSv" value="import" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3fKulKFKcgw" role="1TKVEi">
+      <property role="IQ2ns" value="3742624727122887712" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="importedPath" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3fKulKFdRuj" resolve="IScopeReference" />
+    </node>
+    <node concept="PrWs8" id="3fKulKFKcgt" role="PzmwI">
+      <ref role="PrY4T" node="3fKulKFIVMi" resolve="IScopeDeclContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1W$iTP$k8cF">
+    <property role="EcuMT" value="2244001653702296363" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="ScopeParameter" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1W$iTP$k8cJ" role="1TKVEi">
+      <property role="IQ2ns" value="2244001653702296367" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6ndA7L_Lbyk" resolve="ITransformationParameterType" />
+    </node>
+    <node concept="PrWs8" id="1W$iTP$k8cG" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1W$iTP$k9tT">
+    <property role="EcuMT" value="2244001653702301561" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="ScopeParameterReference" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="1W$iTP$k9tU" role="1TKVEi">
+      <property role="IQ2ns" value="2244001653702301562" />
+      <property role="20kJfa" value="decl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1W$iTP$k8cF" resolve="ScopeParameter" />
+    </node>
+  </node>
 </model>
 

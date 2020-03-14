@@ -2192,5 +2192,45 @@
       <ref role="20lvS9" node="1W$iTP$k8cF" resolve="ScopeParameter" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7K4yFTUbKIL">
+    <property role="EcuMT" value="8936420111308229553" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="ScopeType" />
+    <property role="34LRSv" value="scope" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="1TJgyj" id="7K4yFTUbKIP" role="1TKVEi">
+      <property role="IQ2ns" value="8936420111308229557" />
+      <property role="20kJfa" value="scopeDecl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3fKulKFdKp9" resolve="ScopeDecl" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7K4yFTUbPml">
+    <property role="EcuMT" value="8936420111308248469" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="ScopeAccessExpression" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="7K4yFTUbPmp" role="1TKVEi">
+      <property role="IQ2ns" value="8936420111308248473" />
+      <property role="20kJfa" value="scopeDecl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3fKulKFdKp9" resolve="ScopeDecl" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7K4yFTUebws">
+    <property role="EcuMT" value="8936420111308863516" />
+    <property role="3GE5qa" value="scope" />
+    <property role="TrG5h" value="ScopeParameterOperation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7K4yFTUebZg" role="1TKVEi">
+      <property role="IQ2ns" value="8936420111308865488" />
+      <property role="20kJfa" value="paramDecl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1W$iTP$k8cF" resolve="ScopeParameter" />
+    </node>
+    <node concept="PrWs8" id="7K4yFTUebww" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
+  </node>
 </model>
 

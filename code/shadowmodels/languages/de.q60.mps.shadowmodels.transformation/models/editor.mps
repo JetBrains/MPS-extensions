@@ -5399,5 +5399,56 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="7K4yFTUbKJ0">
+    <property role="3GE5qa" value="scope" />
+    <ref role="1XX52x" to="oyp0:7K4yFTUbKIL" resolve="ScopeType" />
+    <node concept="3EZMnI" id="7K4yFTUbKJ5" role="2wV5jI">
+      <node concept="3F0ifn" id="7K4yFTUbKJf" role="3EZMnx">
+        <property role="3F0ifm" value="scope" />
+      </node>
+      <node concept="3F0ifn" id="7K4yFTUbKJo" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;" />
+        <node concept="11L4FC" id="7K4yFTUbPm4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="7K4yFTUbPmc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="7K4yFTUbKJQ" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:7K4yFTUbKIP" resolve="scopeDecl" />
+        <node concept="1sVBvm" id="7K4yFTUbKJS" role="1sWHZn">
+          <node concept="3SHvHV" id="7K4yFTUbKK8" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7K4yFTUbKJ_" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
+        <node concept="11L4FC" id="7K4yFTUbPmi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7K4yFTUbKJ8" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7K4yFTUdeIN">
+    <property role="3GE5qa" value="scope" />
+    <ref role="1XX52x" to="oyp0:7K4yFTUbPml" resolve="ScopeAccessExpression" />
+    <node concept="1iCGBv" id="7K4yFTUdeIP" role="2wV5jI">
+      <ref role="1NtTu8" to="oyp0:7K4yFTUbPmp" resolve="scopeDecl" />
+      <node concept="1sVBvm" id="7K4yFTUdeIR" role="1sWHZn">
+        <node concept="3SHvHV" id="7K4yFTUdeJ1" role="2wV5jI" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7K4yFTUebZr">
+    <property role="3GE5qa" value="scope" />
+    <ref role="1XX52x" to="oyp0:7K4yFTUebws" resolve="ScopeParameterOperation" />
+    <node concept="1iCGBv" id="7K4yFTUebZt" role="2wV5jI">
+      <ref role="1NtTu8" to="oyp0:7K4yFTUebZg" resolve="paramDecl" />
+      <node concept="1sVBvm" id="7K4yFTUebZv" role="1sWHZn">
+        <node concept="3SHvHV" id="7K4yFTUebZK" role="2wV5jI" />
+      </node>
+    </node>
+  </node>
 </model>
 

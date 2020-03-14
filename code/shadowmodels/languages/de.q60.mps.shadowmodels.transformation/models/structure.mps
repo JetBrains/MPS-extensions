@@ -2232,5 +2232,56 @@
       <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1Ym4FmdJwGg">
+    <property role="EcuMT" value="2276027232658787088" />
+    <property role="3GE5qa" value="mpslike" />
+    <property role="TrG5h" value="PropertyRule" />
+    <property role="34LRSv" value="property" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1Ym4FmdJwK$" role="1TKVEi">
+      <property role="IQ2ns" value="2276027232658787364" />
+      <property role="20kJfa" value="inputConcept" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1Ym4FmdJGxm" role="1TKVEi">
+      <property role="IQ2ns" value="2276027232658835542" />
+      <property role="20kJfa" value="property" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1Ym4FmdJwKy" role="1TKVEi">
+      <property role="IQ2ns" value="2276027232658787362" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="condition" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1Ym4FmdJwMB" role="1TKVEi">
+      <property role="IQ2ns" value="2276027232658787495" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="newValue" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1Ym4FmdJEps" role="1TKVEi">
+      <property role="IQ2ns" value="2276027232658826844" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="content" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6DbeQdm3prL" resolve="ITransformationContent" />
+    </node>
+    <node concept="PrWs8" id="1Ym4FmdJwGh" role="PzmwI">
+      <ref role="PrY4T" node="YSRTOezhHA" resolve="IMappingConfigurationContent" />
+    </node>
+    <node concept="PrWs8" id="1Ym4FmdJwGi" role="PzmwI">
+      <ref role="PrY4T" node="4ygyjZjbyXO" resolve="ISingleInputRule" />
+    </node>
+    <node concept="PrWs8" id="1Ym4FmdJwGk" role="PzmwI">
+      <ref role="PrY4T" node="7X4ppfYlui3" resolve="IContextNodeProvider" />
+    </node>
+    <node concept="PrWs8" id="1Ym4FmdJEpm" role="PzmwI">
+      <ref role="PrY4T" node="2rBW8JErG8y" resolve="IValueDeclContainer" />
+    </node>
+  </node>
 </model>
 

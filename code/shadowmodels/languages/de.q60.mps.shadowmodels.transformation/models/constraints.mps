@@ -2447,5 +2447,33 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="1Ym4FmdLbfh">
+    <property role="3GE5qa" value="mpslike" />
+    <ref role="1M2myG" to="oyp0:1Ym4FmdJwGg" resolve="PropertyRule" />
+    <node concept="1N5Pfh" id="1Ym4FmdLbfi" role="1Mr941">
+      <ref role="1N5Vy1" to="oyp0:1Ym4FmdJGxm" resolve="property" />
+      <node concept="3dgokm" id="1Ym4FmdLbfk" role="1N6uqs">
+        <node concept="3clFbS" id="1Ym4FmdLbfl" role="2VODD2">
+          <node concept="3clFbF" id="1Ym4FmdLbHK" role="3cqZAp">
+            <node concept="2YIFZM" id="1Ym4FmdLbMj" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="1Ym4FmdLcL$" role="37wK5m">
+                <node concept="2OqwBi" id="1Ym4FmdLc4r" role="2Oq$k0">
+                  <node concept="3kakTB" id="1Ym4FmdLbOB" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1Ym4FmdLcsq" role="2OqNvi">
+                    <ref role="3Tt5mk" to="oyp0:1Ym4FmdJwK$" resolve="inputConcept" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="1Ym4FmdLdd$" role="2OqNvi">
+                  <ref role="37wK5l" to="tpcn:hEwILLM" resolve="getPropertyDeclarations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

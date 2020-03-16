@@ -260,5 +260,20 @@
     <property role="EcuMT" value="8551406714925044721" />
     <property role="TrG5h" value="IIncrementalFunction" />
   </node>
+  <node concept="1TIwiD" id="7pNuz6Ane_v">
+    <property role="EcuMT" value="8535300072460314975" />
+    <property role="TrG5h" value="HashCodeEquals" />
+    <property role="34LRSv" value="hashCodeEquals" />
+    <node concept="1TJgyj" id="7pNuz6Anfg8" role="1TKVEi">
+      <property role="IQ2ns" value="8535300072460317704" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="7pNuz6AnnFR" role="PzmwI">
+      <ref role="PrY4T" to="tpee:h9ngReX" resolve="ClassifierMember" />
+    </node>
+  </node>
 </model>
 

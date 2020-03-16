@@ -1321,6 +1321,9 @@
     <node concept="PrWs8" id="32qWz0Ky2UZ" role="PzmwI">
       <ref role="PrY4T" node="6DbeQdm3prL" resolve="ITransformationContent" />
     </node>
+    <node concept="asaX9" id="7pNuz6AH4ic" role="lGtFl">
+      <property role="YLQ7P" value="Use scopes with imports" />
+    </node>
   </node>
   <node concept="1TIwiD" id="32qWz0KZXF2">
     <property role="EcuMT" value="3502377949028408002" />

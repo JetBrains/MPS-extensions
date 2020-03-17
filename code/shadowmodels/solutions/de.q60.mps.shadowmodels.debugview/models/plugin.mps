@@ -3225,8 +3225,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="55FR5sargmZ">
-    <property role="TrG5h" value="LoadForkExplorer" />
-    <property role="2uzpH1" value="Fork Explorer" />
+    <property role="TrG5h" value="LoadShowExplorer" />
+    <property role="2uzpH1" value="Shadow Repository Explorer" />
     <property role="72QZ$" value="true" />
     <node concept="1DS2jV" id="55FR5sargn0" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -3266,7 +3266,7 @@
                     <node concept="3cpWsn" id="1pTQQaTYpDs" role="3cpWs9">
                       <property role="TrG5h" value="outputNodeRef" />
                       <node concept="3uibUv" id="6$M6y1eLs9b" role="1tU5fm">
-                        <ref role="3uigEE" to="nv3w:2dy3jLYuSc6" resolve="_IOutputNodeReference" />
+                        <ref role="3uigEE" to="nv3w:2dy3jLYuSc6" resolve="IOutputNodeReference" />
                       </node>
                       <node concept="2YIFZM" id="6$M6y1eLrh3" role="33vP2m">
                         <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
@@ -3297,7 +3297,7 @@
                     <node concept="3cpWsn" id="2Vy1$4MnjhF" role="3cpWs9">
                       <property role="TrG5h" value="subgraphRef" />
                       <node concept="3uibUv" id="2Vy1$4Mnjgj" role="1tU5fm">
-                        <ref role="3uigEE" to="nv3w:2dy3jLYuT7I" resolve="_ISubgraphRef" />
+                        <ref role="3uigEE" to="nv3w:2dy3jLYuT7I" resolve="ISubgraphRef" />
                       </node>
                       <node concept="2OqwBi" id="2Vy1$4MnjhG" role="33vP2m">
                         <node concept="2OqwBi" id="2Vy1$4MnjhH" role="2Oq$k0">
@@ -3389,7 +3389,7 @@
     <property role="TrG5h" value="DebugViewToolsMenuAdditions" />
     <node concept="ftmFs" id="21SKqk9W$ee" role="ftER_">
       <node concept="tCFHf" id="21SKqk9W$eT" role="ftvYc">
-        <ref role="tCJdB" node="55FR5sargmZ" resolve="LoadForkExplorer" />
+        <ref role="tCJdB" node="55FR5sargmZ" resolve="LoadShowExplorer" />
       </node>
       <node concept="tCFHf" id="7rXsP$3RzW4" role="ftvYc">
         <ref role="tCJdB" node="7rXsP$3QQU3" resolve="LoadErrors" />

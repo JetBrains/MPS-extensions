@@ -1406,6 +1406,9 @@
     <node concept="PrWs8" id="3kkgoki__Tt" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
     </node>
+    <node concept="PrWs8" id="3_irx8G56pD" role="PzmwI">
+      <ref role="PrY4T" node="3fKulKFdRuj" resolve="IScopeReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7zy9ho7I0u3">
     <property role="EcuMT" value="8710565405836969859" />
@@ -1987,6 +1990,9 @@
     <node concept="PrWs8" id="4ygyjZj7zbJ" role="PzmwI">
       <ref role="PrY4T" node="6ndA7L_LuUC" resolve="INodeSpec" />
     </node>
+    <node concept="PrWs8" id="3_irx8GbmJy" role="PzmwI">
+      <ref role="PrY4T" node="3fKulKFdRuj" resolve="IScopeReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4ygyjZj99Ep">
     <property role="EcuMT" value="5228830074595482265" />
@@ -2154,17 +2160,26 @@
     <property role="EcuMT" value="3742624727122887705" />
     <property role="3GE5qa" value="scope" />
     <property role="TrG5h" value="ScopeImport" />
-    <property role="34LRSv" value="import" />
+    <property role="34LRSv" value="import scope" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3fKulKFKcgw" role="1TKVEi">
       <property role="IQ2ns" value="3742624727122887712" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="importedPath" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20kJfa" value="scopeRef" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3fKulKFdRuj" resolve="IScopeReference" />
+    </node>
+    <node concept="1TJgyj" id="3_irx8G4EzK" role="1TKVEi">
+      <property role="IQ2ns" value="4130484832580053232" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="condition" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="3fKulKFKcgt" role="PzmwI">
       <ref role="PrY4T" node="3fKulKFIVMi" resolve="IScopeDeclContent" />
+    </node>
+    <node concept="PrWs8" id="3_irx8G48Y_" role="PzmwI">
+      <ref role="PrY4T" node="6DbeQdm3prL" resolve="ITransformationContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="1W$iTP$k8cF">

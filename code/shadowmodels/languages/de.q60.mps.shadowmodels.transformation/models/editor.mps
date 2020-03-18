@@ -5342,12 +5342,19 @@
       <node concept="PMmxH" id="3fKulKFKcgU" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
-      <node concept="3F2HdR" id="3fKulKFLr80" role="3EZMnx">
-        <property role="2czwfO" value="/" />
-        <ref role="1NtTu8" to="oyp0:3fKulKFKcgw" resolve="importedPath" />
-        <node concept="l2Vlx" id="3fKulKFLr82" role="2czzBx" />
+      <node concept="3F1sOY" id="3_irx8G48Z9" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:3fKulKFKcgw" resolve="scopeRef" />
       </node>
       <node concept="l2Vlx" id="3fKulKFKcgK" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="3_irx8G4EzN" role="6VMZX">
+      <node concept="2iRfu4" id="3_irx8G4EzO" role="2iSdaV" />
+      <node concept="3F0ifn" id="3_irx8G4EzR" role="3EZMnx">
+        <property role="3F0ifm" value="condition:" />
+      </node>
+      <node concept="3F1sOY" id="3_irx8G4E$0" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:3_irx8G4EzK" resolve="condition" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1W$iTP$k8jT">

@@ -10890,6 +10890,9 @@
     <node concept="3uibUv" id="B8a55Uuamb" role="EKbjA">
       <ref role="3uigEE" node="5gTrVpGiJ4w" resolve="ITransformationEngine" />
     </node>
+    <node concept="3uibUv" id="1Yk_YbD7YBM" role="1zkMxy">
+      <ref role="3uigEE" to="pxvb:1Yk_YbD7LKv" resolve="UserObjectContainer" />
+    </node>
   </node>
   <node concept="312cEu" id="3ECE8iPFnoX">
     <property role="TrG5h" value="SimplePropertyWriteHandler" />
@@ -17167,6 +17170,9 @@
     <node concept="3Tm1VV" id="5gTrVpGiJ4x" role="1B3o_S" />
     <node concept="3uibUv" id="5wi3nvJWrg1" role="3HQHJm">
       <ref role="3uigEE" to="mjcn:5wi3nvJWiQu" resolve="INodeResolveContext" />
+    </node>
+    <node concept="3uibUv" id="1Yk_YbD73GZ" role="3HQHJm">
+      <ref role="3uigEE" to="pxvb:B8a55Urgn8" resolve="IUserObjectContainer" />
     </node>
     <node concept="2tJIrI" id="2dy3jLYuTti" role="jymVt" />
     <node concept="3clFb_" id="4NgaqHYXF9E" role="jymVt">

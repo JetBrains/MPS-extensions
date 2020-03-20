@@ -46,6 +46,7 @@
     <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
+    <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -1780,6 +1781,14 @@
                   <node concept="37vLTw" id="6EruykV8KV5" role="37wK5m">
                     <ref role="3cqZAo" node="115Xaa41sOA" resolve="treeListener" />
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1Yk_YbD6Clz" role="3cqZAp">
+              <node concept="37vLTI" id="1Yk_YbD6CAf" role="3clFbG">
+                <node concept="10Nm6u" id="1Yk_YbD6CGU" role="37vLTx" />
+                <node concept="37vLTw" id="1Yk_YbD6Clx" role="37vLTJ">
+                  <ref role="3cqZAo" node="6EruykV8CMZ" resolve="treeModel" />
                 </node>
               </node>
             </node>
@@ -3755,6 +3764,12 @@
     <property role="2uzpH1" value="Re-Execute Shadow Model Transformations" />
     <node concept="tnohg" id="43OnoQB0wr5" role="tncku">
       <node concept="3clFbS" id="43OnoQB0wr6" role="2VODD2">
+        <node concept="3clFbF" id="2CK1QGRkHNE" role="3cqZAp">
+          <node concept="2YIFZM" id="2CK1QGRkHYl" role="3clFbG">
+            <ref role="37wK5l" to="y071:475LaDXmXpP" resolve="clear" />
+            <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
+          </node>
+        </node>
         <node concept="3clFbF" id="43OnoQB0zFR" role="3cqZAp">
           <node concept="2OqwBi" id="43OnoQB0zMF" role="3clFbG">
             <node concept="2YIFZM" id="43OnoQB0zH7" role="2Oq$k0">
@@ -4829,6 +4844,32 @@
             <ref role="37wK5l" to="l6bp:5wHEIYKLCwf" resolve="setInstance" />
             <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
             <node concept="10Nm6u" id="5wHEIYKLNBK" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1H8Cu$rH4Ge" role="3cqZAp" />
+        <node concept="3SKdUt" id="1H8Cu$rH4R$" role="3cqZAp">
+          <node concept="1PaTwC" id="1H8Cu$rH4R_" role="3ndbpf">
+            <node concept="3oM_SD" id="1H8Cu$rH4RB" role="1PaTwD">
+              <property role="3oM_SC" value="prevent" />
+            </node>
+            <node concept="3oM_SD" id="1H8Cu$rH4SV" role="1PaTwD">
+              <property role="3oM_SC" value="memory" />
+            </node>
+            <node concept="3oM_SD" id="1H8Cu$rH4T6" role="1PaTwD">
+              <property role="3oM_SC" value="leak" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1H8Cu$rH4zD" role="3cqZAp">
+          <node concept="2YIFZM" id="1H8Cu$rH4Fo" role="3clFbG">
+            <ref role="37wK5l" to="y071:475LaDXmXpP" resolve="clear" />
+            <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2CK1QGRnZCq" role="3cqZAp">
+          <node concept="2YIFZM" id="2CK1QGRnZEs" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:3Gcr_8xKHvg" resolve="clearInstancesCache" />
+            <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
           </node>
         </node>
       </node>

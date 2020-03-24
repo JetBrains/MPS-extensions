@@ -239,12 +239,11 @@ This prevents them from being reapplied on the same node again and again.
 Property rules can change a value without doing any structural change to the model.
 They are applied on the output after executing reduction and weaving rules.
 
-<!--
+
 ### Reference Rules
 
-Not implemented yet.
--->
-
+Reference rules are the same as property rules except that they change a reference target instead of a property value.
+The target is resolved in the scope of the output node.
 
 ## Scopes
 

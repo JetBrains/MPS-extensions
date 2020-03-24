@@ -9937,10 +9937,10 @@
         </node>
         <node concept="3cpWs8" id="1Ym4FmemkuL" role="3cqZAp">
           <node concept="3cpWsn" id="1Ym4FmemkuM" role="3cpWs9">
-            <property role="TrG5h" value="propertyRules" />
+            <property role="TrG5h" value="rules" />
             <node concept="A3Dl8" id="1Ym4FmemkuN" role="1tU5fm">
-              <node concept="3uibUv" id="1Ym4FmemlAG" role="A3Ik2">
-                <ref role="3uigEE" to="kgaa:1Ym4FmdQqa6" resolve="PropertyRule" />
+              <node concept="3uibUv" id="6TaAXKMsEsi" role="A3Ik2">
+                <ref role="3uigEE" to="kgaa:6TaAXKMsC3w" resolve="IOutputWrapperRule" />
               </node>
             </node>
             <node concept="2OqwBi" id="1Ym4FmemkuP" role="33vP2m">
@@ -9955,8 +9955,8 @@
                         <node concept="37vLTw" id="1Ym4FmemkuW" role="2Oq$k0">
                           <ref role="3cqZAo" node="1Ym4FmemkuY" resolve="it" />
                         </node>
-                        <node concept="liA8E" id="1Ym4FmemlN2" role="2OqNvi">
-                          <ref role="37wK5l" to="kgaa:1Ym4FmejKeD" resolve="getPropertyRules" />
+                        <node concept="liA8E" id="6TaAXKMttHr" role="2OqNvi">
+                          <ref role="37wK5l" to="kgaa:6TaAXKMsOb_" resolve="getOutputWrapperRules" />
                         </node>
                       </node>
                     </node>
@@ -9976,7 +9976,7 @@
           </node>
           <node concept="2OqwBi" id="1Ym4Fmemkv3" role="3clFbw">
             <node concept="37vLTw" id="1Ym4Fmemkv4" role="2Oq$k0">
-              <ref role="3cqZAo" node="1Ym4FmemkuM" resolve="propertyRules" />
+              <ref role="3cqZAo" node="1Ym4FmemkuM" resolve="rules" />
             </node>
             <node concept="1v1jN8" id="1Ym4Fmemkv5" role="2OqNvi" />
           </node>
@@ -10068,7 +10068,7 @@
                 <property role="TrG5h" value="rule" />
               </node>
               <node concept="37vLTw" id="1Ym4FmemtOL" role="2GsD0m">
-                <ref role="3cqZAo" node="1Ym4FmemkuM" resolve="propertyRules" />
+                <ref role="3cqZAo" node="1Ym4FmemkuM" resolve="rules" />
               </node>
               <node concept="3clFbS" id="1Ym4FmemqSh" role="2LFqv$">
                 <node concept="3clFbJ" id="1Ym4FmemqSi" role="3cqZAp">
@@ -10092,7 +10092,7 @@
                             <ref role="2Gs0qQ" node="1Ym4FmemqSf" resolve="rule" />
                           </node>
                           <node concept="liA8E" id="1Ym4FmemqSt" role="2OqNvi">
-                            <ref role="37wK5l" to="kgaa:1Ym4FmdQqw7" resolve="getInputConcept" />
+                            <ref role="37wK5l" to="kgaa:6TaAXKMtvQ5" resolve="getInputConcept" />
                           </node>
                         </node>
                       </node>
@@ -10109,7 +10109,7 @@
                         <ref role="2Gs0qQ" node="1Ym4FmemqSf" resolve="rule" />
                       </node>
                       <node concept="liA8E" id="1Ym4FmemqS$" role="2OqNvi">
-                        <ref role="37wK5l" to="kgaa:1Ym4FmdQqwf" resolve="isApplicable" />
+                        <ref role="37wK5l" to="kgaa:6TaAXKMty$j" resolve="isApplicable" />
                         <node concept="2GrUjf" id="1Ym4FmemqS_" role="37wK5m">
                           <ref role="2Gs0qQ" node="1Ym4FmemqRt" resolve="node" />
                         </node>
@@ -10142,7 +10142,7 @@
                           <ref role="2Gs0qQ" node="1Ym4FmemqSf" resolve="rule" />
                         </node>
                         <node concept="liA8E" id="1Ym4FmeoZTD" role="2OqNvi">
-                          <ref role="37wK5l" to="kgaa:1Ym4FmdTZMf" resolve="apply" />
+                          <ref role="37wK5l" to="kgaa:6TaAXKMtAER" resolve="apply" />
                           <node concept="37vLTw" id="1Ym4FmeoZTE" role="37wK5m">
                             <ref role="3cqZAo" node="1Ym4FmekLdr" resolve="stage" />
                           </node>

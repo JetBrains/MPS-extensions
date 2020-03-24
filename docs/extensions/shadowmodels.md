@@ -218,6 +218,12 @@ Reduction rules are automatically applied on any applicable node on the input in
 Rules are repeatedly applied on the output up to 10 times.
 If rules are then still applicable, the generation fails.
 
+Conflicting reduction rules don't cause the generation to fail.
+They behave in the same way as in the MPS generator.
+The first applicable rule is used.
+If they are part of the same mapping configuration the order of the rules is relevant.
+If they are part of different mappings configurations it is undefined which rule is used.
+
 ### Weaving Rules
 
 Weaving rules are used to insert an additional node as a child to an output node.

@@ -136,6 +136,7 @@
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <property id="4980874121082273661" name="isStatic" index="3n5e7y" />
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
@@ -1290,7 +1291,7 @@
               <node concept="3cpWsn" id="2BHSBiuxnqb" role="3cpWs9">
                 <property role="TrG5h" value="call" />
                 <node concept="3uibUv" id="4Dc7ogTn3rg" role="1tU5fm">
-                  <ref role="3uigEE" to="nv3w:2dy3jLYuHXY" resolve="_IContainmentTarget" />
+                  <ref role="3uigEE" to="nv3w:2dy3jLYuHXY" resolve="IContainmentTarget" />
                 </node>
               </node>
             </node>
@@ -1309,7 +1310,7 @@
                           </node>
                           <node concept="2ShNRf" id="6DdMXMelwME" role="37vLTx">
                             <node concept="1pGfFk" id="6DdMXMelzcf" role="2ShVmc">
-                              <ref role="37wK5l" to="nv3w:73LuVOQ0Xfb" resolve="_ForkCall" />
+                              <ref role="37wK5l" to="nv3w:73LuVOQ0Xfb" resolve="ForkCall" />
                               <node concept="Xl_RD" id="6DdMXMelBEF" role="37wK5m">
                                 <property role="Xl_RC" value="rootFork" />
                               </node>
@@ -1319,7 +1320,7 @@
                               </node>
                               <node concept="2ShNRf" id="2BHSBiuxDxo" role="37wK5m">
                                 <node concept="1pGfFk" id="2BHSBiuxDxp" role="2ShVmc">
-                                  <ref role="37wK5l" to="nv3w:4NgaqHYY5n_" resolve="_TransformationCall" />
+                                  <ref role="37wK5l" to="nv3w:4NgaqHYY5n_" resolve="TransformationCall" />
                                   <node concept="2OqwBi" id="2BHSBiuxDxv" role="37wK5m">
                                     <node concept="1PxgMI" id="2BHSBiuxEaM" role="2Oq$k0">
                                       <node concept="chp4Y" id="2BHSBiuxIzS" role="3oSUPX">
@@ -1373,7 +1374,7 @@
                             </node>
                             <node concept="2ShNRf" id="6DdMXMelU7J" role="37vLTx">
                               <node concept="1pGfFk" id="6DdMXMelU7K" role="2ShVmc">
-                                <ref role="37wK5l" to="nv3w:4NgaqHYY5n_" resolve="_TransformationCall" />
+                                <ref role="37wK5l" to="nv3w:4NgaqHYY5n_" resolve="TransformationCall" />
                                 <node concept="2OqwBi" id="6DdMXMelU7Q" role="37wK5m">
                                   <node concept="1PxgMI" id="6DdMXMelU7R" role="2Oq$k0">
                                     <node concept="chp4Y" id="6DdMXMelU7S" role="3oSUPX">
@@ -1427,7 +1428,7 @@
                       <node concept="1eOMI4" id="2BHSBiuyncD" role="37vLTx">
                         <node concept="10QFUN" id="2BHSBiuyncA" role="1eOMHV">
                           <node concept="3uibUv" id="4Dc7ogTnbZ3" role="10QFUM">
-                            <ref role="3uigEE" to="nv3w:2dy3jLYuI1C" resolve="_ForkCall" />
+                            <ref role="3uigEE" to="nv3w:2dy3jLYuI1C" resolve="ForkCall" />
                           </node>
                           <node concept="2OqwBi" id="2BHSBiuyph0" role="10QFUP">
                             <node concept="37vLTw" id="2BHSBiuyp7i" role="2Oq$k0">
@@ -1533,7 +1534,7 @@
                             </node>
                           </node>
                           <node concept="3uibUv" id="6$M6y1ewb$e" role="10QFUM">
-                            <ref role="3uigEE" to="nv3w:2dy3jLYuI2K" resolve="_GoalCall" />
+                            <ref role="3uigEE" to="nv3w:2dy3jLYuI2K" resolve="GoalCall" />
                           </node>
                         </node>
                       </node>
@@ -4903,6 +4904,89 @@
           <node concept="3Tm1VV" id="XAHiIwZ$jp" role="1B3o_S" />
         </node>
         <node concept="3xLA65" id="XAHiIx7jwB" role="lGtFl">
+          <property role="TrG5h" value="expectedOutput" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="6TaAXKMO0Fy">
+    <property role="TrG5h" value="BLExt_reduce_crossModelGeneration" />
+    <node concept="1LZb2c" id="6TaAXKMO0Fz" role="1SL9yI">
+      <property role="TrG5h" value="checkOutput" />
+      <node concept="3cqZAl" id="6TaAXKMO0F$" role="3clF45" />
+      <node concept="3clFbS" id="6TaAXKMO0F_" role="3clF47">
+        <node concept="3clFbF" id="6TaAXKMO0FA" role="3cqZAp">
+          <node concept="2YIFZM" id="6TaAXKMO0FB" role="3clFbG">
+            <ref role="37wK5l" node="4JmkJs3KdFW" resolve="runTest" />
+            <ref role="1Pybhc" node="4JmkJs3K82n" resolve="TransformationTestUtil" />
+            <node concept="3xONca" id="6TaAXKMO0FC" role="37wK5m">
+              <ref role="3xOPvv" node="6TaAXKMO1B4" resolve="input" />
+            </node>
+            <node concept="3xONca" id="6TaAXKMO0FD" role="37wK5m">
+              <ref role="3xOPvv" node="6TaAXKMO1Bi" resolve="expectedOutput" />
+            </node>
+            <node concept="2tJFMh" id="6TaAXKMO0FE" role="37wK5m">
+              <node concept="ZC_QK" id="6TaAXKMO0FF" role="2tJFKM">
+                <ref role="2aWVGs" to="bp4t:7YhLqbpfrfi" resolve="Repository" />
+                <node concept="ZC_QK" id="6TaAXKMQ8I1" role="2aWVGa">
+                  <ref role="2aWVGs" to="bp4t:4ygyjZjflRo" resolve="outputModelWithReductionRules" />
+                </node>
+              </node>
+            </node>
+            <node concept="2ShNRf" id="6TaAXKMO0FH" role="37wK5m">
+              <node concept="Tc6Ow" id="6TaAXKMO0FI" role="2ShVmc">
+                <node concept="37shsh" id="6TaAXKMO0FJ" role="HW$Y0">
+                  <node concept="1dCxOk" id="6TaAXKMO0FK" role="37shsm">
+                    <property role="1XxBO9" value="de.q60.mps.shadowmodels.examples.blext" />
+                    <property role="1XweGW" value="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" />
+                  </node>
+                </node>
+                <node concept="3uibUv" id="6TaAXKMO0FL" role="HW$YZ">
+                  <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbT" id="6TaAXKMO0FM" role="37wK5m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="6TaAXKMO0FN" role="1SKRRt">
+      <node concept="19hTtH" id="6TaAXKMO1cI" role="1qenE9">
+        <property role="TrG5h" value="mm" />
+        <node concept="312cEu" id="6TaAXKMO1cM" role="19hTtP">
+          <property role="TrG5h" value="ClassA" />
+          <node concept="3Tm1VV" id="6TaAXKMO1cN" role="1B3o_S" />
+          <node concept="3uibUv" id="6TaAXKMO1eq" role="1zkMxy">
+            <ref role="3uigEE" node="6TaAXKMO1dD" resolve="ClassB" />
+          </node>
+        </node>
+        <node concept="312cEu" id="6TaAXKMO1dD" role="19hTtP">
+          <property role="TrG5h" value="ClassB" />
+          <node concept="3Tm1VV" id="6TaAXKMO1dE" role="1B3o_S" />
+        </node>
+        <node concept="3xLA65" id="6TaAXKMO1B4" role="lGtFl">
+          <property role="TrG5h" value="input" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="6TaAXKMO0Gd" role="1SKRRt">
+      <node concept="19hTtH" id="6TaAXKMO1A$" role="1qenE9">
+        <property role="TrG5h" value="mm.desugar_reductionRules" />
+        <node concept="312cEu" id="6TaAXKMO1A_" role="19hTtP">
+          <property role="TrG5h" value="ClassA" />
+          <node concept="3Tm1VV" id="6TaAXKMO1AA" role="1B3o_S" />
+          <node concept="3uibUv" id="6TaAXKMO1AB" role="1zkMxy">
+            <ref role="3uigEE" node="6TaAXKMO1AC" resolve="ClassB" />
+          </node>
+        </node>
+        <node concept="312cEu" id="6TaAXKMO1AC" role="19hTtP">
+          <property role="TrG5h" value="ClassB" />
+          <node concept="3Tm1VV" id="6TaAXKMO1AD" role="1B3o_S" />
+        </node>
+        <node concept="3xLA65" id="6TaAXKMO1Bi" role="lGtFl">
           <property role="TrG5h" value="expectedOutput" />
         </node>
       </node>

@@ -130,10 +130,17 @@
         <child id="5228830074591675933" name="condition" index="2quwWy" />
       </concept>
       <concept id="5228830074592935481" name="de.q60.mps.shadowmodels.transformation.structure.SingleInputRef" flags="ng" index="2qrjs6" />
-      <concept id="5228830074594383324" name="de.q60.mps.shadowmodels.transformation.structure.GenplanRuleRelation_Together" flags="ng" index="2rwPNz" />
-      <concept id="5228830074594383314" name="de.q60.mps.shadowmodels.transformation.structure.GenplanRule" flags="ng" index="2rwPNH">
-        <reference id="5228830074594383319" name="right" index="2rwPNC" />
-        <reference id="5228830074594383317" name="left" index="2rwPNE" />
+      <concept id="1893966189696761687" name="de.q60.mps.shadowmodels.transformation.structure.GenplanItemReference" flags="ng" index="rcgtw">
+        <reference id="1893966189696761688" name="item" index="rcgtJ" />
+      </concept>
+      <concept id="1893966189696484185" name="de.q60.mps.shadowmodels.transformation.structure.GenplanRules" flags="ng" index="rfjHI">
+        <reference id="1893966189696484191" name="goal" index="rfjHC" />
+        <child id="1893966189696484189" name="rules" index="rfjHE" />
+      </concept>
+      <concept id="5228830074594383323" name="de.q60.mps.shadowmodels.transformation.structure.GenplanRuleRelation_Before" flags="ng" index="2rwPN$" />
+      <concept id="5228830074594383314" name="de.q60.mps.shadowmodels.transformation.structure.GenplanRule_Order" flags="ng" index="2rwPNH">
+        <child id="1893966189697029938" name="right" index="rdmW5" />
+        <child id="1893966189697029933" name="left" index="rdmWq" />
         <child id="5228830074594383326" name="relation" index="2rwPNx" />
       </concept>
       <concept id="5228830074595062510" name="de.q60.mps.shadowmodels.transformation.structure.GoalCall" flags="ng" index="2rzFJh">
@@ -190,6 +197,9 @@
         <child id="7316581361273089326" name="rootCall" index="3lp9Fl" />
       </concept>
       <concept id="3563231453904357666" name="de.q60.mps.shadowmodels.transformation.structure.NullNode" flags="ng" index="3n1eO2" />
+      <concept id="7947335862502909370" name="de.q60.mps.shadowmodels.transformation.structure.GenplanRule_Include" flags="ng" index="1tvZTA">
+        <child id="1893966189698443856" name="includeItem" index="rQX9B" />
+      </concept>
       <concept id="3732365408176170456" name="de.q60.mps.shadowmodels.transformation.structure.MappingLabelDeclaration" flags="ng" index="1_xYd8">
         <reference id="3732365408176209693" name="outputConcept" index="1_w7Ad" />
         <child id="3732365408176205846" name="inputTypes" index="1_w7q6" />
@@ -2164,6 +2174,10 @@
       </node>
     </node>
     <node concept="2OrE70" id="4ygyjZjdact" role="02uzr" />
+    <node concept="rfjHI" id="1D8I3s1unwh" role="02uzr">
+      <ref role="rfjHC" node="4ygyjZj7vOL" resolve="toJava" />
+    </node>
+    <node concept="2OrE70" id="6TaAXKNdmeI" role="02uzr" />
     <node concept="1d2ef" id="4ygyjZj7uJu" role="02uzr">
       <property role="TrG5h" value="mc_UntilStatement" />
       <ref role="1d2e9" node="4ygyjZj7vOL" resolve="toJava" />
@@ -2811,12 +2825,6 @@
         <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.blext" />
       </node>
     </node>
-    <node concept="2OrE70" id="4ygyjZjeEER" role="02uzr" />
-    <node concept="2rwPNH" id="2HTxpGQdeeU" role="02uzr">
-      <ref role="2rwPNE" node="4ygyjZj7uJu" resolve="mc_UntilStatement" />
-      <ref role="2rwPNC" node="4ygyjZj7uJu" resolve="mc_UntilStatement" />
-      <node concept="2rwPNz" id="2HTxpGQdek4" role="2rwPNx" />
-    </node>
     <node concept="2OrE70" id="4ygyjZj7d6x" role="02uzr" />
     <node concept="02vpq" id="4ygyjZj7d6y" role="02uzr">
       <property role="TrG5h" value="throwError" />
@@ -2962,6 +2970,72 @@
       </node>
     </node>
     <node concept="2OrE70" id="5ndwm32$aTj" role="02uzr" />
+  </node>
+  <node concept="02vhO" id="1D8I3s1MmMJ">
+    <property role="TrG5h" value="genplanDemo" />
+    <node concept="2OrE70" id="1D8I3s1MmMK" role="02uzr" />
+    <node concept="1d2ee" id="1D8I3s1MmMT" role="02uzr">
+      <property role="TrG5h" value="g1" />
+    </node>
+    <node concept="1d2ee" id="1D8I3s1MmN3" role="02uzr">
+      <property role="TrG5h" value="g2" />
+    </node>
+    <node concept="2OrE70" id="3c6J_2mMRlb" role="02uzr" />
+    <node concept="1d2ef" id="3c6J_2mMRlA" role="02uzr">
+      <property role="TrG5h" value="mc1a" />
+    </node>
+    <node concept="1d2ef" id="3c6J_2mNpzX" role="02uzr">
+      <property role="TrG5h" value="mc1b" />
+    </node>
+    <node concept="1d2ef" id="3c6J_2mNC1g" role="02uzr">
+      <property role="TrG5h" value="mc2a" />
+    </node>
+    <node concept="2OrE70" id="3c6J_2mMRls" role="02uzr" />
+    <node concept="rfjHI" id="3c6J_2mNp$x" role="02uzr">
+      <ref role="rfjHC" node="1D8I3s1MmMT" resolve="g1" />
+      <node concept="1tvZTA" id="3c6J_2mNp$J" role="rfjHE">
+        <node concept="rcgtw" id="3c6J_2mNp$N" role="rQX9B">
+          <ref role="rcgtJ" node="3c6J_2mMRlA" resolve="mc1a" />
+        </node>
+      </node>
+      <node concept="1tvZTA" id="3c6J_2mNp$Q" role="rfjHE">
+        <node concept="rcgtw" id="3c6J_2mNp$W" role="rQX9B">
+          <ref role="rcgtJ" node="3c6J_2mNpzX" resolve="mc1b" />
+        </node>
+      </node>
+      <node concept="2rwPNH" id="3c6J_2mNp_5" role="rfjHE">
+        <node concept="2rwPN$" id="3c6J_2mNp_o" role="2rwPNx" />
+        <node concept="rcgtw" id="3c6J_2mNp_l" role="rdmWq">
+          <ref role="rcgtJ" node="3c6J_2mMRlA" resolve="mc1a" />
+        </node>
+        <node concept="rcgtw" id="3c6J_2mNp_r" role="rdmW5">
+          <ref role="rcgtJ" node="3c6J_2mNpzX" resolve="mc1b" />
+        </node>
+      </node>
+    </node>
+    <node concept="2OrE70" id="3c6J_2mNp$k" role="02uzr" />
+    <node concept="rfjHI" id="1D8I3s1MmNf" role="02uzr">
+      <ref role="rfjHC" node="1D8I3s1MmN3" resolve="g2" />
+      <node concept="1tvZTA" id="3c6J_2mLoy7" role="rfjHE">
+        <node concept="rcgtw" id="3c6J_2mMRl8" role="rQX9B">
+          <ref role="rcgtJ" node="1D8I3s1MmMT" resolve="g1" />
+        </node>
+      </node>
+      <node concept="1tvZTA" id="3c6J_2mNC1M" role="rfjHE">
+        <node concept="rcgtw" id="3c6J_2mNC1Y" role="rQX9B">
+          <ref role="rcgtJ" node="3c6J_2mNC1g" resolve="mc2a" />
+        </node>
+      </node>
+      <node concept="2rwPNH" id="3c6J_2mNC12" role="rfjHE">
+        <node concept="2rwPN$" id="3c6J_2mNC24" role="2rwPNx" />
+        <node concept="rcgtw" id="3c6J_2mNC21" role="rdmWq">
+          <ref role="rcgtJ" node="3c6J_2mNC1g" resolve="mc2a" />
+        </node>
+        <node concept="rcgtw" id="3c6J_2mNC27" role="rdmW5">
+          <ref role="rcgtJ" node="1D8I3s1MmMT" resolve="g1" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

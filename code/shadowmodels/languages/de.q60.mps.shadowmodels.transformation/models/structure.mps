@@ -1802,7 +1802,6 @@
     <node concept="1TJgyj" id="YSRTOezfKk" role="1TKVEi">
       <property role="IQ2ns" value="1132901171930659860" />
       <property role="20kJfa" value="goal" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="YSRTOezfKj" resolve="Goal" />
     </node>
     <node concept="PrWs8" id="YSRTOezfKw" role="PzmwI">
@@ -1813,6 +1812,9 @@
     </node>
     <node concept="PrWs8" id="4ygyjZj5VNf" role="PzmwI">
       <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
+    <node concept="PrWs8" id="1D8I3s1unTq" role="PzmwI">
+      <ref role="PrY4T" node="6TaAXKNdxpE" resolve="IGenplanItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="YSRTOezfKj">
@@ -1829,6 +1831,9 @@
     </node>
     <node concept="PrWs8" id="4ygyjZj8$4y" role="PzmwI">
       <ref role="PrY4T" to="tpck:69Qfsw3InJo" resolve="ISmartReferent" />
+    </node>
+    <node concept="PrWs8" id="1D8I3s1unT_" role="PzmwI">
+      <ref role="PrY4T" node="6TaAXKNdxpE" resolve="IGenplanItem" />
     </node>
   </node>
   <node concept="PlHQZ" id="YSRTOezhHA">
@@ -1913,9 +1918,9 @@
   </node>
   <node concept="1TIwiD" id="4ygyjZj4Xni">
     <property role="EcuMT" value="5228830074594383314" />
-    <property role="3GE5qa" value="mpslike" />
-    <property role="TrG5h" value="GenplanRule" />
-    <property role="34LRSv" value="genplan rule" />
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <property role="TrG5h" value="GenplanRule_Order" />
+    <property role="34LRSv" value="order" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4ygyjZj4Xnu" role="1TKVEi">
       <property role="IQ2ns" value="5228830074594383326" />
@@ -1924,46 +1929,48 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4ygyjZj4Xnq" resolve="GenplanRuleRelation" />
     </node>
-    <node concept="1TJgyj" id="4ygyjZj4Xnl" role="1TKVEi">
-      <property role="IQ2ns" value="5228830074594383317" />
+    <node concept="1TJgyj" id="1D8I3s1vtsH" role="1TKVEi">
+      <property role="IQ2ns" value="1893966189697029933" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="left" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="YSRTOezfKi" resolve="MappingConfiguration" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1D8I3s1urXn" resolve="GenplanItemReference" />
     </node>
-    <node concept="1TJgyj" id="4ygyjZj4Xnn" role="1TKVEi">
-      <property role="IQ2ns" value="5228830074594383319" />
+    <node concept="1TJgyj" id="1D8I3s1vtsM" role="1TKVEi">
+      <property role="IQ2ns" value="1893966189697029938" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="right" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="YSRTOezfKi" resolve="MappingConfiguration" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1D8I3s1urXn" resolve="GenplanItemReference" />
     </node>
-    <node concept="PrWs8" id="4ygyjZj4Xnj" role="PzmwI">
-      <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
+    <node concept="PrWs8" id="1D8I3s1unCP" role="PzmwI">
+      <ref role="PrY4T" node="1D8I3s1tods" resolve="IGenplanRule" />
     </node>
   </node>
   <node concept="1TIwiD" id="4ygyjZj4Xnq">
     <property role="EcuMT" value="5228830074594383322" />
-    <property role="3GE5qa" value="mpslike" />
+    <property role="3GE5qa" value="mpslike.genplan" />
     <property role="TrG5h" value="GenplanRuleRelation" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="4ygyjZj4Xnr">
     <property role="EcuMT" value="5228830074594383323" />
-    <property role="3GE5qa" value="mpslike" />
+    <property role="3GE5qa" value="mpslike.genplan" />
     <property role="TrG5h" value="GenplanRuleRelation_Before" />
     <property role="34LRSv" value="before" />
     <ref role="1TJDcQ" node="4ygyjZj4Xnq" resolve="GenplanRuleRelation" />
   </node>
   <node concept="1TIwiD" id="4ygyjZj4Xns">
     <property role="EcuMT" value="5228830074594383324" />
-    <property role="3GE5qa" value="mpslike" />
+    <property role="3GE5qa" value="mpslike.genplan" />
     <property role="TrG5h" value="GenplanRuleRelation_Together" />
     <property role="34LRSv" value="together with" />
     <ref role="1TJDcQ" node="4ygyjZj4Xnq" resolve="GenplanRuleRelation" />
   </node>
   <node concept="1TIwiD" id="4ygyjZj4Xnt">
     <property role="EcuMT" value="5228830074594383325" />
-    <property role="3GE5qa" value="mpslike" />
+    <property role="3GE5qa" value="mpslike.genplan" />
     <property role="TrG5h" value="GenplanRuleRelation_After" />
     <property role="34LRSv" value="after" />
     <ref role="1TJDcQ" node="4ygyjZj4Xnq" resolve="GenplanRuleRelation" />
@@ -2350,6 +2357,68 @@
     </node>
     <node concept="PrWs8" id="6TaAXKMtZ3Q" role="PzmwI">
       <ref role="PrY4T" node="2rBW8JErG8y" resolve="IValueDeclContainer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6TaAXKNdmmU">
+    <property role="EcuMT" value="7947335862502909370" />
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <property role="TrG5h" value="GenplanRule_Include" />
+    <property role="34LRSv" value="include" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1D8I3s1$QDg" role="1TKVEi">
+      <property role="IQ2ns" value="1893966189698443856" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="includeItem" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1D8I3s1urXn" resolve="GenplanItemReference" />
+    </node>
+    <node concept="PrWs8" id="1D8I3s1unTi" role="PzmwI">
+      <ref role="PrY4T" node="1D8I3s1tods" resolve="IGenplanRule" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6TaAXKNdxpE">
+    <property role="EcuMT" value="7947335862502954602" />
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <property role="TrG5h" value="IGenplanItem" />
+  </node>
+  <node concept="1TIwiD" id="1D8I3s1todp">
+    <property role="EcuMT" value="1893966189696484185" />
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <property role="TrG5h" value="GenplanRules" />
+    <property role="34LRSv" value="genplan rules" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1D8I3s1todv" role="1TKVEi">
+      <property role="IQ2ns" value="1893966189696484191" />
+      <property role="20kJfa" value="goal" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="YSRTOezfKj" resolve="Goal" />
+    </node>
+    <node concept="1TJgyj" id="1D8I3s1todt" role="1TKVEi">
+      <property role="IQ2ns" value="1893966189696484189" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rules" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1D8I3s1tods" resolve="IGenplanRule" />
+    </node>
+    <node concept="PrWs8" id="1D8I3s1todq" role="PzmwI">
+      <ref role="PrY4T" node="6ndA7L_L6S_" resolve="ITransformationsNamespaceContent" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1D8I3s1tods">
+    <property role="EcuMT" value="1893966189696484188" />
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <property role="TrG5h" value="IGenplanRule" />
+  </node>
+  <node concept="1TIwiD" id="1D8I3s1urXn">
+    <property role="EcuMT" value="1893966189696761687" />
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <property role="TrG5h" value="GenplanItemReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1D8I3s1urXo" role="1TKVEi">
+      <property role="IQ2ns" value="1893966189696761688" />
+      <property role="20kJfa" value="item" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6TaAXKNdxpE" resolve="IGenplanItem" />
     </node>
   </node>
 </model>

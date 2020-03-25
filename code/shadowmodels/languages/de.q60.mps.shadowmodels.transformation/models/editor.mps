@@ -4435,8 +4435,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="4ygyjZj4XnM">
-    <property role="3GE5qa" value="mpslike" />
-    <ref role="1XX52x" to="oyp0:4ygyjZj4Xni" resolve="GenplanRule" />
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <ref role="1XX52x" to="oyp0:4ygyjZj4Xni" resolve="GenplanRule_Order" />
     <node concept="3EZMnI" id="4ygyjZj4XnO" role="2wV5jI">
       <node concept="PMmxH" id="4ygyjZj4XnV" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -4447,20 +4447,18 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="1iCGBv" id="4ygyjZj4Xo8" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:4ygyjZj4Xnl" resolve="left" />
-        <node concept="1sVBvm" id="4ygyjZj4Xoa" role="1sWHZn">
-          <node concept="3SHvHV" id="4ygyjZj4Xom" role="2wV5jI" />
-        </node>
+      <node concept="3F2HdR" id="1D8I3s1vtt4" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="oyp0:1D8I3s1vtsH" resolve="left" />
+        <node concept="l2Vlx" id="1D8I3s1vtt6" role="2czzBx" />
       </node>
       <node concept="3F1sOY" id="4ygyjZj4Xow" role="3EZMnx">
         <ref role="1NtTu8" to="oyp0:4ygyjZj4Xnu" resolve="relation" />
       </node>
-      <node concept="1iCGBv" id="4ygyjZj4XoK" role="3EZMnx">
-        <ref role="1NtTu8" to="oyp0:4ygyjZj4Xnn" resolve="right" />
-        <node concept="1sVBvm" id="4ygyjZj4XoM" role="1sWHZn">
-          <node concept="3SHvHV" id="4ygyjZj4XoZ" role="2wV5jI" />
-        </node>
+      <node concept="3F2HdR" id="1D8I3s1vttu" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="oyp0:1D8I3s1vtsM" resolve="right" />
+        <node concept="l2Vlx" id="1D8I3s1vtty" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="4ygyjZj4XnR" role="2iSdaV" />
     </node>
@@ -4850,7 +4848,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4ygyjZj4Xpa">
-    <property role="3GE5qa" value="mpslike" />
+    <property role="3GE5qa" value="mpslike.genplan" />
     <ref role="1XX52x" to="oyp0:4ygyjZj4Xnq" resolve="GenplanRuleRelation" />
     <node concept="1QoScp" id="4ygyjZj67Xa" role="2wV5jI">
       <property role="1QpmdY" value="true" />
@@ -6204,6 +6202,70 @@
         <node concept="3F1sOY" id="6TaAXKMu2GU" role="3EZMnx">
           <ref role="1NtTu8" to="oyp0:6TaAXKMtZ3K" resolve="condition" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6TaAXKNdxpN">
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <ref role="1XX52x" to="oyp0:6TaAXKNdmmU" resolve="GenplanRule_Include" />
+    <node concept="3EZMnI" id="6TaAXKNdxpP" role="2wV5jI">
+      <node concept="PMmxH" id="6TaAXKNdxpW" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="1D8I3s1$QDu" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:1D8I3s1$QDg" resolve="includeItem" />
+      </node>
+      <node concept="l2Vlx" id="6TaAXKNdxpS" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1D8I3s1todM">
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <ref role="1XX52x" to="oyp0:1D8I3s1todp" resolve="GenplanRules" />
+    <node concept="3EZMnI" id="1D8I3s1todO" role="2wV5jI">
+      <node concept="PMmxH" id="1D8I3s1todV" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="1D8I3s1toe0" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+      </node>
+      <node concept="1iCGBv" id="1D8I3s1toe8" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:1D8I3s1todv" resolve="goal" />
+        <node concept="1sVBvm" id="1D8I3s1toea" role="1sWHZn">
+          <node concept="3SHvHV" id="1D8I3s1toej" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1D8I3s1tojA" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="ljvvj" id="1D8I3s1tokk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="1D8I3s1tok8" role="3EZMnx">
+        <ref role="1NtTu8" to="oyp0:1D8I3s1todt" resolve="rules" />
+        <node concept="l2Vlx" id="1D8I3s1toka" role="2czzBx" />
+        <node concept="lj46D" id="1D8I3s1toko" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="1D8I3s1tokt" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1D8I3s1tojQ" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="pVoyu" id="1D8I3s1tokm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1D8I3s1todR" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3c6J_2mLoyj">
+    <property role="3GE5qa" value="mpslike.genplan" />
+    <ref role="1XX52x" to="oyp0:1D8I3s1urXn" resolve="GenplanItemReference" />
+    <node concept="1iCGBv" id="3c6J_2mLoyl" role="2wV5jI">
+      <ref role="1NtTu8" to="oyp0:1D8I3s1urXo" resolve="item" />
+      <node concept="1sVBvm" id="3c6J_2mLoyn" role="1sWHZn">
+        <node concept="3SHvHV" id="3c6J_2mLoyu" role="2wV5jI" />
       </node>
     </node>
   </node>

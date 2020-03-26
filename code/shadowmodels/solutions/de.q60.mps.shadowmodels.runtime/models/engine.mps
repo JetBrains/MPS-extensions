@@ -26340,6 +26340,23 @@
         <ref role="3cqZAo" node="2dy3jLYuT0H" resolve="weaving" />
       </node>
     </node>
+    <node concept="3UR2Jj" id="3c6J_2nB$$Y" role="lGtFl">
+      <node concept="TZ5HA" id="3c6J_2nB$$Z" role="TZ5H$">
+        <node concept="1dT_AC" id="3c6J_2nB$_0" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HI" id="3c6J_2nB$Tc" role="3nqlJM">
+        <node concept="TZ5HA" id="3c6J_2nB$Td" role="3HnX3l">
+          <node concept="1dT_AC" id="3c6J_2nB_bB" role="1dT_Ay">
+            <property role="1dT_AB" value=" Weaving should be applied during IOutputNode resolution." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2AHcQZ" id="3c6J_2nB$Te" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
   </node>
   <node concept="3HP615" id="2dy3jLYuT3w">
     <property role="3GE5qa" value="_.StageReference" />

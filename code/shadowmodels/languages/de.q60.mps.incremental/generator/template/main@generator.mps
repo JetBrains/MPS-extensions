@@ -68,7 +68,9 @@
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
-      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
+      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg">
+        <property id="8606350594693632173" name="isTransient" index="eg7rD" />
+      </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
@@ -841,12 +843,14 @@
           <property role="TrG5h" value="C" />
           <node concept="312cEg" id="7pNuz6Anv6J" role="jymVt">
             <property role="TrG5h" value="_cachedHashCode" />
+            <property role="eg7rD" value="true" />
             <node concept="3Tm6S6" id="7pNuz6Anv6K" role="1B3o_S" />
             <node concept="10Oyi0" id="7pNuz6AnvvB" role="1tU5fm" />
             <node concept="raruj" id="7pNuz6AnFqY" role="lGtFl" />
           </node>
           <node concept="312cEg" id="7pNuz6AnvYD" role="jymVt">
             <property role="TrG5h" value="_hashCodeInitialized" />
+            <property role="eg7rD" value="true" />
             <node concept="3Tm6S6" id="7pNuz6AnvYE" role="1B3o_S" />
             <node concept="10P_77" id="7pNuz6AnwkS" role="1tU5fm" />
             <node concept="3clFbT" id="7pNuz6AnwG2" role="33vP2m" />

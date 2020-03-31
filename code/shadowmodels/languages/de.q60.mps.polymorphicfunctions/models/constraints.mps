@@ -238,7 +238,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="2Vy1$4MVjvV">
-    <ref role="1M2myG" to="bx8c:2Vy1$4MVjvm" resolve="GroupParameterReference" />
+    <ref role="1M2myG" to="bx8c:2Vy1$4MVjvm" resolve="ContextParameterReference" />
     <node concept="1N5Pfh" id="2Vy1$4MVjvX" role="1Mr941">
       <ref role="1N5Vy1" to="bx8c:2Vy1$4MVjvo" resolve="decl" />
       <node concept="3dgokm" id="2Vy1$4MVjw1" role="1N6uqs">
@@ -253,13 +253,13 @@
                     <node concept="2rP1CM" id="2Vy1$4MVjIb" role="2Oq$k0" />
                     <node concept="2Xjw5R" id="2Vy1$4MVk6C" role="2OqNvi">
                       <node concept="1xMEDy" id="2Vy1$4MVk6E" role="1xVPHs">
-                        <node concept="chp4Y" id="2Vy1$4MVkcA" role="ri$Ld">
-                          <ref role="cht4Q" to="bx8c:2Vy1$4MSjLS" resolve="IGroupContent" />
+                        <node concept="chp4Y" id="6EfR$DZOkp1" role="ri$Ld">
+                          <ref role="cht4Q" to="bx8c:1upvoB3RHkF" resolve="IPFContent" />
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="2qgKlT" id="2Vy1$4MVktX" role="2OqNvi">
+                  <node concept="2qgKlT" id="6EfR$DZOkJ7" role="2OqNvi">
                     <ref role="37wK5l" to="e9uj:2Vy1$4MUwYY" resolve="getGroups" />
                   </node>
                 </node>

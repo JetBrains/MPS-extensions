@@ -38,6 +38,13 @@
   </registry>
   <node concept="02pZm" id="6ndA7L_L0Q_">
     <property role="TrG5h" value="SM1" />
+    <node concept="02pZh" id="2CK1QGRvnYn" role="02p66">
+      <property role="TrG5h" value="ss" />
+      <node concept="02pZi" id="2CK1QGRvokA" role="02pZb">
+        <ref role="02oBk" node="2CK1QGRvnFA" resolve="eeee" />
+        <ref role="02oBg" node="6ndA7L_L0QJ" resolve="s1" />
+      </node>
+    </node>
     <node concept="02pZj" id="6ndA7L_L0QA" role="02pZ9">
       <property role="TrG5h" value="forward" />
     </node>
@@ -46,6 +53,9 @@
     </node>
     <node concept="02pZj" id="6ndA7L_L0QF" role="02pZ9">
       <property role="TrG5h" value="reset" />
+    </node>
+    <node concept="02pZj" id="2CK1QGRvnFA" role="02pZ9">
+      <property role="TrG5h" value="eeee" />
     </node>
     <node concept="02pZh" id="6ndA7L_L0QJ" role="02p66">
       <property role="TrG5h" value="s1" />

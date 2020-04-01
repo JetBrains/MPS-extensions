@@ -3960,9 +3960,7 @@
               <ref role="359W_E" to="dj5d:qmkA5fOskc" resolve="Model" />
               <ref role="359W_F" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
             </node>
-            <node concept="3clFbT" id="2e4kaHtsJbs" role="37wK5m">
-              <property role="3clFbU" value="true" />
-            </node>
+            <node concept="3clFbT" id="2e4kaHtsJbs" role="37wK5m" />
           </node>
         </node>
       </node>

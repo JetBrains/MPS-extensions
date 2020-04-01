@@ -59,6 +59,7 @@
       </concept>
       <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -755,6 +756,23 @@
         </node>
       </node>
       <node concept="l2Vlx" id="7qGGLAkYBYt" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7pNuz6Anfgi">
+    <ref role="1XX52x" to="mupx:7pNuz6Ane_v" resolve="HashCodeEquals" />
+    <node concept="3EZMnI" id="7pNuz6Anfgk" role="2wV5jI">
+      <node concept="PMmxH" id="7pNuz6Anfgr" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F2HdR" id="7pNuz6AnfgC" role="3EZMnx">
+        <ref role="1NtTu8" to="mupx:7pNuz6Anfg8" resolve="elements" />
+        <node concept="2iRkQZ" id="7pNuz6AnfgJ" role="2czzBx" />
+        <node concept="3vyZuw" id="7pNuz6Ang_9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7pNuz6Anfgw" role="3EZMnx" />
+      <node concept="2iRfu4" id="7pNuz6Anfgn" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -85,6 +85,8 @@
       <modulePath path="$PROJECT_DIR$/richtext/languages/javadoc/javadoc.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.sandbox/de.slisson.mps.richtext.sandbox.msd" folder="richtext" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/de.q60.mps.explorer.impl/de.q60.mps.explorer.impl.msd" folder="shadowmodels.explorer" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/de.q60.mps.explorer/de.q60.mps.explorer.msd" folder="shadowmodels.explorer" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/devkits/de.q60.mps.shadowmodels.devkit/de.q60.mps.shadowmodels.devkit.devkit" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/devkits/de.q60.mps.virtualinterfaces.devkit/de.q60.mps.virtualinterfaces.devkit.devkit" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.incremental.sandboxlang/de.q60.mps.incremental.sandboxlang.mpl" folder="shadowmodels.incremental" />

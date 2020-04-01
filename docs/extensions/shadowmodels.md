@@ -168,3 +168,85 @@ For debugging the output in the shadow repository you show the transformations t
 Right click on an output node and choose **Language Debug > Shadow Models: Traceback** from the context menu.
 
 ![Traceback View](shadowmodels/traceback-view.png)
+
+## Reduction rules and generation plans
+
+There are some use cases that are easier to implement with the MPS generator language
+than with the explicit transformation calls of the shadow models language.
+That's why there are now similar abstraction in the shadow models language.
+
+### Mappings Cnfigurations and Goals
+
+A mapping configuration in MPS is a container for reduction/weaving/... rules.
+You can define rules to specify the order in which the mappings configuration are applied on the input model.
+
+In shadow models there is now also a "mapping configuration" concept.
+You can specify reduction and weaving rules inside of it.
+The following example shows a concept that doesn't exist in MPS: goals.
+
+```
+goal toJava
+mapping configuration mc1 {
+    goal: toJava
+}
+```
+
+A goal specifies what should happen with the input model.
+All mapping configurations that contribute to the same goal are applied when the goal is called on some input.
+While in MPS you always execute the same generators on a model,
+goals enable you to produce multiple outputs by executing different goals on the same input.
+
+### Generation plans
+
+When you invoke a goal all mapping configurations that contribute to that goal are collected and sorted
+into a generation plan.
+A generation plan is dynamically computed from a set of rules.
+The rules are the same as known from MPS.
+A before/after rule will separate the generation into two steps where the output of the first is the input of the second
+one.
+
+```
+goal toJava
+mapping configuration mc1 { ... }
+mapping configuration mc2 { ... }
+genplan rule: mc1 before mc3
+```
+
+### Reduction Rules
+
+Reduction rules are automatically applied on any applicable node on the input including its descendants.
+Rules are repeatedly applied on the output up to 10 times.
+If rules are then still applicable, the generation fails.
+
+Conflicting reduction rules don't cause the generation to fail.
+They behave in the same way as in the MPS generator.
+The first applicable rule is used.
+If they are part of the same mapping configuration the order of the rules is relevant.
+If they are part of different mappings configurations it is undefined which rule is used.
+
+### Weaving Rules
+
+Weaving rules are used to insert an additional node as a child to an output node.
+The target node is specified in the same way are in in references,
+but it has to be part of the output of the current goal execution.
+
+Weaving rules are applied only on the initial input or on output nodes of a transformation.
+If a node was copied without any change between substeps, weaving rules are not applied.
+This prevents them from being reapplied on the same node again and again.  
+
+### Property Rules
+
+Property rules can change a value without doing any structural change to the model.
+They are applied on the output after executing reduction and weaving rules.
+
+
+### Reference Rules
+
+Reference rules are the same as property rules except that they change a reference target instead of a property value.
+The target is resolved in the scope of the output node.
+
+## Scopes
+
+Scopes can be used to resolve conflicts during reference resolution.
+If the same node is copied multiple times into the output and you want to reference one of them,
+you can put the source and the target node into the same scope.

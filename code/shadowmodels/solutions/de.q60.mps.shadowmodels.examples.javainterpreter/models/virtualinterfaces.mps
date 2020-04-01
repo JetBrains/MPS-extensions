@@ -228,8 +228,8 @@
       <property role="TrG5h" value="IInterpretableRoot" />
       <node concept="24mgw7" id="1KLm$DhZZN7" role="24mgzv">
         <property role="TrG5h" value="getTransformationForInterpreter" />
-        <node concept="3uibUv" id="1KLm$Di3tnm" role="24nZRm">
-          <ref role="3uigEE" to="nv3w:2$QnGbtLuzE" resolve="ITransformationCall" />
+        <node concept="3uibUv" id="1fpIz1gCU8d" role="24nZRm">
+          <ref role="3uigEE" to="nv3w:2dy3jLYuHXY" resolve="IContainmentTarget" />
         </node>
       </node>
     </node>
@@ -363,10 +363,14 @@
               <node concept="3uibUv" id="1KLm$Di3wIU" role="1tU5fm">
                 <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
               </node>
-              <node concept="2YIFZM" id="1KLm$Di3wIX" role="33vP2m">
-                <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
-                <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
-                <node concept="24pvgE" id="1KLm$Di3wIY" role="37wK5m" />
+              <node concept="2YIFZM" id="41NHe6g6n8G" role="33vP2m">
+                <ref role="37wK5l" to="nv3w:5gTrVpGzMW2" resolve="wrap" />
+                <ref role="1Pybhc" to="nv3w:5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+                <node concept="2YIFZM" id="1KLm$Di3wIX" role="37wK5m">
+                  <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                  <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
+                  <node concept="24pvgE" id="1KLm$Di3wIY" role="37wK5m" />
+                </node>
               </node>
             </node>
           </node>
@@ -437,7 +441,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="1KLm$Di7Ttn" role="2OqNvi">
-                  <ref role="37wK5l" to="od2j:3jJoUQ73rgv" resolve="callFunction" />
+                  <ref role="37wK5l" to="od2j:2Vy1$4N1x6M" resolve="callFunction" />
                   <node concept="37vLTw" id="1KLm$Di7Tto" role="37wK5m">
                     <ref role="3cqZAo" node="1KLm$Di3Ij8" resolve="forkId" />
                   </node>
@@ -451,8 +455,8 @@
                   </node>
                 </node>
               </node>
-              <node concept="3uibUv" id="1KLm$Di7Tts" role="10QFUM">
-                <ref role="3uigEE" to="nv3w:2$QnGbtLuzE" resolve="ITransformationCall" />
+              <node concept="3uibUv" id="1fpIz1gCW9W" role="10QFUM">
+                <ref role="3uigEE" to="nv3w:2dy3jLYuHXY" resolve="IContainmentTarget" />
               </node>
             </node>
           </node>

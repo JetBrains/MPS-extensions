@@ -89,7 +89,6 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
-      <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
@@ -2322,7 +2321,7 @@
                         <ref role="3cqZAo" node="3ECE8iPHOrw" resolve="index" />
                       </node>
                       <node concept="Xl_RD" id="3ECE8iPIO$l" role="3uHU7w">
-                        <property role="Xl_RC" value=" &gt;= " />
+                        <property role="Xl_RC" value=" &gt; " />
                       </node>
                     </node>
                     <node concept="2OqwBi" id="3ECE8iPIS7A" role="3uHU7w">
@@ -2336,7 +2335,7 @@
               </node>
             </node>
           </node>
-          <node concept="2d3UOw" id="3ECE8iPIJFe" role="3clFbw">
+          <node concept="3eOSWO" id="2REQR06mq6N" role="3clFbw">
             <node concept="37vLTw" id="3ECE8iPIIdc" role="3uHU7B">
               <ref role="3cqZAo" node="3ECE8iPHOrw" resolve="index" />
             </node>

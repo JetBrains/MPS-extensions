@@ -18,6 +18,7 @@
     <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
+    <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -1828,6 +1829,30 @@
       <node concept="10P_77" id="5bqHObToKGa" role="1tU5fm" />
       <node concept="3clFbT" id="5bqHObToKIJ" role="33vP2m" />
     </node>
+    <node concept="312cEg" id="57jJhouhxQ" role="jymVt">
+      <property role="TrG5h" value="invalidatable" />
+      <node concept="3Tm6S6" id="57jJhouhxR" role="1B3o_S" />
+      <node concept="3uibUv" id="57jJhouo$R" role="1tU5fm">
+        <ref role="3uigEE" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
+      </node>
+      <node concept="2ShNRf" id="57jJhouvnF" role="33vP2m">
+        <node concept="1pGfFk" id="57jJhouvhC" role="2ShVmc">
+          <ref role="37wK5l" to="zy2h:5b2TV0XztZg" resolve="Invalidatable" />
+          <node concept="Xl_RD" id="57jJhouvRs" role="37wK5m">
+            <property role="Xl_RC" value="Incremental Engine" />
+          </node>
+          <node concept="1bVj0M" id="57jJhouy4M" role="37wK5m">
+            <node concept="3clFbS" id="57jJhouy4O" role="1bW5cS">
+              <node concept="3clFbF" id="57jJhouyFt" role="3cqZAp">
+                <node concept="1rXfSq" id="57jJhouyFs" role="3clFbG">
+                  <ref role="37wK5l" node="4OBfrz$xMpW" resolve="invalidateAll" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="5wi3nvJUZIY" role="jymVt" />
     <node concept="3clFbW" id="4OBfrz$xMo4" role="jymVt">
       <node concept="3cqZAl" id="4OBfrz$xMo5" role="3clF45" />
@@ -2041,6 +2066,16 @@
       <node concept="3cqZAl" id="7q7cTU0Y__x" role="3clF45" />
       <node concept="3Tm1VV" id="7q7cTU0Y__y" role="1B3o_S" />
       <node concept="3clFbS" id="7q7cTU0Y__z" role="3clF47">
+        <node concept="3clFbF" id="57jJhouzmv" role="3cqZAp">
+          <node concept="2OqwBi" id="57jJhouzZD" role="3clFbG">
+            <node concept="37vLTw" id="57jJhouzmt" role="2Oq$k0">
+              <ref role="3cqZAo" node="57jJhouhxQ" resolve="invalidatable" />
+            </node>
+            <node concept="liA8E" id="57jJhou$wT" role="2OqNvi">
+              <ref role="37wK5l" to="zy2h:5b2TV0Xzw6L" resolve="dispose" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7q7cTU0YNeV" role="3cqZAp">
           <node concept="2OqwBi" id="7q7cTU0YNqP" role="3clFbG">
             <node concept="10M0yZ" id="7q7cTU0YNgq" role="2Oq$k0">

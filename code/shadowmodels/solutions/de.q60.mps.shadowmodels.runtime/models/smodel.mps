@@ -58,6 +58,7 @@
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="ztoz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.model(MPS.Core/)" />
+    <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
@@ -4593,12 +4594,12 @@
     <node concept="Wx3nA" id="5b2TV0XDlrg" role="jymVt">
       <property role="TrG5h" value="invalidatable" />
       <node concept="3uibUv" id="5b2TV0XD7NG" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+        <ref role="3uigEE" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
       </node>
       <node concept="3Tm6S6" id="5b2TV0XD1sQ" role="1B3o_S" />
       <node concept="2ShNRf" id="5b2TV0XDbtF" role="33vP2m">
         <node concept="1pGfFk" id="5b2TV0XDafK" role="2ShVmc">
-          <ref role="37wK5l" to="pxvb:5b2TV0XztZg" resolve="Invalidatable" />
+          <ref role="37wK5l" to="zy2h:5b2TV0XztZg" resolve="Invalidatable" />
           <node concept="Xl_RD" id="5b2TV0XDcDl" role="37wK5m">
             <property role="Xl_RC" value="NodeToSNodeAdapter instances cache" />
           </node>
@@ -26150,11 +26151,11 @@
       <property role="TrG5h" value="invalidatable" />
       <node concept="3Tm6S6" id="5b2TV0XCj99" role="1B3o_S" />
       <node concept="3uibUv" id="5b2TV0XCxDW" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+        <ref role="3uigEE" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
       </node>
       <node concept="2ShNRf" id="5b2TV0XCoAg" role="33vP2m">
         <node concept="1pGfFk" id="5b2TV0XCoyz" role="2ShVmc">
-          <ref role="37wK5l" to="pxvb:5b2TV0XztZg" resolve="Invalidatable" />
+          <ref role="37wK5l" to="zy2h:5b2TV0XztZg" resolve="Invalidatable" />
           <node concept="Xl_RD" id="5b2TV0XCoE8" role="37wK5m">
             <property role="Xl_RC" value="Shadow Repository" />
           </node>
@@ -27911,7 +27912,7 @@
               <ref role="3cqZAo" node="5b2TV0XCj98" resolve="invalidatable" />
             </node>
             <node concept="liA8E" id="5b2TV0XCAYI" role="2OqNvi">
-              <ref role="37wK5l" to="pxvb:5b2TV0Xzw6L" resolve="dispose" />
+              <ref role="37wK5l" to="zy2h:5b2TV0Xzw6L" resolve="dispose" />
             </node>
           </node>
         </node>
@@ -35433,11 +35434,11 @@
       <property role="TrG5h" value="invalidatable" />
       <node concept="3Tm6S6" id="5b2TV0XEGMS" role="1B3o_S" />
       <node concept="3uibUv" id="5b2TV0XEHl0" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+        <ref role="3uigEE" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
       </node>
       <node concept="2ShNRf" id="5b2TV0XEHHB" role="33vP2m">
         <node concept="1pGfFk" id="5b2TV0XEH_Y" role="2ShVmc">
-          <ref role="37wK5l" to="pxvb:5b2TV0XztZg" resolve="Invalidatable" />
+          <ref role="37wK5l" to="zy2h:5b2TV0XztZg" resolve="Invalidatable" />
           <node concept="Xl_RD" id="5b2TV0XEHPr" role="37wK5m">
             <property role="Xl_RC" value="Transformation aspect descriptors" />
           </node>
@@ -35765,7 +35766,7 @@
               <ref role="3cqZAo" node="5b2TV0XEGMR" resolve="invalidatable" />
             </node>
             <node concept="liA8E" id="5b2TV0XENXe" role="2OqNvi">
-              <ref role="37wK5l" to="pxvb:5b2TV0Xzw6L" resolve="dispose" />
+              <ref role="37wK5l" to="zy2h:5b2TV0Xzw6L" resolve="dispose" />
             </node>
           </node>
         </node>

@@ -28,6 +28,7 @@
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
     <import index="kgaa" ref="r:fa847d10-a670-48b8-aa0a-425906c34683(de.q60.mps.shadowmodels.runtime.mpslike)" />
+    <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -4937,11 +4938,11 @@
       <property role="TrG5h" value="invalidatable" />
       <node concept="3Tm6S6" id="78p1BjaY8tW" role="1B3o_S" />
       <node concept="3uibUv" id="78p1BjaYdY9" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+        <ref role="3uigEE" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
       </node>
       <node concept="2ShNRf" id="78p1BjaYfwh" role="33vP2m">
         <node concept="1pGfFk" id="78p1BjaYeYV" role="2ShVmc">
-          <ref role="37wK5l" to="pxvb:5b2TV0XztZg" resolve="Invalidatable" />
+          <ref role="37wK5l" to="zy2h:5b2TV0XztZg" resolve="Invalidatable" />
           <node concept="3cpWs3" id="78p1BjaYjGb" role="37wK5m">
             <node concept="2YIFZM" id="78p1BjaYkux" role="3uHU7w">
               <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
@@ -5091,7 +5092,7 @@
               <ref role="3cqZAo" node="78p1BjaY8tV" resolve="invalidatable" />
             </node>
             <node concept="liA8E" id="78p1BjaYs7h" role="2OqNvi">
-              <ref role="37wK5l" to="pxvb:5b2TV0Xzw6L" resolve="dispose" />
+              <ref role="37wK5l" to="zy2h:5b2TV0Xzw6L" resolve="dispose" />
             </node>
           </node>
         </node>

@@ -47,6 +47,7 @@
     <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
     <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
+    <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -1322,14 +1323,14 @@
       <property role="TrG5h" value="invalidatable" />
       <node concept="3Tm6S6" id="5b2TV0XEYrJ" role="1B3o_S" />
       <node concept="3uibUv" id="5b2TV0XF1if" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+        <ref role="3uigEE" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
       </node>
       <node concept="2ShNRf" id="5b2TV0XF3fh" role="33vP2m">
         <node concept="YeOm9" id="5b2TV0XGG8_" role="2ShVmc">
           <node concept="1Y3b0j" id="5b2TV0XGG8C" role="YeSDq">
             <property role="2bfB8j" value="true" />
-            <ref role="37wK5l" to="pxvb:5b2TV0XztZg" resolve="Invalidatable" />
-            <ref role="1Y3XeK" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+            <ref role="1Y3XeK" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
+            <ref role="37wK5l" to="zy2h:5b2TV0XztZg" resolve="Invalidatable" />
             <node concept="3Tm1VV" id="5b2TV0XGG8D" role="1B3o_S" />
             <node concept="Xl_RD" id="5b2TV0XF3o9" role="37wK5m">
               <property role="Xl_RC" value="Project view extension" />
@@ -1822,7 +1823,7 @@
               <ref role="3cqZAo" node="5b2TV0XEYrI" resolve="invalidatable" />
             </node>
             <node concept="liA8E" id="5b2TV0XF8jp" role="2OqNvi">
-              <ref role="37wK5l" to="pxvb:5b2TV0Xzw6L" resolve="dispose" />
+              <ref role="37wK5l" to="zy2h:5b2TV0Xzw6L" resolve="dispose" />
             </node>
           </node>
         </node>
@@ -4429,12 +4430,12 @@
           </node>
           <node concept="2OqwBi" id="5b2TV0XBSWB" role="2GsD0m">
             <node concept="2OqwBi" id="5b2TV0Xvgfk" role="2Oq$k0">
-              <node concept="2YIFZM" id="5b2TV0Xvg6$" role="2Oq$k0">
-                <ref role="37wK5l" to="pxvb:5b2TV0XtrrZ" resolve="getInstance" />
-                <ref role="1Pybhc" to="pxvb:5b2TV0Xtrfa" resolve="Invalidator" />
+              <node concept="2YIFZM" id="6X_rIqRB3lD" role="2Oq$k0">
+                <ref role="37wK5l" to="zy2h:5b2TV0XtrrZ" resolve="getInstance" />
+                <ref role="1Pybhc" to="zy2h:5b2TV0Xtrfa" resolve="Invalidator" />
               </node>
               <node concept="liA8E" id="5b2TV0XvgoX" role="2OqNvi">
-                <ref role="37wK5l" to="pxvb:5b2TV0XtrOH" resolve="getInvalidatables" />
+                <ref role="37wK5l" to="zy2h:5b2TV0XtrOH" resolve="getInvalidatables" />
               </node>
             </node>
             <node concept="2S7cBI" id="5b2TV0XBTnW" role="2OqNvi">
@@ -4446,7 +4447,7 @@
                         <ref role="3cqZAo" node="5b2TV0XBTo0" resolve="it" />
                       </node>
                       <node concept="liA8E" id="5b2TV0XBWjv" role="2OqNvi">
-                        <ref role="37wK5l" to="pxvb:5b2TV0Xtrgt" resolve="getText" />
+                        <ref role="37wK5l" to="zy2h:5b2TV0Xtrgt" resolve="getText" />
                       </node>
                     </node>
                   </node>
@@ -4484,7 +4485,7 @@
       <property role="TrG5h" value="getSelected" />
       <node concept="A3Dl8" id="5b2TV0Xvm3z" role="3clF45">
         <node concept="3uibUv" id="5b2TV0XvmEX" role="A3Ik2">
-          <ref role="3uigEE" to="pxvb:5b2TV0Xtrfw" resolve="IInvalidatable" />
+          <ref role="3uigEE" to="zy2h:5b2TV0Xtrfw" resolve="IInvalidatable" />
         </node>
       </node>
       <node concept="3Tm1VV" id="5b2TV0Xvk2K" role="1B3o_S" />
@@ -4558,14 +4559,14 @@
         <property role="TrG5h" value="invalidatable" />
         <node concept="3Tm6S6" id="5b2TV0XuXah" role="1B3o_S" />
         <node concept="3uibUv" id="5b2TV0XuXVm" role="1tU5fm">
-          <ref role="3uigEE" to="pxvb:5b2TV0Xtrfw" resolve="IInvalidatable" />
+          <ref role="3uigEE" to="zy2h:5b2TV0Xtrfw" resolve="IInvalidatable" />
         </node>
       </node>
       <node concept="3clFbW" id="5b2TV0XuVaL" role="jymVt">
         <node concept="37vLTG" id="5b2TV0XuVcu" role="3clF46">
           <property role="TrG5h" value="invalidatable" />
           <node concept="3uibUv" id="5b2TV0XuWGd" role="1tU5fm">
-            <ref role="3uigEE" to="pxvb:5b2TV0Xtrfw" resolve="IInvalidatable" />
+            <ref role="3uigEE" to="zy2h:5b2TV0Xtrfw" resolve="IInvalidatable" />
           </node>
         </node>
         <node concept="3cqZAl" id="5b2TV0XuVaN" role="3clF45" />
@@ -4592,7 +4593,7 @@
                   <ref role="3cqZAo" node="5b2TV0XuVcu" resolve="invalidatable" />
                 </node>
                 <node concept="liA8E" id="5b2TV0Xvafk" role="2OqNvi">
-                  <ref role="37wK5l" to="pxvb:5b2TV0Xtrgt" resolve="getText" />
+                  <ref role="37wK5l" to="zy2h:5b2TV0Xtrgt" resolve="getText" />
                 </node>
               </node>
             </node>
@@ -4721,7 +4722,7 @@
                       <ref role="2Gs0qQ" node="5b2TV0XyZT6" resolve="invalidatable" />
                     </node>
                     <node concept="liA8E" id="5b2TV0Xz0ik" role="2OqNvi">
-                      <ref role="37wK5l" to="pxvb:5b2TV0Xtri3" resolve="invalidate" />
+                      <ref role="37wK5l" to="zy2h:5b2TV0Xtri3" resolve="invalidate" />
                     </node>
                   </node>
                 </node>

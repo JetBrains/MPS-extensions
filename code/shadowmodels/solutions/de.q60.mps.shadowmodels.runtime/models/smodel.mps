@@ -21832,24 +21832,14 @@
               <node concept="37vLTw" id="2jBAMx3De$W" role="37wK5m">
                 <ref role="3cqZAo" node="6IHVO0tgY6d" resolve="sourceNode" />
               </node>
-              <node concept="2YIFZM" id="2jBAMx3De$X" role="37wK5m">
-                <ref role="37wK5l" node="4EhVFrZ6z9$" resolve="wrap" />
-                <ref role="1Pybhc" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
-                <node concept="2ShNRf" id="2jBAMx3De$Y" role="37wK5m">
-                  <node concept="1pGfFk" id="2jBAMx3De$Z" role="2ShVmc">
-                    <ref role="37wK5l" to="mjcn:7vWAzuEIWUv" resolve="SimpleNode" />
-                    <node concept="2YIFZM" id="2jBAMx3De_0" role="37wK5m">
-                      <ref role="1Pybhc" node="5gTrVpGjuL2" resolve="SConceptAdapter" />
-                      <ref role="37wK5l" node="3ECE8iPOmg5" resolve="wrap" />
-                      <node concept="2OqwBi" id="2jBAMx3De_1" role="37wK5m">
-                        <node concept="37vLTw" id="2jBAMx3De_2" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6IHVO0tgY6d" resolve="sourceNode" />
-                        </node>
-                        <node concept="2yIwOk" id="2jBAMx3Dgpr" role="2OqNvi" />
-                      </node>
-                    </node>
+              <node concept="2OqwBi" id="46qXl7aGYzx" role="37wK5m">
+                <node concept="2OqwBi" id="46qXl7aGXPV" role="2Oq$k0">
+                  <node concept="37vLTw" id="46qXl7aGXPW" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6IHVO0tgY6d" resolve="sourceNode" />
                   </node>
+                  <node concept="2yIwOk" id="46qXl7aGXPX" role="2OqNvi" />
                 </node>
+                <node concept="LFhST" id="46qXl7aHbAa" role="2OqNvi" />
               </node>
             </node>
             <node concept="16syzq" id="2jBAMx3Dfqf" role="10QFUM">

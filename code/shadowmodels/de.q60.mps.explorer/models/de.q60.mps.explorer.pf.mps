@@ -202,23 +202,30 @@
       </concept>
       <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e" />
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261755" name="throwable" index="RRSow" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
     <language id="bc963c22-d419-49b6-8543-ea411eb9d3a1" name="de.q60.mps.polymorphicfunctions">
-      <concept id="3378269547577556077" name="de.q60.mps.polymorphicfunctions.structure.GroupDeclaration" flags="ng" index="s0NCG">
+      <concept id="3378269547577556077" name="de.q60.mps.polymorphicfunctions.structure.ContextDeclaration" flags="ng" index="s0NCG">
         <child id="3378269547577556090" name="parameters" index="s0NCV" />
       </concept>
-      <concept id="3378269547577557354" name="de.q60.mps.polymorphicfunctions.structure.GroupContainer" flags="ng" index="s0OsF">
+      <concept id="3378269547577557354" name="de.q60.mps.polymorphicfunctions.structure.ContextContainer" flags="ng" index="s0OsF">
         <reference id="3378269547577557365" name="groupDeclaration" index="s0OsO" />
         <child id="3378269547577558129" name="content" index="s0O8K" />
       </concept>
-      <concept id="3378269547577557367" name="de.q60.mps.polymorphicfunctions.structure.GroupParameterDeclaration" flags="ng" index="s0OsQ">
+      <concept id="3378269547577557367" name="de.q60.mps.polymorphicfunctions.structure.ContextParameterDeclaration" flags="ng" index="s0OsQ">
         <child id="1700528364959285604" name="type" index="3khFNH" />
       </concept>
-      <concept id="3378269547578341334" name="de.q60.mps.polymorphicfunctions.structure.GroupParameterReference" flags="ng" index="s3N6n">
+      <concept id="3378269547578341334" name="de.q60.mps.polymorphicfunctions.structure.ContextParameterReference" flags="ng" index="s3N6n">
         <reference id="3378269547578341336" name="decl" index="s3N6p" />
       </concept>
       <concept id="3814377006350445070" name="de.q60.mps.polymorphicfunctions.structure.PolymorphicFunctionCall" flags="ng" index="2M0cAz">
@@ -352,6 +359,80 @@
     <node concept="3ku1Nf" id="41QOk3IG6WZ" role="3khUj0">
       <ref role="3ku1L4" node="41QOk3IG6WO" resolve="buildTree" />
       <node concept="3clFbS" id="41QOk3IG6X0" role="3ku1Le">
+        <node concept="3cpWs8" id="1D6Sg8Q0FV2" role="3cqZAp">
+          <node concept="3cpWsn" id="1D6Sg8Q0FV3" role="3cpWs9">
+            <property role="TrG5h" value="traceElement_" />
+            <node concept="3uibUv" id="1D6Sg8Q0FV4" role="1tU5fm">
+              <ref role="3uigEE" node="41QOk3IEvi1" resolve="ExplorerElement" />
+            </node>
+          </node>
+        </node>
+        <node concept="SfApY" id="1D6Sg8Q0lsN" role="3cqZAp">
+          <node concept="3clFbS" id="1D6Sg8Q0lsP" role="SfCbr">
+            <node concept="3clFbF" id="1D6Sg8Q0fEI" role="3cqZAp">
+              <node concept="37vLTI" id="1D6Sg8Q0fEK" role="3clFbG">
+                <node concept="2M0cAz" id="41QOk3IGcet" role="37vLTx">
+                  <ref role="2M0c$$" node="41QOk3IEF5d" resolve="buildTrace" />
+                  <node concept="3kvyP4" id="41QOk3IGceu" role="2M0c$y">
+                    <ref role="3kvyN1" node="41QOk3IG6Yp" resolve="element" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1D6Sg8Q0Gst" role="37vLTJ">
+                  <ref role="3cqZAo" node="1D6Sg8Q0FV3" resolve="traceElement_" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="1D6Sg8Q0lsQ" role="TEbGg">
+            <node concept="3cpWsn" id="1D6Sg8Q0lsS" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="1D6Sg8Q0m$I" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1D6Sg8Q0lsW" role="TDEfX">
+              <node concept="RRSsy" id="1D6Sg8Q0wXO" role="3cqZAp">
+                <property role="RRSoG" value="gZ5fh_4/error" />
+                <node concept="Xl_RD" id="1D6Sg8Q0wXQ" role="RRSoy" />
+                <node concept="37vLTw" id="1D6Sg8Q0wXS" role="RRSow">
+                  <ref role="3cqZAo" node="1D6Sg8Q0lsS" resolve="ex" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="1D6Sg8Q0mAn" role="3cqZAp">
+                <node concept="37vLTI" id="1D6Sg8Q0mI7" role="3clFbG">
+                  <node concept="2ShNRf" id="1D6Sg8Q0mIr" role="37vLTx">
+                    <node concept="HV5vD" id="1D6Sg8Q0vHj" role="2ShVmc">
+                      <ref role="HV5vE" node="41QOk3IEvi1" resolve="ExplorerElement" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="1D6Sg8Q0H2p" role="37vLTJ">
+                    <ref role="3cqZAo" node="1D6Sg8Q0FV3" resolve="traceElement_" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="1D6Sg8Q0vHV" role="3cqZAp">
+                <node concept="37vLTI" id="1D6Sg8Q0wm8" role="3clFbG">
+                  <node concept="2OqwBi" id="1D6Sg8Q0wCL" role="37vLTx">
+                    <node concept="37vLTw" id="1D6Sg8Q0wsE" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1D6Sg8Q0lsS" resolve="ex" />
+                    </node>
+                    <node concept="liA8E" id="1D6Sg8Q0wTO" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage()" resolve="getMessage" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="1D6Sg8Q0vOj" role="37vLTJ">
+                    <node concept="37vLTw" id="1D6Sg8Q0H3u" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1D6Sg8Q0FV3" resolve="traceElement_" />
+                    </node>
+                    <node concept="2OwXpG" id="1D6Sg8Q0vU4" role="2OqNvi">
+                      <ref role="2Oxat5" node="41QOk3IEvnH" resolve="text" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="41QOk3IGcer" role="3cqZAp">
           <node concept="3cpWsn" id="41QOk3IGces" role="3cpWs9">
             <property role="TrG5h" value="traceElement" />
@@ -359,11 +440,8 @@
             <node concept="3uibUv" id="41QOk3IGcep" role="1tU5fm">
               <ref role="3uigEE" node="41QOk3IEvi1" resolve="ExplorerElement" />
             </node>
-            <node concept="2M0cAz" id="41QOk3IGcet" role="33vP2m">
-              <ref role="2M0c$$" node="41QOk3IEF5d" resolve="buildTrace" />
-              <node concept="3kvyP4" id="41QOk3IGceu" role="2M0c$y">
-                <ref role="3kvyN1" node="41QOk3IG6Yp" resolve="element" />
-              </node>
+            <node concept="37vLTw" id="1D6Sg8Q0Ihg" role="33vP2m">
+              <ref role="3cqZAo" node="1D6Sg8Q0FV3" resolve="traceElement_" />
             </node>
           </node>
         </node>

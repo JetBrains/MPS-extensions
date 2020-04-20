@@ -28,6 +28,7 @@
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
     <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
+    <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2735,11 +2736,11 @@
       <property role="TrG5h" value="invalidatable" />
       <node concept="3Tm6S6" id="5b2TV0XzU5r" role="1B3o_S" />
       <node concept="3uibUv" id="5b2TV0XzY6r" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+        <ref role="3uigEE" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
       </node>
       <node concept="2ShNRf" id="5b2TV0XzYyM" role="33vP2m">
         <node concept="1pGfFk" id="5b2TV0XzYxS" role="2ShVmc">
-          <ref role="37wK5l" to="pxvb:5b2TV0XztZg" resolve="Invalidatable" />
+          <ref role="37wK5l" to="zy2h:5b2TV0XztZg" resolve="Invalidatable" />
           <node concept="Xl_RD" id="5b2TV0XzYGF" role="37wK5m">
             <property role="Xl_RC" value="Repository Mirror" />
           </node>
@@ -5008,7 +5009,7 @@
               <ref role="3cqZAo" node="5b2TV0XzU5q" resolve="invalidatable" />
             </node>
             <node concept="liA8E" id="5b2TV0X$41r" role="2OqNvi">
-              <ref role="37wK5l" to="pxvb:5b2TV0Xzw6L" resolve="dispose" />
+              <ref role="37wK5l" to="zy2h:5b2TV0Xzw6L" resolve="dispose" />
             </node>
           </node>
         </node>
@@ -5909,14 +5910,14 @@
       <property role="TrG5h" value="invalidatable" />
       <node concept="3Tm6S6" id="5b2TV0XAszK" role="1B3o_S" />
       <node concept="3uibUv" id="5b2TV0XAwhG" role="1tU5fm">
-        <ref role="3uigEE" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+        <ref role="3uigEE" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
       </node>
       <node concept="2ShNRf" id="5b2TV0XAwr6" role="33vP2m">
         <node concept="YeOm9" id="5b2TV0XAxK6" role="2ShVmc">
           <node concept="1Y3b0j" id="5b2TV0XAxK9" role="YeSDq">
             <property role="2bfB8j" value="true" />
-            <ref role="37wK5l" to="pxvb:5b2TV0XztZg" resolve="Invalidatable" />
-            <ref role="1Y3XeK" to="pxvb:5b2TV0XztXm" resolve="Invalidatable" />
+            <ref role="1Y3XeK" to="zy2h:5b2TV0XztXm" resolve="Invalidatable" />
+            <ref role="37wK5l" to="zy2h:5b2TV0XztZg" resolve="Invalidatable" />
             <node concept="3Tm1VV" id="5b2TV0XAxKa" role="1B3o_S" />
             <node concept="Xl_RD" id="5b2TV0XAwJQ" role="37wK5m">
               <property role="Xl_RC" value="Analysis Thread" />
@@ -6293,7 +6294,7 @@
               <ref role="3cqZAo" node="5b2TV0XAszJ" resolve="invalidatable" />
             </node>
             <node concept="liA8E" id="5b2TV0XAAjb" role="2OqNvi">
-              <ref role="37wK5l" to="pxvb:5b2TV0Xzw6L" resolve="dispose" />
+              <ref role="37wK5l" to="zy2h:5b2TV0Xzw6L" resolve="dispose" />
             </node>
           </node>
         </node>

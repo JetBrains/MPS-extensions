@@ -35471,14 +35471,18 @@
             <node concept="2ShNRf" id="22rzPefQ4XT" role="3clFbG">
               <node concept="1pGfFk" id="22rzPefQ89A" role="2ShVmc">
                 <ref role="37wK5l" node="73LuVOPYFcU" resolve="RewriteCall" />
-                <node concept="2YIFZM" id="4Dc7ogUkLPn" role="37wK5m">
-                  <ref role="37wK5l" node="4Dc7ogUjD_D" resolve="create" />
-                  <ref role="1Pybhc" node="5$YruQr6z2g" resolve="OutputNodeReferenceAsNode" />
-                  <node concept="37vLTw" id="4Dc7ogUkM3N" role="37wK5m">
-                    <ref role="3cqZAo" node="22rzPefQddZ" resolve="engine" />
-                  </node>
-                  <node concept="37vLTw" id="4Dc7ogUkMnS" role="37wK5m">
-                    <ref role="3cqZAo" node="22rzPefQ315" resolve="inputDescendant" />
+                <node concept="2YIFZM" id="7jIhq8M7shO" role="37wK5m">
+                  <ref role="37wK5l" node="5gTrVpGzMW2" resolve="wrap" />
+                  <ref role="1Pybhc" node="5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+                  <node concept="2YIFZM" id="4Dc7ogUkLPn" role="37wK5m">
+                    <ref role="37wK5l" node="4Dc7ogUjD_D" resolve="create" />
+                    <ref role="1Pybhc" node="5$YruQr6z2g" resolve="OutputNodeReferenceAsNode" />
+                    <node concept="37vLTw" id="4Dc7ogUkM3N" role="37wK5m">
+                      <ref role="3cqZAo" node="22rzPefQddZ" resolve="engine" />
+                    </node>
+                    <node concept="37vLTw" id="4Dc7ogUkMnS" role="37wK5m">
+                      <ref role="3cqZAo" node="22rzPefQ315" resolve="inputDescendant" />
+                    </node>
                   </node>
                 </node>
                 <node concept="2OqwBi" id="22rzPefQ9lD" role="37wK5m">

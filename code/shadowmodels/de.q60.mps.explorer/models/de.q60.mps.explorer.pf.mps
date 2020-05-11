@@ -215,11 +215,12 @@
       </concept>
     </language>
     <language id="bc963c22-d419-49b6-8543-ea411eb9d3a1" name="de.q60.mps.polymorphicfunctions">
+      <concept id="7678600301243356121" name="de.q60.mps.polymorphicfunctions.structure.PriorityGroupDeclaration" flags="ng" index="lnCQj" />
       <concept id="3378269547577556077" name="de.q60.mps.polymorphicfunctions.structure.ContextDeclaration" flags="ng" index="s0NCG">
         <child id="3378269547577556090" name="parameters" index="s0NCV" />
       </concept>
       <concept id="3378269547577557354" name="de.q60.mps.polymorphicfunctions.structure.ContextContainer" flags="ng" index="s0OsF">
-        <reference id="3378269547577557365" name="groupDeclaration" index="s0OsO" />
+        <reference id="3378269547577557365" name="contextDeclaration" index="s0OsO" />
         <child id="3378269547577558129" name="content" index="s0O8K" />
       </concept>
       <concept id="3378269547577557367" name="de.q60.mps.polymorphicfunctions.structure.ContextParameterDeclaration" flags="ng" index="s0OsQ">
@@ -300,10 +301,10 @@
         </node>
       </node>
     </node>
-    <node concept="s0NCG" id="4iwHBRd3DOW" role="3khUj0">
+    <node concept="lnCQj" id="476rsMJhYDz" role="3khUj0">
       <property role="TrG5h" value="mainView" />
     </node>
-    <node concept="s0NCG" id="4iwHBRd3EbD" role="3khUj0">
+    <node concept="lnCQj" id="476rsMJikeJ" role="3khUj0">
       <property role="TrG5h" value="detailView" />
     </node>
     <node concept="3khUF5" id="2CK1QGRws3_" role="3khUj0" />

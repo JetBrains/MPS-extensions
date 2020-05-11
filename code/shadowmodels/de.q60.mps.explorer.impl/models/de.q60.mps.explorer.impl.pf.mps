@@ -225,18 +225,14 @@
       </concept>
     </language>
     <language id="bc963c22-d419-49b6-8543-ea411eb9d3a1" name="de.q60.mps.polymorphicfunctions">
-      <concept id="3378269547577556077" name="de.q60.mps.polymorphicfunctions.structure.GroupDeclaration" flags="ng" index="s0NCG" />
-      <concept id="3378269547577557354" name="de.q60.mps.polymorphicfunctions.structure.GroupContainer" flags="ng" index="s0OsF">
-        <reference id="3378269547577557365" name="groupDeclaration" index="s0OsO" />
-        <child id="3378269547577558129" name="content" index="s0O8K" />
+      <concept id="7678600301243356176" name="de.q60.mps.polymorphicfunctions.structure.PriorityGroupContainer" flags="ng" index="lnCDq">
+        <reference id="7678600301243356194" name="groupDecl" index="lnCDC" />
+        <child id="7678600301243356180" name="content" index="lnCDu" />
       </concept>
-      <concept id="3378269547578515869" name="de.q60.mps.polymorphicfunctions.structure.GroupCall" flags="ng" index="s3uvs">
-        <reference id="3378269547578515871" name="group" index="s3uvu" />
-        <child id="3378269547578515873" name="body" index="s3uvw" />
-      </concept>
+      <concept id="7678600301243356121" name="de.q60.mps.polymorphicfunctions.structure.PriorityGroupDeclaration" flags="ng" index="lnCQj" />
       <concept id="1660993416176099429" name="de.q60.mps.polymorphicfunctions.structure.PriorityRule" flags="ng" index="Avmzj">
-        <reference id="1660993416176099437" name="high" index="Avmzr" />
-        <reference id="1660993416176099435" name="low" index="Avmzt" />
+        <reference id="1660993416176099437" name="high_" index="Avmzr" />
+        <reference id="1660993416176099435" name="low_" index="Avmzt" />
       </concept>
       <concept id="3814377006350445070" name="de.q60.mps.polymorphicfunctions.structure.PolymorphicFunctionCall" flags="ng" index="2M0cAz">
         <reference id="3814377006350445193" name="decl" index="2M0c$$" />
@@ -261,6 +257,10 @@
       </concept>
       <concept id="1700528364959781069" name="de.q60.mps.polymorphicfunctions.structure.PFParameterReference" flags="ng" index="3kvyP4">
         <reference id="1700528364959781192" name="decl" index="3kvyN1" />
+      </concept>
+      <concept id="4739596383734464939" name="de.q60.mps.polymorphicfunctions.structure.PriorityGroupCall" flags="ng" index="3IZALB">
+        <reference id="3378269547578515871" name="groupDecl" index="s3uvu" />
+        <child id="3378269547578515873" name="body" index="s3uvw" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -613,9 +613,9 @@
       </node>
     </node>
     <node concept="3khUF5" id="2CK1QGRWs$p" role="3khUj0" />
-    <node concept="s0OsF" id="2CK1QGRXt34" role="3khUj0">
-      <ref role="s0OsO" to="yo94:4iwHBRd3DOW" resolve="mainView" />
-      <node concept="3ku1Nf" id="2CK1QGRWuam" role="s0O8K">
+    <node concept="lnCDq" id="476rsMJhYD_" role="3khUj0">
+      <ref role="lnCDC" to="yo94:476rsMJhYDz" resolve="mainView" />
+      <node concept="3ku1Nf" id="2CK1QGRWuam" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="2CK1QGRWuao" role="3ku1Le">
           <node concept="3cpWs8" id="2CK1QGRWuez" role="3cqZAp">
@@ -702,7 +702,7 @@
           </node>
         </node>
       </node>
-      <node concept="3ku1Nf" id="2CK1QGRWyKI" role="s0O8K">
+      <node concept="3ku1Nf" id="2CK1QGRWyKI" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="2CK1QGRWyKK" role="3ku1Le">
           <node concept="3cpWs8" id="2CK1QGRWyTN" role="3cqZAp">
@@ -977,15 +977,15 @@
   <node concept="3khU$T" id="3QDIRQkL3AK">
     <property role="TrG5h" value="PF_EditorCells" />
     <node concept="3khUF5" id="4WZAwmrsb8Y" role="3khUj0" />
-    <node concept="s0NCG" id="6TaAXKMmryI" role="3khUj0">
+    <node concept="lnCQj" id="476rsMJjmPs" role="3khUj0">
       <property role="TrG5h" value="cellExplorerGroup" />
     </node>
     <node concept="3ku1Nf" id="6TaAXKMmv$2" role="3khUj0">
       <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
       <node concept="3clFbS" id="6TaAXKMmv$4" role="3ku1Le">
         <node concept="3cpWs6" id="6TaAXKMmzu$" role="3cqZAp">
-          <node concept="s3uvs" id="6TaAXKMmz$u" role="3cqZAk">
-            <ref role="s3uvu" node="6TaAXKMmryI" resolve="cellExplorerGroup" />
+          <node concept="3IZALB" id="476rsMJjmPt" role="3cqZAk">
+            <ref role="s3uvu" node="476rsMJjmPs" resolve="cellExplorerGroup" />
             <node concept="2M0cAz" id="6TaAXKMmzEd" role="s3uvw">
               <ref role="2M0c$$" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
               <node concept="2OqwBi" id="6TaAXKMmO1W" role="2M0c$y">
@@ -1168,9 +1168,9 @@
       <ref role="Avmzt" to="yo94:2BYLcdcfwJ4" />
     </node>
     <node concept="3khUF5" id="6TaAXKMni_Q" role="3khUj0" />
-    <node concept="s0OsF" id="3H0d7hLbcEP" role="3khUj0">
-      <ref role="s0OsO" to="yo94:4iwHBRd3EbD" resolve="detailView" />
-      <node concept="3ku1Nf" id="35P13VUiEqs" role="s0O8K">
+    <node concept="lnCDq" id="476rsMJikeK" role="3khUj0">
+      <ref role="lnCDC" to="yo94:476rsMJikeJ" resolve="detailView" />
+      <node concept="3ku1Nf" id="35P13VUiEqs" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="35P13VUiEqu" role="3ku1Le">
           <node concept="3cpWs8" id="35P13VUiFtm" role="3cqZAp">
@@ -1571,7 +1571,7 @@
           </node>
         </node>
       </node>
-      <node concept="3ku1Nf" id="6TaAXKMnByL" role="s0O8K">
+      <node concept="3ku1Nf" id="6TaAXKMnByL" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="6TaAXKMnByN" role="3ku1Le">
           <node concept="3cpWs8" id="6TaAXKMnEk_" role="3cqZAp">
@@ -1663,8 +1663,8 @@
           </node>
         </node>
       </node>
-      <node concept="3khUF5" id="6TaAXKMofvd" role="s0O8K" />
-      <node concept="3khUF5" id="6TaAXKMohEW" role="s0O8K" />
+      <node concept="3khUF5" id="6TaAXKMofvd" role="lnCDu" />
+      <node concept="3khUF5" id="6TaAXKMohEW" role="lnCDu" />
     </node>
     <node concept="3khUF5" id="35P13VUAkcw" role="3khUj0" />
     <node concept="3ku1Nf" id="35P13VUAlJz" role="3khUj0">
@@ -2987,7 +2987,7 @@
   <node concept="3khU$T" id="5ndwm32hUKH">
     <property role="TrG5h" value="PF_EditorComponent" />
     <node concept="3khUF5" id="5ndwm32hUKI" role="3khUj0" />
-    <node concept="s0NCG" id="5ndwm32hULh" role="3khUj0">
+    <node concept="lnCQj" id="476rsMJjpXp" role="3khUj0">
       <property role="TrG5h" value="debugEditor" />
     </node>
     <node concept="3khUF5" id="5ndwm32hULq" role="3khUj0" />
@@ -2995,8 +2995,8 @@
       <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
       <node concept="3clFbS" id="5ndwm32iSos" role="3ku1Le">
         <node concept="3cpWs6" id="5ndwm32iSYA" role="3cqZAp">
-          <node concept="s3uvs" id="5ndwm32iSYI" role="3cqZAk">
-            <ref role="s3uvu" node="5ndwm32hULh" resolve="debugEditor" />
+          <node concept="3IZALB" id="476rsMJjpXq" role="3cqZAk">
+            <ref role="s3uvu" node="476rsMJjpXp" resolve="debugEditor" />
             <node concept="2M0cAz" id="5ndwm32iSYU" role="s3uvw">
               <ref role="2M0c$$" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
               <node concept="3kvyP4" id="5ndwm32iSZ5" role="2M0c$y">
@@ -3014,9 +3014,9 @@
       </node>
     </node>
     <node concept="3khUF5" id="5ndwm32iSgv" role="3khUj0" />
-    <node concept="s0OsF" id="5ndwm32hULH" role="3khUj0">
-      <ref role="s0OsO" node="5ndwm32hULh" resolve="debugEditor" />
-      <node concept="3ku1Nf" id="5ndwm32iRJ$" role="s0O8K">
+    <node concept="lnCDq" id="476rsMJjpXr" role="3khUj0">
+      <ref role="lnCDC" node="476rsMJjpXp" resolve="debugEditor" />
+      <node concept="3ku1Nf" id="5ndwm32iRJ$" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="5ndwm32iRJ_" role="3ku1Le">
           <node concept="3cpWs8" id="5ndwm32iRJA" role="3cqZAp">
@@ -3231,7 +3231,7 @@
           </node>
         </node>
       </node>
-      <node concept="3ku1Nf" id="5ndwm32mHgV" role="s0O8K">
+      <node concept="3ku1Nf" id="5ndwm32mHgV" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="5ndwm32mHgX" role="3ku1Le">
           <node concept="3cpWs8" id="5ndwm32mJtH" role="3cqZAp">
@@ -3404,7 +3404,7 @@
           </node>
         </node>
       </node>
-      <node concept="3ku1Nf" id="5ndwm32kwq5" role="s0O8K">
+      <node concept="3ku1Nf" id="5ndwm32kwq5" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="5ndwm32kwq7" role="3ku1Le">
           <node concept="3cpWs8" id="5ndwm32kwVl" role="3cqZAp">
@@ -3489,7 +3489,7 @@
           </node>
         </node>
       </node>
-      <node concept="3ku1Nf" id="5ndwm32k_02" role="s0O8K">
+      <node concept="3ku1Nf" id="5ndwm32k_02" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="5ndwm32k_04" role="3ku1Le">
           <node concept="3cpWs8" id="5ndwm32kAra" role="3cqZAp">
@@ -3601,7 +3601,7 @@
           </node>
         </node>
       </node>
-      <node concept="3ku1Nf" id="5ndwm32lDdh" role="s0O8K">
+      <node concept="3ku1Nf" id="5ndwm32lDdh" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="5ndwm32lDdj" role="3ku1Le">
           <node concept="3cpWs8" id="5ndwm32lFHl" role="3cqZAp">
@@ -3698,7 +3698,7 @@
           </node>
         </node>
       </node>
-      <node concept="3ku1Nf" id="2BYLcdc2xu0" role="s0O8K">
+      <node concept="3ku1Nf" id="2BYLcdc2xu0" role="lnCDu">
         <ref role="3ku1L4" to="yo94:55FR5saAszt" resolve="toString" />
         <node concept="3clFbS" id="2BYLcdc2xu2" role="3ku1Le">
           <node concept="3cpWs6" id="5ndwm32m4XP" role="3cqZAp">
@@ -3719,7 +3719,7 @@
           </node>
         </node>
       </node>
-      <node concept="3ku1Nf" id="5ndwm32mnTM" role="s0O8K">
+      <node concept="3ku1Nf" id="5ndwm32mnTM" role="lnCDu">
         <ref role="3ku1L4" to="yo94:41QOk3IEF5d" resolve="buildTrace" />
         <node concept="3clFbS" id="5ndwm32mnTO" role="3ku1Le">
           <node concept="3cpWs6" id="5ndwm32mpQT" role="3cqZAp">

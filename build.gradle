@@ -77,8 +77,8 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2019.3'
-ext.mpsMinor = '4'
+ext.mpsMajor = '2020.1'
+ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 

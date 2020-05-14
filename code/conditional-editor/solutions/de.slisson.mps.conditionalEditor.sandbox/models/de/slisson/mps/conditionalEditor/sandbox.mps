@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e5b0666e-3e89-40b6-9bb8-d1192460f4ca(de.slisson.mps.conditionalEditor.sandbox)" doNotGenerate="true">
+<model ref="r:e5b0666e-3e89-40b6-9bb8-d1192460f4ca(de.slisson.mps.conditionalEditor.sandbox)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <attribute name="concise" value="true" />
   <languages>
     <use id="1831633c-aea1-4345-beff-4a6e7fb4f813" name="de.slisson.mps.conditionalEditor.demolang" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />

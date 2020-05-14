@@ -7,7 +7,7 @@
     <use id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="test.de.itemis.mps.modelmerger.testlanguage" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
   </languages>
@@ -87,7 +87,7 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
     </language>
     <language id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension">
@@ -517,7 +517,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="lVcTBwuReT" role="3cqZAp">
-          <node concept="1PaTwC" id="7WTFIQIcYk8" role="3ndbpf">
+          <node concept="1PaTwC" id="7WTFIQIcYk8" role="1aUNEU">
             <node concept="3oM_SD" id="7WTFIQIcYk9" role="1PaTwD">
               <property role="3oM_SC" value="Ensure" />
             </node>
@@ -578,7 +578,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="lVcTBwveTr" role="3cqZAp">
-          <node concept="1PaTwC" id="7WTFIQIcYkk" role="3ndbpf">
+          <node concept="1PaTwC" id="7WTFIQIcYkk" role="1aUNEU">
             <node concept="3oM_SD" id="7WTFIQIcYkl" role="1PaTwD">
               <property role="3oM_SC" value="Ensure" />
             </node>

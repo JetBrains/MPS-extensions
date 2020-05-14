@@ -7,7 +7,7 @@
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -182,7 +182,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -231,7 +231,7 @@
         <child id="1169570368028" name="ruleConsequence" index="1fOSGc" />
         <child id="1184616230853" name="contextNodeQuery" index="3gCiVm" />
       </concept>
-      <concept id="1227303129915" name="jetbrains.mps.lang.generator.structure.AbstractMacro" flags="lg" index="30XT8A">
+      <concept id="1227303129915" name="jetbrains.mps.lang.generator.structure.AbstractMacro" flags="ng" index="30XT8A">
         <property id="3265704088513289864" name="comment" index="34cw8o" />
       </concept>
       <concept id="1092059087312" name="jetbrains.mps.lang.generator.structure.TemplateDeclaration" flags="ig" index="13MO4I">
@@ -6622,7 +6622,7 @@
                         <node concept="3zFVjK" id="5Nx8MRHmSan" role="3zH0cK">
                           <node concept="3clFbS" id="5Nx8MRHmSao" role="2VODD2">
                             <node concept="3SKdUt" id="602uc2KdRgf" role="3cqZAp">
-                              <node concept="1PaTwC" id="7WTFIQIcXhl" role="3ndbpf">
+                              <node concept="1PaTwC" id="7WTFIQIcXhl" role="1aUNEU">
                                 <node concept="3oM_SD" id="7WTFIQIcXhm" role="1PaTwD">
                                   <property role="3oM_SC" value="TODO:" />
                                 </node>

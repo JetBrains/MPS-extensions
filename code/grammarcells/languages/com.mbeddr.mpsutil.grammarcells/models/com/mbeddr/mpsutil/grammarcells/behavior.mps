@@ -139,7 +139,7 @@
         <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -2467,7 +2467,7 @@
         </node>
         <node concept="3clFbH" id="2q0cFwFbRCA" role="3cqZAp" />
         <node concept="3SKdUt" id="2q0cFwFOlC$" role="3cqZAp">
-          <node concept="1PaTwC" id="2q0cFwFOlC_" role="3ndbpf">
+          <node concept="1PaTwC" id="2q0cFwFOlC_" role="1aUNEU">
             <node concept="3oM_SD" id="2q0cFwFOlCA" role="1PaTwD">
               <property role="3oM_SC" value="add" />
             </node>
@@ -3572,7 +3572,7 @@
         </node>
         <node concept="3clFbH" id="2q0cFwFbWeJ" role="3cqZAp" />
         <node concept="3SKdUt" id="2q0cFwFOlfP" role="3cqZAp">
-          <node concept="1PaTwC" id="2q0cFwFOlfQ" role="3ndbpf">
+          <node concept="1PaTwC" id="2q0cFwFOlfQ" role="1aUNEU">
             <node concept="3oM_SD" id="2q0cFwFOlfS" role="1PaTwD">
               <property role="3oM_SC" value="add" />
             </node>

@@ -26,6 +26,9 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
+        <child id="8118189177080264854" name="alternative" index="nSUat" />
+      </concept>
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
@@ -55,6 +58,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="4952749571008284462" name="jetbrains.mps.baseLanguage.structure.CatchVariable" flags="ng" index="XOnhg" />
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
@@ -153,9 +157,17 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="3093926081414150598" name="jetbrains.mps.baseLanguage.structure.MultipleCatchClause" flags="ng" index="3uVAMA">
+        <child id="8276990574895933173" name="catchBody" index="1zc67A" />
+        <child id="8276990574895933172" name="throwable" index="1zc67B" />
+      </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+        <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
+        <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -2246,8 +2258,8 @@
       <node concept="2OqwBi" id="7UiFD3ldtsQ" role="33vP2m">
         <node concept="1bVj0M" id="7UiFD3ldtah" role="2Oq$k0">
           <node concept="3clFbS" id="7UiFD3ldtak" role="1bW5cS">
-            <node concept="SfApY" id="7UiFD3ldtJT" role="3cqZAp">
-              <node concept="3clFbS" id="7UiFD3ldtJV" role="SfCbr">
+            <node concept="3J1_TO" id="7UiFD3ldtJT" role="3cqZAp">
+              <node concept="3clFbS" id="7UiFD3ldtJV" role="1zxBo7">
                 <node concept="3cpWs6" id="7UiFD3ldtgh" role="3cqZAp">
                   <node concept="2ShNRf" id="7UiFD3ldtgj" role="3cqZAk">
                     <node concept="1pGfFk" id="7UiFD3ldtgk" role="2ShVmc">
@@ -2256,14 +2268,17 @@
                   </node>
                 </node>
               </node>
-              <node concept="TDmWw" id="7UiFD3ldtJW" role="TEbGg">
-                <node concept="3cpWsn" id="7UiFD3ldtJY" role="TDEfY">
+              <node concept="3uVAMA" id="7UiFD3ldtJW" role="1zxBo5">
+                <node concept="XOnhg" id="7UiFD3ldtJY" role="1zc67B">
+                  <property role="3TUv4t" value="false" />
                   <property role="TrG5h" value="ex" />
-                  <node concept="3uibUv" id="7UiFD3ldtS$" role="1tU5fm">
-                    <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+                  <node concept="nSUau" id="3E1RwY3zf6U" role="1tU5fm">
+                    <node concept="3uibUv" id="7UiFD3ldtS$" role="nSUat">
+                      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+                    </node>
                   </node>
                 </node>
-                <node concept="3clFbS" id="7UiFD3ldtK2" role="TDEfX">
+                <node concept="3clFbS" id="7UiFD3ldtK2" role="1zc67A">
                   <node concept="RRSsy" id="7UiFD3ldupr" role="3cqZAp">
                     <property role="RRSoG" value="gZ5fh_4/error" />
                     <node concept="3cpWs3" id="7UiFD3lduPu" role="RRSoy">

@@ -5,7 +5,7 @@
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
@@ -91,7 +91,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
@@ -144,7 +144,7 @@
         <node concept="10Oyi0" id="1Ld$kZt7uuP" role="3clF45" />
         <node concept="3clFbS" id="1Ld$kZt7uqd" role="3clF47">
           <node concept="3SKdUt" id="1Ld$kZt7CsD" role="3cqZAp">
-            <node concept="1PaTwC" id="7WTFIQIcXrC" role="3ndbpf">
+            <node concept="1PaTwC" id="7WTFIQIcXrC" role="1aUNEU">
               <node concept="3oM_SD" id="7WTFIQIcXrD" role="1PaTwD">
                 <property role="3oM_SC" value="conceptswitch" />
               </node>

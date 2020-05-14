@@ -38,10 +38,6 @@
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
-      <concept id="1153952380246" name="jetbrains.mps.baseLanguage.structure.TryStatement" flags="nn" index="2GUZhq">
-        <child id="1153952416686" name="body" index="2GV8ay" />
-        <child id="1153952429843" name="finallyBody" index="2GVbov" />
-      </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
@@ -126,6 +122,9 @@
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1214918975462" name="jetbrains.mps.baseLanguage.structure.PostfixDecrementExpression" flags="nn" index="3uO5VW" />
+      <concept id="8276990574909231788" name="jetbrains.mps.baseLanguage.structure.FinallyClause" flags="ng" index="1wplmZ">
+        <child id="8276990574909234106" name="finallyBody" index="1wplMD" />
+      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -135,6 +134,10 @@
       <concept id="1144231330558" name="jetbrains.mps.baseLanguage.structure.ForStatement" flags="nn" index="1Dw8fO">
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
+      </concept>
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+        <child id="8276990574886367509" name="finallyClause" index="1zxBo6" />
+        <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -652,8 +655,8 @@
       <node concept="3cqZAl" id="AkkmJBKq3S" role="3clF45" />
       <node concept="3Tm1VV" id="AkkmJBKq3T" role="1B3o_S" />
       <node concept="3clFbS" id="AkkmJBKq3U" role="3clF47">
-        <node concept="2GUZhq" id="AkkmJBKw5r" role="3cqZAp">
-          <node concept="3clFbS" id="AkkmJBKw5s" role="2GV8ay">
+        <node concept="3J1_TO" id="AkkmJBKw5r" role="3cqZAp">
+          <node concept="3clFbS" id="AkkmJBKw5s" role="1zxBo7">
             <node concept="3clFbF" id="AkkmJBKwuF" role="3cqZAp">
               <node concept="3uNrnE" id="AkkmJBKxfx" role="3clFbG">
                 <node concept="37vLTw" id="AkkmJBKxfz" role="2$L3a6">
@@ -670,11 +673,13 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbS" id="AkkmJBKw5t" role="2GVbov">
-            <node concept="3clFbF" id="AkkmJBKxqM" role="3cqZAp">
-              <node concept="3uO5VW" id="AkkmJBKyk8" role="3clFbG">
-                <node concept="37vLTw" id="AkkmJBKyka" role="2$L3a6">
-                  <ref role="3cqZAo" node="AkkmJBKslR" resolve="indentLevel" />
+          <node concept="1wplmZ" id="5r2mZezY15U" role="1zxBo6">
+            <node concept="3clFbS" id="AkkmJBKw5t" role="1wplMD">
+              <node concept="3clFbF" id="AkkmJBKxqM" role="3cqZAp">
+                <node concept="3uO5VW" id="AkkmJBKyk8" role="3clFbG">
+                  <node concept="37vLTw" id="AkkmJBKyka" role="2$L3a6">
+                    <ref role="3cqZAo" node="AkkmJBKslR" resolve="indentLevel" />
+                  </node>
                 </node>
               </node>
             </node>

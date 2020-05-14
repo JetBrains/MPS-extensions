@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a1b2dcb5-2820-4845-96aa-82be2358cbe1(de.itemis.mps.editor.math.javasandbox)" doNotGenerate="true">
+<model ref="r:a1b2dcb5-2820-4845-96aa-82be2358cbe1(de.itemis.mps.editor.math.javasandbox)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <attribute name="concise" value="true" />
   <languages>
     <use id="6ce9daa6-c7bc-4847-a19c-5cd82a4a13fc" name="de.itemis.mps.editor.math.java" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports />
   <registry>

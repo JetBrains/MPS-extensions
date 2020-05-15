@@ -306,6 +306,9 @@
       </concept>
     </language>
     <language id="bc963c22-d419-49b6-8543-ea411eb9d3a1" name="de.q60.mps.polymorphicfunctions">
+      <concept id="7678600301243143140" name="de.q60.mps.polymorphicfunctions.structure.ImplementationRef" flags="ng" index="lgsQI">
+        <reference id="7678600301243143143" name="impl" index="lgsQH" />
+      </concept>
       <concept id="7678600301243356176" name="de.q60.mps.polymorphicfunctions.structure.PriorityGroupContainer" flags="ng" index="lnCDq">
         <reference id="7678600301243356194" name="groupDecl" index="lnCDC" />
         <child id="7678600301243356180" name="content" index="lnCDu" />
@@ -330,8 +333,8 @@
         <reference id="3378269547578341336" name="decl" index="s3N6p" />
       </concept>
       <concept id="1660993416176099429" name="de.q60.mps.polymorphicfunctions.structure.PriorityRule" flags="ng" index="Avmzj">
-        <reference id="1660993416176099437" name="high_" index="Avmzr" />
-        <reference id="1660993416176099435" name="low_" index="Avmzt" />
+        <child id="7678600301243143171" name="high" index="lgsD9" />
+        <child id="7678600301243143167" name="low" index="lgsQP" />
       </concept>
       <concept id="3814377006350445070" name="de.q60.mps.polymorphicfunctions.structure.PolymorphicFunctionCall" flags="ng" index="2M0cAz">
         <reference id="3814377006350445193" name="decl" index="2M0c$$" />
@@ -6014,8 +6017,12 @@
       </node>
     </node>
     <node concept="Avmzj" id="21SKqk9Nngr" role="3khUj0">
-      <ref role="Avmzr" node="21SKqk9MWiV" />
-      <ref role="Avmzt" node="21SKqk9NdDM" />
+      <node concept="lgsQI" id="3iIuT6IGhxk" role="lgsD9">
+        <ref role="lgsQH" node="21SKqk9MWiV" />
+      </node>
+      <node concept="lgsQI" id="3iIuT6IGhyW" role="lgsQP">
+        <ref role="lgsQH" node="21SKqk9NdDM" />
+      </node>
     </node>
     <node concept="3khUF5" id="6$M6y1eRbT7" role="3khUj0" />
     <node concept="3khUF5" id="8DLjzh6NJ2" role="3khUj0" />
@@ -6640,8 +6647,12 @@
       </node>
     </node>
     <node concept="Avmzj" id="1rUziX7SlBI" role="3khUj0">
-      <ref role="Avmzr" node="1rUziX7RJlm" />
-      <ref role="Avmzt" node="8DLjzh7asf" />
+      <node concept="lgsQI" id="3iIuT6IGs5s" role="lgsD9">
+        <ref role="lgsQH" node="1rUziX7RJlm" />
+      </node>
+      <node concept="lgsQI" id="3iIuT6IGs8Z" role="lgsQP">
+        <ref role="lgsQH" node="8DLjzh7asf" />
+      </node>
     </node>
   </node>
   <node concept="3khU$T" id="6$M6y1eScWq">

@@ -349,6 +349,9 @@
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
       </concept>
+      <concept id="6985522012210254362" name="jetbrains.mps.lang.quotation.structure.NodeBuilderPropertyExpression" flags="nn" index="WxPPo">
+        <child id="6985522012210254363" name="expression" index="WxPPp" />
+      </concept>
     </language>
     <language id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation">
       <concept id="4105524263001228310" name="de.q60.mps.shadowmodels.transformation.structure.StaticId" flags="ng" index="285$i6" />
@@ -6786,28 +6789,32 @@
                                               <ref role="2pJxaS" to="tp25:nJmxU5cSyN" resolve="ModulePointer" />
                                               <node concept="2pJxcG" id="q2F95_Bvns" role="2pJxcM">
                                                 <ref role="2pJxcJ" to="tp25:nJmxU5cSSr" resolve="moduleId" />
-                                                <node concept="2OqwBi" id="q2F95_ByQJ" role="28ntcv">
-                                                  <node concept="2OqwBi" id="q2F95_Bwr_" role="2Oq$k0">
-                                                    <node concept="37vLTw" id="q2F95_BvJn" role="2Oq$k0">
-                                                      <ref role="3cqZAo" node="q2F95_B1Vy" resolve="it" />
+                                                <node concept="WxPPo" id="7q24335a1Yo" role="28ntcv">
+                                                  <node concept="2OqwBi" id="q2F95_ByQJ" role="WxPPp">
+                                                    <node concept="2OqwBi" id="q2F95_Bwr_" role="2Oq$k0">
+                                                      <node concept="37vLTw" id="q2F95_BvJn" role="2Oq$k0">
+                                                        <ref role="3cqZAo" node="q2F95_B1Vy" resolve="it" />
+                                                      </node>
+                                                      <node concept="liA8E" id="q2F95_BxG1" role="2OqNvi">
+                                                        <ref role="37wK5l" to="z1c3:~AbstractModule.getModuleId()" resolve="getModuleId" />
+                                                      </node>
                                                     </node>
-                                                    <node concept="liA8E" id="q2F95_BxG1" role="2OqNvi">
-                                                      <ref role="37wK5l" to="z1c3:~AbstractModule.getModuleId()" resolve="getModuleId" />
+                                                    <node concept="liA8E" id="q2F95_BAnE" role="2OqNvi">
+                                                      <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                                                     </node>
-                                                  </node>
-                                                  <node concept="liA8E" id="q2F95_BAnE" role="2OqNvi">
-                                                    <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                                                   </node>
                                                 </node>
                                               </node>
                                               <node concept="2pJxcG" id="q2F95_BBYk" role="2pJxcM">
                                                 <ref role="2pJxcJ" to="tp25:nJmxU5cSSp" resolve="moduleName" />
-                                                <node concept="2OqwBi" id="q2F95_BDcd" role="28ntcv">
-                                                  <node concept="37vLTw" id="q2F95_BCrf" role="2Oq$k0">
-                                                    <ref role="3cqZAo" node="q2F95_B1Vy" resolve="it" />
-                                                  </node>
-                                                  <node concept="liA8E" id="q2F95_BEWI" role="2OqNvi">
-                                                    <ref role="37wK5l" to="z1c3:~AbstractModule.getModuleName()" resolve="getModuleName" />
+                                                <node concept="WxPPo" id="7q24335a1Yp" role="28ntcv">
+                                                  <node concept="2OqwBi" id="q2F95_BDcd" role="WxPPp">
+                                                    <node concept="37vLTw" id="q2F95_BCrf" role="2Oq$k0">
+                                                      <ref role="3cqZAo" node="q2F95_B1Vy" resolve="it" />
+                                                    </node>
+                                                    <node concept="liA8E" id="q2F95_BEWI" role="2OqNvi">
+                                                      <ref role="37wK5l" to="z1c3:~AbstractModule.getModuleName()" resolve="getModuleName" />
+                                                    </node>
                                                   </node>
                                                 </node>
                                               </node>

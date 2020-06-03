@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="4" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -155,7 +155,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
@@ -493,7 +493,7 @@
                             <node concept="9aQIb" id="rlw0PZPhJn" role="2c44tc">
                               <node concept="3clFbS" id="rlw0PZPhJp" role="9aQI4">
                                 <node concept="3SKdUt" id="7WTFIQIen6O" role="3cqZAp">
-                                  <node concept="1PaTwC" id="7WTFIQIen6P" role="3ndbpf">
+                                  <node concept="1PaTwC" id="7WTFIQIen6P" role="1aUNEU">
                                     <node concept="3oM_SD" id="7WTFIQIen6R" role="1PaTwD">
                                       <property role="3oM_SC" value="desc" />
                                       <node concept="2EMmih" id="7WTFIQIenqV" role="lGtFl">
@@ -1507,7 +1507,7 @@
                             <node concept="9aQIb" id="rlw0Q06IRR" role="2c44tc">
                               <node concept="3clFbS" id="rlw0Q06IRS" role="9aQI4">
                                 <node concept="3SKdUt" id="7WTFIQIejS$" role="3cqZAp">
-                                  <node concept="1PaTwC" id="7WTFIQIejS_" role="3ndbpf">
+                                  <node concept="1PaTwC" id="7WTFIQIejS_" role="1aUNEU">
                                     <node concept="3oM_SD" id="7WTFIQIejSB" role="1PaTwD">
                                       <property role="3oM_SC" value="Text" />
                                       <node concept="2EMmih" id="7WTFIQIekgd" role="lGtFl">

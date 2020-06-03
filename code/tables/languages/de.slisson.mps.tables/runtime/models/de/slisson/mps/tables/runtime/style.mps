@@ -4,7 +4,7 @@
   <attribute name="concise" value="true" />
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
@@ -19,6 +19,9 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
+        <child id="8118189177080264854" name="alternative" index="nSUat" />
+      </concept>
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -31,20 +34,13 @@
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
       <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
-      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
-        <child id="1164879758292" name="body" index="SfCbr" />
-        <child id="1164903496223" name="catchClause" index="TEbGg" />
-      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
-      <concept id="1164903280175" name="jetbrains.mps.baseLanguage.structure.CatchClause" flags="nn" index="TDmWw">
-        <child id="1164903359218" name="catchBody" index="TDEfX" />
-        <child id="1164903359217" name="throwable" index="TDEfY" />
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="4952749571008284462" name="jetbrains.mps.baseLanguage.structure.CatchVariable" flags="ng" index="XOnhg" />
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
@@ -63,6 +59,7 @@
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -122,11 +119,19 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="3093926081414150598" name="jetbrains.mps.baseLanguage.structure.MultipleCatchClause" flags="ng" index="3uVAMA">
+        <child id="8276990574895933173" name="catchBody" index="1zc67A" />
+        <child id="8276990574895933172" name="throwable" index="1zc67B" />
+      </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+        <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
+        <child id="8276990574886367508" name="body" index="1zxBo7" />
+      </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -272,8 +277,8 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="3ubIyAZ0abX" role="3clF47">
-        <node concept="SfApY" id="3ubIyAZ0pWc" role="3cqZAp">
-          <node concept="3clFbS" id="3ubIyAZ0pWe" role="SfCbr">
+        <node concept="3J1_TO" id="3ubIyAZ0pWc" role="3cqZAp">
+          <node concept="3clFbS" id="3ubIyAZ0pWe" role="1zxBo7">
             <node concept="3cpWs8" id="3ubIyAZ0AO3" role="3cqZAp">
               <node concept="3cpWsn" id="3ubIyAZ0AO4" role="3cpWs9">
                 <property role="TrG5h" value="m" />
@@ -330,14 +335,17 @@
               </node>
             </node>
           </node>
-          <node concept="TDmWw" id="3ubIyAZ0WGd" role="TEbGg">
-            <node concept="3cpWsn" id="3ubIyAZ0WGe" role="TDEfY">
+          <node concept="3uVAMA" id="3ubIyAZ0WGd" role="1zxBo5">
+            <node concept="XOnhg" id="3ubIyAZ0WGe" role="1zc67B">
+              <property role="3TUv4t" value="false" />
               <property role="TrG5h" value="ex" />
-              <node concept="3uibUv" id="3ubIyAZ0Zxi" role="1tU5fm">
-                <ref role="3uigEE" to="t6h5:~InvocationTargetException" resolve="InvocationTargetException" />
+              <node concept="nSUau" id="ayNXRPnSd1r" role="1tU5fm">
+                <node concept="3uibUv" id="3ubIyAZ0Zxi" role="nSUat">
+                  <ref role="3uigEE" to="t6h5:~InvocationTargetException" resolve="InvocationTargetException" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbS" id="3ubIyAZ0WGg" role="TDEfX">
+            <node concept="3clFbS" id="3ubIyAZ0WGg" role="1zc67A">
               <node concept="YS8fn" id="3ubIyAZ19cS" role="3cqZAp">
                 <node concept="2ShNRf" id="3ubIyAZ19cT" role="YScLw">
                   <node concept="1pGfFk" id="3ubIyAZ19cU" role="2ShVmc">
@@ -350,14 +358,17 @@
               </node>
             </node>
           </node>
-          <node concept="TDmWw" id="3ubIyAZ0M1s" role="TEbGg">
-            <node concept="3cpWsn" id="3ubIyAZ0M1t" role="TDEfY">
+          <node concept="3uVAMA" id="3ubIyAZ0M1s" role="1zxBo5">
+            <node concept="XOnhg" id="3ubIyAZ0M1t" role="1zc67B">
+              <property role="3TUv4t" value="false" />
               <property role="TrG5h" value="ex" />
-              <node concept="3uibUv" id="3ubIyAZ0NDs" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~IllegalAccessException" resolve="IllegalAccessException" />
+              <node concept="nSUau" id="ayNXRPnSgrX" role="1tU5fm">
+                <node concept="3uibUv" id="3ubIyAZ0NDs" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~IllegalAccessException" resolve="IllegalAccessException" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbS" id="3ubIyAZ0M1v" role="TDEfX">
+            <node concept="3clFbS" id="3ubIyAZ0M1v" role="1zc67A">
               <node concept="YS8fn" id="3ubIyAZ0Uqd" role="3cqZAp">
                 <node concept="2ShNRf" id="3ubIyAZ0Uqe" role="YScLw">
                   <node concept="1pGfFk" id="3ubIyAZ0Uqf" role="2ShVmc">
@@ -370,14 +381,17 @@
               </node>
             </node>
           </node>
-          <node concept="TDmWw" id="3ubIyAZ0pWf" role="TEbGg">
-            <node concept="3cpWsn" id="3ubIyAZ0pWh" role="TDEfY">
+          <node concept="3uVAMA" id="3ubIyAZ0pWf" role="1zxBo5">
+            <node concept="XOnhg" id="3ubIyAZ0pWh" role="1zc67B">
+              <property role="3TUv4t" value="false" />
               <property role="TrG5h" value="ex" />
-              <node concept="3uibUv" id="3ubIyAZ0qKa" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~NoSuchMethodException" resolve="NoSuchMethodException" />
+              <node concept="nSUau" id="ayNXRPnT7x_" role="1tU5fm">
+                <node concept="3uibUv" id="3ubIyAZ0qKa" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~NoSuchMethodException" resolve="NoSuchMethodException" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbS" id="3ubIyAZ0pWl" role="TDEfX">
+            <node concept="3clFbS" id="3ubIyAZ0pWl" role="1zc67A">
               <node concept="YS8fn" id="3ubIyAZ0rBx" role="3cqZAp">
                 <node concept="2ShNRf" id="3ubIyAZ0rN$" role="YScLw">
                   <node concept="1pGfFk" id="3ubIyAZ0_9G" role="2ShVmc">

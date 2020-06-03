@@ -2,13 +2,15 @@
 <model ref="r:851420a8-4c6f-4b29-a2e6-353fa69bdb4e(de.itemis.mps.editor.collapsible.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
   </languages>
   <imports>
     <import index="o1st" ref="r:bca3993a-2dc4-4449-a654-c9f2fa86dc9c(de.itemis.mps.editor.collapsible.structure)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
+      <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
@@ -29,8 +31,8 @@
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
+        <child id="5991739802479788259" name="type" index="22hAXT" />
       </concept>
-      <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -277,14 +279,17 @@
       <node concept="2EHx9g" id="48DYfEtA0bV" role="2iSdaV" />
     </node>
   </node>
-  <node concept="3p36aQ" id="69rYimo5RzM">
+  <node concept="22mcaB" id="69rYimo5RzM">
     <ref role="aqKnT" to="o1st:69rYimo5Rzo" resolve="ConceptFunctionParameter_Graphics2D" />
+    <node concept="22hDWj" id="7q24335a1Cs" role="22hAXT" />
   </node>
-  <node concept="3p36aQ" id="69rYimo65ZL">
+  <node concept="22mcaB" id="69rYimo65ZL">
     <ref role="aqKnT" to="o1st:69rYimo65Uo" resolve="ConceptFunctionParameter_Highlighted" />
+    <node concept="22hDWj" id="7q24335a1Ct" role="22hAXT" />
   </node>
-  <node concept="3p36aQ" id="69rYimpiyon">
+  <node concept="22mcaB" id="69rYimpiyon">
     <ref role="aqKnT" to="o1st:69rYimpipxQ" resolve="ConceptFunctionParameter_Bounds" />
+    <node concept="22hDWj" id="7q24335a1Cu" role="22hAXT" />
   </node>
 </model>
 

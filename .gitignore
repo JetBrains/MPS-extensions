@@ -18,3 +18,4 @@ site
 # MPS temporary directories
 /system/
 /config/
+markdown-navigator**

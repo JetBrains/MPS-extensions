@@ -2,7 +2,7 @@
 <model ref="r:700a66b5-00d0-4738-9d24-e492913007fc(de.slisson.mps.hacks.editor.editorregistry)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
   </languages>
@@ -28,6 +28,9 @@
       </concept>
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
+        <child id="8118189177080264854" name="alternative" index="nSUat" />
+      </concept>
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
@@ -42,22 +45,15 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
-        <child id="1164879758292" name="body" index="SfCbr" />
-        <child id="1164903496223" name="catchClause" index="TEbGg" />
-      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
-      <concept id="1164903280175" name="jetbrains.mps.baseLanguage.structure.CatchClause" flags="nn" index="TDmWw">
-        <child id="1164903359218" name="catchBody" index="TDEfX" />
-        <child id="1164903359217" name="throwable" index="TDEfY" />
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="4952749571008284462" name="jetbrains.mps.baseLanguage.structure.CatchVariable" flags="ng" index="XOnhg" />
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
@@ -162,6 +158,10 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="3093926081414150598" name="jetbrains.mps.baseLanguage.structure.MultipleCatchClause" flags="ng" index="3uVAMA">
+        <child id="8276990574895933173" name="catchBody" index="1zc67A" />
+        <child id="8276990574895933172" name="throwable" index="1zc67B" />
+      </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
@@ -172,6 +172,10 @@
       </concept>
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
+      </concept>
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+        <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
+        <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
       <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -904,9 +908,38 @@
             <node concept="10Nm6u" id="5094wKnoHE1" role="33vP2m" />
           </node>
         </node>
-        <node concept="SfApY" id="5094wKnoHEl" role="3cqZAp">
-          <node concept="TDmWw" id="5094wKnoHEm" role="TEbGg">
-            <node concept="3clFbS" id="5094wKnoHEe" role="TDEfX">
+        <node concept="3J1_TO" id="5094wKnoHEl" role="3cqZAp">
+          <node concept="3clFbS" id="5094wKnoHE3" role="1zxBo7">
+            <node concept="3clFbF" id="5094wKnoHE4" role="3cqZAp">
+              <node concept="37vLTI" id="5094wKnoHE5" role="3clFbG">
+                <node concept="37vLTw" id="5094wKnoHE6" role="37vLTJ">
+                  <ref role="3cqZAo" node="5094wKnoHDY" resolve="aspectDescriptor" />
+                </node>
+                <node concept="2OqwBi" id="5094wKnoIj$" role="37vLTx">
+                  <node concept="37vLTw" id="5094wKnoIjz" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5094wKnoHDC" resolve="languageRuntime" />
+                  </node>
+                  <node concept="liA8E" id="5094wKnoIj_" role="2OqNvi">
+                    <ref role="37wK5l" to="vndm:~LanguageRuntime.getAspect(java.lang.Class)" resolve="getAspect" />
+                    <node concept="3VsKOn" id="5094wKnoHE9" role="37wK5m">
+                      <ref role="3VsUkX" to="iwf0:~EditorAspectDescriptor" resolve="EditorAspectDescriptor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="5094wKnoHEm" role="1zxBo5">
+            <node concept="XOnhg" id="5094wKnoHEa" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="error" />
+              <node concept="nSUau" id="6uQDNo78Jdi" role="1tU5fm">
+                <node concept="3uibUv" id="5094wKnoHEc" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~NoClassDefFoundError" resolve="NoClassDefFoundError" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="5094wKnoHEe" role="1zc67A">
               <node concept="3clFbF" id="5094wKnoHEf" role="3cqZAp">
                 <node concept="2OqwBi" id="5094wKnoIjb" role="3clFbG">
                   <node concept="37vLTw" id="5fq$Y9WlFGh" role="2Oq$k0">
@@ -924,33 +957,6 @@
                     </node>
                     <node concept="37vLTw" id="5094wKnoHEk" role="37wK5m">
                       <ref role="3cqZAo" node="5094wKnoHEa" resolve="error" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="5094wKnoHEa" role="TDEfY">
-              <property role="3TUv4t" value="false" />
-              <property role="TrG5h" value="error" />
-              <node concept="3uibUv" id="5094wKnoHEc" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~NoClassDefFoundError" resolve="NoClassDefFoundError" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="5094wKnoHE3" role="SfCbr">
-            <node concept="3clFbF" id="5094wKnoHE4" role="3cqZAp">
-              <node concept="37vLTI" id="5094wKnoHE5" role="3clFbG">
-                <node concept="37vLTw" id="5094wKnoHE6" role="37vLTJ">
-                  <ref role="3cqZAo" node="5094wKnoHDY" resolve="aspectDescriptor" />
-                </node>
-                <node concept="2OqwBi" id="5094wKnoIj$" role="37vLTx">
-                  <node concept="37vLTw" id="5094wKnoIjz" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5094wKnoHDC" resolve="languageRuntime" />
-                  </node>
-                  <node concept="liA8E" id="5094wKnoIj_" role="2OqNvi">
-                    <ref role="37wK5l" to="vndm:~LanguageRuntime.getAspect(java.lang.Class)" resolve="getAspect" />
-                    <node concept="3VsKOn" id="5094wKnoHE9" role="37wK5m">
-                      <ref role="3VsUkX" to="iwf0:~EditorAspectDescriptor" resolve="EditorAspectDescriptor" />
                     </node>
                   </node>
                 </node>

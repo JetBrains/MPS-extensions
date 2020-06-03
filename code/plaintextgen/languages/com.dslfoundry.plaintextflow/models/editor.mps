@@ -2,7 +2,7 @@
 <model ref="r:ed48e985-c70d-4bb2-8bda-34d0f9bfeea8(com.dslfoundry.plaintextflow.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -142,6 +142,9 @@
       <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
+      </concept>
+      <concept id="6985522012210254362" name="jetbrains.mps.lang.quotation.structure.NodeBuilderPropertyExpression" flags="nn" index="WxPPo">
+        <child id="6985522012210254363" name="expression" index="WxPPp" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -329,8 +332,10 @@
                   <ref role="2pJxaS" to="ssyn:6$Hx0f8j5UT" resolve="FlowWord" />
                   <node concept="2pJxcG" id="6FSgq4qbzst" role="2pJxcM">
                     <ref role="2pJxcJ" to="ssyn:6$Hx0f8jbah" resolve="text" />
-                    <node concept="Xl_RD" id="6FSgq4qbzwe" role="28ntcv">
-                      <property role="Xl_RC" value="" />
+                    <node concept="WxPPo" id="7q24335a1Yn" role="28ntcv">
+                      <node concept="Xl_RD" id="6FSgq4qbzwe" role="WxPPp">
+                        <property role="Xl_RC" value="" />
+                      </node>
                     </node>
                   </node>
                 </node>

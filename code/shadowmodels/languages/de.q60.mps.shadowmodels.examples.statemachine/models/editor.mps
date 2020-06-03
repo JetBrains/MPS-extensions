@@ -2,7 +2,7 @@
 <model ref="r:cd90bbe6-a617-4ef7-b0ce-a27b18fe035e(de.q60.mps.shadowmodels.examples.statemachine.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -376,10 +376,10 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3CYlK6ygJ0u" role="2OqNvi">
-                          <ref role="37wK5l" to="nv3w:4NgaqHYYk1V" resolve="executeLazy" />
+                          <ref role="37wK5l" to="nv3w:4NgaqHYYk1V" resolve="executeInCurrentStage" />
                           <node concept="2ShNRf" id="3CYlK6ygJ0v" role="37wK5m">
                             <node concept="1pGfFk" id="3CYlK6ygJ0w" role="2ShVmc">
-                              <ref role="37wK5l" to="nv3w:4NgaqHYY5n_" resolve="_TransformationCall" />
+                              <ref role="37wK5l" to="nv3w:4NgaqHYY5n_" resolve="TransformationCall" />
                               <node concept="2OqwBi" id="2VTIUrjn0Sv" role="37wK5m">
                                 <node concept="2OqwBi" id="2VTIUrjyZQZ" role="2Oq$k0">
                                   <node concept="2tJFMh" id="2VTIUrjyXo3" role="2Oq$k0">

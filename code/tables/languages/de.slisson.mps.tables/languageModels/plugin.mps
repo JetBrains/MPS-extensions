@@ -5,7 +5,7 @@
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="4" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -43,7 +43,7 @@
       <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a">
         <child id="1562714432501166199" name="shortcutChange" index="Zd508" />
       </concept>
-      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="lg" index="1bYyw_">
+      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="ng" index="1bYyw_">
         <reference id="6193305307616734326" name="action" index="1bYAoF" />
       </concept>
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
@@ -184,7 +184,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -521,7 +521,7 @@
             <node concept="3clFbJ" id="3Y7loYI5BpA" role="3cqZAp">
               <node concept="3clFbS" id="3Y7loYI5BpD" role="3clFbx">
                 <node concept="3SKdUt" id="3Y7loYI4LkO" role="3cqZAp">
-                  <node concept="1PaTwC" id="7WTFIQIcXqT" role="3ndbpf">
+                  <node concept="1PaTwC" id="7WTFIQIcXqT" role="1aUNEU">
                     <node concept="3oM_SD" id="7WTFIQIcXqU" role="1PaTwD">
                       <property role="3oM_SC" value="delete" />
                     </node>
@@ -1112,7 +1112,7 @@
             <node concept="3clFbJ" id="3Y7loYI5VYl" role="3cqZAp">
               <node concept="3clFbS" id="3Y7loYI5VYm" role="3clFbx">
                 <node concept="3SKdUt" id="3Y7loYI5VYn" role="3cqZAp">
-                  <node concept="1PaTwC" id="7WTFIQIcXr1" role="3ndbpf">
+                  <node concept="1PaTwC" id="7WTFIQIcXr1" role="1aUNEU">
                     <node concept="3oM_SD" id="7WTFIQIcXr2" role="1PaTwD">
                       <property role="3oM_SC" value="backspace" />
                     </node>

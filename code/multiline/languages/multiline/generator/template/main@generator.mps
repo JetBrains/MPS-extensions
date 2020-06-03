@@ -45,10 +45,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="1153952380246" name="jetbrains.mps.baseLanguage.structure.TryStatement" flags="nn" index="2GUZhq">
-        <child id="1153952416686" name="body" index="2GV8ay" />
-        <child id="1153952429843" name="finallyBody" index="2GVbov" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -149,9 +145,16 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="8276990574909231788" name="jetbrains.mps.baseLanguage.structure.FinallyClause" flags="ng" index="1wplmZ">
+        <child id="8276990574909234106" name="finallyBody" index="1wplMD" />
+      </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+        <child id="8276990574886367509" name="finallyClause" index="1zxBo6" />
+        <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -310,8 +313,8 @@
               </node>
             </node>
           </node>
-          <node concept="2GUZhq" id="5BSUddgte_9" role="3cqZAp">
-            <node concept="3clFbS" id="5BSUddgte_b" role="2GV8ay">
+          <node concept="3J1_TO" id="5BSUddgte_9" role="3cqZAp">
+            <node concept="3clFbS" id="5BSUddgte_b" role="1zxBo7">
               <node concept="3cpWs8" id="6J9VvZhUtHu" role="3cqZAp">
                 <node concept="3cpWsn" id="6J9VvZhUtHv" role="3cpWs9">
                   <property role="TrG5h" value="property" />
@@ -822,14 +825,16 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbS" id="5BSUddgte_c" role="2GVbov">
-              <node concept="3clFbF" id="5BSUddgtjMF" role="3cqZAp">
-                <node concept="2OqwBi" id="5BSUddgtkxj" role="3clFbG">
-                  <node concept="1rXfSq" id="5BSUddgtjME" role="2Oq$k0">
-                    <ref role="37wK5l" to="qvne:6OQfiPCHBjx" resolve="getCellFactory" />
-                  </node>
-                  <node concept="liA8E" id="5BSUddgtlat" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCellFactory.popCellContext()" resolve="popCellContext" />
+            <node concept="1wplmZ" id="fora8bc_s5v" role="1zxBo6">
+              <node concept="3clFbS" id="5BSUddgte_c" role="1wplMD">
+                <node concept="3clFbF" id="5BSUddgtjMF" role="3cqZAp">
+                  <node concept="2OqwBi" id="5BSUddgtkxj" role="3clFbG">
+                    <node concept="1rXfSq" id="5BSUddgtjME" role="2Oq$k0">
+                      <ref role="37wK5l" to="qvne:6OQfiPCHBjx" resolve="getCellFactory" />
+                    </node>
+                    <node concept="liA8E" id="5BSUddgtlat" role="2OqNvi">
+                      <ref role="37wK5l" to="f4zo:~EditorCellFactory.popCellContext()" resolve="popCellContext" />
+                    </node>
                   </node>
                 </node>
               </node>

@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="concise" value="true" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
   </languages>
   <imports>
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="5991739802479784074" name="jetbrains.mps.lang.editor.structure.MenuTypeNamed" flags="ng" index="22hDWg" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="784421273959492578" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_IncludeMenu" flags="ng" index="mvV$s">
@@ -50,6 +51,7 @@
       </concept>
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
+        <child id="5991739802479788259" name="type" index="22hAXT" />
       </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="2896773699153795590" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform" flags="ng" index="3cWJ9i">
@@ -86,7 +88,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
-      <concept id="5624877018226904808" name="jetbrains.mps.lang.editor.structure.TransformationMenu_Named" flags="ng" index="3ICXOK" />
+      <concept id="5624877018226900666" name="jetbrains.mps.lang.editor.structure.TransformationMenu" flags="ng" index="3ICUPy" />
       <concept id="5624877018228267058" name="jetbrains.mps.lang.editor.structure.ITransformationMenu" flags="ng" index="3INCJE">
         <child id="1638911550608572412" name="sections" index="IW6Ez" />
       </concept>
@@ -173,7 +175,7 @@
     <node concept="3EZMnI" id="fITxkhc" role="2wV5jI">
       <node concept="1iCGBv" id="gDPynXJ" role="3EZMnx">
         <property role="1$x2rV" value="&lt;no class&gt;" />
-        <ref role="1ERwB7" to="tpen:h3$l4aj" resolve="StaticMethodCall_Actions" />
+        <ref role="1ERwB7" to="tpen:h3$l4aj" resolve="StaticMethodCall_ConvertToLocal" />
         <ref role="1NtTu8" to="oiz3:gDPybl6" resolve="classConcept" />
         <node concept="1sVBvm" id="gDPynXK" role="1sWHZn">
           <node concept="3F0A7n" id="gDPynXL" role="2wV5jI">
@@ -259,12 +261,12 @@
       </node>
       <node concept="3F0ifn" id="fKolU0q" role="3EZMnx">
         <property role="3F0ifm" value="." />
-        <ref role="1ERwB7" to="tpen:6LG$uYA2eFu" resolve="StaticFieldReference_DeleteDot" />
+        <ref role="1ERwB7" to="tpen:6LG$uYA2eFu" resolve="StaticFieldReference_DeleteToDot" />
         <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
       </node>
       <node concept="1iCGBv" id="fPFlXsb" role="3EZMnx">
         <property role="1$x2rV" value="&lt;no static member&gt;" />
-        <ref role="1ERwB7" to="tpen:6LG$uYA2eFu" resolve="StaticFieldReference_DeleteDot" />
+        <ref role="1ERwB7" to="tpen:6LG$uYA2eFu" resolve="StaticFieldReference_DeleteToDot" />
         <ref role="1NtTu8" to="oiz3:f_2Pw7K" resolve="staticFieldDeclaration" />
         <node concept="1sVBvm" id="fPFlXsc" role="1sWHZn">
           <node concept="3F0A7n" id="fPFlXsd" role="2wV5jI">
@@ -289,9 +291,11 @@
       <node concept="l2Vlx" id="i0v3bx0" role="2iSdaV" />
     </node>
   </node>
-  <node concept="3ICXOK" id="4iNiUqGz3k8">
-    <property role="TrG5h" value="ReflectionMethodCall_ApplySideTransforms" />
+  <node concept="3ICUPy" id="4iNiUqGz3k8">
     <ref role="aqKnT" to="oiz3:7moa1g0TXNe" resolve="ReflectionMethodCall" />
+    <node concept="22hDWg" id="7q24335a1Ca" role="22hAXT">
+      <property role="TrG5h" value="ReflectionMethodCall_ApplySideTransforms" />
+    </node>
     <node concept="1Qtc8_" id="4iNiUqGz3k9" role="IW6Ez">
       <node concept="3cWJ9i" id="4iNiUqGz3ka" role="1Qtc8$">
         <node concept="CtIbL" id="4iNiUqGz3kb" role="CtIbM">

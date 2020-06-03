@@ -43,7 +43,7 @@
       <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a">
         <child id="1562714432501166199" name="shortcutChange" index="Zd508" />
       </concept>
-      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="lg" index="1bYyw_">
+      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="ng" index="1bYyw_">
         <reference id="6193305307616734326" name="action" index="1bYAoF" />
       </concept>
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
@@ -249,7 +249,7 @@
               </node>
             </node>
             <node concept="liA8E" id="2vJRo8g$$xD" role="2OqNvi">
-              <ref role="37wK5l" to="4b2m:~MessageBusConnection.subscribe(com.intellij.util.messages.Topic,java.lang.Object)" resolve="subscribe" />
+              <ref role="37wK5l" to="4b2m:~SimpleMessageBusConnection.subscribe(com.intellij.util.messages.Topic,java.lang.Object)" resolve="subscribe" />
               <node concept="10M0yZ" id="2vJRo8g$$xE" role="37wK5m">
                 <ref role="3cqZAo" to="rlg8:~EditorComponentCreateListener.EDITOR_COMPONENT_CREATION" resolve="EDITOR_COMPONENT_CREATION" />
                 <ref role="1PxDUh" to="rlg8:~EditorComponentCreateListener" resolve="EditorComponentCreateListener" />
@@ -345,8 +345,8 @@
                     <ref role="2WH_rO" node="2vJRo8g$$xg" resolve="myConnection" />
                   </node>
                 </node>
-                <node concept="liA8E" id="2vJRo8g$$y7" role="2OqNvi">
-                  <ref role="37wK5l" to="4b2m:~MessageBusConnection.disconnect()" resolve="disconnect" />
+                <node concept="liA8E" id="13HFeh2d0CP" role="2OqNvi">
+                  <ref role="37wK5l" to="4b2m:~SimpleMessageBusConnection.disconnect()" resolve="disconnect" />
                 </node>
               </node>
             </node>

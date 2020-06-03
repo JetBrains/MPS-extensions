@@ -38269,12 +38269,11 @@
                               <ref role="1PxDUh" node="27djZ8_YaUo" resolve="Box" />
                               <ref role="3cqZAo" node="TBoO2mIKvo" resolve="PADDING" />
                             </node>
-                            <node concept="2OqwBi" id="x7pamAymmQ" role="3uHU7B">
-                              <node concept="2GrUjf" id="x7pamAymmR" role="2Oq$k0">
+                            <node concept="2YIFZM" id="3WLEw4ojyhC" role="3uHU7B">
+                              <ref role="37wK5l" to="r3rm:3WLEw4ofoxp" resolve="getWidth" />
+                              <ref role="1Pybhc" to="r3rm:6JcGGfVoLYc" resolve="LayoutDependencies" />
+                              <node concept="2GrUjf" id="3WLEw4ojCNa" role="37wK5m">
                                 <ref role="2Gs0qQ" node="x7pamAxQn2" resolve="c" />
-                              </node>
-                              <node concept="liA8E" id="x7pamAymmS" role="2OqNvi">
-                                <ref role="37wK5l" to="f4zo:~EditorCell.getWidth()" resolve="getWidth" />
                               </node>
                             </node>
                           </node>
@@ -38283,12 +38282,11 @@
                               <ref role="1PxDUh" node="27djZ8_YaUo" resolve="Box" />
                               <ref role="3cqZAo" node="TBoO2mIKvo" resolve="PADDING" />
                             </node>
-                            <node concept="2OqwBi" id="x7pamAyncL" role="3uHU7B">
-                              <node concept="2GrUjf" id="x7pamAyncM" role="2Oq$k0">
+                            <node concept="2YIFZM" id="3WLEw4ojDhc" role="3uHU7B">
+                              <ref role="37wK5l" to="r3rm:3WLEw4ofqIN" resolve="getHeight" />
+                              <ref role="1Pybhc" to="r3rm:6JcGGfVoLYc" resolve="LayoutDependencies" />
+                              <node concept="2GrUjf" id="3WLEw4ojDhd" role="37wK5m">
                                 <ref role="2Gs0qQ" node="x7pamAxQn2" resolve="c" />
-                              </node>
-                              <node concept="liA8E" id="x7pamAyncN" role="2OqNvi">
-                                <ref role="37wK5l" to="f4zo:~EditorCell.getHeight()" resolve="getHeight" />
                               </node>
                             </node>
                           </node>

@@ -1768,7 +1768,12 @@
                           <ref role="37wK5l" to="mhbf:~SReference.getLink()" resolve="getLink" />
                         </node>
                       </node>
-                      <node concept="10Nm6u" id="36T3QpoURGA" role="37wK5m" />
+                      <node concept="10QFUN" id="6VDVrYPZIIs" role="37wK5m">
+                        <node concept="3uibUv" id="6VDVrYPZITF" role="10QFUM">
+                          <ref role="3uigEE" to="mhbf:~SReference" resolve="SReference" />
+                        </node>
+                        <node concept="10Nm6u" id="36T3QpoURGA" role="10QFUP" />
+                      </node>
                     </node>
                   </node>
                 </node>

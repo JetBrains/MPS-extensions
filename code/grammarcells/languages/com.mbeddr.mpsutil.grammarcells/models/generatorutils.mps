@@ -16,6 +16,7 @@
     <import index="9ark" ref="r:0005a850-44c9-429b-8454-e5a25402c2a9(com.mbeddr.mpsutil.grammarcells.runtimelang.behavior)" />
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="5mdd" ref="r:f4f3736e-6da2-4bf6-9b34-06696f46bc70(de.slisson.mps.richtext.customcell.structure)" />
+    <import index="8byu" ref="r:34a4cfb6-903f-41e9-95dc-ea24a6097ced(jetbrains.mps.lang.editor.tooltips.structure)" />
     <import index="karh" ref="r:780bbc81-d170-48ec-b42e-89f51d5b0ee5(com.mbeddr.mpsutil.grammarcells.behavior)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -1871,16 +1872,16 @@
                 </node>
                 <node concept="3clFbH" id="2uT2PLmVkuB" role="3cqZAp" />
               </node>
-              <node concept="2OqwBi" id="2uT2PLmUYav" role="3clFbw">
-                <node concept="2OqwBi" id="2uT2PLmUY4w" role="2Oq$k0">
-                  <node concept="37vLTw" id="2uT2PLmUY3n" role="2Oq$k0">
+              <node concept="2OqwBi" id="6TEPcwQVTwJ" role="3clFbw">
+                <node concept="2OqwBi" id="6TEPcwQVSMH" role="2Oq$k0">
+                  <node concept="37vLTw" id="6TEPcwQVSCX" role="2Oq$k0">
                     <ref role="3cqZAo" node="RbLMy6c4rS" resolve="node" />
                   </node>
-                  <node concept="1mfA1w" id="2uT2PLmUY6r" role="2OqNvi" />
+                  <node concept="1mfA1w" id="6TEPcwQVSTC" role="2OqNvi" />
                 </node>
-                <node concept="1mIQ4w" id="2uT2PLmUYe7" role="2OqNvi">
-                  <node concept="chp4Y" id="2uT2PLmUYeJ" role="cj9EA">
-                    <ref role="cht4Q" to="878o:5OsvY4gZzIS" resolve="ICollectionLikeCell" />
+                <node concept="1mIQ4w" id="6TEPcwQVU6R" role="2OqNvi">
+                  <node concept="chp4Y" id="6TEPcwQVU7Z" role="cj9EA">
+                    <ref role="cht4Q" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
                   </node>
                 </node>
               </node>
@@ -2062,6 +2063,40 @@
             <node concept="1mIQ4w" id="4MmBx0ao9LU" role="2OqNvi">
               <node concept="chp4Y" id="4MmBx0ao9NA" role="cj9EA">
                 <ref role="cht4Q" to="878o:5OsvY4gZzIS" resolve="ICollectionLikeCell" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6TEPcwQNGbP" role="3cqZAp">
+          <node concept="3clFbS" id="6TEPcwQNGbR" role="3clFbx">
+            <node concept="3cpWs6" id="6TEPcwQNLc1" role="3cqZAp">
+              <node concept="2ShNRf" id="6TEPcwQNTYd" role="3cqZAk">
+                <node concept="Tc6Ow" id="6TEPcwQNTWc" role="2ShVmc">
+                  <node concept="3Tqbb2" id="6TEPcwQNTWd" role="HW$YZ" />
+                  <node concept="2OqwBi" id="6TEPcwQNQg3" role="HW$Y0">
+                    <node concept="1PxgMI" id="6TEPcwQNO2c" role="2Oq$k0">
+                      <node concept="chp4Y" id="6TEPcwQNPmx" role="3oSUPX">
+                        <ref role="cht4Q" to="8byu:6XU1fOGp7Jy" resolve="CellModel_Tooltip" />
+                      </node>
+                      <node concept="37vLTw" id="6TEPcwQNMzB" role="1m5AlR">
+                        <ref role="3cqZAo" node="5OsvY4gZFCS" resolve="cell" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="6TEPcwQNRNM" role="2OqNvi">
+                      <ref role="3Tt5mk" to="8byu:7XU1fOGp86t" resolve="visibleCell" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6TEPcwQNI2H" role="3clFbw">
+            <node concept="37vLTw" id="6TEPcwQNGW7" role="2Oq$k0">
+              <ref role="3cqZAo" node="5OsvY4gZFCS" resolve="cell" />
+            </node>
+            <node concept="1mIQ4w" id="6TEPcwQNJwk" role="2OqNvi">
+              <node concept="chp4Y" id="6TEPcwQNJxu" role="cj9EA">
+                <ref role="cht4Q" to="8byu:6XU1fOGp7Jy" resolve="CellModel_Tooltip" />
               </node>
             </node>
           </node>

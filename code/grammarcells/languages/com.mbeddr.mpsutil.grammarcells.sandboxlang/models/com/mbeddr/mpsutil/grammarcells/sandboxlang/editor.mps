@@ -5,6 +5,7 @@
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="1" />
     <use id="e359e0a2-368a-4c40-ae2a-e5a09f9cfd58" name="de.itemis.mps.editor.math.notations" version="0" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -226,6 +227,13 @@
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
+    </language>
+    <language id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips">
+      <concept id="1285659875393567816" name="jetbrains.mps.lang.editor.tooltips.structure.CellModel_Tooltip" flags="ng" index="1v6uyg">
+        <property id="4804083432920625643" name="lazy" index="2oejA6" />
+        <child id="3877544518697818164" name="tooltipCell" index="wsdo6" />
+        <child id="9185659875393569181" name="visibleCell" index="1j7Clw" />
+      </concept>
     </language>
   </registry>
   <node concept="24kQdi" id="1x69AmkdYAJ">
@@ -1137,6 +1145,27 @@
   <node concept="22mcaB" id="2cvVnUuAoz4">
     <ref role="aqKnT" to="ibwz:1x69AmkdYAi" resolve="EmptyStatement" />
     <node concept="22hDWj" id="7q24335a1C6" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="6TEPcwQO0kC">
+    <ref role="1XX52x" to="ibwz:6TEPcwQO0k7" resolve="TEST_FlagAndTooltip" />
+    <node concept="1v6uyg" id="6TEPcwQO0nf" role="2wV5jI">
+      <property role="2oejA6" value="true" />
+      <node concept="3F0ifn" id="6TEPcwQO0nt" role="wsdo6">
+        <property role="3F0ifm" value="Tooltip ..." />
+      </node>
+      <node concept="3EZMnI" id="6TEPcwQO0kE" role="1j7Clw">
+        <node concept="1kHk_G" id="6TEPcwQO0kO" role="3EZMnx">
+          <ref role="1NtTu8" to="ibwz:6TEPcwQO0ka" resolve="flagAndTooltip" />
+        </node>
+        <node concept="3F1sOY" id="6TEPcwQO0kU" role="3EZMnx">
+          <ref role="1NtTu8" to="ibwz:6TEPcwQO0kc" resolve="expr" />
+        </node>
+        <node concept="3F0ifn" id="6TEPcwQO0l2" role="3EZMnx">
+          <property role="3F0ifm" value=";" />
+        </node>
+        <node concept="l2Vlx" id="6TEPcwQO0kH" role="2iSdaV" />
+      </node>
+    </node>
   </node>
 </model>
 

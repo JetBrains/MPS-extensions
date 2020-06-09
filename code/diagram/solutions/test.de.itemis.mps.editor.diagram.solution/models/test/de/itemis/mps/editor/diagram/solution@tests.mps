@@ -412,7 +412,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="5kFTseQQT1w">
-    <property role="2XOHcw" value="${extensions.home}/code" />
+    <property role="2XOHcw" value="${extensions.home}/code/diagram" />
   </node>
   <node concept="LiM7Y" id="5kFTseQQT1H">
     <property role="TrG5h" value="Activity_ReadSync" />

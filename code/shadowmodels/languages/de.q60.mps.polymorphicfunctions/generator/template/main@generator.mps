@@ -40,7 +40,6 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY" />
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -2535,7 +2534,16 @@
       <node concept="2OqwBi" id="7UiFD3ldtsQ" role="33vP2m">
         <node concept="1bVj0M" id="7UiFD3ldtah" role="2Oq$k0">
           <node concept="3clFbS" id="7UiFD3ldtak" role="1bW5cS">
-            <node concept="SfApY" id="7UiFD3ldtJT" role="3cqZAp">
+            <node concept="3J1_TO" id="7UiFD3ldtJT" role="3cqZAp">
+              <node concept="3clFbS" id="7UiFD3ldtJV" role="1zxBo7">
+                <node concept="3cpWs6" id="7UiFD3ldtgh" role="3cqZAp">
+                  <node concept="2ShNRf" id="7UiFD3ldtgj" role="3cqZAk">
+                    <node concept="1pGfFk" id="7UiFD3ldtgk" role="2ShVmc">
+                      <ref role="37wK5l" node="3jJoUQ70o_Q" resolve="map_PolymorphicFunctionsModule" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3uVAMA" id="7UiFD3ldtJW" role="1zxBo5">
                 <node concept="XOnhg" id="7UiFD3ldtJY" role="1zc67B">
                   <property role="3TUv4t" value="false" />
@@ -2569,15 +2577,6 @@
                   <node concept="YS8fn" id="7UiFD3ldtYZ" role="3cqZAp">
                     <node concept="37vLTw" id="7UiFD3ldujR" role="YScLw">
                       <ref role="3cqZAo" node="7UiFD3ldtJY" resolve="ex" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbS" id="7UiFD3ldtJV" role="1zxBo7">
-                <node concept="3cpWs6" id="7UiFD3ldtgh" role="3cqZAp">
-                  <node concept="2ShNRf" id="7UiFD3ldtgj" role="3cqZAk">
-                    <node concept="1pGfFk" id="7UiFD3ldtgk" role="2ShVmc">
-                      <ref role="37wK5l" node="3jJoUQ70o_Q" resolve="map_PolymorphicFunctionsModule" />
                     </node>
                   </node>
                 </node>
@@ -3451,37 +3450,7 @@
       <node concept="2OqwBi" id="7UiFD3l5rE2" role="33vP2m">
         <node concept="1bVj0M" id="7UiFD3l5r1z" role="2Oq$k0">
           <node concept="3clFbS" id="7UiFD3l5r21" role="1bW5cS">
-            <node concept="SfApY" id="7UiFD3l5sFO" role="3cqZAp">
-              <node concept="3uVAMA" id="7UiFD3l5sFR" role="1zxBo5">
-                <node concept="XOnhg" id="7UiFD3l5sFT" role="1zc67B">
-                  <property role="TrG5h" value="ex" />
-                  <node concept="nSUau" id="3E1RwY3NdeO" role="1tU5fm">
-                    <node concept="3uibUv" id="7UiFD3l5t_j" role="nSUat">
-                      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbS" id="7UiFD3l5sFX" role="1zc67A">
-                  <node concept="RRSsy" id="7UiFD3l5u4x" role="3cqZAp">
-                    <property role="RRSoG" value="gZ5fh_4/error" />
-                    <node concept="Xl_RD" id="7UiFD3l5u4z" role="RRSoy">
-                      <property role="Xl_RC" value="Failed to initialize polymorphic functions modules" />
-                    </node>
-                    <node concept="37vLTw" id="7UiFD3l5u4_" role="RRSow">
-                      <ref role="3cqZAo" node="7UiFD3l5sFT" resolve="ex" />
-                    </node>
-                  </node>
-                  <node concept="3cpWs6" id="7UiFD3l5uk9" role="3cqZAp">
-                    <node concept="2ShNRf" id="7UiFD3l5viX" role="3cqZAk">
-                      <node concept="Tc6Ow" id="7UiFD3l5wAJ" role="2ShVmc">
-                        <node concept="3uibUv" id="7UiFD3l5$XU" role="HW$YZ">
-                          <ref role="3uigEE" to="od2j:3jJoUQ6YtbP" resolve="PFModule" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="3J1_TO" id="7UiFD3l5sFO" role="3cqZAp">
               <node concept="3clFbS" id="7UiFD3l5sFQ" role="1zxBo7">
                 <node concept="3cpWs6" id="7UiFD3l5sfO" role="3cqZAp">
                   <node concept="2ShNRf" id="7UiFD3l5sfQ" role="3cqZAk">
@@ -3542,6 +3511,36 @@
                               </node>
                             </node>
                           </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3uVAMA" id="7UiFD3l5sFR" role="1zxBo5">
+                <node concept="XOnhg" id="7UiFD3l5sFT" role="1zc67B">
+                  <property role="TrG5h" value="ex" />
+                  <node concept="nSUau" id="3E1RwY3NdeO" role="1tU5fm">
+                    <node concept="3uibUv" id="7UiFD3l5t_j" role="nSUat">
+                      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbS" id="7UiFD3l5sFX" role="1zc67A">
+                  <node concept="RRSsy" id="7UiFD3l5u4x" role="3cqZAp">
+                    <property role="RRSoG" value="gZ5fh_4/error" />
+                    <node concept="Xl_RD" id="7UiFD3l5u4z" role="RRSoy">
+                      <property role="Xl_RC" value="Failed to initialize polymorphic functions modules" />
+                    </node>
+                    <node concept="37vLTw" id="7UiFD3l5u4_" role="RRSow">
+                      <ref role="3cqZAo" node="7UiFD3l5sFT" resolve="ex" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="7UiFD3l5uk9" role="3cqZAp">
+                    <node concept="2ShNRf" id="7UiFD3l5viX" role="3cqZAk">
+                      <node concept="Tc6Ow" id="7UiFD3l5wAJ" role="2ShVmc">
+                        <node concept="3uibUv" id="7UiFD3l5$XU" role="HW$YZ">
+                          <ref role="3uigEE" to="od2j:3jJoUQ6YtbP" resolve="PFModule" />
                         </node>
                       </node>
                     </node>

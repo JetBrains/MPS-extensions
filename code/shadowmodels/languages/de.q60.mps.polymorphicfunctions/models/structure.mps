@@ -287,7 +287,7 @@
     </node>
     <node concept="1TJgyj" id="2Vy1$4MSk5P" role="1TKVEi">
       <property role="IQ2ns" value="3378269547577557365" />
-      <property role="20kJfa" value="groupDeclaration" />
+      <property role="20kJfa" value="contextDeclaration" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2Vy1$4MSjLH" resolve="ContextDeclaration" />
     </node>
@@ -331,7 +331,7 @@
     <node concept="1TJgyj" id="2Vy1$4MVY6$" role="1TKVEi">
       <property role="IQ2ns" value="3378269547578515876" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="groupParameterValues" />
+      <property role="20kJfa" value="contextParameterValues" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
@@ -344,7 +344,7 @@
     </node>
     <node concept="1TJgyj" id="2Vy1$4MVY6v" role="1TKVEi">
       <property role="IQ2ns" value="3378269547578515871" />
-      <property role="20kJfa" value="group" />
+      <property role="20kJfa" value="contextDecl" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2Vy1$4MSjLH" resolve="ContextDeclaration" />
     </node>
@@ -433,6 +433,24 @@
     </node>
     <node concept="PrWs8" id="6EfR$DZQmRn" role="PzmwI">
       <ref role="PrY4T" node="6EfR$DZNxfz" resolve="IPriorityGroupRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="476rsMJe06F">
+    <property role="EcuMT" value="4739596383734464939" />
+    <property role="TrG5h" value="PriorityGroupCall" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="476rsMJe06H" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547578515873" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="476rsMJe06I" role="1TKVEi">
+      <property role="IQ2ns" value="3378269547578515871" />
+      <property role="20kJfa" value="groupDecl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6EfR$DZOlfp" resolve="PriorityGroupDeclaration" />
     </node>
   </node>
 </model>

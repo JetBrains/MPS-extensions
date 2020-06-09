@@ -225,7 +225,7 @@
                   </node>
                 </node>
                 <node concept="13MTOL" id="2Vy1$4MWBuY" role="2OqNvi">
-                  <ref role="13MTZf" to="bx8c:2Vy1$4MVY6v" resolve="group" />
+                  <ref role="13MTZf" to="bx8c:2Vy1$4MVY6v" resolve="contextDecl" />
                 </node>
               </node>
               <node concept="3QWeyG" id="2Vy1$4MWDoO" role="2OqNvi">
@@ -563,7 +563,7 @@
                                             </node>
                                           </node>
                                           <node concept="3TrEf2" id="1rUziX7SGiH" role="2OqNvi">
-                                            <ref role="3Tt5mk" to="bx8c:2Vy1$4MSk5P" resolve="groupDeclaration" />
+                                            <ref role="3Tt5mk" to="bx8c:2Vy1$4MSk5P" resolve="contextDeclaration" />
                                           </node>
                                         </node>
                                         <node concept="3TrcHB" id="1rUziX7SIii" role="2OqNvi">
@@ -850,7 +850,7 @@
                 </node>
               </node>
               <node concept="13MTOL" id="2Vy1$4MUALW" role="2OqNvi">
-                <ref role="13MTZf" to="bx8c:2Vy1$4MSk5P" resolve="groupDeclaration" />
+                <ref role="13MTZf" to="bx8c:2Vy1$4MSk5P" resolve="contextDeclaration" />
               </node>
             </node>
             <node concept="1VAtEI" id="2Vy1$4MUBE7" role="2OqNvi" />
@@ -983,6 +983,25 @@
         </node>
       </node>
       <node concept="10P_77" id="4j3vk5Z66eN" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="476rsMJe0$A">
+    <ref role="13h7C2" to="bx8c:476rsMJe06F" resolve="PriorityGroupCall" />
+    <node concept="13i0hz" id="476rsMJe0_m" role="13h7CS">
+      <property role="TrG5h" value="isLegalAsStatement" />
+      <ref role="13i0hy" to="tpek:i26MfYG" resolve="isLegalAsStatement" />
+      <node concept="3Tm1VV" id="476rsMJe0_n" role="1B3o_S" />
+      <node concept="3clFbS" id="476rsMJe0_o" role="3clF47">
+        <node concept="3clFbF" id="476rsMJe0_p" role="3cqZAp">
+          <node concept="3clFbT" id="476rsMJe0_q" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="476rsMJe0_r" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="476rsMJe0$B" role="13h7CW">
+      <node concept="3clFbS" id="476rsMJe0$C" role="2VODD2" />
     </node>
   </node>
 </model>

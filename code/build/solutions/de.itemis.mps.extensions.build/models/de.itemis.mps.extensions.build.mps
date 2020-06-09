@@ -4712,8 +4712,8 @@
       <node concept="m$_yC" id="3bNiYZ6W4aO" role="m$_yJ">
         <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
       </node>
-      <node concept="m$_yC" id="2OJNL7ElRJ3" role="m$_yJ">
-        <ref role="m$_y1" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
+      <node concept="m$_yC" id="2OJNL7Em2Hd" role="m$_yJ">
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
       </node>
       <node concept="3_J27D" id="4be$WTb1MZK" role="m_cZH">
         <node concept="3Mxwew" id="4be$WTb1MZL" role="3MwsjC">
@@ -8413,6 +8413,9 @@
       <node concept="m$_yC" id="7WTFIQHH9th" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
       </node>
+      <node concept="m$_yC" id="2OJNL7Em1P5" role="m$_yJ">
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
+      </node>
       <node concept="2pNNFK" id="v49lXF871_" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF878$" role="3o6s8t">
@@ -8427,6 +8430,30 @@
         <node concept="3Mxwew" id="2QgPOUCDi4e" role="3MwsjC">
           <property role="3MwjfP" value="A shadow model is a non-editable model derived from existing models by model-to-model transformations. It is incrementally maintained while editing the input model. Transformations are described in a special language designed to support incremental updates of the output model. Dynamic dependency tracking is used during the executing of the transformations which removes the need for a declarative language. BaseLanguage expressions with all its extensions are supported inside the transformation rules. The transformation language is similar to the MPS generator language. It has transformation rules with a left side that describes the input it applies to and a right side that creates the output. The right side is similar to light quotations instead of using the concrete syntax of the target language. " />
         </node>
+      </node>
+    </node>
+    <node concept="m$_wf" id="2OJNL7ElZsF" role="3989C9">
+      <property role="m$_wk" value="de.q60.mps.libs" />
+      <node concept="3_J27D" id="2OJNL7ElZsH" role="m$_yQ">
+        <node concept="3Mxwew" id="2OJNL7Em1i6" role="3MwsjC">
+          <property role="3MwjfP" value="de.q60.mps.libs" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="2OJNL7ElZsJ" role="m_cZH">
+        <node concept="3Mxwew" id="2OJNL7Em1i8" role="3MwsjC">
+          <property role="3MwjfP" value="de.60.mps.libs" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="2OJNL7ElZsL" role="m$_w8">
+        <node concept="3Mxwew" id="2OJNL7Em1p7" role="3MwsjC">
+          <property role="3MwjfP" value="2020.1.0" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="2OJNL7Em1w6" role="m$_yh">
+        <ref role="m$f5T" node="2OJNL7ElSUK" resolve="de.q60.mps.libs" />
+      </node>
+      <node concept="m$_yC" id="2OJNL7Em1B5" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
     </node>
     <node concept="m$_wf" id="BRK1N8p1BI" role="3989C9">
@@ -9398,163 +9425,6 @@
               </node>
             </node>
             <node concept="3qWCbU" id="2eucapX086m" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1E1JtA" id="6fQhGuklQWU" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.q60.mps.libs" />
-        <property role="3LESm3" value="ecfb9949-7433-4db5-85de-0f84d172e4ce" />
-        <node concept="398BVA" id="6fQhGuklR81" role="3LF7KH">
-          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-          <node concept="2Ry0Ak" id="6fQhGuklRkp" role="iGT6I">
-            <property role="2Ry0Am" value="shadowmodels" />
-            <node concept="2Ry0Ak" id="6fQhGuklRwK" role="2Ry0An">
-              <property role="2Ry0Am" value="solutions" />
-              <node concept="2Ry0Ak" id="6fQhGuklRH7" role="2Ry0An">
-                <property role="2Ry0Am" value="de.q60.mps.libs" />
-                <node concept="2Ry0Ak" id="6fQhGuklRTu" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.q60.mps.libs.msd" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6fQhGuklS5Z" role="3bR37C">
-          <node concept="1BurEX" id="6fQhGuklS60" role="1SiIV1">
-            <node concept="398BVA" id="6fQhGuklS5M" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6fQhGuklS5N" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="6fQhGuklS5O" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6fQhGuklS5P" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="6fQhGuklS5Q" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6fQhGuklS5R" role="2Ry0An">
-                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6fQhGuklS6e" role="3bR37C">
-          <node concept="1BurEX" id="6fQhGuklS6f" role="1SiIV1">
-            <node concept="398BVA" id="6fQhGuklS61" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6fQhGuklS62" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="6fQhGuklS63" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6fQhGuklS64" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="6fQhGuklS65" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6fQhGuklS66" role="2Ry0An">
-                        <property role="2Ry0Am" value="vavr-0.9.3.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="59804$yR$NJ" role="3bR37C">
-          <node concept="3bR9La" id="59804$yR$NK" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7qGGLAjRDFR" role="3bR37C">
-          <node concept="1BurEX" id="7qGGLAjRDFS" role="1SiIV1">
-            <node concept="398BVA" id="7qGGLAjRDFE" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7qGGLAjRDFF" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="7qGGLAjRDFG" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7qGGLAjRDFH" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="7qGGLAjRDFI" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="7qGGLAjRDFJ" role="2Ry0An">
-                        <property role="2Ry0Am" value="guava-27.1-jre.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2$MJqfj643u" role="3bR37C">
-          <node concept="1BurEX" id="2$MJqfj643v" role="1SiIV1">
-            <node concept="398BVA" id="2$MJqfj643h" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="2$MJqfj643i" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="2$MJqfj643j" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="2$MJqfj643k" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="2$MJqfj643l" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="2$MJqfj643m" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-collections4-4.4.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3rtmxn" id="5py4VqXmLJW" role="3bR31x">
-          <node concept="3LXTmp" id="5py4VqXmLJX" role="3rtmxm">
-            <node concept="3qWCbU" id="5py4VqXmLJY" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
-            <node concept="398BVA" id="5py4VqXmLJZ" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5py4VqXmLK0" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="5py4VqXmLK1" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5py4VqXmLK2" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="2eucapX087A" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="2eucapX087B" role="1HemKq">
-            <node concept="398BVA" id="2eucapX087r" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="2eucapX087s" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="2eucapX087t" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="2eucapX087u" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="2eucapX087v" role="2Ry0An">
-                      <property role="2Ry0Am" value="models" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="2eucapX087C" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -11179,6 +11049,166 @@
         </node>
       </node>
     </node>
+    <node concept="2G$12M" id="2OJNL7ElSUK" role="3989C9">
+      <property role="TrG5h" value="de.q60.mps.libs" />
+      <node concept="1E1JtA" id="6fQhGuklQWU" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.q60.mps.libs" />
+        <property role="3LESm3" value="ecfb9949-7433-4db5-85de-0f84d172e4ce" />
+        <node concept="398BVA" id="6fQhGuklR81" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="6fQhGuklRkp" role="iGT6I">
+            <property role="2Ry0Am" value="shadowmodels" />
+            <node concept="2Ry0Ak" id="6fQhGuklRwK" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="6fQhGuklRH7" role="2Ry0An">
+                <property role="2Ry0Am" value="de.q60.mps.libs" />
+                <node concept="2Ry0Ak" id="6fQhGuklRTu" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.q60.mps.libs.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fQhGuklS5Z" role="3bR37C">
+          <node concept="1BurEX" id="6fQhGuklS60" role="1SiIV1">
+            <node concept="398BVA" id="6fQhGuklS5M" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6fQhGuklS5N" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="6fQhGuklS5O" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6fQhGuklS5P" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                    <node concept="2Ry0Ak" id="6fQhGuklS5Q" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6fQhGuklS5R" role="2Ry0An">
+                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6fQhGuklS6e" role="3bR37C">
+          <node concept="1BurEX" id="6fQhGuklS6f" role="1SiIV1">
+            <node concept="398BVA" id="6fQhGuklS61" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6fQhGuklS62" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="6fQhGuklS63" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6fQhGuklS64" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                    <node concept="2Ry0Ak" id="6fQhGuklS65" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6fQhGuklS66" role="2Ry0An">
+                        <property role="2Ry0Am" value="vavr-0.9.3.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="59804$yR$NJ" role="3bR37C">
+          <node concept="3bR9La" id="59804$yR$NK" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7qGGLAjRDFR" role="3bR37C">
+          <node concept="1BurEX" id="7qGGLAjRDFS" role="1SiIV1">
+            <node concept="398BVA" id="7qGGLAjRDFE" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7qGGLAjRDFF" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="7qGGLAjRDFG" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="7qGGLAjRDFH" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                    <node concept="2Ry0Ak" id="7qGGLAjRDFI" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="7qGGLAjRDFJ" role="2Ry0An">
+                        <property role="2Ry0Am" value="guava-27.1-jre.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2$MJqfj643u" role="3bR37C">
+          <node concept="1BurEX" id="2$MJqfj643v" role="1SiIV1">
+            <node concept="398BVA" id="2$MJqfj643h" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2$MJqfj643i" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="2$MJqfj643j" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="2$MJqfj643k" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                    <node concept="2Ry0Ak" id="2$MJqfj643l" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="2$MJqfj643m" role="2Ry0An">
+                        <property role="2Ry0Am" value="commons-collections4-4.4.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="5py4VqXmLJW" role="3bR31x">
+          <node concept="3LXTmp" id="5py4VqXmLJX" role="3rtmxm">
+            <node concept="3qWCbU" id="5py4VqXmLJY" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="5py4VqXmLJZ" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5py4VqXmLK0" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="5py4VqXmLK1" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="5py4VqXmLK2" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="2eucapX087A" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2eucapX087B" role="1HemKq">
+            <node concept="398BVA" id="2eucapX087r" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2eucapX087s" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="2eucapX087t" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="2eucapX087u" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                    <node concept="2Ry0Ak" id="2eucapX087v" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2eucapX087C" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2G$12M" id="BRK1N8p1kg" role="3989C9">
       <property role="TrG5h" value="de.q60.shadowmodels.examples" />
       <node concept="1E1JtA" id="BRK1N8p1xv" role="2G$12L">
@@ -11978,6 +12008,10 @@
       </node>
       <node concept="m$_wl" id="1RCZH7X6nCV" role="39821P">
         <ref role="m_rDy" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
+        <node concept="pUk6x" id="3D0nl1ssJJY" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="2OJNL7Em24Q" role="39821P">
+        <ref role="m_rDy" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
         <node concept="398223" id="4_SQzDOofaX" role="39821P">
           <node concept="3_J27D" id="4_SQzDOofaY" role="Nbhlr">
             <node concept="3Mxwew" id="4_SQzDOofhn" role="3MwsjC">
@@ -12002,7 +12036,7 @@
             </node>
           </node>
         </node>
-        <node concept="pUk6x" id="3D0nl1ssJJY" role="pUk7w" />
+        <node concept="pUk6x" id="2OJNL7Em2kA" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="1RCZH7X6nZZ" role="39821P">
         <ref role="m_rDy" node="BRK1N8p1BI" resolve="de.q60.shadowmodels.examples" />

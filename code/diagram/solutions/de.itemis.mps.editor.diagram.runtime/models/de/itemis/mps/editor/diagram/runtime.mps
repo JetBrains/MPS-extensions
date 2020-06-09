@@ -76,7 +76,6 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat6" />
       </concept>
-      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY" />
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -436,25 +435,7 @@
             </node>
           </node>
         </node>
-        <node concept="SfApY" id="190K99K4lPo" role="3cqZAp">
-          <node concept="3uVAMA" id="190K99K4lPr" role="1zxBo5">
-            <node concept="XOnhg" id="190K99K4lPt" role="1zc67B">
-              <property role="3TUv4t" value="false" />
-              <property role="TrG5h" value="ex" />
-              <node concept="nSUau" id="ec_0wF9LvNX" role="1tU5fm">
-                <node concept="3uibUv" id="190K99K4lQ1" role="nSUat">
-                  <ref role="3uigEE" to="wyt6:~NumberFormatException" resolve="NumberFormatException" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbS" id="190K99K4lPx" role="1zc67A">
-              <node concept="3cpWs6" id="190K99K4psw" role="3cqZAp">
-                <node concept="37vLTw" id="4s$H8QXhPyJ" role="3cqZAk">
-                  <ref role="3cqZAo" node="4s$H8QXhLUp" resolve="defaultValue" />
-                </node>
-              </node>
-            </node>
-          </node>
+        <node concept="3J1_TO" id="190K99K4lPo" role="3cqZAp">
           <node concept="3clFbS" id="190K99K4lPq" role="1zxBo7">
             <node concept="3cpWs8" id="4s$H8QXhPA6" role="3cqZAp">
               <node concept="3cpWsn" id="4s$H8QXhPA7" role="3cpWs9">
@@ -499,6 +480,24 @@
             <node concept="3cpWs6" id="190K99K4owO" role="3cqZAp">
               <node concept="37vLTw" id="4s$H8QXhPAa" role="3cqZAk">
                 <ref role="3cqZAo" node="4s$H8QXhPA7" resolve="result" />
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="190K99K4lPr" role="1zxBo5">
+            <node concept="XOnhg" id="190K99K4lPt" role="1zc67B">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="ex" />
+              <node concept="nSUau" id="ec_0wF9LvNX" role="1tU5fm">
+                <node concept="3uibUv" id="190K99K4lQ1" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~NumberFormatException" resolve="NumberFormatException" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="190K99K4lPx" role="1zc67A">
+              <node concept="3cpWs6" id="190K99K4psw" role="3cqZAp">
+                <node concept="37vLTw" id="4s$H8QXhPyJ" role="3cqZAk">
+                  <ref role="3cqZAo" node="4s$H8QXhLUp" resolve="defaultValue" />
+                </node>
               </node>
             </node>
           </node>

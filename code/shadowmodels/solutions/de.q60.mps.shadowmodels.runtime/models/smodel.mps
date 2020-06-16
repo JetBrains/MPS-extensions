@@ -17790,6 +17790,12 @@
       <node concept="2AHcQZ" id="75046mlXNuR" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="37vLTG" id="3wfVII_2MiD" role="3clF46">
+        <property role="TrG5h" value="report" />
+        <node concept="3uibUv" id="3wfVII_2MiC" role="1tU5fm">
+          <ref role="3uigEE" to="w1kc:~SReference$ProblemReporter" resolve="SReference.ProblemReporter" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="75046mm0h5T">

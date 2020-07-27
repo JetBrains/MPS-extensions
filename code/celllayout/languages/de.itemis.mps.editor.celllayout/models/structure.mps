@@ -11,6 +11,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
@@ -33,6 +36,7 @@
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
@@ -41,6 +45,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -228,6 +233,9 @@
     <property role="34LRSv" value="font-family" />
     <property role="EcuMT" value="4682418030829299311" />
     <ref role="1TJDcQ" node="43ViAfTtx6N" resolve="StringStyle" />
+    <node concept="asaX9" id="3ATi8gIuxUi" role="lGtFl">
+      <property role="YLQ7P" value="Use the style provided by MPS" />
+    </node>
   </node>
   <node concept="1TIwiD" id="UMPeQjocXB">
     <property role="TrG5h" value="GridLayoutColumnSpanStyle" />
@@ -261,6 +269,25 @@
     <property role="34LRSv" value="vertical-line-color" />
     <property role="3GE5qa" value="lines" />
     <ref role="1TJDcQ" node="2nutuZsLvZ1" resolve="ColorStyle" />
+  </node>
+  <node concept="1TIwiD" id="3ATi8gIpzut">
+    <property role="EcuMT" value="4159435463404697501" />
+    <property role="TrG5h" value="GridLayoutWithFlattenSupport" />
+    <property role="34LRSv" value="vertical grid (with flatten support)" />
+    <ref role="1TJDcQ" to="tpc2:g6iR17a" resolve="CellLayout" />
+  </node>
+  <node concept="1TIwiD" id="3ATi8gIrB$_">
+    <property role="EcuMT" value="4159435463405238565" />
+    <property role="TrG5h" value="TopDownLayoutCell" />
+    <property role="34LRSv" value="topDownLayout" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="3ATi8gIrB$A" role="1TKVEi">
+      <property role="IQ2ns" value="4159435463405238566" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="childCell" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
   </node>
 </model>
 

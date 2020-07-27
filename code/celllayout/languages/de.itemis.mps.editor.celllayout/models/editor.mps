@@ -18,6 +18,7 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
+      <concept id="7418278005949660372" name="jetbrains.mps.lang.editor.structure.FontFamilyStyleClassItem" flags="ln" index="2biZxu" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
@@ -40,9 +41,13 @@
       <concept id="1164914519156" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceNode_CustomNodeConcept" flags="ng" index="UkePV">
         <reference id="1164914727930" name="replacementConcept" index="Ul1FP" />
       </concept>
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
       <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
+      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -543,6 +548,7 @@
             </node>
           </node>
         </node>
+        <node concept="2biZxu" id="3ATi8gIuymq" role="3F10Kt" />
       </node>
       <node concept="3F0ifn" id="641A4deYuaK" role="3EZMnx">
         <property role="3F0ifm" value="null" />
@@ -666,6 +672,21 @@
         <property role="VOm3f" value="false" />
       </node>
       <node concept="2iRkQZ" id="7d0q5VH9fhb" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3ATi8gIrB_2">
+    <ref role="1XX52x" to="pvux:3ATi8gIrB$_" resolve="TopDownLayoutCell" />
+    <node concept="3EZMnI" id="3ATi8gIrB_4" role="2wV5jI">
+      <node concept="3F0ifn" id="3ATi8gIrB_b" role="3EZMnx">
+        <property role="3F0ifm" value="top-down-layout" />
+        <node concept="Veino" id="3ATi8gIrB_n" role="3F10Kt">
+          <property role="Vb096" value="fLJRk5_/gray" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="3ATi8gIrB_h" role="3EZMnx">
+        <ref role="1NtTu8" to="pvux:3ATi8gIrB$A" resolve="childCell" />
+      </node>
+      <node concept="2iRkQZ" id="3ATi8gIrB_7" role="2iSdaV" />
     </node>
   </node>
 </model>

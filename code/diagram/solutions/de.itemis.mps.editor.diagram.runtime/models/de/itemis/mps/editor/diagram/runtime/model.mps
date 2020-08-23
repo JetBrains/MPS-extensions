@@ -5046,8 +5046,11 @@
           <node concept="3Tqbb2" id="6uYu7myZ0E7" role="3rvQeY" />
           <node concept="3rvAFt" id="3fwTI8g7CXq" role="3rvSg0">
             <node concept="17QB3L" id="3fwTI8g7Ea7" role="3rvQeY" />
-            <node concept="3uibUv" id="3fwTI8g7Fjr" role="3rvSg0">
-              <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+            <node concept="3uibUv" id="4vToIcfzGza" role="3rvSg0">
+              <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+              <node concept="3uibUv" id="4vToIcfzIuH" role="11_B2D">
+                <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+              </node>
             </node>
           </node>
         </node>
@@ -5063,8 +5066,11 @@
             <node concept="3Tqbb2" id="6uYu7myZ1RA" role="3rvQeY" />
             <node concept="3rvAFt" id="3fwTI8g7Gxg" role="3rvSg0">
               <node concept="17QB3L" id="3fwTI8g7Gxh" role="3rvQeY" />
-              <node concept="3uibUv" id="3fwTI8g7Gxi" role="3rvSg0">
-                <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+              <node concept="3uibUv" id="4vToIcfzJXM" role="3rvSg0">
+                <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+                <node concept="3uibUv" id="4vToIcfzJXN" role="11_B2D">
+                  <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+                </node>
               </node>
             </node>
           </node>
@@ -5085,8 +5091,11 @@
               <node concept="3Tqbb2" id="6uYu7myZKd8" role="3rvQeY" />
               <node concept="3rvAFt" id="3fwTI8g854g" role="3rvSg0">
                 <node concept="17QB3L" id="3fwTI8g854h" role="3rvQeY" />
-                <node concept="3uibUv" id="3fwTI8g854i" role="3rvSg0">
-                  <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+                <node concept="3uibUv" id="4vToIcfzLfk" role="3rvSg0">
+                  <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+                  <node concept="3uibUv" id="4vToIcfzLfl" role="11_B2D">
+                    <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -5110,8 +5119,11 @@
                     <node concept="3Tqbb2" id="6uYu7myZMRU" role="3rHrn6" />
                     <node concept="3rvAFt" id="3fwTI8g87sa" role="3rHtpV">
                       <node concept="17QB3L" id="3fwTI8g87sb" role="3rvQeY" />
-                      <node concept="3uibUv" id="3fwTI8g87sc" role="3rvSg0">
-                        <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+                      <node concept="3uibUv" id="4vToIcfzMDk" role="3rvSg0">
+                        <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+                        <node concept="3uibUv" id="4vToIcfzMDl" role="11_B2D">
+                          <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -5160,8 +5172,11 @@
         <node concept="3Tqbb2" id="6uYu7myZobD" role="3rvQeY" />
         <node concept="3rvAFt" id="3fwTI8g85ZT" role="3rvSg0">
           <node concept="17QB3L" id="3fwTI8g85ZU" role="3rvQeY" />
-          <node concept="3uibUv" id="3fwTI8g85ZV" role="3rvSg0">
-            <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+          <node concept="3uibUv" id="4vToIcfzNDd" role="3rvSg0">
+            <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+            <node concept="3uibUv" id="4vToIcfzNDe" role="11_B2D">
+              <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+            </node>
           </node>
         </node>
       </node>
@@ -5188,8 +5203,11 @@
             </node>
             <node concept="3rvAFt" id="3fwTI8g8q6W" role="1tU5fm">
               <node concept="17QB3L" id="3fwTI8g8q6X" role="3rvQeY" />
-              <node concept="3uibUv" id="3fwTI8g8q6Y" role="3rvSg0">
-                <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+              <node concept="3uibUv" id="4vToIcfzP1m" role="3rvSg0">
+                <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+                <node concept="3uibUv" id="4vToIcfzP1n" role="11_B2D">
+                  <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+                </node>
               </node>
             </node>
           </node>
@@ -5202,8 +5220,11 @@
                   <node concept="1u7pXE" id="3fwTI8g87Ob" role="2ShVmc">
                     <ref role="1u7pXB" to="z8iw:3TJnG96iD$S" resolve="weakHashMap" />
                     <node concept="17QB3L" id="3fwTI8g8O66" role="3rHrn6" />
-                    <node concept="3uibUv" id="3fwTI8g8Om_" role="3rHtpV">
-                      <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+                    <node concept="3uibUv" id="4vToIcfzQbt" role="3rHtpV">
+                      <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+                      <node concept="3uibUv" id="4vToIcfzQbu" role="11_B2D">
+                        <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -5256,8 +5277,11 @@
       </node>
       <node concept="3rvAFt" id="3fwTI8g87Ou" role="3clF45">
         <node concept="17QB3L" id="3fwTI8g8k8i" role="3rvQeY" />
-        <node concept="3uibUv" id="3fwTI8g8lh5" role="3rvSg0">
-          <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+        <node concept="3uibUv" id="4vToIcfzRa9" role="3rvSg0">
+          <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+          <node concept="3uibUv" id="4vToIcfzRaa" role="11_B2D">
+            <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+          </node>
         </node>
       </node>
       <node concept="3Tm6S6" id="7GZDrCwNJkd" role="1B3o_S" />
@@ -5271,9 +5295,6 @@
         <node concept="3cpWs8" id="3fwTI8gbTEI" role="3cqZAp">
           <node concept="3cpWsn" id="3fwTI8gbTEJ" role="3cpWs9">
             <property role="TrG5h" value="instance" />
-            <node concept="3uibUv" id="3fwTI8gbTEE" role="1tU5fm">
-              <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
-            </node>
             <node concept="3EllGN" id="3fwTI8gbTEK" role="33vP2m">
               <node concept="37vLTw" id="3fwTI8gbTEL" role="3ElVtu">
                 <ref role="3cqZAo" node="3fwTI8g7$pk" resolve="cellId" />
@@ -5288,20 +5309,31 @@
                 </node>
               </node>
             </node>
+            <node concept="3uibUv" id="4vToIcfzSiQ" role="1tU5fm">
+              <ref role="3uigEE" to="mpcv:~WeakReference" resolve="WeakReference" />
+              <node concept="3uibUv" id="4vToIcfzSiR" role="11_B2D">
+                <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="3fwTI8gbU4s" role="3cqZAp">
           <node concept="3clFbS" id="3fwTI8gbU4v" role="3clFbx">
             <node concept="3clFbF" id="3fwTI8gbUmr" role="3cqZAp">
               <node concept="37vLTI" id="3fwTI8gbUqn" role="3clFbG">
-                <node concept="2ShNRf" id="3fwTI8gbUuC" role="37vLTx">
-                  <node concept="1pGfFk" id="3fwTI8gbUuB" role="2ShVmc">
-                    <ref role="37wK5l" node="27djZ8_ZTfQ" resolve="DiagramModel" />
-                    <node concept="37vLTw" id="3fwTI8gbUy_" role="37wK5m">
-                      <ref role="3cqZAo" node="6uYu7mz0e8Z" resolve="editorComponent" />
-                    </node>
-                    <node concept="37vLTw" id="3fwTI8gbUBf" role="37wK5m">
-                      <ref role="3cqZAo" node="27djZ8AjaNI" resolve="snode" />
+                <node concept="2ShNRf" id="4vToIcfzXqU" role="37vLTx">
+                  <node concept="1pGfFk" id="4vToIcf$e4s" role="2ShVmc">
+                    <ref role="37wK5l" to="mpcv:~WeakReference.&lt;init&gt;(java.lang.Object)" resolve="WeakReference" />
+                    <node concept="2ShNRf" id="3fwTI8gbUuC" role="37wK5m">
+                      <node concept="1pGfFk" id="3fwTI8gbUuB" role="2ShVmc">
+                        <ref role="37wK5l" node="27djZ8_ZTfQ" resolve="DiagramModel" />
+                        <node concept="37vLTw" id="3fwTI8gbUy_" role="37wK5m">
+                          <ref role="3cqZAo" node="6uYu7mz0e8Z" resolve="editorComponent" />
+                        </node>
+                        <node concept="37vLTw" id="3fwTI8gbUBf" role="37wK5m">
+                          <ref role="3cqZAo" node="27djZ8AjaNI" resolve="snode" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -5332,16 +5364,34 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbC" id="3fwTI8gbUfr" role="3clFbw">
-            <node concept="10Nm6u" id="3fwTI8gbUio" role="3uHU7w" />
-            <node concept="37vLTw" id="3fwTI8gbU9d" role="3uHU7B">
-              <ref role="3cqZAo" node="3fwTI8gbTEJ" resolve="instance" />
+          <node concept="22lmx$" id="4vToIcfzTnG" role="3clFbw">
+            <node concept="3clFbC" id="4vToIcfzVh$" role="3uHU7w">
+              <node concept="10Nm6u" id="4vToIcfzVo9" role="3uHU7w" />
+              <node concept="2OqwBi" id="4vToIcfzUqt" role="3uHU7B">
+                <node concept="37vLTw" id="4vToIcfzU11" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3fwTI8gbTEJ" resolve="instance" />
+                </node>
+                <node concept="liA8E" id="4vToIcfzV8X" role="2OqNvi">
+                  <ref role="37wK5l" to="mpcv:~Reference.get()" resolve="get" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="3fwTI8gbUfr" role="3uHU7B">
+              <node concept="37vLTw" id="3fwTI8gbU9d" role="3uHU7B">
+                <ref role="3cqZAo" node="3fwTI8gbTEJ" resolve="instance" />
+              </node>
+              <node concept="10Nm6u" id="3fwTI8gbUio" role="3uHU7w" />
             </node>
           </node>
         </node>
         <node concept="3cpWs6" id="3fwTI8gbVf1" role="3cqZAp">
-          <node concept="37vLTw" id="3fwTI8gbVxz" role="3cqZAk">
-            <ref role="3cqZAo" node="3fwTI8gbTEJ" resolve="instance" />
+          <node concept="2OqwBi" id="4vToIcfzVUB" role="3cqZAk">
+            <node concept="37vLTw" id="3fwTI8gbVxz" role="2Oq$k0">
+              <ref role="3cqZAo" node="3fwTI8gbTEJ" resolve="instance" />
+            </node>
+            <node concept="liA8E" id="4vToIcfzWKZ" role="2OqNvi">
+              <ref role="37wK5l" to="mpcv:~Reference.get()" resolve="get" />
+            </node>
           </node>
         </node>
       </node>
@@ -15449,8 +15499,8 @@
         </node>
         <node concept="3clFbF" id="2rPTijxgiFq" role="3cqZAp">
           <node concept="2YIFZM" id="2rPTijxgjOi" role="3clFbG">
-            <ref role="37wK5l" to="qxi4:4U82Y3z24x2" resolve="install" />
             <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
+            <ref role="37wK5l" to="qxi4:4U82Y3z24x2" resolve="installRecursive" />
             <node concept="Xjq3P" id="2rPTijxgkmg" role="37wK5m" />
           </node>
         </node>

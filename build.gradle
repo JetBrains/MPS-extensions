@@ -326,9 +326,9 @@ def releaseName
 def releaseTagName
 
 if (rootProject.hasProperty("nightly_build")) {
-    releaseName = 'Nighly Build ' + version
+    releaseName = 'Nightly Build ' + version
     releaseTagName = 'nightly-' + version
-    releaseNotes = """Automated Nighly build from ${LocalDateTime.now() as String}."""
+    releaseNotes = """Automated Nightly build from ${LocalDateTime.now() as String}."""
 } else {
     releaseNotes = rootProject.findProperty("releaseNotes")
     releaseTagName = 'release-' + version

@@ -48,7 +48,7 @@
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
         <child id="8118189177080264854" name="alternative" index="nSUat" />
       </concept>
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -179,7 +179,7 @@
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
-      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
@@ -224,7 +224,7 @@
         <child id="3378269547577556090" name="parameters" index="s0NCV" />
       </concept>
       <concept id="3378269547577557354" name="de.q60.mps.polymorphicfunctions.structure.ContextContainer" flags="ng" index="s0OsF">
-        <reference id="3378269547577557365" name="groupDeclaration" index="s0OsO" />
+        <reference id="3378269547577557365" name="contextDeclaration" index="s0OsO" />
         <child id="3378269547577558129" name="content" index="s0O8K" />
       </concept>
       <concept id="3378269547577557367" name="de.q60.mps.polymorphicfunctions.structure.ContextParameterDeclaration" flags="ng" index="s0OsQ">

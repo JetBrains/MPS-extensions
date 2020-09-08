@@ -77,8 +77,9 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2020.1'
-ext.mpsMinor = '6'
+ext.mpsMajor = '2020.2'
+ext.mpsMinor = '2'
+
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 
@@ -86,7 +87,7 @@ def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
 
 
-def minor = '1'
+def minor = '2'
 def major = '2020'
 
 if (ciBuild) {

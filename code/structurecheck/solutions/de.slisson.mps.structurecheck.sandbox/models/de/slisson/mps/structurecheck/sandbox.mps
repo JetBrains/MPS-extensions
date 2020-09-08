@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:cc9af6eb-7fec-4ac7-8865-77d3a8f6764c(de.slisson.mps.structurecheck.sandbox)" doNotGenerate="true">
+<model ref="r:cc9af6eb-7fec-4ac7-8865-77d3a8f6764c(de.slisson.mps.structurecheck.sandbox)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" name="de.slisson.mps.structurecheck" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -12,7 +13,7 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />

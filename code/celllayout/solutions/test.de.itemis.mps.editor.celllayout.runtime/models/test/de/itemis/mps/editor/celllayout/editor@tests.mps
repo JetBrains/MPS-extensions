@@ -194,10 +194,10 @@
       <concept id="492440529733466364" name="test.de.itemis.mps.editor.celllayout.lang.structure.TestCase_DoNotGrow_orizontalInGrid" flags="ng" index="1T4jzL" />
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -239,7 +239,7 @@
               <node concept="3clFbF" id="rlw0Q08Qf1" role="3cqZAp">
                 <node concept="2YIFZM" id="rlw0Q08Qf2" role="3clFbG">
                   <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
-                  <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="install" />
+                  <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="installRecursive" />
                   <node concept="37vLTw" id="rlw0Q08Qf3" role="37wK5m">
                     <ref role="3cqZAo" node="rlw0Q08QeS" resolve="editorComponent" />
                   </node>
@@ -823,7 +823,7 @@
               <node concept="3clFbF" id="3VsAHGnX6qY" role="3cqZAp">
                 <node concept="2YIFZM" id="3VsAHGnX6qZ" role="3clFbG">
                   <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
-                  <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="install" />
+                  <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="installRecursive" />
                   <node concept="37vLTw" id="3VsAHGnX6r0" role="37wK5m">
                     <ref role="3cqZAo" node="3VsAHGnX6qP" resolve="editorComponent" />
                   </node>
@@ -3077,7 +3077,7 @@
               <node concept="3clFbF" id="5ivXze3aHh$" role="3cqZAp">
                 <node concept="2YIFZM" id="5ivXze3aHh_" role="3clFbG">
                   <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
-                  <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="install" />
+                  <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="installRecursive" />
                   <node concept="37vLTw" id="5ivXze3aHhA" role="37wK5m">
                     <ref role="3cqZAo" node="5ivXze3aHhr" resolve="editorComponent" />
                   </node>
@@ -13912,7 +13912,7 @@
               <node concept="3clFbF" id="1pn4Qu08Y1N" role="3cqZAp">
                 <node concept="2YIFZM" id="1pn4Qu08Y1O" role="3clFbG">
                   <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
-                  <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="install" />
+                  <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="installRecursive" />
                   <node concept="37vLTw" id="1pn4Qu08Y1P" role="37wK5m">
                     <ref role="3cqZAo" node="1pn4Qu08Y1G" resolve="editorComponent" />
                   </node>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:177eb048-3dca-4304-a6e6-342b50fbb5f8(de.q60.mps.shadowmodels.examples.input.entities)" doNotGenerate="true">
+<model ref="r:177eb048-3dca-4304-a6e6-342b50fbb5f8(de.q60.mps.shadowmodels.examples.input.entities)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="ca32b5fa-caea-4f97-9686-6f60d4d677d4" name="de.q60.mps.shadowmodels.examples.entities" version="0" />
   </languages>

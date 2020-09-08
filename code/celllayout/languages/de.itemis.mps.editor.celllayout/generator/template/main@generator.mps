@@ -31,7 +31,7 @@
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -1081,7 +1081,7 @@
           </node>
           <node concept="3clFbF" id="3ATi8gIrNpd" role="3cqZAp">
             <node concept="2YIFZM" id="3ATi8gIrNzz" role="3clFbG">
-              <ref role="37wK5l" to="qxi4:4U82Y3z24x2" resolve="install" />
+              <ref role="37wK5l" to="qxi4:4U82Y3z24x2" resolve="installRecursive" />
               <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
               <node concept="37vLTw" id="3ATi8gIrNTS" role="37wK5m">
                 <ref role="3cqZAo" node="2af7$rts$MM" resolve="editorCell" />

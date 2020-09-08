@@ -260,7 +260,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="6EfR$DZOkJ7" role="2OqNvi">
-                    <ref role="37wK5l" to="e9uj:2Vy1$4MUwYY" resolve="getGroups" />
+                    <ref role="37wK5l" to="e9uj:2Vy1$4MUwYY" resolve="getContexts" />
                   </node>
                 </node>
                 <node concept="13MTOL" id="2Vy1$4MVkZW" role="2OqNvi">

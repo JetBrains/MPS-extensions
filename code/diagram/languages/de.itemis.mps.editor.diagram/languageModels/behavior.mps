@@ -3746,5 +3746,59 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="4sEzlP8nhnA">
+    <ref role="13h7C2" to="2qld:4sEzlP8nhgF" resolve="Function_CanSetConnectionEndpoint" />
+    <node concept="13i0hz" id="4sEzlP8nhnL" role="13h7CS">
+      <property role="TrG5h" value="getParameterConcepts" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
+      <node concept="3Tm1VV" id="4sEzlP8nhnM" role="1B3o_S" />
+      <node concept="3clFbS" id="4sEzlP8nhnN" role="3clF47">
+        <node concept="3clFbF" id="4sEzlP8nhnO" role="3cqZAp">
+          <node concept="2ShNRf" id="4sEzlP8nhnP" role="3clFbG">
+            <node concept="Tc6Ow" id="4sEzlP8nhnQ" role="2ShVmc">
+              <node concept="3bZ5Sz" id="4sEzlP8nhnR" role="HW$YZ">
+                <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="35c_gC" id="4sEzlP8nhnS" role="HW$Y0">
+                <ref role="35c_gD" to="2qld:5qgNcfDn4ui" resolve="Parameter_Node" />
+              </node>
+              <node concept="35c_gC" id="4sEzlP8nhnT" role="HW$Y0">
+                <ref role="35c_gD" to="2qld:6TZrUONflrB" resolve="Parameter_TargetDiagramNode" />
+              </node>
+              <node concept="35c_gC" id="4sEzlP8nhnU" role="HW$Y0">
+                <ref role="35c_gD" to="2qld:4X6FKySlSoU" resolve="Parameter_TargetNode" />
+              </node>
+              <node concept="35c_gC" id="4sEzlP8nhnV" role="HW$Y0">
+                <ref role="35c_gD" to="2qld:1FlH1cK0tMB" resolve="Parameter_Port" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="4sEzlP8nhnW" role="3clF45">
+        <node concept="3bZ5Sz" id="4sEzlP8nhnX" role="_ZDj9">
+          <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="4sEzlP8nhnB" role="13h7CW">
+      <node concept="3clFbS" id="4sEzlP8nhnC" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4sEzlP8w0mJ" role="13h7CS">
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="4sEzlP8w0mN" role="1B3o_S" />
+      <node concept="3clFbS" id="4sEzlP8w0mP" role="3clF47">
+        <node concept="3clFbF" id="4sEzlP8w3s9" role="3cqZAp">
+          <node concept="2c44tf" id="4sEzlP8w3s7" role="3clFbG">
+            <node concept="10P_77" id="4sEzlP8w3tm" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4sEzlP8w0mQ" role="3clF45" />
+    </node>
+  </node>
 </model>
 

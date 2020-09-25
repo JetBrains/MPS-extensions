@@ -16068,6 +16068,30 @@
       <node concept="3Tm1VV" id="7jhYr4hF4nT" role="1B3o_S" />
       <node concept="3clFbS" id="7jhYr4hF4nU" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="4sEzlP8mK62" role="jymVt">
+      <property role="TrG5h" value="canWriteFrom" />
+      <node concept="37vLTG" id="4sEzlP8mK63" role="3clF46">
+        <property role="TrG5h" value="endpoint" />
+        <node concept="3uibUv" id="4sEzlP8mK64" role="1tU5fm">
+          <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
+        </node>
+      </node>
+      <node concept="10P_77" id="4sEzlP8n0Ji" role="3clF45" />
+      <node concept="3Tm1VV" id="4sEzlP8mK66" role="1B3o_S" />
+      <node concept="3clFbS" id="4sEzlP8mK67" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="4sEzlP8mK5W" role="jymVt">
+      <property role="TrG5h" value="canWriteTo" />
+      <node concept="37vLTG" id="4sEzlP8mK5X" role="3clF46">
+        <property role="TrG5h" value="endpoint" />
+        <node concept="3uibUv" id="4sEzlP8mK5Y" role="1tU5fm">
+          <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
+        </node>
+      </node>
+      <node concept="10P_77" id="4sEzlP8n0Uz" role="3clF45" />
+      <node concept="3Tm1VV" id="4sEzlP8mK60" role="1B3o_S" />
+      <node concept="3clFbS" id="4sEzlP8mK61" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="7jhYr4hF4mC" role="jymVt" />
     <node concept="3clFb_" id="7jhYr4hFq8W" role="jymVt">
       <property role="TrG5h" value="readAnchorPoints" />
@@ -25462,7 +25486,45 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="6Q0ZYbvGju2" role="jymVt" />
+    <node concept="3clFb_" id="4sEzlP8mU_v" role="jymVt">
+      <property role="TrG5h" value="canWriteFrom" />
+      <node concept="37vLTG" id="4sEzlP8mU_w" role="3clF46">
+        <property role="TrG5h" value="endpoint" />
+        <node concept="3uibUv" id="4sEzlP8mU_x" role="1tU5fm">
+          <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
+        </node>
+      </node>
+      <node concept="10P_77" id="4sEzlP8n3oe" role="3clF45" />
+      <node concept="3Tm1VV" id="4sEzlP8mU_z" role="1B3o_S" />
+      <node concept="3clFbS" id="4sEzlP8mU_A" role="3clF47">
+        <node concept="3clFbF" id="4sEzlP8n0oF" role="3cqZAp">
+          <node concept="3clFbT" id="4sEzlP8n0oE" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4sEzlP8mU_B" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="4sEzlP8mU_C" role="jymVt">
+      <property role="TrG5h" value="canWriteTo" />
+      <node concept="37vLTG" id="4sEzlP8mU_D" role="3clF46">
+        <property role="TrG5h" value="endpoint" />
+        <node concept="3uibUv" id="4sEzlP8mU_E" role="1tU5fm">
+          <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
+        </node>
+      </node>
+      <node concept="10P_77" id="4sEzlP8n6b9" role="3clF45" />
+      <node concept="3Tm1VV" id="4sEzlP8mU_G" role="1B3o_S" />
+      <node concept="3clFbS" id="4sEzlP8mU_J" role="3clF47">
+        <node concept="3clFbF" id="4sEzlP8n0$h" role="3cqZAp">
+          <node concept="3clFbT" id="4sEzlP8n0$g" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4sEzlP8mU_K" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4sEzlP8mRQ6" role="jymVt" />
     <node concept="3clFb_" id="6Q0ZYbvGjHK" role="jymVt">
       <property role="TrG5h" value="getStartShape" />
       <property role="1EzhhJ" value="false" />

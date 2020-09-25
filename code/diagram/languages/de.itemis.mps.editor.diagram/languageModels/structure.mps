@@ -1234,6 +1234,12 @@
       <property role="IQ2ns" value="9064581101900868073" />
       <ref role="20lvS9" node="5FQFTBpGi0H" resolve="IEndpointTarget" />
     </node>
+    <node concept="1TJgyj" id="4sEzlP8nhvW" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="canSetTarget" />
+      <property role="IQ2ns" value="5128066557500266492" />
+      <ref role="20lvS9" node="4sEzlP8nhgF" resolve="Function_CanSetConnectionEndpoint" />
+    </node>
     <node concept="1TJgyj" id="7sHDEc2ShEh" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="setTarget" />
@@ -2215,6 +2221,11 @@
     <node concept="PrWs8" id="6FffmPTa0vZ" role="PzmwI">
       <ref role="PrY4T" node="6uo2fN6gOXK" resolve="IShape" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="4sEzlP8nhgF">
+    <property role="TrG5h" value="Function_CanSetConnectionEndpoint" />
+    <property role="EcuMT" value="5128066557500265515" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

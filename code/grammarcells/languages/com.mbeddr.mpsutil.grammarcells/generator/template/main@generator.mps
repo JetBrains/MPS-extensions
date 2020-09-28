@@ -7388,6 +7388,15 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="1RK7yEgIb4U" role="3acgRq">
+      <ref role="30HIoZ" to="teg0:4qdNcHzYfBo" resolve="OptionalCell" />
+      <node concept="j$LIH" id="1RK7yEgItoh" role="1lVwrX">
+        <node concept="1lLz0L" id="1RK7yEgItok" role="1lHHLF">
+          <property role="1lMjX7" value="h1lM37o/error" />
+          <property role="1lLB17" value="Content of optional cell is not supported" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="bUwia" id="6oKG1kMy3o4">
     <property role="TrG5h" value="mc_actionsAspect" />

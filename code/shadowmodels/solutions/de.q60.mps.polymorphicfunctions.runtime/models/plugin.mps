@@ -34,6 +34,12 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
+      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
+        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
+      </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -76,6 +82,17 @@
             </node>
             <node concept="liA8E" id="6N6zH_i3FX$" role="2OqNvi">
               <ref role="37wK5l" to="od2j:4F4X830WXpi" resolve="dispose" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1YHUdwh8ICC" role="3cqZAp">
+          <node concept="2OqwBi" id="1YHUdwh8JaQ" role="3clFbG">
+            <node concept="10M0yZ" id="1YHUdwh8IP9" role="2Oq$k0">
+              <ref role="3cqZAo" to="od2j:1YHUdwh8IIb" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="od2j:1YHUdwh7QZG" resolve="ImplementationsFromPolyfunAspects" />
+            </node>
+            <node concept="liA8E" id="1YHUdwh8Jwc" role="2OqNvi">
+              <ref role="37wK5l" to="od2j:3zTK92KPneu" resolve="dispose" />
             </node>
           </node>
         </node>

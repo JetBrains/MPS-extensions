@@ -701,6 +701,14 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="5wo2$Nn4hZ8" role="jymVt">
+      <property role="TrG5h" value="newOwnerDiagram" />
+      <node concept="3Tm6S6" id="5wo2$Nn4hZ9" role="1B3o_S" />
+      <node concept="3uibUv" id="5wo2$Nn4kn2" role="1tU5fm">
+        <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+      </node>
+      <node concept="10Nm6u" id="5wo2$Nn4lXj" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="27djZ8A0Rsj" role="jymVt" />
     <node concept="3clFbW" id="7jhYr4hr4zZ" role="jymVt">
       <node concept="3cqZAl" id="7jhYr4hr4$1" role="3clF45" />
@@ -1806,6 +1814,44 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5lWUryyBNUJ" role="jymVt" />
+    <node concept="3clFb_" id="5wo2$Nn4ovv" role="jymVt">
+      <property role="TrG5h" value="setNewOwnerDiagram" />
+      <node concept="37vLTG" id="5wo2$Nn4vyv" role="3clF46">
+        <property role="TrG5h" value="diagram" />
+        <node concept="3uibUv" id="5wo2$Nn4xFY" role="1tU5fm">
+          <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5wo2$Nn4ovx" role="3clF45" />
+      <node concept="3Tm1VV" id="5wo2$Nn4ovy" role="1B3o_S" />
+      <node concept="3clFbS" id="5wo2$Nn4ovz" role="3clF47">
+        <node concept="3clFbF" id="5wo2$Nn4yLZ" role="3cqZAp">
+          <node concept="37vLTI" id="5wo2$Nn4$Kn" role="3clFbG">
+            <node concept="37vLTw" id="5wo2$Nn4_2L" role="37vLTx">
+              <ref role="3cqZAo" node="5wo2$Nn4vyv" resolve="diagram" />
+            </node>
+            <node concept="37vLTw" id="5wo2$Nn4yLY" role="37vLTJ">
+              <ref role="3cqZAo" node="5wo2$Nn4hZ8" resolve="newOwnerDiagram" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5wo2$Nn4_lE" role="jymVt" />
+    <node concept="3clFb_" id="5wo2$Nn4BGq" role="jymVt">
+      <property role="TrG5h" value="getNewOwnerDiagram" />
+      <node concept="3uibUv" id="5wo2$Nn4JFc" role="3clF45">
+        <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+      </node>
+      <node concept="3Tm1VV" id="5wo2$Nn4BGt" role="1B3o_S" />
+      <node concept="3clFbS" id="5wo2$Nn4BGu" role="3clF47">
+        <node concept="3clFbF" id="5wo2$Nn4LWd" role="3cqZAp">
+          <node concept="37vLTw" id="5wo2$Nn4LWc" role="3clFbG">
+            <ref role="3cqZAo" node="5wo2$Nn4hZ8" resolve="newOwnerDiagram" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="27djZ8_YaUp" role="1B3o_S" />
     <node concept="3uibUv" id="2JYLxR6nKFM" role="EKbjA">
       <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
@@ -16464,6 +16510,31 @@
       <node concept="3Tm1VV" id="1EGRR3nyMas" role="1B3o_S" />
       <node concept="3clFbS" id="1EGRR3nyMat" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="5wo2$NmWpDA" role="jymVt" />
+    <node concept="3clFb_" id="5wo2$NmWpJS" role="jymVt">
+      <property role="TrG5h" value="canChangeOwner" />
+      <node concept="37vLTG" id="5wo2$NmWq1u" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="3uibUv" id="5wo2$NmWqMA" role="1tU5fm">
+          <ref role="3uigEE" node="27djZ8_YaV_" resolve="IDiagramElement" />
+        </node>
+      </node>
+      <node concept="10P_77" id="5wo2$NmWrqn" role="3clF45" />
+      <node concept="3Tm1VV" id="5wo2$NmWpJV" role="1B3o_S" />
+      <node concept="3clFbS" id="5wo2$NmWpJW" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5wo2$NmWrr_" role="jymVt">
+      <property role="TrG5h" value="changeOwner" />
+      <node concept="37vLTG" id="5wo2$NmWrrA" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="3uibUv" id="5wo2$NmWrrB" role="1tU5fm">
+          <ref role="3uigEE" node="27djZ8_YaV_" resolve="IDiagramElement" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5wo2$Nn2dHx" role="3clF45" />
+      <node concept="3Tm1VV" id="5wo2$NmWrrD" role="1B3o_S" />
+      <node concept="3clFbS" id="5wo2$NmWrrE" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="4teJTSBwQIo" role="1B3o_S" />
     <node concept="3uibUv" id="30bR1EZg80J" role="3HQHJm">
       <ref role="3uigEE" node="30bR1EZfSRl" resolve="IAccessor" />
@@ -20176,6 +20247,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5wo2$Nn5h2H" role="3cqZAp">
+          <node concept="2OqwBi" id="5wo2$Nn5hMe" role="3clFbG">
+            <node concept="37vLTw" id="5wo2$Nn5h2F" role="2Oq$k0">
+              <ref role="3cqZAo" node="7jhYr4hs86b" resolve="element" />
+            </node>
+            <node concept="liA8E" id="5wo2$Nn5ijb" role="2OqNvi">
+              <ref role="37wK5l" node="5wo2$Nn4ovv" resolve="setNewOwnerDiagram" />
+              <node concept="10Nm6u" id="5wo2$Nn5iW1" role="37wK5m" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="7jhYr4hs869" role="3clF46">
         <property role="TrG5h" value="accessor" />
@@ -20298,6 +20380,44 @@
               <ref role="37wK5l" node="D0N6Djtw4Y" resolve="writeLayout" />
               <node concept="37vLTw" id="D0N6DjwXSn" role="37wK5m">
                 <ref role="3cqZAo" node="4H2wsEjLe65" resolve="element" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5wo2$Nn5ghp" role="3cqZAp">
+          <node concept="3clFbS" id="5wo2$Nn5ghr" role="3clFbx">
+            <node concept="3clFbF" id="5wo2$Nn5m2x" role="3cqZAp">
+              <node concept="2OqwBi" id="5wo2$Nn5nRk" role="3clFbG">
+                <node concept="2OqwBi" id="5wo2$Nn5mVZ" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5wo2$Nn5med" role="2Oq$k0">
+                    <node concept="37vLTw" id="5wo2$Nn5m2w" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4H2wsEjLe65" resolve="element" />
+                    </node>
+                    <node concept="liA8E" id="5wo2$Nn5mqD" role="2OqNvi">
+                      <ref role="37wK5l" node="5wo2$Nn4BGq" resolve="getNewOwnerDiagram" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5wo2$Nn5n_c" role="2OqNvi">
+                    <ref role="37wK5l" node="lNQZNowrwP" resolve="getDiagramAccessor" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5wo2$Nn5oJ5" role="2OqNvi">
+                  <ref role="37wK5l" node="5wo2$NmWrr_" resolve="changeOwner" />
+                  <node concept="37vLTw" id="5wo2$Nn5oYf" role="37wK5m">
+                    <ref role="3cqZAo" node="4H2wsEjLe65" resolve="element" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5wo2$Nn5kdL" role="3clFbw">
+            <node concept="10Nm6u" id="5wo2$Nn5kux" role="3uHU7w" />
+            <node concept="2OqwBi" id="5wo2$Nn5jsp" role="3uHU7B">
+              <node concept="37vLTw" id="5wo2$Nn5jaV" role="2Oq$k0">
+                <ref role="3cqZAo" node="4H2wsEjLe65" resolve="element" />
+              </node>
+              <node concept="liA8E" id="5wo2$Nn5jE6" role="2OqNvi">
+                <ref role="37wK5l" node="5wo2$Nn4BGq" resolve="getNewOwnerDiagram" />
               </node>
             </node>
           </node>
@@ -27224,9 +27344,53 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="5wo2$NmYnoU" role="jymVt" />
     <node concept="3Tm1VV" id="63AkbuOFp4S" role="1B3o_S" />
     <node concept="3uibUv" id="63AkbuOFp5$" role="EKbjA">
       <ref role="3uigEE" node="4teJTSBwQIn" resolve="IDiagramAccessor" />
+    </node>
+    <node concept="3clFb_" id="5wo2$NmYmoV" role="jymVt">
+      <property role="TrG5h" value="canChangeOwner" />
+      <node concept="37vLTG" id="5wo2$NmYmoW" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="3uibUv" id="5wo2$NmYmoX" role="1tU5fm">
+          <ref role="3uigEE" node="27djZ8_YaV_" resolve="IDiagramElement" />
+        </node>
+      </node>
+      <node concept="10P_77" id="5wo2$NmYmoY" role="3clF45" />
+      <node concept="3Tm1VV" id="5wo2$NmYmoZ" role="1B3o_S" />
+      <node concept="3clFbS" id="5wo2$NmYmp1" role="3clF47">
+        <node concept="3clFbF" id="5wo2$NmYmp4" role="3cqZAp">
+          <node concept="3clFbT" id="5wo2$NmYmp3" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5wo2$NmYmp2" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5wo2$NmYnH2" role="jymVt" />
+    <node concept="3clFb_" id="5wo2$NmYmp5" role="jymVt">
+      <property role="TrG5h" value="changeOwner" />
+      <node concept="37vLTG" id="5wo2$NmYmp6" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="3uibUv" id="5wo2$NmYmp7" role="1tU5fm">
+          <ref role="3uigEE" node="27djZ8_YaV_" resolve="IDiagramElement" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5wo2$Nn2dle" role="3clF45" />
+      <node concept="3Tm1VV" id="5wo2$NmYmp9" role="1B3o_S" />
+      <node concept="3clFbS" id="5wo2$NmYmpb" role="3clF47">
+        <node concept="YS8fn" id="5wo2$NmYori" role="3cqZAp">
+          <node concept="2ShNRf" id="5wo2$NmYoB1" role="YScLw">
+            <node concept="1pGfFk" id="5wo2$NmYCSZ" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5wo2$NmYmpc" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="63AkbuPiu1I">

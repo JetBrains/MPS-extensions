@@ -132,6 +132,12 @@
       <property role="20kJfa" value="buttonConfig" />
       <ref role="20lvS9" node="5ZBOFE3vobP" resolve="DiagramButtonConfig" />
     </node>
+    <node concept="1TJgyj" id="5wo2$NmYE$b" role="1TKVEi">
+      <property role="IQ2ns" value="6347834999919257867" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ownerChangeHandler" />
+      <ref role="20lvS9" node="5wo2$NmYEwT" resolve="OwnerChangeHandler" />
+    </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="contentQuery" />
@@ -2226,6 +2232,52 @@
     <property role="TrG5h" value="Function_CanSetConnectionEndpoint" />
     <property role="EcuMT" value="5128066557500265515" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5wo2$NmYEwT">
+    <property role="EcuMT" value="6347834999919257657" />
+    <property role="TrG5h" value="OwnerChangeHandler" />
+    <property role="3GE5qa" value="parentChangeHandler" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5wo2$NmYEym" role="1TKVEi">
+      <property role="IQ2ns" value="6347834999919257750" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="canChange" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5wo2$NmYExo" resolve="Function_canChangeOwner" />
+    </node>
+    <node concept="1TJgyj" id="5wo2$NmYEyo" role="1TKVEi">
+      <property role="IQ2ns" value="6347834999919257752" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="change" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5wo2$NmYExR" resolve="Function_changeOwner" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5wo2$NmYExo">
+    <property role="EcuMT" value="6347834999919257688" />
+    <property role="3GE5qa" value="parentChangeHandler" />
+    <property role="TrG5h" value="Function_canChangeOwner" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5wo2$NmYExR">
+    <property role="EcuMT" value="6347834999919257719" />
+    <property role="3GE5qa" value="parentChangeHandler" />
+    <property role="TrG5h" value="Function_changeOwner" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5wo2$Nn8mao">
+    <property role="EcuMT" value="6347834999921795736" />
+    <property role="3GE5qa" value="parentChangeHandler" />
+    <property role="TrG5h" value="Parameter_changeOwner_elementNode" />
+    <property role="34LRSv" value="elementNode" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="5wo2$Nn8NJp">
+    <property role="EcuMT" value="6347834999921916889" />
+    <property role="3GE5qa" value="parentChangeHandler" />
+    <property role="TrG5h" value="Parameter_changeOwner_elementId" />
+    <property role="34LRSv" value="elementId" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

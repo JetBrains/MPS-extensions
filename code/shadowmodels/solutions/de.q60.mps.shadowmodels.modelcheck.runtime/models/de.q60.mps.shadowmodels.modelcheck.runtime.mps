@@ -316,7 +316,6 @@
       <concept id="1197686869805" name="jetbrains.mps.baseLanguage.collections.structure.HashMapCreator" flags="nn" index="3rGOSV">
         <child id="1197687026896" name="keyType" index="3rHrn6" />
         <child id="1197687035757" name="valueType" index="3rHtpV" />
-        <child id="1206655950512" name="initializer" index="3Mj9YC" />
       </concept>
       <concept id="1576845966386891367" name="jetbrains.mps.baseLanguage.collections.structure.CustomMapCreator" flags="nn" index="1u7pXE">
         <reference id="1576845966386891370" name="containerDeclaration" index="1u7pXB" />
@@ -328,13 +327,6 @@
         <child id="1197932525128" name="key" index="3ElVtu" />
       </concept>
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
-      <concept id="1206655653991" name="jetbrains.mps.baseLanguage.collections.structure.MapInitializer" flags="ng" index="3Mi1_Z">
-        <child id="1206655902276" name="entries" index="3MiYds" />
-      </concept>
-      <concept id="1206655735055" name="jetbrains.mps.baseLanguage.collections.structure.MapEntry" flags="ng" index="3Milgn">
-        <child id="1206655844556" name="key" index="3MiK7k" />
-        <child id="1206655853135" name="value" index="3MiMdn" />
-      </concept>
     </language>
   </registry>
   <node concept="312cEu" id="7uM3WAaqsWG">
@@ -2645,31 +2637,54 @@
       <node concept="3cqZAl" id="5Hdz5KYoKy8" role="3clF45" />
       <node concept="3Tm1VV" id="5Hdz5KYoKy9" role="1B3o_S" />
       <node concept="3clFbS" id="5Hdz5KYoKya" role="3clF47">
+        <node concept="3cpWs8" id="5Hdz5KYtwY6" role="3cqZAp">
+          <node concept="3cpWsn" id="5Hdz5KYtwY7" role="3cpWs9">
+            <property role="TrG5h" value="map" />
+            <node concept="3rvAFt" id="5Hdz5KYtwqb" role="1tU5fm">
+              <node concept="3uibUv" id="5Hdz5KYtwqm" role="3rvQeY">
+                <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
+              </node>
+              <node concept="_YKpA" id="5Hdz5KYtwqk" role="3rvSg0">
+                <node concept="3uibUv" id="5Hdz5KYtwql" role="_ZDj9">
+                  <ref role="3uigEE" node="7uM3WAasEYc" resolve="LiftedReportItem" />
+                </node>
+              </node>
+            </node>
+            <node concept="2ShNRf" id="5Hdz5KYtwY8" role="33vP2m">
+              <node concept="3rGOSV" id="5Hdz5KYtwY9" role="2ShVmc">
+                <node concept="3uibUv" id="5Hdz5KYtwYa" role="3rHrn6">
+                  <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
+                </node>
+                <node concept="_YKpA" id="5Hdz5KYtwYb" role="3rHtpV">
+                  <node concept="3uibUv" id="5Hdz5KYtwYc" role="_ZDj9">
+                    <ref role="3uigEE" node="7uM3WAasEYc" resolve="LiftedReportItem" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5Hdz5KYtxFu" role="3cqZAp">
+          <node concept="37vLTI" id="5Hdz5KYtz3H" role="3clFbG">
+            <node concept="37vLTw" id="5Hdz5KYtzm9" role="37vLTx">
+              <ref role="3cqZAo" node="5Hdz5KYoKy3" resolve="messages" />
+            </node>
+            <node concept="3EllGN" id="5Hdz5KYtyd9" role="37vLTJ">
+              <node concept="10Nm6u" id="5Hdz5KYtyqf" role="3ElVtu" />
+              <node concept="37vLTw" id="5Hdz5KYtxFs" role="3ElQJh">
+                <ref role="3cqZAo" node="5Hdz5KYtwY7" resolve="map" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5Hdz5KYoNci" role="3cqZAp">
           <node concept="1rXfSq" id="5Hdz5KYoNch" role="3clFbG">
             <ref role="37wK5l" node="3y5$AM6eHu$" resolve="putMessages" />
             <node concept="37vLTw" id="5Hdz5KYoNrm" role="37wK5m">
               <ref role="3cqZAo" node="5Hdz5KYoKy1" resolve="owner" />
             </node>
-            <node concept="2ShNRf" id="5Hdz5KYoPmi" role="37wK5m">
-              <node concept="3rGOSV" id="5Hdz5KYoPmj" role="2ShVmc">
-                <node concept="3uibUv" id="5Hdz5KYoPmk" role="3rHrn6">
-                  <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
-                </node>
-                <node concept="_YKpA" id="5Hdz5KYoPml" role="3rHtpV">
-                  <node concept="3uibUv" id="5Hdz5KYoPmm" role="_ZDj9">
-                    <ref role="3uigEE" node="7uM3WAasEYc" resolve="LiftedReportItem" />
-                  </node>
-                </node>
-                <node concept="3Mi1_Z" id="5Hdz5KYoPmn" role="3Mj9YC">
-                  <node concept="3Milgn" id="5Hdz5KYoPmo" role="3MiYds">
-                    <node concept="10Nm6u" id="5Hdz5KYoPmp" role="3MiK7k" />
-                    <node concept="37vLTw" id="5Hdz5KYoPmq" role="3MiMdn">
-                      <ref role="3cqZAo" node="5Hdz5KYoKy3" resolve="messages" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="37vLTw" id="5Hdz5KYtwYh" role="37wK5m">
+              <ref role="3cqZAo" node="5Hdz5KYtwY7" resolve="map" />
             </node>
           </node>
         </node>

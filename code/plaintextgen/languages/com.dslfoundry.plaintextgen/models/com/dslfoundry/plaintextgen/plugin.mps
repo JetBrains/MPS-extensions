@@ -2000,22 +2000,17 @@
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="pWUoI9h3mz" role="3clF47">
         <node concept="3cpWs6" id="pWUoI9h3Tx" role="3cqZAp">
-          <node concept="3cpWs3" id="4GbnmmUdYin" role="3cqZAk">
-            <node concept="37vLTw" id="71qbzSbCRVz" role="3uHU7w">
-              <ref role="3cqZAo" node="71qbzSbCQnU" resolve="lineEnding" />
+          <node concept="2OqwBi" id="pWUoI9h4Im" role="3cqZAk">
+            <node concept="1y4W85" id="pWUoI9h4um" role="2Oq$k0">
+              <node concept="37vLTw" id="pWUoI9h4w7" role="1y58nS">
+                <ref role="3cqZAo" node="pWUoI9h3BN" resolve="row" />
+              </node>
+              <node concept="37vLTw" id="pWUoI9h47u" role="1y566C">
+                <ref role="3cqZAo" node="pWUoI9gAX7" resolve="Matrix" />
+              </node>
             </node>
-            <node concept="2OqwBi" id="pWUoI9h4Im" role="3uHU7B">
-              <node concept="1y4W85" id="pWUoI9h4um" role="2Oq$k0">
-                <node concept="37vLTw" id="pWUoI9h4w7" role="1y58nS">
-                  <ref role="3cqZAo" node="pWUoI9h3BN" resolve="row" />
-                </node>
-                <node concept="37vLTw" id="pWUoI9h47u" role="1y566C">
-                  <ref role="3cqZAo" node="pWUoI9gAX7" resolve="Matrix" />
-                </node>
-              </node>
-              <node concept="liA8E" id="pWUoI9h4Zp" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
-              </node>
+            <node concept="liA8E" id="pWUoI9h4Zp" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~StringBuilder.toString()" resolve="toString" />
             </node>
           </node>
         </node>
@@ -2025,10 +2020,6 @@
       <node concept="37vLTG" id="pWUoI9h3BN" role="3clF46">
         <property role="TrG5h" value="row" />
         <node concept="10Oyi0" id="pWUoI9h3BM" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="71qbzSbCQnU" role="3clF46">
-        <property role="TrG5h" value="lineEnding" />
-        <node concept="17QB3L" id="71qbzSbCR5T" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="pWUoI9h5I4" role="jymVt" />

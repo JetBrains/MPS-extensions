@@ -15,6 +15,7 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -137,8 +138,10 @@
       <concept id="6009478650970401999" name="de.itemis.mps.selection.intentions.structure.Description" flags="ig" index="71TwL" />
       <concept id="6009478650970402176" name="de.itemis.mps.selection.intentions.structure.Parameter_Selection" flags="ng" index="71T_Y" />
       <concept id="6009478650970402162" name="de.itemis.mps.selection.intentions.structure.Execute" flags="ig" index="71TAc" />
+      <concept id="6009478650970402067" name="de.itemis.mps.selection.intentions.structure.IsApplicable" flags="ig" index="71TBH" />
       <concept id="6009478650970401247" name="de.itemis.mps.selection.intentions.structure.SelectionIntention" flags="ng" index="71TOx">
         <child id="6009478650970402171" name="execute" index="71TA5" />
+        <child id="6009478650970402167" name="isApplicable" index="71TA9" />
         <child id="6009478650970402164" name="description" index="71TAa" />
         <child id="6009478650970401248" name="selectionType" index="71TOu" />
       </concept>
@@ -166,6 +169,9 @@
       </concept>
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -1446,6 +1452,26 @@
         </node>
       </node>
     </node>
+    <node concept="71TBH" id="2LVmU6ayBEY" role="71TA9">
+      <node concept="3clFbS" id="2LVmU6ayBEZ" role="2VODD2">
+        <node concept="3clFbF" id="2LVmU6ayBF3" role="3cqZAp">
+          <node concept="2OqwBi" id="2LVmU6ayBF4" role="3clFbG">
+            <node concept="2OqwBi" id="2LVmU6ayBF5" role="2Oq$k0">
+              <node concept="71T_Y" id="2LVmU6ayBF6" role="2Oq$k0" />
+              <node concept="liA8E" id="2LVmU6ayBF7" role="2OqNvi">
+                <ref role="37wK5l" to="b8lf:~AbstractMultipleSelection.getFirstNode()" resolve="getFirstNode" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2LVmU6ayBF8" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="2LVmU6ayBF9" role="37wK5m">
+                <ref role="35c_gD" to="myiq:Z$zlZaZkvE" resolve="IText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="71TOx" id="9C_B26xhI8">
     <property role="TrG5h" value="SurroundListWithVertical" />
@@ -1542,6 +1568,26 @@
                   <property role="TrG5h" value="it" />
                   <node concept="2jxLKc" id="9C_B26xiGD" role="1tU5fm" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="71TBH" id="2LVmU6ayApS" role="71TA9">
+      <node concept="3clFbS" id="2LVmU6ayApT" role="2VODD2">
+        <node concept="3clFbF" id="2LVmU6auEj3" role="3cqZAp">
+          <node concept="2OqwBi" id="2LVmU6auEj4" role="3clFbG">
+            <node concept="2OqwBi" id="2LVmU6auEj5" role="2Oq$k0">
+              <node concept="71T_Y" id="2LVmU6auEj6" role="2Oq$k0" />
+              <node concept="liA8E" id="2LVmU6auEj7" role="2OqNvi">
+                <ref role="37wK5l" to="b8lf:~AbstractMultipleSelection.getFirstNode()" resolve="getFirstNode" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2LVmU6auEj8" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SNode.isInstanceOfConcept(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="isInstanceOfConcept" />
+              <node concept="35c_gC" id="2LVmU6auEj9" role="37wK5m">
+                <ref role="35c_gD" to="myiq:Z$zlZaZkvE" resolve="IText" />
               </node>
             </node>
           </node>

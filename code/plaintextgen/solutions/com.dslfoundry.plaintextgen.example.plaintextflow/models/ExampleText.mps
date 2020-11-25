@@ -28,6 +28,7 @@
       <concept id="1145195647825954788" name="com.dslfoundry.plaintextgen.structure.TextgenText" flags="ng" index="356sEV">
         <property id="7864085742459314155" name="encoding" index="17CCuU" />
         <property id="5407518469085446424" name="ext" index="3Le9LX" />
+        <property id="8095834124169899852" name="lineEnding" index="1VYW5M" />
         <child id="1145195647826100986" name="content" index="356KY_" />
       </concept>
       <concept id="1145195647826084325" name="com.dslfoundry.plaintextgen.structure.VerticalLines" flags="ng" index="356WMU" />
@@ -44,6 +45,7 @@
   <node concept="356sEV" id="3HMKjsyl1KJ">
     <property role="TrG5h" value="FlowExplained" />
     <property role="3Le9LX" value=".txt" />
+    <property role="1VYW5M" value="4CBE$H0KxTE/Native" />
     <node concept="356WMU" id="3HMKjsyl1KK" role="356KY_">
       <node concept="356sEK" id="3HMKjsyl1KL" role="383Ya9">
         <node concept="356sEF" id="3HMKjsyl1KM" role="356sEH">

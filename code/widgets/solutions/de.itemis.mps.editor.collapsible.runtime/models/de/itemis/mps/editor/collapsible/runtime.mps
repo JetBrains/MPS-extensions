@@ -2446,37 +2446,37 @@
         <node concept="3clFbH" id="7u6DabUE_Ux" role="3cqZAp" />
         <node concept="3clFbJ" id="7u6DabUAuTa" role="3cqZAp">
           <node concept="3clFbS" id="7u6DabUAuTc" role="3clFbx">
-            <node concept="1QHqEK" id="50fzH4x9gq7" role="3cqZAp">
-              <node concept="1QHqEC" id="50fzH4x9gq9" role="1QHqEI">
-                <node concept="3clFbS" id="50fzH4x9gqb" role="1bW5cS">
-                  <node concept="3SKdUt" id="50fzH4x9sDb" role="3cqZAp">
-                    <node concept="1PaTwC" id="7WTFIQIcYpd" role="1aUNEU">
-                      <node concept="3oM_SD" id="7WTFIQIcYpe" role="1PaTwD">
+            <node concept="1QHqEK" id="3DN21dy45Rn" role="3cqZAp">
+              <node concept="1QHqEC" id="3DN21dy45Ro" role="1QHqEI">
+                <node concept="3clFbS" id="3DN21dy45Rp" role="1bW5cS">
+                  <node concept="3SKdUt" id="3DN21dy45Rq" role="3cqZAp">
+                    <node concept="1PaTwC" id="3DN21dy45Rr" role="1aUNEU">
+                      <node concept="3oM_SD" id="3DN21dy45Rs" role="1PaTwD">
                         <property role="3oM_SC" value="remove/add" />
                       </node>
-                      <node concept="3oM_SD" id="7WTFIQIcYpf" role="1PaTwD">
+                      <node concept="3oM_SD" id="3DN21dy45Rt" role="1PaTwD">
                         <property role="3oM_SC" value="JComponents" />
                       </node>
-                      <node concept="3oM_SD" id="7WTFIQIcYpg" role="1PaTwD">
+                      <node concept="3oM_SD" id="3DN21dy45Ru" role="1PaTwD">
                         <property role="3oM_SC" value="from" />
                       </node>
-                      <node concept="3oM_SD" id="7WTFIQIcYph" role="1PaTwD">
+                      <node concept="3oM_SD" id="3DN21dy45Rv" role="1PaTwD">
                         <property role="3oM_SC" value="EditorCell_WithComponent's" />
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbF" id="50fzH4x8NG7" role="3cqZAp">
-                    <node concept="2OqwBi" id="50fzH4x8POF" role="3clFbG">
+                  <node concept="3clFbF" id="3DN21dy45Rw" role="3cqZAp">
+                    <node concept="2OqwBi" id="3DN21dy45Rx" role="3clFbG">
                       <node concept="37vLTw" id="7u6DabUA9zx" role="2Oq$k0">
                         <ref role="3cqZAo" node="50fzH4x8T$A" resolve="editorComponent" />
                       </node>
-                      <node concept="liA8E" id="50fzH4x8Tbs" role="2OqNvi">
+                      <node concept="liA8E" id="3DN21dy45Ry" role="2OqNvi">
                         <ref role="37wK5l" to="exr9:~EditorComponent.setRootCell(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="setRootCell" />
-                        <node concept="2OqwBi" id="50fzH4x8TiH" role="37wK5m">
+                        <node concept="2OqwBi" id="3DN21dy45Rz" role="37wK5m">
                           <node concept="37vLTw" id="7u6DabUA9V4" role="2Oq$k0">
                             <ref role="3cqZAo" node="50fzH4x8T$A" resolve="editorComponent" />
                           </node>
-                          <node concept="liA8E" id="50fzH4x8Ty2" role="2OqNvi">
+                          <node concept="liA8E" id="3DN21dy45R$" role="2OqNvi">
                             <ref role="37wK5l" to="exr9:~EditorComponent.getRootCell()" resolve="getRootCell" />
                           </node>
                         </node>
@@ -2489,12 +2489,12 @@
                 <ref role="37wK5l" node="5pN$eUoNzLK" resolve="repository" />
               </node>
             </node>
-            <node concept="3clFbF" id="48DYfEt8Fs7" role="3cqZAp">
-              <node concept="2OqwBi" id="48DYfEt8G74" role="3clFbG">
+            <node concept="3clFbF" id="3DN21dy45R_" role="3cqZAp">
+              <node concept="2OqwBi" id="3DN21dy45RA" role="3clFbG">
                 <node concept="37vLTw" id="7u6DabUAama" role="2Oq$k0">
                   <ref role="3cqZAo" node="50fzH4x8T$A" resolve="editorComponent" />
                 </node>
-                <node concept="liA8E" id="48DYfEt8IAw" role="2OqNvi">
+                <node concept="liA8E" id="3DN21dy45RB" role="2OqNvi">
                   <ref role="37wK5l" to="exr9:~EditorComponent.relayout()" resolve="relayout" />
                 </node>
               </node>

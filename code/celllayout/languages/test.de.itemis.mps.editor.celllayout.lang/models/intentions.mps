@@ -348,7 +348,7 @@
                                       <node concept="3clFbF" id="rlw0PZQYyy" role="3cqZAp">
                                         <node concept="2YIFZM" id="rlw0PZR1GI" role="3clFbG">
                                           <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
-                                          <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="install" />
+                                          <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="installRecursive" />
                                           <node concept="37vLTw" id="rlw0PZRH__" role="37wK5m">
                                             <ref role="3cqZAo" node="rlw0PZRH_z" resolve="editorComponent" />
                                           </node>
@@ -1417,7 +1417,7 @@
                                       <node concept="3clFbF" id="rlw0Q06IQY" role="3cqZAp">
                                         <node concept="2YIFZM" id="rlw0Q06IQZ" role="3clFbG">
                                           <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
-                                          <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="install" />
+                                          <ref role="37wK5l" to="qxi4:3oUU9KDF0DX" resolve="installRecursive" />
                                           <node concept="37vLTw" id="rlw0Q06IR0" role="37wK5m">
                                             <ref role="3cqZAo" node="rlw0Q06IQR" resolve="editorComponent" />
                                           </node>

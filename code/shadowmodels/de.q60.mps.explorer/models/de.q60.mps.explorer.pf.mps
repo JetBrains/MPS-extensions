@@ -224,7 +224,7 @@
         <child id="3378269547577556090" name="parameters" index="s0NCV" />
       </concept>
       <concept id="3378269547577557354" name="de.q60.mps.polymorphicfunctions.structure.ContextContainer" flags="ng" index="s0OsF">
-        <reference id="3378269547577557365" name="groupDeclaration" index="s0OsO" />
+        <reference id="3378269547577557365" name="contextDeclaration" index="s0OsO" />
         <child id="3378269547577558129" name="content" index="s0O8K" />
       </concept>
       <concept id="3378269547577557367" name="de.q60.mps.polymorphicfunctions.structure.ContextParameterDeclaration" flags="ng" index="s0OsQ">

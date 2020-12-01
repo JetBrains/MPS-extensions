@@ -1081,7 +1081,7 @@
           </node>
           <node concept="3clFbF" id="3ATi8gIrNpd" role="3cqZAp">
             <node concept="2YIFZM" id="3ATi8gIrNzz" role="3clFbG">
-              <ref role="37wK5l" to="qxi4:4U82Y3z24x2" resolve="install" />
+              <ref role="37wK5l" to="qxi4:4U82Y3z24x2" resolve="installRecursive" />
               <ref role="1Pybhc" to="qxi4:3Osd_yxgaDz" resolve="LayoutInterceptor" />
               <node concept="37vLTw" id="3ATi8gIrNTS" role="37wK5m">
                 <ref role="3cqZAo" node="2af7$rts$MM" resolve="editorCell" />

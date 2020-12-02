@@ -484,8 +484,8 @@
             </node>
             <node concept="2OqwBi" id="5lWcBwKeVbr" role="37vLTx">
               <node concept="2YIFZM" id="5lWcBwKeVbs" role="2Oq$k0">
-                <ref role="1Pybhc" node="3y5$AM6ewsq" resolve="LiftedMessagesCache" />
                 <ref role="37wK5l" node="3y5$AM6e_c9" resolve="getInstance" />
+                <ref role="1Pybhc" node="3y5$AM6ewsq" resolve="LiftedMessagesCache" />
               </node>
               <node concept="liA8E" id="5Hdz5KYk3vn" role="2OqNvi">
                 <ref role="37wK5l" node="5Hdz5KYjSuf" resolve="getChangeCountAndMessages" />
@@ -2527,7 +2527,7 @@
           </node>
           <node concept="_YKpA" id="5lWcBwKvsow" role="3rvSg0">
             <node concept="3uibUv" id="5lWcBwKvsVr" role="_ZDj9">
-              <ref role="3uigEE" node="7uM3WAasEYc" resolve="LiftedReportItem" />
+              <ref role="3uigEE" node="7uM3WAasEYc" />
             </node>
           </node>
         </node>
@@ -2543,7 +2543,7 @@
             </node>
             <node concept="_YKpA" id="3y5$AM6eMWN" role="3rvSg0">
               <node concept="3uibUv" id="3y5$AM6eMWO" role="_ZDj9">
-                <ref role="3uigEE" node="7uM3WAasEYc" resolve="LiftedReportItem" />
+                <ref role="3uigEE" node="7uM3WAasEYc" />
               </node>
             </node>
           </node>

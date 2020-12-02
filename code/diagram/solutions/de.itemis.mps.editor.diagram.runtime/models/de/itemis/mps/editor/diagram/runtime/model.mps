@@ -1814,6 +1814,10 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5lWUryyBNUJ" role="jymVt" />
+    <node concept="3Tm1VV" id="27djZ8_YaUp" role="1B3o_S" />
+    <node concept="3uibUv" id="2JYLxR6nKFM" role="EKbjA">
+      <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
+    </node>
     <node concept="3clFb_" id="5wo2$Nn4ovv" role="jymVt">
       <property role="TrG5h" value="setNewOwnerDiagram" />
       <node concept="37vLTG" id="5wo2$Nn4vyv" role="3clF46">
@@ -1851,10 +1855,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="3Tm1VV" id="27djZ8_YaUp" role="1B3o_S" />
-    <node concept="3uibUv" id="2JYLxR6nKFM" role="EKbjA">
-      <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
     </node>
   </node>
   <node concept="312cEu" id="27djZ8_YaVo">
@@ -16510,6 +16510,10 @@
       <node concept="3Tm1VV" id="1EGRR3nyMas" role="1B3o_S" />
       <node concept="3clFbS" id="1EGRR3nyMat" role="3clF47" />
     </node>
+    <node concept="3Tm1VV" id="4teJTSBwQIo" role="1B3o_S" />
+    <node concept="3uibUv" id="30bR1EZg80J" role="3HQHJm">
+      <ref role="3uigEE" node="30bR1EZfSRl" resolve="IAccessor" />
+    </node>
     <node concept="2tJIrI" id="5wo2$NmWpDA" role="jymVt" />
     <node concept="3clFb_" id="5wo2$NmWpJS" role="jymVt">
       <property role="TrG5h" value="canChangeOwner" />
@@ -16534,10 +16538,6 @@
       <node concept="3cqZAl" id="5wo2$Nn2dHx" role="3clF45" />
       <node concept="3Tm1VV" id="5wo2$NmWrrD" role="1B3o_S" />
       <node concept="3clFbS" id="5wo2$NmWrrE" role="3clF47" />
-    </node>
-    <node concept="3Tm1VV" id="4teJTSBwQIo" role="1B3o_S" />
-    <node concept="3uibUv" id="30bR1EZg80J" role="3HQHJm">
-      <ref role="3uigEE" node="30bR1EZfSRl" resolve="IAccessor" />
     </node>
   </node>
   <node concept="3HP615" id="4teJTSBx0$0">
@@ -27355,11 +27355,11 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="5wo2$NmYnoU" role="jymVt" />
     <node concept="3Tm1VV" id="63AkbuOFp4S" role="1B3o_S" />
     <node concept="3uibUv" id="63AkbuOFp5$" role="EKbjA">
       <ref role="3uigEE" node="4teJTSBwQIn" resolve="IDiagramAccessor" />
     </node>
+    <node concept="2tJIrI" id="5wo2$NmYnoU" role="jymVt" />
     <node concept="3clFb_" id="5wo2$NmYmoV" role="jymVt">
       <property role="TrG5h" value="canChangeOwner" />
       <node concept="37vLTG" id="5wo2$NmYmoW" role="3clF46">

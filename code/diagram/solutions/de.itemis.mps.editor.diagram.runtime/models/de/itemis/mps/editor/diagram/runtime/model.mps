@@ -106,7 +106,7 @@
         <child id="8118189177080264854" name="alternative" index="nSUat" />
       </concept>
       <concept id="1224500799915" name="jetbrains.mps.baseLanguage.structure.BitwiseXorExpression" flags="nn" index="pVQyQ" />
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1224573963862" name="jetbrains.mps.baseLanguage.structure.EnumValuesExpression" flags="nn" index="uiWXb">
         <reference id="1224573974191" name="enumClass" index="uiZuM" />
       </concept>
@@ -355,7 +355,7 @@
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
         <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
       </concept>
-      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="ng" index="3J1_TO">
+      <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367509" name="finallyClause" index="1zxBo6" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
@@ -517,10 +517,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -1814,6 +1814,10 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5lWUryyBNUJ" role="jymVt" />
+    <node concept="3Tm1VV" id="27djZ8_YaUp" role="1B3o_S" />
+    <node concept="3uibUv" id="2JYLxR6nKFM" role="EKbjA">
+      <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
+    </node>
     <node concept="3clFb_" id="5wo2$Nn4ovv" role="jymVt">
       <property role="TrG5h" value="setNewOwnerDiagram" />
       <node concept="37vLTG" id="5wo2$Nn4vyv" role="3clF46">
@@ -1851,10 +1855,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="3Tm1VV" id="27djZ8_YaUp" role="1B3o_S" />
-    <node concept="3uibUv" id="2JYLxR6nKFM" role="EKbjA">
-      <ref role="3uigEE" node="2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
     </node>
   </node>
   <node concept="312cEu" id="27djZ8_YaVo">
@@ -16510,6 +16510,10 @@
       <node concept="3Tm1VV" id="1EGRR3nyMas" role="1B3o_S" />
       <node concept="3clFbS" id="1EGRR3nyMat" role="3clF47" />
     </node>
+    <node concept="3Tm1VV" id="4teJTSBwQIo" role="1B3o_S" />
+    <node concept="3uibUv" id="30bR1EZg80J" role="3HQHJm">
+      <ref role="3uigEE" node="30bR1EZfSRl" resolve="IAccessor" />
+    </node>
     <node concept="2tJIrI" id="5wo2$NmWpDA" role="jymVt" />
     <node concept="3clFb_" id="5wo2$NmWpJS" role="jymVt">
       <property role="TrG5h" value="canChangeOwner" />
@@ -16534,10 +16538,6 @@
       <node concept="3cqZAl" id="5wo2$Nn2dHx" role="3clF45" />
       <node concept="3Tm1VV" id="5wo2$NmWrrD" role="1B3o_S" />
       <node concept="3clFbS" id="5wo2$NmWrrE" role="3clF47" />
-    </node>
-    <node concept="3Tm1VV" id="4teJTSBwQIo" role="1B3o_S" />
-    <node concept="3uibUv" id="30bR1EZg80J" role="3HQHJm">
-      <ref role="3uigEE" node="30bR1EZfSRl" resolve="IAccessor" />
     </node>
   </node>
   <node concept="3HP615" id="4teJTSBx0$0">
@@ -27355,11 +27355,11 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="5wo2$NmYnoU" role="jymVt" />
     <node concept="3Tm1VV" id="63AkbuOFp4S" role="1B3o_S" />
     <node concept="3uibUv" id="63AkbuOFp5$" role="EKbjA">
       <ref role="3uigEE" node="4teJTSBwQIn" resolve="IDiagramAccessor" />
     </node>
+    <node concept="2tJIrI" id="5wo2$NmYnoU" role="jymVt" />
     <node concept="3clFb_" id="5wo2$NmYmoV" role="jymVt">
       <property role="TrG5h" value="canChangeOwner" />
       <node concept="37vLTG" id="5wo2$NmYmoW" role="3clF46">

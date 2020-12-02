@@ -44,7 +44,6 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
-        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -286,10 +285,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -3682,7 +3681,6 @@
     </node>
     <node concept="13i0hz" id="3YGiJOY1y7C" role="13h7CS">
       <property role="TrG5h" value="getExpectedReturnType" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
       <node concept="3Tm1VV" id="3YGiJOY1y7G" role="1B3o_S" />
       <node concept="3clFbS" id="3YGiJOY1y7I" role="3clF47">
@@ -3698,7 +3696,6 @@
     </node>
     <node concept="13i0hz" id="3YGiJOY2lff" role="13h7CS">
       <property role="TrG5h" value="getParameterConcepts" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
       <node concept="3Tm1VV" id="3YGiJOY2lfn" role="1B3o_S" />
       <node concept="3clFbS" id="3YGiJOY2lfo" role="3clF47">
@@ -3860,6 +3857,32 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="5wo2$Nn8NKi">
+    <property role="3GE5qa" value="parentChangeHandler" />
+    <ref role="13h7C2" to="2qld:5wo2$Nn8NJp" resolve="Parameter_changeOwner_elementId" />
+    <node concept="13hLZK" id="5wo2$Nn8NKj" role="13h7CW">
+      <node concept="3clFbS" id="5wo2$Nn8NKk" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5wo2$Nn8NKV" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="5wo2$Nn8NKW" role="1B3o_S" />
+      <node concept="3clFbS" id="5wo2$Nn8NL1" role="3clF47">
+        <node concept="3clFbF" id="5wo2$Nn8NSf" role="3cqZAp">
+          <node concept="2ShNRf" id="5wo2$Nn8NSd" role="3clFbG">
+            <node concept="3zrR0B" id="5wo2$Nn8OtY" role="2ShVmc">
+              <node concept="3Tqbb2" id="5wo2$Nn8Ou0" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:hP7QB7G" resolve="StringType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="5wo2$Nn8NL2" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
   <node concept="13h7C7" id="5wo2$Nn8p07">
     <property role="3GE5qa" value="parentChangeHandler" />
     <ref role="13h7C2" to="2qld:5wo2$NmYExo" resolve="Function_canChangeOwner" />
@@ -3909,32 +3932,6 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="7QtHeDK7xG0" role="3clF45" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="5wo2$Nn8NKi">
-    <property role="3GE5qa" value="parentChangeHandler" />
-    <ref role="13h7C2" to="2qld:5wo2$Nn8NJp" resolve="Parameter_changeOwner_elementId" />
-    <node concept="13hLZK" id="5wo2$Nn8NKj" role="13h7CW">
-      <node concept="3clFbS" id="5wo2$Nn8NKk" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="5wo2$Nn8NKV" role="13h7CS">
-      <property role="TrG5h" value="getType" />
-      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
-      <node concept="3Tm1VV" id="5wo2$Nn8NKW" role="1B3o_S" />
-      <node concept="3clFbS" id="5wo2$Nn8NL1" role="3clF47">
-        <node concept="3clFbF" id="5wo2$Nn8NSf" role="3cqZAp">
-          <node concept="2ShNRf" id="5wo2$Nn8NSd" role="3clFbG">
-            <node concept="3zrR0B" id="5wo2$Nn8OtY" role="2ShVmc">
-              <node concept="3Tqbb2" id="5wo2$Nn8Ou0" role="3zrR0E">
-                <ref role="ehGHo" to="tpee:hP7QB7G" resolve="StringType" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="5wo2$Nn8NL2" role="3clF45">
-        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
-      </node>
     </node>
   </node>
 </model>

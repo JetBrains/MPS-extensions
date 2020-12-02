@@ -75,9 +75,6 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport_old" index="2OEOjV" />
-      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
@@ -1023,7 +1020,7 @@
                 <node concept="Xl_RD" id="7W7dK_Oc5Gq" role="2MkJ7o">
                   <property role="Xl_RC" value="This is ignored if a shape is specified" />
                 </node>
-                <node concept="2OqwBi" id="7W7dK_Oc5QT" role="2OEOjV">
+                <node concept="2OqwBi" id="7W7dK_Oc5QT" role="1urrMF">
                   <node concept="1YBJjd" id="7W7dK_Oc5I1" role="2Oq$k0">
                     <ref role="1YBMHb" node="7W7dK_Oc0ZE" resolve="n" />
                   </node>
@@ -1051,7 +1048,7 @@
                 <node concept="Xl_RD" id="7W7dK_Oc6di" role="2MkJ7o">
                   <property role="Xl_RC" value="This is ignored if a shape is specified" />
                 </node>
-                <node concept="2OqwBi" id="7W7dK_Oc6dj" role="2OEOjV">
+                <node concept="2OqwBi" id="7W7dK_Oc6dj" role="1urrMF">
                   <node concept="1YBJjd" id="7W7dK_Oc6dk" role="2Oq$k0">
                     <ref role="1YBMHb" node="7W7dK_Oc0ZE" resolve="n" />
                   </node>

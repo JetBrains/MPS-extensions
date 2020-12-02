@@ -1,14 +1,15 @@
 <style>
-table tbody tr td:nth-child(2) {
+table tbody tr:nth-child(1) td:nth-child(2) {
    color: limegreen;
 }
-table tbody tr + tr  td:nth-child(2) {
+
+table tbody tr:nth-child(2)  td:nth-child(2),
+table tbody tr:nth-child(3) td:nth-child(2),
+table tbody tr:nth-child(6)  td:nth-child(2)   {
     color: orange;
 }
-	
-table tbody tr + tr + tr td:nth-child(2) {
-    color: orange;
-}
+
+
 table tbody tr + tr + tr + tr td:nth-child(2) {
     color: tomato;
 }
@@ -26,15 +27,15 @@ The mbeddr project in the past developed a set of extensions that where used to 
 
 ## Getting Started
 
-To get started grab a release from our release page on [github](https://github.com/JetBrains/MPS-extensions/releases). Extract the archive and point a project or global library in MPS to the location where you extracted it. 
+To get started grab a release from our release page on [github](https://github.com/JetBrains/MPS-extensions/releases). Extract the archive and point a project or global library in MPS to the location where you extracted it.
 
 See the documentation regarding the individual extensions above. The documentation is "currently work in progress" as it being ported over from the mbeddr platform repository. Documentation related contributions are very welcome!
 
-We are also working on providing a zip file with all the sandboxes we have in our repository in order to try things out and see how the extensions work. See this issue for [details](https://github.com/JetBrains/MPS-extensions/issues/15). 
+We are also working on providing a zip file with all the sandboxes we have in our repository in order to try things out and see how the extensions work. See this issue for [details](https://github.com/JetBrains/MPS-extensions/issues/15).
 
 ### Artefacts in the Nexus
 
-We also provide the artefacts as a maven repository. Where you can fetch them during your CI build to setup your local development environment. 
+We also provide the artefacts as a maven repository. Where you can fetch them during your CI build to setup your local development environment.
 
 Maven:
 
@@ -46,12 +47,12 @@ Maven:
 	      <url>https://projects.itemis.de/nexus/content/repositories/mbeddr</url>
 	    </repository>
 	 </repositories>
-	 
+
 	 <dependencies ...>
 		 <dependency>
 		  <groupId>de.itemis.mps</groupId>
 		  <artifactId>extensions</artifactId>
-		  <version>2018.2</version>
+		  <version>2020.2</version>
 		  <type>zip</type>
 		</dependency>
 	</dependencies>
@@ -69,15 +70,15 @@ Gradle:
 	configurations {
         mpsExtensions
     }
-    
+
     dependencies {
-        mpsExtensions "de.itemis.mps:extensions:2018.2.+"
+        mpsExtensions "de.itemis.mps:extensions:2020.2.+"
     }
 ```
 
 ## Versions
 
-The version number reflects the MPS version the extensions are compatible with. For instance `2018.1.X` is compatible with MPS 2018.1, `2017.3.X` is compatible with MPS 2017.3.6. We only maintain compatibility with the latest minor release for each major version. While a `2017.3.x` version of the extension might work with a on older version than MPS 2017.3.6 we only test it against the latest.    
+The version number reflects the MPS version the extensions are compatible with. For instance `2018.1.X` is compatible with MPS 2018.1, `2017.3.X` is compatible with MPS 2017.3.6. We only maintain compatibility with the latest minor release for each major version. While a `2017.3.x` version of the extension might work with a on older version than MPS 2017.3.6 we only test it against the latest.
 
 ### Current Versions
 
@@ -87,41 +88,43 @@ A version in maintenance will not get actively new features and is only maintain
 
 | MPS Version | State |
 |:--|:--|
-| 2019.3 | active development |
-| 2019.2 | maintenance |
-| 2019.1 | maintenance |
+| 2020.2 | active development |
+| 2020.1 | maintenance |
+| 2019.3 | maintenance |
+| 2019.2 | **not maintained**  |
+| 2019.1 | **not maintained**  |
 | 2018.3 | maintenance |
-| 2018.2 | maintenance |
+| 2018.2 | **not maintained**  |
 | 2018.1 | **not maintained** |
 | 2017.3 | **not maintained** |
 | 2017.2 | **not maintained** |
 | 2017.1 | **not maintained** |
 
 
-## Grammar Cells Migration 
+## Grammar Cells Migration
 
-Starting from version `2018.2.348` the MPS extensions also contain grammar cells which have been ported over from the mbeddr platform. For users of grammar cells this is mostly a transparent change since the mbeddr platform currently repackages the MPS extensions. This means that if you are using the mbeddr platform today you should not have to do much manual work. 
+Starting from version `2018.2.348` the MPS extensions also contain grammar cells which have been ported over from the mbeddr platform. For users of grammar cells this is mostly a transparent change since the mbeddr platform currently repackages the MPS extensions. This means that if you are using the mbeddr platform today you should not have to do much manual work.
 
-### mbeddr changes 
+### mbeddr changes
 
-The most obvious change here is that the version of the mbeddr artefacts was incremented by a minor. That means you will have to adjust your build files to get the version `1.1+` instead of `1.0*`. Please consult the documentation of your build tool how to configure your dependency resolving. 
+The most obvious change here is that the version of the mbeddr artefacts was incremented by a minor. That means you will have to adjust your build files to get the version `1.1+` instead of `1.0*`. Please consult the documentation of your build tool how to configure your dependency resolving.
 
-We did this change to ensure that you do not accidentally get the new version. See the last section for the reason. 
+We did this change to ensure that you do not accidentally get the new version. See the last section for the reason.
 
-The 1.0+ versions remain in our nexus as they are in the current state but will not get any updates. If you want to get newer versions of the mbeddr platform your have to change your dependency version. If you download your artefacts manually from the mbeddr Github page everything is the same as before but the version number is incremented.  
+The 1.0+ versions remain in our nexus as they are in the current state but will not get any updates. If you want to get newer versions of the mbeddr platform your have to change your dependency version. If you download your artefacts manually from the mbeddr Github page everything is the same as before but the version number is incremented.
 
-Other than that the artefacts didn't change and still contain the repackaged platform. We are planning to add a additional artefact that doesn't repackaged the MPS-extensions in the future to allow you more flexibility. 
+Other than that the artefacts didn't change and still contain the repackaged platform. We are planning to add a additional artefact that doesn't repackaged the MPS-extensions in the future to allow you more flexibility.
 
 ### Changes to MPS Extensions
 
-In the MPS extensions we only have additive changes. We added the mpsutil.grammarcells.* modules in that same state as they were in the mbeddr platform. You shouldn't observe any changes. In addition to that we kept the language ids to avoid any visible change for existing users of the languages. 
+In the MPS extensions we only have additive changes. We added the mpsutil.grammarcells.* modules in that same state as they were in the mbeddr platform. You shouldn't observe any changes. In addition to that we kept the language ids to avoid any visible change for existing users of the languages.
 
 The version number of the MPS extensions remain in the normal scheme as documented above.
 
 ### Required changes for projects
 
-If your project is using grammar cells today it is using them through the mbeddr platform. If you do so you simply need to adjust the version number the  dependency on the mbeddr platform and you are good to go. 
+If your project is using grammar cells today it is using them through the mbeddr platform. If you do so you simply need to adjust the version number the  dependency on the mbeddr platform and you are good to go.
 
-I your build scripts show errors after changing the dependency a simple "reload modules from disk" intention should be able to fix them. 
+I your build scripts show errors after changing the dependency a simple "reload modules from disk" intention should be able to fix them.
 
-In case you currently only have dependency to the mbeddr platform because you want to use grammar cells you are now able to drop that dependency. To do so replace the dependency on the mbeddr platform with a dependency on the correct version of the MPS extensions. In this case you need to modify your MPS build scripts to no longer use the mbeddr platform as dependency but the MPS extensions. Afterwards MPS will complain that it can't find the dependency on the grammar cells languages in the build. To fix this invoke the "reload modules from disk" on the affected build script and the errors should go away. 
+In case you currently only have dependency to the mbeddr platform because you want to use grammar cells you are now able to drop that dependency. To do so replace the dependency on the mbeddr platform with a dependency on the correct version of the MPS extensions. In this case you need to modify your MPS build scripts to no longer use the mbeddr platform as dependency but the MPS extensions. Afterwards MPS will complain that it can't find the dependency on the grammar cells languages in the build. To fix this invoke the "reload modules from disk" on the affected build script and the errors should go away.

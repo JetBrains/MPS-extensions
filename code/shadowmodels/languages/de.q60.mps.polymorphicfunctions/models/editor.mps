@@ -15,6 +15,7 @@
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
+      <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
@@ -62,7 +63,6 @@
       <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
         <property id="1238091709220" name="labelName" index="1413C4" />
       </concept>
-      <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
@@ -227,10 +227,6 @@
       </node>
       <node concept="l2Vlx" id="1upvoB3RHz_" role="2iSdaV" />
     </node>
-  </node>
-  <node concept="3p36aQ" id="1upvoB3RQOz">
-    <ref role="aqKnT" to="bx8c:1upvoB3RHtc" resolve="EmptyLine" />
-    <node concept="22hDWj" id="7q24335a1Cg" role="22hAXT" />
   </node>
   <node concept="24kQdi" id="1upvoB3RVXE">
     <ref role="1XX52x" to="bx8c:1upvoB3RHgP" resolve="PolymorphicFunctionDeclaration" />
@@ -1131,6 +1127,10 @@
       </node>
       <node concept="l2Vlx" id="476rsMJe0rm" role="2iSdaV" />
     </node>
+  </node>
+  <node concept="22mcaB" id="1upvoB3RQOz">
+    <ref role="aqKnT" to="bx8c:1upvoB3RHtc" resolve="EmptyLine" />
+    <node concept="22hDWj" id="54EU3CvwyG9" role="22hAXT" />
   </node>
 </model>
 

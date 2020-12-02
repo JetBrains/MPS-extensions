@@ -44,7 +44,6 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
-        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -286,10 +285,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -3682,7 +3681,6 @@
     </node>
     <node concept="13i0hz" id="3YGiJOY1y7C" role="13h7CS">
       <property role="TrG5h" value="getExpectedReturnType" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
       <node concept="3Tm1VV" id="3YGiJOY1y7G" role="1B3o_S" />
       <node concept="3clFbS" id="3YGiJOY1y7I" role="3clF47">
@@ -3698,7 +3696,6 @@
     </node>
     <node concept="13i0hz" id="3YGiJOY2lff" role="13h7CS">
       <property role="TrG5h" value="getParameterConcepts" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
       <node concept="3Tm1VV" id="3YGiJOY2lfn" role="1B3o_S" />
       <node concept="3clFbS" id="3YGiJOY2lfo" role="3clF47">

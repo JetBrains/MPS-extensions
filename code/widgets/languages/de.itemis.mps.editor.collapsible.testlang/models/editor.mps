@@ -80,8 +80,8 @@
     </language>
     <language id="3bdedd09-792a-4e15-a4db-83970df3ee86" name="de.itemis.mps.editor.collapsible">
       <concept id="4470863707015869062" name="de.itemis.mps.editor.collapsible.structure.ConceptFunctionParameter_Expanded" flags="ng" index="2DP$1s" />
-      <concept id="6229482064027552919" name="de.itemis.mps.editor.collapsible.structure.ConceptFunction_PaintLine" flags="ig" index="3ft1LT" />
-      <concept id="6229482064027547554" name="de.itemis.mps.editor.collapsible.structure.ConceptFunction_PaintEdge" flags="ig" index="3ftetc" />
+      <concept id="6229482064027552919" name="de.itemis.mps.editor.collapsible.structure.ConceptFunction_PaintLine" flags="ng" index="3ft1LT" />
+      <concept id="6229482064027547554" name="de.itemis.mps.editor.collapsible.structure.ConceptFunction_PaintEdge" flags="ng" index="3ftetc" />
       <concept id="4767615435807737350" name="de.itemis.mps.editor.collapsible.structure.CellModel_Collapsible" flags="ng" index="3uPbVW">
         <property id="6960125930949513032" name="group" index="aF5Fw" />
         <property id="4767615435812496286" name="showCollapsedAlways" index="3vr1H$" />
@@ -94,9 +94,9 @@
         <child id="1809625719153678824" name="getNodeSize" index="3JzsNC" />
         <child id="7087532378458449705" name="paintNode" index="3UgTSc" />
       </concept>
-      <concept id="1809625719153645430" name="de.itemis.mps.editor.collapsible.structure.ConceptFunction_GetNodeSize" flags="ig" index="3Jzk9Q" />
+      <concept id="1809625719153645430" name="de.itemis.mps.editor.collapsible.structure.ConceptFunction_GetNodeSize" flags="ng" index="3Jzk9Q" />
       <concept id="7087532378458388696" name="de.itemis.mps.editor.collapsible.structure.ConceptFunctionParameter_Graphics2D" flags="ng" index="3Uj87X" />
-      <concept id="7087532378458364744" name="de.itemis.mps.editor.collapsible.structure.ConceptFunction_PaintNode" flags="ig" index="3Uje9H" />
+      <concept id="7087532378458364744" name="de.itemis.mps.editor.collapsible.structure.ConceptFunction_PaintNode" flags="ng" index="3Uje9H" />
       <concept id="7087532378478450806" name="de.itemis.mps.editor.collapsible.structure.ConceptFunctionParameter_Bounds" flags="ng" index="3V4A5j" />
     </language>
   </registry>

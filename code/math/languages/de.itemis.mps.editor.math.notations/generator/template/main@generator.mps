@@ -212,9 +212,9 @@
       </concept>
     </language>
     <language id="766348f7-6a67-4b85-9323-384840132299" name="de.itemis.mps.editor.math">
-      <concept id="8081971784019206781" name="de.itemis.mps.editor.math.structure.GetCenterYFunction" flags="ig" index="76gNT" />
-      <concept id="175930839491748729" name="de.itemis.mps.editor.math.structure.PaintFunction" flags="ig" index="2qw2Hj" />
-      <concept id="175930839491748723" name="de.itemis.mps.editor.math.structure.LayoutFunction" flags="ig" index="2qw2Hp" />
+      <concept id="8081971784019206781" name="de.itemis.mps.editor.math.structure.GetCenterYFunction" flags="ng" index="76gNT" />
+      <concept id="175930839491748729" name="de.itemis.mps.editor.math.structure.PaintFunction" flags="ng" index="2qw2Hj" />
+      <concept id="175930839491748723" name="de.itemis.mps.editor.math.structure.LayoutFunction" flags="ng" index="2qw2Hp" />
       <concept id="175930839492113258" name="de.itemis.mps.editor.math.structure.Parameter_ThisLayoutableCell" flags="ng" index="2qxVH0" />
       <concept id="175930839493260656" name="de.itemis.mps.editor.math.structure.Parameter_Graphics" flags="ng" index="2rujPq" />
       <concept id="1330709772460851456" name="de.itemis.mps.editor.math.structure.ChildCellRef" flags="ng" index="34R21W">
@@ -233,7 +233,7 @@
         <child id="9120555111509036276" name="sharedVariables" index="1Dj3hT" />
         <child id="8588142736409368490" name="initFunction" index="1F9M7V" />
       </concept>
-      <concept id="9120555111512623985" name="de.itemis.mps.editor.math.structure.UpdateDimensionFunction" flags="ig" index="1AxZfW" />
+      <concept id="9120555111512623985" name="de.itemis.mps.editor.math.structure.UpdateDimensionFunction" flags="ng" index="1AxZfW" />
       <concept id="9120555111512624407" name="de.itemis.mps.editor.math.structure.Parameter_Dimension" flags="ng" index="1AxZmq" />
       <concept id="9120555111514385514" name="de.itemis.mps.editor.math.structure.MathSymbolReferenceExpression" flags="ng" index="1ACDjB">
         <reference id="9120555111514550842" name="decl" index="1AC0ER" />
@@ -249,7 +249,7 @@
         <child id="9120555111528208559" name="paintFunction" index="1B$q0y" />
         <child id="9120555111528208560" name="updateDimensionFunction" index="1B$q0X" />
       </concept>
-      <concept id="9120555111506484690" name="de.itemis.mps.editor.math.structure.SymbolPaintFunction" flags="ig" index="1D9ilv" />
+      <concept id="9120555111506484690" name="de.itemis.mps.editor.math.structure.SymbolPaintFunction" flags="ng" index="1D9ilv" />
       <concept id="9120555111506485003" name="de.itemis.mps.editor.math.structure.Parameter_Bounds" flags="ng" index="1D9iu6" />
       <concept id="9120555111508998433" name="de.itemis.mps.editor.math.structure.SharedVariableDeclaration" flags="ng" index="1DjO6G">
         <child id="9120555111508998797" name="type" index="1DjO80" />
@@ -257,7 +257,7 @@
       <concept id="9120555111509401753" name="de.itemis.mps.editor.math.structure.SharedVariableReference" flags="ng" index="1DtDwk">
         <reference id="9120555111509402121" name="declaration" index="1DtDE4" />
       </concept>
-      <concept id="8588142736409343223" name="de.itemis.mps.editor.math.structure.InitFunction" flags="ig" index="1Fa8aA" />
+      <concept id="8588142736409343223" name="de.itemis.mps.editor.math.structure.InitFunction" flags="ng" index="1Fa8aA" />
     </language>
     <language id="e359e0a2-368a-4c40-ae2a-e5a09f9cfd58" name="de.itemis.mps.editor.math.notations">
       <concept id="8658283006837848819" name="de.itemis.mps.editor.math.notations.structure.NRootEditor" flags="ng" index="jtDLQ">

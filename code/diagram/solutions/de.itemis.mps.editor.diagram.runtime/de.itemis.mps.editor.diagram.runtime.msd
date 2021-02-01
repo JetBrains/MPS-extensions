@@ -14,7 +14,6 @@
       <sourceRoot location="lib/org.eclipse.elk.graph-0.7.1.jar" />
       <sourceRoot location="lib/org.eclipse.emf.ecore-2.12.0.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.common-0.7.1.jar" />
-      <sourceRoot location="lib/guava-19.0-rc3.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -32,7 +31,6 @@
     <stubModelEntry path="${module}/lib/org.eclipse.emf.common-2.12.0.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore-2.12.0.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi-2.12.0.jar" />
-    <stubModelEntry path="${module}/lib/guava-19.0-rc3.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

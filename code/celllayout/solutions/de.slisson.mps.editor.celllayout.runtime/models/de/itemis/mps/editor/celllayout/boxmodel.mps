@@ -5892,39 +5892,8 @@
               <ref role="3cqZAo" node="1p6ZfyCPv78" resolve="myContentBox" />
             </node>
             <node concept="2ShNRf" id="3Osd_yxeiPz" role="37vLTx">
-              <node concept="YeOm9" id="7uOgiT6jdl" role="2ShVmc">
-                <node concept="1Y3b0j" id="7uOgiT6jdo" role="YeSDq">
-                  <property role="2bfB8j" value="true" />
-                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                  <ref role="1Y3XeK" node="1p6ZfyCPvgz" resolve="DefaultLayoutBox" />
-                  <node concept="3Tm1VV" id="7uOgiT6jdp" role="1B3o_S" />
-                  <node concept="3clFb_" id="7uOgiT6jI$" role="jymVt">
-                    <property role="TrG5h" value="setHeight" />
-                    <property role="DiZV1" value="false" />
-                    <property role="od$2w" value="false" />
-                    <property role="1EzhhJ" value="false" />
-                    <node concept="2AHcQZ" id="7uOgiT6jI_" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                    </node>
-                    <node concept="37vLTG" id="7uOgiT6jIA" role="3clF46">
-                      <property role="TrG5h" value="height" />
-                      <property role="3TUv4t" value="false" />
-                      <node concept="10Oyi0" id="7uOgiT6jIB" role="1tU5fm" />
-                    </node>
-                    <node concept="3Tm1VV" id="7uOgiT6jJ8" role="1B3o_S" />
-                    <node concept="3cqZAl" id="7uOgiT6jJ9" role="3clF45" />
-                    <node concept="3clFbS" id="7uOgiT6jJb" role="3clF47">
-                      <node concept="3clFbF" id="7uOgiT6jJe" role="3cqZAp">
-                        <node concept="3nyPlj" id="7uOgiT6jJd" role="3clFbG">
-                          <ref role="37wK5l" node="1p6ZfyCPvhT" resolve="setHeight" />
-                          <node concept="37vLTw" id="7uOgiT6jJc" role="37wK5m">
-                            <ref role="3cqZAo" node="7uOgiT6jIA" resolve="height" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
+              <node concept="HV5vD" id="6g_o1CPh8Ut" role="2ShVmc">
+                <ref role="HV5vE" node="1p6ZfyCPvgz" resolve="DefaultLayoutBox" />
               </node>
             </node>
           </node>

@@ -21104,20 +21104,18 @@
                 </node>
                 <node concept="10Nm6u" id="2MQBX6KaOzZ" role="3uHU7w" />
               </node>
-              <node concept="2YIFZM" id="2MQBX6KaSoR" role="3uHU7w">
-                <ref role="37wK5l" to="w1kc:~SNodeUtil.getLinkDeclaration_IsSingular(org.jetbrains.mps.openapi.model.SNode)" resolve="getLinkDeclaration_IsSingular" />
-                <ref role="1Pybhc" to="w1kc:~SNodeUtil" resolve="SNodeUtil" />
-                <node concept="2OqwBi" id="2MQBX6KaO$1" role="37wK5m">
-                  <node concept="2ShNRf" id="2MQBX6KaO$n" role="2Oq$k0">
-                    <node concept="1pGfFk" id="2MQBX6KaO$o" role="2ShVmc">
-                      <ref role="37wK5l" to="w1kc:~SNodeLegacy.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode)" resolve="SNodeLegacy" />
-                      <node concept="37vLTw" id="2MQBX6KaO$3" role="37wK5m">
-                        <ref role="3cqZAo" node="4zzNcfNz$jf" resolve="childNode" />
-                      </node>
+              <node concept="3fqX7Q" id="5XkQSrrb1qp" role="3uHU7w">
+                <node concept="2OqwBi" id="5XkQSrrb1qr" role="3fr31v">
+                  <node concept="2OqwBi" id="5XkQSrrb1qs" role="2Oq$k0">
+                    <node concept="37vLTw" id="5XkQSrrb1qt" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4zzNcfNz$jf" resolve="childNode" />
+                    </node>
+                    <node concept="liA8E" id="5XkQSrrb1qu" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNode.getContainmentLink()" resolve="getContainmentLink" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="2MQBX6KaO$4" role="2OqNvi">
-                    <ref role="37wK5l" to="w1kc:~SNodeLegacy.getRoleLink()" resolve="getRoleLink" />
+                  <node concept="liA8E" id="5XkQSrrb1qv" role="2OqNvi">
+                    <ref role="37wK5l" to="c17a:~SAbstractLink.isMultiple()" resolve="isMultiple" />
                   </node>
                 </node>
               </node>

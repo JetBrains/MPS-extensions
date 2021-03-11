@@ -27,6 +27,7 @@
     <dependency reexport="true">95085166-3236-4dd7-bd8e-e753c8d20885(de.q60.mps.incremental.runtime)</dependency>
     <dependency reexport="false">c561740b-e2df-4d2a-bb73-9295a213b3ce(de.q60.mps.logging.runtime)</dependency>
     <dependency reexport="false">e4fb5bb5-0ad9-4e08-9867-6c5a4b9d9246(de.q60.mps.util)</dependency>
+    <dependency reexport="false">cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:63e0e566-5131-447e-90e3-12ea330e1a00:com.mbeddr.mpsutil.blutil" version="1" />
@@ -69,6 +70,7 @@
     <module reference="e4fb5bb5-0ad9-4e08-9867-6c5a4b9d9246(de.q60.mps.util)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
+    <module reference="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" version="0" />
   </dependencyVersions>
 </solution>
 

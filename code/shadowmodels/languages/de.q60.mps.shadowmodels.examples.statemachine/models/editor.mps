@@ -18,6 +18,7 @@
     <import index="ej6i" ref="r:6496ea12-c64c-456b-91b7-9e7f80ac2f9c(de.q60.mps.shadowmodels.target.editor.behavior)" />
     <import index="5hyg" ref="r:417cb7e3-4a56-4fae-9bed-5ffd476cd098(de.q60.mps.shadowmodels.examples.statemachine.transformations)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="yb34" ref="r:530aea2f-dc0b-465c-91dd-a75239ac9e81(de.q60.mps.shadowmodels.examples.statemachine.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
@@ -361,7 +362,7 @@
                       <property role="TrG5h" value="output" />
                       <node concept="A3Dl8" id="3CYlK6ygJ0n" role="1tU5fm">
                         <node concept="3uibUv" id="3CYlK6ygJ0o" role="A3Ik2">
-                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+                          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">

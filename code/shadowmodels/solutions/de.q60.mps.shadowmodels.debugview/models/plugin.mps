@@ -45,6 +45,7 @@
     <import index="yo94" ref="r:4629a434-6c59-4e7a-9315-92ac147f2aaa(de.q60.mps.explorer.pf)" />
     <import index="e55s" ref="r:340cdae2-711c-4186-bc13-94d9832e5a1d(de.q60.mps.explorer)" />
     <import index="nw4f" ref="r:37f0e188-99eb-43dc-a4d6-c6b3a29372b8(de.q60.mps.explorer.plugin)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -554,7 +555,7 @@
                                               <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                                               <node concept="10QFUN" id="3_irx8F_pjh" role="37wK5m">
                                                 <node concept="3uibUv" id="3_irx8F_pji" role="10QFUM">
-                                                  <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+                                                  <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                                                 </node>
                                                 <node concept="37vLTw" id="3_irx8F_pjj" role="10QFUP">
                                                   <ref role="3cqZAo" node="3_irx8F_piX" resolve="owner" />
@@ -569,7 +570,7 @@
                                       </node>
                                       <node concept="2ZW3vV" id="3_irx8F_pjl" role="3clFbw">
                                         <node concept="3uibUv" id="3_irx8F_pjm" role="2ZW6by">
-                                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+                                          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                                         </node>
                                         <node concept="37vLTw" id="3_irx8F_pjn" role="2ZW6bz">
                                           <ref role="3cqZAo" node="3_irx8F_piX" resolve="owner" />
@@ -744,7 +745,7 @@
                                             <ref role="37wK5l" to="l6bp:6$M6y1f559g" resolve="getOutputNodeReference" />
                                             <node concept="10QFUN" id="3_irx8FGfMP" role="37wK5m">
                                               <node concept="3uibUv" id="3_irx8FGfMQ" role="10QFUM">
-                                                <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+                                                <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                                               </node>
                                               <node concept="37vLTw" id="3_irx8FGfMR" role="10QFUP">
                                                 <ref role="3cqZAo" node="3_irx8FGfiD" resolve="owner" />
@@ -755,7 +756,7 @@
                                       </node>
                                       <node concept="2ZW3vV" id="3_irx8FGfj1" role="3clFbw">
                                         <node concept="3uibUv" id="3_irx8FGfj2" role="2ZW6by">
-                                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+                                          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                                         </node>
                                         <node concept="37vLTw" id="3_irx8FGfj3" role="2ZW6bz">
                                           <ref role="3cqZAo" node="3_irx8FGfiD" resolve="owner" />

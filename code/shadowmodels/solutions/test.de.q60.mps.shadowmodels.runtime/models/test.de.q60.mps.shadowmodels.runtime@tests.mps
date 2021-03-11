@@ -22,6 +22,7 @@
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="gxwn" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.primitives(de.q60.mps.libs/)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -2462,7 +2463,7 @@
             <node concept="3cpWsn" id="2fAW4ld9BK" role="3cpWs9">
               <property role="TrG5h" value="node" />
               <node concept="3uibUv" id="2fAW4ld9BD" role="1tU5fm">
-                <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+                <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
               </node>
               <node concept="2OqwBi" id="2fAW4ld9BL" role="33vP2m">
                 <node concept="37vLTw" id="2fAW4leuPC" role="2Oq$k0">

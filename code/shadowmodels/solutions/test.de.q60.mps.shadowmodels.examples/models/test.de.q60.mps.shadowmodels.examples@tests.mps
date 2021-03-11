@@ -31,6 +31,7 @@
     <import index="oyp0" ref="r:ff4bc8f2-4e53-41b7-a27c-792a5dcc86cb(de.q60.mps.shadowmodels.transformation.structure)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1579,7 +1580,7 @@
               <node concept="3cpWsn" id="56YPHTotlDM" role="3cpWs9">
                 <property role="TrG5h" value="output_" />
                 <node concept="3uibUv" id="56YPHTotlDN" role="1tU5fm">
-                  <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+                  <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                 </node>
                 <node concept="2OqwBi" id="4Dc7ogToU8C" role="33vP2m">
                   <node concept="2OqwBi" id="56YPHTotlDP" role="2Oq$k0">

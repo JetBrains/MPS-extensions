@@ -21,6 +21,7 @@
     <dependency reexport="false">e52a4835-844d-46a1-99f8-c06129db796f(de.q60.mps.shadowmodels.runtime)</dependency>
     <dependency reexport="false">bbb5f4e2-794a-4b91-bd27-caf7d437ac9e(de.q60.mps.shadowmodels.examples.blext)</dependency>
     <dependency reexport="false">94b64715-a263-4c36-a138-8da14705ffa7(de.q60.mps.shadowmodels.transformation)</dependency>
+    <dependency reexport="false">cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:da8e6b62-7ca3-4489-86bc-b70a501ca28f:de.q60.mps.incremental" version="0" />
@@ -68,6 +69,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" version="0" />
   </dependencyVersions>
 </solution>
 

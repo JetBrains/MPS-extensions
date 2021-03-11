@@ -29,6 +29,7 @@
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
     <import index="pxvb" ref="r:ca10a440-fbee-42f3-927f-469fb3169c9b(de.q60.mps.shadowmodels.runtime.util)" />
     <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2673,7 +2674,7 @@
       <property role="TrG5h" value="repositoryNode" />
       <node concept="3Tm6S6" id="QurUgihNlC" role="1B3o_S" />
       <node concept="3uibUv" id="QurUgihOz1" role="1tU5fm">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+        <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
       </node>
     </node>
     <node concept="312cEg" id="5G4qAEnlt2g" role="jymVt">
@@ -4775,7 +4776,7 @@
     <node concept="3clFb_" id="QurUgihQwv" role="jymVt">
       <property role="TrG5h" value="getRepositoryNode" />
       <node concept="3uibUv" id="QurUgihWHh" role="3clF45">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+        <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
       </node>
       <node concept="3Tm1VV" id="QurUgihQwy" role="1B3o_S" />
       <node concept="3clFbS" id="QurUgihQwz" role="3clF47">
@@ -5043,7 +5044,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="QurUgiyUMp" role="3clF45">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+        <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
       </node>
       <node concept="3Tm1VV" id="QurUgiyUMq" role="1B3o_S" />
       <node concept="3clFbS" id="QurUgiyUMs" role="3clF47">
@@ -5176,7 +5177,7 @@
       <node concept="37vLTG" id="5z3H0sDVaxK" role="3clF46">
         <property role="TrG5h" value="mirrorNode" />
         <node concept="3uibUv" id="5z3H0sDVd3g" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="3uibUv" id="5z3H0sDVdr2" role="3clF45">
@@ -5280,7 +5281,7 @@
       <node concept="37vLTG" id="61gRJt5gnAD" role="3clF46">
         <property role="TrG5h" value="mirrorNode" />
         <node concept="3uibUv" id="61gRJt5gnAE" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="37vLTG" id="61gRJt5gsfj" role="3clF46">
@@ -5449,7 +5450,7 @@
       <node concept="37vLTG" id="78D6RWLfY1F" role="3clF46">
         <property role="TrG5h" value="mirrorNode" />
         <node concept="3uibUv" id="78D6RWLfY1G" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="3uibUv" id="78D6RWLgejA" role="3clF45">

@@ -347,7 +347,7 @@
                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="5QP6xyjWsvR" role="2OqNvi">
-                  <ref role="37wK5l" to="3hky:4_SQzDO0k4c" resolve="computeRead" />
+                  <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                   <node concept="1bVj0M" id="5QP6xyjWsvS" role="37wK5m">
                     <node concept="3clFbS" id="5QP6xyjWsvT" role="1bW5cS">
                       <node concept="3cpWs8" id="5QP6xyjWsvU" role="3cqZAp">
@@ -433,7 +433,7 @@
                 <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
               </node>
               <node concept="liA8E" id="5QP6xyjXkHW" role="2OqNvi">
-                <ref role="37wK5l" to="3hky:4_SQzDO0jWS" resolve="runWrite" />
+                <ref role="37wK5l" to="jks5:~IBranch.runWrite(kotlin.jvm.functions.Function0)" resolve="runWrite" />
                 <node concept="1bVj0M" id="5QP6xyjXkKa" role="37wK5m">
                   <node concept="3clFbS" id="5QP6xyjXkKb" role="1bW5cS">
                     <node concept="3cpWs8" id="5QP6xyjXlyv" role="3cqZAp">
@@ -511,7 +511,7 @@
                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="5QP6xyjXfUJ" role="2OqNvi">
-                  <ref role="37wK5l" to="3hky:4_SQzDO0k4c" resolve="computeRead" />
+                  <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                   <node concept="1bVj0M" id="5QP6xyjXfUK" role="37wK5m">
                     <node concept="3clFbS" id="5QP6xyjXfUL" role="1bW5cS">
                       <node concept="3cpWs8" id="5QP6xyjXfUM" role="3cqZAp">
@@ -601,7 +601,7 @@
                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="5QP6xyjXUk6" role="2OqNvi">
-                  <ref role="37wK5l" to="3hky:4_SQzDO0jWS" resolve="runWrite" />
+                  <ref role="37wK5l" to="jks5:~IBranch.runWrite(kotlin.jvm.functions.Function0)" resolve="runWrite" />
                   <node concept="1bVj0M" id="5QP6xyjXUk7" role="37wK5m">
                     <node concept="3clFbS" id="5QP6xyjXUk8" role="1bW5cS">
                       <node concept="3cpWs8" id="5QP6xyjXUk9" role="3cqZAp">
@@ -750,7 +750,7 @@
                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="5QP6xyjXKYE" role="2OqNvi">
-                  <ref role="37wK5l" to="3hky:4_SQzDO0k4c" resolve="computeRead" />
+                  <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                   <node concept="1bVj0M" id="5QP6xyjXKYF" role="37wK5m">
                     <node concept="3clFbS" id="5QP6xyjXKYG" role="1bW5cS">
                       <node concept="3cpWs8" id="5QP6xyjXKYH" role="3cqZAp">
@@ -940,7 +940,7 @@
                                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                                 </node>
                                 <node concept="liA8E" id="5QP6xyjZ6vQ" role="2OqNvi">
-                                  <ref role="37wK5l" to="3hky:4_SQzDO0jWS" resolve="runWrite" />
+                                  <ref role="37wK5l" to="jks5:~IBranch.runWrite(kotlin.jvm.functions.Function0)" resolve="runWrite" />
                                   <node concept="1bVj0M" id="5QP6xyjZ6$X" role="37wK5m">
                                     <node concept="3clFbS" id="5QP6xyjZ6$Y" role="1bW5cS">
                                       <node concept="3cpWs8" id="5QP6xyjYlzB" role="3cqZAp">
@@ -1112,7 +1112,7 @@
                                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                                 </node>
                                 <node concept="liA8E" id="5QP6xyk0Ken" role="2OqNvi">
-                                  <ref role="37wK5l" to="3hky:4_SQzDO0jTM" resolve="runRead" />
+                                  <ref role="37wK5l" to="jks5:~IBranch.runRead(kotlin.jvm.functions.Function0)" resolve="runRead" />
                                   <node concept="1bVj0M" id="5QP6xyk0Kh_" role="37wK5m">
                                     <node concept="3clFbS" id="5QP6xyk0KhA" role="1bW5cS">
                                       <node concept="3cpWs8" id="5QP6xyjYHcE" role="3cqZAp">
@@ -1291,7 +1291,7 @@
                                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                                 </node>
                                 <node concept="liA8E" id="5QP6xyk1B0M" role="2OqNvi">
-                                  <ref role="37wK5l" to="3hky:4_SQzDO0jTM" resolve="runRead" />
+                                  <ref role="37wK5l" to="jks5:~IBranch.runRead(kotlin.jvm.functions.Function0)" resolve="runRead" />
                                   <node concept="1bVj0M" id="5QP6xyk1B0N" role="37wK5m">
                                     <node concept="3clFbS" id="5QP6xyk1B0O" role="1bW5cS">
                                       <node concept="3cpWs8" id="5QP6xyk1B0P" role="3cqZAp">
@@ -1427,7 +1427,7 @@
                                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                                 </node>
                                 <node concept="liA8E" id="5QP6xyk562X" role="2OqNvi">
-                                  <ref role="37wK5l" to="3hky:4_SQzDO0jWS" resolve="runWrite" />
+                                  <ref role="37wK5l" to="jks5:~IBranch.runWrite(kotlin.jvm.functions.Function0)" resolve="runWrite" />
                                   <node concept="1bVj0M" id="5QP6xyk562Y" role="37wK5m">
                                     <node concept="3clFbS" id="5QP6xyk562Z" role="1bW5cS">
                                       <node concept="3J1_TO" id="5QP6xyk5630" role="3cqZAp">
@@ -1655,7 +1655,7 @@
                                   <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                                 </node>
                                 <node concept="liA8E" id="5QP6xyk59IM" role="2OqNvi">
-                                  <ref role="37wK5l" to="3hky:4_SQzDO0jWS" resolve="runWrite" />
+                                  <ref role="37wK5l" to="jks5:~IBranch.runWrite(kotlin.jvm.functions.Function0)" resolve="runWrite" />
                                   <node concept="1bVj0M" id="5QP6xyk59IN" role="37wK5m">
                                     <node concept="3clFbS" id="5QP6xyk59IO" role="1bW5cS">
                                       <node concept="3J1_TO" id="5QP6xyk59IP" role="3cqZAp">
@@ -1906,7 +1906,7 @@
               <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
             </node>
             <node concept="liA8E" id="5QP6xyjMHCk" role="2OqNvi">
-              <ref role="37wK5l" to="3hky:4_SQzDO0jWS" resolve="runWrite" />
+              <ref role="37wK5l" to="jks5:~IBranch.runWrite(kotlin.jvm.functions.Function0)" resolve="runWrite" />
               <node concept="1bVj0M" id="5QP6xyjMHI6" role="37wK5m">
                 <property role="3yWfEV" value="true" />
                 <node concept="3clFbS" id="5QP6xyjMHI7" role="1bW5cS">
@@ -1921,11 +1921,11 @@
                             <ref role="3cqZAo" node="5QP6xyjBToE" resolve="branch" />
                           </node>
                           <node concept="liA8E" id="5QP6xyjOB8b" role="2OqNvi">
-                            <ref role="37wK5l" to="3hky:4_SQzDOeg8s" resolve="getWriteTransaction" />
+                            <ref role="37wK5l" to="jks5:~IBranch.getWriteTransaction()" resolve="getWriteTransaction" />
                           </node>
                         </node>
                         <node concept="liA8E" id="5QP6xyjOB8c" role="2OqNvi">
-                          <ref role="37wK5l" to="3hky:4_SQzDOedKb" resolve="addNewChild" />
+                          <ref role="37wK5l" to="jks5:~IWriteTransaction.addNewChild(long,java.lang.String,int,org.modelix.model.api.IConcept)" resolve="addNewChild" />
                           <node concept="10M0yZ" id="5QP6xyjOB8d" role="37wK5m">
                             <ref role="1PxDUh" to="3hky:4_SQzDO0jRP" resolve="SM___PTree" />
                             <ref role="3cqZAo" to="3hky:5QP6xyjNAP1" resolve="ROOT_ID" />

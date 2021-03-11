@@ -5401,14 +5401,14 @@
                   <ref role="3cqZAo" node="61gRJt5fQh6" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="78D6RWLfY2l" role="2OqNvi">
-                  <ref role="37wK5l" to="3hky:4_SQzDO0k4c" resolve="computeRead" />
+                  <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                   <node concept="1bVj0M" id="78D6RWLfY2m" role="37wK5m">
                     <node concept="3clFbS" id="78D6RWLfY2n" role="1bW5cS">
                       <node concept="3clFbF" id="78D6RWLfY2o" role="3cqZAp">
                         <node concept="2OqwBi" id="78D6RWLfY2p" role="3clFbG">
                           <node concept="2OqwBi" id="78D6RWLfY2q" role="2Oq$k0">
                             <node concept="liA8E" id="78D6RWLfY2s" role="2OqNvi">
-                              <ref role="37wK5l" to="3hky:4_SQzDOeg7H" resolve="getTransaction" />
+                              <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
                             </node>
                             <node concept="37vLTw" id="61gRJt5fQha" role="2Oq$k0">
                               <ref role="3cqZAo" node="61gRJt5fQh6" resolve="branch" />
@@ -6123,7 +6123,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="oBgCbXGBSI" role="2OqNvi">
-                            <ref role="37wK5l" to="mjcn:5gTrVpGiTSR" resolve="getAllChildren" />
+                            <ref role="37wK5l" to="jks5:~INode.getAllChildren()" resolve="getAllChildren" />
                           </node>
                         </node>
                       </node>
@@ -6928,7 +6928,7 @@
               <ref role="3cqZAo" node="7gxeZuyC1GX" resolve="newTree" />
             </node>
             <node concept="liA8E" id="7gxeZuyC51j" role="2OqNvi">
-              <ref role="37wK5l" to="3hky:4_SQzDOrjqo" resolve="visitChanges" />
+              <ref role="37wK5l" to="jks5:~ITree.visitChanges(org.modelix.model.api.ITree,org.modelix.model.api.ITreeChangeVisitor)" resolve="visitChanges" />
               <node concept="37vLTw" id="7gxeZuyD5V3" role="37wK5m">
                 <ref role="3cqZAo" node="7gxeZuyBe5o" resolve="loadedInputTree" />
               </node>
@@ -6936,8 +6936,8 @@
                 <node concept="YeOm9" id="7gxeZuyC6u0" role="2ShVmc">
                   <node concept="1Y3b0j" id="7gxeZuyC6u3" role="YeSDq">
                     <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" to="3hky:5QP6xyjGP1D" resolve="SM___ITreeChangeVisitor" />
                     <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <ref role="1Y3XeK" to="jks5:~ITreeChangeVisitor" resolve="ITreeChangeVisitor" />
                     <node concept="3clFb_" id="7gxeZuyC7IP" role="jymVt">
                       <property role="TrG5h" value="toNodeRef" />
                       <node concept="37vLTG" id="7gxeZuyC8j6" role="3clF46">
@@ -7005,6 +7005,9 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="2AHcQZ" id="7C8dhLiISXT" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
                     </node>
                     <node concept="3clFb_" id="7gxeZuyC6ue" role="jymVt">
                       <property role="TrG5h" value="childrenChanged" />
@@ -7063,6 +7066,9 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="2AHcQZ" id="7C8dhLiISXV" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
                     </node>
                     <node concept="3clFb_" id="7gxeZuyC6uo" role="jymVt">
                       <property role="TrG5h" value="referenceChanged" />
@@ -7100,6 +7106,9 @@
                             </node>
                           </node>
                         </node>
+                      </node>
+                      <node concept="2AHcQZ" id="7C8dhLiISXU" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                     <node concept="3clFb_" id="7gxeZuyC6uy" role="jymVt">
@@ -7139,6 +7148,9 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="2AHcQZ" id="7C8dhLiISXS" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
                     </node>
                     <node concept="3clFb_" id="7gxeZuyC6uG" role="jymVt">
                       <property role="TrG5h" value="userObjectChanged" />
@@ -7155,6 +7167,9 @@
                       <node concept="3cqZAl" id="7gxeZuyC6uL" role="3clF45" />
                       <node concept="3Tm1VV" id="7gxeZuyC6uM" role="1B3o_S" />
                       <node concept="3clFbS" id="7gxeZuyC6uO" role="3clF47" />
+                      <node concept="2AHcQZ" id="7C8dhLiISXR" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
                     </node>
                     <node concept="3clFb_" id="7gxeZuyC6uQ" role="jymVt">
                       <property role="TrG5h" value="nodeRemoved" />
@@ -7190,6 +7205,9 @@
                             </node>
                           </node>
                         </node>
+                      </node>
+                      <node concept="2AHcQZ" id="7C8dhLiISXQ" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                     <node concept="3clFb_" id="7gxeZuyC6uY" role="jymVt">
@@ -7227,6 +7245,9 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="2AHcQZ" id="7C8dhLiISXP" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
                     </node>
                     <node concept="3clFb_" id="7gxeZuyC6v6" role="jymVt">
                       <property role="TrG5h" value="nodeLoaded" />
@@ -7262,6 +7283,9 @@
                             </node>
                           </node>
                         </node>
+                      </node>
+                      <node concept="2AHcQZ" id="7C8dhLiISXW" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                     <node concept="3clFb_" id="7DzwLX8TP6N" role="jymVt">

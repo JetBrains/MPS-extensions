@@ -7155,11 +7155,11 @@
                   <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="4_SQzDOj8q$" role="2OqNvi">
-                  <ref role="37wK5l" node="4_SQzDOeg8s" resolve="getWriteTransaction" />
+                  <ref role="37wK5l" to="jks5:~IBranch.getWriteTransaction()" resolve="getWriteTransaction" />
                 </node>
               </node>
               <node concept="liA8E" id="4_SQzDOj921" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOedKb" resolve="addNewChild" />
+                <ref role="37wK5l" to="jks5:~IWriteTransaction.addNewChild(long,java.lang.String,int,org.modelix.model.api.IConcept)" resolve="addNewChild" />
                 <node concept="37vLTw" id="4_SQzDOj9c1" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
                 </node>
@@ -7203,11 +7203,11 @@
                   <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="4_SQzDOj4Mb" role="2OqNvi">
-                  <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                  <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
                 </node>
               </node>
               <node concept="liA8E" id="4_SQzDOj4Mc" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOede1" resolve="getAllChildren" />
+                <ref role="37wK5l" to="jks5:~ITransaction.getAllChildren(long)" resolve="getAllChildren" />
                 <node concept="37vLTw" id="4_SQzDOj4Md" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
                 </node>
@@ -7264,11 +7264,11 @@
                   <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="4_SQzDOiHI5" role="2OqNvi">
-                  <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                  <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
                 </node>
               </node>
               <node concept="liA8E" id="4_SQzDOiKmX" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeddK" resolve="getChildren" />
+                <ref role="37wK5l" to="jks5:~ITransaction.getChildren(long,java.lang.String)" resolve="getChildren" />
                 <node concept="37vLTw" id="4_SQzDOiKxW" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
                 </node>
@@ -7320,7 +7320,7 @@
               <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
             </node>
             <node concept="liA8E" id="5G4qAEn6kDA" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDO0k4c" resolve="computeRead" />
+              <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
               <node concept="1bVj0M" id="5G4qAEn6kLN" role="37wK5m">
                 <node concept="3clFbS" id="5G4qAEn6kLO" role="1bW5cS">
                   <node concept="3clFbF" id="5G4qAEn6kPb" role="3cqZAp">
@@ -7330,11 +7330,11 @@
                           <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
                         </node>
                         <node concept="liA8E" id="5G4qAEn6kPg" role="2OqNvi">
-                          <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                          <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
                         </node>
                       </node>
                       <node concept="liA8E" id="5G4qAEn6kPh" role="2OqNvi">
-                        <ref role="37wK5l" node="4_SQzDOfxLJ" resolve="getConcept" />
+                        <ref role="37wK5l" to="jks5:~ITransaction.getConcept(long)" resolve="getConcept" />
                         <node concept="37vLTw" id="5G4qAEn6kPi" role="37wK5m">
                           <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
                         </node>
@@ -7374,11 +7374,11 @@
                   <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="QurUghPsX9" role="2OqNvi">
-                  <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                  <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
                 </node>
               </node>
               <node concept="liA8E" id="QurUghPsXa" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOgNmw" resolve="getParent" />
+                <ref role="37wK5l" to="jks5:~ITransaction.getParent(long)" resolve="getParent" />
                 <node concept="37vLTw" id="QurUghPsXb" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
                 </node>
@@ -7446,11 +7446,11 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="4_SQzDOiFlh" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="4_SQzDOiFW7" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDOeddg" resolve="getProperty" />
+              <ref role="37wK5l" to="jks5:~ITransaction.getProperty(long,java.lang.String)" resolve="getProperty" />
               <node concept="37vLTw" id="4_SQzDOiFZx" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
               </node>
@@ -7490,7 +7490,7 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="5QP6xykot_Y" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="5QP6xykot_Z" role="2OqNvi">
@@ -7557,11 +7557,11 @@
                   <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="QurUgjsPoC" role="2OqNvi">
-                  <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                  <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
                 </node>
               </node>
               <node concept="liA8E" id="QurUgjsPoD" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeddw" resolve="getReferenceTarget" />
+                <ref role="37wK5l" to="jks5:~ITransaction.getReferenceTarget(long,java.lang.String)" resolve="getReferenceTarget" />
                 <node concept="37vLTw" id="QurUgjsPoE" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
                 </node>
@@ -7580,7 +7580,7 @@
                   <ref role="3cqZAo" node="QurUgjsPo$" resolve="targetRef" />
                 </node>
                 <node concept="liA8E" id="6TdxBJ4tST2" role="2OqNvi">
-                  <ref role="37wK5l" to="mjcn:5wi3nvJWiPr" resolve="resolveNode" />
+                  <ref role="37wK5l" to="jks5:~INodeReference.resolveNode(org.modelix.model.area.IArea)" resolve="resolveNode" />
                   <node concept="2ShNRf" id="6TdxBJ4tVna" role="37wK5m">
                     <node concept="1pGfFk" id="6TdxBJ4tYhq" role="2ShVmc">
                       <ref role="37wK5l" node="6TdxBJ4t1VQ" resolve="SM___PNodeResolveContext" />
@@ -7657,7 +7657,7 @@
                 <ref role="3cqZAo" node="QurUgjsPo$" resolve="targetRef" />
               </node>
               <node concept="liA8E" id="QurUgjt5Ok" role="2OqNvi">
-                <ref role="37wK5l" to="mjcn:5wi3nvJWiPr" resolve="resolveNode" />
+                <ref role="37wK5l" to="jks5:~INodeReference.resolveNode(org.modelix.model.area.IArea)" resolve="resolveNode" />
                 <node concept="37vLTw" id="1KLm$Di9fKP" role="37wK5m">
                   <ref role="3cqZAo" node="1KLm$Di9fKL" resolve="context" />
                 </node>
@@ -7694,11 +7694,11 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="4_SQzDOi4TW" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="4_SQzDOi4TX" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDOgNBE" resolve="getRole" />
+              <ref role="37wK5l" to="jks5:~ITransaction.getRole(long)" resolve="getRole" />
               <node concept="37vLTw" id="4_SQzDOi4TY" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
               </node>
@@ -7727,11 +7727,11 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="4_SQzDOix5H" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="4_SQzDOizFX" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDOi66W" resolve="containsNode" />
+              <ref role="37wK5l" to="jks5:~ITransaction.containsNode(long)" resolve="containsNode" />
               <node concept="37vLTw" id="4_SQzDOizJ7" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
               </node>
@@ -7761,11 +7761,11 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="4_SQzDOkXCR" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg8s" resolve="getWriteTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getWriteTransaction()" resolve="getWriteTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="4_SQzDOo5sA" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDOnYpN" resolve="deleteNode" />
+              <ref role="37wK5l" to="jks5:~IWriteTransaction.deleteNode(long)" resolve="deleteNode" />
               <node concept="1rXfSq" id="4_SQzDOo5xe" role="37wK5m">
                 <ref role="37wK5l" node="4_SQzDOjF4$" resolve="unwrap" />
                 <node concept="37vLTw" id="4_SQzDOo6e6" role="37wK5m">
@@ -7800,11 +7800,11 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="4_SQzDOkPBM" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg8s" resolve="getWriteTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getWriteTransaction()" resolve="getWriteTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="4_SQzDOkSNQ" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDOedJ8" resolve="setProperty" />
+              <ref role="37wK5l" to="jks5:~IWriteTransaction.setProperty(long,java.lang.String,java.lang.String)" resolve="setProperty" />
               <node concept="37vLTw" id="4_SQzDOkUam" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
               </node>
@@ -7846,7 +7846,7 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="5QP6xykoFLv" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg8s" resolve="getWriteTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getWriteTransaction()" resolve="getWriteTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="5QP6xykoFLw" role="2OqNvi">
@@ -7887,11 +7887,11 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="4_SQzDOjCjC" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg8s" resolve="getWriteTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getWriteTransaction()" resolve="getWriteTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="4_SQzDOjD6r" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDOedJt" resolve="setReferenceTarget" />
+              <ref role="37wK5l" to="jks5:~IWriteTransaction.setReferenceTarget(long,java.lang.String,org.modelix.model.api.INodeReference)" resolve="setReferenceTarget" />
               <node concept="37vLTw" id="4_SQzDOkMic" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
               </node>
@@ -7905,7 +7905,7 @@
                     <ref role="3cqZAo" node="4_SQzDOeoHx" resolve="target" />
                   </node>
                   <node concept="liA8E" id="QurUgjsMOv" role="2OqNvi">
-                    <ref role="37wK5l" to="mjcn:5gTrVpGxZ3E" resolve="getReference" />
+                    <ref role="37wK5l" to="jks5:~INode.getReference()" resolve="getReference" />
                   </node>
                 </node>
                 <node concept="3clFbC" id="QurUgjsK0j" role="3K4Cdx">
@@ -7945,11 +7945,11 @@
                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
               </node>
               <node concept="liA8E" id="7gxeZuycyEc" role="2OqNvi">
-                <ref role="37wK5l" node="4_SQzDOeg8s" resolve="getWriteTransaction" />
+                <ref role="37wK5l" to="jks5:~IBranch.getWriteTransaction()" resolve="getWriteTransaction" />
               </node>
             </node>
             <node concept="liA8E" id="7gxeZuycyEd" role="2OqNvi">
-              <ref role="37wK5l" node="4_SQzDOedJt" resolve="setReferenceTarget" />
+              <ref role="37wK5l" to="jks5:~IWriteTransaction.setReferenceTarget(long,java.lang.String,org.modelix.model.api.INodeReference)" resolve="setReferenceTarget" />
               <node concept="37vLTw" id="7gxeZuycyEe" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
               </node>
@@ -8245,7 +8245,7 @@
                     <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
                   </node>
                   <node concept="liA8E" id="5wism0x$XGE" role="2OqNvi">
-                    <ref role="37wK5l" node="4_SQzDO0k4c" resolve="computeRead" />
+                    <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                     <node concept="1bVj0M" id="5wism0x$XGF" role="37wK5m">
                       <node concept="3clFbS" id="5wism0x$XGG" role="1bW5cS">
                         <node concept="3clFbF" id="5wism0x$XGH" role="3cqZAp">
@@ -8255,11 +8255,11 @@
                                 <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
                               </node>
                               <node concept="liA8E" id="5wism0x$XGL" role="2OqNvi">
-                                <ref role="37wK5l" node="4_SQzDOeg7H" resolve="getTransaction" />
+                                <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
                               </node>
                             </node>
                             <node concept="liA8E" id="5wism0x$XGM" role="2OqNvi">
-                              <ref role="37wK5l" node="4_SQzDOfxLJ" resolve="getConcept" />
+                              <ref role="37wK5l" to="jks5:~ITransaction.getConcept(long)" resolve="getConcept" />
                               <node concept="37vLTw" id="5wism0x$XGN" role="37wK5m">
                                 <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
                               </node>
@@ -10238,7 +10238,7 @@
               <ref role="37wK5l" node="4_SQzDOqRQm" resolve="getTree" />
             </node>
             <node concept="liA8E" id="4_SQzDOiu0D" role="2OqNvi">
-              <ref role="37wK5l" node="QurUgj5beg" resolve="containsNode" />
+              <ref role="37wK5l" to="jks5:~ITree.containsNode(long)" resolve="containsNode" />
               <node concept="37vLTw" id="4_SQzDOiu3J" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOi6DZ" resolve="nodeId" />
               </node>
@@ -10268,7 +10268,7 @@
               <ref role="37wK5l" node="4_SQzDOqRQm" resolve="getTree" />
             </node>
             <node concept="liA8E" id="4_SQzDOgquR" role="2OqNvi">
-              <ref role="37wK5l" node="4TPMxtePmqE" resolve="getConcept" />
+              <ref role="37wK5l" to="jks5:~ITree.getConcept(long)" resolve="getConcept" />
               <node concept="37vLTw" id="4_SQzDOgqZp" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOgqwV" resolve="nodeId" />
               </node>
@@ -10296,7 +10296,7 @@
               <ref role="37wK5l" node="4_SQzDOqRQm" resolve="getTree" />
             </node>
             <node concept="liA8E" id="4_SQzDOi12Q" role="2OqNvi">
-              <ref role="37wK5l" node="4TPMxtePmqJ" resolve="getParent" />
+              <ref role="37wK5l" to="jks5:~ITree.getParent(long)" resolve="getParent" />
               <node concept="37vLTw" id="4_SQzDOi1SK" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOi157" resolve="nodeId" />
               </node>
@@ -10324,7 +10324,7 @@
               <ref role="37wK5l" node="4_SQzDOqRQm" resolve="getTree" />
             </node>
             <node concept="liA8E" id="4_SQzDOi2Mm" role="2OqNvi">
-              <ref role="37wK5l" node="4TPMxtePmqP" resolve="getRole" />
+              <ref role="37wK5l" to="jks5:~ITree.getRole(long)" resolve="getRole" />
               <node concept="37vLTw" id="4_SQzDOi2Pf" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOi1E_" resolve="nodeId" />
               </node>
@@ -10356,7 +10356,7 @@
               <ref role="37wK5l" node="4_SQzDOqRQm" resolve="getTree" />
             </node>
             <node concept="liA8E" id="4_SQzDOcURL" role="2OqNvi">
-              <ref role="37wK5l" node="7Zr9caIGyVA" resolve="getProperty" />
+              <ref role="37wK5l" to="jks5:~ITree.getProperty(long,java.lang.String)" resolve="getProperty" />
               <node concept="37vLTw" id="4_SQzDOcUTG" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOcP1R" resolve="nodeId" />
               </node>
@@ -10432,7 +10432,7 @@
               <ref role="37wK5l" node="4_SQzDOqRQm" resolve="getTree" />
             </node>
             <node concept="liA8E" id="4_SQzDOd0rs" role="2OqNvi">
-              <ref role="37wK5l" node="4TPMxtePmrc" resolve="getReferenceTarget" />
+              <ref role="37wK5l" to="jks5:~ITree.getReferenceTarget(long,java.lang.String)" resolve="getReferenceTarget" />
               <node concept="37vLTw" id="4_SQzDOd0tL" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOcP30" resolve="sourceId" />
               </node>
@@ -10469,7 +10469,7 @@
               <ref role="37wK5l" node="4_SQzDOqRQm" resolve="getTree" />
             </node>
             <node concept="liA8E" id="4_SQzDOdjIk" role="2OqNvi">
-              <ref role="37wK5l" node="7Zr9caIHEiV" resolve="getChildren" />
+              <ref role="37wK5l" to="jks5:~ITree.getChildren(long,java.lang.String)" resolve="getChildren" />
               <node concept="37vLTw" id="4_SQzDOdkfe" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOcP49" resolve="parentId" />
               </node>
@@ -10502,7 +10502,7 @@
               <ref role="37wK5l" node="4_SQzDOqRQm" resolve="getTree" />
             </node>
             <node concept="liA8E" id="4_SQzDOdpud" role="2OqNvi">
-              <ref role="37wK5l" node="4TPMxtePmrU" resolve="getAllChildren" />
+              <ref role="37wK5l" to="jks5:~ITree.getAllChildren(long)" resolve="getAllChildren" />
               <node concept="37vLTw" id="4_SQzDOdpVc" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOcP4E" resolve="parentId" />
               </node>
@@ -10763,7 +10763,7 @@
                   <ref role="37wK5l" node="4_SQzDOcDqm" resolve="getTree" />
                 </node>
                 <node concept="liA8E" id="7FcLFF4daX0" role="2OqNvi">
-                  <ref role="37wK5l" node="7Zr9caIGyVA" resolve="getProperty" />
+                  <ref role="37wK5l" to="jks5:~ITree.getProperty(long,java.lang.String)" resolve="getProperty" />
                   <node concept="37vLTw" id="7FcLFF4daX1" role="37wK5m">
                     <ref role="3cqZAo" node="7FcLFF4d3YF" resolve="nodeId" />
                   </node>
@@ -10830,7 +10830,7 @@
                   <ref role="37wK5l" node="4_SQzDOcDqm" resolve="getTree" />
                 </node>
                 <node concept="liA8E" id="7FcLFF4diw0" role="2OqNvi">
-                  <ref role="37wK5l" node="4TPMxtePmrc" resolve="getReferenceTarget" />
+                  <ref role="37wK5l" to="jks5:~ITree.getReferenceTarget(long,java.lang.String)" resolve="getReferenceTarget" />
                   <node concept="37vLTw" id="7FcLFF4diw1" role="37wK5m">
                     <ref role="3cqZAo" node="7FcLFF4d3Zb" resolve="sourceId" />
                   </node>
@@ -10897,7 +10897,7 @@
                   <ref role="37wK5l" node="4_SQzDOcDqm" resolve="getTree" />
                 </node>
                 <node concept="liA8E" id="7FcLFF4dmkb" role="2OqNvi">
-                  <ref role="37wK5l" node="7Zr9caIHEiV" resolve="getChildren" />
+                  <ref role="37wK5l" to="jks5:~ITree.getChildren(long,java.lang.String)" resolve="getChildren" />
                   <node concept="37vLTw" id="7FcLFF4dmkc" role="37wK5m">
                     <ref role="3cqZAo" node="7FcLFF4d3Zr" resolve="parentId" />
                   </node>
@@ -10964,7 +10964,7 @@
                   <ref role="37wK5l" node="4_SQzDOcDqm" resolve="getTree" />
                 </node>
                 <node concept="liA8E" id="7FcLFF4dqTb" role="2OqNvi">
-                  <ref role="37wK5l" node="4TPMxtePmrU" resolve="getAllChildren" />
+                  <ref role="37wK5l" to="jks5:~ITree.getAllChildren(long)" resolve="getAllChildren" />
                   <node concept="37vLTw" id="7FcLFF4dqTc" role="37wK5m">
                     <ref role="3cqZAo" node="7FcLFF4d3ZG" resolve="parentId" />
                   </node>
@@ -11250,7 +11250,7 @@
                 <ref role="37wK5l" node="5QP6xyjFx4n" resolve="getTree" />
               </node>
               <node concept="liA8E" id="4_SQzDOcXSL" role="2OqNvi">
-                <ref role="37wK5l" node="4TPMxtePmr3" resolve="setProperty" />
+                <ref role="37wK5l" to="jks5:~ITree.setProperty(long,java.lang.String,java.lang.String)" resolve="setProperty" />
                 <node concept="37vLTw" id="4_SQzDOcXSM" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDOcP2n" resolve="nodeId" />
                 </node>
@@ -11357,7 +11357,7 @@
                 <ref role="37wK5l" node="5QP6xyjFx4n" resolve="getTree" />
               </node>
               <node concept="liA8E" id="4_SQzDOd3yr" role="2OqNvi">
-                <ref role="37wK5l" node="4TPMxtePmrj" resolve="setReferenceTarget" />
+                <ref role="37wK5l" to="jks5:~ITree.setReferenceTarget(long,java.lang.String,org.modelix.model.api.INodeReference)" resolve="setReferenceTarget" />
                 <node concept="37vLTw" id="4_SQzDOd3B5" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDOcP3w" resolve="sourceId" />
                 </node>
@@ -11416,7 +11416,7 @@
                 <ref role="37wK5l" node="5QP6xyjFx4n" resolve="getTree" />
               </node>
               <node concept="liA8E" id="4_SQzDOduoF" role="2OqNvi">
-                <ref role="37wK5l" node="4TPMxtePms1" resolve="moveChild" />
+                <ref role="37wK5l" to="jks5:~ITree.moveChild(long,java.lang.String,int,long)" resolve="moveChild" />
                 <node concept="37vLTw" id="4_SQzDOdvwM" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDOcP5a" resolve="newParentId" />
                 </node>
@@ -11554,7 +11554,7 @@
                 <ref role="37wK5l" node="5QP6xyjFx4n" resolve="getTree" />
               </node>
               <node concept="liA8E" id="4TPMxteW_wO" role="2OqNvi">
-                <ref role="37wK5l" node="4TPMxtePmsc" resolve="addNewChild" />
+                <ref role="37wK5l" to="jks5:~ITree.addNewChild(long,java.lang.String,int,long,org.modelix.model.api.IConcept)" resolve="addNewChild" />
                 <node concept="37vLTw" id="4TPMxteW_wP" role="37wK5m">
                   <ref role="3cqZAo" node="4TPMxteW_wt" resolve="parentId" />
                 </node>
@@ -11642,7 +11642,7 @@
               <ref role="37wK5l" node="5QP6xyjFx4n" resolve="getTree" />
             </node>
             <node concept="liA8E" id="QurUgj8Rk_" role="2OqNvi">
-              <ref role="37wK5l" node="4TPMxtePmrU" resolve="getAllChildren" />
+              <ref role="37wK5l" to="jks5:~ITree.getAllChildren(long)" resolve="getAllChildren" />
               <node concept="37vLTw" id="QurUgj8Rq1" role="37wK5m">
                 <ref role="3cqZAo" node="4_SQzDOo1ti" resolve="nodeId" />
               </node>
@@ -11669,7 +11669,7 @@
                 <ref role="37wK5l" node="5QP6xyjFx4n" resolve="getTree" />
               </node>
               <node concept="liA8E" id="4_SQzDOo2Gk" role="2OqNvi">
-                <ref role="37wK5l" node="4TPMxtePmsm" resolve="deleteNode" />
+                <ref role="37wK5l" to="jks5:~ITree.deleteNode(long)" resolve="deleteNode" />
                 <node concept="37vLTw" id="4_SQzDOo2Jp" role="37wK5m">
                   <ref role="3cqZAo" node="4_SQzDOo1ti" resolve="nodeId" />
                 </node>

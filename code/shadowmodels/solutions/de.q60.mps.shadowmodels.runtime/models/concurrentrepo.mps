@@ -1344,7 +1344,7 @@
                         <node concept="3cpWsn" id="2e4kaHtvybk" role="3cpWs9">
                           <property role="TrG5h" value="outputTarget" />
                           <node concept="3uibUv" id="2e4kaHtvybl" role="1tU5fm">
-                            <ref role="3uigEE" to="mjcn:5gTrVpGiJqG" resolve="SM___INodeReference" />
+                            <ref role="3uigEE" to="jks5:~INodeReference" resolve="INodeReference" />
                           </node>
                           <node concept="3K4zz7" id="2e4kaHtvybm" role="33vP2m">
                             <node concept="10Nm6u" id="2e4kaHtvybn" role="3K4E3e" />
@@ -3105,7 +3105,7 @@
                                     <node concept="3cpWsn" id="QurUgju3j7" role="3cpWs9">
                                       <property role="TrG5h" value="outputTargetRef" />
                                       <node concept="3uibUv" id="QurUgju3iM" role="1tU5fm">
-                                        <ref role="3uigEE" to="mjcn:5gTrVpGiJqG" resolve="SM___INodeReference" />
+                                        <ref role="3uigEE" to="jks5:~INodeReference" resolve="INodeReference" />
                                       </node>
                                       <node concept="3K4zz7" id="QurUgju3j8" role="33vP2m">
                                         <node concept="10Nm6u" id="QurUgju3j9" role="3K4E3e" />
@@ -5040,7 +5040,7 @@
       <node concept="37vLTG" id="QurUgiyUMn" role="3clF46">
         <property role="TrG5h" value="ref" />
         <node concept="3uibUv" id="QurUgiyUMo" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiJqG" resolve="SM___INodeReference" />
+          <ref role="3uigEE" to="jks5:~INodeReference" resolve="INodeReference" />
         </node>
       </node>
       <node concept="3uibUv" id="QurUgiyUMp" role="3clF45">
@@ -6945,7 +6945,7 @@
                         <node concept="3cpWsb" id="7gxeZuyC8BB" role="1tU5fm" />
                       </node>
                       <node concept="3uibUv" id="7gxeZuyCq3d" role="3clF45">
-                        <ref role="3uigEE" to="mjcn:5gTrVpGiJqG" resolve="SM___INodeReference" />
+                        <ref role="3uigEE" to="jks5:~INodeReference" resolve="INodeReference" />
                       </node>
                       <node concept="3Tm1VV" id="7gxeZuyC7IS" role="1B3o_S" />
                       <node concept="3clFbS" id="7gxeZuyC7IT" role="3clF47">

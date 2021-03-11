@@ -346,7 +346,7 @@
       <property role="TrG5h" value="getProperties" />
       <node concept="A3Dl8" id="2ePp5XuOLC1" role="3clF45">
         <node concept="3uibUv" id="2ePp5XuOLCA" role="A3Ik2">
-          <ref role="3uigEE" node="2ePp5XuOLlW" resolve="SM___IProperty" />
+          <ref role="3uigEE" to="jks5:~IProperty" resolve="IProperty" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2ePp5XuOLk4" role="1B3o_S" />
@@ -356,7 +356,7 @@
       <property role="TrG5h" value="getChildLinks" />
       <node concept="A3Dl8" id="2ePp5XuOLCT" role="3clF45">
         <node concept="3uibUv" id="2ePp5XuOLFw" role="A3Ik2">
-          <ref role="3uigEE" node="2ePp5XuOLns" resolve="SM___IChildLink" />
+          <ref role="3uigEE" to="jks5:~IChildLink" resolve="IChildLink" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2ePp5XuOLCV" role="1B3o_S" />
@@ -366,7 +366,7 @@
       <property role="TrG5h" value="getReferenceLinks" />
       <node concept="A3Dl8" id="2ePp5XuOLFT" role="3clF45">
         <node concept="3uibUv" id="2ePp5XuOLHX" role="A3Ik2">
-          <ref role="3uigEE" node="2ePp5XuOLqY" resolve="SM___IReferenceLink" />
+          <ref role="3uigEE" to="jks5:~IReferenceLink" resolve="IReferenceLink" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2ePp5XuOLFV" role="1B3o_S" />
@@ -380,7 +380,7 @@
         <node concept="17QB3L" id="3Ezg1fMM5ce" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="3Ezg1fMM5so" role="3clF45">
-        <ref role="3uigEE" node="2ePp5XuOLlW" resolve="SM___IProperty" />
+        <ref role="3uigEE" to="jks5:~IProperty" resolve="IProperty" />
       </node>
       <node concept="3Tm1VV" id="3Ezg1fMM4GW" role="1B3o_S" />
       <node concept="3clFbS" id="3Ezg1fMM4GX" role="3clF47" />
@@ -392,7 +392,7 @@
         <node concept="17QB3L" id="3Ezg1fMM5eU" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="3Ezg1fMM5eV" role="3clF45">
-        <ref role="3uigEE" node="2ePp5XuOLns" resolve="SM___IChildLink" />
+        <ref role="3uigEE" to="jks5:~IChildLink" resolve="IChildLink" />
       </node>
       <node concept="3Tm1VV" id="3Ezg1fMM5eW" role="1B3o_S" />
       <node concept="3clFbS" id="3Ezg1fMM5eX" role="3clF47" />
@@ -404,7 +404,7 @@
         <node concept="17QB3L" id="3Ezg1fMM5k3" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="3Ezg1fMM5ug" role="3clF45">
-        <ref role="3uigEE" node="2ePp5XuOLqY" resolve="SM___IReferenceLink" />
+        <ref role="3uigEE" to="jks5:~IReferenceLink" resolve="IReferenceLink" />
       </node>
       <node concept="3Tm1VV" id="3Ezg1fMM5k5" role="1B3o_S" />
       <node concept="3clFbS" id="3Ezg1fMM5k6" role="3clF47" />

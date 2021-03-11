@@ -2115,7 +2115,7 @@
                 <ref role="37wK5l" to="dglc:61gRJt5gwlk" resolve="getOriginalNode" />
                 <node concept="2YIFZM" id="61gRJt5hblT" role="37wK5m">
                   <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
-                  <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                  <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SM___SNodeToNodeAdapter" />
                   <node concept="3kvyP4" id="61gRJt5hblU" role="37wK5m">
                     <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
                   </node>
@@ -2214,7 +2214,7 @@
                 <node concept="3clFbS" id="41QOk3IFn47" role="1bW5cS">
                   <node concept="3clFbF" id="41QOk3IFndE" role="3cqZAp">
                     <node concept="2YIFZM" id="1TwRhL0_v6c" role="3clFbG">
-                      <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SNodeAPI" />
+                      <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
                       <ref role="37wK5l" to="l6bp:7uapjVAY0et" resolve="tryGetUnwrappedNode" />
                       <node concept="37vLTw" id="1TwRhL0_xbX" role="37wK5m">
                         <ref role="3cqZAo" node="41QOk3IEF5z" resolve="snode" />
@@ -2241,7 +2241,7 @@
                 <ref role="3uigEE" to="nv3w:2dy3jLYuT3w" resolve="IStageReference" />
               </node>
               <node concept="2YIFZM" id="8DLjzh0iEb" role="33vP2m">
-                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                 <ref role="37wK5l" to="l6bp:8DLjzgXfvl" resolve="getSubgraphStage" />
                 <node concept="3kvyP4" id="8DLjzh0iEc" role="37wK5m">
                   <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
@@ -2257,7 +2257,7 @@
               </node>
               <node concept="2YIFZM" id="7pNuz6A2iQl" role="33vP2m">
                 <ref role="37wK5l" to="l6bp:7pNuz6_RGYZ" resolve="getScope" />
-                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                 <node concept="3kvyP4" id="7pNuz6A2j61" role="37wK5m">
                   <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
                 </node>
@@ -2273,7 +2273,7 @@
               <node concept="2OqwBi" id="5ndwm32Mm2O" role="33vP2m">
                 <node concept="2OqwBi" id="5ndwm32Mm2P" role="2Oq$k0">
                   <node concept="2YIFZM" id="5BuKZPIhor1" role="2Oq$k0">
-                    <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                    <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                     <ref role="37wK5l" to="l6bp:4JmkJs3QLSn" resolve="tryGetInputNodes" />
                     <node concept="3kvyP4" id="5BuKZPIhor2" role="37wK5m">
                       <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
@@ -2285,7 +2285,7 @@
                         <node concept="3clFbF" id="5ndwm32Mm2V" role="3cqZAp">
                           <node concept="2YIFZM" id="5ndwm32Mm2W" role="3clFbG">
                             <ref role="37wK5l" to="l6bp:8DLjzgXfvl" resolve="getSubgraphStage" />
-                            <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                            <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                             <node concept="37vLTw" id="5ndwm32Mm2X" role="37wK5m">
                               <ref role="3cqZAo" node="5ndwm32Mm2Y" resolve="it" />
                             </node>
@@ -2430,7 +2430,7 @@
                           </node>
                           <node concept="2YIFZM" id="8DLjzgX_$s" role="33vP2m">
                             <ref role="37wK5l" to="l6bp:8DLjzgXfvl" resolve="getSubgraphStage" />
-                            <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                            <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                             <node concept="2GrUjf" id="8DLjzgX_$t" role="37wK5m">
                               <ref role="2Gs0qQ" node="6$M6y1f0mJl" resolve="child" />
                             </node>
@@ -2446,7 +2446,7 @@
                                 <ref role="3uigEE" to="nv3w:FQthXbfh3h" resolve="IScope" />
                               </node>
                               <node concept="2YIFZM" id="7pNuz6_RYcm" role="33vP2m">
-                                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                                 <ref role="37wK5l" to="l6bp:7pNuz6_RGYZ" resolve="getScope" />
                                 <node concept="2GrUjf" id="7pNuz6_RYns" role="37wK5m">
                                   <ref role="2Gs0qQ" node="6$M6y1f0mJl" resolve="child" />
@@ -2744,7 +2744,7 @@
                               </node>
                               <node concept="2YIFZM" id="5ndwm32NRQZ" role="33vP2m">
                                 <ref role="37wK5l" to="l6bp:8DLjzgXfvl" resolve="getSubgraphStage" />
-                                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                                 <node concept="2GrUjf" id="5ndwm32NYYO" role="37wK5m">
                                   <ref role="2Gs0qQ" node="5ndwm32NO7i" resolve="childInput" />
                                 </node>
@@ -2806,7 +2806,7 @@
                         </node>
                         <node concept="2YIFZM" id="5BuKZPIiBLt" role="2GsD0m">
                           <ref role="37wK5l" to="l6bp:4JmkJs3QLSn" resolve="tryGetInputNodes" />
-                          <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                          <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                           <node concept="2GrUjf" id="5BuKZPIiBLu" role="37wK5m">
                             <ref role="2Gs0qQ" node="6$M6y1f0mJl" resolve="child" />
                           </node>
@@ -3084,7 +3084,7 @@
               </node>
               <node concept="2YIFZM" id="6$M6y1f3_h5" role="33vP2m">
                 <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
-                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                 <node concept="3kvyP4" id="6$M6y1f3_h6" role="37wK5m">
                   <ref role="3kvyN1" node="41QOk3IEF6M" resolve="element" />
                 </node>
@@ -3174,7 +3174,7 @@
                 <ref role="3uigEE" to="nv3w:3kkgokiK8h8" resolve="IResultElement" />
               </node>
               <node concept="2YIFZM" id="5ndwm32RXs5" role="33vP2m">
-                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
                 <ref role="37wK5l" to="l6bp:5wnrAmUgZbG" resolve="getResultElement" />
                 <node concept="2OqwBi" id="5ndwm32RXs6" role="37wK5m">
                   <node concept="3kvyP4" id="5ndwm32RXs7" role="2Oq$k0">
@@ -3301,7 +3301,7 @@
                 </node>
                 <node concept="2YIFZM" id="61gRJt5lQpG" role="3K4GZi">
                   <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                  <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+                  <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
                   <node concept="3kvyP4" id="61gRJt5lQpH" role="37wK5m">
                     <ref role="3kvyN1" node="1_qG3hO1KpN" resolve="element" />
                   </node>
@@ -3319,7 +3319,7 @@
         <node concept="3khFPE" id="1_qG3hO1KpN" role="3kuS7x">
           <property role="TrG5h" value="element" />
           <node concept="3uibUv" id="1_qG3hO1Nli" role="3khFNI">
-            <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+            <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
           </node>
         </node>
       </node>
@@ -3821,7 +3821,7 @@
         <node concept="3khFPE" id="6yk5G9LQuST" role="3kuS7x">
           <property role="TrG5h" value="rule" />
           <node concept="3uibUv" id="6yk5G9LQzxm" role="3khFNI">
-            <ref role="3uigEE" to="l6bp:6yk5G9LOul3" resolve="GeneratedTransformationRule" />
+            <ref role="3uigEE" to="l6bp:6yk5G9LOul3" resolve="SM___GeneratedTransformationRule" />
           </node>
         </node>
       </node>
@@ -5547,7 +5547,7 @@
           <node concept="2M0cAz" id="21SKqk9OWce" role="3cqZAk">
             <ref role="2M0c$$" to="yo94:55FR5saAszt" resolve="toString" />
             <node concept="2YIFZM" id="55FR5saCMro" role="2M0c$y">
-              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
               <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
               <node concept="3kvyP4" id="55FR5saCN$N" role="37wK5m">
                 <ref role="3kvyN1" node="55FR5saCDnR" resolve="element" />
@@ -5559,7 +5559,7 @@
       <node concept="3khFPE" id="55FR5saCDnR" role="3kuS7x">
         <property role="TrG5h" value="element" />
         <node concept="3uibUv" id="55FR5saCHPY" role="3khFNI">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
         </node>
       </node>
     </node>
@@ -5577,7 +5577,7 @@
         <node concept="3clFbF" id="3vEzWiOKN5h" role="3cqZAp">
           <node concept="2YIFZM" id="3vEzWiOKNeG" role="3clFbG">
             <ref role="37wK5l" to="l6bp:3vEzWiOIRS5" resolve="runRead" />
-            <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SNodeAPI" />
+            <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
             <node concept="3kvyP4" id="3vEzWiOKNeS" role="37wK5m">
               <ref role="3kvyN1" node="21SKqk9OISZ" resolve="element" />
             </node>
@@ -6431,7 +6431,7 @@
         <node concept="3khFPE" id="8DLjzh8h4V" role="3kuS7x">
           <property role="TrG5h" value="o" />
           <node concept="3uibUv" id="8DLjzh8l3O" role="3khFNI">
-            <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+            <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
           </node>
         </node>
       </node>
@@ -7523,7 +7523,7 @@
                   <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
                   <ref role="37wK5l" to="dglc:61gRJt5gwlk" resolve="getOriginalNode" />
                   <node concept="2YIFZM" id="1rUziX7u8EC" role="37wK5m">
-                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SM___SNodeToNodeAdapter" />
                     <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
                     <node concept="3kvyP4" id="1rUziX7u8ED" role="37wK5m">
                       <ref role="3kvyN1" node="1rUziX7u8qi" resolve="element" />
@@ -7624,7 +7624,7 @@
                     <node concept="3clFbF" id="1rUziX7u8Fe" role="3cqZAp">
                       <node concept="2YIFZM" id="1rUziX7u8Ff" role="3clFbG">
                         <ref role="37wK5l" to="l6bp:7uapjVAY0et" resolve="tryGetUnwrappedNode" />
-                        <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SNodeAPI" />
+                        <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
                         <node concept="37vLTw" id="1rUziX7u8Fg" role="37wK5m">
                           <ref role="3cqZAo" node="1rUziX7u8EI" resolve="snode" />
                         </node>
@@ -8054,7 +8054,7 @@
           </node>
           <node concept="2ZW3vV" id="2CK1QGR$uAu" role="3clFbw">
             <node concept="3uibUv" id="2CK1QGR$uAv" role="2ZW6by">
-              <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="ShadowModel" />
+              <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="SM___ShadowModel" />
             </node>
             <node concept="2OqwBi" id="2CK1QGR$uAw" role="2ZW6bz">
               <node concept="37vLTw" id="2CK1QGR$uAx" role="2Oq$k0">
@@ -8070,7 +8070,7 @@
           <node concept="3clFbC" id="2CK1QGR$uA$" role="3clFbG">
             <node concept="10Nm6u" id="2CK1QGR$uA_" role="3uHU7w" />
             <node concept="2YIFZM" id="2CK1QGR$uAA" role="3uHU7B">
-              <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SNodeAPI" />
+              <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
               <ref role="37wK5l" to="l6bp:3KKRs1ArmiX" resolve="getOriginalNode" />
               <node concept="37vLTw" id="2CK1QGR$uAB" role="37wK5m">
                 <ref role="3cqZAo" node="2CK1QGR$uAC" resolve="node" />

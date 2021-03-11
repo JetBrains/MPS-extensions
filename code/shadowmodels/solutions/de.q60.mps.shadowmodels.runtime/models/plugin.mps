@@ -444,13 +444,13 @@
       <property role="TrG5h" value="changeTranslator" />
       <node concept="3Tm6S6" id="3jGmESsMQXr" role="1B3o_S" />
       <node concept="3uibUv" id="3jGmESsMR3z" role="1tU5fm">
-        <ref role="3uigEE" to="l6bp:3jGmESsJegk" resolve="RepositoryChangeTranslator" />
+        <ref role="3uigEE" to="l6bp:3jGmESsJegk" resolve="SM___RepositoryChangeTranslator" />
       </node>
       <node concept="2ShNRf" id="3jGmESsMR3U" role="33vP2m">
         <node concept="YeOm9" id="3jGmESsMU7T" role="2ShVmc">
           <node concept="1Y3b0j" id="3jGmESsMU7W" role="YeSDq">
             <property role="2bfB8j" value="true" />
-            <ref role="1Y3XeK" to="l6bp:3jGmESsJegk" resolve="RepositoryChangeTranslator" />
+            <ref role="1Y3XeK" to="l6bp:3jGmESsJegk" resolve="SM___RepositoryChangeTranslator" />
             <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
             <node concept="3Tm1VV" id="3jGmESsMU7X" role="1B3o_S" />
             <node concept="3clFb_" id="3jGmESsMU9Q" role="jymVt">
@@ -538,7 +538,7 @@
           <node concept="2OqwBi" id="3zTK92KPpQT" role="3clFbG">
             <node concept="2YIFZM" id="3zTK92KPpvL" role="2Oq$k0">
               <ref role="37wK5l" to="l6bp:3zTK92KPmA1" resolve="getInstance" />
-              <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="TransformationsFromGlobalRepository" />
+              <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="SM___TransformationsFromGlobalRepository" />
             </node>
             <node concept="liA8E" id="3zTK92KPqhC" role="2OqNvi">
               <ref role="37wK5l" to="l6bp:3zTK92KPneu" resolve="dispose" />
@@ -1159,7 +1159,7 @@
                   </node>
                   <node concept="2ZW3vV" id="6AlUJyrxJsh" role="3clFbw">
                     <node concept="3uibUv" id="6AlUJyrxJLy" role="2ZW6by">
-                      <ref role="3uigEE" to="l6bp:115Xaa43tZI" resolve="ShadowModule" />
+                      <ref role="3uigEE" to="l6bp:115Xaa43tZI" resolve="SM___ShadowModule" />
                     </node>
                     <node concept="37vLTw" id="6AlUJyrxJc3" role="2ZW6bz">
                       <ref role="3cqZAo" node="6AlUJyrxacw" resolve="m" />
@@ -2848,7 +2848,7 @@
                     </node>
                     <node concept="UnYns" id="115Xaa44$Do" role="2OqNvi">
                       <node concept="3uibUv" id="115Xaa45hRw" role="UnYnz">
-                        <ref role="3uigEE" to="l6bp:115Xaa43tZI" resolve="ShadowModule" />
+                        <ref role="3uigEE" to="l6bp:115Xaa43tZI" resolve="SM___ShadowModule" />
                       </node>
                     </node>
                   </node>
@@ -3539,7 +3539,7 @@
               </node>
               <node concept="2ZW3vV" id="TC$M5wTP9v" role="3clFbw">
                 <node concept="3uibUv" id="TC$M5wTPub" role="2ZW6by">
-                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="ShadowModel" />
+                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="SM___ShadowModel" />
                 </node>
                 <node concept="2GrUjf" id="TC$M5wTON3" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="TC$M5wTLw_" resolve="model" />
@@ -3620,7 +3620,7 @@
               </node>
               <node concept="2ZW3vV" id="TC$M5wTPSg" role="3clFbw">
                 <node concept="3uibUv" id="TC$M5wTPSh" role="2ZW6by">
-                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="ShadowModel" />
+                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="SM___ShadowModel" />
                 </node>
                 <node concept="2GrUjf" id="TC$M5wTPSi" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="TC$M5wTPS6" resolve="model" />
@@ -3701,7 +3701,7 @@
               </node>
               <node concept="2ZW3vV" id="TC$M5wTQ8t" role="3clFbw">
                 <node concept="3uibUv" id="TC$M5wTQ8u" role="2ZW6by">
-                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="ShadowModel" />
+                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="SM___ShadowModel" />
                 </node>
                 <node concept="2GrUjf" id="TC$M5wTQ8v" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="TC$M5wTQ8j" resolve="model" />
@@ -3791,7 +3791,7 @@
               </node>
               <node concept="2ZW3vV" id="TC$M5wTQoS" role="3clFbw">
                 <node concept="3uibUv" id="TC$M5wTQoT" role="2ZW6by">
-                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="ShadowModel" />
+                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="SM___ShadowModel" />
                 </node>
                 <node concept="2GrUjf" id="TC$M5wTQoU" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="TC$M5wTQoI" resolve="model" />
@@ -3881,7 +3881,7 @@
               </node>
               <node concept="2ZW3vV" id="TC$M5wTQD$" role="3clFbw">
                 <node concept="3uibUv" id="TC$M5wTQD_" role="2ZW6by">
-                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="ShadowModel" />
+                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="SM___ShadowModel" />
                 </node>
                 <node concept="2GrUjf" id="TC$M5wTQDA" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="TC$M5wTQDq" resolve="model" />
@@ -3971,7 +3971,7 @@
               </node>
               <node concept="2ZW3vV" id="TC$M5wTQUu" role="3clFbw">
                 <node concept="3uibUv" id="TC$M5wTQUv" role="2ZW6by">
-                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="ShadowModel" />
+                  <ref role="3uigEE" to="l6bp:4QZGLsLEOdM" resolve="SM___ShadowModel" />
                 </node>
                 <node concept="2GrUjf" id="TC$M5wTQUw" role="2ZW6bz">
                   <ref role="2Gs0qQ" node="TC$M5wTQUk" resolve="model" />
@@ -4040,7 +4040,7 @@
           <node concept="2OqwBi" id="43OnoQB0zMF" role="3clFbG">
             <node concept="2YIFZM" id="43OnoQB0zH7" role="2Oq$k0">
               <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM___RepositoryModulesManager" />
             </node>
             <node concept="liA8E" id="43OnoQB1Mre" role="2OqNvi">
               <ref role="37wK5l" to="l6bp:43OnoQB0HHh" resolve="invalidateAll" />
@@ -4051,7 +4051,7 @@
           <node concept="2OqwBi" id="3fc1D1kYalf" role="3clFbG">
             <node concept="2YIFZM" id="3fc1D1kYa06" role="2Oq$k0">
               <ref role="37wK5l" to="l6bp:3zTK92KPmA1" resolve="getInstance" />
-              <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="TransformationsFromGlobalRepository" />
+              <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="SM___TransformationsFromGlobalRepository" />
             </node>
             <node concept="liA8E" id="3fc1D1kYaHV" role="2OqNvi">
               <ref role="37wK5l" to="l6bp:3zTK92KPttI" resolve="invalidate" />
@@ -4114,7 +4114,7 @@
         <node concept="3clFbF" id="7zI2priTQfw" role="3cqZAp">
           <node concept="2YIFZM" id="7zI2priTQnT" role="3clFbG">
             <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM___RepositoryModulesManager" />
           </node>
         </node>
       </node>
@@ -5046,11 +5046,11 @@
           <node concept="3cpWsn" id="5wHEIYKLK3T" role="3cpWs9">
             <property role="TrG5h" value="instance" />
             <node concept="3uibUv" id="5wHEIYKLK3Q" role="1tU5fm">
-              <ref role="3uigEE" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+              <ref role="3uigEE" to="l6bp:7YhLqbpfZWY" resolve="SM___RepositoryModulesManager" />
             </node>
             <node concept="2ShNRf" id="5wHEIYKLK3U" role="33vP2m">
               <node concept="HV5vD" id="5wHEIYKLK3V" role="2ShVmc">
-                <ref role="HV5vE" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                <ref role="HV5vE" to="l6bp:7YhLqbpfZWY" resolve="SM___RepositoryModulesManager" />
               </node>
             </node>
           </node>
@@ -5058,7 +5058,7 @@
         <node concept="3clFbF" id="5wHEIYKLIRg" role="3cqZAp">
           <node concept="2YIFZM" id="5wHEIYKLIRC" role="3clFbG">
             <ref role="37wK5l" to="l6bp:5wHEIYKLCwf" resolve="setInstance" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM___RepositoryModulesManager" />
             <node concept="37vLTw" id="5wHEIYKLK3W" role="37wK5m">
               <ref role="3cqZAo" node="5wHEIYKLK3T" resolve="instance" />
             </node>
@@ -5089,11 +5089,11 @@
           <node concept="3cpWsn" id="5wHEIYKLM2M" role="3cpWs9">
             <property role="TrG5h" value="instance" />
             <node concept="3uibUv" id="5wHEIYKLM2K" role="1tU5fm">
-              <ref role="3uigEE" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+              <ref role="3uigEE" to="l6bp:7YhLqbpfZWY" resolve="SM___RepositoryModulesManager" />
             </node>
             <node concept="2YIFZM" id="5wHEIYKLM2N" role="33vP2m">
               <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM___RepositoryModulesManager" />
             </node>
           </node>
         </node>
@@ -5110,7 +5110,7 @@
         <node concept="3clFbF" id="5wHEIYKLNvE" role="3cqZAp">
           <node concept="2YIFZM" id="5wHEIYKLNx6" role="3clFbG">
             <ref role="37wK5l" to="l6bp:5wHEIYKLCwf" resolve="setInstance" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM___RepositoryModulesManager" />
             <node concept="10Nm6u" id="5wHEIYKLNBK" role="37wK5m" />
           </node>
         </node>
@@ -5137,7 +5137,7 @@
         <node concept="3clFbF" id="2CK1QGRnZCq" role="3cqZAp">
           <node concept="2YIFZM" id="2CK1QGRnZEs" role="3clFbG">
             <ref role="37wK5l" to="l6bp:3Gcr_8xKHvg" resolve="clearInstancesCache" />
-            <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+            <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
           </node>
         </node>
       </node>

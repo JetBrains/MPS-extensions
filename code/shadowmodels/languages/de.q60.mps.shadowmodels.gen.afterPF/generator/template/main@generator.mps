@@ -161,7 +161,7 @@
       <ref role="30HIoZ" to="oyp0:4FwMpYIttwr" resolve="ShadowmodelNodeType" />
       <node concept="gft3U" id="7WfC1hyKFPV" role="1lVwrX">
         <node concept="3uibUv" id="7WfC1hyRTeN" role="gfFT$">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
         </node>
       </node>
     </node>

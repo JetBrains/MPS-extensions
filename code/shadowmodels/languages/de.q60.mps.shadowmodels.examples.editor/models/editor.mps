@@ -249,7 +249,7 @@
                       <property role="TrG5h" value="output" />
                       <node concept="A3Dl8" id="7NatPTM2Yqg" role="1tU5fm">
                         <node concept="3uibUv" id="7NatPTM2Yqj" role="A3Ik2">
-                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="7NatPTM2Yqn" role="33vP2m">
@@ -275,7 +275,7 @@
                                   </node>
                                   <node concept="2YIFZM" id="7NatPTM2Yqv" role="2HTEbv">
                                     <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
-                                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SM___SNodeToNodeAdapter" />
                                     <node concept="2OqwBi" id="7NatPTM2Yqw" role="37wK5m">
                                       <node concept="pncrf" id="7NatPTM2Yqx" role="2Oq$k0" />
                                       <node concept="3TrEf2" id="7NatPTM2Yqy" role="2OqNvi">
@@ -330,9 +330,9 @@
                             <ref role="37wK5l" to="22ra:~UpdateSession.updateChildNodeCell(org.jetbrains.mps.openapi.model.SNode)" resolve="updateChildNodeCell" />
                             <node concept="2YIFZM" id="75046mlRUOD" role="37wK5m">
                               <ref role="37wK5l" to="l6bp:75046mlPk8L" resolve="wrap" />
-                              <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
+                              <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="SM___ANode" />
                               <node concept="2YIFZM" id="7NatPTM30i0" role="37wK5m">
-                                <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+                                <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
                                 <ref role="37wK5l" to="l6bp:75046mm7IDU" resolve="wrap" />
                                 <node concept="2OqwBi" id="7NatPTM31kF" role="37wK5m">
                                   <node concept="37vLTw" id="7NatPTM30Fv" role="2Oq$k0">
@@ -484,7 +484,7 @@
                       <property role="TrG5h" value="output" />
                       <node concept="A3Dl8" id="3CYlK6ygJ0n" role="1tU5fm">
                         <node concept="3uibUv" id="3CYlK6ygJ0o" role="A3Ik2">
-                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="SM___INode" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="3CYlK6ygJ0p" role="33vP2m">
@@ -509,7 +509,7 @@
                                     <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                                   </node>
                                   <node concept="2YIFZM" id="3CYlK6ygJ0x" role="2HTEbv">
-                                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                                    <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SM___SNodeToNodeAdapter" />
                                     <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
                                     <node concept="2OqwBi" id="3CYlK6ygJ0y" role="37wK5m">
                                       <node concept="pncrf" id="3CYlK6ygJ0z" role="2Oq$k0" />
@@ -543,9 +543,9 @@
                       <node concept="3Tqbb2" id="3CYlK6yh1ZV" role="1tU5fm" />
                       <node concept="2YIFZM" id="3CYlK6ygXwE" role="33vP2m">
                         <ref role="37wK5l" to="l6bp:75046mlPk8L" resolve="wrap" />
-                        <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="ANode" />
+                        <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="SM___ANode" />
                         <node concept="2YIFZM" id="3CYlK6ygXwF" role="37wK5m">
-                          <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+                          <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
                           <ref role="37wK5l" to="l6bp:75046mm7IDU" resolve="wrap" />
                           <node concept="2OqwBi" id="3CYlK6ygXwG" role="37wK5m">
                             <node concept="37vLTw" id="3CYlK6ygXwH" role="2Oq$k0">

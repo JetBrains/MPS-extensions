@@ -257,21 +257,21 @@
       </concept>
     </language>
     <language id="7e450f4e-1ac3-41ef-a851-4598161bdb94" name="de.slisson.mps.tables">
-      <concept id="1925286362824252053" name="de.slisson.mps.tables.structure.ColumnShadeColor" flags="ng" index="9JesE" />
-      <concept id="1925286362805506099" name="de.slisson.mps.tables.structure.RowShadeColor" flags="ng" index="bmIQc" />
-      <concept id="1925286362805485375" name="de.slisson.mps.tables.structure.RowBorderRightColorItem" flags="ng" index="bmOa0" />
-      <concept id="1925286362805485374" name="de.slisson.mps.tables.structure.RowBorderLeftWidthStyleItem" flags="ng" index="bmOa1" />
-      <concept id="1925286362805485373" name="de.slisson.mps.tables.structure.RowBorderLeftColorItem" flags="ng" index="bmOa2" />
-      <concept id="1925286362805485372" name="de.slisson.mps.tables.structure.RowBorderBottomWidthStyleItem" flags="ng" index="bmOa3" />
-      <concept id="1925286362805485371" name="de.slisson.mps.tables.structure.RowBorderBottomColorItem" flags="ng" index="bmOa4" />
-      <concept id="1925286362805485378" name="de.slisson.mps.tables.structure.RowBorderTopWidthStyleItem" flags="ng" index="bmObX" />
-      <concept id="1925286362805485377" name="de.slisson.mps.tables.structure.RowBorderTopColorItem" flags="ng" index="bmObY" />
-      <concept id="1925286362805485376" name="de.slisson.mps.tables.structure.RowBorderRightWidthStyleItem" flags="ng" index="bmObZ" />
+      <concept id="1925286362824252053" name="de.slisson.mps.tables.structure.ColumnShadeColor" flags="lg" index="9JesE" />
+      <concept id="1925286362805506099" name="de.slisson.mps.tables.structure.RowShadeColor" flags="lg" index="bmIQc" />
+      <concept id="1925286362805485375" name="de.slisson.mps.tables.structure.RowBorderRightColorItem" flags="lg" index="bmOa0" />
+      <concept id="1925286362805485374" name="de.slisson.mps.tables.structure.RowBorderLeftWidthStyleItem" flags="lg" index="bmOa1" />
+      <concept id="1925286362805485373" name="de.slisson.mps.tables.structure.RowBorderLeftColorItem" flags="lg" index="bmOa2" />
+      <concept id="1925286362805485372" name="de.slisson.mps.tables.structure.RowBorderBottomWidthStyleItem" flags="lg" index="bmOa3" />
+      <concept id="1925286362805485371" name="de.slisson.mps.tables.structure.RowBorderBottomColorItem" flags="lg" index="bmOa4" />
+      <concept id="1925286362805485378" name="de.slisson.mps.tables.structure.RowBorderTopWidthStyleItem" flags="lg" index="bmObX" />
+      <concept id="1925286362805485377" name="de.slisson.mps.tables.structure.RowBorderTopColorItem" flags="lg" index="bmObY" />
+      <concept id="1925286362805485376" name="de.slisson.mps.tables.structure.RowBorderRightWidthStyleItem" flags="lg" index="bmObZ" />
       <concept id="1397920687865593407" name="de.slisson.mps.tables.structure.PartialTable" flags="ng" index="2r0Tta">
         <child id="1397920687865593523" name="cells" index="2r0Tv6" />
       </concept>
       <concept id="1397920687866011705" name="de.slisson.mps.tables.structure.QueryParameter_Node" flags="ng" index="2r2w_c" />
-      <concept id="1397920687865844319" name="de.slisson.mps.tables.structure.HeadQuery" flags="ng" index="2r3VGE">
+      <concept id="1397920687865844319" name="de.slisson.mps.tables.structure.HeadQuery" flags="ig" index="2r3VGE">
         <child id="4032373061957777955" name="insertNew" index="10bivc" />
         <child id="1515263624310665819" name="delete" index="3x7fTB" />
       </concept>
@@ -281,9 +281,9 @@
         <child id="1397920687866928141" name="columnCount" index="2r73lS" />
         <child id="7946551912909981380" name="substituteNode" index="3ot9go" />
       </concept>
-      <concept id="1397920687866927557" name="de.slisson.mps.tables.structure.TableCellQueryColumnCount" flags="ng" index="2r732K" />
-      <concept id="1397920687866927536" name="de.slisson.mps.tables.structure.TableCellQueryRowCount" flags="ng" index="2r7335" />
-      <concept id="1397920687866928166" name="de.slisson.mps.tables.structure.TableCellQueryGetCell" flags="ng" index="2r73lj">
+      <concept id="1397920687866927557" name="de.slisson.mps.tables.structure.TableCellQueryColumnCount" flags="ig" index="2r732K" />
+      <concept id="1397920687866927536" name="de.slisson.mps.tables.structure.TableCellQueryRowCount" flags="ig" index="2r7335" />
+      <concept id="1397920687866928166" name="de.slisson.mps.tables.structure.TableCellQueryGetCell" flags="ig" index="2r73lj">
         <property id="3785936898452719116" name="displayType" index="3iQXY0" />
       </concept>
       <concept id="1397920687864997170" name="de.slisson.mps.tables.structure.TableNodeCollection" flags="ng" index="2reCL7">
@@ -323,15 +323,15 @@
         <child id="3981577588228006890" name="editor" index="2CJshi" />
         <child id="3981577588228006886" name="contextNode" index="2CJshu" />
       </concept>
-      <concept id="3981577588228006907" name="de.slisson.mps.tables.structure.CellCreateOperationInlineEditor" flags="ng" index="2CJsh3" />
-      <concept id="4384308856523593884" name="de.slisson.mps.tables.structure.HorizontalAlignmentStyleItem" flags="ng" index="Qq2$L">
+      <concept id="3981577588228006907" name="de.slisson.mps.tables.structure.CellCreateOperationInlineEditor" flags="ig" index="2CJsh3" />
+      <concept id="4384308856523593884" name="de.slisson.mps.tables.structure.HorizontalAlignmentStyleItem" flags="lg" index="Qq2$L">
         <property id="4384308856523593885" name="alignment" index="Qq2$K" />
       </concept>
-      <concept id="4384308856523540092" name="de.slisson.mps.tables.structure.VerticalAlignmentStyleItem" flags="ng" index="QtRvh">
+      <concept id="4384308856523540092" name="de.slisson.mps.tables.structure.VerticalAlignmentStyleItem" flags="lg" index="QtRvh">
         <property id="4384308856523581138" name="alignment" index="QtXtZ" />
       </concept>
       <concept id="4032373061957737357" name="de.slisson.mps.tables.structure.Parameter_Index" flags="ng" index="10bopy" />
-      <concept id="4032373061957735279" name="de.slisson.mps.tables.structure.HeaderQuery_InsertNew" flags="ng" index="10boU0" />
+      <concept id="4032373061957735279" name="de.slisson.mps.tables.structure.HeaderQuery_InsertNew" flags="ig" index="10boU0" />
       <concept id="4032373061970539014" name="de.slisson.mps.tables.structure.QueryParameter_EditorContext" flags="ng" index="1frAZD" />
       <concept id="5662204344885760731" name="de.slisson.mps.tables.structure.IStylable" flags="ng" index="1g0I81">
         <child id="5662204344887343006" name="style" index="1geGt4" />
@@ -340,27 +340,27 @@
         <child id="3785936898437886280" name="items" index="3hTmz4" />
       </concept>
       <concept id="1106681690724963968" name="de.slisson.mps.tables.structure.QueryParameter_ListIndex" flags="ng" index="1gjaYy" />
-      <concept id="3785936898437629002" name="de.slisson.mps.tables.structure.BorderLeftWidthStyleItem" flags="ng" index="3hShR6" />
-      <concept id="3785936898437629743" name="de.slisson.mps.tables.structure.BorderTopWidthStyleItem" flags="ng" index="3hShUz" />
-      <concept id="3785936898437629812" name="de.slisson.mps.tables.structure.BorderBottomWidthStyleItem" flags="ng" index="3hShVS" />
-      <concept id="3785936898437444905" name="de.slisson.mps.tables.structure.IntegerTableStyleItemQuery" flags="ng" index="3hSyM_" />
-      <concept id="3785936898437423425" name="de.slisson.mps.tables.structure.IntegerTableStyleItem" flags="ng" index="3hSBzd">
+      <concept id="3785936898437629002" name="de.slisson.mps.tables.structure.BorderLeftWidthStyleItem" flags="lg" index="3hShR6" />
+      <concept id="3785936898437629743" name="de.slisson.mps.tables.structure.BorderTopWidthStyleItem" flags="lg" index="3hShUz" />
+      <concept id="3785936898437629812" name="de.slisson.mps.tables.structure.BorderBottomWidthStyleItem" flags="lg" index="3hShVS" />
+      <concept id="3785936898437444905" name="de.slisson.mps.tables.structure.IntegerTableStyleItemQuery" flags="ig" index="3hSyM_" />
+      <concept id="3785936898437423425" name="de.slisson.mps.tables.structure.IntegerTableStyleItem" flags="lg" index="3hSBzd">
         <property id="3785936898437424562" name="value" index="3hSBKY" />
         <child id="1221064706952" name="query" index="1d8cEk" />
       </concept>
-      <concept id="3785936898438628050" name="de.slisson.mps.tables.structure.BorderBottomColorItem" flags="ng" index="3hWdHu" />
-      <concept id="3785936898438628594" name="de.slisson.mps.tables.structure.BorderLeftColorItem" flags="ng" index="3hWdPY" />
-      <concept id="3785936898438629036" name="de.slisson.mps.tables.structure.ShadeColor" flags="ng" index="3hWdWw" />
-      <concept id="3785936898438263806" name="de.slisson.mps.tables.structure.ColorTableStyleItem" flags="ng" index="3hZEDM">
+      <concept id="3785936898438628050" name="de.slisson.mps.tables.structure.BorderBottomColorItem" flags="lg" index="3hWdHu" />
+      <concept id="3785936898438628594" name="de.slisson.mps.tables.structure.BorderLeftColorItem" flags="lg" index="3hWdPY" />
+      <concept id="3785936898438629036" name="de.slisson.mps.tables.structure.ShadeColor" flags="lg" index="3hWdWw" />
+      <concept id="3785936898438263806" name="de.slisson.mps.tables.structure.ColorTableStyleItem" flags="lg" index="3hZEDM">
         <property id="1186403713874" name="color" index="Vb097" />
         <child id="3785936898438271388" name="query" index="3hZOwg" />
       </concept>
       <concept id="3785936898438264232" name="de.slisson.mps.tables.structure.RGBAColorValue" flags="ng" index="3hZEK$">
         <property id="3785936898438264819" name="value" index="3hZETZ" />
       </concept>
-      <concept id="3785936898438264163" name="de.slisson.mps.tables.structure.ColorQuery" flags="ng" index="3hZENJ" />
-      <concept id="6097863121587719264" name="de.slisson.mps.tables.structure.GridPostprocessor" flags="ng" index="3nFNDj" />
-      <concept id="7946551912908713904" name="de.slisson.mps.tables.structure.SubstituteNodeFunction" flags="ng" index="3om3PG">
+      <concept id="3785936898438264163" name="de.slisson.mps.tables.structure.ColorQuery" flags="ig" index="3hZENJ" />
+      <concept id="6097863121587719264" name="de.slisson.mps.tables.structure.GridPostprocessor" flags="ig" index="3nFNDj" />
+      <concept id="7946551912908713904" name="de.slisson.mps.tables.structure.SubstituteNodeFunction" flags="ig" index="3om3PG">
         <reference id="8767719180164875849" name="cellRootConcept" index="1xHBhH" />
         <child id="7946551912909694162" name="rolePath" index="3oqjoe" />
       </concept>
@@ -369,9 +369,9 @@
       </concept>
       <concept id="7946551912910240557" name="de.slisson.mps.tables.structure.SubstituteNodeFunction_NewValue" flags="ng" index="3oseBL" />
       <concept id="7946551912910120072" name="de.slisson.mps.tables.structure.SubstituteNodeFunction_CurrentNode" flags="ng" index="3osFpk" />
-      <concept id="1450914667648877318" name="de.slisson.mps.tables.structure.GridQuery" flags="ng" index="3wJMKP" />
+      <concept id="1450914667648877318" name="de.slisson.mps.tables.structure.GridQuery" flags="ig" index="3wJMKP" />
       <concept id="1450914667648882274" name="de.slisson.mps.tables.structure.QueryParameter_Grid" flags="ng" index="3wJN_h" />
-      <concept id="1515263624310660132" name="de.slisson.mps.tables.structure.HeaderQuery_Delete" flags="ng" index="3x7d0o" />
+      <concept id="1515263624310660132" name="de.slisson.mps.tables.structure.HeaderQuery_Delete" flags="ig" index="3x7d0o" />
       <concept id="6466068411884348300" name="de.slisson.mps.tables.structure.EditorCellHeader" flags="ng" index="1A0rlU">
         <child id="6466068411884348445" name="editorCell" index="1A0rbF" />
       </concept>

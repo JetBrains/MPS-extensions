@@ -440,7 +440,7 @@
                   <node concept="1pGfFk" id="1KLm$Di7Ttl" role="2ShVmc">
                     <ref role="37wK5l" to="od2j:41QOk3IHOCK" resolve="DefaultPFContext" />
                     <node concept="2YIFZM" id="1KLm$Di7Ttm" role="37wK5m">
-                      <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="SM___TransformationsFromGlobalRepository" />
+                      <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="SM_TransformationsFromGlobalRepository" />
                       <ref role="37wK5l" to="l6bp:3zTK92KPmA1" resolve="getInstance" />
                     </node>
                   </node>

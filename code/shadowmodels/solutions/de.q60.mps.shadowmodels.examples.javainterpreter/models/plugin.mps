@@ -438,7 +438,7 @@
               <ref role="37wK5l" to="od2j:41QOk3IHOCK" resolve="DefaultPFContext" />
               <node concept="2YIFZM" id="1KLm$Di0qNK" role="37wK5m">
                 <ref role="37wK5l" to="l6bp:3zTK92KPmA1" resolve="getInstance" />
-                <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="SM___TransformationsFromGlobalRepository" />
+                <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="SM_TransformationsFromGlobalRepository" />
               </node>
             </node>
           </node>
@@ -1676,7 +1676,7 @@
                             <node concept="3EllGN" id="1KLm$Di2EIK" role="37vLTJ">
                               <node concept="2YIFZM" id="1KLm$Di49Gn" role="3ElVtu">
                                 <ref role="37wK5l" to="l6bp:7uapjVAY0et" resolve="tryGetUnwrappedNode" />
-                                <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
+                                <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM_SNodeAPI" />
                                 <node concept="2GrUjf" id="1KLm$Di49Xy" role="37wK5m">
                                   <ref role="2Gs0qQ" node="1KLm$Di2E6O" resolve="inputNode" />
                                 </node>
@@ -1689,7 +1689,7 @@
                         </node>
                       </node>
                       <node concept="2YIFZM" id="1KLm$Di2D_m" role="2GsD0m">
-                        <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
+                        <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                         <ref role="37wK5l" to="l6bp:4JmkJs3RlbV" resolve="tryGetOriginalInputNodes" />
                         <node concept="2GrUjf" id="1KLm$Di2DLC" role="37wK5m">
                           <ref role="2Gs0qQ" node="1KLm$Di2g7Y" resolve="outputNode" />

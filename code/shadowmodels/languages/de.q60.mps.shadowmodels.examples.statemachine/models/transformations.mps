@@ -1685,7 +1685,7 @@
                               <node concept="2OqwBi" id="78p1BjaR2Nv" role="2Oq$k0">
                                 <node concept="2YIFZM" id="78p1BjaR2Nw" role="2Oq$k0">
                                   <ref role="37wK5l" to="l6bp:4JmkJs3RlbV" resolve="tryGetOriginalInputNodes" />
-                                  <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
+                                  <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                                   <node concept="2155sH" id="78p1BjaR2Nx" role="37wK5m">
                                     <ref role="2155sG" node="2VTIUrjmski" resolve="sm" />
                                   </node>
@@ -1712,7 +1712,7 @@
                             </node>
                             <node concept="2YIFZM" id="78p1BjaSFkm" role="1m5AlR">
                               <ref role="37wK5l" to="l6bp:7uapjVAY0et" resolve="tryGetUnwrappedNode" />
-                              <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
+                              <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM_SNodeAPI" />
                               <node concept="37vLTw" id="78p1BjaSFml" role="37wK5m">
                                 <ref role="3cqZAo" node="78p1BjaR2Ns" resolve="originalSM" />
                               </node>
@@ -1765,7 +1765,7 @@
                               <node concept="2OqwBi" id="78p1BjaR6nz" role="2Oq$k0">
                                 <node concept="2YIFZM" id="78p1BjaR6n$" role="2Oq$k0">
                                   <ref role="37wK5l" to="l6bp:4JmkJs3RlbV" resolve="tryGetOriginalInputNodes" />
-                                  <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM___TransformationTrace" />
+                                  <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                                   <node concept="2155sH" id="78p1BjaR6n_" role="37wK5m">
                                     <ref role="2155sG" node="2VTIUrjmski" resolve="sm" />
                                   </node>
@@ -1792,7 +1792,7 @@
                             </node>
                             <node concept="2YIFZM" id="78p1BjaSFHS" role="1m5AlR">
                               <ref role="37wK5l" to="l6bp:7uapjVAY0et" resolve="tryGetUnwrappedNode" />
-                              <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
+                              <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM_SNodeAPI" />
                               <node concept="37vLTw" id="78p1BjaSFHT" role="37wK5m">
                                 <ref role="3cqZAo" node="78p1BjaR6nv" resolve="originalSM" />
                               </node>

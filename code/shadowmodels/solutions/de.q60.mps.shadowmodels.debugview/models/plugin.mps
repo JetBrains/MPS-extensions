@@ -46,6 +46,7 @@
     <import index="e55s" ref="r:340cdae2-711c-4186-bc13-94d9832e5a1d(de.q60.mps.explorer)" />
     <import index="nw4f" ref="r:37f0e188-99eb-43dc-a4d6-c6b3a29372b8(de.q60.mps.explorer.plugin)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
+    <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -1092,7 +1093,7 @@
                     <node concept="3cpWsn" id="3_irx8Fo530" role="3cpWs9">
                       <property role="TrG5h" value="repository" />
                       <node concept="3Tqbb2" id="3_irx8Fo531" role="1tU5fm">
-                        <ref role="ehGHo" to="dj5d:qmkA5fOskm" resolve="Repository" />
+                        <ref role="ehGHo" to="jh6v:qmkA5fOskm" resolve="Repository" />
                       </node>
                       <node concept="2OqwBi" id="3_irx8Fo532" role="33vP2m">
                         <node concept="2YIFZM" id="3_irx8Fo533" role="2Oq$k0">

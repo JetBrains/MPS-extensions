@@ -98,7 +98,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="3Ezg1fMDSU$">
-    <ref role="13h7C2" to="dj5d:qmkA5fOskc" resolve="Model" />
+    <ref role="13h7C2" to="dj5d:qmkA5fOskc" resolve="___SM___Model" />
     <node concept="13i0hz" id="3Ezg1fMDSV7" role="13h7CS">
       <property role="TrG5h" value="usesLanguage" />
       <node concept="37vLTG" id="3Ezg1fMDSXh" role="3clF46">

@@ -23,6 +23,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="gxwn" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.primitives(de.q60.mps.libs/)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
+    <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
@@ -363,7 +364,7 @@
                             </node>
                             <node concept="2YIFZM" id="5QP6xyjWsvZ" role="1m5AlR">
                               <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                               <node concept="2ShNRf" id="5QP6xyjWsw0" role="37wK5m">
                                 <node concept="1pGfFk" id="5QP6xyjWsw1" role="2ShVmc">
                                   <ref role="37wK5l" to="3hky:4_SQzDObR89" resolve="SM___PNodeAdapter" />
@@ -448,7 +449,7 @@
                             <ref role="cht4Q" to="tpee:fzclF80" resolve="StatementList" />
                           </node>
                           <node concept="2YIFZM" id="5QP6xyjXly$" role="1m5AlR">
-                            <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                            <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                             <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
                             <node concept="2ShNRf" id="5QP6xyjXly_" role="37wK5m">
                               <node concept="1pGfFk" id="5QP6xyjXlyA" role="2ShVmc">
@@ -527,7 +528,7 @@
                             </node>
                             <node concept="2YIFZM" id="5QP6xyjXfUR" role="1m5AlR">
                               <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                               <node concept="2ShNRf" id="5QP6xyjXfUS" role="37wK5m">
                                 <node concept="1pGfFk" id="5QP6xyjXfUT" role="2ShVmc">
                                   <ref role="37wK5l" to="3hky:4_SQzDObR89" resolve="SM___PNodeAdapter" />
@@ -617,7 +618,7 @@
                             </node>
                             <node concept="2YIFZM" id="5QP6xyjXUke" role="1m5AlR">
                               <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                               <node concept="2ShNRf" id="5QP6xyjXUkf" role="37wK5m">
                                 <node concept="1pGfFk" id="5QP6xyjXUkg" role="2ShVmc">
                                   <ref role="37wK5l" to="3hky:4_SQzDObR89" resolve="SM___PNodeAdapter" />
@@ -766,7 +767,7 @@
                             </node>
                             <node concept="2YIFZM" id="5QP6xyjXKYM" role="1m5AlR">
                               <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                               <node concept="2ShNRf" id="5QP6xyjXKYN" role="37wK5m">
                                 <node concept="1pGfFk" id="5QP6xyjXKYO" role="2ShVmc">
                                   <ref role="37wK5l" to="3hky:4_SQzDObR89" resolve="SM___PNodeAdapter" />
@@ -956,7 +957,7 @@
                                             </node>
                                             <node concept="2YIFZM" id="5QP6xyjYlzG" role="1m5AlR">
                                               <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                                               <node concept="2ShNRf" id="5QP6xyjYlzH" role="37wK5m">
                                                 <node concept="1pGfFk" id="5QP6xyjYlzI" role="2ShVmc">
                                                   <ref role="37wK5l" to="3hky:4_SQzDObR89" resolve="SM___PNodeAdapter" />
@@ -1127,7 +1128,7 @@
                                               <ref role="cht4Q" to="tpee:fzclF80" resolve="StatementList" />
                                             </node>
                                             <node concept="2YIFZM" id="5QP6xyjYHcJ" role="1m5AlR">
-                                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                                               <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
                                               <node concept="2ShNRf" id="5QP6xyjYHcK" role="37wK5m">
                                                 <node concept="1pGfFk" id="5QP6xyjYHcL" role="2ShVmc">
@@ -1306,7 +1307,7 @@
                                               <ref role="cht4Q" to="tpee:fzclF80" resolve="StatementList" />
                                             </node>
                                             <node concept="2YIFZM" id="5QP6xyk1B0U" role="1m5AlR">
-                                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                                              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                                               <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
                                               <node concept="2ShNRf" id="5QP6xyk1B0V" role="37wK5m">
                                                 <node concept="1pGfFk" id="5QP6xyk1B0W" role="2ShVmc">
@@ -1445,7 +1446,7 @@
                                                 </node>
                                                 <node concept="2YIFZM" id="5QP6xyk5637" role="1m5AlR">
                                                   <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                                                  <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                                                  <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                                                   <node concept="2ShNRf" id="5QP6xyk5638" role="37wK5m">
                                                     <node concept="1pGfFk" id="5QP6xyk5639" role="2ShVmc">
                                                       <ref role="37wK5l" to="3hky:4_SQzDObR89" resolve="SM___PNodeAdapter" />
@@ -1673,7 +1674,7 @@
                                                 </node>
                                                 <node concept="2YIFZM" id="5QP6xyk59IW" role="1m5AlR">
                                                   <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-                                                  <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                                                  <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                                                   <node concept="2ShNRf" id="5QP6xyk59IX" role="37wK5m">
                                                     <node concept="1pGfFk" id="5QP6xyk59IY" role="2ShVmc">
                                                       <ref role="37wK5l" to="3hky:4_SQzDObR89" resolve="SM___PNodeAdapter" />
@@ -1959,7 +1960,7 @@
                           <ref role="cht4Q" to="tpee:fzclF80" resolve="StatementList" />
                         </node>
                         <node concept="2YIFZM" id="5QP6xyjODA1" role="1m5AlR">
-                          <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                          <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                           <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
                           <node concept="2ShNRf" id="5QP6xyjODA2" role="37wK5m">
                             <node concept="1pGfFk" id="5QP6xyjODA3" role="2ShVmc">
@@ -2232,7 +2233,7 @@
       <property role="TrG5h" value="repositoryNode" />
       <node concept="3Tm6S6" id="2fAW4l7bFd" role="1B3o_S" />
       <node concept="3Tqbb2" id="2fAW4l7bPP" role="1tU5fm">
-        <ref role="ehGHo" to="dj5d:qmkA5fOskm" resolve="Repository" />
+        <ref role="ehGHo" to="jh6v:qmkA5fOskm" resolve="Repository" />
       </node>
     </node>
     <node concept="3Tm1VV" id="2fAW4l71e0" role="1B3o_S" />
@@ -2251,7 +2252,7 @@
                   <ref role="3cqZAo" node="2fAW4lehGV" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="2fAW4l7VtR" role="2OqNvi">
-                  <ref role="37wK5l" to="3hky:4_SQzDO0k4c" resolve="computeRead" />
+                  <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                   <node concept="1bVj0M" id="2fAW4l7VtS" role="37wK5m">
                     <node concept="3clFbS" id="2fAW4l7VtT" role="1bW5cS">
                       <node concept="3clFbF" id="2fAW4l7VtU" role="3cqZAp">
@@ -2261,7 +2262,7 @@
                               <ref role="3cqZAo" node="2fAW4l7bFc" resolve="repositoryNode" />
                             </node>
                             <node concept="3Tsc0h" id="2fAW4l7VtY" role="2OqNvi">
-                              <ref role="3TtcxE" to="dj5d:qmkA5fOskn" resolve="modules" />
+                              <ref role="3TtcxE" to="jh6v:qmkA5fOskn" resolve="modules" />
                             </node>
                           </node>
                           <node concept="34oBXx" id="2fAW4l7VtZ" role="2OqNvi" />
@@ -2331,7 +2332,7 @@
                   <ref role="3cqZAo" node="2fAW4lehGV" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="2fAW4l85OE" role="2OqNvi">
-                  <ref role="37wK5l" to="3hky:4_SQzDO0k4c" resolve="computeRead" />
+                  <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                   <node concept="1bVj0M" id="2fAW4l85OF" role="37wK5m">
                     <node concept="3clFbS" id="2fAW4l85OG" role="1bW5cS">
                       <node concept="3cpWs8" id="2fAW4l9Wf8" role="3cqZAp">
@@ -2344,7 +2345,7 @@
                                 <ref role="3cqZAo" node="2fAW4l7bFc" resolve="repositoryNode" />
                               </node>
                               <node concept="3Tsc0h" id="2fAW4lacK4" role="2OqNvi">
-                                <ref role="3TtcxE" to="dj5d:qmkA5fOskn" resolve="modules" />
+                                <ref role="3TtcxE" to="jh6v:qmkA5fOskn" resolve="modules" />
                               </node>
                             </node>
                             <node concept="34oBXx" id="2fAW4l9Wfe" role="2OqNvi" />
@@ -2471,7 +2472,7 @@
                   <ref role="3cqZAo" node="2fAW4lehGV" resolve="branch" />
                 </node>
                 <node concept="liA8E" id="2fAW4ld9BP" role="2OqNvi">
-                  <ref role="37wK5l" to="3hky:4_SQzDO0k4c" resolve="computeRead" />
+                  <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                   <node concept="1bVj0M" id="2fAW4ld9BQ" role="37wK5m">
                     <node concept="3clFbS" id="2fAW4ld9BR" role="1bW5cS">
                       <node concept="3clFbF" id="2fAW4ld9BS" role="3cqZAp">
@@ -2514,7 +2515,7 @@
                   <ref role="cht4Q" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
                 </node>
                 <node concept="2YIFZM" id="2fAW4lctEx" role="1m5AlR">
-                  <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                  <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                   <ref role="37wK5l" to="l6bp:75046mm7IDU" resolve="wrap" />
                   <node concept="37vLTw" id="2fAW4ld9C1" role="37wK5m">
                     <ref role="3cqZAo" node="2fAW4ld9BK" resolve="node" />
@@ -2540,7 +2541,7 @@
                 <ref role="3cqZAo" node="2fAW4lehGV" resolve="branch" />
               </node>
               <node concept="liA8E" id="2fAW4ld$qK" role="2OqNvi">
-                <ref role="37wK5l" to="3hky:4_SQzDO0k4c" resolve="computeRead" />
+                <ref role="37wK5l" to="jks5:~IBranch.computeRead(kotlin.jvm.functions.Function0)" resolve="computeRead" />
                 <node concept="1bVj0M" id="2fAW4ld$ve" role="37wK5m">
                   <node concept="3clFbS" id="2fAW4ld$vf" role="1bW5cS">
                     <node concept="3clFbF" id="2fAW4ld$_K" role="3cqZAp">
@@ -2610,11 +2611,11 @@
               <ref role="3cqZAo" node="2fAW4l7bFc" resolve="repositoryNode" />
             </node>
             <node concept="1PxgMI" id="2fAW4l7cSt" role="37vLTx">
-              <node concept="chp4Y" id="2fAW4l7cYM" role="3oSUPX">
-                <ref role="cht4Q" to="dj5d:qmkA5fOskm" resolve="Repository" />
+              <node concept="chp4Y" id="61R9vA4Bknx" role="3oSUPX">
+                <ref role="cht4Q" to="jh6v:qmkA5fOskm" resolve="Repository" />
               </node>
               <node concept="2YIFZM" id="2fAW4l7cBS" role="1m5AlR">
-                <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+                <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
                 <ref role="37wK5l" to="l6bp:75046mm7IDU" resolve="wrap" />
                 <node concept="2OqwBi" id="2fAW4l7cBT" role="37wK5m">
                   <node concept="37vLTw" id="2fAW4l7cBU" role="2Oq$k0">

@@ -113,7 +113,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="5100827PtfU">
-    <ref role="1XX52x" to="dj5d:5100827Ptfk" resolve="ModuleReference" />
+    <ref role="1XX52x" to="dj5d:5100827Ptfk" resolve="___SM___ModuleReference" />
     <node concept="1iCGBv" id="5100827Ptgk" role="2wV5jI">
       <ref role="1NtTu8" to="dj5d:5100827PtfH" resolve="module" />
       <node concept="1sVBvm" id="5100827Ptgm" role="1sWHZn">
@@ -206,7 +206,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zrTIjkWNaI">
-    <ref role="1XX52x" to="dj5d:5zrTIjkWNaz" resolve="ModelReference" />
+    <ref role="1XX52x" to="dj5d:5zrTIjkWNaz" resolve="___SM___ModelReference" />
     <node concept="1iCGBv" id="5zrTIjkWNaK" role="2wV5jI">
       <ref role="1NtTu8" to="dj5d:5zrTIjkWNa$" resolve="model" />
       <node concept="1sVBvm" id="5zrTIjkWNaM" role="1sWHZn">

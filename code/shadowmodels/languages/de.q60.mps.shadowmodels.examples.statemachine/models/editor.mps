@@ -435,8 +435,8 @@
                         <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
                       </node>
                       <node concept="2YIFZM" id="2VTIUrjrLwU" role="33vP2m">
-                        <ref role="37wK5l" to="l6bp:75046mm7IDU" resolve="wrap" />
-                        <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
+                        <ref role="1Pybhc" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+                        <ref role="37wK5l" to="xxte:75046mm7IDU" resolve="wrap" />
                         <node concept="2OqwBi" id="2VTIUrjrLwV" role="37wK5m">
                           <node concept="37vLTw" id="2VTIUrjrLwW" role="2Oq$k0">
                             <ref role="3cqZAo" node="3CYlK6ygJ0m" resolve="output" />
@@ -457,7 +457,7 @@
                       <node concept="1eOMI4" id="2VTIUrjrUkm" role="2Oq$k0">
                         <node concept="10QFUN" id="2VTIUrjrUkj" role="1eOMHV">
                           <node concept="3uibUv" id="2VTIUrjrUXD" role="10QFUM">
-                            <ref role="3uigEE" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
+                            <ref role="3uigEE" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
                           </node>
                           <node concept="37vLTw" id="2VTIUrjrVSb" role="10QFUP">
                             <ref role="3cqZAo" node="2VTIUrjrLwT" resolve="snodeAdapter" />

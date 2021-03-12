@@ -158,7 +158,7 @@
                 <node concept="1eOMI4" id="1pTQQaTNaEn" role="2Oq$k0">
                   <node concept="10QFUN" id="1pTQQaTNaEk" role="1eOMHV">
                     <node concept="3uibUv" id="1pTQQaTNaNV" role="10QFUM">
-                      <ref role="3uigEE" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
+                      <ref role="3uigEE" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
                     </node>
                     <node concept="37vLTw" id="1pTQQaTNRFL" role="10QFUP">
                       <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
@@ -174,7 +174,7 @@
           </node>
           <node concept="2ZW3vV" id="7c10t$781U2" role="3clFbw">
             <node concept="3uibUv" id="7c10t$7827$" role="2ZW6by">
-              <ref role="3uigEE" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
+              <ref role="3uigEE" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
             </node>
             <node concept="37vLTw" id="7c10t$781x6" role="2ZW6bz">
               <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
@@ -271,8 +271,8 @@
         </node>
         <node concept="3cpWs6" id="1pTQQaTNmcO" role="3cqZAp">
           <node concept="2YIFZM" id="1pTQQaTTX2F" role="3cqZAk">
-            <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-            <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="___SM___NodeToSNodeAdapter" />
+            <ref role="1Pybhc" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+            <ref role="37wK5l" to="xxte:4EhVFrZ6z9$" resolve="wrap" />
             <node concept="2YIFZM" id="1pTQQaTTSYo" role="37wK5m">
               <ref role="1Pybhc" to="nv3w:5gTrVpGxH_V" resolve="DependencyTrackingNode" />
               <ref role="37wK5l" to="nv3w:5gTrVpGzMW2" resolve="wrap" />

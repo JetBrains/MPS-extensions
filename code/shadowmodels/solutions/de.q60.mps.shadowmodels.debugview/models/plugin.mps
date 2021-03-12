@@ -47,6 +47,7 @@
     <import index="nw4f" ref="r:37f0e188-99eb-43dc-a4d6-c6b3a29372b8(de.q60.mps.explorer.plugin)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
+    <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -353,8 +354,8 @@
             <property role="TrG5h" value="selectedSNode" />
             <node concept="3Tqbb2" id="3_irx8FIlLC" role="1tU5fm" />
             <node concept="2YIFZM" id="3_irx8FIl1O" role="33vP2m">
-              <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="SM___NodeToSNodeAdapter" />
+              <ref role="1Pybhc" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+              <ref role="37wK5l" to="xxte:4EhVFrZ6z9$" resolve="wrap" />
               <node concept="2YIFZM" id="3_irx8FIl1P" role="37wK5m">
                 <ref role="37wK5l" to="nv3w:4Dc7ogUjD_D" resolve="create" />
                 <ref role="1Pybhc" to="nv3w:5$YruQr6z2g" resolve="OutputNodeReferenceAsNode" />

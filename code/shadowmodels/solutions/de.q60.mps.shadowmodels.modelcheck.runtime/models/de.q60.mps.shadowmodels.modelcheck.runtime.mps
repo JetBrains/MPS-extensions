@@ -35,6 +35,7 @@
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
     <import index="dglc" ref="r:713965c4-2968-4619-9821-2429551acbb4(de.q60.mps.shadowmodels.runtime.concurrentrepo)" />
     <import index="k2t0" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.checkers(MPS.Core/)" />
+    <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -1537,8 +1538,8 @@
                                                                 <ref role="37wK5l" to="dglc:61gRJt5gwlk" resolve="getOriginalNode" />
                                                                 <ref role="1Pybhc" to="dglc:QurUgi5J93" resolve="RepositoryMirror" />
                                                                 <node concept="2YIFZM" id="61gRJt5hljM" role="37wK5m">
-                                                                  <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SM___SNodeToNodeAdapter" />
-                                                                  <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
+                                                                  <ref role="1Pybhc" to="xxte:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                                                                  <ref role="37wK5l" to="xxte:5gTrVpGyMwR" resolve="wrap" />
                                                                   <node concept="37vLTw" id="61gRJt5hlJl" role="37wK5m">
                                                                     <ref role="3cqZAo" node="7Ks$D7GwLZL" resolve="target" />
                                                                   </node>

@@ -22,6 +22,7 @@
     <dependency reexport="false">ca32b5fa-caea-4f97-9686-6f60d4d677d4(de.q60.mps.shadowmodels.examples.entities)</dependency>
     <dependency reexport="false">bbb5f4e2-794a-4b91-bd27-caf7d437ac9e(de.q60.mps.shadowmodels.examples.blext)</dependency>
     <dependency reexport="false">cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)</dependency>
+    <dependency reexport="false">5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:bbb5f4e2-794a-4b91-bd27-caf7d437ac9e:de.q60.mps.shadowmodels.examples.blext" version="0" />
@@ -70,6 +71,8 @@
     <module reference="e55e6749-03cb-4ea7-9695-2322bab791c1(jetbrains.mps.lang.test.matcher)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="cc99dce1-49f3-4392-8dbf-e22ca47bd0af(org.modelix.model.api)" version="0" />
+    <module reference="0a2651ab-f212-45c2-a2f0-343e76cbc26b(org.modelix.model.client)" version="0" />
+    <module reference="5622e615-959d-4843-9df6-ef04ee578c18(org.modelix.model.mpsadapters)" version="0" />
     <module reference="4ab36e7c-b9ac-4947-9bb8-c3ed105e5fbe(test.de.q60.mps.shadowmodels.examples)" version="0" />
   </dependencyVersions>
 </solution>

@@ -23,6 +23,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="gxwn" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.primitives(de.q60.mps.libs/)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
+    <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -1937,8 +1938,8 @@
                             <property role="3cmrfH" value="-1" />
                           </node>
                           <node concept="2YIFZM" id="5QP6xyjOB8g" role="37wK5m">
-                            <ref role="1Pybhc" to="l6bp:5gTrVpGjuL2" resolve="SM___SConceptAdapter" />
                             <ref role="37wK5l" to="l6bp:3ECE8iPOmg5" resolve="wrap" />
+                            <ref role="1Pybhc" to="xxte:5gTrVpGjuL2" resolve="SConceptAdapter" />
                             <node concept="35c_gC" id="5QP6xyjOB8h" role="37wK5m">
                               <ref role="35c_gD" to="tpee:fzclF80" resolve="StatementList" />
                             </node>

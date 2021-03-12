@@ -73,6 +73,7 @@
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -162,8 +163,11 @@
           <property role="TrG5h" value="apply" />
           <node concept="37vLTG" id="_UxhR7mb2_" role="3clF46">
             <property role="TrG5h" value="call" />
-            <node concept="3uibUv" id="_UxhR7mb2A" role="1tU5fm">
-              <ref role="3uigEE" to="nv3w:5gTrVpGiXy3" resolve="DirectTCall" />
+            <node concept="3uibUv" id="73LuVOPWfj$" role="1tU5fm">
+              <ref role="3uigEE" to="nv3w:5$YruQr2CTx" resolve="ContainmentTargetRootNodes" />
+              <node concept="3uibUv" id="73LuVOPWfj_" role="11_B2D">
+                <ref role="3uigEE" to="nv3w:2dy3jLYuHZo" resolve="TransformationCall" />
+              </node>
             </node>
           </node>
           <node concept="37vLTG" id="_UxhR7mb2B" role="3clF46">

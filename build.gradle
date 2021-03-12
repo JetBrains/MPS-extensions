@@ -23,7 +23,7 @@ import java.time.LocalDateTime
 
 
 wrapper {
-    gradleVersion '5.2'
+    gradleVersion '6.6'
     distributionType 'all'
 }
 
@@ -198,7 +198,11 @@ ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
 
 
-task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]) {
+task build_allScripts(type: BuildLanguages, dependsOn: [
+		resolveMps,
+        ':model-api:assemble',
+        ':model-api:copyJarsToMps',
+]) {
     script "$rootDir/scripts/build.xml"
 }
 

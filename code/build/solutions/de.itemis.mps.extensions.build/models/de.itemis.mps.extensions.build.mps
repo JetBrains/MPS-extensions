@@ -8255,6 +8255,9 @@
       <node concept="m$_yC" id="2OJNL7Em1P5" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
       </node>
+      <node concept="m$_yC" id="5U8hsWC7jgn" role="m$_yJ">
+        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
+      </node>
       <node concept="2pNNFK" id="v49lXF871_" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF878$" role="3o6s8t">
@@ -8317,6 +8320,9 @@
       </node>
       <node concept="m$_yC" id="BRK1N8p1FS" role="m$_yJ">
         <ref role="m$_y1" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
+      </node>
+      <node concept="m$_yC" id="5U8hsWC7iqY" role="m$_yJ">
+        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
       </node>
       <node concept="2pNNFK" id="v49lXF880k" role="20twgj">
         <property role="2pNNFO" value="description" />
@@ -8981,6 +8987,22 @@
             <ref role="3bR37D" node="7q24334ZDUp" resolve="de.q60.mps.util" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5U8hsWC7byV" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7byW" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7byX" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7byY" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7byZ" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bz0" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="61gRJt5pslx" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -9630,6 +9652,21 @@
         <node concept="1SiIV0" id="7q24334ZDp6" role="3bR37C">
           <node concept="3bR9La" id="7q24334ZDp7" role="1SiIV1">
             <ref role="3bR37D" node="7q24334ZAZ6" resolve="de.q60.mps.explorer" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7b$l" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7b$m" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7b$n" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7b$o" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7b$p" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7b$q" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
           </node>
         </node>
       </node>
@@ -10361,6 +10398,11 @@
               <ref role="3bR37D" node="4iIKqJTZ5J5" resolve="de.q60.mps.polymorphicfunctions#01" />
             </node>
           </node>
+          <node concept="1SiIV0" id="5U8hsWC7bAF" role="3bR37C">
+            <node concept="3bR9La" id="5U8hsWC7bAG" role="1SiIV1">
+              <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="4iIKqJTZ63v" role="1E1XAP">
           <ref role="1E0d5P" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
@@ -10439,6 +10481,12 @@
         </node>
         <node concept="1E0d5M" id="3oazxuUW5Dj" role="1E1XAP">
           <ref role="1E0d5P" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+        </node>
+        <node concept="1E0d5M" id="5U8hsWC7bAD" role="1E1XAP">
+          <ref role="1E0d5P" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
+        </node>
+        <node concept="1E0d5M" id="5U8hsWC7bAE" role="1E1XAP">
+          <ref role="1E0d5P" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
         </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5I0" role="2G$12L">
@@ -10539,6 +10587,11 @@
             <node concept="3qWCbU" id="2eucapX08aS" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7bAU" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bAV" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
           </node>
         </node>
       </node>
@@ -10652,6 +10705,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5U8hsWC7bBk" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bBl" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
       </node>
       <node concept="3LEwk6" id="4iIKqJTZ5I6" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -10720,7 +10778,7 @@
         <node concept="3LEDTy" id="7q24334ZzZk" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
         </node>
-        <node concept="3LEDTy" id="3up1w8ILC$R" role="3LEDUa">
+        <node concept="3LEDTy" id="3ofF9dt4ekw" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
@@ -10950,11 +11008,11 @@
         <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
         </node>
-        <node concept="3LEDTy" id="3up1w8ILC_r" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
-        </node>
-        <node concept="3LEDTy" id="3up1w8ILC_s" role="3LEDUa">
+        <node concept="3LEDTy" id="3ofF9dt4el4" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
+        </node>
+        <node concept="3LEDTy" id="3ofF9dt4el5" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
         </node>
       </node>
     </node>
@@ -11314,6 +11372,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5U8hsWC7bDh" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bDi" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="BRK1N8p1qk" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -11428,6 +11491,11 @@
             <node concept="3qWCbU" id="2eucapX08cW" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7bDF" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bDG" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
           </node>
         </node>
       </node>
@@ -11568,6 +11636,415 @@
             </node>
             <node concept="3qWCbU" id="2eucapX08dq" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7bE5" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bE6" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7bE7" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bE8" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7bE9" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bEa" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="m$_wf" id="5U8hsWC762L" role="3989C9">
+      <property role="m$_wk" value="org.modelix.model.api" />
+      <node concept="3_J27D" id="5U8hsWC762N" role="m$_yQ">
+        <node concept="3Mxwew" id="5U8hsWC792k" role="3MwsjC">
+          <property role="3MwjfP" value="org.modelix.model.api" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="5U8hsWC762P" role="m_cZH">
+        <node concept="3Mxwew" id="5U8hsWC792m" role="3MwsjC">
+          <property role="3MwjfP" value="org.modelix.model.api" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="5U8hsWC762R" role="m$_w8">
+        <node concept="3Mxwey" id="5U8hsWC79rC" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="5U8hsWC79OU" role="m$_yh">
+        <ref role="m$f5T" node="5U8hsWC6WQb" resolve="group.model-api" />
+      </node>
+      <node concept="m$_yC" id="5U8hsWC7ha$" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="3ofF9dt4eDr" role="m$_yJ">
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="5U8hsWC6WQb" role="3989C9">
+      <property role="TrG5h" value="group.model-api" />
+      <node concept="1E1JtA" id="5U8hsWC70jw" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.modelix.model.api" />
+        <property role="3LESm3" value="cc99dce1-49f3-4392-8dbf-e22ca47bd0af" />
+        <node concept="398BVA" id="5U8hsWC70GO" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="5U8hsWC71b5" role="iGT6I">
+            <property role="2Ry0Am" value="model-api" />
+            <node concept="2Ry0Ak" id="5U8hsWC71l0" role="2Ry0An">
+              <property role="2Ry0Am" value="org.modelix.model.api" />
+              <node concept="2Ry0Ak" id="5U8hsWC71uV" role="2Ry0An">
+                <property role="2Ry0Am" value="org.modelix.model.api.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aEJ" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7aEK" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aEL" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7aEM" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aEY" role="3bR37C">
+          <node concept="1BurEX" id="5U8hsWC7aEZ" role="1SiIV1">
+            <node concept="398BVA" id="5U8hsWC7aEN" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aEO" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aEP" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aEQ" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aER" role="2Ry0An">
+                      <property role="2Ry0Am" value="model-api-metadata.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aFb" role="3bR37C">
+          <node concept="1BurEX" id="5U8hsWC7aFc" role="1SiIV1">
+            <node concept="398BVA" id="5U8hsWC7aF0" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aF1" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aF2" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aF3" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aF4" role="2Ry0An">
+                      <property role="2Ry0Am" value="model-api-metadata-sources.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aFo" role="3bR37C">
+          <node concept="1BurEX" id="5U8hsWC7aFp" role="1SiIV1">
+            <node concept="398BVA" id="5U8hsWC7aFd" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aFe" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aFf" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aFg" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aFh" role="2Ry0An">
+                      <property role="2Ry0Am" value="model-api-jvm.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aF_" role="3bR37C">
+          <node concept="1BurEX" id="5U8hsWC7aFA" role="1SiIV1">
+            <node concept="398BVA" id="5U8hsWC7aFq" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aFr" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aFs" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aFt" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aFu" role="2Ry0An">
+                      <property role="2Ry0Am" value="model-api-js.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aFM" role="3bR37C">
+          <node concept="1BurEX" id="5U8hsWC7aFN" role="1SiIV1">
+            <node concept="398BVA" id="5U8hsWC7aFB" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aFC" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aFD" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aFE" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aFF" role="2Ry0An">
+                      <property role="2Ry0Am" value="kotlin-stdlib.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aFZ" role="3bR37C">
+          <node concept="1BurEX" id="5U8hsWC7aG0" role="1SiIV1">
+            <node concept="398BVA" id="5U8hsWC7aFO" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aFP" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aFQ" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aFR" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aFS" role="2Ry0An">
+                      <property role="2Ry0Am" value="kotlin-stdlib-jdk8.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aGc" role="3bR37C">
+          <node concept="1BurEX" id="5U8hsWC7aGd" role="1SiIV1">
+            <node concept="398BVA" id="5U8hsWC7aG1" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aG2" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aG3" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aG4" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aG5" role="2Ry0An">
+                      <property role="2Ry0Am" value="kotlin-stdlib-jdk7.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aGp" role="3bR37C">
+          <node concept="1BurEX" id="5U8hsWC7aGq" role="1SiIV1">
+            <node concept="398BVA" id="5U8hsWC7aGe" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aGf" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aGg" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aGh" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aGi" role="2Ry0An">
+                      <property role="2Ry0Am" value="kotlin-stdlib-common.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="5U8hsWC7aG$" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="5U8hsWC7aG_" role="1HemKq">
+            <node concept="398BVA" id="5U8hsWC7aGr" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aGs" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aGt" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aGu" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="5U8hsWC7aGA" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="5U8hsWC71Xh" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.modelix.model.mpsadapters" />
+        <property role="3LESm3" value="5622e615-959d-4843-9df6-ef04ee578c18" />
+        <node concept="398BVA" id="5U8hsWC72mG" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="5U8hsWC72OX" role="iGT6I">
+            <property role="2Ry0Am" value="model-api" />
+            <node concept="2Ry0Ak" id="5U8hsWC72YS" role="2Ry0An">
+              <property role="2Ry0Am" value="org.modelix.model.mpsadapters" />
+              <node concept="2Ry0Ak" id="5U8hsWC738N" role="2Ry0An">
+                <property role="2Ry0Am" value="org.modelix.model.mpsadapters.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aGB" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7aGC" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aGD" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7aGE" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aGF" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7aGG" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aGH" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7aGI" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7aGJ" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7aGK" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="5U8hsWC7aGU" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="5U8hsWC7aGV" role="1HemKq">
+            <node concept="398BVA" id="5U8hsWC7aGL" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aGM" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aGN" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.mpsadapters" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aGO" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="5U8hsWC7aGW" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5U8hsWC7bG4" role="3bR37C">
+          <node concept="3bR9La" id="5U8hsWC7bG5" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3ofF9dt4eoT" role="3bR37C">
+          <node concept="3bR9La" id="3ofF9dt4eoU" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3ofF9dt4eoV" role="3bR37C">
+          <node concept="3bR9La" id="3ofF9dt4eoW" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="5U8hsWC73Be" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.modelix.model.repositoryconcepts" />
+        <property role="3LESm3" value="0a7577d1-d4e5-431d-98b1-fae38f9aee80" />
+        <node concept="398BVA" id="5U8hsWC73Gp" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="5U8hsWC74aE" role="iGT6I">
+            <property role="2Ry0Am" value="model-api" />
+            <node concept="2Ry0Ak" id="5U8hsWC74k_" role="2Ry0An">
+              <property role="2Ry0Am" value="org.modelix.model.repositoryconcepts" />
+              <node concept="2Ry0Ak" id="5U8hsWC74uw" role="2Ry0An">
+                <property role="2Ry0Am" value="org.modelix.model.repositoryconcepts.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="5U8hsWC7aH6" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="5U8hsWC7aH7" role="1HemKq">
+            <node concept="398BVA" id="5U8hsWC7aGX" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7aGY" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aGZ" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.repositoryconcepts" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aH0" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="5U8hsWC7aH8" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="5U8hsWC7aH9" role="1TViLv">
+          <property role="TrG5h" value="org.modelix.model.repositoryconcepts.generator" />
+          <property role="3LESm3" value="51731586-2c9b-4758-912e-a0e5dfe2d6f2" />
+          <node concept="1BupzO" id="5U8hsWC7aHl" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="5U8hsWC7aHm" role="1HemKq">
+              <node concept="398BVA" id="5U8hsWC7aHa" role="3LXTmr">
+                <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+                <node concept="2Ry0Ak" id="5U8hsWC7aHb" role="iGT6I">
+                  <property role="2Ry0Am" value="model-api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7aHc" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modelix.model.repositoryconcepts" />
+                    <node concept="2Ry0Ak" id="5U8hsWC7aHd" role="2Ry0An">
+                      <property role="2Ry0Am" value="generator" />
+                      <node concept="2Ry0Ak" id="5U8hsWC7aHe" role="2Ry0An">
+                        <property role="2Ry0Am" value="templates" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="5U8hsWC7aHn" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="5U8hsWC7h_e" role="3bR31x">
+          <node concept="3LXTmp" id="5U8hsWC7h_f" role="3rtmxm">
+            <node concept="398BVA" id="5U8hsWC7h_g" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7h_h" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7h_i" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.repositoryconcepts" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="5U8hsWC7h_k" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
           </node>
         </node>
@@ -13484,6 +13961,31 @@
         <ref role="m_rDy" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
         <node concept="pUk6x" id="3D0nl1ssJJY" role="pUk7w" />
       </node>
+      <node concept="m$_wl" id="5U8hsWC7k7H" role="39821P">
+        <ref role="m_rDy" node="5U8hsWC762L" resolve="org.modelix.model.api" />
+        <node concept="pUk6x" id="5U8hsWC7kZ1" role="pUk7w" />
+        <node concept="398223" id="5U8hsWC7lpG" role="39821P">
+          <node concept="3_J27D" id="5U8hsWC7lpH" role="Nbhlr">
+            <node concept="3Mxwew" id="5U8hsWC7lw3" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="5U8hsWC7m8J" role="39821P">
+            <node concept="398BVA" id="5U8hsWC7mzr" role="2HvfZ0">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5U8hsWC7niu" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="5U8hsWC7nAS" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                  <node concept="2Ry0Ak" id="5U8hsWC7nAX" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="m$_wl" id="2OJNL7Em24Q" role="39821P">
         <ref role="m_rDy" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
         <node concept="398223" id="4_SQzDOofaX" role="39821P">
@@ -15260,6 +15762,16 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="3ofF9dt4hqS" role="3bR37C">
+          <node concept="3bR9La" id="3ofF9dt4hqT" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3ofF9dt4hqU" role="3bR37C">
+          <node concept="3bR9La" id="3ofF9dt4hqV" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5QP6xyk3oCB" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -15353,6 +15865,21 @@
             <node concept="3qWCbU" id="7q24334ZKGH" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3ofF9dt4hrd" role="3bR37C">
+          <node concept="3bR9La" id="3ofF9dt4hre" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3ofF9dt4hrf" role="3bR37C">
+          <node concept="3bR9La" id="3ofF9dt4hrg" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3ofF9dt4hrh" role="3bR37C">
+          <node concept="3bR9La" id="3ofF9dt4hri" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
           </node>
         </node>
       </node>

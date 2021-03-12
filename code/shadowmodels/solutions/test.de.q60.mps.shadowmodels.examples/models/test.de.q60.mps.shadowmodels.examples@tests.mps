@@ -11,6 +11,7 @@
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="0bf7bc3b-b11d-42e4-b160-93d72af96397" name="de.q60.mps.shadowmodels.runtimelang" version="0" />
     <use id="a7322769-ef64-4daa-a2f4-fd4228fb713e" name="de.q60.mps.shadowmodels.target.text" version="0" />
+    <use id="0a7577d1-d4e5-431d-98b1-fae38f9aee80" name="org.modelix.model.repositoryconcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -272,11 +273,6 @@
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
       <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
-    <language id="0bf7bc3b-b11d-42e4-b160-93d72af96397" name="de.q60.mps.shadowmodels.runtimelang">
-      <concept id="474657388638618892" name="de.q60.mps.shadowmodels.runtimelang.structure.___SM___Model" flags="ng" index="19hTtH">
-        <child id="474657388638618900" name="rootNodes" index="19hTtP" />
-      </concept>
-    </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
         <child id="1199542457201" name="resultType" index="1ajl9A" />
@@ -342,6 +338,11 @@
       </concept>
       <concept id="1038241485677493715" name="de.q60.mps.shadowmodels.examples.entities.structure.IntType" flags="ng" index="1IyuVM" />
       <concept id="1038241485677493714" name="de.q60.mps.shadowmodels.examples.entities.structure.StringType" flags="ng" index="1IyuVN" />
+    </language>
+    <language id="0a7577d1-d4e5-431d-98b1-fae38f9aee80" name="org.modelix.model.repositoryconcepts">
+      <concept id="474657388638618892" name="org.modelix.model.repositoryconcepts.structure.Model" flags="ng" index="19hTtH">
+        <child id="474657388638618900" name="rootNodes" index="19hTtP" />
+      </concept>
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="4733039728785194814" name="jetbrains.mps.lang.modelapi.structure.NamedNodeReference" flags="ng" index="ZC_QK">
@@ -3438,10 +3439,10 @@
             <ref role="37wK5l" node="4JmkJs3KdFW" resolve="runTest" />
             <ref role="1Pybhc" node="4JmkJs3K82n" resolve="TransformationTestUtil" />
             <node concept="3xONca" id="XAHiIwOz$w" role="37wK5m">
-              <ref role="3xOPvv" node="XAHiIwOJ_G" resolve="input" />
+              <ref role="3xOPvv" node="4EQRJK_Dt99" resolve="input" />
             </node>
             <node concept="3xONca" id="XAHiIwOz$x" role="37wK5m">
-              <ref role="3xOPvv" node="XAHiIwOYIF" resolve="expectedOutput" />
+              <ref role="3xOPvv" node="4EQRJK_Dtiu" resolve="expectedOutput" />
             </node>
             <node concept="2tJFMh" id="XAHiIwOz$y" role="37wK5m">
               <node concept="ZC_QK" id="XAHiIwOz$z" role="2tJFKM">
@@ -3470,7 +3471,7 @@
       </node>
     </node>
     <node concept="1qefOq" id="XAHiIwOz__" role="1SKRRt">
-      <node concept="19hTtH" id="XAHiIwOJqP" role="1qenE9">
+      <node concept="19hTtH" id="4EQRJK_Dt8R" role="1qenE9">
         <property role="TrG5h" value="m" />
         <node concept="1IyuVJ" id="TC$M5wTk27" role="19hTtP">
           <property role="TrG5h" value="Person" />
@@ -3512,13 +3513,13 @@
             <node concept="1IyuVN" id="XAHiIwOJr$" role="1IyuVW" />
           </node>
         </node>
-        <node concept="3xLA65" id="XAHiIwOJ_G" role="lGtFl">
+        <node concept="3xLA65" id="4EQRJK_Dt99" role="lGtFl">
           <property role="TrG5h" value="input" />
         </node>
       </node>
     </node>
     <node concept="1qefOq" id="XAHiIwOz_G" role="1SKRRt">
-      <node concept="19hTtH" id="XAHiIwOSRF" role="1qenE9">
+      <node concept="19hTtH" id="4EQRJK_Dtbb" role="1qenE9">
         <property role="TrG5h" value="m.text" />
         <node concept="1IHKqK" id="XAHiIwOHI7" role="19hTtP">
           <property role="TrG5h" value="src_gen" />
@@ -4517,7 +4518,7 @@
             </node>
           </node>
         </node>
-        <node concept="3xLA65" id="XAHiIwOYIF" role="lGtFl">
+        <node concept="3xLA65" id="4EQRJK_Dtiu" role="lGtFl">
           <property role="TrG5h" value="expectedOutput" />
         </node>
       </node>
@@ -4534,10 +4535,10 @@
             <ref role="37wK5l" node="4JmkJs3KdFW" resolve="runTest" />
             <ref role="1Pybhc" node="4JmkJs3K82n" resolve="TransformationTestUtil" />
             <node concept="3xONca" id="XAHiIwZ_pB" role="37wK5m">
-              <ref role="3xOPvv" node="XAHiIx7jcr" resolve="input" />
+              <ref role="3xOPvv" node="4EQRJK_Dy9g" resolve="input" />
             </node>
             <node concept="3xONca" id="XAHiIwZ_pC" role="37wK5m">
-              <ref role="3xOPvv" node="XAHiIx7jwB" resolve="expectedOutput" />
+              <ref role="3xOPvv" node="4EQRJK_DyKL" resolve="expectedOutput" />
             </node>
             <node concept="2tJFMh" id="XAHiIwZ_pD" role="37wK5m">
               <node concept="ZC_QK" id="XAHiIwZ_pE" role="2tJFKM">
@@ -4565,8 +4566,8 @@
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="XAHiIwZ_qG" role="1SKRRt">
-      <node concept="19hTtH" id="XAHiIx7jca" role="1qenE9">
+    <node concept="1qefOq" id="4EQRJK_Dy0v" role="1SKRRt">
+      <node concept="19hTtH" id="4EQRJK_Dy7k" role="1qenE9">
         <property role="TrG5h" value="m" />
         <node concept="1IyuVJ" id="XAHiIx7jcm" role="19hTtP">
           <property role="TrG5h" value="Adress" />
@@ -4608,14 +4609,13 @@
             </node>
           </node>
         </node>
-        <node concept="3xLA65" id="XAHiIx7jcr" role="lGtFl">
+        <node concept="3xLA65" id="4EQRJK_Dy9g" role="lGtFl">
           <property role="TrG5h" value="input" />
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="XAHiIwZ_qN" role="1SKRRt">
-      <node concept="19hTtH" id="XAHiIx7jw_" role="1qenE9">
-        <property role="TrG5h" value="m" />
+    <node concept="1qefOq" id="4EQRJK_DynM" role="1SKRRt">
+      <node concept="19hTtH" id="4EQRJK_Dy_7" role="1qenE9">
         <node concept="312cEu" id="XAHiIwZ$jn" role="19hTtP">
           <property role="TrG5h" value="Adress" />
           <node concept="312cEg" id="XAHiIwZ$jd" role="jymVt">
@@ -4929,7 +4929,7 @@
           </node>
           <node concept="3Tm1VV" id="XAHiIwZ$jp" role="1B3o_S" />
         </node>
-        <node concept="3xLA65" id="XAHiIx7jwB" role="lGtFl">
+        <node concept="3xLA65" id="4EQRJK_DyKL" role="lGtFl">
           <property role="TrG5h" value="expectedOutput" />
         </node>
       </node>
@@ -4946,10 +4946,10 @@
             <ref role="37wK5l" node="4JmkJs3KdFW" resolve="runTest" />
             <ref role="1Pybhc" node="4JmkJs3K82n" resolve="TransformationTestUtil" />
             <node concept="3xONca" id="6TaAXKMO0FC" role="37wK5m">
-              <ref role="3xOPvv" node="6TaAXKMO1B4" resolve="input" />
+              <ref role="3xOPvv" node="4EQRJK_DvVt" resolve="input" />
             </node>
             <node concept="3xONca" id="6TaAXKMO0FD" role="37wK5m">
-              <ref role="3xOPvv" node="6TaAXKMO1Bi" resolve="expectedOutput" />
+              <ref role="3xOPvv" node="4EQRJK_DvWo" resolve="expectedOutput" />
             </node>
             <node concept="2tJFMh" id="6TaAXKMO0FE" role="37wK5m">
               <node concept="ZC_QK" id="6TaAXKMO0FF" role="2tJFKM">
@@ -4980,7 +4980,7 @@
       </node>
     </node>
     <node concept="1qefOq" id="6TaAXKMO0FN" role="1SKRRt">
-      <node concept="19hTtH" id="6TaAXKMO1cI" role="1qenE9">
+      <node concept="19hTtH" id="4EQRJK_DvV0" role="1qenE9">
         <property role="TrG5h" value="mm" />
         <node concept="312cEu" id="6TaAXKMO1cM" role="19hTtP">
           <property role="TrG5h" value="ClassA" />
@@ -4993,26 +4993,26 @@
           <property role="TrG5h" value="ClassB" />
           <node concept="3Tm1VV" id="6TaAXKMO1dE" role="1B3o_S" />
         </node>
-        <node concept="3xLA65" id="6TaAXKMO1B4" role="lGtFl">
+        <node concept="3xLA65" id="4EQRJK_DvVt" role="lGtFl">
           <property role="TrG5h" value="input" />
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="6TaAXKMO0Gd" role="1SKRRt">
-      <node concept="19hTtH" id="6TaAXKMO1A$" role="1qenE9">
+    <node concept="1qefOq" id="4EQRJK_DvVy" role="1SKRRt">
+      <node concept="19hTtH" id="4EQRJK_DvVQ" role="1qenE9">
         <property role="TrG5h" value="mm.desugar_reductionRules" />
-        <node concept="312cEu" id="6TaAXKMO1A_" role="19hTtP">
+        <node concept="312cEu" id="4EQRJK_DvVS" role="19hTtP">
           <property role="TrG5h" value="ClassA" />
-          <node concept="3Tm1VV" id="6TaAXKMO1AA" role="1B3o_S" />
-          <node concept="3uibUv" id="6TaAXKMO1AB" role="1zkMxy">
-            <ref role="3uigEE" node="6TaAXKMO1AC" resolve="ClassB" />
+          <node concept="3Tm1VV" id="4EQRJK_DvVT" role="1B3o_S" />
+          <node concept="3uibUv" id="4EQRJK_DvVU" role="1zkMxy">
+            <ref role="3uigEE" node="4EQRJK_DvVV" resolve="ClassB" />
           </node>
         </node>
-        <node concept="312cEu" id="6TaAXKMO1AC" role="19hTtP">
+        <node concept="312cEu" id="4EQRJK_DvVV" role="19hTtP">
           <property role="TrG5h" value="ClassB" />
-          <node concept="3Tm1VV" id="6TaAXKMO1AD" role="1B3o_S" />
+          <node concept="3Tm1VV" id="4EQRJK_DvVW" role="1B3o_S" />
         </node>
-        <node concept="3xLA65" id="6TaAXKMO1Bi" role="lGtFl">
+        <node concept="3xLA65" id="4EQRJK_DvWo" role="lGtFl">
           <property role="TrG5h" value="expectedOutput" />
         </node>
       </node>
@@ -5029,10 +5029,10 @@
             <ref role="37wK5l" node="4JmkJs3KdFW" resolve="runTest" />
             <ref role="1Pybhc" node="4JmkJs3K82n" resolve="TransformationTestUtil" />
             <node concept="3xONca" id="3c6J_2mZV7K" role="37wK5m">
-              <ref role="3xOPvv" node="3c6J_2mZV8d" resolve="input" />
+              <ref role="3xOPvv" node="4EQRJK_Dxk5" resolve="input" />
             </node>
             <node concept="3xONca" id="3c6J_2mZV7L" role="37wK5m">
-              <ref role="3xOPvv" node="3c6J_2mZVaB" resolve="expectedOutput" />
+              <ref role="3xOPvv" node="4EQRJK_DxBD" resolve="expectedOutput" />
             </node>
             <node concept="2tJFMh" id="3c6J_2mZV7M" role="37wK5m">
               <node concept="ZC_QK" id="3c6J_2mZV7N" role="2tJFKM">
@@ -5062,8 +5062,8 @@
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="3c6J_2mZV7V" role="1SKRRt">
-      <node concept="19hTtH" id="3c6J_2mZV7W" role="1qenE9">
+    <node concept="1qefOq" id="4EQRJK_Dxca" role="1SKRRt">
+      <node concept="19hTtH" id="4EQRJK_DxhG" role="1qenE9">
         <property role="TrG5h" value="m" />
         <node concept="1IyuVJ" id="3c6J_2mZV7X" role="19hTtP">
           <property role="TrG5h" value="Adress" />
@@ -5105,13 +5105,13 @@
             </node>
           </node>
         </node>
-        <node concept="3xLA65" id="3c6J_2mZV8d" role="lGtFl">
+        <node concept="3xLA65" id="4EQRJK_Dxk5" role="lGtFl">
           <property role="TrG5h" value="input" />
         </node>
       </node>
     </node>
-    <node concept="1qefOq" id="3c6J_2mZV8e" role="1SKRRt">
-      <node concept="19hTtH" id="3c6J_2mZV8f" role="1qenE9">
+    <node concept="1qefOq" id="4EQRJK_DxqQ" role="1SKRRt">
+      <node concept="19hTtH" id="4EQRJK_Dxwo" role="1qenE9">
         <property role="TrG5h" value="m" />
         <node concept="1IHKpL" id="3c6J_2mZRls" role="19hTtP">
           <property role="TrG5h" value="Adress.java" />
@@ -5984,7 +5984,7 @@
             </node>
           </node>
         </node>
-        <node concept="3xLA65" id="3c6J_2mZVaB" role="lGtFl">
+        <node concept="3xLA65" id="4EQRJK_DxBD" role="lGtFl">
           <property role="TrG5h" value="expectedOutput" />
         </node>
       </node>

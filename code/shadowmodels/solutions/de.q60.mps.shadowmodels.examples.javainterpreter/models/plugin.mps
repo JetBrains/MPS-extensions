@@ -29,8 +29,10 @@
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
     <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
+    <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
+    <import index="v18h" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin(org.modelix.model.api/)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
-    <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" implicit="true" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
@@ -1221,18 +1223,23 @@
             <node concept="1QHqEK" id="m_yL2N4P9a" role="3cqZAp">
               <node concept="1QHqEC" id="m_yL2N4P9c" role="1QHqEI">
                 <node concept="3clFbS" id="m_yL2N4P9e" role="1bW5cS">
-                  <node concept="3clFbF" id="1KLm$Di9uSh" role="3cqZAp">
-                    <node concept="2OqwBi" id="1KLm$Di9vDt" role="3clFbG">
-                      <node concept="10M0yZ" id="1KLm$Di9vfW" role="2Oq$k0">
-                        <ref role="3cqZAo" to="mjcn:QurUgiyqpm" resolve="CONTEXT_VALUE" />
-                        <ref role="1PxDUh" to="mjcn:5wi3nvJWiQu" resolve="SM___INodeResolveContext" />
+                  <node concept="3clFbF" id="61R9vA5pGJO" role="3cqZAp">
+                    <node concept="2OqwBi" id="61R9vA5pIXC" role="3clFbG">
+                      <node concept="2OqwBi" id="61R9vA5pHSV" role="2Oq$k0">
+                        <node concept="10M0yZ" id="61R9vA5pHE9" role="2Oq$k0">
+                          <ref role="3cqZAo" to="qvpu:~ContextArea.INSTANCE" resolve="INSTANCE" />
+                          <ref role="1PxDUh" to="qvpu:~ContextArea" resolve="ContextArea" />
+                        </node>
+                        <node concept="liA8E" id="61R9vA5pImU" role="2OqNvi">
+                          <ref role="37wK5l" to="qvpu:~ContextArea.getCONTEXT_VALUE()" resolve="getCONTEXT_VALUE" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="1KLm$Di9xHj" role="2OqNvi">
-                        <ref role="37wK5l" to="3d38:4_SQzDOcIKd" resolve="runWith" />
-                        <node concept="2ShNRf" id="1KLm$Di9ymu" role="37wK5m">
-                          <node concept="1pGfFk" id="1KLm$Di9zvQ" role="2ShVmc">
-                            <ref role="37wK5l" to="l6bp:7gxeZuyfxRC" resolve="SM___SRepositoryResolveContext" />
-                            <node concept="37vLTw" id="1KLm$Di9_qX" role="37wK5m">
+                      <node concept="liA8E" id="61R9vA5pJyn" role="2OqNvi">
+                        <ref role="37wK5l" to="jks5:~ContextValue.computeWith(java.lang.Object,kotlin.jvm.functions.Function0)" resolve="computeWith" />
+                        <node concept="2ShNRf" id="61R9vA5pJYK" role="37wK5m">
+                          <node concept="1pGfFk" id="61R9vA5pQHh" role="2ShVmc">
+                            <ref role="37wK5l" to="xxte:7cdb92Lw72S" resolve="MPSArea" />
+                            <node concept="37vLTw" id="61R9vA5pRG6" role="37wK5m">
                               <ref role="3cqZAo" node="1KLm$Di2kt9" resolve="repository" />
                             </node>
                           </node>
@@ -1510,6 +1517,12 @@
                                     <node concept="3GX2aA" id="1KLm$Di37xT" role="2OqNvi" />
                                   </node>
                                 </node>
+                              </node>
+                            </node>
+                            <node concept="3cpWs6" id="61R9vA5pW9Y" role="3cqZAp">
+                              <node concept="10M0yZ" id="61R9vA5pXH0" role="3cqZAk">
+                                <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                                <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
                               </node>
                             </node>
                           </node>

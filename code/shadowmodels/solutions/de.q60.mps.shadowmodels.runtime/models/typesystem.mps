@@ -230,8 +230,8 @@
                     <node concept="liA8E" id="7c10t$7ejOC" role="2OqNvi">
                       <ref role="37wK5l" to="evo:~SimpleTypecheckingContext.getTypeOf_generationMode(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf_generationMode" />
                       <node concept="2YIFZM" id="6DdMXMem_wQ" role="37wK5m">
-                        <ref role="37wK5l" to="l6bp:75046mlPk8L" resolve="wrap" />
-                        <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="SM___ANode" />
+                        <ref role="1Pybhc" to="xxte:kHIbzAYu9G" resolve="ANode" />
+                        <ref role="37wK5l" to="xxte:75046mlPk8L" resolve="wrap" />
                         <node concept="37vLTw" id="6DdMXMem_KN" role="37wK5m">
                           <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
                         </node>
@@ -286,8 +286,8 @@
                 <ref role="1Pybhc" to="xxte:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
                 <ref role="37wK5l" to="xxte:5gTrVpGyMwR" resolve="wrap" />
                 <node concept="2YIFZM" id="6DdMXMemAh1" role="37wK5m">
-                  <ref role="37wK5l" to="l6bp:3ECE8iPOQCm" resolve="unwrap" />
-                  <ref role="1Pybhc" to="l6bp:kHIbzAYu9G" resolve="SM___ANode" />
+                  <ref role="1Pybhc" to="xxte:kHIbzAYu9G" resolve="ANode" />
+                  <ref role="37wK5l" to="xxte:3ECE8iPOQCm" resolve="unwrap" />
                   <node concept="37vLTw" id="6DdMXMemAz_" role="37wK5m">
                     <ref role="3cqZAo" node="1pTQQaTNUgE" resolve="type" />
                   </node>

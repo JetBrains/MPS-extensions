@@ -25,6 +25,7 @@
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
+    <import index="v18h" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin(org.modelix.model.api/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -1988,8 +1989,8 @@
                           <ref role="cht4Q" to="tpee:fzcpWvK" resolve="LocalVariableDeclarationStatement" />
                         </node>
                         <node concept="2YIFZM" id="5QP6xyjX7cf" role="1m5AlR">
-                          <ref role="37wK5l" to="l6bp:30TKBrMa8hW" resolve="addNewChild" />
-                          <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
+                          <ref role="1Pybhc" to="xxte:30TKBrMa5zj" resolve="SNodeAPI" />
+                          <ref role="37wK5l" to="xxte:30TKBrMa8hW" resolve="addNewChild" />
                           <node concept="37vLTw" id="5QP6xyjX7cg" role="37wK5m">
                             <ref role="3cqZAo" node="5QP6xyjOD_X" resolve="stmtList" />
                           </node>
@@ -2015,8 +2016,8 @@
                           <ref role="cht4Q" to="tpee:fzcpWvJ" resolve="LocalVariableDeclaration" />
                         </node>
                         <node concept="2YIFZM" id="5QP6xyjX9up" role="1m5AlR">
-                          <ref role="37wK5l" to="l6bp:30TKBrMa8hW" resolve="addNewChild" />
-                          <ref role="1Pybhc" to="l6bp:30TKBrMa5zj" resolve="SM___SNodeAPI" />
+                          <ref role="1Pybhc" to="xxte:30TKBrMa5zj" resolve="SNodeAPI" />
+                          <ref role="37wK5l" to="xxte:30TKBrMa8hW" resolve="addNewChild" />
                           <node concept="37vLTw" id="5QP6xyjXaJj" role="37wK5m">
                             <ref role="3cqZAo" node="5QP6xyjPLB$" resolve="lvds" />
                           </node>
@@ -2044,6 +2045,12 @@
                           <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                         </node>
                       </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="61R9vA5tdD$" role="3cqZAp">
+                    <node concept="10M0yZ" id="61R9vA5tesQ" role="3cqZAk">
+                      <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                      <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
                     </node>
                   </node>
                 </node>
@@ -2484,7 +2491,7 @@
                             <ref role="37wK5l" to="dglc:QurUgiyUMm" resolve="resolve" />
                             <node concept="2ShNRf" id="2fAW4ld9BW" role="37wK5m">
                               <node concept="1pGfFk" id="2fAW4ld9BX" role="2ShVmc">
-                                <ref role="37wK5l" to="l6bp:5gTrVpGz3n8" resolve="SM___SNodeReferenceAdapter" />
+                                <ref role="37wK5l" to="xxte:5gTrVpGz3n8" resolve="SNodeReferenceAdapter" />
                                 <node concept="2tJFMh" id="2fAW4ld9BY" role="37wK5m">
                                   <node concept="ZC_QK" id="2fAW4ld9BZ" role="2tJFKM">
                                     <ref role="2aWVGs" to="wyt6:~Object" resolve="Object" />

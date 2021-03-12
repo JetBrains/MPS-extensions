@@ -17219,6 +17219,15 @@
   </node>
   <node concept="3HP615" id="5gTrVpGiJ4w">
     <property role="TrG5h" value="ITransformationEngine" />
+    <node concept="3clFb_" id="61R9vA5sIX8" role="jymVt">
+      <property role="TrG5h" value="getArea" />
+      <node concept="3uibUv" id="61R9vA5sJ1b" role="3clF45">
+        <ref role="3uigEE" to="qvpu:~IArea" resolve="IArea" />
+      </node>
+      <node concept="3Tm1VV" id="61R9vA5sIXb" role="1B3o_S" />
+      <node concept="3clFbS" id="61R9vA5sIXc" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="61R9vA5sJ1I" role="jymVt" />
     <node concept="3clFb_" id="B8a55Uxld2" role="jymVt">
       <property role="TrG5h" value="addInvalidationListener" />
       <node concept="37vLTG" id="B8a55Uxld3" role="3clF46">
@@ -17400,9 +17409,6 @@
       <node concept="3clFbS" id="73LuVOQ7yjS" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="5gTrVpGiJ4x" role="1B3o_S" />
-    <node concept="3uibUv" id="5wi3nvJWrg1" role="3HQHJm">
-      <ref role="3uigEE" to="mjcn:5wi3nvJWiQu" resolve="SM___INodeResolveContext" />
-    </node>
     <node concept="3uibUv" id="1Yk_YbD73GZ" role="3HQHJm">
       <ref role="3uigEE" to="pxvb:B8a55Urgn8" resolve="IUserObjectContainer" />
     </node>

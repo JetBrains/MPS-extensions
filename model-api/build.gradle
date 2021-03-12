@@ -132,3 +132,17 @@ assemble.finalizedBy(copyJarsToMps)
 String stripVersion(String fileNameWithVersion) {
     return fileNameWithVersion.replaceAll(/-\d+(\.\d+)*(-SNAPSHOT)?/, "").replace("-" + version, "")
 }
+
+publishing {
+    repositories {
+        maven {
+            url rootProject.publishingRepository
+            if (rootProject.hasProperty('nexusUsername')) {
+                credentials {
+                    username rootProject.nexusUsername
+                    password rootProject.nexusPassword
+                }
+            }
+        }
+    }
+}

@@ -12,7 +12,6 @@
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -37,12 +36,7 @@
         <child id="1139535280620" name="executeFunction" index="1hA7z_" />
       </concept>
       <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
-      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
-        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
-      </concept>
-      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
-        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -112,18 +106,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="5100827PtfU">
-    <ref role="1XX52x" to="dj5d:5100827Ptfk" resolve="___SM___ModuleReference" />
-    <node concept="1iCGBv" id="5100827Ptgk" role="2wV5jI">
-      <ref role="1NtTu8" to="dj5d:5100827PtfH" resolve="module" />
-      <node concept="1sVBvm" id="5100827Ptgm" role="1sWHZn">
-        <node concept="3F0A7n" id="5100827PtgG" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="7pvOHdLgGRM">
     <ref role="1XX52x" to="dj5d:7pvOHdLgGRB" resolve="ErrorPlaceholder" />
     <node concept="3F0A7n" id="7pvOHdLgGRO" role="2wV5jI">
@@ -201,18 +183,6 @@
               <node concept="17RvpY" id="7pvOHdLiIqB" role="2OqNvi" />
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="5zrTIjkWNaI">
-    <ref role="1XX52x" to="dj5d:5zrTIjkWNaz" resolve="___SM___ModelReference" />
-    <node concept="1iCGBv" id="5zrTIjkWNaK" role="2wV5jI">
-      <ref role="1NtTu8" to="dj5d:5zrTIjkWNa$" resolve="model" />
-      <node concept="1sVBvm" id="5zrTIjkWNaM" role="1sWHZn">
-        <node concept="3F0A7n" id="5zrTIjkWNaW" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>

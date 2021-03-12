@@ -115,10 +115,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
-        <child id="1070534934091" name="type" index="10QFUM" />
-        <child id="1070534934092" name="expression" index="10QFUP" />
-      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -151,9 +147,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -161,9 +154,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
-        <child id="1079359253376" name="expression" index="1eOMHV" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -448,26 +438,6 @@
                           <node concept="liA8E" id="2VTIUrjrLx0" role="2OqNvi">
                             <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                           </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="2VTIUrjrUko" role="3cqZAp">
-                    <node concept="2OqwBi" id="2VTIUrjrWUF" role="3clFbG">
-                      <node concept="1eOMI4" id="2VTIUrjrUkm" role="2Oq$k0">
-                        <node concept="10QFUN" id="2VTIUrjrUkj" role="1eOMHV">
-                          <node concept="3uibUv" id="2VTIUrjrUXD" role="10QFUM">
-                            <ref role="3uigEE" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
-                          </node>
-                          <node concept="37vLTw" id="2VTIUrjrVSb" role="10QFUP">
-                            <ref role="3cqZAo" node="2VTIUrjrLwT" resolve="snodeAdapter" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="2VTIUrjrY8l" role="2OqNvi">
-                        <ref role="37wK5l" to="l6bp:2VTIUrjpDN7" resolve="useDummyModel" />
-                        <node concept="3clFbT" id="2VTIUrjrYJP" role="37wK5m">
-                          <property role="3clFbU" value="true" />
                         </node>
                       </node>
                     </node>

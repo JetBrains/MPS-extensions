@@ -32,6 +32,7 @@
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
+    <import index="v18h" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin(org.modelix.model.api/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2977,6 +2978,12 @@
                                   </node>
                                 </node>
                               </node>
+                              <node concept="3cpWs6" id="61R9vA54nUt" role="3cqZAp">
+                                <node concept="10M0yZ" id="61R9vA54nUu" role="3cqZAk">
+                                  <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
+                                  <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -3231,6 +3238,12 @@
                                     </node>
                                     <node concept="10Nm6u" id="QurUgi8eOR" role="3uHU7w" />
                                   </node>
+                                </node>
+                              </node>
+                              <node concept="3cpWs6" id="61R9vA54nFw" role="3cqZAp">
+                                <node concept="10M0yZ" id="61R9vA54nFx" role="3cqZAk">
+                                  <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                                  <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
                                 </node>
                               </node>
                             </node>
@@ -4206,6 +4219,12 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3cpWs6" id="61R9vA54n2L" role="3cqZAp">
+                        <node concept="10M0yZ" id="61R9vA54nmw" role="3cqZAk">
+                          <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                          <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -4495,6 +4514,12 @@
                       <node concept="37vLTw" id="5b2TV0XHGVJ" role="37vLTJ">
                         <ref role="3cqZAo" node="5b2TV0XHmnf" resolve="initialTree" />
                       </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="61R9vA54nt2" role="3cqZAp">
+                    <node concept="10M0yZ" id="61R9vA54nt3" role="3cqZAk">
+                      <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
+                      <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
                     </node>
                   </node>
                 </node>
@@ -5079,7 +5104,7 @@
         <node concept="3clFbJ" id="QurUgiyXuB" role="3cqZAp">
           <node concept="2ZW3vV" id="QurUgiyXNZ" role="3clFbw">
             <node concept="3uibUv" id="QurUgiyY0t" role="2ZW6by">
-              <ref role="3uigEE" to="l6bp:5gTrVpGyZdS" resolve="SM___SNodeReferenceAdapter" />
+              <ref role="3uigEE" to="l6bp:5gTrVpGyZdS" resolve="___SM___SNodeReferenceAdapter" />
             </node>
             <node concept="37vLTw" id="QurUgiyXwK" role="2ZW6bz">
               <ref role="3cqZAo" node="QurUgiyUMn" resolve="ref" />
@@ -5096,7 +5121,7 @@
                   <node concept="1eOMI4" id="QurUgiz4Xg" role="2Oq$k0">
                     <node concept="10QFUN" id="QurUgiz4Xh" role="1eOMHV">
                       <node concept="3uibUv" id="QurUgiz4Xi" role="10QFUM">
-                        <ref role="3uigEE" to="l6bp:5gTrVpGyZdS" resolve="SM___SNodeReferenceAdapter" />
+                        <ref role="3uigEE" to="l6bp:5gTrVpGyZdS" resolve="___SM___SNodeReferenceAdapter" />
                       </node>
                       <node concept="37vLTw" id="QurUgiz4Xj" role="10QFUP">
                         <ref role="3cqZAo" node="QurUgiyUMn" resolve="ref" />
@@ -6162,6 +6187,12 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3cpWs6" id="61R9vA54sWd" role="3cqZAp">
+                        <node concept="10M0yZ" id="61R9vA54sWe" role="3cqZAk">
+                          <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                          <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -6667,6 +6698,12 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3cpWs6" id="61R9vA54sOI" role="3cqZAp">
+                    <node concept="10M0yZ" id="61R9vA54sOJ" role="3cqZAk">
+                      <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
+                      <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -6749,6 +6786,12 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="61R9vA54snO" role="3cqZAp">
+                    <node concept="10M0yZ" id="61R9vA54snP" role="3cqZAk">
+                      <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
+                      <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
                     </node>
                   </node>
                 </node>
@@ -7511,6 +7554,12 @@
                               </node>
                             </node>
                           </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="61R9vA54t4u" role="3cqZAp">
+                        <node concept="10M0yZ" id="61R9vA54t4v" role="3cqZAk">
+                          <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                          <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
                         </node>
                       </node>
                     </node>

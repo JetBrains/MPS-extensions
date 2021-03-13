@@ -19,3 +19,5 @@ site
 /system/
 /config/
 markdown-navigator**
+model-api/build
+code/model-api/org.modelix.model.api/lib

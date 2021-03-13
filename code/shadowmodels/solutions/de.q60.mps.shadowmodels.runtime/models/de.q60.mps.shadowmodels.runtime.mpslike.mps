@@ -13,6 +13,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -657,7 +658,7 @@
       <property role="TrG5h" value="inputConcept" />
       <node concept="3Tm6S6" id="48D0X9JB$dP" role="1B3o_S" />
       <node concept="3uibUv" id="48D0X9JB$en" role="1tU5fm">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
     </node>
     <node concept="2tJIrI" id="48D0X9JB$ht" role="jymVt" />
@@ -682,7 +683,7 @@
       <node concept="37vLTG" id="48D0X9JB$jA" role="3clF46">
         <property role="TrG5h" value="inputConcept" />
         <node concept="3uibUv" id="48D0X9JB$j_" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+          <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
         </node>
       </node>
     </node>
@@ -690,7 +691,7 @@
     <node concept="3clFb_" id="48D0X9JB$1P" role="jymVt">
       <property role="TrG5h" value="getInputConcept" />
       <node concept="3uibUv" id="48D0X9JB$eD" role="3clF45">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
       <node concept="3Tm1VV" id="48D0X9JB$1S" role="1B3o_S" />
       <node concept="3clFbS" id="48D0X9JB$1T" role="3clF47">
@@ -707,7 +708,7 @@
       <node concept="37vLTG" id="2Wm29NkbnTP" role="3clF46">
         <property role="TrG5h" value="inputNode" />
         <node concept="3uibUv" id="6EAoUhFGVs_" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="10P_77" id="48D0X9JB$cQ" role="3clF45" />
@@ -726,7 +727,7 @@
       <node concept="37vLTG" id="7K4yFTUpi7U" role="3clF46">
         <property role="TrG5h" value="inputNode" />
         <node concept="3uibUv" id="7K4yFTUpi7V" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="37vLTG" id="7K4yFTUpidc" role="3clF46">
@@ -773,7 +774,7 @@
       <property role="TrG5h" value="inputConcept" />
       <node concept="3Tm6S6" id="65qrXtnsGWZ" role="1B3o_S" />
       <node concept="3uibUv" id="65qrXtnsGX0" role="1tU5fm">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
     </node>
     <node concept="2tJIrI" id="65qrXtnsGX1" role="jymVt" />
@@ -798,7 +799,7 @@
       <node concept="37vLTG" id="65qrXtnsGXc" role="3clF46">
         <property role="TrG5h" value="inputConcept" />
         <node concept="3uibUv" id="65qrXtnsGXd" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+          <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
         </node>
       </node>
     </node>
@@ -806,7 +807,7 @@
     <node concept="3clFb_" id="65qrXtnsGXh" role="jymVt">
       <property role="TrG5h" value="getInputConcept" />
       <node concept="3uibUv" id="65qrXtnsGXi" role="3clF45">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
       <node concept="3Tm1VV" id="65qrXtnsGXj" role="1B3o_S" />
       <node concept="3clFbS" id="65qrXtnsGXk" role="3clF47">
@@ -823,7 +824,7 @@
       <node concept="37vLTG" id="65qrXtnsGXp" role="3clF46">
         <property role="TrG5h" value="inputNode" />
         <node concept="3uibUv" id="6EAoUhFDqSe" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="10P_77" id="65qrXtnsGXr" role="3clF45" />
@@ -842,7 +843,7 @@
       <node concept="37vLTG" id="7K4yFTUpuSL" role="3clF46">
         <property role="TrG5h" value="inputNode" />
         <node concept="3uibUv" id="7K4yFTUpuSM" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="37vLTG" id="7K4yFTUpv0w" role="3clF46">
@@ -882,7 +883,7 @@
       <node concept="37vLTG" id="6EAoUhFDzsk" role="3clF46">
         <property role="TrG5h" value="inputNode" />
         <node concept="3uibUv" id="6EAoUhFDzsj" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
     </node>
@@ -4071,7 +4072,7 @@
       <property role="TrG5h" value="concept" />
       <node concept="3Tm6S6" id="1Ym4FmdQqkg" role="1B3o_S" />
       <node concept="3uibUv" id="1Ym4FmdQqki" role="1tU5fm">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
     </node>
     <node concept="312cEg" id="1Ym4FmdQqkj" role="jymVt">
@@ -4115,7 +4116,7 @@
       <node concept="37vLTG" id="1Ym4FmdQqlU" role="3clF46">
         <property role="TrG5h" value="concept" />
         <node concept="3uibUv" id="1Ym4FmdQqlT" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+          <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
         </node>
       </node>
       <node concept="37vLTG" id="1Ym4FmdQqm6" role="3clF46">
@@ -4127,7 +4128,7 @@
     <node concept="3clFb_" id="1Ym4FmdQqw7" role="jymVt">
       <property role="TrG5h" value="getInputConcept" />
       <node concept="3uibUv" id="1Ym4FmdQqw8" role="3clF45">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
       <node concept="3Tm1VV" id="1Ym4FmdQqw9" role="1B3o_S" />
       <node concept="3clFbS" id="1Ym4FmdQqwb" role="3clF47">
@@ -4144,7 +4145,7 @@
       <node concept="37vLTG" id="1Ym4FmdQqwg" role="3clF46">
         <property role="TrG5h" value="inputNode" />
         <node concept="3uibUv" id="1Ym4FmdQqwh" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="37vLTG" id="1Ym4FmdQqwi" role="3clF46">
@@ -4175,7 +4176,7 @@
       <node concept="37vLTG" id="1Ym4FmdTZMi" role="3clF46">
         <property role="TrG5h" value="outputNode" />
         <node concept="3uibUv" id="1Ym4FmdTZMj" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="3uibUv" id="1Ym4FmeokLn" role="3clF45">
@@ -4205,7 +4206,7 @@
       <node concept="37vLTG" id="1Ym4FmdZt3A" role="3clF46">
         <property role="TrG5h" value="outputNode" />
         <node concept="3uibUv" id="1Ym4FmdZunF" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="17QB3L" id="1Ym4FmdZpiF" role="3clF45" />
@@ -4337,7 +4338,7 @@
           <property role="TrG5h" value="getInputNodes" />
           <node concept="A3Dl8" id="73LuVOQ5_s2" role="3clF45">
             <node concept="3uibUv" id="73LuVOQ5_s3" role="A3Ik2">
-              <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+              <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
             </node>
           </node>
           <node concept="3Tm1VV" id="73LuVOQ5_s4" role="1B3o_S" />
@@ -4565,7 +4566,7 @@
           <node concept="3clFb_" id="22rzPegyUcD" role="jymVt">
             <property role="TrG5h" value="getConcept" />
             <node concept="3uibUv" id="22rzPegyUcE" role="3clF45">
-              <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+              <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
             </node>
             <node concept="3Tm1VV" id="22rzPegyUcF" role="1B3o_S" />
             <node concept="3clFbS" id="22rzPegyUcH" role="3clF47">
@@ -4674,7 +4675,7 @@
             <node concept="37vLTG" id="22rzPegyUdk" role="3clF46">
               <property role="TrG5h" value="concept" />
               <node concept="3uibUv" id="22rzPegyUdl" role="1tU5fm">
-                <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+                <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
               </node>
               <node concept="2AHcQZ" id="22rzPegyUdm" role="2AJF6D">
                 <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
@@ -4745,7 +4746,7 @@
             <node concept="37vLTG" id="22rzPegyUdD" role="3clF46">
               <property role="TrG5h" value="target" />
               <node concept="3uibUv" id="22rzPegyUdE" role="1tU5fm">
-                <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
               </node>
             </node>
             <node concept="3cqZAl" id="22rzPegyUdF" role="3clF45" />
@@ -5123,7 +5124,7 @@
       <property role="TrG5h" value="concept" />
       <node concept="3Tm6S6" id="6TaAXKMqWAB" role="1B3o_S" />
       <node concept="3uibUv" id="6TaAXKMqWAC" role="1tU5fm">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
     </node>
     <node concept="312cEg" id="6TaAXKMqWAD" role="jymVt">
@@ -5167,7 +5168,7 @@
       <node concept="37vLTG" id="6TaAXKMqWAY" role="3clF46">
         <property role="TrG5h" value="concept" />
         <node concept="3uibUv" id="6TaAXKMqWAZ" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+          <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
         </node>
       </node>
       <node concept="37vLTG" id="6TaAXKMqWB0" role="3clF46">
@@ -5179,7 +5180,7 @@
     <node concept="3clFb_" id="6TaAXKMqWB3" role="jymVt">
       <property role="TrG5h" value="getInputConcept" />
       <node concept="3uibUv" id="6TaAXKMqWB4" role="3clF45">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
       <node concept="3Tm1VV" id="6TaAXKMqWB5" role="1B3o_S" />
       <node concept="3clFbS" id="6TaAXKMqWB6" role="3clF47">
@@ -5196,7 +5197,7 @@
       <node concept="37vLTG" id="6TaAXKMqWBb" role="3clF46">
         <property role="TrG5h" value="inputNode" />
         <node concept="3uibUv" id="6TaAXKMqWBc" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="37vLTG" id="6TaAXKMqWBd" role="3clF46">
@@ -5227,7 +5228,7 @@
       <node concept="37vLTG" id="6TaAXKMqWBo" role="3clF46">
         <property role="TrG5h" value="outputNode" />
         <node concept="3uibUv" id="6TaAXKMqWBp" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="3uibUv" id="6TaAXKMqWBq" role="3clF45">
@@ -5257,7 +5258,7 @@
       <node concept="37vLTG" id="6TaAXKMqWB$" role="3clF46">
         <property role="TrG5h" value="outputNode" />
         <node concept="3uibUv" id="6TaAXKMqWB_" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="3uibUv" id="6TaAXKMqYHi" role="3clF45">
@@ -5395,7 +5396,7 @@
           <property role="TrG5h" value="getInputNodes" />
           <node concept="A3Dl8" id="6TaAXKMqWCA" role="3clF45">
             <node concept="3uibUv" id="6TaAXKMqWCB" role="A3Ik2">
-              <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+              <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
             </node>
           </node>
           <node concept="3Tm1VV" id="6TaAXKMqWCC" role="1B3o_S" />
@@ -5652,7 +5653,7 @@
           <node concept="3clFb_" id="6TaAXKMqWE8" role="jymVt">
             <property role="TrG5h" value="getConcept" />
             <node concept="3uibUv" id="6TaAXKMqWE9" role="3clF45">
-              <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+              <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
             </node>
             <node concept="3Tm1VV" id="6TaAXKMqWEa" role="1B3o_S" />
             <node concept="3clFbS" id="6TaAXKMqWEb" role="3clF47">
@@ -5761,7 +5762,7 @@
             <node concept="37vLTG" id="6TaAXKMqWEQ" role="3clF46">
               <property role="TrG5h" value="concept" />
               <node concept="3uibUv" id="6TaAXKMqWER" role="1tU5fm">
-                <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+                <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
               </node>
               <node concept="2AHcQZ" id="6TaAXKMqWES" role="2AJF6D">
                 <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
@@ -5881,7 +5882,7 @@
             <node concept="37vLTG" id="6TaAXKMqWFj" role="3clF46">
               <property role="TrG5h" value="target" />
               <node concept="3uibUv" id="6TaAXKMqWFk" role="1tU5fm">
-                <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
               </node>
             </node>
             <node concept="3cqZAl" id="6TaAXKMqWFl" role="3clF45" />
@@ -6243,7 +6244,7 @@
     <node concept="3clFb_" id="6TaAXKMtvQ5" role="jymVt">
       <property role="TrG5h" value="getInputConcept" />
       <node concept="3uibUv" id="6TaAXKMtvQ6" role="3clF45">
-        <ref role="3uigEE" to="mjcn:5gTrVpGiUpC" resolve="IConcept" />
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
       </node>
       <node concept="3Tm1VV" id="6TaAXKMtvQ7" role="1B3o_S" />
       <node concept="3clFbS" id="6TaAXKMtvQ8" role="3clF47" />
@@ -6253,7 +6254,7 @@
       <node concept="37vLTG" id="6TaAXKMty$k" role="3clF46">
         <property role="TrG5h" value="inputNode" />
         <node concept="3uibUv" id="6TaAXKMty$l" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="37vLTG" id="6TaAXKMty$m" role="3clF46">
@@ -6277,7 +6278,7 @@
       <node concept="37vLTG" id="6TaAXKMtAEU" role="3clF46">
         <property role="TrG5h" value="outputNode" />
         <node concept="3uibUv" id="6TaAXKMtAEV" role="1tU5fm">
-          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
         </node>
       </node>
       <node concept="3uibUv" id="6TaAXKMtAEW" role="3clF45">

@@ -249,8 +249,9 @@
                               <node concept="YeOm9" id="5yVaV$3DskM" role="2ShVmc">
                                 <node concept="1Y3b0j" id="5yVaV$3DskP" role="YeSDq">
                                   <property role="2bfB8j" value="true" />
-                                  <ref role="1Y3XeK" to="l6bp:7YhLqbpj_AC" resolve="TransformationsFromAspect" />
-                                  <ref role="37wK5l" to="l6bp:7YhLqbpjF1U" resolve="TransformationsFromAspect" />
+                                  <property role="TrG5h" value="SM_TransformationsFromAspect$anonymous" />
+                                  <ref role="1Y3XeK" to="l6bp:7YhLqbpj_AC" resolve="SM_TransformationsFromAspect" />
+                                  <ref role="37wK5l" to="l6bp:7YhLqbpjF1U" resolve="SM_TransformationsFromAspect" />
                                   <node concept="3Tm1VV" id="5yVaV$3DskQ" role="1B3o_S" />
                                   <node concept="3clFb_" id="5yVaV$3DsuP" role="jymVt">
                                     <property role="TrG5h" value="getSModules" />

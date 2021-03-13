@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
+    <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -43,7 +44,7 @@
       <concept id="7335687028107243116" name="de.q60.mps.shadowmodels.transformation.structure.NodeBuilder" flags="ng" index="027og">
         <reference id="7335687028107281650" name="concept" index="02LMe" />
       </concept>
-      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ng" index="02i3D">
+      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ig" index="02i3D">
         <reference id="7335687028107163800" name="concept" index="02i3$" />
       </concept>
       <concept id="7335687028107163788" name="de.q60.mps.shadowmodels.transformation.structure.TransformationParameter" flags="ng" index="02i3K">
@@ -79,13 +80,13 @@
     <node concept="02vpq" id="7YhLqbpfNME" role="02uzr">
       <property role="TrG5h" value="Repository" />
       <node concept="026TG" id="7YhLqbpfNNb" role="026TK">
-        <node concept="027og" id="7YhLqbpfNNh" role="026TJ">
-          <ref role="02LMe" to="dj5d:qmkA5fOskm" resolve="Repository" />
+        <node concept="027og" id="61R9vA4_Sjl" role="026TJ">
+          <ref role="02LMe" to="jh6v:qmkA5fOskm" resolve="Repository" />
         </node>
       </node>
       <node concept="02i3K" id="7YhLqbpfNMS" role="02i3f">
-        <node concept="02i3D" id="7YhLqbpfNN2" role="02i2B">
-          <ref role="02i3$" to="dj5d:qmkA5fOskm" resolve="Repository" />
+        <node concept="02i3D" id="61R9vA4_RDZ" role="02i2B">
+          <ref role="02i3$" to="jh6v:qmkA5fOskm" resolve="Repository" />
         </node>
       </node>
     </node>

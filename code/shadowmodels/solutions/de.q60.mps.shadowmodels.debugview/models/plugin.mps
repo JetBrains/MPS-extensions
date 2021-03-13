@@ -45,6 +45,9 @@
     <import index="yo94" ref="r:4629a434-6c59-4e7a-9315-92ac147f2aaa(de.q60.mps.explorer.pf)" />
     <import index="e55s" ref="r:340cdae2-711c-4186-bc13-94d9832e5a1d(de.q60.mps.explorer)" />
     <import index="nw4f" ref="r:37f0e188-99eb-43dc-a4d6-c6b3a29372b8(de.q60.mps.explorer.plugin)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
+    <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
+    <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -324,7 +327,7 @@
               <ref role="3uigEE" to="nv3w:2dy3jLYuSc6" resolve="IOutputNodeReference" />
             </node>
             <node concept="2YIFZM" id="3_irx8F_8q1" role="33vP2m">
-              <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+              <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
               <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
               <node concept="2OqwBi" id="3_irx8F_8q2" role="37wK5m">
                 <node concept="2WthIp" id="3_irx8F_8q3" role="2Oq$k0" />
@@ -351,14 +354,14 @@
             <property role="TrG5h" value="selectedSNode" />
             <node concept="3Tqbb2" id="3_irx8FIlLC" role="1tU5fm" />
             <node concept="2YIFZM" id="3_irx8FIl1O" role="33vP2m">
-              <ref role="37wK5l" to="l6bp:4EhVFrZ6z9$" resolve="wrap" />
-              <ref role="1Pybhc" to="l6bp:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+              <ref role="1Pybhc" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+              <ref role="37wK5l" to="xxte:4EhVFrZ6z9$" resolve="wrap" />
               <node concept="2YIFZM" id="3_irx8FIl1P" role="37wK5m">
                 <ref role="37wK5l" to="nv3w:4Dc7ogUjD_D" resolve="create" />
                 <ref role="1Pybhc" to="nv3w:5$YruQr6z2g" resolve="OutputNodeReferenceAsNode" />
                 <node concept="2YIFZM" id="3_irx8FIl1Q" role="37wK5m">
                   <ref role="37wK5l" to="l6bp:6$M6y1eLyFF" resolve="getEngine" />
-                  <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                  <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                   <node concept="2OqwBi" id="3_irx8FIl1R" role="37wK5m">
                     <node concept="2WthIp" id="3_irx8FIl1S" role="2Oq$k0" />
                     <node concept="3gHZIF" id="3_irx8FIl1T" role="2OqNvi">
@@ -454,7 +457,7 @@
                                     <node concept="3clFbF" id="3_irx8FGc2o" role="3cqZAp">
                                       <node concept="2YIFZM" id="3_irx8FGc2p" role="3clFbG">
                                         <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
-                                        <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                                        <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                                         <node concept="37vLTw" id="3_irx8FGc2q" role="37wK5m">
                                           <ref role="3cqZAo" node="3_irx8FGc2r" resolve="it" />
                                         </node>
@@ -551,10 +554,10 @@
                                           <node concept="37vLTI" id="3_irx8F_pjf" role="3clFbG">
                                             <node concept="2YIFZM" id="3_irx8F_pjg" role="37vLTx">
                                               <ref role="37wK5l" to="l6bp:6$M6y1f559g" resolve="getOutputNodeReference" />
-                                              <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                                              <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                                               <node concept="10QFUN" id="3_irx8F_pjh" role="37wK5m">
                                                 <node concept="3uibUv" id="3_irx8F_pji" role="10QFUM">
-                                                  <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                                                  <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                                                 </node>
                                                 <node concept="37vLTw" id="3_irx8F_pjj" role="10QFUP">
                                                   <ref role="3cqZAo" node="3_irx8F_piX" resolve="owner" />
@@ -569,7 +572,7 @@
                                       </node>
                                       <node concept="2ZW3vV" id="3_irx8F_pjl" role="3clFbw">
                                         <node concept="3uibUv" id="3_irx8F_pjm" role="2ZW6by">
-                                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                                          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                                         </node>
                                         <node concept="37vLTw" id="3_irx8F_pjn" role="2ZW6bz">
                                           <ref role="3cqZAo" node="3_irx8F_piX" resolve="owner" />
@@ -581,7 +584,7 @@
                                         <node concept="3clFbF" id="3_irx8F_pjq" role="3cqZAp">
                                           <node concept="37vLTI" id="3_irx8F_pjr" role="3clFbG">
                                             <node concept="2YIFZM" id="3_irx8F_pjs" role="37vLTx">
-                                              <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                                              <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                                               <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
                                               <node concept="10QFUN" id="3_irx8F_pjt" role="37wK5m">
                                                 <node concept="3uibUv" id="3_irx8F_pju" role="10QFUM">
@@ -740,11 +743,11 @@
                                       <node concept="3clFbS" id="3_irx8FGfiT" role="3clFbx">
                                         <node concept="3cpWs6" id="3_irx8FGfL$" role="3cqZAp">
                                           <node concept="2YIFZM" id="3_irx8FGfMO" role="3cqZAk">
-                                            <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                                            <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                                             <ref role="37wK5l" to="l6bp:6$M6y1f559g" resolve="getOutputNodeReference" />
                                             <node concept="10QFUN" id="3_irx8FGfMP" role="37wK5m">
                                               <node concept="3uibUv" id="3_irx8FGfMQ" role="10QFUM">
-                                                <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                                                <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                                               </node>
                                               <node concept="37vLTw" id="3_irx8FGfMR" role="10QFUP">
                                                 <ref role="3cqZAo" node="3_irx8FGfiD" resolve="owner" />
@@ -755,7 +758,7 @@
                                       </node>
                                       <node concept="2ZW3vV" id="3_irx8FGfj1" role="3clFbw">
                                         <node concept="3uibUv" id="3_irx8FGfj2" role="2ZW6by">
-                                          <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                                          <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                                         </node>
                                         <node concept="37vLTw" id="3_irx8FGfj3" role="2ZW6bz">
                                           <ref role="3cqZAo" node="3_irx8FGfiD" resolve="owner" />
@@ -767,7 +770,7 @@
                                         <node concept="3cpWs6" id="3_irx8FGgf0" role="3cqZAp">
                                           <node concept="2YIFZM" id="3_irx8FGgox" role="3cqZAk">
                                             <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
-                                            <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                                            <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                                             <node concept="10QFUN" id="3_irx8FGgoy" role="37wK5m">
                                               <node concept="3uibUv" id="3_irx8FGgoz" role="10QFUM">
                                                 <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
@@ -951,7 +954,7 @@
         <node concept="3clFbF" id="7c10t$6PQPQ" role="3cqZAp">
           <node concept="2YIFZM" id="7c10t$6PQXW" role="3clFbG">
             <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
-            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+            <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM_RepositoryModulesManager" />
           </node>
         </node>
       </node>
@@ -1081,7 +1084,7 @@
           <node concept="2OqwBi" id="3_irx8Fo52U" role="3clFbG">
             <node concept="2YIFZM" id="3_irx8Fo52V" role="2Oq$k0">
               <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+              <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM_RepositoryModulesManager" />
             </node>
             <node concept="liA8E" id="3_irx8Fo52W" role="2OqNvi">
               <ref role="37wK5l" to="l6bp:1pTQQaTWqtQ" resolve="runReadOnTransformationOutput" />
@@ -1091,11 +1094,11 @@
                     <node concept="3cpWsn" id="3_irx8Fo530" role="3cpWs9">
                       <property role="TrG5h" value="repository" />
                       <node concept="3Tqbb2" id="3_irx8Fo531" role="1tU5fm">
-                        <ref role="ehGHo" to="dj5d:qmkA5fOskm" resolve="Repository" />
+                        <ref role="ehGHo" to="jh6v:qmkA5fOskm" resolve="Repository" />
                       </node>
                       <node concept="2OqwBi" id="3_irx8Fo532" role="33vP2m">
                         <node concept="2YIFZM" id="3_irx8Fo533" role="2Oq$k0">
-                          <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                          <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM_RepositoryModulesManager" />
                           <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
                         </node>
                         <node concept="liA8E" id="3_irx8Fo534" role="2OqNvi">
@@ -1112,7 +1115,7 @@
                       </node>
                       <node concept="2YIFZM" id="3_irx8Fo538" role="33vP2m">
                         <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
-                        <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                        <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                         <node concept="37vLTw" id="3_irx8Fo539" role="37wK5m">
                           <ref role="3cqZAo" node="3_irx8Fo530" resolve="repository" />
                         </node>
@@ -1128,7 +1131,7 @@
                         <ref role="3uigEE" to="nv3w:5gTrVpGiJ4w" resolve="ITransformationEngine" />
                       </node>
                       <node concept="2YIFZM" id="3_irx8Fo53e" role="33vP2m">
-                        <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="TransformationTrace" />
+                        <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                         <ref role="37wK5l" to="l6bp:6$M6y1eLyFF" resolve="getEngine" />
                         <node concept="37vLTw" id="3_irx8Fo53f" role="37wK5m">
                           <ref role="3cqZAo" node="3_irx8Fo530" resolve="repository" />
@@ -1222,7 +1225,7 @@
                                   <node concept="2OqwBi" id="2BYLcdc8aFO" role="3clFbG">
                                     <node concept="2YIFZM" id="2BYLcdc8aFP" role="2Oq$k0">
                                       <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
-                                      <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                                      <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM_RepositoryModulesManager" />
                                     </node>
                                     <node concept="liA8E" id="2BYLcdc8aFQ" role="2OqNvi">
                                       <ref role="37wK5l" to="l6bp:1pTQQaTWqtQ" resolve="runReadOnTransformationOutput" />
@@ -1232,7 +1235,7 @@
                                           <node concept="3clFbF" id="2BYLcdc8aFT" role="3cqZAp">
                                             <node concept="2OqwBi" id="2BYLcdc8aFU" role="3clFbG">
                                               <node concept="2YIFZM" id="2BYLcdc8aFV" role="2Oq$k0">
-                                                <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                                                <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM_RepositoryModulesManager" />
                                                 <ref role="37wK5l" to="l6bp:7YhLqbpg02T" resolve="getInstance" />
                                               </node>
                                               <node concept="liA8E" id="2BYLcdc8aFW" role="2OqNvi">
@@ -1281,7 +1284,7 @@
                               </node>
                               <node concept="2YIFZM" id="70DEt$5TuWi" role="3clFbw">
                                 <ref role="37wK5l" to="l6bp:7zI2priRPPb" resolve="isEnabled" />
-                                <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="RepositoryModulesManager" />
+                                <ref role="1Pybhc" to="l6bp:7YhLqbpfZWY" resolve="SM_RepositoryModulesManager" />
                               </node>
                               <node concept="9aQIb" id="70DEt$5TwrC" role="9aQIa">
                                 <node concept="3clFbS" id="70DEt$5TwrD" role="9aQI4">

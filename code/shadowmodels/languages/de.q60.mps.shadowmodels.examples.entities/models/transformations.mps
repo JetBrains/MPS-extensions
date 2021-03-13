@@ -12,6 +12,7 @@
     <import index="dj5d" ref="r:8bca245c-17c6-44f4-9367-ad6ce25cabf5(de.q60.mps.shadowmodels.runtimelang.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tn36" ref="r:cc5d8794-93e1-4a17-9568-f7b92b71d018(de.q60.mps.shadowmodels.examples.entities.structure)" implicit="true" />
   </imports>
@@ -79,7 +80,7 @@
         <reference id="7335687028107243182" name="link" index="027ri" />
         <child id="7335687028107243185" name="target" index="027rd" />
       </concept>
-      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ng" index="02i3D">
+      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ig" index="02i3D">
         <reference id="7335687028107163800" name="concept" index="02i3$" />
       </concept>
       <concept id="7335687028107163788" name="de.q60.mps.shadowmodels.transformation.structure.TransformationParameter" flags="ng" index="02i3K">
@@ -145,7 +146,7 @@
         <child id="5373338300165862254" name="call" index="2PWHRo" />
         <child id="5373338300165862252" name="input" index="2PWHRq" />
       </concept>
-      <concept id="4225291329826005067" name="de.q60.mps.shadowmodels.transformation.structure.TStringType" flags="ng" index="38sA1o" />
+      <concept id="4225291329826005067" name="de.q60.mps.shadowmodels.transformation.structure.TStringType" flags="ig" index="38sA1o" />
       <concept id="3563231453904357666" name="de.q60.mps.shadowmodels.transformation.structure.NullNode" flags="ng" index="3n1eO2" />
       <concept id="7947335862502909370" name="de.q60.mps.shadowmodels.transformation.structure.GenplanRule_Include" flags="ng" index="1tvZTA">
         <child id="1893966189698443856" name="includeItem" index="rQX9B" />
@@ -228,8 +229,8 @@
     <node concept="02vpq" id="TC$M5wSH0J" role="02uzr">
       <ref role="1YyVLo" node="5o5qH$CQKdb" resolve="toPlainText" />
       <node concept="02i3K" id="TC$M5wSHcz" role="02i3f">
-        <node concept="02i3D" id="TC$M5wSHoo" role="02i2B">
-          <ref role="02i3$" to="dj5d:qmkA5fOskc" resolve="Model" />
+        <node concept="02i3D" id="61R9vA4CJYz" role="02i2B">
+          <ref role="02i3$" to="jh6v:qmkA5fOskc" resolve="Model" />
         </node>
       </node>
       <node concept="026TG" id="TC$M5wSHc_" role="026TK">
@@ -248,7 +249,7 @@
                 <node concept="2OqwBi" id="TC$M5wSIh3" role="2Oq$k0">
                   <node concept="214o7A" id="TC$M5wSI8s" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="TC$M5wSIGx" role="2OqNvi">
-                    <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                    <ref role="3TtcxE" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
                   </node>
                 </node>
                 <node concept="v3k3i" id="TC$M5wSMan" role="2OqNvi">
@@ -1686,17 +1687,17 @@
       <property role="2$mnfv" value="true" />
       <ref role="1YyVLo" to="jwvb:7YhLqbpfNME" resolve="Repository" />
       <node concept="02i3K" id="TC$M5wSEZL" role="02i3f">
-        <node concept="02i3D" id="TC$M5wSEZM" role="02i2B">
-          <ref role="02i3$" to="dj5d:qmkA5fOskm" resolve="Repository" />
+        <node concept="02i3D" id="61R9vA4_SZL" role="02i2B">
+          <ref role="02i3$" to="jh6v:qmkA5fOskm" resolve="Repository" />
         </node>
       </node>
       <node concept="026TG" id="TC$M5wSEZN" role="026TK">
         <node concept="027og" id="TC$M5wSEZO" role="026TJ">
-          <ref role="02LMe" to="dj5d:qmkA5fOskm" resolve="Repository" />
+          <ref role="02LMe" to="jh6v:qmkA5fOskm" resolve="Repository" />
           <node concept="027rt" id="TC$M5wSFap" role="02LM9">
-            <ref role="027rv" to="dj5d:qmkA5fOskn" resolve="modules" />
+            <ref role="027rv" to="jh6v:qmkA5fOskn" resolve="modules" />
             <node concept="027og" id="TC$M5wSFxz" role="027rp">
-              <ref role="02LMe" to="dj5d:qmkA5fOskf" resolve="Module" />
+              <ref role="02LMe" to="jh6v:qmkA5fOskf" resolve="Module" />
               <node concept="027oh" id="TC$M5wSFxI" role="02LM9">
                 <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
                 <node concept="Xl_RD" id="TC$M5wSFxR" role="027of">
@@ -1704,18 +1705,18 @@
                 </node>
               </node>
               <node concept="027rt" id="TC$M5wSMQK" role="02LM9">
-                <ref role="027rv" to="dj5d:qmkA5fOski" resolve="models" />
+                <ref role="027rv" to="jh6v:qmkA5fOski" resolve="models" />
                 <node concept="2PWHRv" id="TC$M5wSMQU" role="027rp">
                   <node concept="2OqwBi" id="TC$M5wSRIX" role="2PWHRq">
                     <node concept="2OqwBi" id="TC$M5wSP1G" role="2Oq$k0">
                       <node concept="2OqwBi" id="TC$M5wSMZ7" role="2Oq$k0">
                         <node concept="214o7A" id="TC$M5wSMRm" role="2Oq$k0" />
                         <node concept="3Tsc0h" id="TC$M5wSNmt" role="2OqNvi">
-                          <ref role="3TtcxE" to="dj5d:qmkA5fOskn" resolve="modules" />
+                          <ref role="3TtcxE" to="jh6v:qmkA5fOskn" resolve="modules" />
                         </node>
                       </node>
                       <node concept="13MTOL" id="TC$M5wSQOz" role="2OqNvi">
-                        <ref role="13MTZf" to="dj5d:qmkA5fOski" resolve="models" />
+                        <ref role="13MTZf" to="jh6v:qmkA5fOski" resolve="models" />
                       </node>
                     </node>
                     <node concept="3zZkjj" id="TC$M5wSSYe" role="2OqNvi">
@@ -1729,7 +1730,7 @@
                                     <ref role="3cqZAo" node="TC$M5wSSYi" resolve="it" />
                                   </node>
                                   <node concept="3Tsc0h" id="TC$M5wSUUX" role="2OqNvi">
-                                    <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                                    <ref role="3TtcxE" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
                                   </node>
                                 </node>
                                 <node concept="v3k3i" id="TC$M5wT1vG" role="2OqNvi">
@@ -1758,9 +1759,9 @@
             </node>
           </node>
           <node concept="027rt" id="2cFycKbzIPJ" role="02LM9">
-            <ref role="027rv" to="dj5d:qmkA5fOskn" resolve="modules" />
+            <ref role="027rv" to="jh6v:qmkA5fOskn" resolve="modules" />
             <node concept="027og" id="2cFycKbzIPK" role="027rp">
-              <ref role="02LMe" to="dj5d:qmkA5fOskf" resolve="Module" />
+              <ref role="02LMe" to="jh6v:qmkA5fOskf" resolve="Module" />
               <node concept="1X3_iC" id="5ndwm32Js0e" role="lGtFl">
                 <property role="3V$3am" value="content" />
                 <property role="3V$3ak" value="94b64715-a263-4c36-a138-8da14705ffa7/7335687028107243116/7335687028107281653" />
@@ -1778,18 +1779,18 @@
                 </node>
               </node>
               <node concept="027rt" id="2cFycKbzIQb" role="02LM9">
-                <ref role="027rv" to="dj5d:qmkA5fOski" resolve="models" />
+                <ref role="027rv" to="jh6v:qmkA5fOski" resolve="models" />
                 <node concept="2PWHRv" id="2cFycKbzIQc" role="027rp">
                   <node concept="2OqwBi" id="2cFycKbzIQd" role="2PWHRq">
                     <node concept="2OqwBi" id="2cFycKbzIQe" role="2Oq$k0">
                       <node concept="2OqwBi" id="2cFycKbzIQf" role="2Oq$k0">
                         <node concept="214o7A" id="2cFycKbzIQg" role="2Oq$k0" />
                         <node concept="3Tsc0h" id="2cFycKbzIQh" role="2OqNvi">
-                          <ref role="3TtcxE" to="dj5d:qmkA5fOskn" resolve="modules" />
+                          <ref role="3TtcxE" to="jh6v:qmkA5fOskn" resolve="modules" />
                         </node>
                       </node>
                       <node concept="13MTOL" id="2cFycKbzIQi" role="2OqNvi">
-                        <ref role="13MTZf" to="dj5d:qmkA5fOski" resolve="models" />
+                        <ref role="13MTZf" to="jh6v:qmkA5fOski" resolve="models" />
                       </node>
                     </node>
                     <node concept="3zZkjj" id="2cFycKbzIQj" role="2OqNvi">
@@ -1803,7 +1804,7 @@
                                     <ref role="3cqZAo" node="2cFycKbzIQv" resolve="it" />
                                   </node>
                                   <node concept="3Tsc0h" id="2cFycKbzIQr" role="2OqNvi">
-                                    <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                                    <ref role="3TtcxE" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
                                   </node>
                                 </node>
                                 <node concept="v3k3i" id="2cFycKbzIQs" role="2OqNvi">
@@ -1832,9 +1833,9 @@
             </node>
           </node>
           <node concept="027rt" id="XAHiIwPb$H" role="02LM9">
-            <ref role="027rv" to="dj5d:qmkA5fOskn" resolve="modules" />
+            <ref role="027rv" to="jh6v:qmkA5fOskn" resolve="modules" />
             <node concept="027og" id="XAHiIwPbPE" role="027rp">
-              <ref role="02LMe" to="dj5d:qmkA5fOskf" resolve="Module" />
+              <ref role="02LMe" to="jh6v:qmkA5fOskf" resolve="Module" />
               <node concept="027oh" id="XAHiIwPbPP" role="02LM9">
                 <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
                 <node concept="Xl_RD" id="XAHiIwPbQ4" role="027of">
@@ -1842,18 +1843,18 @@
                 </node>
               </node>
               <node concept="027rt" id="XAHiIwPbRb" role="02LM9">
-                <ref role="027rv" to="dj5d:qmkA5fOski" resolve="models" />
+                <ref role="027rv" to="jh6v:qmkA5fOski" resolve="models" />
                 <node concept="2PWHRv" id="XAHiIwPbRc" role="027rp">
                   <node concept="2OqwBi" id="XAHiIwPbRd" role="2PWHRq">
                     <node concept="2OqwBi" id="XAHiIwPbRe" role="2Oq$k0">
                       <node concept="2OqwBi" id="XAHiIwPbRf" role="2Oq$k0">
                         <node concept="214o7A" id="XAHiIwPbRg" role="2Oq$k0" />
                         <node concept="3Tsc0h" id="XAHiIwPbRh" role="2OqNvi">
-                          <ref role="3TtcxE" to="dj5d:qmkA5fOskn" resolve="modules" />
+                          <ref role="3TtcxE" to="jh6v:qmkA5fOskn" resolve="modules" />
                         </node>
                       </node>
                       <node concept="13MTOL" id="XAHiIwPbRi" role="2OqNvi">
-                        <ref role="13MTZf" to="dj5d:qmkA5fOski" resolve="models" />
+                        <ref role="13MTZf" to="jh6v:qmkA5fOski" resolve="models" />
                       </node>
                     </node>
                     <node concept="3zZkjj" id="XAHiIwPbRj" role="2OqNvi">
@@ -1867,7 +1868,7 @@
                                     <ref role="3cqZAo" node="XAHiIwPbRv" resolve="it" />
                                   </node>
                                   <node concept="3Tsc0h" id="XAHiIwPbRr" role="2OqNvi">
-                                    <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                                    <ref role="3TtcxE" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
                                   </node>
                                 </node>
                                 <node concept="v3k3i" id="XAHiIwPbRs" role="2OqNvi">
@@ -1896,9 +1897,9 @@
             </node>
           </node>
           <node concept="027rt" id="3c6J_2mXJIl" role="02LM9">
-            <ref role="027rv" to="dj5d:qmkA5fOskn" resolve="modules" />
+            <ref role="027rv" to="jh6v:qmkA5fOskn" resolve="modules" />
             <node concept="027og" id="3c6J_2mXJIm" role="027rp">
-              <ref role="02LMe" to="dj5d:qmkA5fOskf" resolve="Module" />
+              <ref role="02LMe" to="jh6v:qmkA5fOskf" resolve="Module" />
               <node concept="027oh" id="3c6J_2mXJIn" role="02LM9">
                 <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
                 <node concept="Xl_RD" id="3c6J_2mXJIo" role="027of">
@@ -1906,18 +1907,18 @@
                 </node>
               </node>
               <node concept="027rt" id="3c6J_2mXJIp" role="02LM9">
-                <ref role="027rv" to="dj5d:qmkA5fOski" resolve="models" />
+                <ref role="027rv" to="jh6v:qmkA5fOski" resolve="models" />
                 <node concept="2PWHRv" id="3c6J_2mXJIq" role="027rp">
                   <node concept="2OqwBi" id="3c6J_2mXJIr" role="2PWHRq">
                     <node concept="2OqwBi" id="3c6J_2mXJIs" role="2Oq$k0">
                       <node concept="2OqwBi" id="3c6J_2mXJIt" role="2Oq$k0">
                         <node concept="214o7A" id="3c6J_2mXJIu" role="2Oq$k0" />
                         <node concept="3Tsc0h" id="3c6J_2mXJIv" role="2OqNvi">
-                          <ref role="3TtcxE" to="dj5d:qmkA5fOskn" resolve="modules" />
+                          <ref role="3TtcxE" to="jh6v:qmkA5fOskn" resolve="modules" />
                         </node>
                       </node>
                       <node concept="13MTOL" id="3c6J_2mXJIw" role="2OqNvi">
-                        <ref role="13MTZf" to="dj5d:qmkA5fOski" resolve="models" />
+                        <ref role="13MTZf" to="jh6v:qmkA5fOski" resolve="models" />
                       </node>
                     </node>
                     <node concept="3zZkjj" id="3c6J_2mXJIx" role="2OqNvi">
@@ -1931,7 +1932,7 @@
                                     <ref role="3cqZAo" node="3c6J_2mXJIH" resolve="it" />
                                   </node>
                                   <node concept="3Tsc0h" id="3c6J_2mXJID" role="2OqNvi">
-                                    <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                                    <ref role="3TtcxE" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
                                   </node>
                                 </node>
                                 <node concept="v3k3i" id="3c6J_2mXJIE" role="2OqNvi">
@@ -1966,13 +1967,13 @@
     <node concept="02vpq" id="TC$M5wVb9E" role="02uzr">
       <property role="TrG5h" value="entitiesModelToFiles" />
       <node concept="02i3K" id="TC$M5wVbj0" role="02i3f">
-        <node concept="02i3D" id="TC$M5wVbj1" role="02i2B">
-          <ref role="02i3$" to="dj5d:qmkA5fOskc" resolve="Model" />
+        <node concept="02i3D" id="61R9vA4_WBM" role="02i2B">
+          <ref role="02i3$" to="jh6v:qmkA5fOskc" resolve="Model" />
         </node>
       </node>
       <node concept="026TG" id="TC$M5wVbj2" role="026TK">
         <node concept="027og" id="6uZS9Zn_QOP" role="026TJ">
-          <ref role="02LMe" to="dj5d:qmkA5fOskc" resolve="Model" />
+          <ref role="02LMe" to="jh6v:qmkA5fOskc" resolve="Model" />
           <node concept="027oh" id="6uZS9Zn_QTy" role="02LM9">
             <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
             <node concept="3cpWs3" id="5KTOHw7ey3r" role="027of">
@@ -1988,7 +1989,7 @@
             </node>
           </node>
           <node concept="027rt" id="6uZS9Zn_RpK" role="02LM9">
-            <ref role="027rv" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+            <ref role="027rv" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
             <node concept="027og" id="TC$M5wVc7Q" role="027rp">
               <ref role="02LMe" to="aoe3:TC$M5wRTmh" resolve="Folder" />
               <node concept="027oh" id="TC$M5wVc81" role="02LM9">
@@ -2021,7 +2022,7 @@
                         <node concept="2OqwBi" id="TC$M5wVcUk" role="2Oq$k0">
                           <node concept="214o7A" id="TC$M5wVcLH" role="2Oq$k0" />
                           <node concept="3Tsc0h" id="TC$M5wVdlM" role="2OqNvi">
-                            <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                            <ref role="3TtcxE" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
                           </node>
                         </node>
                         <node concept="v3k3i" id="TC$M5wVgNC" role="2OqNvi">
@@ -2057,13 +2058,13 @@
     <node concept="02vpq" id="6uZS9ZnHuJM" role="02uzr">
       <property role="TrG5h" value="entititesModelToJavaModel" />
       <node concept="02i3K" id="6uZS9ZnHuYY" role="02i3f">
-        <node concept="02i3D" id="6uZS9ZnHuYZ" role="02i2B">
-          <ref role="02i3$" to="dj5d:qmkA5fOskc" resolve="Model" />
+        <node concept="02i3D" id="61R9vA4_XSo" role="02i2B">
+          <ref role="02i3$" to="jh6v:qmkA5fOskc" resolve="Model" />
         </node>
       </node>
       <node concept="026TG" id="6uZS9ZnHuZ0" role="026TK">
         <node concept="027og" id="6uZS9ZnHuZ1" role="026TJ">
-          <ref role="02LMe" to="dj5d:qmkA5fOskc" resolve="Model" />
+          <ref role="02LMe" to="jh6v:qmkA5fOskc" resolve="Model" />
           <node concept="027oh" id="6uZS9ZnHvxu" role="02LM9">
             <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
             <node concept="3cpWs3" id="6uZS9ZnHwmA" role="027of">
@@ -2079,13 +2080,13 @@
             </node>
           </node>
           <node concept="027rt" id="6uZS9ZnGVrz" role="02LM9">
-            <ref role="027rv" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+            <ref role="027rv" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
             <node concept="2PWHRv" id="6uZS9ZnGVrH" role="027rp">
               <node concept="2OqwBi" id="6uZS9ZnHGkH" role="2PWHRq">
                 <node concept="2OqwBi" id="6uZS9ZnGX9e" role="2Oq$k0">
                   <node concept="214o7A" id="6uZS9ZnGVs9" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="6uZS9ZnHxcG" role="2OqNvi">
-                    <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                    <ref role="3TtcxE" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
                   </node>
                 </node>
                 <node concept="v3k3i" id="6uZS9ZnHIKc" role="2OqNvi">
@@ -2510,7 +2511,7 @@
     <node concept="1d2ef" id="3c6J_2mWxSj" role="02uzr">
       <ref role="1d2e9" node="3c6J_2mWx9I" resolve="entitiesToText" />
       <node concept="2qhRzR" id="3c6J_2mWycl" role="1dsjU">
-        <ref role="2qhRDY" to="dj5d:qmkA5fOskc" resolve="Model" />
+        <ref role="2qhRDY" to="jh6v:qmkA5fOskc" resolve="Model" />
         <node concept="027og" id="3c6J_2mWycp" role="2qhRW7">
           <ref role="02LMe" to="aoe3:TC$M5wRTlg" resolve="TextFile" />
           <node concept="027oh" id="3c6J_2mWycq" role="02LM9">
@@ -2526,7 +2527,7 @@
                 <node concept="2OqwBi" id="3c6J_2mWycv" role="2Oq$k0">
                   <node concept="214o7A" id="3c6J_2mWycw" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="3c6J_2mWycx" role="2OqNvi">
-                    <ref role="3TtcxE" to="dj5d:qmkA5fOskk" resolve="rootNodes" />
+                    <ref role="3TtcxE" to="jh6v:qmkA5fOskk" resolve="rootNodes" />
                   </node>
                 </node>
                 <node concept="v3k3i" id="3c6J_2mWycy" role="2OqNvi">
@@ -2715,10 +2716,6 @@
           </node>
         </node>
       </node>
-      <node concept="2qgb7m" id="3c6J_2mWylD" role="1dsj2">
-        <property role="2qgb7j" value="0bf7bc3b-b11d-42e4-b160-93d72af96397" />
-        <property role="2qgb7l" value="de.q60.mps.shadowmodels.runtimelang" />
-      </node>
       <node concept="2qgb7m" id="3c6J_2mWy_T" role="1dsjZ">
         <property role="2qgb7j" value="a7322769-ef64-4daa-a2f4-fd4228fb713e" />
         <property role="2qgb7l" value="de.q60.mps.shadowmodels.target.text" />
@@ -2726,6 +2723,10 @@
       <node concept="2qgb7m" id="3c6J_2mWzfq" role="1dsj2">
         <property role="2qgb7j" value="ca32b5fa-caea-4f97-9686-6f60d4d677d4" />
         <property role="2qgb7l" value="de.q60.mps.shadowmodels.examples.entities" />
+      </node>
+      <node concept="2qgb7m" id="61R9vA4CKd7" role="1dsj2">
+        <property role="2qgb7j" value="0a7577d1-d4e5-431d-98b1-fae38f9aee80" />
+        <property role="2qgb7l" value="org.modelix.model.repositoryconcepts" />
       </node>
     </node>
   </node>

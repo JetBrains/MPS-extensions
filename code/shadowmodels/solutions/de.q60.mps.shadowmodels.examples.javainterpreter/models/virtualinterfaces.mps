@@ -15,6 +15,8 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
+    <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -364,14 +366,14 @@
             <node concept="3cpWsn" id="1KLm$Di3wIW" role="3cpWs9">
               <property role="TrG5h" value="node" />
               <node concept="3uibUv" id="1KLm$Di3wIU" role="1tU5fm">
-                <ref role="3uigEE" to="mjcn:5gTrVpGiHIH" resolve="INode" />
+                <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
               </node>
               <node concept="2YIFZM" id="41NHe6g6n8G" role="33vP2m">
                 <ref role="37wK5l" to="nv3w:5gTrVpGzMW2" resolve="wrap" />
                 <ref role="1Pybhc" to="nv3w:5gTrVpGxH_V" resolve="DependencyTrackingNode" />
                 <node concept="2YIFZM" id="1KLm$Di3wIX" role="37wK5m">
-                  <ref role="1Pybhc" to="l6bp:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
-                  <ref role="37wK5l" to="l6bp:5gTrVpGyMwR" resolve="wrap" />
+                  <ref role="1Pybhc" to="xxte:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                  <ref role="37wK5l" to="xxte:5gTrVpGyMwR" resolve="wrap" />
                   <node concept="24pvgE" id="1KLm$Di3wIY" role="37wK5m" />
                 </node>
               </node>
@@ -438,7 +440,7 @@
                   <node concept="1pGfFk" id="1KLm$Di7Ttl" role="2ShVmc">
                     <ref role="37wK5l" to="od2j:41QOk3IHOCK" resolve="DefaultPFContext" />
                     <node concept="2YIFZM" id="1KLm$Di7Ttm" role="37wK5m">
-                      <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="TransformationsFromGlobalRepository" />
+                      <ref role="1Pybhc" to="l6bp:3zTK92KPl8A" resolve="SM_TransformationsFromGlobalRepository" />
                       <ref role="37wK5l" to="l6bp:3zTK92KPmA1" resolve="getInstance" />
                     </node>
                   </node>

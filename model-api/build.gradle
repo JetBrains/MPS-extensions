@@ -132,6 +132,7 @@ assemble.finalizedBy(copyJarsToMps)
 String stripVersion(String fileNameWithVersion) {
 	String name = fileNameWithVersion.replaceAll(/-\d+(\.\d+)*(-SNAPSHOT)?/, "")
 	if (version != null && version.length() > 0) name = name.replace("-" + version, "")
+	println "stripVersion($fileNameWithVersion) -> $name"
     return name
 }
 

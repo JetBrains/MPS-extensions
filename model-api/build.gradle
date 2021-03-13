@@ -130,7 +130,9 @@ task copyJarsToMps(type: Sync) {
 assemble.finalizedBy(copyJarsToMps)
 
 String stripVersion(String fileNameWithVersion) {
-    return fileNameWithVersion.replaceAll(/-\d+(\.\d+)*(-SNAPSHOT)?/, "").replace("-" + version, "")
+	String name = fileNameWithVersion.replaceAll(/-\d+(\.\d+)*(-SNAPSHOT)?/, "")
+	if (version != null && version.length() > 0) name = name.replace("-" + version, "")
+    return name
 }
 
 publishing {

@@ -8371,6 +8371,45 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5ziQzpKxXH2" role="jymVt" />
+    <node concept="3clFb_" id="5ziQzpKy3z0" role="jymVt">
+      <property role="TrG5h" value="setReference" />
+      <node concept="3Tm1VV" id="5ziQzpKy3z1" role="1B3o_S" />
+      <node concept="3cqZAl" id="5ziQzpKy3z3" role="3clF45" />
+      <node concept="37vLTG" id="5ziQzpKy3z4" role="3clF46">
+        <property role="TrG5h" value="link" />
+        <node concept="3uibUv" id="5ziQzpKy3z5" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
+        </node>
+        <node concept="2AHcQZ" id="5ziQzpKy3z6" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5ziQzpKy3z7" role="3clF46">
+        <property role="TrG5h" value="reference" />
+        <node concept="3uibUv" id="5ziQzpKy3z8" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
+        </node>
+        <node concept="2AHcQZ" id="5ziQzpKy3z9" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5ziQzpKy3za" role="3clF47">
+        <node concept="3SKdUt" id="5ziQzpKyapZ" role="3cqZAp">
+          <node concept="1PaTwC" id="5ziQzpKyaq0" role="1aUNEU">
+            <node concept="3oM_SD" id="5ziQzpKyfhh" role="1PaTwD">
+              <property role="3oM_SC" value="FIXME" />
+            </node>
+            <node concept="3oM_SD" id="5ziQzpKyfhj" role="1PaTwD">
+              <property role="3oM_SC" value="implement" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5ziQzpKy3zb" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="76rFpUOQtHb" role="jymVt">
       <property role="TrG5h" value="dropReference" />
       <node concept="3Tm1VV" id="76rFpUOQtHc" role="1B3o_S" />

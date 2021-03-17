@@ -31,3 +31,7 @@ fun INode?.getAncestor(concept: IConcept?, includeSelf: Boolean): INode? {
         this
     } else this.parent.getAncestor(concept, true)
 }
+
+fun deepUnwrapNode(node: INode): INode {
+    return if (node is INodeWrapper) deepUnwrapNode(node.getWrappedNode()) else node
+}

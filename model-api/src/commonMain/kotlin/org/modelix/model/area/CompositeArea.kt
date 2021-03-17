@@ -139,7 +139,10 @@ class CompositeArea : IArea {
         override fun resolveNode(area: IArea?): INode = this
     }
 
-    inner class NodeWrapper(val node: INode) : INode, INodeReference {
+    inner class NodeWrapper(val node: INode) : INode, INodeReference, INodeWrapper {
+
+        override fun getWrappedNode(): INode = node
+
         override fun getArea(): IArea = this@CompositeArea
 
         override fun getChildren(role: String?): Iterable<INode> {

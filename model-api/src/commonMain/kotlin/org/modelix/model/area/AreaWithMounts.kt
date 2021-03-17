@@ -103,7 +103,9 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
         return if (node is NodeWrapper && node.getArea() == this) node.node else node
     }
 
-    inner class NodeWrapper(val node: INode) : INode {
+    inner class NodeWrapper(val node: INode) : INode, INodeWrapper {
+        override fun getWrappedNode(): INode = node
+
         override fun getArea(): IArea = this@AreaWithMounts
 
         override fun getChildren(role: String?): Iterable<INode> {

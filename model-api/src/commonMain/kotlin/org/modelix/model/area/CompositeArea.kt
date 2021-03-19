@@ -189,6 +189,24 @@ class CompositeArea : IArea {
         }
 
         override fun resolveNode(area: IArea?): INode = this
+
+        override fun equals(other: Any?): Boolean {
+            if (this === other) return true
+            if (other == null || this::class != other::class) return false
+
+            other as CompositeArea.NodeWrapper
+
+            if (node != other.node) return false
+            if (getArea() != other.getArea()) return false
+
+            return true
+        }
+
+        override fun hashCode(): Int {
+            var result = node.hashCode()
+            result = 31 * result + getArea().hashCode()
+            return result
+        }
     }
 
     inner class ListenerWrapper(wrappedListener: IAreaListener) : AreaListenerWrapper(wrappedListener) {

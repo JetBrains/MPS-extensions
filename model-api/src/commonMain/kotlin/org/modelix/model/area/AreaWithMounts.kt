@@ -161,5 +161,23 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
         override fun setPropertyValue(role: String, value: String?) {
             node.setPropertyValue(role, value)
         }
+
+        override fun equals(other: Any?): Boolean {
+            if (this === other) return true
+            if (other == null || this::class != other::class) return false
+
+            other as NodeWrapper
+
+            if (node != other.node) return false
+            if (getArea() != other.getArea()) return false
+
+            return true
+        }
+
+        override fun hashCode(): Int {
+            var result = node.hashCode()
+            result = 31 * result + getArea().hashCode()
+            return result
+        }
     }
 }

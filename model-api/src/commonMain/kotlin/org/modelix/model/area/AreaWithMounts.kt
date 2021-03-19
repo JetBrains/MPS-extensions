@@ -103,6 +103,24 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
         return if (node is NodeWrapper && node.getArea() == this) node.node else node
     }
 
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other == null || this::class != other::class) return false
+
+        other as AreaWithMounts
+
+        if (rootArea != other.rootArea) return false
+        if (mounts != other.mounts) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        var result = rootArea.hashCode()
+        result = 31 * result + mounts.hashCode()
+        return result
+    }
+
     inner class NodeWrapper(val node: INode) : INode, INodeWrapper {
         override fun getWrappedNode(): INode = node
 

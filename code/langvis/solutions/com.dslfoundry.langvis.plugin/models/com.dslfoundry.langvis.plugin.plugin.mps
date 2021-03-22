@@ -31,6 +31,7 @@
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="jan3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.image(JDK/)" />
     <import index="oqcp" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.imageio(JDK/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -343,6 +344,11 @@
         <property id="6332851714983843871" name="severity" index="2xdLsb" />
         <child id="5721587534047265374" name="message" index="9lYJi" />
         <child id="5721587534047265375" name="throwable" index="9lYJj" />
+      </concept>
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261755" name="throwable" index="RRSow" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -4225,14 +4231,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="4LYtwfR2ab" role="3cqZAp" />
-        <node concept="3clFbF" id="1bNeeFBc2dl" role="3cqZAp">
-          <node concept="2OqwBi" id="1bNeeFBc2Eg" role="3clFbG">
-            <node concept="2WthIp" id="1bNeeFBc2dj" role="2Oq$k0" />
-            <node concept="liA8E" id="1bNeeFBc36y" role="2OqNvi">
-              <ref role="37wK5l" to="71xd:~BaseTool.makeAvailable()" resolve="makeAvailable" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>
@@ -5029,18 +5027,32 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="7vlBvUdmV2P" role="3cqZAp">
-              <node concept="2OqwBi" id="7vlBvUdmV2Q" role="3clFbG">
-                <node concept="10M0yZ" id="7vlBvUdmV2R" role="2Oq$k0">
-                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            <node concept="3clFbF" id="2e3$TFndLCf" role="3cqZAp">
+              <node concept="2OqwBi" id="2e3$TFndLCc" role="3clFbG">
+                <node concept="10M0yZ" id="2e3$TFndLCd" role="2Oq$k0">
                   <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
                 </node>
-                <node concept="liA8E" id="7vlBvUdmV2S" role="2OqNvi">
+                <node concept="liA8E" id="2e3$TFndLCe" role="2OqNvi">
                   <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="Xl_RD" id="7vlBvUdmV2T" role="37wK5m">
-                    <property role="Xl_RC" value="Wait for process" />
+                  <node concept="3cpWs3" id="2e3$TFndMJD" role="37wK5m">
+                    <node concept="Xl_RD" id="2e3$TFndMdq" role="3uHU7B">
+                      <property role="Xl_RC" value="run " />
+                    </node>
+                    <node concept="2YIFZM" id="2e3$TFne3xd" role="3uHU7w">
+                      <ref role="37wK5l" to="33ny:~Arrays.toString(java.lang.Object[])" resolve="toString" />
+                      <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
+                      <node concept="37vLTw" id="2e3$TFne3xe" role="37wK5m">
+                        <ref role="3cqZAo" node="7vlBvUdmV3H" resolve="command" />
+                      </node>
+                    </node>
                   </node>
                 </node>
+              </node>
+            </node>
+            <node concept="RRSsy" id="2e3$TFndvlZ" role="3cqZAp">
+              <node concept="Xl_RD" id="2e3$TFndvRt" role="RRSoy">
+                <property role="Xl_RC" value="Wait for process" />
               </node>
             </node>
             <node concept="3clFbF" id="7vlBvUdmV2U" role="3cqZAp">
@@ -5053,18 +5065,9 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="7vlBvUdmV2Y" role="3cqZAp">
-              <node concept="2OqwBi" id="7vlBvUdmV2Z" role="3clFbG">
-                <node concept="10M0yZ" id="7vlBvUdmV30" role="2Oq$k0">
-                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                </node>
-                <node concept="liA8E" id="7vlBvUdmV31" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="Xl_RD" id="7vlBvUdmV32" role="37wK5m">
-                    <property role="Xl_RC" value="Now Process output of command" />
-                  </node>
-                </node>
+            <node concept="RRSsy" id="2e3$TFndwyo" role="3cqZAp">
+              <node concept="Xl_RD" id="2e3$TFndx2W" role="RRSoy">
+                <property role="Xl_RC" value="Now Process output of command" />
               </node>
             </node>
             <node concept="3cpWs8" id="7vlBvUdmV33" role="3cqZAp">
@@ -5146,14 +5149,22 @@
               </node>
             </node>
             <node concept="3clFbS" id="7vlBvUdmV3z" role="1zc67A">
-              <node concept="3clFbF" id="7vlBvUdmV3$" role="3cqZAp">
-                <node concept="2OqwBi" id="7vlBvUdmV3_" role="3clFbG">
-                  <node concept="37vLTw" id="7vlBvUdmV3A" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7vlBvUdmV3x" resolve="e" />
+              <node concept="RRSsy" id="2e3$TFndxSn" role="3cqZAp">
+                <property role="RRSoG" value="gZ5fh_4/error" />
+                <node concept="3cpWs3" id="2e3$TFndyry" role="RRSoy">
+                  <node concept="2YIFZM" id="2e3$TFne1SW" role="3uHU7w">
+                    <ref role="37wK5l" to="33ny:~Arrays.toString(java.lang.Object[])" resolve="toString" />
+                    <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
+                    <node concept="37vLTw" id="2e3$TFne2ai" role="37wK5m">
+                      <ref role="3cqZAo" node="7vlBvUdmV3H" resolve="command" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="7vlBvUdmV3B" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
+                  <node concept="Xl_RD" id="2e3$TFndxSp" role="3uHU7B">
+                    <property role="Xl_RC" value="Failed to run " />
                   </node>
+                </node>
+                <node concept="37vLTw" id="2e3$TFndxYY" role="RRSow">
+                  <ref role="3cqZAo" node="7vlBvUdmV3x" resolve="e" />
                 </node>
               </node>
             </node>

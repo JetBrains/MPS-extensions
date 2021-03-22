@@ -19,3 +19,4 @@ nav:
   - Node Versioning: extensions/node-versioning.md
   - Plaintext Generator: extensions/plaintext-gen.md
   - Shadow Models: extensions/shadowmodels.md
+  - Language Visualizer: extensions/langvis.md

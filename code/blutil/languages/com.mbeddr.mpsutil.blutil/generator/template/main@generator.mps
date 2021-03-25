@@ -28,6 +28,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="1ka" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typechecking(MPS.Core/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -2661,12 +2662,12 @@
                         <node concept="10QFUN" id="5yvl18Nc_6R" role="1eOMHV">
                           <node concept="3Tqbb2" id="5yvl18Nc_6Y" role="10QFUM" />
                           <node concept="2OqwBi" id="5yvl18Nc_3L" role="10QFUP">
-                            <node concept="2YIFZM" id="5yvl18Nc_3o" role="2Oq$k0">
-                              <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
-                              <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
+                            <node concept="2YIFZM" id="1B_rx4qEP9B" role="2Oq$k0">
+                              <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                              <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                             </node>
                             <node concept="liA8E" id="5yvl18Nc_6C" role="2OqNvi">
-                              <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                              <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                               <node concept="37vLTw" id="5Hxjapvyyeg" role="37wK5m">
                                 <ref role="3cqZAo" node="5yvl18N8Eem" resolve="___t" />
                               </node>
@@ -2729,27 +2730,22 @@
                   </node>
                   <node concept="3fqX7Q" id="2J6akePL1XL" role="3clFbw">
                     <node concept="2OqwBi" id="2J6akePL2az" role="3fr31v">
-                      <node concept="2OqwBi" id="2J6akePL1Z5" role="2Oq$k0">
-                        <node concept="2YIFZM" id="2J6akePL1YG" role="2Oq$k0">
-                          <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
-                          <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                        </node>
-                        <node concept="liA8E" id="2J6akePL2aa" role="2OqNvi">
-                          <ref role="37wK5l" to="u78q:~TypeChecker.getSubtypingManager()" resolve="getSubtypingManager" />
-                        </node>
+                      <node concept="2YIFZM" id="1B_rx4qEQ$w" role="2Oq$k0">
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                        <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                       </node>
                       <node concept="liA8E" id="2J6akePL2aH" role="2OqNvi">
-                        <ref role="37wK5l" to="u78q:~SubtypingManager.isSubtype(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="isSubtype" />
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.isSubtype(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="isSubtype" />
                         <node concept="1eOMI4" id="2J6akePL1XW" role="37wK5m">
                           <node concept="10QFUN" id="2J6akePL1XX" role="1eOMHV">
                             <node concept="3Tqbb2" id="2J6akePL1XY" role="10QFUM" />
                             <node concept="2OqwBi" id="2J6akePL1XZ" role="10QFUP">
-                              <node concept="2YIFZM" id="2J6akePL1Y0" role="2Oq$k0">
-                                <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
-                                <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
+                              <node concept="2YIFZM" id="1B_rx4qER7L" role="2Oq$k0">
+                                <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                                <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                               </node>
                               <node concept="liA8E" id="2J6akePL1Y1" role="2OqNvi">
-                                <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                                <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                                 <node concept="37vLTw" id="5HxjapvyylC" role="37wK5m">
                                   <ref role="3cqZAo" node="5yvl18N8Eem" resolve="___t" />
                                 </node>
@@ -3120,12 +3116,12 @@
                         <node concept="10QFUN" id="5yvl18Nc_7l" role="1eOMHV">
                           <node concept="3Tqbb2" id="5yvl18Nc_7m" role="10QFUM" />
                           <node concept="2OqwBi" id="5yvl18Nc_7n" role="10QFUP">
-                            <node concept="2YIFZM" id="5yvl18Nc_7o" role="2Oq$k0">
-                              <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                              <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
+                            <node concept="2YIFZM" id="1B_rx4qERBJ" role="2Oq$k0">
+                              <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                              <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                             </node>
                             <node concept="liA8E" id="5yvl18Nc_7p" role="2OqNvi">
-                              <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                              <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                               <node concept="37vLTw" id="5Hxjapvyyfh" role="37wK5m">
                                 <ref role="3cqZAo" node="5yvl18N9izj" resolve="___p" />
                               </node>
@@ -3188,27 +3184,22 @@
                   </node>
                   <node concept="3fqX7Q" id="2J6akePL9Ti" role="3clFbw">
                     <node concept="2OqwBi" id="2J6akePL9Tj" role="3fr31v">
-                      <node concept="2OqwBi" id="2J6akePL9Tk" role="2Oq$k0">
-                        <node concept="2YIFZM" id="2J6akePL9Tl" role="2Oq$k0">
-                          <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                          <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
-                        </node>
-                        <node concept="liA8E" id="2J6akePL9Tm" role="2OqNvi">
-                          <ref role="37wK5l" to="u78q:~TypeChecker.getSubtypingManager()" resolve="getSubtypingManager" />
-                        </node>
+                      <node concept="2YIFZM" id="1B_rx4qEROZ" role="2Oq$k0">
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                        <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                       </node>
                       <node concept="liA8E" id="2J6akePL9Tn" role="2OqNvi">
-                        <ref role="37wK5l" to="u78q:~SubtypingManager.isSubtype(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="isSubtype" />
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.isSubtype(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="isSubtype" />
                         <node concept="1eOMI4" id="2J6akePL9To" role="37wK5m">
                           <node concept="10QFUN" id="2J6akePL9Tp" role="1eOMHV">
                             <node concept="3Tqbb2" id="2J6akePL9Tq" role="10QFUM" />
                             <node concept="2OqwBi" id="2J6akePL9Tr" role="10QFUP">
-                              <node concept="2YIFZM" id="2J6akePL9Ts" role="2Oq$k0">
-                                <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                                <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
+                              <node concept="2YIFZM" id="1B_rx4qES7L" role="2Oq$k0">
+                                <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                                <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                               </node>
                               <node concept="liA8E" id="2J6akePL9Tt" role="2OqNvi">
-                                <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                                <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                                 <node concept="37vLTw" id="5Hxjapvyy94" role="37wK5m">
                                   <ref role="3cqZAo" node="5yvl18N9izj" resolve="___p" />
                                 </node>
@@ -3569,12 +3560,12 @@
                         <node concept="10QFUN" id="5yvl18Nc_7L" role="1eOMHV">
                           <node concept="3Tqbb2" id="5yvl18Nc_7M" role="10QFUM" />
                           <node concept="2OqwBi" id="5yvl18Nc_7N" role="10QFUP">
-                            <node concept="2YIFZM" id="5yvl18Nc_7O" role="2Oq$k0">
-                              <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                              <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
+                            <node concept="2YIFZM" id="1B_rx4qESwr" role="2Oq$k0">
+                              <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                              <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                             </node>
                             <node concept="liA8E" id="5yvl18Nc_7P" role="2OqNvi">
-                              <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                              <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                               <node concept="37vLTw" id="5Hxjapvyydm" role="37wK5m">
                                 <ref role="3cqZAo" node="5yvl18N9_Q1" resolve="___a" />
                               </node>
@@ -3637,27 +3628,22 @@
                   </node>
                   <node concept="3fqX7Q" id="2J6akePL9Uf" role="3clFbw">
                     <node concept="2OqwBi" id="2J6akePL9Ug" role="3fr31v">
-                      <node concept="2OqwBi" id="2J6akePL9Uh" role="2Oq$k0">
-                        <node concept="2YIFZM" id="2J6akePL9Ui" role="2Oq$k0">
-                          <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                          <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
-                        </node>
-                        <node concept="liA8E" id="2J6akePL9Uj" role="2OqNvi">
-                          <ref role="37wK5l" to="u78q:~TypeChecker.getSubtypingManager()" resolve="getSubtypingManager" />
-                        </node>
+                      <node concept="2YIFZM" id="1B_rx4qESHT" role="2Oq$k0">
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                        <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                       </node>
                       <node concept="liA8E" id="2J6akePL9Uk" role="2OqNvi">
-                        <ref role="37wK5l" to="u78q:~SubtypingManager.isSubtype(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="isSubtype" />
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.isSubtype(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="isSubtype" />
                         <node concept="1eOMI4" id="2J6akePL9Ul" role="37wK5m">
                           <node concept="10QFUN" id="2J6akePL9Um" role="1eOMHV">
                             <node concept="3Tqbb2" id="2J6akePL9Un" role="10QFUM" />
                             <node concept="2OqwBi" id="2J6akePL9Uo" role="10QFUP">
-                              <node concept="2YIFZM" id="2J6akePL9Up" role="2Oq$k0">
-                                <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                                <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
+                              <node concept="2YIFZM" id="1B_rx4qET11" role="2Oq$k0">
+                                <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                                <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                               </node>
                               <node concept="liA8E" id="2J6akePL9Uq" role="2OqNvi">
-                                <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                                <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                                 <node concept="37vLTw" id="5Hxjapvyy9k" role="37wK5m">
                                   <ref role="3cqZAo" node="5yvl18N9_Q1" resolve="___a" />
                                 </node>
@@ -4025,12 +4011,12 @@
                         <node concept="10QFUN" id="5yvl18Nc_8b" role="1eOMHV">
                           <node concept="3Tqbb2" id="5yvl18Nc_8c" role="10QFUM" />
                           <node concept="2OqwBi" id="5yvl18Nc_8d" role="10QFUP">
-                            <node concept="2YIFZM" id="5yvl18Nc_8e" role="2Oq$k0">
-                              <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                              <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
+                            <node concept="2YIFZM" id="1B_rx4qETl1" role="2Oq$k0">
+                              <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                              <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                             </node>
                             <node concept="liA8E" id="5yvl18Nc_8f" role="2OqNvi">
-                              <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                              <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                               <node concept="37vLTw" id="5Hxjapvyykr" role="37wK5m">
                                 <ref role="3cqZAo" node="5yvl18Nbu7U" resolve="___l" />
                               </node>
@@ -4093,27 +4079,22 @@
                   </node>
                   <node concept="3fqX7Q" id="2J6akePL9Ve" role="3clFbw">
                     <node concept="2OqwBi" id="2J6akePL9Vf" role="3fr31v">
-                      <node concept="2OqwBi" id="2J6akePL9Vg" role="2Oq$k0">
-                        <node concept="2YIFZM" id="2J6akePL9Vh" role="2Oq$k0">
-                          <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                          <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
-                        </node>
-                        <node concept="liA8E" id="2J6akePL9Vi" role="2OqNvi">
-                          <ref role="37wK5l" to="u78q:~TypeChecker.getSubtypingManager()" resolve="getSubtypingManager" />
-                        </node>
+                      <node concept="2YIFZM" id="1B_rx4qETK2" role="2Oq$k0">
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                        <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                       </node>
                       <node concept="liA8E" id="2J6akePL9Vj" role="2OqNvi">
-                        <ref role="37wK5l" to="u78q:~SubtypingManager.isSubtype(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="isSubtype" />
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.isSubtype(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.model.SNode)" resolve="isSubtype" />
                         <node concept="1eOMI4" id="2J6akePL9Vk" role="37wK5m">
                           <node concept="10QFUN" id="2J6akePL9Vl" role="1eOMHV">
                             <node concept="3Tqbb2" id="2J6akePL9Vm" role="10QFUM" />
                             <node concept="2OqwBi" id="2J6akePL9Vn" role="10QFUP">
-                              <node concept="2YIFZM" id="2J6akePL9Vo" role="2Oq$k0">
-                                <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
-                                <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
+                              <node concept="2YIFZM" id="1B_rx4qEU3w" role="2Oq$k0">
+                                <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                                <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                               </node>
                               <node concept="liA8E" id="2J6akePL9Vp" role="2OqNvi">
-                                <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                                <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                                 <node concept="37vLTw" id="5Hxjapvyyc_" role="37wK5m">
                                   <ref role="3cqZAo" node="5yvl18Nbu7U" resolve="___l" />
                                 </node>

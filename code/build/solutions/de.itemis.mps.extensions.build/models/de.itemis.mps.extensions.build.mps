@@ -8373,6 +8373,9 @@
       <node concept="m$_yC" id="2OJNL7Em1P5" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
       </node>
+      <node concept="m$_yC" id="5U8hsWC7jgn" role="m$_yJ">
+        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
+      </node>
       <node concept="2pNNFK" id="v49lXF871_" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF878$" role="3o6s8t">
@@ -8387,9 +8390,6 @@
         <node concept="3Mxwew" id="2QgPOUCDi4e" role="3MwsjC">
           <property role="3MwjfP" value="A shadow model is a non-editable model derived from existing models by model-to-model transformations. It is incrementally maintained while editing the input model. Transformations are described in a special language designed to support incremental updates of the output model. Dynamic dependency tracking is used during the executing of the transformations which removes the need for a declarative language. BaseLanguage expressions with all its extensions are supported inside the transformation rules. The transformation language is similar to the MPS generator language. It has transformation rules with a left side that describes the input it applies to and a right side that creates the output. The right side is similar to light quotations instead of using the concrete syntax of the target language. " />
         </node>
-      </node>
-      <node concept="m$_yC" id="5U8hsWC7jgn" role="m$_yJ">
-        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
       </node>
     </node>
     <node concept="m$_wf" id="2OJNL7ElZsF" role="3989C9">
@@ -8439,6 +8439,9 @@
       <node concept="m$_yC" id="BRK1N8p1FS" role="m$_yJ">
         <ref role="m$_y1" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
       </node>
+      <node concept="m$_yC" id="5U8hsWC7iqY" role="m$_yJ">
+        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
+      </node>
       <node concept="2pNNFK" id="v49lXF880k" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF887j" role="3o6s8t">
@@ -8453,9 +8456,6 @@
         <node concept="3Mxwew" id="v49lXF87Tl" role="3MwsjC">
           <property role="3MwjfP" value="Set of examples for the de.q60.shadowmodels plugin" />
         </node>
-      </node>
-      <node concept="m$_yC" id="5U8hsWC7iqY" role="m$_yJ">
-        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
       </node>
     </node>
     <node concept="2G$12M" id="4iIKqJTZ5I7" role="3989C9">
@@ -16420,82 +16420,6 @@
           </node>
         </node>
       </node>
-      <node concept="1E1JtA" id="3$$s$wOI_vb" role="2G$12L">
-        <property role="TrG5h" value="de.itemis.mps.editor.collapsible.tests" />
-        <property role="3LESm3" value="a99b6f91-3a20-433f-9bb5-5da0cd057c2e" />
-        <property role="BnDLt" value="true" />
-        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
-        <node concept="398BVA" id="3$$s$wOI_v$" role="3LF7KH">
-          <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
-          <node concept="2Ry0Ak" id="3$$s$wOI_vM" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="3$$s$wOI_vV" role="2Ry0An">
-              <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.tests" />
-              <node concept="2Ry0Ak" id="3$$s$wOI_w4" role="2Ry0An">
-                <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.tests.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$$s$wOI_ws" role="3bR37C">
-          <node concept="3bR9La" id="3$$s$wOI_wt" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$$s$wOI_ww" role="3bR37C">
-          <node concept="3bR9La" id="3$$s$wOI_wx" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$$s$wOI_wA" role="3bR37C">
-          <node concept="3bR9La" id="3$$s$wOI_wB" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$$s$wOI_wI" role="3bR37C">
-          <node concept="3bR9La" id="3$$s$wOI_wJ" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
-          </node>
-        </node>
-        <node concept="3rtmxn" id="3$$s$wOI_L9" role="3bR31x">
-          <node concept="3LXTmp" id="3$$s$wOI_La" role="3rtmxm">
-            <node concept="398BVA" id="3$$s$wOI_Lb" role="3LXTmr">
-              <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
-              <node concept="2Ry0Ak" id="3$$s$wOI_Lc" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="3$$s$wOI_Ld" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.tests" />
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="3$$s$wOI_Lf" role="3LXTna">
-              <property role="3qWCbO" value="icons/**" />
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="7q24334ZKKB" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="7q24334ZKKC" role="1HemKq">
-            <node concept="398BVA" id="7q24334ZKKi" role="3LXTmr">
-              <ref role="398BVh" node="3$$s$wOI_hD" resolve="widgets.home" />
-              <node concept="2Ry0Ak" id="7q24334ZKKj" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="7q24334ZKKk" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.mps.editor.collapsible.tests" />
-                  <node concept="2Ry0Ak" id="7q24334ZKKl" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="7q24334ZKKD" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="1E1JtA" id="7CKpyI71cwh" role="2G$12L">
         <property role="TrG5h" value="de.itemis.mps.editor.enumeration.sandbox" />
         <property role="3LESm3" value="5ae18ad0-711b-4a36-b3e2-161124c395a2" />
@@ -18758,9 +18682,6 @@
       <node concept="L2wRC" id="3$$s$wOI_mD" role="39821P">
         <ref role="L2wRA" node="3$$s$wOI_E$" resolve="de.itemis.mps.editor.collapsible.testlang" />
       </node>
-      <node concept="L2wRC" id="3$$s$wOI_U5" role="39821P">
-        <ref role="L2wRA" node="3$$s$wOI_vb" resolve="de.itemis.mps.editor.collapsible.tests" />
-      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -18806,9 +18727,6 @@
       </node>
       <node concept="22LTRM" id="7qGGLAjNnMO" role="22LTRK">
         <ref role="22LTRN" node="7qGGLAjNnEU" resolve="test.de.q60.mps.incremental.runtime" />
-      </node>
-      <node concept="22LTRM" id="3$$s$wOI_Km" role="22LTRK">
-        <ref role="22LTRN" node="3$$s$wOI_vb" resolve="de.itemis.mps.editor.collapsible.tests" />
       </node>
     </node>
   </node>

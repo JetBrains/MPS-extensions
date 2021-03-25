@@ -298,7 +298,6 @@
       <concept id="1397920687864997143" name="de.slisson.mps.tables.structure.TableCell" flags="ng" index="2reCLy">
         <child id="1397920687865111420" name="columnHeader" index="2recC9" />
         <child id="1397920687865064647" name="editorCell" index="2reSmM" />
-        <child id="2285587715547822951" name="rowHeader" index="3Jwnad" />
       </concept>
       <concept id="1397920687865064415" name="de.slisson.mps.tables.structure.ChildsVertical" flags="ng" index="2reSaE" />
       <concept id="1397920687865064509" name="de.slisson.mps.tables.structure.ChildCollection" flags="ng" index="2reSl8">
@@ -1674,48 +1673,6 @@
             </node>
           </node>
           <node concept="2iRfu4" id="6tOcB$JU5zJ" role="2iSdaV" />
-        </node>
-        <node concept="2r3VGE" id="5$KRPr5M2pl" role="2recC9">
-          <property role="TrG5h" value="transitionColumn" />
-          <node concept="3clFbS" id="5$KRPr5M2pm" role="2VODD2">
-            <node concept="3clFbF" id="5$KRPr5M402" role="3cqZAp">
-              <node concept="2OqwBi" id="5$KRPr5M45M" role="3clFbG">
-                <node concept="2r2w_c" id="5$KRPr5M401" role="2Oq$k0" />
-                <node concept="3TrEf2" id="5$KRPr5Mf6o" role="2OqNvi">
-                  <ref role="3Tt5mk" to="nnej:1dAqnm8uy$f" resolve="trigger" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1g0IQG" id="7AHcygnSeUy" role="1geGt4">
-            <node concept="3hWdWw" id="7AHcygnSf0Y" role="3hTmz4">
-              <property role="Vb097" value="fLJRk5A/lightGray" />
-              <node concept="3hZEK$" id="7AHcygnTZTB" role="3hZOwg">
-                <property role="3hZETZ" value="aaaaff" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2r3VGE" id="5$KRPr5MfcI" role="3Jwnad">
-          <property role="TrG5h" value="transitionRow" />
-          <node concept="3clFbS" id="5$KRPr5MfcJ" role="2VODD2">
-            <node concept="3clFbF" id="5$KRPr5MgHF" role="3cqZAp">
-              <node concept="2OqwBi" id="5$KRPr5MgNr" role="3clFbG">
-                <node concept="2r2w_c" id="5$KRPr5MgHE" role="2Oq$k0" />
-                <node concept="3TrEf2" id="5$KRPr5Mi9T" role="2OqNvi">
-                  <ref role="3Tt5mk" to="nnej:1dAqnm8uy$k" resolve="from" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1g0IQG" id="7AHcygnSf84" role="1geGt4">
-            <node concept="3hWdWw" id="7AHcygnSfew" role="3hTmz4">
-              <property role="Vb097" value="fLJRk5A/lightGray" />
-              <node concept="3hZEK$" id="7AHcygnUWAI" role="3hZOwg">
-                <property role="3hZETZ" value="aaaaff" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
     </node>

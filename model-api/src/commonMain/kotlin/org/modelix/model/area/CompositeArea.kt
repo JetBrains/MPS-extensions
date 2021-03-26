@@ -87,7 +87,22 @@ class CompositeArea : IArea {
 
     fun getAreas(): List<IArea> = this.areas
 
-    inner class Root : INode, INodeReference {
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other == null || this::class != other::class) return false
+
+        other as CompositeArea
+
+        if (areas != other.areas) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        return areas.hashCode()
+    }
+
+    inner class Root() : INode, INodeReference {
         override fun getArea(): IArea = this@CompositeArea
 
         override val isValid: Boolean
@@ -137,6 +152,21 @@ class CompositeArea : IArea {
         }
 
         override fun resolveNode(area: IArea?): INode = this
+
+        override fun equals(other: Any?): Boolean {
+            if (this === other) return true
+            if (other == null || this::class != other::class) return false
+
+            other as Root
+
+            if (getArea() != other.getArea()) return false
+
+            return true
+        }
+
+        override fun hashCode(): Int {
+            return getArea().hashCode()
+        }
     }
 
     inner class NodeWrapper(val node: INode) : INode, INodeReference, INodeWrapper {
@@ -189,6 +219,24 @@ class CompositeArea : IArea {
         }
 
         override fun resolveNode(area: IArea?): INode = this
+
+        override fun equals(other: Any?): Boolean {
+            if (this === other) return true
+            if (other == null || this::class != other::class) return false
+
+            other as CompositeArea.NodeWrapper
+
+            if (node != other.node) return false
+            if (getArea() != other.getArea()) return false
+
+            return true
+        }
+
+        override fun hashCode(): Int {
+            var result = node.hashCode()
+            result = 31 * result + getArea().hashCode()
+            return result
+        }
     }
 
     inner class ListenerWrapper(wrappedListener: IAreaListener) : AreaListenerWrapper(wrappedListener) {

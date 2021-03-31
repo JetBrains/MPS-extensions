@@ -76,14 +76,14 @@ class CompositeArea : IArea {
     }
 
     fun unwrapNode(node: INode): INode {
-        return if (node is AreaWithMounts.NodeWrapper && node.getArea() == this) node.node else node
+        return if (node is NodeWrapper && node.getArea() == this) node.node else node
     }
 
     fun unwrapNodeRef(ref: INodeReference): INodeReference {
         return if (ref is NodeWrapper && ref.getArea() == this) ref.node.reference else ref
     }
 
-    fun wrapNode(node: INode) = NodeWrapper(node)
+    fun wrapNode(node: INode?) = if (node == null) null else NodeWrapper(node)
 
     fun getAreas(): List<IArea> = this.areas
 
@@ -180,7 +180,7 @@ class CompositeArea : IArea {
         }
 
         override fun removeChild(child: INode) {
-            node.removeChild(child)
+            node.removeChild(unwrapNode(child))
         }
 
         override val isValid: Boolean
@@ -192,7 +192,7 @@ class CompositeArea : IArea {
         override val roleInParent: String?
             get() = node.roleInParent
         override val parent: INode?
-            get() = node.parent ?: rootNode
+            get() = wrapNode(node.parent) ?: rootNode
         override val allChildren: Iterable<INode>
             get() = node.allChildren.map { NodeWrapper(it) }
 

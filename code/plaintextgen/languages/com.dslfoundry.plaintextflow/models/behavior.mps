@@ -14,6 +14,7 @@
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="6496299201655527393" name="jetbrains.mps.lang.behavior.structure.LocalBehaviorMethodCall" flags="nn" index="BsUDl" />
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
         <reference id="1225194240799" name="concept" index="13h7C2" />
         <child id="1225194240805" name="method" index="13h7CS" />
@@ -58,6 +59,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -70,12 +72,16 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -94,6 +100,11 @@
       </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
@@ -236,6 +247,80 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="KIa9PDyts6" role="13h7CS">
+      <property role="TrG5h" value="Width" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <node concept="3Tm1VV" id="KIa9PDyts7" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDytsa" role="3clF47">
+        <node concept="YS8fn" id="KIa9PDytH_" role="3cqZAp">
+          <node concept="2ShNRf" id="KIa9PDytHA" role="YScLw">
+            <node concept="1pGfFk" id="KIa9PDytHB" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="KIa9PDytHC" role="37wK5m">
+                <property role="Xl_RC" value="Width not implemented" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="KIa9PDytsb" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDytse" role="13h7CS">
+      <property role="TrG5h" value="Editor_View_Width" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <node concept="3Tm1VV" id="KIa9PDytsh" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDytsk" role="3clF47">
+        <node concept="YS8fn" id="KIa9PDytZf" role="3cqZAp">
+          <node concept="2ShNRf" id="KIa9PDytZg" role="YScLw">
+            <node concept="1pGfFk" id="KIa9PDytZh" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="KIa9PDytZi" role="37wK5m">
+                <property role="Xl_RC" value="Editor_View_Width not implemented" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="KIa9PDytsl" role="3clF46">
+        <property role="TrG5h" value="isQueriedNode" />
+        <node concept="10P_77" id="KIa9PDytsm" role="1tU5fm" />
+      </node>
+      <node concept="10Oyi0" id="KIa9PDytsn" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDytsq" role="13h7CS">
+      <property role="TrG5h" value="TextGen" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <node concept="3Tm1VV" id="KIa9PDytsx" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDyts$" role="3clF47">
+        <node concept="YS8fn" id="KIa9PDyud5" role="3cqZAp">
+          <node concept="2ShNRf" id="KIa9PDyud6" role="YScLw">
+            <node concept="1pGfFk" id="KIa9PDyud7" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="KIa9PDyud8" role="37wK5m">
+                <property role="Xl_RC" value="No TextGen implementation, this concept should not be used by TextGen directly, but reduced to a plaintextgen concept" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="KIa9PDyts_" role="3clF46">
+        <property role="TrG5h" value="row" />
+        <node concept="10Oyi0" id="KIa9PDytsA" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDytsB" role="3clF46">
+        <property role="TrG5h" value="column" />
+        <node concept="10Oyi0" id="KIa9PDytsC" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDytsD" role="3clF46">
+        <property role="TrG5h" value="output" />
+        <node concept="3uibUv" id="KIa9PDytsE" role="1tU5fm">
+          <ref role="3uigEE" to="k44w:pWUoI9ggQg" resolve="CharacterMatrix" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="KIa9PDytsF" role="3clF45">
+        <ref role="3uigEE" to="z60i:~Point" resolve="Point" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="6$Hx0f8jWdh">
     <ref role="13h7C2" to="ssyn:6$Hx0f8ja4S" resolve="Flow" />
@@ -342,6 +427,239 @@
         <node concept="10P_77" id="3McofIU03ol" role="1tU5fm" />
       </node>
       <node concept="10Oyi0" id="3McofIU03om" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="KIa9PDy4Pf">
+    <ref role="13h7C2" to="ssyn:6$Hx0f8j5UT" resolve="FlowWord" />
+    <node concept="13hLZK" id="KIa9PDy4Pg" role="13h7CW">
+      <node concept="3clFbS" id="KIa9PDy4Ph" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDye5O" role="13h7CS">
+      <property role="TrG5h" value="Width" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <node concept="3Tm1VV" id="KIa9PDye5P" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDye5S" role="3clF47">
+        <node concept="3clFbF" id="KIa9PDyhif" role="3cqZAp">
+          <node concept="3K4zz7" id="KIa9PDyiGE" role="3clFbG">
+            <node concept="3cmrfG" id="KIa9PDyiJY" role="3K4E3e">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="KIa9PDyhYg" role="3K4Cdx">
+              <node concept="2OqwBi" id="KIa9PDyhtC" role="2Oq$k0">
+                <node concept="13iPFW" id="KIa9PDyhid" role="2Oq$k0" />
+                <node concept="3TrcHB" id="KIa9PDyhFZ" role="2OqNvi">
+                  <ref role="3TsBF5" to="ssyn:6$Hx0f8jbah" resolve="text" />
+                </node>
+              </node>
+              <node concept="17RlXB" id="KIa9PDyilS" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="KIa9PDyiTf" role="3K4GZi">
+              <node concept="2OqwBi" id="KIa9PDyiTg" role="2Oq$k0">
+                <node concept="13iPFW" id="KIa9PDyiTh" role="2Oq$k0" />
+                <node concept="3TrcHB" id="KIa9PDyiTi" role="2OqNvi">
+                  <ref role="3TsBF5" to="ssyn:6$Hx0f8jbah" resolve="text" />
+                </node>
+              </node>
+              <node concept="liA8E" id="KIa9PDyiTj" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="KIa9PDye5T" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDye5W" role="13h7CS">
+      <property role="TrG5h" value="Editor_View_Width" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <node concept="3Tm1VV" id="KIa9PDye5Z" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDye62" role="3clF47">
+        <node concept="3clFbF" id="KIa9PDyjgP" role="3cqZAp">
+          <node concept="BsUDl" id="KIa9PDyjgO" role="3clFbG">
+            <ref role="37wK5l" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="KIa9PDye63" role="3clF46">
+        <property role="TrG5h" value="isQueriedNode" />
+        <node concept="10P_77" id="KIa9PDye64" role="1tU5fm" />
+      </node>
+      <node concept="10Oyi0" id="KIa9PDye65" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDye68" role="13h7CS">
+      <property role="TrG5h" value="TextGen" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <node concept="3Tm1VV" id="KIa9PDye6f" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDye6i" role="3clF47">
+        <node concept="YS8fn" id="KIa9PDys5n" role="3cqZAp">
+          <node concept="2ShNRf" id="KIa9PDys5o" role="YScLw">
+            <node concept="1pGfFk" id="KIa9PDys5p" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="KIa9PDys5q" role="37wK5m">
+                <property role="Xl_RC" value="No TextGen implementation, this concept should not be used by TextGen directly, but reduced to a plaintextgen concept" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="KIa9PDys4S" role="3cqZAp" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDye6j" role="3clF46">
+        <property role="TrG5h" value="row" />
+        <node concept="10Oyi0" id="KIa9PDye6k" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDye6l" role="3clF46">
+        <property role="TrG5h" value="column" />
+        <node concept="10Oyi0" id="KIa9PDye6m" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDye6n" role="3clF46">
+        <property role="TrG5h" value="output" />
+        <node concept="3uibUv" id="KIa9PDye6o" role="1tU5fm">
+          <ref role="3uigEE" to="k44w:pWUoI9ggQg" resolve="CharacterMatrix" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="KIa9PDye6p" role="3clF45">
+        <ref role="3uigEE" to="z60i:~Point" resolve="Point" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="KIa9PDyaO4">
+    <ref role="13h7C2" to="ssyn:6$Hx0f8oq50" resolve="HardWrap" />
+    <node concept="13hLZK" id="KIa9PDyaO5" role="13h7CW">
+      <node concept="3clFbS" id="KIa9PDyaO6" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDyaOf" role="13h7CS">
+      <property role="TrG5h" value="Width" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <node concept="3Tm1VV" id="KIa9PDyaOg" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDyaOj" role="3clF47">
+        <node concept="3clFbF" id="KIa9PDyaOm" role="3cqZAp">
+          <node concept="3cmrfG" id="KIa9PDyaOl" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="KIa9PDyaOk" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDyaOn" role="13h7CS">
+      <property role="TrG5h" value="Editor_View_Width" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <node concept="3Tm1VV" id="KIa9PDyaOq" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDyaOt" role="3clF47">
+        <node concept="3clFbF" id="KIa9PDyaOy" role="3cqZAp">
+          <node concept="3cmrfG" id="KIa9PDyaOx" role="3clFbG">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="KIa9PDyaOu" role="3clF46">
+        <property role="TrG5h" value="isQueriedNode" />
+        <node concept="10P_77" id="KIa9PDyaOv" role="1tU5fm" />
+      </node>
+      <node concept="10Oyi0" id="KIa9PDyaOw" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDyaOz" role="13h7CS">
+      <property role="TrG5h" value="TextGen" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <node concept="3Tm1VV" id="KIa9PDyaOE" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDyaOH" role="3clF47">
+        <node concept="YS8fn" id="KIa9PDysOM" role="3cqZAp">
+          <node concept="2ShNRf" id="KIa9PDysON" role="YScLw">
+            <node concept="1pGfFk" id="KIa9PDysOO" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="KIa9PDysOP" role="37wK5m">
+                <property role="Xl_RC" value="No TextGen implementation, this concept should not be used by TextGen directly, but reduced to a plaintextgen concept" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="KIa9PDyaOI" role="3clF46">
+        <property role="TrG5h" value="row" />
+        <node concept="10Oyi0" id="KIa9PDyaOJ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDyaOK" role="3clF46">
+        <property role="TrG5h" value="column" />
+        <node concept="10Oyi0" id="KIa9PDyaOL" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDyaOM" role="3clF46">
+        <property role="TrG5h" value="output" />
+        <node concept="3uibUv" id="KIa9PDyaON" role="1tU5fm">
+          <ref role="3uigEE" to="k44w:pWUoI9ggQg" resolve="CharacterMatrix" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="KIa9PDyaOO" role="3clF45">
+        <ref role="3uigEE" to="z60i:~Point" resolve="Point" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="KIa9PDyn1r">
+    <ref role="13h7C2" to="ssyn:6$Hx0f8mmAP" resolve="SoftWrap" />
+    <node concept="13hLZK" id="KIa9PDyn1s" role="13h7CW">
+      <node concept="3clFbS" id="KIa9PDyn1t" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDyn1A" role="13h7CS">
+      <property role="TrG5h" value="Width" />
+      <ref role="13i0hy" to="3rmn:6gwxh6GcBOM" resolve="Width" />
+      <node concept="3Tm1VV" id="KIa9PDyn1B" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDyn1E" role="3clF47">
+        <node concept="3clFbF" id="KIa9PDyn1H" role="3cqZAp">
+          <node concept="3cmrfG" id="KIa9PDyn1G" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="KIa9PDyn1F" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDyn1I" role="13h7CS">
+      <property role="TrG5h" value="Editor_View_Width" />
+      <ref role="13i0hy" to="3rmn:2jBmyzyEzhY" resolve="Editor_View_Width" />
+      <node concept="3Tm1VV" id="KIa9PDyn1L" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDyn1O" role="3clF47">
+        <node concept="3clFbF" id="KIa9PDyn1T" role="3cqZAp">
+          <node concept="3cmrfG" id="KIa9PDyn1S" role="3clFbG">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="KIa9PDyn1P" role="3clF46">
+        <property role="TrG5h" value="isQueriedNode" />
+        <node concept="10P_77" id="KIa9PDyn1Q" role="1tU5fm" />
+      </node>
+      <node concept="10Oyi0" id="KIa9PDyn1R" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="KIa9PDyn1U" role="13h7CS">
+      <property role="TrG5h" value="TextGen" />
+      <ref role="13i0hy" to="3rmn:4GbnmmUaMp0" resolve="TextGen" />
+      <node concept="3Tm1VV" id="KIa9PDyn21" role="1B3o_S" />
+      <node concept="3clFbS" id="KIa9PDyn24" role="3clF47">
+        <node concept="YS8fn" id="KIa9PDysVw" role="3cqZAp">
+          <node concept="2ShNRf" id="KIa9PDysVx" role="YScLw">
+            <node concept="1pGfFk" id="KIa9PDysVy" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="KIa9PDysVz" role="37wK5m">
+                <property role="Xl_RC" value="No TextGen implementation, this concept should not be used by TextGen directly, but reduced to a plaintextgen concept" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="KIa9PDyn25" role="3clF46">
+        <property role="TrG5h" value="row" />
+        <node concept="10Oyi0" id="KIa9PDyn26" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDyn27" role="3clF46">
+        <property role="TrG5h" value="column" />
+        <node concept="10Oyi0" id="KIa9PDyn28" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="KIa9PDyn29" role="3clF46">
+        <property role="TrG5h" value="output" />
+        <node concept="3uibUv" id="KIa9PDyn2a" role="1tU5fm">
+          <ref role="3uigEE" to="k44w:pWUoI9ggQg" resolve="CharacterMatrix" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="KIa9PDyn2b" role="3clF45">
+        <ref role="3uigEE" to="z60i:~Point" resolve="Point" />
+      </node>
     </node>
   </node>
 </model>

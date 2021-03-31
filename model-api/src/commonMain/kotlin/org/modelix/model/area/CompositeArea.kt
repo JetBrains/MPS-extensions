@@ -237,6 +237,10 @@ class CompositeArea : IArea {
             result = 31 * result + getArea().hashCode()
             return result
         }
+
+        override fun toString(): String {
+            return this::class.simpleName + "[" + node.toString() +"]"
+        }
     }
 
     inner class ListenerWrapper(wrappedListener: IAreaListener) : AreaListenerWrapper(wrappedListener) {

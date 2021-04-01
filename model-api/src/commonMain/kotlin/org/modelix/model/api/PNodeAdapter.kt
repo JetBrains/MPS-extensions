@@ -46,8 +46,12 @@ open class PNodeAdapter(val nodeId: Long, val branch: IBranch) : INode {
 //    DependencyBroadcaster.INSTANCE.dependencyAccessed(new PNodeDependency(branch, nodeId));
     }
 
-    override fun addChild(role: String?, index: Int, node: INode) {
-        throw UnsupportedOperationException("Not implemented")
+    override fun moveChild(role: String?, index: Int, child: INode) {
+        if (child !is PNodeAdapter)
+            throw RuntimeException(child::class.simpleName + " cannot be moved to " + this::class.simpleName)
+        if (child.branch != this.branch)
+            throw RuntimeException("child in branch ${child.branch.getId()} cannot be moved to parent in branch ${branch.getId()}")
+        branch.writeTransaction.moveChild(nodeId, role, index, child.nodeId)
     }
 
     override fun addNewChild(role: String?, index: Int, concept: IConcept?): INode {

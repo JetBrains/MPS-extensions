@@ -651,7 +651,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="7vWAzuEFV1O" role="jymVt">
-      <property role="TrG5h" value="addChild" />
+      <property role="TrG5h" value="moveChild" />
       <node concept="37vLTG" id="7vWAzuEFV1P" role="3clF46">
         <property role="TrG5h" value="role" />
         <node concept="17QB3L" id="7vWAzuEFV1Q" role="1tU5fm" />
@@ -961,7 +961,7 @@
         </node>
         <node concept="3clFbF" id="7vWAzuEIUXu" role="3cqZAp">
           <node concept="1rXfSq" id="7vWAzuEIUXt" role="3clFbG">
-            <ref role="37wK5l" node="7vWAzuEFV1O" resolve="addChild" />
+            <ref role="37wK5l" node="7vWAzuEFV1O" resolve="moveChild" />
             <node concept="37vLTw" id="7vWAzuEIVj_" role="37wK5m">
               <ref role="3cqZAo" node="7vWAzuEFV21" resolve="role" />
             </node>

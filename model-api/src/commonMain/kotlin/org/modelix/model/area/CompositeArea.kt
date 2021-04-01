@@ -123,7 +123,7 @@ class CompositeArea : IArea {
         override val allChildren: Iterable<INode>
             get() = areas.map { NodeWrapper(it.getRoot()) }
 
-        override fun addChild(role: String?, index: Int, node: INode) {
+        override fun moveChild(role: String?, index: Int, node: INode) {
             throw UnsupportedOperationException("Read only. Create a new CompositeArea instance instead.")
         }
 
@@ -196,8 +196,8 @@ class CompositeArea : IArea {
         override val allChildren: Iterable<INode>
             get() = node.allChildren.map { NodeWrapper(it) }
 
-        override fun addChild(role: String?, index: Int, node: INode) {
-            throw UnsupportedOperationException()
+        override fun moveChild(role: String?, index: Int, child: INode) {
+            node.moveChild(role, index, unwrapNode(child))
         }
 
         override fun addNewChild(role: String?, index: Int, concept: IConcept?): INode {
@@ -236,6 +236,10 @@ class CompositeArea : IArea {
             var result = node.hashCode()
             result = 31 * result + getArea().hashCode()
             return result
+        }
+
+        override fun toString(): String {
+            return this::class.simpleName + "[" + node.toString() + "]"
         }
     }
 

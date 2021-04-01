@@ -6958,7 +6958,7 @@
     </node>
     <node concept="2tJIrI" id="5QP6xyjLAax" role="jymVt" />
     <node concept="3clFb_" id="4_SQzDOeoFD" role="jymVt">
-      <property role="TrG5h" value="addChild" />
+      <property role="TrG5h" value="moveChild" />
       <node concept="37vLTG" id="4_SQzDOeoFE" role="3clF46">
         <property role="TrG5h" value="role" />
         <node concept="17QB3L" id="4_SQzDOeoFF" role="1tU5fm" />

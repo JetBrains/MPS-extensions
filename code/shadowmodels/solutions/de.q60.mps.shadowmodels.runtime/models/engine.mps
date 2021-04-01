@@ -15289,7 +15289,7 @@
     </node>
     <node concept="3clFb_" id="5gTrVpGxHCv" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="addChild" />
+      <property role="TrG5h" value="moveChild" />
       <node concept="37vLTG" id="5gTrVpGxHCw" role="3clF46">
         <property role="TrG5h" value="role" />
         <node concept="17QB3L" id="5gTrVpGxHCx" role="1tU5fm" />
@@ -15313,7 +15313,7 @@
               <ref role="3cqZAo" node="5gTrVpGxHB2" resolve="node" />
             </node>
             <node concept="liA8E" id="5gTrVpGxNqi" role="2OqNvi">
-              <ref role="37wK5l" to="jks5:~INode.addChild(java.lang.String,int,org.modelix.model.api.INode)" resolve="addChild" />
+              <ref role="37wK5l" to="jks5:~INode.moveChild(java.lang.String,int,org.modelix.model.api.INode)" resolve="moveChild" />
               <node concept="37vLTw" id="5gTrVpGxNFu" role="37wK5m">
                 <ref role="3cqZAo" node="5gTrVpGxHCw" resolve="role" />
               </node>
@@ -33025,7 +33025,7 @@
     </node>
     <node concept="2tJIrI" id="5$YruQr6DVN" role="jymVt" />
     <node concept="3clFb_" id="5$YruQr6zeN" role="jymVt">
-      <property role="TrG5h" value="addChild" />
+      <property role="TrG5h" value="moveChild" />
       <node concept="37vLTG" id="5$YruQr6zeO" role="3clF46">
         <property role="TrG5h" value="role" />
         <node concept="17QB3L" id="5$YruQr6zeP" role="1tU5fm" />

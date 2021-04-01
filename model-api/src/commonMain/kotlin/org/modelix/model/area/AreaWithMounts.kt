@@ -158,8 +158,8 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
         override val allChildren: Iterable<INode>
             get() = node.allChildren.map { NodeWrapper(getMountedArea(it)?.getRoot() ?: it) }
 
-        override fun addChild(role: String?, index: Int, node: INode) {
-            throw UnsupportedOperationException()
+        override fun moveChild(role: String?, index: Int, child: INode) {
+            node.moveChild(role, index, unwrapNode(child))
         }
 
         override fun addNewChild(role: String?, index: Int, concept: IConcept?): INode {

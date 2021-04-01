@@ -26,7 +26,7 @@ interface INode {
     val parent: INode?
     fun getChildren(role: String?): Iterable<INode>
     val allChildren: Iterable<INode>
-    fun addChild(role: String?, index: Int, node: INode)
+    fun moveChild(role: String?, index: Int, child: INode)
     fun addNewChild(role: String?, index: Int, concept: IConcept?): INode
     fun removeChild(child: INode)
     fun getReferenceTarget(role: String): INode?

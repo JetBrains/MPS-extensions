@@ -28,6 +28,7 @@ class CompositeArea : IArea {
     override fun getRoot(): INode = rootNode
 
     override fun resolveNode(ref: INodeReference): INode? {
+        if (ref is RootNodeReference && ref.areaRef == getReference()) return rootNode
         for (area in areas) {
             val resolved = area.resolveNode(ref)
             if (resolved != null) return NodeWrapper(resolved)
@@ -36,6 +37,7 @@ class CompositeArea : IArea {
     }
 
     override fun resolveOriginalNode(ref: INodeReference): INode? {
+        if (ref is RootNodeReference && ref.areaRef == getReference()) return rootNode
         for (area in areas) {
             val resolved = area.resolveOriginalNode(ref)
             if (resolved != null) return resolved
@@ -80,7 +82,7 @@ class CompositeArea : IArea {
     }
 
     fun unwrapNodeRef(ref: INodeReference): INodeReference {
-        return if (ref is NodeWrapper && ref.getArea() == this) ref.node.reference else ref
+        return if (ref is NodeWrapperReference && ref.areaRef == this.getReference()) ref.nodeRef else ref
     }
 
     fun wrapNode(node: INode?) = if (node == null) null else NodeWrapper(node)
@@ -102,13 +104,21 @@ class CompositeArea : IArea {
         return areas.hashCode()
     }
 
-    inner class Root() : INode, INodeReference {
-        override fun getArea(): IArea = this@CompositeArea
+    override fun getReference() = AreaReference(areas.map { it.getReference() })
+
+    override fun resolveArea(ref: IAreaReference): IArea? {
+        return if (getReference() == ref) this else null
+    }
+
+    data class AreaReference(val areaRefs: List<IAreaReference>) : IAreaReference
+
+    inner class Root() : INode {
+        override fun getArea() = this@CompositeArea
 
         override val isValid: Boolean
             get() = true
         override val reference: INodeReference
-            get() = this
+            get() = RootNodeReference(getArea().getReference())
         override val concept: IConcept?
             get() = null
         override val roleInParent: String?
@@ -151,8 +161,6 @@ class CompositeArea : IArea {
             throw UnsupportedOperationException("read only")
         }
 
-        override fun resolveNode(area: IArea?): INode = this
-
         override fun equals(other: Any?): Boolean {
             if (this === other) return true
             if (other == null || this::class != other::class) return false
@@ -169,11 +177,17 @@ class CompositeArea : IArea {
         }
     }
 
-    inner class NodeWrapper(val node: INode) : INode, INodeReference, INodeWrapper {
+    data class RootNodeReference(val areaRef: AreaReference) : INodeReference {
+        override fun resolveNode(area: IArea?): INode? {
+            return area?.resolveArea(areaRef)?.getRoot()
+        }
+    }
+
+    inner class NodeWrapper(val node: INode) : INode, INodeWrapper {
 
         override fun getWrappedNode(): INode = node
 
-        override fun getArea(): IArea = this@CompositeArea
+        override fun getArea() = this@CompositeArea
 
         override fun getChildren(role: String?): Iterable<INode> {
             return node.getChildren(role).map { NodeWrapper(it) }
@@ -186,7 +200,7 @@ class CompositeArea : IArea {
         override val isValid: Boolean
             get() = node.isValid
         override val reference: INodeReference
-            get() = this
+            get() = NodeWrapperReference(node.reference, getArea().getReference())
         override val concept: IConcept?
             get() = node.concept
         override val roleInParent: String?
@@ -218,8 +232,6 @@ class CompositeArea : IArea {
             node.setPropertyValue(role, value)
         }
 
-        override fun resolveNode(area: IArea?): INode = this
-
         override fun equals(other: Any?): Boolean {
             if (this === other) return true
             if (other == null || this::class != other::class) return false
@@ -240,6 +252,14 @@ class CompositeArea : IArea {
 
         override fun toString(): String {
             return this::class.simpleName + "[" + node.toString() + "]"
+        }
+    }
+
+    data class NodeWrapperReference(val nodeRef: INodeReference, val areaRef: AreaReference) : INodeReference {
+        override fun resolveNode(contextArea: IArea?): INode? {
+            val compositeArea = contextArea?.resolveArea(areaRef)
+            if (compositeArea is CompositeArea) return compositeArea.resolveNode(nodeRef)
+            return null
         }
     }
 

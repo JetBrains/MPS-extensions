@@ -42,4 +42,8 @@ abstract class AbstractArea : IArea {
     override fun removeListener(l: IAreaListener) {
         throw UnsupportedOperationException()
     }
+
+    override fun resolveArea(ref: IAreaReference): IArea? {
+        return if (getReference() == ref) this else null
+    }
 }

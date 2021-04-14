@@ -37,7 +37,10 @@ class PArea(val branch: IBranch) : IArea {
     }
 
     override fun resolveOriginalNode(ref: INodeReference): INode? {
-        return if (ref is PNodeReference && containsNode(ref.id)) PNodeAdapter(ref.id, branch) else null
+        return if (ref is PNodeReference &&
+            branch.getId() == ref.branchId &&
+            containsNode(ref.id)
+        ) PNodeAdapter(ref.id, branch) else null
     }
 
     override fun resolveBranch(id: String): IBranch? {
@@ -78,4 +81,12 @@ class PArea(val branch: IBranch) : IArea {
     override fun hashCode(): Int {
         return branch.hashCode()
     }
+
+    override fun resolveArea(ref: IAreaReference): IArea? {
+        return if (ref is AreaReference && ref.branchId == branch.getId()) this else null
+    }
+
+    override fun getReference() = AreaReference(branch.getId())
+
+    data class AreaReference(val branchId: String?) : IAreaReference
 }

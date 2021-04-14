@@ -18,6 +18,8 @@ import org.modelix.model.api.ContextValue
 object ContextArea {
     val CONTEXT_VALUE = ContextValue<IArea>()
 
+    fun getArea() = CONTEXT_VALUE.getValue()
+
     fun <T> withAdditionalContext(area: IArea, runnable: () -> T): T {
         val activeContext = CONTEXT_VALUE.getValue()
         return if (activeContext == null) {

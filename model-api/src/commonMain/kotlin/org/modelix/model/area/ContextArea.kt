@@ -18,12 +18,20 @@ import org.modelix.model.api.ContextValue
 object ContextArea {
     val CONTEXT_VALUE = ContextValue<IArea>()
 
-    fun <T> withAdditionalContext(area: IArea, runnable: () -> T) {
+    fun <T> withAdditionalContext(area: IArea, runnable: () -> T): T {
         val activeContext = CONTEXT_VALUE.getValue()
-        if (activeContext == null) {
+        return if (activeContext == null) {
             CONTEXT_VALUE.computeWith(area, runnable)
         } else {
             CONTEXT_VALUE.computeWith(CompositeArea(listOf(area, activeContext)), runnable)
+        }
+    }
+
+    fun <T> offer(area: IArea, r: () -> T): T {
+        return if (CONTEXT_VALUE.getValue() == null) {
+            CONTEXT_VALUE.computeWith(area, r)
+        } else {
+            r()
         }
     }
 }

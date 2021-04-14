@@ -80,11 +80,11 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
     private fun getAllAreas() = listOf(rootArea) + mounts.values
 
     override fun <T> executeRead(f: () -> T): T {
-        return getAllAreas().fold(f) { f2: () -> T, a: IArea -> { a.executeRead(f2) } }()
+        return ContextArea.offer(this) {  getAllAreas().fold(f) { f2: () -> T, a: IArea -> { a.executeRead(f2) } }() }
     }
 
     override fun <T> executeWrite(f: () -> T): T {
-        return getAllAreas().fold(f) { f2: () -> T, a: IArea -> { a.executeWrite(f2) } }()
+        return ContextArea.offer(this) {  getAllAreas().fold(f) { f2: () -> T, a: IArea -> { a.executeWrite(f2) } }() }
     }
 
     override fun canRead(): Boolean = getAllAreas().all { it.canRead() }

@@ -126,7 +126,12 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
     }
 
     override fun resolveArea(ref: IAreaReference): IArea? {
-        return if (getReference() == ref) this else null
+        if (getReference() == ref) return this
+        for (area in listOf(rootArea) + mounts.values) {
+            val resolved = area.resolveArea(ref)
+            if (resolved != null) return resolved
+        }
+        return null
     }
 
     data class AreaReference(

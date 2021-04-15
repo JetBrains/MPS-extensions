@@ -94,7 +94,7 @@ open class PNodeAdapter(val nodeId: Long, val branch: IBranch) : INode {
     }
 
     override val reference: INodeReference
-        get() = PNodeReference(nodeId)
+        get() = PNodeReference(nodeId, branch.getId())
 
     override fun getReferenceTarget(role: String): INode? {
         notifyAccess()

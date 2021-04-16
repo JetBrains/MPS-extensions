@@ -22,8 +22,13 @@ abstract class Transaction(override val branch: IBranch) : ITransaction {
     override fun getParent(nodeId: Long): Long = tree.getParent(nodeId)
     override fun getRole(nodeId: Long): String? = tree.getRole(nodeId)
     override fun getProperty(nodeId: Long, role: String): String? = tree.getProperty(nodeId, role)
-    override fun getReferenceTarget(sourceId: Long, role: String): INodeReference? =
-        tree.getReferenceTarget(sourceId, role)
+    override fun getReferenceTarget(sourceId: Long, role: String): INodeReference? {
+        val target = tree.getReferenceTarget(sourceId, role)
+        return if (target is PNodeReference && target.branchId == null)
+            PNodeReference(target.id, branch.getId())
+        else
+            target
+    }
     override fun getChildren(parentId: Long, role: String?): Iterable<Long> = tree.getChildren(parentId, role)
     override fun getAllChildren(parentId: Long): Iterable<Long> = tree.getAllChildren(parentId)
     override fun getReferenceRoles(sourceId: Long): Iterable<String> = tree.getReferenceRoles(sourceId)

@@ -15022,12 +15022,17 @@
       </node>
       <node concept="3clFbS" id="5gTrVpGy2hl" role="3clF47">
         <node concept="3clFbF" id="5gTrVpGy3_s" role="3cqZAp">
-          <node concept="2OqwBi" id="5gTrVpGy3GT" role="3clFbG">
-            <node concept="37vLTw" id="5gTrVpGy3_r" role="2Oq$k0">
-              <ref role="3cqZAo" node="5gTrVpGxHB2" resolve="node" />
-            </node>
-            <node concept="liA8E" id="5gTrVpGy4au" role="2OqNvi">
-              <ref role="37wK5l" to="jks5:~INode.getReference()" resolve="getReference" />
+          <node concept="2ShNRf" id="2WI3xHD_FM6" role="3clFbG">
+            <node concept="1pGfFk" id="2WI3xHD_HLf" role="2ShVmc">
+              <ref role="37wK5l" node="4apiesXeY3b" resolve="DependencyTrackingNode.NodeReference" />
+              <node concept="2OqwBi" id="5gTrVpGy3GT" role="37wK5m">
+                <node concept="37vLTw" id="5gTrVpGy3_r" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5gTrVpGxHB2" resolve="node" />
+                </node>
+                <node concept="liA8E" id="5gTrVpGy4au" role="2OqNvi">
+                  <ref role="37wK5l" to="jks5:~INode.getReference()" resolve="getReference" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -47438,6 +47443,24 @@
           <property role="TrG5h" value="wrappedRef" />
           <node concept="3uibUv" id="7$7_4Zihm6w" role="1tU5fm">
             <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="4lYmjL0wsmT" role="jymVt" />
+      <node concept="3clFb_" id="4lYmjL0wqwY" role="jymVt">
+        <property role="TrG5h" value="getWrappedRef" />
+        <node concept="3uibUv" id="4lYmjL0wqwZ" role="3clF45">
+          <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
+        </node>
+        <node concept="3Tm1VV" id="4lYmjL0wqx0" role="1B3o_S" />
+        <node concept="3clFbS" id="4lYmjL0wqx1" role="3clF47">
+          <node concept="3clFbF" id="4lYmjL0wqx2" role="3cqZAp">
+            <node concept="2OqwBi" id="4lYmjL0wqwV" role="3clFbG">
+              <node concept="Xjq3P" id="4lYmjL0wqwW" role="2Oq$k0" />
+              <node concept="2OwXpG" id="4lYmjL0wqwX" role="2OqNvi">
+                <ref role="2Oxat5" node="7$7_4Zihlxj" resolve="wrappedRef" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

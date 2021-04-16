@@ -163,7 +163,7 @@ open class PNodeAdapter(val nodeId: Long, val branch: IBranch) : INode {
             concept = branch.computeRead { branch.transaction.getConcept(nodeId) }
         } catch (ex: Exception) {
         }
-        var str = "PNode$nodeId"
+        var str = "PNode${nodeId.toString(16)}"
         if (concept != null) {
             str += "[$concept]"
         }

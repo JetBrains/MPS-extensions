@@ -38,7 +38,7 @@ class PArea(val branch: IBranch) : IArea {
 
     override fun resolveOriginalNode(ref: INodeReference): INode? {
         return if (ref is PNodeReference &&
-            branch.getId() == ref.branchId &&
+            (ref.branchId == null || branch.getId() == ref.branchId) &&
             containsNode(ref.id)
         ) PNodeAdapter(ref.id, branch) else null
     }

@@ -30,7 +30,8 @@ object ContextArea {
     }
 
     fun <T> offer(area: IArea, r: () -> T): T {
-        return if (CONTEXT_VALUE.getValue() == null) {
+        val current = CONTEXT_VALUE.getValue()
+        return if (current == null || !current.collectAreas().contains(area)) {
             CONTEXT_VALUE.computeWith(area, r)
         } else {
             r()

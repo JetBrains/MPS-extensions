@@ -51,9 +51,9 @@ class PArea(val branch: IBranch) : IArea {
 
     fun containsNode(nodeId: Long): Boolean = branch.transaction.containsNode(nodeId)
 
-    override fun <T> executeRead(f: () -> T): T = branch.computeRead(f)
+    override fun <T> executeRead(f: () -> T): T = ContextArea.offer(this) { branch.computeRead(f) }
 
-    override fun <T> executeWrite(f: () -> T): T = branch.computeWrite(f)
+    override fun <T> executeWrite(f: () -> T): T = ContextArea.offer(this) { branch.computeWrite(f) }
 
     override fun canRead(): Boolean = branch.canRead()
 

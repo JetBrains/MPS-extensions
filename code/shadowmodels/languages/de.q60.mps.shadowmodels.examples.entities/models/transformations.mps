@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <devkit ref="a2812d5e-a72e-4739-ab3f-d01ec647c5de(de.q60.mps.shadowmodels.devkit)" />
   </languages>
   <imports>
@@ -79,7 +79,7 @@
         <reference id="7335687028107243182" name="link" index="027ri" />
         <child id="7335687028107243185" name="target" index="027rd" />
       </concept>
-      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ng" index="02i3D">
+      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ig" index="02i3D">
         <reference id="7335687028107163800" name="concept" index="02i3$" />
       </concept>
       <concept id="7335687028107163788" name="de.q60.mps.shadowmodels.transformation.structure.TransformationParameter" flags="ng" index="02i3K">
@@ -145,7 +145,7 @@
         <child id="5373338300165862254" name="call" index="2PWHRo" />
         <child id="5373338300165862252" name="input" index="2PWHRq" />
       </concept>
-      <concept id="4225291329826005067" name="de.q60.mps.shadowmodels.transformation.structure.TStringType" flags="ng" index="38sA1o" />
+      <concept id="4225291329826005067" name="de.q60.mps.shadowmodels.transformation.structure.TStringType" flags="ig" index="38sA1o" />
       <concept id="3563231453904357666" name="de.q60.mps.shadowmodels.transformation.structure.NullNode" flags="ng" index="3n1eO2" />
       <concept id="7947335862502909370" name="de.q60.mps.shadowmodels.transformation.structure.GenplanRule_Include" flags="ng" index="1tvZTA">
         <child id="1893966189698443856" name="includeItem" index="rQX9B" />

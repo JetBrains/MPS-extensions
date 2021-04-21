@@ -11,7 +11,7 @@
   </imports>
   <registry>
     <language id="eef1aa08-6b84-4194-90d9-ff3e9d6b4505" name="de.itemis.mps.editor.enumeration">
-      <concept id="2135528801629813662" name="de.itemis.mps.editor.enumeration.structure.CellModel_EnumCheckbox" flags="ng" index="1Lo5uZ">
+      <concept id="2135528801629813662" name="de.itemis.mps.editor.enumeration.structure.CellModel_EnumCheckbox" flags="sg" stub="2135528801629813722" index="1Lo5uZ">
         <child id="2135528801629913147" name="content" index="1LpEKq" />
       </concept>
       <concept id="2135528801629813732" name="de.itemis.mps.editor.enumeration.structure.EnumCheckbox_Selectable" flags="ng" index="1Lo5v5">

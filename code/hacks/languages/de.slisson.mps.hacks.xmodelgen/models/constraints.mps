@@ -63,9 +63,12 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
-        <reference id="1182511038750" name="concept" index="1j9C0d" />
+        <child id="6750920497477143623" name="conceptArgument" index="3MHPCF" />
       </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -113,7 +116,9 @@
                     <node concept="I4A8Y" id="5KX1OsDSXYw" role="2OqNvi" />
                   </node>
                   <node concept="1j9C0f" id="5KX1OsDSXYx" role="2OqNvi">
-                    <ref role="1j9C0d" to="tpf8:fWbUwhP" resolve="MappingConfiguration" />
+                    <node concept="chp4Y" id="2F4Sedp$PT3" role="3MHPCF">
+                      <ref role="cht4Q" to="tpf8:fWbUwhP" resolve="MappingConfiguration" />
+                    </node>
                   </node>
                 </node>
                 <node concept="4Tj9Z" id="5KX1OsDSXYy" role="2OqNvi">

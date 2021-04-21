@@ -4,7 +4,7 @@
   <languages>
     <use id="bc963c22-d419-49b6-8543-ea411eb9d3a1" name="de.q60.mps.polymorphicfunctions" version="-1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
@@ -355,7 +355,7 @@
     </language>
     <language id="94b64715-a263-4c36-a138-8da14705ffa7" name="de.q60.mps.shadowmodels.transformation">
       <concept id="4105524263001228310" name="de.q60.mps.shadowmodels.transformation.structure.StaticId" flags="ng" index="285$i6" />
-      <concept id="5395534041253795867" name="de.q60.mps.shadowmodels.transformation.structure.ShadowmodelNodeType" flags="ng" index="3$_h64">
+      <concept id="5395534041253795867" name="de.q60.mps.shadowmodels.transformation.structure.ShadowmodelNodeType" flags="ig" index="3$_h64">
         <reference id="5395534041253795868" name="concept" index="3$_h63" />
       </concept>
     </language>

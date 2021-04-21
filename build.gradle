@@ -77,26 +77,22 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2020.3'
-ext.mpsMinor = ''
+ext.mpsMajor = '2021'
+ext.mpsMinor = '1'
 // e.g. Beta, EAP, RC
-ext.mpsReleaseType = ''
+ext.mpsReleaseType = 'EAP5'
 
 def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
-
-
-def minor = '3'
-def major = '2020'
 
 if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch
 
     def buildNumber = System.env.BUILD_NUMBER.toInteger()
     if (branch.startsWith("maintenance") || branch.startsWith("mps")) {
-        version = "$major.$minor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
+        version = "$mpsMajor.$mpsMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        version = GitBasedVersioning.getVersionWithCount(major, minor, buildNumber)
+        version = GitBasedVersioning.getVersionWithCount(mpsMajor, mpsMinor, buildNumber)
     }
 
     println "##teamcity[buildNumber '${version}']"

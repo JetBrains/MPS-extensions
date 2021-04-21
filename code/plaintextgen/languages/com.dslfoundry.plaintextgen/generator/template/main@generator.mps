@@ -2,7 +2,7 @@
 <model ref="r:bcfb48fa-341f-4d91-ad6f-e133c4a698cd(com.dslfoundry.plaintextgen.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
   </languages>
   <imports />
   <registry>

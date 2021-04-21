@@ -2,7 +2,7 @@
 <model ref="r:4fd2fe86-6c60-406f-9c19-b585ae8b7ecb(de.q60.mps.genplan.virutalinterfaces_incremental)">
   <persistence version="9" />
   <languages>
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="7ab1a6fa-0a11-4b95-9e48-75f363d6cb00" name="jetbrains.mps.lang.generator.plan" version="1" />
   </languages>
   <imports>

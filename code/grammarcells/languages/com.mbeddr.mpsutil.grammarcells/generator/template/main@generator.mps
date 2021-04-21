@@ -4,13 +4,14 @@
   <languages>
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="-1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
+    <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -495,14 +496,14 @@
         <child id="7408935449000704339" name="wrapped" index="7FqFq" />
       </concept>
       <concept id="6418684662168756838" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_Pattern" flags="ng" index="kKDRn" />
-      <concept id="7272510943426055326" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell_Factory" flags="ng" index="2kS2EP" />
+      <concept id="7272510943426055326" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell_Factory" flags="ig" index="2kS2EP" />
       <concept id="7272510943426093121" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_SideTransformActionsBuilderContext" flags="ng" index="2kS8pE" />
       <concept id="7272510943425988699" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell" flags="ng" index="2kSiTK">
         <property id="7272510943425988883" name="side" index="2kSiWS" />
         <child id="7272510943426097631" name="factory" index="2kS9vO" />
         <child id="7272510943425989076" name="wrapped" index="2kSiZZ" />
       </concept>
-      <concept id="7272510943426635554" name="com.mbeddr.mpsutil.grammarcells.structure.NodeSubstituteCell_Factory" flags="ng" index="2kYc49" />
+      <concept id="7272510943426635554" name="com.mbeddr.mpsutil.grammarcells.structure.NodeSubstituteCell_Factory" flags="ig" index="2kYc49" />
       <concept id="7272510943426635523" name="com.mbeddr.mpsutil.grammarcells.structure.NodeSubstituteCell" flags="ng" index="2kYc4C">
         <child id="7272510943426635586" name="factory" index="2kYc5D" />
         <child id="7272510943426635585" name="wrapped" index="2kYc5E" />
@@ -518,25 +519,25 @@
         <child id="6856661361479798753" name="execute" index="130oVf" />
         <child id="6856661361479798749" name="canExecute" index="130oVN" />
       </concept>
-      <concept id="6856661361479784541" name="com.mbeddr.mpsutil.grammarcells.structure.InlineActionMapItem_CanExecuteFunction" flags="ng" index="130t_N" />
-      <concept id="6856661361479784534" name="com.mbeddr.mpsutil.grammarcells.structure.InlineActionMapItem_ExecuteFunction" flags="ng" index="130t_S" />
+      <concept id="6856661361479784541" name="com.mbeddr.mpsutil.grammarcells.structure.InlineActionMapItem_CanExecuteFunction" flags="ig" index="130t_N" />
+      <concept id="6856661361479784534" name="com.mbeddr.mpsutil.grammarcells.structure.InlineActionMapItem_ExecuteFunction" flags="ig" index="130t_S" />
       <concept id="6856661361479732075" name="com.mbeddr.mpsutil.grammarcells.structure.InlineActionMapCell" flags="ng" index="130CD5">
         <child id="6856661361479798957" name="actions" index="130p63" />
         <child id="6856661361479732085" name="cell" index="130CDr" />
       </concept>
-      <concept id="4874944647490522665" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_IsApplicable" flags="ng" index="1eYwpX" />
-      <concept id="4874944647490524676" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_Execute" flags="ng" index="1eYxTg" />
+      <concept id="4874944647490522665" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_IsApplicable" flags="ig" index="1eYwpX" />
+      <concept id="4874944647490524676" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_Execute" flags="ig" index="1eYxTg" />
       <concept id="4874944647490471126" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2" flags="ng" index="1eYWM2">
         <property id="6418684662171814692" name="multipleEntries" index="kV7il" />
         <child id="4874944647490523335" name="matchingText" index="1eYxyj" />
         <child id="4874944647490523330" name="isApplicable" index="1eYxym" />
         <child id="4874944647490524677" name="execute" index="1eYxTh" />
       </concept>
-      <concept id="4874944647490471525" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_MatchingText" flags="ng" index="1eYWSL" />
+      <concept id="4874944647490471525" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell2_MatchingText" flags="ig" index="1eYWSL" />
     </language>
     <language id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell">
-      <concept id="1161622981231" name="de.slisson.mps.richtext.customcell.structure.ConceptFunctionParameter_cell" flags="ng" index="1Q80Hy" />
-      <concept id="1176749715029" name="de.slisson.mps.richtext.customcell.structure.QueryFunction_Cell" flags="ng" index="3VJUX4" />
+      <concept id="1161622981231" name="de.slisson.mps.richtext.customcell.structure.ConceptFunctionParameter_cell" flags="nn" index="1Q80Hy" />
+      <concept id="1176749715029" name="de.slisson.mps.richtext.customcell.structure.QueryFunction_Cell" flags="in" index="3VJUX4" />
       <concept id="2490242408670732052" name="de.slisson.mps.richtext.customcell.structure.CellModel_CustomFactory" flags="ng" index="3ZSo5i">
         <child id="1073389446424" name="childCellModel" index="3EZMny" />
         <child id="2490242408670937967" name="factoryMethod" index="3ZZHOD" />
@@ -627,7 +628,7 @@
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
@@ -26254,7 +26255,9 @@
                 <ref role="3cqZAo" node="7NlRaxB9mIf" resolve="structure" />
               </node>
               <node concept="2RRcyG" id="7NlRaxB9o7_" role="2OqNvi">
-                <ref role="2RRcyH" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                <node concept="chp4Y" id="2F4Sedp$PT2" role="3MHsoP">
+                  <ref role="cht4Q" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                </node>
               </node>
             </node>
           </node>

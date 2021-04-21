@@ -186,6 +186,9 @@
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
       </concept>
+      <concept id="2880994019885263148" name="jetbrains.mps.lang.generator.structure.LoopMacroNamespaceAccessor" flags="ng" index="$GB7w">
+        <property id="1501378878163388321" name="variable" index="26SvY3" />
+      </concept>
       <concept id="1167168920554" name="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" flags="in" index="30G5F_" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
@@ -260,9 +263,6 @@
         <child id="1216860049632" name="inputNode" index="1iwH7V" />
       </concept>
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
-      <concept id="7430509679014182526" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ContextVarRef" flags="ng" index="1qCSth">
-        <property id="7430509679014182818" name="contextVarName" index="1qCSqd" />
-      </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
@@ -1509,7 +1509,7 @@
         </node>
       </node>
       <node concept="1WS0z7" id="3rlBTn$7s$s" role="lGtFl">
-        <property role="1qytDF" value="i" />
+        <property role="1qytDF" value="" />
         <node concept="3JmXsc" id="3rlBTn$7s$t" role="3Jn$fo">
           <node concept="3clFbS" id="3rlBTn$7s$u" role="2VODD2">
             <node concept="3clFbF" id="3rlBTn$7s$v" role="3cqZAp">
@@ -1530,11 +1530,8 @@
           <node concept="3clFbS" id="3rlBTn$7s$_" role="2VODD2">
             <node concept="3clFbF" id="3rlBTn$7s$A" role="3cqZAp">
               <node concept="3cpWs3" id="3rlBTn$7s$B" role="3clFbG">
-                <node concept="2OqwBi" id="3rlBTn$7s$C" role="3uHU7w">
-                  <node concept="1iwH7S" id="3rlBTn$7s$D" role="2Oq$k0" />
-                  <node concept="1qCSth" id="3rlBTn$7s$E" role="2OqNvi">
-                    <property role="1qCSqd" value="i" />
-                  </node>
+                <node concept="$GB7w" id="2F4Sedp$PTh" role="3uHU7w">
+                  <property role="26SvY3" value="1jlY2aid0uu/index" />
                 </node>
                 <node concept="Xl_RD" id="3rlBTn$7s$F" role="3uHU7B">
                   <property role="Xl_RC" value="k" />
@@ -1563,7 +1560,7 @@
           </node>
         </node>
         <node concept="1WS0z7" id="3rlBTn$7s$Q" role="lGtFl">
-          <property role="1qytDF" value="i" />
+          <property role="1qytDF" value="" />
           <node concept="3JmXsc" id="3rlBTn$7s$R" role="3Jn$fo">
             <node concept="3clFbS" id="3rlBTn$7s$S" role="2VODD2">
               <node concept="3clFbF" id="3rlBTn$7s$T" role="3cqZAp">
@@ -1584,11 +1581,8 @@
             <node concept="3clFbS" id="3rlBTn$7s$Z" role="2VODD2">
               <node concept="3clFbF" id="3rlBTn$7s_0" role="3cqZAp">
                 <node concept="3cpWs3" id="3rlBTn$7s_1" role="3clFbG">
-                  <node concept="2OqwBi" id="3rlBTn$7s_2" role="3uHU7w">
-                    <node concept="1iwH7S" id="3rlBTn$7s_3" role="2Oq$k0" />
-                    <node concept="1qCSth" id="3rlBTn$7s_4" role="2OqNvi">
-                      <property role="1qCSqd" value="i" />
-                    </node>
+                  <node concept="$GB7w" id="2F4Sedp$PTk" role="3uHU7w">
+                    <property role="26SvY3" value="1jlY2aid0uu/index" />
                   </node>
                   <node concept="Xl_RD" id="3rlBTn$7s_5" role="3uHU7B">
                     <property role="Xl_RC" value="k" />

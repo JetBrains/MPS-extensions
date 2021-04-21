@@ -162,7 +162,7 @@
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
-        <reference id="1176109685394" name="concept" index="3lApI3" />
+        <child id="6750920497477143611" name="conceptArgument" index="3MHPDn" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -422,7 +422,9 @@
                       <node concept="I4A8Y" id="2lop6rSg46o" role="2OqNvi" />
                     </node>
                     <node concept="3lApI0" id="2lop6rSg46p" role="2OqNvi">
-                      <ref role="3lApI3" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                      <node concept="chp4Y" id="2F4Sedp$PST" role="3MHPDn">
+                        <ref role="cht4Q" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -542,7 +544,9 @@
                 <node concept="I4A8Y" id="2lop6rSg44H" role="2OqNvi" />
               </node>
               <node concept="3lApI0" id="2lop6rSg43A" role="2OqNvi">
-                <ref role="3lApI3" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                <node concept="chp4Y" id="2F4Sedp$PSU" role="3MHPDn">
+                  <ref role="cht4Q" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+                </node>
               </node>
             </node>
           </node>

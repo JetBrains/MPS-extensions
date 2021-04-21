@@ -41,8 +41,14 @@
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
   </registry>
   <node concept="37WguZ" id="6oKG1kMyaCY">
+    <property role="TrG5h" value="GrammarInfoCellNodeFactory" />
     <node concept="37WvkG" id="5l1k7_Rb4sZ" role="37WGs$">
       <ref role="37XkoT" to="teg0:2BcfhHlZPa5" resolve="GrammarInfoCell" />
       <node concept="37Y9Zx" id="5l1k7_Rb4t0" role="37ZfLb">

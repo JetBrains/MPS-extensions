@@ -4,7 +4,7 @@
   <languages>
     <use id="cdaf53d5-8786-43a0-bdba-ae0da5acb9e8" name="de.itemis.mps.modelmerger" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
   </languages>
   <imports>
@@ -39,7 +39,7 @@
       <concept id="8424607763702284912" name="de.itemis.mps.modelmerger.structure.IdentityCalculatorRegistry" flags="ng" index="1j$NDg">
         <child id="8424607763702354527" name="conceptIdMap" index="1j$2DZ" />
       </concept>
-      <concept id="394966128313977116" name="de.itemis.mps.modelmerger.structure.IdentityCalculatorLogic" flags="ig" index="3_37E5" />
+      <concept id="394966128313977116" name="de.itemis.mps.modelmerger.structure.IdentityCalculatorLogic" flags="ng" index="3_37E5" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">

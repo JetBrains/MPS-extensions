@@ -106,9 +106,12 @@
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
-        <reference id="1176109685394" name="concept" index="3lApI3" />
+        <child id="6750920497477143611" name="conceptArgument" index="3MHPDn" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -498,7 +501,9 @@
                 <node concept="I4A8Y" id="4JS9aP7uQOI" role="2OqNvi" />
               </node>
               <node concept="3lApI0" id="4JS9aP7uRnX" role="2OqNvi">
-                <ref role="3lApI3" to="wfif:4JS9aP7oxy8" resolve="CheckboxDefaultIcons" />
+                <node concept="chp4Y" id="2F4Sedp$PTc" role="3MHPDn">
+                  <ref role="cht4Q" to="wfif:4JS9aP7oxy8" resolve="CheckboxDefaultIcons" />
+                </node>
               </node>
             </node>
             <node concept="1uHKPH" id="4JS9aP7uTqX" role="2OqNvi" />

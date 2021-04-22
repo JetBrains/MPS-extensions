@@ -185,6 +185,9 @@
       <concept id="8850773520007259009" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_EnumWrapper" flags="ng" index="5CM0u">
         <property id="8850773520007259153" name="enum1" index="5CMue" />
       </concept>
+      <concept id="994107119629524729" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.ArrayType" flags="ng" index="2bZTBh">
+        <child id="994107119629524730" name="type" index="2bZTBi" />
+      </concept>
       <concept id="1749127723000260978" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.Module" flags="ng" index="2cssWn">
         <child id="1749127723000260979" name="content" index="2cssWm" />
       </concept>
@@ -203,6 +206,7 @@
       <concept id="5083944728300233282" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.MulExpression" flags="ng" index="ywYU9" />
       <concept id="5083944728299528547" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.Visibility" flags="ng" index="yzEQC" />
       <concept id="5083944728299528551" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.PrivateVisibility" flags="ng" index="yzEQG" />
+      <concept id="5083944728299528550" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.PublicVisibility" flags="ng" index="yzEQH" />
       <concept id="5083944728300729103" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.IntLiteral" flags="ng" index="yA7Z4">
         <property id="5083944728300729107" name="value" index="yA7Zo" />
       </concept>
@@ -226,7 +230,9 @@
         <child id="7363578995839169018" name="type" index="1kHs7J" />
         <child id="7363578995839169055" name="initializer" index="1kHs8a" />
       </concept>
-      <concept id="7363578995839169026" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.LocalVariableDeclaration" flags="ng" index="1kHs8n" />
+      <concept id="7363578995839169026" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.LocalVariableDeclaration" flags="ng" index="1kHs8n">
+        <property id="484443907670948619" name="static" index="3gViKx" />
+      </concept>
       <concept id="7363578995839169063" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StringLiteral" flags="ng" index="1kHs8M">
         <property id="7363578995839169078" name="value" index="1kHs8z" />
       </concept>
@@ -2464,6 +2470,62 @@
           <node concept="yzEQC" id="6TEPcwQV2VF" role="yzEPe" />
         </node>
         <node concept="2cssZD" id="6TEPcwQV2VG" role="2cssWm" />
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="4RoNWgwUbYk">
+    <property role="TrG5h" value="LeftFlagNextToArrayType" />
+    <node concept="3clFbS" id="4RoNWgwUbYl" role="LjaKd">
+      <node concept="2TK7Tu" id="4RoNWgwUbYm" role="3cqZAp">
+        <property role="2TTd_B" value=" " />
+      </node>
+      <node concept="2TK7Tu" id="4RoNWgwUbYn" role="3cqZAp">
+        <property role="2TTd_B" value="static" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="4RoNWgwUbYo" role="25YQCW">
+      <node concept="2cssWn" id="4RoNWgwUbYp" role="1qenE9">
+        <property role="TrG5h" value="m" />
+        <node concept="2cssWt" id="4RoNWgwUbYq" role="2cssWm">
+          <property role="TrG5h" value="f" />
+          <node concept="2cssWo" id="4RoNWgwUbYr" role="2cssWr">
+            <node concept="1kHs8n" id="4RoNWgwUc0J" role="2cssZA">
+              <property role="TrG5h" value="a" />
+              <node concept="2bZTBh" id="4RoNWgwUc10" role="1kHs7J">
+                <node concept="2cvBGp" id="4RoNWgwUc0H" role="2bZTBi">
+                  <node concept="LIFWc" id="4RoNWgwUc1p" role="lGtFl">
+                    <property role="LIFWa" value="0" />
+                    <property role="OXtK3" value="true" />
+                    <property role="p6zMq" value="0" />
+                    <property role="p6zMs" value="0" />
+                    <property role="LIFWd" value="ALIAS_EDITOR_COMPONENT" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="yzEQH" id="4RoNWgwUhT2" role="yzEPe" />
+        </node>
+        <node concept="2cssZD" id="4RoNWgwUbYw" role="2cssWm" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="4RoNWgwUbYx" role="25YQFr">
+      <node concept="2cssWn" id="4RoNWgwUbYy" role="1qenE9">
+        <property role="TrG5h" value="m" />
+        <node concept="2cssWt" id="4RoNWgwUbYz" role="2cssWm">
+          <property role="TrG5h" value="f" />
+          <node concept="2cssWo" id="4RoNWgwUbY$" role="2cssWr">
+            <node concept="1kHs8n" id="4RoNWgwUc1Y" role="2cssZA">
+              <property role="TrG5h" value="a" />
+              <property role="3gViKx" value="true" />
+              <node concept="2bZTBh" id="4RoNWgwUc2w" role="1kHs7J">
+                <node concept="2cvBGp" id="4RoNWgwUc1W" role="2bZTBi" />
+              </node>
+            </node>
+          </node>
+          <node concept="yzEQH" id="4RoNWgwUiZX" role="yzEPe" />
+        </node>
+        <node concept="2cssZD" id="4RoNWgwUbYC" role="2cssWm" />
       </node>
     </node>
   </node>

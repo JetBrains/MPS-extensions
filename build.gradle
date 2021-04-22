@@ -93,7 +93,7 @@ if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch
 
     def buildNumber = System.env.BUILD_NUMBER.toInteger()
-    if (branch.startsWith("maintenance") || branch.startsWith("mps")) {
+    if (branch.matches(/(maintenance|mps)\/\d+(\.\d+)+/)) {
         version = "$major.$minor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
         version = GitBasedVersioning.getVersionWithCount(major, minor, buildNumber)

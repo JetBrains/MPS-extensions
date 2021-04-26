@@ -94,7 +94,7 @@ open class PNodeAdapter(val nodeId: Long, val branch: IBranch) : INode {
     }
 
     override val reference: INodeReference
-        get() = PNodeReference(nodeId)
+        get() = PNodeReference(nodeId, branch.getId())
 
     override fun getReferenceTarget(role: String): INode? {
         notifyAccess()
@@ -163,7 +163,7 @@ open class PNodeAdapter(val nodeId: Long, val branch: IBranch) : INode {
             concept = branch.computeRead { branch.transaction.getConcept(nodeId) }
         } catch (ex: Exception) {
         }
-        var str = "PNode$nodeId"
+        var str = "PNode${nodeId.toString(16)}"
         if (concept != null) {
             str += "[$concept]"
         }

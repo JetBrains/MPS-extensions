@@ -44,6 +44,8 @@ interface IArea {
     fun resolveOriginalNode(ref: INodeReference): INode?
     fun resolveBranch(id: String): IBranch?
     fun collectAreas(): List<IArea>
+    fun getReference(): IAreaReference
+    fun resolveArea(ref: IAreaReference): IArea?
 
     fun <T> executeRead(f: () -> T): T
     fun <T> executeWrite(f: () -> T): T

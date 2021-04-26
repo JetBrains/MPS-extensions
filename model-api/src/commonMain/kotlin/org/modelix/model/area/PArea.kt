@@ -37,7 +37,10 @@ class PArea(val branch: IBranch) : IArea {
     }
 
     override fun resolveOriginalNode(ref: INodeReference): INode? {
-        return if (ref is PNodeReference && containsNode(ref.id)) PNodeAdapter(ref.id, branch) else null
+        return if (ref is PNodeReference &&
+            (ref.branchId == null || branch.getId() == ref.branchId) &&
+            containsNode(ref.id)
+        ) PNodeAdapter(ref.id, branch) else null
     }
 
     override fun resolveBranch(id: String): IBranch? {
@@ -48,9 +51,9 @@ class PArea(val branch: IBranch) : IArea {
 
     fun containsNode(nodeId: Long): Boolean = branch.transaction.containsNode(nodeId)
 
-    override fun <T> executeRead(f: () -> T): T = branch.computeRead(f)
+    override fun <T> executeRead(f: () -> T): T = ContextArea.offer(this) { branch.computeRead(f) }
 
-    override fun <T> executeWrite(f: () -> T): T = branch.computeWrite(f)
+    override fun <T> executeWrite(f: () -> T): T = ContextArea.offer(this) { branch.computeWrite(f) }
 
     override fun canRead(): Boolean = branch.canRead()
 
@@ -78,4 +81,12 @@ class PArea(val branch: IBranch) : IArea {
     override fun hashCode(): Int {
         return branch.hashCode()
     }
+
+    override fun resolveArea(ref: IAreaReference): IArea? {
+        return if (ref is AreaReference && ref.branchId == branch.getId()) this else null
+    }
+
+    override fun getReference() = AreaReference(branch.getId())
+
+    data class AreaReference(val branchId: String?) : IAreaReference
 }

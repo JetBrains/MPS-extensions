@@ -4338,6 +4338,67 @@
               </node>
             </node>
             <node concept="2tJIrI" id="61R9vA5rr7U" role="jymVt" />
+            <node concept="3clFb_" id="7$7_4ZigxBZ" role="jymVt">
+              <property role="TrG5h" value="getReference" />
+              <node concept="3Tm1VV" id="7$7_4ZigxC0" role="1B3o_S" />
+              <node concept="2AHcQZ" id="7$7_4ZigxC2" role="2AJF6D">
+                <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+              </node>
+              <node concept="3uibUv" id="7$7_4ZigxC3" role="3clF45">
+                <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
+              </node>
+              <node concept="3clFbS" id="7$7_4ZigxC5" role="3clF47">
+                <node concept="3clFbF" id="7$7_4ZigXtA" role="3cqZAp">
+                  <node concept="10M0yZ" id="7$7_4ZigX_W" role="3clFbG">
+                    <ref role="3cqZAo" node="7$7_4ZigXjr" resolve="INSTANCE" />
+                    <ref role="1PxDUh" node="7$7_4ZigOGt" resolve="RepositoryMirror.RepositoryMirrorAreaReference" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2AHcQZ" id="7$7_4ZigxC6" role="2AJF6D">
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+              </node>
+            </node>
+            <node concept="2tJIrI" id="7$7_4Zigzdd" role="jymVt" />
+            <node concept="3clFb_" id="7$7_4ZigxC9" role="jymVt">
+              <property role="TrG5h" value="resolveArea" />
+              <node concept="3Tm1VV" id="7$7_4ZigxCa" role="1B3o_S" />
+              <node concept="2AHcQZ" id="7$7_4ZigxCc" role="2AJF6D">
+                <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+              </node>
+              <node concept="3uibUv" id="7$7_4ZigxCd" role="3clF45">
+                <ref role="3uigEE" to="qvpu:~IArea" resolve="IArea" />
+              </node>
+              <node concept="37vLTG" id="7$7_4ZigxCe" role="3clF46">
+                <property role="TrG5h" value="reference" />
+                <node concept="3uibUv" id="7$7_4ZigxCf" role="1tU5fm">
+                  <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
+                </node>
+                <node concept="2AHcQZ" id="7$7_4ZigxCg" role="2AJF6D">
+                  <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="7$7_4ZigxCi" role="3clF47">
+                <node concept="3clFbF" id="7$7_4ZigXNo" role="3cqZAp">
+                  <node concept="3K4zz7" id="7$7_4ZigYNl" role="3clFbG">
+                    <node concept="Xjq3P" id="7$7_4ZigZ3l" role="3K4E3e" />
+                    <node concept="10Nm6u" id="7$7_4ZigZ5a" role="3K4GZi" />
+                    <node concept="17R0WA" id="7$7_4ZigY80" role="3K4Cdx">
+                      <node concept="1rXfSq" id="7$7_4ZigYrU" role="3uHU7w">
+                        <ref role="37wK5l" node="7$7_4ZigxBZ" resolve="getReference" />
+                      </node>
+                      <node concept="37vLTw" id="7$7_4ZigXNn" role="3uHU7B">
+                        <ref role="3cqZAo" node="7$7_4ZigxCe" resolve="reference" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2AHcQZ" id="7$7_4ZigxCj" role="2AJF6D">
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+              </node>
+            </node>
+            <node concept="2tJIrI" id="7$7_4ZigzRn" role="jymVt" />
             <node concept="3clFb_" id="61R9vA5rr7V" role="jymVt">
               <property role="TrG5h" value="resolveOriginalNode" />
               <node concept="3Tm1VV" id="61R9vA5rr7W" role="1B3o_S" />
@@ -5877,6 +5938,32 @@
         <ref role="3uigEE" to="mhbf:~SNodeReference" resolve="SNodeReference" />
       </node>
       <node concept="3Tm1VV" id="78D6RWLfY1I" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="7$7_4Zig$DV" role="jymVt" />
+    <node concept="312cEu" id="7$7_4ZigOGt" role="jymVt">
+      <property role="TrG5h" value="RepositoryMirrorAreaReference" />
+      <node concept="Wx3nA" id="7$7_4ZigXjr" role="jymVt">
+        <property role="TrG5h" value="INSTANCE" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="7$7_4ZigWlb" role="1tU5fm">
+          <ref role="3uigEE" node="7$7_4ZigOGt" resolve="RepositoryMirror.RepositoryMirrorAreaReference" />
+        </node>
+        <node concept="3Tm6S6" id="7$7_4ZigWcv" role="1B3o_S" />
+        <node concept="2ShNRf" id="7$7_4ZigWuG" role="33vP2m">
+          <node concept="1pGfFk" id="7$7_4ZigXaz" role="2ShVmc">
+            <ref role="37wK5l" node="7$7_4ZigX26" resolve="RepositoryMirror.RepositoryMirrorAreaReference" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbW" id="7$7_4ZigX26" role="jymVt">
+        <node concept="3cqZAl" id="7$7_4ZigX28" role="3clF45" />
+        <node concept="3Tm6S6" id="7$7_4ZigXiP" role="1B3o_S" />
+        <node concept="3clFbS" id="7$7_4ZigX2a" role="3clF47" />
+      </node>
+      <node concept="3Tm1VV" id="7$7_4ZigOGu" role="1B3o_S" />
+      <node concept="3uibUv" id="7$7_4ZigUJg" role="EKbjA">
+        <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="7FcLFF49SYZ">

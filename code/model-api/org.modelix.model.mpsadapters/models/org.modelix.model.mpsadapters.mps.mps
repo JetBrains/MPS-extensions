@@ -13930,6 +13930,62 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7cdb92Lw7qc" role="jymVt" />
+    <node concept="3clFb_" id="7$7_4Zifgqt" role="jymVt">
+      <property role="TrG5h" value="getReference" />
+      <node concept="3Tm1VV" id="7$7_4Zifgqu" role="1B3o_S" />
+      <node concept="2AHcQZ" id="7$7_4Zifgqw" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="7$7_4Zifgqx" role="3clF45">
+        <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
+      </node>
+      <node concept="3clFbS" id="7$7_4Zifgqy" role="3clF47">
+        <node concept="3clFbF" id="7$7_4Zifmzl" role="3cqZAp">
+          <node concept="Xjq3P" id="7$7_4Zifmzk" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7$7_4Zifgqz" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7$7_4ZifimD" role="jymVt" />
+    <node concept="3clFb_" id="7$7_4ZifgqA" role="jymVt">
+      <property role="TrG5h" value="resolveArea" />
+      <node concept="3Tm1VV" id="7$7_4ZifgqB" role="1B3o_S" />
+      <node concept="2AHcQZ" id="7$7_4ZifgqD" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3uibUv" id="7$7_4ZifgqE" role="3clF45">
+        <ref role="3uigEE" to="qvpu:~IArea" resolve="IArea" />
+      </node>
+      <node concept="37vLTG" id="7$7_4ZifgqF" role="3clF46">
+        <property role="TrG5h" value="reference" />
+        <node concept="3uibUv" id="7$7_4ZifgqG" role="1tU5fm">
+          <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
+        </node>
+        <node concept="2AHcQZ" id="7$7_4ZifgqH" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7$7_4ZifgqI" role="3clF47">
+        <node concept="3clFbF" id="7$7_4ZifmFU" role="3cqZAp">
+          <node concept="3K4zz7" id="7$7_4ZifnFo" role="3clFbG">
+            <node concept="Xjq3P" id="7$7_4Zifo0y" role="3K4E3e" />
+            <node concept="10Nm6u" id="7$7_4Zifo30" role="3K4GZi" />
+            <node concept="17R0WA" id="7$7_4Zifn7F" role="3K4Cdx">
+              <node concept="Xjq3P" id="7$7_4Zifnw5" role="3uHU7w" />
+              <node concept="37vLTw" id="7$7_4ZifmFT" role="3uHU7B">
+                <ref role="3cqZAo" node="7$7_4ZifgqF" resolve="reference" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7$7_4ZifgqJ" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7$7_4Zifjfh" role="jymVt" />
     <node concept="3clFb_" id="4ObTH$HZW39" role="jymVt">
       <property role="TrG5h" value="getRepository" />
       <node concept="3uibUv" id="4ObTH$HZWEK" role="3clF45">
@@ -14273,6 +14329,9 @@
     <node concept="3Tm1VV" id="7cdb92Lw0s7" role="1B3o_S" />
     <node concept="3uibUv" id="7cdb92Lw0t0" role="EKbjA">
       <ref role="3uigEE" to="qvpu:~IArea" resolve="IArea" />
+    </node>
+    <node concept="3uibUv" id="7$7_4ZiflAW" role="EKbjA">
+      <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
     </node>
     <node concept="3clFb_" id="mqppAKMElD" role="jymVt">
       <property role="TrG5h" value="resolveOriginalNode" />

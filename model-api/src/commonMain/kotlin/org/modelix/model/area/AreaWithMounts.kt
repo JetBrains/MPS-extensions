@@ -80,11 +80,11 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
     private fun getAllAreas() = listOf(rootArea) + mounts.values
 
     override fun <T> executeRead(f: () -> T): T {
-        return getAllAreas().fold(f) { f2: () -> T, a: IArea -> { a.executeRead(f2) } }()
+        return ContextArea.offer(this) { getAllAreas().fold(f) { f2: () -> T, a: IArea -> { a.executeRead(f2) } }() }
     }
 
     override fun <T> executeWrite(f: () -> T): T {
-        return getAllAreas().fold(f) { f2: () -> T, a: IArea -> { a.executeWrite(f2) } }()
+        return ContextArea.offer(this) { getAllAreas().fold(f) { f2: () -> T, a: IArea -> { a.executeWrite(f2) } }() }
     }
 
     override fun canRead(): Boolean = getAllAreas().all { it.canRead() }
@@ -120,6 +120,25 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
         result = 31 * result + mounts.hashCode()
         return result
     }
+
+    override fun getReference(): IAreaReference {
+        return AreaReference(rootArea.getReference(), mounts.keys.map { it.reference }, mounts.values.map { it.getReference() })
+    }
+
+    override fun resolveArea(ref: IAreaReference): IArea? {
+        if (getReference() == ref) return this
+        for (area in listOf(rootArea) + mounts.values) {
+            val resolved = area.resolveArea(ref)
+            if (resolved != null) return resolved
+        }
+        return null
+    }
+
+    data class AreaReference(
+        val rootArea: IAreaReference,
+        val mountKeys: List<INodeReference>,
+        val mountValues: List<IAreaReference>
+    ) : IAreaReference
 
     inner class NodeWrapper(val node: INode) : INode, INodeWrapper {
         override fun getWrappedNode(): INode = node

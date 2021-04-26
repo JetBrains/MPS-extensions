@@ -46,9 +46,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -454,11 +451,10 @@
         <ref role="3uigEE" to="qvpu:~IArea" resolve="IArea" />
       </node>
       <node concept="3clFbS" id="61R9vA3UNrW" role="3clF47">
-        <node concept="3clFbF" id="61R9vA3UP7F" role="3cqZAp">
-          <node concept="2ShNRf" id="61R9vA3UP7_" role="3clFbG">
-            <node concept="HV5vD" id="61R9vA3UPhk" role="2ShVmc">
-              <ref role="HV5vE" node="61R9vA3UL8Q" resolve="SM_SimpleArea" />
-            </node>
+        <node concept="3clFbF" id="7$7_4ZilyM0" role="3cqZAp">
+          <node concept="10M0yZ" id="7$7_4ZilyN5" role="3clFbG">
+            <ref role="3cqZAo" node="7$7_4ZilwMv" resolve="INSTANCE" />
+            <ref role="1PxDUh" node="61R9vA3UL8Q" resolve="SM_SimpleArea" />
           </node>
         </node>
       </node>
@@ -1934,6 +1930,42 @@
   </node>
   <node concept="312cEu" id="61R9vA3UL8Q">
     <property role="TrG5h" value="SM_SimpleArea" />
+    <node concept="Wx3nA" id="7$7_4ZilwMv" role="jymVt">
+      <property role="TrG5h" value="INSTANCE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="7$7_4ZilwiH" role="1tU5fm">
+        <ref role="3uigEE" node="61R9vA3UL8Q" resolve="SM_SimpleArea" />
+      </node>
+      <node concept="3Tm1VV" id="7$7_4ZilwGq" role="1B3o_S" />
+      <node concept="2ShNRf" id="7$7_4Zilwyi" role="33vP2m">
+        <node concept="1pGfFk" id="7$7_4Zilwyb" role="2ShVmc">
+          <ref role="37wK5l" node="7$7_4Zilvhw" resolve="SM_SimpleArea" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="7$7_4Zilvhw" role="jymVt">
+      <node concept="3cqZAl" id="7$7_4Zilvhy" role="3clF45" />
+      <node concept="3Tm6S6" id="7$7_4ZilvVE" role="1B3o_S" />
+      <node concept="3clFbS" id="7$7_4Zilvh$" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7$7_4Zilx60" role="jymVt">
+      <property role="TrG5h" value="getReference" />
+      <node concept="3Tm1VV" id="7$7_4Zilx61" role="1B3o_S" />
+      <node concept="2AHcQZ" id="7$7_4Zilx63" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="7$7_4Zilx64" role="3clF45">
+        <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
+      </node>
+      <node concept="3clFbS" id="7$7_4Zilx67" role="3clF47">
+        <node concept="3clFbF" id="7$7_4ZilxXm" role="3cqZAp">
+          <node concept="Xjq3P" id="7$7_4ZilxXl" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7$7_4Zilx68" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="61R9vA3UL8R" role="1B3o_S" />
     <node concept="3uibUv" id="61R9vA3UL9A" role="1zkMxy">
       <ref role="3uigEE" to="qvpu:~AbstractArea" resolve="AbstractArea" />
@@ -2010,6 +2042,9 @@
       <node concept="2AHcQZ" id="61R9vA3ULa9" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+    </node>
+    <node concept="3uibUv" id="7$7_4ZiluJg" role="EKbjA">
+      <ref role="3uigEE" to="qvpu:~IAreaReference" resolve="IAreaReference" />
     </node>
   </node>
 </model>

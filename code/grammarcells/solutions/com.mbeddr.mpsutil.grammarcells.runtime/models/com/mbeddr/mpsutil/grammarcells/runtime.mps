@@ -2378,8 +2378,8 @@
         </node>
         <node concept="3clFbF" id="6rVC5beYLyY" role="3cqZAp">
           <node concept="2YIFZM" id="6rVC5beYM5j" role="3clFbG">
-            <ref role="37wK5l" to="ykok:~ModelConstraints.validatePropertyValue(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,java.lang.Object,jetbrains.mps.smodel.runtime.CheckingNodeContext)" resolve="validatePropertyValue" />
             <ref role="1Pybhc" to="ykok:~ModelConstraints" resolve="ModelConstraints" />
+            <ref role="37wK5l" to="ykok:~ModelConstraints.validatePropertyValue(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,java.lang.Object,jetbrains.mps.smodel.runtime.CheckingNodeContext)" resolve="validatePropertyValue" />
             <node concept="37vLTw" id="6rVC5beYSXu" role="37wK5m">
               <ref role="3cqZAo" node="4qdNcH$28X0" resolve="dummyNode" />
             </node>
@@ -2848,7 +2848,9 @@
         <node concept="3clFbJ" id="1iGw5CbiBpQ" role="3cqZAp">
           <node concept="3clFbS" id="1iGw5CbiBpS" role="3clFbx">
             <node concept="3cpWs6" id="1iGw5CbiKKi" role="3cqZAp">
-              <node concept="3clFbT" id="1iGw5CbiKNb" role="3cqZAk" />
+              <node concept="3clFbT" id="1iGw5CbiKNb" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
             </node>
           </node>
           <node concept="3fqX7Q" id="1iGw5CbiCF3" role="3clFbw">
@@ -27204,42 +27206,6 @@
               <node concept="3clFbS" id="5_y0OhSvqNQ" role="3clF47">
                 <node concept="3clFbF" id="5_y0OhSw00x" role="3cqZAp">
                   <node concept="1rXfSq" id="5_y0OhSw00w" role="3clFbG">
-                    <ref role="37wK5l" node="5_y0OhSvwr_" resolve="invalidate" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFb_" id="5_y0OhSvqNS" role="jymVt">
-              <property role="1EzhhJ" value="false" />
-              <property role="TrG5h" value="beforeModelFileChanged" />
-              <property role="DiZV1" value="false" />
-              <property role="od$2w" value="false" />
-              <node concept="3Tm1VV" id="5_y0OhSvqNT" role="1B3o_S" />
-              <node concept="3cqZAl" id="5_y0OhSvqNV" role="3clF45" />
-              <node concept="37vLTG" id="5_y0OhSvqNW" role="3clF46">
-                <property role="TrG5h" value="p0" />
-                <node concept="3uibUv" id="5_y0OhSvqNX" role="1tU5fm">
-                  <ref role="3uigEE" to="j9co:~SModelFileChangedEvent" resolve="SModelFileChangedEvent" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="5_y0OhSvqNY" role="3clF47" />
-            </node>
-            <node concept="3clFb_" id="5_y0OhSvqO0" role="jymVt">
-              <property role="1EzhhJ" value="false" />
-              <property role="TrG5h" value="modelFileChanged" />
-              <property role="DiZV1" value="false" />
-              <property role="od$2w" value="false" />
-              <node concept="3Tm1VV" id="5_y0OhSvqO1" role="1B3o_S" />
-              <node concept="3cqZAl" id="5_y0OhSvqO3" role="3clF45" />
-              <node concept="37vLTG" id="5_y0OhSvqO4" role="3clF46">
-                <property role="TrG5h" value="p0" />
-                <node concept="3uibUv" id="5_y0OhSvqO5" role="1tU5fm">
-                  <ref role="3uigEE" to="j9co:~SModelFileChangedEvent" resolve="SModelFileChangedEvent" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="5_y0OhSvqO6" role="3clF47">
-                <node concept="3clFbF" id="5_y0OhSw03Q" role="3cqZAp">
-                  <node concept="1rXfSq" id="5_y0OhSw03P" role="3clFbG">
                     <ref role="37wK5l" node="5_y0OhSvwr_" resolve="invalidate" />
                   </node>
                 </node>

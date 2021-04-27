@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:97875f9c-321e-405e-a344-6d3deab2bdba(de.q60.mps.shadowmodels.runtime.smodel)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
@@ -60,9 +59,9 @@
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="ztoz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.model(MPS.Core/)" />
     <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
-    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="v18h" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin(org.modelix.model.api/)" />
     <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
+    <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" implicit="true" />
@@ -21287,24 +21286,6 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="3Ezg1fMG3U8" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="beforeModelFileChanged" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="3Ezg1fMG3U9" role="1B3o_S" />
-      <node concept="3cqZAl" id="3Ezg1fMG3Ub" role="3clF45" />
-      <node concept="37vLTG" id="3Ezg1fMG3Uc" role="3clF46">
-        <property role="TrG5h" value="event" />
-        <node concept="3uibUv" id="3Ezg1fMG3Ud" role="1tU5fm">
-          <ref role="3uigEE" to="j9co:~SModelFileChangedEvent" resolve="SModelFileChangedEvent" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="3Ezg1fMG3Ue" role="3clF47" />
-      <node concept="2AHcQZ" id="3Ezg1fMG3Uf" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
     <node concept="3clFb_" id="3Ezg1fMG3Ug" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="beforeModelRenamed" />
@@ -21580,24 +21561,6 @@
       </node>
       <node concept="3clFbS" id="3Ezg1fMG3VB" role="3clF47" />
       <node concept="2AHcQZ" id="3Ezg1fMG3VC" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="3Ezg1fMG3VD" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="modelFileChanged" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="3Ezg1fMG3VE" role="1B3o_S" />
-      <node concept="3cqZAl" id="3Ezg1fMG3VG" role="3clF45" />
-      <node concept="37vLTG" id="3Ezg1fMG3VH" role="3clF46">
-        <property role="TrG5h" value="event" />
-        <node concept="3uibUv" id="3Ezg1fMG3VI" role="1tU5fm">
-          <ref role="3uigEE" to="j9co:~SModelFileChangedEvent" resolve="SModelFileChangedEvent" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="3Ezg1fMG3VJ" role="3clF47" />
-      <node concept="2AHcQZ" id="3Ezg1fMG3VK" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

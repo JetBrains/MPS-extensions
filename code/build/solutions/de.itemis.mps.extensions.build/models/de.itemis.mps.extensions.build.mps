@@ -162,6 +162,7 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
+        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -901,6 +902,69 @@
             </node>
             <node concept="3qWCbU" id="2eucapX07Gh" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="m$_wf" id="3$A0JaN5ezp" role="3989C9">
+      <property role="m$_wk" value="de.itemis.mps.extensions.jackson" />
+      <node concept="m$_yC" id="3$A0JaN5i4q" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="3$A0JaN5ijM" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
+      <node concept="3_J27D" id="3$A0JaN5ezr" role="m$_yQ">
+        <node concept="3Mxwew" id="3$A0JaN5gnC" role="3MwsjC">
+          <property role="3MwjfP" value="Stubs for Jackson Library in MPS" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3$A0JaN5ezt" role="m_cZH">
+        <node concept="3Mxwew" id="3$A0JaN5gnE" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.extensions.jackson" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3$A0JaN5ezv" role="m$_w8">
+        <node concept="3Mxwew" id="3$A0JaN5gB2" role="3MwsjC">
+          <property role="3MwjfP" value="2.10.2" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="3$A0JaN5gvl" role="3s6cr7">
+        <node concept="3Mxwew" id="3$A0JaN5gvn" role="3MwsjC">
+          <property role="3MwjfP" value="JARs and stubs for using Jackson Json Serialization." />
+        </node>
+      </node>
+      <node concept="m$f5U" id="HjfIy1w$SM" role="m$_yh">
+        <ref role="m$f5T" node="3$A0JaN5ae8" resolve="jackson" />
+      </node>
+      <node concept="2pNNFK" id="3$A0JaN5irv" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="3$A0JaN5j1I" role="3o6s8t">
+          <property role="3o6i5n" value="JARs and Stubs for using Jackson Json Serialization" />
+        </node>
+      </node>
+      <node concept="2iUeEo" id="3$A0JaN5j9p" role="2iVFfd">
+        <property role="2iUeEu" value="https://github.com/FasterXML/jackson" />
+        <property role="2iUeEt" value="Jackson Project" />
+      </node>
+    </node>
+    <node concept="2G$12M" id="3$A0JaN5ae8" role="3989C9">
+      <property role="TrG5h" value="jackson" />
+      <node concept="1E1JtA" id="3$A0JaN5bpX" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.fasterxml.jackson" />
+        <property role="3LESm3" value="39983771-4e9b-401b-a1a9-1da6c777c843" />
+        <property role="2GAjPV" value="true" />
+        <node concept="398BVA" id="3$A0JaN5bwY" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="3$A0JaN5chM" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="3$A0JaN5cvL" role="2Ry0An">
+              <property role="2Ry0Am" value="com.fasterxml.jackson" />
+              <node concept="2Ry0Ak" id="3$A0JaN5cHK" role="2Ry0An">
+                <property role="2Ry0Am" value="com.fasterxml.jackson.msd" />
+              </node>
             </node>
           </node>
         </node>
@@ -8373,9 +8437,6 @@
       <node concept="m$_yC" id="2OJNL7Em1P5" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
       </node>
-      <node concept="m$_yC" id="5U8hsWC7jgn" role="m$_yJ">
-        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
-      </node>
       <node concept="2pNNFK" id="v49lXF871_" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF878$" role="3o6s8t">
@@ -8390,6 +8451,9 @@
         <node concept="3Mxwew" id="2QgPOUCDi4e" role="3MwsjC">
           <property role="3MwjfP" value="A shadow model is a non-editable model derived from existing models by model-to-model transformations. It is incrementally maintained while editing the input model. Transformations are described in a special language designed to support incremental updates of the output model. Dynamic dependency tracking is used during the executing of the transformations which removes the need for a declarative language. BaseLanguage expressions with all its extensions are supported inside the transformation rules. The transformation language is similar to the MPS generator language. It has transformation rules with a left side that describes the input it applies to and a right side that creates the output. The right side is similar to light quotations instead of using the concrete syntax of the target language. " />
         </node>
+      </node>
+      <node concept="m$_yC" id="5U8hsWC7jgn" role="m$_yJ">
+        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
       </node>
     </node>
     <node concept="m$_wf" id="2OJNL7ElZsF" role="3989C9">
@@ -8439,9 +8503,6 @@
       <node concept="m$_yC" id="BRK1N8p1FS" role="m$_yJ">
         <ref role="m$_y1" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
       </node>
-      <node concept="m$_yC" id="5U8hsWC7iqY" role="m$_yJ">
-        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
-      </node>
       <node concept="2pNNFK" id="v49lXF880k" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF887j" role="3o6s8t">
@@ -8456,6 +8517,9 @@
         <node concept="3Mxwew" id="v49lXF87Tl" role="3MwsjC">
           <property role="3MwjfP" value="Set of examples for the de.q60.shadowmodels plugin" />
         </node>
+      </node>
+      <node concept="m$_yC" id="5U8hsWC7iqY" role="m$_yJ">
+        <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
       </node>
     </node>
     <node concept="2G$12M" id="4iIKqJTZ5I7" role="3989C9">
@@ -13799,6 +13863,15 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="5Ngh5kRcxhz" role="1l3spd">
+      <property role="TrG5h" value="platform_lib" />
+      <node concept="398BVA" id="5Ngh5kRcxOK" role="398pKh">
+        <ref role="398BVh" node="2Xjt3l56m0Y" resolve="mps.home" />
+        <node concept="2Ry0Ak" id="5Ngh5kRcxVK" role="iGT6I">
+          <property role="2Ry0Am" value="lib" />
+        </node>
+      </node>
+    </node>
     <node concept="2kB4xC" id="4MKCCgA1ncQ" role="1l3spd">
       <property role="TrG5h" value="versionNumber" />
       <node concept="aVJcg" id="4MKCCgA1nGo" role="aVJcv">
@@ -13966,6 +14039,10 @@
           </node>
         </node>
         <node concept="pUk6x" id="3D0nl1ssJJI" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="3$A0JaN5jDN" role="39821P">
+        <ref role="m_rDy" node="3$A0JaN5ezp" resolve="de.itemis.mps.extensions.jackson" />
+        <node concept="pUk6x" id="3$A0JaN5jUX" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="4be$WTb1O3_" role="39821P">
         <ref role="m_rDy" node="4be$WTb1MZD" resolve="de.itemis.mps.editor.diagram" />

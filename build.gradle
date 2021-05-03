@@ -126,15 +126,10 @@ ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRe
 
 configurations {
     mps
-    jackson
 }
 
 dependencies {
     mps "com.jetbrains:mps:$mpsVersion"
-    jackson 'com.fasterxml.jackson.core:jackson-core:2.12.3'
-    jackson 'com.fasterxml.jackson.core:jackson-annotations:2.12.3'
-    jackson 'com.fasterxml.jackson.core:jackson-databind:2.12.3'
-    jackson 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.12.3'
 }
 
 repositories {
@@ -203,18 +198,6 @@ ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
 
 
-task resolveDeps () {//Assembles all libs which are fetched from some nexus
-    task resolveJackson(type: Copy) {
-        dependsOn configurations.jackson
-        from {
-            configurations.jackson.resolve().collect {  it }
-        }
-        into "$projectDir/code/solutions/com.fasterxml.jackson/lib"
-    }
-    
-    dependsOn resolveJackson
-}
-
 task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]) {
     script "$rootDir/scripts/build.xml"
 }
@@ -247,7 +230,6 @@ task install(dependsOn: install_nativelibs) {
         }
     }
 }
-
 
 //
 

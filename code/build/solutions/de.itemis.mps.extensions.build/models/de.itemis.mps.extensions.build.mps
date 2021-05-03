@@ -36,9 +36,6 @@
     </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
       <concept id="5481553824944787378" name="jetbrains.mps.build.structure.BuildSourceProjectRelativePath" flags="ng" index="55IIr" />
-      <concept id="9126048691955220717" name="jetbrains.mps.build.structure.BuildLayout_File" flags="ng" index="28jJK3">
-        <child id="9126048691955220762" name="path" index="28jJRO" />
-      </concept>
       <concept id="2755237150521975431" name="jetbrains.mps.build.structure.BuildVariableMacroInitWithString" flags="ng" index="aVJcg">
         <child id="2755237150521975437" name="value" index="aVJcq" />
       </concept>
@@ -911,7 +908,7 @@
       </node>
     </node>
     <node concept="m$_wf" id="3$A0JaN5ezp" role="3989C9">
-      <property role="m$_wk" value="com.fasterxml.jackson" />
+      <property role="m$_wk" value="de.itemis.mps.extensions.jackson" />
       <node concept="m$_yC" id="3$A0JaN5i4q" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
@@ -920,12 +917,12 @@
       </node>
       <node concept="3_J27D" id="3$A0JaN5ezr" role="m$_yQ">
         <node concept="3Mxwew" id="3$A0JaN5gnC" role="3MwsjC">
-          <property role="3MwjfP" value="Jackson Linrary" />
+          <property role="3MwjfP" value="Stubs for Jackson Library in MPS" />
         </node>
       </node>
       <node concept="3_J27D" id="3$A0JaN5ezt" role="m_cZH">
         <node concept="3Mxwew" id="3$A0JaN5gnE" role="3MwsjC">
-          <property role="3MwjfP" value="jackson" />
+          <property role="3MwjfP" value="de.itemis.mps.extensions.jackson" />
         </node>
       </node>
       <node concept="3_J27D" id="3$A0JaN5ezv" role="m$_w8">
@@ -938,9 +935,6 @@
           <property role="3MwjfP" value="JARs and stubs for using Jackson Json Serialization." />
         </node>
       </node>
-      <node concept="m$_yB" id="3$A0JaN5gIH" role="m$_yh">
-        <ref role="m$_yA" node="3$A0JaN5bpX" resolve="com.fasterxml.jackson" />
-      </node>
       <node concept="2pNNFK" id="3$A0JaN5irv" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="3$A0JaN5j1I" role="3o6s8t">
@@ -950,6 +944,9 @@
       <node concept="2iUeEo" id="3$A0JaN5j9p" role="2iVFfd">
         <property role="2iUeEu" value="https://github.com/FasterXML/jackson" />
         <property role="2iUeEt" value="Jackson Project" />
+      </node>
+      <node concept="m$f5U" id="HjfIy1w$SM" role="m$_yh">
+        <ref role="m$f5T" node="3$A0JaN5ae8" resolve="jackson" />
       </node>
     </node>
     <node concept="2G$12M" id="3$A0JaN5ae8" role="3989C9">
@@ -14053,39 +14050,8 @@
         <node concept="pUk6x" id="3D0nl1ssJJI" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="3$A0JaN5jDN" role="39821P">
-        <ref role="m_rDy" node="3$A0JaN5ezp" resolve="com.fasterxml.jackson" />
+        <ref role="m_rDy" node="3$A0JaN5ezp" resolve="de.itemis.mps.extensions.jackson" />
         <node concept="pUk6x" id="3$A0JaN5jUX" role="pUk7w" />
-        <node concept="398223" id="3$A0JaN5k2D" role="39821P">
-          <node concept="3_J27D" id="3$A0JaN5k2E" role="Nbhlr">
-            <node concept="3Mxwew" id="3$A0JaN5kam" role="3MwsjC">
-              <property role="3MwjfP" value="lib" />
-            </node>
-          </node>
-          <node concept="28jJK3" id="5Ngh5kRmtmW" role="39821P">
-            <node concept="398BVA" id="5Ngh5kRmtu3" role="28jJRO">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="5Ngh5kRmt_4" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-annotations-2.10.2.jar" />
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5Ngh5kRmtNe" role="39821P">
-            <node concept="398BVA" id="5Ngh5kRmtUm" role="28jJRO">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="5Ngh5kRmu1n" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-core-2.10.2.jar" />
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="5Ngh5kRmu8u" role="39821P">
-            <node concept="398BVA" id="5Ngh5kRmufB" role="28jJRO">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="5Ngh5kRmumC" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-databind-2.10.2.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="m$_wl" id="4be$WTb1O3_" role="39821P">
         <ref role="m_rDy" node="4be$WTb1MZD" resolve="de.itemis.mps.editor.diagram" />

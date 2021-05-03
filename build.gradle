@@ -215,7 +215,7 @@ task resolveDeps () {//Assembles all libs which are fetched from some nexus
     dependsOn resolveJackson
 }
 
-task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveDeps]) {
+task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps]) {
     script "$rootDir/scripts/build.xml"
 }
 

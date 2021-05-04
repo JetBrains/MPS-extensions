@@ -6,8 +6,8 @@
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -7321,6 +7321,16 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3Tm1VV" id="JPngvNsQE6" role="1B3o_S" />
+    <node concept="3uibUv" id="JPngvNsQNf" role="EKbjA">
+      <ref role="3uigEE" to="xggr:ZjQ6tpoGLj" resolve="ILayoutable" />
+    </node>
+    <node concept="3uibUv" id="3bNiYZ6RSYQ" role="EKbjA">
+      <ref role="3uigEE" node="3bNiYZ6RRTc" resolve="IEditorCellBasedLayoutable" />
+    </node>
+    <node concept="3uibUv" id="7lS0O5061om" role="1zkMxy">
+      <ref role="3uigEE" to="xggr:7lS0O505Xox" resolve="AbstractLayoutable" />
+    </node>
     <node concept="2tJIrI" id="6g_o1CPiQKY" role="jymVt" />
     <node concept="3clFb_" id="6g_o1CPiNLr" role="jymVt">
       <property role="TrG5h" value="cellAndDescendantsWereMoved" />
@@ -7338,16 +7348,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="3Tm1VV" id="JPngvNsQE6" role="1B3o_S" />
-    <node concept="3uibUv" id="JPngvNsQNf" role="EKbjA">
-      <ref role="3uigEE" to="xggr:ZjQ6tpoGLj" resolve="ILayoutable" />
-    </node>
-    <node concept="3uibUv" id="3bNiYZ6RSYQ" role="EKbjA">
-      <ref role="3uigEE" node="3bNiYZ6RRTc" resolve="IEditorCellBasedLayoutable" />
-    </node>
-    <node concept="3uibUv" id="7lS0O5061om" role="1zkMxy">
-      <ref role="3uigEE" to="xggr:7lS0O505Xox" resolve="AbstractLayoutable" />
     </node>
   </node>
   <node concept="312cEu" id="JPngvNuatB">
@@ -8237,6 +8237,9 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="37vLTw" id="3IzYpDNLbGR" role="3clFbw">
+                      <ref role="3cqZAo" node="3IzYpDNL5Zr" resolve="sizeChanged" />
+                    </node>
                     <node concept="3eNFk2" id="3IzYpDNKKB0" role="3eNLev">
                       <node concept="37vLTw" id="3IzYpDNLbOK" role="3eO9$A">
                         <ref role="3cqZAo" node="3IzYpDNL3EF" resolve="positionChanged" />
@@ -8290,9 +8293,6 @@
                           </node>
                         </node>
                       </node>
-                    </node>
-                    <node concept="37vLTw" id="3IzYpDNLbGR" role="3clFbw">
-                      <ref role="3cqZAo" node="3IzYpDNL5Zr" resolve="sizeChanged" />
                     </node>
                   </node>
                 </node>

@@ -30,7 +30,7 @@ See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of
 
 ## Documentation
 
-For more information on the individual extensions, see our [documentation](https://jetbrains.github.com/MPS-extensions).
+For more information on the individual extensions, see our [documentation](https://jetbrains.github.io/MPS-extensions).
 
 The source of the documentation is located in the `docs` folder of this repository, in case you would like to contribute to it.
 

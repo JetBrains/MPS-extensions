@@ -14,6 +14,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -42,7 +43,7 @@
   </registry>
   <node concept="1TIwiD" id="3QRrWZ6ZVtR">
     <property role="EcuMT" value="4447146095239214967" />
-    <property role="TrG5h" value="A" />
+    <property role="TrG5h" value="Root" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3QRrWZ6ZVtS" role="PzmwI">
@@ -53,7 +54,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="bs" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3QRrWZ6ZVua" resolve="B" />
+      <ref role="20lvS9" node="3QRrWZ6ZVua" resolve="Child" />
     </node>
     <node concept="1TJgyi" id="63uC6nQP4F1" role="1TKVEl">
       <property role="IQ2nx" value="6980192832264096449" />
@@ -63,7 +64,7 @@
   </node>
   <node concept="1TIwiD" id="3QRrWZ6ZVua">
     <property role="EcuMT" value="4447146095239214986" />
-    <property role="TrG5h" value="B" />
+    <property role="TrG5h" value="Child" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3QRrWZ6ZVub" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -72,6 +73,23 @@
       <property role="IQ2nx" value="6980192832264096451" />
       <property role="TrG5h" value="bproperty" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5UvZVbcWfFc">
+    <property role="EcuMT" value="6818449504269826764" />
+    <property role="TrG5h" value="Base" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="PlHQZ" id="5UvZVbcWfFe">
+    <property role="EcuMT" value="6818449504269826766" />
+    <property role="TrG5h" value="Interface" />
+  </node>
+  <node concept="1TIwiD" id="5UvZVbcWfFf">
+    <property role="EcuMT" value="6818449504269826767" />
+    <property role="TrG5h" value="Concept" />
+    <ref role="1TJDcQ" node="5UvZVbcWfFc" resolve="Base" />
+    <node concept="PrWs8" id="5UvZVbcWfFg" role="PzmwI">
+      <ref role="PrY4T" node="5UvZVbcWfFe" resolve="Interface" />
     </node>
   </node>
 </model>

@@ -1513,6 +1513,91 @@
                 <ref role="3cqZAo" node="4LYtwgrP62" resolve="conceptsBoxes" />
               </node>
               <node concept="3clFbS" id="4LYtwgreQ8" role="2LFqv$">
+                <node concept="3SKdUt" id="5UvZVbcV8mr" role="3cqZAp">
+                  <node concept="1PaTwC" id="5UvZVbcV8ms" role="1aUNEU">
+                    <node concept="3oM_SD" id="5UvZVbcV8L9" role="1PaTwD">
+                      <property role="3oM_SC" value="A" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8Lj" role="1PaTwD">
+                      <property role="3oM_SC" value="custom" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8Lm" role="1PaTwD">
+                      <property role="3oM_SC" value="&quot;spot&quot;" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8Lq" role="1PaTwD">
+                      <property role="3oM_SC" value="is" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8LO" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8LU" role="1PaTwD">
+                      <property role="3oM_SC" value="circular" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8Mx" role="1PaTwD">
+                      <property role="3oM_SC" value="symbol" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8MD" role="1PaTwD">
+                      <property role="3oM_SC" value="rendered" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8MU" role="1PaTwD">
+                      <property role="3oM_SC" value="in" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8N4" role="1PaTwD">
+                      <property role="3oM_SC" value="plantUML" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8NB" role="1PaTwD">
+                      <property role="3oM_SC" value="in" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8NV" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8OH" role="1PaTwD">
+                      <property role="3oM_SC" value="top-left" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8Pb" role="1PaTwD">
+                      <property role="3oM_SC" value="corner" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8Py" role="1PaTwD">
+                      <property role="3oM_SC" value="of" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8PM" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="5UvZVbcV8Q3" role="1PaTwD">
+                      <property role="3oM_SC" value="box" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="5UvZVbcV73G" role="3cqZAp">
+                  <node concept="3cpWsn" id="5UvZVbcV73J" role="3cpWs9">
+                    <property role="TrG5h" value="customSpot" />
+                    <node concept="17QB3L" id="5UvZVbcV73E" role="1tU5fm" />
+                    <node concept="Xl_RD" id="5UvZVbcV99E" role="33vP2m" />
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="5UvZVbcVaxJ" role="3cqZAp">
+                  <node concept="3clFbS" id="5UvZVbcVaxL" role="3clFbx">
+                    <node concept="3clFbF" id="5UvZVbcVddY" role="3cqZAp">
+                      <node concept="37vLTI" id="5UvZVbcVdML" role="3clFbG">
+                        <node concept="Xl_RD" id="5UvZVbcVe2P" role="37vLTx">
+                          <property role="Xl_RC" value="&lt;&lt; (R, lightgrey) &gt;&gt;" />
+                        </node>
+                        <node concept="37vLTw" id="5UvZVbcVddW" role="37vLTJ">
+                          <ref role="3cqZAo" node="5UvZVbcV73J" resolve="customSpot" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="5UvZVbcVbEY" role="3clFbw">
+                    <node concept="2GrUjf" id="5UvZVbcVbmG" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="4LYtwgreQ4" resolve="concept" />
+                    </node>
+                    <node concept="3TrcHB" id="5UvZVbcVcUs" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpce:fX9Ktp8" resolve="rootable" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="5UvZVbcV9QC" role="3cqZAp" />
                 <node concept="3clFbF" id="6H8rSFRiIQE" role="3cqZAp">
                   <node concept="2OqwBi" id="6H8rSFRiIR4" role="3clFbG">
                     <node concept="37vLTw" id="6H8rSFRiIR3" role="2Oq$k0">
@@ -1524,7 +1609,7 @@
                         <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
                         <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
                         <node concept="Xl_RD" id="6H8rSFRiKiJ" role="37wK5m">
-                          <property role="Xl_RC" value="class \&quot;%s\&quot; %s\n" />
+                          <property role="Xl_RC" value="class \&quot;%s\&quot; %s %s\n" />
                         </node>
                         <node concept="1rXfSq" id="4LYtwg1pEx" role="37wK5m">
                           <ref role="37wK5l" node="4LYtwfWs65" resolve="getName" />
@@ -1545,6 +1630,9 @@
                           <node concept="37vLTw" id="4LYtwgyJHf" role="37wK5m">
                             <ref role="3cqZAo" node="4LYtwgy_Pd" resolve="showAllInheritanceAsAnnotation" />
                           </node>
+                        </node>
+                        <node concept="37vLTw" id="5UvZVbcVf7G" role="37wK5m">
+                          <ref role="3cqZAo" node="5UvZVbcV73J" resolve="customSpot" />
                         </node>
                       </node>
                     </node>

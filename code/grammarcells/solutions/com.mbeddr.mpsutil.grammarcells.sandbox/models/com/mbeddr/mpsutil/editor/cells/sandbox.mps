@@ -50,7 +50,9 @@
         <child id="7363578995839169018" name="type" index="1kHs7J" />
         <child id="7363578995839169055" name="initializer" index="1kHs8a" />
       </concept>
-      <concept id="7363578995839169026" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.LocalVariableDeclaration" flags="ng" index="1kHs8n" />
+      <concept id="7363578995839169026" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.LocalVariableDeclaration" flags="ng" index="1kHs8n">
+        <property id="484443907670948619" name="static" index="3gViKx" />
+      </concept>
       <concept id="7363578995839169063" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StringLiteral" flags="ng" index="1kHs8M">
         <property id="7363578995839169078" name="value" index="1kHs8z" />
       </concept>
@@ -81,6 +83,7 @@
         <node concept="1kHs8n" id="RbLMy691NU" role="2cssZA">
           <property role="TrG5h" value="d" />
           <property role="1kHkqC" value="false" />
+          <property role="3gViKx" value="true" />
           <node concept="2cvBGp" id="RbLMy691NS" role="1kHs7J" />
           <node concept="ywYU9" id="247rWC7xst_" role="1kHs8a">
             <node concept="ywmH7" id="247rWC7xsu1" role="ywYU2">
@@ -103,7 +106,22 @@
         </node>
         <node concept="2cssZR" id="2uT2PLmVCR0" role="2cssZA" />
         <node concept="2cssZR" id="6oKG1kMzd0B" role="2cssZA" />
-        <node concept="2cssZR" id="4qdNcH$3aon" role="2cssZA" />
+        <node concept="1kHs8n" id="1_3xoKEAbrC" role="2cssZA">
+          <property role="3gViKx" value="false" />
+          <node concept="2bZTBh" id="1_3xoKEAbrB" role="1kHs7J">
+            <node concept="2cvBGp" id="1_3xoKEJrJm" role="2bZTBi" />
+          </node>
+        </node>
+        <node concept="1kHs8n" id="1_3xoKEAbwJ" role="2cssZA">
+          <node concept="2cvBGp" id="1_3xoKEAbwH" role="1kHs7J" />
+        </node>
+        <node concept="1kHs8n" id="1_3xoKEBZ1k" role="2cssZA">
+          <node concept="2cvBGp" id="1_3xoKEBZ1i" role="1kHs7J" />
+        </node>
+        <node concept="1kHs8n" id="1_3xoKEBZ6x" role="2cssZA">
+          <node concept="1kHqfO" id="1_3xoKEBZ6v" role="1kHs7J" />
+        </node>
+        <node concept="2cssZR" id="1_3xoKEBZgZ" role="2cssZA" />
         <node concept="1kHs8n" id="RbLMy69LtH" role="2cssZA">
           <property role="1kHkrk" value="true" />
           <property role="TrG5h" value="b" />

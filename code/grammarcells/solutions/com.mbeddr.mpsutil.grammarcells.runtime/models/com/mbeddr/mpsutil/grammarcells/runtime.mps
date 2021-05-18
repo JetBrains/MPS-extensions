@@ -2881,7 +2881,7 @@
       <node concept="3clFbS" id="1iGw5Cbi6WH" role="3clF47">
         <node concept="3cpWs8" id="1iGw5Cbidgu" role="3cqZAp">
           <node concept="3cpWsn" id="1iGw5Cbidgv" role="3cpWs9">
-            <property role="TrG5h" value="currentNode" />
+            <property role="TrG5h" value="ancestorNode" />
             <node concept="3uibUv" id="1iGw5Cbidgw" role="1tU5fm">
               <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
@@ -2903,16 +2903,24 @@
                     <node concept="2OqwBi" id="1iGw5Cbiv4h" role="37wK5m">
                       <node concept="2OqwBi" id="1iGw5Cbiv4i" role="2Oq$k0">
                         <node concept="2OqwBi" id="1iGw5Cbiv4j" role="2Oq$k0">
-                          <node concept="2OqwBi" id="1iGw5Cbiv4k" role="2Oq$k0">
-                            <node concept="2ShNRf" id="1iGw5Cbiv4l" role="2Oq$k0">
-                              <node concept="1pGfFk" id="1iGw5Cbiv4m" role="2ShVmc">
-                                <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.&lt;init&gt;()" resolve="CanBeAncestorContext.Builder" />
+                          <node concept="2OqwBi" id="wZ3fvyujrO" role="2Oq$k0">
+                            <node concept="2OqwBi" id="1iGw5Cbiv4k" role="2Oq$k0">
+                              <node concept="2ShNRf" id="1iGw5Cbiv4l" role="2Oq$k0">
+                                <node concept="1pGfFk" id="1iGw5Cbiv4m" role="2ShVmc">
+                                  <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.&lt;init&gt;()" resolve="CanBeAncestorContext.Builder" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="1iGw5Cbiv4n" role="2OqNvi">
+                                <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.ancestorNode(org.jetbrains.mps.openapi.model.SNode)" resolve="ancestorNode" />
+                                <node concept="37vLTw" id="1iGw5Cbiv4o" role="37wK5m">
+                                  <ref role="3cqZAo" node="1iGw5Cbidgv" resolve="ancestorNode" />
+                                </node>
                               </node>
                             </node>
-                            <node concept="liA8E" id="1iGw5Cbiv4n" role="2OqNvi">
-                              <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.ancestorNode(org.jetbrains.mps.openapi.model.SNode)" resolve="ancestorNode" />
-                              <node concept="37vLTw" id="1iGw5Cbiv4o" role="37wK5m">
-                                <ref role="3cqZAo" node="1iGw5Cbidgv" resolve="currentNode" />
+                            <node concept="liA8E" id="wZ3fvyujF$" role="2OqNvi">
+                              <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.parentNode(org.jetbrains.mps.openapi.model.SNode)" resolve="parentNode" />
+                              <node concept="37vLTw" id="wZ3fvyumn3" role="37wK5m">
+                                <ref role="3cqZAo" node="1iGw5CbiaEV" resolve="parentNode" />
                               </node>
                             </node>
                           </node>
@@ -2957,14 +2965,14 @@
               <node concept="37vLTI" id="1iGw5CbiiPS" role="3clFbG">
                 <node concept="2OqwBi" id="1iGw5CbijdO" role="37vLTx">
                   <node concept="37vLTw" id="1iGw5CbiiWJ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1iGw5Cbidgv" resolve="currentNode" />
+                    <ref role="3cqZAo" node="1iGw5Cbidgv" resolve="ancestorNode" />
                   </node>
                   <node concept="liA8E" id="1iGw5Cbijpu" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SNode.getParent()" resolve="getParent" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="1iGw5Cbiizw" role="37vLTJ">
-                  <ref role="3cqZAo" node="1iGw5Cbidgv" resolve="currentNode" />
+                  <ref role="3cqZAo" node="1iGw5Cbidgv" resolve="ancestorNode" />
                 </node>
               </node>
             </node>
@@ -2972,7 +2980,7 @@
           <node concept="3y3z36" id="1iGw5CbiiiA" role="2$JKZa">
             <node concept="10Nm6u" id="1iGw5Cbiit4" role="3uHU7w" />
             <node concept="37vLTw" id="1iGw5CbihUt" role="3uHU7B">
-              <ref role="3cqZAo" node="1iGw5Cbidgv" resolve="currentNode" />
+              <ref role="3cqZAo" node="1iGw5Cbidgv" resolve="ancestorNode" />
             </node>
           </node>
         </node>

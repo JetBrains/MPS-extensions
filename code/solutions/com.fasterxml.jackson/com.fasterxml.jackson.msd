@@ -6,12 +6,18 @@
       <sourceRoot location="jackson-core-2.10.2.jar" />
       <sourceRoot location="jackson-databind-2.10.2.jar" />
     </modelRoot>
+    <modelRoot contentPath="${module}" type="default" />
   </models>
   <facets>
     <facet type="java" languageLevel="JAVA_8">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
+  <stubModelEntries>
+    <stubModelEntry path="${platform_lib}/jackson-annotations-2.10.2.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-core-2.10.2.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-databind-2.10.2.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

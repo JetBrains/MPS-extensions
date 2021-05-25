@@ -7523,11 +7523,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="qsyhYeVjWm" role="3bR37C">
-          <node concept="3bR9La" id="qsyhYeVjWn" role="1SiIV1">
-            <ref role="3bR37D" node="3$A0JaN5bpX" resolve="com.fasterxml.jackson" />
-          </node>
-        </node>
       </node>
     </node>
     <node concept="m$_wf" id="F1NWDqr5lJ" role="3989C9">

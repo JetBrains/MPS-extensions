@@ -233,7 +233,7 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
@@ -1144,7 +1144,9 @@
                 <node concept="I4A8Y" id="VwH9Cd3xQ8" role="2OqNvi" />
               </node>
               <node concept="2RRcyG" id="VwH9Cd3yh8" role="2OqNvi">
-                <ref role="2RRcyH" to="mupx:4owK417btm_" resolve="IncrementalModule" />
+                <node concept="chp4Y" id="2F4Sedp$PT6" role="3MHsoP">
+                  <ref role="cht4Q" to="mupx:4owK417btm_" resolve="IncrementalModule" />
+                </node>
               </node>
             </node>
             <node concept="3zZkjj" id="VwH9Cd3BD9" role="2OqNvi">

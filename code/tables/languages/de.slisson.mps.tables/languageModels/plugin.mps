@@ -171,6 +171,9 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
+        <child id="1171903916107" name="bound" index="3qUE_r" />
+      </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
@@ -1350,8 +1353,10 @@
                 <property role="TrG5h" value="actions" />
                 <node concept="3uibUv" id="5KGtkLHspfU" role="1tU5fm">
                   <ref role="3uigEE" to="33ny:~List" resolve="List" />
-                  <node concept="3uibUv" id="5KGtkLHspfV" role="11_B2D">
-                    <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
+                  <node concept="3qUE_q" id="5XadiMeissX" role="11_B2D">
+                    <node concept="3uibUv" id="5KGtkLHspfV" role="3qUE_r">
+                      <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
+                    </node>
                   </node>
                 </node>
               </node>

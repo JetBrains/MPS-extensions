@@ -2,7 +2,7 @@
 <model ref="r:9270b118-f381-43ed-ba74-93e780e8de68(de.itemis.mps.editor.diagram.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="-1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="-1" />
@@ -5261,20 +5261,18 @@
                                                     </node>
                                                   </node>
                                                   <node concept="gft3U" id="6HawCQID4z4" role="UU_$l">
-                                                    <node concept="3clFbS" id="6HawCQID5JZ" role="gfFT$">
-                                                      <node concept="3clFbF" id="6HawCQID6YY" role="3cqZAp">
-                                                        <node concept="2OqwBi" id="6HawCQID8Co" role="3clFbG">
-                                                          <node concept="liA8E" id="6HawCQIDb2W" role="2OqNvi">
-                                                            <ref role="37wK5l" to="r3rm:6HawCQIBgYp" resolve="resetButtonConfig" />
-                                                          </node>
-                                                          <node concept="1eOMI4" id="6HawCQIDB9p" role="2Oq$k0">
-                                                            <node concept="10QFUN" id="5ZBOFE3$9sJ" role="1eOMHV">
-                                                              <node concept="37vLTw" id="5ZBOFE3$9sI" role="10QFUP">
-                                                                <ref role="3cqZAo" node="5ZBOFE3yzE1" resolve="defaultParent" />
-                                                              </node>
-                                                              <node concept="3uibUv" id="5ZBOFE3$9sH" role="10QFUM">
-                                                                <ref role="3uigEE" to="r3rm:1yAlWL_ACtx" resolve="RootDCell" />
-                                                              </node>
+                                                    <node concept="3clFbF" id="6HawCQID6YY" role="gfFT$">
+                                                      <node concept="2OqwBi" id="6HawCQID8Co" role="3clFbG">
+                                                        <node concept="liA8E" id="6HawCQIDb2W" role="2OqNvi">
+                                                          <ref role="37wK5l" to="r3rm:6HawCQIBgYp" resolve="resetButtonConfig" />
+                                                        </node>
+                                                        <node concept="1eOMI4" id="6HawCQIDB9p" role="2Oq$k0">
+                                                          <node concept="10QFUN" id="5ZBOFE3$9sJ" role="1eOMHV">
+                                                            <node concept="37vLTw" id="5ZBOFE3$9sI" role="10QFUP">
+                                                              <ref role="3cqZAo" node="5ZBOFE3yzE1" resolve="defaultParent" />
+                                                            </node>
+                                                            <node concept="3uibUv" id="5ZBOFE3$9sH" role="10QFUM">
+                                                              <ref role="3uigEE" to="r3rm:1yAlWL_ACtx" resolve="RootDCell" />
                                                             </node>
                                                           </node>
                                                         </node>

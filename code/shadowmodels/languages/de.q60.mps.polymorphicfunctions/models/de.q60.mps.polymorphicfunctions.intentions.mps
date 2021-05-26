@@ -99,7 +99,7 @@
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -269,7 +269,9 @@
                           <ref role="3cqZAo" node="476rsMJgUVM" resolve="it" />
                         </node>
                         <node concept="2RRcyG" id="476rsMJgUVL" role="2OqNvi">
-                          <ref role="2RRcyH" to="bx8c:1upvoB3RHiK" resolve="PolymorphicFunctionsModule" />
+                          <node concept="chp4Y" id="2F4Sedp$PT7" role="3MHsoP">
+                            <ref role="cht4Q" to="bx8c:1upvoB3RHiK" resolve="PolymorphicFunctionsModule" />
+                          </node>
                         </node>
                       </node>
                     </node>

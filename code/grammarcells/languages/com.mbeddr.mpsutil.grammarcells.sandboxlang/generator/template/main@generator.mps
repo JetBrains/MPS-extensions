@@ -2,7 +2,7 @@
 <model ref="r:d05eeab0-292c-4397-867a-0b040ffb0bf4(com.mbeddr.mpsutil.grammarcells.sandboxlang.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
   </languages>
   <imports />
   <registry>

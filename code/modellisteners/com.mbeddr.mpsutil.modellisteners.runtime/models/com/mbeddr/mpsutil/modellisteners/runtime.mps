@@ -1779,23 +1779,6 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="3clFb_" id="52ZF9D37MIk" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="beforeModelFileChanged" />
-      <property role="DiZV1" value="false" />
-      <node concept="3Tm1VV" id="52ZF9D37MIl" role="1B3o_S" />
-      <node concept="3cqZAl" id="52ZF9D37MIn" role="3clF45" />
-      <node concept="37vLTG" id="52ZF9D37MIo" role="3clF46">
-        <property role="TrG5h" value="event" />
-        <node concept="3uibUv" id="52ZF9D37MIp" role="1tU5fm">
-          <ref role="3uigEE" to="j9co:~SModelFileChangedEvent" resolve="SModelFileChangedEvent" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="52ZF9D37MIq" role="3clF47" />
-      <node concept="2AHcQZ" id="52ZF9D3cRoI" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
     <node concept="3clFb_" id="52ZF9D37MIr" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="beforeModelRenamed" />
@@ -2028,23 +2011,6 @@
       </node>
       <node concept="3clFbS" id="52ZF9D37MJC" role="3clF47" />
       <node concept="2AHcQZ" id="52ZF9D3cRoT" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="52ZF9D37MJD" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="modelFileChanged" />
-      <property role="DiZV1" value="false" />
-      <node concept="3Tm1VV" id="52ZF9D37MJE" role="1B3o_S" />
-      <node concept="3cqZAl" id="52ZF9D37MJG" role="3clF45" />
-      <node concept="37vLTG" id="52ZF9D37MJH" role="3clF46">
-        <property role="TrG5h" value="event" />
-        <node concept="3uibUv" id="52ZF9D37MJI" role="1tU5fm">
-          <ref role="3uigEE" to="j9co:~SModelFileChangedEvent" resolve="SModelFileChangedEvent" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="52ZF9D37MJJ" role="3clF47" />
-      <node concept="2AHcQZ" id="52ZF9D3cRoG" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

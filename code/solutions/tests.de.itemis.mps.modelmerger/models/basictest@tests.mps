@@ -5,7 +5,7 @@
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="test.de.itemis.mps.modelmerger.testlanguage" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -133,12 +133,15 @@
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1206482823744" name="jetbrains.mps.lang.smodel.structure.Model_AddRootOperation" flags="nn" index="3BYIHo">
         <child id="1206482823746" name="nodeArgument" index="3BYIHq" />
@@ -364,7 +367,9 @@
                   <ref role="3cqZAo" node="lVcTBwuwOK" resolve="testMdlSource" />
                 </node>
                 <node concept="2RRcyG" id="lVcTBwuJOL" role="2OqNvi">
-                  <ref role="2RRcyH" to="k6li:59jNLF_cXnN" resolve="tSystem" />
+                  <node concept="chp4Y" id="2F4Sedp$PTd" role="3MHsoP">
+                    <ref role="cht4Q" to="k6li:59jNLF_cXnN" resolve="tSystem" />
+                  </node>
                 </node>
               </node>
               <node concept="1uHKPH" id="lVcTBwuJOM" role="2OqNvi" />
@@ -491,7 +496,9 @@
                   <ref role="3cqZAo" node="lVcTBwuwOK" resolve="testMdlSource" />
                 </node>
                 <node concept="2RRcyG" id="lVcTBwuPFF" role="2OqNvi">
-                  <ref role="2RRcyH" to="k6li:59jNLF_cXnN" resolve="tSystem" />
+                  <node concept="chp4Y" id="2F4Sedp$PTe" role="3MHsoP">
+                    <ref role="cht4Q" to="k6li:59jNLF_cXnN" resolve="tSystem" />
+                  </node>
                 </node>
               </node>
               <node concept="1uHKPH" id="lVcTBwuPFG" role="2OqNvi" />

@@ -4,7 +4,7 @@
   <languages>
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
@@ -2378,8 +2378,8 @@
         </node>
         <node concept="3clFbF" id="6rVC5beYLyY" role="3cqZAp">
           <node concept="2YIFZM" id="6rVC5beYM5j" role="3clFbG">
-            <ref role="37wK5l" to="ykok:~ModelConstraints.validatePropertyValue(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,java.lang.Object,jetbrains.mps.smodel.runtime.CheckingNodeContext)" resolve="validatePropertyValue" />
             <ref role="1Pybhc" to="ykok:~ModelConstraints" resolve="ModelConstraints" />
+            <ref role="37wK5l" to="ykok:~ModelConstraints.validatePropertyValue(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,java.lang.Object,jetbrains.mps.smodel.runtime.CheckingNodeContext)" resolve="validatePropertyValue" />
             <node concept="37vLTw" id="6rVC5beYSXu" role="37wK5m">
               <ref role="3cqZAo" node="4qdNcH$28X0" resolve="dummyNode" />
             </node>
@@ -2848,7 +2848,9 @@
         <node concept="3clFbJ" id="1iGw5CbiBpQ" role="3cqZAp">
           <node concept="3clFbS" id="1iGw5CbiBpS" role="3clFbx">
             <node concept="3cpWs6" id="1iGw5CbiKKi" role="3cqZAp">
-              <node concept="3clFbT" id="1iGw5CbiKNb" role="3cqZAk" />
+              <node concept="3clFbT" id="1iGw5CbiKNb" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
             </node>
           </node>
           <node concept="3fqX7Q" id="1iGw5CbiCF3" role="3clFbw">
@@ -27204,42 +27206,6 @@
               <node concept="3clFbS" id="5_y0OhSvqNQ" role="3clF47">
                 <node concept="3clFbF" id="5_y0OhSw00x" role="3cqZAp">
                   <node concept="1rXfSq" id="5_y0OhSw00w" role="3clFbG">
-                    <ref role="37wK5l" node="5_y0OhSvwr_" resolve="invalidate" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFb_" id="5_y0OhSvqNS" role="jymVt">
-              <property role="1EzhhJ" value="false" />
-              <property role="TrG5h" value="beforeModelFileChanged" />
-              <property role="DiZV1" value="false" />
-              <property role="od$2w" value="false" />
-              <node concept="3Tm1VV" id="5_y0OhSvqNT" role="1B3o_S" />
-              <node concept="3cqZAl" id="5_y0OhSvqNV" role="3clF45" />
-              <node concept="37vLTG" id="5_y0OhSvqNW" role="3clF46">
-                <property role="TrG5h" value="p0" />
-                <node concept="3uibUv" id="5_y0OhSvqNX" role="1tU5fm">
-                  <ref role="3uigEE" to="j9co:~SModelFileChangedEvent" resolve="SModelFileChangedEvent" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="5_y0OhSvqNY" role="3clF47" />
-            </node>
-            <node concept="3clFb_" id="5_y0OhSvqO0" role="jymVt">
-              <property role="1EzhhJ" value="false" />
-              <property role="TrG5h" value="modelFileChanged" />
-              <property role="DiZV1" value="false" />
-              <property role="od$2w" value="false" />
-              <node concept="3Tm1VV" id="5_y0OhSvqO1" role="1B3o_S" />
-              <node concept="3cqZAl" id="5_y0OhSvqO3" role="3clF45" />
-              <node concept="37vLTG" id="5_y0OhSvqO4" role="3clF46">
-                <property role="TrG5h" value="p0" />
-                <node concept="3uibUv" id="5_y0OhSvqO5" role="1tU5fm">
-                  <ref role="3uigEE" to="j9co:~SModelFileChangedEvent" resolve="SModelFileChangedEvent" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="5_y0OhSvqO6" role="3clF47">
-                <node concept="3clFbF" id="5_y0OhSw03Q" role="3cqZAp">
-                  <node concept="1rXfSq" id="5_y0OhSw03P" role="3clFbG">
                     <ref role="37wK5l" node="5_y0OhSvwr_" resolve="invalidate" />
                   </node>
                 </node>

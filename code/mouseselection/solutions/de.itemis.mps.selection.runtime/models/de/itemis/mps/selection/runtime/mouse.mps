@@ -2,9 +2,9 @@
 <model ref="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)">
   <persistence version="9" />
   <languages>
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
-    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
+    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="-1" />
+    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -24,6 +24,7 @@
     <import index="mpcv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.ref(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
+    <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -182,6 +183,9 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
@@ -222,6 +226,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1402,6 +1414,49 @@
       <node concept="3cqZAl" id="630t2b8eeCv" role="3clF45" />
       <node concept="3Tmbuc" id="630t2b8eeCw" role="1B3o_S" />
       <node concept="3clFbS" id="630t2b8eeCx" role="3clF47">
+        <node concept="3clFbJ" id="2CeCNUceE_Q" role="3cqZAp">
+          <node concept="3clFbS" id="2CeCNUceE_S" role="3clFbx">
+            <node concept="3SKdUt" id="2Gp73YkRR4T" role="3cqZAp">
+              <node concept="1PaTwC" id="2Gp73YkRR4U" role="1aUNEU">
+                <node concept="3oM_SD" id="2Gp73YkRS3y" role="1PaTwD">
+                  <property role="3oM_SC" value="consider" />
+                </node>
+                <node concept="3oM_SD" id="2Gp73YkRS3$" role="1PaTwD">
+                  <property role="3oM_SC" value="such" />
+                </node>
+                <node concept="3oM_SD" id="2Gp73YkRS3K" role="1PaTwD">
+                  <property role="3oM_SC" value="a" />
+                </node>
+                <node concept="3oM_SD" id="2Gp73YkRS3O" role="1PaTwD">
+                  <property role="3oM_SC" value="small" />
+                </node>
+                <node concept="3oM_SD" id="2Gp73YkRS3T" role="1PaTwD">
+                  <property role="3oM_SC" value="drag" />
+                </node>
+                <node concept="3oM_SD" id="2Gp73YkRS3Z" role="1PaTwD">
+                  <property role="3oM_SC" value="accidental" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="2CeCNUceGYw" role="3cqZAp" />
+          </node>
+          <node concept="2dkUwp" id="2CeCNUceGGE" role="3clFbw">
+            <node concept="2OqwBi" id="2CeCNUceF2$" role="3uHU7B">
+              <node concept="37vLTw" id="2CeCNUceEFR" role="2Oq$k0">
+                <ref role="3cqZAo" node="630t2b8eeD1" resolve="from" />
+              </node>
+              <node concept="liA8E" id="2CeCNUceFm_" role="2OqNvi">
+                <ref role="37wK5l" to="fbzs:~Point2D.distance(java.awt.geom.Point2D)" resolve="distance" />
+                <node concept="37vLTw" id="2CeCNUceFsU" role="37wK5m">
+                  <ref role="3cqZAo" node="630t2b8eeD3" resolve="to" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cmrfG" id="2CeCNUceHa6" role="3uHU7w">
+              <property role="3cmrfH" value="2" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="630t2b8eeCy" role="3cqZAp">
           <node concept="3cpWsn" id="630t2b8eeCz" role="3cpWs9">
             <property role="TrG5h" value="startCell" />

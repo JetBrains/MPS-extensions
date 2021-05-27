@@ -57,6 +57,9 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions/com.mbeddr.mpsutil.intentions.mpl" folder="intentionsmenu" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.test/de.itemis.model.merge.test.mpl" folder="modelmerge2" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.test/runtime/de.itemis.model.merge.test.runtime.msd" folder="modelmerge2" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.test/sandbox/de.itemis.model.merge.test.sandbox.msd" folder="modelmerge2" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/de.itemis.model.merge.mpl" folder="modelmerge2" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/runtime/de.itemis.model.merge.runtime.msd" folder="modelmerge2" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/sandbox/de.itemis.model.merge.sandbox.msd" folder="modelmerge2" />

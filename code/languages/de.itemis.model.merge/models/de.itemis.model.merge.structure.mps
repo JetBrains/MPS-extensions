@@ -14,6 +14,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -115,6 +116,7 @@
     <property role="TrG5h" value="Left" />
     <property role="34LRSv" value="Left" />
     <property role="3GE5qa" value="action" />
+    <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="PlHQZ" id="6zqIeMU2OVl">
@@ -127,6 +129,7 @@
     <property role="TrG5h" value="Right" />
     <property role="34LRSv" value="Right" />
     <property role="3GE5qa" value="action" />
+    <property role="R4oN_" value="Keep Right Version, Omit Left Version" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="1TIwiD" id="6zqIeMU2RWS">
@@ -142,6 +145,8 @@
     <property role="EcuMT" value="2076377354676819067" />
     <property role="TrG5h" value="ManualAction" />
     <property role="3GE5qa" value="action" />
+    <property role="34LRSv" value="Manual" />
+    <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
     <node concept="PrWs8" id="1NgLzfPbKD3" role="PzmwI">
       <ref role="PrY4T" node="6zqIeMU2OVl" resolve="MergeAction" />
@@ -152,6 +157,7 @@
     <property role="TrG5h" value="ActionFunctionLeftParam" />
     <property role="34LRSv" value="left" />
     <property role="3GE5qa" value="function" />
+    <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1NgLzfPc0Pz">
@@ -159,6 +165,7 @@
     <property role="TrG5h" value="ActionFunctionRightParam" />
     <property role="34LRSv" value="right" />
     <property role="3GE5qa" value="function" />
+    <property role="R4oN_" value="Keep Right Version, Omit Left Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1NgLzfPc0P$">
@@ -166,6 +173,7 @@
     <property role="TrG5h" value="ActionFunctionInProgressParam" />
     <property role="34LRSv" value="mergedInProgress" />
     <property role="3GE5qa" value="function" />
+    <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>

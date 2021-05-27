@@ -24,6 +24,7 @@
     <import index="mpcv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.ref(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
+    <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -182,6 +183,9 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
@@ -222,6 +226,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1402,6 +1414,49 @@
       <node concept="3cqZAl" id="630t2b8eeCv" role="3clF45" />
       <node concept="3Tmbuc" id="630t2b8eeCw" role="1B3o_S" />
       <node concept="3clFbS" id="630t2b8eeCx" role="3clF47">
+        <node concept="3clFbJ" id="2CeCNUceE_Q" role="3cqZAp">
+          <node concept="3clFbS" id="2CeCNUceE_S" role="3clFbx">
+            <node concept="3SKdUt" id="2CeCNUceP$Z" role="3cqZAp">
+              <node concept="1PaTwC" id="2CeCNUceP_0" role="3ndbpf">
+                <node concept="3oM_SD" id="2CeCNUceP_2" role="1PaTwD">
+                  <property role="3oM_SC" value="that" />
+                </node>
+                <node concept="3oM_SD" id="2CeCNUceP_j" role="1PaTwD">
+                  <property role="3oM_SC" value="probably" />
+                </node>
+                <node concept="3oM_SD" id="2CeCNUceP_u" role="1PaTwD">
+                  <property role="3oM_SC" value="was" />
+                </node>
+                <node concept="3oM_SD" id="2CeCNUceP_y" role="1PaTwD">
+                  <property role="3oM_SC" value="moved" />
+                </node>
+                <node concept="3oM_SD" id="2CeCNUceP_J" role="1PaTwD">
+                  <property role="3oM_SC" value="by" />
+                </node>
+                <node concept="3oM_SD" id="2CeCNUceP_P" role="1PaTwD">
+                  <property role="3oM_SC" value="accident" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="2CeCNUceGYw" role="3cqZAp" />
+          </node>
+          <node concept="2dkUwp" id="2CeCNUceGGE" role="3clFbw">
+            <node concept="2OqwBi" id="2CeCNUceF2$" role="3uHU7B">
+              <node concept="37vLTw" id="2CeCNUceEFR" role="2Oq$k0">
+                <ref role="3cqZAo" node="630t2b8eeD1" resolve="from" />
+              </node>
+              <node concept="liA8E" id="2CeCNUceFm_" role="2OqNvi">
+                <ref role="37wK5l" to="fbzs:~Point2D.distance(java.awt.geom.Point2D)" resolve="distance" />
+                <node concept="37vLTw" id="2CeCNUceFsU" role="37wK5m">
+                  <ref role="3cqZAo" node="630t2b8eeD3" resolve="to" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cmrfG" id="2CeCNUceHa6" role="3uHU7w">
+              <property role="3cmrfH" value="2" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="630t2b8eeCy" role="3cqZAp">
           <node concept="3cpWsn" id="630t2b8eeCz" role="3cpWs9">
             <property role="TrG5h" value="startCell" />

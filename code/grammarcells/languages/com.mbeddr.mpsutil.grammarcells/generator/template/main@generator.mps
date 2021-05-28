@@ -27531,5 +27531,64 @@
       <node concept="10P_77" id="1_3xoKENtbb" role="1N15GL" />
     </node>
   </node>
+  <node concept="jVnub" id="1ISNm4Vo25w">
+    <property role="3GE5qa" value="menu" />
+    <property role="TrG5h" value="switch_TransformationLocation_asExpressions_grammarcells" />
+    <ref role="phYkn" to="tpc3:3EZUZhmTWq7" resolve="switch_TransformationLocation_asExpressions" />
+    <node concept="3aamgX" id="Z45Y15hY9a" role="3aUrZf">
+      <ref role="30HIoZ" to="teg0:1ISNm4ViY99" resolve="TransformationLocation_Before" />
+      <node concept="gft3U" id="2fjyZB6_vOq" role="1lVwrX">
+        <node concept="10M0yZ" id="1ISNm4Vo26l" role="gfFT$">
+          <ref role="3cqZAo" to="gdpt:1ISNm4ViWfM" resolve="BEFORE" />
+          <ref role="1PxDUh" to="gdpt:1ISNm4ViWc0" resolve="GrammarCellsMenuLocations" />
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="1ISNm4Vo2cm" role="3aUrZf">
+      <ref role="30HIoZ" to="teg0:1ISNm4ViYa4" resolve="TransformationLocation_After" />
+      <node concept="gft3U" id="1ISNm4Vo2cn" role="1lVwrX">
+        <node concept="10M0yZ" id="1ISNm4Vo2cV" role="gfFT$">
+          <ref role="3cqZAo" to="gdpt:1ISNm4ViXAF" resolve="AFTER" />
+          <ref role="1PxDUh" to="gdpt:1ISNm4ViWc0" resolve="GrammarCellsMenuLocations" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="bUwia" id="1ISNm4ViZiJ">
+    <property role="3GE5qa" value="menu" />
+    <property role="TrG5h" value="mc_menus" />
+    <node concept="3aamgX" id="1ISNm4ViZiK" role="3acgRq">
+      <ref role="30HIoZ" to="teg0:1ISNm4ViY99" resolve="TransformationLocation_Before" />
+      <node concept="gft3U" id="1ISNm4ViZiO" role="1lVwrX">
+        <node concept="10M0yZ" id="1ISNm4ViZjb" role="gfFT$">
+          <ref role="3cqZAo" to="gdpt:1ISNm4ViWfM" resolve="BEFORE" />
+          <ref role="1PxDUh" to="gdpt:1ISNm4ViWc0" resolve="GrammarCellsMenuLocations" />
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="1ISNm4ViZpc" role="3acgRq">
+      <ref role="30HIoZ" to="teg0:1ISNm4ViYa4" resolve="TransformationLocation_After" />
+      <node concept="gft3U" id="1ISNm4ViZpd" role="1lVwrX">
+        <node concept="10M0yZ" id="1ISNm4ViZpL" role="gfFT$">
+          <ref role="3cqZAo" to="gdpt:1ISNm4ViXAF" resolve="AFTER" />
+          <ref role="1PxDUh" to="gdpt:1ISNm4ViWc0" resolve="GrammarCellsMenuLocations" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="jVnub" id="1ISNm4V$kyP">
+    <property role="3GE5qa" value="menu" />
+    <property role="TrG5h" value="switch_TransformationLocation_actionItemInterfaces_grammarcells" />
+    <ref role="phYkn" to="tpc3:6VgTvK0odUq" resolve="switch_TransformationLocation_actionItemInterfaces" />
+    <node concept="3aamgX" id="30NnNOohxj0" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="teg0:1ISNm4Vw3eE" resolve="TransformationLocation_BeforeOrAfter" />
+      <node concept="gft3U" id="6VgTvK0ospZ" role="1lVwrX">
+        <node concept="3uibUv" id="7QIuLTEdcTb" role="gfFT$">
+          <ref role="3uigEE" to="6lvu:~SideTransformCompletionActionItem" resolve="SideTransformCompletionActionItem" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

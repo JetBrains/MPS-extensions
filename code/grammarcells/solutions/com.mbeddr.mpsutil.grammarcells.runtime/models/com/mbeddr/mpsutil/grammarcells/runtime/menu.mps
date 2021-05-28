@@ -142,6 +142,7 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -177,6 +178,9 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -1694,13 +1698,53 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="1_3xoKETAvA" role="jymVt" />
-    <node concept="3clFb_" id="1_3xoKETAK5" role="jymVt">
-      <property role="TrG5h" value="setOnLeafs" />
-      <node concept="3cqZAl" id="1_3xoKETAK7" role="3clF45" />
-      <node concept="3Tm1VV" id="1_3xoKETAK8" role="1B3o_S" />
-      <node concept="3clFbS" id="1_3xoKETAK9" role="3clF47" />
+  </node>
+  <node concept="312cEu" id="1ISNm4ViWc0">
+    <property role="TrG5h" value="GrammarCellsMenuLocations" />
+    <node concept="Wx3nA" id="1ISNm4ViWfM" role="jymVt">
+      <property role="TrG5h" value="BEFORE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="1ISNm4ViWdU" role="1tU5fm" />
+      <node concept="3Tm1VV" id="1ISNm4ViWfy" role="1B3o_S" />
+      <node concept="3cpWs3" id="1ISNm4ViXn9" role="33vP2m">
+        <node concept="Xl_RD" id="1ISNm4ViXnt" role="3uHU7w">
+          <property role="Xl_RC" value=".BEFORE" />
+        </node>
+        <node concept="2OqwBi" id="1ISNm4ViWAD" role="3uHU7B">
+          <node concept="3VsKOn" id="1ISNm4ViWi2" role="2Oq$k0">
+            <ref role="3VsUkX" node="1ISNm4ViWc0" resolve="GrammarCellsMenuLocations" />
+          </node>
+          <node concept="liA8E" id="1ISNm4ViX58" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+          </node>
+        </node>
+      </node>
     </node>
+    <node concept="Wx3nA" id="1ISNm4ViXAF" role="jymVt">
+      <property role="TrG5h" value="AFTER" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="1ISNm4ViXAG" role="1tU5fm" />
+      <node concept="3Tm1VV" id="1ISNm4ViXAH" role="1B3o_S" />
+      <node concept="3cpWs3" id="1ISNm4ViXAI" role="33vP2m">
+        <node concept="Xl_RD" id="1ISNm4ViXAJ" role="3uHU7w">
+          <property role="Xl_RC" value=".AFTER" />
+        </node>
+        <node concept="2OqwBi" id="1ISNm4ViXAK" role="3uHU7B">
+          <node concept="3VsKOn" id="1ISNm4ViXAL" role="2Oq$k0">
+            <ref role="3VsUkX" node="1ISNm4ViWc0" resolve="GrammarCellsMenuLocations" />
+          </node>
+          <node concept="liA8E" id="1ISNm4ViXAM" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="1ISNm4ViY4v" role="jymVt">
+      <node concept="3cqZAl" id="1ISNm4ViY4x" role="3clF45" />
+      <node concept="3Tm6S6" id="1ISNm4ViY85" role="1B3o_S" />
+      <node concept="3clFbS" id="1ISNm4ViY4z" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="1ISNm4ViWc1" role="1B3o_S" />
   </node>
 </model>
 

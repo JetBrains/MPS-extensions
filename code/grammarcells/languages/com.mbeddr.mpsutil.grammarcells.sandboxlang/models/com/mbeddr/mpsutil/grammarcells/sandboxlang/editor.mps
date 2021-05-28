@@ -12,6 +12,7 @@
   <imports>
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="ibwz" ref="r:ad27d4b4-fc2c-4b6d-9e22-455eb0ccf354(com.mbeddr.mpsutil.grammarcells.sandboxlang.structure)" />
+    <import index="9eyi" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.lang.editor.menus.transformation(MPS.Editor/)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -143,6 +144,9 @@
       <concept id="5624877018228267058" name="jetbrains.mps.lang.editor.structure.ITransformationMenu" flags="ng" index="3INCJE">
         <child id="1638911550608572412" name="sections" index="IW6Ez" />
       </concept>
+      <concept id="5624877018228264944" name="jetbrains.mps.lang.editor.structure.TransformationMenuContribution" flags="ng" index="3INDKC">
+        <child id="6718020819489956031" name="menuReference" index="AmTjC" />
+      </concept>
       <concept id="1221634900557" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_SubstituteMenu_Link" flags="nn" index="1J7kdh" />
       <concept id="6684862045052272180" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_SubstituteMenu_NodeToWrap" flags="ng" index="3N4pyC" />
       <concept id="6684862045052059649" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_WrapperHandler" flags="ig" index="3N5aqt" />
@@ -249,6 +253,7 @@
       <concept id="3921456275302774825" name="com.mbeddr.mpsutil.grammarcells.structure.SplittableCell" flags="sg" stub="3921456275302774831" index="2lNzut">
         <child id="3921456275305506525" name="tokenizer" index="2lD6_D" />
       </concept>
+      <concept id="1997572252229165641" name="com.mbeddr.mpsutil.grammarcells.structure.TransformationLocation_Before" flags="ng" index="wWMWC" />
       <concept id="5083944728300220902" name="com.mbeddr.mpsutil.grammarcells.structure.SubstituteCell" flags="ng" index="yw3OH">
         <child id="5083944728300220903" name="wrapped" index="yw3OG" />
       </concept>
@@ -585,7 +590,7 @@
         <ref role="1NtTu8" to="ibwz:6oKG1kMxn7U" resolve="type" />
         <node concept="NzKYa" id="1_3xoKEPL02" role="3vIgyS">
           <node concept="A1WHu" id="26grcKgnkBC" role="NzKYl">
-            <ref role="A1WHt" node="4RoNWgwUIbg" resolve="LocalVariableDeclaration_leftOfType" />
+            <ref role="A1WHt" node="4RoNWgwUIbg" resolve="LocalVariableDeclaration_beforeType" />
           </node>
         </node>
       </node>
@@ -628,7 +633,7 @@
         <ref role="1NtTu8" to="ibwz:RbLMy6d5VU" resolve="type" />
         <node concept="NzKYa" id="1_3xoKEPL0d" role="3vIgyS">
           <node concept="A1WHu" id="1_3xoKEG0d7" role="NzKYl">
-            <ref role="A1WHt" node="1_3xoKEEbbb" resolve="ArrayType_leftOfType" />
+            <ref role="A1WHt" node="1_3xoKEEbbb" resolve="ArrayType_beforeType" />
           </node>
         </node>
       </node>
@@ -1303,14 +1308,10 @@
   <node concept="3ICUPy" id="4RoNWgwUIbg">
     <ref role="aqKnT" to="ibwz:1x69Amke5PV" resolve="Type" />
     <node concept="22hDWg" id="4RoNWgwUIbY" role="22hAXT">
-      <property role="TrG5h" value="LocalVariableDeclaration_leftOfType" />
+      <property role="TrG5h" value="LocalVariableDeclaration_beforeType" />
     </node>
     <node concept="1Qtc8_" id="4RoNWgwUIc2" role="IW6Ez">
-      <node concept="3cWJ9i" id="4RoNWgwUIc6" role="1Qtc8$">
-        <node concept="CtIbL" id="4RoNWgwUIc8" role="CtIbM">
-          <property role="CtIbK" value="1A4kJjlVmVt/LEFT" />
-        </node>
-      </node>
+      <node concept="wWMWC" id="1ISNm4V$kzh" role="1Qtc8$" />
       <node concept="IWgqT" id="1_3xoKEJsRL" role="1Qtc8A">
         <node concept="1hCUdq" id="1_3xoKEJsRN" role="1hCUd6">
           <node concept="3clFbS" id="1_3xoKEJsRP" role="2VODD2">
@@ -1528,7 +1529,7 @@
   <node concept="3ICUPy" id="1_3xoKEEbbb">
     <ref role="aqKnT" to="ibwz:1x69Amke5PV" resolve="Type" />
     <node concept="22hDWg" id="1_3xoKEEbbc" role="22hAXT">
-      <property role="TrG5h" value="ArrayType_leftOfType" />
+      <property role="TrG5h" value="ArrayType_beforeType" />
     </node>
     <node concept="1Qtc8_" id="1_3xoKEEbbd" role="IW6Ez">
       <node concept="IWgqT" id="1_3xoKEJs9v" role="1Qtc8A">
@@ -1536,7 +1537,7 @@
           <node concept="3clFbS" id="1_3xoKEJs9z" role="2VODD2">
             <node concept="3clFbF" id="1_3xoKEJsgg" role="3cqZAp">
               <node concept="Xl_RD" id="1_3xoKEJsgf" role="3clFbG">
-                <property role="Xl_RC" value="ArrayType_leftOfType" />
+                <property role="Xl_RC" value="ArrayType_beforeType" />
               </node>
             </node>
           </node>
@@ -1584,9 +1585,32 @@
           </node>
         </node>
       </node>
-      <node concept="3cWJ9i" id="1_3xoKEEbbe" role="1Qtc8$">
-        <node concept="CtIbL" id="1_3xoKEEbbf" role="CtIbM">
+      <node concept="wWMWC" id="1ISNm4Vk2oj" role="1Qtc8$" />
+    </node>
+  </node>
+  <node concept="3INDKC" id="1ISNm4VruKt">
+    <property role="TrG5h" value="AvailableEverywhere" />
+    <node concept="A1WHr" id="1ISNm4VruKv" role="AmTjC">
+      <ref role="2ZyFGn" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+    <node concept="1Qtc8_" id="1ISNm4VruKy" role="IW6Ez">
+      <node concept="3cWJ9i" id="1ISNm4VruKA" role="1Qtc8$">
+        <node concept="CtIbL" id="1ISNm4VruKC" role="CtIbM">
           <property role="CtIbK" value="1A4kJjlVmVt/LEFT" />
+        </node>
+      </node>
+      <node concept="IWgqT" id="1ISNm4VruKS" role="1Qtc8A">
+        <node concept="1hCUdq" id="1ISNm4VruKT" role="1hCUd6">
+          <node concept="3clFbS" id="1ISNm4VruKU" role="2VODD2">
+            <node concept="3clFbF" id="1ISNm4VruPF" role="3cqZAp">
+              <node concept="Xl_RD" id="1ISNm4VruPE" role="3clFbG">
+                <property role="Xl_RC" value="GGGGGG" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="IWg2L" id="1ISNm4VruKV" role="IWgqQ">
+          <node concept="3clFbS" id="1ISNm4VruKW" role="2VODD2" />
         </node>
       </node>
     </node>

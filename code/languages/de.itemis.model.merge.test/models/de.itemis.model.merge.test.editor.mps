@@ -32,7 +32,7 @@
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
-      <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -59,7 +59,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="1EbzjT2RX4T">
-    <ref role="1XX52x" to="nemv:1EbzjT2RX4s" resolve="Vertices" />
+    <ref role="1XX52x" to="nemv:1EbzjT2RX4s" resolve="Vertex" />
     <node concept="3EZMnI" id="1EbzjT2S_$l" role="2wV5jI">
       <node concept="3F0ifn" id="1EbzjT2S_$s" role="3EZMnx">
         <property role="3F0ifm" value="V()" />
@@ -95,19 +95,19 @@
     <ref role="1XX52x" to="nemv:1EbzjT2RUYV" resolve="EmptyStatement" />
     <node concept="3F0ifn" id="1EbzjT2S2ka" role="2wV5jI" />
   </node>
-  <node concept="24kQdi" id="1EbzjT2Slrm">
-    <ref role="1XX52x" to="nemv:1EbzjT2ScxM" resolve="HasLabel" />
-    <node concept="3EZMnI" id="1EbzjT2Slrr" role="2wV5jI">
-      <node concept="3F0ifn" id="1EbzjT2Slrt" role="3EZMnx">
-        <property role="3F0ifm" value="hasLabel(" />
+  <node concept="24kQdi" id="7jyS5urbqXD">
+    <ref role="1XX52x" to="nemv:7jyS5urbqX9" resolve="Edge" />
+    <node concept="3EZMnI" id="7jyS5urbqXF" role="2wV5jI">
+      <node concept="3F1sOY" id="7jyS5urbqXP" role="3EZMnx">
+        <ref role="1NtTu8" to="nemv:7jyS5urbqXa" resolve="source" />
       </node>
-      <node concept="3F0A7n" id="1EbzjT2Slr_" role="3EZMnx">
-        <ref role="1NtTu8" to="nemv:1EbzjT2ScxN" resolve="labelName" />
+      <node concept="3F0ifn" id="7jyS5urbqXV" role="3EZMnx">
+        <property role="3F0ifm" value="=:=&gt;" />
       </node>
-      <node concept="3F0ifn" id="1EbzjT2SlrH" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
+      <node concept="2iRfu4" id="7jyS5urbqXI" role="2iSdaV" />
+      <node concept="3F1sOY" id="7jyS5urbqY8" role="3EZMnx">
+        <ref role="1NtTu8" to="nemv:7jyS5urbqXc" resolve="target" />
       </node>
-      <node concept="2iRfu4" id="1EbzjT2Slru" role="2iSdaV" />
     </node>
   </node>
 </model>

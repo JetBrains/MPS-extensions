@@ -77,6 +77,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1EbzjT2T4oC" resolve="PropertyPolicy" />
     </node>
+    <node concept="1TJgyj" id="7jyS5urbJZ5" role="1TKVEi">
+      <property role="IQ2ns" value="8422540920006574021" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="childPolicies" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7jyS5urbJZ2" resolve="ChildPolicy" />
+    </node>
     <node concept="PrWs8" id="1EbzjT2R$JV" role="PzmwI">
       <ref role="PrY4T" node="1EbzjT2R$JU" resolve="ModelMergeItem" />
     </node>
@@ -96,6 +103,7 @@
   <node concept="1TIwiD" id="1EbzjT2T4oC">
     <property role="EcuMT" value="1912777765298652712" />
     <property role="TrG5h" value="PropertyPolicy" />
+    <property role="3GE5qa" value="elementpolicies" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1EbzjT2T4Jd" role="1TKVEi">
       <property role="IQ2ns" value="1912777765298654157" />
@@ -175,6 +183,135 @@
     <property role="3GE5qa" value="function" />
     <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbByQ">
+    <property role="EcuMT" value="8422540920006539446" />
+    <property role="TrG5h" value="Drop" />
+    <property role="3GE5qa" value="action" />
+    <property role="34LRSv" value="Drop" />
+    <property role="R4oN_" value="Drops Item In Case Of Conflict" />
+    <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbByR">
+    <property role="EcuMT" value="8422540920006539447" />
+    <property role="TrG5h" value="Auto" />
+    <property role="3GE5qa" value="action" />
+    <property role="34LRSv" value="Auto" />
+    <property role="R4oN_" value="Do Some Magic (ToDo)" />
+    <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbFgb">
+    <property role="EcuMT" value="8422540920006554635" />
+    <property role="3GE5qa" value="elementpolicies" />
+    <property role="TrG5h" value="OptionalChildPolicy" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7jyS5urbFnA" role="1TKVEi">
+      <property role="IQ2ns" value="8422540920006555110" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="action" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2OVl" resolve="MergeAction" />
+    </node>
+    <node concept="1TJgyj" id="7jyS5urbFgc" role="1TKVEi">
+      <property role="IQ2ns" value="8422540920006554636" />
+      <property role="20kJfa" value="child" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7jyS5urbJZ3" role="PzmwI">
+      <ref role="PrY4T" node="7jyS5urbJZ2" resolve="ChildPolicy" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7jyS5urbJZ2">
+    <property role="EcuMT" value="8422540920006574018" />
+    <property role="3GE5qa" value="elementpolicies" />
+    <property role="TrG5h" value="ChildPolicy" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbTpb">
+    <property role="EcuMT" value="8422540920006612555" />
+    <property role="3GE5qa" value="elementpolicies" />
+    <property role="TrG5h" value="SingletonChildPolicy" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7jyS5urbTpc" role="1TKVEi">
+      <property role="IQ2ns" value="8422540920006555110" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="action" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2OVl" resolve="MergeAction" />
+    </node>
+    <node concept="1TJgyj" id="7jyS5urbTpd" role="1TKVEi">
+      <property role="IQ2ns" value="8422540920006554636" />
+      <property role="20kJfa" value="child" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7jyS5urbTpe" role="PzmwI">
+      <ref role="PrY4T" node="7jyS5urbJZ2" resolve="ChildPolicy" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7jyS5urbTpg">
+    <property role="TrG5h" value="MultiChildSubPolicy" />
+    <property role="3GE5qa" value="elementpolicies.subpolicy" />
+    <property role="EcuMT" value="8422540920006612559" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbTph">
+    <property role="EcuMT" value="8422540920006612561" />
+    <property role="3GE5qa" value="elementpolicies.subpolicy" />
+    <property role="TrG5h" value="ChildNewOnRight" />
+    <property role="R4oN_" value="New Element On The Right" />
+    <ref role="1TJDcQ" node="7jyS5urbTpo" resolve="AbstractSubPolicy" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbTpk">
+    <property role="EcuMT" value="8422540920006612564" />
+    <property role="3GE5qa" value="elementpolicies.subpolicy" />
+    <property role="TrG5h" value="ExistsOnlyOnLeft" />
+    <property role="R4oN_" value="Element Exists only On Left Side" />
+    <ref role="1TJDcQ" node="7jyS5urbTpo" resolve="AbstractSubPolicy" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbTpm">
+    <property role="EcuMT" value="8422540920006612566" />
+    <property role="3GE5qa" value="elementpolicies.subpolicy" />
+    <property role="TrG5h" value="Element" />
+    <property role="R4oN_" value="Element On Both Sides" />
+    <ref role="1TJDcQ" node="7jyS5urbTpo" resolve="AbstractSubPolicy" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbTpo">
+    <property role="EcuMT" value="8422540920006612568" />
+    <property role="3GE5qa" value="elementpolicies.subpolicy" />
+    <property role="TrG5h" value="AbstractSubPolicy" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7jyS5urbTpp" role="PzmwI">
+      <ref role="PrY4T" node="7jyS5urbTpg" resolve="MultiChildSubPolicy" />
+    </node>
+    <node concept="1TJgyj" id="7jyS5urbTpr" role="1TKVEi">
+      <property role="IQ2ns" value="8422540920006612571" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="action" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6zqIeMU2OVl" resolve="MergeAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7jyS5urbTpv">
+    <property role="EcuMT" value="8422540920006612575" />
+    <property role="3GE5qa" value="elementpolicies" />
+    <property role="TrG5h" value="MultiChildPolicy" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7jyS5urbTqj" role="1TKVEi">
+      <property role="IQ2ns" value="8422540920006612627" />
+      <property role="20kJfa" value="child" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="7jyS5urbTpw" role="1TKVEi">
+      <property role="IQ2ns" value="8422540920006612576" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="subPolicy" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7jyS5urbTpg" resolve="MultiChildSubPolicy" />
+    </node>
+    <node concept="PrWs8" id="7jyS5urc6U_" role="PzmwI">
+      <ref role="PrY4T" node="7jyS5urbJZ2" resolve="ChildPolicy" />
+    </node>
   </node>
 </model>
 

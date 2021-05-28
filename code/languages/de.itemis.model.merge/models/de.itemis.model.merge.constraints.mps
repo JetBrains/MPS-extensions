@@ -14,7 +14,8 @@
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
-    <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" implicit="true" />
+    <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
   </imports>
   <registry>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
@@ -22,9 +23,18 @@
         <reference id="1213093996982" name="concept" index="1M2myG" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="1M2fIO" id="1EbzjT2SHHS">
     <ref role="1M2myG" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+  </node>
+  <node concept="1M2fIO" id="1NgLzfPd_tj">
+    <property role="3GE5qa" value="elementpolicies" />
+    <ref role="1M2myG" to="mopj:1EbzjT2T4oC" resolve="PropertyPolicy" />
   </node>
 </model>
 

@@ -51,7 +51,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="1EbzjT2Scsk">
-    <ref role="13h7C2" to="nemv:1EbzjT2RX4s" resolve="Vertices" />
+    <ref role="13h7C2" to="nemv:1EbzjT2RX4s" resolve="Vertex" />
     <node concept="13hLZK" id="1EbzjT2Scsl" role="13h7CW">
       <node concept="3clFbS" id="1EbzjT2Scsm" role="2VODD2" />
     </node>
@@ -67,12 +67,6 @@
         </node>
       </node>
       <node concept="17QB3L" id="1EbzjT2Scs$" role="3clF45" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="1EbzjT2Scyh">
-    <ref role="13h7C2" to="nemv:1EbzjT2ScxM" resolve="HasLabel" />
-    <node concept="13hLZK" id="1EbzjT2Scyi" role="13h7CW">
-      <node concept="3clFbS" id="1EbzjT2Scyj" role="2VODD2" />
     </node>
   </node>
 </model>

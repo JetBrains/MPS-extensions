@@ -42,24 +42,11 @@
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
-      <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
-      <concept id="8422540920009126229" name="de.itemis.model.merge.structure.Keep" flags="ng" index="3JHL42" />
       <concept id="8422540920006554635" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="3JN5hs">
         <reference id="8422540920006554636" name="child" index="3JN5hr" />
         <child id="8422540920006555110" name="action" index="3JN5mL" />
       </concept>
       <concept id="8422540920006539447" name="de.itemis.model.merge.structure.Auto" flags="ng" index="3JN9zw" />
-      <concept id="8422540920006539446" name="de.itemis.model.merge.structure.Drop" flags="ng" index="3JN9zx" />
-      <concept id="8422540920006612566" name="de.itemis.model.merge.structure.Element" flags="ng" index="3JNno1" />
-      <concept id="8422540920006612564" name="de.itemis.model.merge.structure.ExistsOnlyOnLeft" flags="ng" index="3JNno3" />
-      <concept id="8422540920006612561" name="de.itemis.model.merge.structure.ChildNewOnRight" flags="ng" index="3JNno6" />
-      <concept id="8422540920006612575" name="de.itemis.model.merge.structure.MultiChildPolicy" flags="ng" index="3JNno8">
-        <reference id="8422540920006612627" name="child" index="3JNnr4" />
-        <child id="8422540920006612576" name="subPolicy" index="3JNnoR" />
-      </concept>
-      <concept id="8422540920006612568" name="de.itemis.model.merge.structure.AbstractSubPolicy" flags="ng" index="3JNnof">
-        <child id="8422540920006612571" name="action" index="3JNnoc" />
-      </concept>
       <concept id="8422540920006612555" name="de.itemis.model.merge.structure.SingletonChildPolicy" flags="ng" index="3JNnos">
         <reference id="8422540920006554636" name="child" index="3JN5hs" />
         <child id="8422540920006555110" name="action" index="3JN5mM" />
@@ -73,13 +60,13 @@
       <node concept="3gn64h" id="7jyS5urhSj6" role="1olatf">
         <ref role="3gnhBz" to="nemv:1EbzjT2RW2_" resolve="Graph" />
       </node>
-      <node concept="1orWGm" id="7jyS5urj4Gj" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7jyS5urb81Q" resolve="directed" />
-        <node concept="1orWrO" id="7jyS5urj4Gn" role="1orWrN" />
-      </node>
       <node concept="1orWGm" id="7jyS5urjoBh" role="1orW53">
         <ref role="3iOP7l" to="nemv:7jyS5urbqYt" resolve="loops" />
         <node concept="1orWrO" id="7jyS5urjVio" role="1orWrN" />
+      </node>
+      <node concept="1orWGm" id="39IQCXdjsoH" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urb81Q" resolve="directed" />
+        <node concept="3iOvoU" id="39IQCXdjsoS" role="1orWrN" />
       </node>
       <node concept="1orWGm" id="7jyS5urklBz" role="1orW53">
         <ref role="3iOP7l" to="nemv:7jyS5urb81S" resolve="multiedge" />
@@ -87,25 +74,9 @@
           <node concept="3clFbS" id="7jyS5urklBH" role="2VODD2" />
         </node>
       </node>
-      <node concept="3JNno8" id="7jyS5url9kG" role="3JN1Yi">
-        <ref role="3JNnr4" to="nemv:7jyS5urbqYd" resolve="edges" />
-        <node concept="3JNno6" id="7jyS5urmdkf" role="3JNnoR">
-          <node concept="3JHzSW" id="7jyS5urmdkj" role="3JNnoc" />
-        </node>
-      </node>
-      <node concept="3JNno8" id="7jyS5urmdkr" role="3JN1Yi">
-        <ref role="3JNnr4" to="nemv:7jyS5urbqYd" resolve="edges" />
-        <node concept="3JNno1" id="7jyS5urmdkx" role="3JNnoR">
-          <node concept="3DZp98" id="7jyS5urnwUy" role="3JNnoc">
-            <node concept="3clFbS" id="7jyS5urnwU$" role="2VODD2" />
-          </node>
-        </node>
-      </node>
-      <node concept="3JNno8" id="7jyS5urmdkK" role="3JN1Yi">
-        <ref role="3JNnr4" to="nemv:7jyS5urbqYd" resolve="edges" />
-        <node concept="3JNno3" id="7jyS5urmdkT" role="3JNnoR">
-          <node concept="3JHL42" id="7jyS5urn_cA" role="3JNnoc" />
-        </node>
+      <node concept="1orWGm" id="5nY1J0YOKDV" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbqX5" resolve="weighted" />
+        <node concept="1orWrO" id="5nY1J0YOVXD" role="1orWrN" />
       </node>
     </node>
     <node concept="1olsrb" id="7jyS5urmdlO" role="1olsr8">
@@ -120,19 +91,19 @@
         <ref role="3JN5hs" to="nemv:7jyS5urbqXa" resolve="source" />
         <node concept="3JN9zw" id="7jyS5urnwRe" role="3JN5mM" />
       </node>
-      <node concept="3JNnos" id="7jyS5urnwRl" role="3JN1Yi">
+      <node concept="3JNnos" id="39IQCXdkb6v" role="3JN1Yi">
         <ref role="3JN5hs" to="nemv:7jyS5urbqXc" resolve="target" />
-        <node concept="3iOvoU" id="7jyS5urnwRs" role="3JN5mM" />
+        <node concept="3JN9zw" id="39IQCXdkcuF" role="3JN5mM" />
       </node>
     </node>
     <node concept="1oluLK" id="7jyS5urnwRv" role="1olsr8" />
     <node concept="1olsrb" id="7jyS5urnwSs" role="1olsr8">
+      <node concept="3JN5hs" id="39IQCXdlD61" role="3JN1Yi">
+        <ref role="3JN5hr" to="nemv:7jyS5urbqY_" resolve="label" />
+        <node concept="3JN9zw" id="39IQCXdlD66" role="3JN5mL" />
+      </node>
       <node concept="3gn64h" id="7jyS5urnwSZ" role="1olatf">
         <ref role="3gnhBz" to="nemv:1EbzjT2RX4s" resolve="Vertex" />
-      </node>
-      <node concept="3JN5hs" id="7jyS5urnwT2" role="3JN1Yi">
-        <ref role="3JN5hr" to="nemv:7jyS5urbqY_" resolve="label" />
-        <node concept="3JN9zx" id="7jyS5urnwT9" role="3JN5mL" />
       </node>
     </node>
     <node concept="1olsrb" id="7jyS5urnwTJ" role="1olsr8">

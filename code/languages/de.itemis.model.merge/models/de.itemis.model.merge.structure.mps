@@ -313,5 +313,21 @@
       <ref role="PrY4T" node="7jyS5urbJZ2" resolve="ChildPolicy" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7jyS5urldTF">
+    <property role="EcuMT" value="8422540920009055851" />
+    <property role="TrG5h" value="Add" />
+    <property role="34LRSv" value="Add" />
+    <property role="3GE5qa" value="action" />
+    <property role="R4oN_" value="Add New Element" />
+    <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+  </node>
+  <node concept="1TIwiD" id="7jyS5urlv5l">
+    <property role="EcuMT" value="8422540920009126229" />
+    <property role="TrG5h" value="Keep" />
+    <property role="34LRSv" value="Keep" />
+    <property role="3GE5qa" value="action" />
+    <property role="R4oN_" value="Keep Element" />
+    <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
+  </node>
 </model>
 

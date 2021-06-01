@@ -536,7 +536,7 @@
     <property role="3GE5qa" value="elementpolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbFgb" resolve="OptionalChildPolicy" />
     <node concept="1N5Pfh" id="7jyS5urktDW" role="1Mr941">
-      <ref role="1N5Vy1" to="mopj:7jyS5urbFgc" resolve="child" />
+      <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
       <node concept="3dgokm" id="7jyS5urktGR" role="1N6uqs">
         <node concept="3clFbS" id="7jyS5urktGT" role="2VODD2">
           <node concept="3cpWs8" id="7jyS5urktW9" role="3cqZAp">
@@ -725,7 +725,7 @@
     <property role="3GE5qa" value="elementpolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbTpb" resolve="SingletonChildPolicy" />
     <node concept="1N5Pfh" id="7jyS5urkN7M" role="1Mr941">
-      <ref role="1N5Vy1" to="mopj:7jyS5urbTpd" resolve="child" />
+      <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
       <node concept="3dgokm" id="7jyS5urkNcB" role="1N6uqs">
         <node concept="3clFbS" id="7jyS5urkNcC" role="2VODD2">
           <node concept="3cpWs8" id="7jyS5urkNfX" role="3cqZAp">
@@ -911,7 +911,7 @@
     <property role="3GE5qa" value="elementpolicies" />
     <ref role="1M2myG" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
     <node concept="1N5Pfh" id="7jyS5urkOuO" role="1Mr941">
-      <ref role="1N5Vy1" to="mopj:7jyS5urbTqj" resolve="child" />
+      <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
       <node concept="3dgokm" id="7jyS5urkOwK" role="1N6uqs">
         <node concept="3clFbS" id="7jyS5urkOwL" role="2VODD2">
           <node concept="3cpWs8" id="7jyS5urkO$6" role="3cqZAp">

@@ -42,11 +42,22 @@
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
+      <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
       <concept id="8422540920006554635" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="3JN5hs">
         <reference id="8422540920006554636" name="child" index="3JN5hr" />
         <child id="8422540920006555110" name="action" index="3JN5mL" />
       </concept>
       <concept id="8422540920006539447" name="de.itemis.model.merge.structure.Auto" flags="ng" index="3JN9zw" />
+      <concept id="8422540920006539446" name="de.itemis.model.merge.structure.Drop" flags="ng" index="3JN9zx" />
+      <concept id="8422540920006612564" name="de.itemis.model.merge.structure.ExistsOnlyOnLeft" flags="ng" index="3JNno3" />
+      <concept id="8422540920006612561" name="de.itemis.model.merge.structure.ChildNewOnRight" flags="ng" index="3JNno6" />
+      <concept id="8422540920006612575" name="de.itemis.model.merge.structure.MultiChildPolicy" flags="ng" index="3JNno8">
+        <reference id="8422540920006612627" name="child" index="3JNnr4" />
+        <child id="8422540920006612576" name="subPolicy" index="3JNnoR" />
+      </concept>
+      <concept id="8422540920006612568" name="de.itemis.model.merge.structure.AbstractSubPolicy" flags="ng" index="3JNnof">
+        <child id="8422540920006612571" name="action" index="3JNnoc" />
+      </concept>
       <concept id="8422540920006612555" name="de.itemis.model.merge.structure.SingletonChildPolicy" flags="ng" index="3JNnos">
         <reference id="8422540920006554636" name="child" index="3JN5hs" />
         <child id="8422540920006555110" name="action" index="3JN5mM" />
@@ -74,9 +85,17 @@
           <node concept="3clFbS" id="7jyS5urklBH" role="2VODD2" />
         </node>
       </node>
-      <node concept="1orWGm" id="5nY1J0YOKDV" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7jyS5urbqX5" resolve="weighted" />
-        <node concept="1orWrO" id="5nY1J0YOVXD" role="1orWrN" />
+      <node concept="3JNno8" id="39IQCXdmmMW" role="3JN1Yi">
+        <ref role="3JNnr4" to="nemv:7jyS5urbqYd" resolve="edges" />
+        <node concept="3JNno3" id="39IQCXdmAhJ" role="3JNnoR">
+          <node concept="3JN9zx" id="39IQCXdmAhQ" role="3JNnoc" />
+        </node>
+        <node concept="3JNno6" id="39IQCXdnlRt" role="3JNnoR">
+          <node concept="3JHzSW" id="39IQCXdnlRA" role="3JNnoc" />
+        </node>
+        <node concept="3JNno6" id="39IQCXdmmN6" role="3JNnoR">
+          <node concept="3JHzSW" id="39IQCXdmmNa" role="3JNnoc" />
+        </node>
       </node>
     </node>
     <node concept="1olsrb" id="7jyS5urmdlO" role="1olsr8">
@@ -115,6 +134,10 @@
         <node concept="3DZp98" id="7jyS5urnAiW" role="3JN5mL">
           <node concept="3clFbS" id="7jyS5urnAiY" role="2VODD2" />
         </node>
+      </node>
+      <node concept="3JNnos" id="1VmHfRxCiXv" role="3JN1Yi">
+        <ref role="3JN5hs" to="nemv:7jyS5urn_cE" resolve="next" />
+        <node concept="3JN9zw" id="1VmHfRxCiXB" role="3JN5mM" />
       </node>
     </node>
   </node>

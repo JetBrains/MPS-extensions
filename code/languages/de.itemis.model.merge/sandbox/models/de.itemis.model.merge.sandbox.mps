@@ -48,7 +48,6 @@
         <child id="8422540920006555110" name="action" index="3JN5mL" />
       </concept>
       <concept id="8422540920006539447" name="de.itemis.model.merge.structure.Auto" flags="ng" index="3JN9zw" />
-      <concept id="8422540920006539446" name="de.itemis.model.merge.structure.Drop" flags="ng" index="3JN9zx" />
       <concept id="8422540920006612575" name="de.itemis.model.merge.structure.MultiChildPolicy" flags="ng" index="3JNno8">
         <reference id="8422540920006612627" name="child" index="3JNnr4" />
         <child id="8422540920006612576" name="subPolicy" index="3JNnoR" />
@@ -84,21 +83,11 @@
           <node concept="3clFbS" id="7jyS5urklBH" role="2VODD2" />
         </node>
       </node>
-      <node concept="3JNno8" id="1VmHfRxLao5" role="3JN1Yi">
+      <node concept="3JNno8" id="1VmHfRxQTCc" role="3JN1Yi">
         <ref role="3JNnr4" to="nemv:7jyS5urbqYd" resolve="edges" />
-        <node concept="3Z5p37" id="1VmHfRxLao7" role="3JNnoR">
+        <node concept="3Z5p37" id="1VmHfRxTbI1" role="3JNnoR">
           <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
-          <node concept="3JHzSW" id="1VmHfRxLJyS" role="3Z4xbE" />
-        </node>
-        <node concept="3Z5p37" id="1VmHfRxLJz2" role="3JNnoR">
-          <property role="3Z5p36" value="1VmHfRxJErz/Element" />
-          <node concept="3JN9zx" id="1VmHfRxLJz8" role="3Z4xbE" />
-        </node>
-        <node concept="3Z5p37" id="1VmHfRxLJzn" role="3JNnoR">
-          <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
-          <node concept="3DZp98" id="1VmHfRxLJzv" role="3Z4xbE">
-            <node concept="3clFbS" id="1VmHfRxLJzx" role="2VODD2" />
-          </node>
+          <node concept="3JHzSW" id="1VmHfRxTFFF" role="3Z4xbE" />
         </node>
       </node>
     </node>

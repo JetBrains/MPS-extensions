@@ -179,7 +179,7 @@
     <property role="EcuMT" value="2076377354676914333" />
     <property role="TrG5h" value="ActionFunctionLeftParam" />
     <property role="34LRSv" value="left" />
-    <property role="3GE5qa" value="function" />
+    <property role="3GE5qa" value="manualfunction" />
     <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
@@ -187,7 +187,7 @@
     <property role="EcuMT" value="2076377354676997475" />
     <property role="TrG5h" value="ActionFunctionRightParam" />
     <property role="34LRSv" value="right" />
-    <property role="3GE5qa" value="function" />
+    <property role="3GE5qa" value="manualfunction" />
     <property role="R4oN_" value="Keep Right Version, Omit Left Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
@@ -195,7 +195,7 @@
     <property role="EcuMT" value="2076377354676997476" />
     <property role="TrG5h" value="ActionFunctionInProgressParam" />
     <property role="34LRSv" value="mergedInProgress" />
-    <property role="3GE5qa" value="function" />
+    <property role="3GE5qa" value="manualfunction" />
     <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>

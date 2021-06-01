@@ -9,10 +9,12 @@
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="rnx3" ref="r:424d540e-f1fc-49a5-b16d-3f9264b84dee(de.itemis.model.merge.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -52,6 +54,10 @@
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
     </language>
@@ -119,6 +125,9 @@
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -159,7 +168,7 @@
   </registry>
   <node concept="1YbPZF" id="1NgLzfPbYwK">
     <property role="TrG5h" value="typeof_ActionFunctionParam" />
-    <property role="3GE5qa" value="function" />
+    <property role="3GE5qa" value="manualfunction" />
     <node concept="3clFbS" id="1NgLzfPbYwL" role="18ibNy">
       <node concept="3cpWs8" id="1NgLzfPbZto" role="3cqZAp">
         <node concept="3cpWsn" id="1NgLzfPbZtp" role="3cpWs9">
@@ -383,6 +392,92 @@
     <node concept="1YaCAy" id="1VmHfRxDtD6" role="1YuTPh">
       <property role="TrG5h" value="mergePolicy" />
       <ref role="1YaFvo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1VmHfRxTFH9">
+    <property role="TrG5h" value="check_MultiChildPolicy" />
+    <property role="3GE5qa" value="elementpolicies" />
+    <node concept="3clFbS" id="1VmHfRxTFHa" role="18ibNy">
+      <node concept="3clFbH" id="1VmHfRxTQ6U" role="3cqZAp" />
+      <node concept="3cpWs8" id="1VmHfRxTGR9" role="3cqZAp">
+        <node concept="3cpWsn" id="1VmHfRxTGRa" role="3cpWs9">
+          <property role="TrG5h" value="subPolicyBuffer" />
+          <node concept="3uibUv" id="1VmHfRxUzjT" role="1tU5fm">
+            <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
+          </node>
+          <node concept="2ShNRf" id="1VmHfRxUT5e" role="33vP2m">
+            <node concept="2i4dXS" id="1VmHfRxUTGa" role="2ShVmc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1VmHfRxUU3J" role="3cqZAp" />
+      <node concept="3clFbH" id="1VmHfRxTMnc" role="3cqZAp" />
+      <node concept="2Gpval" id="1VmHfRxTL_s" role="3cqZAp">
+        <node concept="2GrKxI" id="1VmHfRxTL_u" role="2Gsz3X">
+          <property role="TrG5h" value="subPolicycontainer" />
+        </node>
+        <node concept="2OqwBi" id="1VmHfRxTME7" role="2GsD0m">
+          <node concept="1YBJjd" id="1VmHfRxTLLD" role="2Oq$k0">
+            <ref role="1YBMHb" node="1VmHfRxTFHc" resolve="multiChildPolicy" />
+          </node>
+          <node concept="3Tsc0h" id="1VmHfRxTMOD" role="2OqNvi">
+            <ref role="3TtcxE" to="mopj:7jyS5urbTpw" resolve="subPolicy" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="1VmHfRxTL_y" role="2LFqv$">
+          <node concept="3clFbJ" id="1VmHfRxTMZh" role="3cqZAp">
+            <node concept="2OqwBi" id="1VmHfRxTNhx" role="3clFbw">
+              <node concept="37vLTw" id="1VmHfRxTMZw" role="2Oq$k0">
+                <ref role="3cqZAo" node="1VmHfRxTGRa" resolve="subPolicyBuffer" />
+              </node>
+              <node concept="liA8E" id="1VmHfRxTNyZ" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Set.contains(java.lang.Object)" resolve="contains" />
+                <node concept="2OqwBi" id="1VmHfRxTNAo" role="37wK5m">
+                  <node concept="2GrUjf" id="1VmHfRxTNA1" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="1VmHfRxTL_u" resolve="subPolicycontainer" />
+                  </node>
+                  <node concept="3TrcHB" id="1VmHfRxTNNp" role="2OqNvi">
+                    <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="1VmHfRxTMZj" role="3clFbx">
+              <node concept="2MkqsV" id="1VmHfRxTNQd" role="3cqZAp">
+                <node concept="Xl_RD" id="1VmHfRxTNQp" role="2MkJ7o">
+                  <property role="Xl_RC" value="Duplicate Subpolicy" />
+                </node>
+                <node concept="2GrUjf" id="1VmHfRxTNQ$" role="1urrMF">
+                  <ref role="2Gs0qQ" node="1VmHfRxTL_u" resolve="subPolicycontainer" />
+                </node>
+              </node>
+              <node concept="3zACq4" id="1VmHfRxVgxO" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="1VmHfRxVfeO" role="3cqZAp">
+            <node concept="2OqwBi" id="1VmHfRxVfsA" role="3clFbG">
+              <node concept="37vLTw" id="1VmHfRxVfeM" role="2Oq$k0">
+                <ref role="3cqZAo" node="1VmHfRxTGRa" resolve="subPolicyBuffer" />
+              </node>
+              <node concept="liA8E" id="1VmHfRxVfP7" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object)" resolve="add" />
+                <node concept="2OqwBi" id="1VmHfRxVg8_" role="37wK5m">
+                  <node concept="2GrUjf" id="1VmHfRxVfTE" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="1VmHfRxTL_u" resolve="subPolicycontainer" />
+                  </node>
+                  <node concept="3TrcHB" id="1VmHfRxVgoB" role="2OqNvi">
+                    <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1VmHfRxTFHc" role="1YuTPh">
+      <property role="TrG5h" value="multiChildPolicy" />
+      <ref role="1YaFvo" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
     </node>
   </node>
 </model>

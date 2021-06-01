@@ -1115,6 +1115,7 @@
   </node>
   <node concept="3dRTYf" id="39IQCXdoK1Z">
     <property role="TrG5h" value="ChildPolicyCS" />
+    <property role="3GE5qa" value="CompletionStyle" />
     <node concept="3Tm1VV" id="39IQCXdoK20" role="1B3o_S" />
     <node concept="3lBaaS" id="39IQCXdoK22" role="3l$a4r">
       <node concept="3clFbS" id="39IQCXdoK23" role="2VODD2">
@@ -1223,11 +1224,11 @@
     <property role="3GE5qa" value="elementpolicies.subpolicy" />
     <ref role="1XX52x" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
     <node concept="3EZMnI" id="1VmHfRxLaor" role="2wV5jI">
-      <node concept="3F0A7n" id="1VmHfRxLodo" role="3EZMnx">
+      <node concept="3F0A7n" id="1VmHfRxQTCC" role="3EZMnx">
         <ref role="1NtTu8" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
       </node>
       <node concept="3F0ifn" id="1VmHfRxLaoC" role="3EZMnx">
-        <property role="3F0ifm" value="-&gt;" />
+        <property role="3F0ifm" value=":" />
       </node>
       <node concept="2iRfu4" id="1VmHfRxLaou" role="2iSdaV" />
       <node concept="3F1sOY" id="1VmHfRxLaoK" role="3EZMnx">

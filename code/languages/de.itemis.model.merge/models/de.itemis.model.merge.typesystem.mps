@@ -11,6 +11,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="rnx3" ref="r:424d540e-f1fc-49a5-b16d-3f9264b84dee(de.itemis.model.merge.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -119,6 +120,7 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -473,6 +475,106 @@
     <node concept="1YaCAy" id="1VmHfRxTFHc" role="1YuTPh">
       <property role="TrG5h" value="multiChildPolicy" />
       <ref role="1YaFvo" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2dyrZ3FogZg">
+    <property role="TrG5h" value="check_SubPolicyContainer" />
+    <property role="3GE5qa" value="elementpolicies.subpolicy" />
+    <node concept="3clFbS" id="2dyrZ3FogZh" role="18ibNy">
+      <node concept="3clFbH" id="2dyrZ3FohjL" role="3cqZAp" />
+      <node concept="3cpWs8" id="2dyrZ3Fomd5" role="3cqZAp">
+        <node concept="3cpWsn" id="2dyrZ3Fomd6" role="3cpWs9">
+          <property role="TrG5h" value="buffer" />
+          <node concept="2hMVRd" id="2dyrZ3Fomce" role="1tU5fm">
+            <node concept="3uibUv" id="2dyrZ3Fompt" role="2hN53Y">
+              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+            </node>
+          </node>
+          <node concept="2ShNRf" id="2dyrZ3Fomd7" role="33vP2m">
+            <node concept="2i4dXS" id="2dyrZ3Fomd8" role="2ShVmc">
+              <node concept="3uibUv" id="2dyrZ3FomyR" role="HW$YZ">
+                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2dyrZ3FoOQN" role="3cqZAp" />
+      <node concept="2Gpval" id="2dyrZ3FoP01" role="3cqZAp">
+        <node concept="2GrKxI" id="2dyrZ3FoP03" role="2Gsz3X">
+          <property role="TrG5h" value="subPolicyContainer2" />
+        </node>
+        <node concept="2OqwBi" id="2dyrZ3FoQzS" role="2GsD0m">
+          <node concept="2OqwBi" id="2dyrZ3FoPcv" role="2Oq$k0">
+            <node concept="1YBJjd" id="2dyrZ3FoP2K" role="2Oq$k0">
+              <ref role="1YBMHb" node="2dyrZ3FogZj" resolve="subPolicyContainer" />
+            </node>
+            <node concept="2Xjw5R" id="2dyrZ3FoPHl" role="2OqNvi">
+              <node concept="1xMEDy" id="2dyrZ3FoPHn" role="1xVPHs">
+                <node concept="chp4Y" id="2dyrZ3FoPJq" role="ri$Ld">
+                  <ref role="cht4Q" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
+                </node>
+              </node>
+              <node concept="1xIGOp" id="2dyrZ3FoQg8" role="1xVPHs" />
+            </node>
+          </node>
+          <node concept="3Tsc0h" id="2dyrZ3FoRaV" role="2OqNvi">
+            <ref role="3TtcxE" to="mopj:7jyS5urbTpw" resolve="subPolicy" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="2dyrZ3FoP07" role="2LFqv$">
+          <node concept="3clFbJ" id="2dyrZ3FoSce" role="3cqZAp">
+            <node concept="2OqwBi" id="2dyrZ3FoSRB" role="3clFbw">
+              <node concept="37vLTw" id="2dyrZ3FoScq" role="2Oq$k0">
+                <ref role="3cqZAo" node="2dyrZ3Fomd6" resolve="buffer" />
+              </node>
+              <node concept="3JPx81" id="2dyrZ3FoTt1" role="2OqNvi">
+                <node concept="2OqwBi" id="2dyrZ3FoTCQ" role="25WWJ7">
+                  <node concept="2GrUjf" id="2dyrZ3FoTux" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="2dyrZ3FoP03" resolve="subPolicyContainer2" />
+                  </node>
+                  <node concept="3TrcHB" id="2dyrZ3FoU7R" role="2OqNvi">
+                    <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2dyrZ3FoScg" role="3clFbx">
+              <node concept="2MkqsV" id="2dyrZ3FordR" role="3cqZAp">
+                <node concept="Xl_RD" id="2dyrZ3Fore6" role="2MkJ7o">
+                  <property role="Xl_RC" value="SubPolicy already defined." />
+                </node>
+                <node concept="2GrUjf" id="2dyrZ3FoV9R" role="1urrMF">
+                  <ref role="2Gs0qQ" node="2dyrZ3FoP03" resolve="subPolicyContainer2" />
+                </node>
+              </node>
+              <node concept="3zACq4" id="2dyrZ3FoVjY" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="2dyrZ3FoVkk" role="3cqZAp">
+            <node concept="2OqwBi" id="2dyrZ3FoVSx" role="3clFbG">
+              <node concept="37vLTw" id="2dyrZ3FoVki" role="2Oq$k0">
+                <ref role="3cqZAo" node="2dyrZ3Fomd6" resolve="buffer" />
+              </node>
+              <node concept="TSZUe" id="2dyrZ3FoWtT" role="2OqNvi">
+                <node concept="2OqwBi" id="2dyrZ3FoWSE" role="25WWJ7">
+                  <node concept="2GrUjf" id="2dyrZ3FoWw4" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="2dyrZ3FoP03" resolve="subPolicyContainer2" />
+                  </node>
+                  <node concept="3TrcHB" id="2dyrZ3FoYiA" role="2OqNvi">
+                    <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2dyrZ3FoiEu" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="2dyrZ3FogZj" role="1YuTPh">
+      <property role="TrG5h" value="subPolicyContainer" />
+      <ref role="1YaFvo" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
     </node>
   </node>
 </model>

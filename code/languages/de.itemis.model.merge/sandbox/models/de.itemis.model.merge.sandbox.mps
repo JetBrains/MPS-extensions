@@ -44,6 +44,12 @@
     <node concept="1olsrb" id="3BP4DuXzdqf" role="1olsr8">
       <ref role="24zOxU" to="nemv:1EbzjT2RW2_" resolve="Graph" />
     </node>
+    <node concept="1olsrb" id="2dyrZ3FeEwS" role="1olsr8">
+      <ref role="24zOxU" to="nemv:7jyS5urbqYC" resolve="EdgeRef" />
+    </node>
+    <node concept="1olsrb" id="2dyrZ3Ffrgk" role="1olsr8">
+      <ref role="24zOxU" to="nemv:7jyS5urbqYy" resolve="Label" />
+    </node>
     <node concept="pHN19" id="1VmHfRy6LP$" role="3WPhuS">
       <node concept="2V$Bhx" id="1VmHfRy6LPD" role="2V$M_3">
         <property role="2V$B1T" value="f04d029d-250e-4e43-8c30-28763b47bc55" />

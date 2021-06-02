@@ -284,6 +284,16 @@
         </node>
         <node concept="2iRfu4" id="1EbzjT2RJrN" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="1VmHfRy0UfQ" role="3EZMnx">
+        <node concept="VPM3Z" id="1VmHfRy0UfS" role="3F10Kt" />
+        <node concept="3F0ifn" id="1VmHfRy0UfU" role="3EZMnx">
+          <property role="3F0ifm" value="Lang:" />
+        </node>
+        <node concept="2iRfu4" id="1VmHfRy0UfV" role="2iSdaV" />
+        <node concept="3F1sOY" id="1VmHfRy0Ugf" role="3EZMnx">
+          <ref role="1NtTu8" to="mopj:1VmHfRy0Ud5" resolve="lang" />
+        </node>
+      </node>
       <node concept="3F2HdR" id="1EbzjT2RA56" role="3EZMnx">
         <ref role="1NtTu8" to="mopj:1EbzjT2R$JQ" resolve="items" />
         <node concept="2iRkQZ" id="1EbzjT2RA58" role="2czzBx" />
@@ -314,8 +324,14 @@
           <property role="3F0ifm" value="Merge Policy:" />
         </node>
         <node concept="2iRfu4" id="1EbzjT2RQ9f" role="2iSdaV" />
-        <node concept="3F1sOY" id="1EbzjT2RQ9n" role="3EZMnx">
-          <ref role="1NtTu8" to="mopj:1EbzjT2RMDL" resolve="concept" />
+        <node concept="1iCGBv" id="3BP4DuXu_GH" role="3EZMnx">
+          <ref role="1NtTu8" to="mopj:3BP4DuXu_FH" resolve="conceptRef" />
+          <node concept="1sVBvm" id="3BP4DuXu_GJ" role="1sWHZn">
+            <node concept="3F0A7n" id="3BP4DuXu_GR" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3EZMnI" id="6zqIeMU2qge" role="3EZMnx">

@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
@@ -71,6 +72,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1EbzjT2R$JU" resolve="ModelMergeItem" />
     </node>
+    <node concept="1TJgyj" id="1VmHfRy0Ud5" role="1TKVEi">
+      <property role="IQ2ns" value="2222162468665533253" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lang" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tp25:3TEgbCBRn3N" resolve="LanguageRefExpression" />
+    </node>
     <node concept="PrWs8" id="4mbxYkJdXnB" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -78,12 +86,11 @@
   <node concept="1TIwiD" id="1EbzjT2R$JP">
     <property role="EcuMT" value="1912777765298260981" />
     <property role="TrG5h" value="MergePolicy" />
-    <node concept="1TJgyj" id="1EbzjT2RMDL" role="1TKVEi">
-      <property role="IQ2ns" value="1912777765298317937" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="concept" />
+    <node concept="1TJgyj" id="3BP4DuXu_FH" role="1TKVEi">
+      <property role="IQ2ns" value="4176264672384277229" />
+      <property role="20kJfa" value="conceptRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tp25:gNgn60t" resolve="ConceptReference" />
+      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
     <node concept="1TJgyj" id="1EbzjT2T4LX" role="1TKVEi">
       <property role="IQ2ns" value="1912777765298654333" />

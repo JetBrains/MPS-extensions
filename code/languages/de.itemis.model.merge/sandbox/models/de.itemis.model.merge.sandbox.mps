@@ -84,6 +84,13 @@
     <property role="TrG5h" value="Lala" />
     <node concept="1oluLK" id="1VmHfRy6Yix" role="1olsr8" />
     <node concept="1oluLK" id="3BP4DuXz2$W" role="1olsr8" />
+    <node concept="1olsrb" id="5zr7Q_1S5bj" role="1olsr8">
+      <ref role="24zOxU" to="nemv:5zr7Q_1RZlS" resolve="AbstractEdge" />
+      <node concept="3JNnos" id="5zr7Q_1S5bU" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1RZlT" resolve="label" />
+        <node concept="3JN9zw" id="5zr7Q_1S5bY" role="3JN5mM" />
+      </node>
+    </node>
     <node concept="1olsrb" id="3BP4DuXzdq9" role="1olsr8">
       <ref role="24zOxU" to="nemv:7jyS5urbqX9" resolve="Edge" />
       <node concept="3JNnos" id="2dyrZ3Fi6Nh" role="3JN1Yi">
@@ -93,6 +100,25 @@
       <node concept="3JNnos" id="2dyrZ3Fi6Ns" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqXc" resolve="target" />
         <node concept="1orWrO" id="2dyrZ3Fi6Nz" role="3JN5mM" />
+      </node>
+      <node concept="3JNnos" id="5zr7Q_1Zfii" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1RZlT" resolve="label" />
+        <node concept="1orWrO" id="5zr7Q_1Zfir" role="3JN5mM" />
+      </node>
+      <node concept="3JN5hs" id="5zr7Q_1ZgWV" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1ZgwN" resolve="hiddenLabel" />
+        <node concept="3JN9zx" id="5zr7Q_1ZgX6" role="3JN5mL" />
+      </node>
+      <node concept="3JNno8" id="5zr7Q_1ZhpH" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1ZgX9" resolve="optLabels" />
+        <node concept="3Z5p37" id="5zr7Q_1ZhpS" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHzSW" id="5zr7Q_1ZhpW" role="3Z4xbE" />
+        </node>
+      </node>
+      <node concept="1orWGm" id="5zr7Q_1W4O3" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
+        <node concept="1orWrO" id="5zr7Q_1W4O7" role="1orWrN" />
       </node>
     </node>
     <node concept="1olsrb" id="3BP4DuXzdqf" role="1olsr8">
@@ -149,7 +175,13 @@
         <node concept="3iOvoU" id="5zr7Q_1L8Ci" role="3JN5mL" />
       </node>
     </node>
-    <node concept="1oluLK" id="5zr7Q_1Rjhg" role="1olsr8" />
+    <node concept="1olsrb" id="5zr7Q_1RZl5" role="1olsr8">
+      <ref role="24zOxU" to="nemv:5zr7Q_1QNcj" resolve="EdgeLike" />
+      <node concept="1orWGm" id="5zr7Q_1RZlD" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
+        <node concept="3iOvoU" id="5zr7Q_1RZlH" role="1orWrN" />
+      </node>
+    </node>
     <node concept="1oluLK" id="5zr7Q_1RjhM" role="1olsr8" />
     <node concept="1oluLK" id="2dyrZ3Fg6g0" role="1olsr8" />
     <node concept="pHN19" id="1VmHfRy6LP$" role="3WPhuS">

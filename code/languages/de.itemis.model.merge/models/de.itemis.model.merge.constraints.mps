@@ -267,7 +267,7 @@
                   <node concept="2Xjw5R" id="3BP4DuXwMDY" role="2OqNvi">
                     <node concept="1xMEDy" id="3BP4DuXwMDZ" role="1xVPHs">
                       <node concept="chp4Y" id="3BP4DuXwME0" role="ri$Ld">
-                        <ref role="cht4Q" to="mopj:1EbzjT2RcU7" resolve="ModelMergeChunk" />
+                        <ref role="cht4Q" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
                       </node>
                     </node>
                   </node>

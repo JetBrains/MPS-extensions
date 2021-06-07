@@ -12,6 +12,8 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="rnx3" ref="r:424d540e-f1fc-49a5-b16d-3f9264b84dee(de.itemis.model.merge.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="xlb7" ref="r:cf42fd0a-68d2-493b-8b77-961658617704(jetbrains.mps.lang.modelapi.behavior)" implicit="true" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -35,6 +37,8 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -59,6 +63,10 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
     </language>
@@ -575,6 +583,102 @@
     <node concept="1YaCAy" id="2dyrZ3FogZj" role="1YuTPh">
       <property role="TrG5h" value="subPolicyContainer" />
       <ref role="1YaFvo" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5zr7Q_1KhnX">
+    <property role="TrG5h" value="check_MergeModelExecution" />
+    <node concept="3clFbS" id="5zr7Q_1KhnY" role="18ibNy">
+      <node concept="3clFbJ" id="5zr7Q_1Kho4" role="3cqZAp">
+        <node concept="17R0WA" id="5zr7Q_1KhV6" role="3clFbw">
+          <node concept="2OqwBi" id="5zr7Q_1L0J0" role="3uHU7w">
+            <node concept="2OqwBi" id="5zr7Q_1L0sF" role="2Oq$k0">
+              <node concept="2OqwBi" id="5zr7Q_1Km7F" role="2Oq$k0">
+                <node concept="2OqwBi" id="5zr7Q_1Ki1F" role="2Oq$k0">
+                  <node concept="1YBJjd" id="5zr7Q_1KhV_" role="2Oq$k0">
+                    <ref role="1YBMHb" node="5zr7Q_1Kho0" resolve="mergeModelExecution" />
+                  </node>
+                  <node concept="3TrEf2" id="5zr7Q_1Kig9" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mopj:5zr7Q_1JULP" resolve="right" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="5zr7Q_1KmlU" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tp25:1Bs_61$ngwB" resolve="modelRef" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5zr7Q_1L0BM" role="2OqNvi">
+                <ref role="37wK5l" to="xlb7:1Bs_61$mvvu" resolve="toModelReference" />
+              </node>
+            </node>
+            <node concept="liA8E" id="5zr7Q_1L0Re" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SModelReference.getModelId()" resolve="getModelId" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5zr7Q_1L0co" role="3uHU7B">
+            <node concept="2OqwBi" id="5zr7Q_1KZGR" role="2Oq$k0">
+              <node concept="2OqwBi" id="5zr7Q_1Klvd" role="2Oq$k0">
+                <node concept="2OqwBi" id="5zr7Q_1KhyN" role="2Oq$k0">
+                  <node concept="1YBJjd" id="5zr7Q_1Khog" role="2Oq$k0">
+                    <ref role="1YBMHb" node="5zr7Q_1Kho0" resolve="mergeModelExecution" />
+                  </node>
+                  <node concept="3TrEf2" id="5zr7Q_1KhHN" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mopj:5zr7Q_1Jvjo" resolve="left" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="5zr7Q_1KlJv" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tp25:1Bs_61$ngwB" resolve="modelRef" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5zr7Q_1KZWD" role="2OqNvi">
+                <ref role="37wK5l" to="xlb7:1Bs_61$mvvu" resolve="toModelReference" />
+              </node>
+            </node>
+            <node concept="liA8E" id="5zr7Q_1L0m4" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SModelReference.getModelId()" resolve="getModelId" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="5zr7Q_1Kho6" role="3clFbx">
+          <node concept="3cpWs8" id="5zr7Q_1L4U2" role="3cqZAp">
+            <node concept="3cpWsn" id="5zr7Q_1L4U3" role="3cpWs9">
+              <property role="TrG5h" value="msg" />
+              <node concept="17QB3L" id="5zr7Q_1L4AM" role="1tU5fm" />
+              <node concept="Xl_RD" id="5zr7Q_1L4U4" role="33vP2m">
+                <property role="Xl_RC" value="Left and Right must be different" />
+              </node>
+            </node>
+          </node>
+          <node concept="2MkqsV" id="5zr7Q_1KigA" role="3cqZAp">
+            <node concept="37vLTw" id="5zr7Q_1L4U5" role="2MkJ7o">
+              <ref role="3cqZAo" node="5zr7Q_1L4U3" resolve="msg" />
+            </node>
+            <node concept="2OqwBi" id="5zr7Q_1L4_B" role="1urrMF">
+              <node concept="1YBJjd" id="5zr7Q_1Kiia" role="2Oq$k0">
+                <ref role="1YBMHb" node="5zr7Q_1Kho0" resolve="mergeModelExecution" />
+              </node>
+              <node concept="3TrEf2" id="5zr7Q_1L4TM" role="2OqNvi">
+                <ref role="3Tt5mk" to="mopj:5zr7Q_1Jvjo" resolve="left" />
+              </node>
+            </node>
+          </node>
+          <node concept="2MkqsV" id="5zr7Q_1L5g7" role="3cqZAp">
+            <node concept="37vLTw" id="5zr7Q_1L5gv" role="2MkJ7o">
+              <ref role="3cqZAo" node="5zr7Q_1L4U3" resolve="msg" />
+            </node>
+            <node concept="2OqwBi" id="5zr7Q_1L5pp" role="1urrMF">
+              <node concept="1YBJjd" id="5zr7Q_1L5gE" role="2Oq$k0">
+                <ref role="1YBMHb" node="5zr7Q_1Kho0" resolve="mergeModelExecution" />
+              </node>
+              <node concept="3TrEf2" id="5zr7Q_1L5$R" role="2OqNvi">
+                <ref role="3Tt5mk" to="mopj:5zr7Q_1JULP" resolve="right" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5zr7Q_1Kho0" role="1YuTPh">
+      <property role="TrG5h" value="mergeModelExecution" />
+      <ref role="1YaFvo" to="mopj:5zr7Q_1InAA" resolve="MergeModelExecution" />
     </node>
   </node>
 </model>

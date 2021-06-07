@@ -4,6 +4,7 @@
   <languages>
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
     <use id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.test" version="0" />
+    <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
   </languages>
   <imports>
     <import index="nemv" ref="r:cbfc4dc0-71bd-4b78-b0cd-ef42a7a7042d(de.itemis.model.merge.test.structure)" />
@@ -15,6 +16,15 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
     </language>
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
+        <property id="1863527487546097494" name="modelId" index="1XweGQ" />
+        <child id="679099339649067980" name="name" index="1j$8Uc" />
+      </concept>
+      <concept id="679099339649053840" name="jetbrains.mps.lang.modelapi.structure.ModelName" flags="ng" index="1j_P7g">
+        <property id="679099339649053841" name="value" index="1j_P7h" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
         <child id="3542851458883491298" name="languageId" index="2V$M_3" />
@@ -23,6 +33,9 @@
         <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
       </concept>
+      <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
+        <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -30,6 +43,11 @@
       </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
+      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.MergeModelExecution" flags="ng" index="poArf">
+        <reference id="6402745832172080681" name="modelMerge" index="pot50" />
+        <child id="6402745832172399733" name="right" index="ppbcs" />
+        <child id="6402745832172287192" name="left" index="ppIIL" />
+      </concept>
       <concept id="7555554651740524246" name="de.itemis.model.merge.structure.Right" flags="ng" index="3iOvoU" />
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.MergePolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
@@ -37,7 +55,7 @@
         <child id="8422540920006574021" name="childPolicies" index="3JN1Yi" />
       </concept>
       <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergeItem" flags="ng" index="1oluLK" />
-      <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMergeChunk" flags="ng" index="1olOeT">
+      <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMerge" flags="ng" index="1olOeT">
         <child id="1912777765298260982" name="items" index="1olsr8" />
         <child id="2222162468665533253" name="lang" index="3WPhuS" />
       </concept>
@@ -48,16 +66,13 @@
       </concept>
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
       <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
-      <concept id="8422540920006554635" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="3JN5hs">
-        <child id="8422540920006555110" name="action" index="3JN5mL" />
-      </concept>
       <concept id="8422540920006539447" name="de.itemis.model.merge.structure.Auto" flags="ng" index="3JN9zw" />
       <concept id="8422540920006539446" name="de.itemis.model.merge.structure.Drop" flags="ng" index="3JN9zx" />
       <concept id="8422540920006612575" name="de.itemis.model.merge.structure.MultiChildPolicy" flags="ng" index="3JNno8">
         <child id="8422540920006612576" name="subPolicy" index="3JNnoR" />
       </concept>
       <concept id="8422540920006612555" name="de.itemis.model.merge.structure.SingletonChildPolicy" flags="ng" index="3JNnos">
-        <child id="8422540920006555110" name="action" index="3JN5mM" />
+        <child id="8422540920006555110" name="action" index="3JN5mL" />
       </concept>
       <concept id="2222162468661306426" name="de.itemis.model.merge.structure.SubPolicyContainer" flags="ng" index="3Z5p37">
         <property id="2222162468661306427" name="subPolicy" index="3Z5p36" />
@@ -82,11 +97,11 @@
       </node>
       <node concept="3JNnos" id="2dyrZ3Fi6Nh" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqXa" resolve="source" />
-        <node concept="3JN9zw" id="2dyrZ3Fi6Nl" role="3JN5mM" />
+        <node concept="3JN9zw" id="2dyrZ3Fi6Nl" role="3JN5mL" />
       </node>
       <node concept="3JNnos" id="2dyrZ3Fi6Ns" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqXc" resolve="target" />
-        <node concept="1orWrO" id="2dyrZ3Fi6Nz" role="3JN5mM" />
+        <node concept="1orWrO" id="2dyrZ3Fi6Nz" role="3JN5mL" />
       </node>
     </node>
     <node concept="1olsrb" id="3BP4DuXzdqf" role="1olsr8">
@@ -123,9 +138,20 @@
     </node>
     <node concept="1olsrb" id="2dyrZ3FhqG2" role="1olsr8">
       <ref role="24zOxU" to="nemv:1EbzjT2RX4s" resolve="Vertex" />
-      <node concept="3JN5hs" id="2dyrZ3Fi6MU" role="3JN1Yi">
+      <node concept="3JNnos" id="5zr7Q_1L8AZ" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqY_" resolve="label" />
-        <node concept="3JN9zw" id="2dyrZ3Fi6MY" role="3JN5mL" />
+        <node concept="3JN9zw" id="5zr7Q_1L8B3" role="3JN5mL" />
+      </node>
+    </node>
+    <node concept="1oluLK" id="5zr7Q_1GRbH" role="1olsr8" />
+    <node concept="1olsrb" id="5zr7Q_1GRcG" role="1olsr8">
+      <ref role="24zOxU" to="nemv:1EbzjT2RUYR" resolve="GraphStatements" />
+      <node concept="3JNno8" id="5zr7Q_1GRdd" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:1EbzjT2RUYT" resolve="statements" />
+        <node concept="3Z5p37" id="5zr7Q_1GRdf" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHzSW" id="5zr7Q_1GRdj" role="3Z4xbE" />
+        </node>
       </node>
     </node>
     <node concept="1oluLK" id="2dyrZ3FgmHO" role="1olsr8" />
@@ -134,6 +160,26 @@
       <node concept="2V$Bhx" id="1VmHfRy6LPD" role="2V$M_3">
         <property role="2V$B1T" value="f04d029d-250e-4e43-8c30-28763b47bc55" />
         <property role="2V$B1Q" value="de.itemis.model.merge.test" />
+      </node>
+    </node>
+  </node>
+  <node concept="poArf" id="5zr7Q_1JUL5">
+    <property role="TrG5h" value="Merger1" />
+    <ref role="pot50" node="1VmHfRy6LPz" resolve="Lala" />
+    <node concept="1Xw6AR" id="5zr7Q_1JUL6" role="ppIIL">
+      <node concept="1dCxOl" id="5zr7Q_1JULb" role="1XwpL7">
+        <property role="1XweGQ" value="r:503c645f-1f67-4008-abd0-6dd165d56b07" />
+        <node concept="1j_P7g" id="5zr7Q_1JULc" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="5zr7Q_1Khnq" role="ppbcs">
+      <node concept="1dCxOl" id="5zr7Q_1L8AN" role="1XwpL7">
+        <property role="1XweGQ" value="r:80828f3e-dcbd-4313-bbaf-790066449547" />
+        <node concept="1j_P7g" id="5zr7Q_1L8AO" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox2" />
+        </node>
       </node>
     </node>
   </node>

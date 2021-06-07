@@ -7,6 +7,8 @@
   <imports>
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="hypd" ref="r:aa31e43e-9240-4f4d-b6db-5c1c9a86c59e(jetbrains.mps.lang.project.structure)" />
+    <import index="e4tq" ref="r:d1664c60-f6de-4b25-a874-54417df516ea(jetbrains.mps.ide.vcs.modelmetadata.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
@@ -63,7 +65,7 @@
   </registry>
   <node concept="1TIwiD" id="1EbzjT2RcU7">
     <property role="EcuMT" value="1912777765298163335" />
-    <property role="TrG5h" value="ModelMergeChunk" />
+    <property role="TrG5h" value="ModelMerge" />
     <property role="19KtqR" value="true" />
     <node concept="1TJgyj" id="1EbzjT2R$JQ" role="1TKVEi">
       <property role="IQ2ns" value="1912777765298260982" />
@@ -339,6 +341,35 @@
       <property role="20kJfa" value="child" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5zr7Q_1InAA">
+    <property role="EcuMT" value="6402745832171993510" />
+    <property role="TrG5h" value="MergeModelExecution" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5zr7Q_1Jvjo" role="1TKVEi">
+      <property role="IQ2ns" value="6402745832172287192" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tp25:1Bs_61$nfRn" resolve="ModelPointerExpression" />
+    </node>
+    <node concept="1TJgyj" id="5zr7Q_1JULP" role="1TKVEi">
+      <property role="IQ2ns" value="6402745832172399733" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tp25:1Bs_61$nfRn" resolve="ModelPointerExpression" />
+    </node>
+    <node concept="1TJgyj" id="5zr7Q_1IGSD" role="1TKVEi">
+      <property role="IQ2ns" value="6402745832172080681" />
+      <property role="20kJfa" value="modelMerge" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1EbzjT2RcU7" resolve="ModelMerge" />
+    </node>
+    <node concept="PrWs8" id="5zr7Q_1J31C" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

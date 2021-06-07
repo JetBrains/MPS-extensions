@@ -48,7 +48,6 @@
       </concept>
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
       <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
-      <concept id="8422540920009126229" name="de.itemis.model.merge.structure.Keep" flags="ng" index="3JHL42" />
       <concept id="8422540920006554635" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="3JN5hs">
         <child id="8422540920006555110" name="action" index="3JN5mL" />
       </concept>
@@ -106,9 +105,9 @@
           <property role="3Z5p36" value="1VmHfRxJErz/Element" />
           <node concept="3JN9zx" id="2dyrZ3FjO8H" role="3Z4xbE" />
         </node>
-        <node concept="3Z5p37" id="2dyrZ3FkgLc" role="3JNnoR">
+        <node concept="3Z5p37" id="5zr7Q_1wsAW" role="3JNnoR">
           <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
-          <node concept="3JHL42" id="2dyrZ3FkgLk" role="3Z4xbE" />
+          <node concept="3iOvoU" id="5zr7Q_1wsB4" role="3Z4xbE" />
         </node>
       </node>
     </node>

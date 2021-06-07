@@ -8,6 +8,9 @@
   <imports />
   <registry>
     <language id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.test">
+      <concept id="6402745832174203667" name="de.itemis.model.merge.test.structure.EdgeLike" flags="ng" index="p02LU">
+        <property id="8422540920006576449" name="weight" index="3JNu$m" />
+      </concept>
       <concept id="1912777765298352059" name="de.itemis.model.merge.test.structure.EmptyStatement" flags="ng" index="1ol2a5" />
       <concept id="1912777765298352055" name="de.itemis.model.merge.test.structure.GraphStatements" flags="ng" index="1ol2a9">
         <child id="1912777765298352057" name="statements" index="1ol2a7" />
@@ -38,10 +41,11 @@
     </language>
   </registry>
   <node concept="1ol2a9" id="5zr7Q_1JULi">
-    <property role="TrG5h" value="Graphing1" />
+    <property role="TrG5h" value="Graphing2" />
     <node concept="1ol2a5" id="5zr7Q_1JULj" role="1ol2a7" />
     <node concept="1ol4Qr" id="5zr7Q_1JULk" role="1ol2a7">
       <node concept="3JNOWu" id="5zr7Q_1JULo" role="3JNOZq">
+        <property role="3JNu$m" value="1" />
         <node concept="1ol5Ky" id="5zr7Q_1JULu" role="3JNOWt">
           <node concept="3JNOZP" id="5zr7Q_1JULG" role="3JNOZM">
             <property role="3JNOZO" value="v3" />
@@ -57,6 +61,7 @@
         </node>
       </node>
       <node concept="3JNOWu" id="5zr7Q_1JULp" role="3JNOZq">
+        <property role="3JNu$m" value="2" />
         <node concept="1ol5Ky" id="5zr7Q_1JULx" role="3JNOWt">
           <node concept="3JNOZP" id="5zr7Q_1JULI" role="3JNOZM">
             <property role="3JNOZO" value="v4" />
@@ -72,6 +77,7 @@
         </node>
       </node>
       <node concept="3JNOWu" id="5zr7Q_1JULq" role="3JNOZq">
+        <property role="3JNu$m" value="1" />
         <node concept="1ol5Ky" id="5zr7Q_1JUL$" role="3JNOWt">
           <node concept="3JNOZP" id="5zr7Q_1JULK" role="3JNOZM">
             <property role="3JNOZO" value="v1" />
@@ -87,6 +93,7 @@
         </node>
       </node>
       <node concept="3JNOWu" id="5zr7Q_1JULr" role="3JNOZq">
+        <property role="3JNu$m" value="1" />
         <node concept="1ol5Ky" id="5zr7Q_1JULB" role="3JNOWt">
           <node concept="3JNOZP" id="5zr7Q_1JULM" role="3JNOZM">
             <property role="3JNOZO" value="v1" />

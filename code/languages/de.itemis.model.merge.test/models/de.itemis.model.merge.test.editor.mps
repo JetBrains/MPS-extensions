@@ -25,6 +25,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="8383079901754291618" name="jetbrains.mps.lang.editor.structure.CellModel_NextEditor" flags="ng" index="B$lHz" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -185,6 +186,16 @@
       <node concept="3EZMnI" id="5zr7Q_1HoVc" role="3EZMnx">
         <node concept="VPM3Z" id="5zr7Q_1HoVe" role="3F10Kt" />
         <node concept="3EZMnI" id="5zr7Q_1HoVx" role="3EZMnx">
+          <node concept="3EZMnI" id="5zr7Q_1QNcA" role="3EZMnx">
+            <node concept="VPM3Z" id="5zr7Q_1QNcC" role="3F10Kt" />
+            <node concept="3F0ifn" id="5zr7Q_1QNcE" role="3EZMnx">
+              <property role="3F0ifm" value="Weight:" />
+            </node>
+            <node concept="2iRfu4" id="5zr7Q_1QNcF" role="2iSdaV" />
+            <node concept="3F0A7n" id="5zr7Q_1QNcX" role="3EZMnx">
+              <ref role="1NtTu8" to="nemv:7jyS5urbK_1" resolve="weight" />
+            </node>
+          </node>
           <node concept="VPM3Z" id="5zr7Q_1HoVz" role="3F10Kt" />
           <node concept="3EZMnI" id="5zr7Q_1HkBG" role="3EZMnx">
             <node concept="VPM3Z" id="5zr7Q_1HkBH" role="3F10Kt" />
@@ -238,6 +249,29 @@
       <node concept="3F1sOY" id="5zr7Q_1HGE4" role="3EZMnx">
         <ref role="1NtTu8" to="nemv:5zr7Q_1HhtK" resolve="next" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5zr7Q_1QHXY">
+    <ref role="1XX52x" to="nemv:5zr7Q_1QHXe" resolve="CostEdge" />
+    <node concept="3EZMnI" id="5zr7Q_1QHYg" role="2wV5jI">
+      <node concept="B$lHz" id="5zr7Q_1QHYn" role="3EZMnx" />
+      <node concept="3EZMnI" id="5zr7Q_1QYDa" role="3EZMnx">
+        <node concept="l2Vlx" id="5zr7Q_1QYDb" role="2iSdaV" />
+        <node concept="3EZMnI" id="5zr7Q_1QHYt" role="3EZMnx">
+          <node concept="VPM3Z" id="5zr7Q_1QHYv" role="3F10Kt" />
+          <node concept="3F0ifn" id="5zr7Q_1QHYx" role="3EZMnx">
+            <property role="3F0ifm" value="Cost:" />
+          </node>
+          <node concept="2iRfu4" id="5zr7Q_1QHYy" role="2iSdaV" />
+          <node concept="3F0A7n" id="5zr7Q_1QHYF" role="3EZMnx">
+            <ref role="1NtTu8" to="nemv:5zr7Q_1QHXy" resolve="cost" />
+          </node>
+          <node concept="lj46D" id="5zr7Q_1QYDp" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="5zr7Q_1QHYj" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -7,6 +7,12 @@
   <imports />
   <registry>
     <language id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.test">
+      <concept id="6402745832174203667" name="de.itemis.model.merge.test.structure.EdgeLike" flags="ng" index="p02LU">
+        <property id="8422540920006576449" name="weight" index="3JNu$m" />
+      </concept>
+      <concept id="6402745832174182222" name="de.itemis.model.merge.test.structure.CostEdge" flags="ng" index="p0s0B">
+        <property id="6402745832174182242" name="cost" index="p0s0b" />
+      </concept>
       <concept id="1912777765298352059" name="de.itemis.model.merge.test.structure.EmptyStatement" flags="ng" index="1ol2a5" />
       <concept id="1912777765298352055" name="de.itemis.model.merge.test.structure.GraphStatements" flags="ng" index="1ol2a9">
         <child id="1912777765298352057" name="statements" index="1ol2a7" />
@@ -41,6 +47,7 @@
     <node concept="1ol2a5" id="1EbzjT2S3xA" role="1ol2a7" />
     <node concept="1ol4Qr" id="5zr7Q_1HoSa" role="1ol2a7">
       <node concept="3JNOWu" id="5zr7Q_1HKF3" role="3JNOZq">
+        <property role="3JNu$m" value="2" />
         <node concept="1ol5Ky" id="5zr7Q_1HKF4" role="3JNOWt">
           <node concept="3JNOZP" id="5zr7Q_1HKF5" role="3JNOZM">
             <property role="3JNOZO" value="v3" />
@@ -55,22 +62,25 @@
           <property role="3JNOZO" value="e4" />
         </node>
       </node>
-      <node concept="3JNOWu" id="5zr7Q_1HKEF" role="3JNOZq">
-        <node concept="1ol5Ky" id="5zr7Q_1HKEG" role="3JNOWt">
-          <node concept="3JNOZP" id="5zr7Q_1HKEH" role="3JNOZM">
+      <node concept="p0s0B" id="5zr7Q_1QYCw" role="3JNOZq">
+        <property role="p0s0b" value="12" />
+        <property role="3JNu$m" value="21" />
+        <node concept="1ol5Ky" id="5zr7Q_1QYCy" role="3JNOWt">
+          <node concept="3JNOZP" id="5zr7Q_1QYC$" role="3JNOZM">
             <property role="3JNOZO" value="v4" />
           </node>
         </node>
-        <node concept="1ol5Ky" id="5zr7Q_1HKEI" role="3JNOWr">
-          <node concept="3JNOZP" id="5zr7Q_1HKEJ" role="3JNOZM">
+        <node concept="1ol5Ky" id="5zr7Q_1QYCA" role="3JNOWr">
+          <node concept="3JNOZP" id="5zr7Q_1QYCC" role="3JNOZM">
             <property role="3JNOZO" value="v1" />
           </node>
         </node>
-        <node concept="3JNOZP" id="5zr7Q_1HKEK" role="prww2">
+        <node concept="3JNOZP" id="5zr7Q_1QYCE" role="prww2">
           <property role="3JNOZO" value="e3" />
         </node>
       </node>
       <node concept="3JNOWu" id="5zr7Q_1HoSM" role="3JNOZq">
+        <property role="3JNu$m" value="4" />
         <node concept="1ol5Ky" id="5zr7Q_1HoSN" role="3JNOWt">
           <node concept="3JNOZP" id="5zr7Q_1HoSO" role="3JNOZM">
             <property role="3JNOZO" value="v1" />
@@ -86,6 +96,7 @@
         </node>
       </node>
       <node concept="3JNOWu" id="5zr7Q_1HoSf" role="3JNOZq">
+        <property role="3JNu$m" value="5" />
         <node concept="1ol5Ky" id="5zr7Q_1HoSg" role="3JNOWt">
           <node concept="3JNOZP" id="5zr7Q_1HoSr" role="3JNOZM">
             <property role="3JNOZO" value="v1" />
@@ -110,11 +121,6 @@
       <node concept="3JNOZW" id="5zr7Q_1HKH0" role="prwwp">
         <node concept="3JNOZP" id="5zr7Q_1HKH1" role="3JNOZV">
           <property role="3JNOZO" value="e4" />
-        </node>
-        <node concept="3JNOZW" id="5zr7Q_1HKH4" role="prwwp">
-          <node concept="3JNOZP" id="5zr7Q_1HKH5" role="3JNOZV">
-            <property role="3JNOZO" value="e3" />
-          </node>
         </node>
       </node>
     </node>

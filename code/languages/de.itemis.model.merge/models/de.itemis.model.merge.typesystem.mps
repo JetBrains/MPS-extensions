@@ -678,7 +678,7 @@
     </node>
     <node concept="1YaCAy" id="5zr7Q_1Kho0" role="1YuTPh">
       <property role="TrG5h" value="mergeModelExecution" />
-      <ref role="1YaFvo" to="mopj:5zr7Q_1InAA" resolve="MergeModelExecution" />
+      <ref role="1YaFvo" to="mopj:5zr7Q_1InAA" resolve="ModelMergeExecution" />
     </node>
   </node>
 </model>

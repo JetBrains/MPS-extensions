@@ -92,7 +92,7 @@
       <property role="IQ2ns" value="4176264672384277229" />
       <property role="20kJfa" value="conceptRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
     <node concept="1TJgyj" id="1EbzjT2T4LX" role="1TKVEi">
       <property role="IQ2ns" value="1912777765298654333" />

@@ -97,7 +97,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="edges" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7jyS5urbqX9" resolve="Edge" />
+      <ref role="20lvS9" node="5zr7Q_1QNcj" resolve="EdgeLike" />
     </node>
     <node concept="PrWs8" id="1EbzjT2RW2A" role="PzmwI">
       <ref role="PrY4T" node="1EbzjT2RUYS" resolve="Statement" />
@@ -118,11 +118,6 @@
     <property role="EcuMT" value="8422540920006487881" />
     <property role="TrG5h" value="Edge" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="7jyS5urbK_1" role="1TKVEl">
-      <property role="IQ2nx" value="8422540920006576449" />
-      <property role="TrG5h" value="weight" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
     <node concept="1TJgyj" id="7jyS5urbqXa" role="1TKVEi">
       <property role="IQ2ns" value="8422540920006487882" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -144,6 +139,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7jyS5urbqYy" resolve="Label" />
     </node>
+    <node concept="PrWs8" id="5zr7Q_1QNck" role="PzmwI">
+      <ref role="PrY4T" node="5zr7Q_1QNcj" resolve="EdgeLike" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7jyS5urbqYy">
     <property role="EcuMT" value="8422540920006487970" />
@@ -153,17 +151,6 @@
       <property role="IQ2nx" value="8422540920006487971" />
       <property role="TrG5h" value="tag" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7jyS5urbqYC">
-    <property role="EcuMT" value="8422540920006487976" />
-    <property role="TrG5h" value="EdgeRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7jyS5urbqYD" role="1TKVEi">
-      <property role="IQ2ns" value="8422540920006487977" />
-      <property role="20kJfa" value="edgeRef" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7jyS5urbqX9" resolve="Edge" />
     </node>
   </node>
   <node concept="1TIwiD" id="7jyS5urbqYF">
@@ -185,6 +172,25 @@
     </node>
     <node concept="PrWs8" id="5zr7Q_1HCjx" role="PzmwI">
       <ref role="PrY4T" node="1EbzjT2RUYS" resolve="Statement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5zr7Q_1QHXe">
+    <property role="EcuMT" value="6402745832174182222" />
+    <property role="TrG5h" value="CostEdge" />
+    <ref role="1TJDcQ" node="7jyS5urbqX9" resolve="Edge" />
+    <node concept="1TJgyi" id="5zr7Q_1QHXy" role="1TKVEl">
+      <property role="IQ2nx" value="6402745832174182242" />
+      <property role="TrG5h" value="cost" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5zr7Q_1QNcj">
+    <property role="EcuMT" value="6402745832174203667" />
+    <property role="TrG5h" value="EdgeLike" />
+    <node concept="1TJgyi" id="7jyS5urbK_1" role="1TKVEl">
+      <property role="IQ2nx" value="8422540920006576449" />
+      <property role="TrG5h" value="weight" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

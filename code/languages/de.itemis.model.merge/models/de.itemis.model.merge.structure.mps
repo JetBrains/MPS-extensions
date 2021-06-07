@@ -345,7 +345,7 @@
   </node>
   <node concept="1TIwiD" id="5zr7Q_1InAA">
     <property role="EcuMT" value="6402745832171993510" />
-    <property role="TrG5h" value="MergeModelExecution" />
+    <property role="TrG5h" value="ModelMergeExecution" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5zr7Q_1Jvjo" role="1TKVEi">

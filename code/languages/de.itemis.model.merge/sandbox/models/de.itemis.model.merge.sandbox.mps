@@ -10,12 +10,6 @@
     <import index="nemv" ref="r:cbfc4dc0-71bd-4b78-b0cd-ef42a7a7042d(de.itemis.model.merge.test.structure)" />
   </imports>
   <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
-        <child id="1137022507850" name="body" index="2VODD2" />
-      </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
-    </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
         <property id="1863527487546097494" name="modelId" index="1XweGQ" />
@@ -43,7 +37,7 @@
       </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
-      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.MergeModelExecution" flags="ng" index="poArf">
+      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergeExecution" flags="ng" index="poArf">
         <reference id="6402745832172080681" name="modelMerge" index="pot50" />
         <child id="6402745832172399733" name="right" index="ppbcs" />
         <child id="6402745832172287192" name="left" index="ppIIL" />
@@ -64,15 +58,18 @@
         <reference id="7555554651740432697" name="property" index="3iOP7l" />
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
-      <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
       <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
+      <concept id="8422540920009126229" name="de.itemis.model.merge.structure.Keep" flags="ng" index="3JHL42" />
+      <concept id="8422540920006554635" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="3JN5hs">
+        <child id="8422540920006555110" name="action" index="3JN5mL" />
+      </concept>
       <concept id="8422540920006539447" name="de.itemis.model.merge.structure.Auto" flags="ng" index="3JN9zw" />
       <concept id="8422540920006539446" name="de.itemis.model.merge.structure.Drop" flags="ng" index="3JN9zx" />
       <concept id="8422540920006612575" name="de.itemis.model.merge.structure.MultiChildPolicy" flags="ng" index="3JNno8">
         <child id="8422540920006612576" name="subPolicy" index="3JNnoR" />
       </concept>
       <concept id="8422540920006612555" name="de.itemis.model.merge.structure.SingletonChildPolicy" flags="ng" index="3JNnos">
-        <child id="8422540920006555110" name="action" index="3JN5mL" />
+        <child id="8422540920006555110" name="action" index="3JN5mM" />
       </concept>
       <concept id="2222162468661306426" name="de.itemis.model.merge.structure.SubPolicyContainer" flags="ng" index="3Z5p37">
         <property id="2222162468661306427" name="subPolicy" index="3Z5p36" />
@@ -89,19 +86,13 @@
     <node concept="1oluLK" id="3BP4DuXz2$W" role="1olsr8" />
     <node concept="1olsrb" id="3BP4DuXzdq9" role="1olsr8">
       <ref role="24zOxU" to="nemv:7jyS5urbqX9" resolve="Edge" />
-      <node concept="1orWGm" id="2dyrZ3Fi6N7" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
-        <node concept="3DZp98" id="2dyrZ3Fi6Nb" role="1orWrN">
-          <node concept="3clFbS" id="2dyrZ3Fi6Nd" role="2VODD2" />
-        </node>
-      </node>
       <node concept="3JNnos" id="2dyrZ3Fi6Nh" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqXa" resolve="source" />
-        <node concept="3JN9zw" id="2dyrZ3Fi6Nl" role="3JN5mL" />
+        <node concept="3JN9zw" id="2dyrZ3Fi6Nl" role="3JN5mM" />
       </node>
       <node concept="3JNnos" id="2dyrZ3Fi6Ns" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqXc" resolve="target" />
-        <node concept="1orWrO" id="2dyrZ3Fi6Nz" role="3JN5mL" />
+        <node concept="1orWrO" id="2dyrZ3Fi6Nz" role="3JN5mM" />
       </node>
     </node>
     <node concept="1olsrb" id="3BP4DuXzdqf" role="1olsr8">
@@ -126,9 +117,6 @@
         </node>
       </node>
     </node>
-    <node concept="1olsrb" id="2dyrZ3FeEwS" role="1olsr8">
-      <ref role="24zOxU" to="nemv:7jyS5urbqYC" resolve="EdgeRef" />
-    </node>
     <node concept="1olsrb" id="2dyrZ3Ffrgk" role="1olsr8">
       <ref role="24zOxU" to="nemv:7jyS5urbqYy" resolve="Label" />
       <node concept="1orWGm" id="2dyrZ3Fi6MN" role="1orW53">
@@ -140,7 +128,7 @@
       <ref role="24zOxU" to="nemv:1EbzjT2RX4s" resolve="Vertex" />
       <node concept="3JNnos" id="5zr7Q_1L8AZ" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqY_" resolve="label" />
-        <node concept="3JN9zw" id="5zr7Q_1L8B3" role="3JN5mL" />
+        <node concept="3JN9zw" id="5zr7Q_1L8B3" role="3JN5mM" />
       </node>
     </node>
     <node concept="1oluLK" id="5zr7Q_1GRbH" role="1olsr8" />
@@ -150,11 +138,19 @@
         <ref role="3Ze0ni" to="nemv:1EbzjT2RUYT" resolve="statements" />
         <node concept="3Z5p37" id="5zr7Q_1GRdf" role="3JNnoR">
           <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
-          <node concept="3JHzSW" id="5zr7Q_1GRdj" role="3Z4xbE" />
+          <node concept="3JHL42" id="5zr7Q_1L8Cn" role="3Z4xbE" />
         </node>
       </node>
     </node>
-    <node concept="1oluLK" id="2dyrZ3FgmHO" role="1olsr8" />
+    <node concept="1olsrb" id="5zr7Q_1L8BC" role="1olsr8">
+      <ref role="24zOxU" to="nemv:7jyS5urbqYF" resolve="PathElement" />
+      <node concept="3JN5hs" id="5zr7Q_1L8Cb" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1HhtK" resolve="next" />
+        <node concept="3iOvoU" id="5zr7Q_1L8Ci" role="3JN5mL" />
+      </node>
+    </node>
+    <node concept="1oluLK" id="5zr7Q_1Rjhg" role="1olsr8" />
+    <node concept="1oluLK" id="5zr7Q_1RjhM" role="1olsr8" />
     <node concept="1oluLK" id="2dyrZ3Fg6g0" role="1olsr8" />
     <node concept="pHN19" id="1VmHfRy6LP$" role="3WPhuS">
       <node concept="2V$Bhx" id="1VmHfRy6LPD" role="2V$M_3">

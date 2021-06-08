@@ -190,6 +190,11 @@
     <property role="EcuMT" value="6402745832174515576" />
     <property role="TrG5h" value="AbstractEdge" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7YSeTY8gWTz" role="1TKVEl">
+      <property role="IQ2nx" value="9203171394903592547" />
+      <property role="TrG5h" value="dummy" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="5zr7Q_1RZlT" role="1TKVEi">
       <property role="IQ2ns" value="6402745832174515577" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

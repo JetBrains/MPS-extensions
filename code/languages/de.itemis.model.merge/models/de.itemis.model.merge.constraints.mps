@@ -107,7 +107,6 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
@@ -234,25 +233,6 @@
               </node>
             </node>
           </node>
-          <node concept="3cpWs8" id="3xJ_LYXltyp" role="3cqZAp">
-            <node concept="3cpWsn" id="3xJ_LYXltyq" role="3cpWs9">
-              <property role="TrG5h" value="languageConcepts" />
-              <node concept="3uibUv" id="3xJ_LYXltrr" role="1tU5fm">
-                <ref role="3uigEE" to="wyt6:~Iterable" resolve="Iterable" />
-                <node concept="3uibUv" id="3xJ_LYXltru" role="11_B2D">
-                  <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="3xJ_LYXltyr" role="33vP2m">
-                <node concept="37vLTw" id="3xJ_LYXltys" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3xJ_LYXlqAN" resolve="modelmerge" />
-                </node>
-                <node concept="2qgKlT" id="3xJ_LYXltyt" role="2OqNvi">
-                  <ref role="37wK5l" to="rnx3:3xJ_LYXlmVz" resolve="languageConcepts" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3clFbH" id="3xJ_LYXlq4R" role="3cqZAp" />
           <node concept="3cpWs8" id="3BP4DuXxKJ2" role="3cqZAp">
             <node concept="3cpWsn" id="3BP4DuXxKJ3" role="3cpWs9">
@@ -265,8 +245,13 @@
               <node concept="2YIFZM" id="3BP4DuXxKJ4" role="33vP2m">
                 <ref role="37wK5l" to="3o3z:~Lists.newArrayList(java.lang.Iterable)" resolve="newArrayList" />
                 <ref role="1Pybhc" to="3o3z:~Lists" resolve="Lists" />
-                <node concept="37vLTw" id="3xJ_LYXlukL" role="37wK5m">
-                  <ref role="3cqZAo" node="3xJ_LYXltyq" resolve="languageConcepts" />
+                <node concept="2OqwBi" id="18W7Z4VeQWM" role="37wK5m">
+                  <node concept="37vLTw" id="18W7Z4VeQWN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3xJ_LYXlqAN" resolve="modelmerge" />
+                  </node>
+                  <node concept="2qgKlT" id="18W7Z4VeQWO" role="2OqNvi">
+                    <ref role="37wK5l" to="rnx3:3xJ_LYXlmVz" resolve="languageConcepts" />
+                  </node>
                 </node>
               </node>
             </node>

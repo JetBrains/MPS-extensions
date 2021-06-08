@@ -90,6 +90,10 @@
         <ref role="3Ze0ni" to="nemv:5zr7Q_1RZlT" resolve="label" />
         <node concept="3JN9zw" id="5zr7Q_1S5bY" role="3JN5mM" />
       </node>
+      <node concept="1orWGm" id="7YSeTY8gWT_" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7YSeTY8gWTz" resolve="dummy" />
+        <node concept="1orWrO" id="7YSeTY8gWTD" role="1orWrN" />
+      </node>
     </node>
     <node concept="1olsrb" id="3BP4DuXzdq9" role="1olsr8">
       <ref role="24zOxU" to="nemv:7jyS5urbqX9" resolve="Edge" />
@@ -173,13 +177,6 @@
       <node concept="3JN5hs" id="5zr7Q_1L8Cb" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:5zr7Q_1HhtK" resolve="next" />
         <node concept="3iOvoU" id="5zr7Q_1L8Ci" role="3JN5mL" />
-      </node>
-    </node>
-    <node concept="1olsrb" id="5zr7Q_1RZl5" role="1olsr8">
-      <ref role="24zOxU" to="nemv:5zr7Q_1QNcj" resolve="EdgeLike" />
-      <node concept="1orWGm" id="5zr7Q_1RZlD" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
-        <node concept="3iOvoU" id="5zr7Q_1RZlH" role="1orWrN" />
       </node>
     </node>
     <node concept="1oluLK" id="5zr7Q_1RjhM" role="1olsr8" />

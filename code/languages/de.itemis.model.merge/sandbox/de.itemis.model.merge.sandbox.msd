@@ -13,6 +13,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">f04d029d-250e-4e43-8c30-28763b47bc55(de.itemis.model.merge.test)</dependency>
+    <dependency reexport="false">0ef84c01-bf36-41ed-9882-d7b70a4a4eba(de.itemis.model.merge.diamond)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="5" />
@@ -42,6 +43,7 @@
     <module reference="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)" version="0" />
     <module reference="b4d28e19-7d2d-47e9-943e-3a41f97a0e52(com.mbeddr.mpsutil.plantuml.node)" version="0" />
     <module reference="726886d1-ef90-4249-a08f-1e3ec23a7113(com.mbeddr.mpsutil.traceExplorer)" version="0" />
+    <module reference="0ef84c01-bf36-41ed-9882-d7b70a4a4eba(de.itemis.model.merge.diamond)" version="0" />
     <module reference="8a5777dd-4e53-4253-b3fc-2d734a3ec2c2(de.itemis.model.merge.sandbox)" version="0" />
     <module reference="f04d029d-250e-4e43-8c30-28763b47bc55(de.itemis.model.merge.test)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />

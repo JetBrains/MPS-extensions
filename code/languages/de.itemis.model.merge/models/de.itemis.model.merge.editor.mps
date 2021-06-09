@@ -199,7 +199,6 @@
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
-      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -209,10 +208,6 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-      </concept>
-      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
-        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
-        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
@@ -297,7 +292,6 @@
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
-      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1167380149909" name="jetbrains.mps.baseLanguage.collections.structure.RemoveElementOperation" flags="nn" index="3dhRuq" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
@@ -429,19 +423,14 @@
         <node concept="pkWqt" id="2dyrZ3FhQFl" role="pqm2j">
           <node concept="3clFbS" id="2dyrZ3FhQFm" role="2VODD2">
             <node concept="3clFbF" id="2dyrZ3Fhrnn" role="3cqZAp">
-              <node concept="3eOSWO" id="2dyrZ3FhAZ3" role="3clFbG">
-                <node concept="3cmrfG" id="2dyrZ3FhAZ7" role="3uHU7w">
-                  <property role="3cmrfH" value="0" />
-                </node>
-                <node concept="2OqwBi" id="5zr7Q_1Vzku" role="3uHU7B">
-                  <node concept="2OqwBi" id="2dyrZ3Fhsl2" role="2Oq$k0">
-                    <node concept="pncrf" id="2dyrZ3FhBbH" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="5zr7Q_1VyQL" role="2OqNvi">
-                      <ref role="37wK5l" to="rnx3:5zr7Q_1V6SF" resolve="allHierarchyProperties" />
-                    </node>
+              <node concept="2OqwBi" id="5zr7Q_1Vzku" role="3clFbG">
+                <node concept="2OqwBi" id="2dyrZ3Fhsl2" role="2Oq$k0">
+                  <node concept="pncrf" id="2dyrZ3FhBbH" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="5zr7Q_1VyQL" role="2OqNvi">
+                    <ref role="37wK5l" to="rnx3:5zr7Q_1V6SF" resolve="allHierarchyProperties" />
                   </node>
-                  <node concept="34oBXx" id="5zr7Q_1VzBX" role="2OqNvi" />
                 </node>
+                <node concept="3GX2aA" id="7TOowlgsccR" role="2OqNvi" />
               </node>
             </node>
           </node>

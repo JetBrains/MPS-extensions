@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="nemv" ref="r:cbfc4dc0-71bd-4b78-b0cd-ef42a7a7042d(de.itemis.model.merge.test.structure)" />
+    <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
@@ -241,6 +242,30 @@
       <node concept="2V$Bhx" id="7TOowlgh7yH" role="2V$M_3">
         <property role="2V$B1T" value="f04d029d-250e-4e43-8c30-28763b47bc55" />
         <property role="2V$B1Q" value="de.itemis.model.merge.test" />
+      </node>
+    </node>
+  </node>
+  <node concept="1olOeT" id="7TOowlgsb4L">
+    <property role="TrG5h" value="DiamondMerge" />
+    <node concept="1oluLK" id="7TOowlgsb4W" role="1olsr8" />
+    <node concept="1olsrb" id="7TOowlgtp9c" role="1olsr8">
+      <ref role="24zOxU" to="14sb:7TOowlgsaNJ" resolve="Interface1" />
+      <node concept="1orWGm" id="7TOowlgtzWH" role="1orW53">
+        <ref role="3iOP7l" to="14sb:7TOowlgsaNH" resolve="dummy" />
+        <node concept="1orWrO" id="7TOowlgtzWL" role="1orWrN" />
+      </node>
+    </node>
+    <node concept="1olsrb" id="7TOowlgtzWO" role="1olsr8">
+      <ref role="24zOxU" to="14sb:7TOowlgsaNK" resolve="Interface2" />
+      <node concept="1orWGm" id="7TOowlgtNmE" role="1orW53">
+        <ref role="3iOP7l" to="14sb:7TOowlgtN9E" resolve="nada" />
+        <node concept="1orWrO" id="7TOowlgtNmI" role="1orWrN" />
+      </node>
+    </node>
+    <node concept="pHN19" id="7TOowlgsb4M" role="3WPhuS">
+      <node concept="2V$Bhx" id="7TOowlgsb4R" role="2V$M_3">
+        <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
       </node>
     </node>
   </node>

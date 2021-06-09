@@ -11,6 +11,12 @@
     <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
+    </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
         <property id="1863527487546097494" name="modelId" index="1XweGQ" />
@@ -59,6 +65,7 @@
         <reference id="7555554651740432697" name="property" index="3iOP7l" />
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
+      <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
       <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
       <concept id="8422540920009126229" name="de.itemis.model.merge.structure.Keep" flags="ng" index="3JHL42" />
       <concept id="8422540920006554635" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="3JN5hs">
@@ -186,6 +193,10 @@
         <ref role="3iOP7l" to="nemv:7jyS5urb81Q" resolve="directed" />
         <node concept="3iOvoU" id="7TOowlgh7yk" role="1orWrN" />
       </node>
+      <node concept="1orWGm" id="7TOowlgByU8" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbqYt" resolve="loops" />
+        <node concept="1orWrO" id="7TOowlgByUe" role="1orWrN" />
+      </node>
       <node concept="3JNno8" id="7TOowlgh7yl" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqYd" resolve="edges" />
         <node concept="3Z5p37" id="7TOowlgh7ym" role="3JNnoR">
@@ -198,7 +209,9 @@
         </node>
         <node concept="3Z5p37" id="7TOowlgh7yq" role="3JNnoR">
           <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
-          <node concept="3iOvoU" id="7TOowlgh7yr" role="3Z4xbE" />
+          <node concept="3DZp98" id="7TOowlgBzBY" role="3Z4xbE">
+            <node concept="3clFbS" id="7TOowlgBzC0" role="2VODD2" />
+          </node>
         </node>
       </node>
     </node>
@@ -234,8 +247,16 @@
         <node concept="3iOvoU" id="7TOowlgh7yD" role="3JN5mL" />
       </node>
     </node>
-    <node concept="1oluLK" id="7TOowlgqQHD" role="1olsr8" />
-    <node concept="1oluLK" id="7TOowlgqQIq" role="1olsr8" />
+    <node concept="1olsrb" id="7TOowlgByUh" role="1olsr8">
+      <ref role="24zOxU" to="nemv:5zr7Q_1QHXe" resolve="CostEdge" />
+    </node>
+    <node concept="1olsrb" id="7TOowlgByV6" role="1olsr8">
+      <ref role="24zOxU" to="nemv:5zr7Q_1QNcj" resolve="EdgeLike" />
+      <node concept="1orWGm" id="7TOowlgByVV" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
+        <node concept="1orWrO" id="7TOowlgByVZ" role="1orWrN" />
+      </node>
+    </node>
     <node concept="1oluLK" id="7TOowlgh7yE" role="1olsr8" />
     <node concept="1oluLK" id="7TOowlgh7yF" role="1olsr8" />
     <node concept="pHN19" id="7TOowlgh7yG" role="3WPhuS">
@@ -247,6 +268,7 @@
   </node>
   <node concept="1olOeT" id="7TOowlgsb4L">
     <property role="TrG5h" value="DiamondMerge" />
+    <node concept="1oluLK" id="7TOowlgE0K3" role="1olsr8" />
     <node concept="1oluLK" id="7TOowlgsb4W" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgtp9c" role="1olsr8">
       <ref role="24zOxU" to="14sb:7TOowlgsaNJ" resolve="Interface1" />

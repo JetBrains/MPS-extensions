@@ -96,7 +96,9 @@
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
-      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G">
+        <property id="7181286126212894140" name="doNotApplyOnTheFly" index="1$Xk0j" />
+      </concept>
       <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
         <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
@@ -679,6 +681,15 @@
     <node concept="1YaCAy" id="5zr7Q_1Kho0" role="1YuTPh">
       <property role="TrG5h" value="mergeModelExecution" />
       <ref role="1YaFvo" to="mopj:5zr7Q_1InAA" resolve="ModelMergeExecution" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7TOowlgBzBR">
+    <property role="TrG5h" value="check_ModelMerge" />
+    <property role="1$Xk0j" value="true" />
+    <node concept="3clFbS" id="7TOowlgBzBS" role="18ibNy" />
+    <node concept="1YaCAy" id="7TOowlgBzBU" role="1YuTPh">
+      <property role="TrG5h" value="modelMerge" />
+      <ref role="1YaFvo" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
     </node>
   </node>
 </model>

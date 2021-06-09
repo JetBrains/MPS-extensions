@@ -86,103 +86,25 @@
     <node concept="1oluLK" id="3BP4DuXz2$W" role="1olsr8" />
     <node concept="1olsrb" id="5zr7Q_1S5bj" role="1olsr8">
       <ref role="24zOxU" to="nemv:5zr7Q_1RZlS" resolve="AbstractEdge" />
-      <node concept="3JNnos" id="5zr7Q_1S5bU" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:5zr7Q_1RZlT" resolve="label" />
-        <node concept="3JN9zw" id="5zr7Q_1S5bY" role="3JN5mM" />
-      </node>
       <node concept="1orWGm" id="7YSeTY8gWT_" role="1orW53">
         <ref role="3iOP7l" to="nemv:7YSeTY8gWTz" resolve="dummy" />
         <node concept="1orWrO" id="7YSeTY8gWTD" role="1orWrN" />
       </node>
     </node>
-    <node concept="1olsrb" id="3BP4DuXzdq9" role="1olsr8">
-      <ref role="24zOxU" to="nemv:7jyS5urbqX9" resolve="Edge" />
-      <node concept="3JNnos" id="2dyrZ3Fi6Nh" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:7jyS5urbqXa" resolve="source" />
-        <node concept="3JN9zw" id="2dyrZ3Fi6Nl" role="3JN5mM" />
-      </node>
-      <node concept="3JNnos" id="2dyrZ3Fi6Ns" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:7jyS5urbqXc" resolve="target" />
-        <node concept="1orWrO" id="2dyrZ3Fi6Nz" role="3JN5mM" />
-      </node>
-      <node concept="3JNnos" id="5zr7Q_1Zfii" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:5zr7Q_1RZlT" resolve="label" />
-        <node concept="1orWrO" id="5zr7Q_1Zfir" role="3JN5mM" />
-      </node>
-      <node concept="3JN5hs" id="5zr7Q_1ZgWV" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:5zr7Q_1ZgwN" resolve="hiddenLabel" />
-        <node concept="3JN9zx" id="5zr7Q_1ZgX6" role="3JN5mL" />
-      </node>
-      <node concept="3JNno8" id="5zr7Q_1ZhpH" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:5zr7Q_1ZgX9" resolve="optLabels" />
-        <node concept="3Z5p37" id="5zr7Q_1ZhpS" role="3JNnoR">
-          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
-          <node concept="3JHzSW" id="5zr7Q_1ZhpW" role="3Z4xbE" />
-        </node>
-      </node>
-      <node concept="1orWGm" id="5zr7Q_1W4O3" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
-        <node concept="1orWrO" id="5zr7Q_1W4O7" role="1orWrN" />
+    <node concept="1oluLK" id="7TOowlgqZ7o" role="1olsr8" />
+    <node concept="1oluLK" id="7TOowlgqZ7_" role="1olsr8" />
+    <node concept="1olsrb" id="7TOowlgqZ74" role="1olsr8">
+      <ref role="24zOxU" to="nemv:5zr7Q_1QHXe" resolve="CostEdge" />
+      <node concept="1orWGm" id="7TOowlgqZ7f" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7YSeTY8gWTz" resolve="dummy" />
+        <node concept="3iOvoU" id="7TOowlgqZ7j" role="1orWrN" />
       </node>
     </node>
-    <node concept="1olsrb" id="3BP4DuXzdqf" role="1olsr8">
-      <ref role="24zOxU" to="nemv:1EbzjT2RW2_" resolve="Graph" />
-      <node concept="1orWGm" id="2dyrZ3FiV5c" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7jyS5urb81Q" resolve="directed" />
-        <node concept="3iOvoU" id="2dyrZ3FiV5j" role="1orWrN" />
-      </node>
-      <node concept="3JNno8" id="2dyrZ3Fjn$C" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:7jyS5urbqYd" resolve="edges" />
-        <node concept="3Z5p37" id="2dyrZ3Fjn$E" role="3JNnoR">
-          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
-          <node concept="3JHzSW" id="2dyrZ3Fjn$I" role="3Z4xbE" />
-        </node>
-        <node concept="3Z5p37" id="2dyrZ3FjO8B" role="3JNnoR">
-          <property role="3Z5p36" value="1VmHfRxJErz/Element" />
-          <node concept="3JN9zx" id="2dyrZ3FjO8H" role="3Z4xbE" />
-        </node>
-        <node concept="3Z5p37" id="5zr7Q_1wsAW" role="3JNnoR">
-          <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
-          <node concept="3iOvoU" id="5zr7Q_1wsB4" role="3Z4xbE" />
-        </node>
-      </node>
-    </node>
-    <node concept="1olsrb" id="2dyrZ3Ffrgk" role="1olsr8">
-      <ref role="24zOxU" to="nemv:7jyS5urbqYy" resolve="Label" />
-      <node concept="1orWGm" id="2dyrZ3Fi6MN" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7jyS5urbqYz" resolve="tag" />
-        <node concept="1orWrO" id="2dyrZ3Fi6MR" role="1orWrN" />
-      </node>
-    </node>
-    <node concept="1olsrb" id="2dyrZ3FhqG2" role="1olsr8">
-      <ref role="24zOxU" to="nemv:1EbzjT2RX4s" resolve="Vertex" />
-      <node concept="3JNnos" id="5zr7Q_1L8AZ" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:7jyS5urbqY_" resolve="label" />
-        <node concept="3JN9zw" id="5zr7Q_1L8B3" role="3JN5mM" />
-      </node>
-    </node>
-    <node concept="1oluLK" id="5zr7Q_1GRbH" role="1olsr8" />
-    <node concept="1olsrb" id="5zr7Q_1GRcG" role="1olsr8">
-      <ref role="24zOxU" to="nemv:1EbzjT2RUYR" resolve="GraphStatements" />
-      <node concept="3JNno8" id="5zr7Q_1GRdd" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:1EbzjT2RUYT" resolve="statements" />
-        <node concept="3Z5p37" id="5zr7Q_1GRdf" role="3JNnoR">
-          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
-          <node concept="3JHL42" id="5zr7Q_1L8Cn" role="3Z4xbE" />
-        </node>
-      </node>
-    </node>
-    <node concept="1olsrb" id="5zr7Q_1L8BC" role="1olsr8">
-      <ref role="24zOxU" to="nemv:7jyS5urbqYF" resolve="PathElement" />
-      <node concept="3JN5hs" id="5zr7Q_1L8Cb" role="3JN1Yi">
-        <ref role="3Ze0ni" to="nemv:5zr7Q_1HhtK" resolve="next" />
-        <node concept="3iOvoU" id="5zr7Q_1L8Ci" role="3JN5mL" />
-      </node>
-    </node>
+    <node concept="1oluLK" id="7TOowlgq5Wu" role="1olsr8" />
     <node concept="1oluLK" id="5zr7Q_1RjhM" role="1olsr8" />
     <node concept="1oluLK" id="2dyrZ3Fg6g0" role="1olsr8" />
     <node concept="pHN19" id="1VmHfRy6LP$" role="3WPhuS">
-      <node concept="2V$Bhx" id="1VmHfRy6LPD" role="2V$M_3">
+      <node concept="2V$Bhx" id="7TOowlgqRVu" role="2V$M_3">
         <property role="2V$B1T" value="f04d029d-250e-4e43-8c30-28763b47bc55" />
         <property role="2V$B1Q" value="de.itemis.model.merge.test" />
       </node>
@@ -205,6 +127,116 @@
         <node concept="1j_P7g" id="5zr7Q_1L8AO" role="1j$8Uc">
           <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox2" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1olOeT" id="7TOowlgh7xW">
+    <property role="TrG5h" value="Lala2" />
+    <node concept="1oluLK" id="7TOowlgh7xX" role="1olsr8" />
+    <node concept="1oluLK" id="7TOowlgh7xY" role="1olsr8" />
+    <node concept="1olsrb" id="7TOowlgh7xZ" role="1olsr8">
+      <ref role="24zOxU" to="nemv:5zr7Q_1RZlS" resolve="AbstractEdge" />
+      <node concept="3JNnos" id="7TOowlgh7y0" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1RZlT" resolve="label" />
+        <node concept="3JN9zw" id="7TOowlgh7y1" role="3JN5mM" />
+      </node>
+      <node concept="1orWGm" id="7TOowlgh7y2" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7YSeTY8gWTz" resolve="dummy" />
+        <node concept="1orWrO" id="7TOowlgh7y3" role="1orWrN" />
+      </node>
+    </node>
+    <node concept="1olsrb" id="7TOowlgh7y4" role="1olsr8">
+      <ref role="24zOxU" to="nemv:7jyS5urbqX9" resolve="Edge" />
+      <node concept="3JNnos" id="7TOowlgh7y5" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:7jyS5urbqXa" resolve="source" />
+        <node concept="3JN9zw" id="7TOowlgh7y6" role="3JN5mM" />
+      </node>
+      <node concept="3JNnos" id="7TOowlgh7y7" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:7jyS5urbqXc" resolve="target" />
+        <node concept="1orWrO" id="7TOowlgh7y8" role="3JN5mM" />
+      </node>
+      <node concept="3JNnos" id="7TOowlgh7y9" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1RZlT" resolve="label" />
+        <node concept="1orWrO" id="7TOowlgh7ya" role="3JN5mM" />
+      </node>
+      <node concept="3JN5hs" id="7TOowlgh7yb" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1ZgwN" resolve="hiddenLabel" />
+        <node concept="3JN9zx" id="7TOowlgh7yc" role="3JN5mL" />
+      </node>
+      <node concept="3JNno8" id="7TOowlgh7yd" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1ZgX9" resolve="optLabels" />
+        <node concept="3Z5p37" id="7TOowlgh7ye" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHzSW" id="7TOowlgh7yf" role="3Z4xbE" />
+        </node>
+      </node>
+      <node concept="1orWGm" id="7TOowlgh7yg" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
+        <node concept="1orWrO" id="7TOowlgh7yh" role="1orWrN" />
+      </node>
+    </node>
+    <node concept="1olsrb" id="7TOowlgh7yi" role="1olsr8">
+      <ref role="24zOxU" to="nemv:1EbzjT2RW2_" resolve="Graph" />
+      <node concept="1orWGm" id="7TOowlgh7yj" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urb81Q" resolve="directed" />
+        <node concept="3iOvoU" id="7TOowlgh7yk" role="1orWrN" />
+      </node>
+      <node concept="3JNno8" id="7TOowlgh7yl" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:7jyS5urbqYd" resolve="edges" />
+        <node concept="3Z5p37" id="7TOowlgh7ym" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHzSW" id="7TOowlgh7yn" role="3Z4xbE" />
+        </node>
+        <node concept="3Z5p37" id="7TOowlgh7yo" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErz/Element" />
+          <node concept="3JN9zx" id="7TOowlgh7yp" role="3Z4xbE" />
+        </node>
+        <node concept="3Z5p37" id="7TOowlgh7yq" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+          <node concept="3iOvoU" id="7TOowlgh7yr" role="3Z4xbE" />
+        </node>
+      </node>
+    </node>
+    <node concept="1olsrb" id="7TOowlgh7ys" role="1olsr8">
+      <ref role="24zOxU" to="nemv:7jyS5urbqYy" resolve="Label" />
+      <node concept="1orWGm" id="7TOowlgh7yt" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbqYz" resolve="tag" />
+        <node concept="1orWrO" id="7TOowlgh7yu" role="1orWrN" />
+      </node>
+    </node>
+    <node concept="1olsrb" id="7TOowlgh7yv" role="1olsr8">
+      <ref role="24zOxU" to="nemv:1EbzjT2RX4s" resolve="Vertex" />
+      <node concept="3JNnos" id="7TOowlgh7yw" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:7jyS5urbqY_" resolve="label" />
+        <node concept="3JN9zw" id="7TOowlgh7yx" role="3JN5mM" />
+      </node>
+    </node>
+    <node concept="1oluLK" id="7TOowlgh7yy" role="1olsr8" />
+    <node concept="1olsrb" id="7TOowlgh7yz" role="1olsr8">
+      <ref role="24zOxU" to="nemv:1EbzjT2RUYR" resolve="GraphStatements" />
+      <node concept="3JNno8" id="7TOowlgh7y$" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:1EbzjT2RUYT" resolve="statements" />
+        <node concept="3Z5p37" id="7TOowlgh7y_" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHL42" id="7TOowlgh7yA" role="3Z4xbE" />
+        </node>
+      </node>
+    </node>
+    <node concept="1olsrb" id="7TOowlgh7yB" role="1olsr8">
+      <ref role="24zOxU" to="nemv:7jyS5urbqYF" resolve="PathElement" />
+      <node concept="3JN5hs" id="7TOowlgh7yC" role="3JN1Yi">
+        <ref role="3Ze0ni" to="nemv:5zr7Q_1HhtK" resolve="next" />
+        <node concept="3iOvoU" id="7TOowlgh7yD" role="3JN5mL" />
+      </node>
+    </node>
+    <node concept="1oluLK" id="7TOowlgqQHD" role="1olsr8" />
+    <node concept="1oluLK" id="7TOowlgqQIq" role="1olsr8" />
+    <node concept="1oluLK" id="7TOowlgh7yE" role="1olsr8" />
+    <node concept="1oluLK" id="7TOowlgh7yF" role="1olsr8" />
+    <node concept="pHN19" id="7TOowlgh7yG" role="3WPhuS">
+      <node concept="2V$Bhx" id="7TOowlgh7yH" role="2V$M_3">
+        <property role="2V$B1T" value="f04d029d-250e-4e43-8c30-28763b47bc55" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.test" />
       </node>
     </node>
   </node>

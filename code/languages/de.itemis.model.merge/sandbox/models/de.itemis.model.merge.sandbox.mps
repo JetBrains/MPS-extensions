@@ -154,7 +154,7 @@
       </node>
       <node concept="1orWGm" id="7TOowlgh7y2" role="1orW53">
         <ref role="3iOP7l" to="nemv:7YSeTY8gWTz" resolve="dummy" />
-        <node concept="1orWrO" id="7TOowlgh7y3" role="1orWrN" />
+        <node concept="3iOvoU" id="2rVXF9$F3Fu" role="1orWrN" />
       </node>
     </node>
     <node concept="1olsrb" id="7TOowlgh7y4" role="1olsr8">
@@ -254,7 +254,9 @@
       <ref role="24zOxU" to="nemv:5zr7Q_1QNcj" resolve="EdgeLike" />
       <node concept="1orWGm" id="7TOowlgByVV" role="1orW53">
         <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
-        <node concept="1orWrO" id="7TOowlgByVZ" role="1orWrN" />
+        <node concept="3DZp98" id="2rVXF9$F3Fx" role="1orWrN">
+          <node concept="3clFbS" id="2rVXF9$F3Fz" role="2VODD2" />
+        </node>
       </node>
     </node>
     <node concept="1oluLK" id="7TOowlgh7yE" role="1olsr8" />
@@ -293,17 +295,36 @@
     <node concept="1oluLK" id="7TOowlgZD66" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgZD6v" role="1olsr8">
       <ref role="24zOxU" to="14sb:7TOowlgsdak" resolve="Bottom" />
-      <node concept="1orWGm" id="7TOowlhcchh" role="1orW53">
+      <node concept="1orWGm" id="2rVXF9$NlM2" role="1orW53">
         <ref role="3iOP7l" to="14sb:7TOowlgsaNH" resolve="dummy" />
-        <node concept="3DZp98" id="7TOowlhcchl" role="1orWrN">
-          <node concept="3clFbS" id="7TOowlhcchn" role="2VODD2" />
-        </node>
+        <node concept="1orWrO" id="2rVXF9$NlM6" role="1orWrN" />
       </node>
     </node>
     <node concept="pHN19" id="7TOowlgsb4M" role="3WPhuS">
       <node concept="2V$Bhx" id="7TOowlgsb4R" role="2V$M_3">
         <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
         <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
+      </node>
+    </node>
+  </node>
+  <node concept="1olOeT" id="2rVXF9$IZ0J">
+    <property role="TrG5h" value="Lala3" />
+    <node concept="1oluLK" id="2rVXF9$IZ0K" role="1olsr8" />
+    <node concept="1oluLK" id="2rVXF9$IZ0L" role="1olsr8" />
+    <node concept="1olsrb" id="2rVXF9$IZ0R" role="1olsr8">
+      <ref role="24zOxU" to="nemv:7jyS5urbqX9" resolve="Edge" />
+      <node concept="1orWGm" id="2rVXF9$IZ13" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
+        <node concept="1orWrO" id="2rVXF9$IZ14" role="1orWrN" />
+      </node>
+    </node>
+    <node concept="1oluLK" id="2rVXF9$IZ1o" role="1olsr8" />
+    <node concept="1oluLK" id="2rVXF9$IZ1_" role="1olsr8" />
+    <node concept="1oluLK" id="2rVXF9$IZ1A" role="1olsr8" />
+    <node concept="pHN19" id="2rVXF9$IZ1B" role="3WPhuS">
+      <node concept="2V$Bhx" id="2rVXF9$IZ1C" role="2V$M_3">
+        <property role="2V$B1T" value="f04d029d-250e-4e43-8c30-28763b47bc55" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.test" />
       </node>
     </node>
   </node>

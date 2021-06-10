@@ -784,21 +784,6 @@
           <node concept="3cpWs8" id="7TOowlhccnr" role="3cqZAp">
             <node concept="3cpWsn" id="7TOowlhccns" role="3cpWs9">
               <property role="TrG5h" value="conceptToPropertyMergeActions" />
-              <node concept="3uibUv" id="7TOowlhcbUJ" role="1tU5fm">
-                <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-                <node concept="3uibUv" id="7TOowlhcbUZ" role="11_B2D">
-                  <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-                </node>
-                <node concept="3uibUv" id="7TOowlhcbUW" role="11_B2D">
-                  <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-                  <node concept="3Tqbb2" id="7TOowlhcbUX" role="11_B2D">
-                    <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
-                  </node>
-                  <node concept="3Tqbb2" id="7TOowlhcbUY" role="11_B2D">
-                    <ref role="ehGHo" to="mopj:6zqIeMU2OVl" resolve="MergeAction" />
-                  </node>
-                </node>
-              </node>
               <node concept="2YIFZM" id="7TOowlhccnt" role="33vP2m">
                 <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
                 <ref role="37wK5l" to="rnx3:18W7Z4Vmw0z" resolve="traverse" />
@@ -812,6 +797,15 @@
                   <node concept="2qgKlT" id="7TOowlhccnx" role="2OqNvi">
                     <ref role="37wK5l" to="rnx3:3xJ_LYXj1c6" resolve="conceptToDefinedMergePolicy" />
                   </node>
+                </node>
+              </node>
+              <node concept="3uibUv" id="7TOowlhbbxh" role="1tU5fm">
+                <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
+                <node concept="3uibUv" id="7TOowlhbbxi" role="11_B2D">
+                  <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+                </node>
+                <node concept="3uibUv" id="2rVXF9$SWu0" role="11_B2D">
+                  <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
                 </node>
               </node>
             </node>

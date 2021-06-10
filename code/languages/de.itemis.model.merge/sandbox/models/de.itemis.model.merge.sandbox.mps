@@ -92,21 +92,20 @@
     <property role="TrG5h" value="Lala" />
     <node concept="1oluLK" id="1VmHfRy6Yix" role="1olsr8" />
     <node concept="1oluLK" id="3BP4DuXz2$W" role="1olsr8" />
-    <node concept="1olsrb" id="5zr7Q_1S5bj" role="1olsr8">
-      <ref role="24zOxU" to="nemv:5zr7Q_1RZlS" resolve="AbstractEdge" />
-      <node concept="1orWGm" id="7YSeTY8gWT_" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7YSeTY8gWTz" resolve="dummy" />
-        <node concept="1orWrO" id="7YSeTY8gWTD" role="1orWrN" />
+    <node concept="1olsrb" id="2rVXF9_6IfY" role="1olsr8">
+      <ref role="24zOxU" to="nemv:5zr7Q_1QNcj" resolve="EdgeLike" />
+      <node concept="1orWGm" id="2rVXF9_6Igf" role="1orW53">
+        <ref role="3iOP7l" to="nemv:7jyS5urbK_1" resolve="weight" />
+        <node concept="1orWrO" id="2rVXF9_6Igj" role="1orWrN" />
       </node>
     </node>
-    <node concept="1oluLK" id="7TOowlgqZ7o" role="1olsr8" />
+    <node concept="1oluLK" id="2rVXF9_6IgG" role="1olsr8" />
+    <node concept="1olsrb" id="2rVXF9_6Ihd" role="1olsr8">
+      <ref role="24zOxU" to="nemv:7jyS5urbqX9" resolve="Edge" />
+    </node>
     <node concept="1oluLK" id="7TOowlgqZ7_" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgqZ74" role="1olsr8">
       <ref role="24zOxU" to="nemv:5zr7Q_1QHXe" resolve="CostEdge" />
-      <node concept="1orWGm" id="7TOowlgqZ7f" role="1orW53">
-        <ref role="3iOP7l" to="nemv:7YSeTY8gWTz" resolve="dummy" />
-        <node concept="3iOvoU" id="7TOowlgqZ7j" role="1orWrN" />
-      </node>
       <node concept="3JNnos" id="7TOowlgrq1B" role="3JN1Yi">
         <ref role="3Ze0ni" to="nemv:7jyS5urbqXa" resolve="source" />
         <node concept="3JN9zw" id="7TOowlgrq1F" role="3JN5mM" />
@@ -295,9 +294,9 @@
     <node concept="1oluLK" id="7TOowlgZD66" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgZD6v" role="1olsr8">
       <ref role="24zOxU" to="14sb:7TOowlgsdak" resolve="Bottom" />
-      <node concept="1orWGm" id="2rVXF9$NlM2" role="1orW53">
+      <node concept="1orWGm" id="2rVXF9_8ssT" role="1orW53">
         <ref role="3iOP7l" to="14sb:7TOowlgsaNH" resolve="dummy" />
-        <node concept="1orWrO" id="2rVXF9$NlM6" role="1orWrN" />
+        <node concept="1orWrO" id="2rVXF9_8ssX" role="1orWrN" />
       </node>
     </node>
     <node concept="pHN19" id="7TOowlgsb4M" role="3WPhuS">

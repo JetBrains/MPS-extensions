@@ -7,15 +7,8 @@
   <imports />
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
-        <property id="779128492853934523" name="cellId" index="1K8rM7" />
-        <property id="779128492853699361" name="side" index="1Kfyot" />
       </concept>
     </language>
     <language id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.grammarcells.sandboxlang">
@@ -116,12 +109,7 @@
         <node concept="1kHs8n" id="1_3xoKEAbrC" role="2cssZA">
           <property role="3gViKx" value="false" />
           <node concept="2bZTBh" id="1_3xoKEAbrB" role="1kHs7J">
-            <node concept="2cvBGp" id="1ISNm4VruKa" role="2bZTBi">
-              <node concept="1KehLL" id="1ISNm4VEiAq" role="lGtFl">
-                <property role="1K8rM7" value="ALIAS_EDITOR_COMPONENT" />
-                <property role="1Kfyot" value="Fg1jLUVyTf/left" />
-              </node>
-            </node>
+            <node concept="2cvBGp" id="6rGQ0fkoBZB" role="2bZTBi" />
           </node>
         </node>
         <node concept="1kHs8n" id="1_3xoKEAbwJ" role="2cssZA">

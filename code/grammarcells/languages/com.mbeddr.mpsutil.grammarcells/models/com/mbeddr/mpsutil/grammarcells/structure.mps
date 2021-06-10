@@ -1035,5 +1035,18 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpc2:7L5lpRJH$EA" resolve="TransformationLocation" />
   </node>
+  <node concept="1TIwiD" id="6rGQ0fksByM">
+    <property role="EcuMT" value="7416540197333137586" />
+    <property role="TrG5h" value="LowLevelMenuPart" />
+    <property role="34LRSv" value="low level" />
+    <ref role="1TJDcQ" to="tpc2:1qY_lWSjJZY" resolve="TransformationMenuPart" />
+    <node concept="1TJgyj" id="6rGQ0fksByN" role="1TKVEi">
+      <property role="IQ2ns" value="7416540197333137587" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="implementation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
+  </node>
 </model>
 

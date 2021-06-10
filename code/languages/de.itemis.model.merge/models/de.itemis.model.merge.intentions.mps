@@ -277,9 +277,9 @@
                 <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
               </node>
             </node>
-            <node concept="2YIFZM" id="7TOowlgeglQ" role="33vP2m">
-              <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="SubConceptGraphBuilder" />
+            <node concept="2YIFZM" id="2rVXF9$LdH4" role="33vP2m">
               <ref role="37wK5l" to="rnx3:18W7Z4Vg253" resolve="create" />
+              <ref role="1Pybhc" to="rnx3:2rVXF9$L4no" resolve="ConceptGraph" />
               <node concept="2OqwBi" id="7TOowlgeglR" role="37wK5m">
                 <node concept="2Sf5sV" id="7TOowlgeglT" role="2Oq$k0" />
                 <node concept="2qgKlT" id="7TOowlgeglV" role="2OqNvi">
@@ -292,7 +292,7 @@
         <node concept="3clFbH" id="7TOowlgowx4" role="3cqZAp" />
         <node concept="3clFbF" id="7TOowlgeglX" role="3cqZAp">
           <node concept="2YIFZM" id="7TOowlgeglY" role="3clFbG">
-            <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="SubConceptGraphBuilder" />
+            <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
             <ref role="37wK5l" to="rnx3:18W7Z4Vmw0z" resolve="traverse" />
             <node concept="37vLTw" id="7TOowlgeglZ" role="37wK5m">
               <ref role="3cqZAo" node="7TOowlgeglN" resolve="graph" />

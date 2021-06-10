@@ -1398,7 +1398,7 @@
             <property role="TrG5h" value="alreadyDefined" />
             <node concept="_YKpA" id="2dyrZ3Ff04L" role="1tU5fm">
               <node concept="3Tqbb2" id="2dyrZ3Ff04N" role="_ZDj9">
-                <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
               </node>
             </node>
             <node concept="2OqwBi" id="2dyrZ3FeZhq" role="33vP2m">
@@ -1577,7 +1577,7 @@
             <property role="TrG5h" value="alreadyDefined" />
             <node concept="_YKpA" id="2dyrZ3FgDu6" role="1tU5fm">
               <node concept="3Tqbb2" id="2dyrZ3FgDu7" role="_ZDj9">
-                <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
               </node>
             </node>
             <node concept="2OqwBi" id="2dyrZ3FgDu8" role="33vP2m">

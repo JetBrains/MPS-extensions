@@ -241,7 +241,7 @@
         <node concept="3cpWsn" id="1NgLzfPbZtp" role="3cpWs9">
           <property role="TrG5h" value="concept" />
           <node concept="3Tqbb2" id="1NgLzfPbZpn" role="1tU5fm">
-            <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+            <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
           </node>
           <node concept="2OqwBi" id="1NgLzfPbZtq" role="33vP2m">
             <node concept="2OqwBi" id="1NgLzfPbZtr" role="2Oq$k0">
@@ -766,9 +766,9 @@
                   <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
                 </node>
               </node>
-              <node concept="2YIFZM" id="7TOowlgeglQ" role="33vP2m">
+              <node concept="2YIFZM" id="2rVXF9$LdH3" role="33vP2m">
                 <ref role="37wK5l" to="rnx3:18W7Z4Vg253" resolve="create" />
-                <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="SubConceptGraphBuilder" />
+                <ref role="1Pybhc" to="rnx3:2rVXF9$L4no" resolve="ConceptGraph" />
                 <node concept="2OqwBi" id="7TOowlgeglR" role="37wK5m">
                   <node concept="1YBJjd" id="7TOowlgVGR9" role="2Oq$k0">
                     <ref role="1YBMHb" node="7TOowlgBzBU" resolve="modelMerge" />
@@ -800,7 +800,7 @@
                 </node>
               </node>
               <node concept="2YIFZM" id="7TOowlhccnt" role="33vP2m">
-                <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="SubConceptGraphBuilder" />
+                <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
                 <ref role="37wK5l" to="rnx3:18W7Z4Vmw0z" resolve="traverse" />
                 <node concept="37vLTw" id="7TOowlhccnu" role="37wK5m">
                   <ref role="3cqZAo" node="7TOowlgeglN" resolve="graph" />

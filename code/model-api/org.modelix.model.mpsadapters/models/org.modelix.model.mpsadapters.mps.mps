@@ -14983,32 +14983,88 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="4ObTH$I03f0" role="3cqZAp">
-          <node concept="2OqwBi" id="4ObTH$I03f1" role="3clFbG">
-            <node concept="2OqwBi" id="4ObTH$I03f2" role="2Oq$k0">
-              <node concept="1rXfSq" id="4ObTH$I03f3" role="2Oq$k0">
+        <node concept="3cpWs8" id="7eBq7Rka1Pg" role="3cqZAp">
+          <node concept="3cpWsn" id="7eBq7Rka1Ph" role="3cpWs9">
+            <property role="TrG5h" value="modelAccess" />
+            <node concept="3uibUv" id="7eBq7Rka1fc" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~ModelAccess" resolve="ModelAccess" />
+            </node>
+            <node concept="2OqwBi" id="7eBq7Rka1Pi" role="33vP2m">
+              <node concept="1rXfSq" id="7eBq7Rka1Pj" role="2Oq$k0">
                 <ref role="37wK5l" node="4ObTH$HZW39" resolve="getRepository" />
               </node>
-              <node concept="liA8E" id="4ObTH$I03f4" role="2OqNvi">
+              <node concept="liA8E" id="7eBq7Rka1Pk" role="2OqNvi">
                 <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
               </node>
             </node>
-            <node concept="liA8E" id="4ObTH$I03f5" role="2OqNvi">
-              <ref role="37wK5l" to="lui2:~ModelAccess.runWriteAction(java.lang.Runnable)" resolve="runWriteAction" />
-              <node concept="1bVj0M" id="4ObTH$I03f6" role="37wK5m">
-                <node concept="3clFbS" id="4ObTH$I03f7" role="1bW5cS">
-                  <node concept="3clFbF" id="4ObTH$I03f8" role="3cqZAp">
-                    <node concept="37vLTI" id="4ObTH$I03f9" role="3clFbG">
-                      <node concept="2OqwBi" id="4ObTH$I03fa" role="37vLTx">
-                        <node concept="37vLTw" id="4ObTH$I03fb" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4ObTH$HZTSX" resolve="f" />
-                        </node>
-                        <node concept="liA8E" id="4ObTH$I03fc" role="2OqNvi">
-                          <ref role="37wK5l" to="ouht:~Function0.invoke()" resolve="invoke" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7eBq7Rka3UX" role="3cqZAp">
+          <node concept="3clFbS" id="7eBq7Rka3UZ" role="3clFbx">
+            <node concept="3clFbF" id="7eBq7Rka6e$" role="3cqZAp">
+              <node concept="2OqwBi" id="7eBq7Rka6e_" role="3clFbG">
+                <node concept="37vLTw" id="7eBq7Rka6eA" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7eBq7Rka1Ph" resolve="modelAccess" />
+                </node>
+                <node concept="liA8E" id="7eBq7Rka6eB" role="2OqNvi">
+                  <ref role="37wK5l" to="lui2:~ModelAccess.runWriteAction(java.lang.Runnable)" resolve="runWriteAction" />
+                  <node concept="1bVj0M" id="7eBq7Rka6eC" role="37wK5m">
+                    <node concept="3clFbS" id="7eBq7Rka6eD" role="1bW5cS">
+                      <node concept="3clFbF" id="7eBq7Rka6eE" role="3cqZAp">
+                        <node concept="37vLTI" id="7eBq7Rka6eF" role="3clFbG">
+                          <node concept="2OqwBi" id="7eBq7Rka6eG" role="37vLTx">
+                            <node concept="37vLTw" id="7eBq7Rka6eH" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4ObTH$HZTSX" resolve="f" />
+                            </node>
+                            <node concept="liA8E" id="7eBq7Rka6eI" role="2OqNvi">
+                              <ref role="37wK5l" to="ouht:~Function0.invoke()" resolve="invoke" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="7eBq7Rka6eJ" role="37vLTJ">
+                            <ref role="3cqZAo" node="4ObTH$I03eY" resolve="result" />
+                          </node>
                         </node>
                       </node>
-                      <node concept="37vLTw" id="4ObTH$I03fd" role="37vLTJ">
-                        <ref role="3cqZAo" node="4ObTH$I03eY" resolve="result" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="7eBq7Rka5e4" role="3clFbw">
+            <node concept="3uibUv" id="7eBq7Rka5jz" role="2ZW6by">
+              <ref role="3uigEE" to="w1kc:~GlobalModelAccess" resolve="GlobalModelAccess" />
+            </node>
+            <node concept="37vLTw" id="7eBq7Rka4Ox" role="2ZW6bz">
+              <ref role="3cqZAo" node="7eBq7Rka1Ph" resolve="modelAccess" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="7eBq7Rka5jW" role="9aQIa">
+            <node concept="3clFbS" id="7eBq7Rka5jX" role="9aQI4">
+              <node concept="3clFbF" id="4ObTH$I03f0" role="3cqZAp">
+                <node concept="2OqwBi" id="4ObTH$I03f1" role="3clFbG">
+                  <node concept="37vLTw" id="7eBq7Rka1Pl" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7eBq7Rka1Ph" resolve="modelAccess" />
+                  </node>
+                  <node concept="liA8E" id="4ObTH$I03f5" role="2OqNvi">
+                    <ref role="37wK5l" to="lui2:~ModelAccess.executeCommand(java.lang.Runnable)" resolve="executeCommand" />
+                    <node concept="1bVj0M" id="4ObTH$I03f6" role="37wK5m">
+                      <node concept="3clFbS" id="4ObTH$I03f7" role="1bW5cS">
+                        <node concept="3clFbF" id="4ObTH$I03f8" role="3cqZAp">
+                          <node concept="37vLTI" id="4ObTH$I03f9" role="3clFbG">
+                            <node concept="2OqwBi" id="4ObTH$I03fa" role="37vLTx">
+                              <node concept="37vLTw" id="4ObTH$I03fb" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4ObTH$HZTSX" resolve="f" />
+                              </node>
+                              <node concept="liA8E" id="4ObTH$I03fc" role="2OqNvi">
+                                <ref role="37wK5l" to="ouht:~Function0.invoke()" resolve="invoke" />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="4ObTH$I03fd" role="37vLTJ">
+                              <ref role="3cqZAo" node="4ObTH$I03eY" resolve="result" />
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>

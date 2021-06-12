@@ -1037,15 +1037,9 @@
   </node>
   <node concept="1TIwiD" id="6rGQ0fksByM">
     <property role="EcuMT" value="7416540197333137586" />
-    <property role="TrG5h" value="LowLevelMenuPart" />
-    <property role="34LRSv" value="low level" />
+    <property role="TrG5h" value="GenericMenuPart" />
+    <property role="34LRSv" value="generic" />
     <ref role="1TJDcQ" to="tpc2:1qY_lWSjJZY" resolve="TransformationMenuPart" />
-    <node concept="1TJgyj" id="6rGQ0fksByN" role="1TKVEi">
-      <property role="IQ2ns" value="7416540197333137587" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="implementation_" />
-      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
-    </node>
     <node concept="1TJgyj" id="6rGQ0fk$7YL" role="1TKVEi">
       <property role="IQ2ns" value="7416540197335105457" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

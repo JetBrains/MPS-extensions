@@ -2298,7 +2298,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6rGQ0fksBzf">
-    <ref role="1XX52x" to="teg0:6rGQ0fksByM" resolve="LowLevelMenuPart" />
+    <ref role="1XX52x" to="teg0:6rGQ0fksByM" resolve="GenericMenuPart" />
     <node concept="3EZMnI" id="6rGQ0fksBzh" role="2wV5jI">
       <node concept="PMmxH" id="6rGQ0fksBzo" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />

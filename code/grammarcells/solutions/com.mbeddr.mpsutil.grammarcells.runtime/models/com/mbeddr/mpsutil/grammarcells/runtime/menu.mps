@@ -1649,6 +1649,49 @@
       </node>
       <node concept="3Tm1VV" id="1_3xoKENDYx" role="1B3o_S" />
     </node>
+    <node concept="2YIFZL" id="DnjeukELVT" role="jymVt">
+      <property role="TrG5h" value="add" />
+      <node concept="3clFbS" id="DnjeukEKdB" role="3clF47">
+        <node concept="3clFbF" id="DnjeukEMbn" role="3cqZAp">
+          <node concept="2OqwBi" id="DnjeukEMdu" role="3clFbG">
+            <node concept="37vLTw" id="DnjeukEMbm" role="2Oq$k0">
+              <ref role="3cqZAo" node="DnjeukEKUv" resolve="cell" />
+            </node>
+            <node concept="liA8E" id="DnjeukEMkE" role="2OqNvi">
+              <ref role="37wK5l" to="f4zo:~EditorCell.setTransformationMenuLookup(jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuLookup)" resolve="setTransformationMenuLookup" />
+              <node concept="1rXfSq" id="DnjeukEMmg" role="37wK5m">
+                <ref role="37wK5l" node="1_3xoKENEY7" resolve="combine" />
+                <node concept="2OqwBi" id="DnjeukEMrT" role="37wK5m">
+                  <node concept="37vLTw" id="DnjeukEMpm" role="2Oq$k0">
+                    <ref role="3cqZAo" node="DnjeukEKUv" resolve="cell" />
+                  </node>
+                  <node concept="liA8E" id="DnjeukEMvI" role="2OqNvi">
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getTransformationMenuLookup()" resolve="getTransformationMenuLookup" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="DnjeukEM$_" role="37wK5m">
+                  <ref role="3cqZAo" node="DnjeukEL9q" resolve="lookup" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="DnjeukEKUv" role="3clF46">
+        <property role="TrG5h" value="cell" />
+        <node concept="3uibUv" id="DnjeukEL8l" role="1tU5fm">
+          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="DnjeukEL9q" role="3clF46">
+        <property role="TrG5h" value="lookup" />
+        <node concept="3uibUv" id="DnjeukELqt" role="1tU5fm">
+          <ref role="3uigEE" to="uddc:~TransformationMenuLookup" resolve="TransformationMenuLookup" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="DnjeukEKd_" role="3clF45" />
+      <node concept="3Tm1VV" id="DnjeukEKdA" role="1B3o_S" />
+    </node>
     <node concept="2tJIrI" id="1_3xoKENDHP" role="jymVt" />
     <node concept="312cEg" id="1_3xoKENxrm" role="jymVt">
       <property role="TrG5h" value="lookups" />

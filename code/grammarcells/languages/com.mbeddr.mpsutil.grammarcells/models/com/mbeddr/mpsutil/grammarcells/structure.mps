@@ -1060,5 +1060,56 @@
     <property role="34LRSv" value="context" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="Dnjeuk_JIi">
+    <property role="EcuMT" value="745148820867185554" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="SideTransformationCell4" />
+    <property role="34LRSv" value="grammar.sideTransformation4" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="Dnjeuk_JIs" role="1TKVEi">
+      <property role="IQ2ns" value="745148820867185564" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="menuParts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpc2:1qY_lWSjJZY" resolve="TransformationMenuPart" />
+    </node>
+    <node concept="1TJgyj" id="DnjeukFOFu" role="1TKVEi">
+      <property role="IQ2ns" value="745148820868778718" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="leftMenu" />
+      <ref role="20lvS9" to="tpc2:3rSzFHWJPbd" resolve="ITransformationMenuReference" />
+    </node>
+    <node concept="1TJgyj" id="DnjeukFOFx" role="1TKVEi">
+      <property role="IQ2ns" value="745148820868778721" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rightMenu" />
+      <ref role="20lvS9" to="tpc2:3rSzFHWJPbd" resolve="ITransformationMenuReference" />
+    </node>
+    <node concept="PrWs8" id="Dnjeuk_JIj" role="PzmwI">
+      <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    </node>
+    <node concept="PrWs8" id="Dnjeuk_JIo" role="PzmwI">
+      <ref role="PrY4T" node="4eBi5gdADMe" resolve="INotALeaf" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="DnjeukLXrb">
+    <property role="EcuMT" value="745148820870387403" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="SideTransformationHolderProcessor" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="DnjeukLXrc" role="1TKVEi">
+      <property role="IQ2ns" value="745148820870387404" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wrappedCell" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="PrWs8" id="DnjeukLXre" role="PzmwI">
+      <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
+    </node>
+    <node concept="PrWs8" id="DnjeukLXrj" role="PzmwI">
+      <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
+    </node>
+  </node>
 </model>
 

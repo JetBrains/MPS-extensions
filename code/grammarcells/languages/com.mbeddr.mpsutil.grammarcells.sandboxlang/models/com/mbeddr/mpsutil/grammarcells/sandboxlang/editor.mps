@@ -256,6 +256,9 @@
       <concept id="3921456275302774825" name="com.mbeddr.mpsutil.grammarcells.structure.SplittableCell" flags="sg" stub="3921456275302774831" index="2lNzut">
         <child id="3921456275305506525" name="tokenizer" index="2lD6_D" />
       </concept>
+      <concept id="745148820867185554" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell4" flags="ng" index="2uKrtP">
+        <child id="745148820867185564" name="menuParts" index="2uKrtV" />
+      </concept>
       <concept id="1997572252229165641" name="com.mbeddr.mpsutil.grammarcells.structure.TransformationLocation_Before" flags="ng" index="wWMWC" />
       <concept id="5083944728300220902" name="com.mbeddr.mpsutil.grammarcells.structure.SubstituteCell" flags="ng" index="yw3OH">
         <child id="5083944728300220903" name="wrapped" index="yw3OG" />
@@ -602,6 +605,22 @@
       </node>
       <node concept="1kHk_G" id="RbLMy6b51E" role="3EZMnx">
         <ref role="1NtTu8" to="ibwz:6oKG1kMxvqX" resolve="volatile" />
+      </node>
+      <node concept="2uKrtP" id="DnjeukItwl" role="3EZMnx">
+        <node concept="IWgqT" id="DnjeukItwD" role="2uKrtV">
+          <node concept="1hCUdq" id="DnjeukItwE" role="1hCUd6">
+            <node concept="3clFbS" id="DnjeukItwF" role="2VODD2">
+              <node concept="3clFbF" id="DnjeukIt_s" role="3cqZAp">
+                <node concept="Xl_RD" id="DnjeukItIL" role="3clFbG">
+                  <property role="Xl_RC" value="between name and flags" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="IWg2L" id="DnjeukItwG" role="IWgqQ">
+            <node concept="3clFbS" id="DnjeukItwH" role="2VODD2" />
+          </node>
+        </node>
       </node>
       <node concept="3F0A7n" id="RbLMy68PdS" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />

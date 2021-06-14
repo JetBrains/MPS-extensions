@@ -161,10 +161,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
-        <property id="779128492853934523" name="cellId" index="1K8rM7" />
-        <property id="779128492853699361" name="side" index="1Kfyot" />
-      </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
@@ -2503,17 +2499,6 @@
                     <property role="p6zMq" value="0" />
                     <property role="p6zMs" value="0" />
                     <property role="LIFWd" value="ALIAS_EDITOR_COMPONENT" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1kHs8n" id="Dnjeult4Uk" role="2cssZA">
-              <property role="TrG5h" value="a" />
-              <node concept="2bZTBh" id="Dnjeult4Ul" role="1kHs7J">
-                <node concept="2cvBGp" id="Dnjeult4UM" role="2bZTBi">
-                  <node concept="1KehLL" id="Dnjeult4UX" role="lGtFl">
-                    <property role="1K8rM7" value="ALIAS_EDITOR_COMPONENT" />
-                    <property role="1Kfyot" value="Fg1jLUVyTf/left" />
                   </node>
                 </node>
               </node>

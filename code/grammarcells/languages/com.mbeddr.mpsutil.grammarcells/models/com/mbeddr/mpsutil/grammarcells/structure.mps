@@ -1021,17 +1021,17 @@
     <property role="EcuMT" value="1997572252229165641" />
     <property role="TrG5h" value="TransformationLocation_Before" />
     <property role="34LRSv" value="before" />
-    <ref role="1TJDcQ" node="1ISNm4Vw3eE" resolve="TransformationLocation_BeforeOrAfter" />
+    <ref role="1TJDcQ" node="1ISNm4Vw3eE" resolve="TransformationLocation_ContributionsToSideTranformation" />
   </node>
   <node concept="1TIwiD" id="1ISNm4ViYa4">
     <property role="EcuMT" value="1997572252229165700" />
     <property role="TrG5h" value="TransformationLocation_After" />
     <property role="34LRSv" value="after" />
-    <ref role="1TJDcQ" node="1ISNm4Vw3eE" resolve="TransformationLocation_BeforeOrAfter" />
+    <ref role="1TJDcQ" node="1ISNm4Vw3eE" resolve="TransformationLocation_ContributionsToSideTranformation" />
   </node>
   <node concept="1TIwiD" id="1ISNm4Vw3eE">
     <property role="EcuMT" value="1997572252232594346" />
-    <property role="TrG5h" value="TransformationLocation_BeforeOrAfter" />
+    <property role="TrG5h" value="TransformationLocation_ContributionsToSideTranformation" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpc2:7L5lpRJH$EA" resolve="TransformationLocation" />
   </node>
@@ -1066,24 +1066,12 @@
     <property role="TrG5h" value="SideTransformationCell4" />
     <property role="34LRSv" value="grammar.sideTransformation4" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
-    <node concept="1TJgyj" id="Dnjeuk_JIs" role="1TKVEi">
-      <property role="IQ2ns" value="745148820867185564" />
+    <node concept="1TJgyj" id="Dnjeul188y" role="1TKVEi">
+      <property role="IQ2ns" value="745148820874363426" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="menuParts" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tpc2:1qY_lWSjJZY" resolve="TransformationMenuPart" />
-    </node>
-    <node concept="1TJgyj" id="DnjeukFOFu" role="1TKVEi">
-      <property role="IQ2ns" value="745148820868778718" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="leftMenu" />
-      <ref role="20lvS9" to="tpc2:3rSzFHWJPbd" resolve="ITransformationMenuReference" />
-    </node>
-    <node concept="1TJgyj" id="DnjeukFOFx" role="1TKVEi">
-      <property role="IQ2ns" value="745148820868778721" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="rightMenu" />
-      <ref role="20lvS9" to="tpc2:3rSzFHWJPbd" resolve="ITransformationMenuReference" />
+      <property role="20kJfa" value="section" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpc2:6V0bp$oHeYW" resolve="TransformationMenuSection" />
     </node>
     <node concept="PrWs8" id="Dnjeuk_JIj" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
@@ -1110,6 +1098,12 @@
     <node concept="PrWs8" id="DnjeukLXrj" role="PzmwI">
       <ref role="PrY4T" node="6rhOS_xv5cy" resolve="IGeneratorOnly" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="Dnjeulj4il">
+    <property role="EcuMT" value="745148820879066261" />
+    <property role="TrG5h" value="TransformationLocation_SideTransformationCell" />
+    <property role="34LRSv" value="side-transformation-cell" />
+    <ref role="1TJDcQ" node="1ISNm4Vw3eE" resolve="TransformationLocation_ContributionsToSideTranformation" />
   </node>
 </model>
 

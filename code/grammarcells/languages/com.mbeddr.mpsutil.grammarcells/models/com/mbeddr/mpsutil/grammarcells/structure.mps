@@ -1066,6 +1066,11 @@
     <property role="TrG5h" value="SideTransformationCell4" />
     <property role="34LRSv" value="grammar.sideTransformation4" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyi" id="Dnjeun4iHs" role="1TKVEl">
+      <property role="IQ2nx" value="745148820908747612" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="Dnjeul188y" role="1TKVEi">
       <property role="IQ2ns" value="745148820874363426" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

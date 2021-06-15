@@ -33,6 +33,8 @@
     <import index="iwf0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.descriptor(MPS.Editor/)" />
     <import index="4my4" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.sidetransform(MPS.Editor/)" />
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
+    <import index="9eyi" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.lang.editor.menus.transformation(MPS.Editor/)" />
+    <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
@@ -276,6 +278,9 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
+        <child id="1176906787974" name="rightExpression" index="576Qk" />
+      </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
@@ -335,6 +340,7 @@
         <child id="1197932525128" name="key" index="3ElVtu" />
       </concept>
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
+      <concept id="1180964022718" name="jetbrains.mps.baseLanguage.collections.structure.ConcatOperation" flags="nn" index="3QWeyG" />
     </language>
   </registry>
   <node concept="312cEu" id="1YKLYyyGx8h">
@@ -2626,6 +2632,47 @@
                 <node concept="3goQfb" id="39$RJBbHb0d" role="2OqNvi">
                   <node concept="1bVj0M" id="39$RJBbHb0e" role="23t8la">
                     <node concept="3clFbS" id="39$RJBbHb0f" role="1bW5cS">
+                      <node concept="3cpWs8" id="5fS8LrnX17L" role="3cqZAp">
+                        <node concept="3cpWsn" id="5fS8LrnX17O" role="3cpWs9">
+                          <property role="TrG5h" value="result" />
+                          <node concept="A3Dl8" id="5fS8LrnX3LC" role="1tU5fm">
+                            <node concept="3uibUv" id="5fS8LrnX3LE" role="A3Ik2">
+                              <ref role="3uigEE" to="uddc:~TransformationMenuItem" resolve="TransformationMenuItem" />
+                            </node>
+                          </node>
+                          <node concept="2ShNRf" id="5fS8LrnX5Sw" role="33vP2m">
+                            <node concept="kMnCb" id="5fS8LrnX7Zn" role="2ShVmc">
+                              <node concept="3uibUv" id="5fS8LrnX94y" role="kMuH3">
+                                <ref role="3uigEE" to="uddc:~TransformationMenuItem" resolve="TransformationMenuItem" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs8" id="5fS8LrnXvbz" role="3cqZAp">
+                        <node concept="3cpWsn" id="5fS8LrnXvb$" role="3cpWs9">
+                          <property role="TrG5h" value="contextForCellNode" />
+                          <node concept="3uibUv" id="5fS8LrnXv1f" role="1tU5fm">
+                            <ref role="3uigEE" to="uddc:~TransformationMenuContext" resolve="TransformationMenuContext" />
+                          </node>
+                          <node concept="2OqwBi" id="5fS8LrnXvb_" role="33vP2m">
+                            <node concept="37vLTw" id="5fS8LrnXvbA" role="2Oq$k0">
+                              <ref role="3cqZAo" node="39$RJBbHiKm" resolve="beforeAfterContext" />
+                            </node>
+                            <node concept="liA8E" id="5fS8LrnXvbB" role="2OqNvi">
+                              <ref role="37wK5l" to="uddc:~TransformationMenuContext.withNode(org.jetbrains.mps.openapi.model.SNode)" resolve="withNode" />
+                              <node concept="2OqwBi" id="5fS8LrnXvbC" role="37wK5m">
+                                <node concept="37vLTw" id="5fS8LrnXvbD" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="39$RJBbHb0D" resolve="cell" />
+                                </node>
+                                <node concept="liA8E" id="5fS8LrnXvbE" role="2OqNvi">
+                                  <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3cpWs8" id="39$RJBbHb0g" role="3cqZAp">
                         <node concept="3cpWsn" id="39$RJBbHb0h" role="3cpWs9">
                           <property role="TrG5h" value="lookup" />
@@ -2634,7 +2681,7 @@
                           </node>
                           <node concept="2OqwBi" id="39$RJBbHb0j" role="33vP2m">
                             <node concept="37vLTw" id="39$RJBbHb0k" role="2Oq$k0">
-                              <ref role="3cqZAo" node="39$RJBbHb0D" resolve="it" />
+                              <ref role="3cqZAo" node="39$RJBbHb0D" resolve="cell" />
                             </node>
                             <node concept="liA8E" id="39$RJBbHb0l" role="2OqNvi">
                               <ref role="37wK5l" to="f4zo:~EditorCell.getTransformationMenuLookup()" resolve="getTransformationMenuLookup" />
@@ -2644,52 +2691,127 @@
                       </node>
                       <node concept="3clFbJ" id="39$RJBbHb0m" role="3cqZAp">
                         <node concept="3clFbS" id="39$RJBbHb0n" role="3clFbx">
-                          <node concept="3cpWs6" id="39$RJBbHb0o" role="3cqZAp">
-                            <node concept="2ShNRf" id="39$RJBbHb0p" role="3cqZAk">
-                              <node concept="kMnCb" id="39$RJBbHb0q" role="2ShVmc">
-                                <node concept="3uibUv" id="39$RJBbHb0r" role="kMuH3">
-                                  <ref role="3uigEE" to="uddc:~TransformationMenuItem" resolve="TransformationMenuItem" />
+                          <node concept="3clFbF" id="5fS8LrnXdZd" role="3cqZAp">
+                            <node concept="37vLTI" id="5fS8LrnXeNU" role="3clFbG">
+                              <node concept="2OqwBi" id="5fS8LrnXfUt" role="37vLTx">
+                                <node concept="37vLTw" id="5fS8LrnXfua" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="5fS8LrnX17O" resolve="result" />
                                 </node>
+                                <node concept="3QWeyG" id="5fS8LrnXgtn" role="2OqNvi">
+                                  <node concept="2OqwBi" id="39$RJBbHb0w" role="576Qk">
+                                    <node concept="37vLTw" id="5fS8LrnXvbF" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="5fS8LrnXvb$" resolve="contextForCellNode" />
+                                    </node>
+                                    <node concept="liA8E" id="39$RJBbHb0B" role="2OqNvi">
+                                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.createItems(jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuLookup)" resolve="createItems" />
+                                      <node concept="37vLTw" id="39$RJBbHb0C" role="37wK5m">
+                                        <ref role="3cqZAo" node="39$RJBbHb0h" resolve="lookup" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="37vLTw" id="5fS8LrnXdZ2" role="37vLTJ">
+                                <ref role="3cqZAo" node="5fS8LrnX17O" resolve="result" />
                               </node>
                             </node>
                           </node>
                         </node>
-                        <node concept="3clFbC" id="39$RJBbHb0s" role="3clFbw">
-                          <node concept="10Nm6u" id="39$RJBbHb0t" role="3uHU7w" />
+                        <node concept="3y3z36" id="5fS8LrnX9Qi" role="3clFbw">
                           <node concept="37vLTw" id="39$RJBbHb0u" role="3uHU7B">
                             <ref role="3cqZAo" node="39$RJBbHb0h" resolve="lookup" />
                           </node>
+                          <node concept="10Nm6u" id="39$RJBbHb0t" role="3uHU7w" />
                         </node>
                       </node>
-                      <node concept="3clFbF" id="39$RJBbHb0v" role="3cqZAp">
-                        <node concept="2OqwBi" id="39$RJBbHb0w" role="3clFbG">
-                          <node concept="2OqwBi" id="39$RJBbHb0x" role="2Oq$k0">
-                            <node concept="37vLTw" id="39$RJBbHlpi" role="2Oq$k0">
-                              <ref role="3cqZAo" node="39$RJBbHiKm" resolve="beforeAfterContext" />
-                            </node>
-                            <node concept="liA8E" id="39$RJBbHb0z" role="2OqNvi">
-                              <ref role="37wK5l" to="uddc:~TransformationMenuContext.withNode(org.jetbrains.mps.openapi.model.SNode)" resolve="withNode" />
-                              <node concept="2OqwBi" id="39$RJBbHb0$" role="37wK5m">
-                                <node concept="37vLTw" id="39$RJBbHb0_" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="39$RJBbHb0D" resolve="it" />
-                                </node>
-                                <node concept="liA8E" id="39$RJBbHb0A" role="2OqNvi">
-                                  <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
+                      <node concept="3clFbJ" id="5fS8LrnXj18" role="3cqZAp">
+                        <node concept="3clFbS" id="5fS8LrnXj1a" role="3clFbx">
+                          <node concept="3cpWs8" id="5fS8LrnXYRO" role="3cqZAp">
+                            <node concept="3cpWsn" id="5fS8LrnXYRP" role="3cpWs9">
+                              <property role="TrG5h" value="lookupForNode" />
+                              <node concept="3uibUv" id="5fS8LrnXYHt" role="1tU5fm">
+                                <ref role="3uigEE" to="9eyi:~DefaultTransformationMenuLookup" resolve="DefaultTransformationMenuLookup" />
+                              </node>
+                              <node concept="2ShNRf" id="5fS8LrnXYRQ" role="33vP2m">
+                                <node concept="1pGfFk" id="5fS8LrnXYRR" role="2ShVmc">
+                                  <ref role="37wK5l" to="9eyi:~DefaultTransformationMenuLookup.&lt;init&gt;(jetbrains.mps.smodel.language.LanguageRegistry,org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="DefaultTransformationMenuLookup" />
+                                  <node concept="2YIFZM" id="5fS8LrnXYRS" role="37wK5m">
+                                    <ref role="1Pybhc" to="vndm:~LanguageRegistry" resolve="LanguageRegistry" />
+                                    <ref role="37wK5l" to="vndm:~LanguageRegistry.getInstance(org.jetbrains.mps.openapi.module.SRepository)" resolve="getInstance" />
+                                    <node concept="2OqwBi" id="5fS8LrnXYRT" role="37wK5m">
+                                      <node concept="2OqwBi" id="5fS8LrnXYRU" role="2Oq$k0">
+                                        <node concept="37vLTw" id="5fS8LrnXYRV" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="39$RJBbHbpS" resolve="context" />
+                                        </node>
+                                        <node concept="liA8E" id="5fS8LrnXYRW" role="2OqNvi">
+                                          <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="5fS8LrnXYRX" role="2OqNvi">
+                                        <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="2OqwBi" id="5fS8LrnXYRY" role="37wK5m">
+                                    <node concept="2OqwBi" id="5fS8LrnXYRZ" role="2Oq$k0">
+                                      <node concept="37vLTw" id="5fS8LrnXYS0" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="39$RJBbHb0D" resolve="cell" />
+                                      </node>
+                                      <node concept="liA8E" id="5fS8LrnXYS1" role="2OqNvi">
+                                        <ref role="37wK5l" to="f4zo:~EditorCell.getSNode()" resolve="getSNode" />
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="5fS8LrnXYS2" role="2OqNvi">
+                                      <ref role="37wK5l" to="mhbf:~SNode.getConcept()" resolve="getConcept" />
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
                           </node>
-                          <node concept="liA8E" id="39$RJBbHb0B" role="2OqNvi">
-                            <ref role="37wK5l" to="uddc:~TransformationMenuContext.createItems(jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuLookup)" resolve="createItems" />
-                            <node concept="37vLTw" id="39$RJBbHb0C" role="37wK5m">
-                              <ref role="3cqZAo" node="39$RJBbHb0h" resolve="lookup" />
+                          <node concept="3clFbF" id="5fS8LrnXmMX" role="3cqZAp">
+                            <node concept="37vLTI" id="5fS8LrnXpEv" role="3clFbG">
+                              <node concept="2OqwBi" id="5fS8LrnXrbT" role="37vLTx">
+                                <node concept="37vLTw" id="5fS8LrnXqrX" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="5fS8LrnX17O" resolve="result" />
+                                </node>
+                                <node concept="3QWeyG" id="5fS8LrnXrVE" role="2OqNvi">
+                                  <node concept="2OqwBi" id="5fS8LrnXCiV" role="576Qk">
+                                    <node concept="37vLTw" id="5fS8LrnXDXv" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="5fS8LrnXvb$" resolve="contextForCellNode" />
+                                    </node>
+                                    <node concept="liA8E" id="5fS8LrnXE$o" role="2OqNvi">
+                                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.createItems(jetbrains.mps.openapi.editor.menus.transformation.TransformationMenuLookup)" resolve="createItems" />
+                                      <node concept="37vLTw" id="5fS8LrnXYS3" role="37wK5m">
+                                        <ref role="3cqZAo" node="5fS8LrnXYRP" resolve="lookupForNode" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="37vLTw" id="5fS8LrnXmMV" role="37vLTJ">
+                                <ref role="3cqZAo" node="5fS8LrnX17O" resolve="result" />
+                              </node>
                             </node>
                           </node>
+                        </node>
+                        <node concept="2OqwBi" id="5fS8LrnXlCD" role="3clFbw">
+                          <node concept="37vLTw" id="5fS8LrnXkoW" role="2Oq$k0">
+                            <ref role="3cqZAo" node="39$RJBbHb0D" resolve="cell" />
+                          </node>
+                          <node concept="liA8E" id="5fS8LrnXmoC" role="2OqNvi">
+                            <ref role="37wK5l" to="f4zo:~EditorCell.isBig()" resolve="isBig" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="5fS8LrnXcqa" role="3cqZAp">
+                        <node concept="37vLTw" id="5fS8LrnXd_J" role="3cqZAk">
+                          <ref role="3cqZAo" node="5fS8LrnX17O" resolve="result" />
                         </node>
                       </node>
                     </node>
                     <node concept="Rh6nW" id="39$RJBbHb0D" role="1bW2Oz">
-                      <property role="TrG5h" value="it" />
+                      <property role="TrG5h" value="cell" />
                       <node concept="2jxLKc" id="39$RJBbHb0E" role="1tU5fm" />
                     </node>
                   </node>

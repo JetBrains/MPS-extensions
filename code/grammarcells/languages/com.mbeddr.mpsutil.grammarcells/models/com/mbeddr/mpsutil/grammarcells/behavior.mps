@@ -27,6 +27,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" implicit="true" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -2866,8 +2867,13 @@
         <node concept="3clFbH" id="5ewxJLJnX3b" role="3cqZAp" />
         <node concept="3cpWs6" id="5ewxJLJnXb1" role="3cqZAp">
           <node concept="3cpWs3" id="5ewxJLJnXlL" role="3cqZAk">
-            <node concept="37vLTw" id="5ewxJLJnXp5" role="3uHU7w">
-              <ref role="3cqZAo" node="5ewxJLJnVYI" resolve="cell" />
+            <node concept="2OqwBi" id="czMm1GWYc_" role="3uHU7w">
+              <node concept="37vLTw" id="5ewxJLJnXp5" role="2Oq$k0">
+                <ref role="3cqZAo" node="5ewxJLJnVYI" resolve="cell" />
+              </node>
+              <node concept="2qgKlT" id="czMm1GWYvb" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
             </node>
             <node concept="Xl_RD" id="5ewxJLJnXgM" role="3uHU7B">
               <property role="Xl_RC" value="" />

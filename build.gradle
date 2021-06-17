@@ -79,7 +79,7 @@ ext.dependencyRepositories = [
 
 // major version, e.g. '2021.1', '2021.2'
 ext.mpsMajor = '2021.1'
-// optional minor (bugfix) number
+// optional minor/bugfix number (not added to the final build version)
 ext.mpsMinor = '1'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
@@ -90,11 +90,13 @@ ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseT
 if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch
 
+    def buildMajor = mpsMajor.split("\\.").first()
+    def buildMinor = mpsMajor.split("\\.").last()
     def buildNumber = System.env.BUILD_NUMBER.toInteger()
     if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
-        version = "$mpsMajor.$mpsMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
+        version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        version = GitBasedVersioning.getVersionWithCount(mpsMajor, mpsMinor, buildNumber)
+        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber)
     }
 
     println "##teamcity[buildNumber '${version}']"

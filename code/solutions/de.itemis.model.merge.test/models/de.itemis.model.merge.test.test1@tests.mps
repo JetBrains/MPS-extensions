@@ -477,11 +477,11 @@
                   <property role="3cmrfH" value="0" />
                 </node>
                 <node concept="2OqwBi" id="2QNuyuiOFU0" role="1y566C">
-                  <node concept="3xONca" id="2QNuyuiOGri" role="2Oq$k0">
-                    <ref role="3xOPvv" node="2QNuyuiOFTL" resolve="mp3" />
-                  </node>
                   <node concept="3Tsc0h" id="2QNuyuiOFU2" role="2OqNvi">
                     <ref role="3TtcxE" to="mopj:1EbzjT2T4LX" resolve="propertyPolicies" />
+                  </node>
+                  <node concept="3xONca" id="2QNuyuiOOZt" role="2Oq$k0">
+                    <ref role="3xOPvv" node="2QNuyuiOFTL" resolve="mp3" />
                   </node>
                 </node>
               </node>
@@ -557,6 +557,142 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="2QNuyuiON2s" role="1SL9yI">
+      <property role="TrG5h" value="noConflictInDiamond" />
+      <node concept="3cqZAl" id="2QNuyuiON2t" role="3clF45" />
+      <node concept="3clFbS" id="2QNuyuiON2u" role="3clF47">
+        <node concept="3cpWs8" id="2QNuyuiOOEb" role="3cqZAp">
+          <node concept="3cpWsn" id="2QNuyuiOOEc" role="3cpWs9">
+            <property role="TrG5h" value="propertyDummy" />
+            <node concept="3Tqbb2" id="2QNuyuiOOEd" role="1tU5fm">
+              <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="2QNuyuiOOEe" role="33vP2m">
+              <node concept="1y4W85" id="2QNuyuiOOEf" role="2Oq$k0">
+                <node concept="3cmrfG" id="2QNuyuiOOEg" role="1y58nS">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="2QNuyuiOOEh" role="1y566C">
+                  <node concept="3xONca" id="2QNuyuiOOEi" role="2Oq$k0">
+                    <ref role="3xOPvv" node="2QNuyuiOO5x" resolve="mp4" />
+                  </node>
+                  <node concept="3Tsc0h" id="2QNuyuiOOEj" role="2OqNvi">
+                    <ref role="3TtcxE" to="mopj:1EbzjT2T4LX" resolve="propertyPolicies" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="2QNuyuiOOEk" role="2OqNvi">
+                <ref role="3Tt5mk" to="mopj:6zqIeMU2u$T" resolve="property" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2QNuyuiOOEl" role="3cqZAp">
+          <node concept="3cpWsn" id="2QNuyuiOOEm" role="3cpWs9">
+            <property role="TrG5h" value="propertyNada" />
+            <node concept="3Tqbb2" id="2QNuyuiOOEn" role="1tU5fm">
+              <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="2QNuyuiOOEo" role="33vP2m">
+              <node concept="1y4W85" id="2QNuyuiOOEp" role="2Oq$k0">
+                <node concept="3cmrfG" id="2QNuyuiOOEq" role="1y58nS">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="2QNuyuiOOEr" role="1y566C">
+                  <node concept="3xONca" id="2QNuyuiOQib" role="2Oq$k0">
+                    <ref role="3xOPvv" node="2QNuyuiON2q" resolve="mp5" />
+                  </node>
+                  <node concept="3Tsc0h" id="2QNuyuiOOEt" role="2OqNvi">
+                    <ref role="3TtcxE" to="mopj:1EbzjT2T4LX" resolve="propertyPolicies" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="2QNuyuiOOEu" role="2OqNvi">
+                <ref role="3Tt5mk" to="mopj:6zqIeMU2u$T" resolve="property" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2QNuyuiON2D" role="3cqZAp" />
+        <node concept="3cpWs8" id="2QNuyuiON2E" role="3cqZAp">
+          <node concept="3cpWsn" id="2QNuyuiON2F" role="3cpWs9">
+            <property role="TrG5h" value="porpertyMergePolicy" />
+            <node concept="3uibUv" id="2QNuyuiON2G" role="1tU5fm">
+              <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
+              <node concept="3uibUv" id="2QNuyuiON2H" role="11_B2D">
+                <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+              </node>
+              <node concept="3uibUv" id="2QNuyuiON2I" role="11_B2D">
+                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2QNuyuiON2J" role="33vP2m">
+              <node concept="2OqwBi" id="2QNuyuiON2K" role="2Oq$k0">
+                <node concept="3xONca" id="2QNuyuiOOuW" role="2Oq$k0">
+                  <ref role="3xOPvv" node="2QNuyuiOMUv" resolve="modelmerge4" />
+                </node>
+                <node concept="2qgKlT" id="2QNuyuiON2M" role="2OqNvi">
+                  <ref role="37wK5l" to="rnx3:2QNuyuiMzB2" resolve="mergePoliciesByHierarchy" />
+                </node>
+              </node>
+              <node concept="2OwXpG" id="2QNuyuiON2N" role="2OqNvi">
+                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2QNuyuiON2O" role="3cqZAp" />
+        <node concept="1gVbGN" id="2QNuyuiON2Y" role="3cqZAp">
+          <node concept="2OqwBi" id="2QNuyuiON2Z" role="1gVkn0">
+            <node concept="2OqwBi" id="2QNuyuiOPax" role="2Oq$k0">
+              <node concept="2WthIp" id="2QNuyuiOPay" role="2Oq$k0" />
+              <node concept="2XshWL" id="2QNuyuiOPaz" role="2OqNvi">
+                <ref role="2WH_rO" node="2QNuyuiO_u3" resolve="mergeActionFor" />
+                <node concept="37vLTw" id="2QNuyuiOPa$" role="2XxRq1">
+                  <ref role="3cqZAo" node="2QNuyuiON2F" resolve="porpertyMergePolicy" />
+                </node>
+                <node concept="35c_gC" id="2QNuyuiOPa_" role="2XxRq1">
+                  <ref role="35c_gD" to="14sb:7TOowlgsdak" resolve="Bottom" />
+                </node>
+                <node concept="37vLTw" id="2QNuyuiOPaA" role="2XxRq1">
+                  <ref role="3cqZAo" node="2QNuyuiOOEc" resolve="propertyDummy" />
+                </node>
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="2QNuyuiON31" role="2OqNvi">
+              <node concept="chp4Y" id="2QNuyuiOPwQ" role="cj9EA">
+                <ref role="cht4Q" to="mopj:1EbzjT2T4Ja" resolve="Left" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="2QNuyuiOPHO" role="3cqZAp">
+          <node concept="2OqwBi" id="2QNuyuiOPHP" role="1gVkn0">
+            <node concept="2OqwBi" id="2QNuyuiOPHQ" role="2Oq$k0">
+              <node concept="2WthIp" id="2QNuyuiOPHR" role="2Oq$k0" />
+              <node concept="2XshWL" id="2QNuyuiOPHS" role="2OqNvi">
+                <ref role="2WH_rO" node="2QNuyuiO_u3" resolve="mergeActionFor" />
+                <node concept="37vLTw" id="2QNuyuiOPHT" role="2XxRq1">
+                  <ref role="3cqZAo" node="2QNuyuiON2F" resolve="porpertyMergePolicy" />
+                </node>
+                <node concept="35c_gC" id="2QNuyuiOPHU" role="2XxRq1">
+                  <ref role="35c_gD" to="14sb:7TOowlgsdak" resolve="Bottom" />
+                </node>
+                <node concept="37vLTw" id="2QNuyuiOQ$S" role="2XxRq1">
+                  <ref role="3cqZAo" node="2QNuyuiOOEm" resolve="propertyNada" />
+                </node>
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="2QNuyuiOPHW" role="2OqNvi">
+              <node concept="chp4Y" id="2QNuyuiOPV7" role="cj9EA">
+                <ref role="cht4Q" to="mopj:6zqIeMU2OVm" resolve="Right" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2QNuyuiOPy2" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="1qefOq" id="2QNuyuiO36y" role="1SKRRt">
       <node concept="1olOeT" id="2QNuyuiO36z" role="1qenE9">
         <property role="TrG5h" value="InheritPropertyMergePolicy" />
@@ -621,6 +757,42 @@
         </node>
         <node concept="3xLA65" id="2QNuyuiOFTJ" role="lGtFl">
           <property role="TrG5h" value="modelmerge3" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="2QNuyuiOMUe" role="1SKRRt">
+      <node concept="1olOeT" id="2QNuyuiOMUf" role="1qenE9">
+        <property role="TrG5h" value="NoConflictInDaimond" />
+        <node concept="1oluLK" id="2QNuyuiOMUg" role="1olsr8" />
+        <node concept="1olsrb" id="2QNuyuiOMUh" role="1olsr8">
+          <ref role="24zOxU" to="14sb:7TOowlgsaNJ" resolve="Interface1" />
+          <node concept="1orWGm" id="2QNuyuiOMUi" role="1orW53">
+            <ref role="3iOP7l" to="14sb:7TOowlgsaNH" resolve="dummy" />
+            <node concept="1orWrO" id="2QNuyuiOMUj" role="1orWrN" />
+          </node>
+          <node concept="3xLA65" id="2QNuyuiOO5x" role="lGtFl">
+            <property role="TrG5h" value="mp4" />
+          </node>
+        </node>
+        <node concept="1olsrb" id="2QNuyuiOMUk" role="1olsr8">
+          <ref role="24zOxU" to="14sb:7TOowlgsaNK" resolve="Interface2" />
+          <node concept="1orWGm" id="2QNuyuiOMUl" role="1orW53">
+            <ref role="3iOP7l" to="14sb:7TOowlgtN9E" resolve="nada" />
+            <node concept="3iOvoU" id="2QNuyuiOMUm" role="1orWrN" />
+          </node>
+          <node concept="3xLA65" id="2QNuyuiON2q" role="lGtFl">
+            <property role="TrG5h" value="mp5" />
+          </node>
+        </node>
+        <node concept="1oluLK" id="2QNuyuiOMUs" role="1olsr8" />
+        <node concept="pHN19" id="2QNuyuiOMUt" role="3WPhuS">
+          <node concept="2V$Bhx" id="2QNuyuiOMUu" role="2V$M_3">
+            <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
+            <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
+          </node>
+        </node>
+        <node concept="3xLA65" id="2QNuyuiOMUv" role="lGtFl">
+          <property role="TrG5h" value="modelmerge4" />
         </node>
       </node>
     </node>

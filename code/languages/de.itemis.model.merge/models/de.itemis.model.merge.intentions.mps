@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -20,6 +21,7 @@
     <import index="rnx3" ref="r:424d540e-f1fc-49a5-b16d-3f9264b84dee(de.itemis.model.merge.behavior)" />
     <import index="agc3" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.graph(de.q60.mps.libs/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="sz2a" ref="r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -27,6 +29,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
+        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -98,10 +103,6 @@
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
-      </concept>
-      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
-        <child id="1197683466920" name="keyType" index="3rvQeY" />
-        <child id="1197683475734" name="valueType" index="3rvSg0" />
       </concept>
     </language>
   </registry>
@@ -247,58 +248,27 @@
     <node concept="2Sbjvc" id="7TOowlgd6LJ" role="2ZfgGD">
       <node concept="3clFbS" id="7TOowlgd6LK" role="2VODD2">
         <node concept="3clFbH" id="7TOowlgd7VT" role="3cqZAp" />
-        <node concept="3cpWs8" id="7TOowlgeglA" role="3cqZAp">
-          <node concept="3cpWsn" id="7TOowlgeglB" role="3cpWs9">
-            <property role="TrG5h" value="conceptToMergePolicy" />
-            <node concept="3rvAFt" id="7TOowlgeglC" role="1tU5fm">
-              <node concept="3Tqbb2" id="7TOowlgeglD" role="3rvQeY">
-                <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+        <node concept="3cpWs8" id="7TOowlhccnr" role="3cqZAp">
+          <node concept="3cpWsn" id="7TOowlhccns" role="3cpWs9">
+            <property role="TrG5h" value="conceptToPropertyMergeActions" />
+            <node concept="2OqwBi" id="2QNuyuiM7B8" role="33vP2m">
+              <node concept="2YIFZM" id="2QNuyuiM6Vu" role="2Oq$k0">
+                <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
+                <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
+                <node concept="2Sf5sV" id="2QNuyuiMUOD" role="37wK5m" />
               </node>
-              <node concept="3Tqbb2" id="7TOowlgeglE" role="3rvSg0">
-                <ref role="ehGHo" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="7TOowlgeglF" role="33vP2m">
-              <node concept="2Sf5sV" id="7TOowlgeglH" role="2Oq$k0" />
-              <node concept="2qgKlT" id="7TOowlgeglJ" role="2OqNvi">
-                <ref role="37wK5l" to="rnx3:3xJ_LYXj1c6" resolve="conceptToDefinedMergePolicy" />
+              <node concept="2OwXpG" id="2QNuyuiM81O" role="2OqNvi">
+                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7TOowlgeglK" role="3cqZAp" />
-        <node concept="3clFbH" id="7TOowlgeglL" role="3cqZAp" />
-        <node concept="3cpWs8" id="7TOowlgeglM" role="3cqZAp">
-          <node concept="3cpWsn" id="7TOowlgeglN" role="3cpWs9">
-            <property role="TrG5h" value="graph" />
-            <node concept="3uibUv" id="7TOowlgeglO" role="1tU5fm">
-              <ref role="3uigEE" to="agc3:~Graph" resolve="Graph" />
-              <node concept="3uibUv" id="7TOowlgeglP" role="11_B2D">
+            <node concept="3uibUv" id="7TOowlhbbxh" role="1tU5fm">
+              <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
+              <node concept="3uibUv" id="7TOowlhbbxi" role="11_B2D">
                 <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
               </node>
-            </node>
-            <node concept="2YIFZM" id="2rVXF9$LdH4" role="33vP2m">
-              <ref role="37wK5l" to="rnx3:18W7Z4Vg253" resolve="create" />
-              <ref role="1Pybhc" to="rnx3:2rVXF9$L4no" resolve="ConceptGraph" />
-              <node concept="2OqwBi" id="7TOowlgeglR" role="37wK5m">
-                <node concept="2Sf5sV" id="7TOowlgeglT" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7TOowlgeglV" role="2OqNvi">
-                  <ref role="37wK5l" to="rnx3:3xJ_LYXlmVz" resolve="languageConcepts" />
-                </node>
+              <node concept="3uibUv" id="2rVXF9$SWu0" role="11_B2D">
+                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7TOowlgowx4" role="3cqZAp" />
-        <node concept="3clFbF" id="7TOowlgeglX" role="3cqZAp">
-          <node concept="2YIFZM" id="7TOowlgeglY" role="3clFbG">
-            <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
-            <ref role="37wK5l" to="rnx3:18W7Z4Vmw0z" resolve="traverse" />
-            <node concept="37vLTw" id="7TOowlgeglZ" role="37wK5m">
-              <ref role="3cqZAo" node="7TOowlgeglN" resolve="graph" />
-            </node>
-            <node concept="37vLTw" id="7TOowlgegm0" role="37wK5m">
-              <ref role="3cqZAo" node="7TOowlgeglB" resolve="conceptToMergePolicy" />
             </node>
           </node>
         </node>

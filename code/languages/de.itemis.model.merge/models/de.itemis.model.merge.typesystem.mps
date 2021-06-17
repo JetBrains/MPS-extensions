@@ -15,7 +15,7 @@
     <import index="agc3" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.graph(de.q60.mps.libs/)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="xlb7" ref="r:cf42fd0a-68d2-493b-8b77-961658617704(jetbrains.mps.lang.modelapi.behavior)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -752,60 +752,19 @@
     <node concept="3clFbS" id="7TOowlgBzBS" role="18ibNy">
       <node concept="3J1_TO" id="7TOowlgVHwU" role="3cqZAp">
         <node concept="3clFbS" id="7TOowlgVHwV" role="1zxBo7">
-          <node concept="3clFbF" id="7TOowlgXS0G" role="3cqZAp">
-            <node concept="2OqwBi" id="7TOowlgXS0D" role="3clFbG">
-              <node concept="10M0yZ" id="7TOowlgXS0E" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-              </node>
-              <node concept="liA8E" id="7TOowlgXS0F" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                <node concept="Xl_RD" id="7TOowlgXS53" role="37wK5m">
-                  <property role="Xl_RC" value="--&gt;&gt; run check " />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="7TOowlgeglM" role="3cqZAp">
-            <node concept="3cpWsn" id="7TOowlgeglN" role="3cpWs9">
-              <property role="TrG5h" value="graph" />
-              <node concept="3uibUv" id="7TOowlgeglO" role="1tU5fm">
-                <ref role="3uigEE" to="agc3:~Graph" resolve="Graph" />
-                <node concept="3uibUv" id="7TOowlgeglP" role="11_B2D">
-                  <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-                </node>
-              </node>
-              <node concept="2YIFZM" id="2rVXF9$LdH3" role="33vP2m">
-                <ref role="37wK5l" to="rnx3:18W7Z4Vg253" resolve="create" />
-                <ref role="1Pybhc" to="rnx3:2rVXF9$L4no" resolve="ConceptGraph" />
-                <node concept="2OqwBi" id="7TOowlgeglR" role="37wK5m">
-                  <node concept="1YBJjd" id="7TOowlgVGR9" role="2Oq$k0">
-                    <ref role="1YBMHb" node="7TOowlgBzBU" resolve="modelMerge" />
-                  </node>
-                  <node concept="2qgKlT" id="7TOowlgeglV" role="2OqNvi">
-                    <ref role="37wK5l" to="rnx3:3xJ_LYXlmVz" resolve="languageConcepts" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="7TOowlhduOD" role="3cqZAp" />
           <node concept="3cpWs8" id="7TOowlhccnr" role="3cqZAp">
             <node concept="3cpWsn" id="7TOowlhccns" role="3cpWs9">
               <property role="TrG5h" value="conceptToPropertyMergeActions" />
-              <node concept="2YIFZM" id="7TOowlhccnt" role="33vP2m">
-                <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
-                <ref role="37wK5l" to="rnx3:18W7Z4Vmw0z" resolve="traverse" />
-                <node concept="37vLTw" id="7TOowlhccnu" role="37wK5m">
-                  <ref role="3cqZAo" node="7TOowlgeglN" resolve="graph" />
-                </node>
-                <node concept="2OqwBi" id="7TOowlhccnv" role="37wK5m">
-                  <node concept="1YBJjd" id="7TOowlhccnw" role="2Oq$k0">
+              <node concept="2OqwBi" id="2QNuyuiM7B8" role="33vP2m">
+                <node concept="2YIFZM" id="2QNuyuiM6Vu" role="2Oq$k0">
+                  <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
+                  <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
+                  <node concept="1YBJjd" id="2QNuyuiM7vk" role="37wK5m">
                     <ref role="1YBMHb" node="7TOowlgBzBU" resolve="modelMerge" />
                   </node>
-                  <node concept="2qgKlT" id="7TOowlhccnx" role="2OqNvi">
-                    <ref role="37wK5l" to="rnx3:3xJ_LYXj1c6" resolve="conceptToDefinedMergePolicy" />
-                  </node>
+                </node>
+                <node concept="2OwXpG" id="2QNuyuiM81O" role="2OqNvi">
+                  <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
                 </node>
               </node>
               <node concept="3uibUv" id="7TOowlhbbxh" role="1tU5fm">
@@ -898,25 +857,6 @@
               </node>
               <node concept="3oM_SD" id="7TOowlhcesC" role="1PaTwD">
                 <property role="3oM_SC" value="error." />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="7TOowlhcksV" role="3cqZAp">
-            <node concept="2OqwBi" id="7TOowlhcksS" role="3clFbG">
-              <node concept="10M0yZ" id="7TOowlhcksT" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-              </node>
-              <node concept="liA8E" id="7TOowlhcksU" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                <node concept="3cpWs3" id="7TOowlhclf2" role="37wK5m">
-                  <node concept="37vLTw" id="7TOowlhclhY" role="3uHU7w">
-                    <ref role="3cqZAo" node="7TOowlhccns" resolve="conceptToPropertyMergeActions" />
-                  </node>
-                  <node concept="Xl_RD" id="7TOowlhck$R" role="3uHU7B">
-                    <property role="Xl_RC" value="----&gt; res " />
-                  </node>
-                </node>
               </node>
             </node>
           </node>

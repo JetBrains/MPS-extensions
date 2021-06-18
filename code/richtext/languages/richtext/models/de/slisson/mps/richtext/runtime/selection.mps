@@ -4346,7 +4346,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="7wXnfGDQQTh" role="2OqNvi">
-                    <ref role="37wK5l" to="lui2:~ModelAccess.executeCommand(java.lang.Runnable)" resolve="executeCommand" />
+                    <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
                     <node concept="1bVj0M" id="635SBilB0S3" role="37wK5m">
                       <node concept="3clFbS" id="635SBilB0S4" role="1bW5cS">
                         <node concept="3clFbF" id="635SBilB0S5" role="3cqZAp">
@@ -4354,82 +4354,82 @@
                             <ref role="37wK5l" node="635SBilB0Rs" resolve="deleteSelected" />
                           </node>
                         </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="4OHf36xN4Bd" role="3cqZAp" />
-              <node concept="3SKdUt" id="4OHf36xN4Bh" role="3cqZAp">
-                <node concept="1PaTwC" id="7WTFIQIcXoZ" role="1aUNEU">
-                  <node concept="3oM_SD" id="7WTFIQIcXp0" role="1PaTwD">
-                    <property role="3oM_SC" value="restore" />
-                  </node>
-                  <node concept="3oM_SD" id="7WTFIQIcXp1" role="1PaTwD">
-                    <property role="3oM_SC" value="selection" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="6tOcB$Ju2Mw" role="3cqZAp">
-                <node concept="2OqwBi" id="7wXnfGDQRJY" role="3clFbG">
-                  <node concept="2OqwBi" id="6tOcB$Ju2Mx" role="2Oq$k0">
-                    <node concept="1eOMI4" id="6tOcB$Ju2My" role="2Oq$k0">
-                      <node concept="10QFUN" id="6tOcB$Ju2Mz" role="1eOMHV">
-                        <node concept="3uibUv" id="6tOcB$Ju2M$" role="10QFUM">
-                          <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                        <node concept="3clFbH" id="4OHf36xN4Bd" role="3cqZAp" />
+                        <node concept="3SKdUt" id="4OHf36xN4Bh" role="3cqZAp">
+                          <node concept="1PaTwC" id="7WTFIQIcXoZ" role="1aUNEU">
+                            <node concept="3oM_SD" id="7WTFIQIcXp0" role="1PaTwD">
+                              <property role="3oM_SC" value="restore" />
+                            </node>
+                            <node concept="3oM_SD" id="7WTFIQIcXp1" role="1PaTwD">
+                              <property role="3oM_SC" value="selection" />
+                            </node>
+                          </node>
                         </node>
-                        <node concept="1rXfSq" id="6tOcB$Ju2M_" role="10QFUP">
-                          <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                        <node concept="3clFbF" id="6tOcB$Ju2Mw" role="3cqZAp">
+                          <node concept="2OqwBi" id="7wXnfGDQRJY" role="3clFbG">
+                            <node concept="2OqwBi" id="6tOcB$Ju2Mx" role="2Oq$k0">
+                              <node concept="1eOMI4" id="6tOcB$Ju2My" role="2Oq$k0">
+                                <node concept="10QFUN" id="6tOcB$Ju2Mz" role="1eOMHV">
+                                  <node concept="3uibUv" id="6tOcB$Ju2M$" role="10QFUM">
+                                    <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                                  </node>
+                                  <node concept="1rXfSq" id="6tOcB$Ju2M_" role="10QFUP">
+                                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="6tOcB$Ju2MA" role="2OqNvi">
+                                <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater()" resolve="getUpdater" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7wXnfGDQS3$" role="2OqNvi">
+                              <ref role="37wK5l" to="22ra:~Updater.flushModelEvents()" resolve="flushModelEvents" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="7j0yJED22WY" role="3cqZAp">
+                          <node concept="2OqwBi" id="7j0yJED22Xl" role="3clFbG">
+                            <node concept="37vLTw" id="7j0yJED22WZ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7j0yJED22VK" resolve="caretPosition" />
+                            </node>
+                            <node concept="liA8E" id="7j0yJED22Xs" role="2OqNvi">
+                              <ref role="37wK5l" node="7j0yJED26zL" resolve="tryRestore" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="7j0yJED26rP" role="3cqZAp">
+                          <node concept="2OqwBi" id="7j0yJED26t6" role="3clFbG">
+                            <node concept="2OqwBi" id="7j0yJED26sD" role="2Oq$k0">
+                              <node concept="2OqwBi" id="7j0yJED26sc" role="2Oq$k0">
+                                <node concept="3P9mCS" id="7j0yJED26rQ" role="2Oq$k0">
+                                  <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                                </node>
+                                <node concept="liA8E" id="7j0yJED26sj" role="2OqNvi">
+                                  <ref role="37wK5l" to="cj4x:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="7j0yJED26sK" role="2OqNvi">
+                                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7j0yJED26td" role="2OqNvi">
+                              <ref role="37wK5l" to="lwvz:~Selection.ensureVisible()" resolve="ensureVisible" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="3YCNgRIbcKk" role="3cqZAp" />
+                        <node concept="3clFbF" id="3YCNgRIbNz4" role="3cqZAp">
+                          <node concept="2OqwBi" id="3YCNgRIbXyH" role="3clFbG">
+                            <node concept="liA8E" id="3YCNgRIcpBc" role="2OqNvi">
+                              <ref role="37wK5l" to="cj4x:~EditorComponent.update()" resolve="update" />
+                            </node>
+                            <node concept="1rXfSq" id="3YCNgRIbNz3" role="2Oq$k0">
+                              <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="liA8E" id="6tOcB$Ju2MA" role="2OqNvi">
-                      <ref role="37wK5l" to="exr9:~EditorComponent.getUpdater()" resolve="getUpdater" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7wXnfGDQS3$" role="2OqNvi">
-                    <ref role="37wK5l" to="22ra:~Updater.flushModelEvents()" resolve="flushModelEvents" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="7j0yJED22WY" role="3cqZAp">
-                <node concept="2OqwBi" id="7j0yJED22Xl" role="3clFbG">
-                  <node concept="37vLTw" id="7j0yJED22WZ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7j0yJED22VK" resolve="caretPosition" />
-                  </node>
-                  <node concept="liA8E" id="7j0yJED22Xs" role="2OqNvi">
-                    <ref role="37wK5l" node="7j0yJED26zL" resolve="tryRestore" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="7j0yJED26rP" role="3cqZAp">
-                <node concept="2OqwBi" id="7j0yJED26t6" role="3clFbG">
-                  <node concept="2OqwBi" id="7j0yJED26sD" role="2Oq$k0">
-                    <node concept="2OqwBi" id="7j0yJED26sc" role="2Oq$k0">
-                      <node concept="3P9mCS" id="7j0yJED26rQ" role="2Oq$k0">
-                        <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
-                      </node>
-                      <node concept="liA8E" id="7j0yJED26sj" role="2OqNvi">
-                        <ref role="37wK5l" to="cj4x:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="7j0yJED26sK" role="2OqNvi">
-                      <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7j0yJED26td" role="2OqNvi">
-                    <ref role="37wK5l" to="lwvz:~Selection.ensureVisible()" resolve="ensureVisible" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="3YCNgRIbcKk" role="3cqZAp" />
-              <node concept="3clFbF" id="3YCNgRIbNz4" role="3cqZAp">
-                <node concept="2OqwBi" id="3YCNgRIbXyH" role="3clFbG">
-                  <node concept="liA8E" id="3YCNgRIcpBc" role="2OqNvi">
-                    <ref role="37wK5l" to="cj4x:~EditorComponent.update()" resolve="update" />
-                  </node>
-                  <node concept="1rXfSq" id="3YCNgRIbNz3" role="2Oq$k0">
-                    <ref role="37wK5l" to="b8lf:~AbstractSelection.getEditorComponent()" resolve="getEditorComponent" />
                   </node>
                 </node>
               </node>

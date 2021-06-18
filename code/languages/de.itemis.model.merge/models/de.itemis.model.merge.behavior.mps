@@ -35,7 +35,6 @@
     <import index="sz2a" ref="r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
     <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -122,6 +121,13 @@
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ" />
+      <concept id="1109279851642" name="jetbrains.mps.baseLanguage.structure.GenericDeclaration" flags="ng" index="16eOlS">
+        <child id="1109279881614" name="typeVariableDeclaration" index="16eVyc" />
+      </concept>
+      <concept id="1109283449304" name="jetbrains.mps.baseLanguage.structure.TypeVariableReference" flags="in" index="16syzq">
+        <reference id="1109283546497" name="typeVariableDeclaration" index="16sUi3" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -1032,6 +1038,9 @@
               </node>
               <node concept="3uibUv" id="2rVXF9$PpUi" role="11_B2D">
                 <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+                <node concept="3Tqbb2" id="3EHNiwz4Sjl" role="11_B2D">
+                  <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+                </node>
               </node>
             </node>
             <node concept="2ShNRf" id="2rVXF9$J1yT" role="33vP2m">
@@ -1042,6 +1051,9 @@
                 </node>
                 <node concept="3uibUv" id="2rVXF9$PifE" role="1pMfVU">
                   <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+                  <node concept="3Tqbb2" id="3EHNiwz4TNu" role="11_B2D">
+                    <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1087,7 +1099,7 @@
           <node concept="2YIFZM" id="2rVXF9$Hs9l" role="3clFbG">
             <ref role="37wK5l" to="3o3z:~ImmutableMap.copyOf(java.util.Map)" resolve="copyOf" />
             <ref role="1Pybhc" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-            <node concept="37vLTw" id="2rVXF9_5BRG" role="37wK5m">
+            <node concept="37vLTw" id="3EHNiwz9LFp" role="37wK5m">
               <ref role="3cqZAo" node="2rVXF9$J1yN" resolve="conceptToSyncPropertyPolicy" />
             </node>
           </node>
@@ -1122,52 +1134,39 @@
         </node>
         <node concept="3uibUv" id="2rVXF9$SWu0" role="11_B2D">
           <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+          <node concept="3Tqbb2" id="3EHNiwz4Uz7" role="11_B2D">
+            <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+          </node>
         </node>
       </node>
     </node>
     <node concept="2tJIrI" id="2rVXF9$IT92" role="jymVt" />
-    <node concept="2tJIrI" id="2QNuyuiLbi_" role="jymVt" />
     <node concept="2YIFZL" id="2QNuyuiLuqz" role="jymVt">
       <property role="TrG5h" value="mergePoliciesByHierarchy" />
       <node concept="3clFbS" id="2QNuyuiLuqB" role="3clF47">
-        <node concept="3cpWs8" id="2QNuyuiLuqS" role="3cqZAp">
-          <node concept="3cpWsn" id="2QNuyuiLuqT" role="3cpWs9">
-            <property role="TrG5h" value="graph" />
-            <node concept="3uibUv" id="2QNuyuiLuqU" role="1tU5fm">
-              <ref role="3uigEE" to="agc3:~Graph" resolve="Graph" />
-              <node concept="3uibUv" id="2QNuyuiLuqV" role="11_B2D">
-                <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-              </node>
-            </node>
-            <node concept="2YIFZM" id="2QNuyuiLuqW" role="33vP2m">
-              <ref role="37wK5l" node="18W7Z4Vg253" resolve="create" />
-              <ref role="1Pybhc" node="2rVXF9$L4no" resolve="ConceptGraph" />
-              <node concept="2OqwBi" id="2QNuyuiM4yS" role="37wK5m">
-                <node concept="37vLTw" id="2QNuyuiM4yT" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2QNuyuiLuq_" resolve="modelMerge" />
-                </node>
-                <node concept="2qgKlT" id="2QNuyuiM4yU" role="2OqNvi">
-                  <ref role="37wK5l" node="3xJ_LYXlmVz" resolve="languageConcepts" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="2QNuyuiLDSW" role="3cqZAp">
           <node concept="2ShNRf" id="2QNuyuiLDSS" role="3clFbG">
             <node concept="1pGfFk" id="2QNuyuiLEy$" role="2ShVmc">
               <ref role="37wK5l" node="2QNuyuiLztq" resolve="ConceptGrapTraversal.Result" />
-              <node concept="2YIFZM" id="2QNuyuiM3pk" role="37wK5m">
+              <node concept="1rXfSq" id="3EHNiwza9sb" role="37wK5m">
                 <ref role="37wK5l" node="18W7Z4Vmw0z" resolve="traverse" />
-                <ref role="1Pybhc" node="18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
-                <node concept="37vLTw" id="2QNuyuiM3pl" role="37wK5m">
-                  <ref role="3cqZAo" node="2QNuyuiLuqT" resolve="graph" />
+                <node concept="2YIFZM" id="3EHNiwza9sc" role="37wK5m">
+                  <ref role="37wK5l" node="18W7Z4Vg253" resolve="create" />
+                  <ref role="1Pybhc" node="2rVXF9$L4no" resolve="ConceptGraph" />
+                  <node concept="2OqwBi" id="3EHNiwza9sd" role="37wK5m">
+                    <node concept="37vLTw" id="3EHNiwza9se" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2QNuyuiLuq_" resolve="modelMerge" />
+                    </node>
+                    <node concept="2qgKlT" id="3EHNiwza9sf" role="2OqNvi">
+                      <ref role="37wK5l" node="3xJ_LYXlmVz" resolve="languageConcepts" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="2OqwBi" id="2QNuyuiM4N2" role="37wK5m">
-                  <node concept="37vLTw" id="2QNuyuiM4N3" role="2Oq$k0">
+                <node concept="2OqwBi" id="3EHNiwzaagZ" role="37wK5m">
+                  <node concept="37vLTw" id="3EHNiwzaah0" role="2Oq$k0">
                     <ref role="3cqZAo" node="2QNuyuiLuq_" resolve="modelMerge" />
                   </node>
-                  <node concept="2qgKlT" id="2QNuyuiM4N4" role="2OqNvi">
+                  <node concept="2qgKlT" id="3EHNiwzaah1" role="2OqNvi">
                     <ref role="37wK5l" node="3xJ_LYXj1c6" resolve="conceptToDefinedMergePolicy" />
                   </node>
                 </node>
@@ -1515,6 +1514,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3EHNiwz2M_J" role="3cqZAp" />
         <node concept="3clFbF" id="2rVXF9_7rqp" role="3cqZAp">
           <node concept="2OqwBi" id="2rVXF9_7sbX" role="3clFbG">
             <node concept="37vLTw" id="2rVXF9_7rqn" role="2Oq$k0">
@@ -1682,6 +1682,9 @@
           </node>
           <node concept="3uibUv" id="2rVXF9$Pt6l" role="11_B2D">
             <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+            <node concept="3Tqbb2" id="3EHNiwz4AjP" role="11_B2D">
+              <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+            </node>
           </node>
         </node>
       </node>
@@ -1698,6 +1701,9 @@
         <property role="TrG5h" value="prevPropertySnapShot" />
         <node concept="3uibUv" id="2rVXF9_7whK" role="1tU5fm">
           <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+          <node concept="3Tqbb2" id="3EHNiwz4yqJ" role="11_B2D">
+            <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+          </node>
         </node>
       </node>
       <node concept="37vLTG" id="7TOowlgRZaG" role="3clF46">
@@ -1710,11 +1716,13 @@
         <property role="TrG5h" value="propertySnapshot" />
         <node concept="3uibUv" id="2rVXF9_7cHg" role="1tU5fm">
           <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+          <node concept="3Tqbb2" id="3EHNiwz4$lf" role="11_B2D">
+            <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+          </node>
         </node>
       </node>
       <node concept="3clFbS" id="7TOowlgRZ9Z" role="3clF47">
         <node concept="3clFbH" id="7TOowlgSh9S" role="3cqZAp" />
-        <node concept="3clFbH" id="7TOowlh02DB" role="3cqZAp" />
         <node concept="3clFbJ" id="7TOowlh3QyI" role="3cqZAp">
           <node concept="3clFbS" id="7TOowlh3QyK" role="3clFbx">
             <node concept="3cpWs8" id="2rVXF9$YMRF" role="3cqZAp">
@@ -1731,17 +1739,38 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="3EHNiwz535Q" role="3cqZAp" />
+            <node concept="3cpWs8" id="3EHNiwz544g" role="3cqZAp">
+              <node concept="3cpWsn" id="3EHNiwz544h" role="3cpWs9">
+                <property role="TrG5h" value="entries" />
+                <node concept="3uibUv" id="3EHNiwz53GT" role="1tU5fm">
+                  <ref role="3uigEE" to="3o3z:~ImmutableSet" resolve="ImmutableSet" />
+                  <node concept="3uibUv" id="3EHNiwz53H4" role="11_B2D">
+                    <ref role="3uigEE" to="33ny:~Map$Entry" resolve="Map.Entry" />
+                    <node concept="3Tqbb2" id="3EHNiwz53H5" role="11_B2D">
+                      <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+                    </node>
+                    <node concept="3uibUv" id="3EHNiwz53H6" role="11_B2D">
+                      <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3EHNiwz544i" role="33vP2m">
+                  <node concept="37vLTw" id="3EHNiwz544j" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7TOowlgRZaA" resolve="prevPropertySnapShot" />
+                  </node>
+                  <node concept="liA8E" id="3EHNiwz544k" role="2OqNvi">
+                    <ref role="37wK5l" node="2rVXF9$UllE" resolve="entries" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="2Gpval" id="2rVXF9$Uz4z" role="3cqZAp">
               <node concept="2GrKxI" id="2rVXF9$Uz4_" role="2Gsz3X">
                 <property role="TrG5h" value="e" />
               </node>
-              <node concept="2OqwBi" id="2rVXF9$Uzec" role="2GsD0m">
-                <node concept="37vLTw" id="2rVXF9_7z_K" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7TOowlgRZaA" resolve="prevPropertySnapShot" />
-                </node>
-                <node concept="liA8E" id="2rVXF9$Uzjm" role="2OqNvi">
-                  <ref role="37wK5l" node="2rVXF9$UllE" resolve="entries" />
-                </node>
+              <node concept="37vLTw" id="3EHNiwz544l" role="2GsD0m">
+                <ref role="3cqZAo" node="3EHNiwz544h" resolve="entries" />
               </node>
               <node concept="3clFbS" id="2rVXF9$Uz4D" role="2LFqv$">
                 <node concept="3cpWs8" id="2rVXF9$U$QK" role="3cqZAp">
@@ -1865,45 +1894,6 @@
                       </node>
                       <node concept="9aQIb" id="2rVXF9_9R2p" role="9aQIa">
                         <node concept="3clFbS" id="2rVXF9_9R2q" role="9aQI4">
-                          <node concept="3clFbF" id="2rVXF9_aTj9" role="3cqZAp">
-                            <node concept="2OqwBi" id="2rVXF9_aTj6" role="3clFbG">
-                              <node concept="10M0yZ" id="2rVXF9_aTj7" role="2Oq$k0">
-                                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                              </node>
-                              <node concept="liA8E" id="2rVXF9_aTj8" role="2OqNvi">
-                                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                                <node concept="3cpWs3" id="2rVXF9_aVl0" role="37wK5m">
-                                  <node concept="2OqwBi" id="2rVXF9_aVGK" role="3uHU7w">
-                                    <node concept="37vLTw" id="2rVXF9_aVuE" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="2rVXF9$U_GP" resolve="otherAction" />
-                                    </node>
-                                    <node concept="2OwXpG" id="2rVXF9_aVRm" role="2OqNvi">
-                                      <ref role="2Oxat5" node="2rVXF9$OCIY" resolve="mergeAction" />
-                                    </node>
-                                  </node>
-                                  <node concept="3cpWs3" id="2rVXF9_aUYo" role="3uHU7B">
-                                    <node concept="3cpWs3" id="2rVXF9_aU5C" role="3uHU7B">
-                                      <node concept="Xl_RD" id="2rVXF9_aT$A" role="3uHU7B">
-                                        <property role="Xl_RC" value="---&gt; action " />
-                                      </node>
-                                      <node concept="2OqwBi" id="2rVXF9_aUr$" role="3uHU7w">
-                                        <node concept="37vLTw" id="2rVXF9_aU9Y" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="2rVXF9$UFe0" resolve="action" />
-                                        </node>
-                                        <node concept="2OwXpG" id="2rVXF9_aU$f" role="2OqNvi">
-                                          <ref role="2Oxat5" node="2rVXF9$OCIY" resolve="mergeAction" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                    <node concept="Xl_RD" id="2rVXF9_aUZ4" role="3uHU7w">
-                                      <property role="Xl_RC" value=" other " />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
                           <node concept="YS8fn" id="2rVXF9$UHIp" role="3cqZAp">
                             <node concept="2ShNRf" id="2rVXF9$UHJr" role="YScLw">
                               <node concept="1pGfFk" id="2rVXF9$UIga" role="2ShVmc">
@@ -2073,13 +2063,16 @@
       <node concept="312cEg" id="2QNuyuiL71i" role="jymVt">
         <property role="TrG5h" value="porpertyMergePolicy" />
         <node concept="3Tm1VV" id="2QNuyuiL7de" role="1B3o_S" />
-        <node concept="3uibUv" id="2QNuyuiLDoP" role="1tU5fm">
+        <node concept="3uibUv" id="3EHNiwz6GMP" role="1tU5fm">
           <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-          <node concept="3uibUv" id="2QNuyuiLDoQ" role="11_B2D">
+          <node concept="3uibUv" id="3EHNiwz6GMQ" role="11_B2D">
             <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
           </node>
-          <node concept="3uibUv" id="2QNuyuiLDoR" role="11_B2D">
+          <node concept="3uibUv" id="3EHNiwz6GMR" role="11_B2D">
             <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+            <node concept="3Tqbb2" id="3EHNiwz6GMS" role="11_B2D">
+              <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+            </node>
           </node>
         </node>
       </node>
@@ -2087,13 +2080,16 @@
       <node concept="3clFbW" id="2QNuyuiLztq" role="jymVt">
         <node concept="37vLTG" id="2QNuyuiLzvp" role="3clF46">
           <property role="TrG5h" value="p" />
-          <node concept="3uibUv" id="2QNuyuiLDc4" role="1tU5fm">
+          <node concept="3uibUv" id="3EHNiwz6GjE" role="1tU5fm">
             <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-            <node concept="3uibUv" id="2QNuyuiLDc5" role="11_B2D">
+            <node concept="3uibUv" id="3EHNiwz6GjF" role="11_B2D">
               <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
             </node>
-            <node concept="3uibUv" id="2QNuyuiLDc6" role="11_B2D">
+            <node concept="3uibUv" id="3EHNiwz6GjG" role="11_B2D">
               <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+              <node concept="3Tqbb2" id="3EHNiwz6GjH" role="11_B2D">
+                <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+              </node>
             </node>
           </node>
         </node>
@@ -3080,8 +3076,8 @@
       <node concept="3Tm6S6" id="2rVXF9$OFAM" role="1B3o_S" />
       <node concept="3uibUv" id="2rVXF9$QJSD" role="1tU5fm">
         <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-        <node concept="3Tqbb2" id="2rVXF9$QJSE" role="11_B2D">
-          <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+        <node concept="16syzq" id="3EHNiwz3dKD" role="11_B2D">
+          <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
         </node>
         <node concept="3uibUv" id="2rVXF9$QJSF" role="11_B2D">
           <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
@@ -3094,8 +3090,8 @@
         <property role="TrG5h" value="p" />
         <node concept="3uibUv" id="2rVXF9$QM9f" role="1tU5fm">
           <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-          <node concept="3Tqbb2" id="2rVXF9$QM9g" role="11_B2D">
-            <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+          <node concept="16syzq" id="3EHNiwz3kq4" role="11_B2D">
+            <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
           </node>
           <node concept="3uibUv" id="2rVXF9$QM9h" role="11_B2D">
             <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
@@ -3138,8 +3134,8 @@
       <node concept="3Tm1VV" id="2rVXF9$OJ63" role="1B3o_S" />
       <node concept="3uibUv" id="2rVXF9$OKxy" role="3clF45">
         <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
-        <node concept="3Tqbb2" id="2rVXF9$OKxz" role="11_B2D">
-          <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+        <node concept="16syzq" id="3EHNiwz3mCZ" role="11_B2D">
+          <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
         </node>
       </node>
     </node>
@@ -3150,51 +3146,71 @@
         <property role="TrG5h" value="other" />
         <node concept="3uibUv" id="2rVXF9$S$aN" role="1tU5fm">
           <ref role="3uigEE" node="2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+          <node concept="16syzq" id="3EHNiwzbVWK" role="11_B2D">
+            <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
+          </node>
         </node>
       </node>
       <node concept="3clFbS" id="2rVXF9$Sz_H" role="3clF47">
-        <node concept="3clFbF" id="2rVXF9$SMEa" role="3cqZAp">
-          <node concept="2ShNRf" id="2rVXF9$SME4" role="3clFbG">
-            <node concept="1pGfFk" id="2rVXF9$SNkQ" role="2ShVmc">
-              <ref role="37wK5l" node="2rVXF9$QLOe" resolve="InheritedPropertyMergePolicies" />
-              <node concept="2OqwBi" id="2rVXF9$SO8F" role="37wK5m">
-                <node concept="2OqwBi" id="2rVXF9$SO8G" role="2Oq$k0">
-                  <node concept="2OqwBi" id="2rVXF9$SO8H" role="2Oq$k0">
-                    <node concept="2YIFZM" id="2rVXF9$SO8I" role="2Oq$k0">
-                      <ref role="37wK5l" to="3o3z:~ImmutableBiMap.builder()" resolve="builder" />
-                      <ref role="1Pybhc" to="3o3z:~ImmutableBiMap" resolve="ImmutableBiMap" />
-                      <node concept="3Tqbb2" id="2rVXF9$SO8J" role="3PaCim">
-                        <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
-                      </node>
-                      <node concept="3uibUv" id="2rVXF9$SO8K" role="3PaCim">
-                        <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
-                      </node>
+        <node concept="3cpWs8" id="3EHNiwz3DqG" role="3cqZAp">
+          <node concept="3cpWsn" id="3EHNiwz3DqH" role="3cpWs9">
+            <property role="TrG5h" value="build" />
+            <node concept="3uibUv" id="3EHNiwz3CKX" role="1tU5fm">
+              <ref role="3uigEE" to="3o3z:~ImmutableBiMap" resolve="ImmutableBiMap" />
+              <node concept="16syzq" id="3EHNiwz3CL2" role="11_B2D">
+                <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
+              </node>
+              <node concept="3uibUv" id="3EHNiwz3CL3" role="11_B2D">
+                <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3EHNiwz3DqI" role="33vP2m">
+              <node concept="2OqwBi" id="3EHNiwzbP_i" role="2Oq$k0">
+                <node concept="2OqwBi" id="3EHNiwz3DqJ" role="2Oq$k0">
+                  <node concept="2YIFZM" id="3EHNiwz3DqL" role="2Oq$k0">
+                    <ref role="37wK5l" to="3o3z:~ImmutableBiMap.builder()" resolve="builder" />
+                    <ref role="1Pybhc" to="3o3z:~ImmutableBiMap" resolve="ImmutableBiMap" />
+                    <node concept="16syzq" id="3EHNiwz3DqM" role="3PaCim">
+                      <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
                     </node>
-                    <node concept="liA8E" id="2rVXF9$SO8L" role="2OqNvi">
-                      <ref role="37wK5l" to="3o3z:~ImmutableBiMap$Builder.putAll(java.util.Map)" resolve="putAll" />
-                      <node concept="2OqwBi" id="2rVXF9$SO8M" role="37wK5m">
-                        <node concept="37vLTw" id="2rVXF9$SO8N" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2rVXF9$SzZC" resolve="other" />
-                        </node>
-                        <node concept="2OwXpG" id="2rVXF9$SO8O" role="2OqNvi">
-                          <ref role="2Oxat5" node="2rVXF9$OFBw" resolve="propToAction" />
-                        </node>
-                      </node>
+                    <node concept="3uibUv" id="3EHNiwz3DqN" role="3PaCim">
+                      <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="2rVXF9$SO8P" role="2OqNvi">
+                  <node concept="liA8E" id="3EHNiwz3DqS" role="2OqNvi">
                     <ref role="37wK5l" to="3o3z:~ImmutableBiMap$Builder.putAll(java.util.Map)" resolve="putAll" />
-                    <node concept="2OqwBi" id="2rVXF9$SO8Q" role="37wK5m">
-                      <node concept="Xjq3P" id="2rVXF9$SO8R" role="2Oq$k0" />
-                      <node concept="2OwXpG" id="2rVXF9$SO8S" role="2OqNvi">
+                    <node concept="2OqwBi" id="3EHNiwz3DqT" role="37wK5m">
+                      <node concept="Xjq3P" id="3EHNiwz3DqU" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="3EHNiwz3DqV" role="2OqNvi">
                         <ref role="2Oxat5" node="2rVXF9$OFBw" resolve="propToAction" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="2rVXF9$SO8T" role="2OqNvi">
-                  <ref role="37wK5l" to="3o3z:~ImmutableBiMap$Builder.build()" resolve="build" />
+                <node concept="liA8E" id="3EHNiwzbQA3" role="2OqNvi">
+                  <ref role="37wK5l" to="3o3z:~ImmutableBiMap$Builder.putAll(java.util.Map)" resolve="putAll" />
+                  <node concept="2OqwBi" id="3EHNiwzbSlA" role="37wK5m">
+                    <node concept="37vLTw" id="3EHNiwzbRsR" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2rVXF9$SzZC" resolve="other" />
+                    </node>
+                    <node concept="2OwXpG" id="3EHNiwzbSRQ" role="2OqNvi">
+                      <ref role="2Oxat5" node="2rVXF9$OFBw" resolve="propToAction" />
+                    </node>
+                  </node>
                 </node>
+              </node>
+              <node concept="liA8E" id="3EHNiwzbXSw" role="2OqNvi">
+                <ref role="37wK5l" to="3o3z:~ImmutableBiMap$Builder.build()" resolve="build" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2rVXF9$SMEa" role="3cqZAp">
+          <node concept="2ShNRf" id="3EHNiwz3F7T" role="3clFbG">
+            <node concept="1pGfFk" id="3EHNiwz3F7U" role="2ShVmc">
+              <ref role="37wK5l" node="2rVXF9$QLOe" resolve="InheritedPropertyMergePolicies" />
+              <node concept="37vLTw" id="3EHNiwz3F7V" role="37wK5m">
+                <ref role="3cqZAo" node="3EHNiwz3DqH" resolve="build" />
               </node>
             </node>
           </node>
@@ -3240,8 +3256,8 @@
       <node concept="37vLTG" id="2rVXF9$Y6v$" role="3clF46">
         <property role="TrG5h" value="removeProperty" />
         <node concept="3vKaQO" id="2rVXF9$Y_Q9" role="1tU5fm">
-          <node concept="3Tqbb2" id="2rVXF9$Y_Qa" role="3O5elw">
-            <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+          <node concept="16syzq" id="3EHNiwz3xOm" role="3O5elw">
+            <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
           </node>
         </node>
       </node>
@@ -3251,8 +3267,8 @@
             <property role="TrG5h" value="builder" />
             <node concept="3uibUv" id="2rVXF9$YpBy" role="1tU5fm">
               <ref role="3uigEE" to="3o3z:~ImmutableMap$Builder" resolve="ImmutableMap.Builder" />
-              <node concept="3Tqbb2" id="2rVXF9$YpBB" role="11_B2D">
-                <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+              <node concept="16syzq" id="3EHNiwz3ybc" role="11_B2D">
+                <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
               </node>
               <node concept="3uibUv" id="2rVXF9$YpBC" role="11_B2D">
                 <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
@@ -3261,8 +3277,8 @@
             <node concept="2YIFZM" id="2rVXF9$YpRP" role="33vP2m">
               <ref role="37wK5l" to="3o3z:~ImmutableMap.builder()" resolve="builder" />
               <ref role="1Pybhc" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-              <node concept="3Tqbb2" id="2rVXF9$YpRQ" role="3PaCim">
-                <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+              <node concept="16syzq" id="3EHNiwz3zUX" role="3PaCim">
+                <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
               </node>
               <node concept="3uibUv" id="2rVXF9$YpRR" role="3PaCim">
                 <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
@@ -3290,9 +3306,6 @@
             <node concept="3cpWs8" id="2rVXF9$YzU1" role="3cqZAp">
               <node concept="3cpWsn" id="2rVXF9$YzU2" role="3cpWs9">
                 <property role="TrG5h" value="prop" />
-                <node concept="3Tqbb2" id="2rVXF9$YzED" role="1tU5fm">
-                  <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
-                </node>
                 <node concept="2OqwBi" id="2rVXF9$YzU3" role="33vP2m">
                   <node concept="2GrUjf" id="2rVXF9$YzU4" role="2Oq$k0">
                     <ref role="2Gs0qQ" node="2rVXF9$Yufg" resolve="e" />
@@ -3300,6 +3313,9 @@
                   <node concept="liA8E" id="2rVXF9$YzU5" role="2OqNvi">
                     <ref role="37wK5l" to="33ny:~Map$Entry.getKey()" resolve="getKey" />
                   </node>
+                </node>
+                <node concept="16syzq" id="3EHNiwz3_L9" role="1tU5fm">
+                  <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
                 </node>
               </node>
             </node>
@@ -3359,17 +3375,37 @@
     <node concept="3clFb_" id="2rVXF9$UllE" role="jymVt">
       <property role="TrG5h" value="entries" />
       <node concept="3clFbS" id="2rVXF9$UllH" role="3clF47">
-        <node concept="3clFbF" id="2rVXF9$Un7K" role="3cqZAp">
-          <node concept="2OqwBi" id="2rVXF9$Ur1x" role="3clFbG">
-            <node concept="2OqwBi" id="2rVXF9$Ur1y" role="2Oq$k0">
-              <node concept="Xjq3P" id="2rVXF9$Ur1z" role="2Oq$k0" />
-              <node concept="2OwXpG" id="2rVXF9$Ur1$" role="2OqNvi">
-                <ref role="2Oxat5" node="2rVXF9$OFBw" resolve="propToAction" />
+        <node concept="3cpWs8" id="3EHNiwz3BhR" role="3cqZAp">
+          <node concept="3cpWsn" id="3EHNiwz3BhS" role="3cpWs9">
+            <property role="TrG5h" value="entrySet" />
+            <node concept="3uibUv" id="3EHNiwz3hbG" role="1tU5fm">
+              <ref role="3uigEE" to="3o3z:~ImmutableSet" resolve="ImmutableSet" />
+              <node concept="3uibUv" id="3EHNiwz3hbR" role="11_B2D">
+                <ref role="3uigEE" to="33ny:~Map$Entry" resolve="Map.Entry" />
+                <node concept="16syzq" id="3EHNiwz3hbS" role="11_B2D">
+                  <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
+                </node>
+                <node concept="3uibUv" id="3EHNiwz3hbT" role="11_B2D">
+                  <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
+                </node>
               </node>
             </node>
-            <node concept="liA8E" id="2rVXF9$Yktm" role="2OqNvi">
-              <ref role="37wK5l" to="3o3z:~ImmutableMap.entrySet()" resolve="entrySet" />
+            <node concept="2OqwBi" id="3EHNiwz3BhT" role="33vP2m">
+              <node concept="2OqwBi" id="3EHNiwz3BhU" role="2Oq$k0">
+                <node concept="Xjq3P" id="3EHNiwz3BhV" role="2Oq$k0" />
+                <node concept="2OwXpG" id="3EHNiwz3BhW" role="2OqNvi">
+                  <ref role="2Oxat5" node="2rVXF9$OFBw" resolve="propToAction" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3EHNiwz3BhX" role="2OqNvi">
+                <ref role="37wK5l" to="3o3z:~ImmutableMap.entrySet()" resolve="entrySet" />
+              </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2rVXF9$Un7K" role="3cqZAp">
+          <node concept="37vLTw" id="3EHNiwz3BhY" role="3clFbG">
+            <ref role="3cqZAo" node="3EHNiwz3BhS" resolve="entrySet" />
           </node>
         </node>
       </node>
@@ -3378,8 +3414,8 @@
         <ref role="3uigEE" to="3o3z:~ImmutableSet" resolve="ImmutableSet" />
         <node concept="3uibUv" id="2rVXF9$Uq0X" role="11_B2D">
           <ref role="3uigEE" to="33ny:~Map$Entry" resolve="Map.Entry" />
-          <node concept="3Tqbb2" id="2rVXF9$Uq0Y" role="11_B2D">
-            <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+          <node concept="16syzq" id="3EHNiwz3_Xd" role="11_B2D">
+            <ref role="16sUi3" node="3EHNiwz2Rbn" resolve="T" />
           </node>
           <node concept="3uibUv" id="2rVXF9$Uq0Z" role="11_B2D">
             <ref role="3uigEE" node="2rVXF9$OCD9" resolve="InheritedMergeAction" />
@@ -3393,9 +3429,7 @@
     <node concept="3clFb_" id="2rVXF9_11bp" role="jymVt">
       <property role="TrG5h" value="toString" />
       <node concept="3Tm1VV" id="2rVXF9_11bq" role="1B3o_S" />
-      <node concept="3uibUv" id="2rVXF9_11bs" role="3clF45">
-        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="3EHNiwz6zVa" role="3clF45" />
       <node concept="3clFbS" id="2rVXF9_11bt" role="3clF47">
         <node concept="3clFbF" id="2rVXF9_15Ot" role="3cqZAp">
           <node concept="2OqwBi" id="2rVXF9_1arc" role="3clFbG">
@@ -3429,6 +3463,9 @@
       <node concept="2AHcQZ" id="2rVXF9_11bu" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+    </node>
+    <node concept="16euLQ" id="3EHNiwz2Rbn" role="16eVyc">
+      <property role="TrG5h" value="T" />
     </node>
   </node>
   <node concept="312cEu" id="2rVXF9$OCD9">

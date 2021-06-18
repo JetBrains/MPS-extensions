@@ -84,7 +84,6 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -752,28 +751,17 @@
     <node concept="3clFbS" id="7TOowlgBzBS" role="18ibNy">
       <node concept="3J1_TO" id="7TOowlgVHwU" role="3cqZAp">
         <node concept="3clFbS" id="7TOowlgVHwV" role="1zxBo7">
-          <node concept="3cpWs8" id="7TOowlhccnr" role="3cqZAp">
-            <node concept="3cpWsn" id="7TOowlhccns" role="3cpWs9">
-              <property role="TrG5h" value="conceptToPropertyMergeActions" />
-              <node concept="2OqwBi" id="2QNuyuiM7B8" role="33vP2m">
-                <node concept="2YIFZM" id="2QNuyuiM6Vu" role="2Oq$k0">
-                  <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
-                  <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
-                  <node concept="1YBJjd" id="2QNuyuiM7vk" role="37wK5m">
-                    <ref role="1YBMHb" node="7TOowlgBzBU" resolve="modelMerge" />
-                  </node>
-                </node>
-                <node concept="2OwXpG" id="2QNuyuiM81O" role="2OqNvi">
-                  <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
-                </node>
+          <node concept="3cpWs8" id="3EHNiwz7rFr" role="3cqZAp">
+            <node concept="3cpWsn" id="3EHNiwz7rFs" role="3cpWs9">
+              <property role="TrG5h" value="result" />
+              <node concept="3uibUv" id="3EHNiwz7rpP" role="1tU5fm">
+                <ref role="3uigEE" to="rnx3:2QNuyuiL5OR" resolve="ConceptGrapTraversal.Result" />
               </node>
-              <node concept="3uibUv" id="7TOowlhbbxh" role="1tU5fm">
-                <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-                <node concept="3uibUv" id="7TOowlhbbxi" role="11_B2D">
-                  <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-                </node>
-                <node concept="3uibUv" id="2rVXF9$SWu0" role="11_B2D">
-                  <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+              <node concept="2YIFZM" id="3EHNiwz7rFt" role="33vP2m">
+                <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
+                <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
+                <node concept="1YBJjd" id="3EHNiwz7rFu" role="37wK5m">
+                  <ref role="1YBMHb" node="7TOowlgBzBU" resolve="modelMerge" />
                 </node>
               </node>
             </node>

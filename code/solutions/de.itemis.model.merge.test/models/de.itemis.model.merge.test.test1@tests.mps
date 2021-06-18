@@ -16,6 +16,7 @@
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -358,6 +359,9 @@
                 <node concept="3Tqbb2" id="3EHNiwz89dM" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                 </node>
+                <node concept="3uibUv" id="3EHNiwznR_S" role="11_B2D">
+                  <ref role="3uigEE" to="rnx3:2rVXF9$OCD9" resolve="InheritedMergeAction" />
+                </node>
               </node>
             </node>
             <node concept="2OqwBi" id="2QNuyuiODdQ" role="33vP2m">
@@ -457,6 +461,9 @@
                 <node concept="3Tqbb2" id="3EHNiwz897F" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                 </node>
+                <node concept="3uibUv" id="3EHNiwznRuf" role="11_B2D">
+                  <ref role="3uigEE" to="rnx3:2rVXF9$OCD9" resolve="InheritedMergeAction" />
+                </node>
               </node>
             </node>
             <node concept="2OqwBi" id="2QNuyuiO4wF" role="33vP2m">
@@ -555,6 +562,9 @@
                 <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
                 <node concept="3Tqbb2" id="3EHNiwz891$" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+                </node>
+                <node concept="3uibUv" id="3EHNiwznRmA" role="11_B2D">
+                  <ref role="3uigEE" to="rnx3:2rVXF9$OCD9" resolve="InheritedMergeAction" />
                 </node>
               </node>
             </node>
@@ -681,6 +691,9 @@
                 <node concept="3Tqbb2" id="3EHNiwz88LS" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                 </node>
+                <node concept="3uibUv" id="3EHNiwznRaC" role="11_B2D">
+                  <ref role="3uigEE" to="rnx3:2rVXF9$OCD9" resolve="InheritedMergeAction" />
+                </node>
               </node>
             </node>
             <node concept="2OqwBi" id="2QNuyuiON2J" role="33vP2m">
@@ -793,6 +806,9 @@
                 <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
                 <node concept="3Tqbb2" id="3EHNiwz88By" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+                </node>
+                <node concept="3uibUv" id="3EHNiwznQVL" role="11_B2D">
+                  <ref role="3uigEE" to="rnx3:2rVXF9$OCD9" resolve="InheritedMergeAction" />
                 </node>
               </node>
             </node>
@@ -1001,6 +1017,9 @@
             <node concept="3Tqbb2" id="3EHNiwz89DM" role="11_B2D">
               <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
             </node>
+            <node concept="3uibUv" id="3EHNiwznS8m" role="11_B2D">
+              <ref role="3uigEE" to="rnx3:2rVXF9$OCD9" resolve="InheritedMergeAction" />
+            </node>
           </node>
         </node>
       </node>
@@ -1015,19 +1034,25 @@
         </node>
       </node>
       <node concept="3clFbS" id="2QNuyuiO_tq" role="3clF47">
-        <node concept="3cpWs8" id="2QNuyuiO_tt" role="3cqZAp">
-          <node concept="3cpWsn" id="2QNuyuiO_tu" role="3cpWs9">
-            <property role="TrG5h" value="inpmp" />
-            <node concept="3uibUv" id="2QNuyuiO_tv" role="1tU5fm">
+        <node concept="3cpWs8" id="3EHNiwznT5n" role="3cqZAp">
+          <node concept="3cpWsn" id="3EHNiwznT5o" role="3cpWs9">
+            <property role="TrG5h" value="i" />
+            <node concept="3uibUv" id="3EHNiwznSXO" role="1tU5fm">
               <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
+              <node concept="3Tqbb2" id="3EHNiwznSXT" role="11_B2D">
+                <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+              </node>
+              <node concept="3uibUv" id="3EHNiwznSXU" role="11_B2D">
+                <ref role="3uigEE" to="rnx3:2rVXF9$OCD9" resolve="InheritedMergeAction" />
+              </node>
             </node>
-            <node concept="2OqwBi" id="2QNuyuiO_tw" role="33vP2m">
-              <node concept="37vLTw" id="2QNuyuiO_tY" role="2Oq$k0">
+            <node concept="2OqwBi" id="3EHNiwznT5p" role="33vP2m">
+              <node concept="37vLTw" id="3EHNiwznT5q" role="2Oq$k0">
                 <ref role="3cqZAo" node="2QNuyuiO_tQ" resolve="porpertyMergePolicy" />
               </node>
-              <node concept="liA8E" id="2QNuyuiO_ty" role="2OqNvi">
+              <node concept="liA8E" id="3EHNiwznT5r" role="2OqNvi">
                 <ref role="37wK5l" to="3o3z:~ImmutableMap.get(java.lang.Object)" resolve="get" />
-                <node concept="37vLTw" id="2QNuyuiO_u0" role="37wK5m">
+                <node concept="37vLTw" id="3EHNiwznT5s" role="37wK5m">
                   <ref role="3cqZAo" node="2QNuyuiO_tU" resolve="bottom" />
                 </node>
               </node>
@@ -1035,8 +1060,8 @@
           </node>
         </node>
         <node concept="2Hmddi" id="2QNuyuiO_t$" role="3cqZAp">
-          <node concept="37vLTw" id="2QNuyuiO_t_" role="2Hmdds">
-            <ref role="3cqZAo" node="2QNuyuiO_tu" resolve="inpmp" />
+          <node concept="37vLTw" id="3EHNiwznU1C" role="2Hmdds">
+            <ref role="3cqZAo" node="3EHNiwznT5o" resolve="i" />
           </node>
         </node>
         <node concept="3clFbH" id="2QNuyuiO_tA" role="3cqZAp" />
@@ -1047,8 +1072,8 @@
               <ref role="3uigEE" to="rnx3:2rVXF9$OCD9" resolve="InheritedMergeAction" />
             </node>
             <node concept="2OqwBi" id="2QNuyuiO_tE" role="33vP2m">
-              <node concept="37vLTw" id="2QNuyuiO_tF" role="2Oq$k0">
-                <ref role="3cqZAo" node="2QNuyuiO_tu" resolve="inpmp" />
+              <node concept="37vLTw" id="3EHNiwznU7M" role="2Oq$k0">
+                <ref role="3cqZAo" node="3EHNiwznT5o" resolve="i" />
               </node>
               <node concept="liA8E" id="2QNuyuiO_tG" role="2OqNvi">
                 <ref role="37wK5l" to="rnx3:2rVXF9$U5hj" resolve="get" />

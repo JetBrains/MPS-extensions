@@ -354,7 +354,7 @@
                 <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
               </node>
               <node concept="3uibUv" id="2QNuyuiODdP" role="11_B2D">
-                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
                 <node concept="3Tqbb2" id="3EHNiwz89dM" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                 </node>
@@ -453,7 +453,7 @@
                 <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
               </node>
               <node concept="3uibUv" id="2QNuyuiO4wv" role="11_B2D">
-                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
                 <node concept="3Tqbb2" id="3EHNiwz897F" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                 </node>
@@ -552,7 +552,7 @@
                 <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
               </node>
               <node concept="3uibUv" id="2QNuyuiOFU9" role="11_B2D">
-                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
                 <node concept="3Tqbb2" id="3EHNiwz891$" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                 </node>
@@ -677,7 +677,7 @@
                 <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
               </node>
               <node concept="3uibUv" id="2QNuyuiON2I" role="11_B2D">
-                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
                 <node concept="3Tqbb2" id="3EHNiwz88LS" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                 </node>
@@ -790,7 +790,7 @@
                 <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
               </node>
               <node concept="3uibUv" id="3EHNiwz2k4l" role="11_B2D">
-                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+                <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
                 <node concept="3Tqbb2" id="3EHNiwz88By" role="11_B2D">
                   <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                 </node>
@@ -997,7 +997,7 @@
             <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
           </node>
           <node concept="3uibUv" id="2QNuyuiO_tT" role="11_B2D">
-            <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+            <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
             <node concept="3Tqbb2" id="3EHNiwz89DM" role="11_B2D">
               <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
             </node>
@@ -1019,7 +1019,7 @@
           <node concept="3cpWsn" id="2QNuyuiO_tu" role="3cpWs9">
             <property role="TrG5h" value="inpmp" />
             <node concept="3uibUv" id="2QNuyuiO_tv" role="1tU5fm">
-              <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedPropertyMergePolicies" />
+              <ref role="3uigEE" to="rnx3:2rVXF9$Ou7E" resolve="InheritedMergePolicies" />
             </node>
             <node concept="2OqwBi" id="2QNuyuiO_tw" role="33vP2m">
               <node concept="37vLTw" id="2QNuyuiO_tY" role="2Oq$k0">

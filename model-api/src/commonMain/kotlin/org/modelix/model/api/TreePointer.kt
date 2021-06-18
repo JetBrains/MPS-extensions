@@ -97,7 +97,7 @@ class TreePointer(var tree_: ITree, val idGenerator: IIdGenerator = IdGeneratorD
         tree = tree.deleteNode(nodeId)
     }
 
-    override fun getId(): String? {
-        return tree.getId()
+    override fun getId(): String {
+        return tree.getId() ?: throw UnsupportedOperationException()
     }
 }

@@ -17,15 +17,15 @@ package org.modelix.model.api
 
 import org.modelix.model.area.IArea
 
-data class PNodeReference(val id: Long, val branchId: String) : INodeReference {
+data class LocalPNodeReference(val id: Long) : INodeReference {
 
     override fun resolveNode(area: IArea?): INode? {
-        return area?.resolveNode(this)
+        throw UnsupportedOperationException("Use .toGlobal first to specify a branch")
     }
 
-    fun toLocal() = LocalPNodeReference(id)
+    fun toGlobal(branchId: String) = PNodeReference(id, branchId)
 
     override fun toString(): String {
-        return "PNodeReference_${id.toString(16)}@$branchId"
+        return "LocalPNodeReference_${id.toString(16)}"
     }
 }

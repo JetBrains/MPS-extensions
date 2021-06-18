@@ -17,7 +17,7 @@ package org.modelix.model.api
 
 import org.modelix.model.area.IArea
 
-data class PNodeReference(val id: Long, val branchId: String? = null) : INodeReference {
+data class PNodeReference(val id: Long, val branchId: String) : INodeReference {
 
     override fun resolveNode(area: IArea?): INode? {
         return area?.resolveNode(this)

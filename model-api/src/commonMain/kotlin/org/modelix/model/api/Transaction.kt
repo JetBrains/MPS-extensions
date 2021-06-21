@@ -24,7 +24,7 @@ abstract class Transaction(override val branch: IBranch) : ITransaction {
     override fun getProperty(nodeId: Long, role: String): String? = tree.getProperty(nodeId, role)
     override fun getReferenceTarget(sourceId: Long, role: String): INodeReference? {
         val target = tree.getReferenceTarget(sourceId, role)
-        return if (target is PNodeReference && target.branchId == null)
+        return if (target is LocalPNodeReference)
             PNodeReference(target.id, branch.getId())
         else
             target

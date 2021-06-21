@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
-    <use id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.test" version="0" />
+    <use id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.testlang" version="0" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
   </languages>
   <imports>
@@ -336,6 +336,43 @@
       <node concept="2V$Bhx" id="2rVXF9$IZ1C" role="2V$M_3">
         <property role="2V$B1T" value="f04d029d-250e-4e43-8c30-28763b47bc55" />
         <property role="2V$B1Q" value="de.itemis.model.merge.test" />
+      </node>
+    </node>
+  </node>
+  <node concept="1olOeT" id="1trrptaEaja">
+    <property role="TrG5h" value="ChildMerging" />
+    <node concept="1oluLK" id="1trrptaEajb" role="1olsr8" />
+    <node concept="1oluLK" id="1trrptaEajc" role="1olsr8" />
+    <node concept="1olsrb" id="1trrptaEajd" role="1olsr8">
+      <ref role="24zOxU" to="14sb:7TOowlgsaNJ" resolve="Interface1" />
+      <node concept="3JNno8" id="1trrptaEajK" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:1trrptaBsmP" resolve="children" />
+        <node concept="3Z5p37" id="1trrptaEajN" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHzSW" id="1trrptaEajR" role="3Z4xbE" />
+        </node>
+      </node>
+    </node>
+    <node concept="1oluLK" id="1trrptaEajj" role="1olsr8" />
+    <node concept="1olsrb" id="1trrptaEajk" role="1olsr8">
+      <ref role="24zOxU" to="14sb:7TOowlgsaNK" resolve="Interface2" />
+      <node concept="3JNno8" id="1trrptaEajW" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:1trrptaBsmP" resolve="children" />
+        <node concept="3Z5p37" id="1trrptaEdov" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHzSW" id="1trrptaFRA6" role="3Z4xbE" />
+        </node>
+      </node>
+    </node>
+    <node concept="1oluLK" id="1trrptaEajq" role="1olsr8" />
+    <node concept="1oluLK" id="1trrptaEajr" role="1olsr8" />
+    <node concept="1olsrb" id="1trrptaEajs" role="1olsr8">
+      <ref role="24zOxU" to="14sb:7TOowlgsdak" resolve="Bottom" />
+    </node>
+    <node concept="pHN19" id="1trrptaEajx" role="3WPhuS">
+      <node concept="2V$Bhx" id="1trrptaEajy" role="2V$M_3">
+        <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
       </node>
     </node>
   </node>

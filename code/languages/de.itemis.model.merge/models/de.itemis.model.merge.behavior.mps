@@ -4698,6 +4698,27 @@
       <node concept="3Tm1VV" id="2rVXF9$Y38C" role="1B3o_S" />
       <node concept="3cqZAl" id="2rVXF9$Y5yy" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="1trrptaL8v8" role="jymVt" />
+    <node concept="3clFb_" id="1trrptaLikS" role="jymVt">
+      <property role="TrG5h" value="size" />
+      <node concept="3clFbS" id="1trrptaLikV" role="3clF47">
+        <node concept="3clFbF" id="1trrptaLozy" role="3cqZAp">
+          <node concept="2OqwBi" id="1trrptaLr1I" role="3clFbG">
+            <node concept="2OqwBi" id="1trrptaLoJP" role="2Oq$k0">
+              <node concept="Xjq3P" id="1trrptaLozx" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1trrptaLoZb" role="2OqNvi">
+                <ref role="2Oxat5" node="2rVXF9$OFBw" resolve="propToAction" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1trrptaLtKx" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Map.size()" resolve="size" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1trrptaLeau" role="1B3o_S" />
+      <node concept="10Oyi0" id="1trrptaLmff" role="3clF45" />
+    </node>
     <node concept="2tJIrI" id="1trrptaxWSb" role="jymVt" />
     <node concept="3clFb_" id="2rVXF9$UllE" role="jymVt">
       <property role="TrG5h" value="entries" />

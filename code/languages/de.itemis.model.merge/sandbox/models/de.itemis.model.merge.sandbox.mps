@@ -273,10 +273,6 @@
     <node concept="1oluLK" id="7TOowlgsb4W" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgtp9c" role="1olsr8">
       <ref role="24zOxU" to="14sb:7TOowlgsaNJ" resolve="Interface1" />
-      <node concept="1orWGm" id="7TOowlgtzWH" role="1orW53">
-        <ref role="3iOP7l" to="14sb:7TOowlgsaNH" resolve="dummy" />
-        <node concept="1orWrO" id="7TOowlgtzWL" role="1orWrN" />
-      </node>
       <node concept="1orWGm" id="7TOowlh6lkT" role="1orW53">
         <ref role="3iOP7l" to="14sb:7TOowlgtN9E" resolve="nada" />
         <node concept="3DZp98" id="2rVXF9_cx6N" role="1orWrN">
@@ -287,10 +283,6 @@
     <node concept="1oluLK" id="7TOowlgZtkB" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgtzWO" role="1olsr8">
       <ref role="24zOxU" to="14sb:7TOowlgsaNK" resolve="Interface2" />
-      <node concept="1orWGm" id="7TOowlh6lkD" role="1orW53">
-        <ref role="3iOP7l" to="14sb:7TOowlgsaNH" resolve="dummy" />
-        <node concept="3iOvoU" id="2rVXF9_cx77" role="1orWrN" />
-      </node>
       <node concept="1orWGm" id="2rVXF9_aRlP" role="1orW53">
         <ref role="3iOP7l" to="14sb:7TOowlgtN9E" resolve="nada" />
         <node concept="3DZp98" id="2rVXF9_cx6H" role="1orWrN">
@@ -299,16 +291,19 @@
       </node>
     </node>
     <node concept="1oluLK" id="7TOowlgZD5V" role="1olsr8" />
+    <node concept="1oluLK" id="ZzVzivG9U_" role="1olsr8" />
     <node concept="1oluLK" id="7TOowlgZD66" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgZD6v" role="1olsr8">
       <ref role="24zOxU" to="14sb:7TOowlgsdak" resolve="Bottom" />
-      <node concept="1orWGm" id="2rVXF9_cx7a" role="1orW53">
-        <ref role="3iOP7l" to="14sb:7TOowlgsaNH" resolve="dummy" />
-        <node concept="1orWrO" id="2rVXF9_cx7s" role="1orWrN" />
-      </node>
       <node concept="1orWGm" id="2rVXF9_cx6T" role="1orW53">
         <ref role="3iOP7l" to="14sb:7TOowlgtN9E" resolve="nada" />
-        <node concept="1orWrO" id="2rVXF9_cx70" role="1orWrN" />
+        <node concept="1orWrO" id="ZzVzivR9Wm" role="1orWrN" />
+      </node>
+      <node concept="1orWGm" id="ZzVzivVaYZ" role="1orW53">
+        <ref role="3iOP7l" to="14sb:7TOowlgsaNH" resolve="dummy" />
+        <node concept="3DZp98" id="ZzVzivVaZ5" role="1orWrN">
+          <node concept="3clFbS" id="ZzVzivVaZ7" role="2VODD2" />
+        </node>
       </node>
     </node>
     <node concept="pHN19" id="7TOowlgsb4M" role="3WPhuS">
@@ -316,6 +311,9 @@
         <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
         <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
       </node>
+    </node>
+    <node concept="1olsrb" id="ZzVzivVaZb" role="1olsr8">
+      <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
     </node>
   </node>
   <node concept="1olOeT" id="2rVXF9$IZ0J">

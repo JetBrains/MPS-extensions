@@ -24,11 +24,15 @@ Spec
 
 We explicitly don't use terms like ours/theirs, new/old or existing/incoming because we don't want to use terms associated with VCS use cases.
 #### Merge Polices
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+Explaning the meaning of different merge policies
+* Terminal Merge Policies: Once these policies are applied the merge process stops for the current subtree
+  * Left: Take the left version
+  * Right: Take the right version
+  * Drop: Drop element
+  * Keep: Keep element
+  * Manual: define own behavior
+* Auto: Delegates the merging to its children and properties.
+  
 
 
 ### Operations 

@@ -23,6 +23,7 @@ Spec
 ```
 
 We explicitly don't use terms like ours/theirs, new/old or existing/incoming because we don't want to use terms associated with VCS use cases.
+#### Merge Polices
 
 ### Operations 
 

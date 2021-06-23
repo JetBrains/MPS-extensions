@@ -306,13 +306,6 @@
         <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
       </node>
     </node>
-    <node concept="1olsrb" id="582YV7yYFRN" role="1olsr8">
-      <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
-      <node concept="1orWGm" id="582YV7z4yBK" role="1orW53">
-        <ref role="3iOP7l" to="14sb:1trrptaBskK" resolve="data" />
-        <node concept="1orWrO" id="582YV7z4yBO" role="1orWrN" />
-      </node>
-    </node>
   </node>
   <node concept="1olOeT" id="2rVXF9$IZ0J">
     <property role="TrG5h" value="Lala3" />

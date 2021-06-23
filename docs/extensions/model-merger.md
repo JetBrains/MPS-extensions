@@ -88,8 +88,10 @@ Overriding (respecifying the merge for a property, child or reference) in a *par
 
 ## Open Questions 
 
-Can we statically in the language enforce that the merge specification if complete? 
+* Can we statically in the language enforce that the merge specification if complete? 
 
-What do we do in the *diamond case*. MPS support multiple inheritance for interfaces. Therefore we can end up in that situation. E.g. given the interface X, Y1, Y2, Y3 and a concept A. The interfaces Y1, Y2, Y3 all extend X. For each of the interfaces Y1, Y2, Y3 a *complete* merge specification exists, which means all of them include how to merge X. Concept A implements the interfaces Y1, Y2, Y3 and has a *partial* merge specification. What should happen at runtime? Can merge this? We have three possibly conflicting merge specifications for X. 
+* What do we do in the *diamond case*. MPS support multiple inheritance for interfaces. Therefore we can end up in that situation. E.g. given the interface X, Y1, Y2, Y3 and a concept A. The interfaces Y1, Y2, Y3 all extend X. For each of the interfaces Y1, Y2, Y3 a *complete* merge specification exists, which means all of them include how to merge X. Concept A implements the interfaces Y1, Y2, Y3 and has a *partial* merge specification. What should happen at runtime? Can merge this? We have three possibly conflicting merge specifications for X. 
 
-Do we want to support something like a default case for concepts? Which would make the merge specification *complete* for a all concepts that extend it. It’s so to say the description what to do if no specification for a property, child or reference exists that was added though extending the concept.
+* Do we want to support something like a default case for concepts? Which would make the merge specification *complete* for a all concepts that extend it. It’s so to say the description what to do if no specification for a property, child or reference exists that was added though extending the concept.
+
+* Subconcept Problem: A concept D has two subconcepts D1 and D2. Concept A has singlton child D. By specifying a Merge Policy for A we define that we want merge C the Right-way. Now the following problem can occur: In the Left-Instance of A the child D is implememnted by a D1-Instance, but in the Right-Instance D is implemented by a D2-instance. D2 and D1 can be structured completely different. It is unclear how to move the data of a D2-Instance to a D1-Instance

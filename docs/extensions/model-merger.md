@@ -25,6 +25,12 @@ Spec
 We explicitly don't use terms like ours/theirs, new/old or existing/incoming because we don't want to use terms associated with VCS use cases.
 #### Merge Polices
 
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+
 ### Operations 
 
 For all types of merges specification entries three operations are always available: *left*, *right* and *manual*. The semantics are largely the same no matter which part of a concept they are applied to.

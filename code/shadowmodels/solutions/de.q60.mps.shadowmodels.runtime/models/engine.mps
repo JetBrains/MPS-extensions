@@ -4740,6 +4740,28 @@
           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
+      <node concept="3clFb_" id="33nVUY7RUnz" role="jymVt">
+        <property role="TrG5h" value="getChildConcept" />
+        <node concept="3Tm1VV" id="33nVUY7RUn$" role="1B3o_S" />
+        <node concept="2AHcQZ" id="33nVUY7RUnA" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+        <node concept="3uibUv" id="33nVUY7RUnB" role="3clF45">
+          <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
+        </node>
+        <node concept="3clFbS" id="33nVUY7RUnC" role="3clF47">
+          <node concept="YS8fn" id="33nVUY7S1px" role="3cqZAp">
+            <node concept="2ShNRf" id="33nVUY7S1py" role="YScLw">
+              <node concept="1pGfFk" id="33nVUY7S1pz" role="2ShVmc">
+                <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="33nVUY7RUnD" role="2AJF6D">
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="5gTrVpGiHGw" role="1B3o_S" />
     <node concept="3uibUv" id="3kkgokiKs$r" role="EKbjA">
@@ -7397,7 +7419,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="73LuVOQk$$P" role="2OqNvi">
-                        <ref role="37wK5l" to="jks5:~IConcept.isSubconceptOf(org.modelix.model.api.IConcept)" resolve="isSubconceptOf" />
+                        <ref role="37wK5l" to="jks5:~IConcept.isSubConceptOf(org.modelix.model.api.IConcept)" resolve="isSubConceptOf" />
                         <node concept="2OqwBi" id="73LuVOQk$$Q" role="37wK5m">
                           <node concept="2GrUjf" id="73LuVOQk$$R" role="2Oq$k0">
                             <ref role="2Gs0qQ" node="73LuVOQk$$s" resolve="rule" />
@@ -9875,7 +9897,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="73LuVOQeop3" role="2OqNvi">
-                        <ref role="37wK5l" to="jks5:~IConcept.isSubconceptOf(org.modelix.model.api.IConcept)" resolve="isSubconceptOf" />
+                        <ref role="37wK5l" to="jks5:~IConcept.isSubConceptOf(org.modelix.model.api.IConcept)" resolve="isSubConceptOf" />
                         <node concept="2OqwBi" id="73LuVOQeop4" role="37wK5m">
                           <node concept="2GrUjf" id="73LuVOQeop5" role="2Oq$k0">
                             <ref role="2Gs0qQ" node="73LuVOQeooS" resolve="rule" />
@@ -10163,7 +10185,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="1Ym4FmemqSq" role="2OqNvi">
-                        <ref role="37wK5l" to="jks5:~IConcept.isSubconceptOf(org.modelix.model.api.IConcept)" resolve="isSubconceptOf" />
+                        <ref role="37wK5l" to="jks5:~IConcept.isSubConceptOf(org.modelix.model.api.IConcept)" resolve="isSubConceptOf" />
                         <node concept="2OqwBi" id="1Ym4FmemqSr" role="37wK5m">
                           <node concept="2GrUjf" id="1Ym4FmemqSs" role="2Oq$k0">
                             <ref role="2Gs0qQ" node="1Ym4FmemqSf" resolve="rule" />
@@ -11812,7 +11834,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="Vl1zEECDtL" role="2OqNvi">
-                <ref role="37wK5l" to="jks5:~IConcept.isSubconceptOf(org.modelix.model.api.IConcept)" resolve="isSubconceptOf" />
+                <ref role="37wK5l" to="jks5:~IConcept.isSubConceptOf(org.modelix.model.api.IConcept)" resolve="isSubConceptOf" />
                 <node concept="37vLTw" id="Vl1zEECDtM" role="37wK5m">
                   <ref role="3cqZAo" node="Vl1zEEA72i" resolve="concept" />
                 </node>
@@ -17916,7 +17938,7 @@
               <ref role="3cqZAo" node="1sd2boLzO66" resolve="myConcept" />
             </node>
             <node concept="liA8E" id="1sd2boLzQLI" role="2OqNvi">
-              <ref role="37wK5l" to="jks5:~IConcept.isSubconceptOf(org.modelix.model.api.IConcept)" resolve="isSubconceptOf" />
+              <ref role="37wK5l" to="jks5:~IConcept.isSubConceptOf(org.modelix.model.api.IConcept)" resolve="isSubConceptOf" />
               <node concept="37vLTw" id="1sd2boLzQYp" role="37wK5m">
                 <ref role="3cqZAo" node="1sd2boLzO6B" resolve="superConcept" />
               </node>
@@ -21724,7 +21746,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="3kkgokj$8X_" role="2OqNvi">
-                <ref role="37wK5l" to="jks5:~IConcept.isSubconceptOf(org.modelix.model.api.IConcept)" resolve="isSubconceptOf" />
+                <ref role="37wK5l" to="jks5:~IConcept.isSubConceptOf(org.modelix.model.api.IConcept)" resolve="isSubConceptOf" />
                 <node concept="37vLTw" id="3kkgokj$8XA" role="37wK5m">
                   <ref role="3cqZAo" node="3kkgokj$8WQ" resolve="concept" />
                 </node>

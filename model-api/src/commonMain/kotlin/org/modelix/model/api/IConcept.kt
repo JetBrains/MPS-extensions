@@ -16,13 +16,19 @@
 package org.modelix.model.api
 
 interface IConcept {
+    val language: ILanguage?
+
     fun getShortName(): String
     fun getLongName(): String
-    fun isSubconceptOf(superConcept: IConcept?): Boolean
+
+    fun isSubConceptOf(superConcept: IConcept?): Boolean
+    fun getDirectSuperConcepts(): List<IConcept>
     fun isExactly(concept: IConcept?): Boolean
-    val properties: Iterable<IProperty>
-    val childLinks: Iterable<IChildLink>
-    val referenceLinks: Iterable<IReferenceLink>
+
+    val properties: List<IProperty>
+    val childLinks: List<IChildLink>
+    val referenceLinks: List<IReferenceLink>
+
     fun getProperty(name: String): IProperty
     fun getChildLink(name: String): IChildLink
     fun getReferenceLink(name: String): IReferenceLink

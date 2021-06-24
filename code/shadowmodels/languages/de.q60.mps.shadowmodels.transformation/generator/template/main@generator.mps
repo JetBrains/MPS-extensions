@@ -7036,7 +7036,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="35N923Aj4pS" role="2OqNvi">
-                          <ref role="37wK5l" to="jks5:~IConcept.isSubconceptOf(org.modelix.model.api.IConcept)" resolve="isSubconceptOf" />
+                          <ref role="37wK5l" to="jks5:~IConcept.isSubConceptOf(org.modelix.model.api.IConcept)" resolve="isSubConceptOf" />
                           <node concept="2YIFZM" id="35N923Aj7Td" role="37wK5m">
                             <ref role="1Pybhc" to="xxte:5gTrVpGjuL2" resolve="SConceptAdapter" />
                             <ref role="37wK5l" to="xxte:3ECE8iPOmg5" resolve="wrap" />

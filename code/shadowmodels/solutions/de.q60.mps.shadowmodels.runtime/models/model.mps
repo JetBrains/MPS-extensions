@@ -1784,7 +1784,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="1zncNMQFImz" role="2OqNvi">
-                <ref role="37wK5l" to="jks5:~IConcept.isSubconceptOf(org.modelix.model.api.IConcept)" resolve="isSubconceptOf" />
+                <ref role="37wK5l" to="jks5:~IConcept.isSubConceptOf(org.modelix.model.api.IConcept)" resolve="isSubConceptOf" />
                 <node concept="37vLTw" id="1zncNMQFIm$" role="37wK5m">
                   <ref role="3cqZAo" node="1zncNMQFE0i" resolve="concept" />
                 </node>

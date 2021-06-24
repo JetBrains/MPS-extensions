@@ -1798,6 +1798,27 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="33nVUY8k75R" role="jymVt" />
+    <node concept="3clFb_" id="33nVUY8k6UN" role="jymVt">
+      <property role="TrG5h" value="isOptional" />
+      <node concept="3Tm1VV" id="33nVUY8k6UO" role="1B3o_S" />
+      <node concept="10P_77" id="33nVUY8k6UQ" role="3clF45" />
+      <node concept="3clFbS" id="33nVUY8k6UR" role="3clF47">
+        <node concept="3clFbF" id="33nVUY8k7dC" role="3cqZAp">
+          <node concept="2OqwBi" id="33nVUY8k7_x" role="3clFbG">
+            <node concept="37vLTw" id="33nVUY8k7dB" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ePp5XuOPY4" resolve="link" />
+            </node>
+            <node concept="liA8E" id="33nVUY8k88v" role="2OqNvi">
+              <ref role="37wK5l" to="c17a:~SAbstractLink.isOptional()" resolve="isOptional" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="33nVUY8k6US" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2ePp5XuONi_">
     <property role="TrG5h" value="SContainmentLinkAdapter" />
@@ -1967,6 +1988,26 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="33nVUY7Nij8" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="33nVUY8k5oo" role="jymVt">
+      <property role="TrG5h" value="isOptional" />
+      <node concept="3Tm1VV" id="33nVUY8k5op" role="1B3o_S" />
+      <node concept="10P_77" id="33nVUY8k5or" role="3clF45" />
+      <node concept="3clFbS" id="33nVUY8k5os" role="3clF47">
+        <node concept="3clFbF" id="33nVUY8k5RR" role="3cqZAp">
+          <node concept="2OqwBi" id="33nVUY8k6fK" role="3clFbG">
+            <node concept="37vLTw" id="33nVUY8k5RO" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ePp5XuONiB" resolve="link" />
+            </node>
+            <node concept="liA8E" id="33nVUY8k6Ea" role="2OqNvi">
+              <ref role="37wK5l" to="c17a:~SAbstractLink.isOptional()" resolve="isOptional" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="33nVUY8k5ot" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

@@ -15,4 +15,8 @@
  */
 package org.modelix.model.api
 
-class SimpleReferenceLink(override val name: String, override var targetConcept: IConcept) : IReferenceLink
+class SimpleReferenceLink(
+    override val name: String,
+    override val isOptional: Boolean,
+    override var targetConcept: IConcept
+) : IReferenceLink

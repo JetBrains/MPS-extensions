@@ -18,5 +18,6 @@ package org.modelix.model.api
 class SimpleChildLink(
     override val name: String,
     override val isMultiple: Boolean,
+    override val isOptional: Boolean,
     override var childConcept: IConcept
 ) : IChildLink

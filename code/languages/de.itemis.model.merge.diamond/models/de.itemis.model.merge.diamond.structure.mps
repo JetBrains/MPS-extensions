@@ -46,13 +46,6 @@
   <node concept="PlHQZ" id="7TOowlgsaNJ">
     <property role="EcuMT" value="9112015721041276143" />
     <property role="TrG5h" value="Interface1" />
-    <node concept="1TJgyj" id="jF$CuWiLEM" role="1TKVEi">
-      <property role="IQ2ns" value="354538107355994802" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="payload" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="jF$CuWiLEs" resolve="Payload" />
-    </node>
     <node concept="PrWs8" id="7TOowlgtzFY" role="PrDN$">
       <ref role="PrY4T" node="7TOowlgscST" resolve="Top" />
     </node>

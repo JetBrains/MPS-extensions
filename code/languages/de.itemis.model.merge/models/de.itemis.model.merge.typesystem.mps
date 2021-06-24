@@ -108,9 +108,6 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
-      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
-        <child id="1068581517676" name="expression" index="3cqZAk" />
-      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -840,11 +837,11 @@
             <node concept="3cpWsn" id="3EHNiwz7rFs" role="3cpWs9">
               <property role="TrG5h" value="result" />
               <node concept="3uibUv" id="3EHNiwz7rpP" role="1tU5fm">
-                <ref role="3uigEE" to="rnx3:2QNuyuiL5OR" resolve="ConceptGrapTraversal.Result" />
+                <ref role="3uigEE" to="rnx3:2QNuyuiL5OR" resolve="ConceptGraphTraversal.Result" />
               </node>
               <node concept="2YIFZM" id="3EHNiwz7rFt" role="33vP2m">
                 <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
-                <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
+                <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGraphTraversal" />
                 <node concept="1YBJjd" id="3EHNiwz7rFu" role="37wK5m">
                   <ref role="1YBMHb" node="7TOowlgBzBU" resolve="modelMerge" />
                 </node>
@@ -1618,39 +1615,6 @@
       </node>
       <node concept="3Tm1VV" id="ZzVzivnxE3" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="ZzVzivkUO3" role="jymVt" />
-    <node concept="2YIFZL" id="ZzVzivkSzw" role="jymVt">
-      <property role="TrG5h" value="declarationNode" />
-      <node concept="3Tm1VV" id="ZzVzivrAd2" role="1B3o_S" />
-      <node concept="3Tqbb2" id="ZzVzivkSzy" role="3clF45">
-        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-      </node>
-      <node concept="37vLTG" id="ZzVzivkSzr" role="3clF46">
-        <property role="TrG5h" value="sac" />
-        <node concept="3uibUv" id="ZzVzivkSzs" role="1tU5fm">
-          <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="ZzVzivkSzd" role="3clF47">
-        <node concept="3cpWs6" id="ZzVzivkSzp" role="3cqZAp">
-          <node concept="1eOMI4" id="ZzVzivkSzj" role="3cqZAk">
-            <node concept="10QFUN" id="ZzVzivkSzk" role="1eOMHV">
-              <node concept="3Tqbb2" id="ZzVzivkSzl" role="10QFUM">
-                <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
-              </node>
-              <node concept="2OqwBi" id="ZzVzivkSzm" role="10QFUP">
-                <node concept="37vLTw" id="ZzVzivkSzt" role="2Oq$k0">
-                  <ref role="3cqZAo" node="ZzVzivkSzr" resolve="sac" />
-                </node>
-                <node concept="liA8E" id="ZzVzivkSzo" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SAbstractConcept.getDeclarationNode()" resolve="getDeclarationNode" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="ZzVzivkKMD" role="jymVt" />
     <node concept="2YIFZL" id="ZzVzivoeHc" role="jymVt">
       <property role="TrG5h" value="childrenCovered" />
@@ -1710,11 +1674,11 @@
           <node concept="3cpWsn" id="1trrptaRHnE" role="3cpWs9">
             <property role="TrG5h" value="result" />
             <node concept="3uibUv" id="1trrptaRHnF" role="1tU5fm">
-              <ref role="3uigEE" to="rnx3:2QNuyuiL5OR" resolve="ConceptGrapTraversal.Result" />
+              <ref role="3uigEE" to="rnx3:2QNuyuiL5OR" resolve="ConceptGraphTraversal.Result" />
             </node>
             <node concept="2YIFZM" id="1trrptaRHnG" role="33vP2m">
               <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
-              <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
+              <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGraphTraversal" />
               <node concept="37vLTw" id="1trrptaRHnH" role="37wK5m">
                 <ref role="3cqZAo" node="1trrptaRHnA" resolve="modelMerge" />
               </node>

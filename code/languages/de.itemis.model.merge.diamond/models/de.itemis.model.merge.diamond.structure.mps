@@ -46,6 +46,13 @@
   <node concept="PlHQZ" id="7TOowlgsaNJ">
     <property role="EcuMT" value="9112015721041276143" />
     <property role="TrG5h" value="Interface1" />
+    <node concept="1TJgyj" id="jF$CuWiLEM" role="1TKVEi">
+      <property role="IQ2ns" value="354538107355994802" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="payload" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="jF$CuWiLEs" resolve="Payload" />
+    </node>
     <node concept="PrWs8" id="7TOowlgtzFY" role="PrDN$">
       <ref role="PrY4T" node="7TOowlgscST" resolve="Top" />
     </node>
@@ -109,6 +116,43 @@
       <property role="IQ2nx" value="1683059382312355120" />
       <property role="TrG5h" value="data" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="jF$CuWmTnX" role="1TKVEi">
+      <property role="IQ2ns" value="354538107357074941" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="myDate" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="jF$CuWiLEs" resolve="Payload" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="jF$CuWiLEs">
+    <property role="EcuMT" value="354538107355994780" />
+    <property role="TrG5h" value="Payload" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="jF$CuWiLTF" role="1TKVEl">
+      <property role="IQ2nx" value="354538107355995755" />
+      <property role="TrG5h" value="data" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="jF$CuWiLVm">
+    <property role="EcuMT" value="354538107355995862" />
+    <property role="TrG5h" value="Payload1" />
+    <ref role="1TJDcQ" node="jF$CuWiLEs" resolve="Payload" />
+    <node concept="1TJgyi" id="jF$CuWiLX0" role="1TKVEl">
+      <property role="IQ2nx" value="354538107355995968" />
+      <property role="TrG5h" value="data1" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="jF$CuWiLYJ">
+    <property role="EcuMT" value="354538107355996079" />
+    <property role="TrG5h" value="Payload2" />
+    <ref role="1TJDcQ" node="jF$CuWiLEs" resolve="Payload" />
+    <node concept="1TJgyi" id="jF$CuWiLZq" role="1TKVEl">
+      <property role="IQ2nx" value="354538107355996122" />
+      <property role="TrG5h" value="data2" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>

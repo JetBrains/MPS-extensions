@@ -83,7 +83,6 @@
       <concept id="1192795911897" name="jetbrains.mps.lang.intentions.structure.ExecuteBlock" flags="in" index="2Sbjvc" />
       <concept id="1192796902958" name="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" flags="nn" index="2Sf5sV" />
       <concept id="2522969319638091381" name="jetbrains.mps.lang.intentions.structure.BaseIntentionDeclaration" flags="ig" index="2ZfUlf">
-        <property id="2522969319638091385" name="isErrorIntention" index="2ZfUl3" />
         <reference id="2522969319638198290" name="forConcept" index="2ZfgGC" />
         <child id="2522969319638198291" name="executeFunction" index="2ZfgGD" />
         <child id="2522969319638093993" name="descriptionFunction" index="2ZfVej" />
@@ -280,39 +279,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="5zr7Q_1LN$B" role="3cqZAp" />
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="7TOowlgd6LG">
-    <property role="TrG5h" value="CheckConcistency" />
-    <property role="2ZfUl3" value="true" />
-    <ref role="2ZfgGC" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
-    <node concept="2S6ZIM" id="7TOowlgd6LH" role="2ZfVej">
-      <node concept="3clFbS" id="7TOowlgd6LI" role="2VODD2">
-        <node concept="3clFbF" id="7TOowlgd6QK" role="3cqZAp">
-          <node concept="Xl_RD" id="7TOowlgd6QJ" role="3clFbG">
-            <property role="Xl_RC" value="Check Concistency" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="7TOowlgd6LJ" role="2ZfgGD">
-      <node concept="3clFbS" id="7TOowlgd6LK" role="2VODD2">
-        <node concept="3clFbH" id="7TOowlgd7VT" role="3cqZAp" />
-        <node concept="3cpWs8" id="3EHNiwz7qUR" role="3cqZAp">
-          <node concept="3cpWsn" id="3EHNiwz7qUS" role="3cpWs9">
-            <property role="TrG5h" value="result" />
-            <node concept="3uibUv" id="3EHNiwz7qU$" role="1tU5fm">
-              <ref role="3uigEE" to="rnx3:2QNuyuiL5OR" resolve="ConceptGrapTraversal.Result" />
-            </node>
-            <node concept="2YIFZM" id="3EHNiwz7qUT" role="33vP2m">
-              <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGrapTraversal" />
-              <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
-              <node concept="2Sf5sV" id="3EHNiwz7qUU" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7TOowlgd7X0" role="3cqZAp" />
       </node>
     </node>
   </node>

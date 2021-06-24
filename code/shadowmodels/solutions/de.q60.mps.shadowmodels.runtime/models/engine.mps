@@ -4631,6 +4631,23 @@
           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
+      <node concept="3clFb_" id="33nVUY8kF3i" role="jymVt">
+        <property role="TrG5h" value="isOptional" />
+        <node concept="3Tm1VV" id="33nVUY8kF3j" role="1B3o_S" />
+        <node concept="10P_77" id="33nVUY8kF3l" role="3clF45" />
+        <node concept="3clFbS" id="33nVUY8kF3m" role="3clF47">
+          <node concept="YS8fn" id="33nVUY8kJlr" role="3cqZAp">
+            <node concept="2ShNRf" id="33nVUY8kJls" role="YScLw">
+              <node concept="1pGfFk" id="33nVUY8kJlt" role="2ShVmc">
+                <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;()" resolve="UnsupportedOperationException" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="33nVUY8kF3n" role="2AJF6D">
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+        </node>
+      </node>
       <node concept="2tJIrI" id="5b_lky_QOLM" role="jymVt" />
       <node concept="3clFb_" id="5b_lky_QOTG" role="jymVt">
         <property role="TrG5h" value="equals" />

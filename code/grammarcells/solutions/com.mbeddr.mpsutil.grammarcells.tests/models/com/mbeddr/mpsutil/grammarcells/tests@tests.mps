@@ -226,6 +226,9 @@
         <property id="5465812603479727090" name="flagA" index="34AmLC" />
         <child id="5465812603479727085" name="childA" index="34AmLR" />
       </concept>
+      <concept id="8622846647855906237" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_optionalInComponent" flags="ng" index="1hHfNE">
+        <child id="8622846647855952043" name="optionalChildren" index="1hHr7W" />
+      </concept>
       <concept id="7363578995839144929" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StringType" flags="ng" index="1kHqfO" />
       <concept id="7363578995839169017" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.VariableDeclaration" flags="ng" index="1kHs7G">
         <child id="7363578995839169018" name="type" index="1kHs7J" />
@@ -2924,6 +2927,52 @@
           <node concept="2cssWo" id="5ycts4Slml7" role="2cssWr" />
           <node concept="yzEQC" id="5ycts4Slml8" role="yzEPe" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="LiM7Y" id="7uEwlsA9wLs">
+    <property role="TrG5h" value="optionInComponent" />
+    <node concept="3clFbS" id="7uEwlsA9wLt" role="LjaKd">
+      <node concept="2TK7Tu" id="7WoRx4h$MZe" role="3cqZAp">
+        <property role="2TTd_B" value="abc123" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="7uEwlsA9wL_" role="25YQCW">
+      <node concept="2cssWn" id="7uEwlsA9wLA" role="1qenE9">
+        <property role="TrG5h" value="m" />
+        <node concept="2cssWt" id="7uEwlsA9wLB" role="2cssWm">
+          <property role="TrG5h" value="f" />
+          <node concept="2cssWo" id="7uEwlsA9wLC" role="2cssWr">
+            <node concept="1hHfNE" id="7WoRx4h$MOs" role="2cssZA">
+              <node concept="LIFWc" id="7WoRx4hAboa" role="lGtFl">
+                <property role="ZRATv" value="true" />
+                <property role="OXtK3" value="true" />
+                <property role="p6zMq" value="24" />
+                <property role="p6zMs" value="24" />
+                <property role="LIFWd" value="mainConstant" />
+              </node>
+            </node>
+          </node>
+          <node concept="yzEQC" id="7uEwlsA9wLO" role="yzEPe" />
+        </node>
+        <node concept="2cssZD" id="7uEwlsA9wLP" role="2cssWm" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="7uEwlsA9wLQ" role="25YQFr">
+      <node concept="2cssWn" id="7uEwlsA9wLR" role="1qenE9">
+        <property role="TrG5h" value="m" />
+        <node concept="2cssWt" id="7uEwlsA9wLS" role="2cssWm">
+          <property role="TrG5h" value="f" />
+          <node concept="2cssWo" id="7uEwlsA9wLT" role="2cssWr">
+            <node concept="1hHfNE" id="7WoRx4hAbou" role="2cssZA">
+              <node concept="yA7Z4" id="7WoRx4hAbri" role="1hHr7W">
+                <property role="yA7Zo" value="123" />
+              </node>
+            </node>
+          </node>
+          <node concept="yzEQC" id="7uEwlsA9wLX" role="yzEPe" />
+        </node>
+        <node concept="2cssZD" id="7uEwlsA9wLY" role="2cssWm" />
       </node>
     </node>
   </node>

@@ -27331,9 +27331,6 @@
       </node>
     </node>
   </node>
-  <node concept="bUwia" id="DnjeukDzUK">
-    <property role="TrG5h" value="mc04_SideTransformationCell4" />
-  </node>
   <node concept="13MO4I" id="DnjeukFysO">
     <property role="TrG5h" value="reduce_SideTransformationCell4" />
     <ref role="3gUMe" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />

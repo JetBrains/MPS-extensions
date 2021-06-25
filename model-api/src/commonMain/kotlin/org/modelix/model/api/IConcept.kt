@@ -21,6 +21,7 @@ interface IConcept {
     fun getUID(): String
     fun getShortName(): String
     fun getLongName(): String
+    fun isAbstract(): Boolean
 
     fun isSubConceptOf(superConcept: IConcept?): Boolean
     fun getDirectSuperConcepts(): List<IConcept>

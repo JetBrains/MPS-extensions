@@ -593,6 +593,27 @@
       </node>
     </node>
     <node concept="2tJIrI" id="21RTMdCkMlq" role="jymVt" />
+    <node concept="3clFb_" id="21RTMdCoGDL" role="jymVt">
+      <property role="TrG5h" value="isAbstract" />
+      <node concept="3Tm1VV" id="21RTMdCoGDM" role="1B3o_S" />
+      <node concept="10P_77" id="21RTMdCoGDO" role="3clF45" />
+      <node concept="3clFbS" id="21RTMdCoGDP" role="3clF47">
+        <node concept="3clFbF" id="21RTMdCoLsP" role="3cqZAp">
+          <node concept="2OqwBi" id="21RTMdCoLK8" role="3clFbG">
+            <node concept="37vLTw" id="21RTMdCoLsO" role="2Oq$k0">
+              <ref role="3cqZAo" node="5gTrVpGjFmW" resolve="concept" />
+            </node>
+            <node concept="liA8E" id="21RTMdCoMj8" role="2OqNvi">
+              <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract()" resolve="isAbstract" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="21RTMdCoGDQ" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="21RTMdCoJ7M" role="jymVt" />
     <node concept="3clFb_" id="21RTMdCkIwL" role="jymVt">
       <property role="TrG5h" value="getUID" />
       <node concept="3Tm1VV" id="21RTMdCkIwM" role="1B3o_S" />

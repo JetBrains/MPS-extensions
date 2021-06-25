@@ -17,6 +17,7 @@ package org.modelix.model.api
 
 class SimpleConcept(
     private val conceptName: String,
+    private val isAbstract: Boolean,
     directSuperConcepts: Iterable<IConcept>
 ) : IConcept {
     override var language: ILanguage? = null
@@ -24,6 +25,8 @@ class SimpleConcept(
     override val childLinks: MutableList<IChildLink> = ArrayList()
     override val referenceLinks: MutableList<IReferenceLink> = ArrayList()
     private val superConcepts: List<IConcept> = directSuperConcepts.toList()
+
+    override fun isAbstract(): Boolean = this.isAbstract
 
     override fun getUID(): String = getLongName()
 

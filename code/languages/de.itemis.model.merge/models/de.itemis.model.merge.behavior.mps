@@ -26,12 +26,12 @@
     <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
     <import index="aoxt" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.math3.util(org.apache.commons/)" />
     <import index="1qo3" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3.tuple(org.apache.commons/)" />
-    <import index="87lp" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.collection(de.q60.mps.libs/)" />
+    <import index="87lp" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.collection(de.q60.mps.collections.libs/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="pwx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.property(MPS.Core/)" />
     <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
     <import index="qt06" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3.builder(org.apache.commons/)" />
-    <import index="gyfg" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.base(de.q60.mps.libs/)" />
+    <import index="gyfg" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.base(de.q60.mps.collections.libs/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="sz2a" ref="r:02b6652e-c87d-4bb2-bfc0-4b5c0d5b9442(de.itemis.model.merge.typesystem)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
@@ -6163,6 +6163,51 @@
     </node>
     <node concept="13hLZK" id="3EHNiwz_w7U" role="13h7CW">
       <node concept="3clFbS" id="3EHNiwz_w7V" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6celbXx0_Sx">
+    <ref role="13h7C2" to="mopj:6celbXx0_R7" resolve="IdFunction" />
+    <node concept="13hLZK" id="6celbXx0_Sy" role="13h7CW">
+      <node concept="3clFbS" id="6celbXx0_Sz" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6celbXx0A4r" role="13h7CS">
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="6celbXx0A4v" role="1B3o_S" />
+      <node concept="3clFbS" id="6celbXx0A4x" role="3clF47">
+        <node concept="3clFbF" id="6celbXx0AeV" role="3cqZAp">
+          <node concept="2pJPEk" id="6celbXx0AeT" role="3clFbG">
+            <node concept="2pJPED" id="6celbXx0Aha" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:hP7QB7G" resolve="StringType" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6celbXx0A4y" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="6celbXx1B1K" role="13h7CS">
+      <property role="TrG5h" value="getParameterConcepts" />
+      <ref role="13i0hy" to="tpek:2xELmDxyi2v" resolve="getParameterConcepts" />
+      <node concept="3Tm1VV" id="6celbXx1B1S" role="1B3o_S" />
+      <node concept="3clFbS" id="6celbXx1B1T" role="3clF47">
+        <node concept="3clFbF" id="6celbXx1Bk_" role="3cqZAp">
+          <node concept="2ShNRf" id="6celbXx1BkA" role="3clFbG">
+            <node concept="Tc6Ow" id="6celbXx1BkB" role="2ShVmc">
+              <node concept="35c_gC" id="6celbXx1BkC" role="HW$Y0">
+                <ref role="35c_gD" to="mopj:6celbXx0AwS" resolve="IdFunctionParam" />
+              </node>
+              <node concept="3bZ5Sz" id="6celbXx1BkE" role="HW$YZ">
+                <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="6celbXx1B1U" role="3clF45">
+        <node concept="3bZ5Sz" id="6celbXx1B1V" role="_ZDj9">
+          <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -94,6 +94,13 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
+    <node concept="1TJgyj" id="6celbXx2c94" role="1TKVEi">
+      <property role="IQ2ns" value="7137735640372265540" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="idFunction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6celbXx0_R7" resolve="IdFunction" />
+    </node>
     <node concept="1TJgyj" id="1EbzjT2T4LX" role="1TKVEi">
       <property role="IQ2ns" value="1912777765298654333" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -188,7 +195,7 @@
     <property role="EcuMT" value="2076377354676914333" />
     <property role="TrG5h" value="ActionFunctionLeftParam" />
     <property role="34LRSv" value="left" />
-    <property role="3GE5qa" value="manualfunction" />
+    <property role="3GE5qa" value="parameters" />
     <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
@@ -196,7 +203,7 @@
     <property role="EcuMT" value="2076377354676997475" />
     <property role="TrG5h" value="ActionFunctionRightParam" />
     <property role="34LRSv" value="right" />
-    <property role="3GE5qa" value="manualfunction" />
+    <property role="3GE5qa" value="parameters" />
     <property role="R4oN_" value="Keep Right Version, Omit Left Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
@@ -363,6 +370,19 @@
     <node concept="PrWs8" id="5zr7Q_1J31C" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6celbXx0_R7">
+    <property role="EcuMT" value="7137735640371846599" />
+    <property role="TrG5h" value="IdFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6celbXx0AwS">
+    <property role="EcuMT" value="7137735640371849272" />
+    <property role="TrG5h" value="IdFunctionParam" />
+    <property role="34LRSv" value="instance" />
+    <property role="3GE5qa" value="parameters" />
+    <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

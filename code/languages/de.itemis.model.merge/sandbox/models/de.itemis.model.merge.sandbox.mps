@@ -12,8 +12,15 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
+        <child id="1197027771414" name="operand" index="2Oq$k0" />
+        <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -39,6 +46,9 @@
         <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
         <property id="3542851458883439832" name="languageId" index="2V$B1T" />
       </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
       <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
         <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
@@ -49,6 +59,8 @@
       </concept>
     </language>
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
+      <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ig" index="230_S" />
+      <concept id="7137735640371849272" name="de.itemis.model.merge.structure.IdFunctionParam" flags="ng" index="233M7" />
       <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergeExecution" flags="ng" index="poArf">
         <reference id="6402745832172080681" name="modelMerge" index="pot50" />
         <child id="6402745832172399733" name="right" index="ppbcs" />
@@ -57,6 +69,7 @@
       <concept id="7555554651740524246" name="de.itemis.model.merge.structure.Right" flags="ng" index="3iOvoU" />
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.MergePolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
+        <child id="7137735640372265540" name="idFunction" index="21DrV" />
         <child id="1912777765298654333" name="propertyPolicies" index="1orW53" />
         <child id="8422540920006574021" name="childPolicies" index="3JN1Yi" />
       </concept>
@@ -307,6 +320,15 @@
           </node>
         </node>
       </node>
+      <node concept="230_S" id="6celbXx37cv" role="21DrV">
+        <node concept="3clFbS" id="6celbXx37cw" role="2VODD2">
+          <node concept="3clFbF" id="6celbXx37jU" role="3cqZAp">
+            <node concept="Xl_RD" id="6celbXx37jT" role="3clFbG">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1oluLK" id="7TOowlgZtkB" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgtzWO" role="1olsr8">
@@ -340,6 +362,9 @@
           </node>
         </node>
       </node>
+      <node concept="230_S" id="6celbXx42Pu" role="21DrV">
+        <node concept="3clFbS" id="6celbXx42Pv" role="2VODD2" />
+      </node>
     </node>
     <node concept="1oluLK" id="7TOowlgZD5V" role="1olsr8" />
     <node concept="1oluLK" id="ZzVzivG9U_" role="1olsr8" />
@@ -364,6 +389,18 @@
         <ref role="3Ze0ni" to="14sb:1trrptaBsls" resolve="singleChild" />
         <node concept="1orWrO" id="jF$CuWm9Lu" role="3JN5mM" />
       </node>
+      <node concept="230_S" id="6celbXx42OU" role="21DrV">
+        <node concept="3clFbS" id="6celbXx42OV" role="2VODD2">
+          <node concept="3clFbF" id="6celbXx5fnr" role="3cqZAp">
+            <node concept="2OqwBi" id="6celbXx5fx0" role="3clFbG">
+              <node concept="233M7" id="6celbXx5fnq" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6celbXx5fGp" role="2OqNvi">
+                <ref role="3TsBF5" to="14sb:7TOowlgsaNH" resolve="dummy" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="pHN19" id="7TOowlgsb4M" role="3WPhuS">
       <node concept="2V$Bhx" id="7TOowlgsb4R" role="2V$M_3">
@@ -382,6 +419,24 @@
       <node concept="1orWGm" id="jF$CuWmTL7" role="1orW53">
         <ref role="3iOP7l" to="14sb:1trrptaBskK" resolve="data" />
         <node concept="1orWrO" id="jF$CuWmTLw" role="1orWrN" />
+      </node>
+      <node concept="230_S" id="6celbXx42NQ" role="21DrV">
+        <node concept="3clFbS" id="6celbXx42NR" role="2VODD2">
+          <node concept="3clFbF" id="6celbXx5fT2" role="3cqZAp">
+            <node concept="2OqwBi" id="6celbXx5g6m" role="3clFbG">
+              <node concept="233M7" id="6celbXx5fT1" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6celbXx5ge6" role="2OqNvi">
+                <ref role="3TsBF5" to="14sb:1trrptaBskK" resolve="data" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1olsrb" id="6celbXx42M0" role="1olsr8">
+      <ref role="24zOxU" to="14sb:jF$CuWiLEs" resolve="Payload" />
+      <node concept="230_S" id="6celbXx42M2" role="21DrV">
+        <node concept="3clFbS" id="6celbXx42M4" role="2VODD2" />
       </node>
     </node>
   </node>

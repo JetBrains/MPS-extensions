@@ -95,3 +95,11 @@ Overriding (respecifying the merge for a property, child or reference) in a *par
 * Do we want to support something like a default case for concepts? Which would make the merge specification *complete* for a all concepts that extend it. It’s so to say the description what to do if no specification for a property, child or reference exists that was added though extending the concept.
 
 * Subconcept Problem: A concept D has two subconcepts D1 and D2. Concept A has singlton child D. By specifying a Merge Policy for A we define that we want merge C the Auto-way. Now the following problem can occur: In the Left-Instance of A the child D is implememnted by a D1-Instance, but in the Right-Instance D is implemented by a D2-instance. D2 and D1 can be structured completely different. It is unclear how to move the data of a D2-Instance to a D1-Instance. In this case only Left,Right and Manual make Sense. The Same thing can happen if D is an optional child. The right way to model this is to put common data of D1 and D2 in an abstract Superclass. There corresponding Merge Policies can be set on common data. Then in the Manual Merge Policy those Merge Policies for the common Data must be alraedy be applied (We probably need to change the Manual action to return a D in this case).
+
+
+## Merge Traversal
+As a first step we need to determine if for each concept the Merge Specification is complete. If so we need to apply the Merge Policies. This is done in a top-down manner: 
+For all nodes n starting with the roots do the the following recursive procedure P
+* Apply all Merge Policies to its properties.
+* Apply all Not Auto Policies to its children
+* For all children k with Auto Merge Policy call P(k) which return the new merged version k'. Replace k by k' in n.

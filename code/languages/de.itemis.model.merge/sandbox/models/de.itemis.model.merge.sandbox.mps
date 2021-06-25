@@ -8,14 +8,19 @@
   </languages>
   <imports>
     <import index="nemv" ref="r:cbfc4dc0-71bd-4b78-b0cd-ef42a7a7042d(de.itemis.model.merge.testlang.structure)" />
-    <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" implicit="true" />
+    <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
@@ -65,7 +70,9 @@
         <reference id="7555554651740432697" name="property" index="3iOP7l" />
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
+      <concept id="2076377354676997475" name="de.itemis.model.merge.structure.ActionFunctionRightParam" flags="ng" index="3DScHg" />
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
+      <concept id="2076377354676914333" name="de.itemis.model.merge.structure.ActionFunctionLeftParam" flags="ng" index="3DZwUI" />
       <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
       <concept id="8422540920009126229" name="de.itemis.model.merge.structure.Keep" flags="ng" index="3JHL42" />
       <concept id="8422540920006554635" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="3JN5hs">
@@ -275,8 +282,12 @@
       <ref role="24zOxU" to="14sb:7TOowlgsaNJ" resolve="Interface1" />
       <node concept="3JNnos" id="jF$CuWjHTp" role="3JN1Yi">
         <ref role="3Ze0ni" to="14sb:1trrptaBsls" resolve="singleChild" />
-        <node concept="3DZp98" id="jF$CuWmFdK" role="3JN5mM">
-          <node concept="3clFbS" id="jF$CuWmFdM" role="2VODD2" />
+        <node concept="3DZp98" id="6celbXwY6yE" role="3JN5mM">
+          <node concept="3clFbS" id="6celbXwY6yG" role="2VODD2">
+            <node concept="3clFbF" id="6celbXx0e_y" role="3cqZAp">
+              <node concept="3DScHg" id="6celbXx0eFE" role="3clFbG" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3JNno8" id="6oJ4I1iIUNo" role="3JN1Yi">
@@ -289,7 +300,11 @@
       <node concept="1orWGm" id="7TOowlh6lkT" role="1orW53">
         <ref role="3iOP7l" to="14sb:7TOowlgtN9E" resolve="nada" />
         <node concept="3DZp98" id="2rVXF9_cx6N" role="1orWrN">
-          <node concept="3clFbS" id="2rVXF9_cx6P" role="2VODD2" />
+          <node concept="3clFbS" id="2rVXF9_cx6P" role="2VODD2">
+            <node concept="3clFbF" id="6celbXx0eB2" role="3cqZAp">
+              <node concept="3DZwUI" id="6celbXx0eB1" role="3clFbG" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -317,8 +332,12 @@
       </node>
       <node concept="1orWGm" id="2rVXF9_aRlP" role="1orW53">
         <ref role="3iOP7l" to="14sb:7TOowlgtN9E" resolve="nada" />
-        <node concept="3DZp98" id="2rVXF9_cx6H" role="1orWrN">
-          <node concept="3clFbS" id="2rVXF9_cx6J" role="2VODD2" />
+        <node concept="3DZp98" id="6celbXwZjBW" role="1orWrN">
+          <node concept="3clFbS" id="6celbXwZjBY" role="2VODD2">
+            <node concept="3clFbF" id="6celbXx0eKv" role="3cqZAp">
+              <node concept="3DZwUI" id="6celbXx0eKu" role="3clFbG" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

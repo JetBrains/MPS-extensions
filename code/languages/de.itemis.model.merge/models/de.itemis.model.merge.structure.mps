@@ -200,14 +200,6 @@
     <property role="R4oN_" value="Keep Right Version, Omit Left Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
-  <node concept="1TIwiD" id="1NgLzfPc0P$">
-    <property role="EcuMT" value="2076377354676997476" />
-    <property role="TrG5h" value="ActionFunctionInProgressParam" />
-    <property role="34LRSv" value="mergedInProgress" />
-    <property role="3GE5qa" value="manualfunction" />
-    <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
   <node concept="1TIwiD" id="7jyS5urbByQ">
     <property role="EcuMT" value="8422540920006539446" />
     <property role="TrG5h" value="Drop" />

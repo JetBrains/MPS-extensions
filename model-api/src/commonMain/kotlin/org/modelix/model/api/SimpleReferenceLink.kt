@@ -19,4 +19,10 @@ class SimpleReferenceLink(
     override val name: String,
     override val isOptional: Boolean,
     override var targetConcept: IConcept
-) : IReferenceLink
+) : IReferenceLink {
+    var owner: SimpleConcept? = null
+    override fun getUID(): String {
+        val o = owner
+        return (if (o == null) name else o.getUID() + "." + name)
+    }
+}

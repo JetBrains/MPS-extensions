@@ -18,6 +18,7 @@ package org.modelix.model.api
 interface IConcept {
     val language: ILanguage?
 
+    fun getUID(): String
     fun getShortName(): String
     fun getLongName(): String
 

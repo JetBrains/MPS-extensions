@@ -25,17 +25,22 @@ class SimpleConcept(
     override val referenceLinks: MutableList<IReferenceLink> = ArrayList()
     private val superConcepts: List<IConcept> = directSuperConcepts.toList()
 
+    override fun getUID(): String = getLongName()
+
     fun addProperty(p: SimpleProperty): SimpleConcept {
+        p.owner = this
         properties.add(p)
         return this
     }
 
     fun addChildLink(l: SimpleChildLink): SimpleConcept {
+        l.owner = this
         childLinks.add(l)
         return this
     }
 
     fun addReferenceLink(l: SimpleReferenceLink): SimpleConcept {
+        l.owner = this
         referenceLinks.add(l)
         return this
     }

@@ -16,6 +16,7 @@
 package org.modelix.model.api
 
 interface IChildLink {
+    fun getUID(): String
     val name: String
     val isMultiple: Boolean
     val isOptional: Boolean

@@ -16,6 +16,7 @@
 package org.modelix.model.api
 
 interface ILanguage {
+    fun getUID(): String
     fun getName(): String
     fun getConcepts(): List<IConcept>
 }

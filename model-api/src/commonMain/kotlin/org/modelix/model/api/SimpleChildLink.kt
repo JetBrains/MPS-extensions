@@ -20,4 +20,10 @@ class SimpleChildLink(
     override val isMultiple: Boolean,
     override val isOptional: Boolean,
     override var childConcept: IConcept
-) : IChildLink
+) : IChildLink {
+    var owner: SimpleConcept? = null
+    override fun getUID(): String {
+        val o = owner
+        return (if (o == null) name else o.getUID() + "." + name)
+    }
+}

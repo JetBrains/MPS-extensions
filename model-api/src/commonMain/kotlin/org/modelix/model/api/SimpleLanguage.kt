@@ -16,6 +16,8 @@
 package org.modelix.model.api
 
 class SimpleLanguage(private val name: String) : ILanguage {
+    override fun getUID(): String = name
+
     private val concepts: MutableList<SimpleConcept> = ArrayList()
 
     override fun getConcepts(): List<SimpleConcept> = concepts

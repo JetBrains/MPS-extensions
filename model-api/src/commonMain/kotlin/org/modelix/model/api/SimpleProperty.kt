@@ -17,6 +17,9 @@ package org.modelix.model.api
 
 class SimpleProperty(override val name: String) : IProperty {
     var owner: SimpleConcept? = null
+
+    override fun getConcept(): IConcept = owner!!
+
     override fun getUID(): String {
         val o = owner
         return (if (o == null) name else o.getUID() + "." + name)

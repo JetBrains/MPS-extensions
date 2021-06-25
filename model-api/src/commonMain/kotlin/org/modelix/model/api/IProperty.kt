@@ -16,6 +16,7 @@
 package org.modelix.model.api
 
 interface IProperty {
+    fun getConcept(): IConcept
     fun getUID(): String
     val name: String
 }

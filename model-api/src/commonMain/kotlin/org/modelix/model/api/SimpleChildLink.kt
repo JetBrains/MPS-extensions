@@ -22,6 +22,9 @@ class SimpleChildLink(
     override var childConcept: IConcept
 ) : IChildLink {
     var owner: SimpleConcept? = null
+
+    override fun getConcept(): IConcept = owner!!
+
     override fun getUID(): String {
         val o = owner
         return (if (o == null) name else o.getUID() + "." + name)

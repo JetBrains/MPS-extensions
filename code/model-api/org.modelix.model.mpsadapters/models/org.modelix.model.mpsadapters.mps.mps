@@ -1733,6 +1733,36 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="21RTMdCqcx$" role="jymVt" />
+    <node concept="3clFb_" id="21RTMdCqc5P" role="jymVt">
+      <property role="TrG5h" value="getConcept" />
+      <node concept="3Tm1VV" id="21RTMdCqc5Q" role="1B3o_S" />
+      <node concept="2AHcQZ" id="21RTMdCqc5R" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="21RTMdCqc5S" role="3clF45">
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
+      </node>
+      <node concept="3clFbS" id="21RTMdCqc5T" role="3clF47">
+        <node concept="3clFbF" id="21RTMdCqc5U" role="3cqZAp">
+          <node concept="2YIFZM" id="21RTMdCqc5V" role="3clFbG">
+            <ref role="37wK5l" node="3ECE8iPOmg5" resolve="wrap" />
+            <ref role="1Pybhc" node="5gTrVpGjuL2" resolve="SConceptAdapter" />
+            <node concept="2OqwBi" id="21RTMdCqc5W" role="37wK5m">
+              <node concept="37vLTw" id="21RTMdCqcMg" role="2Oq$k0">
+                <ref role="3cqZAo" node="2ePp5XuOMkx" resolve="property" />
+              </node>
+              <node concept="liA8E" id="21RTMdCqc5Y" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SConceptFeature.getOwner()" resolve="getOwner" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="21RTMdCqc5Z" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="21RTMdClmXY" role="jymVt" />
     <node concept="3clFb_" id="4wrAhqcMFpl" role="jymVt">
       <property role="TrG5h" value="getProperty" />
@@ -1848,6 +1878,36 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="21RTMdClpz9" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="21RTMdCqbo7" role="jymVt" />
+    <node concept="3clFb_" id="21RTMdCqaOx" role="jymVt">
+      <property role="TrG5h" value="getConcept" />
+      <node concept="3Tm1VV" id="21RTMdCqaOy" role="1B3o_S" />
+      <node concept="2AHcQZ" id="21RTMdCqaOz" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="21RTMdCqaO$" role="3clF45">
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
+      </node>
+      <node concept="3clFbS" id="21RTMdCqaO_" role="3clF47">
+        <node concept="3clFbF" id="21RTMdCqaOA" role="3cqZAp">
+          <node concept="2YIFZM" id="21RTMdCqaOB" role="3clFbG">
+            <ref role="37wK5l" node="3ECE8iPOmg5" resolve="wrap" />
+            <ref role="1Pybhc" node="5gTrVpGjuL2" resolve="SConceptAdapter" />
+            <node concept="2OqwBi" id="21RTMdCqaOC" role="37wK5m">
+              <node concept="37vLTw" id="21RTMdCqbPe" role="2Oq$k0">
+                <ref role="3cqZAo" node="2ePp5XuOPY4" resolve="link" />
+              </node>
+              <node concept="liA8E" id="21RTMdCqaOE" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SConceptFeature.getOwner()" resolve="getOwner" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="21RTMdCqaOF" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -1992,6 +2052,36 @@
       </node>
     </node>
     <node concept="2tJIrI" id="21RTMdClilJ" role="jymVt" />
+    <node concept="3clFb_" id="21RTMdCq8Ag" role="jymVt">
+      <property role="TrG5h" value="getConcept" />
+      <node concept="3Tm1VV" id="21RTMdCq8Ah" role="1B3o_S" />
+      <node concept="2AHcQZ" id="21RTMdCq8Aj" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="21RTMdCq8Ak" role="3clF45">
+        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
+      </node>
+      <node concept="3clFbS" id="21RTMdCq8Al" role="3clF47">
+        <node concept="3clFbF" id="21RTMdCq9A5" role="3cqZAp">
+          <node concept="2YIFZM" id="21RTMdCq9Cm" role="3clFbG">
+            <ref role="37wK5l" node="3ECE8iPOmg5" resolve="wrap" />
+            <ref role="1Pybhc" node="5gTrVpGjuL2" resolve="SConceptAdapter" />
+            <node concept="2OqwBi" id="21RTMdCqa2$" role="37wK5m">
+              <node concept="37vLTw" id="21RTMdCq9Iu" role="2Oq$k0">
+                <ref role="3cqZAo" node="2ePp5XuONiB" resolve="link" />
+              </node>
+              <node concept="liA8E" id="21RTMdCqavQ" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SConceptFeature.getOwner()" resolve="getOwner" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="21RTMdCq8Am" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="21RTMdCq9f9" role="jymVt" />
     <node concept="3clFb_" id="4wrAhqcLuj7" role="jymVt">
       <property role="TrG5h" value="getLink" />
       <node concept="3uibUv" id="4wrAhqcLwb4" role="3clF45">

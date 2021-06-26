@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/de.itemis.mps.extensions.allScripts" />
   <property name="build.layout" location="${build.dir}/artifacts/de.itemis.mps.extensions.allScripts" />
-  <property name="mps.home" location="${basedir}/../../../../../../../../Applications/MPS 2017.3.app/Contents" />
+  <property name="mps.home" location="${basedir}" />
   <property name="extensions.home" location="${basedir}/.." />
   <property name="extensions.code" location="${extensions.home}/code" />
   <property name="artifacts.mps" location="${mps.home}" />

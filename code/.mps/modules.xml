@@ -134,10 +134,10 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.util/de.q60.mps.shadowmodels.util.mpl" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.virtualinterfaces.sandboxlang/de.q60.mps.virtualinterfaces.sandboxlang.mpl" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.virtualinterfaces/de.q60.mps.virtualinterfaces.mpl" folder="shadowmodels.virtualinterfaces" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.collections.libs/de.q60.mps.collections.libs.msd" folder="shadowmodels" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.genplan.virutalinterfaces_incremental/de.q60.mps.genplan.virutalinterfaces_incremental.msd" folder="shadowmodels.examples.interpreter" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.runtime/de.q60.mps.incremental.runtime.msd" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.sandbox/de.q60.mps.incremental.sandbox.msd" folder="shadowmodels.incremental" />
-      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.libs/de.q60.mps.libs.msd" folder="shadowmodels" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.logging.runtime/de.q60.mps.logging.runtime.msd" folder="shadowmodels" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.runtime/de.q60.mps.polymorphicfunctions.runtime.msd" folder="shadowmodels.polymorphicfunctions" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.sandbox/de.q60.mps.polymorphicfunctions.sandbox.msd" folder="shadowmodels.polymorphicfunctions" />
@@ -154,7 +154,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
-        <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
+      <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.sandbox/de.slisson.mps.structurecheck.sandbox.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables.demolang/de.slisson.mps.tables.demolang.mpl" folder="tables" />

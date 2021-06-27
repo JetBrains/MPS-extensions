@@ -21,17 +21,17 @@
       </concept>
     </language>
     <language id="3600cb0a-44dd-4a5b-9968-22924406419e" name="jetbrains.mps.build.mps.tests">
-      <concept id="4560297596904469355" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModuleGroup" flags="ng" index="22LTRF">
+      <concept id="4560297596904469355" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModuleGroup" flags="ng" index="22LTRF">
         <reference id="4560297596904469356" name="group" index="22LTRG" />
       </concept>
-      <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules" flags="nn" index="22LTRH">
+      <concept id="4560297596904469357" name="jetbrains.mps.build.mps.tests.structure.BuildAspect_MpsTestModules" flags="nn" index="22LTRH">
         <child id="4560297596904469360" name="modules" index="22LTRK" />
         <child id="6593674873639474544" name="options" index="24cAkG" />
       </concept>
-      <concept id="4560297596904469362" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModule" flags="nn" index="22LTRM">
+      <concept id="4560297596904469362" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModule" flags="nn" index="22LTRM">
         <reference id="4560297596904469363" name="module" index="22LTRN" />
       </concept>
-      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMpsLayout_TestModules_Options" flags="ng" index="24cAiW" />
+      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModules_Options" flags="ng" index="24cAiW" />
       <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
     </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -248,12 +248,6 @@
           <property role="3MwjfP" value="de.itemis.mps.extensions.build" />
         </node>
       </node>
-      <node concept="2pNNFK" id="v49lXF83y5" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF83D4" role="3o6s8t">
-          <property role="3o6i5n" value="Contains the build solution of all MPS Extensions; necessary if you want to do command line builds of languages that use an MPS Extension." />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCC4SZ" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -369,12 +363,6 @@
       <node concept="3_J27D" id="nsMIIcBmGe" role="3s6cr7">
         <node concept="3Mxwew" id="nsMIIcBmGg" role="3MwsjC">
           <property role="3MwjfP" value="Language to use native libraries in MPS" />
-        </node>
-      </node>
-      <node concept="2pNNFK" id="v49lXF83K3" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF83R2" role="3o6s8t">
-          <property role="3o6i5n" value="Language to use native libraries in MPS" />
         </node>
       </node>
       <node concept="2iUeEo" id="2QgPOUCCCeZ" role="2iVFfd">
@@ -514,12 +502,6 @@
           <property role="3MwjfP" value="Runtime for native libs in MPS" />
         </node>
       </node>
-      <node concept="2pNNFK" id="v49lXF83Y1" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF8450" role="3o6s8t">
-          <property role="3o6i5n" value="Runtime for native libs in MPS" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCCCzS" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -647,12 +629,6 @@
       <node concept="2iUeEo" id="4p3FRivDLPX" role="2iVFfd">
         <property role="2iUeEt" value="Apache Foundation" />
         <property role="2iUeEu" value="https://commons.apache.org/math" />
-      </node>
-      <node concept="2pNNFK" id="v49lXF84bZ" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF84iY" role="3o6s8t">
-          <property role="3o6i5n" value="JARs and their stubs to use Apache Commons Library in MPS" />
-        </node>
       </node>
       <node concept="3_J27D" id="2QgPOUCCCSL" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCCSN" role="3MwsjC">
@@ -938,12 +914,6 @@
       <node concept="m$f5U" id="HjfIy1w$SM" role="m$_yh">
         <ref role="m$f5T" node="3$A0JaN5ae8" resolve="jackson" />
       </node>
-      <node concept="2pNNFK" id="3$A0JaN5irv" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="3$A0JaN5j1I" role="3o6s8t">
-          <property role="3o6i5n" value="JARs and Stubs for using Jackson Json Serialization" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="3$A0JaN5j9p" role="2iVFfd">
         <property role="2iUeEu" value="https://github.com/FasterXML/jackson" />
         <property role="2iUeEt" value="Jackson Project" />
@@ -977,12 +947,6 @@
     </node>
     <node concept="m$_wf" id="31bAEZ0srEa" role="3989C9">
       <property role="m$_wk" value="de.slisson.mps.editor.multiline" />
-      <node concept="2pNNFK" id="5LEeV$4fWU$" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="5LEeV$4fWU_" role="3o6s8t">
-          <property role="3o6i5n" value="An editor component for properties that supports wrapping of long lines and new lines by pressing ENTER." />
-        </node>
-      </node>
       <node concept="3_J27D" id="31bAEZ0srEb" role="m$_yQ">
         <node concept="3Mxwew" id="31bAEZ0srEc" role="3MwsjC">
           <property role="3MwjfP" value="MPS Multiline Property Editor Component" />
@@ -1303,12 +1267,6 @@
     </node>
     <node concept="m$_wf" id="1sO539bGQvt" role="3989C9">
       <property role="m$_wk" value="de.slisson.mps.richtext" />
-      <node concept="2pNNFK" id="5LEeV$4fXaC" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="5LEeV$4fXaD" role="3o6s8t">
-          <property role="3o6i5n" value="An editor component for mixing plain text and MPS nodes" />
-        </node>
-      </node>
       <node concept="m$_yC" id="3IBdWhDPhz8" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
@@ -1514,23 +1472,28 @@
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
-          <node concept="3LXTmp" id="2eucapX07H$" role="1HemKq">
-            <node concept="398BVA" id="2eucapX07Hp" role="3LXTmr">
+        </node>
+        <node concept="1BupzO" id="42yR2aTbyaw" role="3bR31x">
+          <property role="3ZfqAx" value="languageModels" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="42yR2aTbyax" role="1HemKq">
+            <node concept="398BVA" id="42yR2aTbyal" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="2eucapX07Hq" role="iGT6I">
+              <node concept="2Ry0Ak" id="42yR2aTbyam" role="iGT6I">
                 <property role="2Ry0Am" value="richtext" />
-                <node concept="2Ry0Ak" id="2eucapX07Hr" role="2Ry0An">
+                <node concept="2Ry0Ak" id="42yR2aTbyan" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="2eucapX07Hs" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="42yR2aTbyao" role="2Ry0An">
                     <property role="2Ry0Am" value="richtext" />
-                    <node concept="2Ry0Ak" id="2eucapX07Ht" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="42yR2aTbyap" role="2Ry0An">
                       <property role="2Ry0Am" value="languageModels" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="2eucapX07H_" role="3LXTna">
+            <node concept="3qWCbU" id="42yR2aTbyay" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -1713,12 +1676,6 @@
       <node concept="2iUeEo" id="7szUFELHeHp" role="2iVFfd">
         <property role="2iUeEt" value="itemis AG" />
         <property role="2iUeEu" value="https://github.com/slisson/mps-all" />
-      </node>
-      <node concept="2pNNFK" id="v49lXF84pX" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF84wW" role="3o6s8t">
-          <property role="3o6i5n" value="A library of widgets (checkbox, dropdown, etc.) that can be used in MPS editors" />
-        </node>
       </node>
       <node concept="3_J27D" id="2QgPOUCCDkL" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCDkN" role="3MwsjC">
@@ -2751,12 +2708,6 @@
         <property role="2iUeEt" value="itemis AG" />
         <property role="2iUeEu" value="https://github.com/slisson/mps-math" />
       </node>
-      <node concept="2pNNFK" id="v49lXF84BV" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF84IU" role="3o6s8t">
-          <property role="3o6i5n" value="Mathematical notation for MPS Editors" />
-        </node>
-      </node>
       <node concept="3_J27D" id="2QgPOUCCDrM" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCDrO" role="3MwsjC">
           <property role="3MwjfP" value="Mathematical notation for MPS Editors" />
@@ -3268,12 +3219,6 @@
         <property role="2iUeEt" value="Sascha Lisson" />
         <property role="2iUeEu" value="https://github.com/slisson/mps-tables" />
       </node>
-      <node concept="2pNNFK" id="v49lXF84PT" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF84WS" role="3o6s8t">
-          <property role="3o6i5n" value="Tabular notation for MPS editors" />
-        </node>
-      </node>
       <node concept="3_J27D" id="2QgPOUCCDyN" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCDyP" role="3MwsjC">
           <property role="3MwjfP" value="Tabular notation for MPS editors" />
@@ -3609,12 +3554,6 @@
     </node>
     <node concept="m$_wf" id="6Y0V2RJk3uw" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.selection" />
-      <node concept="2pNNFK" id="5LEeV$4fW8s" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="5LEeV$4fWUl" role="3o6s8t">
-          <property role="3o6i5n" value="With this plugin you can select nodes in MPS using the mouse. It allows invoking intentions over a selection of nodes in an nlist" />
-        </node>
-      </node>
       <node concept="3_J27D" id="6Y0V2RJk3ux" role="m$_yQ">
         <node concept="3Mxwew" id="6Y0V2RJk3uy" role="3MwsjC">
           <property role="3MwjfP" value="Mouse Selection Support" />
@@ -3642,7 +3581,7 @@
       </node>
       <node concept="3_J27D" id="2QgPOUCCDDO" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCDDQ" role="3MwsjC">
-          <property role="3MwjfP" value="With this plugin you can select nodes in MPS using the mouse. It allows invoking intentions over a selection of nodes in an nlist" />
+          <property role="3MwjfP" value="With this plugin you can select nodes in MPS using the mouse. It also allows invoking intentions over a selection of nodes in an nlist" />
         </node>
       </node>
     </node>
@@ -3888,12 +3827,6 @@
       <node concept="3_J27D" id="7klUZA6XM5Z" role="m_cZH">
         <node concept="3Mxwew" id="7klUZA6XM60" role="3MwsjC">
           <property role="3MwjfP" value="de.slisson.mps.conditionalEditor" />
-        </node>
-      </node>
-      <node concept="2pNNFK" id="v49lXF853R" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF85aQ" role="3o6s8t">
-          <property role="3o6i5n" value="A conditional editor is almost like an aspect. It can be applied &quot;around&quot; existing editor, and whether it applies or not is determined by a condition and the applicable concept (similar to a pointcut in AO). Using this approach, it is now possible to essentially decorate any editor with any decoration based on arbitrary conditions." />
         </node>
       </node>
       <node concept="2iUeEo" id="2QgPOUCCMIR" role="2iVFfd">
@@ -4282,12 +4215,6 @@
       <node concept="3_J27D" id="2Xjt3l57iTQ" role="m_cZH">
         <node concept="3Mxwew" id="2Xjt3l57iTR" role="3MwsjC">
           <property role="3MwjfP" value="de.slisson.mps.hacks" />
-        </node>
-      </node>
-      <node concept="2pNNFK" id="v49lXF85hP" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF85oO" role="3o6s8t">
-          <property role="3o6i5n" value="Various small extensions: editor utilities, generation plan extensions for better cross-model generation, reflection language (deprecated)" />
         </node>
       </node>
       <node concept="2iUeEo" id="2QgPOUCDbqm" role="2iVFfd">
@@ -4782,17 +4709,11 @@
         <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
       </node>
       <node concept="m$_yC" id="2OJNL7Em2Hd" role="m$_yJ">
-        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
       </node>
       <node concept="3_J27D" id="4be$WTb1MZK" role="m_cZH">
         <node concept="3Mxwew" id="4be$WTb1MZL" role="3MwsjC">
           <property role="3MwjfP" value="de.itemis.mps.editor.diagram" />
-        </node>
-      </node>
-      <node concept="2pNNFK" id="v49lXF85vN" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF85AM" role="3o6s8t">
-          <property role="3o6i5n" value="Diagrammatic notation for MPS editors" />
         </node>
       </node>
       <node concept="2iUeEo" id="2QgPOUCDcb7" role="2iVFfd">
@@ -4975,7 +4896,7 @@
         </node>
         <node concept="1SiIV0" id="2OJNL7ElR9W" role="3bR37C">
           <node concept="3bR9La" id="2OJNL7ElR9X" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="5wX1PptFBxK" role="3bR37C">
@@ -5686,12 +5607,6 @@
           <property role="3MwjfP" value="de.itemis.mps.tooltips" />
         </node>
       </node>
-      <node concept="2pNNFK" id="v49lXF85HL" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF85OK" role="3o6s8t">
-          <property role="3o6i5n" value="MPS editor extension to show tooltips at certain parts in the editor" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDcVW" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -5966,12 +5881,6 @@
       </node>
       <node concept="m$_yC" id="6SVXTgIenog" role="m$_yJ">
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
-      </node>
-      <node concept="2pNNFK" id="v49lXF85VJ" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF862I" role="3o6s8t">
-          <property role="3o6i5n" value="Various additional styling functionality (push, overflow, etc.) in addition to the existing MPS styling" />
-        </node>
       </node>
       <node concept="2iUeEo" id="2QgPOUCDdVC" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
@@ -6377,12 +6286,6 @@
       </node>
       <node concept="m$_yC" id="2NyZxKpV2nh" role="m$_yJ">
         <ref role="m$_y1" node="1sO539bGQvt" resolve="de.slisson.mps.richtext" />
-      </node>
-      <node concept="2pNNFK" id="v49lXF869H" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF86gG" role="3o6s8t">
-          <property role="3o6i5n" value="Various baseLanguage extension utitlities such as map-reduce, type-switch, documentation, dispatch, concept, switch, etc." />
-        </node>
       </node>
       <node concept="2iUeEo" id="2QgPOUCDeur" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
@@ -6920,12 +6823,6 @@
       <node concept="m$_yC" id="6860Y5A054l" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="2pNNFK" id="v49lXF86nF" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF86uE" role="3o6s8t">
-          <property role="3o6i5n" value="Various MPS utilities, such as nodeversioning, serializer, and modelmerger" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDft6" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -7309,23 +7206,6 @@
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
-          <node concept="3LXTmp" id="5k2pT_uJ53u" role="1HemKq">
-            <node concept="398BVA" id="5k2pT_uJ53l" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5k2pT_uJ53m" role="iGT6I">
-                <property role="2Ry0Am" value="modelmerger" />
-                <node concept="2Ry0Ak" id="5k2pT_uJ53n" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.mps.modelmerger.runtime" />
-                  <node concept="2Ry0Ak" id="5k2pT_uJ53o" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="5k2pT_uJ53v" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
         </node>
       </node>
       <node concept="1E1JtD" id="GuygFg7cRe" role="2G$12L">
@@ -7415,26 +7295,6 @@
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
-            <node concept="3LXTmp" id="5k2pT_uJ53Q" role="1HemKq">
-              <node concept="398BVA" id="5k2pT_uJ53F" role="3LXTmr">
-                <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-                <node concept="2Ry0Ak" id="5k2pT_uJ53G" role="iGT6I">
-                  <property role="2Ry0Am" value="modelmerger" />
-                  <node concept="2Ry0Ak" id="5k2pT_uJ53H" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.modelmerger" />
-                    <node concept="2Ry0Ak" id="5k2pT_uJ53I" role="2Ry0An">
-                      <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="5k2pT_uJ53J" role="2Ry0An">
-                        <property role="2Ry0Am" value="template" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3qWCbU" id="5k2pT_uJ53R" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-              </node>
-            </node>
           </node>
         </node>
         <node concept="3rtmxn" id="5py4VqXmLLz" role="3bR31x">
@@ -7471,23 +7331,6 @@
               </node>
             </node>
             <node concept="3qWCbU" id="2eucapX081k" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-          <node concept="3LXTmp" id="5k2pT_uJ53D" role="1HemKq">
-            <node concept="398BVA" id="5k2pT_uJ53w" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5k2pT_uJ53x" role="iGT6I">
-                <property role="2Ry0Am" value="modelmerger" />
-                <node concept="2Ry0Ak" id="5k2pT_uJ53y" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.mps.modelmerger" />
-                  <node concept="2Ry0Ak" id="5k2pT_uJ53z" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="5k2pT_uJ53E" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -7528,12 +7371,6 @@
       </node>
       <node concept="m$f5U" id="F1NWDqr$sA" role="m$_yh">
         <ref role="m$f5T" node="F1NWDqqg8j" resolve="de.itemis.mps.grammarcells" />
-      </node>
-      <node concept="2pNNFK" id="v49lXF86_D" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF86GC" role="3o6s8t">
-          <property role="3o6i5n" value="A grammar-like abstraction for writing editors for textual patterns such as flags, operations, parentheses, etc. Specifying a grammar cell is compact but has enough semantic richness to automatically generate actions (wrappers, side-transforms, substitutions, and delete actions) for the pattern you specified in the grammar cell." />
-        </node>
       </node>
       <node concept="2iUeEo" id="2QgPOUCDgdR" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
@@ -8050,6 +7887,11 @@
         <property role="2iUeEt" value="DSLFoundry" />
         <property role="2iUeEu" value="https://dslfoundry.com/" />
       </node>
+      <node concept="3_J27D" id="3vhhDKcvMyz" role="3s6cr7">
+        <node concept="3Mxwew" id="3vhhDKcvMPy" role="3MwsjC">
+          <property role="3MwjfP" value="Visualizes the structure of a language" />
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="28JShQGqiI6" role="3989C9">
       <property role="TrG5h" value="com.dslfoundry.langvis" />
@@ -8173,13 +8015,7 @@
       </node>
       <node concept="3_J27D" id="6HJqx3w3Loa" role="3s6cr7">
         <node concept="3Mxwew" id="6HJqx3w3Loc" role="3MwsjC">
-          <property role="3MwjfP" value="Alternative Textgen for JetBrains MPS using regular reduction rules" />
-        </node>
-      </node>
-      <node concept="2pNNFK" id="v49lXF86NB" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF86UA" role="3o6s8t">
-          <property role="3o6i5n" value="Alternative Textgen for JetBrains MPS using regular reduction rules" />
+          <property role="3MwjfP" value="Alternative text generator for MPS, using the standard model to model generation mechanisms (node macros, loop macros, property macros, etc.) to generate plain text, as opposed to MPS's programmatical textgen aspect" />
         </node>
       </node>
     </node>
@@ -8421,8 +8257,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="4iIKqJTZ5Ib" role="m$_w8">
-        <node concept="3Mxwew" id="4iIKqJTZ5Ic" role="3MwsjC">
-          <property role="3MwjfP" value="2018.1.0" />
+        <node concept="3Mxwey" id="3vhhDKcvIZv" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="4iIKqJTZ5Id" role="m$_yh">
@@ -8440,7 +8276,7 @@
         <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
       </node>
       <node concept="m$_yC" id="2OJNL7Em1P5" role="m$_yJ">
-        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
       </node>
       <node concept="2pNNFK" id="v49lXF871_" role="20twgj">
         <property role="2pNNFO" value="description" />
@@ -8462,27 +8298,36 @@
       </node>
     </node>
     <node concept="m$_wf" id="2OJNL7ElZsF" role="3989C9">
-      <property role="m$_wk" value="de.q60.mps.libs" />
+      <property role="m$_wk" value="de.q60.mps.collections.libs" />
       <node concept="3_J27D" id="2OJNL7ElZsH" role="m$_yQ">
         <node concept="3Mxwew" id="2OJNL7Em1i6" role="3MwsjC">
-          <property role="3MwjfP" value="de.q60.mps.libs" />
+          <property role="3MwjfP" value="de.q60.mps.collections.libs" />
         </node>
       </node>
       <node concept="3_J27D" id="2OJNL7ElZsJ" role="m_cZH">
         <node concept="3Mxwew" id="2OJNL7Em1i8" role="3MwsjC">
-          <property role="3MwjfP" value="de.60.mps.libs" />
+          <property role="3MwjfP" value="de.q60.mps.collections.libs" />
         </node>
       </node>
       <node concept="3_J27D" id="2OJNL7ElZsL" role="m$_w8">
-        <node concept="3Mxwew" id="2OJNL7Em1p7" role="3MwsjC">
-          <property role="3MwjfP" value="2020.1.0" />
+        <node concept="3Mxwey" id="3vhhDKcvJiq" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="2OJNL7Em1w6" role="m$_yh">
-        <ref role="m$f5T" node="2OJNL7ElSUK" resolve="de.q60.mps.libs" />
+        <ref role="m$f5T" node="2OJNL7ElSUK" resolve="de.q60.mps.collections.libs" />
       </node>
       <node concept="m$_yC" id="2OJNL7Em1B5" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="2iUeEo" id="3vhhDKcvJSs" role="2iVFfd">
+        <property role="2iUeEt" value="Sascha Lisson" />
+        <property role="2iUeEu" value="http://q60.de/" />
+      </node>
+      <node concept="3_J27D" id="3vhhDKcvK$z" role="3s6cr7">
+        <node concept="3Mxwew" id="3vhhDKcvK$_" role="3MwsjC">
+          <property role="3MwjfP" value="Collections for use in MPS logic (as replacement for Guava libs)" />
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="BRK1N8p1BI" role="3989C9">
@@ -8498,8 +8343,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="BRK1N8p1BO" role="m$_w8">
-        <node concept="3Mxwew" id="BRK1N8p1FO" role="3MwsjC">
-          <property role="3MwjfP" value="2018.1.0" />
+        <node concept="3Mxwey" id="3vhhDKcvJ_p" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="BRK1N8p1FQ" role="m$_yh">
@@ -8507,12 +8352,6 @@
       </node>
       <node concept="m$_yC" id="BRK1N8p1FS" role="m$_yJ">
         <ref role="m$_y1" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
-      </node>
-      <node concept="2pNNFK" id="v49lXF880k" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF887j" role="3o6s8t">
-          <property role="3o6i5n" value="Set of examples for the de.q60.shadowmodels plugin" />
-        </node>
       </node>
       <node concept="2iUeEo" id="v49lXF87fz" role="2iVFfd">
         <property role="2iUeEt" value="Sascha Lisson" />
@@ -8581,7 +8420,7 @@
         <node concept="1SiIV0" id="7qGGLAkfOVV" role="3bR37C">
           <node concept="3bR9La" id="7qGGLAkfOVW" role="1SiIV1">
             <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="3rtmxn" id="5py4VqXmLJk" role="3bR31x">
@@ -9111,7 +8950,7 @@
         <node concept="1SiIV0" id="6fQhGuklSjc" role="3bR37C">
           <node concept="3bR9La" id="6fQhGuklSjd" role="1SiIV1">
             <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="5yx1Sl1wN_b" role="3bR37C">
@@ -9286,7 +9125,7 @@
         </node>
         <node concept="1SiIV0" id="6fQhGuklSje" role="3bR37C">
           <node concept="3bR9La" id="6fQhGuklSjf" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="475LaDXmBeQ" role="3bR37C">
@@ -9606,7 +9445,7 @@
         </node>
         <node concept="1SiIV0" id="7q24334ZI8J" role="3bR37C">
           <node concept="3bR9La" id="7q24334ZI8K" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="7q24334ZI8L" role="3bR37C">
@@ -9784,7 +9623,7 @@
         </node>
         <node concept="1SiIV0" id="xHXNSeYVms" role="3bR37C">
           <node concept="3bR9La" id="xHXNSeYVmt" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="475LaDXmBfv" role="3bR37C">
@@ -9906,7 +9745,7 @@
           </node>
           <node concept="1SiIV0" id="3D0nl1up0PS" role="3bR37C">
             <node concept="3bR9La" id="3D0nl1up0PT" role="1SiIV1">
-              <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+              <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
             </node>
           </node>
           <node concept="1BupzO" id="2eucapX088i" role="3bR31x">
@@ -10667,7 +10506,7 @@
           </node>
         </node>
         <node concept="1E0d5M" id="3oazxuUW5Dj" role="1E1XAP">
-          <ref role="1E0d5P" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+          <ref role="1E0d5P" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
         </node>
         <node concept="1E0d5M" id="5U8hsWC7bAD" role="1E1XAP">
           <ref role="1E0d5P" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
@@ -10965,7 +10804,7 @@
         <node concept="3LEDTy" id="7q24334ZzZk" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
         </node>
-        <node concept="3LEDTy" id="fxojVYDaj4" role="3LEDUa">
+        <node concept="3LEDTy" id="42yR2aTfaZc" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
@@ -11195,74 +11034,29 @@
         <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
         </node>
-        <node concept="3LEDTy" id="fxojVYDajC" role="3LEDUa">
+        <node concept="3LEDTy" id="42yR2aTfaZK" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
         </node>
-        <node concept="3LEDTy" id="fxojVYDajD" role="3LEDUa">
+        <node concept="3LEDTy" id="42yR2aTfaZL" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
     </node>
     <node concept="2G$12M" id="2OJNL7ElSUK" role="3989C9">
-      <property role="TrG5h" value="de.q60.mps.libs" />
+      <property role="TrG5h" value="de.q60.mps.collections.libs" />
       <node concept="1E1JtA" id="6fQhGuklQWU" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.q60.mps.libs" />
+        <property role="TrG5h" value="de.q60.mps.collections.libs" />
         <property role="3LESm3" value="ecfb9949-7433-4db5-85de-0f84d172e4ce" />
         <node concept="398BVA" id="6fQhGuklR81" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-          <node concept="2Ry0Ak" id="6fQhGuklRkp" role="iGT6I">
+          <node concept="2Ry0Ak" id="42yR2aTbyNG" role="iGT6I">
             <property role="2Ry0Am" value="shadowmodels" />
-            <node concept="2Ry0Ak" id="6fQhGuklRwK" role="2Ry0An">
+            <node concept="2Ry0Ak" id="42yR2aTbyYJ" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
-              <node concept="2Ry0Ak" id="6fQhGuklRH7" role="2Ry0An">
-                <property role="2Ry0Am" value="de.q60.mps.libs" />
-                <node concept="2Ry0Ak" id="6fQhGuklRTu" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.q60.mps.libs.msd" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6fQhGuklS5Z" role="3bR37C">
-          <node concept="1BurEX" id="6fQhGuklS60" role="1SiIV1">
-            <node concept="398BVA" id="6fQhGuklS5M" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6fQhGuklS5N" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="6fQhGuklS5O" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6fQhGuklS5P" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="6fQhGuklS5Q" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6fQhGuklS5R" role="2Ry0An">
-                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6fQhGuklS6e" role="3bR37C">
-          <node concept="1BurEX" id="6fQhGuklS6f" role="1SiIV1">
-            <node concept="398BVA" id="6fQhGuklS61" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6fQhGuklS62" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="6fQhGuklS63" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6fQhGuklS64" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="6fQhGuklS65" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6fQhGuklS66" role="2Ry0An">
-                        <property role="2Ry0Am" value="vavr-0.9.3.jar" />
-                      </node>
-                    </node>
-                  </node>
+              <node concept="2Ry0Ak" id="42yR2aTbz9M" role="2Ry0An">
+                <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                <node concept="2Ry0Ak" id="42yR2aTbzkP" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.q60.mps.collections.libs.msd" />
                 </node>
               </node>
             </node>
@@ -11271,50 +11065,6 @@
         <node concept="1SiIV0" id="59804$yR$NJ" role="3bR37C">
           <node concept="3bR9La" id="59804$yR$NK" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7qGGLAjRDFR" role="3bR37C">
-          <node concept="1BurEX" id="7qGGLAjRDFS" role="1SiIV1">
-            <node concept="398BVA" id="7qGGLAjRDFE" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7qGGLAjRDFF" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="7qGGLAjRDFG" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7qGGLAjRDFH" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="7qGGLAjRDFI" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="7qGGLAjRDFJ" role="2Ry0An">
-                        <property role="2Ry0Am" value="guava-27.1-jre.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2$MJqfj643u" role="3bR37C">
-          <node concept="1BurEX" id="2$MJqfj643v" role="1SiIV1">
-            <node concept="398BVA" id="2$MJqfj643h" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="2$MJqfj643i" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="2$MJqfj643j" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="2$MJqfj643k" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="2$MJqfj643l" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="2$MJqfj643m" role="2Ry0An">
-                        <property role="2Ry0Am" value="commons-collections4-4.4.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
           </node>
         </node>
         <node concept="3rtmxn" id="5py4VqXmLJW" role="3bR31x">
@@ -11328,8 +11078,8 @@
                 <property role="2Ry0Am" value="shadowmodels" />
                 <node concept="2Ry0Ak" id="5py4VqXmLK1" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5py4VqXmLK2" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                  <node concept="2Ry0Ak" id="42yR2aTci7R" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
                   </node>
                 </node>
               </node>
@@ -11340,24 +11090,112 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="2eucapX087B" role="1HemKq">
-            <node concept="398BVA" id="2eucapX087r" role="3LXTmr">
+          <node concept="3LXTmp" id="42yR2aTbzQK" role="1HemKq">
+            <node concept="398BVA" id="42yR2aTbzQ_" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="2eucapX087s" role="iGT6I">
+              <node concept="2Ry0Ak" id="42yR2aTbzQA" role="iGT6I">
                 <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="2eucapX087t" role="2Ry0An">
+                <node concept="2Ry0Ak" id="42yR2aTbzQB" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="2eucapX087u" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
-                    <node concept="2Ry0Ak" id="2eucapX087v" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="42yR2aTbzQC" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="42yR2aTbzQD" role="2Ry0An">
                       <property role="2Ry0Am" value="models" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="2eucapX087C" role="3LXTna">
+            <node concept="3qWCbU" id="42yR2aTbzQL" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="42yR2aTbzPQ" role="3bR37C">
+          <node concept="1BurEX" id="42yR2aTbzPR" role="1SiIV1">
+            <node concept="398BVA" id="42yR2aTbzPD" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="42yR2aTbzPE" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="42yR2aTbzPF" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="42yR2aTbzPG" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="42yR2aTbzPH" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="42yR2aTbzPI" role="2Ry0An">
+                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="42yR2aTbzQ5" role="3bR37C">
+          <node concept="1BurEX" id="42yR2aTbzQ6" role="1SiIV1">
+            <node concept="398BVA" id="42yR2aTbzPS" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="42yR2aTbzPT" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="42yR2aTbzPU" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="42yR2aTbzPV" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="42yR2aTbzPW" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="42yR2aTbzPX" role="2Ry0An">
+                        <property role="2Ry0Am" value="vavr-0.9.3.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="42yR2aTbzQk" role="3bR37C">
+          <node concept="1BurEX" id="42yR2aTbzQl" role="1SiIV1">
+            <node concept="398BVA" id="42yR2aTbzQ7" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="42yR2aTbzQ8" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="42yR2aTbzQ9" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="42yR2aTbzQa" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="42yR2aTbzQb" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="42yR2aTbzQc" role="2Ry0An">
+                        <property role="2Ry0Am" value="guava-27.1-jre.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="42yR2aTbzQz" role="3bR37C">
+          <node concept="1BurEX" id="42yR2aTbzQ$" role="1SiIV1">
+            <node concept="398BVA" id="42yR2aTbzQm" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="42yR2aTbzQn" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="42yR2aTbzQo" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="42yR2aTbzQp" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="42yR2aTbzQq" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="42yR2aTbzQr" role="2Ry0An">
+                        <property role="2Ry0Am" value="commons-collections4-4.4.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -11867,7 +11705,16 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="m$_yC" id="3ofF9dt4eDr" role="m$_yJ">
-        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
+      </node>
+      <node concept="3_J27D" id="3vhhDKcvN2a" role="3s6cr7">
+        <node concept="3Mxwew" id="3vhhDKcvN8v" role="3MwsjC">
+          <property role="3MwjfP" value="Alternative model API with better support for persistent data structures" />
+        </node>
+      </node>
+      <node concept="2iUeEo" id="3vhhDKcvNeO" role="2iVFfd">
+        <property role="2iUeEt" value="Modelix" />
+        <property role="2iUeEu" value="http://modelix.org/" />
       </node>
     </node>
     <node concept="2G$12M" id="5U8hsWC6WQb" role="3989C9">
@@ -12149,7 +11996,7 @@
         </node>
         <node concept="1SiIV0" id="3ofF9dt4eoV" role="3bR37C">
           <node concept="3bR9La" id="3ofF9dt4eoW" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
       </node>
@@ -12270,7 +12117,7 @@
       </node>
       <node concept="3_J27D" id="6hpTCZQdXR8" role="3s6cr7">
         <node concept="3Mxwew" id="6hpTCZQdXR9" role="3MwsjC">
-          <property role="3MwjfP" value="Editor Querylist Langauge from mbeddr.mpsutil" />
+          <property role="3MwjfP" value="Enables the definition of editors over smodel queries as opposed to only a fixed concept structure" />
         </node>
       </node>
     </node>
@@ -12554,7 +12401,7 @@
       </node>
       <node concept="3_J27D" id="TAJODzUQvy" role="3s6cr7">
         <node concept="3Mxwew" id="TAJODzUQvz" role="3MwsjC">
-          <property role="3MwjfP" value="Intentions Langauge from mbeddr.mpsutil" />
+          <property role="3MwjfP" value="Enables the grouping of different intentions under one label" />
         </node>
       </node>
     </node>
@@ -12765,6 +12612,11 @@
       <node concept="2iUeEo" id="hCVXosGWPj" role="2iVFfd">
         <property role="2iUeEt" value="mbeddr" />
         <property role="2iUeEu" value="http://mbeddr.com" />
+      </node>
+      <node concept="3_J27D" id="3vhhDKcvIMP" role="3s6cr7">
+        <node concept="3Mxwew" id="3vhhDKcvITa" role="3MwsjC">
+          <property role="3MwjfP" value="Mechanism for installing callbacks that listen to changes in specific parts of models. Use only when you have no other MPS mechanism for achieving what you need, because many listeners can quickly eat performance." />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="3quoVcnHjIe" role="3989C9">
@@ -12992,8 +12844,13 @@
         <ref role="m$f5T" node="3quoVcnFQX5" resolve="group.projectview" />
       </node>
       <node concept="2iUeEo" id="7yAshxDtp21" role="2iVFfd">
-        <property role="2iUeEt" value="mbedrr" />
+        <property role="2iUeEt" value="mbeddr" />
         <property role="2iUeEu" value="http://mbeddr.com" />
+      </node>
+      <node concept="3_J27D" id="3vhhDKcvJFI" role="3s6cr7">
+        <node concept="3Mxwew" id="3vhhDKcvJFK" role="3MwsjC">
+          <property role="3MwjfP" value="Abstraction on top of MPS lower-level API to create custom views in the view tool window (like logical view, file view, etc.)" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="3quoVcnFQX5" role="3989C9">
@@ -13498,8 +13355,13 @@
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="2iUeEo" id="7yAshxDtvcY" role="2iVFfd">
-        <property role="2iUeEt" value="mbedrr" />
+        <property role="2iUeEt" value="mbeddr" />
         <property role="2iUeEu" value="http://mbeddr.com" />
+      </node>
+      <node concept="3_J27D" id="3vhhDKcvJM5" role="3s6cr7">
+        <node concept="3Mxwew" id="3vhhDKcvJM7" role="3MwsjC">
+          <property role="3MwjfP" value="Tree-like notation for MPS Editors" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="2jlBy7bQlGk" role="3989C9">
@@ -13818,50 +13680,16 @@
     <node concept="3b7kt6" id="2Xjt3l56m0X" role="10PD9s" />
     <node concept="398rNT" id="2Xjt3l56m0Y" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
-      <node concept="55IIr" id="4be$WTb2x9Y" role="398pKh">
-        <node concept="2Ry0Ak" id="1QLFoGOMPlP" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="1QLFoGOMPlS" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="1QLFoGOMPlV" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="1QLFoGOMPlY" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="1QLFoGOMPm4" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="2IxvlKP9Jtn" role="2Ry0An">
-                    <property role="2Ry0Am" value=".." />
-                    <node concept="2Ry0Ak" id="2IxvlKP9Jti" role="2Ry0An">
-                      <property role="2Ry0Am" value=".." />
-                      <node concept="2Ry0Ak" id="2IxvlKP9Jtj" role="2Ry0An">
-                        <property role="2Ry0Am" value=".." />
-                        <node concept="2Ry0Ak" id="2IxvlKP9Jtk" role="2Ry0An">
-                          <property role="2Ry0Am" value="Applications" />
-                          <node concept="2Ry0Ak" id="2IxvlKP9Jtl" role="2Ry0An">
-                            <property role="2Ry0Am" value="MPS 2017.3.app" />
-                            <node concept="2Ry0Ak" id="2IxvlKP9Jtm" role="2Ry0An">
-                              <property role="2Ry0Am" value="Contents" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="55IIr" id="4be$WTb2x9Y" role="398pKh" />
     </node>
     <node concept="398rNT" id="2fo8bJE$D4o" role="1l3spd">
       <property role="TrG5h" value="extensions.home" />
-      <node concept="55IIr" id="2fo8bJE$D4p" role="398pKh">
-        <node concept="2Ry0Ak" id="2fo8bJE$D4q" role="iGT6I">
+      <node concept="55IIr" id="42yR2aTbxQd" role="398pKh">
+        <node concept="2Ry0Ak" id="42yR2aTbxQg" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="2fo8bJE$D4r" role="2Ry0An">
+          <node concept="2Ry0Ak" id="42yR2aTbxQj" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="2fo8bJE$D4s" role="2Ry0An">
+            <node concept="2Ry0Ak" id="42yR2aTbxQm" role="2Ry0An">
               <property role="2Ry0Am" value=".." />
             </node>
           </node>
@@ -14192,7 +14020,7 @@
         </node>
       </node>
       <node concept="m$_wl" id="2OJNL7Em24Q" role="39821P">
-        <ref role="m_rDy" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
+        <ref role="m_rDy" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
         <node concept="398223" id="4_SQzDOofaX" role="39821P">
           <node concept="3_J27D" id="4_SQzDOofaY" role="Nbhlr">
             <node concept="3Mxwew" id="4_SQzDOofhn" role="3MwsjC">
@@ -14207,7 +14035,7 @@
                 <node concept="2Ry0Ak" id="4_SQzDOofuk" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="4_SQzDOofup" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.libs" />
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
                     <node concept="2Ry0Ak" id="4_SQzDOofuu" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
                     </node>
@@ -16044,7 +15872,7 @@
         </node>
         <node concept="1SiIV0" id="7q24334ZKGo" role="3bR37C">
           <node concept="3bR9La" id="7q24334ZKGp" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1BupzO" id="7q24334ZKGF" role="3bR31x">
@@ -18099,20 +17927,25 @@
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
-          <node concept="3LXTmp" id="7q24334ZKVB" role="1HemKq">
-            <node concept="398BVA" id="7q24334ZKVi" role="3LXTmr">
+        </node>
+        <node concept="1BupzO" id="42yR2aTbA8V" role="3bR31x">
+          <property role="3ZfqAx" value="languageAccessories" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="42yR2aTbA8W" role="1HemKq">
+            <node concept="398BVA" id="42yR2aTbA8A" role="3LXTmr">
               <ref role="398BVh" node="6$6tsX_CF7m" resolve="diagram.home" />
-              <node concept="2Ry0Ak" id="7q24334ZKVj" role="iGT6I">
+              <node concept="2Ry0Ak" id="42yR2aTbA8B" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="7q24334ZKVk" role="2Ry0An">
+                <node concept="2Ry0Ak" id="42yR2aTbA8C" role="2Ry0An">
                   <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.demolang" />
-                  <node concept="2Ry0Ak" id="7q24334ZKVl" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="42yR2aTbA8D" role="2Ry0An">
                     <property role="2Ry0Am" value="languageAccessories" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="7q24334ZKVC" role="3LXTna">
+            <node concept="3qWCbU" id="42yR2aTbA8X" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -18498,41 +18331,7 @@
     <node concept="1gjT0q" id="6$6tsX_CKLI" role="10PD9s" />
     <node concept="398rNT" id="6$6tsX_CF7d" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
-      <node concept="55IIr" id="1QLFoGON26t" role="398pKh">
-        <node concept="2Ry0Ak" id="1QLFoGON26u" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="1QLFoGON26v" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="1QLFoGON26w" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="1QLFoGON26x" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="1QLFoGON26y" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="2IxvlKPaLFu" role="2Ry0An">
-                    <property role="2Ry0Am" value=".." />
-                    <node concept="2Ry0Ak" id="2IxvlKPaLFp" role="2Ry0An">
-                      <property role="2Ry0Am" value=".." />
-                      <node concept="2Ry0Ak" id="2IxvlKPaLFq" role="2Ry0An">
-                        <property role="2Ry0Am" value=".." />
-                        <node concept="2Ry0Ak" id="2IxvlKPaLFr" role="2Ry0An">
-                          <property role="2Ry0Am" value="Applications" />
-                          <node concept="2Ry0Ak" id="2IxvlKPaLFs" role="2Ry0An">
-                            <property role="2Ry0Am" value="MPS 2017.3.app" />
-                            <node concept="2Ry0Ak" id="2IxvlKPaLFt" role="2Ry0An">
-                              <property role="2Ry0Am" value="Contents" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="55IIr" id="1QLFoGON26t" role="398pKh" />
     </node>
     <node concept="398rNT" id="1QLFoGON23s" role="1l3spd">
       <property role="TrG5h" value="extensions.home" />

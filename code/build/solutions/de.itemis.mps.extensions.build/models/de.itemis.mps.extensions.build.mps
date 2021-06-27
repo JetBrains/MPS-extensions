@@ -8306,7 +8306,7 @@
       </node>
       <node concept="3_J27D" id="2OJNL7ElZsJ" role="m_cZH">
         <node concept="3Mxwew" id="2OJNL7Em1i8" role="3MwsjC">
-          <property role="3MwjfP" value="de.60.mps.collections.libs" />
+          <property role="3MwjfP" value="de.q60.mps.collections.libs" />
         </node>
       </node>
       <node concept="3_J27D" id="2OJNL7ElZsL" role="m$_w8">

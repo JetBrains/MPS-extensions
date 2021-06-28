@@ -11,15 +11,18 @@ Spec
 ---
 <Concept> -> Id : (node) = node.name
                          ---- Properties ----
-                         name -> left | right | manual (left, right, node) -> <function returning the new property value>
+                         name -> left | right | manual (left, right) -> <function returning the new property value>
                         prop 2 -> 
                         ---- Children ----
-                        childA [0..1] -> left | right | drop | auto | manual (left, right, node) -> <function returning the node used for the child>
+                        childA [0..1] -> left | right | drop | auto | manual (left, right) -> <function returning the node used for the child>
                         child [1] -> left | right | auto | manual 
                         child [0..n] -> 
                                                new on the right : add | drop
                                                only existing on the the left: keep | drop 
                                                element:  left | right | drop | auto | manual 
+                        ---- References -----
+                        childA [0..1] -> left | right | drop | manual (left, right) -> <function returning the node used for the child>
+                         child [1] -> left | right | manual 
 ```
 
 We explicitly don't use terms like ours/theirs, new/old or existing/incoming because we don't want to use terms associated with VCS use cases.

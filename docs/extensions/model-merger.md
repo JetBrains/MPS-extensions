@@ -106,3 +106,7 @@ For all nodes n starting with the roots do the the following recursive procedure
 * Apply all Merge Policies to its properties.
 * Apply all Not Auto Policies to its children
 * For all children k with Auto Merge Policy call P(k) which return the new merged version k'. Replace k by k' in n.
+
+After this there is a second pass for upadting references:
+* For each original reference from right and left find the merged node MN from pass one it must refer to. 
+* Run the defined Merge Policies for all references. In the Manual Case provided the corresponding MN for left and right. 

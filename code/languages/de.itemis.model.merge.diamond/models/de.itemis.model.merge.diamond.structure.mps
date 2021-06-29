@@ -105,6 +105,11 @@
     <property role="EcuMT" value="1683059382312355119" />
     <property role="TrG5h" value="Data" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="57$6ALrLfRk" role="1TKVEi">
+      <property role="IQ2ns" value="5900870464460619220" />
+      <property role="20kJfa" value="other" />
+      <ref role="20lvS9" node="57$6ALrLfRh" resolve="OtherData" />
+    </node>
     <node concept="1TJgyi" id="1trrptaBskK" role="1TKVEl">
       <property role="IQ2nx" value="1683059382312355120" />
       <property role="TrG5h" value="data" />
@@ -146,6 +151,16 @@
       <property role="IQ2nx" value="354538107355996122" />
       <property role="TrG5h" value="data2" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="57$6ALrLfRh">
+    <property role="EcuMT" value="5900870464460619217" />
+    <property role="TrG5h" value="OtherData" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="57$6ALrLfRi" role="1TKVEl">
+      <property role="IQ2nx" value="5900870464460619218" />
+      <property role="TrG5h" value="something" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

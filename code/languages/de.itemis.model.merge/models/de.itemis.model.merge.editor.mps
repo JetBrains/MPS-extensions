@@ -508,6 +508,49 @@
           </node>
         </node>
       </node>
+      <node concept="3EZMnI" id="3PLTv5jzaq_" role="3EZMnx">
+        <node concept="3F0ifn" id="3PLTv5jzaqA" role="3EZMnx">
+          <property role="3F0ifm" value="References:" />
+          <node concept="lj46D" id="3PLTv5jzaqB" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="3PLTv5jzaqC" role="3F10Kt">
+            <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
+          </node>
+        </node>
+        <node concept="l2Vlx" id="3PLTv5jzaqD" role="2iSdaV" />
+        <node concept="3EZMnI" id="3PLTv5jzaqE" role="3EZMnx">
+          <node concept="l2Vlx" id="3PLTv5jzaqF" role="2iSdaV" />
+          <node concept="3F2HdR" id="3PLTv5jzaqG" role="3EZMnx">
+            <ref role="1NtTu8" to="mopj:3PLTv5jwPvF" resolve="referencePolicies" />
+            <node concept="2iRkQZ" id="3PLTv5jzaqH" role="2czzBx" />
+            <node concept="lj46D" id="3PLTv5jzaqI" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="lj46D" id="3PLTv5jzaqJ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="pj6Ft" id="3PLTv5jzaqK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="3PLTv5jzaqL" role="pqm2j">
+          <node concept="3clFbS" id="3PLTv5jzaqM" role="2VODD2">
+            <node concept="3clFbF" id="3PLTv5jzaqN" role="3cqZAp">
+              <node concept="2OqwBi" id="3PLTv5jzaqO" role="3clFbG">
+                <node concept="2OqwBi" id="3PLTv5jzaqP" role="2Oq$k0">
+                  <node concept="pncrf" id="3PLTv5jzaqQ" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="3PLTv5j$iE1" role="2OqNvi">
+                    <ref role="37wK5l" to="rnx3:3PLTv5jznVy" resolve="allHierarchyReferences" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="3PLTv5jzaqS" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="7jyS5urbKXt" role="3EZMnx" />
       <node concept="2iRkQZ" id="1EbzjT2RQ96" role="2iSdaV" />
     </node>

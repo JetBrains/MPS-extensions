@@ -22,6 +22,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -71,6 +72,7 @@
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
         <child id="7137735640372265540" name="idFunction" index="21DrV" />
         <child id="1912777765298654333" name="propertyPolicies" index="1orW53" />
+        <child id="4427572733332903915" name="referencePolicies" index="1IWF8q" />
         <child id="8422540920006574021" name="childPolicies" index="3JN1Yi" />
       </concept>
       <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergeItem" flags="ng" index="1oluLK" />
@@ -396,11 +398,11 @@
       </node>
       <node concept="3JNnos" id="jF$CuWm9L1" role="3JN1Yi">
         <ref role="3Ze0ni" to="14sb:1trrptaBsls" resolve="singleChild" />
-        <node concept="1orWrO" id="jF$CuWm9Lu" role="3JN5mM" />
+        <node concept="1orWrO" id="3PLTv5jAsVE" role="3JN5mM" />
       </node>
       <node concept="3JN5hs" id="3PLTv5jwqIv" role="3JN1Yi">
         <ref role="3Ze0ni" to="14sb:1trrptaBsmM" resolve="optChild" />
-        <node concept="3JN9zw" id="3PLTv5jwqJ3" role="3JN5mL" />
+        <node concept="3JN9zw" id="3PLTv5jAsY9" role="3JN5mL" />
       </node>
       <node concept="230_S" id="6celbXx42OU" role="21DrV">
         <node concept="3clFbS" id="6celbXx42OV" role="2VODD2">
@@ -445,6 +447,16 @@
               <node concept="3TrcHB" id="6celbXx5ge6" role="2OqNvi">
                 <ref role="3TsBF5" to="14sb:1trrptaBskK" resolve="data" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3JNnos" id="3PLTv5jAsT$" role="1IWF8q">
+        <ref role="3Ze0ni" to="14sb:jF$CuWmTnX" resolve="myDate" />
+        <node concept="3DZp98" id="3PLTv5jAsUq" role="3JN5mM">
+          <node concept="3clFbS" id="3PLTv5jAsUs" role="2VODD2">
+            <node concept="3clFbF" id="3PLTv5jAsXC" role="3cqZAp">
+              <node concept="10Nm6u" id="3PLTv5jAsXB" role="3clFbG" />
             </node>
           </node>
         </node>

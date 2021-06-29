@@ -115,6 +115,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7jyS5urbJZ2" resolve="ChildPolicy" />
     </node>
+    <node concept="1TJgyj" id="3PLTv5jwPvF" role="1TKVEi">
+      <property role="IQ2ns" value="4427572733332903915" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="referencePolicies" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3PLTv5jwPx8" resolve="ReferencePolicy" />
+    </node>
     <node concept="PrWs8" id="1EbzjT2R$JV" role="PzmwI">
       <ref role="PrY4T" node="1EbzjT2R$JU" resolve="ModelMergeItem" />
     </node>
@@ -235,7 +242,10 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6zqIeMU2OVl" resolve="MergeAction" />
     </node>
-    <node concept="PrWs8" id="7jyS5urbJZ3" role="PzmwI">
+    <node concept="PrWs8" id="3PLTv5jwPxS" role="PzmwI">
+      <ref role="PrY4T" node="3PLTv5jwPx8" resolve="ReferencePolicy" />
+    </node>
+    <node concept="PrWs8" id="3PLTv5jxZQw" role="PzmwI">
       <ref role="PrY4T" node="7jyS5urbJZ2" resolve="ChildPolicy" />
     </node>
   </node>
@@ -256,7 +266,10 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6zqIeMU2OVl" resolve="MergeAction" />
     </node>
-    <node concept="PrWs8" id="7jyS5urbTpe" role="PzmwI">
+    <node concept="PrWs8" id="3PLTv5jwPxb" role="PzmwI">
+      <ref role="PrY4T" node="3PLTv5jwPx8" resolve="ReferencePolicy" />
+    </node>
+    <node concept="PrWs8" id="3PLTv5jxZQp" role="PzmwI">
       <ref role="PrY4T" node="7jyS5urbJZ2" resolve="ChildPolicy" />
     </node>
   </node>
@@ -383,6 +396,11 @@
     <property role="3GE5qa" value="parameters" />
     <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="PlHQZ" id="3PLTv5jwPx8">
+    <property role="EcuMT" value="4427572733332904008" />
+    <property role="3GE5qa" value="elementpolicies" />
+    <property role="TrG5h" value="ReferencePolicy" />
   </node>
 </model>
 

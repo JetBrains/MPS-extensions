@@ -25,6 +25,10 @@ class CompositeArea : IArea {
         this.areas = ArrayList(areas)
     }
 
+    override fun resolveConcept(ref: IConceptReference): IConcept? {
+        return areas.map { it.resolveConcept(ref) }.find { it != null }
+    }
+
     override fun getRoot(): INode = rootNode
 
     override fun resolveNode(ref: INodeReference): INode? {

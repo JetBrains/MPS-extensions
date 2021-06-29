@@ -15,7 +15,10 @@
 
 package org.modelix.model.api
 
+import org.modelix.model.area.IArea
+
 interface IConcept {
+    fun getReference(): IConceptReference
     val language: ILanguage?
 
     fun getUID(): String

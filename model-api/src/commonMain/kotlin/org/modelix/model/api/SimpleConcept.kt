@@ -30,6 +30,10 @@ class SimpleConcept(
 
     override fun getUID(): String = getLongName()
 
+    override fun getReference(): IConceptReference {
+        return UIDConceptReference(getUID())
+    }
+
     fun addProperty(p: SimpleProperty): SimpleConcept {
         p.owner = this
         properties.add(p)

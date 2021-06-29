@@ -24,6 +24,10 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
         this.mountedRoot2hiddenNode = mounts.entries.associateBy({ it.value.getRoot() }, { it.key })
     }
 
+    override fun resolveConcept(ref: IConceptReference): IConcept? {
+        return getAllAreas().map { it.resolveConcept(ref) }.find { it != null }
+    }
+
     override fun resolveBranch(id: String): IBranch? {
         for (area in getAllAreas()) {
             val resolved = area.resolveBranch(id)

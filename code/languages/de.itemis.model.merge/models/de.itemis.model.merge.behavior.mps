@@ -48,6 +48,7 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="1225194472832" name="isVirtual" index="13i0it" />
+        <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
       </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
@@ -802,6 +803,8 @@
     </node>
     <node concept="13i0hz" id="3EHNiwzhY2L" role="13h7CS">
       <property role="TrG5h" value="stuff" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
       <node concept="37vLTG" id="3EHNiwzkjiP" role="3clF46">
         <property role="TrG5h" value="inheritedFrom" />
         <node concept="3uibUv" id="3EHNiwzkjj3" role="1tU5fm">
@@ -812,11 +815,7 @@
       <node concept="3uibUv" id="3EHNiwzhY35" role="3clF45">
         <ref role="3uigEE" node="3EHNiwzf98t" resolve="Stuff" />
       </node>
-      <node concept="3clFbS" id="3EHNiwzhY2O" role="3clF47">
-        <node concept="3clFbF" id="3PLTv5ju1c1" role="3cqZAp">
-          <node concept="10Nm6u" id="3PLTv5ju1c0" role="3clFbG" />
-        </node>
-      </node>
+      <node concept="3clFbS" id="3EHNiwzhY2O" role="3clF47" />
     </node>
     <node concept="13hLZK" id="1VmHfRx_0JK" role="13h7CW">
       <node concept="3clFbS" id="1VmHfRx_0JL" role="2VODD2" />

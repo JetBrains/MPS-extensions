@@ -602,7 +602,7 @@
   </node>
   <node concept="24kQdi" id="7jyS5urbFov">
     <property role="3GE5qa" value="elementpolicies" />
-    <ref role="1XX52x" to="mopj:7jyS5urbFgb" resolve="OptionalChildPolicy" />
+    <ref role="1XX52x" to="mopj:7jyS5urbFgb" resolve="OptionalPolicy" />
     <node concept="3EZMnI" id="7jyS5urbFox" role="2wV5jI">
       <node concept="1iCGBv" id="7jyS5urbFoC" role="3EZMnx">
         <ref role="1NtTu8" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -648,7 +648,7 @@
   </node>
   <node concept="24kQdi" id="7jyS5urceI2">
     <property role="3GE5qa" value="elementpolicies" />
-    <ref role="1XX52x" to="mopj:7jyS5urbTpb" resolve="SingletonChildPolicy" />
+    <ref role="1XX52x" to="mopj:7jyS5urbTpb" resolve="SingletonPolicy" />
     <node concept="3EZMnI" id="7jyS5urceI4" role="2wV5jI">
       <node concept="1iCGBv" id="7jyS5urceIb" role="3EZMnx">
         <ref role="1NtTu8" to="mopj:1VmHfRxVF4J" resolve="child" />
@@ -901,7 +901,7 @@
     <property role="3GE5qa" value="CompletionStyle.ChildPolicy" />
     <node concept="3Tm1VV" id="39IQCXdjz35" role="1B3o_S" />
     <node concept="KNhPl" id="39IQCXdjz3B" role="KNiz3">
-      <ref role="2RIln$" to="mopj:7jyS5urbTpb" resolve="SingletonChildPolicy" />
+      <ref role="2RIln$" to="mopj:7jyS5urbTpb" resolve="SingletonPolicy" />
       <node concept="3koIoq" id="1VmHfRxYMTV" role="3koIrf">
         <ref role="3koIov" to="mopj:1VmHfRxVF4J" resolve="child" />
       </node>
@@ -939,7 +939,7 @@
     <property role="3GE5qa" value="CompletionStyle.ChildPolicy" />
     <node concept="3Tm1VV" id="39IQCXdkpXp" role="1B3o_S" />
     <node concept="KNhPl" id="39IQCXdkpXX" role="KNiz3">
-      <ref role="2RIln$" to="mopj:7jyS5urbFgb" resolve="OptionalChildPolicy" />
+      <ref role="2RIln$" to="mopj:7jyS5urbFgb" resolve="OptionalPolicy" />
       <node concept="3koIoq" id="1VmHfRxYMO4" role="3koIrf">
         <ref role="3koIov" to="mopj:1VmHfRxVF4J" resolve="child" />
       </node>
@@ -1097,7 +1097,7 @@
       <node concept="37vLTG" id="1VmHfRxCZ9Q" role="3clF46">
         <property role="TrG5h" value="childPolicy" />
         <node concept="3Tqbb2" id="1VmHfRxCZ9R" role="1tU5fm">
-          <ref role="ehGHo" to="mopj:7jyS5urbJZ2" resolve="ChildPolicy" />
+          <ref role="ehGHo" to="mopj:7jyS5urbJZ2" resolve="ItemPolicy" />
         </node>
       </node>
       <node concept="3Tm1VV" id="1VmHfRxCZax" role="1B3o_S" />
@@ -1463,7 +1463,7 @@
       </node>
     </node>
     <node concept="KNhPm" id="1VmHfRxBPHh" role="KNiz3">
-      <ref role="2RIln$" to="mopj:7jyS5urbJZ2" resolve="ChildPolicy" />
+      <ref role="2RIln$" to="mopj:7jyS5urbJZ2" resolve="ItemPolicy" />
     </node>
   </node>
   <node concept="24kQdi" id="1VmHfRxKMhn">

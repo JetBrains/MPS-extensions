@@ -435,7 +435,7 @@
   </node>
   <node concept="1M2fIO" id="7jyS5urktDV">
     <property role="3GE5qa" value="elementpolicies" />
-    <ref role="1M2myG" to="mopj:7jyS5urbFgb" resolve="OptionalChildPolicy" />
+    <ref role="1M2myG" to="mopj:7jyS5urbFgb" resolve="OptionalPolicy" />
     <node concept="1N5Pfh" id="7jyS5urktDW" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
       <node concept="3dgokm" id="7jyS5urktGR" role="1N6uqs">
@@ -625,7 +625,7 @@
   </node>
   <node concept="1M2fIO" id="7jyS5urkN7L">
     <property role="3GE5qa" value="elementpolicies" />
-    <ref role="1M2myG" to="mopj:7jyS5urbTpb" resolve="SingletonChildPolicy" />
+    <ref role="1M2myG" to="mopj:7jyS5urbTpb" resolve="SingletonPolicy" />
     <node concept="1N5Pfh" id="7jyS5urkN7M" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />
       <node concept="3dgokm" id="7jyS5urkNcB" role="1N6uqs">

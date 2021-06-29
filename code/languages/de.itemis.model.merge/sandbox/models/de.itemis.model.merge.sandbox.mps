@@ -339,10 +339,6 @@
         <ref role="3Ze0ni" to="14sb:1trrptaBsls" resolve="singleChild" />
         <node concept="3JN9zw" id="6oJ4I1iIUQO" role="3JN5mM" />
       </node>
-      <node concept="3JN5hs" id="6oJ4I1iIUKO" role="3JN1Yi">
-        <ref role="3Ze0ni" to="14sb:1trrptaBsmM" resolve="optChild" />
-        <node concept="3JN9zx" id="6oJ4I1iIUKV" role="3JN5mL" />
-      </node>
       <node concept="3JNno8" id="6oJ4I1iIUL4" role="3JN1Yi">
         <ref role="3Ze0ni" to="14sb:1trrptaBsmP" resolve="children" />
         <node concept="3Z5p37" id="6oJ4I1iIULy" role="3JNnoR">

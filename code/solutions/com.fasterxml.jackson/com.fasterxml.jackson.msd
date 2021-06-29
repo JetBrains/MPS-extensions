@@ -13,6 +13,11 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
+  <stubModelEntries>
+    <stubModelEntry path="${platform_lib}/jackson-annotations-2.10.3.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-core-2.10.3.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-databind-2.10.3.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

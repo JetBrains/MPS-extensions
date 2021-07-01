@@ -13716,8 +13716,8 @@
                     <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
                   </node>
                 </node>
-                <node concept="liA8E" id="3jGmESsGwhL" role="2OqNvi">
-                  <ref role="37wK5l" to="jks5:~IConcept.getProperties()" resolve="getProperties" />
+                <node concept="liA8E" id="54Ejw4NcFKi" role="2OqNvi">
+                  <ref role="37wK5l" to="jks5:~IConcept.getAllProperties()" resolve="getAllProperties" />
                 </node>
               </node>
               <node concept="3clFbS" id="3jGmESsGwhM" role="2LFqv$">
@@ -13805,8 +13805,8 @@
                     <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
                   </node>
                 </node>
-                <node concept="liA8E" id="3vsFnFUEi9Z" role="2OqNvi">
-                  <ref role="37wK5l" to="jks5:~IConcept.getReferenceLinks()" resolve="getReferenceLinks" />
+                <node concept="liA8E" id="54Ejw4NcG01" role="2OqNvi">
+                  <ref role="37wK5l" to="jks5:~IConcept.getAllReferenceLinks()" resolve="getAllReferenceLinks" />
                 </node>
               </node>
               <node concept="3clFbS" id="3vsFnFUEia0" role="2LFqv$">
@@ -14081,8 +14081,8 @@
                     <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
                   </node>
                 </node>
-                <node concept="liA8E" id="7kQU9sgtheG" role="2OqNvi">
-                  <ref role="37wK5l" to="jks5:~IConcept.getChildLinks()" resolve="getChildLinks" />
+                <node concept="liA8E" id="54Ejw4NcGsp" role="2OqNvi">
+                  <ref role="37wK5l" to="jks5:~IConcept.getAllChildLinks()" resolve="getAllChildLinks" />
                 </node>
               </node>
               <node concept="3clFbS" id="7kQU9sgtf3P" role="2LFqv$">

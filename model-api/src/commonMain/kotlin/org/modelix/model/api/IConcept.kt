@@ -30,9 +30,13 @@ interface IConcept {
     fun getDirectSuperConcepts(): List<IConcept>
     fun isExactly(concept: IConcept?): Boolean
 
-    val properties: List<IProperty>
-    val childLinks: List<IChildLink>
-    val referenceLinks: List<IReferenceLink>
+    fun getOwnProperties(): List<IProperty>
+    fun getOwnChildLinks(): List<IChildLink>
+    fun getOwnReferenceLinks(): List<IReferenceLink>
+
+    fun getAllProperties(): List<IProperty>
+    fun getAllChildLinks(): List<IChildLink>
+    fun getAllReferenceLinks(): List<IReferenceLink>
 
     fun getProperty(name: String): IProperty
     fun getChildLink(name: String): IChildLink

@@ -21,9 +21,9 @@ class SimpleConcept(
     directSuperConcepts: Iterable<IConcept>
 ) : IConcept {
     override var language: ILanguage? = null
-    override val properties: MutableList<SimpleProperty> = ArrayList()
-    override val childLinks: MutableList<IChildLink> = ArrayList()
-    override val referenceLinks: MutableList<IReferenceLink> = ArrayList()
+    val properties: MutableList<SimpleProperty> = ArrayList()
+    val childLinks: MutableList<IChildLink> = ArrayList()
+    val referenceLinks: MutableList<IReferenceLink> = ArrayList()
     private val superConcepts: List<IConcept> = directSuperConcepts.toList()
 
     constructor(name: String): this(name, false, listOf())
@@ -59,7 +59,7 @@ class SimpleConcept(
     }
 
     override fun getChildLink(name: String): IChildLink {
-        return childLinks.find { it.name == name } ?: throw RuntimeException("child link $conceptName.$name not found")
+        return getAllChildLinks().find { it.name == name } ?: throw RuntimeException("child link $conceptName.$name not found")
     }
 
     override fun getLongName(): String {
@@ -68,11 +68,11 @@ class SimpleConcept(
     }
 
     override fun getProperty(name: String): IProperty {
-        return properties.find { it.name == name } ?: throw RuntimeException("property $conceptName.$name not found")
+        return getAllProperties().find { it.name == name } ?: throw RuntimeException("property $conceptName.$name not found")
     }
 
     override fun getReferenceLink(name: String): IReferenceLink {
-        return referenceLinks.find { it.name == name } ?: throw RuntimeException("reference link $conceptName.$name not found")
+        return getAllReferenceLinks().find { it.name == name } ?: throw RuntimeException("reference link $conceptName.$name not found")
     }
 
     override fun getShortName() = conceptName
@@ -92,5 +92,29 @@ class SimpleConcept(
 
     override fun getDirectSuperConcepts(): List<IConcept> {
         return superConcepts
+    }
+
+    override fun getOwnProperties(): List<IProperty> {
+        return properties
+    }
+
+    override fun getOwnChildLinks(): List<IChildLink> {
+        return childLinks
+    }
+
+    override fun getOwnReferenceLinks(): List<IReferenceLink> {
+        return referenceLinks
+    }
+
+    override fun getAllProperties(): List<IProperty> {
+        return getAllConcepts().flatMap { it.getOwnProperties() }
+    }
+
+    override fun getAllChildLinks(): List<IChildLink> {
+        return getAllConcepts().flatMap { it.getOwnChildLinks() }
+    }
+
+    override fun getAllReferenceLinks(): List<IReferenceLink> {
+        return getAllConcepts().flatMap { it.getOwnReferenceLinks() }
     }
 }

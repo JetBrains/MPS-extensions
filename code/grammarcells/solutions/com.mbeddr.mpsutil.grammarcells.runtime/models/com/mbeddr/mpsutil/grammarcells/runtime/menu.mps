@@ -2991,14 +2991,11 @@
                     <node concept="3zACq4" id="39$RJBbGXVo" role="3cqZAp" />
                   </node>
                   <node concept="1Wc70l" id="39$RJBbGXVp" role="3clFbw">
-                    <node concept="3fqX7Q" id="39$RJBbGXVq" role="3uHU7w">
-                      <node concept="2ZW3vV" id="39$RJBbGXVr" role="3fr31v">
-                        <node concept="3uibUv" id="39$RJBbGXVs" role="2ZW6by">
-                          <ref role="3uigEE" to="4my4:~EditorCell_STHint" resolve="EditorCell_STHint" />
-                        </node>
-                        <node concept="37vLTw" id="39$RJBbGXVt" role="2ZW6bz">
-                          <ref role="3cqZAo" node="39$RJBbGXVi" resolve="firstLeaf" />
-                        </node>
+                    <node concept="2YIFZM" id="15DZatOBmhy" role="3uHU7w">
+                      <ref role="37wK5l" to="czm:15DZatOARrD" resolve="isSyntaxCell" />
+                      <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                      <node concept="37vLTw" id="15DZatOBofL" role="37wK5m">
+                        <ref role="3cqZAo" node="39$RJBbGXVi" resolve="firstLeaf" />
                       </node>
                     </node>
                     <node concept="3y3z36" id="39$RJBbGXVu" role="3uHU7B">
@@ -3109,14 +3106,11 @@
                       <node concept="3zACq4" id="39$RJBbGXW8" role="3cqZAp" />
                     </node>
                     <node concept="1Wc70l" id="39$RJBbGXW9" role="3clFbw">
-                      <node concept="3fqX7Q" id="39$RJBbGXWa" role="3uHU7w">
-                        <node concept="2ZW3vV" id="39$RJBbGXWb" role="3fr31v">
-                          <node concept="3uibUv" id="39$RJBbGXWc" role="2ZW6by">
-                            <ref role="3uigEE" to="4my4:~EditorCell_STHint" resolve="EditorCell_STHint" />
-                          </node>
-                          <node concept="37vLTw" id="39$RJBbGXWd" role="2ZW6bz">
-                            <ref role="3cqZAo" node="39$RJBbGXW2" resolve="lastLeaf" />
-                          </node>
+                      <node concept="2YIFZM" id="15DZatOBwCg" role="3uHU7w">
+                        <ref role="37wK5l" to="czm:15DZatOARrD" resolve="isSyntaxCell" />
+                        <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                        <node concept="37vLTw" id="15DZatOByLo" role="37wK5m">
+                          <ref role="3cqZAo" node="39$RJBbGXW2" resolve="lastLeaf" />
                         </node>
                       </node>
                       <node concept="3y3z36" id="39$RJBbGXWe" role="3uHU7B">
@@ -3611,7 +3605,7 @@
                     </node>
                     <node concept="3cpWs8" id="39$RJBbHDwe" role="3cqZAp">
                       <node concept="3cpWsn" id="39$RJBbHDwf" role="3cpWs9">
-                        <property role="TrG5h" value="ignoreSTHint" />
+                        <property role="TrG5h" value="isSyntaxCell" />
                         <node concept="1bVj0M" id="39$RJBbHDwg" role="33vP2m">
                           <node concept="37vLTG" id="39$RJBbHDwh" role="1bW2Oz">
                             <property role="TrG5h" value="c" />
@@ -3621,14 +3615,11 @@
                           </node>
                           <node concept="3clFbS" id="39$RJBbHDwj" role="1bW5cS">
                             <node concept="3clFbF" id="39$RJBbHDwk" role="3cqZAp">
-                              <node concept="3fqX7Q" id="39$RJBbHDwl" role="3clFbG">
-                                <node concept="2ZW3vV" id="39$RJBbHDwm" role="3fr31v">
-                                  <node concept="3uibUv" id="39$RJBbHDwn" role="2ZW6by">
-                                    <ref role="3uigEE" to="4my4:~EditorCell_STHint" resolve="EditorCell_STHint" />
-                                  </node>
-                                  <node concept="37vLTw" id="39$RJBbHDwo" role="2ZW6bz">
-                                    <ref role="3cqZAo" node="39$RJBbHDwh" resolve="c" />
-                                  </node>
+                              <node concept="2YIFZM" id="15DZatOBDPj" role="3clFbG">
+                                <ref role="37wK5l" to="czm:15DZatOARrD" resolve="isSyntaxCell" />
+                                <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
+                                <node concept="37vLTw" id="15DZatOBEP$" role="37wK5m">
+                                  <ref role="3cqZAo" node="39$RJBbHDwh" resolve="c" />
                                 </node>
                               </node>
                             </node>
@@ -3659,7 +3650,7 @@
                               <ref role="3cqZAo" node="6rGQ0fkJjZO" resolve="anchorCell" />
                             </node>
                             <node concept="37vLTw" id="39$RJBbHDwp" role="37wK5m">
-                              <ref role="3cqZAo" node="39$RJBbHDwf" resolve="ignoreSTHint" />
+                              <ref role="3cqZAo" node="39$RJBbHDwf" resolve="isSyntaxCell" />
                             </node>
                           </node>
                           <node concept="2YIFZM" id="39$RJBbHFqt" role="3K4GZi">
@@ -3669,7 +3660,7 @@
                               <ref role="3cqZAo" node="6rGQ0fkJjZO" resolve="anchorCell" />
                             </node>
                             <node concept="37vLTw" id="39$RJBbHFqv" role="37wK5m">
-                              <ref role="3cqZAo" node="39$RJBbHDwf" resolve="ignoreSTHint" />
+                              <ref role="3cqZAo" node="39$RJBbHDwf" resolve="isSyntaxCell" />
                             </node>
                           </node>
                         </node>

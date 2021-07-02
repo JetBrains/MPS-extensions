@@ -373,6 +373,7 @@
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
+        <child id="1237731803878" name="copyFrom" index="I$8f6" />
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
@@ -7879,6 +7880,90 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4_SQzDOjljL" role="jymVt" />
+    <node concept="3clFb_" id="24uT$44O$ng" role="jymVt">
+      <property role="TrG5h" value="getPropertyRoles" />
+      <node concept="3Tm1VV" id="24uT$44O$nh" role="1B3o_S" />
+      <node concept="2AHcQZ" id="24uT$44O$nj" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="24uT$44O$nk" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="17QB3L" id="24uT$44OSh4" role="11_B2D" />
+      </node>
+      <node concept="3clFbS" id="24uT$44O$nm" role="3clF47">
+        <node concept="3clFbF" id="24uT$44OU1w" role="3cqZAp">
+          <node concept="2ShNRf" id="24uT$44OU1s" role="3clFbG">
+            <node concept="Tc6Ow" id="24uT$44OUnX" role="2ShVmc">
+              <node concept="3uibUv" id="24uT$44OW7L" role="HW$YZ">
+                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+              </node>
+              <node concept="2OqwBi" id="24uT$44OVgM" role="I$8f6">
+                <node concept="2OqwBi" id="24uT$44OVgN" role="2Oq$k0">
+                  <node concept="37vLTw" id="24uT$44OVgO" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
+                  </node>
+                  <node concept="liA8E" id="24uT$44OVgP" role="2OqNvi">
+                    <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="24uT$44OVgQ" role="2OqNvi">
+                  <ref role="37wK5l" to="jks5:~ITransaction.getPropertyRoles(long)" resolve="getPropertyRoles" />
+                  <node concept="37vLTw" id="24uT$44OVgR" role="37wK5m">
+                    <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="24uT$44O$nn" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="24uT$44O$nq" role="jymVt">
+      <property role="TrG5h" value="getReferenceRoles" />
+      <node concept="3Tm1VV" id="24uT$44O$nr" role="1B3o_S" />
+      <node concept="2AHcQZ" id="24uT$44O$nt" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="24uT$44O$nu" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="24uT$44O$nv" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="24uT$44O$nw" role="3clF47">
+        <node concept="3clFbF" id="24uT$44OXBH" role="3cqZAp">
+          <node concept="2ShNRf" id="24uT$44OXBI" role="3clFbG">
+            <node concept="Tc6Ow" id="24uT$44OXBJ" role="2ShVmc">
+              <node concept="3uibUv" id="24uT$44OXBK" role="HW$YZ">
+                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+              </node>
+              <node concept="2OqwBi" id="24uT$44OXBL" role="I$8f6">
+                <node concept="2OqwBi" id="24uT$44OXBM" role="2Oq$k0">
+                  <node concept="37vLTw" id="24uT$44OXBN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
+                  </node>
+                  <node concept="liA8E" id="24uT$44OXBO" role="2OqNvi">
+                    <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="24uT$44OXBP" role="2OqNvi">
+                  <ref role="37wK5l" to="jks5:~ITransaction.getReferenceRoles(long)" resolve="getReferenceRoles" />
+                  <node concept="37vLTw" id="24uT$44OXBQ" role="37wK5m">
+                    <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="24uT$44O$nx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="4_SQzDOjmvK" role="jymVt">
       <property role="TrG5h" value="equals" />
       <node concept="10P_77" id="4_SQzDOjmvL" role="3clF45" />

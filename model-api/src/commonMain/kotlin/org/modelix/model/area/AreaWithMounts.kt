@@ -203,6 +203,14 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
             node.setPropertyValue(role, value)
         }
 
+        override fun getPropertyRoles(): List<String> {
+            return node.getPropertyRoles()
+        }
+
+        override fun getReferenceRoles(): List<String> {
+            return node.getReferenceRoles()
+        }
+
         override fun equals(other: Any?): Boolean {
             if (this === other) return true
             if (other == null || this::class != other::class) return false

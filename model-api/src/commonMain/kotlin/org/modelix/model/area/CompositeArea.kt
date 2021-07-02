@@ -170,6 +170,10 @@ class CompositeArea : IArea {
             throw UnsupportedOperationException("read only")
         }
 
+        override fun getPropertyRoles(): List<String> = listOf()
+
+        override fun getReferenceRoles(): List<String> = listOf()
+
         override fun equals(other: Any?): Boolean {
             if (this === other) return true
             if (other == null || this::class != other::class) return false
@@ -239,6 +243,14 @@ class CompositeArea : IArea {
 
         override fun setPropertyValue(role: String, value: String?) {
             node.setPropertyValue(role, value)
+        }
+
+        override fun getPropertyRoles(): List<String> {
+            return node.getPropertyRoles()
+        }
+
+        override fun getReferenceRoles(): List<String> {
+            return node.getReferenceRoles()
         }
 
         override fun equals(other: Any?): Boolean {

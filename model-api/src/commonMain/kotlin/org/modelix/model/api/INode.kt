@@ -33,4 +33,6 @@ interface INode {
     fun setReferenceTarget(role: String, target: INode?)
     fun getPropertyValue(role: String): String?
     fun setPropertyValue(role: String, value: String?)
+    fun getPropertyRoles(): List<String>
+    fun getReferenceRoles(): List<String>
 }

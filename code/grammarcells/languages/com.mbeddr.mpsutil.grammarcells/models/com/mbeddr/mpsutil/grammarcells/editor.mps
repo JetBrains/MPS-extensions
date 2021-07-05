@@ -44,6 +44,7 @@
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="1235728439575" name="jetbrains.mps.lang.editor.structure.BaseLineCell" flags="ln" index="2R9Tw8" />
+      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
         <child id="1186403803051" name="query" index="VblUZ" />
@@ -2284,6 +2285,16 @@
   <node concept="22mcaB" id="2cvVnUuAoxX">
     <ref role="aqKnT" to="teg0:1Ia5rYltZv0" resolve="StubFlagCell" />
     <node concept="22hDWj" id="7q24335a1C9" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="2cruuiKBFAr">
+    <ref role="1XX52x" to="teg0:2cruuiKBFtg" resolve="DisableComponentInline" />
+    <node concept="3EZMnI" id="2cruuiKBFCs" role="2wV5jI">
+      <node concept="3F0ifn" id="2cruuiKBFCD" role="3EZMnx">
+        <property role="3F0ifm" value="✓" />
+      </node>
+      <node concept="2SsqMj" id="2cruuiKBFCz" role="3EZMnx" />
+      <node concept="2iRfu4" id="2cruuiKBFCv" role="2iSdaV" />
+    </node>
   </node>
 </model>
 

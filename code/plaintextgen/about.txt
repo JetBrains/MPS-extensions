@@ -1,0 +1,1 @@
+This plugin doesn't use any additional software. No license information necessary.

@@ -36,6 +36,9 @@
     </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
       <concept id="5481553824944787378" name="jetbrains.mps.build.structure.BuildSourceProjectRelativePath" flags="ng" index="55IIr" />
+      <concept id="9126048691955220717" name="jetbrains.mps.build.structure.BuildLayout_File" flags="ng" index="28jJK3">
+        <child id="9126048691955220762" name="path" index="28jJRO" />
+      </concept>
       <concept id="2755237150521975431" name="jetbrains.mps.build.structure.BuildVariableMacroInitWithString" flags="ng" index="aVJcg">
         <child id="2755237150521975437" name="value" index="aVJcq" />
       </concept>
@@ -8024,7 +8027,6 @@
       <node concept="1E1JtD" id="2NTGYE$JTGY" role="2G$12L">
         <property role="TrG5h" value="com.dslfoundry.plaintextgen" />
         <property role="3LESm3" value="990507d3-3527-4c54-bfe9-0ca3c9c6247a" />
-        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="34s2qA2cqLa" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="34s2qA2cr3Q" role="iGT6I">
@@ -13989,6 +13991,17 @@
       <node concept="m$_wl" id="2NTGYE$JTHj" role="39821P">
         <ref role="m_rDy" node="2NTGYE$JTH6" resolve="com.dslfoundry.plaintextgen" />
         <node concept="pUk6x" id="3D0nl1ssJJX" role="pUk7w" />
+        <node concept="28jJK3" id="4urgmAnJGvp" role="39821P">
+          <node concept="398BVA" id="4urgmAnJG_N" role="28jJRO">
+            <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+            <node concept="2Ry0Ak" id="4urgmAnJGGc" role="iGT6I">
+              <property role="2Ry0Am" value="plaintextgen" />
+              <node concept="2Ry0Ak" id="4urgmAnJGGh" role="2Ry0An">
+                <property role="2Ry0Am" value="about.txt" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="m$_wl" id="1RCZH7X6nCV" role="39821P">
         <ref role="m_rDy" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />

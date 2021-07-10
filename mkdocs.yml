@@ -14,6 +14,7 @@ nav:
 - Building: building.md
 - Contributing: contributing.md
 - Migrating: Migrating.md
+- Adding: adding.md
 - Extensions:
   - Diagrams: extensions/diagrams.md
   - Node Versioning: extensions/node-versioning.md

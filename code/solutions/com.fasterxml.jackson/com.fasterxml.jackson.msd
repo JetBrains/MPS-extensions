@@ -14,9 +14,9 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="/Applications/MPS2020.3.app/Contents/lib/jackson-annotations-2.11.0.jar" />
-    <stubModelEntry path="/Applications/MPS2020.3.app/Contents/lib/jackson-core-2.11.0.jar" />
-    <stubModelEntry path="/Applications/MPS2020.3.app/Contents/lib/jackson-databind-2.11.0.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-core-2.11.0.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-databind-2.11.0.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-annotations-2.11.0.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

@@ -63,7 +63,6 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.testlang/runtime/de.itemis.model.merge.testlang.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.testlang/sandbox/de.itemis.model.merge.testlang.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/de.itemis.model.merge.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/runtime/de.itemis.model.merge.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/sandbox/de.itemis.model.merge.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />

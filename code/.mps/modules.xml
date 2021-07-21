@@ -57,14 +57,14 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions/com.mbeddr.mpsutil.intentions.mpl" folder="intentionsmenu" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.diamond/de.itemis.model.merge.diamond.mpl" folder="modelmerge2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.diamond/sandbox/de.itemis.model.merge.diamond.sandbox.msd" folder="modelmerge2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.testlang/de.itemis.model.merge.testlang.mpl" folder="modelmerge2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.testlang/runtime/de.itemis.model.merge.testlang.runtime.msd" folder="modelmerge2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.testlang/sandbox/de.itemis.model.merge.testlang.sandbox.msd" folder="modelmerge2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/de.itemis.model.merge.mpl" folder="modelmerge2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/runtime/de.itemis.model.merge.runtime.msd" folder="modelmerge2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/sandbox/de.itemis.model.merge.sandbox.msd" folder="modelmerge2" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.diamond/de.itemis.model.merge.diamond.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.diamond/sandbox/de.itemis.model.merge.diamond.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.testlang/de.itemis.model.merge.testlang.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.testlang/runtime/de.itemis.model.merge.testlang.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.testlang/sandbox/de.itemis.model.merge.testlang.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/de.itemis.model.merge.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/runtime/de.itemis.model.merge.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/sandbox/de.itemis.model.merge.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />
@@ -85,11 +85,6 @@
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandbox/com.mbeddr.mpsutil.modellisteners.sandbox.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandboxlang/com.mbeddr.mpsutil.modellisteners.sandboxlang.mpl" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners/com.mbeddr.mpsutil.modellisteners.mpl" folder="modellisteners" />
-      <modulePath path="$PROJECT_DIR$/modelmerger/de.itemis.mps.modelmerger.runtime/de.itemis.mps.modelmerger.runtime.msd" folder="modelmerger" />
-      <modulePath path="$PROJECT_DIR$/modelmerger/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
-      <modulePath path="$PROJECT_DIR$/modelmerger/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
-      <modulePath path="$PROJECT_DIR$/modelmerger/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />
-      <modulePath path="$PROJECT_DIR$/modelmerger/tests.de.itemis.mps.modelmerger/tests.de.itemis.mps.modelmerger.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/mouseselection/languages/de.itemis.mps.selection.intentions/de.itemis.mps.selection.intentions.mpl" folder="mouseselection" />
       <modulePath path="$PROJECT_DIR$/mouseselection/solutions/de.itemis.mps.selection.runtime/de.itemis.mps.selection.runtime.msd" folder="mouseselection" />
       <modulePath path="$PROJECT_DIR$/multiline/languages/demolang/demolang.mpl" folder="multiline" />
@@ -162,7 +157,8 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerge2" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge2.runtime/de.itemis.model.merge2.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.sandbox/de.slisson.mps.structurecheck.sandbox.msd" folder="structurecheck" />

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c0637fc7-524c-4f3f-b5f1-10e8cb4b458e(de.itemis.model.merge2.runtime.plugin)">
+<model ref="r:9da6e3a3-f524-41e6-abf2-026dd9739df1(de.itemis.model.merge.plugin2)">
   <persistence version="9" />
   <languages>
-    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
+    <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
-    <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
+    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
+    <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
+    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
   </languages>
   <imports>
     <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" />
@@ -29,6 +31,15 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
     </language>
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
+        <property id="1863527487546097494" name="modelId" index="1XweGQ" />
+        <child id="679099339649067980" name="name" index="1j$8Uc" />
+      </concept>
+      <concept id="679099339649053840" name="jetbrains.mps.lang.modelapi.structure.ModelName" flags="ng" index="1j_P7g">
+        <property id="679099339649053841" name="value" index="1j_P7h" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
         <child id="3542851458883491298" name="languageId" index="2V$M_3" />
@@ -40,6 +51,9 @@
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
+      <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
+        <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -49,6 +63,11 @@
     <language id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge">
       <concept id="7137735640371846599" name="de.itemis.model.merge.structure.IdFunction" flags="ig" index="230_S" />
       <concept id="7137735640371849272" name="de.itemis.model.merge.structure.IdFunctionParam" flags="ng" index="233M7" />
+      <concept id="6402745832171993510" name="de.itemis.model.merge.structure.ModelMergeExecution" flags="ng" index="poArf">
+        <reference id="6402745832172080681" name="modelMerge" index="pot50" />
+        <child id="6402745832172399733" name="right" index="ppbcs" />
+        <child id="6402745832172287192" name="left" index="ppIIL" />
+      </concept>
       <concept id="7555554651740524246" name="de.itemis.model.merge.structure.Right" flags="ng" index="3iOvoU" />
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.MergePolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
@@ -94,7 +113,7 @@
     </language>
   </registry>
   <node concept="1olOeT" id="7TOowlgsb4L">
-    <property role="TrG5h" value="DiamondMerge22222" />
+    <property role="TrG5h" value="DiamondMerge" />
     <node concept="1oluLK" id="7TOowlgE0K3" role="1olsr8" />
     <node concept="1oluLK" id="7TOowlgsb4W" role="1olsr8" />
     <node concept="1olsrb" id="7TOowlgtp9c" role="1olsr8">
@@ -259,6 +278,26 @@
               <property role="Xl_RC" value="obob" />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="poArf" id="5zr7Q_1JUL5">
+    <property role="TrG5h" value="Merger1" />
+    <ref role="pot50" node="7TOowlgsb4L" resolve="DiamondMerge" />
+    <node concept="1Xw6AR" id="5zr7Q_1JUL6" role="ppIIL">
+      <node concept="1dCxOl" id="5zr7Q_1JULb" role="1XwpL7">
+        <property role="1XweGQ" value="r:503c645f-1f67-4008-abd0-6dd165d56b07" />
+        <node concept="1j_P7g" id="5zr7Q_1JULc" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="5zr7Q_1Khnq" role="ppbcs">
+      <node concept="1dCxOl" id="5zr7Q_1L8AN" role="1XwpL7">
+        <property role="1XweGQ" value="r:80828f3e-dcbd-4313-bbaf-790066449547" />
+        <node concept="1j_P7g" id="5zr7Q_1L8AO" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox2" />
         </node>
       </node>
     </node>

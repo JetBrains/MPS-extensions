@@ -7328,11 +7328,6 @@
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5zr7Q_1BCpg" role="3bR37C">
-          <node concept="3bR9La" id="5zr7Q_1BCph" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="5zr7Q_1BCpi" role="3bR37C">
           <node concept="3bR9La" id="5zr7Q_1BCpj" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
@@ -7423,14 +7418,19 @@
               </node>
             </node>
           </node>
+          <node concept="1SiIV0" id="1GS$5Jo42M2" role="3bR37C">
+            <node concept="3bR9La" id="1GS$5Jo42M3" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="1GS$5Jo4epa" role="3bR37C">
+            <node concept="3bR9La" id="1GS$5Jo4epb" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="5zr7Q_1BGln" role="1E1XAP">
           <ref role="1E0d5P" node="5zr7Q_1BD5a" resolve="de.itemis.model.merge.runtime" />
-        </node>
-        <node concept="1SiIV0" id="5zr7Q_1L4bL" role="3bR37C">
-          <node concept="3bR9La" id="5zr7Q_1L4bM" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:6ifcnI8$2iU" resolve="jetbrains.mps.ide.vcs.modelmetadata" />
-          </node>
         </node>
         <node concept="1SiIV0" id="5zr7Q_1L4bN" role="3bR37C">
           <node concept="3bR9La" id="5zr7Q_1L4bO" role="1SiIV1">
@@ -7440,11 +7440,6 @@
         <node concept="1SiIV0" id="5zr7Q_1LCpS" role="3bR37C">
           <node concept="3bR9La" id="5zr7Q_1LCpT" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:4SM2EuqHUPF" resolve="jetbrains.mps.lang.modelapi" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7TOowlgE12k" role="3bR37C">
-          <node concept="3bR9La" id="7TOowlgE12l" role="1SiIV1">
-            <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
           </node>
         </node>
       </node>
@@ -11167,7 +11162,7 @@
         <node concept="3LEDTy" id="7q24334ZzZk" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
         </node>
-        <node concept="3LEDTy" id="7TOowlgE1aH" role="3LEDUa">
+        <node concept="3LEDTy" id="1GS$5Jo4exq" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
@@ -11397,11 +11392,11 @@
         <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
         </node>
-        <node concept="3LEDTy" id="7TOowlgE1bh" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
-        </node>
-        <node concept="3LEDTy" id="7TOowlgE1bi" role="3LEDUa">
+        <node concept="3LEDTy" id="1GS$5Jo4exY" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+        </node>
+        <node concept="3LEDTy" id="1GS$5Jo4exZ" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
     </node>

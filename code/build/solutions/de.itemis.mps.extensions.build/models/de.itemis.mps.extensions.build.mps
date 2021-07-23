@@ -15606,6 +15606,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.model.merge.test" />
         <property role="3LESm3" value="cb29f2d3-8375-4a4d-bc96-278c6b7ca172" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="5RxOLvLcQJ$" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5RxOLvLcQJE" role="iGT6I">
@@ -19128,6 +19129,12 @@
       <node concept="L2wRC" id="7XTah2ufVqi" role="39821P">
         <ref role="L2wRA" node="7XTah2ufTo1" resolve="de.itemis.mps.nodeversioning.test" />
       </node>
+      <node concept="L2wRC" id="4c23MZqTKA2" role="39821P">
+        <ref role="L2wRA" node="5RxOLvLcPNg" resolve="de.itemis.model.merge.diamond" />
+      </node>
+      <node concept="L2wRC" id="4c23MZqXAyP" role="39821P">
+        <ref role="L2wRA" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
+      </node>
       <node concept="L2wRC" id="GuygFg7BTJ" role="39821P">
         <ref role="L2wRA" node="GuygFg7$fI" resolve="tests.de.itemis.mps.modelmerger" />
       </node>
@@ -19193,6 +19200,9 @@
       </node>
       <node concept="22LTRM" id="GuygFg7CGG" role="22LTRK">
         <ref role="22LTRN" node="GuygFg7$fI" resolve="tests.de.itemis.mps.modelmerger" />
+      </node>
+      <node concept="22LTRM" id="4c23MZr1sVL" role="22LTRK">
+        <ref role="22LTRN" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
       </node>
       <node concept="22LTRM" id="1VujIMZIYK" role="22LTRK">
         <ref role="22LTRN" node="2NyZxKpX7We" resolve="test.com.mbeddr.mpsutil.blutil.genutil" />

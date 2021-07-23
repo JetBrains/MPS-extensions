@@ -19168,6 +19168,9 @@
       <node concept="L2wRC" id="3$$s$wOI_mD" role="39821P">
         <ref role="L2wRA" node="3$$s$wOI_E$" resolve="de.itemis.mps.editor.collapsible.testlang" />
       </node>
+      <node concept="L2wRC" id="5RxOLvLcRdo" role="39821P">
+        <ref role="L2wRA" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -19216,6 +19219,9 @@
       </node>
       <node concept="22LTRM" id="7qGGLAjNnMO" role="22LTRK">
         <ref role="22LTRN" node="7qGGLAjNnEU" resolve="test.de.q60.mps.incremental.runtime" />
+      </node>
+      <node concept="22LTRM" id="5RxOLvLcRd7" role="22LTRK">
+        <ref role="22LTRN" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
       </node>
     </node>
   </node>

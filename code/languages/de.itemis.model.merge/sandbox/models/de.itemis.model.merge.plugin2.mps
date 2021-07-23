@@ -112,6 +112,26 @@
       </concept>
     </language>
   </registry>
+  <node concept="poArf" id="5zr7Q_1JUL5">
+    <property role="TrG5h" value="Merger1" />
+    <ref role="pot50" node="7TOowlgsb4L" resolve="DiamondMerge" />
+    <node concept="1Xw6AR" id="5zr7Q_1JUL6" role="ppIIL">
+      <node concept="1dCxOl" id="5zr7Q_1JULb" role="1XwpL7">
+        <property role="1XweGQ" value="r:503c645f-1f67-4008-abd0-6dd165d56b07" />
+        <node concept="1j_P7g" id="5zr7Q_1JULc" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="5zr7Q_1Khnq" role="ppbcs">
+      <node concept="1dCxOl" id="5zr7Q_1L8AN" role="1XwpL7">
+        <property role="1XweGQ" value="r:80828f3e-dcbd-4313-bbaf-790066449547" />
+        <node concept="1j_P7g" id="5zr7Q_1L8AO" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox2" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="1olOeT" id="7TOowlgsb4L">
     <property role="TrG5h" value="DiamondMerge" />
     <node concept="1oluLK" id="7TOowlgE0K3" role="1olsr8" />
@@ -278,26 +298,6 @@
               <property role="Xl_RC" value="obob" />
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="poArf" id="5zr7Q_1JUL5">
-    <property role="TrG5h" value="Merger1" />
-    <ref role="pot50" node="7TOowlgsb4L" resolve="DiamondMerge" />
-    <node concept="1Xw6AR" id="5zr7Q_1JUL6" role="ppIIL">
-      <node concept="1dCxOl" id="5zr7Q_1JULb" role="1XwpL7">
-        <property role="1XweGQ" value="r:503c645f-1f67-4008-abd0-6dd165d56b07" />
-        <node concept="1j_P7g" id="5zr7Q_1JULc" role="1j$8Uc">
-          <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox" />
-        </node>
-      </node>
-    </node>
-    <node concept="1Xw6AR" id="5zr7Q_1Khnq" role="ppbcs">
-      <node concept="1dCxOl" id="5zr7Q_1L8AN" role="1XwpL7">
-        <property role="1XweGQ" value="r:80828f3e-dcbd-4313-bbaf-790066449547" />
-        <node concept="1j_P7g" id="5zr7Q_1L8AO" role="1j$8Uc">
-          <property role="1j_P7h" value="de.itemis.model.merge.test.sandbox2" />
         </node>
       </node>
     </node>

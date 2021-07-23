@@ -247,15 +247,6 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
-    <language id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension">
-      <concept id="6626851894249711936" name="jetbrains.mps.lang.extension.structure.ExtensionPointExpression" flags="nn" index="2O5UvJ">
-        <reference id="6626851894249712469" name="extensionPoint" index="2O5UnU" />
-      </concept>
-      <concept id="3175313036448560967" name="jetbrains.mps.lang.extension.structure.GetExtensionObjectsOperation" flags="nn" index="SfwO_" />
-      <concept id="3175313036448544056" name="jetbrains.mps.lang.extension.structure.ExtensionPointType" flags="in" index="Sf$Xq">
-        <reference id="3175313036448544057" name="extensionPoint" index="Sf$Xr" />
-      </concept>
-    </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
         <child id="1199542457201" name="resultType" index="1ajl9A" />
@@ -426,7 +417,6 @@
         <child id="1197687026896" name="keyType" index="3rHrn6" />
         <child id="1197687035757" name="valueType" index="3rHtpV" />
       </concept>
-      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
@@ -702,48 +692,6 @@
             <ref role="37wK5l" node="2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
             <ref role="1Pybhc" node="18W7Z4VeRuj" resolve="ConceptGraphTraversal" />
             <node concept="13iPFW" id="2QNuyuiM$UG" role="37wK5m" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="13i0hz" id="4XEJy9Pmn8M" role="13h7CS">
-      <property role="TrG5h" value="ext" />
-      <node concept="3Tm1VV" id="4XEJy9Pmn8N" role="1B3o_S" />
-      <node concept="3uibUv" id="4XEJy9PmosV" role="3clF45">
-        <ref role="3uigEE" to="gunp:5lvG0vITZNK" resolve="ConceptMergeSpec" />
-      </node>
-      <node concept="3clFbS" id="4XEJy9Pmn8P" role="3clF47">
-        <node concept="3cpWs8" id="5BXbi3$JyZs" role="3cqZAp">
-          <node concept="3cpWsn" id="5BXbi3$JyZt" role="3cpWs9">
-            <property role="TrG5h" value="ext" />
-            <node concept="Sf$Xq" id="5BXbi3$JyZf" role="1tU5fm">
-              <ref role="Sf$Xr" to="eywy:5BXbi3$BDZw" resolve="ModelMergeExt" />
-            </node>
-            <node concept="2O5UvJ" id="5BXbi3$JyZu" role="33vP2m">
-              <ref role="2O5UnU" to="eywy:5BXbi3$BDZw" resolve="ModelMergeExt" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4XEJy9PmorO" role="3cqZAp">
-          <node concept="3cpWsn" id="4XEJy9PmorP" role="3cpWs9">
-            <property role="TrG5h" value="spec" />
-            <node concept="3uibUv" id="4XEJy9PmorE" role="1tU5fm">
-              <ref role="3uigEE" to="gunp:5lvG0vITZNK" resolve="ConceptMergeSpec" />
-            </node>
-            <node concept="2OqwBi" id="4XEJy9PmorQ" role="33vP2m">
-              <node concept="2OqwBi" id="4XEJy9PmorR" role="2Oq$k0">
-                <node concept="37vLTw" id="4XEJy9PmorS" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5BXbi3$JyZt" resolve="ext" />
-                </node>
-                <node concept="SfwO_" id="4XEJy9PmorT" role="2OqNvi" />
-              </node>
-              <node concept="1uHKPH" id="4XEJy9PmorU" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4XEJy9PmnDP" role="3cqZAp">
-          <node concept="37vLTw" id="4XEJy9PmorV" role="3clFbG">
-            <ref role="3cqZAo" node="4XEJy9PmorP" resolve="spec" />
           </node>
         </node>
       </node>

@@ -18191,6 +18191,12 @@
       <node concept="L2wRC" id="7XTah2ufVqi" role="39821P">
         <ref role="L2wRA" node="7XTah2ufTo1" resolve="de.itemis.mps.nodeversioning.test" />
       </node>
+      <node concept="L2wRC" id="4c23MZqTKA2" role="39821P">
+        <ref role="L2wRA" node="5RxOLvLcPNg" resolve="de.itemis.model.merge.diamond" />
+      </node>
+      <node concept="L2wRC" id="4c23MZqXAyP" role="39821P">
+        <ref role="L2wRA" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
+      </node>
       <node concept="L2wRC" id="GuygFg7BTJ" role="39821P">
         <ref role="L2wRA" node="GuygFg7$fI" resolve="tests.de.itemis.mps.modelmerger" />
       </node>
@@ -18262,6 +18268,9 @@
       </node>
       <node concept="22LTRM" id="GuygFg7CGG" role="22LTRK">
         <ref role="22LTRN" node="GuygFg7$fI" resolve="tests.de.itemis.mps.modelmerger" />
+      </node>
+      <node concept="22LTRM" id="4c23MZr1sVL" role="22LTRK">
+        <ref role="22LTRN" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
       </node>
       <node concept="22LTRM" id="1VujIMZIYK" role="22LTRK">
         <ref role="22LTRN" node="2NyZxKpX7We" resolve="test.com.mbeddr.mpsutil.blutil.genutil" />

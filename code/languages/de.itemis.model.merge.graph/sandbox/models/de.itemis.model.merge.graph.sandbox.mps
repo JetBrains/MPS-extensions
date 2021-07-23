@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:503c645f-1f67-4008-abd0-6dd165d56b07(de.itemis.model.merge.testlang.sandbox)">
+<model ref="r:503c645f-1f67-4008-abd0-6dd165d56b07(de.itemis.model.merge.graph.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.test" version="0" />
+    <use id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.testlang" version="0" />
   </languages>
   <imports />
   <registry>
-    <language id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.test">
-      <concept id="6402745832174203667" name="de.itemis.model.merge.test.structure.EdgeLike" flags="ng" index="p02LU">
+    <language id="f04d029d-250e-4e43-8c30-28763b47bc55" name="de.itemis.model.merge.testlang">
+      <concept id="6402745832174203667" name="de.itemis.model.merge.testlang.structure.EdgeLike" flags="ng" index="p02LU">
         <property id="8422540920006576449" name="weight" index="3JNu$m" />
       </concept>
-      <concept id="6402745832174182222" name="de.itemis.model.merge.test.structure.CostEdge" flags="ng" index="p0s0B">
+      <concept id="6402745832174182222" name="de.itemis.model.merge.testlang.structure.CostEdge" flags="ng" index="p0s0B">
         <property id="6402745832174182242" name="cost" index="p0s0b" />
       </concept>
-      <concept id="6402745832174515576" name="de.itemis.model.merge.test.structure.AbstractEdge" flags="ng" index="p1eCh">
+      <concept id="6402745832174515576" name="de.itemis.model.merge.testlang.structure.AbstractEdge" flags="ng" index="p1eCh">
         <child id="6402745832174515577" name="label" index="p1eCg" />
       </concept>
-      <concept id="1912777765298352059" name="de.itemis.model.merge.test.structure.EmptyStatement" flags="ng" index="1ol2a5" />
-      <concept id="1912777765298352055" name="de.itemis.model.merge.test.structure.GraphStatements" flags="ng" index="1ol2a9">
+      <concept id="1912777765298352059" name="de.itemis.model.merge.testlang.structure.EmptyStatement" flags="ng" index="1ol2a5" />
+      <concept id="1912777765298352055" name="de.itemis.model.merge.testlang.structure.GraphStatements" flags="ng" index="1ol2a9">
         <child id="1912777765298352057" name="statements" index="1ol2a7" />
       </concept>
-      <concept id="1912777765298356389" name="de.itemis.model.merge.test.structure.Graph" flags="ng" index="1ol4Qr">
+      <concept id="1912777765298356389" name="de.itemis.model.merge.testlang.structure.Graph" flags="ng" index="1ol4Qr">
         <child id="8422540920006487949" name="edges" index="3JNOZq" />
       </concept>
-      <concept id="1912777765298360604" name="de.itemis.model.merge.test.structure.Vertex" flags="ng" index="1ol5Ky">
+      <concept id="1912777765298360604" name="de.itemis.model.merge.testlang.structure.Vertex" flags="ng" index="1ol5Ky">
         <child id="8422540920006487973" name="label" index="3JNOZM" />
       </concept>
-      <concept id="8422540920006487881" name="de.itemis.model.merge.test.structure.Edge" flags="ng" index="3JNOWu">
+      <concept id="8422540920006487881" name="de.itemis.model.merge.testlang.structure.Edge" flags="ng" index="3JNOWu">
         <child id="8422540920006487884" name="target" index="3JNOWr" />
         <child id="8422540920006487882" name="source" index="3JNOWt" />
       </concept>
-      <concept id="8422540920006487970" name="de.itemis.model.merge.test.structure.Label" flags="ng" index="3JNOZP">
+      <concept id="8422540920006487970" name="de.itemis.model.merge.testlang.structure.Label" flags="ng" index="3JNOZP">
         <property id="8422540920006487971" name="tag" index="3JNOZO" />
       </concept>
-      <concept id="8422540920006487979" name="de.itemis.model.merge.test.structure.PathElement" flags="ng" index="3JNOZW">
+      <concept id="8422540920006487979" name="de.itemis.model.merge.testlang.structure.PathElement" flags="ng" index="3JNOZW">
         <child id="6402745832171706224" name="next" index="prwwp" />
         <child id="8422540920006487980" name="edgeRef" index="3JNOZV" />
       </concept>

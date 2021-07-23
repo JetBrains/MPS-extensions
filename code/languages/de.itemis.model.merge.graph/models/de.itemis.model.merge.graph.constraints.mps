@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:29c7f088-5a12-40c6-8a3a-6db96911a1af(de.itemis.model.merge.testlang.constraints)">
+<model ref="r:29c7f088-5a12-40c6-8a3a-6db96911a1af(de.itemis.model.merge.graph.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

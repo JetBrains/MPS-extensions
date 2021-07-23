@@ -5,7 +5,6 @@
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
-    <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -132,14 +131,23 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -594,11 +602,11 @@
         <node concept="3Tqbb2" id="5lvG0vIUb$Q" role="_ZDj9" />
       </node>
       <node concept="37vLTG" id="5lvG0vIUb$R" role="3clF46">
-        <property role="TrG5h" value="left" />
+        <property role="TrG5h" value="leftParent" />
         <node concept="3Tqbb2" id="5lvG0vIUb$S" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5lvG0vIUb$T" role="3clF46">
-        <property role="TrG5h" value="right" />
+        <property role="TrG5h" value="rightParent" />
         <node concept="3Tqbb2" id="5lvG0vIUb$U" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5lvG0vIUb$V" role="3clF46">
@@ -606,29 +614,45 @@
         <node concept="3Tqbb2" id="5lvG0vIUb$W" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="5lvG0vIUb$Y" role="3clF47">
-        <node concept="3clFbF" id="5lvG0vIUbGz" role="3cqZAp">
-          <node concept="2OqwBi" id="5lvG0vIUeYv" role="3clFbG">
-            <node concept="1eOMI4" id="5lvG0vIUe$C" role="2Oq$k0">
-              <node concept="10QFUN" id="5lvG0vIUe$B" role="1eOMHV">
-                <node concept="2OqwBi" id="5lvG0vIUe$y" role="10QFUP">
-                  <node concept="liA8E" id="5lvG0vIUe$z" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getChildren(org.jetbrains.mps.openapi.language.SContainmentLink)" resolve="getChildren" />
-                    <node concept="1rXfSq" id="5lvG0vIUe$$" role="37wK5m">
-                      <ref role="37wK5l" node="5lvG0vIUb60" resolve="link" />
+        <node concept="1X3_iC" id="4c23MZrd5HY" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="5lvG0vIUbGz" role="8Wnug">
+            <node concept="2OqwBi" id="5lvG0vIUeYv" role="3clFbG">
+              <node concept="1eOMI4" id="5lvG0vIUe$C" role="2Oq$k0">
+                <node concept="10QFUN" id="5lvG0vIUe$B" role="1eOMHV">
+                  <node concept="2OqwBi" id="5lvG0vIUe$y" role="10QFUP">
+                    <node concept="liA8E" id="5lvG0vIUe$z" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNode.getChildren(org.jetbrains.mps.openapi.language.SContainmentLink)" resolve="getChildren" />
+                      <node concept="1rXfSq" id="5lvG0vIUe$$" role="37wK5m">
+                        <ref role="37wK5l" node="5lvG0vIUb60" resolve="link" />
+                      </node>
+                    </node>
+                    <node concept="2JrnkZ" id="5lvG0vIUe$_" role="2Oq$k0">
+                      <node concept="37vLTw" id="5lvG0vIUe$A" role="2JrQYb">
+                        <ref role="3cqZAo" node="5lvG0vIUb$R" resolve="leftParent" />
+                      </node>
                     </node>
                   </node>
-                  <node concept="2JrnkZ" id="5lvG0vIUe$_" role="2Oq$k0">
-                    <node concept="37vLTw" id="5lvG0vIUe$A" role="2JrQYb">
-                      <ref role="3cqZAo" node="5lvG0vIUb$R" resolve="left" />
-                    </node>
+                  <node concept="A3Dl8" id="5lvG0vIUeDT" role="10QFUM">
+                    <node concept="3Tqbb2" id="5lvG0vIUeIG" role="A3Ik2" />
                   </node>
-                </node>
-                <node concept="A3Dl8" id="5lvG0vIUeDT" role="10QFUM">
-                  <node concept="3Tqbb2" id="5lvG0vIUeIG" role="A3Ik2" />
                 </node>
               </node>
+              <node concept="ANE8D" id="5lvG0vIUffH" role="2OqNvi" />
             </node>
-            <node concept="ANE8D" id="5lvG0vIUffH" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4c23MZrd5Th" role="3cqZAp">
+          <node concept="2YIFZM" id="4c23MZrd5W5" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <node concept="2OqwBi" id="4c23MZrd6bJ" role="37wK5m">
+              <node concept="37vLTw" id="4c23MZrd5XR" role="2Oq$k0">
+                <ref role="3cqZAo" node="5lvG0vIUb$R" resolve="leftParent" />
+              </node>
+              <node concept="1$rogu" id="4c23MZrd6pX" role="2OqNvi" />
+            </node>
           </node>
         </node>
       </node>

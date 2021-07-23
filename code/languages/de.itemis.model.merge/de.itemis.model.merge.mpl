@@ -25,7 +25,7 @@
       </facets>
       <external-templates />
       <dependencies>
-        <dependency reexport="true">aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)</dependency>
+        <dependency reexport="false">aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">c0080a47-7e37-4558-bee9-9ae18e690549(jetbrains.mps.lang.extension)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

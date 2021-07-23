@@ -15606,6 +15606,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.model.merge.test" />
         <property role="3LESm3" value="cb29f2d3-8375-4a4d-bc96-278c6b7ca172" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="5RxOLvLcQJ$" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5RxOLvLcQJE" role="iGT6I">
@@ -19161,6 +19162,9 @@
       <node concept="L2wRC" id="3$$s$wOI_mD" role="39821P">
         <ref role="L2wRA" node="3$$s$wOI_E$" resolve="de.itemis.mps.editor.collapsible.testlang" />
       </node>
+      <node concept="L2wRC" id="5RxOLvLcRdo" role="39821P">
+        <ref role="L2wRA" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -19206,6 +19210,9 @@
       </node>
       <node concept="22LTRM" id="7qGGLAjNnMO" role="22LTRK">
         <ref role="22LTRN" node="7qGGLAjNnEU" resolve="test.de.q60.mps.incremental.runtime" />
+      </node>
+      <node concept="22LTRM" id="5RxOLvLcRd7" role="22LTRK">
+        <ref role="22LTRN" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
       </node>
     </node>
   </node>

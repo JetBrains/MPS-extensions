@@ -84,9 +84,6 @@
         <reference id="6626851894249712469" name="extensionPoint" index="2O5UnU" />
       </concept>
       <concept id="3175313036448560967" name="jetbrains.mps.lang.extension.structure.GetExtensionObjectsOperation" flags="nn" index="SfwO_" />
-      <concept id="3175313036448544056" name="jetbrains.mps.lang.extension.structure.ExtensionPointType" flags="in" index="Sf$Xq">
-        <reference id="3175313036448544057" name="extensionPoint" index="Sf$Xr" />
-      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -329,56 +326,18 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1GS$5JocksC" role="3cqZAp">
-          <node concept="3cpWsn" id="1GS$5JocksD" role="3cpWs9">
-            <property role="TrG5h" value="ext2" />
-            <node concept="Sf$Xq" id="1GS$5JocksE" role="1tU5fm">
-              <ref role="Sf$Xr" to="eywy:5BXbi3$BDZw" resolve="ModelMergeExt" />
-            </node>
-            <node concept="2O5UvJ" id="1GS$5JocksF" role="33vP2m">
-              <ref role="2O5UnU" to="eywy:5BXbi3$BDZw" resolve="ModelMergeExt" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1GS$5JocksG" role="3cqZAp">
-          <node concept="2OqwBi" id="1GS$5JocksH" role="3clFbG">
-            <node concept="10M0yZ" id="1GS$5JocksI" role="2Oq$k0">
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="1GS$5JocksJ" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="Xl_RD" id="1GS$5JocksK" role="37wK5m">
-                <property role="Xl_RC" value="--&gt; exts" />
-              </node>
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="4c23MZrtf3a" role="3cqZAp" />
         <node concept="2Gpval" id="1GS$5JocksL" role="3cqZAp">
           <node concept="2GrKxI" id="1GS$5JocksM" role="2Gsz3X">
             <property role="TrG5h" value="obj" />
           </node>
           <node concept="2OqwBi" id="1GS$5JocksN" role="2GsD0m">
-            <node concept="37vLTw" id="1GS$5JocksO" role="2Oq$k0">
-              <ref role="3cqZAo" node="1GS$5JocksD" resolve="ext2" />
-            </node>
             <node concept="SfwO_" id="1GS$5JocksP" role="2OqNvi" />
+            <node concept="2O5UvJ" id="4c23MZrteVN" role="2Oq$k0">
+              <ref role="2O5UnU" to="eywy:5BXbi3$BDZw" resolve="ModelMergeExt" />
+            </node>
           </node>
           <node concept="3clFbS" id="1GS$5JocksQ" role="2LFqv$">
-            <node concept="3clFbF" id="1GS$5JocksR" role="3cqZAp">
-              <node concept="2OqwBi" id="1GS$5JocksS" role="3clFbG">
-                <node concept="10M0yZ" id="1GS$5JocksT" role="2Oq$k0">
-                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                </node>
-                <node concept="liA8E" id="1GS$5JocksU" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="Xl_RD" id="1GS$5JocksV" role="37wK5m">
-                    <property role="Xl_RC" value="--&gt; Bam" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="1GS$5JocksW" role="3cqZAp">
               <node concept="2OqwBi" id="1GS$5JocksX" role="3clFbG">
                 <node concept="10M0yZ" id="1GS$5JocksY" role="2Oq$k0">
@@ -392,7 +351,7 @@
                       <ref role="2Gs0qQ" node="1GS$5JocksM" resolve="obj" />
                     </node>
                     <node concept="Xl_RD" id="1GS$5Jockt4" role="3uHU7B">
-                      <property role="Xl_RC" value="---&gt; ConceptMergeSpec " />
+                      <property role="Xl_RC" value="---&gt; extension " />
                     </node>
                   </node>
                 </node>

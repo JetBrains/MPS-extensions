@@ -15,9 +15,7 @@
 
 package org.modelix.model.api
 
-interface ITreeChangeVisitor {
-    fun containmentChanged(nodeId: Long)
-    fun childrenChanged(nodeId: Long, role: String?)
-    fun referenceChanged(nodeId: Long, role: String)
-    fun propertyChanged(nodeId: Long, role: String)
+interface ITreeChangeVisitorEx : ITreeChangeVisitor {
+    fun nodeRemoved(nodeId: Long)
+    fun nodeAdded(nodeId: Long)
 }

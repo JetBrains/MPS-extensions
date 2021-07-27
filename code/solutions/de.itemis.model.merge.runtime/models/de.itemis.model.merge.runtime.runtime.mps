@@ -159,6 +159,10 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+      <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
+      <concept id="5686963296372573083" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerType" flags="in" index="3O5elB">
+        <child id="5686963296372573084" name="elementType" index="3O5elw" />
+      </concept>
     </language>
   </registry>
   <node concept="3HP615" id="5lvG0vITZsP">
@@ -207,9 +211,15 @@
     <node concept="312cEg" id="5lvG0vITZTi" role="jymVt">
       <property role="TrG5h" value="concept" />
       <node concept="3Tm6S6" id="5lvG0vITZSH" role="1B3o_S" />
-      <node concept="3uibUv" id="5lvG0vITZTI" role="1tU5fm">
-        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+      <node concept="3uibUv" id="6HsBp$ThPND" role="1tU5fm">
+        <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
       </node>
+    </node>
+    <node concept="2tJIrI" id="3Wln5KITbN0" role="jymVt" />
+    <node concept="3clFbW" id="3Wln5KITc9a" role="jymVt">
+      <node concept="3cqZAl" id="3Wln5KITc9b" role="3clF45" />
+      <node concept="3clFbS" id="3Wln5KITc9d" role="3clF47" />
+      <node concept="3Tm1VV" id="3Wln5KITc4J" role="1B3o_S" />
     </node>
     <node concept="3clFbW" id="5lvG0vIU42t" role="jymVt">
       <node concept="3cqZAl" id="5lvG0vIU42v" role="3clF45" />
@@ -244,8 +254,8 @@
       </node>
       <node concept="37vLTG" id="5lvG0vIU45e" role="3clF46">
         <property role="TrG5h" value="concept" />
-        <node concept="3uibUv" id="5lvG0vIU45d" role="1tU5fm">
-          <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+        <node concept="3uibUv" id="6HsBp$ThPPm" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
         </node>
       </node>
       <node concept="37vLTG" id="5lvG0vIU45R" role="3clF46">
@@ -267,8 +277,8 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="5lvG0vIU65x" role="1B3o_S" />
-      <node concept="3uibUv" id="5lvG0vIU69I" role="3clF45">
-        <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
+      <node concept="3uibUv" id="6HsBp$ThPPV" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
       </node>
     </node>
     <node concept="3clFb_" id="5lvG0vIU3nY" role="jymVt">
@@ -805,6 +815,29 @@
       <node concept="3Tm1VV" id="1GS$5Jockt5" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="1GS$5JocgjK" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="7_L5leh5r$T">
+    <property role="TrG5h" value="MergePolicySpec" />
+    <property role="1sVAO0" value="true" />
+    <node concept="2tJIrI" id="7_L5leh5r_N" role="jymVt" />
+    <node concept="3clFbW" id="7_L5leh5rHd" role="jymVt">
+      <node concept="3cqZAl" id="7_L5leh5rHe" role="3clF45" />
+      <node concept="3clFbS" id="7_L5leh5rHg" role="3clF47" />
+      <node concept="3Tm1VV" id="7_L5leh5rHh" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="3Wln5KILAQ5" role="jymVt" />
+    <node concept="3clFb_" id="3Wln5KILAUj" role="jymVt">
+      <property role="TrG5h" value="conceptMergeSpecs" />
+      <property role="1EzhhJ" value="true" />
+      <node concept="3clFbS" id="3Wln5KILAUm" role="3clF47" />
+      <node concept="3Tm1VV" id="3Wln5KILASk" role="1B3o_S" />
+      <node concept="3vKaQO" id="3Wln5KILB1l" role="3clF45">
+        <node concept="3uibUv" id="3Wln5KILB82" role="3O5elw">
+          <ref role="3uigEE" node="5lvG0vITZNK" resolve="ConceptMergeSpec" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="7_L5leh5r$U" role="1B3o_S" />
   </node>
 </model>
 

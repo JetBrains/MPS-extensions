@@ -46,6 +46,7 @@
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -470,6 +471,12 @@
                   <node concept="2pJPEk" id="1trrptaOpmV" role="25WWJ7">
                     <node concept="2pJPED" id="1trrptaOp_z" role="2pJPEn">
                       <ref role="2pJxaS" to="mopj:1EbzjT2R$JP" resolve="MergePolicy" />
+                      <node concept="2pIpSj" id="6HsBp$TfUMl" role="2pJxcM">
+                        <ref role="2pIpSl" to="mopj:6celbXx2c94" resolve="idFunction" />
+                        <node concept="36biLy" id="6HsBp$TfUWt" role="28nt2d">
+                          <node concept="10Nm6u" id="6HsBp$TfUWr" role="36biLW" />
+                        </node>
+                      </node>
                       <node concept="2pIpSj" id="1trrptaOpII" role="2pJxcM">
                         <ref role="2pIpSl" to="mopj:3BP4DuXu_FH" resolve="conceptRef" />
                         <node concept="36biLy" id="1trrptaOpSJ" role="28nt2d">

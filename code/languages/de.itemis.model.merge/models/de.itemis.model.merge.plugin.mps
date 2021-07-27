@@ -160,8 +160,8 @@
   </node>
   <node concept="vrV6u" id="5BXbi3$BDZw">
     <property role="TrG5h" value="ModelMergeExt" />
-    <node concept="3uibUv" id="5BXbi3$BHt0" role="luc8K">
-      <ref role="3uigEE" to="gunp:5lvG0vITZNK" resolve="ConceptMergeSpec" />
+    <node concept="3uibUv" id="7_L5leh6A$h" role="luc8K">
+      <ref role="3uigEE" to="gunp:7_L5leh5r$T" resolve="MergePolicySpec" />
     </node>
   </node>
 </model>

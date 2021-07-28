@@ -20,6 +20,4 @@ interface ITreeChangeVisitor {
     fun childrenChanged(nodeId: Long, role: String?)
     fun referenceChanged(nodeId: Long, role: String)
     fun propertyChanged(nodeId: Long, role: String)
-    fun nodeRemoved(nodeId: Long)
-    fun nodeAdded(nodeId: Long)
 }

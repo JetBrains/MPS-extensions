@@ -136,6 +136,14 @@ open class PNodeAdapter(val nodeId: Long, val branch: IBranch) : INode {
         branch.writeTransaction.setReferenceTarget(nodeId, role, target)
     }
 
+    override fun getPropertyRoles(): List<String> {
+        return branch.transaction.getPropertyRoles(nodeId).toList()
+    }
+
+    override fun getReferenceRoles(): List<String> {
+        return branch.transaction.getPropertyRoles(nodeId).toList()
+    }
+
     override fun equals(o: Any?): Boolean {
         if (this === o) {
             return true

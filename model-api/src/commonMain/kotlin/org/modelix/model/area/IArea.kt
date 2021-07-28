@@ -13,9 +13,7 @@
  */
 package org.modelix.model.area
 
-import org.modelix.model.api.IBranch
-import org.modelix.model.api.INode
-import org.modelix.model.api.INodeReference
+import org.modelix.model.api.*
 
 /**
  * An IArea is similar to an IBranch. They both provide transactional access to nodes, but the IBranch can only be used
@@ -29,6 +27,8 @@ interface IArea {
      * The root of an area is not allowed to change
      */
     fun getRoot(): INode
+
+    fun resolveConcept(ref: IConceptReference): IConcept?
 
     /**
      * The area should not delegate to INodeReference.resolveNode.

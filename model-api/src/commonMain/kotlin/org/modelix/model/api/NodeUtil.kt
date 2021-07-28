@@ -27,7 +27,7 @@ fun INode?.getAncestor(concept: IConcept?, includeSelf: Boolean): INode? {
     if (this == null) {
         return null
     }
-    return if (includeSelf && this.concept!!.isSubconceptOf(concept)) {
+    return if (includeSelf && this.concept!!.isSubConceptOf(concept)) {
         this
     } else this.parent.getAncestor(concept, true)
 }

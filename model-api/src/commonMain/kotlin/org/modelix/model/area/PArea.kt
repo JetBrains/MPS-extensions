@@ -32,6 +32,10 @@ class PArea(val branch: IBranch) : IArea {
 
     override fun getRoot(): INode = PNodeAdapter(ITree.ROOT_ID, branch)
 
+    override fun resolveConcept(ref: IConceptReference): IConcept? {
+        return null
+    }
+
     override fun resolveNode(ref: INodeReference): INode? {
         return resolveOriginalNode(ref)
     }

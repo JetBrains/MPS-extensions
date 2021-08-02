@@ -44,7 +44,6 @@
     <module reference="380fa920-8f50-409f-80ed-2a1bd3741204(de.itemis.mps.nodeversioning.runtime)" version="0" />
     <module reference="92dbf947-9ad7-4892-925f-1183ba0104c5(de.itemis.mps.nodeversioning.test)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-    <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
   </dependencyVersions>
 </solution>
 

@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -285,7 +285,7 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
@@ -3122,7 +3122,9 @@
                       <node concept="1r8y6K" id="3ZnFyBjv1Lh" role="2OqNvi" />
                     </node>
                     <node concept="2RRcyG" id="3ZnFyBjv27Q" role="2OqNvi">
-                      <ref role="2RRcyH" to="d04j:7diJr$Rulpu" resolve="ProjectView" />
+                      <node concept="chp4Y" id="67K7yGVUU9G" role="3MHsoP">
+                        <ref role="cht4Q" to="d04j:7diJr$Rulpu" resolve="ProjectView" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -3254,7 +3256,9 @@
               <node concept="2OqwBi" id="3Wm7WXxfNAF" role="2Oq$k0">
                 <node concept="1Q6Npb" id="3Wm7WXxfN$3" role="2Oq$k0" />
                 <node concept="2RRcyG" id="3Wm7WXxfNEj" role="2OqNvi">
-                  <ref role="2RRcyH" to="d04j:7diJr$Rulpu" resolve="ProjectView" />
+                  <node concept="chp4Y" id="67K7yGVUU9H" role="3MHsoP">
+                    <ref role="cht4Q" to="d04j:7diJr$Rulpu" resolve="ProjectView" />
+                  </node>
                 </node>
               </node>
               <node concept="13MTOL" id="3Wm7WXxfTmE" role="2OqNvi">

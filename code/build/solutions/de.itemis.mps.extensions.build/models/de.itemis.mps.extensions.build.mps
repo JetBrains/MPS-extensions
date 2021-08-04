@@ -7320,6 +7320,16 @@
             <ref role="3bR37D" node="5zr7Q_1BAoJ" resolve="de.itemis.model.merge" />
           </node>
         </node>
+        <node concept="1SiIV0" id="3Wln5KIW76x" role="3bR37C">
+          <node concept="3bR9La" id="3Wln5KIW76y" role="1SiIV1">
+            <ref role="3bR37D" node="PE3B26QCrP" resolve="org.apache.commons" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3Wln5KIW76z" role="3bR37C">
+          <node concept="3bR9La" id="3Wln5KIW76$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5zr7Q_1BAoJ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -7475,6 +7485,16 @@
           <node concept="1SiIV0" id="3Wln5KIC$qN" role="3bR37C">
             <node concept="3bR9La" id="3Wln5KIC$qO" role="1SiIV1">
               <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3Wln5KJ1171" role="3bR37C">
+            <node concept="3bR9La" id="3Wln5KJ1172" role="1SiIV1">
+              <ref role="3bR37D" node="PE3B26QCrP" resolve="org.apache.commons" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3Wln5KJ1xpL" role="3bR37C">
+            <node concept="3bR9La" id="3Wln5KJ1xpM" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
             </node>
           </node>
         </node>
@@ -11212,6 +11232,9 @@
         <node concept="3LEDTy" id="7q24334ZzZk" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
         </node>
+        <node concept="3LEDTy" id="3Wln5KJ1xy1" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
+        </node>
       </node>
       <node concept="1E1JtA" id="4hqUO9aIeR_" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -11438,6 +11461,12 @@
         </node>
         <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
+        </node>
+        <node concept="3LEDTy" id="3Wln5KJ1xy_" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+        </node>
+        <node concept="3LEDTy" id="3Wln5KJ1xyA" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
     </node>

@@ -574,7 +574,7 @@
                 </node>
               </node>
               <node concept="2OwXpG" id="2QNuyuiODdU" role="2OqNvi">
-                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
+                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="propertyMergePolicy" />
               </node>
             </node>
           </node>
@@ -676,7 +676,7 @@
                 </node>
               </node>
               <node concept="2OwXpG" id="2QNuyuiO4wH" role="2OqNvi">
-                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
+                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="propertyMergePolicy" />
               </node>
             </node>
           </node>
@@ -778,7 +778,7 @@
                 </node>
               </node>
               <node concept="2OwXpG" id="2QNuyuiOFUe" role="2OqNvi">
-                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
+                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="propertyMergePolicy" />
               </node>
             </node>
           </node>
@@ -906,7 +906,7 @@
                 </node>
               </node>
               <node concept="2OwXpG" id="2QNuyuiON2N" role="2OqNvi">
-                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
+                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="propertyMergePolicy" />
               </node>
             </node>
           </node>
@@ -1022,7 +1022,7 @@
                 </node>
               </node>
               <node concept="2OwXpG" id="3EHNiwz2k4q" role="2OqNvi">
-                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="porpertyMergePolicy" />
+                <ref role="2Oxat5" to="rnx3:2QNuyuiL71i" resolve="propertyMergePolicy" />
               </node>
             </node>
           </node>

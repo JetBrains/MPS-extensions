@@ -26,6 +26,9 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
+    <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
+    <import index="1qo3" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3.tuple(org.apache.commons/)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -256,8 +259,23 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
+      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
+        <child id="1237721435807" name="elementType" index="HW$YZ" />
+      </concept>
+      <concept id="1227008614712" name="jetbrains.mps.baseLanguage.collections.structure.LinkedListCreator" flags="nn" index="2Jqq0_" />
+      <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="5686963296372573083" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerType" flags="in" index="3O5elB">
@@ -394,7 +412,22 @@
   </node>
   <node concept="312cEu" id="5BXbi3$BIgE">
     <property role="TrG5h" value="map_ModelMerge" />
-    <node concept="2tJIrI" id="5BXbi3$BMbl" role="jymVt" />
+    <node concept="312cEg" id="3Wln5KIZ4vX" role="jymVt">
+      <property role="TrG5h" value="cms" />
+      <node concept="3Tm1VV" id="3Wln5KIZ4gS" role="1B3o_S" />
+      <node concept="3vKaQO" id="3Wln5KIZ4tf" role="1tU5fm">
+        <node concept="3uibUv" id="3Wln5KIZ4uU" role="3O5elw">
+          <ref role="3uigEE" to="gunp:5lvG0vITZNK" resolve="ConceptMergeSpec" />
+        </node>
+      </node>
+      <node concept="2ShNRf" id="3Wln5KIZ515" role="33vP2m">
+        <node concept="2Jqq0_" id="3Wln5KIZ5T7" role="2ShVmc">
+          <node concept="3uibUv" id="3Wln5KIZ6ay" role="HW$YZ">
+            <ref role="3uigEE" to="gunp:5lvG0vITZNK" resolve="ConceptMergeSpec" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="5BXbi3$BIgF" role="1B3o_S" />
     <node concept="n94m4" id="5BXbi3$BIgG" role="lGtFl">
       <ref role="n9lRv" to="mopj:1EbzjT2RcU7" resolve="ModelMerge" />
@@ -421,7 +454,30 @@
     <node concept="3clFbW" id="7_L5leh5sR6" role="jymVt">
       <node concept="3cqZAl" id="7_L5leh5sRa" role="3clF45" />
       <node concept="3Tm1VV" id="7_L5leh5sRi" role="1B3o_S" />
-      <node concept="3clFbS" id="7_L5leh5sRj" role="3clF47" />
+      <node concept="3clFbS" id="7_L5leh5sRj" role="3clF47">
+        <node concept="1X3_iC" id="3Wln5KJ4J9H" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="3Wln5KIZ6fx" role="8Wnug">
+            <node concept="2OqwBi" id="3Wln5KIZ6ME" role="3clFbG">
+              <node concept="37vLTw" id="3Wln5KIZ6fw" role="2Oq$k0">
+                <ref role="3cqZAo" node="3Wln5KIZ4vX" resolve="cms" />
+              </node>
+              <node concept="X8dFx" id="3Wln5KIZ7rv" role="2OqNvi">
+                <node concept="2YIFZM" id="3Wln5KIZ7UX" role="25WWJ7">
+                  <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...)" resolve="asList" />
+                  <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
+                  <node concept="2ShNRf" id="3Wln5KIZ8mR" role="37wK5m">
+                    <node concept="1pGfFk" id="3Wln5KIZ9mr" role="2ShVmc">
+                      <ref role="37wK5l" to="gunp:3Wln5KITc9a" resolve="ConceptMergeSpec" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="3Wln5KILBd$" role="jymVt" />
     <node concept="3clFb_" id="3Wln5KILBkT" role="jymVt">

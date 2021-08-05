@@ -27,6 +27,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
@@ -113,8 +116,8 @@
         <ref role="3iOP7l" to="14sb:7TOowlgtN9E" resolve="nada" />
         <node concept="3DZp98" id="5RxOLvKxstZ" role="1orWrN">
           <node concept="3clFbS" id="5RxOLvKxsu0" role="2VODD2">
-            <node concept="3clFbF" id="5RxOLvKxsu1" role="3cqZAp">
-              <node concept="3DZwUI" id="5RxOLvKxsu2" role="3clFbG" />
+            <node concept="3cpWs6" id="3Dxwj9kOVoY" role="3cqZAp">
+              <node concept="3DZwUI" id="5RxOLvKxsu2" role="3cqZAk" />
             </node>
           </node>
         </node>

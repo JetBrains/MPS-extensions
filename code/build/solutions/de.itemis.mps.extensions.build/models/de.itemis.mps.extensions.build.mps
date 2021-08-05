@@ -7176,6 +7176,16 @@
               <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
             </node>
           </node>
+          <node concept="1SiIV0" id="2C9csoiebJ4" role="3bR37C">
+            <node concept="3bR9La" id="2C9csoiebJ5" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="2C9csoireUm" role="3bR37C">
+            <node concept="3bR9La" id="2C9csoireUn" role="1SiIV1">
+              <ref role="3bR37D" node="2NyZxKpUHVD" resolve="com.mbeddr.mpsutil.blutil.genutil" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="5zr7Q_1BGln" role="1E1XAP">
           <ref role="1E0d5P" node="5zr7Q_1BD5a" resolve="de.itemis.model.merge.runtime" />
@@ -10706,7 +10716,7 @@
         <node concept="3LEDTy" id="7q24334ZzZk" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
         </node>
-        <node concept="3LEDTy" id="3Wln5KJ1xy1" role="3LEDUa">
+        <node concept="3LEDTy" id="2C9csoirf2A" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
@@ -10936,10 +10946,10 @@
         <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
         </node>
-        <node concept="3LEDTy" id="3Wln5KJ1xy_" role="3LEDUa">
+        <node concept="3LEDTy" id="2C9csoirf3a" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
         </node>
-        <node concept="3LEDTy" id="3Wln5KJ1xyA" role="3LEDUa">
+        <node concept="3LEDTy" id="2C9csoirf3b" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
@@ -15020,6 +15030,11 @@
             <node concept="3qWCbU" id="5RxOLvLcQPF" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2C9csoiagDt" role="3bR37C">
+          <node concept="3bR9La" id="2C9csoiagDu" role="1SiIV1">
+            <ref role="3bR37D" node="5zr7Q_1BD5a" resolve="de.itemis.model.merge.runtime" />
           </node>
         </node>
       </node>

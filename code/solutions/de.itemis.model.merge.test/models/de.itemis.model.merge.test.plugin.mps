@@ -74,6 +74,7 @@
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
         <child id="7137735640372265540" name="idFunction" index="21DrV" />
         <child id="1912777765298654333" name="propertyPolicies" index="1orW53" />
+        <child id="8422540920006574021" name="childPolicies" index="3JN1Yi" />
       </concept>
       <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergeItem" flags="ng" index="1oluLK" />
       <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMerge" flags="ng" index="1olOeT">
@@ -85,9 +86,16 @@
         <reference id="7555554651740432697" name="property" index="3iOP7l" />
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
+      <concept id="4427572733341729071" name="de.itemis.model.merge.structure.SingletonChildPolicy" flags="ng" index="1DuYju" />
       <concept id="2076377354676997475" name="de.itemis.model.merge.structure.ActionFunctionRightParam" flags="ng" index="3DScHg" />
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
       <concept id="2076377354676914333" name="de.itemis.model.merge.structure.ActionFunctionLeftParam" flags="ng" index="3DZwUI" />
+      <concept id="8422540920006612555" name="de.itemis.model.merge.structure.SingletonPolicy" flags="ng" index="3JNnos">
+        <child id="8422540920006555110" name="action" index="3JN5mL" />
+      </concept>
+      <concept id="2222162468664160556" name="de.itemis.model.merge.structure.AbstractChildPolicy" flags="ng" index="3Ze0nh">
+        <reference id="2222162468664160559" name="child" index="3Ze0ni" />
+      </concept>
     </language>
   </registry>
   <node concept="1olOeT" id="2C9csoi8Vfo">
@@ -204,6 +212,23 @@
     </node>
     <node concept="pHN19" id="2C9csoiBPH0" role="3WPhuS">
       <node concept="2V$Bhx" id="2C9csoiBPH1" role="2V$M_3">
+        <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
+      </node>
+    </node>
+  </node>
+  <node concept="1olOeT" id="368jN$K3GT1">
+    <property role="TrG5h" value="LeftSingletonChildDiamondMerge" />
+    <node concept="1oluLK" id="368jN$K3GT2" role="1olsr8" />
+    <node concept="1olsrb" id="368jN$K3GY1" role="1olsr8">
+      <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
+      <node concept="1DuYju" id="368jN$K3GY5" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:jF$CuWmTnX" resolve="myDate" />
+        <node concept="1orWrO" id="368jN$K3GY9" role="3JN5mL" />
+      </node>
+    </node>
+    <node concept="pHN19" id="368jN$K3GTb" role="3WPhuS">
+      <node concept="2V$Bhx" id="368jN$K3GTc" role="2V$M_3">
         <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
         <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
       </node>

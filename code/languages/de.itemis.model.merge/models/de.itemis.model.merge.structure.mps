@@ -426,7 +426,7 @@
   <node concept="1TIwiD" id="3PLTv5k2w4M">
     <property role="EcuMT" value="4427572733341729074" />
     <property role="3GE5qa" value="elementpolicies" />
-    <property role="TrG5h" value="OptinalChildPolicy" />
+    <property role="TrG5h" value="OptionalChildPolicy" />
     <ref role="1TJDcQ" node="7jyS5urbFgb" resolve="OptionalPolicy" />
     <node concept="PrWs8" id="3PLTv5k2w4N" role="PzmwI">
       <ref role="PrY4T" node="3PLTv5jRo6X" resolve="ChildPolicy" />

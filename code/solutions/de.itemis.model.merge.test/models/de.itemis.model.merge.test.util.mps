@@ -95,6 +95,9 @@
       </concept>
     </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
+      <concept id="7080278351417106679" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNotNull" flags="nn" index="2Hmddi">
+        <child id="7080278351417106681" name="expression" index="2Hmdds" />
+      </concept>
       <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
         <child id="8427750732757990725" name="actual" index="3tpDZA" />
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
@@ -111,7 +114,11 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
+      <concept id="5686963296372573083" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerType" flags="in" index="3O5elB">
+        <child id="5686963296372573084" name="elementType" index="3O5elw" />
+      </concept>
     </language>
   </registry>
   <node concept="312cEu" id="2C9csoidSsh">
@@ -166,6 +173,11 @@
             </node>
           </node>
         </node>
+        <node concept="2Hmddi" id="368jN$KdZmP" role="3cqZAp">
+          <node concept="37vLTw" id="368jN$KdZu8" role="2Hmdds">
+            <ref role="3cqZAo" node="2C9csoifTwm" resolve="mps" />
+          </node>
+        </node>
         <node concept="3clFbF" id="2C9csoifTwC" role="3cqZAp">
           <node concept="2OqwBi" id="2C9csoifTwD" role="3clFbG">
             <node concept="2YIFZM" id="2C9csoifTwE" role="2Oq$k0">
@@ -185,15 +197,33 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="2C9csoifTwK" role="1bW5cS">
-                  <node concept="3clFbF" id="2C9csoifTwL" role="3cqZAp">
-                    <node concept="2OqwBi" id="2C9csoifTwM" role="3clFbG">
-                      <node concept="2OqwBi" id="2C9csoifTwN" role="2Oq$k0">
-                        <node concept="37vLTw" id="2C9csoifTwO" role="2Oq$k0">
+                  <node concept="3cpWs8" id="368jN$KdW3f" role="3cqZAp">
+                    <node concept="3cpWsn" id="368jN$KdW3g" role="3cpWs9">
+                      <property role="TrG5h" value="conceptMergeSpecs" />
+                      <node concept="3vKaQO" id="368jN$KdVbh" role="1tU5fm">
+                        <node concept="3uibUv" id="368jN$KdVbk" role="3O5elw">
+                          <ref role="3uigEE" to="gunp:5lvG0vITZNK" resolve="ConceptMergeSpec" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="368jN$KdW3h" role="33vP2m">
+                        <node concept="37vLTw" id="368jN$KdW3i" role="2Oq$k0">
                           <ref role="3cqZAo" node="2C9csoifTwI" resolve="mps" />
                         </node>
-                        <node concept="liA8E" id="2C9csoifTwP" role="2OqNvi">
+                        <node concept="liA8E" id="368jN$KdW3j" role="2OqNvi">
                           <ref role="37wK5l" to="gunp:3Wln5KILAUj" resolve="conceptMergeSpecs" />
                         </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2Hmddi" id="368jN$KdWsy" role="3cqZAp">
+                    <node concept="37vLTw" id="368jN$KdWCM" role="2Hmdds">
+                      <ref role="3cqZAo" node="368jN$KdW3g" resolve="conceptMergeSpecs" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2C9csoifTwL" role="3cqZAp">
+                    <node concept="2OqwBi" id="2C9csoifTwM" role="3clFbG">
+                      <node concept="37vLTw" id="368jN$KdW3k" role="2Oq$k0">
+                        <ref role="3cqZAo" node="368jN$KdW3g" resolve="conceptMergeSpecs" />
                       </node>
                       <node concept="1z4cxt" id="2C9csoifTwQ" role="2OqNvi">
                         <node concept="1bVj0M" id="2C9csoifTwR" role="23t8la">

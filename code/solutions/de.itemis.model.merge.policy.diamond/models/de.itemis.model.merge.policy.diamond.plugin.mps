@@ -69,7 +69,7 @@
         <reference id="7555554651740432697" name="property" index="3iOP7l" />
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
-      <concept id="4427572733341729074" name="de.itemis.model.merge.structure.OptinalChildPolicy" flags="ng" index="1DuYj3" />
+      <concept id="4427572733341729074" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="1DuYj3" />
       <concept id="4427572733341729079" name="de.itemis.model.merge.structure.SingeltonRefPolicy" flags="ng" index="1DuYj6" />
       <concept id="4427572733341729071" name="de.itemis.model.merge.structure.SingletonChildPolicy" flags="ng" index="1DuYju" />
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
@@ -198,7 +198,7 @@
       </node>
       <node concept="1DuYj3" id="5RxOLvKxsuB" role="3JN1Yi">
         <ref role="3Ze0ni" to="14sb:1trrptaBsmM" resolve="optChild" />
-        <node concept="1orWrO" id="5RxOLvKxsuC" role="3JN5mL" />
+        <node concept="3JN9zx" id="368jN$KhaXh" role="3JN5mL" />
       </node>
       <node concept="230_S" id="5RxOLvKxsuD" role="21DrV">
         <node concept="3clFbS" id="5RxOLvKxsuE" role="2VODD2">

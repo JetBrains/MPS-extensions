@@ -234,5 +234,22 @@
       </node>
     </node>
   </node>
+  <node concept="1olOeT" id="368jN$K9iqP">
+    <property role="TrG5h" value="RightSingletonChildDiamondMerge" />
+    <node concept="1oluLK" id="368jN$K9iqQ" role="1olsr8" />
+    <node concept="1olsrb" id="368jN$K9iqR" role="1olsr8">
+      <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
+      <node concept="1DuYju" id="368jN$K9iqS" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:jF$CuWmTnX" resolve="myDate" />
+        <node concept="3iOvoU" id="368jN$K9iqZ" role="3JN5mL" />
+      </node>
+    </node>
+    <node concept="pHN19" id="368jN$K9iqU" role="3WPhuS">
+      <node concept="2V$Bhx" id="368jN$K9iqV" role="2V$M_3">
+        <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
+      </node>
+    </node>
+  </node>
 </model>
 

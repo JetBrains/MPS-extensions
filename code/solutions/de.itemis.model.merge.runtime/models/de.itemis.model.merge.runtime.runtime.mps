@@ -322,7 +322,7 @@
     </node>
     <node concept="2tJIrI" id="368jN$JXCuj" role="jymVt" />
     <node concept="3clFb_" id="5lvG0vIU3nY" role="jymVt">
-      <property role="TrG5h" value="getPropertyMergers" />
+      <property role="TrG5h" value="propertyMergers" />
       <node concept="3clFbS" id="5lvG0vIU3o1" role="3clF47">
         <node concept="3clFbF" id="5lvG0vIU3pk" role="3cqZAp">
           <node concept="2YIFZM" id="5lvG0vIU3NG" role="3clFbG">
@@ -341,7 +341,26 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="7_L5leh4fQF" role="jymVt" />
+    <node concept="3clFb_" id="368jN$K7kCS" role="jymVt">
+      <property role="TrG5h" value="childMergers" />
+      <node concept="3clFbS" id="368jN$K7kCV" role="3clF47">
+        <node concept="3clFbF" id="368jN$K7kXT" role="3cqZAp">
+          <node concept="2YIFZM" id="368jN$K7loP" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.unmodifiableList(java.util.List)" resolve="unmodifiableList" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <node concept="37vLTw" id="368jN$K7loQ" role="37wK5m">
+              <ref role="3cqZAo" node="368jN$JXARf" resolve="childmergers" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="368jN$K7kyZ" role="1B3o_S" />
+      <node concept="_YKpA" id="368jN$K7kCA" role="3clF45">
+        <node concept="3uibUv" id="368jN$K7kCP" role="_ZDj9">
+          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ChildMerger" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="2C9csoitpgx" role="jymVt">
       <property role="TrG5h" value="id" />
       <property role="1EzhhJ" value="true" />

@@ -5561,9 +5561,9 @@
         </node>
       </node>
       <node concept="3LEwk6" id="5kDpuTS3hez" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.editor.diagram.devkit" />
         <property role="3LESm3" value="b1972fb0-9171-4e58-8cee-05866bb91ec2" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="5kDpuTS3htL" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5kDpuTS3ink" role="iGT6I">
@@ -14217,6 +14217,11 @@
             <node concept="3qWCbU" id="7q24334ZKzD" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5ycts4SlSD6" role="3bR37C">
+          <node concept="3bR9La" id="5ycts4SlSD7" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
       </node>

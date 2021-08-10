@@ -2296,5 +2296,82 @@
       <node concept="2iRfu4" id="2cruuiKBFCv" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6rGQ0fksBzf">
+    <ref role="1XX52x" to="teg0:6rGQ0fksByM" resolve="GenericMenuPart" />
+    <node concept="3EZMnI" id="6rGQ0fksBzh" role="2wV5jI">
+      <node concept="PMmxH" id="6rGQ0fksBzo" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="6rGQ0fksBzt" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="6rGQ0fk$7YT" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:6rGQ0fk$7YL" resolve="implementation" />
+      </node>
+      <node concept="l2Vlx" id="6rGQ0fksBzk" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="Dnjeuk_JIS">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />
+    <node concept="3F0ifn" id="Dnjeuk_JIU" role="2wV5jI">
+      <property role="3F0ifm" value="ST" />
+      <node concept="VPXOz" id="Dnjeuk_JIV" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="Veino" id="Dnjeuk_JIW" role="3F10Kt">
+        <node concept="1iSF2X" id="Dnjeuk_JIX" role="VblUZ">
+          <property role="1iTho6" value="f5803b" />
+        </node>
+      </node>
+    </node>
+    <node concept="3EZMnI" id="Dnjeun4pIE" role="6VMZX">
+      <node concept="3F1sOY" id="Dnjeul18aU" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:Dnjeul188y" resolve="section" />
+      </node>
+      <node concept="3F0ifn" id="Dnjeun4pIM" role="3EZMnx" />
+      <node concept="3EZMnI" id="Dnjeun4pKL" role="3EZMnx">
+        <node concept="2iRfu4" id="Dnjeun4pKM" role="2iSdaV" />
+        <node concept="3F0ifn" id="Dnjeun4pIP" role="3EZMnx">
+          <property role="3F0ifm" value="description for trace:" />
+        </node>
+        <node concept="3F0A7n" id="Dnjeun4pOG" role="3EZMnx">
+          <ref role="1NtTu8" to="teg0:Dnjeun4iHs" resolve="description" />
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="Dnjeun4pIH" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1_3xoKEN8CR">
+    <ref role="1XX52x" to="teg0:1_3xoKEN8C6" resolve="CompositeTransformationMenuReference" />
+    <node concept="3EZMnI" id="1_3xoKEN8CU" role="2wV5jI">
+      <node concept="PMmxH" id="1_3xoKEN8D1" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="1_3xoKEN8D6" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:1_3xoKEN8Cp" resolve="menu" />
+      </node>
+      <node concept="l2Vlx" id="1_3xoKEN8CX" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="DnjeukLY4e">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:DnjeukLXrb" resolve="SideTransformationHolderProcessor" />
+    <node concept="3EZMnI" id="DnjeukLY4s" role="2wV5jI">
+      <node concept="3F0ifn" id="DnjeukLY4z" role="3EZMnx">
+        <property role="3F0ifm" value="STP" />
+      </node>
+      <node concept="3F1sOY" id="DnjeukLY4L" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:DnjeukLXrc" resolve="wrappedCell" />
+      </node>
+      <node concept="3F0ifn" id="DnjeukLY4D" role="3EZMnx">
+        <property role="3F0ifm" value="STP" />
+      </node>
+      <node concept="2iRfu4" id="DnjeukLY4v" role="2iSdaV" />
+    </node>
+    <node concept="PMmxH" id="DnjeukNh21" role="6VMZX">
+      <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+    </node>
+  </node>
 </model>
 

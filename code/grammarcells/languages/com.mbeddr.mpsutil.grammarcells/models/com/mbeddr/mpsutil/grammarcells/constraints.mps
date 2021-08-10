@@ -2,6 +2,7 @@
 <model ref="r:a10fe53e-c32b-4712-baaa-5a506a791f09(com.mbeddr.mpsutil.grammarcells.constraints)">
   <persistence version="9" />
   <languages>
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -106,6 +107,30 @@
               </node>
               <node concept="3x8VRR" id="5RIakkDIV$u" role="2OqNvi" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="DnjeuljD05">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1M2myG" to="teg0:Dnjeulj4il" resolve="TransformationLocation_SideTransformationCell" />
+    <node concept="9S07l" id="DnjeuljD06" role="9Vyp8">
+      <node concept="3clFbS" id="DnjeuljD07" role="2VODD2">
+        <node concept="3clFbF" id="DnjeuljD41" role="3cqZAp">
+          <node concept="2OqwBi" id="DnjeuljDVh" role="3clFbG">
+            <node concept="2OqwBi" id="DnjeuljDeE" role="2Oq$k0">
+              <node concept="nLn13" id="DnjeuljD40" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="DnjeuljDt2" role="2OqNvi">
+                <node concept="1xMEDy" id="DnjeuljDt4" role="1xVPHs">
+                  <node concept="chp4Y" id="DnjeuljDwW" role="ri$Ld">
+                    <ref role="cht4Q" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="DnjeuljDB$" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="DnjeuljEh0" role="2OqNvi" />
           </node>
         </node>
       </node>

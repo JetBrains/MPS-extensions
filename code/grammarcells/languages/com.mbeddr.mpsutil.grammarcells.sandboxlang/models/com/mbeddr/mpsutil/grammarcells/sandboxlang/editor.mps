@@ -76,13 +76,18 @@
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
       <concept id="3308396621974588243" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Contribution" flags="ng" index="3p309x">
         <child id="7173407872095451092" name="menuReference" index="1IG6uw" />
       </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1075375595203" name="jetbrains.mps.lang.editor.structure.CellModel_Error" flags="sg" stub="8104358048506729356" index="1xolST">
         <property id="1075375595204" name="text" index="1xolSY" />
       </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -1370,6 +1375,29 @@
         <property role="3F0ifm" value=";" />
       </node>
       <node concept="l2Vlx" id="5ycts4RWGC5" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5ycts4Sb$sQ">
+    <ref role="1XX52x" to="ibwz:5ycts4Sb$rO" resolve="TEST_OptionalWithoutText_Reference" />
+    <node concept="3EZMnI" id="5ycts4Sb$sS" role="2wV5jI">
+      <node concept="3F0ifn" id="5ycts4Sb$sZ" role="3EZMnx">
+        <property role="3F0ifm" value="optional reference" />
+        <node concept="2SqB2G" id="5ycts4SjW3R" role="2SqHTX">
+          <property role="TrG5h" value="c33" />
+        </node>
+      </node>
+      <node concept="_tjkj" id="5ycts4Sb$t9" role="3EZMnx">
+        <node concept="1iCGBv" id="5ycts4Sb$tg" role="_tjki">
+          <ref role="1NtTu8" to="ibwz:5ycts4Sb$rR" resolve="refTarget" />
+          <node concept="1sVBvm" id="5ycts4Sb$ti" role="1sWHZn">
+            <node concept="3F0A7n" id="5ycts4Sb$ts" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5ycts4Sb$sV" role="2iSdaV" />
     </node>
   </node>
 </model>

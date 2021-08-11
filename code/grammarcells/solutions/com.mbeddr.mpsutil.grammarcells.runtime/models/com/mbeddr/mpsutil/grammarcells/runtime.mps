@@ -63,6 +63,7 @@
     <import index="4my4" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.sidetransform(MPS.Editor/)" />
     <import index="v95p" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.lang.editor.menus(MPS.Editor/)" />
     <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
+    <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
@@ -792,6 +793,36 @@
   </node>
   <node concept="312cEu" id="RbLMy696h3">
     <property role="TrG5h" value="GrammarCellsUtil" />
+    <node concept="Wx3nA" id="4ntVsBG$2hU" role="jymVt">
+      <property role="TrG5h" value="SYNTAX_CELL_CONDITION" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="4ntVsBG$1bP" role="1tU5fm">
+        <ref role="3uigEE" to="y49u:~Condition" resolve="Condition" />
+        <node concept="3uibUv" id="4ntVsBG$1bQ" role="11_B2D">
+          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2EPKBwuxoHe" role="1B3o_S" />
+      <node concept="1bVj0M" id="4ntVsBG$1bR" role="33vP2m">
+        <node concept="37vLTG" id="4ntVsBG$1bS" role="1bW2Oz">
+          <property role="TrG5h" value="c" />
+          <node concept="3uibUv" id="4ntVsBG$1bT" role="1tU5fm">
+            <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="4ntVsBG$1bU" role="1bW5cS">
+          <node concept="3clFbF" id="4ntVsBG$1bV" role="3cqZAp">
+            <node concept="2YIFZM" id="4ntVsBG$1bW" role="3clFbG">
+              <ref role="37wK5l" node="15DZatOARrD" resolve="isSyntaxCell" />
+              <ref role="1Pybhc" node="RbLMy696h3" resolve="GrammarCellsUtil" />
+              <node concept="37vLTw" id="4ntVsBG$1bX" role="37wK5m">
+                <ref role="3cqZAo" node="4ntVsBG$1bS" resolve="c" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2YIFZL" id="RbLMy69cGu" role="jymVt">
       <property role="TrG5h" value="getDescriptor" />
       <property role="DiZV1" value="false" />

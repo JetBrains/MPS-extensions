@@ -2448,25 +2448,10 @@
           <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
       </node>
-      <node concept="3Tm6S6" id="4ntVsBG$1bN" role="1B3o_S" />
-      <node concept="1bVj0M" id="4ntVsBG$1bR" role="33vP2m">
-        <node concept="37vLTG" id="4ntVsBG$1bS" role="1bW2Oz">
-          <property role="TrG5h" value="c" />
-          <node concept="3uibUv" id="4ntVsBG$1bT" role="1tU5fm">
-            <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="4ntVsBG$1bU" role="1bW5cS">
-          <node concept="3clFbF" id="4ntVsBG$1bV" role="3cqZAp">
-            <node concept="2YIFZM" id="4ntVsBG$1bW" role="3clFbG">
-              <ref role="1Pybhc" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
-              <ref role="37wK5l" to="czm:15DZatOARrD" resolve="isSyntaxCell" />
-              <node concept="37vLTw" id="4ntVsBG$1bX" role="37wK5m">
-                <ref role="3cqZAo" node="4ntVsBG$1bS" resolve="c" />
-              </node>
-            </node>
-          </node>
-        </node>
+      <node concept="3Tm1VV" id="2EPKBwuxoHe" role="1B3o_S" />
+      <node concept="10M0yZ" id="2EPKBwux$BL" role="33vP2m">
+        <ref role="3cqZAo" to="czm:4ntVsBG$2hU" resolve="SYNTAX_CELL_CONDITION" />
+        <ref role="1PxDUh" to="czm:RbLMy696h3" resolve="GrammarCellsUtil" />
       </node>
     </node>
     <node concept="2tJIrI" id="39$RJBbGOx3" role="jymVt" />
@@ -3337,7 +3322,7 @@
           <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
       </node>
-      <node concept="3Tmbuc" id="39$RJBbHM7t" role="1B3o_S" />
+      <node concept="3Tm1VV" id="2EPKBwuwlDZ" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="DnjeukmEyy" role="jymVt" />
     <node concept="312cEu" id="DnjeukmFSK" role="jymVt">

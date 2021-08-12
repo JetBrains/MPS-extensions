@@ -14,6 +14,7 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -61,6 +62,7 @@
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1186414949600" name="jetbrains.mps.lang.editor.structure.AutoDeletableStyleClassItem" flags="ln" index="VPRnO" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1186414999511" name="jetbrains.mps.lang.editor.structure.UnderlinedStyleClassItem" flags="ln" index="VQ3r3">
         <property id="1214316229833" name="underlined" index="2USNnj" />
@@ -149,6 +151,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
@@ -977,6 +982,45 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="2iRfu4" id="7KznU_3P5iw" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="2EPKBwvgsuS" role="3EZMnx">
+          <node concept="3F0ifn" id="2EPKBwvgsuT" role="3EZMnx">
+            <property role="3F0ifm" value="generate insert action:" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F1sOY" id="2EPKBwvg$Dw" role="3EZMnx">
+            <ref role="1NtTu8" to="teg0:2EPKBwvgsS2" resolve="generateInsertAction" />
+          </node>
+          <node concept="1HlG4h" id="2EPKBwvg$D_" role="3EZMnx">
+            <node concept="1HfYo3" id="2EPKBwvg$DA" role="1HlULh">
+              <node concept="3TQlhw" id="2EPKBwvg$DB" role="1Hhtcw">
+                <node concept="3clFbS" id="2EPKBwvg$DC" role="2VODD2">
+                  <node concept="3clFbF" id="2EPKBwvg$PH" role="3cqZAp">
+                    <node concept="2YIFZM" id="2EPKBwvg$Qh" role="3clFbG">
+                      <ref role="37wK5l" to="wyt6:~Boolean.toString(boolean)" resolve="toString" />
+                      <ref role="1Pybhc" to="wyt6:~Boolean" resolve="Boolean" />
+                      <node concept="2OqwBi" id="2EPKBwvg_g6" role="37wK5m">
+                        <node concept="pncrf" id="2EPKBwvg$QQ" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="2EPKBwvg_J1" role="2OqNvi">
+                          <ref role="37wK5l" to="karh:2EPKBwvgnje" resolve="generatesInsertAction" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="VechU" id="2EPKBwvg$DJ" role="3F10Kt">
+              <property role="Vb096" value="fLJRk5A/lightGray" />
+            </node>
+            <node concept="VPM3Z" id="2EPKBwvg$DK" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+          </node>
+          <node concept="VPXOz" id="2EPKBwvgsv7" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2iRfu4" id="2EPKBwvgsv8" role="2iSdaV" />
         </node>
         <node concept="3EZMnI" id="65e5JdYJiFt" role="3EZMnx">
           <node concept="3F0ifn" id="65e5JdYJiFu" role="3EZMnx">
@@ -2371,6 +2415,15 @@
     </node>
     <node concept="PMmxH" id="DnjeukNh21" role="6VMZX">
       <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2EPKBwvmNHK">
+    <ref role="1XX52x" to="teg0:2EPKBwvmwxV" resolve="BooleanValue" />
+    <node concept="PMmxH" id="2EPKBwvmNHP" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <node concept="VPRnO" id="2EPKBwvnb_9" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
 </model>

@@ -64,6 +64,9 @@
     <import index="v95p" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.lang.editor.menus(MPS.Editor/)" />
     <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+    <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
+    <import index="sn11" ref="r:836426ab-a6f4-4fa3-9a9c-34c02ed6ab5d(jetbrains.mps.ide.icons)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
@@ -4057,6 +4060,63 @@
       </node>
       <node concept="10P_77" id="4ntVsBGj3ru" role="3clF45" />
       <node concept="3Tm1VV" id="4ntVsBGiW3C" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="2EPKBwvuZlA" role="jymVt" />
+    <node concept="2YIFZL" id="2EPKBwvv5qv" role="jymVt">
+      <property role="TrG5h" value="asIconResource" />
+      <node concept="3clFbS" id="2EPKBwvuT4U" role="3clF47">
+        <node concept="3clFbF" id="2EPKBwvv0ZT" role="3cqZAp">
+          <node concept="2ShNRf" id="2EPKBwvv0ZR" role="3clFbG">
+            <node concept="1pGfFk" id="2EPKBwvv32u" role="2ShVmc">
+              <ref role="37wK5l" to="18ew:~Icon2IconResourceAdapter_Deprecated.&lt;init&gt;(javax.swing.Icon)" resolve="Icon2IconResourceAdapter_Deprecated" />
+              <node concept="37vLTw" id="2EPKBwvv4ed" role="37wK5m">
+                <ref role="3cqZAo" node="2EPKBwvuVhF" resolve="icon" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2EPKBwvuVhF" role="3clF46">
+        <property role="TrG5h" value="icon" />
+        <node concept="3uibUv" id="2EPKBwvuWnA" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="2EPKBwvuY9z" role="3clF45">
+        <ref role="3uigEE" to="ze1i:~IconResource" resolve="IconResource" />
+      </node>
+      <node concept="3Tm1VV" id="2EPKBwvuT4T" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="2EPKBwvv9Fk" role="jymVt" />
+    <node concept="2YIFZL" id="2EPKBwvvhhK" role="jymVt">
+      <property role="TrG5h" value="getIconResource" />
+      <node concept="3clFbS" id="2EPKBwvvbJS" role="3clF47">
+        <node concept="3clFbF" id="2EPKBwvvsyM" role="3cqZAp">
+          <node concept="1rXfSq" id="2EPKBwvvsyG" role="3clFbG">
+            <ref role="37wK5l" node="2EPKBwvv5qv" resolve="asIconResource" />
+            <node concept="2OqwBi" id="2EPKBwvvnNU" role="37wK5m">
+              <node concept="2YIFZM" id="2EPKBwvvnwE" role="2Oq$k0">
+                <ref role="37wK5l" to="sn11:5UC$YgehaLf" resolve="getInstance" />
+                <ref role="1Pybhc" to="sn11:192HKKPMXeL" resolve="GlobalIconManager" />
+              </node>
+              <node concept="liA8E" id="2EPKBwvvp14" role="2OqNvi">
+                <ref role="37wK5l" to="sn11:192HKKPOcza" resolve="getIconFor" />
+                <node concept="37vLTw" id="2EPKBwvvpYk" role="37wK5m">
+                  <ref role="3cqZAo" node="2EPKBwvvesW" resolve="concept" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2EPKBwvvesW" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3bZ5Sz" id="2EPKBwvvf5h" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="2EPKBwvviNT" role="3clF45">
+        <ref role="3uigEE" to="ze1i:~IconResource" resolve="IconResource" />
+      </node>
+      <node concept="3Tm1VV" id="2EPKBwvvbJR" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="15DZatOAPZ7" role="jymVt" />
     <node concept="3Tm1VV" id="RbLMy696h4" role="1B3o_S" />

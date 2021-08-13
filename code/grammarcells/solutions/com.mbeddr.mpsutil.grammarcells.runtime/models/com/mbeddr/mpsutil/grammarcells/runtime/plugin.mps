@@ -1102,6 +1102,22 @@
     </node>
     <node concept="2ScWuX" id="2EPKBwuuefK" role="tmbBb">
       <node concept="3clFbS" id="2EPKBwuuefL" role="2VODD2">
+        <node concept="3clFbJ" id="2EPKBwvYOUt" role="3cqZAp">
+          <node concept="3clFbS" id="2EPKBwvYOUv" role="3clFbx">
+            <node concept="3cpWs6" id="2EPKBwvYP9D" role="3cqZAp">
+              <node concept="3clFbT" id="2EPKBwvYPlq" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2EPKBwvYOAL" role="3clFbw">
+            <node concept="10M0yZ" id="2EPKBwvYOsy" role="2Oq$k0">
+              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvYOLz" role="2OqNvi">
+              <ref role="37wK5l" to="m9yn:2EPKBwvYezt" resolve="isPopupDisabled" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="51Lv08_Flsy" role="3cqZAp">
           <node concept="3cpWsn" id="51Lv08_Flsz" role="3cpWs9">
             <property role="TrG5h" value="ec" />
@@ -1360,7 +1376,7 @@
   <node concept="sE7Ow" id="2EPKBwvXn_Z">
     <property role="3GE5qa" value="insertPopup" />
     <property role="TrG5h" value="ClearInsertPopupDefaultChoices" />
-    <property role="2uzpH1" value="Clear Insert-Popup Default Choices" />
+    <property role="2uzpH1" value="Insert-Popup: Clear Default Choices" />
     <node concept="tnohg" id="2EPKBwvXnA0" role="tncku">
       <node concept="3clFbS" id="2EPKBwvXnA1" role="2VODD2">
         <node concept="3clFbF" id="2EPKBwvXnJ3" role="3cqZAp">
@@ -1371,6 +1387,42 @@
             </node>
             <node concept="liA8E" id="2EPKBwvXyVB" role="2OqNvi">
               <ref role="37wK5l" to="m9yn:2EPKBwvXpMZ" resolve="clearResolvedAmbiguities" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="2EPKBwvYPoH">
+    <property role="3GE5qa" value="insertPopup" />
+    <property role="TrG5h" value="EnableInsertPopup" />
+    <property role="2uzpH1" value="Insert-Popup: Enable" />
+    <node concept="tnohg" id="2EPKBwvYPoI" role="tncku">
+      <node concept="3clFbS" id="2EPKBwvYPoJ" role="2VODD2">
+        <node concept="3clFbF" id="2EPKBwvYPoK" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwvYPoL" role="3clFbG">
+            <node concept="10M0yZ" id="2EPKBwvYPoM" role="2Oq$k0">
+              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvYQnE" role="2OqNvi">
+              <ref role="37wK5l" to="m9yn:2EPKBwvYi9o" resolve="setPopupDisabled" />
+              <node concept="3clFbT" id="2EPKBwvYQrr" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="2EPKBwvYPAV" role="tmbBb">
+      <node concept="3clFbS" id="2EPKBwvYPAW" role="2VODD2">
+        <node concept="3clFbF" id="2EPKBwvYPOv" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwvYQ7I" role="3clFbG">
+            <node concept="10M0yZ" id="2EPKBwvYPWY" role="2Oq$k0">
+              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvYQhJ" role="2OqNvi">
+              <ref role="37wK5l" to="m9yn:2EPKBwvYezt" resolve="isPopupDisabled" />
             </node>
           </node>
         </node>

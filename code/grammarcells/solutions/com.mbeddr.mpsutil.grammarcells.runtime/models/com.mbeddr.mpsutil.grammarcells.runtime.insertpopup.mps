@@ -5444,6 +5444,14 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="2ShNRf" id="2EPKBwvY8Pc" role="37wK5m">
+                      <node concept="1pGfFk" id="2EPKBwvYb1N" role="2ShVmc">
+                        <ref role="37wK5l" node="2EPKBwvY5i1" resolve="InsertActionListPopupStep.DisableInsertPopup" />
+                        <node concept="37vLTw" id="2EPKBwvYcK$" role="37wK5m">
+                          <ref role="3cqZAo" node="5FAfkXhZfmt" resolve="chosenAction" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6139,6 +6147,60 @@
         </node>
       </node>
     </node>
+    <node concept="312cEu" id="2EPKBwvY5hX" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="DisableInsertPopup" />
+      <node concept="2tJIrI" id="2EPKBwvY5hY" role="jymVt" />
+      <node concept="3Tm1VV" id="2EPKBwvY5hZ" role="1B3o_S" />
+      <node concept="3uibUv" id="2EPKBwvY5i0" role="1zkMxy">
+        <ref role="3uigEE" node="2EPKBwvPR7c" resolve="InsertActionListPopupStep.SettingsAction" />
+      </node>
+      <node concept="3clFbW" id="2EPKBwvY5i1" role="jymVt">
+        <node concept="37vLTG" id="2EPKBwvY5i2" role="3clF46">
+          <property role="TrG5h" value="action" />
+          <node concept="3uibUv" id="2EPKBwvY5i3" role="1tU5fm">
+            <ref role="3uigEE" node="2EPKBwuC2hU" resolve="CellActionExecuter" />
+          </node>
+        </node>
+        <node concept="3cqZAl" id="2EPKBwvY5i4" role="3clF45" />
+        <node concept="3Tm1VV" id="2EPKBwvY5i5" role="1B3o_S" />
+        <node concept="3clFbS" id="2EPKBwvY5i6" role="3clF47">
+          <node concept="XkiVB" id="2EPKBwvY5i7" role="3cqZAp">
+            <ref role="37wK5l" node="2EPKBwvPUbw" resolve="InsertActionListPopupStep.SettingsAction" />
+            <node concept="Xl_RD" id="2EPKBwvY5i8" role="37wK5m">
+              <property role="Xl_RC" value="Disable This Menu" />
+            </node>
+            <node concept="37vLTw" id="2EPKBwvY5i9" role="37wK5m">
+              <ref role="3cqZAo" node="2EPKBwvY5i2" resolve="action" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFb_" id="2EPKBwvY5ia" role="jymVt">
+        <property role="TrG5h" value="execute" />
+        <node concept="3cqZAl" id="2EPKBwvY5ib" role="3clF45" />
+        <node concept="3Tm1VV" id="2EPKBwvY5ic" role="1B3o_S" />
+        <node concept="3clFbS" id="2EPKBwvY5id" role="3clF47">
+          <node concept="3clFbF" id="2EPKBwvZ76r" role="3cqZAp">
+            <node concept="2OqwBi" id="2EPKBwvZ8UZ" role="3clFbG">
+              <node concept="10M0yZ" id="2EPKBwvZ8lp" role="2Oq$k0">
+                <ref role="3cqZAo" node="2EPKBwvUics" resolve="INSTANCE" />
+                <ref role="1PxDUh" node="2EPKBwvSnU2" resolve="InsertPopupSettings" />
+              </node>
+              <node concept="liA8E" id="2EPKBwvZ9GL" role="2OqNvi">
+                <ref role="37wK5l" node="2EPKBwvYi9o" resolve="setPopupDisabled" />
+                <node concept="3clFbT" id="2EPKBwvZaI9" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="2EPKBwvY5ie" role="2AJF6D">
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="2EPKBwvPPhp" role="jymVt" />
   </node>
   <node concept="312cEu" id="2EPKBwvSnU2">
@@ -6157,6 +6219,25 @@
             <ref role="3VsUkX" node="2EPKBwvSnU2" resolve="InsertPopupSettings" />
           </node>
           <node concept="liA8E" id="2EPKBwvSzjK" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Wx3nA" id="2EPKBwvYlRf" role="jymVt">
+      <property role="TrG5h" value="POPUP_DISABLED_KEY" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="2EPKBwvYlRg" role="1tU5fm" />
+      <node concept="3Tm6S6" id="2EPKBwvYlRh" role="1B3o_S" />
+      <node concept="3cpWs3" id="2EPKBwvYlRi" role="33vP2m">
+        <node concept="Xl_RD" id="2EPKBwvYlRj" role="3uHU7w">
+          <property role="Xl_RC" value=".popupDisabled" />
+        </node>
+        <node concept="2OqwBi" id="2EPKBwvYlRk" role="3uHU7B">
+          <node concept="3VsKOn" id="2EPKBwvYlRl" role="2Oq$k0">
+            <ref role="3VsUkX" node="2EPKBwvSnU2" resolve="InsertPopupSettings" />
+          </node>
+          <node concept="liA8E" id="2EPKBwvYlRm" role="2OqNvi">
             <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
           </node>
         </node>
@@ -6225,6 +6306,59 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2EPKBwvUkIf" role="jymVt" />
+    <node concept="3clFb_" id="2EPKBwvYi9o" role="jymVt">
+      <property role="TrG5h" value="setPopupDisabled" />
+      <node concept="37vLTG" id="2EPKBwvYIA1" role="3clF46">
+        <property role="TrG5h" value="disabled" />
+        <node concept="10P_77" id="2EPKBwvYJln" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2EPKBwvYi9q" role="3clF45" />
+      <node concept="3Tm1VV" id="2EPKBwvYi9r" role="1B3o_S" />
+      <node concept="3clFbS" id="2EPKBwvYi9s" role="3clF47">
+        <node concept="3clFbF" id="2EPKBwvYukG" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwvYv0M" role="3clFbG">
+            <node concept="2YIFZM" id="2EPKBwvYukI" role="2Oq$k0">
+              <ref role="37wK5l" to="jmi8:~PropertiesComponent.getInstance()" resolve="getInstance" />
+              <ref role="1Pybhc" to="jmi8:~PropertiesComponent" resolve="PropertiesComponent" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvYvIO" role="2OqNvi">
+              <ref role="37wK5l" to="jmi8:~PropertiesComponent.setValue(java.lang.String,boolean,boolean)" resolve="setValue" />
+              <node concept="37vLTw" id="2EPKBwvYwPG" role="37wK5m">
+                <ref role="3cqZAo" node="2EPKBwvYlRf" resolve="POPUP_DISABLED_KEY" />
+              </node>
+              <node concept="37vLTw" id="2EPKBwvYJVn" role="37wK5m">
+                <ref role="3cqZAo" node="2EPKBwvYIA1" resolve="disabled" />
+              </node>
+              <node concept="3clFbT" id="2EPKBwvYN7k" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2EPKBwvYhqU" role="jymVt" />
+    <node concept="3clFb_" id="2EPKBwvYezt" role="jymVt">
+      <property role="TrG5h" value="isPopupDisabled" />
+      <node concept="10P_77" id="2EPKBwvYgxe" role="3clF45" />
+      <node concept="3Tm1VV" id="2EPKBwvYezw" role="1B3o_S" />
+      <node concept="3clFbS" id="2EPKBwvYezx" role="3clF47">
+        <node concept="3clFbF" id="2EPKBwvYnPr" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwvYoUS" role="3clFbG">
+            <node concept="2YIFZM" id="2EPKBwvYnPt" role="2Oq$k0">
+              <ref role="37wK5l" to="jmi8:~PropertiesComponent.getInstance()" resolve="getInstance" />
+              <ref role="1Pybhc" to="jmi8:~PropertiesComponent" resolve="PropertiesComponent" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvYpKB" role="2OqNvi">
+              <ref role="37wK5l" to="jmi8:~PropertiesComponent.getBoolean(java.lang.String,boolean)" resolve="getBoolean" />
+              <node concept="37vLTw" id="2EPKBwvYqDb" role="37wK5m">
+                <ref role="3cqZAo" node="2EPKBwvYlRf" resolve="POPUP_DISABLED_KEY" />
+              </node>
+              <node concept="3clFbT" id="2EPKBwvYt$E" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2EPKBwvYdD0" role="jymVt" />
     <node concept="3clFb_" id="2EPKBwvSo5t" role="jymVt">
       <property role="TrG5h" value="storeResolvedAmbiguity" />
       <node concept="37vLTG" id="2EPKBwvSoi_" role="3clF46">

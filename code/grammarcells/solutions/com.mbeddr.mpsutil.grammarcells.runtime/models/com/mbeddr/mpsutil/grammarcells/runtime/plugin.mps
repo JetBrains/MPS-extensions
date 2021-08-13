@@ -1357,5 +1357,25 @@
       </node>
     </node>
   </node>
+  <node concept="sE7Ow" id="2EPKBwvXn_Z">
+    <property role="3GE5qa" value="insertPopup" />
+    <property role="TrG5h" value="ClearInsertPopupDefaultChoices" />
+    <property role="2uzpH1" value="Clear Insert-Popup Default Choices" />
+    <node concept="tnohg" id="2EPKBwvXnA0" role="tncku">
+      <node concept="3clFbS" id="2EPKBwvXnA1" role="2VODD2">
+        <node concept="3clFbF" id="2EPKBwvXnJ3" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwvXnTQ" role="3clFbG">
+            <node concept="10M0yZ" id="2EPKBwvXnLt" role="2Oq$k0">
+              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvXyVB" role="2OqNvi">
+              <ref role="37wK5l" to="m9yn:2EPKBwvXpMZ" resolve="clearResolvedAmbiguities" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

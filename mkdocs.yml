@@ -16,6 +16,7 @@ nav:
 - Migrating: Migrating.md
 - Adding: adding.md
 - Extensions:
+  - Full Extension List: extensions/all.md 
   - Diagrams: extensions/diagrams.md
   - Node Versioning: extensions/node-versioning.md
   - Plaintext Generator: extensions/plaintext-gen.md

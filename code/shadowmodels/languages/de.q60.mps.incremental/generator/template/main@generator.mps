@@ -146,6 +146,7 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -1530,11 +1531,11 @@
           <node concept="3clFbS" id="3rlBTn$7s$_" role="2VODD2">
             <node concept="3clFbF" id="3rlBTn$7s$A" role="3cqZAp">
               <node concept="3cpWs3" id="3rlBTn$7s$B" role="3clFbG">
-                <node concept="$GB7w" id="2F4Sedp$PTh" role="3uHU7w">
-                  <property role="26SvY3" value="1jlY2aid0uu/index" />
-                </node>
                 <node concept="Xl_RD" id="3rlBTn$7s$F" role="3uHU7B">
                   <property role="Xl_RC" value="k" />
+                </node>
+                <node concept="$GB7w" id="2F4Sedp$PTh" role="3uHU7w">
+                  <property role="26SvY3" value="1jlY2aid0uu/index" />
                 </node>
               </node>
             </node>
@@ -1581,11 +1582,11 @@
             <node concept="3clFbS" id="3rlBTn$7s$Z" role="2VODD2">
               <node concept="3clFbF" id="3rlBTn$7s_0" role="3cqZAp">
                 <node concept="3cpWs3" id="3rlBTn$7s_1" role="3clFbG">
-                  <node concept="$GB7w" id="2F4Sedp$PTk" role="3uHU7w">
-                    <property role="26SvY3" value="1jlY2aid0uu/index" />
-                  </node>
                   <node concept="Xl_RD" id="3rlBTn$7s_5" role="3uHU7B">
                     <property role="Xl_RC" value="k" />
+                  </node>
+                  <node concept="$GB7w" id="2F4Sedp$PTk" role="3uHU7w">
+                    <property role="26SvY3" value="1jlY2aid0uu/index" />
                   </node>
                 </node>
               </node>
@@ -1749,9 +1750,8 @@
       </node>
     </node>
     <node concept="3clFb_" id="3rlBTn$7sAg" role="jymVt">
-      <property role="TrG5h" value="hashCode" />
+      <property role="TrG5h" value="computeHashCode" />
       <node concept="10Oyi0" id="3rlBTn$7sAh" role="3clF45" />
-      <node concept="3Tm1VV" id="3rlBTn$7sAi" role="1B3o_S" />
       <node concept="3clFbS" id="3rlBTn$7sAj" role="3clF47">
         <node concept="3cpWs8" id="3rlBTn$7sAk" role="3cqZAp">
           <node concept="3cpWsn" id="3rlBTn$7sAl" role="3cpWs9">
@@ -1806,9 +1806,10 @@
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="3rlBTn$7sAE" role="2AJF6D">
+      <node concept="2AHcQZ" id="4sdUwbgJPcW" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="3Tmbuc" id="4sdUwbgJNPt" role="1B3o_S" />
     </node>
     <node concept="3clFb_" id="3rlBTn$7sAF" role="jymVt">
       <property role="TrG5h" value="toString" />
@@ -1967,8 +1968,8 @@
         </node>
       </node>
     </node>
-    <node concept="3uibUv" id="3rlBTn$7WwQ" role="1zkMxy">
-      <ref role="3uigEE" to="2wxy:5gTrVpGx$gB" resolve="DependencyKey" />
+    <node concept="3uibUv" id="4sdUwbgJImt" role="1zkMxy">
+      <ref role="3uigEE" to="2wxy:4sdUwbgJCqz" resolve="HashCodeCachingDependencyKey" />
     </node>
   </node>
   <node concept="jVnub" id="7pNuz6AnHMq">

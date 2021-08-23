@@ -13784,53 +13784,6 @@
         <node concept="pUk6x" id="3D0nl1ssJJG" role="pUk7w" />
       </node>
       <node concept="398223" id="6aQMI6nGnZ6" role="39821P">
-        <node concept="398223" id="2$Uje8rsx54" role="39821P">
-          <node concept="3_J27D" id="2$Uje8rsx55" role="Nbhlr">
-            <node concept="3Mxwew" id="2$Uje8rsx56" role="3MwsjC">
-              <property role="3MwjfP" value="META-INF" />
-            </node>
-          </node>
-          <node concept="1kKnMu" id="2$Uje8rsx57" role="39821P">
-            <node concept="3_J27D" id="2$Uje8rsx58" role="1kKnMs">
-              <node concept="3Mxwew" id="2$Uje8rsx59" role="3MwsjC">
-                <property role="3MwjfP" value="plugin.xml" />
-              </node>
-            </node>
-            <node concept="2pNNFK" id="2$Uje8rsx5a" role="1kKnMX">
-              <property role="2pNNFO" value="idea-plugin" />
-              <node concept="2pNNFK" id="2$Uje8rsx5b" role="3o6s8t">
-                <property role="2pNNFO" value="name" />
-                <node concept="3o6iSG" id="2$Uje8rsx5c" role="3o6s8t">
-                  <property role="3o6i5n" value="de.itemis.mps.nativelibs.loader" />
-                </node>
-              </node>
-              <node concept="2pNNFK" id="2$Uje8rsx5d" role="3o6s8t">
-                <property role="2pNNFO" value="id" />
-                <node concept="3o6iSG" id="2$Uje8rsx5e" role="3o6s8t">
-                  <property role="3o6i5n" value="de.itemis.mps.nativelibs.loader" />
-                </node>
-              </node>
-              <node concept="2pNNFK" id="2$Uje8rsx5f" role="3o6s8t">
-                <property role="2pNNFO" value="version" />
-                <node concept="3o6iSG" id="2$Uje8rsx5g" role="3o6s8t">
-                  <property role="3o6i5n" value="1.0" />
-                </node>
-              </node>
-              <node concept="2pNNFK" id="2$Uje8rsx5h" role="3o6s8t">
-                <property role="2pNNFO" value="application-components" />
-                <node concept="2pNNFK" id="2$Uje8rsx5i" role="3o6s8t">
-                  <property role="2pNNFO" value="component" />
-                  <node concept="2pNNFK" id="2$Uje8rsx5j" role="3o6s8t">
-                    <property role="2pNNFO" value="implementation-class" />
-                    <node concept="3o6iSG" id="2$Uje8rsx5k" role="3o6s8t">
-                      <property role="3o6i5n" value="de.itemis.mps.nativelibs.plugin.NativeLibraryLoader" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="398223" id="2$Uje8rsx5l" role="39821P">
           <node concept="3_J27D" id="2$Uje8rsx5m" role="Nbhlr">
             <node concept="3Mxwew" id="2$Uje8rsx5n" role="3MwsjC">
@@ -13845,6 +13798,53 @@
             </node>
             <node concept="Saw0i" id="2$Uje8rsx5r" role="39821P">
               <ref role="Saw0g" node="2H_mjOXyaTv" resolve="de.itemis.mps.nativelibs.loader" />
+            </node>
+            <node concept="398223" id="2$Uje8rsx54" role="39821P">
+              <node concept="3_J27D" id="2$Uje8rsx55" role="Nbhlr">
+                <node concept="3Mxwew" id="2$Uje8rsx56" role="3MwsjC">
+                  <property role="3MwjfP" value="META-INF" />
+                </node>
+              </node>
+              <node concept="1kKnMu" id="2$Uje8rsx57" role="39821P">
+                <node concept="3_J27D" id="2$Uje8rsx58" role="1kKnMs">
+                  <node concept="3Mxwew" id="2$Uje8rsx59" role="3MwsjC">
+                    <property role="3MwjfP" value="plugin.xml" />
+                  </node>
+                </node>
+                <node concept="2pNNFK" id="2$Uje8rsx5a" role="1kKnMX">
+                  <property role="2pNNFO" value="idea-plugin" />
+                  <node concept="2pNNFK" id="2$Uje8rsx5b" role="3o6s8t">
+                    <property role="2pNNFO" value="name" />
+                    <node concept="3o6iSG" id="2$Uje8rsx5c" role="3o6s8t">
+                      <property role="3o6i5n" value="de.itemis.mps.nativelibs.loader" />
+                    </node>
+                  </node>
+                  <node concept="2pNNFK" id="2$Uje8rsx5d" role="3o6s8t">
+                    <property role="2pNNFO" value="id" />
+                    <node concept="3o6iSG" id="2$Uje8rsx5e" role="3o6s8t">
+                      <property role="3o6i5n" value="de.itemis.mps.nativelibs.loader" />
+                    </node>
+                  </node>
+                  <node concept="2pNNFK" id="2$Uje8rsx5f" role="3o6s8t">
+                    <property role="2pNNFO" value="version" />
+                    <node concept="3o6iSG" id="2$Uje8rsx5g" role="3o6s8t">
+                      <property role="3o6i5n" value="1.0" />
+                    </node>
+                  </node>
+                  <node concept="2pNNFK" id="2$Uje8rsx5h" role="3o6s8t">
+                    <property role="2pNNFO" value="application-components" />
+                    <node concept="2pNNFK" id="2$Uje8rsx5i" role="3o6s8t">
+                      <property role="2pNNFO" value="component" />
+                      <node concept="2pNNFK" id="2$Uje8rsx5j" role="3o6s8t">
+                        <property role="2pNNFO" value="implementation-class" />
+                        <node concept="3o6iSG" id="2$Uje8rsx5k" role="3o6s8t">
+                          <property role="3o6i5n" value="de.itemis.mps.nativelibs.plugin.NativeLibraryLoader" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>

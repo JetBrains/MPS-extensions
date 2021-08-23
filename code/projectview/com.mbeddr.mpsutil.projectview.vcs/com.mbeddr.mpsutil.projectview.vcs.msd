@@ -12,7 +12,7 @@
   </facets>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">b0d98700-54f0-4c39-a8e0-bb27733b8b38(jetbrains.mps.ide.vcs)</dependency>
+    <dependency reexport="true">b0d98700-54f0-4c39-a8e0-bb27733b8b38(jetbrains.mps.ide.vcs)</dependency>
     <dependency reexport="false">732373f1-0d48-4122-bb43-c1606db4baca(com.mbeddr.mpsutil.projectview.runtime)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
@@ -46,7 +46,6 @@
     <module reference="732373f1-0d48-4122-bb43-c1606db4baca(com.mbeddr.mpsutil.projectview.runtime)" version="0" />
     <module reference="37fcbfef-85f0-447a-b36b-db389f9c3616(com.mbeddr.mpsutil.projectview.vcs)" version="0" />
     <module reference="b0d98700-54f0-4c39-a8e0-bb27733b8b38(jetbrains.mps.ide.vcs)" version="0" />
-    <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
   </dependencyVersions>
 </solution>
 

@@ -13299,6 +13299,7 @@
         </node>
         <node concept="1SiIV0" id="24ObHxTrEpm" role="3bR37C">
           <node concept="3bR9La" id="24ObHxTrEpn" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="ffeo:39HJr_hyEqi" resolve="jetbrains.mps.ide.vcs" />
           </node>
         </node>

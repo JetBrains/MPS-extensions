@@ -531,7 +531,7 @@
               </node>
               <node concept="2Gpval" id="1tkLcpYJUUK" role="3cqZAp">
                 <node concept="2GrKxI" id="1tkLcpYJUUM" role="2Gsz3X">
-                  <property role="TrG5h" value="nodeToRemoce" />
+                  <property role="TrG5h" value="nodeToRemove" />
                 </node>
                 <node concept="37vLTw" id="1tkLcpYJWOQ" role="2GsD0m">
                   <ref role="3cqZAo" node="6NDRJQ9ur$q" resolve="nodesToRemove" />
@@ -543,7 +543,7 @@
                         <node concept="10QFUN" id="1tkLcpYKwEc" role="1eOMHV">
                           <node concept="3Tqbb2" id="1tkLcpYKxP3" role="10QFUM" />
                           <node concept="2GrUjf" id="1tkLcpYKsgZ" role="10QFUP">
-                            <ref role="2Gs0qQ" node="1tkLcpYJUUM" resolve="nodeToRemoce" />
+                            <ref role="2Gs0qQ" node="1tkLcpYJUUM" resolve="nodeToRemove" />
                           </node>
                         </node>
                       </node>

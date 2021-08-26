@@ -305,6 +305,15 @@
       <node concept="2iRfu4" id="1QyV25GKGaE" role="2iSdaV" />
     </node>
     <node concept="3EZMnI" id="1QyV25GL40H" role="6VMZX">
+      <node concept="3EZMnI" id="2Z_VQNTK0W6" role="3EZMnx">
+        <node concept="2iRfu4" id="2Z_VQNTK0W7" role="2iSdaV" />
+        <node concept="3F0ifn" id="2Z_VQNTK0VV" role="3EZMnx">
+          <property role="3F0ifm" value="scale with editor font size" />
+        </node>
+        <node concept="3F0A7n" id="2Z_VQNTK75h" role="3EZMnx">
+          <ref role="1NtTu8" to="t51k:2Z_VQNTJTNX" resolve="scaleWithEditorFontSize" />
+        </node>
+      </node>
       <node concept="2iRkQZ" id="1QyV25GL40I" role="2iSdaV" />
       <node concept="3F0ifn" id="1QyV25GL40N" role="3EZMnx">
         <property role="3F0ifm" value="possible Selection States:" />

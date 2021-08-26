@@ -51,6 +51,11 @@
     <property role="34LRSv" value="enum_checkbox" />
     <property role="R4oN_" value="checkbox{&lt;{propertyDeclaration}&gt;}" />
     <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
+    <node concept="1TJgyi" id="2Z_VQNTJTNX" role="1TKVEl">
+      <property role="IQ2nx" value="3451427940774943997" />
+      <property role="TrG5h" value="scaleWithEditorFontSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="1QyV25GL40V" role="1TKVEi">
       <property role="IQ2ns" value="2135528801629913147" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

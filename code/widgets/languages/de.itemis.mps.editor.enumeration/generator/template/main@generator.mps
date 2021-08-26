@@ -2,6 +2,8 @@
 <model ref="r:0d172648-be96-4f10-9f8d-fca36198db26(main@generator)">
   <persistence version="9" />
   <languages>
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -575,6 +577,34 @@
               </node>
               <node concept="37vLTw" id="44Oik0Utemo" role="37vLTJ">
                 <ref role="3cqZAo" node="44Oik0Utc$p" resolve="editorCell" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="3GwZdJ3a$Au" role="3cqZAp">
+            <node concept="2OqwBi" id="3GwZdJ3a_JB" role="3clFbG">
+              <node concept="37vLTw" id="3GwZdJ3a$As" role="2Oq$k0">
+                <ref role="3cqZAo" node="44Oik0Utc$p" resolve="editorCell" />
+              </node>
+              <node concept="liA8E" id="3GwZdJ3aBpr" role="2OqNvi">
+                <ref role="37wK5l" to="g2tc:3GwZdJ3l6YA" resolve="setScaleWithEditorFontSize" />
+                <node concept="3clFbT" id="3GwZdJ3m2Q8" role="37wK5m">
+                  <node concept="17Uvod" id="3GwZdJ3m3Pv" role="lGtFl">
+                    <property role="2qtEX9" value="value" />
+                    <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                    <node concept="3zFVjK" id="3GwZdJ3m3Pw" role="3zH0cK">
+                      <node concept="3clFbS" id="3GwZdJ3m3Px" role="2VODD2">
+                        <node concept="3clFbF" id="3GwZdJ3m4o2" role="3cqZAp">
+                          <node concept="2OqwBi" id="3GwZdJ3m5r4" role="3clFbG">
+                            <node concept="30H73N" id="3GwZdJ3m4o1" role="2Oq$k0" />
+                            <node concept="3TrcHB" id="3GwZdJ3m6ZA" role="2OqNvi">
+                              <ref role="3TsBF5" to="t51k:2Z_VQNTJTNX" resolve="scaleWithEditorFontSize" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

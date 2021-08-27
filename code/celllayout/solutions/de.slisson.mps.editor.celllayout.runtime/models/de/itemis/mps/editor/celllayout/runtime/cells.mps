@@ -1321,8 +1321,13 @@
                   <node concept="1rXfSq" id="7d0q5VH9zRH" role="37wK5m">
                     <ref role="37wK5l" to="g51k:~EditorCell_Basic.getX()" resolve="getX" />
                   </node>
-                  <node concept="1rXfSq" id="7d0q5VHdND1" role="37wK5m">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getY()" resolve="getY" />
+                  <node concept="2OqwBi" id="1Al6CJbRgpw" role="37wK5m">
+                    <node concept="37vLTw" id="1Al6CJbRfrv" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7d0q5VHdtJZ" resolve="parent" />
+                    </node>
+                    <node concept="liA8E" id="1Al6CJbRhAH" role="2OqNvi">
+                      <ref role="37wK5l" to="g51k:~EditorCell_Basic.getY()" resolve="getY" />
+                    </node>
                   </node>
                   <node concept="1rXfSq" id="7d0q5VH9zRJ" role="37wK5m">
                     <ref role="37wK5l" to="g51k:~EditorCell_Basic.getWidth()" resolve="getWidth" />

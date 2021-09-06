@@ -21,9 +21,10 @@ class PBranch constructor(@field:Volatile private var tree: ITree, private val i
     private val writeLock = Any()
     private val contextTransactions = ContextValue<Transaction?>()
     private var listeners = arrayOf<IBranchListener>()
+    private val branchId: String = tree.getId() ?: idGenerator.generate().toString()
 
-    override fun getId(): String? {
-        return tree.getId()
+    override fun getId(): String {
+        return branchId
     }
 
     fun runWithTransaction(transaction: ITransaction, runnable: () -> Unit) {

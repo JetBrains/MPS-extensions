@@ -215,6 +215,12 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
+      <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
+        <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
+      </concept>
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
+      </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <property id="1238684351431" name="asCast" index="1BlNFB" />
       </concept>
@@ -640,6 +646,26 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7VjNOn_CCFx" role="3clF47">
+        <node concept="3clFbJ" id="2cruuiKCJMR" role="3cqZAp">
+          <node concept="3clFbS" id="2cruuiKCJMT" role="3clFbx">
+            <node concept="3cpWs6" id="2cruuiKCLgh" role="3cqZAp">
+              <node concept="3clFbT" id="2cruuiKCLhj" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2cruuiKCKS_" role="3clFbw">
+            <node concept="2OqwBi" id="2cruuiKCKfP" role="2Oq$k0">
+              <node concept="37vLTw" id="2cruuiKCJT7" role="2Oq$k0">
+                <ref role="3cqZAo" node="7VjNOn_CCLF" resolve="componentCell" />
+              </node>
+              <node concept="3CFZ6_" id="2cruuiKCKBx" role="2OqNvi">
+                <node concept="3CFYIy" id="2cruuiKCKDJ" role="3CFYIz">
+                  <ref role="3CFYIx" to="teg0:2cruuiKBFtg" resolve="DisableComponentInline" />
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="2cruuiKCLaP" role="2OqNvi" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="7VjNOn_$zZ0" role="3cqZAp">
           <node concept="3clFbS" id="7VjNOn_$zZ1" role="3clFbx">
             <node concept="3cpWs6" id="7VjNOn_$$fF" role="3cqZAp">

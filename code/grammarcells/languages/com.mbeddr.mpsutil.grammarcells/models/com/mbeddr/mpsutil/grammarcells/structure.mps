@@ -19,6 +19,13 @@
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -999,6 +1006,18 @@
     <property role="TrG5h" value="Parameter_parentNode" />
     <property role="34LRSv" value="parentNode" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="2cruuiKBFtg">
+    <property role="EcuMT" value="2529749638821361488" />
+    <property role="TrG5h" value="DisableComponentInline" />
+    <property role="34LRSv" value="disableComponentInline" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="2cruuiKBFvg" role="lGtFl">
+      <property role="Hh88m" value="disableComponentInline" />
+      <node concept="trNpa" id="2cruuiKBF_Z" role="EQaZv">
+        <ref role="trN6q" to="tpc2:fGPMmym" resolve="CellModel_Component" />
+      </node>
+    </node>
   </node>
 </model>
 

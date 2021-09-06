@@ -16,5 +16,9 @@
 package org.modelix.model.api
 
 interface IReferenceLink {
+    fun getConcept(): IConcept
+    fun getUID(): String
     val name: String
+    val isOptional: Boolean
+    val targetConcept: IConcept
 }

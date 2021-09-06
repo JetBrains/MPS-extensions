@@ -16,7 +16,7 @@
 package org.modelix.model.api
 
 interface IBranch {
-    fun getId(): String?
+    fun getId(): String
     fun runRead(runnable: () -> Unit)
     fun <T> computeRead(computable: () -> T): T
     fun runWrite(runnable: () -> Unit)

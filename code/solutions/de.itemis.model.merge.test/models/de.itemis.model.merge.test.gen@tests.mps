@@ -1136,7 +1136,7 @@
                 <ref role="3cqZAo" node="368jN$Ko6W9" resolve="mergePolicy" />
               </node>
               <node concept="35c_gC" id="368jN$Ko6Wk" role="37wK5m">
-                <ref role="35c_gD" to="14sb:1trrptaBskJ" resolve="Data" />
+                <ref role="35c_gD" to="14sb:7TOowlgsdak" resolve="Bottom" />
               </node>
             </node>
           </node>
@@ -1286,7 +1286,7 @@
               <property role="3oM_SC" value="MergeActions" />
             </node>
             <node concept="3oM_SD" id="368jN$Kov3Q" role="1PaTwD">
-              <property role="3oM_SC" value="Left,Right,Manual,Drop" />
+              <property role="3oM_SC" value="Manual,Drop" />
             </node>
           </node>
         </node>
@@ -1304,7 +1304,7 @@
             <property role="TrG5h" value="mergePolicy" />
             <node concept="17QB3L" id="368jN$Ko6Xg" role="1tU5fm" />
             <node concept="Xl_RD" id="368jN$Ko6Xh" role="33vP2m">
-              <property role="Xl_RC" value="Data_mergepolicy" />
+              <property role="Xl_RC" value="Bottom_mergepolicy" />
             </node>
           </node>
         </node>
@@ -1315,8 +1315,8 @@
               <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
             </node>
             <node concept="359W_D" id="368jN$Ko6Xl" role="33vP2m">
-              <ref role="359W_E" to="14sb:1trrptaBskJ" resolve="Data" />
-              <ref role="359W_F" to="14sb:jF$CuWmTnX" resolve="myDate" />
+              <ref role="359W_E" to="14sb:7TOowlgscST" resolve="Top" />
+              <ref role="359W_F" to="14sb:1trrptaBsmM" resolve="optChild" />
             </node>
           </node>
         </node>
@@ -1391,6 +1391,116 @@
           </node>
           <node concept="37vLTw" id="368jN$Ko6XO" role="3tpDZA">
             <ref role="3cqZAo" node="368jN$Ko6XF" resolve="mergedChild" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="57NTRpQ1j7$" role="1SL9yI">
+      <property role="TrG5h" value="testRight" />
+      <node concept="3cqZAl" id="57NTRpQ1j7_" role="3clF45" />
+      <node concept="3clFbS" id="57NTRpQ1j7A" role="3clF47">
+        <node concept="3clFbH" id="57NTRpQ1j7B" role="3cqZAp" />
+        <node concept="3cpWs8" id="57NTRpQ1j7L" role="3cqZAp">
+          <node concept="3cpWsn" id="57NTRpQ1j7M" role="3cpWs9">
+            <property role="TrG5h" value="modelMerge" />
+            <node concept="17QB3L" id="57NTRpQ1j7N" role="1tU5fm" />
+            <node concept="Xl_RD" id="57NTRpQ1j7O" role="33vP2m">
+              <property role="Xl_RC" value="RightOptionalChildDiamondMerge" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="57NTRpQ1j7P" role="3cqZAp">
+          <node concept="3cpWsn" id="57NTRpQ1j7Q" role="3cpWs9">
+            <property role="TrG5h" value="mergePolicy" />
+            <node concept="17QB3L" id="57NTRpQ1j7R" role="1tU5fm" />
+            <node concept="Xl_RD" id="57NTRpQ1j7S" role="33vP2m">
+              <property role="Xl_RC" value="Bottom_mergepolicy" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="57NTRpQ1j7T" role="3cqZAp">
+          <node concept="3cpWsn" id="57NTRpQ1j7U" role="3cpWs9">
+            <property role="TrG5h" value="link" />
+            <node concept="3uibUv" id="57NTRpQ1j7V" role="1tU5fm">
+              <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+            </node>
+            <node concept="359W_D" id="57NTRpQ1j7W" role="33vP2m">
+              <ref role="359W_E" to="14sb:7TOowlgscST" resolve="Top" />
+              <ref role="359W_F" to="14sb:1trrptaBsmM" resolve="optChild" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="57NTRpQ1j7X" role="3cqZAp" />
+        <node concept="3cpWs8" id="57NTRpQ1j7Y" role="3cqZAp">
+          <node concept="3cpWsn" id="57NTRpQ1j7Z" role="3cpWs9">
+            <property role="TrG5h" value="mergedChildren" />
+            <node concept="_YKpA" id="57NTRpQ1j80" role="1tU5fm">
+              <node concept="3Tqbb2" id="57NTRpQ1j81" role="_ZDj9" />
+            </node>
+            <node concept="2OqwBi" id="57NTRpQ1j82" role="33vP2m">
+              <node concept="2WthIp" id="57NTRpQ1j83" role="2Oq$k0" />
+              <node concept="2XshWL" id="57NTRpQ1j84" role="2OqNvi">
+                <ref role="2WH_rO" node="368jN$Ko6W5" resolve="mergedChildren" />
+                <node concept="37vLTw" id="57NTRpQ1j85" role="2XxRq1">
+                  <ref role="3cqZAo" node="57NTRpQ1j7M" resolve="modelMerge" />
+                </node>
+                <node concept="37vLTw" id="57NTRpQ1j86" role="2XxRq1">
+                  <ref role="3cqZAo" node="57NTRpQ1j7Q" resolve="mergePolicy" />
+                </node>
+                <node concept="37vLTw" id="57NTRpQ1j87" role="2XxRq1">
+                  <ref role="3cqZAo" node="57NTRpQ1j7U" resolve="link" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Hmddi" id="57NTRpQ1j88" role="3cqZAp">
+          <node concept="37vLTw" id="57NTRpQ1j89" role="2Hmdds">
+            <ref role="3cqZAo" node="57NTRpQ1j7Z" resolve="mergedChildren" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="57NTRpQ1j8a" role="3cqZAp">
+          <node concept="3clFbC" id="57NTRpQ1j8b" role="1gVkn0">
+            <node concept="3cmrfG" id="57NTRpQ1j8c" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="57NTRpQ1j8d" role="3uHU7B">
+              <node concept="37vLTw" id="57NTRpQ1j8e" role="2Oq$k0">
+                <ref role="3cqZAo" node="57NTRpQ1j7Z" resolve="mergedChildren" />
+              </node>
+              <node concept="34oBXx" id="57NTRpQ1j8f" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="57NTRpQ1j8g" role="3cqZAp" />
+        <node concept="3cpWs8" id="57NTRpQ1j8h" role="3cqZAp">
+          <node concept="3cpWsn" id="57NTRpQ1j8i" role="3cpWs9">
+            <property role="TrG5h" value="mergedChild" />
+            <node concept="3Tqbb2" id="57NTRpQ1j8j" role="1tU5fm" />
+            <node concept="2OqwBi" id="57NTRpQ1j8k" role="33vP2m">
+              <node concept="37vLTw" id="57NTRpQ1j8l" role="2Oq$k0">
+                <ref role="3cqZAo" node="57NTRpQ1j7Z" resolve="mergedChildren" />
+              </node>
+              <node concept="34jXtK" id="57NTRpQ1j8m" role="2OqNvi">
+                <node concept="3cmrfG" id="57NTRpQ1j8n" role="25WWJ7">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="57NTRpQ1j8o" role="3cqZAp" />
+        <node concept="3vlDli" id="57NTRpQ1j8p" role="3cqZAp">
+          <node concept="2OqwBi" id="57NTRpQ1j8q" role="3tpDZB">
+            <node concept="3xONca" id="57NTRpQ1kq4" role="2Oq$k0">
+              <ref role="3xOPvv" node="368jN$Kob$p" resolve="bottomInst2" />
+            </node>
+            <node concept="3TrEf2" id="57NTRpQ1j8s" role="2OqNvi">
+              <ref role="3Tt5mk" to="14sb:1trrptaBsmM" resolve="optChild" />
+            </node>
+          </node>
+          <node concept="37vLTw" id="57NTRpQ1j8t" role="3tpDZA">
+            <ref role="3cqZAo" node="57NTRpQ1j8i" resolve="mergedChild" />
           </node>
         </node>
       </node>

@@ -58,8 +58,6 @@
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions/com.mbeddr.mpsutil.intentions.mpl" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.diamond/de.itemis.model.merge.diamond.mpl" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.graph/de.itemis.model.merge.graph.mpl" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.graph/sandbox/de.itemis.model.merge.graph.sandbox.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/de.itemis.model.merge.mpl" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
@@ -153,10 +151,8 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.runtime/de.itemis.model.merge.runtime.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.policy.graph/de.itemis.model.policy.graph.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.sandbox/de.slisson.mps.structurecheck.sandbox.msd" folder="structurecheck" />

@@ -25,10 +25,14 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -53,6 +57,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -65,6 +70,7 @@
       </concept>
       <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
         <child id="1160998896846" name="condition" index="1gVkn0" />
+        <child id="1160998916832" name="message" index="1gVpfI" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -77,6 +83,11 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -173,9 +184,20 @@
             </node>
           </node>
         </node>
-        <node concept="2Hmddi" id="368jN$KdZmP" role="3cqZAp">
-          <node concept="37vLTw" id="368jN$KdZu8" role="2Hmdds">
-            <ref role="3cqZAo" node="2C9csoifTwm" resolve="mps" />
+        <node concept="1gVbGN" id="57NTRpQ1pnG" role="3cqZAp">
+          <node concept="3y3z36" id="57NTRpQ1pD$" role="1gVkn0">
+            <node concept="10Nm6u" id="57NTRpQ1pK4" role="3uHU7w" />
+            <node concept="37vLTw" id="57NTRpQ1pv1" role="3uHU7B">
+              <ref role="3cqZAo" node="2C9csoifTwm" resolve="mps" />
+            </node>
+          </node>
+          <node concept="3cpWs3" id="57NTRpQ1q8N" role="1gVpfI">
+            <node concept="37vLTw" id="57NTRpQ1qf_" role="3uHU7w">
+              <ref role="3cqZAo" node="2C9csoifTwg" resolve="modelMerge" />
+            </node>
+            <node concept="Xl_RD" id="57NTRpQ1pRl" role="3uHU7B">
+              <property role="Xl_RC" value="ModelMerge not found " />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="2C9csoifTwC" role="3cqZAp">
@@ -316,6 +338,29 @@
             </node>
             <node concept="liA8E" id="368jN$K6MHb" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Optional.isPresent()" resolve="isPresent" />
+            </node>
+          </node>
+          <node concept="3cpWs3" id="57NTRpQ0IcX" role="1gVpfI">
+            <node concept="Xl_RD" id="57NTRpQ0Idk" role="3uHU7w">
+              <property role="Xl_RC" value="&gt; not found" />
+            </node>
+            <node concept="3cpWs3" id="57NTRpQ0I7H" role="3uHU7B">
+              <node concept="3cpWs3" id="57NTRpQ0HNL" role="3uHU7B">
+                <node concept="3cpWs3" id="57NTRpQ0HFB" role="3uHU7B">
+                  <node concept="Xl_RD" id="57NTRpQ0HvW" role="3uHU7B">
+                    <property role="Xl_RC" value="ModelMerge:&lt;" />
+                  </node>
+                  <node concept="37vLTw" id="57NTRpQ0HI5" role="3uHU7w">
+                    <ref role="3cqZAo" node="368jN$K6MGT" resolve="modelMerge" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="57NTRpQ0HO8" role="3uHU7w">
+                  <property role="Xl_RC" value="&gt;/MergePolicy:&lt;" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="57NTRpQ0Ibb" role="3uHU7w">
+                <ref role="3cqZAo" node="368jN$K6MGV" resolve="mergePolicy" />
+              </node>
             </node>
           </node>
         </node>

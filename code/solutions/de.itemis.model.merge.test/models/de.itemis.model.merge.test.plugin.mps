@@ -26,25 +26,39 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
@@ -373,6 +387,59 @@
     </node>
     <node concept="pHN19" id="57NTRpQ53Vy" role="3WPhuS">
       <node concept="2V$Bhx" id="57NTRpQ53Vz" role="2V$M_3">
+        <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
+      </node>
+    </node>
+  </node>
+  <node concept="1olOeT" id="57NTRpQ8zk5">
+    <property role="TrG5h" value="ManualOptionalChildDiamondMerge" />
+    <node concept="1oluLK" id="57NTRpQ8zk6" role="1olsr8" />
+    <node concept="1oluLK" id="57NTRpQ8zk7" role="1olsr8" />
+    <node concept="1olsrb" id="57NTRpQ8zk8" role="1olsr8">
+      <ref role="24zOxU" to="14sb:7TOowlgsdak" resolve="Bottom" />
+      <node concept="1DuYj3" id="57NTRpQ8zk9" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:1trrptaBsmM" resolve="optChild" />
+        <node concept="3DZp98" id="57NTRpQ8zkg" role="3JN5mL">
+          <node concept="3clFbS" id="57NTRpQ8zki" role="2VODD2">
+            <node concept="3clFbJ" id="57NTRpQ8Daq" role="3cqZAp">
+              <node concept="3clFbS" id="57NTRpQ8Das" role="3clFbx">
+                <node concept="3cpWs6" id="57NTRpQ8DB2" role="3cqZAp">
+                  <node concept="3DZwUI" id="57NTRpQ8DCy" role="3cqZAk" />
+                </node>
+              </node>
+              <node concept="3clFbC" id="57NTRpQ8Dni" role="3clFbw">
+                <node concept="10Nm6u" id="57NTRpQ8D_M" role="3uHU7w" />
+                <node concept="3DScHg" id="57NTRpQ8DbQ" role="3uHU7B" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="57NTRpQ8zqk" role="3cqZAp">
+              <node concept="37vLTI" id="57NTRpQ8Qwm" role="3clFbG">
+                <node concept="Xl_RD" id="57NTRpQ8QCh" role="37vLTx">
+                  <property role="Xl_RC" value="custom" />
+                </node>
+                <node concept="2OqwBi" id="57NTRpQ8zZ2" role="37vLTJ">
+                  <node concept="2OqwBi" id="57NTRpQ8z_l" role="2Oq$k0">
+                    <node concept="3DZwUI" id="57NTRpQ8zqj" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="57NTRpQ8zNO" role="2OqNvi">
+                      <ref role="3Tt5mk" to="14sb:1trrptaBsmM" resolve="optChild" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="57NTRpQ8$jN" role="2OqNvi">
+                    <ref role="3TsBF5" to="14sb:1trrptaBskK" resolve="data" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="57NTRpQ8_OL" role="3cqZAp">
+              <node concept="3DZwUI" id="57NTRpQ8_OK" role="3clFbG" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="pHN19" id="57NTRpQ8zkb" role="3WPhuS">
+      <node concept="2V$Bhx" id="57NTRpQ8zkc" role="2V$M_3">
         <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
         <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
       </node>

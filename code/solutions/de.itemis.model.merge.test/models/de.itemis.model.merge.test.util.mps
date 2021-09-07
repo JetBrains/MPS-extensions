@@ -106,9 +106,6 @@
       </concept>
     </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
-      <concept id="7080278351417106679" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNotNull" flags="nn" index="2Hmddi">
-        <child id="7080278351417106681" name="expression" index="2Hmdds" />
-      </concept>
       <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
         <child id="8427750732757990725" name="actual" index="3tpDZA" />
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
@@ -237,9 +234,25 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="2Hmddi" id="368jN$KdWsy" role="3cqZAp">
-                    <node concept="37vLTw" id="368jN$KdWCM" role="2Hmdds">
-                      <ref role="3cqZAo" node="368jN$KdW3g" resolve="conceptMergeSpecs" />
+                  <node concept="1gVbGN" id="57NTRpQ5jgj" role="3cqZAp">
+                    <node concept="3y3z36" id="57NTRpQ5k0N" role="1gVkn0">
+                      <node concept="10Nm6u" id="57NTRpQ5kcD" role="3uHU7w" />
+                      <node concept="37vLTw" id="57NTRpQ5jsK" role="3uHU7B">
+                        <ref role="3cqZAo" node="368jN$KdW3g" resolve="conceptMergeSpecs" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="57NTRpQ5mXC" role="1gVpfI">
+                      <node concept="Xl_RD" id="57NTRpQ5mXZ" role="3uHU7w">
+                        <property role="Xl_RC" value=" is null!" />
+                      </node>
+                      <node concept="3cpWs3" id="57NTRpQ5ml4" role="3uHU7B">
+                        <node concept="Xl_RD" id="57NTRpQ5kAD" role="3uHU7B">
+                          <property role="Xl_RC" value="ConceptMergeSpecs of " />
+                        </node>
+                        <node concept="37vLTw" id="57NTRpQ5mxq" role="3uHU7w">
+                          <ref role="3cqZAo" node="2C9csoifTwg" resolve="modelMerge" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbF" id="2C9csoifTwL" role="3cqZAp">

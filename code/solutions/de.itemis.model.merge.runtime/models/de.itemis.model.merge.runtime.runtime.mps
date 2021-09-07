@@ -992,5 +992,61 @@
     </node>
     <node concept="3Tm1VV" id="3Wln5KIV2Yi" role="1B3o_S" />
   </node>
+  <node concept="312cEu" id="57NTRpQ5ILk">
+    <property role="3GE5qa" value="child" />
+    <property role="TrG5h" value="BuiltInChildDrop" />
+    <node concept="3Tm1VV" id="57NTRpQ5ILl" role="1B3o_S" />
+    <node concept="3uibUv" id="57NTRpQ5ILm" role="1zkMxy">
+      <ref role="3uigEE" node="5lvG0vIUb3x" resolve="BuiltInChildMerger" />
+    </node>
+    <node concept="3clFbW" id="57NTRpQ5ILn" role="jymVt">
+      <node concept="3cqZAl" id="57NTRpQ5ILo" role="3clF45" />
+      <node concept="3Tm1VV" id="57NTRpQ5ILp" role="1B3o_S" />
+      <node concept="37vLTG" id="57NTRpQ5ILq" role="3clF46">
+        <property role="TrG5h" value="link" />
+        <node concept="3uibUv" id="57NTRpQ5ILr" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="57NTRpQ5ILs" role="3clF47">
+        <node concept="XkiVB" id="57NTRpQ5ILt" role="3cqZAp">
+          <ref role="37wK5l" node="5lvG0vIUb9t" resolve="BuiltInChildMerger" />
+          <node concept="37vLTw" id="57NTRpQ5ILu" role="37wK5m">
+            <ref role="3cqZAo" node="57NTRpQ5ILq" resolve="link" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="57NTRpQ5ILv" role="jymVt">
+      <property role="TrG5h" value="merge" />
+      <node concept="3Tm1VV" id="57NTRpQ5ILw" role="1B3o_S" />
+      <node concept="_YKpA" id="57NTRpQ5ILx" role="3clF45">
+        <node concept="3Tqbb2" id="57NTRpQ5ILy" role="_ZDj9" />
+      </node>
+      <node concept="37vLTG" id="57NTRpQ5ILz" role="3clF46">
+        <property role="TrG5h" value="leftParent" />
+        <node concept="3Tqbb2" id="57NTRpQ5IL$" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="57NTRpQ5IL_" role="3clF46">
+        <property role="TrG5h" value="rightParent" />
+        <node concept="3Tqbb2" id="57NTRpQ5ILA" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="57NTRpQ5ILB" role="3clF46">
+        <property role="TrG5h" value="workingcopy" />
+        <node concept="3Tqbb2" id="57NTRpQ5ILC" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="57NTRpQ5ILD" role="3clF47">
+        <node concept="3clFbF" id="57NTRpQ5K1Q" role="3cqZAp">
+          <node concept="2YIFZM" id="57NTRpQ5K3P" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="57NTRpQ5ILQ" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+  </node>
 </model>
 

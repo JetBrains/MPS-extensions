@@ -60,7 +60,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -555,7 +554,6 @@
               <node concept="3xONca" id="2C9csoixcXs" role="37wK5m">
                 <ref role="3xOPvv" node="2C9csoiwM$S" resolve="payloadInst2" />
               </node>
-              <node concept="10Nm6u" id="2C9csoixcXt" role="37wK5m" />
             </node>
           </node>
         </node>

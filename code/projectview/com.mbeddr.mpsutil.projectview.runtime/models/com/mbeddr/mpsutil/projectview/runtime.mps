@@ -501,6 +501,21 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
     </node>
+    <node concept="3clFb_" id="5i3SmuN3rZ1" role="jymVt">
+      <property role="TrG5h" value="isDefaultView" />
+      <node concept="3clFbS" id="5i3SmuN3rZ4" role="3clF47" />
+      <node concept="3Tm1VV" id="5i3SmuN3rZ5" role="1B3o_S" />
+      <node concept="10P_77" id="5i3SmuN3rXE" role="3clF45" />
+      <node concept="37vLTG" id="5i3SmuN3ypC" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="5i3SmuN3ypB" role="1tU5fm">
+          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+        </node>
+        <node concept="2AHcQZ" id="5i3SmuN3yyO" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="3ZnFyBjtwPx" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3ZnFyBjtwWN">
@@ -3129,6 +3144,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="5i3SmuN3zll" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="511fZqnrrYY" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -3141,6 +3159,9 @@
         <node concept="3clFbF" id="511fZqnrrZ4" role="3cqZAp">
           <node concept="10Nm6u" id="511fZqnrrZ3" role="3clFbG" />
         </node>
+      </node>
+      <node concept="2AHcQZ" id="5i3SmuN3zlp" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
       </node>
     </node>
     <node concept="3clFb_" id="4QICnJ5Fxnn" role="jymVt">
@@ -3156,6 +3177,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="5i3SmuN3zlo" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="4QICnJ5Fxnu" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -3169,6 +3193,9 @@
             <property role="3clFbU" value="true" />
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="5i3SmuN3zlk" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
       </node>
     </node>
     <node concept="3clFb_" id="4QICnJ5Fxn_" role="jymVt">
@@ -3184,6 +3211,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="5i3SmuN3zlm" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="4QICnJ5FxnG" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -3197,6 +3227,9 @@
             <property role="3clFbU" value="true" />
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="5i3SmuN3zlj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
       </node>
     </node>
     <node concept="3clFb_" id="4QICnJ5GLoz" role="jymVt">
@@ -3229,6 +3262,9 @@
       </node>
       <node concept="3Tm1VV" id="4QICnJ5GLgv" role="1B3o_S" />
       <node concept="10P_77" id="4QICnJ5GLmt" role="3clF45" />
+      <node concept="2AHcQZ" id="5i3SmuN3zln" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
     </node>
     <node concept="3clFb_" id="3dJ0eUbGh6Y" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -3286,6 +3322,28 @@
       </node>
       <node concept="2AHcQZ" id="5GuprjjdxO$" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="5i3SmuN3Fvf" role="jymVt">
+      <property role="TrG5h" value="isDefaultView" />
+      <node concept="3clFbS" id="5i3SmuN3Fvi" role="3clF47">
+        <node concept="3clFbF" id="5i3SmuN3Gtb" role="3cqZAp">
+          <node concept="3clFbT" id="5i3SmuN3Gta" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5i3SmuN3$ft" role="1B3o_S" />
+      <node concept="10P_77" id="5i3SmuN3Fk$" role="3clF45" />
+      <node concept="37vLTG" id="5i3SmuN3JtM" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="5i3SmuN3JtL" role="1tU5fm">
+          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+        </node>
+        <node concept="2AHcQZ" id="5i3SmuN3K9I" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5i3SmuN3JTF" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
       </node>
     </node>
   </node>
@@ -6864,16 +6922,13 @@
             </node>
             <node concept="2ShNRf" id="VPgi8etJvP" role="33vP2m">
               <node concept="1pGfFk" id="VPgi8etJvQ" role="2ShVmc">
-                <ref role="37wK5l" to="uhdf:7diJr$Rj_vi" resolve="CustomProjectView" />
+                <ref role="37wK5l" to="uhdf:4gq8yQBZ6OA" resolve="CustomProjectView" />
                 <node concept="2YIFZM" id="VPgi8etJvR" role="37wK5m">
                   <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
                   <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
                   <node concept="37vLTw" id="VPgi8etJvS" role="37wK5m">
                     <ref role="3cqZAo" node="VPgi8eu125" resolve="project" />
                   </node>
-                </node>
-                <node concept="37vLTw" id="VPgi8euezX" role="37wK5m">
-                  <ref role="3cqZAo" node="VPgi8eu01g" resolve="viewId" />
                 </node>
                 <node concept="37vLTw" id="14IYMxQOpIs" role="37wK5m">
                   <ref role="3cqZAo" node="2ZGhpRff88S" resolve="projectView" />

@@ -10439,9 +10439,6 @@
         <node concept="3LEDTy" id="7q24334ZzZk" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
         </node>
-        <node concept="3LEDTy" id="2EPKBwuSjqi" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
-        </node>
       </node>
       <node concept="1E1JtA" id="4hqUO9aIeR_" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -10669,12 +10666,6 @@
         <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
         </node>
-        <node concept="3LEDTy" id="2EPKBwuSjqQ" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
-        </node>
-        <node concept="3LEDTy" id="2EPKBwuSjqR" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
-        </node>
       </node>
     </node>
     <node concept="2G$12M" id="2OJNL7ElSUK" role="3989C9">
@@ -10700,50 +10691,6 @@
         <node concept="1SiIV0" id="59804$yR$NJ" role="3bR37C">
           <node concept="3bR9La" id="59804$yR$NK" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="42yR2aTbzPQ" role="3bR37C">
-          <node concept="1BurEX" id="42yR2aTbzPR" role="1SiIV1">
-            <node concept="398BVA" id="42yR2aTbzPD" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="42yR2aTbzPE" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="42yR2aTbzPF" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="42yR2aTbzPG" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
-                    <node concept="2Ry0Ak" id="42yR2aTbzPH" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="42yR2aTbzPI" role="2Ry0An">
-                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="42yR2aTbzQ5" role="3bR37C">
-          <node concept="1BurEX" id="42yR2aTbzQ6" role="1SiIV1">
-            <node concept="398BVA" id="42yR2aTbzPS" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="42yR2aTbzPT" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="42yR2aTbzPU" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="42yR2aTbzPV" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
-                    <node concept="2Ry0Ak" id="42yR2aTbzPW" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="42yR2aTbzPX" role="2Ry0An">
-                        <property role="2Ry0Am" value="vavr-0.9.3.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
           </node>
         </node>
         <node concept="3rtmxn" id="5py4VqXmLJW" role="3bR31x">
@@ -10787,6 +10734,50 @@
             </node>
             <node concept="3qWCbU" id="42yR2aTbzQL" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="42yR2aTbzPQ" role="3bR37C">
+          <node concept="1BurEX" id="42yR2aTbzPR" role="1SiIV1">
+            <node concept="398BVA" id="42yR2aTbzPD" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="42yR2aTbzPE" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="42yR2aTbzPF" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="42yR2aTbzPG" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="42yR2aTbzPH" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="42yR2aTbzPI" role="2Ry0An">
+                        <property role="2Ry0Am" value="trove4j-3.0.3.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="42yR2aTbzQ5" role="3bR37C">
+          <node concept="1BurEX" id="42yR2aTbzQ6" role="1SiIV1">
+            <node concept="398BVA" id="42yR2aTbzPS" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="42yR2aTbzPT" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="42yR2aTbzPU" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="42yR2aTbzPV" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="42yR2aTbzPW" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="42yR2aTbzPX" role="2Ry0An">
+                        <property role="2Ry0Am" value="vavr-0.9.3.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -11246,14 +11237,14 @@
       <node concept="m$_yC" id="3ofF9dt4eDr" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
       </node>
-      <node concept="2iUeEo" id="3vhhDKcvNeO" role="2iVFfd">
-        <property role="2iUeEt" value="Modelix" />
-        <property role="2iUeEu" value="http://modelix.org/" />
-      </node>
       <node concept="3_J27D" id="3vhhDKcvN2a" role="3s6cr7">
         <node concept="3Mxwew" id="3vhhDKcvN8v" role="3MwsjC">
           <property role="3MwjfP" value="Alternative model API with better support for persistent data structures" />
         </node>
+      </node>
+      <node concept="2iUeEo" id="3vhhDKcvNeO" role="2iVFfd">
+        <property role="2iUeEt" value="Modelix" />
+        <property role="2iUeEu" value="http://modelix.org/" />
       </node>
     </node>
     <node concept="2G$12M" id="5U8hsWC6WQb" role="3989C9">

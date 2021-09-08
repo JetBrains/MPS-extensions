@@ -91,6 +91,12 @@
         <property id="4297162197620978193" name="parallelThreads" index="1wNuhh" />
         <property id="4297162197621031140" name="inplace" index="1wOHq$" />
       </concept>
+      <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
+        <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
+        <property id="8137134783396676838" name="extracted" index="1HemKv" />
+        <property id="2889113830911481881" name="deployFolderName" index="3ZfqAx" />
+        <child id="8137134783396676835" name="location" index="1HemKq" />
+      </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
@@ -147,6 +153,31 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="61$YOOzZm5_" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="61$YOOzZm5A" role="1HemKq">
+            <node concept="398BVA" id="61$YOOzZm5q" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="61$YOOzZm5r" role="iGT6I">
+                <property role="2Ry0Am" value="build" />
+                <node concept="2Ry0Ak" id="61$YOOzZm5s" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="61$YOOzZm5t" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.extensions.build" />
+                    <node concept="2Ry0Ak" id="61$YOOzZm5u" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="61$YOOzZm5B" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>

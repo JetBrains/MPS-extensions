@@ -6,7 +6,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
@@ -6887,6 +6887,17 @@
           </node>
         </node>
         <node concept="3clFbJ" id="1mvsX9hskdN" role="3cqZAp">
+          <node concept="3fqX7Q" id="1mvsX9htlpt" role="3clFbw">
+            <node concept="2OqwBi" id="1mvsX9htlpv" role="3fr31v">
+              <node concept="2YIFZM" id="1mvsX9htlpw" role="2Oq$k0">
+                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+              </node>
+              <node concept="liA8E" id="1mvsX9htlpx" role="2OqNvi">
+                <ref role="37wK5l" to="bd8o:~Application.isUnitTestMode()" resolve="isUnitTestMode" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbS" id="1mvsX9hskdP" role="3clFbx">
             <node concept="3clFbF" id="4gq8yQBZ72$" role="3cqZAp">
               <node concept="2OqwBi" id="4gq8yQBZ72_" role="3clFbG">
@@ -7057,17 +7068,6 @@
                     <ref role="3cqZAo" node="4gq8yQBZ72d" resolve="autoFocusContents" />
                   </node>
                 </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3fqX7Q" id="1mvsX9htlpt" role="3clFbw">
-            <node concept="2OqwBi" id="1mvsX9htlpv" role="3fr31v">
-              <node concept="2YIFZM" id="1mvsX9htlpw" role="2Oq$k0">
-                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-              </node>
-              <node concept="liA8E" id="1mvsX9htlpx" role="2OqNvi">
-                <ref role="37wK5l" to="bd8o:~Application.isUnitTestMode()" resolve="isUnitTestMode" />
               </node>
             </node>
           </node>

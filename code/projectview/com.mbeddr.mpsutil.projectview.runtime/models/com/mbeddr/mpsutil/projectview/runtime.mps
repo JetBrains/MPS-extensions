@@ -7208,11 +7208,11 @@
                   </node>
                 </node>
                 <node concept="2OqwBi" id="52ZF9D3g4gR" role="2GsD0m">
-                  <node concept="37vLTw" id="2oNsb922mcE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2oNsb9228bt" resolve="moduleRepository" />
-                  </node>
                   <node concept="liA8E" id="52ZF9D3g4tz" role="2OqNvi">
                     <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getModules()" resolve="getModules" />
+                  </node>
+                  <node concept="37vLTw" id="2oNsb922mcE" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2oNsb9228bt" resolve="moduleRepository" />
                   </node>
                 </node>
               </node>

@@ -244,7 +244,7 @@
     <property role="EcuMT" value="8422540920006554635" />
     <property role="3GE5qa" value="elementpolicies" />
     <property role="TrG5h" value="OptionalPolicy" />
-    <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractChildPolicy" />
+    <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1TJgyj" id="7jyS5urbFnA" role="1TKVEi">
       <property role="IQ2ns" value="8422540920006555110" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -262,7 +262,7 @@
     <property role="EcuMT" value="8422540920006612555" />
     <property role="3GE5qa" value="elementpolicies" />
     <property role="TrG5h" value="SingletonPolicy" />
-    <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractChildPolicy" />
+    <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1TJgyj" id="7jyS5urbTpc" role="1TKVEi">
       <property role="IQ2ns" value="8422540920006555110" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -275,7 +275,7 @@
     <property role="EcuMT" value="8422540920006612575" />
     <property role="3GE5qa" value="elementpolicies" />
     <property role="TrG5h" value="MultiChildPolicy" />
-    <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractChildPolicy" />
+    <ref role="1TJDcQ" node="1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1TJgyj" id="7jyS5urbTpw" role="1TKVEi">
       <property role="IQ2ns" value="8422540920006612576" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -344,7 +344,7 @@
   <node concept="1TIwiD" id="1VmHfRxVF4G">
     <property role="EcuMT" value="2222162468664160556" />
     <property role="3GE5qa" value="elementpolicies" />
-    <property role="TrG5h" value="AbstractChildPolicy" />
+    <property role="TrG5h" value="AbstractPolicy" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1VmHfRxVF4J" role="1TKVEi">

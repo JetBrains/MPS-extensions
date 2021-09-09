@@ -1678,7 +1678,7 @@
   </node>
   <node concept="13MO4I" id="368jN$KhtZu">
     <property role="TrG5h" value="leftChild" />
-    <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractChildPolicy" />
+    <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="368jN$KkbX7" role="1s_3oS">
       <property role="TrG5h" value="child" />
       <node concept="3Tqbb2" id="368jN$KkbX8" role="1N15GL">
@@ -1749,7 +1749,7 @@
   </node>
   <node concept="13MO4I" id="368jN$KiQBx">
     <property role="TrG5h" value="rightChild" />
-    <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractChildPolicy" />
+    <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="368jN$Kk9j0" role="1s_3oS">
       <property role="TrG5h" value="child" />
       <node concept="3Tqbb2" id="368jN$Kk9rc" role="1N15GL">
@@ -1820,7 +1820,7 @@
   </node>
   <node concept="13MO4I" id="368jN$KiRfe">
     <property role="TrG5h" value="manualChild" />
-    <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractChildPolicy" />
+    <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="368jN$Kluqh" role="1s_3oS">
       <property role="TrG5h" value="child" />
       <node concept="3Tqbb2" id="368jN$KluYI" role="1N15GL">
@@ -2023,7 +2023,7 @@
   </node>
   <node concept="13MO4I" id="57NTRpQ5LUy">
     <property role="TrG5h" value="dropChild" />
-    <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractChildPolicy" />
+    <ref role="3gUMe" to="mopj:1VmHfRxVF4G" resolve="AbstractPolicy" />
     <node concept="1N15co" id="57NTRpQ5LUz" role="1s_3oS">
       <property role="TrG5h" value="child" />
       <node concept="3Tqbb2" id="57NTRpQ5LU$" role="1N15GL">

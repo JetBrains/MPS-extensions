@@ -110,6 +110,12 @@
       <property role="20kJfa" value="other" />
       <ref role="20lvS9" node="57$6ALrLfRh" resolve="OtherData" />
     </node>
+    <node concept="1TJgyj" id="5v01ES7qU43" role="1TKVEi">
+      <property role="IQ2ns" value="6323061221346746627" />
+      <property role="20kJfa" value="other2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="57$6ALrLfRh" resolve="OtherData" />
+    </node>
     <node concept="1TJgyi" id="1trrptaBskK" role="1TKVEl">
       <property role="IQ2nx" value="1683059382312355120" />
       <property role="TrG5h" value="data" />
@@ -120,6 +126,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="myDate" />
       <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="jF$CuWiLEs" resolve="Payload" />
+    </node>
+    <node concept="1TJgyj" id="5v01ES7qUG3" role="1TKVEi">
+      <property role="IQ2ns" value="6323061221346749187" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="myDate2" />
       <ref role="20lvS9" node="jF$CuWiLEs" resolve="Payload" />
     </node>
   </node>

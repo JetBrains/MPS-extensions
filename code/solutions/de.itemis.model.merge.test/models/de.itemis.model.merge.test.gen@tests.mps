@@ -130,8 +130,10 @@
         <property id="354538107355995755" name="data" index="2SC8NG" />
       </concept>
       <concept id="1683059382312355119" name="de.itemis.model.merge.diamond.structure.Data" flags="ng" index="1tLEyS">
+        <property id="6323061221352246501" name="data2" index="1gvSDb" />
         <property id="1683059382312355120" name="data" index="1tLEyB" />
         <reference id="5900870464460619220" name="other" index="a8euS" />
+        <reference id="6323061221346746627" name="other2" index="1gEUuH" />
         <child id="354538107357074941" name="myDate" index="2SG0tU" />
       </concept>
     </language>
@@ -925,6 +927,8 @@
     <node concept="1qefOq" id="368jN$K71_W" role="1SKRRt">
       <node concept="1tLEyS" id="368jN$K721b" role="1qenE9">
         <property role="1tLEyB" value="www" />
+        <property role="1gvSDb" value="22" />
+        <ref role="1gEUuH" node="1Av7Chm9$7I" />
         <node concept="2SC8wr" id="368jN$K721c" role="2SG0tU">
           <property role="2SC8NG" value="hobo" />
           <node concept="3xLA65" id="368jN$K7X80" role="lGtFl">
@@ -939,6 +943,8 @@
     <node concept="1qefOq" id="368jN$K77zt" role="1SKRRt">
       <node concept="1tLEyS" id="368jN$K77z$" role="1qenE9">
         <property role="1tLEyB" value="aaa" />
+        <property role="1gvSDb" value="22" />
+        <ref role="1gEUuH" node="1Av7Chm9$7I" />
         <node concept="2SC8wr" id="368jN$K77z_" role="2SG0tU">
           <property role="2SC8NG" value="hubu" />
           <node concept="3xLA65" id="368jN$K9iX2" role="lGtFl">
@@ -1413,12 +1419,16 @@
         <property role="I0P1J" value="1" />
         <node concept="1tLEyS" id="368jN$Kobs9" role="1tLEzb">
           <property role="1tLEyB" value="www" />
+          <property role="1gvSDb" value="22" />
+          <ref role="1gEUuH" node="1Av7Chm9$7I" />
           <node concept="2SC8wr" id="368jN$Kobsa" role="2SG0tU">
             <property role="2SC8NG" value="22" />
           </node>
         </node>
         <node concept="1tLEyS" id="368jN$Kob$f" role="1tLEw_">
           <property role="1tLEyB" value="opt1" />
+          <property role="1gvSDb" value="22" />
+          <ref role="1gEUuH" node="1Av7Chm9$7I" />
           <node concept="2SC8wr" id="368jN$Kob$g" role="2SG0tU">
             <property role="2SC8NG" value="opt1" />
           </node>
@@ -1434,12 +1444,16 @@
         <property role="I0P1J" value="1" />
         <node concept="1tLEyS" id="368jN$KobvK" role="1tLEzb">
           <property role="1tLEyB" value="www" />
+          <property role="1gvSDb" value="22" />
+          <ref role="1gEUuH" node="1Av7Chm9$7I" />
           <node concept="2SC8wr" id="368jN$KobvL" role="2SG0tU">
             <property role="2SC8NG" value="2" />
           </node>
         </node>
         <node concept="1tLEyS" id="368jN$Kob$j" role="1tLEw_">
           <property role="1tLEyB" value="opt2" />
+          <property role="1gvSDb" value="22" />
+          <ref role="1gEUuH" node="1Av7Chm9$7I" />
           <node concept="2SC8wr" id="368jN$Kob$k" role="2SG0tU">
             <property role="2SC8NG" value="opt2" />
           </node>
@@ -1455,6 +1469,8 @@
         <property role="I0P1J" value="1" />
         <node concept="1tLEyS" id="57NTRpQ4Ql6" role="1tLEzb">
           <property role="1tLEyB" value="www" />
+          <property role="1gvSDb" value="22" />
+          <ref role="1gEUuH" node="1Av7Chm9$7I" />
           <node concept="2SC8wr" id="57NTRpQ4Ql7" role="2SG0tU">
             <property role="2SC8NG" value="2" />
           </node>
@@ -1580,7 +1596,9 @@
     <node concept="1qefOq" id="1Av7Chmbo9P" role="1SKRRt">
       <node concept="1tLEyS" id="1Av7Chmboa7" role="1qenE9">
         <property role="1tLEyB" value="www1" />
+        <property role="1gvSDb" value="22" />
         <ref role="a8euS" node="1Av7Chm9$DU" />
+        <ref role="1gEUuH" node="1Av7Chm9$DU" />
         <node concept="2SC8wr" id="1Av7Chmboa8" role="2SG0tU">
           <property role="2SC8NG" value="11" />
         </node>
@@ -1592,7 +1610,9 @@
     <node concept="1qefOq" id="1Av7Chmboab" role="1SKRRt">
       <node concept="1tLEyS" id="1Av7Chmboaw" role="1qenE9">
         <property role="1tLEyB" value="www2" />
+        <property role="1gvSDb" value="22" />
         <ref role="a8euS" node="1Av7Chm9$7I" />
+        <ref role="1gEUuH" node="1Av7Chm9$7I" />
         <node concept="2SC8wr" id="1Av7Chmboax" role="2SG0tU">
           <property role="2SC8NG" value="22" />
         </node>

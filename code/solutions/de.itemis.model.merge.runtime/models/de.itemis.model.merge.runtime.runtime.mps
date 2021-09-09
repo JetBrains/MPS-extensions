@@ -215,7 +215,7 @@
       <node concept="3Tm6S6" id="368jN$JXAMn" role="1B3o_S" />
       <node concept="_YKpA" id="368jN$JXAQX" role="1tU5fm">
         <node concept="3uibUv" id="368jN$JXARc" role="_ZDj9">
-          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ChildMerger" />
+          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptMerger" />
         </node>
       </node>
     </node>
@@ -295,7 +295,7 @@
         <property role="TrG5h" value="childMergers" />
         <node concept="_YKpA" id="368jN$JXC6r" role="1tU5fm">
           <node concept="3uibUv" id="368jN$JXC6s" role="_ZDj9">
-            <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ChildMerger" />
+            <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptMerger" />
           </node>
         </node>
       </node>
@@ -353,7 +353,7 @@
       <node concept="3Tm1VV" id="368jN$K7kyZ" role="1B3o_S" />
       <node concept="_YKpA" id="368jN$K7kCA" role="3clF45">
         <node concept="3uibUv" id="368jN$K7kCP" role="_ZDj9">
-          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ChildMerger" />
+          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptMerger" />
         </node>
       </node>
     </node>
@@ -547,7 +547,7 @@
     </node>
   </node>
   <node concept="3HP615" id="5lvG0vIUaC$">
-    <property role="TrG5h" value="ChildMerger" />
+    <property role="TrG5h" value="ConceptMerger" />
     <property role="3GE5qa" value="child" />
     <node concept="3clFb_" id="5lvG0vIUaXG" role="jymVt">
       <property role="TrG5h" value="link" />
@@ -611,7 +611,7 @@
     </node>
     <node concept="3Tm1VV" id="5lvG0vIUb3y" role="1B3o_S" />
     <node concept="3uibUv" id="5lvG0vIUb4w" role="EKbjA">
-      <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ChildMerger" />
+      <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptMerger" />
     </node>
     <node concept="3clFb_" id="5lvG0vIUb60" role="jymVt">
       <property role="TrG5h" value="link" />

@@ -1150,7 +1150,7 @@
             <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...)" resolve="asList" />
             <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
             <node concept="3uibUv" id="368jN$JXVXg" role="3PaCim">
-              <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ChildMerger" />
+              <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptMerger" />
             </node>
             <node concept="10Nm6u" id="368jN$JXWcj" role="37wK5m">
               <node concept="1WS0z7" id="368jN$JXWDl" role="lGtFl">
@@ -1837,7 +1837,7 @@
       <node concept="YeOm9" id="368jN$K9tMp" role="2ShVmc">
         <node concept="1Y3b0j" id="368jN$K9tMs" role="YeSDq">
           <property role="2bfB8j" value="true" />
-          <ref role="1Y3XeK" to="gunp:5lvG0vIUaC$" resolve="ChildMerger" />
+          <ref role="1Y3XeK" to="gunp:5lvG0vIUaC$" resolve="ConceptMerger" />
           <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
           <node concept="3Tm1VV" id="368jN$K9tMt" role="1B3o_S" />
           <node concept="3clFb_" id="368jN$K9tM_" role="jymVt">

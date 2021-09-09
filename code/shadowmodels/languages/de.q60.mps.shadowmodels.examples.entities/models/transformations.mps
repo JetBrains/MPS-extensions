@@ -200,18 +200,8 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1762,16 +1752,6 @@
             <ref role="027rv" to="jh6v:qmkA5fOskn" resolve="modules" />
             <node concept="027og" id="2cFycKbzIPK" role="027rp">
               <ref role="02LMe" to="jh6v:qmkA5fOskf" resolve="Module" />
-              <node concept="1X3_iC" id="5ndwm32Js0e" role="lGtFl">
-                <property role="3V$3am" value="content" />
-                <property role="3V$3ak" value="94b64715-a263-4c36-a138-8da14705ffa7/7335687028107243116/7335687028107281653" />
-                <node concept="027oh" id="2cFycKbzK7r" role="8Wnug">
-                  <ref role="027oj" to="dj5d:3Ezg1fME0bw" resolve="id" />
-                  <node concept="Xl_RD" id="2cFycKbzKmH" role="027of">
-                    <property role="Xl_RC" value="9f709976-3309-437e-b18e-3e6b3d7f78a7" />
-                  </node>
-                </node>
-              </node>
               <node concept="027oh" id="5ndwm32JsfD" role="02LM9">
                 <ref role="027oj" to="tpck:h0TrG11" resolve="name" />
                 <node concept="Xl_RD" id="5ndwm32Jsnz" role="027of">

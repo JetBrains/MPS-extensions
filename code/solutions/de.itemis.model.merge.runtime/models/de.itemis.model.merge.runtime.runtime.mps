@@ -215,10 +215,20 @@
       <node concept="3Tm6S6" id="368jN$JXAMn" role="1B3o_S" />
       <node concept="_YKpA" id="368jN$JXAQX" role="1tU5fm">
         <node concept="3uibUv" id="368jN$JXARc" role="_ZDj9">
-          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptMerger" />
+          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptChildMerger" />
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="LVVqNxhCqu" role="jymVt">
+      <property role="TrG5h" value="referencemergers" />
+      <node concept="3Tm6S6" id="LVVqNxhCqv" role="1B3o_S" />
+      <node concept="_YKpA" id="LVVqNxhCqw" role="1tU5fm">
+        <node concept="3uibUv" id="LVVqNxhCqx" role="_ZDj9">
+          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptChildMerger" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="LVVqNxhC8n" role="jymVt" />
     <node concept="312cEg" id="5lvG0vITZTi" role="jymVt">
       <property role="TrG5h" value="concept" />
       <node concept="3Tm6S6" id="5lvG0vITZSH" role="1B3o_S" />
@@ -276,6 +286,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="LVVqNxhEkZ" role="3cqZAp">
+          <node concept="37vLTI" id="LVVqNxhFyZ" role="3clFbG">
+            <node concept="37vLTw" id="LVVqNxhFFP" role="37vLTx">
+              <ref role="3cqZAo" node="LVVqNxhDTW" resolve="referenceMergers" />
+            </node>
+            <node concept="2OqwBi" id="LVVqNxhEEh" role="37vLTJ">
+              <node concept="Xjq3P" id="LVVqNxhEkX" role="2Oq$k0" />
+              <node concept="2OwXpG" id="LVVqNxhEMK" role="2OqNvi">
+                <ref role="2Oxat5" node="LVVqNxhCqu" resolve="referencemergers" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="5lvG0vIU45e" role="3clF46">
         <property role="TrG5h" value="concept" />
@@ -295,7 +318,15 @@
         <property role="TrG5h" value="childMergers" />
         <node concept="_YKpA" id="368jN$JXC6r" role="1tU5fm">
           <node concept="3uibUv" id="368jN$JXC6s" role="_ZDj9">
-            <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptMerger" />
+            <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptChildMerger" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="LVVqNxhDTW" role="3clF46">
+        <property role="TrG5h" value="referenceMergers" />
+        <node concept="_YKpA" id="LVVqNxhDTX" role="1tU5fm">
+          <node concept="3uibUv" id="LVVqNxhDTY" role="_ZDj9">
+            <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptChildMerger" />
           </node>
         </node>
       </node>
@@ -353,7 +384,27 @@
       <node concept="3Tm1VV" id="368jN$K7kyZ" role="1B3o_S" />
       <node concept="_YKpA" id="368jN$K7kCA" role="3clF45">
         <node concept="3uibUv" id="368jN$K7kCP" role="_ZDj9">
-          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptMerger" />
+          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptChildMerger" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="LVVqNxhCyR" role="jymVt">
+      <property role="TrG5h" value="referenceMergers" />
+      <node concept="3clFbS" id="LVVqNxhCyS" role="3clF47">
+        <node concept="3clFbF" id="LVVqNxhCyT" role="3cqZAp">
+          <node concept="2YIFZM" id="LVVqNxhCyU" role="3clFbG">
+            <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+            <ref role="37wK5l" to="33ny:~Collections.unmodifiableList(java.util.List)" resolve="unmodifiableList" />
+            <node concept="37vLTw" id="LVVqNxhDFM" role="37wK5m">
+              <ref role="3cqZAo" node="LVVqNxhCqu" resolve="referencemergers" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="LVVqNxhCyW" role="1B3o_S" />
+      <node concept="_YKpA" id="LVVqNxhCyX" role="3clF45">
+        <node concept="3uibUv" id="LVVqNxhCyY" role="_ZDj9">
+          <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptChildMerger" />
         </node>
       </node>
     </node>
@@ -547,7 +598,7 @@
     </node>
   </node>
   <node concept="3HP615" id="5lvG0vIUaC$">
-    <property role="TrG5h" value="ConceptMerger" />
+    <property role="TrG5h" value="ConceptChildMerger" />
     <property role="3GE5qa" value="child" />
     <node concept="3clFb_" id="5lvG0vIUaXG" role="jymVt">
       <property role="TrG5h" value="link" />
@@ -611,14 +662,11 @@
     </node>
     <node concept="3Tm1VV" id="5lvG0vIUb3y" role="1B3o_S" />
     <node concept="3uibUv" id="5lvG0vIUb4w" role="EKbjA">
-      <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptMerger" />
+      <ref role="3uigEE" node="5lvG0vIUaC$" resolve="ConceptChildMerger" />
     </node>
     <node concept="3clFb_" id="5lvG0vIUb60" role="jymVt">
       <property role="TrG5h" value="link" />
       <node concept="3Tm1VV" id="5lvG0vIUb62" role="1B3o_S" />
-      <node concept="3uibUv" id="5lvG0vIUb63" role="3clF45">
-        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
-      </node>
       <node concept="3clFbS" id="5lvG0vIUb64" role="3clF47">
         <node concept="3clFbF" id="5lvG0vIUbk6" role="3cqZAp">
           <node concept="37vLTw" id="5lvG0vIUbk3" role="3clFbG">
@@ -628,6 +676,9 @@
       </node>
       <node concept="2AHcQZ" id="5lvG0vIUb65" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3uibUv" id="5lvG0vIUb63" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
       </node>
     </node>
   </node>

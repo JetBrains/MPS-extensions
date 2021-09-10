@@ -483,7 +483,7 @@
             <property role="TrG5h" value="childMergers" />
             <node concept="_YKpA" id="1Av7ChlWg0_" role="1tU5fm">
               <node concept="3uibUv" id="1Av7ChlWg0A" role="_ZDj9">
-                <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptMerger" />
+                <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptChildMerger" />
               </node>
             </node>
             <node concept="2OqwBi" id="1Av7ChlWg0B" role="33vP2m">
@@ -516,7 +516,7 @@
           <node concept="3cpWsn" id="1Av7ChlWg0F" role="3cpWs9">
             <property role="TrG5h" value="merger" />
             <node concept="3uibUv" id="1Av7ChlWg0G" role="1tU5fm">
-              <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptMerger" />
+              <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptChildMerger" />
             </node>
             <node concept="1eOMI4" id="1Av7ChlWg0H" role="33vP2m">
               <node concept="2OqwBi" id="1Av7ChlWg0I" role="1eOMHV">

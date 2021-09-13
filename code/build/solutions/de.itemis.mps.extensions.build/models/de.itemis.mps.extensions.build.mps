@@ -5665,9 +5665,9 @@
         </node>
       </node>
       <node concept="3LEwk6" id="5kDpuTS3hez" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.editor.diagram.devkit" />
         <property role="3LESm3" value="b1972fb0-9171-4e58-8cee-05866bb91ec2" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="5kDpuTS3htL" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5kDpuTS3ink" role="iGT6I">
@@ -8452,8 +8452,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="4iIKqJTZ5Ib" role="m$_w8">
-        <node concept="3Mxwew" id="4iIKqJTZ5Ic" role="3MwsjC">
-          <property role="3MwjfP" value="2018.1.0" />
+        <node concept="3Mxwey" id="5RvgN3y6QJu" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="4iIKqJTZ5Id" role="m$_yh">
@@ -8505,8 +8505,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="2OJNL7ElZsL" role="m$_w8">
-        <node concept="3Mxwew" id="2OJNL7Em1p7" role="3MwsjC">
-          <property role="3MwjfP" value="2020.1.0" />
+        <node concept="3Mxwey" id="5RvgN3y6QPN" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="2OJNL7Em1w6" role="m$_yh">
@@ -8529,8 +8529,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="BRK1N8p1BO" role="m$_w8">
-        <node concept="3Mxwew" id="BRK1N8p1FO" role="3MwsjC">
-          <property role="3MwjfP" value="2018.1.0" />
+        <node concept="3Mxwey" id="5RvgN3y6QW8" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="BRK1N8p1FQ" role="m$_yh">

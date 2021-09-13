@@ -48,6 +48,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -579,6 +582,73 @@
     </node>
     <node concept="pHN19" id="3xLnOvECYys" role="3WPhuS">
       <node concept="2V$Bhx" id="3xLnOvECYyt" role="2V$M_3">
+        <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
+      </node>
+    </node>
+  </node>
+  <node concept="1olOeT" id="3xLnOvEDutF">
+    <property role="TrG5h" value="RefManualOptionalMerge" />
+    <node concept="1oluLK" id="3xLnOvEDutG" role="1olsr8" />
+    <node concept="1oluLK" id="3xLnOvEDutH" role="1olsr8" />
+    <node concept="1oluLK" id="3xLnOvEDutI" role="1olsr8" />
+    <node concept="1olsrb" id="3xLnOvEDutJ" role="1olsr8">
+      <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
+      <node concept="230_S" id="3xLnOvEDutK" role="21DrV">
+        <node concept="3clFbS" id="3xLnOvEDutL" role="2VODD2">
+          <node concept="3clFbF" id="3xLnOvEDutM" role="3cqZAp">
+            <node concept="Xl_RD" id="3xLnOvEDutN" role="3clFbG">
+              <property role="Xl_RC" value="bala" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1DuYju" id="3xLnOvEDutO" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:jF$CuWmTnX" resolve="myDate" />
+        <node concept="1orWrO" id="3xLnOvEDutP" role="3JN5mM" />
+      </node>
+      <node concept="3JNno8" id="3xLnOvEDutQ" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:5v01ES7JSNv" resolve="myDate3" />
+        <node concept="3Z5p37" id="3xLnOvEDutR" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHzSW" id="3xLnOvEDutS" role="3Z4xbE" />
+        </node>
+      </node>
+      <node concept="1orWGm" id="3xLnOvEDutT" role="1orW53">
+        <ref role="3iOP7l" to="14sb:1trrptaBskK" resolve="data" />
+        <node concept="1orWrO" id="3xLnOvEDutU" role="1orWrN" />
+      </node>
+      <node concept="1DuYjb" id="3xLnOvEDutV" role="1IWF8q">
+        <ref role="3Ze0ni" to="14sb:57$6ALrLfRk" resolve="other" />
+        <node concept="3DZp98" id="3xLnOvEDuyM" role="3JN5mL">
+          <node concept="3clFbS" id="3xLnOvEDuyO" role="2VODD2">
+            <node concept="3clFbF" id="3xLnOvEDu$W" role="3cqZAp">
+              <node concept="37vLTI" id="3xLnOvEDx3y" role="3clFbG">
+                <node concept="3cmrfG" id="3xLnOvEDxe_" role="37vLTx">
+                  <property role="3cmrfH" value="666" />
+                </node>
+                <node concept="2OqwBi" id="3xLnOvEDvWU" role="37vLTJ">
+                  <node concept="2OqwBi" id="3xLnOvEDv6q" role="2Oq$k0">
+                    <node concept="3DZwUI" id="3xLnOvEDu$V" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3xLnOvEDvpp" role="2OqNvi">
+                      <ref role="3Tt5mk" to="14sb:57$6ALrLfRk" resolve="other" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3xLnOvEDwbI" role="2OqNvi">
+                    <ref role="3TsBF5" to="14sb:57$6ALrLfRi" resolve="something" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3xLnOvEDxqh" role="3cqZAp">
+              <node concept="3DZwUI" id="3xLnOvEDxqg" role="3clFbG" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="pHN19" id="3xLnOvEDutX" role="3WPhuS">
+      <node concept="2V$Bhx" id="3xLnOvEDutY" role="2V$M_3">
         <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
         <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
       </node>

@@ -541,5 +541,48 @@
       </node>
     </node>
   </node>
+  <node concept="1olOeT" id="3xLnOvECYya">
+    <property role="TrG5h" value="RefDropOptionalMerge" />
+    <node concept="1oluLK" id="3xLnOvECYyb" role="1olsr8" />
+    <node concept="1oluLK" id="3xLnOvECYyc" role="1olsr8" />
+    <node concept="1oluLK" id="3xLnOvECYyd" role="1olsr8" />
+    <node concept="1olsrb" id="3xLnOvECYye" role="1olsr8">
+      <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
+      <node concept="230_S" id="3xLnOvECYyf" role="21DrV">
+        <node concept="3clFbS" id="3xLnOvECYyg" role="2VODD2">
+          <node concept="3clFbF" id="3xLnOvECYyh" role="3cqZAp">
+            <node concept="Xl_RD" id="3xLnOvECYyi" role="3clFbG">
+              <property role="Xl_RC" value="bala" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1DuYju" id="3xLnOvECYyj" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:jF$CuWmTnX" resolve="myDate" />
+        <node concept="1orWrO" id="3xLnOvECYyk" role="3JN5mM" />
+      </node>
+      <node concept="3JNno8" id="3xLnOvECYyl" role="3JN1Yi">
+        <ref role="3Ze0ni" to="14sb:5v01ES7JSNv" resolve="myDate3" />
+        <node concept="3Z5p37" id="3xLnOvECYym" role="3JNnoR">
+          <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
+          <node concept="3JHzSW" id="3xLnOvECYyn" role="3Z4xbE" />
+        </node>
+      </node>
+      <node concept="1orWGm" id="3xLnOvECYyo" role="1orW53">
+        <ref role="3iOP7l" to="14sb:1trrptaBskK" resolve="data" />
+        <node concept="1orWrO" id="3xLnOvECYyp" role="1orWrN" />
+      </node>
+      <node concept="1DuYjb" id="3xLnOvECYyq" role="1IWF8q">
+        <ref role="3Ze0ni" to="14sb:57$6ALrLfRk" resolve="other" />
+        <node concept="3JN9zx" id="3xLnOvECYBe" role="3JN5mL" />
+      </node>
+    </node>
+    <node concept="pHN19" id="3xLnOvECYys" role="3WPhuS">
+      <node concept="2V$Bhx" id="3xLnOvECYyt" role="2V$M_3">
+        <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
+        <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
+      </node>
+    </node>
+  </node>
 </model>
 

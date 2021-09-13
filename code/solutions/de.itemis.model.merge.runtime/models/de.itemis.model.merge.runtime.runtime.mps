@@ -54,6 +54,7 @@
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -1298,6 +1299,53 @@
       <node concept="3Tqbb2" id="3xLnOvEARIH" role="3clF45" />
     </node>
     <node concept="3uibUv" id="3xLnOvEARII" role="1zkMxy">
+      <ref role="3uigEE" node="4WBgwWtg02Q" resolve="BuiltInRefMerger" />
+    </node>
+  </node>
+  <node concept="312cEu" id="3xLnOvECWX2">
+    <property role="3GE5qa" value="reference" />
+    <property role="TrG5h" value="BuiltInRefDrop" />
+    <node concept="3Tm1VV" id="3xLnOvECWX3" role="1B3o_S" />
+    <node concept="3clFbW" id="3xLnOvECWX4" role="jymVt">
+      <node concept="3cqZAl" id="3xLnOvECWX5" role="3clF45" />
+      <node concept="3Tm1VV" id="3xLnOvECWX6" role="1B3o_S" />
+      <node concept="37vLTG" id="3xLnOvECWX7" role="3clF46">
+        <property role="TrG5h" value="ref" />
+        <node concept="3uibUv" id="3xLnOvECWX8" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3xLnOvECWX9" role="3clF47">
+        <node concept="XkiVB" id="3xLnOvECWXa" role="3cqZAp">
+          <ref role="37wK5l" node="4WBgwWtg0CH" resolve="BuiltInRefMerger" />
+          <node concept="37vLTw" id="3xLnOvECWXb" role="37wK5m">
+            <ref role="3cqZAo" node="3xLnOvECWX7" resolve="ref" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3xLnOvECWXc" role="jymVt">
+      <property role="TrG5h" value="merge" />
+      <node concept="3Tm1VV" id="3xLnOvECWXd" role="1B3o_S" />
+      <node concept="37vLTG" id="3xLnOvECWXe" role="3clF46">
+        <property role="TrG5h" value="leftParent" />
+        <node concept="3Tqbb2" id="3xLnOvECWXf" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3xLnOvECWXg" role="3clF46">
+        <property role="TrG5h" value="rightParent" />
+        <node concept="3Tqbb2" id="3xLnOvECWXh" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3xLnOvECWXi" role="3clF47">
+        <node concept="3clFbF" id="3xLnOvECXha" role="3cqZAp">
+          <node concept="10Nm6u" id="3xLnOvECXgY" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3xLnOvECWXu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3Tqbb2" id="3xLnOvECWXv" role="3clF45" />
+    </node>
+    <node concept="3uibUv" id="3xLnOvECWXw" role="1zkMxy">
       <ref role="3uigEE" node="4WBgwWtg02Q" resolve="BuiltInRefMerger" />
     </node>
   </node>

@@ -1197,34 +1197,25 @@
         <node concept="3Tqbb2" id="4WBgwWtg22G" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="4WBgwWtg22H" role="3clF47">
-        <node concept="3cpWs8" id="4WBgwWtg6nx" role="3cqZAp">
-          <node concept="3cpWsn" id="4WBgwWtg6ny" role="3cpWs9">
-            <property role="TrG5h" value="reference" />
-            <node concept="3uibUv" id="4WBgwWtg6aN" role="1tU5fm">
-              <ref role="3uigEE" to="mhbf:~SReference" resolve="SReference" />
-            </node>
-            <node concept="2OqwBi" id="4WBgwWtg6nz" role="33vP2m">
-              <node concept="2JrnkZ" id="4WBgwWtg6n$" role="2Oq$k0">
-                <node concept="37vLTw" id="4WBgwWtg6n_" role="2JrQYb">
-                  <ref role="3cqZAo" node="4WBgwWtg22D" resolve="leftParent" />
+        <node concept="3clFbF" id="4WBgwWtg2LA" role="3cqZAp">
+          <node concept="2OqwBi" id="4WBgwWtg7f2" role="3clFbG">
+            <node concept="1eOMI4" id="3xLnOvEARAw" role="2Oq$k0">
+              <node concept="2OqwBi" id="3xLnOvEARAp" role="1eOMHV">
+                <node concept="2JrnkZ" id="3xLnOvEARAq" role="2Oq$k0">
+                  <node concept="37vLTw" id="3xLnOvEARAr" role="2JrQYb">
+                    <ref role="3cqZAo" node="4WBgwWtg22D" resolve="leftParent" />
+                  </node>
                 </node>
-              </node>
-              <node concept="liA8E" id="4WBgwWtg6nA" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getReference(org.jetbrains.mps.openapi.language.SReferenceLink)" resolve="getReference" />
-                <node concept="2OqwBi" id="4WBgwWtg6nB" role="37wK5m">
-                  <node concept="Xjq3P" id="4WBgwWtg6nC" role="2Oq$k0" />
-                  <node concept="liA8E" id="4WBgwWtg6nD" role="2OqNvi">
-                    <ref role="37wK5l" node="4WBgwWtg0dS" resolve="reference" />
+                <node concept="liA8E" id="3xLnOvEARAs" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getReference(org.jetbrains.mps.openapi.language.SReferenceLink)" resolve="getReference" />
+                  <node concept="2OqwBi" id="3xLnOvEARAt" role="37wK5m">
+                    <node concept="Xjq3P" id="3xLnOvEARAu" role="2Oq$k0" />
+                    <node concept="liA8E" id="3xLnOvEARAv" role="2OqNvi">
+                      <ref role="37wK5l" node="4WBgwWtg0dS" resolve="reference" />
+                    </node>
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4WBgwWtg2LA" role="3cqZAp">
-          <node concept="2OqwBi" id="4WBgwWtg7f2" role="3clFbG">
-            <node concept="37vLTw" id="4WBgwWtg6nE" role="2Oq$k0">
-              <ref role="3cqZAo" node="4WBgwWtg6ny" resolve="reference" />
             </node>
             <node concept="liA8E" id="4WBgwWtg7nx" role="2OqNvi">
               <ref role="37wK5l" to="mhbf:~SReference.getTargetNode()" resolve="getTargetNode" />
@@ -1238,6 +1229,75 @@
       <node concept="3Tqbb2" id="4WBgwWtg22C" role="3clF45" />
     </node>
     <node concept="3uibUv" id="4WBgwWtg2gD" role="1zkMxy">
+      <ref role="3uigEE" node="4WBgwWtg02Q" resolve="BuiltInRefMerger" />
+    </node>
+  </node>
+  <node concept="312cEu" id="3xLnOvEARIg">
+    <property role="3GE5qa" value="reference" />
+    <property role="TrG5h" value="BuiltInRefRight" />
+    <node concept="3Tm1VV" id="3xLnOvEARIh" role="1B3o_S" />
+    <node concept="3clFbW" id="3xLnOvEARIi" role="jymVt">
+      <node concept="3cqZAl" id="3xLnOvEARIj" role="3clF45" />
+      <node concept="3Tm1VV" id="3xLnOvEARIk" role="1B3o_S" />
+      <node concept="37vLTG" id="3xLnOvEARIl" role="3clF46">
+        <property role="TrG5h" value="ref" />
+        <node concept="3uibUv" id="3xLnOvEARIm" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3xLnOvEARIn" role="3clF47">
+        <node concept="XkiVB" id="3xLnOvEARIo" role="3cqZAp">
+          <ref role="37wK5l" node="4WBgwWtg0CH" resolve="BuiltInRefMerger" />
+          <node concept="37vLTw" id="3xLnOvEARIp" role="37wK5m">
+            <ref role="3cqZAo" node="3xLnOvEARIl" resolve="ref" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3xLnOvEARIq" role="jymVt">
+      <property role="TrG5h" value="merge" />
+      <node concept="3Tm1VV" id="3xLnOvEARIr" role="1B3o_S" />
+      <node concept="37vLTG" id="3xLnOvEARIs" role="3clF46">
+        <property role="TrG5h" value="leftParent" />
+        <node concept="3Tqbb2" id="3xLnOvEARIt" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3xLnOvEARIu" role="3clF46">
+        <property role="TrG5h" value="rightParent" />
+        <node concept="3Tqbb2" id="3xLnOvEARIv" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3xLnOvEARIw" role="3clF47">
+        <node concept="3clFbF" id="3xLnOvEARIx" role="3cqZAp">
+          <node concept="2OqwBi" id="3xLnOvEARIy" role="3clFbG">
+            <node concept="1eOMI4" id="3xLnOvEARIz" role="2Oq$k0">
+              <node concept="2OqwBi" id="3xLnOvEARI$" role="1eOMHV">
+                <node concept="2JrnkZ" id="3xLnOvEARI_" role="2Oq$k0">
+                  <node concept="37vLTw" id="3xLnOvEAS4f" role="2JrQYb">
+                    <ref role="3cqZAo" node="3xLnOvEARIu" resolve="rightParent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3xLnOvEARIB" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getReference(org.jetbrains.mps.openapi.language.SReferenceLink)" resolve="getReference" />
+                  <node concept="2OqwBi" id="3xLnOvEARIC" role="37wK5m">
+                    <node concept="Xjq3P" id="3xLnOvEARID" role="2Oq$k0" />
+                    <node concept="liA8E" id="3xLnOvEARIE" role="2OqNvi">
+                      <ref role="37wK5l" node="4WBgwWtg0dS" resolve="reference" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="3xLnOvEARIF" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SReference.getTargetNode()" resolve="getTargetNode" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3xLnOvEARIG" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3Tqbb2" id="3xLnOvEARIH" role="3clF45" />
+    </node>
+    <node concept="3uibUv" id="3xLnOvEARII" role="1zkMxy">
       <ref role="3uigEE" node="4WBgwWtg02Q" resolve="BuiltInRefMerger" />
     </node>
   </node>

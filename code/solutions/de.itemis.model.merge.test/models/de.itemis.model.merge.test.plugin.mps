@@ -456,7 +456,7 @@
     </node>
   </node>
   <node concept="1olOeT" id="1Av7Chmbo9c">
-    <property role="TrG5h" value="RefMerge" />
+    <property role="TrG5h" value="RefLeftOptionalMerge" />
     <node concept="1oluLK" id="1Av7Chmbo9d" role="1olsr8" />
     <node concept="1oluLK" id="5v01ES7JSSG" role="1olsr8" />
     <node concept="1oluLK" id="5v01ES7JSSU" role="1olsr8" />

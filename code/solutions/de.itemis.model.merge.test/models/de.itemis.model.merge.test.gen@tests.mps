@@ -1502,7 +1502,7 @@
             <property role="TrG5h" value="modelMerge" />
             <node concept="17QB3L" id="1Av7Chm6hjd" role="1tU5fm" />
             <node concept="Xl_RD" id="1Av7Chm6hje" role="33vP2m">
-              <property role="Xl_RC" value="RefMerge" />
+              <property role="Xl_RC" value="RefLeftOptionalMerge" />
             </node>
           </node>
         </node>

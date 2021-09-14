@@ -23528,12 +23528,19 @@
               <node concept="37vLTw" id="1gQHfgGYU31" role="37wK5m">
                 <ref role="3cqZAo" node="1gQHfgGYL4Z" resolve="myProperty" />
               </node>
-              <node concept="2OqwBi" id="1gQHfgGYUhW" role="37wK5m">
-                <node concept="37vLTw" id="1gQHfgGYUaW" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1gQHfgGYIfM" resolve="element" />
+              <node concept="2YIFZM" id="2SITBwp4h_x" role="37wK5m">
+                <ref role="37wK5l" node="7FkgTXZuQyG" resolve="toInternalPropertyValue" />
+                <ref role="1Pybhc" node="RbLMy696h3" resolve="GrammarCellsUtil" />
+                <node concept="37vLTw" id="2SITBwp4h_y" role="37wK5m">
+                  <ref role="3cqZAo" node="1gQHfgGYL4Z" resolve="myProperty" />
                 </node>
-                <node concept="liA8E" id="1gQHfgGYUr0" role="2OqNvi">
-                  <ref role="37wK5l" node="4qdNcH$3Sqz" resolve="getTextValue" />
+                <node concept="2OqwBi" id="2SITBwp4h_z" role="37wK5m">
+                  <node concept="37vLTw" id="2SITBwp4h_$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1gQHfgGYIfM" resolve="element" />
+                  </node>
+                  <node concept="liA8E" id="2SITBwp4h__" role="2OqNvi">
+                    <ref role="37wK5l" node="4qdNcH$3Sqz" resolve="getTextValue" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -23563,16 +23570,23 @@
               <node concept="37vLTw" id="3pFNVizIpjn" role="37wK5m">
                 <ref role="3cqZAo" node="1gQHfgGYL4Z" resolve="myProperty" />
               </node>
-              <node concept="2OqwBi" id="1gQHfgGYUEm" role="37wK5m">
-                <node concept="2JrnkZ" id="1gQHfgGYU$A" role="2Oq$k0">
-                  <node concept="37vLTw" id="1gQHfgGYUtw" role="2JrQYb">
-                    <ref role="3cqZAo" node="1gQHfgGYIfX" resolve="parent" />
-                  </node>
+              <node concept="2YIFZM" id="2SITBwp4irw" role="37wK5m">
+                <ref role="37wK5l" node="7FkgTXZuTUj" resolve="fromInternalPropertyValue" />
+                <ref role="1Pybhc" node="RbLMy696h3" resolve="GrammarCellsUtil" />
+                <node concept="37vLTw" id="2SITBwp4irx" role="37wK5m">
+                  <ref role="3cqZAo" node="1gQHfgGYL4Z" resolve="myProperty" />
                 </node>
-                <node concept="liA8E" id="1gQHfgGYUNU" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty)" resolve="getProperty" />
-                  <node concept="37vLTw" id="1gQHfgGYUPR" role="37wK5m">
-                    <ref role="3cqZAo" node="1gQHfgGYL4Z" resolve="myProperty" />
+                <node concept="2OqwBi" id="2SITBwp4iry" role="37wK5m">
+                  <node concept="2JrnkZ" id="2SITBwp4irz" role="2Oq$k0">
+                    <node concept="37vLTw" id="2SITBwp4ir$" role="2JrQYb">
+                      <ref role="3cqZAo" node="1gQHfgGYIfX" resolve="parent" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2SITBwp4ir_" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SNode.getProperty(org.jetbrains.mps.openapi.language.SProperty)" resolve="getProperty" />
+                    <node concept="37vLTw" id="2SITBwp4irA" role="37wK5m">
+                      <ref role="3cqZAo" node="1gQHfgGYL4Z" resolve="myProperty" />
+                    </node>
                   </node>
                 </node>
               </node>

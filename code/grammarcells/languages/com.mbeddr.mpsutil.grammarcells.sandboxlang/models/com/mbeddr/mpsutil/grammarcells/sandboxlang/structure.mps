@@ -11,6 +11,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <property id="672037151186491528" name="presentation" index="1L1pqM" />
         <reference id="899069222106091871" name="oldMember" index="2wpffI" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
@@ -669,21 +670,25 @@
     <node concept="25R33" id="7WTFIQIcYqT" role="25R1y">
       <property role="TrG5h" value="a" />
       <property role="3tVfz5" value="8850773520007259040" />
+      <property role="1L1pqM" value="A" />
       <ref role="2wpffI" node="7FkgTXZtQew" />
     </node>
     <node concept="25R33" id="7WTFIQIcYqU" role="25R1y">
       <property role="TrG5h" value="b" />
       <property role="3tVfz5" value="8850773520007259065" />
+      <property role="1L1pqM" value="B" />
       <ref role="2wpffI" node="7FkgTXZtQeT" />
     </node>
     <node concept="25R33" id="7WTFIQIcYqV" role="25R1y">
       <property role="TrG5h" value="c" />
       <property role="3tVfz5" value="8850773520007259074" />
+      <property role="1L1pqM" value="C" />
       <ref role="2wpffI" node="7FkgTXZtQf2" />
     </node>
     <node concept="25R33" id="7WTFIQIcYqW" role="25R1y">
       <property role="TrG5h" value="d" />
       <property role="3tVfz5" value="8850773520007259087" />
+      <property role="1L1pqM" value="D" />
       <ref role="2wpffI" node="7FkgTXZtQff" />
     </node>
   </node>

@@ -1241,6 +1241,7 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="9L22Epae_e" role="3clF47">
+                        <node concept="3clFbH" id="2ZXaRkXmkwJ" role="3cqZAp" />
                         <node concept="3cpWs8" id="3p9Oys9W59H" role="3cqZAp">
                           <node concept="3cpWsn" id="3p9Oys9W59I" role="3cpWs9">
                             <property role="TrG5h" value="symbolColor" />

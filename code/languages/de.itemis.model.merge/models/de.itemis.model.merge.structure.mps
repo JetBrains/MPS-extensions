@@ -319,7 +319,7 @@
     </node>
     <node concept="25R33" id="1VmHfRxJErz" role="25R1y">
       <property role="3tVfz5" value="2222162468661012195" />
-      <property role="TrG5h" value="Element" />
+      <property role="TrG5h" value="ElementOnBoth" />
       <property role="1L1pqM" value="Element On Both Sides" />
     </node>
   </node>

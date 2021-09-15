@@ -36,9 +36,11 @@
         <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
         <dependency reexport="false">189537ea-2a28-44c9-91aa-a8e68b3e1e1b(com.mbeddr.mpsutil.blutil.genutil)</dependency>
+        <dependency reexport="false">0ef84c01-bf36-41ed-9882-d7b70a4a4eba(de.itemis.model.merge.diamond)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:189537ea-2a28-44c9-91aa-a8e68b3e1e1b:com.mbeddr.mpsutil.blutil.genutil" version="0" />
+        <language slang="l:539e8939-08ef-497c-a5fd-25dd10137a55:de.itemis.model.merge" version="0" />
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
         <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />
@@ -66,6 +68,7 @@
         <module reference="189537ea-2a28-44c9-91aa-a8e68b3e1e1b(com.mbeddr.mpsutil.blutil.genutil)" version="0" />
         <module reference="6c5bab3e-5035-4a48-b9ea-62747c04e3d6(com.mbeddr.mpsutil.blutil.genutil.rt)" version="0" />
         <module reference="539e8939-08ef-497c-a5fd-25dd10137a55(de.itemis.model.merge)" version="0" />
+        <module reference="0ef84c01-bf36-41ed-9882-d7b70a4a4eba(de.itemis.model.merge.diamond)" version="0" />
         <module reference="1818e30f-efb7-4d9c-a3ad-59cc00b4b845(de.itemis.model.merge.generator)" version="0" />
         <module reference="4f0e4e6e-7b29-4f1f-ae26-4cdacfd17fab(de.itemis.model.merge.runtime)" version="0" />
         <module reference="aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)" version="0" />

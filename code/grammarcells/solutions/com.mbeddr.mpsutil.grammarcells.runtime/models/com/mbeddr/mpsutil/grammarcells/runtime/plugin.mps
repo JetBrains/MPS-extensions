@@ -4,6 +4,8 @@
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
+    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
     <import index="tiy4" ref="r:52d3e3bd-e2f1-411a-979a-f9c3c6870a48(com.mbeddr.mpsutil.grammarcells.runtimelang.editor)" />
@@ -66,6 +68,7 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -102,6 +105,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
@@ -128,6 +132,7 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
@@ -135,6 +140,11 @@
       </concept>
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+      </concept>
+    </language>
+    <language id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension">
+      <concept id="3729007189729192406" name="jetbrains.mps.lang.extension.structure.ExtensionPointDeclaration" flags="ng" index="vrV6u">
+        <child id="8029776554053057803" name="objectType" index="luc8K" />
       </concept>
     </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
@@ -716,5 +726,33 @@
     </node>
   </node>
   <node concept="2DaZZR" id="4AjdlHqlD$f" />
+  <node concept="vrV6u" id="6eLXiTKxV0G">
+    <property role="TrG5h" value="ParserFailureNotifierExtensionPoint" />
+    <node concept="3uibUv" id="6eLXiTKyInL" role="luc8K">
+      <ref role="3uigEE" node="6eLXiTKxV0M" resolve="ParserFailureNotifier" />
+    </node>
+  </node>
+  <node concept="3HP615" id="6eLXiTKxV0M">
+    <property role="TrG5h" value="ParserFailureNotifier" />
+    <node concept="2tJIrI" id="6eLXiTKxV2c" role="jymVt" />
+    <node concept="3clFb_" id="6eLXiTKyvMu" role="jymVt">
+      <property role="TrG5h" value="notifyParsingTimedOut" />
+      <node concept="37vLTG" id="6eLXiTKyIe3" role="3clF46">
+        <property role="TrG5h" value="timeInMs" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3cpWsb" id="6eLXiTKyIhI" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6eLXiTKyw1x" role="3clF46">
+        <property role="TrG5h" value="contextModel" />
+        <property role="3TUv4t" value="true" />
+        <node concept="H_c77" id="6eLXiTKyFCL" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6eLXiTKyvMw" role="3clF45" />
+      <node concept="3Tm1VV" id="6eLXiTKyvMx" role="1B3o_S" />
+      <node concept="3clFbS" id="6eLXiTKyvMy" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6eLXiTKxV2h" role="jymVt" />
+    <node concept="3Tm1VV" id="6eLXiTKxV0N" role="1B3o_S" />
+  </node>
 </model>
 

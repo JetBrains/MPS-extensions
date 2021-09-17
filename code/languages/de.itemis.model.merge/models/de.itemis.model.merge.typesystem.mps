@@ -12,7 +12,6 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="rnx3" ref="r:424d540e-f1fc-49a5-b16d-3f9264b84dee(de.itemis.model.merge.behavior)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="agc3" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.graph(de.q60.mps.libs/)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -2776,6 +2775,62 @@
     <node concept="1YaCAy" id="6celbXx0Ayl" role="1YuTPh">
       <property role="TrG5h" value="idFunctionParam" />
       <ref role="1YaFvo" to="mopj:6celbXx0AwS" resolve="IdFunctionParam" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="1PFYlaN6s76">
+    <property role="TrG5h" value="typeof_ActionCollectionFunctionLeftParam" />
+    <property role="3GE5qa" value="parameters" />
+    <node concept="3clFbS" id="1PFYlaN6s77" role="18ibNy">
+      <node concept="1Z5TYs" id="1PFYlaN6smH" role="3cqZAp">
+        <node concept="mw_s8" id="1PFYlaN7uJZ" role="1ZfhKB">
+          <node concept="2YIFZM" id="1PFYlaN7uWR" role="mwGJk">
+            <ref role="37wK5l" to="eywy:1PFYlaN7uNo" resolve="concepTypeByMultiChildPolicy" />
+            <ref role="1Pybhc" to="eywy:6celbXx1wA8" resolve="ParamUtil" />
+            <node concept="1YBJjd" id="1PFYlaN7uXX" role="37wK5m">
+              <ref role="1YBMHb" node="1PFYlaN6s79" resolve="actionCollectionFunctionLeftParam" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="1PFYlaN6smK" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1PFYlaN6s9J" role="mwGJk">
+            <node concept="1YBJjd" id="1PFYlaN6sbB" role="1Z2MuG">
+              <ref role="1YBMHb" node="1PFYlaN6s79" resolve="actionCollectionFunctionLeftParam" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1PFYlaN6s79" role="1YuTPh">
+      <property role="TrG5h" value="actionCollectionFunctionLeftParam" />
+      <ref role="1YaFvo" to="mopj:1PFYlaN6s6F" resolve="ActionCollectionFunctionLeftParam" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="1PFYlaN8uRD">
+    <property role="TrG5h" value="typeof_ActionCollectionFunctionRightParam" />
+    <property role="3GE5qa" value="parameters" />
+    <node concept="3clFbS" id="1PFYlaN8uRE" role="18ibNy">
+      <node concept="1Z5TYs" id="1PFYlaN8uTT" role="3cqZAp">
+        <node concept="mw_s8" id="1PFYlaN8uTU" role="1ZfhKB">
+          <node concept="2YIFZM" id="1PFYlaN8uTV" role="mwGJk">
+            <ref role="1Pybhc" to="eywy:6celbXx1wA8" resolve="ParamUtil" />
+            <ref role="37wK5l" to="eywy:1PFYlaN7uNo" resolve="concepTypeByMultiChildPolicy" />
+            <node concept="1YBJjd" id="1PFYlaN8uX_" role="37wK5m">
+              <ref role="1YBMHb" node="1PFYlaN8uRG" resolve="actionCollectionFunctionRightParam" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="1PFYlaN8uTX" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1PFYlaN8uTY" role="mwGJk">
+            <node concept="1YBJjd" id="1PFYlaN8uU_" role="1Z2MuG">
+              <ref role="1YBMHb" node="1PFYlaN8uRG" resolve="actionCollectionFunctionRightParam" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1PFYlaN8uRG" role="1YuTPh">
+      <property role="TrG5h" value="actionCollectionFunctionRightParam" />
+      <ref role="1YaFvo" to="mopj:1PFYlaN8uRe" resolve="ActionCollectionFunctionRightParam" />
     </node>
   </node>
 </model>

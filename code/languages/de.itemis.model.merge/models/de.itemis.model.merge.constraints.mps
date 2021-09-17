@@ -900,7 +900,7 @@
                       </node>
                       <node concept="17R0WA" id="6W0eXudbL_r" role="3uHU7w">
                         <node concept="35c_gC" id="6W0eXudbL_s" role="3uHU7w">
-                          <ref role="35c_gD" to="mopj:1NgLzfPblhV" resolve="ManualAction" />
+                          <ref role="35c_gD" to="mopj:1PFYlaN5Vnz" resolve="ManualCollectionAction" />
                         </node>
                         <node concept="2DD5aU" id="6W0eXudbL_t" role="3uHU7B" />
                       </node>

@@ -213,7 +213,7 @@
     <property role="TrG5h" value="ActionFunctionLeftParam" />
     <property role="34LRSv" value="left" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
+    <property role="R4oN_" value="Left Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="1NgLzfPc0Pz">
@@ -221,7 +221,7 @@
     <property role="TrG5h" value="ActionFunctionRightParam" />
     <property role="34LRSv" value="right" />
     <property role="3GE5qa" value="parameters" />
-    <property role="R4oN_" value="Keep Right Version, Omit Left Version" />
+    <property role="R4oN_" value="Right Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7jyS5urbByQ">
@@ -454,6 +454,36 @@
     <property role="EcuMT" value="8750798999615961127" />
     <property role="3GE5qa" value="action" />
     <property role="TrG5h" value="PropertyMergeAction" />
+  </node>
+  <node concept="1TIwiD" id="1PFYlaN5Vnz">
+    <property role="EcuMT" value="2120062183195260387" />
+    <property role="TrG5h" value="ManualCollectionAction" />
+    <property role="3GE5qa" value="action" />
+    <property role="34LRSv" value="Manual" />
+    <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="1PFYlaN5Vn$" role="PzmwI">
+      <ref role="PrY4T" node="6zqIeMU2OVl" resolve="MergeAction" />
+    </node>
+    <node concept="PrWs8" id="1PFYlaN5Vn_" role="PzmwI">
+      <ref role="PrY4T" node="7_L5legWZwB" resolve="PropertyMergeAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1PFYlaN6s6F">
+    <property role="EcuMT" value="2120062183195394475" />
+    <property role="TrG5h" value="ActionCollectionFunctionLeftParam" />
+    <property role="34LRSv" value="left" />
+    <property role="3GE5qa" value="parameters" />
+    <property role="R4oN_" value="Keep Left" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1PFYlaN8uRe">
+    <property role="EcuMT" value="2120062183195930062" />
+    <property role="TrG5h" value="ActionCollectionFunctionRightParam" />
+    <property role="34LRSv" value="right" />
+    <property role="3GE5qa" value="parameters" />
+    <property role="R4oN_" value="Right Version" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

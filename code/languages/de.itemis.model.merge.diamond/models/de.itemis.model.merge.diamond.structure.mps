@@ -22,6 +22,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -89,6 +90,9 @@
       <property role="IQ2nx" value="9112015721041703530" />
       <property role="TrG5h" value="nada" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="7Q5WRnfZ$gu" role="PrDN$">
+      <ref role="PrY4T" node="7Q5WRnfZ$gs" resolve="Statement" />
     </node>
   </node>
   <node concept="1TIwiD" id="7TOowlgsdak">
@@ -185,6 +189,34 @@
       <property role="IQ2nx" value="5900870464460619218" />
       <property role="TrG5h" value="something" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="7Q5WRnfZ$GG" role="PzmwI">
+      <ref role="PrY4T" node="7Q5WRnfZ$gs" resolve="Statement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Q5WRnfZe3K">
+    <property role="EcuMT" value="9044903113969688816" />
+    <property role="19KtqR" value="true" />
+    <property role="TrG5h" value="Diamonds" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7Q5WRnfZe3L" role="1TKVEi">
+      <property role="IQ2ns" value="9044903113969688817" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="statement" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7Q5WRnfZ$gs" resolve="Statement" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7Q5WRnfZ$gs">
+    <property role="EcuMT" value="9044903113969779740" />
+    <property role="TrG5h" value="Statement" />
+  </node>
+  <node concept="1TIwiD" id="7Q5WRnfZJ8c">
+    <property role="EcuMT" value="9044903113969824268" />
+    <property role="TrG5h" value="EmptyStatement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7Q5WRnfZJ8d" role="PzmwI">
+      <ref role="PrY4T" node="7Q5WRnfZ$gs" resolve="Statement" />
     </node>
   </node>
 </model>

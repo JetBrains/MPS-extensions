@@ -8739,8 +8739,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="4iIKqJTZ5Ib" role="m$_w8">
-        <node concept="3Mxwew" id="4iIKqJTZ5Ic" role="3MwsjC">
-          <property role="3MwjfP" value="2018.1.0" />
+        <node concept="3Mxwey" id="5RvgN3y6QJu" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="4iIKqJTZ5Id" role="m$_yh">
@@ -8792,8 +8792,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="2OJNL7ElZsL" role="m$_w8">
-        <node concept="3Mxwew" id="2OJNL7Em1p7" role="3MwsjC">
-          <property role="3MwjfP" value="2020.1.0" />
+        <node concept="3Mxwey" id="5RvgN3y6QPN" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="2OJNL7Em1w6" role="m$_yh">
@@ -8816,8 +8816,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="BRK1N8p1BO" role="m$_w8">
-        <node concept="3Mxwew" id="BRK1N8p1FO" role="3MwsjC">
-          <property role="3MwjfP" value="2018.1.0" />
+        <node concept="3Mxwey" id="5RvgN3y6QW8" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="BRK1N8p1FQ" role="m$_yh">

@@ -156,7 +156,7 @@
         <property role="2r114l" value="R04564646464666446" />
         <property role="vx$MJ" value="This is the description of requirement 0" />
         <node concept="2r1o01" id="3vizsF8sblW" role="2r1o1s">
-          <ref role="2r1o0d" node="4eOnSiwwmkN" resolve="R3" />
+          <ref role="2r1o0d" node="4eOnSiwwmkN" />
         </node>
         <node concept="1UFI08" id="2bN5SDooVQ7" role="1UFgUr">
           <node concept="1UFh5B" id="2bN5SDooVQ8" role="1UFh5U">
@@ -216,7 +216,7 @@
         <property role="2r114l" value="R123" />
         <property role="vx$MJ" value="This isfgh gh gh gh hskdhfkshdfk hn 1 asd" />
         <node concept="2r1o01" id="3vizsF8sbm1" role="2r1o1s">
-          <ref role="2r1o0d" node="3vizsF8sbm0" resolve="R123" />
+          <ref role="2r1o0d" node="3vizsF8sbm0" />
         </node>
         <node concept="1UFI08" id="2bN5SDooVSx" role="1UFgUr">
           <node concept="1UFh5B" id="2bN5SDooVSy" role="1UFh5U">
@@ -321,7 +321,7 @@
         <property role="2r114l" value="R2" />
         <property role="vx$MJ" value="This is the description of requirement 2" />
         <node concept="2r1o01" id="3vizsF8sboW" role="2r1o1s">
-          <ref role="2r1o0d" node="3vizsF8sboV" resolve="R2" />
+          <ref role="2r1o0d" node="3vizsF8sboV" />
         </node>
         <node concept="1UFI08" id="2bN5SDooW1j" role="1UFgUr">
           <node concept="1UFh5B" id="2bN5SDooW1k" role="1UFh5U">
@@ -357,7 +357,7 @@
         <property role="2r114l" value="R3" />
         <property role="vx$MJ" value="Test" />
         <node concept="2r1o01" id="4eOnSiwwmkY" role="2r1o1s">
-          <ref role="2r1o0d" node="3vizsF8sbm0" resolve="R123" />
+          <ref role="2r1o0d" node="3vizsF8sbm0" />
         </node>
         <node concept="1UFI08" id="2bN5SDooW2b" role="1UFgUr">
           <node concept="1UFh5B" id="2bN5SDooW2c" role="1UFh5U">
@@ -376,7 +376,7 @@
           </node>
         </node>
         <node concept="2r1o01" id="2Av81E4jaDT" role="2r1o1s">
-          <ref role="2r1o0d" node="2Av81E4jaCE" resolve="asdasd" />
+          <ref role="2r1o0d" node="2Av81E4jaCE" />
         </node>
       </node>
     </node>

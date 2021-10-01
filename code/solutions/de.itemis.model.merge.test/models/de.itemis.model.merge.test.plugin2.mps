@@ -10,6 +10,7 @@
   <imports>
     <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="rkwz" ref="r:ad43588a-311a-46ff-a2ec-5f0fed1527d9(de.itemis.model.merge.test.plugin)" />
   </imports>
   <registry>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
@@ -41,7 +42,7 @@
   </registry>
   <node concept="poArf" id="7Q5WRnfZe3x">
     <property role="TrG5h" value="MyExec" />
-    <ref role="pot50" node="28CFLxJ888h" resolve="CollectionChildDiamondMerge" />
+    <ref role="pot50" to="rkwz:3xLnOvEDNj_" resolve="CollectionChildDiamondMerge" />
     <node concept="1Xw6AR" id="7Q5WRnfZe3y" role="ppIIL">
       <node concept="1dCxOl" id="7Q5WRnfZTSD" role="1XwpL7">
         <property role="1XweGQ" value="r:0d5e1754-6d6f-4f02-a2ac-cc148bd9863b" />

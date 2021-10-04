@@ -3792,29 +3792,53 @@
                       </node>
                     </node>
                     <node concept="3clFbH" id="6nUV0qFJ1sN" role="3cqZAp" />
+                    <node concept="3cpWs8" id="5QC_cjYpMp" role="3cqZAp">
+                      <node concept="3cpWsn" id="5QC_cjYpMq" role="3cpWs9">
+                        <property role="TrG5h" value="myChangeField" />
+                        <node concept="3uibUv" id="5QC_cjYpMr" role="1tU5fm">
+                          <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+                        </node>
+                        <node concept="2OqwBi" id="5QC_cjYzUo" role="33vP2m">
+                          <node concept="37vLTw" id="5QC_cjYzUp" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3PRvLzCPww2" resolve="msgClass" />
+                          </node>
+                          <node concept="liA8E" id="5QC_cjYzUq" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String)" resolve="getDeclaredField" />
+                            <node concept="Xl_RD" id="5QC_cjYzUr" role="37wK5m">
+                              <property role="Xl_RC" value="myChange" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="5QC_cjYEtE" role="3cqZAp">
+                      <node concept="2OqwBi" id="5QC_cjYGuz" role="3clFbG">
+                        <node concept="37vLTw" id="5QC_cjYEtC" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5QC_cjYpMq" resolve="myChangeField" />
+                        </node>
+                        <node concept="liA8E" id="5QC_cjYKdU" role="2OqNvi">
+                          <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
+                          <node concept="3clFbT" id="5QC_cjYMyF" role="37wK5m">
+                            <property role="3clFbU" value="true" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3cpWs8" id="3PRvLzCPyCD" role="3cqZAp">
                       <node concept="3cpWsn" id="3PRvLzCPyCE" role="3cpWs9">
                         <property role="TrG5h" value="change" />
                         <node concept="3uibUv" id="3PRvLzCPyCF" role="1tU5fm">
                           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                         </node>
-                        <node concept="2OqwBi" id="3PRvLzCPyFD" role="33vP2m">
-                          <node concept="2OqwBi" id="3PRvLzCPyFh" role="2Oq$k0">
-                            <node concept="37vLTw" id="1rfeXz7xsD0" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3PRvLzCPww2" resolve="msgClass" />
-                            </node>
-                            <node concept="liA8E" id="3PRvLzCPyFj" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~Class.getMethod(java.lang.String,java.lang.Class...)" resolve="getMethod" />
-                              <node concept="Xl_RD" id="3PRvLzCPyFk" role="37wK5m">
-                                <property role="Xl_RC" value="getChange" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="3PRvLzCPyFI" role="2OqNvi">
-                            <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...)" resolve="invoke" />
-                            <node concept="37vLTw" id="1rfeXz7xsE$" role="37wK5m">
+                        <node concept="2OqwBi" id="5QC_cjUVVP" role="33vP2m">
+                          <node concept="liA8E" id="5QC_cjUZx0" role="2OqNvi">
+                            <ref role="37wK5l" to="t6h5:~Field.get(java.lang.Object)" resolve="get" />
+                            <node concept="37vLTw" id="5QC_cjV38a" role="37wK5m">
                               <ref role="3cqZAo" node="3PRvLzCPlug" resolve="message" />
                             </node>
+                          </node>
+                          <node concept="37vLTw" id="5QC_ck0cPb" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5QC_cjYpMq" resolve="myChangeField" />
                           </node>
                         </node>
                       </node>

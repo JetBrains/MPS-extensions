@@ -162,17 +162,11 @@
     <property role="3GE5qa" value="action" />
     <property role="R4oN_" value="Keep Left Version, Omit Right Version" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
-    <node concept="PrWs8" id="7_L5legWZwC" role="PzmwI">
-      <ref role="PrY4T" node="7_L5legWZwB" resolve="PropertyMergeAction" />
-    </node>
   </node>
   <node concept="PlHQZ" id="6zqIeMU2OVl">
     <property role="EcuMT" value="7555554651740524245" />
     <property role="TrG5h" value="MergeAction" />
     <property role="3GE5qa" value="action" />
-    <node concept="PrWs8" id="3Wln5KJ765d" role="PrDN$">
-      <ref role="PrY4T" node="7_L5legWZwB" resolve="PropertyMergeAction" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6zqIeMU2OVm">
     <property role="EcuMT" value="7555554651740524246" />
@@ -181,9 +175,6 @@
     <property role="3GE5qa" value="action" />
     <property role="R4oN_" value="Keep Right Version, Omit Left Version" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
-    <node concept="PrWs8" id="7_L5legWZwE" role="PzmwI">
-      <ref role="PrY4T" node="7_L5legWZwB" resolve="PropertyMergeAction" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6zqIeMU2RWS">
     <property role="EcuMT" value="7555554651740536632" />
@@ -203,9 +194,6 @@
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
     <node concept="PrWs8" id="1NgLzfPbKD3" role="PzmwI">
       <ref role="PrY4T" node="6zqIeMU2OVl" resolve="MergeAction" />
-    </node>
-    <node concept="PrWs8" id="7_L5legWZwL" role="PzmwI">
-      <ref role="PrY4T" node="7_L5legWZwB" resolve="PropertyMergeAction" />
     </node>
   </node>
   <node concept="1TIwiD" id="1NgLzfPbGyt">
@@ -450,11 +438,6 @@
       <ref role="PrY4T" node="3PLTv5jwPx8" resolve="ReferencePolicy" />
     </node>
   </node>
-  <node concept="PlHQZ" id="7_L5legWZwB">
-    <property role="EcuMT" value="8750798999615961127" />
-    <property role="3GE5qa" value="action" />
-    <property role="TrG5h" value="PropertyMergeAction" />
-  </node>
   <node concept="1TIwiD" id="1PFYlaN5Vnz">
     <property role="EcuMT" value="2120062183195260387" />
     <property role="TrG5h" value="ManualCollectionAction" />
@@ -464,9 +447,6 @@
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
     <node concept="PrWs8" id="1PFYlaN5Vn$" role="PzmwI">
       <ref role="PrY4T" node="6zqIeMU2OVl" resolve="MergeAction" />
-    </node>
-    <node concept="PrWs8" id="1PFYlaN5Vn_" role="PzmwI">
-      <ref role="PrY4T" node="7_L5legWZwB" resolve="PropertyMergeAction" />
     </node>
   </node>
   <node concept="1TIwiD" id="1PFYlaN6s6F">

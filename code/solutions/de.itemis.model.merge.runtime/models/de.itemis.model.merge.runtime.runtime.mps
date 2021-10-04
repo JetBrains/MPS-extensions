@@ -994,7 +994,7 @@
             <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
           </node>
           <node concept="3Tqbb2" id="3Wln5KIV5Og" role="11_B2D">
-            <ref role="ehGHo" to="mopj:7_L5legWZwB" resolve="PropertyMergeAction" />
+            <ref role="ehGHo" to="mopj:6zqIeMU2OVl" resolve="MergeAction" />
           </node>
         </node>
       </node>
@@ -1017,7 +1017,7 @@
               <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
             </node>
             <node concept="3Tqbb2" id="3Wln5KIWb8_" role="11_B2D">
-              <ref role="ehGHo" to="mopj:7_L5legWZwB" resolve="PropertyMergeAction" />
+              <ref role="ehGHo" to="mopj:6zqIeMU2OVl" resolve="MergeAction" />
             </node>
           </node>
         </node>

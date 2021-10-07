@@ -6,6 +6,7 @@
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="81362899-970b-421b-9fe3-2b64b343f769" name="de.itemis.model.simple.demo" version="0" />
   </languages>
   <imports>
     <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" />
@@ -63,6 +64,7 @@
         <reference id="6402745832172080681" name="modelMerge" index="pot50" />
         <child id="6402745832172399733" name="right" index="ppbcs" />
         <child id="6402745832172287192" name="left" index="ppIIL" />
+        <child id="3370123198533999175" name="result" index="2JagXQ" />
       </concept>
       <concept id="1912777765298260981" name="de.itemis.model.merge.structure.MergePolicy" flags="ng" index="1olsrb">
         <reference id="4176264672384277229" name="conceptRef" index="24zOxU" />
@@ -127,6 +129,14 @@
         <property role="1XweGQ" value="r:004b3d3b-adaf-4a82-a939-eecc5c96e8e8" />
         <node concept="1j_P7g" id="32ggi2DGsc0" role="1j$8Uc">
           <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.right" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="2V55j61VE0z" role="2JagXQ">
+      <node concept="1dCxOl" id="2V55j61VE0E" role="1XwpL7">
+        <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
+        <node concept="1j_P7g" id="2V55j61VE0F" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
         </node>
       </node>
     </node>

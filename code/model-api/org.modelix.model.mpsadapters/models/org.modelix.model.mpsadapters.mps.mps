@@ -16065,9 +16065,17 @@
             </node>
             <node concept="2YIFZM" id="3KKRs1ArmJ8" role="0kSFX">
               <ref role="1Pybhc" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
-              <ref role="37wK5l" node="1cIlazwUj6r" resolve="wrap" />
-              <node concept="37vLTw" id="6iwFuQBlRl8" role="37wK5m">
-                <ref role="3cqZAo" node="3KKRs1Armwc" resolve="node" />
+              <ref role="37wK5l" node="4EhVFrZ6z9$" resolve="wrap" />
+              <node concept="2YIFZM" id="7pSyEQL7Epd" role="37wK5m">
+                <ref role="1Pybhc" to="jks5:~NodeUtilKt" resolve="NodeUtilKt" />
+                <ref role="37wK5l" to="jks5:~NodeUtilKt.deepUnwrapNode(org.modelix.model.api.INode)" resolve="deepUnwrapNode" />
+                <node concept="2YIFZM" id="7pSyEQL7E_y" role="37wK5m">
+                  <ref role="1Pybhc" node="5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                  <ref role="37wK5l" node="5gTrVpGyMwR" resolve="wrap" />
+                  <node concept="37vLTw" id="7pSyEQL7EFA" role="37wK5m">
+                    <ref role="3cqZAo" node="3KKRs1Armwc" resolve="node" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

@@ -6799,20 +6799,28 @@
             <node concept="3uibUv" id="3KKRs1Aroei" role="0kSFW">
               <ref role="3uigEE" to="w1kc:~SNode" resolve="SNode" />
             </node>
-            <node concept="2YIFZM" id="3KKRs1ArmJ8" role="0kSFX">
-              <ref role="1Pybhc" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
-              <ref role="37wK5l" to="xxte:4EhVFrZ6z9$" resolve="wrap" />
-              <node concept="2YIFZM" id="6DbeQdmafNb" role="37wK5m">
-                <ref role="37wK5l" to="nv3w:1cIlazwYlj7" resolve="unwrap" />
-                <ref role="1Pybhc" to="nv3w:5gTrVpGxH_V" resolve="DependencyTrackingNode" />
-                <node concept="2YIFZM" id="3KKRs1ArmJa" role="37wK5m">
-                  <ref role="1Pybhc" to="xxte:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
-                  <ref role="37wK5l" to="xxte:5gTrVpGyMwR" resolve="wrap" />
-                  <node concept="2YIFZM" id="3KKRs1ArmU5" role="37wK5m">
-                    <ref role="1Pybhc" to="xxte:kHIbzAYu9G" resolve="ANode" />
-                    <ref role="37wK5l" to="xxte:3ECE8iPOQCm" resolve="unwrap" />
-                    <node concept="37vLTw" id="3KKRs1ArmXq" role="37wK5m">
-                      <ref role="3cqZAo" node="3KKRs1Armwc" resolve="node" />
+            <node concept="2YIFZM" id="7pSyEQL9hEc" role="0kSFX">
+              <ref role="37wK5l" to="xxte:7uapjVAY0et" resolve="tryGetUnwrappedNode" />
+              <ref role="1Pybhc" to="xxte:30TKBrMa5zj" resolve="SNodeAPI" />
+              <node concept="2YIFZM" id="3KKRs1ArmJ8" role="37wK5m">
+                <ref role="37wK5l" to="xxte:4EhVFrZ6z9$" resolve="wrap" />
+                <ref role="1Pybhc" to="xxte:4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+                <node concept="2YIFZM" id="6DbeQdmafNb" role="37wK5m">
+                  <ref role="1Pybhc" to="nv3w:5gTrVpGxH_V" resolve="DependencyTrackingNode" />
+                  <ref role="37wK5l" to="nv3w:1cIlazwYlj7" resolve="unwrap" />
+                  <node concept="2YIFZM" id="3KKRs1ArmJa" role="37wK5m">
+                    <ref role="1Pybhc" to="xxte:5gTrVpGjuLg" resolve="SNodeToNodeAdapter" />
+                    <ref role="37wK5l" to="xxte:5gTrVpGyMwR" resolve="wrap" />
+                    <node concept="2YIFZM" id="3KKRs1ArmU5" role="37wK5m">
+                      <ref role="37wK5l" to="xxte:3ECE8iPOQCm" resolve="unwrap" />
+                      <ref role="1Pybhc" to="xxte:kHIbzAYu9G" resolve="ANode" />
+                      <node concept="2YIFZM" id="7pSyEQL980F" role="37wK5m">
+                        <ref role="1Pybhc" to="xxte:30TKBrMa5zj" resolve="SNodeAPI" />
+                        <ref role="37wK5l" to="xxte:7uapjVAY0et" resolve="tryGetUnwrappedNode" />
+                        <node concept="37vLTw" id="7pSyEQL98c$" role="37wK5m">
+                          <ref role="3cqZAo" node="3KKRs1Armwc" resolve="node" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>

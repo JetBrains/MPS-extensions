@@ -364,6 +364,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tp25:1Bs_61$nfRn" resolve="ModelPointerExpression" />
     </node>
+    <node concept="1TJgyj" id="2V55j61V1D7" role="1TKVEi">
+      <property role="IQ2ns" value="3370123198533999175" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="result" />
+      <ref role="20lvS9" to="tp25:1Bs_61$nfRn" resolve="ModelPointerExpression" />
+    </node>
     <node concept="1TJgyj" id="5zr7Q_1IGSD" role="1TKVEi">
       <property role="IQ2ns" value="6402745832172080681" />
       <property role="20kJfa" value="modelMerge" />

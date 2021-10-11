@@ -1444,38 +1444,6 @@
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
           </node>
         </node>
-        <node concept="1yeLz9" id="r6xhSD_t3G" role="1TViLv">
-          <property role="TrG5h" value="de.slisson.mps.richtext#1212807527450963095" />
-          <property role="3LESm3" value="b14c57f5-24bf-4ea0-a408-715a6a32c6a9" />
-          <node concept="1BupzO" id="2eucapX07HN" role="3bR31x">
-            <property role="3ZfqAx" value="generator/template" />
-            <property role="1Hdu6h" value="true" />
-            <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="2eucapX07HO" role="1HemKq">
-              <node concept="398BVA" id="2eucapX07HA" role="3LXTmr">
-                <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-                <node concept="2Ry0Ak" id="2eucapX07HB" role="iGT6I">
-                  <property role="2Ry0Am" value="richtext" />
-                  <node concept="2Ry0Ak" id="2eucapX07HC" role="2Ry0An">
-                    <property role="2Ry0Am" value="languages" />
-                    <node concept="2Ry0Ak" id="2eucapX07HD" role="2Ry0An">
-                      <property role="2Ry0Am" value="richtext" />
-                      <node concept="2Ry0Ak" id="2eucapX07HE" role="2Ry0An">
-                        <property role="2Ry0Am" value="generator" />
-                        <node concept="2Ry0Ak" id="2eucapX07HF" role="2Ry0An">
-                          <property role="2Ry0Am" value="template" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3qWCbU" id="2eucapX07HP" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="2af7$rt_JZW" role="3bR37C">
           <node concept="3bR9La" id="2af7$rt_JZX" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />

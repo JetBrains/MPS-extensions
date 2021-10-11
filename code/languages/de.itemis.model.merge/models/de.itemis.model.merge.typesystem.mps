@@ -1821,7 +1821,7 @@
                     <node concept="3cpWs3" id="60iGZSK$Uct" role="a7wSD">
                       <node concept="3cpWs3" id="60iGZSK$Ucu" role="3uHU7B">
                         <node concept="Xl_RD" id="60iGZSK$Ucv" role="3uHU7B">
-                          <property role="Xl_RC" value="Concept" />
+                          <property role="Xl_RC" value="Concept " />
                         </node>
                         <node concept="37vLTw" id="60iGZSK$Ucw" role="3uHU7w">
                           <ref role="3cqZAo" node="60iGZSK$Ucj" resolve="sac" />

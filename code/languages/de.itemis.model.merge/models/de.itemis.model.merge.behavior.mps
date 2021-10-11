@@ -28,8 +28,6 @@
     <import index="gunp" ref="r:a4055897-4d16-4474-96e9-a78cf2abfe5a(de.itemis.model.merge.runtime.runtime)" />
     <import index="eywy" ref="r:00bd6c6e-8efd-4091-b9e4-76836a81d03e(de.itemis.model.merge.plugin)" />
     <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -3654,45 +3652,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="450aOM1PUca" role="3cqZAp">
-          <node concept="2OqwBi" id="450aOM1PUc7" role="3clFbG">
-            <node concept="10M0yZ" id="450aOM1PUc8" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="450aOM1PUc9" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="450aOM1PY_8" role="37wK5m">
-                <node concept="37vLTw" id="450aOM1PYHD" role="3uHU7w">
-                  <ref role="3cqZAo" node="3Wln5KJ5g$2" resolve="idFunction" />
-                </node>
-                <node concept="3cpWs3" id="450aOM1PX8o" role="3uHU7B">
-                  <node concept="3cpWs3" id="450aOM1PVak" role="3uHU7B">
-                    <node concept="Xl_RD" id="450aOM1PUyI" role="3uHU7B">
-                      <property role="Xl_RC" value="----&gt; Merge Pol ID " />
-                    </node>
-                    <node concept="2OqwBi" id="450aOM1PW9G" role="3uHU7w">
-                      <node concept="2OqwBi" id="450aOM1PVwo" role="2Oq$k0">
-                        <node concept="37vLTw" id="450aOM1PVdt" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1FQTM0rPQwA" resolve="mergePolicy" />
-                        </node>
-                        <node concept="3TrEf2" id="450aOM1PVM5" role="2OqNvi">
-                          <ref role="3Tt5mk" to="mopj:3BP4DuXu_FH" resolve="conceptRef" />
-                        </node>
-                      </node>
-                      <node concept="2qgKlT" id="450aOM1PWC6" role="2OqNvi">
-                        <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="450aOM1PY4z" role="3uHU7w">
-                    <property role="Xl_RC" value="  " />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="5ahhjnc03q0" role="3cqZAp" />
         <node concept="3clFbJ" id="3Wln5KJ5j9O" role="3cqZAp">
           <node concept="3clFbS" id="3Wln5KJ5j9Q" role="3clFbx">
             <node concept="3cpWs8" id="60iGZSJUbGj" role="3cqZAp">
@@ -3717,25 +3677,6 @@
                     </node>
                     <node concept="37vLTw" id="58t70GU1zzU" role="37wK5m">
                       <ref role="3cqZAo" node="1FQTM0rPQwE" resolve="currentConcept" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="450aOM1QVYV" role="3cqZAp">
-              <node concept="2OqwBi" id="450aOM1QVYS" role="3clFbG">
-                <node concept="10M0yZ" id="450aOM1QVYT" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                </node>
-                <node concept="liA8E" id="450aOM1QVYU" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="3cpWs3" id="450aOM1QWD0" role="37wK5m">
-                    <node concept="37vLTw" id="450aOM1QWG4" role="3uHU7w">
-                      <ref role="3cqZAo" node="60iGZSJUbGk" resolve="idOf" />
-                    </node>
-                    <node concept="Xl_RD" id="450aOM1QWct" role="3uHU7B">
-                      <property role="Xl_RC" value="---&gt; ifOf " />
                     </node>
                   </node>
                 </node>

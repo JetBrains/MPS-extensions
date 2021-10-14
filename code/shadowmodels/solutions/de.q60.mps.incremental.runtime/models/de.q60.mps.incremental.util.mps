@@ -18,17 +18,6 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
-      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
-        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-        <child id="1188214630783" name="value" index="2B76xF" />
-      </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
-        <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1188214545140" name="jetbrains.mps.baseLanguage.structure.AnnotationInstanceValue" flags="ng" index="2B6LJw">
-        <reference id="1188214555875" name="key" index="2B6OnR" />
-        <child id="1188214607812" name="value" index="2B70Vg" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -40,9 +29,6 @@
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
@@ -425,21 +411,12 @@
           </node>
         </node>
       </node>
-      <node concept="P$JXv" id="1tRSsKBB5fg" role="lGtFl">
-        <node concept="TZ5HI" id="1tRSsKBB5fh" role="3nqlJM">
-          <node concept="TZ5HA" id="1tRSsKBB5fi" role="3HnX3l">
+      <node concept="P$JXv" id="5CCCbOl60Fw" role="lGtFl">
+        <node concept="TZ5HI" id="5CCCbOl62Zq" role="3nqlJM">
+          <node concept="TZ5HA" id="5CCCbOl62Zr" role="3HnX3l">
             <node concept="1dT_AC" id="1tRSsKB_VW_" role="1dT_Ay">
-              <property role="1dT_AB" value="duplicate of runWith, renamed to prevent future ambiguity with java lambda" />
+              <property role="1dT_AB" value="duplicate of runWith, should keep a different name to prevent future ambiguity with java lambda" />
             </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="1tRSsKBB5fj" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-        <node concept="2B6LJw" id="1tRSsKBB6gJ" role="2B76xF">
-          <ref role="2B6OnR" to="wyt6:~Deprecated.since()" resolve="since" />
-          <node concept="Xl_RD" id="1tRSsKBB6i8" role="2B70Vg">
-            <property role="Xl_RC" value="2021.3" />
           </node>
         </node>
       </node>

@@ -55,14 +55,9 @@
       </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-        <child id="1188214630783" name="value" index="2B76xF" />
       </concept>
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1188214545140" name="jetbrains.mps.baseLanguage.structure.AnnotationInstanceValue" flags="ng" index="2B6LJw">
-        <reference id="1188214555875" name="key" index="2B6OnR" />
-        <child id="1188214607812" name="value" index="2B70Vg" />
       </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
@@ -1482,17 +1477,8 @@
         <node concept="TZ5HI" id="1tRSsKB_Vpc" role="3nqlJM">
           <node concept="TZ5HA" id="1tRSsKB_Vpd" role="3HnX3l">
             <node concept="1dT_AC" id="1tRSsKB_VW_" role="1dT_Ay">
-              <property role="1dT_AB" value="duplicate of addLazyChild, renamed to prevent future ambiguity with java lambda" />
+              <property role="1dT_AB" value="duplicate of addLazyChild, should keep a different name to prevent future ambiguity with java lambda" />
             </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="1tRSsKB_Vpe" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
-        <node concept="2B6LJw" id="1tRSsKB_W52" role="2B76xF">
-          <ref role="2B6OnR" to="wyt6:~Deprecated.since()" resolve="since" />
-          <node concept="Xl_RD" id="1tRSsKB_Xbb" role="2B70Vg">
-            <property role="Xl_RC" value="2021.3" />
           </node>
         </node>
       </node>

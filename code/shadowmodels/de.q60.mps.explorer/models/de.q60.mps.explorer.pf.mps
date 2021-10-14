@@ -153,6 +153,9 @@
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
+      <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
+        <child id="1171903916107" name="bound" index="3qUE_r" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -1408,7 +1411,11 @@
         <property role="TrG5h" value="lazyChild" />
         <node concept="3uibUv" id="2BYLcdczAPY" role="1tU5fm">
           <ref role="3uigEE" to="zn9m:~Computable" resolve="Computable" />
-          <node concept="3qTvmN" id="2BYLcdc$CGT" role="11_B2D" />
+          <node concept="3qUE_q" id="5CCCbOla832" role="11_B2D">
+            <node concept="3uibUv" id="5CCCbOla8sy" role="3qUE_r">
+              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

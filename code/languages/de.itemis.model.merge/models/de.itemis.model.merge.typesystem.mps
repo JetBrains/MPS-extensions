@@ -2323,8 +2323,8 @@
               <ref role="3uigEE" to="rnx3:2QNuyuiL5OR" resolve="ConceptGraphTraversal.Result" />
             </node>
             <node concept="2YIFZM" id="1trrptaRHnG" role="33vP2m">
-              <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
               <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGraphTraversal" />
+              <ref role="37wK5l" to="rnx3:7wnapcW0cfS" resolve="mergePoliciesByHierarchy" />
               <node concept="37vLTw" id="1trrptaRHnH" role="37wK5m">
                 <ref role="3cqZAo" node="1trrptaRHnA" resolve="modelMerge" />
               </node>

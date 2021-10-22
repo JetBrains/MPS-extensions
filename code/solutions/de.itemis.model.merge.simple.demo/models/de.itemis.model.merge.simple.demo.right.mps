@@ -14,7 +14,7 @@
     </language>
   </registry>
   <node concept="2pctC0" id="2V55j61V16Y">
-    <property role="2pctC1" value="demo2" />
+    <property role="2pctC1" value="demo1" />
   </node>
 </model>
 

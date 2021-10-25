@@ -244,7 +244,9 @@
         <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
       <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
+        <child id="1212687122400" name="typeParameter" index="1pMfVU" />
+      </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -5300,44 +5302,219 @@
   <node concept="312cEu" id="4EhVFrZ3AjR">
     <property role="TrG5h" value="NodeToSNodeAdapter" />
     <node concept="2tJIrI" id="4YS7uhTx74b" role="jymVt" />
-    <node concept="Wx3nA" id="56YPHTopiR0" role="jymVt">
-      <property role="TrG5h" value="ourInstances" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="56YPHTooWJq" role="1tU5fm">
-        <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
-        <node concept="1LlUBW" id="56YPHTopK7t" role="11_B2D">
-          <node concept="3uibUv" id="56YPHTopNaO" role="1Lm7xW">
-            <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
-          </node>
-          <node concept="3uibUv" id="56YPHTopQel" role="1Lm7xW">
-            <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
-          </node>
-        </node>
-        <node concept="3uibUv" id="56YPHTop0YY" role="11_B2D">
-          <ref role="3uigEE" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+    <node concept="Wx3nA" id="92VPpV1dCA" role="jymVt">
+      <property role="TrG5h" value="currentCache" />
+      <node concept="3uibUv" id="92VPpV04om" role="1tU5fm">
+        <ref role="3uigEE" to="jks5:~ContextValue" resolve="ContextValue" />
+        <node concept="3uibUv" id="92VPpV0aId" role="11_B2D">
+          <ref role="3uigEE" node="92VPpUZcMV" resolve="NodeToSNodeAdapter.InstancesCache" />
         </node>
       </node>
-      <node concept="3Tm6S6" id="56YPHTooRvk" role="1B3o_S" />
-      <node concept="2OqwBi" id="56YPHTopfr0" role="33vP2m">
-        <node concept="2OqwBi" id="56YPHTopcxT" role="2Oq$k0">
-          <node concept="2ShNRf" id="56YPHTop8Ea" role="2Oq$k0">
-            <node concept="1pGfFk" id="56YPHTopb6k" role="2ShVmc">
-              <ref role="37wK5l" to="3o3z:~MapMaker.&lt;init&gt;()" resolve="MapMaker" />
-            </node>
+      <node concept="3Tm6S6" id="92VPpUYZs7" role="1B3o_S" />
+      <node concept="2ShNRf" id="92VPpV0dzj" role="33vP2m">
+        <node concept="1pGfFk" id="92VPpV0dgp" role="2ShVmc">
+          <ref role="37wK5l" to="jks5:~ContextValue.&lt;init&gt;()" resolve="ContextValue" />
+          <node concept="3uibUv" id="92VPpV0dgq" role="1pMfVU">
+            <ref role="3uigEE" node="92VPpUZcMV" resolve="NodeToSNodeAdapter.InstancesCache" />
           </node>
-          <node concept="liA8E" id="56YPHTopdXD" role="2OqNvi">
-            <ref role="37wK5l" to="3o3z:~MapMaker.weakValues()" resolve="weakValues" />
-          </node>
-        </node>
-        <node concept="liA8E" id="56YPHTophtm" role="2OqNvi">
-          <ref role="37wK5l" to="3o3z:~MapMaker.makeMap()" resolve="makeMap" />
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="56YPHTooLsd" role="jymVt" />
+    <node concept="312cEu" id="92VPpUZcMV" role="jymVt">
+      <property role="TrG5h" value="InstancesCache" />
+      <node concept="3clFbW" id="92VPpV2zKH" role="jymVt">
+        <node concept="3cqZAl" id="92VPpV2zKJ" role="3clF45" />
+        <node concept="3Tm1VV" id="92VPpV2zKK" role="1B3o_S" />
+        <node concept="3clFbS" id="92VPpV2zKL" role="3clF47" />
+      </node>
+      <node concept="312cEg" id="92VPpUZypv" role="jymVt">
+        <property role="TrG5h" value="instances" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="92VPpUZypy" role="1tU5fm">
+          <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
+          <node concept="1LlUBW" id="92VPpUZypz" role="11_B2D">
+            <node concept="3uibUv" id="92VPpUZyp$" role="1Lm7xW">
+              <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
+            </node>
+            <node concept="3uibUv" id="92VPpUZyp_" role="1Lm7xW">
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+            </node>
+          </node>
+          <node concept="3uibUv" id="92VPpUZypA" role="11_B2D">
+            <ref role="3uigEE" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="92VPpUZypC" role="33vP2m">
+          <node concept="2OqwBi" id="92VPpUZypD" role="2Oq$k0">
+            <node concept="2ShNRf" id="92VPpUZypE" role="2Oq$k0">
+              <node concept="1pGfFk" id="92VPpUZypF" role="2ShVmc">
+                <ref role="37wK5l" to="3o3z:~MapMaker.&lt;init&gt;()" resolve="MapMaker" />
+              </node>
+            </node>
+            <node concept="liA8E" id="92VPpUZypG" role="2OqNvi">
+              <ref role="37wK5l" to="3o3z:~MapMaker.weakValues()" resolve="weakValues" />
+            </node>
+          </node>
+          <node concept="liA8E" id="92VPpUZypH" role="2OqNvi">
+            <ref role="37wK5l" to="3o3z:~MapMaker.makeMap()" resolve="makeMap" />
+          </node>
+        </node>
+        <node concept="3Tm6S6" id="92VPpUZypB" role="1B3o_S" />
+      </node>
+      <node concept="3Tm1VV" id="92VPpUZCHl" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="92VPpUZEVj" role="jymVt" />
+    <node concept="2YIFZL" id="92VPpV0YHQ" role="jymVt">
+      <property role="TrG5h" value="runWithCache" />
+      <node concept="3clFbS" id="92VPpUZPAx" role="3clF47">
+        <node concept="3clFbF" id="92VPpV0rs5" role="3cqZAp">
+          <node concept="2OqwBi" id="92VPpV0sZK" role="3clFbG">
+            <node concept="37vLTw" id="92VPpV0rs4" role="2Oq$k0">
+              <ref role="3cqZAo" node="92VPpV1dCA" resolve="currentCache" />
+            </node>
+            <node concept="liA8E" id="92VPpV0u$M" role="2OqNvi">
+              <ref role="37wK5l" to="jks5:~ContextValue.computeWith(java.lang.Object,kotlin.jvm.functions.Function0)" resolve="computeWith" />
+              <node concept="37vLTw" id="92VPpV0uCJ" role="37wK5m">
+                <ref role="3cqZAo" node="92VPpV0eWI" resolve="cache" />
+              </node>
+              <node concept="1bVj0M" id="92VPpV0vkI" role="37wK5m">
+                <node concept="3clFbS" id="92VPpV0vkK" role="1bW5cS">
+                  <node concept="3clFbF" id="92VPpV0vHD" role="3cqZAp">
+                    <node concept="2OqwBi" id="92VPpV0w9q" role="3clFbG">
+                      <node concept="37vLTw" id="92VPpV0vHC" role="2Oq$k0">
+                        <ref role="3cqZAo" node="92VPpV0lNk" resolve="runnable" />
+                      </node>
+                      <node concept="liA8E" id="92VPpV0wwN" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Runnable.run()" resolve="run" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="92VPpV0wZL" role="3cqZAp">
+                    <node concept="10M0yZ" id="92VPpV0x3N" role="3clFbG">
+                      <ref role="3cqZAo" to="v18h:~Unit.INSTANCE" resolve="INSTANCE" />
+                      <ref role="1PxDUh" to="v18h:~Unit" resolve="Unit" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="92VPpV0eWI" role="3clF46">
+        <property role="TrG5h" value="cache" />
+        <node concept="3uibUv" id="92VPpV0jUP" role="1tU5fm">
+          <ref role="3uigEE" node="92VPpUZcMV" resolve="NodeToSNodeAdapter.InstancesCache" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="92VPpV0lNk" role="3clF46">
+        <property role="TrG5h" value="runnable" />
+        <node concept="3uibUv" id="92VPpV0qDL" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="92VPpUZPAv" role="3clF45" />
+      <node concept="3Tm1VV" id="92VPpUZPAw" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="92VPpV0GYI" role="jymVt" />
+    <node concept="2YIFZL" id="92VPpV14_E" role="jymVt">
+      <property role="TrG5h" value="computeWithCache" />
+      <node concept="3clFbS" id="92VPpV0yqe" role="3clF47">
+        <node concept="3clFbF" id="92VPpV0yqf" role="3cqZAp">
+          <node concept="2OqwBi" id="92VPpV0yqg" role="3clFbG">
+            <node concept="37vLTw" id="92VPpV0yqh" role="2Oq$k0">
+              <ref role="3cqZAo" node="92VPpV1dCA" resolve="currentCache" />
+            </node>
+            <node concept="liA8E" id="92VPpV0yqi" role="2OqNvi">
+              <ref role="37wK5l" to="jks5:~ContextValue.computeWith(java.lang.Object,kotlin.jvm.functions.Function0)" resolve="computeWith" />
+              <node concept="37vLTw" id="92VPpV0yqj" role="37wK5m">
+                <ref role="3cqZAo" node="92VPpV0yq8" resolve="cache" />
+              </node>
+              <node concept="1bVj0M" id="92VPpV0yqk" role="37wK5m">
+                <node concept="3clFbS" id="92VPpV0yql" role="1bW5cS">
+                  <node concept="3clFbF" id="92VPpV0yqm" role="3cqZAp">
+                    <node concept="2OqwBi" id="92VPpV0yqn" role="3clFbG">
+                      <node concept="37vLTw" id="92VPpV0yqo" role="2Oq$k0">
+                        <ref role="3cqZAo" node="92VPpV0yqa" resolve="computable" />
+                      </node>
+                      <node concept="liA8E" id="92VPpV0Ygc" role="2OqNvi">
+                        <ref role="37wK5l" to="18ew:~Computable.compute()" resolve="compute" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="92VPpV0yq8" role="3clF46">
+        <property role="TrG5h" value="cache" />
+        <node concept="3uibUv" id="92VPpV0yq9" role="1tU5fm">
+          <ref role="3uigEE" node="92VPpUZcMV" resolve="NodeToSNodeAdapter.InstancesCache" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="92VPpV0yqa" role="3clF46">
+        <property role="TrG5h" value="computable" />
+        <node concept="3uibUv" id="92VPpV0MhJ" role="1tU5fm">
+          <ref role="3uigEE" to="18ew:~Computable" resolve="Computable" />
+          <node concept="16syzq" id="92VPpV0Xbw" role="11_B2D">
+            <ref role="16sUi3" node="92VPpV0NKs" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="16syzq" id="92VPpV0SrR" role="3clF45">
+        <ref role="16sUi3" node="92VPpV0NKs" resolve="T" />
+      </node>
+      <node concept="16euLQ" id="92VPpV0NKs" role="16eVyc">
+        <property role="TrG5h" value="T" />
+      </node>
+      <node concept="3Tm1VV" id="92VPpV0yqd" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="92VPpUZKxA" role="jymVt" />
     <node concept="2YIFZL" id="56YPHToqKHJ" role="jymVt">
       <property role="TrG5h" value="getInstance" />
       <node concept="3clFbS" id="56YPHTopXDY" role="3clF47">
+        <node concept="3cpWs8" id="92VPpV1RFi" role="3cqZAp">
+          <node concept="3cpWsn" id="92VPpV1RFj" role="3cpWs9">
+            <property role="TrG5h" value="cache" />
+            <node concept="3uibUv" id="92VPpV1PcA" role="1tU5fm">
+              <ref role="3uigEE" node="92VPpUZcMV" resolve="NodeToSNodeAdapter.InstancesCache" />
+            </node>
+            <node concept="2OqwBi" id="92VPpV1RFk" role="33vP2m">
+              <node concept="37vLTw" id="92VPpV1RFl" role="2Oq$k0">
+                <ref role="3cqZAo" node="92VPpV1dCA" resolve="currentCache" />
+              </node>
+              <node concept="liA8E" id="92VPpV1RFm" role="2OqNvi">
+                <ref role="37wK5l" to="jks5:~ContextValue.getValue()" resolve="getValue" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="92VPpV1Vzz" role="3cqZAp">
+          <node concept="3clFbS" id="92VPpV1Vz_" role="3clFbx">
+            <node concept="3cpWs6" id="92VPpV1WlC" role="3cqZAp">
+              <node concept="2ShNRf" id="92VPpV1XDh" role="3cqZAk">
+                <node concept="1pGfFk" id="92VPpV1XDi" role="2ShVmc">
+                  <ref role="37wK5l" node="4EhVFrZ5iKh" resolve="NodeToSNodeAdapter" />
+                  <node concept="37vLTw" id="92VPpV1XDj" role="37wK5m">
+                    <ref role="3cqZAo" node="56YPHToq9Jh" resolve="node" />
+                  </node>
+                  <node concept="37vLTw" id="92VPpV1XDk" role="37wK5m">
+                    <ref role="3cqZAo" node="56YPHToq9Jj" resolve="repository" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="92VPpV1W6T" role="3clFbw">
+            <node concept="10Nm6u" id="92VPpV1Wjo" role="3uHU7w" />
+            <node concept="37vLTw" id="92VPpV1VPf" role="3uHU7B">
+              <ref role="3cqZAo" node="92VPpV1RFj" resolve="cache" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="92VPpV1ZdG" role="3cqZAp" />
         <node concept="3cpWs8" id="56YPHToqjNE" role="3cqZAp">
           <node concept="3cpWsn" id="56YPHToqjNF" role="3cpWs9">
             <property role="TrG5h" value="key" />
@@ -5366,8 +5543,13 @@
               <ref role="3uigEE" node="4EhVFrZ3AjR" resolve="NodeToSNodeAdapter" />
             </node>
             <node concept="2OqwBi" id="56YPHToqurT" role="33vP2m">
-              <node concept="37vLTw" id="1m9roGBsNIF" role="2Oq$k0">
-                <ref role="3cqZAo" node="56YPHTopiR0" resolve="ourInstances" />
+              <node concept="2OqwBi" id="92VPpV1N98" role="2Oq$k0">
+                <node concept="37vLTw" id="92VPpV1RFn" role="2Oq$k0">
+                  <ref role="3cqZAo" node="92VPpV1RFj" resolve="cache" />
+                </node>
+                <node concept="2OwXpG" id="92VPpV1OLT" role="2OqNvi">
+                  <ref role="2Oxat5" node="92VPpUZypv" resolve="instances" />
+                </node>
               </node>
               <node concept="liA8E" id="56YPHToqurV" role="2OqNvi">
                 <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object)" resolve="get" />
@@ -5400,9 +5582,6 @@
             </node>
             <node concept="3clFbF" id="56YPHToq_TG" role="3cqZAp">
               <node concept="2OqwBi" id="56YPHToqC1Z" role="3clFbG">
-                <node concept="37vLTw" id="1m9roGBsNIM" role="2Oq$k0">
-                  <ref role="3cqZAo" node="56YPHTopiR0" resolve="ourInstances" />
-                </node>
                 <node concept="liA8E" id="56YPHToqIdt" role="2OqNvi">
                   <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object)" resolve="put" />
                   <node concept="37vLTw" id="56YPHToqJeK" role="37wK5m">
@@ -5410,6 +5589,14 @@
                   </node>
                   <node concept="37vLTw" id="56YPHToqIws" role="37wK5m">
                     <ref role="3cqZAo" node="56YPHToqurS" resolve="instance" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="92VPpV1Px4" role="2Oq$k0">
+                  <node concept="37vLTw" id="92VPpV20Vf" role="2Oq$k0">
+                    <ref role="3cqZAo" node="92VPpV1RFj" resolve="cache" />
+                  </node>
+                  <node concept="2OwXpG" id="92VPpV1Px7" role="2OqNvi">
+                    <ref role="2Oxat5" node="92VPpUZypv" resolve="instances" />
                   </node>
                 </node>
               </node>
@@ -5449,13 +5636,44 @@
     <node concept="2YIFZL" id="3Gcr_8xKHvg" role="jymVt">
       <property role="TrG5h" value="clearInstancesCache" />
       <node concept="3clFbS" id="3Gcr_8xKgAt" role="3clF47">
-        <node concept="3clFbF" id="3Gcr_8xKO1H" role="3cqZAp">
-          <node concept="2OqwBi" id="3Gcr_8xKQ62" role="3clFbG">
-            <node concept="37vLTw" id="1m9roGBsNIT" role="2Oq$k0">
-              <ref role="3cqZAo" node="56YPHTopiR0" resolve="ourInstances" />
+        <node concept="3cpWs8" id="92VPpV2tsc" role="3cqZAp">
+          <node concept="3cpWsn" id="92VPpV2tsd" role="3cpWs9">
+            <property role="TrG5h" value="cache" />
+            <node concept="3uibUv" id="92VPpV2qOZ" role="1tU5fm">
+              <ref role="3uigEE" node="92VPpUZcMV" resolve="NodeToSNodeAdapter.InstancesCache" />
             </node>
-            <node concept="liA8E" id="3Gcr_8xKWqD" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Map.clear()" resolve="clear" />
+            <node concept="2OqwBi" id="92VPpV2tse" role="33vP2m">
+              <node concept="37vLTw" id="92VPpV2tsf" role="2Oq$k0">
+                <ref role="3cqZAo" node="92VPpV1dCA" resolve="currentCache" />
+              </node>
+              <node concept="liA8E" id="92VPpV2tsg" role="2OqNvi">
+                <ref role="37wK5l" to="jks5:~ContextValue.getValue()" resolve="getValue" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="92VPpV2uQE" role="3cqZAp">
+          <node concept="3clFbS" id="92VPpV2uQG" role="3clFbx">
+            <node concept="3clFbF" id="3Gcr_8xKO1H" role="3cqZAp">
+              <node concept="2OqwBi" id="92VPpV2qO4" role="3clFbG">
+                <node concept="2OqwBi" id="92VPpV2vur" role="2Oq$k0">
+                  <node concept="37vLTw" id="92VPpV2tsh" role="2Oq$k0">
+                    <ref role="3cqZAo" node="92VPpV2tsd" resolve="cache" />
+                  </node>
+                  <node concept="2OwXpG" id="92VPpV2vwF" role="2OqNvi">
+                    <ref role="2Oxat5" node="92VPpUZypv" resolve="instances" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3Gcr_8xKWqD" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~Map.clear()" resolve="clear" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="92VPpV2v5b" role="3clFbw">
+            <node concept="10Nm6u" id="92VPpV2vb$" role="3uHU7w" />
+            <node concept="37vLTw" id="92VPpV2uUX" role="3uHU7B">
+              <ref role="3cqZAo" node="92VPpV2tsd" resolve="cache" />
             </node>
           </node>
         </node>

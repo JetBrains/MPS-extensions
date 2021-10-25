@@ -8835,14 +8835,6 @@
       </node>
       <node concept="3cqZAl" id="3EHNiwzfpPt" role="3clF45" />
       <node concept="3clFbS" id="3EHNiwzfpPv" role="3clF47">
-        <node concept="1gVbGN" id="7VpkmRQowZi" role="3cqZAp">
-          <node concept="3y3z36" id="7VpkmRQox9v" role="1gVkn0">
-            <node concept="10Nm6u" id="7VpkmRQoxde" role="3uHU7w" />
-            <node concept="37vLTw" id="7VpkmRQox3K" role="3uHU7B">
-              <ref role="3cqZAo" node="32ggi2DrLOz" resolve="content" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="3EHNiwzfpV4" role="3cqZAp">
           <node concept="37vLTI" id="3EHNiwzfqxW" role="3clFbG">
             <node concept="37vLTw" id="3EHNiwzfqCZ" role="37vLTx">

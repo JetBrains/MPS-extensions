@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.structure)">
+<model ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
@@ -31,7 +31,7 @@
   </registry>
   <node concept="1TIwiD" id="32ggi2DCpGw">
     <property role="EcuMT" value="3499368519007574816" />
-    <property role="TrG5h" value="Dummy" />
+    <property role="TrG5h" value="PropertyDummy" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="32ggi2DCpGx" role="1TKVEl">

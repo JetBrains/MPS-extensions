@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5819b598-ac0c-4b39-a980-588d169220da(de.itemis.model.simple.demo.editor)">
+<model ref="r:5819b598-ac0c-4b39-a980-588d169220da(de.itemis.model.simple.demo.property.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
@@ -7,7 +7,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.structure)" implicit="true" />
+    <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -33,7 +33,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="2V55j61UUXq">
-    <ref role="1XX52x" to="yeyq:32ggi2DCpGw" resolve="Dummy" />
+    <ref role="1XX52x" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
     <node concept="3EZMnI" id="2V55j61UUXs" role="2wV5jI">
       <node concept="3F0ifn" id="2V55j61UUXz" role="3EZMnx">
         <property role="3F0ifm" value="data:" />

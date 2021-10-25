@@ -24,6 +24,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -138,10 +141,15 @@
                       <ref role="3TsBF5" to="yeyq:32ggi2DCpGx" resolve="data" />
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="7VpkmRQ$QvQ" role="3uHU7B">
-                    <node concept="3DZwUI" id="7VpkmRQ$QvR" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="7VpkmRQ$QvS" role="2OqNvi">
-                      <ref role="3TsBF5" to="yeyq:32ggi2DCpGx" resolve="data" />
+                  <node concept="3cpWs3" id="4S51TVFb$pm" role="3uHU7B">
+                    <node concept="Xl_RD" id="4S51TVFb$qx" role="3uHU7w">
+                      <property role="Xl_RC" value="#" />
+                    </node>
+                    <node concept="2OqwBi" id="7VpkmRQ$QvQ" role="3uHU7B">
+                      <node concept="3DZwUI" id="7VpkmRQ$QvR" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="7VpkmRQ$QvS" role="2OqNvi">
+                        <ref role="3TsBF5" to="yeyq:32ggi2DCpGx" resolve="data" />
+                      </node>
                     </node>
                   </node>
                 </node>

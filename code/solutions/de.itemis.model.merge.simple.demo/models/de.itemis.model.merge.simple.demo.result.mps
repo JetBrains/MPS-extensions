@@ -12,11 +12,8 @@
       </concept>
     </language>
   </registry>
-  <node concept="2pctC0" id="7VpkmRQEne3">
-    <property role="2pctC1" value="demo1demo1" />
-  </node>
-  <node concept="2pctC0" id="7VpkmRQEne6">
-    <property role="2pctC1" value="demo1demo1" />
+  <node concept="2pctC0" id="4S51TVFd9ob">
+    <property role="2pctC1" value="demo1#demo1" />
   </node>
 </model>
 

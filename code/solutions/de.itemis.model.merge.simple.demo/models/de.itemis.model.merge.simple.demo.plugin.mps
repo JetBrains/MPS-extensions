@@ -12,7 +12,7 @@
   <imports>
     <import index="14sb" ref="r:798bef3e-3867-4aab-a0a7-1e9776b7e479(de.itemis.model.merge.diamond.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.structure)" />
+    <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
@@ -113,7 +113,7 @@
     <node concept="1oluLK" id="3xLnOvEDNjA" role="1olsr8" />
     <node concept="1oluLK" id="32ggi2DCs9v" role="1olsr8" />
     <node concept="1olsrb" id="32ggi2DCs9A" role="1olsr8">
-      <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="Dummy" />
+      <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
       <node concept="230_S" id="32ggi2DCsgc" role="21DrV">
         <node concept="3clFbS" id="32ggi2DCsgd" role="2VODD2">
           <node concept="3clFbF" id="7VpkmRQdojp" role="3cqZAp">
@@ -158,7 +158,7 @@
             <node concept="3clFbF" id="7VpkmRQ$PdQ" role="3cqZAp">
               <node concept="2pJPEk" id="7VpkmRQ$PdO" role="3clFbG">
                 <node concept="2pJPED" id="7VpkmRQ$PhE" role="2pJPEn">
-                  <ref role="2pJxaS" to="yeyq:32ggi2DCpGw" resolve="Dummy" />
+                  <ref role="2pJxaS" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
                   <node concept="2pJxcG" id="7VpkmRQ$Pk0" role="2pJxcM">
                     <ref role="2pJxcJ" to="yeyq:32ggi2DCpGx" resolve="data" />
                     <node concept="WxPPo" id="7VpkmRQ$Q$$" role="28ntcv">

@@ -813,8 +813,8 @@
                 <ref role="3uigEE" to="rnx3:2QNuyuiL5OR" resolve="ConceptGraphTraversal.Result" />
               </node>
               <node concept="2YIFZM" id="3EHNiwz7rFt" role="33vP2m">
-                <ref role="37wK5l" to="rnx3:2QNuyuiLuqz" resolve="mergePoliciesByHierarchy" />
                 <ref role="1Pybhc" to="rnx3:18W7Z4VeRuj" resolve="ConceptGraphTraversal" />
+                <ref role="37wK5l" to="rnx3:7wnapcW0cfS" resolve="mergePoliciesByHierarchy" />
                 <node concept="1YBJjd" id="3EHNiwz7rFu" role="37wK5m">
                   <ref role="1YBMHb" node="7TOowlgBzBU" resolve="modelMerge" />
                 </node>

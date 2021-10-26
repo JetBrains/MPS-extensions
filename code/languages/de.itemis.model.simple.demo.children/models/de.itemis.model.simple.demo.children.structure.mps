@@ -36,7 +36,7 @@
   </registry>
   <node concept="1TIwiD" id="3pc485Vr2SQ">
     <property role="EcuMT" value="3912520324585631286" />
-    <property role="TrG5h" value="SingletonChildKeeper" />
+    <property role="TrG5h" value="ChildKeeper" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3pc485Vr2SR" role="1TKVEi">
@@ -44,6 +44,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="childSingelton" />
       <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
+    </node>
+    <node concept="1TJgyj" id="3pc485WbbkL" role="1TKVEi">
+      <property role="IQ2ns" value="3912520324598248753" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="optionalChild" />
       <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
     </node>
   </node>

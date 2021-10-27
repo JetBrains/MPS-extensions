@@ -19,12 +19,12 @@
       </concept>
     </language>
   </registry>
-  <node concept="1d83UR" id="3pc485WzpfZ">
-    <node concept="2pctC0" id="3pc485Wzpg0" role="1d83UQ">
-      <property role="2pctC1" value="lala#@#lala" />
+  <node concept="1d83UR" id="3du1uQ$IUoF">
+    <node concept="2pctC0" id="3du1uQ$IUoG" role="1d83UQ">
+      <property role="2pctC1" value="lala&lt;---&gt;lala" />
     </node>
-    <node concept="2pctC0" id="3pc485Wzpg1" role="1aoamK">
-      <property role="2pctC1" value="lala*******lala" />
+    <node concept="2pctC0" id="3du1uQ$IUoH" role="1aoamK">
+      <property role="2pctC1" value="haha&lt;---&gt;haha" />
     </node>
   </node>
 </model>

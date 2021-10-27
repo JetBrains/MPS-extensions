@@ -38,7 +38,7 @@
     </language>
   </registry>
   <node concept="poArf" id="3E$7ALWCqlQ">
-    <property role="TrG5h" value="MergeExecutionTest" />
+    <property role="TrG5h" value="MergeExecutionProperty" />
     <ref role="pot50" to="2y6h:3xLnOvEDNj_" resolve="SimplePropertyMerger" />
     <node concept="1Xw6AR" id="32ggi2DGrDB" role="ppIIL">
       <node concept="1dCxOl" id="32ggi2DGrOp" role="1XwpL7">

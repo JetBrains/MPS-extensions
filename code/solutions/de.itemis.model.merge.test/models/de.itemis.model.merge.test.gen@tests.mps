@@ -1904,21 +1904,16 @@
         </node>
         <node concept="3clFbH" id="3xLnOvEDFv$" role="3cqZAp" />
         <node concept="3vlDli" id="3xLnOvEDFv_" role="3cqZAp">
-          <node concept="2OqwBi" id="3xLnOvEDGg1" role="3tpDZB">
-            <node concept="2OqwBi" id="3xLnOvEDFvA" role="2Oq$k0">
-              <node concept="3xONca" id="3xLnOvEDFvB" role="2Oq$k0">
-                <ref role="3xOPvv" node="1Av7ChmboEk" resolve="data1" />
-              </node>
-              <node concept="3TrEf2" id="3xLnOvEDFvC" role="2OqNvi">
-                <ref role="3Tt5mk" to="14sb:57$6ALrLfRk" resolve="other" />
-              </node>
+          <node concept="3cmrfG" id="3du1uQ$L_Iw" role="3tpDZB">
+            <property role="3cmrfH" value="666" />
+          </node>
+          <node concept="2OqwBi" id="3xLnOvEDGg1" role="3tpDZA">
+            <node concept="37vLTw" id="3du1uQ$TSfr" role="2Oq$k0">
+              <ref role="3cqZAo" node="3xLnOvEDFvv" resolve="observed" />
             </node>
             <node concept="3TrcHB" id="3xLnOvEDGxB" role="2OqNvi">
               <ref role="3TsBF5" to="14sb:57$6ALrLfRi" resolve="something" />
             </node>
-          </node>
-          <node concept="3cmrfG" id="3xLnOvEDGzH" role="3tpDZA">
-            <property role="3cmrfH" value="666" />
           </node>
         </node>
       </node>

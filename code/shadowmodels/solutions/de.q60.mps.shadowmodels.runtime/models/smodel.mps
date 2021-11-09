@@ -390,6 +390,7 @@
       </concept>
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -6904,8 +6905,11 @@
                       <ref role="3cqZAo" node="6g556hX9d5h" resolve="operationId" />
                     </node>
                     <node concept="3cpWs3" id="6g556hXauqh" role="3uHU7B">
-                      <node concept="37vLTw" id="6g556hXauu7" role="3uHU7B">
-                        <ref role="3cqZAo" node="6g556hX9fML" resolve="node" />
+                      <node concept="2OqwBi" id="7zDki1ED$OF" role="3uHU7B">
+                        <node concept="37vLTw" id="6g556hXauu7" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6g556hX9fML" resolve="node" />
+                        </node>
+                        <node concept="2Iv5rx" id="7zDki1ED$OG" role="2OqNvi" />
                       </node>
                       <node concept="Xl_RD" id="6g556hXau9B" role="3uHU7w">
                         <property role="Xl_RC" value=" doesn't implement the operation " />
@@ -23543,8 +23547,11 @@
                 <node concept="1pGfFk" id="5zrTIjlrm7t" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                   <node concept="3cpWs3" id="5zrTIjlrolt" role="37wK5m">
-                    <node concept="37vLTw" id="5zrTIjlro$x" role="3uHU7w">
-                      <ref role="3cqZAo" node="5zrTIjlr0bm" resolve="inputNode" />
+                    <node concept="2OqwBi" id="7zDki1ED_1Q" role="3uHU7w">
+                      <node concept="37vLTw" id="5zrTIjlro$x" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5zrTIjlr0bm" resolve="inputNode" />
+                      </node>
+                      <node concept="2Iv5rx" id="7zDki1ED_1R" role="2OqNvi" />
                     </node>
                     <node concept="Xl_RD" id="5zrTIjlrmIg" role="3uHU7B">
                       <property role="Xl_RC" value="Not inside a model: " />
@@ -23588,8 +23595,11 @@
                 <node concept="1pGfFk" id="5zrTIjlrpYg" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                   <node concept="3cpWs3" id="5zrTIjlrpYh" role="37wK5m">
-                    <node concept="37vLTw" id="5zrTIjlrpYi" role="3uHU7w">
-                      <ref role="3cqZAo" node="5zrTIjlr0bm" resolve="inputNode" />
+                    <node concept="2OqwBi" id="7zDki1ED_20" role="3uHU7w">
+                      <node concept="37vLTw" id="5zrTIjlrpYi" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5zrTIjlr0bm" resolve="inputNode" />
+                      </node>
+                      <node concept="2Iv5rx" id="7zDki1ED_21" role="2OqNvi" />
                     </node>
                     <node concept="Xl_RD" id="5zrTIjlrpYj" role="3uHU7B">
                       <property role="Xl_RC" value="Not inside a module: " />

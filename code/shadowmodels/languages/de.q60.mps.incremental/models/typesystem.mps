@@ -231,6 +231,7 @@
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
@@ -616,8 +617,11 @@
                             <property role="Xl_RC" value=" is expected" />
                           </node>
                           <node concept="3cpWs3" id="hfXcAxQ" role="3uHU7B">
-                            <node concept="37vLTw" id="3GM_nagTrTI" role="3uHU7w">
-                              <ref role="3cqZAo" node="h9NR7DO" resolve="expectedRetType" />
+                            <node concept="2OqwBi" id="7zDki1EDnZZ" role="3uHU7w">
+                              <node concept="37vLTw" id="3GM_nagTrTI" role="2Oq$k0">
+                                <ref role="3cqZAo" node="h9NR7DO" resolve="expectedRetType" />
+                              </node>
+                              <node concept="2Iv5rx" id="7zDki1EDo00" role="2OqNvi" />
                             </node>
                             <node concept="Xl_RD" id="hfXcAxU" role="3uHU7B" />
                           </node>
@@ -700,8 +704,11 @@
                                   <property role="Xl_RC" value=" is expected" />
                                 </node>
                                 <node concept="3cpWs3" id="24B8XX1bAN4" role="3uHU7B">
-                                  <node concept="2c44tf" id="24B8XX2r0X8" role="3uHU7w">
-                                    <node concept="10Oyi0" id="24B8XX2r2hV" role="2c44tc" />
+                                  <node concept="2OqwBi" id="7zDki1EDo0t" role="3uHU7w">
+                                    <node concept="2c44tf" id="24B8XX2r0X8" role="2Oq$k0">
+                                      <node concept="10Oyi0" id="24B8XX2r2hV" role="2c44tc" />
+                                    </node>
+                                    <node concept="2Iv5rx" id="7zDki1EDo0u" role="2OqNvi" />
                                   </node>
                                   <node concept="Xl_RD" id="24B8XX1bAN6" role="3uHU7B" />
                                 </node>
@@ -857,8 +864,11 @@
                       </node>
                     </node>
                     <node concept="3cpWs3" id="hfXcjIi" role="3o8Qv2">
-                      <node concept="37vLTw" id="3GM_nagTBRN" role="3uHU7B">
-                        <ref role="3cqZAo" node="h9NR7DO" resolve="expectedRetType" />
+                      <node concept="2OqwBi" id="7zDki1EDo0C" role="3uHU7B">
+                        <node concept="37vLTw" id="3GM_nagTBRN" role="2Oq$k0">
+                          <ref role="3cqZAo" node="h9NR7DO" resolve="expectedRetType" />
+                        </node>
+                        <node concept="2Iv5rx" id="7zDki1EDo0D" role="2OqNvi" />
                       </node>
                       <node concept="Xl_RD" id="hfXcjIj" role="3uHU7w">
                         <property role="Xl_RC" value=" is expected" />
@@ -923,8 +933,11 @@
                         </node>
                       </node>
                       <node concept="3cpWs3" id="24B8XX1c6f4" role="3o8Qv2">
-                        <node concept="2c44tf" id="24B8XX2r2nU" role="3uHU7B">
-                          <node concept="10Oyi0" id="24B8XX2r2pq" role="2c44tc" />
+                        <node concept="2OqwBi" id="7zDki1EDo0O" role="3uHU7B">
+                          <node concept="2c44tf" id="24B8XX2r2nU" role="2Oq$k0">
+                            <node concept="10Oyi0" id="24B8XX2r2pq" role="2c44tc" />
+                          </node>
+                          <node concept="2Iv5rx" id="7zDki1EDo0P" role="2OqNvi" />
                         </node>
                         <node concept="Xl_RD" id="24B8XX1c6f6" role="3uHU7w">
                           <property role="Xl_RC" value=" is expected" />

@@ -7219,7 +7219,7 @@
             </node>
           </node>
           <node concept="37vLTw" id="2oNsb921ChJ" role="ukAjM">
-            <ref role="3cqZAo" node="2oNsb9228bt" resolve="instance" />
+            <ref role="3cqZAo" node="2oNsb9228bt" resolve="moduleRepository" />
           </node>
         </node>
       </node>

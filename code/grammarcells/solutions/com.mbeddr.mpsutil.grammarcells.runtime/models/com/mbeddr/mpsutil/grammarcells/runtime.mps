@@ -4,7 +4,7 @@
   <languages>
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
@@ -60,8 +60,8 @@
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="5b0" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.presentation(MPS.Core/)" />
-    <import index="pdwk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.core.aspects.constraints.rules.kinds(MPS.Core/)" />
     <import index="6r6f" ref="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)" />
+    <import index="pdwk" ref="8e98f4e2-decf-4e97-bf80-9109e8b759ee/java:jetbrains.mps.core.aspects.constraints.rules.kinds(jetbrains.mps.lang.constraints.rules.runtime/)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" implicit="true" />
@@ -436,6 +436,7 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -4545,8 +4546,11 @@
               <node concept="Xl_RD" id="5OsvY4gzd2A" role="3uHU7B">
                 <property role="Xl_RC" value="Child(" />
               </node>
-              <node concept="37vLTw" id="5OsvY4gzd5f" role="3uHU7w">
-                <ref role="3cqZAo" node="4qdNcH$3U3O" resolve="myValue" />
+              <node concept="2OqwBi" id="7zDki1EDwBT" role="3uHU7w">
+                <node concept="37vLTw" id="5OsvY4gzd5f" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4qdNcH$3U3O" resolve="myValue" />
+                </node>
+                <node concept="2Iv5rx" id="7zDki1EDwBU" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -4854,8 +4858,11 @@
               <node concept="Xl_RD" id="5OsvY4gzdGq" role="3uHU7B">
                 <property role="Xl_RC" value="Reference(" />
               </node>
-              <node concept="37vLTw" id="5OsvY4gzdGr" role="3uHU7w">
-                <ref role="3cqZAo" node="4qdNcH$3UvF" resolve="myValue" />
+              <node concept="2OqwBi" id="7zDki1EDwCl" role="3uHU7w">
+                <node concept="37vLTw" id="5OsvY4gzdGr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4qdNcH$3UvF" resolve="myValue" />
+                </node>
+                <node concept="2Iv5rx" id="7zDki1EDwCm" role="2OqNvi" />
               </node>
             </node>
           </node>

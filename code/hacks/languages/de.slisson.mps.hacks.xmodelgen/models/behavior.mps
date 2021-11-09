@@ -16,16 +16,17 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="r99j" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.runtime(MPS.Core/)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="mcvo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.structure.language(MPS.Core/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
-    <import index="28nf" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.impl.query(MPS.Core/)" />
     <import index="w0gx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.modules(MPS.Core/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+    <import index="28nf" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.impl.query(MPS.Generator/)" />
+    <import index="r99j" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.runtime(MPS.Core/)" />
+    <import index="r99k" ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd/java:jetbrains.mps.generator.runtime(MPS.Generator/)" />
     <import index="gxwz" ref="r:d1800018-44fb-4b2e-b3ae-2afea554d27b(de.slisson.mps.hacks.xmodelgen.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpf8" ref="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" implicit="true" />
@@ -326,13 +327,13 @@
             <property role="TrG5h" value="list" />
             <node concept="_YKpA" id="6KgrWUnhUVn" role="1tU5fm">
               <node concept="3uibUv" id="6KgrWUnhUVq" role="_ZDj9">
-                <ref role="3uigEE" to="r99j:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
+                <ref role="3uigEE" to="r99k:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
               </node>
             </node>
             <node concept="2ShNRf" id="6KgrWUnhUVt" role="33vP2m">
               <node concept="Tc6Ow" id="6KgrWUnhUVu" role="2ShVmc">
                 <node concept="3uibUv" id="6KgrWUnhUVv" role="HW$YZ">
-                  <ref role="3uigEE" to="r99j:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
+                  <ref role="3uigEE" to="r99k:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
                 </node>
               </node>
             </node>
@@ -445,14 +446,14 @@
       </node>
       <node concept="3Tm1VV" id="6KgrWUnjw4p" role="1B3o_S" />
       <node concept="3uibUv" id="6KgrWUnjwEZ" role="3clF45">
-        <ref role="3uigEE" to="r99j:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
+        <ref role="3uigEE" to="r99k:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
       </node>
       <node concept="3clFbS" id="6KgrWUnjw4r" role="3clF47">
         <node concept="3cpWs8" id="6KgrWUnjwGR" role="3cqZAp">
           <node concept="3cpWsn" id="6KgrWUnjwGS" role="3cpWs9">
             <property role="TrG5h" value="genRuntime" />
             <node concept="3uibUv" id="6KgrWUnjwGT" role="1tU5fm">
-              <ref role="3uigEE" to="r99j:~TemplateModule" resolve="TemplateModule" />
+              <ref role="3uigEE" to="r99k:~TemplateModule" resolve="TemplateModule" />
             </node>
             <node concept="1eOMI4" id="6KgrWUnjwGU" role="33vP2m">
               <node concept="10QFUN" id="6KgrWUnjwGV" role="1eOMHV">
@@ -483,7 +484,7 @@
                   </node>
                 </node>
                 <node concept="3uibUv" id="6KgrWUnjwH8" role="10QFUM">
-                  <ref role="3uigEE" to="r99j:~TemplateModule" resolve="TemplateModule" />
+                  <ref role="3uigEE" to="r99k:~TemplateModule" resolve="TemplateModule" />
                 </node>
               </node>
             </node>
@@ -541,7 +542,7 @@
             <property role="TrG5h" value="modelRuntimes" />
             <node concept="A3Dl8" id="6KgrWUnjwHb" role="1tU5fm">
               <node concept="3uibUv" id="6KgrWUnjwHc" role="A3Ik2">
-                <ref role="3uigEE" to="r99j:~TemplateModel" resolve="TemplateModel" />
+                <ref role="3uigEE" to="r99k:~TemplateModel" resolve="TemplateModel" />
               </node>
             </node>
             <node concept="2OqwBi" id="6KgrWUnjwHd" role="33vP2m">
@@ -549,7 +550,7 @@
                 <ref role="3cqZAo" node="6KgrWUnjwGS" resolve="genRuntime" />
               </node>
               <node concept="liA8E" id="6KgrWUnjwHf" role="2OqNvi">
-                <ref role="37wK5l" to="r99j:~TemplateModule.getModels()" resolve="getModels" />
+                <ref role="37wK5l" to="r99k:~TemplateModule.getModels()" resolve="getModels" />
               </node>
             </node>
           </node>
@@ -558,7 +559,7 @@
           <node concept="3cpWsn" id="6KgrWUnjwHh" role="3cpWs9">
             <property role="TrG5h" value="modelRuntime" />
             <node concept="3uibUv" id="6KgrWUnjwHi" role="1tU5fm">
-              <ref role="3uigEE" to="r99j:~TemplateModel" resolve="TemplateModel" />
+              <ref role="3uigEE" to="r99k:~TemplateModel" resolve="TemplateModel" />
             </node>
             <node concept="2OqwBi" id="6KgrWUnjwHj" role="33vP2m">
               <node concept="37vLTw" id="6KgrWUnjwHk" role="2Oq$k0">
@@ -592,7 +593,7 @@
                             <ref role="3cqZAo" node="6KgrWUnjwH_" resolve="it" />
                           </node>
                           <node concept="liA8E" id="6KgrWUnjwH$" role="2OqNvi">
-                            <ref role="37wK5l" to="r99j:~TemplateModel.getLongName()" resolve="getLongName" />
+                            <ref role="37wK5l" to="r99k:~TemplateModel.getLongName()" resolve="getLongName" />
                           </node>
                         </node>
                       </node>
@@ -612,7 +613,7 @@
             <property role="TrG5h" value="mcRuntimes" />
             <node concept="A3Dl8" id="6KgrWUnjwHD" role="1tU5fm">
               <node concept="3uibUv" id="6KgrWUnjwHE" role="A3Ik2">
-                <ref role="3uigEE" to="r99j:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
+                <ref role="3uigEE" to="r99k:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
               </node>
             </node>
             <node concept="2OqwBi" id="6KgrWUnjwHF" role="33vP2m">
@@ -620,7 +621,7 @@
                 <ref role="3cqZAo" node="6KgrWUnjwHh" resolve="modelRuntime" />
               </node>
               <node concept="liA8E" id="6KgrWUnjwHH" role="2OqNvi">
-                <ref role="37wK5l" to="r99j:~TemplateModel.getConfigurations()" resolve="getConfigurations" />
+                <ref role="37wK5l" to="r99k:~TemplateModel.getConfigurations()" resolve="getConfigurations" />
               </node>
             </node>
           </node>
@@ -629,7 +630,7 @@
           <node concept="3cpWsn" id="6KgrWUnjwHJ" role="3cpWs9">
             <property role="TrG5h" value="mcRuntime" />
             <node concept="3uibUv" id="6KgrWUnjwHK" role="1tU5fm">
-              <ref role="3uigEE" to="r99j:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
+              <ref role="3uigEE" to="r99k:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
             </node>
             <node concept="2OqwBi" id="6KgrWUnjwHL" role="33vP2m">
               <node concept="37vLTw" id="6KgrWUnjwHM" role="2Oq$k0">
@@ -653,7 +654,7 @@
                             <ref role="3cqZAo" node="6KgrWUnjwHY" resolve="it" />
                           </node>
                           <node concept="liA8E" id="6KgrWUnjwHX" role="2OqNvi">
-                            <ref role="37wK5l" to="r99j:~TemplateMappingConfiguration.getName()" resolve="getName" />
+                            <ref role="37wK5l" to="r99k:~TemplateMappingConfiguration.getName()" resolve="getName" />
                           </node>
                         </node>
                       </node>
@@ -722,7 +723,7 @@
       <node concept="3Tm6S6" id="6KgrWUngrd$" role="1B3o_S" />
       <node concept="_YKpA" id="6KgrWUngrdA" role="1tU5fm">
         <node concept="3uibUv" id="6KgrWUngrdB" role="_ZDj9">
-          <ref role="3uigEE" to="r99j:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
+          <ref role="3uigEE" to="r99k:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
         </node>
       </node>
     </node>
@@ -842,7 +843,7 @@
         <property role="TrG5h" value="mappingConfigurations" />
         <node concept="_YKpA" id="6KgrWUngqwU" role="1tU5fm">
           <node concept="3uibUv" id="6KgrWUngqI2" role="_ZDj9">
-            <ref role="3uigEE" to="r99j:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
+            <ref role="3uigEE" to="r99k:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
           </node>
         </node>
       </node>
@@ -1163,7 +1164,7 @@
       <node concept="3uibUv" id="6KgrWUngj$3" role="3clF45">
         <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
         <node concept="3uibUv" id="6KgrWUngj$4" role="11_B2D">
-          <ref role="3uigEE" to="r99j:~TemplateModel" resolve="TemplateModel" />
+          <ref role="3uigEE" to="r99k:~TemplateModel" resolve="TemplateModel" />
         </node>
       </node>
       <node concept="3clFbS" id="6KgrWUngj$5" role="3clF47">
@@ -1173,7 +1174,7 @@
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <node concept="Xjq3P" id="6KgrWUngC44" role="37wK5m" />
             <node concept="3uibUv" id="6KgrWUngOAI" role="3PaCim">
-              <ref role="3uigEE" to="r99j:~TemplateModel" resolve="TemplateModel" />
+              <ref role="3uigEE" to="r99k:~TemplateModel" resolve="TemplateModel" />
             </node>
           </node>
         </node>
@@ -1223,7 +1224,7 @@
       <node concept="3uibUv" id="6KgrWUngj$c" role="3clF45">
         <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
         <node concept="3uibUv" id="6KgrWUngj$d" role="11_B2D">
-          <ref role="3uigEE" to="r99j:~TemplateModule" resolve="TemplateModule" />
+          <ref role="3uigEE" to="r99k:~TemplateModule" resolve="TemplateModule" />
         </node>
       </node>
       <node concept="3clFbS" id="6KgrWUngj$e" role="3clF47">
@@ -1237,7 +1238,7 @@
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
             <node concept="3uibUv" id="1z8Uup0u0kF" role="3PaCim">
-              <ref role="3uigEE" to="r99j:~TemplateModule" resolve="TemplateModule" />
+              <ref role="3uigEE" to="r99k:~TemplateModule" resolve="TemplateModule" />
             </node>
           </node>
         </node>
@@ -1255,7 +1256,7 @@
       <node concept="3uibUv" id="6KgrWUngj$l" role="3clF45">
         <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
         <node concept="3uibUv" id="6KgrWUngj$m" role="11_B2D">
-          <ref role="3uigEE" to="r99j:~TemplateModule" resolve="TemplateModule" />
+          <ref role="3uigEE" to="r99k:~TemplateModule" resolve="TemplateModule" />
         </node>
       </node>
       <node concept="3clFbS" id="6KgrWUngj$n" role="3clF47">
@@ -1269,7 +1270,7 @@
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
             <node concept="3uibUv" id="1z8Uup0tZbK" role="3PaCim">
-              <ref role="3uigEE" to="r99j:~TemplateModule" resolve="TemplateModule" />
+              <ref role="3uigEE" to="r99k:~TemplateModule" resolve="TemplateModule" />
             </node>
           </node>
         </node>
@@ -1422,7 +1423,7 @@
       <node concept="3uibUv" id="6KgrWUngnjU" role="3clF45">
         <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
         <node concept="3uibUv" id="6KgrWUngnjV" role="11_B2D">
-          <ref role="3uigEE" to="r99j:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
+          <ref role="3uigEE" to="r99k:~TemplateMappingConfiguration" resolve="TemplateMappingConfiguration" />
         </node>
       </node>
       <node concept="3clFbS" id="6KgrWUngnjW" role="3clF47">
@@ -1498,7 +1499,7 @@
       <node concept="3uibUv" id="6KgrWUngnjL" role="3clF45">
         <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
         <node concept="3uibUv" id="6KgrWUngnjM" role="11_B2D">
-          <ref role="3uigEE" to="r99j:~TemplateSwitchMapping" resolve="TemplateSwitchMapping" />
+          <ref role="3uigEE" to="r99k:~TemplateSwitchMapping" resolve="TemplateSwitchMapping" />
         </node>
       </node>
       <node concept="3clFbS" id="6KgrWUngnjN" role="3clF47">
@@ -1512,7 +1513,7 @@
             <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <node concept="3uibUv" id="1z8Uup0uecA" role="3PaCim">
-              <ref role="3uigEE" to="r99j:~TemplateSwitchMapping" resolve="TemplateSwitchMapping" />
+              <ref role="3uigEE" to="r99k:~TemplateSwitchMapping" resolve="TemplateSwitchMapping" />
             </node>
           </node>
         </node>
@@ -1528,12 +1529,12 @@
       <property role="od$2w" value="false" />
       <node concept="3Tm1VV" id="6KgrWUngnk1" role="1B3o_S" />
       <node concept="3uibUv" id="6KgrWUngnk3" role="3clF45">
-        <ref role="3uigEE" to="r99j:~TemplateDeclaration" resolve="TemplateDeclaration" />
+        <ref role="3uigEE" to="r99k:~TemplateDeclaration" resolve="TemplateDeclaration" />
       </node>
       <node concept="37vLTG" id="6KgrWUngnk4" role="3clF46">
         <property role="TrG5h" value="key" />
         <node concept="3uibUv" id="4IrJ7fhw6QL" role="1tU5fm">
-          <ref role="3uigEE" to="r99j:~TemplateDeclarationKey" resolve="TemplateDeclarationKey" />
+          <ref role="3uigEE" to="r99k:~TemplateDeclarationKey" resolve="TemplateDeclarationKey" />
         </node>
       </node>
       <node concept="3clFbS" id="6KgrWUngnk9" role="3clF47">
@@ -1561,7 +1562,7 @@
       <property role="od$2w" value="false" />
       <node concept="3Tm1VV" id="6KgrWUngnke" role="1B3o_S" />
       <node concept="3uibUv" id="6KgrWUngnkg" role="3clF45">
-        <ref role="3uigEE" to="r99j:~TemplateModule" resolve="TemplateModule" />
+        <ref role="3uigEE" to="r99k:~TemplateModule" resolve="TemplateModule" />
       </node>
       <node concept="3clFbS" id="6KgrWUngnkh" role="3clF47">
         <node concept="3clFbF" id="1z8Uup0ucow" role="3cqZAp">
@@ -1864,10 +1865,10 @@
       </node>
     </node>
     <node concept="3uibUv" id="6KgrWUng_$r" role="EKbjA">
-      <ref role="3uigEE" to="r99j:~TemplateModule" resolve="TemplateModule" />
+      <ref role="3uigEE" to="r99k:~TemplateModule" resolve="TemplateModule" />
     </node>
     <node concept="3uibUv" id="6KgrWUngBeU" role="EKbjA">
-      <ref role="3uigEE" to="r99j:~TemplateModel" resolve="TemplateModel" />
+      <ref role="3uigEE" to="r99k:~TemplateModel" resolve="TemplateModel" />
     </node>
     <node concept="3uibUv" id="6KgrWUnh1XN" role="EKbjA">
       <ref role="3uigEE" to="c17a:~SLanguage" resolve="SLanguage" />

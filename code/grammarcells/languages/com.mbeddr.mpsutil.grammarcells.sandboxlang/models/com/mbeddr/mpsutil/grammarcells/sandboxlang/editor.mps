@@ -255,6 +255,7 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="7835263205327057228" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenAndChildAttributesOperation" flags="ng" index="Bykcj" />
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="2644386474302386080" name="jetbrains.mps.lang.smodel.structure.PropertyIdRefExpression" flags="nn" index="355D3s">
         <reference id="2644386474302386081" name="conceptDeclaration" index="355D3t" />
         <reference id="2644386474302386082" name="propertyDeclaration" index="355D3u" />
@@ -637,7 +638,10 @@
                     <node concept="liA8E" id="1GvnUgo9bai" role="2OqNvi">
                       <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                       <node concept="3cpWs3" id="1GvnUgo9bij" role="37wK5m">
-                        <node concept="313q4" id="1GvnUgo9bjz" role="3uHU7w" />
+                        <node concept="2OqwBi" id="7zDki1EDno_" role="3uHU7w">
+                          <node concept="313q4" id="1GvnUgo9bjz" role="2Oq$k0" />
+                          <node concept="2Iv5rx" id="7zDki1EDnoA" role="2OqNvi" />
+                        </node>
                         <node concept="Xl_RD" id="1GvnUgo9baK" role="3uHU7B">
                           <property role="Xl_RC" value="wrapped " />
                         </node>

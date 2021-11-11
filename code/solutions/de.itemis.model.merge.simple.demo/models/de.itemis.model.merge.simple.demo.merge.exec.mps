@@ -4,9 +4,11 @@
   <languages>
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
+    <use id="81362899-970b-421b-9fe3-2b64b343f769" name="de.itemis.model.simple.demo.property" version="0" />
   </languages>
   <imports>
     <import index="2y6h" ref="r:c332880d-cb1b-4ddd-b54d-4041384feb18(de.itemis.model.merge.simple.demo.plugin)" />
+    <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" />
   </imports>
   <registry>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
@@ -116,6 +118,34 @@
       <node concept="1dCxOl" id="3pc485VUmPF" role="1XwpL7">
         <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
         <node concept="1j_P7g" id="3pc485VUmPG" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="poArf" id="6Ltuup4Cbf3">
+    <property role="TrG5h" value="CollectionAutoExecution" />
+    <ref role="pot50" to="2y6h:6Ltuup4AaNP" resolve="CollectionChildMerger" />
+    <node concept="1Xw6AR" id="6Ltuup4Cbf4" role="ppIIL">
+      <node concept="1dCxOl" id="6Ltuup4CeGD" role="1XwpL7">
+        <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
+        <node concept="1j_P7g" id="6Ltuup4CeGE" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftCollection" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="6Ltuup4Cbf6" role="ppbcs">
+      <node concept="1dCxOl" id="6Ltuup4CeGK" role="1XwpL7">
+        <property role="1XweGQ" value="r:64adeb98-b48d-4897-996c-61093731db10" />
+        <node concept="1j_P7g" id="6Ltuup4CeGL" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightCollection" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="6Ltuup4Cfxi" role="2JagXQ">
+      <node concept="1dCxOl" id="6Ltuup4CfC9" role="1XwpL7">
+        <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
+        <node concept="1j_P7g" id="6Ltuup4CfCa" role="1j$8Uc">
           <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
         </node>
       </node>

@@ -3722,26 +3722,37 @@
     <node concept="2YIFZL" id="5ahhjnckGRZ" role="jymVt">
       <property role="TrG5h" value="makeMergedNode" />
       <node concept="3clFbS" id="5ahhjnckGSk" role="3clF47">
+        <node concept="3cpWs8" id="6Ltuup4vXw8" role="3cqZAp">
+          <node concept="3cpWsn" id="6Ltuup4vXw9" role="3cpWs9">
+            <property role="TrG5h" value="ctidf" />
+            <node concept="3uibUv" id="6Ltuup4vRum" role="1tU5fm">
+              <ref role="3uigEE" node="1yAYHyQ2xCj" resolve="Identity" />
+            </node>
+            <node concept="2OqwBi" id="6Ltuup4vXwa" role="33vP2m">
+              <node concept="37vLTw" id="6Ltuup4vXwb" role="2Oq$k0">
+                <ref role="3cqZAo" node="5ahhjnckGS3" resolve="conceptToIdFunction" />
+              </node>
+              <node concept="liA8E" id="6Ltuup4vXwc" role="2OqNvi">
+                <ref role="37wK5l" to="3o3z:~ImmutableMap.get(java.lang.Object)" resolve="get" />
+                <node concept="2OqwBi" id="6Ltuup4vXwd" role="37wK5m">
+                  <node concept="37vLTw" id="6Ltuup4vXwe" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5ahhjnckGS7" resolve="leftNode" />
+                  </node>
+                  <node concept="liA8E" id="6Ltuup4vXwf" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SNode.getConcept()" resolve="getConcept" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="5ahhjnckGSl" role="3cqZAp">
           <node concept="3cpWsn" id="5ahhjnckGSm" role="3cpWs9">
             <property role="TrG5h" value="leftRootId" />
             <node concept="17QB3L" id="5ahhjnckGSn" role="1tU5fm" />
             <node concept="2OqwBi" id="5ahhjnckGSo" role="33vP2m">
-              <node concept="2OqwBi" id="5ahhjnckGSp" role="2Oq$k0">
-                <node concept="37vLTw" id="5ahhjnckGSq" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5ahhjnckGS3" resolve="conceptToIdFunction" />
-                </node>
-                <node concept="liA8E" id="5ahhjnckGSr" role="2OqNvi">
-                  <ref role="37wK5l" to="3o3z:~ImmutableMap.get(java.lang.Object)" resolve="get" />
-                  <node concept="2OqwBi" id="5ahhjnckGSs" role="37wK5m">
-                    <node concept="37vLTw" id="5ahhjnckGSt" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ahhjnckGS7" resolve="leftNode" />
-                    </node>
-                    <node concept="liA8E" id="5ahhjnckGSu" role="2OqNvi">
-                      <ref role="37wK5l" to="mhbf:~SNode.getConcept()" resolve="getConcept" />
-                    </node>
-                  </node>
-                </node>
+              <node concept="37vLTw" id="6Ltuup4vXwg" role="2Oq$k0">
+                <ref role="3cqZAo" node="6Ltuup4vXw9" resolve="ctidf" />
               </node>
               <node concept="liA8E" id="5ahhjnckGSv" role="2OqNvi">
                 <ref role="37wK5l" node="1yAYHyQ2xOL" resolve="get" />

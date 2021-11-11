@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="81362899-970b-421b-9fe3-2b64b343f769" name="de.itemis.model.simple.demo.property" version="0" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -50,7 +51,7 @@
     <node concept="1TJgyj" id="6Ltuup4C5K0" role="1TKVEi">
       <property role="IQ2ns" value="7808531358831107072" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="collectionCHild" />
+      <property role="20kJfa" value="collectionChild" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
     </node>

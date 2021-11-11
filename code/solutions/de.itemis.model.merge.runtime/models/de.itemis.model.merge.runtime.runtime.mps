@@ -4068,42 +4068,6 @@
             </node>
           </node>
           <node concept="3clFbS" id="3pc485VqBAQ" role="2LFqv$">
-            <node concept="3cpWs8" id="3pc485WvRY6" role="3cqZAp">
-              <node concept="3cpWsn" id="3pc485WvRY7" role="3cpWs9">
-                <property role="TrG5h" value="containmentLink" />
-                <node concept="3uibUv" id="3pc485WuSzh" role="1tU5fm">
-                  <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
-                </node>
-                <node concept="2OqwBi" id="3pc485WvRY8" role="33vP2m">
-                  <node concept="2GrUjf" id="3pc485WvRY9" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="3pc485VqBAM" resolve="child" />
-                  </node>
-                  <node concept="liA8E" id="3pc485WvRYa" role="2OqNvi">
-                    <ref role="37wK5l" to="mhbf:~SNode.getContainmentLink()" resolve="getContainmentLink" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="3pc485WvSt0" role="3cqZAp" />
-            <node concept="3clFbF" id="3pc485WrS1N" role="3cqZAp">
-              <node concept="2OqwBi" id="3pc485WrS1K" role="3clFbG">
-                <node concept="10M0yZ" id="3pc485WrS1L" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                </node>
-                <node concept="liA8E" id="3pc485WrS1M" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="3cpWs3" id="3pc485WrSLk" role="37wK5m">
-                    <node concept="37vLTw" id="3pc485WvRYb" role="3uHU7w">
-                      <ref role="3cqZAo" node="3pc485WvRY7" resolve="containmentLink" />
-                    </node>
-                    <node concept="Xl_RD" id="3pc485WrShd" role="3uHU7B">
-                      <property role="Xl_RC" value="----&gt; Child " />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3cpWs8" id="3pc485VqBAR" role="3cqZAp">
               <node concept="3cpWsn" id="3pc485VqBAS" role="3cpWs9">
                 <property role="TrG5h" value="childMerger" />
@@ -4199,7 +4163,7 @@
                         </node>
                       </node>
                       <node concept="Xl_RD" id="3pc485WfV1t" role="3uHU7B">
-                        <property role="Xl_RC" value="No ConceptCHildMerger found for " />
+                        <property role="Xl_RC" value="No ConceptChildMerger found for " />
                       </node>
                     </node>
                   </node>

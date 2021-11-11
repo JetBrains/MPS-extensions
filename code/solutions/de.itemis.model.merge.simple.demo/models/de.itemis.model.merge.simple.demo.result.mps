@@ -12,9 +12,20 @@
         <property id="3499368519007574817" name="data" index="2pctC1" />
       </concept>
     </language>
+    <language id="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" name="de.itemis.model.simple.demo.children">
+      <concept id="3912520324585631286" name="de.itemis.model.simple.demo.children.structure.ChildKeeper" flags="ng" index="1d83UR">
+        <child id="3912520324598248753" name="optionalChild" index="1aoamK" />
+        <child id="3912520324585631287" name="childSingelton" index="1d83UQ" />
+      </concept>
+    </language>
   </registry>
-  <node concept="2pctC0" id="6Ltuup4wiTv">
-    <property role="2pctC1" value="demo1#demo1" />
+  <node concept="1d83UR" id="6Ltuup4wZYd">
+    <node concept="2pctC0" id="6Ltuup4wZYe" role="1d83UQ">
+      <property role="2pctC1" value="lala&lt;---&gt;lala" />
+    </node>
+    <node concept="2pctC0" id="6Ltuup4wZYf" role="1aoamK">
+      <property role="2pctC1" value="haha&lt;---&gt;haha" />
+    </node>
   </node>
 </model>
 

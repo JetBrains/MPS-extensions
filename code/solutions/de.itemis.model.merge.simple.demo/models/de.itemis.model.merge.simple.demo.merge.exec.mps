@@ -125,7 +125,7 @@
   </node>
   <node concept="poArf" id="6Ltuup4Cbf3">
     <property role="TrG5h" value="CollectionAutoExecution" />
-    <ref role="pot50" to="2y6h:6Ltuup4AaNP" resolve="CollectionChildMerger" />
+    <ref role="pot50" to="2y6h:6Ltuup4JpkP" resolve="CollectionChildMerger" />
     <node concept="1Xw6AR" id="6Ltuup4Cbf4" role="ppIIL">
       <node concept="1dCxOl" id="6Ltuup4CeGD" role="1XwpL7">
         <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />

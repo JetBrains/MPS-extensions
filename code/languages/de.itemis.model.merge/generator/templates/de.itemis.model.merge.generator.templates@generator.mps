@@ -3672,6 +3672,54 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="6Ltuup4Q6b4" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
+      <node concept="30G5F_" id="6Ltuup4Q6b5" role="30HLyM">
+        <node concept="3clFbS" id="6Ltuup4Q6b6" role="2VODD2">
+          <node concept="3clFbF" id="6Ltuup4Q6b7" role="3cqZAp">
+            <node concept="1Wc70l" id="6Ltuup4Q6b8" role="3clFbG">
+              <node concept="17R0WA" id="6Ltuup4Q6b9" role="3uHU7w">
+                <node concept="2OqwBi" id="6Ltuup4Q6ba" role="3uHU7w">
+                  <node concept="1XH99k" id="6Ltuup4Q6bb" role="2Oq$k0">
+                    <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
+                  </node>
+                  <node concept="2ViDtV" id="6Ltuup4Q6bc" role="2OqNvi">
+                    <ref role="2ViDtZ" to="mopj:1VmHfRxJErz" resolve="ElementOnBoth" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="6Ltuup4Q6bd" role="3uHU7B">
+                  <node concept="30H73N" id="6Ltuup4Q6be" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="6Ltuup4Q6bf" role="2OqNvi">
+                    <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6Ltuup4Q6bg" role="3uHU7B">
+                <node concept="2OqwBi" id="6Ltuup4Q6bh" role="2Oq$k0">
+                  <node concept="30H73N" id="6Ltuup4Q6bi" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6Ltuup4Q6bj" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mopj:1VmHfRxLaon" resolve="action" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="6Ltuup4Q6bk" role="2OqNvi">
+                  <node concept="chp4Y" id="6Ltuup4Q6Ol" role="cj9EA">
+                    <ref role="cht4Q" to="mopj:7jyS5urbByR" resolve="Auto" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="gft3U" id="6Ltuup4Q6Vc" role="1lVwrX">
+        <node concept="2ShNRf" id="6Ltuup4Qvkl" role="gfFT$">
+          <node concept="HV5vD" id="6Ltuup4Qv$1" role="2ShVmc">
+            <ref role="HV5vE" to="gunp:6Ltuup4QbkK" resolve="AutoCollectionMerger" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="6W0eXuddmnA">
     <property role="TrG5h" value="manualChildToCollectionElementMerger" />

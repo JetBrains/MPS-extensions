@@ -173,9 +173,9 @@
       </node>
     </node>
     <node concept="pHN19" id="3xLnOvEDNjF" role="3WPhuS">
-      <node concept="2V$Bhx" id="32ggi2DCs9q" role="2V$M_3">
+      <node concept="2V$Bhx" id="6Ltuup4vzhK" role="2V$M_3">
         <property role="2V$B1T" value="81362899-970b-421b-9fe3-2b64b343f769" />
-        <property role="2V$B1Q" value="de.itemis.model.simple.demo" />
+        <property role="2V$B1Q" value="de.itemis.model.simple.demo.property" />
       </node>
     </node>
   </node>

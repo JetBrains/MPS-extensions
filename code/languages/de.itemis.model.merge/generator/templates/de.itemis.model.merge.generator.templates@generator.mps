@@ -226,6 +226,10 @@
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
+        <child id="1199542457201" name="resultType" index="1ajl9A" />
+        <child id="1199542501692" name="parameterType" index="1ajw0F" />
+      </concept>
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -1755,7 +1759,7 @@
       <node concept="gft3U" id="6IgrZARFFx9" role="1lVwrX">
         <node concept="2ShNRf" id="6IgrZARFFxf" role="gfFT$">
           <node concept="1pGfFk" id="6IgrZARFHGS" role="2ShVmc">
-            <ref role="37wK5l" to="gunp:6IgrZARCsMn" resolve="CollectionMerger" />
+            <ref role="37wK5l" to="gunp:6IgrZARCsMn" resolve="MetaCollectionMerger" />
             <node concept="10Nm6u" id="6IgrZARFHH1" role="37wK5m">
               <node concept="29HgVG" id="6IgrZARLfZn" role="lGtFl">
                 <node concept="3NFfHV" id="6IgrZARLg0N" role="3NFExx">
@@ -3762,6 +3766,20 @@
             <node concept="37vLTG" id="6W0eXuddqUV" role="3clF46">
               <property role="TrG5h" value="elementRight" />
               <node concept="3Tqbb2" id="6W0eXuddqUW" role="1tU5fm" />
+            </node>
+            <node concept="37vLTG" id="50eR6VkTFnN" role="3clF46">
+              <property role="TrG5h" value="autoMergeOperation" />
+              <node concept="1ajhzC" id="50eR6VkTFnO" role="1tU5fm">
+                <node concept="3uibUv" id="50eR6VkTFnP" role="1ajw0F">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+                <node concept="3uibUv" id="50eR6VkTFnQ" role="1ajw0F">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+                <node concept="3uibUv" id="50eR6VkTFnR" role="1ajl9A">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+              </node>
             </node>
             <node concept="3cqZAl" id="6W0eXuddqUX" role="3clF45" />
             <node concept="3clFbS" id="6W0eXuddqUY" role="3clF47">

@@ -115,7 +115,6 @@
       <concept id="2076377354676997475" name="de.itemis.model.merge.structure.ActionFunctionRightParam" flags="ng" index="3DScHg" />
       <concept id="2076377354676819067" name="de.itemis.model.merge.structure.ManualAction" flags="ig" index="3DZp98" />
       <concept id="2076377354676914333" name="de.itemis.model.merge.structure.ActionFunctionLeftParam" flags="ng" index="3DZwUI" />
-      <concept id="8422540920009055851" name="de.itemis.model.merge.structure.Add" flags="ng" index="3JHzSW" />
       <concept id="8422540920006554635" name="de.itemis.model.merge.structure.OptionalPolicy" flags="ng" index="3JN5hs">
         <child id="8422540920006555110" name="action" index="3JN5mL" />
       </concept>
@@ -444,7 +443,7 @@
         <ref role="3Ze0ni" to="lmxm:6Ltuup4C5K0" resolve="collectionChild" />
         <node concept="3Z5p37" id="6Ltuup4Njbk" role="3JNnoR">
           <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
-          <node concept="3JN9zx" id="6Ltuup4Njbo" role="3Z4xbE" />
+          <node concept="3JN9zx" id="2MN4FcQMoQt" role="3Z4xbE" />
         </node>
         <node concept="3Z5p37" id="6Ltuup4Njbr" role="3JNnoR">
           <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
@@ -452,7 +451,7 @@
         </node>
         <node concept="3Z5p37" id="6Ltuup4Njb$" role="3JNnoR">
           <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
-          <node concept="3JHzSW" id="6Ltuup4NjbG" role="3Z4xbE" />
+          <node concept="3JN9zx" id="2MN4FcQMoQy" role="3Z4xbE" />
         </node>
       </node>
     </node>
@@ -473,7 +472,7 @@
                     </node>
                   </node>
                   <node concept="Xl_RD" id="6Ltuup4Ln8I" role="3uHU7w">
-                    <property role="Xl_RC" value="&lt;::&gt;" />
+                    <property role="Xl_RC" value="&lt;:-:&gt;" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="6Ltuup4LnMI" role="3uHU7w">

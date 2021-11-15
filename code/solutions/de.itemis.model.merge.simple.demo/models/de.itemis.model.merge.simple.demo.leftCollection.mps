@@ -14,13 +14,13 @@
     <language id="e50b0500-6fd7-4c7f-a730-9d841358ce8b" name="de.itemis.model.simple.demo.collection">
       <concept id="7808531358831107071" name="de.itemis.model.simple.demo.collection.structure.CollectionKeeper" flags="ng" index="CZi8p">
         <property id="7808531358831108482" name="id" index="CZhx$" />
-        <child id="7808531358831107072" name="collectionCHild" index="CZinA" />
+        <child id="7808531358831107072" name="collectionChild" index="CZinA" />
       </concept>
     </language>
   </registry>
   <node concept="CZi8p" id="6Ltuup4Ccnr">
     <property role="CZhx$" value="collection1" />
-    <node concept="2pctC0" id="6Ltuup4Ccns" role="CZinA">
+    <node concept="2pctC0" id="pUBtbu21d5" role="CZinA">
       <property role="2pctC1" value="dummy1" />
     </node>
     <node concept="2pctC0" id="6Ltuup4CcLC" role="CZinA">

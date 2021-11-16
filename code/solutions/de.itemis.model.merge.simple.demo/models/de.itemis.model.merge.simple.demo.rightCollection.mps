@@ -24,6 +24,9 @@
     <node concept="2pctC0" id="6Ltuup4CeBb" role="CZinA">
       <property role="2pctC1" value="dummy2" />
     </node>
+    <node concept="2pctC0" id="77Ot_5aeAfh" role="CZinA">
+      <property role="2pctC1" value="dummy3" />
+    </node>
   </node>
 </model>
 

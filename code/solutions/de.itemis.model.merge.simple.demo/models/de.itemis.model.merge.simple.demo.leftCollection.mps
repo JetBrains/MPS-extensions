@@ -20,10 +20,10 @@
   </registry>
   <node concept="CZi8p" id="6Ltuup4Ccnr">
     <property role="CZhx$" value="collection1" />
-    <node concept="2pctC0" id="pUBtbuyg4v" role="CZinA">
+    <node concept="2pctC0" id="77Ot_5afvnN" role="CZinA">
       <property role="2pctC1" value="dummy1" />
     </node>
-    <node concept="2pctC0" id="6Ltuup4CcLC" role="CZinA">
+    <node concept="2pctC0" id="pUBtbuyg4v" role="CZinA">
       <property role="2pctC1" value="dummy2" />
     </node>
   </node>

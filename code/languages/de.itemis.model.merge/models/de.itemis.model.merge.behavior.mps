@@ -5373,7 +5373,7 @@
           </node>
         </node>
         <node concept="37vLTG" id="5ahhjnchOPm" role="3clF46">
-          <property role="TrG5h" value="conceptChild" />
+          <property role="TrG5h" value="link" />
           <node concept="3uibUv" id="3pc485Wwox_" role="1tU5fm">
             <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
           </node>
@@ -5402,7 +5402,7 @@
                   <node concept="2qgKlT" id="7VpkmRQvTAb" role="2OqNvi">
                     <ref role="37wK5l" to="tpcn:4MKjpUYniHA" resolve="is" />
                     <node concept="37vLTw" id="7VpkmRQvTAc" role="37wK5m">
-                      <ref role="3cqZAo" node="5ahhjnchOPm" resolve="conceptChild" />
+                      <ref role="3cqZAo" node="5ahhjnchOPm" resolve="link" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="3pc485WwMjg" role="2Oq$k0">

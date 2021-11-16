@@ -20,13 +20,16 @@
       </concept>
     </language>
   </registry>
-  <node concept="CZi8p" id="pUBtbuygr3">
+  <node concept="CZi8p" id="77Ot_5afvnV">
     <property role="CZhx$" value="collection1" />
-    <node concept="2pctC0" id="pUBtbuygr4" role="CZinA">
+    <node concept="2pctC0" id="77Ot_5afvnW" role="CZinA">
+      <property role="2pctC1" value="dummy1" />
+    </node>
+    <node concept="2pctC0" id="77Ot_5afvnX" role="CZinA">
       <property role="2pctC1" value="dummy2&lt;:-:&gt;dummy2" />
     </node>
-    <node concept="2pctC0" id="pUBtbuygr5" role="CZinA">
-      <property role="2pctC1" value="dummy2&lt;:-:&gt;dummy2" />
+    <node concept="2pctC0" id="77Ot_5afvnY" role="CZinA">
+      <property role="2pctC1" value="dummy3" />
     </node>
   </node>
 </model>

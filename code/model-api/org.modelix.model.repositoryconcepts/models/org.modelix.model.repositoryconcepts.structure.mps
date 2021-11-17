@@ -205,5 +205,20 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6nwO_ZKkI83">
+    <property role="EcuMT" value="7341098702109598211" />
+    <property role="TrG5h" value="Solution" />
+    <ref role="1TJDcQ" node="qmkA5fOskf" resolve="Module" />
+  </node>
+  <node concept="1TIwiD" id="6nwO_ZKkI84">
+    <property role="EcuMT" value="7341098702109598212" />
+    <property role="TrG5h" value="Language" />
+    <ref role="1TJDcQ" node="qmkA5fOskf" resolve="Module" />
+  </node>
+  <node concept="1TIwiD" id="6nwO_ZKkI85">
+    <property role="EcuMT" value="7341098702109598213" />
+    <property role="TrG5h" value="DevKit" />
+    <ref role="1TJDcQ" node="qmkA5fOskf" resolve="Module" />
+  </node>
 </model>
 

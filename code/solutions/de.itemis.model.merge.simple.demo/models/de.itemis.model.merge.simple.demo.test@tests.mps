@@ -20,6 +20,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="gunp" ref="r:a4055897-4d16-4474-96e9-a78cf2abfe5a(de.itemis.model.merge.runtime.runtime)" />
     <import index="9kut" ref="r:c515cf95-0439-4376-8bc5-13a56baa0293(de.itemis.model.simple.demo.children.structure)" implicit="true" />
     <import index="rnx3" ref="r:424d540e-f1fc-49a5-b16d-3f9264b84dee(de.itemis.model.merge.behavior)" implicit="true" />
     <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" implicit="true" />
@@ -584,8 +585,8 @@
             <node concept="2YIFZM" id="77Ot_5atFjH" role="33vP2m">
               <ref role="37wK5l" node="6Ltuup4xhzG" resolve="rootsOfMergedModel" />
               <ref role="1Pybhc" node="6Ltuup4xcSI" resolve="TestUtil" />
-              <node concept="3xONca" id="77Ot_5atFjI" role="37wK5m">
-                <ref role="3xOPvv" node="77Ot_5an$Bu" resolve="me4" />
+              <node concept="37vLTw" id="5CYFCJDf6Jj" role="37wK5m">
+                <ref role="3cqZAo" node="77Ot_5atFj_" resolve="me" />
               </node>
             </node>
           </node>
@@ -704,8 +705,8 @@
             <node concept="2YIFZM" id="77Ot_5atFG4" role="33vP2m">
               <ref role="37wK5l" node="77Ot_5atFjz" resolve="rootOf" />
               <ref role="1Pybhc" node="6Ltuup4xcSI" resolve="TestUtil" />
-              <node concept="3xONca" id="77Ot_5atFTs" role="37wK5m">
-                <ref role="3xOPvv" node="77Ot_5af$7V" resolve="me" />
+              <node concept="3xONca" id="5CYFCJDhKP4" role="37wK5m">
+                <ref role="3xOPvv" node="77Ot_5aj$sA" resolve="me2" />
               </node>
             </node>
           </node>
@@ -762,8 +763,8 @@
             <node concept="2YIFZM" id="77Ot_5atFGi" role="33vP2m">
               <ref role="37wK5l" node="77Ot_5atFjz" resolve="rootOf" />
               <ref role="1Pybhc" node="6Ltuup4xcSI" resolve="TestUtil" />
-              <node concept="3xONca" id="77Ot_5atFQ3" role="37wK5m">
-                <ref role="3xOPvv" node="77Ot_5af$7V" resolve="me" />
+              <node concept="3xONca" id="5CYFCJDhKSs" role="37wK5m">
+                <ref role="3xOPvv" node="77Ot_5ah$q3" resolve="me3" />
               </node>
             </node>
           </node>
@@ -820,8 +821,8 @@
             <node concept="2YIFZM" id="77Ot_5atFGw" role="33vP2m">
               <ref role="37wK5l" node="77Ot_5atFjz" resolve="rootOf" />
               <ref role="1Pybhc" node="6Ltuup4xcSI" resolve="TestUtil" />
-              <node concept="3xONca" id="77Ot_5atFOF" role="37wK5m">
-                <ref role="3xOPvv" node="77Ot_5af$7V" resolve="me" />
+              <node concept="3xONca" id="5CYFCJDhKT$" role="37wK5m">
+                <ref role="3xOPvv" node="77Ot_5an$Bu" resolve="me4" />
               </node>
             </node>
           </node>

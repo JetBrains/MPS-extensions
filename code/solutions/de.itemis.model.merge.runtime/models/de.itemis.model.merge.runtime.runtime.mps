@@ -4068,10 +4068,7 @@
               <ref role="3cqZAo" node="5ahhjnckGSy" resolve="rightNode" />
             </node>
             <node concept="37vLTw" id="50eR6VkMk1_" role="37wK5m">
-              <ref role="3cqZAo" node="5ahhjnckGSi" resolve="result" />
-            </node>
-            <node concept="37vLTw" id="50eR6VkMk1B" role="37wK5m">
-              <ref role="3cqZAo" node="5ahhjnckGS3" resolve="conceptToIdFunction" />
+              <ref role="3cqZAo" node="5ahhjnckGSi" resolve="mergerResolver" />
             </node>
           </node>
         </node>
@@ -4114,9 +4111,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="5ahhjnckGSi" role="3clF46">
-        <property role="TrG5h" value="result" />
-        <node concept="3uibUv" id="5ahhjnckGSj" role="1tU5fm">
-          <ref role="3uigEE" node="2QNuyuiL5OR" resolve="ModelMergeResult" />
+        <property role="TrG5h" value="mergerResolver" />
+        <node concept="3uibUv" id="5CYFCJDJYMQ" role="1tU5fm">
+          <ref role="3uigEE" node="61HvMZcnXGe" resolve="MergerResolver" />
         </node>
       </node>
       <node concept="3Tmbuc" id="6Ltuup4T3uc" role="1B3o_S" />
@@ -4259,18 +4256,6 @@
           <ref role="3uigEE" node="61HvMZcnXGe" resolve="MergerResolver" />
         </node>
       </node>
-      <node concept="37vLTG" id="50eR6VkMk19" role="3clF46">
-        <property role="TrG5h" value="conceptToIdFunction" />
-        <node concept="3uibUv" id="50eR6VkMk1a" role="1tU5fm">
-          <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-          <node concept="3uibUv" id="50eR6VkMk1b" role="11_B2D">
-            <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-          </node>
-          <node concept="3uibUv" id="50eR6VkMk1c" role="11_B2D">
-            <ref role="3uigEE" node="1yAYHyQ2xCj" resolve="Identity" />
-          </node>
-        </node>
-      </node>
       <node concept="3clFbS" id="50eR6VkMjZW" role="3clF47">
         <node concept="3cpWs8" id="50eR6VkMjZX" role="3cqZAp">
           <node concept="3cpWsn" id="50eR6VkMjZY" role="3cpWs9">
@@ -4324,9 +4309,6 @@
                 </node>
                 <node concept="37vLTw" id="50eR6VkMk1o" role="37wK5m">
                   <ref role="3cqZAo" node="50eR6VkMk0T" resolve="rightNode" />
-                </node>
-                <node concept="37vLTw" id="50eR6VkMk1m" role="37wK5m">
-                  <ref role="3cqZAo" node="50eR6VkMk19" resolve="conceptToIdFunction" />
                 </node>
                 <node concept="37vLTw" id="50eR6VkMk0s" role="37wK5m">
                   <ref role="3cqZAo" node="50eR6VkMjZY" resolve="newInstance" />
@@ -4421,18 +4403,6 @@
         <property role="TrG5h" value="rightNode" />
         <node concept="3uibUv" id="3pc485VqBBX" role="1tU5fm">
           <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="3pc485VqBC4" role="3clF46">
-        <property role="TrG5h" value="conceptToIdFunction" />
-        <node concept="3uibUv" id="3pc485VqBC5" role="1tU5fm">
-          <ref role="3uigEE" to="3o3z:~ImmutableMap" resolve="ImmutableMap" />
-          <node concept="3uibUv" id="3pc485VqBC6" role="11_B2D">
-            <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
-          </node>
-          <node concept="3uibUv" id="3pc485VqBC7" role="11_B2D">
-            <ref role="3uigEE" node="1yAYHyQ2xCj" resolve="Identity" />
-          </node>
         </node>
       </node>
       <node concept="37vLTG" id="3pc485VqBC8" role="3clF46">
@@ -4722,9 +4692,6 @@
                               </node>
                               <node concept="37vLTw" id="77Ot_59Xgxf" role="37wK5m">
                                 <ref role="3cqZAo" node="3pc485VqBBU" resolve="mergerResolver" />
-                              </node>
-                              <node concept="37vLTw" id="77Ot_59Xgxh" role="37wK5m">
-                                <ref role="3cqZAo" node="3pc485VqBC4" resolve="conceptToIdFunction" />
                               </node>
                             </node>
                             <node concept="2OwXpG" id="77Ot_59Xgxi" role="2OqNvi">

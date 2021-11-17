@@ -810,7 +810,7 @@
             <node concept="3cpWsn" id="3EHNiwz7rFs" role="3cpWs9">
               <property role="TrG5h" value="result" />
               <node concept="3uibUv" id="3EHNiwz7rpP" role="1tU5fm">
-                <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="ConceptGraphTraversal.Result" />
+                <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="Result" />
               </node>
               <node concept="2YIFZM" id="61HvMZcxF4P" role="33vP2m">
                 <ref role="37wK5l" to="gunp:7wnapcW0cfS" resolve="mergePoliciesByHierarchy" />
@@ -2058,7 +2058,7 @@
                             <ref role="16sUi3" node="1trrptaKFGN" resolve="Y" />
                           </node>
                           <node concept="3uibUv" id="1trrptaLWl5" role="11_B2D">
-                            <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+                            <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
                             <node concept="16syzq" id="6gT8sjecfJz" role="11_B2D">
                               <ref role="16sUi3" node="6gT8sjec12C" resolve="C" />
                             </node>
@@ -2124,7 +2124,7 @@
                           <ref role="16sUi3" node="1trrptaKFGN" resolve="Y" />
                         </node>
                         <node concept="3uibUv" id="1trrptaLWlr" role="11_B2D">
-                          <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+                          <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
                           <node concept="16syzq" id="6gT8sjecgTm" role="11_B2D">
                             <ref role="16sUi3" node="6gT8sjec12C" resolve="C" />
                           </node>
@@ -2167,7 +2167,7 @@
               <ref role="16sUi3" node="1trrptaKFGN" resolve="Y" />
             </node>
             <node concept="3uibUv" id="1trrptaKL8b" role="11_B2D">
-              <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+              <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
               <node concept="16syzq" id="6gT8sjec8xC" role="11_B2D">
                 <ref role="16sUi3" node="6gT8sjec12C" resolve="C" />
               </node>
@@ -2187,7 +2187,7 @@
               <ref role="16sUi3" node="1trrptaKFGN" resolve="Y" />
             </node>
             <node concept="3uibUv" id="ZzVzivnfKP" role="11_B2D">
-              <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+              <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
               <node concept="16syzq" id="6gT8sjecd11" role="11_B2D">
                 <ref role="16sUi3" node="6gT8sjec12C" resolve="C" />
               </node>
@@ -2249,7 +2249,7 @@
             <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
           </node>
           <node concept="3uibUv" id="ZzVzivkJ0D" role="11_B2D">
-            <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+            <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
             <node concept="3uibUv" id="6gT8sjec_4T" role="11_B2D">
               <ref role="3uigEE" to="gunp:5lvG0vITZsP" resolve="PropertyMerger" />
             </node>
@@ -2303,7 +2303,7 @@
             <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
           </node>
           <node concept="3uibUv" id="ZzVzivoeHj" role="11_B2D">
-            <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+            <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
             <node concept="3uibUv" id="6gT8sjecEoP" role="11_B2D">
               <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptChildMerger" />
             </node>
@@ -2320,7 +2320,7 @@
           <node concept="3cpWsn" id="1trrptaRHnE" role="3cpWs9">
             <property role="TrG5h" value="result" />
             <node concept="3uibUv" id="1trrptaRHnF" role="1tU5fm">
-              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="ConceptGraphTraversal.Result" />
+              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="Result" />
             </node>
             <node concept="2YIFZM" id="61HvMZcxF4Q" role="33vP2m">
               <ref role="37wK5l" to="gunp:7wnapcW0cfS" resolve="mergePoliciesByHierarchy" />
@@ -2388,7 +2388,7 @@
                       <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
                     </node>
                     <node concept="3uibUv" id="ZzVzivnKQT" role="11_B2D">
-                      <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+                      <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
                       <node concept="3uibUv" id="6gT8sjecsy7" role="11_B2D">
                         <ref role="3uigEE" to="gunp:5lvG0vITZsP" resolve="PropertyMerger" />
                       </node>
@@ -2447,7 +2447,7 @@
                       <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
                     </node>
                     <node concept="3uibUv" id="ZzVzivo9D4" role="11_B2D">
-                      <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+                      <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
                       <node concept="3uibUv" id="6gT8sjecvEF" role="11_B2D">
                         <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptChildMerger" />
                       </node>
@@ -2628,7 +2628,7 @@
                       <ref role="16sUi3" node="6MgS2unwbEv" resolve="X" />
                     </node>
                     <node concept="3uibUv" id="6MgS2unwTST" role="11_B2D">
-                      <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+                      <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
                     </node>
                   </node>
                 </node>
@@ -2683,7 +2683,7 @@
               <ref role="16sUi3" node="6MgS2unwbEv" resolve="X" />
             </node>
             <node concept="3uibUv" id="6MgS2unw9BD" role="11_B2D">
-              <ref role="3uigEE" to="rnx3:3EHNiwzf98t" resolve="Stuff" />
+              <ref role="3uigEE" to="gunp:3EHNiwzf98t" resolve="ContentHolder" />
             </node>
           </node>
         </node>

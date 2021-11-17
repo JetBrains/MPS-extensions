@@ -12,6 +12,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="f47b95d4-5e73-4c04-9204-18076950153b" name="com.mbeddr.mpsutil.compare" version="0" />
     <use id="e50b0500-6fd7-4c7f-a730-9d841358ce8b" name="de.itemis.model.simple.demo.collection" version="0" />
+    <use id="36ead753-43ea-471e-bcb9-d4fb1e637bbc" name="de.itemis.model.simple.demo.collection.keeper" version="0" />
   </languages>
   <imports>
     <import index="2y6h" ref="r:c332880d-cb1b-4ddd-b54d-4041384feb18(de.itemis.model.merge.simple.demo.plugin)" />
@@ -25,6 +26,7 @@
     <import index="rnx3" ref="r:424d540e-f1fc-49a5-b16d-3f9264b84dee(de.itemis.model.merge.behavior)" implicit="true" />
     <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" implicit="true" />
     <import index="lmxm" ref="r:a3686f62-e70f-468d-94f6-43bd46b56f08(de.itemis.model.simple.demo.collection.structure)" implicit="true" />
+    <import index="z7ot" ref="r:3a3f4bbf-6c2b-49f6-8189-f83260cd20d6(de.itemis.model.simple.demo.collection.keeper.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -147,6 +149,12 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
       </concept>
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
+    </language>
+    <language id="36ead753-43ea-471e-bcb9-d4fb1e637bbc" name="de.itemis.model.simple.demo.collection.keeper">
+      <concept id="6502826827916076298" name="de.itemis.model.simple.demo.collection.keeper.structure.KeeperOfCollection" flags="ng" index="2NVWI1">
+        <property id="6502826827916167988" name="id" index="2NV6mZ" />
+        <child id="6502826827916085526" name="collection" index="2NVMut" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
@@ -866,6 +874,64 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="1IpxBNKeUDh" role="1SL9yI">
+      <property role="TrG5h" value="autoChildMergingManualDeepNested" />
+      <node concept="3cqZAl" id="1IpxBNKeUDi" role="3clF45" />
+      <node concept="3clFbS" id="1IpxBNKeUDj" role="3clF47">
+        <node concept="3cpWs8" id="1IpxBNKeUDk" role="3cqZAp">
+          <node concept="3cpWsn" id="1IpxBNKeUDl" role="3cpWs9">
+            <property role="TrG5h" value="observedRoot" />
+            <node concept="3uibUv" id="1IpxBNKeUDm" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2YIFZM" id="1IpxBNKeUDn" role="33vP2m">
+              <ref role="1Pybhc" node="6Ltuup4xcSI" resolve="TestUtil" />
+              <ref role="37wK5l" node="77Ot_5atFjz" resolve="rootOf" />
+              <node concept="3xONca" id="1IpxBNKeUSF" role="37wK5m">
+                <ref role="3xOPvv" node="1IpxBNKeUDd" resolve="me5" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="1IpxBNKeUDp" role="3cqZAp">
+          <node concept="2ZW3vV" id="1IpxBNKeUDq" role="1gVkn0">
+            <node concept="3Tqbb2" id="1IpxBNKeUDr" role="2ZW6by">
+              <ref role="ehGHo" to="z7ot:5CYFCJDOmka" resolve="KeeperOfCollection" />
+            </node>
+            <node concept="37vLTw" id="1IpxBNKeUDs" role="2ZW6bz">
+              <ref role="3cqZAo" node="1IpxBNKeUDl" resolve="observedRoot" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1IpxBNKeUDt" role="3cqZAp">
+          <node concept="3cpWsn" id="1IpxBNKeUDu" role="3cpWs9">
+            <property role="TrG5h" value="observed" />
+            <node concept="3Tqbb2" id="1IpxBNKeUDv" role="1tU5fm">
+              <ref role="ehGHo" to="z7ot:5CYFCJDOmka" resolve="KeeperOfCollection" />
+            </node>
+            <node concept="1eOMI4" id="1IpxBNKeUDw" role="33vP2m">
+              <node concept="10QFUN" id="1IpxBNKeUDx" role="1eOMHV">
+                <node concept="3Tqbb2" id="1IpxBNKeUDy" role="10QFUM">
+                  <ref role="ehGHo" to="z7ot:5CYFCJDOmka" resolve="KeeperOfCollection" />
+                </node>
+                <node concept="37vLTw" id="1IpxBNKeUDz" role="10QFUP">
+                  <ref role="3cqZAo" node="1IpxBNKeUDl" resolve="observedRoot" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1IpxBNKeUD$" role="3cqZAp" />
+        <node concept="3GXo0L" id="1IpxBNKeUD_" role="3cqZAp">
+          <node concept="3xONca" id="1IpxBNKeUTK" role="3tpDZB">
+            <ref role="3xOPvv" node="1IpxBNKeUDf" resolve="expected5" />
+          </node>
+          <node concept="37vLTw" id="1IpxBNKeUDB" role="3tpDZA">
+            <ref role="3cqZAo" node="1IpxBNKeUDu" resolve="observed" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1qefOq" id="77Ot_5af$7N" role="1SKRRt">
       <node concept="poArf" id="77Ot_5af$7O" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoExec1" />
@@ -1013,6 +1079,51 @@
         </node>
         <node concept="3xLA65" id="77Ot_5an$K2" role="lGtFl">
           <property role="TrG5h" value="expected4" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1IpxBNKeTTH" role="1SKRRt">
+      <node concept="poArf" id="1IpxBNKeTUB" role="1qenE9">
+        <property role="TrG5h" value="KeeperOfCollection" />
+        <ref role="pot50" to="2y6h:5CYFCJDUPYY" resolve="KeeperOfCollectionMerger" />
+        <node concept="1Xw6AR" id="1IpxBNKeTUC" role="ppIIL">
+          <node concept="1dCxOl" id="1IpxBNKeTUR" role="1XwpL7">
+            <property role="1XweGQ" value="r:10817a5e-6659-4644-b085-8f24104ad4a4" />
+            <node concept="1j_P7g" id="1IpxBNKeTUS" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.keeperOfCollectionLeft" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Xw6AR" id="1IpxBNKeTUE" role="ppbcs">
+          <node concept="1dCxOl" id="1IpxBNKeTUY" role="1XwpL7">
+            <property role="1XweGQ" value="r:bb297b36-9318-4f63-96ed-8c6c24a38d46" />
+            <node concept="1j_P7g" id="1IpxBNKeTUZ" role="1j$8Uc">
+              <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.keeperOfCollectionRight" />
+            </node>
+          </node>
+        </node>
+        <node concept="3xLA65" id="1IpxBNKeUDd" role="lGtFl">
+          <property role="TrG5h" value="me5" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="1IpxBNKeU35" role="1SKRRt">
+      <node concept="2NVWI1" id="5CYFCJDZ7pm" role="1qenE9">
+        <property role="2NV6mZ" value="12" />
+        <node concept="CZi8p" id="5CYFCJDZ7pn" role="2NVMut">
+          <property role="CZhx$" value="2" />
+          <node concept="2pctC0" id="5CYFCJDZ7po" role="CZinA">
+            <property role="2pctC1" value="dummy1" />
+          </node>
+        </node>
+        <node concept="CZi8p" id="5CYFCJDZ7pp" role="2NVMut">
+          <property role="CZhx$" value="1" />
+          <node concept="2pctC0" id="5CYFCJDZ7pq" role="CZinA">
+            <property role="2pctC1" value="&lt;dummy2/dummy2&gt;" />
+          </node>
+        </node>
+        <node concept="3xLA65" id="1IpxBNKeUDf" role="lGtFl">
+          <property role="TrG5h" value="expected5" />
         </node>
       </node>
     </node>

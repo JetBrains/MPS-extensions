@@ -151,5 +151,33 @@
       </node>
     </node>
   </node>
+  <node concept="poArf" id="5CYFCJDUPJK">
+    <property role="TrG5h" value="KeeperOfCollection" />
+    <ref role="pot50" to="2y6h:5CYFCJDUPYY" resolve="KeeperOfCollectionMerger" />
+    <node concept="1Xw6AR" id="5CYFCJDUPJL" role="ppIIL">
+      <node concept="1dCxOl" id="5CYFCJDUPJV" role="1XwpL7">
+        <property role="1XweGQ" value="r:10817a5e-6659-4644-b085-8f24104ad4a4" />
+        <node concept="1j_P7g" id="5CYFCJDUPJW" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.keeperOfCollectionLeft" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="5CYFCJDUPJN" role="ppbcs">
+      <node concept="1dCxOl" id="5CYFCJDUPK2" role="1XwpL7">
+        <property role="1XweGQ" value="r:bb297b36-9318-4f63-96ed-8c6c24a38d46" />
+        <node concept="1j_P7g" id="5CYFCJDUPK3" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.keeperOfCollectionRight" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="5CYFCJDUPK9" role="2JagXQ">
+      <node concept="1dCxOl" id="5CYFCJDUPKg" role="1XwpL7">
+        <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
+        <node concept="1j_P7g" id="5CYFCJDUPKh" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

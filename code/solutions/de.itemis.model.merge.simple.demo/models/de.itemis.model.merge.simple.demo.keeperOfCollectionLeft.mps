@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09(de.itemis.model.merge.simple.demo.result)">
+<model ref="r:10817a5e-6659-4644-b085-8f24104ad4a4(de.itemis.model.merge.simple.demo.keeperOfCollectionLeft)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
-    <use id="81362899-970b-421b-9fe3-2b64b343f769" name="de.itemis.model.simple.demo.property" version="0" />
-    <use id="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" name="de.itemis.model.simple.demo.children" version="0" />
     <use id="e50b0500-6fd7-4c7f-a730-9d841358ce8b" name="de.itemis.model.simple.demo.collection" version="0" />
     <use id="36ead753-43ea-471e-bcb9-d4fb1e637bbc" name="de.itemis.model.simple.demo.collection.keeper" version="0" />
   </languages>
@@ -27,18 +26,21 @@
       </concept>
     </language>
   </registry>
-  <node concept="2NVWI1" id="5CYFCJDZ7pm">
+  <node concept="2NVWI1" id="5CYFCJDOEfz">
     <property role="2NV6mZ" value="12" />
-    <node concept="CZi8p" id="5CYFCJDZ7pn" role="2NVMut">
+    <node concept="CZi8p" id="5CYFCJDUPfv" role="2NVMut">
       <property role="CZhx$" value="2" />
-      <node concept="2pctC0" id="5CYFCJDZ7po" role="CZinA">
+      <node concept="2pctC0" id="5CYFCJDUPf$" role="CZinA">
         <property role="2pctC1" value="dummy1" />
       </node>
     </node>
-    <node concept="CZi8p" id="5CYFCJDZ7pp" role="2NVMut">
+    <node concept="CZi8p" id="5CYFCJDOEf$" role="2NVMut">
       <property role="CZhx$" value="1" />
-      <node concept="2pctC0" id="5CYFCJDZ7pq" role="CZinA">
-        <property role="2pctC1" value="&lt;dummy2/dummy2&gt;" />
+      <node concept="2pctC0" id="5CYFCJDOEfA" role="CZinA">
+        <property role="2pctC1" value="dummy1" />
+      </node>
+      <node concept="2pctC0" id="5CYFCJDOEfC" role="CZinA">
+        <property role="2pctC1" value="dummy2" />
       </node>
     </node>
   </node>

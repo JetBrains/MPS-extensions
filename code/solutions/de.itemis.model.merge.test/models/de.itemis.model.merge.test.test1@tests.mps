@@ -3231,7 +3231,7 @@
             <property role="TrG5h" value="mergedNodes" />
             <node concept="_YKpA" id="4S51TVFecbJ" role="1tU5fm">
               <node concept="3uibUv" id="4S51TVFecbL" role="_ZDj9">
-                <ref role="3uigEE" to="gunp:5ahhjncnrmv" resolve="ModelUtil.MergedNode" />
+                <ref role="3uigEE" to="gunp:5ahhjncnrmv" resolve="MergedNode" />
               </node>
             </node>
             <node concept="2OqwBi" id="4S51TVFeb6K" role="33vP2m">
@@ -3281,7 +3281,7 @@
           <node concept="3cpWsn" id="4S51TVFedgr" role="3cpWs9">
             <property role="TrG5h" value="firstNode" />
             <node concept="3uibUv" id="4S51TVFedgk" role="1tU5fm">
-              <ref role="3uigEE" to="gunp:5ahhjncnrmv" resolve="ModelUtil.MergedNode" />
+              <ref role="3uigEE" to="gunp:5ahhjncnrmv" resolve="MergedNode" />
             </node>
             <node concept="1y4W85" id="4S51TVFedgs" role="33vP2m">
               <node concept="3cmrfG" id="4S51TVFedgt" role="1y58nS">

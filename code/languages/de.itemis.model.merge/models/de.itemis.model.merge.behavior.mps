@@ -5362,6 +5362,9 @@
         <node concept="3uibUv" id="5ahhjnc6g3D" role="3clF45">
           <ref role="3uigEE" to="gunp:5lvG0vITZsP" resolve="PropertyMerger" />
         </node>
+        <node concept="2AHcQZ" id="61HvMZcplS4" role="2AJF6D">
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+        </node>
       </node>
       <node concept="2tJIrI" id="5ahhjnchfkr" role="jymVt" />
       <node concept="3clFb_" id="5ahhjnchtRG" role="jymVt">
@@ -5458,6 +5461,9 @@
         <node concept="3Tm1VV" id="5ahhjnchmoY" role="1B3o_S" />
         <node concept="3uibUv" id="5ahhjnch_lc" role="3clF45">
           <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptChildMerger" />
+        </node>
+        <node concept="2AHcQZ" id="61HvMZcozRz" role="2AJF6D">
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
       <node concept="3clFb_" id="60iGZSKksq6" role="jymVt">
@@ -5788,6 +5794,54 @@
       </node>
       <node concept="2tJIrI" id="6MgS2un_XhX" role="jymVt" />
       <node concept="3Tm1VV" id="2QNuyuiL5OS" role="1B3o_S" />
+      <node concept="3uibUv" id="61HvMZcokxf" role="EKbjA">
+        <ref role="3uigEE" node="61HvMZcnXGe" resolve="ConceptGraphTraversal.MergerResolver" />
+      </node>
+    </node>
+    <node concept="3HP615" id="61HvMZcnXGe" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="MergerResolver" />
+      <node concept="3clFb_" id="61HvMZco8bl" role="jymVt">
+        <property role="TrG5h" value="childMergerFor" />
+        <node concept="37vLTG" id="61HvMZco8mv" role="3clF46">
+          <property role="TrG5h" value="concept" />
+          <node concept="3uibUv" id="61HvMZco8mw" role="1tU5fm">
+            <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+          </node>
+        </node>
+        <node concept="37vLTG" id="61HvMZco8mx" role="3clF46">
+          <property role="TrG5h" value="link" />
+          <node concept="3uibUv" id="61HvMZco8my" role="1tU5fm">
+            <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+          </node>
+        </node>
+        <node concept="3uibUv" id="61HvMZcosjY" role="3clF45">
+          <ref role="3uigEE" to="gunp:5lvG0vIUaC$" resolve="ConceptChildMerger" />
+        </node>
+        <node concept="3Tm1VV" id="61HvMZco8bo" role="1B3o_S" />
+        <node concept="3clFbS" id="61HvMZco8bp" role="3clF47" />
+      </node>
+      <node concept="3clFb_" id="61HvMZcoNjx" role="jymVt">
+        <property role="TrG5h" value="propertyMergerFor" />
+        <node concept="37vLTG" id="61HvMZcoNjy" role="3clF46">
+          <property role="TrG5h" value="sac" />
+          <node concept="3uibUv" id="61HvMZcoNjz" role="1tU5fm">
+            <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+          </node>
+        </node>
+        <node concept="37vLTG" id="61HvMZcoNj$" role="3clF46">
+          <property role="TrG5h" value="property" />
+          <node concept="3uibUv" id="61HvMZcoNj_" role="1tU5fm">
+            <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="61HvMZcoNjA" role="3clF47" />
+        <node concept="3Tm1VV" id="61HvMZcoNk2" role="1B3o_S" />
+        <node concept="3uibUv" id="61HvMZcoNk3" role="3clF45">
+          <ref role="3uigEE" to="gunp:5lvG0vITZsP" resolve="PropertyMerger" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="61HvMZcnXGf" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="18W7Z4VeRuk" role="1B3o_S" />
     <node concept="2tJIrI" id="3PLTv5jA_Pa" role="jymVt" />
@@ -9509,7 +9563,7 @@
             <property role="TrG5h" value="mergedNodes" />
             <node concept="_YKpA" id="4S51TVEXkG0" role="1tU5fm">
               <node concept="3uibUv" id="4S51TVEXkG2" role="_ZDj9">
-                <ref role="3uigEE" to="gunp:5ahhjncnrmv" resolve="ModelUtil.MergedNode" />
+                <ref role="3uigEE" to="gunp:5ahhjncnrmv" resolve="MergedNode" />
               </node>
             </node>
             <node concept="2OqwBi" id="4S51TVEXk48" role="33vP2m">

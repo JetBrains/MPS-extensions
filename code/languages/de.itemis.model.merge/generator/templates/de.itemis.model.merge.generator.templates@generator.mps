@@ -3816,6 +3816,9 @@
                       <node concept="37vLTw" id="1PFYlaN3A3R" role="37wK5m">
                         <ref role="3cqZAo" node="6W0eXuddqUV" resolve="elementRight" />
                       </node>
+                      <node concept="37vLTw" id="30FY4ILZHaP" role="37wK5m">
+                        <ref role="3cqZAo" node="50eR6VkTFnN" resolve="autoMergeOperation" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -3875,6 +3878,20 @@
             <node concept="37vLTG" id="6W0eXudds1I" role="3clF46">
               <property role="TrG5h" value="right" />
               <node concept="3Tqbb2" id="6W0eXudds1J" role="1tU5fm" />
+            </node>
+            <node concept="37vLTG" id="30FY4ILZGr$" role="3clF46">
+              <property role="TrG5h" value="auto" />
+              <node concept="1ajhzC" id="30FY4ILZGr_" role="1tU5fm">
+                <node concept="3uibUv" id="30FY4ILZGrA" role="1ajw0F">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+                <node concept="3uibUv" id="30FY4ILZGrB" role="1ajw0F">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+                <node concept="3uibUv" id="30FY4ILZGrC" role="1ajl9A">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+              </node>
             </node>
             <node concept="3Tqbb2" id="6W0eXudds1K" role="3clF45" />
           </node>

@@ -853,6 +853,14 @@
         <property role="TrG5h" value="right" />
         <node concept="3Tqbb2" id="5lvG0vIUb0o" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="30FY4ILG85p" role="3clF46">
+        <property role="TrG5h" value="auto" />
+        <node concept="1ajhzC" id="30FY4ILG8kf" role="1tU5fm">
+          <node concept="3Tqbb2" id="30FY4ILG8kg" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILG8kh" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILG8ki" role="1ajl9A" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="50eR6VkTjM$" role="jymVt" />
     <node concept="3clFb_" id="50eR6VkB59u" role="jymVt">
@@ -868,6 +876,9 @@
               </node>
               <node concept="37vLTw" id="50eR6VkBiCx" role="37wK5m">
                 <ref role="3cqZAo" node="50eR6VkB59_" resolve="rightParent" />
+              </node>
+              <node concept="37vLTw" id="30FY4ILGaZK" role="37wK5m">
+                <ref role="3cqZAo" node="50eR6VkBe6F" resolve="autoMergeOperation" />
               </node>
             </node>
           </node>
@@ -1015,6 +1026,14 @@
         <property role="TrG5h" value="rightParent" />
         <node concept="3Tqbb2" id="5lvG0vIUb$U" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="30FY4ILHRZd" role="3clF46">
+        <property role="TrG5h" value="auto" />
+        <node concept="1ajhzC" id="30FY4ILHRZe" role="1tU5fm">
+          <node concept="3Tqbb2" id="30FY4ILHRZf" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHRZg" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHRZh" role="1ajl9A" />
+        </node>
+      </node>
       <node concept="3clFbS" id="5lvG0vIUb$Y" role="3clF47">
         <node concept="3clFbF" id="5lvG0vIUbGz" role="3cqZAp">
           <node concept="2OqwBi" id="5lvG0vIUeYv" role="3clFbG">
@@ -1085,6 +1104,14 @@
       <node concept="37vLTG" id="5lvG0vIUfww" role="3clF46">
         <property role="TrG5h" value="rightParent" />
         <node concept="3Tqbb2" id="5lvG0vIUfwx" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="30FY4ILHRGP" role="3clF46">
+        <property role="TrG5h" value="auto" />
+        <node concept="1ajhzC" id="30FY4ILHRGQ" role="1tU5fm">
+          <node concept="3Tqbb2" id="30FY4ILHRGR" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHRGS" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHRGT" role="1ajl9A" />
+        </node>
       </node>
       <node concept="3clFbS" id="5lvG0vIUfw$" role="3clF47">
         <node concept="3clFbF" id="5lvG0vIUfw_" role="3cqZAp">
@@ -1268,6 +1295,14 @@
       <node concept="37vLTG" id="57NTRpQ5IL_" role="3clF46">
         <property role="TrG5h" value="rightParent" />
         <node concept="3Tqbb2" id="57NTRpQ5ILA" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="30FY4ILHS8B" role="3clF46">
+        <property role="TrG5h" value="auto" />
+        <node concept="1ajhzC" id="30FY4ILHS8C" role="1tU5fm">
+          <node concept="3Tqbb2" id="30FY4ILHS8D" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHS8E" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHS8F" role="1ajl9A" />
+        </node>
       </node>
       <node concept="3clFbS" id="57NTRpQ5ILD" role="3clF47">
         <node concept="3clFbF" id="57NTRpQ5K1Q" role="3cqZAp">
@@ -2203,6 +2238,14 @@
         <property role="TrG5h" value="rightParent" />
         <node concept="3Tqbb2" id="6IgrZARCvIw" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="30FY4ILHQkm" role="3clF46">
+        <property role="TrG5h" value="auto" />
+        <node concept="1ajhzC" id="30FY4ILHQkn" role="1tU5fm">
+          <node concept="3Tqbb2" id="30FY4ILHQko" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHQkp" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHQkq" role="1ajl9A" />
+        </node>
+      </node>
       <node concept="3clFbS" id="6IgrZARCviT" role="3clF47">
         <node concept="3clFbF" id="50eR6Vl1X11" role="3cqZAp">
           <node concept="2OqwBi" id="50eR6Vl1Xgv" role="3clFbG">
@@ -2217,26 +2260,8 @@
               </node>
               <node concept="10Nm6u" id="50eR6Vl57Rf" role="37wK5m" />
               <node concept="10Nm6u" id="77Ot_59WUhU" role="37wK5m" />
-              <node concept="1bVj0M" id="50eR6Vl1Yrh" role="37wK5m">
-                <node concept="37vLTG" id="50eR6Vl1YtF" role="1bW2Oz">
-                  <property role="TrG5h" value="l" />
-                  <node concept="3uibUv" id="50eR6Vl1Yyg" role="1tU5fm">
-                    <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-                  </node>
-                </node>
-                <node concept="37vLTG" id="50eR6Vl1YI3" role="1bW2Oz">
-                  <property role="TrG5h" value="r" />
-                  <node concept="3uibUv" id="50eR6Vl1YMP" role="1tU5fm">
-                    <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-                  </node>
-                </node>
-                <node concept="3clFbS" id="50eR6Vl1Yrj" role="1bW5cS">
-                  <node concept="3clFbF" id="50eR6Vl1Z22" role="3cqZAp">
-                    <node concept="37vLTw" id="50eR6Vl1ZHK" role="3clFbG">
-                      <ref role="3cqZAo" node="50eR6Vl1YtF" resolve="l" />
-                    </node>
-                  </node>
-                </node>
+              <node concept="37vLTw" id="30FY4ILHRlV" role="37wK5m">
+                <ref role="3cqZAo" node="30FY4ILHQkm" resolve="auto" />
               </node>
             </node>
           </node>
@@ -2348,7 +2373,7 @@
     <node concept="3Tm1VV" id="1yAYHyQ2xCk" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="32ggi2DpDWx">
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="mergetraversal.content" />
     <property role="TrG5h" value="ContentHolderFactory" />
     <node concept="2tJIrI" id="32ggi2DpDXz" role="jymVt" />
     <node concept="3clFb_" id="32ggi2DpDYO" role="jymVt">
@@ -2820,7 +2845,7 @@
     <node concept="3Tm1VV" id="32ggi2DpDWy" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="32ggi2DqedF">
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="mergetraversal.content" />
     <property role="TrG5h" value="ContentHolderFactoryExtension" />
     <node concept="2tJIrI" id="32ggi2Dqewg" role="jymVt" />
     <node concept="312cEg" id="32ggi2DqoUH" role="jymVt">
@@ -5330,6 +5355,14 @@
       <node concept="37vLTG" id="3pc485W4Nuf" role="3clF46">
         <property role="TrG5h" value="right" />
         <node concept="3Tqbb2" id="3pc485W4Nug" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="30FY4ILHT1$" role="3clF46">
+        <property role="TrG5h" value="auto" />
+        <node concept="1ajhzC" id="30FY4ILHT1_" role="1tU5fm">
+          <node concept="3Tqbb2" id="30FY4ILHT1A" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHT1B" role="1ajw0F" />
+          <node concept="3Tqbb2" id="30FY4ILHT1C" role="1ajl9A" />
+        </node>
       </node>
       <node concept="3clFbS" id="3pc485W4Nuh" role="3clF47">
         <node concept="YS8fn" id="3pc485W4Ouk" role="3cqZAp">
@@ -11936,7 +11969,7 @@
     <node concept="3Tm1VV" id="61HvMZcnXGf" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="3EHNiwzfoWk">
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="mergetraversal.content" />
     <property role="TrG5h" value="SimpleActionContentHolder" />
     <node concept="2tJIrI" id="3EHNiwzfpEf" role="jymVt" />
     <node concept="312cEg" id="3EHNiwzfpM0" role="jymVt">
@@ -12202,7 +12235,7 @@
   </node>
   <node concept="3HP615" id="3EHNiwzf98t">
     <property role="TrG5h" value="ContentHolder" />
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="mergetraversal.content" />
     <node concept="2tJIrI" id="3EHNiwzf99n" role="jymVt" />
     <node concept="3clFb_" id="3EHNiwzf9b7" role="jymVt">
       <property role="TrG5h" value="isSame" />
@@ -12241,7 +12274,7 @@
     </node>
   </node>
   <node concept="312cEu" id="3EHNiwzhbvm">
-    <property role="3GE5qa" value="content" />
+    <property role="3GE5qa" value="mergetraversal.content" />
     <property role="TrG5h" value="SubPolicyContainerContentHolder" />
     <node concept="2tJIrI" id="3EHNiwzhbHw" role="jymVt" />
     <node concept="312cEg" id="3EHNiwzhbR4" role="jymVt">

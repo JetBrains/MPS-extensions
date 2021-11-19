@@ -781,7 +781,7 @@
       <property role="TrG5h" value="mergePoliciesByHierarchy" />
       <node concept="3Tm1VV" id="2QNuyuiMzB3" role="1B3o_S" />
       <node concept="3uibUv" id="2QNuyuiM$Ua" role="3clF45">
-        <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="Result" />
+        <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="ModelMergeResult" />
       </node>
       <node concept="3clFbS" id="2QNuyuiMzB5" role="3clF47">
         <node concept="3clFbF" id="2QNuyuiM$PN" role="3cqZAp">
@@ -1100,6 +1100,9 @@
               <node concept="35c_gC" id="1NgLzfPc3Yl" role="HW$Y0">
                 <ref role="35c_gD" to="mopj:1NgLzfPc0Pz" resolve="ActionFunctionRightParam" />
               </node>
+              <node concept="35c_gC" id="30FY4ILzP9E" role="HW$Y0">
+                <ref role="35c_gD" to="mopj:30FY4ILzHX1" resolve="ActionFunctionAutoParam" />
+              </node>
               <node concept="3bZ5Sz" id="1NgLzfPbJYN" role="HW$YZ">
                 <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
               </node>
@@ -1386,7 +1389,7 @@
             <node concept="2OqwBi" id="jF$CuWf1xi" role="33vP2m">
               <node concept="2YIFZM" id="61HvMZcxF4N" role="2Oq$k0">
                 <ref role="37wK5l" to="gunp:jF$CuWeisZ" resolve="directSubConcepts" />
-                <ref role="1Pybhc" to="gunp:2rVXF9$L4no" resolve="ConceptGraph" />
+                <ref role="1Pybhc" to="gunp:2rVXF9$L4no" resolve="ConceptGraphBuilder" />
                 <node concept="37vLTw" id="jF$CuWmLsS" role="37wK5m">
                   <ref role="3cqZAo" node="jF$CuWeO05" resolve="allConcepts" />
                 </node>
@@ -2350,7 +2353,7 @@
             </node>
             <node concept="2YIFZM" id="2V55j61WlH$" role="33vP2m">
               <ref role="37wK5l" to="gunp:2V55j61WhOh" resolve="rootsOf" />
-              <ref role="1Pybhc" to="gunp:2V55j61W8Fq" resolve="ModelUtil" />
+              <ref role="1Pybhc" to="gunp:2V55j61W8Fq" resolve="ModelMergerRunner" />
               <node concept="2OqwBi" id="2V55j61WsQY" role="37wK5m">
                 <node concept="13iPFW" id="6Ltuup4sPie" role="2Oq$k0" />
                 <node concept="3TrEf2" id="2V55j61WsR0" role="2OqNvi">
@@ -2373,7 +2376,7 @@
             </node>
             <node concept="2YIFZM" id="5ahhjncn3QD" role="33vP2m">
               <ref role="37wK5l" to="gunp:2V55j61WhOh" resolve="rootsOf" />
-              <ref role="1Pybhc" to="gunp:2V55j61W8Fq" resolve="ModelUtil" />
+              <ref role="1Pybhc" to="gunp:2V55j61W8Fq" resolve="ModelMergerRunner" />
               <node concept="2OqwBi" id="5ahhjncn3QE" role="37wK5m">
                 <node concept="13iPFW" id="6Ltuup4sP$_" role="2Oq$k0" />
                 <node concept="3TrEf2" id="5ahhjncn4Zi" role="2OqNvi">
@@ -2399,7 +2402,7 @@
               <node concept="2OqwBi" id="4S51TVEXjuJ" role="2Oq$k0">
                 <node concept="2YIFZM" id="5ahhjncncrN" role="2Oq$k0">
                   <ref role="37wK5l" to="gunp:5ahhjnclIt_" resolve="merge" />
-                  <ref role="1Pybhc" to="gunp:2V55j61W8Fq" resolve="ModelUtil" />
+                  <ref role="1Pybhc" to="gunp:2V55j61W8Fq" resolve="ModelMergerRunner" />
                   <node concept="37vLTw" id="5ahhjncncrO" role="37wK5m">
                     <ref role="3cqZAo" node="5zr7Q_1LS9H" resolve="leftRootNodes" />
                   </node>

@@ -99,6 +99,7 @@
     <dependency reexport="false">ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)</dependency>
     <dependency reexport="false">446c26eb-2b7b-4bf0-9b35-f83fa582753e(jetbrains.mps.lang.modelapi)</dependency>
     <dependency reexport="true">aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)</dependency>
+    <dependency reexport="false">fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:309e0004-4976-4416-b947-ec02ae4ecef2:com.mbeddr.mpsutil.modellisteners" version="0" />

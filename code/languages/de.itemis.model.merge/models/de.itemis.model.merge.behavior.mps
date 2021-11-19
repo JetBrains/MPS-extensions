@@ -2263,19 +2263,30 @@
       <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
       <node concept="3Tm1VV" id="1PFYlaN6iWE" role="1B3o_S" />
       <node concept="3clFbS" id="1PFYlaN6iWG" role="3clF47">
-        <node concept="3clFbF" id="5NUO5YlaRLM" role="3cqZAp">
-          <node concept="2OqwBi" id="5NUO5YlaS$_" role="3clFbG">
-            <node concept="2OqwBi" id="5NUO5YlaS0u" role="2Oq$k0">
-              <node concept="13iPFW" id="5NUO5YlaRLI" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="5NUO5YlaSp7" role="2OqNvi">
-                <node concept="1xMEDy" id="5NUO5YlaSp9" role="1xVPHs">
-                  <node concept="chp4Y" id="5NUO5YlaSrv" role="ri$Ld">
-                    <ref role="cht4Q" to="mopj:3PLTv5jRo6X" resolve="ChildPolicy" />
+        <node concept="3cpWs8" id="30FY4IM5ssE" role="3cqZAp">
+          <node concept="3cpWsn" id="30FY4IM5ssF" role="3cpWs9">
+            <property role="TrG5h" value="ancestor" />
+            <node concept="3Tqbb2" id="30FY4IM5s3$" role="1tU5fm">
+              <ref role="ehGHo" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
+            </node>
+            <node concept="2OqwBi" id="30FY4IM5ssG" role="33vP2m">
+              <node concept="13iPFW" id="30FY4IM5ssH" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="30FY4IM5ssI" role="2OqNvi">
+                <node concept="1xMEDy" id="30FY4IM5ssJ" role="1xVPHs">
+                  <node concept="chp4Y" id="30FY4IM5t3n" role="ri$Ld">
+                    <ref role="cht4Q" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="2qgKlT" id="5NUO5YlaSJA" role="2OqNvi">
+          </node>
+        </node>
+        <node concept="3clFbF" id="5NUO5YlaRLM" role="3cqZAp">
+          <node concept="2OqwBi" id="5NUO5YlaS$_" role="3clFbG">
+            <node concept="37vLTw" id="30FY4IM5ssL" role="2Oq$k0">
+              <ref role="3cqZAo" node="30FY4IM5ssF" resolve="ancestor" />
+            </node>
+            <node concept="2qgKlT" id="30FY4IM5tuJ" role="2OqNvi">
               <ref role="37wK5l" node="5NUO5Yl882U" resolve="returnTypeManualAction" />
             </node>
           </node>
@@ -2299,6 +2310,9 @@
               </node>
               <node concept="35c_gC" id="1PFYlaN9j7e" role="HW$Y0">
                 <ref role="35c_gD" to="mopj:1PFYlaN8uRe" resolve="ActionCollectionFunctionRightParam" />
+              </node>
+              <node concept="35c_gC" id="30FY4ILYgN1" role="HW$Y0">
+                <ref role="35c_gD" to="mopj:30FY4ILzHX1" resolve="ActionFunctionAutoParam" />
               </node>
             </node>
           </node>

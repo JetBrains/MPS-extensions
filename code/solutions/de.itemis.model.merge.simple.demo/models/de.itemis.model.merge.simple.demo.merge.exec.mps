@@ -207,5 +207,33 @@
       </node>
     </node>
   </node>
+  <node concept="poArf" id="30FY4IMaPhH">
+    <property role="TrG5h" value="CollectionAutoManualExecution" />
+    <ref role="pot50" to="2y6h:30FY4IM3W2N" resolve="CollectionChildMergerAuto" />
+    <node concept="1Xw6AR" id="30FY4IMaPhI" role="ppIIL">
+      <node concept="1dCxOl" id="30FY4IMaPhJ" role="1XwpL7">
+        <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
+        <node concept="1j_P7g" id="30FY4IMaPhK" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftCollection" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="30FY4IMaPhL" role="ppbcs">
+      <node concept="1dCxOl" id="30FY4IMaPhM" role="1XwpL7">
+        <property role="1XweGQ" value="r:64adeb98-b48d-4897-996c-61093731db10" />
+        <node concept="1j_P7g" id="30FY4IMaPhN" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightCollection" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="30FY4IMaPhO" role="2JagXQ">
+      <node concept="1dCxOl" id="30FY4IMaPhP" role="1XwpL7">
+        <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
+        <node concept="1j_P7g" id="30FY4IMaPhQ" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

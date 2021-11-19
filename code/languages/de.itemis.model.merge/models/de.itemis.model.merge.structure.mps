@@ -471,5 +471,13 @@
     <property role="R4oN_" value="Right Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="30FY4ILzHX1">
+    <property role="EcuMT" value="3471140941804265281" />
+    <property role="TrG5h" value="ActionFunctionAutoParam" />
+    <property role="3GE5qa" value="parameters" />
+    <property role="34LRSv" value="auto" />
+    <property role="R4oN_" value="Apply Auto-Merge on Parameters" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 

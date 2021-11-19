@@ -42,7 +42,7 @@
     <node concept="1TJgyj" id="3pc485Vr2SR" role="1TKVEi">
       <property role="IQ2ns" value="3912520324585631287" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="childSingelton" />
+      <property role="20kJfa" value="childSingleton" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
     </node>

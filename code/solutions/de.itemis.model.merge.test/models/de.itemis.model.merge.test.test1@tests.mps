@@ -61,12 +61,18 @@
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -2037,7 +2043,7 @@
           <node concept="3cpWsn" id="1trrptaH5uI" role="3cpWs9">
             <property role="TrG5h" value="mergePoliciesByHierarchy" />
             <node concept="3uibUv" id="1trrptaH5e_" role="1tU5fm">
-              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="Result" />
+              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="ModelMergeResult" />
             </node>
             <node concept="2OqwBi" id="1trrptaH5uJ" role="33vP2m">
               <node concept="3xONca" id="1trrptaH5uK" role="2Oq$k0">
@@ -2160,7 +2166,7 @@
           <node concept="3cpWsn" id="1trrptaHgIE" role="3cpWs9">
             <property role="TrG5h" value="mergePoliciesByHierarchy" />
             <node concept="3uibUv" id="1trrptaHgIF" role="1tU5fm">
-              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="Result" />
+              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="ModelMergeResult" />
             </node>
             <node concept="2OqwBi" id="1trrptaHgIG" role="33vP2m">
               <node concept="3xONca" id="1trrptaHtRd" role="2Oq$k0">
@@ -3235,29 +3241,37 @@
               </node>
             </node>
             <node concept="2OqwBi" id="4S51TVFeb6K" role="33vP2m">
-              <node concept="2YIFZM" id="4S51TVFdF4G" role="2Oq$k0">
-                <ref role="37wK5l" to="gunp:5ahhjnclIt_" resolve="merge" />
-                <ref role="1Pybhc" to="gunp:2V55j61W8Fq" resolve="ModelUtil" />
-                <node concept="2YIFZM" id="4S51TVFdF4H" role="37wK5m">
-                  <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
-                  <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                  <node concept="3xONca" id="4S51TVFdF4I" role="37wK5m">
-                    <ref role="3xOPvv" node="4S51TVFduo9" resolve="inst1" />
+              <node concept="1eOMI4" id="7L127H0cTHy" role="2Oq$k0">
+                <node concept="2OqwBi" id="7L127H0cTHn" role="1eOMHV">
+                  <node concept="2ShNRf" id="7L127H0cTHo" role="2Oq$k0">
+                    <node concept="HV5vD" id="7L127H0cTHp" role="2ShVmc">
+                      <ref role="HV5vE" to="gunp:2V55j61W8Fq" resolve="ModelMergerRunner" />
+                    </node>
                   </node>
-                </node>
-                <node concept="2YIFZM" id="4S51TVFdF4J" role="37wK5m">
-                  <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
-                  <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-                  <node concept="3xONca" id="4S51TVFdF4K" role="37wK5m">
-                    <ref role="3xOPvv" node="4S51TVFduod" resolve="inst2" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="4S51TVFdF4L" role="37wK5m">
-                  <node concept="3xONca" id="4S51TVFdF4M" role="2Oq$k0">
-                    <ref role="3xOPvv" node="4S51TVFdE8$" resolve="mergeExec" />
-                  </node>
-                  <node concept="3TrEf2" id="4S51TVFdF4N" role="2OqNvi">
-                    <ref role="3Tt5mk" to="mopj:5zr7Q_1IGSD" resolve="modelMerge" />
+                  <node concept="liA8E" id="7L127H0cTHq" role="2OqNvi">
+                    <ref role="37wK5l" to="gunp:7L127H0bDXC" resolve="merge" />
+                    <node concept="2YIFZM" id="7L127H0cTHr" role="37wK5m">
+                      <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
+                      <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                      <node concept="3xONca" id="7L127H0cTHs" role="37wK5m">
+                        <ref role="3xOPvv" node="4S51TVFduo9" resolve="inst1" />
+                      </node>
+                    </node>
+                    <node concept="2YIFZM" id="7L127H0cTHt" role="37wK5m">
+                      <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                      <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
+                      <node concept="3xONca" id="7L127H0cTHu" role="37wK5m">
+                        <ref role="3xOPvv" node="4S51TVFduod" resolve="inst2" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="7L127H0cTHv" role="37wK5m">
+                      <node concept="3xONca" id="7L127H0cTHw" role="2Oq$k0">
+                        <ref role="3xOPvv" node="4S51TVFdE8$" resolve="mergeExec" />
+                      </node>
+                      <node concept="3TrEf2" id="7L127H0cTHx" role="2OqNvi">
+                        <ref role="3Tt5mk" to="mopj:5zr7Q_1IGSD" resolve="modelMerge" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

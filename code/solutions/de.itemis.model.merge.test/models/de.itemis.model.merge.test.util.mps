@@ -15,6 +15,8 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -121,6 +123,9 @@
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -557,18 +562,78 @@
             <ref role="3cqZAo" node="1Av7ChlWg0F" resolve="merger" />
           </node>
         </node>
+        <node concept="3cpWs8" id="7L127H0iSiY" role="3cqZAp">
+          <node concept="3cpWsn" id="7L127H0iSiZ" role="3cpWs9">
+            <property role="TrG5h" value="children1" />
+            <node concept="_YKpA" id="7L127H0iWwG" role="1tU5fm">
+              <node concept="3uibUv" id="7L127H0j182" role="_ZDj9">
+                <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="7L127H0iZ_R" role="33vP2m">
+              <ref role="1Pybhc" to="3o3z:~Lists" resolve="Lists" />
+              <ref role="37wK5l" to="3o3z:~Lists.newLinkedList(java.lang.Iterable)" resolve="newLinkedList" />
+              <node concept="2OqwBi" id="7L127H0iSj0" role="37wK5m">
+                <node concept="2JrnkZ" id="7L127H0iSj1" role="2Oq$k0">
+                  <node concept="37vLTw" id="7L127H0iSj2" role="2JrQYb">
+                    <ref role="3cqZAo" node="1Av7ChlWg0h" resolve="mergeNode1" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7L127H0iSj3" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getChildren(org.jetbrains.mps.openapi.language.SContainmentLink)" resolve="getChildren" />
+                  <node concept="37vLTw" id="7L127H0iSj4" role="37wK5m">
+                    <ref role="3cqZAo" node="1Av7ChlWg0f" resolve="link" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7L127H0iTZI" role="3cqZAp">
+          <node concept="3cpWsn" id="7L127H0iTZJ" role="3cpWs9">
+            <property role="TrG5h" value="children2" />
+            <node concept="_YKpA" id="7L127H0iWQW" role="1tU5fm">
+              <node concept="3uibUv" id="7L127H0j1Lw" role="_ZDj9">
+                <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="7L127H0j1Xm" role="33vP2m">
+              <ref role="1Pybhc" to="3o3z:~Lists" resolve="Lists" />
+              <ref role="37wK5l" to="3o3z:~Lists.newLinkedList(java.lang.Iterable)" resolve="newLinkedList" />
+              <node concept="2OqwBi" id="7L127H0j1Xn" role="37wK5m">
+                <node concept="2JrnkZ" id="7L127H0j1Xo" role="2Oq$k0">
+                  <node concept="37vLTw" id="7L127H0j2lb" role="2JrQYb">
+                    <ref role="3cqZAo" node="1Av7ChlWg0j" resolve="mergeNode2" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7L127H0j1Xq" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getChildren(org.jetbrains.mps.openapi.language.SContainmentLink)" resolve="getChildren" />
+                  <node concept="37vLTw" id="7L127H0j1Xr" role="37wK5m">
+                    <ref role="3cqZAo" node="1Av7ChlWg0f" resolve="link" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1Av7ChlWg0X" role="3cqZAp">
           <node concept="2OqwBi" id="1Av7ChlWg0Y" role="3clFbG">
             <node concept="37vLTw" id="4WBgwWtkTmr" role="2Oq$k0">
               <ref role="3cqZAo" node="1Av7ChlWg0F" resolve="merger" />
             </node>
             <node concept="liA8E" id="1Av7ChlWg1d" role="2OqNvi">
-              <ref role="37wK5l" to="gunp:5lvG0vIUaYK" resolve="merge" />
+              <ref role="37wK5l" to="gunp:50eR6VkB59u" resolve="merge" />
               <node concept="37vLTw" id="1Av7ChlWg1e" role="37wK5m">
                 <ref role="3cqZAo" node="1Av7ChlWg0h" resolve="mergeNode1" />
               </node>
               <node concept="37vLTw" id="1Av7ChlWg1f" role="37wK5m">
                 <ref role="3cqZAo" node="1Av7ChlWg0j" resolve="mergeNode2" />
+              </node>
+              <node concept="37vLTw" id="7L127H0iUAq" role="37wK5m">
+                <ref role="3cqZAo" node="7L127H0iSiZ" resolve="children1" />
+              </node>
+              <node concept="37vLTw" id="7L127H0iUV7" role="37wK5m">
+                <ref role="3cqZAo" node="7L127H0iTZJ" resolve="children2" />
               </node>
               <node concept="1bVj0M" id="30FY4ILMVy8" role="37wK5m">
                 <node concept="37vLTG" id="30FY4ILMV_v" role="1bW2Oz">

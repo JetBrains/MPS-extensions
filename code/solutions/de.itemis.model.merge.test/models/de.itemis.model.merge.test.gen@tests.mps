@@ -1950,7 +1950,7 @@
   <node concept="1lH9Xt" id="3xLnOvEDK3H">
     <property role="TrG5h" value="genTestsForCollectionChildMerger" />
     <node concept="1LZb2c" id="3xLnOvEDK3I" role="1SL9yI">
-      <property role="TrG5h" value="testCOll" />
+      <property role="TrG5h" value="testCollectionMerge" />
       <node concept="3cqZAl" id="3xLnOvEDK3J" role="3clF45" />
       <node concept="3clFbS" id="3xLnOvEDK3K" role="3clF47">
         <node concept="3cpWs8" id="3xLnOvEDK3L" role="3cqZAp">

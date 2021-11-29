@@ -9,6 +9,7 @@
   <imports>
     <import index="2y6h" ref="r:c332880d-cb1b-4ddd-b54d-4041384feb18(de.itemis.model.merge.simple.demo.plugin)" />
     <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" />
+    <import index="h4p8" ref="r:9feddb6a-c2e4-4807-acb9-c2c92355dea8(de.itemis.model.merge.simple.demo.plugin2)" />
   </imports>
   <registry>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
@@ -230,6 +231,34 @@
       <node concept="1dCxOl" id="30FY4IMaPhP" role="1XwpL7">
         <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
         <node concept="1j_P7g" id="30FY4IMaPhQ" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="poArf" id="46ucjsetovI">
+    <property role="TrG5h" value="RefMergeExecution" />
+    <ref role="pot50" to="2y6h:46ucjsetp2K" resolve="RefMerge" />
+    <node concept="1Xw6AR" id="46ucjsetovJ" role="ppIIL">
+      <node concept="1dCxOl" id="46ucjseto$T" role="1XwpL7">
+        <property role="1XweGQ" value="r:c1a6b678-b9ca-460d-8c8c-f397d740b4bf" />
+        <node concept="1j_P7g" id="46ucjseto$U" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftRef" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="46ucjsetovL" role="ppbcs">
+      <node concept="1dCxOl" id="46ucjsetoE0" role="1XwpL7">
+        <property role="1XweGQ" value="r:713101b1-c4e9-4234-9541-cd640c17379d" />
+        <node concept="1j_P7g" id="46ucjsetoE1" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightRef" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="46ucjsf1EeP" role="2JagXQ">
+      <node concept="1dCxOl" id="46ucjsf1EjW" role="1XwpL7">
+        <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
+        <node concept="1j_P7g" id="46ucjsf1EjX" role="1j$8Uc">
           <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
         </node>
       </node>

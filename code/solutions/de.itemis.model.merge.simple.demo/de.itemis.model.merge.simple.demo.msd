@@ -25,6 +25,7 @@
     <dependency reexport="false">8688ed72-e0ba-44cb-9688-5c8397cb5bbb(de.itemis.model.simple.demo.children)</dependency>
     <dependency reexport="false">e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)</dependency>
     <dependency reexport="false">36ead753-43ea-471e-bcb9-d4fb1e637bbc(de.itemis.model.simple.demo.collection.keeper)</dependency>
+    <dependency reexport="false">6001215c-aa6e-4f9f-bfc2-f22e3c7250b2(de.itemis.model.simple.demo.reference)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f47b95d4-5e73-4c04-9204-18076950153b:com.mbeddr.mpsutil.compare" version="0" />
@@ -33,6 +34,7 @@
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ce8b:de.itemis.model.simple.demo.collection" version="0" />
     <language slang="l:36ead753-43ea-471e-bcb9-d4fb1e637bbc:de.itemis.model.simple.demo.collection.keeper" version="0" />
     <language slang="l:81362899-970b-421b-9fe3-2b64b343f769:de.itemis.model.simple.demo.property" version="0" />
+    <language slang="l:6001215c-aa6e-4f9f-bfc2-f22e3c7250b2:de.itemis.model.simple.demo.reference" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -58,6 +60,7 @@
     <module reference="e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)" version="0" />
     <module reference="36ead753-43ea-471e-bcb9-d4fb1e637bbc(de.itemis.model.simple.demo.collection.keeper)" version="0" />
     <module reference="81362899-970b-421b-9fe3-2b64b343f769(de.itemis.model.simple.demo.property)" version="0" />
+    <module reference="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2(de.itemis.model.simple.demo.reference)" version="0" />
     <module reference="ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.collections.libs)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />

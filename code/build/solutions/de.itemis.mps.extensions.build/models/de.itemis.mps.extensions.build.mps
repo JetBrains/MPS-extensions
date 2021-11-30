@@ -12604,9 +12604,6 @@
             </node>
           </node>
         </node>
-        <node concept="1E0d5M" id="24ObHxTrEo7" role="1E1XAP">
-          <ref role="1E0d5P" node="24ObHxTrBfS" resolve="com.mbeddr.mpsutil.projectview.vcs" />
-        </node>
         <node concept="1BupzO" id="4PRpvcZJNLj" role="3bR31x">
           <property role="3ZfqAx" value="languageModels" />
           <property role="1Hdu6h" value="true" />

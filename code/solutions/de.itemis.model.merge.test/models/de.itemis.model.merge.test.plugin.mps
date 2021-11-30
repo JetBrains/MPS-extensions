@@ -145,6 +145,7 @@
         <reference id="7555554651740432697" name="property" index="3iOP7l" />
         <child id="1912777765298654157" name="action" index="1orWrN" />
       </concept>
+      <concept id="34191549137273473" name="de.itemis.model.merge.structure.ManualRefAction" flags="ig" index="1$RbI9" />
       <concept id="4427572733341729074" name="de.itemis.model.merge.structure.OptionalChildPolicy" flags="ng" index="1DuYj3" />
       <concept id="4427572733341729082" name="de.itemis.model.merge.structure.OptionalRefPolicy" flags="ng" index="1DuYjb" />
       <concept id="4427572733341729071" name="de.itemis.model.merge.structure.SingletonChildPolicy" flags="ng" index="1DuYju" />
@@ -653,8 +654,8 @@
       </node>
       <node concept="1DuYjb" id="3xLnOvEDutV" role="1IWF8q">
         <ref role="3Ze0ni" to="14sb:57$6ALrLfRk" resolve="other" />
-        <node concept="3DZp98" id="3xLnOvEDuyM" role="3JN5mL">
-          <node concept="3clFbS" id="3xLnOvEDuyO" role="2VODD2">
+        <node concept="1$RbI9" id="1Tugx_v2Gf" role="3JN5mL">
+          <node concept="3clFbS" id="1Tugx_v2Gh" role="2VODD2">
             <node concept="3clFbF" id="3du1uQ$OExU" role="3cqZAp">
               <node concept="2pJPEk" id="3du1uQ$OExQ" role="3clFbG">
                 <node concept="2pJPED" id="3du1uQ$OEGo" role="2pJPEn">

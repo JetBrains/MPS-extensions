@@ -264,5 +264,33 @@
       </node>
     </node>
   </node>
+  <node concept="poArf" id="1Tugx_8FCD">
+    <property role="TrG5h" value="RefMergeManualExecution" />
+    <ref role="pot50" to="2y6h:1Tugx$DriK" resolve="RefMergeManual" />
+    <node concept="1Xw6AR" id="1Tugx_8FCE" role="ppIIL">
+      <node concept="1dCxOl" id="1Tugx_8FCF" role="1XwpL7">
+        <property role="1XweGQ" value="r:c1a6b678-b9ca-460d-8c8c-f397d740b4bf" />
+        <node concept="1j_P7g" id="1Tugx_8FCG" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftRef" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="1Tugx_8FCH" role="ppbcs">
+      <node concept="1dCxOl" id="1Tugx_8FCI" role="1XwpL7">
+        <property role="1XweGQ" value="r:713101b1-c4e9-4234-9541-cd640c17379d" />
+        <node concept="1j_P7g" id="1Tugx_8FCJ" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightRef" />
+        </node>
+      </node>
+    </node>
+    <node concept="1Xw6AR" id="1Tugx_8FCK" role="2JagXQ">
+      <node concept="1dCxOl" id="1Tugx_8FCL" role="1XwpL7">
+        <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
+        <node concept="1j_P7g" id="1Tugx_8FCM" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

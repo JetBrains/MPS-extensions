@@ -448,7 +448,7 @@
     <property role="EcuMT" value="2120062183195260387" />
     <property role="TrG5h" value="ManualCollectionAction" />
     <property role="3GE5qa" value="action" />
-    <property role="34LRSv" value="Manual" />
+    <property role="34LRSv" value="ManualColl" />
     <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
     <node concept="PrWs8" id="1PFYlaN5Vn$" role="PzmwI">
@@ -477,6 +477,33 @@
     <property role="3GE5qa" value="parameters" />
     <property role="34LRSv" value="auto" />
     <property role="R4oN_" value="Apply Auto-Merge on Parameters" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1Tugx$Dsa1">
+    <property role="EcuMT" value="34191549137273473" />
+    <property role="TrG5h" value="ManualRefAction" />
+    <property role="3GE5qa" value="action" />
+    <property role="34LRSv" value="ManualRef" />
+    <property role="R4oN_" value="Specify Custom Manual Merge Policy" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="1Tugx$Dsa2" role="PzmwI">
+      <ref role="PrY4T" node="6zqIeMU2OVl" resolve="MergeAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Tugx_1tx8">
+    <property role="EcuMT" value="34191549143570504" />
+    <property role="TrG5h" value="ActionFunctionRefLeftParam" />
+    <property role="34LRSv" value="left" />
+    <property role="3GE5qa" value="parameters" />
+    <property role="R4oN_" value="Left Version" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1Tugx_4mRv">
+    <property role="EcuMT" value="34191549144329695" />
+    <property role="TrG5h" value="ActionFunctionRefRightParam" />
+    <property role="34LRSv" value="right" />
+    <property role="3GE5qa" value="parameters" />
+    <property role="R4oN_" value="Right Version" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>

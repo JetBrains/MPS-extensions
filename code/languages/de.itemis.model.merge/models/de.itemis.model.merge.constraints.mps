@@ -499,8 +499,11 @@
                 <node concept="35c_gC" id="7_L5leh1B_q" role="37wK5m">
                   <ref role="35c_gD" to="mopj:7jyS5urbByQ" resolve="Drop" />
                 </node>
-                <node concept="35c_gC" id="7_L5leh1B_r" role="37wK5m">
-                  <ref role="35c_gD" to="mopj:1NgLzfPblhV" resolve="ManualAction" />
+                <node concept="2OqwBi" id="1Tugx$FZN6" role="37wK5m">
+                  <node concept="EsrRn" id="1Tugx$FXnx" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1Tugx$G1wc" role="2OqNvi">
+                    <ref role="37wK5l" to="rnx3:1Tugx$FTy0" resolve="manualAction" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -617,8 +620,11 @@
                 <node concept="35c_gC" id="7_L5leh19ax" role="37wK5m">
                   <ref role="35c_gD" to="mopj:6zqIeMU2OVm" resolve="Right" />
                 </node>
-                <node concept="35c_gC" id="7_L5leh19ay" role="37wK5m">
-                  <ref role="35c_gD" to="mopj:1NgLzfPblhV" resolve="ManualAction" />
+                <node concept="2OqwBi" id="1Tugx$Flqa" role="37wK5m">
+                  <node concept="EsrRn" id="1Tugx$Fjdk" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1Tugx$Fmrj" role="2OqNvi">
+                    <ref role="37wK5l" to="rnx3:1Tugx$F11q" resolve="manualAction" />
+                  </node>
                 </node>
               </node>
             </node>

@@ -22,12 +22,12 @@
       </concept>
     </language>
   </registry>
-  <node concept="2pctC0" id="3a5mjFhRwwS">
-    <property role="2pctC1" value="&lt;dummy2dummy2&gt;" />
+  <node concept="2pctC0" id="1Tugx_rRCK">
+    <property role="2pctC1" value="&lt;dummy2dummy2&gt;-L-&lt;dummy2dummy2&gt;-R" />
   </node>
-  <node concept="1d83UR" id="3a5mjFhRwwT">
+  <node concept="1d83UR" id="1Tugx_rRCL">
     <property role="1fUQlm" value="100" />
-    <ref role="1fRxyL" node="3a5mjFhRwwS" />
+    <ref role="1fRxyL" node="1Tugx_rRCK" />
   </node>
 </model>
 

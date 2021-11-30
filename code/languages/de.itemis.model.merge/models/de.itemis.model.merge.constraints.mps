@@ -978,6 +978,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Av7Chms28S">
+    <property role="3GE5qa" value="elementpolicies" />
     <ref role="1M2myG" to="mopj:3PLTv5k2w4J" resolve="SingletonChildPolicy" />
     <node concept="1N5Pfh" id="1Av7Chms2eU" role="1Mr941">
       <ref role="1N5Vy1" to="mopj:1VmHfRxVF4J" resolve="child" />

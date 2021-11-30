@@ -2336,7 +2336,6 @@
     </node>
   </node>
   <node concept="3HP615" id="1yAYHyQ2xCj">
-    <property role="3GE5qa" value="collection" />
     <property role="TrG5h" value="Identity" />
     <node concept="3clFb_" id="1yAYHyQ2xOL" role="jymVt">
       <property role="TrG5h" value="get" />
@@ -2475,7 +2474,7 @@
           <node concept="3clFbF" id="450aOM1TpxB" role="3cqZAp">
             <node concept="2YIFZM" id="450aOM1TpxC" role="3clFbG">
               <ref role="1Pybhc" node="32ggi2DpDWx" resolve="ContentHolderFactory" />
-              <ref role="37wK5l" node="450aOM1RWmT" resolve="makeStuff" />
+              <ref role="37wK5l" node="450aOM1RWmT" resolve="makeContentHolder" />
               <node concept="10Nm6u" id="450aOM1TqK1" role="37wK5m" />
               <node concept="37vLTw" id="450aOM1TpxE" role="37wK5m">
                 <ref role="3cqZAo" node="450aOM1SZog" resolve="itemPolicy" />
@@ -2635,7 +2634,7 @@
           <node concept="3clFbF" id="450aOM1Tr1U" role="3cqZAp">
             <node concept="2YIFZM" id="450aOM1Tr1V" role="3clFbG">
               <ref role="1Pybhc" node="32ggi2DpDWx" resolve="ContentHolderFactory" />
-              <ref role="37wK5l" node="450aOM1RWmT" resolve="makeStuff" />
+              <ref role="37wK5l" node="450aOM1RWmT" resolve="makeContentHolder" />
               <node concept="10Nm6u" id="450aOM1Tr1W" role="37wK5m" />
               <node concept="37vLTw" id="450aOM1Tr1X" role="37wK5m">
                 <ref role="3cqZAo" node="450aOM1SZoO" resolve="itemPolicy" />
@@ -2655,7 +2654,7 @@
       </node>
     </node>
     <node concept="2YIFZL" id="450aOM1RWmT" role="jymVt">
-      <property role="TrG5h" value="makeStuff" />
+      <property role="TrG5h" value="makeContentHolder" />
       <node concept="37vLTG" id="450aOM1RWmU" role="3clF46">
         <property role="TrG5h" value="content" />
         <node concept="16syzq" id="450aOM1RWmV" role="1tU5fm">
@@ -3250,7 +3249,7 @@
         </node>
         <node concept="3clFbF" id="450aOM1SBvz" role="3cqZAp">
           <node concept="2YIFZM" id="450aOM1SBv$" role="3clFbG">
-            <ref role="37wK5l" node="450aOM1RWmT" resolve="makeStuff" />
+            <ref role="37wK5l" node="450aOM1RWmT" resolve="makeContentHolder" />
             <ref role="1Pybhc" node="32ggi2DpDWx" resolve="ContentHolderFactory" />
             <node concept="37vLTw" id="450aOM1SBv_" role="37wK5m">
               <ref role="3cqZAo" node="32ggi2DqziP" resolve="merger" />
@@ -3463,7 +3462,7 @@
         </node>
         <node concept="3clFbF" id="450aOM1ShOG" role="3cqZAp">
           <node concept="2YIFZM" id="450aOM1S_T_" role="3clFbG">
-            <ref role="37wK5l" node="450aOM1RWmT" resolve="makeStuff" />
+            <ref role="37wK5l" node="450aOM1RWmT" resolve="makeContentHolder" />
             <ref role="1Pybhc" node="32ggi2DpDWx" resolve="ContentHolderFactory" />
             <node concept="37vLTw" id="450aOM1SAlm" role="37wK5m">
               <ref role="3cqZAo" node="32ggi2DuWdo" resolve="merger" />

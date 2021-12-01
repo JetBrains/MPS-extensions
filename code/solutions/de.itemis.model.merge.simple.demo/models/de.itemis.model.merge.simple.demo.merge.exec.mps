@@ -44,25 +44,25 @@
     <property role="TrG5h" value="MergeExecutionProperty" />
     <ref role="pot50" to="2y6h:3xLnOvEDNj_" resolve="SimplePropertyMerger" />
     <node concept="1Xw6AR" id="32ggi2DGrDB" role="ppIIL">
-      <node concept="1dCxOl" id="32ggi2DGrOp" role="1XwpL7">
+      <node concept="1dCxOl" id="6qrKgEqmZA6" role="1XwpL7">
         <property role="1XweGQ" value="r:9de9fed1-1745-49eb-9514-8cb24d2a34d4" />
-        <node concept="1j_P7g" id="32ggi2DGrOq" role="1j$8Uc">
-          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.left" />
+        <node concept="1j_P7g" id="6qrKgEqmZA7" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.leftProperty" />
         </node>
       </node>
     </node>
     <node concept="1Xw6AR" id="3E$7ALWCqm7" role="ppbcs">
-      <node concept="1dCxOl" id="3E$7ALWCqmg" role="1XwpL7">
+      <node concept="1dCxOl" id="6qrKgEqmZAd" role="1XwpL7">
         <property role="1XweGQ" value="r:004b3d3b-adaf-4a82-a939-eecc5c96e8e8" />
-        <node concept="1j_P7g" id="3E$7ALWCqmh" role="1j$8Uc">
-          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.right" />
+        <node concept="1j_P7g" id="6qrKgEqmZAe" role="1j$8Uc">
+          <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.rightProperty" />
         </node>
       </node>
     </node>
-    <node concept="1Xw6AR" id="3E$7ALWCqmn" role="2JagXQ">
-      <node concept="1dCxOl" id="3E$7ALWCqmw" role="1XwpL7">
+    <node concept="1Xw6AR" id="6qrKgEqn2IU" role="2JagXQ">
+      <node concept="1dCxOl" id="6qrKgEqn2J1" role="1XwpL7">
         <property role="1XweGQ" value="r:ecd2c27e-0ec1-4753-8900-a6ad3dc40f09" />
-        <node concept="1j_P7g" id="3E$7ALWCqmx" role="1j$8Uc">
+        <node concept="1j_P7g" id="6qrKgEqn2J2" role="1j$8Uc">
           <property role="1j_P7h" value="de.itemis.model.merge.simple.demo.result" />
         </node>
       </node>

@@ -18,6 +18,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -61,6 +62,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
         <child id="1221064706952" name="query" index="1d8cEk" />
@@ -101,6 +103,7 @@
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
+        <property id="1082639509531" name="nullText" index="ilYzB" />
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
@@ -109,6 +112,12 @@
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="1088612959204" name="jetbrains.mps.lang.editor.structure.CellModel_Alternation" flags="sg" stub="8104358048506729361" index="1QoScp">
+        <property id="1088613081987" name="vertical" index="1QpmdY" />
+        <child id="1145918517974" name="alternationCondition" index="3e4ffs" />
+        <child id="1088612958265" name="ifTrueCellModel" index="1QoS34" />
+        <child id="1088612973955" name="ifFalseCellModel" index="1QoVPY" />
+      </concept>
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -2080,8 +2089,46 @@
         <node concept="3F0ifn" id="2V55j61V1DA" role="3EZMnx">
           <property role="3F0ifm" value="Result:" />
         </node>
-        <node concept="3F1sOY" id="2V55j61V1DB" role="3EZMnx">
-          <ref role="1NtTu8" to="mopj:2V55j61V1D7" resolve="result" />
+        <node concept="1QoScp" id="6qrKgEqpHzt" role="3EZMnx">
+          <property role="1QpmdY" value="true" />
+          <node concept="pkWqt" id="6qrKgEqpHzu" role="3e4ffs">
+            <node concept="3clFbS" id="6qrKgEqpHzv" role="2VODD2">
+              <node concept="3clFbF" id="6qrKgEqpHzw" role="3cqZAp">
+                <node concept="2OqwBi" id="6qrKgEqpHzx" role="3clFbG">
+                  <node concept="2OqwBi" id="6qrKgEqpHzy" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6qrKgEqpHzz" role="2Oq$k0">
+                      <node concept="pncrf" id="6qrKgEqpHz$" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6qrKgEqpHz_" role="2OqNvi">
+                        <ref role="3Tt5mk" to="mopj:2V55j61V1D7" resolve="result" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="6qrKgEqpHzA" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tp25:1Bs_61$ngwB" resolve="modelRef" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="6qrKgEqpHzB" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3F0ifn" id="6qrKgEqpHzC" role="1QoVPY">
+            <property role="ilYzB" value="Merge Result written to Left Model!" />
+            <node concept="Vb9p2" id="6qrKgEqpHzD" role="3F10Kt">
+              <property role="Vbekb" value="g1_kEg4/ITALIC" />
+            </node>
+            <node concept="VechU" id="6qrKgEqpHzE" role="3F10Kt">
+              <property role="Vb096" value="fLwANPn/red" />
+              <node concept="1iSF2X" id="6qrKgEqpHzF" role="VblUZ">
+                <property role="1iTho6" value="e83f4d" />
+              </node>
+            </node>
+            <node concept="VPxyj" id="6qrKgEqslG$" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F1sOY" id="6qrKgEqpI2V" role="1QoS34">
+            <ref role="1NtTu8" to="mopj:2V55j61V1D7" resolve="result" />
+          </node>
         </node>
         <node concept="2iRfu4" id="2V55j61V1DC" role="2iSdaV" />
       </node>
@@ -2090,16 +2137,16 @@
         <node concept="3F0ifn" id="5zr7Q_1InPV" role="3EZMnx">
           <property role="3F0ifm" value="Merge Policy:" />
         </node>
-        <node concept="2iRfu4" id="5zr7Q_1InPW" role="2iSdaV" />
-        <node concept="1iCGBv" id="5zr7Q_1IGSK" role="3EZMnx">
+        <node concept="1iCGBv" id="6qrKgEqpHzl" role="3EZMnx">
           <ref role="1NtTu8" to="mopj:5zr7Q_1IGSD" resolve="modelMerge" />
-          <node concept="1sVBvm" id="5zr7Q_1IGSM" role="1sWHZn">
-            <node concept="3F0A7n" id="5zr7Q_1IGSX" role="2wV5jI">
+          <node concept="1sVBvm" id="6qrKgEqpHzm" role="1sWHZn">
+            <node concept="3F0A7n" id="6qrKgEqpHzn" role="2wV5jI">
               <property role="1Intyy" value="true" />
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
         </node>
+        <node concept="2iRfu4" id="5zr7Q_1InPW" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="5zr7Q_1InPg" role="2iSdaV" />
     </node>

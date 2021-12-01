@@ -9,15 +9,6 @@
     <use id="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2" name="de.itemis.model.simple.demo.reference" version="0" />
   </languages>
   <imports />
-  <registry>
-    <language id="81362899-970b-421b-9fe3-2b64b343f769" name="de.itemis.model.simple.demo.property">
-      <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.PropertyDummy" flags="ng" index="2pctC0">
-        <property id="3499368519007574817" name="data" index="2pctC1" />
-      </concept>
-    </language>
-  </registry>
-  <node concept="2pctC0" id="6qrKgEqn2J9">
-    <property role="2pctC1" value="demo1#demo1" />
-  </node>
+  <registry />
 </model>
 

@@ -18,7 +18,6 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
-    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -92,6 +91,7 @@
       <concept id="772883491827671446" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameterCustomize_Style" flags="ng" index="3lBNjA" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -110,14 +110,10 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
-      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
-      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
-      <concept id="1088612959204" name="jetbrains.mps.lang.editor.structure.CellModel_Alternation" flags="sg" stub="8104358048506729361" index="1QoScp">
-        <property id="1088613081987" name="vertical" index="1QpmdY" />
-        <child id="1145918517974" name="alternationCondition" index="3e4ffs" />
-        <child id="1088612958265" name="ifTrueCellModel" index="1QoS34" />
-        <child id="1088612973955" name="ifFalseCellModel" index="1QoVPY" />
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
+        <child id="16410578721629643" name="emptyCellModel" index="2ruayu" />
       </concept>
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -2089,45 +2085,23 @@
         <node concept="3F0ifn" id="2V55j61V1DA" role="3EZMnx">
           <property role="3F0ifm" value="Result:" />
         </node>
-        <node concept="1QoScp" id="6qrKgEqpHzt" role="3EZMnx">
-          <property role="1QpmdY" value="true" />
-          <node concept="pkWqt" id="6qrKgEqpHzu" role="3e4ffs">
-            <node concept="3clFbS" id="6qrKgEqpHzv" role="2VODD2">
-              <node concept="3clFbF" id="6qrKgEqpHzw" role="3cqZAp">
-                <node concept="2OqwBi" id="6qrKgEqpHzx" role="3clFbG">
-                  <node concept="2OqwBi" id="6qrKgEqpHzy" role="2Oq$k0">
-                    <node concept="2OqwBi" id="6qrKgEqpHzz" role="2Oq$k0">
-                      <node concept="pncrf" id="6qrKgEqpHz$" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="6qrKgEqpHz_" role="2OqNvi">
-                        <ref role="3Tt5mk" to="mopj:2V55j61V1D7" resolve="result" />
-                      </node>
-                    </node>
-                    <node concept="3TrEf2" id="6qrKgEqpHzA" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tp25:1Bs_61$ngwB" resolve="modelRef" />
-                    </node>
-                  </node>
-                  <node concept="3x8VRR" id="6qrKgEqpHzB" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3F0ifn" id="6qrKgEqpHzC" role="1QoVPY">
+        <node concept="3F1sOY" id="6qrKgEq_rFl" role="3EZMnx">
+          <property role="1$x2rV" value="Result will forecfully overwrite left model!" />
+          <ref role="1NtTu8" to="mopj:2V55j61V1D7" resolve="result" />
+          <node concept="3F0ifn" id="6qrKgEq_rFm" role="2ruayu">
             <property role="ilYzB" value="Merge Result written to Left Model!" />
-            <node concept="Vb9p2" id="6qrKgEqpHzD" role="3F10Kt">
+            <node concept="Vb9p2" id="6qrKgEq_rFn" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
             </node>
-            <node concept="VechU" id="6qrKgEqpHzE" role="3F10Kt">
+            <node concept="VechU" id="6qrKgEq_rFo" role="3F10Kt">
               <property role="Vb096" value="fLwANPn/red" />
-              <node concept="1iSF2X" id="6qrKgEqpHzF" role="VblUZ">
+              <node concept="1iSF2X" id="6qrKgEq_rFp" role="VblUZ">
                 <property role="1iTho6" value="e83f4d" />
               </node>
             </node>
-            <node concept="VPxyj" id="6qrKgEqslG$" role="3F10Kt">
+            <node concept="VPxyj" id="6qrKgEq_rFq" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
-          </node>
-          <node concept="3F1sOY" id="6qrKgEqpI2V" role="1QoS34">
-            <ref role="1NtTu8" to="mopj:2V55j61V1D7" resolve="result" />
           </node>
         </node>
         <node concept="2iRfu4" id="2V55j61V1DC" role="2iSdaV" />

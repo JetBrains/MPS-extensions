@@ -157,7 +157,7 @@
       <node concept="3clFbS" id="5zr7Q_1L8CQ" role="2VODD2">
         <node concept="3clFbF" id="5zr7Q_1L8O5" role="3cqZAp">
           <node concept="Xl_RD" id="5zr7Q_1L8O4" role="3clFbG">
-            <property role="Xl_RC" value="Dry Run Model Merge" />
+            <property role="Xl_RC" value="Run Model Merge" />
           </node>
         </node>
       </node>

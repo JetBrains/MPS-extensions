@@ -3524,30 +3524,29 @@
       <node concept="3clFbS" id="4LYtwg8be3" role="3clF47">
         <node concept="3clFbJ" id="4q9OGrKO2LO" role="3cqZAp">
           <node concept="3clFbS" id="4q9OGrKO2LQ" role="3clFbx">
-            <node concept="3clFbF" id="4q9OGrKOnBv" role="3cqZAp">
-              <node concept="2YIFZM" id="4q9OGrKOswa" role="3clFbG">
-                <ref role="37wK5l" to="jkm4:~Messages.showErrorDialog(com.intellij.openapi.project.Project,java.lang.String,java.lang.String)" resolve="showErrorDialog" />
-                <ref role="1Pybhc" to="jkm4:~Messages" resolve="Messages" />
-                <node concept="2OqwBi" id="4q9OGrKOsDj" role="37wK5m">
-                  <node concept="2WthIp" id="4q9OGrKOswB" role="2Oq$k0" />
-                  <node concept="2BZ7hE" id="4q9OGrKOx4Y" role="2OqNvi">
-                    <ref role="2WH_rO" node="4q9OGrKOsLn" resolve="ideaProject" />
+            <node concept="3cpWs8" id="2kcjOa8NxvP" role="3cqZAp">
+              <node concept="3cpWsn" id="2kcjOa8NxvS" role="3cpWs9">
+                <property role="TrG5h" value="msg" />
+                <node concept="17QB3L" id="2kcjOa8NxvN" role="1tU5fm" />
+                <node concept="2YIFZM" id="2kcjOa8NyTL" role="33vP2m">
+                  <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                  <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...)" resolve="format" />
+                  <node concept="Xl_RD" id="2kcjOa8Nzjh" role="37wK5m">
+                    <property role="Xl_RC" value="mps-langvis plugin: plantuml.jar needs to be installed in '%s', but was not found." />
                   </node>
-                </node>
-                <node concept="3cpWs3" id="4q9OGrKOxPA" role="37wK5m">
-                  <node concept="Xl_RD" id="4q9OGrKOxPE" role="3uHU7w">
-                    <property role="Xl_RC" value=" doesn't exist" />
-                  </node>
-                  <node concept="2OqwBi" id="4q9OGrKOxlr" role="3uHU7B">
-                    <node concept="2WthIp" id="4q9OGrKOxlu" role="2Oq$k0" />
-                    <node concept="2BZ7hE" id="4q9OGrKOxlw" role="2OqNvi">
+                  <node concept="2OqwBi" id="2kcjOa8Ow5f" role="37wK5m">
+                    <node concept="2WthIp" id="2kcjOa8Ov$0" role="2Oq$k0" />
+                    <node concept="2BZ7hE" id="2kcjOa8OwUu" role="2OqNvi">
                       <ref role="2WH_rO" node="4LYtwgk_hn" resolve="plantUmlJarPath" />
                     </node>
                   </node>
                 </node>
-                <node concept="Xl_RD" id="4q9OGrKOx8K" role="37wK5m">
-                  <property role="Xl_RC" value="Language Vis" />
-                </node>
+              </node>
+            </node>
+            <node concept="2xdQw9" id="2kcjOa8Nsr9" role="3cqZAp">
+              <property role="2xdLsb" value="gZ5fh_4/error" />
+              <node concept="37vLTw" id="2kcjOa8NBvZ" role="9lYJi">
+                <ref role="3cqZAo" node="2kcjOa8NxvS" resolve="msg" />
               </node>
             </node>
             <node concept="3cpWs6" id="4q9OGrKOLSA" role="3cqZAp" />

@@ -20,7 +20,6 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
     <dependency reexport="false">aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)</dependency>
-    <dependency reexport="false">81362899-970b-421b-9fe3-2b64b343f769(de.itemis.model.simple.demo.property)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">8688ed72-e0ba-44cb-9688-5c8397cb5bbb(de.itemis.model.simple.demo.children)</dependency>
     <dependency reexport="false">e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)</dependency>
@@ -29,6 +28,7 @@
     <dependency reexport="false">9414e29c-0c8d-4bc7-b251-f312597fb993(org.mockito)</dependency>
     <dependency reexport="false">1fd846c3-c5f9-4b9e-9ecc-e716f7149f86(Hamcrest)</dependency>
     <dependency reexport="false">49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)</dependency>
+    <dependency reexport="false">e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f47b95d4-5e73-4c04-9204-18076950153b:com.mbeddr.mpsutil.compare" version="0" />
@@ -37,6 +37,7 @@
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ce8b:de.itemis.model.simple.demo.collection" version="0" />
     <language slang="l:36ead753-43ea-471e-bcb9-d4fb1e637bbc:de.itemis.model.simple.demo.collection.keeper" version="0" />
     <language slang="l:81362899-970b-421b-9fe3-2b64b343f769:de.itemis.model.simple.demo.property" version="0" />
+    <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ca2b:de.itemis.model.simple.demo.property" version="0" />
     <language slang="l:6001215c-aa6e-4f9f-bfc2-f22e3c7250b2:de.itemis.model.simple.demo.reference" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -65,6 +66,7 @@
     <module reference="e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)" version="0" />
     <module reference="36ead753-43ea-471e-bcb9-d4fb1e637bbc(de.itemis.model.simple.demo.collection.keeper)" version="0" />
     <module reference="81362899-970b-421b-9fe3-2b64b343f769(de.itemis.model.simple.demo.property)" version="0" />
+    <module reference="e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)" version="0" />
     <module reference="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2(de.itemis.model.simple.demo.reference)" version="0" />
     <module reference="ecfb9949-7433-4db5-85de-0f84d172e4ce(de.q60.mps.libs)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />

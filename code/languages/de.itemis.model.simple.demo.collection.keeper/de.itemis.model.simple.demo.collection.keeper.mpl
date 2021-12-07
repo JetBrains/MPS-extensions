@@ -37,15 +37,17 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+    <module reference="e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)" version="0" />
     <module reference="36ead753-43ea-471e-bcb9-d4fb1e637bbc(de.itemis.model.simple.demo.collection.keeper)" version="0" />
     <module reference="81362899-970b-421b-9fe3-2b64b343f769(de.itemis.model.simple.demo.property)" version="0" />
+    <module reference="e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
     <extendedLanguage>e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)</extendedLanguage>
-    <extendedLanguage>81362899-970b-421b-9fe3-2b64b343f769(de.itemis.model.simple.demo.property)</extendedLanguage>
+    <extendedLanguage>e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)</extendedLanguage>
   </extendedLanguages>
 </language>
 

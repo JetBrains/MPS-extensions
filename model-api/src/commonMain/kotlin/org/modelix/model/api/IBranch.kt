@@ -18,9 +18,21 @@ package org.modelix.model.api
 interface IBranch {
     fun getId(): String
     fun runRead(runnable: () -> Unit)
+    fun runReadT(f: (IReadTransaction) -> Unit) {
+        runRead { f(readTransaction) }
+    }
     fun <T> computeRead(computable: () -> T): T
+    fun <T> computeReadT(computable: (IReadTransaction) -> T): T {
+        return computeRead { computable(readTransaction) }
+    }
     fun runWrite(runnable: () -> Unit)
+    fun runWriteT(f: (IWriteTransaction) -> Unit) {
+        runWrite { f(writeTransaction) }
+    }
     fun <T> computeWrite(computable: () -> T): T
+    fun <T> computeWriteT(computable: (IWriteTransaction) -> T): T {
+        return computeWrite { computable(writeTransaction) }
+    }
     fun canRead(): Boolean
     fun canWrite(): Boolean
     val transaction: ITransaction

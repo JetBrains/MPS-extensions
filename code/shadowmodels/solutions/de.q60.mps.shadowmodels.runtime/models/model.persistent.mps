@@ -217,6 +217,9 @@
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
+      <concept id="1171903862077" name="jetbrains.mps.baseLanguage.structure.LowerBoundType" flags="in" index="3qUtgH">
+        <child id="1171903869531" name="bound" index="3qUvdb" />
+      </concept>
       <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
         <child id="1171903916107" name="bound" index="3qUE_r" />
       </concept>
@@ -9951,9 +9954,173 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7PM7ZfaX7en" role="jymVt" />
     <node concept="3Tm1VV" id="4_SQzDObVBe" role="1B3o_S" />
     <node concept="3uibUv" id="4_SQzDOe9Bj" role="EKbjA">
       <ref role="3uigEE" to="jks5:~IBranch" resolve="IBranch" />
+    </node>
+    <node concept="3clFb_" id="7PM7ZfaX2wE" role="jymVt">
+      <property role="TrG5h" value="computeReadT" />
+      <node concept="3Tm1VV" id="7PM7ZfaX2wF" role="1B3o_S" />
+      <node concept="16euLQ" id="7PM7ZfaX2wH" role="16eVyc">
+        <property role="TrG5h" value="T" />
+      </node>
+      <node concept="16syzq" id="7PM7ZfaX2wI" role="3clF45">
+        <ref role="16sUi3" node="7PM7ZfaX2wH" resolve="T" />
+      </node>
+      <node concept="37vLTG" id="7PM7ZfaX2wJ" role="3clF46">
+        <property role="TrG5h" value="f" />
+        <node concept="3uibUv" id="7PM7ZfaX2wK" role="1tU5fm">
+          <ref role="3uigEE" to="ouht:~Function1" resolve="Function1" />
+          <node concept="3qUtgH" id="7PM7ZfaX2wL" role="11_B2D">
+            <node concept="3uibUv" id="7PM7ZfaX2wM" role="3qUvdb">
+              <ref role="3uigEE" to="jks5:~IReadTransaction" resolve="IReadTransaction" />
+            </node>
+          </node>
+          <node concept="3qUE_q" id="7PM7ZfaX2wN" role="11_B2D">
+            <node concept="16syzq" id="7PM7ZfaX2wO" role="3qUE_r">
+              <ref role="16sUi3" node="7PM7ZfaX2wH" resolve="T" />
+            </node>
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="7PM7ZfaX2wP" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7PM7ZfaX2wQ" role="3clF47">
+        <node concept="3clFbF" id="7PM7ZfaXktq" role="3cqZAp">
+          <node concept="2YIFZM" id="7PM7ZfaXlMF" role="3clFbG">
+            <ref role="37wK5l" to="jks5:~IBranch$DefaultImpls.computeReadT(org.modelix.model.api.IBranch,kotlin.jvm.functions.Function1)" resolve="computeReadT" />
+            <ref role="1Pybhc" to="jks5:~IBranch$DefaultImpls" resolve="IBranch.DefaultImpls" />
+            <node concept="Xjq3P" id="7PM7ZfaXmbi" role="37wK5m" />
+            <node concept="37vLTw" id="7PM7ZfaXmdt" role="37wK5m">
+              <ref role="3cqZAo" node="7PM7ZfaX2wJ" resolve="f" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7PM7ZfaX2wR" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7PM7ZfaX8ni" role="jymVt" />
+    <node concept="3clFb_" id="7PM7ZfaX2wS" role="jymVt">
+      <property role="TrG5h" value="computeWriteT" />
+      <node concept="3Tm1VV" id="7PM7ZfaX2wT" role="1B3o_S" />
+      <node concept="16euLQ" id="7PM7ZfaX2wV" role="16eVyc">
+        <property role="TrG5h" value="T" />
+      </node>
+      <node concept="16syzq" id="7PM7ZfaX2wW" role="3clF45">
+        <ref role="16sUi3" node="7PM7ZfaX2wV" resolve="T" />
+      </node>
+      <node concept="37vLTG" id="7PM7ZfaX2wX" role="3clF46">
+        <property role="TrG5h" value="f" />
+        <node concept="3uibUv" id="7PM7ZfaX2wY" role="1tU5fm">
+          <ref role="3uigEE" to="ouht:~Function1" resolve="Function1" />
+          <node concept="3qUtgH" id="7PM7ZfaX2wZ" role="11_B2D">
+            <node concept="3uibUv" id="7PM7ZfaX2x0" role="3qUvdb">
+              <ref role="3uigEE" to="jks5:~IWriteTransaction" resolve="IWriteTransaction" />
+            </node>
+          </node>
+          <node concept="3qUE_q" id="7PM7ZfaX2x1" role="11_B2D">
+            <node concept="16syzq" id="7PM7ZfaX2x2" role="3qUE_r">
+              <ref role="16sUi3" node="7PM7ZfaX2wV" resolve="T" />
+            </node>
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="7PM7ZfaX2x3" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7PM7ZfaX2x4" role="3clF47">
+        <node concept="3clFbF" id="7PM7ZfaXo0S" role="3cqZAp">
+          <node concept="2YIFZM" id="7PM7ZfaXoun" role="3clFbG">
+            <ref role="37wK5l" to="jks5:~IBranch$DefaultImpls.computeWriteT(org.modelix.model.api.IBranch,kotlin.jvm.functions.Function1)" resolve="computeWriteT" />
+            <ref role="1Pybhc" to="jks5:~IBranch$DefaultImpls" resolve="IBranch.DefaultImpls" />
+            <node concept="Xjq3P" id="7PM7ZfaXouo" role="37wK5m" />
+            <node concept="37vLTw" id="7PM7ZfaXoup" role="37wK5m">
+              <ref role="3cqZAo" node="7PM7ZfaX2wX" resolve="f" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7PM7ZfaX2x5" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7PM7ZfaX2x6" role="jymVt">
+      <property role="TrG5h" value="runReadT" />
+      <node concept="3Tm1VV" id="7PM7ZfaX2x7" role="1B3o_S" />
+      <node concept="3cqZAl" id="7PM7ZfaX2x9" role="3clF45" />
+      <node concept="37vLTG" id="7PM7ZfaX2xa" role="3clF46">
+        <property role="TrG5h" value="f" />
+        <node concept="3uibUv" id="7PM7ZfaX2xb" role="1tU5fm">
+          <ref role="3uigEE" to="ouht:~Function1" resolve="Function1" />
+          <node concept="3qUtgH" id="7PM7ZfaX2xc" role="11_B2D">
+            <node concept="3uibUv" id="7PM7ZfaX2xd" role="3qUvdb">
+              <ref role="3uigEE" to="jks5:~IReadTransaction" resolve="IReadTransaction" />
+            </node>
+          </node>
+          <node concept="3uibUv" id="7PM7ZfaX2xe" role="11_B2D">
+            <ref role="3uigEE" to="v18h:~Unit" resolve="Unit" />
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="7PM7ZfaX2xf" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7PM7ZfaX2xg" role="3clF47">
+        <node concept="3clFbF" id="7PM7ZfaXqvr" role="3cqZAp">
+          <node concept="2YIFZM" id="7PM7ZfaXqU1" role="3clFbG">
+            <ref role="37wK5l" to="jks5:~IBranch$DefaultImpls.runReadT(org.modelix.model.api.IBranch,kotlin.jvm.functions.Function1)" resolve="runReadT" />
+            <ref role="1Pybhc" to="jks5:~IBranch$DefaultImpls" resolve="IBranch.DefaultImpls" />
+            <node concept="Xjq3P" id="7PM7ZfaXqU2" role="37wK5m" />
+            <node concept="37vLTw" id="7PM7ZfaXqU3" role="37wK5m">
+              <ref role="3cqZAo" node="7PM7ZfaX2xa" resolve="f" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7PM7ZfaX2xh" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7PM7ZfaX2xi" role="jymVt">
+      <property role="TrG5h" value="runWriteT" />
+      <node concept="3Tm1VV" id="7PM7ZfaX2xj" role="1B3o_S" />
+      <node concept="3cqZAl" id="7PM7ZfaX2xl" role="3clF45" />
+      <node concept="37vLTG" id="7PM7ZfaX2xm" role="3clF46">
+        <property role="TrG5h" value="f" />
+        <node concept="3uibUv" id="7PM7ZfaX2xn" role="1tU5fm">
+          <ref role="3uigEE" to="ouht:~Function1" resolve="Function1" />
+          <node concept="3qUtgH" id="7PM7ZfaX2xo" role="11_B2D">
+            <node concept="3uibUv" id="7PM7ZfaX2xp" role="3qUvdb">
+              <ref role="3uigEE" to="jks5:~IWriteTransaction" resolve="IWriteTransaction" />
+            </node>
+          </node>
+          <node concept="3uibUv" id="7PM7ZfaX2xq" role="11_B2D">
+            <ref role="3uigEE" to="v18h:~Unit" resolve="Unit" />
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="7PM7ZfaX2xr" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7PM7ZfaX2xs" role="3clF47">
+        <node concept="3clFbF" id="7PM7ZfaXpmi" role="3cqZAp">
+          <node concept="2YIFZM" id="7PM7ZfaXpNu" role="3clFbG">
+            <ref role="37wK5l" to="jks5:~IBranch$DefaultImpls.runWriteT(org.modelix.model.api.IBranch,kotlin.jvm.functions.Function1)" resolve="runWriteT" />
+            <ref role="1Pybhc" to="jks5:~IBranch$DefaultImpls" resolve="IBranch.DefaultImpls" />
+            <node concept="Xjq3P" id="7PM7ZfaXpNv" role="37wK5m" />
+            <node concept="37vLTw" id="7PM7ZfaXpNw" role="37wK5m">
+              <ref role="3cqZAo" node="7PM7ZfaX2xm" resolve="f" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7PM7ZfaX2xt" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
   </node>
   <node concept="3HP615" id="4_SQzDOc0eq">

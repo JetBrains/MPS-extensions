@@ -283,6 +283,16 @@ publishing {
                 }
             }
         }
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/JetBrains/MPS-extensions"
+            if (project.hasProperty("gpr.token")) {
+                credentials {
+                    username = project.findProperty("gpr.user")
+                    password = project.findProperty("gpr.token")
+                }
+            }
+        }
     }
     publications {
         extensions(MavenPublication) {

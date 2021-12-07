@@ -4,11 +4,9 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" name="de.itemis.model.merge.diamond" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
-    <use id="81362899-970b-421b-9fe3-2b64b343f769" name="de.itemis.model.simple.demo.property" version="0" />
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
+    <use id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property" version="0" />
   </languages>
   <imports>
     <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" />
@@ -18,7 +16,6 @@
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="gunp" ref="r:a4055897-4d16-4474-96e9-a78cf2abfe5a(de.itemis.model.merge.runtime.runtime)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="2y6h" ref="r:c332880d-cb1b-4ddd-b54d-4041384feb18(de.itemis.model.merge.simple.demo.plugin)" />
@@ -134,7 +131,7 @@
       </concept>
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
-    <language id="81362899-970b-421b-9fe3-2b64b343f769" name="de.itemis.model.simple.demo.property">
+    <language id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property">
       <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.PropertyDummy" flags="ng" index="2pctC0">
         <property id="3499368519007574817" name="data" index="2pctC1" />
       </concept>
@@ -3288,14 +3285,14 @@
                       <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
                       <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                       <node concept="3xONca" id="7L127H0cTHs" role="37wK5m">
-                        <ref role="3xOPvv" node="4S51TVFduo9" resolve="inst1" />
+                        <ref role="3xOPvv" node="1zxgaynEVzj" resolve="inst1" />
                       </node>
                     </node>
                     <node concept="2YIFZM" id="7L127H0cTHt" role="37wK5m">
                       <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
                       <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
                       <node concept="3xONca" id="7L127H0cTHu" role="37wK5m">
-                        <ref role="3xOPvv" node="4S51TVFduod" resolve="inst2" />
+                        <ref role="3xOPvv" node="1zxgaynEWWd" resolve="inst2" />
                       </node>
                     </node>
                   </node>
@@ -3353,7 +3350,7 @@
               <ref role="3cqZAo" node="4S51TVFee4c" resolve="node" />
             </node>
             <node concept="1mIQ4w" id="4S51TVFef0Y" role="2OqNvi">
-              <node concept="chp4Y" id="4S51TVFef3S" role="cj9EA">
+              <node concept="chp4Y" id="1zxgaynEX$h" role="cj9EA">
                 <ref role="cht4Q" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
               </node>
             </node>
@@ -3380,17 +3377,17 @@
       </node>
     </node>
     <node concept="1qefOq" id="4S51TVFdhoI" role="1SKRRt">
-      <node concept="2pctC0" id="4S51TVFdunH" role="1qenE9">
+      <node concept="2pctC0" id="1zxgaynEVzh" role="1qenE9">
         <property role="2pctC1" value="data1" />
-        <node concept="3xLA65" id="4S51TVFduo9" role="lGtFl">
+        <node concept="3xLA65" id="1zxgaynEVzj" role="lGtFl">
           <property role="TrG5h" value="inst1" />
         </node>
       </node>
     </node>
     <node concept="1qefOq" id="4S51TVFdunJ" role="1SKRRt">
-      <node concept="2pctC0" id="4S51TVFdunP" role="1qenE9">
+      <node concept="2pctC0" id="1zxgaynEWWb" role="1qenE9">
         <property role="2pctC1" value="data1" />
-        <node concept="3xLA65" id="4S51TVFduod" role="lGtFl">
+        <node concept="3xLA65" id="1zxgaynEWWd" role="lGtFl">
           <property role="TrG5h" value="inst2" />
         </node>
       </node>

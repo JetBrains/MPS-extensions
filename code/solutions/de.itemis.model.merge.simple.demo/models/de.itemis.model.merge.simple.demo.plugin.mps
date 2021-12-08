@@ -1294,6 +1294,7 @@
     <property role="TrG5h" value="RefMerge" />
     <node concept="1oluLK" id="46ucjsetpar" role="1olsr8" />
     <node concept="1oluLK" id="46ucjsetpat" role="1olsr8" />
+    <node concept="1oluLK" id="46ucjsetpaw" role="1olsr8" />
     <node concept="pHN19" id="46ucjsetp2L" role="3WPhuS">
       <node concept="2V$Bhx" id="46ucjsetp7Q" role="2V$M_3">
         <property role="2V$B1T" value="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2" />
@@ -1334,9 +1335,6 @@
         </node>
       </node>
     </node>
-    <node concept="1oluLK" id="78fCHIEnh51" role="1olsr8" />
-    <node concept="1oluLK" id="78fCHIEnh70" role="1olsr8" />
-    <node concept="1oluLK" id="78fCHIEnh90" role="1olsr8" />
     <node concept="1olsrb" id="46ucjsevSzr" role="1olsr8">
       <ref role="24zOxU" to="hsq:3pc485Vr2SQ" resolve="PropertyDummyRef" />
       <node concept="230_S" id="46ucjsevT3v" role="21DrV">
@@ -1416,14 +1414,26 @@
       </node>
     </node>
     <node concept="pHN19" id="78fCHIEC70$" role="3oy5ef">
-      <node concept="2V$Bhx" id="78fCHIEC7cb" role="2V$M_3">
-        <property role="2V$B1T" value="36ead753-43ea-471e-bcb9-d4fb1e637bbc" />
-        <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection.keeper" />
+      <node concept="2V$Bhx" id="78fCHIESU1h" role="2V$M_3">
+        <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ce8b" />
+        <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
       </node>
     </node>
   </node>
   <node concept="1olOeT" id="1Tugx$DriK">
     <property role="TrG5h" value="RefMergeManual" />
+    <node concept="pHN19" id="78fCHIF4fv9" role="3oy5ef">
+      <node concept="2V$Bhx" id="78fCHIF4fws" role="2V$M_3">
+        <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ca2b" />
+        <property role="2V$B1Q" value="de.itemis.model.simple.demo.property" />
+      </node>
+    </node>
+    <node concept="pHN19" id="78fCHIF4fTD" role="3oy5ef">
+      <node concept="2V$Bhx" id="78fCHIF4fUY" role="2V$M_3">
+        <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ce8b" />
+        <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
+      </node>
+    </node>
     <node concept="1oluLK" id="1Tugx$DriL" role="1olsr8" />
     <node concept="1oluLK" id="1Tugx$DriM" role="1olsr8" />
     <node concept="1oluLK" id="1Tugx$DriN" role="1olsr8" />

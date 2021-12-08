@@ -341,11 +341,22 @@
       <node concept="3EZMnI" id="1VmHfRy0UfQ" role="3EZMnx">
         <node concept="VPM3Z" id="1VmHfRy0UfS" role="3F10Kt" />
         <node concept="3F0ifn" id="1VmHfRy0UfU" role="3EZMnx">
-          <property role="3F0ifm" value="Lang:" />
+          <property role="3F0ifm" value="Main Language:" />
         </node>
         <node concept="2iRfu4" id="1VmHfRy0UfV" role="2iSdaV" />
         <node concept="3F1sOY" id="1VmHfRy0Ugf" role="3EZMnx">
           <ref role="1NtTu8" to="mopj:1VmHfRy0Ud5" resolve="lang" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="78fCHIExZbd" role="3EZMnx">
+        <node concept="VPM3Z" id="78fCHIExZbf" role="3F10Kt" />
+        <node concept="3F0ifn" id="78fCHIExZbh" role="3EZMnx">
+          <property role="3F0ifm" value="Additional Languages:" />
+        </node>
+        <node concept="2iRfu4" id="78fCHIExZbi" role="2iSdaV" />
+        <node concept="3F2HdR" id="78fCHIExZbJ" role="3EZMnx">
+          <ref role="1NtTu8" to="mopj:78fCHIExZ5k" resolve="additonalLangs" />
+          <node concept="2iRkQZ" id="78fCHIExZbM" role="2czzBx" />
         </node>
       </node>
       <node concept="3F2HdR" id="1EbzjT2RA56" role="3EZMnx">

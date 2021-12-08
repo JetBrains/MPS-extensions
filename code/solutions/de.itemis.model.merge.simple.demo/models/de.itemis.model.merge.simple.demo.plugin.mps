@@ -8,6 +8,8 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property" version="0" />
+    <use id="e50b0500-6fd7-4c7f-a730-9d841358ce8b" name="de.itemis.model.simple.demo.collection" version="0" />
   </languages>
   <imports>
     <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" />
@@ -131,6 +133,7 @@
       <concept id="1912777765298266446" name="de.itemis.model.merge.structure.EmptyMergeItem" flags="ng" index="1oluLK" />
       <concept id="1912777765298163335" name="de.itemis.model.merge.structure.ModelMerge" flags="ng" index="1olOeT">
         <child id="1912777765298260982" name="items" index="1olsr8" />
+        <child id="8218966909317017940" name="additonalLangs" index="3oy5ef" />
         <child id="2222162468665533253" name="lang" index="3WPhuS" />
       </concept>
       <concept id="1912777765298654154" name="de.itemis.model.merge.structure.Left" flags="ng" index="1orWrO" />
@@ -171,8 +174,8 @@
   </registry>
   <node concept="1olOeT" id="3xLnOvEDNj_">
     <property role="TrG5h" value="SimplePropertyMerger" />
-    <node concept="1oluLK" id="3xLnOvEDNjA" role="1olsr8" />
-    <node concept="1oluLK" id="32ggi2DCs9v" role="1olsr8" />
+    <node concept="1oluLK" id="6_mEBr3QEAD" role="1olsr8" />
+    <node concept="1oluLK" id="6_mEBr3QEPQ" role="1olsr8" />
     <node concept="1olsrb" id="32ggi2DCs9A" role="1olsr8">
       <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
       <node concept="230_S" id="32ggi2DCsgc" role="21DrV">
@@ -217,8 +220,8 @@
       </node>
     </node>
     <node concept="pHN19" id="3xLnOvEDNjF" role="3WPhuS">
-      <node concept="2V$Bhx" id="6Ltuup4vzhK" role="2V$M_3">
-        <property role="2V$B1T" value="81362899-970b-421b-9fe3-2b64b343f769" />
+      <node concept="2V$Bhx" id="6_mEBr3QEC7" role="2V$M_3">
+        <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ca2b" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.property" />
       </node>
     </node>
@@ -422,7 +425,7 @@
     </node>
     <node concept="1oluLK" id="6Ltuup4JpXJ" role="1olsr8" />
     <node concept="pHN19" id="3pc485VUmVr" role="3WPhuS">
-      <node concept="2V$Bhx" id="3pc485VUmVs" role="2V$M_3">
+      <node concept="2V$Bhx" id="6_mEBr3QEVw" role="2V$M_3">
         <property role="2V$B1T" value="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.children" />
       </node>
@@ -554,7 +557,7 @@
       </node>
     </node>
     <node concept="pHN19" id="6Ltuup4JpkQ" role="3WPhuS">
-      <node concept="2V$Bhx" id="6Ltuup4JpkV" role="2V$M_3">
+      <node concept="2V$Bhx" id="6_mEBr3QLxF" role="2V$M_3">
         <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ce8b" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection" />
       </node>
@@ -862,6 +865,8 @@
   <node concept="1olOeT" id="5CYFCJDUPYY">
     <property role="TrG5h" value="KeeperOfCollectionMerger" />
     <node concept="1oluLK" id="5CYFCJDUPZ9" role="1olsr8" />
+    <node concept="1oluLK" id="78fCHID9$z6" role="1olsr8" />
+    <node concept="1oluLK" id="78fCHID9$$5" role="1olsr8" />
     <node concept="1olsrb" id="5CYFCJDWVWm" role="1olsr8">
       <ref role="24zOxU" to="lmxm:6Ltuup4C5JZ" resolve="CollectionKeeper" />
       <node concept="230_S" id="5CYFCJDWVY9" role="21DrV">
@@ -1289,7 +1294,6 @@
     <property role="TrG5h" value="RefMerge" />
     <node concept="1oluLK" id="46ucjsetpar" role="1olsr8" />
     <node concept="1oluLK" id="46ucjsetpat" role="1olsr8" />
-    <node concept="1oluLK" id="46ucjsetpaw" role="1olsr8" />
     <node concept="pHN19" id="46ucjsetp2L" role="3WPhuS">
       <node concept="2V$Bhx" id="46ucjsetp7Q" role="2V$M_3">
         <property role="2V$B1T" value="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2" />
@@ -1330,6 +1334,9 @@
         </node>
       </node>
     </node>
+    <node concept="1oluLK" id="78fCHIEnh51" role="1olsr8" />
+    <node concept="1oluLK" id="78fCHIEnh70" role="1olsr8" />
+    <node concept="1oluLK" id="78fCHIEnh90" role="1olsr8" />
     <node concept="1olsrb" id="46ucjsevSzr" role="1olsr8">
       <ref role="24zOxU" to="hsq:3pc485Vr2SQ" resolve="PropertyDummyRef" />
       <node concept="230_S" id="46ucjsevT3v" role="21DrV">
@@ -1353,6 +1360,7 @@
         <node concept="1orWrO" id="1Tugx_Xr_R" role="1orWrN" />
       </node>
     </node>
+    <node concept="1oluLK" id="78fCHIEv4I5" role="1olsr8" />
     <node concept="1olsrb" id="46ucjsf1BaI" role="1olsr8">
       <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
       <node concept="230_S" id="46ucjsf1Bge" role="21DrV">
@@ -1401,6 +1409,18 @@
         </node>
       </node>
     </node>
+    <node concept="pHN19" id="78fCHIEC6Nf" role="3oy5ef">
+      <node concept="2V$Bhx" id="78fCHIEC6YO" role="2V$M_3">
+        <property role="2V$B1T" value="e50b0500-6fd7-4c7f-a730-9d841358ca2b" />
+        <property role="2V$B1Q" value="de.itemis.model.simple.demo.property" />
+      </node>
+    </node>
+    <node concept="pHN19" id="78fCHIEC70$" role="3oy5ef">
+      <node concept="2V$Bhx" id="78fCHIEC7cb" role="2V$M_3">
+        <property role="2V$B1T" value="36ead753-43ea-471e-bcb9-d4fb1e637bbc" />
+        <property role="2V$B1Q" value="de.itemis.model.simple.demo.collection.keeper" />
+      </node>
+    </node>
   </node>
   <node concept="1olOeT" id="1Tugx$DriK">
     <property role="TrG5h" value="RefMergeManual" />
@@ -1408,7 +1428,7 @@
     <node concept="1oluLK" id="1Tugx$DriM" role="1olsr8" />
     <node concept="1oluLK" id="1Tugx$DriN" role="1olsr8" />
     <node concept="pHN19" id="1Tugx$DriO" role="3WPhuS">
-      <node concept="2V$Bhx" id="1Tugx$DriP" role="2V$M_3">
+      <node concept="2V$Bhx" id="7c7zVAU9uS2" role="2V$M_3">
         <property role="2V$B1T" value="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2" />
         <property role="2V$B1Q" value="de.itemis.model.simple.demo.reference" />
       </node>
@@ -1519,6 +1539,7 @@
         <node concept="1orWrO" id="1Tugx$Drjg" role="1orWrN" />
       </node>
     </node>
+    <node concept="1oluLK" id="7c7zVAU9ufI" role="1olsr8" />
     <node concept="1olsrb" id="1Tugx$Drjh" role="1olsr8">
       <ref role="24zOxU" to="yeyq:32ggi2DCpGw" resolve="PropertyDummy" />
       <node concept="230_S" id="1Tugx$Drji" role="21DrV">

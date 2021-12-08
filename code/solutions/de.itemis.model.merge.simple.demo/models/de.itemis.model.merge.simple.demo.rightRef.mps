@@ -8,7 +8,7 @@
   </languages>
   <imports />
   <registry>
-    <language id="81362899-970b-421b-9fe3-2b64b343f769" name="de.itemis.model.simple.demo.property">
+    <language id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property">
       <concept id="3499368519007574816" name="de.itemis.model.simple.demo.property.structure.PropertyDummy" flags="ng" index="2pctC0">
         <property id="3499368519007574817" name="data" index="2pctC1" />
       </concept>
@@ -20,12 +20,12 @@
       </concept>
     </language>
   </registry>
-  <node concept="2pctC0" id="46ucjsetl7v">
-    <property role="2pctC1" value="dummy2" />
-  </node>
   <node concept="1d83UR" id="46ucjsetl7w">
-    <property role="1fUQlm" value="100" />
-    <ref role="1fRxyL" node="46ucjsetl7v" />
+    <property role="1fUQlm" value="101" />
+    <ref role="1fRxyL" node="78fCHIEYFmR" />
+  </node>
+  <node concept="2pctC0" id="78fCHIEYFmR">
+    <property role="2pctC1" value="dummy2" />
   </node>
 </model>
 

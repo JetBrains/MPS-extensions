@@ -25,7 +25,6 @@
     <dependency reexport="false">e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:f47b95d4-5e73-4c04-9204-18076950153b:com.mbeddr.mpsutil.compare" version="0" />
     <language slang="l:539e8939-08ef-497c-a5fd-25dd10137a55:de.itemis.model.merge" version="0" />
     <language slang="l:8688ed72-e0ba-44cb-9688-5c8397cb5bbb:de.itemis.model.simple.demo.children" version="0" />
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ce8b:de.itemis.model.simple.demo.collection" version="0" />

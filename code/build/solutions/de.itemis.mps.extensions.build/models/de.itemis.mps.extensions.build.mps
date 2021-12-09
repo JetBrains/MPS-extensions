@@ -14218,6 +14218,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.slisson.mps.structurecheck.runtime" />
         <property role="3LESm3" value="6f14e29b-9796-426f-ae46-86ea46d4d320" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="3vzyAKEK04f" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3vzyAKEK04k" role="iGT6I">
@@ -15103,6 +15104,192 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="2UnEDPClLCV" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.model.simple.demo.children" />
+        <property role="3LESm3" value="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" />
+        <node concept="398BVA" id="2UnEDPClLEX" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="2UnEDPClLF3" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="2UnEDPClLF8" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.model.simple.demo.children" />
+              <node concept="2Ry0Ak" id="2UnEDPClLFd" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.model.simple.demo.children.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPClLXF" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPClLXG" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="2UnEDPClLXV" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2UnEDPClLXW" role="1HemKq">
+            <node concept="398BVA" id="2UnEDPClLXH" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2UnEDPClLXI" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2UnEDPClLXJ" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.children" />
+                  <node concept="2Ry0Ak" id="2UnEDPClLXK" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2UnEDPClLXX" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="2UnEDPClLHk" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.model.simple.demo.collection" />
+        <property role="3LESm3" value="e50b0500-6fd7-4c7f-a730-9d841358ce8b" />
+        <node concept="398BVA" id="2UnEDPClLJr" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="2UnEDPClLJx" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="2UnEDPClLJA" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.model.simple.demo.collection" />
+              <node concept="2Ry0Ak" id="2UnEDPClLJF" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.model.simple.demo.collection.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="2UnEDPClLYc" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2UnEDPClLYd" role="1HemKq">
+            <node concept="398BVA" id="2UnEDPClLXY" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2UnEDPClLXZ" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2UnEDPClLY0" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.collection" />
+                  <node concept="2Ry0Ak" id="2UnEDPClLY1" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2UnEDPClLYe" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPClLYf" role="3bR37C">
+          <node concept="1Busua" id="2UnEDPClLYg" role="1SiIV1">
+            <ref role="1Busuk" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="2UnEDPClLLR" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.model.simple.demo.collection.keeper" />
+        <property role="3LESm3" value="36ead753-43ea-471e-bcb9-d4fb1e637bbc" />
+        <node concept="398BVA" id="2UnEDPClLO3" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="2UnEDPClLO9" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="2UnEDPClLOe" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.model.simple.demo.collection.keeper" />
+              <node concept="2Ry0Ak" id="2UnEDPClLOj" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.model.simple.demo.collection.keeper.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="2UnEDPClLYv" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2UnEDPClLYw" role="1HemKq">
+            <node concept="398BVA" id="2UnEDPClLYh" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2UnEDPClLYi" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2UnEDPClLYj" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.collection.keeper" />
+                  <node concept="2Ry0Ak" id="2UnEDPClLYk" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2UnEDPClLYx" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPClLYy" role="3bR37C">
+          <node concept="1Busua" id="2UnEDPClLYz" role="1SiIV1">
+            <ref role="1Busuk" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPClMjG" role="3bR37C">
+          <node concept="1Busua" id="2UnEDPClMjH" role="1SiIV1">
+            <ref role="1Busuk" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="2UnEDPClLQ$" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.model.simple.demo.reference" />
+        <property role="3LESm3" value="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2" />
+        <node concept="398BVA" id="2UnEDPClLSP" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="2UnEDPClLSV" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="2UnEDPClLT0" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.model.simple.demo.reference" />
+              <node concept="2Ry0Ak" id="2UnEDPClLT5" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.model.simple.demo.reference.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="2UnEDPClLYM" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2UnEDPClLYN" role="1HemKq">
+            <node concept="398BVA" id="2UnEDPClLY$" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2UnEDPClLY_" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2UnEDPClLYA" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.reference" />
+                  <node concept="2Ry0Ak" id="2UnEDPClLYB" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2UnEDPClLYO" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPClLYP" role="3bR37C">
+          <node concept="1Busua" id="2UnEDPClLYQ" role="1SiIV1">
+            <ref role="1Busuk" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPClMjW" role="3bR37C">
+          <node concept="1Busua" id="2UnEDPClMjX" role="1SiIV1">
+            <ref role="1Busuk" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtA" id="5RxOLvLcQHZ" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.model.merge.test" />
@@ -15190,6 +15377,96 @@
             </node>
             <node concept="3qWCbU" id="3aF8hCw9tVy" role="3LXTna">
               <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="2UnEDPCpnjG" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.model.merge.simple.demo" />
+        <property role="3LESm3" value="3bfac093-0c90-42c7-87af-7dbe19b8f3e0" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="398BVA" id="2UnEDPCpnmE" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="2UnEDPCpnmK" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="2UnEDPCpnmP" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo" />
+              <node concept="2Ry0Ak" id="2UnEDPCpnmU" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsA" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsB" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsC" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsD" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsE" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsF" role="1SiIV1">
+            <ref role="3bR37D" node="5zr7Q_1BAoJ" resolve="de.itemis.model.merge" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsG" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsH" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPClLCV" resolve="de.itemis.model.simple.demo.children" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsI" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsJ" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPClLQ$" resolve="de.itemis.model.simple.demo.reference" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsK" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsL" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPClLLR" resolve="de.itemis.model.simple.demo.collection.keeper" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsM" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsN" role="1SiIV1">
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsO" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsP" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsQ" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsR" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2UnEDPCpnsS" role="3bR37C">
+          <node concept="3bR9La" id="2UnEDPCpnsT" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1xb0AuwN7WS" resolve="JUnit" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="2UnEDPCpnt8" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2UnEDPCpnt9" role="1HemKq">
+            <node concept="398BVA" id="2UnEDPCpnsU" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="2UnEDPCpnsV" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2UnEDPCpnsW" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo" />
+                  <node concept="2Ry0Ak" id="2UnEDPCpnsX" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2UnEDPCpnta" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
@@ -18347,6 +18624,24 @@
       <node concept="L2wRC" id="3aF8hCv$ro3" role="39821P">
         <ref role="L2wRA" node="GuygFg7$fI" resolve="tests.de.itemis.mps.modelmerger" />
       </node>
+      <node concept="L2wRC" id="2UnEDPCihk6" role="39821P">
+        <ref role="L2wRA" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+      </node>
+      <node concept="L2wRC" id="2UnEDPClM$0" role="39821P">
+        <ref role="L2wRA" node="2UnEDPClLCV" resolve="de.itemis.model.simple.demo.children" />
+      </node>
+      <node concept="L2wRC" id="2UnEDPClM_4" role="39821P">
+        <ref role="L2wRA" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
+      </node>
+      <node concept="L2wRC" id="2UnEDPClMAa" role="39821P">
+        <ref role="L2wRA" node="2UnEDPClLLR" resolve="de.itemis.model.simple.demo.collection.keeper" />
+      </node>
+      <node concept="L2wRC" id="2UnEDPClMBi" role="39821P">
+        <ref role="L2wRA" node="2UnEDPClLQ$" resolve="de.itemis.model.simple.demo.reference" />
+      </node>
+      <node concept="L2wRC" id="2UnEDPCpnGv" role="39821P">
+        <ref role="L2wRA" node="2UnEDPCpnjG" resolve="de.itemis.model.merge.simple.demo" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -18395,6 +18690,9 @@
       </node>
       <node concept="22LTRM" id="3aF8hCw8Sce" role="22LTRK">
         <ref role="22LTRN" node="5RxOLvLcQHZ" resolve="de.itemis.model.merge.test" />
+      </node>
+      <node concept="22LTRM" id="2UnEDPCpnHm" role="22LTRK">
+        <ref role="22LTRN" node="2UnEDPCpnjG" resolve="de.itemis.model.merge.simple.demo" />
       </node>
     </node>
   </node>

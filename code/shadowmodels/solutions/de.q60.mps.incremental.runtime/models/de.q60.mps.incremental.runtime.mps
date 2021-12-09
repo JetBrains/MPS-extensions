@@ -23,7 +23,7 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" implicit="true" />
-    <import index="j8em" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.impl.hash(de.q60.mps.libs/)" implicit="true" />
+    <import index="j8em" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.impl.hash(de.q60.mps.collections.libs/)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">

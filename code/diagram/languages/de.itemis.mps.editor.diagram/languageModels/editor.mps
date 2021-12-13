@@ -3315,6 +3315,38 @@
             </node>
             <node concept="2iRfu4" id="5FQFTBpWGAy" role="2iSdaV" />
           </node>
+          <node concept="3EZMnI" id="551EivYL3dG" role="3EZMnx">
+            <node concept="3F0ifn" id="551EivYL3dH" role="3EZMnx">
+              <property role="3F0ifm" value="width" />
+            </node>
+            <node concept="3F1sOY" id="551EivYL3dI" role="3EZMnx">
+              <property role="1$x2rV" value="12" />
+              <ref role="1NtTu8" to="2qld:551EivYL3dc" resolve="width" />
+              <node concept="VPXOz" id="551EivYL3dJ" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="VPM3Z" id="551EivYL3dK" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="2iRfu4" id="551EivYL3dL" role="2iSdaV" />
+          </node>
+          <node concept="3EZMnI" id="551EivYL3hs" role="3EZMnx">
+            <node concept="3F0ifn" id="551EivYL3ht" role="3EZMnx">
+              <property role="3F0ifm" value="height" />
+            </node>
+            <node concept="3F1sOY" id="551EivYL3hu" role="3EZMnx">
+              <property role="1$x2rV" value="12" />
+              <ref role="1NtTu8" to="2qld:551EivYL3dr" resolve="height" />
+              <node concept="VPXOz" id="551EivYL3hv" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="VPM3Z" id="551EivYL3hw" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="2iRfu4" id="551EivYL3hx" role="2iSdaV" />
+          </node>
           <node concept="3EZMnI" id="6PI4N6JqV_i" role="3EZMnx">
             <node concept="3F0ifn" id="6PI4N6JqV_j" role="3EZMnx">
               <property role="3F0ifm" value="tooltip" />

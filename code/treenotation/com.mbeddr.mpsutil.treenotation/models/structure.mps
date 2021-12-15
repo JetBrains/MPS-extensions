@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -82,7 +82,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="insertHandler" />
       <property role="IQ2ns" value="8877288515760225002" />
-      <ref role="20lvS9" node="7GMtHW6yJv2" resolve="InserHandler" />
+      <ref role="20lvS9" node="7GMtHW6yJv2" resolve="SimpleInsertFunction" />
       <node concept="asaX9" id="4Q9g1gQNbx6" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="4Q9g1gQN8_F" role="1TKVEi">
@@ -123,17 +123,20 @@
   <node concept="1TIwiD" id="7GMtHW6w$oP">
     <property role="TrG5h" value="DeleteHandler" />
     <property role="EcuMT" value="8877288515759654453" />
+    <property role="3GE5qa" value="handler" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="7GMtHW6yJv2">
-    <property role="TrG5h" value="InserHandler" />
+    <property role="TrG5h" value="SimpleInsertFunction" />
     <property role="EcuMT" value="8877288515760224194" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <property role="3GE5qa" value="handler" />
+    <ref role="1TJDcQ" node="7fqbBL2mxWc" resolve="AbstractInsertFunction" />
   </node>
   <node concept="1TIwiD" id="7GMtHW6yJ$P">
     <property role="TrG5h" value="Parameter_index" />
     <property role="34LRSv" value="index" />
     <property role="EcuMT" value="8877288515760224565" />
+    <property role="3GE5qa" value="handler" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="7GMtHW6DEF1">
@@ -278,18 +281,20 @@
   <node concept="PlHQZ" id="4Q9g1gQN5nv">
     <property role="TrG5h" value="IInsertHandler" />
     <property role="EcuMT" value="5587067268292695519" />
+    <property role="3GE5qa" value="handler" />
   </node>
   <node concept="1TIwiD" id="4Q9g1gQN5nw">
     <property role="TrG5h" value="SimpleInsertHandler" />
     <property role="34LRSv" value="simple" />
     <property role="EcuMT" value="5587067268292695520" />
+    <property role="3GE5qa" value="handler" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4Q9g1gQN5n_" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="insertFunction" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="5587067268292695525" />
-      <ref role="20lvS9" node="7GMtHW6yJv2" resolve="InserHandler" />
+      <ref role="20lvS9" node="7GMtHW6yJv2" resolve="SimpleInsertFunction" />
     </node>
     <node concept="PrWs8" id="4Q9g1gQN5nx" role="PzmwI">
       <ref role="PrY4T" node="4Q9g1gQN5nv" resolve="IInsertHandler" />
@@ -304,6 +309,7 @@
     <property role="TrG5h" value="SubconceptsInsertHandler" />
     <property role="34LRSv" value="subconcepts" />
     <property role="EcuMT" value="5587067268293117907" />
+    <property role="3GE5qa" value="handler" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4Q9g1gQOGvk" role="PzmwI">
       <ref role="PrY4T" node="4Q9g1gQN5nv" resolve="IInsertHandler" />
@@ -345,6 +351,37 @@
     <property role="TrG5h" value="CompactTreeLayout" />
     <property role="34LRSv" value="compact" />
     <ref role="1TJDcQ" node="2rPTijxM72O" resolve="AbstractTreeLayout" />
+  </node>
+  <node concept="1TIwiD" id="7fqbBL2m559">
+    <property role="EcuMT" value="8348035970508542281" />
+    <property role="TrG5h" value="GenericInsertHandler" />
+    <property role="34LRSv" value="generic" />
+    <property role="3GE5qa" value="handler" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7fqbBL2mzdu" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="insertFunction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="IQ2ns" value="8348035970508665694" />
+      <ref role="20lvS9" node="7fqbBL2m65c" resolve="GenericInsertFunction" />
+    </node>
+    <node concept="PrWs8" id="7fqbBL2m55a" role="PzmwI">
+      <ref role="PrY4T" node="4Q9g1gQN5nv" resolve="IInsertHandler" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7fqbBL2m65c">
+    <property role="EcuMT" value="8348035970508546380" />
+    <property role="3GE5qa" value="handler" />
+    <property role="TrG5h" value="GenericInsertFunction" />
+    <property role="34LRSv" value="generic" />
+    <ref role="1TJDcQ" node="7fqbBL2mxWc" resolve="AbstractInsertFunction" />
+  </node>
+  <node concept="1TIwiD" id="7fqbBL2mxWc">
+    <property role="EcuMT" value="8348035970508660492" />
+    <property role="3GE5qa" value="handler" />
+    <property role="TrG5h" value="AbstractInsertFunction" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

@@ -7,10 +7,14 @@
   <imports />
   <registry>
     <language id="ce6e35ab-eb16-4223-b8fd-cd565ab8b2fb" name="com.mbeddr.mpsutil.treenotation.sandboxlang">
+      <concept id="8348035970508746634" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.AnotherTreeNode" flags="ng" index="Lwk7Q">
+        <child id="8348035970508746640" name="childTreeNodes" index="Lwk7G" />
+      </concept>
       <concept id="134774857085152567" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.TreeNode" flags="ng" index="2SU3KN">
         <child id="134774857085152568" name="childTreeNodes" index="2SU3KW" />
       </concept>
       <concept id="134774857084560974" name="com.mbeddr.mpsutil.treenotation.sandboxlang.structure.RootConcept" flags="ng" index="2SWNta">
+        <child id="8348035970509311074" name="tree3" index="LJy8u" />
         <child id="134774857085152597" name="tree" index="2SU3Lh" />
         <child id="857420770335041366" name="tree2" index="3teCNN" />
       </concept>
@@ -80,6 +84,27 @@
       <node concept="2SU3KN" id="JAaUnmT2h7" role="2SU3KW" />
       <node concept="2SU3KN" id="JAaUnmT2hn" role="2SU3KW" />
       <node concept="2SU3KN" id="JAaUnmT2gP" role="2SU3KW" />
+    </node>
+    <node concept="Lwk7Q" id="7fqbBL2pclN" role="LJy8u">
+      <property role="TrG5h" value="xx" />
+      <node concept="Lwk7Q" id="7fqbBL2pArB" role="Lwk7G">
+        <property role="TrG5h" value="c1" />
+        <node concept="Lwk7Q" id="7fqbBL2q952" role="Lwk7G">
+          <property role="TrG5h" value="c1x" />
+        </node>
+      </node>
+      <node concept="Lwk7Q" id="7fqbBL2pArD" role="Lwk7G">
+        <property role="TrG5h" value="c2" />
+      </node>
+      <node concept="Lwk7Q" id="7fqbBL2pArG" role="Lwk7G">
+        <property role="TrG5h" value="c3" />
+        <node concept="Lwk7Q" id="7fqbBL2pArK" role="Lwk7G">
+          <property role="TrG5h" value="c3x" />
+        </node>
+        <node concept="Lwk7Q" id="7fqbBL2pArM" role="Lwk7G">
+          <property role="TrG5h" value="c3y" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

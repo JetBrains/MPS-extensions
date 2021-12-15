@@ -60,6 +60,13 @@
       <property role="IQ2ns" value="857420770335041366" />
       <ref role="20lvS9" node="7uOgiTdIOR" resolve="TreeNode" />
     </node>
+    <node concept="1TJgyj" id="7fqbBL2p0Ly" role="1TKVEi">
+      <property role="IQ2ns" value="8348035970509311074" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="tree3" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7fqbBL2mQYa" resolve="AnotherTreeNode" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7uOgiTdIOR">
     <property role="TrG5h" value="TreeNode" />
@@ -90,6 +97,21 @@
     <property role="EcuMT" value="3301624890555901394" />
     <property role="TrG5h" value="DisallowedChildConcept" />
     <ref role="1TJDcQ" node="7uOgiTdIOR" resolve="TreeNode" />
+  </node>
+  <node concept="1TIwiD" id="7fqbBL2mQYa">
+    <property role="EcuMT" value="8348035970508746634" />
+    <property role="TrG5h" value="AnotherTreeNode" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7fqbBL2mQYe" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="7fqbBL2mQYg" role="1TKVEi">
+      <property role="IQ2ns" value="8348035970508746640" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="childTreeNodes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7fqbBL2mQYa" resolve="AnotherTreeNode" />
+    </node>
   </node>
 </model>
 

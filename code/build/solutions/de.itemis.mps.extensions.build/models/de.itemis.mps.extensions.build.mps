@@ -12953,6 +12953,16 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="7fqbBL2CMaw" role="3bR37C">
+          <node concept="3bR9La" id="7fqbBL2CMax" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7fqbBL2CMay" role="3bR37C">
+          <node concept="3bR9La" id="7fqbBL2CMaz" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="2jlBy7bQtz0" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -13168,6 +13178,16 @@
             <node concept="3qWCbU" id="4PRpvcZJO62" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7fqbBL2CMaQ" role="3bR37C">
+          <node concept="3bR9La" id="7fqbBL2CMaR" role="1SiIV1">
+            <ref role="3bR37D" node="2jlBy7bQp6P" resolve="com.mbeddr.mpsutil.treenotation.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7fqbBL2CMaS" role="3bR37C">
+          <node concept="3bR9La" id="7fqbBL2CMaT" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>

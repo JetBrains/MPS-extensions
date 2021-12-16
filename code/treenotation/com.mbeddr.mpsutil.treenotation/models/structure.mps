@@ -383,5 +383,12 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
+  <node concept="1TIwiD" id="7fqbBL2wSAQ">
+    <property role="TrG5h" value="Parameter_subconcepts" />
+    <property role="34LRSv" value="subconcepts" />
+    <property role="EcuMT" value="8348035970511374774" />
+    <property role="3GE5qa" value="handler" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 

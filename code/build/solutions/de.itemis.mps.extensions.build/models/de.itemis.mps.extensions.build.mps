@@ -15380,6 +15380,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6CwG2k7MRyq" role="3bR37C">
+          <node concept="3bR9La" id="6CwG2k7MRyr" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="2UnEDPCpnjG" role="2G$12L">
         <property role="BnDLt" value="true" />

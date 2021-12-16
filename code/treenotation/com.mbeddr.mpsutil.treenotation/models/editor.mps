@@ -520,6 +520,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4Q9g1gQN5nT">
+    <property role="3GE5qa" value="handler" />
     <ref role="1XX52x" to="hfvq:4Q9g1gQN5nw" resolve="SimpleInsertHandler" />
     <node concept="3EZMnI" id="4Q9g1gQN5o2" role="2wV5jI">
       <node concept="l2Vlx" id="4Q9g1gQN5o3" role="2iSdaV" />
@@ -544,6 +545,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4Q9g1gQQ0Yr">
+    <property role="3GE5qa" value="handler" />
     <ref role="1XX52x" to="hfvq:4Q9g1gQOGvj" resolve="SubconceptsInsertHandler" />
     <node concept="PMmxH" id="4Q9g1gQQ0Yt" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -554,6 +556,25 @@
     <ref role="1XX52x" to="hfvq:2rPTijxM72O" resolve="AbstractTreeLayout" />
     <node concept="PMmxH" id="2rPTijxM738" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7fqbBL2mzdU">
+    <property role="3GE5qa" value="handler" />
+    <ref role="1XX52x" to="hfvq:7fqbBL2m559" resolve="GenericInsertHandler" />
+    <node concept="3EZMnI" id="7fqbBL2mzdW" role="2wV5jI">
+      <node concept="l2Vlx" id="7fqbBL2mzdX" role="2iSdaV" />
+      <node concept="PMmxH" id="7fqbBL2mzdY" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="7fqbBL2mze1" role="3EZMnx">
+        <ref role="1NtTu8" to="hfvq:7fqbBL2mzdu" resolve="insertFunction" />
+        <node concept="lj46D" id="7fqbBL2mze2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="7fqbBL2mze3" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

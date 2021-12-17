@@ -70,6 +70,7 @@
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -114,9 +115,6 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
@@ -298,7 +296,11 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1966870290088668520" name="jetbrains.mps.lang.smodel.structure.Enum_MembersOperation" flags="ng" index="2ViDtN" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumerationMemberType" flags="in" index="2ZThk1">
+        <reference id="1240170836027" name="enum" index="2ZWj4r" />
+      </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
@@ -322,6 +324,9 @@
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
+      <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
+        <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -352,6 +357,9 @@
         <child id="1226511765987" name="elementType" index="2hN53Y" />
       </concept>
       <concept id="1226516258405" name="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" flags="nn" index="2i4dXS" />
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
@@ -373,7 +381,9 @@
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
+      <concept id="1173946412755" name="jetbrains.mps.baseLanguage.collections.structure.RemoveAllElementsOperation" flags="nn" index="1kEaZ2" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="7125221305512719026" name="jetbrains.mps.baseLanguage.collections.structure.CollectionType" flags="in" index="3vKaQO" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
@@ -711,12 +721,18 @@
             <node concept="1YBJjd" id="6CwG2k8bVR1" role="1urrMF">
               <ref role="1YBMHb" node="1VmHfRxTFHc" resolve="multiChildPolicy" />
             </node>
+            <node concept="3Cnw8n" id="2xeWAXXL2Tm" role="1urrFz">
+              <ref role="QpYPw" node="2xeWAXXL1C3" resolve="fixMIssingSubPolicy" />
+              <node concept="3CnSsL" id="2xeWAXXL2W9" role="3Coj4f">
+                <ref role="QkamJ" node="2xeWAXXL1I6" resolve="mcp" />
+                <node concept="1YBJjd" id="2xeWAXXL2Wp" role="3CoRuB">
+                  <ref role="1YBMHb" node="1VmHfRxTFHc" resolve="multiChildPolicy" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3eOVzh" id="6CwG2k8bVG_" role="3clFbw">
-          <node concept="3cmrfG" id="6CwG2k8bVGC" role="3uHU7w">
-            <property role="3cmrfH" value="3" />
-          </node>
           <node concept="2OqwBi" id="6CwG2k8bUpu" role="3uHU7B">
             <node concept="37vLTw" id="6CwG2k8bUaO" role="2Oq$k0">
               <ref role="3cqZAo" node="1VmHfRxTGRa" resolve="subPolicyBuffer" />
@@ -724,6 +740,15 @@
             <node concept="liA8E" id="6CwG2k8bUM1" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Set.size()" resolve="size" />
             </node>
+          </node>
+          <node concept="2OqwBi" id="2xeWAXXKwHX" role="3uHU7w">
+            <node concept="2OqwBi" id="2xeWAXXKvQU" role="2Oq$k0">
+              <node concept="1XH99k" id="2xeWAXXKuSs" role="2Oq$k0">
+                <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
+              </node>
+              <node concept="2ViDtN" id="2xeWAXXKw3K" role="2OqNvi" />
+            </node>
+            <node concept="34oBXx" id="2xeWAXXKxpa" role="2OqNvi" />
           </node>
         </node>
       </node>
@@ -3202,6 +3227,145 @@
         <node concept="3clFbF" id="6CwG2k7Zeir" role="3cqZAp">
           <node concept="Xl_RD" id="6CwG2k7Zeiq" role="3clFbG">
             <property role="Xl_RC" value="Add Missing Merge Policies" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="2xeWAXXL1C3">
+    <property role="3GE5qa" value="elementpolicies" />
+    <property role="TrG5h" value="fixMIssingSubPolicy" />
+    <node concept="Q6JDH" id="2xeWAXXL1I6" role="Q6Id_">
+      <property role="TrG5h" value="mcp" />
+      <node concept="3Tqbb2" id="2xeWAXXL1Ic" role="Q6QK4">
+        <ref role="ehGHo" to="mopj:7jyS5urbTpv" resolve="MultiChildPolicy" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="2xeWAXXL1C4" role="Q6x$H">
+      <node concept="3clFbS" id="2xeWAXXL1C5" role="2VODD2">
+        <node concept="3cpWs8" id="2xeWAXXL7v_" role="3cqZAp">
+          <node concept="3cpWsn" id="2xeWAXXL7vA" role="3cpWs9">
+            <property role="TrG5h" value="presentMembers" />
+            <node concept="A3Dl8" id="2xeWAXXL7su" role="1tU5fm">
+              <node concept="2ZThk1" id="2xeWAXXL7sx" role="A3Ik2">
+                <ref role="2ZWj4r" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2xeWAXXL7vB" role="33vP2m">
+              <node concept="2OqwBi" id="2xeWAXXL7vC" role="2Oq$k0">
+                <node concept="QwW4i" id="2xeWAXXL7vD" role="2Oq$k0">
+                  <ref role="QwW4h" node="2xeWAXXL1I6" resolve="mcp" />
+                </node>
+                <node concept="3Tsc0h" id="2xeWAXXL7vE" role="2OqNvi">
+                  <ref role="3TtcxE" to="mopj:7jyS5urbTpw" resolve="subPolicy" />
+                </node>
+              </node>
+              <node concept="3$u5V9" id="2xeWAXXL7vF" role="2OqNvi">
+                <node concept="1bVj0M" id="2xeWAXXL7vG" role="23t8la">
+                  <node concept="3clFbS" id="2xeWAXXL7vH" role="1bW5cS">
+                    <node concept="3clFbF" id="2xeWAXXL7vI" role="3cqZAp">
+                      <node concept="2OqwBi" id="2xeWAXXL7vJ" role="3clFbG">
+                        <node concept="37vLTw" id="2xeWAXXL7vK" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2xeWAXXL7vM" resolve="it" />
+                        </node>
+                        <node concept="3TrcHB" id="2xeWAXXL7vL" role="2OqNvi">
+                          <ref role="3TsBF5" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="2xeWAXXL7vM" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="2xeWAXXL7vN" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2xeWAXXL8cQ" role="3cqZAp">
+          <node concept="3cpWsn" id="2xeWAXXL8cR" role="3cpWs9">
+            <property role="TrG5h" value="allMembers" />
+            <node concept="_YKpA" id="2xeWAXXL8bh" role="1tU5fm">
+              <node concept="2ZThk1" id="2xeWAXXL8bk" role="_ZDj9">
+                <ref role="2ZWj4r" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="2xeWAXXLHzX" role="33vP2m">
+              <ref role="37wK5l" to="3o3z:~Lists.newLinkedList(java.lang.Iterable)" resolve="newLinkedList" />
+              <ref role="1Pybhc" to="3o3z:~Lists" resolve="Lists" />
+              <node concept="2OqwBi" id="2xeWAXXLHzY" role="37wK5m">
+                <node concept="1XH99k" id="2xeWAXXLHzZ" role="2Oq$k0">
+                  <ref role="1XH99l" to="mopj:1VmHfRxJEru" resolve="SubPolicy" />
+                </node>
+                <node concept="2ViDtN" id="2xeWAXXLH$0" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2xeWAXXL8ju" role="3cqZAp">
+          <node concept="2OqwBi" id="2xeWAXXL8X7" role="3clFbG">
+            <node concept="37vLTw" id="2xeWAXXL8js" role="2Oq$k0">
+              <ref role="3cqZAo" node="2xeWAXXL8cR" resolve="allMembers" />
+            </node>
+            <node concept="1kEaZ2" id="2xeWAXXL9qF" role="2OqNvi">
+              <node concept="37vLTw" id="2xeWAXXLa0Z" role="25WWJ7">
+                <ref role="3cqZAo" node="2xeWAXXL7vA" resolve="presentMembers" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2xeWAXXLbn6" role="3cqZAp" />
+        <node concept="2Gpval" id="2xeWAXXLgQs" role="3cqZAp">
+          <node concept="3clFbS" id="2xeWAXXLgQx" role="2LFqv$">
+            <node concept="3clFbF" id="2xeWAXXLgQy" role="3cqZAp">
+              <node concept="2OqwBi" id="2xeWAXXLgQz" role="3clFbG">
+                <node concept="2OqwBi" id="2xeWAXXLgQ$" role="2Oq$k0">
+                  <node concept="QwW4i" id="2xeWAXXLgQ_" role="2Oq$k0">
+                    <ref role="QwW4h" node="2xeWAXXL1I6" resolve="mcp" />
+                  </node>
+                  <node concept="3Tsc0h" id="2xeWAXXLgQA" role="2OqNvi">
+                    <ref role="3TtcxE" to="mopj:7jyS5urbTpw" resolve="subPolicy" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="2xeWAXXLgQB" role="2OqNvi">
+                  <node concept="2pJPEk" id="2xeWAXXLgQC" role="25WWJ7">
+                    <node concept="2pJPED" id="2xeWAXXLgQD" role="2pJPEn">
+                      <ref role="2pJxaS" to="mopj:1VmHfRxKMgU" resolve="SubPolicyContainer" />
+                      <node concept="2pJxcG" id="2xeWAXXLgQE" role="2pJxcM">
+                        <ref role="2pJxcJ" to="mopj:1VmHfRxKMgV" resolve="subPolicy" />
+                        <node concept="WxPPo" id="2xeWAXXLgQF" role="28ntcv">
+                          <node concept="2GrUjf" id="2xeWAXXLgQL" role="WxPPp">
+                            <ref role="2Gs0qQ" node="2xeWAXXLgQK" resolve="missingMemeber" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2pIpSj" id="2xeWAXXLgQH" role="2pJxcM">
+                        <ref role="2pIpSl" to="mopj:1VmHfRxLaon" resolve="action" />
+                        <node concept="36biLy" id="2xeWAXXLgQI" role="28nt2d">
+                          <node concept="10Nm6u" id="2xeWAXXLgQJ" role="36biLW" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="2xeWAXXLgQw" role="2GsD0m">
+            <ref role="3cqZAo" node="2xeWAXXL8cR" resolve="allMembers" />
+          </node>
+          <node concept="2GrKxI" id="2xeWAXXLgQK" role="2Gsz3X">
+            <property role="TrG5h" value="missingMemeber" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="2xeWAXXL1Il" role="QzAvj">
+      <node concept="3clFbS" id="2xeWAXXL1Im" role="2VODD2">
+        <node concept="3clFbF" id="2xeWAXXL1MU" role="3cqZAp">
+          <node concept="Xl_RD" id="2xeWAXXL1MT" role="3clFbG">
+            <property role="Xl_RC" value="Add Missing Sub-Policies" />
           </node>
         </node>
       </node>

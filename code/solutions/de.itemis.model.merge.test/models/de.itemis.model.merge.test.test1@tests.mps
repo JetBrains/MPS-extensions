@@ -3462,6 +3462,14 @@
               <property role="3Z5p36" value="1VmHfRxJErw/ExistsOnLeft" />
               <node concept="3JN9zx" id="5ahhjnc0WM6" role="3Z4xbE" />
             </node>
+            <node concept="3Z5p37" id="2xeWAXXMsQr" role="3JNnoR">
+              <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
+              <node concept="3JHzSW" id="2xeWAXXMsQx" role="3Z4xbE" />
+            </node>
+            <node concept="3Z5p37" id="2xeWAXXMsQs" role="3JNnoR">
+              <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
+              <node concept="3JN9zw" id="2xeWAXXMsQz" role="3Z4xbE" />
+            </node>
           </node>
           <node concept="1DuYj3" id="5ahhjnc0WM7" role="3JN1Yi">
             <ref role="3Ze0ni" to="14sb:1trrptaBsmM" resolve="optChild" />
@@ -3484,9 +3492,6 @@
             <property role="2V$B1T" value="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" />
             <property role="2V$B1Q" value="de.itemis.model.merge.diamond" />
           </node>
-        </node>
-        <node concept="1olsrb" id="6CwG2k81F5f" role="1olsr8">
-          <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
         </node>
         <node concept="1olsrb" id="6CwG2k81F5g" role="1olsr8">
           <ref role="24zOxU" to="14sb:57$6ALrLfRh" resolve="OtherData" />
@@ -3517,6 +3522,18 @@
         </node>
         <node concept="1olsrb" id="6CwG2k81F5p" role="1olsr8">
           <ref role="24zOxU" to="14sb:7TOowlgscST" resolve="Top" />
+        </node>
+        <node concept="1olsrb" id="2xeWAXXSqBL" role="1olsr8">
+          <ref role="24zOxU" to="14sb:1trrptaBskJ" resolve="Data" />
+          <node concept="230_S" id="2xeWAXXSqBP" role="21DrV">
+            <node concept="3clFbS" id="2xeWAXXSqBO" role="2VODD2">
+              <node concept="3cpWs6" id="2xeWAXXSqBN" role="3cqZAp">
+                <node concept="Xl_RD" id="2xeWAXXSqBM" role="3cqZAk">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -3560,9 +3577,9 @@
               <property role="3Z5p36" value="1VmHfRxJErv/NewOnRight" />
               <node concept="3JHzSW" id="2xeWAXXMjCj" role="3Z4xbE" />
             </node>
-            <node concept="3Z5p37" id="2xeWAXXMjCe" role="3JNnoR">
+            <node concept="3Z5p37" id="2xeWAXXPaT_" role="3JNnoR">
               <property role="3Z5p36" value="1VmHfRxJErz/ElementOnBoth" />
-              <node concept="3JN9zw" id="2xeWAXXMjCl" role="3Z4xbE" />
+              <node concept="3JN9zw" id="2xeWAXXPaTF" role="3Z4xbE" />
             </node>
           </node>
           <node concept="1DuYj3" id="5ahhjnbZ7c5" role="3JN1Yi">

@@ -160,6 +160,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="qmkA5fOskf" resolve="Module" />
     </node>
+    <node concept="1TJgyj" id="3DfUugBU39C" role="1TKVEi">
+      <property role="IQ2ns" value="4201834143491306088" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="projectModules" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3DfUugBU39$" resolve="ProjectModule" />
+    </node>
     <node concept="PrWs8" id="3uw$nPCBuGS" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -219,6 +226,16 @@
     <property role="EcuMT" value="7341098702109598213" />
     <property role="TrG5h" value="DevKit" />
     <ref role="1TJDcQ" node="qmkA5fOskf" resolve="Module" />
+  </node>
+  <node concept="1TIwiD" id="3DfUugBU39$">
+    <property role="EcuMT" value="4201834143491306084" />
+    <property role="TrG5h" value="ProjectModule" />
+    <ref role="1TJDcQ" node="5100827Ptfk" resolve="ModuleReference" />
+    <node concept="1TJgyi" id="3DfUugBU39_" role="1TKVEl">
+      <property role="IQ2nx" value="4201834143491306085" />
+      <property role="TrG5h" value="virtualFolder" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 

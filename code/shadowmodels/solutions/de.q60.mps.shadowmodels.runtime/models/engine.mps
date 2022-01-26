@@ -169,6 +169,9 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="4269842503726207156" name="jetbrains.mps.baseLanguage.structure.LongLiteral" flags="nn" index="1adDum">
+        <property id="4269842503726207157" name="value" index="1adDun" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
@@ -209,6 +212,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
@@ -47315,6 +47319,27 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6eCobXxMzuR" role="jymVt" />
+    <node concept="3clFb_" id="6eCobXxMwOU" role="jymVt">
+      <property role="TrG5h" value="getLockOrderingPriority" />
+      <node concept="3Tm1VV" id="6eCobXxMwOV" role="1B3o_S" />
+      <node concept="3cpWsb" id="6eCobXxMwOX" role="3clF45" />
+      <node concept="3clFbS" id="6eCobXxMwOY" role="3clF47">
+        <node concept="3clFbF" id="6eCobXxM$by" role="3cqZAp">
+          <node concept="2OqwBi" id="6eCobXxM$kp" role="3clFbG">
+            <node concept="37vLTw" id="6eCobXxM$bv" role="2Oq$k0">
+              <ref role="3cqZAo" node="7C8dhLiU2Tj" resolve="area" />
+            </node>
+            <node concept="liA8E" id="6eCobXxM_5R" role="2OqNvi">
+              <ref role="37wK5l" to="qvpu:~IArea.getLockOrderingPriority()" resolve="getLockOrderingPriority" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6eCobXxMwOZ" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7C8dhLiU3lr" role="jymVt" />
     <node concept="3clFb_" id="2YQpkXLmLkD" role="jymVt">
       <property role="TrG5h" value="resolveConcept" />
@@ -48124,6 +48149,22 @@
         <node concept="3uibUv" id="7C8dhLiUG7S" role="1tU5fm">
           <ref role="3uigEE" node="5gTrVpGiJ4w" resolve="ITransformationEngine" />
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6eCobXxMWc_" role="jymVt" />
+    <node concept="3clFb_" id="6eCobXxMiVI" role="jymVt">
+      <property role="TrG5h" value="getLockOrderingPriority" />
+      <node concept="3Tm1VV" id="6eCobXxMiVJ" role="1B3o_S" />
+      <node concept="3cpWsb" id="6eCobXxMiVL" role="3clF45" />
+      <node concept="3clFbS" id="6eCobXxMiVN" role="3clF47">
+        <node concept="3clFbF" id="6eCobXxMusl" role="3cqZAp">
+          <node concept="1adDum" id="6eCobXxMusk" role="3clFbG">
+            <property role="1adDun" value="0L" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6eCobXxMiVO" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="7C8dhLiUGrs" role="jymVt" />

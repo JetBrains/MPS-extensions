@@ -16404,6 +16404,26 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6TdxBJ4j5Wd" role="jymVt" />
+    <node concept="3clFb_" id="6eCobXxMiVI" role="jymVt">
+      <property role="TrG5h" value="getLockOrderingPriority" />
+      <node concept="3Tm1VV" id="6eCobXxMiVJ" role="1B3o_S" />
+      <node concept="3cpWsb" id="6eCobXxMiVL" role="3clF45" />
+      <node concept="3clFbS" id="6eCobXxMiVN" role="3clF47">
+        <node concept="3clFbF" id="6eCobXxMTW3" role="3cqZAp">
+          <node concept="2YIFZM" id="6eCobXxMTYu" role="3clFbG">
+            <ref role="37wK5l" to="wyt6:~System.identityHashCode(java.lang.Object)" resolve="identityHashCode" />
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            <node concept="37vLTw" id="6eCobXxMTZ6" role="37wK5m">
+              <ref role="3cqZAo" node="6TdxBJ4j5Vq" resolve="branch" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6eCobXxMiVO" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6eCobXxMDa$" role="jymVt" />
     <node concept="3clFb_" id="7$7_4ZihQel" role="jymVt">
       <property role="TrG5h" value="getReference" />
       <node concept="3Tm1VV" id="7$7_4ZihQem" role="1B3o_S" />

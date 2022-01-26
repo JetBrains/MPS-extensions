@@ -15475,6 +15475,21 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6QQNrZyfqj" role="3bR37C">
+          <node concept="3bR9La" id="6QQNrZyfqk" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6QQNrZIiQM" role="3bR37C">
+          <node concept="3bR9La" id="6QQNrZIiQN" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:4SM2EuqHUPF" resolve="jetbrains.mps.lang.modelapi" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6QQNrZIiQO" role="3bR37C">
+          <node concept="3bR9La" id="6QQNrZIiQP" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="3Afi$YnEYQQ" role="2G$12L">
         <property role="BnDLt" value="true" />

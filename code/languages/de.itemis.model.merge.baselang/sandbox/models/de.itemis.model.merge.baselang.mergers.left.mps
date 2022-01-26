@@ -13,7 +13,7 @@
     </language>
   </registry>
   <node concept="2pctC0" id="1zxgaynEdL7">
-    <property role="2pctC1" value="demo1" />
+    <property role="2pctC1" value="stuff" />
   </node>
 </model>
 

@@ -285,7 +285,7 @@
   <node concept="1lH9Xt" id="6QQNrZxDEL">
     <property role="TrG5h" value="ModelMergeExpression" />
     <node concept="1LZb2c" id="6QQNrZxHtq" role="1SL9yI">
-      <property role="TrG5h" value="test" />
+      <property role="TrG5h" value="testModelMergeExpression" />
       <node concept="3cqZAl" id="6QQNrZxHtr" role="3clF45" />
       <node concept="3clFbS" id="6QQNrZxHtv" role="3clF47">
         <node concept="3cpWs8" id="6QQNrZxI8C" role="3cqZAp">

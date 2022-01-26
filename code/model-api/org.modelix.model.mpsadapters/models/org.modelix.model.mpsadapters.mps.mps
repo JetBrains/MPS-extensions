@@ -187,6 +187,9 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="4269842503726207156" name="jetbrains.mps.baseLanguage.structure.LongLiteral" flags="nn" index="1adDum">
+        <property id="4269842503726207157" name="value" index="1adDun" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
@@ -227,6 +230,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
@@ -296,6 +300,7 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
+      <concept id="1225892208569" name="jetbrains.mps.baseLanguage.structure.ShiftLeftExpression" flags="nn" index="1GRDU$" />
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
@@ -16605,6 +16610,27 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7cdb92Lw7qc" role="jymVt" />
+    <node concept="3clFb_" id="6eCobXxL$0c" role="jymVt">
+      <property role="TrG5h" value="getLockOrderingPriority" />
+      <node concept="3Tm1VV" id="6eCobXxL$0d" role="1B3o_S" />
+      <node concept="3cpWsb" id="6eCobXxL$0f" role="3clF45" />
+      <node concept="3clFbS" id="6eCobXxL$0g" role="3clF47">
+        <node concept="3clFbF" id="6eCobXxL$0j" role="3cqZAp">
+          <node concept="1GRDU$" id="6eCobXxLUZK" role="3clFbG">
+            <node concept="3cmrfG" id="6eCobXxLV2x" role="3uHU7w">
+              <property role="3cmrfH" value="32" />
+            </node>
+            <node concept="1adDum" id="6eCobXxLUah" role="3uHU7B">
+              <property role="1adDun" value="100L" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6eCobXxL$0h" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6eCobXxLP4X" role="jymVt" />
     <node concept="3clFb_" id="7$7_4Zifgqt" role="jymVt">
       <property role="TrG5h" value="getReference" />
       <node concept="3Tm1VV" id="7$7_4Zifgqu" role="1B3o_S" />

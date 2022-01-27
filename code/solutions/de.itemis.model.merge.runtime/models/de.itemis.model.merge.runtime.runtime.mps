@@ -4187,6 +4187,26 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="7L127H0bDYY" role="1B3o_S" />
+      <node concept="P$JXv" id="6B0NpqHzTC5" role="lGtFl">
+        <node concept="TZ5HA" id="6B0NpqHzTC6" role="TZ5H$">
+          <node concept="1dT_AC" id="6B0NpqHzTC7" role="1dT_Ay" />
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHzTC8" role="3nqlJM">
+          <property role="TUZQ4" value="root nodes left" />
+          <node concept="zr_55" id="6B0NpqHzTCa" role="zr_5Q">
+            <ref role="zr_51" node="7L127H0bDYQ" resolve="leftRoots" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHzTCb" role="3nqlJM">
+          <property role="TUZQ4" value="root nodes right" />
+          <node concept="zr_55" id="6B0NpqHzTCd" role="zr_5Q">
+            <ref role="zr_51" node="7L127H0bDYT" resolve="rightRoots" />
+          </node>
+        </node>
+        <node concept="x79VA" id="6B0NpqHzTCe" role="3nqlJM">
+          <property role="x79VB" value="merged result of descendantes of both roots" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="3sC53y2yYrw" role="jymVt" />
     <node concept="3clFb_" id="3sC53y2yAPf" role="jymVt">
@@ -6725,6 +6745,13 @@
       <node concept="3Tm6S6" id="7L127H0cata" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="2V55j61W8Fr" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6B0NpqHzNhy" role="lGtFl">
+      <node concept="TZ5HA" id="6B0NpqHzNhz" role="TZ5H$">
+        <node concept="1dT_AC" id="6B0NpqHzNh$" role="1dT_Ay">
+          <property role="1dT_AB" value="Given a ModelMerge Definition will merge a list of two root nodes accordingly" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3pc485W4NhM">
     <property role="3GE5qa" value="child" />
@@ -7868,6 +7895,49 @@
       <node concept="3uibUv" id="1trrptaAeaT" role="3clF45">
         <ref role="3uigEE" node="2QNuyuiL5OR" resolve="MergerResolverImpl" />
       </node>
+      <node concept="P$JXv" id="6B0NpqHznCk" role="lGtFl">
+        <node concept="TZ5HA" id="6B0NpqHznCl" role="TZ5H$">
+          <node concept="1dT_AC" id="6B0NpqHznCm" role="1dT_Ay">
+            <property role="1dT_AB" value="Traverses the graph from a root to the leaf (for all roots ony by one)." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6B0NpqHzoz9" role="TZ5H$">
+          <node concept="1dT_AC" id="6B0NpqHzoza" role="1dT_Ay">
+            <property role="1dT_AB" value="During this traversal for each concept of 'graph' it is determined what kind of merger-objects are " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6B0NpqHzAss" role="TZ5H$">
+          <node concept="1dT_AC" id="6B0NpqHzAst" role="1dT_Ay">
+            <property role="1dT_AB" value="valid for its properties, children and references. During the traversal merger-objects of parent-concepts are" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6B0NpqHzAvD" role="TZ5H$">
+          <node concept="1dT_AC" id="6B0NpqHzAvE" role="1dT_Ay">
+            <property role="1dT_AB" value="propagated to their descendants. This way an inheritance hierarchy is implemented." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHznCn" role="3nqlJM">
+          <property role="TUZQ4" value="graph of concept hierarchy" />
+          <node concept="zr_55" id="6B0NpqHznCp" role="zr_5Q">
+            <ref role="zr_51" node="18W7Z4Vmw0_" resolve="graph" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHznCq" role="3nqlJM">
+          <property role="TUZQ4" value="concepts mapped to MergePolicies " />
+          <node concept="zr_55" id="6B0NpqHznCs" role="zr_5Q">
+            <ref role="zr_51" node="18W7Z4Vmw0C" resolve="sconceptToMergePolicy" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHznCt" role="3nqlJM">
+          <property role="TUZQ4" value=" " />
+          <node concept="zr_55" id="6B0NpqHznCv" role="zr_5Q">
+            <ref role="zr_51" node="32ggi2DzbrS" resolve="contentHolderFactory" />
+          </node>
+        </node>
+        <node concept="x79VA" id="6B0NpqHznCw" role="3nqlJM">
+          <property role="x79VB" value=" " />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2rVXF9$IT92" role="jymVt" />
     <node concept="2YIFZL" id="2QNuyuiLuqz" role="jymVt">
@@ -8455,7 +8525,7 @@
               <node concept="liA8E" id="7YSeTY81uqH" role="2OqNvi">
                 <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object)" resolve="get" />
                 <node concept="37vLTw" id="7YSeTY81uqI" role="37wK5m">
-                  <ref role="3cqZAo" node="7YSeTY81ad_" resolve="startNode" />
+                  <ref role="3cqZAo" node="7YSeTY81ad_" resolve="currentNode" />
                 </node>
               </node>
             </node>
@@ -8472,7 +8542,7 @@
               <ref role="3cqZAo" node="7YSeTY81l4F" resolve="matc" />
             </node>
             <node concept="37vLTw" id="1FQTM0rPQwT" role="37wK5m">
-              <ref role="3cqZAo" node="7YSeTY81ad_" resolve="startNode" />
+              <ref role="3cqZAo" node="7YSeTY81ad_" resolve="currentNode" />
             </node>
             <node concept="37vLTw" id="32ggi2DzaSt" role="37wK5m">
               <ref role="3cqZAo" node="32ggi2Dz8Cx" resolve="stuffFactory" />
@@ -8484,7 +8554,7 @@
           <node concept="1rXfSq" id="1FQTM0rQ2U2" role="3clFbG">
             <ref role="37wK5l" node="1FQTM0rQ0yo" resolve="constructMergePolicesForNode" />
             <node concept="37vLTw" id="1FQTM0rQ0za" role="37wK5m">
-              <ref role="3cqZAo" node="7YSeTY81ad_" resolve="startNode" />
+              <ref role="3cqZAo" node="7YSeTY81ad_" resolve="currentNode" />
             </node>
             <node concept="37vLTw" id="1FQTM0rQ0zb" role="37wK5m">
               <ref role="3cqZAo" node="7YSeTY81l4F" resolve="matc" />
@@ -8506,7 +8576,7 @@
             <node concept="liA8E" id="7TOowlgRJFs" role="2OqNvi">
               <ref role="37wK5l" to="agc3:~Graph.successors(java.lang.Object)" resolve="successors" />
               <node concept="37vLTw" id="7TOowlgRJFt" role="37wK5m">
-                <ref role="3cqZAo" node="7YSeTY81ad_" resolve="startNode" />
+                <ref role="3cqZAo" node="7YSeTY81ad_" resolve="currentNode" />
               </node>
             </node>
           </node>
@@ -8560,7 +8630,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="7YSeTY81ad_" role="3clF46">
-        <property role="TrG5h" value="startNode" />
+        <property role="TrG5h" value="currentNode" />
         <node concept="3uibUv" id="7YSeTY81adA" role="1tU5fm">
           <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
         </node>
@@ -14628,11 +14698,42 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="2cYlIwYBddf" role="1B3o_S" />
+      <node concept="P$JXv" id="6B0NpqHAh6X" role="lGtFl">
+        <node concept="TZ5HA" id="6B0NpqHAh6Y" role="TZ5H$">
+          <node concept="1dT_AC" id="6B0NpqHAh6Z" role="1dT_Ay">
+            <property role="1dT_AB" value="Merges left and right model according to modelMerge into resultModel" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHAh70" role="3nqlJM">
+          <property role="TUZQ4" value="resultModel" />
+          <node concept="zr_55" id="6B0NpqHAh72" role="zr_5Q">
+            <ref role="zr_51" node="2cYlIwYBdd6" resolve="resultModel" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHAh73" role="3nqlJM">
+          <property role="TUZQ4" value="modelMerge" />
+          <node concept="zr_55" id="6B0NpqHAh75" role="zr_5Q">
+            <ref role="zr_51" node="2cYlIwYBdd8" resolve="modelMerge" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHAh76" role="3nqlJM">
+          <property role="TUZQ4" value="left" />
+          <node concept="zr_55" id="6B0NpqHAh78" role="zr_5Q">
+            <ref role="zr_51" node="2cYlIwYBdda" resolve="left" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqHAh79" role="3nqlJM">
+          <property role="TUZQ4" value="right" />
+          <node concept="zr_55" id="6B0NpqHAh7b" role="zr_5Q">
+            <ref role="zr_51" node="2cYlIwYBddc" resolve="right" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2cYlIwYLB6Z" role="jymVt" />
     <node concept="2YIFZL" id="2cYlIwYLAEx" role="jymVt">
       <property role="TrG5h" value="run" />
-      <node concept="3Tm1VV" id="2cYlIwYLBeY" role="1B3o_S" />
+      <node concept="3Tm6S6" id="6B0NpqH$1PW" role="1B3o_S" />
       <node concept="3cqZAl" id="2cYlIwYLAEz" role="3clF45" />
       <node concept="37vLTG" id="2cYlIwYLAEj" role="3clF46">
         <property role="TrG5h" value="smodelL" />
@@ -14701,21 +14802,7 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="2cYlIwYLADL" role="3cqZAp">
-          <node concept="3cpWsn" id="2cYlIwYLADM" role="3cpWs9">
-            <property role="TrG5h" value="runner" />
-            <node concept="3uibUv" id="2cYlIwYLADN" role="1tU5fm">
-              <ref role="3uigEE" node="2V55j61W8Fq" resolve="ModelMergerRunner" />
-            </node>
-            <node concept="2YIFZM" id="2cYlIwYLADO" role="33vP2m">
-              <ref role="1Pybhc" node="2V55j61W8Fq" resolve="ModelMergerRunner" />
-              <ref role="37wK5l" node="3a5mjFh18tR" resolve="create" />
-              <node concept="37vLTw" id="2cYlIwYLAEs" role="37wK5m">
-                <ref role="3cqZAo" node="2cYlIwYLAEn" resolve="modelMerge" />
-              </node>
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="6B0NpqH$1gg" role="3cqZAp" />
         <node concept="3cpWs8" id="2cYlIwYLADQ" role="3cqZAp">
           <node concept="3cpWsn" id="2cYlIwYLADR" role="3cpWs9">
             <property role="TrG5h" value="mergedNodes" />
@@ -14728,8 +14815,12 @@
               <node concept="1eOMI4" id="2cYlIwYLADV" role="2Oq$k0">
                 <node concept="2OqwBi" id="2cYlIwYLADW" role="1eOMHV">
                   <node concept="2OqwBi" id="2cYlIwYLADX" role="2Oq$k0">
-                    <node concept="37vLTw" id="2cYlIwYLADY" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2cYlIwYLADM" resolve="runner" />
+                    <node concept="2YIFZM" id="6B0NpqH$0UD" role="2Oq$k0">
+                      <ref role="1Pybhc" node="2V55j61W8Fq" resolve="ModelMergerRunner" />
+                      <ref role="37wK5l" node="3a5mjFh18tR" resolve="create" />
+                      <node concept="37vLTw" id="6B0NpqH$0UE" role="37wK5m">
+                        <ref role="3cqZAo" node="2cYlIwYLAEn" resolve="modelMerge" />
+                      </node>
                     </node>
                     <node concept="liA8E" id="2cYlIwYLADZ" role="2OqNvi">
                       <ref role="37wK5l" node="7L127H0bDXC" resolve="merge" />
@@ -14847,6 +14938,34 @@
         <node concept="H_c77" id="2cYlIwYLBLO" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="2cYlIwYEMj3" role="1B3o_S" />
+      <node concept="P$JXv" id="6B0NpqH$1Fw" role="lGtFl">
+        <node concept="TZ5HA" id="6B0NpqH$1Fx" role="TZ5H$">
+          <node concept="1dT_AC" id="6B0NpqH$1Fy" role="1dT_Ay">
+            <property role="1dT_AB" value="Merges the two given models according to modelMerge" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqH$1Fz" role="3nqlJM">
+          <property role="TUZQ4" value="modelMerge" />
+          <node concept="zr_55" id="6B0NpqH$1F_" role="zr_5Q">
+            <ref role="zr_51" node="2cYlIwYEMiW" resolve="modelMerge" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqH$1FA" role="3nqlJM">
+          <property role="TUZQ4" value="left model" />
+          <node concept="zr_55" id="6B0NpqH$1FC" role="zr_5Q">
+            <ref role="zr_51" node="2cYlIwYEMiY" resolve="left" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6B0NpqH$1FD" role="3nqlJM">
+          <property role="TUZQ4" value="right model" />
+          <node concept="zr_55" id="6B0NpqH$1FF" role="zr_5Q">
+            <ref role="zr_51" node="2cYlIwYEMj0" resolve="right" />
+          </node>
+        </node>
+        <node concept="x79VA" id="6B0NpqH$1FG" role="3nqlJM">
+          <property role="x79VB" value="a temporary model " />
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="2cYlIwY_fxh" role="1B3o_S" />
   </node>

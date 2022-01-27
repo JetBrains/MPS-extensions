@@ -17374,11 +17374,12 @@
         </node>
       </node>
       <node concept="3clFbS" id="7cdb92Lw9WL" role="3clF47">
-        <node concept="3clFbF" id="7cdb92LwchW" role="3cqZAp">
-          <node concept="2YIFZM" id="7cdb92LwcjV" role="3clFbG">
-            <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+        <node concept="3clFbF" id="1h8lLx6Ud37" role="3cqZAp">
+          <node concept="2YIFZM" id="1h8lLx6Ud7H" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <node concept="3uibUv" id="7cdb92Lwnvw" role="3PaCim">
+            <node concept="Xjq3P" id="1h8lLx6Udb0" role="37wK5m" />
+            <node concept="3uibUv" id="1h8lLx6Udta" role="3PaCim">
               <ref role="3uigEE" to="qvpu:~IArea" resolve="IArea" />
             </node>
           </node>

@@ -48403,12 +48403,13 @@
       </node>
       <node concept="3clFbS" id="7C8dhLiUsG6" role="3clF47">
         <node concept="3clFbF" id="7C8dhLiUx8r" role="3cqZAp">
-          <node concept="2YIFZM" id="7C8dhLiUx9C" role="3clFbG">
-            <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+          <node concept="2YIFZM" id="1h8lLx6UgVk" role="3clFbG">
+            <ref role="37wK5l" to="33ny:~Collections.singletonList(java.lang.Object)" resolve="singletonList" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
-            <node concept="3uibUv" id="7C8dhLiUxiH" role="3PaCim">
+            <node concept="3uibUv" id="1h8lLx6UgVl" role="3PaCim">
               <ref role="3uigEE" to="qvpu:~IArea" resolve="IArea" />
             </node>
+            <node concept="Xjq3P" id="1h8lLx6Uhq_" role="37wK5m" />
           </node>
         </node>
       </node>

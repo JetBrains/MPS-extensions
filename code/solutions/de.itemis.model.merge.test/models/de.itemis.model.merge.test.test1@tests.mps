@@ -2431,7 +2431,7 @@
           <node concept="3cpWsn" id="1trrptaH5uI" role="3cpWs9">
             <property role="TrG5h" value="mergePoliciesByHierarchy" />
             <node concept="3uibUv" id="1trrptaH5e_" role="1tU5fm">
-              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="ModelMergeResult" />
+              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="MergerResolverImpl" />
             </node>
             <node concept="2OqwBi" id="1trrptaH5uJ" role="33vP2m">
               <node concept="3xONca" id="1trrptaH5uK" role="2Oq$k0">
@@ -2554,7 +2554,7 @@
           <node concept="3cpWsn" id="1trrptaHgIE" role="3cpWs9">
             <property role="TrG5h" value="mergePoliciesByHierarchy" />
             <node concept="3uibUv" id="1trrptaHgIF" role="1tU5fm">
-              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="ModelMergeResult" />
+              <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="MergerResolverImpl" />
             </node>
             <node concept="2OqwBi" id="1trrptaHgIG" role="33vP2m">
               <node concept="3xONca" id="1trrptaHtRd" role="2Oq$k0">

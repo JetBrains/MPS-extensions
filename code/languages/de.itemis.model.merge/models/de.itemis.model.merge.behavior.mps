@@ -749,13 +749,13 @@
       <property role="TrG5h" value="mergePoliciesByHierarchy" />
       <node concept="3Tm1VV" id="2QNuyuiMzB3" role="1B3o_S" />
       <node concept="3uibUv" id="2QNuyuiM$Ua" role="3clF45">
-        <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="ModelMergeResult" />
+        <ref role="3uigEE" to="gunp:2QNuyuiL5OR" resolve="MergerResolverImpl" />
       </node>
       <node concept="3clFbS" id="2QNuyuiMzB5" role="3clF47">
         <node concept="3clFbF" id="2QNuyuiM$PN" role="3cqZAp">
           <node concept="2YIFZM" id="61HvMZcxF4R" role="3clFbG">
             <ref role="37wK5l" to="gunp:7wnapcW0cfS" resolve="mergePoliciesByHierarchy" />
-            <ref role="1Pybhc" to="gunp:18W7Z4VeRuj" resolve="ConceptGraphTraversal" />
+            <ref role="1Pybhc" to="gunp:18W7Z4VeRuj" resolve="MergeResolverFromModelMerge" />
             <node concept="13iPFW" id="2QNuyuiM$UG" role="37wK5m" />
           </node>
         </node>
@@ -794,7 +794,7 @@
             <node concept="2OqwBi" id="3Wln5KIUhhy" role="33vP2m">
               <node concept="2YIFZM" id="61HvMZcxF4S" role="2Oq$k0">
                 <ref role="37wK5l" to="gunp:7wnapcW0cfS" resolve="mergePoliciesByHierarchy" />
-                <ref role="1Pybhc" to="gunp:18W7Z4VeRuj" resolve="ConceptGraphTraversal" />
+                <ref role="1Pybhc" to="gunp:18W7Z4VeRuj" resolve="MergeResolverFromModelMerge" />
                 <node concept="13iPFW" id="3Wln5KIUhh$" role="37wK5m" />
               </node>
               <node concept="2OwXpG" id="3Wln5KIUhh_" role="2OqNvi">

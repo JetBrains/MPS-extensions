@@ -169,6 +169,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
         <child id="1214996921760" name="bound" index="3ztrMU" />
       </concept>
@@ -296,6 +297,7 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1208623485264" name="jetbrains.mps.baseLanguage.structure.AbstractOperation" flags="nn" index="1B$H19" />
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
@@ -10895,6 +10897,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="25OQfQHS0RD" role="jymVt" />
     <node concept="3clFb_" id="qmkA5fQh7n" role="jymVt">
       <property role="TrG5h" value="getChildAccessor" />
       <property role="1EzhhJ" value="false" />
@@ -28610,6 +28613,67 @@
         <ref role="3uigEE" to="b0pz:~JavaModuleFacet" resolve="JavaModuleFacet" />
       </node>
     </node>
+    <node concept="2tJIrI" id="25OQfQHSoTX" role="jymVt" />
+    <node concept="312cEg" id="25OQfQHSq63" role="jymVt">
+      <property role="TrG5h" value="generatedAccessor" />
+      <node concept="3Tm6S6" id="25OQfQHSq64" role="1B3o_S" />
+      <node concept="3uibUv" id="25OQfQHSq65" role="1tU5fm">
+        <ref role="3uigEE" node="qmkA5fP_R1" resolve="TreeElementAsNode.IPropertyAccessor" />
+        <node concept="3uibUv" id="25OQfQHSsff" role="11_B2D">
+          <ref role="3uigEE" to="b0pz:~JavaModuleFacet" resolve="JavaModuleFacet" />
+        </node>
+      </node>
+      <node concept="2ShNRf" id="25OQfQHSq67" role="33vP2m">
+        <node concept="YeOm9" id="25OQfQHSq68" role="2ShVmc">
+          <node concept="1Y3b0j" id="25OQfQHSq69" role="YeSDq">
+            <property role="2bfB8j" value="true" />
+            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+            <ref role="1Y3XeK" node="25OQfQHSuLG" resolve="ReadOnlyPropertyAccessor" />
+            <node concept="3Tm1VV" id="25OQfQHSq6a" role="1B3o_S" />
+            <node concept="3clFb_" id="25OQfQHSq6b" role="jymVt">
+              <property role="TrG5h" value="get" />
+              <node concept="37vLTG" id="25OQfQHSq6c" role="3clF46">
+                <property role="TrG5h" value="element" />
+                <node concept="3uibUv" id="25OQfQHSsYK" role="1tU5fm">
+                  <ref role="3uigEE" to="b0pz:~JavaModuleFacet" resolve="JavaModuleFacet" />
+                </node>
+              </node>
+              <node concept="17QB3L" id="25OQfQHSq6e" role="3clF45" />
+              <node concept="3Tm1VV" id="25OQfQHSq6f" role="1B3o_S" />
+              <node concept="3clFbS" id="25OQfQHSq6g" role="3clF47">
+                <node concept="3clFbF" id="25OQfQHSq6h" role="3cqZAp">
+                  <node concept="2OqwBi" id="25OQfQHSq6i" role="3clFbG">
+                    <node concept="37vLTw" id="25OQfQHSq6j" role="2Oq$k0">
+                      <ref role="3cqZAo" node="25OQfQHSq6c" resolve="element" />
+                    </node>
+                    <node concept="1B$H19" id="25OQfQHStRx" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="25OQfQHSTRK" role="3cqZAp">
+                  <node concept="1PaTwC" id="25OQfQHSTRL" role="1aUNEU">
+                    <node concept="3oM_SD" id="25OQfQHSUkn" role="1PaTwD">
+                      <property role="3oM_SC" value="TODO" />
+                    </node>
+                    <node concept="3oM_SD" id="25OQfQHSUks" role="1PaTwD">
+                      <property role="3oM_SC" value="https://github.com/JetBrains/MPS/blob/2820965ff7b8836ed1d14adaf1bde29744c88147/core/project/source/jetbrains/mps/project/facets/JavaModuleFacetImpl.java" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2AHcQZ" id="25OQfQHSq6l" role="2AJF6D">
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+              </node>
+            </node>
+            <node concept="2tJIrI" id="25OQfQHSq6m" role="jymVt" />
+            <node concept="3uibUv" id="25OQfQHSsCP" role="2Ghqu4">
+              <ref role="3uigEE" to="b0pz:~JavaModuleFacet" resolve="JavaModuleFacet" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="25OQfQHSpda" role="jymVt" />
+    <node concept="2tJIrI" id="25OQfQHSpgL" role="jymVt" />
     <node concept="3clFbW" id="4bf8ZXPcS7A" role="jymVt">
       <node concept="3cqZAl" id="4bf8ZXPcS7B" role="3clF45" />
       <node concept="3Tm1VV" id="4bf8ZXPcS7C" role="1B3o_S" />
@@ -28655,6 +28719,66 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="25OQfQHS5VS" role="jymVt">
+      <property role="TrG5h" value="getPropertyAccessor" />
+      <node concept="37vLTG" id="25OQfQHS5VT" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="25OQfQHS5VU" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="25OQfQHS5VV" role="3clF45">
+        <ref role="3uigEE" node="qmkA5fP_R1" resolve="TreeElementAsNode.IPropertyAccessor" />
+        <node concept="3uibUv" id="25OQfQHS5Wl" role="11_B2D">
+          <ref role="3uigEE" to="b0pz:~JavaModuleFacet" resolve="JavaModuleFacet" />
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="25OQfQHS5VX" role="1B3o_S" />
+      <node concept="3clFbS" id="25OQfQHS5Wm" role="3clF47">
+        <node concept="3clFbJ" id="25OQfQHS8y4" role="3cqZAp">
+          <node concept="3clFbS" id="25OQfQHS8y6" role="3clFbx">
+            <node concept="3cpWs6" id="25OQfQHSiUj" role="3cqZAp">
+              <node concept="33vP2n" id="25OQfQHSiUm" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="17R0WA" id="25OQfQHSa9d" role="3clFbw">
+            <node concept="37vLTw" id="25OQfQHS9es" role="3uHU7B">
+              <ref role="3cqZAo" node="25OQfQHS5VT" resolve="role" />
+            </node>
+            <node concept="355D3s" id="25OQfQHSemB" role="3uHU7w">
+              <ref role="355D3t" to="jh6v:1UvRDkPap5A" resolve="JavaModuleFacet" />
+              <ref role="355D3u" to="jh6v:1UvRDkPap5B" resolve="generated" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="25OQfQHSgwO" role="3cqZAp">
+          <node concept="3clFbS" id="25OQfQHSgwP" role="3clFbx">
+            <node concept="3cpWs6" id="25OQfQHSi5v" role="3cqZAp">
+              <node concept="33vP2n" id="25OQfQHSi5y" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="17R0WA" id="25OQfQHSgwR" role="3clFbw">
+            <node concept="37vLTw" id="25OQfQHSgwS" role="3uHU7B">
+              <ref role="3cqZAo" node="25OQfQHS5VT" resolve="role" />
+            </node>
+            <node concept="355D3s" id="25OQfQHSgwT" role="3uHU7w">
+              <ref role="355D3t" to="jh6v:1UvRDkPap5A" resolve="JavaModuleFacet" />
+              <ref role="355D3u" to="jh6v:1UvRDkPap5D" resolve="path" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="25OQfQHS5Wq" role="3cqZAp">
+          <node concept="3nyPlj" id="25OQfQHS5Wp" role="3clFbG">
+            <ref role="37wK5l" node="qmkA5fQ9uX" resolve="getPropertyAccessor" />
+            <node concept="37vLTw" id="25OQfQHS5Wo" role="37wK5m">
+              <ref role="3cqZAo" node="25OQfQHS5VT" resolve="role" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="25OQfQHS5Wn" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="25OQfQHRWFj" role="jymVt" />
     <node concept="3clFb_" id="4bf8ZXPcIaa" role="jymVt">
       <property role="TrG5h" value="getRoleInParent" />
       <node concept="3Tm1VV" id="4bf8ZXPcIab" role="1B3o_S" />
@@ -31816,6 +31940,51 @@
       </node>
     </node>
     <node concept="2tJIrI" id="25OQfQHQeLf" role="jymVt" />
+  </node>
+  <node concept="312cEu" id="25OQfQHSuLG">
+    <property role="3GE5qa" value="treeAdapters" />
+    <property role="TrG5h" value="ReadOnlyPropertyAccessor" />
+    <property role="1sVAO0" value="true" />
+    <node concept="3Tm1VV" id="25OQfQHSuLH" role="1B3o_S" />
+    <node concept="16euLQ" id="25OQfQHSuMx" role="16eVyc">
+      <property role="TrG5h" value="E" />
+    </node>
+    <node concept="3uibUv" id="25OQfQHSwep" role="EKbjA">
+      <ref role="3uigEE" node="qmkA5fP_R1" resolve="TreeElementAsNode.IPropertyAccessor" />
+      <node concept="16syzq" id="25OQfQHSwfa" role="11_B2D">
+        <ref role="16sUi3" node="25OQfQHSuMx" resolve="E" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="25OQfQHSwhm" role="jymVt">
+      <property role="TrG5h" value="set" />
+      <node concept="37vLTG" id="25OQfQHSwhn" role="3clF46">
+        <property role="TrG5h" value="element" />
+        <node concept="16syzq" id="25OQfQHSwhu" role="1tU5fm">
+          <ref role="16sUi3" node="25OQfQHSuMx" resolve="E" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="25OQfQHSwhp" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="17QB3L" id="25OQfQHSwhq" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="25OQfQHSwhr" role="3clF45" />
+      <node concept="3Tm1VV" id="25OQfQHSxXD" role="1B3o_S" />
+      <node concept="3clFbS" id="25OQfQHSwhv" role="3clF47">
+        <node concept="YS8fn" id="25OQfQHSwAa" role="3cqZAp">
+          <node concept="2ShNRf" id="25OQfQHSwEb" role="YScLw">
+            <node concept="1pGfFk" id="25OQfQHSxwi" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+              <node concept="Xl_RD" id="25OQfQHSxCi" role="37wK5m">
+                <property role="Xl_RC" value="This property is readonly" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="25OQfQHSwhw" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
 </model>
 

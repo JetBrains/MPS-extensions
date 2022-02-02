@@ -269,16 +269,6 @@
     <property role="TrG5h" value="DevKit" />
     <ref role="1TJDcQ" node="qmkA5fOskf" resolve="Module" />
   </node>
-  <node concept="1TIwiD" id="3DfUugBU39$">
-    <property role="EcuMT" value="4201834143491306084" />
-    <property role="TrG5h" value="ProjectModule" />
-    <ref role="1TJDcQ" node="5100827Ptfk" resolve="ModuleReference" />
-    <node concept="1TJgyi" id="3DfUugBU39_" role="1TKVEl">
-      <property role="IQ2nx" value="4201834143491306085" />
-      <property role="TrG5h" value="virtualFolder" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1UvRDkPap5z">
     <property role="EcuMT" value="2206727074858242403" />
     <property role="TrG5h" value="ModuleFacet" />
@@ -329,11 +319,6 @@
       <property role="TrG5h" value="version" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="1UvRDkPcl9K" role="1TKVEl">
-      <property role="IQ2nx" value="2206727074858750576" />
-      <property role="TrG5h" value="reexport" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1UvRDkPap5X">
     <property role="EcuMT" value="2206727074858242429" />
@@ -353,6 +338,16 @@
       <property role="IQ2nx" value="2206727074858242435" />
       <property role="TrG5h" value="version" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3DfUugBU39$">
+    <property role="EcuMT" value="4201834143491306084" />
+    <property role="TrG5h" value="ProjectModule" />
+    <ref role="1TJDcQ" node="5100827Ptfk" resolve="ModuleReference" />
+    <node concept="1TJgyi" id="3DfUugBU39_" role="1TKVEl">
+      <property role="IQ2nx" value="4201834143491306085" />
+      <property role="TrG5h" value="virtualFolder" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

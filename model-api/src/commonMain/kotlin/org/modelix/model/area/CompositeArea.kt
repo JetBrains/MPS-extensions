@@ -61,13 +61,19 @@ class CompositeArea : IArea {
         return listOf(this) + areas.flatMap { it.collectAreas() }
     }
 
+    fun flatten(): List<IArea> {
+        return this.areas.flatMap { if (it is CompositeArea) it.flatten() else listOf(it) }
+    }
+
     override fun <T> executeRead(f: () -> T): T {
-        return ContextArea.offer(this) { areas.fold(f) { f2: () -> T, a: IArea -> { a.executeRead(f2) } }() }
+        return ContextArea.offer(this) { lockOrdering().fold(f) { f2: () -> T, a: IArea -> { a.executeRead(f2) } }() }
     }
 
     override fun <T> executeWrite(f: () -> T): T {
-        return ContextArea.offer(this) { areas.fold(f) { f2: () -> T, a: IArea -> { a.executeWrite(f2) } }() }
+        return ContextArea.offer(this) { lockOrdering().fold(f) { f2: () -> T, a: IArea -> { a.executeWrite(f2) } }() }
     }
+
+    private fun lockOrdering() = flatten().sortedBy { it.getLockOrderingPriority() }
 
     override fun canRead(): Boolean = areas.all { it.canRead() }
 

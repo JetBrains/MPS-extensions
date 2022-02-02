@@ -4870,6 +4870,22 @@
                 <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
               </node>
             </node>
+            <node concept="2tJIrI" id="6eCobXxMuzQ" role="jymVt" />
+            <node concept="3clFb_" id="6eCobXxMiVI" role="jymVt">
+              <property role="TrG5h" value="getLockOrderingPriority" />
+              <node concept="3Tm1VV" id="6eCobXxMiVJ" role="1B3o_S" />
+              <node concept="3cpWsb" id="6eCobXxMiVL" role="3clF45" />
+              <node concept="3clFbS" id="6eCobXxMiVN" role="3clF47">
+                <node concept="3clFbF" id="6eCobXxMusl" role="3cqZAp">
+                  <node concept="1adDum" id="6eCobXxMusk" role="3clFbG">
+                    <property role="1adDun" value="0L" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2AHcQZ" id="6eCobXxMiVO" role="2AJF6D">
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

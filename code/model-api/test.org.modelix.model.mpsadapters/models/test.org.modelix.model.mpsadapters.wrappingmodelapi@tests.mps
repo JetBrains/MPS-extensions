@@ -172,8 +172,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -219,38 +229,42 @@
         </node>
       </node>
     </node>
-    <node concept="1LZb2c" id="7g5FWGK2khC" role="1SL9yI">
-      <property role="TrG5h" value="path" />
-      <node concept="3cqZAl" id="7g5FWGK2khD" role="3clF45" />
-      <node concept="3clFbS" id="7g5FWGK2khE" role="3clF47">
-        <node concept="1QHqEK" id="7g5FWGK2khF" role="3cqZAp">
-          <node concept="1QHqEC" id="7g5FWGK2khG" role="1QHqEI">
-            <node concept="3clFbS" id="7g5FWGK2khH" role="1bW5cS">
-              <node concept="3vlDli" id="7g5FWGK2khI" role="3cqZAp">
-                <node concept="Xl_RD" id="7g5FWGK2khJ" role="3tpDZB">
-                  <property role="Xl_RC" value="${module}/classes_gen" />
-                </node>
-                <node concept="2OqwBi" id="7g5FWGK2khK" role="3tpDZA">
-                  <node concept="2OqwBi" id="7g5FWGK2khL" role="2Oq$k0">
-                    <node concept="2WthIp" id="7g5FWGK2khM" role="2Oq$k0" />
-                    <node concept="2XshWL" id="7g5FWGK2khN" role="2OqNvi">
-                      <ref role="2WH_rO" node="7g5FWGK2iDo" resolve="getJavaFacetINode" />
-                    </node>
+    <node concept="1X3_iC" id="7g5FWGKf_vo" role="lGtFl">
+      <property role="3V$3am" value="testMethods" />
+      <property role="3V$3ak" value="8585453e-6bfb-4d80-98de-b16074f1d86c/1216913645126/1217501895093" />
+      <node concept="1LZb2c" id="7g5FWGK2khC" role="8Wnug">
+        <property role="TrG5h" value="path" />
+        <node concept="3cqZAl" id="7g5FWGK2khD" role="3clF45" />
+        <node concept="3clFbS" id="7g5FWGK2khE" role="3clF47">
+          <node concept="1QHqEK" id="7g5FWGK2khF" role="3cqZAp">
+            <node concept="1QHqEC" id="7g5FWGK2khG" role="1QHqEI">
+              <node concept="3clFbS" id="7g5FWGK2khH" role="1bW5cS">
+                <node concept="3vlDli" id="7g5FWGK2khI" role="3cqZAp">
+                  <node concept="Xl_RD" id="7g5FWGK2khJ" role="3tpDZB">
+                    <property role="Xl_RC" value="${module}/classes_gen" />
                   </node>
-                  <node concept="liA8E" id="7g5FWGK2khO" role="2OqNvi">
-                    <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
-                    <node concept="Xl_RD" id="7g5FWGK2khP" role="37wK5m">
-                      <property role="Xl_RC" value="path" />
+                  <node concept="2OqwBi" id="7g5FWGK2khK" role="3tpDZA">
+                    <node concept="2OqwBi" id="7g5FWGK2khL" role="2Oq$k0">
+                      <node concept="2WthIp" id="7g5FWGK2khM" role="2Oq$k0" />
+                      <node concept="2XshWL" id="7g5FWGK2khN" role="2OqNvi">
+                        <ref role="2WH_rO" node="7g5FWGK2iDo" resolve="getJavaFacetINode" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="7g5FWGK2khO" role="2OqNvi">
+                      <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
+                      <node concept="Xl_RD" id="7g5FWGK2khP" role="37wK5m">
+                        <property role="Xl_RC" value="path" />
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="2OqwBi" id="7g5FWGK2khQ" role="ukAjM">
-            <node concept="1jxXqW" id="7g5FWGK2khR" role="2Oq$k0" />
-            <node concept="liA8E" id="7g5FWGK2khS" role="2OqNvi">
-              <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+            <node concept="2OqwBi" id="7g5FWGK2khQ" role="ukAjM">
+              <node concept="1jxXqW" id="7g5FWGK2khR" role="2Oq$k0" />
+              <node concept="liA8E" id="7g5FWGK2khS" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+              </node>
             </node>
           </node>
         </node>

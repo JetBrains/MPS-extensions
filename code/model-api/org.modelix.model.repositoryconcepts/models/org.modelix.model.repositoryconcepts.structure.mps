@@ -92,7 +92,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="usedLanguages" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4$UNf1h8MVy" resolve="UsedModule" />
+      <ref role="20lvS9" node="1UvRDkPap5X" resolve="LanguageDependency" />
     </node>
     <node concept="PrWs8" id="qmkA5fOskd" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -232,26 +232,6 @@
       <property role="20kJfa" value="tempModules" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="qmkA5fOskf" resolve="Module" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4$UNf1h8MVy">
-    <property role="EcuMT" value="5276755245943434978" />
-    <property role="TrG5h" value="UsedModule" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="4$UNf1h8MXr" role="1TKVEl">
-      <property role="IQ2nx" value="5276755245943435099" />
-      <property role="TrG5h" value="id" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="4$UNf1h8MXt" role="1TKVEl">
-      <property role="IQ2nx" value="5276755245943435101" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="1UvRDkPclah" role="1TKVEl">
-      <property role="IQ2nx" value="2206727074858750609" />
-      <property role="TrG5h" value="version" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6nwO_ZKkI83">

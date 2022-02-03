@@ -250,12 +250,6 @@
           <property role="3MwjfP" value="de.itemis.mps.extensions.build" />
         </node>
       </node>
-      <node concept="2pNNFK" id="v49lXF83y5" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF83D4" role="3o6s8t">
-          <property role="3o6i5n" value="Contains the build solution of all MPS Extensions; necessary if you want to do command line builds of languages that use an MPS Extension." />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCC4SZ" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -263,6 +257,12 @@
       <node concept="3_J27D" id="2QgPOUCC65w" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCC6cv" role="3MwsjC">
           <property role="3MwjfP" value="Contains the build solution of all MPS Extensions; necessary if you want to do command line builds of languages that use an MPS Extension." />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="v49lXF83y5" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF83D4" role="3o6s8t">
+          <property role="3o6i5n" value="Contains the build solution of all MPS Extensions; necessary if you want to do command line builds of languages that use an MPS Extension." />
         </node>
       </node>
     </node>
@@ -373,15 +373,15 @@
           <property role="3MwjfP" value="Language to use native libraries in MPS" />
         </node>
       </node>
+      <node concept="2iUeEo" id="2QgPOUCCCeZ" role="2iVFfd">
+        <property role="2iUeEt" value="Itemis" />
+        <property role="2iUeEu" value="https://www.itemis.com/" />
+      </node>
       <node concept="2pNNFK" id="v49lXF83K3" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF83R2" role="3o6s8t">
           <property role="3o6i5n" value="Language to use native libraries in MPS" />
         </node>
-      </node>
-      <node concept="2iUeEo" id="2QgPOUCCCeZ" role="2iVFfd">
-        <property role="2iUeEt" value="Itemis" />
-        <property role="2iUeEu" value="https://www.itemis.com/" />
       </node>
     </node>
     <node concept="2G$12M" id="2H_mjOXwd9K" role="3989C9">
@@ -516,15 +516,15 @@
           <property role="3MwjfP" value="Runtime for native libs in MPS" />
         </node>
       </node>
+      <node concept="2iUeEo" id="2QgPOUCCCzS" role="2iVFfd">
+        <property role="2iUeEt" value="Itemis" />
+        <property role="2iUeEu" value="https://www.itemis.com/" />
+      </node>
       <node concept="2pNNFK" id="v49lXF83Y1" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF8450" role="3o6s8t">
           <property role="3o6i5n" value="Runtime for native libs in MPS" />
         </node>
-      </node>
-      <node concept="2iUeEo" id="2QgPOUCCCzS" role="2iVFfd">
-        <property role="2iUeEt" value="Itemis" />
-        <property role="2iUeEu" value="https://www.itemis.com/" />
       </node>
     </node>
     <node concept="2G$12M" id="2H_mjOXy9SK" role="3989C9">
@@ -650,15 +650,15 @@
         <property role="2iUeEt" value="Apache Foundation" />
         <property role="2iUeEu" value="https://commons.apache.org/math" />
       </node>
+      <node concept="3_J27D" id="2QgPOUCCCSL" role="3s6cr7">
+        <node concept="3Mxwew" id="2QgPOUCCCSN" role="3MwsjC">
+          <property role="3MwjfP" value="JARs and their stubs to use Apache Commons Library in MPS" />
+        </node>
+      </node>
       <node concept="2pNNFK" id="v49lXF84bZ" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF84iY" role="3o6s8t">
           <property role="3o6i5n" value="JARs and their stubs to use Apache Commons Library in MPS" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="2QgPOUCCCSL" role="3s6cr7">
-        <node concept="3Mxwew" id="2QgPOUCCCSN" role="3MwsjC">
-          <property role="3MwjfP" value="JARs and their stubs to use Apache Commons Library in MPS" />
         </node>
       </node>
     </node>
@@ -940,15 +940,15 @@
       <node concept="m$f5U" id="HjfIy1w$SM" role="m$_yh">
         <ref role="m$f5T" node="3$A0JaN5ae8" resolve="jackson" />
       </node>
+      <node concept="2iUeEo" id="3$A0JaN5j9p" role="2iVFfd">
+        <property role="2iUeEu" value="https://github.com/FasterXML/jackson" />
+        <property role="2iUeEt" value="Jackson Project" />
+      </node>
       <node concept="2pNNFK" id="3$A0JaN5irv" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="3$A0JaN5j1I" role="3o6s8t">
           <property role="3o6i5n" value="JARs and Stubs for using Jackson Json Serialization" />
         </node>
-      </node>
-      <node concept="2iUeEo" id="3$A0JaN5j9p" role="2iVFfd">
-        <property role="2iUeEu" value="https://github.com/FasterXML/jackson" />
-        <property role="2iUeEt" value="Jackson Project" />
       </node>
     </node>
     <node concept="2G$12M" id="3$A0JaN5ae8" role="3989C9">
@@ -1008,12 +1008,6 @@
     </node>
     <node concept="m$_wf" id="31bAEZ0srEa" role="3989C9">
       <property role="m$_wk" value="de.slisson.mps.editor.multiline" />
-      <node concept="2pNNFK" id="5LEeV$4fWU$" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="5LEeV$4fWU_" role="3o6s8t">
-          <property role="3o6i5n" value="An editor component for properties that supports wrapping of long lines and new lines by pressing ENTER." />
-        </node>
-      </node>
       <node concept="3_J27D" id="31bAEZ0srEb" role="m$_yQ">
         <node concept="3Mxwew" id="31bAEZ0srEc" role="3MwsjC">
           <property role="3MwjfP" value="MPS Multiline Property Editor Component" />
@@ -1051,6 +1045,12 @@
       <node concept="3_J27D" id="2QgPOUCCCZM" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCCZO" role="3MwsjC">
           <property role="3MwjfP" value="An editor component for properties that supports wrapping of long lines and new lines by pressing ENTER." />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="5LEeV$4fWU$" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="5LEeV$4fWU_" role="3o6s8t">
+          <property role="3o6i5n" value="An editor component for properties that supports wrapping of long lines and new lines by pressing ENTER." />
         </node>
       </node>
     </node>
@@ -1334,12 +1334,6 @@
     </node>
     <node concept="m$_wf" id="1sO539bGQvt" role="3989C9">
       <property role="m$_wk" value="de.slisson.mps.richtext" />
-      <node concept="2pNNFK" id="5LEeV$4fXaC" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="5LEeV$4fXaD" role="3o6s8t">
-          <property role="3o6i5n" value="An editor component for mixing plain text and MPS nodes" />
-        </node>
-      </node>
       <node concept="m$_yC" id="3IBdWhDPhz8" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
@@ -1380,6 +1374,12 @@
       <node concept="3_J27D" id="2QgPOUCCD6N" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCDdM" role="3MwsjC">
           <property role="3MwjfP" value="An editor component for mixing plain text and MPS nodes" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="5LEeV$4fXaC" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="5LEeV$4fXaD" role="3o6s8t">
+          <property role="3o6i5n" value="An editor component for mixing plain text and MPS nodes" />
         </node>
       </node>
     </node>
@@ -1713,15 +1713,15 @@
         <property role="2iUeEt" value="itemis AG" />
         <property role="2iUeEu" value="https://github.com/slisson/mps-all" />
       </node>
+      <node concept="3_J27D" id="2QgPOUCCDkL" role="3s6cr7">
+        <node concept="3Mxwew" id="2QgPOUCCDkN" role="3MwsjC">
+          <property role="3MwjfP" value="A library of widgets (checkbox, dropdown, etc.) that can be used in MPS editors" />
+        </node>
+      </node>
       <node concept="2pNNFK" id="v49lXF84pX" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF84wW" role="3o6s8t">
           <property role="3o6i5n" value="A library of widgets (checkbox, dropdown, etc.) that can be used in MPS editors" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="2QgPOUCCDkL" role="3s6cr7">
-        <node concept="3Mxwew" id="2QgPOUCCDkN" role="3MwsjC">
-          <property role="3MwjfP" value="A library of widgets (checkbox, dropdown, etc.) that can be used in MPS editors" />
         </node>
       </node>
     </node>
@@ -2750,15 +2750,15 @@
         <property role="2iUeEt" value="itemis AG" />
         <property role="2iUeEu" value="https://github.com/slisson/mps-math" />
       </node>
+      <node concept="3_J27D" id="2QgPOUCCDrM" role="3s6cr7">
+        <node concept="3Mxwew" id="2QgPOUCCDrO" role="3MwsjC">
+          <property role="3MwjfP" value="Mathematical notation for MPS Editors" />
+        </node>
+      </node>
       <node concept="2pNNFK" id="v49lXF84BV" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF84IU" role="3o6s8t">
           <property role="3o6i5n" value="Mathematical notation for MPS Editors" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="2QgPOUCCDrM" role="3s6cr7">
-        <node concept="3Mxwew" id="2QgPOUCCDrO" role="3MwsjC">
-          <property role="3MwjfP" value="Mathematical notation for MPS Editors" />
         </node>
       </node>
     </node>
@@ -3267,15 +3267,15 @@
         <property role="2iUeEt" value="Sascha Lisson" />
         <property role="2iUeEu" value="https://github.com/slisson/mps-tables" />
       </node>
+      <node concept="3_J27D" id="2QgPOUCCDyN" role="3s6cr7">
+        <node concept="3Mxwew" id="2QgPOUCCDyP" role="3MwsjC">
+          <property role="3MwjfP" value="Tabular notation for MPS editors" />
+        </node>
+      </node>
       <node concept="2pNNFK" id="v49lXF84PT" role="20twgj">
         <property role="2pNNFO" value="description" />
         <node concept="3o6iSG" id="v49lXF84WS" role="3o6s8t">
           <property role="3o6i5n" value="Tabular notation for MPS editors" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="2QgPOUCCDyN" role="3s6cr7">
-        <node concept="3Mxwew" id="2QgPOUCCDyP" role="3MwsjC">
-          <property role="3MwjfP" value="Tabular notation for MPS editors" />
         </node>
       </node>
     </node>
@@ -3608,12 +3608,6 @@
     </node>
     <node concept="m$_wf" id="6Y0V2RJk3uw" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.selection" />
-      <node concept="2pNNFK" id="5LEeV$4fW8s" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="5LEeV$4fWUl" role="3o6s8t">
-          <property role="3o6i5n" value="With this plugin you can select nodes in MPS using the mouse. It allows invoking intentions over a selection of nodes in an nlist" />
-        </node>
-      </node>
       <node concept="3_J27D" id="6Y0V2RJk3ux" role="m$_yQ">
         <node concept="3Mxwew" id="6Y0V2RJk3uy" role="3MwsjC">
           <property role="3MwjfP" value="Mouse Selection Support" />
@@ -3642,6 +3636,12 @@
       <node concept="3_J27D" id="2QgPOUCCDDO" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCDDQ" role="3MwsjC">
           <property role="3MwjfP" value="With this plugin you can select nodes in MPS using the mouse. It allows invoking intentions over a selection of nodes in an nlist" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="5LEeV$4fW8s" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="5LEeV$4fWUl" role="3o6s8t">
+          <property role="3o6i5n" value="With this plugin you can select nodes in MPS using the mouse. It allows invoking intentions over a selection of nodes in an nlist" />
         </node>
       </node>
     </node>
@@ -3889,12 +3889,6 @@
           <property role="3MwjfP" value="de.slisson.mps.conditionalEditor" />
         </node>
       </node>
-      <node concept="2pNNFK" id="v49lXF853R" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF85aQ" role="3o6s8t">
-          <property role="3o6i5n" value="A conditional editor is almost like an aspect. It can be applied &quot;around&quot; existing editor, and whether it applies or not is determined by a condition and the applicable concept (similar to a pointcut in AO). Using this approach, it is now possible to essentially decorate any editor with any decoration based on arbitrary conditions." />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCCMIR" role="2iVFfd">
         <property role="2iUeEt" value="Sascha Lisson" />
         <property role="2iUeEu" value="https://github.com/slisson/mps-conditional-editor" />
@@ -3902,6 +3896,12 @@
       <node concept="3_J27D" id="2QgPOUCCMwT" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCMBS" role="3MwsjC">
           <property role="3MwjfP" value="A conditional editor is almost like an aspect. It can be applied &quot;around&quot; existing editor, and whether it applies or not is determined by a condition and the applicable concept (similar to a pointcut in AO). Using this approach, it is now possible to essentially decorate any editor with any decoration based on arbitrary conditions." />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="v49lXF853R" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF85aQ" role="3o6s8t">
+          <property role="3o6i5n" value="A conditional editor is almost like an aspect. It can be applied &quot;around&quot; existing editor, and whether it applies or not is determined by a condition and the applicable concept (similar to a pointcut in AO). Using this approach, it is now possible to essentially decorate any editor with any decoration based on arbitrary conditions." />
         </node>
       </node>
     </node>
@@ -4251,12 +4251,6 @@
           <property role="3MwjfP" value="de.slisson.mps.hacks" />
         </node>
       </node>
-      <node concept="2pNNFK" id="v49lXF85hP" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF85oO" role="3o6s8t">
-          <property role="3o6i5n" value="Various small extensions: editor utilities, generation plan extensions for better cross-model generation, reflection language (deprecated)" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDbqm" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -4264,6 +4258,12 @@
       <node concept="3_J27D" id="2QgPOUCDbX9" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCDc48" role="3MwsjC">
           <property role="3MwjfP" value="Various small extensions: editor utilities, generation plan extensions for better cross-model generation, reflection language (deprecated)" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="v49lXF85hP" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF85oO" role="3o6s8t">
+          <property role="3o6i5n" value="Various small extensions: editor utilities, generation plan extensions for better cross-model generation, reflection language (deprecated)" />
         </node>
       </node>
     </node>
@@ -4724,12 +4724,6 @@
           <property role="3MwjfP" value="de.itemis.mps.editor.diagram" />
         </node>
       </node>
-      <node concept="2pNNFK" id="v49lXF85vN" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF85AM" role="3o6s8t">
-          <property role="3o6i5n" value="Diagrammatic notation for MPS editors" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDcb7" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -4737,6 +4731,12 @@
       <node concept="3_J27D" id="2QgPOUCDcw0" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCDcAZ" role="3MwsjC">
           <property role="3MwjfP" value="Diagrammatic notation for MPS editors" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="v49lXF85vN" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF85AM" role="3o6s8t">
+          <property role="3o6i5n" value="Diagrammatic notation for MPS editors" />
         </node>
       </node>
     </node>
@@ -5557,12 +5557,6 @@
           <property role="3MwjfP" value="de.itemis.mps.tooltips" />
         </node>
       </node>
-      <node concept="2pNNFK" id="v49lXF85HL" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF85OK" role="3o6s8t">
-          <property role="3o6i5n" value="MPS editor extension to show tooltips at certain parts in the editor" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDcVW" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -5570,6 +5564,12 @@
       <node concept="3_J27D" id="2QgPOUCDcHY" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCDcOX" role="3MwsjC">
           <property role="3MwjfP" value="MPS editor extension to show tooltips at certain parts in the editor" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="v49lXF85HL" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF85OK" role="3o6s8t">
+          <property role="3o6i5n" value="MPS editor extension to show tooltips at certain parts in the editor" />
         </node>
       </node>
     </node>
@@ -5838,12 +5838,6 @@
       <node concept="m$_yC" id="6SVXTgIenog" role="m$_yJ">
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
-      <node concept="2pNNFK" id="v49lXF85VJ" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF862I" role="3o6s8t">
-          <property role="3o6i5n" value="Various additional styling functionality (push, overflow, etc.) in addition to the existing MPS styling" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDdVC" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -5851,6 +5845,12 @@
       <node concept="3_J27D" id="2QgPOUCDdgP" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCDdnO" role="3MwsjC">
           <property role="3MwjfP" value="Various additional styling functionality (push, overflow, etc.) in addition to the existing MPS styling" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="v49lXF85VJ" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF862I" role="3o6s8t">
+          <property role="3o6i5n" value="Various additional styling functionality (push, overflow, etc.) in addition to the existing MPS styling" />
         </node>
       </node>
     </node>
@@ -6217,12 +6217,6 @@
       <node concept="m$_yC" id="2NyZxKpV2nh" role="m$_yJ">
         <ref role="m$_y1" node="1sO539bGQvt" resolve="de.slisson.mps.richtext" />
       </node>
-      <node concept="2pNNFK" id="v49lXF869H" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF86gG" role="3o6s8t">
-          <property role="3o6i5n" value="Various baseLanguage extension utitlities such as map-reduce, type-switch, documentation, dispatch, concept, switch, etc." />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDeur" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -6230,6 +6224,12 @@
       <node concept="3_J27D" id="2QgPOUCDff8" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCDfm7" role="3MwsjC">
           <property role="3MwjfP" value="Various baseLanguage extension utitlities such as map-reduce, type-switch, documentation, dispatch, concept, switch, etc." />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="v49lXF869H" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF86gG" role="3o6s8t">
+          <property role="3o6i5n" value="Various baseLanguage extension utitlities such as map-reduce, type-switch, documentation, dispatch, concept, switch, etc." />
         </node>
       </node>
     </node>
@@ -6759,12 +6759,6 @@
       <node concept="m$_yC" id="6860Y5A054l" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="2pNNFK" id="v49lXF86nF" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF86uE" role="3o6s8t">
-          <property role="3o6i5n" value="Various MPS utilities, such as nodeversioning, serializer, and modelmerger" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDft6" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -6779,6 +6773,12 @@
       </node>
       <node concept="m$_yC" id="5zr7Q_1BGYQ" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
+      </node>
+      <node concept="2pNNFK" id="v49lXF86nF" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF86uE" role="3o6s8t">
+          <property role="3o6i5n" value="Various MPS utilities, such as nodeversioning, serializer, and modelmerger" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="6860Y5_ZZT3" role="3989C9">
@@ -7726,12 +7726,6 @@
       <node concept="m$f5U" id="F1NWDqr$sA" role="m$_yh">
         <ref role="m$f5T" node="F1NWDqqg8j" resolve="de.itemis.mps.grammarcells" />
       </node>
-      <node concept="2pNNFK" id="v49lXF86_D" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF86GC" role="3o6s8t">
-          <property role="3o6i5n" value="A grammar-like abstraction for writing editors for textual patterns such as flags, operations, parentheses, etc. Specifying a grammar cell is compact but has enough semantic richness to automatically generate actions (wrappers, side-transforms, substitutions, and delete actions) for the pattern you specified in the grammar cell." />
-        </node>
-      </node>
       <node concept="2iUeEo" id="2QgPOUCDgdR" role="2iVFfd">
         <property role="2iUeEt" value="Itemis" />
         <property role="2iUeEu" value="https://www.itemis.com/" />
@@ -7739,6 +7733,12 @@
       <node concept="3_J27D" id="2QgPOUCDgKE" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCDgRD" role="3MwsjC">
           <property role="3MwjfP" value="A grammar-like abstraction for writing editors for textual patterns such as flags, operations, parentheses, etc. Specifying a grammar cell is compact but has enough semantic richness to automatically generate actions (wrappers, side-transforms, substitutions, and delete actions) for the pattern you specified in the grammar cell." />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="v49lXF86_D" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF86GC" role="3o6s8t">
+          <property role="3o6i5n" value="A grammar-like abstraction for writing editors for textual patterns such as flags, operations, parentheses, etc. Specifying a grammar cell is compact but has enough semantic richness to automatically generate actions (wrappers, side-transforms, substitutions, and delete actions) for the pattern you specified in the grammar cell." />
         </node>
       </node>
     </node>
@@ -8641,12 +8641,6 @@
       <node concept="m$_yC" id="BRK1N8p1FS" role="m$_yJ">
         <ref role="m$_y1" node="4iIKqJTZ5I8" resolve="de.q60.shadowmodels" />
       </node>
-      <node concept="2pNNFK" id="v49lXF880k" role="20twgj">
-        <property role="2pNNFO" value="description" />
-        <node concept="3o6iSG" id="v49lXF887j" role="3o6s8t">
-          <property role="3o6i5n" value="Set of examples for the de.q60.shadowmodels plugin" />
-        </node>
-      </node>
       <node concept="2iUeEo" id="v49lXF87fz" role="2iVFfd">
         <property role="2iUeEt" value="Sascha Lisson" />
         <property role="2iUeEu" value="http://q60.de/" />
@@ -8658,6 +8652,12 @@
       </node>
       <node concept="m$_yC" id="5U8hsWC7iqY" role="m$_yJ">
         <ref role="m$_y1" node="5U8hsWC762L" resolve="org.modelix.model.api" />
+      </node>
+      <node concept="2pNNFK" id="v49lXF880k" role="20twgj">
+        <property role="2pNNFO" value="description" />
+        <node concept="3o6iSG" id="v49lXF887j" role="3o6s8t">
+          <property role="3o6i5n" value="Set of examples for the de.q60.shadowmodels plugin" />
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="4iIKqJTZ5I7" role="3989C9">
@@ -11212,9 +11212,9 @@
     <node concept="2G$12M" id="2OJNL7ElSUK" role="3989C9">
       <property role="TrG5h" value="de.q60.mps.libs" />
       <node concept="1E1JtA" id="6fQhGuklQWU" role="2G$12L">
-        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.libs" />
         <property role="3LESm3" value="ecfb9949-7433-4db5-85de-0f84d172e4ce" />
+        <property role="BnDLt" value="true" />
         <node concept="398BVA" id="6fQhGuklR81" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="6fQhGuklRkp" role="iGT6I">
@@ -13128,9 +13128,6 @@
             </node>
           </node>
         </node>
-        <node concept="1E0d5M" id="24ObHxTrEo7" role="1E1XAP">
-          <ref role="1E0d5P" node="24ObHxTrBfS" resolve="com.mbeddr.mpsutil.projectview.vcs" />
-        </node>
         <node concept="1BupzO" id="4PRpvcZJNLj" role="3bR31x">
           <property role="3ZfqAx" value="languageModels" />
           <property role="1Hdu6h" value="true" />
@@ -13152,6 +13149,9 @@
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
+        </node>
+        <node concept="1E0d5M" id="24ObHxTrEo7" role="1E1XAP">
+          <ref role="1E0d5P" node="24ObHxTrBfS" resolve="com.mbeddr.mpsutil.projectview.vcs" />
         </node>
       </node>
       <node concept="1E1JtA" id="3jVbLyZDuHs" role="2G$12L">
@@ -16201,6 +16201,48 @@
         </node>
       </node>
     </node>
+    <node concept="2G$12M" id="7g5FWGK0Kfe" role="3989C9">
+      <property role="TrG5h" value="model-api-tests" />
+      <node concept="1E1JtA" id="7g5FWGK0Kzy" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="test.org.modelix.model.mpsadapters" />
+        <property role="3LESm3" value="133bdd06-b98b-47f5-8335-a48e447f9c41" />
+        <node concept="398BVA" id="7g5FWGK0KzA" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="7g5FWGK0KzG" role="iGT6I">
+            <property role="2Ry0Am" value="model-api" />
+            <node concept="2Ry0Ak" id="7g5FWGK12Ig" role="2Ry0An">
+              <property role="2Ry0Am" value="test.org.modelix.model.mpsadapters" />
+              <node concept="2Ry0Ak" id="7g5FWGK12Il" role="2Ry0An">
+                <property role="2Ry0Am" value="test.org.modelix.model.mpsadapters.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="7g5FWGK12Pw" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="7g5FWGK12Px" role="1HemKq">
+            <node concept="398BVA" id="7g5FWGK12Pi" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7g5FWGK12Pj" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="7g5FWGK12Pk" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.org.modelix.model.mpsadapters" />
+                  <node concept="2Ry0Ak" id="7g5FWGK12Pl" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7g5FWGK12Py" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2G$12M" id="4JmkJs3GrYV" role="3989C9">
       <property role="TrG5h" value="shadowmodels-tests" />
       <node concept="1E1JtA" id="4JmkJs3Gs4u" role="2G$12L">
@@ -18781,6 +18823,9 @@
       <node concept="L2wRC" id="2UnEDPCpnGv" role="39821P">
         <ref role="L2wRA" node="2UnEDPCpnjG" resolve="de.itemis.model.merge.simple.demo" />
       </node>
+      <node concept="L2wRC" id="7g5FWGK132j" role="39821P">
+        <ref role="L2wRA" node="7g5FWGK0Kzy" resolve="test.org.modelix.model.mpsadapters" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -18832,6 +18877,9 @@
       </node>
       <node concept="22LTRM" id="2UnEDPCpnHm" role="22LTRK">
         <ref role="22LTRN" node="2UnEDPCpnjG" resolve="de.itemis.model.merge.simple.demo" />
+      </node>
+      <node concept="22LTRM" id="7g5FWGK131$" role="22LTRK">
+        <ref role="22LTRN" node="7g5FWGK0Kzy" resolve="test.org.modelix.model.mpsadapters" />
       </node>
     </node>
   </node>

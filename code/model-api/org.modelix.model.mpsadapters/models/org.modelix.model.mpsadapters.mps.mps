@@ -29018,61 +29018,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbJ" id="7g5FWGKb2Cr" role="3cqZAp">
-                  <node concept="3clFbS" id="7g5FWGKb2Ct" role="3clFbx">
-                    <node concept="3clFbF" id="7g5FWGKbji$" role="3cqZAp">
-                      <node concept="37vLTI" id="7g5FWGKblqz" role="3clFbG">
-                        <node concept="2OqwBi" id="7g5FWGKbuQ1" role="37vLTx">
-                          <node concept="2OqwBi" id="7g5FWGKbr6i" role="2Oq$k0">
-                            <node concept="2OqwBi" id="7g5FWGKbo6$" role="2Oq$k0">
-                              <node concept="37vLTw" id="7g5FWGKbn8_" role="2Oq$k0">
-                                <ref role="3cqZAo" node="3wo$aVy5juk" resolve="element" />
-                              </node>
-                              <node concept="liA8E" id="7g5FWGKbqa_" role="2OqNvi">
-                                <ref role="37wK5l" to="b0pz:~JavaModuleFacet.getClassPath()" resolve="getClassPath" />
-                              </node>
-                            </node>
-                            <node concept="liA8E" id="7g5FWGKbtLU" role="2OqNvi">
-                              <ref role="37wK5l" to="33ny:~Set.iterator()" resolve="iterator" />
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="7g5FWGKbxcB" role="2OqNvi">
-                            <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
-                          </node>
-                        </node>
-                        <node concept="37vLTw" id="7g5FWGKbjiy" role="37vLTJ">
-                          <ref role="3cqZAo" node="3wo$aVy5nUN" resolve="originalPath" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="1Wc70l" id="7g5FWGKb88d" role="3clFbw">
-                    <node concept="3clFbC" id="7g5FWGKbh1u" role="3uHU7w">
-                      <node concept="3cmrfG" id="7g5FWGKbh7c" role="3uHU7w">
-                        <property role="3cmrfH" value="1" />
-                      </node>
-                      <node concept="2OqwBi" id="7g5FWGKbe9K" role="3uHU7B">
-                        <node concept="2OqwBi" id="7g5FWGKba$c" role="2Oq$k0">
-                          <node concept="37vLTw" id="7g5FWGKb9l8" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3wo$aVy5juk" resolve="element" />
-                          </node>
-                          <node concept="liA8E" id="7g5FWGKbc8_" role="2OqNvi">
-                            <ref role="37wK5l" to="b0pz:~JavaModuleFacet.getClassPath()" resolve="getClassPath" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="7g5FWGKbfS3" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~Set.size()" resolve="size" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbC" id="7g5FWGKb5MN" role="3uHU7B">
-                      <node concept="37vLTw" id="7g5FWGKb3Qa" role="3uHU7B">
-                        <ref role="3cqZAo" node="3wo$aVy5nUN" resolve="originalPath" />
-                      </node>
-                      <node concept="10Nm6u" id="7g5FWGKb6DF" role="3uHU7w" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="3cpWs8" id="3wo$aVy5TTi" role="3cqZAp">
                   <node concept="3cpWsn" id="3wo$aVy5TTl" role="3cpWs9">
                     <property role="TrG5h" value="moduleRoot" />

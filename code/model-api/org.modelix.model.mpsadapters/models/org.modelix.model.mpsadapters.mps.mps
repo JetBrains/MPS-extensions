@@ -31724,9 +31724,14 @@
               <node concept="37vLTw" id="25OQfQHQeG2" role="3uHU7w">
                 <ref role="3cqZAo" node="25OQfQHQeFF" resolve="propertyName" />
               </node>
-              <node concept="355D3s" id="25OQfQHQeG3" role="3uHU7B">
-                <ref role="355D3t" to="jh6v:1UvRDkPap5X" resolve="LanguageDependency" />
-                <ref role="355D3u" to="jh6v:1UvRDkPap60" resolve="name" />
+              <node concept="2OqwBi" id="7g5FWGK2Q5l" role="3uHU7B">
+                <node concept="355D3s" id="25OQfQHQeG3" role="2Oq$k0">
+                  <ref role="355D3t" to="jh6v:1UvRDkPap5X" resolve="LanguageDependency" />
+                  <ref role="355D3u" to="jh6v:1UvRDkPap60" resolve="name" />
+                </node>
+                <node concept="liA8E" id="7g5FWGK2Sfg" role="2OqNvi">
+                  <ref role="37wK5l" to="c17a:~SProperty.getName()" resolve="getName" />
+                </node>
               </node>
             </node>
           </node>
@@ -31755,9 +31760,14 @@
               <node concept="37vLTw" id="25OQfQHQeGp" role="3uHU7w">
                 <ref role="3cqZAo" node="25OQfQHQeFF" resolve="propertyName" />
               </node>
-              <node concept="355D3s" id="25OQfQHQeGq" role="3uHU7B">
-                <ref role="355D3t" to="jh6v:1UvRDkPap5X" resolve="LanguageDependency" />
-                <ref role="355D3u" to="jh6v:1UvRDkPap5Y" resolve="uuid" />
+              <node concept="2OqwBi" id="7g5FWGK2Ut_" role="3uHU7B">
+                <node concept="355D3s" id="25OQfQHQeGq" role="2Oq$k0">
+                  <ref role="355D3t" to="jh6v:1UvRDkPap5X" resolve="LanguageDependency" />
+                  <ref role="355D3u" to="jh6v:1UvRDkPap5Y" resolve="uuid" />
+                </node>
+                <node concept="liA8E" id="7g5FWGK2VRM" role="2OqNvi">
+                  <ref role="37wK5l" to="c17a:~SProperty.getName()" resolve="getName" />
+                </node>
               </node>
             </node>
           </node>
@@ -31772,9 +31782,14 @@
             <node concept="37vLTw" id="25OQfQHQ_9M" role="3uHU7w">
               <ref role="3cqZAo" node="25OQfQHQeFF" resolve="propertyName" />
             </node>
-            <node concept="355D3s" id="25OQfQHQ_9N" role="3uHU7B">
-              <ref role="355D3t" to="jh6v:1UvRDkPap5X" resolve="LanguageDependency" />
-              <ref role="355D3u" to="jh6v:1UvRDkPap63" resolve="version" />
+            <node concept="2OqwBi" id="7g5FWGK2Ljo" role="3uHU7B">
+              <node concept="355D3s" id="25OQfQHQ_9N" role="2Oq$k0">
+                <ref role="355D3t" to="jh6v:1UvRDkPap5X" resolve="LanguageDependency" />
+                <ref role="355D3u" to="jh6v:1UvRDkPap63" resolve="version" />
+              </node>
+              <node concept="liA8E" id="7g5FWGK2NHR" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SProperty.getName()" resolve="getName" />
+              </node>
             </node>
           </node>
         </node>

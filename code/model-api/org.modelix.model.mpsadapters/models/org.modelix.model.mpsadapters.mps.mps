@@ -28748,8 +28748,12 @@
                   </node>
                 </node>
                 <node concept="3cpWs6" id="3wo$aVy5hgT" role="3cqZAp">
-                  <node concept="Xl_RD" id="3wo$aVy5id3" role="3cqZAk">
-                    <property role="Xl_RC" value="true" />
+                  <node concept="2YIFZM" id="7g5FWGKaQ_M" role="3cqZAk">
+                    <ref role="37wK5l" to="wyt6:~Boolean.toString(boolean)" resolve="toString" />
+                    <ref role="1Pybhc" to="wyt6:~Boolean" resolve="Boolean" />
+                    <node concept="3clFbT" id="7g5FWGKaRYi" role="37wK5m">
+                      <property role="3clFbU" value="true" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -28792,6 +28796,26 @@
               <node concept="17QB3L" id="3wo$aVy5jum" role="3clF45" />
               <node concept="3Tm1VV" id="3wo$aVy5jun" role="1B3o_S" />
               <node concept="3clFbS" id="3wo$aVy5juo" role="3clF47">
+                <node concept="3clFbJ" id="7g5FWGKa_wQ" role="3cqZAp">
+                  <node concept="3clFbS" id="7g5FWGKa_wS" role="3clFbx">
+                    <node concept="YS8fn" id="7g5FWGKaF0p" role="3cqZAp">
+                      <node concept="2ShNRf" id="7g5FWGKaFxU" role="YScLw">
+                        <node concept="1pGfFk" id="7g5FWGKaI36" role="2ShVmc">
+                          <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                          <node concept="Xl_RD" id="7g5FWGKaJA1" role="37wK5m">
+                            <property role="Xl_RC" value="The JavaModuleFacet should not be null" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="7g5FWGKaBWH" role="3clFbw">
+                    <node concept="10Nm6u" id="7g5FWGKaDq3" role="3uHU7w" />
+                    <node concept="37vLTw" id="7g5FWGKaACM" role="3uHU7B">
+                      <ref role="3cqZAo" node="3wo$aVy5juk" resolve="element" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="3wo$aVy5nUK" role="3cqZAp">
                   <node concept="3cpWsn" id="3wo$aVy5nUN" role="3cpWs9">
                     <property role="TrG5h" value="originalPath" />
@@ -28808,6 +28832,61 @@
                       <node concept="liA8E" id="3wo$aVy5xzB" role="2OqNvi">
                         <ref role="37wK5l" to="3ju5:~IFile.getPath()" resolve="getPath" />
                       </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="7g5FWGKb2Cr" role="3cqZAp">
+                  <node concept="3clFbS" id="7g5FWGKb2Ct" role="3clFbx">
+                    <node concept="3clFbF" id="7g5FWGKbji$" role="3cqZAp">
+                      <node concept="37vLTI" id="7g5FWGKblqz" role="3clFbG">
+                        <node concept="2OqwBi" id="7g5FWGKbuQ1" role="37vLTx">
+                          <node concept="2OqwBi" id="7g5FWGKbr6i" role="2Oq$k0">
+                            <node concept="2OqwBi" id="7g5FWGKbo6$" role="2Oq$k0">
+                              <node concept="37vLTw" id="7g5FWGKbn8_" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3wo$aVy5juk" resolve="element" />
+                              </node>
+                              <node concept="liA8E" id="7g5FWGKbqa_" role="2OqNvi">
+                                <ref role="37wK5l" to="b0pz:~JavaModuleFacet.getClassPath()" resolve="getClassPath" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7g5FWGKbtLU" role="2OqNvi">
+                              <ref role="37wK5l" to="33ny:~Set.iterator()" resolve="iterator" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="7g5FWGKbxcB" role="2OqNvi">
+                            <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="7g5FWGKbjiy" role="37vLTJ">
+                          <ref role="3cqZAo" node="3wo$aVy5nUN" resolve="originalPath" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="7g5FWGKb88d" role="3clFbw">
+                    <node concept="3clFbC" id="7g5FWGKbh1u" role="3uHU7w">
+                      <node concept="3cmrfG" id="7g5FWGKbh7c" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="2OqwBi" id="7g5FWGKbe9K" role="3uHU7B">
+                        <node concept="2OqwBi" id="7g5FWGKba$c" role="2Oq$k0">
+                          <node concept="37vLTw" id="7g5FWGKb9l8" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3wo$aVy5juk" resolve="element" />
+                          </node>
+                          <node concept="liA8E" id="7g5FWGKbc8_" role="2OqNvi">
+                            <ref role="37wK5l" to="b0pz:~JavaModuleFacet.getClassPath()" resolve="getClassPath" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="7g5FWGKbfS3" role="2OqNvi">
+                          <ref role="37wK5l" to="33ny:~Set.size()" resolve="size" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbC" id="7g5FWGKb5MN" role="3uHU7B">
+                      <node concept="37vLTw" id="7g5FWGKb3Qa" role="3uHU7B">
+                        <ref role="3cqZAo" node="3wo$aVy5nUN" resolve="originalPath" />
+                      </node>
+                      <node concept="10Nm6u" id="7g5FWGKb6DF" role="3uHU7w" />
                     </node>
                   </node>
                 </node>

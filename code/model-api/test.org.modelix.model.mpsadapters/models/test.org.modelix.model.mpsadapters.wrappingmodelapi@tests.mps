@@ -766,5 +766,227 @@
       </node>
     </node>
   </node>
+  <node concept="1lH9Xt" id="7g5FWGK3VUL">
+    <property role="TrG5h" value="SModuleAsNode" />
+    <node concept="1LZb2c" id="7g5FWGK3VUM" role="1SL9yI">
+      <property role="TrG5h" value="name" />
+      <node concept="3cqZAl" id="7g5FWGK3VUN" role="3clF45" />
+      <node concept="3clFbS" id="7g5FWGK3VUO" role="3clF47">
+        <node concept="1QHqEK" id="7g5FWGK3VUP" role="3cqZAp">
+          <node concept="1QHqEC" id="7g5FWGK3VUQ" role="1QHqEI">
+            <node concept="3clFbS" id="7g5FWGK3VUR" role="1bW5cS">
+              <node concept="3vlDli" id="7g5FWGK3VUS" role="3cqZAp">
+                <node concept="Xl_RD" id="7g5FWGK3VUT" role="3tpDZB">
+                  <property role="Xl_RC" value="test.org.modelix.model.mpsadapters" />
+                </node>
+                <node concept="2OqwBi" id="7g5FWGK3VUU" role="3tpDZA">
+                  <node concept="2OqwBi" id="7g5FWGK3VUV" role="2Oq$k0">
+                    <node concept="2WthIp" id="7g5FWGK3VUW" role="2Oq$k0" />
+                    <node concept="2XshWL" id="7g5FWGK3XMb" role="2OqNvi">
+                      <ref role="2WH_rO" node="7g5FWGK3VVk" resolve="getSModuleAsNode" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7g5FWGK3VUY" role="2OqNvi">
+                    <ref role="37wK5l" to="xxte:qmkA5fOOYT" resolve="getPropertyValue" />
+                    <node concept="Xl_RD" id="7g5FWGK3VUZ" role="37wK5m">
+                      <property role="Xl_RC" value="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7g5FWGK3VV0" role="ukAjM">
+            <node concept="1jxXqW" id="7g5FWGK3VV1" role="2Oq$k0" />
+            <node concept="liA8E" id="7g5FWGK3VV2" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7g5FWGK3VV3" role="1SL9yI">
+      <property role="TrG5h" value="id" />
+      <node concept="3cqZAl" id="7g5FWGK3VV4" role="3clF45" />
+      <node concept="3clFbS" id="7g5FWGK3VV5" role="3clF47">
+        <node concept="1QHqEK" id="7g5FWGK3VV6" role="3cqZAp">
+          <node concept="1QHqEC" id="7g5FWGK3VV7" role="1QHqEI">
+            <node concept="3clFbS" id="7g5FWGK3VV8" role="1bW5cS">
+              <node concept="3vlDli" id="7g5FWGK3VV9" role="3cqZAp">
+                <node concept="Xl_RD" id="7g5FWGK3VVa" role="3tpDZB">
+                  <property role="Xl_RC" value="133bdd06-b98b-47f5-8335-a48e447f9c41" />
+                </node>
+                <node concept="2OqwBi" id="7g5FWGK3VVb" role="3tpDZA">
+                  <node concept="2OqwBi" id="7g5FWGK3VVc" role="2Oq$k0">
+                    <node concept="2WthIp" id="7g5FWGK3VVd" role="2Oq$k0" />
+                    <node concept="2XshWL" id="7g5FWGK3XYg" role="2OqNvi">
+                      <ref role="2WH_rO" node="7g5FWGK3VVk" resolve="getSModuleAsNode" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7g5FWGK3VVf" role="2OqNvi">
+                    <ref role="37wK5l" to="xxte:qmkA5fOOYT" resolve="getPropertyValue" />
+                    <node concept="Xl_RD" id="7g5FWGK3VVg" role="37wK5m">
+                      <property role="Xl_RC" value="id" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7g5FWGK3VVh" role="ukAjM">
+            <node concept="1jxXqW" id="7g5FWGK3VVi" role="2Oq$k0" />
+            <node concept="liA8E" id="7g5FWGK3VVj" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7g5FWGK3Y2E" role="1SL9yI">
+      <property role="TrG5h" value="moduleVersion" />
+      <node concept="3cqZAl" id="7g5FWGK3Y2F" role="3clF45" />
+      <node concept="3clFbS" id="7g5FWGK3Y2G" role="3clF47">
+        <node concept="1QHqEK" id="7g5FWGK3Y2H" role="3cqZAp">
+          <node concept="1QHqEC" id="7g5FWGK3Y2I" role="1QHqEI">
+            <node concept="3clFbS" id="7g5FWGK3Y2J" role="1bW5cS">
+              <node concept="3vlDli" id="7g5FWGK3Y2K" role="3cqZAp">
+                <node concept="Xl_RD" id="7g5FWGK3Y2L" role="3tpDZB">
+                  <property role="Xl_RC" value="0" />
+                </node>
+                <node concept="2OqwBi" id="7g5FWGK3Y2M" role="3tpDZA">
+                  <node concept="2OqwBi" id="7g5FWGK3Y2N" role="2Oq$k0">
+                    <node concept="2WthIp" id="7g5FWGK3Y2O" role="2Oq$k0" />
+                    <node concept="2XshWL" id="7g5FWGK3Y2P" role="2OqNvi">
+                      <ref role="2WH_rO" node="7g5FWGK3VVk" resolve="getSModuleAsNode" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7g5FWGK3Y2Q" role="2OqNvi">
+                    <ref role="37wK5l" to="xxte:qmkA5fOOYT" resolve="getPropertyValue" />
+                    <node concept="Xl_RD" id="7g5FWGK3Y2R" role="37wK5m">
+                      <property role="Xl_RC" value="moduleVersion" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7g5FWGK3Y2S" role="ukAjM">
+            <node concept="1jxXqW" id="7g5FWGK3Y2T" role="2Oq$k0" />
+            <node concept="liA8E" id="7g5FWGK3Y2U" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="7g5FWGK3Y9S" role="1SL9yI">
+      <property role="TrG5h" value="compileInMPS" />
+      <node concept="3cqZAl" id="7g5FWGK3Y9T" role="3clF45" />
+      <node concept="3clFbS" id="7g5FWGK3Y9U" role="3clF47">
+        <node concept="1QHqEK" id="7g5FWGK3Y9V" role="3cqZAp">
+          <node concept="1QHqEC" id="7g5FWGK3Y9W" role="1QHqEI">
+            <node concept="3clFbS" id="7g5FWGK3Y9X" role="1bW5cS">
+              <node concept="3vlDli" id="7g5FWGK3Y9Y" role="3cqZAp">
+                <node concept="Xl_RD" id="7g5FWGK3Y9Z" role="3tpDZB">
+                  <property role="Xl_RC" value="true" />
+                </node>
+                <node concept="2OqwBi" id="7g5FWGK3Ya0" role="3tpDZA">
+                  <node concept="2OqwBi" id="7g5FWGK3Ya1" role="2Oq$k0">
+                    <node concept="2WthIp" id="7g5FWGK3Ya2" role="2Oq$k0" />
+                    <node concept="2XshWL" id="7g5FWGK3Ya3" role="2OqNvi">
+                      <ref role="2WH_rO" node="7g5FWGK3VVk" resolve="getSModuleAsNode" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7g5FWGK3Ya4" role="2OqNvi">
+                    <ref role="37wK5l" to="xxte:qmkA5fOOYT" resolve="getPropertyValue" />
+                    <node concept="Xl_RD" id="7g5FWGK3Ya5" role="37wK5m">
+                      <property role="Xl_RC" value="compileInMPS" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7g5FWGK3Ya6" role="ukAjM">
+            <node concept="1jxXqW" id="7g5FWGK3Ya7" role="2Oq$k0" />
+            <node concept="liA8E" id="7g5FWGK3Ya8" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2XrIbr" id="7g5FWGK3VVk" role="1qtyYc">
+      <property role="TrG5h" value="getSModuleAsNode" />
+      <node concept="3uibUv" id="7g5FWGK3WyW" role="3clF45">
+        <ref role="3uigEE" to="xxte:qmkA5fOuCN" resolve="SModuleAsNode" />
+      </node>
+      <node concept="3clFbS" id="7g5FWGK3VVm" role="3clF47">
+        <node concept="3cpWs8" id="7g5FWGK3VVn" role="3cqZAp">
+          <node concept="3cpWsn" id="7g5FWGK3VVo" role="3cpWs9">
+            <property role="TrG5h" value="repository" />
+            <node concept="3uibUv" id="7g5FWGK3VVp" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
+            </node>
+            <node concept="2OqwBi" id="7g5FWGK3VVq" role="33vP2m">
+              <node concept="1jxXqW" id="7g5FWGK3VVr" role="2Oq$k0" />
+              <node concept="liA8E" id="7g5FWGK3VVs" role="2OqNvi">
+                <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7g5FWGK3VVt" role="3cqZAp">
+          <node concept="3clFbS" id="7g5FWGK3VVu" role="3clFbx">
+            <node concept="YS8fn" id="7g5FWGK3VVv" role="3cqZAp">
+              <node concept="2ShNRf" id="7g5FWGK3VVw" role="YScLw">
+                <node concept="1pGfFk" id="7g5FWGK3VVx" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="7g5FWGK3VVy" role="3clFbw">
+            <node concept="10Nm6u" id="7g5FWGK3VVz" role="3uHU7w" />
+            <node concept="37vLTw" id="7g5FWGK3VV$" role="3uHU7B">
+              <ref role="3cqZAo" node="7g5FWGK3VVo" resolve="repository" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7g5FWGK3VV_" role="3cqZAp">
+          <node concept="3cpWsn" id="7g5FWGK3VVA" role="3cpWs9">
+            <property role="TrG5h" value="module" />
+            <node concept="3uibUv" id="7g5FWGK3VVB" role="1tU5fm">
+              <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+            </node>
+            <node concept="2OqwBi" id="7g5FWGK3VVC" role="33vP2m">
+              <node concept="37shsh" id="7g5FWGK3VVD" role="2Oq$k0">
+                <node concept="1dCxOk" id="7g5FWGK3VVE" role="37shsm">
+                  <property role="1XweGW" value="133bdd06-b98b-47f5-8335-a48e447f9c41" />
+                  <property role="1XxBO9" value="test.org.modelix.model.mpsadapters" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7g5FWGK3VVF" role="2OqNvi">
+                <ref role="37wK5l" to="lui2:~SModuleReference.resolve(org.jetbrains.mps.openapi.module.SRepository)" resolve="resolve" />
+                <node concept="37vLTw" id="7g5FWGK3VVG" role="37wK5m">
+                  <ref role="3cqZAo" node="7g5FWGK3VVo" resolve="repository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7g5FWGK3WHk" role="3cqZAp">
+          <node concept="2ShNRf" id="7g5FWGK3WMW" role="3cqZAk">
+            <node concept="1pGfFk" id="7g5FWGK3Xy6" role="2ShVmc">
+              <ref role="37wK5l" to="xxte:qmkA5fOXYb" resolve="SModuleAsNode" />
+              <node concept="37vLTw" id="7g5FWGK3XBr" role="37wK5m">
+                <ref role="3cqZAo" node="7g5FWGK3VVA" resolve="module" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

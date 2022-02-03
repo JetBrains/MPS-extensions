@@ -255,12 +255,12 @@
         </node>
       </node>
     </node>
-    <node concept="2XrIbr" id="7g5FWGK2hgy" role="1qtyYc">
-      <property role="TrG5h" value="getJavaFacet" />
-      <node concept="3uibUv" id="7g5FWGK2hgE" role="3clF45">
-        <ref role="3uigEE" to="b0pz:~JavaModuleFacet" resolve="JavaModuleFacet" />
+    <node concept="2XrIbr" id="7g5FWGK2iDo" role="1qtyYc">
+      <property role="TrG5h" value="getJavaFacetINode" />
+      <node concept="3uibUv" id="7g5FWGK2iFy" role="3clF45">
+        <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
       </node>
-      <node concept="3clFbS" id="7g5FWGK2hg$" role="3clF47">
+      <node concept="3clFbS" id="7g5FWGK2iDq" role="3clF47">
         <node concept="3cpWs8" id="7g5FWGK2igc" role="3cqZAp">
           <node concept="3cpWsn" id="7g5FWGK2igd" role="3cpWs9">
             <property role="TrG5h" value="repository" />
@@ -341,28 +341,29 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="7g5FWGK2i_O" role="3cqZAp">
-          <node concept="37vLTw" id="7g5FWGK2iBR" role="3cqZAk">
-            <ref role="3cqZAo" node="7g5FWGK2hjb" resolve="javaModuleFacet" />
+        <node concept="3clFbJ" id="7g5FWGK8sUq" role="3cqZAp">
+          <node concept="3clFbS" id="7g5FWGK8sUs" role="3clFbx">
+            <node concept="YS8fn" id="7g5FWGK8ttV" role="3cqZAp">
+              <node concept="2ShNRf" id="7g5FWGK8tu1" role="YScLw">
+                <node concept="1pGfFk" id="7g5FWGK8tRp" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;()" resolve="IllegalStateException" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="7g5FWGK8tfP" role="3clFbw">
+            <node concept="10Nm6u" id="7g5FWGK8tqd" role="3uHU7w" />
+            <node concept="37vLTw" id="7g5FWGK8sYC" role="3uHU7B">
+              <ref role="3cqZAo" node="7g5FWGK2hjb" resolve="javaModuleFacet" />
+            </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="2XrIbr" id="7g5FWGK2iDo" role="1qtyYc">
-      <property role="TrG5h" value="getJavaFacetINode" />
-      <node concept="3uibUv" id="7g5FWGK2iFy" role="3clF45">
-        <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
-      </node>
-      <node concept="3clFbS" id="7g5FWGK2iDq" role="3clF47">
         <node concept="3cpWs6" id="7g5FWGK2iFA" role="3cqZAp">
           <node concept="2ShNRf" id="7g5FWGK2iFF" role="3cqZAk">
             <node concept="1pGfFk" id="7g5FWGK2iXZ" role="2ShVmc">
               <ref role="37wK5l" to="xxte:4bf8ZXPcS7A" resolve="JavaModuleFacetAsNode" />
-              <node concept="2OqwBi" id="7g5FWGK2j0m" role="37wK5m">
-                <node concept="2WthIp" id="7g5FWGK2j0p" role="2Oq$k0" />
-                <node concept="2XshWL" id="7g5FWGK2j0r" role="2OqNvi">
-                  <ref role="2WH_rO" node="7g5FWGK2hgy" resolve="getJavaFacet" />
-                </node>
+              <node concept="37vLTw" id="7g5FWGK8sKL" role="37wK5m">
+                <ref role="3cqZAo" node="7g5FWGK2hjb" resolve="javaModuleFacet" />
               </node>
             </node>
           </node>

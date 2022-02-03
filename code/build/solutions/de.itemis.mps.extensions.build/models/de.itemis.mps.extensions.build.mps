@@ -15253,6 +15253,51 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZSU" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZSV" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZSW" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZSX" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZSY" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZSZ" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC73Be" resolve="org.modelix.model.repositoryconcepts" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZT0" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZT1" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZT2" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZT3" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC70jw" resolve="org.modelix.model.api" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZT4" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZT5" role="1SiIV1">
+            <ref role="3bR37D" node="4iIKqJTZ5Hm" resolve="de.q60.mps.shadowmodels.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZT6" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZT7" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZT8" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZT9" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7g5FWGK3ZTa" role="3bR37C">
+          <node concept="3bR9La" id="7g5FWGK3ZTb" role="1SiIV1">
+            <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2G$12M" id="4JmkJs3GrYV" role="3989C9">

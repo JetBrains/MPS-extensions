@@ -62,6 +62,8 @@ class TreePointer(var tree_: ITree, val idGenerator: IIdGenerator = IdGeneratorD
 
     override fun getConcept(nodeId: Long) = tree.getConcept(nodeId)
 
+    override fun getConceptReference(nodeId: Long): IConceptReference? = tree.getConceptReference(nodeId)
+
     override fun getParent(nodeId: Long) = tree.getParent(nodeId)
 
     override fun getRole(nodeId: Long) = tree.getRole(nodeId)
@@ -96,7 +98,17 @@ class TreePointer(var tree_: ITree, val idGenerator: IIdGenerator = IdGeneratorD
         return childId
     }
 
+    override fun addNewChild(parentId: Long, role: String?, index: Int, concept: IConceptReference?): Long {
+        val childId = idGenerator.generate()
+        addNewChild(parentId, role, index, childId, concept)
+        return childId
+    }
+
     override fun addNewChild(parentId: Long, role: String?, index: Int, childId: Long, concept: IConcept?) {
+        tree = tree.addNewChild(parentId, role, index, childId, concept)
+    }
+
+    override fun addNewChild(parentId: Long, role: String?, index: Int, childId: Long, concept: IConceptReference?) {
         tree = tree.addNewChild(parentId, role, index, childId, concept)
     }
 

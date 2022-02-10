@@ -3322,6 +3322,32 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4QRr826l0vd" role="jymVt" />
+    <node concept="3clFb_" id="4QRr826kWUj" role="jymVt">
+      <property role="TrG5h" value="getConceptReference" />
+      <node concept="3Tm1VV" id="4QRr826kWUk" role="1B3o_S" />
+      <node concept="2AHcQZ" id="4QRr826kWUl" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3uibUv" id="4QRr826kWUm" role="3clF45">
+        <ref role="3uigEE" to="jks5:~IConceptReference" resolve="IConceptReference" />
+      </node>
+      <node concept="3clFbS" id="4QRr826kWUn" role="3clF47">
+        <node concept="3clFbF" id="4QRr826kWUo" role="3cqZAp">
+          <node concept="2OqwBi" id="4QRr826jLRY" role="3clFbG">
+            <node concept="1rXfSq" id="4QRr826kWUp" role="2Oq$k0">
+              <ref role="37wK5l" node="5gTrVpGjESX" resolve="getConcept" />
+            </node>
+            <node concept="liA8E" id="4QRr826kWUq" role="2OqNvi">
+              <ref role="37wK5l" to="jks5:~IConcept.getReference()" resolve="getReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4QRr826kWUr" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5gTrVpGk5Mw" role="jymVt" />
     <node concept="3clFb_" id="5gTrVpGjOm7" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -3353,7 +3379,7 @@
         <node concept="3clFbJ" id="qmkA5fSmJw" role="3cqZAp">
           <node concept="3clFbS" id="qmkA5fSmJx" role="3clFbx">
             <node concept="3cpWs6" id="qmkA5fSmJy" role="3cqZAp">
-              <node concept="2OqwBi" id="qmkA5fSt1J" role="3cqZAk">
+              <node concept="2EnYce" id="4QRr826mJGA" role="3cqZAk">
                 <node concept="2OqwBi" id="qmkA5fSoNV" role="2Oq$k0">
                   <node concept="37vLTw" id="qmkA5fSnj1" role="2Oq$k0">
                     <ref role="3cqZAo" node="5gTrVpGjuMh" resolve="node" />
@@ -10724,6 +10750,32 @@
         <node concept="2AHcQZ" id="43OnoQAWYXQ" role="2AJF6D">
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4QRr826jVUp" role="jymVt" />
+    <node concept="3clFb_" id="4QRr826jHSM" role="jymVt">
+      <property role="TrG5h" value="getConceptReference" />
+      <node concept="3Tm1VV" id="4QRr826jHSN" role="1B3o_S" />
+      <node concept="2AHcQZ" id="4QRr826jHSP" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3uibUv" id="4QRr826jHSQ" role="3clF45">
+        <ref role="3uigEE" to="jks5:~IConceptReference" resolve="IConceptReference" />
+      </node>
+      <node concept="3clFbS" id="4QRr826jHSS" role="3clF47">
+        <node concept="3clFbF" id="4QRr826jLpW" role="3cqZAp">
+          <node concept="2EnYce" id="4QRr826jXT5" role="3clFbG">
+            <node concept="1rXfSq" id="4QRr826jLpT" role="2Oq$k0">
+              <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
+            </node>
+            <node concept="liA8E" id="4QRr826jMlR" role="2OqNvi">
+              <ref role="37wK5l" to="jks5:~IConcept.getReference()" resolve="getReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4QRr826jHST" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="qmkA5fOOX4" role="jymVt" />

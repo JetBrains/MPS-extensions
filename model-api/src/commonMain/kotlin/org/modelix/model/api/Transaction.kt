@@ -25,6 +25,7 @@ abstract class Transaction(override val branch: IBranch) : ITransaction {
 
     override fun containsNode(nodeId: Long): Boolean = tree.containsNode(nodeId)
     override fun getConcept(nodeId: Long): IConcept? = tree.getConcept(nodeId)
+    override fun getConceptReference(nodeId: Long): IConceptReference? = tree.getConceptReference(nodeId)
     override fun getParent(nodeId: Long): Long = tree.getParent(nodeId)
     override fun getRole(nodeId: Long): String? = tree.getRole(nodeId)
     override fun getProperty(nodeId: Long, role: String): String? = tree.getProperty(nodeId, role)

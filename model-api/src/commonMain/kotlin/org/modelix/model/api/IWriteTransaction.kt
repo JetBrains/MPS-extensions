@@ -21,6 +21,8 @@ interface IWriteTransaction : ITransaction {
     fun setReferenceTarget(sourceId: Long, role: String, target: INodeReference?)
     fun moveChild(newParentId: Long, newRole: String?, newIndex: Int, childId: Long)
     fun addNewChild(parentId: Long, role: String?, index: Int, concept: IConcept?): Long
+    fun addNewChild(parentId: Long, role: String?, index: Int, concept: IConceptReference?): Long
     fun addNewChild(parentId: Long, role: String?, index: Int, childId: Long, concept: IConcept?)
+    fun addNewChild(parentId: Long, role: String?, index: Int, childId: Long, concept: IConceptReference?)
     fun deleteNode(nodeId: Long)
 }

@@ -22,6 +22,7 @@ interface ITree {
     fun getProperty(nodeId: Long, role: String): String?
     fun getChildren(parentId: Long, role: String?): Iterable<Long>
     fun getConcept(nodeId: Long): IConcept?
+    fun getConceptReference(nodeId: Long): IConceptReference?
     fun getParent(nodeId: Long): Long
     fun getRole(nodeId: Long): String?
     fun setProperty(nodeId: Long, role: String, value: String?): ITree
@@ -33,7 +34,9 @@ interface ITree {
     fun getAllChildren(parentId: Long): Iterable<Long>
     fun moveChild(newParentId: Long, newRole: String?, newIndex: Int, childId: Long): ITree
     fun addNewChild(parentId: Long, role: String?, index: Int, childId: Long, concept: IConcept?): ITree
+    fun addNewChild(parentId: Long, role: String?, index: Int, childId: Long, concept: IConceptReference?): ITree
     fun addNewChildren(parentId: Long, role: String?, index: Int, newIds: LongArray, concepts: Array<IConcept?>): ITree
+    fun addNewChildren(parentId: Long, role: String?, index: Int, newIds: LongArray, concepts: Array<IConceptReference?>): ITree
     fun deleteNode(nodeId: Long): ITree
     fun deleteNodes(nodeIds: LongArray): ITree
 

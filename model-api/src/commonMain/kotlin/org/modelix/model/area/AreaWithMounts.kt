@@ -168,6 +168,7 @@ class AreaWithMounts(val rootArea: IArea, mounts: Map<INode, IArea>) : IArea {
             get() = TODO("Not yet implemented")
         override val concept: IConcept?
             get() = node.concept
+        override fun getConceptReference(): IConceptReference? = node.getConceptReference()
         override val roleInParent: String?
             get() {
                 val hiddenNode = getHiddenNode(node)

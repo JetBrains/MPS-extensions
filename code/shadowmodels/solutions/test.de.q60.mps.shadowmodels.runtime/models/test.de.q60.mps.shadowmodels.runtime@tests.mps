@@ -99,6 +99,10 @@
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -3922,7 +3926,12 @@
                         <property role="1adDun" value="1000L" />
                       </node>
                     </node>
-                    <node concept="10Nm6u" id="6$M6y1fogjk" role="37wK5m" />
+                    <node concept="10QFUN" id="4QRr826qR5t" role="37wK5m">
+                      <node concept="10Nm6u" id="4QRr826qR5s" role="10QFUP" />
+                      <node concept="3uibUv" id="4QRr826qR5p" role="10QFUM">
+                        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -4331,7 +4340,12 @@
                         <property role="1adDun" value="1000L" />
                       </node>
                     </node>
-                    <node concept="10Nm6u" id="2Vy1$4MEYyf" role="37wK5m" />
+                    <node concept="10QFUN" id="4QRr826qYEA" role="37wK5m">
+                      <node concept="10Nm6u" id="4QRr826qYE_" role="10QFUP" />
+                      <node concept="3uibUv" id="4QRr826qYEy" role="10QFUM">
+                        <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

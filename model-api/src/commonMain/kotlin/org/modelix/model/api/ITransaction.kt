@@ -20,6 +20,7 @@ interface ITransaction {
     val tree: ITree
     fun containsNode(nodeId: Long): Boolean
     fun getConcept(nodeId: Long): IConcept?
+    fun getConceptReference(nodeId: Long): IConceptReference?
     fun getParent(nodeId: Long): Long
     fun getRole(nodeId: Long): String?
     fun getProperty(nodeId: Long, role: String): String?

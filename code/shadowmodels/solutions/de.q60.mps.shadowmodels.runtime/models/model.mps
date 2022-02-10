@@ -538,6 +538,31 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="4QRr8264WBo" role="jymVt">
+      <property role="TrG5h" value="getConceptReference" />
+      <node concept="3Tm1VV" id="4QRr8264WBp" role="1B3o_S" />
+      <node concept="2AHcQZ" id="4QRr8264WBr" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3uibUv" id="4QRr8264WBs" role="3clF45">
+        <ref role="3uigEE" to="jks5:~IConceptReference" resolve="IConceptReference" />
+      </node>
+      <node concept="3clFbS" id="4QRr8264WBt" role="3clF47">
+        <node concept="3clFbF" id="4QRr82650m7" role="3cqZAp">
+          <node concept="2OqwBi" id="4QRr82650sq" role="3clFbG">
+            <node concept="37vLTw" id="4QRr82650m4" role="2Oq$k0">
+              <ref role="3cqZAo" node="7vWAzuEFXKu" resolve="concept" />
+            </node>
+            <node concept="liA8E" id="4QRr82650V1" role="2OqNvi">
+              <ref role="37wK5l" to="jks5:~IConcept.getReference()" resolve="getReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4QRr8264WBu" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="7vWAzuEFV1m" role="jymVt">
       <property role="TrG5h" value="getRoleInParent" />
       <node concept="17QB3L" id="7vWAzuEFV1n" role="3clF45" />

@@ -62,7 +62,19 @@ class WriteTransaction(_tree: ITree, branch: IBranch, idGenerator: IIdGenerator)
         return newId
     }
 
+    override fun addNewChild(parentId: Long, role: String?, index: Int, concept: IConceptReference?): Long {
+        checkNotClosed()
+        val newId = idGenerator.generate()
+        addNewChild(parentId, role, index, newId, concept)
+        return newId
+    }
+
     override fun addNewChild(parentId: Long, role: String?, index: Int, childId: Long, concept: IConcept?) {
+        checkNotClosed()
+        tree = tree.addNewChild(parentId, role, index, childId, concept)
+    }
+
+    override fun addNewChild(parentId: Long, role: String?, index: Int, childId: Long, concept: IConceptReference?) {
         checkNotClosed()
         tree = tree.addNewChild(parentId, role, index, childId, concept)
     }

@@ -136,6 +136,7 @@ class CompositeArea : IArea {
             get() = RootNodeReference(getArea().getReference())
         override val concept: IConcept?
             get() = null
+        override fun getConceptReference(): IConceptReference? = null
         override val roleInParent: String?
             get() = null
         override val parent: INode?
@@ -222,6 +223,7 @@ class CompositeArea : IArea {
             get() = NodeWrapperReference(node.reference, getArea().getReference())
         override val concept: IConcept?
             get() = node.concept
+        override fun getConceptReference(): IConceptReference? = node.getConceptReference()
         override val roleInParent: String?
             get() = node.roleInParent
         override val parent: INode?

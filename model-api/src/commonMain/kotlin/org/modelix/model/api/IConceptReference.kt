@@ -18,5 +18,24 @@ package org.modelix.model.api
 import org.modelix.model.area.IArea
 
 interface IConceptReference {
+    companion object {
+        private var deserializers: Map<Any, ((String)->IConceptReference?)> = LinkedHashMap()
+        fun deserialize(serialized: String?): IConceptReference? {
+            if (serialized == null) return null
+            val refs = deserializers.values.mapNotNull { deserialize(serialized) }
+            return when (refs.size) {
+                0 -> UIDConceptReference(serialized)
+                1 -> refs.first()
+                else -> throw RuntimeException("Multiple deserializers applicable to $serialized")
+            }
+        }
+        fun registerDeserializer(key: Any, deserializer: ((String)->IConceptReference?)) {
+            deserializers = deserializers + (key to deserializer)
+        }
+        fun unregisterSerializer(key: Any) {
+            deserializers = deserializers - key
+        }
+    }
     fun resolve(area: IArea?): IConcept?
+    fun serialize(): String
 }

@@ -21,4 +21,8 @@ data class UIDConceptReference(val uid: String) : IConceptReference {
     override fun resolve(area: IArea?): IConcept? {
         return area?.resolveConcept(this)
     }
+
+    override fun serialize(): String {
+        return uid
+    }
 }

@@ -9,7 +9,6 @@
     <facet type="java" languageLevel="JAVA_8">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
-    <facet type="tests" />
   </facets>
   <sourcePath />
   <dependencies>

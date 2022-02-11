@@ -15,13 +15,6 @@
     <facet type="java">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
-    <facet type="tests" />
-    <facet type="java" />
-    <facet type="tests" />
-    <facet type="java" />
-    <facet type="tests" />
-    <facet type="java" />
-    <facet type="tests" />
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/lib/jaxen-1.1.6.jar" />

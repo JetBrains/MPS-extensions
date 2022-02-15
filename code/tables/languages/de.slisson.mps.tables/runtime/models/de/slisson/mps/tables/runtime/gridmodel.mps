@@ -7,7 +7,7 @@
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
@@ -334,6 +334,7 @@
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
@@ -11991,8 +11992,11 @@
       <node concept="3clFbS" id="1cFYsK3mC0W" role="3clF47">
         <node concept="3clFbF" id="1cFYsK3mCKS" role="3cqZAp">
           <node concept="3cpWs3" id="1cFYsK3mCR3" role="3clFbG">
-            <node concept="37vLTw" id="1cFYsK3mCRz" role="3uHU7w">
-              <ref role="3cqZAo" node="7C0FR5AJwUb" resolve="myNode" />
+            <node concept="2OqwBi" id="2obP5Y846Fk" role="3uHU7w">
+              <node concept="37vLTw" id="1cFYsK3mCRz" role="2Oq$k0">
+                <ref role="3cqZAo" node="7C0FR5AJwUb" resolve="myNode" />
+              </node>
+              <node concept="2Iv5rx" id="2obP5Y846Fl" role="2OqNvi" />
             </node>
             <node concept="Xl_RD" id="1cFYsK3mCKR" role="3uHU7B">
               <property role="Xl_RC" value="" />

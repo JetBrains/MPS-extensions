@@ -200,6 +200,7 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
         <child id="1883223317721008709" name="body" index="Jncv$" />
@@ -962,8 +963,11 @@
         <node concept="3cpWs6" id="1p6ZfyCOWFI" role="3cqZAp">
           <node concept="3cpWs3" id="1p6ZfyCP71u" role="3cqZAk">
             <node concept="Xl_RD" id="1p6ZfyCP76h" role="3uHU7B" />
-            <node concept="37vLTw" id="1p6ZfyCP6NF" role="3uHU7w">
-              <ref role="3cqZAo" node="1p6ZfyCOT9K" resolve="source" />
+            <node concept="2OqwBi" id="2obP5Y83RK3" role="3uHU7w">
+              <node concept="37vLTw" id="1p6ZfyCP6NF" role="2Oq$k0">
+                <ref role="3cqZAo" node="1p6ZfyCOT9K" resolve="source" />
+              </node>
+              <node concept="2Iv5rx" id="2obP5Y83RK4" role="2OqNvi" />
             </node>
           </node>
         </node>

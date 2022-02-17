@@ -106,6 +106,12 @@
       <property role="20kJfa" value="dataProvider" />
       <ref role="20lvS9" node="3dJ0eUbDUtS" resolve="DataProviderFunction" />
     </node>
+    <node concept="1TJgyj" id="16TtUNxULuP" role="1TKVEi">
+      <property role="IQ2ns" value="1277183553744607157" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="defaultView" />
+      <ref role="20lvS9" node="16TtUNxULnU" resolve="DefaultViewFunction" />
+    </node>
     <node concept="1TJgyj" id="5GuprjjcQUH" role="1TKVEi">
       <property role="IQ2ns" value="6565797134064643757" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -303,6 +309,17 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7diJr$Rulpu" resolve="ProjectView" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="16TtUNxULnU">
+    <property role="EcuMT" value="1277183553744606714" />
+    <property role="TrG5h" value="DefaultViewFunction" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="16TtUNxULL$">
+    <property role="EcuMT" value="1277183553744608356" />
+    <property role="TrG5h" value="ProjectParameter" />
+    <property role="34LRSv" value="project" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

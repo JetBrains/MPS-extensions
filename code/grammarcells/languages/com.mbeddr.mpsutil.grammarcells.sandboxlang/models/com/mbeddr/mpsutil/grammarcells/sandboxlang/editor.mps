@@ -237,6 +237,7 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="7835263205327057228" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenAndChildAttributesOperation" flags="ng" index="Bykcj" />
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="5168775467716640652" name="jetbrains.mps.lang.smodel.structure.OperationParm_LinkQualifier" flags="ng" index="1aIX9F">
         <child id="5168775467716640653" name="linkQualifier" index="1aIX9E" />
       </concept>
@@ -623,7 +624,10 @@
                     <node concept="liA8E" id="1GvnUgo9bai" role="2OqNvi">
                       <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                       <node concept="3cpWs3" id="1GvnUgo9bij" role="37wK5m">
-                        <node concept="313q4" id="1GvnUgo9bjz" role="3uHU7w" />
+                        <node concept="2OqwBi" id="2obP5Y83RJ0" role="3uHU7w">
+                          <node concept="313q4" id="1GvnUgo9bjz" role="2Oq$k0" />
+                          <node concept="2Iv5rx" id="2obP5Y83RJ1" role="2OqNvi" />
+                        </node>
                         <node concept="Xl_RD" id="1GvnUgo9baK" role="3uHU7B">
                           <property role="Xl_RC" value="wrapped " />
                         </node>

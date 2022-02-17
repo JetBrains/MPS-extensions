@@ -67,6 +67,7 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="6870613620390542976" name="jetbrains.mps.lang.smodel.structure.ConceptAliasOperation" flags="ng" index="3n3YKJ" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -132,11 +133,14 @@
             <node concept="3cpWs3" id="6B579NFNFuw" role="3uHU7B">
               <node concept="3cpWs3" id="6B579NFNFqF" role="3uHU7B">
                 <node concept="3cpWs3" id="6B579NFNFmw" role="3uHU7B">
-                  <node concept="2OqwBi" id="6B579NFNFdD" role="3uHU7B">
-                    <node concept="13iPFW" id="6B579NFNFb$" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="6B579NFNFhy" role="2OqNvi">
-                      <ref role="3Tt5mk" to="ibwz:4qdNcH$3y96" resolve="left" />
+                  <node concept="2OqwBi" id="2obP5Y83RIe" role="3uHU7B">
+                    <node concept="2OqwBi" id="6B579NFNFdD" role="2Oq$k0">
+                      <node concept="13iPFW" id="6B579NFNFb$" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6B579NFNFhy" role="2OqNvi">
+                        <ref role="3Tt5mk" to="ibwz:4qdNcH$3y96" resolve="left" />
+                      </node>
                     </node>
+                    <node concept="2Iv5rx" id="2obP5Y83RIf" role="2OqNvi" />
                   </node>
                   <node concept="Xl_RD" id="6B579NFNFmz" role="3uHU7w">
                     <property role="Xl_RC" value=" " />
@@ -247,11 +251,14 @@
               <node concept="Xl_RD" id="6B579NFNGoz" role="3uHU7B">
                 <property role="Xl_RC" value="(" />
               </node>
-              <node concept="2OqwBi" id="6B579NFNGwE" role="3uHU7w">
-                <node concept="13iPFW" id="6B579NFNGtP" role="2Oq$k0" />
-                <node concept="3TrEf2" id="6B579NFNG_U" role="2OqNvi">
-                  <ref role="3Tt5mk" to="ibwz:6B579NFHr4y" resolve="inner" />
+              <node concept="2OqwBi" id="2obP5Y83RIG" role="3uHU7w">
+                <node concept="2OqwBi" id="6B579NFNGwE" role="2Oq$k0">
+                  <node concept="13iPFW" id="6B579NFNGtP" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6B579NFNG_U" role="2OqNvi">
+                    <ref role="3Tt5mk" to="ibwz:6B579NFHr4y" resolve="inner" />
+                  </node>
                 </node>
+                <node concept="2Iv5rx" id="2obP5Y83RIH" role="2OqNvi" />
               </node>
             </node>
           </node>

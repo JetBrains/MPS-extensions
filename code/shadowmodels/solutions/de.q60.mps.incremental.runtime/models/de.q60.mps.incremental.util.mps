@@ -4,6 +4,7 @@
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -118,7 +119,25 @@
       </concept>
       <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e" />
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -339,7 +358,7 @@
     </node>
     <node concept="2tJIrI" id="4_SQzDOcJ0Y" role="jymVt" />
     <node concept="3clFb_" id="4_SQzDOcIKd" role="jymVt">
-      <property role="TrG5h" value="runWith" />
+      <property role="TrG5h" value="runWithFunctionType" />
       <node concept="37vLTG" id="4_SQzDOcIKe" role="3clF46">
         <property role="TrG5h" value="newValue" />
         <node concept="16syzq" id="4_SQzDOcIKf" role="1tU5fm">
@@ -388,6 +407,15 @@
                   <node concept="2Kt5_m" id="4NgaqHZaFC1" role="2OqNvi" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="5CCCbOl60Fw" role="lGtFl">
+        <node concept="TZ5HI" id="5CCCbOl62Zq" role="3nqlJM">
+          <node concept="TZ5HA" id="5CCCbOl62Zr" role="3HnX3l">
+            <node concept="1dT_AC" id="1tRSsKB_VW_" role="1dT_Ay">
+              <property role="1dT_AB" value="duplicate of runWith, should keep a different name to prevent future ambiguity with java lambda" />
             </node>
           </node>
         </node>

@@ -13,7 +13,7 @@
     <use id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" name="de.slisson.mps.structurecheck" version="-1" />
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="-1" />
     <use id="aff569ad-098d-414a-aa23-96963959392c" name="test.de.itemis.mps.editor.diagram.lang" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
@@ -8819,10 +8819,10 @@
           </node>
           <node concept="1kFiQP" id="24zrZPPBNTf" role="1kFUp8">
             <node concept="1kFiQa" id="24zrZPPBNTh" role="1kF7lU">
-              <ref role="1kF7lA" node="24zrZPPzQtY" resolve="port12" />
+              <ref role="1kF7lA" node="24zrZPPzQtY" />
             </node>
             <node concept="1kFiQa" id="24zrZPPBNTj" role="1kF7lN">
-              <ref role="1kF7lA" node="24zrZPPzQta" resolve="box2" />
+              <ref role="1kF7lA" node="24zrZPPzQta" />
             </node>
             <node concept="2VclpC" id="24zrZPPBNV1" role="lGtFl">
               <node concept="2VclrF" id="24zrZPPBOGv" role="2Vcluh">

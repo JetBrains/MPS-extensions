@@ -164,7 +164,7 @@
             <property role="VOm3f" value="false" />
           </node>
           <node concept="3F0ifn" id="3ZnFyBju6vd" role="3EZMnx">
-            <property role="3F0ifm" value="label:" />
+            <property role="3F0ifm" value="Label:" />
           </node>
           <node concept="3F1sOY" id="3ZnFyBju6vm" role="3EZMnx">
             <property role="1$x2rV" value="&lt;merge into extended view&gt;" />
@@ -177,7 +177,7 @@
             <property role="VOm3f" value="false" />
           </node>
           <node concept="3F0ifn" id="511fZqntx_V" role="3EZMnx">
-            <property role="3F0ifm" value="icon:" />
+            <property role="3F0ifm" value="Icon:" />
           </node>
           <node concept="3F1sOY" id="511fZqntx_W" role="3EZMnx">
             <ref role="1NtTu8" to="d04j:511fZqnrhSY" resolve="icon" />
@@ -189,7 +189,7 @@
             <property role="VOm3f" value="false" />
           </node>
           <node concept="3F0ifn" id="75_oBQVGpJn" role="3EZMnx">
-            <property role="3F0ifm" value="priority:" />
+            <property role="3F0ifm" value="Priority:" />
           </node>
           <node concept="3F0A7n" id="75_oBQVGpL6" role="3EZMnx">
             <property role="1$x2rV" value="0" />
@@ -197,6 +197,19 @@
             <ref role="1NtTu8" to="d04j:75_oBQVGpJj" resolve="priority" />
           </node>
           <node concept="2iRfu4" id="75_oBQVGpJp" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="16TtUNxUKVr" role="3EZMnx">
+          <node concept="VPM3Z" id="16TtUNxUKVs" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+          <node concept="3F0ifn" id="16TtUNxUKVt" role="3EZMnx">
+            <property role="3F0ifm" value="Is default:" />
+          </node>
+          <node concept="3F1sOY" id="16TtUNy3aXK" role="3EZMnx">
+            <property role="1$x2rV" value="closure" />
+            <ref role="1NtTu8" to="d04j:16TtUNxULuP" resolve="defaultView" />
+          </node>
+          <node concept="2iRfu4" id="16TtUNxUKVv" role="2iSdaV" />
         </node>
         <node concept="3EZMnI" id="4QICnJ5F4g4" role="3EZMnx">
           <node concept="VPM3Z" id="4QICnJ5F4g5" role="3F10Kt">
@@ -262,6 +275,7 @@
             <property role="3F0ifm" value="Data Provider:" />
           </node>
           <node concept="3F1sOY" id="3dJ0eUbEkfA" role="3EZMnx">
+            <property role="1$x2rV" value="closure" />
             <ref role="1NtTu8" to="d04j:3dJ0eUbDUtM" resolve="dataProvider" />
           </node>
           <node concept="2iRfu4" id="3dJ0eUbEkeN" role="2iSdaV" />

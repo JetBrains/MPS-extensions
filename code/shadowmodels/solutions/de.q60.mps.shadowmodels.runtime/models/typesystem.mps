@@ -128,6 +128,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -251,8 +252,11 @@
           <node concept="3clFbS" id="7c10t$79rtr" role="3clFbx">
             <node concept="RRSsy" id="7c10t$77Ueu" role="3cqZAp">
               <node concept="3cpWs3" id="7c10t$77Vpj" role="RRSoy">
-                <node concept="37vLTw" id="7c10t$77Vqa" role="3uHU7w">
-                  <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
+                <node concept="2OqwBi" id="2obP5Y844JV" role="3uHU7w">
+                  <node concept="37vLTw" id="7c10t$77Vqa" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1pTQQaTNK5O" resolve="node" />
+                  </node>
+                  <node concept="2Iv5rx" id="2obP5Y844JW" role="2OqNvi" />
                 </node>
                 <node concept="Xl_RD" id="7c10t$77Uew" role="3uHU7B">
                   <property role="Xl_RC" value="Type is null for " />

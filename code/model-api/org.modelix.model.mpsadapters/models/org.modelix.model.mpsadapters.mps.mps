@@ -23114,10 +23114,12 @@
       <node concept="3clFbS" id="75046mlXL0p" role="3clF47">
         <node concept="XkiVB" id="75046mlXL0r" role="3cqZAp">
           <ref role="37wK5l" to="w1kc:~SReference.&lt;init&gt;(org.jetbrains.mps.openapi.language.SReferenceLink,org.jetbrains.mps.openapi.model.SNode)" resolve="SReference" />
-          <node concept="10QFUN" id="75046mlXNqg" role="37wK5m">
-            <node concept="10Nm6u" id="75046mlXNqf" role="10QFUP" />
-            <node concept="3uibUv" id="75046mlXNpy" role="10QFUM">
-              <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
+          <node concept="2OqwBi" id="Vwvkv3Rcb$" role="37wK5m">
+            <node concept="37vLTw" id="Vwvkv3Rc4d" role="2Oq$k0">
+              <ref role="3cqZAo" node="75046mlXLmW" resolve="reference" />
+            </node>
+            <node concept="liA8E" id="Vwvkv3Rcsn" role="2OqNvi">
+              <ref role="37wK5l" to="mhbf:~SReference.getLink()" resolve="getLink" />
             </node>
           </node>
           <node concept="10Nm6u" id="75046mlXNmQ" role="37wK5m" />

@@ -170,6 +170,7 @@
         <property id="4571516170012626612" name="useMakeTask" index="1DZWs8" />
       </concept>
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
+        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -649,6 +650,8 @@
         <property role="BnDLt" value="true" />
         <property role="3LESm3" value="b0f8641f-bd77-4421-8425-30d9088a82f7" />
         <property role="TrG5h" value="org.apache.commons" />
+        <property role="aoJFB" value="eYcmk9QOli/sources" />
+        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="PE3B26QCyu" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="PE3B26QCyv" role="iGT6I">
@@ -860,31 +863,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="2eucapX07Gf" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="2eucapX07Gg" role="1HemKq">
-            <node concept="398BVA" id="2eucapX07G4" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="2eucapX07G5" role="iGT6I">
-                <property role="2Ry0Am" value="apache-commons" />
-                <node concept="2Ry0Ak" id="2eucapX07G6" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="2eucapX07G7" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.apache.commons" />
-                    <node concept="2Ry0Ak" id="2eucapX07G8" role="2Ry0An">
-                      <property role="2Ry0Am" value="models" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="2eucapX07Gh" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
@@ -11083,7 +11061,7 @@
         <node concept="3LEDTy" id="7q24334ZzZk" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
         </node>
-        <node concept="3LEDTy" id="eJMFlq5a25" role="3LEDUa">
+        <node concept="3LEDTy" id="5wyP9OML9xF" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
@@ -11318,10 +11296,10 @@
         <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
         </node>
-        <node concept="3LEDTy" id="eJMFlq5a2D" role="3LEDUa">
+        <node concept="3LEDTy" id="5wyP9OML9yf" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
         </node>
-        <node concept="3LEDTy" id="eJMFlq5a2E" role="3LEDUa">
+        <node concept="3LEDTy" id="5wyP9OML9yg" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
@@ -13178,11 +13156,6 @@
         <node concept="1SiIV0" id="3jVbLyZARC9" role="3bR37C">
           <node concept="3bR9La" id="3jVbLyZARCa" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3jVbLyZASi0" role="3bR37C">
-          <node concept="3bR9La" id="3jVbLyZASi1" role="1SiIV1">
-            <ref role="3bR37D" node="3jVbLyZAMKG" resolve="com.mbeddr.mpsutil.projectview" />
           </node>
         </node>
         <node concept="1SiIV0" id="3jVbLyZASi2" role="3bR37C">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.q60.mps.shadowmodels.examples.input" uuid="f65cad6f-55b3-4700-8f71-5f4c15c50e34" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="de.q60.mps.shadowmodels.examples.input" uuid="f65cad6f-55b3-4700-8f71-5f4c15c50e34" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="false">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

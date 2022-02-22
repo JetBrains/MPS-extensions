@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="org.modelix.model.api" uuid="cc99dce1-49f3-4392-8dbf-e22ca47bd0af" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
-    <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="models" />
-    </modelRoot>
     <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="kotlin-stdlib-common.jar" />
       <sourceRoot location="kotlin-stdlib-jdk7.jar" />

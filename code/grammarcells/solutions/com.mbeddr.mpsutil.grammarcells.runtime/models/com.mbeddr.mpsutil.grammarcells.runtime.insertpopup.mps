@@ -6565,7 +6565,9 @@
               <node concept="37vLTw" id="2EPKBwvYqDb" role="37wK5m">
                 <ref role="3cqZAo" node="2EPKBwvYlRf" resolve="POPUP_DISABLED_KEY" />
               </node>
-              <node concept="3clFbT" id="2EPKBwvYt$E" role="37wK5m" />
+              <node concept="3clFbT" id="2EPKBwvYt$E" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
             </node>
           </node>
         </node>

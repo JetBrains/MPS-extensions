@@ -1,7 +1,7 @@
 
 plugins {
     id 'maven-publish'
-    id 'org.jetbrains.kotlin.multiplatform' version '1.4.31'
+    id 'org.jetbrains.kotlin.multiplatform' version '1.6.10'
     id 'com.diffplug.gradle.spotless' version '4.5.1'
     id 'org.jlleitschuh.gradle.ktlint' version '9.3.0'
     id 'java-library'
@@ -36,7 +36,7 @@ check.dependsOn ktlintCheck
 
 kotlin {
     jvm()
-    js {
+    js(IR) {
         //browser {}
         nodejs {
             testTask {
@@ -45,11 +45,12 @@ kotlin {
                 }
             }
         }
+        binaries.executable()
     }
     sourceSets {
         commonMain {
             dependencies {
-                implementation kotlin('stdlib-common')
+                implementation kotlin('stdlib-common:1.4.31')
             }
         }
         commonTest {
@@ -60,7 +61,7 @@ kotlin {
         }
         jvmMain {
             dependencies {
-                implementation kotlin('stdlib-jdk8')
+                implementation kotlin('stdlib-jdk8:1.4.31')
                 implementation group: 'log4j', name: 'log4j', version:'1.2.17'
             }
         }
@@ -72,7 +73,7 @@ kotlin {
         }
         jsMain {
             dependencies {
-                implementation kotlin('stdlib-js')
+                implementation kotlin('stdlib-js:1.4.31')
             }
         }
         jsTest {
@@ -117,7 +118,7 @@ spotless {
 }
 
 task copyJarsToMps(type: Sync) {
-    from configurations.jvmDefault
+    from jvmJar
     from "$buildDir/libs"
     into "$projectDir/../code/model-api/org.modelix.model.api/lib"
     rename { fileName ->
@@ -126,6 +127,12 @@ task copyJarsToMps(type: Sync) {
     exclude 'log4j*.jar'
     exclude 'annotations*.jar'
 }
+
+// Workaround for M1 macs. Remove after kotlin 1.6.20 is released.
+rootProject.plugins.withType(Class.forName("org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootPlugin")) {
+    rootProject.extensions.getByType(org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension.class).nodeVersion = "16.0.0"
+}
+
 
 assemble.finalizedBy(copyJarsToMps)
 

@@ -86,6 +86,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -754,7 +757,7 @@
       <node concept="3clFbS" id="2QNuyuiMzB5" role="3clF47">
         <node concept="3clFbF" id="2QNuyuiM$PN" role="3cqZAp">
           <node concept="2YIFZM" id="61HvMZcxF4R" role="3clFbG">
-            <ref role="37wK5l" to="gunp:7wnapcW0cfS" resolve="mergePoliciesByHierarchy" />
+            <ref role="37wK5l" to="gunp:7wnapcW0cfS" resolve="run" />
             <ref role="1Pybhc" to="gunp:18W7Z4VeRuj" resolve="MergeResolverFromModelMerge" />
             <node concept="13iPFW" id="2QNuyuiM$UG" role="37wK5m" />
           </node>
@@ -793,7 +796,7 @@
             </node>
             <node concept="2OqwBi" id="3Wln5KIUhhy" role="33vP2m">
               <node concept="2YIFZM" id="61HvMZcxF4S" role="2Oq$k0">
-                <ref role="37wK5l" to="gunp:7wnapcW0cfS" resolve="mergePoliciesByHierarchy" />
+                <ref role="37wK5l" to="gunp:7wnapcW0cfS" resolve="run" />
                 <ref role="1Pybhc" to="gunp:18W7Z4VeRuj" resolve="MergeResolverFromModelMerge" />
                 <node concept="13iPFW" id="3Wln5KIUhh$" role="37wK5m" />
               </node>
@@ -1329,9 +1332,19 @@
     <node concept="13i0hz" id="1VmHfRx_0K2" role="13h7CS">
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="childLink" />
-      <property role="13i0iv" value="true" />
       <node concept="3Tm1VV" id="1VmHfRx_0K3" role="1B3o_S" />
-      <node concept="3clFbS" id="1VmHfRx_0K5" role="3clF47" />
+      <node concept="3clFbS" id="1VmHfRx_0K5" role="3clF47">
+        <node concept="YS8fn" id="6XR_ZZHtudy" role="3cqZAp">
+          <node concept="2ShNRf" id="6XR_ZZHtudW" role="YScLw">
+            <node concept="1pGfFk" id="6XR_ZZHt_nM" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+              <node concept="Xl_RD" id="6XR_ZZHt_qY" role="37wK5m">
+                <property role="Xl_RC" value="Method must be overridden by sub-concept. If it is abstract we cannot access this method from sub-interfaces (at least in 2020.3,bug?)" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3Tqbb2" id="1VmHfRx_cs0" role="3clF45">
         <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
       </node>

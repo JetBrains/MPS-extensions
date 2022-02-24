@@ -18,6 +18,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -815,6 +816,20 @@
     </node>
     <node concept="3lBaaS" id="39IQCXdjz37" role="3l$a4r">
       <node concept="3clFbS" id="39IQCXdjz38" role="2VODD2">
+        <node concept="3clFbF" id="6XR_ZZHr2MB" role="3cqZAp">
+          <node concept="2OqwBi" id="6XR_ZZHr2M$" role="3clFbG">
+            <node concept="10M0yZ" id="6XR_ZZHr2M_" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6XR_ZZHr2MA" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="Xl_RD" id="6XR_ZZHr2Up" role="37wK5m">
+                <property role="Xl_RC" value="----&gt; SC" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1VmHfRxD529" role="3cqZAp">
           <node concept="2YIFZM" id="1VmHfRxD52a" role="3clFbG">
             <ref role="37wK5l" node="1VmHfRxCZ9K" resolve="apply" />
@@ -839,6 +854,20 @@
     </node>
     <node concept="3lBaaS" id="39IQCXdkpXr" role="3l$a4r">
       <node concept="3clFbS" id="39IQCXdkpXs" role="2VODD2">
+        <node concept="3clFbF" id="6XR_ZZHr2lV" role="3cqZAp">
+          <node concept="2OqwBi" id="6XR_ZZHr2lS" role="3clFbG">
+            <node concept="10M0yZ" id="6XR_ZZHr2lT" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6XR_ZZHr2lU" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="Xl_RD" id="6XR_ZZHr2pK" role="37wK5m">
+                <property role="Xl_RC" value="---&gt; OPC" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1VmHfRxD3F2" role="3cqZAp">
           <node concept="2YIFZM" id="1VmHfRxD3F3" role="3clFbG">
             <ref role="37wK5l" node="1VmHfRxCZ9K" resolve="apply" />
@@ -1152,7 +1181,7 @@
             </node>
             <node concept="2OqwBi" id="5v01ES7yn4e" role="33vP2m">
               <node concept="37vLTw" id="5v01ES7BjM2" role="2Oq$k0">
-                <ref role="3cqZAo" node="5v01ES7Bdrv" resolve="itemPolicies2" />
+                <ref role="3cqZAo" node="5v01ES7Bdrv" resolve="itemPolicies" />
               </node>
               <node concept="3$u5V9" id="5v01ES7yn4g" role="2OqNvi">
                 <node concept="1bVj0M" id="5v01ES7yn4h" role="23t8la">
@@ -1272,7 +1301,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="5v01ES7Bdrv" role="3clF46">
-        <property role="TrG5h" value="itemPolicies2" />
+        <property role="TrG5h" value="itemPolicies" />
         <node concept="3vKaQO" id="5v01ES7Bdrw" role="1tU5fm">
           <node concept="3Tqbb2" id="5v01ES7Bdrx" role="3O5elw">
             <ref role="ehGHo" to="mopj:7jyS5urbJZ2" resolve="ItemPolicy" />
@@ -1512,6 +1541,20 @@
     <node concept="3Tm1VV" id="39IQCXdoK20" role="1B3o_S" />
     <node concept="3lBaaS" id="39IQCXdoK22" role="3l$a4r">
       <node concept="3clFbS" id="39IQCXdoK23" role="2VODD2">
+        <node concept="3clFbF" id="6XR_ZZHr1MW" role="3cqZAp">
+          <node concept="2OqwBi" id="6XR_ZZHr1MT" role="3clFbG">
+            <node concept="10M0yZ" id="6XR_ZZHr1MU" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6XR_ZZHr1MV" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="Xl_RD" id="6XR_ZZHr1Sc" role="37wK5m">
+                <property role="Xl_RC" value="---&gt; CP" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1VmHfRx$Os9" role="3cqZAp">
           <node concept="3cpWsn" id="1VmHfRx$Osa" role="3cpWs9">
             <property role="TrG5h" value="mergePol" />

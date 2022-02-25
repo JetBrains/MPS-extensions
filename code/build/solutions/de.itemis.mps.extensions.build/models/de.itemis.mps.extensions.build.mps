@@ -6650,7 +6650,7 @@
         <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
       </node>
       <node concept="m$_yC" id="5zr7Q_1BGYQ" role="m$_yJ">
-        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.libs" />
+        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
       </node>
     </node>
     <node concept="2G$12M" id="6860Y5_ZZT3" role="3989C9">
@@ -7016,7 +7016,7 @@
         </node>
         <node concept="1SiIV0" id="6IgrZARD4s0" role="3bR37C">
           <node concept="3bR9La" id="6IgrZARD4s1" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="6sRPuS7Gc7e" role="3bR37C">
@@ -7088,7 +7088,7 @@
         </node>
         <node concept="1SiIV0" id="5zr7Q_1BCpq" role="3bR37C">
           <node concept="3bR9La" id="5zr7Q_1BCpr" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="5zr7Q_1BCps" role="3bR37C">
@@ -7311,6 +7311,22 @@
               <node concept="3qWCbU" id="6XR_ZZHk50R" role="3LXTna">
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="3M9VIK_gQw0" role="3bR31x">
+          <node concept="3LXTmp" id="3M9VIK_gQw1" role="3rtmxm">
+            <node concept="398BVA" id="3M9VIK_gQw2" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="3M9VIK_gQw3" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="3M9VIK_gQw4" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.baselang" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3M9VIK_gQw6" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
           </node>
         </node>
@@ -15018,6 +15034,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="3M9VIK_gQAK" role="3bR31x">
+          <node concept="3LXTmp" id="3M9VIK_gQAL" role="3rtmxm">
+            <node concept="398BVA" id="3M9VIK_gQAM" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="3M9VIK_gQAN" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="3M9VIK_gQAO" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.diamond" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3M9VIK_gQAQ" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="2UnEDPCh8Ac" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -15054,6 +15086,22 @@
             </node>
             <node concept="3qWCbU" id="2UnEDPCh8GU" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="3M9VIK_gQBd" role="3bR31x">
+          <node concept="3LXTmp" id="3M9VIK_gQBe" role="3rtmxm">
+            <node concept="398BVA" id="3M9VIK_gQBf" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="3M9VIK_gQBg" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="3M9VIK_gQBh" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.property" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3M9VIK_gQBj" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
           </node>
         </node>
@@ -15278,7 +15326,7 @@
         </node>
         <node concept="1SiIV0" id="5RxOLvLcQPl" role="3bR37C">
           <node concept="3bR9La" id="5RxOLvLcQPm" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="5RxOLvLcQPn" role="3bR37C">
@@ -15389,7 +15437,7 @@
         </node>
         <node concept="1SiIV0" id="2UnEDPCpnsM" role="3bR37C">
           <node concept="3bR9La" id="2UnEDPCpnsN" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.libs" />
+            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="2UnEDPCpnsO" role="3bR37C">

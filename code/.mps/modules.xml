@@ -66,9 +66,6 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.collection/de.itemis.model.simple.demo.collection.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.property/de.itemis.model.simple.demo.property.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.reference/de.itemis.model.simple.demo.reference.mpl" folder="modelmerger2.test.language" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
-      <modulePath path="$PROJECT_DIR$/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/langvis/languages/com.dslfoundry.langvis.demolang/com.dslfoundry.langvis.demolang.mpl" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.demo/com.dslfoundry.langvis.demo.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" folder="langvis" />
@@ -141,7 +138,6 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.genplan.virutalinterfaces_incremental/de.q60.mps.genplan.virutalinterfaces_incremental.msd" folder="shadowmodels.examples.interpreter" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.runtime/de.q60.mps.incremental.runtime.msd" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.sandbox/de.q60.mps.incremental.sandbox.msd" folder="shadowmodels.incremental" />
-      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.libs/de.q60.mps.libs.msd" folder="shadowmodels" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.logging.runtime/de.q60.mps.logging.runtime.msd" folder="shadowmodels" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.runtime/de.q60.mps.polymorphicfunctions.runtime.msd" folder="shadowmodels.polymorphicfunctions" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.polymorphicfunctions.sandbox/de.q60.mps.polymorphicfunctions.sandbox.msd" folder="shadowmodels.polymorphicfunctions" />
@@ -157,7 +153,6 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.incremental.runtime/test.de.q60.mps.incremental.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
-      <modulePath path="$PROJECT_DIR$/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.runtime/de.itemis.model.merge.runtime.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.simple.demo/de.itemis.model.merge.simple.demo.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />

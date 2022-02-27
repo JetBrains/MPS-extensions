@@ -2073,6 +2073,11 @@
       <property role="TrG5h" value="hasFitSizeAllDiagramButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="2pXhcZQn1mg" role="1TKVEl">
+      <property role="IQ2nx" value="2773448605512242576" />
+      <property role="TrG5h" value="hasShowPortsLabels" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="25R3W" id="7WTFIQIcYq4">
     <property role="TrG5h" value="StandardShapes" />

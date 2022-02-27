@@ -5151,6 +5151,25 @@
           </node>
         </node>
       </node>
+      <node concept="3gTLQM" id="2pXhcZQn1Db" role="3EZMnx">
+        <node concept="3Fmcul" id="2pXhcZQn1Dc" role="3FoqZy">
+          <node concept="3clFbS" id="2pXhcZQn1Dd" role="2VODD2">
+            <node concept="3cpWs6" id="2pXhcZQn1De" role="3cqZAp">
+              <node concept="2OqwBi" id="2pXhcZQn1Df" role="3cqZAk">
+                <node concept="pncrf" id="2pXhcZQn1Dg" role="2Oq$k0" />
+                <node concept="2qgKlT" id="2pXhcZQn1Dh" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:4h7S3973QQF" resolve="getBooleanPropertyCheckBox" />
+                  <node concept="1Q80Hx" id="2pXhcZQn1Di" role="37wK5m" />
+                  <node concept="355D3s" id="2pXhcZQn1Dj" role="37wK5m">
+                    <ref role="355D3t" to="2qld:5ZBOFE3vobP" resolve="DiagramButtonConfig" />
+                    <ref role="355D3u" to="2qld:2pXhcZQn1mg" resolve="hasShowPortsLabels" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="2iRkQZ" id="5ZBOFE3vv3e" role="2iSdaV" />
     </node>
   </node>

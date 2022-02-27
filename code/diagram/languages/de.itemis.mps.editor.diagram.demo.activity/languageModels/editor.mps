@@ -256,6 +256,7 @@
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
         <property id="4787596715132191458" name="disableEdgeRouting" index="3ZefsU" />
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
+        <child id="6910723851735171798" name="buttonConfig" index="3sAl1G" />
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
         <child id="8637411062062914773" name="paletteFolder" index="1y_2dc" />
         <child id="1981294357059564524" name="paletteSources" index="1RuSHk" />
@@ -309,6 +310,15 @@
       <concept id="6237710625713964946" name="de.itemis.mps.editor.diagram.structure.Parameter_Node" flags="ng" index="2ZN8Hh" />
       <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ig" index="37q72E" />
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
+      <concept id="6910723851735106293" name="de.itemis.mps.editor.diagram.structure.DiagramButtonConfig" flags="ng" index="3sA_1f">
+        <property id="2773448605512242576" name="hasShowPortsLabels" index="3g8l5v" />
+        <property id="6910723851735128113" name="hasResetViewButton" index="3sAwEb" />
+        <property id="6910723851735128104" name="hasLayoutDiagramButton" index="3sAwEi" />
+        <property id="6910723851735128109" name="hasMaximizeDiagramButton" index="3sAwEn" />
+        <property id="6910723851735134393" name="hasFitSizeAllDiagramButton" index="3sAy83" />
+        <property id="6910723851735134386" name="hasZoomOutButton" index="3sAy88" />
+        <property id="6910723851735134380" name="hasZoomInButton" index="3sAy8m" />
+      </concept>
       <concept id="8637411062076624999" name="de.itemis.mps.editor.diagram.structure.Function_ConnectionTypes" flags="ig" index="1xLmZY" />
       <concept id="8637411062062623445" name="de.itemis.mps.editor.diagram.structure.Parameter_PaletteFolder_Concept" flags="ng" index="1yATlc" />
       <concept id="8637411062062430894" name="de.itemis.mps.editor.diagram.structure.Function_PaletteFolder" flags="ig" index="1yB8kR" />
@@ -1249,6 +1259,15 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="3sA_1f" id="2pXhcZQqwcX" role="3sAl1G">
+            <property role="3sAy83" value="true" />
+            <property role="3sAy88" value="true" />
+            <property role="3sAy8m" value="true" />
+            <property role="3sAwEb" value="true" />
+            <property role="3sAwEn" value="true" />
+            <property role="3sAwEi" value="true" />
+            <property role="3g8l5v" value="false" />
           </node>
         </node>
         <node concept="2w$q5c" id="5kFTseQTjoA" role="2whIAn">

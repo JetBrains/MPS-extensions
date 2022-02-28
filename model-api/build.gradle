@@ -73,7 +73,7 @@ kotlin {
         }
         jsMain {
             dependencies {
-                implementation kotlin('stdlib-js:1.4.31')
+                implementation kotlin('stdlib-js')
             }
         }
         jsTest {

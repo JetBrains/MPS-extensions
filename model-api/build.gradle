@@ -118,7 +118,7 @@ spotless {
 }
 
 task copyJarsToMps(type: Sync) {
-    from jvmJar
+    from configurations.jvmRuntimeClasspath
     from "$buildDir/libs"
     into "$projectDir/../code/model-api/org.modelix.model.api/lib"
     rename { fileName ->
@@ -131,6 +131,11 @@ task copyJarsToMps(type: Sync) {
 // Workaround for M1 macs. Remove after kotlin 1.6.20 is released.
 rootProject.plugins.withType(Class.forName("org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootPlugin")) {
     rootProject.extensions.getByType(org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootExtension.class).nodeVersion = "16.0.0"
+}
+
+configurations.each {
+    println(it)
+    println(it.canBeResolved)
 }
 
 

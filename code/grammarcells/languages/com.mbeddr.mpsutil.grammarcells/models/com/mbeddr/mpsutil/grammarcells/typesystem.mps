@@ -139,6 +139,9 @@
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
       </concept>
+      <concept id="1224760201579" name="jetbrains.mps.lang.typesystem.structure.InfoStatement" flags="nn" index="Dpp1Q">
+        <child id="1224760230762" name="infoText" index="Dpw9R" />
+      </concept>
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
@@ -528,12 +531,12 @@
     <node concept="3clFbS" id="7VjNOn_D4kw" role="18ibNy">
       <node concept="3clFbJ" id="7VjNOn_D4kM" role="3cqZAp">
         <node concept="3clFbS" id="7VjNOn_D4kN" role="3clFbx">
-          <node concept="a7r0C" id="7VjNOn_DbKX" role="3cqZAp">
-            <node concept="Xl_RD" id="7VjNOn_DbKZ" role="a7wSD">
-              <property role="Xl_RC" value="Will be inlined. Override will not work." />
-            </node>
-            <node concept="1YBJjd" id="7VjNOn_DbL_" role="1urrMF">
+          <node concept="Dpp1Q" id="708Jy55AKhe" role="3cqZAp">
+            <node concept="1YBJjd" id="708Jy55AKhA" role="1urrMF">
               <ref role="1YBMHb" node="7VjNOn_D4ky" resolve="node" />
+            </node>
+            <node concept="Xl_RD" id="7VjNOn_DbKZ" role="Dpw9R">
+              <property role="Xl_RC" value="Will be inlined. Override will not work." />
             </node>
           </node>
         </node>

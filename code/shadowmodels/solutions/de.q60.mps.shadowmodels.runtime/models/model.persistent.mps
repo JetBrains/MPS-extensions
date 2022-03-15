@@ -2,7 +2,7 @@
 <model ref="r:bef1bfa7-20fd-413a-ae11-793b0a8ee364(de.q60.mps.shadowmodels.runtime.model.persistent)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -22,6 +22,8 @@
     <import index="ouht" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin.jvm.functions(org.modelix.model.api/)" />
     <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
+    <import index="j2lp" ref="db1e4afd-933e-4c16-b066-4f7926829680/java:javaslang.collection(jetbrains.mps.kotlin.make/)" />
+    <import index="e8no" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.containers(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -14071,8 +14073,8 @@
           </node>
           <node concept="2OqwBi" id="1CWZn1pW1te" role="37wK5m">
             <node concept="2YIFZM" id="1CWZn1pW1tf" role="2Oq$k0">
-              <ref role="1Pybhc" to="87lp:~HashMultimap" resolve="HashMultimap" />
               <ref role="37wK5l" to="87lp:~HashMultimap.withSet()" resolve="withSet" />
+              <ref role="1Pybhc" to="87lp:~HashMultimap" resolve="HashMultimap" />
             </node>
             <node concept="liA8E" id="1CWZn1pW1tg" role="2OqNvi">
               <ref role="37wK5l" to="87lp:~HashMultimap$Builder.empty()" resolve="empty" />
@@ -14291,8 +14293,8 @@
             <node concept="liA8E" id="1CWZn1pU2M7" role="2OqNvi">
               <ref role="37wK5l" to="3xem:~Option.getOrElse(java.lang.Object)" resolve="getOrElse" />
               <node concept="2YIFZM" id="1CWZn1pUq3l" role="37wK5m">
-                <ref role="1Pybhc" to="87lp:~List" resolve="List" />
                 <ref role="37wK5l" to="87lp:~List.empty()" resolve="empty" />
+                <ref role="1Pybhc" to="87lp:~List" resolve="List" />
                 <node concept="3uibUv" id="1CWZn1pUztD" role="3PaCim">
                   <ref role="3uigEE" to="wyt6:~Long" resolve="Long" />
                 </node>

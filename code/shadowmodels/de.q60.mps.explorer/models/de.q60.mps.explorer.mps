@@ -2,7 +2,7 @@
 <model ref="r:340cdae2-711c-4186-bc13-94d9832e5a1d(de.q60.mps.explorer)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -1134,9 +1134,9 @@
                       <node concept="2OqwBi" id="4iwHBRd6DKm" role="2Oq$k0">
                         <node concept="2tJFMh" id="4iwHBRd6DKn" role="2Oq$k0">
                           <node concept="ZC_QK" id="4iwHBRd6DKo" role="2tJFKM">
-                            <ref role="2aWVGs" to="yo94:41QOk3IEF5c" resolve="TraceBuilders_base" />
+                            <ref role="2aWVGs" to="yo94:41QOk3IEF5c" />
                             <node concept="ZC_QK" id="476rsMJiiMu" role="2aWVGa">
-                              <ref role="2aWVGs" to="yo94:476rsMJhYDz" resolve="mainView" />
+                              <ref role="2aWVGs" to="yo94:476rsMJhYDz" />
                             </node>
                           </node>
                         </node>
@@ -1169,9 +1169,9 @@
                       <node concept="2OqwBi" id="4iwHBRd6I3j" role="2Oq$k0">
                         <node concept="2tJFMh" id="4iwHBRd6I3k" role="2Oq$k0">
                           <node concept="ZC_QK" id="4iwHBRd6I3l" role="2tJFKM">
-                            <ref role="2aWVGs" to="yo94:41QOk3IEF5c" resolve="TraceBuilders_base" />
+                            <ref role="2aWVGs" to="yo94:41QOk3IEF5c" />
                             <node concept="ZC_QK" id="4iwHBRd6TA9" role="2aWVGa">
-                              <ref role="2aWVGs" to="yo94:476rsMJikeJ" resolve="detailView" />
+                              <ref role="2aWVGs" to="yo94:476rsMJikeJ" />
                             </node>
                           </node>
                         </node>
@@ -2542,9 +2542,9 @@
                   <node concept="2OqwBi" id="1rUziX7lRg4" role="2Oq$k0">
                     <node concept="2tJFMh" id="1rUziX7lRg5" role="2Oq$k0">
                       <node concept="ZC_QK" id="1rUziX7lRg6" role="2tJFKM">
-                        <ref role="2aWVGs" to="yo94:41QOk3IEF5c" resolve="TraceBuilders_base" />
+                        <ref role="2aWVGs" to="yo94:41QOk3IEF5c" />
                         <node concept="ZC_QK" id="1rUziX7m1nb" role="2aWVGa">
-                          <ref role="2aWVGs" to="yo94:2Vy1$4MUb4Q" resolve="explorerContextGroup" />
+                          <ref role="2aWVGs" to="yo94:2Vy1$4MUb4Q" />
                         </node>
                       </node>
                     </node>
@@ -2600,9 +2600,9 @@
                     <node concept="2OqwBi" id="41QOk3IXTtY" role="2Oq$k0">
                       <node concept="2tJFMh" id="41QOk3IXSB$" role="2Oq$k0">
                         <node concept="ZC_QK" id="41QOk3IXSLX" role="2tJFKM">
-                          <ref role="2aWVGs" to="yo94:41QOk3IEF5c" resolve="TraceBuilders_base" />
+                          <ref role="2aWVGs" to="yo94:41QOk3IEF5c" />
                           <node concept="ZC_QK" id="41QOk3IXTcK" role="2aWVGa">
-                            <ref role="2aWVGs" to="yo94:41QOk3IG6WO" resolve="buildTree" />
+                            <ref role="2aWVGs" to="yo94:41QOk3IG6WO" />
                           </node>
                         </node>
                       </node>

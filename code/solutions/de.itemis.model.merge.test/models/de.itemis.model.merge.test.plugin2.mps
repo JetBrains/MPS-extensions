@@ -4,7 +4,7 @@
   <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
   </languages>
   <imports>
@@ -42,7 +42,7 @@
   </registry>
   <node concept="poArf" id="7Q5WRnfZe3x">
     <property role="TrG5h" value="MyExec" />
-    <ref role="pot50" to="rkwz:3xLnOvEDNj_" resolve="CollectionChildDiamondMerge" />
+    <ref role="pot50" to="rkwz:3xLnOvEDNj_" />
     <node concept="1Xw6AR" id="7Q5WRnfZe3y" role="ppIIL">
       <node concept="1dCxOl" id="7Q5WRnfZTSD" role="1XwpL7">
         <property role="1XweGQ" value="r:0d5e1754-6d6f-4f02-a2ac-cc148bd9863b" />

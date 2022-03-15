@@ -7,7 +7,7 @@
     <use id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="test.de.itemis.mps.modelmerger.testlanguage" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
   </languages>
@@ -246,18 +246,18 @@
         <property role="TrG5h" value="sys1" />
         <node concept="2Ro54s" id="2gRlde2S8np" role="2Ro1FI">
           <property role="2Ro54t" value="comp1" />
-          <ref role="2Ro54d" node="2gRlde2S8nv" resolve="out1" />
-          <ref role="2Ro54e" node="2gRlde2S8ns" resolve="in1" />
+          <ref role="2Ro54d" node="2gRlde2S8nv" />
+          <ref role="2Ro54e" node="2gRlde2S8ns" />
           <node concept="2AYNss" id="2gRlde2S8nq" role="2Ro54j">
             <property role="TrG5h" value="subComp1" />
-            <ref role="2AYWQ5" node="2gRlde2S8nt" resolve="in2" />
-            <ref role="2AYWQb" node="2gRlde2S8nw" resolve="out2" />
+            <ref role="2AYWQ5" node="2gRlde2S8nt" />
+            <ref role="2AYWQb" node="2gRlde2S8nw" />
           </node>
         </node>
         <node concept="2Ro54s" id="2gRlde2S8nr" role="2Ro1FI">
           <property role="2Ro54t" value="comp2" />
-          <ref role="2Ro54e" node="2gRlde2S8nu" resolve="in3" />
-          <ref role="2Ro54d" node="2gRlde2S8nx" resolve="out3" />
+          <ref role="2Ro54e" node="2gRlde2S8nu" />
+          <ref role="2Ro54d" node="2gRlde2S8nx" />
         </node>
         <node concept="2Ro54h" id="2gRlde2S8ns" role="2Ro1FG">
           <property role="TrG5h" value="in1" />
@@ -293,18 +293,18 @@
         <property role="TrG5h" value="sys1" />
         <node concept="2Ro54s" id="4Z26wkKkyLJ" role="2Ro1FI">
           <property role="2Ro54t" value="comp1" />
-          <ref role="2Ro54d" node="4Z26wkKkyLP" resolve="out1" />
-          <ref role="2Ro54e" node="4Z26wkKkyLM" resolve="in1" />
+          <ref role="2Ro54d" node="4Z26wkKkyLP" />
+          <ref role="2Ro54e" node="4Z26wkKkyLM" />
           <node concept="2AYNss" id="4Z26wkKkyLK" role="2Ro54j">
             <property role="TrG5h" value="subComp1" />
-            <ref role="2AYWQb" node="4Z26wkKkyLQ" resolve="out2" />
-            <ref role="2AYWQ5" node="4Z26wkKkyLN" resolve="in2" />
+            <ref role="2AYWQb" node="4Z26wkKkyLQ" />
+            <ref role="2AYWQ5" node="4Z26wkKkyLN" />
           </node>
         </node>
         <node concept="2Ro54s" id="4Z26wkKkyLL" role="2Ro1FI">
           <property role="2Ro54t" value="comp2" />
-          <ref role="2Ro54d" node="4Z26wkKkyLR" resolve="out3" />
-          <ref role="2Ro54e" node="4Z26wkKkyLO" resolve="in3" />
+          <ref role="2Ro54d" node="4Z26wkKkyLR" />
+          <ref role="2Ro54e" node="4Z26wkKkyLO" />
         </node>
         <node concept="2Ro54h" id="4Z26wkKkyLM" role="2Ro1FG">
           <property role="TrG5h" value="in1" />

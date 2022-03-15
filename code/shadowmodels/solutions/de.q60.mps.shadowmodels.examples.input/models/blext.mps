@@ -4,7 +4,7 @@
   <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" name="de.q60.mps.shadowmodels.examples.blext" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
   </languages>
   <imports>
@@ -382,7 +382,7 @@
         <node concept="1O9KAR" id="7c10t$7b2dh" role="3cqZAp">
           <property role="TrG5h" value="d" />
           <node concept="1Obn3K" id="7c10t$7ba42" role="1O9KAF">
-            <ref role="1Obn3N" node="7c10t$7b0WX" resolve="a" />
+            <ref role="1Obn3N" node="7c10t$7b0WX" />
           </node>
         </node>
         <node concept="1O9KAR" id="7c10t$7dOU3" role="3cqZAp">
@@ -411,10 +411,10 @@
           <property role="TrG5h" value="h" />
           <node concept="3cpWs3" id="7c10t$7bbcu" role="1O9KAF">
             <node concept="1Obn3K" id="7c10t$7bbcD" role="3uHU7w">
-              <ref role="1Obn3N" node="7c10t$7b2by" resolve="c" />
+              <ref role="1Obn3N" node="7c10t$7b2by" />
             </node>
             <node concept="1Obn3K" id="7c10t$7bbbw" role="3uHU7B">
-              <ref role="1Obn3N" node="7c10t$7b0WX" resolve="a" />
+              <ref role="1Obn3N" node="7c10t$7b0WX" />
             </node>
           </node>
         </node>
@@ -422,10 +422,10 @@
           <property role="TrG5h" value="i" />
           <node concept="3cpWs3" id="7c10t$7bbZf" role="1O9KAF">
             <node concept="1Obn3K" id="7c10t$7bbZq" role="3uHU7w">
-              <ref role="1Obn3N" node="7c10t$7b2ac" resolve="b" />
+              <ref role="1Obn3N" node="7c10t$7b2ac" />
             </node>
             <node concept="1Obn3K" id="7c10t$7bbHC" role="3uHU7B">
-              <ref role="1Obn3N" node="7c10t$7b0WX" resolve="a" />
+              <ref role="1Obn3N" node="7c10t$7b0WX" />
             </node>
           </node>
         </node>
@@ -433,10 +433,10 @@
           <property role="TrG5h" value="j" />
           <node concept="3cpWs3" id="7c10t$7bdfh" role="1O9KAF">
             <node concept="1Obn3K" id="7c10t$7bdfs" role="3uHU7w">
-              <ref role="1Obn3N" node="7c10t$7bbGr" resolve="i" />
+              <ref role="1Obn3N" node="7c10t$7bbGr" />
             </node>
             <node concept="1Obn3K" id="7c10t$7bd6B" role="3uHU7B">
-              <ref role="1Obn3N" node="7c10t$7bba_" resolve="h" />
+              <ref role="1Obn3N" node="7c10t$7bba_" />
             </node>
           </node>
         </node>

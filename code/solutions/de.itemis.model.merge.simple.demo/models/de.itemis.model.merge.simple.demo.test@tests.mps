@@ -8,7 +8,7 @@
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" name="de.itemis.model.simple.demo.children" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="e50b0500-6fd7-4c7f-a730-9d841358ce8b" name="de.itemis.model.simple.demo.collection" version="0" />
     <use id="36ead753-43ea-471e-bcb9-d4fb1e637bbc" name="de.itemis.model.simple.demo.collection.keeper" version="0" />
     <use id="6001215c-aa6e-4f9f-bfc2-f22e3c7250b2" name="de.itemis.model.simple.demo.reference" version="0" />
@@ -463,7 +463,7 @@
     <node concept="1qefOq" id="6Ltuup4vyIk" role="1SKRRt">
       <node concept="poArf" id="3E$7ALWCqlQ" role="1qenE9">
         <property role="TrG5h" value="MergeExecutionProperty" />
-        <ref role="pot50" to="2y6h:3xLnOvEDNj_" resolve="SimplePropertyMerger" />
+        <ref role="pot50" to="2y6h:3xLnOvEDNj_" />
         <node concept="1Xw6AR" id="32ggi2DGrDB" role="ppIIL">
           <node concept="1dCxOl" id="6Ltuup4vAbY" role="1XwpL7">
             <property role="1XweGQ" value="r:9de9fed1-1745-49eb-9514-8cb24d2a34d4" />
@@ -553,7 +553,7 @@
     <node concept="1qefOq" id="6Ltuup4wNKx" role="1SKRRt">
       <node concept="poArf" id="3pc485Vw7QH" role="1qenE9">
         <property role="TrG5h" value="ManualChildMergeExec" />
-        <ref role="pot50" to="2y6h:3pc485VtLVe" resolve="ManualChildMerger" />
+        <ref role="pot50" to="2y6h:3pc485VtLVe" />
         <node concept="1Xw6AR" id="3pc485Vw7QI" role="ppIIL">
           <node concept="1dCxOl" id="3pc485Vw7QS" role="1XwpL7">
             <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
@@ -653,7 +653,7 @@
     <node concept="1qefOq" id="6Ltuup4wYSx" role="1SKRRt">
       <node concept="poArf" id="3pc485VUmPz" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoExec" />
-        <ref role="pot50" to="2y6h:3pc485VUmUI" resolve="ChildMergerAuto" />
+        <ref role="pot50" to="2y6h:3pc485VUmUI" />
         <node concept="1Xw6AR" id="3pc485VUmP$" role="ppIIL">
           <node concept="1dCxOl" id="3pc485VUmP_" role="1XwpL7">
             <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
@@ -1256,7 +1256,7 @@
     <node concept="1qefOq" id="77Ot_5af$7N" role="1SKRRt">
       <node concept="poArf" id="77Ot_5af$7O" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoExec1" />
-        <ref role="pot50" to="2y6h:6Ltuup4JpkP" resolve="CollectionChildMerger" />
+        <ref role="pot50" to="2y6h:6Ltuup4JpkP" />
         <node concept="1Xw6AR" id="77Ot_5af$7P" role="ppIIL">
           <node concept="1dCxOl" id="77Ot_5af$u3" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
@@ -1292,7 +1292,7 @@
     <node concept="1qefOq" id="77Ot_5aj$su" role="1SKRRt">
       <node concept="poArf" id="77Ot_5aj$sv" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoExec1" />
-        <ref role="pot50" to="2y6h:77Ot_5ah$Cn" resolve="CollectionChildMergerDropL" />
+        <ref role="pot50" to="2y6h:77Ot_5ah$Cn" />
         <node concept="1Xw6AR" id="77Ot_5aj$sw" role="ppIIL">
           <node concept="1dCxOl" id="77Ot_5aj$sx" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
@@ -1331,7 +1331,7 @@
     <node concept="1qefOq" id="77Ot_5ah$pV" role="1SKRRt">
       <node concept="poArf" id="77Ot_5ah$pW" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoExec1" />
-        <ref role="pot50" to="2y6h:77Ot_5aj$1b" resolve="CollectionChildMergerDropR" />
+        <ref role="pot50" to="2y6h:77Ot_5aj$1b" />
         <node concept="1Xw6AR" id="77Ot_5ah$pX" role="ppIIL">
           <node concept="1dCxOl" id="77Ot_5ah$pY" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
@@ -1370,7 +1370,7 @@
     <node concept="1qefOq" id="77Ot_5an$ve" role="1SKRRt">
       <node concept="poArf" id="77Ot_5an$Bn" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoExec1" />
-        <ref role="pot50" to="2y6h:77Ot_5alyUD" resolve="CollectionChildMergerManual" />
+        <ref role="pot50" to="2y6h:77Ot_5alyUD" />
         <node concept="1Xw6AR" id="77Ot_5an$Bo" role="ppIIL">
           <node concept="1dCxOl" id="77Ot_5an$Bp" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
@@ -1406,7 +1406,7 @@
     <node concept="1qefOq" id="1IpxBNKeTTH" role="1SKRRt">
       <node concept="poArf" id="1IpxBNKeTUB" role="1qenE9">
         <property role="TrG5h" value="KeeperOfCollection" />
-        <ref role="pot50" to="2y6h:5CYFCJDUPYY" resolve="KeeperOfCollectionMerger" />
+        <ref role="pot50" to="2y6h:5CYFCJDUPYY" />
         <node concept="1Xw6AR" id="1IpxBNKeTUC" role="ppIIL">
           <node concept="1dCxOl" id="1IpxBNKeTUR" role="1XwpL7">
             <property role="1XweGQ" value="r:10817a5e-6659-4644-b085-8f24104ad4a4" />
@@ -1451,7 +1451,7 @@
     <node concept="1qefOq" id="30FY4ILVPEM" role="1SKRRt">
       <node concept="poArf" id="30FY4ILR2Zi" role="1qenE9">
         <property role="TrG5h" value="ChildMergeAutoManualAutoExec" />
-        <ref role="pot50" to="2y6h:30FY4ILQVHn" resolve="ChildMergerAutoAndManualAuto" />
+        <ref role="pot50" to="2y6h:30FY4ILQVHn" />
         <node concept="1Xw6AR" id="30FY4ILR2Zj" role="ppIIL">
           <node concept="1dCxOl" id="30FY4ILR2Zk" role="1XwpL7">
             <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
@@ -1489,7 +1489,7 @@
     <node concept="1qefOq" id="30FY4IMd9Uc" role="1SKRRt">
       <node concept="poArf" id="30FY4IMaPhH" role="1qenE9">
         <property role="TrG5h" value="CollectionAutoManualExecution" />
-        <ref role="pot50" to="2y6h:30FY4IM3W2N" resolve="CollectionChildMergerAuto" />
+        <ref role="pot50" to="2y6h:30FY4IM3W2N" />
         <node concept="1Xw6AR" id="30FY4IMaPhI" role="ppIIL">
           <node concept="1dCxOl" id="30FY4IMaPhJ" role="1XwpL7">
             <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
@@ -1751,7 +1751,7 @@
     <node concept="1qefOq" id="1Tugx$wUtr" role="1SKRRt">
       <node concept="poArf" id="46ucjsetovI" role="1qenE9">
         <property role="TrG5h" value="RefMergeExecution" />
-        <ref role="pot50" to="2y6h:46ucjsetp2K" resolve="RefMerge" />
+        <ref role="pot50" to="2y6h:46ucjsetp2K" />
         <node concept="1Xw6AR" id="46ucjsetovJ" role="ppIIL">
           <node concept="1dCxOl" id="46ucjseto$T" role="1XwpL7">
             <property role="1XweGQ" value="r:c1a6b678-b9ca-460d-8c8c-f397d740b4bf" />
@@ -1810,7 +1810,7 @@
     <node concept="1qefOq" id="1Tugx_rRY1" role="1SKRRt">
       <node concept="poArf" id="1Tugx_8FCD" role="1qenE9">
         <property role="TrG5h" value="RefMergeManualExecution" />
-        <ref role="pot50" to="2y6h:1Tugx$DriK" resolve="RefMergeManual" />
+        <ref role="pot50" to="2y6h:1Tugx$DriK" />
         <node concept="1Xw6AR" id="1Tugx_8FCE" role="ppIIL">
           <node concept="1dCxOl" id="1Tugx_8FCF" role="1XwpL7">
             <property role="1XweGQ" value="r:c1a6b678-b9ca-460d-8c8c-f397d740b4bf" />

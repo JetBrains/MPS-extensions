@@ -23,7 +23,7 @@ import java.time.LocalDateTime
 
 
 wrapper {
-    gradleVersion '6.6'
+    gradleVersion '7.4.1'
     distributionType 'all'
 }
 

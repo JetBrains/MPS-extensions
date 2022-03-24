@@ -274,6 +274,7 @@ task cleanMps(type: Delete) {
 }
 
 clean.dependsOn cleanMps
+assemble.dependsOn packageExtensions
 
 publishing {
     repositories {

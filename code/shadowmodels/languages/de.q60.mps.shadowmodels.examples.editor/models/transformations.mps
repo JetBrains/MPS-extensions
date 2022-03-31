@@ -46,7 +46,7 @@
         <reference id="7335687028107243171" name="link" index="027rv" />
         <child id="7335687028107243173" name="child" index="027rp" />
       </concept>
-      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ng" index="02i3D">
+      <concept id="7335687028107163797" name="de.q60.mps.shadowmodels.transformation.structure.TConceptType" flags="ig" index="02i3D">
         <reference id="7335687028107163800" name="concept" index="02i3$" />
       </concept>
       <concept id="7335687028107163788" name="de.q60.mps.shadowmodels.transformation.structure.TransformationParameter" flags="ng" index="02i3K">
@@ -109,7 +109,7 @@
     </node>
     <node concept="2OrE70" id="3CYlK6yhOuc" role="02uzr" />
     <node concept="02vpq" id="3CYlK6yhOvk" role="02uzr">
-      <ref role="1YyVLo" node="5o5qH$CQKdJ" />
+      <ref role="1YyVLo" node="5o5qH$CQKdJ" resolve="render" />
       <node concept="02i3K" id="3CYlK6yhOvz" role="02i3f">
         <node concept="02i3D" id="3CYlK6yhOvF" role="02i2B">
           <ref role="02i3$" to="tpee:fz12cDA" resolve="ClassConcept" />
@@ -167,7 +167,7 @@
                 </node>
               </node>
               <node concept="214gnc" id="3CYlK6yhPKl" role="2PWHRo">
-                <ref role="1YEVMl" node="5o5qH$CQKdJ" />
+                <ref role="1YEVMl" node="5o5qH$CQKdJ" resolve="render" />
                 <node concept="214o7A" id="3CYlK6yhRiU" role="214sll" />
               </node>
             </node>
@@ -189,7 +189,7 @@
     </node>
     <node concept="2OrE70" id="3CYlK6yicOu" role="02uzr" />
     <node concept="02vpq" id="3CYlK6yicyY" role="02uzr">
-      <ref role="1YyVLo" node="5o5qH$CQKdJ" />
+      <ref role="1YyVLo" node="5o5qH$CQKdJ" resolve="render" />
       <node concept="02i3K" id="3CYlK6yicyZ" role="02i3f">
         <node concept="02i3D" id="3CYlK6yicIU" role="02i2B">
           <ref role="02i3$" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
@@ -252,7 +252,7 @@
           <node concept="027rt" id="3CYlK6yiczh" role="02LM9">
             <ref role="027rv" to="6ysr:3CYlK6yhHqM" resolve="childCells" />
             <node concept="214gnc" id="3CYlK6yidRY" role="027rp">
-              <ref role="1YEVMl" node="5o5qH$CQKdJ" />
+              <ref role="1YEVMl" node="5o5qH$CQKdJ" resolve="render" />
               <node concept="2OqwBi" id="3CYlK6yief7" role="214sll">
                 <node concept="214o7A" id="3CYlK6yidS1" role="2Oq$k0" />
                 <node concept="3TrEf2" id="3CYlK6yieUN" role="2OqNvi">
@@ -279,7 +279,7 @@
     <node concept="2OrE70" id="3CYlK6yhOva" role="02uzr" />
     <node concept="2OrE70" id="3CYlK6yictb" role="02uzr" />
     <node concept="02vpq" id="3CYlK6yhRul" role="02uzr">
-      <ref role="1YyVLo" node="5o5qH$CQKdJ" />
+      <ref role="1YyVLo" node="5o5qH$CQKdJ" resolve="render" />
       <node concept="026TG" id="3CYlK6yhRve" role="026TK">
         <node concept="027og" id="3CYlK6yhRvn" role="026TJ">
           <ref role="02LMe" to="6ysr:3CYlK6yi7i5" resolve="ErrorCell" />

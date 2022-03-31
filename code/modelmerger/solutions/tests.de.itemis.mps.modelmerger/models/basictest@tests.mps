@@ -246,18 +246,18 @@
         <property role="TrG5h" value="sys1" />
         <node concept="2Ro54s" id="2gRlde2S8np" role="2Ro1FI">
           <property role="2Ro54t" value="comp1" />
-          <ref role="2Ro54d" node="2gRlde2S8nv" />
-          <ref role="2Ro54e" node="2gRlde2S8ns" />
+          <ref role="2Ro54d" node="2gRlde2S8nv" resolve="out1" />
+          <ref role="2Ro54e" node="2gRlde2S8ns" resolve="in1" />
           <node concept="2AYNss" id="2gRlde2S8nq" role="2Ro54j">
             <property role="TrG5h" value="subComp1" />
-            <ref role="2AYWQ5" node="2gRlde2S8nt" />
-            <ref role="2AYWQb" node="2gRlde2S8nw" />
+            <ref role="2AYWQ5" node="2gRlde2S8nt" resolve="in2" />
+            <ref role="2AYWQb" node="2gRlde2S8nw" resolve="out2" />
           </node>
         </node>
         <node concept="2Ro54s" id="2gRlde2S8nr" role="2Ro1FI">
           <property role="2Ro54t" value="comp2" />
-          <ref role="2Ro54e" node="2gRlde2S8nu" />
-          <ref role="2Ro54d" node="2gRlde2S8nx" />
+          <ref role="2Ro54e" node="2gRlde2S8nu" resolve="in3" />
+          <ref role="2Ro54d" node="2gRlde2S8nx" resolve="out3" />
         </node>
         <node concept="2Ro54h" id="2gRlde2S8ns" role="2Ro1FG">
           <property role="TrG5h" value="in1" />
@@ -293,18 +293,18 @@
         <property role="TrG5h" value="sys1" />
         <node concept="2Ro54s" id="4Z26wkKkyLJ" role="2Ro1FI">
           <property role="2Ro54t" value="comp1" />
-          <ref role="2Ro54d" node="4Z26wkKkyLP" />
-          <ref role="2Ro54e" node="4Z26wkKkyLM" />
+          <ref role="2Ro54d" node="4Z26wkKkyLP" resolve="out1" />
+          <ref role="2Ro54e" node="4Z26wkKkyLM" resolve="in1" />
           <node concept="2AYNss" id="4Z26wkKkyLK" role="2Ro54j">
             <property role="TrG5h" value="subComp1" />
-            <ref role="2AYWQb" node="4Z26wkKkyLQ" />
-            <ref role="2AYWQ5" node="4Z26wkKkyLN" />
+            <ref role="2AYWQb" node="4Z26wkKkyLQ" resolve="out2" />
+            <ref role="2AYWQ5" node="4Z26wkKkyLN" resolve="in2" />
           </node>
         </node>
         <node concept="2Ro54s" id="4Z26wkKkyLL" role="2Ro1FI">
           <property role="2Ro54t" value="comp2" />
-          <ref role="2Ro54d" node="4Z26wkKkyLR" />
-          <ref role="2Ro54e" node="4Z26wkKkyLO" />
+          <ref role="2Ro54d" node="4Z26wkKkyLR" resolve="out3" />
+          <ref role="2Ro54e" node="4Z26wkKkyLO" resolve="in3" />
         </node>
         <node concept="2Ro54h" id="4Z26wkKkyLM" role="2Ro1FG">
           <property role="TrG5h" value="in1" />

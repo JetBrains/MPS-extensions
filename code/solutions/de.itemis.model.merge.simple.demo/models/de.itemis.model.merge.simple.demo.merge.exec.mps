@@ -39,7 +39,7 @@
   </registry>
   <node concept="poArf" id="3E$7ALWCqlQ">
     <property role="TrG5h" value="MergeExecutionProperty" />
-    <ref role="pot50" to="2y6h:3xLnOvEDNj_" />
+    <ref role="pot50" to="2y6h:3xLnOvEDNj_" resolve="SimplePropertyMerger" />
     <node concept="1Xw6AR" id="32ggi2DGrDB" role="ppIIL">
       <node concept="1dCxOl" id="6qrKgEqmZA6" role="1XwpL7">
         <property role="1XweGQ" value="r:9de9fed1-1745-49eb-9514-8cb24d2a34d4" />
@@ -67,7 +67,7 @@
   </node>
   <node concept="poArf" id="3pc485Vw7QH">
     <property role="TrG5h" value="ManualChildMergeExec" />
-    <ref role="pot50" to="2y6h:3pc485VtLVe" />
+    <ref role="pot50" to="2y6h:3pc485VtLVe" resolve="ManualChildMerger" />
     <node concept="1Xw6AR" id="3pc485Vw7QI" role="ppIIL">
       <node concept="1dCxOl" id="3pc485Vw7QS" role="1XwpL7">
         <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
@@ -95,7 +95,7 @@
   </node>
   <node concept="poArf" id="3pc485VUmPz">
     <property role="TrG5h" value="ChildMergeAutoExec" />
-    <ref role="pot50" to="2y6h:3pc485VUmUI" />
+    <ref role="pot50" to="2y6h:3pc485VUmUI" resolve="ChildMergerAuto" />
     <node concept="1Xw6AR" id="3pc485VUmP$" role="ppIIL">
       <node concept="1dCxOl" id="3pc485VUmP_" role="1XwpL7">
         <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
@@ -123,7 +123,7 @@
   </node>
   <node concept="poArf" id="6Ltuup4Cbf3">
     <property role="TrG5h" value="CollectionAutoExecution" />
-    <ref role="pot50" to="2y6h:6Ltuup4JpkP" />
+    <ref role="pot50" to="2y6h:6Ltuup4JpkP" resolve="CollectionChildMerger" />
     <node concept="1Xw6AR" id="6Ltuup4Cbf4" role="ppIIL">
       <node concept="1dCxOl" id="6Ltuup4CeGD" role="1XwpL7">
         <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
@@ -151,7 +151,7 @@
   </node>
   <node concept="poArf" id="5CYFCJDUPJK">
     <property role="TrG5h" value="KeeperOfCollection" />
-    <ref role="pot50" to="2y6h:5CYFCJDUPYY" />
+    <ref role="pot50" to="2y6h:5CYFCJDUPYY" resolve="KeeperOfCollectionMerger" />
     <node concept="1Xw6AR" id="5CYFCJDUPJL" role="ppIIL">
       <node concept="1dCxOl" id="5CYFCJDUPJV" role="1XwpL7">
         <property role="1XweGQ" value="r:10817a5e-6659-4644-b085-8f24104ad4a4" />
@@ -179,7 +179,7 @@
   </node>
   <node concept="poArf" id="30FY4ILR2Zi">
     <property role="TrG5h" value="ChildMergeAutoManualAutoExec" />
-    <ref role="pot50" to="2y6h:30FY4ILQVHn" />
+    <ref role="pot50" to="2y6h:30FY4ILQVHn" resolve="ChildMergerAutoAndManualAuto" />
     <node concept="1Xw6AR" id="30FY4ILR2Zj" role="ppIIL">
       <node concept="1dCxOl" id="30FY4ILR2Zk" role="1XwpL7">
         <property role="1XweGQ" value="r:de7dfd54-d52a-48c3-ad0b-4ff50c9fe414" />
@@ -207,7 +207,7 @@
   </node>
   <node concept="poArf" id="30FY4IMaPhH">
     <property role="TrG5h" value="CollectionAutoManualExecution" />
-    <ref role="pot50" to="2y6h:30FY4IM3W2N" />
+    <ref role="pot50" to="2y6h:30FY4IM3W2N" resolve="CollectionChildMergerAuto" />
     <node concept="1Xw6AR" id="30FY4IMaPhI" role="ppIIL">
       <node concept="1dCxOl" id="30FY4IMaPhJ" role="1XwpL7">
         <property role="1XweGQ" value="r:32ed39b4-b631-432e-9637-e27817b30223" />
@@ -235,7 +235,7 @@
   </node>
   <node concept="poArf" id="46ucjsetovI">
     <property role="TrG5h" value="RefMergeExecution" />
-    <ref role="pot50" to="2y6h:46ucjsetp2K" />
+    <ref role="pot50" to="2y6h:46ucjsetp2K" resolve="RefMerge" />
     <node concept="1Xw6AR" id="46ucjsetovJ" role="ppIIL">
       <node concept="1dCxOl" id="46ucjseto$T" role="1XwpL7">
         <property role="1XweGQ" value="r:c1a6b678-b9ca-460d-8c8c-f397d740b4bf" />
@@ -263,7 +263,7 @@
   </node>
   <node concept="poArf" id="1Tugx_8FCD">
     <property role="TrG5h" value="RefMergeManualExecution" />
-    <ref role="pot50" to="2y6h:1Tugx$DriK" />
+    <ref role="pot50" to="2y6h:1Tugx$DriK" resolve="RefMergeManual" />
     <node concept="1Xw6AR" id="1Tugx_8FCE" role="ppIIL">
       <node concept="1dCxOl" id="1Tugx_8FCF" role="1XwpL7">
         <property role="1XweGQ" value="r:c1a6b678-b9ca-460d-8c8c-f397d740b4bf" />

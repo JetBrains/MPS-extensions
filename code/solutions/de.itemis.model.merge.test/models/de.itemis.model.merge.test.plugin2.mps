@@ -42,7 +42,7 @@
   </registry>
   <node concept="poArf" id="7Q5WRnfZe3x">
     <property role="TrG5h" value="MyExec" />
-    <ref role="pot50" to="rkwz:3xLnOvEDNj_" />
+    <ref role="pot50" to="rkwz:3xLnOvEDNj_" resolve="CollectionChildDiamondMerge" />
     <node concept="1Xw6AR" id="7Q5WRnfZe3y" role="ppIIL">
       <node concept="1dCxOl" id="7Q5WRnfZTSD" role="1XwpL7">
         <property role="1XweGQ" value="r:0d5e1754-6d6f-4f02-a2ac-cc148bd9863b" />

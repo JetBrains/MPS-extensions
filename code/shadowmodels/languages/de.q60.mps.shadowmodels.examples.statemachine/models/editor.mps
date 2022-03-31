@@ -376,9 +376,9 @@
                                 <node concept="2OqwBi" id="2VTIUrjyZQZ" role="2Oq$k0">
                                   <node concept="2tJFMh" id="2VTIUrjyXo3" role="2Oq$k0">
                                     <node concept="ZC_QK" id="2VTIUrjyXWQ" role="2tJFKM">
-                                      <ref role="2aWVGs" to="5hyg:2VTIUrjljvw" />
+                                      <ref role="2aWVGs" to="5hyg:2VTIUrjljvw" resolve="StatemachineAsTable" />
                                       <node concept="ZC_QK" id="2FosA_pNkUv" role="2aWVGa">
-                                        <ref role="2aWVGs" to="5hyg:2FosA_pLyUk" />
+                                        <ref role="2aWVGs" to="5hyg:2FosA_pLyUk" resolve="tableOnCopy" />
                                       </node>
                                     </node>
                                   </node>

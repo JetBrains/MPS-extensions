@@ -5290,7 +5290,7 @@
             <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
           </node>
           <node concept="3uibUv" id="1U8SBodH535" role="1pMfVU">
-            <ref role="3uigEE" node="5bqHObSR6HQ" resolve="CacheEntry" />
+            <ref role="3uigEE" node="5bqHObSR6HQ" resolve="IncrementalData.CacheEntry" />
           </node>
         </node>
       </node>
@@ -7875,7 +7875,7 @@
           <node concept="1pGfFk" id="1U8SBodH52R" role="2ShVmc">
             <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
             <node concept="3uibUv" id="1U8SBodH52S" role="1pMfVU">
-              <ref role="3uigEE" node="5bqHObSR6HQ" resolve="CacheEntry" />
+              <ref role="3uigEE" node="5bqHObSR6HQ" resolve="IncrementalData.CacheEntry" />
             </node>
           </node>
         </node>
@@ -7892,7 +7892,7 @@
           <node concept="1pGfFk" id="1U8SBodH52V" role="2ShVmc">
             <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
             <node concept="3uibUv" id="1U8SBodH52W" role="1pMfVU">
-              <ref role="3uigEE" node="5bqHObSR6HQ" resolve="CacheEntry" />
+              <ref role="3uigEE" node="5bqHObSR6HQ" resolve="IncrementalData.CacheEntry" />
             </node>
           </node>
         </node>

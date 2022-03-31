@@ -140,7 +140,7 @@
         <child id="6554619383005758749" name="shape" index="2316E4" />
         <child id="6554619383005758750" name="positionX" index="2316E7" />
       </concept>
-      <concept id="6554619383003875357" name="de.itemis.mps.editor.diagram.structure.InlineEditorComponent" flags="ng" index="238au4" />
+      <concept id="6554619383003875357" name="de.itemis.mps.editor.diagram.structure.InlineEditorComponent" flags="ig" index="238au4" />
       <concept id="6554619383001456866" name="de.itemis.mps.editor.diagram.structure.PortEndpointTarget" flags="ng" index="23hSXV">
         <child id="6554619383001456867" name="portName" index="23hSXU" />
         <child id="6554619383001456869" name="box" index="23hSXW" />
@@ -160,14 +160,14 @@
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
         <child id="8587703283523592242" name="endpointTo" index="1PN8qh" />
       </concept>
-      <concept id="7464726264122071752" name="de.itemis.mps.editor.diagram.structure.Function_GetShape" flags="ng" index="2x7_8O" />
+      <concept id="7464726264122071752" name="de.itemis.mps.editor.diagram.structure.Function_GetShape" flags="ig" index="2x7_8O" />
       <concept id="7464726264117247548" name="de.itemis.mps.editor.diagram.structure.ShapeDefinition" flags="ng" index="2xDbr0">
         <child id="7464726264122072737" name="getShape" index="2x7_pt" />
         <child id="7464726264118062179" name="draw" index="2xOiiv" />
         <child id="3454709602156469310" name="parameters" index="1xmOgE" />
       </concept>
       <concept id="7464726264117281947" name="de.itemis.mps.editor.diagram.structure.Parameter_Bounds" flags="ng" index="2xDkLB" />
-      <concept id="7464726264117345981" name="de.itemis.mps.editor.diagram.structure.Function_DrawShape" flags="ng" index="2xDzp1" />
+      <concept id="7464726264117345981" name="de.itemis.mps.editor.diagram.structure.Function_DrawShape" flags="ig" index="2xDzp1" />
       <concept id="7464726264117388668" name="de.itemis.mps.editor.diagram.structure.Parameter_Graphics2D" flags="ng" index="2xDIQ0" />
       <concept id="7464726264117677937" name="de.itemis.mps.editor.diagram.structure.ShapeReference" flags="ng" index="2xQOud">
         <reference id="7464726264117677938" name="shape" index="2xQOue" />
@@ -183,7 +183,7 @@
       </concept>
       <concept id="7890587897031711745" name="de.itemis.mps.editor.diagram.structure.Content_GenericEdgeQuery" flags="ng" index="2M4Efz" />
       <concept id="5468226901223973329" name="de.itemis.mps.editor.diagram.structure.PortObject" flags="ng" index="15kUEO" />
-      <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ng" index="37q72E" />
+      <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ig" index="37q72E" />
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
       <concept id="3454709602156468860" name="de.itemis.mps.editor.diagram.structure.ShapeParameterDeclaration" flags="ng" index="1xmO9C">
         <child id="3454709602156468949" name="type" index="1xmOb1" />
@@ -191,7 +191,7 @@
       <concept id="3454709602156593329" name="de.itemis.mps.editor.diagram.structure.ShapeParameterReference" flags="ng" index="1xnly_">
         <reference id="3454709602156593404" name="parameter" index="1xnlzC" />
       </concept>
-      <concept id="8637411062076624999" name="de.itemis.mps.editor.diagram.structure.Function_ConnectionTypes" flags="ng" index="1xLmZY" />
+      <concept id="8637411062076624999" name="de.itemis.mps.editor.diagram.structure.Function_ConnectionTypes" flags="ig" index="1xLmZY" />
       <concept id="8587703283523590697" name="de.itemis.mps.editor.diagram.structure.ConnectionEndpoint" flags="ng" index="1PNbMa">
         <child id="9064581101900868073" name="target" index="ljJml" />
         <child id="8587703283523590803" name="shape" index="1PNbKK" />
@@ -360,7 +360,7 @@
                   <property role="$nhwW" value="1.0" />
                 </node>
                 <node concept="2xQOud" id="4s$H8QXjPaD" role="2316E4">
-                  <ref role="2xQOue" node="4Te4zGtlJMP" />
+                  <ref role="2xQOue" node="4Te4zGtlJMP" resolve="Ellipsis" />
                 </node>
               </node>
             </node>
@@ -482,7 +482,7 @@
                 </node>
               </node>
               <node concept="2xQOud" id="6clvLV1HfEO" role="1PNbKK">
-                <ref role="2xQOue" node="4Te4zGtlJMP" />
+                <ref role="2xQOue" node="4Te4zGtlJMP" resolve="Ellipsis" />
               </node>
             </node>
             <node concept="1PNbMa" id="6clvLV1H9kE" role="1PN8qh">
@@ -500,7 +500,7 @@
                 </node>
               </node>
               <node concept="2xQOud" id="6clvLV1HfHo" role="1PNbKK">
-                <ref role="2xQOue" node="7z30MUmeewT" />
+                <ref role="2xQOue" node="7z30MUmeewT" resolve="ArrowHead" />
                 <node concept="3b6qkQ" id="6clvLV1HfHp" role="1xbcaF">
                   <property role="$nhwW" value="0.5" />
                 </node>
@@ -684,7 +684,7 @@
                 </node>
                 <node concept="17qRlL" id="7z30MUmeGbr" role="3uHU7w">
                   <node concept="1xnly_" id="7z30MUmeGbs" role="3uHU7w">
-                    <ref role="1xnlzC" node="7z30MUmenMd" />
+                    <ref role="1xnlzC" node="7z30MUmenMd" resolve="relativeHeight" />
                   </node>
                   <node concept="37vLTw" id="7z30MUmeGbt" role="3uHU7B">
                     <ref role="3cqZAo" node="7z30MUmeexa" resolve="height" />
@@ -723,7 +723,7 @@
               <node concept="3cpWs3" id="7z30MUmeEyh" role="37wK5m">
                 <node concept="17qRlL" id="7z30MUmeFqk" role="3uHU7w">
                   <node concept="1xnly_" id="7z30MUmeFMQ" role="3uHU7w">
-                    <ref role="1xnlzC" node="7z30MUmenMd" />
+                    <ref role="1xnlzC" node="7z30MUmenMd" resolve="relativeHeight" />
                   </node>
                   <node concept="37vLTw" id="7z30MUmeEUw" role="3uHU7B">
                     <ref role="3cqZAo" node="7z30MUmeexa" resolve="height" />
@@ -762,7 +762,7 @@
             </node>
           </node>
           <node concept="1xnly_" id="3GatLR2TZLC" role="3clFbw">
-            <ref role="1xnlzC" node="3GatLR2TX7v" />
+            <ref role="1xnlzC" node="3GatLR2TX7v" resolve="filled" />
           </node>
           <node concept="9aQIb" id="3GatLR2U0dJ" role="9aQIa">
             <node concept="3clFbS" id="3GatLR2U0dK" role="9aQI4">

@@ -25,7 +25,7 @@
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -1325,7 +1325,7 @@
         </node>
         <node concept="liA8E" id="3jJoUQ6YKpb" role="2OqNvi">
           <ref role="37wK5l" to="3o3z:~MultimapBuilder$SetMultimapBuilder.build()" resolve="build" />
-          <node concept="17QB3L" id="3jJoUQ6ZpBn" role="3PaCim" />
+          <node concept="17QB3L" id="1kvClgLyQlH" role="3PaCim" />
           <node concept="3uibUv" id="3jJoUQ6ZqC8" role="3PaCim">
             <ref role="3uigEE" node="3jJoUQ6YpTW" resolve="IFunctionImplementation" />
           </node>
@@ -2565,8 +2565,8 @@
             <node concept="2OqwBi" id="2UwmfNv1Wtf" role="33vP2m">
               <node concept="2OqwBi" id="2UwmfNv1UVx" role="2Oq$k0">
                 <node concept="2YIFZM" id="1U8SBodOvz9" role="2Oq$k0">
-                  <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys()" resolve="hashKeys" />
                   <ref role="1Pybhc" to="3o3z:~MultimapBuilder" resolve="MultimapBuilder" />
+                  <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys()" resolve="hashKeys" />
                 </node>
                 <node concept="liA8E" id="2UwmfNv1VBN" role="2OqNvi">
                   <ref role="37wK5l" to="3o3z:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues()" resolve="hashSetValues" />

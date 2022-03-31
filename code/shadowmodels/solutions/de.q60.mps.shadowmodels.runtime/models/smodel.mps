@@ -57,7 +57,7 @@
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="ouht" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin.jvm.functions(org.modelix.model.api/)" />
     <import index="lktc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:gnu.trove(MPS.Core/)" />
-    <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" implicit="true" />
   </imports>
@@ -19779,8 +19779,8 @@
       <node concept="2OqwBi" id="3RWdhMVAXLs" role="33vP2m">
         <node concept="2OqwBi" id="3RWdhMVAXLt" role="2Oq$k0">
           <node concept="2YIFZM" id="1U8SBodEwjm" role="2Oq$k0">
-            <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys()" resolve="hashKeys" />
             <ref role="1Pybhc" to="3o3z:~MultimapBuilder" resolve="MultimapBuilder" />
+            <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys()" resolve="hashKeys" />
           </node>
           <node concept="liA8E" id="3RWdhMVAXLv" role="2OqNvi">
             <ref role="37wK5l" to="3o3z:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues()" resolve="hashSetValues" />
@@ -19788,7 +19788,7 @@
         </node>
         <node concept="liA8E" id="3RWdhMVAXLw" role="2OqNvi">
           <ref role="37wK5l" to="3o3z:~MultimapBuilder$SetMultimapBuilder.build()" resolve="build" />
-          <node concept="3bZ5Sz" id="4j_LshU4l_w" role="3PaCim" />
+          <node concept="3bZ5Sz" id="1kvClgLEOmz" role="3PaCim" />
           <node concept="3uibUv" id="4j_LshU2Pbd" role="3PaCim">
             <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
           </node>

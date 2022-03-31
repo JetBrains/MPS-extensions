@@ -64,7 +64,7 @@
       <node concept="3clFbS" id="1YHUdwh8N38" role="3clF47">
         <node concept="3cpWs6" id="1YHUdwh8N4X" role="3cqZAp">
           <node concept="2M0cAz" id="1YHUdwh8N5j" role="3cqZAk">
-            <ref role="2M0c$$" to="jlq6:1YHUdwh8N22" />
+            <ref role="2M0c$$" to="jlq6:1YHUdwh8N22" resolve="f1" />
             <node concept="Xl_RD" id="1YHUdwh8N5E" role="2M0c$y">
               <property role="Xl_RC" value="abc" />
             </node>

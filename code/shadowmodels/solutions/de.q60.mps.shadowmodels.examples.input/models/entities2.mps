@@ -31,7 +31,7 @@
     <node concept="1IyuVI" id="5KTOHw7eP1W" role="1IyuVR">
       <property role="TrG5h" value="owner" />
       <node concept="1IyuVL" id="5KTOHw7eP20" role="1IyuVW">
-        <ref role="1IyuVP" to="mu7:TC$M5wTk27" />
+        <ref role="1IyuVP" to="mu7:TC$M5wTk27" resolve="Person" />
       </node>
     </node>
   </node>

@@ -1167,6 +1167,18 @@
       <property role="IQ2ns" value="6554619383005758751" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="551EivYL3dc" role="1TKVEi">
+      <property role="IQ2ns" value="5855146979801445196" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="width" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="551EivYL3dr" role="1TKVEi">
+      <property role="IQ2ns" value="5855146979801445211" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="height" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="6PI4N6JqPBN" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="tooltip" />
@@ -2059,6 +2071,11 @@
     <node concept="1TJgyi" id="5ZBOFE3vv2T" role="1TKVEl">
       <property role="IQ2nx" value="6910723851735134393" />
       <property role="TrG5h" value="hasFitSizeAllDiagramButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2pXhcZQn1mg" role="1TKVEl">
+      <property role="IQ2nx" value="2773448605512242576" />
+      <property role="TrG5h" value="hasShowPortsLabels" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>

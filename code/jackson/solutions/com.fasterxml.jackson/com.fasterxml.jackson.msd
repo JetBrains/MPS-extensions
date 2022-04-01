@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="com.fasterxml.jackson" uuid="39983771-4e9b-401b-a1a9-1da6c777c843" moduleVersion="0" compileInMPS="true">
   <models>
+    <modelRoot contentPath="${module}" type="default" />
     <modelRoot contentPath="${platform_lib}" type="java_classes">
-      <sourceRoot location="jackson-annotations-2.10.2.jar" />
-      <sourceRoot location="jackson-core-2.10.2.jar" />
-      <sourceRoot location="jackson-databind-2.10.2.jar" />
+      <sourceRoot location="jackson-annotations-2.11.0.jar" />
+      <sourceRoot location="jackson-core-2.11.0.jar" />
+      <sourceRoot location="jackson-databind-2.11.0.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -12,6 +13,11 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
+  <stubModelEntries>
+    <stubModelEntry path="${platform_lib}/jackson-core-2.11.0.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-databind-2.11.0.jar" />
+    <stubModelEntry path="${platform_lib}/jackson-annotations-2.11.0.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

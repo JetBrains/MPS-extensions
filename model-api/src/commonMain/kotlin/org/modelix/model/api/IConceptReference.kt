@@ -29,7 +29,7 @@ interface IConceptReference {
                 else -> throw RuntimeException("Multiple deserializers applicable to $serialized")
             }
         }
-        fun registerDeserializer(key: Any, deserializer: ((String)->IConceptReference?)) {
+        fun registerDeserializer(key: Any, deserializer: ((String) -> IConceptReference?)) {
             deserializers = deserializers + (key to deserializer)
         }
         fun unregisterSerializer(key: Any) {

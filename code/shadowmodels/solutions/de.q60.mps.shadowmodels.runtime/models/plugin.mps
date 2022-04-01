@@ -578,6 +578,12 @@
             <node concept="10Nm6u" id="1lswC14_p3G" role="37wK5m" />
           </node>
         </node>
+        <node concept="3clFbF" id="19X317JyzGL" role="3cqZAp">
+          <node concept="2YIFZM" id="19X317Jy$H4" role="3clFbG">
+            <ref role="37wK5l" to="l6bp:19X317JyzSi" resolve="dispose" />
+            <ref role="1Pybhc" to="l6bp:19X317JrdI8" resolve="ShadowModelsAPI" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2uRRBj" id="7YhLqbpg0rQ" role="2uRRBE">

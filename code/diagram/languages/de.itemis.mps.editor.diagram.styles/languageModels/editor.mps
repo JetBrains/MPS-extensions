@@ -357,6 +357,13 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="2pXhcZQmJkE" role="V601i">
+      <property role="TrG5h" value="__show_ports_labels" />
+      <node concept="10P_77" id="2pXhcZQmJkF" role="3t5Oan" />
+      <node concept="3clFbT" id="2pXhcZQmJkG" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
   </node>
   <node concept="Qs71p" id="4mmPun57bLu">
     <property role="TrG5h" value="LineStyle" />

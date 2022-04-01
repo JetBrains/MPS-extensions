@@ -5,6 +5,13 @@ package org.modelix.model.api
  * Provides better performance for temporary branches that are not shared.
  */
 class TreePointer(var tree_: ITree, val idGenerator: IIdGenerator = IdGeneratorDummy()) : IBranch, IWriteTransaction, IReadTransaction {
+    private val userObjects = HashMap<Any, Any?>()
+    override fun getUserObject(key: Any) = userObjects[key]
+
+    override fun putUserObject(key: Any, value: Any?) {
+        userObjects[key] = value
+    }
+
     override var tree: ITree
         get() = tree_
         set(value) { tree_ = value }

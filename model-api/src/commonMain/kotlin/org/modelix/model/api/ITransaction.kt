@@ -29,4 +29,6 @@ interface ITransaction {
     fun getAllChildren(parentId: Long): Iterable<Long>
     fun getReferenceRoles(sourceId: Long): Iterable<String>
     fun getPropertyRoles(sourceId: Long): Iterable<String>
+    fun getUserObject(key: Any): Any?
+    fun putUserObject(key: Any, value: Any?)
 }

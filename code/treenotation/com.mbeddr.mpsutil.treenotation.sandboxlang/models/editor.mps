@@ -220,7 +220,7 @@
     </language>
     <language id="c73b17af-16a1-4490-8072-8a84937c5206" name="com.mbeddr.mpsutil.treenotation">
       <concept id="8348035970511374774" name="com.mbeddr.mpsutil.treenotation.structure.Parameter_subconcepts" flags="ng" index="Lmqva" />
-      <concept id="8348035970508546380" name="com.mbeddr.mpsutil.treenotation.structure.GenericInsertFunction" flags="ng" index="Lw$WK" />
+      <concept id="8348035970508546380" name="com.mbeddr.mpsutil.treenotation.structure.GenericInsertFunction" flags="ig" index="Lw$WK" />
       <concept id="8348035970508542281" name="com.mbeddr.mpsutil.treenotation.structure.GenericInsertHandler" flags="ng" index="LwBWP">
         <child id="8348035970508665694" name="insertFunction" index="Lw1Oy" />
       </concept>
@@ -267,7 +267,7 @@
         <child id="8877288515762039491" name="paintFunction" index="1X_dKs" />
       </concept>
       <concept id="8877288515759654453" name="com.mbeddr.mpsutil.treenotation.structure.DeleteHandler" flags="ig" index="1XG33E" />
-      <concept id="8877288515760224194" name="com.mbeddr.mpsutil.treenotation.structure.InserHandler" flags="ig" index="1XI84t" />
+      <concept id="8877288515760224194" name="com.mbeddr.mpsutil.treenotation.structure.SimpleInsertFunction" flags="ig" index="1XI84t" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="5979988948250981289" name="jetbrains.mps.lang.actions.structure.SNodeCreatorAndInitializer" flags="nn" index="2fJWfE" />
@@ -999,10 +999,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="7fqbBL2p1uJ" role="3EZMnx" />
-      <node concept="3F1sOY" id="7fqbBL2p1BE" role="3EZMnx">
-        <ref role="1NtTu8" to="uin2:7fqbBL2p0Ly" resolve="tree3" />
-      </node>
       <node concept="2iRkQZ" id="7uOgiTdmmh" role="2iSdaV" />
       <node concept="3tD6jV" id="7uOgiTdGUP" role="3F10Kt">
         <ref role="3tD7wE" to="5un2:7uOgiTdCky" resolve="tree-level-spacing" />
@@ -1015,6 +1011,10 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3F0ifn" id="7fqbBL2p1uJ" role="3EZMnx" />
+      <node concept="3F1sOY" id="7fqbBL2p1BE" role="3EZMnx">
+        <ref role="1NtTu8" to="uin2:7fqbBL2p0Ly" resolve="tree3" />
       </node>
     </node>
   </node>
@@ -1106,6 +1106,7 @@
           <node concept="3clFbS" id="4Q9g1gQNey5" role="2VODD2" />
         </node>
       </node>
+      <node concept="1VmSv7" id="4Q9g1gQPDVP" role="1Vhs_Z" />
       <node concept="37fpnD" id="2rPTijxUTCd" role="37fetC" />
       <node concept="1uO$qF" id="3aGR_qctW6b" role="3F10Kt">
         <node concept="3nzxsE" id="3aGR_qctW6c" role="1uO$qD">
@@ -1141,7 +1142,6 @@
           <ref role="1wgcnl" node="3aGR_qctVBV" resolve="topToBottom" />
         </node>
       </node>
-      <node concept="1VmSv7" id="4Q9g1gQPDVP" role="1Vhs_Z" />
     </node>
     <node concept="3EZMnI" id="3aGR_qcudGb" role="6VMZX">
       <node concept="2iRkQZ" id="3aGR_qcudGc" role="2iSdaV" />
@@ -1176,12 +1176,6 @@
     <node concept="15NUNA" id="7k8R9gKNzLG" role="15NUdi">
       <property role="TrG5h" value="size" />
       <node concept="10P55v" id="7k8R9gKNzLN" role="15NUNB" />
-    </node>
-    <node concept="15NUNA" id="7fqbBL2pMRr" role="15NUdi">
-      <property role="TrG5h" value="col" />
-      <node concept="3uibUv" id="7fqbBL2pMTZ" role="15NUNB">
-        <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
-      </node>
     </node>
     <node concept="1X_dKt" id="7k8R9gKN2ai" role="1X_dKs">
       <node concept="3clFbS" id="7k8R9gKN2aj" role="2VODD2">
@@ -1393,6 +1387,12 @@
           </node>
           <node concept="1X_b45" id="7k8R9gKNdwb" role="2GsD0m" />
         </node>
+      </node>
+    </node>
+    <node concept="15NUNA" id="7fqbBL2pMRr" role="15NUdi">
+      <property role="TrG5h" value="col" />
+      <node concept="3uibUv" id="7fqbBL2pMTZ" role="15NUNB">
+        <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
       </node>
     </node>
   </node>

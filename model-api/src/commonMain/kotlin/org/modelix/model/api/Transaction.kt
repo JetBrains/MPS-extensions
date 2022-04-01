@@ -16,6 +16,12 @@
 package org.modelix.model.api
 
 abstract class Transaction(override val branch: IBranch) : ITransaction {
+    private val userObjects = HashMap<Any, Any?>()
+    override fun getUserObject(key: Any) = userObjects[key]
+
+    override fun putUserObject(key: Any, value: Any?) {
+        userObjects[key] = value
+    }
 
     override fun containsNode(nodeId: Long): Boolean = tree.containsNode(nodeId)
     override fun getConcept(nodeId: Long): IConcept? = tree.getConcept(nodeId)

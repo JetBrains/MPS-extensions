@@ -3315,6 +3315,38 @@
             </node>
             <node concept="2iRfu4" id="5FQFTBpWGAy" role="2iSdaV" />
           </node>
+          <node concept="3EZMnI" id="551EivYL3dG" role="3EZMnx">
+            <node concept="3F0ifn" id="551EivYL3dH" role="3EZMnx">
+              <property role="3F0ifm" value="width" />
+            </node>
+            <node concept="3F1sOY" id="551EivYL3dI" role="3EZMnx">
+              <property role="1$x2rV" value="12" />
+              <ref role="1NtTu8" to="2qld:551EivYL3dc" resolve="width" />
+              <node concept="VPXOz" id="551EivYL3dJ" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="VPM3Z" id="551EivYL3dK" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="2iRfu4" id="551EivYL3dL" role="2iSdaV" />
+          </node>
+          <node concept="3EZMnI" id="551EivYL3hs" role="3EZMnx">
+            <node concept="3F0ifn" id="551EivYL3ht" role="3EZMnx">
+              <property role="3F0ifm" value="height" />
+            </node>
+            <node concept="3F1sOY" id="551EivYL3hu" role="3EZMnx">
+              <property role="1$x2rV" value="12" />
+              <ref role="1NtTu8" to="2qld:551EivYL3dr" resolve="height" />
+              <node concept="VPXOz" id="551EivYL3hv" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="VPM3Z" id="551EivYL3hw" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="2iRfu4" id="551EivYL3hx" role="2iSdaV" />
+          </node>
           <node concept="3EZMnI" id="6PI4N6JqV_i" role="3EZMnx">
             <node concept="3F0ifn" id="6PI4N6JqV_j" role="3EZMnx">
               <property role="3F0ifm" value="tooltip" />
@@ -5112,6 +5144,25 @@
                   <node concept="355D3s" id="5ZBOFE3vzYy" role="37wK5m">
                     <ref role="355D3t" to="2qld:5ZBOFE3vobP" resolve="DiagramButtonConfig" />
                     <ref role="355D3u" to="2qld:5ZBOFE3vv2T" resolve="hasFitSizeAllDiagramButton" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3gTLQM" id="2pXhcZQn1Db" role="3EZMnx">
+        <node concept="3Fmcul" id="2pXhcZQn1Dc" role="3FoqZy">
+          <node concept="3clFbS" id="2pXhcZQn1Dd" role="2VODD2">
+            <node concept="3cpWs6" id="2pXhcZQn1De" role="3cqZAp">
+              <node concept="2OqwBi" id="2pXhcZQn1Df" role="3cqZAk">
+                <node concept="pncrf" id="2pXhcZQn1Dg" role="2Oq$k0" />
+                <node concept="2qgKlT" id="2pXhcZQn1Dh" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:4h7S3973QQF" resolve="getBooleanPropertyCheckBox" />
+                  <node concept="1Q80Hx" id="2pXhcZQn1Di" role="37wK5m" />
+                  <node concept="355D3s" id="2pXhcZQn1Dj" role="37wK5m">
+                    <ref role="355D3t" to="2qld:5ZBOFE3vobP" resolve="DiagramButtonConfig" />
+                    <ref role="355D3u" to="2qld:2pXhcZQn1mg" resolve="hasShowPortsLabels" />
                   </node>
                 </node>
               </node>

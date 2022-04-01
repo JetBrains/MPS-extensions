@@ -7,7 +7,7 @@ buildscript {
     }
     dependencies {
         classpath('de.itemis.mps:mps-gradle-plugin:1.7+')
-        classpath("org.modelix.mpsbuild:gradle-plugin:0.0.10")
+        classpath("org.modelix.mpsbuild:gradle-plugin:1.0.+")
     }
 }
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:bef1bfa7-20fd-413a-ae11-793b0a8ee364(de.q60.mps.shadowmodels.runtime.model.persistent)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
@@ -21,6 +22,7 @@
     <import index="ouht" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin.jvm.functions(org.modelix.model.api/)" />
     <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
+    <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -10212,11 +10214,11 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7PM7ZfaX7en" role="jymVt" />
     <node concept="3Tm1VV" id="4_SQzDObVBe" role="1B3o_S" />
     <node concept="3uibUv" id="4_SQzDOe9Bj" role="EKbjA">
       <ref role="3uigEE" to="jks5:~IBranch" resolve="IBranch" />
     </node>
-    <node concept="2tJIrI" id="7PM7ZfaX7en" role="jymVt" />
     <node concept="3clFb_" id="7PM7ZfaX2wE" role="jymVt">
       <property role="TrG5h" value="computeReadT" />
       <node concept="3Tm1VV" id="7PM7ZfaX2wF" role="1B3o_S" />
@@ -10571,9 +10573,6 @@
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="4f3NwlNCIJS" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
     </node>
     <node concept="2tJIrI" id="4f3NwlNCSp5" role="jymVt" />
     <node concept="3clFb_" id="4f3NwlNCIJV" role="jymVt">
@@ -10614,9 +10613,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="2AHcQZ" id="4f3NwlNCIK7" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="4_SQzDOr852" role="jymVt" />

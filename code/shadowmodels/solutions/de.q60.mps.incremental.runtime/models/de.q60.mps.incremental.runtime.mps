@@ -4,7 +4,7 @@
   <languages>
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
   </languages>
@@ -17,8 +17,14 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="lktc" ref="134ef213-c518-42b0-b12c-c109aa13d320/java:gnu.trove(collections_trove.runtime/)" />
-    <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="mpcv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.ref(JDK/)" />
+    <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
+    <import index="bv6w" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.set.hash(de.q60.mps.libs/)" />
+    <import index="5ka6" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.map.hash(de.q60.mps.libs/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" implicit="true" />
+    <import index="j8em" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:gnu.trove.impl.hash(de.q60.mps.collections.libs/)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -1777,9 +1783,9 @@
         </node>
       </node>
       <node concept="2ShNRf" id="Zou7Ch1lGp" role="33vP2m">
-        <node concept="1pGfFk" id="1U8SBodK8QX" role="2ShVmc">
-          <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
-          <node concept="3uibUv" id="1U8SBodK8QY" role="1pMfVU">
+        <node concept="1pGfFk" id="xHXNSeQ1j6" role="2ShVmc">
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <node concept="3uibUv" id="xHXNSeQ1j7" role="1pMfVU">
             <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
           </node>
         </node>
@@ -3400,9 +3406,9 @@
         </node>
       </node>
       <node concept="2ShNRf" id="1FJzl_0QR3" role="33vP2m">
-        <node concept="1pGfFk" id="1U8SBodK8QP" role="2ShVmc">
-          <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
-          <node concept="3uibUv" id="1U8SBodK8QQ" role="1pMfVU">
+        <node concept="1pGfFk" id="xHXNSeQ1j0" role="2ShVmc">
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <node concept="3uibUv" id="xHXNSeQ1j1" role="1pMfVU">
             <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
           </node>
         </node>
@@ -3448,9 +3454,9 @@
               </node>
             </node>
             <node concept="2ShNRf" id="1FJzl$ZN5B" role="33vP2m">
-              <node concept="1pGfFk" id="1U8SBodK8QT" role="2ShVmc">
-                <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
-                <node concept="3uibUv" id="1U8SBodK8QU" role="1pMfVU">
+              <node concept="1pGfFk" id="xHXNSeQ1iU" role="2ShVmc">
+                <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+                <node concept="3uibUv" id="xHXNSeQ1iV" role="1pMfVU">
                   <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
                 </node>
               </node>
@@ -5284,12 +5290,12 @@
         </node>
       </node>
       <node concept="2ShNRf" id="55H5CwvQEbJ" role="33vP2m">
-        <node concept="1pGfFk" id="1U8SBodH533" role="2ShVmc">
-          <ref role="37wK5l" to="lktc:~THashMap.&lt;init&gt;()" resolve="THashMap" />
-          <node concept="3uibUv" id="1U8SBodH534" role="1pMfVU">
+        <node concept="1pGfFk" id="5wy2VBTLgfA" role="2ShVmc">
+          <ref role="37wK5l" to="5ka6:~THashMap.&lt;init&gt;()" resolve="THashMap" />
+          <node concept="3uibUv" id="5wy2VBTLBfc" role="1pMfVU">
             <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
           </node>
-          <node concept="3uibUv" id="1U8SBodH535" role="1pMfVU">
+          <node concept="3uibUv" id="5wy2VBTLSMb" role="1pMfVU">
             <ref role="3uigEE" node="5bqHObSR6HQ" resolve="IncrementalData.CacheEntry" />
           </node>
         </node>
@@ -7119,7 +7125,7 @@
         <property role="TrG5h" value="map" />
         <node concept="3Tm6S6" id="3RWdhMVxCDo" role="1B3o_S" />
         <node concept="3uibUv" id="3RWdhMVxD4b" role="1tU5fm">
-          <ref role="3uigEE" to="lktc:~THashMap" resolve="THashMap" />
+          <ref role="3uigEE" to="5ka6:~THashMap" resolve="THashMap" />
           <node concept="3uibUv" id="3RWdhMVxD6r" role="11_B2D">
             <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
           </node>
@@ -7128,12 +7134,12 @@
           </node>
         </node>
         <node concept="2ShNRf" id="3RWdhMVxEAv" role="33vP2m">
-          <node concept="1pGfFk" id="1U8SBodH52L" role="2ShVmc">
-            <ref role="37wK5l" to="lktc:~THashMap.&lt;init&gt;()" resolve="THashMap" />
-            <node concept="3uibUv" id="1U8SBodH52M" role="1pMfVU">
+          <node concept="1pGfFk" id="xHXNSeQ1iL" role="2ShVmc">
+            <ref role="37wK5l" to="5ka6:~THashMap.&lt;init&gt;()" resolve="THashMap" />
+            <node concept="3uibUv" id="xHXNSeQ1iM" role="1pMfVU">
               <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
             </node>
-            <node concept="3uibUv" id="1U8SBodH52N" role="1pMfVU">
+            <node concept="3uibUv" id="55H5CwvXSad" role="1pMfVU">
               <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
             </node>
           </node>
@@ -7151,7 +7157,7 @@
                 <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
               </node>
               <node concept="liA8E" id="3RWdhMVylfL" role="2OqNvi">
-                <ref role="37wK5l" to="lktc:~THashMap.clear()" resolve="clear" />
+                <ref role="37wK5l" to="5ka6:~THashMap.clear()" resolve="clear" />
               </node>
             </node>
           </node>
@@ -7185,7 +7191,7 @@
                     <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                   </node>
                   <node concept="liA8E" id="3RWdhMVzbtg" role="2OqNvi">
-                    <ref role="37wK5l" to="lktc:~THashMap.remove(java.lang.Object)" resolve="remove" />
+                    <ref role="37wK5l" to="5ka6:~THashMap.remove(java.lang.Object)" resolve="remove" />
                     <node concept="2GrUjf" id="3RWdhMVzbL3" role="37wK5m">
                       <ref role="2Gs0qQ" node="3RWdhMVyOSV" resolve="k" />
                     </node>
@@ -7223,7 +7229,7 @@
                   <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                 </node>
                 <node concept="liA8E" id="3RWdhMV$65G" role="2OqNvi">
-                  <ref role="37wK5l" to="lktc:~THashMap.get(java.lang.Object)" resolve="get" />
+                  <ref role="37wK5l" to="5ka6:~THashMap.get(java.lang.Object)" resolve="get" />
                   <node concept="37vLTw" id="3RWdhMV$65H" role="37wK5m">
                     <ref role="3cqZAo" node="3RWdhMVzlXk" resolve="key" />
                   </node>
@@ -7314,7 +7320,7 @@
                   <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                 </node>
                 <node concept="liA8E" id="55H5CwvZdaW" role="2OqNvi">
-                  <ref role="37wK5l" to="lktc:~THashMap.get(java.lang.Object)" resolve="get" />
+                  <ref role="37wK5l" to="5ka6:~THashMap.get(java.lang.Object)" resolve="get" />
                   <node concept="37vLTw" id="55H5CwvZdaX" role="37wK5m">
                     <ref role="3cqZAo" node="55H5CwvYWd7" resolve="key" />
                   </node>
@@ -7356,7 +7362,7 @@
                         <ref role="3cqZAo" node="55H5CwvZdbe" resolve="multiple" />
                       </node>
                       <node concept="liA8E" id="55H5CwvZdbn" role="2OqNvi">
-                        <ref role="37wK5l" to="lktc:~THashSet.remove(java.lang.Object)" resolve="remove" />
+                        <ref role="37wK5l" to="bv6w:~THashSet.remove(java.lang.Object)" resolve="remove" />
                         <node concept="37vLTw" id="55H5CwvZdbo" role="37wK5m">
                           <ref role="3cqZAo" node="55H5CwvZ8z6" resolve="value" />
                         </node>
@@ -7371,7 +7377,7 @@
                             <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                           </node>
                           <node concept="liA8E" id="55H5CwvZsA6" role="2OqNvi">
-                            <ref role="37wK5l" to="lktc:~THashMap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+                            <ref role="37wK5l" to="5ka6:~THashMap.put(java.lang.Object,java.lang.Object)" resolve="put" />
                             <node concept="37vLTw" id="55H5CwvZtLi" role="37wK5m">
                               <ref role="3cqZAo" node="55H5CwvYWd7" resolve="key" />
                             </node>
@@ -7381,11 +7387,11 @@
                                   <ref role="3cqZAo" node="55H5CwvZdbe" resolve="multiple" />
                                 </node>
                                 <node concept="liA8E" id="55H5CwvZx6a" role="2OqNvi">
-                                  <ref role="37wK5l" to="lktc:~THashSet.iterator()" resolve="iterator" />
+                                  <ref role="37wK5l" to="bv6w:~THashSet.iterator()" resolve="iterator" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="55H5CwvZyFt" role="2OqNvi">
-                                <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
+                                <ref role="37wK5l" to="j8em:~THashIterator.next()" resolve="next" />
                               </node>
                             </node>
                           </node>
@@ -7401,7 +7407,7 @@
                           <ref role="3cqZAo" node="55H5CwvZdbe" resolve="multiple" />
                         </node>
                         <node concept="liA8E" id="55H5CwvZmHE" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~Set.size()" resolve="size" />
+                          <ref role="37wK5l" to="j8em:~THash.size()" resolve="size" />
                         </node>
                       </node>
                     </node>
@@ -7423,7 +7429,7 @@
                           <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                         </node>
                         <node concept="liA8E" id="55H5CwvZBSC" role="2OqNvi">
-                          <ref role="37wK5l" to="lktc:~THashMap.remove(java.lang.Object)" resolve="remove" />
+                          <ref role="37wK5l" to="5ka6:~THashMap.remove(java.lang.Object)" resolve="remove" />
                           <node concept="37vLTw" id="55H5CwvZGLp" role="37wK5m">
                             <ref role="3cqZAo" node="55H5CwvYWd7" resolve="key" />
                           </node>
@@ -7474,7 +7480,7 @@
                   <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                 </node>
                 <node concept="liA8E" id="3RWdhMV_ADh" role="2OqNvi">
-                  <ref role="37wK5l" to="lktc:~THashMap.get(java.lang.Object)" resolve="get" />
+                  <ref role="37wK5l" to="5ka6:~THashMap.get(java.lang.Object)" resolve="get" />
                   <node concept="37vLTw" id="3RWdhMV_ADi" role="37wK5m">
                     <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
                   </node>
@@ -7490,7 +7496,7 @@
                     <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                   </node>
                   <node concept="liA8E" id="3RWdhMVA0gR" role="2OqNvi">
-                    <ref role="37wK5l" to="lktc:~THashMap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+                    <ref role="37wK5l" to="5ka6:~THashMap.put(java.lang.Object,java.lang.Object)" resolve="put" />
                     <node concept="37vLTw" id="3RWdhMVA0Fh" role="37wK5m">
                       <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
                     </node>
@@ -7535,7 +7541,7 @@
                           <ref role="3cqZAo" node="3RWdhMVAFd_" resolve="multiple" />
                         </node>
                         <node concept="liA8E" id="3RWdhMVAFdL" role="2OqNvi">
-                          <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object)" resolve="add" />
+                          <ref role="37wK5l" to="bv6w:~THashSet.add(java.lang.Object)" resolve="add" />
                           <node concept="37vLTw" id="3RWdhMVAFdM" role="37wK5m">
                             <ref role="3cqZAo" node="3RWdhMV_c33" resolve="value" />
                           </node>
@@ -7572,7 +7578,7 @@
                             <ref role="3cqZAo" node="3RWdhMVA2o_" resolve="multiple" />
                           </node>
                           <node concept="liA8E" id="3RWdhMVAbpb" role="2OqNvi">
-                            <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object)" resolve="add" />
+                            <ref role="37wK5l" to="bv6w:~THashSet.add(java.lang.Object)" resolve="add" />
                             <node concept="10QFUN" id="55H5CwvXUS2" role="37wK5m">
                               <node concept="37vLTw" id="55H5CwvXUS1" role="10QFUP">
                                 <ref role="3cqZAo" node="3RWdhMV_ADe" resolve="existing" />
@@ -7590,7 +7596,7 @@
                             <ref role="3cqZAo" node="3RWdhMVA2o_" resolve="multiple" />
                           </node>
                           <node concept="liA8E" id="3RWdhMVAhP1" role="2OqNvi">
-                            <ref role="37wK5l" to="lktc:~THashSet.add(java.lang.Object)" resolve="add" />
+                            <ref role="37wK5l" to="bv6w:~THashSet.add(java.lang.Object)" resolve="add" />
                             <node concept="37vLTw" id="3RWdhMVAi1B" role="37wK5m">
                               <ref role="3cqZAo" node="3RWdhMV_c33" resolve="value" />
                             </node>
@@ -7603,7 +7609,7 @@
                             <ref role="3cqZAo" node="3RWdhMVxCDn" resolve="map" />
                           </node>
                           <node concept="liA8E" id="3RWdhMVACPf" role="2OqNvi">
-                            <ref role="37wK5l" to="lktc:~THashMap.put(java.lang.Object,java.lang.Object)" resolve="put" />
+                            <ref role="37wK5l" to="5ka6:~THashMap.put(java.lang.Object,java.lang.Object)" resolve="put" />
                             <node concept="37vLTw" id="3RWdhMVADhQ" role="37wK5m">
                               <ref role="3cqZAo" node="3RWdhMV_9Ax" resolve="key" />
                             </node>
@@ -7651,8 +7657,8 @@
               <node concept="2OqwBi" id="3RWdhMVAXLs" role="33vP2m">
                 <node concept="2OqwBi" id="3RWdhMVAXLt" role="2Oq$k0">
                   <node concept="2YIFZM" id="3RWdhMVAXLu" role="2Oq$k0">
-                    <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys()" resolve="hashKeys" />
                     <ref role="1Pybhc" to="3o3z:~MultimapBuilder" resolve="MultimapBuilder" />
+                    <ref role="37wK5l" to="3o3z:~MultimapBuilder.hashKeys()" resolve="hashKeys" />
                   </node>
                   <node concept="liA8E" id="3RWdhMVAXLv" role="2OqNvi">
                     <ref role="37wK5l" to="3o3z:~MultimapBuilder$MultimapBuilderWithKeys.hashSetValues()" resolve="hashSetValues" />
@@ -7783,7 +7789,7 @@
         <node concept="2tJIrI" id="3RWdhMVA5pe" role="jymVt" />
         <node concept="3Tm6S6" id="3RWdhMVCp$Q" role="1B3o_S" />
         <node concept="3uibUv" id="3RWdhMVA2Vt" role="1zkMxy">
-          <ref role="3uigEE" to="lktc:~THashSet" resolve="THashSet" />
+          <ref role="3uigEE" to="bv6w:~THashSet" resolve="THashSet" />
           <node concept="3uibUv" id="55H5CwvXKwQ" role="11_B2D">
             <ref role="3uigEE" node="5bqHObSR6HQ" resolve="IncrementalData.CacheEntry" />
           </node>
@@ -7872,9 +7878,9 @@
           </node>
         </node>
         <node concept="2ShNRf" id="3VL1NfzJmbk" role="33vP2m">
-          <node concept="1pGfFk" id="1U8SBodH52R" role="2ShVmc">
-            <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
-            <node concept="3uibUv" id="1U8SBodH52S" role="1pMfVU">
+          <node concept="1pGfFk" id="3VL1NfzJqVf" role="2ShVmc">
+            <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+            <node concept="3uibUv" id="3VL1NfzJs73" role="1pMfVU">
               <ref role="3uigEE" node="5bqHObSR6HQ" resolve="IncrementalData.CacheEntry" />
             </node>
           </node>
@@ -7889,9 +7895,9 @@
           </node>
         </node>
         <node concept="2ShNRf" id="3VL1NfzJnot" role="33vP2m">
-          <node concept="1pGfFk" id="1U8SBodH52V" role="2ShVmc">
-            <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
-            <node concept="3uibUv" id="1U8SBodH52W" role="1pMfVU">
+          <node concept="1pGfFk" id="3VL1NfzJu0C" role="2ShVmc">
+            <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+            <node concept="3uibUv" id="3VL1NfzJvbb" role="1pMfVU">
               <ref role="3uigEE" node="5bqHObSR6HQ" resolve="IncrementalData.CacheEntry" />
             </node>
           </node>
@@ -7906,9 +7912,9 @@
           </node>
         </node>
         <node concept="2ShNRf" id="55H5CwvX8_U" role="33vP2m">
-          <node concept="1pGfFk" id="1U8SBodH52Z" role="2ShVmc">
-            <ref role="37wK5l" to="lktc:~THashSet.&lt;init&gt;()" resolve="THashSet" />
-            <node concept="3uibUv" id="1U8SBodH530" role="1pMfVU">
+          <node concept="1pGfFk" id="55H5CwvX9$v" role="2ShVmc">
+            <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+            <node concept="3uibUv" id="55H5CwvXaqa" role="1pMfVU">
               <ref role="3uigEE" node="5gTrVpGx$gB" resolve="DependencyKey" />
             </node>
           </node>

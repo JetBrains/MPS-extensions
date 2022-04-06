@@ -525,7 +525,6 @@ mpsBuild {
     }
 
     publication("tooltips") {
-        module("de.itemis.mps.tooltips")
         module("de.itemis.mps.tooltips.runtime")
     }
 

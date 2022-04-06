@@ -22,7 +22,6 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="py4t" ref="r:4e973dcf-7005-4515-8904-9c030ef293d4(de.itemis.mps.mouselistener.runtime)" />
-    <import index="5usg" ref="r:3838bb8b-fecd-4f7c-841e-325717a43980(de.itemis.mps.tooltips.runtime)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
@@ -119,7 +118,6 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
@@ -287,13 +285,6 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
@@ -4247,9 +4238,6 @@
     <node concept="3uibUv" id="6mIiWXQjiMT" role="EKbjA">
       <ref role="3uigEE" to="py4t:6mIiWXQhBr2" resolve="MouseListenerProvider" />
     </node>
-    <node concept="3uibUv" id="6PI4N6Joex2" role="EKbjA">
-      <ref role="3uigEE" to="5usg:6zKSYRPT1To" resolve="ITooltip" />
-    </node>
     <node concept="3clFb_" id="6mIiWXQjlqN" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getMouseListener" />
@@ -4288,105 +4276,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6PI4N6Jolc3" role="jymVt" />
-    <node concept="3clFb_" id="6PI4N6JoibY" role="jymVt">
-      <property role="TrG5h" value="getCenter" />
-      <property role="1EzhhJ" value="false" />
-      <node concept="3uibUv" id="6PI4N6JoibZ" role="3clF45">
-        <ref role="3uigEE" to="z60i:~Point" resolve="Point" />
-      </node>
-      <node concept="3Tm1VV" id="6PI4N6Joic0" role="1B3o_S" />
-      <node concept="3clFbS" id="6PI4N6Joic4" role="3clF47">
-        <node concept="3clFbF" id="6PI4N6JovxU" role="3cqZAp">
-          <node concept="2ShNRf" id="6PI4N6JovxS" role="3clFbG">
-            <node concept="1pGfFk" id="6PI4N6JoGQ4" role="2ShVmc">
-              <ref role="37wK5l" to="z60i:~Point.&lt;init&gt;(int,int)" resolve="Point" />
-              <node concept="3cpWs3" id="6PI4N6JoI2Z" role="37wK5m">
-                <node concept="FJ1c_" id="6PI4N6JoJgg" role="3uHU7w">
-                  <node concept="3cmrfG" id="6PI4N6JoJhr" role="3uHU7w">
-                    <property role="3cmrfH" value="2" />
-                  </node>
-                  <node concept="1rXfSq" id="6PI4N6JoId2" role="3uHU7B">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getWidth()" resolve="getWidth" />
-                  </node>
-                </node>
-                <node concept="1rXfSq" id="6PI4N6JoGRP" role="3uHU7B">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getX()" resolve="getX" />
-                </node>
-              </node>
-              <node concept="3cpWs3" id="6PI4N6JoLAT" role="37wK5m">
-                <node concept="FJ1c_" id="6PI4N6JoMzM" role="3uHU7w">
-                  <node concept="3cmrfG" id="6PI4N6JoM$X" role="3uHU7w">
-                    <property role="3cmrfH" value="2" />
-                  </node>
-                  <node concept="1rXfSq" id="6PI4N6JoLYM" role="3uHU7B">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getHeight()" resolve="getHeight" />
-                  </node>
-                </node>
-                <node concept="1rXfSq" id="6PI4N6JoL1N" role="3uHU7B">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getY()" resolve="getY" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="6PI4N6Joo_$" role="jymVt" />
-    <node concept="3clFb_" id="6PI4N6Joic7" role="jymVt">
-      <property role="TrG5h" value="getTooltipCell" />
-      <property role="1EzhhJ" value="false" />
-      <node concept="3uibUv" id="6PI4N6Joic8" role="3clF45">
-        <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
-      </node>
-      <node concept="3Tm1VV" id="6PI4N6Joic9" role="1B3o_S" />
-      <node concept="2AHcQZ" id="6PI4N6Joicb" role="2AJF6D">
-        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
-      </node>
-      <node concept="3clFbS" id="6PI4N6Joice" role="3clF47">
-        <node concept="3SKdUt" id="7SfNo0yWg1I" role="3cqZAp">
-          <node concept="1PaTwC" id="7WTFIQIcYps" role="1aUNEU">
-            <node concept="3oM_SD" id="7WTFIQIcYpt" role="1PaTwD">
-              <property role="3oM_SC" value="disabled" />
-            </node>
-            <node concept="3oM_SD" id="7WTFIQIcYpu" role="1PaTwD">
-              <property role="3oM_SC" value="because" />
-            </node>
-            <node concept="3oM_SD" id="7WTFIQIcYpv" role="1PaTwD">
-              <property role="3oM_SC" value="useless" />
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="5GwePVE4w7d" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="6PI4N6JoUgX" role="8Wnug">
-            <node concept="2OqwBi" id="6PI4N6JoV5r" role="3clFbG">
-              <node concept="37vLTw" id="6PI4N6JoUgW" role="2Oq$k0">
-                <ref role="3cqZAo" node="48DYfEt2U3g" resolve="myCollapsibleCell" />
-              </node>
-              <node concept="liA8E" id="6PI4N6Jpkcz" role="2OqNvi">
-                <ref role="37wK5l" node="6PI4N6Jp0kn" resolve="getExpandedCell" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7SfNo0yWgcd" role="3cqZAp">
-          <node concept="10Nm6u" id="7SfNo0yWgcb" role="3clFbG" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="6PI4N6JorxL" role="jymVt" />
-    <node concept="3clFb_" id="6PI4N6Joich" role="jymVt">
-      <property role="TrG5h" value="setMarkOpacity" />
-      <property role="1EzhhJ" value="false" />
-      <node concept="37vLTG" id="6PI4N6Joici" role="3clF46">
-        <property role="TrG5h" value="opacity" />
-        <node concept="10OMs4" id="6PI4N6Joicj" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="6PI4N6Joick" role="3clF45" />
-      <node concept="3Tm1VV" id="6PI4N6Joicl" role="1B3o_S" />
-      <node concept="3clFbS" id="6PI4N6Joicp" role="3clF47" />
-    </node>
   </node>
   <node concept="3HP615" id="7SfNo0yyeON">
     <property role="TrG5h" value="ICollapsibleFactory" />

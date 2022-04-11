@@ -6,7 +6,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
@@ -2951,7 +2951,7 @@
               <ref role="3uigEE" node="7diJr$Rkh9d" resolve="CustomTreeNode" />
             </node>
             <node concept="1rXfSq" id="2T14VC6NVCV" role="33vP2m">
-              <ref role="37wK5l" node="75_oBQVzL3H" resolve="getSelectedTreeNode" />
+              <ref role="37wK5l" to="rvbb:~BaseLogicalViewProjectPane.getSelectedTreeNode(java.lang.Class)" resolve="getSelectedTreeNode" />
               <node concept="3VsKOn" id="2T14VC6NVCW" role="37wK5m">
                 <ref role="3VsUkX" node="7diJr$Rkh9d" resolve="CustomTreeNode" />
               </node>
@@ -3021,113 +3021,6 @@
       </node>
       <node concept="2AHcQZ" id="2T14VC6MGgy" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="16TtUNxPutH" role="jymVt" />
-    <node concept="3clFb_" id="75_oBQVzL3H" role="jymVt">
-      <property role="TrG5h" value="getSelectedTreeNode" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="16euLQ" id="75_oBQVzL3I" role="16eVyc">
-        <property role="TrG5h" value="T" />
-        <node concept="3uibUv" id="75_oBQVzL3J" role="3ztrMU">
-          <ref role="3uigEE" to="rgfa:~TreeNode" resolve="TreeNode" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="75_oBQVzL3K" role="3clF46">
-        <property role="TrG5h" value="nodeClass" />
-        <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="75_oBQVzL3L" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
-          <node concept="16syzq" id="75_oBQVzL3M" role="11_B2D">
-            <ref role="16sUi3" node="75_oBQVzL3I" resolve="T" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbS" id="75_oBQVzL3N" role="3clF47">
-        <node concept="3cpWs8" id="75_oBQVzL3P" role="3cqZAp">
-          <node concept="3cpWsn" id="75_oBQVzL3O" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="selectionPath" />
-            <node concept="3uibUv" id="75_oBQVzL3Q" role="1tU5fm">
-              <ref role="3uigEE" to="rgfa:~TreePath" resolve="TreePath" />
-            </node>
-            <node concept="2OqwBi" id="75_oBQVzL3R" role="33vP2m">
-              <node concept="1rXfSq" id="75_oBQVzL3S" role="2Oq$k0">
-                <ref role="37wK5l" node="4gq8yQBZ6QN" resolve="getTree" />
-              </node>
-              <node concept="liA8E" id="75_oBQVzL3T" role="2OqNvi">
-                <ref role="37wK5l" to="dxuu:~JTree.getSelectionPath():javax.swing.tree.TreePath" resolve="getSelectionPath" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="75_oBQVzL3U" role="3cqZAp">
-          <node concept="3clFbC" id="75_oBQVzL3V" role="3clFbw">
-            <node concept="37vLTw" id="75_oBQVzL3W" role="3uHU7B">
-              <ref role="3cqZAo" node="75_oBQVzL3O" resolve="selectionPath" />
-            </node>
-            <node concept="10Nm6u" id="75_oBQVzL3X" role="3uHU7w" />
-          </node>
-          <node concept="3clFbS" id="75_oBQVzL40" role="3clFbx">
-            <node concept="3cpWs6" id="75_oBQVzL3Y" role="3cqZAp">
-              <node concept="10Nm6u" id="75_oBQVzL3Z" role="3cqZAk" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="75_oBQVzL42" role="3cqZAp">
-          <node concept="3cpWsn" id="75_oBQVzL41" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="selectedNode" />
-            <node concept="3uibUv" id="75_oBQVzL43" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-            </node>
-            <node concept="2OqwBi" id="75_oBQVzL4m" role="33vP2m">
-              <node concept="37vLTw" id="75_oBQVzL4l" role="2Oq$k0">
-                <ref role="3cqZAo" node="75_oBQVzL3O" resolve="selectionPath" />
-              </node>
-              <node concept="liA8E" id="75_oBQVzL4n" role="2OqNvi">
-                <ref role="37wK5l" to="rgfa:~TreePath.getLastPathComponent():java.lang.Object" resolve="getLastPathComponent" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="75_oBQVzL45" role="3cqZAp">
-          <node concept="3fqX7Q" id="75_oBQVzL46" role="3clFbw">
-            <node concept="1eOMI4" id="75_oBQVzL49" role="3fr31v">
-              <node concept="2OqwBi" id="75_oBQVzL4r" role="1eOMHV">
-                <node concept="37vLTw" id="75_oBQVzL4q" role="2Oq$k0">
-                  <ref role="3cqZAo" node="75_oBQVzL3K" resolve="nodeClass" />
-                </node>
-                <node concept="liA8E" id="75_oBQVzL4s" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Class.isInstance(java.lang.Object):boolean" resolve="isInstance" />
-                  <node concept="37vLTw" id="75_oBQVzL48" role="37wK5m">
-                    <ref role="3cqZAo" node="75_oBQVzL41" resolve="selectedNode" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="75_oBQVzL4c" role="3clFbx">
-            <node concept="3cpWs6" id="75_oBQVzL4a" role="3cqZAp">
-              <node concept="10Nm6u" id="75_oBQVzL4b" role="3cqZAk" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="75_oBQVzL4d" role="3cqZAp">
-          <node concept="10QFUN" id="75_oBQVzL4e" role="3cqZAk">
-            <node concept="37vLTw" id="75_oBQVzL4f" role="10QFUP">
-              <ref role="3cqZAo" node="75_oBQVzL41" resolve="selectedNode" />
-            </node>
-            <node concept="16syzq" id="75_oBQVzL4g" role="10QFUM">
-              <ref role="16sUi3" node="75_oBQVzL3I" resolve="T" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm6S6" id="75_oBQVzL4h" role="1B3o_S" />
-      <node concept="16syzq" id="75_oBQVzL4i" role="3clF45">
-        <ref role="16sUi3" node="75_oBQVzL3I" resolve="T" />
       </node>
     </node>
     <node concept="2tJIrI" id="75_oBQVyjDU" role="jymVt" />
@@ -3305,7 +3198,7 @@
               <ref role="3uigEE" node="7diJr$Rkh9d" resolve="CustomTreeNode" />
             </node>
             <node concept="1rXfSq" id="75_oBQVzEUm" role="33vP2m">
-              <ref role="37wK5l" node="75_oBQVzL3H" resolve="getSelectedTreeNode" />
+              <ref role="37wK5l" to="rvbb:~BaseLogicalViewProjectPane.getSelectedTreeNode(java.lang.Class)" resolve="getSelectedTreeNode" />
               <node concept="3VsKOn" id="75_oBQVzEUo" role="37wK5m">
                 <ref role="3VsUkX" node="7diJr$Rkh9d" resolve="CustomTreeNode" />
               </node>

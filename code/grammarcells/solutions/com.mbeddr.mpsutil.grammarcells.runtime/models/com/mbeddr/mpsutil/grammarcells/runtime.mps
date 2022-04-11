@@ -204,6 +204,9 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -4066,12 +4069,13 @@
     <node concept="2YIFZL" id="2EPKBwvv5qv" role="jymVt">
       <property role="TrG5h" value="asIconResource" />
       <node concept="3clFbS" id="2EPKBwvuT4U" role="3clF47">
-        <node concept="3clFbF" id="2EPKBwvv0ZT" role="3cqZAp">
-          <node concept="2ShNRf" id="2EPKBwvv0ZR" role="3clFbG">
-            <node concept="1pGfFk" id="2EPKBwvv32u" role="2ShVmc">
-              <ref role="37wK5l" to="18ew:~Icon2IconResourceAdapter_Deprecated.&lt;init&gt;(javax.swing.Icon)" resolve="Icon2IconResourceAdapter_Deprecated" />
-              <node concept="37vLTw" id="2EPKBwvv4ed" role="37wK5m">
-                <ref role="3cqZAo" node="2EPKBwvuVhF" resolve="icon" />
+        <node concept="YS8fn" id="7fvpAv78_87" role="3cqZAp">
+          <node concept="2ShNRf" id="7fvpAv78DEB" role="YScLw">
+            <node concept="1pGfFk" id="7fvpAv793Vl" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+              <node concept="Xl_RD" id="7fvpAv795p5" role="37wK5m">
+                <property role="Xl_RC" value="Icon2Icon2Resource has been removed. Replace usages with an IconResource alternative" />
               </node>
             </node>
           </node>

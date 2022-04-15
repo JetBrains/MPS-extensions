@@ -16,6 +16,7 @@
     <import index="av1m" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.menus.style(MPS.Editor/)" />
     <import index="rnx3" ref="r:424d540e-f1fc-49a5-b16d-3f9264b84dee(de.itemis.model.merge.behavior)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -1370,8 +1371,8 @@
             <node concept="liA8E" id="1VmHfRxJ0pk" role="2OqNvi">
               <ref role="37wK5l" to="av1m:~EditorMenuItemStyle.setTextColor(java.awt.Color)" resolve="setTextColor" />
               <node concept="10M0yZ" id="1VmHfRxJ0pl" role="37wK5m">
-                <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                <ref role="3cqZAo" to="lzb2:~JBColor.LIGHT_GRAY" resolve="LIGHT_GRAY" />
               </node>
             </node>
           </node>
@@ -1394,8 +1395,8 @@
             <node concept="liA8E" id="1VmHfRxJ0pt" role="2OqNvi">
               <ref role="37wK5l" to="av1m:~EditorMenuItemStyle.setTextColor(java.awt.Color)" resolve="setTextColor" />
               <node concept="10M0yZ" id="1VmHfRxJ0pu" role="37wK5m">
-                <ref role="3cqZAo" to="z60i:~Color.RED" resolve="RED" />
-                <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                <ref role="3cqZAo" to="lzb2:~JBColor.RED" resolve="RED" />
               </node>
             </node>
           </node>

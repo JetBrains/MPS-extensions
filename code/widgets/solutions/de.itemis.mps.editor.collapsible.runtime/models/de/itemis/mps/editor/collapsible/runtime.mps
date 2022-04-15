@@ -25,6 +25,7 @@
     <import index="5usg" ref="r:3838bb8b-fecd-4f7c-841e-325717a43980(de.itemis.mps.tooltips.runtime)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" implicit="true" />
   </imports>
@@ -1623,8 +1624,8 @@
                           <node concept="liA8E" id="48DYfEtnxur" role="2OqNvi">
                             <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                             <node concept="10M0yZ" id="48DYfEtnxvl" role="37wK5m">
-                              <ref role="3cqZAo" to="z60i:~Color.GRAY" resolve="GRAY" />
-                              <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                              <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                              <ref role="3cqZAo" to="lzb2:~JBColor.GRAY" resolve="GRAY" />
                             </node>
                           </node>
                         </node>
@@ -3676,23 +3677,13 @@
                 <node concept="liA8E" id="48DYfEtwvVa" role="2OqNvi">
                   <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                   <node concept="3K4zz7" id="48DYfEtwwmO" role="37wK5m">
-                    <node concept="2ShNRf" id="48DYfEtwwsj" role="3K4E3e">
-                      <node concept="1pGfFk" id="48DYfEtwwL5" role="2ShVmc">
-                        <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-                        <node concept="3cmrfG" id="48DYfEtwwL$" role="37wK5m">
-                          <property role="3cmrfH" value="200" />
-                        </node>
-                        <node concept="3cmrfG" id="48DYfEtwwNB" role="37wK5m">
-                          <property role="3cmrfH" value="200" />
-                        </node>
-                        <node concept="3cmrfG" id="48DYfEtwxio" role="37wK5m">
-                          <property role="3cmrfH" value="200" />
-                        </node>
-                      </node>
+                    <node concept="10M0yZ" id="2WI5qcQkpk" role="3K4E3e">
+                      <ref role="3cqZAo" to="lzb2:~JBColor.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                      <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
                     </node>
                     <node concept="10M0yZ" id="48DYfEtwxBB" role="3K4GZi">
-                      <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                      <ref role="3cqZAo" to="z60i:~Color.WHITE" resolve="WHITE" />
+                      <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                      <ref role="3cqZAo" to="lzb2:~JBColor.WHITE" resolve="WHITE" />
                     </node>
                     <node concept="37vLTw" id="48DYfEtwvW6" role="3K4Cdx">
                       <ref role="3cqZAo" node="48DYfEtb43H" resolve="myIsHighlighted" />
@@ -3741,8 +3732,8 @@
                 <node concept="liA8E" id="48DYfEt2xwu" role="2OqNvi">
                   <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                   <node concept="10M0yZ" id="48DYfEt2xxq" role="37wK5m">
-                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                    <ref role="3cqZAo" to="z60i:~Color.GRAY" resolve="GRAY" />
+                    <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                    <ref role="3cqZAo" to="lzb2:~JBColor.GRAY" resolve="GRAY" />
                   </node>
                 </node>
               </node>

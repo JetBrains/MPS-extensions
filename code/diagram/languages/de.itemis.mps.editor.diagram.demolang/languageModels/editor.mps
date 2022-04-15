@@ -20,6 +20,7 @@
     <import index="wo6c" ref="r:de91083f-90a8-4dd4-83b1-8a92d65ab81d(de.itemis.mps.editor.diagram.shapes)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -735,8 +736,8 @@
                   <node concept="3clFbS" id="7WiZGib9KZR" role="2VODD2">
                     <node concept="3clFbF" id="7WiZGib9Lfy" role="3cqZAp">
                       <node concept="10M0yZ" id="7WiZGib9Lfx" role="3clFbG">
-                        <ref role="3cqZAo" to="z60i:~Color.lightGray" resolve="lightGray" />
-                        <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                        <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                        <ref role="3cqZAo" to="lzb2:~JBColor.lightGray" resolve="lightGray" />
                       </node>
                     </node>
                   </node>

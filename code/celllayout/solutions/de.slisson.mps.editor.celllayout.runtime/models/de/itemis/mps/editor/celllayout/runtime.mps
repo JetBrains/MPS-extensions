@@ -29,6 +29,7 @@
     <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="hhnx" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime(MPS.Editor/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
@@ -16777,13 +16778,26 @@
                   <ref role="37wK5l" node="6p1TdwlPQkC" resolve="getBrightness" />
                 </node>
               </node>
-              <node concept="17R0WA" id="6p1TdwlTKlv" role="3K4Cdx">
-                <node concept="10M0yZ" id="6p1TdwlTKpK" role="3uHU7w">
-                  <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                  <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
-                </node>
-                <node concept="37vLTw" id="6p1TdwlTKg7" role="3uHU7B">
-                  <ref role="3cqZAo" node="6p1TdwlRAw1" resolve="myColor" />
+              <node concept="1eOMI4" id="2WI5qcPWII" role="3K4Cdx">
+                <node concept="22lmx$" id="2WI5qcPY4Y" role="1eOMHV">
+                  <node concept="17R0WA" id="2WI5qcQ1KM" role="3uHU7w">
+                    <node concept="10M0yZ" id="2WI5qcQ6ET" role="3uHU7w">
+                      <ref role="3cqZAo" to="lzb2:~JBColor.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                      <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                    </node>
+                    <node concept="37vLTw" id="2WI5qcPZx2" role="3uHU7B">
+                      <ref role="3cqZAo" node="6p1TdwlRAw1" resolve="myColor" />
+                    </node>
+                  </node>
+                  <node concept="17R0WA" id="6p1TdwlTKlv" role="3uHU7B">
+                    <node concept="37vLTw" id="6p1TdwlTKg7" role="3uHU7B">
+                      <ref role="3cqZAo" node="6p1TdwlRAw1" resolve="myColor" />
+                    </node>
+                    <node concept="10M0yZ" id="6p1TdwlTKpK" role="3uHU7w">
+                      <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                      <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

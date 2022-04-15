@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -123,8 +124,8 @@
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
       </node>
       <node concept="10M0yZ" id="7GMtHW6qHam" role="3t49C2">
-        <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-        <ref role="3cqZAo" to="z60i:~Color.BLACK" resolve="BLACK" />
+        <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+        <ref role="3cqZAo" to="lzb2:~JBColor.BLACK" resolve="BLACK" />
       </node>
     </node>
     <node concept="3t5Usi" id="7GMtHW6qHaD" role="V601i">

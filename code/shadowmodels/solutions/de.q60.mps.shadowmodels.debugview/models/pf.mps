@@ -44,6 +44,7 @@
     <import index="e55s" ref="r:340cdae2-711c-4186-bc13-94d9832e5a1d(de.q60.mps.explorer)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" implicit="true" />
     <import index="oyp0" ref="r:ff4bc8f2-4e53-41b7-a27c-792a5dcc86cb(de.q60.mps.shadowmodels.transformation.structure)" implicit="true" />
     <import index="hm90" ref="r:61d96d59-75af-4854-9d37-c81762926dfe(de.q60.mps.shadowmodels.transformation.behavior)" implicit="true" />
@@ -7755,8 +7756,8 @@
                 <node concept="liA8E" id="7pNuz6_YGT6" role="2OqNvi">
                   <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                   <node concept="10M0yZ" id="7pNuz6_YHnx" role="37wK5m">
-                    <ref role="3cqZAo" to="z60i:~Color.BLACK" resolve="BLACK" />
-                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                    <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                    <ref role="3cqZAo" to="lzb2:~JBColor.BLACK" resolve="BLACK" />
                   </node>
                 </node>
               </node>

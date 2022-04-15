@@ -60,6 +60,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
     <import index="9hsz" ref="r:16d53f5e-7835-4b72-9581-fafeae0db9b1(jetbrains.mps.lang.editor.enumMigration)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" implicit="true" />
@@ -12268,8 +12269,8 @@
                         <node concept="liA8E" id="7VuKdVa5Us_" role="2OqNvi">
                           <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                           <node concept="10M0yZ" id="7VuKdVa7FRR" role="37wK5m">
-                            <ref role="3cqZAo" to="z60i:~Color.lightGray" resolve="lightGray" />
-                            <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                            <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                            <ref role="3cqZAo" to="lzb2:~JBColor.lightGray" resolve="lightGray" />
                           </node>
                         </node>
                       </node>

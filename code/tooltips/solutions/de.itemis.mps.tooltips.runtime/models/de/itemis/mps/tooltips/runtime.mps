@@ -28,6 +28,7 @@
     <import index="kcid" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/)" />
     <import index="88dm" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tooltips(MPS.Platform/)" />
     <import index="3qmy" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.classloading(MPS.Core/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
@@ -1392,8 +1393,8 @@
             <node concept="liA8E" id="2a194$K08vi" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
               <node concept="10M0yZ" id="7CEHNszDLZH" role="37wK5m">
-                <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                <ref role="3cqZAo" to="z60i:~Color.BLUE" resolve="BLUE" />
+                <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                <ref role="3cqZAo" to="lzb2:~JBColor.BLUE" resolve="BLUE" />
               </node>
             </node>
           </node>

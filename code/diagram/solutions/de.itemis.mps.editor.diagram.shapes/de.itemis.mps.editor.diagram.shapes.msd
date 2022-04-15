@@ -13,6 +13,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="0" />
@@ -29,7 +30,9 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
+    <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
+    <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="f7ad14aa-a3e2-4301-8822-d919845c8bcf(de.itemis.mps.editor.diagram.shapes)" version="0" />
   </dependencyVersions>
 </solution>

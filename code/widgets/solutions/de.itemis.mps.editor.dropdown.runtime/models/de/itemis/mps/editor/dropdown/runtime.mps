@@ -953,21 +953,16 @@
                         <ref role="3cqZAo" node="3_TG3j996Nd" resolve="isHighlighted" />
                       </node>
                       <node concept="10M0yZ" id="7szUFELG2wb" role="3K4GZi">
-                        <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                        <ref role="3cqZAo" to="z60i:~Color.WHITE" resolve="WHITE" />
+                        <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                        <ref role="3cqZAo" to="lzb2:~JBColor.WHITE" resolve="WHITE" />
                       </node>
-                      <node concept="2ShNRf" id="7szUFELFPMr" role="3K4E3e">
-                        <node concept="1pGfFk" id="7szUFELFQ5Y" role="2ShVmc">
-                          <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-                          <node concept="3cmrfG" id="7szUFELFQ7W" role="37wK5m">
-                            <property role="3cmrfH" value="200" />
-                          </node>
-                          <node concept="3cmrfG" id="7szUFELFQaG" role="37wK5m">
-                            <property role="3cmrfH" value="200" />
-                          </node>
-                          <node concept="3cmrfG" id="7szUFELFQqP" role="37wK5m">
-                            <property role="3cmrfH" value="255" />
-                          </node>
+                      <node concept="2OqwBi" id="2WI5qdtkSo" role="3K4E3e">
+                        <node concept="2YIFZM" id="2WI5qdtkqn" role="2Oq$k0">
+                          <ref role="1Pybhc" to="exr9:~EditorSettings" resolve="EditorSettings" />
+                          <ref role="37wK5l" to="exr9:~EditorSettings.getInstance()" resolve="getInstance" />
+                        </node>
+                        <node concept="liA8E" id="2WI5qdtnB1" role="2OqNvi">
+                          <ref role="37wK5l" to="exr9:~EditorSettings.getSelectionBackgroundColor()" resolve="getSelectionBackgroundColor" />
                         </node>
                       </node>
                     </node>

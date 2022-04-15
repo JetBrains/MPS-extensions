@@ -7666,19 +7666,9 @@
             </node>
             <node concept="liA8E" id="JAaUnmWuzi" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
-              <node concept="2ShNRf" id="JAaUnmWuVB" role="37wK5m">
-                <node concept="1pGfFk" id="JAaUnmWuVA" role="2ShVmc">
-                  <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-                  <node concept="3cmrfG" id="JAaUnmWv3e" role="37wK5m">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                  <node concept="3cmrfG" id="JAaUnmWvhh" role="37wK5m">
-                    <property role="3cmrfH" value="150" />
-                  </node>
-                  <node concept="3cmrfG" id="JAaUnmWvvW" role="37wK5m">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                </node>
+              <node concept="10M0yZ" id="2WI5qdmB0W" role="37wK5m">
+                <ref role="3cqZAo" to="exr9:~MPSColors.DARK_GREEN" resolve="DARK_GREEN" />
+                <ref role="1PxDUh" to="exr9:~MPSColors" resolve="MPSColors" />
               </node>
             </node>
           </node>

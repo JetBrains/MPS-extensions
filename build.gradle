@@ -524,10 +524,6 @@ mpsBuild {
         module("com.mbeddr.mpsutil.editor.querylist.runtime")
     }
 
-    publication("tooltips") {
-        module("de.itemis.mps.tooltips.runtime")
-    }
-
     publication("collapsible") {
         module("de.itemis.mps.editor.collapsible")
         module("de.itemis.mps.editor.collapsible.runtime")

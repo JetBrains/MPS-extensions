@@ -34,8 +34,8 @@
         <dependency reexport="false">18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</dependency>
         <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
         <dependency reexport="false" scope="design">a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)</dependency>
-        <dependency reexport="false">a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips)</dependency>
         <dependency reexport="false">2e24a298-44d1-4697-baec-5c424fed3a3b(jetbrains.mps.editorlang.runtime)</dependency>
+        <dependency reexport="false">b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="0" />
@@ -97,6 +97,7 @@
         <module reference="3ac18869-0828-4401-abad-822a47bf83f1(jetbrains.mps.lang.descriptor#9020561928507175817)" version="0" />
         <module reference="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" version="0" />
         <module reference="0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)" version="0" />
+        <module reference="b1ab8c10-c118-4755-bf2a-cebab35cf533(jetbrains.mps.lang.editor.tooltips)" version="0" />
         <module reference="446c26eb-2b7b-4bf0-9b35-f83fa582753e(jetbrains.mps.lang.modelapi)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="1" />

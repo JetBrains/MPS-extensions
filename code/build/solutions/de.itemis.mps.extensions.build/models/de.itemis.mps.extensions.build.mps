@@ -4657,9 +4657,6 @@
       <node concept="m$_yC" id="7oiNWZV8BUc" role="m$_yJ">
         <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
       </node>
-      <node concept="m$_yC" id="6$BmuzArR6F" role="m$_yJ">
-        <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
-      </node>
       <node concept="m$_yC" id="7szUFELLHSD" role="m$_yJ">
         <ref role="m$_y1" node="7szUFELHeHf" resolve="de.itemis.mps.editor.widgets" />
       </node>
@@ -5482,48 +5479,6 @@
           <ref role="3LEDTV" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
         </node>
       </node>
-    </node>
-    <node concept="m$_wf" id="6$BmuzArOtB" role="3989C9">
-      <property role="m$_wk" value="de.itemis.mps.tooltips" />
-      <node concept="3_J27D" id="6$BmuzArOtC" role="m$_yQ">
-        <node concept="3Mxwew" id="6$BmuzArOtD" role="3MwsjC">
-          <property role="3MwjfP" value="de.itemis.mps.tooltips" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="6$BmuzArOtE" role="m$_w8">
-        <node concept="3Mxwey" id="4MKCCgA1piq" role="3MwsjC">
-          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
-        </node>
-      </node>
-      <node concept="m$f5U" id="6$BmuzArQdF" role="m$_yh">
-        <ref role="m$f5T" node="6$BmuzArIJR" resolve="de.itemis.mps.tooltips" />
-      </node>
-      <node concept="m$_yC" id="6$BmuzArOtH" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
-      </node>
-      <node concept="m$_yC" id="6$BmuzArOtI" role="m$_yJ">
-        <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
-      </node>
-      <node concept="m$_yC" id="2eucapX09gm" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:6Hpa5co69BH" resolve="jetbrains.mps.editor.tooltips" />
-      </node>
-      <node concept="3_J27D" id="6$BmuzArOtJ" role="m_cZH">
-        <node concept="3Mxwew" id="6$BmuzArOtK" role="3MwsjC">
-          <property role="3MwjfP" value="de.itemis.mps.tooltips" />
-        </node>
-      </node>
-      <node concept="2iUeEo" id="2QgPOUCDcVW" role="2iVFfd">
-        <property role="2iUeEt" value="Itemis" />
-        <property role="2iUeEu" value="https://www.itemis.com/" />
-      </node>
-      <node concept="3_J27D" id="2QgPOUCDcHY" role="3s6cr7">
-        <node concept="3Mxwew" id="2QgPOUCDcOX" role="3MwsjC">
-          <property role="3MwjfP" value="MPS editor extension to show tooltips at certain parts in the editor" />
-        </node>
-      </node>
-    </node>
-    <node concept="2G$12M" id="6$BmuzArIJR" role="3989C9">
-      <property role="TrG5h" value="de.itemis.mps.tooltips" />
       <node concept="1E1JtA" id="6$BmuzArJZq" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.tooltips.runtime" />
@@ -13918,10 +13873,6 @@
       <node concept="m$_wl" id="2Xjt3l57guk" role="39821P">
         <ref role="m_rDy" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
         <node concept="pUk6x" id="3D0nl1ssJJQ" role="pUk7w" />
-      </node>
-      <node concept="m$_wl" id="3prCiG1Zenn" role="39821P">
-        <ref role="m_rDy" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
-        <node concept="pUk6x" id="3D0nl1ssJJS" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="5QhEsDNBgC7" role="39821P">
         <ref role="m_rDy" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />

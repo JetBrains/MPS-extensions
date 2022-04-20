@@ -16,6 +16,7 @@
     <import index="py4t" ref="r:4e973dcf-7005-4515-8904-9c030ef293d4(de.itemis.mps.mouselistener.runtime)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -49,6 +50,9 @@
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
@@ -197,18 +201,11 @@
       <node concept="3uibUv" id="7szUFELGYVN" role="1tU5fm">
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
       </node>
-      <node concept="2ShNRf" id="7szUFELH2FG" role="33vP2m">
-        <node concept="1pGfFk" id="7szUFELH2FF" role="2ShVmc">
-          <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-          <node concept="3cmrfG" id="7szUFELH2IR" role="37wK5m">
-            <property role="3cmrfH" value="150" />
-          </node>
-          <node concept="3cmrfG" id="7szUFELH2Pe" role="37wK5m">
-            <property role="3cmrfH" value="150" />
-          </node>
-          <node concept="3cmrfG" id="7szUFELH36o" role="37wK5m">
-            <property role="3cmrfH" value="150" />
-          </node>
+      <node concept="2YIFZM" id="2WI5qdsu9_" role="33vP2m">
+        <ref role="37wK5l" to="lzb2:~JBColor.namedColor(java.lang.String)" resolve="namedColor" />
+        <ref role="1Pybhc" to="lzb2:~JBColor" resolve="JBColor" />
+        <node concept="Xl_RD" id="2WI5qdswUT" role="37wK5m">
+          <property role="Xl_RC" value="Component.borderColor" />
         </node>
       </node>
     </node>
@@ -956,21 +953,16 @@
                         <ref role="3cqZAo" node="3_TG3j996Nd" resolve="isHighlighted" />
                       </node>
                       <node concept="10M0yZ" id="7szUFELG2wb" role="3K4GZi">
-                        <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                        <ref role="3cqZAo" to="z60i:~Color.WHITE" resolve="WHITE" />
+                        <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                        <ref role="3cqZAo" to="lzb2:~JBColor.WHITE" resolve="WHITE" />
                       </node>
-                      <node concept="2ShNRf" id="7szUFELFPMr" role="3K4E3e">
-                        <node concept="1pGfFk" id="7szUFELFQ5Y" role="2ShVmc">
-                          <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-                          <node concept="3cmrfG" id="7szUFELFQ7W" role="37wK5m">
-                            <property role="3cmrfH" value="200" />
-                          </node>
-                          <node concept="3cmrfG" id="7szUFELFQaG" role="37wK5m">
-                            <property role="3cmrfH" value="200" />
-                          </node>
-                          <node concept="3cmrfG" id="7szUFELFQqP" role="37wK5m">
-                            <property role="3cmrfH" value="255" />
-                          </node>
+                      <node concept="2OqwBi" id="2WI5qdtkSo" role="3K4E3e">
+                        <node concept="2YIFZM" id="2WI5qdtkqn" role="2Oq$k0">
+                          <ref role="1Pybhc" to="exr9:~EditorSettings" resolve="EditorSettings" />
+                          <ref role="37wK5l" to="exr9:~EditorSettings.getInstance()" resolve="getInstance" />
+                        </node>
+                        <node concept="liA8E" id="2WI5qdtnB1" role="2OqNvi">
+                          <ref role="37wK5l" to="exr9:~EditorSettings.getSelectionBackgroundColor()" resolve="getSelectionBackgroundColor" />
                         </node>
                       </node>
                     </node>

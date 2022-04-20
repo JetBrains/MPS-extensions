@@ -1023,6 +1023,9 @@
           <property role="3MwjfP" value="An editor component for properties that supports wrapping of long lines and new lines by pressing ENTER." />
         </node>
       </node>
+      <node concept="m$_yC" id="6JDgK_ZoAgR" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:RJsmGEieyQ" resolve="jetbrains.mps.vcs" />
+      </node>
     </node>
     <node concept="2G$12M" id="4p3FRivDLPF" role="3989C9">
       <property role="TrG5h" value="mps-multiline" />
@@ -1300,6 +1303,16 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6JDgK_Zo_al" role="3bR37C">
+          <node concept="3bR9La" id="6JDgK_Zo_am" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:39HJr_hyEzS" resolve="jetbrains.mps.ide.vcs.platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6JDgK_Zo_an" role="3bR37C">
+          <node concept="3bR9La" id="6JDgK_Zo_ao" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:39HJr_hyAl1" resolve="jetbrains.mps.ide.vcs.core" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="1sO539bGQvt" role="3989C9">
@@ -1345,6 +1358,9 @@
         <node concept="3Mxwew" id="2QgPOUCCDdM" role="3MwsjC">
           <property role="3MwjfP" value="An editor component for mixing plain text and MPS nodes" />
         </node>
+      </node>
+      <node concept="m$_yC" id="6JDgK_ZoA2Q" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:RJsmGEieyQ" resolve="jetbrains.mps.vcs" />
       </node>
     </node>
     <node concept="2G$12M" id="1sO539bGQvA" role="3989C9">
@@ -5092,6 +5108,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6JDgK_Zo_jH" role="3bR37C">
+          <node concept="3bR9La" id="6JDgK_Zo_jI" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4be$WTb1CbJ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -6010,6 +6031,9 @@
         <node concept="3Mxwew" id="2QgPOUCDfm7" role="3MwsjC">
           <property role="3MwjfP" value="Various baseLanguage extension utitlities such as map-reduce, type-switch, documentation, dispatch, concept, switch, etc." />
         </node>
+      </node>
+      <node concept="m$_yC" id="6JDgK_Zo_OR" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:RJsmGEieyQ" resolve="jetbrains.mps.vcs" />
       </node>
     </node>
     <node concept="2G$12M" id="2NyZxKpUBtX" role="3989C9">
@@ -13380,6 +13404,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6JDgK_Zo__S" role="3bR37C">
+          <node concept="3bR9La" id="6JDgK_Zo__T" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="2jlBy7bQx3n" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -16616,6 +16645,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6JDgK_ZoELK" role="3bR37C">
+          <node concept="3bR9La" id="6JDgK_ZoELL" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7CKpyI71cs0" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -17537,6 +17571,11 @@
         <node concept="1SiIV0" id="2obP5Y848D_" role="3bR37C">
           <node concept="Rbm2T" id="2obP5Y848DA" role="1SiIV1">
             <ref role="1E1Vl2" to="ffeo:7Kfy9QB6KZG" resolve="jetbrains.mps.baseLanguage.closures" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6JDgK_ZoEQs" role="3bR37C">
+          <node concept="3bR9La" id="6JDgK_ZoEQt" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
           </node>
         </node>
       </node>

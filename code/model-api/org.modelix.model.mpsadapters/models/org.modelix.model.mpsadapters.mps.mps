@@ -36,7 +36,7 @@
     <import index="j9co" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.event(MPS.Core/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
-    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
@@ -30630,6 +30630,31 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="5BmUO6WzU1S" role="jymVt">
+      <property role="TrG5h" value="getConceptReference" />
+      <node concept="3Tm1VV" id="5BmUO6WzU1T" role="1B3o_S" />
+      <node concept="2AHcQZ" id="5BmUO6WzU1U" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3uibUv" id="5BmUO6WzU1V" role="3clF45">
+        <ref role="3uigEE" to="jks5:~IConceptReference" resolve="IConceptReference" />
+      </node>
+      <node concept="3clFbS" id="5BmUO6WzU1W" role="3clF47">
+        <node concept="3clFbF" id="5BmUO6WzU1X" role="3cqZAp">
+          <node concept="2EnYce" id="5BmUO6WzU1Y" role="3clFbG">
+            <node concept="1rXfSq" id="5BmUO6WzU1Z" role="2Oq$k0">
+              <ref role="37wK5l" node="25OQfQHEYef" resolve="getConcept" />
+            </node>
+            <node concept="liA8E" id="5BmUO6WzU20" role="2OqNvi">
+              <ref role="37wK5l" to="jks5:~IConcept.getReference()" resolve="getReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5BmUO6WzU21" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="25OQfQHFnHj" role="jymVt" />
     <node concept="312cEu" id="25OQfQHFovQ" role="jymVt">
       <property role="TrG5h" value="NodeReference" />
@@ -32904,6 +32929,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="25OQfQHQeLf" role="jymVt" />
+    <node concept="3clFb_" id="5BmUO6WzR2H" role="jymVt">
+      <property role="TrG5h" value="getConceptReference" />
+      <node concept="3Tm1VV" id="5BmUO6WzR2I" role="1B3o_S" />
+      <node concept="2AHcQZ" id="5BmUO6WzR2J" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3uibUv" id="5BmUO6WzR2K" role="3clF45">
+        <ref role="3uigEE" to="jks5:~IConceptReference" resolve="IConceptReference" />
+      </node>
+      <node concept="3clFbS" id="5BmUO6WzR2L" role="3clF47">
+        <node concept="3clFbF" id="5BmUO6WzR2M" role="3cqZAp">
+          <node concept="2EnYce" id="5BmUO6WzR2N" role="3clFbG">
+            <node concept="1rXfSq" id="5BmUO6WzR2O" role="2Oq$k0">
+              <ref role="37wK5l" node="25OQfQHQeDj" resolve="getConcept" />
+            </node>
+            <node concept="liA8E" id="5BmUO6WzR2P" role="2OqNvi">
+              <ref role="37wK5l" to="jks5:~IConcept.getReference()" resolve="getReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5BmUO6WzR2Q" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="25OQfQHSuLG">
     <property role="3GE5qa" value="treeAdapters" />

@@ -4697,6 +4697,39 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7wCpClEQc3x" role="3clF47">
+        <node concept="3clFbJ" id="3I8vbv3rRJV" role="3cqZAp">
+          <node concept="3clFbS" id="3I8vbv3rRJX" role="3clFbx">
+            <node concept="3cpWs6" id="3I8vbv3s6Sn" role="3cqZAp" />
+          </node>
+          <node concept="22lmx$" id="3I8vbv3rZzF" role="3clFbw">
+            <node concept="17R0WA" id="3I8vbv3s5E2" role="3uHU7w">
+              <node concept="3b6qkQ" id="3I8vbv3s6Dl" role="3uHU7w">
+                <property role="$nhwW" value="0.0" />
+              </node>
+              <node concept="2OqwBi" id="3I8vbv3s1Y9" role="3uHU7B">
+                <node concept="37vLTw" id="3I8vbv3s1jF" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7wCpClER04H" resolve="targetRect" />
+                </node>
+                <node concept="liA8E" id="3I8vbv3s3X8" role="2OqNvi">
+                  <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight()" resolve="getHeight" />
+                </node>
+              </node>
+            </node>
+            <node concept="17R0WA" id="3I8vbv3rXyV" role="3uHU7B">
+              <node concept="2OqwBi" id="3I8vbv3rVFA" role="3uHU7B">
+                <node concept="37vLTw" id="3I8vbv3rTRc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7wCpClER04H" resolve="targetRect" />
+                </node>
+                <node concept="liA8E" id="3I8vbv3rWR$" role="2OqNvi">
+                  <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth()" resolve="getWidth" />
+                </node>
+              </node>
+              <node concept="3b6qkQ" id="3I8vbv3rYzl" role="3uHU7w">
+                <property role="$nhwW" value="0.0" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="7wCpClER6VX" role="3cqZAp">
           <node concept="3cpWsn" id="7wCpClER6VY" role="3cpWs9">
             <property role="TrG5h" value="g2" />

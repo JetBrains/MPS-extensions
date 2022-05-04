@@ -64,6 +64,7 @@
     <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="ouht" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin.jvm.functions(org.modelix.model.api/)" />
+    <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" implicit="true" />
   </imports>
@@ -24699,6 +24700,15 @@
       </node>
       <node concept="3Tmbuc" id="QurUghQj$G" role="1B3o_S" />
       <node concept="3clFbS" id="QurUghQj$H" role="3clF47">
+        <node concept="3clFbF" id="2RdPpjb_W8o" role="3cqZAp">
+          <node concept="2YIFZM" id="2RdPpjbA4yu" role="3clFbG">
+            <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+            <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
+            <node concept="37vLTw" id="2RdPpjbA4B3" role="37wK5m">
+              <ref role="3cqZAo" node="QurUghQj$D" resolve="ex" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="QurUghQj$I" role="3cqZAp">
           <node concept="3cpWsn" id="QurUghQj$J" role="3cpWs9">
             <property role="TrG5h" value="placeholder" />

@@ -92,7 +92,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="usedLanguages" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1UvRDkPap5X" resolve="LanguageDependency" />
+      <ref role="20lvS9" node="1UvRDkPap5X" resolve="SingleLanguageDependency" />
     </node>
     <node concept="PrWs8" id="qmkA5fOskd" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -161,7 +161,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="languageDependencies" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1UvRDkPap5X" resolve="LanguageDependency" />
+      <ref role="20lvS9" node="7LiskgSqGCf" resolve="LanguageDependency" />
     </node>
     <node concept="1TJgyi" id="1UvRDkPap52" role="1TKVEl">
       <property role="IQ2nx" value="2206727074858242370" />
@@ -302,18 +302,8 @@
   </node>
   <node concept="1TIwiD" id="1UvRDkPap5X">
     <property role="EcuMT" value="2206727074858242429" />
-    <property role="TrG5h" value="LanguageDependency" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="1UvRDkPap5Y" role="1TKVEl">
-      <property role="IQ2nx" value="2206727074858242430" />
-      <property role="TrG5h" value="uuid" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="1UvRDkPap60" role="1TKVEl">
-      <property role="IQ2nx" value="2206727074858242432" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
+    <property role="TrG5h" value="SingleLanguageDependency" />
+    <ref role="1TJDcQ" node="7LiskgSqGCf" resolve="LanguageDependency" />
     <node concept="1TJgyi" id="1UvRDkPap63" role="1TKVEl">
       <property role="IQ2nx" value="2206727074858242435" />
       <property role="TrG5h" value="version" />
@@ -329,6 +319,27 @@
       <property role="TrG5h" value="virtualFolder" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7LiskgSqGCf">
+    <property role="EcuMT" value="8958347146611575311" />
+    <property role="TrG5h" value="LanguageDependency" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7LiskgSqGCi" role="1TKVEl">
+      <property role="IQ2nx" value="8958347146611575314" />
+      <property role="TrG5h" value="uuid" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7LiskgSqGCj" role="1TKVEl">
+      <property role="IQ2nx" value="8958347146611575315" />
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7LiskgSqGCm">
+    <property role="EcuMT" value="8958347146611575318" />
+    <property role="TrG5h" value="DevkitDependency" />
+    <ref role="1TJDcQ" node="7LiskgSqGCf" resolve="LanguageDependency" />
   </node>
 </model>
 

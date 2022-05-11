@@ -669,7 +669,7 @@
         <node concept="3cpWs6" id="7g5FWGK2BAO" role="3cqZAp">
           <node concept="2ShNRf" id="7g5FWGK2BDO" role="3cqZAk">
             <node concept="1pGfFk" id="7g5FWGK2BZa" role="2ShVmc">
-              <ref role="37wK5l" to="xxte:25OQfQHQeC1" resolve="LanguageDependencyAsNode" />
+              <ref role="37wK5l" to="xxte:25OQfQHQeC1" resolve="SingleLanguageDependencyAsNode" />
               <node concept="2OqwBi" id="7g5FWGK2D9K" role="37wK5m">
                 <node concept="pHN19" id="7g5FWGK2CVg" role="2Oq$k0">
                   <node concept="2V$Bhx" id="7g5FWGK2D0N" role="2V$M_3">
@@ -692,7 +692,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="7g5FWGK2GMO" role="3clF45">
-        <ref role="3uigEE" to="xxte:25OQfQHQeBK" resolve="LanguageDependencyAsNode" />
+        <ref role="3uigEE" to="xxte:25OQfQHQeBK" resolve="SingleLanguageDependencyAsNode" />
       </node>
     </node>
     <node concept="2XrIbr" id="7g5FWGK3SFd" role="1qtyYc">
@@ -755,7 +755,7 @@
         <node concept="3cpWs6" id="7g5FWGK3SF_" role="3cqZAp">
           <node concept="2ShNRf" id="7g5FWGK3SFA" role="3cqZAk">
             <node concept="1pGfFk" id="7g5FWGK3SFB" role="2ShVmc">
-              <ref role="37wK5l" to="xxte:7g5FWGJTI8X" resolve="LanguageDependencyAsNode" />
+              <ref role="37wK5l" to="xxte:7g5FWGJTI8X" resolve="SingleLanguageDependencyAsNode" />
               <node concept="2OqwBi" id="7g5FWGK3SFC" role="37wK5m">
                 <node concept="pHN19" id="7g5FWGK3SFD" role="2Oq$k0">
                   <node concept="2V$Bhx" id="7g5FWGK3SFE" role="2V$M_3">
@@ -778,7 +778,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="7g5FWGK3SFI" role="3clF45">
-        <ref role="3uigEE" to="xxte:25OQfQHQeBK" resolve="LanguageDependencyAsNode" />
+        <ref role="3uigEE" to="xxte:25OQfQHQeBK" resolve="SingleLanguageDependencyAsNode" />
       </node>
     </node>
   </node>

@@ -64,6 +64,7 @@
     <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="ouht" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin.jvm.functions(org.modelix.model.api/)" />
+    <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" implicit="true" />
   </imports>
@@ -6922,14 +6923,14 @@
                       <ref role="3cqZAo" node="6g556hX9d5h" resolve="operationId" />
                     </node>
                     <node concept="3cpWs3" id="6g556hXauqh" role="3uHU7B">
+                      <node concept="Xl_RD" id="6g556hXau9B" role="3uHU7w">
+                        <property role="Xl_RC" value=" doesn't implement the operation " />
+                      </node>
                       <node concept="2OqwBi" id="2obP5Y844yR" role="3uHU7B">
                         <node concept="37vLTw" id="6g556hXauu7" role="2Oq$k0">
                           <ref role="3cqZAo" node="6g556hX9fML" resolve="node" />
                         </node>
                         <node concept="2Iv5rx" id="2obP5Y844yS" role="2OqNvi" />
-                      </node>
-                      <node concept="Xl_RD" id="6g556hXau9B" role="3uHU7w">
-                        <property role="Xl_RC" value=" doesn't implement the operation " />
                       </node>
                     </node>
                   </node>
@@ -23564,14 +23565,14 @@
                 <node concept="1pGfFk" id="5zrTIjlrm7t" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                   <node concept="3cpWs3" id="5zrTIjlrolt" role="37wK5m">
+                    <node concept="Xl_RD" id="5zrTIjlrmIg" role="3uHU7B">
+                      <property role="Xl_RC" value="Not inside a model: " />
+                    </node>
                     <node concept="2OqwBi" id="2obP5Y844JB" role="3uHU7w">
                       <node concept="37vLTw" id="5zrTIjlro$x" role="2Oq$k0">
                         <ref role="3cqZAo" node="5zrTIjlr0bm" resolve="inputNode" />
                       </node>
                       <node concept="2Iv5rx" id="2obP5Y844JC" role="2OqNvi" />
-                    </node>
-                    <node concept="Xl_RD" id="5zrTIjlrmIg" role="3uHU7B">
-                      <property role="Xl_RC" value="Not inside a model: " />
                     </node>
                   </node>
                 </node>
@@ -23612,14 +23613,14 @@
                 <node concept="1pGfFk" id="5zrTIjlrpYg" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                   <node concept="3cpWs3" id="5zrTIjlrpYh" role="37wK5m">
+                    <node concept="Xl_RD" id="5zrTIjlrpYj" role="3uHU7B">
+                      <property role="Xl_RC" value="Not inside a module: " />
+                    </node>
                     <node concept="2OqwBi" id="2obP5Y844JL" role="3uHU7w">
                       <node concept="37vLTw" id="5zrTIjlrpYi" role="2Oq$k0">
                         <ref role="3cqZAo" node="5zrTIjlr0bm" resolve="inputNode" />
                       </node>
                       <node concept="2Iv5rx" id="2obP5Y844JM" role="2OqNvi" />
-                    </node>
-                    <node concept="Xl_RD" id="5zrTIjlrpYj" role="3uHU7B">
-                      <property role="Xl_RC" value="Not inside a module: " />
                     </node>
                   </node>
                 </node>
@@ -24709,6 +24710,15 @@
       </node>
       <node concept="3Tmbuc" id="QurUghQj$G" role="1B3o_S" />
       <node concept="3clFbS" id="QurUghQj$H" role="3clF47">
+        <node concept="3clFbF" id="2RdPpjb_W8o" role="3cqZAp">
+          <node concept="2YIFZM" id="2RdPpjbA4yu" role="3clFbG">
+            <ref role="37wK5l" to="y071:7rXsP$3RVaU" resolve="logError" />
+            <ref role="1Pybhc" to="y071:7rXsP$3Pvyg" resolve="ShadowLogging" />
+            <node concept="37vLTw" id="2RdPpjbA4B3" role="37wK5m">
+              <ref role="3cqZAo" node="QurUghQj$D" resolve="ex" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="QurUghQj$I" role="3cqZAp">
           <node concept="3cpWsn" id="QurUghQj$J" role="3cpWs9">
             <property role="TrG5h" value="placeholder" />

@@ -28,7 +28,16 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
@@ -299,6 +308,11 @@
       <property role="TrG5h" value="version" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="7krdkfP2bzT" role="1TKVEl">
+      <property role="IQ2nx" value="8438396892798826745" />
+      <property role="TrG5h" value="scope" />
+      <ref role="AX2Wp" node="7krdkfP2b0k" resolve="DependencyScope" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1UvRDkPap5X">
     <property role="EcuMT" value="2206727074858242429" />
@@ -340,6 +354,42 @@
     <property role="EcuMT" value="8958347146611575318" />
     <property role="TrG5h" value="DevkitDependency" />
     <ref role="1TJDcQ" node="7LiskgSqGCf" resolve="LanguageDependency" />
+  </node>
+  <node concept="25R3W" id="7krdkfP2b0k">
+    <property role="3F6X1D" value="8438396892798824468" />
+    <property role="TrG5h" value="DependencyScope" />
+    <node concept="25R33" id="7krdkfP2b0l" role="25R1y">
+      <property role="3tVfz5" value="8438396892798824469" />
+      <property role="TrG5h" value="DEFAULT" />
+    </node>
+    <node concept="25R33" id="7krdkfP2b0q" role="25R1y">
+      <property role="3tVfz5" value="8438396892798824474" />
+      <property role="TrG5h" value="DESIGN" />
+    </node>
+    <node concept="25R33" id="7krdkfP2b0t" role="25R1y">
+      <property role="3tVfz5" value="8438396892798824477" />
+      <property role="TrG5h" value="COMPILE" />
+    </node>
+    <node concept="25R33" id="7krdkfP2b0_" role="25R1y">
+      <property role="3tVfz5" value="8438396892798824485" />
+      <property role="TrG5h" value="RUNTIME" />
+    </node>
+    <node concept="25R33" id="7krdkfP2b0E" role="25R1y">
+      <property role="3tVfz5" value="8438396892798824490" />
+      <property role="TrG5h" value="PROVIDED" />
+    </node>
+    <node concept="25R33" id="7krdkfP2b0O" role="25R1y">
+      <property role="3tVfz5" value="8438396892798824500" />
+      <property role="TrG5h" value="EXTENDS" />
+    </node>
+    <node concept="25R33" id="7krdkfP2b0V" role="25R1y">
+      <property role="3tVfz5" value="8438396892798824507" />
+      <property role="TrG5h" value="GENERATES_INTO" />
+    </node>
+    <node concept="25R33" id="7krdkfP4i5y" role="25R1y">
+      <property role="3tVfz5" value="8438396892799377762" />
+      <property role="TrG5h" value="UNSPECIFIED" />
+    </node>
   </node>
 </model>
 

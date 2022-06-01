@@ -3552,16 +3552,26 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="3clFbF" id="4gq8yQBZ6O1" role="3cqZAp">
-                          <node concept="1rXfSq" id="4gq8yQBZ6O2" role="3clFbG">
-                            <ref role="37wK5l" node="4gq8yQBZ73$" resolve="selectNodeWithoutExpansion" />
-                            <node concept="2OqwBi" id="4gq8yQBZ6O3" role="37wK5m">
-                              <node concept="37vLTw" id="4gq8yQBZ6O4" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4gq8yQBZ6NW" resolve="sNode" />
+                        <node concept="3clFbJ" id="5lwq_WMH52H" role="3cqZAp">
+                          <node concept="3clFbS" id="5lwq_WMH52J" role="3clFbx">
+                            <node concept="3clFbF" id="4gq8yQBZ6O1" role="3cqZAp">
+                              <node concept="1rXfSq" id="4gq8yQBZ6O2" role="3clFbG">
+                                <ref role="37wK5l" node="4gq8yQBZ73$" resolve="selectNodeWithoutExpansion" />
+                                <node concept="2OqwBi" id="4gq8yQBZ6O3" role="37wK5m">
+                                  <node concept="37vLTw" id="4gq8yQBZ6O4" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4gq8yQBZ6NW" resolve="sNode" />
+                                  </node>
+                                  <node concept="liA8E" id="4gq8yQBZ6O5" role="2OqNvi">
+                                    <ref role="37wK5l" to="mhbf:~SNode.getReference()" resolve="getReference" />
+                                  </node>
+                                </node>
                               </node>
-                              <node concept="liA8E" id="4gq8yQBZ6O5" role="2OqNvi">
-                                <ref role="37wK5l" to="mhbf:~SNode.getReference():org.jetbrains.mps.openapi.model.SNodeReference" resolve="getReference" />
-                              </node>
+                            </node>
+                          </node>
+                          <node concept="3y3z36" id="5lwq_WMHkAc" role="3clFbw">
+                            <node concept="10Nm6u" id="5lwq_WMHl0H" role="3uHU7w" />
+                            <node concept="37vLTw" id="5lwq_WMHe$Y" role="3uHU7B">
+                              <ref role="3cqZAo" node="4gq8yQBZ6NW" resolve="sNode" />
                             </node>
                           </node>
                         </node>

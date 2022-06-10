@@ -13832,19 +13832,11 @@
               <property role="3MwjfP" value="lib" />
             </node>
           </node>
-          <node concept="28jJK3" id="36BYqFT0Neh" role="39821P">
-            <node concept="398BVA" id="36BYqFT0Nlx" role="28jJRO">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="1YKRxVzEZVi" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-annotations-2.11.0.jar" />
-              </node>
-            </node>
-          </node>
           <node concept="28jJK3" id="36BYqFT0N$6" role="39821P">
             <node concept="398BVA" id="36BYqFT0NFr" role="28jJRO">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
               <node concept="2Ry0Ak" id="1YKRxVzF01Q" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-core-2.11.0.jar" />
+                <property role="2Ry0Am" value="jackson-core-2.12.0.jar" />
               </node>
             </node>
           </node>
@@ -13852,7 +13844,7 @@
             <node concept="398BVA" id="36BYqFT0O1r" role="28jJRO">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
               <node concept="2Ry0Ak" id="1YKRxVzF08q" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-databind-2.11.0.jar" />
+                <property role="2Ry0Am" value="jackson-databind.jar" />
               </node>
             </node>
           </node>

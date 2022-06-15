@@ -36,8 +36,7 @@ check.dependsOn ktlintCheck
 
 kotlin {
     jvm()
-    js(IR) {
-        //browser {}
+    js(BOTH) {
         nodejs {
             testTask {
                 useMocha {
@@ -45,7 +44,6 @@ kotlin {
                 }
             }
         }
-        binaries.executable()
     }
     sourceSets {
         commonMain {

@@ -13662,13 +13662,27 @@
       <node concept="3cqZAl" id="7PuCnEL_Efi" role="3clF45" />
       <node concept="3Tm1VV" id="7PuCnEL_Efj" role="1B3o_S" />
       <node concept="3clFbS" id="7PuCnEL_Efk" role="3clF47">
-        <node concept="3clFbF" id="7PuCnELBFEK" role="3cqZAp">
-          <node concept="2OqwBi" id="7PuCnELBFHS" role="3clFbG">
-            <node concept="37vLTw" id="7PuCnELBFEJ" role="2Oq$k0">
-              <ref role="3cqZAo" node="7PuCnEL_DQr" resolve="myEventsCollector" />
+        <node concept="1QHqEK" id="2cYoH3s5s5G" role="3cqZAp">
+          <node concept="1QHqEC" id="2cYoH3s5s5I" role="1QHqEI">
+            <node concept="3clFbS" id="2cYoH3s5s5K" role="1bW5cS">
+              <node concept="3clFbF" id="7PuCnELBFEK" role="3cqZAp">
+                <node concept="2OqwBi" id="7PuCnELBFHS" role="3clFbG">
+                  <node concept="37vLTw" id="7PuCnELBFEJ" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7PuCnEL_DQr" resolve="myEventsCollector" />
+                  </node>
+                  <node concept="liA8E" id="7PuCnELBFQ0" role="2OqNvi">
+                    <ref role="37wK5l" node="ncHX0OSY2s" resolve="stop" />
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="7PuCnELBFQ0" role="2OqNvi">
-              <ref role="37wK5l" node="ncHX0OSY2s" resolve="stop" />
+          </node>
+          <node concept="2OqwBi" id="2cYoH3s5sKY" role="ukAjM">
+            <node concept="37vLTw" id="2cYoH3s5sjm" role="2Oq$k0">
+              <ref role="3cqZAo" node="7PuCnEL_Kgc" resolve="myProject" />
+            </node>
+            <node concept="liA8E" id="2cYoH3s5tdh" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
             </node>
           </node>
         </node>

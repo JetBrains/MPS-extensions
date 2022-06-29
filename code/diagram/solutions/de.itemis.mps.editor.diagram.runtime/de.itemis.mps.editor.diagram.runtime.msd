@@ -6,14 +6,14 @@
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/jgraphx.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.core-0.7.1.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.alg.layered-0.7.1.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.alg.mrtree-0.7.1.jar" />
       <sourceRoot location="lib/org.eclipse.emf.common-2.12.0.jar" />
       <sourceRoot location="lib/org.eclipse.emf.ecore.xmi-2.12.0.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.graph-0.7.1.jar" />
       <sourceRoot location="lib/org.eclipse.emf.ecore-2.12.0.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.alg.common-0.7.1.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.common_0.9.0.202206130225.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.layered_0.9.0.202206130225.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.mrtree_0.9.0.202206130225.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.core_0.9.0.202206130225.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.graph_0.9.0.202206130225.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -23,14 +23,14 @@
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/jgraphx.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.common-0.7.1.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.layered-0.7.1.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.mrtree-0.7.1.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.core-0.7.1.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.graph-0.7.1.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.emf.common-2.12.0.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore-2.12.0.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi-2.12.0.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.common_0.9.0.202206130225.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.layered_0.9.0.202206130225.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.mrtree_0.9.0.202206130225.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.core_0.9.0.202206130225.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.graph_0.9.0.202206130225.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

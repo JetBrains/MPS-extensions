@@ -1262,7 +1262,7 @@
   <node concept="34j2dQ" id="uB9WAZagv8">
     <property role="TrG5h" value="Multiline" />
     <node concept="3yqqq6" id="uB9WAZagv9" role="3yq$HY">
-      <property role="TrG5h" value="Multiline" />
+      <property role="TrG5h" value="Text" />
       <node concept="3B8pKI" id="uB9WAZagvb" role="3B8L_j">
         <node concept="3clFbS" id="uB9WAZagvc" role="2VODD2">
           <node concept="3clFbF" id="14VjQzYebpw" role="3cqZAp">
@@ -1571,7 +1571,7 @@
               <node concept="1pGfFk" id="14pL6xi8ySQ" role="2ShVmc">
                 <ref role="37wK5l" to="qqrq:~JBCheckBox.&lt;init&gt;(java.lang.String)" resolve="JBCheckBox" />
                 <node concept="Xl_RD" id="14pL6xi8ySR" role="37wK5m">
-                  <property role="Xl_RC" value="Enable spell checking" />
+                  <property role="Xl_RC" value="Enable spell checking for text and headers" />
                 </node>
               </node>
             </node>
@@ -1640,7 +1640,7 @@
                     <ref role="1Pybhc" to="lzb2:~IdeBorderFactory" resolve="IdeBorderFactory" />
                     <ref role="37wK5l" to="lzb2:~IdeBorderFactory.createTitledBorder(java.lang.String,boolean)" resolve="createTitledBorder" />
                     <node concept="Xl_RD" id="7iCybvTjP92" role="37wK5m">
-                      <property role="Xl_RC" value="Multiline" />
+                      <property role="Xl_RC" value="General" />
                     </node>
                     <node concept="3clFbT" id="7iCybvTjPX0" role="37wK5m" />
                   </node>

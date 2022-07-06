@@ -9,6 +9,9 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
+    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="mywg" ref="r:f19691e5-cdba-471c-b59a-00d5ff7aea1c(de.slisson.mps.editor.multiline.runtime)" />
@@ -44,6 +47,10 @@
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="hdhb" ref="r:07568eb8-30c0-4bb3-9dcb-50ee4b8de59a(jetbrains.mps.vcs.diff.ui.common)" />
     <import index="btf5" ref="r:9b4a89e1-ec38-42c4-b1bd-96ab47ffcb3f(jetbrains.mps.vcs.diff.changes)" />
+    <import index="cbc7" ref="r:6279123c-1afa-4558-a1ea-b7f095eca0f3(de.slisson.mps.editor.multiline.runtime.plugin)" />
+    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
+    <import index="ddhc" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide(MPS.IDEA/)" />
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
   </imports>
@@ -6450,6 +6457,97 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="3R8AnLCjiLd" role="3cqZAp">
+          <node concept="3cpWsn" id="3R8AnLCjiLe" role="3cpWs9">
+            <property role="TrG5h" value="dataContext" />
+            <node concept="3uibUv" id="3R8AnLCjdP$" role="1tU5fm">
+              <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
+            </node>
+            <node concept="2OqwBi" id="3R8AnLCjiLf" role="33vP2m">
+              <node concept="2YIFZM" id="3R8AnLCjiLg" role="2Oq$k0">
+                <ref role="37wK5l" to="ddhc:~DataManager.getInstance()" resolve="getInstance" />
+                <ref role="1Pybhc" to="ddhc:~DataManager" resolve="DataManager" />
+              </node>
+              <node concept="liA8E" id="3R8AnLCjiLh" role="2OqNvi">
+                <ref role="37wK5l" to="ddhc:~DataManager.getDataContext(java.awt.Component)" resolve="getDataContext" />
+                <node concept="10QFUN" id="3R8AnLCjiLi" role="37wK5m">
+                  <node concept="3uibUv" id="3R8AnLCjiLj" role="10QFUM">
+                    <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                  </node>
+                  <node concept="2OqwBi" id="3R8AnLCjiLk" role="10QFUP">
+                    <node concept="37vLTw" id="3R8AnLCjiLl" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5lTqPuSd93e" resolve="context" />
+                    </node>
+                    <node concept="liA8E" id="3R8AnLCjiLm" role="2OqNvi">
+                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3R8AnLCkaQD" role="3cqZAp">
+          <node concept="3cpWsn" id="3R8AnLCkaQE" role="3cpWs9">
+            <property role="TrG5h" value="ideaProject" />
+            <node concept="3uibUv" id="3R8AnLCk6A0" role="1tU5fm">
+              <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+            </node>
+            <node concept="2OqwBi" id="3R8AnLCkaQF" role="33vP2m">
+              <node concept="37vLTw" id="3R8AnLCkaQG" role="2Oq$k0">
+                <ref role="3cqZAo" node="3R8AnLCjiLe" resolve="dataContext" />
+              </node>
+              <node concept="liA8E" id="3R8AnLCkaQH" role="2OqNvi">
+                <ref role="37wK5l" to="qkt:~DataContext.getData(com.intellij.openapi.actionSystem.DataKey)" resolve="getData" />
+                <node concept="10M0yZ" id="3R8AnLCkaQI" role="37wK5m">
+                  <ref role="3cqZAo" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+                  <ref role="1PxDUh" to="qkt:~CommonDataKeys" resolve="CommonDataKeys" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="HI_AR5jXOc" role="3cqZAp">
+          <node concept="3clFbS" id="HI_AR5jXOe" role="3clFbx">
+            <node concept="3cpWs8" id="6_a4DG0k6mn" role="3cqZAp">
+              <node concept="3cpWsn" id="6_a4DG0k6mq" role="3cpWs9">
+                <property role="TrG5h" value="isSpellCheckerEnabled" />
+                <node concept="10P_77" id="6_a4DG0k6ml" role="1tU5fm" />
+                <node concept="2YIFZM" id="2cr$uBZ6r1I" role="33vP2m">
+                  <ref role="1Pybhc" to="cbc7:uB9WAZaAyD" resolve="MultilineSettingsPage" />
+                  <ref role="37wK5l" to="cbc7:14VjQzYdunM" resolve="isSpellCheckingEnabledInPreferences" />
+                  <node concept="37vLTw" id="2cr$uBZ6vTJ" role="37wK5m">
+                    <ref role="3cqZAo" node="3R8AnLCkaQE" resolve="ideaProject" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1E9O77R1v14" role="3cqZAp">
+              <node concept="2OqwBi" id="1E9O77R1yll" role="3clFbG">
+                <node concept="37vLTw" id="1E9O77R1v12" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5lTqPuSd2Qq" resolve="style" />
+                </node>
+                <node concept="liA8E" id="1E9O77R1DUO" role="2OqNvi">
+                  <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+                  <node concept="10M0yZ" id="1E9O77R1TOv" role="37wK5m">
+                    <ref role="3cqZAo" to="5ueo:~StyleAttributes.SPELLCHECK" resolve="SPELLCHECK" />
+                    <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
+                  </node>
+                  <node concept="37vLTw" id="7v9nqct$4vf" role="37wK5m">
+                    <ref role="3cqZAo" node="6_a4DG0k6mq" resolve="isSpellCheckerEnabled" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="HI_AR5kcXI" role="3clFbw">
+            <node concept="10Nm6u" id="HI_AR5kfJ5" role="3uHU7w" />
+            <node concept="37vLTw" id="HI_AR5k4Ey" role="3uHU7B">
+              <ref role="3cqZAo" node="3R8AnLCkaQE" resolve="ideaProject" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3R8AnLCkQv0" role="3cqZAp" />
         <node concept="3clFbF" id="6tLsdkfHOiH" role="3cqZAp">
           <node concept="1rXfSq" id="1rfeXz7xsfX" role="3clFbG">
             <ref role="37wK5l" to="g51k:~EditorCell_Basic.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />

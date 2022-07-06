@@ -1,10 +1,12 @@
 //will pull the groovy classes/types from nexus to the classpath
 buildscript {
     repositories {
+        mavenLocal()
+        maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
         maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }
     dependencies {
-        classpath('de.itemis.mps:mps-gradle-plugin:1.2.168.+')
+        classpath('de.itemis.mps:mps-gradle-plugin:1.7+')
     }
 }
 
@@ -77,26 +79,26 @@ ext.dependencyRepositories = [
 ]
 // Dependency versions
 
-ext.mpsMajor = '2020.3.4'
-ext.mpsMinor = ''
+// major version, e.g. '2021.1', '2021.2'
+ext.mpsMajor = '2020.3'
+// optional minor/bugfix number (not added to the final build version)
+ext.mpsMinor = '4'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 
 def appendOpt = { str,pre -> !str.isEmpty() ? "${pre}${str}" : "" }
 ext.mpsVersion =  "$mpsMajor" + appendOpt(mpsMinor, '.') + appendOpt(mpsReleaseType, '-')
 
-
-def minor = '3'
-def major = '2020'
-
 if (ciBuild) {
     String branch = GitBasedVersioning.gitBranch
 
+    def buildMajor = mpsMajor.split("\\.").first()
+    def buildMinor = mpsMajor.split("\\.").last()
     def buildNumber = System.env.BUILD_NUMBER.toInteger()
     if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
-        version = "$major.$minor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
+        version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        version = GitBasedVersioning.getVersionWithCount(major, minor, buildNumber)
+        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber)
     }
 
     println "##teamcity[buildNumber '${version}']"
@@ -271,22 +273,36 @@ task cleanMps(type: Delete) {
 }
 
 clean.dependsOn cleanMps
+assemble.dependsOn packageExtensions
 
 publishing {
     repositories {
-        maven {
-            url project.publishingRepository
-            if (project.hasProperty('nexusUsername')) {
+        if (project.hasProperty('nexusUsername')) {
+            maven {
+                name = "oldItemisNexus"
+                url project.publishingRepository
                 credentials {
                     username project.nexusUsername
                     password project.nexusPassword
                 }
             }
         }
-        maven {
-            name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/JetBrains/MPS-extensions"
-            if (project.hasProperty("gpr.token")) {
+        if (project.hasProperty("artifacts.itemis.cloud.user") && project.hasProperty("artifacts.itemis.cloud.pw")) {
+            maven {
+                name = "itemisCloud"
+                url = project.version.contains("SNAPSHOT")
+                        ? uri("https://artifacts.itemis.cloud/repository/maven-mps-snapshots/")
+                        : uri("https://artifacts.itemis.cloud/repository/maven-mps-releases/")
+                credentials {
+                    username = project.findProperty("artifacts.itemis.cloud.user")
+                    password = project.findProperty("artifacts.itemis.cloud.pw")
+                }
+            }
+        }
+        if (project.hasProperty("gpr.token")) {
+            maven {
+                name = "GitHubPackages"
+                url = "https://maven.pkg.github.com/JetBrains/MPS-extensions"
                 credentials {
                     username = project.findProperty("gpr.user")
                     password = project.findProperty("gpr.token")

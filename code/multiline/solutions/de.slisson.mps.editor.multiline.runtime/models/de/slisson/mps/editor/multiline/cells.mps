@@ -3164,6 +3164,27 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4HT5NNDrTio" role="jymVt" />
+    <node concept="3clFb_" id="4HT5NNDskcA" role="jymVt">
+      <property role="TrG5h" value="lastCell" />
+      <node concept="3clFbS" id="4HT5NNDskcD" role="3clF47">
+        <node concept="3clFbF" id="4HT5NNDsqS3" role="3cqZAp">
+          <node concept="10QFUN" id="4HT5NNDsqS5" role="3clFbG">
+            <node concept="3uibUv" id="4HT5NNDsqS6" role="10QFUM">
+              <ref role="3uigEE" node="5lTqPuSd937" resolve="EditorCell_Word" />
+            </node>
+            <node concept="3nyPlj" id="4HT5NNDsqS7" role="10QFUP">
+              <ref role="37wK5l" to="g51k:~EditorCell_Collection.lastCell()" resolve="lastCell" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4HT5NNDs98X" role="1B3o_S" />
+      <node concept="3uibUv" id="4HT5NNDsjVz" role="3clF45">
+        <ref role="3uigEE" node="5lTqPuSd937" resolve="EditorCell_Word" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4HT5NNDs4AB" role="jymVt" />
     <node concept="3clFb_" id="2_D0AvWRp36" role="jymVt">
       <property role="TrG5h" value="getTextLength" />
       <node concept="10Oyi0" id="2_D0AvWRp3f" role="3clF45" />

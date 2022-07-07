@@ -4546,13 +4546,13 @@
         <node concept="3clFbS" id="7c02HRXln46" role="3clF47">
           <node concept="3cpWs8" id="7c02HRXo4Dk" role="3cqZAp">
             <node concept="3cpWsn" id="7c02HRXo4Dl" role="3cpWs9">
-              <property role="TrG5h" value="lastLeaf" />
+              <property role="TrG5h" value="lastWord" />
               <node concept="3uibUv" id="7c02HRXo4Dm" role="1tU5fm">
-                <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
+                <ref role="3uigEE" to="93vl:5lTqPuSd937" resolve="EditorCell_Word" />
               </node>
               <node concept="0kSF2" id="7c02HRXo4Dn" role="33vP2m">
                 <node concept="3uibUv" id="7c02HRXo4Do" role="0kSFW">
-                  <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
+                  <ref role="3uigEE" to="93vl:5lTqPuSd937" resolve="EditorCell_Word" />
                 </node>
                 <node concept="0kSF2" id="5$0zg9fbGsj" role="0kSFX">
                   <node concept="3uibUv" id="5$0zg9fbGsk" role="0kSFW">
@@ -4564,6 +4564,29 @@
                     <node concept="37vLTw" id="5$0zg9fbHhE" role="37wK5m">
                       <ref role="3cqZAo" node="7c02HRXl3$T" resolve="myCell" />
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="6wQWU6B5YYF" role="3cqZAp">
+            <node concept="2OqwBi" id="6wQWU6B60NL" role="3clFbG">
+              <node concept="37vLTw" id="6wQWU6B5YYD" role="2Oq$k0">
+                <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
+              </node>
+              <node concept="liA8E" id="6wQWU6B63CC" role="2OqNvi">
+                <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
+                <node concept="2OqwBi" id="6wQWU6B6a9t" role="37wK5m">
+                  <node concept="2OqwBi" id="6wQWU6B67L5" role="2Oq$k0">
+                    <node concept="37vLTw" id="6wQWU6B65Lo" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
+                    </node>
+                    <node concept="liA8E" id="6wQWU6B690a" role="2OqNvi">
+                      <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6wQWU6B6cpE" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                   </node>
                 </node>
               </node>
@@ -4582,15 +4605,15 @@
               <node concept="liA8E" id="7c02HRXln4j" role="2OqNvi">
                 <ref role="37wK5l" to="lwvz:~SelectionManager.setSelection(jetbrains.mps.openapi.editor.cells.EditorCell_Label,int)" resolve="setSelection" />
                 <node concept="37vLTw" id="7c02HRXo6Rb" role="37wK5m">
-                  <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastLeaf" />
+                  <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
                 </node>
                 <node concept="2OqwBi" id="7c02HRXluaW" role="37wK5m">
                   <node concept="2OqwBi" id="7c02HRXltKo" role="2Oq$k0">
                     <node concept="37vLTw" id="7c02HRXltHe" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastLeaf" />
+                      <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
                     </node>
                     <node concept="liA8E" id="7c02HRXlu0q" role="2OqNvi">
-                      <ref role="37wK5l" to="f4zo:~EditorCell_Label.getText()" resolve="getText" />
+                      <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7c02HRXluId" role="2OqNvi">

@@ -1,10 +1,12 @@
 //will pull the groovy classes/types from nexus to the classpath
 buildscript {
     repositories {
+        mavenLocal()
+        maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
         maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }
     dependencies {
-        classpath('de.itemis.mps:mps-gradle-plugin:1.2.168.+')
+        classpath('de.itemis.mps:mps-gradle-plugin:1.7+')
     }
 }
 
@@ -273,28 +275,47 @@ task cleanMps(type: Delete) {
 clean.dependsOn cleanMps
 assemble.dependsOn packageExtensions
 
-publishing {
-    repositories {
-        maven {
-            url project.publishingRepository
-            if (project.hasProperty('nexusUsername')) {
-                credentials {
-                    username project.nexusUsername
-                    password project.nexusPassword
+allprojects {
+    apply plugin: 'maven-publish'
+    publishing {
+        repositories {
+            if (rootProject.hasProperty('nexusUsername')) {
+                maven {
+                    name = "oldItemisNexus"
+                    url rootProject.publishingRepository
+                    credentials {
+                        username rootProject.nexusUsername
+                        password rootProject.nexusPassword
+                    }
                 }
             }
-        }
-        maven {
-            name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/JetBrains/MPS-extensions"
-            if (project.hasProperty("gpr.token")) {
-                credentials {
-                    username = project.findProperty("gpr.user")
-                    password = project.findProperty("gpr.token")
+            if (rootProject.hasProperty("artifacts.itemis.cloud.user") && rootProject.hasProperty("artifacts.itemis.cloud.pw")) {
+                maven {
+                    name = "itemisCloud"
+                    url = rootProject.version.contains("SNAPSHOT")
+                            ? uri("https://artifacts.itemis.cloud/repository/maven-mps-snapshots/")
+                            : uri("https://artifacts.itemis.cloud/repository/maven-mps-releases/")
+                    credentials {
+                        username = rootProject.findProperty("artifacts.itemis.cloud.user")
+                        password = rootProject.findProperty("artifacts.itemis.cloud.pw")
+                    }
+                }
+            }
+            if (rootProject.hasProperty("gpr.token")) {
+                maven {
+                    name = "GitHubPackages"
+                    url = "https://maven.pkg.github.com/JetBrains/MPS-extensions"
+                    credentials {
+                        username = rootProject.findProperty("gpr.user")
+                        password = rootProject.findProperty("gpr.token")
+                    }
                 }
             }
         }
     }
+}
+
+publishing {
     publications {
         extensions(MavenPublication) {
             groupId 'de.itemis.mps'

@@ -1,7 +1,7 @@
 
 plugins {
     id 'maven-publish'
-    id 'org.jetbrains.kotlin.multiplatform' version '1.6.10'
+    id 'org.jetbrains.kotlin.multiplatform' version '1.6.21'
     id 'com.diffplug.gradle.spotless' version '4.5.1'
     id 'org.jlleitschuh.gradle.ktlint' version '10.2.1'
     id 'java-library'
@@ -50,7 +50,7 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
-                implementation kotlin('stdlib-common:1.4.31')
+                implementation kotlin('stdlib-common:1.6.21')
             }
         }
         commonTest {
@@ -61,7 +61,7 @@ kotlin {
         }
         jvmMain {
             dependencies {
-                implementation kotlin('stdlib-jdk8:1.4.31')
+                implementation kotlin('stdlib-jdk8:1.6.21')
                 implementation group: 'log4j', name: 'log4j', version:'1.2.17'
             }
         }
@@ -147,28 +147,4 @@ String stripVersion(String fileNameWithVersion) {
 	name = name.replaceAll(/-\d+(\.\d+)*(-SNAPSHOT)?/, "")
 	println "stripVersion($fileNameWithVersion) -> $name"
     return name
-}
-
-publishing {
-    repositories {
-        maven {
-            url rootProject.publishingRepository
-            if (rootProject.hasProperty('nexusUsername')) {
-                credentials {
-                    username rootProject.nexusUsername
-                    password rootProject.nexusPassword
-                }
-            }
-        }
-        maven {
-            name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/JetBrains/MPS-extensions"
-            if (rootProject.hasProperty("gpr.token")) {
-                credentials {
-                    username = rootProject.findProperty("gpr.user")
-                    password = rootProject.findProperty("gpr.token")
-                }
-            }
-        }
-    }
 }

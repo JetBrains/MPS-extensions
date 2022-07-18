@@ -610,8 +610,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="4p3FRivDLP_" role="m$_w8">
-        <node concept="3Mxwew" id="5mH$9t6dyMg" role="3MwsjC">
-          <property role="3MwjfP" value="3.3" />
+        <node concept="3Mxwey" id="1lN8SyGFMs" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="31bAEZ0ssdw" role="m$_yh">
@@ -1657,9 +1657,6 @@
       <node concept="m$_yC" id="7szUFELHk3g" role="m$_yJ">
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
-      <node concept="m$_yC" id="7szUFELOg4w" role="m$_yJ">
-        <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
-      </node>
       <node concept="3_J27D" id="7szUFELHeHn" role="m_cZH">
         <node concept="3Mxwew" id="7szUFELHeHo" role="3MwsjC">
           <property role="3MwjfP" value="de.itemis.mps.editor.widgets" />
@@ -1673,6 +1670,9 @@
         <node concept="3Mxwew" id="2QgPOUCCDkN" role="3MwsjC">
           <property role="3MwjfP" value="A library of widgets (checkbox, dropdown, etc.) that can be used in MPS editors" />
         </node>
+      </node>
+      <node concept="m$_yC" id="7szUFELOg4w" role="m$_yJ">
+        <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
       </node>
     </node>
     <node concept="2G$12M" id="7szUFELHfAe" role="3989C9">
@@ -2231,11 +2231,6 @@
             <ref role="3bR37D" node="7TpiM9SsCWu" resolve="de.itemis.mps.mouselistener.runtime" />
           </node>
         </node>
-        <node concept="1SiIV0" id="32XuThjIW2J" role="3bR37C">
-          <node concept="3bR9La" id="32XuThjIW2K" role="1SiIV1">
-            <ref role="3bR37D" node="6$BmuzArJZq" resolve="de.itemis.mps.tooltips.runtime" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="3xFG3bj5MmJ" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5MmK" role="3rtmxm">
             <node concept="3qWCbU" id="3xFG3bj5MmL" role="3LXTna">
@@ -2278,6 +2273,11 @@
             <node concept="3qWCbU" id="2eucapX07K7" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="32XuThjIW2J" role="3bR37C">
+          <node concept="3bR9La" id="32XuThjIW2K" role="1SiIV1">
+            <ref role="3bR37D" node="6$BmuzArJZq" resolve="de.itemis.mps.tooltips.runtime" />
           </node>
         </node>
       </node>
@@ -5488,7 +5488,7 @@
         <property role="TrG5h" value="de.itemis.mps.tooltips.runtime" />
         <property role="3LESm3" value="0022e9df-2136-4ef8-81b2-08650aeb1dc7" />
         <node concept="398BVA" id="3vzyAKEK3mj" role="3LF7KH">
-          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <ref role="398BVh" node="2fo8bJE$D4t" />
           <node concept="2Ry0Ak" id="3vzyAKEK3mo" role="iGT6I">
             <property role="2Ry0Am" value="tooltips" />
             <node concept="2Ry0Ak" id="3vzyAKEK3mp" role="2Ry0An">
@@ -5514,7 +5514,7 @@
         </node>
         <node concept="1SiIV0" id="6$BmuzArKoU" role="3bR37C">
           <node concept="3bR9La" id="6$BmuzArKoV" role="1SiIV1">
-            <ref role="3bR37D" node="64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
+            <ref role="3bR37D" node="64TsoMQT2qP" />
           </node>
         </node>
         <node concept="1SiIV0" id="6$BmuzArKoW" role="3bR37C">
@@ -5543,7 +5543,7 @@
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
             <node concept="398BVA" id="3xFG3bj5MlG" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <ref role="398BVh" node="2fo8bJE$D4t" />
               <node concept="2Ry0Ak" id="3xFG3bj5MlH" role="iGT6I">
                 <property role="2Ry0Am" value="tooltips" />
                 <node concept="2Ry0Ak" id="1QLFoGOMXKy" role="2Ry0An">
@@ -5562,7 +5562,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="2eucapX07Wx" role="1HemKq">
             <node concept="398BVA" id="2eucapX07Wl" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <ref role="398BVh" node="2fo8bJE$D4t" />
               <node concept="2Ry0Ak" id="2eucapX07Wm" role="iGT6I">
                 <property role="2Ry0Am" value="tooltips" />
                 <node concept="2Ry0Ak" id="2eucapX07Wn" role="2Ry0An">

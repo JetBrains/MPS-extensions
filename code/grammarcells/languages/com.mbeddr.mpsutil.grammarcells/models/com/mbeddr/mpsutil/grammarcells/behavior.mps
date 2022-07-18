@@ -3660,7 +3660,7 @@
   </node>
   <node concept="13h7C7" id="6uixmKZ2zv0">
     <property role="3GE5qa" value="cells" />
-    <ref role="13h7C2" to="teg0:6uixmKZ2zuG" resolve="WrapperCell_DescriptionText" />
+    <ref role="13h7C2" to="teg0:6uixmKZ2zuG" resolve="Cell_DescriptionText" />
     <node concept="13i0hz" id="6uixmKZ2zvb" role="13h7CS">
       <property role="TrG5h" value="getParameterConcepts" />
       <property role="13i0it" value="false" />

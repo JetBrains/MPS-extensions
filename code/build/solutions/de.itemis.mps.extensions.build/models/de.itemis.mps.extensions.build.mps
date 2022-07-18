@@ -615,8 +615,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="4p3FRivDLP_" role="m$_w8">
-        <node concept="3Mxwew" id="5mH$9t6dyMg" role="3MwsjC">
-          <property role="3MwjfP" value="3.3" />
+        <node concept="3Mxwey" id="1lN8SyGFMs" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="31bAEZ0ssdw" role="m$_yh">

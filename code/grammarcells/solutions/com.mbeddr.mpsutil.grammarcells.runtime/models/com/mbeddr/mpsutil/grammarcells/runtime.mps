@@ -32792,12 +32792,9 @@
         <ref role="3uigEE" node="1YKLYyyOIFO" resolve="MultiTextActionItem" />
       </node>
       <node concept="3clFb_" id="15DZatP$kWG" role="jymVt">
-        <property role="TrG5h" value="getDescriptionText" />
+        <property role="TrG5h" value="getShortDescriptionText" />
         <property role="DiZV1" value="false" />
         <property role="od$2w" value="false" />
-        <node concept="2AHcQZ" id="15DZatP$kWH" role="2AJF6D">
-          <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-        </node>
         <node concept="3Tm1VV" id="15DZatP$kWM" role="1B3o_S" />
         <node concept="17QB3L" id="15DZatP$kWN" role="3clF45" />
         <node concept="37vLTG" id="15DZatP$kWO" role="3clF46">

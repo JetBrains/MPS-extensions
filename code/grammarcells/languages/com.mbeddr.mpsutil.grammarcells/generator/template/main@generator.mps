@@ -2507,10 +2507,11 @@
                                             <node concept="3cpWsn" id="7PVnOXzMUlN" role="3cpWs9">
                                               <property role="TrG5h" value="originalText" />
                                               <node concept="17QB3L" id="7PVnOXzMUlO" role="1tU5fm" />
-                                              <node concept="3nyPlj" id="7PVnOXzMUlP" role="33vP2m">
-                                                <ref role="37wK5l" to="gdpt:1YKLYyyGCB0" resolve="getShortDescriptionText" />
-                                                <node concept="37vLTw" id="7PVnOXzMUlQ" role="37wK5m">
-                                                  <ref role="3cqZAo" node="J6gp_6LHFb" resolve="pattern" />
+                                              <node concept="2YIFZM" id="1ZlHRbfEQxu" role="33vP2m">
+                                                <ref role="1Pybhc" to="5b0:~NodePresentationUtil" resolve="NodePresentationUtil" />
+                                                <ref role="37wK5l" to="5b0:~NodePresentationUtil.descriptionText(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="descriptionText" />
+                                                <node concept="1rXfSq" id="1ZlHRbfEQxv" role="37wK5m">
+                                                  <ref role="37wK5l" node="Dnjeumzces" resolve="getOutputConcept" />
                                                 </node>
                                               </node>
                                             </node>
@@ -3354,10 +3355,11 @@
                                             <node concept="3cpWsn" id="4xgCL2SOjWB" role="3cpWs9">
                                               <property role="TrG5h" value="originalText" />
                                               <node concept="17QB3L" id="4xgCL2SOjWC" role="1tU5fm" />
-                                              <node concept="3nyPlj" id="4xgCL2SOjWD" role="33vP2m">
-                                                <ref role="37wK5l" to="czm:325OF_Mo$mK" resolve="getShortDescriptionText" />
-                                                <node concept="37vLTw" id="4xgCL2SOjWE" role="37wK5m">
-                                                  <ref role="3cqZAo" node="4xgCL2SOjWx" resolve="pattern" />
+                                              <node concept="2YIFZM" id="1ZlHRbfEEDL" role="33vP2m">
+                                                <ref role="37wK5l" to="5b0:~NodePresentationUtil.descriptionText(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="descriptionText" />
+                                                <ref role="1Pybhc" to="5b0:~NodePresentationUtil" resolve="NodePresentationUtil" />
+                                                <node concept="1rXfSq" id="1ZlHRbfEEDM" role="37wK5m">
+                                                  <ref role="37wK5l" node="5fS8LroEqAw" resolve="getOutputConcept" />
                                                 </node>
                                               </node>
                                             </node>
@@ -6036,10 +6038,11 @@
                                           <node concept="3cpWsn" id="7PVnOXzMOnE" role="3cpWs9">
                                             <property role="TrG5h" value="originalText" />
                                             <node concept="17QB3L" id="7PVnOXzMOnF" role="1tU5fm" />
-                                            <node concept="3nyPlj" id="7PVnOXzMOnG" role="33vP2m">
-                                              <ref role="37wK5l" to="czm:325OF_Mo$mK" resolve="getShortDescriptionText" />
-                                              <node concept="37vLTw" id="7PVnOXzMOnH" role="37wK5m">
-                                                <ref role="3cqZAo" node="J6gp_6z5bV" resolve="pattern" />
+                                            <node concept="2YIFZM" id="1ZlHRbfEKNr" role="33vP2m">
+                                              <ref role="1Pybhc" to="5b0:~NodePresentationUtil" resolve="NodePresentationUtil" />
+                                              <ref role="37wK5l" to="5b0:~NodePresentationUtil.descriptionText(org.jetbrains.mps.openapi.language.SAbstractConcept)" resolve="descriptionText" />
+                                              <node concept="1rXfSq" id="1ZlHRbfEKNs" role="37wK5m">
+                                                <ref role="37wK5l" node="15DZatORrHk" resolve="getOutputConcept" />
                                               </node>
                                             </node>
                                           </node>

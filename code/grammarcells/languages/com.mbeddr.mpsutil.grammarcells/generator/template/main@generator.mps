@@ -240,6 +240,7 @@
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -9659,6 +9660,15 @@
                                                                 <node concept="10Nm6u" id="6uixmKZ4uso" role="33vP2m" />
                                                               </node>
                                                             </node>
+                                                            <node concept="3cpWs8" id="1ZlHRbiQw1o" role="3cqZAp">
+                                                              <node concept="3cpWsn" id="1ZlHRbiQw1r" role="3cpWs9">
+                                                                <property role="TrG5h" value="wrappedConcept" />
+                                                                <node concept="3bZ5Sz" id="1ZlHRbiQw1m" role="1tU5fm" />
+                                                                <node concept="3nyPlj" id="1ZlHRbjybAX" role="33vP2m">
+                                                                  <ref role="37wK5l" to="qtqj:~SubstituteMenuItemWrapper.getOutputConcept()" resolve="getOutputConcept" />
+                                                                </node>
+                                                              </node>
+                                                            </node>
                                                             <node concept="3cpWs8" id="6uixmKZ4usp" role="3cqZAp">
                                                               <node concept="3cpWsn" id="6uixmKZ4usq" role="3cpWs9">
                                                                 <property role="TrG5h" value="editorContext" />
@@ -10430,6 +10440,19 @@
                                                         <property role="TrG5h" value="wrappedNode" />
                                                         <node concept="3Tqbb2" id="6uixmKZ4suX" role="1tU5fm" />
                                                         <node concept="10Nm6u" id="6uixmKZ4suY" role="33vP2m" />
+                                                      </node>
+                                                    </node>
+                                                    <node concept="3clFbH" id="1ZlHRbjybBn" role="3cqZAp" />
+                                                    <node concept="3cpWs8" id="1ZlHRbi_Q7L" role="3cqZAp">
+                                                      <node concept="3cpWsn" id="1ZlHRbi_Q7O" role="3cpWs9">
+                                                        <property role="TrG5h" value="wrappedConcept" />
+                                                        <node concept="3bZ5Sz" id="1ZlHRbi_Q7J" role="1tU5fm" />
+                                                        <node concept="2OqwBi" id="1ZlHRbjg$N7" role="33vP2m">
+                                                          <node concept="Xjq3P" id="1ZlHRbjgygJ" role="2Oq$k0" />
+                                                          <node concept="liA8E" id="1ZlHRbjgCHb" role="2OqNvi">
+                                                            <ref role="37wK5l" node="2c84p9Pu6j2" resolve="getOutputConcept" />
+                                                          </node>
+                                                        </node>
                                                       </node>
                                                     </node>
                                                     <node concept="3cpWs8" id="6uixmKZ4suZ" role="3cqZAp">
@@ -11525,6 +11548,15 @@
                                                     <property role="TrG5h" value="wrappedNode" />
                                                     <node concept="3Tqbb2" id="6uixmKZ4ezu" role="1tU5fm" />
                                                     <node concept="10Nm6u" id="6uixmKZ4g8k" role="33vP2m" />
+                                                  </node>
+                                                </node>
+                                                <node concept="3cpWs8" id="1ZlHRbiA73P" role="3cqZAp">
+                                                  <node concept="3cpWsn" id="1ZlHRbiA73S" role="3cpWs9">
+                                                    <property role="TrG5h" value="wrappedConcept" />
+                                                    <node concept="3bZ5Sz" id="1ZlHRbiA73N" role="1tU5fm" />
+                                                    <node concept="2GrUjf" id="1ZlHRbjygSk" role="33vP2m">
+                                                      <ref role="2Gs0qQ" node="5AkACHrYHAX" resolve="subconcept" />
+                                                    </node>
                                                   </node>
                                                 </node>
                                                 <node concept="3cpWs8" id="6uixmKZ4p9c" role="3cqZAp">
@@ -20601,6 +20633,7 @@
                               <node concept="3cpWs8" id="6B579NGr$GM" role="3cqZAp">
                                 <node concept="3cpWsn" id="6B579NGr$GN" role="3cpWs9">
                                   <property role="TrG5h" value="expectedConcept" />
+                                  <property role="3TUv4t" value="true" />
                                   <node concept="3bZ5Sz" id="6B579NGr$GO" role="1tU5fm" />
                                   <node concept="3K4zz7" id="6B579NGr$GP" role="33vP2m">
                                     <node concept="10Nm6u" id="6B579NGr$GQ" role="3K4E3e" />
@@ -21011,6 +21044,18 @@
                                                                       </node>
                                                                       <node concept="liA8E" id="6uixmKZ4$6T" role="2OqNvi">
                                                                         <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode()" resolve="getNode" />
+                                                                      </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                                <node concept="3cpWs8" id="1ZlHRbintLf" role="3cqZAp">
+                                                                  <node concept="3cpWsn" id="1ZlHRbintLg" role="3cpWs9">
+                                                                    <property role="TrG5h" value="wrappedConcept" />
+                                                                    <node concept="3bZ5Sz" id="1ZlHRbintLh" role="1tU5fm" />
+                                                                    <node concept="2OqwBi" id="2Zbcfw$rtYi" role="33vP2m">
+                                                                      <node concept="Xjq3P" id="2Zbcfw$rr6x" role="2Oq$k0" />
+                                                                      <node concept="liA8E" id="2Zbcfw$rx$x" role="2OqNvi">
+                                                                        <ref role="37wK5l" node="2c84p9PGgPo" resolve="getOutputConcept" />
                                                                       </node>
                                                                     </node>
                                                                   </node>

@@ -1181,5 +1181,12 @@
     <property role="EcuMT" value="9041925471455857605" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
+  <node concept="1TIwiD" id="1ZlHRbijA01">
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="WrapperCell_Condition_wrappedConcept" />
+    <property role="34LRSv" value="wrappedConcept" />
+    <property role="EcuMT" value="2293941288997642241" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 

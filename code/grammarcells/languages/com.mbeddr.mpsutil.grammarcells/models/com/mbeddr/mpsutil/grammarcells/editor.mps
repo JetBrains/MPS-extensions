@@ -2436,6 +2436,7 @@
         <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
       </node>
       <node concept="3F1sOY" id="J6gp_6ycJ2" role="3EZMnx">
+        <property role="1$x2rV" value="concept description" />
         <ref role="1NtTu8" to="teg0:J6gp_6ycpL" resolve="descriptionText" />
       </node>
       <node concept="VPXOz" id="J6gp_6ycJ3" role="3F10Kt">

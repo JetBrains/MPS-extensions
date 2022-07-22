@@ -15,6 +15,7 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" />
     <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
+    <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -60,6 +61,9 @@
       <concept id="1164914519156" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceNode_CustomNodeConcept" flags="ng" index="UkePV">
         <reference id="1164914727930" name="replacementConcept" index="Ul1FP" />
       </concept>
+      <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
+        <child id="1186402402630" name="styles" index="V601i" />
+      </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
       </concept>
@@ -99,6 +103,10 @@
       </concept>
       <concept id="1165424657443" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item_Handler" flags="in" index="1oIgkG" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="3982520150113085419" name="jetbrains.mps.lang.editor.structure.StyleAttributeDeclaration" flags="ig" index="3t5Usi">
+        <child id="3982520150113147643" name="defaultValue" index="3t49C2" />
+        <child id="3982520150113092206" name="valueType" index="3t5Oan" />
+      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
@@ -154,6 +162,10 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
@@ -186,6 +198,9 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -3985,6 +4000,9 @@
       </node>
       <node concept="l2Vlx" id="7k8PWDQb2bd" role="2iSdaV" />
     </node>
+    <node concept="3F1sOY" id="1MAkSr55XzJ" role="6VMZX">
+      <ref role="1NtTu8" to="2qld:1MAkSr55XtW" resolve="config" />
+    </node>
   </node>
   <node concept="24kQdi" id="7k8PWDQd3rm">
     <property role="3GE5qa" value="layoutAlgorithm" />
@@ -5223,6 +5241,44 @@
         <node concept="2iRfu4" id="5wo2$NmYEzx" role="2iSdaV" />
       </node>
       <node concept="2EHx9g" id="5wo2$NmYEzy" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1MAkSr55Xu5">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <ref role="1XX52x" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="3EZMnI" id="1MAkSr55Xua" role="2wV5jI">
+      <node concept="3F0ifn" id="1MAkSr55Xuc" role="3EZMnx">
+        <property role="3F0ifm" value="Config" />
+      </node>
+      <node concept="3F0ifn" id="2C8x_a3622S" role="3EZMnx">
+        <property role="3F0ifm" value="Subdiagram direction:" />
+        <node concept="pVoyu" id="2C8x_a3622Z" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="2C8x_a2NO7Y" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:1MAkSr5clWS" resolve="subdiagramDirection" />
+      </node>
+      <node concept="3F0ifn" id="2C8x_a36238" role="3EZMnx">
+        <node concept="pVoyu" id="2C8x_a3623g" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2C8x_a3622H" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="V5hpn" id="1MAkSr5clAu">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="DiagramLayoutAttributes" />
+    <node concept="3t5Usi" id="1MAkSr5clB1" role="V601i">
+      <property role="TrG5h" value="__layout-subdiagram-direction" />
+      <node concept="3uibUv" id="2C8x_a2N_zX" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~Direction" resolve="Direction" />
+      </node>
+      <node concept="Rm8GO" id="1MAkSr51ITK" role="3t49C2">
+        <ref role="1Px2BO" to="gwyy:~Direction" resolve="Direction" />
+        <ref role="Rm8GQ" to="gwyy:~Direction.RIGHT" resolve="RIGHT" />
+      </node>
     </node>
   </node>
 </model>

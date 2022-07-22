@@ -2,7 +2,6 @@
 <model ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -1415,6 +1414,12 @@
     <property role="TrG5h" value="ILayoutAlgorithm" />
     <property role="3GE5qa" value="layoutAlgorithm" />
     <property role="EcuMT" value="8433227566816385664" />
+    <node concept="1TJgyj" id="1MAkSr55XtW" role="1TKVEi">
+      <property role="IQ2ns" value="2064429317493348220" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7k8PWDQb26s">
     <property role="TrG5h" value="LayeredLayoutAlgorithm" />
@@ -2176,6 +2181,10 @@
       <property role="3tVfz5" value="7623784619795245566" />
       <ref role="2wpffI" node="6Bd7VwqYQBY" />
     </node>
+    <node concept="25R33" id="2C8x_a2Qx7V" role="25R1y">
+      <property role="3tVfz5" value="3028818438347428347" />
+      <property role="TrG5h" value="UNDEFINED" />
+    </node>
   </node>
   <node concept="25R3W" id="7WTFIQIcYq9">
     <property role="TrG5h" value="LineStyleValues" />
@@ -2295,6 +2304,17 @@
     <property role="TrG5h" value="Parameter_changeOwner_elementId" />
     <property role="34LRSv" value="elementId" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1MAkSr55XtV">
+    <property role="EcuMT" value="2064429317493348219" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
+    <node concept="1TJgyi" id="1MAkSr5clWS" role="1TKVEl">
+      <property role="IQ2nx" value="2064429317495021368" />
+      <property role="TrG5h" value="subdiagramDirection" />
+      <ref role="AX2Wp" node="7WTFIQIcYqd" resolve="LayoutDirection" />
+    </node>
   </node>
 </model>
 

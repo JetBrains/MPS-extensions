@@ -2320,6 +2320,11 @@
       <property role="TrG5h" value="cycleBreakingStrategy" />
       <ref role="AX2Wp" node="2C8x_a3gNfb" resolve="CycleBreakingStrategy" />
     </node>
+    <node concept="1TJgyi" id="2C8x_a3rNsJ" role="1TKVEl">
+      <property role="IQ2nx" value="3028818438357202735" />
+      <property role="TrG5h" value="hierarchyIncludeChildren" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="25R3W" id="2C8x_a3gNfb">
     <property role="3F6X1D" value="3028818438354318283" />

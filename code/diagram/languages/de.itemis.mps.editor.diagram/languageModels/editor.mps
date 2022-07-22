@@ -174,6 +174,7 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -192,6 +193,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -5269,6 +5271,15 @@
       <node concept="3F0A7n" id="2C8x_a3gNgJ" role="3EZMnx">
         <ref role="1NtTu8" to="2qld:2C8x_a3gNf8" resolve="cycleBreakingStrategy" />
       </node>
+      <node concept="3F0ifn" id="2C8x_a3rNsY" role="3EZMnx">
+        <property role="3F0ifm" value="Hierarchy - include children:" />
+        <node concept="pVoyu" id="2C8x_a3rNta" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="2C8x_a3rNtB" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2C8x_a3rNsJ" resolve="hierarchyIncludeChildren" />
+      </node>
       <node concept="3F0ifn" id="2C8x_a36238" role="3EZMnx">
         <node concept="pVoyu" id="2C8x_a3623g" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -5299,6 +5310,11 @@
         <ref role="Rm8GQ" to="u8j:~CycleBreakingStrategy.GREEDY" resolve="GREEDY" />
         <ref role="1Px2BO" to="u8j:~CycleBreakingStrategy" resolve="CycleBreakingStrategy" />
       </node>
+    </node>
+    <node concept="3t5Usi" id="2C8x_a3rKJB" role="V601i">
+      <property role="TrG5h" value="__layout-hierachy-include-children" />
+      <node concept="10P_77" id="2C8x_a3rKJV" role="3t5Oan" />
+      <node concept="3clFbT" id="2C8x_a3rKJY" role="3t49C2" />
     </node>
   </node>
 </model>

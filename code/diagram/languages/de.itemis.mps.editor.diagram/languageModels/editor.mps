@@ -16,6 +16,7 @@
     <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" />
     <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
     <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="u8j" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -5259,6 +5260,15 @@
       <node concept="3F0A7n" id="2C8x_a2NO7Y" role="3EZMnx">
         <ref role="1NtTu8" to="2qld:1MAkSr5clWS" resolve="subdiagramDirection" />
       </node>
+      <node concept="3F0ifn" id="2C8x_a3gNgt" role="3EZMnx">
+        <property role="3F0ifm" value="Cycle breaking strategy:" />
+        <node concept="pVoyu" id="2C8x_a3gNgT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="2C8x_a3gNgJ" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2C8x_a3gNf8" resolve="cycleBreakingStrategy" />
+      </node>
       <node concept="3F0ifn" id="2C8x_a36238" role="3EZMnx">
         <node concept="pVoyu" id="2C8x_a3623g" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -5278,6 +5288,16 @@
       <node concept="Rm8GO" id="1MAkSr51ITK" role="3t49C2">
         <ref role="1Px2BO" to="gwyy:~Direction" resolve="Direction" />
         <ref role="Rm8GQ" to="gwyy:~Direction.RIGHT" resolve="RIGHT" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="2C8x_a3gNh6" role="V601i">
+      <property role="TrG5h" value="__layout-cycle-breaking-strategy" />
+      <node concept="3uibUv" id="2C8x_a3gN$V" role="3t5Oan">
+        <ref role="3uigEE" to="u8j:~CycleBreakingStrategy" resolve="CycleBreakingStrategy" />
+      </node>
+      <node concept="Rm8GO" id="2C8x_a3gQQi" role="3t49C2">
+        <ref role="Rm8GQ" to="u8j:~CycleBreakingStrategy.GREEDY" resolve="GREEDY" />
+        <ref role="1Px2BO" to="u8j:~CycleBreakingStrategy" resolve="CycleBreakingStrategy" />
       </node>
     </node>
   </node>

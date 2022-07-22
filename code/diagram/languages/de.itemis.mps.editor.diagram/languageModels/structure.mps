@@ -2315,6 +2315,33 @@
       <property role="TrG5h" value="subdiagramDirection" />
       <ref role="AX2Wp" node="7WTFIQIcYqd" resolve="LayoutDirection" />
     </node>
+    <node concept="1TJgyi" id="2C8x_a3gNf8" role="1TKVEl">
+      <property role="IQ2nx" value="3028818438354318280" />
+      <property role="TrG5h" value="cycleBreakingStrategy" />
+      <ref role="AX2Wp" node="2C8x_a3gNfb" resolve="CycleBreakingStrategy" />
+    </node>
+  </node>
+  <node concept="25R3W" id="2C8x_a3gNfb">
+    <property role="3F6X1D" value="3028818438354318283" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="CycleBreakingStrategy" />
+    <ref role="1H5jkz" node="2C8x_a3gNfc" resolve="GREEDY" />
+    <node concept="25R33" id="2C8x_a3gNfc" role="25R1y">
+      <property role="3tVfz5" value="3028818438354318284" />
+      <property role="TrG5h" value="GREEDY" />
+    </node>
+    <node concept="25R33" id="2C8x_a3gNg9" role="25R1y">
+      <property role="3tVfz5" value="3028818438354318345" />
+      <property role="TrG5h" value="DEPTH_FIRST" />
+    </node>
+    <node concept="25R33" id="2C8x_a3gNgc" role="25R1y">
+      <property role="3tVfz5" value="3028818438354318348" />
+      <property role="TrG5h" value="MODEL_ORDER" />
+    </node>
+    <node concept="25R33" id="2C8x_a3gNgg" role="25R1y">
+      <property role="3tVfz5" value="3028818438354318352" />
+      <property role="TrG5h" value="GREEDY_MODEL_ORDER" />
+    </node>
   </node>
 </model>
 

@@ -41,6 +41,7 @@
     <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="qvne" ref="r:8ff33705-85bf-4855-805c-06d68fbe233c(jetbrains.mps.editor.runtime.descriptor)" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" />
+    <import index="u8j" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
@@ -15013,6 +15014,45 @@
           </node>
         </node>
         <node concept="raruj" id="1MAkSr5crwH" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="2C8x_a3gR1v" role="3cqZAp">
+        <node concept="2OqwBi" id="2C8x_a3gR1w" role="3clFbG">
+          <node concept="37vLTw" id="2C8x_a3gR1x" role="2Oq$k0">
+            <ref role="3cqZAo" node="2C8x_a322xu" resolve="style" />
+          </node>
+          <node concept="liA8E" id="2C8x_a3gR1y" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="2C8x_a3gR1z" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:2C8x_a3gNh6" resolve="__layout-cycle-breaking-strategy" />
+            </node>
+            <node concept="Rm8GO" id="2C8x_a3gUg9" role="37wK5m">
+              <ref role="Rm8GQ" to="u8j:~CycleBreakingStrategy.GREEDY" resolve="GREEDY" />
+              <ref role="1Px2BO" to="u8j:~CycleBreakingStrategy" resolve="CycleBreakingStrategy" />
+              <node concept="1ZhdrF" id="2C8x_a3gU$V" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="2C8x_a3gU$W" role="3$ytzL">
+                  <node concept="3clFbS" id="2C8x_a3gU$X" role="2VODD2">
+                    <node concept="3clFbF" id="2C8x_a3gUEo" role="3cqZAp">
+                      <node concept="2OqwBi" id="2C8x_a3gVxs" role="3clFbG">
+                        <node concept="2OqwBi" id="2C8x_a3gURz" role="2Oq$k0">
+                          <node concept="30H73N" id="2C8x_a3gUEn" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="2C8x_a3gV58" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:2C8x_a3gNf8" resolve="cycleBreakingStrategy" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="2C8x_a3gVFD" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="2C8x_a3gR1I" role="lGtFl" />
       </node>
     </node>
   </node>

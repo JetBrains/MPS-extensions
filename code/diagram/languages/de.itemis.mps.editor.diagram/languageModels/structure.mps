@@ -2296,5 +2296,12 @@
     <property role="34LRSv" value="elementId" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="6ug9lnMIdE5">
+    <property role="EcuMT" value="7462505633627560581" />
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="DrawNoShadow" />
+    <property role="34LRSv" value="no shadow" />
+    <ref role="1TJDcQ" node="6uo2fN6xziV" resolve="Function_DrawShadow" />
+  </node>
 </model>
 

@@ -20,6 +20,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
+    <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -1885,6 +1886,7 @@
           <property role="3F0ifm" value="draw shadow:" />
         </node>
         <node concept="3F1sOY" id="6uo2fN6xBE1" role="3EZMnx">
+          <property role="1$x2rV" value="default drop shadow" />
           <ref role="1NtTu8" to="2qld:6uo2fN6x_Uq" resolve="drawShadow" />
         </node>
         <node concept="3F0ifn" id="6uo2fN6xBE2" role="3EZMnx">
@@ -5223,6 +5225,14 @@
         <node concept="2iRfu4" id="5wo2$NmYEzx" role="2iSdaV" />
       </node>
       <node concept="2EHx9g" id="5wo2$NmYEzy" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6ug9lnMIdEd">
+    <property role="3GE5qa" value="shape" />
+    <ref role="1XX52x" to="2qld:6ug9lnMIdE5" resolve="DrawNoShadow" />
+    <node concept="3F0ifn" id="6ug9lnMIdEf" role="2wV5jI">
+      <property role="3F0ifm" value="no shadow" />
+      <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
     </node>
   </node>
 </model>

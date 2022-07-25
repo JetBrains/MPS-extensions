@@ -70,6 +70,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -1427,6 +1428,13 @@
     <property role="3GE5qa" value="layoutAlgorithm" />
     <property role="EcuMT" value="8433227566817223068" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2T42Bz2wR7T" role="1TKVEi">
+      <property role="IQ2ns" value="3333801137936757241" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" node="2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
+      <ref role="20ksaX" node="1MAkSr55XtW" resolve="config" />
+    </node>
     <node concept="PrWs8" id="7k8PWDQb2b0" role="PzmwI">
       <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
     </node>
@@ -2309,17 +2317,8 @@
     <property role="EcuMT" value="2064429317493348219" />
     <property role="3GE5qa" value="layoutAlgorithm" />
     <property role="TrG5h" value="DiagramLayoutConfig" />
+    <property role="34LRSv" value="base config" />
     <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
-    <node concept="1TJgyi" id="1MAkSr5clWS" role="1TKVEl">
-      <property role="IQ2nx" value="2064429317495021368" />
-      <property role="TrG5h" value="subdiagramDirection" />
-      <ref role="AX2Wp" node="7WTFIQIcYqd" resolve="LayoutDirection" />
-    </node>
-    <node concept="1TJgyi" id="2C8x_a3gNf8" role="1TKVEl">
-      <property role="IQ2nx" value="3028818438354318280" />
-      <property role="TrG5h" value="cycleBreakingStrategy" />
-      <ref role="AX2Wp" node="2C8x_a3gNfb" resolve="CycleBreakingStrategy" />
-    </node>
     <node concept="1TJgyi" id="2C8x_a3rNsJ" role="1TKVEl">
       <property role="IQ2nx" value="3028818438357202735" />
       <property role="TrG5h" value="hierarchyIncludeChildren" />
@@ -2373,6 +2372,23 @@
     <node concept="25R33" id="2T42Bz29pWJ" role="25R1y">
       <property role="3tVfz5" value="3333801137930608431" />
       <property role="TrG5h" value="SPLINES" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2T42Bz2wQRJ">
+    <property role="EcuMT" value="3333801137936756207" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="LayeredLayoutConfig" />
+    <property role="34LRSv" value="layered layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyi" id="1MAkSr5clWS" role="1TKVEl">
+      <property role="IQ2nx" value="2064429317495021368" />
+      <property role="TrG5h" value="subdiagramDirection" />
+      <ref role="AX2Wp" node="7WTFIQIcYqd" resolve="LayoutDirection" />
+    </node>
+    <node concept="1TJgyi" id="2C8x_a3gNf8" role="1TKVEl">
+      <property role="IQ2nx" value="3028818438354318280" />
+      <property role="TrG5h" value="cycleBreakingStrategy" />
+      <ref role="AX2Wp" node="2C8x_a3gNfb" resolve="CycleBreakingStrategy" />
     </node>
   </node>
 </model>

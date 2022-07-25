@@ -2321,8 +2321,8 @@
     <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
     <node concept="1TJgyi" id="2C8x_a3rNsJ" role="1TKVEl">
       <property role="IQ2nx" value="3028818438357202735" />
-      <property role="TrG5h" value="hierarchyIncludeChildren" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <property role="TrG5h" value="hierarchyHandling" />
+      <ref role="AX2Wp" node="64PP31wF2qp" resolve="HierarchyHandling" />
     </node>
     <node concept="1TJgyi" id="2T42Bz29pRt" role="1TKVEl">
       <property role="IQ2nx" value="3333801137930608093" />
@@ -2389,6 +2389,20 @@
       <property role="IQ2nx" value="3028818438354318280" />
       <property role="TrG5h" value="cycleBreakingStrategy" />
       <ref role="AX2Wp" node="2C8x_a3gNfb" resolve="CycleBreakingStrategy" />
+    </node>
+  </node>
+  <node concept="25R3W" id="64PP31wF2qp">
+    <property role="3F6X1D" value="7004738099690088089" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="HierarchyHandling" />
+    <ref role="1H5jkz" node="64PP31wF2sd" resolve="SEPARATE_CHILDREN" />
+    <node concept="25R33" id="64PP31wF2sd" role="25R1y">
+      <property role="3tVfz5" value="7004738099690088205" />
+      <property role="TrG5h" value="SEPARATE_CHILDREN" />
+    </node>
+    <node concept="25R33" id="64PP31wF2qq" role="25R1y">
+      <property role="3tVfz5" value="7004738099690088090" />
+      <property role="TrG5h" value="INCLUDE_CHILDREN" />
     </node>
   </node>
 </model>

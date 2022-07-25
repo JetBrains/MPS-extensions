@@ -15087,6 +15087,45 @@
         </node>
         <node concept="raruj" id="2C8x_a3so1W" role="lGtFl" />
       </node>
+      <node concept="3clFbF" id="2T42Bz29_bS" role="3cqZAp">
+        <node concept="2OqwBi" id="2T42Bz29_bT" role="3clFbG">
+          <node concept="37vLTw" id="2T42Bz29_bU" role="2Oq$k0">
+            <ref role="3cqZAo" node="2C8x_a322xu" resolve="style" />
+          </node>
+          <node concept="liA8E" id="2T42Bz29_bV" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="2T42Bz29_bW" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:2T42Bz29_7T" resolve="__layout-edge-routing" />
+            </node>
+            <node concept="Rm8GO" id="2T42Bz29CdC" role="37wK5m">
+              <ref role="Rm8GQ" to="gwyy:~EdgeRouting.UNDEFINED" resolve="UNDEFINED" />
+              <ref role="1Px2BO" to="gwyy:~EdgeRouting" resolve="EdgeRouting" />
+              <node concept="1ZhdrF" id="2T42Bz29Cjb" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="2T42Bz29Cjc" role="3$ytzL">
+                  <node concept="3clFbS" id="2T42Bz29Cjd" role="2VODD2">
+                    <node concept="3clFbF" id="2T42Bz29CLi" role="3cqZAp">
+                      <node concept="2OqwBi" id="2T42Bz29Dr7" role="3clFbG">
+                        <node concept="2OqwBi" id="2T42Bz29CYt" role="2Oq$k0">
+                          <node concept="30H73N" id="2T42Bz29CLh" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="2T42Bz29Dc_" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:2T42Bz29pRt" resolve="edgeRouting" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="2T42Bz29DBq" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="2T42Bz29_c7" role="lGtFl" />
+      </node>
     </node>
   </node>
 </model>

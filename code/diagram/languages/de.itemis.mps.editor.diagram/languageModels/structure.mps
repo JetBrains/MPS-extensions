@@ -2325,6 +2325,11 @@
       <property role="TrG5h" value="hierarchyIncludeChildren" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="2T42Bz29pRt" role="1TKVEl">
+      <property role="IQ2nx" value="3333801137930608093" />
+      <property role="TrG5h" value="edgeRouting" />
+      <ref role="AX2Wp" node="2T42Bz29pU4" resolve="EdgeRouting" />
+    </node>
   </node>
   <node concept="25R3W" id="2C8x_a3gNfb">
     <property role="3F6X1D" value="3028818438354318283" />
@@ -2346,6 +2351,28 @@
     <node concept="25R33" id="2C8x_a3gNgg" role="25R1y">
       <property role="3tVfz5" value="3028818438354318352" />
       <property role="TrG5h" value="GREEDY_MODEL_ORDER" />
+    </node>
+  </node>
+  <node concept="25R3W" id="2T42Bz29pU4">
+    <property role="3F6X1D" value="3333801137930608260" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="EdgeRouting" />
+    <ref role="1H5jkz" node="2T42Bz29pWF" resolve="ORTHOGONAL" />
+    <node concept="25R33" id="2T42Bz29pU5" role="25R1y">
+      <property role="3tVfz5" value="3333801137930608261" />
+      <property role="TrG5h" value="UNDEFINED" />
+    </node>
+    <node concept="25R33" id="2T42Bz29pVM" role="25R1y">
+      <property role="3tVfz5" value="3333801137930608370" />
+      <property role="TrG5h" value="POLYLINE" />
+    </node>
+    <node concept="25R33" id="2T42Bz29pWF" role="25R1y">
+      <property role="3tVfz5" value="3333801137930608427" />
+      <property role="TrG5h" value="ORTHOGONAL" />
+    </node>
+    <node concept="25R33" id="2T42Bz29pWJ" role="25R1y">
+      <property role="3tVfz5" value="3333801137930608431" />
+      <property role="TrG5h" value="SPLINES" />
     </node>
   </node>
 </model>

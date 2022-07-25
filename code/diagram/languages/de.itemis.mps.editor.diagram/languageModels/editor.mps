@@ -5279,6 +5279,15 @@
       </node>
       <node concept="3F0A7n" id="2C8x_a3rNtB" role="3EZMnx">
         <ref role="1NtTu8" to="2qld:2C8x_a3rNsJ" resolve="hierarchyIncludeChildren" />
+        <node concept="ljvvj" id="2T42Bz29$ts" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2T42Bz29$tH" role="3EZMnx">
+        <property role="3F0ifm" value="Edge routing:" />
+      </node>
+      <node concept="3F0A7n" id="2T42Bz29$uu" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2T42Bz29pRt" resolve="edgeRouting" />
       </node>
       <node concept="3F0ifn" id="2C8x_a36238" role="3EZMnx">
         <node concept="pVoyu" id="2C8x_a3623g" role="3F10Kt">
@@ -5315,6 +5324,16 @@
       <property role="TrG5h" value="__layout-hierachy-include-children" />
       <node concept="10P_77" id="2C8x_a3rKJV" role="3t5Oan" />
       <node concept="3clFbT" id="2C8x_a3rKJY" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="2T42Bz29_7T" role="V601i">
+      <property role="TrG5h" value="__layout-edge-routing" />
+      <node concept="3uibUv" id="2T42Bz29_8_" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~EdgeRouting" resolve="EdgeRouting" />
+      </node>
+      <node concept="Rm8GO" id="2T42Bz29_9F" role="3t49C2">
+        <ref role="Rm8GQ" to="gwyy:~EdgeRouting.UNDEFINED" resolve="UNDEFINED" />
+        <ref role="1Px2BO" to="gwyy:~EdgeRouting" resolve="EdgeRouting" />
+      </node>
     </node>
   </node>
 </model>

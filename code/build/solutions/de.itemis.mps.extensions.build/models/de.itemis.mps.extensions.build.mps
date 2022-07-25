@@ -947,32 +947,22 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="36BYqFT0t_z" role="3bR37C">
-          <node concept="1BurEX" id="36BYqFT0t_$" role="1SiIV1">
-            <node concept="398BVA" id="36BYqFT0t_u" role="1BurEY">
+        <node concept="1SiIV0" id="7UObDbYKXm" role="3bR37C">
+          <node concept="1BurEX" id="7UObDbYKXn" role="1SiIV1">
+            <node concept="398BVA" id="7UObDbYKX8" role="1BurEY">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="1YKRxVzEZk0" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-annotations-2.11.0.jar" />
+              <node concept="2Ry0Ak" id="7UObDbYKX9" role="iGT6I">
+                <property role="2Ry0Am" value="jackson-core-2.12.0.jar" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="36BYqFT0t_E" role="3bR37C">
-          <node concept="1BurEX" id="36BYqFT0t_F" role="1SiIV1">
-            <node concept="398BVA" id="36BYqFT0t__" role="1BurEY">
+        <node concept="1SiIV0" id="7UObDbYKXA" role="3bR37C">
+          <node concept="1BurEX" id="7UObDbYKXB" role="1SiIV1">
+            <node concept="398BVA" id="7UObDbYKXo" role="1BurEY">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="1YKRxVzEZx6" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-core-2.11.0.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="36BYqFT0t_L" role="3bR37C">
-          <node concept="1BurEX" id="36BYqFT0t_M" role="1SiIV1">
-            <node concept="398BVA" id="36BYqFT0t_G" role="1BurEY">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="1YKRxVzEZOI" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-databind-2.11.0.jar" />
+              <node concept="2Ry0Ak" id="7UObDbYKXp" role="iGT6I">
+                <property role="2Ry0Am" value="jackson-databind.jar" />
               </node>
             </node>
           </node>
@@ -4649,9 +4639,6 @@
       <node concept="m$_yC" id="2OJNL7Em2Hd" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
       </node>
-      <node concept="m$_yC" id="3JvidvJvDTp" role="m$_yJ">
-        <ref role="m$_y1" node="31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
-      </node>
       <node concept="3_J27D" id="4be$WTb1MZK" role="m_cZH">
         <node concept="3Mxwew" id="4be$WTb1MZL" role="3MwsjC">
           <property role="3MwjfP" value="de.itemis.mps.editor.diagram" />
@@ -4665,6 +4652,9 @@
         <node concept="3Mxwew" id="2QgPOUCDcAZ" role="3MwsjC">
           <property role="3MwjfP" value="Diagrammatic notation for MPS editors" />
         </node>
+      </node>
+      <node concept="m$_yC" id="3JvidvJvDTp" role="m$_yJ">
+        <ref role="m$_y1" node="31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
       </node>
     </node>
     <node concept="2G$12M" id="4be$WTb1AxY" role="3989C9">
@@ -10861,7 +10851,7 @@
         <node concept="3LEDTy" id="7q24334ZzZk" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZc" resolve="jetbrains.mps.baseLanguage.checkedDots" />
         </node>
-        <node concept="3LEDTy" id="3JvidvJvDDw" role="3LEDUa">
+        <node concept="3LEDTy" id="7UObDbYLjt" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
@@ -11091,11 +11081,11 @@
         <node concept="3LEDTy" id="4CvHZ0pb1br" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
         </node>
-        <node concept="3LEDTy" id="3JvidvJvDE4" role="3LEDUa">
-          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
-        </node>
-        <node concept="3LEDTy" id="3JvidvJvDE5" role="3LEDUa">
+        <node concept="3LEDTy" id="7UObDbYLk1" role="3LEDUa">
           <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2F" resolve="jetbrains.mps.baseLanguage.tuples" />
+        </node>
+        <node concept="3LEDTy" id="7UObDbYLk2" role="3LEDUa">
+          <ref role="3LEDTV" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
         </node>
       </node>
     </node>
@@ -13850,19 +13840,11 @@
               <property role="3MwjfP" value="lib" />
             </node>
           </node>
-          <node concept="28jJK3" id="36BYqFT0Neh" role="39821P">
-            <node concept="398BVA" id="36BYqFT0Nlx" role="28jJRO">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="1YKRxVzEZVi" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-annotations-2.11.0.jar" />
-              </node>
-            </node>
-          </node>
           <node concept="28jJK3" id="36BYqFT0N$6" role="39821P">
             <node concept="398BVA" id="36BYqFT0NFr" role="28jJRO">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
               <node concept="2Ry0Ak" id="1YKRxVzF01Q" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-core-2.11.0.jar" />
+                <property role="2Ry0Am" value="jackson-core-2.12.0.jar" />
               </node>
             </node>
           </node>
@@ -13870,7 +13852,7 @@
             <node concept="398BVA" id="36BYqFT0O1r" role="28jJRO">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
               <node concept="2Ry0Ak" id="1YKRxVzF08q" role="iGT6I">
-                <property role="2Ry0Am" value="jackson-databind-2.11.0.jar" />
+                <property role="2Ry0Am" value="jackson-databind.jar" />
               </node>
             </node>
           </node>

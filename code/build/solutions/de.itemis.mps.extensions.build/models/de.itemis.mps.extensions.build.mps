@@ -4653,6 +4653,9 @@
           <property role="3MwjfP" value="Diagrammatic notation for MPS editors" />
         </node>
       </node>
+      <node concept="m$_yC" id="3JvidvJvDTp" role="m$_yJ">
+        <ref role="m$_y1" node="31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
+      </node>
     </node>
     <node concept="2G$12M" id="4be$WTb1AxY" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.editor.diagram" />
@@ -5001,6 +5004,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3JvidvJvDr_" role="3bR37C">
+          <node concept="3bR9La" id="3JvidvJvDrA" role="1SiIV1">
+            <ref role="3bR37D" node="4p3FRivDLPL" resolve="de.slisson.mps.editor.multiline.runtime" />
           </node>
         </node>
       </node>

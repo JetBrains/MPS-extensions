@@ -31,7 +31,9 @@
       <concept id="4560297596904469362" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModule" flags="nn" index="22LTRM">
         <reference id="4560297596904469363" name="module" index="22LTRN" />
       </concept>
-      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModules_Options" flags="ng" index="24cAiW" />
+      <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModules_Options" flags="ng" index="24cAiW">
+        <child id="1688667350638517006" name="compressArgs" index="XX84c" />
+      </concept>
       <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
     </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -5496,7 +5498,7 @@
         <property role="TrG5h" value="de.itemis.mps.tooltips.runtime" />
         <property role="3LESm3" value="0022e9df-2136-4ef8-81b2-08650aeb1dc7" />
         <node concept="398BVA" id="3vzyAKEK3mj" role="3LF7KH">
-          <ref role="398BVh" node="2fo8bJE$D4t" />
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3vzyAKEK3mo" role="iGT6I">
             <property role="2Ry0Am" value="tooltips" />
             <node concept="2Ry0Ak" id="3vzyAKEK3mp" role="2Ry0An">
@@ -5522,7 +5524,7 @@
         </node>
         <node concept="1SiIV0" id="6$BmuzArKoU" role="3bR37C">
           <node concept="3bR9La" id="6$BmuzArKoV" role="1SiIV1">
-            <ref role="3bR37D" node="64TsoMQT2qP" />
+            <ref role="3bR37D" node="64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
           </node>
         </node>
         <node concept="1SiIV0" id="6$BmuzArKoW" role="3bR37C">
@@ -5551,7 +5553,7 @@
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
             <node concept="398BVA" id="3xFG3bj5MlG" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" />
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3xFG3bj5MlH" role="iGT6I">
                 <property role="2Ry0Am" value="tooltips" />
                 <node concept="2Ry0Ak" id="1QLFoGOMXKy" role="2Ry0An">
@@ -5570,7 +5572,7 @@
           <property role="1HemKv" value="true" />
           <node concept="3LXTmp" id="2eucapX07Wx" role="1HemKq">
             <node concept="398BVA" id="2eucapX07Wl" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" />
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="2eucapX07Wm" role="iGT6I">
                 <property role="2Ry0Am" value="tooltips" />
                 <node concept="2Ry0Ak" id="2eucapX07Wn" role="2Ry0An">
@@ -18906,7 +18908,13 @@
       <node concept="22LTRM" id="4JmkJs3Gsci" role="22LTRK">
         <ref role="22LTRN" node="4JmkJs3Gs4u" resolve="test.de.q60.mps.shadowmodels.examples" />
       </node>
-      <node concept="24cAiW" id="6hpM9fmFEj0" role="24cAkG" />
+      <node concept="24cAiW" id="6hpM9fmFEj0" role="24cAkG">
+        <node concept="NbPM2" id="7ez5EC_kFQ0" role="XX84c">
+          <node concept="3Mxwew" id="7ez5EC_kFPZ" role="3MwsjC">
+            <property role="3MwjfP" value="true" />
+          </node>
+        </node>
+      </node>
       <node concept="22LTRM" id="5QP6xyk3oDX" role="22LTRK">
         <ref role="22LTRN" node="5QP6xyk3oCB" resolve="test.de.q60.mps.shadowmodels.runtime" />
       </node>

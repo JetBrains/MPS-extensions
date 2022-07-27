@@ -328,9 +328,7 @@
       <concept id="6237710625713964946" name="de.itemis.mps.editor.diagram.structure.Parameter_Node" flags="ng" index="2ZN8Hh" />
       <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ig" index="37q72E" />
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
-      <concept id="2064429317493348219" name="de.itemis.mps.editor.diagram.structure.DiagramLayoutConfig" flags="ng" index="3pGojX">
-        <property id="2064429317495021368" name="subdiagramDirection" index="3p_KMY" />
-      </concept>
+      <concept id="2064429317493348219" name="de.itemis.mps.editor.diagram.structure.DiagramLayoutConfig" flags="ng" index="3pGojX" />
       <concept id="6910723851735106293" name="de.itemis.mps.editor.diagram.structure.DiagramButtonConfig" flags="ng" index="3sA_1f">
         <property id="2773448605512242576" name="hasShowPortsLabels" index="3g8l5v" />
         <property id="6910723851735128113" name="hasResetViewButton" index="3sAwEb" />
@@ -1222,11 +1220,8 @@
               </node>
             </node>
           </node>
-          <node concept="39fpm" id="6Bd7VwqR2pu" role="35U2g">
+          <node concept="39fpm" id="awq4$rcV1s" role="35U2g">
             <property role="1NdBj4" value="6Bd7VwqYQBY/DOWN" />
-            <node concept="3pGojX" id="2C8x_a2TGxh" role="3pGojU">
-              <property role="3p_KMY" value="6Bd7VwqYQBY/DOWN" />
-            </node>
           </node>
         </node>
         <node concept="3F0ifn" id="3fwTI8g3c$Q" role="3EZMnx">
@@ -1635,7 +1630,9 @@
             <property role="3sAwEi" value="true" />
             <property role="3g8l5v" value="false" />
           </node>
-          <node concept="3fe8g" id="1MAkSr4BiCN" role="35U2g" />
+          <node concept="3fe8g" id="1MAkSr4BiCN" role="35U2g">
+            <node concept="3pGojX" id="awq4$rgWNg" role="3pGojU" />
+          </node>
         </node>
         <node concept="2w$q5c" id="5kFTseQTjoA" role="2whIAn">
           <node concept="2aJ2om" id="5kFTseQTjoB" role="2w$qW5">

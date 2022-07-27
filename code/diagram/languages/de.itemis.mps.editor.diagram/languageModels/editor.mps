@@ -15,13 +15,14 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" />
     <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
-    <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="u8j" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
+    <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -1904,6 +1905,7 @@
           <property role="3F0ifm" value="draw shadow:" />
         </node>
         <node concept="3F1sOY" id="6uo2fN6xBE1" role="3EZMnx">
+          <property role="1$x2rV" value="default drop shadow" />
           <ref role="1NtTu8" to="2qld:6uo2fN6x_Uq" resolve="drawShadow" />
         </node>
         <node concept="3F0ifn" id="6uo2fN6xBE2" role="3EZMnx">
@@ -5250,21 +5252,6 @@
       <node concept="2EHx9g" id="5wo2$NmYEzy" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="1MAkSr55Xu5">
-    <property role="3GE5qa" value="layoutAlgorithm" />
-    <ref role="1XX52x" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
-    <node concept="3EZMnI" id="1MAkSr55Xua" role="2wV5jI">
-      <node concept="PMmxH" id="2T42Bz2wQZd" role="3EZMnx">
-        <ref role="PMmxG" node="2T42Bz2wQXo" resolve="BaseLayoutConfig" />
-      </node>
-      <node concept="3F0ifn" id="2C8x_a36238" role="3EZMnx">
-        <node concept="pVoyu" id="2C8x_a3623g" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="2C8x_a3622H" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="V5hpn" id="1MAkSr5clAu">
     <property role="3GE5qa" value="layoutAlgorithm" />
     <property role="TrG5h" value="DiagramLayoutAttributes" />
@@ -5307,44 +5294,6 @@
         <ref role="Rm8GQ" to="gwyy:~EdgeRouting.UNDEFINED" resolve="UNDEFINED" />
         <ref role="1Px2BO" to="gwyy:~EdgeRouting" resolve="EdgeRouting" />
       </node>
-    </node>
-  </node>
-  <node concept="PKFIW" id="2T42Bz2wQXo">
-    <property role="3GE5qa" value="layoutAlgorithm" />
-    <property role="TrG5h" value="BaseLayoutConfig" />
-    <ref role="1XX52x" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
-    <node concept="3EZMnI" id="2T42Bz2wQYp" role="2wV5jI">
-      <node concept="3F0ifn" id="2T42Bz2wQYr" role="3EZMnx">
-        <property role="3F0ifm" value="Base config:" />
-        <node concept="ljvvj" id="2T42Bz2wQYw" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="2T42Bz2Av8D" role="3F10Kt" />
-        <node concept="VQ3r3" id="2T42Bz2AYoN" role="3F10Kt">
-          <property role="2USNnj" value="gtbM8PH/underlined" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="2C8x_a3rNsY" role="3EZMnx">
-        <property role="3F0ifm" value="Hierarchy handling:" />
-        <node concept="pVoyu" id="2C8x_a3rNta" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="2T42Bz2Av8K" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="2C8x_a3rNtB" role="3EZMnx">
-        <ref role="1NtTu8" to="2qld:2C8x_a3rNsJ" resolve="hierarchyHandling" />
-        <node concept="ljvvj" id="2T42Bz29$ts" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="2T42Bz29$tH" role="3EZMnx">
-        <property role="3F0ifm" value="Edge routing:" />
-        <node concept="VPM3Z" id="2T42Bz2Av8O" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="2T42Bz29$uu" role="3EZMnx">
-        <ref role="1NtTu8" to="2qld:2T42Bz29pRt" resolve="edgeRouting" />
-      </node>
-      <node concept="l2Vlx" id="2T42Bz2wQYs" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="2T42Bz2wR0k">
@@ -5392,6 +5341,67 @@
       </node>
       <node concept="3F0ifn" id="2T42Bz2wR3R" role="3EZMnx" />
       <node concept="l2Vlx" id="2T42Bz2wR1x" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1MAkSr55Xu5">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <ref role="1XX52x" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="3EZMnI" id="1MAkSr55Xua" role="2wV5jI">
+      <node concept="PMmxH" id="2T42Bz2wQZd" role="3EZMnx">
+        <ref role="PMmxG" node="2T42Bz2wQXo" resolve="BaseLayoutConfig" />
+      </node>
+      <node concept="3F0ifn" id="2C8x_a36238" role="3EZMnx">
+        <node concept="pVoyu" id="2C8x_a3623g" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2C8x_a3622H" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="2T42Bz2wQXo">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="BaseLayoutConfig" />
+    <ref role="1XX52x" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="3EZMnI" id="2T42Bz2wQYp" role="2wV5jI">
+      <node concept="3F0ifn" id="2T42Bz2wQYr" role="3EZMnx">
+        <property role="3F0ifm" value="Base config:" />
+        <node concept="ljvvj" id="2T42Bz2wQYw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="2T42Bz2Av8D" role="3F10Kt" />
+        <node concept="VQ3r3" id="2T42Bz2AYoN" role="3F10Kt">
+          <property role="2USNnj" value="gtbM8PH/underlined" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2C8x_a3rNsY" role="3EZMnx">
+        <property role="3F0ifm" value="Hierarchy handling:" />
+        <node concept="pVoyu" id="2C8x_a3rNta" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="2T42Bz2Av8K" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="2C8x_a3rNtB" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2C8x_a3rNsJ" resolve="hierarchyHandling" />
+        <node concept="ljvvj" id="2T42Bz29$ts" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2T42Bz29$tH" role="3EZMnx">
+        <property role="3F0ifm" value="Edge routing:" />
+        <node concept="VPM3Z" id="2T42Bz2Av8O" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="2T42Bz29$uu" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2T42Bz29pRt" resolve="edgeRouting" />
+      </node>
+      <node concept="l2Vlx" id="2T42Bz2wQYs" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6ug9lnMIdEd">
+    <property role="3GE5qa" value="shape" />
+    <ref role="1XX52x" to="2qld:6ug9lnMIdE5" resolve="DrawNoShadow" />
+    <node concept="3F0ifn" id="6ug9lnMIdEf" role="2wV5jI">
+      <property role="3F0ifm" value="no shadow" />
+      <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
     </node>
   </node>
 </model>

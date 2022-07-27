@@ -18,6 +18,7 @@
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="gsia" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.event(JDK/)" />
     <import index="hhnx" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime(MPS.Editor/)" />
+    <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -94,15 +95,13 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
-      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
@@ -121,6 +120,10 @@
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="8276990574909231788" name="jetbrains.mps.baseLanguage.structure.FinallyClause" flags="ng" index="1wplmZ">
         <child id="8276990574909234106" name="finallyBody" index="1wplMD" />
@@ -543,14 +546,6 @@
       <node concept="3Tmbuc" id="4U82Y3yZHfU" role="1B3o_S" />
       <node concept="3cqZAl" id="4U82Y3yZHfW" role="3clF45" />
       <node concept="3clFbS" id="4U82Y3yZHfX" role="3clF47">
-        <node concept="3clFbF" id="4U82Y3yZHvI" role="3cqZAp">
-          <node concept="1rXfSq" id="4U82Y3yZHvH" role="3clFbG">
-            <ref role="37wK5l" to="g51k:~EditorCell_Basic.setWidth(int)" resolve="setWidth" />
-            <node concept="3cmrfG" id="4U82Y3yZHyJ" role="37wK5m">
-              <property role="3cmrfH" value="10" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="4U82Y3yZHGA" role="3cqZAp">
           <node concept="1rXfSq" id="4U82Y3yZHG$" role="3clFbG">
             <ref role="37wK5l" to="g51k:~EditorCell_Basic.setHeight(int)" resolve="setHeight" />
@@ -1277,6 +1272,25 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="43GDLKAhxoi" role="3cqZAp">
+          <node concept="3cpWsn" id="43GDLKAhxol" role="3cpWs9">
+            <property role="TrG5h" value="lineWidth" />
+            <node concept="10Oyi0" id="43GDLKAhxog" role="1tU5fm" />
+            <node concept="3cpWsd" id="43GDLKAh$Wk" role="33vP2m">
+              <node concept="37vLTw" id="43GDLKAh_Gx" role="3uHU7w">
+                <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myGapRight" resolve="myGapRight" />
+              </node>
+              <node concept="3cpWsd" id="43GDLKAhzo3" role="3uHU7B">
+                <node concept="1rXfSq" id="43GDLKAhyaj" role="3uHU7B">
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getWidth()" resolve="getWidth" />
+                </node>
+                <node concept="37vLTw" id="43GDLKAh$95" role="3uHU7w">
+                  <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myGapLeft" resolve="myGapLeft" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3J1_TO" id="7d0q5VH9zRw" role="3cqZAp">
           <node concept="3clFbS" id="7d0q5VH9zRx" role="1zxBo7">
             <node concept="3cpWs8" id="7d0q5VHdtJY" role="3cqZAp">
@@ -1329,8 +1343,8 @@
                       <ref role="37wK5l" to="g51k:~EditorCell_Basic.getY()" resolve="getY" />
                     </node>
                   </node>
-                  <node concept="1rXfSq" id="7d0q5VH9zRJ" role="37wK5m">
-                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.getWidth()" resolve="getWidth" />
+                  <node concept="37vLTw" id="43GDLKAhDV3" role="37wK5m">
+                    <ref role="3cqZAo" node="43GDLKAhxol" resolve="lineWidth" />
                   </node>
                   <node concept="2OqwBi" id="7d0q5VHdyie" role="37wK5m">
                     <node concept="37vLTw" id="7d0q5VHdxvl" role="2Oq$k0">

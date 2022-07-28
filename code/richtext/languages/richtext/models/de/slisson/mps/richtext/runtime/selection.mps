@@ -1145,6 +1145,35 @@
               </node>
               <node concept="9aQIb" id="635SBilAIkO" role="9aQIa">
                 <node concept="3clFbS" id="635SBilAIkP" role="9aQI4">
+                  <node concept="3clFbJ" id="6nDnvXutJem" role="3cqZAp">
+                    <node concept="3clFbS" id="6nDnvXutJeo" role="3clFbx">
+                      <node concept="3clFbF" id="6nDnvXuuzF5" role="3cqZAp">
+                        <node concept="2OqwBi" id="6nDnvXuuIT8" role="3clFbG">
+                          <node concept="1eOMI4" id="6nDnvXuuzF2" role="2Oq$k0">
+                            <node concept="10QFUN" id="6nDnvXuuzEZ" role="1eOMHV">
+                              <node concept="3uibUv" id="6nDnvXuuzF4" role="10QFUM">
+                                <ref role="3uigEE" to="g51k:~EditorCell_Label" resolve="EditorCell_Label" />
+                              </node>
+                              <node concept="37vLTw" id="6nDnvXuuFsa" role="10QFUP">
+                                <ref role="3cqZAo" node="635SBilAIjH" resolve="cell" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="6nDnvXuuWqK" role="2OqNvi">
+                            <ref role="37wK5l" to="g51k:~EditorCell_Label.selectAll()" resolve="selectAll" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2ZW3vV" id="6nDnvXutV4d" role="3clFbw">
+                      <node concept="3uibUv" id="6nDnvXuuqZx" role="2ZW6by">
+                        <ref role="3uigEE" to="g51k:~EditorCell_Label" resolve="EditorCell_Label" />
+                      </node>
+                      <node concept="37vLTw" id="6nDnvXutQoS" role="2ZW6bz">
+                        <ref role="3cqZAo" node="635SBilAIjH" resolve="cell" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="635SBilAIkQ" role="3cqZAp">
                     <node concept="37vLTI" id="635SBilAIkR" role="3clFbG">
                       <node concept="2OqwBi" id="635SBilAIkS" role="37vLTx">
@@ -1375,6 +1404,9 @@
       <node concept="3clFbS" id="2_D0AvWRqEw" role="3clF47">
         <node concept="3clFbF" id="635SBilAIwE" role="3cqZAp">
           <node concept="2OqwBi" id="635SBilAIyg" role="3clFbG">
+            <node concept="liA8E" id="635SBilAIyl" role="2OqNvi">
+              <ref role="37wK5l" to="lwvz:~Selection.ensureVisible()" resolve="ensureVisible" />
+            </node>
             <node concept="2OqwBi" id="635SBilAIx0" role="2Oq$k0">
               <node concept="37vLTw" id="635SBilAIwF" role="2Oq$k0">
                 <ref role="3cqZAo" node="635SBilAGKA" resolve="subSelections" />
@@ -1392,9 +1424,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="liA8E" id="635SBilAIyl" role="2OqNvi">
-              <ref role="37wK5l" to="lwvz:~Selection.ensureVisible()" resolve="ensureVisible" />
             </node>
           </node>
         </node>

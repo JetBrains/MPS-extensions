@@ -3826,7 +3826,7 @@
         <node concept="3clFbS" id="5$0zg9fikIF" role="3clF47">
           <node concept="3clFbF" id="5$0zg9fikIG" role="3cqZAp">
             <node concept="Xl_RD" id="5$0zg9fikIH" role="3clFbG">
-              <property role="Xl_RC" value="Select End of Line" />
+              <property role="Xl_RC" value="Select All" />
             </node>
           </node>
         </node>

@@ -62,9 +62,6 @@
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
@@ -219,12 +216,6 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
-      </concept>
-    </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <property id="6332851714983843871" name="severity" index="2xdLsb" />
-        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1585,22 +1576,6 @@
               <node concept="37vLTw" id="630t2b8eeCA" role="37wK5m">
                 <ref role="3cqZAo" node="630t2b8eeD1" resolve="from" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2xdQw9" id="1sNMMH96E4o" role="3cqZAp">
-          <property role="2xdLsb" value="gZ5fh_4/error" />
-          <node concept="3cpWs3" id="1sNMMH96F_U" role="9lYJi">
-            <node concept="2OqwBi" id="1sNMMH96HeV" role="3uHU7w">
-              <node concept="37vLTw" id="1sNMMH96GG9" role="2Oq$k0">
-                <ref role="3cqZAo" node="630t2b8eeCz" resolve="startCell" />
-              </node>
-              <node concept="liA8E" id="1sNMMH96IRk" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="1sNMMH96E4q" role="3uHU7B">
-              <property role="Xl_RC" value="StartCell:" />
             </node>
           </node>
         </node>

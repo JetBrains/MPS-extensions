@@ -2039,8 +2039,8 @@
                         <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
                         <ref role="3cqZAo" to="5ueo:~StyleAttributes.FIRST_POSITION_ALLOWED" resolve="FIRST_POSITION_ALLOWED" />
                       </node>
-                      <node concept="37vLTw" id="7VgKn9UH0r7" role="37wK5m">
-                        <ref role="3cqZAo" node="2af7$rtzdqS" resolve="editable" />
+                      <node concept="3clFbT" id="NiX11gGO4F" role="37wK5m">
+                        <property role="3clFbU" value="true" />
                       </node>
                     </node>
                   </node>
@@ -2109,11 +2109,11 @@
                 <node concept="3clFbF" id="6nDnvXu$9RQ" role="3cqZAp">
                   <node concept="2OqwBi" id="6nDnvXu$9RS" role="3clFbG">
                     <node concept="2OqwBi" id="6nDnvXu$9RT" role="2Oq$k0">
-                      <node concept="37vLTw" id="6nDnvXu$9RU" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2af7$rtzdqG" resolve="firstLeaf" />
-                      </node>
                       <node concept="liA8E" id="6nDnvXu$9RV" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~EditorCell.getStyle()" resolve="getStyle" />
+                      </node>
+                      <node concept="37vLTw" id="NiX11gETCl" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2af7$rtzdqL" resolve="lastLeaf" />
                       </node>
                     </node>
                     <node concept="liA8E" id="6nDnvXu$9RW" role="2OqNvi">
@@ -2122,8 +2122,8 @@
                         <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
                         <ref role="3cqZAo" to="5ueo:~StyleAttributes.LAST_POSITION_ALLOWED" resolve="LAST_POSITION_ALLOWED" />
                       </node>
-                      <node concept="37vLTw" id="7VgKn9UH5MO" role="37wK5m">
-                        <ref role="3cqZAo" node="2af7$rtzdrr" resolve="editable" />
+                      <node concept="3clFbT" id="NiX11gFV_t" role="37wK5m">
+                        <property role="3clFbU" value="true" />
                       </node>
                     </node>
                   </node>

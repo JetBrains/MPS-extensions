@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
@@ -111,6 +112,9 @@
       <concept id="3982520150113085419" name="jetbrains.mps.lang.editor.structure.StyleAttributeDeclaration" flags="ig" index="3t5Usi">
         <child id="3982520150113147643" name="defaultValue" index="3t49C2" />
         <child id="3982520150113092206" name="valueType" index="3t5Oan" />
+      </concept>
+      <concept id="6681408443912431607" name="jetbrains.mps.lang.editor.structure.URLStyleClassItem" flags="ln" index="3u2Kpz">
+        <property id="6681408443912457593" name="url" index="3u2UNH" />
       </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
@@ -5317,29 +5321,77 @@
         </node>
       </node>
       <node concept="3F0ifn" id="2C8x_a3622S" role="3EZMnx">
-        <property role="3F0ifm" value="Subdiagram direction:" />
+        <property role="3F0ifm" value="Subdiagram direction" />
         <node concept="pVoyu" id="2C8x_a3622Z" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VPM3Z" id="2T42Bz2Av7_" role="3F10Kt" />
       </node>
+      <node concept="1HlG4h" id="7iteTM76OFN" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        <node concept="1HfYo3" id="7iteTM76OFO" role="1HlULh">
+          <node concept="3TQlhw" id="7iteTM76OFP" role="1Hhtcw">
+            <node concept="3clFbS" id="7iteTM76OFQ" role="2VODD2">
+              <node concept="3cpWs6" id="7iteTM76OFR" role="3cqZAp">
+                <node concept="Xl_RD" id="7iteTM76OFS" role="3cqZAk">
+                  <property role="Xl_RC" value="(?)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3u2Kpz" id="7iteTM76OFT" role="3F10Kt">
+          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-direction.html" />
+        </node>
+        <node concept="11LMrY" id="7iteTM76OFU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7iteTM70bpm" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
       <node concept="3F0A7n" id="2C8x_a2NO7Y" role="3EZMnx">
         <ref role="1NtTu8" to="2qld:1MAkSr5clWS" resolve="subdiagramDirection" />
+        <node concept="ljvvj" id="7iteTM70bqZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="2C8x_a3gNgt" role="3EZMnx">
-        <property role="3F0ifm" value="Cycle breaking strategy:" />
+        <property role="3F0ifm" value="Cycle breaking strategy" />
         <node concept="pVoyu" id="2C8x_a3gNgT" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VPM3Z" id="2T42Bz2Av7G" role="3F10Kt" />
       </node>
-      <node concept="3F0A7n" id="2C8x_a3gNgJ" role="3EZMnx">
-        <ref role="1NtTu8" to="2qld:2C8x_a3gNf8" resolve="cycleBreakingStrategy" />
-        <node concept="ljvvj" id="2T42Bz2wR3C" role="3F10Kt">
+      <node concept="1HlG4h" id="7iteTM76OLD" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        <node concept="1HfYo3" id="7iteTM76OLE" role="1HlULh">
+          <node concept="3TQlhw" id="7iteTM76OLF" role="1Hhtcw">
+            <node concept="3clFbS" id="7iteTM76OLG" role="2VODD2">
+              <node concept="3cpWs6" id="7iteTM76OLH" role="3cqZAp">
+                <node concept="Xl_RD" id="7iteTM76OLI" role="3cqZAk">
+                  <property role="Xl_RC" value="(?)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3u2Kpz" id="7iteTM76OLJ" role="3F10Kt">
+          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-layered-cycleBreaking-strategy.html" />
+        </node>
+        <node concept="11LMrY" id="7iteTM76OLK" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0ifn" id="2T42Bz2wR3R" role="3EZMnx" />
+      <node concept="3F0ifn" id="7iteTM70boe" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="2C8x_a3gNgJ" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2C8x_a3gNf8" resolve="cycleBreakingStrategy" />
+        <node concept="ljvvj" id="7iteTM70br4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="l2Vlx" id="2T42Bz2wR1x" role="2iSdaV" />
     </node>
   </node>
@@ -5374,24 +5426,76 @@
         </node>
       </node>
       <node concept="3F0ifn" id="2C8x_a3rNsY" role="3EZMnx">
-        <property role="3F0ifm" value="Hierarchy handling:" />
+        <property role="3F0ifm" value="Hierarchy handling" />
         <node concept="pVoyu" id="2C8x_a3rNta" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VPM3Z" id="2T42Bz2Av8K" role="3F10Kt" />
       </node>
+      <node concept="1HlG4h" id="7iteTM731gE" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        <node concept="1HfYo3" id="7iteTM731gG" role="1HlULh">
+          <node concept="3TQlhw" id="7iteTM731gI" role="1Hhtcw">
+            <node concept="3clFbS" id="7iteTM731gK" role="2VODD2">
+              <node concept="3cpWs6" id="7iteTM731mc" role="3cqZAp">
+                <node concept="Xl_RD" id="7iteTM731rf" role="3cqZAk">
+                  <property role="Xl_RC" value="(?)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3u2Kpz" id="7iteTM731lK" role="3F10Kt">
+          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-hierarchyHandling.html" />
+        </node>
+        <node concept="11LMrY" id="7iteTM76OFj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7iteTM6XQWZ" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
       <node concept="3F0A7n" id="2C8x_a3rNtB" role="3EZMnx">
         <ref role="1NtTu8" to="2qld:2C8x_a3rNsJ" resolve="hierarchyHandling" />
-        <node concept="ljvvj" id="2T42Bz29$ts" role="3F10Kt">
+        <node concept="ljvvj" id="7iteTM6XQXv" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="2T42Bz29$tH" role="3EZMnx">
-        <property role="3F0ifm" value="Edge routing:" />
+        <property role="3F0ifm" value="Edge routing" />
+        <node concept="pVoyu" id="7iteTM70blr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="VPM3Z" id="2T42Bz2Av8O" role="3F10Kt" />
+      </node>
+      <node concept="1HlG4h" id="7iteTM74hIr" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        <node concept="1HfYo3" id="7iteTM74hIs" role="1HlULh">
+          <node concept="3TQlhw" id="7iteTM74hIt" role="1Hhtcw">
+            <node concept="3clFbS" id="7iteTM74hIu" role="2VODD2">
+              <node concept="3cpWs6" id="7iteTM74hIv" role="3cqZAp">
+                <node concept="Xl_RD" id="7iteTM74hIw" role="3cqZAk">
+                  <property role="Xl_RC" value="(?)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3u2Kpz" id="7iteTM74hIx" role="3F10Kt">
+          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-edgeRouting.html" />
+        </node>
+        <node concept="11LMrY" id="7iteTM76dBk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7iteTM70bkF" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F0A7n" id="2T42Bz29$uu" role="3EZMnx">
         <ref role="1NtTu8" to="2qld:2T42Bz29pRt" resolve="edgeRouting" />
+        <node concept="ljvvj" id="7iteTM70blu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="2T42Bz2wQYs" role="2iSdaV" />
     </node>

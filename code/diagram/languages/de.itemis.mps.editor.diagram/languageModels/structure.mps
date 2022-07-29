@@ -11,6 +11,11 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="5177162104569058199" name="jetbrains.mps.lang.resources.structure.HelpURL" flags="ng" index="1sEMCm">
+        <property id="5177162104569058200" name="url" index="1sEMCp" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
@@ -47,6 +52,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <child id="1780177113170204155" name="helpURL" index="bvy1s" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -1450,6 +1456,9 @@
       <ref role="20lvS9" node="2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
       <ref role="20ksaX" node="1MAkSr55XtW" resolve="config" />
     </node>
+    <node concept="1sEMCm" id="1FUCB8ocYka" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/algorithms/org-eclipse-elk-layered.html" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7k8PWDQd3nq">
     <property role="3GE5qa" value="layoutAlgorithm" />
@@ -2192,6 +2201,7 @@
     <node concept="25R33" id="2C8x_a2Qx7V" role="25R1y">
       <property role="3tVfz5" value="3028818438347428347" />
       <property role="TrG5h" value="UNDEFINED" />
+      <property role="1L1pqM" value="NO DIRECTION" />
     </node>
   </node>
   <node concept="25R3W" id="7WTFIQIcYq9">
@@ -2359,6 +2369,9 @@
       <property role="IQ2nx" value="3028818438354318280" />
       <property role="TrG5h" value="cycleBreakingStrategy" />
       <ref role="AX2Wp" node="2C8x_a3gNfb" resolve="CycleBreakingStrategy" />
+    </node>
+    <node concept="1sEMCm" id="1FUCB8od_g0" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
     </node>
   </node>
   <node concept="25R3W" id="2T42Bz29pU4">

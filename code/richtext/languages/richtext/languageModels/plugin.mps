@@ -1197,7 +1197,7 @@
   </node>
   <node concept="sE7Ow" id="6wQWU6AOinG">
     <property role="TrG5h" value="DeleteToWordEnd" />
-    <property role="2uzpH1" value="Delete to Word End (mine)" />
+    <property role="2uzpH1" value="Delete to Word End" />
     <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="1DS2jV" id="6wQWU6AOinH" role="1NuT2Z">
       <property role="TrG5h" value="editorComponent" />
@@ -1350,7 +1350,7 @@
   </node>
   <node concept="sE7Ow" id="6wQWU6AQXH$">
     <property role="TrG5h" value="DeleteToWordStart" />
-    <property role="2uzpH1" value="Delete to Word Start (mine)" />
+    <property role="2uzpH1" value="Delete to Word Start" />
     <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="1DS2jV" id="6wQWU6AQXH_" role="1NuT2Z">
       <property role="TrG5h" value="editorComponent" />
@@ -1523,7 +1523,7 @@
         <node concept="3clFbF" id="6wQWU6ARegS" role="3cqZAp">
           <node concept="2ZW3vV" id="6wQWU6ARegT" role="3clFbG">
             <node concept="3uibUv" id="6wQWU6ARegU" role="2ZW6by">
-              <ref role="3uigEE" to="93vl:5lTqPuSd937" resolve="EditorCell_Word" />
+              <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
             </node>
             <node concept="2OqwBi" id="6wQWU6ARegV" role="2ZW6bz">
               <node concept="2OqwBi" id="6wQWU6ARegW" role="2Oq$k0">
@@ -1578,24 +1578,24 @@
     </node>
     <node concept="2ScWuX" id="6wQWU6AReWB" role="tmbBb">
       <node concept="3clFbS" id="6wQWU6AReWC" role="2VODD2">
-        <node concept="3clFbF" id="6wQWU6AReWD" role="3cqZAp">
-          <node concept="2ZW3vV" id="6wQWU6AReWE" role="3clFbG">
-            <node concept="3uibUv" id="6wQWU6AReWF" role="2ZW6by">
-              <ref role="3uigEE" to="93vl:5lTqPuSd937" resolve="EditorCell_Word" />
+        <node concept="3clFbF" id="24Qe2DSsWKk" role="3cqZAp">
+          <node concept="2ZW3vV" id="24Qe2DSsWKl" role="3clFbG">
+            <node concept="3uibUv" id="24Qe2DSsWKm" role="2ZW6by">
+              <ref role="3uigEE" to="f4zo:~EditorCell_Label" resolve="EditorCell_Label" />
             </node>
-            <node concept="2OqwBi" id="6wQWU6AReWG" role="2ZW6bz">
-              <node concept="2OqwBi" id="6wQWU6AReWH" role="2Oq$k0">
-                <node concept="2OqwBi" id="6wQWU6AReWI" role="2Oq$k0">
-                  <node concept="2WthIp" id="6wQWU6AReWJ" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="6wQWU6AReWK" role="2OqNvi">
+            <node concept="2OqwBi" id="24Qe2DSsWKn" role="2ZW6bz">
+              <node concept="2OqwBi" id="24Qe2DSsWKo" role="2Oq$k0">
+                <node concept="2OqwBi" id="24Qe2DSsWKp" role="2Oq$k0">
+                  <node concept="2WthIp" id="24Qe2DSsWKq" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="24Qe2DSsWKr" role="2OqNvi">
                     <ref role="2WH_rO" node="6wQWU6AReWs" resolve="editorComponent" />
                   </node>
                 </node>
-                <node concept="liA8E" id="6wQWU6AReWL" role="2OqNvi">
+                <node concept="liA8E" id="24Qe2DSsWKs" role="2OqNvi">
                   <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
                 </node>
               </node>
-              <node concept="liA8E" id="6wQWU6AReWM" role="2OqNvi">
+              <node concept="liA8E" id="24Qe2DSsWKt" role="2OqNvi">
                 <ref role="37wK5l" to="exr9:~EditorContext.getSelectedCell()" resolve="getSelectedCell" />
               </node>
             </node>

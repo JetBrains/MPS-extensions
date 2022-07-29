@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
@@ -15,6 +16,8 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" />
     <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
+    <import index="u8j" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -61,6 +64,9 @@
       <concept id="1164914519156" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceNode_CustomNodeConcept" flags="ng" index="UkePV">
         <reference id="1164914727930" name="replacementConcept" index="Ul1FP" />
       </concept>
+      <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
+        <child id="1186402402630" name="styles" index="V601i" />
+      </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
       </concept>
@@ -75,6 +81,9 @@
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
+      <concept id="1186414999511" name="jetbrains.mps.lang.editor.structure.UnderlinedStyleClassItem" flags="ln" index="VQ3r3">
+        <property id="1214316229833" name="underlined" index="2USNnj" />
+      </concept>
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
@@ -100,6 +109,13 @@
       </concept>
       <concept id="1165424657443" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item_Handler" flags="in" index="1oIgkG" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="3982520150113085419" name="jetbrains.mps.lang.editor.structure.StyleAttributeDeclaration" flags="ig" index="3t5Usi">
+        <child id="3982520150113147643" name="defaultValue" index="3t49C2" />
+        <child id="3982520150113092206" name="valueType" index="3t5Oan" />
+      </concept>
+      <concept id="6681408443912431607" name="jetbrains.mps.lang.editor.structure.URLStyleClassItem" flags="ln" index="3u2Kpz">
+        <property id="6681408443912457593" name="url" index="3u2UNH" />
+      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
@@ -155,6 +171,10 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
@@ -187,6 +207,9 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -3987,6 +4010,9 @@
       </node>
       <node concept="l2Vlx" id="7k8PWDQb2bd" role="2iSdaV" />
     </node>
+    <node concept="3F1sOY" id="1MAkSr55XzJ" role="6VMZX">
+      <ref role="1NtTu8" to="2qld:2T42Bz2wR7T" resolve="config" />
+    </node>
   </node>
   <node concept="24kQdi" id="7k8PWDQd3rm">
     <property role="3GE5qa" value="layoutAlgorithm" />
@@ -3996,6 +4022,9 @@
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="l2Vlx" id="7k8PWDQd3rr" role="2iSdaV" />
+    </node>
+    <node concept="3F1sOY" id="2T42Bz2C1bf" role="6VMZX">
+      <ref role="1NtTu8" to="2qld:1MAkSr55XtW" resolve="config" />
     </node>
   </node>
   <node concept="PKFIW" id="6clvLV1rFa$">
@@ -5225,6 +5254,250 @@
         <node concept="2iRfu4" id="5wo2$NmYEzx" role="2iSdaV" />
       </node>
       <node concept="2EHx9g" id="5wo2$NmYEzy" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="V5hpn" id="1MAkSr5clAu">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="DiagramLayoutAttributes" />
+    <node concept="3t5Usi" id="1MAkSr5clB1" role="V601i">
+      <property role="TrG5h" value="__layout-subdiagram-direction" />
+      <node concept="3uibUv" id="2C8x_a2N_zX" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~Direction" resolve="Direction" />
+      </node>
+      <node concept="Rm8GO" id="1MAkSr51ITK" role="3t49C2">
+        <ref role="1Px2BO" to="gwyy:~Direction" resolve="Direction" />
+        <ref role="Rm8GQ" to="gwyy:~Direction.RIGHT" resolve="RIGHT" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="2C8x_a3gNh6" role="V601i">
+      <property role="TrG5h" value="__layout-cycle-breaking-strategy" />
+      <node concept="3uibUv" id="2C8x_a3gN$V" role="3t5Oan">
+        <ref role="3uigEE" to="u8j:~CycleBreakingStrategy" resolve="CycleBreakingStrategy" />
+      </node>
+      <node concept="Rm8GO" id="2C8x_a3gQQi" role="3t49C2">
+        <ref role="Rm8GQ" to="u8j:~CycleBreakingStrategy.GREEDY" resolve="GREEDY" />
+        <ref role="1Px2BO" to="u8j:~CycleBreakingStrategy" resolve="CycleBreakingStrategy" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="2C8x_a3rKJB" role="V601i">
+      <property role="TrG5h" value="__layout-hierachy-include-children" />
+      <node concept="3uibUv" id="64PP31wF0u7" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~HierarchyHandling" resolve="HierarchyHandling" />
+      </node>
+      <node concept="Rm8GO" id="64PP31wF0vd" role="3t49C2">
+        <ref role="Rm8GQ" to="gwyy:~HierarchyHandling.SEPARATE_CHILDREN" resolve="SEPARATE_CHILDREN" />
+        <ref role="1Px2BO" to="gwyy:~HierarchyHandling" resolve="HierarchyHandling" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="2T42Bz29_7T" role="V601i">
+      <property role="TrG5h" value="__layout-edge-routing" />
+      <node concept="3uibUv" id="2T42Bz29_8_" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~EdgeRouting" resolve="EdgeRouting" />
+      </node>
+      <node concept="Rm8GO" id="2T42Bz29_9F" role="3t49C2">
+        <ref role="Rm8GQ" to="gwyy:~EdgeRouting.UNDEFINED" resolve="UNDEFINED" />
+        <ref role="1Px2BO" to="gwyy:~EdgeRouting" resolve="EdgeRouting" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2T42Bz2wR0k">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <ref role="1XX52x" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
+    <node concept="3EZMnI" id="2T42Bz2wR1l" role="2wV5jI">
+      <node concept="PMmxH" id="2T42Bz2wR1s" role="3EZMnx">
+        <ref role="PMmxG" node="2T42Bz2wQXo" resolve="BaseLayoutConfig" />
+      </node>
+      <node concept="3F0ifn" id="2T42Bz2wR1u" role="3EZMnx">
+        <property role="3F0ifm" value="Layered config:" />
+        <node concept="pVoyu" id="2T42Bz2wR1$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="2T42Bz2wR1A" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="2T42Bz2Av7t" role="3F10Kt" />
+        <node concept="VQ3r3" id="2T42Bz2AYpN" role="3F10Kt">
+          <property role="2USNnj" value="gtbM8PH/underlined" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2C8x_a3622S" role="3EZMnx">
+        <property role="3F0ifm" value="Subdiagram direction" />
+        <node concept="pVoyu" id="2C8x_a3622Z" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="2T42Bz2Av7_" role="3F10Kt" />
+      </node>
+      <node concept="1HlG4h" id="7iteTM76OFN" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        <node concept="1HfYo3" id="7iteTM76OFO" role="1HlULh">
+          <node concept="3TQlhw" id="7iteTM76OFP" role="1Hhtcw">
+            <node concept="3clFbS" id="7iteTM76OFQ" role="2VODD2">
+              <node concept="3cpWs6" id="7iteTM76OFR" role="3cqZAp">
+                <node concept="Xl_RD" id="7iteTM76OFS" role="3cqZAk">
+                  <property role="Xl_RC" value="(?)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3u2Kpz" id="7iteTM76OFT" role="3F10Kt">
+          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-direction.html" />
+        </node>
+        <node concept="11LMrY" id="7iteTM76OFU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7iteTM70bpm" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="2C8x_a2NO7Y" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:1MAkSr5clWS" resolve="subdiagramDirection" />
+        <node concept="ljvvj" id="7iteTM70bqZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2C8x_a3gNgt" role="3EZMnx">
+        <property role="3F0ifm" value="Cycle breaking strategy" />
+        <node concept="pVoyu" id="2C8x_a3gNgT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="2T42Bz2Av7G" role="3F10Kt" />
+      </node>
+      <node concept="1HlG4h" id="7iteTM76OLD" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        <node concept="1HfYo3" id="7iteTM76OLE" role="1HlULh">
+          <node concept="3TQlhw" id="7iteTM76OLF" role="1Hhtcw">
+            <node concept="3clFbS" id="7iteTM76OLG" role="2VODD2">
+              <node concept="3cpWs6" id="7iteTM76OLH" role="3cqZAp">
+                <node concept="Xl_RD" id="7iteTM76OLI" role="3cqZAk">
+                  <property role="Xl_RC" value="(?)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3u2Kpz" id="7iteTM76OLJ" role="3F10Kt">
+          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-layered-cycleBreaking-strategy.html" />
+        </node>
+        <node concept="11LMrY" id="7iteTM76OLK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7iteTM70boe" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="2C8x_a3gNgJ" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2C8x_a3gNf8" resolve="cycleBreakingStrategy" />
+        <node concept="ljvvj" id="7iteTM70br4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2T42Bz2wR1x" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1MAkSr55Xu5">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <ref role="1XX52x" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="3EZMnI" id="1MAkSr55Xua" role="2wV5jI">
+      <node concept="PMmxH" id="2T42Bz2wQZd" role="3EZMnx">
+        <ref role="PMmxG" node="2T42Bz2wQXo" resolve="BaseLayoutConfig" />
+      </node>
+      <node concept="3F0ifn" id="2C8x_a36238" role="3EZMnx">
+        <node concept="pVoyu" id="2C8x_a3623g" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2C8x_a3622H" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="2T42Bz2wQXo">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="BaseLayoutConfig" />
+    <ref role="1XX52x" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="3EZMnI" id="2T42Bz2wQYp" role="2wV5jI">
+      <node concept="3F0ifn" id="2T42Bz2wQYr" role="3EZMnx">
+        <property role="3F0ifm" value="Base config:" />
+        <node concept="ljvvj" id="2T42Bz2wQYw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="2T42Bz2Av8D" role="3F10Kt" />
+        <node concept="VQ3r3" id="2T42Bz2AYoN" role="3F10Kt">
+          <property role="2USNnj" value="gtbM8PH/underlined" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2C8x_a3rNsY" role="3EZMnx">
+        <property role="3F0ifm" value="Hierarchy handling" />
+        <node concept="pVoyu" id="2C8x_a3rNta" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="2T42Bz2Av8K" role="3F10Kt" />
+      </node>
+      <node concept="1HlG4h" id="7iteTM731gE" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        <node concept="1HfYo3" id="7iteTM731gG" role="1HlULh">
+          <node concept="3TQlhw" id="7iteTM731gI" role="1Hhtcw">
+            <node concept="3clFbS" id="7iteTM731gK" role="2VODD2">
+              <node concept="3cpWs6" id="7iteTM731mc" role="3cqZAp">
+                <node concept="Xl_RD" id="7iteTM731rf" role="3cqZAk">
+                  <property role="Xl_RC" value="(?)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3u2Kpz" id="7iteTM731lK" role="3F10Kt">
+          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-hierarchyHandling.html" />
+        </node>
+        <node concept="11LMrY" id="7iteTM76OFj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7iteTM6XQWZ" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="2C8x_a3rNtB" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2C8x_a3rNsJ" resolve="hierarchyHandling" />
+        <node concept="ljvvj" id="7iteTM6XQXv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2T42Bz29$tH" role="3EZMnx">
+        <property role="3F0ifm" value="Edge routing" />
+        <node concept="pVoyu" id="7iteTM70blr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPM3Z" id="2T42Bz2Av8O" role="3F10Kt" />
+      </node>
+      <node concept="1HlG4h" id="7iteTM74hIr" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+        <node concept="1HfYo3" id="7iteTM74hIs" role="1HlULh">
+          <node concept="3TQlhw" id="7iteTM74hIt" role="1Hhtcw">
+            <node concept="3clFbS" id="7iteTM74hIu" role="2VODD2">
+              <node concept="3cpWs6" id="7iteTM74hIv" role="3cqZAp">
+                <node concept="Xl_RD" id="7iteTM74hIw" role="3cqZAk">
+                  <property role="Xl_RC" value="(?)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3u2Kpz" id="7iteTM74hIx" role="3F10Kt">
+          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-edgeRouting.html" />
+        </node>
+        <node concept="11LMrY" id="7iteTM76dBk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7iteTM70bkF" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="2T42Bz29$uu" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:2T42Bz29pRt" resolve="edgeRouting" />
+        <node concept="ljvvj" id="7iteTM70blu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2T42Bz2wQYs" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="6ug9lnMIdEd">

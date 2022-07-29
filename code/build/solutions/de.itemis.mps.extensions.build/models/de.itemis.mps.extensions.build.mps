@@ -1659,6 +1659,9 @@
       <node concept="m$_yC" id="7szUFELHk3g" role="m$_yJ">
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
+      <node concept="m$_yC" id="7szUFELOg4w" role="m$_yJ">
+        <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
+      </node>
       <node concept="3_J27D" id="7szUFELHeHn" role="m_cZH">
         <node concept="3Mxwew" id="7szUFELHeHo" role="3MwsjC">
           <property role="3MwjfP" value="de.itemis.mps.editor.widgets" />
@@ -1672,9 +1675,6 @@
         <node concept="3Mxwew" id="2QgPOUCCDkN" role="3MwsjC">
           <property role="3MwjfP" value="A library of widgets (checkbox, dropdown, etc.) that can be used in MPS editors" />
         </node>
-      </node>
-      <node concept="m$_yC" id="7szUFELOg4w" role="m$_yJ">
-        <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
       </node>
     </node>
     <node concept="2G$12M" id="7szUFELHfAe" role="3989C9">
@@ -2233,6 +2233,11 @@
             <ref role="3bR37D" node="7TpiM9SsCWu" resolve="de.itemis.mps.mouselistener.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="32XuThjIW2J" role="3bR37C">
+          <node concept="3bR9La" id="32XuThjIW2K" role="1SiIV1">
+            <ref role="3bR37D" node="6$BmuzArJZq" resolve="de.itemis.mps.tooltips.runtime" />
+          </node>
+        </node>
         <node concept="3rtmxn" id="3xFG3bj5MmJ" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5MmK" role="3rtmxm">
             <node concept="3qWCbU" id="3xFG3bj5MmL" role="3LXTna">
@@ -2275,11 +2280,6 @@
             <node concept="3qWCbU" id="2eucapX07K7" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="32XuThjIW2J" role="3bR37C">
-          <node concept="3bR9La" id="32XuThjIW2K" role="1SiIV1">
-            <ref role="3bR37D" node="6$BmuzArJZq" resolve="de.itemis.mps.tooltips.runtime" />
           </node>
         </node>
       </node>
@@ -5006,6 +5006,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2C8x_a2N_PE" role="3bR37C">
+          <node concept="3bR9La" id="2C8x_a2N_PF" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
           </node>
         </node>
         <node concept="1SiIV0" id="3JvidvJvDr_" role="3bR37C">

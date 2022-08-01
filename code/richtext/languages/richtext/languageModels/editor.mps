@@ -2779,7 +2779,7 @@
                             <node concept="3clFbS" id="3746LTsrSIN" role="3clF47">
                               <node concept="3clFbF" id="3746LTsrSIQ" role="3cqZAp">
                                 <node concept="Xl_RD" id="3746LTsxE5f" role="3clFbG">
-                                  <property role="Xl_RC" value="Select up" />
+                                  <property role="Xl_RC" value="Select Up" />
                                 </node>
                               </node>
                             </node>
@@ -3034,7 +3034,7 @@
                             <node concept="3clFbS" id="3746LTsxHPc" role="3clF47">
                               <node concept="3clFbF" id="3746LTsxHPd" role="3cqZAp">
                                 <node concept="Xl_RD" id="3746LTsxHPe" role="3clFbG">
-                                  <property role="Xl_RC" value="Select down" />
+                                  <property role="Xl_RC" value="Select Down" />
                                 </node>
                               </node>
                             </node>
@@ -3834,7 +3834,7 @@
         <node concept="3clFbS" id="5G6qJwLb0ad" role="3clF47">
           <node concept="3clFbF" id="5G6qJwLb0ae" role="3cqZAp">
             <node concept="Xl_RD" id="5G6qJwLb0af" role="3clFbG">
-              <property role="Xl_RC" value="Paste text" />
+              <property role="Xl_RC" value="Paste Text" />
             </node>
           </node>
         </node>
@@ -3997,7 +3997,7 @@
         <node concept="3clFbS" id="5$0zg9fE3tJ" role="3clF47">
           <node concept="3clFbF" id="5$0zg9fE3tK" role="3cqZAp">
             <node concept="Xl_RD" id="5$0zg9fE3tL" role="3clFbG">
-              <property role="Xl_RC" value="Copy all the text" />
+              <property role="Xl_RC" value="Copy all the Text" />
             </node>
           </node>
         </node>
@@ -7472,7 +7472,7 @@
         <node concept="3clFbS" id="5lBiF1AymBe" role="3clF47">
           <node concept="3clFbF" id="5lBiF1AytZ6" role="3cqZAp">
             <node concept="Xl_RD" id="5lBiF1AytZ5" role="3clFbG">
-              <property role="Xl_RC" value="Select to start of line" />
+              <property role="Xl_RC" value="Select to Start of Line" />
             </node>
           </node>
         </node>
@@ -7656,7 +7656,7 @@
         <node concept="3clFbS" id="5lBiF1A_c60" role="3clF47">
           <node concept="3clFbF" id="5lBiF1A_c61" role="3cqZAp">
             <node concept="Xl_RD" id="5lBiF1A_c62" role="3clFbG">
-              <property role="Xl_RC" value="Select to end of line" />
+              <property role="Xl_RC" value="Select to End of Line" />
             </node>
           </node>
         </node>

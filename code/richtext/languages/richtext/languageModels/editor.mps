@@ -5927,6 +5927,35 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3746LTsraRD" role="3cqZAp">
+          <node concept="2OqwBi" id="3746LTsraRF" role="3clFbG">
+            <node concept="2OqwBi" id="3746LTsraRG" role="2Oq$k0">
+              <node concept="2OqwBi" id="3746LTsraRH" role="2Oq$k0">
+                <node concept="2OqwBi" id="3746LTsraRI" role="2Oq$k0">
+                  <node concept="37vLTw" id="3746LTsraRJ" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5$0zg9fBa4_" resolve="context" />
+                  </node>
+                  <node concept="liA8E" id="3746LTsraRK" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3746LTsraRL" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3746LTsraRM" role="2OqNvi">
+                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3746LTsraRN" role="2OqNvi">
+              <ref role="37wK5l" to="lwvz:~Selection.executeAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="executeAction" />
+              <node concept="Rm8GO" id="3746LTsrbh_" role="37wK5m">
+                <ref role="Rm8GQ" to="f4zo:~CellActionType.END" resolve="END" />
+                <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="24Qe2DSwZVV" role="3cqZAp">
           <node concept="2OqwBi" id="24Qe2DSwZVW" role="3clFbG">
             <node concept="2OqwBi" id="24Qe2DSwZVX" role="2Oq$k0">

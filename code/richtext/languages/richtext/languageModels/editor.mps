@@ -1885,20 +1885,30 @@
                   </node>
                 </node>
               </node>
-              <node concept="22lmx$" id="5pfU$MGs2Hg" role="3clFbw">
-                <node concept="2ZW3vV" id="5pfU$MGs6ps" role="3uHU7w">
-                  <node concept="3uibUv" id="5pfU$MGs6pF" role="2ZW6by">
-                    <ref role="3uigEE" to="3ahc:~EmptyCellAction" resolve="EmptyCellAction" />
+              <node concept="22lmx$" id="3746LTsffcm" role="3clFbw">
+                <node concept="2ZW3vV" id="3746LTsfiIn" role="3uHU7w">
+                  <node concept="3uibUv" id="3746LTsfkv2" role="2ZW6by">
+                    <ref role="3uigEE" to="3ahc:~AbstractCellAction" resolve="AbstractCellAction" />
                   </node>
-                  <node concept="37vLTw" id="5pfU$MGs2HT" role="2ZW6bz">
+                  <node concept="37vLTw" id="3746LTsfggi" role="2ZW6bz">
                     <ref role="3cqZAo" node="5pfU$MGs27c" resolve="prevAction" />
                   </node>
                 </node>
-                <node concept="3clFbC" id="5pfU$MGs2$W" role="3uHU7B">
-                  <node concept="37vLTw" id="5pfU$MGs27h" role="3uHU7B">
-                    <ref role="3cqZAo" node="5pfU$MGs27c" resolve="prevAction" />
+                <node concept="22lmx$" id="5pfU$MGs2Hg" role="3uHU7B">
+                  <node concept="3clFbC" id="5pfU$MGs2$W" role="3uHU7B">
+                    <node concept="37vLTw" id="5pfU$MGs27h" role="3uHU7B">
+                      <ref role="3cqZAo" node="5pfU$MGs27c" resolve="prevAction" />
+                    </node>
+                    <node concept="10Nm6u" id="5pfU$MGs2_r" role="3uHU7w" />
                   </node>
-                  <node concept="10Nm6u" id="5pfU$MGs2_r" role="3uHU7w" />
+                  <node concept="2ZW3vV" id="5pfU$MGs6ps" role="3uHU7w">
+                    <node concept="3uibUv" id="5pfU$MGs6pF" role="2ZW6by">
+                      <ref role="3uigEE" to="3ahc:~EmptyCellAction" resolve="EmptyCellAction" />
+                    </node>
+                    <node concept="37vLTw" id="5pfU$MGs2HT" role="2ZW6bz">
+                      <ref role="3cqZAo" node="5pfU$MGs27c" resolve="prevAction" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -4723,7 +4733,7 @@
         <node concept="3clFbS" id="6wQWU6AFtyy" role="3clF47">
           <node concept="3clFbF" id="6wQWU6AFtyz" role="3cqZAp">
             <node concept="Xl_RD" id="6wQWU6AFty$" role="3clFbG">
-              <property role="Xl_RC" value="Delete to Word End (rich)" />
+              <property role="Xl_RC" value="Delete to Word End" />
             </node>
           </node>
         </node>

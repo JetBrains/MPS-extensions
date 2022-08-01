@@ -1,9 +1,9 @@
 
 plugins {
     id 'maven-publish'
-    id 'org.jetbrains.kotlin.multiplatform' version '1.4.31'
-    id 'com.diffplug.gradle.spotless' version '4.5.1'
-    id 'org.jlleitschuh.gradle.ktlint' version '10.2.1'
+    id 'org.jetbrains.kotlin.multiplatform' version '1.7.10'
+    id 'com.diffplug.spotless' version '6.8.0'
+    id 'org.jlleitschuh.gradle.ktlint' version '10.3.0'
     id 'java-library'
     id 'jacoco'
 }
@@ -24,7 +24,7 @@ repositories {
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }
 
@@ -117,7 +117,7 @@ spotless {
 }
 
 task copyJarsToMps(type: Sync) {
-    from configurations.jvmDefault
+    from configurations.jvmRuntimeClasspath
     from "$buildDir/libs"
     into "$projectDir/../code/model-api/org.modelix.model.api/lib"
     rename { fileName ->

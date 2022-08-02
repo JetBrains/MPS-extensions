@@ -286,6 +286,12 @@
         <child id="2490242408670937967" name="factoryMethod" index="3ZZHOD" />
       </concept>
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <property id="6332851714983843871" name="severity" index="2xdLsb" />
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -1062,28 +1068,6 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <node concept="3clFbS" id="2af7$rttluf" role="3clF47">
-        <node concept="3clFbF" id="5$0zg9fDxlZ" role="3cqZAp">
-          <node concept="2OqwBi" id="5$0zg9fDxIn" role="3clFbG">
-            <node concept="37vLTw" id="5$0zg9fDxlX" role="2Oq$k0">
-              <ref role="3cqZAo" node="2af7$rttlur" resolve="cell" />
-            </node>
-            <node concept="liA8E" id="5$0zg9fDy4I" role="2OqNvi">
-              <ref role="37wK5l" to="f4zo:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
-              <node concept="Rm8GO" id="5$0zg9fDzt2" role="37wK5m">
-                <ref role="Rm8GQ" to="f4zo:~CellActionType.COPY" resolve="COPY" />
-                <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
-              </node>
-              <node concept="2ShNRf" id="5$0zg9fEsRB" role="37wK5m">
-                <node concept="1pGfFk" id="5$0zg9fEtmg" role="2ShVmc">
-                  <ref role="37wK5l" node="5$0zg9fDQwj" resolve="TextCellModifier.CopyAction" />
-                  <node concept="37vLTw" id="5$0zg9fEtHb" role="37wK5m">
-                    <ref role="3cqZAo" node="2af7$rttlur" resolve="cell" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="5G6qJwLaSVt" role="3cqZAp">
           <node concept="2OqwBi" id="5G6qJwLaTkT" role="3clFbG">
             <node concept="37vLTw" id="5G6qJwLaSVr" role="2Oq$k0">
@@ -3651,6 +3635,22 @@
           </node>
         </node>
         <node concept="3clFbS" id="5$0zg9fDTwK" role="3clF47">
+          <node concept="2xdQw9" id="8ZBTVjpcF3" role="3cqZAp">
+            <property role="2xdLsb" value="gZ5fh_4/error" />
+            <node concept="3cpWs3" id="8ZBTVjpn0q" role="9lYJi">
+              <node concept="2OqwBi" id="8ZBTVjpv1C" role="3uHU7w">
+                <node concept="37vLTw" id="8ZBTVjprea" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5$0zg9fDTwH" resolve="context" />
+                </node>
+                <node concept="liA8E" id="8ZBTVjpyDm" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedCell()" resolve="getSelectedCell" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="8ZBTVjpcF5" role="3uHU7B">
+                <property role="Xl_RC" value="Context:" />
+              </node>
+            </node>
+          </node>
           <node concept="3cpWs8" id="5$0zg9fFKKx" role="3cqZAp">
             <node concept="3cpWsn" id="5$0zg9fFKK$" role="3cpWs9">
               <property role="TrG5h" value="firstLeaf" />

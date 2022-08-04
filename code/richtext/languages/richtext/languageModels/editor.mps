@@ -1962,6 +1962,14 @@
                 </node>
               </node>
               <node concept="22lmx$" id="3746LTsffcm" role="3clFbw">
+                <node concept="2ZW3vV" id="3746LTsfiIn" role="3uHU7w">
+                  <node concept="37vLTw" id="3746LTsfggi" role="2ZW6bz">
+                    <ref role="3cqZAo" node="5pfU$MGs27c" resolve="prevAction" />
+                  </node>
+                  <node concept="3uibUv" id="3746LTsfkv2" role="2ZW6by">
+                    <ref role="3uigEE" to="3ahc:~AbstractCellAction" resolve="AbstractCellAction" />
+                  </node>
+                </node>
                 <node concept="22lmx$" id="5pfU$MGs2Hg" role="3uHU7B">
                   <node concept="2ZW3vV" id="5pfU$MGs6ps" role="3uHU7w">
                     <node concept="37vLTw" id="5pfU$MGs2HT" role="2ZW6bz">
@@ -1976,14 +1984,6 @@
                       <ref role="3cqZAo" node="5pfU$MGs27c" resolve="prevAction" />
                     </node>
                     <node concept="10Nm6u" id="5pfU$MGs2_r" role="3uHU7w" />
-                  </node>
-                </node>
-                <node concept="2ZW3vV" id="3746LTsfiIn" role="3uHU7w">
-                  <node concept="3uibUv" id="3746LTsfkv2" role="2ZW6by">
-                    <ref role="3uigEE" to="3ahc:~AbstractCellAction" resolve="AbstractCellAction" />
-                  </node>
-                  <node concept="37vLTw" id="3746LTsfggi" role="2ZW6bz">
-                    <ref role="3cqZAo" node="5pfU$MGs27c" resolve="prevAction" />
                   </node>
                 </node>
               </node>
@@ -3657,33 +3657,43 @@
                   </node>
                   <node concept="liA8E" id="6sODEs9JW6C" role="2OqNvi">
                     <ref role="37wK5l" to="lwvz:~Selection.executeAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="executeAction" />
-                    <node concept="Rm8GO" id="6sODEs9JZpY" role="37wK5m">
+                    <node concept="Rm8GO" id="6sODEs9QH7M" role="37wK5m">
                       <ref role="Rm8GQ" to="f4zo:~CellActionType.DELETE" resolve="DELETE" />
                       <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="6sODEs9JB2Z" role="3cqZAp">
-                <node concept="2OqwBi" id="6sODEs9JB31" role="3clFbG">
-                  <node concept="2OqwBi" id="6sODEs9JB32" role="2Oq$k0">
-                    <node concept="2OqwBi" id="6sODEs9JB33" role="2Oq$k0">
-                      <node concept="37vLTw" id="6sODEs9JB34" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5G6qJwLb09B" resolve="context" />
+              <node concept="3clFbF" id="6sODEs9T3ZD" role="3cqZAp">
+                <node concept="2YIFZM" id="6sODEs9T7MT" role="3clFbG">
+                  <ref role="37wK5l" to="dxuu:~SwingUtilities.invokeLater(java.lang.Runnable)" resolve="invokeLater" />
+                  <ref role="1Pybhc" to="dxuu:~SwingUtilities" resolve="SwingUtilities" />
+                  <node concept="1bVj0M" id="6sODEs9T825" role="37wK5m">
+                    <node concept="3clFbS" id="6sODEs9T826" role="1bW5cS">
+                      <node concept="3clFbF" id="6sODEs9JB2Z" role="3cqZAp">
+                        <node concept="2OqwBi" id="6sODEs9JB31" role="3clFbG">
+                          <node concept="2OqwBi" id="6sODEs9JB32" role="2Oq$k0">
+                            <node concept="2OqwBi" id="6sODEs9JB33" role="2Oq$k0">
+                              <node concept="37vLTw" id="6sODEs9JB34" role="2Oq$k0">
+                                <ref role="3cqZAo" node="5G6qJwLb09B" resolve="context" />
+                              </node>
+                              <node concept="liA8E" id="6sODEs9JB35" role="2OqNvi">
+                                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectionManager()" resolve="getSelectionManager" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="6sODEs9JB36" role="2OqNvi">
+                              <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="6sODEs9JB37" role="2OqNvi">
+                            <ref role="37wK5l" to="lwvz:~Selection.executeAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="executeAction" />
+                            <node concept="Rm8GO" id="6sODEs9JB38" role="37wK5m">
+                              <ref role="Rm8GQ" to="f4zo:~CellActionType.PASTE" resolve="PASTE" />
+                              <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
+                            </node>
+                          </node>
+                        </node>
                       </node>
-                      <node concept="liA8E" id="6sODEs9JB35" role="2OqNvi">
-                        <ref role="37wK5l" to="cj4x:~EditorContext.getSelectionManager()" resolve="getSelectionManager" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="6sODEs9JB36" role="2OqNvi">
-                      <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="6sODEs9JB37" role="2OqNvi">
-                    <ref role="37wK5l" to="lwvz:~Selection.executeAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="executeAction" />
-                    <node concept="Rm8GO" id="6sODEs9JB38" role="37wK5m">
-                      <ref role="Rm8GQ" to="f4zo:~CellActionType.PASTE" resolve="PASTE" />
-                      <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
                     </node>
                   </node>
                 </node>

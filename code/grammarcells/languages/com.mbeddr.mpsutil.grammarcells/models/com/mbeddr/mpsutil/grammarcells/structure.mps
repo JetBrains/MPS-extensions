@@ -187,14 +187,20 @@
     <node concept="1TJgyj" id="6uixmKZ2FIJ" role="1TKVEi">
       <property role="IQ2ns" value="7463174232466963375" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="descriptionText" />
+      <property role="20kJfa" value="descriptionText_old" />
       <ref role="20lvS9" node="6uixmKZ2zuG" resolve="WrapperCell_DescriptionText" />
+      <node concept="asaX9" id="2l$VAMETgoS" role="lGtFl">
+        <property role="YLQ7P" value="Use descriptionText from ICanHaveDescriptionText" />
+      </node>
     </node>
     <node concept="PrWs8" id="6oKG1kMyAVP" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
     <node concept="PrWs8" id="3O7ZvCZLRkq" role="PzmwI">
       <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
+    </node>
+    <node concept="PrWs8" id="2l$VAMETgoU" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
     </node>
   </node>
   <node concept="PlHQZ" id="6oKG1kMyAVO">
@@ -993,6 +999,9 @@
     <property role="TrG5h" value="WrapperCell_DescriptionText" />
     <property role="EcuMT" value="7463174232466929580" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="asaX9" id="2l$VAMF1BI2" role="lGtFl">
+      <property role="YLQ7P" value="Use IHaveHaveDescription instead" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6uixmKZ2zAm">
     <property role="3GE5qa" value="cells" />

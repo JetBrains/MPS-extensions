@@ -1053,6 +1053,218 @@
         <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
       </node>
     </node>
+    <node concept="13i0hz" id="2l$VAMEXUZ3" role="13h7CS">
+      <property role="TrG5h" value="getDescriptionFunctionParameters" />
+      <ref role="13i0hy" node="2l$VAMESpmP" resolve="getDescriptionFunctionParameters" />
+      <node concept="3Tm1VV" id="2l$VAMEXUZ4" role="1B3o_S" />
+      <node concept="3clFbS" id="2l$VAMEXUZw" role="3clF47">
+        <node concept="3cpWs8" id="2l$VAMEXVf7" role="3cqZAp">
+          <node concept="3cpWsn" id="2l$VAMEXVf8" role="3cpWs9">
+            <property role="TrG5h" value="params" />
+            <node concept="_YKpA" id="2l$VAMEXVf9" role="1tU5fm">
+              <node concept="3bZ5Sz" id="2l$VAMEXVfa" role="_ZDj9">
+                <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="2l$VAMEXVfb" role="33vP2m">
+              <node concept="Tc6Ow" id="2l$VAMEXVfc" role="2ShVmc">
+                <node concept="3bZ5Sz" id="2l$VAMEXVfd" role="HW$YZ">
+                  <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2l$VAMEXVfe" role="3cqZAp" />
+        <node concept="3clFbF" id="2l$VAMEXVff" role="3cqZAp">
+          <node concept="2OqwBi" id="2l$VAMEXVfg" role="3clFbG">
+            <node concept="37vLTw" id="2l$VAMEXVfh" role="2Oq$k0">
+              <ref role="3cqZAo" node="2l$VAMEXVf8" resolve="params" />
+            </node>
+            <node concept="TSZUe" id="2l$VAMEXVfi" role="2OqNvi">
+              <node concept="35c_gC" id="2l$VAMEXVfj" role="25WWJ7">
+                <ref role="35c_gD" to="teg0:1Ia5rYl_yXg" resolve="WrapperCell_Condition_wrappedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2l$VAMEXVfk" role="3cqZAp">
+          <node concept="2OqwBi" id="2l$VAMEXVfl" role="3clFbG">
+            <node concept="37vLTw" id="2l$VAMEXVfm" role="2Oq$k0">
+              <ref role="3cqZAo" node="2l$VAMEXVf8" resolve="params" />
+            </node>
+            <node concept="TSZUe" id="2l$VAMEXVfn" role="2OqNvi">
+              <node concept="35c_gC" id="2l$VAMEXVfo" role="25WWJ7">
+                <ref role="35c_gD" to="teg0:1ZlHRbijA01" resolve="WrapperCell_Condition_wrappedConcept" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2l$VAMEXVfp" role="3cqZAp">
+          <node concept="2OqwBi" id="2l$VAMEXVfq" role="3clFbG">
+            <node concept="37vLTw" id="2l$VAMEXVfr" role="2Oq$k0">
+              <ref role="3cqZAo" node="2l$VAMEXVf8" resolve="params" />
+            </node>
+            <node concept="TSZUe" id="2l$VAMEXVfs" role="2OqNvi">
+              <node concept="35c_gC" id="2l$VAMEXVft" role="25WWJ7">
+                <ref role="35c_gD" to="teg0:2uT2PLmXmjz" resolve="Parameter_SubConcept" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2l$VAMEXVfu" role="3cqZAp">
+          <node concept="2OqwBi" id="2l$VAMEXVfv" role="3clFbG">
+            <node concept="37vLTw" id="2l$VAMEXVfw" role="2Oq$k0">
+              <ref role="3cqZAo" node="2l$VAMEXVf8" resolve="params" />
+            </node>
+            <node concept="TSZUe" id="2l$VAMEXVfx" role="2OqNvi">
+              <node concept="35c_gC" id="2l$VAMEXVfy" role="25WWJ7">
+                <ref role="35c_gD" to="teg0:6uixmKZ2zAm" resolve="Parameter_OriginalText" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2l$VAMEXVfz" role="3cqZAp" />
+        <node concept="3SKdUt" id="2l$VAMEXVf$" role="3cqZAp">
+          <node concept="1PaTwC" id="2l$VAMEXVf_" role="1aUNEU">
+            <node concept="3oM_SD" id="2l$VAMEXVfA" role="1PaTwD">
+              <property role="3oM_SC" value="add" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfB" role="1PaTwD">
+              <property role="3oM_SC" value="smartRef" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfC" role="1PaTwD">
+              <property role="3oM_SC" value="parameter" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfD" role="1PaTwD">
+              <property role="3oM_SC" value="only" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfE" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfF" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfG" role="1PaTwD">
+              <property role="3oM_SC" value="wrapped" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfH" role="1PaTwD">
+              <property role="3oM_SC" value="concept" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfI" role="1PaTwD">
+              <property role="3oM_SC" value="has" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfJ" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfK" role="1PaTwD">
+              <property role="3oM_SC" value="smart" />
+            </node>
+            <node concept="3oM_SD" id="2l$VAMEXVfL" role="1PaTwD">
+              <property role="3oM_SC" value="reference" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2l$VAMEXVfM" role="3cqZAp">
+          <node concept="3cpWsn" id="2l$VAMEXVfN" role="3cpWs9">
+            <property role="TrG5h" value="wrappedConcept" />
+            <node concept="3Tqbb2" id="2l$VAMEXVfO" role="1tU5fm">
+              <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="2l$VAMEXVfP" role="33vP2m">
+              <node concept="FGMqu" id="2l$VAMEXVfQ" role="2OqNvi" />
+              <node concept="2OqwBi" id="2l$VAMEXVfR" role="2Oq$k0">
+                <node concept="2OqwBi" id="2l$VAMEXVfS" role="2Oq$k0">
+                  <node concept="13iPFW" id="2l$VAMEXVfT" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="2l$VAMEXVfU" role="2OqNvi">
+                    <node concept="1xMEDy" id="2l$VAMEXVfV" role="1xVPHs">
+                      <node concept="chp4Y" id="2l$VAMEXVfW" role="ri$Ld">
+                        <ref role="cht4Q" to="teg0:6oKG1kMyo9t" resolve="WrapperCell" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="2l$VAMEXVfX" role="2OqNvi">
+                  <ref role="37wK5l" node="3O7ZvCZLQaC" resolve="getWrappedConcept" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="Jncv_" id="2l$VAMEXVfY" role="3cqZAp">
+          <ref role="JncvD" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          <node concept="37vLTw" id="2l$VAMEXVfZ" role="JncvB">
+            <ref role="3cqZAo" node="2l$VAMEXVfN" resolve="wrappedConcept" />
+          </node>
+          <node concept="3clFbS" id="2l$VAMEXVg0" role="Jncv$">
+            <node concept="3cpWs8" id="2l$VAMEXVg1" role="3cqZAp">
+              <node concept="3cpWsn" id="2l$VAMEXVg2" role="3cpWs9">
+                <property role="TrG5h" value="smartRefLink" />
+                <node concept="3Tqbb2" id="2l$VAMEXVg3" role="1tU5fm">
+                  <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+                </node>
+                <node concept="2YIFZM" id="2l$VAMEXVg4" role="33vP2m">
+                  <ref role="1Pybhc" to="twe9:1yWNr0biLwW" resolve="SmartRefAttributeUtil" />
+                  <ref role="37wK5l" to="twe9:6vCx0seF9Xh" resolve="getCharacteristicLinkDeclaration" />
+                  <node concept="Jnkvi" id="2l$VAMEXVg5" role="37wK5m">
+                    <ref role="1M0zk5" node="2l$VAMEXVgg" resolve="conceptDecl" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="2l$VAMEXVg6" role="3cqZAp">
+              <node concept="3clFbS" id="2l$VAMEXVg7" role="3clFbx">
+                <node concept="3clFbF" id="2l$VAMEXVg8" role="3cqZAp">
+                  <node concept="2OqwBi" id="2l$VAMEXVg9" role="3clFbG">
+                    <node concept="37vLTw" id="2l$VAMEXVga" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2l$VAMEXVf8" resolve="params" />
+                    </node>
+                    <node concept="TSZUe" id="2l$VAMEXVgb" role="2OqNvi">
+                      <node concept="35c_gC" id="2l$VAMEXVgc" role="25WWJ7">
+                        <ref role="35c_gD" to="teg0:2q0cFwEBOkL" resolve="Parameter_smartReferent" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2l$VAMEXVgd" role="3clFbw">
+                <node concept="37vLTw" id="2l$VAMEXVge" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2l$VAMEXVg2" resolve="smartRefLink" />
+                </node>
+                <node concept="3x8VRR" id="2l$VAMEXVgf" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="JncvC" id="2l$VAMEXVgg" role="JncvA">
+            <property role="TrG5h" value="conceptDecl" />
+            <node concept="2jxLKc" id="2l$VAMEXVgh" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2l$VAMEXVgi" role="3cqZAp" />
+        <node concept="3clFbF" id="2l$VAMEXVgj" role="3cqZAp">
+          <node concept="2OqwBi" id="2l$VAMEXVgk" role="3clFbG">
+            <node concept="37vLTw" id="2l$VAMEXVgl" role="2Oq$k0">
+              <ref role="3cqZAo" node="2l$VAMEXVf8" resolve="params" />
+            </node>
+            <node concept="TSZUe" id="2l$VAMEXVgm" role="2OqNvi">
+              <node concept="35c_gC" id="2l$VAMEXVgn" role="25WWJ7">
+                <ref role="35c_gD" to="teg0:2aaSxIgh9is" resolve="Parameter_editorContext" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2l$VAMEXVgo" role="3cqZAp">
+          <node concept="37vLTw" id="2l$VAMEXVgp" role="3clFbG">
+            <ref role="3cqZAo" node="2l$VAMEXVf8" resolve="params" />
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="2l$VAMEXUZx" role="3clF45">
+        <node concept="3bZ5Sz" id="2l$VAMEXUZy" role="_ZDj9">
+          <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="1Ia5rYl_Jpd">
     <property role="3GE5qa" value="cells" />

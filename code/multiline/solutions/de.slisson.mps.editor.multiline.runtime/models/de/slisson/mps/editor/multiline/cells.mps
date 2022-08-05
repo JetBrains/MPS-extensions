@@ -3164,6 +3164,27 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="4HT5NNDrTio" role="jymVt" />
+    <node concept="3clFb_" id="4HT5NNDskcA" role="jymVt">
+      <property role="TrG5h" value="lastCell" />
+      <node concept="3clFbS" id="4HT5NNDskcD" role="3clF47">
+        <node concept="3clFbF" id="4HT5NNDsqS3" role="3cqZAp">
+          <node concept="10QFUN" id="4HT5NNDsqS5" role="3clFbG">
+            <node concept="3uibUv" id="4HT5NNDsqS6" role="10QFUM">
+              <ref role="3uigEE" node="5lTqPuSd937" resolve="EditorCell_Word" />
+            </node>
+            <node concept="3nyPlj" id="4HT5NNDsqS7" role="10QFUP">
+              <ref role="37wK5l" to="g51k:~EditorCell_Collection.lastCell()" resolve="lastCell" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4HT5NNDs98X" role="1B3o_S" />
+      <node concept="3uibUv" id="4HT5NNDsjVz" role="3clF45">
+        <ref role="3uigEE" node="5lTqPuSd937" resolve="EditorCell_Word" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4HT5NNDs4AB" role="jymVt" />
     <node concept="3clFb_" id="2_D0AvWRp36" role="jymVt">
       <property role="TrG5h" value="getTextLength" />
       <node concept="10Oyi0" id="2_D0AvWRp3f" role="3clF45" />
@@ -3199,9 +3220,6 @@
           </node>
         </node>
         <node concept="2Gpval" id="4WdkpBdiStF" role="3cqZAp">
-          <node concept="1rXfSq" id="1rfeXz7xse8" role="2GsD0m">
-            <ref role="37wK5l" node="453OnIlrYX_" resolve="getWordCells" />
-          </node>
           <node concept="2GrKxI" id="4WdkpBdiStG" role="2Gsz3X">
             <property role="TrG5h" value="wordCell" />
           </node>
@@ -3219,6 +3237,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="1rXfSq" id="1rfeXz7xse8" role="2GsD0m">
+            <ref role="37wK5l" node="453OnIlrYX_" resolve="getWordCells" />
           </node>
         </node>
       </node>
@@ -10036,6 +10057,46 @@
             <ref role="3cqZAo" node="59YTMv9LjVr" resolve="result" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7rlNW38MqkC" role="jymVt" />
+    <node concept="2tJIrI" id="7rlNW38Ms_S" role="jymVt" />
+    <node concept="3clFb_" id="7rlNW38MC62" role="jymVt">
+      <property role="TrG5h" value="getCaretFromAbsolutePosition" />
+      <node concept="3clFbS" id="7rlNW38MC65" role="3clF47">
+        <node concept="3clFbF" id="7rlNW38Nez1" role="3cqZAp">
+          <node concept="3cpWsd" id="7rlNW38NhVU" role="3clFbG">
+            <node concept="37vLTw" id="7rlNW38NeyZ" role="3uHU7B">
+              <ref role="3cqZAo" node="7rlNW38MEuz" resolve="absolutePos" />
+            </node>
+            <node concept="2OqwBi" id="7rlNW38Mb1h" role="3uHU7w">
+              <node concept="2OqwBi" id="7rlNW38MaVD" role="2Oq$k0">
+                <node concept="2OqwBi" id="7rlNW38MaVE" role="2Oq$k0">
+                  <node concept="Xjq3P" id="7rlNW38MVhe" role="2Oq$k0" />
+                  <node concept="liA8E" id="7rlNW38MaVI" role="2OqNvi">
+                    <ref role="37wK5l" node="6tLsdkfI427" resolve="getParent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7rlNW38MaVJ" role="2OqNvi">
+                  <ref role="37wK5l" node="6tLsdkfIE9c" resolve="getTextBefore" />
+                  <node concept="Xjq3P" id="7rlNW38N2oE" role="37wK5m" />
+                  <node concept="3cmrfG" id="7rlNW38MaVN" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="7rlNW38Mb$p" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7rlNW38MzMq" role="1B3o_S" />
+      <node concept="10Oyi0" id="7rlNW38MBqA" role="3clF45" />
+      <node concept="37vLTG" id="7rlNW38MEuz" role="3clF46">
+        <property role="TrG5h" value="absolutePos" />
+        <node concept="10Oyi0" id="7rlNW38MEuy" role="1tU5fm" />
       </node>
     </node>
   </node>

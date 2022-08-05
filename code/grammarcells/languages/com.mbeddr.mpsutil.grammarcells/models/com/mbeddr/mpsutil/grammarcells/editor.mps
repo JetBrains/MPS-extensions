@@ -2440,7 +2440,7 @@
   <node concept="PKFIW" id="J6gp_6ycIY">
     <property role="3GE5qa" value="cells" />
     <property role="TrG5h" value="DescriptionText" />
-    <ref role="1XX52x" to="teg0:J6gp_6ycpK" resolve="IOptionalDescriptionText" />
+    <ref role="1XX52x" to="teg0:J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
     <node concept="3EZMnI" id="J6gp_6ycJ0" role="2wV5jI">
       <node concept="3F0ifn" id="J6gp_6ycJ1" role="3EZMnx">
         <property role="3F0ifm" value="description:" />

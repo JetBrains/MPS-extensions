@@ -57,6 +57,7 @@
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
         <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
         <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
+        <property id="2059109515400425365" name="compiler" index="3fwGa$" />
       </concept>
       <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
         <child id="2750015747481074432" name="path" index="2HvfZ0" />
@@ -13625,6 +13626,7 @@
     <node concept="2_Ic$z" id="5KXebfcSw7" role="3989C9">
       <property role="2_Ic$$" value="true" />
       <property role="TZNOO" value="11" />
+      <property role="3fwGa$" value="IntelliJ" />
     </node>
     <node concept="1wNqPr" id="2B1T7v1mPNt" role="3989C9">
       <property role="1wNuhc" value="true" />
@@ -13638,6 +13640,12 @@
     <node concept="398rNT" id="2Xjt3l56m0Y" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
       <node concept="55IIr" id="4be$WTb2x9Y" role="398pKh" />
+    </node>
+    <node concept="398rNT" id="3UyIjdU0AZ4" role="1l3spd">
+      <property role="TrG5h" value="idea_home" />
+      <node concept="398BVA" id="3UyIjdU0Bj_" role="398pKh">
+        <ref role="398BVh" node="2Xjt3l56m0Y" resolve="mps.home" />
+      </node>
     </node>
     <node concept="398rNT" id="2fo8bJE$D4o" role="1l3spd">
       <property role="TrG5h" value="extensions.home" />
@@ -14067,6 +14075,7 @@
     <node concept="2_Ic$z" id="6$6tsX_CF79" role="3989C9">
       <property role="2_Ic$$" value="true" />
       <property role="TZNOO" value="11" />
+      <property role="3fwGa$" value="IntelliJ" />
     </node>
     <node concept="1wNqPr" id="6$6tsX_CF7a" role="3989C9">
       <property role="1wNuhc" value="true" />
@@ -18609,6 +18618,12 @@
     <node concept="398rNT" id="6$6tsX_CF7d" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
       <node concept="55IIr" id="1QLFoGON26t" role="398pKh" />
+    </node>
+    <node concept="398rNT" id="3UyIjdU0SMh" role="1l3spd">
+      <property role="TrG5h" value="idea_home" />
+      <node concept="398BVA" id="3UyIjdU0SMV" role="398pKh">
+        <ref role="398BVh" node="6$6tsX_CF7d" resolve="mps.home" />
+      </node>
     </node>
     <node concept="398rNT" id="1QLFoGON23s" role="1l3spd">
       <property role="TrG5h" value="extensions.home" />

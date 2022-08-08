@@ -1079,6 +1079,19 @@
         </node>
       </node>
     </node>
+    <node concept="3EZMnI" id="dN43cd3wZ8" role="6VMZX">
+      <node concept="2iRkQZ" id="dN43cd3wZ9" role="2iSdaV" />
+      <node concept="3F0ifn" id="dN43cd3wZ5" role="3EZMnx">
+        <property role="3F0ifm" value="Substitute cell:" />
+        <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+      </node>
+      <node concept="3EZMnI" id="dN43cd3wZi" role="3EZMnx">
+        <node concept="2EHx9g" id="dN43cd3wZp" role="2iSdaV" />
+        <node concept="PMmxH" id="dN43cd3wZs" role="3EZMnx">
+          <ref role="PMmxG" node="J6gp_6ycIY" resolve="DescriptionText" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="1vi_twqJeMu">
     <property role="3GE5qa" value="cells" />

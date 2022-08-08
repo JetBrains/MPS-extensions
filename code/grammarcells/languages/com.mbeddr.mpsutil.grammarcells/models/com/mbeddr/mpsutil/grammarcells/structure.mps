@@ -271,6 +271,9 @@
     <node concept="PrWs8" id="3O7ZvCZLSwp" role="PzmwI">
       <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
     </node>
+    <node concept="PrWs8" id="dN43cd3wQB" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1vi_twqJeLl">
     <property role="3GE5qa" value="cells" />

@@ -9505,11 +9505,49 @@
                                                               <node concept="3cpWsn" id="6uixmKZ3tkm" role="3cpWs9">
                                                                 <property role="TrG5h" value="originalText" />
                                                                 <node concept="17QB3L" id="6uixmKZ3tkn" role="1tU5fm" />
-                                                                <node concept="3nyPlj" id="6uixmKZ3tko" role="33vP2m">
-                                                                  <ref role="37wK5l" to="qtqj:~SubstituteMenuItemWrapper.getDescriptionText(java.lang.String)" resolve="getDescriptionText" />
-                                                                  <node concept="37vLTw" id="6uixmKZ3tkp" role="37wK5m">
-                                                                    <ref role="3cqZAo" node="6uixmKZ3tkg" resolve="pattern" />
+                                                                <node concept="2OqwBi" id="dN43ccHFTe" role="33vP2m">
+                                                                  <node concept="1bVj0M" id="dN43ccHDVL" role="2Oq$k0">
+                                                                    <node concept="3clFbS" id="dN43ccHDVN" role="1bW5cS">
+                                                                      <node concept="3cpWs8" id="dN43ccHKe3" role="3cqZAp">
+                                                                        <node concept="3cpWsn" id="dN43ccHKe4" role="3cpWs9">
+                                                                          <property role="TrG5h" value="description" />
+                                                                          <node concept="3uibUv" id="dN43ccHKe5" role="1tU5fm">
+                                                                            <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+                                                                          </node>
+                                                                          <node concept="2OqwBi" id="dN43ccHKe6" role="33vP2m">
+                                                                            <node concept="1rXfSq" id="dN43ccHKe7" role="2Oq$k0">
+                                                                              <ref role="37wK5l" node="7NlRaxBn2jp" resolve="getOutputConcept" />
+                                                                            </node>
+                                                                            <node concept="liA8E" id="dN43ccHKe8" role="2OqNvi">
+                                                                              <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
+                                                                            </node>
+                                                                          </node>
+                                                                        </node>
+                                                                      </node>
+                                                                      <node concept="3clFbF" id="dN43ccHKe9" role="3cqZAp">
+                                                                        <node concept="3K4zz7" id="dN43ccHKea" role="3clFbG">
+                                                                          <node concept="37vLTw" id="dN43ccHKeb" role="3K4E3e">
+                                                                            <ref role="3cqZAo" node="dN43ccHKe4" resolve="description" />
+                                                                          </node>
+                                                                          <node concept="2OqwBi" id="dN43ccHKec" role="3K4GZi">
+                                                                            <node concept="1rXfSq" id="dN43ccHKed" role="2Oq$k0">
+                                                                              <ref role="37wK5l" node="7NlRaxBn2jp" resolve="getOutputConcept" />
+                                                                            </node>
+                                                                            <node concept="liA8E" id="dN43ccHKee" role="2OqNvi">
+                                                                              <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+                                                                            </node>
+                                                                          </node>
+                                                                          <node concept="2OqwBi" id="dN43ccHKef" role="3K4Cdx">
+                                                                            <node concept="37vLTw" id="dN43ccHKeg" role="2Oq$k0">
+                                                                              <ref role="3cqZAo" node="dN43ccHKe4" resolve="description" />
+                                                                            </node>
+                                                                            <node concept="17RvpY" id="dN43ccHKeh" role="2OqNvi" />
+                                                                          </node>
+                                                                        </node>
+                                                                      </node>
+                                                                    </node>
                                                                   </node>
+                                                                  <node concept="1Bd96e" id="dN43ccHIg0" role="2OqNvi" />
                                                                 </node>
                                                               </node>
                                                             </node>
@@ -11473,8 +11511,8 @@
                                                   <node concept="3cpWsn" id="1ZlHRbiA73S" role="3cpWs9">
                                                     <property role="TrG5h" value="wrappedConcept" />
                                                     <node concept="3bZ5Sz" id="1ZlHRbiA73N" role="1tU5fm" />
-                                                    <node concept="2GrUjf" id="1ZlHRbjygSk" role="33vP2m">
-                                                      <ref role="2Gs0qQ" node="5AkACHrYHAX" resolve="subconcept" />
+                                                    <node concept="1rXfSq" id="dN43cczSwb" role="33vP2m">
+                                                      <ref role="37wK5l" node="7NlRaxB407M" resolve="getOutputConcept" />
                                                     </node>
                                                   </node>
                                                 </node>

@@ -29563,42 +29563,40 @@
         </node>
       </node>
       <node concept="3clFbS" id="3uJMZ8xGylv" role="3clF47">
-        <node concept="3cpWs8" id="3uJMZ8xG$wF" role="3cqZAp">
-          <node concept="3cpWsn" id="3uJMZ8xG$wG" role="3cpWs9">
-            <property role="TrG5h" value="outputConcept" />
-            <node concept="3bZ5Sz" id="3uJMZ8xG$BS" role="1tU5fm" />
-            <node concept="1rXfSq" id="3uJMZ8xG$wH" role="33vP2m">
-              <ref role="37wK5l" to="qtqj:~DefaultSubstituteMenuItem.getOutputConcept()" resolve="getOutputConcept" />
+        <node concept="3cpWs8" id="dN43cci3aw" role="3cqZAp">
+          <node concept="3cpWsn" id="dN43cci3ax" role="3cpWs9">
+            <property role="TrG5h" value="description" />
+            <node concept="3uibUv" id="dN43cci3ay" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+            </node>
+            <node concept="2OqwBi" id="dN43cci3az" role="33vP2m">
+              <node concept="1rXfSq" id="dN43cci3a$" role="2Oq$k0">
+                <ref role="37wK5l" to="qtqj:~DefaultSubstituteMenuItem.getOutputConcept()" resolve="getOutputConcept" />
+              </node>
+              <node concept="liA8E" id="dN43cci3a_" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3uJMZ8xGzVz" role="3cqZAp">
-          <node concept="3cpWs3" id="3uJMZ8xGD3G" role="3clFbG">
-            <node concept="Xl_RD" id="3uJMZ8xGD4e" role="3uHU7w">
-              <property role="Xl_RC" value=")" />
+        <node concept="3clFbF" id="dN43cci3aA" role="3cqZAp">
+          <node concept="3K4zz7" id="dN43cci3aB" role="3clFbG">
+            <node concept="37vLTw" id="dN43cci3aC" role="3K4E3e">
+              <ref role="3cqZAo" node="dN43cci3ax" resolve="description" />
             </node>
-            <node concept="3cpWs3" id="3uJMZ8xGB7w" role="3uHU7B">
-              <node concept="3cpWs3" id="3uJMZ8xG_Wp" role="3uHU7B">
-                <node concept="2OqwBi" id="3uJMZ8xG$Oa" role="3uHU7B">
-                  <node concept="37vLTw" id="3uJMZ8xG$wI" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3uJMZ8xG$wG" resolve="outputConcept" />
-                  </node>
-                  <node concept="liA8E" id="3uJMZ8xG$YA" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="3uJMZ8xG_WV" role="3uHU7w">
-                  <property role="Xl_RC" value=" (" />
-                </node>
+            <node concept="2OqwBi" id="dN43cci3aD" role="3K4GZi">
+              <node concept="1rXfSq" id="dN43cci3aE" role="2Oq$k0">
+                <ref role="37wK5l" to="qtqj:~DefaultSubstituteMenuItem.getOutputConcept()" resolve="getOutputConcept" />
               </node>
-              <node concept="2OqwBi" id="3uJMZ8xGC14" role="3uHU7w">
-                <node concept="37vLTw" id="3uJMZ8xGBIi" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3uJMZ8xG$wG" resolve="outputConcept" />
-                </node>
-                <node concept="liA8E" id="3uJMZ8xGCv9" role="2OqNvi">
-                  <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
-                </node>
+              <node concept="liA8E" id="dN43cci3aF" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
               </node>
+            </node>
+            <node concept="2OqwBi" id="dN43cci3aG" role="3K4Cdx">
+              <node concept="37vLTw" id="dN43cci3aH" role="2Oq$k0">
+                <ref role="3cqZAo" node="dN43cci3ax" resolve="description" />
+              </node>
+              <node concept="17RvpY" id="dN43cci3aI" role="2OqNvi" />
             </node>
           </node>
         </node>

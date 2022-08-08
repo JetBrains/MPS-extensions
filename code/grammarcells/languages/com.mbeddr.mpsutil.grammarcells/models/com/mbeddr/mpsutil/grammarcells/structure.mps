@@ -722,6 +722,9 @@
     <node concept="PrWs8" id="4eBi5gdBmA1" role="PzmwI">
       <ref role="PrY4T" node="4eBi5gdADMe" resolve="INotALeaf" />
     </node>
+    <node concept="PrWs8" id="dN43cafnh_" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4eBi5gdn8p_">
     <property role="3GE5qa" value="cells" />
@@ -797,6 +800,9 @@
     </node>
     <node concept="PrWs8" id="6rhOS_xwHOh" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    </node>
+    <node concept="PrWs8" id="2l$VAMF302A" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
     </node>
   </node>
   <node concept="1TIwiD" id="6rhOS_xT3yl">

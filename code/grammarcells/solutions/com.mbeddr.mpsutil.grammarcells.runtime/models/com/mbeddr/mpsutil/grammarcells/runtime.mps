@@ -20339,8 +20339,14 @@
         <node concept="17QB3L" id="mEdliw$NFW" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="mEdliw$MPc" role="3clF47">
-        <node concept="3clFbF" id="mEdliw$MPe" role="3cqZAp">
-          <node concept="10Nm6u" id="mEdliw$MPd" role="3clFbG" />
+        <node concept="3clFbF" id="dN43caHsY2" role="3cqZAp">
+          <node concept="2YIFZM" id="dN43caHsY4" role="3clFbG">
+            <ref role="1Pybhc" to="5b0:~NodePresentationUtil" resolve="NodePresentationUtil" />
+            <ref role="37wK5l" to="5b0:~NodePresentationUtil.descriptionText(org.jetbrains.mps.openapi.model.SNode)" resolve="descriptionText" />
+            <node concept="1rXfSq" id="dN43caHsY5" role="37wK5m">
+              <ref role="37wK5l" to="zce0:~AbstractSubstituteAction.getOutputConcept()" resolve="getOutputConcept" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -29749,8 +29755,42 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
       <node concept="3clFbS" id="325OF_Mo$mV" role="3clF47">
-        <node concept="3clFbF" id="2l$VAMEScCi" role="3cqZAp">
-          <node concept="10Nm6u" id="2l$VAMEScCh" role="3clFbG" />
+        <node concept="3cpWs8" id="dN43cbh6lL" role="3cqZAp">
+          <node concept="3cpWsn" id="dN43cbh6lM" role="3cpWs9">
+            <property role="TrG5h" value="description" />
+            <node concept="3uibUv" id="dN43cbh6lN" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+            </node>
+            <node concept="2OqwBi" id="dN43cbh1cb" role="33vP2m">
+              <node concept="1rXfSq" id="dN43cbh6lO" role="2Oq$k0">
+                <ref role="37wK5l" to="uddc:~ConstraintsVerifiableActionItem.getOutputConcept()" resolve="getOutputConcept" />
+              </node>
+              <node concept="liA8E" id="dN43cbh1UR" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="dN43cbh6lP" role="3cqZAp">
+          <node concept="3K4zz7" id="dN43cbh6lQ" role="3clFbG">
+            <node concept="37vLTw" id="dN43cbh6lR" role="3K4E3e">
+              <ref role="3cqZAo" node="dN43cbh6lM" resolve="description" />
+            </node>
+            <node concept="2OqwBi" id="dN43cbh6lS" role="3K4GZi">
+              <node concept="1rXfSq" id="dN43cbh6lT" role="2Oq$k0">
+                <ref role="37wK5l" to="uddc:~ConstraintsVerifiableActionItem.getOutputConcept()" resolve="getOutputConcept" />
+              </node>
+              <node concept="liA8E" id="dN43cbh6lU" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="dN43cbh4eU" role="3K4Cdx">
+              <node concept="37vLTw" id="dN43cbh6lV" role="2Oq$k0">
+                <ref role="3cqZAo" node="dN43cbh6lM" resolve="description" />
+              </node>
+              <node concept="17RvpY" id="dN43cbh5g4" role="2OqNvi" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

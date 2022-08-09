@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="com.mbeddr.mpsutil.grammarcells" uuid="9d69e719-78c8-4286-90db-fb19c107d049" languageVersion="1" moduleVersion="0">
+<language namespace="com.mbeddr.mpsutil.grammarcells" uuid="9d69e719-78c8-4286-90db-fb19c107d049" languageVersion="2" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -42,7 +42,7 @@
         <dependency reexport="false">2e24a298-44d1-4697-baec-5c424fed3a3b(jetbrains.mps.editorlang.runtime)</dependency>
       </dependencies>
       <languageVersions>
-        <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="1" />
+        <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="2" />
         <language slang="l:b4f35ed8-45af-4efa-abe4-00ac26956e69:com.mbeddr.mpsutil.grammarcells.runtimelang" version="0" />
         <language slang="l:654422bf-e75f-44dc-936d-188890a746ce:de.slisson.mps.reflection" version="0" />
         <language slang="l:52733268-be24-4f5f-ab84-a73b7c0c03b0:de.slisson.mps.richtext.customcell" version="0" />

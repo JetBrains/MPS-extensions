@@ -823,7 +823,7 @@
     </node>
     <node concept="2tJIrI" id="48DYfEt2M3j" role="jymVt" />
     <node concept="3clFb_" id="42_DJ9jU$da" role="jymVt">
-      <property role="TrG5h" value="setuptLayout" />
+      <property role="TrG5h" value="setupLayout" />
       <node concept="3cqZAl" id="42_DJ9jU$dc" role="3clF45" />
       <node concept="3Tmbuc" id="42_DJ9jU_VK" role="1B3o_S" />
       <node concept="3clFbS" id="42_DJ9jU$de" role="3clF47">
@@ -2204,7 +2204,7 @@
         </node>
         <node concept="3clFbF" id="42_DJ9jX4B$" role="3cqZAp">
           <node concept="1rXfSq" id="42_DJ9jX4By" role="3clFbG">
-            <ref role="37wK5l" node="42_DJ9jU$da" resolve="setuptLayout" />
+            <ref role="37wK5l" node="42_DJ9jU$da" resolve="setupLayout" />
           </node>
         </node>
       </node>
@@ -2333,7 +2333,33 @@
         </node>
         <node concept="3clFbF" id="42_DJ9jX598" role="3cqZAp">
           <node concept="1rXfSq" id="42_DJ9jX596" role="3clFbG">
-            <ref role="37wK5l" node="42_DJ9jU$da" resolve="setuptLayout" />
+            <ref role="37wK5l" node="42_DJ9jU$da" resolve="setupLayout" />
+          </node>
+        </node>
+        <node concept="2Gpval" id="25MRdI1C5a" role="3cqZAp">
+          <node concept="2GrKxI" id="25MRdI1C5c" role="2Gsz3X">
+            <property role="TrG5h" value="c" />
+          </node>
+          <node concept="2YIFZM" id="25MRdI1LUy" role="2GsD0m">
+            <ref role="37wK5l" to="f4zo:~CellTraversalUtil.iterateTree(jetbrains.mps.openapi.editor.cells.EditorCell,jetbrains.mps.openapi.editor.cells.EditorCell,boolean)" resolve="iterateTree" />
+            <ref role="1Pybhc" to="f4zo:~CellTraversalUtil" resolve="CellTraversalUtil" />
+            <node concept="Xjq3P" id="25MRdI1P5_" role="37wK5m" />
+            <node concept="Xjq3P" id="25MRdI1S5r" role="37wK5m" />
+            <node concept="3clFbT" id="25MRdI1X5S" role="37wK5m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="25MRdI1C5g" role="2LFqv$">
+            <node concept="3clFbF" id="25MRdI20bZ" role="3cqZAp">
+              <node concept="2OqwBi" id="25MRdI22va" role="3clFbG">
+                <node concept="2GrUjf" id="25MRdI20bY" role="2Oq$k0">
+                  <ref role="2Gs0qQ" node="25MRdI1C5c" resolve="c" />
+                </node>
+                <node concept="liA8E" id="25MRdI26cP" role="2OqNvi">
+                  <ref role="37wK5l" to="f4zo:~EditorCell.requestRelayout()" resolve="requestRelayout" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="1Dw8fO" id="2TwIsp7p0fb" role="3cqZAp">

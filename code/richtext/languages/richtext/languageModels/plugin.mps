@@ -1751,7 +1751,7 @@
   </node>
   <node concept="sE7Ow" id="6wQWU6B2C9E">
     <property role="TrG5h" value="RichtextSelectionRootEnd" />
-    <property role="2uzpH1" value="Select Richtext Root Home" />
+    <property role="2uzpH1" value="Select Richtext Root End" />
     <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="tnohg" id="6wQWU6B2C9F" role="tncku">
       <node concept="3clFbS" id="6wQWU6B2C9G" role="2VODD2">

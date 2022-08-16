@@ -615,8 +615,8 @@
         </node>
       </node>
       <node concept="3_J27D" id="4p3FRivDLP_" role="m$_w8">
-        <node concept="3Mxwew" id="5mH$9t6dyMg" role="3MwsjC">
-          <property role="3MwjfP" value="3.3" />
+        <node concept="3Mxwey" id="1lN8SyGFMs" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
         </node>
       </node>
       <node concept="m$f5U" id="31bAEZ0ssdw" role="m$_yh">
@@ -1509,6 +1509,11 @@
             <node concept="3qWCbU" id="42yR2aTbyay" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3nXog1aROoG" role="3bR37C">
+          <node concept="3bR9La" id="3nXog1aROoH" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
           </node>
         </node>
       </node>
@@ -4678,6 +4683,9 @@
           <property role="3MwjfP" value="Diagrammatic notation for MPS editors" />
         </node>
       </node>
+      <node concept="m$_yC" id="3JvidvJvDTp" role="m$_yJ">
+        <ref role="m$_y1" node="31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
+      </node>
     </node>
     <node concept="2G$12M" id="4be$WTb1AxY" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.editor.diagram" />
@@ -4852,116 +4860,6 @@
             <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5wX1PptFBxK" role="3bR37C">
-          <node concept="1BurEX" id="5wX1PptFBxL" role="1SiIV1">
-            <node concept="398BVA" id="5wX1PptFBxz" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5wX1PptFBx$" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="5wX1PptFBx_" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5wX1PptFBxA" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="5wX1PptFBxB" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="5wX1PptFBxC" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.common-0.7.1.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5wX1PptFBxZ" role="3bR37C">
-          <node concept="1BurEX" id="5wX1PptFBy0" role="1SiIV1">
-            <node concept="398BVA" id="5wX1PptFBxM" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5wX1PptFBxN" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="5wX1PptFBxO" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5wX1PptFBxP" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="5wX1PptFBxQ" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="5wX1PptFBxR" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.layered-0.7.1.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5wX1PptFBye" role="3bR37C">
-          <node concept="1BurEX" id="5wX1PptFByf" role="1SiIV1">
-            <node concept="398BVA" id="5wX1PptFBy1" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5wX1PptFBy2" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="5wX1PptFBy3" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5wX1PptFBy4" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="5wX1PptFBy5" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="5wX1PptFBy6" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.core-0.7.1.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5wX1PptFByt" role="3bR37C">
-          <node concept="1BurEX" id="5wX1PptFByu" role="1SiIV1">
-            <node concept="398BVA" id="5wX1PptFByg" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5wX1PptFByh" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="5wX1PptFByi" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5wX1PptFByj" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="5wX1PptFByk" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="5wX1PptFByl" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.graph-0.7.1.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5wX1PptWOJ9" role="3bR37C">
-          <node concept="1BurEX" id="5wX1PptWOJa" role="1SiIV1">
-            <node concept="398BVA" id="5wX1PptWOIW" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5wX1PptWOIX" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="5wX1PptWOIY" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="5wX1PptWOIZ" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="5wX1PptWOJ0" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="5wX1PptWOJ1" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.mrtree-0.7.1.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="FeLmmzZ0H6" role="3bR37C">
           <node concept="1BurEX" id="FeLmmzZ0H7" role="1SiIV1">
             <node concept="398BVA" id="FeLmmzZ0GT" role="1BurEY">
@@ -5026,6 +4924,126 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="s9Own_Npjq" role="3bR37C">
+          <node concept="1BurEX" id="s9Own_Npjr" role="1SiIV1">
+            <node concept="398BVA" id="s9Own_Npjd" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="s9Own_Npje" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="s9Own_Npjf" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="s9Own_Npjg" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="s9Own_Npjh" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="s9Own_Npji" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.common_0.9.0.202206130225.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="s9Own_NpjD" role="3bR37C">
+          <node concept="1BurEX" id="s9Own_NpjE" role="1SiIV1">
+            <node concept="398BVA" id="s9Own_Npjs" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="s9Own_Npjt" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="s9Own_Npju" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="s9Own_Npjv" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="s9Own_Npjw" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="s9Own_Npjx" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.layered_0.9.0.202206130225.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="s9Own_NpjS" role="3bR37C">
+          <node concept="1BurEX" id="s9Own_NpjT" role="1SiIV1">
+            <node concept="398BVA" id="s9Own_NpjF" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="s9Own_NpjG" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="s9Own_NpjH" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="s9Own_NpjI" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="s9Own_NpjJ" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="s9Own_NpjK" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.mrtree_0.9.0.202206130225.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="s9Own_Npk7" role="3bR37C">
+          <node concept="1BurEX" id="s9Own_Npk8" role="1SiIV1">
+            <node concept="398BVA" id="s9Own_NpjU" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="s9Own_NpjV" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="s9Own_NpjW" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="s9Own_NpjX" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="s9Own_NpjY" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="s9Own_NpjZ" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.core_0.9.0.202206130225.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="s9Own_Npkm" role="3bR37C">
+          <node concept="1BurEX" id="s9Own_Npkn" role="1SiIV1">
+            <node concept="398BVA" id="s9Own_Npk9" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="s9Own_Npka" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="s9Own_Npkb" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="s9Own_Npkc" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="s9Own_Npkd" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="s9Own_Npke" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.graph_0.9.0.202206130225.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2C8x_a2N_PE" role="3bR37C">
+          <node concept="3bR9La" id="2C8x_a2N_PF" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3JvidvJvDr_" role="3bR37C">
+          <node concept="3bR9La" id="3JvidvJvDrA" role="1SiIV1">
+            <ref role="3bR37D" node="4p3FRivDLPL" resolve="de.slisson.mps.editor.multiline.runtime" />
           </node>
         </node>
       </node>

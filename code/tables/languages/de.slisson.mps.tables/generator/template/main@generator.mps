@@ -5042,18 +5042,56 @@
                                                               </node>
                                                             </node>
                                                             <node concept="3clFbS" id="m_yL2MVQpk" role="3clF47">
+                                                              <node concept="3cpWs8" id="1tbxNVtSMs9" role="3cqZAp">
+                                                                <node concept="3cpWsn" id="1tbxNVtSMsa" role="3cpWs9">
+                                                                  <property role="TrG5h" value="nodesFromClipboard" />
+                                                                  <node concept="3uibUv" id="1tbxNVtSLq7" role="1tU5fm">
+                                                                    <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                                                                    <node concept="3uibUv" id="1tbxNVtSLqa" role="11_B2D">
+                                                                      <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                                                                    </node>
+                                                                  </node>
+                                                                  <node concept="2YIFZM" id="1tbxNVtSMsb" role="33vP2m">
+                                                                    <ref role="37wK5l" to="dp1x:5tGs5KqKiK3" resolve="getNodesFromClipboard" />
+                                                                    <ref role="1Pybhc" to="dp1x:5tGs5KqKfGH" resolve="CopyPasteUtil" />
+                                                                    <node concept="2OqwBi" id="1tbxNVtSVPl" role="37wK5m">
+                                                                      <node concept="37vLTw" id="1tbxNVtSTm1" role="2Oq$k0">
+                                                                        <ref role="3cqZAo" node="1dAqnm8Mofg" resolve="node" />
+                                                                      </node>
+                                                                      <node concept="I4A8Y" id="1tbxNVtSX9U" role="2OqNvi" />
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                              </node>
                                                               <node concept="3cpWs8" id="m_yL2MVZ7y" role="3cqZAp">
                                                                 <node concept="3cpWsn" id="m_yL2MVZ7z" role="3cpWs9">
                                                                   <property role="TrG5h" value="nodeFromClipboard" />
                                                                   <node concept="3Tqbb2" id="m_yL2MVZBC" role="1tU5fm" />
-                                                                  <node concept="2YIFZM" id="m_yL2MVZ7$" role="33vP2m">
-                                                                    <ref role="37wK5l" to="dp1x:5tGs5KqKiLL" resolve="getNodeFromClipboard" />
-                                                                    <ref role="1Pybhc" to="dp1x:5tGs5KqKfGH" resolve="CopyPasteUtil" />
-                                                                    <node concept="2OqwBi" id="m_yL2MVZ7_" role="37wK5m">
-                                                                      <node concept="37vLTw" id="m_yL2MVZ7A" role="2Oq$k0">
-                                                                        <ref role="3cqZAo" node="1dAqnm8Mofg" resolve="node" />
+                                                                  <node concept="3K4zz7" id="1tbxNVtTr4h" role="33vP2m">
+                                                                    <node concept="2OqwBi" id="1tbxNVtTz5D" role="3K4E3e">
+                                                                      <node concept="37vLTw" id="1tbxNVtTvUr" role="2Oq$k0">
+                                                                        <ref role="3cqZAo" node="1tbxNVtSMsa" resolve="nodesFromClipboard" />
                                                                       </node>
-                                                                      <node concept="I4A8Y" id="m_yL2MVZ7B" role="2OqNvi" />
+                                                                      <node concept="liA8E" id="1tbxNVtT_gh" role="2OqNvi">
+                                                                        <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
+                                                                        <node concept="3cmrfG" id="1tbxNVtTEgs" role="37wK5m">
+                                                                          <property role="3cmrfH" value="0" />
+                                                                        </node>
+                                                                      </node>
+                                                                    </node>
+                                                                    <node concept="10Nm6u" id="1tbxNVtTGAX" role="3K4GZi" />
+                                                                    <node concept="3eOSWO" id="1tbxNVtTltu" role="3K4Cdx">
+                                                                      <node concept="3cmrfG" id="1tbxNVtTnZB" role="3uHU7w">
+                                                                        <property role="3cmrfH" value="0" />
+                                                                      </node>
+                                                                      <node concept="2OqwBi" id="1tbxNVtTf9E" role="3uHU7B">
+                                                                        <node concept="37vLTw" id="1tbxNVtTcQ_" role="2Oq$k0">
+                                                                          <ref role="3cqZAo" node="1tbxNVtSMsa" resolve="nodesFromClipboard" />
+                                                                        </node>
+                                                                        <node concept="liA8E" id="1tbxNVtTitZ" role="2OqNvi">
+                                                                          <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
+                                                                        </node>
+                                                                      </node>
                                                                     </node>
                                                                   </node>
                                                                 </node>

@@ -2,7 +2,7 @@
 <model ref="r:3eda9818-abb7-42b4-a347-71b6a5e2c7c7(com.mbeddr.mpsutil.grammarcells.sandboxlang.editor)">
   <persistence version="9" />
   <languages>
-    <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="1" />
+    <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="2" />
     <use id="e359e0a2-368a-4c40-ae2a-e5a09f9cfd58" name="de.itemis.mps.editor.math.notations" version="0" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="b1ab8c10-c118-4755-bf2a-cebab35cf533" name="jetbrains.mps.lang.editor.tooltips" version="0" />
@@ -624,12 +624,12 @@
                     <node concept="liA8E" id="1GvnUgo9bai" role="2OqNvi">
                       <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
                       <node concept="3cpWs3" id="1GvnUgo9bij" role="37wK5m">
+                        <node concept="Xl_RD" id="1GvnUgo9baK" role="3uHU7B">
+                          <property role="Xl_RC" value="wrapped " />
+                        </node>
                         <node concept="2OqwBi" id="2obP5Y83RJ0" role="3uHU7w">
                           <node concept="313q4" id="1GvnUgo9bjz" role="2Oq$k0" />
                           <node concept="2Iv5rx" id="2obP5Y83RJ1" role="2OqNvi" />
-                        </node>
-                        <node concept="Xl_RD" id="1GvnUgo9baK" role="3uHU7B">
-                          <property role="Xl_RC" value="wrapped " />
                         </node>
                       </node>
                     </node>

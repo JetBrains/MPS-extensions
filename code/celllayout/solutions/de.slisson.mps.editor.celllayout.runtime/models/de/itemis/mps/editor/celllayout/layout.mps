@@ -13029,6 +13029,28 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="44Wqx_RJILn" role="3cqZAp">
+          <node concept="37vLTI" id="44Wqx_RJL00" role="3clFbG">
+            <node concept="2YIFZM" id="44Wqx_RJPLV" role="37vLTx">
+              <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+              <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
+              <node concept="37vLTw" id="44Wqx_RJRf1" role="37wK5m">
+                <ref role="3cqZAo" node="6IJAP0oRWvH" resolve="ascent" />
+              </node>
+              <node concept="2OqwBi" id="44Wqx_RJUIH" role="37wK5m">
+                <node concept="37vLTw" id="44Wqx_RJTBF" role="2Oq$k0">
+                  <ref role="3cqZAo" node="40e1npHt$X8" resolve="size" />
+                </node>
+                <node concept="liA8E" id="44Wqx_RJVgO" role="2OqNvi">
+                  <ref role="37wK5l" to="rtot:ZjQ6tpoDOC" resolve="getHeight" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="44Wqx_RJILl" role="37vLTJ">
+              <ref role="3cqZAo" node="6IJAP0oRWvH" resolve="ascent" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="6IJAP0oRW_s" role="3cqZAp">
           <node concept="3cpWsn" id="6IJAP0oRW_v" role="3cpWs9">
             <property role="TrG5h" value="descent" />

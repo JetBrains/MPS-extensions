@@ -5878,7 +5878,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="40e1npHnypd" role="jymVt">
-      <property role="1EzhhJ" value="false" />
+      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getAscent" />
       <node concept="10Oyi0" id="40e1npHnype" role="3clF45" />
       <node concept="3Tm1VV" id="40e1npHnypf" role="1B3o_S" />
@@ -5891,23 +5891,7 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
       </node>
-      <node concept="3clFbS" id="40e1npHnypn" role="3clF47">
-        <node concept="3clFbF" id="6SVXTgI2Xv2" role="3cqZAp">
-          <node concept="2OqwBi" id="6SVXTgI2Xv3" role="3clFbG">
-            <node concept="2OqwBi" id="6SVXTgI2Xv4" role="2Oq$k0">
-              <node concept="37vLTw" id="6SVXTgI2Xv5" role="2Oq$k0">
-                <ref role="3cqZAo" node="JPngvNtYp0" resolve="myBoxModel" />
-              </node>
-              <node concept="liA8E" id="6SVXTgI2Xv6" role="2OqNvi">
-                <ref role="37wK5l" to="rtot:1p6ZfyCPv8r" resolve="getMarginBox" />
-              </node>
-            </node>
-            <node concept="liA8E" id="6SVXTgI2Xv7" role="2OqNvi">
-              <ref role="37wK5l" to="rtot:1p6ZfyCPv4S" resolve="getAscent" />
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="40e1npHnypn" role="3clF47" />
       <node concept="2AHcQZ" id="3Osd_yxdVNH" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
@@ -19132,18 +19116,39 @@
         </node>
       </node>
       <node concept="3clFbS" id="3VzM1am0rhh" role="3clF47">
-        <node concept="3clFbF" id="3VzM1am0rhi" role="3cqZAp">
-          <node concept="2OqwBi" id="3VzM1am0rhj" role="3clFbG">
-            <node concept="2OqwBi" id="3VzM1am0rhk" role="2Oq$k0">
-              <node concept="37vLTw" id="3VzM1am0rhl" role="2Oq$k0">
-                <ref role="3cqZAo" node="JPngvNtYp0" resolve="myBoxModel" />
+        <node concept="3cpWs8" id="44Wqx_RLr_p" role="3cqZAp">
+          <node concept="3cpWsn" id="44Wqx_RLr_q" role="3cpWs9">
+            <property role="TrG5h" value="ascent" />
+            <node concept="10Oyi0" id="44Wqx_RL7QK" role="1tU5fm" />
+            <node concept="2OqwBi" id="44Wqx_RLr_r" role="33vP2m">
+              <node concept="2OqwBi" id="44Wqx_RLr_s" role="2Oq$k0">
+                <node concept="37vLTw" id="44Wqx_RLr_t" role="2Oq$k0">
+                  <ref role="3cqZAo" node="JPngvNtYp0" resolve="myBoxModel" />
+                </node>
+                <node concept="liA8E" id="44Wqx_RLr_u" role="2OqNvi">
+                  <ref role="37wK5l" to="rtot:1p6ZfyCPv8r" resolve="getMarginBox" />
+                </node>
               </node>
-              <node concept="liA8E" id="3VzM1am0rhm" role="2OqNvi">
-                <ref role="37wK5l" to="rtot:1p6ZfyCPv8r" resolve="getMarginBox" />
+              <node concept="liA8E" id="44Wqx_RLr_v" role="2OqNvi">
+                <ref role="37wK5l" to="rtot:1p6ZfyCPv4S" resolve="getAscent" />
               </node>
             </node>
-            <node concept="liA8E" id="3VzM1am0rhn" role="2OqNvi">
-              <ref role="37wK5l" to="rtot:1p6ZfyCPv4S" resolve="getAscent" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="44Wqx_RLIYS" role="3cqZAp">
+          <node concept="2YIFZM" id="44Wqx_RLIYU" role="3cqZAk">
+            <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+            <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
+            <node concept="37vLTw" id="44Wqx_RLIYV" role="37wK5m">
+              <ref role="3cqZAo" node="44Wqx_RLr_q" resolve="ascent" />
+            </node>
+            <node concept="2OqwBi" id="44Wqx_RLIYW" role="37wK5m">
+              <node concept="37vLTw" id="44Wqx_RLIYX" role="2Oq$k0">
+                <ref role="3cqZAo" node="3VzM1am0rhe" resolve="size" />
+              </node>
+              <node concept="liA8E" id="44Wqx_RLIYY" role="2OqNvi">
+                <ref role="37wK5l" to="rtot:ZjQ6tpoDOC" resolve="getHeight" />
+              </node>
             </node>
           </node>
         </node>

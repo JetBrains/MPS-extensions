@@ -12,6 +12,14 @@
       <sourceRoot location="kotlin-stdlib.jar" />
       <sourceRoot location="slf4j-api.jar" />
       <sourceRoot location="kotlin-logging-jvm.jar" />
+      <sourceRoot location="snakeyaml-engine.jar" />
+      <sourceRoot location="kotlinpoet.jar" />
+      <sourceRoot location="kotlinx-serialization-core-jvm.jar" />
+      <sourceRoot location="kotlinx-serialization-json-jvm.jar" />
+      <sourceRoot location="metamodel-generator.jar" />
+      <sourceRoot location="metamodel-runtime-jvm.jar" />
+      <sourceRoot location="kotlin-reflect.jar" />
+      <sourceRoot location="kaml-jvm.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -20,18 +28,33 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${module}/lib/model-api-jvm.jar" />
-    <stubModelEntry path="${module}/lib/kotlin-stdlib.jar" />
-    <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk8.jar" />
-    <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk7.jar" />
+    <stubModelEntry path="${module}/lib/kaml-jvm.jar" />
+    <stubModelEntry path="${module}/lib/kotlin-logging-jvm.jar" />
+    <stubModelEntry path="${module}/lib/kotlin-reflect.jar" />
     <stubModelEntry path="${module}/lib/kotlin-stdlib-common.jar" />
+    <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk7.jar" />
+    <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk8.jar" />
+    <stubModelEntry path="${module}/lib/kotlin-stdlib.jar" />
+    <stubModelEntry path="${module}/lib/kotlinpoet.jar" />
+    <stubModelEntry path="${module}/lib/kotlinx-serialization-core-jvm.jar" />
+    <stubModelEntry path="${module}/lib/kotlinx-serialization-json-jvm.jar" />
+    <stubModelEntry path="${module}/lib/metamodel-generator.jar" />
+    <stubModelEntry path="${module}/lib/metamodel-runtime-jvm.jar" />
+    <stubModelEntry path="${module}/lib/model-api-jvm.jar" />
+    <stubModelEntry path="${module}/lib/slf4j-api.jar" />
+    <stubModelEntry path="${module}/lib/snakeyaml-engine.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>
   </dependencies>
-  <languageVersions />
+  <languageVersions>
+    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
+    <language slang="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
+    <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
+  </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />

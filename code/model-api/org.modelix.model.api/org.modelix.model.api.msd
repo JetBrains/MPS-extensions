@@ -10,6 +10,8 @@
       <sourceRoot location="model-api-jvm.jar" />
       <sourceRoot location="kotlin-stdlib-jdk8.jar" />
       <sourceRoot location="kotlin-stdlib.jar" />
+      <sourceRoot location="slf4j-api.jar" />
+      <sourceRoot location="kotlin-logging-jvm.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -18,10 +20,7 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${module}/lib/model-api-metadata.jar" />
-    <stubModelEntry path="${module}/lib/model-api-metadata-sources.jar" />
     <stubModelEntry path="${module}/lib/model-api-jvm.jar" />
-    <stubModelEntry path="${module}/lib/model-api-js.jar" />
     <stubModelEntry path="${module}/lib/kotlin-stdlib.jar" />
     <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk7.jar" />

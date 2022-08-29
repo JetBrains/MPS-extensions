@@ -74,6 +74,7 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 ext.dependencyRepositories = [
+        'https://artifacts.itemis.cloud/repository/maven-mps/',
         'https://projects.itemis.de/nexus/content/repositories/mbeddr',
         'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
 ]
@@ -135,7 +136,7 @@ dependencies {
 }
 
 repositories {
-    mavenLocal()
+    //mavenLocal()
     for (repoUrl in project.dependencyRepositories) {
         maven {
             url repoUrl

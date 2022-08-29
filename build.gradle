@@ -170,7 +170,7 @@ configurations {
 }
 
 dependencies {
-    modelApi("org.modelix:model-api:1.0+")
+    modelApi("org.modelix:model-api:[1.0.2, 2000)")
 }
 
 task copyModelApi() {

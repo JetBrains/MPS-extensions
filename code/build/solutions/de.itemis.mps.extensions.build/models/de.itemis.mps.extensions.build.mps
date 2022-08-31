@@ -12086,25 +12086,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="4VPKBwf$4SN" role="3bR37C">
-          <node concept="1BurEX" id="4VPKBwf$4SO" role="1SiIV1">
-            <node concept="398BVA" id="4VPKBwf$4SC" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4VPKBwf$4SD" role="iGT6I">
-                <property role="2Ry0Am" value="model-api" />
-                <node concept="2Ry0Ak" id="4VPKBwf$4SE" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modelix.model.api" />
-                  <node concept="2Ry0Ak" id="4VPKBwf$4SF" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="4VPKBwf$4SG" role="2Ry0An">
-                      <property role="2Ry0Am" value="slf4j-api.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="4VPKBwf$4T0" role="3bR37C">
           <node concept="1BurEX" id="4VPKBwf$4T1" role="1SiIV1">
             <node concept="398BVA" id="4VPKBwf$4SP" role="1BurEY">

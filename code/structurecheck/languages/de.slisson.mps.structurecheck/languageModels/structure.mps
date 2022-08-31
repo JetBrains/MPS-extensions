@@ -6,7 +6,7 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -230,6 +230,7 @@
   <node concept="1TIwiD" id="l6SLw3paDi">
     <property role="TrG5h" value="CompositeChecker" />
     <property role="EcuMT" value="380240910835034706" />
+    <property role="34LRSv" value="composite" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="l6SLw3paDU" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />

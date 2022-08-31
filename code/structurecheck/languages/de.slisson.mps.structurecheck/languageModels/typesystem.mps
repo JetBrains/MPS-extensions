@@ -23,7 +23,6 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
@@ -86,6 +85,11 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
     </language>
   </registry>
@@ -195,17 +199,15 @@
   <node concept="1YbPZF" id="l6SLw3nDQS">
     <property role="TrG5h" value="typeof_SequenceChecker" />
     <node concept="3clFbS" id="l6SLw3nDQT" role="18ibNy">
-      <node concept="1ZoDhX" id="l6SLw3vpPf" role="3cqZAp">
-        <property role="3wDh2S" value="false" />
-        <node concept="mw_s8" id="l6SLw3vpPm" role="1ZfhK$">
-          <node concept="2c44tf" id="l6SLw3vpPn" role="mwGJk">
-            <node concept="3uibUv" id="l6SLw3vpPo" role="2c44tc">
-              <ref role="3uigEE" to="wyt6:~Iterable" resolve="Iterable" />
-              <node concept="3uibUv" id="l6SLw3vpPp" role="11_B2D">
+      <node concept="1ZoDhX" id="56Lcj0Ks9l0" role="3cqZAp">
+        <node concept="mw_s8" id="56Lcj0Ks9l2" role="1ZfhK$">
+          <node concept="2c44tf" id="56Lcj0Ks9l3" role="mwGJk">
+            <node concept="A3Dl8" id="56Lcj0Ks9l4" role="2c44tc">
+              <node concept="3uibUv" id="56Lcj0Ks9l5" role="A3Ik2">
                 <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-                <node concept="2c44te" id="l6SLw3vpPq" role="lGtFl">
-                  <node concept="1Z2H0r" id="l6SLw3vpPr" role="2c44t1">
-                    <node concept="1YBJjd" id="l6SLw3vpPs" role="1Z2MuG">
+                <node concept="2c44te" id="56Lcj0Ks9l6" role="lGtFl">
+                  <node concept="1Z2H0r" id="56Lcj0Ks9l7" role="2c44t1">
+                    <node concept="1YBJjd" id="56Lcj0Ks9l8" role="1Z2MuG">
                       <ref role="1YBMHb" node="l6SLw3nDQV" resolve="sequenceChecker" />
                     </node>
                   </node>
@@ -214,13 +216,13 @@
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="l6SLw3vpPh" role="1ZfhKB">
-          <node concept="1Z2H0r" id="l6SLw3vpPi" role="mwGJk">
-            <node concept="2OqwBi" id="l6SLw3vpPj" role="1Z2MuG">
-              <node concept="1YBJjd" id="l6SLw3vpPk" role="2Oq$k0">
+        <node concept="mw_s8" id="56Lcj0Ks9ot" role="1ZfhKB">
+          <node concept="1Z2H0r" id="56Lcj0Ks9ou" role="mwGJk">
+            <node concept="2OqwBi" id="56Lcj0Ks9ov" role="1Z2MuG">
+              <node concept="1YBJjd" id="56Lcj0Ks9ow" role="2Oq$k0">
                 <ref role="1YBMHb" node="l6SLw3nDQV" resolve="sequenceChecker" />
               </node>
-              <node concept="3TrEf2" id="l6SLw3vpPl" role="2OqNvi">
+              <node concept="3TrEf2" id="56Lcj0Ks9ox" role="2OqNvi">
                 <ref role="3Tt5mk" to="7met:l6SLw3lTYF" resolve="sequence" />
               </node>
             </node>

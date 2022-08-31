@@ -145,6 +145,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -1271,6 +1272,32 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbJ" id="2zbm0WLl5Nk" role="3cqZAp">
+              <node concept="3clFbS" id="2zbm0WLl5Nl" role="3clFbx">
+                <node concept="3clFbF" id="2zbm0WLl5Nm" role="3cqZAp">
+                  <node concept="2OqwBi" id="2zbm0WLl5Nn" role="3clFbG">
+                    <node concept="37vLTw" id="2zbm0WLl5No" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6wQWU6AR18w" resolve="wordCell" />
+                    </node>
+                    <node concept="liA8E" id="2zbm0WLl5Np" role="2OqNvi">
+                      <ref role="37wK5l" to="93vl:357GqcbplaG" resolve="deleteWord" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2zbm0WLl5Nq" role="3clFbw">
+                <node concept="2OqwBi" id="2zbm0WLl5Nr" role="2Oq$k0">
+                  <node concept="37vLTw" id="2zbm0WLl5Ns" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6wQWU6AR18w" resolve="wordCell" />
+                  </node>
+                  <node concept="liA8E" id="2zbm0WLl5Nt" role="2OqNvi">
+                    <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
+                  </node>
+                </node>
+                <node concept="17RlXB" id="2zbm0WLl5Nu" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="2zbm0WLl5MQ" role="3cqZAp" />
           </node>
           <node concept="2ZW3vV" id="6wQWU6AR0kP" role="3clFbw">
             <node concept="3uibUv" id="6wQWU6AR0AV" role="2ZW6by">
@@ -1421,6 +1448,31 @@
                 <property role="3cmrfH" value="0" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2zbm0WLkW4o" role="3cqZAp">
+          <node concept="3clFbS" id="2zbm0WLkW4q" role="3clFbx">
+            <node concept="3clFbF" id="2zbm0WLkZ65" role="3cqZAp">
+              <node concept="2OqwBi" id="2zbm0WLkD41" role="3clFbG">
+                <node concept="37vLTw" id="2zbm0WLkCuV" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6wQWU6AQXHI" resolve="selectedWord" />
+                </node>
+                <node concept="liA8E" id="2zbm0WLkE0a" role="2OqNvi">
+                  <ref role="37wK5l" to="93vl:357GqcbplaG" resolve="deleteWord" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2zbm0WLkYxY" role="3clFbw">
+            <node concept="2OqwBi" id="2zbm0WLkX50" role="2Oq$k0">
+              <node concept="37vLTw" id="2zbm0WLkW8L" role="2Oq$k0">
+                <ref role="3cqZAo" node="6wQWU6AQXHI" resolve="selectedWord" />
+              </node>
+              <node concept="liA8E" id="2zbm0WLkY8a" role="2OqNvi">
+                <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
+              </node>
+            </node>
+            <node concept="17RlXB" id="2zbm0WLkZ2q" role="2OqNvi" />
           </node>
         </node>
       </node>
@@ -1751,7 +1803,7 @@
   </node>
   <node concept="sE7Ow" id="6wQWU6B2C9E">
     <property role="TrG5h" value="RichtextSelectionRootEnd" />
-    <property role="2uzpH1" value="Select Richtext Root Home" />
+    <property role="2uzpH1" value="Select Richtext Root End" />
     <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
     <node concept="tnohg" id="6wQWU6B2C9F" role="tncku">
       <node concept="3clFbS" id="6wQWU6B2C9G" role="2VODD2">

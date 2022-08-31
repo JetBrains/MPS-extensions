@@ -57,6 +57,7 @@
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions/com.mbeddr.mpsutil.intentions.mpl" folder="intentionsmenu" />
+      <modulePath path="$PROJECT_DIR$/jackson/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.baselang/de.itemis.model.merge.baselang.mpl" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.baselang/sandbox/de.itemis.model.merge.baselang.sandbox.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.diamond/de.itemis.model.merge.diamond.mpl" folder="modelmerger2.test.language" />
@@ -66,6 +67,9 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.collection/de.itemis.model.simple.demo.collection.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.property/de.itemis.model.simple.demo.property.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.reference/de.itemis.model.simple.demo.reference.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/de.itemis.mps.modelmerger.mpl" folder="modelmerger" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.modelmerger/sandbox/de.itemis.mps.modelmerger.testhelper.msd" folder="modelmerger" />
+      <modulePath path="$PROJECT_DIR$/languages/test.de.itemis.mps.modelmerger.testlanguage/test.de.itemis.mps.modelmerger.testlanguage.mpl" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/langvis/languages/com.dslfoundry.langvis.demolang/com.dslfoundry.langvis.demolang.mpl" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.demo/com.dslfoundry.langvis.demo.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" folder="langvis" />
@@ -77,8 +81,10 @@
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.sandbox/de.itemis.mps.editor.math.sandbox.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.api/org.modelix.model.api.msd" folder="model-api" />
+      <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.metamodel.mpsgenerator/org.modelix.model.metamodel.mpsgenerator.msd" folder="model-api" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.mpsadapters/org.modelix.model.mpsadapters.msd" folder="model-api" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.repositoryconcepts/org.modelix.model.repositoryconcepts.mpl" folder="model-api" />
+      <modulePath path="$PROJECT_DIR$/model-api/test.org.modelix.model.mpsadapters/test.org.modelix.model.mpsadapters.msd" folder="model-api.tests" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.runtime/com.mbeddr.mpsutil.modellisteners.runtime.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandbox/com.mbeddr.mpsutil.modellisteners.sandbox.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandboxlang/com.mbeddr.mpsutil.modellisteners.sandboxlang.mpl" folder="modellisteners" />
@@ -162,7 +168,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.runtime/de.itemis.model.merge.runtime.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.simple.demo/de.itemis.model.merge.simple.demo.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/model-api/test.org.modelix.model.mpsadapters/test.org.modelix.model.mpsadapters.msd" folder="model-api.tests" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.sandbox/de.slisson.mps.structurecheck.sandbox.msd" folder="structurecheck" />

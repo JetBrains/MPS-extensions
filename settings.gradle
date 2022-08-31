@@ -1,3 +1,1 @@
 rootProject.name = 'MPS-extensions'
-
-include 'model-api'

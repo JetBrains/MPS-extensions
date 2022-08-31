@@ -74,6 +74,7 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 ext.dependencyRepositories = [
+        'https://artifacts.itemis.cloud/repository/maven-mps/',
         'https://projects.itemis.de/nexus/content/repositories/mbeddr',
         'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
 ]
@@ -135,7 +136,7 @@ dependencies {
 }
 
 repositories {
-    mavenLocal()
+    //mavenLocal()
     for (repoUrl in project.dependencyRepositories) {
         maven {
             url repoUrl
@@ -162,6 +163,41 @@ if (project.skipResolveMps) {
         into mpsHomeDir
     }
 }
+
+// -------- Model API ----------------------
+
+configurations {
+    modelApi
+}
+
+dependencies {
+    modelApi("org.modelix:model-api:[1.0.2, 2000)")
+    modelApi("org.modelix:metamodel-generator:[1.0.2, 2000)")
+}
+
+task copyModelApi() {
+    dependsOn configurations.modelApi
+    doLast {
+        // copy transitive dependencies without version in the file name
+        // otherwise each new version would require a change of the MPS solution
+        def libFolder = file("$projectDir/code/model-api/org.modelix.model.api/lib")
+        libFolder.deleteDir()
+        libFolder.mkdir()
+        def versionsFile = file("$libFolder/versions.txt")
+        for (final def artifact in configurations.modelApi.resolvedConfiguration.resolvedArtifacts) {
+            // these libs are part of MPS
+            if (artifact.moduleVersion.id.name.startsWith("log4j")) continue
+            if (artifact.moduleVersion.id.name.startsWith("annotations")) continue
+
+            def sourceFile = java.nio.file.Path.of(artifact.file.absolutePath)
+            def targetFile = java.nio.file.Path.of(libFolder.absolutePath).resolve(artifact.moduleVersion.id.name + "." + artifact.extension)
+            java.nio.file.Files.copy(sourceFile, targetFile)
+            versionsFile.append(artifact.file.name + "\n")
+        }
+    }
+}
+
+// -----------------------------------------
 
 // Ant support
 configurations {
@@ -202,8 +238,7 @@ ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/jav
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
 		resolveMps,
-        ':model-api:assemble',
-        ':model-api:copyJarsToMps',
+        copyModelApi,
 ]) {
     script "$rootDir/scripts/build.xml"
 }

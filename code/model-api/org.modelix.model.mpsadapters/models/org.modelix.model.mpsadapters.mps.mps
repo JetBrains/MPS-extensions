@@ -15511,7 +15511,7 @@
                     <node concept="3cpWs6" id="25OQfQHQShg" role="3cqZAp">
                       <node concept="2ShNRf" id="25OQfQHQShh" role="3cqZAk">
                         <node concept="1pGfFk" id="25OQfQHQShi" role="2ShVmc">
-                          <ref role="37wK5l" node="25OQfQHQeC1" resolve="LanguageDependencyAsNode" />
+                          <ref role="37wK5l" node="25OQfQHQeC1" resolve="SingleLanguageDependencyAsNode" />
                           <node concept="2OqwBi" id="25OQfQHQShj" role="37wK5m">
                             <node concept="2GrUjf" id="25OQfQHQShk" role="2Oq$k0">
                               <ref role="2Gs0qQ" node="25OQfQHQSh5" resolve="entry" />

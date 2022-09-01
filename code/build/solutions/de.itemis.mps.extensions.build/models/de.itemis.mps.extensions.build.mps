@@ -1664,9 +1664,6 @@
       <node concept="m$_yC" id="7szUFELHk3g" role="m$_yJ">
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
-      <node concept="m$_yC" id="7szUFELOg4w" role="m$_yJ">
-        <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
-      </node>
       <node concept="3_J27D" id="7szUFELHeHn" role="m_cZH">
         <node concept="3Mxwew" id="7szUFELHeHo" role="3MwsjC">
           <property role="3MwjfP" value="de.itemis.mps.editor.widgets" />
@@ -1680,6 +1677,9 @@
         <node concept="3Mxwew" id="2QgPOUCCDkN" role="3MwsjC">
           <property role="3MwjfP" value="A library of widgets (checkbox, dropdown, etc.) that can be used in MPS editors" />
         </node>
+      </node>
+      <node concept="m$_yC" id="7szUFELOg4w" role="m$_yJ">
+        <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
       </node>
     </node>
     <node concept="2G$12M" id="7szUFELHfAe" role="3989C9">
@@ -2238,11 +2238,6 @@
             <ref role="3bR37D" node="7TpiM9SsCWu" resolve="de.itemis.mps.mouselistener.runtime" />
           </node>
         </node>
-        <node concept="1SiIV0" id="32XuThjIW2J" role="3bR37C">
-          <node concept="3bR9La" id="32XuThjIW2K" role="1SiIV1">
-            <ref role="3bR37D" node="6$BmuzArJZq" resolve="de.itemis.mps.tooltips.runtime" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="3xFG3bj5MmJ" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5MmK" role="3rtmxm">
             <node concept="3qWCbU" id="3xFG3bj5MmL" role="3LXTna">
@@ -2285,6 +2280,11 @@
             <node concept="3qWCbU" id="2eucapX07K7" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="32XuThjIW2J" role="3bR37C">
+          <node concept="3bR9La" id="32XuThjIW2K" role="1SiIV1">
+            <ref role="3bR37D" node="6$BmuzArJZq" resolve="de.itemis.mps.tooltips.runtime" />
           </node>
         </node>
       </node>
@@ -11126,50 +11126,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="3rtmxn" id="5py4VqXmLJW" role="3bR31x">
-          <node concept="3LXTmp" id="5py4VqXmLJX" role="3rtmxm">
-            <node concept="3qWCbU" id="5py4VqXmLJY" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
-            <node concept="398BVA" id="5py4VqXmLJZ" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="5py4VqXmLK0" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="5py4VqXmLK1" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="42yR2aTci7R" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="2eucapX087A" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="42yR2aTbzQK" role="1HemKq">
-            <node concept="398BVA" id="42yR2aTbzQ_" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="42yR2aTbzQA" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="42yR2aTbzQB" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="42yR2aTbzQC" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
-                    <node concept="2Ry0Ak" id="42yR2aTbzQD" role="2Ry0An">
-                      <property role="2Ry0Am" value="models" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="42yR2aTbzQL" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="42yR2aTbzPQ" role="3bR37C">
           <node concept="1BurEX" id="42yR2aTbzPR" role="1SiIV1">
             <node concept="398BVA" id="42yR2aTbzPD" role="1BurEY">
@@ -11211,6 +11167,50 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="5py4VqXmLJW" role="3bR31x">
+          <node concept="3LXTmp" id="5py4VqXmLJX" role="3rtmxm">
+            <node concept="3qWCbU" id="5py4VqXmLJY" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="5py4VqXmLJZ" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="5py4VqXmLK0" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="5py4VqXmLK1" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="42yR2aTci7R" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="2eucapX087A" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="42yR2aTbzQK" role="1HemKq">
+            <node concept="398BVA" id="42yR2aTbzQ_" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="42yR2aTbzQA" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="42yR2aTbzQB" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="42yR2aTbzQC" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                    <node concept="2Ry0Ak" id="42yR2aTbzQD" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="42yR2aTbzQL" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
@@ -15160,6 +15160,74 @@
     </node>
     <node concept="2G$12M" id="GuygFg7$fH" role="3989C9">
       <property role="TrG5h" value="mps-modelmergerTest" />
+      <node concept="1E1JtD" id="7T18c7FoROA" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.model.merge.simple.demo.annotated" />
+        <property role="3LESm3" value="c527d4ce-1a24-433b-b1ec-929a89de103a" />
+        <node concept="398BVA" id="7T18c7FoRSW" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="7T18c7FoRT2" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="7T18c7FoRT7" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo.annotated" />
+              <node concept="2Ry0Ak" id="7T18c7FoRTc" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo.annotated.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="7T18c7FoRX$" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="7T18c7FoRX_" role="1HemKq">
+            <node concept="398BVA" id="7T18c7FoRXm" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7T18c7FoRXn" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7T18c7FoRXo" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo.annotated" />
+                  <node concept="2Ry0Ak" id="7T18c7FoRXp" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7T18c7FoRXA" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="7T18c7FoRXB" role="1TViLv">
+          <property role="TrG5h" value="de.itemis.model.merge.simple.demo.annotated" />
+          <property role="3LESm3" value="b2799476-be70-41c7-bdec-53f596226b74" />
+          <node concept="1BupzO" id="7T18c7FoRXT" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="7T18c7FoRXU" role="1HemKq">
+              <node concept="398BVA" id="7T18c7FoRXC" role="3LXTmr">
+                <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+                <node concept="2Ry0Ak" id="7T18c7FoRXD" role="iGT6I">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="7T18c7FoRXE" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo.annotated" />
+                    <node concept="2Ry0Ak" id="7T18c7FoRXF" role="2Ry0An">
+                      <property role="2Ry0Am" value="generator" />
+                      <node concept="2Ry0Ak" id="7T18c7FoRXG" role="2Ry0An">
+                        <property role="2Ry0Am" value="templates" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="7T18c7FoRXV" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtD" id="3aF8hCvy3sT" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.model.merge.diamond" />
@@ -15654,6 +15722,11 @@
         <node concept="1SiIV0" id="6QQNrZIiQO" role="3bR37C">
           <node concept="3bR9La" id="6QQNrZIiQP" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7T18c7FoSlw" role="3bR37C">
+          <node concept="3bR9La" id="7T18c7FoSlx" role="1SiIV1">
+            <ref role="3bR37D" node="7T18c7FoROA" resolve="de.itemis.model.merge.simple.demo.annotated" />
           </node>
         </node>
       </node>

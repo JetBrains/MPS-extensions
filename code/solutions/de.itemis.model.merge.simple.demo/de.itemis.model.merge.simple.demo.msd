@@ -26,9 +26,11 @@
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="false">446c26eb-2b7b-4bf0-9b35-f83fa582753e(jetbrains.mps.lang.modelapi)</dependency>
+    <dependency reexport="false">c527d4ce-1a24-433b-b1ec-929a89de103a(de.itemis.model.merge.simple.demo.annotated)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:539e8939-08ef-497c-a5fd-25dd10137a55:de.itemis.model.merge" version="0" />
+    <language slang="l:c527d4ce-1a24-433b-b1ec-929a89de103a:de.itemis.model.merge.simple.demo.annotated" version="0" />
     <language slang="l:8688ed72-e0ba-44cb-9688-5c8397cb5bbb:de.itemis.model.simple.demo.children" version="0" />
     <language slang="l:e50b0500-6fd7-4c7f-a730-9d841358ce8b:de.itemis.model.simple.demo.collection" version="0" />
     <language slang="l:36ead753-43ea-471e-bcb9-d4fb1e637bbc:de.itemis.model.simple.demo.collection.keeper" version="0" />
@@ -43,7 +45,7 @@
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
     <language slang="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" version="5" />
-    <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="18" />
+    <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="19" />
     <language slang="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" version="5" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
@@ -57,6 +59,7 @@
     <module reference="539e8939-08ef-497c-a5fd-25dd10137a55(de.itemis.model.merge)" version="0" />
     <module reference="aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)" version="0" />
     <module reference="3bfac093-0c90-42c7-87af-7dbe19b8f3e0(de.itemis.model.merge.simple.demo)" version="0" />
+    <module reference="c527d4ce-1a24-433b-b1ec-929a89de103a(de.itemis.model.merge.simple.demo.annotated)" version="0" />
     <module reference="8688ed72-e0ba-44cb-9688-5c8397cb5bbb(de.itemis.model.simple.demo.children)" version="0" />
     <module reference="e50b0500-6fd7-4c7f-a730-9d841358ce8b(de.itemis.model.simple.demo.collection)" version="0" />
     <module reference="36ead753-43ea-471e-bcb9-d4fb1e637bbc(de.itemis.model.simple.demo.collection.keeper)" version="0" />

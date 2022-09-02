@@ -189,6 +189,7 @@ task copyModelApi() {
             // these libs are part of MPS
             if (artifact.moduleVersion.id.name.startsWith("log4j")) continue
             if (artifact.moduleVersion.id.name.startsWith("annotations")) continue
+            if (artifact.moduleVersion.id.name.startsWith("slf4j-api")) continue
 
             def sourceFile = java.nio.file.Path.of(artifact.file.absolutePath)
             def targetFile = java.nio.file.Path.of(libFolder.absolutePath).resolve(artifact.moduleVersion.id.name + "." + artifact.extension)

@@ -426,7 +426,7 @@ group "io.github.jetbrains.mps-extensions"
 apply plugin: "modelix-gradle-mpsbuild-plugin"
 
 mpsBuild {
-    dependsOn(":model-api:assemble", ":model-api:copyJarsToMps")
+    dependsOn(copyModelApi)
 
     mpsVersion("$mpsVersion")
     stubs("org.apache.commons:commons-math3:3.6.1")

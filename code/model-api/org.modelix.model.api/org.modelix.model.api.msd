@@ -10,7 +10,6 @@
       <sourceRoot location="model-api-jvm.jar" />
       <sourceRoot location="kotlin-stdlib-jdk8.jar" />
       <sourceRoot location="kotlin-stdlib.jar" />
-      <sourceRoot location="slf4j-api.jar" />
       <sourceRoot location="kotlin-logging-jvm.jar" />
       <sourceRoot location="snakeyaml-engine.jar" />
       <sourceRoot location="kotlinpoet.jar" />
@@ -41,7 +40,6 @@
     <stubModelEntry path="${module}/lib/metamodel-generator.jar" />
     <stubModelEntry path="${module}/lib/metamodel-runtime-jvm.jar" />
     <stubModelEntry path="${module}/lib/model-api-jvm.jar" />
-    <stubModelEntry path="${module}/lib/slf4j-api.jar" />
     <stubModelEntry path="${module}/lib/snakeyaml-engine.jar" />
   </stubModelEntries>
   <sourcePath />

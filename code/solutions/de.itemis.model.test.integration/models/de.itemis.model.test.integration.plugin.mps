@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:83d91843-991e-414a-ada7-28ed0de69bb1(de.itemis.model.merge.test.integration.plugin)">
+<model ref="r:83d91843-991e-414a-ada7-28ed0de69bb1(de.itemis.model.test.integration.plugin)">
   <persistence version="9" />
   <languages>
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1621b589-fa59-49ff-8a3b-d2b421f54b4c(de.itemis.model.merge.simple.demo.leftAnnotation)">
+<model ref="r:2fba684e-e94e-434a-8dc5-34578fcfb7c9(de.itemis.model.test.integration.rightAnnotation)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
@@ -22,11 +22,11 @@
       </concept>
     </language>
   </registry>
-  <node concept="3sYce9" id="W4mNzkALeS">
+  <node concept="3sYce9" id="hG_e7_aKU3">
     <property role="3sYcec" value="2" />
-    <node concept="3sYaGD" id="6euAOzl6Ror" role="lGtFl">
+    <node concept="3sYaGD" id="hG_e7_HOT9" role="lGtFl">
       <property role="3sYaQM" value="1" />
-      <property role="2R7WvQ" value="3" />
+      <property role="2R7WvQ" value="4" />
     </node>
   </node>
 </model>

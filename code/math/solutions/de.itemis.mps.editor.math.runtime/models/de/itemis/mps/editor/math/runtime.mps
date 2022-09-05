@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:34f40b74-cb38-46ba-8e5b-13b443c803c4(de.itemis.mps.editor.math.runtime)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
@@ -4696,6 +4697,39 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7wCpClEQc3x" role="3clF47">
+        <node concept="3clFbJ" id="uffbfdSvg0" role="3cqZAp">
+          <node concept="3clFbS" id="uffbfdSvg2" role="3clFbx">
+            <node concept="3cpWs6" id="uffbfdSFjg" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="uffbfdS_r1" role="3clFbw">
+            <node concept="3clFbC" id="uffbfdSEhE" role="3uHU7w">
+              <node concept="3b6qkQ" id="uffbfdSEIy" role="3uHU7w">
+                <property role="$nhwW" value="0.0" />
+              </node>
+              <node concept="2OqwBi" id="uffbfdSBPJ" role="3uHU7B">
+                <node concept="37vLTw" id="uffbfdSALt" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7wCpClER04H" resolve="targetRect" />
+                </node>
+                <node concept="liA8E" id="uffbfdSCCc" role="2OqNvi">
+                  <ref role="37wK5l" to="fbzs:~RectangularShape.getHeight()" resolve="getHeight" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="uffbfdSzL8" role="3uHU7B">
+              <node concept="2OqwBi" id="uffbfdSxyS" role="3uHU7B">
+                <node concept="37vLTw" id="uffbfdSwNz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7wCpClER04H" resolve="targetRect" />
+                </node>
+                <node concept="liA8E" id="uffbfdSyUS" role="2OqNvi">
+                  <ref role="37wK5l" to="fbzs:~RectangularShape.getWidth()" resolve="getWidth" />
+                </node>
+              </node>
+              <node concept="3b6qkQ" id="uffbfdS$vv" role="3uHU7w">
+                <property role="$nhwW" value="0.0" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="7wCpClER6VX" role="3cqZAp">
           <node concept="3cpWsn" id="7wCpClER6VY" role="3cpWs9">
             <property role="TrG5h" value="g2" />

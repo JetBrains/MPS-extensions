@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.model.test.integration" uuid="482894d2-7313-4882-9f4b-df225a09cf8a" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="de.itemis.model.merge.test.integration" uuid="482894d2-7313-4882-9f4b-df225a09cf8a" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -40,7 +40,7 @@
     <module reference="aa8cbd62-5e1f-4d0b-a6e2-189711774c91(de.itemis.model.merge.runtime)" version="0" />
     <module reference="3bfac093-0c90-42c7-87af-7dbe19b8f3e0(de.itemis.model.merge.simple.demo)" version="0" />
     <module reference="c527d4ce-1a24-433b-b1ec-929a89de103a(de.itemis.model.merge.simple.demo.annotated)" version="0" />
-    <module reference="482894d2-7313-4882-9f4b-df225a09cf8a(de.itemis.model.test.integration)" version="0" />
+    <module reference="482894d2-7313-4882-9f4b-df225a09cf8a(de.itemis.model.merge.test.integration)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />
     <module reference="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" version="0" />

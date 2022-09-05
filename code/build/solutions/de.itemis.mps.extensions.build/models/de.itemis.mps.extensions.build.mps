@@ -15955,7 +15955,7 @@
       </node>
       <node concept="1E1JtA" id="3oyo9Wzq1vN" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.itemis.model.test.integration" />
+        <property role="TrG5h" value="de.itemis.model.merge.test.integration" />
         <property role="3LESm3" value="482894d2-7313-4882-9f4b-df225a09cf8a" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="3oyo9Wzq1$f" role="3LF7KH">
@@ -15963,9 +15963,9 @@
           <node concept="2Ry0Ak" id="3oyo9Wzq1$l" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
             <node concept="2Ry0Ak" id="3oyo9Wzq1$q" role="2Ry0An">
-              <property role="2Ry0Am" value="de.itemis.model.test.integration" />
+              <property role="2Ry0Am" value="de.itemis.model.merge.test.integration" />
               <node concept="2Ry0Ak" id="3oyo9Wzq1$v" role="2Ry0An">
-                <property role="2Ry0Am" value="de.itemis.model.test.integration.msd" />
+                <property role="2Ry0Am" value="de.itemis.model.merge.test.integration.msd" />
               </node>
             </node>
           </node>
@@ -15994,20 +15994,20 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="3oyo9Wzq1FO" role="1HemKq">
-            <node concept="398BVA" id="3oyo9Wzq1F_" role="3LXTmr">
+          <node concept="3LXTmp" id="1uXCNdyQr76" role="1HemKq">
+            <node concept="398BVA" id="1uXCNdyQr6S" role="3LXTmr">
               <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3oyo9Wzq1FA" role="iGT6I">
+              <node concept="2Ry0Ak" id="1uXCNdyQr6T" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="3oyo9Wzq1FB" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.model.test.integration" />
-                  <node concept="2Ry0Ak" id="3oyo9Wzq1FC" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1uXCNdyQr6U" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.test.integration" />
+                  <node concept="2Ry0Ak" id="1uXCNdyQr6V" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="3oyo9Wzq1FP" role="3LXTna">
+            <node concept="3qWCbU" id="1uXCNdyQr77" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -19128,7 +19128,7 @@
         <ref role="L2wRA" node="7g5FWGK0Kzy" resolve="test.org.modelix.model.mpsadapters" />
       </node>
       <node concept="L2wRC" id="7RNWCAgLhX_" role="39821P">
-        <ref role="L2wRA" node="3oyo9Wzq1vN" resolve="de.itemis.model.test.integration" />
+        <ref role="L2wRA" node="3oyo9Wzq1vN" resolve="de.itemis.model.merge.test.integration" />
       </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
@@ -19189,7 +19189,7 @@
         <ref role="22LTRN" node="2UnEDPCpnjG" resolve="de.itemis.model.merge.simple.demo" />
       </node>
       <node concept="22LTRM" id="7RNWCAgLhXh" role="22LTRK">
-        <ref role="22LTRN" node="3oyo9Wzq1vN" resolve="de.itemis.model.test.integration" />
+        <ref role="22LTRN" node="3oyo9Wzq1vN" resolve="de.itemis.model.merge.test.integration" />
       </node>
       <node concept="22LTRM" id="7RNWCAgSng0" role="22LTRK">
         <ref role="22LTRN" node="5Jy3PcPRnpY" resolve="de.itemis.model.merge.baselang.sandbox" />

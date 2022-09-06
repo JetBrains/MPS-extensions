@@ -136,7 +136,7 @@ dependencies {
 }
 
 repositories {
-    //mavenLocal()
+    mavenLocal()
     for (repoUrl in project.dependencyRepositories) {
         maven {
             url repoUrl
@@ -171,8 +171,10 @@ configurations {
 }
 
 dependencies {
-    modelApi("org.modelix:model-api:[1.0.2, 2000)")
-    modelApi("org.modelix:metamodel-generator:[1.0.2, 2000)")
+    modelApi("org.modelix:model-api:1.1.0-extract.core.3")
+    modelApi("org.modelix:metamodel-generator:1.1.0-extract.core.3")
+    //modelApi("org.modelix:model-api:[1.0.2, 2000)")
+    //modelApi("org.modelix:metamodel-generator:[1.0.2, 2000)")
 }
 
 task copyModelApi() {

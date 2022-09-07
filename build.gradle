@@ -7,7 +7,7 @@ buildscript {
     }
     dependencies {
         classpath('de.itemis.mps:mps-gradle-plugin:1.7+')
-        classpath("org.modelix.mpsbuild:gradle-plugin:1.0.+")
+        //classpath("org.modelix.mpsbuild:gradle-plugin:1.0.+")
     }
 }
 
@@ -412,6 +412,7 @@ github {
 
 githubRelease.dependsOn packageExtensions
 
+/*
 group "io.github.jetbrains.mps-extensions"
 apply plugin: "modelix-gradle-mpsbuild-plugin"
 
@@ -596,3 +597,4 @@ mpsBuild {
         module("org.modelix.model.repositoryconcepts")
     }
 }
+*/

@@ -11,3 +11,4 @@ Should you not feel comfortable to start with a code contribution additions to o
 For bugfixes, documentation and small new features you can open a pull request right away. Bigger features or new extensions should get some discussion in an issue just to make sure we are all on the same page about what is going to be done. If you are unsure what to do don't hesitate to open a issue and ask for help.
 
 If you want to add a completely new extension, please refer to [adding a new extension](adding.md) for more information.
+Please consider contributing documentation for the new extension.   

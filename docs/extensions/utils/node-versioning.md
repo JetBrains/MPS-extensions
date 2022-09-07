@@ -16,14 +16,14 @@ When we speak of a node in this document we mean the node and **all** of its chi
 
 When we speak of the *dependencies* of a node we mean all nodes that are referenced by either node itself or it children. 
 ## Meta Model
-![Meta Model](nodeversion-meta.png)
+![Meta Model](node-versioning/nodeversion-meta.png)
 
  The version information is stored on the node that is versioned as a `NodeAttribute` called `NodeVersion`. The `NodeVersion` contains a copy of the node at point in time when the version was created. In addition to the copy it also stores a *VersionNumber* which is a simple integer incremented with each version that is created. The *VersionNumber* has no other semantics than to provide ordering to the versions. To be able to detect changes of a node it also stores a hash of the node. The `NodeVersion` also contains a list of all the dependencies (reference targets) of the node and its version, these are called `LinkVersion`. 
 
 ## Change Detection 
 On first glance change detection looks pretty straight forward. A node has changed when either the node itself has changed or one of the dependencies:
 
-![Change Calculation](CodeCogsEqn.gif)
+![Change Calculation](node-versioning/CodeCogsEqn.gif)
 
 But if we at MPS models they are not simple tree but graphs that allow reference cycles. In this cases we cannot simply traverse the complete graph over the edges since we would end up in a cycle. Imagine model like this:
 

@@ -1,29 +1,35 @@
-# JetBrains MPS Text Generator Plugin
+# Text Generator Plugin
 
-This extension is an alternative text generator for MPS, using the standard model to model generation mechanisms (node macros, loop macros, property macros, etc.) to generate plain text, as opposed to MPS's programmatical textgens.
+**Language Namespace :** `com.dslfoundry.plaintextgen`
+
+This extension is an alternative text generator for MPS, using the standard model to model generation mechanisms (node macros, loop macros, property macros, etc.) to generate plain text, as opposed to MPS's programmatical text generation.
 
 It allows you to:
-* generate directly to plain text without modeling your generation target language
-* generate to multiple text formats in the same generator run
-* create multiple textgens that obey generator priority rules
+
+- generate directly to plain text without modeling your generation target language
+- target multiple text formats in the same generator run
+- create multiple textgens that obey generator priority rules
 
 The plugin also enables copy/pasting an existing piece of text and parameterizing parts of this text using macros.
 
 For fine-grained control of whitespaces and indent-characters, the plaintextflow extension is available. It can be imported as a separate language (extending the plaintextgen language), so it doesn't disrupt existing plaintextgen functionality.
 
 ## Quickstart
+
 The quickest way to install the plaintextgen plugin is to add it from the JetBrains plugins repository:
-* in MPS, select `File` -> `Settings` -> `Plugins` -> `Browse repositories...`
-* search for `plaintextgen`
-* press `Install`
+
+- in MPS, select `File` -> `Settings` -> `Plugins` -> `Browse repositories...`
+- search for `plaintextgen`
+- press `Install`
 
 After installation, add `com.dslfoundry.plaintextgen` to the `Used Languages` of your generator (`main@generator` model) and create a `TextgenText` template in your generator.
-For examples, see the test language in this repository.
+There's a test language in this repository that demonstrates this language.
 
 # Presentations and tutorials
+
 A [tutorial on plaintextgen](https://dslfoundry.com/plaintextgen-tutorial/) is available on the [DSLFoundry blog](https://dslfoundry.com/).
 
-A presentation that was held at the 27 February 2019 meeting of [MPS Power Users Group](https://mps-community.nl/power-users-group/) can be found at the [DSLFoundry MPS-teaching repository](https://github.com/DSLFoundry/mps-teaching/blob/master/Plaintextgen.pdf).
+A presentation that was held at the 27 February 2019 meeting of [MPS Power Users Group](https://mps-community.nl/power-users-group/) that can be found at the [DSLFoundry MPS-teaching repository](https://github.com/DSLFoundry/mps-teaching/blob/master/Plaintextgen.pdf).
 
 ## Main features
 * Group and layout your content using horizontal, vertical, and indented collections

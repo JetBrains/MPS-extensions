@@ -36,8 +36,9 @@ We are also working on providing a zip file with all the sandboxes we have in ou
 ### Artefacts in the Nexus
 
 We also provide the artefacts as a maven repository. Where you can fetch them during your CI build to setup your local development environment.
+Please switch to the new nexus server when possible. The old nexus server will be turned off in the future.
 
-Maven:
+Maven (old nexus):
 
 ```
 <project ...>
@@ -52,15 +53,36 @@ Maven:
 		 <dependency>
 		  <groupId>de.itemis.mps</groupId>
 		  <artifactId>extensions</artifactId>
-		  <version>2020.2</version>
+		  <version>2021.2</version>
 		  <type>zip</type>
 		</dependency>
 	</dependencies>
 </project>
-
 ```
 
-Gradle:
+Maven (new nexus):
+
+```
+<project ...>
+	<repositories>
+	    <repository>
+	      <id>itemis.mbeddr</id>
+	      <url>https://artifacts.itemis.cloud/repository/maven-mps/</url>
+	    </repository>
+	 </repositories>
+
+	 <dependencies ...>
+		 <dependency>
+		  <groupId>de.itemis.mps</groupId>
+		  <artifactId>extensions</artifactId>
+		  <version>2021.2</version>
+		  <type>zip</type>
+		</dependency>
+	</dependencies>
+</project>
+```
+
+Gradle (old nexus):
 
 ```
     repositories {
@@ -72,7 +94,23 @@ Gradle:
     }
 
     dependencies {
-        mpsExtensions "de.itemis.mps:extensions:2020.2.+"
+        mpsExtensions "de.itemis.mps:extensions:2021.2.+"
+    }
+```
+
+Gradle (new nexus):
+
+```
+    repositories {
+        maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
+    }
+
+	configurations {
+        mpsExtensions
+    }
+
+    dependencies {
+        mpsExtensions "de.itemis.mps:extensions:2021.2.+"
     }
 ```
 
@@ -96,7 +134,7 @@ A version in maintenance will not get actively new features and is only maintain
 | 2019.3 | maintenance |
 | 2019.2 | **not maintained**  |
 | 2019.1 | **not maintained**  |
-| 2018.3 | maintenance |
+| 2018.3 | **not maintained** |
 | 2018.2 | **not maintained**  |
 | 2018.1 | **not maintained** |
 | 2017.3 | **not maintained** |
@@ -114,7 +152,7 @@ The most obvious change here is that the version of the mbeddr artefacts was inc
 
 We did this change to ensure that you do not accidentally get the new version. See the last section for the reason.
 
-The 1.0+ versions remain in our nexus as they are in the current state but will not get any updates. If you want to get newer versions of the mbeddr platform your have to change your dependency version. If you download your artefacts manually from the mbeddr Github page everything is the same as before but the version number is incremented.
+The 1.0+ versions remain in our nexus as they are in the current state but will not get any updates. If you want to get newer versions of the mbeddr platform your have to change your dependency version. If you download your artefacts manually from the mbeddr GitHub page everything is the same as before but the version number is incremented.
 
 Other than that the artefacts didn't change and still contain the repackaged platform. We are planning to add a additional artefact that doesn't repackaged the MPS-extensions in the future to allow you more flexibility.
 

@@ -171,10 +171,9 @@ configurations {
 }
 
 dependencies {
-    modelApi("org.modelix:model-api:1.1.0-extract.core.3")
-    modelApi("org.modelix:metamodel-generator:1.1.0-extract.core.3")
-    //modelApi("org.modelix:model-api:[1.0.2, 2000)")
-    //modelApi("org.modelix:metamodel-generator:[1.0.2, 2000)")
+    def modelixCoreVersion = "1.2.+"
+    modelApi("org.modelix:model-api:$modelixCoreVersion")
+    modelApi("org.modelix:metamodel-generator:$modelixCoreVersion")
 }
 
 task copyModelApi() {

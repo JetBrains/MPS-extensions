@@ -545,6 +545,17 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbJ" id="ygSdP$vQjM" role="3cqZAp">
+                    <node concept="3clFbS" id="ygSdP$vQjO" role="3clFbx">
+                      <node concept="3cpWs6" id="ygSdP$w10n" role="3cqZAp" />
+                    </node>
+                    <node concept="3clFbC" id="ygSdP$vWQz" role="3clFbw">
+                      <node concept="10Nm6u" id="ygSdP$vYxB" role="3uHU7w" />
+                      <node concept="37vLTw" id="ygSdP$vTkL" role="3uHU7B">
+                        <ref role="3cqZAo" node="3gBYXhg3Ncu" resolve="myModel" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3cpWs8" id="7J3AJtYarI9" role="3cqZAp">
                     <node concept="3cpWsn" id="7J3AJtYarIa" role="3cpWs9">
                       <property role="TrG5h" value="myModule" />

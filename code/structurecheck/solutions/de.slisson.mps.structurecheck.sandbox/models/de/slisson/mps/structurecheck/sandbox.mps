@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:cc9af6eb-7fec-4ac7-8865-77d3a8f6764c(de.slisson.mps.structurecheck.sandbox)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="true" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" name="de.slisson.mps.structurecheck" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -145,8 +145,8 @@
         <node concept="3cpWs8" id="l6SLw3MO5w" role="3cqZAp">
           <node concept="3cpWsn" id="l6SLw3MO5z" role="3cpWs9">
             <property role="TrG5h" value="root" />
-            <node concept="_YKpA" id="l6SLw3MO5s" role="1tU5fm">
-              <node concept="3uibUv" id="l6SLw3MOcN" role="_ZDj9">
+            <node concept="_YKpA" id="56Lcj0Kt02w" role="1tU5fm">
+              <node concept="3uibUv" id="56Lcj0Kt02y" role="_ZDj9">
                 <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
               </node>
             </node>
@@ -194,10 +194,10 @@
               <node concept="67Jih" id="l6SLw3JwJz" role="64kAg">
                 <node concept="68$_a" id="l6SLw3JwJ$" role="68$wl">
                   <node concept="64nUm" id="l6SLw3JwJ_" role="68$_y">
-                    <node concept="66foW" id="l6SLw3JwJA" role="64nUG" />
                     <node concept="3cmrfG" id="l6SLw3JwJB" role="64nUD">
                       <property role="3cmrfH" value="2" />
                     </node>
+                    <node concept="66foW" id="l6SLw3JwJA" role="64nUG" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="l6SLw3JwJC" role="67G9Z">

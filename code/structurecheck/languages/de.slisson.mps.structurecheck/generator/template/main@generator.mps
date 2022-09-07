@@ -156,6 +156,7 @@
       <concept id="1114729360583" name="jetbrains.mps.lang.generator.structure.CopySrcListMacro" flags="ln" index="2b32R4">
         <child id="1168278589236" name="sourceNodesQuery" index="2P8S$" />
       </concept>
+      <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
       </concept>
@@ -1359,6 +1360,14 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3aamgX" id="uffbfdP3Vk" role="3acgRq">
+      <ref role="30HIoZ" to="7met:uffbfdOXGY" resolve="EmptyChecker" />
+      <node concept="b5Tf3" id="uffbfdPc0L" role="1lVwrX" />
+    </node>
+    <node concept="3aamgX" id="uffbfdP$bp" role="3acgRq">
+      <ref role="30HIoZ" to="7met:uffbfdPuzf" resolve="EmptyElement" />
+      <node concept="b5Tf3" id="uffbfdPGgQ" role="1lVwrX" />
     </node>
   </node>
 </model>

@@ -6,7 +6,7 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -40,6 +40,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -104,6 +105,7 @@
     <property role="TrG5h" value="PropertyChecker" />
     <property role="34LRSv" value="property" />
     <property role="EcuMT" value="380240910834179470" />
+    <property role="R4oN_" value="check that a property holds" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="l6SLw3lTQL" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -127,6 +129,7 @@
     <property role="TrG5h" value="ConditionChecker" />
     <property role="34LRSv" value="condition" />
     <property role="EcuMT" value="380240910834179719" />
+    <property role="R4oN_" value="check a condition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="l6SLw3lTUb" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -143,6 +146,7 @@
     <property role="TrG5h" value="SequenceChecker" />
     <property role="34LRSv" value="sequence" />
     <property role="EcuMT" value="380240910834179924" />
+    <property role="R4oN_" value="a sequence of elements" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="l6SLw3lU0m" role="1TKVEl">
       <property role="TrG5h" value="ordered" />
@@ -187,6 +191,7 @@
     <property role="TrG5h" value="Element" />
     <property role="34LRSv" value="element" />
     <property role="EcuMT" value="380240910834210697" />
+    <property role="R4oN_" value="an element to check" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="l6SLw3m22j" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -221,6 +226,7 @@
     <property role="TrG5h" value="ThisElementExpression" />
     <property role="34LRSv" value="thisElement" />
     <property role="EcuMT" value="380240910834603300" />
+    <property role="R4oN_" value="the current element" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="PlHQZ" id="l6SLw3nxnb">
@@ -230,6 +236,8 @@
   <node concept="1TIwiD" id="l6SLw3paDi">
     <property role="TrG5h" value="CompositeChecker" />
     <property role="EcuMT" value="380240910835034706" />
+    <property role="34LRSv" value="composite" />
+    <property role="R4oN_" value="a combination of multiple checkers" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="l6SLw3paDU" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -290,6 +298,22 @@
       <property role="TrG5h" value="noneOfThese" />
       <property role="3tVfz5" value="380240910834182475" />
       <ref role="2wpffI" node="l6SLw3lU_b" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="uffbfdOXGY">
+    <property role="EcuMT" value="544720822885145406" />
+    <property role="TrG5h" value="EmptyChecker" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="uffbfdOXHP" role="PzmwI">
+      <ref role="PrY4T" node="l6SLw3lTN$" resolve="IChecker" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="uffbfdPuzf">
+    <property role="EcuMT" value="544720822885279951" />
+    <property role="TrG5h" value="EmptyElement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="uffbfdPu$6" role="PzmwI">
+      <ref role="PrY4T" node="l6SLw3lUE7" resolve="IElement" />
     </node>
   </node>
 </model>

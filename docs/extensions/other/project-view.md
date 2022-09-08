@@ -13,7 +13,7 @@ The DSL supports the definition of arbitrary structures, labels, icons and actio
 that are useful for structuring the tree. To see how this DSL works, checkout the custom views defined in `com.mbeddr.mpsutil.projectview.views` solution as well as the mbeddr favourites view in the com.mbeddr.mpsutil.favourites.plugin plugin solution.
 Below is a screenshot of that favourites view.
 
-<img alt="favourites view" src="http://mbeddr.com/images/favourites.png" />
+<img alt="favourites view" src="../../img/favourites.png" />
 
 The language must be used in a plugin solution and supports the following properties:
 

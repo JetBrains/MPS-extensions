@@ -7,7 +7,7 @@
 This language provides a math cell that is used for all math based concepts. It can also be used for creating complex 
 layout that can't be achieved with the normal Editor cells.
 
-<img alt="example:math notation" src="http://mbeddr.com/images/math.png" />
+<img alt="example:math notation" src="../../img/math.png" />
 
 First you have to add some child cells. The need to have a name and a scale from 0 to 1. Next, some symbols can be added.
 A symbol is a node that basically contains a paint method where you can draw anything within the bounds. The paint method
@@ -18,7 +18,7 @@ visit The [Oracle 2D Graphics](https://docs.oracle.com/javase/tutorial/2d/TOC.ht
 can be used to set the size of the symbol. The symbols can be painted by calling the `paint` method.
 
 Example:
-
+^
 ```
 symbol ArrowLeft { 
   paint: (g, bounds)->void { 

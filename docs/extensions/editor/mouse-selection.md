@@ -1,4 +1,4 @@
-# Mouse Selection
+# Intentions for custom selections
 
 **Language Namespace :** `de.itemis.mps.selection.intentions`
 

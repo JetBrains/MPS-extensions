@@ -26,7 +26,7 @@ nav:
       - Diagrams: extensions/editor/diagrams.md
       - Grammar Cells: extensions/editor/grammar-cells.md
       - Math: extensions/editor/math.md
-      - Mouse Selection: extensions/editor/mouse-selection.md
+      - Intentions for custom selections: extensions/editor/mouse-selection.md
       - Multiline: extensions/editor/multiline.md
       - Query List: extensions/editor/querylist.md
       - Richtext: extensions/editor/richtext.md

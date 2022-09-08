@@ -16,6 +16,7 @@
     <dependency reexport="false">3bfac093-0c90-42c7-87af-7dbe19b8f3e0(de.itemis.model.merge.simple.demo)</dependency>
     <dependency reexport="false">539e8939-08ef-497c-a5fd-25dd10137a55(de.itemis.model.merge)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:539e8939-08ef-497c-a5fd-25dd10137a55:de.itemis.model.merge" version="0" />

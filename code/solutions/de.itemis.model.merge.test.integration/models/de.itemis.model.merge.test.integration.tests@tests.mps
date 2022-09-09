@@ -517,8 +517,32 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4LLXBGbWura" role="3cqZAp" />
-        <node concept="3clFbH" id="4LLXBGbToeG" role="3cqZAp" />
+        <node concept="3vlDli" id="28HtTLkO$Eg" role="3cqZAp">
+          <node concept="3cmrfG" id="28HtTLkO$WB" role="3tpDZB">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="28HtTLkOAJh" role="3tpDZA">
+            <node concept="2OqwBi" id="28HtTLkOzvo" role="2Oq$k0">
+              <node concept="37vLTw" id="28HtTLkOz5w" role="2Oq$k0">
+                <ref role="3cqZAo" node="4LLXBGbTodR" resolve="observed" />
+              </node>
+              <node concept="3Tsc0h" id="28HtTLkOzZA" role="2OqNvi">
+                <ref role="3TtcxE" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="28HtTLkOD90" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="28HtTLkODqA" role="3cqZAp" />
+        <node concept="JA50E" id="28HtTLkOMR8" role="3cqZAp">
+          <node concept="3xONca" id="28HtTLkONap" role="JA92f">
+            <ref role="3xOPvv" node="4LLXBGbXahw" resolve="expected" />
+          </node>
+          <node concept="37vLTw" id="28HtTLkONsd" role="JAdkl">
+            <ref role="3cqZAo" node="4LLXBGbTodR" resolve="observed" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="28HtTLkOMGC" role="3cqZAp" />
         <node concept="3cpWs8" id="4LLXBGbTodX" role="3cqZAp">
           <node concept="3cpWsn" id="4LLXBGbTodY" role="3cpWs9">
             <property role="TrG5h" value="rightModel" />

@@ -910,6 +910,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.fasterxml.jackson" />
         <property role="3LESm3" value="39983771-4e9b-401b-a1a9-1da6c777c843" />
+        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="3$A0JaN5bwY" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3$A0JaN5chM" role="iGT6I">

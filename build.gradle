@@ -122,8 +122,8 @@ if (project.hasProperty("MPS_PATHS_SELECTOR")) {
     ext.mpsPluginsDir = sprintf(mpsPluginsDirPattern, "MPS$mpsMajor")
 }
 
-ext.releaseRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr'
-ext.snapshotRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots'
+ext.releaseRepository = 'https://artifacts.itemis.cloud/repository/maven-mps-releases/'
+ext.snapshotRepository = 'https://artifacts.itemis.cloud/repository/maven-mps-snapshots/'
 ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRepository : releaseRepository
 
 
@@ -316,22 +316,10 @@ allprojects {
     apply plugin: 'maven-publish'
     publishing {
         repositories {
-            if (rootProject.hasProperty('nexusUsername')) {
-                maven {
-                    name = "oldItemisNexus"
-                    url rootProject.publishingRepository
-                    credentials {
-                        username rootProject.nexusUsername
-                        password rootProject.nexusPassword
-                    }
-                }
-            }
             if (rootProject.hasProperty("artifacts.itemis.cloud.user") && rootProject.hasProperty("artifacts.itemis.cloud.pw")) {
                 maven {
                     name = "itemisCloud"
-                    url = rootProject.version.contains("SNAPSHOT")
-                            ? uri("https://artifacts.itemis.cloud/repository/maven-mps-snapshots/")
-                            : uri("https://artifacts.itemis.cloud/repository/maven-mps-releases/")
+                    url = project.publishingRepository
                     credentials {
                         username = rootProject.findProperty("artifacts.itemis.cloud.user")
                         password = rootProject.findProperty("artifacts.itemis.cloud.pw")

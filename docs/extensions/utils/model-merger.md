@@ -11,7 +11,9 @@ language is deprecated.
 This language allows merging models based on merging policies. In the following explanations the term *left* refers to
  one aspect of the first model that should be merged, the term *right* to the same aspect in a second model. Create a new root node of concept [ModelMerge](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F1912777765298163335). The main language 
 has to be defined. If there are additional languages involved, they can be specified as well. Now, merge policies can be defined
-for different concepts. The concepts need to be identifiable by a unique ID, for example, by an ID property.
+for different concepts. The concepts need to be identifiable by a unique ID, for example, by an ID property. The scope
+of the uniqueness property depends on the context where the model merger is used. Normally, it's the project scope but
+there are cases where the ID needs to be globally unique.
 
 The model merge can be executed by creating a [ModelMergeExecution](http://127.0.0.1:63320/node?ref=r%3A58892eeb-9059-4684-af0a-e0f5f7f9800d%28de.itemis.model.merge.structure%29%2F6402745832171993510) node and using the intention `Run Model Merge` or call the `execute` method 
 programmatically.
@@ -37,15 +39,15 @@ For child nodes a policy container can be added.
 
 - **Elements exists only on left side** 
     - **Keep**: keep the element
-    - **Drop**: drop item if conflicts occur
+    - **Drop**: drop item
 - **New element on the right**: 
     - **Add**: add the element
-    - **Drop**: drop item if conflicts occur
+    - **Drop**: drop item
 - **Element on both sides**
     - **Drop**: drop item if conflicts occur
     - **Left**: keep the left node, and discard the right node
     - **Right**: keep the right node and discard the left node
-    - **Auto**: not implemented yet
+    - **Auto**: use the existing merge policies of the children
     - **ManualColl**: a custom merger that must return a node of the same type as the concept
 
 ## References

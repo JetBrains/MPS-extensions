@@ -22125,25 +22125,70 @@
           </node>
         </node>
         <node concept="3clFbS" id="4zzNcfNz$lP" role="3clF47">
-          <node concept="3clFbF" id="4zzNcfNz$lQ" role="3cqZAp">
-            <node concept="2OqwBi" id="4zzNcfNz$lR" role="3clFbG">
-              <node concept="1eOMI4" id="4zzNcfNz$lW" role="2Oq$k0">
-                <node concept="10QFUN" id="4zzNcfNz$lS" role="1eOMHV">
-                  <node concept="2OqwBi" id="4zzNcfNz$QR" role="10QFUP">
-                    <node concept="37vLTw" id="4zzNcfNz$QQ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4zzNcfNz$lN" resolve="context" />
-                    </node>
-                    <node concept="liA8E" id="4zzNcfNz$QS" role="2OqNvi">
-                      <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
-                    </node>
-                  </node>
-                  <node concept="3uibUv" id="4zzNcfNz$lV" role="10QFUM">
-                    <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
-                  </node>
-                </node>
+          <node concept="3SKdUt" id="7asAWp_OeNP" role="3cqZAp">
+            <node concept="1PaTwC" id="7asAWp_OeNQ" role="1aUNEU">
+              <node concept="3oM_SD" id="7asAWp_OeOu" role="1PaTwD">
+                <property role="3oM_SC" value="FIXME" />
               </node>
-              <node concept="liA8E" id="4zzNcfNz$lX" role="2OqNvi">
-                <ref role="37wK5l" to="exr9:~EditorComponent.showMessageTooltip()" resolve="showMessageTooltip" />
+              <node concept="3oM_SD" id="7asAWp_Of7r" role="1PaTwD">
+                <property role="3oM_SC" value="EditorComponent.showMessageTooltip()" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_Of7S" role="1PaTwD">
+                <property role="3oM_SC" value="has" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_Of8K" role="1PaTwD">
+                <property role="3oM_SC" value="been" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_Of9f" role="1PaTwD">
+                <property role="3oM_SC" value="no-op" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_Ofa9" role="1PaTwD">
+                <property role="3oM_SC" value="since" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_Ofb4" role="1PaTwD">
+                <property role="3oM_SC" value="2019.3" />
+              </node>
+            </node>
+          </node>
+          <node concept="3SKdUt" id="7asAWp_Ofub" role="3cqZAp">
+            <node concept="1PaTwC" id="7asAWp_Ofuc" role="1aUNEU">
+              <node concept="3oM_SD" id="7asAWp_OfD3" role="1PaTwD">
+                <property role="3oM_SC" value="MPS" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_OfDv" role="1PaTwD">
+                <property role="3oM_SC" value="uses" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_OfEm" role="1PaTwD">
+                <property role="3oM_SC" value="IDEA" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_OfFC" role="1PaTwD">
+                <property role="3oM_SC" value="mechanism" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_OfGV" role="1PaTwD">
+                <property role="3oM_SC" value="for" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_OfHr" role="1PaTwD">
+                <property role="3oM_SC" value="tooltips," />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_OfJ$" role="1PaTwD">
+                <property role="3oM_SC" value="{@code" />
+              </node>
+              <node concept="3oM_SD" id="7asAWp_OfMh" role="1PaTwD">
+                <property role="3oM_SC" value="com.intellij.ide.IdeTooltipManager}" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7asAWp_Oha4" role="3cqZAp">
+            <node concept="2OqwBi" id="7asAWp_Oha1" role="3clFbG">
+              <node concept="10M0yZ" id="7asAWp_Oha2" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" />
+                <ref role="3cqZAo" to="wyt6:~System.out" />
+              </node>
+              <node concept="liA8E" id="7asAWp_Oha3" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <node concept="Xl_RD" id="7asAWp_OhCs" role="37wK5m">
+                  <property role="Xl_RC" value="FIXME EditorComponent.showMessageTooltip() does nothing!" />
+                </node>
               </node>
             </node>
           </node>

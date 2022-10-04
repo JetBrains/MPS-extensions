@@ -221,7 +221,7 @@
     </language>
     <language id="c73b17af-16a1-4490-8072-8a84937c5206" name="com.mbeddr.mpsutil.treenotation">
       <concept id="8348035970511374774" name="com.mbeddr.mpsutil.treenotation.structure.Parameter_subconcepts" flags="ng" index="Lmqva" />
-      <concept id="8348035970508546380" name="com.mbeddr.mpsutil.treenotation.structure.GenericInsertFunction" flags="ig" index="Lw$WK" />
+      <concept id="8348035970508546380" name="com.mbeddr.mpsutil.treenotation.structure.GenericInsertFunction" flags="ng" index="Lw$WK" />
       <concept id="8348035970508542281" name="com.mbeddr.mpsutil.treenotation.structure.GenericInsertHandler" flags="ng" index="LwBWP">
         <child id="8348035970508665694" name="insertFunction" index="Lw1Oy" />
       </concept>
@@ -242,7 +242,7 @@
       </concept>
       <concept id="2807401889304965325" name="com.mbeddr.mpsutil.treenotation.structure.OrthogonalTreeLayout" flags="ng" index="37fpnD" />
       <concept id="2807401889304965326" name="com.mbeddr.mpsutil.treenotation.structure.CompactTreeLayout" flags="ng" index="37fpnE" />
-      <concept id="8796347991408045445" name="com.mbeddr.mpsutil.treenotation.structure.IncomingShapeStyle" flags="lg" index="3uywDx">
+      <concept id="8796347991408045445" name="com.mbeddr.mpsutil.treenotation.structure.IncomingShapeStyle" flags="ng" index="3uywDx">
         <child id="8796347991408045465" name="shape" index="3uywDX" />
       </concept>
       <concept id="8796347991406413783" name="com.mbeddr.mpsutil.treenotation.structure.ThisNodeExpression" flags="ng" index="3u$I0N" />
@@ -262,13 +262,13 @@
         <child id="8433232831282903903" name="actualParameters" index="15NUvb" />
       </concept>
       <concept id="8877288515762039493" name="com.mbeddr.mpsutil.treenotation.structure.Parameter_graphics" flags="ng" index="1X_dKq" />
-      <concept id="8877288515762039490" name="com.mbeddr.mpsutil.treenotation.structure.ShapePaintFunction" flags="ig" index="1X_dKt" />
+      <concept id="8877288515762039490" name="com.mbeddr.mpsutil.treenotation.structure.ShapePaintFunction" flags="ng" index="1X_dKt" />
       <concept id="8877288515762039489" name="com.mbeddr.mpsutil.treenotation.structure.Shape" flags="ng" index="1X_dKu">
         <child id="8433232831282905030" name="parameters" index="15NUdi" />
         <child id="8877288515762039491" name="paintFunction" index="1X_dKs" />
       </concept>
-      <concept id="8877288515759654453" name="com.mbeddr.mpsutil.treenotation.structure.DeleteHandler" flags="ig" index="1XG33E" />
-      <concept id="8877288515760224194" name="com.mbeddr.mpsutil.treenotation.structure.SimpleInsertFunction" flags="ig" index="1XI84t" />
+      <concept id="8877288515759654453" name="com.mbeddr.mpsutil.treenotation.structure.DeleteHandler" flags="ng" index="1XG33E" />
+      <concept id="8877288515760224194" name="com.mbeddr.mpsutil.treenotation.structure.SimpleInsertFunction" flags="ng" index="1XI84t" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="5979988948250981289" name="jetbrains.mps.lang.actions.structure.SNodeCreatorAndInitializer" flags="nn" index="2fJWfE" />
@@ -383,7 +383,7 @@
             </node>
             <node concept="3uywDx" id="7CiTYi$AgY_" role="3F10Kt">
               <node concept="1X_cmw" id="7CiTYi$AiL3" role="3uywDX">
-                <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+                <ref role="1X_clt" node="7k8R9gKN2ah" />
                 <node concept="3cmrfG" id="7CiTYi$AiL9" role="15NUvb">
                   <property role="3cmrfH" value="13" />
                 </node>
@@ -403,7 +403,7 @@
                 </node>
                 <node concept="3uywDx" id="JAaUnmRv8N" role="3F10Kt">
                   <node concept="1X_cmw" id="JAaUnmRv8Z" role="3uywDX">
-                    <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+                    <ref role="1X_clt" node="7k8R9gKN2ah" />
                     <node concept="3cmrfG" id="JAaUnmRv94" role="15NUvb">
                       <property role="3cmrfH" value="10" />
                     </node>
@@ -462,7 +462,7 @@
               <property role="3F0ifm" value="child1---------" />
             </node>
             <node concept="1X_cmw" id="2rPTijxvboC" role="15K7xk">
-              <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+              <ref role="1X_clt" node="7k8R9gKN2ah" />
               <node concept="3b6qkQ" id="2rPTijxvbum" role="15NUvb">
                 <property role="$nhwW" value="10.0" />
               </node>
@@ -546,7 +546,7 @@
                 <property role="3F0ifm" value="child2" />
               </node>
               <node concept="1X_cmw" id="7k8R9gKOYhu" role="15K7xk">
-                <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+                <ref role="1X_clt" node="7k8R9gKN2ah" />
                 <node concept="3b6qkQ" id="7k8R9gKOYiq" role="15NUvb">
                   <property role="$nhwW" value="20.0" />
                 </node>
@@ -1054,7 +1054,7 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="1X_cmw" id="7k8R9gKNv2u" role="15K7xk">
-        <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+        <ref role="1X_clt" node="7k8R9gKN2ah" />
         <node concept="3b6qkQ" id="7k8R9gKN_MB" role="15NUvb">
           <property role="$nhwW" value="6.0" />
         </node>
@@ -1079,13 +1079,13 @@
           </node>
         </node>
         <node concept="1X_cmw" id="7k8R9gKOOUP" role="3u$Jl3">
-          <ref role="1X_clt" node="7k8R9gKOHrW" resolve="Arc" />
+          <ref role="1X_clt" node="7k8R9gKOHrW" />
           <node concept="3b6qkQ" id="7k8R9gKOOZ2" role="15NUvb">
             <property role="$nhwW" value="10.0" />
           </node>
         </node>
         <node concept="1X_cmw" id="7CiTYi$wp5M" role="3u$Jle">
-          <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+          <ref role="1X_clt" node="7k8R9gKN2ah" />
           <node concept="3b6qkQ" id="7CiTYi$wp79" role="15NUvb">
             <property role="$nhwW" value="10.0" />
           </node>
@@ -1189,7 +1189,7 @@
                 <property role="3cmrfH" value="2" />
               </node>
               <node concept="15NUKc" id="7k8R9gKN$3m" role="3uHU7B">
-                <ref role="15NUKd" node="7k8R9gKNzLG" resolve="size" />
+                <ref role="15NUKd" node="7k8R9gKNzLG" />
               </node>
             </node>
           </node>
@@ -1335,7 +1335,7 @@
                 <node concept="liA8E" id="7fqbBL2pChC" role="2OqNvi">
                   <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                   <node concept="15NUKc" id="7fqbBL2pMV3" role="37wK5m">
-                    <ref role="15NUKd" node="7fqbBL2pMRr" resolve="col" />
+                    <ref role="15NUKd" node="7fqbBL2pMRr" />
                   </node>
                 </node>
               </node>
@@ -1375,10 +1375,10 @@
                         </node>
                       </node>
                       <node concept="15NUKc" id="7k8R9gKN$3q" role="37wK5m">
-                        <ref role="15NUKd" node="7k8R9gKNzLG" resolve="size" />
+                        <ref role="15NUKd" node="7k8R9gKNzLG" />
                       </node>
                       <node concept="15NUKc" id="7k8R9gKN$3u" role="37wK5m">
-                        <ref role="15NUKd" node="7k8R9gKNzLG" resolve="size" />
+                        <ref role="15NUKd" node="7k8R9gKNzLG" />
                       </node>
                     </node>
                   </node>
@@ -1507,7 +1507,7 @@
                 </node>
               </node>
               <node concept="15NUKc" id="7k8R9gKOQNO" role="37wK5m">
-                <ref role="15NUKd" node="7k8R9gKOHs9" resolve="size" />
+                <ref role="15NUKd" node="7k8R9gKOHs9" />
               </node>
               <node concept="3cmrfG" id="7k8R9gKOQQZ" role="37wK5m">
                 <property role="3cmrfH" value="0" />
@@ -1631,7 +1631,7 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="1X_cmw" id="7fqbBL2mR93" role="15K7xk">
-        <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+        <ref role="1X_clt" node="7k8R9gKN2ah" />
         <node concept="3b6qkQ" id="7fqbBL2mR94" role="15NUvb">
           <property role="$nhwW" value="7.0" />
         </node>
@@ -1656,13 +1656,13 @@
           </node>
         </node>
         <node concept="1X_cmw" id="7fqbBL2mR9d" role="3u$Jl3">
-          <ref role="1X_clt" node="7k8R9gKOHrW" resolve="Arc" />
+          <ref role="1X_clt" node="7k8R9gKOHrW" />
           <node concept="3b6qkQ" id="7fqbBL2mR9e" role="15NUvb">
             <property role="$nhwW" value="6.0" />
           </node>
         </node>
         <node concept="1X_cmw" id="7fqbBL2mR9f" role="3u$Jle">
-          <ref role="1X_clt" node="7k8R9gKN2ah" resolve="Circle" />
+          <ref role="1X_clt" node="7k8R9gKN2ah" />
           <node concept="3b6qkQ" id="7fqbBL2mR9g" role="15NUvb">
             <property role="$nhwW" value="7.0" />
           </node>

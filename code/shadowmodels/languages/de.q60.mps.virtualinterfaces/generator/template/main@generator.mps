@@ -384,7 +384,7 @@
         <node concept="3khU$T" id="1KLm$DhRVtL" role="1Koe22">
           <property role="TrG5h" value="m" />
           <node concept="3ku1Nf" id="1KLm$DhRVtO" role="3khUj0">
-            <ref role="3ku1L4" node="1KLm$DhRMvq" />
+            <ref role="3ku1L4" node="1KLm$DhRMvq" resolve="f" />
             <node concept="3khFPE" id="1KLm$DhSvgU" role="3kuS7x">
               <property role="TrG5h" value="_this" />
               <node concept="3Tqbb2" id="1KLm$DhSw8D" role="3khFNH">
@@ -660,7 +660,7 @@
             <node concept="17QB3L" id="1KLm$DhUgT_" role="3kv9ev" />
           </node>
           <node concept="3ku1Nf" id="1KLm$DhUgTM" role="3khUj0">
-            <ref role="3ku1L4" node="1KLm$DhUgTr" />
+            <ref role="3ku1L4" node="1KLm$DhUgTr" resolve="f" />
             <node concept="3khFPE" id="1KLm$DhUgU_" role="3kuS7x">
               <property role="TrG5h" value="_this" />
               <node concept="17QB3L" id="1KLm$DhUgUJ" role="3khFNH" />
@@ -668,9 +668,9 @@
             <node concept="3clFbS" id="1KLm$DhUgTO" role="3ku1Le">
               <node concept="3clFbF" id="1KLm$DhUgU1" role="3cqZAp">
                 <node concept="2M0cAz" id="1KLm$DhUgU0" role="3clFbG">
-                  <ref role="2M0c$$" node="1KLm$DhUgTr" />
+                  <ref role="2M0c$$" node="1KLm$DhUgTr" resolve="f" />
                   <node concept="3kvyP4" id="1KLm$DhUgUV" role="2M0c$y">
-                    <ref role="3kvyN1" node="1KLm$DhUgU_" />
+                    <ref role="3kvyN1" node="1KLm$DhUgU_" resolve="_this" />
                     <node concept="29HgVG" id="1KLm$DhUh3G" role="lGtFl">
                       <node concept="3NFfHV" id="1KLm$DhUh3H" role="3NFExx">
                         <node concept="3clFbS" id="1KLm$DhUh3I" role="2VODD2">
@@ -774,7 +774,7 @@
     </node>
     <node concept="3lhOvk" id="1KLm$DhRLph" role="3lj3bC">
       <ref role="30HIoZ" to="nq6j:5I2DPFvQrRv" resolve="VirtualInterfacesModule" />
-      <ref role="3lhOvi" node="1KLm$DhRLUO" />
+      <ref role="3lhOvi" node="1KLm$DhRLUO" resolve="map_VirtualInterfacesModule" />
     </node>
   </node>
   <node concept="3khU$T" id="1KLm$DhRLUO">

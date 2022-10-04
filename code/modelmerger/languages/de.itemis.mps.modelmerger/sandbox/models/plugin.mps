@@ -39,7 +39,7 @@
       <concept id="8424607763702284912" name="de.itemis.mps.modelmerger.structure.IdentityCalculatorRegistry" flags="ng" index="1j$NDg">
         <child id="8424607763702354527" name="conceptIdMap" index="1j$2DZ" />
       </concept>
-      <concept id="394966128313977116" name="de.itemis.mps.modelmerger.structure.IdentityCalculatorLogic" flags="ng" index="3_37E5" />
+      <concept id="394966128313977116" name="de.itemis.mps.modelmerger.structure.IdentityCalculatorLogic" flags="ig" index="3_37E5" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">

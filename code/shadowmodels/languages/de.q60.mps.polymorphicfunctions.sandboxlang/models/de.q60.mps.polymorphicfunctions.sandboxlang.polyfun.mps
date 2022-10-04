@@ -70,12 +70,12 @@
     </node>
     <node concept="3khUF5" id="1YHUdwh9h70" role="3khUj0" />
     <node concept="3ku1Nf" id="1YHUdwh9h7d" role="3khUj0">
-      <ref role="3ku1L4" node="1YHUdwh8N22" />
+      <ref role="3ku1L4" node="1YHUdwh8N22" resolve="f1" />
       <node concept="3clFbS" id="1YHUdwh9h7f" role="3ku1Le">
         <node concept="3cpWs6" id="1YHUdwh9h7w" role="3cqZAp">
           <node concept="2OqwBi" id="1YHUdwh9hbc" role="3cqZAk">
             <node concept="3kvyP4" id="1YHUdwh9h7C" role="2Oq$k0">
-              <ref role="3kvyN1" node="1YHUdwh9h7o" />
+              <ref role="3kvyN1" node="1YHUdwh9h7o" resolve="o" />
             </node>
             <node concept="liA8E" id="1YHUdwh9he$" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />

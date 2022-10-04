@@ -39,19 +39,19 @@
     <node concept="1IyuVI" id="TC$M5wTw9j" role="1IyuVR">
       <property role="TrG5h" value="mother" />
       <node concept="1IyuVL" id="TC$M5wTw9t" role="1IyuVW">
-        <ref role="1IyuVP" node="TC$M5wTk27" />
+        <ref role="1IyuVP" node="TC$M5wTk27" resolve="Person" />
       </node>
     </node>
     <node concept="1IyuVI" id="TC$M5wTw9x" role="1IyuVR">
       <property role="TrG5h" value="father" />
       <node concept="1IyuVL" id="TC$M5wTw9H" role="1IyuVW">
-        <ref role="1IyuVP" node="TC$M5wTk27" />
+        <ref role="1IyuVP" node="TC$M5wTk27" resolve="Person" />
       </node>
     </node>
     <node concept="1IyuVI" id="5KTOHw7eOUv" role="1IyuVR">
       <property role="TrG5h" value="adress" />
       <node concept="1IyuVL" id="5KTOHw7eOV2" role="1IyuVW">
-        <ref role="1IyuVP" node="5KTOHw7eORF" />
+        <ref role="1IyuVP" node="5KTOHw7eORF" resolve="Adress" />
       </node>
     </node>
   </node>

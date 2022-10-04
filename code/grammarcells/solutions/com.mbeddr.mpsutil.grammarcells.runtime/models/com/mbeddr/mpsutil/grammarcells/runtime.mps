@@ -10,6 +10,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
+    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -67,6 +68,7 @@
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
     <import index="sn11" ref="r:836426ab-a6f4-4fa3-9a9c-34c02ed6ab5d(jetbrains.mps.ide.icons)" />
     <import index="pdwk" ref="8e98f4e2-decf-4e97-bf80-9109e8b759ee/java:jetbrains.mps.core.aspects.constraints.rules.kinds(jetbrains.mps.lang.constraints.rules.runtime/)" />
+    <import index="6r6f" ref="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
@@ -371,6 +373,12 @@
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
+    </language>
+    <language id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension">
+      <concept id="6626851894249711936" name="jetbrains.mps.lang.extension.structure.ExtensionPointExpression" flags="nn" index="2O5UvJ">
+        <reference id="6626851894249712469" name="extensionPoint" index="2O5UnU" />
+      </concept>
+      <concept id="3175313036448560967" name="jetbrains.mps.lang.extension.structure.GetExtensionObjectsOperation" flags="nn" index="SfwO_" />
     </language>
     <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
       <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
@@ -6275,13 +6283,12 @@
       </node>
     </node>
     <node concept="Wx3nA" id="6zqaFar7zQ6" role="jymVt">
-      <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="DEFAULT_TIMEOUT" />
-      <node concept="3Tm6S6" id="6zqaFar7zQ3" role="1B3o_S" />
       <node concept="10Oyi0" id="6zqaFar7zQ4" role="1tU5fm" />
       <node concept="3cmrfG" id="6zqaFar7zQ5" role="33vP2m">
         <property role="3cmrfH" value="100000" />
       </node>
+      <node concept="3Tm1VV" id="47uACSVk3UP" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="2TSIj8m0Kst" role="jymVt" />
     <node concept="312cEg" id="5OsvY4g$YDC" role="jymVt">
@@ -10178,6 +10185,68 @@
               <property role="TyiWK" value="true" />
               <property role="TyiWL" value="false" />
               <node concept="3clFbS" id="U6efP86anF" role="3clFbx">
+                <node concept="3cpWs8" id="6eLXiTKyKVh" role="3cqZAp">
+                  <node concept="3cpWsn" id="6eLXiTKyKVi" role="3cpWs9">
+                    <property role="TrG5h" value="duration" />
+                    <property role="3TUv4t" value="true" />
+                    <node concept="3cpWsb" id="6eLXiTKz1l$" role="1tU5fm" />
+                    <node concept="3cpWsd" id="6eLXiTKyKVj" role="33vP2m">
+                      <node concept="37vLTw" id="6eLXiTKyKVk" role="3uHU7w">
+                        <ref role="3cqZAo" node="2uT2PLmTQ1Z" resolve="myStartTime" />
+                      </node>
+                      <node concept="2YIFZM" id="6eLXiTKyKVl" role="3uHU7B">
+                        <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
+                        <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="6eLXiTK$H03" role="3cqZAp">
+                  <node concept="3cpWsn" id="6eLXiTK$H04" role="3cpWs9">
+                    <property role="TrG5h" value="extensions" />
+                    <property role="3TUv4t" value="true" />
+                    <node concept="A3Dl8" id="6eLXiTK$XyK" role="1tU5fm">
+                      <node concept="3uibUv" id="6eLXiTK$XyL" role="A3Ik2">
+                        <ref role="3uigEE" to="6r6f:6eLXiTKxV0M" resolve="ParserFailureNotifier" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="6eLXiTK$H05" role="33vP2m">
+                      <node concept="2O5UvJ" id="6eLXiTK$H06" role="2Oq$k0">
+                        <ref role="2O5UnU" to="6r6f:6eLXiTKxV0G" resolve="ParserFailureNotifierExtensionPoint" />
+                      </node>
+                      <node concept="SfwO_" id="6eLXiTK$H07" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2Gpval" id="6eLXiTK_yyZ" role="3cqZAp">
+                  <node concept="2GrKxI" id="6eLXiTK_yz1" role="2Gsz3X">
+                    <property role="TrG5h" value="extension" />
+                  </node>
+                  <node concept="37vLTw" id="6eLXiTK_Uup" role="2GsD0m">
+                    <ref role="3cqZAo" node="6eLXiTK$H04" resolve="extensions" />
+                  </node>
+                  <node concept="3clFbS" id="6eLXiTK_yz5" role="2LFqv$">
+                    <node concept="3clFbF" id="6eLXiTKA2Id" role="3cqZAp">
+                      <node concept="2OqwBi" id="6eLXiTKA6oT" role="3clFbG">
+                        <node concept="2GrUjf" id="6eLXiTKA2Ic" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="6eLXiTK_yz1" resolve="extension" />
+                        </node>
+                        <node concept="liA8E" id="6eLXiTKAe9w" role="2OqNvi">
+                          <ref role="37wK5l" to="6r6f:6eLXiTKyvMu" resolve="notifyParsingTimedOut" />
+                          <node concept="37vLTw" id="6eLXiTKAmVp" role="37wK5m">
+                            <ref role="3cqZAo" node="6eLXiTKyKVi" resolve="duration" />
+                          </node>
+                          <node concept="2OqwBi" id="6eLXiTKAFJv" role="37wK5m">
+                            <node concept="Xjq3P" id="6eLXiTKABJx" role="2Oq$k0" />
+                            <node concept="2OwXpG" id="6eLXiTKAOQG" role="2OqNvi">
+                              <ref role="2Oxat5" node="5OsvY4g$YDC" resolve="myModel" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="YS8fn" id="U6efP86anG" role="3cqZAp">
                   <node concept="2ShNRf" id="U6efP86anH" role="YScLw">
                     <node concept="1pGfFk" id="U6efP86anI" role="2ShVmc">
@@ -10190,16 +10259,8 @@
                           <node concept="Xl_RD" id="U6efP86anM" role="3uHU7B">
                             <property role="Xl_RC" value="Search for a parse tree timed out after " />
                           </node>
-                          <node concept="1eOMI4" id="U6efP86anN" role="3uHU7w">
-                            <node concept="3cpWsd" id="U6efP86anO" role="1eOMHV">
-                              <node concept="37vLTw" id="U6efP86anP" role="3uHU7w">
-                                <ref role="3cqZAo" node="2uT2PLmTQ1Z" resolve="myStartTime" />
-                              </node>
-                              <node concept="2YIFZM" id="U6efP86anQ" role="3uHU7B">
-                                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
-                                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                              </node>
-                            </node>
+                          <node concept="37vLTw" id="6eLXiTKyKVm" role="3uHU7w">
+                            <ref role="3cqZAo" node="6eLXiTKyKVi" resolve="duration" />
                           </node>
                         </node>
                       </node>

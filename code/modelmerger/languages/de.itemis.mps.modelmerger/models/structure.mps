@@ -21,7 +21,9 @@
         <property id="1358878980655415353" name="iconId" index="2$rrk2" />
         <child id="2756621024541675110" name="layers" index="1irR9h" />
       </concept>
-      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D" />
+      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D">
+        <property id="1860120738943552481" name="val" index="3PKj8l" />
+      </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
@@ -71,7 +73,9 @@
       <property role="2$rrk2" value="1" />
       <node concept="1irPie" id="GuygFg9_sk" role="1irR9h">
         <property role="1irPi9" value="I" />
-        <node concept="3PKj8D" id="GuygFg9_sr" role="3PKjny" />
+        <node concept="3PKj8D" id="GuygFg9_sr" role="3PKjny">
+          <property role="3PKj8l" value="000000" />
+        </node>
       </node>
     </node>
   </node>

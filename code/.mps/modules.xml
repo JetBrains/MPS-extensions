@@ -82,10 +82,8 @@
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.sandbox/de.itemis.mps.editor.math.sandbox.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/solutions/de.itemis.mps.editor.math.symbols/de.itemis.mps.editor.math.symbols.msd" folder="math" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.api/org.modelix.model.api.msd" folder="model-api" />
-      <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.metamodel.mpsgenerator/org.modelix.model.metamodel.mpsgenerator.msd" folder="model-api" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.mpsadapters/org.modelix.model.mpsadapters.msd" folder="model-api" />
       <modulePath path="$PROJECT_DIR$/model-api/org.modelix.model.repositoryconcepts/org.modelix.model.repositoryconcepts.mpl" folder="model-api" />
-      <modulePath path="$PROJECT_DIR$/model-api/test.org.modelix.model.mpsadapters/test.org.modelix.model.mpsadapters.msd" folder="model-api.tests" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.runtime/com.mbeddr.mpsutil.modellisteners.runtime.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandbox/com.mbeddr.mpsutil.modellisteners.sandbox.msd" folder="modellisteners" />
       <modulePath path="$PROJECT_DIR$/modellisteners/com.mbeddr.mpsutil.modellisteners.sandboxlang/com.mbeddr.mpsutil.modellisteners.sandboxlang.mpl" folder="modellisteners" />
@@ -147,7 +145,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.util/de.q60.mps.shadowmodels.util.mpl" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.virtualinterfaces.sandboxlang/de.q60.mps.virtualinterfaces.sandboxlang.mpl" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.virtualinterfaces/de.q60.mps.virtualinterfaces.mpl" folder="shadowmodels.virtualinterfaces" />
-      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.collections.libs/de.q60.mps.collections.libs.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.collections.libs/de.q60.mps.collections.libs.msd" folder="shadowmodels" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.genplan.virutalinterfaces_incremental/de.q60.mps.genplan.virutalinterfaces_incremental.msd" folder="shadowmodels.examples.interpreter" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.runtime/de.q60.mps.incremental.runtime.msd" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.sandbox/de.q60.mps.incremental.sandbox.msd" folder="shadowmodels.incremental" />

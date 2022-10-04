@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:bef1bfa7-20fd-413a-ae11-793b0a8ee364(de.q60.mps.shadowmodels.runtime.model.persistent)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -10,11 +11,10 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
-    <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="c9mi" ref="r:e280b60e-1e31-4362-b72e-05ea0aaad63c(de.q60.mps.shadowmodels.runtime.util.pmap)" />
-    <import index="87lp" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.collection(de.q60.mps.libs/)" />
-    <import index="3xem" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.control(de.q60.mps.libs/)" />
+    <import index="87lp" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.collection(de.q60.mps.collections.libs/)" />
+    <import index="3xem" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:io.vavr.control(de.q60.mps.collections.libs/)" />
     <import index="2wxy" ref="r:a64bf504-1b65-47d6-8d8c-e9aef4535e3a(de.q60.mps.incremental.runtime)" />
     <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
@@ -22,6 +22,7 @@
     <import index="ouht" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin.jvm.functions(org.modelix.model.api/)" />
     <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
+    <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -10213,11 +10214,11 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7PM7ZfaX7en" role="jymVt" />
     <node concept="3Tm1VV" id="4_SQzDObVBe" role="1B3o_S" />
     <node concept="3uibUv" id="4_SQzDOe9Bj" role="EKbjA">
       <ref role="3uigEE" to="jks5:~IBranch" resolve="IBranch" />
     </node>
-    <node concept="2tJIrI" id="7PM7ZfaX7en" role="jymVt" />
     <node concept="3clFb_" id="7PM7ZfaX2wE" role="jymVt">
       <property role="TrG5h" value="computeReadT" />
       <node concept="3Tm1VV" id="7PM7ZfaX2wF" role="1B3o_S" />
@@ -10572,9 +10573,6 @@
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="4f3NwlNCIJS" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
     </node>
     <node concept="2tJIrI" id="4f3NwlNCSp5" role="jymVt" />
     <node concept="3clFb_" id="4f3NwlNCIJV" role="jymVt">
@@ -10615,9 +10613,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="2AHcQZ" id="4f3NwlNCIK7" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="4_SQzDOr852" role="jymVt" />
@@ -14071,8 +14066,8 @@
           </node>
           <node concept="2OqwBi" id="1CWZn1pW1te" role="37wK5m">
             <node concept="2YIFZM" id="1CWZn1pW1tf" role="2Oq$k0">
-              <ref role="1Pybhc" to="87lp:~HashMultimap" resolve="HashMultimap" />
               <ref role="37wK5l" to="87lp:~HashMultimap.withSet()" resolve="withSet" />
+              <ref role="1Pybhc" to="87lp:~HashMultimap" resolve="HashMultimap" />
             </node>
             <node concept="liA8E" id="1CWZn1pW1tg" role="2OqNvi">
               <ref role="37wK5l" to="87lp:~HashMultimap$Builder.empty()" resolve="empty" />
@@ -14291,8 +14286,8 @@
             <node concept="liA8E" id="1CWZn1pU2M7" role="2OqNvi">
               <ref role="37wK5l" to="3xem:~Option.getOrElse(java.lang.Object)" resolve="getOrElse" />
               <node concept="2YIFZM" id="1CWZn1pUq3l" role="37wK5m">
-                <ref role="1Pybhc" to="87lp:~List" resolve="List" />
                 <ref role="37wK5l" to="87lp:~List.empty()" resolve="empty" />
+                <ref role="1Pybhc" to="87lp:~List" resolve="List" />
                 <node concept="3uibUv" id="1CWZn1pUztD" role="3PaCim">
                   <ref role="3uigEE" to="wyt6:~Long" resolve="Long" />
                 </node>

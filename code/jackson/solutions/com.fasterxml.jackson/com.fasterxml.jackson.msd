@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="com.fasterxml.jackson" uuid="39983771-4e9b-401b-a1a9-1da6c777c843" moduleVersion="0" compileInMPS="true">
   <models>
-    <modelRoot contentPath="${module}" type="default" />
     <modelRoot contentPath="${platform_lib}" type="java_classes">
       <sourceRoot location="jackson-core-2.12.0.jar" />
       <sourceRoot location="jackson-databind.jar" />

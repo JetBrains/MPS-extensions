@@ -19199,6 +19199,12 @@
       <node concept="22LTRM" id="7RNWCAgSng0" role="22LTRK">
         <ref role="22LTRN" node="5Jy3PcPRnpY" resolve="de.itemis.model.merge.baselang.sandbox" />
       </node>
+      <node concept="22LTRM" id="1KVsb7fOoTh" role="22LTRK">
+        <ref role="22LTRN" node="3oyo9Wzq1vN" resolve="de.itemis.model.merge.test.integration" />
+      </node>
+      <node concept="22LTRM" id="1KVsb7fOoTj" role="22LTRK">
+        <ref role="22LTRN" node="5Jy3PcPRnpY" resolve="de.itemis.model.merge.baselang.sandbox" />
+      </node>
       <node concept="22LTRM" id="7g5FWGK131$" role="22LTRK">
         <ref role="22LTRN" node="7g5FWGK0Kzy" resolve="test.org.modelix.model.mpsadapters" />
       </node>

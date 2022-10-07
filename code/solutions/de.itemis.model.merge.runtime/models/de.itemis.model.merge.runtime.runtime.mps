@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -5984,11 +5984,11 @@
             <node concept="1pGfFk" id="7L127H0bQ0j" role="2ShVmc">
               <ref role="37wK5l" node="5ahhjncnFY_" resolve="MergedNode" />
               <node concept="2OqwBi" id="7L127H0bQ0k" role="37wK5m">
-                <node concept="37vLTw" id="7L127H0bQ0l" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7L127H0bPZz" resolve="leftNode" />
-                </node>
                 <node concept="liA8E" id="7L127H0bQ0m" role="2OqNvi">
                   <ref role="37wK5l" to="mhbf:~SNode.getContainmentLink()" resolve="getContainmentLink" />
+                </node>
+                <node concept="37vLTw" id="7L127H0bQ0l" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7L127H0bPZz" resolve="leftNode" />
                 </node>
               </node>
               <node concept="37vLTw" id="hG_e7AsVr0" role="37wK5m">
@@ -15356,6 +15356,7 @@
     <node concept="2tJIrI" id="4LLXBGadNZT" role="jymVt" />
     <node concept="2YIFZL" id="2cYlIwYLAEx" role="jymVt">
       <property role="TrG5h" value="run" />
+      <node concept="3Tm1VV" id="4LLXBGadN7h" role="1B3o_S" />
       <node concept="3cqZAl" id="2cYlIwYLAEz" role="3clF45" />
       <node concept="37vLTG" id="2cYlIwYLAEj" role="3clF46">
         <property role="TrG5h" value="smodelL" />
@@ -15493,7 +15494,6 @@
           </node>
         </node>
       </node>
-      <node concept="3Tm1VV" id="4LLXBGadN7h" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="2cYlIwYDfFO" role="jymVt" />
     <node concept="2YIFZL" id="2cYlIwYEMiU" role="jymVt">

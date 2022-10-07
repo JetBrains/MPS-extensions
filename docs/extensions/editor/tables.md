@@ -159,3 +159,4 @@ and can be easier to use.
 ## Blog posts
 
 - [Tabular projections in Jetbrains MPS: let’s start building an accounting system | strumenta.com](https://tomassetti.me/tabular-projections-in-jetbrains-mps-lets-start-building-an-accounting-system)
+- [Using the diagram editor and querylist: let’s build a graphical structure editor for MPS | dslgroundry.com](https://dslfoundry.com/using-the-diagram-editor-and-querylist-lets-build-a-graphical-structure-editor-for-mps/)

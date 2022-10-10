@@ -14704,11 +14704,42 @@
             <ref role="3cqZAo" node="2Jt5bYCPbkQ" resolve="grid" />
           </node>
         </node>
-        <node concept="3clFbF" id="1362cT3iaI5" role="3cqZAp">
-          <node concept="2OqwBi" id="1362cT3ibbW" role="3clFbG">
-            <node concept="2YIFZM" id="1362cT3iaZT" role="2Oq$k0">
+        <node concept="3cpWs8" id="7N9Z2vLQ7Ko" role="3cqZAp">
+          <node concept="3cpWsn" id="7N9Z2vLQ7Kp" role="3cpWs9">
+            <property role="TrG5h" value="instance" />
+            <node concept="3uibUv" id="7N9Z2vLQ6Qn" role="1tU5fm">
+              <ref role="3uigEE" node="1362cT3bWqU" resolve="ChildsTracker" />
+            </node>
+            <node concept="2YIFZM" id="7N9Z2vLQ7Kq" role="33vP2m">
               <ref role="37wK5l" node="1362cT3c3wo" resolve="getInstance" />
               <ref role="1Pybhc" node="1362cT3bWqU" resolve="ChildsTracker" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7N9Z2vLQdN7" role="3cqZAp">
+          <node concept="3clFbS" id="7N9Z2vLQdN9" role="3clFbx">
+            <node concept="YS8fn" id="7N9Z2vLQfJe" role="3cqZAp">
+              <node concept="2ShNRf" id="7N9Z2vLQg4_" role="YScLw">
+                <node concept="1pGfFk" id="7N9Z2vLQmhN" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="Xl_RD" id="7N9Z2vLQmPI" role="37wK5m">
+                    <property role="Xl_RC" value="ChildsTracker is null: the partial table might not be part of a table." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="7N9Z2vLQf4K" role="3clFbw">
+            <node concept="10Nm6u" id="7N9Z2vLQfq1" role="3uHU7w" />
+            <node concept="37vLTw" id="7N9Z2vLQepU" role="3uHU7B">
+              <ref role="3cqZAo" node="7N9Z2vLQ7Kp" resolve="instance" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1362cT3iaI5" role="3cqZAp">
+          <node concept="2OqwBi" id="1362cT3ibbW" role="3clFbG">
+            <node concept="37vLTw" id="7N9Z2vLQ7Kr" role="2Oq$k0">
+              <ref role="3cqZAo" node="7N9Z2vLQ7Kp" resolve="instance" />
             </node>
             <node concept="liA8E" id="1362cT3ibyX" role="2OqNvi">
               <ref role="37wK5l" node="1362cT3cM2o" resolve="registerChild" />

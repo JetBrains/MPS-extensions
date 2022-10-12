@@ -22,7 +22,7 @@ To check whether the target extension already has all its dependencies migrated:
 2. Once downloaded, open the `com.mbeddr.build` project in MPS. 
   - The location should be ([your download folder]\mbeddr.core\code\languages\com.mbeddr.build).
 3. Get the details of the target extension:
-  i) Open the related github issue for the target extension.
+  i) Open the related GitHub issue for the target extension.
     - For example, for the "querylist" extension, the URL of the github issue is: https://github.com/JetBrains/MPS-extensions/issues/23).
 	ii) Inside the issue page, click the link that is related to the extension. 
     - The link normally starts with `http://127.0.0.1`.

@@ -8,6 +8,7 @@
   <imports>
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -28,6 +29,9 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -409,19 +413,9 @@
             <node concept="2xDIQ0" id="5WYUu8HgObu" role="2Oq$k0" />
             <node concept="liA8E" id="5WYUu8HgOtt" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
-              <node concept="2ShNRf" id="5WYUu8HgOui" role="37wK5m">
-                <node concept="1pGfFk" id="5WYUu8HgRG0" role="2ShVmc">
-                  <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-                  <node concept="3cmrfG" id="5WYUu8HgRH8" role="37wK5m">
-                    <property role="3cmrfH" value="200" />
-                  </node>
-                  <node concept="3cmrfG" id="5WYUu8HgRKt" role="37wK5m">
-                    <property role="3cmrfH" value="200" />
-                  </node>
-                  <node concept="3cmrfG" id="5WYUu8HgSoC" role="37wK5m">
-                    <property role="3cmrfH" value="200" />
-                  </node>
-                </node>
+              <node concept="10M0yZ" id="2WI5qcR4Zz" role="37wK5m">
+                <ref role="3cqZAo" to="lzb2:~JBColor.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
               </node>
             </node>
           </node>

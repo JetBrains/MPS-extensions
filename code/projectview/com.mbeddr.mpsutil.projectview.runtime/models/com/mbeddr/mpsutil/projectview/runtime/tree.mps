@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:30978237-741d-4b0b-ac0b-6600a1c5c14f(com.mbeddr.mpsutil.projectview.runtime.tree)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
@@ -80,6 +81,7 @@
     <import index="32g5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.library(MPS.Core/)" />
     <import index="w0gx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.modules(MPS.Core/)" />
     <import index="ewej" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.font(JDK/)" />
+    <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -200,6 +202,9 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
         <child id="1214996921760" name="bound" index="3ztrMU" />
@@ -1553,7 +1558,7 @@
       <node concept="3uibUv" id="4gq8yQBZ6Og" role="1tU5fm">
         <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
         <node concept="3uibUv" id="4gq8yQBZ6Oh" role="11_B2D">
-          <ref role="3uigEE" node="4gq8yQBZ77P" resolve="CustomProjectView.ComponentCreationListener" />
+          <ref role="3uigEE" node="4gq8yQBZ77P" resolve="ComponentCreationListener" />
         </node>
       </node>
       <node concept="3Tm6S6" id="4gq8yQBZ6Oi" role="1B3o_S" />
@@ -1605,7 +1610,7 @@
       <property role="TrG5h" value="myComponent" />
       <node concept="3Tm6S6" id="5GuprjiTEdm" role="1B3o_S" />
       <node concept="3uibUv" id="5GuprjiTYos" role="1tU5fm">
-        <ref role="3uigEE" node="5GuprjiQFaD" resolve="CustomProjectView.MySimpleToolWindowPanel" />
+        <ref role="3uigEE" node="5GuprjiQFaD" resolve="MySimpleToolWindowPanel" />
       </node>
     </node>
     <node concept="312cEg" id="4gq8yQBZ6MT" role="jymVt">
@@ -17692,12 +17697,17 @@
                           </node>
                           <node concept="liA8E" id="4dJXybkiiQY" role="2OqNvi">
                             <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
-                            <node concept="2ShNRf" id="4dJXybkiiQZ" role="37wK5m">
-                              <node concept="1pGfFk" id="4dJXybkiiR0" role="2ShVmc">
-                                <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int)" resolve="Color" />
-                                <node concept="10M0yZ" id="4dJXybkil5E" role="37wK5m">
-                                  <ref role="1PxDUh" to="cj4x:~ColorConstants" resolve="ColorConstants" />
+                            <node concept="2ShNRf" id="2WI5qdjux1" role="37wK5m">
+                              <node concept="1pGfFk" id="2WI5qdj$RP" role="2ShVmc">
+                                <property role="373rjd" value="true" />
+                                <ref role="37wK5l" to="lzb2:~JBColor.&lt;init&gt;(int,int)" resolve="JBColor" />
+                                <node concept="10M0yZ" id="2WI5qdjDDg" role="37wK5m">
                                   <ref role="3cqZAo" to="cj4x:~ColorConstants.WARNING" resolve="WARNING" />
+                                  <ref role="1PxDUh" to="cj4x:~ColorConstants" resolve="ColorConstants" />
+                                </node>
+                                <node concept="10M0yZ" id="2WI5qdjKuW" role="37wK5m">
+                                  <ref role="3cqZAo" to="cj4x:~ColorConstants.WARNING_DARK" resolve="WARNING_DARK" />
+                                  <ref role="1PxDUh" to="cj4x:~ColorConstants" resolve="ColorConstants" />
                                 </node>
                               </node>
                             </node>
@@ -17714,14 +17724,9 @@
                         </node>
                         <node concept="liA8E" id="4dJXybkiiUO" role="2OqNvi">
                           <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
-                          <node concept="2ShNRf" id="4dJXybkiiUP" role="37wK5m">
-                            <node concept="1pGfFk" id="4dJXybkiiUQ" role="2ShVmc">
-                              <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int)" resolve="Color" />
-                              <node concept="10M0yZ" id="4dJXybkil5F" role="37wK5m">
-                                <ref role="1PxDUh" to="cj4x:~ColorConstants" resolve="ColorConstants" />
-                                <ref role="3cqZAo" to="cj4x:~ColorConstants.ERROR" resolve="ERROR" />
-                              </node>
-                            </node>
+                          <node concept="10M0yZ" id="2WI5qdjoLC" role="37wK5m">
+                            <ref role="3cqZAo" to="exr9:~MPSColors.RED" resolve="RED" />
+                            <ref role="1PxDUh" to="exr9:~MPSColors" resolve="MPSColors" />
                           </node>
                         </node>
                       </node>

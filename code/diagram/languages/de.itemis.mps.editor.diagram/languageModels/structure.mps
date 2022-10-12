@@ -2,7 +2,6 @@
 <model ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)">
   <persistence version="9" />
   <languages>
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -12,6 +11,11 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="5177162104569058199" name="jetbrains.mps.lang.resources.structure.HelpURL" flags="ng" index="1sEMCm">
+        <property id="5177162104569058200" name="url" index="1sEMCp" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
@@ -48,6 +52,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <child id="1780177113170204155" name="helpURL" index="bvy1s" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -71,6 +76,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -1415,6 +1421,12 @@
     <property role="TrG5h" value="ILayoutAlgorithm" />
     <property role="3GE5qa" value="layoutAlgorithm" />
     <property role="EcuMT" value="8433227566816385664" />
+    <node concept="1TJgyj" id="1MAkSr55XtW" role="1TKVEi">
+      <property role="IQ2ns" value="2064429317493348220" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7k8PWDQb26s">
     <property role="TrG5h" value="LayeredLayoutAlgorithm" />
@@ -1436,6 +1448,16 @@
           <ref role="AX2Wp" node="6Bd7VwqYQAS" resolve="LayoutDirection" />
         </node>
       </node>
+    </node>
+    <node concept="1TJgyj" id="2T42Bz2wR7T" role="1TKVEi">
+      <property role="IQ2ns" value="3333801137936757241" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" node="2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
+      <ref role="20ksaX" node="1MAkSr55XtW" resolve="config" />
+    </node>
+    <node concept="1sEMCm" id="1FUCB8ocYka" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/algorithms/org-eclipse-elk-layered.html" />
     </node>
   </node>
   <node concept="1TIwiD" id="7k8PWDQd3nq">
@@ -2176,6 +2198,11 @@
       <property role="3tVfz5" value="7623784619795245566" />
       <ref role="2wpffI" node="6Bd7VwqYQBY" />
     </node>
+    <node concept="25R33" id="2C8x_a2Qx7V" role="25R1y">
+      <property role="3tVfz5" value="3028818438347428347" />
+      <property role="TrG5h" value="UNDEFINED" />
+      <property role="1L1pqM" value="NO DIRECTION" />
+    </node>
   </node>
   <node concept="25R3W" id="7WTFIQIcYq9">
     <property role="TrG5h" value="LineStyleValues" />
@@ -2295,6 +2322,108 @@
     <property role="TrG5h" value="Parameter_changeOwner_elementId" />
     <property role="34LRSv" value="elementId" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="25R3W" id="64PP31wF2qp">
+    <property role="3F6X1D" value="7004738099690088089" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="HierarchyHandling" />
+    <ref role="1H5jkz" node="64PP31wF2sd" resolve="SEPARATE_CHILDREN" />
+    <node concept="25R33" id="64PP31wF2sd" role="25R1y">
+      <property role="3tVfz5" value="7004738099690088205" />
+      <property role="TrG5h" value="SEPARATE_CHILDREN" />
+    </node>
+    <node concept="25R33" id="64PP31wF2qq" role="25R1y">
+      <property role="3tVfz5" value="7004738099690088090" />
+      <property role="TrG5h" value="INCLUDE_CHILDREN" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1MAkSr55XtV">
+    <property role="EcuMT" value="2064429317493348219" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="DiagramLayoutConfig" />
+    <property role="34LRSv" value="base config" />
+    <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
+    <node concept="1TJgyi" id="2C8x_a3rNsJ" role="1TKVEl">
+      <property role="IQ2nx" value="3028818438357202735" />
+      <property role="TrG5h" value="hierarchyHandling" />
+      <ref role="AX2Wp" node="64PP31wF2qp" resolve="HierarchyHandling" />
+    </node>
+    <node concept="1TJgyi" id="2T42Bz29pRt" role="1TKVEl">
+      <property role="IQ2nx" value="3333801137930608093" />
+      <property role="TrG5h" value="edgeRouting" />
+      <ref role="AX2Wp" node="2T42Bz29pU4" resolve="EdgeRouting" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2T42Bz2wQRJ">
+    <property role="EcuMT" value="3333801137936756207" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="LayeredLayoutConfig" />
+    <property role="34LRSv" value="layered layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyi" id="1MAkSr5clWS" role="1TKVEl">
+      <property role="IQ2nx" value="2064429317495021368" />
+      <property role="TrG5h" value="subdiagramDirection" />
+      <ref role="AX2Wp" node="7WTFIQIcYqd" resolve="LayoutDirection" />
+    </node>
+    <node concept="1TJgyi" id="2C8x_a3gNf8" role="1TKVEl">
+      <property role="IQ2nx" value="3028818438354318280" />
+      <property role="TrG5h" value="cycleBreakingStrategy" />
+      <ref role="AX2Wp" node="2C8x_a3gNfb" resolve="CycleBreakingStrategy" />
+    </node>
+    <node concept="1sEMCm" id="1FUCB8od_g0" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
+  <node concept="25R3W" id="2T42Bz29pU4">
+    <property role="3F6X1D" value="3333801137930608260" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="EdgeRouting" />
+    <ref role="1H5jkz" node="2T42Bz29pWF" resolve="ORTHOGONAL" />
+    <node concept="25R33" id="2T42Bz29pU5" role="25R1y">
+      <property role="3tVfz5" value="3333801137930608261" />
+      <property role="TrG5h" value="UNDEFINED" />
+    </node>
+    <node concept="25R33" id="2T42Bz29pVM" role="25R1y">
+      <property role="3tVfz5" value="3333801137930608370" />
+      <property role="TrG5h" value="POLYLINE" />
+    </node>
+    <node concept="25R33" id="2T42Bz29pWF" role="25R1y">
+      <property role="3tVfz5" value="3333801137930608427" />
+      <property role="TrG5h" value="ORTHOGONAL" />
+    </node>
+    <node concept="25R33" id="2T42Bz29pWJ" role="25R1y">
+      <property role="3tVfz5" value="3333801137930608431" />
+      <property role="TrG5h" value="SPLINES" />
+    </node>
+  </node>
+  <node concept="25R3W" id="2C8x_a3gNfb">
+    <property role="3F6X1D" value="3028818438354318283" />
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="CycleBreakingStrategy" />
+    <ref role="1H5jkz" node="2C8x_a3gNfc" resolve="GREEDY" />
+    <node concept="25R33" id="2C8x_a3gNfc" role="25R1y">
+      <property role="3tVfz5" value="3028818438354318284" />
+      <property role="TrG5h" value="GREEDY" />
+    </node>
+    <node concept="25R33" id="2C8x_a3gNg9" role="25R1y">
+      <property role="3tVfz5" value="3028818438354318345" />
+      <property role="TrG5h" value="DEPTH_FIRST" />
+    </node>
+    <node concept="25R33" id="2C8x_a3gNgc" role="25R1y">
+      <property role="3tVfz5" value="3028818438354318348" />
+      <property role="TrG5h" value="MODEL_ORDER" />
+    </node>
+    <node concept="25R33" id="2C8x_a3gNgg" role="25R1y">
+      <property role="3tVfz5" value="3028818438354318352" />
+      <property role="TrG5h" value="GREEDY_MODEL_ORDER" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6ug9lnMIdE5">
+    <property role="EcuMT" value="7462505633627560581" />
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="DrawNoShadow" />
+    <property role="34LRSv" value="no shadow" />
+    <ref role="1TJDcQ" node="6uo2fN6xziV" resolve="Function_DrawShadow" />
   </node>
 </model>
 

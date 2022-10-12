@@ -334,7 +334,7 @@
   </node>
   <node concept="1TIwiD" id="4r1mNB_qwqE">
     <property role="TrG5h" value="SubscriptedFunctionEditor" />
-    <property role="34LRSv" value="math.subscriped-function" />
+    <property role="34LRSv" value="math.subscripted-function" />
     <property role="EcuMT" value="5098456557380306602" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="4r1mNB_qwrb" role="1TKVEi">

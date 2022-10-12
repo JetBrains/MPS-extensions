@@ -32,6 +32,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="zce0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.smodel.action(MPS.Editor/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
@@ -24671,8 +24672,8 @@
                             <ref role="37wK5l" node="2c3czgponU5" resolve="createConstant" />
                             <node concept="Xl_RD" id="RywcYwuy46" role="37wK5m" />
                             <node concept="10M0yZ" id="2c3czgpoEbP" role="37wK5m">
-                              <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
-                              <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                              <ref role="3cqZAo" to="lzb2:~JBColor.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                              <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
                             </node>
                             <node concept="3clFbT" id="2c3czgpoEBA" role="37wK5m">
                               <property role="3clFbU" value="false" />
@@ -25547,8 +25548,8 @@
                         <ref role="3cqZAo" to="5ueo:~StyleAttributes.TEXT_COLOR" resolve="TEXT_COLOR" />
                       </node>
                       <node concept="10M0yZ" id="2c3czgpmthd" role="37wK5m">
-                        <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                        <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                        <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                        <ref role="3cqZAo" to="lzb2:~JBColor.LIGHT_GRAY" resolve="LIGHT_GRAY" />
                       </node>
                     </node>
                   </node>

@@ -8,15 +8,12 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="c8dy" ref="r:bdde0def-ebc6-4e72-b832-78de4a911e35(de.itemis.model.merge.baselang.mergers)" />
-    <import index="245k" ref="r:1b4d0192-d370-48f1-b263-5be8f4cde603(de.itemis.model.merge.simple.demo.merge.exec)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
-    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" />
-    <import index="2y6h" ref="r:c332880d-cb1b-4ddd-b54d-4041384feb18(de.itemis.model.merge.simple.demo.plugin)" />
     <import index="yeyq" ref="r:98a265f1-4186-4e32-a289-328d37e5000c(de.itemis.model.simple.demo.property.structure)" />
+    <import index="yojb" ref="r:fe6cc855-59c6-4cf0-8bd9-320ea928101c(de.itemis.model.merge.baselang.sandbox.plugin)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -245,7 +242,7 @@
             <node concept="2OqwBi" id="6QQNrZxh4P" role="33vP2m">
               <node concept="2tJFMh" id="6QQNrZxgQz" role="2Oq$k0">
                 <node concept="ZC_QK" id="6QQNrZxKvm" role="2tJFKM">
-                  <ref role="2aWVGs" to="2y6h:3xLnOvEDNj_" resolve="SimplePropertyMerger" />
+                  <ref role="2aWVGs" to="yojb:3xLnOvEDNj_" resolve="SimplePropertyMerger2" />
                 </node>
               </node>
               <node concept="Vyspw" id="6QQNrZxhdH" role="2OqNvi">
@@ -372,7 +369,7 @@
             <node concept="2OqwBi" id="6QQNrZxJJu" role="33vP2m">
               <node concept="2tJFMh" id="6QQNrZxJyQ" role="2Oq$k0">
                 <node concept="ZC_QK" id="6QQNrZxJ$S" role="2tJFKM">
-                  <ref role="2aWVGs" to="2y6h:3xLnOvEDNj_" resolve="SimplePropertyMerger" />
+                  <ref role="2aWVGs" to="yojb:3xLnOvEDNj_" resolve="SimplePropertyMerger2" />
                 </node>
               </node>
               <node concept="Vyspw" id="6QQNrZxK5Z" role="2OqNvi">

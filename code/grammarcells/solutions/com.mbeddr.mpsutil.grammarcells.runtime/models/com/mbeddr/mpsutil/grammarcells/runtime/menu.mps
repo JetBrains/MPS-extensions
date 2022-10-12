@@ -37,6 +37,7 @@
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="9eyi" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.lang.editor.menus.transformation(MPS.Editor/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
+    <import index="qtqj" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.lang.editor.menus.substitute(MPS.Editor/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="878o" ref="r:46fddec3-0db9-4b86-8274-957463dd4499(com.mbeddr.mpsutil.grammarcells.runtimelang.structure)" implicit="true" />
   </imports>
@@ -163,6 +164,7 @@
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -856,8 +858,42 @@
         </node>
       </node>
       <node concept="3clFbS" id="1YKLYyyGCBc" role="3clF47">
+        <node concept="3cpWs8" id="dN43caQj_w" role="3cqZAp">
+          <node concept="3cpWsn" id="dN43caQj_x" role="3cpWs9">
+            <property role="TrG5h" value="description" />
+            <node concept="3uibUv" id="dN43caQ0qP" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+            </node>
+            <node concept="2OqwBi" id="dN43cbh1cb" role="33vP2m">
+              <node concept="1rXfSq" id="dN43caQj_z" role="2Oq$k0">
+                <ref role="37wK5l" to="uddc:~ConstraintsVerifiableActionItem.getOutputConcept()" resolve="getOutputConcept" />
+              </node>
+              <node concept="liA8E" id="dN43cbh1UR" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1YKLYyyGCBf" role="3cqZAp">
-          <node concept="10Nm6u" id="1YKLYyyGCBe" role="3clFbG" />
+          <node concept="3K4zz7" id="dN43caQo4K" role="3clFbG">
+            <node concept="37vLTw" id="dN43caQp85" role="3K4E3e">
+              <ref role="3cqZAo" node="dN43caQj_x" resolve="description" />
+            </node>
+            <node concept="2OqwBi" id="dN43caQrlx" role="3K4GZi">
+              <node concept="1rXfSq" id="dN43caQqwC" role="2Oq$k0">
+                <ref role="37wK5l" to="uddc:~ConstraintsVerifiableActionItem.getOutputConcept()" resolve="getOutputConcept" />
+              </node>
+              <node concept="liA8E" id="dN43caQrY8" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="dN43cbh4eU" role="3K4Cdx">
+              <node concept="37vLTw" id="dN43caQj_$" role="2Oq$k0">
+                <ref role="3cqZAo" node="dN43caQj_x" resolve="description" />
+              </node>
+              <node concept="17RvpY" id="dN43cbh5g4" role="2OqNvi" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="2AHcQZ" id="1YKLYyyGCBd" role="2AJF6D">
@@ -1054,44 +1090,41 @@
         </node>
       </node>
       <node concept="3clFbS" id="2mvFNoUAyzP" role="3clF47">
-        <node concept="3cpWs8" id="2mvFNoUAFIL" role="3cqZAp">
-          <node concept="3cpWsn" id="2mvFNoUAFIM" role="3cpWs9">
-            <property role="TrG5h" value="concept" />
-            <node concept="3uibUv" id="2mvFNoUAFIK" role="1tU5fm">
-              <ref role="3uigEE" to="c17a:~SAbstractConcept" resolve="SAbstractConcept" />
+        <node concept="3cpWs8" id="dN43cbhijJ" role="3cqZAp">
+          <node concept="3cpWsn" id="dN43cbhijK" role="3cpWs9">
+            <property role="TrG5h" value="description" />
+            <node concept="3uibUv" id="dN43cbhijL" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~String" resolve="String" />
             </node>
-            <node concept="1rXfSq" id="2mvFNoUAFIN" role="33vP2m">
-              <ref role="37wK5l" to="78sh:~SubstituteMenuItem.getOutputConcept()" resolve="getOutputConcept" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="2mvFNoUAFV7" role="3cqZAp">
-          <node concept="3clFbS" id="2mvFNoUAFV9" role="3clFbx">
-            <node concept="3cpWs6" id="2mvFNoUAGt0" role="3cqZAp">
-              <node concept="2YIFZM" id="2mvFNoUAGXd" role="3cqZAk">
-                <ref role="1Pybhc" to="5b0:~NodePresentationUtil" resolve="NodePresentationUtil" />
-                <ref role="37wK5l" to="5b0:~NodePresentationUtil.descriptionText(org.jetbrains.mps.openapi.language.SAbstractConcept,boolean)" resolve="descriptionText" />
-                <node concept="37vLTw" id="2mvFNoUAH7K" role="37wK5m">
-                  <ref role="3cqZAo" node="2mvFNoUAFIM" resolve="concept" />
-                </node>
-                <node concept="3clFbT" id="2mvFNoUAHGX" role="37wK5m">
-                  <property role="3clFbU" value="false" />
-                </node>
+            <node concept="2OqwBi" id="dN43cbhijM" role="33vP2m">
+              <node concept="1rXfSq" id="dN43cbhijN" role="2Oq$k0">
+                <ref role="37wK5l" to="uddc:~ConstraintsVerifiableActionItem.getOutputConcept()" resolve="getOutputConcept" />
+              </node>
+              <node concept="liA8E" id="dN43cbhijO" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
               </node>
             </node>
           </node>
-          <node concept="2ZW3vV" id="2mvFNoUAGn0" role="3clFbw">
-            <node concept="3uibUv" id="2mvFNoUAGrH" role="2ZW6by">
-              <ref role="3uigEE" to="c17a:~SConcept" resolve="SConcept" />
-            </node>
-            <node concept="37vLTw" id="2mvFNoUAFYc" role="2ZW6bz">
-              <ref role="3cqZAo" node="2mvFNoUAFIM" resolve="concept" />
-            </node>
-          </node>
         </node>
-        <node concept="3clFbF" id="2mvFNoUAFsW" role="3cqZAp">
-          <node concept="Xl_RD" id="2mvFNoUAFsV" role="3clFbG">
-            <property role="Xl_RC" value="" />
+        <node concept="3clFbF" id="dN43cbhijP" role="3cqZAp">
+          <node concept="3K4zz7" id="dN43cbhijQ" role="3clFbG">
+            <node concept="37vLTw" id="dN43cbhijR" role="3K4E3e">
+              <ref role="3cqZAo" node="dN43cbhijK" resolve="description" />
+            </node>
+            <node concept="2OqwBi" id="dN43cbhijS" role="3K4GZi">
+              <node concept="1rXfSq" id="dN43cbhijT" role="2Oq$k0">
+                <ref role="37wK5l" to="uddc:~ConstraintsVerifiableActionItem.getOutputConcept()" resolve="getOutputConcept" />
+              </node>
+              <node concept="liA8E" id="dN43cbhijU" role="2OqNvi">
+                <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="dN43cbhijV" role="3K4Cdx">
+              <node concept="37vLTw" id="dN43cbhijW" role="2Oq$k0">
+                <ref role="3cqZAo" node="dN43cbhijK" resolve="description" />
+              </node>
+              <node concept="17RvpY" id="dN43cbhijX" role="2OqNvi" />
+            </node>
           </node>
         </node>
       </node>

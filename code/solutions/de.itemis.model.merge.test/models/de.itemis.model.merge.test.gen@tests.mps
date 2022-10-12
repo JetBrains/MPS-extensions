@@ -6,7 +6,7 @@
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" name="de.itemis.model.merge.diamond" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
   </languages>
   <imports>
@@ -546,18 +546,23 @@
         </node>
         <node concept="3clFbH" id="2C9csoixcXk" role="3cqZAp" />
         <node concept="3cpWs6" id="2C9csoixcXu" role="3cqZAp">
-          <node concept="2OqwBi" id="2C9csoixcXo" role="3cqZAk">
-            <node concept="37vLTw" id="2C9csoixcXp" role="2Oq$k0">
-              <ref role="3cqZAo" node="2C9csoixcWZ" resolve="dataMerger" />
+          <node concept="2OqwBi" id="W4mNzky6Bx" role="3cqZAk">
+            <node concept="2OqwBi" id="2C9csoixcXo" role="2Oq$k0">
+              <node concept="37vLTw" id="2C9csoixcXp" role="2Oq$k0">
+                <ref role="3cqZAo" node="2C9csoixcWZ" resolve="dataMerger" />
+              </node>
+              <node concept="liA8E" id="2C9csoixcXq" role="2OqNvi">
+                <ref role="37wK5l" to="gunp:5lvG0vITZvO" resolve="merge" />
+                <node concept="3xONca" id="2C9csoixcXr" role="37wK5m">
+                  <ref role="3xOPvv" node="2C9csoiwM$Q" resolve="payloadInst1" />
+                </node>
+                <node concept="3xONca" id="2C9csoixcXs" role="37wK5m">
+                  <ref role="3xOPvv" node="2C9csoiwM$S" resolve="payloadInst2" />
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="2C9csoixcXq" role="2OqNvi">
-              <ref role="37wK5l" to="gunp:5lvG0vITZvO" resolve="merge" />
-              <node concept="3xONca" id="2C9csoixcXr" role="37wK5m">
-                <ref role="3xOPvv" node="2C9csoiwM$Q" resolve="payloadInst1" />
-              </node>
-              <node concept="3xONca" id="2C9csoixcXs" role="37wK5m">
-                <ref role="3xOPvv" node="2C9csoiwM$S" resolve="payloadInst2" />
-              </node>
+            <node concept="liA8E" id="W4mNzky6Rj" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
             </node>
           </node>
         </node>

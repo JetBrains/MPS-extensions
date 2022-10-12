@@ -49,6 +49,7 @@
     <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
     <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
@@ -4183,22 +4184,12 @@
             <ref role="3cqZAo" node="4NO8rntV3yC" resolve="offsetY" />
           </node>
           <node concept="10M0yZ" id="5wnrAmTLGD$" role="37wK5m">
-            <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-            <ref role="3cqZAo" to="z60i:~Color.BLACK" resolve="BLACK" />
+            <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+            <ref role="3cqZAo" to="lzb2:~JBColor.BLACK" resolve="BLACK" />
           </node>
-          <node concept="2ShNRf" id="5wnrAmTLG_g" role="37wK5m">
-            <node concept="1pGfFk" id="5wnrAmTLG_h" role="2ShVmc">
-              <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-              <node concept="3cmrfG" id="5wnrAmTLG_i" role="37wK5m">
-                <property role="3cmrfH" value="200" />
-              </node>
-              <node concept="3cmrfG" id="5wnrAmTLG_j" role="37wK5m">
-                <property role="3cmrfH" value="200" />
-              </node>
-              <node concept="3cmrfG" id="5wnrAmTLG_k" role="37wK5m">
-                <property role="3cmrfH" value="200" />
-              </node>
-            </node>
+          <node concept="10M0yZ" id="2WI5qcS8iM" role="37wK5m">
+            <ref role="3cqZAo" to="lzb2:~JBColor.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+            <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
           </node>
         </node>
       </node>

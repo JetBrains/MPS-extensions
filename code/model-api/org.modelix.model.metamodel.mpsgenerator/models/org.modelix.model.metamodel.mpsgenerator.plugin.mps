@@ -677,7 +677,7 @@
     </node>
     <node concept="1DS2jV" id="3Fg0S50hf2X" role="1NuT2Z">
       <property role="TrG5h" value="projectDir" />
-      <ref role="1DUlNI" to="qkt:~PlatformDataKeys.PROJECT_FILE_DIRECTORY" resolve="PROJECT_FILE_DIRECTORY" />
+      <ref role="1DUlNI" to="qkt:~PlatformCoreDataKeys.PROJECT_FILE_DIRECTORY" resolve="PROJECT_FILE_DIRECTORY" />
       <node concept="1oajcY" id="3Fg0S50hf2Y" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="3Fg0S50cwM2" role="1NuT2Z">
@@ -3432,7 +3432,7 @@
     </node>
     <node concept="1DS2jV" id="6bQHiZUqoON" role="1NuT2Z">
       <property role="TrG5h" value="projectDir" />
-      <ref role="1DUlNI" to="qkt:~PlatformDataKeys.PROJECT_FILE_DIRECTORY" resolve="PROJECT_FILE_DIRECTORY" />
+      <ref role="1DUlNI" to="qkt:~PlatformCoreDataKeys.PROJECT_FILE_DIRECTORY" resolve="PROJECT_FILE_DIRECTORY" />
       <node concept="1oajcY" id="6bQHiZUqoOO" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="6bQHiZUqoOP" role="1NuT2Z">

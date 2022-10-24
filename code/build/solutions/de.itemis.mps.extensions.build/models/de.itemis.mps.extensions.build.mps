@@ -897,7 +897,7 @@
         </node>
       </node>
       <node concept="m$f5U" id="HjfIy1w$SM" role="m$_yh">
-        <ref role="m$f5T" node="3$A0JaN5ae8" resolve="jackson" />
+        <ref role="m$f5T" node="3$A0JaN5ae8" resolve="third-party" />
       </node>
       <node concept="2iUeEo" id="3$A0JaN5j9p" role="2iVFfd">
         <property role="2iUeEu" value="https://jetbrains.com/mps" />
@@ -14100,7 +14100,7 @@
         <node concept="pUk6x" id="3D0nl1ssJJI" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="3$A0JaN5jDN" role="39821P">
-        <ref role="m_rDy" node="3$A0JaN5ezp" resolve="de.itemis.mps.extensions.jackson" />
+        <ref role="m_rDy" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
         <node concept="pUk6x" id="3$A0JaN5jUX" role="pUk7w" />
         <node concept="398223" id="36BYqFT0LYQ" role="39821P">
           <node concept="3_J27D" id="36BYqFT0LYR" role="Nbhlr">

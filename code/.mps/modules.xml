@@ -145,7 +145,7 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.shadowmodels.util/de.q60.mps.shadowmodels.util.mpl" folder="shadowmodels.core" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.virtualinterfaces.sandboxlang/de.q60.mps.virtualinterfaces.sandboxlang.mpl" folder="shadowmodels.virtualinterfaces" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/languages/de.q60.mps.virtualinterfaces/de.q60.mps.virtualinterfaces.mpl" folder="shadowmodels.virtualinterfaces" />
-      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.collections.libs/de.q60.mps.collections.libs.msd" folder="shadowmodels" />
+      <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.collections.libs/de.q60.mps.collections.libs.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.genplan.virutalinterfaces_incremental/de.q60.mps.genplan.virutalinterfaces_incremental.msd" folder="shadowmodels.examples.interpreter" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.runtime/de.q60.mps.incremental.runtime.msd" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/de.q60.mps.incremental.sandbox/de.q60.mps.incremental.sandbox.msd" folder="shadowmodels.incremental" />

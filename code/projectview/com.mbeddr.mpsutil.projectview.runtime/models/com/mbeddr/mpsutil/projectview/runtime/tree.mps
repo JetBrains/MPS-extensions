@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:30978237-741d-4b0b-ac0b-6600a1c5c14f(com.mbeddr.mpsutil.projectview.runtime.tree)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
@@ -1558,7 +1557,7 @@
       <node concept="3uibUv" id="4gq8yQBZ6Og" role="1tU5fm">
         <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
         <node concept="3uibUv" id="4gq8yQBZ6Oh" role="11_B2D">
-          <ref role="3uigEE" node="4gq8yQBZ77P" resolve="CustomProjectView.ComponentCreationListener" />
+          <ref role="3uigEE" node="4gq8yQBZ77P" resolve="ComponentCreationListener" />
         </node>
       </node>
       <node concept="3Tm6S6" id="4gq8yQBZ6Oi" role="1B3o_S" />
@@ -1610,7 +1609,7 @@
       <property role="TrG5h" value="myComponent" />
       <node concept="3Tm6S6" id="5GuprjiTEdm" role="1B3o_S" />
       <node concept="3uibUv" id="5GuprjiTYos" role="1tU5fm">
-        <ref role="3uigEE" node="5GuprjiQFaD" resolve="CustomProjectView.MySimpleToolWindowPanel" />
+        <ref role="3uigEE" node="5GuprjiQFaD" resolve="MySimpleToolWindowPanel" />
       </node>
     </node>
     <node concept="312cEg" id="4gq8yQBZ6MT" role="jymVt">

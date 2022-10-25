@@ -7,7 +7,7 @@
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
   </languages>
   <imports>
@@ -1543,7 +1543,7 @@
                       <ref role="37wK5l" to="dxuu:~JComponent.setBorder(javax.swing.border.Border)" resolve="setBorder" />
                       <node concept="2YIFZM" id="7iCybvTlzox" role="37wK5m">
                         <ref role="37wK5l" to="g1qu:~JBUI$Borders.emptyLeft(int)" resolve="emptyLeft" />
-                        <ref role="1Pybhc" to="g1qu:~JBUI$Borders" resolve="Borders" />
+                        <ref role="1Pybhc" to="g1qu:~JBUI$Borders" resolve="JBUI.Borders" />
                         <node concept="3cmrfG" id="7iCybvTlzoy" role="37wK5m">
                           <property role="3cmrfH" value="20" />
                         </node>
@@ -1636,7 +1636,7 @@
             <node concept="liA8E" id="14pL6xi8CB8" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~AbstractButton.setSelected(boolean)" resolve="setSelected" />
               <node concept="37vLTw" id="14pL6xi9qLK" role="37wK5m">
-                <ref role="3cqZAo" node="14pL6xi8xnm" resolve="yes" />
+                <ref role="3cqZAo" node="14pL6xi8xnm" resolve="flag" />
               </node>
             </node>
           </node>
@@ -1668,7 +1668,7 @@
               <node concept="2OqwBi" id="14VjQzYedz6" role="3uHU7w">
                 <node concept="3yMSdA" id="14VjQzYecWU" role="2Oq$k0" />
                 <node concept="liA8E" id="14VjQzYee4O" role="2OqNvi">
-                  <ref role="37wK5l" node="14pL6xi8DQp" resolve="isSpellCheckingEnabled" />
+                  <ref role="37wK5l" node="14pL6xi8DQp" resolve="isSpellCheckingEnabledInGUI" />
                 </node>
               </node>
               <node concept="2OqwBi" id="14VjQzYebKo" role="3uHU7B">
@@ -1688,7 +1688,7 @@
             <node concept="2OqwBi" id="14pL6xi9142" role="3clFbG">
               <node concept="3yMSdA" id="14pL6xi90$u" role="2Oq$k0" />
               <node concept="liA8E" id="14pL6xi91Mh" role="2OqNvi">
-                <ref role="37wK5l" node="14pL6xi8xeo" />
+                <ref role="37wK5l" node="14pL6xi8xeo" resolve="setSpellCheckingEnabledInGUI" />
                 <node concept="2OqwBi" id="14VjQzYdORe" role="37wK5m">
                   <node concept="3yMSdA" id="14VjQzYdNSz" role="2Oq$k0" />
                   <node concept="2PDubS" id="14VjQzYdPuR" role="2OqNvi">
@@ -1712,7 +1712,7 @@
                 <node concept="2OqwBi" id="14VjQzYe8Mg" role="37wK5m">
                   <node concept="3yMSdA" id="14VjQzYe8iL" role="2Oq$k0" />
                   <node concept="liA8E" id="14VjQzYe9n3" role="2OqNvi">
-                    <ref role="37wK5l" node="14pL6xi8DQp" resolve="isSpellCheckingEnabled" />
+                    <ref role="37wK5l" node="14pL6xi8DQp" resolve="isSpellCheckingEnabledInGUI" />
                   </node>
                 </node>
               </node>
@@ -1806,7 +1806,7 @@
       </node>
       <node concept="2ShNRf" id="uB9WAZaxl_" role="3yzNdQ">
         <node concept="1pGfFk" id="uB9WAZaB42" role="2ShVmc">
-          <ref role="37wK5l" node="uB9WAZaAPl" />
+          <ref role="37wK5l" node="uB9WAZaAPl" resolve="MultilineSettingsPage" />
         </node>
       </node>
     </node>

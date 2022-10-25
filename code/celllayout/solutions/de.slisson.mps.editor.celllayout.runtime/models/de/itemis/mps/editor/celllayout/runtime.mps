@@ -6,7 +6,7 @@
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -15451,7 +15451,7 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="1Vvv4A7GEeM" role="jymVt" />
+    <node concept="2tJIrI" id="1Vvv4A7Htil" role="jymVt" />
     <node concept="3clFb_" id="6SVXTgIadNz" role="jymVt">
       <property role="TrG5h" value="paintBorder" />
       <node concept="37vLTG" id="6SVXTgIaodq" role="3clF46">

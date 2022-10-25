@@ -82,9 +82,9 @@ ext.dependencyRepositories = [
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2021.2'
+ext.mpsMajor = '2021.3'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '5'
+ext.mpsMinor = '1'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 

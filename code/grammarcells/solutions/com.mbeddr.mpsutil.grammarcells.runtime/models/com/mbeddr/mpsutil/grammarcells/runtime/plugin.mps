@@ -5,6 +5,8 @@
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
+    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -19,15 +21,15 @@
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="yyf4" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.util(MPS.OpenAPI/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
-    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
-    <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
+    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
-    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
-    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="9ti4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.extensions(MPS.IDEA/)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
+    <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="m9yn" ref="r:fa6df9a8-26a8-40dd-9b99-6ccc8d453556(com.mbeddr.mpsutil.grammarcells.runtime.insertpopup)" />
     <import index="878o" ref="r:46fddec3-0db9-4b86-8274-957463dd4499(com.mbeddr.mpsutil.grammarcells.runtimelang.structure)" implicit="true" />
   </imports>
@@ -127,6 +129,7 @@
         <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -169,6 +172,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
@@ -202,6 +206,7 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
         <child id="1163668914799" name="condition" index="3K4Cdx" />
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
@@ -218,6 +223,11 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
+      </concept>
+    </language>
+    <language id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension">
+      <concept id="3729007189729192406" name="jetbrains.mps.lang.extension.structure.ExtensionPointDeclaration" flags="ng" index="vrV6u">
+        <child id="8029776554053057803" name="objectType" index="luc8K" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -831,6 +841,193 @@
     </node>
   </node>
   <node concept="2DaZZR" id="4AjdlHqlD$f" />
+  <node concept="2uRRBC" id="5KGtkLHsgKK">
+    <property role="TrG5h" value="ActionPromoter_ApplicationPlugin" />
+    <property role="3GE5qa" value="insertPopup" />
+    <node concept="2BZ0e9" id="5K7KC_qusrY" role="2uRRBG">
+      <property role="TrG5h" value="promoter" />
+      <node concept="3Tm6S6" id="5K7KC_qusrZ" role="1B3o_S" />
+      <node concept="3uibUv" id="5K7KC_qut6Q" role="1tU5fm">
+        <ref role="3uigEE" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
+      </node>
+      <node concept="2ShNRf" id="5KGtkLHspfL" role="33vP2m">
+        <node concept="YeOm9" id="5KGtkLHspfM" role="2ShVmc">
+          <node concept="1Y3b0j" id="5KGtkLHspfN" role="YeSDq">
+            <property role="2bfB8j" value="true" />
+            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+            <ref role="1Y3XeK" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
+            <node concept="3Tm1VV" id="5KGtkLHspfO" role="1B3o_S" />
+            <node concept="3clFb_" id="5KGtkLHspfP" role="jymVt">
+              <property role="1EzhhJ" value="false" />
+              <property role="TrG5h" value="promote" />
+              <property role="DiZV1" value="false" />
+              <node concept="3Tm1VV" id="5KGtkLHspfQ" role="1B3o_S" />
+              <node concept="3uibUv" id="5KGtkLHspfR" role="3clF45">
+                <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                <node concept="3uibUv" id="5KGtkLHspfS" role="11_B2D">
+                  <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
+                </node>
+              </node>
+              <node concept="37vLTG" id="5KGtkLHspfT" role="3clF46">
+                <property role="TrG5h" value="actions" />
+                <node concept="3uibUv" id="5KGtkLHspfU" role="1tU5fm">
+                  <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                  <node concept="3qUE_q" id="5XadiMeissX" role="11_B2D">
+                    <node concept="3uibUv" id="5KGtkLHspfV" role="3qUE_r">
+                      <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTG" id="5KGtkLHspfW" role="3clF46">
+                <property role="TrG5h" value="context" />
+                <node concept="3uibUv" id="5KGtkLHspfX" role="1tU5fm">
+                  <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="5KGtkLHspfY" role="3clF47">
+                <node concept="3clFbF" id="5KGtkLHspfZ" role="3cqZAp">
+                  <node concept="2OqwBi" id="5KGtkLHspg0" role="3clFbG">
+                    <node concept="2OqwBi" id="5KGtkLHspg1" role="2Oq$k0">
+                      <node concept="1eOMI4" id="5KGtkLHspg2" role="2Oq$k0">
+                        <node concept="10QFUN" id="5KGtkLHspg3" role="1eOMHV">
+                          <node concept="_YKpA" id="5KGtkLHspg4" role="10QFUM">
+                            <node concept="3uibUv" id="5KGtkLHspg5" role="_ZDj9">
+                              <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="5KGtkLHspg6" role="10QFUP">
+                            <ref role="3cqZAo" node="5KGtkLHspfT" resolve="actions" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3zZkjj" id="5KGtkLHspg7" role="2OqNvi">
+                        <node concept="1bVj0M" id="5KGtkLHspg8" role="23t8la">
+                          <node concept="3clFbS" id="5KGtkLHspg9" role="1bW5cS">
+                            <node concept="3clFbF" id="5KGtkLHspga" role="3cqZAp">
+                              <node concept="2OqwBi" id="5KGtkLHspgb" role="3clFbG">
+                                <node concept="2OqwBi" id="5KGtkLHspgc" role="2Oq$k0">
+                                  <node concept="2OqwBi" id="5KGtkLHspgd" role="2Oq$k0">
+                                    <node concept="37vLTw" id="5KGtkLHspge" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="5KGtkLHspgi" resolve="it" />
+                                    </node>
+                                    <node concept="liA8E" id="5KGtkLHspgf" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="5KGtkLHspgg" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="5KGtkLHspgh" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+                                  <node concept="3cpWs3" id="4Fanv3X8UlY" role="37wK5m">
+                                    <node concept="Xl_RD" id="4Fanv3X8Uph" role="3uHU7w">
+                                      <property role="Xl_RC" value=".plugin" />
+                                    </node>
+                                    <node concept="2OqwBi" id="1x$5PmO0T6j" role="3uHU7B">
+                                      <node concept="37shsh" id="4Fanv3X8TBF" role="2Oq$k0">
+                                        <node concept="1dCxOk" id="2EPKBwuumSl" role="37shsm">
+                                          <property role="1XweGW" value="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" />
+                                          <property role="1XxBO9" value="com.mbeddr.mpsutil.grammarcells.runtime" />
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="1x$5PmO0Twb" role="2OqNvi">
+                                        <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName()" resolve="getModuleName" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="5KGtkLHspgi" role="1bW2Oz">
+                            <property role="TrG5h" value="it" />
+                            <node concept="2jxLKc" id="5KGtkLHspgj" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="ANE8D" id="5KGtkLHspgk" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2uRRBI" id="5KGtkLHsp_b" role="2uRRBF">
+      <node concept="3clFbS" id="5KGtkLHsp_c" role="2VODD2">
+        <node concept="3clFbF" id="5K7KC_qurlJ" role="3cqZAp">
+          <node concept="2OqwBi" id="5K7KC_qursP" role="3clFbG">
+            <node concept="liA8E" id="5K7KC_qus5h" role="2OqNvi">
+              <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Object)" resolve="unregisterExtension" />
+              <node concept="2OqwBi" id="5K7KC_qutjo" role="37wK5m">
+                <node concept="2WthIp" id="5K7KC_qutjr" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="5K7KC_qutjt" role="2OqNvi">
+                  <ref role="2WH_rO" node="5K7KC_qusrY" resolve="promoter" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2EPKBwuusd_" role="2Oq$k0">
+              <node concept="2OqwBi" id="2EPKBwuusdA" role="2Oq$k0">
+                <node concept="2YIFZM" id="2EPKBwuusdB" role="2Oq$k0">
+                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                </node>
+                <node concept="liA8E" id="2EPKBwuusdC" role="2OqNvi">
+                  <ref role="37wK5l" to="1m72:~ComponentManager.getExtensionArea()" resolve="getExtensionArea" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2EPKBwuusdD" role="2OqNvi">
+                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />
+                <node concept="10M0yZ" id="2EPKBwuusdE" role="37wK5m">
+                  <ref role="1PxDUh" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
+                  <ref role="3cqZAo" to="qkt:~ActionPromoter.EP_NAME" resolve="EP_NAME" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2uRRBj" id="5KGtkLHsqpj" role="2uRRBE">
+      <node concept="3clFbS" id="5KGtkLHsqpk" role="2VODD2">
+        <node concept="3clFbF" id="2EPKBwuunZE" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwuupwF" role="3clFbG">
+            <node concept="2OqwBi" id="2EPKBwuuoRk" role="2Oq$k0">
+              <node concept="2OqwBi" id="2EPKBwuuooC" role="2Oq$k0">
+                <node concept="2YIFZM" id="2EPKBwuuo4N" role="2Oq$k0">
+                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+                </node>
+                <node concept="liA8E" id="2EPKBwuuoKQ" role="2OqNvi">
+                  <ref role="37wK5l" to="1m72:~ComponentManager.getExtensionArea()" resolve="getExtensionArea" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2EPKBwuup94" role="2OqNvi">
+                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />
+                <node concept="10M0yZ" id="2EPKBwuupd8" role="37wK5m">
+                  <ref role="3cqZAo" to="qkt:~ActionPromoter.EP_NAME" resolve="EP_NAME" />
+                  <ref role="1PxDUh" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="2EPKBwuuq7e" role="2OqNvi">
+              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object)" resolve="registerExtension" />
+              <node concept="2OqwBi" id="2EPKBwuuqi6" role="37wK5m">
+                <node concept="2WthIp" id="2EPKBwuuqi7" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="2EPKBwuuqi8" role="2OqNvi">
+                  <ref role="2WH_rO" node="5K7KC_qusrY" resolve="promoter" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="sE7Ow" id="2EPKBwuucSj">
     <property role="TrG5h" value="InsertPopupAction" />
     <property role="2uzpH1" value="Insert Popup" />
@@ -1176,193 +1373,6 @@
       </node>
     </node>
   </node>
-  <node concept="2uRRBC" id="5KGtkLHsgKK">
-    <property role="TrG5h" value="ActionPromoter_ApplicationPlugin" />
-    <property role="3GE5qa" value="insertPopup" />
-    <node concept="2BZ0e9" id="5K7KC_qusrY" role="2uRRBG">
-      <property role="TrG5h" value="promoter" />
-      <node concept="3Tm6S6" id="5K7KC_qusrZ" role="1B3o_S" />
-      <node concept="3uibUv" id="5K7KC_qut6Q" role="1tU5fm">
-        <ref role="3uigEE" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
-      </node>
-      <node concept="2ShNRf" id="5KGtkLHspfL" role="33vP2m">
-        <node concept="YeOm9" id="5KGtkLHspfM" role="2ShVmc">
-          <node concept="1Y3b0j" id="5KGtkLHspfN" role="YeSDq">
-            <property role="2bfB8j" value="true" />
-            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-            <ref role="1Y3XeK" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
-            <node concept="3Tm1VV" id="5KGtkLHspfO" role="1B3o_S" />
-            <node concept="3clFb_" id="5KGtkLHspfP" role="jymVt">
-              <property role="1EzhhJ" value="false" />
-              <property role="TrG5h" value="promote" />
-              <property role="DiZV1" value="false" />
-              <node concept="3Tm1VV" id="5KGtkLHspfQ" role="1B3o_S" />
-              <node concept="3uibUv" id="5KGtkLHspfR" role="3clF45">
-                <ref role="3uigEE" to="33ny:~List" resolve="List" />
-                <node concept="3uibUv" id="5KGtkLHspfS" role="11_B2D">
-                  <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
-                </node>
-              </node>
-              <node concept="37vLTG" id="5KGtkLHspfT" role="3clF46">
-                <property role="TrG5h" value="actions" />
-                <node concept="3uibUv" id="5KGtkLHspfU" role="1tU5fm">
-                  <ref role="3uigEE" to="33ny:~List" resolve="List" />
-                  <node concept="3qUE_q" id="5XadiMeissX" role="11_B2D">
-                    <node concept="3uibUv" id="5KGtkLHspfV" role="3qUE_r">
-                      <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="37vLTG" id="5KGtkLHspfW" role="3clF46">
-                <property role="TrG5h" value="context" />
-                <node concept="3uibUv" id="5KGtkLHspfX" role="1tU5fm">
-                  <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="5KGtkLHspfY" role="3clF47">
-                <node concept="3clFbF" id="5KGtkLHspfZ" role="3cqZAp">
-                  <node concept="2OqwBi" id="5KGtkLHspg0" role="3clFbG">
-                    <node concept="2OqwBi" id="5KGtkLHspg1" role="2Oq$k0">
-                      <node concept="1eOMI4" id="5KGtkLHspg2" role="2Oq$k0">
-                        <node concept="10QFUN" id="5KGtkLHspg3" role="1eOMHV">
-                          <node concept="_YKpA" id="5KGtkLHspg4" role="10QFUM">
-                            <node concept="3uibUv" id="5KGtkLHspg5" role="_ZDj9">
-                              <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
-                            </node>
-                          </node>
-                          <node concept="37vLTw" id="5KGtkLHspg6" role="10QFUP">
-                            <ref role="3cqZAo" node="5KGtkLHspfT" resolve="actions" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3zZkjj" id="5KGtkLHspg7" role="2OqNvi">
-                        <node concept="1bVj0M" id="5KGtkLHspg8" role="23t8la">
-                          <node concept="3clFbS" id="5KGtkLHspg9" role="1bW5cS">
-                            <node concept="3clFbF" id="5KGtkLHspga" role="3cqZAp">
-                              <node concept="2OqwBi" id="5KGtkLHspgb" role="3clFbG">
-                                <node concept="2OqwBi" id="5KGtkLHspgc" role="2Oq$k0">
-                                  <node concept="2OqwBi" id="5KGtkLHspgd" role="2Oq$k0">
-                                    <node concept="37vLTw" id="5KGtkLHspge" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="5KGtkLHspgi" resolve="it" />
-                                    </node>
-                                    <node concept="liA8E" id="5KGtkLHspgf" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
-                                    </node>
-                                  </node>
-                                  <node concept="liA8E" id="5KGtkLHspgg" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
-                                  </node>
-                                </node>
-                                <node concept="liA8E" id="5KGtkLHspgh" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
-                                  <node concept="3cpWs3" id="4Fanv3X8UlY" role="37wK5m">
-                                    <node concept="Xl_RD" id="4Fanv3X8Uph" role="3uHU7w">
-                                      <property role="Xl_RC" value=".plugin" />
-                                    </node>
-                                    <node concept="2OqwBi" id="1x$5PmO0T6j" role="3uHU7B">
-                                      <node concept="37shsh" id="4Fanv3X8TBF" role="2Oq$k0">
-                                        <node concept="1dCxOk" id="2EPKBwuumSl" role="37shsm">
-                                          <property role="1XweGW" value="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" />
-                                          <property role="1XxBO9" value="com.mbeddr.mpsutil.grammarcells.runtime" />
-                                        </node>
-                                      </node>
-                                      <node concept="liA8E" id="1x$5PmO0Twb" role="2OqNvi">
-                                        <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName()" resolve="getModuleName" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Rh6nW" id="5KGtkLHspgi" role="1bW2Oz">
-                            <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="5KGtkLHspgj" role="1tU5fm" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="ANE8D" id="5KGtkLHspgk" role="2OqNvi" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2uRRBI" id="5KGtkLHsp_b" role="2uRRBF">
-      <node concept="3clFbS" id="5KGtkLHsp_c" role="2VODD2">
-        <node concept="3clFbF" id="5K7KC_qurlJ" role="3cqZAp">
-          <node concept="2OqwBi" id="5K7KC_qursP" role="3clFbG">
-            <node concept="liA8E" id="5K7KC_qus5h" role="2OqNvi">
-              <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Object)" resolve="unregisterExtension" />
-              <node concept="2OqwBi" id="5K7KC_qutjo" role="37wK5m">
-                <node concept="2WthIp" id="5K7KC_qutjr" role="2Oq$k0" />
-                <node concept="2BZ7hE" id="5K7KC_qutjt" role="2OqNvi">
-                  <ref role="2WH_rO" node="5K7KC_qusrY" resolve="promoter" />
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="2EPKBwuusd_" role="2Oq$k0">
-              <node concept="2OqwBi" id="2EPKBwuusdA" role="2Oq$k0">
-                <node concept="2YIFZM" id="2EPKBwuusdB" role="2Oq$k0">
-                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                </node>
-                <node concept="liA8E" id="2EPKBwuusdC" role="2OqNvi">
-                  <ref role="37wK5l" to="1m72:~ComponentManager.getExtensionArea()" resolve="getExtensionArea" />
-                </node>
-              </node>
-              <node concept="liA8E" id="2EPKBwuusdD" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />
-                <node concept="10M0yZ" id="2EPKBwuusdE" role="37wK5m">
-                  <ref role="1PxDUh" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
-                  <ref role="3cqZAo" to="qkt:~ActionPromoter.EP_NAME" resolve="EP_NAME" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2uRRBj" id="5KGtkLHsqpj" role="2uRRBE">
-      <node concept="3clFbS" id="5KGtkLHsqpk" role="2VODD2">
-        <node concept="3clFbF" id="2EPKBwuunZE" role="3cqZAp">
-          <node concept="2OqwBi" id="2EPKBwuupwF" role="3clFbG">
-            <node concept="2OqwBi" id="2EPKBwuuoRk" role="2Oq$k0">
-              <node concept="2OqwBi" id="2EPKBwuuooC" role="2Oq$k0">
-                <node concept="2YIFZM" id="2EPKBwuuo4N" role="2Oq$k0">
-                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-                </node>
-                <node concept="liA8E" id="2EPKBwuuoKQ" role="2OqNvi">
-                  <ref role="37wK5l" to="1m72:~ComponentManager.getExtensionArea()" resolve="getExtensionArea" />
-                </node>
-              </node>
-              <node concept="liA8E" id="2EPKBwuup94" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ExtensionsArea.getExtensionPoint(com.intellij.openapi.extensions.ExtensionPointName)" resolve="getExtensionPoint" />
-                <node concept="10M0yZ" id="2EPKBwuupd8" role="37wK5m">
-                  <ref role="3cqZAo" to="qkt:~ActionPromoter.EP_NAME" resolve="EP_NAME" />
-                  <ref role="1PxDUh" to="qkt:~ActionPromoter" resolve="ActionPromoter" />
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="2EPKBwuuq7e" role="2OqNvi">
-              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object)" resolve="registerExtension" />
-              <node concept="2OqwBi" id="2EPKBwuuqi6" role="37wK5m">
-                <node concept="2WthIp" id="2EPKBwuuqi7" role="2Oq$k0" />
-                <node concept="2BZ7hE" id="2EPKBwuuqi8" role="2OqNvi">
-                  <ref role="2WH_rO" node="5K7KC_qusrY" resolve="promoter" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="Zd50a" id="2EPKBwuw2$b">
     <property role="TrG5h" value="GrammarCellKeymapChanges" />
     <property role="3GE5qa" value="insertPopup" />
@@ -1428,6 +1438,34 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="vrV6u" id="6eLXiTKxV0G">
+    <property role="TrG5h" value="ParserFailureNotifierExtensionPoint" />
+    <node concept="3uibUv" id="6eLXiTKyInL" role="luc8K">
+      <ref role="3uigEE" node="6eLXiTKxV0M" resolve="ParserFailureNotifier" />
+    </node>
+  </node>
+  <node concept="3HP615" id="6eLXiTKxV0M">
+    <property role="TrG5h" value="ParserFailureNotifier" />
+    <node concept="2tJIrI" id="6eLXiTKxV2c" role="jymVt" />
+    <node concept="3clFb_" id="6eLXiTKyvMu" role="jymVt">
+      <property role="TrG5h" value="notifyParsingTimedOut" />
+      <node concept="37vLTG" id="6eLXiTKyIe3" role="3clF46">
+        <property role="TrG5h" value="timeInMs" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3cpWsb" id="6eLXiTKyIhI" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6eLXiTKyw1x" role="3clF46">
+        <property role="TrG5h" value="contextModel" />
+        <property role="3TUv4t" value="true" />
+        <node concept="H_c77" id="6eLXiTKyFCL" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6eLXiTKyvMw" role="3clF45" />
+      <node concept="3Tm1VV" id="6eLXiTKyvMx" role="1B3o_S" />
+      <node concept="3clFbS" id="6eLXiTKyvMy" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6eLXiTKxV2h" role="jymVt" />
+    <node concept="3Tm1VV" id="6eLXiTKxV0N" role="1B3o_S" />
   </node>
 </model>
 

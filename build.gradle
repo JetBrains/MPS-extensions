@@ -312,12 +312,6 @@ dependencies {
     }
 }
 
-task packageAllScripts(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions.allScripts'
-    from artifactsDir
-    include 'de.itemis.mps.extensions.allScripts/**'
-}
-
 task packageExtensions(type: Zip, dependsOn: run_tests) {
     baseName 'de.itemis.mps.extensions'
     from artifactsDir

@@ -237,8 +237,6 @@ ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
 
-def prechecks = tasks.register("prechecks")
-
 tasks.register("checkModulePaths") {
     def mps_dot_folder = ".mps";
     def modules_xml_location = "modules.xml"
@@ -255,12 +253,11 @@ tasks.register("checkModulePaths") {
     }
 }
 
-prechecks.configure {
+check.configure {
     dependsOn checkModulePaths
 }
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
-        prechecks,
         resolveMps,
         copyModelApi,
 ]) {

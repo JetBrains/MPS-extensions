@@ -2611,6 +2611,27 @@
           </node>
           <node concept="9aQIb" id="3C4j4UfOMfx" role="9aQIa">
             <node concept="3clFbS" id="3C4j4UfOMfy" role="9aQI4">
+              <node concept="3cpWs8" id="61AWa9uUUqh" role="3cqZAp">
+                <node concept="3cpWsn" id="61AWa9uUUqi" role="3cpWs9">
+                  <property role="TrG5h" value="font" />
+                  <node concept="3uibUv" id="61AWa9uUUqj" role="1tU5fm">
+                    <ref role="3uigEE" to="z60i:~Font" resolve="Font" />
+                  </node>
+                  <node concept="2OqwBi" id="61AWa9uUUqk" role="33vP2m">
+                    <node concept="2OqwBi" id="61AWa9uUUql" role="2Oq$k0">
+                      <node concept="1rXfSq" id="61AWa9uUUqm" role="2Oq$k0">
+                        <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                      </node>
+                      <node concept="liA8E" id="61AWa9uUUqn" role="2OqNvi">
+                        <ref role="37wK5l" to="exr9:~EditorComponent.getEditorComponentSettings()" resolve="getEditorComponentSettings" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="61AWa9uUUqo" role="2OqNvi">
+                      <ref role="37wK5l" to="cj4x:~EditorComponentSettings.getDefaultFont()" resolve="getDefaultFont" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3cpWs8" id="3GQAmbHdiyK" role="3cqZAp">
                 <node concept="3cpWsn" id="3GQAmbHdiyL" role="3cpWs9">
                   <property role="TrG5h" value="fontMetrics" />
@@ -2623,13 +2644,8 @@
                     </node>
                     <node concept="liA8E" id="3GQAmbHdiyO" role="2OqNvi">
                       <ref role="37wK5l" to="dxuu:~JComponent.getFontMetrics(java.awt.Font)" resolve="getFontMetrics" />
-                      <node concept="2OqwBi" id="3GQAmbHdiyP" role="37wK5m">
-                        <node concept="1rXfSq" id="3GQAmbHdiyQ" role="2Oq$k0">
-                          <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
-                        </node>
-                        <node concept="liA8E" id="3GQAmbHdiyR" role="2OqNvi">
-                          <ref role="37wK5l" to="z60i:~Component.getFont()" resolve="getFont" />
-                        </node>
+                      <node concept="37vLTw" id="61AWa9uUWkp" role="37wK5m">
+                        <ref role="3cqZAo" node="61AWa9uUUqi" resolve="font" />
                       </node>
                     </node>
                   </node>
@@ -2727,13 +2743,17 @@
             <node concept="3uibUv" id="EMOkVNrydb" role="1tU5fm">
               <ref role="3uigEE" to="z60i:~Font" resolve="Font" />
             </node>
-            <node concept="2OqwBi" id="EMOkVNrydc" role="33vP2m">
-              <node concept="2YIFZM" id="EMOkVNrydd" role="2Oq$k0">
-                <ref role="37wK5l" to="exr9:~EditorSettings.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="exr9:~EditorSettings" resolve="EditorSettings" />
+            <node concept="2OqwBi" id="61AWa9uRXla" role="33vP2m">
+              <node concept="2OqwBi" id="61AWa9uR4b4" role="2Oq$k0">
+                <node concept="1rXfSq" id="61AWa9uR4b5" role="2Oq$k0">
+                  <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                </node>
+                <node concept="liA8E" id="61AWa9uRWDO" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getEditorComponentSettings()" resolve="getEditorComponentSettings" />
+                </node>
               </node>
-              <node concept="liA8E" id="EMOkVNryde" role="2OqNvi">
-                <ref role="37wK5l" to="exr9:~EditorSettings.getDefaultEditorFont()" resolve="getDefaultEditorFont" />
+              <node concept="liA8E" id="61AWa9uRYb1" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorComponentSettings.getDefaultFont()" resolve="getDefaultFont" />
               </node>
             </node>
           </node>
@@ -2792,13 +2812,8 @@
                             </node>
                             <node concept="liA8E" id="3GQAmbHn0w0" role="2OqNvi">
                               <ref role="37wK5l" to="dxuu:~JComponent.getFontMetrics(java.awt.Font)" resolve="getFontMetrics" />
-                              <node concept="2OqwBi" id="3GQAmbHn0w1" role="37wK5m">
-                                <node concept="1rXfSq" id="3GQAmbHn0w2" role="2Oq$k0">
-                                  <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
-                                </node>
-                                <node concept="liA8E" id="3GQAmbHn0w3" role="2OqNvi">
-                                  <ref role="37wK5l" to="z60i:~Component.getFont()" resolve="getFont" />
-                                </node>
+                              <node concept="37vLTw" id="61AWa9uU79u" role="37wK5m">
+                                <ref role="3cqZAo" node="EMOkVNryda" resolve="font" />
                               </node>
                             </node>
                           </node>
@@ -5133,6 +5148,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="61AWa9uQgqa" role="jymVt" />
     <node concept="3clFb_" id="1ndcVOCBIE7" role="jymVt">
       <property role="TrG5h" value="overlaps" />
       <node concept="37vLTG" id="1ndcVOCBIE8" role="3clF46">

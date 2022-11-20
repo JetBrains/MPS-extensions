@@ -34,6 +34,7 @@
     <import index="qqrq" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui.components(MPS.IDEA/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="iwsx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.fileEditor(MPS.IDEA/)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
   <registry>
@@ -2351,6 +2352,49 @@
     <node concept="3clFb_" id="3PNI8k1JrAf" role="jymVt">
       <property role="TrG5h" value="install" />
       <node concept="3clFbS" id="3PNI8k1JrAi" role="3clF47">
+        <node concept="3cpWs8" id="7iWvyfFsBdo" role="3cqZAp">
+          <node concept="3cpWsn" id="7iWvyfFsBdp" role="3cpWs9">
+            <property role="TrG5h" value="project" />
+            <node concept="3uibUv" id="7iWvyfFsAOJ" role="1tU5fm">
+              <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+            </node>
+            <node concept="2YIFZM" id="7iWvyfFsBdq" role="33vP2m">
+              <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="2OqwBi" id="7iWvyfFsBdr" role="37wK5m">
+                <node concept="2OqwBi" id="7iWvyfFsBds" role="2Oq$k0">
+                  <node concept="1rXfSq" id="7iWvyfFsBdt" role="2Oq$k0">
+                    <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                  </node>
+                  <node concept="liA8E" id="7iWvyfFsBdu" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7iWvyfFsBdv" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorContext.getRepository()" resolve="getRepository" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7iWvyfFsTg4" role="3cqZAp">
+          <node concept="3clFbS" id="7iWvyfFsTg6" role="3clFbx">
+            <node concept="3cpWs6" id="7iWvyfFsWru" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="7iWvyfFsV3b" role="3clFbw">
+            <node concept="2YIFZM" id="7iWvyfFsHhJ" role="3fr31v">
+              <ref role="37wK5l" node="14VjQzYdunM" resolve="areLineNumbersEnabledInPreferences" />
+              <ref role="1Pybhc" node="uB9WAZaAyD" resolve="LineNumberSettings" />
+              <node concept="2YIFZM" id="7iWvyfFsPpU" role="37wK5m">
+                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+                <node concept="37vLTw" id="7iWvyfFsQ9V" role="37wK5m">
+                  <ref role="3cqZAo" node="7iWvyfFsBdp" resolve="project" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="3PNI8k1JONc" role="3cqZAp">
           <node concept="3clFbS" id="3PNI8k1JONd" role="3clFbx">
             <node concept="3clFbF" id="3PNI8k1JONe" role="3cqZAp">
@@ -3113,6 +3157,12 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbF" id="7iWvyfFt0Qv" role="3cqZAp">
+            <node concept="2YIFZM" id="7iWvyfFt1ia" role="3clFbG">
+              <ref role="37wK5l" node="3PNI8k1Jzbp" resolve="uninstallAll" />
+              <ref role="1Pybhc" node="3PNI8k1J7fY" resolve="LineNumberComponent" />
+            </node>
+          </node>
           <node concept="1DcWWT" id="2FMnUMd6dcB" role="3cqZAp">
             <node concept="3clFbS" id="2FMnUMd6dcD" role="2LFqv$">
               <node concept="3clFbJ" id="2FMnUMd6ghs" role="3cqZAp">
@@ -3160,6 +3210,20 @@
                                 <ref role="37wK5l" to="cj4x:~Editor.getCurrentEditorComponent()" resolve="getCurrentEditorComponent" />
                               </node>
                             </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7iWvyfFt0f$" role="3cqZAp">
+                        <node concept="2OqwBi" id="7iWvyfFt0oK" role="3clFbG">
+                          <node concept="2YIFZM" id="7iWvyfFt0j8" role="2Oq$k0">
+                            <ref role="37wK5l" node="3PNI8k1Jjwz" resolve="getOrCreateInstance" />
+                            <ref role="1Pybhc" node="3PNI8k1J7fY" resolve="LineNumberComponent" />
+                            <node concept="37vLTw" id="7iWvyfFt0jv" role="37wK5m">
+                              <ref role="3cqZAo" node="2BOaL_MASsG" resolve="currentEditorComponent" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="7iWvyfFt1yK" role="2OqNvi">
+                            <ref role="37wK5l" node="3PNI8k1JrAf" resolve="install" />
                           </node>
                         </node>
                       </node>

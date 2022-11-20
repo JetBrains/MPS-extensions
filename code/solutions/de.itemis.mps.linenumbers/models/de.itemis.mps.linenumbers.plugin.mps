@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:d65c70f5-6c40-4fc7-beaa-ee828f4fe514(de.itemis.mps.linenumbers.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
@@ -3285,7 +3286,7 @@
                   <ref role="3cqZAo" node="uqTJfuXWIL" resolve="LINE_NUMBERS_ENABLE_KEY" />
                 </node>
                 <node concept="Xl_RD" id="14VjQzYdFe2" role="37wK5m">
-                  <property role="Xl_RC" value="yes" />
+                  <property role="Xl_RC" value="no" />
                 </node>
               </node>
             </node>

@@ -63,6 +63,7 @@
       <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
+      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
       <concept id="1217252042208" name="jetbrains.mps.lang.plugin.structure.ActionDataParameterDeclaration" flags="ng" index="1DS2jV">
         <reference id="1217252646389" name="key" index="1DUlNI" />
@@ -1471,8 +1472,8 @@
               <ref role="3uigEE" node="509q6HGB1IF" resolve="ILineList" />
             </node>
             <node concept="2YIFZM" id="3C4j4UfOgcb" role="33vP2m">
-              <ref role="37wK5l" node="509q6HGA9El" resolve="findLines" />
               <ref role="1Pybhc" node="QZV4qCMo_w" resolve="LineNumberUtils" />
+              <ref role="37wK5l" node="509q6HGA9El" resolve="findLines" />
               <node concept="2OqwBi" id="3C4j4UfOgcc" role="37wK5m">
                 <node concept="2OqwBi" id="3C4j4UfOgcd" role="2Oq$k0">
                   <node concept="2WthIp" id="3C4j4UfOgce" role="2Oq$k0" />
@@ -1540,6 +1541,11 @@
       <property role="TrG5h" value="component" />
       <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_COMPONENT" resolve="EDITOR_COMPONENT" />
       <node concept="1oajcY" id="QZV4qCNngD" role="1oa70y" />
+    </node>
+    <node concept="1DS2jV" id="16wa3E3msxY" role="1NuT2Z">
+      <property role="TrG5h" value="project" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <node concept="1oajcY" id="16wa3E3msxZ" role="1oa70y" />
     </node>
     <node concept="tnohg" id="QZV4qCNfL$" role="tncku">
       <node concept="3clFbS" id="QZV4qCNfL_" role="2VODD2">
@@ -1744,6 +1750,22 @@
             <node concept="10Nm6u" id="509q6HGHaGX" role="3uHU7w" />
             <node concept="37vLTw" id="509q6HGH9ZK" role="3uHU7B">
               <ref role="3cqZAo" node="509q6HGH8XW" resolve="line" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="16wa3E3mktl" role="tmbBb">
+      <node concept="3clFbS" id="16wa3E3mktm" role="2VODD2">
+        <node concept="3clFbF" id="16wa3E3mkQs" role="3cqZAp">
+          <node concept="2YIFZM" id="16wa3E3mkUS" role="3clFbG">
+            <ref role="37wK5l" node="6Fx0OSkESee" resolve="areLineNumbersEnabled" />
+            <ref role="1Pybhc" node="6Fx0OSkERFw" resolve="LineNumberPreferences" />
+            <node concept="2OqwBi" id="16wa3E3mtdI" role="37wK5m">
+              <node concept="2WthIp" id="16wa3E3mtdL" role="2Oq$k0" />
+              <node concept="1DTwFV" id="16wa3E3mtdN" role="2OqNvi">
+                <ref role="2WH_rO" node="16wa3E3msxY" resolve="project" />
+              </node>
             </node>
           </node>
         </node>
@@ -5228,6 +5250,17 @@
     </node>
     <node concept="tT9cl" id="6Fx0OSkFa1z" role="2f5YQi">
       <ref role="tU$_T" to="ekwn:JQxM8nB4zE" resolve="EditorLeftPanelMenu" />
+    </node>
+  </node>
+  <node concept="tC5Ba" id="16wa3E3lxsV">
+    <property role="TrG5h" value="GoToEditorLineGroup" />
+    <node concept="ftmFs" id="16wa3E3lxsX" role="ftER_">
+      <node concept="tCFHf" id="16wa3E3lxt0" role="ftvYc">
+        <ref role="tCJdB" node="QZV4qCNfLz" resolve="GoToEditorLine" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="16wa3E3lxt2" role="2f5YQi">
+      <ref role="tU$_T" to="ekwn:2Nd7jcMouna" resolve="GoToEditorPopupAddition" />
     </node>
   </node>
 </model>

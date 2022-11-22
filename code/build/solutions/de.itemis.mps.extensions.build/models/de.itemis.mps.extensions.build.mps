@@ -1697,9 +1697,6 @@
           <property role="3MwjfP" value="A library of widgets (checkbox, dropdown, etc.) that can be used in MPS editors" />
         </node>
       </node>
-      <node concept="m$_yC" id="7szUFELOg4w" role="m$_yJ">
-        <ref role="m$_y1" node="6$BmuzArOtB" resolve="de.itemis.mps.tooltips" />
-      </node>
     </node>
     <node concept="2G$12M" id="7szUFELHfAe" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.editor.widgets" />
@@ -2301,11 +2298,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="32XuThjIW2J" role="3bR37C">
-          <node concept="3bR9La" id="32XuThjIW2K" role="1SiIV1">
-            <ref role="3bR37D" node="6$BmuzArJZq" resolve="de.itemis.mps.tooltips.runtime" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtD" id="48DYfEtkkjU" role="2G$12L">
         <property role="TrG5h" value="de.itemis.mps.editor.collapsible" />
@@ -2338,12 +2330,6 @@
         <node concept="1SiIV0" id="48DYfEtklQv" role="3bR37C">
           <node concept="1Busua" id="48DYfEtklQw" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3oPLsSd8_y7" role="3bR37C">
-          <node concept="3bR9La" id="3oPLsSd8_y8" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="48DYfEtkinT" resolve="de.itemis.mps.editor.collapsible.runtime" />
           </node>
         </node>
         <node concept="1yeLz9" id="48DYfEtklQx" role="1TViLv">

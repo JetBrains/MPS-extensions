@@ -1543,7 +1543,7 @@
                       <ref role="37wK5l" to="dxuu:~JComponent.setBorder(javax.swing.border.Border)" resolve="setBorder" />
                       <node concept="2YIFZM" id="7iCybvTlzox" role="37wK5m">
                         <ref role="37wK5l" to="g1qu:~JBUI$Borders.emptyLeft(int)" resolve="emptyLeft" />
-                        <ref role="1Pybhc" to="g1qu:~JBUI$Borders" resolve="Borders" />
+                        <ref role="1Pybhc" to="g1qu:~JBUI$Borders" resolve="JBUI.Borders" />
                         <node concept="3cmrfG" id="7iCybvTlzoy" role="37wK5m">
                           <property role="3cmrfH" value="20" />
                         </node>
@@ -1636,7 +1636,7 @@
             <node concept="liA8E" id="14pL6xi8CB8" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~AbstractButton.setSelected(boolean)" resolve="setSelected" />
               <node concept="37vLTw" id="14pL6xi9qLK" role="37wK5m">
-                <ref role="3cqZAo" node="14pL6xi8xnm" resolve="yes" />
+                <ref role="3cqZAo" node="14pL6xi8xnm" resolve="flag" />
               </node>
             </node>
           </node>
@@ -1668,7 +1668,7 @@
               <node concept="2OqwBi" id="14VjQzYedz6" role="3uHU7w">
                 <node concept="3yMSdA" id="14VjQzYecWU" role="2Oq$k0" />
                 <node concept="liA8E" id="14VjQzYee4O" role="2OqNvi">
-                  <ref role="37wK5l" node="14pL6xi8DQp" resolve="isSpellCheckingEnabled" />
+                  <ref role="37wK5l" node="14pL6xi8DQp" resolve="isSpellCheckingEnabledInGUI" />
                 </node>
               </node>
               <node concept="2OqwBi" id="14VjQzYebKo" role="3uHU7B">
@@ -1688,7 +1688,7 @@
             <node concept="2OqwBi" id="14pL6xi9142" role="3clFbG">
               <node concept="3yMSdA" id="14pL6xi90$u" role="2Oq$k0" />
               <node concept="liA8E" id="14pL6xi91Mh" role="2OqNvi">
-                <ref role="37wK5l" node="14pL6xi8xeo" />
+                <ref role="37wK5l" node="14pL6xi8xeo" resolve="setSpellCheckingEnabledInGUI" />
                 <node concept="2OqwBi" id="14VjQzYdORe" role="37wK5m">
                   <node concept="3yMSdA" id="14VjQzYdNSz" role="2Oq$k0" />
                   <node concept="2PDubS" id="14VjQzYdPuR" role="2OqNvi">
@@ -1712,7 +1712,7 @@
                 <node concept="2OqwBi" id="14VjQzYe8Mg" role="37wK5m">
                   <node concept="3yMSdA" id="14VjQzYe8iL" role="2Oq$k0" />
                   <node concept="liA8E" id="14VjQzYe9n3" role="2OqNvi">
-                    <ref role="37wK5l" node="14pL6xi8DQp" resolve="isSpellCheckingEnabled" />
+                    <ref role="37wK5l" node="14pL6xi8DQp" resolve="isSpellCheckingEnabledInGUI" />
                   </node>
                 </node>
               </node>
@@ -1806,7 +1806,7 @@
       </node>
       <node concept="2ShNRf" id="uB9WAZaxl_" role="3yzNdQ">
         <node concept="1pGfFk" id="uB9WAZaB42" role="2ShVmc">
-          <ref role="37wK5l" node="uB9WAZaAPl" />
+          <ref role="37wK5l" node="uB9WAZaAPl" resolve="MultilineSettingsPage" />
         </node>
       </node>
     </node>

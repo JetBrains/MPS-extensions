@@ -4318,7 +4318,7 @@
       </node>
     </node>
     <node concept="2AHcQZ" id="6P69MwyuUOf" role="2AJF6D">
-      <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
     </node>
   </node>
   <node concept="3HP615" id="6zKSYRPTHMF">
@@ -4367,7 +4367,7 @@
       </node>
     </node>
     <node concept="2AHcQZ" id="6P69MwyuWsk" role="2AJF6D">
-      <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
     </node>
   </node>
   <node concept="312cEu" id="5P1DsEq0kG5">

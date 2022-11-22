@@ -238,9 +238,28 @@ ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
 
+tasks.register("checkModulePaths") {
+    def mps_dot_folder = ".mps";
+    def modules_xml_location = "modules.xml"
+    def file = "$projectDir/code/$mps_dot_folder/$modules_xml_location"
+    def project = new XmlParser().parse(file)
+
+    def invalidModules = project.component.projectModules.modulePath.'@path'.findAll {
+        def path = it.replaceAll("\\\$PROJECT_DIR\\\$","$rootDir/code")
+        return !(new File(path).exists())
+    }
+
+    if(!invalidModules.isEmpty()) {
+        throw new GradleException("The following modules in $modules_xml_location don't have valid paths:\n ${invalidModules.toArray().join('\n')}")
+    }
+}
+
+check.configure {
+    dependsOn checkModulePaths
+}
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
-		resolveMps,
+        resolveMps,
         copyModelApi,
 ]) {
     script "$rootDir/scripts/build.xml"
@@ -292,12 +311,6 @@ dependencies {
     junitAnt('org.apache.ant:ant-junit4:1.10.9') {
         transitive = false
     }
-}
-
-task packageAllScripts(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions.allScripts'
-    from artifactsDir
-    include 'de.itemis.mps.extensions.allScripts/**'
 }
 
 task packageExtensions(type: Zip, dependsOn: run_tests) {

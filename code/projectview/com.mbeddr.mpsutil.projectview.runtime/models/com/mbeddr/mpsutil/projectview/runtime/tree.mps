@@ -1558,7 +1558,7 @@
       <node concept="3uibUv" id="4gq8yQBZ6Og" role="1tU5fm">
         <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
         <node concept="3uibUv" id="4gq8yQBZ6Oh" role="11_B2D">
-          <ref role="3uigEE" node="4gq8yQBZ77P" resolve="ComponentCreationListener" />
+          <ref role="3uigEE" node="4gq8yQBZ77P" resolve="CustomProjectView.ComponentCreationListener" />
         </node>
       </node>
       <node concept="3Tm6S6" id="4gq8yQBZ6Oi" role="1B3o_S" />
@@ -1610,7 +1610,7 @@
       <property role="TrG5h" value="myComponent" />
       <node concept="3Tm6S6" id="5GuprjiTEdm" role="1B3o_S" />
       <node concept="3uibUv" id="5GuprjiTYos" role="1tU5fm">
-        <ref role="3uigEE" node="5GuprjiQFaD" resolve="MySimpleToolWindowPanel" />
+        <ref role="3uigEE" node="5GuprjiQFaD" resolve="CustomProjectView.MySimpleToolWindowPanel" />
       </node>
     </node>
     <node concept="312cEg" id="4gq8yQBZ6MT" role="jymVt">

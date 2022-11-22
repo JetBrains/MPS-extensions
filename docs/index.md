@@ -53,7 +53,7 @@ Maven (old nexus):
 		 <dependency>
 		  <groupId>de.itemis.mps</groupId>
 		  <artifactId>extensions</artifactId>
-		  <version>2021.2</version>
+		  <version>2021.3</version>
 		  <type>zip</type>
 		</dependency>
 	</dependencies>
@@ -75,7 +75,7 @@ Maven (new nexus):
 		 <dependency>
 		  <groupId>de.itemis.mps</groupId>
 		  <artifactId>extensions</artifactId>
-		  <version>2021.2</version>
+		  <version>2021.3</version>
 		  <type>zip</type>
 		</dependency>
 	</dependencies>
@@ -110,7 +110,7 @@ Gradle (new nexus):
     }
 
     dependencies {
-        mpsExtensions "de.itemis.mps:extensions:2021.2.+"
+        mpsExtensions "de.itemis.mps:extensions:2021.3.+"
     }
 ```
 
@@ -126,7 +126,8 @@ A version in maintenance will not get actively new features and is only maintain
 
 | MPS Version | State |
 |:--|:--|
-| 2021.2 | active development |
+| 2021.3 | active development |
+| 2021.2 | maintenance |
 | 2021.1 | maintenance |
 | 2020.3 | maintenance |
 | 2020.2 | maintenance |

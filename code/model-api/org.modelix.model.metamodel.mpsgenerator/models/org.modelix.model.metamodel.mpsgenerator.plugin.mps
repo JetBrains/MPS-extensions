@@ -1558,16 +1558,21 @@
                         <node concept="2ShNRf" id="3Fg0S50cWJj" role="3clFbG">
                           <node concept="1pGfFk" id="3Fg0S50cX7i" role="2ShVmc">
                             <ref role="37wK5l" to="dwi1:~ConceptData.&lt;init&gt;(java.lang.String,java.lang.String,boolean,java.util.List,java.util.List,java.util.List,java.util.List)" resolve="ConceptData" />
-                            <node concept="2OqwBi" id="sN$G5gkJEp" role="37wK5m">
-                              <node concept="2YIFZM" id="sN$G5gkKmz" role="2Oq$k0">
-                                <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getConceptId(org.jetbrains.mps.openapi.model.SNode)" resolve="getConceptId" />
-                                <ref role="1Pybhc" to="e8bb:~MetaIdByDeclaration" resolve="MetaIdByDeclaration" />
-                                <node concept="37vLTw" id="sN$G5gkKm$" role="37wK5m">
-                                  <ref role="3cqZAo" node="3Fg0S50cWmY" resolve="concept" />
-                                </node>
+                            <node concept="3cpWs3" id="2sGJABKvA1m" role="37wK5m">
+                              <node concept="Xl_RD" id="2sGJABKvBm5" role="3uHU7B">
+                                <property role="Xl_RC" value="mps:" />
                               </node>
-                              <node concept="liA8E" id="sN$G5gkJEs" role="2OqNvi">
-                                <ref role="37wK5l" to="e8bb:~SConceptId.toString()" resolve="toString" />
+                              <node concept="2OqwBi" id="sN$G5gkJEp" role="3uHU7w">
+                                <node concept="2YIFZM" id="sN$G5gkKmz" role="2Oq$k0">
+                                  <ref role="37wK5l" to="e8bb:~MetaIdByDeclaration.getConceptId(org.jetbrains.mps.openapi.model.SNode)" resolve="getConceptId" />
+                                  <ref role="1Pybhc" to="e8bb:~MetaIdByDeclaration" resolve="MetaIdByDeclaration" />
+                                  <node concept="37vLTw" id="sN$G5gkKm$" role="37wK5m">
+                                    <ref role="3cqZAo" node="3Fg0S50cWmY" resolve="concept" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="sN$G5gkJEs" role="2OqNvi">
+                                  <ref role="37wK5l" to="e8bb:~SConceptId.toString()" resolve="toString" />
+                                </node>
                               </node>
                             </node>
                             <node concept="2OqwBi" id="3Fg0S50cZsA" role="37wK5m">

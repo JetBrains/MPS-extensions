@@ -12197,6 +12197,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="3b5oxbTafBx" role="3bR37C">
+          <node concept="3bR9La" id="3b5oxbTafBy" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3zjMY$95UAa" resolve="jetbrains.mps.core.tool.environment" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5U8hsWC73Be" role="2G$12L">
         <property role="BnDLt" value="true" />

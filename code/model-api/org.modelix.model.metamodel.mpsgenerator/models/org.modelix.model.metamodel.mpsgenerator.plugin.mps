@@ -32,6 +32,7 @@
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
     <import index="aauc" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.metamodel(org.modelix.model.api/)" />
     <import index="e8bb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
+    <import index="79ha" ref="r:2876f1ee-0b45-4db5-8c09-0682cdee5c67(jetbrains.mps.tool.environment)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -98,6 +99,7 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="4952749571008284462" name="jetbrains.mps.baseLanguage.structure.CatchVariable" flags="ng" index="XOnhg" />
+      <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -618,13 +620,18 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="18fUb1nwCXD" role="2OqNvi">
-                  <ref role="37wK5l" to="dwi1:~MetaModelGenerator.generate(java.util.List)" resolve="generate" />
-                  <node concept="2OqwBi" id="18fUb1nx5UV" role="37wK5m">
-                    <node concept="37vLTw" id="18fUb1nx5Nw" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3Fg0S50hbA3" resolve="exporter" />
-                    </node>
-                    <node concept="liA8E" id="18fUb1nx6bi" role="2OqNvi">
-                      <ref role="37wK5l" node="18fUb1nwXw8" resolve="getOutput" />
+                  <ref role="37wK5l" to="dwi1:~MetaModelGenerator.generate(org.modelix.metamodel.generator.LanguageSet)" resolve="generate" />
+                  <node concept="2ShNRf" id="3b5oxbT9cde" role="37wK5m">
+                    <node concept="1pGfFk" id="3b5oxbT9ccV" role="2ShVmc">
+                      <ref role="37wK5l" to="dwi1:~LanguageSet.&lt;init&gt;(java.util.List)" resolve="LanguageSet" />
+                      <node concept="2OqwBi" id="18fUb1nx5UV" role="37wK5m">
+                        <node concept="37vLTw" id="18fUb1nx5Nw" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3Fg0S50hbA3" resolve="exporter" />
+                        </node>
+                        <node concept="liA8E" id="18fUb1nx6bi" role="2OqNvi">
+                          <ref role="37wK5l" node="18fUb1nwXw8" resolve="getOutput" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -1478,13 +1485,16 @@
                           </node>
                           <node concept="2OqwBi" id="3Fg0S50fKkx" role="33vP2m">
                             <node concept="2OqwBi" id="3Fg0S50fIdA" role="2Oq$k0">
-                              <node concept="2OqwBi" id="3Fg0S50fIdB" role="2Oq$k0">
-                                <node concept="37vLTw" id="3Fg0S50fIdC" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3Fg0S50cWmY" resolve="concept" />
+                              <node concept="2OqwBi" id="cGlNZN4URS" role="2Oq$k0">
+                                <node concept="2OqwBi" id="3Fg0S50fIdB" role="2Oq$k0">
+                                  <node concept="37vLTw" id="3Fg0S50fIdC" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="3Fg0S50cWmY" resolve="concept" />
+                                  </node>
+                                  <node concept="2qgKlT" id="3Fg0S50fIdD" role="2OqNvi">
+                                    <ref role="37wK5l" to="tpcn:hMuxyK2" resolve="getImmediateSuperconcepts" />
+                                  </node>
                                 </node>
-                                <node concept="2qgKlT" id="3Fg0S50fIdD" role="2OqNvi">
-                                  <ref role="37wK5l" to="tpcn:hMuxyK2" resolve="getImmediateSuperconcepts" />
-                                </node>
+                                <node concept="1VAtEI" id="cGlNZN50Lv" role="2OqNvi" />
                               </node>
                               <node concept="3$u5V9" id="3Fg0S50fIdE" role="2OqNvi">
                                 <node concept="1bVj0M" id="3Fg0S50fIdF" role="23t8la">
@@ -3603,6 +3613,192 @@
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MODEL" resolve="MODEL" />
       <node concept="1oajcY" id="6bQHiZUqzz$" role="1oa70y" />
     </node>
+  </node>
+  <node concept="312cEu" id="3b5oxbT8uGz">
+    <property role="TrG5h" value="CommandlineExporter" />
+    <node concept="2YIFZL" id="3b5oxbTadzA" role="jymVt">
+      <property role="TrG5h" value="exportLanguages" />
+      <node concept="3clFbS" id="3b5oxbT8uLj" role="3clF47">
+        <node concept="3cpWs8" id="cGlNZN3gwu" role="3cqZAp">
+          <node concept="3cpWsn" id="cGlNZN3gwv" role="3cpWs9">
+            <property role="TrG5h" value="repo" />
+            <node concept="3uibUv" id="cGlNZN3giP" role="1tU5fm">
+              <ref role="3uigEE" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+            </node>
+            <node concept="2YIFZM" id="cGlNZN3gww" role="33vP2m">
+              <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
+              <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="cGlNZN3gZu" role="3cqZAp">
+          <node concept="2OqwBi" id="cGlNZN3is_" role="3clFbG">
+            <node concept="2OqwBi" id="cGlNZN3hqo" role="2Oq$k0">
+              <node concept="37vLTw" id="cGlNZN3gZs" role="2Oq$k0">
+                <ref role="3cqZAo" node="cGlNZN3gwv" resolve="repo" />
+              </node>
+              <node concept="liA8E" id="cGlNZN3imP" role="2OqNvi">
+                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getModelAccess()" resolve="getModelAccess" />
+              </node>
+            </node>
+            <node concept="liA8E" id="cGlNZN3iLd" role="2OqNvi">
+              <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
+              <node concept="1bVj0M" id="cGlNZN3iMY" role="37wK5m">
+                <node concept="3clFbS" id="cGlNZN3iMZ" role="1bW5cS">
+                  <node concept="3cpWs8" id="3b5oxbT8$Ao" role="3cqZAp">
+                    <node concept="3cpWsn" id="3b5oxbT8$Ap" role="3cpWs9">
+                      <property role="TrG5h" value="modules" />
+                      <node concept="A3Dl8" id="3b5oxbT8$M0" role="1tU5fm">
+                        <node concept="3uibUv" id="3b5oxbT8$M2" role="A3Ik2">
+                          <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="3b5oxbT8$Aq" role="33vP2m">
+                        <node concept="37vLTw" id="cGlNZN3gwx" role="2Oq$k0">
+                          <ref role="3cqZAo" node="cGlNZN3gwv" resolve="repo" />
+                        </node>
+                        <node concept="liA8E" id="3b5oxbT8$As" role="2OqNvi">
+                          <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getModules()" resolve="getModules" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="3b5oxbT8_tt" role="3cqZAp">
+                    <node concept="3cpWsn" id="3b5oxbT8_tu" role="3cpWs9">
+                      <property role="TrG5h" value="languages" />
+                      <node concept="A3Dl8" id="3b5oxbT8_td" role="1tU5fm">
+                        <node concept="3uibUv" id="3b5oxbT8_tg" role="A3Ik2">
+                          <ref role="3uigEE" to="w1kc:~Language" resolve="Language" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="3b5oxbT8_tv" role="33vP2m">
+                        <node concept="37vLTw" id="3b5oxbT8_tw" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3b5oxbT8$Ap" resolve="modules" />
+                        </node>
+                        <node concept="UnYns" id="3b5oxbT8_tx" role="2OqNvi">
+                          <node concept="3uibUv" id="3b5oxbT8_ty" role="UnYnz">
+                            <ref role="3uigEE" to="w1kc:~Language" resolve="Language" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="3b5oxbT9cW$" role="3cqZAp">
+                    <node concept="3cpWsn" id="3b5oxbT9cW_" role="3cpWs9">
+                      <property role="TrG5h" value="outputDir" />
+                      <node concept="3uibUv" id="3b5oxbT8P_l" role="1tU5fm">
+                        <ref role="3uigEE" to="guwi:~File" resolve="File" />
+                      </node>
+                      <node concept="2ShNRf" id="3b5oxbT9cWA" role="33vP2m">
+                        <node concept="1pGfFk" id="3b5oxbT9cWB" role="2ShVmc">
+                          <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                          <node concept="Xl_RD" id="3b5oxbT9cWC" role="37wK5m">
+                            <property role="Xl_RC" value="exported-languages" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="3b5oxbT8Pzi" role="3cqZAp">
+                    <node concept="3cpWsn" id="3b5oxbT8Pzj" role="3cpWs9">
+                      <property role="TrG5h" value="exporter" />
+                      <node concept="3uibUv" id="3b5oxbT8Pum" role="1tU5fm">
+                        <ref role="3uigEE" node="3Fg0S50gerF" resolve="MPSMetaModelExporter" />
+                      </node>
+                      <node concept="2ShNRf" id="3b5oxbT8Pzk" role="33vP2m">
+                        <node concept="1pGfFk" id="3b5oxbT8Pzl" role="2ShVmc">
+                          <ref role="37wK5l" node="3Fg0S50hc1U" resolve="MPSMetaModelExporter" />
+                          <node concept="37vLTw" id="3b5oxbT9cWD" role="37wK5m">
+                            <ref role="3cqZAo" node="3b5oxbT9cW_" resolve="outputDir" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2Gpval" id="3b5oxbT8PLJ" role="3cqZAp">
+                    <node concept="2GrKxI" id="3b5oxbT8PLL" role="2Gsz3X">
+                      <property role="TrG5h" value="language" />
+                    </node>
+                    <node concept="37vLTw" id="3b5oxbT8PRF" role="2GsD0m">
+                      <ref role="3cqZAo" node="3b5oxbT8_tu" resolve="languages" />
+                    </node>
+                    <node concept="3clFbS" id="3b5oxbT8PLP" role="2LFqv$">
+                      <node concept="3clFbF" id="3b5oxbT8Q16" role="3cqZAp">
+                        <node concept="2OqwBi" id="3b5oxbT8Q72" role="3clFbG">
+                          <node concept="37vLTw" id="3b5oxbT8Q15" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3b5oxbT8Pzj" resolve="exporter" />
+                          </node>
+                          <node concept="liA8E" id="3b5oxbT8Qfm" role="2OqNvi">
+                            <ref role="37wK5l" node="3Fg0S50ge_5" resolve="exportLanguage" />
+                            <node concept="2GrUjf" id="3b5oxbT8QpI" role="37wK5m">
+                              <ref role="2Gs0qQ" node="3b5oxbT8PLL" resolve="language" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="3b5oxbT9cwI" role="3cqZAp">
+                    <node concept="2OqwBi" id="3b5oxbT9cwJ" role="3clFbG">
+                      <node concept="2ShNRf" id="3b5oxbT9cwK" role="2Oq$k0">
+                        <node concept="1pGfFk" id="3b5oxbT9cwL" role="2ShVmc">
+                          <ref role="37wK5l" to="dwi1:~MetaModelGenerator.&lt;init&gt;(java.nio.file.Path)" resolve="MetaModelGenerator" />
+                          <node concept="2OqwBi" id="3b5oxbT9cwM" role="37wK5m">
+                            <node concept="2YIFZM" id="3b5oxbT9cwN" role="2Oq$k0">
+                              <ref role="37wK5l" to="eoo2:~Path.of(java.lang.String,java.lang.String...)" resolve="of" />
+                              <ref role="1Pybhc" to="eoo2:~Path" resolve="Path" />
+                              <node concept="2OqwBi" id="3b5oxbT9cwO" role="37wK5m">
+                                <node concept="37vLTw" id="3b5oxbT9cwP" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3b5oxbT9cW_" resolve="outputDir" />
+                                </node>
+                                <node concept="liA8E" id="3b5oxbT9cwQ" role="2OqNvi">
+                                  <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="3b5oxbT9cwR" role="2OqNvi">
+                              <ref role="37wK5l" to="eoo2:~Path.resolve(java.lang.String)" resolve="resolve" />
+                              <node concept="Xl_RD" id="3b5oxbT9cwS" role="37wK5m">
+                                <property role="Xl_RC" value="kotlin" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3b5oxbT9cwT" role="2OqNvi">
+                        <ref role="37wK5l" to="dwi1:~MetaModelGenerator.generate(org.modelix.metamodel.generator.LanguageSet)" resolve="generate" />
+                        <node concept="2ShNRf" id="3b5oxbT9cwU" role="37wK5m">
+                          <node concept="1pGfFk" id="3b5oxbT9cwV" role="2ShVmc">
+                            <ref role="37wK5l" to="dwi1:~LanguageSet.&lt;init&gt;(java.util.List)" resolve="LanguageSet" />
+                            <node concept="2OqwBi" id="3b5oxbT9cwW" role="37wK5m">
+                              <node concept="37vLTw" id="3b5oxbT9cwX" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3b5oxbT8Pzj" resolve="exporter" />
+                              </node>
+                              <node concept="liA8E" id="3b5oxbT9cwY" role="2OqNvi">
+                                <ref role="37wK5l" node="18fUb1nwXw8" resolve="getOutput" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4ZsvGZutXBI" role="3clF46">
+        <property role="TrG5h" value="ideaEnvironment" />
+        <node concept="3uibUv" id="4ZsvGZuHVCd" role="1tU5fm">
+          <ref role="3uigEE" to="79ha:HKKzfMjqRV" resolve="Environment" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3b5oxbT8uLh" role="3clF45" />
+      <node concept="3Tm1VV" id="3b5oxbT8uLi" role="1B3o_S" />
+    </node>
+    <node concept="3Tm1VV" id="3b5oxbT8uG$" role="1B3o_S" />
   </node>
 </model>
 

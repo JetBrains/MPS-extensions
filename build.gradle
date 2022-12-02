@@ -172,7 +172,7 @@ configurations {
 }
 
 dependencies {
-    def modelixCoreVersion = "1.3.2"
+    def modelixCoreVersion = "1.4"
     modelApi("org.modelix:model-api:$modelixCoreVersion")
     modelApi("org.modelix:metamodel-generator:$modelixCoreVersion")
 }
@@ -188,9 +188,15 @@ task copyModelApi() {
         def versionsFile = file("$libFolder/versions.txt")
         for (final def artifact in configurations.modelApi.resolvedConfiguration.resolvedArtifacts) {
             // these libs are part of MPS
-            if (artifact.moduleVersion.id.name.startsWith("log4j")) continue
-            if (artifact.moduleVersion.id.name.startsWith("annotations")) continue
-            if (artifact.moduleVersion.id.name.startsWith("slf4j-api")) continue
+            if (
+                    artifact.moduleVersion.id.name.startsWith("log4j")
+                    || artifact.moduleVersion.id.name.startsWith("annotations")
+                    || artifact.moduleVersion.id.name.startsWith("slf4j-api")
+
+            ) {
+                versionsFile.append("already part of mps: " + artifact.file.name + "\n")
+                continue
+            }
 
             def sourceFile = java.nio.file.Path.of(artifact.file.absolutePath)
             def targetFile = java.nio.file.Path.of(libFolder.absolutePath).resolve(artifact.moduleVersion.id.name + "." + artifact.extension)

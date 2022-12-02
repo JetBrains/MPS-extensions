@@ -7299,6 +7299,71 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="7hmV_3bvyEQ" role="jymVt">
+      <property role="TrG5h" value="addNewChild" />
+      <node concept="3Tm1VV" id="7hmV_3bvyER" role="1B3o_S" />
+      <node concept="2AHcQZ" id="7hmV_3bvyET" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+      </node>
+      <node concept="3uibUv" id="7hmV_3bvyEU" role="3clF45">
+        <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
+      </node>
+      <node concept="37vLTG" id="7hmV_3bvyEV" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="7hmV_3bvO3B" role="1tU5fm" />
+        <node concept="2AHcQZ" id="7hmV_3bvyEX" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7hmV_3bvyEY" role="3clF46">
+        <property role="TrG5h" value="index" />
+        <node concept="10Oyi0" id="7hmV_3bvyEZ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7hmV_3bvyF0" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3uibUv" id="7hmV_3bvyF1" role="1tU5fm">
+          <ref role="3uigEE" to="jks5:~IConceptReference" resolve="IConceptReference" />
+        </node>
+        <node concept="2AHcQZ" id="7hmV_3bvyF2" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7hmV_3bvyF3" role="3clF47">
+        <node concept="3clFbF" id="7hmV_3bvQWH" role="3cqZAp">
+          <node concept="1rXfSq" id="7hmV_3bvQWI" role="3clFbG">
+            <ref role="37wK5l" node="4_SQzDOerZy" resolve="wrap" />
+            <node concept="2OqwBi" id="7hmV_3bvQWJ" role="37wK5m">
+              <node concept="2OqwBi" id="7hmV_3bvQWK" role="2Oq$k0">
+                <node concept="37vLTw" id="7hmV_3bvQWL" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
+                </node>
+                <node concept="liA8E" id="7hmV_3bvQWM" role="2OqNvi">
+                  <ref role="37wK5l" to="jks5:~IBranch.getWriteTransaction()" resolve="getWriteTransaction" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7hmV_3bvQWN" role="2OqNvi">
+                <ref role="37wK5l" to="jks5:~IWriteTransaction.addNewChild(long,java.lang.String,int,org.modelix.model.api.IConceptReference)" resolve="addNewChild" />
+                <node concept="37vLTw" id="7hmV_3bvQWO" role="37wK5m">
+                  <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
+                </node>
+                <node concept="37vLTw" id="7hmV_3bvQWP" role="37wK5m">
+                  <ref role="3cqZAo" node="7hmV_3bvyEV" resolve="role" />
+                </node>
+                <node concept="37vLTw" id="7hmV_3bvQWQ" role="37wK5m">
+                  <ref role="3cqZAo" node="7hmV_3bvyEY" resolve="index" />
+                </node>
+                <node concept="37vLTw" id="7hmV_3bvQWR" role="37wK5m">
+                  <ref role="3cqZAo" node="7hmV_3bvyF0" resolve="concept" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7hmV_3bvyF4" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="4_SQzDOeoG4" role="jymVt">
       <property role="TrG5h" value="getAllChildren" />
       <node concept="A3Dl8" id="4_SQzDOeoG5" role="3clF45">
@@ -7754,23 +7819,10 @@
             <node concept="3uibUv" id="QurUgjsPoy" role="1tU5fm">
               <ref role="3uigEE" to="jks5:~INodeReference" resolve="INodeReference" />
             </node>
-            <node concept="2OqwBi" id="QurUgjsPo_" role="33vP2m">
-              <node concept="2OqwBi" id="QurUgjsPoA" role="2Oq$k0">
-                <node concept="37vLTw" id="QurUgjsPoB" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
-                </node>
-                <node concept="liA8E" id="QurUgjsPoC" role="2OqNvi">
-                  <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
-                </node>
-              </node>
-              <node concept="liA8E" id="QurUgjsPoD" role="2OqNvi">
-                <ref role="37wK5l" to="jks5:~ITransaction.getReferenceTarget(long,java.lang.String)" resolve="getReferenceTarget" />
-                <node concept="37vLTw" id="QurUgjsPoE" role="37wK5m">
-                  <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
-                </node>
-                <node concept="37vLTw" id="QurUgjsPoF" role="37wK5m">
-                  <ref role="3cqZAo" node="4_SQzDOeoGP" resolve="role" />
-                </node>
+            <node concept="1rXfSq" id="7hmV_3bwg3t" role="33vP2m">
+              <ref role="37wK5l" node="7hmV_3bvS9l" resolve="getReferenceTargetRef" />
+              <node concept="37vLTw" id="7hmV_3bwimy" role="37wK5m">
+                <ref role="3cqZAo" node="4_SQzDOeoGP" resolve="role" />
               </node>
             </node>
           </node>
@@ -7882,6 +7934,54 @@
         <node concept="3clFbH" id="QurUgjsNud" role="3cqZAp" />
       </node>
       <node concept="2AHcQZ" id="4_SQzDOeoGV" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7hmV_3bvS9l" role="jymVt">
+      <property role="TrG5h" value="getReferenceTargetRef" />
+      <node concept="3Tm1VV" id="7hmV_3bvS9m" role="1B3o_S" />
+      <node concept="2AHcQZ" id="7hmV_3bvS9o" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3uibUv" id="7hmV_3bvS9p" role="3clF45">
+        <ref role="3uigEE" to="jks5:~INodeReference" resolve="INodeReference" />
+      </node>
+      <node concept="37vLTG" id="7hmV_3bvS9q" role="3clF46">
+        <property role="TrG5h" value="role" />
+        <node concept="17QB3L" id="7hmV_3bw4dd" role="1tU5fm" />
+        <node concept="2AHcQZ" id="7hmV_3bvS9s" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7hmV_3bvS9t" role="3clF47">
+        <node concept="3clFbF" id="7hmV_3bvYXp" role="3cqZAp">
+          <node concept="1rXfSq" id="7hmV_3bvYXq" role="3clFbG">
+            <ref role="37wK5l" node="5QP6xyjLClF" resolve="notifyAccess" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7hmV_3bw0DA" role="3cqZAp">
+          <node concept="2OqwBi" id="7hmV_3bvYXu" role="3cqZAk">
+            <node concept="2OqwBi" id="7hmV_3bvYXv" role="2Oq$k0">
+              <node concept="37vLTw" id="7hmV_3bvYXw" role="2Oq$k0">
+                <ref role="3cqZAo" node="4_SQzDObR3i" resolve="branch" />
+              </node>
+              <node concept="liA8E" id="7hmV_3bvYXx" role="2OqNvi">
+                <ref role="37wK5l" to="jks5:~IBranch.getTransaction()" resolve="getTransaction" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7hmV_3bvYXy" role="2OqNvi">
+              <ref role="37wK5l" to="jks5:~ITransaction.getReferenceTarget(long,java.lang.String)" resolve="getReferenceTarget" />
+              <node concept="37vLTw" id="7hmV_3bvYXz" role="37wK5m">
+                <ref role="3cqZAo" node="4_SQzDObR57" resolve="nodeId" />
+              </node>
+              <node concept="37vLTw" id="7hmV_3bvYX$" role="37wK5m">
+                <ref role="3cqZAo" node="7hmV_3bvS9q" resolve="role" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7hmV_3bvS9u" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

@@ -187,6 +187,7 @@
       <concept id="3921456275302774825" name="com.mbeddr.mpsutil.grammarcells.structure.SplittableCell" flags="sg" stub="3921456275302774831" index="2lNzut">
         <child id="3921456275305506525" name="tokenizer" index="2lD6_D" />
       </concept>
+      <concept id="9041925471455857605" name="com.mbeddr.mpsutil.grammarcells.structure.Cell_DescriptionText" flags="ig" index="uPpia" />
       <concept id="1997572252229165641" name="com.mbeddr.mpsutil.grammarcells.structure.TransformationLocation_Before" flags="ng" index="wWMWC" />
       <concept id="1997572252229165700" name="com.mbeddr.mpsutil.grammarcells.structure.TransformationLocation_After" flags="ng" index="wWMZ_" />
       <concept id="5083944728300220902" name="com.mbeddr.mpsutil.grammarcells.structure.SubstituteCell" flags="ng" index="yw3OH">
@@ -205,11 +206,15 @@
       <concept id="8207263695491691232" name="com.mbeddr.mpsutil.grammarcells.structure.SubconceptExpression" flags="ng" index="2EmZKS" />
       <concept id="2489050352088028316" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_editorContext" flags="ng" index="2MNBq7" />
       <concept id="8945098465480383073" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell_TransformationText" flags="ig" index="ZYGn8" />
+      <concept id="848437706375087728" name="com.mbeddr.mpsutil.grammarcells.structure.ICanHaveDescriptionText" flags="ng" index="1djCvD">
+        <child id="848437706375087729" name="descriptionText" index="1djCvC" />
+      </concept>
       <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G" />
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
         <child id="1954385921685817931" name="postprocessSideTransform" index="31dnJ" />
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
+      <concept id="7463174232466930070" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_OriginalText" flags="ng" index="1oAbNU" />
       <concept id="2862331529394479412" name="com.mbeddr.mpsutil.grammarcells.structure.GrammarConstantQuery" flags="ig" index="1Lj6DC" />
       <concept id="2862331529394479405" name="com.mbeddr.mpsutil.grammarcells.structure.GrammarConstantQueryCell" flags="ng" index="1Lj6DL">
         <child id="2862331529394487726" name="query" index="1Lj8FM" />
@@ -1043,6 +1048,39 @@
             </node>
           </node>
         </node>
+        <node concept="uPpia" id="6gjbwab2h_K" role="1djCvC">
+          <node concept="3clFbS" id="6gjbwab2h_L" role="2VODD2">
+            <node concept="2xdQw9" id="6gjbwab2hEU" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2hEV" role="9lYJi">
+                <node concept="313q4" id="6gjbwab2hEW" role="3uHU7w" />
+                <node concept="Xl_RD" id="6gjbwab2hEX" role="3uHU7B">
+                  <property role="Xl_RC" value="Node:" />
+                </node>
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2hEY" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2hEZ" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2hF0" role="3uHU7B">
+                  <property role="Xl_RC" value="Original text" />
+                </node>
+                <node concept="1oAbNU" id="6gjbwab2hF1" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2hF2" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2hF3" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2hF4" role="3uHU7B">
+                  <property role="Xl_RC" value="EditorContext:" />
+                </node>
+                <node concept="2MNBq7" id="6gjbwab2hF5" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6gjbwab2hF6" role="3cqZAp">
+              <node concept="Xl_RD" id="6gjbwab2hF7" role="3clFbG">
+                <property role="Xl_RC" value="add optional expression" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="3efHud92zmh" role="2iSdaV" />
     </node>
@@ -1177,6 +1215,39 @@
                   <property role="Xl_RC" value="EditorContext:" />
                 </node>
                 <node concept="2MNBq7" id="6gjbwaaLzan" role="3uHU7w" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="uPpia" id="6gjbwab2irO" role="1djCvC">
+          <node concept="3clFbS" id="6gjbwab2irP" role="2VODD2">
+            <node concept="2xdQw9" id="6gjbwab2isB" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2isC" role="9lYJi">
+                <node concept="313q4" id="6gjbwab2isD" role="3uHU7w" />
+                <node concept="Xl_RD" id="6gjbwab2isE" role="3uHU7B">
+                  <property role="Xl_RC" value="Node:" />
+                </node>
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2isF" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2isG" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2isH" role="3uHU7B">
+                  <property role="Xl_RC" value="Original text" />
+                </node>
+                <node concept="1oAbNU" id="6gjbwab2isI" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2isJ" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2isK" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2isL" role="3uHU7B">
+                  <property role="Xl_RC" value="EditorContext:" />
+                </node>
+                <node concept="2MNBq7" id="6gjbwab2isM" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6gjbwab2isN" role="3cqZAp">
+              <node concept="Xl_RD" id="6gjbwab2isO" role="3clFbG">
+                <property role="Xl_RC" value="add optional expression" />
               </node>
             </node>
           </node>
@@ -1424,6 +1495,39 @@
             </node>
           </node>
         </node>
+        <node concept="uPpia" id="6gjbwab2icL" role="1djCvC">
+          <node concept="3clFbS" id="6gjbwab2icM" role="2VODD2">
+            <node concept="2xdQw9" id="6gjbwab2ihL" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2ihM" role="9lYJi">
+                <node concept="313q4" id="6gjbwab2ihN" role="3uHU7w" />
+                <node concept="Xl_RD" id="6gjbwab2ihO" role="3uHU7B">
+                  <property role="Xl_RC" value="Node:" />
+                </node>
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2ihP" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2ihQ" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2ihR" role="3uHU7B">
+                  <property role="Xl_RC" value="Original text" />
+                </node>
+                <node concept="1oAbNU" id="6gjbwab2ihS" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2ihT" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2ihU" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2ihV" role="3uHU7B">
+                  <property role="Xl_RC" value="EditorContext:" />
+                </node>
+                <node concept="2MNBq7" id="6gjbwab2ihW" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6gjbwab2ihX" role="3cqZAp">
+              <node concept="Xl_RD" id="6gjbwab2ihY" role="3clFbG">
+                <property role="Xl_RC" value="add optional single child" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="5ycts4RUtBN" role="3EZMnx">
         <property role="3F0ifm" value=";" />
@@ -1461,6 +1565,39 @@
                   <property role="Xl_RC" value="EditorContext:" />
                 </node>
                 <node concept="2MNBq7" id="6gjbwaaGgJY" role="3uHU7w" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="uPpia" id="6gjbwab2hPI" role="1djCvC">
+          <node concept="3clFbS" id="6gjbwab2hPJ" role="2VODD2">
+            <node concept="2xdQw9" id="6gjbwab2hUS" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2hUT" role="9lYJi">
+                <node concept="313q4" id="6gjbwab2hUU" role="3uHU7w" />
+                <node concept="Xl_RD" id="6gjbwab2hUV" role="3uHU7B">
+                  <property role="Xl_RC" value="Node:" />
+                </node>
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2hUW" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2hUX" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2hUY" role="3uHU7B">
+                  <property role="Xl_RC" value="Original text" />
+                </node>
+                <node concept="1oAbNU" id="6gjbwab2hUZ" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2hV0" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2hV1" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2hV2" role="3uHU7B">
+                  <property role="Xl_RC" value="EditorContext:" />
+                </node>
+                <node concept="2MNBq7" id="6gjbwab2hV3" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6gjbwab2hV4" role="3cqZAp">
+              <node concept="Xl_RD" id="6gjbwab2hV5" role="3clFbG">
+                <property role="Xl_RC" value="add optional children" />
               </node>
             </node>
           </node>
@@ -1507,6 +1644,39 @@
                   <property role="Xl_RC" value="EditorContext:" />
                 </node>
                 <node concept="2MNBq7" id="6gjbwaaGgLu" role="3uHU7w" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="uPpia" id="6gjbwab2i2z" role="1djCvC">
+          <node concept="3clFbS" id="6gjbwab2i2$" role="2VODD2">
+            <node concept="2xdQw9" id="6gjbwab2i3m" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2i3n" role="9lYJi">
+                <node concept="313q4" id="6gjbwab2i3o" role="3uHU7w" />
+                <node concept="Xl_RD" id="6gjbwab2i3p" role="3uHU7B">
+                  <property role="Xl_RC" value="Node:" />
+                </node>
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2i3q" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2i3r" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2i3s" role="3uHU7B">
+                  <property role="Xl_RC" value="Original text" />
+                </node>
+                <node concept="1oAbNU" id="6gjbwab2i3t" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab2i3u" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab2i3v" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab2i3w" role="3uHU7B">
+                  <property role="Xl_RC" value="EditorContext:" />
+                </node>
+                <node concept="2MNBq7" id="6gjbwab2i3x" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6gjbwab2i3y" role="3cqZAp">
+              <node concept="Xl_RD" id="6gjbwab2i3z" role="3clFbG">
+                <property role="Xl_RC" value="add optional reference" />
               </node>
             </node>
           </node>
@@ -1564,6 +1734,39 @@
                   <property role="Xl_RC" value="EditorContext:" />
                 </node>
                 <node concept="2MNBq7" id="6gjbwaaGgld" role="3uHU7w" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="uPpia" id="6gjbwab0EZE" role="1djCvC">
+          <node concept="3clFbS" id="6gjbwab0EZF" role="2VODD2">
+            <node concept="2xdQw9" id="6gjbwab0FbE" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab0FbF" role="9lYJi">
+                <node concept="313q4" id="6gjbwab0FbG" role="3uHU7w" />
+                <node concept="Xl_RD" id="6gjbwab0FbH" role="3uHU7B">
+                  <property role="Xl_RC" value="Node:" />
+                </node>
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab0FbI" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab0FbJ" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab0FbK" role="3uHU7B">
+                  <property role="Xl_RC" value="Original text" />
+                </node>
+                <node concept="1oAbNU" id="6gjbwab0Fg5" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="2xdQw9" id="6gjbwab0Fhf" role="3cqZAp">
+              <node concept="3cpWs3" id="6gjbwab0Fhg" role="9lYJi">
+                <node concept="Xl_RD" id="6gjbwab0Fhh" role="3uHU7B">
+                  <property role="Xl_RC" value="EditorContext:" />
+                </node>
+                <node concept="2MNBq7" id="6gjbwab0Fhi" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6gjbwab0FaB" role="3cqZAp">
+              <node concept="Xl_RD" id="6gjbwab0FaA" role="3clFbG">
+                <property role="Xl_RC" value="add optional children" />
               </node>
             </node>
           </node>

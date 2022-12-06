@@ -3781,9 +3781,6 @@
               <node concept="35c_gC" id="1L96m4u4nK4" role="HW$Y0">
                 <ref role="35c_gD" to="teg0:2aaSxIgh9is" resolve="Parameter_editorContext" />
               </node>
-              <node concept="35c_gC" id="Mf8p5ha7fB" role="HW$Y0">
-                <ref role="35c_gD" to="teg0:Mf8p5ha6ow" resolve="Parameter_parentNode" />
-              </node>
             </node>
           </node>
         </node>

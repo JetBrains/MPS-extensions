@@ -160,6 +160,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -184,6 +187,8 @@
         <child id="1716599163375643746" name="inner" index="drBAU" />
         <child id="1716599163375643751" name="right" index="drBAZ" />
       </concept>
+      <concept id="1984422498402698431" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell_Condition" flags="ig" index="2e7140" />
+      <concept id="1984422498402709328" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell_Condition_wrappedNode" flags="ng" index="2e73FJ" />
       <concept id="3921456275302774825" name="com.mbeddr.mpsutil.grammarcells.structure.SplittableCell" flags="sg" stub="3921456275302774831" index="2lNzut">
         <child id="3921456275305506525" name="tokenizer" index="2lD6_D" />
       </concept>
@@ -212,6 +217,8 @@
       <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G" />
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
         <child id="1954385921685817931" name="postprocessSideTransform" index="31dnJ" />
+        <child id="1954385921685817946" name="postprocessNodeSubstitute" index="31dnY" />
+        <child id="1984422498402083610" name="sideTransformationCondition" index="2e1Fq_" />
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
       <concept id="7463174232466930070" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_OriginalText" flags="ng" index="1oAbNU" />
@@ -564,6 +571,79 @@
         <node concept="1kIj98" id="RbLMy6d8Zw" role="3EZMnx">
           <node concept="3F1sOY" id="RbLMy6d8Zy" role="1kIj9b">
             <ref role="1NtTu8" to="ibwz:RbLMy6d5VU" resolve="type" />
+          </node>
+          <node concept="315t4" id="6gjbwab3Srs" role="31dnY">
+            <node concept="3clFbS" id="6gjbwab3Srt" role="2VODD2">
+              <node concept="2xdQw9" id="6gjbwab3S$R" role="3cqZAp">
+                <node concept="3cpWs3" id="6gjbwab3S$S" role="9lYJi">
+                  <node concept="313q4" id="6gjbwab3S$T" role="3uHU7w" />
+                  <node concept="Xl_RD" id="6gjbwab3S$U" role="3uHU7B">
+                    <property role="Xl_RC" value="Node:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2xdQw9" id="6gjbwab3S$V" role="3cqZAp">
+                <node concept="3cpWs3" id="6gjbwab3S$W" role="9lYJi">
+                  <node concept="Xl_RD" id="6gjbwab3S$X" role="3uHU7B">
+                    <property role="Xl_RC" value="EditorContext:" />
+                  </node>
+                  <node concept="2MNBq7" id="6gjbwab3S$Y" role="3uHU7w" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="315t4" id="6gjbwab3S_R" role="31dnJ">
+            <node concept="3clFbS" id="6gjbwab3S_S" role="2VODD2">
+              <node concept="2xdQw9" id="6gjbwab3SAv" role="3cqZAp">
+                <node concept="3cpWs3" id="6gjbwab3SAw" role="9lYJi">
+                  <node concept="313q4" id="6gjbwab3SAx" role="3uHU7w" />
+                  <node concept="Xl_RD" id="6gjbwab3SAy" role="3uHU7B">
+                    <property role="Xl_RC" value="Node:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2xdQw9" id="6gjbwab3SAz" role="3cqZAp">
+                <node concept="3cpWs3" id="6gjbwab3SA$" role="9lYJi">
+                  <node concept="Xl_RD" id="6gjbwab3SA_" role="3uHU7B">
+                    <property role="Xl_RC" value="EditorContext:" />
+                  </node>
+                  <node concept="2MNBq7" id="6gjbwab3SAA" role="3uHU7w" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2e7140" id="6gjbwab5uMO" role="2e1Fq_">
+            <node concept="3clFbS" id="6gjbwab5uMP" role="2VODD2">
+              <node concept="2xdQw9" id="6gjbwab5uW0" role="3cqZAp">
+                <node concept="3cpWs3" id="6gjbwab5uW1" role="9lYJi">
+                  <node concept="2e73FJ" id="6gjbwab5v0B" role="3uHU7w" />
+                  <node concept="Xl_RD" id="6gjbwab5uW3" role="3uHU7B">
+                    <property role="Xl_RC" value="WrappedNode:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2xdQw9" id="6gjbwab5v5a" role="3cqZAp">
+                <node concept="3cpWs3" id="6gjbwab5v5b" role="9lYJi">
+                  <node concept="1Lj6YZ" id="6gjbwab5vkI" role="3uHU7w" />
+                  <node concept="Xl_RD" id="6gjbwab5v5d" role="3uHU7B">
+                    <property role="Xl_RC" value="Subconcept:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2xdQw9" id="6gjbwab5v6x" role="3cqZAp">
+                <node concept="3cpWs3" id="6gjbwab5v6y" role="9lYJi">
+                  <node concept="2MNBq7" id="6gjbwab5vmc" role="3uHU7w" />
+                  <node concept="Xl_RD" id="6gjbwab5v6$" role="3uHU7B">
+                    <property role="Xl_RC" value="EditorContext:" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="6gjbwab5uRL" role="3cqZAp">
+                <node concept="3clFbT" id="6gjbwab5uRK" role="3clFbG">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3F0ifn" id="RbLMy6d5WL" role="3EZMnx">

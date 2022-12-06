@@ -21085,7 +21085,6 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbH" id="6B579NGr3Hh" role="3cqZAp" />
                           <node concept="3clFbJ" id="6B579NGqSU5" role="3cqZAp">
                             <node concept="3clFbS" id="6B579NGqSU7" role="3clFbx">
                               <node concept="3cpWs8" id="6B579NGr$G_" role="3cqZAp">
@@ -21201,6 +21200,22 @@
                                       </node>
                                       <node concept="3clFbJ" id="5n4nn1a79Z$" role="3cqZAp">
                                         <node concept="3clFbS" id="5n4nn1a79Z_" role="3clFbx">
+                                          <node concept="3cpWs8" id="6gjbwab7wAw" role="3cqZAp">
+                                            <node concept="3cpWsn" id="6gjbwab7wAx" role="3cpWs9">
+                                              <property role="TrG5h" value="editorContext" />
+                                              <node concept="3uibUv" id="6gjbwab7uyf" role="1tU5fm">
+                                                <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                                              </node>
+                                              <node concept="2OqwBi" id="6gjbwab7wAy" role="33vP2m">
+                                                <node concept="37vLTw" id="6gjbwab7wAz" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="5n4nn1a79YN" resolve="_context" />
+                                                </node>
+                                                <node concept="liA8E" id="6gjbwab7wA$" role="2OqNvi">
+                                                  <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
                                           <node concept="3cpWs8" id="49FqtR5VyJX" role="3cqZAp">
                                             <node concept="3cpWsn" id="49FqtR5VyJY" role="3cpWs9">
                                               <property role="TrG5h" value="sideTransformationEnabled" />

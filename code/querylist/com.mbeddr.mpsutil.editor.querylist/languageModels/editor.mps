@@ -14,6 +14,7 @@
     <import index="pjrh" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter(MPS.Core/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="1hk2" ref="120e1c9d-4e27-4478-b2af-b2c3bd3850b0/r:81daaeb5-5b7a-4c8c-9e3c-0003a366fd18(com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.behavior)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -909,6 +910,32 @@
         <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
         <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
       </node>
+      <node concept="3EZMnI" id="544mDfev1E3" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:i0pPgF8" resolve="rootCellModelStyle" />
+        <node concept="3F0ifn" id="544mDfev1E4" role="3EZMnx">
+          <property role="3F0ifm" value="/folded cell:" />
+          <ref role="1k5W1q" to="tpc5:hX1xO3O" resolve="bordered" />
+        </node>
+        <node concept="3F1sOY" id="544mDfev1E5" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;default&gt;" />
+          <ref role="1k5W1q" to="tpc5:hX1xO3O" resolve="bordered" />
+          <ref role="1NtTu8" to="bbp5:5fDszETGVtQ" resolve="foldedCellModel" />
+        </node>
+        <node concept="2iRfu4" id="544mDfev1E6" role="2iSdaV" />
+        <node concept="pkWqt" id="57wonSLRwnB" role="pqm2j">
+          <node concept="3clFbS" id="57wonSLRwnC" role="2VODD2">
+            <node concept="3clFbF" id="57wonSLRwry" role="3cqZAp">
+              <node concept="2OqwBi" id="57wonSLRwGi" role="3clFbG">
+                <node concept="pncrf" id="57wonSLRwrx" role="2Oq$k0" />
+                <node concept="2qgKlT" id="57wonSLRx3L" role="2OqNvi">
+                  <ref role="37wK5l" to="1hk2:3ZqNA5Aj2vG" resolve="isFoldingEnabled" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="57wonSLRuT3" role="3EZMnx" />
     </node>
   </node>
   <node concept="312cEu" id="Op$R492IaI">

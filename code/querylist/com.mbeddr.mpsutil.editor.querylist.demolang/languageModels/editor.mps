@@ -193,6 +193,7 @@
         <child id="6202678563380433923" name="query" index="sbcd9" />
         <child id="5820306262933755617" name="insertNewNode" index="AS3tk" />
         <child id="7238779735251877228" name="editorComponent" index="1yzFaX" />
+        <child id="6046489571270834038" name="foldedCellModel" index="3EmGlc" />
       </concept>
       <concept id="5820306262933110156" name="com.mbeddr.mpsutil.editor.querylist.structure.Function_InsertNewNode" flags="ig" index="ARxKT" />
       <concept id="5820306262933734929" name="com.mbeddr.mpsutil.editor.querylist.structure.Parameter_AnchorNode" flags="ng" index="AS6u$" />
@@ -382,7 +383,10 @@
       <node concept="3EZMnI" id="535SrlQ5QB3" role="3EZMnx">
         <node concept="3F0ifn" id="535SrlQ5QB4" role="3EZMnx">
           <property role="3F0ifm" value="expressions:" />
-          <node concept="ljvvj" id="535SrlQ5VPe" role="3F10Kt">
+          <node concept="ljvvj" id="57wonSLX3DJ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pVoyu" id="57wonSLX3DK" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -557,6 +561,9 @@
                 <property role="VOm3f" value="false" />
               </node>
             </node>
+          </node>
+          <node concept="3F0ifn" id="57wonSLX3DT" role="3EmGlc">
+            <property role="3F0ifm" value="folded" />
           </node>
         </node>
         <node concept="l2Vlx" id="535SrlQ5QBh" role="2iSdaV" />

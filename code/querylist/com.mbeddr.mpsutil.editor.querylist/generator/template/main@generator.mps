@@ -456,6 +456,23 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="57wonSLW3r2" role="3cqZAp">
+              <node concept="raruj" id="57wonSLW3r3" role="lGtFl" />
+              <node concept="29HgVG" id="57wonSLW3r4" role="lGtFl">
+                <node concept="3NFfHV" id="57wonSLW3r5" role="3NFExx">
+                  <node concept="3clFbS" id="57wonSLW3r6" role="2VODD2">
+                    <node concept="3clFbF" id="57wonSLW3r7" role="3cqZAp">
+                      <node concept="2OqwBi" id="57wonSLW3r8" role="3clFbG">
+                        <node concept="3TrEf2" id="57wonSLW3r9" role="2OqNvi">
+                          <ref role="3Tt5mk" to="bbp5:5fDszETGVtQ" resolve="foldedCellModel" />
+                        </node>
+                        <node concept="30H73N" id="57wonSLW3ra" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbH" id="48TKAW3Vg0q" role="3cqZAp">
               <node concept="raruj" id="48TKAW3Vg0r" role="lGtFl" />
               <node concept="2b32R4" id="48TKAW3Vg0s" role="lGtFl">
@@ -1218,6 +1235,129 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbF" id="3DPg8zpyaE0" role="3cqZAp">
+                    <node concept="2OqwBi" id="3DPg8zpyaE2" role="3clFbG">
+                      <node concept="37vLTw" id="3GM_nagTAwe" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1WjrBsNI_nG" resolve="editorCell" />
+                      </node>
+                      <node concept="liA8E" id="3DPg8zpyaFB" role="2OqNvi">
+                        <ref role="37wK5l" to="g51k:~EditorCell_Collection.setFoldable(boolean)" resolve="setFoldable" />
+                        <node concept="3clFbT" id="3DPg8zpyaFC" role="37wK5m">
+                          <property role="3clFbU" value="true" />
+                          <node concept="1W57fq" id="3DPg8zpygQy" role="lGtFl">
+                            <node concept="gft3U" id="5_YqJ2SmGlx" role="UU_$l">
+                              <node concept="1rXfSq" id="5_YqJ2SmGBP" role="gfFT$">
+                                <ref role="37wK5l" to="tpc3:5_YqJ2SmBvw" resolve="_condition_" />
+                                <node concept="1ZhdrF" id="5_YqJ2SmGOS" role="lGtFl">
+                                  <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
+                                  <property role="2qtEX8" value="baseMethodDeclaration" />
+                                  <node concept="3$xsQk" id="5_YqJ2SmGOT" role="3$ytzL">
+                                    <node concept="3clFbS" id="5_YqJ2SmGOU" role="2VODD2">
+                                      <node concept="3clFbF" id="3DPg8zpygRj" role="3cqZAp">
+                                        <node concept="2OqwBi" id="3DPg8zpygRl" role="3clFbG">
+                                          <node concept="1iwH7S" id="3DPg8zpygRk" role="2Oq$k0" />
+                                          <node concept="1iwH70" id="3DPg8zpygRp" role="2OqNvi">
+                                            <ref role="1iwH77" to="tpc3:hG092go" resolve="query_method" />
+                                            <node concept="2OqwBi" id="3DPg8zpygRs" role="1iwH7V">
+                                              <node concept="30H73N" id="3DPg8zpygRr" role="2Oq$k0" />
+                                              <node concept="3TrEf2" id="3DPg8zpygRw" role="2OqNvi">
+                                                <ref role="3Tt5mk" to="bbp5:3ZqNA5Aj2vB" resolve="usesFoldingCondition" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3IZrLx" id="3DPg8zpygQz" role="3IZSJc">
+                              <node concept="3clFbS" id="3DPg8zpygQ$" role="2VODD2">
+                                <node concept="3clFbF" id="3DPg8zpygQ_" role="3cqZAp">
+                                  <node concept="2OqwBi" id="3DPg8zpygQG" role="3clFbG">
+                                    <node concept="2OqwBi" id="3DPg8zpygQB" role="2Oq$k0">
+                                      <node concept="30H73N" id="3DPg8zpygQA" role="2Oq$k0" />
+                                      <node concept="3TrEf2" id="3DPg8zpygQF" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="bbp5:3ZqNA5Aj2vB" resolve="usesFoldingCondition" />
+                                      </node>
+                                    </node>
+                                    <node concept="3w_OXm" id="3DPg8zpygQK" role="2OqNvi" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1W57fq" id="3DPg8zpyaFE" role="lGtFl">
+                      <node concept="3IZrLx" id="3DPg8zpyaFF" role="3IZSJc">
+                        <node concept="3clFbS" id="3DPg8zpyaFG" role="2VODD2">
+                          <node concept="3clFbF" id="3DPg8zpygQq" role="3cqZAp">
+                            <node concept="2OqwBi" id="3DPg8zpygQs" role="3clFbG">
+                              <node concept="30H73N" id="3DPg8zpygQr" role="2Oq$k0" />
+                              <node concept="2qgKlT" id="3DPg8zpygQw" role="2OqNvi">
+                                <ref role="37wK5l" to="1hk2:3ZqNA5Aj2vG" resolve="isFoldingEnabled" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="1WjrBsNI_qU" role="3cqZAp">
+                    <node concept="2OqwBi" id="1WjrBsNI_qV" role="3clFbG">
+                      <node concept="37vLTw" id="1WjrBsNI_qW" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1WjrBsNI_nG" resolve="editorCell" />
+                      </node>
+                      <node concept="liA8E" id="1WjrBsNI_qX" role="2OqNvi">
+                        <ref role="37wK5l" to="g51k:~EditorCell_Collection.setFoldedCell(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="setFoldedCell" />
+                        <node concept="10Nm6u" id="1WjrBsNI_qY" role="37wK5m">
+                          <node concept="5jKBG" id="76N1O$KguuB" role="lGtFl">
+                            <ref role="v9R2y" to="tpc3:gXIFsmA" resolve="template_CreateCellExpression" />
+                            <node concept="3NFfHV" id="1WjrBsNI_r0" role="5jGum">
+                              <node concept="3clFbS" id="1WjrBsNI_r1" role="2VODD2">
+                                <node concept="3clFbF" id="1WjrBsNI_r2" role="3cqZAp">
+                                  <node concept="2OqwBi" id="1WjrBsNI_r3" role="3clFbG">
+                                    <node concept="30H73N" id="1WjrBsNI_r4" role="2Oq$k0" />
+                                    <node concept="3TrEf2" id="1WjrBsNI_r5" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="bbp5:5fDszETGVtQ" resolve="foldedCellModel" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1W57fq" id="1WjrBsNI_r6" role="lGtFl">
+                      <node concept="3IZrLx" id="1WjrBsNI_r7" role="3IZSJc">
+                        <node concept="3clFbS" id="1WjrBsNI_r8" role="2VODD2">
+                          <node concept="3clFbF" id="1WjrBsNI_r9" role="3cqZAp">
+                            <node concept="1Wc70l" id="1WjrBsNI_ra" role="3clFbG">
+                              <node concept="3y3z36" id="1WjrBsNI_rb" role="3uHU7w">
+                                <node concept="2OqwBi" id="1WjrBsNI_rc" role="3uHU7B">
+                                  <node concept="30H73N" id="1WjrBsNI_rd" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="1WjrBsNI_re" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="bbp5:5fDszETGVtQ" resolve="foldedCellModel" />
+                                  </node>
+                                </node>
+                                <node concept="10Nm6u" id="1WjrBsNI_rf" role="3uHU7w" />
+                              </node>
+                              <node concept="2OqwBi" id="1WjrBsNI_rg" role="3uHU7B">
+                                <node concept="2qgKlT" id="1WjrBsNI_rh" role="2OqNvi">
+                                  <ref role="37wK5l" to="1hk2:3ZqNA5Aj2vG" resolve="isFoldingEnabled" />
+                                </node>
+                                <node concept="30H73N" id="1WjrBsNI_ri" role="2Oq$k0" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="1WjrBsNI_qb" role="3cqZAp">
                     <node concept="2OqwBi" id="1WjrBsNI_qc" role="3clFbG">
                       <node concept="37vLTw" id="1WjrBsNI_qd" role="2Oq$k0">
@@ -1309,58 +1449,6 @@
                               <node concept="30H73N" id="1WjrBsNI_qS" role="2Oq$k0" />
                               <node concept="2qgKlT" id="1WjrBsNI_qT" role="2OqNvi">
                                 <ref role="37wK5l" to="1hk2:3ZqNA5Aj2vG" resolve="isFoldingEnabled" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="1WjrBsNI_qU" role="3cqZAp">
-                    <node concept="2OqwBi" id="1WjrBsNI_qV" role="3clFbG">
-                      <node concept="37vLTw" id="1WjrBsNI_qW" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1WjrBsNI_nG" resolve="editorCell" />
-                      </node>
-                      <node concept="liA8E" id="1WjrBsNI_qX" role="2OqNvi">
-                        <ref role="37wK5l" to="g51k:~EditorCell_Collection.setFoldedCell(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="setFoldedCell" />
-                        <node concept="10Nm6u" id="1WjrBsNI_qY" role="37wK5m">
-                          <node concept="5jKBG" id="76N1O$KguuB" role="lGtFl">
-                            <ref role="v9R2y" to="tpc3:gXIFsmA" resolve="template_CreateCellExpression" />
-                            <node concept="3NFfHV" id="1WjrBsNI_r0" role="5jGum">
-                              <node concept="3clFbS" id="1WjrBsNI_r1" role="2VODD2">
-                                <node concept="3clFbF" id="1WjrBsNI_r2" role="3cqZAp">
-                                  <node concept="2OqwBi" id="1WjrBsNI_r3" role="3clFbG">
-                                    <node concept="30H73N" id="1WjrBsNI_r4" role="2Oq$k0" />
-                                    <node concept="3TrEf2" id="1WjrBsNI_r5" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="bbp5:5fDszETGVtQ" resolve="foldedCellModel" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="1W57fq" id="1WjrBsNI_r6" role="lGtFl">
-                      <node concept="3IZrLx" id="1WjrBsNI_r7" role="3IZSJc">
-                        <node concept="3clFbS" id="1WjrBsNI_r8" role="2VODD2">
-                          <node concept="3clFbF" id="1WjrBsNI_r9" role="3cqZAp">
-                            <node concept="1Wc70l" id="1WjrBsNI_ra" role="3clFbG">
-                              <node concept="3y3z36" id="1WjrBsNI_rb" role="3uHU7w">
-                                <node concept="2OqwBi" id="1WjrBsNI_rc" role="3uHU7B">
-                                  <node concept="30H73N" id="1WjrBsNI_rd" role="2Oq$k0" />
-                                  <node concept="3TrEf2" id="1WjrBsNI_re" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="bbp5:5fDszETGVtQ" resolve="foldedCellModel" />
-                                  </node>
-                                </node>
-                                <node concept="10Nm6u" id="1WjrBsNI_rf" role="3uHU7w" />
-                              </node>
-                              <node concept="2OqwBi" id="1WjrBsNI_rg" role="3uHU7B">
-                                <node concept="2qgKlT" id="1WjrBsNI_rh" role="2OqNvi">
-                                  <ref role="37wK5l" to="1hk2:3ZqNA5Aj2vG" resolve="isFoldingEnabled" />
-                                </node>
-                                <node concept="30H73N" id="1WjrBsNI_ri" role="2Oq$k0" />
                               </node>
                             </node>
                           </node>

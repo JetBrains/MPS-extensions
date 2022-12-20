@@ -497,5 +497,15 @@
     <property role="EcuMT" value="2239254897981410197" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
+  <node concept="1TIwiD" id="57wonSM3yKg">
+    <property role="EcuMT" value="5899822706488912912" />
+    <property role="TrG5h" value="StubCellModel_QueryList" />
+    <ref role="1TJDcQ" to="tpc2:CzpafHMSVi" resolve="StubEditorCellModel" />
+  </node>
+  <node concept="1TIwiD" id="57wonSM3yNJ">
+    <property role="EcuMT" value="5899822706488913135" />
+    <property role="TrG5h" value="StubCellModel_DefaultEditor" />
+    <ref role="1TJDcQ" to="tpc2:CzpafHMSVi" resolve="StubEditorCellModel" />
+  </node>
 </model>
 

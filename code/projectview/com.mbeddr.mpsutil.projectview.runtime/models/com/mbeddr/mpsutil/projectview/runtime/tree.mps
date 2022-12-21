@@ -202,9 +202,6 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
-        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
-      </concept>
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
         <child id="1214996921760" name="bound" index="3ztrMU" />
       </concept>
@@ -9099,32 +9096,16 @@
                 <node concept="3clFbF" id="7PvgUNuOLtd" role="3cqZAp">
                   <node concept="2OqwBi" id="7PvgUNuOLte" role="3clFbG">
                     <node concept="liA8E" id="7PvgUNuOLtl" role="2OqNvi">
-                      <ref role="37wK5l" to="ouby:~AsyncTreeModel.treeStructureChanged(javax.swing.tree.TreePath)" resolve="treeStructureChanged" />
-                      <node concept="2ShNRf" id="2Ko4lD9$c6T" role="37wK5m">
-                        <node concept="1pGfFk" id="2Ko4lD9$Tv7" role="2ShVmc">
-                          <property role="373rjd" value="true" />
-                          <ref role="37wK5l" to="rgfa:~TreePath.&lt;init&gt;(java.lang.Object[])" resolve="TreePath" />
-                          <node concept="2OqwBi" id="2Ko4lD9_47g" role="37wK5m">
-                            <node concept="Xjq3P" id="2Ko4lD9$YEW" role="2Oq$k0" />
-                            <node concept="liA8E" id="2Ko4lD9_asS" role="2OqNvi">
-                              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getPath()" resolve="getPath" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
+                      <ref role="37wK5l" to="rgfa:~DefaultTreeModel.nodeStructureChanged(javax.swing.tree.TreeNode)" resolve="nodeStructureChanged" />
+                      <node concept="Xjq3P" id="2XsGPcz60Nx" role="37wK5m" />
                     </node>
                     <node concept="1eOMI4" id="2Ko4lD9$4n1" role="2Oq$k0">
-                      <node concept="10QFUN" id="2Ko4lD9zPRP" role="1eOMHV">
-                        <node concept="3uibUv" id="2Ko4lD9zV9O" role="10QFUM">
-                          <ref role="3uigEE" to="ouby:~AsyncTreeModel" resolve="AsyncTreeModel" />
+                      <node concept="2OqwBi" id="7PvgUNuOLth" role="1eOMHV">
+                        <node concept="1rXfSq" id="7PvgUNuOLti" role="2Oq$k0">
+                          <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
                         </node>
-                        <node concept="2OqwBi" id="7PvgUNuOLth" role="10QFUP">
-                          <node concept="1rXfSq" id="7PvgUNuOLti" role="2Oq$k0">
-                            <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
-                          </node>
-                          <node concept="liA8E" id="7PvgUNuOLtj" role="2OqNvi">
-                            <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
-                          </node>
+                        <node concept="liA8E" id="7PvgUNuOLtj" role="2OqNvi">
+                          <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
                         </node>
                       </node>
                     </node>
@@ -9562,32 +9543,16 @@
                   <node concept="3clFbF" id="2Ko4lD9_iz4" role="3cqZAp">
                     <node concept="2OqwBi" id="2Ko4lD9_iz5" role="3clFbG">
                       <node concept="liA8E" id="2Ko4lD9_iz6" role="2OqNvi">
-                        <ref role="37wK5l" to="ouby:~AsyncTreeModel.treeStructureChanged(javax.swing.tree.TreePath)" resolve="treeStructureChanged" />
-                        <node concept="2ShNRf" id="2Ko4lD9_iz7" role="37wK5m">
-                          <node concept="1pGfFk" id="2Ko4lD9_iz8" role="2ShVmc">
-                            <property role="373rjd" value="true" />
-                            <ref role="37wK5l" to="rgfa:~TreePath.&lt;init&gt;(java.lang.Object[])" resolve="TreePath" />
-                            <node concept="2OqwBi" id="2Ko4lD9_iz9" role="37wK5m">
-                              <node concept="Xjq3P" id="2Ko4lD9_iza" role="2Oq$k0" />
-                              <node concept="liA8E" id="2Ko4lD9_izb" role="2OqNvi">
-                                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.getPath()" resolve="getPath" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
+                        <ref role="37wK5l" to="rgfa:~DefaultTreeModel.nodeStructureChanged(javax.swing.tree.TreeNode)" resolve="nodeStructureChanged" />
+                        <node concept="Xjq3P" id="2XsGPcz6qGW" role="37wK5m" />
                       </node>
                       <node concept="1eOMI4" id="2Ko4lD9_izc" role="2Oq$k0">
-                        <node concept="10QFUN" id="2Ko4lD9_izd" role="1eOMHV">
-                          <node concept="3uibUv" id="2Ko4lD9_ize" role="10QFUM">
-                            <ref role="3uigEE" to="ouby:~AsyncTreeModel" resolve="AsyncTreeModel" />
+                        <node concept="2OqwBi" id="2Ko4lD9_izf" role="1eOMHV">
+                          <node concept="1rXfSq" id="2Ko4lD9_izg" role="2Oq$k0">
+                            <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
                           </node>
-                          <node concept="2OqwBi" id="2Ko4lD9_izf" role="10QFUP">
-                            <node concept="1rXfSq" id="2Ko4lD9_izg" role="2Oq$k0">
-                              <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
-                            </node>
-                            <node concept="liA8E" id="2Ko4lD9_izh" role="2OqNvi">
-                              <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
-                            </node>
+                          <node concept="liA8E" id="2Ko4lD9_izh" role="2OqNvi">
+                            <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
                           </node>
                         </node>
                       </node>

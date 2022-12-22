@@ -100,10 +100,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-        <child id="2820489544402271667" name="typeParameter" index="HU9BZ" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -3358,9 +3354,9 @@
         </node>
       </node>
       <node concept="2ShNRf" id="5m02zYhGnry" role="33vP2m">
-        <node concept="HV5vD" id="59804$z1KMK" role="2ShVmc">
-          <ref role="HV5vE" to="bv6w:~THashSet" resolve="THashSet" />
-          <node concept="3uibUv" id="59804$z1KML" role="HU9BZ">
+        <node concept="1pGfFk" id="7hmV_3bm5mI" role="2ShVmc">
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <node concept="3uibUv" id="7hmV_3bm5mJ" role="1pMfVU">
             <ref role="3uigEE" to="lui2:~SRepository" resolve="SRepository" />
           </node>
         </node>
@@ -3375,9 +3371,9 @@
         </node>
       </node>
       <node concept="2ShNRf" id="5m02zYhGsuG" role="33vP2m">
-        <node concept="HV5vD" id="59804$z1KMG" role="2ShVmc">
-          <ref role="HV5vE" to="bv6w:~THashSet" resolve="THashSet" />
-          <node concept="3uibUv" id="59804$z1KMH" role="HU9BZ">
+        <node concept="1pGfFk" id="7hmV_3bm5mE" role="2ShVmc">
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <node concept="3uibUv" id="7hmV_3bm5mF" role="1pMfVU">
             <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
           </node>
         </node>
@@ -3392,9 +3388,9 @@
         </node>
       </node>
       <node concept="2ShNRf" id="5m02zYhGtsL" role="33vP2m">
-        <node concept="HV5vD" id="59804$z1KMO" role="2ShVmc">
-          <ref role="HV5vE" to="bv6w:~THashSet" resolve="THashSet" />
-          <node concept="3uibUv" id="59804$z1KMP" role="HU9BZ">
+        <node concept="1pGfFk" id="7hmV_3bm5mA" role="2ShVmc">
+          <ref role="37wK5l" to="bv6w:~THashSet.&lt;init&gt;()" resolve="THashSet" />
+          <node concept="3uibUv" id="7hmV_3bm5mB" role="1pMfVU">
             <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
           </node>
         </node>
@@ -13871,7 +13867,12 @@
                                   <ref role="37wK5l" to="jks5:~IRole.getName()" resolve="getName" />
                                 </node>
                               </node>
-                              <node concept="10Nm6u" id="QurUgi1vTE" role="37wK5m" />
+                              <node concept="10QFUN" id="7hmV_3bDbMO" role="37wK5m">
+                                <node concept="10Nm6u" id="7hmV_3bDbMN" role="10QFUP" />
+                                <node concept="3uibUv" id="7hmV_3bDbMK" role="10QFUM">
+                                  <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>

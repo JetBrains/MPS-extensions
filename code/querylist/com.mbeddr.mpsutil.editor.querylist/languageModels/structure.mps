@@ -208,6 +208,9 @@
     <node concept="PrWs8" id="Op$R499q4x" role="PzmwI">
       <ref role="PrY4T" node="Op$R499pt$" resolve="IInlineEditorContainer" />
     </node>
+    <node concept="PrWs8" id="57wonSM2T_V" role="PzmwI">
+      <ref role="PrY4T" to="tpc2:itlittTD3X" resolve="LayoutContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5oklODadpyz">
     <property role="TrG5h" value="Function_GetElements" />
@@ -493,6 +496,16 @@
     <property role="34LRSv" value="queryListNode" />
     <property role="EcuMT" value="2239254897981410197" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="57wonSM3yKg">
+    <property role="EcuMT" value="5899822706488912912" />
+    <property role="TrG5h" value="StubCellModel_QueryList" />
+    <ref role="1TJDcQ" to="tpc2:CzpafHMSVi" resolve="StubEditorCellModel" />
+  </node>
+  <node concept="1TIwiD" id="57wonSM3yNJ">
+    <property role="EcuMT" value="5899822706488913135" />
+    <property role="TrG5h" value="StubCellModel_DefaultEditor" />
+    <ref role="1TJDcQ" to="tpc2:CzpafHMSVi" resolve="StubEditorCellModel" />
   </node>
 </model>
 

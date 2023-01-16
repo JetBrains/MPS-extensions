@@ -100,6 +100,11 @@
       <property role="IQ2nx" value="4787596715132191458" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="45g3j8ia4nb" role="1TKVEl">
+      <property role="IQ2nx" value="4706276119306323403" />
+      <property role="TrG5h" value="runAutoLayoutOnInit" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="7vufT$lixNl" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paletteFolder" />

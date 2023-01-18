@@ -272,6 +272,7 @@
       </concept>
       <concept id="6554619382999975769" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_OuterNode" flags="ng" index="23r2z0" />
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
+        <property id="4706276119306323403" name="runAutoLayoutOnInit" index="1ju4zT" />
         <property id="4787596715132191458" name="disableEdgeRouting" index="3ZefsU" />
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
         <child id="6910723851735171798" name="buttonConfig" index="3sAl1G" />
@@ -556,6 +557,7 @@
         <node concept="2iRkQZ" id="7SMOZKNWQkB" role="2iSdaV" />
         <node concept="27vDVx" id="4XPshSti$$2" role="3EZMnx">
           <property role="3ZefsU" value="true" />
+          <property role="1ju4zT" value="true" />
           <node concept="1xLmZY" id="4XPshSti$$4" role="1xLlFP">
             <node concept="3clFbS" id="4XPshSti$$6" role="2VODD2">
               <node concept="3clFbF" id="4XPshStiC4w" role="3cqZAp">
@@ -1228,6 +1230,7 @@
           <property role="3F0ifm" value="diagram2" />
         </node>
         <node concept="27vDVx" id="3fwTI8g3w0i" role="3EZMnx">
+          <property role="1ju4zT" value="true" />
           <node concept="1xLmZY" id="3fwTI8g3w0k" role="1xLlFP">
             <node concept="3clFbS" id="3fwTI8g3w0m" role="2VODD2">
               <node concept="3clFbF" id="3fwTI8g3xB7" role="3cqZAp">

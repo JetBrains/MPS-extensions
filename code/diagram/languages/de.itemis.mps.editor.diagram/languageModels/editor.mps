@@ -695,6 +695,24 @@
             </node>
             <node concept="2iRfu4" id="5wo2$NmYEGK" role="2iSdaV" />
           </node>
+          <node concept="3EZMnI" id="45g3j8ia4Dq" role="3EZMnx">
+            <node concept="VPM3Z" id="45g3j8ia4Dr" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="45g3j8ia4Ds" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="45g3j8ia4Dt" role="3EZMnx">
+              <property role="3F0ifm" value="run autolayout on init" />
+            </node>
+            <node concept="3F0A7n" id="45g3j8ia4Pe" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:45g3j8ia4nb" resolve="runAutoLayoutOnInit" />
+              <node concept="VPXOz" id="45g3j8ibFsZ" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="45g3j8ia4Dw" role="2iSdaV" />
+          </node>
         </node>
         <node concept="2iRfu4" id="5qgNcfDnGw9" role="2iSdaV" />
         <node concept="3F0ifn" id="5qgNcfDnGxf" role="3EZMnx" />

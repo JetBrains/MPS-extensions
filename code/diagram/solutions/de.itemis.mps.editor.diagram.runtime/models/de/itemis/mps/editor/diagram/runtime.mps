@@ -550,56 +550,6 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="3GatLR3ADOW" role="3clF47">
-        <node concept="3clFbJ" id="3GatLR3ClNu" role="3cqZAp">
-          <property role="TyiWK" value="true" />
-          <property role="TyiWL" value="false" />
-          <node concept="3clFbS" id="3GatLR3ClNv" role="3clFbx">
-            <node concept="3cpWs6" id="3GatLR3Cw0N" role="3cqZAp">
-              <node concept="10QFUN" id="3GatLR3DvAb" role="3cqZAk">
-                <node concept="3Tqbb2" id="3GatLR3DEsx" role="10QFUM" />
-                <node concept="2YIFZM" id="3GatLR3Cu$3" role="10QFUP">
-                  <ref role="1Pybhc" to="ycmz:7moa1g0QL5J" resolve="ReflectionUtil" />
-                  <ref role="37wK5l" to="ycmz:7moa1g0RuMd" resolve="readField" />
-                  <node concept="2OqwBi" id="3GatLR3CuDD" role="37wK5m">
-                    <node concept="37vLTw" id="3GatLR3CuBu" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3GatLR3Cbx$" resolve="action" />
-                    </node>
-                    <node concept="liA8E" id="3GatLR3CuK2" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="3GatLR3CuST" role="37wK5m">
-                    <ref role="3cqZAo" node="3GatLR3Cbx$" resolve="action" />
-                  </node>
-                  <node concept="Xl_RD" id="3GatLR3Cv2z" role="37wK5m">
-                    <property role="Xl_RC" value="myReferentNode" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="3GatLR3CnM4" role="3clFbw">
-            <node concept="2OqwBi" id="3GatLR3Cmbw" role="2Oq$k0">
-              <node concept="2OqwBi" id="3GatLR3ClQN" role="2Oq$k0">
-                <node concept="37vLTw" id="3GatLR3ClOf" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3GatLR3Cbx$" resolve="action" />
-                </node>
-                <node concept="liA8E" id="3GatLR3ClY7" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
-                </node>
-              </node>
-              <node concept="liA8E" id="3GatLR3CniK" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
-              </node>
-            </node>
-            <node concept="liA8E" id="3GatLR3CoR9" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-              <node concept="Xl_RD" id="3GatLR3CoV6" role="37wK5m">
-                <property role="Xl_RC" value="jetbrains.mps.smodel.action.ChildSubstituteActionsHelper$SmartRefChildNodeSubstituteAction" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="5Kbv9rUojM$" role="3cqZAp">
           <node concept="3clFbS" id="5Kbv9rUojMA" role="3clFbx">
             <node concept="3cpWs8" id="5Kbv9rUoHlK" role="3cqZAp">

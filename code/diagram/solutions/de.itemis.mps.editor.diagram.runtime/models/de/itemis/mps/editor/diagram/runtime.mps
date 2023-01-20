@@ -1516,63 +1516,6 @@
       </node>
       <node concept="3Tm1VV" id="1sJnak6wM7E" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="1sJnak6wM7F" role="jymVt" />
-    <node concept="2YIFZL" id="1sJnak6wM7G" role="jymVt">
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <property role="TrG5h" value="getBoundsReflective" />
-      <node concept="37vLTG" id="1sJnak6wM7H" role="3clF46">
-        <property role="TrG5h" value="cell" />
-        <node concept="3uibUv" id="1sJnak6wM7I" role="1tU5fm">
-          <ref role="3uigEE" to="g51k:~EditorCell_Basic" resolve="EditorCell_Basic" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="1sJnak6wM7J" role="3clF47">
-        <node concept="3clFbF" id="1sJnak6wM7K" role="3cqZAp">
-          <node concept="2ShNRf" id="1sJnak6wM7L" role="3clFbG">
-            <node concept="1pGfFk" id="1sJnak6wM7M" role="2ShVmc">
-              <ref role="37wK5l" to="z60i:~Rectangle.&lt;init&gt;(int,int,int,int)" resolve="Rectangle" />
-              <node concept="2OqwBi" id="1sJnak6wM7N" role="37wK5m">
-                <node concept="37vLTw" id="1sJnak6wM7O" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1sJnak6wM7H" resolve="cell" />
-                </node>
-                <node concept="1PnCL0" id="1sJnak6wM7P" role="2OqNvi">
-                  <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myX" resolve="myX" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1sJnak6wM7Q" role="37wK5m">
-                <node concept="37vLTw" id="1sJnak6wM7R" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1sJnak6wM7H" resolve="cell" />
-                </node>
-                <node concept="1PnCL0" id="1sJnak6wM7S" role="2OqNvi">
-                  <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myY" resolve="myY" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1sJnak6wM7T" role="37wK5m">
-                <node concept="37vLTw" id="1sJnak6wM7U" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1sJnak6wM7H" resolve="cell" />
-                </node>
-                <node concept="1PnCL0" id="1sJnak6wM7V" role="2OqNvi">
-                  <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1sJnak6wM7W" role="37wK5m">
-                <node concept="37vLTw" id="1sJnak6wM7X" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1sJnak6wM7H" resolve="cell" />
-                </node>
-                <node concept="1PnCL0" id="1sJnak6wM7Y" role="2OqNvi">
-                  <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3uibUv" id="1sJnak6wM7Z" role="3clF45">
-        <ref role="3uigEE" to="z60i:~Rectangle" resolve="Rectangle" />
-      </node>
-      <node concept="3Tm1VV" id="1sJnak6wM80" role="1B3o_S" />
-    </node>
     <node concept="2tJIrI" id="1sJnak6wM81" role="jymVt" />
     <node concept="2YIFZL" id="1sJnak6wM82" role="jymVt">
       <property role="TrG5h" value="setBounds" />

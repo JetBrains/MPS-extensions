@@ -1626,62 +1626,54 @@
           </node>
           <node concept="9aQIb" id="6t2q46_Bm8q" role="9aQIa">
             <node concept="3clFbS" id="6t2q46_Bm8r" role="9aQI4">
-              <node concept="3clFbF" id="6t2q46_AjSh" role="3cqZAp">
-                <node concept="37vLTI" id="6t2q46_AjSi" role="3clFbG">
-                  <node concept="2OqwBi" id="6t2q46_AjSj" role="37vLTJ">
-                    <node concept="37vLTw" id="6t2q46_AjSk" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6t2q46_AjSN" resolve="cell" />
-                    </node>
-                    <node concept="1PnCL0" id="6t2q46_AjSl" role="2OqNvi">
-                      <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myX" resolve="myX" />
-                    </node>
+              <node concept="3clFbF" id="6csftYvba9r" role="3cqZAp">
+                <node concept="2OqwBi" id="6csftYvbaUC" role="3clFbG">
+                  <node concept="37vLTw" id="6csftYvba9p" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6t2q46_AjSN" resolve="cell" />
                   </node>
-                  <node concept="37vLTw" id="6t2q46_Avi8" role="37vLTx">
-                    <ref role="3cqZAo" node="6t2q46_AkKr" resolve="x" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="6t2q46_AjSp" role="3cqZAp">
-                <node concept="37vLTI" id="6t2q46_AjSq" role="3clFbG">
-                  <node concept="37vLTw" id="6t2q46_AvyA" role="37vLTx">
-                    <ref role="3cqZAo" node="6t2q46_AusO" resolve="y" />
-                  </node>
-                  <node concept="2OqwBi" id="6t2q46_AjSu" role="37vLTJ">
-                    <node concept="37vLTw" id="6t2q46_AjSv" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6t2q46_AjSN" resolve="cell" />
-                    </node>
-                    <node concept="1PnCL0" id="6t2q46_AjSw" role="2OqNvi">
-                      <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myY" resolve="myY" />
+                  <node concept="liA8E" id="6csftYvbbXr" role="2OqNvi">
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.setX(int)" resolve="setX" />
+                    <node concept="37vLTw" id="6csftYvbcxR" role="37wK5m">
+                      <ref role="3cqZAo" node="6t2q46_AkKr" resolve="x" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="6t2q46_AjSx" role="3cqZAp">
-                <node concept="37vLTI" id="6t2q46_AjSy" role="3clFbG">
-                  <node concept="37vLTw" id="6t2q46_Awtv" role="37vLTx">
-                    <ref role="3cqZAo" node="6t2q46_Autp" resolve="width" />
+              <node concept="3clFbF" id="6csftYvbdf5" role="3cqZAp">
+                <node concept="2OqwBi" id="6csftYvbdN0" role="3clFbG">
+                  <node concept="37vLTw" id="6csftYvbdf3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6t2q46_AjSN" resolve="cell" />
                   </node>
-                  <node concept="2OqwBi" id="6t2q46_AjSA" role="37vLTJ">
-                    <node concept="37vLTw" id="6t2q46_AjSB" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6t2q46_AjSN" resolve="cell" />
-                    </node>
-                    <node concept="1PnCL0" id="6t2q46_AjSC" role="2OqNvi">
-                      <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
+                  <node concept="liA8E" id="6csftYvbepU" role="2OqNvi">
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.setY(int)" resolve="setY" />
+                    <node concept="37vLTw" id="6csftYvbeTd" role="37wK5m">
+                      <ref role="3cqZAo" node="6t2q46_AusO" resolve="y" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="6t2q46_AjSD" role="3cqZAp">
-                <node concept="37vLTI" id="6t2q46_AjSE" role="3clFbG">
-                  <node concept="37vLTw" id="6t2q46_AwNn" role="37vLTx">
-                    <ref role="3cqZAo" node="6t2q46_Auu2" resolve="height" />
+              <node concept="3clFbF" id="6csftYvbfqO" role="3cqZAp">
+                <node concept="2OqwBi" id="6csftYvbfX_" role="3clFbG">
+                  <node concept="37vLTw" id="6csftYvbfqM" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6t2q46_AjSN" resolve="cell" />
                   </node>
-                  <node concept="2OqwBi" id="6t2q46_AjSI" role="37vLTJ">
-                    <node concept="37vLTw" id="6t2q46_AjSJ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6t2q46_AjSN" resolve="cell" />
+                  <node concept="liA8E" id="6csftYvbgHA" role="2OqNvi">
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.setWidth(int)" resolve="setWidth" />
+                    <node concept="37vLTw" id="6csftYvblBL" role="37wK5m">
+                      <ref role="3cqZAo" node="6t2q46_Autp" resolve="width" />
                     </node>
-                    <node concept="1PnCL0" id="6t2q46_AjSK" role="2OqNvi">
-                      <ref role="2Oxat5" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="6csftYvbin5" role="3cqZAp">
+                <node concept="2OqwBi" id="6csftYvbjnZ" role="3clFbG">
+                  <node concept="37vLTw" id="6csftYvbin3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6t2q46_AjSN" resolve="cell" />
+                  </node>
+                  <node concept="liA8E" id="6csftYvbk7P" role="2OqNvi">
+                    <ref role="37wK5l" to="g51k:~EditorCell_Basic.setHeight(int)" resolve="setHeight" />
+                    <node concept="37vLTw" id="6csftYvbmPC" role="37wK5m">
+                      <ref role="3cqZAo" node="6t2q46_Auu2" resolve="height" />
                     </node>
                   </node>
                 </node>

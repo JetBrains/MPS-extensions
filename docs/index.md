@@ -29,6 +29,8 @@ The mbeddr project in the past developed a set of extensions that where used to 
 
 ## Getting Started
 
+!!! info "The releases tab is currently not supported anymore. Please use one of the other methods."
+
 To get started grab a release from our release page on [GitHub](https://github.com/JetBrains/MPS-extensions/releases). Extract the archive and point a project or global library in MPS to the location where you extracted it.
 
 See the documentation regarding the individual extensions above. Documentation related contributions are welcome!

@@ -1,4 +1,4 @@
-mkdocs-material==9.0.6
+mkdocs-material==8.2.12
 mkdocs-git-revision-date-plugin==0.3.2
 mkdocs-autolinks-plugin==0.5.0
 autolink-references-mkdocs-plugin==0.2.1

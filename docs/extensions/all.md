@@ -2,7 +2,7 @@
 
 This is a full list of all the extensions that are contained in MPS-extensions.
 
-## Base Language Extensions
+**Base Language Extensions**
 
 | Name                              | Description                                                                   |
 |-----------------------------------|-------------------------------------------------------------------------------|
@@ -10,7 +10,7 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 | com.mbeddr.mpsutil.blutil         | utilities for baselanguage                                                    |
 | com.mbeddr.mpsutil.blutil.genutil | baselanguage generator utilities                                              |
 
-## Editor
+**Editor**
 
 | Name                                | Description                                                                                                                                                                                                                                                                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -30,35 +30,35 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 | de.slisson.mps.richtext             | an editor component for mixing plain text and MPS nodes                                                                                                                                                                                                                                                                                       |
 | de.slisson.mps.tables               | tabular notation for MPS editors                                                                                                                                                                                                                                                                                                              |
 
-## Generator
+**Generator**
 
 | Name                         | Description                                                                                                                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | com.dslfoundry.plaintextflow | improved version of plaintextgen                                                                                                                                                                                                     |
 | com.dslfoundry.plaintextgen  | this plugin is an alternative text generator for MPS, using the standard model to model generation mechanisms (node macros, loop macros, property macros, etc.) to generate plain text, as opposed to MPS's programmatical textgens. |
 
-## Other
+**Other**
 
 | Name                    | Description                                                                                            |
 |-------------------------|--------------------------------------------------------------------------------------------------------|
 | de.q60.mps.shadowmodels | a shadow model is a non-editable model derived from existing models by model-to-model transformations. |
 | org.modelix.model       | alternative model API with better support for persistent data structures                               |
 
-## Stubs
+**Stubs**
 
 | Name                  | Description                                               |
 |-----------------------|-----------------------------------------------------------|
 | com.fasterxml.jackson | jars and stubs for using Jackson json serialization       |
 | org.apache.commons    | jars and their stubs to use Apache Commons Library in MPS |
 
-## Tools, Views and other Plugins
+**Tools, Views and other Plugins**
 
 | Name                           | Description                                                                                                                            |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | com.mbeddr.mpsutil.projectview | abstraction on top of MPS lower-level API to create custom views in the view tool window (like logical view, file view, etc.)          |
 | de.itemis.mps.selection        | with this plugin you can select nodes in MPS using the mouse. It also allows invoking intentions over a selection of nodes in an nlist |
 
-## Utilities
+**Utilities**
 
 | Name                              | Description                                                                                                                                                                                                           |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

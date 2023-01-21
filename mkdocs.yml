@@ -2,16 +2,98 @@ site_name: MPS Extensions
 theme:
   name: 'material'
   palette:
-    - primary: light green
+    - primary: blue grey
     - accent: indigo
+  
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - header.autohide
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - announce.dismiss
+    - content.code.copy
+    - toc.integrate
 
-# Project information
-site_description: Extensions and utilities for MPS
+site_description: MPS-extensions
 site_url: https://jetbrains.github.io/MPS-extensions/
 
-# Repository
-
 repo_url: https://github.com/jetbrains/mps-extensions
+repo_name: mps-extensions
+
+plugins:
+  - search
+  - git-revision-date
+  - autolinks
+  - autolink_references:
+      autolinks:
+        - reference_prefix: MPS-
+          target_url: https://youtrack.jetbrains.com/issue/MPS-<num>
+        - reference_prefix: IDEABKL-
+          target_url: https://youtrack.jetbrains.com/issue/IDEABKL-<num>
+        - reference_prefix: JBR-
+          target_url: https://youtrack.jetbrains.com/issue/JBR-<num>
+        - reference_prefix: IDEA-
+          target_url: https://youtrack.jetbrains.com/issue/IDEA-<num>
+        - reference_prefix: IJSDK-
+          target_url: https://youtrack.jetbrains.com/issue/IJSDK-<num>
+        - reference_prefix: MPS_EXTENSIONS-
+          target_url: https://github.com/JetBrains/MPS-extensions/issues/<num>
+
+markdown_extensions:
+  - abbr
+  - smarty
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - attr_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - md_in_html
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      social_url_shorthand: true
+  - pymdownx.arithmatex:
+      generic: true
 
 nav:
 - Home: index.md

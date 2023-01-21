@@ -1,5 +1,9 @@
 site_name: MPS Extensions
-theme: 'cinder'
+theme:
+  name: 'material'
+  palette:
+    - primary: light green
+    - accent: indigo
 
 # Project information
 site_description: Extensions and utilities for MPS

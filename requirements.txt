@@ -1,2 +1,1 @@
-mkdocs==1.0.4
-mkdocs-cinder==0.16.0
+mkdocs-material==9.0.6

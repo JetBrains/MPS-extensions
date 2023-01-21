@@ -1,38 +1,126 @@
 site_name: MPS Extensions
-theme: 'cinder'
+theme:
+  name: 'material'
+  palette:
+    - primary: blue grey
+    - accent: indigo
+  logo: assets/logo.png
+  favicon: assets/favicon.png  
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - header.autohide
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - announce.dismiss
+    - content.code.copy
+    - toc.integrate
 
-# Project information
-site_description: Extensions and utilities for MPS
+site_description: MPS-extensions
 site_url: https://jetbrains.github.io/MPS-extensions/
 
-# Repository
-
 repo_url: https://github.com/jetbrains/mps-extensions
+repo_name: mps-extensions
+
+plugins:
+  - search
+  - git-revision-date
+  - autolinks
+  - autolink_references:
+      autolinks:
+        - reference_prefix: MPS-
+          target_url: https://youtrack.jetbrains.com/issue/MPS-<num>
+        - reference_prefix: IDEABKL-
+          target_url: https://youtrack.jetbrains.com/issue/IDEABKL-<num>
+        - reference_prefix: JBR-
+          target_url: https://youtrack.jetbrains.com/issue/JBR-<num>
+        - reference_prefix: IDEA-
+          target_url: https://youtrack.jetbrains.com/issue/IDEA-<num>
+        - reference_prefix: IJSDK-
+          target_url: https://youtrack.jetbrains.com/issue/IJSDK-<num>
+        - reference_prefix: MPS_EXT-
+          target_url: https://github.com/JetBrains/MPS-extensions/issues/<num>
+
+markdown_extensions:
+  - abbr
+  - smarty
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - attr_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - md_in_html
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      social_url_shorthand: true
+  - pymdownx.arithmatex:
+      generic: true
 
 nav:
 - Home: index.md
 - Building: building.md
 - Contributing: contributing.md
-- Migrating: Migrating.md
+- Migrating: migrating.md
 - Adding: adding.md
-- Extensions:
-  - Full Extension List: extensions/all.md
+- Full Extension List: extensions/full_extensions_list.md
+- Editor extensions:
+    - Cell Layout: extensions/editor/celllayout.md
+    - Conditional Editor: extensions/editor/conditional-editor.md
+    - Diagrams: extensions/editor/diagrams.md
+    - Grammar Cells: extensions/editor/grammar-cells.md
+    - Math: extensions/editor/math.md
+    - Intentions for custom selections: extensions/editor/mouse-selection.md
+    - Multiline: extensions/editor/multiline.md
+    - Query List: extensions/editor/querylist.md
+    - Richtext: extensions/editor/richtext.md
+    - Tables: extensions/editor/tables.md
+    - Tree Notation: extensions/editor/tree-notation.md
+    - Widgets: extensions/editor/widgets.md
+- Other extensions:
   - Base Language Extensions:
       - Structure Check: extensions/bl-extensions/structure-check.md
       - Base Language Util (blutil): extensions/bl-extensions/blutil.md
-  - Editor:
-      - Cell Layout: extensions/editor/celllayout.md
-      - Conditional Editor: extensions/editor/conditional-editor.md
-      - Diagrams: extensions/editor/diagrams.md
-      - Grammar Cells: extensions/editor/grammar-cells.md
-      - Math: extensions/editor/math.md
-      - Intentions for custom selections: extensions/editor/mouse-selection.md
-      - Multiline: extensions/editor/multiline.md
-      - Query List: extensions/editor/querylist.md
-      - Richtext: extensions/editor/richtext.md
-      - Tables: extensions/editor/tables.md
-      - Tree Notation: extensions/editor/tree-notation.md
-      - Widgets: extensions/editor/widgets.md
+
   - Generator:
       - Plaintext Generator: extensions/generator/plaintext-gen.md
   - Other:
@@ -47,4 +135,7 @@ nav:
       - Model Merger: extensions/utils/model-merger.md
       - Node Versioning: extensions/utils/node-versioning.md
       - Serializer: extensions/utils/serializer.md
+
+extra_css:
+  - stylesheets/extra.css
   

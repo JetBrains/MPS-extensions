@@ -27,3 +27,7 @@ a:not([class^="md-"])[href^="https://"]::after
     line-height: 1.2;
     margin-top: 0.15em;
 }
+
+em {
+    color: #237e90;
+}

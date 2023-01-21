@@ -31,7 +31,6 @@ repo_name: mps-extensions
 
 plugins:
   - search
-  - git-revision-date
   - autolinks
   - autolink_references:
       autolinks:

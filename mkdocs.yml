@@ -134,4 +134,7 @@ nav:
       - Model Merger: extensions/utils/model-merger.md
       - Node Versioning: extensions/utils/node-versioning.md
       - Serializer: extensions/utils/serializer.md
+
+extra_css:
+  - stylesheets/extra.css
   

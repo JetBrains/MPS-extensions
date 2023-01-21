@@ -18,7 +18,6 @@ visit The [Oracle 2D Graphics](https://docs.oracle.com/javase/tutorial/2d/TOC.ht
 can be used to set the size of the symbol. The symbols can be painted by calling the `paint` method.
 
 Example:
-^
 ```
 symbol ArrowLeft { 
   paint: (g, bounds)->void { 

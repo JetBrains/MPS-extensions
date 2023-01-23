@@ -2578,6 +2578,100 @@
                 </node>
               </node>
             </node>
+            <node concept="3SKdUt" id="3pZvzolt2Zu" role="3cqZAp">
+              <node concept="1PaTwC" id="3pZvzolt2Zv" role="1aUNEU">
+                <node concept="3oM_SD" id="3pZvzolt7BI" role="1PaTwD">
+                  <property role="3oM_SC" value="cut" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7BK" role="1PaTwD">
+                  <property role="3oM_SC" value="off" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7BN" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7BR" role="1PaTwD">
+                  <property role="3oM_SC" value="groupName" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7BW" role="1PaTwD">
+                  <property role="3oM_SC" value="from" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7C2" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7C9" role="1PaTwD">
+                  <property role="3oM_SC" value="action," />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7Ch" role="1PaTwD">
+                  <property role="3oM_SC" value="if" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7Cq" role="1PaTwD">
+                  <property role="3oM_SC" value="action" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7C$" role="1PaTwD">
+                  <property role="3oM_SC" value="is" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7CJ" role="1PaTwD">
+                  <property role="3oM_SC" value="not" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7CV" role="1PaTwD">
+                  <property role="3oM_SC" value="a" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7D8" role="1PaTwD">
+                  <property role="3oM_SC" value="group," />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7Dm" role="1PaTwD">
+                  <property role="3oM_SC" value="i.e." />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7D_" role="1PaTwD">
+                  <property role="3oM_SC" value="has" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7DP" role="1PaTwD">
+                  <property role="3oM_SC" value="no" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt7E6" role="1PaTwD">
+                  <property role="3oM_SC" value="submenu," />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt8Rv" role="1PaTwD">
+                  <property role="3oM_SC" value="" />
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="3pZvzoltfB5" role="3cqZAp">
+              <node concept="1PaTwC" id="3pZvzoltfAI" role="1aUNEU">
+                <node concept="3oM_SD" id="3pZvzoltfAH" role="1PaTwD">
+                  <property role="3oM_SC" value="and" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt8RM" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt8S6" role="1PaTwD">
+                  <property role="3oM_SC" value="intention" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzolt8Sr" role="1PaTwD">
+                  <property role="3oM_SC" value="annotation" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzoltipc" role="1PaTwD">
+                  <property role="3oM_SC" value="was" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzoltipq" role="1PaTwD">
+                  <property role="3oM_SC" value="not" />
+                </node>
+                <node concept="3oM_SD" id="3pZvzoltipx" role="1PaTwD">
+                  <property role="3oM_SC" value="used." />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3pZvzols0Bn" role="3cqZAp">
+              <node concept="1rXfSq" id="3pZvzols0Bl" role="3clFbG">
+                <ref role="37wK5l" node="3pZvzolpwf_" resolve="trimGroupNameFromActionText" />
+                <node concept="37vLTw" id="3pZvzols489" role="37wK5m">
+                  <ref role="3cqZAo" node="3pwG8PSq661" resolve="intentionEntry" />
+                </node>
+                <node concept="37vLTw" id="3pZvzolsaBu" role="37wK5m">
+                  <ref role="3cqZAo" node="3pwG8PSq6Q3" resolve="groupName" />
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="6d0zIQxdhDi" role="3cqZAp">
               <node concept="3cpWsn" id="6d0zIQxdhDj" role="3cpWs9">
                 <property role="TrG5h" value="c" />
@@ -3032,6 +3126,167 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2xgTENkRhXD" role="jymVt" />
+    <node concept="3clFb_" id="3pZvzolpwf_" role="jymVt">
+      <property role="TrG5h" value="trimGroupNameFromActionText" />
+      <node concept="3clFbS" id="3pZvzolpwfC" role="3clF47">
+        <node concept="3clFbJ" id="3pZvzolpEqJ" role="3cqZAp">
+          <node concept="3fqX7Q" id="3pZvzolpP1r" role="3clFbw">
+            <node concept="2ZW3vV" id="3pZvzolpP1t" role="3fr31v">
+              <node concept="3uibUv" id="3pZvzolpP1u" role="2ZW6by">
+                <ref role="3uigEE" node="2xgTENkSGPx" resolve="IntentionsMenuWithGroups.IntentionActionGroup" />
+              </node>
+              <node concept="37vLTw" id="3pZvzolpP1v" role="2ZW6bz">
+                <ref role="3cqZAo" node="3pZvzolpzLz" resolve="action" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="3pZvzolpEqL" role="3clFbx">
+            <node concept="3cpWs8" id="3pZvzolqck1" role="3cqZAp">
+              <node concept="3cpWsn" id="3pZvzolqck2" role="3cpWs9">
+                <property role="TrG5h" value="text" />
+                <node concept="17QB3L" id="3pZvzolqck3" role="1tU5fm" />
+                <node concept="2OqwBi" id="3pZvzolqck4" role="33vP2m">
+                  <node concept="2OqwBi" id="3pZvzolqck5" role="2Oq$k0">
+                    <node concept="37vLTw" id="3pZvzolqck6" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3pZvzolpzLz" resolve="action" />
+                    </node>
+                    <node concept="liA8E" id="3pZvzolqck7" role="2OqNvi">
+                      <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3pZvzolqck8" role="2OqNvi">
+                    <ref role="37wK5l" to="qkt:~Presentation.getText()" resolve="getText" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3pZvzolq8Yp" role="3cqZAp">
+              <node concept="3clFbS" id="3pZvzolq8Yr" role="3clFbx">
+                <node concept="3SKdUt" id="3pZvzolsS9j" role="3cqZAp">
+                  <node concept="1PaTwC" id="3pZvzolsS9k" role="1aUNEU">
+                    <node concept="3oM_SD" id="3pZvzolsV8k" role="1PaTwD">
+                      <property role="3oM_SC" value="add" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV8m" role="1PaTwD">
+                      <property role="3oM_SC" value="+1" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV8p" role="1PaTwD">
+                      <property role="3oM_SC" value="in" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV8C" role="1PaTwD">
+                      <property role="3oM_SC" value="substring" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV8H" role="1PaTwD">
+                      <property role="3oM_SC" value="to" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV8N" role="1PaTwD">
+                      <property role="3oM_SC" value="cut" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV8U" role="1PaTwD">
+                      <property role="3oM_SC" value="off" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV92" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV9b" role="1PaTwD">
+                      <property role="3oM_SC" value="colon" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV9l" role="1PaTwD">
+                      <property role="3oM_SC" value="after" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV9w" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="3pZvzolsV9G" role="1PaTwD">
+                      <property role="3oM_SC" value="groupName" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3pZvzolm1oQ" role="3cqZAp">
+                  <node concept="2OqwBi" id="3pZvzolmb07" role="3clFbG">
+                    <node concept="2OqwBi" id="3pZvzolm59K" role="2Oq$k0">
+                      <node concept="37vLTw" id="3pZvzolm1oO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3pZvzolpzLz" resolve="action" />
+                      </node>
+                      <node concept="liA8E" id="3pZvzolm8FW" role="2OqNvi">
+                        <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3pZvzolmeOD" role="2OqNvi">
+                      <ref role="37wK5l" to="qkt:~Presentation.setText(java.lang.String)" resolve="setText" />
+                      <node concept="2OqwBi" id="3pZvzolmzk3" role="37wK5m">
+                        <node concept="2OqwBi" id="3pZvzolmjWV" role="2Oq$k0">
+                          <node concept="37vLTw" id="3pZvzolmhSV" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3pZvzolqck2" resolve="text" />
+                          </node>
+                          <node concept="liA8E" id="3pZvzolmnyg" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
+                            <node concept="3cpWs3" id="3pZvzolsEDU" role="37wK5m">
+                              <node concept="3cmrfG" id="3pZvzolsEJo" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                              <node concept="2OqwBi" id="3pZvzolreqn" role="3uHU7B">
+                                <node concept="37vLTw" id="3pZvzolraE$" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3pZvzolpBeb" resolve="groupName" />
+                                </node>
+                                <node concept="liA8E" id="3pZvzolrhFo" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="17S1cR" id="3pZvzolmHIg" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="3pZvzolqK4g" role="3clFbw">
+                <node concept="2OqwBi" id="3pZvzolqQ0G" role="3uHU7w">
+                  <node concept="37vLTw" id="3pZvzolqMhi" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3pZvzolqck2" resolve="text" />
+                  </node>
+                  <node concept="liA8E" id="3pZvzolqSjV" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
+                    <node concept="37vLTw" id="3pZvzolqVNv" role="37wK5m">
+                      <ref role="3cqZAo" node="3pZvzolpBeb" resolve="groupName" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="1Wc70l" id="3pZvzolqyGY" role="3uHU7B">
+                  <node concept="3y3z36" id="3pZvzolqs4n" role="3uHU7B">
+                    <node concept="37vLTw" id="3pZvzolqidM" role="3uHU7B">
+                      <ref role="3cqZAo" node="3pZvzolqck2" resolve="text" />
+                    </node>
+                    <node concept="10Nm6u" id="3pZvzolqvEd" role="3uHU7w" />
+                  </node>
+                  <node concept="3y3z36" id="3pZvzolqD4$" role="3uHU7w">
+                    <node concept="37vLTw" id="3pZvzolq_lp" role="3uHU7B">
+                      <ref role="3cqZAo" node="3pZvzolpBeb" resolve="groupName" />
+                    </node>
+                    <node concept="10Nm6u" id="3pZvzolqGEH" role="3uHU7w" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="3pZvzolps_O" role="1B3o_S" />
+      <node concept="37vLTG" id="3pZvzolpzLz" role="3clF46">
+        <property role="TrG5h" value="action" />
+        <node concept="3uibUv" id="3pZvzolpzLy" role="1tU5fm">
+          <ref role="3uigEE" to="qkt:~AnAction" resolve="AnAction" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3pZvzolpBeb" role="3clF46">
+        <property role="TrG5h" value="groupName" />
+        <node concept="17QB3L" id="3pZvzolpE5e" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="3pZvzolpUMR" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="3pZvzolpp4b" role="jymVt" />
     <node concept="3clFb_" id="2xgTENkWOsD" role="jymVt">
       <property role="TrG5h" value="createIntentionActionGroup" />
       <property role="1EzhhJ" value="false" />

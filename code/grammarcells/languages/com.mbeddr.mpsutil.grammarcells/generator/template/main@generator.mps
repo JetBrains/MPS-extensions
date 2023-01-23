@@ -1552,6 +1552,20 @@
                         </node>
                         <node concept="1DcWWT" id="qT5MFmsSR$" role="3cqZAp">
                           <node concept="3clFbS" id="qT5MFmsSRA" role="2LFqv$">
+                            <node concept="3cpWs8" id="6gjbwabe73F" role="3cqZAp">
+                              <node concept="3cpWsn" id="6gjbwabe73G" role="3cpWs9">
+                                <property role="TrG5h" value="editorContext" />
+                                <node concept="3uibUv" id="6gjbwabe73H" role="1tU5fm">
+                                  <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                                </node>
+                                <node concept="2OqwBi" id="6gjbwabe73I" role="33vP2m">
+                                  <node concept="2kYc5w" id="6gjbwabe73J" role="2Oq$k0" />
+                                  <node concept="liA8E" id="6gjbwabe73K" role="2OqNvi">
+                                    <ref role="37wK5l" to="78sh:~SubstituteMenuContext.getEditorContext()" resolve="getEditorContext" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                             <node concept="3cpWs8" id="qT5MFmt1j6" role="3cqZAp">
                               <node concept="3cpWsn" id="qT5MFmt1j9" role="3cpWs9">
                                 <property role="TrG5h" value="applicable" />
@@ -1745,7 +1759,6 @@
                                                     </node>
                                                   </node>
                                                 </node>
-                                                <node concept="3clFbH" id="1ZlHRbfTfDW" role="3cqZAp" />
                                                 <node concept="3cpWs6" id="4owkxKWaPbm" role="3cqZAp">
                                                   <node concept="37vLTw" id="4owkxKWaPbn" role="3cqZAk">
                                                     <ref role="3cqZAo" node="1ZlHRbfJYc5" resolve="originalText" />
@@ -2289,6 +2302,32 @@
                                             </node>
                                           </node>
                                         </node>
+                                        <node concept="3cpWs8" id="6gjbwabktJ9" role="3cqZAp">
+                                          <node concept="3cpWsn" id="6gjbwabktJc" role="3cpWs9">
+                                            <property role="TrG5h" value="subconcept" />
+                                            <node concept="3bZ5Sz" id="6gjbwabktJ7" role="1tU5fm" />
+                                            <node concept="2OqwBi" id="6gjbwabnJWn" role="33vP2m">
+                                              <node concept="37vLTw" id="6gjbwabnITE" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="Dnjeumzcbu" resolve="node" />
+                                              </node>
+                                              <node concept="2yIwOk" id="6gjbwabnKYu" role="2OqNvi" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3cpWs8" id="6gjbwabe15C" role="3cqZAp">
+                                          <node concept="3cpWsn" id="6gjbwabe15D" role="3cpWs9">
+                                            <property role="TrG5h" value="editorContext" />
+                                            <node concept="3uibUv" id="6gjbwabe15E" role="1tU5fm">
+                                              <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                                            </node>
+                                            <node concept="2OqwBi" id="6gjbwabe15F" role="33vP2m">
+                                              <node concept="2Mo9yH" id="6gjbwabe15G" role="2Oq$k0" />
+                                              <node concept="liA8E" id="6gjbwabe15H" role="2OqNvi">
+                                                <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
                                         <node concept="3cpWs8" id="Dnjeumzcbz" role="3cqZAp">
                                           <node concept="3cpWsn" id="Dnjeumzcb$" role="3cpWs9">
                                             <property role="TrG5h" value="access" />
@@ -2468,9 +2507,9 @@
                                       <property role="2bfB8j" value="true" />
                                       <ref role="1Y3XeK" to="gdpt:1YKLYyyGBzT" resolve="GrammarCellsSideTransformTransformationMenuItem" />
                                       <ref role="37wK5l" to="gdpt:My09KinEek" resolve="GrammarCellsSideTransformTransformationMenuItem" />
+                                      <node concept="2tJIrI" id="J6gp_6LQnM" role="jymVt" />
                                       <node concept="2Mo9yH" id="DnjeumzccK" role="37wK5m" />
                                       <node concept="3Tm1VV" id="DnjeumzccL" role="1B3o_S" />
-                                      <node concept="2tJIrI" id="J6gp_6LQnM" role="jymVt" />
                                       <node concept="3clFb_" id="J6gp_6LHF8" role="jymVt">
                                         <property role="1EzhhJ" value="false" />
                                         <property role="TrG5h" value="getShortDescriptionText" />
@@ -2996,6 +3035,20 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3cpWs8" id="6gjbwaaS$le" role="3cqZAp">
+                        <node concept="3cpWsn" id="6gjbwaaS$lf" role="3cpWs9">
+                          <property role="TrG5h" value="editorContext" />
+                          <node concept="3uibUv" id="6gjbwaaSzXy" role="1tU5fm">
+                            <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                          </node>
+                          <node concept="2OqwBi" id="6gjbwaaS$lg" role="33vP2m">
+                            <node concept="2Mo9yH" id="6gjbwaaS$lh" role="2Oq$k0" />
+                            <node concept="liA8E" id="6gjbwaaS$li" role="2OqNvi">
+                              <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3cpWs8" id="5fS8LroEq_2" role="3cqZAp">
                         <node concept="3cpWsn" id="5fS8LroEq_3" role="3cpWs9">
                           <property role="TrG5h" value="matchingTexts" />
@@ -3089,6 +3142,20 @@
                                                 <node concept="2Mo9yH" id="5fS8LroESu5" role="2Oq$k0" />
                                                 <node concept="liA8E" id="5fS8LroEMHm" role="2OqNvi">
                                                   <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode()" resolve="getNode" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="3cpWs8" id="6gjbwaaIhPI" role="3cqZAp">
+                                            <node concept="3cpWsn" id="6gjbwaaIhPJ" role="3cpWs9">
+                                              <property role="TrG5h" value="editorContext" />
+                                              <node concept="3uibUv" id="6gjbwaaIh3e" role="1tU5fm">
+                                                <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                                              </node>
+                                              <node concept="2OqwBi" id="6gjbwaaIhPK" role="33vP2m">
+                                                <node concept="2Mo9yH" id="6gjbwaaIhPL" role="2Oq$k0" />
+                                                <node concept="liA8E" id="6gjbwaaIhPM" role="2OqNvi">
+                                                  <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
                                                 </node>
                                               </node>
                                             </node>
@@ -3292,11 +3359,6 @@
                                           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                                         </node>
                                       </node>
-                                      <node concept="3Tm1VV" id="5fS8LroEqAM" role="1B3o_S" />
-                                      <node concept="37vLTw" id="5fS8LroEqAN" role="37wK5m">
-                                        <ref role="3cqZAo" node="5fS8LroEq_3" resolve="matchingTexts" />
-                                      </node>
-                                      <node concept="2Mo9yH" id="5fS8LroELOc" role="37wK5m" />
                                       <node concept="2tJIrI" id="4xgCL2SNMHz" role="jymVt" />
                                       <node concept="3clFb_" id="4xgCL2SOjWu" role="jymVt">
                                         <property role="1EzhhJ" value="false" />
@@ -3406,6 +3468,11 @@
                                         </node>
                                       </node>
                                       <node concept="2tJIrI" id="4xgCL2SOi7W" role="jymVt" />
+                                      <node concept="3Tm1VV" id="5fS8LroEqAM" role="1B3o_S" />
+                                      <node concept="37vLTw" id="5fS8LroEqAN" role="37wK5m">
+                                        <ref role="3cqZAo" node="5fS8LroEq_3" resolve="matchingTexts" />
+                                      </node>
+                                      <node concept="2Mo9yH" id="5fS8LroELOc" role="37wK5m" />
                                     </node>
                                   </node>
                                 </node>
@@ -5516,6 +5583,20 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3cpWs8" id="6gjbwaaXK63" role="3cqZAp">
+                      <node concept="3cpWsn" id="6gjbwaaXK64" role="3cpWs9">
+                        <property role="TrG5h" value="editorContext" />
+                        <node concept="3uibUv" id="6gjbwaaXJ3n" role="1tU5fm">
+                          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                        </node>
+                        <node concept="2OqwBi" id="6gjbwaaXK65" role="33vP2m">
+                          <node concept="2Mo9yH" id="6gjbwaaXK66" role="2Oq$k0" />
+                          <node concept="liA8E" id="6gjbwaaXK67" role="2OqNvi">
+                            <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3cpWs8" id="15DZatORrFQ" role="3cqZAp">
                       <node concept="3cpWsn" id="15DZatORrFR" role="3cpWs9">
                         <property role="TrG5h" value="matchingTexts" />
@@ -5822,6 +5903,20 @@
                                             </node>
                                           </node>
                                         </node>
+                                        <node concept="3cpWs8" id="6gjbwaaIuGL" role="3cqZAp">
+                                          <node concept="3cpWsn" id="6gjbwaaIuGM" role="3cpWs9">
+                                            <property role="TrG5h" value="editorContext" />
+                                            <node concept="3uibUv" id="6gjbwaaIuG9" role="1tU5fm">
+                                              <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                                            </node>
+                                            <node concept="2OqwBi" id="6gjbwaaIuGN" role="33vP2m">
+                                              <node concept="2Mo9yH" id="6gjbwaaIuGO" role="2Oq$k0" />
+                                              <node concept="liA8E" id="6gjbwaaIuGP" role="2OqNvi">
+                                                <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
                                         <node concept="3clFbF" id="15DZatORB4o" role="3cqZAp">
                                           <node concept="2OqwBi" id="15DZatORB4p" role="3clFbG">
                                             <node concept="2ShNRf" id="15DZatORB4q" role="2Oq$k0">
@@ -5952,11 +6047,6 @@
                                         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                                       </node>
                                     </node>
-                                    <node concept="3Tm1VV" id="15DZatORrHA" role="1B3o_S" />
-                                    <node concept="37vLTw" id="15DZatORrHB" role="37wK5m">
-                                      <ref role="3cqZAo" node="15DZatORrFR" resolve="matchingTexts" />
-                                    </node>
-                                    <node concept="2Mo9yH" id="15DZatOT8s7" role="37wK5m" />
                                     <node concept="2tJIrI" id="J6gp_6z2Mm" role="jymVt" />
                                     <node concept="3clFb_" id="J6gp_6z5bS" role="jymVt">
                                       <property role="1EzhhJ" value="false" />
@@ -6066,6 +6156,11 @@
                                       </node>
                                     </node>
                                     <node concept="2tJIrI" id="J6gp_6z2Oo" role="jymVt" />
+                                    <node concept="3Tm1VV" id="15DZatORrHA" role="1B3o_S" />
+                                    <node concept="37vLTw" id="15DZatORrHB" role="37wK5m">
+                                      <ref role="3cqZAo" node="15DZatORrFR" resolve="matchingTexts" />
+                                    </node>
+                                    <node concept="2Mo9yH" id="15DZatOT8s7" role="37wK5m" />
                                   </node>
                                 </node>
                               </node>
@@ -13673,6 +13768,22 @@
                                             </node>
                                           </node>
                                         </node>
+                                        <node concept="3cpWs8" id="6gjbwabbKDB" role="3cqZAp">
+                                          <node concept="3cpWsn" id="6gjbwabbKDC" role="3cpWs9">
+                                            <property role="TrG5h" value="editorContext" />
+                                            <node concept="3uibUv" id="6gjbwabbK9K" role="1tU5fm">
+                                              <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                                            </node>
+                                            <node concept="2OqwBi" id="6gjbwabbKDD" role="33vP2m">
+                                              <node concept="37vLTw" id="6gjbwabbKDE" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="RbLMy69QlL" resolve="_context" />
+                                              </node>
+                                              <node concept="liA8E" id="6gjbwabbKDF" role="2OqNvi">
+                                                <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
                                         <node concept="3cpWs8" id="4AuGfbNTMsP" role="3cqZAp">
                                           <node concept="3cpWsn" id="4AuGfbNTMsQ" role="3cpWs9">
                                             <property role="TrG5h" value="access" />
@@ -16842,6 +16953,22 @@
                                   </node>
                                 </node>
                               </node>
+                              <node concept="3cpWs8" id="6gjbwaaSSid" role="3cqZAp">
+                                <node concept="3cpWsn" id="6gjbwaaSSie" role="3cpWs9">
+                                  <property role="TrG5h" value="editorContext" />
+                                  <node concept="3uibUv" id="6gjbwaaSQui" role="1tU5fm">
+                                    <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                                  </node>
+                                  <node concept="2OqwBi" id="6gjbwaaSSif" role="33vP2m">
+                                    <node concept="37vLTw" id="6gjbwaaSSig" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="4eBi5gdtxpN" resolve="_context" />
+                                    </node>
+                                    <node concept="liA8E" id="6gjbwaaSSih" role="2OqNvi">
+                                      <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                               <node concept="3clFbJ" id="4eBi5gdpjoK" role="3cqZAp">
                                 <node concept="3clFbS" id="4eBi5gdpjoL" role="3clFbx">
                                   <node concept="3cpWs8" id="4eBi5gdpvff" role="3cqZAp">
@@ -17973,6 +18100,22 @@
                       </node>
                       <node concept="liA8E" id="6rhOS_xAibE" role="2OqNvi">
                         <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode()" resolve="getNode" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="6gjbwaaSGom" role="3cqZAp">
+                  <node concept="3cpWsn" id="6gjbwaaSGon" role="3cpWs9">
+                    <property role="TrG5h" value="editorContext" />
+                    <node concept="3uibUv" id="6gjbwaaSFTo" role="1tU5fm">
+                      <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                    </node>
+                    <node concept="2OqwBi" id="6gjbwaaSGoo" role="33vP2m">
+                      <node concept="37vLTw" id="6gjbwaaSGop" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6rhOS_xwLRq" resolve="_context" />
+                      </node>
+                      <node concept="liA8E" id="6gjbwaaSGoq" role="2OqNvi">
+                        <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
                       </node>
                     </node>
                   </node>
@@ -20997,7 +21140,6 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbH" id="6B579NGr3Hh" role="3cqZAp" />
                           <node concept="3clFbJ" id="6B579NGqSU5" role="3cqZAp">
                             <node concept="3clFbS" id="6B579NGqSU7" role="3clFbx">
                               <node concept="3cpWs8" id="6B579NGr$G_" role="3cqZAp">
@@ -21113,6 +21255,22 @@
                                       </node>
                                       <node concept="3clFbJ" id="5n4nn1a79Z$" role="3cqZAp">
                                         <node concept="3clFbS" id="5n4nn1a79Z_" role="3clFbx">
+                                          <node concept="3cpWs8" id="6gjbwab7wAw" role="3cqZAp">
+                                            <node concept="3cpWsn" id="6gjbwab7wAx" role="3cpWs9">
+                                              <property role="TrG5h" value="editorContext" />
+                                              <node concept="3uibUv" id="6gjbwab7uyf" role="1tU5fm">
+                                                <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+                                              </node>
+                                              <node concept="2OqwBi" id="6gjbwab7wAy" role="33vP2m">
+                                                <node concept="37vLTw" id="6gjbwab7wAz" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="5n4nn1a79YN" resolve="_context" />
+                                                </node>
+                                                <node concept="liA8E" id="6gjbwab7wA$" role="2OqNvi">
+                                                  <ref role="37wK5l" to="uddc:~TransformationMenuContext.getEditorContext()" resolve="getEditorContext" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
                                           <node concept="3cpWs8" id="49FqtR5VyJX" role="3cqZAp">
                                             <node concept="3cpWsn" id="49FqtR5VyJY" role="3cpWs9">
                                               <property role="TrG5h" value="sideTransformationEnabled" />

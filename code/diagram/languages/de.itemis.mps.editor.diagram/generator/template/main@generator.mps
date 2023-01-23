@@ -39,9 +39,9 @@
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="qvne" ref="r:8ff33705-85bf-4855-805c-06d68fbe233c(jetbrains.mps.editor.runtime.descriptor)" />
-    <import index="8byu" ref="r:34a4cfb6-903f-41e9-95dc-ea24a6097ced(jetbrains.mps.lang.editor.tooltips.structure)" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" />
     <import index="u8j" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="8byu" ref="r:34a4cfb6-903f-41e9-95dc-ea24a6097ced(jetbrains.mps.lang.editor.tooltips.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
@@ -5339,6 +5339,44 @@
                                                 </node>
                                                 <node concept="37vLTw" id="5S8_I2G5T_h" role="37vLTJ">
                                                   <ref role="3cqZAo" node="hdJTozF" resolve="editorCell" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="3clFbF" id="45g3j8ia7$P" role="3cqZAp">
+                                              <node concept="2OqwBi" id="45g3j8iafkm" role="3clFbG">
+                                                <node concept="1eOMI4" id="45g3j8iabGw" role="2Oq$k0">
+                                                  <node concept="10QFUN" id="45g3j8iabGt" role="1eOMHV">
+                                                    <node concept="3uibUv" id="45g3j8iadE4" role="10QFUM">
+                                                      <ref role="3uigEE" to="r3rm:4KKQOHIOe6F" resolve="RootDiagramECell" />
+                                                    </node>
+                                                    <node concept="37vLTw" id="45g3j8ia7$N" role="10QFUP">
+                                                      <ref role="3cqZAo" node="hdJTozF" resolve="editorCell" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="liA8E" id="45g3j8iahgy" role="2OqNvi">
+                                                  <ref role="37wK5l" to="r3rm:45g3j8i6sLK" resolve="runAutoLayouterOnInit" />
+                                                  <node concept="37vLTw" id="2ujdR6v$D1j" role="37wK5m">
+                                                    <ref role="3cqZAo" node="fXNkb_c" resolve="node" />
+                                                  </node>
+                                                  <node concept="3clFbT" id="45g3j8iaoMz" role="37wK5m">
+                                                    <node concept="17Uvod" id="45g3j8iaqQI" role="lGtFl">
+                                                      <property role="2qtEX9" value="value" />
+                                                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                                                      <node concept="3zFVjK" id="45g3j8iaqQJ" role="3zH0cK">
+                                                        <node concept="3clFbS" id="45g3j8iaqQK" role="2VODD2">
+                                                          <node concept="3clFbF" id="45g3j8iasr3" role="3cqZAp">
+                                                            <node concept="2OqwBi" id="45g3j8iatmK" role="3clFbG">
+                                                              <node concept="30H73N" id="45g3j8iasr2" role="2Oq$k0" />
+                                                              <node concept="3TrcHB" id="45g3j8iauZI" role="2OqNvi">
+                                                                <ref role="3TsBF5" to="2qld:45g3j8ia4nb" resolve="runAutoLayoutOnInit" />
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
                                                 </node>
                                               </node>
                                             </node>

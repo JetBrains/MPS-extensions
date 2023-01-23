@@ -18,9 +18,9 @@
     <import index="tc27" ref="r:92d28f3c-6acc-431a-94ba-30cd184d2da4(de.itemis.mps.editor.diagram.runtime.substitute)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
-    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -273,6 +273,7 @@
       </concept>
       <concept id="6554619382999975769" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_OuterNode" flags="ng" index="23r2z0" />
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
+        <property id="4706276119306323403" name="runAutoLayoutOnInit" index="1ju4zT" />
         <property id="4787596715132191458" name="disableEdgeRouting" index="3ZefsU" />
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
         <child id="6910723851735171798" name="buttonConfig" index="3sAl1G" />
@@ -557,6 +558,7 @@
         <node concept="2iRkQZ" id="7SMOZKNWQkB" role="2iSdaV" />
         <node concept="27vDVx" id="4XPshSti$$2" role="3EZMnx">
           <property role="3ZefsU" value="true" />
+          <property role="1ju4zT" value="true" />
           <node concept="1xLmZY" id="4XPshSti$$4" role="1xLlFP">
             <node concept="3clFbS" id="4XPshSti$$6" role="2VODD2">
               <node concept="3clFbF" id="4XPshStiC4w" role="3cqZAp">
@@ -1229,6 +1231,7 @@
           <property role="3F0ifm" value="diagram2" />
         </node>
         <node concept="27vDVx" id="3fwTI8g3w0i" role="3EZMnx">
+          <property role="1ju4zT" value="true" />
           <node concept="1xLmZY" id="3fwTI8g3w0k" role="1xLlFP">
             <node concept="3clFbS" id="3fwTI8g3w0m" role="2VODD2">
               <node concept="3clFbF" id="3fwTI8g3xB7" role="3cqZAp">
@@ -1333,15 +1336,6 @@
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="3sA_1f" id="2pXhcZQqwcX" role="3sAl1G">
-            <property role="3sAy83" value="true" />
-            <property role="3sAy88" value="true" />
-            <property role="3sAy8m" value="true" />
-            <property role="3sAwEb" value="true" />
-            <property role="3sAwEn" value="true" />
-            <property role="3sAwEi" value="true" />
-            <property role="3g8l5v" value="false" />
           </node>
           <node concept="2M4Efz" id="1MAkSr4CfiV" role="aCds2">
             <node concept="37q72E" id="1MAkSr4CfiZ" role="2M4AHN">
@@ -1630,6 +1624,15 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="3sA_1f" id="2pXhcZQqwcX" role="3sAl1G">
+            <property role="3sAy83" value="true" />
+            <property role="3sAy88" value="true" />
+            <property role="3sAy8m" value="true" />
+            <property role="3sAwEb" value="true" />
+            <property role="3sAwEn" value="true" />
+            <property role="3sAwEi" value="true" />
+            <property role="3g8l5v" value="false" />
           </node>
           <node concept="3fe8g" id="1MAkSr4BiCN" role="35U2g">
             <node concept="3pGojX" id="awq4$rgWNg" role="3pGojU" />

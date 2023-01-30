@@ -51,10 +51,10 @@ if (ext.has('java11_home')) {
 } else {
     def expected = JavaVersion.VERSION_11
     if (JavaVersion.current() != expected) {
-        throw new GradleException("This build script requires Java 11 but you are currently using ${JavaVersion.current()}.\nWhat you can do:\n"
-            + "  * Use project property java11_home to point to the Java 11 JDK.\n"
-            + "  * Use environment variable JAVA11_HOME to point to the Java 11 JDK\n"
-            + "  * Run Gradle using Java 11")
+//        throw new GradleException("This build script requires Java 11 but you are currently using ${JavaVersion.current()}.\nWhat you can do:\n"
+//            + "  * Use project property java11_home to point to the Java 11 JDK.\n"
+//            + "  * Use environment variable JAVA11_HOME to point to the Java 11 JDK\n"
+//            + "  * Run Gradle using Java 11")
     }
     jdk_home = System.getProperty('java.home')
 }

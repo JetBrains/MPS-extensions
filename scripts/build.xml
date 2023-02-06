@@ -199,6 +199,7 @@
       <jvmargs>
         <arg value="-ea" />
         <arg value="-Xmx2024m" />
+        <arg value="--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED" />
       </jvmargs>
       <macro name="mps.home" path="${mps.home}" />
       <macro name="extensions.home" path="${extensions.home}" />

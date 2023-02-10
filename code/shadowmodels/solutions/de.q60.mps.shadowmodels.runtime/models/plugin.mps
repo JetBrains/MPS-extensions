@@ -2122,7 +2122,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="7YhLqbpzWNb" role="2OqNvi">
-                <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
+                <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
               </node>
             </node>
           </node>
@@ -2369,7 +2369,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="7zI2priWcO4" role="2OqNvi">
-                        <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
+                        <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
                       </node>
                     </node>
                     <node concept="liA8E" id="7zI2priWtbV" role="2OqNvi">
@@ -2447,7 +2447,7 @@
                     <ref role="37wK5l" node="1cRLf1_YMsl" resolve="getProjectTree" />
                   </node>
                   <node concept="liA8E" id="56YPHTolKx7" role="2OqNvi">
-                    <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
+                    <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
                   </node>
                 </node>
                 <node concept="liA8E" id="56YPHTolLsC" role="2OqNvi">
@@ -2558,7 +2558,7 @@
                 <ref role="3cqZAo" node="7tcNvKICWv4" resolve="projectTree" />
               </node>
               <node concept="liA8E" id="6AlUJyrwIb4" role="2OqNvi">
-                <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
+                <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
               </node>
             </node>
           </node>

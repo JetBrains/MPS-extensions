@@ -1400,7 +1400,7 @@
           <node concept="3clFbS" id="7PuCnELxnPv" role="3clFbx">
             <node concept="3clFbF" id="7PuCnELxtdm" role="3cqZAp">
               <node concept="1rXfSq" id="7PuCnELxtdk" role="3clFbG">
-                <ref role="37wK5l" to="dxuu:~JTree.expandPath(javax.swing.tree.TreePath):void" resolve="expandPath" />
+                <ref role="37wK5l" to="7e8u:~MPSTree.expandPath(javax.swing.tree.TreePath)" resolve="expandPath" />
                 <node concept="2ShNRf" id="7PuCnELxtQs" role="37wK5m">
                   <node concept="1pGfFk" id="7PuCnELxxBP" role="2ShVmc">
                     <ref role="37wK5l" to="rgfa:~TreePath.&lt;init&gt;(java.lang.Object[])" resolve="TreePath" />
@@ -9108,7 +9108,7 @@
                         <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
                       </node>
                       <node concept="liA8E" id="7PvgUNuOLtj" role="2OqNvi">
-                        <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
+                        <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
                       </node>
                     </node>
                   </node>
@@ -9553,7 +9553,7 @@
                           <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
                         </node>
                         <node concept="liA8E" id="Ggg0Z6Y9uo" role="2OqNvi">
-                          <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
+                          <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
                         </node>
                       </node>
                     </node>

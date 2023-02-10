@@ -30314,27 +30314,36 @@
       <node concept="3Tm6S6" id="6OcqZnLFWP0" role="1B3o_S" />
       <node concept="3clFbS" id="6901ed1LjL7" role="3clF47">
         <node concept="3clFbF" id="6901ed1LE3N" role="3cqZAp">
-          <node concept="2OqwBi" id="6901ed1L_LF" role="3clFbG">
-            <node concept="2OqwBi" id="6901ed1L_0Z" role="2Oq$k0">
-              <node concept="2OqwBi" id="6901ed1LwyF" role="2Oq$k0">
-                <node concept="2OqwBi" id="6901ed1Lw4e" role="2Oq$k0">
-                  <node concept="37vLTw" id="6901ed1Lw2C" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6901ed1Lkhg" resolve="cell" />
-                  </node>
-                  <node concept="liA8E" id="6901ed1LwwK" role="2OqNvi">
-                    <ref role="37wK5l" to="f4zo:~EditorCell.getContext()" resolve="getContext" />
+          <node concept="2OqwBi" id="k5dtw8NPwG" role="3clFbG">
+            <node concept="1eOMI4" id="k5dtw8NLzq" role="2Oq$k0">
+              <node concept="10QFUN" id="k5dtw8NLzn" role="1eOMHV">
+                <node concept="3uibUv" id="k5dtw8NPfg" role="10QFUM">
+                  <ref role="3uigEE" to="z1c3:~FileBasedProject" resolve="FileBasedProject" />
+                </node>
+                <node concept="1eOMI4" id="k5dtw8NKVC" role="10QFUP">
+                  <node concept="2OqwBi" id="6901ed1L_0Z" role="1eOMHV">
+                    <node concept="2OqwBi" id="6901ed1LwyF" role="2Oq$k0">
+                      <node concept="2OqwBi" id="6901ed1Lw4e" role="2Oq$k0">
+                        <node concept="37vLTw" id="6901ed1Lw2C" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6901ed1Lkhg" resolve="cell" />
+                        </node>
+                        <node concept="liA8E" id="6901ed1LwwK" role="2OqNvi">
+                          <ref role="37wK5l" to="f4zo:~EditorCell.getContext()" resolve="getContext" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6901ed1L$YB" role="2OqNvi">
+                        <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="6901ed1L_zr" role="2OqNvi">
+                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
+                    </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="6901ed1L$YB" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
-                </node>
-              </node>
-              <node concept="liA8E" id="6901ed1L_zr" role="2OqNvi">
-                <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
               </node>
             </node>
-            <node concept="liA8E" id="6901ed1LB4F" role="2OqNvi">
-              <ref role="37wK5l" to="z1c3:~Project.getProjectFile()" resolve="getProjectFile" />
+            <node concept="liA8E" id="k5dtw8NPZY" role="2OqNvi">
+              <ref role="37wK5l" to="z1c3:~FileBasedProject.getProjectFile()" resolve="getProjectFile" />
             </node>
           </node>
         </node>

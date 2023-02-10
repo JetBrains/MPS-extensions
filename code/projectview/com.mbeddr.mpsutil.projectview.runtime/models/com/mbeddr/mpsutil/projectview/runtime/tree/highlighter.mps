@@ -5269,7 +5269,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="6B7erwvEDj9" role="2OqNvi">
-                <ref role="37wK5l" to="z1c4:~StandaloneMPSProject.getErrors()" resolve="getErrors" />
+                <ref role="37wK5l" to="z1c3:~ProjectBase.getErrors()" resolve="getErrors" />
               </node>
             </node>
           </node>

@@ -93,21 +93,5 @@
       <property role="1SWRpm" value="Some Group" />
     </node>
   </node>
-  <node concept="2S6QgY" id="39JzzOKvyII">
-    <property role="TrG5h" value="DemoIntention_3" />
-    <ref role="2ZfgGC" to="iikq:197NvysM_3t" resolve="DemoNodeWithIntentions" />
-    <node concept="2S6ZIM" id="39JzzOKvyIJ" role="2ZfVej">
-      <node concept="3clFbS" id="39JzzOKvyIK" role="2VODD2">
-        <node concept="3clFbF" id="39JzzOKvyIL" role="3cqZAp">
-          <node concept="Xl_RD" id="39JzzOKvyIM" role="3clFbG">
-            <property role="Xl_RC" value=" DemoIntention_3" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="39JzzOKvyIN" role="2ZfgGD">
-      <node concept="3clFbS" id="39JzzOKvyIO" role="2VODD2" />
-    </node>
-  </node>
 </model>
 

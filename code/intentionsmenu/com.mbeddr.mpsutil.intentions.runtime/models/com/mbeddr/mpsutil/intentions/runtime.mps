@@ -132,6 +132,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="1225271546410" name="jetbrains.mps.baseLanguage.structure.TrimOperation" flags="nn" index="17S1cR" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -3261,11 +3262,11 @@
                     </node>
                     <node concept="10Nm6u" id="3pZvzolqvEd" role="3uHU7w" />
                   </node>
-                  <node concept="3y3z36" id="3pZvzolqD4$" role="3uHU7w">
-                    <node concept="37vLTw" id="3pZvzolq_lp" role="3uHU7B">
+                  <node concept="2OqwBi" id="5KWvuz1uFuy" role="3uHU7w">
+                    <node concept="37vLTw" id="3pZvzolq_lp" role="2Oq$k0">
                       <ref role="3cqZAo" node="3pZvzolpBeb" resolve="groupName" />
                     </node>
-                    <node concept="10Nm6u" id="3pZvzolqGEH" role="3uHU7w" />
+                    <node concept="17RvpY" id="5KWvuz1w10D" role="2OqNvi" />
                   </node>
                 </node>
               </node>

@@ -334,188 +334,200 @@
         </node>
         <node concept="3clFbJ" id="6JxzAvo_Ei0" role="3cqZAp">
           <node concept="3clFbS" id="6JxzAvo_Ei2" role="3clFbx">
-            <node concept="3clFbF" id="3pwG8PSkQBc" role="3cqZAp">
-              <node concept="37vLTI" id="3pwG8PSkQBd" role="3clFbG">
-                <node concept="2OqwBi" id="3pwG8PSnsVC" role="37vLTJ">
-                  <node concept="37vLTw" id="3pwG8PSnsS$" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3pwG8PSnrNJ" resolve="intentionsSupport" />
-                  </node>
-                  <node concept="1PnCL0" id="3pwG8PSntaK" role="2OqNvi">
-                    <ref role="2Oxat5" to="exr9:~IntentionsSupport.myLightBulb" resolve="myLightBulb" />
-                  </node>
-                </node>
-                <node concept="2ShNRf" id="3pwG8PSkQBf" role="37vLTx">
-                  <node concept="YeOm9" id="3pwG8PSkQBg" role="2ShVmc">
-                    <node concept="1Y3b0j" id="3pwG8PSkQBh" role="YeSDq">
-                      <property role="2bfB8j" value="true" />
-                      <property role="1sVAO0" value="false" />
-                      <property role="1EXbeo" value="false" />
-                      <ref role="1Y3XeK" to="91lp:~LightBulbMenu" resolve="LightBulbMenu" />
-                      <ref role="37wK5l" to="91lp:~LightBulbMenu.&lt;init&gt;()" resolve="LightBulbMenu" />
-                      <node concept="3Tm1VV" id="3pwG8PSkQBi" role="1B3o_S" />
-                      <node concept="3clFb_" id="3pwG8PSkQBj" role="jymVt">
-                        <property role="TrG5h" value="activate" />
-                        <property role="DiZV1" value="false" />
-                        <property role="od$2w" value="false" />
-                        <node concept="2AHcQZ" id="3pwG8PSkQBk" role="2AJF6D">
-                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                        </node>
-                        <node concept="3clFbS" id="3pwG8PSkQBl" role="3clF47">
-                          <node concept="3clFbF" id="3pwG8PSkQBm" role="3cqZAp">
-                            <node concept="2OqwBi" id="3pwG8PSkQBn" role="3clFbG">
-                              <node concept="1rXfSq" id="3pwG8PSkQBo" role="2Oq$k0">
-                                <ref role="37wK5l" node="3pwG8PSkQQM" resolve="getModelAccess" />
-                              </node>
-                              <node concept="liA8E" id="3pwG8PSkQBp" role="2OqNvi">
-                                <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
-                                <node concept="2ShNRf" id="3pwG8PSkQBq" role="37wK5m">
-                                  <node concept="YeOm9" id="3pwG8PSkQBr" role="2ShVmc">
-                                    <node concept="1Y3b0j" id="3pwG8PSkQBs" role="YeSDq">
-                                      <property role="2bfB8j" value="true" />
-                                      <property role="1sVAO0" value="false" />
-                                      <property role="1EXbeo" value="false" />
-                                      <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
-                                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                                      <node concept="3Tm1VV" id="3pwG8PSkQBt" role="1B3o_S" />
-                                      <node concept="3clFb_" id="3pwG8PSkQBu" role="jymVt">
-                                        <property role="TrG5h" value="run" />
-                                        <property role="DiZV1" value="false" />
-                                        <property role="od$2w" value="false" />
-                                        <node concept="2AHcQZ" id="3pwG8PSkQBv" role="2AJF6D">
-                                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                                        </node>
-                                        <node concept="3clFbS" id="3pwG8PSkQBw" role="3clF47">
-                                          <node concept="3clFbF" id="3pwG8PSkQBx" role="3cqZAp">
-                                            <node concept="1rXfSq" id="3pwG8PSkQBy" role="3clFbG">
-                                              <ref role="37wK5l" node="3pwG8PSkQDq" resolve="checkAndShowMenu" />
-                                            </node>
-                                          </node>
-                                        </node>
-                                        <node concept="3Tm1VV" id="3pwG8PSkQBz" role="1B3o_S" />
-                                        <node concept="3cqZAl" id="3pwG8PSkQB$" role="3clF45" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="3Tm1VV" id="3pwG8PSkQB_" role="1B3o_S" />
-                        <node concept="3cqZAl" id="3pwG8PSkQBA" role="3clF45" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="3pwG8PSkQBS" role="3cqZAp">
-              <node concept="37vLTI" id="3pwG8PSkQBT" role="3clFbG">
-                <node concept="2OqwBi" id="3pwG8PSnYh2" role="37vLTJ">
-                  <node concept="37vLTw" id="3pwG8PSnYdn" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3pwG8PSnrNJ" resolve="intentionsSupport" />
-                  </node>
-                  <node concept="1PnCL0" id="3pwG8PSnYwH" role="2OqNvi">
-                    <ref role="2Oxat5" to="exr9:~IntentionsSupport.myShowIntentionsAction" resolve="myShowIntentionsAction" />
-                  </node>
-                </node>
-                <node concept="2ShNRf" id="3pwG8PSkQBV" role="37vLTx">
-                  <node concept="YeOm9" id="3pwG8PSkQBW" role="2ShVmc">
-                    <node concept="1Y3b0j" id="3pwG8PSkQBX" role="YeSDq">
-                      <property role="2bfB8j" value="true" />
-                      <property role="1sVAO0" value="false" />
-                      <property role="1EXbeo" value="false" />
-                      <ref role="1Y3XeK" to="dxuu:~AbstractAction" resolve="AbstractAction" />
-                      <ref role="37wK5l" to="dxuu:~AbstractAction.&lt;init&gt;()" resolve="AbstractAction" />
-                      <node concept="3Tm1VV" id="3pwG8PSkQBY" role="1B3o_S" />
-                      <node concept="3clFb_" id="3pwG8PSkQBZ" role="jymVt">
-                        <property role="TrG5h" value="actionPerformed" />
-                        <property role="DiZV1" value="false" />
-                        <property role="od$2w" value="false" />
-                        <node concept="2AHcQZ" id="3pwG8PSkQC0" role="2AJF6D">
-                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                        </node>
-                        <node concept="37vLTG" id="3pwG8PSkQC1" role="3clF46">
-                          <property role="TrG5h" value="e" />
-                          <property role="3TUv4t" value="false" />
-                          <node concept="3uibUv" id="3pwG8PSkQC2" role="1tU5fm">
-                            <ref role="3uigEE" to="hyam:~ActionEvent" resolve="ActionEvent" />
-                          </node>
-                        </node>
-                        <node concept="3clFbS" id="3pwG8PSkQC3" role="3clF47">
-                          <node concept="3clFbF" id="3pwG8PSkQC4" role="3cqZAp">
-                            <node concept="2OqwBi" id="3pwG8PSkQC5" role="3clFbG">
-                              <node concept="1rXfSq" id="3pwG8PSkQC6" role="2Oq$k0">
-                                <ref role="37wK5l" node="3pwG8PSkQQM" resolve="getModelAccess" />
-                              </node>
-                              <node concept="liA8E" id="3pwG8PSkQC7" role="2OqNvi">
-                                <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
-                                <node concept="2ShNRf" id="3pwG8PSkQC8" role="37wK5m">
-                                  <node concept="YeOm9" id="3pwG8PSkQC9" role="2ShVmc">
-                                    <node concept="1Y3b0j" id="3pwG8PSkQCa" role="YeSDq">
-                                      <property role="2bfB8j" value="true" />
-                                      <property role="1sVAO0" value="false" />
-                                      <property role="1EXbeo" value="false" />
-                                      <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
-                                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                                      <node concept="3Tm1VV" id="3pwG8PSkQCb" role="1B3o_S" />
-                                      <node concept="3clFb_" id="3pwG8PSkQCc" role="jymVt">
-                                        <property role="TrG5h" value="run" />
-                                        <property role="DiZV1" value="false" />
-                                        <property role="od$2w" value="false" />
-                                        <node concept="2AHcQZ" id="3pwG8PSkQCd" role="2AJF6D">
-                                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                                        </node>
-                                        <node concept="3clFbS" id="3pwG8PSkQCe" role="3clF47">
-                                          <node concept="3clFbF" id="3pwG8PSkQCf" role="3cqZAp">
-                                            <node concept="1rXfSq" id="3pwG8PSkQCg" role="3clFbG">
-                                              <ref role="37wK5l" node="3pwG8PSkQDq" resolve="checkAndShowMenu" />
-                                            </node>
-                                          </node>
-                                        </node>
-                                        <node concept="3Tm1VV" id="3pwG8PSkQCh" role="1B3o_S" />
-                                        <node concept="3cqZAl" id="3pwG8PSkQCi" role="3clF45" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="3Tm1VV" id="3pwG8PSkQCj" role="1B3o_S" />
-                        <node concept="3cqZAl" id="3pwG8PSkQCk" role="3clF45" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="3pwG8PSkQCl" role="3cqZAp">
-              <node concept="2OqwBi" id="3pwG8PSkTH4" role="3clFbG">
-                <node concept="37vLTw" id="3pwG8PSkTH3" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3pwG8PSkQAX" resolve="myEditor" />
-                </node>
-                <node concept="liA8E" id="3pwG8PSkTH5" role="2OqNvi">
-                  <ref role="37wK5l" to="dxuu:~JComponent.registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)" resolve="registerKeyboardAction" />
-                  <node concept="2OqwBi" id="3pwG8PSo1pN" role="37wK5m">
-                    <node concept="37vLTw" id="3pwG8PSo1pO" role="2Oq$k0">
+            <node concept="1X3_iC" id="59mjvU_ng6d" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="3pwG8PSkQBc" role="8Wnug">
+                <node concept="37vLTI" id="3pwG8PSkQBd" role="3clFbG">
+                  <node concept="2OqwBi" id="3pwG8PSnsVC" role="37vLTJ">
+                    <node concept="37vLTw" id="3pwG8PSnsS$" role="2Oq$k0">
                       <ref role="3cqZAo" node="3pwG8PSnrNJ" resolve="intentionsSupport" />
                     </node>
-                    <node concept="1PnCL0" id="3pwG8PSo1pP" role="2OqNvi">
+                    <node concept="1PnCL0" id="3pwG8PSntaK" role="2OqNvi">
+                      <ref role="2Oxat5" to="exr9:~IntentionsSupport.myLightBulb" resolve="myLightBulb" />
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="3pwG8PSkQBf" role="37vLTx">
+                    <node concept="YeOm9" id="3pwG8PSkQBg" role="2ShVmc">
+                      <node concept="1Y3b0j" id="3pwG8PSkQBh" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <property role="1sVAO0" value="false" />
+                        <property role="1EXbeo" value="false" />
+                        <ref role="1Y3XeK" to="91lp:~LightBulbMenu" resolve="LightBulbMenu" />
+                        <ref role="37wK5l" to="91lp:~LightBulbMenu.&lt;init&gt;()" resolve="LightBulbMenu" />
+                        <node concept="3Tm1VV" id="3pwG8PSkQBi" role="1B3o_S" />
+                        <node concept="3clFb_" id="3pwG8PSkQBj" role="jymVt">
+                          <property role="TrG5h" value="activate" />
+                          <property role="DiZV1" value="false" />
+                          <property role="od$2w" value="false" />
+                          <node concept="2AHcQZ" id="3pwG8PSkQBk" role="2AJF6D">
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                          </node>
+                          <node concept="3clFbS" id="3pwG8PSkQBl" role="3clF47">
+                            <node concept="3clFbF" id="3pwG8PSkQBm" role="3cqZAp">
+                              <node concept="2OqwBi" id="3pwG8PSkQBn" role="3clFbG">
+                                <node concept="1rXfSq" id="3pwG8PSkQBo" role="2Oq$k0">
+                                  <ref role="37wK5l" node="3pwG8PSkQQM" resolve="getModelAccess" />
+                                </node>
+                                <node concept="liA8E" id="3pwG8PSkQBp" role="2OqNvi">
+                                  <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
+                                  <node concept="2ShNRf" id="3pwG8PSkQBq" role="37wK5m">
+                                    <node concept="YeOm9" id="3pwG8PSkQBr" role="2ShVmc">
+                                      <node concept="1Y3b0j" id="3pwG8PSkQBs" role="YeSDq">
+                                        <property role="2bfB8j" value="true" />
+                                        <property role="1sVAO0" value="false" />
+                                        <property role="1EXbeo" value="false" />
+                                        <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                        <node concept="3Tm1VV" id="3pwG8PSkQBt" role="1B3o_S" />
+                                        <node concept="3clFb_" id="3pwG8PSkQBu" role="jymVt">
+                                          <property role="TrG5h" value="run" />
+                                          <property role="DiZV1" value="false" />
+                                          <property role="od$2w" value="false" />
+                                          <node concept="2AHcQZ" id="3pwG8PSkQBv" role="2AJF6D">
+                                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                          </node>
+                                          <node concept="3clFbS" id="3pwG8PSkQBw" role="3clF47">
+                                            <node concept="3clFbF" id="3pwG8PSkQBx" role="3cqZAp">
+                                              <node concept="1rXfSq" id="3pwG8PSkQBy" role="3clFbG">
+                                                <ref role="37wK5l" node="3pwG8PSkQDq" resolve="checkAndShowMenu" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="3Tm1VV" id="3pwG8PSkQBz" role="1B3o_S" />
+                                          <node concept="3cqZAl" id="3pwG8PSkQB$" role="3clF45" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3Tm1VV" id="3pwG8PSkQB_" role="1B3o_S" />
+                          <node concept="3cqZAl" id="3pwG8PSkQBA" role="3clF45" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1X3_iC" id="59mjvU_ng6e" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="3pwG8PSkQBS" role="8Wnug">
+                <node concept="37vLTI" id="3pwG8PSkQBT" role="3clFbG">
+                  <node concept="2OqwBi" id="3pwG8PSnYh2" role="37vLTJ">
+                    <node concept="37vLTw" id="3pwG8PSnYdn" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3pwG8PSnrNJ" resolve="intentionsSupport" />
+                    </node>
+                    <node concept="1PnCL0" id="3pwG8PSnYwH" role="2OqNvi">
                       <ref role="2Oxat5" to="exr9:~IntentionsSupport.myShowIntentionsAction" resolve="myShowIntentionsAction" />
                     </node>
                   </node>
-                  <node concept="2YIFZM" id="3pwG8PSkTH8" role="37wK5m">
-                    <ref role="1Pybhc" to="dxuu:~KeyStroke" resolve="KeyStroke" />
-                    <ref role="37wK5l" to="dxuu:~KeyStroke.getKeyStroke(java.lang.String)" resolve="getKeyStroke" />
-                    <node concept="Xl_RD" id="3pwG8PSkQCp" role="37wK5m">
-                      <property role="Xl_RC" value="alt ENTER" />
+                  <node concept="2ShNRf" id="3pwG8PSkQBV" role="37vLTx">
+                    <node concept="YeOm9" id="3pwG8PSkQBW" role="2ShVmc">
+                      <node concept="1Y3b0j" id="3pwG8PSkQBX" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <property role="1sVAO0" value="false" />
+                        <property role="1EXbeo" value="false" />
+                        <ref role="1Y3XeK" to="dxuu:~AbstractAction" resolve="AbstractAction" />
+                        <ref role="37wK5l" to="dxuu:~AbstractAction.&lt;init&gt;()" resolve="AbstractAction" />
+                        <node concept="3Tm1VV" id="3pwG8PSkQBY" role="1B3o_S" />
+                        <node concept="3clFb_" id="3pwG8PSkQBZ" role="jymVt">
+                          <property role="TrG5h" value="actionPerformed" />
+                          <property role="DiZV1" value="false" />
+                          <property role="od$2w" value="false" />
+                          <node concept="2AHcQZ" id="3pwG8PSkQC0" role="2AJF6D">
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                          </node>
+                          <node concept="37vLTG" id="3pwG8PSkQC1" role="3clF46">
+                            <property role="TrG5h" value="e" />
+                            <property role="3TUv4t" value="false" />
+                            <node concept="3uibUv" id="3pwG8PSkQC2" role="1tU5fm">
+                              <ref role="3uigEE" to="hyam:~ActionEvent" resolve="ActionEvent" />
+                            </node>
+                          </node>
+                          <node concept="3clFbS" id="3pwG8PSkQC3" role="3clF47">
+                            <node concept="3clFbF" id="3pwG8PSkQC4" role="3cqZAp">
+                              <node concept="2OqwBi" id="3pwG8PSkQC5" role="3clFbG">
+                                <node concept="1rXfSq" id="3pwG8PSkQC6" role="2Oq$k0">
+                                  <ref role="37wK5l" node="3pwG8PSkQQM" resolve="getModelAccess" />
+                                </node>
+                                <node concept="liA8E" id="3pwG8PSkQC7" role="2OqNvi">
+                                  <ref role="37wK5l" to="lui2:~ModelAccess.runReadAction(java.lang.Runnable)" resolve="runReadAction" />
+                                  <node concept="2ShNRf" id="3pwG8PSkQC8" role="37wK5m">
+                                    <node concept="YeOm9" id="3pwG8PSkQC9" role="2ShVmc">
+                                      <node concept="1Y3b0j" id="3pwG8PSkQCa" role="YeSDq">
+                                        <property role="2bfB8j" value="true" />
+                                        <property role="1sVAO0" value="false" />
+                                        <property role="1EXbeo" value="false" />
+                                        <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                        <node concept="3Tm1VV" id="3pwG8PSkQCb" role="1B3o_S" />
+                                        <node concept="3clFb_" id="3pwG8PSkQCc" role="jymVt">
+                                          <property role="TrG5h" value="run" />
+                                          <property role="DiZV1" value="false" />
+                                          <property role="od$2w" value="false" />
+                                          <node concept="2AHcQZ" id="3pwG8PSkQCd" role="2AJF6D">
+                                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                          </node>
+                                          <node concept="3clFbS" id="3pwG8PSkQCe" role="3clF47">
+                                            <node concept="3clFbF" id="3pwG8PSkQCf" role="3cqZAp">
+                                              <node concept="1rXfSq" id="3pwG8PSkQCg" role="3clFbG">
+                                                <ref role="37wK5l" node="3pwG8PSkQDq" resolve="checkAndShowMenu" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="3Tm1VV" id="3pwG8PSkQCh" role="1B3o_S" />
+                                          <node concept="3cqZAl" id="3pwG8PSkQCi" role="3clF45" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3Tm1VV" id="3pwG8PSkQCj" role="1B3o_S" />
+                          <node concept="3cqZAl" id="3pwG8PSkQCk" role="3clF45" />
+                        </node>
+                      </node>
                     </node>
                   </node>
-                  <node concept="10M0yZ" id="3pwG8PSlb0p" role="37wK5m">
-                    <ref role="1PxDUh" to="dxuu:~JComponent" resolve="JComponent" />
-                    <ref role="3cqZAo" to="dxuu:~JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT" resolve="WHEN_ANCESTOR_OF_FOCUSED_COMPONENT" />
+                </node>
+              </node>
+            </node>
+            <node concept="1X3_iC" id="59mjvU_ng6f" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="3pwG8PSkQCl" role="8Wnug">
+                <node concept="2OqwBi" id="3pwG8PSkTH4" role="3clFbG">
+                  <node concept="37vLTw" id="3pwG8PSkTH3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3pwG8PSkQAX" resolve="myEditor" />
+                  </node>
+                  <node concept="liA8E" id="3pwG8PSkTH5" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~JComponent.registerKeyboardAction(java.awt.event.ActionListener,javax.swing.KeyStroke,int)" resolve="registerKeyboardAction" />
+                    <node concept="2OqwBi" id="3pwG8PSo1pN" role="37wK5m">
+                      <node concept="37vLTw" id="3pwG8PSo1pO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3pwG8PSnrNJ" resolve="intentionsSupport" />
+                      </node>
+                      <node concept="1PnCL0" id="3pwG8PSo1pP" role="2OqNvi">
+                        <ref role="2Oxat5" to="exr9:~IntentionsSupport.myShowIntentionsAction" resolve="myShowIntentionsAction" />
+                      </node>
+                    </node>
+                    <node concept="2YIFZM" id="3pwG8PSkTH8" role="37wK5m">
+                      <ref role="1Pybhc" to="dxuu:~KeyStroke" resolve="KeyStroke" />
+                      <ref role="37wK5l" to="dxuu:~KeyStroke.getKeyStroke(java.lang.String)" resolve="getKeyStroke" />
+                      <node concept="Xl_RD" id="3pwG8PSkQCp" role="37wK5m">
+                        <property role="Xl_RC" value="alt ENTER" />
+                      </node>
+                    </node>
+                    <node concept="10M0yZ" id="3pwG8PSlb0p" role="37wK5m">
+                      <ref role="1PxDUh" to="dxuu:~JComponent" resolve="JComponent" />
+                      <ref role="3cqZAo" to="dxuu:~JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT" resolve="WHEN_ANCESTOR_OF_FOCUSED_COMPONENT" />
+                    </node>
                   </node>
                 </node>
               </node>

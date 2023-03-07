@@ -5064,7 +5064,7 @@
                                                         <node concept="3clFbF" id="2YJ6SvpdRkz" role="3cqZAp">
                                                           <node concept="2OqwBi" id="2YJ6SvpdRku" role="3clFbG">
                                                             <node concept="3TrcHB" id="2YJ6SvpdRkx" role="2OqNvi">
-                                                              <ref role="3TsBF5" to="2qld:2YJ6Svp2O0G" resolve="saveSubdiagramLayoutInDiagram" />
+                                                              <ref role="3TsBF5" to="2qld:2YJ6Svp2O0G" resolve="saveSubDiagramLayoutInDiagram" />
                                                             </node>
                                                             <node concept="30H73N" id="2YJ6SvpdRky" role="2Oq$k0" />
                                                           </node>

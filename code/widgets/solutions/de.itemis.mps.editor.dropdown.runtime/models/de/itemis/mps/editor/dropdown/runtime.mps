@@ -202,10 +202,24 @@
         <ref role="3uigEE" to="z60i:~Color" resolve="Color" />
       </node>
       <node concept="2YIFZM" id="2WI5qdsu9_" role="33vP2m">
-        <ref role="37wK5l" to="lzb2:~JBColor.namedColor(java.lang.String)" resolve="namedColor" />
         <ref role="1Pybhc" to="lzb2:~JBColor" resolve="JBColor" />
+        <ref role="37wK5l" to="lzb2:~JBColor.namedColor(java.lang.String,java.awt.Color)" resolve="namedColor" />
         <node concept="Xl_RD" id="2WI5qdswUT" role="37wK5m">
           <property role="Xl_RC" value="Component.borderColor" />
+        </node>
+        <node concept="2ShNRf" id="7szUFELH2FG" role="37wK5m">
+          <node concept="1pGfFk" id="7szUFELH2FF" role="2ShVmc">
+            <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
+            <node concept="3cmrfG" id="7szUFELH2IR" role="37wK5m">
+              <property role="3cmrfH" value="150" />
+            </node>
+            <node concept="3cmrfG" id="7szUFELH2Pe" role="37wK5m">
+              <property role="3cmrfH" value="150" />
+            </node>
+            <node concept="3cmrfG" id="7szUFELH36o" role="37wK5m">
+              <property role="3cmrfH" value="150" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

@@ -230,6 +230,7 @@ ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
+        'downloadJbr',
 		resolveMps,
         copyModelApi,
 ]) {

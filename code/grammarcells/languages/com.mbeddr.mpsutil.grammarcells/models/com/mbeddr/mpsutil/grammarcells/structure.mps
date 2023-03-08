@@ -103,6 +103,9 @@
     <node concept="PrWs8" id="RbLMy6aM8Q" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
+    <node concept="PrWs8" id="J6gp_6LEaU" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6oKG1kMxvFA">
     <property role="TrG5h" value="UnorderedCollection" />
@@ -184,14 +187,20 @@
     <node concept="1TJgyj" id="6uixmKZ2FIJ" role="1TKVEi">
       <property role="IQ2ns" value="7463174232466963375" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="descriptionText" />
+      <property role="20kJfa" value="descriptionText_old" />
       <ref role="20lvS9" node="6uixmKZ2zuG" resolve="WrapperCell_DescriptionText" />
+      <node concept="asaX9" id="2l$VAMETgoS" role="lGtFl">
+        <property role="YLQ7P" value="Use descriptionText from ICanHaveDescriptionText" />
+      </node>
     </node>
     <node concept="PrWs8" id="6oKG1kMyAVP" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
     </node>
     <node concept="PrWs8" id="3O7ZvCZLRkq" role="PzmwI">
       <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
+    </node>
+    <node concept="PrWs8" id="2l$VAMETgoU" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
     </node>
   </node>
   <node concept="PlHQZ" id="6oKG1kMyAVO">
@@ -233,6 +242,9 @@
     <node concept="PrWs8" id="7KznU_45d0Q" role="PzmwI">
       <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
     </node>
+    <node concept="PrWs8" id="J6gp_6ydlP" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
+    </node>
     <node concept="1TJgyj" id="2EPKBwvgsS2" role="1TKVEi">
       <property role="IQ2ns" value="3077579741553872386" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -258,6 +270,9 @@
     </node>
     <node concept="PrWs8" id="3O7ZvCZLSwp" role="PzmwI">
       <ref role="PrY4T" node="3O7ZvCZLPYU" resolve="ICellWrapper" />
+    </node>
+    <node concept="PrWs8" id="dN43cd3wQB" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
     </node>
   </node>
   <node concept="1TIwiD" id="1vi_twqJeLl">
@@ -710,6 +725,9 @@
     <node concept="PrWs8" id="4eBi5gdBmA1" role="PzmwI">
       <ref role="PrY4T" node="4eBi5gdADMe" resolve="INotALeaf" />
     </node>
+    <node concept="PrWs8" id="dN43cafnh_" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4eBi5gdn8p_">
     <property role="3GE5qa" value="cells" />
@@ -785,6 +803,9 @@
     </node>
     <node concept="PrWs8" id="6rhOS_xwHOh" role="PzmwI">
       <ref role="PrY4T" node="6oKG1kMyAVO" resolve="IActionGeneratingCell" />
+    </node>
+    <node concept="PrWs8" id="2l$VAMF302A" role="PzmwI">
+      <ref role="PrY4T" node="J6gp_6ycpK" resolve="ICanHaveDescriptionText" />
     </node>
   </node>
   <node concept="1TIwiD" id="6rhOS_xT3yl">
@@ -987,6 +1008,9 @@
     <property role="TrG5h" value="WrapperCell_DescriptionText" />
     <property role="EcuMT" value="7463174232466929580" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="asaX9" id="2l$VAMF1BI2" role="lGtFl">
+      <property role="YLQ7P" value="Use IHaveHaveDescription instead" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6uixmKZ2zAm">
     <property role="3GE5qa" value="cells" />
@@ -1157,6 +1181,30 @@
     <property role="TrG5h" value="TransformationLocation_ContributionsToSideTranformation" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpc2:7L5lpRJH$EA" resolve="TransformationLocation" />
+  </node>
+  <node concept="PlHQZ" id="J6gp_6ycpK">
+    <property role="EcuMT" value="848437706375087728" />
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="ICanHaveDescriptionText" />
+    <node concept="1TJgyj" id="J6gp_6ycpL" role="1TKVEi">
+      <property role="IQ2ns" value="848437706375087729" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="descriptionText" />
+      <ref role="20lvS9" node="7PVnOXzFGJ5" resolve="Cell_DescriptionText" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7PVnOXzFGJ5">
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="Cell_DescriptionText" />
+    <property role="EcuMT" value="9041925471455857605" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="1ZlHRbijA01">
+    <property role="3GE5qa" value="cells" />
+    <property role="TrG5h" value="WrapperCell_Condition_wrappedConcept" />
+    <property role="34LRSv" value="wrappedConcept" />
+    <property role="EcuMT" value="2293941288997642241" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

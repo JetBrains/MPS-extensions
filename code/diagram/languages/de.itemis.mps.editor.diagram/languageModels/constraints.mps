@@ -2,6 +2,7 @@
 <model ref="r:1e924957-7de9-4002-8ea1-b99d38da9433(de.itemis.mps.editor.diagram.constraints)">
   <persistence version="9" />
   <languages>
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -110,6 +111,9 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -455,6 +459,24 @@
               </node>
             </node>
             <node concept="3x8VRR" id="1k1VwvtPrG3" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="2T42Bz2CwJ0">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <ref role="1M2myG" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
+    <node concept="9S07l" id="2T42Bz2CwJX" role="9Vyp8">
+      <node concept="3clFbS" id="2T42Bz2CwJY" role="2VODD2">
+        <node concept="3clFbF" id="2T42Bz2CwNS" role="3cqZAp">
+          <node concept="2OqwBi" id="2T42Bz2Cx7d" role="3clFbG">
+            <node concept="nLn13" id="2T42Bz2CwT0" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="2T42Bz2CxeJ" role="2OqNvi">
+              <node concept="chp4Y" id="2T42Bz2CxkG" role="cj9EA">
+                <ref role="cht4Q" to="2qld:7k8PWDQb26s" resolve="LayeredLayoutAlgorithm" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

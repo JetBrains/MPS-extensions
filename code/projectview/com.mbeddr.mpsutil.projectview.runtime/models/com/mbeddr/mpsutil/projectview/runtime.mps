@@ -7144,6 +7144,130 @@
       </node>
     </node>
     <node concept="2tJIrI" id="VPgi8ehIZk" role="jymVt" />
+    <node concept="3clFb_" id="2cYoH3s4bkM" role="jymVt">
+      <property role="TrG5h" value="removeView" />
+      <node concept="3clFbS" id="2cYoH3s4bkP" role="3clF47">
+        <node concept="3clFbF" id="2cYoH3s4ly0" role="3cqZAp">
+          <node concept="2OqwBi" id="2cYoH3s4mWB" role="3clFbG">
+            <node concept="3EllGN" id="2cYoH3s4mde" role="2Oq$k0">
+              <node concept="37vLTw" id="2cYoH3s4mz8" role="3ElVtu">
+                <ref role="3cqZAo" node="2cYoH3s4gc1" resolve="project" />
+              </node>
+              <node concept="37vLTw" id="2cYoH3s4lxZ" role="3ElQJh">
+                <ref role="3cqZAo" node="VPgi8ehRQY" resolve="myViewInstances" />
+              </node>
+            </node>
+            <node concept="kI3uX" id="2cYoH3s4n$C" role="2OqNvi">
+              <node concept="2ShNRf" id="2cYoH3s4nTv" role="kIiFs">
+                <node concept="1pGfFk" id="2cYoH3s53k8" role="2ShVmc">
+                  <ref role="37wK5l" node="3ZnFyBjwzXr" resolve="ViewId" />
+                  <node concept="2OqwBi" id="2cYoH3s54hd" role="37wK5m">
+                    <node concept="37vLTw" id="2cYoH3s53zy" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2cYoH3s4eCf" resolve="pane" />
+                    </node>
+                    <node concept="liA8E" id="2cYoH3s54L$" role="2OqNvi">
+                      <ref role="37wK5l" to="uhdf:2ZGhpRfeyB3" resolve="getId" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2cYoH3s55BG" role="3cqZAp">
+          <node concept="2YIFZM" id="2cYoH3s55V_" role="3clFbG">
+            <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
+            <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
+            <node concept="1bVj0M" id="2cYoH3s56ot" role="37wK5m">
+              <node concept="3clFbS" id="2cYoH3s56ou" role="1bW5cS">
+                <node concept="3cpWs8" id="2cYoH3s56SM" role="3cqZAp">
+                  <node concept="3cpWsn" id="2cYoH3s56SN" role="3cpWs9">
+                    <property role="TrG5h" value="ideaProject" />
+                    <node concept="3uibUv" id="2cYoH3s56SO" role="1tU5fm">
+                      <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+                    </node>
+                    <node concept="2YIFZM" id="2cYoH3s57d_" role="33vP2m">
+                      <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
+                      <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                      <node concept="37vLTw" id="2cYoH3s57rl" role="37wK5m">
+                        <ref role="3cqZAo" node="2cYoH3s4gc1" resolve="project" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="2cYoH3s57FZ" role="3cqZAp">
+                  <node concept="3clFbS" id="2cYoH3s57G1" role="3clFbx">
+                    <node concept="3cpWs8" id="2cYoH3s59Hb" role="3cqZAp">
+                      <node concept="3cpWsn" id="2cYoH3s59Hc" role="3cpWs9">
+                        <property role="TrG5h" value="projectView" />
+                        <node concept="3uibUv" id="2cYoH3s59Hd" role="1tU5fm">
+                          <ref role="3uigEE" to="bnjk:~ProjectView" resolve="ProjectView" />
+                        </node>
+                        <node concept="2YIFZM" id="2cYoH3s5aul" role="33vP2m">
+                          <ref role="37wK5l" to="bnjk:~ProjectView.getInstance(com.intellij.openapi.project.Project)" resolve="getInstance" />
+                          <ref role="1Pybhc" to="bnjk:~ProjectView" resolve="ProjectView" />
+                          <node concept="37vLTw" id="2cYoH3s5aTf" role="37wK5m">
+                            <ref role="3cqZAo" node="2cYoH3s56SN" resolve="ideaProject" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2cYoH3s5blA" role="3cqZAp">
+                      <node concept="2OqwBi" id="2cYoH3s5bDm" role="3clFbG">
+                        <node concept="37vLTw" id="2cYoH3s5bl$" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2cYoH3s59Hc" resolve="projectView" />
+                        </node>
+                        <node concept="liA8E" id="2cYoH3s5bLn" role="2OqNvi">
+                          <ref role="37wK5l" to="bnjk:~ProjectView.removeProjectPane(com.intellij.ide.projectView.impl.AbstractProjectViewPane)" resolve="removeProjectPane" />
+                          <node concept="37vLTw" id="2cYoH3s5c0n" role="37wK5m">
+                            <ref role="3cqZAo" node="2cYoH3s4eCf" resolve="pane" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3fqX7Q" id="2cYoH3s57TE" role="3clFbw">
+                    <node concept="2OqwBi" id="2cYoH3s58Ot" role="3fr31v">
+                      <node concept="37vLTw" id="2cYoH3s58jA" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2cYoH3s4gc1" resolve="project" />
+                      </node>
+                      <node concept="liA8E" id="2cYoH3s59gu" role="2OqNvi">
+                        <ref role="37wK5l" to="z1c3:~Project.isDisposed()" resolve="isDisposed" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="2cYoH3s5cn3" role="3cqZAp">
+                  <node concept="2OqwBi" id="2cYoH3s5cYJ" role="3clFbG">
+                    <node concept="37vLTw" id="2cYoH3s5cn1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2cYoH3s4eCf" resolve="pane" />
+                    </node>
+                    <node concept="liA8E" id="2cYoH3s5dOq" role="2OqNvi">
+                      <ref role="37wK5l" to="uhdf:6B7erwvFKhe" resolve="dispose" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2cYoH3s491n" role="1B3o_S" />
+      <node concept="3cqZAl" id="2cYoH3s4bf_" role="3clF45" />
+      <node concept="37vLTG" id="2cYoH3s4eCf" role="3clF46">
+        <property role="TrG5h" value="pane" />
+        <node concept="3uibUv" id="2cYoH3s4eCe" role="1tU5fm">
+          <ref role="3uigEE" to="uhdf:2ZGhpRfcKKF" resolve="CustomProjectView" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2cYoH3s4gc1" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="2cYoH3s4l3K" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2cYoH3s3CnC" role="jymVt" />
     <node concept="3clFb_" id="VPgi8egh2$" role="jymVt">
       <property role="TrG5h" value="install" />
       <node concept="3cqZAl" id="VPgi8egh2A" role="3clF45" />

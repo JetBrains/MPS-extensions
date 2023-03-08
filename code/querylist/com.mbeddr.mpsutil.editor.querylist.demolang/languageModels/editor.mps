@@ -193,6 +193,7 @@
         <child id="6202678563380433923" name="query" index="sbcd9" />
         <child id="5820306262933755617" name="insertNewNode" index="AS3tk" />
         <child id="7238779735251877228" name="editorComponent" index="1yzFaX" />
+        <child id="6046489571270834038" name="foldedCellModel" index="3EmGlc" />
       </concept>
       <concept id="5820306262933110156" name="com.mbeddr.mpsutil.editor.querylist.structure.Function_InsertNewNode" flags="ig" index="ARxKT" />
       <concept id="5820306262933734929" name="com.mbeddr.mpsutil.editor.querylist.structure.Parameter_AnchorNode" flags="ng" index="AS6u$" />
@@ -382,7 +383,10 @@
       <node concept="3EZMnI" id="535SrlQ5QB3" role="3EZMnx">
         <node concept="3F0ifn" id="535SrlQ5QB4" role="3EZMnx">
           <property role="3F0ifm" value="expressions:" />
-          <node concept="ljvvj" id="535SrlQ5VPe" role="3F10Kt">
+          <node concept="ljvvj" id="57wonSLX3DJ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pVoyu" id="57wonSLX3DK" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -411,7 +415,6 @@
               </node>
             </node>
           </node>
-          <node concept="2iRkQZ" id="535SrlQ5QBg" role="2czzBy" />
           <node concept="lj46D" id="535SrlQ5Vdv" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -558,6 +561,10 @@
               </node>
             </node>
           </node>
+          <node concept="3F0ifn" id="57wonSLX3DT" role="3EmGlc">
+            <property role="3F0ifm" value="folded" />
+          </node>
+          <node concept="2iRkQZ" id="535SrlQ5QBg" role="2czzBy" />
         </node>
         <node concept="l2Vlx" id="535SrlQ5QBh" role="2iSdaV" />
         <node concept="VPM3Z" id="535SrlQ5QBi" role="3F10Kt">
@@ -778,7 +785,7 @@
               <node concept="2OqwBi" id="lPJxik9iuv" role="3cqZAk">
                 <node concept="2hkjam" id="lPJxik9il1" role="2Oq$k0" />
                 <node concept="liA8E" id="lPJxik9iXI" role="2OqNvi">
-                  <ref role="37wK5l" to="d2zl:lPJxik8Xgp" resolve="forChild" />
+                  <ref role="37wK5l" to="d2zl:2Fugwv5Fpi_" resolve="forChild" />
                   <node concept="37vLTw" id="3jHPIDngupV" role="37wK5m">
                     <ref role="3cqZAo" node="lPJxik8ump" resolve="body" />
                   </node>

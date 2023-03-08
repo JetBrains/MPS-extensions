@@ -285,10 +285,14 @@
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
@@ -6768,7 +6772,7 @@
     </node>
     <node concept="2tJIrI" id="4_SQzDOcJ0Y" role="jymVt" />
     <node concept="3clFb_" id="4_SQzDOcIKd" role="jymVt">
-      <property role="TrG5h" value="runWith" />
+      <property role="TrG5h" value="runWith2" />
       <node concept="37vLTG" id="4_SQzDOcIKe" role="3clF46">
         <property role="TrG5h" value="newValue" />
         <node concept="16syzq" id="4_SQzDOcIKf" role="1tU5fm">
@@ -6820,6 +6824,18 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="P$JXv" id="5rdcegMqgl0" role="lGtFl">
+        <node concept="TZ5HI" id="5rdcegMqgl1" role="3nqlJM">
+          <node concept="TZ5HA" id="5rdcegMqgl2" role="3HnX3l">
+            <node concept="1dT_AC" id="5rdcegMqjF8" role="1dT_Ay">
+              <property role="1dT_AB" value="Renamed to resolve ambiguity. runWith should work in both cases." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5rdcegMqgl3" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
       </node>
     </node>
     <node concept="2tJIrI" id="32qWz0M44Vc" role="jymVt" />

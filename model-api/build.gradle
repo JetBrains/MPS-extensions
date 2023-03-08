@@ -19,7 +19,7 @@ repositories {
     maven { url "https://repo.maven.apache.org/maven2" }
     mavenCentral()
     mavenLocal()
-    maven { url 'https://projects.itemis.de/nexus/content/groups/OS/' }                
+    maven { url 'https://projects.itemis.de/nexus/content/groups/OS/' }
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {

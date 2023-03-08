@@ -20,6 +20,7 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="wtuq" ref="r:ebe120ba-74f3-4913-8ba8-dc7299e610f9(de.slisson.mps.richtext.util)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
@@ -541,6 +542,17 @@
                           <ref role="3cqZAo" node="3gBYXhg3Ncn" resolve="myNode" />
                         </node>
                         <node concept="I4A8Y" id="3gBYXhg3Ncy" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="ygSdP$vQjM" role="3cqZAp">
+                    <node concept="3clFbS" id="ygSdP$vQjO" role="3clFbx">
+                      <node concept="3cpWs6" id="ygSdP$w10n" role="3cqZAp" />
+                    </node>
+                    <node concept="3clFbC" id="ygSdP$vWQz" role="3clFbw">
+                      <node concept="10Nm6u" id="ygSdP$vYxB" role="3uHU7w" />
+                      <node concept="37vLTw" id="ygSdP$vTkL" role="3uHU7B">
+                        <ref role="3cqZAo" node="3gBYXhg3Ncu" resolve="myModel" />
                       </node>
                     </node>
                   </node>
@@ -1209,8 +1221,8 @@
                                     </node>
                                   </node>
                                   <node concept="10M0yZ" id="6nUV0qFIOOe" role="37wK5m">
-                                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
                                     <ref role="3cqZAo" to="z60i:~Color.WHITE" resolve="WHITE" />
+                                    <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
                                   </node>
                                   <node concept="3clFbT" id="6nUV0qFIOOf" role="37wK5m" />
                                 </node>
@@ -1781,8 +1793,8 @@
                                     </node>
                                   </node>
                                   <node concept="10M0yZ" id="6nUV0qFIONU" role="37wK5m">
-                                    <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
                                     <ref role="3cqZAo" to="z60i:~Color.WHITE" resolve="WHITE" />
+                                    <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
                                   </node>
                                   <node concept="3clFbT" id="6nUV0qFIONZ" role="37wK5m" />
                                 </node>

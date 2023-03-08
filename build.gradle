@@ -7,7 +7,7 @@ buildscript {
     }
     dependencies {
         classpath('de.itemis.mps:mps-gradle-plugin:1.13+')
-        classpath("org.modelix.mpsbuild:gradle-plugin:1.0.+")
+        // classpath("org.modelix.mpsbuild:gradle-plugin:1.0.+")
     }
 }
 
@@ -56,6 +56,7 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 ext.dependencyRepositories = [
+        'https://artifacts.itemis.cloud/repository/maven-mps/',
         'https://projects.itemis.de/nexus/content/repositories/mbeddr',
         'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
 ]
@@ -103,8 +104,8 @@ if (project.hasProperty("MPS_PATHS_SELECTOR")) {
     ext.mpsPluginsDir = sprintf(mpsPluginsDirPattern, "MPS$mpsMajor")
 }
 
-ext.releaseRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr'
-ext.snapshotRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots'
+ext.releaseRepository = 'https://artifacts.itemis.cloud/repository/maven-mps-releases/'
+ext.snapshotRepository = 'https://artifacts.itemis.cloud/repository/maven-mps-snapshots/'
 ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRepository : releaseRepository
 
 
@@ -144,6 +145,49 @@ if (project.skipResolveMps) {
         into mpsHomeDir
     }
 }
+
+// -------- Model API ----------------------
+
+configurations {
+    modelApi
+}
+
+dependencies {
+    def modelixCoreVersion = "1.5.4"
+    modelApi("org.modelix:model-api:$modelixCoreVersion")
+    modelApi("org.modelix:metamodel-generator:$modelixCoreVersion")
+}
+
+task copyModelApi() {
+    dependsOn configurations.modelApi
+    doLast {
+        // copy transitive dependencies without version in the file name
+        // otherwise each new version would require a change of the MPS solution
+        def libFolder = file("$projectDir/code/model-api/org.modelix.model.api/lib")
+        libFolder.deleteDir()
+        libFolder.mkdir()
+        def versionsFile = file("$libFolder/versions.txt")
+        for (final def artifact in configurations.modelApi.resolvedConfiguration.resolvedArtifacts) {
+            // these libs are part of MPS
+            if (
+                    artifact.moduleVersion.id.name.startsWith("log4j")
+                    || artifact.moduleVersion.id.name.startsWith("annotations")
+                    || artifact.moduleVersion.id.name.startsWith("slf4j-api")
+
+            ) {
+                versionsFile.append("already part of mps: " + artifact.file.name + "\n")
+                continue
+            }
+
+            def sourceFile = java.nio.file.Path.of(artifact.file.absolutePath)
+            def targetFile = java.nio.file.Path.of(libFolder.absolutePath).resolve(artifact.moduleVersion.id.name + "." + artifact.extension)
+            java.nio.file.Files.copy(sourceFile, targetFile)
+            versionsFile.append(artifact.file.name + "\n")
+        }
+    }
+}
+
+// -----------------------------------------
 
 // Ant support
 configurations {
@@ -187,8 +231,7 @@ ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
 		resolveMps,
-        ':model-api:assemble',
-        ':model-api:copyJarsToMps',
+        copyModelApi,
 ]) {
     script "$rootDir/scripts/build.xml"
 }
@@ -233,10 +276,10 @@ configurations {
 }
 dependencies {
     junitAnt 'junit:junit:4.12'
-    junitAnt('org.apache.ant:ant-junit:1.9.7') {
+    junitAnt('org.apache.ant:ant-junit:1.10.9') {
         transitive = false
     }
-    junitAnt('org.apache.ant:ant-junit4:1.9.7') {
+    junitAnt('org.apache.ant:ant-junit4:1.10.9') {
         transitive = false
     }
 }
@@ -260,41 +303,35 @@ task cleanMps(type: Delete) {
 clean.dependsOn cleanMps
 assemble.dependsOn packageExtensions
 
-publishing {
-    repositories {
-        if (project.hasProperty('nexusUsername')) {
-            maven {
-                name = "oldItemisNexus"
-                url project.publishingRepository
-                credentials {
-                    username project.nexusUsername
-                    password project.nexusPassword
+allprojects {
+    apply plugin: 'maven-publish'
+    publishing {
+        repositories {
+            if (rootProject.hasProperty("artifacts.itemis.cloud.user") && rootProject.hasProperty("artifacts.itemis.cloud.pw")) {
+                maven {
+                    name = "itemisCloud"
+                    url = project.publishingRepository
+                    credentials {
+                        username = rootProject.findProperty("artifacts.itemis.cloud.user")
+                        password = rootProject.findProperty("artifacts.itemis.cloud.pw")
+                    }
                 }
             }
-        }
-        if (project.hasProperty("artifacts.itemis.cloud.user") && project.hasProperty("artifacts.itemis.cloud.pw")) {
-            maven {
-                name = "itemisCloud"
-                url = project.version.contains("SNAPSHOT")
-                        ? uri("https://artifacts.itemis.cloud/repository/maven-mps-snapshots/")
-                        : uri("https://artifacts.itemis.cloud/repository/maven-mps-releases/")
-                credentials {
-                    username = project.findProperty("artifacts.itemis.cloud.user")
-                    password = project.findProperty("artifacts.itemis.cloud.pw")
-                }
-            }
-        }
-        if (project.hasProperty("gpr.token")) {
-            maven {
-                name = "GitHubPackages"
-                url = "https://maven.pkg.github.com/JetBrains/MPS-extensions"
-                credentials {
-                    username = project.findProperty("gpr.user")
-                    password = project.findProperty("gpr.token")
+            if (rootProject.hasProperty("gpr.token")) {
+                maven {
+                    name = "GitHubPackages"
+                    url = "https://maven.pkg.github.com/JetBrains/MPS-extensions"
+                    credentials {
+                        username = rootProject.findProperty("gpr.user")
+                        password = rootProject.findProperty("gpr.token")
+                    }
                 }
             }
         }
     }
+}
+
+publishing {
     publications {
         extensions(MavenPublication) {
             groupId 'de.itemis.mps'
@@ -318,7 +355,7 @@ publishing {
 
 task pipInstall(type: Exec) {
     inputs.file("requirements.txt")
-    commandLine "pip", "install", "-r", "requirements.txt"
+    commandLine "python3", "-m", "pip", "install", "-r", "requirements.txt"
 }
 
 task previewDocs(type: Exec, dependsOn: pipInstall) {
@@ -365,11 +402,12 @@ github {
 
 githubRelease.dependsOn packageExtensions
 
+/*
 group "io.github.jetbrains.mps-extensions"
 apply plugin: "modelix-gradle-mpsbuild-plugin"
 
 mpsBuild {
-    dependsOn(":model-api:assemble", ":model-api:copyJarsToMps")
+    dependsOn(copyModelApi)
 
     mpsVersion("$mpsVersion")
     stubs("org.apache.commons:commons-math3:3.6.1")
@@ -508,11 +546,6 @@ mpsBuild {
         module("com.mbeddr.mpsutil.editor.querylist.runtime")
     }
 
-    publication("tooltips") {
-        module("de.itemis.mps.tooltips")
-        module("de.itemis.mps.tooltips.runtime")
-    }
-
     publication("collapsible") {
         module("de.itemis.mps.editor.collapsible")
         module("de.itemis.mps.editor.collapsible.runtime")
@@ -554,3 +587,4 @@ mpsBuild {
         module("org.modelix.model.repositoryconcepts")
     }
 }
+*/

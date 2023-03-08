@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="org.apache.commons" uuid="b0f8641f-bd77-4421-8425-30d9088a82f7" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
-    <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="models" />
-    </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/commons-csv-1.0/commons-csv-1.0.jar" />
       <sourceRoot location="lib/commons-io-2.4/commons-io-2.4.jar" />

@@ -28,6 +28,7 @@
     <import index="kcid" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/)" />
     <import index="88dm" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tooltips(MPS.Platform/)" />
     <import index="3qmy" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.classloading(MPS.Core/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
@@ -292,9 +293,13 @@
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
+      </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -1392,8 +1397,8 @@
             <node concept="liA8E" id="2a194$K08vi" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
               <node concept="10M0yZ" id="7CEHNszDLZH" role="37wK5m">
-                <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
-                <ref role="3cqZAo" to="z60i:~Color.BLUE" resolve="BLUE" />
+                <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                <ref role="3cqZAo" to="lzb2:~JBColor.BLUE" resolve="BLUE" />
               </node>
             </node>
           </node>
@@ -4303,6 +4308,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6zKSYRPT1Tp" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6P69MwyuUOc" role="lGtFl">
+      <node concept="TZ5HI" id="6P69MwyuUOd" role="3nqlJM">
+        <node concept="TZ5HA" id="6P69MwyuUOe" role="3HnX3l">
+          <node concept="1dT_AC" id="6P69MwyuUPF" role="1dT_Ay">
+            <property role="1dT_AB" value="Use jetbrains.mps.lang.editor.tooltips.runtime" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2AHcQZ" id="6P69MwyuUOf" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
   </node>
   <node concept="3HP615" id="6zKSYRPTHMF">
     <property role="TrG5h" value="ITooltipProvider" />
@@ -4340,6 +4357,18 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="6zKSYRPTHMG" role="1B3o_S" />
+    <node concept="3UR2Jj" id="6P69MwyuWsh" role="lGtFl">
+      <node concept="TZ5HI" id="6P69MwyuWsi" role="3nqlJM">
+        <node concept="TZ5HA" id="6P69MwyuWsj" role="3HnX3l">
+          <node concept="1dT_AC" id="6P69MwyuWtv" role="1dT_Ay">
+            <property role="1dT_AB" value="Use jetbrains.mps.lang.editor.tooltips.runtime" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2AHcQZ" id="6P69MwyuWsk" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
   </node>
   <node concept="312cEu" id="5P1DsEq0kG5">
     <property role="TrG5h" value="TooltipLazyLoadingContext" />

@@ -17,6 +17,9 @@
     <import index="r3rm" ref="r:7fc96130-6279-4a55-aeeb-422a6879539d(de.itemis.mps.editor.diagram.runtime.jgraph)" />
     <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
+    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
+    <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
+    <import index="g1qu" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util.ui(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -95,6 +98,9 @@
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -1855,24 +1861,47 @@
       <node concept="3cqZAl" id="6uo2fN6yu8q" role="3clF45" />
       <node concept="3Tm1VV" id="6uo2fN6yu8r" role="1B3o_S" />
       <node concept="3clFbS" id="6uo2fN6yu8s" role="3clF47">
-        <node concept="3clFbF" id="6uo2fN6yu8t" role="3cqZAp">
-          <node concept="2OqwBi" id="6uo2fN6yu8u" role="3clFbG">
-            <node concept="37vLTw" id="6uo2fN6yu8v" role="2Oq$k0">
-              <ref role="3cqZAo" node="6uo2fN6yu8A" resolve="g" />
+        <node concept="3clFbJ" id="4w64dgq$SbD" role="3cqZAp">
+          <node concept="3clFbS" id="4w64dgq$SbF" role="3clFbx">
+            <node concept="3clFbF" id="4w64dgq$UrB" role="3cqZAp">
+              <node concept="2OqwBi" id="4w64dgq$UrC" role="3clFbG">
+                <node concept="37vLTw" id="4w64dgq$UrD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6uo2fN6yu8A" resolve="g" />
+                </node>
+                <node concept="liA8E" id="4w64dgq$UrE" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
+                  <node concept="2YIFZM" id="oUEeqEZPtu" role="37wK5m">
+                    <ref role="37wK5l" to="lzb2:~ColorUtil.darker(java.awt.Color,int)" resolve="darker" />
+                    <ref role="1Pybhc" to="lzb2:~ColorUtil" resolve="ColorUtil" />
+                    <node concept="10M0yZ" id="4w64dgq$UrF" role="37wK5m">
+                      <ref role="3cqZAo" to="exr9:~MPSColors.LIGHT_BLUE" resolve="LIGHT_BLUE" />
+                      <ref role="1PxDUh" to="exr9:~MPSColors" resolve="MPSColors" />
+                    </node>
+                    <node concept="3cmrfG" id="oUEeqEZQeT" role="37wK5m">
+                      <property role="3cmrfH" value="3" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="6uo2fN6yu8w" role="2OqNvi">
-              <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
-              <node concept="2ShNRf" id="61ORDkd5BwF" role="37wK5m">
-                <node concept="1pGfFk" id="61ORDkd5BwG" role="2ShVmc">
-                  <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-                  <node concept="2nou5x" id="61ORDkd5BwH" role="37wK5m">
-                    <property role="2noCCI" value="C3" />
+          </node>
+          <node concept="2YIFZM" id="4w64dgq$TL_" role="3clFbw">
+            <ref role="37wK5l" to="g1qu:~UIUtil.isUnderDarcula()" resolve="isUnderDarcula" />
+            <ref role="1Pybhc" to="g1qu:~UIUtil" resolve="UIUtil" />
+          </node>
+          <node concept="9aQIb" id="4w64dgq$TYx" role="9aQIa">
+            <node concept="3clFbS" id="4w64dgq$TYy" role="9aQI4">
+              <node concept="3clFbF" id="6uo2fN6yu8t" role="3cqZAp">
+                <node concept="2OqwBi" id="6uo2fN6yu8u" role="3clFbG">
+                  <node concept="37vLTw" id="6uo2fN6yu8v" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6uo2fN6yu8A" resolve="g" />
                   </node>
-                  <node concept="2nou5x" id="61ORDkd5BwI" role="37wK5m">
-                    <property role="2noCCI" value="D9" />
-                  </node>
-                  <node concept="2nou5x" id="61ORDkd5BwJ" role="37wK5m">
-                    <property role="2noCCI" value="FF" />
+                  <node concept="liA8E" id="6uo2fN6yu8w" role="2OqNvi">
+                    <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
+                    <node concept="10M0yZ" id="2WI5qekdZ2" role="37wK5m">
+                      <ref role="1PxDUh" to="exr9:~MPSColors" resolve="MPSColors" />
+                      <ref role="3cqZAo" to="exr9:~MPSColors.LIGHT_BLUE" resolve="LIGHT_BLUE" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1921,17 +1950,42 @@
             </node>
             <node concept="liA8E" id="6uo2fN6yu8N" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
-              <node concept="2ShNRf" id="61ORDkd5BFP" role="37wK5m">
-                <node concept="1pGfFk" id="61ORDkd5BFQ" role="2ShVmc">
-                  <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
-                  <node concept="2nou5x" id="61ORDkd5BFR" role="37wK5m">
-                    <property role="2noCCI" value="64" />
+              <node concept="2ShNRf" id="2WI5qekCVc" role="37wK5m">
+                <node concept="1pGfFk" id="2WI5qekDzX" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="lzb2:~JBColor.&lt;init&gt;(java.awt.Color,java.awt.Color)" resolve="JBColor" />
+                  <node concept="2ShNRf" id="61ORDkd5BFP" role="37wK5m">
+                    <node concept="1pGfFk" id="61ORDkd5BFQ" role="2ShVmc">
+                      <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
+                      <node concept="2nou5x" id="61ORDkd5BFR" role="37wK5m">
+                        <property role="2noCCI" value="64" />
+                      </node>
+                      <node concept="2nou5x" id="61ORDkd5BFS" role="37wK5m">
+                        <property role="2noCCI" value="82" />
+                      </node>
+                      <node concept="2nou5x" id="61ORDkd5BFT" role="37wK5m">
+                        <property role="2noCCI" value="B9" />
+                      </node>
+                    </node>
                   </node>
-                  <node concept="2nou5x" id="61ORDkd5BFS" role="37wK5m">
-                    <property role="2noCCI" value="82" />
-                  </node>
-                  <node concept="2nou5x" id="61ORDkd5BFT" role="37wK5m">
-                    <property role="2noCCI" value="B9" />
+                  <node concept="2OqwBi" id="4w64dgpS8is" role="37wK5m">
+                    <node concept="2ShNRf" id="2WI5qekE7T" role="2Oq$k0">
+                      <node concept="1pGfFk" id="2WI5qekE7U" role="2ShVmc">
+                        <ref role="37wK5l" to="z60i:~Color.&lt;init&gt;(int,int,int)" resolve="Color" />
+                        <node concept="2nou5x" id="2WI5qekE7V" role="37wK5m">
+                          <property role="2noCCI" value="64" />
+                        </node>
+                        <node concept="2nou5x" id="2WI5qekE7W" role="37wK5m">
+                          <property role="2noCCI" value="82" />
+                        </node>
+                        <node concept="2nou5x" id="2WI5qekE7X" role="37wK5m">
+                          <property role="2noCCI" value="B9" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4w64dgpS8MK" role="2OqNvi">
+                      <ref role="37wK5l" to="z60i:~Color.darker()" resolve="darker" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1977,7 +2031,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6uo2fN6yu93" role="3cqZAp">
+        <node concept="3clFbF" id="2WI5qekEBX" role="3cqZAp">
           <node concept="2OqwBi" id="6uo2fN6yu94" role="3clFbG">
             <node concept="37vLTw" id="6uo2fN6yu95" role="2Oq$k0">
               <ref role="3cqZAo" node="6uo2fN6yu8Y" resolve="g" />

@@ -11273,31 +11273,6 @@
             </node>
           </node>
         </node>
-        <node concept="1BupzO" id="3_sZyadwfwI" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="3_sZyadwfwJ" role="1HemKq">
-            <node concept="398BVA" id="3_sZyadwfwz" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="3_sZyadwfw$" role="iGT6I">
-                <property role="2Ry0Am" value="shadowmodels" />
-                <node concept="2Ry0Ak" id="3_sZyadwfw_" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="3_sZyadwfwA" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
-                    <node concept="2Ry0Ak" id="3_sZyadwfwB" role="2Ry0An">
-                      <property role="2Ry0Am" value="models" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="3_sZyadwfwK" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
     <node concept="2G$12M" id="BRK1N8p1kg" role="3989C9">

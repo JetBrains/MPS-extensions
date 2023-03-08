@@ -371,11 +371,11 @@
     </node>
     <node concept="3lhOvk" id="65PHFmamNIg" role="3lj3bC">
       <ref role="30HIoZ" to="t6jl:65PHFmamJEQ" resolve="Tree" />
-      <ref role="3lhOvi" node="3OQCuKRw1Vh" />
+      <ref role="3lhOvi" node="3OQCuKRw1Vh" resolve="ListAsHierarchy" />
     </node>
     <node concept="3lhOvk" id="3OQCuKRwrjv" role="3lj3bC">
       <ref role="30HIoZ" to="t6jl:65PHFmamJEQ" resolve="Tree" />
-      <ref role="3lhOvi" node="3OQCuKRwdt9" />
+      <ref role="3lhOvi" node="3OQCuKRwdt9" resolve="ListFlattened" />
     </node>
   </node>
   <node concept="356sEV" id="3OQCuKRw1Vh">

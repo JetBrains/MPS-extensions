@@ -234,7 +234,7 @@
     <ref role="1XX52x" to="rcub:7OTEScInvy$" resolve="SumExpression" />
     <node concept="1D9qH6" id="7OTEScInAfh" role="2wV5jI">
       <node concept="1AGncr" id="7OTEScInAfv" role="1AhB$e">
-        <ref role="1AGmCo" to="zva4:5PByBcuq5z_" />
+        <ref role="1AGmCo" to="zva4:5PByBcuq5z_" resolve="SumSymbolSerif" />
       </node>
       <node concept="3F1sOY" id="7OTEScInAmw" role="1B_Wn3">
         <ref role="1NtTu8" to="rcub:4CDVPmpGfJP" resolve="body" />
@@ -332,7 +332,7 @@
     <ref role="1XX52x" to="rcub:4CDVPmpGfIF" resolve="Product" />
     <node concept="1D9qH6" id="4CDVPmpGjDG" role="2wV5jI">
       <node concept="1AGncr" id="4CDVPmpGjEd" role="1AhB$e">
-        <ref role="1AGmCo" to="zva4:4r1mNB_UBwx" />
+        <ref role="1AGmCo" to="zva4:4r1mNB_UBwx" resolve="ProductSymbol" />
       </node>
       <node concept="3F1sOY" id="4CDVPmpGjDI" role="1B_Wn3">
         <ref role="1NtTu8" to="rcub:4CDVPmpGfJP" resolve="body" />

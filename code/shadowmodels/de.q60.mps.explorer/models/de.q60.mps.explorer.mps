@@ -1134,9 +1134,9 @@
                       <node concept="2OqwBi" id="4iwHBRd6DKm" role="2Oq$k0">
                         <node concept="2tJFMh" id="4iwHBRd6DKn" role="2Oq$k0">
                           <node concept="ZC_QK" id="4iwHBRd6DKo" role="2tJFKM">
-                            <ref role="2aWVGs" to="yo94:41QOk3IEF5c" />
+                            <ref role="2aWVGs" to="yo94:41QOk3IEF5c" resolve="TraceBuilders_base" />
                             <node concept="ZC_QK" id="476rsMJiiMu" role="2aWVGa">
-                              <ref role="2aWVGs" to="yo94:476rsMJhYDz" />
+                              <ref role="2aWVGs" to="yo94:476rsMJhYDz" resolve="mainView" />
                             </node>
                           </node>
                         </node>
@@ -1169,9 +1169,9 @@
                       <node concept="2OqwBi" id="4iwHBRd6I3j" role="2Oq$k0">
                         <node concept="2tJFMh" id="4iwHBRd6I3k" role="2Oq$k0">
                           <node concept="ZC_QK" id="4iwHBRd6I3l" role="2tJFKM">
-                            <ref role="2aWVGs" to="yo94:41QOk3IEF5c" />
+                            <ref role="2aWVGs" to="yo94:41QOk3IEF5c" resolve="TraceBuilders_base" />
                             <node concept="ZC_QK" id="4iwHBRd6TA9" role="2aWVGa">
-                              <ref role="2aWVGs" to="yo94:476rsMJikeJ" />
+                              <ref role="2aWVGs" to="yo94:476rsMJikeJ" resolve="detailView" />
                             </node>
                           </node>
                         </node>
@@ -2542,9 +2542,9 @@
                   <node concept="2OqwBi" id="1rUziX7lRg4" role="2Oq$k0">
                     <node concept="2tJFMh" id="1rUziX7lRg5" role="2Oq$k0">
                       <node concept="ZC_QK" id="1rUziX7lRg6" role="2tJFKM">
-                        <ref role="2aWVGs" to="yo94:41QOk3IEF5c" />
+                        <ref role="2aWVGs" to="yo94:41QOk3IEF5c" resolve="TraceBuilders_base" />
                         <node concept="ZC_QK" id="1rUziX7m1nb" role="2aWVGa">
-                          <ref role="2aWVGs" to="yo94:2Vy1$4MUb4Q" />
+                          <ref role="2aWVGs" to="yo94:2Vy1$4MUb4Q" resolve="explorerContextGroup" />
                         </node>
                       </node>
                     </node>
@@ -2600,9 +2600,9 @@
                     <node concept="2OqwBi" id="41QOk3IXTtY" role="2Oq$k0">
                       <node concept="2tJFMh" id="41QOk3IXSB$" role="2Oq$k0">
                         <node concept="ZC_QK" id="41QOk3IXSLX" role="2tJFKM">
-                          <ref role="2aWVGs" to="yo94:41QOk3IEF5c" />
+                          <ref role="2aWVGs" to="yo94:41QOk3IEF5c" resolve="TraceBuilders_base" />
                           <node concept="ZC_QK" id="41QOk3IXTcK" role="2aWVGa">
-                            <ref role="2aWVGs" to="yo94:41QOk3IG6WO" />
+                            <ref role="2aWVGs" to="yo94:41QOk3IG6WO" resolve="buildTree" />
                           </node>
                         </node>
                       </node>

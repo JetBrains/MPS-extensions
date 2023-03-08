@@ -589,9 +589,9 @@
           <property role="TrG5h" value="Event2" />
         </node>
         <node concept="2r747a" id="651tS80wVsK" role="2r746X">
-          <ref role="2r741x" node="651tS80wVsI" />
-          <ref role="2r741U" node="651tS80wVsG" />
-          <ref role="2r741I" node="651tS80wVsP" />
+          <ref role="2r741x" node="651tS80wVsI" resolve="State1" />
+          <ref role="2r741U" node="651tS80wVsG" resolve="Event1" />
+          <ref role="2r741I" node="651tS80wVsP" resolve="State2" />
         </node>
         <node concept="LIFWc" id="651tS80wVsS" role="lGtFl">
           <property role="LIFWa" value="0" />
@@ -2091,9 +2091,9 @@
           <property role="TrG5h" value="Event2" />
         </node>
         <node concept="2r747a" id="xHXNSek3Eo" role="2r746X">
-          <ref role="2r741I" node="xHXNSek3Ek" />
-          <ref role="2r741x" node="xHXNSek3Ej" />
-          <ref role="2r741U" node="xHXNSek3El" />
+          <ref role="2r741I" node="xHXNSek3Ek" resolve="State2" />
+          <ref role="2r741x" node="xHXNSek3Ej" resolve="State1" />
+          <ref role="2r741U" node="xHXNSek3El" resolve="Event1" />
         </node>
         <node concept="LIFWc" id="D0xzCAzS9E" role="lGtFl">
           <property role="LIFWa" value="3" />
@@ -2120,9 +2120,9 @@
           <property role="TrG5h" value="Event2" />
         </node>
         <node concept="2r747a" id="4dUgPRE4oYI" role="2r746X">
-          <ref role="2r741x" node="4dUgPRE4oYD" />
-          <ref role="2r741I" node="4dUgPRE4oYE" />
-          <ref role="2r741U" node="4dUgPRE4oYF" />
+          <ref role="2r741x" node="4dUgPRE4oYD" resolve="State1" />
+          <ref role="2r741I" node="4dUgPRE4oYE" resolve="State2" />
+          <ref role="2r741U" node="4dUgPRE4oYF" resolve="Event1" />
         </node>
       </node>
     </node>
@@ -2159,9 +2159,9 @@
           <property role="TrG5h" value="Event2" />
         </node>
         <node concept="2r747a" id="4dUgPRE4Apf" role="2r746X">
-          <ref role="2r741x" node="4dUgPRE4Apa" />
-          <ref role="2r741U" node="4dUgPRE4Apc" />
-          <ref role="2r741I" node="4dUgPRE4Apb" />
+          <ref role="2r741x" node="4dUgPRE4Apa" resolve="State1" />
+          <ref role="2r741U" node="4dUgPRE4Apc" resolve="Event1" />
+          <ref role="2r741I" node="4dUgPRE4Apb" resolve="State2" />
         </node>
       </node>
     </node>
@@ -2181,9 +2181,9 @@
           <property role="TrG5h" value="Event2" />
         </node>
         <node concept="2r747a" id="4dUgPREbCog" role="2r746X">
-          <ref role="2r741x" node="4dUgPREbCob" />
-          <ref role="2r741I" node="4dUgPREbCod" />
-          <ref role="2r741U" node="4dUgPREbCoe" />
+          <ref role="2r741x" node="4dUgPREbCob" resolve="State1" />
+          <ref role="2r741I" node="4dUgPREbCod" resolve="State2" />
+          <ref role="2r741U" node="4dUgPREbCoe" resolve="Event1" />
         </node>
       </node>
     </node>

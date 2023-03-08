@@ -81,21 +81,21 @@
         <property role="gqqTy" value="60.0" />
       </node>
       <node concept="2PBxew" id="7RCHUl_m6ZW" role="2PBxlK">
-        <ref role="2PBxlG" node="4_qW8fWN$sU" />
+        <ref role="2PBxlG" node="4_qW8fWN$sU" resolve="Entaswdfity" />
         <node concept="2VclpC" id="56Tfdun38jY" role="lGtFl" />
       </node>
       <node concept="2PBxew" id="7RCHUl_m70c" role="2PBxlK">
-        <ref role="2PBxlG" node="4_qW8fWLLPe" />
+        <ref role="2PBxlG" node="4_qW8fWLLPe" resolve="Speciality" />
         <node concept="2VclpC" id="56Tfdun38kY" role="lGtFl" />
       </node>
       <node concept="2PBxew" id="7RCHUl_m70u" role="2PBxlK">
-        <ref role="2PBxlG" node="4_qW8fWLAcf" />
+        <ref role="2PBxlG" node="4_qW8fWLAcf" resolve="SpecialPerson" />
         <node concept="2VclpC" id="56Tfdun38oR" role="lGtFl" />
       </node>
     </node>
     <node concept="2PBybn" id="4_qW8fWLAcf" role="2PBxlY">
       <property role="TrG5h" value="SpecialPerson" />
-      <ref role="2PBxlP" node="4_qW8fWLrfq" />
+      <ref role="2PBxlP" node="4_qW8fWLrfq" resolve="Person" />
       <node concept="gqqVs" id="56Tfdun38hZ" role="lGtFl">
         <property role="gqqTZ" value="255.0" />
         <property role="gqqTW" value="158.0" />
@@ -104,14 +104,14 @@
       </node>
       <node concept="2PBxew" id="4_qW8fWLLPn" role="2PBxlK">
         <property role="TrG5h" value="spe4ciality" />
-        <ref role="2PBxlG" node="4_qW8fWN$sU" />
+        <ref role="2PBxlG" node="4_qW8fWN$sU" resolve="Entaswdfity" />
         <node concept="2VclpC" id="56Tfdun38ke" role="lGtFl" />
       </node>
     </node>
     <node concept="2PBybn" id="4_qW8fWLLPe" role="2PBxlY">
       <property role="TrG5h" value="Speciality" />
       <node concept="2PBxew" id="7RCHUl_m6Zo" role="2PBxlK">
-        <ref role="2PBxlG" node="4_qW8fWLAcf" />
+        <ref role="2PBxlG" node="4_qW8fWLAcf" resolve="SpecialPerson" />
         <node concept="2VclpC" id="56Tfdun38pF" role="lGtFl" />
       </node>
       <node concept="2PBxex" id="4_qW8fWLLPl" role="2PBxlM">
@@ -124,11 +124,11 @@
         <property role="gqqTy" value="82.0" />
       </node>
       <node concept="2PBxew" id="7RCHUl_m6Z2" role="2PBxlK">
-        <ref role="2PBxlG" node="4_qW8fWN$sU" />
+        <ref role="2PBxlG" node="4_qW8fWN$sU" resolve="Entaswdfity" />
         <node concept="2VclpC" id="56Tfdun38lk" role="lGtFl" />
       </node>
       <node concept="2PBxew" id="7RCHUl_m6Zc" role="2PBxlK">
-        <ref role="2PBxlG" node="4_qW8fWLrfq" />
+        <ref role="2PBxlG" node="4_qW8fWLrfq" resolve="Person" />
         <node concept="2VclpC" id="56Tfdun38nH" role="lGtFl" />
       </node>
     </node>

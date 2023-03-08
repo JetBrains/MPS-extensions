@@ -94,19 +94,19 @@
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="3bf11hdN2CM" role="3lj3bC">
       <ref role="30HIoZ" to="b7rd:3bf11hdN2og" resolve="TestConcept" />
-      <ref role="3lhOvi" node="3bf11hdN3$B" resolve="map_TestConcept" />
+      <ref role="3lhOvi" node="3bf11hdN3$B" />
     </node>
     <node concept="3lhOvk" id="2VrnFamdTZs" role="3lj3bC">
       <ref role="30HIoZ" to="b7rd:3bf11hdN2og" resolve="TestConcept" />
-      <ref role="3lhOvi" node="2VrnFamdTZv" resolve="map_MacroTest" />
+      <ref role="3lhOvi" node="2VrnFamdTZv" />
     </node>
     <node concept="3lhOvk" id="2u5C0BwyFN_" role="3lj3bC">
       <ref role="30HIoZ" to="b7rd:3bf11hdN2og" resolve="TestConcept" />
-      <ref role="3lhOvi" node="2u5C0BwyFND" resolve="map_tabbedMacroTest" />
+      <ref role="3lhOvi" node="2u5C0BwyFND" />
     </node>
     <node concept="3lhOvk" id="2u5C0BwzQzJ" role="3lj3bC">
       <ref role="30HIoZ" to="b7rd:3bf11hdN2og" resolve="TestConcept" />
-      <ref role="3lhOvi" node="2u5C0BwzQzO" resolve="map_mixedMacroTestConcept" />
+      <ref role="3lhOvi" node="2u5C0BwzQzO" />
     </node>
   </node>
   <node concept="356sEV" id="3bf11hdN3$B">

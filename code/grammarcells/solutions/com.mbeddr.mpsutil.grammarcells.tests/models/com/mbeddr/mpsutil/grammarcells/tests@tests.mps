@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="a257f68c-93a3-47b0-838b-6905dd9c20f6" name="com.mbeddr.mpsutil.grammarcells.sandboxlang" version="0" />
     <use id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -2917,7 +2917,7 @@
           <property role="TrG5h" value="f1" />
           <node concept="2cssWo" id="5ycts4Slml2" role="2cssWr">
             <node concept="1wCzcP" id="5ycts4Slml3" role="2cssZA">
-              <ref role="1wCzcQ" node="5ycts4Slml6" resolve="f12" />
+              <ref role="1wCzcQ" node="5ycts4Slml6" />
             </node>
           </node>
           <node concept="yzEQC" id="5ycts4Slml5" role="yzEPe" />

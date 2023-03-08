@@ -89,15 +89,15 @@
     </node>
     <node concept="24m3Ya" id="5I2DPFvQSf7" role="24m4$c" />
     <node concept="24mLEY" id="5I2DPFvRwz3" role="24m4$c">
-      <ref role="24nbRD" node="5I2DPFvQUXg" resolve="IGeneratesText" />
+      <ref role="24nbRD" node="5I2DPFvQUXg" />
       <ref role="24naYn" to="tpck:h0TrEE$" resolve="INamedConcept" />
       <node concept="24nq9u" id="5I2DPFw3JrW" role="24n3oQ">
-        <ref role="24nq6r" node="5I2DPFw3Joo" resolve="generateText" />
+        <ref role="24nq6r" node="5I2DPFw3Joo" />
         <node concept="3clFbS" id="5I2DPFw3JrY" role="24nq6t">
           <node concept="3clFbF" id="1KLm$DhQ2BX" role="3cqZAp">
             <node concept="2OqwBi" id="1KLm$DhQ2Wv" role="3clFbG">
               <node concept="24pWH2" id="1KLm$DhSEgS" role="2Oq$k0">
-                <ref role="24pWH3" node="1KLm$DhRLd8" resolve="ctx" />
+                <ref role="24pWH3" node="1KLm$DhRLd8" />
               </node>
               <node concept="liA8E" id="1KLm$DhQ3QU" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />

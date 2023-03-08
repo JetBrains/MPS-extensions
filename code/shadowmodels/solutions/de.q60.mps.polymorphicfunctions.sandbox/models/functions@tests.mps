@@ -2,7 +2,7 @@
 <model ref="r:775db337-196b-4586-ac45-7d35b1989cd0(de.q60.mps.polymorphicfunctions.sandbox.functions@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
@@ -23,6 +23,7 @@
       </concept>
       <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -169,6 +170,7 @@
   </node>
   <node concept="1lH9Xt" id="3jJoUQ7bu0n">
     <property role="TrG5h" value="TextGen" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="3jJoUQ7buh$" role="1SL9yI">
       <property role="TrG5h" value="textGenResult" />
       <node concept="3cqZAl" id="3jJoUQ7buh_" role="3clF45" />
@@ -207,7 +209,7 @@
                         <node concept="2OqwBi" id="3jJoUQ7bKGu" role="37wK5m">
                           <node concept="2tJFMh" id="3jJoUQ7bKGv" role="2Oq$k0">
                             <node concept="ZC_QK" id="3jJoUQ7bKGw" role="2tJFKM">
-                              <ref role="2aWVGs" to="97nk:1upvoB3RQrK" resolve="classTextgen" />
+                              <ref role="2aWVGs" to="97nk:1upvoB3RQrK" />
                             </node>
                           </node>
                           <node concept="Vyspw" id="3jJoUQ7bKGx" role="2OqNvi">
@@ -239,9 +241,9 @@
                     <node concept="2OqwBi" id="3jJoUQ7bOb$" role="2Oq$k0">
                       <node concept="2tJFMh" id="3jJoUQ7bOb_" role="2Oq$k0">
                         <node concept="ZC_QK" id="3jJoUQ7bObA" role="2tJFKM">
-                          <ref role="2aWVGs" to="97nk:1upvoB3RQrK" resolve="classTextgen" />
+                          <ref role="2aWVGs" to="97nk:1upvoB3RQrK" />
                           <node concept="ZC_QK" id="3jJoUQ7bObB" role="2aWVGa">
-                            <ref role="2aWVGs" to="97nk:3jJoUQ6XOYm" resolve="nodeToText" />
+                            <ref role="2aWVGs" to="97nk:3jJoUQ6XOYm" />
                           </node>
                         </node>
                       </node>
@@ -344,6 +346,7 @@
   </node>
   <node concept="1lH9Xt" id="1sd2boLoOKz">
     <property role="TrG5h" value="TextGen_withAnnotation" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="1sd2boLoOK$" role="1SL9yI">
       <property role="TrG5h" value="textGenResult" />
       <node concept="3cqZAl" id="1sd2boLoOK_" role="3clF45" />
@@ -382,7 +385,7 @@
                         <node concept="2OqwBi" id="1sd2boLoOKR" role="37wK5m">
                           <node concept="2tJFMh" id="1sd2boLoOKS" role="2Oq$k0">
                             <node concept="ZC_QK" id="1sd2boLoOKT" role="2tJFKM">
-                              <ref role="2aWVGs" to="97nk:1upvoB3RQrK" resolve="classTextgen" />
+                              <ref role="2aWVGs" to="97nk:1upvoB3RQrK" />
                             </node>
                           </node>
                           <node concept="Vyspw" id="1sd2boLoOKU" role="2OqNvi">
@@ -414,9 +417,9 @@
                     <node concept="2OqwBi" id="1sd2boLoOL4" role="2Oq$k0">
                       <node concept="2tJFMh" id="1sd2boLoOL5" role="2Oq$k0">
                         <node concept="ZC_QK" id="1sd2boLoOL6" role="2tJFKM">
-                          <ref role="2aWVGs" to="97nk:1upvoB3RQrK" resolve="classTextgen" />
+                          <ref role="2aWVGs" to="97nk:1upvoB3RQrK" />
                           <node concept="ZC_QK" id="1sd2boLoOL7" role="2aWVGa">
-                            <ref role="2aWVGs" to="97nk:3jJoUQ6XOYm" resolve="nodeToText" />
+                            <ref role="2aWVGs" to="97nk:3jJoUQ6XOYm" />
                           </node>
                         </node>
                       </node>

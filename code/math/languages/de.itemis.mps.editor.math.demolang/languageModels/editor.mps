@@ -256,7 +256,7 @@
     <ref role="1XX52x" to="96v7:7wCpClEKmWK" resolve="Integral" />
     <node concept="2zsM42" id="4r1mNB_Hypf" role="2wV5jI">
       <node concept="1AGncr" id="3EpCmwwTn6K" role="2zsM0K">
-        <ref role="1AGmCo" to="zva4:4r1mNB_G5Ie" resolve="BeautifulIntegralSymbol" />
+        <ref role="1AGmCo" to="zva4:4r1mNB_G5Ie" />
       </node>
       <node concept="3F1sOY" id="4r1mNB_HypO" role="2zsM45">
         <ref role="1NtTu8" to="96v7:7wCpClEKRDU" resolve="body" />
@@ -273,10 +273,10 @@
     <ref role="1XX52x" to="96v7:7wCpClF8N1D" resolve="Parentheses" />
     <node concept="1BQ6jc" id="2_93Dm81Xek" role="2wV5jI">
       <node concept="1AGncr" id="2_93Dm82oxv" role="1BQo7f">
-        <ref role="1AGmCo" to="zva4:6vUATgmxhjl" resolve="LeftParenthesis" />
+        <ref role="1AGmCo" to="zva4:6vUATgmxhjl" />
       </node>
       <node concept="1AGncr" id="2_93Dm82oxr" role="1BQo77">
-        <ref role="1AGmCo" to="zva4:6vUATgmxhjS" resolve="RightParenthesis" />
+        <ref role="1AGmCo" to="zva4:6vUATgmxhjS" />
       </node>
       <node concept="3F1sOY" id="2_93Dm81XeD" role="1BQ6eu">
         <ref role="1NtTu8" to="96v7:7wCpClF96RP" resolve="body" />
@@ -317,7 +317,7 @@
     <ref role="1XX52x" to="96v7:7UiI8OoXq7L" resolve="Sum2" />
     <node concept="1D9qH6" id="7UiI8OoXqia" role="2wV5jI">
       <node concept="1AGncr" id="5PByBcurKBD" role="1AhB$e">
-        <ref role="1AGmCo" to="zva4:5PByBcuq5z_" resolve="SumSymbolSerif" />
+        <ref role="1AGmCo" to="zva4:5PByBcuq5z_" />
       </node>
       <node concept="3F1sOY" id="7UiI8OoXxaB" role="1B_Wn3">
         <ref role="1NtTu8" to="96v7:9L22EoXBFv" resolve="body" />
@@ -359,7 +359,7 @@
     <ref role="1XX52x" to="96v7:7UiI8Op6bw4" resolve="Sum3" />
     <node concept="1D9qH6" id="7UiI8OoSejK" role="2wV5jI">
       <node concept="1AGncr" id="4r1mNB_R0Pn" role="1AhB$e">
-        <ref role="1AGmCo" to="zva4:4r1mNB_DOiz" resolve="UglySumSymbol" />
+        <ref role="1AGmCo" to="zva4:4r1mNB_DOiz" />
       </node>
       <node concept="3F1sOY" id="7UiI8Op6d6J" role="1B_Wn2">
         <ref role="1NtTu8" to="96v7:9L22EoXBFs" resolve="upper" />
@@ -400,7 +400,7 @@
         <ref role="1NtTu8" to="96v7:73f6OzXxOZS" resolve="body" />
       </node>
       <node concept="1AGncr" id="4XhobVUfyBf" role="2dIXc_">
-        <ref role="1AGmCo" to="zva4:6vUATgmxhhb" resolve="ArrowLeft" />
+        <ref role="1AGmCo" to="zva4:6vUATgmxhhb" />
       </node>
     </node>
   </node>

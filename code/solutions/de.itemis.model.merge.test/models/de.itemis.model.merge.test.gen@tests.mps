@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="0ef84c01-bf36-41ed-9882-d7b70a4a4eba" name="de.itemis.model.merge.diamond" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
@@ -24,6 +24,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1216993439383" name="methods" index="1qtyYc" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
@@ -233,6 +234,7 @@
   </node>
   <node concept="1lH9Xt" id="2C9csoi8JyF">
     <property role="TrG5h" value="genTestsForPropertyMergers" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="2C9csoiBQbh" role="1SL9yI">
       <property role="TrG5h" value="rightPropertyMerge" />
       <node concept="3cqZAl" id="2C9csoiBQbi" role="3clF45" />
@@ -571,6 +573,7 @@
   </node>
   <node concept="1lH9Xt" id="368jN$K71$Y">
     <property role="TrG5h" value="genTestsForSingletonChildMerger" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="368jN$K7iND" role="1SL9yI">
       <property role="TrG5h" value="testLeft" />
       <node concept="3cqZAl" id="368jN$K7iNE" role="3clF45" />
@@ -972,6 +975,7 @@
   </node>
   <node concept="1lH9Xt" id="368jN$Ko6W4">
     <property role="TrG5h" value="genTestsForOptionalChildMerger" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="368jN$Ko6X7" role="1SL9yI">
       <property role="TrG5h" value="testLeft" />
       <node concept="3cqZAl" id="368jN$Ko6X8" role="3clF45" />
@@ -1496,6 +1500,7 @@
   </node>
   <node concept="1lH9Xt" id="1Av7Chm6hiX">
     <property role="TrG5h" value="genTestsForRefMerger" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="1Av7Chm9$7_" role="1SKRRt">
       <node concept="a8euX" id="1Av7Chm9$7I" role="1qenE9">
         <property role="a8euY" value="234" />
@@ -1983,6 +1988,7 @@
   </node>
   <node concept="1lH9Xt" id="3xLnOvEDK3H">
     <property role="TrG5h" value="genTestsForCollectionChildMerger" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="3xLnOvEDK3I" role="1SL9yI">
       <property role="TrG5h" value="testCollectionMerge" />
       <node concept="3cqZAl" id="3xLnOvEDK3J" role="3clF45" />

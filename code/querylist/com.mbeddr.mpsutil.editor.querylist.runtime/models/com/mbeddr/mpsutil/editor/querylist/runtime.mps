@@ -3359,7 +3359,7 @@
                   <node concept="3cpWsn" id="4Oc83Ifb$px" role="3cpWs9">
                     <property role="TrG5h" value="lookup" />
                     <node concept="3uibUv" id="4Oc83Ifb$k$" role="1tU5fm">
-                      <ref role="3uigEE" to="e5kc:~MethodHandles$Lookup" resolve="Lookup" />
+                      <ref role="3uigEE" to="e5kc:~MethodHandles$Lookup" resolve="MethodHandles.Lookup" />
                     </node>
                     <node concept="2YIFZM" id="4Oc83Ifb$py" role="33vP2m">
                       <ref role="37wK5l" to="e5kc:~MethodHandles.privateLookupIn(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)" resolve="privateLookupIn" />

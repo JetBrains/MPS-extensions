@@ -223,10 +223,10 @@ def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.
 afterEvaluate {
     project.ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.getByName('downloadJbr').javaExecutable
     def jdk_home = null
-    if (ext.has('java11_home')) {
-        jdk_home = ext.get('java11_home')
-    } else if (System.getenv('JB_JAVA11_HOME') != null) {
-        jdk_home = System.getenv('JB_JAVA11_HOME')
+    if (ext.has('java17_home')) {
+        jdk_home = ext.get('java17_home')
+    } else if (System.getenv('JB_JAVA17_HOME') != null) {
+        jdk_home = System.getenv('JB_JAVA17_HOME')
     }
     if(jdk_home != null) {
         if (!new File(jdk_home, "lib").exists()) {

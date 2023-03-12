@@ -11,7 +11,7 @@ buildscript {
 }
 
 plugins {
-    id "co.riiid.gradle" version "0.4.2"
+   id "com.github.breadmoirai.github-release" version "2.4.1"
 }
 
 apply plugin: 'maven-publish'
@@ -416,16 +416,18 @@ if (rootProject.hasProperty("nightly_build")) {
 }
 
 
-github {
+githubRelease {
     owner = 'jetbrains'
     repo = 'MPS-extensions'
     token = rootProject.findProperty("github.token") ?: "empty"
     tagName = releaseTagName
     targetCommitish = GitBasedVersioning.getGitCommitHash()
-    name = releaseName
     body = releaseNotes
     prerelease = rootProject.hasProperty("nightly_build")
-    assets = packageExtensions.outputs.files.files.collect {it.path}
+    releaseAssets = packageExtensions.outputs.files.files.collect {it.path}
+    dryRun = false
 }
 
-githubRelease.dependsOn packageExtensions
+tasks.named('githubRelease').configure {
+    dependsOn packageExtensions
+}

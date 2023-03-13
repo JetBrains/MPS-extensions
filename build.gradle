@@ -171,7 +171,7 @@ configurations {
 }
 
 dependencies {
-    def modelixCoreVersion = "1.5.4"
+    def modelixCoreVersion = "1.6.0"
     modelApi("org.modelix:model-api:$modelixCoreVersion")
 }
 

@@ -11945,25 +11945,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="4VPKBwf$4Qk" role="3bR37C">
-          <node concept="1BurEX" id="4VPKBwf$4Ql" role="1SiIV1">
-            <node concept="398BVA" id="4VPKBwf$4Q9" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4VPKBwf$4Qa" role="iGT6I">
-                <property role="2Ry0Am" value="model-api" />
-                <node concept="2Ry0Ak" id="4VPKBwf$4Qb" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modelix.model.api" />
-                  <node concept="2Ry0Ak" id="4VPKBwf$4Qc" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="4VPKBwf$4Qd" role="2Ry0An">
-                      <property role="2Ry0Am" value="kaml-jvm.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="4VPKBwf$4Qx" role="3bR37C">
           <node concept="1BurEX" id="4VPKBwf$4Qy" role="1SiIV1">
             <node concept="398BVA" id="4VPKBwf$4Qm" role="1BurEY">
@@ -11976,44 +11957,6 @@
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="4VPKBwf$4Qq" role="2Ry0An">
                       <property role="2Ry0Am" value="kotlin-logging-jvm.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4VPKBwf$4QI" role="3bR37C">
-          <node concept="1BurEX" id="4VPKBwf$4QJ" role="1SiIV1">
-            <node concept="398BVA" id="4VPKBwf$4Qz" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4VPKBwf$4Q$" role="iGT6I">
-                <property role="2Ry0Am" value="model-api" />
-                <node concept="2Ry0Ak" id="4VPKBwf$4Q_" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modelix.model.api" />
-                  <node concept="2Ry0Ak" id="4VPKBwf$4QA" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="4VPKBwf$4QB" role="2Ry0An">
-                      <property role="2Ry0Am" value="kotlin-reflect.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4VPKBwf$4RB" role="3bR37C">
-          <node concept="1BurEX" id="4VPKBwf$4RC" role="1SiIV1">
-            <node concept="398BVA" id="4VPKBwf$4Rs" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4VPKBwf$4Rt" role="iGT6I">
-                <property role="2Ry0Am" value="model-api" />
-                <node concept="2Ry0Ak" id="4VPKBwf$4Ru" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modelix.model.api" />
-                  <node concept="2Ry0Ak" id="4VPKBwf$4Rv" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="4VPKBwf$4Rw" role="2Ry0An">
-                      <property role="2Ry0Am" value="kotlinpoet.jar" />
                     </node>
                   </node>
                 </node>
@@ -12052,63 +11995,6 @@
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="4VPKBwf$4RU" role="2Ry0An">
                       <property role="2Ry0Am" value="kotlinx-serialization-json-jvm.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4VPKBwf$4Se" role="3bR37C">
-          <node concept="1BurEX" id="4VPKBwf$4Sf" role="1SiIV1">
-            <node concept="398BVA" id="4VPKBwf$4S3" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4VPKBwf$4S4" role="iGT6I">
-                <property role="2Ry0Am" value="model-api" />
-                <node concept="2Ry0Ak" id="4VPKBwf$4S5" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modelix.model.api" />
-                  <node concept="2Ry0Ak" id="4VPKBwf$4S6" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="4VPKBwf$4S7" role="2Ry0An">
-                      <property role="2Ry0Am" value="metamodel-generator.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4VPKBwf$4Sr" role="3bR37C">
-          <node concept="1BurEX" id="4VPKBwf$4Ss" role="1SiIV1">
-            <node concept="398BVA" id="4VPKBwf$4Sg" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4VPKBwf$4Sh" role="iGT6I">
-                <property role="2Ry0Am" value="model-api" />
-                <node concept="2Ry0Ak" id="4VPKBwf$4Si" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modelix.model.api" />
-                  <node concept="2Ry0Ak" id="4VPKBwf$4Sj" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="4VPKBwf$4Sk" role="2Ry0An">
-                      <property role="2Ry0Am" value="metamodel-runtime-jvm.jar" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="4VPKBwf$4T0" role="3bR37C">
-          <node concept="1BurEX" id="4VPKBwf$4T1" role="1SiIV1">
-            <node concept="398BVA" id="4VPKBwf$4SP" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4VPKBwf$4SQ" role="iGT6I">
-                <property role="2Ry0Am" value="model-api" />
-                <node concept="2Ry0Ak" id="4VPKBwf$4SR" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modelix.model.api" />
-                  <node concept="2Ry0Ak" id="4VPKBwf$4SS" role="2Ry0An">
-                    <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="4VPKBwf$4ST" role="2Ry0An">
-                      <property role="2Ry0Am" value="snakeyaml-engine.jar" />
                     </node>
                   </node>
                 </node>

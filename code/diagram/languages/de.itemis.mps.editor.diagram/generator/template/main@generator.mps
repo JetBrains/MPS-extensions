@@ -5037,6 +5037,37 @@
                                                     </node>
                                                   </node>
                                                 </node>
+                                                <node concept="2tJIrI" id="2YJ6SvpdKMa" role="jymVt" />
+                                                <node concept="2tJIrI" id="2YJ6SvpdKSv" role="jymVt" />
+                                                <node concept="3clFb_" id="2YJ6SvpdLQ5" role="jymVt">
+                                                  <property role="TrG5h" value="saveSubDiagramLayoutInDiagram" />
+                                                  <node concept="3Tm1VV" id="2YJ6SvpdLQ9" role="1B3o_S" />
+                                                  <node concept="10P_77" id="2YJ6SvpdLQa" role="3clF45" />
+                                                  <node concept="3clFbS" id="2YJ6SvpdLQc" role="3clF47">
+                                                    <node concept="3clFbF" id="2YJ6SvpdQp1" role="3cqZAp">
+                                                      <node concept="3clFbT" id="2YJ6SvpdQp0" role="3clFbG">
+                                                        <property role="3clFbU" value="true" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                  <node concept="2AHcQZ" id="2YJ6SvpdLQd" role="2AJF6D">
+                                                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                                  </node>
+                                                  <node concept="1W57fq" id="2YJ6SvpdRkp" role="lGtFl">
+                                                    <node concept="3IZrLx" id="2YJ6SvpdRks" role="3IZSJc">
+                                                      <node concept="3clFbS" id="2YJ6SvpdRkt" role="2VODD2">
+                                                        <node concept="3clFbF" id="2YJ6SvpdRkz" role="3cqZAp">
+                                                          <node concept="2OqwBi" id="2YJ6SvpdRku" role="3clFbG">
+                                                            <node concept="3TrcHB" id="2YJ6SvpdRkx" role="2OqNvi">
+                                                              <ref role="3TsBF5" to="2qld:2YJ6Svp2O0G" resolve="saveSubdiagramLayoutInDiagram" />
+                                                            </node>
+                                                            <node concept="30H73N" id="2YJ6SvpdRky" role="2Oq$k0" />
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
                                               </node>
                                             </node>
                                           </node>

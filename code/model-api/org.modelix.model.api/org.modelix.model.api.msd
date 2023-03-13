@@ -8,14 +8,8 @@
       <sourceRoot location="kotlin-stdlib-jdk8.jar" />
       <sourceRoot location="kotlin-stdlib.jar" />
       <sourceRoot location="kotlin-logging-jvm.jar" />
-      <sourceRoot location="snakeyaml-engine.jar" />
-      <sourceRoot location="kotlinpoet.jar" />
       <sourceRoot location="kotlinx-serialization-core-jvm.jar" />
       <sourceRoot location="kotlinx-serialization-json-jvm.jar" />
-      <sourceRoot location="metamodel-generator.jar" />
-      <sourceRoot location="metamodel-runtime-jvm.jar" />
-      <sourceRoot location="kotlin-reflect.jar" />
-      <sourceRoot location="kaml-jvm.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -24,20 +18,14 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${module}/lib/kaml-jvm.jar" />
     <stubModelEntry path="${module}/lib/kotlin-logging-jvm.jar" />
-    <stubModelEntry path="${module}/lib/kotlin-reflect.jar" />
     <stubModelEntry path="${module}/lib/kotlin-stdlib-common.jar" />
     <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk7.jar" />
     <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk8.jar" />
     <stubModelEntry path="${module}/lib/kotlin-stdlib.jar" />
-    <stubModelEntry path="${module}/lib/kotlinpoet.jar" />
     <stubModelEntry path="${module}/lib/kotlinx-serialization-core-jvm.jar" />
     <stubModelEntry path="${module}/lib/kotlinx-serialization-json-jvm.jar" />
-    <stubModelEntry path="${module}/lib/metamodel-generator.jar" />
-    <stubModelEntry path="${module}/lib/metamodel-runtime-jvm.jar" />
     <stubModelEntry path="${module}/lib/model-api-jvm.jar" />
-    <stubModelEntry path="${module}/lib/snakeyaml-engine.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

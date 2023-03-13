@@ -16760,6 +16760,87 @@
         </node>
       </node>
     </node>
+    <node concept="Wx3nA" id="3kKupiVQqkL" role="jymVt">
+      <property role="TrG5h" value="stereotypeAccessor" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="3kKupiVQqkM" role="1tU5fm">
+        <ref role="3uigEE" node="qmkA5fP_R1" resolve="TreeElementAsNode.IPropertyAccessor" />
+        <node concept="3uibUv" id="3kKupiVQqkN" role="11_B2D">
+          <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="3kKupiVQqkO" role="1B3o_S" />
+      <node concept="2ShNRf" id="3kKupiVQqkP" role="33vP2m">
+        <node concept="YeOm9" id="3kKupiVQqkQ" role="2ShVmc">
+          <node concept="1Y3b0j" id="3kKupiVQqkR" role="YeSDq">
+            <property role="2bfB8j" value="true" />
+            <ref role="1Y3XeK" node="qmkA5fP_R1" resolve="TreeElementAsNode.IPropertyAccessor" />
+            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+            <node concept="3Tm1VV" id="3kKupiVQqkS" role="1B3o_S" />
+            <node concept="3clFb_" id="3kKupiVQqkT" role="jymVt">
+              <property role="TrG5h" value="get" />
+              <property role="1EzhhJ" value="false" />
+              <node concept="37vLTG" id="3kKupiVQqkU" role="3clF46">
+                <property role="TrG5h" value="element" />
+                <node concept="3uibUv" id="3kKupiVQqkV" role="1tU5fm">
+                  <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                </node>
+              </node>
+              <node concept="17QB3L" id="3kKupiVQqkW" role="3clF45" />
+              <node concept="3Tm1VV" id="3kKupiVQqkX" role="1B3o_S" />
+              <node concept="3clFbS" id="3kKupiVQqkY" role="3clF47">
+                <node concept="3clFbF" id="3kKupiVQqkZ" role="3cqZAp">
+                  <node concept="2OqwBi" id="3kKupiVQql0" role="3clFbG">
+                    <node concept="2OqwBi" id="3kKupiVQql1" role="2Oq$k0">
+                      <node concept="37vLTw" id="3kKupiVQql2" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3kKupiVQqkU" resolve="element" />
+                      </node>
+                      <node concept="liA8E" id="3kKupiVQql3" role="2OqNvi">
+                        <ref role="37wK5l" to="mhbf:~SModel.getName()" resolve="getName" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3kKupiVQql4" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SModelName.getStereotype()" resolve="getStereotype" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3uibUv" id="3kKupiVQql5" role="2Ghqu4">
+              <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+            </node>
+            <node concept="3clFb_" id="3kKupiVQql6" role="jymVt">
+              <property role="TrG5h" value="set" />
+              <property role="1EzhhJ" value="false" />
+              <node concept="37vLTG" id="3kKupiVQql7" role="3clF46">
+                <property role="TrG5h" value="element" />
+                <node concept="3uibUv" id="3kKupiVQql8" role="1tU5fm">
+                  <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
+                </node>
+              </node>
+              <node concept="37vLTG" id="3kKupiVQql9" role="3clF46">
+                <property role="TrG5h" value="value" />
+                <node concept="17QB3L" id="3kKupiVQqla" role="1tU5fm" />
+              </node>
+              <node concept="17QB3L" id="3kKupiVQqlb" role="3clF45" />
+              <node concept="3Tm1VV" id="3kKupiVQqlc" role="1B3o_S" />
+              <node concept="3clFbS" id="3kKupiVQqld" role="3clF47">
+                <node concept="YS8fn" id="3kKupiVQqle" role="3cqZAp">
+                  <node concept="2ShNRf" id="3kKupiVQqlf" role="YScLw">
+                    <node concept="1pGfFk" id="3kKupiVQqlg" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~UnsupportedOperationException.&lt;init&gt;(java.lang.String)" resolve="UnsupportedOperationException" />
+                      <node concept="Xl_RD" id="3kKupiVQqlh" role="37wK5m">
+                        <property role="Xl_RC" value="Stereotype is read only" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="Wx3nA" id="4EQRJK_BPrX" role="jymVt">
       <property role="TrG5h" value="idAccessor" />
       <property role="3TUv4t" value="false" />
@@ -17725,6 +17806,32 @@
                   <ref role="355D3u" to="jh6v:2hbxkgeTB8i" resolve="id" />
                 </node>
                 <node concept="liA8E" id="4EQRJK_BUcC" role="2OqNvi">
+                  <ref role="37wK5l" to="c17a:~SProperty.getName()" resolve="getName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3kKupiVQv1H" role="3cqZAp">
+          <node concept="3clFbS" id="3kKupiVQv1I" role="3clFbx">
+            <node concept="3cpWs6" id="3kKupiVQv1J" role="3cqZAp">
+              <node concept="37vLTw" id="3kKupiVQv1K" role="3cqZAk">
+                <ref role="3cqZAo" node="3kKupiVQqkL" resolve="stereotypeAccessor" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3kKupiVQv1L" role="3clFbw">
+            <node concept="37vLTw" id="3kKupiVQv1M" role="2Oq$k0">
+              <ref role="3cqZAo" node="qmkA5fRbcC" resolve="role" />
+            </node>
+            <node concept="liA8E" id="3kKupiVQv1N" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+              <node concept="2OqwBi" id="3kKupiVQv1O" role="37wK5m">
+                <node concept="355D3s" id="3kKupiVQv1P" role="2Oq$k0">
+                  <ref role="355D3t" to="jh6v:qmkA5fOskc" resolve="Model" />
+                  <ref role="355D3u" to="jh6v:3kKupiVQlyd" resolve="stereotype" />
+                </node>
+                <node concept="liA8E" id="3kKupiVQv1Q" role="2OqNvi">
                   <ref role="37wK5l" to="c17a:~SProperty.getName()" resolve="getName" />
                 </node>
               </node>

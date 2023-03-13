@@ -82,6 +82,11 @@
       <property role="TrG5h" value="id" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="3kKupiVQlyd" role="1TKVEl">
+      <property role="IQ2nx" value="3832696962605996173" />
+      <property role="TrG5h" value="stereotype" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="qmkA5fOskk" role="1TKVEi">
       <property role="IQ2ns" value="474657388638618900" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

@@ -2,9 +2,9 @@
 <model ref="r:a0e8eec9-3c43-4072-a029-dd3c52aaa564(de.itemis.model.merge.simple.demo.test@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
     <use id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi" version="0" />
     <use id="8688ed72-e0ba-44cb-9688-5c8397cb5bbb" name="de.itemis.model.simple.demo.children" version="0" />
@@ -44,6 +44,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1216993439383" name="methods" index="1qtyYc" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
@@ -306,6 +307,7 @@
   </registry>
   <node concept="1lH9Xt" id="6Ltuup4vyIj">
     <property role="TrG5h" value="PropertyMergeExecution" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="6Ltuup4v_NP" role="1SL9yI">
       <property role="TrG5h" value="testPropertyMerge" />
       <node concept="3cqZAl" id="6Ltuup4v_NQ" role="3clF45" />
@@ -501,6 +503,7 @@
   </node>
   <node concept="1lH9Xt" id="6Ltuup4wNKw">
     <property role="TrG5h" value="ManualChildMergeExecution" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="6Ltuup4wNL7" role="1SL9yI">
       <property role="TrG5h" value="manualChildMerging" />
       <node concept="3cqZAl" id="6Ltuup4wNL8" role="3clF45" />
@@ -601,6 +604,7 @@
   </node>
   <node concept="1lH9Xt" id="6Ltuup4wYSw">
     <property role="TrG5h" value="AutoChildMergeExecution" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="6Ltuup4wZbC" role="1SL9yI">
       <property role="TrG5h" value="autoChildMerging" />
       <node concept="3cqZAl" id="6Ltuup4wZbD" role="3clF45" />
@@ -906,6 +910,7 @@
   </node>
   <node concept="1lH9Xt" id="77Ot_5af$7e">
     <property role="TrG5h" value="AutoChildCollectionMergeExecution" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="77Ot_5af$7f" role="1SL9yI">
       <property role="TrG5h" value="autoChildMergingDropLDropR" />
       <node concept="3cqZAl" id="77Ot_5af$7g" role="3clF45" />
@@ -1583,6 +1588,7 @@
   </node>
   <node concept="1lH9Xt" id="1Tugx$wUtq">
     <property role="TrG5h" value="RefMergeExecutionTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="2XrIbr" id="1Tugx_rSG2" role="1qtyYc">
       <property role="TrG5h" value="assertSequenceContains" />
       <node concept="37vLTG" id="1Tugx_rVIF" role="3clF46">
@@ -2024,6 +2030,7 @@
   </node>
   <node concept="1lH9Xt" id="4LLXBGbv8iN">
     <property role="TrG5h" value="PropertyMergeExecutionWithEmptyModel" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="4LLXBGbv8iO" role="1SL9yI">
       <property role="TrG5h" value="testPropertyMergeWithEmptyModel" />
       <node concept="3cqZAl" id="4LLXBGbv8iP" role="3clF45" />
@@ -2216,6 +2223,7 @@
   </node>
   <node concept="1lH9Xt" id="4LLXBGbHXwq">
     <property role="TrG5h" value="AutoChildMergeExecutionWithEmptyModel" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="4LLXBGbHXwr" role="1SL9yI">
       <property role="TrG5h" value="autoChildMerging" />
       <node concept="3cqZAl" id="4LLXBGbHXws" role="3clF45" />

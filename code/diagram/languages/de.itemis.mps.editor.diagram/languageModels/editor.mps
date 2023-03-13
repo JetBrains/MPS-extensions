@@ -713,6 +713,24 @@
             </node>
             <node concept="2iRfu4" id="45g3j8ia4Dw" role="2iSdaV" />
           </node>
+          <node concept="3EZMnI" id="2YJ6Svp2Ooy" role="3EZMnx">
+            <node concept="VPM3Z" id="2YJ6Svp2Ooz" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="2YJ6Svp2Oo$" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="2YJ6Svp2Oo_" role="3EZMnx">
+              <property role="3F0ifm" value="save subdiagram layout in this diagram" />
+            </node>
+            <node concept="3F0A7n" id="2YJ6Svp2OoA" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:2YJ6Svp2O0G" resolve="saveSubDiagramLayoutInDiagram" />
+              <node concept="VPXOz" id="2YJ6Svp2OoB" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="2YJ6Svp2OoC" role="2iSdaV" />
+          </node>
         </node>
         <node concept="2iRfu4" id="5qgNcfDnGw9" role="2iSdaV" />
         <node concept="3F0ifn" id="5qgNcfDnGxf" role="3EZMnx" />

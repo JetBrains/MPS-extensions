@@ -42,7 +42,6 @@
         <child id="1207145201301" name="reference" index="ftvYc" />
       </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
-        <property id="1211298967294" name="outsideCommandExecution" index="72QZ$" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <property id="7458746815261976739" name="requiredAccess" index="2YLI8m" />
         <child id="1203083196627" name="updateBlock" index="tmbBb" />
@@ -1457,7 +1456,6 @@
     <property role="TrG5h" value="GoToEditorLine" />
     <property role="2uzpH1" value="Go to Editor Line" />
     <property role="2YLI8m" value="6u2MFnph2wS/none" />
-    <property role="72QZ$" value="true" />
     <node concept="2XrIbr" id="3C4j4UfOffZ" role="32lrUH">
       <property role="TrG5h" value="findLine" />
       <node concept="37vLTG" id="3C4j4UfOfHA" role="3clF46">
@@ -1729,12 +1727,6 @@
           <node concept="3clFbS" id="QZV4qCNXVX" role="3clFbx">
             <node concept="3clFbF" id="QZV4qCO15D" role="3cqZAp">
               <node concept="2OqwBi" id="QZV4qCO1On" role="3clFbG">
-                <node concept="2OqwBi" id="QZV4qCO15z" role="2Oq$k0">
-                  <node concept="2WthIp" id="QZV4qCO15A" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="QZV4qCO15C" role="2OqNvi">
-                    <ref role="2WH_rO" node="QZV4qCNngC" resolve="component" />
-                  </node>
-                </node>
                 <node concept="liA8E" id="QZV4qCO2SP" role="2OqNvi">
                   <ref role="37wK5l" to="exr9:~EditorComponent.changeSelection(jetbrains.mps.openapi.editor.cells.EditorCell)" resolve="changeSelection" />
                   <node concept="2OqwBi" id="509q6HGHbJJ" role="37wK5m">
@@ -1744,6 +1736,12 @@
                     <node concept="liA8E" id="509q6HGHc5C" role="2OqNvi">
                       <ref role="37wK5l" node="509q6HGGoGa" resolve="getCell" />
                     </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="QZV4qCO15z" role="2Oq$k0">
+                  <node concept="2WthIp" id="QZV4qCO15A" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="QZV4qCO15C" role="2OqNvi">
+                    <ref role="2WH_rO" node="QZV4qCNngC" resolve="component" />
                   </node>
                 </node>
               </node>

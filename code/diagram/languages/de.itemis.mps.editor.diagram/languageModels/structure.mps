@@ -105,6 +105,11 @@
       <property role="TrG5h" value="runAutoLayoutOnInit" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="2YJ6Svp2O0G" role="1TKVEl">
+      <property role="IQ2nx" value="3435995310982905900" />
+      <property role="TrG5h" value="saveSubDiagramLayoutInDiagram" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="7vufT$lixNl" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paletteFolder" />

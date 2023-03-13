@@ -39,9 +39,9 @@
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="qvne" ref="r:8ff33705-85bf-4855-805c-06d68fbe233c(jetbrains.mps.editor.runtime.descriptor)" />
-    <import index="8byu" ref="r:34a4cfb6-903f-41e9-95dc-ea24a6097ced(jetbrains.mps.lang.editor.tooltips.structure)" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" />
     <import index="u8j" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="8byu" ref="r:34a4cfb6-903f-41e9-95dc-ea24a6097ced(jetbrains.mps.lang.editor.tooltips.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
@@ -5031,6 +5031,37 @@
                                                               <node concept="30H73N" id="5wo2$Nn28rF" role="2Oq$k0" />
                                                             </node>
                                                             <node concept="3x8VRR" id="5wo2$Nn28rG" role="2OqNvi" />
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="2tJIrI" id="2YJ6SvpdKMa" role="jymVt" />
+                                                <node concept="2tJIrI" id="2YJ6SvpdKSv" role="jymVt" />
+                                                <node concept="3clFb_" id="2YJ6SvpdLQ5" role="jymVt">
+                                                  <property role="TrG5h" value="saveSubDiagramLayoutInDiagram" />
+                                                  <node concept="3Tm1VV" id="2YJ6SvpdLQ9" role="1B3o_S" />
+                                                  <node concept="10P_77" id="2YJ6SvpdLQa" role="3clF45" />
+                                                  <node concept="3clFbS" id="2YJ6SvpdLQc" role="3clF47">
+                                                    <node concept="3clFbF" id="2YJ6SvpdQp1" role="3cqZAp">
+                                                      <node concept="3clFbT" id="2YJ6SvpdQp0" role="3clFbG">
+                                                        <property role="3clFbU" value="true" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                  <node concept="2AHcQZ" id="2YJ6SvpdLQd" role="2AJF6D">
+                                                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                                  </node>
+                                                  <node concept="1W57fq" id="2YJ6SvpdRkp" role="lGtFl">
+                                                    <node concept="3IZrLx" id="2YJ6SvpdRks" role="3IZSJc">
+                                                      <node concept="3clFbS" id="2YJ6SvpdRkt" role="2VODD2">
+                                                        <node concept="3clFbF" id="2YJ6SvpdRkz" role="3cqZAp">
+                                                          <node concept="2OqwBi" id="2YJ6SvpdRku" role="3clFbG">
+                                                            <node concept="3TrcHB" id="2YJ6SvpdRkx" role="2OqNvi">
+                                                              <ref role="3TsBF5" to="2qld:2YJ6Svp2O0G" resolve="saveSubdiagramLayoutInDiagram" />
+                                                            </node>
+                                                            <node concept="30H73N" id="2YJ6SvpdRky" role="2Oq$k0" />
                                                           </node>
                                                         </node>
                                                       </node>

@@ -130,14 +130,14 @@ ext.skipResolveMps = project.hasProperty('mpsHomeDir')
 ext.mpsHomeDir = rootProject.file(project.findProperty('mpsHomeDir') ?: "$buildDir/mps")
 
 if (project.skipResolveMps) {
-    task resolveMps {
+    task resolveMps(dependsOn: ['downloadJbr']) {
         doLast {
             logger.info "MPS resolution skipped"
             logger.info "MPS home: " + mpsHomeDir.getAbsolutePath()
         }
     }
 } else {
-    task resolveMps(type: Copy) {
+    task resolveMps(type: Copy, dependsOn: ['downloadJbr']) {
         dependsOn configurations.mps
         from {
             configurations.mps.resolve().collect { zipTree(it) }
@@ -221,19 +221,6 @@ def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.
 
 afterEvaluate {
     project.ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.getByName('downloadJbr').javaExecutable
-    def jdk_home = null
-    if (ext.has('java17_home')) {
-        jdk_home = ext.get('java17_home')
-    } else if (System.getenv('JB_JAVA17_HOME') != null) {
-        jdk_home = System.getenv('JB_JAVA17_HOME')
-    }
-    if(jdk_home != null) {
-        if (!new File(jdk_home, "lib").exists()) {
-            throw new GradleException("Unable to locate JDK home folder. Detected folder is: $jdk_home")
-        } else {
-        ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
-        }
-    }
 }
 
 // enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
@@ -242,7 +229,6 @@ ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
-        'downloadJbr',
 		resolveMps,
         copyModelApi,
 ]) {

@@ -17853,21 +17853,15 @@
                 </node>
                 <node concept="1bVj0M" id="4k1tkzDacDr" role="37wK5m">
                   <node concept="3clFbS" id="4k1tkzDacDt" role="1bW5cS">
-                    <node concept="3clFbF" id="4k1tkzDacSQ" role="3cqZAp">
-                      <node concept="2OqwBi" id="4k1tkzDacSS" role="3clFbG">
-                        <node concept="37vLTw" id="4k1tkzDacST" role="2Oq$k0">
+                    <node concept="3clFbF" id="2nfCOm5pCp7" role="3cqZAp">
+                      <node concept="2YIFZM" id="2nfCOm5pCT0" role="3clFbG">
+                        <ref role="37wK5l" to="jks5:~INodeKt.getPropertyValue(org.modelix.model.api.INode,org.modelix.model.api.IProperty)" resolve="getPropertyValue" />
+                        <ref role="1Pybhc" to="jks5:~INodeKt" resolve="INodeKt" />
+                        <node concept="37vLTw" id="2nfCOm5pDNB" role="37wK5m">
                           <ref role="3cqZAo" node="2ePp5XuPfsA" resolve="source" />
                         </node>
-                        <node concept="liA8E" id="4k1tkzDacSU" role="2OqNvi">
-                          <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
-                          <node concept="2OqwBi" id="4k1tkzDacSV" role="37wK5m">
-                            <node concept="2GrUjf" id="4k1tkzDacSW" role="2Oq$k0">
-                              <ref role="2Gs0qQ" node="2ePp5XuPdML" resolve="property" />
-                            </node>
-                            <node concept="liA8E" id="4k1tkzDacSX" role="2OqNvi">
-                              <ref role="37wK5l" to="jks5:~IRole.getName()" resolve="getName" />
-                            </node>
-                          </node>
+                        <node concept="2GrUjf" id="2nfCOm5pEMS" role="37wK5m">
+                          <ref role="2Gs0qQ" node="2ePp5XuPdML" resolve="property" />
                         </node>
                       </node>
                     </node>

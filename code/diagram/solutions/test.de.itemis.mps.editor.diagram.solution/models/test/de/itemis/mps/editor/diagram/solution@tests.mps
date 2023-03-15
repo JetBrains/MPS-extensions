@@ -56,6 +56,10 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
+      <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
+        <child id="1217501895093" name="testMethods" index="1SL9yI" />
+      </concept>
       <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
         <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
       </concept>
@@ -63,6 +67,7 @@
       <concept id="1210674524691" name="jetbrains.mps.lang.test.structure.TestNodeReference" flags="nn" index="3xONca">
         <reference id="1210674534086" name="declaration" index="3xOPvv" />
       </concept>
+      <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
     </language>
     <language id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods">
       <concept id="8022092943110829337" name="jetbrains.mps.baseLanguage.extensionMethods.structure.BaseExtensionMethodContainer" flags="ng" index="a7sou">
@@ -196,10 +201,6 @@
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
-      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
-        <child id="1160998896846" name="condition" index="1gVkn0" />
-        <child id="1160998916832" name="message" index="1gVpfI" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -337,6 +338,9 @@
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
       <concept id="1171981022339" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" flags="nn" index="3vwNmj">
         <child id="1171981057159" name="condition" index="3vwVQn" />
+      </concept>
+      <concept id="1172028177041" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNull" flags="nn" index="3ykFI1">
+        <child id="1172028236559" name="expression" index="3ykU8v" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -8956,45 +8960,43 @@
       <node concept="3cqZAl" id="6L_GEhdyyNa" role="3clF45" />
     </node>
   </node>
-  <node concept="LiM7Y" id="28uWW3KZ$3$">
-    <property role="TrG5h" value="DiagramWithoutLayout" />
-    <node concept="1qefOq" id="28uWW3KZ$4W" role="25YQCW">
-      <node concept="1kJ2h8" id="28uWW3KZMVS" role="1qenE9">
-        <ref role="1kJ3BV" to="lwbc:24zrZPPz$8v" resolve="asDiagram" />
-        <node concept="3iSQj3" id="28uWW3KZMWi" role="1kJ2hb">
-          <node concept="1kFUpA" id="28uWW3KZN07" role="1kFUp8">
-            <node concept="1kFiRK" id="28uWW3KZN7Z" role="1kFiS3">
-              <property role="1kFiRC" value="Test" />
+  <node concept="1lH9Xt" id="6MGkAko5nZ8">
+    <property role="TrG5h" value="DiagramWithoutLayoutInfo" />
+    <node concept="1LZb2c" id="6MGkAko5nZD" role="1SL9yI">
+      <property role="TrG5h" value="layout_info_empty" />
+      <node concept="3cqZAl" id="6MGkAko5nZE" role="3clF45" />
+      <node concept="3clFbS" id="6MGkAko5nZI" role="3clF47">
+        <node concept="3ykFI1" id="6MGkAko5o0w" role="3cqZAp">
+          <node concept="2OqwBi" id="6MGkAko5o85" role="3ykU8v">
+            <node concept="3xONca" id="6MGkAko5o0G" role="2Oq$k0">
+              <ref role="3xOPvv" node="6MGkAko5nZj" resolve="diagram" />
             </node>
-          </node>
-          <node concept="1kFUpA" id="28uWW3KZN7P" role="1kFUp8">
-            <node concept="1kFiRK" id="28uWW3KZN7W" role="1kFiS3">
-              <property role="1kFiRC" value="ABC" />
-            </node>
-          </node>
-          <node concept="3xLA65" id="28uWW3KZNbT" role="lGtFl">
-            <property role="TrG5h" value="diagram" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFbS" id="28uWW3KZNbY" role="LjaKd">
-      <node concept="1gVbGN" id="28uWW3L0xwk" role="3cqZAp">
-        <node concept="3clFbC" id="28uWW3L0xKM" role="1gVkn0">
-          <node concept="10Nm6u" id="28uWW3L0xTQ" role="3uHU7w" />
-          <node concept="2OqwBi" id="28uWW3KZNjw" role="3uHU7B">
-            <node concept="3xONca" id="28uWW3KZNbV" role="2Oq$k0">
-              <ref role="3xOPvv" node="28uWW3KZNbT" resolve="diagram" />
-            </node>
-            <node concept="3CFZ6_" id="28uWW3L0iuG" role="2OqNvi">
-              <node concept="3CFYIy" id="28uWW3L0vd6" role="3CFYIz">
+            <node concept="3CFZ6_" id="6MGkAko5oPM" role="2OqNvi">
+              <node concept="3CFYIy" id="6MGkAko5oSu" role="3CFYIz">
                 <ref role="3CFYIx" to="suqv:7L$rKAVfLie" resolve="LayoutMap" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="Xl_RD" id="28uWW3L0xUO" role="1gVpfI">
-          <property role="Xl_RC" value="Diagrams do not properly implement layout saving handler" />
+      </node>
+    </node>
+    <node concept="1qefOq" id="6MGkAko5nZ9" role="1SKRRt">
+      <node concept="1kJ2h8" id="6MGkAko5nZd" role="1qenE9">
+        <ref role="1kJ3BV" to="lwbc:24zrZPPz$8v" resolve="asDiagram" />
+        <node concept="3iSQj3" id="6MGkAko5nZe" role="1kJ2hb">
+          <node concept="1kFUpA" id="6MGkAko5nZf" role="1kFUp8">
+            <node concept="1kFiRK" id="6MGkAko5nZg" role="1kFiS3">
+              <property role="1kFiRC" value="Test" />
+            </node>
+          </node>
+          <node concept="1kFUpA" id="6MGkAko5nZh" role="1kFUp8">
+            <node concept="1kFiRK" id="6MGkAko5nZi" role="1kFiS3">
+              <property role="1kFiRC" value="ABC" />
+            </node>
+          </node>
+          <node concept="3xLA65" id="6MGkAko5nZj" role="lGtFl">
+            <property role="TrG5h" value="diagram" />
+          </node>
         </node>
       </node>
     </node>

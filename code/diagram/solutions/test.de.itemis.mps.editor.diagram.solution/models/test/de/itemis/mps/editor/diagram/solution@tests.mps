@@ -34,6 +34,7 @@
     <import index="lwbc" ref="r:e350f223-18f3-4a2f-a233-47968595d142(test.de.itemis.mps.editor.diagram.lang.editor)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="18t6" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.util(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="suqv" ref="r:9a28b49a-e98c-4186-a7e1-7e782b3f4fc3(de.itemis.mps.editor.diagram.layout.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="vux5" ref="r:d4785159-376e-4d99-a1d3-5a6f377de3e6(de.itemis.mps.editor.diagram.demo.activity.structure)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
@@ -57,6 +58,10 @@
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
       <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
         <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
+      <concept id="1210673684636" name="jetbrains.mps.lang.test.structure.TestNodeAnnotation" flags="ng" index="3xLA65" />
+      <concept id="1210674524691" name="jetbrains.mps.lang.test.structure.TestNodeReference" flags="nn" index="3xONca">
+        <reference id="1210674534086" name="declaration" index="3xOPvv" />
       </concept>
     </language>
     <language id="5dc5fc0d-37ef-4782-8192-8b5ce1f69f80" name="jetbrains.mps.baseLanguage.extensionMethods">
@@ -192,6 +197,10 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
+      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
+        <child id="1160998896846" name="condition" index="1gVkn0" />
+        <child id="1160998916832" name="message" index="1gVpfI" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -265,6 +274,16 @@
       </concept>
     </language>
     <language id="aff569ad-098d-414a-aa23-96963959392c" name="test.de.itemis.mps.editor.diagram.lang">
+      <concept id="2458670456593291011" name="test.de.itemis.mps.editor.diagram.lang.structure.DiagramWithoutLayoutStore" flags="ng" index="3iSQj3" />
+      <concept id="2387875361826161165" name="test.de.itemis.mps.editor.diagram.lang.structure.TextBoxContent" flags="ng" index="1kFiRK">
+        <property id="2387875361826161173" name="value" index="1kFiRC" />
+      </concept>
+      <concept id="2387875361826064795" name="test.de.itemis.mps.editor.diagram.lang.structure.Box" flags="ng" index="1kFUpA">
+        <child id="2387875361826161150" name="content" index="1kFiS3" />
+      </concept>
+      <concept id="2387875361826062997" name="test.de.itemis.mps.editor.diagram.lang.structure.Diagram" flags="ng" index="1kFUPC">
+        <child id="2387875361826064821" name="elements" index="1kFUp8" />
+      </concept>
       <concept id="2387875361827277749" name="test.de.itemis.mps.editor.diagram.lang.structure.ForceHint" flags="ng" index="1kJ2h8">
         <reference id="2387875361827280390" name="hint" index="1kJ3BV" />
         <child id="2387875361827277750" name="wrapped" index="1kJ2hb" />
@@ -330,6 +349,12 @@
       </concept>
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+      <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
+        <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
+      </concept>
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -8929,6 +8954,49 @@
       </node>
       <node concept="3Tm1VV" id="6L_GEhdyyN9" role="1B3o_S" />
       <node concept="3cqZAl" id="6L_GEhdyyNa" role="3clF45" />
+    </node>
+  </node>
+  <node concept="LiM7Y" id="28uWW3KZ$3$">
+    <property role="TrG5h" value="DiagramWithoutLayout" />
+    <node concept="1qefOq" id="28uWW3KZ$4W" role="25YQCW">
+      <node concept="1kJ2h8" id="28uWW3KZMVS" role="1qenE9">
+        <ref role="1kJ3BV" to="lwbc:24zrZPPz$8v" resolve="asDiagram" />
+        <node concept="3iSQj3" id="28uWW3KZMWi" role="1kJ2hb">
+          <node concept="1kFUpA" id="28uWW3KZN07" role="1kFUp8">
+            <node concept="1kFiRK" id="28uWW3KZN7Z" role="1kFiS3">
+              <property role="1kFiRC" value="Test" />
+            </node>
+          </node>
+          <node concept="1kFUpA" id="28uWW3KZN7P" role="1kFUp8">
+            <node concept="1kFiRK" id="28uWW3KZN7W" role="1kFiS3">
+              <property role="1kFiRC" value="ABC" />
+            </node>
+          </node>
+          <node concept="3xLA65" id="28uWW3KZNbT" role="lGtFl">
+            <property role="TrG5h" value="diagram" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbS" id="28uWW3KZNbY" role="LjaKd">
+      <node concept="1gVbGN" id="28uWW3L0xwk" role="3cqZAp">
+        <node concept="3clFbC" id="28uWW3L0xKM" role="1gVkn0">
+          <node concept="10Nm6u" id="28uWW3L0xTQ" role="3uHU7w" />
+          <node concept="2OqwBi" id="28uWW3KZNjw" role="3uHU7B">
+            <node concept="3xONca" id="28uWW3KZNbV" role="2Oq$k0">
+              <ref role="3xOPvv" node="28uWW3KZNbT" resolve="diagram" />
+            </node>
+            <node concept="3CFZ6_" id="28uWW3L0iuG" role="2OqNvi">
+              <node concept="3CFYIy" id="28uWW3L0vd6" role="3CFYIz">
+                <ref role="3CFYIx" to="suqv:7L$rKAVfLie" resolve="LayoutMap" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="Xl_RD" id="28uWW3L0xUO" role="1gVpfI">
+          <property role="Xl_RC" value="Diagrams do not properly implement layout saving handler" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

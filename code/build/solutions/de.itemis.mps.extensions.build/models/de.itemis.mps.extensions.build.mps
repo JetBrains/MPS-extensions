@@ -18384,6 +18384,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5m1M1V$YXTw" role="3bR37C">
+          <node concept="3bR9La" id="5m1M1V$YXTx" role="1SiIV1">
+            <ref role="3bR37D" node="56Tfdun3uan" resolve="de.itemis.mps.editor.diagram.layout" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7qi8mU1Oz$h" role="2G$12L">
         <property role="BnDLt" value="true" />

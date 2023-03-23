@@ -731,6 +731,20 @@
             </node>
             <node concept="2iRfu4" id="2YJ6Svp2OoC" role="2iSdaV" />
           </node>
+          <node concept="3EZMnI" id="7dE4XXD8Zm_" role="3EZMnx">
+            <node concept="2iRfu4" id="7dE4XXD8ZmA" role="2iSdaV" />
+            <node concept="3F0ifn" id="7dE4XXD8ZgC" role="3EZMnx">
+              <property role="3F0ifm" value="save layout data" />
+            </node>
+            <node concept="3F1sOY" id="7dE4XXD90iS" role="3EZMnx">
+              <property role="1$x2rV" value="true (default)" />
+              <ref role="1NtTu8" to="2qld:7dE4XXD8Z89" resolve="saveLayout" />
+            </node>
+            <node concept="VPM3Z" id="7dE4XXD90al" role="3F10Kt" />
+            <node concept="VPXOz" id="7dE4XXD90ar" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
         </node>
         <node concept="2iRfu4" id="5qgNcfDnGw9" role="2iSdaV" />
         <node concept="3F0ifn" id="5qgNcfDnGxf" role="3EZMnx" />

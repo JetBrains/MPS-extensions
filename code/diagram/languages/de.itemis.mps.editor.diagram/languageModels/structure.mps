@@ -154,6 +154,12 @@
       <property role="20kJfa" value="ownerChangeHandler" />
       <ref role="20lvS9" node="5wo2$NmYEwT" resolve="OwnerChangeHandler" />
     </node>
+    <node concept="1TJgyj" id="7dE4XXD8Z89" role="1TKVEi">
+      <property role="IQ2ns" value="8316481512155640329" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="saveLayout" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="contentQuery" />

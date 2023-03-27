@@ -4646,7 +4646,7 @@
         </node>
       </node>
       <node concept="3clFb_" id="5b_lky_QN6c" role="jymVt">
-        <property role="TrG5h" value="getName" />
+        <property role="TrG5h" value="getSimpleName" />
         <node concept="17QB3L" id="5b_lky_QN6d" role="3clF45" />
         <node concept="3Tm1VV" id="5b_lky_QN6e" role="1B3o_S" />
         <node concept="3clFbS" id="5b_lky_QN6g" role="3clF47">

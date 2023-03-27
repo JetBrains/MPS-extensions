@@ -9,7 +9,7 @@
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
   </languages>
   <imports>
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
@@ -122,7 +122,7 @@
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
         <child id="1188214630783" name="value" index="2B76xF" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1188214545140" name="jetbrains.mps.baseLanguage.structure.AnnotationInstanceValue" flags="ng" index="2B6LJw">
@@ -204,7 +204,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
@@ -284,7 +284,7 @@
       <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
         <child id="1160998896846" name="condition" index="1gVkn0" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -325,7 +325,7 @@
       <concept id="1184952934362" name="jetbrains.mps.baseLanguage.structure.DimensionExpression" flags="nn" index="3$GHV9">
         <child id="1184953288404" name="expression" index="3$I4v7" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
@@ -414,7 +414,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -629,8 +629,8 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="hyam:~MouseAdapter" resolve="MouseAdapter" />
                   <ref role="37wK5l" to="hyam:~MouseAdapter.&lt;init&gt;()" resolve="MouseAdapter" />
-                  <node concept="3Tm1VV" id="58b0Q1$tJLQ" role="1B3o_S" />
                   <node concept="2tJIrI" id="4e52bXziywQ" role="jymVt" />
+                  <node concept="3Tm1VV" id="58b0Q1$tJLQ" role="1B3o_S" />
                   <node concept="3clFb_" id="58b0Q1$tJNL" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="mouseClicked" />
@@ -6633,17 +6633,6 @@
           </node>
         </node>
         <node concept="3clFbJ" id="1mvsX9hskdN" role="3cqZAp">
-          <node concept="3fqX7Q" id="1mvsX9htlpt" role="3clFbw">
-            <node concept="2OqwBi" id="1mvsX9htlpv" role="3fr31v">
-              <node concept="2YIFZM" id="1mvsX9htlpw" role="2Oq$k0">
-                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-              </node>
-              <node concept="liA8E" id="1mvsX9htlpx" role="2OqNvi">
-                <ref role="37wK5l" to="bd8o:~Application.isUnitTestMode()" resolve="isUnitTestMode" />
-              </node>
-            </node>
-          </node>
           <node concept="3clFbS" id="1mvsX9hskdP" role="3clFbx">
             <node concept="3clFbF" id="4gq8yQBZ72$" role="3cqZAp">
               <node concept="2OqwBi" id="4gq8yQBZ72_" role="3clFbG">
@@ -6814,6 +6803,17 @@
                     <ref role="3cqZAo" node="4gq8yQBZ72d" resolve="autoFocusContents" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="1mvsX9htlpt" role="3clFbw">
+            <node concept="2OqwBi" id="1mvsX9htlpv" role="3fr31v">
+              <node concept="2YIFZM" id="1mvsX9htlpw" role="2Oq$k0">
+                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+              </node>
+              <node concept="liA8E" id="1mvsX9htlpx" role="2OqNvi">
+                <ref role="37wK5l" to="bd8o:~Application.isUnitTestMode()" resolve="isUnitTestMode" />
               </node>
             </node>
           </node>
@@ -9114,12 +9114,14 @@
                       <ref role="37wK5l" to="rgfa:~DefaultTreeModel.nodeStructureChanged(javax.swing.tree.TreeNode)" resolve="nodeStructureChanged" />
                       <node concept="Xjq3P" id="2XsGPcz60Nx" role="37wK5m" />
                     </node>
-                    <node concept="2OqwBi" id="7PvgUNuOLth" role="2Oq$k0">
-                      <node concept="1rXfSq" id="7PvgUNuOLti" role="2Oq$k0">
-                        <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
-                      </node>
-                      <node concept="liA8E" id="7PvgUNuOLtj" role="2OqNvi">
-                        <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
+                    <node concept="1eOMI4" id="2Ko4lD9$4n1" role="2Oq$k0">
+                      <node concept="2OqwBi" id="7PvgUNuOLth" role="1eOMHV">
+                        <node concept="1rXfSq" id="7PvgUNuOLti" role="2Oq$k0">
+                          <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
+                        </node>
+                        <node concept="liA8E" id="7PvgUNuOLtj" role="2OqNvi">
+                          <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -9559,12 +9561,14 @@
                         <ref role="37wK5l" to="rgfa:~DefaultTreeModel.nodeStructureChanged(javax.swing.tree.TreeNode)" resolve="nodeStructureChanged" />
                         <node concept="Xjq3P" id="2XsGPcz6qGW" role="37wK5m" />
                       </node>
-                      <node concept="2OqwBi" id="Ggg0Z6Y9um" role="2Oq$k0">
-                        <node concept="1rXfSq" id="Ggg0Z6Y9un" role="2Oq$k0">
-                          <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
-                        </node>
-                        <node concept="liA8E" id="Ggg0Z6Y9uo" role="2OqNvi">
-                          <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
+                      <node concept="1eOMI4" id="2Ko4lD9_izc" role="2Oq$k0">
+                        <node concept="2OqwBi" id="2Ko4lD9_izf" role="1eOMHV">
+                          <node concept="1rXfSq" id="2Ko4lD9_izg" role="2Oq$k0">
+                            <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
+                          </node>
+                          <node concept="liA8E" id="2Ko4lD9_izh" role="2OqNvi">
+                            <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
+                          </node>
                         </node>
                       </node>
                     </node>

@@ -2341,8 +2341,8 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1PnCL0" id="2SfkIfFM_J" role="2OqNvi">
-                    <ref role="2Oxat5" to="6lvu:~CompletionActionItemAsSubstituteAction.myActionItem" resolve="myActionItem" />
+                  <node concept="liA8E" id="6csftYvczDy" role="2OqNvi">
+                    <ref role="37wK5l" to="6lvu:~CompletionActionItemAsSubstituteAction.getItem()" resolve="getItem" />
                   </node>
                 </node>
               </node>

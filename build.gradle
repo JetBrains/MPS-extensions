@@ -7,12 +7,11 @@ buildscript {
     }
     dependencies {
         classpath('de.itemis.mps:mps-gradle-plugin:1.7+')
-        //classpath("org.modelix.mpsbuild:gradle-plugin:1.0.+")
     }
 }
 
 plugins {
-    id "co.riiid.gradle" version "0.4.2"
+   id "com.github.breadmoirai.github-release" version "2.4.1"
 }
 
 apply plugin: 'maven-publish'
@@ -106,7 +105,7 @@ if (ciBuild) {
     println "##teamcity[buildNumber '${version}']"
 } else {
     println "Local build detected, version will be SNAPSHOT"
-    version = "1.0-SNAPSHOT"
+    version = "2020.3-SNAPSHOT"
 }
 
 def userHome = System.properties['user.home']
@@ -172,9 +171,8 @@ configurations {
 }
 
 dependencies {
-    def modelixCoreVersion = "1.4.1"
+    def modelixCoreVersion = "1.10.3"
     modelApi("org.modelix:model-api:$modelixCoreVersion")
-    modelApi("org.modelix:metamodel-generator:$modelixCoreVersion")
 }
 
 task copyModelApi() {
@@ -417,203 +415,18 @@ if (rootProject.hasProperty("nightly_build")) {
 }
 
 
-github {
+githubRelease {
     owner = 'jetbrains'
     repo = 'MPS-extensions'
     token = rootProject.findProperty("github.token") ?: "empty"
     tagName = releaseTagName
     targetCommitish = GitBasedVersioning.getGitCommitHash()
-    name = releaseName
     body = releaseNotes
     prerelease = rootProject.hasProperty("nightly_build")
-    assets = packageExtensions.outputs.files.files.collect {it.path}
+    releaseAssets = packageExtensions.outputs.files.files.collect {it.path}
+    dryRun = false
 }
 
-githubRelease.dependsOn packageExtensions
-
-/*
-group "io.github.jetbrains.mps-extensions"
-apply plugin: "modelix-gradle-mpsbuild-plugin"
-
-mpsBuild {
-    dependsOn(copyModelApi)
-
-    mpsVersion("$mpsVersion")
-    stubs("org.apache.commons:commons-math3:3.6.1")
-    search("code")
-
-    publication("shadowmodels") {
-        module("de.q60.mps.polymorphicfunctions")
-        module("de.q60.mps.polymorphicfunctions.runtime")
-        module("de.q60.mps.shadowmodels.debugview")
-        module("de.q60.mps.shadowmodels.devkit")
-//        module("de.q60.mps.shadowmodels.examples.blext")
-//        module("de.q60.mps.shadowmodels.examples.entities")
-//        module("de.q60.mps.shadowmodels.examples.input")
-//        module("de.q60.mps.shadowmodels.examples.statemachine")
-        module("de.q60.mps.shadowmodels.gen.afterPF")
-        module("de.q60.mps.shadowmodels.gen.desugar")
-        module("de.q60.mps.shadowmodels.gen.typesystem")
-        module("de.q60.mps.shadowmodels.genplan")
-        module("de.q60.mps.shadowmodels.modelcheck.runtime")
-        module("de.q60.mps.shadowmodels.repository")
-        module("de.q60.mps.shadowmodels.runtime")
-        module("de.q60.mps.shadowmodels.runtimelang")
-        module("de.q60.mps.shadowmodels.target.editor")
-        module("de.q60.mps.shadowmodels.target.text")
-        module("de.q60.mps.shadowmodels.transformation")
-        module("de.q60.mps.shadowmodels.util")
-        module("de.q60.mps.explorer")
-        module("de.q60.mps.explorer.impl")
-        module("de.q60.mps.incremental")
-        module("de.q60.mps.incremental.runtime")
-    }
-
-    publication("diagram") {
-        module("de.itemis.mps.editor.diagram")
-        module("de.itemis.mps.editor.diagram.devkit")
-        module("de.itemis.mps.editor.diagram.layout")
-        module("de.itemis.mps.editor.diagram.runtime")
-        module("de.itemis.mps.editor.diagram.shapes")
-        module("de.itemis.mps.editor.diagram.styles")
-    }
-
-    publication("grammarcells") {
-        module("com.mbeddr.mpsutil.grammarcells")
-        module("com.mbeddr.mpsutil.grammarcells.runtime")
-        module("com.mbeddr.mpsutil.grammarcells.runtimelang")
-    }
-
-    publication("projectview") {
-        module("com.mbeddr.mpsutil.projectview")
-        module("com.mbeddr.mpsutil.projectview.runtime")
-        module("com.mbeddr.mpsutil.projectview.vcs")
-        module("com.mbeddr.mpsutil.projectview.views")
-    }
-
-    publication("treenotation") {
-        module("com.mbeddr.mpsutil.treenotation")
-        module("com.mbeddr.mpsutil.treenotation.runtime")
-        module("com.mbeddr.mpsutil.treenotation.styles")
-    }
-
-    publication("math") {
-        module("de.itemis.mps.editor.math")
-        module("de.itemis.mps.editor.math.notations")
-        module("de.itemis.mps.editor.math.runtime")
-        module("de.itemis.mps.editor.math.symbols")
-    }
-
-    publication("blutil") {
-        module("com.mbeddr.mpsutil.blutil")
-        module("com.mbeddr.mpsutil.blutil.genutil")
-        module("com.mbeddr.mpsutil.blutil.genutil.rt")
-        module("com.mbeddr.mpsutil.blutil.rt")
-    }
-
-    publication("plaintextgen") {
-        module("com.dslfoundry.plaintextflow")
-        module("com.dslfoundry.plaintextgen")
-    }
-
-    publication("deprecated") {
-        module("de.itemis.mps.modelmerger")
-        module("de.itemis.mps.modelmerger.runtime")
-    }
-
-    publication("libraries") {
-        //module("com.fasterxml.jackson")
-        module("org.apache.commons")
-    }
-
-    publication("modellisteners") {
-        module("com.mbeddr.mpsutil.modellisteners")
-        module("com.mbeddr.mpsutil.modellisteners.runtime")
-    }
-
-    publication("other") {
-        module("com.dslfoundry.langvis.plugin")
-        module("com.mbeddr.mpsutil.intentions")
-        module("com.mbeddr.mpsutil.intentions.runtime")
-        module("com.mbeddr.mpsutil.serializer.xml")
-//        module("de.itemis.mps.extensions.build")
-        module("de.itemis.mps.nativelibs")
-        module("de.itemis.mps.nodeversioning")
-        module("de.itemis.mps.nodeversioning.runtime")
-        module("de.itemis.mps.selection.intentions")
-        module("de.itemis.mps.selection.runtime")
-        module("de.q60.mps.collections.libs")
-        module("de.q60.mps.logging.runtime")
-        module("de.q60.mps.util")
-//        module("de.q60.mps.virtualinterfaces")
-//        module("de.q60.mps.virtualinterfaces.devkit")
-//        module("de.q60.mps.virtualinterfaces.genplan")
-    }
-
-    publication("mouselistener") {
-        module("de.itemis.mps.mouselistener.runtime")
-    }
-
-    publication("modelmerge") {
-        module("de.itemis.model.merge")
-        module("de.itemis.model.merge.baselang")
-        module("de.itemis.model.merge.runtime")
-    }
-
-    publication("cellfactory") {
-        module("de.slisson.mps.richtext.customcell")
-    }
-
-    publication("other-editors") {
-        module("de.itemis.mps.editor.dropdown")
-        module("de.itemis.mps.editor.dropdown.runtime")
-        module("de.itemis.mps.editor.enumeration")
-        module("de.itemis.mps.editor.enumeration.runtime")
-        module("de.itemis.mps.editor.bool")
-        module("de.itemis.mps.editor.bool.runtime")
-        module("com.mbeddr.mpsutil.editor.querylist")
-        module("com.mbeddr.mpsutil.editor.querylist.runtime")
-    }
-
-    publication("collapsible") {
-        module("de.itemis.mps.editor.collapsible")
-        module("de.itemis.mps.editor.collapsible.runtime")
-    }
-
-    publication("celllayout") {
-        module("de.itemis.mps.editor.celllayout")
-        module("de.itemis.mps.editor.celllayout.runtime")
-        module("de.itemis.mps.editor.celllayout.styles")
-    }
-
-    publication("hacks") {
-        module("de.slisson.mps.hacks.editor")
-        module("de.slisson.mps.hacks.xmodelgen")
-        module("de.slisson.mps.reflection")
-        module("de.slisson.mps.reflection.runtime")
-    }
-
-    publication("conditional-editor") {
-        module("de.slisson.mps.conditionalEditor")
-        module("de.slisson.mps.conditionalEditor.hints")
-        module("de.slisson.mps.conditionalEditor.runtime")
-    }
-
-    publication("richtext") {
-        module("de.slisson.mps.richtext")
-        module("de.slisson.mps.editor.multiline")
-        module("de.slisson.mps.editor.multiline.runtime")
-    }
-
-    publication("tables") {
-        module("de.slisson.mps.tables")
-        module("de.slisson.mps.tables.runtime")
-    }
-
-    publication("model-api") {
-        module("org.modelix.model.api")
-        module("org.modelix.model.mpsadapters")
-        module("org.modelix.model.repositoryconcepts")
-    }
+tasks.named('githubRelease').configure {
+    dependsOn packageExtensions
 }
-*/

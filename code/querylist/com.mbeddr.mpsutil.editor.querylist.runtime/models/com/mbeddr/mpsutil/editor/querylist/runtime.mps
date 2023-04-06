@@ -3221,7 +3221,7 @@
                   <ref role="3cqZAo" node="7moa1g0QObk" resolve="field" />
                 </node>
                 <node concept="liA8E" id="7moa1g0QR4K" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="7moa1g0QR6T" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -3348,7 +3348,7 @@
                   <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
                 </node>
                 <node concept="liA8E" id="7moa1g0RG0y" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="7moa1g0RG0z" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -3485,7 +3485,7 @@
                   <ref role="3cqZAo" node="7moa1g0TKks" resolve="method" />
                 </node>
                 <node concept="liA8E" id="7moa1g0TKk_" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~AccessibleObject.setAccessible(boolean)" resolve="setAccessible" />
+                  <ref role="37wK5l" to="t6h5:~Method.setAccessible(boolean)" resolve="setAccessible" />
                   <node concept="3clFbT" id="7moa1g0TKkA" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>

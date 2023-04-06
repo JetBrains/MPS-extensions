@@ -695,6 +695,56 @@
             </node>
             <node concept="2iRfu4" id="5wo2$NmYEGK" role="2iSdaV" />
           </node>
+          <node concept="3EZMnI" id="45g3j8ia4Dq" role="3EZMnx">
+            <node concept="VPM3Z" id="45g3j8ia4Dr" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="45g3j8ia4Ds" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="45g3j8ia4Dt" role="3EZMnx">
+              <property role="3F0ifm" value="run autolayout on init" />
+            </node>
+            <node concept="3F0A7n" id="45g3j8ia4Pe" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:45g3j8ia4nb" resolve="runAutoLayoutOnInit" />
+              <node concept="VPXOz" id="45g3j8ibFsZ" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="45g3j8ia4Dw" role="2iSdaV" />
+          </node>
+          <node concept="3EZMnI" id="2YJ6Svp2Ooy" role="3EZMnx">
+            <node concept="VPM3Z" id="2YJ6Svp2Ooz" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="2YJ6Svp2Oo$" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="2YJ6Svp2Oo_" role="3EZMnx">
+              <property role="3F0ifm" value="save subdiagram layout in this diagram" />
+            </node>
+            <node concept="3F0A7n" id="2YJ6Svp2OoA" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:2YJ6Svp2O0G" resolve="saveSubDiagramLayoutInDiagram" />
+              <node concept="VPXOz" id="2YJ6Svp2OoB" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="2YJ6Svp2OoC" role="2iSdaV" />
+          </node>
+          <node concept="3EZMnI" id="7dE4XXD8Zm_" role="3EZMnx">
+            <node concept="2iRfu4" id="7dE4XXD8ZmA" role="2iSdaV" />
+            <node concept="3F0ifn" id="7dE4XXD8ZgC" role="3EZMnx">
+              <property role="3F0ifm" value="save layout data" />
+            </node>
+            <node concept="3F1sOY" id="7dE4XXD90iS" role="3EZMnx">
+              <property role="1$x2rV" value="true (default)" />
+              <ref role="1NtTu8" to="2qld:7dE4XXD8Z89" resolve="saveLayout" />
+            </node>
+            <node concept="VPM3Z" id="7dE4XXD90al" role="3F10Kt" />
+            <node concept="VPXOz" id="7dE4XXD90ar" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
         </node>
         <node concept="2iRfu4" id="5qgNcfDnGw9" role="2iSdaV" />
         <node concept="3F0ifn" id="5qgNcfDnGxf" role="3EZMnx" />

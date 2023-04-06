@@ -100,6 +100,16 @@
       <property role="IQ2nx" value="4787596715132191458" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="45g3j8ia4nb" role="1TKVEl">
+      <property role="IQ2nx" value="4706276119306323403" />
+      <property role="TrG5h" value="runAutoLayoutOnInit" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2YJ6Svp2O0G" role="1TKVEl">
+      <property role="IQ2nx" value="3435995310982905900" />
+      <property role="TrG5h" value="saveSubDiagramLayoutInDiagram" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="7vufT$lixNl" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paletteFolder" />
@@ -143,6 +153,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ownerChangeHandler" />
       <ref role="20lvS9" node="5wo2$NmYEwT" resolve="OwnerChangeHandler" />
+    </node>
+    <node concept="1TJgyj" id="7dE4XXD8Z89" role="1TKVEi">
+      <property role="IQ2ns" value="8316481512155640329" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="saveLayout" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />

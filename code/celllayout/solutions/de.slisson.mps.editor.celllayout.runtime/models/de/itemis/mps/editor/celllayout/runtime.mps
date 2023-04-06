@@ -12713,8 +12713,8 @@
               <node concept="37vLTw" id="4U82Y3z2hxI" role="2Oq$k0">
                 <ref role="3cqZAo" node="4U82Y3z2hxs" resolve="collectionCell" />
               </node>
-              <node concept="1PnCL0" id="4U82Y3z2hxJ" role="2OqNvi">
-                <ref role="2Oxat5" to="g51k:~EditorCell_Collection.myCellLayout" resolve="myCellLayout" />
+              <node concept="liA8E" id="6csftYvaY_Q" role="2OqNvi">
+                <ref role="37wK5l" to="g51k:~EditorCell_Collection.getCellLayout()" resolve="getCellLayout" />
               </node>
             </node>
           </node>

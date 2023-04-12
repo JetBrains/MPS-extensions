@@ -70,9 +70,17 @@ The header cells can also be created in different ways:
 - **{**: a list of header nodes
 - **query**: this option gives the most flexibility. The headers can be created the same way as in the table cell query.
 
+!!! note "Header cells are automatically merged together when they have the same content."
+    To work around this issue with custom cells, set the cell ID's manually depending on the current cell index. Example:
+
+    ```
+    EditorCell cell = editorContext.createCell(node2, -> ...); 
+    cell.setCellId(cell.getCellId() + "_" + rowIndex);
+    ```
+
 ## Patterns
 
-As can be seen in the previous description, there are many ways to create tables. This section shows some common ways to
+As can be seen in the previous description, many ways exist to create tables. This section shows some common ways to
 achieve it:
 
 **Variant 1**: one editor for a table with rows (vertical), columns (horizontal) + query for selecting the nodes for the cells.

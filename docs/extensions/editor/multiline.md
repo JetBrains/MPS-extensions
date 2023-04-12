@@ -1,6 +1,6 @@
 # Multiline
 
-**Language Namespace :** `de.itemis.mps.editor.multiline`
+**Language Namespace :** `de.slisson.mps.editor.multiline`
 
 The `multiline`cell adds support for text blocks that spans multiple lines. Line breaks are saved as new line characters (\n) in
 the backing property. The richtext language uses this language.

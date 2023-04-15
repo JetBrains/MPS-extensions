@@ -578,7 +578,7 @@
                 <ref role="3cqZAo" node="b6WULTTMBW" resolve="myProject" />
               </node>
               <node concept="liA8E" id="b6WULTTPtT" role="2OqNvi">
-                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <ref role="37wK5l" to="1m72:~ComponentManager.getService(java.lang.Class)" resolve="getService" />
                 <node concept="3VsKOn" id="b6WULTTPtU" role="37wK5m">
                   <ref role="3VsUkX" to="ippn:3zYHoP1k4BP" resolve="TreeHighlighterFactory" />
                 </node>

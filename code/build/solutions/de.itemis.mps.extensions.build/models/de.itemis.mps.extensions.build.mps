@@ -878,7 +878,7 @@
       </node>
       <node concept="3_J27D" id="3$A0JaN5ezr" role="m$_yQ">
         <node concept="3Mxwew" id="3$A0JaN5gnC" role="3MwsjC">
-          <property role="3MwjfP" value="MPS Jackson Library (Stubs)" />
+          <property role="3MwjfP" value="Stubs for the third party libraries in MPS" />
         </node>
       </node>
       <node concept="3_J27D" id="3$A0JaN5ezt" role="m_cZH">

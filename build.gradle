@@ -86,7 +86,7 @@ if (ciBuild) {
     println "##teamcity[buildNumber '${version}']"
 } else {
     println "Local build detected, version will be SNAPSHOT"
-    version = "1.0-SNAPSHOT"
+    version = "2020.3-SNAPSHOT"
 }
 
 def userHome = System.properties['user.home']
@@ -152,7 +152,7 @@ configurations {
 }
 
 dependencies {
-    def modelixCoreVersion = "1.6.0"
+    def modelixCoreVersion = "1.10.3"
     modelApi("org.modelix:model-api:$modelixCoreVersion")
 }
 

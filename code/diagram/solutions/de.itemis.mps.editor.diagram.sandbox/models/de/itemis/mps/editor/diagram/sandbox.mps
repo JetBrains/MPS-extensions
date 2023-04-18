@@ -1016,7 +1016,7 @@
       </node>
       <node concept="2ZRQYt" id="4uAxemPynBZ" role="2ZNJvH">
         <property role="TrG5h" value="asdfgfgf" />
-        <ref role="3QI6rI" node="2YJ6Svp6$rR" resolve="Mysubcomponent" />
+        <ref role="3QI6rI" node="2YJ6Svp6$rR" />
         <node concept="37mRI7" id="2YJ6Svp6_FY" role="lGtFl">
           <node concept="37mRIm" id="2YJ6Svp6_FZ" role="37mRID">
             <property role="37mO49" value="3435995310983890679" />

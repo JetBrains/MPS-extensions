@@ -43,8 +43,8 @@
     <import index="y8s3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.project(MPS.Core/)" />
     <import index="b0pz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.facets(MPS.Core/)" />
     <import index="w0gx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.modules(MPS.Core/)" />
-    <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
     <import index="pjrh" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter(MPS.Core/)" />
+    <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" implicit="true" />
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" implicit="true" />
   </imports>
@@ -3771,9 +3771,6 @@
     </node>
     <node concept="2tJIrI" id="5gTrVpGjEOF" role="jymVt" />
     <node concept="3Tm1VV" id="5gTrVpGjuLh" role="1B3o_S" />
-    <node concept="3uibUv" id="16JGHGUSd7h" role="EKbjA">
-      <ref role="3uigEE" to="jks5:~INodeEx" resolve="INodeEx" />
-    </node>
     <node concept="3clFbW" id="5gTrVpGjEP4" role="jymVt">
       <node concept="3cqZAl" id="5gTrVpGjEP5" role="3clF45" />
       <node concept="3Tm6S6" id="4EhVFrZi6lh" role="1B3o_S" />
@@ -6467,6 +6464,9 @@
       <node concept="2AHcQZ" id="16JGHGUSy82" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+    </node>
+    <node concept="3uibUv" id="16JGHGUSd7h" role="EKbjA">
+      <ref role="3uigEE" to="jks5:~INodeEx" resolve="INodeEx" />
     </node>
   </node>
   <node concept="312cEu" id="4EhVFrZ3AjR">
@@ -9408,7 +9408,6 @@
       <node concept="2AHcQZ" id="4EhVFrZ3Ar4" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
-      <node concept="17QB3L" id="16JGHGUZZVP" role="3clF45" />
       <node concept="37vLTG" id="4EhVFrZ3Ar6" role="3clF46">
         <property role="TrG5h" value="property" />
         <node concept="3uibUv" id="4EhVFrZ3Ar7" role="1tU5fm">
@@ -9443,6 +9442,7 @@
       <node concept="2AHcQZ" id="4EhVFrZ3Ara" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
+      <node concept="17QB3L" id="16JGHGUZZVP" role="3clF45" />
     </node>
     <node concept="3clFb_" id="4EhVFrZ3Ard" role="jymVt">
       <property role="1EzhhJ" value="false" />

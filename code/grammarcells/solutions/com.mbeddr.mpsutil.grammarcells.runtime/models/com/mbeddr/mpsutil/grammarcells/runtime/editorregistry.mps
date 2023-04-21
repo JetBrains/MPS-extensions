@@ -5,8 +5,6 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="wwqx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.logging(MPS.Core/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="iwf0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.descriptor(MPS.Editor/)" />
@@ -200,6 +198,13 @@
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261755" name="throwable" index="RRSow" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
@@ -223,25 +228,6 @@
     <property role="2bfB8j" value="true" />
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
-    <node concept="Wx3nA" id="20mebiU_xnM" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="20mebiU_xnN" role="1tU5fm">
-        <ref role="3uigEE" to="wwqx:~Logger" resolve="Logger" />
-      </node>
-      <node concept="2YIFZM" id="20mebiU_xnO" role="33vP2m">
-        <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
-        <node concept="2YIFZM" id="20mebiU_xnP" role="37wK5m">
-          <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
-          <node concept="3VsKOn" id="20mebiU_xnQ" role="37wK5m">
-            <ref role="3VsUkX" node="20mebiU_kAm" resolve="ConceptEditorRegistry" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm6S6" id="20mebiU_xnR" role="1B3o_S" />
-    </node>
     <node concept="2tJIrI" id="20mebiU_xka" role="jymVt" />
     <node concept="3Tm1VV" id="20mebiU_RVe" role="1B3o_S" />
     <node concept="3uibUv" id="20mebiU_kAp" role="1zkMxy">
@@ -353,25 +339,6 @@
           <property role="1dT_AB" value="Date: 5/14/13" />
         </node>
       </node>
-    </node>
-    <node concept="Wx3nA" id="5094wKnoHAp" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="5094wKnoHAq" role="1tU5fm">
-        <ref role="3uigEE" to="wwqx:~Logger" resolve="Logger" />
-      </node>
-      <node concept="2YIFZM" id="5094wKnoI3D" role="33vP2m">
-        <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="wwqx:~Logger.wrap(org.apache.log4j.Logger)" resolve="wrap" />
-        <node concept="2YIFZM" id="5094wKnoI40" role="37wK5m">
-          <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-          <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.Class)" resolve="getLogger" />
-          <node concept="3VsKOn" id="5094wKnoHAu" role="37wK5m">
-            <ref role="3VsUkX" node="5094wKnoHAl" resolve="AbstractEditorRegistry" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm6S6" id="5094wKnoHAv" role="1B3o_S" />
     </node>
     <node concept="Wx3nA" id="5094wKnoHA$" role="jymVt">
       <property role="TrG5h" value="myEditorComparator" />
@@ -840,22 +807,15 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="5094wKnoHDd" role="3clFbx">
-                  <node concept="3clFbF" id="5094wKnoHDe" role="3cqZAp">
-                    <node concept="2OqwBi" id="5094wKnoI8m" role="3clFbG">
-                      <node concept="37vLTw" id="5094wKnoI8l" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5094wKnoHAp" resolve="LOG" />
+                  <node concept="RRSsy" id="1J9MAk9PCmA" role="3cqZAp">
+                    <property role="RRSoG" value="gZ5fh_4/error" />
+                    <node concept="1rXfSq" id="5094wKnoHDg" role="RRSoy">
+                      <ref role="37wK5l" node="5094wKnoHFB" resolve="getErrorMessage" />
+                      <node concept="37vLTw" id="5094wKnoHDh" role="37wK5m">
+                        <ref role="3cqZAo" node="5094wKnoHDm" resolve="conceptEditor" />
                       </node>
-                      <node concept="liA8E" id="5094wKnoI8n" role="2OqNvi">
-                        <ref role="37wK5l" to="wwqx:~Logger.error(java.lang.String)" resolve="error" />
-                        <node concept="1rXfSq" id="5094wKnoHDg" role="37wK5m">
-                          <ref role="37wK5l" node="5094wKnoHFB" resolve="getErrorMessage" />
-                          <node concept="37vLTw" id="5094wKnoHDh" role="37wK5m">
-                            <ref role="3cqZAo" node="5094wKnoHDm" resolve="conceptEditor" />
-                          </node>
-                          <node concept="37vLTw" id="5094wKnoHDi" role="37wK5m">
-                            <ref role="3cqZAo" node="5094wKnoHCH" resolve="result" />
-                          </node>
-                        </node>
+                      <node concept="37vLTw" id="5094wKnoHDi" role="37wK5m">
+                        <ref role="3cqZAo" node="5094wKnoHCH" resolve="result" />
                       </node>
                     </node>
                   </node>
@@ -1003,31 +963,24 @@
             <node concept="10Nm6u" id="5094wKnoHDM" role="3uHU7w" />
           </node>
           <node concept="3clFbS" id="5094wKnoHDO" role="3clFbx">
-            <node concept="3clFbF" id="5094wKnoHDP" role="3cqZAp">
-              <node concept="2OqwBi" id="5094wKnoIip" role="3clFbG">
-                <node concept="37vLTw" id="5094wKnoIio" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5094wKnoHAp" resolve="LOG" />
-                </node>
-                <node concept="liA8E" id="5094wKnoIiq" role="2OqNvi">
-                  <ref role="37wK5l" to="wwqx:~Logger.warning(java.lang.String)" resolve="warning" />
-                  <node concept="3cpWs3" id="5094wKnoHDR" role="37wK5m">
-                    <node concept="3cpWs3" id="5094wKnoHDS" role="3uHU7B">
-                      <node concept="Xl_RD" id="5094wKnoHDT" role="3uHU7B">
-                        <property role="Xl_RC" value="No language runtime found for language: " />
-                      </node>
-                      <node concept="2OqwBi" id="5094wKnoIiM" role="3uHU7w">
-                        <node concept="37vLTw" id="5094wKnoIiL" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5094wKnoHDv" resolve="concept" />
-                        </node>
-                        <node concept="liA8E" id="5094wKnoIiN" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
-                        </node>
-                      </node>
+            <node concept="RRSsy" id="1J9MAk9Qb2L" role="3cqZAp">
+              <property role="RRSoG" value="gZ5fksE/warn" />
+              <node concept="3cpWs3" id="5094wKnoHDR" role="RRSoy">
+                <node concept="3cpWs3" id="5094wKnoHDS" role="3uHU7B">
+                  <node concept="Xl_RD" id="5094wKnoHDT" role="3uHU7B">
+                    <property role="Xl_RC" value="No language runtime found for language: " />
+                  </node>
+                  <node concept="2OqwBi" id="5094wKnoIiM" role="3uHU7w">
+                    <node concept="37vLTw" id="5094wKnoIiL" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5094wKnoHDv" resolve="concept" />
                     </node>
-                    <node concept="Xl_RD" id="5094wKnoHDV" role="3uHU7w">
-                      <property role="Xl_RC" value=". Default editor will be used" />
+                    <node concept="liA8E" id="5094wKnoIiN" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SAbstractConcept.getLanguage()" resolve="getLanguage" />
                     </node>
                   </node>
+                </node>
+                <node concept="Xl_RD" id="5094wKnoHDV" role="3uHU7w">
+                  <property role="Xl_RC" value=". Default editor will be used" />
                 </node>
               </node>
             </node>
@@ -1080,25 +1033,18 @@
               </node>
             </node>
             <node concept="3clFbS" id="5094wKnoHEe" role="1zc67A">
-              <node concept="3clFbF" id="5094wKnoHEf" role="3cqZAp">
-                <node concept="2OqwBi" id="5094wKnoIjb" role="3clFbG">
-                  <node concept="37vLTw" id="5094wKnoIja" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5094wKnoHAp" resolve="LOG" />
+              <node concept="RRSsy" id="1J9MAk9PRDA" role="3cqZAp">
+                <property role="RRSoG" value="gZ5fh_4/error" />
+                <node concept="3cpWs3" id="5094wKnoHEh" role="RRSoy">
+                  <node concept="Xl_RD" id="5094wKnoHEi" role="3uHU7B">
+                    <property role="Xl_RC" value="Failed to get editor aspect descriptor for language: " />
                   </node>
-                  <node concept="liA8E" id="5094wKnoIjc" role="2OqNvi">
-                    <ref role="37wK5l" to="wwqx:~Logger.error(java.lang.String,java.lang.Throwable)" resolve="error" />
-                    <node concept="3cpWs3" id="5094wKnoHEh" role="37wK5m">
-                      <node concept="Xl_RD" id="5094wKnoHEi" role="3uHU7B">
-                        <property role="Xl_RC" value="Failed to get editor aspect descriptor for language: " />
-                      </node>
-                      <node concept="37vLTw" id="5094wKnoHEj" role="3uHU7w">
-                        <ref role="3cqZAo" node="5094wKnoHDC" resolve="languageRuntime" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="5094wKnoHEk" role="37wK5m">
-                      <ref role="3cqZAo" node="5094wKnoHEa" resolve="error" />
-                    </node>
+                  <node concept="37vLTw" id="5094wKnoHEj" role="3uHU7w">
+                    <ref role="3cqZAo" node="5094wKnoHDC" resolve="languageRuntime" />
                   </node>
+                </node>
+                <node concept="37vLTw" id="1J9MAk9Q1kQ" role="RRSow">
+                  <ref role="3cqZAo" node="5094wKnoHEa" resolve="error" />
                 </node>
               </node>
             </node>

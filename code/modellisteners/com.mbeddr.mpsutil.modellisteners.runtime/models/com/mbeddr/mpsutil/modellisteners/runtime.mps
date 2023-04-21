@@ -9,7 +9,6 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="j9co" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.event(MPS.Core/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
@@ -21,13 +20,15 @@
     <import index="j8aq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.module(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="yg2w" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util.containers(MPS.Core/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" />
     <import index="yyf4" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.util(MPS.OpenAPI/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="7485977462274819189" name="jetbrains.mps.baseLanguage.structure.FormatOperation" flags="ng" index="2cAKMz">
+        <child id="7485977462274819664" name="arguments" index="2cAKU6" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -223,6 +224,13 @@
         <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
       </concept>
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261755" name="throwable" index="RRSow" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
@@ -305,22 +313,6 @@
   </registry>
   <node concept="312cEu" id="52ZF9D36_0i">
     <property role="TrG5h" value="GlobalListener" />
-    <node concept="Wx3nA" id="5iW7uqbU3pi" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="5iW7uqbU0r8" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="3Tm6S6" id="5iW7uqbTWqI" role="1B3o_S" />
-      <node concept="2YIFZM" id="5iW7uqbU2HR" role="33vP2m">
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <node concept="3VsKOn" id="5iW7uqbU2Td" role="37wK5m">
-          <ref role="3VsUkX" node="52ZF9D36_0i" resolve="GlobalListener" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="5iW7uqbTTJi" role="jymVt" />
     <node concept="312cEg" id="52ZF9D38Ccg" role="jymVt">
       <property role="TrG5h" value="myDescriptors" />
       <node concept="3Tm6S6" id="52ZF9D38Cch" role="1B3o_S" />
@@ -1210,35 +1202,30 @@
               </node>
             </node>
             <node concept="3clFbS" id="5iW7uqbUc5f" role="1zc67A">
-              <node concept="3clFbF" id="5iW7uqbUcAY" role="3cqZAp">
-                <node concept="2OqwBi" id="5iW7uqbUcCi" role="3clFbG">
-                  <node concept="37vLTw" id="5iW7uqbUcAX" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5iW7uqbU3pi" resolve="LOG" />
+              <node concept="RRSsy" id="1J9MAka8PVz" role="3cqZAp">
+                <property role="RRSoG" value="gZ5fh_4/error" />
+                <node concept="2OqwBi" id="1J9MAka8TAd" role="RRSoy">
+                  <node concept="Xl_RD" id="1J9MAka8TAe" role="2Oq$k0">
+                    <property role="Xl_RC" value="Error in model listener for concept %s" />
                   </node>
-                  <node concept="liA8E" id="5iW7uqbUdc6" role="2OqNvi">
-                    <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable)" resolve="error" />
-                    <node concept="3cpWs3" id="5iW7uqbUeCi" role="37wK5m">
-                      <node concept="2OqwBi" id="5iW7uqbUffg" role="3uHU7w">
-                        <node concept="2OqwBi" id="5iW7uqbUeM9" role="2Oq$k0">
-                          <node concept="37vLTw" id="5iW7uqbUeEd" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5iW7uqbOelT" resolve="listener" />
-                          </node>
-                          <node concept="liA8E" id="5iW7uqbUfa3" role="2OqNvi">
-                            <ref role="37wK5l" node="5iW7uqbKDl6" resolve="getParentConcept" />
-                          </node>
+                  <node concept="2cAKMz" id="1J9MAka8TAf" role="2OqNvi">
+                    <node concept="2OqwBi" id="5iW7uqbUffg" role="2cAKU6">
+                      <node concept="2OqwBi" id="5iW7uqbUeM9" role="2Oq$k0">
+                        <node concept="37vLTw" id="5iW7uqbUeEd" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5iW7uqbOelT" resolve="listener" />
                         </node>
-                        <node concept="liA8E" id="5iW7uqbUfwe" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getQualifiedName()" resolve="getQualifiedName" />
+                        <node concept="liA8E" id="5iW7uqbUfa3" role="2OqNvi">
+                          <ref role="37wK5l" node="5iW7uqbKDl6" resolve="getParentConcept" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="5iW7uqbUdd5" role="3uHU7B">
-                        <property role="Xl_RC" value="Error in model listener for concept " />
+                      <node concept="liA8E" id="5iW7uqbUfwe" role="2OqNvi">
+                        <ref role="37wK5l" to="c17a:~SAbstractConcept.getQualifiedName()" resolve="getQualifiedName" />
                       </node>
                     </node>
-                    <node concept="37vLTw" id="5iW7uqbUdhj" role="37wK5m">
-                      <ref role="3cqZAo" node="5iW7uqbUc5g" resolve="ex" />
-                    </node>
                   </node>
+                </node>
+                <node concept="37vLTw" id="1J9MAka9kY7" role="RRSow">
+                  <ref role="3cqZAo" node="5iW7uqbUc5g" resolve="ex" />
                 </node>
               </node>
             </node>

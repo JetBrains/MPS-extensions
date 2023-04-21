@@ -23,7 +23,6 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="d870" ref="r:07128e74-f1f2-4270-a3b2-527db0c9fcc5(de.slisson.mps.tables.behavior)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="6lvu" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellMenu(MPS.Editor/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
@@ -47,6 +46,7 @@
     <import index="9hsz" ref="r:16d53f5e-7835-4b72-9581-fafeae0db9b1(jetbrains.mps.lang.editor.enumMigration)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
+    <import index="wwqx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.logging(MPS.Core/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -5769,15 +5769,15 @@
                                 <node concept="3clFbS" id="69mEcVZFWJ1" role="1zc67A">
                                   <node concept="3clFbF" id="69mEcVZMMO9" role="3cqZAp">
                                     <node concept="2OqwBi" id="69mEcVZMRk5" role="3clFbG">
-                                      <node concept="2YIFZM" id="69mEcVZMQar" role="2Oq$k0">
-                                        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-                                        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-                                        <node concept="1rXfSq" id="69mEcVZMQro" role="37wK5m">
+                                      <node concept="2YIFZM" id="1J9MAk9PlQL" role="2Oq$k0">
+                                        <ref role="37wK5l" to="wwqx:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
+                                        <ref role="1Pybhc" to="wwqx:~Logger" resolve="Logger" />
+                                        <node concept="1rXfSq" id="1J9MAk9PlQM" role="37wK5m">
                                           <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
                                         </node>
                                       </node>
                                       <node concept="liA8E" id="69mEcVZMTvY" role="2OqNvi">
-                                        <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable)" resolve="error" />
+                                        <ref role="37wK5l" to="wwqx:~Logger.error(java.lang.String,java.lang.Throwable)" resolve="error" />
                                         <node concept="3cpWs3" id="69mEcVZN8pz" role="37wK5m">
                                           <node concept="Xl_RD" id="69mEcVZN8pV" role="3uHU7w">
                                             <property role="Xl_RC" value="]" />

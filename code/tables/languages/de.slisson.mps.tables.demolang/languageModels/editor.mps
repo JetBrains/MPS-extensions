@@ -15,7 +15,7 @@
     <import index="6dpw" ref="r:ea653f2d-c829-4182-b311-a544ef1f4c1f(de.slisson.mps.tables.runtime.gridmodel)" />
     <import index="reoo" ref="r:1e59a084-7ebe-4e95-89ab-c58a7e396583(de.slisson.mps.tables.editor)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
+    <import index="dr5r" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.logging(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -1851,14 +1851,14 @@
                   <node concept="3clFbF" id="4izrigqu1hd" role="3cqZAp">
                     <node concept="2OqwBi" id="4izrigquvjq" role="3clFbG">
                       <node concept="2YIFZM" id="4izrigqu2aG" role="2Oq$k0">
-                        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.String)" resolve="getLogger" />
-                        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
+                        <ref role="37wK5l" to="dr5r:~Logger.getLogger(java.lang.String)" resolve="getLogger" />
+                        <ref role="1Pybhc" to="dr5r:~Logger" resolve="Logger" />
                         <node concept="Xl_RD" id="4izrigqu37q" role="37wK5m">
                           <property role="Xl_RC" value="StateMachine_Editor_SubstituteNode" />
                         </node>
                       </node>
                       <node concept="liA8E" id="4izrigquwUv" role="2OqNvi">
-                        <ref role="37wK5l" to="q7tw:~Category.info(java.lang.Object)" resolve="info" />
+                        <ref role="37wK5l" to="dr5r:~Logger.info(java.lang.String)" resolve="info" />
                         <node concept="3cpWs3" id="4izrigqvsta" role="37wK5m">
                           <node concept="3oseBL" id="4izrigqvtUQ" role="3uHU7w" />
                           <node concept="3cpWs3" id="4izrigqvhOY" role="3uHU7B">
@@ -3434,15 +3434,15 @@
               <node concept="3clFbS" id="40oIQyI1gh9" role="2VODD2">
                 <node concept="3clFbF" id="40oIQyIfKs4" role="3cqZAp">
                   <node concept="2OqwBi" id="40oIQyImA80" role="3clFbG">
-                    <node concept="2YIFZM" id="40oIQyIfLcd" role="2Oq$k0">
-                      <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-                      <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.String)" resolve="getLogger" />
-                      <node concept="Xl_RD" id="40oIQyImuOD" role="37wK5m">
+                    <node concept="2YIFZM" id="1J9MAka9E7t" role="2Oq$k0">
+                      <ref role="37wK5l" to="dr5r:~Logger.getLogger(java.lang.String)" resolve="getLogger" />
+                      <ref role="1Pybhc" to="dr5r:~Logger" resolve="Logger" />
+                      <node concept="Xl_RD" id="1J9MAka9E7u" role="37wK5m">
                         <property role="Xl_RC" value="DecTab Substitute" />
                       </node>
                     </node>
                     <node concept="liA8E" id="40oIQyImBwi" role="2OqNvi">
-                      <ref role="37wK5l" to="q7tw:~Category.info(java.lang.Object)" resolve="info" />
+                      <ref role="37wK5l" to="dr5r:~Logger.info(java.lang.String)" resolve="info" />
                       <node concept="3cpWs3" id="40oIQyIgAkQ" role="37wK5m">
                         <node concept="3oseBL" id="40oIQyIgC8d" role="3uHU7w" />
                         <node concept="3cpWs3" id="40oIQyIgv58" role="3uHU7B">

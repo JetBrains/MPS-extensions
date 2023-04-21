@@ -4,6 +4,7 @@
   <languages>
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
@@ -17,7 +18,6 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="3qmy" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.classloading(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
@@ -59,7 +59,6 @@
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
-      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -210,6 +209,13 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261755" name="throwable" index="RRSow" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -236,21 +242,6 @@
   </registry>
   <node concept="312cEu" id="3wED9Ce43t1">
     <property role="TrG5h" value="NativeLibraryLoader" />
-    <node concept="Wx3nA" id="2H_mjOXrWpH" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="2H_mjOXrVwd" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="3Tm6S6" id="2H_mjOXrVa5" role="1B3o_S" />
-      <node concept="2YIFZM" id="2H_mjOXrVXt" role="33vP2m">
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <node concept="3VsKOn" id="2H_mjOXrW8C" role="37wK5m">
-          <ref role="3VsUkX" node="3wED9Ce43t1" resolve="NativeLibraryLoader" />
-        </node>
-      </node>
-    </node>
     <node concept="312cEg" id="1HOG8KqTpnP" role="jymVt">
       <property role="TrG5h" value="PLUGIN_ID" />
       <node concept="3Tm6S6" id="1HOG8KqTpnQ" role="1B3o_S" />
@@ -1442,30 +1433,23 @@
               </node>
             </node>
             <node concept="3clFbS" id="2H_mjOXrTKg" role="1zc67A">
-              <node concept="3clFbF" id="2H_mjOXrWPt" role="3cqZAp">
-                <node concept="2OqwBi" id="2H_mjOXrWS5" role="3clFbG">
-                  <node concept="37vLTw" id="2H_mjOXrWPs" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2H_mjOXrWpH" resolve="LOG" />
+              <node concept="RRSsy" id="1J9MAka0P39" role="3cqZAp">
+                <property role="RRSoG" value="gZ5fh_4/error" />
+                <node concept="3cpWs3" id="1J9MAka11F2" role="RRSoy">
+                  <node concept="Xl_RD" id="2H_mjOXrWYJ" role="3uHU7B">
+                    <property role="Xl_RC" value="Cannot load native libraries for module: " />
                   </node>
-                  <node concept="liA8E" id="2H_mjOXrWXB" role="2OqNvi">
-                    <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable)" resolve="error" />
-                    <node concept="3cpWs3" id="2H_mjOXrYj$" role="37wK5m">
-                      <node concept="2OqwBi" id="2H_mjOXrYpJ" role="3uHU7w">
-                        <node concept="37vLTw" id="2H_mjOXrYlu" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2H_mjOXrGMC" resolve="module" />
-                        </node>
-                        <node concept="liA8E" id="2H_mjOXrYFj" role="2OqNvi">
-                          <ref role="37wK5l" to="lui2:~SModule.getModuleName()" resolve="getModuleName" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="2H_mjOXrWYJ" role="3uHU7B">
-                        <property role="Xl_RC" value="Cannot load native libraries for module: " />
-                      </node>
+                  <node concept="2OqwBi" id="2H_mjOXrYpJ" role="3uHU7w">
+                    <node concept="37vLTw" id="2H_mjOXrYlu" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2H_mjOXrGMC" resolve="module" />
                     </node>
-                    <node concept="37vLTw" id="2H_mjOXrX4p" role="37wK5m">
-                      <ref role="3cqZAo" node="2H_mjOXrTKc" resolve="ex" />
+                    <node concept="liA8E" id="2H_mjOXrYFj" role="2OqNvi">
+                      <ref role="37wK5l" to="lui2:~SModule.getModuleName()" resolve="getModuleName" />
                     </node>
                   </node>
+                </node>
+                <node concept="37vLTw" id="1J9MAka1bxO" role="RRSow">
+                  <ref role="3cqZAo" node="2H_mjOXrTKc" resolve="ex" />
                 </node>
               </node>
             </node>

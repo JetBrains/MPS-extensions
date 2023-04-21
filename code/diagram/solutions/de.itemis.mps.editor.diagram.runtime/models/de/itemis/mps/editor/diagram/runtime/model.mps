@@ -27,7 +27,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="7ou7" ref="r:c2174d48-8423-45ea-b84e-77408df7449d(de.itemis.mps.editor.diagram.runtime.shape)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="lhc4" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.annotations(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
@@ -454,6 +453,13 @@
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
+        <property id="2034914114981261751" name="severity" index="RRSoG" />
+        <child id="2034914114981261755" name="throwable" index="RRSow" />
+        <child id="2034914114981261753" name="message" index="RRSoy" />
+      </concept>
     </language>
     <language id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal">
       <concept id="1176743162354" name="jetbrains.mps.baseLanguageInternal.structure.InternalVariableReference" flags="nn" index="3VmV3z">
@@ -5074,21 +5080,6 @@
   <node concept="312cEu" id="27djZ8_ZBps">
     <property role="TrG5h" value="DiagramModel" />
     <property role="1sVAO0" value="false" />
-    <node concept="Wx3nA" id="5P3ZJ9d6SXt" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="5P3ZJ9d6Srs" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="3Tm6S6" id="5P3ZJ9d6HZ8" role="1B3o_S" />
-      <node concept="2YIFZM" id="5P3ZJ9d6SM0" role="33vP2m">
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <node concept="3VsKOn" id="5P3ZJ9d6SO6" role="37wK5m">
-          <ref role="3VsUkX" node="27djZ8_ZBps" resolve="DiagramModel" />
-        </node>
-      </node>
-    </node>
     <node concept="Wx3nA" id="6$5eFO9fgko" role="jymVt">
       <property role="TrG5h" value="ALLOW_DELETE_DURING_SYNC" />
       <property role="3TUv4t" value="true" />
@@ -9015,21 +9006,14 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="7GZDrCwptG7" role="3cqZAp">
-                  <node concept="2OqwBi" id="7GZDrCwpzcV" role="3clFbG">
-                    <node concept="37vLTw" id="7GZDrCwptG5" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5P3ZJ9d6SXt" resolve="LOG" />
+                <node concept="RRSsy" id="1J9MAk9T8Pa" role="3cqZAp">
+                  <property role="RRSoG" value="gZ5fksE/warn" />
+                  <node concept="3cpWs3" id="7GZDrCwpzKm" role="RRSoy">
+                    <node concept="37vLTw" id="7GZDrCws8nE" role="3uHU7w">
+                      <ref role="3cqZAo" node="7GZDrCws8nC" resolve="referenceString" />
                     </node>
-                    <node concept="liA8E" id="7GZDrCwpztv" role="2OqNvi">
-                      <ref role="37wK5l" to="q7tw:~Category.warn(java.lang.Object)" resolve="warn" />
-                      <node concept="3cpWs3" id="7GZDrCwpzKm" role="37wK5m">
-                        <node concept="37vLTw" id="7GZDrCws8nE" role="3uHU7w">
-                          <ref role="3cqZAo" node="7GZDrCws8nC" resolve="referenceString" />
-                        </node>
-                        <node concept="Xl_RD" id="7GZDrCwpzve" role="3uHU7B">
-                          <property role="Xl_RC" value="Cannot resolve endpoint: " />
-                        </node>
-                      </node>
+                    <node concept="Xl_RD" id="7GZDrCwpzve" role="3uHU7B">
+                      <property role="Xl_RC" value="Cannot resolve endpoint: " />
                     </node>
                   </node>
                 </node>
@@ -38188,22 +38172,6 @@
   </node>
   <node concept="312cEu" id="7MH10IUREMm">
     <property role="TrG5h" value="ConnectionTypeChooser" />
-    <node concept="Wx3nA" id="7MH10IUTGZ7" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="7MH10IUTGZ8" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="3Tm6S6" id="7MH10IUTGZ9" role="1B3o_S" />
-      <node concept="2YIFZM" id="7MH10IUTGZa" role="33vP2m">
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <node concept="3VsKOn" id="7MH10IUTGZb" role="37wK5m">
-          <ref role="3VsUkX" node="7MH10IUREMm" resolve="ConnectionTypeChooser" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="7MH10IUTHPb" role="jymVt" />
     <node concept="312cEg" id="7MH10IURH7s" role="jymVt">
       <property role="TrG5h" value="myGraph" />
       <node concept="3Tm6S6" id="7MH10IURH7t" role="1B3o_S" />
@@ -39364,20 +39332,13 @@
               </node>
             </node>
             <node concept="3clFbS" id="5P3ZJ9d6r6E" role="1zc67A">
-              <node concept="3clFbF" id="5P3ZJ9d738G" role="3cqZAp">
-                <node concept="2OqwBi" id="5P3ZJ9d73eo" role="3clFbG">
-                  <node concept="37vLTw" id="7MH10IUTIGJ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7MH10IUTGZ7" resolve="LOG" />
-                  </node>
-                  <node concept="liA8E" id="5P3ZJ9d73xT" role="2OqNvi">
-                    <ref role="37wK5l" to="q7tw:~Category.error(java.lang.Object,java.lang.Throwable)" resolve="error" />
-                    <node concept="Xl_RD" id="5P3ZJ9d73FQ" role="37wK5m">
-                      <property role="Xl_RC" value="Validate method has thrown an exception" />
-                    </node>
-                    <node concept="37vLTw" id="5P3ZJ9d73$h" role="37wK5m">
-                      <ref role="3cqZAo" node="5P3ZJ9d6r6A" resolve="ex" />
-                    </node>
-                  </node>
+              <node concept="RRSsy" id="1J9MAk9SiAF" role="3cqZAp">
+                <property role="RRSoG" value="gZ5fh_4/error" />
+                <node concept="Xl_RD" id="5P3ZJ9d73FQ" role="RRSoy">
+                  <property role="Xl_RC" value="Validate method has thrown an exception" />
+                </node>
+                <node concept="37vLTw" id="1J9MAk9Sm3_" role="RRSow">
+                  <ref role="3cqZAo" node="5P3ZJ9d6r6A" resolve="ex" />
                 </node>
               </node>
               <node concept="3clFbF" id="5P3ZJ9d6rwM" role="3cqZAp">

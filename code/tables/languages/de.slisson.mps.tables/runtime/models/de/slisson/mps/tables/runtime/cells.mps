@@ -25,7 +25,6 @@
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
@@ -41,7 +40,6 @@
     <import index="emqf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cellProviders(MPS.Editor/)" />
     <import index="y49u" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.util(MPS.OpenAPI/)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="y2d0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.actions(MPS.Editor/)" />
     <import index="b8lf" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.selection(MPS.Editor/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
@@ -1669,21 +1667,6 @@
     <property role="TrG5h" value="TableEditor" />
     <node concept="3uibUv" id="7Nzu1Mc$WQI" role="1zkMxy">
       <ref role="3uigEE" node="7Nzu1Mc$A9b" resolve="AbstractTableEditor" />
-    </node>
-    <node concept="Wx3nA" id="3YYIQsakrUR" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="3YYIQsakrUT" role="1B3o_S" />
-      <node concept="3uibUv" id="3YYIQsaktqw" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="2YIFZM" id="3YYIQsak$yb" role="33vP2m">
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <node concept="3VsKOn" id="3YYIQsakBvf" role="37wK5m">
-          <ref role="3VsUkX" node="1dAqnm8$zBn" resolve="TableEditor" />
-        </node>
-      </node>
     </node>
     <node concept="312cEg" id="1cFYsK3om0B" role="jymVt">
       <property role="TrG5h" value="myOriginalGrid" />
@@ -5369,21 +5352,6 @@
   </node>
   <node concept="312cEu" id="1Aocu$AXXFw">
     <property role="TrG5h" value="CellLayout_Table" />
-    <node concept="Wx3nA" id="2Z_4Bnbn6iR" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="2Z_4Bnbn6iS" role="1B3o_S" />
-      <node concept="3uibUv" id="2Z_4Bnbn6iT" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="2YIFZM" id="2Z_4Bnbn6iU" role="33vP2m">
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <node concept="3VsKOn" id="2Z_4BnbnJwx" role="37wK5m">
-          <ref role="3VsUkX" node="1Aocu$AXXFw" resolve="CellLayout_Table" />
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="1Aocu$AXXGb" role="jymVt" />
     <node concept="312cEg" id="1Aocu$AYqtI" role="jymVt">
       <property role="TrG5h" value="myContext" />
@@ -7946,20 +7914,6 @@
   </node>
   <node concept="312cEu" id="20OswHE0eA6">
     <property role="TrG5h" value="EditorCell_GridCell" />
-    <node concept="Wx3nA" id="4td5AAyZHvy" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <node concept="3Tm6S6" id="4td5AAyZHv$" role="1B3o_S" />
-      <node concept="3uibUv" id="4td5AAyZIt8" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="2YIFZM" id="4td5AAyZPa3" role="33vP2m">
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <node concept="3VsKOn" id="4td5AAyZQZz" role="37wK5m">
-          <ref role="3VsUkX" node="20OswHE0eA6" resolve="EditorCell_GridCell" />
-        </node>
-      </node>
-    </node>
     <node concept="Wx3nA" id="4ZTosT2sclr" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="STYLE_MARGIN_LEFT" />
@@ -14999,20 +14953,6 @@
   </node>
   <node concept="312cEu" id="2Jt5bYCPbd1">
     <property role="TrG5h" value="PartialTableEditor" />
-    <node concept="Wx3nA" id="4zzNcfO2Q2t" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <node concept="3Tm6S6" id="4zzNcfO2Q2v" role="1B3o_S" />
-      <node concept="3uibUv" id="4zzNcfO2R_v" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="2YIFZM" id="4zzNcfO2Yxn" role="33vP2m">
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <node concept="3VsKOn" id="4zzNcfO32kp" role="37wK5m">
-          <ref role="3VsUkX" node="2Jt5bYCPbd1" resolve="PartialTableEditor" />
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="1Aocu$Ar4Hk" role="jymVt" />
     <node concept="312cEg" id="5Jx74hguSDb" role="jymVt">
       <property role="TrG5h" value="myOriginalParent" />
@@ -15692,20 +15632,6 @@
     <property role="TrG5h" value="TableEditorActions" />
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
-    <node concept="Wx3nA" id="ReH4SuvLQ_" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <node concept="3Tm6S6" id="ReH4SuvLQB" role="1B3o_S" />
-      <node concept="3uibUv" id="ReH4SuvQvz" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="2YIFZM" id="ReH4SuvQwO" role="33vP2m">
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <node concept="3VsKOn" id="ReH4SuvQDl" role="37wK5m">
-          <ref role="3VsUkX" node="4zzNcfNzzMH" resolve="TableEditorActions" />
-        </node>
-      </node>
-    </node>
     <node concept="Wx3nA" id="4zzNcfNLqcm" role="jymVt">
       <property role="TrG5h" value="myActionMap" />
       <property role="3TUv4t" value="false" />
@@ -22864,20 +22790,6 @@
   </node>
   <node concept="312cEu" id="4gCFRNz2KOM">
     <property role="TrG5h" value="TableTraversalUtil" />
-    <node concept="Wx3nA" id="ReH4Su_k8r" role="jymVt">
-      <property role="TrG5h" value="LOG" />
-      <node concept="3Tm6S6" id="ReH4Su_k8t" role="1B3o_S" />
-      <node concept="3uibUv" id="ReH4Su_kOj" role="1tU5fm">
-        <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
-      </node>
-      <node concept="2YIFZM" id="ReH4Su_kP_" role="33vP2m">
-        <ref role="1Pybhc" to="q7tw:~Logger" resolve="Logger" />
-        <ref role="37wK5l" to="q7tw:~Logger.getLogger(java.lang.Class)" resolve="getLogger" />
-        <node concept="3VsKOn" id="ReH4Su_kSj" role="37wK5m">
-          <ref role="3VsUkX" node="4gCFRNz2KOM" resolve="TableTraversalUtil" />
-        </node>
-      </node>
-    </node>
     <node concept="Wx3nA" id="7cmJr8AGMfM" role="jymVt">
       <property role="TrG5h" value="ALWAYS_TRUE_CONDITION" />
       <property role="3TUv4t" value="false" />

@@ -730,6 +730,37 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="MOb1pQ8MtD" role="3clF47">
+        <node concept="3SKdUt" id="SDAwlwziiN" role="3cqZAp">
+          <node concept="1PaTwC" id="SDAwlwziiO" role="1aUNEU">
+            <node concept="3oM_SD" id="SDAwlwziji" role="1PaTwD">
+              <property role="3oM_SC" value="Initialize" />
+            </node>
+            <node concept="3oM_SD" id="SDAwlwziv8" role="1PaTwD">
+              <property role="3oM_SC" value="myEditorComponentAction" />
+            </node>
+            <node concept="3oM_SD" id="SDAwlwziKW" role="1PaTwD">
+              <property role="3oM_SC" value="CLIC" />
+            </node>
+            <node concept="3oM_SD" id="SDAwlwziL0" role="1PaTwD">
+              <property role="3oM_SC" value="action" />
+            </node>
+            <node concept="3oM_SD" id="SDAwlwziLd" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="SDAwlwziLj" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="SDAwlwziLq" role="1PaTwD">
+              <property role="3oM_SC" value="lead" />
+            </node>
+            <node concept="3oM_SD" id="SDAwlwziLE" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="SDAwlwziLN" role="1PaTwD">
+              <property role="3oM_SC" value="exceptions" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="6d7zaBDR5NB" role="3cqZAp">
           <node concept="2OqwBi" id="6d7zaBDR5YI" role="3clFbG">
             <node concept="37vLTw" id="6d7zaBDR5N_" role="2Oq$k0">
@@ -737,8 +768,8 @@
             </node>
             <node concept="liA8E" id="6d7zaBDR6ev" role="2OqNvi">
               <ref role="37wK5l" to="cj4x:~EditorComponent.getComponentAction(jetbrains.mps.openapi.editor.cells.CellActionType)" resolve="getComponentAction" />
-              <node concept="Rm8GO" id="6d7zaBDR6js" role="37wK5m">
-                <ref role="Rm8GQ" to="f4zo:~CellActionType.DOWN" resolve="DOWN" />
+              <node concept="Rm8GO" id="SDAwlwz2Rw" role="37wK5m">
+                <ref role="Rm8GQ" to="f4zo:~CellActionType.CLICK" resolve="CLICK" />
                 <ref role="1Px2BO" to="f4zo:~CellActionType" resolve="CellActionType" />
               </node>
             </node>

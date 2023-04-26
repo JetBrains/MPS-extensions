@@ -704,14 +704,32 @@
             </node>
             <node concept="3F0ifn" id="45g3j8ia4Dt" role="3EZMnx">
               <property role="3F0ifm" value="run autolayout on init" />
+              <node concept="3nxI2P" id="4m$$SBG8D3R" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
             <node concept="3F0A7n" id="45g3j8ia4Pe" role="3EZMnx">
               <ref role="1NtTu8" to="2qld:45g3j8ia4nb" resolve="runAutoLayoutOnInit" />
               <node concept="VPXOz" id="45g3j8ibFsZ" role="3F10Kt">
                 <property role="VOm3f" value="true" />
               </node>
+              <node concept="3nxI2P" id="4m$$SBG8D3W" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
             <node concept="2iRfu4" id="45g3j8ia4Dw" role="2iSdaV" />
+          </node>
+          <node concept="3EZMnI" id="4m$$SBG8DdJ" role="3EZMnx">
+            <node concept="2iRfu4" id="4m$$SBG8DdK" role="2iSdaV" />
+            <node concept="3F0ifn" id="4m$$SBG8D40" role="3EZMnx">
+              <property role="3F0ifm" value="autolayout on init" />
+            </node>
+            <node concept="3F1sOY" id="4m$$SBG8DjV" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:4m$$SBG8CdJ" resolve="autoLayoutOnInit" />
+              <node concept="VPXOz" id="4m$$SBG8DjZ" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
           </node>
           <node concept="3EZMnI" id="2YJ6Svp2Ooy" role="3EZMnx">
             <node concept="VPM3Z" id="2YJ6Svp2Ooz" role="3F10Kt">
@@ -739,6 +757,9 @@
             <node concept="3F1sOY" id="7dE4XXD90iS" role="3EZMnx">
               <property role="1$x2rV" value="true (default)" />
               <ref role="1NtTu8" to="2qld:7dE4XXD8Z89" resolve="saveLayout" />
+              <node concept="VPXOz" id="4m$$SBG8Dk1" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
             <node concept="VPM3Z" id="7dE4XXD90al" role="3F10Kt" />
             <node concept="VPXOz" id="7dE4XXD90ar" role="3F10Kt">

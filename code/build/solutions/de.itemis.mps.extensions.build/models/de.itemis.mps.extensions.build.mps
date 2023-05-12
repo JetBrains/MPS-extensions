@@ -931,12 +931,12 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="34iPpyhNGWr" role="3bR37C">
-          <node concept="1BurEX" id="34iPpyhNGWs" role="1SiIV1">
-            <node concept="398BVA" id="34iPpyhNGWd" role="1BurEY">
+        <node concept="1SiIV0" id="6te0FTH260Z" role="3bR37C">
+          <node concept="1BurEX" id="6te0FTH2610" role="1SiIV1">
+            <node concept="398BVA" id="6te0FTH260X" role="1BurEY">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="34iPpyhNGWe" role="iGT6I">
-                <property role="2Ry0Am" value="3rd-party.jar" />
+              <node concept="2Ry0Ak" id="6te0FTH260Y" role="iGT6I">
+                <property role="2Ry0Am" value="app.jar" />
               </node>
             </node>
           </node>
@@ -13004,6 +13004,11 @@
         <node concept="1SiIV0" id="2obP5Y848iA" role="3bR37C">
           <node concept="3bR9La" id="2obP5Y848iB" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:rD7wKO6k$" resolve="MPS.Generator" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6te0FTH26rr" role="3bR37C">
+          <node concept="3bR9La" id="6te0FTH26rs" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:HHlBn9$wJ2" resolve="org.jdom" />
           </node>
         </node>
       </node>

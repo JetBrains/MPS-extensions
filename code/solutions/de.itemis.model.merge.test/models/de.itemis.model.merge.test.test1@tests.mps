@@ -2,9 +2,9 @@
 <model ref="r:d4903c79-201b-45bc-809e-5c65a3994bca(de.itemis.model.merge.test.test1@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
     <use id="e50b0500-6fd7-4c7f-a730-9d841358ca2b" name="de.itemis.model.simple.demo.property" version="0" />
   </languages>
@@ -41,6 +41,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1216993439383" name="methods" index="1qtyYc" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
@@ -235,6 +236,7 @@
   </registry>
   <node concept="1lH9Xt" id="2481oA8omhW">
     <property role="TrG5h" value="DiamondPropertyTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="2481oA8omvF" role="1SKRRt">
       <node concept="1olOeT" id="7TOowlgsb4L" role="1qenE9">
         <property role="TrG5h" value="DiamondMerge" />
@@ -534,6 +536,7 @@
   </node>
   <node concept="1lH9Xt" id="2QNuyuiO36x">
     <property role="TrG5h" value="OtherPropertyTests" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="2QNuyuiOB_U" role="1SKRRt">
       <node concept="1olOeT" id="2QNuyuiOBFZ" role="1qenE9">
         <property role="TrG5h" value="OverridePropertyMergePolicy" />
@@ -1625,6 +1628,7 @@
   </node>
   <node concept="1lH9Xt" id="1trrptaBsHT">
     <property role="TrG5h" value="DiamondChildTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="1trrptaE8Aa" role="1SKRRt">
       <node concept="1olOeT" id="1trrptaE8Bd" role="1qenE9">
         <property role="TrG5h" value="DiamondMerge" />
@@ -2316,6 +2320,7 @@
   </node>
   <node concept="1lH9Xt" id="1trrptaGVeL">
     <property role="TrG5h" value="OtherChildTests" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="1trrptaGVeM" role="1SKRRt">
       <node concept="1olOeT" id="1trrptaGVeN" role="1qenE9">
         <property role="TrG5h" value="OverrideChildMergePolicy" />
@@ -3441,6 +3446,7 @@
   </node>
   <node concept="1lH9Xt" id="5ahhjnbZ0TU">
     <property role="TrG5h" value="IdFunctionTests" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="5ahhjnc0WLV" role="1SKRRt">
       <node concept="1olOeT" id="5ahhjnc0WLW" role="1qenE9">
         <property role="TrG5h" value="IdClash" />

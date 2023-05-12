@@ -48,5 +48,5 @@ The default implementation is the `treeNode`. It can extend other elements and a
 - **folder path**: the virtual folder of the node
 - **folder action group ID**: the ID of an existing action group that should be shown when right-click the virtual folder.
 
-The current mps project can be accessed through the variable `mpsProject`. a project view can be reference by typing `projectView`
+The current mps project can be accessed through the variable `mpsProject`. A project view can be reference by typing `projectView`
 and the name of the project view.

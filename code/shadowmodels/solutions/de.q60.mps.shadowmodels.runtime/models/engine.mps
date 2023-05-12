@@ -2,7 +2,7 @@
 <model ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
@@ -4646,7 +4646,7 @@
         </node>
       </node>
       <node concept="3clFb_" id="5b_lky_QN6c" role="jymVt">
-        <property role="TrG5h" value="getName" />
+        <property role="TrG5h" value="getSimpleName" />
         <node concept="17QB3L" id="5b_lky_QN6d" role="3clF45" />
         <node concept="3Tm1VV" id="5b_lky_QN6e" role="1B3o_S" />
         <node concept="3clFbS" id="5b_lky_QN6g" role="3clF47">

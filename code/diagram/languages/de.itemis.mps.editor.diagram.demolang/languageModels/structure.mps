@@ -81,6 +81,11 @@
     <property role="34LRSv" value="component" />
     <property role="EcuMT" value="6237710625713136478" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2YJ6Svp5RPD" role="1TKVEi">
+      <property role="IQ2ns" value="3435995310983708009" />
+      <property role="20kJfa" value="subComponent" />
+      <ref role="20lvS9" node="2YJ6Svp5Qp3" resolve="SubComponent" />
+    </node>
     <node concept="1TJgyj" id="3P47XPYx5Nb" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expr" />
@@ -222,6 +227,15 @@
       <node concept="trNpa" id="6OhZPz3aZ5_" role="EQaZv">
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2YJ6Svp5Qp3">
+    <property role="EcuMT" value="3435995310983702083" />
+    <property role="TrG5h" value="SubComponent" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2YJ6Svp5Qpp" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

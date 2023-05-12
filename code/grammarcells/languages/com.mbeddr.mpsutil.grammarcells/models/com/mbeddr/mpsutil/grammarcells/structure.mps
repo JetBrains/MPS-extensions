@@ -8,8 +8,8 @@
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="878o" ref="r:46fddec3-0db9-4b86-8274-957463dd4499(com.mbeddr.mpsutil.grammarcells.runtimelang.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpdg" ref="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -613,7 +613,7 @@
         <node concept="1TJgyi" id="6jH9yJK30$j" role="3l_iP">
           <property role="TrG5h" value="side" />
           <property role="IQ2nx" value="7272510943425988883" />
-          <ref role="AX2Wp" to="tpdg:hG7GXih" resolve="Side" />
+          <ref role="AX2Wp" to="tpdg:3Ftr4R6BF3f" resolve="Side" />
         </node>
       </node>
     </node>

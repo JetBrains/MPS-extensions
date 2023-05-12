@@ -225,5 +225,10 @@
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="28uWW3KZps3">
+    <property role="EcuMT" value="2458670456593291011" />
+    <property role="TrG5h" value="DiagramWithoutLayoutStore" />
+    <ref role="1TJDcQ" node="24zrZPPzcal" resolve="Diagram" />
+  </node>
 </model>
 

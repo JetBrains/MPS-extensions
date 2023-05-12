@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:3d8b4628-659e-4af1-a607-3cc893005b62(de.slisson.mps.tables.runtime.cells)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -61,6 +62,7 @@
     <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
     <import index="9hsz" ref="r:16d53f5e-7835-4b72-9581-fafeae0db9b1(jetbrains.mps.lang.editor.enumMigration)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" implicit="true" />
@@ -30313,37 +30315,71 @@
       </node>
       <node concept="3Tm6S6" id="6OcqZnLFWP0" role="1B3o_S" />
       <node concept="3clFbS" id="6901ed1LjL7" role="3clF47">
-        <node concept="3clFbF" id="6901ed1LE3N" role="3cqZAp">
-          <node concept="2OqwBi" id="k5dtw8NPwG" role="3clFbG">
-            <node concept="1eOMI4" id="k5dtw8NLzq" role="2Oq$k0">
-              <node concept="10QFUN" id="k5dtw8NLzn" role="1eOMHV">
-                <node concept="3uibUv" id="k5dtw8NPfg" role="10QFUM">
-                  <ref role="3uigEE" to="z1c3:~FileBasedProject" resolve="FileBasedProject" />
-                </node>
-                <node concept="1eOMI4" id="k5dtw8NKVC" role="10QFUP">
-                  <node concept="2OqwBi" id="6901ed1L_0Z" role="1eOMHV">
-                    <node concept="2OqwBi" id="6901ed1LwyF" role="2Oq$k0">
-                      <node concept="2OqwBi" id="6901ed1Lw4e" role="2Oq$k0">
-                        <node concept="37vLTw" id="6901ed1Lw2C" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6901ed1Lkhg" resolve="cell" />
-                        </node>
-                        <node concept="liA8E" id="6901ed1LwwK" role="2OqNvi">
-                          <ref role="37wK5l" to="f4zo:~EditorCell.getContext()" resolve="getContext" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="6901ed1L$YB" role="2OqNvi">
-                        <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext()" resolve="getOperationContext" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="6901ed1L_zr" role="2OqNvi">
-                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject()" resolve="getProject" />
-                    </node>
+        <node concept="3cpWs8" id="1ZDQN7dt4ec" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZDQN7dt4ed" role="3cpWs9">
+            <property role="TrG5h" value="project" />
+            <node concept="3uibUv" id="1ZDQN7dt46m" role="1tU5fm">
+              <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+            </node>
+            <node concept="2YIFZM" id="1ZDQN7dt4ee" role="33vP2m">
+              <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="2OqwBi" id="1ZDQN7dt4ef" role="37wK5m">
+                <node concept="2OqwBi" id="1ZDQN7dt4eg" role="2Oq$k0">
+                  <node concept="37vLTw" id="1ZDQN7dt4eh" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6901ed1Lkhg" resolve="cell" />
                   </node>
+                  <node concept="liA8E" id="1ZDQN7dt4ei" role="2OqNvi">
+                    <ref role="37wK5l" to="f4zo:~EditorCell.getContext()" resolve="getContext" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1ZDQN7dt4ej" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
                 </node>
               </node>
             </node>
-            <node concept="liA8E" id="k5dtw8NPZY" role="2OqNvi">
-              <ref role="37wK5l" to="z1c3:~FileBasedProject.getProjectFile()" resolve="getProjectFile" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1ZDQN7dt4Ha" role="3cqZAp">
+          <node concept="3clFbS" id="1ZDQN7dt4Hc" role="3clFbx">
+            <node concept="3cpWs6" id="1ZDQN7dt9yM" role="3cqZAp">
+              <node concept="2OqwBi" id="1ZDQN7dt9OD" role="3cqZAk">
+                <node concept="1eOMI4" id="1ZDQN7dt9OE" role="2Oq$k0">
+                  <node concept="10QFUN" id="1ZDQN7dt9OF" role="1eOMHV">
+                    <node concept="3uibUv" id="1ZDQN7dt9OG" role="10QFUM">
+                      <ref role="3uigEE" to="z1c3:~FileBasedProject" resolve="FileBasedProject" />
+                    </node>
+                    <node concept="37vLTw" id="1ZDQN7dt9OH" role="10QFUP">
+                      <ref role="3cqZAo" node="1ZDQN7dt4ed" resolve="project" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="1ZDQN7dt9OI" role="2OqNvi">
+                  <ref role="37wK5l" to="z1c3:~FileBasedProject.getProjectFile()" resolve="getProjectFile" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="1ZDQN7dt5AA" role="3clFbw">
+            <node concept="3uibUv" id="1ZDQN7dt678" role="2ZW6by">
+              <ref role="3uigEE" to="z1c3:~FileBasedProject" resolve="FileBasedProject" />
+            </node>
+            <node concept="37vLTw" id="1ZDQN7dt5gY" role="2ZW6bz">
+              <ref role="3cqZAo" node="1ZDQN7dt4ed" resolve="project" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1ZDQN7dtaCL" role="3cqZAp">
+          <node concept="2ShNRf" id="1ZDQN7dtb86" role="3cqZAk">
+            <node concept="1pGfFk" id="1ZDQN7dtb4h" role="2ShVmc">
+              <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+              <node concept="2YIFZM" id="1ZDQN7dtbZC" role="37wK5m">
+                <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String)" resolve="getProperty" />
+                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                <node concept="Xl_RD" id="1ZDQN7dtdEg" role="37wK5m">
+                  <property role="Xl_RC" value="user.home" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

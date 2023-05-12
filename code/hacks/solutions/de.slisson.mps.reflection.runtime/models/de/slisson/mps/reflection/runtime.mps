@@ -8,9 +8,13 @@
   <imports>
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="e5kc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.invoke(JDK/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="4564374268190696673" name="jetbrains.mps.baseLanguage.structure.PrimitiveClassExpression" flags="nn" index="229OVn">
+        <child id="4564374268190696674" name="primitiveType" index="229OVk" />
+      </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="8118189177080264853" name="jetbrains.mps.baseLanguage.structure.AlternativeType" flags="ig" index="nSUau">
         <child id="8118189177080264854" name="alternative" index="nSUat" />
@@ -295,72 +299,83 @@
             </node>
             <node concept="3clFbJ" id="6U7y_4Fz3jh" role="3cqZAp">
               <node concept="3clFbS" id="6U7y_4Fz3jj" role="3clFbx">
-                <node concept="3cpWs8" id="6U7y_4Fz51Z" role="3cqZAp">
-                  <node concept="3cpWsn" id="6U7y_4Fz51Y" role="3cpWs9">
-                    <property role="3TUv4t" value="false" />
-                    <property role="TrG5h" value="modifiersField" />
-                    <node concept="3uibUv" id="6U7y_4Fz520" role="1tU5fm">
-                      <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+                <node concept="3cpWs8" id="4Oc83Ifb$pw" role="3cqZAp">
+                  <node concept="3cpWsn" id="4Oc83Ifb$px" role="3cpWs9">
+                    <property role="TrG5h" value="lookup" />
+                    <node concept="3uibUv" id="4Oc83Ifb$k$" role="1tU5fm">
+                      <ref role="3uigEE" to="e5kc:~MethodHandles$Lookup" resolve="MethodHandles.Lookup" />
                     </node>
-                    <node concept="2OqwBi" id="6U7y_4Fz521" role="33vP2m">
-                      <node concept="3VsKOn" id="6U7y_4Fz523" role="2Oq$k0">
+                    <node concept="2YIFZM" id="4Oc83Ifb$py" role="33vP2m">
+                      <ref role="37wK5l" to="e5kc:~MethodHandles.privateLookupIn(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)" resolve="privateLookupIn" />
+                      <ref role="1Pybhc" to="e5kc:~MethodHandles" resolve="MethodHandles" />
+                      <node concept="3VsKOn" id="4Oc83Ifb$pz" role="37wK5m">
                         <ref role="3VsUkX" to="t6h5:~Field" resolve="Field" />
                       </node>
-                      <node concept="liA8E" id="6U7y_4Fz524" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~Class.getDeclaredField(java.lang.String)" resolve="getDeclaredField" />
-                        <node concept="Xl_RD" id="6U7y_4Fz525" role="37wK5m">
+                      <node concept="2YIFZM" id="4Oc83Ifb$p$" role="37wK5m">
+                        <ref role="37wK5l" to="e5kc:~MethodHandles.lookup()" resolve="lookup" />
+                        <ref role="1Pybhc" to="e5kc:~MethodHandles" resolve="MethodHandles" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="4Oc83IfbAk7" role="3cqZAp">
+                  <node concept="3cpWsn" id="4Oc83IfbAk8" role="3cpWs9">
+                    <property role="TrG5h" value="modifiers" />
+                    <node concept="3uibUv" id="4Oc83IfbAfP" role="1tU5fm">
+                      <ref role="3uigEE" to="e5kc:~VarHandle" resolve="VarHandle" />
+                    </node>
+                    <node concept="2OqwBi" id="4Oc83IfbAk9" role="33vP2m">
+                      <node concept="37vLTw" id="4Oc83IfbAka" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4Oc83Ifb$px" resolve="lookup" />
+                      </node>
+                      <node concept="liA8E" id="4Oc83IfbAkb" role="2OqNvi">
+                        <ref role="37wK5l" to="e5kc:~MethodHandles$Lookup.findVarHandle(java.lang.Class,java.lang.String,java.lang.Class)" resolve="findVarHandle" />
+                        <node concept="3VsKOn" id="4Oc83IfbAkc" role="37wK5m">
+                          <ref role="3VsUkX" to="t6h5:~Field" resolve="Field" />
+                        </node>
+                        <node concept="Xl_RD" id="4Oc83IfbAkd" role="37wK5m">
                           <property role="Xl_RC" value="modifiers" />
+                        </node>
+                        <node concept="229OVn" id="4Oc83IfbAke" role="37wK5m">
+                          <node concept="10Oyi0" id="4Oc83IfbAkf" role="229OVk" />
                         </node>
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="6U7y_4Fz526" role="3cqZAp">
-                  <node concept="2OqwBi" id="6U7y_4Fz52s" role="3clFbG">
-                    <node concept="37vLTw" id="6U7y_4Fz52r" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6U7y_4Fz51Y" resolve="modifiersField" />
-                    </node>
-                    <node concept="liA8E" id="6U7y_4Fz52t" role="2OqNvi">
-                      <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
-                      <node concept="3clFbT" id="6U7y_4Fz528" role="37wK5m">
-                        <property role="3clFbU" value="true" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3cpWs8" id="6U7y_4FzbYJ" role="3cqZAp">
-                  <node concept="3cpWsn" id="6U7y_4FzbYK" role="3cpWs9">
-                    <property role="TrG5h" value="originalModifier" />
-                    <node concept="10Oyi0" id="6U7y_4FzbY$" role="1tU5fm" />
-                    <node concept="2OqwBi" id="6U7y_4FzbYL" role="33vP2m">
-                      <node concept="37vLTw" id="6U7y_4FzbYM" role="2Oq$k0">
+                <node concept="3cpWs8" id="4Oc83IfbD$c" role="3cqZAp">
+                  <node concept="3cpWsn" id="4Oc83IfbD$f" role="3cpWs9">
+                    <property role="TrG5h" value="mods" />
+                    <node concept="10Oyi0" id="4Oc83IfbD$a" role="1tU5fm" />
+                    <node concept="2OqwBi" id="4Oc83IfbElI" role="33vP2m">
+                      <node concept="37vLTw" id="4Oc83IfbDVe" role="2Oq$k0">
                         <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
                       </node>
-                      <node concept="liA8E" id="6U7y_4FzbYN" role="2OqNvi">
+                      <node concept="liA8E" id="4Oc83IfbE$0" role="2OqNvi">
                         <ref role="37wK5l" to="t6h5:~Field.getModifiers()" resolve="getModifiers" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="6U7y_4Fz529" role="3cqZAp">
-                  <node concept="2OqwBi" id="6U7y_4Fz52E" role="3clFbG">
-                    <node concept="37vLTw" id="6U7y_4Fz52D" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6U7y_4Fz51Y" resolve="modifiersField" />
+                <node concept="3clFbF" id="4Oc83Ifb$Xp" role="3cqZAp">
+                  <node concept="2OqwBi" id="4Oc83IfbARp" role="3clFbG">
+                    <node concept="37vLTw" id="4Oc83IfbAkg" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4Oc83IfbAk8" resolve="modifiers" />
                     </node>
-                    <node concept="liA8E" id="6U7y_4Fz52F" role="2OqNvi">
-                      <ref role="37wK5l" to="t6h5:~Field.setInt(java.lang.Object,int)" resolve="setInt" />
-                      <node concept="37vLTw" id="6U7y_4Fz9cL" role="37wK5m">
+                    <node concept="liA8E" id="4Oc83IfbB2T" role="2OqNvi">
+                      <ref role="37wK5l" to="e5kc:~VarHandle.set(java.lang.Object...)" resolve="set" />
+                      <node concept="37vLTw" id="4Oc83IfbBce" role="37wK5m">
                         <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
                       </node>
-                      <node concept="pVHWs" id="6U7y_4Fz52c" role="37wK5m">
-                        <node concept="37vLTw" id="6U7y_4FzbYO" role="3uHU7B">
-                          <ref role="3cqZAo" node="6U7y_4FzbYK" resolve="originalModifier" />
-                        </node>
-                        <node concept="1H0AT2" id="6U7y_4Fz52e" role="3uHU7w">
-                          <node concept="10M0yZ" id="6U7y_4Fz555" role="1H0ATZ">
-                            <ref role="1PxDUh" to="t6h5:~Modifier" resolve="Modifier" />
+                      <node concept="pVHWs" id="4Oc83IfbBQ7" role="37wK5m">
+                        <node concept="1H0AT2" id="4Oc83IfbBZW" role="3uHU7w">
+                          <node concept="10M0yZ" id="4Oc83IfbCnE" role="1H0ATZ">
                             <ref role="3cqZAo" to="t6h5:~Modifier.FINAL" resolve="FINAL" />
+                            <ref role="1PxDUh" to="t6h5:~Modifier" resolve="Modifier" />
                           </node>
+                        </node>
+                        <node concept="37vLTw" id="4Oc83IfbBAO" role="3uHU7B">
+                          <ref role="3cqZAo" node="4Oc83IfbD$f" resolve="mods" />
                         </node>
                       </node>
                     </node>

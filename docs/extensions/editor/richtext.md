@@ -18,3 +18,13 @@ The following screenshot shows a simple example from the [mbeddr documentation l
 <img alt="example: query list" src="../../img/richtext_doc_example.png" width="800px" />
 
 All the different looking strings (e.g. @sect, @node, footnode) are implemented as concepts that implement [IWord](http://127.0.0.1:63320/node?ref=r%3Aca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3%28de.slisson.mps.richtext.structure%29%2F2557074442922392300).
+
+### Compatibility with the [Text language](https://www.jetbrains.com/help/mps/generic-placeholders-and-generic-comments.html#thetextlanguage)( jetbrains.mps.lang.text)
+
+Both languages have similar goals but are not compatible with each other.
+The text language is line based and has builtin support for some formatting options like bold, italic, underlined and some 
+other features such as bullet and numbered lines.
+The Richtext language doesn't have those features but was built with extensibility in mind. Some mentioned features
+are implemented in the mbeddr.doc language instead. While the text language looks to have all necessary features to replace
+the richtext language, it can't be extended that easily. Before you try to migrate to it, please keep that in mind and
+do some experiments to check if the switch is possible.

@@ -931,11 +931,11 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3EuwDNMVV8h" role="3bR37C">
-          <node concept="1BurEX" id="3EuwDNMVV8i" role="1SiIV1">
-            <node concept="398BVA" id="3EuwDNMVV83" role="1BurEY">
+        <node concept="1SiIV0" id="28qbqxxOALs" role="3bR37C">
+          <node concept="1BurEX" id="28qbqxxOALt" role="1SiIV1">
+            <node concept="398BVA" id="28qbqxxOALn" role="1BurEY">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="3EuwDNMVV84" role="iGT6I">
+              <node concept="2Ry0Ak" id="28qbqxxOALo" role="iGT6I">
                 <property role="2Ry0Am" value="app.jar" />
               </node>
             </node>
@@ -14152,6 +14152,25 @@
       <node concept="m$_wl" id="TAJODzV169" role="39821P">
         <ref role="m_rDy" node="TAJODzUQvo" resolve="com.mbeddr.mpsutil.intentions" />
         <node concept="pUk6x" id="76N1O$Kj6u1" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="17ZecOugM4I" role="39821P">
+        <ref role="m_rDy" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
+        <node concept="pUk6x" id="17ZecOugMk4" role="pUk7w" />
+        <node concept="398223" id="58u_KfGuaef" role="39821P">
+          <node concept="3_J27D" id="58u_KfGuaeg" role="Nbhlr">
+            <node concept="3Mxwew" id="58u_KfGuakF" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+            </node>
+          </node>
+          <node concept="28jJK3" id="4OBQEoHnTC7" role="39821P">
+            <node concept="398BVA" id="4OBQEoHnTIG" role="28jJRO">
+              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+              <node concept="2Ry0Ak" id="4OBQEoHnTPh" role="iGT6I">
+                <property role="2Ry0Am" value="app.jar" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="m$_wl" id="hCVXosGXXN" role="39821P">
         <ref role="m_rDy" node="hCVXosGNJH" resolve="com.mbeddr.mpsutil.modellisteners" />

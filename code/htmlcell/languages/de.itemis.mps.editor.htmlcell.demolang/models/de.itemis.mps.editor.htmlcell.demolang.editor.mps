@@ -164,7 +164,7 @@
       <concept id="9175692738071681118" name="de.itemis.mps.editor.htmlcell.structure.CellModel_HTML" flags="ng" index="1jG$eK">
         <child id="9175692738071697533" name="contentProvider" index="1jGSej" />
       </concept>
-      <concept id="9175692738071695071" name="de.itemis.mps.editor.htmlcell.structure.QueryFunction_Content" flags="ng" index="1jGTkL" />
+      <concept id="9175692738071695071" name="de.itemis.mps.editor.htmlcell.structure.QueryFunction_Content" flags="ig" index="1jGTkL" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="4040588429969021681" name="jetbrains.mps.lang.smodel.structure.ModuleReferenceExpression" flags="nn" index="3rM5sP">

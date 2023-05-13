@@ -2,7 +2,7 @@
 <solution name="MPS.ThirdParty" uuid="39983771-4e9b-401b-a1a9-1da6c777c843" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${platform_lib}" type="java_classes">
-      <sourceRoot location="3rd-party.jar" />
+      <sourceRoot location="app.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -11,7 +11,7 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${platform_lib}/3rd-party.jar" />
+    <stubModelEntry path="${platform_lib}/app.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

@@ -931,12 +931,12 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="34iPpyhNGWr" role="3bR37C">
-          <node concept="1BurEX" id="34iPpyhNGWs" role="1SiIV1">
-            <node concept="398BVA" id="34iPpyhNGWd" role="1BurEY">
+        <node concept="1SiIV0" id="3EuwDNMVV8h" role="3bR37C">
+          <node concept="1BurEX" id="3EuwDNMVV8i" role="1SiIV1">
+            <node concept="398BVA" id="3EuwDNMVV83" role="1BurEY">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="34iPpyhNGWe" role="iGT6I">
-                <property role="2Ry0Am" value="3rd-party.jar" />
+              <node concept="2Ry0Ak" id="3EuwDNMVV84" role="iGT6I">
+                <property role="2Ry0Am" value="app.jar" />
               </node>
             </node>
           </node>

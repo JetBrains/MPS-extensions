@@ -931,11 +931,11 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6te0FTH260Z" role="3bR37C">
-          <node concept="1BurEX" id="6te0FTH2610" role="1SiIV1">
-            <node concept="398BVA" id="6te0FTH260X" role="1BurEY">
+        <node concept="1SiIV0" id="3EuwDNMVV8h" role="3bR37C">
+          <node concept="1BurEX" id="3EuwDNMVV8i" role="1SiIV1">
+            <node concept="398BVA" id="3EuwDNMVV83" role="1BurEY">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="6te0FTH260Y" role="iGT6I">
+              <node concept="2Ry0Ak" id="3EuwDNMVV84" role="iGT6I">
                 <property role="2Ry0Am" value="app.jar" />
               </node>
             </node>
@@ -11767,6 +11767,9 @@
       <node concept="m$_yC" id="3ofF9dt4eDr" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
       </node>
+      <node concept="m$_yC" id="5lBBNpx5PcJ" role="m$_yJ">
+        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
+      </node>
       <node concept="2iUeEo" id="3vhhDKcvNeO" role="2iVFfd">
         <property role="2iUeEt" value="Modelix" />
         <property role="2iUeEu" value="http://modelix.org" />
@@ -11775,9 +11778,6 @@
         <node concept="3Mxwew" id="3vhhDKcvN8v" role="3MwsjC">
           <property role="3MwjfP" value="Alternative model API with better support for persistent data structures." />
         </node>
-      </node>
-      <node concept="m$_yC" id="5lBBNpx5PcJ" role="m$_yJ">
-        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
       </node>
     </node>
     <node concept="2G$12M" id="5U8hsWC6WQb" role="3989C9">
@@ -13004,11 +13004,6 @@
         <node concept="1SiIV0" id="2obP5Y848iA" role="3bR37C">
           <node concept="3bR9La" id="2obP5Y848iB" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:rD7wKO6k$" resolve="MPS.Generator" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6te0FTH26rr" role="3bR37C">
-          <node concept="3bR9La" id="6te0FTH26rs" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:HHlBn9$wJ2" resolve="org.jdom" />
           </node>
         </node>
       </node>

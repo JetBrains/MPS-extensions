@@ -122,7 +122,7 @@
       <modulePath path="$PROJECT_DIR$/querylist/com.mbeddr.mpsutil.editor.querylist.runtime/com.mbeddr.mpsutil.editor.querylist.runtime.msd" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/querylist/com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox.msd" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/querylist/com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.mpl" folder="querylist" />
-      <modulePath path="$PROJECT_DIR$/richtext/languages/de.slisson.richtext.customcell/de.slisson.richtext.customcell.mpl" folder="richtext" />
+      <modulePath path="$PROJECT_DIR$/richtext/languages/de.slisson.mps.richtext.customcell/de.slisson.mps.richtext.customcell.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/javadoc/javadoc.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.sandbox/de.slisson.mps.richtext.sandbox.msd" folder="richtext" />

@@ -110,7 +110,7 @@
       <modulePath path="$PROJECT_DIR$/multiline/solutions/de.slisson.mps.editor.multiline.runtime/runtime.msd" folder="multiline" />
       <modulePath path="$PROJECT_DIR$/multiline/solutions/de.slisson.mps.editor.multiline.sandbox/de.slisson.mps.editor.multiline.sandbox.msd" folder="multiline" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/languages/de.itemis.mps.nodeversioning/de.itemis.mps.nodeversioning.mpl" folder="nodeversioning" />
-      <modulePath path="$PROJECT_DIR$/nodeversioning/solutions/de.itemis.mps.nodeversioning.runtime.msd" folder="nodeversioning" />
+      <modulePath path="$PROJECT_DIR$/nodeversioning/solutions/de.itemis.mps.nodeversioning.runtime/de.itemis.mps.nodeversioning.runtime.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/tests/de.itemis.mps.nodeversioning.test/de.itemis.mps.nodeversioning.test.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextflow/com.dslfoundry.plaintextflow.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.nestedlist/com.dslfoundry.plaintextgen.example.nestedlist.mpl" folder="plaintextgen" />

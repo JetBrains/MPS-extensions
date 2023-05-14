@@ -25,9 +25,6 @@
   <node concept="2wR3oc" id="5Icc9ER6rpe">
     <ref role="2wR3oD" to="wpu7:1anGYsMsnkr" resolve="broken_module_dependencies" />
   </node>
-  <node concept="2wR3oc" id="5Icc9ER6rpg">
-    <ref role="2wR3oD" to="wpu7:4aEqBbb$5Kh" resolve="cyclic_module_dependencies" />
-  </node>
   <node concept="2wR3oc" id="5Icc9ER6rph">
     <ref role="2wR3oD" to="vi29:4aEqBbbsVSI" resolve="empty_generators" />
   </node>

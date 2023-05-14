@@ -72,7 +72,7 @@
       <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge/de.itemis.model.merge.mpl" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.test/de.itemis.model.merge.test.mpl" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.test.runtime/de.itemis.model.merge.test.runtime.msd" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.test/sandbox/de.itemis.model.merge.test.sandbox.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.test.sandbox/de.itemis.model.merge.test.sandbox.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.simple.demo.children/de.itemis.model.simple.demo.children.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.simple.demo.collection.keeper/de.itemis.model.simple.demo.collection.keeper.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.simple.demo.collection/de.itemis.model.simple.demo.collection.mpl" folder="modelmerger2.test.language" />

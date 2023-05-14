@@ -9,10 +9,7 @@
     <import index="i8ub" ref="r:7f925886-0531-4d80-b2e6-b98b0026fdce(org.mpsqa.lint.mps_lang.linters_library.behavior_aspect)" />
     <import index="emnw" ref="r:161dadb5-0fef-403d-8aac-88c1e026ee75(org.mpsqa.lint.generic.linters_library.models)" />
     <import index="jf0v" ref="r:8d96b76e-8650-466c-a80c-f6b600139e7b(org.mpsqa.lint.mps_lang.linters_library.tests)" />
-    <import index="5jk5" ref="r:4df41c89-1f50-425d-b385-d5b11c3d3e20(org.mpsqa.lint.generic.linters_library.filesystem)" />
     <import index="vi29" ref="r:bad17717-3824-425b-aeb4-5578f6caf605(org.mpsqa.lint.mps_lang.linters_library.generator_aspect)" />
-    <import index="ewdl" ref="r:8eaf8ae8-8265-4cc3-8b13-e131c55d1473(org.mpsqa.lint.mps_lang.linters_library.expressions)" />
-    <import index="54p5" ref="r:3e5efb66-1a16-46d1-89d2-26142a5dcdaa(org.mpsqa.lint.generic.linters_library.meta)" />
     <import index="mjm5" ref="r:1cfdc492-ba5c-44bc-987a-7d4e55b9c1ad(org.mpsqa.lint.generic.linters_library.nodes)" />
   </imports>
   <registry>

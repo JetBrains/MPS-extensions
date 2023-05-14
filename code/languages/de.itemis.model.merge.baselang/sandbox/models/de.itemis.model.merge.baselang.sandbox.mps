@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="9343567c-db05-48c8-bba6-fdc3f5c1b3c0" name="de.itemis.model.merge.baselang" version="0" />
-    <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>

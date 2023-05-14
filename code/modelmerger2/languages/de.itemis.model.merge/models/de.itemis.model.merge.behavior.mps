@@ -251,9 +251,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -318,6 +323,10 @@
       <node concept="3Tm1VV" id="3xJ_LYXj1c7" role="1B3o_S" />
       <node concept="3clFbS" id="3xJ_LYXj1c9" role="3clF47">
         <node concept="3cpWs8" id="6XtVDsmo_Pv" role="3cqZAp">
+          <node concept="15s5l7" id="25SQP5LiK_c" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ? super SNode is not a subtype of node&lt;MergePolicy&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c89590337(jetbrains.mps.baseLanguage.closures.typesystem)/8701449112292740706,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/4660288602099522921]&quot;;" />
+            <property role="huDt6" value="Error: type ? super SNode is not a subtype of node&lt;MergePolicy&gt;" />
+          </node>
           <node concept="3cpWsn" id="6XtVDsmo_Pw" role="3cpWs9">
             <property role="TrG5h" value="conceptMergepolicyPairs" />
             <node concept="3uibUv" id="6XtVDsmo_GZ" role="1tU5fm">

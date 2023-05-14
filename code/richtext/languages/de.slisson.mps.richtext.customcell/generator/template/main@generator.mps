@@ -218,6 +218,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
@@ -442,6 +446,10 @@
             </node>
           </node>
           <node concept="3cpWs8" id="fXOjVvJ" role="3cqZAp">
+            <node concept="15s5l7" id="5tP$u8CEr$x" role="lGtFl">
+              <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type void is not a subtype of jetbrains.mps.openapi.editor.cells.EditorCell&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/554301099359820442]&quot;;" />
+              <property role="huDt6" value="Error: type void is not a subtype of jetbrains.mps.openapi.editor.cells.EditorCell" />
+            </node>
             <node concept="3cpWsn" id="fXOjGGL" role="3cpWs9">
               <property role="TrG5h" value="editorCell" />
               <node concept="3uibUv" id="5Hr2i_R0NNP" role="1tU5fm">

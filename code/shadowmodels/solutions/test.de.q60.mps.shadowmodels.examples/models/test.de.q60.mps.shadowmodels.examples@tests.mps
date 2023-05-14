@@ -420,6 +420,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
+      </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -2145,6 +2149,14 @@
               </node>
             </node>
             <node concept="3cpWs8" id="5VZCLuISq9p" role="3cqZAp">
+              <node concept="15s5l7" id="5tP$u8CEBCU" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type meet(Comparable &amp; Serializable) is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/554301099359820442]&quot;;" />
+                <property role="huDt6" value="Error: type meet(Comparable &amp; Serializable) is not a subtype of string" />
+              </node>
+              <node concept="15s5l7" id="5tP$u8CEBjS" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int is not a strong subtype of meet(Serializable &amp; Comparable)&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5996131566378004095]&quot;;" />
+                <property role="huDt6" value="Error: type int is not a strong subtype of meet(Serializable &amp; Comparable)" />
+              </node>
               <node concept="3cpWsn" id="5VZCLuISq9q" role="3cpWs9">
                 <property role="TrG5h" value="b" />
                 <node concept="2YIFZM" id="5VZCLuISq9r" role="33vP2m">
@@ -2373,6 +2385,10 @@
               </node>
             </node>
             <node concept="3cpWs8" id="2BHSBiuwvbx" role="3cqZAp">
+              <node concept="15s5l7" id="5tP$u8CEDiJ" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int is not a strong subtype of java.lang.Integer&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5996131566378004095]&quot;;" />
+                <property role="huDt6" value="Error: type int is not a strong subtype of java.lang.Integer" />
+              </node>
               <node concept="3cpWsn" id="2BHSBiuwvby" role="3cpWs9">
                 <property role="TrG5h" value="x" />
                 <node concept="2YIFZM" id="20qQUl4Y6zU" role="33vP2m">
@@ -2997,6 +3013,10 @@
               </node>
             </node>
             <node concept="3cpWs8" id="6$M6y1ewcyO" role="3cqZAp">
+              <node concept="15s5l7" id="5tP$u8CECFX" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int is not a strong subtype of java.lang.Integer&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5996131566378004095]&quot;;" />
+                <property role="huDt6" value="Error: type int is not a strong subtype of java.lang.Integer" />
+              </node>
               <node concept="3cpWsn" id="6$M6y1ewcyP" role="3cpWs9">
                 <property role="TrG5h" value="x" />
                 <node concept="2YIFZM" id="6$M6y1ewcyQ" role="33vP2m">

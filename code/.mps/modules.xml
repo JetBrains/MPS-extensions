@@ -184,8 +184,8 @@
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.sandbox/de.slisson.mps.structurecheck.sandbox.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables.demolang/de.slisson.mps.tables.demolang.mpl" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/de.slisson.mps.tables.mpl" folder="tables" />
-      <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" folder="tables" />
-      <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="tables" />
+      <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.tables.runtime/de.slisson.mps.tables.runtime.msd" folder="tables" />
+      <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.tables.sandbox/de.slisson.mps.tables.sandbox.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.testutils/de.slisson.mps.testutils.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tooltips/languages/de.itemis.mps.tooltips/de.itemis.mps.tooltips.mpl" folder="tooltips" />

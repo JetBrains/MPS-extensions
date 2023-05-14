@@ -3054,11 +3054,6 @@
               <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
             </node>
           </node>
-          <node concept="1SiIV0" id="42EckmLVzyx" role="3bR37C">
-            <node concept="3bR9La" id="42EckmLVzyw" role="1SiIV1">
-              <ref role="3bR37D" node="2Xjt3l57bIO" resolve="de.itemis.mps.editor.math#1546395981771464573" />
-            </node>
-          </node>
           <node concept="1BupzO" id="2eucapX07MD" role="3bR31x">
             <property role="3ZfqAx" value="generator/template" />
             <property role="1Hdu6h" value="true" />
@@ -4229,6 +4224,16 @@
             <node concept="3qWCbU" id="2eucapX07Pt" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5tP$u8DpNS9" role="3bR37C">
+          <node concept="3bR9La" id="5tP$u8DpNSa" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5tP$u8DpNSb" role="3bR37C">
+          <node concept="3bR9La" id="5tP$u8DpNSc" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>
@@ -6454,11 +6459,6 @@
         <node concept="1yeLz9" id="2NyZxKpUK$L" role="1TViLv">
           <property role="TrG5h" value="com.mbeddr.mpsutil.blutil.genutil#8997822907117612984" />
           <property role="3LESm3" value="afbe2b2e-ae8e-4fde-a4ba-1b3fa862ed4f" />
-          <node concept="1SiIV0" id="2NyZxKpUK$N" role="3bR37C">
-            <node concept="3bR9La" id="2NyZxKpUK$M" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:7YI57w6K0lu" resolve="jetbrains.mps.lang.generator#1167163152317" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="2NyZxKpUUgV" role="3bR37C">
             <node concept="3bR9La" id="2NyZxKpUUgW" role="1SiIV1">
               <property role="3bR36h" value="true" />
@@ -7143,11 +7143,6 @@
         <node concept="1SiIV0" id="5zr7Q_1BCpk" role="3bR37C">
           <node concept="3bR9La" id="5zr7Q_1BCpl" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5zr7Q_1BCpm" role="3bR37C">
-          <node concept="3bR9La" id="5zr7Q_1BCpn" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
           </node>
         </node>
         <node concept="1SiIV0" id="5zr7Q_1BCpo" role="3bR37C">
@@ -8004,11 +7999,6 @@
             <node concept="3bR9La" id="F1NWDrb0mr" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:7YI57w6K0iE" resolve="jetbrains.mps.lang.editor#1129914002149" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="1HliSoaLzW8" role="3bR37C">
-            <node concept="3bR9La" id="1HliSoaLzW7" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:7YI57w6K0hQ" resolve="jetbrains.mps.lang.actions#1154466409006" />
             </node>
           </node>
           <node concept="1SiIV0" id="17heSRQmGcw" role="3bR37C">
@@ -12379,11 +12369,6 @@
         <node concept="1yeLz9" id="54z9_KDR0O_" role="1TViLv">
           <property role="TrG5h" value="com.mbeddr.mpsutil.intentions#4354378109086982941" />
           <property role="3LESm3" value="d8b925c6-05d7-4247-8905-0d6d8767608f" />
-          <node concept="1SiIV0" id="54z9_KDR3y2" role="3bR37C">
-            <node concept="3bR9La" id="54z9_KDR3y3" role="1SiIV1">
-              <ref role="3bR37D" to="ffeo:7YI57w6K0mj" resolve="jetbrains.mps.lang.intentions#1192798684353" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="54z9_KDR3y6" role="3bR37C">
             <node concept="3bR9La" id="54z9_KDR3y7" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:7Kfy9QB6L7y" resolve="jetbrains.mps.lang.intentions" />
@@ -12393,23 +12378,26 @@
             <property role="3ZfqAx" value="generator/template" />
             <property role="1Hdu6h" value="true" />
             <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="4PRpvcZJNyo" role="1HemKq">
-              <node concept="398BVA" id="4PRpvcZJNya" role="3LXTmr">
+            <node concept="3LXTmp" id="5tP$u8DpOca" role="1HemKq">
+              <node concept="398BVA" id="5tP$u8DpObX" role="3LXTmr">
                 <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-                <node concept="2Ry0Ak" id="4PRpvcZJNyb" role="iGT6I">
+                <node concept="2Ry0Ak" id="5tP$u8DpObY" role="iGT6I">
                   <property role="2Ry0Am" value="intentionsmenu" />
-                  <node concept="2Ry0Ak" id="4PRpvcZJNyc" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions" />
-                    <node concept="2Ry0Ak" id="4PRpvcZJNyd" role="2Ry0An">
-                      <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="4PRpvcZJNye" role="2Ry0An">
-                        <property role="2Ry0Am" value="template" />
+                  <node concept="2Ry0Ak" id="5tP$u8DpObZ" role="2Ry0An">
+                    <property role="2Ry0Am" value="languages" />
+                    <node concept="2Ry0Ak" id="5tP$u8DpOc0" role="2Ry0An">
+                      <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions" />
+                      <node concept="2Ry0Ak" id="5tP$u8DpOc1" role="2Ry0An">
+                        <property role="2Ry0Am" value="generator" />
+                        <node concept="2Ry0Ak" id="5tP$u8DpOc2" role="2Ry0An">
+                          <property role="2Ry0Am" value="template" />
+                        </node>
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3qWCbU" id="4PRpvcZJNyp" role="3LXTna">
+              <node concept="3qWCbU" id="5tP$u8DpOcb" role="3LXTna">
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
@@ -12419,20 +12407,23 @@
           <property role="3ZfqAx" value="languageModels" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="4PRpvcZJNy8" role="1HemKq">
-            <node concept="398BVA" id="4PRpvcZJNxW" role="3LXTmr">
+          <node concept="3LXTmp" id="5tP$u8DpObV" role="1HemKq">
+            <node concept="398BVA" id="5tP$u8DpObK" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4PRpvcZJNxX" role="iGT6I">
+              <node concept="2Ry0Ak" id="5tP$u8DpObL" role="iGT6I">
                 <property role="2Ry0Am" value="intentionsmenu" />
-                <node concept="2Ry0Ak" id="4PRpvcZJNxY" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions" />
-                  <node concept="2Ry0Ak" id="4PRpvcZJNxZ" role="2Ry0An">
-                    <property role="2Ry0Am" value="languageModels" />
+                <node concept="2Ry0Ak" id="5tP$u8DpObM" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="5tP$u8DpObN" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions" />
+                    <node concept="2Ry0Ak" id="5tP$u8DpObO" role="2Ry0An">
+                      <property role="2Ry0Am" value="languageModels" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="4PRpvcZJNy9" role="3LXTna">
+            <node concept="3qWCbU" id="5tP$u8DpObW" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -12498,20 +12489,23 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="4PRpvcZJNyA" role="1HemKq">
-            <node concept="398BVA" id="4PRpvcZJNyq" role="3LXTmr">
+          <node concept="3LXTmp" id="5tP$u8DpOcn" role="1HemKq">
+            <node concept="398BVA" id="5tP$u8DpOcc" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="4PRpvcZJNyr" role="iGT6I">
+              <node concept="2Ry0Ak" id="5tP$u8DpOcd" role="iGT6I">
                 <property role="2Ry0Am" value="intentionsmenu" />
-                <node concept="2Ry0Ak" id="4PRpvcZJNys" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions.runtime" />
-                  <node concept="2Ry0Ak" id="4PRpvcZJNyt" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
+                <node concept="2Ry0Ak" id="5tP$u8DpOce" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="5tP$u8DpOcf" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions.runtime" />
+                    <node concept="2Ry0Ak" id="5tP$u8DpOcg" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="4PRpvcZJNyB" role="3LXTna">
+            <node concept="3qWCbU" id="5tP$u8DpOco" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -15306,9 +15300,9 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2UnEDPClLYf" role="3bR37C">
-          <node concept="1Busua" id="2UnEDPClLYg" role="1SiIV1">
-            <ref role="1Busuk" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+        <node concept="1SiIV0" id="5tP$u8CDDIn" role="3bR37C">
+          <node concept="3bR9La" id="5tP$u8CDDIo" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
           </node>
         </node>
       </node>
@@ -15356,14 +15350,14 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2UnEDPClLYy" role="3bR37C">
-          <node concept="1Busua" id="2UnEDPClLYz" role="1SiIV1">
-            <ref role="1Busuk" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+        <node concept="1SiIV0" id="5tP$u8CDDIE" role="3bR37C">
+          <node concept="3bR9La" id="5tP$u8CDDIF" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2UnEDPClMjG" role="3bR37C">
-          <node concept="1Busua" id="2UnEDPClMjH" role="1SiIV1">
-            <ref role="1Busuk" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
+        <node concept="1SiIV0" id="5tP$u8CDDIG" role="3bR37C">
+          <node concept="3bR9La" id="5tP$u8CDDIH" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
           </node>
         </node>
       </node>
@@ -15411,14 +15405,14 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2UnEDPClLYP" role="3bR37C">
-          <node concept="1Busua" id="2UnEDPClLYQ" role="1SiIV1">
-            <ref role="1Busuk" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+        <node concept="1SiIV0" id="5tP$u8CDDIZ" role="3bR37C">
+          <node concept="3bR9La" id="5tP$u8CDDJ0" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2UnEDPClMjW" role="3bR37C">
-          <node concept="1Busua" id="2UnEDPClMjX" role="1SiIV1">
-            <ref role="1Busuk" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
+        <node concept="1SiIV0" id="5tP$u8CDDJ1" role="3bR37C">
+          <node concept="3bR9La" id="5tP$u8CDDJ2" role="1SiIV1">
+            <ref role="3bR37D" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
           </node>
         </node>
       </node>

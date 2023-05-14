@@ -19,4 +19,3 @@
     <module reference="ba03a5e3-c9b5-466f-83a9-e2775cc47038(com.dslfoundry.plaintextgen.example.nestedlist.sandbox)" version="0" />
   </dependencyVersions>
 </solution>
-

@@ -23,11 +23,10 @@
           <classes generated="true" path="${module}/generator/classes_gen" />
         </facet>
       </facets>
-      <external-templates>
-        <generator generatorUID="f1457ec8-c780-4f6f-89b4-c79af7789be1(jetbrains.mps.lang.generator#1167163152317)" />
-      </external-templates>
+      <external-templates />
       <dependencies>
         <dependency reexport="true">6c5bab3e-5035-4a48-b9ea-62747c04e3d6(com.mbeddr.mpsutil.blutil.genutil.rt)</dependency>
+        <dependency reexport="false" scope="design">f1457ec8-c780-4f6f-89b4-c79af7789be1(jetbrains.mps.lang.generator#1167163152317)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />

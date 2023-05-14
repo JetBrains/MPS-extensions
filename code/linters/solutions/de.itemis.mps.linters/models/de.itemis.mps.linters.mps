@@ -8,7 +8,6 @@
     <import index="wpu7" ref="r:cadc46fc-2365-43d7-bda1-08e980cf970d(org.mpsqa.lint.generic.linters_library.modules)" />
     <import index="i8ub" ref="r:7f925886-0531-4d80-b2e6-b98b0026fdce(org.mpsqa.lint.mps_lang.linters_library.behavior_aspect)" />
     <import index="emnw" ref="r:161dadb5-0fef-403d-8aac-88c1e026ee75(org.mpsqa.lint.generic.linters_library.models)" />
-    <import index="jf0v" ref="r:8d96b76e-8650-466c-a80c-f6b600139e7b(org.mpsqa.lint.mps_lang.linters_library.tests)" />
     <import index="vi29" ref="r:bad17717-3824-425b-aeb4-5578f6caf605(org.mpsqa.lint.mps_lang.linters_library.generator_aspect)" />
     <import index="mjm5" ref="r:1cfdc492-ba5c-44bc-987a-7d4e55b9c1ad(org.mpsqa.lint.generic.linters_library.nodes)" />
   </imports>
@@ -48,9 +47,6 @@
   </node>
   <node concept="2wR3oc" id="5Icc9ER6sih">
     <ref role="2wR3oD" to="wpu7:7hx0FZiTgg2" resolve="not_used_module_dependencies" />
-  </node>
-  <node concept="2wR3oc" id="5Icc9ER6sij">
-    <ref role="2wR3oD" to="jf0v:5aVoUb1fKHU" resolve="test_modules_not_part_of_build_script" />
   </node>
 </model>
 

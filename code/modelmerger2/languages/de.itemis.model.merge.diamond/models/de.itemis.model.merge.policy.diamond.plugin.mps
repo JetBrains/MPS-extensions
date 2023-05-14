@@ -90,7 +90,7 @@
         <property id="2222162468661306427" name="subPolicy" index="3Z5p36" />
         <child id="2222162468661405207" name="action" index="3Z4xbE" />
       </concept>
-      <concept id="2222162468664160556" name="de.itemis.model.merge.structure.AbstractChildPolicy" flags="ng" index="3Ze0nh">
+      <concept id="2222162468664160556" name="de.itemis.model.merge.structure.AbstractPolicy" flags="ng" index="3Ze0nh">
         <reference id="2222162468664160559" name="child" index="3Ze0ni" />
       </concept>
     </language>

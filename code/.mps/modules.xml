@@ -63,16 +63,20 @@
       <modulePath path="$PROJECT_DIR$/intentionsmenu/com.mbeddr.mpsutil.intentions/com.mbeddr.mpsutil.intentions.mpl" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/jackson/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.intentions.sandboxlang/com.mbeddr.mpsutil.intentions.sandboxlang.mpl" folder="intentionsmenu" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.baselang/de.itemis.model.merge.baselang.mpl" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.baselang/sandbox/de.itemis.model.merge.baselang.sandbox.msd" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.diamond/de.itemis.model.merge.diamond.mpl" folder="modelmerger2.test.language" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge.simple.demo.annotated/de.itemis.model.merge.simple.demo.annotated.mpl" folder="modelmerger2.test.language" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.merge/de.itemis.model.merge.mpl" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.children/de.itemis.model.simple.demo.children.mpl" folder="modelmerger2.test.language" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.collection.keeper/de.itemis.model.simple.demo.collection.keeper.mpl" folder="modelmerger2.test.language" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.collection/de.itemis.model.simple.demo.collection.mpl" folder="modelmerger2.test.language" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.property/de.itemis.model.simple.demo.property.mpl" folder="modelmerger2.test.language" />
-      <modulePath path="$PROJECT_DIR$/languages/de.itemis.model.simple.demo.reference/de.itemis.model.simple.demo.reference.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.baselang/de.itemis.model.merge.baselang.mpl" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.baselang/sandbox/de.itemis.model.merge.baselang.sandbox.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.diamond/de.itemis.model.merge.diamond.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.simple.demo/de.itemis.model.merge.simple.demo.msd" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.simple.demo.annotated/de.itemis.model.merge.simple.demo.annotated.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge/de.itemis.model.merge.mpl" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.test/de.itemis.model.merge.test.mpl" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.test/runtime/de.itemis.model.merge.test.runtime.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.test/sandbox/de.itemis.model.merge.test.sandbox.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.simple.demo.children/de.itemis.model.simple.demo.children.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.simple.demo.collection.keeper/de.itemis.model.simple.demo.collection.keeper.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.simple.demo.collection/de.itemis.model.simple.demo.collection.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.simple.demo.property/de.itemis.model.simple.demo.property.mpl" folder="modelmerger2.test.language" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.simple.demo.reference/de.itemis.model.simple.demo.reference.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/langvis/languages/com.dslfoundry.langvis.demolang/com.dslfoundry.langvis.demolang.mpl" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.demo/com.dslfoundry.langvis.demo.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" folder="langvis" />
@@ -170,10 +174,11 @@
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.examples/test.de.q60.mps.shadowmodels.examples.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/solutions/test.de.q60.mps.shadowmodels.runtime/test.de.q60.mps.shadowmodels.runtime.msd" folder="shadowmodels.tests" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.intentions.sandbox/com.mbeddr.mpsutil.intentions.sandbox.msd" folder="intentionsmenu" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.runtime/de.itemis.model.merge.runtime.msd" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.simple.demo/de.itemis.model.merge.simple.demo.msd" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test.integration/de.itemis.model.merge.test.integration.msd" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.runtime/de.itemis.model.merge.runtime.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.test.integration/de.itemis.model.merge.test.integration.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.exec/de.itemis.model.merge.exec.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.policy.diamond/de.itemis.model.merge.policy.diamond" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.sandbox/de.slisson.mps.structurecheck.sandbox.msd" folder="structurecheck" />

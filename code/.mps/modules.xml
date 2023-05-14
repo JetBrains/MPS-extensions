@@ -65,7 +65,7 @@
       <modulePath path="$PROJECT_DIR$/intentionsmenu/solutions/com.mbeddr.mpsutil.intentions.sandbox/com.mbeddr.mpsutil.intentions.sandbox.msd" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/jackson/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.baselang/de.itemis.model.merge.baselang.mpl" folder="modelmerger2" />
-      <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.baselang/sandbox/de.itemis.model.merge.baselang.sandbox.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.baselang.sandbox/de.itemis.model.merge.baselang.sandbox.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.diamond/de.itemis.model.merge.diamond.mpl" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/solutions/de.itemis.model.merge.simple.demo/de.itemis.model.merge.simple.demo.msd" folder="modelmerger2.test.language" />
       <modulePath path="$PROJECT_DIR$/modelmerger2/languages/de.itemis.model.merge.simple.demo.annotated/de.itemis.model.merge.simple.demo.annotated.mpl" folder="modelmerger2.test.language" />

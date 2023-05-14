@@ -13,12 +13,12 @@
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.ts.match/match.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/build/solutions/allScripts/allScripts.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/build/solutions/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.msd" folder="build" />
-      <modulePath path="$PROJECT_DIR$/celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.mpl" folder="celllayout" />
+      <modulePath path="$PROJECT_DIR$/celllayout/languages/de.itemis.mps.editor.celllayout.styles/de.itemis.mps.editor.celllayout.styles.mpl" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/languages/de.itemis.mps.editor.celllayout.sandboxlang/de.itemis.mps.editor.celllayout.sandboxlang.mpl" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/languages/de.itemis.mps.editor.celllayout/de.itemis.mps.editor.celllayout.mpl" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/languages/test.de.itemis.mps.editor.celllayout.lang/test.de.itemis.mps.editor.celllayout.lang.mpl" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.itemis.mps.editor.celllayout.sandbox/de.itemis.mps.editor.celllayout.sandbox.msd" folder="celllayout" />
-      <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.slisson.mps.editor.celllayout.runtime/de.itemis.mps.editor.celllayout.runtime.msd" folder="celllayout" />
+      <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.itemis.mps.editor.celllayout.runtime/de.itemis.mps.editor.celllayout.runtime.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.slisson.mps.editor.celllayout/de.slisson.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/test.de.itemis.mps.editor.celllayout.runtime/test.de.itemis.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />

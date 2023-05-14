@@ -82,7 +82,7 @@
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.demo/com.dslfoundry.langvis.demo.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/linenumbers/de.itemis.mps.linenumbers/de.itemis.mps.linenumbers.msd" folder="linenumbers" />
-      <modulePath path="$PROJECT_DIR$/linters/solutions/de.itemis.mps.linters.msd" folder="linters" />
+      <modulePath path="$PROJECT_DIR$/linters/solutions/de.itemis.mps.linters/de.itemis.mps.linters.msd" folder="linters" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.demolang/de.itemis.mps.editor.math.demolang.mpl" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.java/de.itemis.mps.editor.math.java.mpl" folder="math" />
       <modulePath path="$PROJECT_DIR$/math/languages/de.itemis.mps.editor.math.notations/de.itemis.mps.editor.math.notations.mpl" folder="math" />

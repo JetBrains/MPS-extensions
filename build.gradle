@@ -76,7 +76,7 @@ logger.info 'Repository username: {}', project.nexusUsername
 ext.dependencyRepositories = [
         'https://artifacts.itemis.cloud/repository/maven-mps/',
         'https://projects.itemis.de/nexus/content/repositories/mbeddr',
-        'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
+        'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots'
 ]
 // Dependency versions
 
@@ -129,10 +129,12 @@ ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRe
 
 configurations {
     mps
+    languageLibs
 }
 
 dependencies {
     mps "com.jetbrains:mps:$mpsVersion"
+    languageLibs "org.mpsqa:all-in-one:$mpsMajor+"
 }
 
 repositories {
@@ -140,6 +142,13 @@ repositories {
     for (repoUrl in project.dependencyRepositories) {
         maven {
             url repoUrl
+        }
+    }
+    maven {
+        url "https://maven.pkg.github.com/mbeddr/mps-qa"
+        credentials {
+            username = rootProject.findProperty("gpr.user")
+            password = rootProject.findProperty("gpr.token")
         }
     }
 }
@@ -162,6 +171,13 @@ if (project.skipResolveMps) {
         }
         into mpsHomeDir
     }
+}
+
+task resolveLanguageLibs(type: Sync) {
+    from {
+        configurations.languageLibs.resolve().collect { zipTree(it) }
+    }
+    into "$buildDir/dependencies"
 }
 
 // -------- Model API ----------------------
@@ -264,6 +280,7 @@ check.configure {
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
         resolveMps,
+        resolveLanguageLibs,
         copyModelApi,
 ]) {
     script "$rootDir/scripts/build.xml"

@@ -19,8 +19,8 @@
       <modulePath path="$PROJECT_DIR$/celllayout/languages/test.de.itemis.mps.editor.celllayout.lang/test.de.itemis.mps.editor.celllayout.lang.mpl" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.itemis.mps.editor.celllayout.sandbox/de.itemis.mps.editor.celllayout.sandbox.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.itemis.mps.editor.celllayout.runtime/de.itemis.mps.editor.celllayout.runtime.msd" folder="celllayout" />
-      <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.slisson.mps.editor.celllayout/de.slisson.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/test.de.itemis.mps.editor.celllayout.runtime/test.de.itemis.mps.editor.celllayout.runtime.msd" folder="celllayout" />
+      <modulePath path="$PROJECT_DIR$/celllayout/solutions/test.de.itemis.mps.editor.celllayout/test.de.itemis.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/de.slisson.mps.conditionalEditor.hints.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />

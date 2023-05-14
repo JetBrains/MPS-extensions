@@ -7831,9 +7831,6 @@
       </node>
     </node>
   </node>
-  <node concept="bUwia" id="6oKG1kMy3o4">
-    <property role="TrG5h" value="mc_actionsAspect" />
-  </node>
   <node concept="bUwia" id="6oKG1kMyAVE">
     <property role="TrG5h" value="mc05_actionsInEditor" />
     <node concept="3aamgX" id="77A3HzrJLuV" role="3acgRq">

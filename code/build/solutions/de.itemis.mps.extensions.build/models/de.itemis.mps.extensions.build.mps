@@ -158,12 +158,14 @@
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
+      <concept id="3570488090019868064" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_ManualPluginLayoutType" flags="ng" index="pUk6w" />
       <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
       <concept id="1265949165890536423" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_ModuleJars" flags="ng" index="L2wRC">
         <reference id="1265949165890536425" name="module" index="L2wRA" />
+        <child id="4356762679305730677" name="jarLocations" index="3yL2VB" />
       </concept>
       <concept id="8971171305100238972" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyTargetLanguage" flags="ng" index="Rbm2T">
         <reference id="3189788309731922643" name="language" index="1E1Vl2" />
@@ -189,6 +191,10 @@
         <property id="6535001758416941941" name="createStaticRefs" index="3Ej$Sc" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
+      <concept id="4356762679305675652" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_ModuleXml_CustomJarLocation" flags="ng" index="3yLZsm">
+        <property id="4356762679305675654" name="packagedLocation" index="3yLZsk" />
+        <child id="4356762679305675653" name="path" index="3yLZsn" />
+      </concept>
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -233,6 +239,10 @@
   <node concept="1l3spW" id="2Xjt3l56m0V">
     <property role="TrG5h" value="de.itemis.mps.extensions" />
     <property role="2DA0ip" value="../../../../build/generated/languages" />
+    <node concept="2igEWh" id="2MQBX6KMw95" role="1hWBAP">
+      <property role="3UIfUI" value="2024" />
+      <property role="1YnnvL" value="1000" />
+    </node>
     <node concept="m$_wf" id="4hvHh3QW$Eh" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.extensions.build" />
       <node concept="3_J27D" id="4hvHh3QW$Ei" role="m$_yQ">
@@ -337,10 +347,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="2igEWh" id="2MQBX6KMw95" role="1hWBAP">
-      <property role="3UIfUI" value="2024" />
-      <property role="1YnnvL" value="1000" />
     </node>
     <node concept="m$_wf" id="2H_mjOXw1Ef" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.nativelibs" />
@@ -13818,6 +13824,29 @@
       </node>
     </node>
     <node concept="1l3spV" id="2Xjt3l56m3c" role="1l3spN">
+      <node concept="m$_wl" id="2Y$Ewq9ERUo" role="39821P">
+        <ref role="m_rDy" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
+        <node concept="398223" id="6_UytVTj6iE" role="39821P">
+          <node concept="L2wRC" id="2Y$Ewq9F85p" role="39821P">
+            <ref role="L2wRA" node="3$A0JaN5bpX" resolve="MPS.ThirdParty" />
+            <node concept="3yLZsm" id="2Y$Ewq9F85q" role="3yL2VB">
+              <property role="3yLZsk" value="${platform_lib}/app.jar" />
+              <node concept="398BVA" id="2Y$Ewq9F85r" role="3yLZsn">
+                <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+                <node concept="2Ry0Ak" id="2Y$Ewq9F85s" role="iGT6I">
+                  <property role="2Ry0Am" value="app.jar" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3_J27D" id="6_UytVTj6iG" role="Nbhlr">
+            <node concept="3Mxwew" id="6_UytVTj6pl" role="3MwsjC">
+              <property role="3MwjfP" value="languages" />
+            </node>
+          </node>
+        </node>
+        <node concept="pUk6w" id="2Y$Ewq9F06E" role="pUk7w" />
+      </node>
       <node concept="m$_wl" id="F1NWDqrBeT" role="39821P">
         <ref role="m_rDy" node="F1NWDqr5lJ" resolve="de.itemis.mps.grammarcells" />
         <node concept="pUk6x" id="3D0nl1ssJJW" role="pUk7w" />
@@ -14152,25 +14181,6 @@
       <node concept="m$_wl" id="TAJODzV169" role="39821P">
         <ref role="m_rDy" node="TAJODzUQvo" resolve="com.mbeddr.mpsutil.intentions" />
         <node concept="pUk6x" id="76N1O$Kj6u1" role="pUk7w" />
-      </node>
-      <node concept="m$_wl" id="17ZecOugM4I" role="39821P">
-        <ref role="m_rDy" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
-        <node concept="pUk6x" id="17ZecOugMk4" role="pUk7w" />
-        <node concept="398223" id="58u_KfGuaef" role="39821P">
-          <node concept="3_J27D" id="58u_KfGuaeg" role="Nbhlr">
-            <node concept="3Mxwew" id="58u_KfGuakF" role="3MwsjC">
-              <property role="3MwjfP" value="lib" />
-            </node>
-          </node>
-          <node concept="28jJK3" id="4OBQEoHnTC7" role="39821P">
-            <node concept="398BVA" id="4OBQEoHnTIG" role="28jJRO">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="4OBQEoHnTPh" role="iGT6I">
-                <property role="2Ry0Am" value="app.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="m$_wl" id="hCVXosGXXN" role="39821P">
         <ref role="m_rDy" node="hCVXosGNJH" resolve="com.mbeddr.mpsutil.modellisteners" />

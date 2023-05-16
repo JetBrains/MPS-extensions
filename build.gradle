@@ -180,6 +180,28 @@ task resolveLanguageLibs(type: Sync) {
     into "$buildDir/dependencies"
 }
 
+apply plugin: 'modelcheck'
+
+File modelcheckresult = new File("$buildDir/TEST-checkProject.xml")
+
+modelcheck {
+    projectLocation =  new File("$projectDir/code")
+    mpsConfig = configurations.mps
+    macros = [new Macro("extensions.home", "$projectDir")]
+    junitFile = modelcheckresult
+    errorNoFail = true
+    debug = false
+    maxHeap = "4G"
+    modules = ["com.mbeddr.mpsutil.blutil.rt"]
+}
+
+afterEvaluate {  project -> 
+    check.configure {
+        dependsOn tasks.named('checkmodels')
+    }
+}
+
+
 // -------- Model API ----------------------
 
 configurations {

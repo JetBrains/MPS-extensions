@@ -2661,6 +2661,15 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="4Gl35$UEy0" role="3cqZAp" />
+      <node concept="2MkqsV" id="4Gl35$UEy_" role="3cqZAp">
+        <node concept="Xl_RD" id="4Gl35$UEz5" role="2MkJ7o">
+          <property role="Xl_RC" value="Hi from the model checker" />
+        </node>
+        <node concept="1YBJjd" id="4Gl35$UEzp" role="1urrMF">
+          <ref role="1YBMHb" node="7xRvYDMSZTC" resolve="css" />
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="7xRvYDMSZTC" role="1YuTPh">
       <property role="TrG5h" value="css" />

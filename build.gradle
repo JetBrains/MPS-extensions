@@ -201,6 +201,12 @@ afterEvaluate {  project ->
     }
 }
 
+task generateLibrariesXml(type: de.itemis.mps.gradle.GenerateLibrariesXml) {
+    defaults rootProject.file('projectlibraries.properties')
+    overrides rootProject.file('projectlibraries.overrides.properties')
+    destination file('code/.mps/libraries.xml')
+}
+
 
 // -------- Model API ----------------------
 
@@ -283,6 +289,7 @@ ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/jav
 task build_allScripts(type: BuildLanguages, dependsOn: [
         resolveMps,
         resolveLanguageLibs,
+        generateLibrariesXml,
         copyModelApi,
 ]) {
     script "$rootDir/scripts/build.xml"

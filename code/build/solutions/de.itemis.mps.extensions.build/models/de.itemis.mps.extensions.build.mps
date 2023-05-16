@@ -1123,8 +1123,8 @@
                 <property role="2Ry0Am" value="multiline" />
                 <node concept="2Ry0Ak" id="3xFG3bj5MmW" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="3xFG3bj5MmX" role="2Ry0An">
-                    <property role="2Ry0Am" value="multiline" />
+                  <node concept="2Ry0Ak" id="4Gl35$Vl1m" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.slisson.mps.editor.multiline" />
                   </node>
                 </node>
               </node>
@@ -1419,8 +1419,8 @@
                 <property role="2Ry0Am" value="richtext" />
                 <node concept="2Ry0Ak" id="3xFG3bj5MpG" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="3xFG3bj5MpH" role="2Ry0An">
-                    <property role="2Ry0Am" value="richtext" />
+                  <node concept="2Ry0Ak" id="4Gl35$Vl87" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.slisson.mps.richtext" />
                   </node>
                 </node>
               </node>
@@ -1595,8 +1595,8 @@
                 <property role="2Ry0Am" value="richtext" />
                 <node concept="2Ry0Ak" id="3xFG3bj5Mnc" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="3xFG3bj5Mnd" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.slisson.richtext.customcell" />
+                  <node concept="2Ry0Ak" id="4Gl35$VleS" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.slisson.mps.richtext.customcell" />
                   </node>
                 </node>
               </node>
@@ -2613,12 +2613,9 @@
               <node concept="2Ry0Ak" id="3xFG3bj5Mqf" role="iGT6I">
                 <property role="2Ry0Am" value="widgets" />
                 <node concept="2Ry0Ak" id="3xFG3bj5Mqg" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="3xFG3bj5Mqh" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.enumeration" />
-                    <node concept="2Ry0Ak" id="3xFG3bj5Mqi" role="2Ry0An">
-                      <property role="2Ry0Am" value="runtime" />
-                    </node>
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4Gl35$Vn5W" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.enumeration.runtime" />
                   </node>
                 </node>
               </node>
@@ -3286,12 +3283,9 @@
               <node concept="2Ry0Ak" id="3xFG3bj5MlO" role="iGT6I">
                 <property role="2Ry0Am" value="tables" />
                 <node concept="2Ry0Ak" id="3xFG3bj5MlP" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
+                  <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="3xFG3bj5MlQ" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.slisson.mps.tables" />
-                    <node concept="2Ry0Ak" id="3xFG3bj5MlR" role="2Ry0An">
-                      <property role="2Ry0Am" value="runtime" />
-                    </node>
+                    <property role="2Ry0Am" value="de.slisson.mps.tables.runtime" />
                   </node>
                 </node>
               </node>
@@ -5885,8 +5879,8 @@
                 <property role="2Ry0Am" value="celllayout" />
                 <node concept="2Ry0Ak" id="1QLFoGOMYYy" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="1QLFoGOMZ5L" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.slisson.mps.editor.celllayout.runtime" />
+                  <node concept="2Ry0Ak" id="4Gl35$VlY7" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.celllayout.runtime" />
                   </node>
                 </node>
               </node>
@@ -5959,8 +5953,8 @@
                 <property role="2Ry0Am" value="celllayout" />
                 <node concept="2Ry0Ak" id="nsMIIcsU9u" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="nsMIIcsU9v" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.celllayout" />
+                  <node concept="2Ry0Ak" id="4Gl35$Vm4S" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.celllayout" />
                   </node>
                 </node>
               </node>
@@ -6542,12 +6536,9 @@
               <node concept="2Ry0Ak" id="1bWvPKNGzI5" role="iGT6I">
                 <property role="2Ry0Am" value="blutil" />
                 <node concept="2Ry0Ak" id="1bWvPKNGzI6" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
+                  <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="1bWvPKNGzI7" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.blutil" />
-                    <node concept="2Ry0Ak" id="1bWvPKNGzI8" role="2Ry0An">
-                      <property role="2Ry0Am" value="solutions" />
-                    </node>
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.blutil.rt" />
                   </node>
                 </node>
               </node>
@@ -7393,9 +7384,12 @@
             <node concept="398BVA" id="3M9VIK_gQw2" role="3LXTmr">
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3M9VIK_gQw3" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3M9VIK_gQw4" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.model.merge.baselang" />
+                <property role="2Ry0Am" value="modelmerger2" />
+                <node concept="2Ry0Ak" id="4Gl35$Vbf2" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="4Gl35$Vbf5" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.model.merge.baselang" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -10423,11 +10417,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
-        <node concept="1SiIV0" id="4iIKqJTZ5J_" role="3bR37C">
-          <node concept="3bR9La" id="4iIKqJTZ5JA" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="4iIKqJTZ5JB" role="3bR37C">
           <node concept="3bR9La" id="4iIKqJTZ5JC" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1d41uYMTVPB" resolve="jetbrains.mps.lang.scopes.runtime" />
@@ -12168,6 +12157,7 @@
         </node>
         <node concept="1SiIV0" id="4Hbnsm4OjKw" role="3bR37C">
           <node concept="3bR9La" id="4Hbnsm4OjKx" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="4Hbnsm4OhEo" resolve="com.mbeddr.mpsutil.editor.querylist.runtime" />
           </node>
         </node>
@@ -12336,8 +12326,11 @@
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3xFG3bj5cK1" role="iGT6I">
                 <property role="2Ry0Am" value="intentionsmenu" />
-                <node concept="2Ry0Ak" id="3xFG3bj5cK2" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions" />
+                <node concept="2Ry0Ak" id="4Gl35$VmvS" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="4Gl35$VmAE" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -12442,8 +12435,11 @@
               <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3xFG3bj5cLz" role="iGT6I">
                 <property role="2Ry0Am" value="intentionsmenu" />
-                <node concept="2Ry0Ak" id="3xFG3bj5cL$" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions.runtime" />
+                <node concept="2Ry0Ak" id="4Gl35$VmAG" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4Gl35$VmHu" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.intentions.runtime" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -14880,8 +14876,8 @@
                 <property role="2Ry0Am" value="blutil" />
                 <node concept="2Ry0Ak" id="1bWvPKNGzH8" role="2Ry0An">
                   <property role="2Ry0Am" value="tests" />
-                  <node concept="2Ry0Ak" id="1bWvPKNGzH9" role="2Ry0An">
-                    <property role="2Ry0Am" value="test.ts.match" />
+                  <node concept="2Ry0Ak" id="4Gl35$VkTK" role="2Ry0An">
+                    <property role="2Ry0Am" value="test.ex.match" />
                   </node>
                 </node>
               </node>
@@ -15133,9 +15129,12 @@
             <node concept="398BVA" id="3M9VIK_gQAM" role="3LXTmr">
               <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3M9VIK_gQAN" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3M9VIK_gQAO" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.model.merge.diamond" />
+                <property role="2Ry0Am" value="modelmerger2" />
+                <node concept="2Ry0Ak" id="4Gl35$VkUh" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="4Gl35$VkUi" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.model.merge.diamond" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -15194,9 +15193,12 @@
             <node concept="398BVA" id="3M9VIK_gQBf" role="3LXTmr">
               <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3M9VIK_gQBg" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3M9VIK_gQBh" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.property" />
+                <property role="2Ry0Am" value="modelmerger2" />
+                <node concept="2Ry0Ak" id="4Gl35$VkUm" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="4Gl35$VkUn" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.model.simple.demo.property" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -15501,9 +15503,12 @@
             <node concept="398BVA" id="3aF8hCw9tVu" role="3LXTmr">
               <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
               <node concept="2Ry0Ak" id="3aF8hCw9tVv" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="3aF8hCw9tVw" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.model.merge.test" />
+                <property role="2Ry0Am" value="modelmerger2" />
+                <node concept="2Ry0Ak" id="4Gl35$VkUr" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4Gl35$VkUs" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.model.merge.test" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -15724,11 +15729,11 @@
               <node concept="2Ry0Ak" id="5py4VqXmLKJ" role="iGT6I">
                 <property role="2Ry0Am" value="modelmerger" />
                 <node concept="2Ry0Ak" id="67K7yGVZou4" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
+                  <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="67K7yGVZou5" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.modelmerger" />
-                    <node concept="2Ry0Ak" id="67K7yGVZou6" role="2Ry0An">
-                      <property role="2Ry0Am" value="sandbox" />
+                    <property role="2Ry0Am" value="de.itemis.mps.modelmerger.testhelper" />
+                    <node concept="2Ry0Ak" id="4Gl35$VkUv" role="2Ry0An">
+                      <property role="2Ry0Am" value="de.itemis.mps.modelmerger.testhelper.msd" />
                     </node>
                   </node>
                 </node>
@@ -17279,8 +17284,8 @@
               <ref role="398BVh" node="7qi8mU1Oz8V" resolve="richtext.home" />
               <node concept="2Ry0Ak" id="3D0nl1ssJIK" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3D0nl1ssJIL" role="2Ry0An">
-                  <property role="2Ry0Am" value="javadoc" />
+                <node concept="2Ry0Ak" id="4Gl35$VkUx" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.slisson.mps.javadoc" />
                 </node>
               </node>
             </node>
@@ -17397,8 +17402,8 @@
               <ref role="398BVh" node="7qi8mU1OzcE" resolve="multiline.home" />
               <node concept="2Ry0Ak" id="3D0nl1ssJIR" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3D0nl1ssJIS" role="2Ry0An">
-                  <property role="2Ry0Am" value="demolang" />
+                <node concept="2Ry0Ak" id="4Gl35$VkUz" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.slisson.mps.editor.multiline.demolang" />
                 </node>
               </node>
             </node>
@@ -17894,8 +17899,8 @@
               <ref role="398BVh" node="5mH$9t6eA_$" resolve="celllayout.home" />
               <node concept="2Ry0Ak" id="PE3B26qlyZ" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="PE3B26qlz0" role="2Ry0An">
-                  <property role="2Ry0Am" value="test.de.itemis.mps.editor.celllayout.runtime" />
+                <node concept="2Ry0Ak" id="4Gl35$VkU_" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.de.itemis.mps.editor.celllayout" />
                 </node>
               </node>
             </node>

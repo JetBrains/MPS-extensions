@@ -13819,6 +13819,21 @@
       </node>
     </node>
     <node concept="1l3spV" id="2Xjt3l56m3c" role="1l3spN">
+      <node concept="398223" id="7xBBncBZ8Tk" role="39821P">
+        <node concept="3_J27D" id="7xBBncBZ8Tm" role="Nbhlr">
+          <node concept="3Mxwew" id="7xBBncC7IRl" role="3MwsjC">
+            <property role="3MwjfP" value="platform_lib_app" />
+          </node>
+        </node>
+        <node concept="28jJK3" id="7xBBncBZ98v" role="39821P">
+          <node concept="398BVA" id="7xBBncBZ9eU" role="28jJRO">
+            <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+            <node concept="2Ry0Ak" id="7xBBncBZb4h" role="iGT6I">
+              <property role="2Ry0Am" value="app.jar" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="m$_wl" id="2Y$Ewq9ERUo" role="39821P">
         <ref role="m_rDy" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
         <node concept="398223" id="6_UytVTj6iE" role="39821P">

@@ -105,7 +105,7 @@ if (ciBuild) {
     println "##teamcity[buildNumber '${version}']"
 } else {
     println "Local build detected, version will be SNAPSHOT"
-    version = "2020.3-SNAPSHOT"
+    version = ext.mpsMajor + "." + ext.mpsMinor + "-SNAPSHOT"
 }
 
 def userHome = System.properties['user.home']

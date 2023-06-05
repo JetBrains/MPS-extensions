@@ -32,6 +32,7 @@
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
+      <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
         <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
@@ -261,25 +262,7 @@
               <node concept="liA8E" id="hG_e7_dlJL" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModelReference.resolve(org.jetbrains.mps.openapi.module.SRepository)" resolve="resolve" />
                 <node concept="2OqwBi" id="hG_e7_dlJM" role="37wK5m">
-                  <node concept="2OqwBi" id="hG_e7_dlJN" role="2Oq$k0">
-                    <node concept="2OqwBi" id="hG_e7_dlJO" role="2Oq$k0">
-                      <node concept="2OqwBi" id="hG_e7_dlJP" role="2Oq$k0">
-                        <node concept="2YIFZM" id="hG_e7_dlJQ" role="2Oq$k0">
-                          <ref role="1Pybhc" to="z1c3:~ProjectManager" resolve="ProjectManager" />
-                          <ref role="37wK5l" to="z1c3:~ProjectManager.getInstance()" resolve="getInstance" />
-                        </node>
-                        <node concept="liA8E" id="hG_e7_dlJR" role="2OqNvi">
-                          <ref role="37wK5l" to="z1c3:~ProjectManager.getOpenedProjects()" resolve="getOpenedProjects" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="hG_e7_dlJS" role="2OqNvi">
-                        <ref role="37wK5l" to="33ny:~List.iterator()" resolve="iterator" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="hG_e7_dlJT" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
-                    </node>
-                  </node>
+                  <node concept="1jxXqW" id="378Fdx2PEgJ" role="2Oq$k0" />
                   <node concept="liA8E" id="hG_e7_dlJU" role="2OqNvi">
                     <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                   </node>
@@ -572,25 +555,7 @@
               <node concept="liA8E" id="4LLXBGbToe8" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SModelReference.resolve(org.jetbrains.mps.openapi.module.SRepository)" resolve="resolve" />
                 <node concept="2OqwBi" id="4LLXBGbToe9" role="37wK5m">
-                  <node concept="2OqwBi" id="4LLXBGbToea" role="2Oq$k0">
-                    <node concept="2OqwBi" id="4LLXBGbToeb" role="2Oq$k0">
-                      <node concept="2OqwBi" id="4LLXBGbToec" role="2Oq$k0">
-                        <node concept="2YIFZM" id="4LLXBGbToed" role="2Oq$k0">
-                          <ref role="1Pybhc" to="z1c3:~ProjectManager" resolve="ProjectManager" />
-                          <ref role="37wK5l" to="z1c3:~ProjectManager.getInstance()" resolve="getInstance" />
-                        </node>
-                        <node concept="liA8E" id="4LLXBGbToee" role="2OqNvi">
-                          <ref role="37wK5l" to="z1c3:~ProjectManager.getOpenedProjects()" resolve="getOpenedProjects" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="4LLXBGbToef" role="2OqNvi">
-                        <ref role="37wK5l" to="33ny:~List.iterator()" resolve="iterator" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="4LLXBGbToeg" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~Iterator.next()" resolve="next" />
-                    </node>
-                  </node>
+                  <node concept="1jxXqW" id="378Fdx2PEY6" role="2Oq$k0" />
                   <node concept="liA8E" id="4LLXBGbToeh" role="2OqNvi">
                     <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                   </node>

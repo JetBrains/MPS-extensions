@@ -201,6 +201,9 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
+        <child id="1171903916107" name="bound" index="3qUE_r" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -1467,13 +1470,12 @@
               </node>
             </node>
             <node concept="3clFbJ" id="5v01ES7GgY_" role="3cqZAp">
-              <node concept="2OqwBi" id="5v01ES7GgYA" role="3clFbw">
+              <node concept="2OqwBi" id="2e9cgLTtd2o" role="3clFbw">
                 <node concept="37vLTw" id="5v01ES7GgYB" role="2Oq$k0">
                   <ref role="3cqZAo" node="5v01ES7GgYf" resolve="alreadyDefined" />
                 </node>
-                <node concept="liA8E" id="5v01ES7GgYC" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.contains(java.lang.Object)" resolve="contains" />
-                  <node concept="37vLTw" id="5v01ES7O8HB" role="37wK5m">
+                <node concept="3JPx81" id="2e9cgLTtgez" role="2OqNvi">
+                  <node concept="37vLTw" id="2e9cgLTtgUq" role="25WWJ7">
                     <ref role="3cqZAo" node="5v01ES7O81H" resolve="n" />
                   </node>
                 </node>
@@ -1516,7 +1518,9 @@
       <node concept="37vLTG" id="5v01ES7GgYf" role="3clF46">
         <property role="TrG5h" value="alreadyDefined" />
         <node concept="_YKpA" id="5v01ES7NGjY" role="1tU5fm">
-          <node concept="3Tqbb2" id="5v01ES7NI9C" role="_ZDj9" />
+          <node concept="3qUE_q" id="2e9cgLTt6xS" role="_ZDj9">
+            <node concept="3Tqbb2" id="2e9cgLTt7JP" role="3qUE_r" />
+          </node>
         </node>
       </node>
       <node concept="37vLTG" id="5v01ES7GgYi" role="3clF46">

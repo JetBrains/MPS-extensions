@@ -132,6 +132,9 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
+        <child id="1171903916107" name="bound" index="3qUE_r" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -1810,7 +1813,9 @@
                   <node concept="3cpWsn" id="2uT2PLmUZlz" role="3cpWs9">
                     <property role="TrG5h" value="children" />
                     <node concept="_YKpA" id="2uT2PLmUZlt" role="1tU5fm">
-                      <node concept="3Tqbb2" id="2uT2PLmUZlw" role="_ZDj9" />
+                      <node concept="3qUE_q" id="2e9cgLTrZ7g" role="_ZDj9">
+                        <node concept="3Tqbb2" id="2e9cgLTrZ7h" role="3qUE_r" />
+                      </node>
                     </node>
                     <node concept="1rXfSq" id="2uT2PLmUZl$" role="33vP2m">
                       <ref role="37wK5l" node="5OsvY4gZHrA" resolve="getChildren" />
@@ -2000,7 +2005,9 @@
           <node concept="3cpWsn" id="4MmBx0aofMD" role="3cpWs9">
             <property role="TrG5h" value="children" />
             <node concept="_YKpA" id="4MmBx0aofMy" role="1tU5fm">
-              <node concept="3Tqbb2" id="4MmBx0aofM_" role="_ZDj9" />
+              <node concept="3qUE_q" id="2e9cgLTrWy0" role="_ZDj9">
+                <node concept="3Tqbb2" id="2e9cgLTrXOo" role="3qUE_r" />
+              </node>
             </node>
             <node concept="1rXfSq" id="4MmBx0aofME" role="33vP2m">
               <ref role="37wK5l" node="5OsvY4gZHrA" resolve="getChildren" />
@@ -2263,7 +2270,9 @@
         <node concept="3Tqbb2" id="5OsvY4gZFG2" role="1tU5fm" />
       </node>
       <node concept="_YKpA" id="5OsvY4gZFKJ" role="3clF45">
-        <node concept="3Tqbb2" id="5OsvY4gZFY8" role="_ZDj9" />
+        <node concept="3qUE_q" id="2e9cgLTrSVi" role="_ZDj9">
+          <node concept="3Tqbb2" id="2e9cgLTrV4U" role="3qUE_r" />
+        </node>
       </node>
       <node concept="3Tm6S6" id="5OsvY4gZHlF" role="1B3o_S" />
     </node>

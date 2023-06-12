@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.model.merge.runtime" uuid="aa8cbd62-5e1f-4d0b-a6e2-189711774c91" moduleVersion="0">
+<solution name="de.itemis.model.merge.runtime" uuid="aa8cbd62-5e1f-4d0b-a6e2-189711774c91" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,6 +10,7 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
+  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">539e8939-08ef-497c-a5fd-25dd10137a55(de.itemis.model.merge)</dependency>

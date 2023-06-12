@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.q60.mps.incremental.runtime" uuid="95085166-3236-4dd7-bd8e-e753c8d20885" moduleVersion="0">
+<solution name="de.q60.mps.incremental.runtime" uuid="95085166-3236-4dd7-bd8e-e753c8d20885" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,6 +10,7 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
+  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">e4fb5bb5-0ad9-4e08-9867-6c5a4b9d9246(de.q60.mps.util)</dependency>

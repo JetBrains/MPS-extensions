@@ -111,9 +111,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -159,18 +156,15 @@
         <node concept="3Fmcul" id="1QyV25GL1mX" role="3FoqZy">
           <node concept="3clFbS" id="1QyV25GL1mZ" role="2VODD2">
             <node concept="3cpWs6" id="1QyV25GL1z9" role="3cqZAp">
-              <node concept="2YIFZM" id="1QyV25GL24b" role="3cqZAk">
-                <ref role="37wK5l" to="hhnx:~EditorUtil.createSelectIconButton(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext,boolean)" resolve="createSelectIconButton" />
+              <node concept="2YIFZM" id="5rD5XGW8N9s" role="3cqZAk">
+                <ref role="37wK5l" to="hhnx:~EditorUtil.createSelectImageButton(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,jetbrains.mps.openapi.editor.EditorContext)" resolve="createSelectImageButton" />
                 <ref role="1Pybhc" to="hhnx:~EditorUtil" resolve="EditorUtil" />
-                <node concept="pncrf" id="1QyV25GL2fm" role="37wK5m" />
-                <node concept="355D3s" id="1QyV25GL2I6" role="37wK5m">
+                <node concept="pncrf" id="5rD5XGW8N9t" role="37wK5m" />
+                <node concept="355D3s" id="5rD5XGW8N9u" role="37wK5m">
                   <ref role="355D3t" to="t51k:1QyV25GKFJC" resolve="Icon" />
                   <ref role="355D3u" to="t51k:1QyV25GKFJG" resolve="path" />
                 </node>
-                <node concept="1Q80Hx" id="1QyV25GL3sU" role="37wK5m" />
-                <node concept="3clFbT" id="1QyV25GL3OI" role="37wK5m">
-                  <property role="3clFbU" value="false" />
-                </node>
+                <node concept="1Q80Hx" id="5rD5XGW8N9v" role="37wK5m" />
               </node>
             </node>
           </node>

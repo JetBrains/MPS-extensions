@@ -191,6 +191,7 @@ modelcheck {
     junitFile = modelcheckresult
     errorNoFail = true
     debug = false
+    junitFormat = "message"
     maxHeap = "4G"
 }
 

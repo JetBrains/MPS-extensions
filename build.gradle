@@ -192,7 +192,6 @@ modelcheck {
     errorNoFail = true
     debug = false
     maxHeap = "4G"
-    modules = ["com.mbeddr.mpsutil.blutil.rt"]
 }
 
 afterEvaluate {  project -> 

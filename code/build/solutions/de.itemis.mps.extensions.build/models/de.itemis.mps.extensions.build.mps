@@ -3185,6 +3185,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.slisson.mps.tables.runtime" />
         <property role="3LESm3" value="da21218f-a674-474d-8b4e-d59e33007003" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="3vzyAKEK6bt" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="3vzyAKEK6b$" role="iGT6I">
@@ -7734,6 +7735,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.mbeddr.mpsutil.grammarcells.runtime" />
         <property role="3LESm3" value="7ac49bcb-77fb-4f0f-9036-e31b86b854b2" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="F1NWDqqB1r" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="F1NWDqqCW6" role="iGT6I">
@@ -16381,6 +16383,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="test.org.modelix.model.mpsadapters" />
         <property role="3LESm3" value="133bdd06-b98b-47f5-8335-a48e447f9c41" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="7g5FWGK0KzA" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="7g5FWGK0KzG" role="iGT6I">
@@ -19099,9 +19102,15 @@
       <node concept="L2wRC" id="7RNWCAgLhX_" role="39821P">
         <ref role="L2wRA" node="3oyo9Wzq1vN" resolve="de.itemis.model.merge.test.integration" />
       </node>
+      <node concept="L2wRC" id="5Ts1zotrE4f" role="39821P">
+        <ref role="L2wRA" node="5tP$u8BuPcO" resolve="test.de.q60.mps.shadowmodels.examples" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
+      <node concept="22LTRM" id="5hn2EqIu25Y" role="22LTRK">
+        <ref role="22LTRN" node="F1NWDqq_DA" resolve="com.mbeddr.mpsutil.grammarcells.runtime" />
+      </node>
       <node concept="22LTRM" id="F1NWDqzA2e" role="22LTRK">
         <ref role="22LTRN" node="F1NWDqwbth" resolve="com.mbeddr.mpsutil.grammarcells.tests" />
       </node>
@@ -19110,6 +19119,9 @@
       </node>
       <node concept="22LTRM" id="5mH$9t6eAr5" role="22LTRK">
         <ref role="22LTRN" node="5mH$9t6e_Fl" resolve="test.de.slisson.mps.tables" />
+      </node>
+      <node concept="22LTRM" id="5Ts1zotj1cs" role="22LTRK">
+        <ref role="22LTRN" node="29so9Vb$6T5" resolve="de.slisson.mps.tables.runtime" />
       </node>
       <node concept="22LTRM" id="7i5Cc6Lw3P$" role="22LTRK">
         <ref role="22LTRN" node="5mH$9t6eAsB" resolve="test.de.itemis.mps.editor.celllayout" />
@@ -19147,6 +19159,9 @@
       </node>
       <node concept="22LTRM" id="5QP6xyk3oDX" role="22LTRK">
         <ref role="22LTRN" node="5QP6xyk3oCB" resolve="test.de.q60.mps.shadowmodels.runtime" />
+      </node>
+      <node concept="22LTRM" id="5Ts1zotqE4K" role="22LTRK">
+        <ref role="22LTRN" node="5tP$u8BuPcO" resolve="test.de.q60.mps.shadowmodels.examples" />
       </node>
       <node concept="22LTRM" id="7qGGLAjNnMO" role="22LTRK">
         <ref role="22LTRN" node="7qGGLAjNnEU" resolve="test.de.q60.mps.incremental.runtime" />

@@ -91,6 +91,10 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -111,6 +115,9 @@
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -3059,6 +3066,17 @@
         <node concept="3Tm1VV" id="7C0FR5BF5$y" role="1B3o_S" />
         <node concept="3cqZAl" id="7C0FR5BF5$z" role="3clF45" />
         <node concept="3clFbS" id="7C0FR5BF5$_" role="3clF47">
+          <node concept="3clFbJ" id="5hn2EqIze7u" role="3cqZAp">
+            <node concept="3clFbS" id="5hn2EqIze7w" role="3clFbx">
+              <node concept="3cpWs6" id="5hn2EqIzsvS" role="3cqZAp" />
+            </node>
+            <node concept="3fqX7Q" id="5hn2EqIzssq" role="3clFbw">
+              <node concept="10M0yZ" id="5hn2EqIzsss" role="3fr31v">
+                <ref role="3cqZAo" to="6dpw:5fuw_4QzNzW" resolve="CONSISTENCY_CHECKS_ENABLED" />
+                <ref role="1PxDUh" to="6dpw:7C0FR5Aonzr" resolve="Grid" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="2c3czgnGTs$" role="3cqZAp">
             <node concept="2OqwBi" id="2c3czgnGTKf" role="3clFbG">
               <node concept="37vLTw" id="2c3czgnGTsz" role="2Oq$k0">
@@ -3104,6 +3122,17 @@
         <node concept="3Tm1VV" id="7C0FR5BFanG" role="1B3o_S" />
         <node concept="3cqZAl" id="7C0FR5BFanH" role="3clF45" />
         <node concept="3clFbS" id="7C0FR5BFanI" role="3clF47">
+          <node concept="3clFbJ" id="5hn2EqIzsxy" role="3cqZAp">
+            <node concept="3clFbS" id="5hn2EqIzsxz" role="3clFbx">
+              <node concept="3cpWs6" id="5hn2EqIzsx$" role="3cqZAp" />
+            </node>
+            <node concept="3fqX7Q" id="5hn2EqIzsx_" role="3clFbw">
+              <node concept="10M0yZ" id="5hn2EqIzsxA" role="3fr31v">
+                <ref role="1PxDUh" to="6dpw:7C0FR5Aonzr" resolve="Grid" />
+                <ref role="3cqZAo" to="6dpw:5fuw_4QzNzW" resolve="CONSISTENCY_CHECKS_ENABLED" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="2c3czgnGWGq" role="3cqZAp">
             <node concept="2OqwBi" id="2c3czgnGWGr" role="3clFbG">
               <node concept="37vLTw" id="2c3czgnGWGs" role="2Oq$k0">

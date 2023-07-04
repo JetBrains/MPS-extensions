@@ -15359,11 +15359,6 @@
             <ref role="3bR37D" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5tP$u8CDDIG" role="3bR37C">
-          <node concept="3bR9La" id="5tP$u8CDDIH" role="1SiIV1">
-            <ref role="3bR37D" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtD" id="2UnEDPClLQ$" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -15407,11 +15402,6 @@
             <node concept="3qWCbU" id="5tP$u8BuHVs" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5tP$u8CDDIZ" role="3bR37C">
-          <node concept="3bR9La" id="5tP$u8CDDJ0" role="1SiIV1">
-            <ref role="3bR37D" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
           </node>
         </node>
         <node concept="1SiIV0" id="5tP$u8CDDJ1" role="3bR37C">

@@ -189,6 +189,8 @@ pluginsList.add(new de.itemis.mps.gradle.Plugin("jetbrains.mps.lang.editor.toolt
 
 modelcheck {
     projectLocation =  new File("$projectDir/code")
+    mpsLocation = new File("$buildDir/mps")
+    javaExec = new File(jdk_home, 'bin/java')
     plugins = pluginsList
     mpsConfig = configurations.mps
     macros = [new Macro("extensions.home", "$projectDir")]

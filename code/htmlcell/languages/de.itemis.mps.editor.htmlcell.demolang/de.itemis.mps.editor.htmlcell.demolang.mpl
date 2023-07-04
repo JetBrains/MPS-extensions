@@ -11,9 +11,6 @@
     </facet>
   </facets>
   <accessoryModels />
-  <stubModelEntries>
-    <stubModelEntry path="${module}/resources" />
-  </stubModelEntries>
   <sourcePath />
   <languageVersions>
     <language slang="l:1919c723-b60b-4592-9318-9ce96d91da44:de.itemis.mps.editor.celllayout" version="0" />

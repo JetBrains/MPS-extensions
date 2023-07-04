@@ -184,8 +184,12 @@ apply plugin: 'modelcheck'
 
 File modelcheckresult = new File("$buildDir/TEST-checkProject.xml")
 
+def pluginsList = []
+pluginsList.add(new de.itemis.mps.gradle.Plugin("jetbrains.mps.lang.editor.tooltips", "$buildDir/mps/plugins/mps-tooltips"))
+
 modelcheck {
     projectLocation =  new File("$projectDir/code")
+    plugins = pluginsList
     mpsConfig = configurations.mps
     macros = [new Macro("extensions.home", "$projectDir")]
     junitFile = modelcheckresult

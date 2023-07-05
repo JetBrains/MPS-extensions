@@ -202,8 +202,10 @@ modelcheck {
 }
 
 afterEvaluate {  project -> 
-    check.configure {
-        dependsOn tasks.named('checkmodels')
+    if(project.hasProperty("run_modelcheck")) {
+        check.configure {
+            dependsOn tasks.named('checkmodels')
+        }
     }
 }
 

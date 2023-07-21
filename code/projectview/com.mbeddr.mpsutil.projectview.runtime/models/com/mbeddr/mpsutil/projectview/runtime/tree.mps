@@ -81,6 +81,7 @@
     <import index="ewej" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.font(JDK/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="mmaq" ref="f647e48e-4568-4f4c-b48a-1546492c6a2e/java:org.jdom(org.jdom/)" />
+    <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -4021,6 +4022,18 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3cpWs8" id="2WQCPOurpaN" role="3cqZAp">
+                  <node concept="3cpWsn" id="2WQCPOurpaO" role="3cpWs9">
+                    <property role="TrG5h" value="disposer" />
+                    <node concept="3uibUv" id="2WQCPOurpaP" role="1tU5fm">
+                      <ref role="3uigEE" to="v23q:~Disposable" resolve="Disposable" />
+                    </node>
+                    <node concept="2YIFZM" id="2WQCPOusdxF" role="33vP2m">
+                      <ref role="37wK5l" to="zn9m:~Disposer.newDisposable()" resolve="newDisposable" />
+                      <ref role="1Pybhc" to="zn9m:~Disposer" resolve="Disposer" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="4QICnJ5J4j3" role="3cqZAp">
                   <node concept="2OqwBi" id="4QICnJ5J4j4" role="3clFbG">
                     <node concept="2YIFZM" id="4QICnJ5J4jC" role="2Oq$k0">
@@ -4028,9 +4041,12 @@
                       <ref role="37wK5l" to="jlff:~VirtualFileManager.getInstance()" resolve="getInstance" />
                     </node>
                     <node concept="liA8E" id="4QICnJ5J4j6" role="2OqNvi">
-                      <ref role="37wK5l" to="jlff:~VirtualFileManager.addVirtualFileManagerListener(com.intellij.openapi.vfs.VirtualFileManagerListener)" resolve="addVirtualFileManagerListener" />
+                      <ref role="37wK5l" to="jlff:~VirtualFileManager.addVirtualFileManagerListener(com.intellij.openapi.vfs.VirtualFileManagerListener,com.intellij.openapi.Disposable)" resolve="addVirtualFileManagerListener" />
                       <node concept="37vLTw" id="4QICnJ5J4j7" role="37wK5m">
                         <ref role="3cqZAo" node="4QICnJ5HetR" resolve="myRefreshListener" />
+                      </node>
+                      <node concept="37vLTw" id="2WQCPOustcO" role="37wK5m">
+                        <ref role="3cqZAo" node="2WQCPOurpaO" resolve="disposer" />
                       </node>
                     </node>
                   </node>

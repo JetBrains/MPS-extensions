@@ -3,7 +3,6 @@ buildscript {
     repositories {
         mavenLocal()
         maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
-        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }
     dependencies {
         classpath('de.itemis.mps:mps-gradle-plugin:1.7+')

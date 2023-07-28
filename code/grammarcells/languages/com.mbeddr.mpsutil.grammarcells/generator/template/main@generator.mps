@@ -9674,10 +9674,13 @@
                                                                           </node>
                                                                           <node concept="2OqwBi" id="dN43ccHKe6" role="33vP2m">
                                                                             <node concept="liA8E" id="dN43ccHKe8" role="2OqNvi">
-                                                                              <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
+                                                                              <ref role="37wK5l" to="78sh:~SubstituteMenuItem.getDescriptionText(java.lang.String)" resolve="getDescriptionText" />
+                                                                              <node concept="37vLTw" id="4WFxjNhoMY6" role="37wK5m">
+                                                                                <ref role="3cqZAo" node="6uixmKZ3tkg" resolve="pattern" />
+                                                                              </node>
                                                                             </node>
-                                                                            <node concept="1rXfSq" id="dN43ccHKe7" role="2Oq$k0">
-                                                                              <ref role="37wK5l" node="7NlRaxBn2jp" resolve="getOutputConcept" />
+                                                                            <node concept="37vLTw" id="4WFxjNhoadm" role="2Oq$k0">
+                                                                              <ref role="3cqZAo" node="7NlRaxAYjOf" resolve="it" />
                                                                             </node>
                                                                           </node>
                                                                         </node>
@@ -9687,12 +9690,17 @@
                                                                           <node concept="37vLTw" id="dN43ccHKeb" role="3K4E3e">
                                                                             <ref role="3cqZAo" node="dN43ccHKe4" resolve="description" />
                                                                           </node>
-                                                                          <node concept="2OqwBi" id="dN43ccHKec" role="3K4GZi">
-                                                                            <node concept="liA8E" id="dN43ccHKee" role="2OqNvi">
+                                                                          <node concept="2OqwBi" id="4WFxjNhponD" role="3K4GZi">
+                                                                            <node concept="liA8E" id="4WFxjNhpuNf" role="2OqNvi">
                                                                               <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
                                                                             </node>
-                                                                            <node concept="1rXfSq" id="dN43ccHKed" role="2Oq$k0">
-                                                                              <ref role="37wK5l" node="7NlRaxBn2jp" resolve="getOutputConcept" />
+                                                                            <node concept="2OqwBi" id="4WFxjNhpfXs" role="2Oq$k0">
+                                                                              <node concept="37vLTw" id="4WFxjNhpdr6" role="2Oq$k0">
+                                                                                <ref role="3cqZAo" node="7NlRaxAYjOf" resolve="it" />
+                                                                              </node>
+                                                                              <node concept="liA8E" id="4WFxjNhpkpe" role="2OqNvi">
+                                                                                <ref role="37wK5l" to="78sh:~SubstituteMenuItem.getOutputConcept()" resolve="getOutputConcept" />
+                                                                              </node>
                                                                             </node>
                                                                           </node>
                                                                           <node concept="2OqwBi" id="dN43ccHKef" role="3K4Cdx">
@@ -9813,11 +9821,14 @@
                                                                         <ref role="3uigEE" to="wyt6:~String" resolve="String" />
                                                                       </node>
                                                                       <node concept="2OqwBi" id="dN43cbh1cb" role="33vP2m">
-                                                                        <node concept="1rXfSq" id="dN43cbhgzo" role="2Oq$k0">
-                                                                          <ref role="37wK5l" node="7NlRaxBn2jp" resolve="getOutputConcept" />
+                                                                        <node concept="liA8E" id="p_Zcg76xPj" role="2OqNvi">
+                                                                          <ref role="37wK5l" to="78sh:~SubstituteMenuItem.getDescriptionText(java.lang.String)" resolve="getDescriptionText" />
+                                                                          <node concept="37vLTw" id="p_Zcg76xPk" role="37wK5m">
+                                                                            <ref role="3cqZAo" node="dN43caW990" resolve="pattern" />
+                                                                          </node>
                                                                         </node>
-                                                                        <node concept="liA8E" id="dN43cbh1UR" role="2OqNvi">
-                                                                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getShortDescription()" resolve="getShortDescription" />
+                                                                        <node concept="37vLTw" id="p_Zcg76xPl" role="2Oq$k0">
+                                                                          <ref role="3cqZAo" node="7NlRaxAYjOf" resolve="it" />
                                                                         </node>
                                                                       </node>
                                                                     </node>
@@ -9827,19 +9838,24 @@
                                                                       <node concept="37vLTw" id="dN43cbhgzq" role="3K4E3e">
                                                                         <ref role="3cqZAo" node="dN43cbhgzm" resolve="description" />
                                                                       </node>
-                                                                      <node concept="2OqwBi" id="dN43cbhgzr" role="3K4GZi">
-                                                                        <node concept="1rXfSq" id="dN43cbhgzs" role="2Oq$k0">
-                                                                          <ref role="37wK5l" node="7NlRaxBn2jp" resolve="getOutputConcept" />
-                                                                        </node>
-                                                                        <node concept="liA8E" id="dN43cbhgzt" role="2OqNvi">
-                                                                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
-                                                                        </node>
-                                                                      </node>
                                                                       <node concept="2OqwBi" id="dN43cbh4eU" role="3K4Cdx">
                                                                         <node concept="37vLTw" id="dN43cbhgzu" role="2Oq$k0">
                                                                           <ref role="3cqZAo" node="dN43cbhgzm" resolve="description" />
                                                                         </node>
                                                                         <node concept="17RvpY" id="dN43cbh5g4" role="2OqNvi" />
+                                                                      </node>
+                                                                      <node concept="2OqwBi" id="dN43cbhgzr" role="3K4GZi">
+                                                                        <node concept="liA8E" id="dN43cbhgzt" role="2OqNvi">
+                                                                          <ref role="37wK5l" to="c17a:~SAbstractConcept.getName()" resolve="getName" />
+                                                                        </node>
+                                                                        <node concept="2OqwBi" id="p_Zcg76Abc" role="2Oq$k0">
+                                                                          <node concept="37vLTw" id="p_Zcg76Abd" role="2Oq$k0">
+                                                                            <ref role="3cqZAo" node="7NlRaxAYjOf" resolve="it" />
+                                                                          </node>
+                                                                          <node concept="liA8E" id="p_Zcg76Abe" role="2OqNvi">
+                                                                            <ref role="37wK5l" to="78sh:~SubstituteMenuItem.getOutputConcept()" resolve="getOutputConcept" />
+                                                                          </node>
+                                                                        </node>
                                                                       </node>
                                                                     </node>
                                                                   </node>
@@ -9954,6 +9970,7 @@
                                             </node>
                                             <node concept="Rh6nW" id="7NlRaxAYjOf" role="1bW2Oz">
                                               <property role="TrG5h" value="it" />
+                                              <property role="3TUv4t" value="true" />
                                               <node concept="2jxLKc" id="7NlRaxAYjOg" role="1tU5fm" />
                                             </node>
                                           </node>

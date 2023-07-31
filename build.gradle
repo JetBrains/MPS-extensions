@@ -248,7 +248,7 @@ tasks.register("checkModulePaths") {
     def project = new XmlParser().parse(file)
 
     def invalidModules = project.component.projectModules.modulePath.'@path'.findAll {
-        def path = it.replaceAll("\\\$PROJECT_DIR\\\$","$rootDir/code")
+        def path = it.replace("\$PROJECT_DIR\$","$rootDir/code")
         return !(new File(path).exists())
     }
 

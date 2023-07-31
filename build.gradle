@@ -4,13 +4,10 @@ buildscript {
         mavenLocal()
         maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
     }
-    dependencies {
-        classpath('de.itemis.mps:mps-gradle-plugin:1.7+')
-    }
 }
-
 plugins {
-   id "com.github.breadmoirai.github-release" version "2.4.1"
+    id 'de.itemis.mps.gradle.common' version '1.13.+'
+    id "com.github.breadmoirai.github-release" version "2.4.1"
 }
 
 apply plugin: 'maven-publish'
@@ -73,9 +70,7 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 ext.dependencyRepositories = [
-        'https://artifacts.itemis.cloud/repository/maven-mps/',
-        'https://projects.itemis.de/nexus/content/repositories/mbeddr',
-        'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
+        'https://artifacts.itemis.cloud/repository/maven-mps/'
 ]
 // Dependency versions
 

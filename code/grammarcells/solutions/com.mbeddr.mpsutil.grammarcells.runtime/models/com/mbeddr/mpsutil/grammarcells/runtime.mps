@@ -47,7 +47,6 @@
     <import index="gkj1" ref="r:5e3f9658-4109-4862-9de6-6b623aa795b5(com.mbeddr.mpsutil.grammarcells.runtime.editorregistry)" />
     <import index="j9co" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.event(MPS.Core/)" />
     <import index="4it6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.loading(MPS.Core/)" />
-    <import index="ykok" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.constraints(MPS.Core/)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="gdpt" ref="r:27fc9218-2a6a-48c7-b6cf-3d630d9aaacd(com.mbeddr.mpsutil.grammarcells.runtime.menu)" />
@@ -67,7 +66,10 @@
     <import index="pdwk" ref="8e98f4e2-decf-4e97-bf80-9109e8b759ee/java:jetbrains.mps.core.aspects.constraints.rules.kinds(jetbrains.mps.lang.constraints.rules.runtime/)" />
     <import index="6r6f" ref="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)" />
     <import index="i8bi" ref="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <import index="j809" ref="aaaaf3e2-decf-4e97-bf80-9109eab759ee/java:jetbrains.mps.core.aspects.feedback.messages(jetbrains.mps.lang.feedback.problem.legacy-constraints/)" />
+    <import index="ykok" ref="8e98f4e2-decf-4e97-bf80-9109e8b759ee/java:jetbrains.mps.smodel.constraints(jetbrains.mps.lang.constraints.rules.runtime/)" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
+    <import index="ykol" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.constraints(MPS.Core/)" implicit="true" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" implicit="true" />
@@ -130,7 +132,7 @@
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
@@ -203,6 +205,9 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -277,7 +282,7 @@
         <child id="1154542793668" name="componentType" index="3g7fb8" />
         <child id="1154542803372" name="initValue" index="3g7hyw" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
         <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
@@ -322,7 +327,7 @@
       <concept id="1184952934362" name="jetbrains.mps.baseLanguage.structure.DimensionExpression" flags="nn" index="3$GHV9">
         <child id="1184953288404" name="expression" index="3$I4v7" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
@@ -526,7 +531,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
@@ -2466,20 +2471,41 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6rVC5beYLyY" role="3cqZAp">
-          <node concept="2YIFZM" id="6rVC5beYM5j" role="3clFbG">
-            <ref role="37wK5l" to="ykok:~ModelConstraints.validatePropertyValue(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,java.lang.Object,jetbrains.mps.smodel.runtime.CheckingNodeContext)" resolve="validatePropertyValue" />
-            <ref role="1Pybhc" to="ykok:~ModelConstraints" resolve="ModelConstraints" />
-            <node concept="37vLTw" id="6rVC5beYSXu" role="37wK5m">
-              <ref role="3cqZAo" node="4qdNcH$28X0" resolve="dummyNode" />
+        <node concept="3cpWs8" id="6xN9NKsHJtA" role="3cqZAp">
+          <node concept="3cpWsn" id="6xN9NKsHJtB" role="3cpWs9">
+            <property role="TrG5h" value="c" />
+            <node concept="3uibUv" id="6xN9NKsHIgl" role="1tU5fm">
+              <ref role="3uigEE" to="j809:~FailingPropertyConstraintContext" resolve="FailingPropertyConstraintContext" />
             </node>
-            <node concept="37vLTw" id="6rVC5beYT7m" role="37wK5m">
-              <ref role="3cqZAo" node="1gQHfgGXGiM" resolve="property" />
+            <node concept="2ShNRf" id="6xN9NKsHJtC" role="33vP2m">
+              <node concept="1pGfFk" id="6xN9NKsHJtD" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="j809:~FailingPropertyConstraintContext.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty,java.lang.Object)" resolve="FailingPropertyConstraintContext" />
+                <node concept="37vLTw" id="6xN9NKsHJtE" role="37wK5m">
+                  <ref role="3cqZAo" node="4qdNcH$28X0" resolve="dummyNode" />
+                </node>
+                <node concept="37vLTw" id="6xN9NKsHJtF" role="37wK5m">
+                  <ref role="3cqZAo" node="1gQHfgGXGiM" resolve="property" />
+                </node>
+                <node concept="37vLTw" id="6xN9NKsHJtG" role="37wK5m">
+                  <ref role="3cqZAo" node="6rVC5beYN7H" resolve="internalValue" />
+                </node>
+              </node>
             </node>
-            <node concept="37vLTw" id="6rVC5beYXrU" role="37wK5m">
-              <ref role="3cqZAo" node="6rVC5beYN7H" resolve="internalValue" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6xN9NKsHXCN" role="3cqZAp">
+          <node concept="2OqwBi" id="6xN9NKsHOJ6" role="3cqZAk">
+            <node concept="2YIFZM" id="6xN9NKsH8c5" role="2Oq$k0">
+              <ref role="37wK5l" to="ykok:~ConstraintsChildAndPropFacade.checkPropertyValue(jetbrains.mps.core.aspects.feedback.messages.FailingPropertyConstraintContext)" resolve="checkPropertyValue" />
+              <ref role="1Pybhc" to="ykok:~ConstraintsChildAndPropFacade" resolve="ConstraintsChildAndPropFacade" />
+              <node concept="37vLTw" id="6xN9NKsHMxd" role="37wK5m">
+                <ref role="3cqZAo" node="6xN9NKsHJtB" resolve="c" />
+              </node>
             </node>
-            <node concept="10Nm6u" id="_I9mxtxgCK" role="37wK5m" />
+            <node concept="liA8E" id="6xN9NKsHTNV" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
+            </node>
           </node>
         </node>
       </node>
@@ -3138,8 +3164,8 @@
             <node concept="10P_77" id="4_3mV3JAV$j" role="1tU5fm" />
             <node concept="2OqwBi" id="4_3mV3JAV$k" role="33vP2m">
               <node concept="2YIFZM" id="4_3mV3JAV$l" role="2Oq$k0">
-                <ref role="1Pybhc" to="ykok:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
-                <ref role="37wK5l" to="ykok:~ConstraintsCanBeFacade.checkCanBeChild(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeChild" />
+                <ref role="1Pybhc" to="ykol:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
+                <ref role="37wK5l" to="ykol:~ConstraintsCanBeFacade.checkCanBeChild(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeChild" />
                 <node concept="37vLTw" id="6ogDZtA2c7Y" role="37wK5m">
                   <ref role="3cqZAo" node="6ogDZtA2c7E" resolve="build" />
                 </node>
@@ -3156,8 +3182,8 @@
             <node concept="10P_77" id="4_3mV3JAV$A" role="1tU5fm" />
             <node concept="2OqwBi" id="4_3mV3JAV$B" role="33vP2m">
               <node concept="2YIFZM" id="4_3mV3JAV$C" role="2Oq$k0">
-                <ref role="1Pybhc" to="ykok:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
-                <ref role="37wK5l" to="ykok:~ConstraintsCanBeFacade.checkCanBeParent(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeParent" />
+                <ref role="1Pybhc" to="ykol:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
+                <ref role="37wK5l" to="ykol:~ConstraintsCanBeFacade.checkCanBeParent(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeParent" />
                 <node concept="37vLTw" id="4_3mV3KfcnX" role="37wK5m">
                   <ref role="3cqZAo" node="6ogDZtA2c7E" resolve="build" />
                 </node>
@@ -3397,8 +3423,8 @@
                 <node concept="10P_77" id="3Lzx5PeGbi2" role="1tU5fm" />
                 <node concept="2OqwBi" id="3Lzx5PeGbi3" role="33vP2m">
                   <node concept="2YIFZM" id="3Lzx5PeGbi4" role="2Oq$k0">
-                    <ref role="37wK5l" to="ykok:~ConstraintsCanBeFacade.checkCanBeAncestor(jetbrains.mps.core.aspects.constraints.rules.kinds.CanBeAncestorContext)" resolve="checkCanBeAncestor" />
-                    <ref role="1Pybhc" to="ykok:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
+                    <ref role="37wK5l" to="ykol:~ConstraintsCanBeFacade.checkCanBeAncestor(jetbrains.mps.core.aspects.constraints.rules.kinds.CanBeAncestorContext)" resolve="checkCanBeAncestor" />
+                    <ref role="1Pybhc" to="ykol:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
                     <node concept="2OqwBi" id="3Lzx5PeGbi5" role="37wK5m">
                       <node concept="2OqwBi" id="3Lzx5PeGbi6" role="2Oq$k0">
                         <node concept="2OqwBi" id="3Lzx5PeGbi7" role="2Oq$k0">

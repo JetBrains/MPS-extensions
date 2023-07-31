@@ -103,7 +103,7 @@
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
-      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
+      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ngI" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
@@ -119,7 +119,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -237,6 +237,10 @@
   <node concept="1l3spW" id="2Xjt3l56m0V">
     <property role="TrG5h" value="de.itemis.mps.extensions" />
     <property role="2DA0ip" value="../../../../build/generated/languages" />
+    <node concept="2igEWh" id="2MQBX6KMw95" role="1hWBAP">
+      <property role="3UIfUI" value="2024" />
+      <property role="1YnnvL" value="1000" />
+    </node>
     <node concept="m$_wf" id="4hvHh3QW$Eh" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.extensions.build" />
       <node concept="3_J27D" id="4hvHh3QW$Ei" role="m$_yQ">
@@ -341,10 +345,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="2igEWh" id="2MQBX6KMw95" role="1hWBAP">
-      <property role="3UIfUI" value="2024" />
-      <property role="1YnnvL" value="1000" />
     </node>
     <node concept="m$_wf" id="2H_mjOXw1Ef" role="3989C9">
       <property role="m$_wk" value="de.itemis.mps.nativelibs" />
@@ -7076,6 +7076,11 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
+        <node concept="1SiIV0" id="64IPVRJ1Bo5" role="3bR37C">
+          <node concept="3bR9La" id="64IPVRJ1Bo6" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:rD7wKO6k$" resolve="MPS.Generator" />
+          </node>
+        </node>
         <node concept="3rtmxn" id="7LJ_vJOlQ66" role="3bR31x">
           <node concept="3LXTmp" id="7LJ_vJOlQ67" role="3rtmxm">
             <node concept="3qWCbU" id="7LJ_vJOlQ68" role="3LXTna">
@@ -7090,11 +7095,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="64IPVRJ1Bo5" role="3bR37C">
-          <node concept="3bR9La" id="64IPVRJ1Bo6" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:rD7wKO6k$" resolve="MPS.Generator" />
           </node>
         </node>
       </node>
@@ -7925,6 +7925,11 @@
         <node concept="1SiIV0" id="5qwwnuN8UrS" role="3bR37C">
           <node concept="3bR9La" id="5qwwnuN8UrT" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg8" resolve="jetbrains.mps.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6xN9NKsIrst" role="3bR37C">
+          <node concept="3bR9La" id="6xN9NKsIrsu" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3qkjbZn8cF0" resolve="jetbrains.mps.lang.feedback.problem.legacy-constraints" />
           </node>
         </node>
       </node>
@@ -12072,6 +12077,9 @@
       <node concept="m$_yC" id="3ofF9dt4eDr" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
       </node>
+      <node concept="m$_yC" id="5lBBNpx5PcJ" role="m$_yJ">
+        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
+      </node>
       <node concept="2iUeEo" id="3vhhDKcvNeO" role="2iVFfd">
         <property role="2iUeEt" value="Modelix" />
         <property role="2iUeEu" value="http://modelix.org" />
@@ -12080,9 +12088,6 @@
         <node concept="3Mxwew" id="3vhhDKcvN8v" role="3MwsjC">
           <property role="3MwjfP" value="Alternative model API with better support for persistent data structures." />
         </node>
-      </node>
-      <node concept="m$_yC" id="5lBBNpx5PcJ" role="m$_yJ">
-        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
       </node>
     </node>
     <node concept="2G$12M" id="5U8hsWC6WQb" role="3989C9">

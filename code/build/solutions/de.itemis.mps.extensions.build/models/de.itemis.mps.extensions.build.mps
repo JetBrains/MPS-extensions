@@ -5282,6 +5282,11 @@
               <ref role="3bR37D" to="ffeo:xAoHD7hU5Y" resolve="jetbrains.mps.lang.editor.tooltips" />
             </node>
           </node>
+          <node concept="1SiIV0" id="7LJ_vJQdRNK" role="3bR37C">
+            <node concept="3bR9La" id="7LJ_vJQdRNJ" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7YI57w6K0iE" resolve="jetbrains.mps.lang.editor#1129914002149" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3xFG3bj5Mmn" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5Mmo" role="3rtmxm">

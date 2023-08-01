@@ -1,6 +1,5 @@
 pluginManagement {
     repositories {
-        mavenLocal()
         maven { url 'https://artifacts.itemis.cloud/repository/maven-mps' }
 
         // Need to manually include the default Gradle plugin portal repository when overriding the defaults.

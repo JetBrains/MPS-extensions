@@ -43,6 +43,9 @@
       <concept id="4330386229151410873" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.UnitExpression" flags="ng" index="WMbnG">
         <child id="4330386229151410880" name="expression" index="WMbml" />
       </concept>
+      <concept id="7048944721662027558" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.DemoRoot" flags="ng" index="31Pkr6">
+        <child id="7048944721662027561" name="content" index="31Pkr9" />
+      </concept>
       <concept id="7363578995839144929" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StringType" flags="ng" index="1kHqfO" />
       <concept id="7363578995839169017" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.VariableDeclaration" flags="ng" index="1kHs7G">
         <property id="7363578995839203005" name="volatile" index="1kHkqC" />
@@ -57,6 +60,11 @@
       <concept id="2862331529395169336" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.BinaryExpression" flags="ng" index="1LhId$">
         <child id="5083944728300233289" name="right" index="ywYU2" />
         <child id="5083944728300233286" name="left" index="ywYUd" />
+      </concept>
+      <concept id="7048944721661191115" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.DemoOptionalCellsCapability" flags="ng" index="3Ya08F">
+        <property id="7048944721665328332" name="property1" index="31UekG" />
+        <reference id="7048944721671920483" name="reference" index="31j7E3" />
+        <child id="7048944721661199435" name="content" index="3YaumF" />
       </concept>
     </language>
   </registry>
@@ -440,6 +448,20 @@
     <node concept="2cssZD" id="1x69Amke1Gi" role="2cssWm" />
     <node concept="2cssZD" id="4qdNcH$0Xu5" role="2cssWm" />
     <node concept="2cssZD" id="4qdNcH$0Xv8" role="2cssWm" />
+  </node>
+  <node concept="31Pkr6" id="67iSu2w55nl">
+    <property role="TrG5h" value="Optional Cell Capabilities Demo" />
+    <node concept="3Ya08F" id="67iSu2w8daj" role="31Pkr9">
+      <property role="TrG5h" value="Optional cell with all optional content" />
+      <property role="31UekG" value="true" />
+      <ref role="31j7E3" node="67iSu2w8daj" resolve="Optional cell with all optional content" />
+      <node concept="1kHs8M" id="67iSu2wbmzr" role="3YaumF">
+        <property role="1kHs8z" value="foo" />
+      </node>
+    </node>
+    <node concept="3Ya08F" id="67iSu2w8day" role="31Pkr9">
+      <property role="TrG5h" value="Optional cell with no optional contecnt" />
+    </node>
   </node>
 </model>
 

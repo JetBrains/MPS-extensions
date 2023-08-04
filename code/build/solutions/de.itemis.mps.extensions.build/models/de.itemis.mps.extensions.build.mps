@@ -969,6 +969,25 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="7ap$5GXXiui" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXiuj" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXiuk" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiul" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXium" role="iGT6I">
+                <property role="2Ry0Am" value="jackson" />
+                <node concept="2Ry0Ak" id="7ap$5GXXiun" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="7ap$5GXXiuo" role="2Ry0An">
+                    <property role="2Ry0Am" value="com.fasterxml.jackson" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="31bAEZ0srEa" role="3989C9">
@@ -5850,6 +5869,22 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
           </node>
         </node>
+        <node concept="3rtmxn" id="7ap$5GXXiuq" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXiur" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXius" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiut" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXiuu" role="iGT6I">
+                <property role="2Ry0Am" value="linenumbers" />
+                <node concept="2Ry0Ak" id="7ap$5GXXiuv" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.linenumbers" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="6SVXTgIe8wD" role="3989C9">
@@ -7169,6 +7204,22 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
+        <node concept="3rtmxn" id="7ap$5GXXiux" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXiuy" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXiuz" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiu$" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXiu_" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="7ap$5GXXiuA" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.runtime" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5zr7Q_1BAoJ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -7349,6 +7400,22 @@
         <node concept="1SiIV0" id="6sRPuS7Gc7t" role="3bR37C">
           <node concept="3bR9La" id="6sRPuS7Gc7u" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KZG" resolve="jetbrains.mps.baseLanguage.closures" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7ap$5GXXivj" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXivk" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXivl" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXivm" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXivn" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7ap$5GXXivo" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -12002,6 +12069,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="7ap$5GXXiuC" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXiuD" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXiuE" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiuF" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXiuG" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="7ap$5GXXiuH" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.api" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5U8hsWC71Xh" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -12090,6 +12173,22 @@
         <node concept="1SiIV0" id="3DfUugBWDMF" role="3bR37C">
           <node concept="3bR9La" id="3DfUugBWDMG" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7ap$5GXXiuJ" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXiuK" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXiuL" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiuM" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXiuN" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="7ap$5GXXiuO" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modelix.model.mpsadapters" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -15208,6 +15307,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="7ap$5GXXivq" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXivr" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXivs" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXivt" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXivu" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7ap$5GXXivv" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo.annotated" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="3aF8hCvy3sT" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -15362,6 +15477,22 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="7ap$5GXXivx" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXivy" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXivz" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiv$" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXiv_" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7ap$5GXXivA" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.children" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="2UnEDPClLHk" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -15404,6 +15535,22 @@
         <node concept="1SiIV0" id="2UnEDPClLYf" role="3bR37C">
           <node concept="1Busua" id="2UnEDPClLYg" role="1SiIV1">
             <ref role="1Busuk" node="2UnEDPCh8Ac" resolve="de.itemis.model.simple.demo.property" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7ap$5GXXivC" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXivD" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXivE" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXivF" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXivG" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7ap$5GXXivH" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.collection" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -15455,6 +15602,22 @@
             <ref role="1Busuk" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
           </node>
         </node>
+        <node concept="3rtmxn" id="7ap$5GXXivJ" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXivK" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXivL" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXivM" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXivN" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7ap$5GXXivO" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.collection.keeper" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="2UnEDPClLQ$" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -15502,6 +15665,22 @@
         <node concept="1SiIV0" id="2UnEDPClMjW" role="3bR37C">
           <node concept="1Busua" id="2UnEDPClMjX" role="1SiIV1">
             <ref role="1Busuk" node="2UnEDPClLHk" resolve="de.itemis.model.simple.demo.collection" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7ap$5GXXivQ" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXivR" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXivS" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXivT" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXivU" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7ap$5GXXivV" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.simple.demo.reference" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -15705,6 +15884,22 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
           </node>
         </node>
+        <node concept="3rtmxn" id="7ap$5GXXiuQ" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXiuR" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXiuS" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiuT" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXiuU" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="7ap$5GXXiuV" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.simple.demo" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5Jy3PcPRnpY" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -15768,6 +15963,25 @@
             </node>
             <node concept="3qWCbU" id="5Jy3PcPRn$H" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7ap$5GXXiuX" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXiuY" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXiuZ" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiv0" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXiv1" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7ap$5GXXiv2" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.baselang" />
+                  <node concept="2Ry0Ak" id="7ap$5GXXiv3" role="2Ry0An">
+                    <property role="2Ry0Am" value="sandbox" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -15997,6 +16211,22 @@
         <node concept="1SiIV0" id="4LLXBGc6jcA" role="3bR37C">
           <node concept="3bR9La" id="4LLXBGc6jcB" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7ap$5GXXiv5" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXiv6" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXiv7" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXiv8" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXiv9" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="7ap$5GXXiva" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.model.merge.test.integration" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -16535,6 +16765,22 @@
         <node concept="1SiIV0" id="7g5FWGK3ZTa" role="3bR37C">
           <node concept="3bR9La" id="7g5FWGK3ZTb" role="1SiIV1">
             <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="7ap$5GXXivc" role="3bR31x">
+          <node concept="3LXTmp" id="7ap$5GXXivd" role="3rtmxm">
+            <node concept="3qWCbU" id="7ap$5GXXive" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="7ap$5GXXivf" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7ap$5GXXivg" role="iGT6I">
+                <property role="2Ry0Am" value="model-api" />
+                <node concept="2Ry0Ak" id="7ap$5GXXivh" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.org.modelix.model.mpsadapters" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

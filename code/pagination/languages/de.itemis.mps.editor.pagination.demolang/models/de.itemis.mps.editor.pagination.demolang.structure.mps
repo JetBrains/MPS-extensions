@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="1d4c" ref="r:7f43e4ab-5881-4ab5-a0b9-d27c04d2a2ce(de.itemis.mps.editor.pagination.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -101,6 +102,42 @@
       <property role="IQ2nx" value="2646108724982559787" />
       <property role="TrG5h" value="n" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2ehN1c7PD5X">
+    <property role="EcuMT" value="2563054045058470269" />
+    <property role="TrG5h" value="TestIPaginationContainer" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2ehN1c7PD61" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="2ehN1c7PD68" role="PzmwI">
+      <ref role="PrY4T" to="1d4c:2ehN1c7PCUo" resolve="IPaginationElementsProvider" />
+    </node>
+    <node concept="1TJgyj" id="2ehN1c7PFqt" role="1TKVEi">
+      <property role="IQ2ns" value="2563054045058479773" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="collectionOfNodes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2iSRtQtDrgE" resolve="ChildTest" />
+    </node>
+    <node concept="1irR5M" id="2ehN1c7QhMB" role="rwd14">
+      <property role="2$rrk2" value="2" />
+      <node concept="1irR9n" id="2ehN1c7QhMC" role="1irR9h">
+        <node concept="3PKj8D" id="2ehN1c7QhMD" role="3PKjn_">
+          <property role="3PKj8l" value="ccba84" />
+        </node>
+        <node concept="3PKj8D" id="2ehN1c7QhME" role="3PKjnB">
+          <property role="3PKj8l" value="8e825c" />
+        </node>
+      </node>
+      <node concept="1irPie" id="2ehN1c7QhMF" role="1irR9h">
+        <property role="1irPi9" value="T" />
+        <node concept="3PKj8D" id="2ehN1c7QhMG" role="3PKjny">
+          <property role="3PKj8l" value="000000" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

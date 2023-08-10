@@ -120,7 +120,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="Cjx$7E5xUS">
-    <ref role="13h7C2" to="1d4c:2iSRtQtBV$6" resolve="TestCellModel_Pagination" />
+    <ref role="13h7C2" to="1d4c:2iSRtQtBV$6" resolve="Paginate_CellModel" />
     <node concept="13i0hz" id="Cjx$7E5z5A" role="13h7CS">
       <property role="TrG5h" value="getPaginationCellContext" />
       <node concept="3Tm1VV" id="Cjx$7E5z5B" role="1B3o_S" />

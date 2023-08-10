@@ -33,7 +33,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="2iSRtQtCL7D">
-    <ref role="1XX52x" to="1d4c:2iSRtQtBV$6" resolve="TestCellModel_Pagination" />
+    <ref role="1XX52x" to="1d4c:2iSRtQtBV$6" resolve="Paginate_CellModel" />
     <node concept="3EZMnI" id="2iSRtQtCL7F" role="2wV5jI">
       <node concept="3F0ifn" id="2iSRtQtCL7M" role="3EZMnx">
         <property role="3F0ifm" value="p&gt;" />

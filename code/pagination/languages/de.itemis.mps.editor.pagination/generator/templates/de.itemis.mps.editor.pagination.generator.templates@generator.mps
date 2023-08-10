@@ -197,7 +197,7 @@
   <node concept="bUwia" id="2iSRtQtBJsp">
     <property role="TrG5h" value="main" />
     <node concept="3aamgX" id="2iSRtQtEE1D" role="3acgRq">
-      <ref role="30HIoZ" to="1d4c:2iSRtQtBV$6" resolve="TestCellModel_Pagination" />
+      <ref role="30HIoZ" to="1d4c:2iSRtQtBV$6" resolve="Paginate_CellModel" />
       <node concept="gft3U" id="2iSRtQtEE1J" role="1lVwrX">
         <node concept="3EZMnI" id="Cjx$7E5x2p" role="gfFT$">
           <node concept="2iRkQZ" id="Cjx$7E5x2r" role="2iSdaV" />
@@ -483,7 +483,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="Cjx$7E4HhC" role="3acgRq">
-      <ref role="30HIoZ" to="1d4c:2iSRtQtBV$6" resolve="TestCellModel_Pagination" />
+      <ref role="30HIoZ" to="1d4c:2iSRtQtBV$6" resolve="Paginate_CellModel" />
       <node concept="gft3U" id="Cjx$7E4HhD" role="1lVwrX">
         <node concept="3F0ifn" id="Cjx$7E4HhE" role="gfFT$">
           <property role="3F0ifm" value="test" />

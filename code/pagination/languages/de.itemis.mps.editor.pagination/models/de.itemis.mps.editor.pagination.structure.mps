@@ -41,7 +41,7 @@
   </registry>
   <node concept="1TIwiD" id="2iSRtQtBV$6">
     <property role="EcuMT" value="2646108724982167814" />
-    <property role="TrG5h" value="TestCellModel_Pagination" />
+    <property role="TrG5h" value="Paginate_CellModel" />
     <property role="34LRSv" value="test cell model" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="2iSRtQtCL7w" role="1TKVEi">

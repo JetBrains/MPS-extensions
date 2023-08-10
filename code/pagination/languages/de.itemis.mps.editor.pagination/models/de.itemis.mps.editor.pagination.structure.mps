@@ -49,7 +49,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="collectionToPaginate" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+      <ref role="20lvS9" to="tpc2:fBF2Hee" resolve="CellModel_RefNodeList" />
     </node>
   </node>
   <node concept="PlHQZ" id="2ehN1c7PCUo">

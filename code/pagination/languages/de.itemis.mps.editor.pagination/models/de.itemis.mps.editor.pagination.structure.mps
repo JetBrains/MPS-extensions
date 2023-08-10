@@ -44,6 +44,11 @@
     <property role="TrG5h" value="Paginate_CellModel" />
     <property role="34LRSv" value="test cell model" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyi" id="7nNR3ffl1KF" role="1TKVEl">
+      <property role="IQ2nx" value="8499379036858096683" />
+      <property role="TrG5h" value="pageSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyj" id="2iSRtQtCL7w" role="1TKVEi">
       <property role="IQ2ns" value="2646108724982387168" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

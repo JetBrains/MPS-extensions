@@ -207,7 +207,8 @@
       </concept>
     </language>
     <language id="232ef711-abb3-4b52-a3f2-e7987a748232" name="de.itemis.mps.editor.pagination">
-      <concept id="2646108724982167814" name="de.itemis.mps.editor.pagination.structure.TestCellModel_Pagination" flags="ng" index="2T9Qjr">
+      <concept id="2646108724982167814" name="de.itemis.mps.editor.pagination.structure.Paginate_CellModel" flags="ng" index="2T9Qjr">
+        <property id="8499379036858096683" name="pageSize" index="2UDW0o" />
         <child id="2646108724982387168" name="collectionToPaginate" index="2T6WKX" />
       </concept>
     </language>
@@ -267,6 +268,7 @@
       <node concept="3F0ifn" id="7DkC_coW0Cr" role="3EZMnx" />
       <node concept="2iRkQZ" id="7DkC_coW0Cd" role="2iSdaV" />
       <node concept="2T9Qjr" id="2iSRtQtFDc$" role="3EZMnx">
+        <property role="2UDW0o" value="10" />
         <node concept="3F2HdR" id="5Eb$n4F706f" role="2T6WKX">
           <ref role="1NtTu8" to="q71j:5Eb$n4F706a" resolve="collectionOfNodes" />
           <node concept="2iRkQZ" id="5Eb$n4F706i" role="2czzBx" />
@@ -1077,6 +1079,7 @@
       <node concept="3F0ifn" id="2ehN1c7QbBK" role="3EZMnx" />
       <node concept="2iRkQZ" id="2ehN1c7QbBL" role="2iSdaV" />
       <node concept="2T9Qjr" id="2ehN1c7QbBM" role="3EZMnx">
+        <property role="2UDW0o" value="10" />
         <node concept="3F2HdR" id="2ehN1c7QbBN" role="2T6WKX">
           <ref role="1NtTu8" to="q71j:2ehN1c7PFqt" resolve="collectionOfNodes" />
           <node concept="2iRkQZ" id="2ehN1c7QbBO" role="2czzBx" />

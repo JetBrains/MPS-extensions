@@ -3,6 +3,7 @@
   <models>
     <modelRoot contentPath="${platform_lib}" type="java_classes">
       <sourceRoot location="app.jar" />
+      <sourceRoot location="lib.jar" />
     </modelRoot>
   </models>
   <facets>

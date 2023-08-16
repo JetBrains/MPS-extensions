@@ -44,7 +44,9 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 ext.dependencyRepositories = [
-        'https://artifacts.itemis.cloud/repository/maven-mps/'
+        'https://artifacts.itemis.cloud/repository/maven-mps/',
+//        'https://projects.itemis.de/nexus/content/repositories/mbeddr',
+//        'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
 ]
 // Dependency versions
 

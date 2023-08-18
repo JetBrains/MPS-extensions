@@ -108,6 +108,7 @@
       <modulePath path="$PROJECT_DIR$/pagination/languages/de.itemis.mps.editor.pagination.demolang/de.itemis.mps.editor.pagination.demolang.mpl" folder="pagination" />
       <modulePath path="$PROJECT_DIR$/pagination/languages/de.itemis.mps.editor.pagination/de.itemis.mps.editor.pagination.mpl" folder="pagination" />
       <modulePath path="$PROJECT_DIR$/pagination/solutions/de.itemis.mps.editor.pagination.demolang.sandbox/de.itemis.mps.editor.pagination.demolang.sandbox.msd" folder="pagination" />
+      <modulePath path="$PROJECT_DIR$/pagination/solutions/de.itemis.mps.editor.pagination.test/de.itemis.mps.editor.pagination.test.msd" folder="pagination" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextflow/com.dslfoundry.plaintextflow.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.nestedlist/com.dslfoundry.plaintextgen.example.nestedlist.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.testlang/com.dslfoundry.plaintextgen.example.testlang.mpl" folder="plaintextgen" />

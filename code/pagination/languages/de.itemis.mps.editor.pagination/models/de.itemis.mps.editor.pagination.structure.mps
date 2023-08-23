@@ -42,7 +42,7 @@
   <node concept="1TIwiD" id="2iSRtQtBV$6">
     <property role="EcuMT" value="2646108724982167814" />
     <property role="TrG5h" value="Paginate_CellModel" />
-    <property role="34LRSv" value="test cell model" />
+    <property role="34LRSv" value="paginate" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyi" id="7nNR3ffl1KF" role="1TKVEl">
       <property role="IQ2nx" value="8499379036858096683" />

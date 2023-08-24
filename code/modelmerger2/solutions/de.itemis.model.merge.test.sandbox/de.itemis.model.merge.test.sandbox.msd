@@ -12,7 +12,7 @@
   </facets>
   <sourcePath />
   <languageVersions>
-    <language slang="l:f04d029d-250e-4e43-8c30-28763b47bc55:de.itemis.model.merge.test" version="0" />
+    <language slang="l:f04d029d-250e-4e43-8c30-28763b47bc55:de.itemis.model.merge.test.lang" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>

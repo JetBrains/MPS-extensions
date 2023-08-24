@@ -1,17 +1,6 @@
-//will pull the groovy classes/types from nexus to the classpath
-buildscript {
-    repositories {
-        mavenLocal()
-        maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
-        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
-    }
-    dependencies {
-        classpath('de.itemis.mps:mps-gradle-plugin:1.7+')
-    }
-}
-
 plugins {
-   id "com.github.breadmoirai.github-release" version "2.4.1"
+    id 'de.itemis.mps.gradle.common' version '1.13.+'
+    id "com.github.breadmoirai.github-release" version "2.4.1"
 }
 
 apply plugin: 'maven-publish'
@@ -74,9 +63,7 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 ext.dependencyRepositories = [
-        'https://artifacts.itemis.cloud/repository/maven-mps/',
-        'https://projects.itemis.de/nexus/content/repositories/mbeddr',
-        'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots'
+        'https://artifacts.itemis.cloud/repository/maven-mps/'
 ]
 // Dependency versions
 
@@ -105,7 +92,7 @@ if (ciBuild) {
     println "##teamcity[buildNumber '${version}']"
 } else {
     println "Local build detected, version will be SNAPSHOT"
-    version = "2020.3-SNAPSHOT"
+    version = ext.mpsMajor + "." + ext.mpsMinor + "-SNAPSHOT"
 }
 
 def userHome = System.properties['user.home']
@@ -194,7 +181,7 @@ modelcheck {
     maxHeap = "4G"
 }
 
-afterEvaluate {  project -> 
+afterEvaluate {  project ->
     if(project.hasProperty("run_modelcheck")) {
         check.configure {
             dependsOn tasks.named('checkmodels')

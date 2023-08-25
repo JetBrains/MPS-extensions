@@ -19,6 +19,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -3202,6 +3203,311 @@
     <node concept="3Tm1VV" id="5K4KrT2qePY" role="1B3o_S" />
     <node concept="3uibUv" id="5K4KrT2qeQX" role="EKbjA">
       <ref role="3uigEE" to="hyam:~ActionListener" resolve="ActionListener" />
+    </node>
+  </node>
+  <node concept="312cEu" id="5K4KrT2tArD">
+    <property role="TrG5h" value="PreviousPageJButton" />
+    <node concept="2tJIrI" id="5K4KrT2vpMn" role="jymVt" />
+    <node concept="3clFbW" id="5K4KrT2tECP" role="jymVt">
+      <node concept="3cqZAl" id="5K4KrT2tECQ" role="3clF45" />
+      <node concept="3clFbS" id="5K4KrT2tECS" role="3clF47">
+        <node concept="XkiVB" id="5K4KrT2vn4b" role="3cqZAp">
+          <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
+          <node concept="Xl_RD" id="5K4KrT2tJeQ" role="37wK5m">
+            <property role="Xl_RC" value="&lt;previous" />
+          </node>
+          <node concept="37vLTw" id="5K4KrT2vnH0" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2tFqe" resolve="node" />
+          </node>
+          <node concept="37vLTw" id="5K4KrT2voaw" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2tFr0" resolve="link" />
+          </node>
+          <node concept="37vLTw" id="5K4KrT2vpDr" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2tF$9" resolve="pageSize" />
+          </node>
+          <node concept="37vLTw" id="5K4KrT2voGb" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2tGe2" resolve="editorContext" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5K4KrT2tEum" role="1B3o_S" />
+      <node concept="37vLTG" id="5K4KrT2tFqe" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5K4KrT2tFqd" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2tFr0" role="3clF46">
+        <property role="TrG5h" value="link" />
+        <node concept="3uibUv" id="5K4KrT2tFzW" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K4KrT2tF$9" role="3clF46">
+        <property role="TrG5h" value="pageSize" />
+        <node concept="10Oyi0" id="5K4KrT2tG5p" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2tGe2" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <node concept="3uibUv" id="5K4KrT2tGn0" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5K4KrT2vlle" role="jymVt" />
+    <node concept="3Tm1VV" id="5K4KrT2tArE" role="1B3o_S" />
+    <node concept="3uibUv" id="5K4KrT2vkuj" role="1zkMxy">
+      <ref role="3uigEE" node="5K4KrT2v0$1" resolve="ChangePageJButton" />
+    </node>
+    <node concept="3clFb_" id="5K4KrT2vkSb" role="jymVt">
+      <property role="TrG5h" value="getActionListener" />
+      <node concept="37vLTG" id="5K4KrT2vkSc" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5K4KrT2vkSd" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2vkSe" role="3clF46">
+        <property role="TrG5h" value="link" />
+        <node concept="3uibUv" id="5K4KrT2vkSf" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K4KrT2vkSg" role="3clF46">
+        <property role="TrG5h" value="pageSize" />
+        <node concept="10Oyi0" id="5K4KrT2vkSh" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2vkSi" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <node concept="3uibUv" id="5K4KrT2vkSj" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5K4KrT2vkSl" role="1B3o_S" />
+      <node concept="3uibUv" id="5K4KrT2vkSm" role="3clF45">
+        <ref role="3uigEE" to="hyam:~ActionListener" resolve="ActionListener" />
+      </node>
+      <node concept="3clFbS" id="5K4KrT2vkSn" role="3clF47">
+        <node concept="3clFbF" id="5K4KrT2vl7I" role="3cqZAp">
+          <node concept="2ShNRf" id="5K4KrT2tKy1" role="3clFbG">
+            <node concept="1pGfFk" id="5K4KrT2tLnC" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" node="5K4KrT2oBj1" resolve="PreviousPageActionListener" />
+              <node concept="37vLTw" id="5K4KrT2tLVH" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2vkSc" resolve="node" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2tMxG" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2vkSe" resolve="link" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2tN7P" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2vkSg" resolve="pageSize" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2tNIc" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2vkSi" resolve="editorContext" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5K4KrT2vkSo" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="5K4KrT2uIGH">
+    <property role="TrG5h" value="NextPageJButton" />
+    <node concept="2tJIrI" id="5K4KrT2vdJ8" role="jymVt" />
+    <node concept="3clFbW" id="5K4KrT2uIGI" role="jymVt">
+      <node concept="3cqZAl" id="5K4KrT2uIGJ" role="3clF45" />
+      <node concept="3clFbS" id="5K4KrT2uIGK" role="3clF47">
+        <node concept="XkiVB" id="5K4KrT2vbRO" role="3cqZAp">
+          <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
+          <node concept="Xl_RD" id="5K4KrT2vjKW" role="37wK5m">
+            <property role="Xl_RC" value="next&gt;" />
+          </node>
+          <node concept="37vLTw" id="5K4KrT2vcsW" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2uIGW" resolve="node" />
+          </node>
+          <node concept="37vLTw" id="5K4KrT2vcS7" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2uIGY" resolve="link" />
+          </node>
+          <node concept="37vLTw" id="5K4KrT2vdit" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2uIH0" resolve="pageSize" />
+          </node>
+          <node concept="37vLTw" id="5K4KrT2vdHX" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2uIH2" resolve="editorContext" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5K4KrT2uIGV" role="1B3o_S" />
+      <node concept="37vLTG" id="5K4KrT2uIGW" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5K4KrT2uIGX" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2uIGY" role="3clF46">
+        <property role="TrG5h" value="link" />
+        <node concept="3uibUv" id="5K4KrT2uIGZ" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K4KrT2uIH0" role="3clF46">
+        <property role="TrG5h" value="pageSize" />
+        <node concept="10Oyi0" id="5K4KrT2uIH1" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2uIH2" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <node concept="3uibUv" id="5K4KrT2uIH3" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5K4KrT2vjid" role="jymVt" />
+    <node concept="3Tm1VV" id="5K4KrT2uIH4" role="1B3o_S" />
+    <node concept="3uibUv" id="5K4KrT2vaXe" role="1zkMxy">
+      <ref role="3uigEE" node="5K4KrT2v0$1" resolve="ChangePageJButton" />
+    </node>
+    <node concept="3clFb_" id="5K4KrT2vdLF" role="jymVt">
+      <property role="TrG5h" value="getActionListener" />
+      <node concept="37vLTG" id="5K4KrT2vdLG" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5K4KrT2vdLH" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2vdLI" role="3clF46">
+        <property role="TrG5h" value="link" />
+        <node concept="3uibUv" id="5K4KrT2vdLJ" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K4KrT2vdLK" role="3clF46">
+        <property role="TrG5h" value="pageSize" />
+        <node concept="10Oyi0" id="5K4KrT2vdLL" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2vdLM" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <node concept="3uibUv" id="5K4KrT2vdLN" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5K4KrT2vdLP" role="1B3o_S" />
+      <node concept="3uibUv" id="5K4KrT2vdLQ" role="3clF45">
+        <ref role="3uigEE" to="hyam:~ActionListener" resolve="ActionListener" />
+      </node>
+      <node concept="3clFbS" id="5K4KrT2vdLR" role="3clF47">
+        <node concept="3clFbF" id="5K4KrT2velY" role="3cqZAp">
+          <node concept="2ShNRf" id="5K4KrT2velW" role="3clFbG">
+            <node concept="1pGfFk" id="5K4KrT2vf36" role="2ShVmc">
+              <property role="373rjd" value="true" />
+              <ref role="37wK5l" node="5K4KrT2pDgH" resolve="NextPageActionListener" />
+              <node concept="37vLTw" id="5K4KrT2vfvK" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2vdLG" resolve="node" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2vg0M" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2vdLI" resolve="link" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2vgwB" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2vdLK" resolve="pageSize" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2vh03" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2vdLM" resolve="editorContext" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5K4KrT2vdLS" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="5K4KrT2v0$1">
+    <property role="TrG5h" value="ChangePageJButton" />
+    <property role="1sVAO0" value="true" />
+    <node concept="2tJIrI" id="5K4KrT2v29V" role="jymVt" />
+    <node concept="3clFbW" id="5K4KrT2v2$W" role="jymVt">
+      <node concept="3cqZAl" id="5K4KrT2v2$X" role="3clF45" />
+      <node concept="3clFbS" id="5K4KrT2v2$Z" role="3clF47">
+        <node concept="XkiVB" id="5K4KrT2v5JS" role="3cqZAp">
+          <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
+          <node concept="37vLTw" id="5K4KrT2vIiz" role="37wK5m">
+            <ref role="3cqZAo" node="5K4KrT2vFk_" resolve="label" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5K4KrT2v7eG" role="3cqZAp">
+          <node concept="1rXfSq" id="5K4KrT2v7eE" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~AbstractButton.addActionListener(java.awt.event.ActionListener)" resolve="addActionListener" />
+            <node concept="1rXfSq" id="5K4KrT2v7Pc" role="37wK5m">
+              <ref role="37wK5l" node="5K4KrT2v5fQ" resolve="getActionListener" />
+              <node concept="37vLTw" id="5K4KrT2v8ra" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2v2Sk" resolve="node" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2v9dJ" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2v2Sm" resolve="link" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2v9RF" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2v2So" resolve="pageSize" />
+              </node>
+              <node concept="37vLTw" id="5K4KrT2vaxO" role="37wK5m">
+                <ref role="3cqZAo" node="5K4KrT2v2Sq" resolve="editorContext" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5K4KrT2v2rk" role="1B3o_S" />
+      <node concept="37vLTG" id="5K4KrT2vFk_" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="17QB3L" id="5K4KrT2vGje" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2v2Sk" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5K4KrT2v2Sl" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2v2Sm" role="3clF46">
+        <property role="TrG5h" value="link" />
+        <node concept="3uibUv" id="5K4KrT2v2Sn" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K4KrT2v2So" role="3clF46">
+        <property role="TrG5h" value="pageSize" />
+        <node concept="10Oyi0" id="5K4KrT2v2Sp" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2v2Sq" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <node concept="3uibUv" id="5K4KrT2v2Sr" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5K4KrT2v345" role="jymVt" />
+    <node concept="3clFb_" id="5K4KrT2v5fQ" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getActionListener" />
+      <node concept="37vLTG" id="5K4KrT2v5jT" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="5K4KrT2v5jU" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2v5jV" role="3clF46">
+        <property role="TrG5h" value="link" />
+        <node concept="3uibUv" id="5K4KrT2v5jW" role="1tU5fm">
+          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K4KrT2v5jX" role="3clF46">
+        <property role="TrG5h" value="pageSize" />
+        <node concept="10Oyi0" id="5K4KrT2v5jY" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5K4KrT2v5jZ" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <node concept="3uibUv" id="5K4KrT2v5k0" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5K4KrT2v5fT" role="3clF47" />
+      <node concept="3Tm1VV" id="5K4KrT2v4Qg" role="1B3o_S" />
+      <node concept="3uibUv" id="5K4KrT2v5cU" role="3clF45">
+        <ref role="3uigEE" to="hyam:~ActionListener" resolve="ActionListener" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="5K4KrT2v0$2" role="1B3o_S" />
+    <node concept="3uibUv" id="5K4KrT2v0Bf" role="1zkMxy">
+      <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
     </node>
   </node>
 </model>

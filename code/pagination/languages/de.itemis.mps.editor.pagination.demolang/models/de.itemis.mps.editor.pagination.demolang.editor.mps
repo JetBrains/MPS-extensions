@@ -92,6 +92,7 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
+      <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -194,9 +195,10 @@
     </language>
     <language id="232ef711-abb3-4b52-a3f2-e7987a748232" name="de.itemis.mps.editor.pagination">
       <concept id="2646108724982167814" name="de.itemis.mps.editor.pagination.structure.Paginate_CellModel" flags="ng" index="2T9Qjr">
-        <property id="8499379036858096683" name="pageSize" index="2UDW0o" />
         <child id="2646108724982387168" name="collectionToPaginate" index="2T6WKX" />
+        <child id="3596385240284637673" name="pageSize" index="1ztOiV" />
       </concept>
+      <concept id="3596385240284619805" name="de.itemis.mps.editor.pagination.structure.QueryFunction_NodeInt" flags="ig" index="1ztS_f" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="7504436213544206332" name="jetbrains.mps.lang.smodel.structure.Node_ContainingLinkOperation" flags="nn" index="2NL2c5" />
@@ -206,6 +208,9 @@
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="2285351689971718149" name="jetbrains.mps.lang.smodel.structure.AggregationLinkType" flags="ig" index="3GbmH5" />
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -214,6 +219,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
     </language>
   </registry>
   <node concept="24kQdi" id="2iSRtQtBZHc">
@@ -229,10 +237,29 @@
       <node concept="3F0ifn" id="7DkC_coW0Cr" role="3EZMnx" />
       <node concept="2iRkQZ" id="7DkC_coW0Cd" role="2iSdaV" />
       <node concept="2T9Qjr" id="2iSRtQtFDc$" role="3EZMnx">
-        <property role="2UDW0o" value="10" />
         <node concept="3F2HdR" id="5Eb$n4F706f" role="2T6WKX">
           <ref role="1NtTu8" to="q71j:5Eb$n4F706a" resolve="collectionOfNodes" />
           <node concept="2iRkQZ" id="5Eb$n4F706i" role="2czzBx" />
+        </node>
+        <node concept="1ztS_f" id="37CVl9iC1w6" role="1ztOiV">
+          <node concept="3clFbS" id="37CVl9iC1w7" role="2VODD2">
+            <node concept="3clFbF" id="Q7cXvkuj$1" role="3cqZAp">
+              <node concept="FJ1c_" id="Q7cXvkuqqD" role="3clFbG">
+                <node concept="3cmrfG" id="Q7cXvkuqqT" role="3uHU7w">
+                  <property role="3cmrfH" value="100" />
+                </node>
+                <node concept="2OqwBi" id="Q7cXvkulQK" role="3uHU7B">
+                  <node concept="2OqwBi" id="Q7cXvkujRQ" role="2Oq$k0">
+                    <node concept="pncrf" id="Q7cXvkuj$0" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="Q7cXvkuke3" role="2OqNvi">
+                      <ref role="3TtcxE" to="q71j:5Eb$n4F706a" resolve="collectionOfNodes" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="Q7cXvkunxO" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

@@ -642,8 +642,13 @@
                 <node concept="1pGfFk" id="4J8HQTrmGkk" role="2ShVmc">
                   <property role="373rjd" value="true" />
                   <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
-                  <node concept="Xl_RD" id="4J8HQTrmGMP" role="37wK5m">
-                    <property role="Xl_RC" value="the page size must be positive" />
+                  <node concept="3cpWs3" id="Q7cXvkyYtM" role="37wK5m">
+                    <node concept="37vLTw" id="Q7cXvkyZe6" role="3uHU7w">
+                      <ref role="3cqZAo" node="4J8HQTrm5h9" resolve="pageSize" />
+                    </node>
+                    <node concept="Xl_RD" id="4J8HQTrmGMP" role="3uHU7B">
+                      <property role="Xl_RC" value="The page size must be positive, given " />
+                    </node>
                   </node>
                 </node>
               </node>

@@ -14,6 +14,8 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="c8le" ref="r:ac9cdd08-0ff5-4dc4-948b-9b9a991347d4(de.itemis.mps.editor.pagination.behavior)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="9rx" ref="r:56b5798b-fb73-40ab-987e-695e19f87b03(de.itemis.mps.editor.pagination.runtime.pages)" />
+    <import index="vd2q" ref="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
@@ -405,7 +407,7 @@
                     <node concept="2ShNRf" id="5K4KrT2tQ4Q" role="3clFbG">
                       <node concept="1pGfFk" id="5K4KrT2tQCK" role="2ShVmc">
                         <property role="373rjd" value="true" />
-                        <ref role="37wK5l" to="c8le:5K4KrT2tECP" resolve="PreviousPageJButton" />
+                        <ref role="37wK5l" to="vd2q:5K4KrT2tECP" resolve="PreviousPageJButton" />
                         <node concept="pncrf" id="5K4KrT2tR6s" role="37wK5m" />
                         <node concept="37vLTw" id="5K4KrT2tR$q" role="37wK5m">
                           <ref role="3cqZAo" node="5K4KrT2tOiu" resolve="link" />
@@ -562,7 +564,7 @@
                           <node concept="2ShNRf" id="4gyjVBaN$SK" role="2Oq$k0">
                             <node concept="1pGfFk" id="4gyjVBaN_uB" role="2ShVmc">
                               <property role="373rjd" value="true" />
-                              <ref role="37wK5l" to="c8le:4J8HQTrrP_e" resolve="PagesUserObject" />
+                              <ref role="37wK5l" to="9rx:4J8HQTrrP_e" resolve="PagesUserObject" />
                               <node concept="pncrf" id="4gyjVBaNA21" role="37wK5m" />
                               <node concept="37vLTw" id="4gyjVBaNA6_" role="37wK5m">
                                 <ref role="3cqZAo" node="4gyjVBaNzPD" resolve="link" />
@@ -573,7 +575,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="4gyjVBaNBKy" role="2OqNvi">
-                            <ref role="37wK5l" to="c8le:4J8HQTrsD5k" resolve="getCurrentPage" />
+                            <ref role="37wK5l" to="9rx:4J8HQTrsD5k" resolve="getCurrentPage" />
                           </node>
                         </node>
                       </node>
@@ -728,7 +730,7 @@
                             <node concept="2ShNRf" id="4gyjVBaNXHA" role="2Oq$k0">
                               <node concept="1pGfFk" id="4gyjVBaNXHB" role="2ShVmc">
                                 <property role="373rjd" value="true" />
-                                <ref role="37wK5l" to="c8le:4J8HQTrrP_e" resolve="PagesUserObject" />
+                                <ref role="37wK5l" to="9rx:4J8HQTrrP_e" resolve="PagesUserObject" />
                                 <node concept="pncrf" id="4gyjVBaNXHC" role="37wK5m" />
                                 <node concept="37vLTw" id="4gyjVBaNXHD" role="37wK5m">
                                   <ref role="3cqZAo" node="4gyjVBaNRa1" resolve="link" />
@@ -739,11 +741,11 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="4gyjVBaNXHF" role="2OqNvi">
-                              <ref role="37wK5l" to="c8le:4J8HQTrse7p" resolve="getPages" />
+                              <ref role="37wK5l" to="9rx:4J8HQTrse7p" resolve="getPages" />
                             </node>
                           </node>
                           <node concept="liA8E" id="4gyjVBaNXHG" role="2OqNvi">
-                            <ref role="37wK5l" to="c8le:4J8HQTrnOp_" resolve="size" />
+                            <ref role="37wK5l" to="9rx:4J8HQTrnOp_" resolve="size" />
                           </node>
                         </node>
                       </node>
@@ -888,7 +890,7 @@
                     <node concept="2ShNRf" id="5K4KrT2uMb6" role="3clFbG">
                       <node concept="1pGfFk" id="5K4KrT2uMnN" role="2ShVmc">
                         <property role="373rjd" value="true" />
-                        <ref role="37wK5l" to="c8le:5K4KrT2uIGI" resolve="NextPageJButton" />
+                        <ref role="37wK5l" to="vd2q:5K4KrT2uIGI" resolve="NextPageJButton" />
                         <node concept="pncrf" id="5K4KrT2uMPv" role="37wK5m" />
                         <node concept="37vLTw" id="5K4KrT2uNn9" role="37wK5m">
                           <ref role="3cqZAo" node="5K4KrT2uK0J" resolve="link" />
@@ -1109,13 +1111,13 @@
                     </node>
                     <node concept="2OqwBi" id="4gyjVBaOYOd" role="3uHU7B">
                       <node concept="liA8E" id="4gyjVBaP00m" role="2OqNvi">
-                        <ref role="37wK5l" to="c8le:4J8HQTrs1bC" resolve="contains" />
+                        <ref role="37wK5l" to="9rx:4J8HQTrs1bC" resolve="contains" />
                         <node concept="12_Ws6" id="4gyjVBaP0t8" role="37wK5m" />
                       </node>
                       <node concept="2ShNRf" id="4gyjVBaT_Tw" role="2Oq$k0">
                         <node concept="1pGfFk" id="4gyjVBaTABU" role="2ShVmc">
                           <property role="373rjd" value="true" />
-                          <ref role="37wK5l" to="c8le:4J8HQTrrP_e" resolve="PagesUserObject" />
+                          <ref role="37wK5l" to="9rx:4J8HQTrrP_e" resolve="PagesUserObject" />
                           <node concept="2OqwBi" id="4gyjVBaSFKZ" role="37wK5m">
                             <node concept="12_Ws6" id="4gyjVBaSFL0" role="2Oq$k0" />
                             <node concept="1mfA1w" id="4gyjVBaSFL1" role="2OqNvi" />

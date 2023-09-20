@@ -24,6 +24,9 @@
         </facet>
       </facets>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">b8eca104-6d07-43d6-9bd7-4c8692c82707(de.itemis.mps.editor.pagination.runtime)</dependency>
+      </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
         <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -58,6 +61,7 @@
         <module reference="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" version="0" />
         <module reference="232ef711-abb3-4b52-a3f2-e7987a748232(de.itemis.mps.editor.pagination)" version="0" />
         <module reference="037732ac-3a3f-400a-8c94-3dc0161526dd(de.itemis.mps.editor.pagination.generator)" version="0" />
+        <module reference="b8eca104-6d07-43d6-9bd7-4c8692c82707(de.itemis.mps.editor.pagination.runtime)" version="0" />
         <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" version="0" />
         <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />
@@ -83,6 +87,7 @@
   <dependencies>
     <dependency reexport="false">18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
+    <dependency reexport="false">b8eca104-6d07-43d6-9bd7-4c8692c82707(de.itemis.mps.editor.pagination.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -126,6 +131,7 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
     <module reference="232ef711-abb3-4b52-a3f2-e7987a748232(de.itemis.mps.editor.pagination)" version="0" />
+    <module reference="b8eca104-6d07-43d6-9bd7-4c8692c82707(de.itemis.mps.editor.pagination.runtime)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" version="0" />
     <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />

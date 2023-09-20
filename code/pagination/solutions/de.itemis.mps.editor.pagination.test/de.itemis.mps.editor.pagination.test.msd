@@ -13,6 +13,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">232ef711-abb3-4b52-a3f2-e7987a748232(de.itemis.mps.editor.pagination)</dependency>
+    <dependency reexport="false">b8eca104-6d07-43d6-9bd7-4c8692c82707(de.itemis.mps.editor.pagination.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -33,6 +34,7 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="232ef711-abb3-4b52-a3f2-e7987a748232(de.itemis.mps.editor.pagination)" version="0" />
+    <module reference="b8eca104-6d07-43d6-9bd7-4c8692c82707(de.itemis.mps.editor.pagination.runtime)" version="0" />
     <module reference="03b57d96-6e28-44ba-a68b-4cc264810a54(de.itemis.mps.editor.pagination.test)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" version="0" />

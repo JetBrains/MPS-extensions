@@ -8302,6 +8302,35 @@
         </node>
       </node>
     </node>
+    <node concept="m$_wf" id="6lSuB9eYUwh" role="3989C9">
+      <property role="m$_wk" value="de.itemis.mps.editor.pagination" />
+      <node concept="3_J27D" id="6lSuB9eYUwj" role="m$_yQ">
+        <node concept="3Mxwew" id="6lSuB9eYWGd" role="3MwsjC">
+          <property role="3MwjfP" value="MPS Editor pagination" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6lSuB9eYUwl" role="m_cZH">
+        <node concept="3Mxwew" id="6lSuB9eYWGf" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.mps.editor.pagination" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6lSuB9eYUwn" role="m$_w8">
+        <node concept="3Mxwey" id="6lSuB9eYXjx" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6lSuB9eYWMM" role="3s6cr7">
+        <node concept="3Mxwew" id="6lSuB9eYWZU" role="3MwsjC">
+          <property role="3MwjfP" value="Adds supports for displaying large collections in a paginated view" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="6lSuB9eYXq4" role="m$_yh">
+        <ref role="m$f5T" node="6lSuB9eYLaj" resolve="de.itemis.mps.editor.pagination" />
+      </node>
+      <node concept="m$_yC" id="6lSuB9eYYul" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+    </node>
     <node concept="2G$12M" id="6lSuB9eYLaj" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.editor.pagination" />
       <node concept="1E1JtD" id="6lSuB9eYMIU" role="2G$12L">
@@ -8484,35 +8513,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="m$_wf" id="6lSuB9eYUwh" role="3989C9">
-      <property role="m$_wk" value="de.itemis.mps.editor.pagination" />
-      <node concept="3_J27D" id="6lSuB9eYUwj" role="m$_yQ">
-        <node concept="3Mxwew" id="6lSuB9eYWGd" role="3MwsjC">
-          <property role="3MwjfP" value="MPS Editor pagination" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="6lSuB9eYUwl" role="m_cZH">
-        <node concept="3Mxwew" id="6lSuB9eYWGf" role="3MwsjC">
-          <property role="3MwjfP" value="de.itemis.mps.editor.pagination" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="6lSuB9eYUwn" role="m$_w8">
-        <node concept="3Mxwey" id="6lSuB9eYXjx" role="3MwsjC">
-          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="6lSuB9eYWMM" role="3s6cr7">
-        <node concept="3Mxwew" id="6lSuB9eYWZU" role="3MwsjC">
-          <property role="3MwjfP" value="Adds supports for displaying large collections in a paginated view" />
-        </node>
-      </node>
-      <node concept="m$f5U" id="6lSuB9eYXq4" role="m$_yh">
-        <ref role="m$f5T" node="6lSuB9eYLaj" resolve="de.itemis.mps.editor.pagination" />
-      </node>
-      <node concept="m$_yC" id="6lSuB9eYYul" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
     </node>
     <node concept="m$_wf" id="2NTGYE$JTH6" role="3989C9">

@@ -17,6 +17,7 @@
     <import index="9rx" ref="r:56b5798b-fb73-40ab-987e-695e19f87b03(de.itemis.mps.editor.pagination.runtime.pages)" />
     <import index="vd2q" ref="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="tp2u" ref="r:00000000-0000-4000-0000-011c8959032a(jetbrains.mps.baseLanguage.collections.editor)" implicit="true" />
@@ -99,6 +100,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -330,12 +334,19 @@
                       <property role="TrG5h" value="pageSize" />
                       <property role="3TUv4t" value="true" />
                       <node concept="10Oyi0" id="5K4KrT2tOiT" role="1tU5fm" />
-                      <node concept="2Sg_IR" id="Q7cXvkr0SG" role="33vP2m">
-                        <node concept="37vLTw" id="Q7cXvkr0SH" role="2SgG2M">
-                          <ref role="3cqZAo" node="Q7cXvkqCsx" resolve="pageSizeFn" />
+                      <node concept="2YIFZM" id="1ndn0Iao4kW" role="33vP2m">
+                        <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
+                        <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                        <node concept="3cmrfG" id="1ndn0Iao4kZ" role="37wK5m">
+                          <property role="3cmrfH" value="1" />
                         </node>
-                        <node concept="pncrf" id="Q7cXvktpio" role="2SgHGx" />
-                        <node concept="1Q80Hx" id="Q7cXvktpvx" role="2SgHGx" />
+                        <node concept="2Sg_IR" id="Q7cXvkr0SG" role="37wK5m">
+                          <node concept="37vLTw" id="Q7cXvkr0SH" role="2SgG2M">
+                            <ref role="3cqZAo" node="Q7cXvkqCsx" resolve="pageSizeFn" />
+                          </node>
+                          <node concept="pncrf" id="Q7cXvktpio" role="2SgHGx" />
+                          <node concept="1Q80Hx" id="Q7cXvktpvx" role="2SgHGx" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -482,12 +493,19 @@
                         <property role="TrG5h" value="pageSize" />
                         <property role="3TUv4t" value="true" />
                         <node concept="10Oyi0" id="Q7cXvktqAL" role="1tU5fm" />
-                        <node concept="2Sg_IR" id="Q7cXvktqAM" role="33vP2m">
-                          <node concept="37vLTw" id="Q7cXvktqAN" role="2SgG2M">
-                            <ref role="3cqZAo" node="Q7cXvktqAp" resolve="pageSizeFn" />
+                        <node concept="2YIFZM" id="1ndn0Iao5F1" role="33vP2m">
+                          <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                          <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
+                          <node concept="3cmrfG" id="1ndn0Iao5F2" role="37wK5m">
+                            <property role="3cmrfH" value="1" />
                           </node>
-                          <node concept="pncrf" id="Q7cXvktqAO" role="2SgHGx" />
-                          <node concept="1Q80Hx" id="Q7cXvktqAP" role="2SgHGx" />
+                          <node concept="2Sg_IR" id="1ndn0Iao5F3" role="37wK5m">
+                            <node concept="37vLTw" id="1ndn0Iao5F4" role="2SgG2M">
+                              <ref role="3cqZAo" node="Q7cXvktqAp" resolve="pageSizeFn" />
+                            </node>
+                            <node concept="pncrf" id="1ndn0Iao5F5" role="2SgHGx" />
+                            <node concept="1Q80Hx" id="1ndn0Iao5F6" role="2SgHGx" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -647,12 +665,19 @@
                         <property role="TrG5h" value="pageSize" />
                         <property role="3TUv4t" value="true" />
                         <node concept="10Oyi0" id="Q7cXvkttan" role="1tU5fm" />
-                        <node concept="2Sg_IR" id="Q7cXvkttao" role="33vP2m">
-                          <node concept="37vLTw" id="Q7cXvkttap" role="2SgG2M">
-                            <ref role="3cqZAo" node="Q7cXvktt9Z" resolve="pageSizeFn" />
+                        <node concept="2YIFZM" id="1ndn0Iao6CE" role="33vP2m">
+                          <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                          <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
+                          <node concept="3cmrfG" id="1ndn0Iao6CF" role="37wK5m">
+                            <property role="3cmrfH" value="1" />
                           </node>
-                          <node concept="pncrf" id="Q7cXvkttaq" role="2SgHGx" />
-                          <node concept="1Q80Hx" id="Q7cXvkttar" role="2SgHGx" />
+                          <node concept="2Sg_IR" id="1ndn0Iao6CG" role="37wK5m">
+                            <node concept="37vLTw" id="1ndn0Iao6CH" role="2SgG2M">
+                              <ref role="3cqZAo" node="Q7cXvktt9Z" resolve="pageSizeFn" />
+                            </node>
+                            <node concept="pncrf" id="1ndn0Iao6CI" role="2SgHGx" />
+                            <node concept="1Q80Hx" id="1ndn0Iao6CJ" role="2SgHGx" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -813,12 +838,19 @@
                       <property role="TrG5h" value="pageSize" />
                       <property role="3TUv4t" value="true" />
                       <node concept="10Oyi0" id="Q7cXvktuFX" role="1tU5fm" />
-                      <node concept="2Sg_IR" id="Q7cXvktuFY" role="33vP2m">
-                        <node concept="37vLTw" id="Q7cXvktuFZ" role="2SgG2M">
-                          <ref role="3cqZAo" node="Q7cXvktuF_" resolve="pageSizeFn" />
+                      <node concept="2YIFZM" id="1ndn0Iao6Rv" role="33vP2m">
+                        <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                        <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
+                        <node concept="3cmrfG" id="1ndn0Iao6Rw" role="37wK5m">
+                          <property role="3cmrfH" value="1" />
                         </node>
-                        <node concept="pncrf" id="Q7cXvktuG0" role="2SgHGx" />
-                        <node concept="1Q80Hx" id="Q7cXvktuG1" role="2SgHGx" />
+                        <node concept="2Sg_IR" id="1ndn0Iao6Rx" role="37wK5m">
+                          <node concept="37vLTw" id="1ndn0Iao6Ry" role="2SgG2M">
+                            <ref role="3cqZAo" node="Q7cXvktuF_" resolve="pageSizeFn" />
+                          </node>
+                          <node concept="pncrf" id="1ndn0Iao6Rz" role="2SgHGx" />
+                          <node concept="1Q80Hx" id="1ndn0Iao6R$" role="2SgHGx" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1090,15 +1122,22 @@
                     <property role="TrG5h" value="pageSize" />
                     <property role="3TUv4t" value="true" />
                     <node concept="10Oyi0" id="Q7cXvktweO" role="1tU5fm" />
-                    <node concept="2Sg_IR" id="Q7cXvktweP" role="33vP2m">
-                      <node concept="37vLTw" id="Q7cXvktweQ" role="2SgG2M">
-                        <ref role="3cqZAo" node="Q7cXvktwes" resolve="pageSizeFn" />
+                    <node concept="2YIFZM" id="1ndn0Iao9KV" role="33vP2m">
+                      <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
+                      <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                      <node concept="3cmrfG" id="1ndn0Iao9KY" role="37wK5m">
+                        <property role="3cmrfH" value="1" />
                       </node>
-                      <node concept="2OqwBi" id="Q7cXvkty8h" role="2SgHGx">
-                        <node concept="12_Ws6" id="Q7cXvkty8i" role="2Oq$k0" />
-                        <node concept="1mfA1w" id="Q7cXvkty8j" role="2OqNvi" />
+                      <node concept="2Sg_IR" id="Q7cXvktweP" role="37wK5m">
+                        <node concept="37vLTw" id="Q7cXvktweQ" role="2SgG2M">
+                          <ref role="3cqZAo" node="Q7cXvktwes" resolve="pageSizeFn" />
+                        </node>
+                        <node concept="2OqwBi" id="Q7cXvkty8h" role="2SgHGx">
+                          <node concept="12_Ws6" id="Q7cXvkty8i" role="2Oq$k0" />
+                          <node concept="1mfA1w" id="Q7cXvkty8j" role="2OqNvi" />
+                        </node>
+                        <node concept="1Q80Hx" id="Q7cXvktweS" role="2SgHGx" />
                       </node>
-                      <node concept="1Q80Hx" id="Q7cXvktweS" role="2SgHGx" />
                     </node>
                   </node>
                 </node>

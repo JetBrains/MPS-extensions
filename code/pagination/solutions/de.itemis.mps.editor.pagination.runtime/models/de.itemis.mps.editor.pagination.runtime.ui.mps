@@ -13,6 +13,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="9rx" ref="r:56b5798b-fb73-40ab-987e-695e19f87b03(de.itemis.mps.editor.pagination.runtime.pages)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+    <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -42,6 +43,9 @@
       <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -84,6 +88,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
@@ -144,7 +151,7 @@
         <node concept="XkiVB" id="5K4KrT2vn4b" role="3cqZAp">
           <ref role="37wK5l" node="5K4KrT2v2$W" />
           <node concept="Xl_RD" id="5K4KrT2tJeQ" role="37wK5m">
-            <property role="Xl_RC" value="&lt;previous" />
+            <property role="Xl_RC" value="previous" />
           </node>
           <node concept="37vLTw" id="5K4KrT2vnH0" role="37wK5m">
             <ref role="3cqZAo" node="5K4KrT2tFqe" resolve="node" />
@@ -584,7 +591,7 @@
         <node concept="XkiVB" id="5K4KrT2vbRO" role="3cqZAp">
           <ref role="37wK5l" node="5K4KrT2v2$W" />
           <node concept="Xl_RD" id="5K4KrT2vjKW" role="37wK5m">
-            <property role="Xl_RC" value="next&gt;" />
+            <property role="Xl_RC" value="next" />
           </node>
           <node concept="37vLTw" id="5K4KrT2vcsW" role="37wK5m">
             <ref role="3cqZAo" node="5K4KrT2uIGW" resolve="node" />
@@ -810,6 +817,37 @@
               </node>
               <node concept="37vLTw" id="5K4KrT2vaxO" role="37wK5m">
                 <ref role="3cqZAo" node="5K4KrT2v2Sq" resolve="editorContext" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7CpFnBFQjkn" role="3cqZAp">
+          <node concept="1rXfSq" id="7CpFnBFQCvl" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~JComponent.setOpaque(boolean)" resolve="setOpaque" />
+            <node concept="3clFbT" id="7CpFnBFQE0k" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="7CpFnBFQriT" role="3cqZAp">
+          <node concept="1rXfSq" id="7CpFnBFQriR" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~JComponent.putClientProperty(java.lang.Object,java.lang.Object)" resolve="putClientProperty" />
+            <node concept="Xl_RD" id="7CpFnBFQrUV" role="37wK5m">
+              <property role="Xl_RC" value="ActionToolbar.smallVariant" />
+            </node>
+            <node concept="3clFbT" id="7CpFnBFQtIW" role="37wK5m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7CpFnBFQvt7" role="3cqZAp">
+          <node concept="1rXfSq" id="7CpFnBFQvt5" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~JComponent.setFont(java.awt.Font)" resolve="setFont" />
+            <node concept="2OqwBi" id="7CpFnBFQBe2" role="37wK5m">
+              <node concept="2YIFZM" id="7CpFnBFQALT" role="2Oq$k0">
+                <ref role="37wK5l" to="exr9:~EditorSettings.getInstance()" resolve="getInstance" />
+                <ref role="1Pybhc" to="exr9:~EditorSettings" resolve="EditorSettings" />
+              </node>
+              <node concept="liA8E" id="7CpFnBFQB_7" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorSettings.getDefaultEditorFont()" resolve="getDefaultEditorFont" />
               </node>
             </node>
           </node>

@@ -4,15 +4,11 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
     <import index="1d4c" ref="r:7f43e4ab-5881-4ab5-a0b9-d27c04d2a2ce(de.itemis.mps.editor.pagination.structure)" />
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
-    <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="c8le" ref="r:ac9cdd08-0ff5-4dc4-948b-9b9a991347d4(de.itemis.mps.editor.pagination.behavior)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="9rx" ref="r:56b5798b-fb73-40ab-987e-695e19f87b03(de.itemis.mps.editor.pagination.runtime.pages)" />
     <import index="vd2q" ref="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)" />
@@ -1117,6 +1113,13 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3cpWs8" id="4TKHHUVWhk" role="3cqZAp">
+                  <node concept="3cpWsn" id="4TKHHUVWhl" role="3cpWs9">
+                    <property role="TrG5h" value="nodeToFilter" />
+                    <node concept="12_Ws6" id="4TKHHUVWhm" role="33vP2m" />
+                    <node concept="3Tqbb2" id="4TKHHUVZ0k" role="1tU5fm" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="Q7cXvktweM" role="3cqZAp">
                   <node concept="3cpWsn" id="Q7cXvktweN" role="3cpWs9">
                     <property role="TrG5h" value="pageSize" />
@@ -1133,7 +1136,9 @@
                           <ref role="3cqZAo" node="Q7cXvktwes" resolve="pageSizeFn" />
                         </node>
                         <node concept="2OqwBi" id="Q7cXvkty8h" role="2SgHGx">
-                          <node concept="12_Ws6" id="Q7cXvkty8i" role="2Oq$k0" />
+                          <node concept="37vLTw" id="4TKHHUVWhn" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4TKHHUVWhl" resolve="c57" />
+                          </node>
                           <node concept="1mfA1w" id="Q7cXvkty8j" role="2OqNvi" />
                         </node>
                         <node concept="1Q80Hx" id="Q7cXvktweS" role="2SgHGx" />
@@ -1151,18 +1156,24 @@
                     <node concept="2OqwBi" id="4gyjVBaOYOd" role="3uHU7B">
                       <node concept="liA8E" id="4gyjVBaP00m" role="2OqNvi">
                         <ref role="37wK5l" to="9rx:4J8HQTrs1bC" resolve="contains" />
-                        <node concept="12_Ws6" id="4gyjVBaP0t8" role="37wK5m" />
+                        <node concept="37vLTw" id="4TKHHUVWho" role="37wK5m">
+                          <ref role="3cqZAo" node="4TKHHUVWhl" resolve="c57" />
+                        </node>
                       </node>
                       <node concept="2ShNRf" id="4gyjVBaT_Tw" role="2Oq$k0">
                         <node concept="1pGfFk" id="4gyjVBaTABU" role="2ShVmc">
                           <property role="373rjd" value="true" />
                           <ref role="37wK5l" to="9rx:4J8HQTrrP_e" resolve="PagesUserObject" />
                           <node concept="2OqwBi" id="4gyjVBaSFKZ" role="37wK5m">
-                            <node concept="12_Ws6" id="4gyjVBaSFL0" role="2Oq$k0" />
+                            <node concept="37vLTw" id="4TKHHUVWhp" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4TKHHUVWhl" resolve="c57" />
+                            </node>
                             <node concept="1mfA1w" id="4gyjVBaSFL1" role="2OqNvi" />
                           </node>
                           <node concept="2OqwBi" id="4gyjVBaSFL2" role="37wK5m">
-                            <node concept="12_Ws6" id="4gyjVBaSFL3" role="2Oq$k0" />
+                            <node concept="37vLTw" id="4TKHHUVWhq" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4TKHHUVWhl" resolve="c57" />
+                            </node>
                             <node concept="2NL2c5" id="4gyjVBaSFL4" role="2OqNvi" />
                           </node>
                           <node concept="37vLTw" id="4gyjVBaSFL5" role="37wK5m">

@@ -28,7 +28,6 @@
     <import index="da0s" ref="r:c5ef02fd-fc0b-460a-bea5-97c4d7c6c4cf(de.itemis.model.merge.baselang.sandbox)" />
     <import index="mopj" ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -75,9 +74,6 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -3899,30 +3895,6 @@
             <property role="3cmrfH" value="5" />
           </node>
         </node>
-        <node concept="3clFbF" id="4JVExmLIYNv" role="3cqZAp">
-          <node concept="2OqwBi" id="4JVExmLIYNs" role="3clFbG">
-            <node concept="10M0yZ" id="4JVExmLIYNt" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="4JVExmLIYNu" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="3cpWs3" id="4JVExmLJ076" role="37wK5m">
-                <node concept="2OqwBi" id="4JVExmLJ0Ax" role="3uHU7w">
-                  <node concept="37vLTw" id="4JVExmLJ0ih" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4JVExmLInOW" resolve="sysAfterImport" />
-                  </node>
-                  <node concept="3Tsc0h" id="4JVExmLJ9j1" role="2OqNvi">
-                    <ref role="3TtcxE" to="k6li:59jNLF_cXnQ" resolve="inports" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="4JVExmLIZ1N" role="3uHU7B">
-                  <property role="Xl_RC" value="-----&gt; sys " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="JA50E" id="4JVExmLInPn" role="3cqZAp">
           <node concept="3xONca" id="4JVExmLInPo" role="JA92f">
             <ref role="3xOPvv" node="4JVExmLInPF" resolve="merged" />
@@ -3991,6 +3963,10 @@
     <node concept="1qefOq" id="4JVExmLInPA" role="1SKRRt">
       <node concept="2Ro1FD" id="4JVExmLInPB" role="1qenE9">
         <property role="TrG5h" value="sys1" />
+        <node concept="2Ro54h" id="4JVExmLInPC" role="2Ro1FG">
+          <property role="TrG5h" value="A" />
+          <property role="2Ro54k" value="1" />
+        </node>
         <node concept="2Ro54h" id="4JVExmLInPD" role="2Ro1FG">
           <property role="TrG5h" value="B" />
           <property role="2Ro54k" value="2" />
@@ -4005,10 +3981,6 @@
         <node concept="2Ro54h" id="4JVExmLInPG" role="2Ro1FG">
           <property role="TrG5h" value="F" />
           <property role="2Ro54k" value="2" />
-        </node>
-        <node concept="2Ro54h" id="4JVExmLInPC" role="2Ro1FG">
-          <property role="TrG5h" value="A" />
-          <property role="2Ro54k" value="1" />
         </node>
         <node concept="2Ro54h" id="4JVExmLIGzN" role="2Ro1FG">
           <property role="TrG5h" value="G" />

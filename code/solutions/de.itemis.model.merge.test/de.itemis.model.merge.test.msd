@@ -24,6 +24,7 @@
     <dependency reexport="false">d119cd03-ed7e-477f-adb6-22a3d2e6ea77(test.de.itemis.mps.modelmerger.testlanguage)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">17d34773-aaeb-4315-92e6-9e0314373a68(de.itemis.model.merge.baselang.sandbox)</dependency>
+    <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:539e8939-08ef-497c-a5fd-25dd10137a55:de.itemis.model.merge" version="0" />

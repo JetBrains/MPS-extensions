@@ -108,6 +108,11 @@
       <property role="TrG5h" value="n" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyj" id="1ndn0Iaf8MF" role="1TKVEi">
+      <property role="IQ2ns" value="1571013049655790763" />
+      <property role="20kJfa" value="r" />
+      <ref role="20lvS9" node="2iSRtQtDrgE" resolve="ChildTest" />
+    </node>
   </node>
 </model>
 

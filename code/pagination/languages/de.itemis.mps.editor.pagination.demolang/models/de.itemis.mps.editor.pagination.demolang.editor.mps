@@ -53,7 +53,12 @@
       <concept id="1103016434866" name="jetbrains.mps.lang.editor.structure.CellModel_JComponent" flags="sg" stub="8104358048506731196" index="3gTLQM">
         <child id="1176475119347" name="componentProvider" index="3FoqZy" />
       </concept>
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -268,8 +273,23 @@
   </node>
   <node concept="24kQdi" id="2iSRtQtDrgR">
     <ref role="1XX52x" to="q71j:2iSRtQtDrgE" resolve="ChildTest" />
-    <node concept="3F0A7n" id="2iSRtQtDrgT" role="2wV5jI">
-      <ref role="1NtTu8" to="q71j:2iSRtQtDrgF" resolve="n" />
+    <node concept="3EZMnI" id="1ndn0Iaf8Of" role="2wV5jI">
+      <node concept="2iRfu4" id="1ndn0Iaf8Og" role="2iSdaV" />
+      <node concept="3F0A7n" id="2iSRtQtDrgT" role="3EZMnx">
+        <ref role="1NtTu8" to="q71j:2iSRtQtDrgF" resolve="n" />
+      </node>
+      <node concept="3F0ifn" id="1ndn0Iaf8QV" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="1iCGBv" id="1ndn0Iaf8Pk" role="3EZMnx">
+        <ref role="1NtTu8" to="q71j:1ndn0Iaf8MF" resolve="r" />
+        <node concept="1sVBvm" id="1ndn0Iaf8Pm" role="1sWHZn">
+          <node concept="3F0A7n" id="1ndn0Iafpio" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="q71j:2iSRtQtDrgF" resolve="n" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="2ABfQD" id="7DkC_coX$8G">

@@ -18,6 +18,7 @@
         <child id="1224071154657" name="classifierType" index="0kSFW" />
         <child id="1224071154656" name="expression" index="0kSFX" />
       </concept>
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -1793,6 +1794,40 @@
         <node concept="10Oyi0" id="4J8HQTrrVSM" role="1tU5fm" />
       </node>
     </node>
+    <node concept="2tJIrI" id="2IHyoywDTqI" role="jymVt" />
+    <node concept="3clFb_" id="2IHyoywDWA9" role="jymVt">
+      <property role="TrG5h" value="getNodeWithPagination" />
+      <node concept="3clFbS" id="2IHyoywDWAc" role="3clF47">
+        <node concept="3clFbF" id="2IHyoywDXch" role="3cqZAp">
+          <node concept="2OqwBi" id="2IHyoywDX$P" role="3clFbG">
+            <node concept="Xjq3P" id="2IHyoywDXcg" role="2Oq$k0" />
+            <node concept="2OwXpG" id="2IHyoywDXU2" role="2OqNvi">
+              <ref role="2Oxat5" node="4J8HQTrrPIj" resolve="nodeWithPagination" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2IHyoywDVTS" role="1B3o_S" />
+      <node concept="3Tqbb2" id="2IHyoywDWvw" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="2IHyoywDYkv" role="jymVt" />
+    <node concept="3clFb_" id="2IHyoywDZHp" role="jymVt">
+      <property role="TrG5h" value="getLinkToPaginate" />
+      <node concept="3clFbS" id="2IHyoywDZHs" role="3clF47">
+        <node concept="3clFbF" id="2IHyoywE0kh" role="3cqZAp">
+          <node concept="2OqwBi" id="2IHyoywE0DG" role="3clFbG">
+            <node concept="Xjq3P" id="2IHyoywE0kg" role="2Oq$k0" />
+            <node concept="2OwXpG" id="2IHyoywE18X" role="2OqNvi">
+              <ref role="2Oxat5" node="4J8HQTrrPPT" resolve="linkToPaginate" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2IHyoywDZ0j" role="1B3o_S" />
+      <node concept="3uibUv" id="2IHyoywDZAE" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="4J8HQTrrWmG" role="jymVt" />
     <node concept="3clFb_" id="4J8HQTrrWV1" role="jymVt">
       <property role="TrG5h" value="size" />
@@ -1965,11 +2000,11 @@
         <node concept="3clFbF" id="4J8HQTrsc$P" role="3cqZAp">
           <node concept="1rXfSq" id="4J8HQTrt_t_" role="3clFbG">
             <ref role="37wK5l" node="4J8HQTrtuoI" resolve="set" />
-            <node concept="37vLTw" id="4J8HQTrt_Yk" role="37wK5m">
-              <ref role="3cqZAo" node="4J8HQTrrPIj" resolve="nodeWithPagination" />
+            <node concept="1rXfSq" id="2IHyoywE2Zc" role="37wK5m">
+              <ref role="37wK5l" node="2IHyoywDWA9" resolve="getNodeWithPagination" />
             </node>
-            <node concept="37vLTw" id="4J8HQTrtA_T" role="37wK5m">
-              <ref role="3cqZAo" node="4J8HQTrrPPT" resolve="linkToPaginate" />
+            <node concept="1rXfSq" id="2IHyoywE3IW" role="37wK5m">
+              <ref role="37wK5l" node="2IHyoywDZHp" resolve="getLinkToPaginate" />
             </node>
             <node concept="37vLTw" id="4J8HQTrtBrk" role="37wK5m">
               <ref role="3cqZAo" node="4J8HQTrscim" resolve="pages" />
@@ -1993,11 +2028,11 @@
         <node concept="3clFbF" id="4J8HQTrtxSn" role="3cqZAp">
           <node concept="1rXfSq" id="4J8HQTrtxSm" role="3clFbG">
             <ref role="37wK5l" node="4gyjVBaSqLm" resolve="getOrCreate" />
-            <node concept="37vLTw" id="4J8HQTrtybT" role="37wK5m">
-              <ref role="3cqZAo" node="4J8HQTrrPIj" resolve="nodeWithPagination" />
+            <node concept="1rXfSq" id="2IHyoywE51T" role="37wK5m">
+              <ref role="37wK5l" node="2IHyoywDWA9" resolve="getNodeWithPagination" />
             </node>
-            <node concept="37vLTw" id="4J8HQTrtyZX" role="37wK5m">
-              <ref role="3cqZAo" node="4J8HQTrrPPT" resolve="linkToPaginate" />
+            <node concept="1rXfSq" id="2IHyoywE6hr" role="37wK5m">
+              <ref role="37wK5l" node="2IHyoywDZHp" resolve="getLinkToPaginate" />
             </node>
             <node concept="1rXfSq" id="4J8HQTrt$tx" role="37wK5m">
               <ref role="37wK5l" node="4J8HQTrsv5c" resolve="getPageSize" />
@@ -2014,68 +2049,24 @@
     <node concept="2YIFZL" id="4J8HQTrtnLX" role="jymVt">
       <property role="TrG5h" value="get" />
       <node concept="3clFbS" id="4J8HQTrtnM0" role="3clF47">
-        <node concept="3cpWs8" id="Q7cXvkwrC2" role="3cqZAp">
-          <node concept="3cpWsn" id="Q7cXvkwrC3" role="3cpWs9">
-            <property role="TrG5h" value="pages" />
-            <node concept="3uibUv" id="Q7cXvkwrbh" role="1tU5fm">
+        <node concept="3clFbF" id="2IHyoyvWTOW" role="3cqZAp">
+          <node concept="0kSF2" id="2IHyoyvWTOY" role="3clFbG">
+            <node concept="3uibUv" id="2IHyoyvWTOZ" role="0kSFW">
               <ref role="3uigEE" node="4J8HQTrq0Fi" resolve="Pages" />
             </node>
-            <node concept="0kSF2" id="Q7cXvkwrC4" role="33vP2m">
-              <node concept="3uibUv" id="Q7cXvkwrC5" role="0kSFW">
-                <ref role="3uigEE" node="4J8HQTrq0Fi" resolve="Pages" />
-              </node>
-              <node concept="2OqwBi" id="Q7cXvkwrC6" role="0kSFX">
-                <node concept="2JrnkZ" id="Q7cXvkwrC7" role="2Oq$k0">
-                  <node concept="37vLTw" id="Q7cXvkwrC8" role="2JrQYb">
-                    <ref role="3cqZAo" node="4J8HQTrtono" resolve="nodeWithPagination" />
-                  </node>
+            <node concept="2OqwBi" id="2IHyoyvWTP0" role="0kSFX">
+              <node concept="2JrnkZ" id="2IHyoyvWTP1" role="2Oq$k0">
+                <node concept="37vLTw" id="2IHyoyvWTP2" role="2JrQYb">
+                  <ref role="3cqZAo" node="4J8HQTrtono" resolve="nodeWithPagination" />
                 </node>
-                <node concept="liA8E" id="Q7cXvkwrC9" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SNode.getUserObject(java.lang.Object)" resolve="getUserObject" />
-                  <node concept="37vLTw" id="Q7cXvkwrCa" role="37wK5m">
-                    <ref role="3cqZAo" node="4J8HQTrtoqD" resolve="linkToPaginate" />
-                  </node>
+              </node>
+              <node concept="liA8E" id="2IHyoyvWTP3" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SNode.getUserObject(java.lang.Object)" resolve="getUserObject" />
+                <node concept="37vLTw" id="2IHyoyvWTP4" role="37wK5m">
+                  <ref role="3cqZAo" node="4J8HQTrtoqD" resolve="linkToPaginate" />
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="Q7cXvkwsFe" role="3cqZAp">
-          <node concept="3clFbS" id="Q7cXvkwsFg" role="3clFbx">
-            <node concept="3cpWs6" id="Q7cXvkw_W6" role="3cqZAp">
-              <node concept="10Nm6u" id="Q7cXvkwAza" role="3cqZAk" />
-            </node>
-          </node>
-          <node concept="1Wc70l" id="Q7cXvkwvir" role="3clFbw">
-            <node concept="3y3z36" id="Q7cXvkwzyE" role="3uHU7w">
-              <node concept="37vLTw" id="Q7cXvkw$CZ" role="3uHU7w">
-                <ref role="3cqZAo" node="4J8HQTrtozN" resolve="pageSize" />
-              </node>
-              <node concept="2OqwBi" id="Q7cXvkwxqL" role="3uHU7B">
-                <node concept="2OqwBi" id="Q7cXvkwwBQ" role="2Oq$k0">
-                  <node concept="37vLTw" id="Q7cXvkwvSc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="Q7cXvkwrC3" resolve="pages" />
-                  </node>
-                  <node concept="liA8E" id="Q7cXvkwx0C" role="2OqNvi">
-                    <ref role="37wK5l" node="4J8HQTrorte" resolve="getCurrentPage" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="Q7cXvkwy70" role="2OqNvi">
-                  <ref role="37wK5l" node="4J8HQTrmS1d" resolve="getPageSize" />
-                </node>
-              </node>
-            </node>
-            <node concept="3y3z36" id="Q7cXvkwu94" role="3uHU7B">
-              <node concept="37vLTw" id="Q7cXvkwtke" role="3uHU7B">
-                <ref role="3cqZAo" node="Q7cXvkwrC3" resolve="pages" />
-              </node>
-              <node concept="10Nm6u" id="Q7cXvkwuDJ" role="3uHU7w" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4gyjVBaTrd9" role="3cqZAp">
-          <node concept="37vLTw" id="Q7cXvkwrCb" role="3clFbG">
-            <ref role="3cqZAo" node="Q7cXvkwrC3" resolve="pages" />
           </node>
         </node>
       </node>
@@ -2092,10 +2083,6 @@
         <node concept="3uibUv" id="4J8HQTrtosC" role="1tU5fm">
           <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
         </node>
-      </node>
-      <node concept="37vLTG" id="4J8HQTrtozN" role="3clF46">
-        <property role="TrG5h" value="pageSize" />
-        <node concept="10Oyi0" id="4J8HQTrtoB8" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="4gyjVBaSrQn" role="jymVt" />
@@ -2115,9 +2102,6 @@
               </node>
               <node concept="37vLTw" id="4gyjVBaTbQ7" role="37wK5m">
                 <ref role="3cqZAo" node="4gyjVBaSqM8" resolve="linkToPaginate" />
-              </node>
-              <node concept="37vLTw" id="4gyjVBaTcHg" role="37wK5m">
-                <ref role="3cqZAo" node="4gyjVBaSqMa" resolve="pageSize" />
               </node>
             </node>
           </node>
@@ -2186,10 +2170,30 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbC" id="4gyjVBaSqLZ" role="3clFbw">
-            <node concept="10Nm6u" id="4gyjVBaSqM0" role="3uHU7w" />
-            <node concept="37vLTw" id="4gyjVBaSqM1" role="3uHU7B">
-              <ref role="3cqZAo" node="4gyjVBaSqLp" resolve="pages" />
+          <node concept="22lmx$" id="2IHyoyvWR1k" role="3clFbw">
+            <node concept="3clFbC" id="4gyjVBaSqLZ" role="3uHU7B">
+              <node concept="37vLTw" id="4gyjVBaSqM1" role="3uHU7B">
+                <ref role="3cqZAo" node="4gyjVBaSqLp" resolve="pages" />
+              </node>
+              <node concept="10Nm6u" id="4gyjVBaSqM0" role="3uHU7w" />
+            </node>
+            <node concept="3y3z36" id="2IHyoyvWRAt" role="3uHU7w">
+              <node concept="37vLTw" id="2IHyoyvWRAu" role="3uHU7w">
+                <ref role="3cqZAo" node="4gyjVBaSqMa" resolve="pageSize" />
+              </node>
+              <node concept="2OqwBi" id="2IHyoyvWRAv" role="3uHU7B">
+                <node concept="2OqwBi" id="2IHyoyvWRAw" role="2Oq$k0">
+                  <node concept="37vLTw" id="2IHyoyvWRAx" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4gyjVBaSqLp" resolve="pages" />
+                  </node>
+                  <node concept="liA8E" id="2IHyoyvWRAy" role="2OqNvi">
+                    <ref role="37wK5l" node="4J8HQTrorte" resolve="getCurrentPage" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2IHyoyvWRAz" role="2OqNvi">
+                  <ref role="37wK5l" node="4J8HQTrmS1d" resolve="getPageSize" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

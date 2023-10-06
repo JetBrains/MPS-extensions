@@ -814,9 +814,6 @@
             <node concept="37vLTw" id="4TKHHUTtaS" role="37wK5m">
               <ref role="3cqZAo" node="4TKHHUTtax" resolve="link" />
             </node>
-            <node concept="37vLTw" id="4TKHHUTtaT" role="37wK5m">
-              <ref role="3cqZAo" node="4TKHHUTta_" resolve="pageSize" />
-            </node>
           </node>
         </node>
       </node>
@@ -892,9 +889,6 @@
             </node>
             <node concept="37vLTw" id="4TKHHUTtbn" role="37wK5m">
               <ref role="3cqZAo" node="4TKHHUTtb6" resolve="link" />
-            </node>
-            <node concept="37vLTw" id="4TKHHUTtbo" role="37wK5m">
-              <ref role="3cqZAo" node="4TKHHUTtba" resolve="pageSize" />
             </node>
           </node>
         </node>

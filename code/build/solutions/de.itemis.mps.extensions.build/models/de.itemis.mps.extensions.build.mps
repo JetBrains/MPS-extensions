@@ -8513,6 +8513,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5fzeWG0kox3" role="3bR37C">
+          <node concept="3bR9La" id="5fzeWG0kox4" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="2NTGYE$JTH6" role="3989C9">
@@ -17034,6 +17039,65 @@
         </node>
       </node>
     </node>
+    <node concept="2G$12M" id="7NiuBZ$hZTs" role="3989C9">
+      <property role="TrG5h" value="pagination-tests" />
+      <node concept="1E1JtA" id="7NiuBZ$i0jE" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.editor.pagination.test" />
+        <property role="3LESm3" value="03b57d96-6e28-44ba-a68b-4cc264810a54" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <node concept="398BVA" id="7NiuBZ$i0lu" role="3LF7KH">
+          <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="7NiuBZ$i0nk" role="iGT6I">
+            <property role="2Ry0Am" value="pagination" />
+            <node concept="2Ry0Ak" id="7NiuBZ$i0ov" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="7NiuBZ$i0pe" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.test" />
+                <node concept="2Ry0Ak" id="7NiuBZ$i0pJ" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.test.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7NiuBZ$i0zN" role="3bR37C">
+          <node concept="3bR9La" id="7NiuBZ$i0zO" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7NiuBZ$i0zP" role="3bR37C">
+          <node concept="3bR9La" id="7NiuBZ$i0zQ" role="1SiIV1">
+            <ref role="3bR37D" node="7eO$0O_5kAC" resolve="de.itemis.mps.editor.pagination.runtime" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="7NiuBZ$i0$8" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="7NiuBZ$i0$9" role="1HemKq">
+            <node concept="398BVA" id="7NiuBZ$i0zR" role="3LXTmr">
+              <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="7NiuBZ$i0zS" role="iGT6I">
+                <property role="2Ry0Am" value="pagination" />
+                <node concept="2Ry0Ak" id="7NiuBZ$i0zT" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="7NiuBZ$i0zU" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.test" />
+                    <node concept="2Ry0Ak" id="7NiuBZ$i0zV" role="2Ry0An">
+                      <property role="2Ry0Am" value="models" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7NiuBZ$i0$a" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2G$12M" id="4JmkJs3GrYV" role="3989C9">
       <property role="TrG5h" value="shadowmodels-tests" />
       <node concept="1E1JtA" id="4JmkJs3Gs4u" role="2G$12L">
@@ -19617,6 +19681,9 @@
       <node concept="L2wRC" id="7RNWCAgLhX_" role="39821P">
         <ref role="L2wRA" node="3oyo9Wzq1vN" resolve="de.itemis.model.merge.test.integration" />
       </node>
+      <node concept="L2wRC" id="7NiuBZ$i0Mf" role="39821P">
+        <ref role="L2wRA" node="7NiuBZ$i0jE" resolve="de.itemis.mps.editor.pagination.test" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -19689,6 +19756,9 @@
       </node>
       <node concept="22LTRM" id="7g5FWGK131$" role="22LTRK">
         <ref role="22LTRN" node="7g5FWGK0Kzy" resolve="test.org.modelix.model.mpsadapters" />
+      </node>
+      <node concept="22LTRM" id="7NiuBZ$i0Ql" role="22LTRK">
+        <ref role="22LTRN" node="7NiuBZ$i0jE" resolve="de.itemis.mps.editor.pagination.test" />
       </node>
     </node>
   </node>

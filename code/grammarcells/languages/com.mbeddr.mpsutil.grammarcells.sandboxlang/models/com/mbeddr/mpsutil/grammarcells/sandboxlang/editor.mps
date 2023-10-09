@@ -2744,5 +2744,76 @@
       <node concept="2iRkQZ" id="67iSu2w55ny" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="3Lzx5Pf0jxR">
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1XX52x" to="ibwz:3Lzx5Pf0jr2" resolve="WrapType" />
+    <node concept="PMmxH" id="3Lzx5Pf0jyX" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3Lzx5Pf0ku6">
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1XX52x" to="ibwz:3Lzx5Pf0jk5" resolve="WrapStmtParent" />
+    <node concept="1WcQYu" id="3Lzx5Pf0kwM" role="2wV5jI">
+      <node concept="2ElW$n" id="3Lzx5Pf0kwO" role="2El2Yn" />
+      <node concept="3EZMnI" id="3Lzx5Pf0kwY" role="1LiK7o">
+        <node concept="2iRfu4" id="3Lzx5Pf0kwZ" role="2iSdaV" />
+        <node concept="1kIj98" id="3Lzx5Pf0kzI" role="3EZMnx">
+          <node concept="3F1sOY" id="3Lzx5Pf0k$m" role="1kIj9b">
+            <ref role="1NtTu8" to="ibwz:3Lzx5Pf0kj2" resolve="type" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3Lzx5Pf0kB7" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3Lzx5Pf3sLe">
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1XX52x" to="ibwz:3Lzx5Pf0jeK" resolve="StmtContainerParent" />
+    <node concept="3EZMnI" id="3Lzx5Pf3sMk" role="2wV5jI">
+      <node concept="3F0ifn" id="3Lzx5Pf3sQb" role="3EZMnx">
+        <property role="3F0ifm" value="Stmt Test" />
+      </node>
+      <node concept="2iRkQZ" id="3Lzx5Pf3sQK" role="2iSdaV" />
+      <node concept="3F2HdR" id="3Lzx5Pf3sU5" role="3EZMnx">
+        <ref role="1NtTu8" to="ibwz:3Lzx5Pf0jnO" resolve="stmts" />
+        <node concept="2iRkQZ" id="3Lzx5Pf3sU7" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1$ysu_nN3Fa">
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1XX52x" to="ibwz:1$ysu_nN3Eg" resolve="StmtContainerAncestor" />
+    <node concept="3EZMnI" id="1$ysu_nN3Fc" role="2wV5jI">
+      <node concept="3F0ifn" id="1$ysu_nN3Fd" role="3EZMnx">
+        <property role="3F0ifm" value="Stmt Test" />
+      </node>
+      <node concept="2iRkQZ" id="1$ysu_nN3Fe" role="2iSdaV" />
+      <node concept="3F2HdR" id="1$ysu_nN3Ff" role="3EZMnx">
+        <ref role="1NtTu8" to="ibwz:1$ysu_nN3Eh" resolve="stmts" />
+        <node concept="2iRkQZ" id="1$ysu_nN3Fg" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1$ysu_nN4VR">
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1XX52x" to="ibwz:1$ysu_nN3Ei" resolve="WrapStmtAncestor" />
+    <node concept="1WcQYu" id="1$ysu_nN4VT" role="2wV5jI">
+      <node concept="2ElW$n" id="1$ysu_nN4VU" role="2El2Yn" />
+      <node concept="3EZMnI" id="1$ysu_nN4VV" role="1LiK7o">
+        <node concept="2iRfu4" id="1$ysu_nN4VW" role="2iSdaV" />
+        <node concept="1kIj98" id="1$ysu_nN4VX" role="3EZMnx">
+          <node concept="3F1sOY" id="1$ysu_nN4VY" role="1kIj9b">
+            <ref role="1NtTu8" to="ibwz:1$ysu_nN3Ej" resolve="type" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="1$ysu_nN4VZ" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -3257,25 +3257,6 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="6ogDZt_U0qZ" role="3cqZAp">
-          <node concept="3cpWsn" id="6ogDZt_U0r2" role="3cpWs9">
-            <property role="TrG5h" value="dummyChild" />
-            <node concept="3uibUv" id="6ogDZt_U0r3" role="1tU5fm">
-              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-            </node>
-            <node concept="2YIFZM" id="6ogDZt_U0r4" role="33vP2m">
-              <ref role="1Pybhc" to="i51s:~SConceptOperations" resolve="SConceptOperations" />
-              <ref role="37wK5l" to="i51s:~SConceptOperations.createNewNode(org.jetbrains.mps.openapi.language.SConcept)" resolve="createNewNode" />
-              <node concept="2YIFZM" id="6ogDZt_U0r5" role="37wK5m">
-                <ref role="37wK5l" to="i8bi:Det6sRbgD5" resolve="asInstanceConcept" />
-                <ref role="1Pybhc" to="i8bi:5IkW5anFcyt" resolve="SNodeOperations" />
-                <node concept="37vLTw" id="6ogDZt_U0r6" role="37wK5m">
-                  <ref role="3cqZAo" node="1iGw5Cbilgi" resolve="childConcept" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="2$JKZl" id="1iGw5CbihFE" role="3cqZAp">
           <node concept="3clFbS" id="1iGw5CbihFG" role="2LFqv$">
             <node concept="3cpWs8" id="1iGw5Cbiv4d" role="3cqZAp">

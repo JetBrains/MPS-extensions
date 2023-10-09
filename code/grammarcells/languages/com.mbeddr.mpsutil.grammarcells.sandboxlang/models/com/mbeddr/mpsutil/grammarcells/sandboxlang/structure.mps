@@ -900,5 +900,88 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3Lzx5Pf0jeK">
+    <property role="EcuMT" value="4351467201262334896" />
+    <property role="TrG5h" value="StmtContainerParent" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3Lzx5Pf0jnO" role="1TKVEi">
+      <property role="IQ2ns" value="4351467201262335476" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="stmts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3Lzx5Pf0jk5" resolve="WrapStmtParent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3Lzx5Pf0jk5">
+    <property role="EcuMT" value="4351467201262335237" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="WrapStmtParent" />
+    <property role="34LRSv" value="wrapStmt" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3Lzx5Pf0kj2" role="1TKVEi">
+      <property role="IQ2ns" value="4351467201262339266" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3Lzx5Pf0jr2" resolve="WrapType" />
+    </node>
+    <node concept="PrWs8" id="3Lzx5PffZ$L" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3Lzx5Pf0jr2">
+    <property role="EcuMT" value="4351467201262335682" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="WrapType" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="3Lzx5Pf0k2q">
+    <property role="EcuMT" value="4351467201262338202" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="AType" />
+    <property role="34LRSv" value="A" />
+    <ref role="1TJDcQ" node="3Lzx5Pf0jr2" resolve="WrapType" />
+  </node>
+  <node concept="1TIwiD" id="3Lzx5Pf0k5B">
+    <property role="EcuMT" value="4351467201262338407" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="BType" />
+    <property role="34LRSv" value="B" />
+    <ref role="1TJDcQ" node="3Lzx5Pf0jr2" resolve="WrapType" />
+  </node>
+  <node concept="1TIwiD" id="1$ysu_nN3Eg">
+    <property role="EcuMT" value="1811135247170681488" />
+    <property role="TrG5h" value="StmtContainerAncestor" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1$ysu_nN3Eh" role="1TKVEi">
+      <property role="IQ2ns" value="1811135247170681489" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="stmts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1$ysu_nN3Ei" resolve="WrapStmtAncestor" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1$ysu_nN3Ei">
+    <property role="EcuMT" value="1811135247170681490" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="WrapStmtAncestor" />
+    <property role="34LRSv" value="wrapStmt" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1$ysu_nN3Ej" role="1TKVEi">
+      <property role="IQ2ns" value="1811135247170681491" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3Lzx5Pf0jr2" resolve="WrapType" />
+    </node>
+    <node concept="PrWs8" id="1$ysu_nN3Ek" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 

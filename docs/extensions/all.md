@@ -48,7 +48,7 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 
 | Name                  | Description                                               |
 |-----------------------|-----------------------------------------------------------|
-| com.fasterxml.jackson | jars and stubs for using Jackson json serialization       |
+| MPS.ThirdParty | additional jars that are included in MPS      |
 | org.apache.commons    | jars and their stubs to use Apache Commons Library in MPS |
 
 ## Tools, Views and other Plugins

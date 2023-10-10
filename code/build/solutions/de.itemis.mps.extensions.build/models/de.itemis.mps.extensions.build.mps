@@ -964,25 +964,6 @@
             </node>
           </node>
         </node>
-        <node concept="3rtmxn" id="7ap$5GXXiui" role="3bR31x">
-          <node concept="3LXTmp" id="7ap$5GXXiuj" role="3rtmxm">
-            <node concept="3qWCbU" id="7ap$5GXXiuk" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
-            <node concept="398BVA" id="7ap$5GXXiul" role="3LXTmr">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="7ap$5GXXium" role="iGT6I">
-                <property role="2Ry0Am" value="jackson" />
-                <node concept="2Ry0Ak" id="7ap$5GXXiun" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="7ap$5GXXiuo" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.fasterxml.jackson" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
     <node concept="m$_wf" id="31bAEZ0srEa" role="3989C9">

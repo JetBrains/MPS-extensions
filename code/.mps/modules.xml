@@ -63,7 +63,6 @@
       <modulePath path="$PROJECT_DIR$/intentionsmenu/languages/com.mbeddr.mpsutil.intentions/com.mbeddr.mpsutil.intentions.mpl" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/solutions/com.mbeddr.mpsutil.intentions.runtime/com.mbeddr.mpsutil.intentions.runtime.msd" folder="intentionsmenu" />
       <modulePath path="$PROJECT_DIR$/intentionsmenu/solutions/com.mbeddr.mpsutil.intentions.sandbox/com.mbeddr.mpsutil.intentions.sandbox.msd" folder="intentionsmenu" />
-      <modulePath path="$PROJECT_DIR$/jackson/solutions/com.fasterxml.jackson/com.fasterxml.jackson.msd" folder="jackson" />
       <modulePath path="$PROJECT_DIR$/langvis/languages/com.dslfoundry.langvis.demolang/com.dslfoundry.langvis.demolang.mpl" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.demo/com.dslfoundry.langvis.demo.msd" folder="langvis" />
       <modulePath path="$PROJECT_DIR$/langvis/solutions/com.dslfoundry.langvis.plugin/com.dslfoundry.langvis.plugin.msd" folder="langvis" />

@@ -231,9 +231,6 @@
   <node concept="2wR3oc" id="5Icc9ER6rph">
     <ref role="2wR3oD" to="vi29:4aEqBbbsVSI" resolve="empty_generators" />
   </node>
-  <node concept="2wR3oc" id="5Icc9ER6sia">
-    <ref role="2wR3oD" to="emnw:3jiJ$OUDXsn" resolve="models_in_same_project_with_same_IDs" />
-  </node>
   <node concept="2wR3oc" id="5Icc9ER6sic">
     <ref role="2wR3oD" to="wpu7:2dSiT1hKT_t" resolve="modules_and_file_system_layout_consistency" />
   </node>

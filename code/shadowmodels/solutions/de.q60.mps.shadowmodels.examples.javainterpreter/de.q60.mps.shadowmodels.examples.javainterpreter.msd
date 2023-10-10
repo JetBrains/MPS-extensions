@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.q60.mps.shadowmodels.examples.javainterpreter" uuid="7d468cc8-8d3d-43eb-9810-b95518c60cc8" moduleVersion="0" compileInMPS="true">
+<solution name="de.q60.mps.shadowmodels.examples.javainterpreter" uuid="7d468cc8-8d3d-43eb-9810-b95518c60cc8" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

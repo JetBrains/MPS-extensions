@@ -3200,7 +3200,7 @@
                       <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                       <node concept="2OqwBi" id="3Lzx5Pfuvu1" role="37wK5m">
                         <node concept="35c_gC" id="3Lzx5Pfu9Gc" role="2Oq$k0">
-                          <ref role="35c_gD" to="ibwz:3Lzx5Pf0jk5" resolve="WrapStmt" />
+                          <ref role="35c_gD" to="ibwz:3Lzx5Pf0jk5" resolve="WrapStmtParent" />
                         </node>
                         <node concept="liA8E" id="3Lzx5Pfwuva" role="2OqNvi">
                           <ref role="37wK5l" to="c17a:~SAbstractConcept.getConceptAlias()" resolve="getConceptAlias" />

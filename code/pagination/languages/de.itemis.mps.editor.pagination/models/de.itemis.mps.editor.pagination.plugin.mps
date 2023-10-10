@@ -20,7 +20,6 @@
     <import index="vndm" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.language(MPS.Core/)" />
     <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
-    <import index="fnpx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
@@ -756,14 +755,14 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="2YsXopnqO7G" role="37vLTJ">
-                  <ref role="3cqZAo" node="2YsXopnqMQr" resolve="instance" />
+                  <ref role="3cqZAo" node="2YsXopnqMQr" resolve="listener" />
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="2YsXopnqQ7C" role="3cqZAp">
               <node concept="37vLTI" id="2YsXopnqQR6" role="3clFbG">
                 <node concept="37vLTw" id="2YsXopnqQTZ" role="37vLTx">
-                  <ref role="3cqZAo" node="2YsXopnqMQr" resolve="instance" />
+                  <ref role="3cqZAo" node="2YsXopnqMQr" resolve="listener" />
                 </node>
                 <node concept="3EllGN" id="2YsXopnqQtK" role="37vLTJ">
                   <node concept="37vLTw" id="2YsXopnqQwH" role="3ElVtu">
@@ -779,7 +778,7 @@
           <node concept="3clFbC" id="2YsXopnqNFl" role="3clFbw">
             <node concept="10Nm6u" id="2YsXopnqNVU" role="3uHU7w" />
             <node concept="37vLTw" id="2YsXopnqNhi" role="3uHU7B">
-              <ref role="3cqZAo" node="2YsXopnqMQr" resolve="instance" />
+              <ref role="3cqZAo" node="2YsXopnqMQr" resolve="listener" />
             </node>
           </node>
         </node>
@@ -912,8 +911,8 @@
                   <node concept="1Y3b0j" id="2YsXopnrk3s" role="YeSDq">
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
-                    <ref role="1Y3XeK" to="exr9:~EditorComponent$EditorDisposeListener" resolve="EditorDisposeListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="1Y3XeK" to="exr9:~EditorComponent$EditorDisposeListener" resolve="EditorComponent.EditorDisposeListener" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="2YsXopnrk3t" role="1B3o_S" />
                     <node concept="3clFb_" id="2YsXopnrk3H" role="jymVt">
                       <property role="TrG5h" value="editorWillBeDisposed" />
@@ -1467,7 +1466,7 @@
                                 <node concept="2ShNRf" id="47Pq93ID1Y_" role="3clFbG">
                                   <node concept="1pGfFk" id="47Pq93ID1YA" role="2ShVmc">
                                     <property role="373rjd" value="true" />
-                                    <ref role="37wK5l" node="47Pq93Ih_Lp" resolve="PageChange" />
+                                    <ref role="37wK5l" node="47Pq93Ih_Lp" resolve="PaginationListener.PageChange" />
                                     <node concept="37vLTw" id="47Pq93ID1YB" role="37wK5m">
                                       <ref role="3cqZAo" node="47Pq93Icnps" resolve="paginatedCell" />
                                     </node>
@@ -1490,7 +1489,7 @@
                           </node>
                         </node>
                         <node concept="1rXfSq" id="47Pq93IDrae" role="2Oq$k0">
-                          <ref role="37wK5l" node="2IHyoywA8uO" resolve="getNewPages" />
+                          <ref role="37wK5l" node="2IHyoywA8uO" resolve="getNewPagesForTarget" />
                           <node concept="37vLTw" id="47Pq93IDraf" role="37wK5m">
                             <ref role="3cqZAo" node="47Pq93Icnpu" resolve="targetNode" />
                           </node>
@@ -1535,7 +1534,7 @@
         <node concept="3Tqbb2" id="47Pq93Icnpv" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="47Pq93IifVD" role="3clF45">
-        <ref role="3uigEE" node="47Pq93IhuNV" resolve="PageChange" />
+        <ref role="3uigEE" node="47Pq93IhuNV" resolve="PaginationListener.PageChange" />
       </node>
     </node>
     <node concept="2tJIrI" id="47Pq93Ikr0V" role="jymVt" />
@@ -1590,7 +1589,7 @@
       </node>
       <node concept="A3Dl8" id="47Pq93IehxA" role="3clF45">
         <node concept="3uibUv" id="47Pq93Iip2Y" role="A3Ik2">
-          <ref role="3uigEE" node="47Pq93IhuNV" resolve="PageChange" />
+          <ref role="3uigEE" node="47Pq93IhuNV" resolve="PaginationListener.PageChange" />
         </node>
       </node>
     </node>
@@ -1900,7 +1899,7 @@
                                                         <property role="TrG5h" value="changesToApply" />
                                                         <node concept="A3Dl8" id="47Pq93Iiro5" role="1tU5fm">
                                                           <node concept="3uibUv" id="47Pq93Ii$1X" role="A3Ik2">
-                                                            <ref role="3uigEE" node="47Pq93IhuNV" resolve="PageChange" />
+                                                            <ref role="3uigEE" node="47Pq93IhuNV" resolve="PaginationListener.PageChange" />
                                                           </node>
                                                         </node>
                                                         <node concept="1rXfSq" id="47Pq93Iiroa" role="33vP2m">

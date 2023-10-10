@@ -19653,6 +19653,9 @@
       <node concept="L2wRC" id="7NiuBZ$i0Mf" role="39821P">
         <ref role="L2wRA" node="1UsTn3WQ0YL" resolve="de.itemis.mps.editor.pagination.test" />
       </node>
+      <node concept="L2wRC" id="1UsTn3WTpYt" role="39821P">
+        <ref role="L2wRA" node="1UsTn3WQ1I9" resolve="de.itemis.mps.editor.pagination.runtime" />
+      </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
       <property role="TrG5h" value="all" />
@@ -19745,7 +19748,7 @@
         <ref role="22LTRN" node="3RnR3eq5ow" resolve="com.mbeddr.mpsutil.intentions.sandbox" />
       </node>
       <node concept="22LTRF" id="1UsTn3WQ0S3" role="22LTRK">
-        <ref role="22LTRG" node="1UsTn3WQ0pZ" resolve="de.itemis.mps.editor.pagination.test" />
+        <ref role="22LTRG" node="1UsTn3WQ0pZ" resolve="pagination" />
       </node>
     </node>
     <node concept="2G$12M" id="6FSn2vLtrfJ" role="3989C9">
@@ -19856,6 +19859,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.editor.pagination.runtime" />
         <property role="3LESm3" value="b8eca104-6d07-43d6-9bd7-4c8692c82707" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="1UsTn3WQ1JH" role="3LF7KH">
           <ref role="398BVh" node="1UsTn3WQ12P" resolve="pagination.home" />
           <node concept="2Ry0Ak" id="1UsTn3WQ1L3" role="iGT6I">
@@ -19915,6 +19919,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.editor.pagination.test" />
         <property role="3LESm3" value="03b57d96-6e28-44ba-a68b-4cc264810a54" />
+        <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
         <node concept="398BVA" id="1UsTn3WQ1a5" role="3LF7KH">
           <ref role="398BVh" node="1UsTn3WQ12P" resolve="pagination.home" />
           <node concept="2Ry0Ak" id="1UsTn3WQ1br" role="iGT6I">

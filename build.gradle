@@ -116,10 +116,12 @@ ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRe
 
 configurations {
     mps
+    languageLibs
 }
 
 dependencies {
     mps "com.jetbrains:mps:$mpsVersion"
+    languageLibs "org.mpsqa:all-in-one:$mpsMajor+"
 }
 
 repositories {
@@ -150,6 +152,49 @@ if (project.skipResolveMps) {
         into mpsHomeDir
     }
 }
+
+task resolveLanguageLibs(type: Sync) {
+    from {
+        configurations.languageLibs.resolve().collect { zipTree(it) }
+    }
+    into "$buildDir/dependencies"
+}
+
+apply plugin: 'modelcheck'
+
+File modelcheckresult = new File("$buildDir/TEST-checkProject.xml")
+
+def pluginsList = []
+pluginsList.add(new de.itemis.mps.gradle.Plugin("jetbrains.mps.editor.tooltips", "$buildDir/mps/plugins/mps-tooltips"))
+
+modelcheck {
+    projectLocation =  new File("$projectDir/code")
+    mpsLocation = new File("$buildDir/mps")
+    javaExec = new File(jdk_home, 'bin/java')
+    plugins = pluginsList
+    mpsConfig = configurations.mps
+    macros = [new Macro("extensions.home", "$projectDir")]
+    junitFile = modelcheckresult
+    errorNoFail = true
+    debug = false
+    junitFormat = "message"
+    maxHeap = "4G"
+}
+
+afterEvaluate {  project ->
+    if(project.hasProperty("run_modelcheck")) {
+        check.configure {
+            dependsOn tasks.named('checkmodels')
+        }
+    }
+}
+
+task generateLibrariesXml(type: de.itemis.mps.gradle.GenerateLibrariesXml) {
+    defaults rootProject.file('projectlibraries.properties')
+    overrides rootProject.file('projectlibraries.overrides.properties')
+    destination file('code/.mps/libraries.xml')
+}
+
 
 // -------- Model API ----------------------
 
@@ -229,28 +274,10 @@ ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
 
-tasks.register("checkModulePaths") {
-    def mps_dot_folder = ".mps";
-    def modules_xml_location = "modules.xml"
-    def file = "$projectDir/code/$mps_dot_folder/$modules_xml_location"
-    def project = new XmlParser().parse(file)
-
-    def invalidModules = project.component.projectModules.modulePath.'@path'.findAll {
-        def path = it.replace("\$PROJECT_DIR\$","$rootDir/code")
-        return !(new File(path).exists())
-    }
-
-    if(!invalidModules.isEmpty()) {
-        throw new GradleException("The following modules in $modules_xml_location don't have valid paths:\n ${invalidModules.toArray().join('\n')}")
-    }
-}
-
-check.configure {
-    dependsOn checkModulePaths
-}
-
 task build_allScripts(type: BuildLanguages, dependsOn: [
         resolveMps,
+        resolveLanguageLibs,
+        generateLibrariesXml,
         copyModelApi,
 ]) {
     script "$rootDir/scripts/build.xml"

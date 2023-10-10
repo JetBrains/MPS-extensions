@@ -5,7 +5,6 @@
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="tqks" ref="r:ef260470-1c93-4c77-b130-eee395ea7328(de.q60.mps.shadowmodels.gen.desugar.structure)" />
     <import index="oyp0" ref="r:ff4bc8f2-4e53-41b7-a27c-792a5dcc86cb(de.q60.mps.shadowmodels.transformation.structure)" />
   </imports>
   <registry>

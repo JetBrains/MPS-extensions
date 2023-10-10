@@ -9,7 +9,6 @@
     <use id="bbb5f4e2-794a-4b91-bd27-caf7d437ac9e" name="de.q60.mps.shadowmodels.examples.blext" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="0bf7bc3b-b11d-42e4-b160-93d72af96397" name="de.q60.mps.shadowmodels.runtimelang" version="0" />
     <use id="a7322769-ef64-4daa-a2f4-fd4228fb713e" name="de.q60.mps.shadowmodels.target.text" version="0" />
     <use id="0a7577d1-d4e5-431d-98b1-fae38f9aee80" name="org.modelix.model.repositoryconcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -27,11 +26,9 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="k68r" ref="r:37e85211-427f-482e-b697-cf3275c6d596(de.q60.mps.shadowmodels.examples.entities.transformations)" />
     <import index="bp4t" ref="r:c375a18d-71ae-4a50-a794-bc6969ddf849(de.q60.mps.shadowmodels.examples.blext.transformations)" />
-    <import index="mjcn" ref="r:89ac1ee0-92ac-49e1-83e6-167854d2040e(de.q60.mps.shadowmodels.runtime.model)" />
     <import index="nv3w" ref="r:18e93978-2322-49a8-aaab-61c6faf67e2a(de.q60.mps.shadowmodels.runtime.engine)" />
     <import index="oyp0" ref="r:ff4bc8f2-4e53-41b7-a27c-792a5dcc86cb(de.q60.mps.shadowmodels.transformation.structure)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="3d38" ref="r:bc160b50-5a4e-4f99-ba07-a7b7116dab7a(de.q60.mps.incremental.util)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
@@ -408,6 +405,7 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
+      <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
       <concept id="5944356402132808749" name="jetbrains.mps.lang.smodel.structure.ConceptSwitchStatement" flags="nn" index="1_3QMa">
         <child id="6039268229365417680" name="defaultBlock" index="1prKM_" />
         <child id="5944356402132808753" name="case" index="1_3QMm" />
@@ -415,6 +413,7 @@
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
+      <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -422,6 +421,10 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
@@ -436,6 +439,7 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
@@ -904,6 +908,53 @@
     <node concept="2YIFZL" id="4JmkJs3KdFW" role="jymVt">
       <property role="TrG5h" value="runTest" />
       <node concept="3clFbS" id="4JmkJs3K8da" role="3clF47">
+        <node concept="3cpWs8" id="5hn2EqIvqY7" role="3cqZAp">
+          <node concept="3cpWsn" id="5hn2EqIvqYa" role="3cpWs9">
+            <property role="TrG5h" value="expectedOutputWithoutAnnotations" />
+            <node concept="3Tqbb2" id="5hn2EqIvqY5" role="1tU5fm" />
+            <node concept="2OqwBi" id="5hn2EqIvy4Z" role="33vP2m">
+              <node concept="37vLTw" id="5hn2EqIvwSU" role="2Oq$k0">
+                <ref role="3cqZAo" node="4JmkJs3KamR" resolve="expectedOutput" />
+              </node>
+              <node concept="1$rogu" id="5hn2EqIvzmE" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5hn2EqIv_ze" role="3cqZAp">
+          <node concept="2OqwBi" id="5hn2EqIvHWm" role="3clFbG">
+            <node concept="2OqwBi" id="5hn2EqIvBmB" role="2Oq$k0">
+              <node concept="37vLTw" id="5hn2EqIv_zc" role="2Oq$k0">
+                <ref role="3cqZAo" node="5hn2EqIvqYa" resolve="expectedOutputWithoutAnnotations" />
+              </node>
+              <node concept="2Rf3mk" id="5hn2EqIvDzJ" role="2OqNvi">
+                <node concept="1xMEDy" id="5hn2EqIvDzL" role="1xVPHs">
+                  <node concept="chp4Y" id="5hn2EqIvEMz" role="ri$Ld">
+                    <ref role="cht4Q" to="tpck:3EoG9lZUeni" resolve="SuppressErrorsAnnotation" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="5hn2EqIvMEn" role="2OqNvi">
+              <node concept="1bVj0M" id="5hn2EqIvMEp" role="23t8la">
+                <node concept="3clFbS" id="5hn2EqIvMEq" role="1bW5cS">
+                  <node concept="3clFbF" id="5hn2EqIvNPx" role="3cqZAp">
+                    <node concept="2OqwBi" id="5hn2EqIvP5G" role="3clFbG">
+                      <node concept="37vLTw" id="5hn2EqIvNPw" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5hn2EqIvMEr" resolve="it" />
+                      </node>
+                      <node concept="3YRAZt" id="5hn2EqIvQxH" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="5hn2EqIvMEr" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="5hn2EqIvMEs" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5hn2EqIv_$H" role="3cqZAp" />
         <node concept="3cpWs8" id="4Dc7ogUxJSs" role="3cqZAp">
           <node concept="3cpWsn" id="4Dc7ogUxJSt" role="3cpWs9">
             <property role="TrG5h" value="repository" />
@@ -1024,7 +1075,7 @@
                                       <ref role="3cqZAo" node="2BHSBiu$pwW" resolve="output" />
                                     </node>
                                     <node concept="37vLTw" id="4JmkJs3Kbza" role="37wK5m">
-                                      <ref role="3cqZAo" node="4JmkJs3KamR" resolve="expectedOutput" />
+                                      <ref role="3cqZAo" node="5hn2EqIvqYa" resolve="expectedOutputWithoutAnnotations" />
                                     </node>
                                   </node>
                                 </node>
@@ -2148,6 +2199,14 @@
               </node>
             </node>
             <node concept="3cpWs8" id="5VZCLuISq9p" role="3cqZAp">
+              <node concept="15s5l7" id="5tP$u8CEBCU" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type meet(Comparable &amp; Serializable) is not a subtype of string&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/554301099359820442]&quot;;" />
+                <property role="huDt6" value="Error: type meet(Comparable &amp; Serializable) is not a subtype of string" />
+              </node>
+              <node concept="15s5l7" id="5tP$u8CEBjS" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int is not a strong subtype of meet(Serializable &amp; Comparable)&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5996131566378004095]&quot;;" />
+                <property role="huDt6" value="Error: type int is not a strong subtype of meet(Serializable &amp; Comparable)" />
+              </node>
               <node concept="3cpWsn" id="5VZCLuISq9q" role="3cpWs9">
                 <property role="TrG5h" value="b" />
                 <node concept="2YIFZM" id="5VZCLuISq9r" role="33vP2m">
@@ -2376,6 +2435,10 @@
               </node>
             </node>
             <node concept="3cpWs8" id="2BHSBiuwvbx" role="3cqZAp">
+              <node concept="15s5l7" id="5tP$u8CEDiJ" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int is not a strong subtype of java.lang.Integer&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5996131566378004095]&quot;;" />
+                <property role="huDt6" value="Error: type int is not a strong subtype of java.lang.Integer" />
+              </node>
               <node concept="3cpWsn" id="2BHSBiuwvby" role="3cpWs9">
                 <property role="TrG5h" value="x" />
                 <node concept="2YIFZM" id="20qQUl4Y6zU" role="33vP2m">
@@ -3000,6 +3063,10 @@
               </node>
             </node>
             <node concept="3cpWs8" id="6$M6y1ewcyO" role="3cqZAp">
+              <node concept="15s5l7" id="5tP$u8CECFX" role="lGtFl">
+                <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type int is not a strong subtype of java.lang.Integer&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5996131566378004095]&quot;;" />
+                <property role="huDt6" value="Error: type int is not a strong subtype of java.lang.Integer" />
+              </node>
               <node concept="3cpWsn" id="6$M6y1ewcyP" role="3cpWs9">
                 <property role="TrG5h" value="x" />
                 <node concept="2YIFZM" id="6$M6y1ewcyQ" role="33vP2m">

@@ -165,7 +165,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="3jJoUQ7btXL">
-    <property role="2XOHcw" value="${polymorphicfunctions.home}/mps" />
+    <property role="2XOHcw" value="${extensions.home}/code" />
   </node>
   <node concept="1lH9Xt" id="3jJoUQ7bu0n">
     <property role="TrG5h" value="TextGen" />

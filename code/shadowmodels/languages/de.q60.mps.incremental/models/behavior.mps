@@ -623,7 +623,9 @@
       </node>
       <node concept="37vLTG" id="hTgUC0T" role="3clF46">
         <property role="TrG5h" value="resultType" />
-        <node concept="3Tqbb2" id="hVwtNCx" role="1tU5fm" />
+        <node concept="3Tqbb2" id="hVwtNCx" role="1tU5fm">
+          <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+        </node>
       </node>
       <node concept="37vLTG" id="hVwtY_P" role="3clF46">
         <property role="TrG5h" value="returnType" />

@@ -26,6 +26,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="true">6c5bab3e-5035-4a48-b9ea-62747c04e3d6(com.mbeddr.mpsutil.blutil.genutil.rt)</dependency>
+        <dependency reexport="false" scope="design">f1457ec8-c780-4f6f-89b4-c79af7789be1(jetbrains.mps.lang.generator#1167163152317)</dependency>
         <dependency reexport="false">215c4c45-ba99-49f5-9ab7-4b6901a63cfd(MPS.Generator)</dependency>
       </dependencies>
       <languageVersions>
@@ -82,7 +83,6 @@
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="true">6c5bab3e-5035-4a48-b9ea-62747c04e3d6(com.mbeddr.mpsutil.blutil.genutil.rt)</dependency>
     <dependency reexport="false">b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</dependency>
     <dependency reexport="false" scope="generate-into">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
@@ -135,7 +135,6 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="189537ea-2a28-44c9-91aa-a8e68b3e1e1b(com.mbeddr.mpsutil.blutil.genutil)" version="0" />
-    <module reference="6c5bab3e-5035-4a48-b9ea-62747c04e3d6(com.mbeddr.mpsutil.blutil.genutil.rt)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
     <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />

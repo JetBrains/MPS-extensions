@@ -8361,8 +8361,8 @@
                   <node concept="liA8E" id="21DGiA5nvto" role="2OqNvi">
                     <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                     <node concept="10M0yZ" id="21DGiA5nvtp" role="37wK5m">
-                      <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
                       <ref role="3cqZAo" to="lzb2:~JBColor.BLACK" resolve="BLACK" />
+                      <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
                     </node>
                   </node>
                 </node>

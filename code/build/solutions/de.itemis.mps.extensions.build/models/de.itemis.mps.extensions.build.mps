@@ -19445,6 +19445,15 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="1UsTn3WQ12P" role="1l3spd">
+      <property role="TrG5h" value="pagination.home" />
+      <node concept="398BVA" id="1UsTn3WQ16e" role="398pKh">
+        <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+        <node concept="2Ry0Ak" id="1UsTn3WQ17z" role="iGT6I">
+          <property role="2Ry0Am" value="pagination" />
+        </node>
+      </node>
+    </node>
     <node concept="398rNT" id="OJuIQq1NW4" role="1l3spd">
       <property role="TrG5h" value="mps.macro.extensions.home" />
       <node concept="398BVA" id="OJuIQq1NY5" role="398pKh">
@@ -19642,7 +19651,7 @@
         <ref role="L2wRA" node="3RnR3eq5ow" resolve="com.mbeddr.mpsutil.intentions.sandbox" />
       </node>
       <node concept="L2wRC" id="7NiuBZ$i0Mf" role="39821P">
-        <ref role="L2wRA" node="7NiuBZ$i0jE" resolve="de.itemis.mps.editor.pagination.test" />
+        <ref role="L2wRA" node="1UsTn3WQ0YL" resolve="de.itemis.mps.editor.pagination.test" />
       </node>
     </node>
     <node concept="22LTRH" id="6yXTMcTWb7V" role="1hWBAP">
@@ -19735,8 +19744,8 @@
       <node concept="22LTRM" id="3RnR3eq6Ej" role="22LTRK">
         <ref role="22LTRN" node="3RnR3eq5ow" resolve="com.mbeddr.mpsutil.intentions.sandbox" />
       </node>
-      <node concept="22LTRM" id="7NiuBZ$i0Ql" role="22LTRK">
-        <ref role="22LTRN" node="7NiuBZ$i0jE" resolve="de.itemis.mps.editor.pagination.test" />
+      <node concept="22LTRF" id="1UsTn3WQ0S3" role="22LTRK">
+        <ref role="22LTRG" node="1UsTn3WQ0pZ" resolve="de.itemis.mps.editor.pagination.test" />
       </node>
     </node>
     <node concept="2G$12M" id="6FSn2vLtrfJ" role="3989C9">
@@ -19837,6 +19846,117 @@
             <node concept="3qWCbU" id="6FSn2vLtsMM" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2G$12M" id="1UsTn3WQ0pZ" role="3989C9">
+      <property role="TrG5h" value="pagination" />
+      <node concept="1E1JtA" id="1UsTn3WQ1I9" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.editor.pagination.runtime" />
+        <property role="3LESm3" value="b8eca104-6d07-43d6-9bd7-4c8692c82707" />
+        <node concept="398BVA" id="1UsTn3WQ1JH" role="3LF7KH">
+          <ref role="398BVh" node="1UsTn3WQ12P" resolve="pagination.home" />
+          <node concept="2Ry0Ak" id="1UsTn3WQ1L3" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="1UsTn3WQ1Mo" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.runtime" />
+              <node concept="2Ry0Ak" id="1UsTn3WQ1N5" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.runtime.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UsTn3WQ2a9" role="3bR37C">
+          <node concept="3bR9La" id="1UsTn3WQ2aa" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UsTn3WQ2ab" role="3bR37C">
+          <node concept="3bR9La" id="1UsTn3WQ2ac" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UsTn3WQ2ad" role="3bR37C">
+          <node concept="3bR9La" id="1UsTn3WQ2ae" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UsTn3WQ2af" role="3bR37C">
+          <node concept="3bR9La" id="1UsTn3WQ2ag" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="1UsTn3WQ2aA" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="1UsTn3WQ2aB" role="1HemKq">
+            <node concept="398BVA" id="1UsTn3WQ2ah" role="3LXTmr">
+              <ref role="398BVh" node="1UsTn3WQ12P" resolve="pagination.home" />
+              <node concept="2Ry0Ak" id="1UsTn3WQ2ai" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="1UsTn3WQ2aj" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.runtime" />
+                  <node concept="2Ry0Ak" id="1UsTn3WQ2ak" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="1UsTn3WQ2aC" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="1UsTn3WQ0YL" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.itemis.mps.editor.pagination.test" />
+        <property role="3LESm3" value="03b57d96-6e28-44ba-a68b-4cc264810a54" />
+        <node concept="398BVA" id="1UsTn3WQ1a5" role="3LF7KH">
+          <ref role="398BVh" node="1UsTn3WQ12P" resolve="pagination.home" />
+          <node concept="2Ry0Ak" id="1UsTn3WQ1br" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="1UsTn3WQ1do" role="2Ry0An">
+              <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.test" />
+              <node concept="2Ry0Ak" id="1UsTn3WQ1eH" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.test.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UsTn3WQ1_L" role="3bR37C">
+          <node concept="3bR9La" id="1UsTn3WQ1_M" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="1UsTn3WQ1A8" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="1UsTn3WQ1A9" role="1HemKq">
+            <node concept="398BVA" id="1UsTn3WQ1_N" role="3LXTmr">
+              <ref role="398BVh" node="1UsTn3WQ12P" resolve="pagination.home" />
+              <node concept="2Ry0Ak" id="1UsTn3WQ1_O" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="1UsTn3WQ1_P" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.test" />
+                  <node concept="2Ry0Ak" id="1UsTn3WQ1_Q" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="1UsTn3WQ1Aa" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UsTn3WQ2CR" role="3bR37C">
+          <node concept="3bR9La" id="1UsTn3WQ2CS" role="1SiIV1">
+            <ref role="3bR37D" node="1UsTn3WQ1I9" resolve="de.itemis.mps.editor.pagination.runtime" />
           </node>
         </node>
       </node>

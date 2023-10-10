@@ -10151,6 +10151,11 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KZM" resolve="closures.runtime" />
             </node>
           </node>
+          <node concept="1SiIV0" id="6RD4f$UjeiO" role="3bR37C">
+            <node concept="3bR9La" id="6RD4f$UjeiP" role="1SiIV1">
+              <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="4iIKqJTZ63o" role="1E1XAP">
           <ref role="1E0d5P" node="4iIKqJTZ5H4" resolve="de.q60.mps.polymorphicfunctions.runtime" />

@@ -115,6 +115,11 @@
       <modulePath path="$PROJECT_DIR$/nodeversioning/languages/de.itemis.mps.nodeversioning/de.itemis.mps.nodeversioning.mpl" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/solutions/de.itemis.mps.nodeversioning.runtime/de.itemis.mps.nodeversioning.runtime.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/tests/de.itemis.mps.nodeversioning.test/de.itemis.mps.nodeversioning.test.msd" folder="nodeversioning" />
+      <modulePath path="$PROJECT_DIR$/pagination/languages/de.itemis.mps.editor.pagination.demolang/de.itemis.mps.editor.pagination.demolang.mpl" folder="pagination" />
+      <modulePath path="$PROJECT_DIR$/pagination/languages/de.itemis.mps.editor.pagination/de.itemis.mps.editor.pagination.mpl" folder="pagination" />
+      <modulePath path="$PROJECT_DIR$/pagination/solutions/de.itemis.mps.editor.pagination.demolang.sandbox/de.itemis.mps.editor.pagination.demolang.sandbox.msd" folder="pagination" />
+      <modulePath path="$PROJECT_DIR$/pagination/solutions/de.itemis.mps.editor.pagination.runtime/de.itemis.mps.editor.pagination.runtime.msd" folder="pagination" />
+      <modulePath path="$PROJECT_DIR$/pagination/solutions/de.itemis.mps.editor.pagination.test/de.itemis.mps.editor.pagination.test.msd" folder="pagination" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextflow/com.dslfoundry.plaintextflow.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.nestedlist/com.dslfoundry.plaintextgen.example.nestedlist.mpl" folder="plaintextgen" />
       <modulePath path="$PROJECT_DIR$/plaintextgen/languages/com.dslfoundry.plaintextgen.example.testlang/com.dslfoundry.plaintextgen.example.testlang.mpl" folder="plaintextgen" />

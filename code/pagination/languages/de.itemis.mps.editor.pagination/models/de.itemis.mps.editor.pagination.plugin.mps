@@ -87,10 +87,6 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
-      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
-        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
-        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
-      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -99,9 +95,6 @@
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
@@ -165,7 +158,6 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -1922,7 +1914,6 @@
                                                         </node>
                                                       </node>
                                                     </node>
-                                                    <node concept="3clFbH" id="47Pq93IMwIt" role="3cqZAp" />
                                                     <node concept="3clFbF" id="47Pq93IeTJx" role="3cqZAp">
                                                       <node concept="2OqwBi" id="47Pq93IeWgw" role="3clFbG">
                                                         <node concept="37vLTw" id="47Pq93IeTJv" role="2Oq$k0">
@@ -1931,63 +1922,6 @@
                                                         <node concept="2es0OD" id="47Pq93IeYHL" role="2OqNvi">
                                                           <node concept="1bVj0M" id="47Pq93IeYHN" role="23t8la">
                                                             <node concept="3clFbS" id="47Pq93IeYHO" role="1bW5cS">
-                                                              <node concept="3clFbF" id="47Pq93IeIz0" role="3cqZAp">
-                                                                <node concept="2OqwBi" id="47Pq93IeIz2" role="3clFbG">
-                                                                  <node concept="2ShNRf" id="47Pq93IeIz3" role="2Oq$k0">
-                                                                    <node concept="1pGfFk" id="47Pq93IeIz4" role="2ShVmc">
-                                                                      <ref role="37wK5l" to="fnpx:~Notification.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String,com.intellij.notification.NotificationType)" resolve="Notification" />
-                                                                      <node concept="Xl_RD" id="47Pq93IeIz5" role="37wK5m">
-                                                                        <property role="Xl_RC" value="pagination.plugin" />
-                                                                      </node>
-                                                                      <node concept="3cpWs3" id="47Pq93IeIz6" role="37wK5m">
-                                                                        <node concept="Xl_RD" id="47Pq93IeIz7" role="3uHU7B">
-                                                                          <property role="Xl_RC" value="Setting page to " />
-                                                                        </node>
-                                                                        <node concept="2OqwBi" id="47Pq93IeIz8" role="3uHU7w">
-                                                                          <node concept="2OqwBi" id="47Pq93IeIz9" role="2Oq$k0">
-                                                                            <node concept="2OqwBi" id="47Pq93IeIza" role="2Oq$k0">
-                                                                              <node concept="2OqwBi" id="47Pq93IiNGQ" role="2Oq$k0">
-                                                                                <node concept="37vLTw" id="47Pq93IeIzb" role="2Oq$k0">
-                                                                                  <ref role="3cqZAo" node="47Pq93IeYHP" resolve="change" />
-                                                                                </node>
-                                                                                <node concept="2OwXpG" id="47Pq93IiPRE" role="2OqNvi">
-                                                                                  <ref role="2Oxat5" node="47Pq93IhyGZ" resolve="newPages" />
-                                                                                </node>
-                                                                              </node>
-                                                                              <node concept="liA8E" id="47Pq93IeIzc" role="2OqNvi">
-                                                                                <ref role="37wK5l" to="9rx:4J8HQTrorte" resolve="getCurrentPage" />
-                                                                              </node>
-                                                                            </node>
-                                                                            <node concept="liA8E" id="47Pq93IeIzd" role="2OqNvi">
-                                                                              <ref role="37wK5l" to="9rx:4J8HQTrmNTf" resolve="getPageNumber" />
-                                                                            </node>
-                                                                          </node>
-                                                                          <node concept="liA8E" id="47Pq93IeIze" role="2OqNvi">
-                                                                            <ref role="37wK5l" to="9rx:4J8HQTrlAqj" resolve="getValue" />
-                                                                          </node>
-                                                                        </node>
-                                                                      </node>
-                                                                      <node concept="Xl_RD" id="47Pq93IeIzf" role="37wK5m">
-                                                                        <property role="Xl_RC" value="" />
-                                                                      </node>
-                                                                      <node concept="Rm8GO" id="47Pq93IeIzg" role="37wK5m">
-                                                                        <ref role="1Px2BO" to="fnpx:~NotificationType" resolve="NotificationType" />
-                                                                        <ref role="Rm8GQ" to="fnpx:~NotificationType.INFORMATION" resolve="INFORMATION" />
-                                                                      </node>
-                                                                    </node>
-                                                                  </node>
-                                                                  <node concept="liA8E" id="47Pq93IeIzh" role="2OqNvi">
-                                                                    <ref role="37wK5l" to="fnpx:~Notification.notify(com.intellij.openapi.project.Project)" resolve="notify" />
-                                                                    <node concept="2YIFZM" id="47Pq93IeIzi" role="37wK5m">
-                                                                      <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                                                                      <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
-                                                                      <node concept="37vLTw" id="47Pq93IeIzj" role="37wK5m">
-                                                                        <ref role="3cqZAo" node="47Pq93IghKP" resolve="project" />
-                                                                      </node>
-                                                                    </node>
-                                                                  </node>
-                                                                </node>
-                                                              </node>
                                                               <node concept="3clFbF" id="47Pq93IeNe7" role="3cqZAp">
                                                                 <node concept="2OqwBi" id="47Pq93IeNe9" role="3clFbG">
                                                                   <node concept="2OqwBi" id="47Pq93Ij1Oz" role="2Oq$k0">
@@ -2040,7 +1974,6 @@
                                                         </node>
                                                       </node>
                                                     </node>
-                                                    <node concept="3clFbH" id="47Pq93IPX5L" role="3cqZAp" />
                                                     <node concept="3clFbF" id="47Pq93IM1cD" role="3cqZAp">
                                                       <node concept="2OqwBi" id="47Pq93IM3$e" role="3clFbG">
                                                         <node concept="37vLTw" id="47Pq93IM1cB" role="2Oq$k0">

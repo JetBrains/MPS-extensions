@@ -4,12 +4,6 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${module}/lib" type="java_classes">
-      <sourceRoot location="jdom2-2.0.6.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/lib/lib" type="java_classes">
-      <sourceRoot location="jaxen-1.1.6.jar" />
-    </modelRoot>
   </models>
   <facets>
     <facet type="java">
@@ -23,10 +17,6 @@
     <facet type="java" />
     <facet type="tests" />
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/lib/lib/jaxen-1.1.6.jar" />
-    <stubModelEntry path="${module}/lib/jdom2-2.0.6.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

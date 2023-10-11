@@ -3195,7 +3195,9 @@
         <node concept="3cpWs8" id="ednJFOitb6" role="3cqZAp">
           <node concept="3cpWsn" id="ednJFOitb9" role="3cpWs9">
             <property role="TrG5h" value="containmentLinkGetter" />
-            <node concept="3Tqbb2" id="ednJFOitb4" role="1tU5fm" />
+            <node concept="3Tqbb2" id="ednJFOitb4" role="1tU5fm">
+              <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="ednJFOiW5L" role="3cqZAp" />

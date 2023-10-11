@@ -9,7 +9,6 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -3771,6 +3770,9 @@
     </node>
     <node concept="2tJIrI" id="5gTrVpGjEOF" role="jymVt" />
     <node concept="3Tm1VV" id="5gTrVpGjuLh" role="1B3o_S" />
+    <node concept="3uibUv" id="16JGHGUSd7h" role="EKbjA">
+      <ref role="3uigEE" to="jks5:~INodeEx" resolve="INodeEx" />
+    </node>
     <node concept="3clFbW" id="5gTrVpGjEP4" role="jymVt">
       <node concept="3cqZAl" id="5gTrVpGjEP5" role="3clF45" />
       <node concept="3Tm6S6" id="4EhVFrZi6lh" role="1B3o_S" />
@@ -6464,9 +6466,6 @@
       <node concept="2AHcQZ" id="16JGHGUSy82" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
-    </node>
-    <node concept="3uibUv" id="16JGHGUSd7h" role="EKbjA">
-      <ref role="3uigEE" to="jks5:~INodeEx" resolve="INodeEx" />
     </node>
   </node>
   <node concept="312cEu" id="4EhVFrZ3AjR">
@@ -9408,6 +9407,7 @@
       <node concept="2AHcQZ" id="4EhVFrZ3Ar4" role="2AJF6D">
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
+      <node concept="17QB3L" id="16JGHGUZZVP" role="3clF45" />
       <node concept="37vLTG" id="4EhVFrZ3Ar6" role="3clF46">
         <property role="TrG5h" value="property" />
         <node concept="3uibUv" id="4EhVFrZ3Ar7" role="1tU5fm">
@@ -9442,7 +9442,6 @@
       <node concept="2AHcQZ" id="4EhVFrZ3Ara" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
-      <node concept="17QB3L" id="16JGHGUZZVP" role="3clF45" />
     </node>
     <node concept="3clFb_" id="4EhVFrZ3Ard" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -12435,7 +12434,7 @@
               <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
             </node>
             <node concept="1rXfSq" id="1oPURZ4aZSj" role="33vP2m">
-              <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
+              <ref role="37wK5l" node="6mTvcOx1jSf" resolve="getConcept" />
             </node>
           </node>
         </node>
@@ -12966,7 +12965,7 @@
               <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
             </node>
             <node concept="1rXfSq" id="1oPURZ4cp6T" role="33vP2m">
-              <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
+              <ref role="37wK5l" node="6mTvcOx1jSf" resolve="getConcept" />
             </node>
           </node>
         </node>
@@ -13058,7 +13057,7 @@
               <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
             </node>
             <node concept="1rXfSq" id="1oPURZ4cvOu" role="33vP2m">
-              <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
+              <ref role="37wK5l" node="6mTvcOx1jSf" resolve="getConcept" />
             </node>
           </node>
         </node>

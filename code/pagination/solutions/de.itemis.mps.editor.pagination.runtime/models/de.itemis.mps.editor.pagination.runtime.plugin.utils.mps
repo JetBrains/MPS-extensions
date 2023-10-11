@@ -195,7 +195,7 @@
           <node concept="3clFbC" id="1AFv0dCu7vI" role="3clFbw">
             <node concept="10Nm6u" id="1AFv0dCu8P2" role="3uHU7w" />
             <node concept="37vLTw" id="1AFv0dCu6al" role="3uHU7B">
-              <ref role="3cqZAo" node="1AFv0dCriQ6" resolve="editorCell" />
+              <ref role="3cqZAo" node="1AFv0dCriQ6" resolve="cell" />
             </node>
           </node>
         </node>
@@ -210,7 +210,7 @@
             </node>
             <node concept="3K4zz7" id="1AFv0dCtpPt" role="33vP2m">
               <node concept="37vLTw" id="1AFv0dCtpPu" role="3K4Cdx">
-                <ref role="3cqZAo" node="1AFv0dCtfw_" resolve="includeStartingEditorCell" />
+                <ref role="3cqZAo" node="1AFv0dCtfw_" resolve="includeStart" />
               </node>
               <node concept="2ShNRf" id="1AFv0dCtpPv" role="3K4E3e">
                 <node concept="2HTt$P" id="1AFv0dCtpPw" role="2ShVmc">
@@ -218,7 +218,7 @@
                     <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
                   </node>
                   <node concept="37vLTw" id="1AFv0dCtpPy" role="2HTEbv">
-                    <ref role="3cqZAo" node="1AFv0dCriQ6" resolve="editorCell" />
+                    <ref role="3cqZAo" node="1AFv0dCriQ6" resolve="cell" />
                   </node>
                 </node>
               </node>
@@ -236,7 +236,7 @@
         <node concept="3clFbF" id="1AFv0dCtyMR" role="3cqZAp">
           <node concept="2OqwBi" id="1AFv0dCtHO8" role="3clFbG">
             <node concept="37vLTw" id="1AFv0dCtyMP" role="2Oq$k0">
-              <ref role="3cqZAo" node="1AFv0dCtpPs" resolve="initialEditorCells" />
+              <ref role="3cqZAo" node="1AFv0dCtpPs" resolve="initialCells" />
             </node>
             <node concept="3QWeyG" id="1AFv0dCtJp6" role="2OqNvi">
               <node concept="2ShNRf" id="1AFv0dCtKlo" role="576Qk">
@@ -248,10 +248,10 @@
                     <node concept="3clFbS" id="1AFv0dCtO4Q" role="1bW5cS">
                       <node concept="3clFbF" id="1AFv0dCtPjY" role="3cqZAp">
                         <node concept="1rXfSq" id="1AFv0dCtPjX" role="3clFbG">
-                          <ref role="37wK5l" node="1AFv0dCHujU" resolve="getEditorCellAncestors" />
+                          <ref role="37wK5l" node="1AFv0dCHujU" resolve="getAncestors" />
                           <node concept="2OqwBi" id="1AFv0dCusHw" role="37wK5m">
                             <node concept="37vLTw" id="1AFv0dCusHx" role="2Oq$k0">
-                              <ref role="3cqZAo" node="1AFv0dCriQ6" resolve="editorCell" />
+                              <ref role="3cqZAo" node="1AFv0dCriQ6" resolve="cell" />
                             </node>
                             <node concept="liA8E" id="1AFv0dCusHy" role="2OqNvi">
                               <ref role="37wK5l" to="f4zo:~EditorCell.getParent()" resolve="getParent" />
@@ -306,7 +306,7 @@
           <node concept="3clFbC" id="1AFv0dCuxmj" role="3clFbw">
             <node concept="10Nm6u" id="1AFv0dCuxmk" role="3uHU7w" />
             <node concept="37vLTw" id="1AFv0dCuxml" role="3uHU7B">
-              <ref role="3cqZAo" node="1AFv0dCrm1V" resolve="editorCell" />
+              <ref role="3cqZAo" node="1AFv0dCrm1V" resolve="cell" />
             </node>
           </node>
         </node>
@@ -321,7 +321,7 @@
             </node>
             <node concept="3K4zz7" id="1AFv0dCuxmr" role="33vP2m">
               <node concept="37vLTw" id="1AFv0dCuxms" role="3K4Cdx">
-                <ref role="3cqZAo" node="1AFv0dCuyF3" resolve="includeStartingEditorCell" />
+                <ref role="3cqZAo" node="1AFv0dCuyF3" resolve="includeStart" />
               </node>
               <node concept="2ShNRf" id="1AFv0dCuxmt" role="3K4E3e">
                 <node concept="2HTt$P" id="1AFv0dCuxmu" role="2ShVmc">
@@ -329,7 +329,7 @@
                     <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
                   </node>
                   <node concept="37vLTw" id="1AFv0dCuxmw" role="2HTEbv">
-                    <ref role="3cqZAo" node="1AFv0dCrm1V" resolve="editorCell" />
+                    <ref role="3cqZAo" node="1AFv0dCrm1V" resolve="cell" />
                   </node>
                 </node>
               </node>
@@ -348,7 +348,7 @@
           <node concept="3clFbS" id="1AFv0dCuFGm" role="3clFbx">
             <node concept="3cpWs6" id="1AFv0dCuLyF" role="3cqZAp">
               <node concept="37vLTw" id="1AFv0dCuMNz" role="3cqZAk">
-                <ref role="3cqZAo" node="1AFv0dCuxmo" resolve="initialEditorCells" />
+                <ref role="3cqZAo" node="1AFv0dCuxmo" resolve="initialCells" />
               </node>
             </node>
           </node>
@@ -358,7 +358,7 @@
                 <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
               </node>
               <node concept="37vLTw" id="1AFv0dCv50J" role="2ZW6bz">
-                <ref role="3cqZAo" node="1AFv0dCrm1V" resolve="editorCell" />
+                <ref role="3cqZAo" node="1AFv0dCrm1V" resolve="cell" />
               </node>
             </node>
           </node>
@@ -374,7 +374,7 @@
                 <ref role="3uigEE" to="f4zo:~EditorCell_Collection" resolve="EditorCell_Collection" />
               </node>
               <node concept="37vLTw" id="1AFv0dCvdw6" role="0kSFX">
-                <ref role="3cqZAo" node="1AFv0dCrm1V" resolve="editorCell" />
+                <ref role="3cqZAo" node="1AFv0dCrm1V" resolve="cell" />
               </node>
             </node>
           </node>
@@ -383,7 +383,7 @@
         <node concept="3clFbF" id="1AFv0dCuxm_" role="3cqZAp">
           <node concept="2OqwBi" id="1AFv0dCuxmA" role="3clFbG">
             <node concept="37vLTw" id="1AFv0dCuxmB" role="2Oq$k0">
-              <ref role="3cqZAo" node="1AFv0dCuxmo" resolve="initialEditorCells" />
+              <ref role="3cqZAo" node="1AFv0dCuxmo" resolve="initialCells" />
             </node>
             <node concept="3QWeyG" id="1AFv0dCuxmC" role="2OqNvi">
               <node concept="2OqwBi" id="1AFv0dCxfFm" role="576Qk">
@@ -409,7 +409,7 @@
                             </node>
                           </node>
                           <node concept="37vLTw" id="1AFv0dCx6eu" role="1DdaDG">
-                            <ref role="3cqZAo" node="1AFv0dCvdw3" resolve="editorCellAsCollection" />
+                            <ref role="3cqZAo" node="1AFv0dCvdw3" resolve="cellAsCollection" />
                           </node>
                         </node>
                       </node>
@@ -421,7 +421,7 @@
                     <node concept="3clFbS" id="1AFv0dCxhnA" role="1bW5cS">
                       <node concept="3clFbF" id="1AFv0dCxmn_" role="3cqZAp">
                         <node concept="1rXfSq" id="1AFv0dCxmn$" role="3clFbG">
-                          <ref role="37wK5l" node="1AFv0dCH$Ru" resolve="getEditorCellDescendants" />
+                          <ref role="37wK5l" node="1AFv0dCH$Ru" resolve="getDescendants" />
                           <node concept="37vLTw" id="1AFv0dCxnF0" role="37wK5m">
                             <ref role="3cqZAo" node="1AFv0dCxhnB" resolve="childEditorCell" />
                           </node>

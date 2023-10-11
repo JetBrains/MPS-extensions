@@ -21,7 +21,7 @@
     <language slang="l:8585453e-6bfb-4d80-98de-b16074f1d86c:jetbrains.mps.lang.test" version="5" />
     <language slang="l:68015e26-cc4d-49db-8715-b643faea1769:jetbrains.mps.lang.test.generator" version="0" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
-    <language slang="l:2980eccb-8de2-4e74-96a0-1908c0172899:test.com.mbeddr.mpsutil.blutil.genutil.lang" version="-1" />
+    <language slang="l:2980eccb-8de2-4e74-96a0-1908c0172899:test.com.mbeddr.mpsutil.blutil.genutil.lang" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="990da2f9-03a7-461e-90ee-1e2c77962d6b(test.com.mbeddr.mpsutil.blutil.genutil)" version="0" />

@@ -149,7 +149,7 @@
       <node concept="3cqZAl" id="5K4KrT2tECQ" role="3clF45" />
       <node concept="3clFbS" id="5K4KrT2tECS" role="3clF47">
         <node concept="XkiVB" id="5K4KrT2vn4b" role="3cqZAp">
-          <ref role="37wK5l" node="5K4KrT2v2$W" />
+          <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
           <node concept="Xl_RD" id="5K4KrT2tJeQ" role="37wK5m">
             <property role="Xl_RC" value="previous" />
           </node>
@@ -192,7 +192,7 @@
     <node concept="2tJIrI" id="5K4KrT2vlle" role="jymVt" />
     <node concept="3Tm1VV" id="5K4KrT2tArE" role="1B3o_S" />
     <node concept="3uibUv" id="5K4KrT2vkuj" role="1zkMxy">
-      <ref role="3uigEE" node="5K4KrT2v0$1" />
+      <ref role="3uigEE" node="5K4KrT2v0$1" resolve="ChangePageJButton" />
     </node>
     <node concept="3clFb_" id="5K4KrT2vkSb" role="jymVt">
       <property role="TrG5h" value="getActionListener" />
@@ -225,7 +225,7 @@
           <node concept="2ShNRf" id="5K4KrT2tKy1" role="3clFbG">
             <node concept="1pGfFk" id="5K4KrT2tLnC" role="2ShVmc">
               <property role="373rjd" value="true" />
-              <ref role="37wK5l" node="5K4KrT2oBj1" />
+              <ref role="37wK5l" node="5K4KrT2oBj1" resolve="PreviousPageActionListener" />
               <node concept="37vLTw" id="5K4KrT2tLVH" role="37wK5m">
                 <ref role="3cqZAo" node="5K4KrT2vkSc" resolve="node" />
               </node>
@@ -255,7 +255,7 @@
       <node concept="3cqZAl" id="5K4KrT2oBj2" role="3clF45" />
       <node concept="3clFbS" id="5K4KrT2oBj4" role="3clF47">
         <node concept="XkiVB" id="5K4KrT2qx8j" role="3cqZAp">
-          <ref role="37wK5l" node="5K4KrT2qfDj" />
+          <ref role="37wK5l" node="5K4KrT2qfDj" resolve="PageActionListener" />
           <node concept="37vLTw" id="5K4KrT2qxd$" role="37wK5m">
             <ref role="3cqZAo" node="5K4KrT2oI4b" resolve="node" />
           </node>
@@ -294,7 +294,7 @@
     </node>
     <node concept="2tJIrI" id="5K4KrT2oHFY" role="jymVt" />
     <node concept="3uibUv" id="5K4KrT2qwt3" role="1zkMxy">
-      <ref role="3uigEE" node="5K4KrT2qePX" />
+      <ref role="3uigEE" node="5K4KrT2qePX" resolve="PageActionListener" />
     </node>
     <node concept="3clFb_" id="5K4KrT2qxKP" role="jymVt">
       <property role="TrG5h" value="canMove" />
@@ -589,7 +589,7 @@
       <node concept="3cqZAl" id="5K4KrT2uIGJ" role="3clF45" />
       <node concept="3clFbS" id="5K4KrT2uIGK" role="3clF47">
         <node concept="XkiVB" id="5K4KrT2vbRO" role="3cqZAp">
-          <ref role="37wK5l" node="5K4KrT2v2$W" />
+          <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
           <node concept="Xl_RD" id="5K4KrT2vjKW" role="37wK5m">
             <property role="Xl_RC" value="next" />
           </node>
@@ -632,7 +632,7 @@
     <node concept="2tJIrI" id="5K4KrT2vjid" role="jymVt" />
     <node concept="3Tm1VV" id="5K4KrT2uIH4" role="1B3o_S" />
     <node concept="3uibUv" id="5K4KrT2vaXe" role="1zkMxy">
-      <ref role="3uigEE" node="5K4KrT2v0$1" />
+      <ref role="3uigEE" node="5K4KrT2v0$1" resolve="ChangePageJButton" />
     </node>
     <node concept="3clFb_" id="5K4KrT2vdLF" role="jymVt">
       <property role="TrG5h" value="getActionListener" />
@@ -665,7 +665,7 @@
           <node concept="2ShNRf" id="5K4KrT2velW" role="3clFbG">
             <node concept="1pGfFk" id="5K4KrT2vf36" role="2ShVmc">
               <property role="373rjd" value="true" />
-              <ref role="37wK5l" node="5K4KrT2pDgH" />
+              <ref role="37wK5l" node="5K4KrT2pDgH" resolve="NextPageActionListener" />
               <node concept="37vLTw" id="5K4KrT2vfvK" role="37wK5m">
                 <ref role="3cqZAo" node="5K4KrT2vdLG" resolve="node" />
               </node>

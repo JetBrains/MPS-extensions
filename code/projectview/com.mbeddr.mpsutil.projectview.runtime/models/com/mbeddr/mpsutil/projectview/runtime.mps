@@ -252,8 +252,15 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
@@ -486,6 +493,7 @@
         <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
       </node>
     </node>
+    <node concept="3Tm1VV" id="3ZnFyBjtwPx" role="1B3o_S" />
     <node concept="3clFb_" id="5i3SmuN3rZ1" role="jymVt">
       <property role="TrG5h" value="isDefaultView" />
       <node concept="3clFbS" id="5i3SmuN3rZ4" role="3clF47" />
@@ -501,7 +509,6 @@
         </node>
       </node>
     </node>
-    <node concept="3Tm1VV" id="3ZnFyBjtwPx" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3ZnFyBjtwWN">
     <property role="TrG5h" value="IViewElementDescriptor" />
@@ -7332,11 +7339,11 @@
                   </node>
                 </node>
                 <node concept="2OqwBi" id="52ZF9D3g4gR" role="2GsD0m">
-                  <node concept="37vLTw" id="2oNsb922mcE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2oNsb9228bt" resolve="moduleRepository" />
-                  </node>
                   <node concept="liA8E" id="52ZF9D3g4tz" role="2OqNvi">
                     <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getModules()" resolve="getModules" />
+                  </node>
+                  <node concept="37vLTw" id="2oNsb922mcE" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2oNsb9228bt" resolve="moduleRepository" />
                   </node>
                 </node>
               </node>
@@ -7344,6 +7351,10 @@
           </node>
           <node concept="37vLTw" id="2oNsb921ChJ" role="ukAjM">
             <ref role="3cqZAo" node="2oNsb9228bt" resolve="moduleRepository" />
+          </node>
+          <node concept="15s5l7" id="5tP$u8DpJnp" role="lGtFl">
+            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Shall specify a repository to lock&quot;;FLAVOUR_RULE_ID=&quot;[r:aad06b20-0a6a-42d7-81b8-671529c6126a(jetbrains.mps.lang.access.typesystem)/1705896275416798528]&quot;;" />
+            <property role="huDt6" value="Error: Shall specify a repository to lock" />
           </node>
         </node>
       </node>

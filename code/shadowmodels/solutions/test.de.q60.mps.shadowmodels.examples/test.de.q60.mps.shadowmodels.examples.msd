@@ -28,7 +28,6 @@
     <language slang="l:bbb5f4e2-794a-4b91-bd27-caf7d437ac9e:de.q60.mps.shadowmodels.examples.blext" version="0" />
     <language slang="l:ca32b5fa-caea-4f97-9686-6f60d4d677d4:de.q60.mps.shadowmodels.examples.entities" version="0" />
     <language slang="l:ebb56408-a287-44ca-ab2d-1b6ee6850446:de.q60.mps.shadowmodels.examples.statemachine" version="0" />
-    <language slang="l:0bf7bc3b-b11d-42e4-b160-93d72af96397:de.q60.mps.shadowmodels.runtimelang" version="0" />
     <language slang="l:a7322769-ef64-4daa-a2f4-fd4228fb713e:de.q60.mps.shadowmodels.target.text" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:774bf8a0-62e5-41e1-af63-f4812e60e48b:jetbrains.mps.baseLanguage.checkedDots" version="0" />

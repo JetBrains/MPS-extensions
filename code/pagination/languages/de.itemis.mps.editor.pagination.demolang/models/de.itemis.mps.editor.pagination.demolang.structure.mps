@@ -63,7 +63,7 @@
     <property role="EcuMT" value="2646108724982184770" />
     <property role="TrG5h" value="Test" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2iSRtQtBZH3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -102,7 +102,7 @@
   <node concept="1TIwiD" id="2iSRtQtDrgE">
     <property role="EcuMT" value="2646108724982559786" />
     <property role="TrG5h" value="ChildTest" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2iSRtQtDrgF" role="1TKVEl">
       <property role="IQ2nx" value="2646108724982559787" />
       <property role="TrG5h" value="n" />

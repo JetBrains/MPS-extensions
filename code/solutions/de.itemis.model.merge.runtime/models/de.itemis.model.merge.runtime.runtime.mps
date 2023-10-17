@@ -2256,7 +2256,7 @@
                       </node>
                       <node concept="10Nm6u" id="6IgrZARD803" role="37wK5m" />
                       <node concept="37vLTw" id="50eR6VkWvFn" role="37wK5m">
-                        <ref role="3cqZAo" node="50eR6VkTWMM" resolve="autoMergeOperation" />
+                        <ref role="3cqZAo" node="50eR6VkTWMM" resolve="recursiveMergeOperation" />
                       </node>
                     </node>
                   </node>
@@ -2327,7 +2327,7 @@
                     <ref role="3cqZAo" node="7Q6gVCYmD_Z" resolve="equalRightElement" />
                   </node>
                   <node concept="37vLTw" id="50eR6VkWtDQ" role="37wK5m">
-                    <ref role="3cqZAo" node="50eR6VkTWMM" resolve="autoMergeOperation" />
+                    <ref role="3cqZAo" node="50eR6VkTWMM" resolve="recursiveMergeOperation" />
                   </node>
                 </node>
               </node>
@@ -2850,7 +2850,7 @@
                     <ref role="2Gs0qQ" node="6IgrZARD8J_" resolve="rightElementsOnlyRight" />
                   </node>
                   <node concept="37vLTw" id="50eR6VkWwGg" role="37wK5m">
-                    <ref role="3cqZAo" node="50eR6VkTWMM" resolve="autoMergeOperation" />
+                    <ref role="3cqZAo" node="50eR6VkTWMM" resolve="recursiveMergeOperation" />
                   </node>
                 </node>
               </node>
@@ -2996,7 +2996,7 @@
                     <ref role="2Gs0qQ" node="2tzyNymlA44" resolve="rightElementsOnlyRight" />
                   </node>
                   <node concept="37vLTw" id="2tzyNymlA4i" role="37wK5m">
-                    <ref role="3cqZAo" node="50eR6VkTWMM" resolve="autoMergeOperation" />
+                    <ref role="3cqZAo" node="50eR6VkTWMM" resolve="recursiveMergeOperation" />
                   </node>
                 </node>
               </node>
@@ -3074,7 +3074,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="50eR6VkTWMM" role="3clF46">
-        <property role="TrG5h" value="autoMergeOperation" />
+        <property role="TrG5h" value="recursiveMergeOperation" />
         <node concept="1ajhzC" id="50eR6VkTWMN" role="1tU5fm">
           <node concept="3uibUv" id="50eR6VkTWMO" role="1ajw0F">
             <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
@@ -3090,17 +3090,17 @@
       <node concept="P$JXv" id="7ePFzsRMqjF" role="lGtFl">
         <node concept="TZ5HA" id="7ePFzsRMqjG" role="TZ5H$">
           <node concept="1dT_AC" id="7ePFzsRMqjH" role="1dT_Ay">
-            <property role="1dT_AB" value="Perform a merge of the lists leftChildren and rightChildren." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="7ePFzsRMtjc" role="TZ5H$">
-          <node concept="1dT_AC" id="7ePFzsRMtjd" role="1dT_Ay">
-            <property role="1dT_AB" value="All elements from the rightChildren list are prioritized over the elements from the leftChildren list." />
+            <property role="1dT_AB" value="Perform a merge of the lists leftChildren and rightChildren by matching elements of both." />
           </node>
         </node>
         <node concept="TZ5HA" id="7ePFzsRN6Wt" role="TZ5H$">
           <node concept="1dT_AC" id="7ePFzsRN6Wu" role="1dT_Ay">
-            <property role="1dT_AB" value="Unmatched elements from rightChildren are prepended, unmatched elements from leftChildren are dropped" />
+            <property role="1dT_AB" value="Unmatched elements from rightChildren, left to the first matched element, are prepended." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="4Prn4KOL9kr" role="TZ5H$">
+          <node concept="1dT_AC" id="4Prn4KOL9ks" role="1dT_Ay">
+            <property role="1dT_AB" value="Unmatched elements from rightChildren, right to the last matched element, are added as suffix." />
           </node>
         </node>
         <node concept="TZ5HA" id="7ePFzsRN8Ta" role="TZ5H$">
@@ -3143,9 +3143,9 @@
           </node>
         </node>
         <node concept="TUZQ0" id="7ePFzsRMqjU" role="3nqlJM">
-          <property role="TUZQ4" value="auto merge operation defined for nodes contained in both lists" />
+          <property role="TUZQ4" value=" merge operation which can be applied to two nodes, where node-specific merge-policy is retrieved" />
           <node concept="zr_55" id="7ePFzsRMqjW" role="zr_5Q">
-            <ref role="zr_51" node="50eR6VkTWMM" resolve="autoMergeOperation" />
+            <ref role="zr_51" node="50eR6VkTWMM" resolve="recursiveMergeOperation" />
           </node>
         </node>
         <node concept="x79VA" id="7ePFzsRMqjX" role="3nqlJM">

@@ -8460,14 +8460,19 @@
           </node>
           <node concept="1SiIV0" id="7eO$0O_5n$5" role="3bR37C">
             <node concept="3bR9La" id="7eO$0O_5n$6" role="1SiIV1">
+              <property role="3bR36h" value="true" />
               <ref role="3bR37D" node="7eO$0O_5kAC" resolve="de.itemis.mps.editor.pagination.runtime" />
             </node>
           </node>
         </node>
         <node concept="1SiIV0" id="7eO$0O_5nzS" role="3bR37C">
           <node concept="3bR9La" id="7eO$0O_5nzT" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="7eO$0O_5kAC" resolve="de.itemis.mps.editor.pagination.runtime" />
           </node>
+        </node>
+        <node concept="1E0d5M" id="RcSIglfk4f" role="1E1XAP">
+          <ref role="1E0d5P" node="7eO$0O_5kAC" resolve="de.itemis.mps.editor.pagination.runtime" />
         </node>
       </node>
       <node concept="1E1JtA" id="7eO$0O_5kAC" role="2G$12L">

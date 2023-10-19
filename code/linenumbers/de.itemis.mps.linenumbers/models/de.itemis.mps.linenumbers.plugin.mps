@@ -176,6 +176,9 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -2372,6 +2375,69 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3PNI8k1Jrgs" role="jymVt" />
+    <node concept="3clFb_" id="67lk0_jkeq2" role="jymVt">
+      <property role="TrG5h" value="isRightSideOfEditor" />
+      <node concept="3clFbS" id="67lk0_jkeq5" role="3clF47">
+        <node concept="3cpWs8" id="67lk0_jkmCu" role="3cqZAp">
+          <node concept="3cpWsn" id="67lk0_jkmCv" role="3cpWs9">
+            <property role="TrG5h" value="convertPoint" />
+            <node concept="3uibUv" id="67lk0_jklHT" role="1tU5fm">
+              <ref role="3uigEE" to="z60i:~Point" resolve="Point" />
+            </node>
+            <node concept="2YIFZM" id="67lk0_jkmCw" role="33vP2m">
+              <ref role="37wK5l" to="dxuu:~SwingUtilities.convertPoint(java.awt.Component,java.awt.Point,java.awt.Component)" resolve="convertPoint" />
+              <ref role="1Pybhc" to="dxuu:~SwingUtilities" resolve="SwingUtilities" />
+              <node concept="1rXfSq" id="1nz9PLxQSVW" role="37wK5m">
+                <ref role="37wK5l" to="px75:~AbstractLeftColumn.getLeftEditorHighlighter()" resolve="getLeftEditorHighlighter" />
+              </node>
+              <node concept="2ShNRf" id="1nz9PLxRVHb" role="37wK5m">
+                <node concept="1pGfFk" id="1nz9PLxSclk" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="z60i:~Point.&lt;init&gt;(int,int)" resolve="Point" />
+                  <node concept="3cmrfG" id="221tbBZd7$N" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="3cmrfG" id="1nz9PLxSoAC" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1rXfSq" id="1nz9PLxQQaV" role="37wK5m">
+                <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="67lk0_jkC6M" role="3cqZAp">
+          <node concept="2d3UOw" id="221tbBZeVDq" role="3cqZAk">
+            <node concept="2OqwBi" id="1nz9PLxUBsT" role="3uHU7B">
+              <node concept="37vLTw" id="1nz9PLxU$$1" role="2Oq$k0">
+                <ref role="3cqZAo" node="67lk0_jkmCv" resolve="convertPoint" />
+              </node>
+              <node concept="liA8E" id="1nz9PLxUEPI" role="2OqNvi">
+                <ref role="37wK5l" to="z60i:~Point.getX()" resolve="getX" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="221tbBZeBlX" role="3uHU7w">
+              <node concept="2OqwBi" id="221tbBZeBlY" role="2Oq$k0">
+                <node concept="1rXfSq" id="221tbBZeBlZ" role="2Oq$k0">
+                  <ref role="37wK5l" node="3PNI8k1JtHm" resolve="getEditorComponent" />
+                </node>
+                <node concept="liA8E" id="221tbBZeBm0" role="2OqNvi">
+                  <ref role="37wK5l" to="dxuu:~JComponent.getVisibleRect()" resolve="getVisibleRect" />
+                </node>
+              </node>
+              <node concept="2OwXpG" id="221tbBZeBm1" role="2OqNvi">
+                <ref role="2Oxat5" to="z60i:~Rectangle.width" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="67lk0_jkeix" role="1B3o_S" />
+      <node concept="10P_77" id="67lk0_jkd$O" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="znKGbGglcj" role="jymVt" />
     <node concept="3clFb_" id="3PNI8k1JrAf" role="jymVt">
       <property role="TrG5h" value="install" />
       <node concept="3clFbS" id="3PNI8k1JrAi" role="3clF47">
@@ -2842,6 +2908,60 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3cpWs8" id="znKGbG4ovl" role="3cqZAp">
+                        <node concept="3cpWsn" id="znKGbG4ovo" role="3cpWs9">
+                          <property role="TrG5h" value="posx" />
+                          <node concept="10Oyi0" id="znKGbG4ovj" role="1tU5fm" />
+                          <node concept="3K4zz7" id="221tbBZlEtT" role="33vP2m">
+                            <node concept="1rXfSq" id="221tbBZlEtU" role="3K4Cdx">
+                              <ref role="37wK5l" node="67lk0_jkeq2" resolve="isRightSideOfEditor" />
+                            </node>
+                            <node concept="3cpWsd" id="221tbBZlEtV" role="3K4E3e">
+                              <node concept="2OqwBi" id="221tbBZlEtW" role="3uHU7B">
+                                <node concept="2OqwBi" id="221tbBZlEtX" role="2Oq$k0">
+                                  <node concept="1rXfSq" id="221tbBZlEtY" role="2Oq$k0">
+                                    <ref role="37wK5l" to="px75:~AbstractLeftColumn.getLeftEditorHighlighter()" resolve="getLeftEditorHighlighter" />
+                                  </node>
+                                  <node concept="liA8E" id="221tbBZlEtZ" role="2OqNvi">
+                                    <ref role="37wK5l" to="dxuu:~JComponent.getVisibleRect()" resolve="getVisibleRect" />
+                                  </node>
+                                </node>
+                                <node concept="2OwXpG" id="221tbBZlEu0" role="2OqNvi">
+                                  <ref role="2Oxat5" to="z60i:~Rectangle.width" resolve="width" />
+                                </node>
+                              </node>
+                              <node concept="1rXfSq" id="221tbBZmbin" role="3uHU7w">
+                                <ref role="37wK5l" node="EMOkVNgjex" resolve="getWidth" />
+                              </node>
+                            </node>
+                            <node concept="3cpWsd" id="221tbBZlEu2" role="3K4GZi">
+                              <node concept="1rXfSq" id="221tbBZmc_v" role="3uHU7B">
+                                <ref role="37wK5l" node="EMOkVNgjex" resolve="getWidth" />
+                              </node>
+                              <node concept="2OqwBi" id="221tbBZlEu4" role="3uHU7w">
+                                <node concept="37vLTw" id="221tbBZlEu5" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3GQAmbHn0vW" resolve="fontMetrics" />
+                                </node>
+                                <node concept="liA8E" id="221tbBZlEu6" role="2OqNvi">
+                                  <ref role="37wK5l" to="z60i:~FontMetrics.stringWidth(java.lang.String)" resolve="stringWidth" />
+                                  <node concept="2YIFZM" id="221tbBZlEu7" role="37wK5m">
+                                    <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                                    <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                                    <node concept="2OqwBi" id="221tbBZlEu8" role="37wK5m">
+                                      <node concept="37vLTw" id="221tbBZlEu9" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="EMOkVNnBMi" resolve="it" />
+                                      </node>
+                                      <node concept="liA8E" id="221tbBZlEua" role="2OqNvi">
+                                        <ref role="37wK5l" node="509q6HGGrMH" resolve="getNumber" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="EMOkVNoMvv" role="3cqZAp">
                         <node concept="2OqwBi" id="EMOkVNoNbK" role="3clFbG">
                           <node concept="37vLTw" id="EMOkVNoMvu" role="2Oq$k0">
@@ -2862,7 +2982,7 @@
                               </node>
                             </node>
                             <node concept="37vLTw" id="3GQAmbHdv_T" role="37wK5m">
-                              <ref role="3cqZAo" node="3GQAmbHdpk$" resolve="textPaddingLeft" />
+                              <ref role="3cqZAo" node="znKGbG4ovo" resolve="posx" />
                             </node>
                             <node concept="3cpWs3" id="3GQAmbHoSMi" role="37wK5m">
                               <node concept="2OqwBi" id="3GQAmbHoV$2" role="3uHU7w">

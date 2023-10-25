@@ -89,7 +89,7 @@
         <child id="2646108724982387168" name="collectionToPaginate" index="2T6WKX" />
         <child id="3596385240284637673" name="pageSize" index="1ztOiV" />
       </concept>
-      <concept id="3596385240284619805" name="de.itemis.mps.editor.pagination.structure.QueryFunction_NodeInt" flags="ng" index="1ztS_f" />
+      <concept id="3596385240284619805" name="de.itemis.mps.editor.pagination.structure.QueryFunction_NodeInt" flags="ig" index="1ztS_f" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
@@ -178,11 +178,6 @@
       <property role="2gpH_U" value="true" />
       <property role="TrG5h" value="paginate" />
       <property role="2BUmq6" value="editor doing pagination" />
-    </node>
-    <node concept="2BsEeg" id="2ehN1c7Or76" role="2ABdcP">
-      <property role="2gpH_U" value="true" />
-      <property role="TrG5h" value="manual_pagination" />
-      <property role="2BUmq6" value="create manually the paginated editor" />
     </node>
   </node>
   <node concept="24kQdi" id="7DkC_coX$an">

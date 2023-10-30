@@ -2378,6 +2378,70 @@
     <node concept="3clFb_" id="67lk0_jkeq2" role="jymVt">
       <property role="TrG5h" value="isRightSideOfEditor" />
       <node concept="3clFbS" id="67lk0_jkeq5" role="3clF47">
+        <node concept="3SKdUt" id="4_GP6AlqOGD" role="3cqZAp">
+          <node concept="1PaTwC" id="4_GP6AlqOGE" role="1aUNEU">
+            <node concept="3oM_SD" id="4_GP6AlqOH3" role="1PaTwD">
+              <property role="3oM_SC" value="get" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlqOHc" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlqOH5" role="1PaTwD">
+              <property role="3oM_SC" value="left" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlqOHh" role="1PaTwD">
+              <property role="3oM_SC" value="upper" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlqOHn" role="1PaTwD">
+              <property role="3oM_SC" value="most" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlqOHu" role="1PaTwD">
+              <property role="3oM_SC" value="point" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6Alrd6h" role="1PaTwD">
+              <property role="3oM_SC" value="[0,0]" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlqOH8" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlqOHA" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlqOHJ" role="1PaTwD">
+              <property role="3oM_SC" value="gutter" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlrcS_" role="1PaTwD">
+              <property role="3oM_SC" value="(getLeftEditorHighlighter()" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlrcVO" role="1PaTwD">
+              <property role="3oM_SC" value=")" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlrcU8" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6Alrd97" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlrdbY" role="1PaTwD">
+              <property role="3oM_SC" value="coordinate" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6Alrdgm" role="1PaTwD">
+              <property role="3oM_SC" value="space" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6AlrdgB" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6Alrdh1" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6Alrdhk" role="1PaTwD">
+              <property role="3oM_SC" value="editor" />
+            </node>
+            <node concept="3oM_SD" id="4_GP6Alrdn0" role="1PaTwD">
+              <property role="3oM_SC" value="component" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="67lk0_jkmCu" role="3cqZAp">
           <node concept="3cpWsn" id="67lk0_jkmCv" role="3cpWs9">
             <property role="TrG5h" value="convertPoint" />
@@ -2905,6 +2969,70 @@
                                 <ref role="3cqZAo" node="EMOkVNryda" resolve="font" />
                               </node>
                             </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3SKdUt" id="4_GP6AlrDzF" role="3cqZAp">
+                        <node concept="1PaTwC" id="4_GP6AlrDzG" role="1aUNEU">
+                          <node concept="3oM_SD" id="4_GP6AlrLUS" role="1PaTwD">
+                            <property role="3oM_SC" value="calculate" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlrOZR" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlrR0M" role="1PaTwD">
+                            <property role="3oM_SC" value="x-coordinate" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Als19Y" role="1PaTwD">
+                            <property role="3oM_SC" value="to" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Als3b2" role="1PaTwD">
+                            <property role="3oM_SC" value="draw" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Als4B1" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Als6C0" role="1PaTwD">
+                            <property role="3oM_SC" value="first" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Als829" role="1PaTwD">
+                            <property role="3oM_SC" value="letter" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlsbU4" role="1PaTwD">
+                            <property role="3oM_SC" value="of" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Alsddq" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlseXr" role="1PaTwD">
+                            <property role="3oM_SC" value="line" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Alsh3C" role="1PaTwD">
+                            <property role="3oM_SC" value="number" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlsljJ" role="1PaTwD">
+                            <property role="3oM_SC" value="in" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlsnkP" role="1PaTwD">
+                            <property role="3oM_SC" value="dependence" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlsqQh" role="1PaTwD">
+                            <property role="3oM_SC" value="of" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Alssiq" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlstFM" role="1PaTwD">
+                            <property role="3oM_SC" value="position" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6Alswnd" role="1PaTwD">
+                            <property role="3oM_SC" value="of" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlsxyA" role="1PaTwD">
+                            <property role="3oM_SC" value="the" />
+                          </node>
+                          <node concept="3oM_SD" id="4_GP6AlsyI0" role="1PaTwD">
+                            <property role="3oM_SC" value="gutter" />
                           </node>
                         </node>
                       </node>

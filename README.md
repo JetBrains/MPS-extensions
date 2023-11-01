@@ -1,8 +1,8 @@
-[![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 # MPS Extensions
 
 <a href="https://build.mbeddr.com/project.html?projectId=Mbeddr2_Mbeddr_Gradle_MpsExtensions&tab=projectOverview"><img src="https://build.mbeddr.com/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
 ![JetBrains MPS 2022.2](https://img.shields.io/badge/JetBrains%20MPS-2022.2-orange)
+[![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
 The MPS extensions aim to ease language development within MPS. They are maintained by itemis, JetBrains, and the open source community, and its development is closely aligned with the development of MPS.
 

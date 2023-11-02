@@ -962,6 +962,24 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="3pwG8PSkQKW" role="3cqZAp">
+                <node concept="2OqwBi" id="3pwG8PSkQKX" role="3clFbG">
+                  <node concept="2OqwBi" id="3pwG8PSkU2Y" role="2Oq$k0">
+                    <node concept="37vLTw" id="3pwG8PSkU2X" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
+                    </node>
+                    <node concept="liA8E" id="3pwG8PSkU2Z" role="2OqNvi">
+                      <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3pwG8PSkQKZ" role="2OqNvi">
+                    <ref role="37wK5l" to="qkt:~Presentation.setIcon(javax.swing.Icon)" resolve="setIcon" />
+                    <node concept="37vLTw" id="3pwG8PSkQL0" role="37wK5m">
+                      <ref role="3cqZAo" node="3pwG8PSkQJp" resolve="icon" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3cpWs6" id="3pwG8PSkQL1" role="3cqZAp">
                 <node concept="37vLTw" id="3pwG8PSkQL2" role="3cqZAk">
                   <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />

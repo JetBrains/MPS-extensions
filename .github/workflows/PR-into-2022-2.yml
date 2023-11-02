@@ -45,7 +45,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           branch: 'merge/2022.2'
-          commit-message: Merge mps/2022.3 into mps/2022.2
+          commit-message: Merge maintenance/mps20213 into maintenance/mps20222
           title: ${{ env.NEW_TITLE }} (2021.3 -> 2022.2)
           body: |
             This is an automatic PR which merges changes from `maintenance/mps20213` to `maintenance/mps20222`

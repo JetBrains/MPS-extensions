@@ -35,18 +35,18 @@ jobs:
       # actually merge from the previous branch
       - name: Prepare environment variables for PR
         run: |
-          # strip the title of previous automatic PR content
           NEW_TITLE='${{ github.event.pull_request.title }}'
-          NEW_TITLE="${NEW_TITLE// (2021.2 -> 2021.3)}"
+          NEW_TITLE="${NEW_TITLE% (2021.2 -> 2021.3)} (2021.3 -> 2022.2)"
+
           echo "NEW_TITLE=$NEW_TITLE" >> $GITHUB_ENV
 
       # create a PR based on the merge
       - name: Create PR for MPS 2022.2
         uses: peter-evans/create-pull-request@v5
         with:
-          branch: 'merge/2022.2'
+          branch: 'merge/mps20222'
           commit-message: Merge maintenance/mps20213 into maintenance/mps20222
-          title: ${{ env.NEW_TITLE }} (2021.3 -> 2022.2)
+          title: ${{ env.NEW_TITLE }}
           body: |
             This is an automatic PR which merges changes from `maintenance/mps20213` to `maintenance/mps20222`
             

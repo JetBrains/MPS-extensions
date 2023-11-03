@@ -1,6 +1,5 @@
 name: Merge and PR into next version
 
-run-name: Merge 2021.3 -> 2022.2
 on:
   workflow_call:
     inputs:

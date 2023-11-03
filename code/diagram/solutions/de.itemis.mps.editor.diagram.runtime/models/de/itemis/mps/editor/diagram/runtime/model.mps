@@ -17003,6 +17003,28 @@
       <node concept="3Tm1VV" id="7L$rKAVbI9V" role="1B3o_S" />
       <node concept="3clFbS" id="7L$rKAVbI9W" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="bwruJS$taB" role="jymVt">
+      <property role="TrG5h" value="forcedStoreLayoutData" />
+      <node concept="3clFbS" id="bwruJS$taE" role="3clF47" />
+      <node concept="3Tm1VV" id="bwruJS$taF" role="1B3o_S" />
+      <node concept="3cqZAl" id="bwruJS$t7D" role="3clF45" />
+      <node concept="37vLTG" id="bwruJS$tjq" role="3clF46">
+        <property role="TrG5h" value="key" />
+        <node concept="3uibUv" id="bwruJS$tjp" role="1tU5fm">
+          <ref role="3uigEE" node="18fiNKZvCpQ" resolve="IAccessorKey" />
+        </node>
+        <node concept="2AHcQZ" id="bwruJS$toM" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="bwruJS$trQ" role="3clF46">
+        <property role="TrG5h" value="data" />
+        <node concept="3Tqbb2" id="bwruJS$txP" role="1tU5fm" />
+        <node concept="2AHcQZ" id="bwruJS$t_U" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="7L$rKAVbJ61" role="jymVt">
       <property role="TrG5h" value="getLayoutData" />
       <node concept="3Tqbb2" id="7L$rKAVbKRt" role="3clF45" />
@@ -17072,6 +17094,13 @@
       <node concept="3cqZAl" id="5wo2$Nn2dHx" role="3clF45" />
       <node concept="3Tm1VV" id="5wo2$NmWrrD" role="1B3o_S" />
       <node concept="3clFbS" id="5wo2$NmWrrE" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="4m$$SBGbx2y" role="jymVt" />
+    <node concept="3clFb_" id="4m$$SBGbyv7" role="jymVt">
+      <property role="TrG5h" value="runAutoLayout" />
+      <node concept="3clFbS" id="4m$$SBGbyva" role="3clF47" />
+      <node concept="3Tm1VV" id="4m$$SBGbyvb" role="1B3o_S" />
+      <node concept="10P_77" id="4m$$SBGbx80" role="3clF45" />
     </node>
   </node>
   <node concept="3HP615" id="4teJTSBx0$0">
@@ -27915,6 +27944,54 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7L$rKAVfL8x" role="jymVt" />
+    <node concept="3clFb_" id="bwruJS$_0E" role="jymVt">
+      <property role="TrG5h" value="forcedStoreLayoutData" />
+      <node concept="3Tm1VV" id="bwruJS$_0G" role="1B3o_S" />
+      <node concept="3cqZAl" id="bwruJS$_0H" role="3clF45" />
+      <node concept="37vLTG" id="bwruJS$_0I" role="3clF46">
+        <property role="TrG5h" value="key" />
+        <node concept="3uibUv" id="bwruJS$_0J" role="1tU5fm">
+          <ref role="3uigEE" node="18fiNKZvCpQ" resolve="IAccessorKey" />
+        </node>
+        <node concept="2AHcQZ" id="bwruJS$_0K" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="bwruJS$_0L" role="3clF46">
+        <property role="TrG5h" value="data" />
+        <node concept="3Tqbb2" id="bwruJS$_0M" role="1tU5fm" />
+        <node concept="2AHcQZ" id="bwruJS$_0N" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="bwruJS$_0O" role="3clF47">
+        <node concept="3clFbF" id="bwruJS$AX2" role="3cqZAp">
+          <node concept="2OqwBi" id="bwruJS$AX3" role="3clFbG">
+            <node concept="37vLTw" id="bwruJS$AX4" role="2Oq$k0">
+              <ref role="3cqZAo" node="7L$rKAVgRB2" resolve="myLayoutMap" />
+            </node>
+            <node concept="liA8E" id="bwruJS$AX5" role="2OqNvi">
+              <ref role="37wK5l" node="7L$rKAVfYPL" resolve="setValue" />
+              <node concept="2OqwBi" id="bwruJS$AX6" role="37wK5m">
+                <node concept="37vLTw" id="bwruJS$AX7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="bwruJS$_0I" resolve="key" />
+                </node>
+                <node concept="liA8E" id="bwruJS$AX8" role="2OqNvi">
+                  <ref role="37wK5l" node="7L$rKAVbO88" resolve="serialize" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="bwruJS$AX9" role="37wK5m">
+                <ref role="3cqZAo" node="bwruJS$_0L" resolve="data" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="bwruJS$_0P" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="bwruJS$Bo0" role="jymVt" />
     <node concept="3clFb_" id="7L$rKAVfIJe" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getLayoutData" />
@@ -28118,6 +28195,17 @@
       </node>
       <node concept="3Tm1VV" id="6gw4xIYJmea" role="1B3o_S" />
       <node concept="10P_77" id="6gw4xIYJmCk" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="4m$$SBG98yu" role="jymVt" />
+    <node concept="3clFb_" id="4m$$SBG9t4D" role="jymVt">
+      <property role="TrG5h" value="runAutoLayout" />
+      <node concept="3clFbS" id="4m$$SBG9t4G" role="3clF47">
+        <node concept="3cpWs6" id="4m$$SBG9ukv" role="3cqZAp">
+          <node concept="3clFbT" id="4m$$SBG9uOT" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4m$$SBG9suH" role="1B3o_S" />
+      <node concept="10P_77" id="4m$$SBG9sTQ" role="3clF45" />
     </node>
   </node>
   <node concept="312cEu" id="63AkbuPiu1I">

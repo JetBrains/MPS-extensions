@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:30978237-741d-4b0b-ac0b-6600a1c5c14f(com.mbeddr.mpsutil.projectview.runtime.tree)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
@@ -628,8 +629,8 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="hyam:~MouseAdapter" resolve="MouseAdapter" />
                   <ref role="37wK5l" to="hyam:~MouseAdapter.&lt;init&gt;()" resolve="MouseAdapter" />
-                  <node concept="2tJIrI" id="4e52bXziywQ" role="jymVt" />
                   <node concept="3Tm1VV" id="58b0Q1$tJLQ" role="1B3o_S" />
+                  <node concept="2tJIrI" id="4e52bXziywQ" role="jymVt" />
                   <node concept="3clFb_" id="58b0Q1$tJNL" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="mouseClicked" />
@@ -6622,6 +6623,17 @@
           </node>
         </node>
         <node concept="3clFbJ" id="1mvsX9hskdN" role="3cqZAp">
+          <node concept="3fqX7Q" id="1mvsX9htlpt" role="3clFbw">
+            <node concept="2OqwBi" id="1mvsX9htlpv" role="3fr31v">
+              <node concept="2YIFZM" id="1mvsX9htlpw" role="2Oq$k0">
+                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+              </node>
+              <node concept="liA8E" id="1mvsX9htlpx" role="2OqNvi">
+                <ref role="37wK5l" to="bd8o:~Application.isUnitTestMode()" resolve="isUnitTestMode" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbS" id="1mvsX9hskdP" role="3clFbx">
             <node concept="3clFbF" id="4gq8yQBZ72$" role="3cqZAp">
               <node concept="2OqwBi" id="4gq8yQBZ72_" role="3clFbG">
@@ -6792,17 +6804,6 @@
                     <ref role="3cqZAo" node="4gq8yQBZ72d" resolve="autoFocusContents" />
                   </node>
                 </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3fqX7Q" id="1mvsX9htlpt" role="3clFbw">
-            <node concept="2OqwBi" id="1mvsX9htlpv" role="3fr31v">
-              <node concept="2YIFZM" id="1mvsX9htlpw" role="2Oq$k0">
-                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-              </node>
-              <node concept="liA8E" id="1mvsX9htlpx" role="2OqNvi">
-                <ref role="37wK5l" to="bd8o:~Application.isUnitTestMode()" resolve="isUnitTestMode" />
               </node>
             </node>
           </node>
@@ -13622,9 +13623,6 @@
                 <node concept="3cpWsn" id="4gq8yQBX$BF" role="3cpWs9">
                   <property role="3TUv4t" value="false" />
                   <property role="TrG5h" value="outerName" />
-                  <node concept="3uibUv" id="4gq8yQBX$BH" role="1tU5fm">
-                    <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-                  </node>
                   <node concept="2OqwBi" id="899cFbMTh3" role="33vP2m">
                     <node concept="2OqwBi" id="899cFbMScz" role="2Oq$k0">
                       <node concept="2OqwBi" id="4gq8yQBXADg" role="2Oq$k0">
@@ -13643,14 +13641,13 @@
                       <ref role="37wK5l" to="mhbf:~SModelName.getLongName()" resolve="getLongName" />
                     </node>
                   </node>
+                  <node concept="17QB3L" id="7LJ_vJOKpOj" role="1tU5fm" />
                 </node>
               </node>
-              <node concept="3cpWs8" id="3HhbiV6obaK" role="3cqZAp">
-                <node concept="3cpWsn" id="3HhbiV6obaL" role="3cpWs9">
+              <node concept="3cpWs8" id="4gq8yQBX$BL" role="3cqZAp">
+                <node concept="3cpWsn" id="4gq8yQBX$BK" role="3cpWs9">
+                  <property role="3TUv4t" value="false" />
                   <property role="TrG5h" value="innerName" />
-                  <node concept="3uibUv" id="3HhbiV6obaM" role="1tU5fm">
-                    <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-                  </node>
                   <node concept="2OqwBi" id="899cFbMZ2y" role="33vP2m">
                     <node concept="2OqwBi" id="899cFbMWr5" role="2Oq$k0">
                       <node concept="37vLTw" id="4gq8yQBX$BO" role="2Oq$k0">
@@ -13664,12 +13661,13 @@
                       <ref role="37wK5l" to="mhbf:~SModelName.getLongName()" resolve="getLongName" />
                     </node>
                   </node>
+                  <node concept="17QB3L" id="9kmimMuwY$" role="1tU5fm" />
                 </node>
               </node>
               <node concept="3cpWs6" id="4gq8yQBX$BP" role="3cqZAp">
                 <node concept="2OqwBi" id="4gq8yQBXADs" role="3cqZAk">
                   <node concept="37vLTw" id="4gq8yQBXADr" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3HhbiV6obaL" resolve="innerName" />
+                    <ref role="3cqZAo" node="4gq8yQBX$BK" resolve="innerName" />
                   </node>
                   <node concept="liA8E" id="4gq8yQBXADt" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />

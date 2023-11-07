@@ -61,6 +61,7 @@
       <concept id="6702802731807420587" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="ig" index="9SLcT" />
       <concept id="6702802731807424858" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAnAncestor" flags="in" index="9SQb8" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
+      <concept id="4303308395523096213" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="ng" index="2DD5aU" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1212097481299" name="propertyValidator" index="QCWH9" />
@@ -92,6 +93,9 @@
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
+        <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
+      </concept>
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -241,6 +245,42 @@
                 <node concept="chp4Y" id="1$ysu_nN4N5" role="cj9EA">
                   <ref role="cht4Q" to="ibwz:3Lzx5Pf0k2q" resolve="AType" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1045PmWki_J">
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1M2myG" to="ibwz:1045PmWki5C" resolve="WrapStmtParentWhitelisting" />
+    <node concept="9SLcT" id="1045PmWkiB4" role="9SGkU">
+      <node concept="3clFbS" id="1045PmWkiB5" role="2VODD2">
+        <node concept="3clFbF" id="1045PmWkiGo" role="3cqZAp">
+          <node concept="2OqwBi" id="1045PmWkiZz" role="3clFbG">
+            <node concept="2DD5aU" id="1045PmWkiGn" role="2Oq$k0" />
+            <node concept="2Zo12i" id="x37qLVOc3J" role="2OqNvi">
+              <node concept="chp4Y" id="x37qLVOcgz" role="2Zo12j">
+                <ref role="cht4Q" to="ibwz:3Lzx5Pf0k5B" resolve="BType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6sxj0_Uzbmu">
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <ref role="1M2myG" to="ibwz:6sxj0_Uzbld" resolve="WrapStmtAncestorWhitelisting" />
+    <node concept="9SQb8" id="6sxj0_Uzbmv" role="9SGkC">
+      <node concept="3clFbS" id="6sxj0_Uzbmw" role="2VODD2">
+        <node concept="3clFbF" id="6sxj0_Uzbqv" role="3cqZAp">
+          <node concept="2OqwBi" id="6sxj0_UzbH0" role="3clFbG">
+            <node concept="2DD5aU" id="6sxj0_Uzbqu" role="2Oq$k0" />
+            <node concept="2Zo12i" id="6sxj0_UzcnX" role="2OqNvi">
+              <node concept="chp4Y" id="6sxj0_UzcBF" role="2Zo12j">
+                <ref role="cht4Q" to="ibwz:3Lzx5Pf0k5B" resolve="BType" />
               </node>
             </node>
           </node>

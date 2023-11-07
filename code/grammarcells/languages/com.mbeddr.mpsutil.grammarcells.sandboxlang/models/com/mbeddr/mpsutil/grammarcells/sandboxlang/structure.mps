@@ -983,5 +983,67 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1045PmWkhcs">
+    <property role="EcuMT" value="1154073061512778524" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="StmtContainerParentWhitelisting" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="1045PmWki1E" role="1TKVEi">
+      <property role="IQ2ns" value="1154073061512781930" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="stmts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1045PmWki5C" resolve="WrapStmtParentWhitelisting" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1045PmWki5C">
+    <property role="EcuMT" value="1154073061512782184" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="WrapStmtParentWhitelisting" />
+    <property role="34LRSv" value="wrapStmt" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="1045PmWkiyF" role="1TKVEi">
+      <property role="IQ2ns" value="1154073061512784043" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3Lzx5Pf0jr2" resolve="WrapType" />
+    </node>
+    <node concept="PrWs8" id="1045PmWkiwF" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6sxj0_Uzblc">
+    <property role="EcuMT" value="7431304463732487500" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="StmtContainerAncestorWhitelisting" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="6sxj0_UzcGb" role="1TKVEi">
+      <property role="IQ2ns" value="7431304463732493067" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="stmts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6sxj0_Uzbld" resolve="WrapStmtAncestorWhitelisting" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6sxj0_Uzbld">
+    <property role="EcuMT" value="7431304463732487501" />
+    <property role="3GE5qa" value="grammarWrapTest" />
+    <property role="TrG5h" value="WrapStmtAncestorWhitelisting" />
+    <property role="34LRSv" value="wrapStmt" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6sxj0_Uzble" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="6sxj0_Uzblg" role="1TKVEi">
+      <property role="IQ2ns" value="7431304463732487504" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3Lzx5Pf0jr2" resolve="WrapType" />
+    </node>
+  </node>
 </model>
 

@@ -66,6 +66,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -1782,6 +1783,58 @@
         </node>
         <node concept="2iRfu4" id="5vGqiR9VBkp" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="649NznH1bG_" role="3EZMnx">
+        <node concept="VPM3Z" id="649NznH1bGA" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3T6ez_" id="649NznH1bGB" role="3F10Kt">
+          <node concept="1iSF2X" id="649NznH1bGC" role="VblUZ">
+            <property role="1iTho6" value="5555aa" />
+          </node>
+        </node>
+        <node concept="3T6Sz6" id="649NznH1bGD" role="3F10Kt">
+          <property role="1lJzqY" value="3" />
+        </node>
+        <node concept="Veino" id="649NznH1bGE" role="3F10Kt">
+          <node concept="1iSF2X" id="649NznH1bGF" role="VblUZ">
+            <property role="1iTho6" value="eeeeee" />
+          </node>
+        </node>
+        <node concept="3T7XNW" id="649NznH1bGG" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3Tojni" id="649NznH1bGH" role="3F10Kt">
+          <property role="1lJzqY" value="20" />
+        </node>
+        <node concept="3Toos0" id="649NznH1bGI" role="3F10Kt">
+          <property role="1lJzqY" value="10" />
+        </node>
+        <node concept="3F0ifn" id="649NznH1bGJ" role="3EZMnx">
+          <property role="3F0ifm" value="Recursive concept showing erroneous scroll bar" />
+          <node concept="2TzqKc" id="649NznH1bGK" role="3F10Kt">
+            <property role="1413C4" value="Verdana" />
+          </node>
+          <node concept="3T6Uf0" id="649NznH1bGL" role="3F10Kt">
+            <property role="1lJzqY" value="10" />
+          </node>
+          <node concept="37jFXN" id="649NznH1bGM" role="3F10Kt">
+            <property role="37lx6p" value="hZ7kQ4a/CENTER" />
+          </node>
+          <node concept="VSNWy" id="649NznH1bGN" role="3F10Kt">
+            <property role="1lJzqX" value="20" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="649NznH1bGO" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="649NznH1bGo" role="3EZMnx">
+        <node concept="VPM3Z" id="649NznH1bGp" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F1sOY" id="649NznH1c2P" role="3EZMnx">
+          <ref role="1NtTu8" to="uvw8:649NznH1bqV" resolve="r" />
+        </node>
+        <node concept="2iRfu4" id="649NznH1bG$" role="2iSdaV" />
+      </node>
       <node concept="2iRkQZ" id="3Osd_ywVYlV" role="2iSdaV" />
     </node>
   </node>
@@ -1855,6 +1908,22 @@
         </node>
       </node>
       <node concept="2iRkQZ" id="7d0q5VHb$h6" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="649NznH1bq6">
+    <ref role="1XX52x" to="uvw8:649NznH1bpV" resolve="RecursiveConcept" />
+    <node concept="3EZMnI" id="649NznH1bq8" role="2wV5jI">
+      <node concept="3F0ifn" id="649NznH1bqJ" role="3EZMnx">
+        <property role="3F0ifm" value="recursive concept to show the problem in cell layout" />
+      </node>
+      <node concept="3EZMnI" id="649NznH1bqi" role="3EZMnx">
+        <node concept="VPM3Z" id="649NznH1bqk" role="3F10Kt" />
+        <node concept="3F1sOY" id="649NznH1bqw" role="3EZMnx">
+          <ref role="1NtTu8" to="uvw8:649NznH1bpW" resolve="r" />
+        </node>
+        <node concept="2iRfu4" id="649NznH1bqn" role="2iSdaV" />
+      </node>
+      <node concept="l2Vlx" id="649NznH1bqb" role="2iSdaV" />
     </node>
   </node>
 </model>

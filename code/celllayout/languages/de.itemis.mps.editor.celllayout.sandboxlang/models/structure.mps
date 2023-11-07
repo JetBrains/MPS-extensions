@@ -49,6 +49,12 @@
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="861697192441878792" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="649NznH1bqV" role="1TKVEi">
+      <property role="IQ2ns" value="6992346627474503355" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="r" />
+      <ref role="20lvS9" node="649NznH1bpV" resolve="RecursiveConcept" />
+    </node>
     <node concept="1TJgyi" id="40e1npHqizT" role="1TKVEl">
       <property role="TrG5h" value="property1" />
       <property role="IQ2nx" value="4615632674301225209" />
@@ -89,6 +95,17 @@
     <property role="TrG5h" value="TextWithHorizontalLine" />
     <property role="34LRSv" value="text-with-horizontal-line" />
     <ref role="1TJDcQ" node="7d0q5VHb5QZ" resolve="TextWithLineBase" />
+  </node>
+  <node concept="1TIwiD" id="649NznH1bpV">
+    <property role="EcuMT" value="6992346627474503291" />
+    <property role="TrG5h" value="RecursiveConcept" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="649NznH1bpW" role="1TKVEi">
+      <property role="IQ2ns" value="6992346627474503292" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="r" />
+      <ref role="20lvS9" node="649NznH1bpV" resolve="RecursiveConcept" />
+    </node>
   </node>
 </model>
 

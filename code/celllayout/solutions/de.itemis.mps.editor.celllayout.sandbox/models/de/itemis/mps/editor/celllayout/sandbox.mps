@@ -15,6 +15,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="a49c7665-6e20-479f-8483-903f65b74ed2" name="de.itemis.mps.editor.celllayout.sandboxlang">
+      <concept id="6992346627474503291" name="de.itemis.mps.editor.celllayout.sandboxlang.structure.RecursiveConcept" flags="ng" index="2c3nxe">
+        <child id="6992346627474503292" name="r" index="2c3nx9" />
+      </concept>
       <concept id="8304752469786516926" name="de.itemis.mps.editor.celllayout.sandboxlang.structure.TextWithVerticalLine" flags="ng" index="2ur3nw" />
       <concept id="8304752469786516925" name="de.itemis.mps.editor.celllayout.sandboxlang.structure.LinesContainer" flags="ng" index="2ur3nz">
         <child id="8304752469786516928" name="lines" index="2ur3mu" />
@@ -22,6 +25,7 @@
       <concept id="8304752469786641469" name="de.itemis.mps.editor.celllayout.sandboxlang.structure.TextWithHorizontalLine" flags="ng" index="2uryLz" />
       <concept id="861697192441878792" name="de.itemis.mps.editor.celllayout.sandboxlang.structure.RootConcept" flags="ng" index="3Sx$gf">
         <property id="4615632674301225209" name="property1" index="HpMQf" />
+        <child id="6992346627474503355" name="r" index="2c3nye" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -40,6 +44,15 @@
   </registry>
   <node concept="3Sx$gf" id="40e1npHlDVf">
     <property role="HpMQf" value="dfdfgd fgd gdfg dfg dfg df f f ddfdf" />
+    <node concept="2c3nxe" id="649NznH1hSE" role="2c3nye">
+      <node concept="2c3nxe" id="649NznH1hSG" role="2c3nx9">
+        <node concept="2c3nxe" id="649NznH1hSI" role="2c3nx9">
+          <node concept="2c3nxe" id="649NznH1hSK" role="2c3nx9">
+            <node concept="2c3nxe" id="649NznH1hSQ" role="2c3nx9" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3Osd_yx5Ptx">
     <property role="TrG5h" value="C" />

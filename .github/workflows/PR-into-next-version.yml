@@ -28,10 +28,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # checkout the target branch
+      # Only fetch 100 commits, assuming that if the difference between branches is more than 100 commits then they
+      # probably won't be automergeable anyway.
       - name: Checkout ${{ inputs.to-version }}
         uses: actions/checkout@v3
         with:
           ref: ${{ inputs.to-branch }}
+          fetch-depth: 100
 
       # actually merge from the previous branch
       - name: Perform merge from ${{ inputs.from-version }} to ${{ inputs.to-version }}
@@ -40,7 +43,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           
-          git fetch origin ${{ inputs.from-branch }} --depth=1
+          git fetch origin ${{ inputs.from-branch }} --depth=100
 
           # actual merge operation
           git merge --no-ff --message "Merge ${{ inputs.from-branch }}" origin/${{ inputs.from-branch }} -- || ( echo "Merge failed. Please merge manually!" ; exit 1 )

@@ -54,7 +54,6 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -456,12 +455,6 @@
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <property id="6332851714983843871" name="severity" index="2xdLsb" />
-        <child id="5721587534047265374" name="message" index="9lYJi" />
-      </concept>
-    </language>
     <language id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal">
       <concept id="1176743162354" name="jetbrains.mps.baseLanguageInternal.structure.InternalVariableReference" flags="nn" index="3VmV3z">
         <property id="1176743296073" name="name" index="3VnrPo" />
@@ -475,7 +468,6 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
@@ -24230,80 +24222,10 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="2xdQw9" id="oe4mW55a$H" role="3cqZAp">
-                    <property role="2xdLsb" value="h1akgim/info" />
-                    <node concept="3cpWs3" id="oe4mW5feAU" role="9lYJi">
-                      <node concept="37vLTw" id="oe4mW5fj1N" role="3uHU7w">
-                        <ref role="3cqZAo" node="oe4mW5euFK" resolve="isEdgeAccessor" />
-                      </node>
-                      <node concept="3cpWs3" id="oe4mW5f6a9" role="3uHU7B">
-                        <node concept="3cpWs3" id="oe4mW5c2YH" role="3uHU7B">
-                          <node concept="3cpWs3" id="oe4mW5bPZ0" role="3uHU7B">
-                            <node concept="3cpWs3" id="oe4mW5aK_3" role="3uHU7B">
-                              <node concept="3cpWs3" id="oe4mW5aFi9" role="3uHU7B">
-                                <node concept="3cpWs3" id="oe4mW55hf4" role="3uHU7B">
-                                  <node concept="Xl_RD" id="oe4mW55a$J" role="3uHU7B">
-                                    <property role="Xl_RC" value="External property for accessor of " />
-                                  </node>
-                                  <node concept="2OqwBi" id="oe4mW583VX" role="3uHU7w">
-                                    <node concept="37vLTw" id="oe4mW581T3" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="641jOpdAVPz" resolve="node" />
-                                    </node>
-                                    <node concept="2qgKlT" id="oe4mW587cu" role="2OqNvi">
-                                      <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
-                                    </node>
-                                  </node>
-                                </node>
-                                <node concept="Xl_RD" id="oe4mW5aHcV" role="3uHU7w">
-                                  <property role="Xl_RC" value=": " />
-                                </node>
-                              </node>
-                              <node concept="37vLTw" id="oe4mW5aNJ7" role="3uHU7w">
-                                <ref role="3cqZAo" node="6OhZPz3Iwck" resolve="external" />
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="oe4mW5bRUc" role="3uHU7w">
-                              <property role="Xl_RC" value=", boxAccessor:" />
-                            </node>
-                          </node>
-                          <node concept="37vLTw" id="oe4mW5c5s0" role="3uHU7w">
-                            <ref role="3cqZAo" node="6OhZPz3I$M2" resolve="boxAccessor" />
-                          </node>
-                        </node>
-                        <node concept="Xl_RD" id="oe4mW5f86E" role="3uHU7w">
-                          <property role="Xl_RC" value=" isEdgeAccessor:" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
                   <node concept="3clFbJ" id="6OhZPz3IpIQ" role="3cqZAp">
                     <node concept="3clFbS" id="6OhZPz3IpIS" role="3clFbx">
                       <node concept="3clFbJ" id="3BQn3_gx3hK" role="3cqZAp">
                         <node concept="3clFbS" id="3BQn3_gx3hM" role="3clFbx">
-                          <node concept="2xdQw9" id="oe4mW5zMQr" role="3cqZAp">
-                            <property role="2xdLsb" value="h1akgim/info" />
-                            <node concept="3cpWs3" id="7EPprGLqKgD" role="9lYJi">
-                              <node concept="2OqwBi" id="7EPprGLr4H_" role="3uHU7w">
-                                <node concept="0kSF2" id="7EPprGLr03L" role="2Oq$k0">
-                                  <node concept="3uibUv" id="7EPprGLr03N" role="0kSFW">
-                                    <ref role="3uigEE" node="7jhYr4hIToa" resolve="SNodeEdgeAccessor" />
-                                  </node>
-                                  <node concept="2OqwBi" id="7EPprGLqR0o" role="0kSFX">
-                                    <node concept="37vLTw" id="7EPprGLqOcZ" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="641jOpdC1hU" resolve="accessors" />
-                                    </node>
-                                    <node concept="1uHKPH" id="7EPprGLqVKU" role="2OqNvi" />
-                                  </node>
-                                </node>
-                                <node concept="liA8E" id="7EPprGLra1X" role="2OqNvi">
-                                  <ref role="37wK5l" node="7EPprGLk7uH" resolve="pullAnnotations" />
-                                </node>
-                              </node>
-                              <node concept="Xl_RD" id="oe4mW5zMQt" role="3uHU7B">
-                                <property role="Xl_RC" value="Pulling annotation for edge" />
-                              </node>
-                            </node>
-                          </node>
                           <node concept="3cpWs8" id="oe4mW5gECz" role="3cqZAp">
                             <node concept="3cpWsn" id="oe4mW5gEC$" role="3cpWs9">
                               <property role="TrG5h" value="accessor" />

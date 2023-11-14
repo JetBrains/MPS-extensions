@@ -11,6 +11,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - `@NotNull` annotations in the code are now checked at run time (the `javac2` compiler is used).
 
+### Added
+
+- mpsutil.intentions: a new style attribute `intentions-in-read-only-cell` is now available to allow intentions in read-only cells.
+
 ## October 2023
 
 ### Added

@@ -4179,6 +4179,16 @@
         </node>
         <node concept="2iRfu4" id="6clvLV1rFRS" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="7EPprGLi9jX" role="3EZMnx">
+        <node concept="VPM3Z" id="7EPprGLi9jZ" role="3F10Kt" />
+        <node concept="3F0ifn" id="7EPprGLi9rb" role="3EZMnx">
+          <property role="3F0ifm" value="pull annotations from parent" />
+        </node>
+        <node concept="3F0A7n" id="7EPprGLi9rh" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:7EPprGLi9aT" resolve="pullAnnotations" />
+        </node>
+        <node concept="2iRfu4" id="7EPprGLi9k2" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="6clvLV1rFS1" role="3EZMnx">
         <node concept="VPM3Z" id="6clvLV1rFS2" role="3F10Kt">
           <property role="VOm3f" value="false" />

@@ -1587,6 +1587,11 @@
     <node concept="PrWs8" id="6clvLV1rj2a" role="PrDN$">
       <ref role="PrY4T" node="6clvLV1q6UE" resolve="IInlineEditorComponentContainer" />
     </node>
+    <node concept="1TJgyi" id="7EPprGLi9aT" role="1TKVEl">
+      <property role="IQ2nx" value="8842085298071966393" />
+      <property role="TrG5h" value="pullAnnotations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6clvLV1q6UE">
     <property role="3GE5qa" value="content" />

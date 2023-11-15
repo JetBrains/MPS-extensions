@@ -10,6 +10,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 ### Changed
 
 - `@NotNull` annotations in the code are now checked at run time (the `javac2` compiler is used).
+- de.itemis.editor.diagram: Edge labels can now be annotated with the attribute editors of the edges. Previously they were floating in the diagram as external boxes. A new flag "use annotations from parent in label" is used to customize the behavior.
 
 ## October 2023
 

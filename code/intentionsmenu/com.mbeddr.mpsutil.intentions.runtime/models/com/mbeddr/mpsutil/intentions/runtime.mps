@@ -4437,23 +4437,6 @@
         </node>
       </node>
       <node concept="3clFbS" id="5qf1oe_zXNK" role="3clF47">
-        <node concept="3clFbJ" id="5qf1oe_zXNL" role="3cqZAp">
-          <node concept="2OqwBi" id="5qf1oe_zXNM" role="3clFbw">
-            <node concept="37vLTw" id="5qf1oe_zXNN" role="2Oq$k0">
-              <ref role="3cqZAo" node="5qf1oe_zXNF" resolve="editorComponent" />
-            </node>
-            <node concept="liA8E" id="5qf1oe_zXNO" role="2OqNvi">
-              <ref role="37wK5l" to="cj4x:~EditorComponent.isReadOnly()" resolve="isReadOnly" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="5qf1oe_zXNP" role="3clFbx">
-            <node concept="3cpWs6" id="5qf1oe_zXNQ" role="3cqZAp">
-              <node concept="3clFbT" id="5qf1oe_zXNR" role="3cqZAk">
-                <property role="3clFbU" value="true" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1DcWWT" id="5qf1oe_zXNS" role="3cqZAp">
           <node concept="37vLTw" id="5qf1oe_zXNT" role="1DdaDG">
             <ref role="3cqZAo" node="5qf1oe_zXNH" resolve="cells" />

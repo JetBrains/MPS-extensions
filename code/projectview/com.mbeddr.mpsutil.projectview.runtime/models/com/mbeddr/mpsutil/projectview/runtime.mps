@@ -6953,7 +6953,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="5ecqeSaHcBx" role="2OqNvi">
-                        <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
+                        <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object)" resolve="get" />
                         <node concept="2OqwBi" id="5ecqeSaHcBy" role="37wK5m">
                           <node concept="37vLTw" id="5ecqeSaHcBz" role="2Oq$k0">
                             <ref role="3cqZAo" node="VPgi8etJvN" resolve="pane" />

@@ -530,8 +530,23 @@
     </node>
     <node concept="3aamgX" id="6QZo_pQe6Rb" role="3acgRq">
       <ref role="30HIoZ" to="bbp5:6QZo_pQbn1D" resolve="CellModel_DefaultEditor" />
-      <node concept="j$656" id="6QZo_pQe6S7" role="1lVwrX">
-        <ref role="v9R2y" node="gISvw05" resolve="reduce_CellModel_DefaultEditor" />
+      <node concept="1Koe21" id="3s6FinO3e8G" role="1lVwrX">
+        <node concept="9aQIb" id="3s6FinO3e8O" role="1Koe22">
+          <node concept="3clFbS" id="3s6FinO3e8P" role="9aQI4">
+            <node concept="3clFbH" id="3s6FinO3e8Y" role="3cqZAp">
+              <node concept="raruj" id="3s6FinO3e8Z" role="lGtFl" />
+              <node concept="5jKBG" id="3s6FinO3e90" role="lGtFl">
+                <ref role="v9R2y" node="gISvw05" resolve="reduce_CellModel_DefaultEditor" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="3s6FinO3e9a" role="3cqZAp">
+              <node concept="raruj" id="3s6FinO3e9b" role="lGtFl" />
+              <node concept="5jKBG" id="3s6FinO3e9c" role="lGtFl">
+                <ref role="v9R2y" to="tpc3:2dv1ickkgDx" resolve="template_EditorCellModel_CommonMethods" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3aamgX" id="48TKAW3Vg1f" role="3acgRq">

@@ -15,6 +15,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 ### Added
 
 - mpsutil.intentions: a new style attribute `intentions-in-read-only-cell` is now available to allow intentions in read-only cells.
+- com.mbeddr.mpsutil.editor.querylist: Default editor cells now support style attributes.
 
 ## October 2023
 

@@ -4179,6 +4179,29 @@
         </node>
         <node concept="2iRfu4" id="6clvLV1rFRS" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="7EPprGLi9jX" role="3EZMnx">
+        <node concept="VPM3Z" id="4bo8pCz1Q5h" role="3F10Kt" />
+        <node concept="VPXOz" id="4bo8pCz1Q5i" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="7EPprGLi9rb" role="3EZMnx">
+          <property role="3F0ifm" value="use annotations from parent in label" />
+        </node>
+        <node concept="3F1sOY" id="4bo8pCz4JsC" role="3EZMnx">
+          <property role="2ru_X1" value="true" />
+          <ref role="1NtTu8" to="2qld:4bo8pCz4_QL" resolve="pullAnnotations" />
+          <node concept="3F0ifn" id="4bo8pCz4KLE" role="2ruayu">
+            <property role="3F0ifm" value="false (default)" />
+            <node concept="VechU" id="4bo8pCz5kkV" role="3F10Kt">
+              <property role="Vb096" value="fLJRk5_/gray" />
+            </node>
+          </node>
+          <node concept="VPXOz" id="4bo8pCz4KLH" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="2iRfu4" id="7EPprGLi9k2" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="6clvLV1rFS1" role="3EZMnx">
         <node concept="VPM3Z" id="6clvLV1rFS2" role="3F10Kt">
           <property role="VOm3f" value="false" />

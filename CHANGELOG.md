@@ -16,6 +16,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - mpsutil.intentions: a new style attribute `intentions-in-read-only-cell` is now available to allow intentions in read-only cells.
 - com.mbeddr.mpsutil.editor.querylist: Default editor cells now support style attributes.
+- de.slisson.mps.tables: tables now support a new property `row UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new row above/below the current row or to delete the current row. These actions only work for simple tables that are based on rows (default: *false*).
 
 ## October 2023
 

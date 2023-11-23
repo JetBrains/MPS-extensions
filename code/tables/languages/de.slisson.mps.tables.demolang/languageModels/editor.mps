@@ -312,6 +312,7 @@
         <property id="1397920687864864274" name="text" index="2rfbtB" />
       </concept>
       <concept id="1397920687864683158" name="de.slisson.mps.tables.structure.Table" flags="ng" index="2rfBfz">
+        <property id="8824145157122921765" name="rowUIActions" index="3qJzLx" />
         <child id="1397920687864865354" name="cells" index="2rf8GZ" />
         <child id="6097863121587726798" name="gridPostprocessor" index="3nFLZX" />
       </concept>
@@ -976,6 +977,7 @@
     <property role="3GE5qa" value="StaticRow" />
     <ref role="1XX52x" to="nnej:1dAqnm8oBxc" resolve="RequirementsCollection" />
     <node concept="2rfBfz" id="1dAqnm8o6CS" role="2wV5jI">
+      <property role="3qJzLx" value="true" />
       <node concept="2reSaE" id="3vizsF8spxX" role="2rf8GZ">
         <property role="1YXhso" value="Press enter to add the first requirement" />
         <ref role="2reCK$" to="nnej:1dAqnm8oYDx" resolve="requirements" />
@@ -1034,6 +1036,7 @@
         </node>
       </node>
       <node concept="2rfBfz" id="1dAqnm8qrOS" role="3EZMnx">
+        <property role="3qJzLx" value="true" />
         <node concept="2reSaE" id="1dAqnm8I7ag" role="2rf8GZ">
           <ref role="2reCK$" to="nnej:1dAqnm8qrMU" resolve="tests" />
           <node concept="1g0IQG" id="1ERZrWiwuGX" role="1geGt4" />
@@ -2580,6 +2583,7 @@
     <property role="3GE5qa" value="StateMachine2" />
     <ref role="1XX52x" to="nnej:2M7NXgi3amF" resolve="StateMachine2" />
     <node concept="2rfBfz" id="2M7NXgi3aZy" role="2wV5jI">
+      <property role="3qJzLx" value="true" />
       <node concept="2reCLu" id="ovdreqayNp" role="2rf8GZ">
         <node concept="2reCLk" id="ovdreqaBpu" role="2reCL6">
           <node concept="2r731s" id="2M7NXgi3aZB" role="2reCL6">

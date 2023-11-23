@@ -5,12 +5,19 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
   </languages>
   <imports>
+    <import index="vd2q" ref="r:4f2e39b1-e20e-479e-9e71-d33f8c6766e2(de.itemis.mps.editor.pagination.runtime.ui)" />
     <import index="1d4c" ref="r:7f43e4ab-5881-4ab5-a0b9-d27c04d2a2ce(de.itemis.mps.editor.pagination.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="2597348684684069742" name="contextHints" index="CpUAK" />
+      </concept>
+      <concept id="6822301196700715228" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclarationReference" flags="ig" index="2aJ2om">
+        <reference id="5944657839026714445" name="hint" index="2$4xQ3" />
+      </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
@@ -19,6 +26,13 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="5944657839000868711" name="jetbrains.mps.lang.editor.structure.ConceptEditorContextHints" flags="ig" index="2ABfQD">
+        <child id="5944657839000877563" name="hints" index="2ABdcP" />
+      </concept>
+      <concept id="5944657839003601246" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclaration" flags="ig" index="2BsEeg">
+        <property id="168363875802087287" name="showInUI" index="2gpH_U" />
+      </concept>
+      <concept id="8383079901754291618" name="jetbrains.mps.lang.editor.structure.CellModel_NextEditor" flags="ng" index="B$lHz" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
@@ -113,6 +127,26 @@
       <property role="TrG5h" value="paginated" />
       <node concept="10P_77" id="54HgaHyb$67" role="3t5Oan" />
       <node concept="3clFbT" id="7SVLnHHjUPP" role="3t49C2" />
+    </node>
+  </node>
+  <node concept="2ABfQD" id="6nOR_0sn2jJ">
+    <property role="TrG5h" value="paginationHints" />
+    <node concept="2BsEeg" id="6nOR_0sn2jK" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="paginationCurrentResult" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6nOR_0sn2jM">
+    <ref role="1XX52x" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3EZMnI" id="6nOR_0sn2jT" role="2wV5jI">
+      <node concept="3F0ifn" id="6nOR_0sn2k2" role="3EZMnx">
+        <property role="3F0ifm" value="SEARCH RESULT" />
+      </node>
+      <node concept="2iRfu4" id="6nOR_0sn2jU" role="2iSdaV" />
+      <node concept="B$lHz" id="6nOR_0sn2jQ" role="3EZMnx" />
+    </node>
+    <node concept="2aJ2om" id="6nOR_0sn2jO" role="CpUAK">
+      <ref role="2$4xQ3" node="6nOR_0sn2jK" resolve="currentResult" />
     </node>
   </node>
 </model>

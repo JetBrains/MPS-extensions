@@ -155,11 +155,14 @@
     <ref role="1XX52x" to="q71j:2iSRtQtDrgE" resolve="ChildTest" />
     <node concept="3EZMnI" id="1ndn0Iaf8Of" role="2wV5jI">
       <node concept="2iRfu4" id="1ndn0Iaf8Og" role="2iSdaV" />
+      <node concept="3F0ifn" id="1wtMaDEonl" role="3EZMnx">
+        <property role="3F0ifm" value="nr" />
+      </node>
       <node concept="3F0A7n" id="2iSRtQtDrgT" role="3EZMnx">
         <ref role="1NtTu8" to="q71j:2iSRtQtDrgF" resolve="n" />
       </node>
       <node concept="3F0ifn" id="1ndn0Iaf8QV" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
+        <property role="3F0ifm" value="with ref to" />
       </node>
       <node concept="1iCGBv" id="1ndn0Iaf8Pk" role="3EZMnx">
         <ref role="1NtTu8" to="q71j:1ndn0Iaf8MF" resolve="r" />

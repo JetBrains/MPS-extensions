@@ -17,7 +17,8 @@ be done in other editors by using the `partial table` cell.
 - **disable left row end cells**: there's a special cell to the left of table rows that's used, for example, for inserting
  new table rows. This flag can disable this cell (default: *false*).
 - **disable right row end cells**: there's a special cell to the left of table rows that's used, for example, for inserting
-    new table rows. This flag can disable this cell (default: *false).
+    new table rows. This flag can disable this cell (default: *false*).
+- **row UI actions (experimental)**: add actions to the MPS toolbar to add a new row above/below the current row or to delete the current row. These actions only work for simple tables that are based on rows (default: *false*).
 
 ## Cell
 

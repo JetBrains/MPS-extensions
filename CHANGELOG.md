@@ -7,6 +7,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ## November 2023
 
+### Fixed
+
+- app.jar from the platform lib folder is not exported to platform_lib_app/app.jar anymore.
+
 ### Changed
 
 - `@NotNull` annotations in the code are now checked at run time (the `javac2` compiler is used).

@@ -2283,7 +2283,7 @@
                                     <ref role="3cqZAo" node="1dAqnm8$DVo" resolve="editorCell" />
                                   </node>
                                   <node concept="liA8E" id="7DPEkiwN2f8" role="2OqNvi">
-                                    <ref role="37wK5l" to="hm5v:7DPEkiwMAV0" resolve="toggleRowUIActions" />
+                                    <ref role="37wK5l" to="hm5v:7DPEkiwMAV0" resolve="toggleRowAndColumnUIActions" />
                                     <node concept="3clFbT" id="7DPEkiwN2f9" role="37wK5m">
                                       <property role="3clFbU" value="true" />
                                     </node>
@@ -2296,7 +2296,7 @@
                                         <node concept="2OqwBi" id="7DPEkiwN2fe" role="3clFbG">
                                           <node concept="30H73N" id="7DPEkiwN2ff" role="2Oq$k0" />
                                           <node concept="3TrcHB" id="7DPEkiwN2fg" role="2OqNvi">
-                                            <ref role="3TsBF5" to="bnk3:7DPEkiwMTk_" resolve="rowUIActions" />
+                                            <ref role="3TsBF5" to="bnk3:7DPEkiwMTk_" resolve="rowAndColumnUIActions" />
                                           </node>
                                         </node>
                                       </node>

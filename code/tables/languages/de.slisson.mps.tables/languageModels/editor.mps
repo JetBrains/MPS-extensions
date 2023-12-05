@@ -627,11 +627,11 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="3F0ifn" id="7DPEkiwMUoo" role="3EZMnx">
-            <property role="3F0ifm" value="row UI actions (experimental)" />
+            <property role="3F0ifm" value="row and column UI actions (experimental)" />
             <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
           </node>
           <node concept="3F0A7n" id="7DPEkiwMUop" role="3EZMnx">
-            <ref role="1NtTu8" to="bnk3:7DPEkiwMTk_" resolve="rowUIActions" />
+            <ref role="1NtTu8" to="bnk3:7DPEkiwMTk_" resolve="rowAndColumnUIActions" />
           </node>
           <node concept="2iRfu4" id="7DPEkiwMUoq" role="2iSdaV" />
         </node>

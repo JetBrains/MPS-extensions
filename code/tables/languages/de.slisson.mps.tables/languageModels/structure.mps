@@ -107,7 +107,7 @@
     </node>
     <node concept="1TJgyi" id="7DPEkiwMTk_" role="1TKVEl">
       <property role="IQ2nx" value="8824145157122921765" />
-      <property role="TrG5h" value="rowUIActions" />
+      <property role="TrG5h" value="rowAndColumnUIActions" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="5X6T0_NE_dS" role="PzmwI">

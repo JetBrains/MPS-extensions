@@ -13,10 +13,13 @@
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="4hrd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.vfs(MPS.Platform/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
+    <import index="7bx7" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.workbench.action(MPS.Platform/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -79,6 +82,9 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="4952749571008284462" name="jetbrains.mps.baseLanguage.structure.CatchVariable" flags="ng" index="XOnhg" />
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -129,6 +135,7 @@
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -339,7 +346,7 @@
         </node>
         <node concept="3cpWs8" id="5WCc3M3FHIJ" role="3cqZAp">
           <node concept="3cpWsn" id="5WCc3M3FHIK" role="3cpWs9">
-            <property role="TrG5h" value="logDir" />
+            <property role="TrG5h" value="logFile" />
             <node concept="3uibUv" id="5WCc3M3FHIL" role="1tU5fm">
               <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
@@ -404,7 +411,7 @@
                         <property role="373rjd" value="true" />
                         <ref role="37wK5l" to="guwi:~FileWriter.&lt;init&gt;(java.io.File)" resolve="FileWriter" />
                         <node concept="37vLTw" id="5WCc3M3GbMh" role="37wK5m">
-                          <ref role="3cqZAo" node="5WCc3M3FHIK" resolve="logDir" />
+                          <ref role="3cqZAo" node="5WCc3M3FHIK" resolve="logFile" />
                         </node>
                       </node>
                     </node>
@@ -485,6 +492,34 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="9qzKT6MTu8" role="3cqZAp">
+              <node concept="1rXfSq" id="9qzKT6MTu6" role="3clFbG">
+                <ref role="37wK5l" to="7bx7:~BaseAction.showNotification(com.intellij.openapi.project.Project,com.intellij.openapi.ui.MessageType,java.lang.String)" resolve="showNotification" />
+                <node concept="2OqwBi" id="9qzKT6NyQI" role="37wK5m">
+                  <node concept="2WthIp" id="9qzKT6NyQL" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="9qzKT6NyQN" role="2OqNvi">
+                    <ref role="2WH_rO" node="9qzKT6NvXg" resolve="ideaProject" />
+                  </node>
+                </node>
+                <node concept="10M0yZ" id="9qzKT6Nc1Y" role="37wK5m">
+                  <ref role="3cqZAo" to="jkm4:~MessageType.INFO" resolve="INFO" />
+                  <ref role="1PxDUh" to="jkm4:~MessageType" resolve="MessageType" />
+                </node>
+                <node concept="3cpWs3" id="9qzKT6NdB0" role="37wK5m">
+                  <node concept="Xl_RD" id="9qzKT6NdBn" role="3uHU7w">
+                    <property role="Xl_RC" value=" was created" />
+                  </node>
+                  <node concept="3cpWs3" id="9qzKT6Ncrd" role="3uHU7B">
+                    <node concept="Xl_RD" id="9qzKT6Nc5Q" role="3uHU7B">
+                      <property role="Xl_RC" value="The file " />
+                    </node>
+                    <node concept="37vLTw" id="9qzKT6Nd7i" role="3uHU7w">
+                      <ref role="3cqZAo" node="5WCc3M3FHIK" resolve="logFile" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -493,6 +528,11 @@
       <property role="TrG5h" value="currProject" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
       <node concept="1oajcY" id="5WCc3M3E8jG" role="1oa70y" />
+    </node>
+    <node concept="1DS2jV" id="9qzKT6NvXg" role="1NuT2Z">
+      <property role="TrG5h" value="ideaProject" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <node concept="1oajcY" id="9qzKT6NvXh" role="1oa70y" />
     </node>
     <node concept="2XrIbr" id="5WCc3M3DcW0" role="32lrUH">
       <property role="TrG5h" value="isAllowed" />

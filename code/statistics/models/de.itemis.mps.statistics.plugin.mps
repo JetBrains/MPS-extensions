@@ -353,24 +353,17 @@
             <node concept="2ShNRf" id="5WCc3M3FIYn" role="33vP2m">
               <node concept="1pGfFk" id="5WCc3M3FJvw" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                <node concept="3cpWs3" id="5WCc3M3FMTI" role="37wK5m">
-                  <node concept="Xl_RD" id="5WCc3M3FNsd" role="3uHU7w">
-                    <property role="Xl_RC" value="dependencies.txt" />
+                <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="File" />
+                <node concept="2OqwBi" id="5WCc3M3FK6a" role="37wK5m">
+                  <node concept="37vLTw" id="5WCc3M3FJxh" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5WCc3M3Fbf2" resolve="absoluteFile" />
                   </node>
-                  <node concept="3cpWs3" id="5WCc3M3FLd1" role="3uHU7B">
-                    <node concept="2OqwBi" id="5WCc3M3FK6a" role="3uHU7B">
-                      <node concept="37vLTw" id="5WCc3M3FJxh" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5WCc3M3Fbf2" resolve="absoluteFile" />
-                      </node>
-                      <node concept="liA8E" id="5WCc3M3FKWU" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="5WCc3M3FMuv" role="3uHU7w">
-                      <property role="Xl_RC" value="/" />
-                    </node>
+                  <node concept="liA8E" id="5WCc3M3FKWU" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
                   </node>
+                </node>
+                <node concept="Xl_RD" id="5WCc3M3FNsd" role="37wK5m">
+                  <property role="Xl_RC" value="dependencies.txt" />
                 </node>
               </node>
             </node>

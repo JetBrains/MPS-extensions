@@ -172,12 +172,6 @@
         <child id="1205770614681" name="actualArgument" index="2XxRq1" />
       </concept>
     </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="2034914114981261497" name="jetbrains.mps.baseLanguage.logging.structure.LogLowLevelStatement" flags="ng" index="RRSsy">
-        <property id="2034914114981261751" name="severity" index="RRSoG" />
-        <child id="2034914114981261753" name="message" index="RRSoy" />
-      </concept>
-    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -380,10 +374,32 @@
               </node>
             </node>
             <node concept="3clFbS" id="5WCc3M3GooW" role="1zc67A">
-              <node concept="RRSsy" id="4bHoaiHuQLw" role="3cqZAp">
-                <property role="RRSoG" value="gZ5fh_4/error" />
-                <node concept="Xl_RD" id="4bHoaiHuQLy" role="RRSoy">
-                  <property role="Xl_RC" value="I/O Exception encountered when opening log file \&quot;dependencies.txt\&quot; in project root." />
+              <node concept="3clFbF" id="9qzKT6Open" role="3cqZAp">
+                <node concept="1rXfSq" id="9qzKT6Opeo" role="3clFbG">
+                  <ref role="37wK5l" to="7bx7:~BaseAction.showNotification(com.intellij.openapi.project.Project,com.intellij.openapi.ui.MessageType,java.lang.String)" resolve="showNotification" />
+                  <node concept="2OqwBi" id="9qzKT6Opep" role="37wK5m">
+                    <node concept="2WthIp" id="9qzKT6Opeq" role="2Oq$k0" />
+                    <node concept="1DTwFV" id="9qzKT6Oper" role="2OqNvi">
+                      <ref role="2WH_rO" node="9qzKT6NvXg" resolve="ideaProject" />
+                    </node>
+                  </node>
+                  <node concept="10M0yZ" id="9qzKT6OpWf" role="37wK5m">
+                    <ref role="3cqZAo" to="jkm4:~MessageType.ERROR" resolve="ERROR" />
+                    <ref role="1PxDUh" to="jkm4:~MessageType" resolve="MessageType" />
+                  </node>
+                  <node concept="3cpWs3" id="9qzKT6Opet" role="37wK5m">
+                    <node concept="Xl_RD" id="9qzKT6Opeu" role="3uHU7w">
+                      <property role="Xl_RC" value=" couldn't be created" />
+                    </node>
+                    <node concept="3cpWs3" id="9qzKT6Opev" role="3uHU7B">
+                      <node concept="Xl_RD" id="9qzKT6Opew" role="3uHU7B">
+                        <property role="Xl_RC" value="The file " />
+                      </node>
+                      <node concept="37vLTw" id="9qzKT6Opex" role="3uHU7w">
+                        <ref role="3cqZAo" node="5WCc3M3FHIK" resolve="logFile" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

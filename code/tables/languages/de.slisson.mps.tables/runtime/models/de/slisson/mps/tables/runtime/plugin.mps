@@ -975,7 +975,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="506gpRRl7Bm" role="3Uehp1">
-      <property role="1iqoE4" value="${module}/icons/insertRowBelow.svg" />
+      <property role="1iqoE4" value="${module}/icons/insertColumnRight.svg" />
     </node>
   </node>
   <node concept="sE7Ow" id="506gpRRl7Bn">
@@ -1058,7 +1058,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="506gpRRl7BS" role="3Uehp1">
-      <property role="1iqoE4" value="${module}/icons/insertRowAbove.svg" />
+      <property role="1iqoE4" value="${module}/icons/insertColumnLeft.svg" />
     </node>
   </node>
   <node concept="sE7Ow" id="6R0q0mZQKWi">

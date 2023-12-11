@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:55549eb8-b827-44b3-bd84-ef3114bd2fe2(com.mbeddr.mpsutil.treenotation.runtime)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
@@ -12875,9 +12876,6 @@
         </node>
         <node concept="3clFbF" id="3iAZL$aoPse" role="3cqZAp">
           <node concept="2OqwBi" id="3iAZL$aoPvx" role="3clFbG">
-            <node concept="37vLTw" id="3iAZL$aoQFn" role="2Oq$k0">
-              <ref role="3cqZAo" node="2rPTijxxYI0" resolve="g2" />
-            </node>
             <node concept="liA8E" id="3iAZL$aoPvy" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Graphics2D.setRenderingHint(java.awt.RenderingHints$Key,java.lang.Object)" resolve="setRenderingHint" />
               <node concept="10M0yZ" id="3iAZL$aoPBD" role="37wK5m">
@@ -12888,6 +12886,9 @@
                 <ref role="1PxDUh" to="z60i:~RenderingHints" resolve="RenderingHints" />
                 <ref role="3cqZAo" to="z60i:~RenderingHints.VALUE_RENDER_QUALITY" resolve="VALUE_RENDER_QUALITY" />
               </node>
+            </node>
+            <node concept="37vLTw" id="3iAZL$aoQFn" role="2Oq$k0">
+              <ref role="3cqZAo" node="2rPTijxxYI0" resolve="g2" />
             </node>
           </node>
         </node>

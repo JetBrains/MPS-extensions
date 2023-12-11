@@ -2,7 +2,7 @@
 <model ref="r:58892eeb-9059-4684-af0a-e0f5f7f9800d(de.itemis.model.merge.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
@@ -224,7 +224,7 @@
     <property role="TrG5h" value="Drop" />
     <property role="3GE5qa" value="action" />
     <property role="34LRSv" value="Drop" />
-    <property role="R4oN_" value="Drops Item In Case Of Conflict" />
+    <property role="R4oN_" value="Drops Item" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="1TIwiD" id="7jyS5urbByR">
@@ -232,7 +232,7 @@
     <property role="TrG5h" value="Auto" />
     <property role="3GE5qa" value="action" />
     <property role="34LRSv" value="Auto" />
-    <property role="R4oN_" value="Do Some Magic (ToDo)" />
+    <property role="R4oN_" value="Apply Merge Actions Of Children" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="1TIwiD" id="7jyS5urbFgb">
@@ -305,17 +305,17 @@
     <node concept="25R33" id="1VmHfRxJErv" role="25R1y">
       <property role="3tVfz5" value="2222162468661012191" />
       <property role="TrG5h" value="NewOnRight" />
-      <property role="1L1pqM" value="New Element On The Right" />
+      <property role="1L1pqM" value="Element Exists Only On The Right" />
     </node>
     <node concept="25R33" id="1VmHfRxJErw" role="25R1y">
       <property role="3tVfz5" value="2222162468661012192" />
       <property role="TrG5h" value="ExistsOnLeft" />
-      <property role="1L1pqM" value="Element Exists only On Left Side" />
+      <property role="1L1pqM" value="Element Exists Only On Left Side" />
     </node>
     <node concept="25R33" id="1VmHfRxJErz" role="25R1y">
       <property role="3tVfz5" value="2222162468661012195" />
       <property role="TrG5h" value="ElementOnBoth" />
-      <property role="1L1pqM" value="Element On Both Sides" />
+      <property role="1L1pqM" value="Element Exists On Both Sides" />
     </node>
   </node>
   <node concept="1TIwiD" id="1VmHfRxKMgU">

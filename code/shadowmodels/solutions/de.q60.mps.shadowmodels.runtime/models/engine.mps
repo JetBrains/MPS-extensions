@@ -10,7 +10,6 @@
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="da8e6b62-7ca3-4489-86bc-b70a501ca28f" name="de.q60.mps.incremental" version="-1" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="1" />
-    <use id="fdcdc48f-bfd8-4831-aa76-5abac2ffa010" name="jetbrains.mps.baseLanguage.jdk8" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -41767,6 +41766,53 @@
               </node>
             </node>
             <node concept="3clFbS" id="5RYuwTYgOO7" role="3eOfB_">
+              <node concept="3cpWs8" id="7LJ_vJPmKnO" role="3cqZAp">
+                <node concept="3cpWsn" id="7LJ_vJPmKnP" role="3cpWs9">
+                  <property role="TrG5h" value="scope" />
+                  <node concept="3uibUv" id="7LJ_vJOMNj4" role="1tU5fm">
+                    <ref role="3uigEE" node="34C2CYONBwu" resolve="UniqueTargetInScope" />
+                    <node concept="3uibUv" id="7LJ_vJPmVP$" role="11_B2D">
+                      <ref role="3uigEE" node="22rzPeg7Tlq" resolve="CopyCall" />
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="7LJ_vJPmKnQ" role="33vP2m">
+                    <node concept="1pGfFk" id="7LJ_vJPmKnR" role="2ShVmc">
+                      <ref role="37wK5l" node="34C2CYONBYg" resolve="UniqueTargetInScope" />
+                      <node concept="1rXfSq" id="7LJ_vJPmKnS" role="37wK5m">
+                        <ref role="37wK5l" node="FQthXbE4_Y" resolve="getOwnScope" />
+                      </node>
+                      <node concept="2ShNRf" id="7LJ_vJPmKnT" role="37wK5m">
+                        <node concept="1pGfFk" id="7LJ_vJPmKnU" role="2ShVmc">
+                          <ref role="37wK5l" node="6EAoUhEZlFL" resolve="LazyContainmentTarget" />
+                          <node concept="2OqwBi" id="7LJ_vJPmKnV" role="37wK5m">
+                            <node concept="1eOMI4" id="7LJ_vJPmKnW" role="2Oq$k0">
+                              <node concept="10QFUN" id="7LJ_vJPmKnX" role="1eOMHV">
+                                <node concept="2OqwBi" id="7LJ_vJPmKnY" role="10QFUP">
+                                  <node concept="37vLTw" id="7LJ_vJPmKnZ" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="65YLir4YO9$" resolve="target" />
+                                  </node>
+                                  <node concept="liA8E" id="7LJ_vJPmKo0" role="2OqNvi">
+                                    <ref role="37wK5l" node="5$YruQqDDkm" resolve="getTarget" />
+                                  </node>
+                                </node>
+                                <node concept="3uibUv" id="7LJ_vJPmKo1" role="10QFUM">
+                                  <ref role="3uigEE" node="2dy3jLYuI0E" resolve="RewriteCall" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7LJ_vJPmKo2" role="2OqNvi">
+                              <ref role="37wK5l" node="22rzPeg9f4I" resolve="toCopyCall" />
+                            </node>
+                          </node>
+                          <node concept="3uibUv" id="7LJ_vJPmKo3" role="1pMfVU">
+                            <ref role="3uigEE" node="22rzPeg7Tlq" resolve="CopyCall" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3cpWs6" id="5RYuwTYh80C" role="3cqZAp">
                 <node concept="2ShNRf" id="5RYuwTYh9n7" role="3cqZAk">
                   <node concept="2HTt$P" id="5RYuwTYh9ls" role="2ShVmc">
@@ -41779,41 +41825,8 @@
                         <node concept="37vLTw" id="5RYuwTYh80G" role="37wK5m">
                           <ref role="3cqZAo" node="65YLir4YO5f" resolve="stageRef" />
                         </node>
-                        <node concept="2ShNRf" id="FQthXbR0uH" role="37wK5m">
-                          <node concept="1pGfFk" id="FQthXbR1Ll" role="2ShVmc">
-                            <ref role="37wK5l" node="34C2CYONBYg" resolve="UniqueTargetInScope" />
-                            <node concept="1rXfSq" id="FQthXbR5JV" role="37wK5m">
-                              <ref role="37wK5l" node="FQthXbE4_Y" resolve="getOwnScope" />
-                            </node>
-                            <node concept="2ShNRf" id="5RYuwTYh80H" role="37wK5m">
-                              <node concept="1pGfFk" id="5RYuwTYh80I" role="2ShVmc">
-                                <ref role="37wK5l" node="6EAoUhEZlFL" resolve="LazyContainmentTarget" />
-                                <node concept="2OqwBi" id="5RYuwTYh80J" role="37wK5m">
-                                  <node concept="1eOMI4" id="5RYuwTYh80K" role="2Oq$k0">
-                                    <node concept="10QFUN" id="5RYuwTYh80L" role="1eOMHV">
-                                      <node concept="2OqwBi" id="5RYuwTYh80M" role="10QFUP">
-                                        <node concept="37vLTw" id="5RYuwTYh80N" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="65YLir4YO9$" resolve="target" />
-                                        </node>
-                                        <node concept="liA8E" id="5RYuwTYh80O" role="2OqNvi">
-                                          <ref role="37wK5l" node="5$YruQqDDkm" resolve="getTarget" />
-                                        </node>
-                                      </node>
-                                      <node concept="3uibUv" id="5RYuwTYh80P" role="10QFUM">
-                                        <ref role="3uigEE" node="2dy3jLYuI0E" resolve="RewriteCall" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                  <node concept="liA8E" id="5RYuwTYh80Q" role="2OqNvi">
-                                    <ref role="37wK5l" node="22rzPeg9f4I" resolve="toCopyCall" />
-                                  </node>
-                                </node>
-                                <node concept="3uibUv" id="4Dc7ogTtUWL" role="1pMfVU">
-                                  <ref role="3uigEE" node="22rzPeg7Tlq" resolve="CopyCall" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
+                        <node concept="37vLTw" id="7LJ_vJPmKo4" role="37wK5m">
+                          <ref role="3cqZAo" node="7LJ_vJPmKnP" resolve="scope" />
                         </node>
                       </node>
                     </node>

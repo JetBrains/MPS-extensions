@@ -105,6 +105,9 @@
       <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
+      <concept id="5610619299014309452" name="jetbrains.mps.build.structure.BuildSource_JavaExternalJarRef" flags="ng" index="3yrxFa">
+        <reference id="5610619299014309453" name="jar" index="3yrxFb" />
+      </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
       <concept id="5248329904287794596" name="jetbrains.mps.build.structure.BuildInputFiles" flags="ng" index="3LXTmp">
         <child id="5248329904287794598" name="dir" index="3LXTmr" />
@@ -199,6 +202,7 @@
         <child id="8137134783396676835" name="location" index="1HemKq" />
       </concept>
       <concept id="4278635856200826393" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyJar" flags="ng" index="1BurEX">
+        <child id="2798275735916344703" name="customLocation" index="2gdwQb" />
         <child id="4278635856200826394" name="path" index="1BurEY" />
       </concept>
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
@@ -941,6 +945,9 @@
               <node concept="2Ry0Ak" id="28qbqxxOALo" role="iGT6I">
                 <property role="2Ry0Am" value="app.jar" />
               </node>
+            </node>
+            <node concept="3yrxFa" id="56z5W63g4Cc" role="2gdwQb">
+              <ref role="3yrxFb" to="ffeo:4LdE6kxkp0J" />
             </node>
           </node>
         </node>
@@ -14159,21 +14166,6 @@
       </node>
     </node>
     <node concept="1l3spV" id="2Xjt3l56m3c" role="1l3spN">
-      <node concept="398223" id="7xBBncBZ8Tk" role="39821P">
-        <node concept="3_J27D" id="7xBBncBZ8Tm" role="Nbhlr">
-          <node concept="3Mxwew" id="7xBBncC7IRl" role="3MwsjC">
-            <property role="3MwjfP" value="platform_lib_app" />
-          </node>
-        </node>
-        <node concept="28jJK3" id="7xBBncBZ98v" role="39821P">
-          <node concept="398BVA" id="7xBBncBZ9eU" role="28jJRO">
-            <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-            <node concept="2Ry0Ak" id="7xBBncBZb4h" role="iGT6I">
-              <property role="2Ry0Am" value="app.jar" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="m$_wl" id="2Y$Ewq9ERUo" role="39821P">
         <ref role="m_rDy" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
         <node concept="398223" id="6_UytVTj6iE" role="39821P">

@@ -5,14 +5,20 @@ All notable changes to this project are documented in this file.
 Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
 The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
-## Dezember 2023
+
+## December 2023
 
 ### Fixed
 
 - de.itemis.editor.diagram: Further improvements to make the auto-layouter more stable.
 - de.itemis.editor.diagram: Tooltips for edge and vertex buttons work again.
+- de.itemis.editor.diagram: The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
 
 ## November 2023
+
+### Fixed
+
+- app.jar from the platform lib folder is not exported to platform_lib_app/app.jar anymore.
 
 ### Changed
 
@@ -23,6 +29,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - mpsutil.intentions: a new style attribute `intentions-in-read-only-cell` is now available to allow intentions in read-only cells.
 - com.mbeddr.mpsutil.editor.querylist: Default editor cells now support style attributes.
+- de.itemis.mps.editor.pagination: The page number can now be entered directly.
 
 ## October 2023
 

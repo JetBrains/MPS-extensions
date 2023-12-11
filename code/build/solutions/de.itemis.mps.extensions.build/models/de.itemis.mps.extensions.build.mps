@@ -12126,9 +12126,6 @@
       <node concept="m$_yC" id="3ofF9dt4eDr" role="m$_yJ">
         <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
       </node>
-      <node concept="m$_yC" id="5lBBNpx5PcJ" role="m$_yJ">
-        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
-      </node>
       <node concept="2iUeEo" id="3vhhDKcvNeO" role="2iVFfd">
         <property role="2iUeEt" value="Modelix" />
         <property role="2iUeEu" value="http://modelix.org" />
@@ -12137,6 +12134,9 @@
         <node concept="3Mxwew" id="3vhhDKcvN8v" role="3MwsjC">
           <property role="3MwjfP" value="Alternative model API with better support for persistent data structures." />
         </node>
+      </node>
+      <node concept="m$_yC" id="5lBBNpx5PcJ" role="m$_yJ">
+        <ref role="m$_y1" node="4p3FRivDLPy" resolve="org.apache.commons" />
       </node>
     </node>
     <node concept="2G$12M" id="5U8hsWC6WQb" role="3989C9">

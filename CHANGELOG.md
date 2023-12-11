@@ -5,6 +5,12 @@ All notable changes to this project are documented in this file.
 Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
 The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## December 2023
+
+### Added
+
+- de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
+
 ## November 2023
 
 ### Changed
@@ -16,7 +22,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - mpsutil.intentions: a new style attribute `intentions-in-read-only-cell` is now available to allow intentions in read-only cells.
 - com.mbeddr.mpsutil.editor.querylist: Default editor cells now support style attributes.
-- de.slisson.mps.tables: tables now support a new property `row and column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new row/column above/below the current row/column or to delete the current row/column. These actions only work for simple tables that are based on rows (default: *false*).
+- de.slisson.mps.tables: tables now support a new property `row UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new row above/below the current row or to delete the current row. These actions only work for simple tables that are based on rows (default: *false*).
 
 ## October 2023
 

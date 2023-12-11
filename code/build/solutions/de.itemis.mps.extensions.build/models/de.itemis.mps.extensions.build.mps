@@ -106,9 +106,6 @@
       <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
-      <concept id="5610619299014309452" name="jetbrains.mps.build.structure.BuildSource_JavaExternalJarRef" flags="ng" index="3yrxFa">
-        <reference id="5610619299014309453" name="jar" index="3yrxFb" />
-      </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
       <concept id="5248329904287794596" name="jetbrains.mps.build.structure.BuildInputFiles" flags="ng" index="3LXTmp">
         <child id="5248329904287794598" name="dir" index="3LXTmr" />
@@ -203,7 +200,6 @@
         <child id="8137134783396676835" name="location" index="1HemKq" />
       </concept>
       <concept id="4278635856200826393" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyJar" flags="ng" index="1BurEX">
-        <child id="2798275735916344703" name="customLocation" index="2gdwQb" />
         <child id="4278635856200826394" name="path" index="1BurEY" />
       </concept>
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
@@ -937,19 +933,6 @@
         <node concept="1SiIV0" id="qsyhYeUL3T" role="3bR37C">
           <node concept="3bR9La" id="qsyhYeUL3U" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="28qbqxxOALs" role="3bR37C">
-          <node concept="1BurEX" id="28qbqxxOALt" role="1SiIV1">
-            <node concept="398BVA" id="28qbqxxOALn" role="1BurEY">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="28qbqxxOALo" role="iGT6I">
-                <property role="2Ry0Am" value="app.jar" />
-              </node>
-            </node>
-            <node concept="3yrxFa" id="56z5W63g4Cc" role="2gdwQb">
-              <ref role="3yrxFb" to="ffeo:4LdE6kxkp0J" />
-            </node>
           </node>
         </node>
         <node concept="3rtmxn" id="7LJ_vJOlQ5R" role="3bR31x">

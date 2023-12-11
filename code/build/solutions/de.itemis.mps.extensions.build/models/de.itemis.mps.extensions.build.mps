@@ -56,6 +56,7 @@
       </concept>
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
         <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
+        <property id="927724900262033862" name="copyResources" index="2_Ic$B" />
         <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
         <property id="2059109515400425365" name="compiler" index="3fwGa$" />
       </concept>
@@ -14129,6 +14130,7 @@
       <property role="2_Ic$$" value="true" />
       <property role="TZNOO" value="11" />
       <property role="3fwGa$" value="IntelliJ" />
+      <property role="2_Ic$B" value="true" />
     </node>
     <node concept="1wNqPr" id="2B1T7v1mPNt" role="3989C9">
       <property role="1wNuhc" value="true" />

@@ -936,6 +936,9 @@
           </node>
         </node>
         <node concept="l2Vlx" id="1PeMnANftFz" role="2iSdaV" />
+        <node concept="2SqB2G" id="3aFJVZlyO6O" role="2SqHTX">
+          <property role="TrG5h" value="binaryExpressionRoot" />
+        </node>
       </node>
       <node concept="2ElW$n" id="77A3HzrI7kj" role="2El2Yn">
         <node concept="2OqwBi" id="77A3HzrKduh" role="2EmT7a">
@@ -2017,6 +2020,32 @@
         <ref role="PMmxG" node="7uEwlsA7BRo" resolve="TEST_optionalInComponent_component" />
       </node>
       <node concept="2iRfu4" id="7uEwlsA7BS9" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3aFJVZlquy8">
+    <ref role="1XX52x" to="ibwz:3aFJVZlqur9" resolve="TEST_LayoutOfChildInOptional" />
+    <node concept="3EZMnI" id="3aFJVZlquya" role="2wV5jI">
+      <node concept="3F0ifn" id="3aFJVZlquyb" role="3EZMnx">
+        <property role="3F0ifm" value="TEST_LayoutOfChildInOptional" />
+      </node>
+      <node concept="_tjkj" id="3aFJVZlquyd" role="3EZMnx">
+        <node concept="3F1sOY" id="3aFJVZlrXPD" role="_tjki">
+          <ref role="1NtTu8" to="ibwz:3aFJVZlqura" resolve="child" />
+        </node>
+        <node concept="ZYGn8" id="3aFJVZlwP1$" role="ZWbT9">
+          <node concept="3clFbS" id="3aFJVZlwP1_" role="2VODD2">
+            <node concept="3clFbF" id="3aFJVZlwP2g" role="3cqZAp">
+              <node concept="Xl_RD" id="3aFJVZlwP2f" role="3clFbG">
+                <property role="Xl_RC" value="abc" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3aFJVZlquyH" role="2iSdaV" />
+      <node concept="2SqB2G" id="3aFJVZlyh1z" role="2SqHTX">
+        <property role="TrG5h" value="testConceptRoot" />
+      </node>
     </node>
   </node>
 </model>

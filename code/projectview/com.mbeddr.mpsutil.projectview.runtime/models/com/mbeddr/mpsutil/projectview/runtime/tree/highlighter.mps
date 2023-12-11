@@ -8688,7 +8688,7 @@
                           <node concept="2ShNRf" id="3nmlzyFw7sE" role="37wK5m">
                             <node concept="1pGfFk" id="3nmlzyFxVF5" role="2ShVmc">
                               <property role="373rjd" value="true" />
-                              <ref role="37wK5l" node="3nmlzyFwaj_" resolve="RefreshBatch" />
+                              <ref role="37wK5l" node="3nmlzyFwaj_" resolve="TreeNodeUpdater.RefreshBatch" />
                               <node concept="37vLTw" id="3nmlzyFxSol" role="37wK5m">
                                 <ref role="3cqZAo" node="6B7erwvEDzi" resolve="updates" />
                               </node>

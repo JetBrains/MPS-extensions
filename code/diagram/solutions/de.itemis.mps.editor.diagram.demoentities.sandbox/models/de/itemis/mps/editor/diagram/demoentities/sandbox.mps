@@ -139,8 +139,8 @@
           <node concept="gqqVs" id="56Tfdun38iY" role="37mO4d">
             <property role="gqqTZ" value="237.0" />
             <property role="gqqTW" value="334.0004967285156" />
-            <property role="gqqTX" value="116.0" />
-            <property role="gqqTy" value="46.0" />
+            <property role="gqqTX" value="155.0" />
+            <property role="gqqTy" value="64.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
@@ -149,8 +149,8 @@
           <node concept="gqqVs" id="56Tfdun38iA" role="37mO4d">
             <property role="gqqTZ" value="245.0" />
             <property role="gqqTW" value="455.0007103515625" />
-            <property role="gqqTX" value="100.0" />
-            <property role="gqqTy" value="46.0" />
+            <property role="gqqTX" value="133.0" />
+            <property role="gqqTy" value="64.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
@@ -159,8 +159,8 @@
           <node concept="gqqVs" id="56Tfdun38hW" role="37mO4d">
             <property role="gqqTZ" value="130.0" />
             <property role="gqqTW" value="193.00029836425782" />
-            <property role="gqqTX" value="92.0" />
-            <property role="gqqTy" value="46.0" />
+            <property role="gqqTX" value="122.0" />
+            <property role="gqqTy" value="64.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
@@ -169,8 +169,8 @@
           <node concept="gqqVs" id="56Tfdun38iw" role="37mO4d">
             <property role="gqqTZ" value="146.0" />
             <property role="gqqTW" value="52.0001" />
-            <property role="gqqTX" value="60.0" />
-            <property role="gqqTy" value="46.0" />
+            <property role="gqqTX" value="78.0" />
+            <property role="gqqTy" value="64.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>

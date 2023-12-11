@@ -224,7 +224,7 @@
     <property role="TrG5h" value="Drop" />
     <property role="3GE5qa" value="action" />
     <property role="34LRSv" value="Drop" />
-    <property role="R4oN_" value="Drops Item In Case Of Conflict" />
+    <property role="R4oN_" value="Drops Item" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="1TIwiD" id="7jyS5urbByR">
@@ -232,7 +232,7 @@
     <property role="TrG5h" value="Auto" />
     <property role="3GE5qa" value="action" />
     <property role="34LRSv" value="Auto" />
-    <property role="R4oN_" value="Do Some Magic (ToDo)" />
+    <property role="R4oN_" value="Apply Merge Actions Of Children" />
     <ref role="1TJDcQ" node="6zqIeMU2RWS" resolve="AbstractMergeAction" />
   </node>
   <node concept="1TIwiD" id="7jyS5urbFgb">
@@ -305,17 +305,17 @@
     <node concept="25R33" id="1VmHfRxJErv" role="25R1y">
       <property role="3tVfz5" value="2222162468661012191" />
       <property role="TrG5h" value="NewOnRight" />
-      <property role="1L1pqM" value="New Element On The Right" />
+      <property role="1L1pqM" value="Element Exists Only On The Right" />
     </node>
     <node concept="25R33" id="1VmHfRxJErw" role="25R1y">
       <property role="3tVfz5" value="2222162468661012192" />
       <property role="TrG5h" value="ExistsOnLeft" />
-      <property role="1L1pqM" value="Element Exists only On Left Side" />
+      <property role="1L1pqM" value="Element Exists Only On Left Side" />
     </node>
     <node concept="25R33" id="1VmHfRxJErz" role="25R1y">
       <property role="3tVfz5" value="2222162468661012195" />
       <property role="TrG5h" value="ElementOnBoth" />
-      <property role="1L1pqM" value="Element On Both Sides" />
+      <property role="1L1pqM" value="Element Exists On Both Sides" />
     </node>
   </node>
   <node concept="1TIwiD" id="1VmHfRxKMgU">

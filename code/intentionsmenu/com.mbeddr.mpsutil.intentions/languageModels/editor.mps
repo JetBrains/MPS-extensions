@@ -233,5 +233,24 @@
       <node concept="3clFbT" id="5qf1oe_$9mE" role="3t49C2" />
     </node>
   </node>
+  <node concept="24kQdi" id="frLjuvPGID">
+    <ref role="1XX52x" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
+    <node concept="3EZMnI" id="frLjuvPGIE" role="2wV5jI">
+      <node concept="2iRkQZ" id="frLjuvPGIF" role="2iSdaV" />
+      <node concept="3EZMnI" id="frLjuvPGIG" role="3EZMnx">
+        <node concept="3F0ifn" id="frLjuvPHyu" role="3EZMnx">
+          <property role="3F0ifm" value="show intention in ready-only cell:" />
+        </node>
+        <node concept="3F0A7n" id="frLjuvPGII" role="3EZMnx">
+          <ref role="1NtTu8" to="tegv:frLjuvPGIB" resolve="flag" />
+        </node>
+        <node concept="2iRfu4" id="frLjuvPGJo" role="2iSdaV" />
+        <node concept="3vyZuw" id="frLjuvPGJp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2SsqMj" id="frLjuvPGJq" role="3EZMnx" />
+    </node>
+  </node>
 </model>
 

@@ -34544,30 +34544,22 @@
                 </node>
               </node>
               <node concept="1Wc70l" id="7DPEkiwPLQ0" role="3K4Cdx">
-                <node concept="1Wc70l" id="7DPEkiwPFYO" role="3uHU7B">
-                  <node concept="1Wc70l" id="1Q$LIXOlKJL" role="3uHU7B">
-                    <node concept="3y3z36" id="7IUya7cjjjU" role="3uHU7B">
-                      <node concept="37vLTw" id="1Q$LIXOlMF2" role="3uHU7B">
+                <node concept="1Wc70l" id="1Q$LIXOlKJL" role="3uHU7B">
+                  <node concept="3y3z36" id="7IUya7cjjjU" role="3uHU7B">
+                    <node concept="37vLTw" id="1Q$LIXOlMF2" role="3uHU7B">
+                      <ref role="3cqZAo" node="1Q$LIXOlMF0" resolve="gridCell" />
+                    </node>
+                    <node concept="10Nm6u" id="7IUya7cjla6" role="3uHU7w" />
+                  </node>
+                  <node concept="3y3z36" id="1Q$LIXOlHZ7" role="3uHU7w">
+                    <node concept="2YIFZM" id="1Q$LIXOlHmp" role="3uHU7B">
+                      <ref role="1Pybhc" node="6tOcB$JKlIC" resolve="TableUtils" />
+                      <ref role="37wK5l" node="7IUya7c4DQS" resolve="getNodeOfRowNode" />
+                      <node concept="37vLTw" id="1Q$LIXOlMF3" role="37wK5m">
                         <ref role="3cqZAo" node="1Q$LIXOlMF0" resolve="gridCell" />
                       </node>
-                      <node concept="10Nm6u" id="7IUya7cjla6" role="3uHU7w" />
                     </node>
-                    <node concept="3y3z36" id="1Q$LIXOlHZ7" role="3uHU7w">
-                      <node concept="2YIFZM" id="1Q$LIXOlHmp" role="3uHU7B">
-                        <ref role="1Pybhc" node="6tOcB$JKlIC" resolve="TableUtils" />
-                        <ref role="37wK5l" node="7IUya7c4DQS" resolve="getNodeOfRowNode" />
-                        <node concept="37vLTw" id="1Q$LIXOlMF3" role="37wK5m">
-                          <ref role="3cqZAo" node="1Q$LIXOlMF0" resolve="gridCell" />
-                        </node>
-                      </node>
-                      <node concept="10Nm6u" id="1Q$LIXOlIvs" role="3uHU7w" />
-                    </node>
-                  </node>
-                  <node concept="3y3z36" id="7DPEkiwPIT8" role="3uHU7w">
-                    <node concept="37vLTw" id="7DPEkiwPH7o" role="3uHU7B">
-                      <ref role="3cqZAo" node="7DPEkiwPE2i" resolve="tableEditor" />
-                    </node>
-                    <node concept="10Nm6u" id="7DPEkiwPKHs" role="3uHU7w" />
+                    <node concept="10Nm6u" id="1Q$LIXOlIvs" role="3uHU7w" />
                   </node>
                 </node>
                 <node concept="3clFbC" id="56WqtlUiYGe" role="3uHU7w">

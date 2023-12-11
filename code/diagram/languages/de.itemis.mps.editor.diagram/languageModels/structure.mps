@@ -104,6 +104,7 @@
       <property role="IQ2nx" value="4706276119306323403" />
       <property role="TrG5h" value="runAutoLayoutOnInit" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="asaX9" id="4m$$SBG8CdH" role="lGtFl" />
     </node>
     <node concept="1TJgyi" id="2YJ6Svp2O0G" role="1TKVEl">
       <property role="IQ2nx" value="3435995310982905900" />
@@ -158,6 +159,12 @@
       <property role="IQ2ns" value="8316481512155640329" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="saveLayout" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="4m$$SBG8CdJ" role="1TKVEi">
+      <property role="IQ2ns" value="5018298105379062639" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="autoLayoutOnInit" />
       <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
@@ -1576,6 +1583,12 @@
       <property role="20kJfa" value="dropHandler" />
       <property role="IQ2ns" value="8606559630272704940" />
       <ref role="20lvS9" node="7tKD69sB2Fv" resolve="DropHandler" />
+    </node>
+    <node concept="1TJgyj" id="4bo8pCz4_QL" role="1TKVEi">
+      <property role="IQ2ns" value="4816636747369831857" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="pullAnnotations" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
     <node concept="PrWs8" id="6clvLV1rj2a" role="PrDN$">
       <ref role="PrY4T" node="6clvLV1q6UE" resolve="IInlineEditorComponentContainer" />

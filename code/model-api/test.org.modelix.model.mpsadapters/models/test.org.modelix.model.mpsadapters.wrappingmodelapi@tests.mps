@@ -12,16 +12,9 @@
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" />
-    <import index="qvpu" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.area(org.modelix.model.api/)" />
-    <import index="dglc" ref="r:713965c4-2968-4619-9821-2429551acbb4(de.q60.mps.shadowmodels.runtime.concurrentrepo)" />
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="jks5" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:org.modelix.model.api(org.modelix.model.api/)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="b0pz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.facets(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -1350,7 +1343,7 @@
               </node>
               <node concept="3vlDli" id="7LiskgSxc_2" role="3cqZAp">
                 <node concept="3cmrfG" id="7LiskgSxcFh" role="3tpDZB">
-                  <property role="3cmrfH" value="23" />
+                  <property role="3cmrfH" value="22" />
                 </node>
                 <node concept="2OqwBi" id="7LiskgSxdmu" role="3tpDZA">
                   <node concept="37vLTw" id="7LiskgSxcKG" role="2Oq$k0">
@@ -1487,7 +1480,7 @@
               </node>
               <node concept="3vlDli" id="7LiskgSE9fd" role="3cqZAp">
                 <node concept="Xl_RD" id="7LiskgSE9fe" role="3tpDZB">
-                  <property role="Xl_RC" value="18" />
+                  <property role="Xl_RC" value="19" />
                 </node>
                 <node concept="2OqwBi" id="7LiskgSE9ff" role="3tpDZA">
                   <node concept="37vLTw" id="7LiskgSE9fg" role="2Oq$k0">
@@ -1612,17 +1605,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3vlDli" id="5pW4zr_0kLZ" role="3cqZAp">
-                <node concept="3cmrfG" id="5pW4zr_0kM0" role="3tpDZB">
-                  <property role="3cmrfH" value="22" />
-                </node>
-                <node concept="2OqwBi" id="5pW4zr_0kM1" role="3tpDZA">
-                  <node concept="37vLTw" id="5pW4zr_0kM2" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0kLH" resolve="children" />
-                  </node>
-                  <node concept="34oBXx" id="5pW4zr_0kM3" role="2OqNvi" />
-                </node>
-              </node>
               <node concept="3clFbH" id="1IQakYaqhdT" role="3cqZAp" />
               <node concept="3vlDli" id="5pW4zr_0BV2" role="3cqZAp">
                 <node concept="2OqwBi" id="5pW4zr_0U_N" role="3tpDZA">
@@ -1661,8 +1643,8 @@
                   </node>
                   <node concept="34oBXx" id="5pW4zr_0VkM" role="2OqNvi" />
                 </node>
-                <node concept="3cmrfG" id="5pW4zr_0Ccj" role="3tpDZB">
-                  <property role="3cmrfH" value="9" />
+                <node concept="3cmrfG" id="5fMlMA4WfIS" role="3tpDZB">
+                  <property role="3cmrfH" value="5" />
                 </node>
               </node>
               <node concept="3vlDli" id="5pW4zr_0FGE" role="3cqZAp">
@@ -1703,7 +1685,7 @@
                   <node concept="34oBXx" id="5pW4zr_0W6b" role="2OqNvi" />
                 </node>
                 <node concept="3cmrfG" id="5pW4zr_0FGT" role="3tpDZB">
-                  <property role="3cmrfH" value="13" />
+                  <property role="3cmrfH" value="3" />
                 </node>
               </node>
               <node concept="3clFbH" id="5pW4zr_0kM4" role="3cqZAp" />
@@ -1836,7 +1818,7 @@
               <node concept="3clFbH" id="5pW4zr_0kM$" role="3cqZAp" />
               <node concept="3cpWs8" id="5pW4zr_0GSj" role="3cqZAp">
                 <node concept="3cpWsn" id="5pW4zr_0GSk" role="3cpWs9">
-                  <property role="TrG5h" value="kernel" />
+                  <property role="TrG5h" value="annotations" />
                   <node concept="3uibUv" id="5pW4zr_0GSl" role="1tU5fm">
                     <ref role="3uigEE" to="jks5:~INode" resolve="INode" />
                   </node>
@@ -1850,7 +1832,7 @@
                           <node concept="3clFbF" id="5pW4zr_0GSr" role="3cqZAp">
                             <node concept="17R0WA" id="5pW4zr_0GSs" role="3clFbG">
                               <node concept="Xl_RD" id="5pW4zr_0GSt" role="3uHU7w">
-                                <property role="Xl_RC" value="jetbrains.mps.kernel" />
+                                <property role="Xl_RC" value="Annotations" />
                               </node>
                               <node concept="2OqwBi" id="5pW4zr_0GSu" role="3uHU7B">
                                 <node concept="37vLTw" id="5pW4zr_0GSv" role="2Oq$k0">
@@ -1877,7 +1859,7 @@
               </node>
               <node concept="2Hmddi" id="5pW4zr_0GS$" role="3cqZAp">
                 <node concept="37vLTw" id="5pW4zr_0GS_" role="2Hmdds">
-                  <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                  <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                 </node>
               </node>
               <node concept="3vlDli" id="5pW4zr_0GSA" role="3cqZAp">
@@ -1886,7 +1868,7 @@
                 </node>
                 <node concept="2OqwBi" id="5pW4zr_0GSC" role="3tpDZA">
                   <node concept="37vLTw" id="5pW4zr_0GSD" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                   </node>
                   <node concept="liA8E" id="5pW4zr_0GSE" role="2OqNvi">
                     <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
@@ -1898,11 +1880,11 @@
               </node>
               <node concept="3vlDli" id="5pW4zr_0GSG" role="3cqZAp">
                 <node concept="Xl_RD" id="5pW4zr_0GSH" role="3tpDZB">
-                  <property role="Xl_RC" value="2d3c70e9-aab2-4870-8d8d-6036800e4103" />
+                  <property role="Xl_RC" value="3f233e7f-b8a6-46d2-a57f-795d56775243" />
                 </node>
                 <node concept="2OqwBi" id="5pW4zr_0GSI" role="3tpDZA">
                   <node concept="37vLTw" id="5pW4zr_0GSJ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                   </node>
                   <node concept="liA8E" id="5pW4zr_0GSK" role="2OqNvi">
                     <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
@@ -1918,7 +1900,7 @@
                 </node>
                 <node concept="2OqwBi" id="5pW4zr_0GSO" role="3tpDZA">
                   <node concept="37vLTw" id="5pW4zr_0GSP" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                   </node>
                   <node concept="liA8E" id="5pW4zr_0GSQ" role="2OqNvi">
                     <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
@@ -1934,7 +1916,7 @@
                 </node>
                 <node concept="2OqwBi" id="5pW4zr_0GSU" role="3tpDZA">
                   <node concept="37vLTw" id="5pW4zr_0GSV" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                   </node>
                   <node concept="liA8E" id="5pW4zr_0GSW" role="2OqNvi">
                     <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
@@ -2191,7 +2173,7 @@
               </node>
               <node concept="3vlDli" id="7LiskgSx6dc" role="3cqZAp">
                 <node concept="Xl_RD" id="7LiskgSx6dd" role="3tpDZB">
-                  <property role="Xl_RC" value="5" />
+                  <property role="Xl_RC" value="6" />
                 </node>
                 <node concept="2OqwBi" id="7LiskgSx6de" role="3tpDZA">
                   <node concept="37vLTw" id="7LiskgSx6df" role="2Oq$k0">

@@ -1,17 +1,6 @@
-//will pull the groovy classes/types from nexus to the classpath
-buildscript {
-    repositories {
-        mavenLocal()
-        maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
-        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
-    }
-    dependencies {
-        classpath('de.itemis.mps:mps-gradle-plugin:1.13+')
-    }
-}
-
 plugins {
-   id "com.github.breadmoirai.github-release" version "2.4.1"
+    id 'de.itemis.mps.gradle.common' version '1.13.+'
+    id "com.github.breadmoirai.github-release" version "2.4.1"
 }
 
 apply plugin: 'maven-publish'
@@ -55,16 +44,14 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 ext.dependencyRepositories = [
-        'https://artifacts.itemis.cloud/repository/maven-mps/',
-        'https://projects.itemis.de/nexus/content/repositories/mbeddr',
-        'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
+        'https://artifacts.itemis.cloud/repository/maven-mps/'
 ]
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
 ext.mpsMajor = '2022.3'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = ''
+ext.mpsMinor = '1'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 
@@ -86,7 +73,7 @@ if (ciBuild) {
     println "##teamcity[buildNumber '${version}']"
 } else {
     println "Local build detected, version will be SNAPSHOT"
-    version = "2022.3-SNAPSHOT"
+    version = ext.mpsMajor + appendOpt(ext.mpsMinor , '.') + "-SNAPSHOT"
 }
 
 def userHome = System.properties['user.home']
@@ -152,7 +139,7 @@ configurations {
 }
 
 dependencies {
-    def modelixCoreVersion = "1.10.3"
+    def modelixCoreVersion = "2.1.9"
     modelApi("org.modelix:model-api:$modelixCoreVersion")
 }
 

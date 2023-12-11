@@ -43,6 +43,7 @@
       </concept>
     </language>
     <language id="b92f861d-0184-446d-b88b-6dcf0e070241" name="com.mbeddr.mpsutil.intentions">
+      <concept id="278032644708909557" name="com.mbeddr.mpsutil.intentions.structure.ShowIntentionInReadyOnlyCell" flags="ng" index="2s3oj2" />
       <concept id="5846558918537398687" name="com.mbeddr.mpsutil.intentions.structure.IntentionGroupAnnotation" flags="ng" index="1SWQZ3">
         <property id="5846558918537400330" name="label" index="1SWRpm" />
       </concept>
@@ -247,6 +248,46 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="2S6QgY" id="frLjuvPz1B">
+    <property role="TrG5h" value="ChildIntentionNotVisible" />
+    <ref role="2ZfgGC" to="iikq:5qf1oe_GcsF" resolve="IChild" />
+    <node concept="2S6ZIM" id="frLjuvPz1C" role="2ZfVej">
+      <node concept="3clFbS" id="frLjuvPz1D" role="2VODD2">
+        <node concept="3clFbF" id="frLjuvPz1E" role="3cqZAp">
+          <node concept="Xl_RD" id="frLjuvPz1F" role="3clFbG">
+            <property role="Xl_RC" value="Not Visible In Ready-Only Cell" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="frLjuvPz1G" role="2ZfgGD">
+      <node concept="3clFbS" id="frLjuvPz1H" role="2VODD2">
+        <node concept="3clFbF" id="frLjuvPz1I" role="3cqZAp">
+          <node concept="37vLTI" id="frLjuvPz1J" role="3clFbG">
+            <node concept="Xl_RD" id="frLjuvPz1K" role="37vLTx">
+              <property role="Xl_RC" value="Changed" />
+            </node>
+            <node concept="2OqwBi" id="frLjuvPz1L" role="37vLTJ">
+              <node concept="2OqwBi" id="frLjuvPz1M" role="2Oq$k0">
+                <node concept="2Sf5sV" id="frLjuvPz1N" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="frLjuvPz1O" role="2OqNvi">
+                  <node concept="1xMEDy" id="frLjuvPz1P" role="1xVPHs">
+                    <node concept="chp4Y" id="frLjuvPz1Q" role="ri$Ld">
+                      <ref role="cht4Q" to="iikq:5qf1oe_GcsA" resolve="Root" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrcHB" id="frLjuvPz1R" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2s3oj2" id="frLjuw0Btu" role="lGtFl" />
   </node>
 </model>
 

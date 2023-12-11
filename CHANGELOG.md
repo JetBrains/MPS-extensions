@@ -7,23 +7,31 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ## December 2023
 
+### Added
+
+- de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
+
+### Fixed
+
 - The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
 
 ## November 2023
+
+### Changed
+
+- mpsutil.modellisteners: listeners on interface concepts are now supported.
+- `@NotNull` annotations in the code are now checked at run time (the `javac2` compiler is used).
+- de.itemis.editor.diagram: Edge labels can now be annotated with the attribute editors of the edges. Previously they were floating in the diagram as external boxes. A new flag "use annotations from parent in label" is used to customize the behavior.
 
 ### Fixed
 
 - app.jar from the platform lib folder is not exported to platform_lib_app/app.jar anymore.
 
-### Changed
-
-- `@NotNull` annotations in the code are now checked at run time (the `javac2` compiler is used).
-- de.itemis.editor.diagram: Edge labels can now be annotated with the attribute editors of the edges. Previously they were floating in the diagram as external boxes. A new flag "use annotations from parent in label" is used to customize the behavior.
-
 ### Added
 
-- mpsutil.intentions: a new style attribute `intentions-in-read-only-cell` is now available to allow intentions in read-only cells.
+- mpsutil.intentions: a new style attribute `intentions-in-read-only-cell` is now available to allow intentions in read-only cells. Single intentions can also be enabled or disabled in those cells through the intention "Toggle Show Intention In Read-Only Cell Annotation".
 - com.mbeddr.mpsutil.editor.querylist: Default editor cells now support style attributes.
+- de.slisson.mps.tables: tables now support a new property `row UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new row above/below the current row or to delete the current row. These actions only work for simple tables that are based on rows (default: *false*).
 - de.itemis.mps.editor.pagination: The page number can now be entered directly.
 
 ## October 2023

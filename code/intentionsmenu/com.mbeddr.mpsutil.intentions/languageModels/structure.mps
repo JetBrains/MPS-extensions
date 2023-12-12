@@ -55,5 +55,21 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="frLjuvP$7P">
+    <property role="TrG5h" value="ShowIntentionInReadyOnlyCell" />
+    <property role="EcuMT" value="278032644708909557" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyi" id="frLjuvPGIB" role="1TKVEl">
+      <property role="IQ2nx" value="278032644708944807" />
+      <property role="TrG5h" value="flag" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="M6xJ_" id="frLjuvP$7Q" role="lGtFl">
+      <property role="Hh88m" value="showIntentionInReadyOnlyCell" />
+      <node concept="trNpa" id="frLjuvP$7R" role="EQaZv">
+        <ref role="trN6q" to="tp3j:2c3oNEsfcpP" resolve="BaseIntentionDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 

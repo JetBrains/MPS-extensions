@@ -12,13 +12,11 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 - de.itemis.editor.diagram: Further improvements to make the auto-layouter more stable.
 - de.itemis.editor.diagram: Tooltips for edge and vertex buttons work again.
 - de.itemis.editor.diagram: The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
+- The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
+
 ### Added
 
 - de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
-
-### Fixed
-
-- The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
 
 ## November 2023
 

@@ -8,11 +8,12 @@
   </languages>
   <imports>
     <import index="od2j" ref="r:19d224b8-fac8-4b19-ae42-e7b119858f3b(de.q60.mps.polymorphicfunctions.runtime)" />
+    <import index="l7us" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.icons(MPS.Platform/)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
       <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
-        <property id="2756621024541341363" name="file" index="1iqoE4" />
+        <child id="6976585500156684809" name="iconExpression" index="3xaMm5" />
       </concept>
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -75,8 +76,11 @@
       <property role="2V$B1T" value="bc963c22-d419-49b6-8543-ea411eb9d3a1" />
       <property role="2V$B1Q" value="de.q60.mps.polymorphicfunctions" />
     </node>
-    <node concept="1QGGSu" id="2BsQ8RDZtTB" role="3vqPLo">
-      <property role="1iqoE4" value="${mps_home}/lib/mps-icons.jar!/nodes/model.png" />
+    <node concept="1QGGSu" id="1yLcVM11IJk" role="3vqPLo">
+      <node concept="10M0yZ" id="1yLcVM11K7U" role="3xaMm5">
+        <ref role="3cqZAo" to="l7us:~MPSIcons$Nodes.Model" resolve="Model" />
+        <ref role="1PxDUh" to="l7us:~MPSIcons$Nodes" resolve="Nodes" />
+      </node>
     </node>
   </node>
   <node concept="2uRRBC" id="6N6zH_i3F_8">

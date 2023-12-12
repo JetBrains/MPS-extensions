@@ -15,11 +15,12 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="l7us" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.icons(MPS.Platform/)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
       <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
-        <property id="2756621024541341363" name="file" index="1iqoE4" />
+        <child id="6976585500156684809" name="iconExpression" index="3xaMm5" />
       </concept>
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -59,6 +60,9 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -217,8 +221,11 @@
       <property role="2V$B1T" value="309e0004-4976-4416-b947-ec02ae4ecef2" />
       <property role="2V$B1Q" value="com.mbeddr.mpsutil.modellisteners" />
     </node>
-    <node concept="1QGGSu" id="1ClyW4gOiF9" role="3vqPLo">
-      <property role="1iqoE4" value="${mps_home}/lib/mps-icons.jar!/nodes/model.png" />
+    <node concept="1QGGSu" id="1yLcVM11IJk" role="3vqPLo">
+      <node concept="10M0yZ" id="1yLcVM11K7U" role="3xaMm5">
+        <ref role="3cqZAo" to="l7us:~MPSIcons$Nodes.Model" resolve="Model" />
+        <ref role="1PxDUh" to="l7us:~MPSIcons$Nodes" resolve="Nodes" />
+      </node>
     </node>
   </node>
 </model>

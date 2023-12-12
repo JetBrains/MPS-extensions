@@ -8501,7 +8501,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.itemis.mps.editor.pagination.runtime" />
         <property role="3LESm3" value="b8eca104-6d07-43d6-9bd7-4c8692c82707" />
-        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="7eO$0O_5lAi" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="7eO$0O_5lO4" role="iGT6I">
@@ -17103,7 +17102,6 @@
         <property role="TrG5h" value="de.itemis.mps.editor.pagination.test" />
         <property role="3LESm3" value="03b57d96-6e28-44ba-a68b-4cc264810a54" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
-        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="7NiuBZ$i0lu" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="7NiuBZ$i0nk" role="iGT6I">

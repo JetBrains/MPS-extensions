@@ -10,7 +10,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="b4f35ed8-45af-4efa-abe4-00ac26956e69" name="com.mbeddr.mpsutil.grammarcells.runtimelang" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
   </languages>
   <imports>
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
@@ -136,7 +136,7 @@
         <child id="1160998896846" name="condition" index="1gVkn0" />
         <child id="1160998916832" name="message" index="1gVpfI" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -148,7 +148,7 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
@@ -157,6 +157,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -181,7 +182,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
@@ -266,7 +267,7 @@
       <concept id="7363578995839169063" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.StringLiteral" flags="ng" index="1kHs8M">
         <property id="7363578995839169078" name="value" index="1kHs8z" />
       </concept>
-      <concept id="7363578995839169062" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.IExpression" flags="ng" index="1kHs8N" />
+      <concept id="7363578995839169062" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.IExpression" flags="ngI" index="1kHs8N" />
       <concept id="2392588809326078475" name="com.mbeddr.mpsutil.grammarcells.sandboxlang.structure.TEST_SetOptionalNextToChild" flags="ng" index="1og8jj">
         <child id="2392588809326079109" name="expr2" index="1og89t" />
         <child id="2392588809326078680" name="expr1" index="1og8g0" />
@@ -308,7 +309,6 @@
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
     </language>
     <language id="b4f35ed8-45af-4efa-abe4-00ac26956e69" name="com.mbeddr.mpsutil.grammarcells.runtimelang">
@@ -3101,7 +3101,7 @@
                     <node concept="2OqwBi" id="6sxj0_UABsE" role="3clFbG">
                       <node concept="2OqwBi" id="6sxj0_UABsF" role="2Oq$k0">
                         <node concept="37vLTw" id="6sxj0_UABsG" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6sxj0_UABsN" resolve="it" />
+                          <ref role="3cqZAo" node="7Z$RfkF7IUD" resolve="it" />
                         </node>
                         <node concept="liA8E" id="6sxj0_UABsH" role="2OqNvi">
                           <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3124,9 +3124,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="6sxj0_UABsN" role="1bW2Oz">
+                <node concept="gl6BB" id="7Z$RfkF7IUD" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="6sxj0_UABsO" role="1tU5fm" />
+                  <node concept="2jxLKc" id="7Z$RfkF7IUE" role="1tU5fm" />
                 </node>
               </node>
             </node>
@@ -3148,7 +3148,7 @@
                   <node concept="2OqwBi" id="6sxj0_UABsX" role="3clFbG">
                     <node concept="2OqwBi" id="6sxj0_UABsY" role="2Oq$k0">
                       <node concept="37vLTw" id="6sxj0_UABsZ" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6sxj0_UABt6" resolve="it" />
+                        <ref role="3cqZAo" node="7Z$RfkF7IUF" resolve="it" />
                       </node>
                       <node concept="liA8E" id="6sxj0_UABt0" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3169,9 +3169,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="6sxj0_UABt6" role="1bW2Oz">
+              <node concept="gl6BB" id="7Z$RfkF7IUF" role="1bW2Oz">
                 <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="6sxj0_UABt7" role="1tU5fm" />
+                <node concept="2jxLKc" id="7Z$RfkF7IUG" role="1tU5fm" />
               </node>
             </node>
           </node>
@@ -3192,7 +3192,7 @@
                   <node concept="2OqwBi" id="6sxj0_UABtg" role="3clFbG">
                     <node concept="2OqwBi" id="6sxj0_UABth" role="2Oq$k0">
                       <node concept="37vLTw" id="6sxj0_UABti" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6sxj0_UABtp" resolve="it" />
+                        <ref role="3cqZAo" node="7Z$RfkF7IUH" resolve="it" />
                       </node>
                       <node concept="liA8E" id="6sxj0_UABtj" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3215,9 +3215,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="6sxj0_UABtp" role="1bW2Oz">
+              <node concept="gl6BB" id="7Z$RfkF7IUH" role="1bW2Oz">
                 <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="6sxj0_UABtq" role="1tU5fm" />
+                <node concept="2jxLKc" id="7Z$RfkF7IUI" role="1tU5fm" />
               </node>
             </node>
           </node>
@@ -3313,7 +3313,7 @@
                     <node concept="2OqwBi" id="3Lzx5Pft$G9" role="3clFbG">
                       <node concept="2OqwBi" id="3Lzx5Pftywm" role="2Oq$k0">
                         <node concept="37vLTw" id="3Lzx5Pftyjt" role="2Oq$k0">
-                          <ref role="3cqZAo" node="3Lzx5Pfty7L" resolve="it" />
+                          <ref role="3cqZAo" node="7Z$RfkF7IUJ" resolve="it" />
                         </node>
                         <node concept="liA8E" id="3Lzx5Pft$8d" role="2OqNvi">
                           <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3336,9 +3336,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="3Lzx5Pfty7L" role="1bW2Oz">
+                <node concept="gl6BB" id="7Z$RfkF7IUJ" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="3Lzx5Pfty7M" role="1tU5fm" />
+                  <node concept="2jxLKc" id="7Z$RfkF7IUK" role="1tU5fm" />
                 </node>
               </node>
             </node>
@@ -3360,7 +3360,7 @@
                   <node concept="2OqwBi" id="3Lzx5PftKOb" role="3clFbG">
                     <node concept="2OqwBi" id="3Lzx5PftHSu" role="2Oq$k0">
                       <node concept="37vLTw" id="3Lzx5PftHBY" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3Lzx5PftHnQ" resolve="it" />
+                        <ref role="3cqZAo" node="7Z$RfkF7IUL" resolve="it" />
                       </node>
                       <node concept="liA8E" id="3Lzx5PftJE3" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3381,9 +3381,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="3Lzx5PftHnQ" role="1bW2Oz">
+              <node concept="gl6BB" id="7Z$RfkF7IUL" role="1bW2Oz">
                 <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="3Lzx5PftHnR" role="1tU5fm" />
+                <node concept="2jxLKc" id="7Z$RfkF7IUM" role="1tU5fm" />
               </node>
             </node>
           </node>
@@ -3404,7 +3404,7 @@
                   <node concept="2OqwBi" id="3Lzx5PftVZj" role="3clFbG">
                     <node concept="2OqwBi" id="3Lzx5PftTmX" role="2Oq$k0">
                       <node concept="37vLTw" id="3Lzx5PftT2p" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3Lzx5PftSHV" resolve="it" />
+                        <ref role="3cqZAo" node="7Z$RfkF7IUN" resolve="it" />
                       </node>
                       <node concept="liA8E" id="3Lzx5PftV7p" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3427,9 +3427,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="3Lzx5PftSHV" role="1bW2Oz">
+              <node concept="gl6BB" id="7Z$RfkF7IUN" role="1bW2Oz">
                 <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="3Lzx5PftSHW" role="1tU5fm" />
+                <node concept="2jxLKc" id="7Z$RfkF7IUO" role="1tU5fm" />
               </node>
             </node>
           </node>
@@ -3525,7 +3525,7 @@
                     <node concept="2OqwBi" id="1$ysu_nQIu1" role="3clFbG">
                       <node concept="2OqwBi" id="1$ysu_nQIu2" role="2Oq$k0">
                         <node concept="37vLTw" id="1$ysu_nQIu3" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1$ysu_nQIua" resolve="it" />
+                          <ref role="3cqZAo" node="7Z$RfkF7IUP" resolve="it" />
                         </node>
                         <node concept="liA8E" id="1$ysu_nQIu4" role="2OqNvi">
                           <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3548,9 +3548,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="1$ysu_nQIua" role="1bW2Oz">
+                <node concept="gl6BB" id="7Z$RfkF7IUP" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="1$ysu_nQIub" role="1tU5fm" />
+                  <node concept="2jxLKc" id="7Z$RfkF7IUQ" role="1tU5fm" />
                 </node>
               </node>
             </node>
@@ -3572,7 +3572,7 @@
                   <node concept="2OqwBi" id="1$ysu_nQIuk" role="3clFbG">
                     <node concept="2OqwBi" id="1$ysu_nQIul" role="2Oq$k0">
                       <node concept="37vLTw" id="1$ysu_nQIum" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1$ysu_nQIut" resolve="it" />
+                        <ref role="3cqZAo" node="7Z$RfkF7IUR" resolve="it" />
                       </node>
                       <node concept="liA8E" id="1$ysu_nQIun" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3593,9 +3593,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="1$ysu_nQIut" role="1bW2Oz">
+              <node concept="gl6BB" id="7Z$RfkF7IUR" role="1bW2Oz">
                 <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="1$ysu_nQIuu" role="1tU5fm" />
+                <node concept="2jxLKc" id="7Z$RfkF7IUS" role="1tU5fm" />
               </node>
             </node>
           </node>
@@ -3616,7 +3616,7 @@
                   <node concept="2OqwBi" id="1$ysu_nQIuB" role="3clFbG">
                     <node concept="2OqwBi" id="1$ysu_nQIuC" role="2Oq$k0">
                       <node concept="37vLTw" id="1$ysu_nQIuD" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1$ysu_nQIuK" resolve="it" />
+                        <ref role="3cqZAo" node="7Z$RfkF7IUT" resolve="it" />
                       </node>
                       <node concept="liA8E" id="1$ysu_nQIuE" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3639,9 +3639,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="1$ysu_nQIuK" role="1bW2Oz">
+              <node concept="gl6BB" id="7Z$RfkF7IUT" role="1bW2Oz">
                 <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="1$ysu_nQIuL" role="1tU5fm" />
+                <node concept="2jxLKc" id="7Z$RfkF7IUU" role="1tU5fm" />
               </node>
             </node>
           </node>
@@ -3737,7 +3737,7 @@
                     <node concept="2OqwBi" id="6sxj0_UufMg" role="3clFbG">
                       <node concept="2OqwBi" id="6sxj0_UufMh" role="2Oq$k0">
                         <node concept="37vLTw" id="6sxj0_UufMi" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6sxj0_UufMp" resolve="it" />
+                          <ref role="3cqZAo" node="7Z$RfkF7IUV" resolve="it" />
                         </node>
                         <node concept="liA8E" id="6sxj0_UufMj" role="2OqNvi">
                           <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3760,9 +3760,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="6sxj0_UufMp" role="1bW2Oz">
+                <node concept="gl6BB" id="7Z$RfkF7IUV" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="6sxj0_UufMq" role="1tU5fm" />
+                  <node concept="2jxLKc" id="7Z$RfkF7IUW" role="1tU5fm" />
                 </node>
               </node>
             </node>
@@ -3784,7 +3784,7 @@
                   <node concept="2OqwBi" id="6sxj0_UufMz" role="3clFbG">
                     <node concept="2OqwBi" id="6sxj0_UufM$" role="2Oq$k0">
                       <node concept="37vLTw" id="6sxj0_UufM_" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6sxj0_UufMG" resolve="it" />
+                        <ref role="3cqZAo" node="7Z$RfkF7IUX" resolve="it" />
                       </node>
                       <node concept="liA8E" id="6sxj0_UufMA" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3805,9 +3805,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="6sxj0_UufMG" role="1bW2Oz">
+              <node concept="gl6BB" id="7Z$RfkF7IUX" role="1bW2Oz">
                 <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="6sxj0_UufMH" role="1tU5fm" />
+                <node concept="2jxLKc" id="7Z$RfkF7IUY" role="1tU5fm" />
               </node>
             </node>
           </node>
@@ -3828,7 +3828,7 @@
                   <node concept="2OqwBi" id="6sxj0_UufMQ" role="3clFbG">
                     <node concept="2OqwBi" id="6sxj0_UufMR" role="2Oq$k0">
                       <node concept="37vLTw" id="6sxj0_UufMS" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6sxj0_UufMZ" resolve="it" />
+                        <ref role="3cqZAo" node="7Z$RfkF7IUZ" resolve="it" />
                       </node>
                       <node concept="liA8E" id="6sxj0_UufMT" role="2OqNvi">
                         <ref role="37wK5l" to="f4zo:~SubstituteAction.getMatchingText(java.lang.String)" resolve="getMatchingText" />
@@ -3851,9 +3851,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="6sxj0_UufMZ" role="1bW2Oz">
+              <node concept="gl6BB" id="7Z$RfkF7IUZ" role="1bW2Oz">
                 <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="6sxj0_UufN0" role="1tU5fm" />
+                <node concept="2jxLKc" id="7Z$RfkF7IV0" role="1tU5fm" />
               </node>
             </node>
           </node>

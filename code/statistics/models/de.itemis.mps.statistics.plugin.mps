@@ -389,7 +389,7 @@
                   </node>
                   <node concept="3cpWs3" id="9qzKT6Opet" role="37wK5m">
                     <node concept="Xl_RD" id="9qzKT6Opeu" role="3uHU7w">
-                      <property role="Xl_RC" value=" couldn't be created" />
+                      <property role="Xl_RC" value=" could not be created" />
                     </node>
                     <node concept="3cpWs3" id="9qzKT6Opev" role="3uHU7B">
                       <node concept="Xl_RD" id="9qzKT6Opew" role="3uHU7B">

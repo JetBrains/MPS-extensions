@@ -83,7 +83,9 @@
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <property id="1238684351431" name="asCast" index="1BlNFB" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -163,16 +165,17 @@
       <node concept="3clFbJ" id="3yGY6Wjasj1" role="3cqZAp">
         <node concept="3fqX7Q" id="3yGY6WjaWMr" role="3clFbw">
           <node concept="2OqwBi" id="3yGY6WjaWMt" role="3fr31v">
-            <node concept="1PxgMI" id="3yGY6WjaWMu" role="2Oq$k0">
-              <node concept="chp4Y" id="3yGY6WjaWMv" role="3oSUPX">
-                <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-              </node>
-              <node concept="37vLTw" id="3yGY6WjaWMw" role="1m5AlR">
-                <ref role="3cqZAo" node="3yGY6WjaUnC" resolve="listenerConcept" />
-              </node>
-            </node>
             <node concept="3TrcHB" id="3yGY6WjaWMx" role="2OqNvi">
               <ref role="3TsBF5" to="tpce:fX9Ktp8" resolve="rootable" />
+            </node>
+            <node concept="1PxgMI" id="VKERaLZ3W2" role="2Oq$k0">
+              <property role="1BlNFB" value="true" />
+              <node concept="chp4Y" id="VKERaLZ3Xz" role="3oSUPX">
+                <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+              </node>
+              <node concept="37vLTw" id="VKERaLZ3tt" role="1m5AlR">
+                <ref role="3cqZAo" node="3yGY6WjaUnC" resolve="listenerConcept" />
+              </node>
             </node>
           </node>
         </node>

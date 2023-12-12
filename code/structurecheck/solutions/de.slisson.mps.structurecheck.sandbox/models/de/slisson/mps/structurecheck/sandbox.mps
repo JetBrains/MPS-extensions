@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:cc9af6eb-7fec-4ac7-8865-77d3a8f6764c(de.slisson.mps.structurecheck.sandbox)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" name="de.slisson.mps.structurecheck" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -235,6 +234,9 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3uibUv" id="73Ahplq6570" role="67G9Z">
+                        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+                      </node>
                     </node>
                     <node concept="67Jih" id="l6SLw3K_aS" role="64kAg">
                       <node concept="68$_a" id="l6SLw3K_aU" role="68$wl">
@@ -244,6 +246,9 @@
                             <property role="3cmrfH" value="20" />
                           </node>
                         </node>
+                      </node>
+                      <node concept="3uibUv" id="73Ahplq61wC" role="67G9Z">
+                        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
                     </node>
                   </node>

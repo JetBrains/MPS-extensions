@@ -14885,6 +14885,11 @@
               </node>
             </node>
           </node>
+          <node concept="1SiIV0" id="3pxqrffBJYp" role="3bR37C">
+            <node concept="3bR9La" id="3pxqrffBJYq" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3xFG3bj5Moz" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5Mo$" role="3rtmxm">
@@ -17098,6 +17103,7 @@
         <property role="TrG5h" value="de.itemis.mps.editor.pagination.test" />
         <property role="3LESm3" value="03b57d96-6e28-44ba-a68b-4cc264810a54" />
         <property role="aoJFB" value="eYcmk9QOlj/sources_and_tests" />
+        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="7NiuBZ$i0lu" role="3LF7KH">
           <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="7NiuBZ$i0nk" role="iGT6I">

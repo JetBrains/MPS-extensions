@@ -193,6 +193,7 @@
         <property id="8171045391093046227" name="priority" index="3aPfAI" />
         <reference id="8309912865649284888" name="extends" index="14aYEx" />
         <child id="8309912865649284891" name="elements" index="14aYEy" />
+        <child id="4600337039047025779" name="label" index="3GFWDq" />
       </concept>
       <concept id="8309912865649636002" name="com.mbeddr.mpsutil.projectview.structure.QueryElementReference" flags="ng" index="14b0Wr">
         <reference id="8309912865649636121" name="element" index="14b0Uw" />
@@ -494,6 +495,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="Xl_RD" id="H7muO7PMS7" role="3GFWDq">
+      <property role="Xl_RC" value="By Concept" />
     </node>
   </node>
   <node concept="14aYJB" id="7diJr$RurxA">
@@ -1245,6 +1249,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="Xl_RD" id="H7muO7PTp8" role="3GFWDq">
+      <property role="Xl_RC" value="Logical View Clone" />
     </node>
   </node>
   <node concept="312cEu" id="75_oBQVwQhb">

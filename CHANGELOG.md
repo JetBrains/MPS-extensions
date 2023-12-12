@@ -7,25 +7,28 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ## December 2023
 
+### Fixed
+
+- de.itemis.editor.diagram: Further improvements to make the auto-layouter more stable.
+- de.itemis.editor.diagram: Tooltips for edge and vertex buttons work again.
+- de.itemis.editor.diagram: The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
+- The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
+
 ### Added
 
 - de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
 
+## November 2023
+
 ### Fixed
 
-- The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
-
-## November 2023
+- app.jar from the platform lib folder is not exported to platform_lib_app/app.jar anymore.
 
 ### Changed
 
 - mpsutil.modellisteners: listeners on interface concepts are now supported.
 - `@NotNull` annotations in the code are now checked at run time (the `javac2` compiler is used).
 - de.itemis.editor.diagram: Edge labels can now be annotated with the attribute editors of the edges. Previously they were floating in the diagram as external boxes. A new flag "use annotations from parent in label" is used to customize the behavior.
-
-### Fixed
-
-- app.jar from the platform lib folder is not exported to platform_lib_app/app.jar anymore.
 
 ### Added
 

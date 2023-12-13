@@ -146,6 +146,7 @@
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
+        <child id="1164879685961" name="throwsItem" index="Sfmx6" />
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -222,8 +223,12 @@
         <child id="8276990574909234106" name="finallyBody" index="1wplMD" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
+        <child id="1144226360166" name="iterable" index="1DdaDG" />
       </concept>
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
@@ -3334,10 +3339,10 @@
       <node concept="3clFbS" id="7moa1g0RG0l" role="3clF47">
         <node concept="3J1_TO" id="7moa1g0RG0m" role="3cqZAp">
           <node concept="3clFbS" id="7moa1g0RG0n" role="1zxBo7">
-            <node concept="3cpWs8" id="7moa1g0RG0o" role="3cqZAp">
-              <node concept="3cpWsn" id="7moa1g0RG0p" role="3cpWs9">
+            <node concept="3cpWs8" id="7dhGT7CN8T$" role="3cqZAp">
+              <node concept="3cpWsn" id="7dhGT7CN8T_" role="3cpWs9">
                 <property role="TrG5h" value="field" />
-                <node concept="3uibUv" id="7moa1g0RG0q" role="1tU5fm">
+                <node concept="3uibUv" id="7dhGT7CN8TA" role="1tU5fm">
                   <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
                 </node>
                 <node concept="2OqwBi" id="7moa1g0RG0r" role="33vP2m">
@@ -3353,108 +3358,10 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="6U7y_4Fz3jh" role="3cqZAp">
-              <node concept="3clFbS" id="6U7y_4Fz3jj" role="3clFbx">
-                <node concept="3cpWs8" id="4Oc83Ifb$pw" role="3cqZAp">
-                  <node concept="3cpWsn" id="4Oc83Ifb$px" role="3cpWs9">
-                    <property role="TrG5h" value="lookup" />
-                    <node concept="3uibUv" id="4Oc83Ifb$k$" role="1tU5fm">
-                      <ref role="3uigEE" to="e5kc:~MethodHandles$Lookup" resolve="MethodHandles.Lookup" />
-                    </node>
-                    <node concept="2YIFZM" id="4Oc83Ifb$py" role="33vP2m">
-                      <ref role="37wK5l" to="e5kc:~MethodHandles.privateLookupIn(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)" resolve="privateLookupIn" />
-                      <ref role="1Pybhc" to="e5kc:~MethodHandles" resolve="MethodHandles" />
-                      <node concept="3VsKOn" id="4Oc83Ifb$pz" role="37wK5m">
-                        <ref role="3VsUkX" to="t6h5:~Field" resolve="Field" />
-                      </node>
-                      <node concept="2YIFZM" id="4Oc83Ifb$p$" role="37wK5m">
-                        <ref role="37wK5l" to="e5kc:~MethodHandles.lookup()" resolve="lookup" />
-                        <ref role="1Pybhc" to="e5kc:~MethodHandles" resolve="MethodHandles" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3cpWs8" id="4Oc83IfbAk7" role="3cqZAp">
-                  <node concept="3cpWsn" id="4Oc83IfbAk8" role="3cpWs9">
-                    <property role="TrG5h" value="modifiers" />
-                    <node concept="3uibUv" id="4Oc83IfbAfP" role="1tU5fm">
-                      <ref role="3uigEE" to="e5kc:~VarHandle" resolve="VarHandle" />
-                    </node>
-                    <node concept="2OqwBi" id="4Oc83IfbAk9" role="33vP2m">
-                      <node concept="37vLTw" id="4Oc83IfbAka" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4Oc83Ifb$px" resolve="lookup" />
-                      </node>
-                      <node concept="liA8E" id="4Oc83IfbAkb" role="2OqNvi">
-                        <ref role="37wK5l" to="e5kc:~MethodHandles$Lookup.findVarHandle(java.lang.Class,java.lang.String,java.lang.Class)" resolve="findVarHandle" />
-                        <node concept="3VsKOn" id="4Oc83IfbAkc" role="37wK5m">
-                          <ref role="3VsUkX" to="t6h5:~Field" resolve="Field" />
-                        </node>
-                        <node concept="Xl_RD" id="4Oc83IfbAkd" role="37wK5m">
-                          <property role="Xl_RC" value="modifiers" />
-                        </node>
-                        <node concept="229OVn" id="4Oc83IfbAke" role="37wK5m">
-                          <node concept="10Oyi0" id="4Oc83IfbAkf" role="229OVk" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3cpWs8" id="4Oc83IfbD$c" role="3cqZAp">
-                  <node concept="3cpWsn" id="4Oc83IfbD$f" role="3cpWs9">
-                    <property role="TrG5h" value="mods" />
-                    <node concept="10Oyi0" id="4Oc83IfbD$a" role="1tU5fm" />
-                    <node concept="2OqwBi" id="4Oc83IfbElI" role="33vP2m">
-                      <node concept="37vLTw" id="4Oc83IfbDVe" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
-                      </node>
-                      <node concept="liA8E" id="4Oc83IfbE$0" role="2OqNvi">
-                        <ref role="37wK5l" to="t6h5:~Field.getModifiers()" resolve="getModifiers" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="4Oc83Ifb$Xp" role="3cqZAp">
-                  <node concept="2OqwBi" id="4Oc83IfbARp" role="3clFbG">
-                    <node concept="37vLTw" id="4Oc83IfbAkg" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4Oc83IfbAk8" resolve="modifiers" />
-                    </node>
-                    <node concept="liA8E" id="4Oc83IfbB2T" role="2OqNvi">
-                      <ref role="37wK5l" to="e5kc:~VarHandle.set(java.lang.Object...)" resolve="set" />
-                      <node concept="37vLTw" id="4Oc83IfbBce" role="37wK5m">
-                        <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
-                      </node>
-                      <node concept="pVHWs" id="4Oc83IfbBQ7" role="37wK5m">
-                        <node concept="1H0AT2" id="4Oc83IfbBZW" role="3uHU7w">
-                          <node concept="10M0yZ" id="4Oc83IfbCnE" role="1H0ATZ">
-                            <ref role="3cqZAo" to="t6h5:~Modifier.FINAL" resolve="FINAL" />
-                            <ref role="1PxDUh" to="t6h5:~Modifier" resolve="Modifier" />
-                          </node>
-                        </node>
-                        <node concept="37vLTw" id="4Oc83IfbBAO" role="3uHU7B">
-                          <ref role="3cqZAo" node="4Oc83IfbD$f" resolve="mods" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2YIFZM" id="6U7y_4Fz3qg" role="3clFbw">
-                <ref role="37wK5l" to="t6h5:~Modifier.isFinal(int)" resolve="isFinal" />
-                <ref role="1Pybhc" to="t6h5:~Modifier" resolve="Modifier" />
-                <node concept="2OqwBi" id="6U7y_4Fz3ve" role="37wK5m">
-                  <node concept="37vLTw" id="6U7y_4Fz94u" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
-                  </node>
-                  <node concept="liA8E" id="6U7y_4Fz3$Y" role="2OqNvi">
-                    <ref role="37wK5l" to="t6h5:~Field.getModifiers()" resolve="getModifiers" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="7moa1g0RG0v" role="3cqZAp">
               <node concept="2OqwBi" id="7moa1g0RG0w" role="3clFbG">
                 <node concept="37vLTw" id="7moa1g0RG0x" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
+                  <ref role="3cqZAo" node="7dhGT7CN8T_" resolve="field" />
                 </node>
                 <node concept="liA8E" id="7moa1g0RG0y" role="2OqNvi">
                   <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
@@ -3464,22 +3371,47 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="7moa1g0RIV9" role="3cqZAp">
-              <node concept="2OqwBi" id="7moa1g0RG0_" role="3clFbG">
-                <node concept="37vLTw" id="7moa1g0RG0A" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7moa1g0RG0p" resolve="field" />
+            <node concept="3clFbJ" id="7dhGT7CN8TB" role="3cqZAp">
+              <node concept="3clFbS" id="7dhGT7CN8TC" role="3clFbx">
+                <node concept="3clFbF" id="7dhGT7CN8TD" role="3cqZAp">
+                  <node concept="1rXfSq" id="7LLvr2wwcsK" role="3clFbG">
+                    <ref role="37wK5l" node="7LLvr2wwbZ6" resolve="removeFinalFlag" />
+                    <node concept="37vLTw" id="7LLvr2wwcF2" role="37wK5m">
+                      <ref role="3cqZAo" node="7dhGT7CN8T_" resolve="field" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="7moa1g0RG0B" role="2OqNvi">
+              </node>
+              <node concept="2YIFZM" id="7dhGT7CN8TE" role="3clFbw">
+                <ref role="37wK5l" to="t6h5:~Modifier.isFinal(int)" resolve="isFinal" />
+                <ref role="1Pybhc" to="t6h5:~Modifier" resolve="Modifier" />
+                <node concept="2OqwBi" id="7dhGT7CN8TF" role="37wK5m">
+                  <node concept="37vLTw" id="7dhGT7CN8TG" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7dhGT7CN8T_" resolve="field" />
+                  </node>
+                  <node concept="liA8E" id="7dhGT7CN8TH" role="2OqNvi">
+                    <ref role="37wK5l" to="t6h5:~Field.getModifiers()" resolve="getModifiers" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7dhGT7CN8TI" role="3cqZAp">
+              <node concept="2OqwBi" id="7dhGT7CN8TJ" role="3clFbG">
+                <node concept="37vLTw" id="7dhGT7CN8TK" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7dhGT7CN8T_" resolve="field" />
+                </node>
+                <node concept="liA8E" id="7dhGT7CN8TL" role="2OqNvi">
                   <ref role="37wK5l" to="t6h5:~Field.set(java.lang.Object,java.lang.Object)" resolve="set" />
-                  <node concept="37vLTw" id="7moa1g0RG0C" role="37wK5m">
+                  <node concept="37vLTw" id="7dhGT7CN8TM" role="37wK5m">
                     <ref role="3cqZAo" node="7moa1g0RG0Y" resolve="obj" />
                   </node>
-                  <node concept="37vLTw" id="7moa1g0RHqZ" role="37wK5m">
+                  <node concept="37vLTw" id="7dhGT7CN8TN" role="37wK5m">
                     <ref role="3cqZAo" node="7moa1g0RH8J" resolve="value" />
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7dhGT7CN8TO" role="3cqZAp" />
           </node>
           <node concept="3uVAMA" id="7moa1g0RG0D" role="1zxBo5">
             <node concept="XOnhg" id="7moa1g0RG0U" role="1zc67B">
@@ -3821,6 +3753,345 @@
       </node>
       <node concept="3Tm1VV" id="7moa1g0ZZj_" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="7dhGT7CN7Lt" role="jymVt" />
+    <node concept="2YIFZL" id="7LLvr2wwbZ6" role="jymVt">
+      <property role="TrG5h" value="removeFinalFlag" />
+      <node concept="3clFbS" id="7LLvr2wwbZ8" role="3clF47">
+        <node concept="3J1_TO" id="7LLvr2wwbZ9" role="3cqZAp">
+          <node concept="3uVAMA" id="7LLvr2wwbZa" role="1zxBo5">
+            <node concept="XOnhg" id="7LLvr2wwbZb" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="7LLvr2wwbZc" role="1tU5fm">
+                <node concept="3uibUv" id="7LLvr2wwbZd" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="7LLvr2wwbZe" role="1zc67A">
+              <node concept="3clFbF" id="7LLvr2wwbZf" role="3cqZAp">
+                <node concept="1rXfSq" id="7LLvr2wwbZg" role="3clFbG">
+                  <ref role="37wK5l" node="7LLvr2v_qdU" />
+                  <node concept="37vLTw" id="7LLvr2wwbZh" role="37wK5m">
+                    <ref role="3cqZAo" node="7LLvr2wwbZo" resolve="field" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="7LLvr2wwbZi" role="1zxBo7">
+            <node concept="3clFbF" id="7LLvr2wwbZj" role="3cqZAp">
+              <node concept="1rXfSq" id="7LLvr2wwbZk" role="3clFbG">
+                <ref role="37wK5l" node="7LLvr2v_lPQ" />
+                <node concept="37vLTw" id="7LLvr2wwbZl" role="37wK5m">
+                  <ref role="3cqZAo" node="7LLvr2wwbZo" resolve="field" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7LLvr2wwbZn" role="3clF45" />
+      <node concept="3uibUv" id="7LLvr2wwbZq" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+      <node concept="37vLTG" id="7LLvr2wwbZo" role="3clF46">
+        <property role="TrG5h" value="field" />
+        <node concept="3uibUv" id="7LLvr2wwbZp" role="1tU5fm">
+          <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7LLvr2wwbZm" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="7LLvr2ww3O8" role="jymVt" />
+    <node concept="2YIFZL" id="7LLvr2v_lPQ" role="jymVt">
+      <property role="TrG5h" value="removeFinalFlagInternal" />
+      <node concept="37vLTG" id="7LLvr2v_lPR" role="3clF46">
+        <property role="TrG5h" value="field" />
+        <node concept="3uibUv" id="7LLvr2v_lPS" role="1tU5fm">
+          <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7LLvr2v_lPV" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+      <node concept="3clFbS" id="7LLvr2v_lPW" role="3clF47">
+        <node concept="3clFbF" id="7LLvr2v_lPX" role="3cqZAp">
+          <node concept="2OqwBi" id="7LLvr2v_o2q" role="3clFbG">
+            <node concept="37vLTw" id="7LLvr2v_mhv" role="2Oq$k0">
+              <ref role="3cqZAo" node="7LLvr2v_lPR" resolve="field" />
+            </node>
+            <node concept="liA8E" id="7LLvr2v_o2r" role="2OqNvi">
+              <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
+              <node concept="3clFbT" id="7LLvr2v_o2s" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7LLvr2v_lQ1" role="3cqZAp">
+          <node concept="3cpWsn" id="7LLvr2v_lQ0" role="3cpWs9">
+            <property role="TrG5h" value="getDeclaredFields0" />
+            <node concept="3uibUv" id="7LLvr2v_lQ2" role="1tU5fm">
+              <ref role="3uigEE" to="t6h5:~Method" resolve="Method" />
+            </node>
+            <node concept="2OqwBi" id="7LLvr2v_muy" role="33vP2m">
+              <node concept="3VsKOn" id="7LLvr2v_lQ5" role="2Oq$k0">
+                <ref role="3VsUkX" to="wyt6:~Class" resolve="Class" />
+              </node>
+              <node concept="liA8E" id="7LLvr2v_muz" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Class.getDeclaredMethod(java.lang.String,java.lang.Class...)" resolve="getDeclaredMethod" />
+                <node concept="Xl_RD" id="7LLvr2v_mu$" role="37wK5m">
+                  <property role="Xl_RC" value="getDeclaredFields0" />
+                </node>
+                <node concept="229OVn" id="7LLvr2v_mu_" role="37wK5m">
+                  <node concept="10P_77" id="7LLvr2v_muA" role="229OVk" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7LLvr2v_lQ9" role="3cqZAp">
+          <node concept="2OqwBi" id="7LLvr2v_nSu" role="3clFbG">
+            <node concept="37vLTw" id="7LLvr2v_mip" role="2Oq$k0">
+              <ref role="3cqZAo" node="7LLvr2v_lQ0" resolve="getDeclaredFields0" />
+            </node>
+            <node concept="liA8E" id="7LLvr2v_nSv" role="2OqNvi">
+              <ref role="37wK5l" to="t6h5:~Method.setAccessible(boolean)" resolve="setAccessible" />
+              <node concept="3clFbT" id="7LLvr2v_nSw" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7LLvr2v_lQd" role="3cqZAp">
+          <node concept="3cpWsn" id="7LLvr2v_lQc" role="3cpWs9">
+            <property role="TrG5h" value="fields" />
+            <node concept="10Q1$e" id="7LLvr2v_lQf" role="1tU5fm">
+              <node concept="3uibUv" id="7LLvr2v_lQe" role="10Q1$1">
+                <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+              </node>
+            </node>
+            <node concept="10QFUN" id="7LLvr2v_lQg" role="33vP2m">
+              <node concept="2OqwBi" id="7LLvr2v_n3L" role="10QFUP">
+                <node concept="37vLTw" id="7LLvr2v_miR" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7LLvr2v_lQ0" resolve="getDeclaredFields0" />
+                </node>
+                <node concept="liA8E" id="7LLvr2v_n3M" role="2OqNvi">
+                  <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...)" resolve="invoke" />
+                  <node concept="3VsKOn" id="7LLvr2v_n3N" role="37wK5m">
+                    <ref role="3VsUkX" to="t6h5:~Field" resolve="Field" />
+                  </node>
+                  <node concept="3clFbT" id="7LLvr2v_n3O" role="37wK5m" />
+                </node>
+              </node>
+              <node concept="10Q1$e" id="7LLvr2v_lQm" role="10QFUM">
+                <node concept="3uibUv" id="7LLvr2v_lQl" role="10Q1$1">
+                  <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7LLvr2v_lQo" role="3cqZAp">
+          <node concept="3cpWsn" id="7LLvr2v_lQn" role="3cpWs9">
+            <property role="TrG5h" value="modifiersField" />
+            <node concept="3uibUv" id="7LLvr2v_lQp" role="1tU5fm">
+              <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+            </node>
+            <node concept="10Nm6u" id="7LLvr2v_lQq" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="1DcWWT" id="7LLvr2v_lQr" role="3cqZAp">
+          <node concept="37vLTw" id="7LLvr2v_lQG" role="1DdaDG">
+            <ref role="3cqZAo" node="7LLvr2v_lQc" resolve="fields" />
+          </node>
+          <node concept="3cpWsn" id="7LLvr2v_lQD" role="1Duv9x">
+            <property role="TrG5h" value="each" />
+            <node concept="3uibUv" id="7LLvr2v_lQF" role="1tU5fm">
+              <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="7LLvr2v_lQt" role="2LFqv$">
+            <node concept="3clFbJ" id="7LLvr2v_lQu" role="3cqZAp">
+              <node concept="2OqwBi" id="7LLvr2v_msX" role="3clFbw">
+                <node concept="Xl_RD" id="7LLvr2v_lQw" role="2Oq$k0">
+                  <property role="Xl_RC" value="modifiers" />
+                </node>
+                <node concept="liA8E" id="7LLvr2v_msY" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                  <node concept="2OqwBi" id="7LLvr2v_nrE" role="37wK5m">
+                    <node concept="37vLTw" id="7LLvr2v_mt0" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7LLvr2v_lQD" resolve="each" />
+                    </node>
+                    <node concept="liA8E" id="7LLvr2v_nrF" role="2OqNvi">
+                      <ref role="37wK5l" to="t6h5:~Field.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="7LLvr2v_lQz" role="3clFbx">
+                <node concept="3clFbF" id="7LLvr2v_lQ$" role="3cqZAp">
+                  <node concept="37vLTI" id="7LLvr2v_lQ_" role="3clFbG">
+                    <node concept="37vLTw" id="7LLvr2v_lQA" role="37vLTJ">
+                      <ref role="3cqZAo" node="7LLvr2v_lQn" resolve="modifiersField" />
+                    </node>
+                    <node concept="37vLTw" id="7LLvr2v_lQB" role="37vLTx">
+                      <ref role="3cqZAo" node="7LLvr2v_lQD" resolve="each" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="7LLvr2v_lQC" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7LLvr2v_yBM" role="3cqZAp" />
+        <node concept="3clFbF" id="7LLvr2v_lQH" role="3cqZAp">
+          <node concept="2OqwBi" id="7LLvr2v_nIO" role="3clFbG">
+            <node concept="37vLTw" id="7LLvr2v_miC" role="2Oq$k0">
+              <ref role="3cqZAo" node="7LLvr2v_lQn" resolve="modifiersField" />
+            </node>
+            <node concept="liA8E" id="7LLvr2v_nIP" role="2OqNvi">
+              <ref role="37wK5l" to="t6h5:~Field.setAccessible(boolean)" resolve="setAccessible" />
+              <node concept="3clFbT" id="7LLvr2v_nIQ" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7LLvr2v_lQK" role="3cqZAp">
+          <node concept="2OqwBi" id="7LLvr2v_n_k" role="3clFbG">
+            <node concept="37vLTw" id="7LLvr2v_mj8" role="2Oq$k0">
+              <ref role="3cqZAo" node="7LLvr2v_lQn" resolve="modifiersField" />
+            </node>
+            <node concept="liA8E" id="7LLvr2v_n_l" role="2OqNvi">
+              <ref role="37wK5l" to="t6h5:~Field.setInt(java.lang.Object,int)" resolve="setInt" />
+              <node concept="37vLTw" id="7LLvr2v_n_m" role="37wK5m">
+                <ref role="3cqZAo" node="7LLvr2v_lPR" resolve="field" />
+              </node>
+              <node concept="pVHWs" id="7LLvr2v_n_n" role="37wK5m">
+                <node concept="2OqwBi" id="7LLvr2v_oSN" role="3uHU7B">
+                  <node concept="37vLTw" id="7LLvr2v_ow4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7LLvr2v_lPR" resolve="field" />
+                  </node>
+                  <node concept="liA8E" id="7LLvr2v_oSO" role="2OqNvi">
+                    <ref role="37wK5l" to="t6h5:~Field.getModifiers()" resolve="getModifiers" />
+                  </node>
+                </node>
+                <node concept="1H0AT2" id="7LLvr2v_n_p" role="3uHU7w">
+                  <node concept="10M0yZ" id="7LLvr2v_n_q" role="1H0ATZ">
+                    <ref role="1PxDUh" to="t6h5:~Modifier" resolve="Modifier" />
+                    <ref role="3cqZAo" to="t6h5:~Modifier.FINAL" resolve="FINAL" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="7LLvr2ww6EG" role="1B3o_S" />
+      <node concept="3cqZAl" id="7LLvr2v_lQW" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7LLvr2v_phf" role="jymVt" />
+    <node concept="2YIFZL" id="7LLvr2v_qdU" role="jymVt">
+      <property role="TrG5h" value="removeFinalFlagInternal2" />
+      <node concept="3clFbS" id="7LLvr2v_qdX" role="3clF47">
+        <node concept="3cpWs8" id="4Oc83Ifb$pw" role="3cqZAp">
+          <node concept="3cpWsn" id="4Oc83Ifb$px" role="3cpWs9">
+            <property role="TrG5h" value="lookup" />
+            <node concept="3uibUv" id="4Oc83Ifb$k$" role="1tU5fm">
+              <ref role="3uigEE" to="e5kc:~MethodHandles$Lookup" resolve="Lookup" />
+            </node>
+            <node concept="2YIFZM" id="4Oc83Ifb$py" role="33vP2m">
+              <ref role="37wK5l" to="e5kc:~MethodHandles.privateLookupIn(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)" resolve="privateLookupIn" />
+              <ref role="1Pybhc" to="e5kc:~MethodHandles" resolve="MethodHandles" />
+              <node concept="3VsKOn" id="4Oc83Ifb$pz" role="37wK5m">
+                <ref role="3VsUkX" to="t6h5:~Field" resolve="Field" />
+              </node>
+              <node concept="2YIFZM" id="4Oc83Ifb$p$" role="37wK5m">
+                <ref role="37wK5l" to="e5kc:~MethodHandles.lookup()" resolve="lookup" />
+                <ref role="1Pybhc" to="e5kc:~MethodHandles" resolve="MethodHandles" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4Oc83IfbAk7" role="3cqZAp">
+          <node concept="3cpWsn" id="4Oc83IfbAk8" role="3cpWs9">
+            <property role="TrG5h" value="modifiers" />
+            <node concept="3uibUv" id="4Oc83IfbAfP" role="1tU5fm">
+              <ref role="3uigEE" to="e5kc:~VarHandle" resolve="VarHandle" />
+            </node>
+            <node concept="2OqwBi" id="4Oc83IfbAk9" role="33vP2m">
+              <node concept="37vLTw" id="4Oc83IfbAka" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Oc83Ifb$px" resolve="lookup" />
+              </node>
+              <node concept="liA8E" id="4Oc83IfbAkb" role="2OqNvi">
+                <ref role="37wK5l" to="e5kc:~MethodHandles$Lookup.findVarHandle(java.lang.Class,java.lang.String,java.lang.Class)" resolve="findVarHandle" />
+                <node concept="3VsKOn" id="4Oc83IfbAkc" role="37wK5m">
+                  <ref role="3VsUkX" to="t6h5:~Field" resolve="Field" />
+                </node>
+                <node concept="Xl_RD" id="4Oc83IfbAkd" role="37wK5m">
+                  <property role="Xl_RC" value="modifiers" />
+                </node>
+                <node concept="229OVn" id="4Oc83IfbAke" role="37wK5m">
+                  <node concept="10Oyi0" id="4Oc83IfbAkf" role="229OVk" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4Oc83IfbD$c" role="3cqZAp">
+          <node concept="3cpWsn" id="4Oc83IfbD$f" role="3cpWs9">
+            <property role="TrG5h" value="mods" />
+            <node concept="10Oyi0" id="4Oc83IfbD$a" role="1tU5fm" />
+            <node concept="2OqwBi" id="4Oc83IfbElI" role="33vP2m">
+              <node concept="37vLTw" id="4Oc83IfbDVe" role="2Oq$k0">
+                <ref role="3cqZAo" node="7LLvr2v_spx" resolve="field" />
+              </node>
+              <node concept="liA8E" id="4Oc83IfbE$0" role="2OqNvi">
+                <ref role="37wK5l" to="t6h5:~Field.getModifiers()" resolve="getModifiers" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4Oc83Ifb$Xp" role="3cqZAp">
+          <node concept="2OqwBi" id="4Oc83IfbARp" role="3clFbG">
+            <node concept="37vLTw" id="4Oc83IfbAkg" role="2Oq$k0">
+              <ref role="3cqZAo" node="4Oc83IfbAk8" resolve="modifiers" />
+            </node>
+            <node concept="liA8E" id="4Oc83IfbB2T" role="2OqNvi">
+              <ref role="37wK5l" to="e5kc:~VarHandle.set(java.lang.Object...)" resolve="set" />
+              <node concept="37vLTw" id="4Oc83IfbBce" role="37wK5m">
+                <ref role="3cqZAo" node="7LLvr2v_spx" resolve="field" />
+              </node>
+              <node concept="pVHWs" id="4Oc83IfbBQ7" role="37wK5m">
+                <node concept="1H0AT2" id="4Oc83IfbBZW" role="3uHU7w">
+                  <node concept="10M0yZ" id="4Oc83IfbCnE" role="1H0ATZ">
+                    <ref role="3cqZAo" to="t6h5:~Modifier.FINAL" resolve="FINAL" />
+                    <ref role="1PxDUh" to="t6h5:~Modifier" resolve="Modifier" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="4Oc83IfbBAO" role="3uHU7B">
+                  <ref role="3cqZAo" node="4Oc83IfbD$f" resolve="mods" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="7LLvr2ww71L" role="1B3o_S" />
+      <node concept="3cqZAl" id="7LLvr2v_q6D" role="3clF45" />
+      <node concept="37vLTG" id="7LLvr2v_spx" role="3clF46">
+        <property role="TrG5h" value="field" />
+        <node concept="3uibUv" id="7LLvr2v_sxo" role="1tU5fm">
+          <ref role="3uigEE" to="t6h5:~Field" resolve="Field" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7LLvr2v_v_S" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7dhGT7CN7XF" role="jymVt" />
     <node concept="3Tm1VV" id="3jHPIDn41OM" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="8dI1zLbaJ$">

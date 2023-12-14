@@ -14,21 +14,13 @@
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
       <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
-        <child id="6976585500156684809" name="iconExpression" index="3xaMm5" />
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
       </concept>
     </language>
     <language id="f159adf4-3c93-40f9-9c5a-1f245a8697af" name="jetbrains.mps.lang.aspect">
       <concept id="3433054418424672374" name="jetbrains.mps.lang.aspect.structure.SimpleLanguageAspectDescriptor" flags="ng" index="3vrhyV">
         <child id="6106419185511570295" name="mainLanguages" index="QG$2i" />
         <child id="3433054418425083029" name="icon" index="3vqPLo" />
-      </concept>
-    </language>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
-      </concept>
-      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
-        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -50,10 +42,7 @@
       <property role="2V$B1Q" value="de.q60.mps.virtualinterfaces" />
     </node>
     <node concept="1QGGSu" id="1yLcVM11IJk" role="3vqPLo">
-      <node concept="10M0yZ" id="1yLcVM11K7U" role="3xaMm5">
-        <ref role="3cqZAo" to="l7us:~MPSIcons$Nodes.Model" resolve="Model" />
-        <ref role="1PxDUh" to="l7us:~MPSIcons$Nodes" resolve="Nodes" />
-      </node>
+      <property role="1iqoE4" value="${module}/icons/model.png" />
     </node>
   </node>
 </model>

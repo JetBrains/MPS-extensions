@@ -1,12 +1,12 @@
-name: Merge and PR into 2022.2
+name: Merge and PR into 2023.2
 
-run-name: Merge 2021.3 -> 2022.2
+run-name: Merge 2022.3 -> 2023.2
 on:
   pull_request_target:
     types:
       - closed
     branches:
-      - 'maintenance/mps20213'
+      - 'maintenance/mps20223'
 
 jobs:
   merge-and-pr:
@@ -14,7 +14,7 @@ jobs:
     if: github.event.pull_request.merged == true
     uses: ./.github/workflows/PR-into-next-version.yml
     with:
-      from-version: 2021.3
-      from-branch: maintenance/mps20213
-      to-version: 2022.2
-      to-branch: maintenance/mps20222
+      from-version: 2022.3
+      from-branch: maintenance/mps20223
+      to-version: 2023.2
+      to-branch: maintenance/mps20232

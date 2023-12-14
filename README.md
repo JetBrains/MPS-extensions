@@ -10,7 +10,7 @@ Join the discussion on [Slack](https://slack-mps.jetbrains.com) in the #mps-exte
 
 ## Building
 
-The MPS extensions can be built with gradle. To build the source code, all you need is a Java 11 JDK. Of course, if you want to hack on the MPS extensions, you need MPS. The MPS version that is used is in the [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle#L61) file.
+Of course, if you want to hack on the MPS extensions, you need MPS. The MPS version that is used is in the build.gradle file.
 
 Run the following commands to build the project:
 

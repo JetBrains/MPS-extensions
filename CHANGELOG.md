@@ -5,7 +5,7 @@ All notable changes to this project are documented in this file.
 Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
 The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
-## Dezember 2023
+## December 2023
 
 ### Fixed
 
@@ -18,6 +18,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - A new language `de.itemis.mps.statistics` was added that adds a new menu `MPS Statistics` to the `Tools`  menu. The containing action writes a file `dependencies.txt` to the root folder. It contains all the used dependencies of the current project. 
 - de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
+
+### Changed
+
+de.slisson.mps.richtext: The code completion entries of word cells are now clearer and unnecessary entries were removed.
 
 ## November 2023
 

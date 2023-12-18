@@ -316,7 +316,7 @@
     <property role="EcuMT" value="8745606771044566598" />
     <property role="3GE5qa" value="debug" />
     <property role="TrG5h" value="EditorComponentReference" />
-    <property role="34LRSv" value="#editorComponent" />
+    <property role="34LRSv" value="#currentEditorComponent" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyi" id="7_uCKm_nXFw" role="1TKVEl">
       <property role="IQ2nx" value="8745606771044768480" />

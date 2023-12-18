@@ -823,8 +823,8 @@
     <ref role="1XX52x" to="pvux:7_uCKm_ncp6" resolve="EditorComponentReference" />
     <node concept="1QoScp" id="7_uCKm_o01c" role="2wV5jI">
       <property role="1QpmdY" value="true" />
-      <node concept="3F0ifn" id="7_uCKm_o01e" role="1QoS34">
-        <property role="3F0ifm" value="#currentEditorComponent" />
+      <node concept="PMmxH" id="7_uCKm_rqa7" role="1QoS34">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="pkWqt" id="7_uCKm_o01f" role="3e4ffs">
         <node concept="3clFbS" id="7_uCKm_o01h" role="2VODD2">

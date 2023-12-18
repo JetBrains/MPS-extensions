@@ -12,6 +12,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 - A new language `de.itemis.mps.statistics` was added that adds a new menu `MPS Statistics` to the `Tools`  menu. The containing action writes a file `dependencies.txt` to the root folder. It contains all the used dependencies of the current project. 
 - de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
 
+### Fixed
+
+- The performance of the language `de.itemis.mps.linenumbers` was improved.
+
 ### Changed
 
 - mpsutil.intentions: Intentions available in read-only cells are not available anymore when the annotation showIntentionInReadyOnlyCell is not added.

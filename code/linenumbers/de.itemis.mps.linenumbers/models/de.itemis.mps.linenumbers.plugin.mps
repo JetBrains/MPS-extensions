@@ -9,6 +9,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components(MPS.IDEA/)" />
@@ -308,6 +309,18 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
       <concept id="1213999088275" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldDeclaration" flags="ig" index="2BZ0e9" />
       <concept id="1213999117680" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldAccessOperation" flags="nn" index="2BZ7hE" />
@@ -323,6 +336,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -2043,6 +2059,28 @@
   <node concept="312cEu" id="3PNI8k1J7fY">
     <property role="TrG5h" value="LineNumberComponent" />
     <node concept="2tJIrI" id="3PNI8k1J84Z" role="jymVt" />
+    <node concept="Wx3nA" id="45ZL$BXtdka" role="jymVt">
+      <property role="TrG5h" value="RELAYOUT_THROTTLE_INTERVAL" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10Oyi0" id="45ZL$BXtdkd" role="1tU5fm" />
+      <node concept="3cmrfG" id="45ZL$BXtdke" role="33vP2m">
+        <property role="3cmrfH" value="250" />
+      </node>
+      <node concept="3Tm1VV" id="45ZL$BXtdkc" role="1B3o_S" />
+      <node concept="z59LJ" id="45ZL$BXtkdj" role="lGtFl">
+        <node concept="TZ5HA" id="45ZL$BXtkdk" role="TZ5H$">
+          <node concept="1dT_AC" id="45ZL$BXtkdl" role="1dT_Ay">
+            <property role="1dT_AB" value="The left highlighter gets way too many relayout events which we can't influence, so we have to throttle" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="45ZL$BXtkjC" role="TZ5H$">
+          <node concept="1dT_AC" id="45ZL$BXtkjD" role="1dT_Ay">
+            <property role="1dT_AB" value="the number of events. I've selected 250ms, which means that the line numbers only update 4 times per second or less." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="45ZL$BXt3PQ" role="jymVt" />
     <node concept="Wx3nA" id="3PNI8k1JcAX" role="jymVt">
       <property role="TrG5h" value="instances" />
       <node concept="3Tm6S6" id="3PNI8k1JaCD" role="1B3o_S" />
@@ -3247,8 +3285,8 @@
                 <node concept="3cpWs6" id="1SxRp_hJvJB" role="3cqZAp" />
               </node>
               <node concept="3eOVzh" id="1SxRp_hJpvy" role="3clFbw">
-                <node concept="3cmrfG" id="1SxRp_hJr8b" role="3uHU7w">
-                  <property role="3cmrfH" value="250" />
+                <node concept="37vLTw" id="45ZL$BXsT3g" role="3uHU7w">
+                  <ref role="3cqZAo" node="45ZL$BXsT3e" resolve="i" />
                 </node>
                 <node concept="37vLTw" id="1SxRp_hJmuz" role="3uHU7B">
                   <ref role="3cqZAo" node="1SxRp_hIfaD" resolve="timeDiffInMS" />

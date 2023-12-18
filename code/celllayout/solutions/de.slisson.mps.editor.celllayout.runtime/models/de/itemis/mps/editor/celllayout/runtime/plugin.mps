@@ -1208,6 +1208,74 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbJ" id="58ijd26rFm" role="3cqZAp">
+                  <node concept="3clFbS" id="58ijd26rFo" role="3clFbx">
+                    <node concept="3cpWs8" id="58ijd26svH" role="3cqZAp">
+                      <node concept="3cpWsn" id="58ijd26svI" role="3cpWs9">
+                        <property role="TrG5h" value="currentNodeEditorComponent" />
+                        <node concept="3uibUv" id="58ijd26svJ" role="1tU5fm">
+                          <ref role="3uigEE" to="exr9:~NodeEditorComponent" resolve="NodeEditorComponent" />
+                        </node>
+                        <node concept="1eOMI4" id="58ijd26tdu" role="33vP2m">
+                          <node concept="10QFUN" id="58ijd26tdr" role="1eOMHV">
+                            <node concept="3uibUv" id="58ijd26tdw" role="10QFUM">
+                              <ref role="3uigEE" to="exr9:~NodeEditorComponent" resolve="NodeEditorComponent" />
+                            </node>
+                            <node concept="37vLTw" id="58ijd26tdx" role="10QFUP">
+                              <ref role="3cqZAo" node="7_uCKm_n_HI" resolve="currentEditorComponent" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWs8" id="58ijd27jzG" role="3cqZAp">
+                      <node concept="3cpWsn" id="58ijd27jzH" role="3cpWs9">
+                        <property role="TrG5h" value="inspectorComponent" />
+                        <node concept="3uibUv" id="58ijd27iBr" role="1tU5fm">
+                          <ref role="3uigEE" to="exr9:~EditorComponent" resolve="EditorComponent" />
+                        </node>
+                        <node concept="2OqwBi" id="58ijd27jzI" role="33vP2m">
+                          <node concept="37vLTw" id="58ijd27jzJ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="58ijd26svI" resolve="currentNodeEditorComponent" />
+                          </node>
+                          <node concept="liA8E" id="58ijd27jzK" role="2OqNvi">
+                            <ref role="37wK5l" to="exr9:~NodeEditorComponent.getInspector()" resolve="getInspector" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="58ijd26wXt" role="3cqZAp">
+                      <node concept="3clFbS" id="58ijd26wXv" role="3clFbx">
+                        <node concept="3cpWs6" id="58ijd26$Zg" role="3cqZAp">
+                          <node concept="37vLTw" id="58ijd27jZM" role="3cqZAk">
+                            <ref role="3cqZAo" node="58ijd27jzH" resolve="inspector" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbC" id="58ijd26$dm" role="3clFbw">
+                        <node concept="37vLTw" id="58ijd26$oL" role="3uHU7w">
+                          <ref role="3cqZAo" node="7_uCKm_kbLN" resolve="hashCode" />
+                        </node>
+                        <node concept="2OqwBi" id="58ijd26xTA" role="3uHU7B">
+                          <node concept="37vLTw" id="58ijd27jzL" role="2Oq$k0">
+                            <ref role="3cqZAo" node="58ijd27jzH" resolve="inspector" />
+                          </node>
+                          <node concept="liA8E" id="58ijd26yLK" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ZW3vV" id="58ijd26s2u" role="3clFbw">
+                    <node concept="3uibUv" id="58ijd26seP" role="2ZW6by">
+                      <ref role="3uigEE" to="exr9:~NodeEditorComponent" resolve="NodeEditorComponent" />
+                    </node>
+                    <node concept="37vLTw" id="58ijd26rNF" role="2ZW6bz">
+                      <ref role="3cqZAo" node="7_uCKm_n_HI" resolve="currentEditorComponent" />
+                    </node>
+                  </node>
+                </node>
               </node>
               <node concept="2ZW3vV" id="7_uCKm_nCz8" role="3clFbw">
                 <node concept="3uibUv" id="7_uCKm_nCTk" role="2ZW6by">

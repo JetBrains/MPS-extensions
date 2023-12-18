@@ -82,6 +82,7 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -194,6 +195,7 @@
       </concept>
       <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
       <concept id="1118773211870" name="jetbrains.mps.lang.generator.structure.IfMacro" flags="ln" index="1W57fq">
+        <child id="1194989344771" name="alternativeConsequence" index="UU_$l" />
         <child id="1167945861827" name="conditionFunction" index="3IZSJc" />
       </concept>
       <concept id="1118786554307" name="jetbrains.mps.lang.generator.structure.LoopMacro" flags="ln" index="1WS0z7">
@@ -280,6 +282,12 @@
       <ref role="30HIoZ" to="pvux:7_uCKm_gkEm" resolve="CellReference" />
       <node concept="j$656" id="7_uCKm_kmkS" role="1lVwrX">
         <ref role="v9R2y" node="7_uCKm_kmkQ" resolve="reduce_CellReference" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="7_uCKm_ng8x" role="3acgRq">
+      <ref role="30HIoZ" to="pvux:7_uCKm_ncp6" resolve="EditorComponentReference" />
+      <node concept="j$656" id="7_uCKm_nghM" role="1lVwrX">
+        <ref role="v9R2y" node="7_uCKm_nghK" resolve="reduce_CurrentEditorComponentReference" />
       </node>
     </node>
   </node>
@@ -1188,6 +1196,7 @@
   </node>
   <node concept="13MO4I" id="7_uCKm_kmkQ">
     <property role="TrG5h" value="reduce_CellReference" />
+    <property role="3GE5qa" value="debug" />
     <ref role="3gUMe" to="pvux:7_uCKm_gkEm" resolve="CellReference" />
     <node concept="3clFbS" id="7_uCKm_ku9r" role="13RCb5">
       <node concept="L3pyB" id="7_uCKm_kubX" role="3cqZAp">
@@ -1286,6 +1295,68 @@
         </node>
         <node concept="10Nm6u" id="7_uCKm_kzFe" role="L3pyr" />
       </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="7_uCKm_nghK">
+    <property role="TrG5h" value="reduce_CurrentEditorComponentReference" />
+    <ref role="3gUMe" to="pvux:7_uCKm_ncp6" resolve="EditorComponentReference" />
+    <node concept="L3pyB" id="7_uCKm_ngVr" role="13RCb5">
+      <node concept="3clFbS" id="7_uCKm_ngVs" role="L3pyw">
+        <node concept="3clFbF" id="7_uCKm_ngVt" role="3cqZAp">
+          <node concept="2YIFZM" id="7_uCKm_nI32" role="3clFbG">
+            <ref role="37wK5l" to="rdi9:7_uCKm_nknH" resolve="getCurrentEditorComponent" />
+            <ref role="1Pybhc" to="rdi9:7_uCKm_jZa0" resolve="DebugHelper" />
+            <node concept="o6qdh" id="7_uCKm_nI33" role="37wK5m" />
+            <node concept="raruj" id="7_uCKm_nI34" role="lGtFl" />
+            <node concept="1W57fq" id="7_uCKm_ocmq" role="lGtFl">
+              <node concept="3IZrLx" id="7_uCKm_ocmr" role="3IZSJc">
+                <node concept="3clFbS" id="7_uCKm_ocms" role="2VODD2">
+                  <node concept="3clFbF" id="7_uCKm_octP" role="3cqZAp">
+                    <node concept="3clFbC" id="7_uCKm_ocZo" role="3clFbG">
+                      <node concept="3cmrfG" id="7_uCKm_od0S" role="3uHU7w">
+                        <property role="3cmrfH" value="-1" />
+                      </node>
+                      <node concept="2OqwBi" id="7_uCKm_ocAA" role="3uHU7B">
+                        <node concept="30H73N" id="7_uCKm_octO" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="7_uCKm_ocCM" role="2OqNvi">
+                          <ref role="3TsBF5" to="pvux:7_uCKm_nXFw" resolve="componentHashCode" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="gft3U" id="7_uCKm_od8G" role="UU_$l">
+                <node concept="2YIFZM" id="7_uCKm_odw7" role="gfFT$">
+                  <ref role="37wK5l" to="rdi9:7_uCKm_kbKO" resolve="getEditorComponent" />
+                  <ref role="1Pybhc" to="rdi9:7_uCKm_jZa0" resolve="DebugHelper" />
+                  <node concept="o6qdh" id="7_uCKm_odzE" role="37wK5m" />
+                  <node concept="3cmrfG" id="7_uCKm_odPa" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                    <node concept="17Uvod" id="7_uCKm_odXz" role="lGtFl">
+                      <property role="2qtEX9" value="value" />
+                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                      <node concept="3zFVjK" id="7_uCKm_odX$" role="3zH0cK">
+                        <node concept="3clFbS" id="7_uCKm_odX_" role="2VODD2">
+                          <node concept="3clFbF" id="7_uCKm_oebl" role="3cqZAp">
+                            <node concept="2OqwBi" id="7_uCKm_oeyn" role="3clFbG">
+                              <node concept="30H73N" id="7_uCKm_oebk" role="2Oq$k0" />
+                              <node concept="3TrcHB" id="7_uCKm_oeKB" role="2OqNvi">
+                                <ref role="3TsBF5" to="pvux:7_uCKm_nXFw" resolve="componentHashCode" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Nm6u" id="7_uCKm_ngW3" role="L3pyr" />
     </node>
   </node>
 </model>

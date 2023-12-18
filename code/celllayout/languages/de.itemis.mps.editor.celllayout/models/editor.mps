@@ -12,9 +12,9 @@
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="pvux" ref="r:bb8c05bc-4758-44fe-b1ab-f9faa5a73d31(de.itemis.mps.editor.celllayout.structure)" implicit="true" />
     <import index="hy9h" ref="r:131747d1-61c1-40bf-8a0d-f19908d3d142(de.itemis.mps.editor.celllayout.behavior)" implicit="true" />
-    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -151,6 +151,9 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -727,6 +730,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7_uCKm_hMf5">
+    <property role="3GE5qa" value="debug" />
     <ref role="1XX52x" to="pvux:7_uCKm_gkEm" resolve="CellReference" />
     <node concept="1QoScp" id="55XVrlFSRUw" role="2wV5jI">
       <property role="1QpmdY" value="true" />
@@ -810,6 +814,125 @@
         </node>
         <node concept="VechU" id="55XVrlFSRUP" role="3F10Kt">
           <property role="Vb096" value="fLJRk5_/gray" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7_uCKm_ndpY">
+    <property role="3GE5qa" value="debug" />
+    <ref role="1XX52x" to="pvux:7_uCKm_ncp6" resolve="EditorComponentReference" />
+    <node concept="1QoScp" id="7_uCKm_o01c" role="2wV5jI">
+      <property role="1QpmdY" value="true" />
+      <node concept="3F0ifn" id="7_uCKm_o01e" role="1QoS34">
+        <property role="3F0ifm" value="#currentEditorComponent" />
+      </node>
+      <node concept="pkWqt" id="7_uCKm_o01f" role="3e4ffs">
+        <node concept="3clFbS" id="7_uCKm_o01h" role="2VODD2">
+          <node concept="3clFbF" id="7_uCKm_o0b8" role="3cqZAp">
+            <node concept="3clFbC" id="7_uCKm_o0En" role="3clFbG">
+              <node concept="3cmrfG" id="7_uCKm_o1bk" role="3uHU7w">
+                <property role="3cmrfH" value="-1" />
+              </node>
+              <node concept="2OqwBi" id="7_uCKm_o0rE" role="3uHU7B">
+                <node concept="pncrf" id="7_uCKm_o0b7" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7_uCKm_o0tQ" role="2OqNvi">
+                  <ref role="3TsBF5" to="pvux:7_uCKm_nXFw" resolve="componentHashCode" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1QoScp" id="7_uCKm_o21U" role="1QoVPY">
+        <property role="1QpmdY" value="true" />
+        <node concept="1HlG4h" id="7_uCKm_o21V" role="1QoS34">
+          <node concept="VechU" id="7_uCKm_o21W" role="3F10Kt">
+            <property role="Vb096" value="g1_eI4o/DARK_BLUE" />
+          </node>
+          <node concept="VQ3r3" id="7_uCKm_o21X" role="3F10Kt">
+            <property role="2USNnj" value="gtbM8PH/2" />
+          </node>
+          <node concept="3k4GqR" id="7_uCKm_pkF4" role="3F10Kt">
+            <node concept="3k4GqP" id="7_uCKm_pkF6" role="3k4GqO">
+              <node concept="3clFbS" id="7_uCKm_pkF8" role="2VODD2">
+                <node concept="3clFbF" id="7_uCKm_pQFA" role="3cqZAp">
+                  <node concept="2OqwBi" id="7_uCKm_pQRY" role="3clFbG">
+                    <node concept="pncrf" id="7_uCKm_pQF_" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="7_uCKm_pR6u" role="2OqNvi">
+                      <ref role="37wK5l" to="hy9h:7_uCKm_pPxc" resolve="getEditedNode" />
+                      <node concept="2YIFZM" id="7_uCKm_pRgl" role="37wK5m">
+                        <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
+                        <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                        <node concept="2OqwBi" id="7_uCKm_pRpW" role="37wK5m">
+                          <node concept="1Q80Hx" id="7_uCKm_pRjd" role="2Oq$k0" />
+                          <node concept="liA8E" id="7_uCKm_pRzT" role="2OqNvi">
+                            <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1HfYo3" id="7_uCKm_o226" role="1HlULh">
+            <node concept="3TQlhw" id="7_uCKm_o227" role="1Hhtcw">
+              <node concept="3clFbS" id="7_uCKm_o228" role="2VODD2">
+                <node concept="3clFbF" id="7_uCKm_o229" role="3cqZAp">
+                  <node concept="2OqwBi" id="7_uCKm_o22a" role="3clFbG">
+                    <node concept="pncrf" id="7_uCKm_o22b" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="7_uCKm_o22c" role="2OqNvi">
+                      <ref role="37wK5l" to="hy9h:7_uCKm_o3kH" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="pkWqt" id="7_uCKm_o22d" role="3e4ffs">
+          <node concept="3clFbS" id="7_uCKm_o22e" role="2VODD2">
+            <node concept="3clFbF" id="7_uCKm_o22f" role="3cqZAp">
+              <node concept="3fqX7Q" id="7_uCKm_o22g" role="3clFbG">
+                <node concept="2OqwBi" id="7_uCKm_o22h" role="3fr31v">
+                  <node concept="pncrf" id="7_uCKm_o22i" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="7_uCKm_o22j" role="2OqNvi">
+                    <ref role="37wK5l" to="hy9h:7_uCKm_o3li" resolve="isBroken" />
+                    <node concept="2YIFZM" id="7_uCKm_o22k" role="37wK5m">
+                      <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository)" resolve="getProject" />
+                      <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                      <node concept="2OqwBi" id="7_uCKm_o22l" role="37wK5m">
+                        <node concept="1Q80Hx" id="7_uCKm_o22m" role="2Oq$k0" />
+                        <node concept="liA8E" id="7_uCKm_o22n" role="2OqNvi">
+                          <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1HlG4h" id="7_uCKm_o22o" role="1QoVPY">
+          <node concept="1HfYo3" id="7_uCKm_o22p" role="1HlULh">
+            <node concept="3TQlhw" id="7_uCKm_o22q" role="1Hhtcw">
+              <node concept="3clFbS" id="7_uCKm_o22r" role="2VODD2">
+                <node concept="3clFbF" id="7_uCKm_o22s" role="3cqZAp">
+                  <node concept="2OqwBi" id="7_uCKm_o22t" role="3clFbG">
+                    <node concept="pncrf" id="7_uCKm_o22u" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="7_uCKm_o22v" role="2OqNvi">
+                      <ref role="37wK5l" to="hy9h:7_uCKm_o3la" resolve="getTextWhenBroken" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="VechU" id="7_uCKm_o22w" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
         </node>
       </node>
     </node>

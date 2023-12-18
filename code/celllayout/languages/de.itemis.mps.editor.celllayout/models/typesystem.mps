@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="pvux" ref="r:bb8c05bc-4758-44fe-b1ab-f9faa5a73d31(de.itemis.mps.editor.celllayout.structure)" implicit="true" />
   </imports>
   <registry>
@@ -49,6 +50,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -56,6 +60,7 @@
   </registry>
   <node concept="1YbPZF" id="7_uCKm_l7z4">
     <property role="TrG5h" value="typeof_CellReference" />
+    <property role="3GE5qa" value="debug" />
     <node concept="3clFbS" id="7_uCKm_l7z5" role="18ibNy">
       <node concept="1Z5TYs" id="7_uCKm_l7YR" role="3cqZAp">
         <node concept="mw_s8" id="7_uCKm_l821" role="1ZfhKB">
@@ -77,6 +82,32 @@
     <node concept="1YaCAy" id="7_uCKm_l7z7" role="1YuTPh">
       <property role="TrG5h" value="cellReference" />
       <ref role="1YaFvo" to="pvux:7_uCKm_gkEm" resolve="CellReference" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="7_uCKm_nenw">
+    <property role="TrG5h" value="typeof_EditorComponentReference" />
+    <property role="3GE5qa" value="debug" />
+    <node concept="3clFbS" id="7_uCKm_nenx" role="18ibNy">
+      <node concept="1Z5TYs" id="7_uCKm_nePF" role="3cqZAp">
+        <node concept="mw_s8" id="7_uCKm_nePI" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7_uCKm_nesv" role="mwGJk">
+            <node concept="1YBJjd" id="7_uCKm_ney3" role="1Z2MuG">
+              <ref role="1YBMHb" node="7_uCKm_nenz" resolve="editorComponentReference" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="7_uCKm_nfRR" role="1ZfhKB">
+          <node concept="2c44tf" id="7_uCKm_nfRS" role="mwGJk">
+            <node concept="3uibUv" id="7_uCKm_nfRT" role="2c44tc">
+              <ref role="3uigEE" to="cj4x:~EditorComponent" resolve="EditorComponent" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7_uCKm_nenz" role="1YuTPh">
+      <property role="TrG5h" value="editorComponentReference" />
+      <ref role="1YaFvo" to="pvux:7_uCKm_ncp6" resolve="EditorComponentReference" />
     </node>
   </node>
 </model>

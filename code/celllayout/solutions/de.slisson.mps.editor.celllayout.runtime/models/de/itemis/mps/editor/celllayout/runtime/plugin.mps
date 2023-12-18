@@ -24,6 +24,7 @@
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="dp1x" ref="r:84719e1a-99f6-4297-90ba-8ad2a947fa4a(jetbrains.mps.ide.datatransfer)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
+    <import index="zyr2" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.inspector(MPS.Editor/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
@@ -91,6 +92,7 @@
         <child id="1224071154657" name="classifierType" index="0kSFW" />
         <child id="1224071154656" name="expression" index="0kSFX" />
       </concept>
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -156,6 +158,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -1018,6 +1021,46 @@
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.NODE" resolve="NODE" />
       <node concept="1oajcY" id="7_uCKm_iIiT" role="1oa70y" />
     </node>
+    <node concept="2ScWuX" id="58ijd27OWO" role="tmbBb">
+      <node concept="3clFbS" id="58ijd27OWP" role="2VODD2">
+        <node concept="3cpWs6" id="58ijd27YNI" role="3cqZAp">
+          <node concept="22lmx$" id="58ijd27Prt" role="3cqZAk">
+            <node concept="17R0WA" id="58ijd27Pru" role="3uHU7B">
+              <node concept="3VsKOn" id="58ijd27Prv" role="3uHU7w">
+                <ref role="3VsUkX" to="exr9:~NodeEditorComponent" resolve="NodeEditorComponent" />
+              </node>
+              <node concept="2OqwBi" id="58ijd27Prw" role="3uHU7B">
+                <node concept="2OqwBi" id="58ijd27Prx" role="2Oq$k0">
+                  <node concept="2WthIp" id="58ijd27Pry" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="58ijd27Prz" role="2OqNvi">
+                    <ref role="2WH_rO" node="7_uCKm_iG0$" resolve="component" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="58ijd27Pr$" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                </node>
+              </node>
+            </node>
+            <node concept="17R0WA" id="58ijd27Pr_" role="3uHU7w">
+              <node concept="3VsKOn" id="58ijd27PrA" role="3uHU7w">
+                <ref role="3VsUkX" to="zyr2:~InspectorEditorComponent" resolve="InspectorEditorComponent" />
+              </node>
+              <node concept="2OqwBi" id="58ijd27PrB" role="3uHU7B">
+                <node concept="2OqwBi" id="58ijd27PrC" role="2Oq$k0">
+                  <node concept="2WthIp" id="58ijd27PrD" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="58ijd27PrE" role="2OqNvi">
+                    <ref role="2WH_rO" node="7_uCKm_iG0$" resolve="component" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="58ijd27PrF" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="tC5Ba" id="7_uCKm_j756">
     <property role="TrG5h" value="EditorCellDebug" />
@@ -1609,6 +1652,46 @@
       <property role="TrG5h" value="mpsProject" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
       <node concept="1oajcY" id="7_uCKm_nUfK" role="1oa70y" />
+    </node>
+    <node concept="2ScWuX" id="58ijd27E2Z" role="tmbBb">
+      <node concept="3clFbS" id="58ijd27E30" role="2VODD2">
+        <node concept="3cpWs6" id="58ijd27WJB" role="3cqZAp">
+          <node concept="22lmx$" id="58ijd27IgT" role="3cqZAk">
+            <node concept="17R0WA" id="58ijd27MYv" role="3uHU7B">
+              <node concept="3VsKOn" id="58ijd27Nvm" role="3uHU7w">
+                <ref role="3VsUkX" to="exr9:~NodeEditorComponent" resolve="NodeEditorComponent" />
+              </node>
+              <node concept="2OqwBi" id="58ijd27LkQ" role="3uHU7B">
+                <node concept="2OqwBi" id="58ijd27LdL" role="2Oq$k0">
+                  <node concept="2WthIp" id="58ijd27LcM" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="58ijd27LhK" role="2OqNvi">
+                    <ref role="2WH_rO" node="7_uCKm_nUfF" resolve="component" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="58ijd27M9t" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                </node>
+              </node>
+            </node>
+            <node concept="17R0WA" id="58ijd27NCR" role="3uHU7w">
+              <node concept="3VsKOn" id="58ijd27NCS" role="3uHU7w">
+                <ref role="3VsUkX" to="zyr2:~InspectorEditorComponent" resolve="InspectorEditorComponent" />
+              </node>
+              <node concept="2OqwBi" id="58ijd27NCT" role="3uHU7B">
+                <node concept="2OqwBi" id="58ijd27NCU" role="2Oq$k0">
+                  <node concept="2WthIp" id="58ijd27NCV" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="58ijd27NCW" role="2OqNvi">
+                    <ref role="2WH_rO" node="7_uCKm_nUfF" resolve="component" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="58ijd27NCX" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="Zd50a" id="58ijd243fK">

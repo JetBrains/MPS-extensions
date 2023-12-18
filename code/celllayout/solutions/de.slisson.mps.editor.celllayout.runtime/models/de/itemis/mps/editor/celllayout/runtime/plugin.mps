@@ -4,8 +4,6 @@
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
-    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -19,15 +17,13 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="qgo0" ref="r:de40a5a4-f08c-4c67-ac43-e1f5c384f7d6(jetbrains.mps.console.tool)" />
-    <import index="eynw" ref="r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)" />
     <import index="pvux" ref="r:bb8c05bc-4758-44fe-b1ab-f9faa5a73d31(de.itemis.mps.editor.celllayout.structure)" />
-    <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="iwsx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.fileEditor(MPS.IDEA/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
-    <import index="1i7y" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.datatransfer(MPS.Editor/)" />
     <import index="dp1x" ref="r:84719e1a-99f6-4297-90ba-8ad2a947fa4a(jetbrains.mps.ide.datatransfer)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
@@ -138,6 +134,9 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
+      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -161,6 +160,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -186,6 +186,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -244,9 +245,28 @@
         <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
     </language>
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
+        <property id="1863527487546097494" name="modelId" index="1XweGQ" />
+        <child id="679099339649067980" name="name" index="1j$8Uc" />
+      </concept>
+      <concept id="679099339649053840" name="jetbrains.mps.lang.modelapi.structure.ModelName" flags="ng" index="1j_P7g">
+        <property id="679099339649053841" name="value" index="1j_P7h" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4497478346159780083" name="jetbrains.mps.lang.smodel.structure.LanguageRefExpression" flags="ng" index="pHN19">
+        <child id="3542851458883491298" name="languageId" index="2V$M_3" />
+      </concept>
+      <concept id="3542851458883438784" name="jetbrains.mps.lang.smodel.structure.LanguageId" flags="nn" index="2V$Bhx">
+        <property id="3542851458883439831" name="namespace" index="2V$B1Q" />
+        <property id="3542851458883439832" name="languageId" index="2V$B1T" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
+      <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
+        <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -888,6 +908,63 @@
         </node>
         <node concept="3clFbJ" id="7_uCKm_owDG" role="3cqZAp">
           <node concept="3clFbS" id="7_uCKm_owDI" role="3clFbx">
+            <node concept="3cpWs8" id="7_uCKm_stLj" role="3cqZAp">
+              <node concept="3cpWsn" id="7_uCKm_stLk" role="3cpWs9">
+                <property role="TrG5h" value="imports" />
+                <node concept="3uibUv" id="7_uCKm_stLl" role="1tU5fm">
+                  <ref role="3uigEE" to="w1kc:~ModelImports" resolve="ModelImports" />
+                </node>
+                <node concept="2ShNRf" id="7_uCKm_stLm" role="33vP2m">
+                  <node concept="1pGfFk" id="7_uCKm_stLn" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="w1kc:~ModelImports.&lt;init&gt;(org.jetbrains.mps.openapi.model.SModel)" resolve="ModelImports" />
+                    <node concept="2OqwBi" id="7_uCKm_stLo" role="37wK5m">
+                      <node concept="37vLTw" id="7_uCKm_stLp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7_uCKm_izgq" resolve="currentTab" />
+                      </node>
+                      <node concept="liA8E" id="7_uCKm_stLq" role="2OqNvi">
+                        <ref role="37wK5l" to="qgo0:7M1Gaz36FXw" resolve="getConsoleModel" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7_uCKm_stLr" role="3cqZAp">
+              <node concept="2OqwBi" id="7_uCKm_stLs" role="3clFbG">
+                <node concept="37vLTw" id="7_uCKm_stLt" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7_uCKm_stLk" resolve="imports" />
+                </node>
+                <node concept="liA8E" id="7_uCKm_stLu" role="2OqNvi">
+                  <ref role="37wK5l" to="w1kc:~ModelImports.addUsedLanguage(org.jetbrains.mps.openapi.language.SLanguage)" resolve="addUsedLanguage" />
+                  <node concept="pHN19" id="7_uCKm_stLv" role="37wK5m">
+                    <node concept="2V$Bhx" id="7_uCKm_stLw" role="2V$M_3">
+                      <property role="2V$B1T" value="1919c723-b60b-4592-9318-9ce96d91da44" />
+                      <property role="2V$B1Q" value="de.itemis.mps.editor.celllayout" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7_uCKm_suXk" role="3cqZAp">
+              <node concept="2OqwBi" id="7_uCKm_sv6e" role="3clFbG">
+                <node concept="37vLTw" id="7_uCKm_suXi" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7_uCKm_stLk" resolve="imports" />
+                </node>
+                <node concept="liA8E" id="7_uCKm_svyE" role="2OqNvi">
+                  <ref role="37wK5l" to="w1kc:~ModelImports.addModelImport(org.jetbrains.mps.openapi.model.SModelReference)" resolve="addModelImport" />
+                  <node concept="1Xw6AR" id="7_uCKm_svzO" role="37wK5m">
+                    <node concept="1dCxOl" id="7_uCKm_sv$Q" role="1XwpL7">
+                      <property role="1XweGQ" value="r:c30772cf-6faa-4379-900e-6719e180568e" />
+                      <node concept="1j_P7g" id="7_uCKm_sv$R" role="1j$8Uc">
+                        <property role="1j_P7h" value="de.itemis.mps.editor.celllayout.runtime.plugin" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7_uCKm_stCs" role="3cqZAp" />
             <node concept="3clFbF" id="7_uCKm_liGn" role="3cqZAp">
               <node concept="2OqwBi" id="7_uCKm_lk5L" role="3clFbG">
                 <node concept="37vLTw" id="7_uCKm_liGl" role="2Oq$k0">
@@ -1383,6 +1460,45 @@
         </node>
         <node concept="3clFbJ" id="7_uCKm_orLT" role="3cqZAp">
           <node concept="3clFbS" id="7_uCKm_orLV" role="3clFbx">
+            <node concept="3cpWs8" id="7_uCKm_s9yi" role="3cqZAp">
+              <node concept="3cpWsn" id="7_uCKm_s9yj" role="3cpWs9">
+                <property role="TrG5h" value="imports" />
+                <node concept="3uibUv" id="7_uCKm_s9eA" role="1tU5fm">
+                  <ref role="3uigEE" to="w1kc:~ModelImports" resolve="ModelImports" />
+                </node>
+                <node concept="2ShNRf" id="7_uCKm_s9yk" role="33vP2m">
+                  <node concept="1pGfFk" id="7_uCKm_s9yl" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="w1kc:~ModelImports.&lt;init&gt;(org.jetbrains.mps.openapi.model.SModel)" resolve="ModelImports" />
+                    <node concept="2OqwBi" id="7_uCKm_s9ym" role="37wK5m">
+                      <node concept="37vLTw" id="7_uCKm_s9yn" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7_uCKm_nUfy" resolve="currentTab" />
+                      </node>
+                      <node concept="liA8E" id="7_uCKm_s9yo" role="2OqNvi">
+                        <ref role="37wK5l" to="qgo0:7M1Gaz36FXw" resolve="getConsoleModel" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7_uCKm_s7yA" role="3cqZAp">
+              <node concept="2OqwBi" id="7_uCKm_s9dI" role="3clFbG">
+                <node concept="37vLTw" id="7_uCKm_s9yp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7_uCKm_s9yj" resolve="imports" />
+                </node>
+                <node concept="liA8E" id="7_uCKm_s9OW" role="2OqNvi">
+                  <ref role="37wK5l" to="w1kc:~ModelImports.addUsedLanguage(org.jetbrains.mps.openapi.language.SLanguage)" resolve="addUsedLanguage" />
+                  <node concept="pHN19" id="7_uCKm_s0lV" role="37wK5m">
+                    <node concept="2V$Bhx" id="7_uCKm_s0mO" role="2V$M_3">
+                      <property role="2V$B1T" value="1919c723-b60b-4592-9318-9ce96d91da44" />
+                      <property role="2V$B1Q" value="de.itemis.mps.editor.celllayout" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7_uCKm_srPw" role="3cqZAp" />
             <node concept="3clFbF" id="7_uCKm_nUfB" role="3cqZAp">
               <node concept="2OqwBi" id="7_uCKm_nUfC" role="3clFbG">
                 <node concept="37vLTw" id="7_uCKm_nUfD" role="2Oq$k0">

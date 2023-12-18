@@ -16,6 +16,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - The performance of the language `de.itemis.mps.linenumbers` was improved.
 
+### Changed
+
+- mpsutil.intentions: Intentions available in read-only cells are not available anymore when the annotation showIntentionInReadyOnlyCell is not added.
+
 ## November 2023
 
 ### Changed

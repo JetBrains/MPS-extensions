@@ -3286,7 +3286,7 @@
               </node>
               <node concept="3eOVzh" id="1SxRp_hJpvy" role="3clFbw">
                 <node concept="37vLTw" id="45ZL$BXsT3g" role="3uHU7w">
-                  <ref role="3cqZAo" node="45ZL$BXsT3e" resolve="i" />
+                  <ref role="3cqZAo" node="45ZL$BXtdka" resolve="RELAYOUT_THROTTLE_INTERVAL" />
                 </node>
                 <node concept="37vLTw" id="1SxRp_hJmuz" role="3uHU7B">
                   <ref role="3cqZAo" node="1SxRp_hIfaD" resolve="timeDiffInMS" />

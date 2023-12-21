@@ -46,6 +46,7 @@
       <concept id="6150987479542522273" name="jetbrains.mps.lang.editor.structure.QueryHintsSpecification" flags="ig" index="2Hnlc$" />
       <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz" />
       <concept id="4323500428121233431" name="jetbrains.mps.lang.editor.structure.EditorCellId" flags="ng" index="2SqB2G" />
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -1487,7 +1488,8 @@
                 </node>
               </node>
               <node concept="3F0ifn" id="2Gx$FCh246s" role="3EZMnx">
-                <property role="3F0ifm" value="/" />
+                <property role="3F0ifm" value="of" />
+                <node concept="Vb9p2" id="7WXxMD8TASn" role="3F10Kt" />
               </node>
               <node concept="1HlG4h" id="2Gx$FCh246S" role="3EZMnx">
                 <node concept="1HfYo3" id="2Gx$FCh246U" role="1HlULh">

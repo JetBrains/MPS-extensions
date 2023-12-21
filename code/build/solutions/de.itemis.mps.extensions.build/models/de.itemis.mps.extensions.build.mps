@@ -5848,11 +5848,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7_uCKm_mCX5" role="3bR37C">
-          <node concept="3bR9La" id="7_uCKm_mCX6" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="7_uCKm_mCX7" role="3bR37C">
           <node concept="3bR9La" id="7_uCKm_mCX8" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7gQEwkA7nSV" resolve="jetbrains.mps.console" />
@@ -5861,11 +5856,6 @@
         <node concept="1SiIV0" id="7_uCKm_mCX9" role="3bR37C">
           <node concept="3bR9La" id="7_uCKm_mCXa" role="1SiIV1">
             <ref role="3bR37D" node="2nutuZsJi6m" resolve="de.itemis.mps.editor.celllayout" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7_uCKm_mCXb" role="3bR37C">
-          <node concept="3bR9La" id="7_uCKm_mCXc" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7gQEwkA7rZZ" resolve="jetbrains.mps.console.base" />
           </node>
         </node>
         <node concept="1SiIV0" id="7_uCKm_mCXd" role="3bR37C">
@@ -8486,6 +8476,11 @@
               <ref role="3bR37D" node="7eO$0O_5kAC" resolve="de.itemis.mps.editor.pagination.runtime" />
             </node>
           </node>
+          <node concept="1SiIV0" id="2eBSs8Als7t" role="3bR37C">
+            <node concept="3bR9La" id="2eBSs8Als7u" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="7eO$0O_5nzS" role="3bR37C">
           <node concept="3bR9La" id="7eO$0O_5nzT" role="1SiIV1">
@@ -8504,6 +8499,11 @@
         <node concept="1SiIV0" id="6nOR_0smXt$" role="3bR37C">
           <node concept="3bR9La" id="6nOR_0smXt_" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5$hO0xBtFGf" role="3bR37C">
+          <node concept="1Busua" id="5$hO0xBtFGg" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
       </node>
@@ -8538,6 +8538,7 @@
         </node>
         <node concept="1SiIV0" id="7eO$0O_5mXL" role="3bR37C">
           <node concept="3bR9La" id="7eO$0O_5mXM" role="1SiIV1">
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>

@@ -297,8 +297,8 @@
       <node concept="3clFbS" id="5K4KrT2tECS" role="3clF47">
         <node concept="XkiVB" id="5K4KrT2vn4b" role="3cqZAp">
           <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
-          <node concept="10M0yZ" id="2mFBf1FFa0b" role="37wK5m">
-            <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.PreviousOccurence" resolve="PreviousOccurence" />
+          <node concept="10M0yZ" id="2mFBf1FOK3D" role="37wK5m">
+            <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.NextOccurence" resolve="NextOccurence" />
             <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="Actions" />
           </node>
           <node concept="Xl_RD" id="2mFBf1FOaJS" role="37wK5m">
@@ -744,8 +744,8 @@
       <node concept="3clFbS" id="5K4KrT2uIGK" role="3clF47">
         <node concept="XkiVB" id="5K4KrT2vbRO" role="3cqZAp">
           <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
-          <node concept="10M0yZ" id="2mFBf1FFalT" role="37wK5m">
-            <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.NextOccurence" resolve="NextOccurence" />
+          <node concept="10M0yZ" id="2mFBf1FOKby" role="37wK5m">
+            <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.PreviousOccurence" resolve="PreviousOccurence" />
             <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="Actions" />
           </node>
           <node concept="Xl_RD" id="2mFBf1FObrm" role="37wK5m">

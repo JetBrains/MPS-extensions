@@ -301,6 +301,9 @@
             <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.PreviousOccurence" resolve="PreviousOccurence" />
             <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="Actions" />
           </node>
+          <node concept="Xl_RD" id="2mFBf1FOaJS" role="37wK5m">
+            <property role="Xl_RC" value="Previous page" />
+          </node>
           <node concept="37vLTw" id="5K4KrT2vnH0" role="37wK5m">
             <ref role="3cqZAo" node="5K4KrT2tFqe" resolve="node" />
           </node>
@@ -745,6 +748,9 @@
             <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.NextOccurence" resolve="NextOccurence" />
             <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="Actions" />
           </node>
+          <node concept="Xl_RD" id="2mFBf1FObrm" role="37wK5m">
+            <property role="Xl_RC" value="Next page" />
+          </node>
           <node concept="37vLTw" id="5K4KrT2vcsW" role="37wK5m">
             <ref role="3cqZAo" node="5K4KrT2uIGW" resolve="node" />
           </node>
@@ -981,6 +987,14 @@
             <node concept="3clFbT" id="7CpFnBFQE0k" role="37wK5m" />
           </node>
         </node>
+        <node concept="3clFbF" id="2mFBf1FO9gi" role="3cqZAp">
+          <node concept="1rXfSq" id="2mFBf1FO9gg" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String)" resolve="setToolTipText" />
+            <node concept="37vLTw" id="2mFBf1FO9Pn" role="37wK5m">
+              <ref role="3cqZAo" node="2mFBf1FO7hG" resolve="tooltipText" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7CpFnBFQriT" role="3cqZAp">
           <node concept="1rXfSq" id="7CpFnBFQriR" role="3clFbG">
             <ref role="37wK5l" to="dxuu:~JComponent.putClientProperty(java.lang.Object,java.lang.Object)" resolve="putClientProperty" />
@@ -1036,6 +1050,10 @@
         <node concept="3uibUv" id="2mFBf1FF5ot" role="1tU5fm">
           <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
         </node>
+      </node>
+      <node concept="37vLTG" id="2mFBf1FO7hG" role="3clF46">
+        <property role="TrG5h" value="tooltipText" />
+        <node concept="17QB3L" id="2mFBf1FO8FR" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5K4KrT2v2Sk" role="3clF46">
         <property role="TrG5h" value="node" />

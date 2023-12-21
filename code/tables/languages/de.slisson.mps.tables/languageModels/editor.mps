@@ -619,6 +619,38 @@
           </node>
           <node concept="2iRfu4" id="m_yL2MI1Ty" role="2iSdaV" />
         </node>
+        <node concept="3EZMnI" id="7DPEkiwMUol" role="3EZMnx">
+          <node concept="VPM3Z" id="7DPEkiwMUom" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+          <node concept="VPXOz" id="7DPEkiwMUon" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="7DPEkiwMUoo" role="3EZMnx">
+            <property role="3F0ifm" value="row UI actions (experimental)" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F0A7n" id="7DPEkiwMUop" role="3EZMnx">
+            <ref role="1NtTu8" to="bnk3:7DPEkiwMTk_" resolve="rowUIActions" />
+          </node>
+          <node concept="2iRfu4" id="7DPEkiwMUoq" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="56WqtlUgrGm" role="3EZMnx">
+          <node concept="VPM3Z" id="56WqtlUgrGn" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+          <node concept="VPXOz" id="56WqtlUgrGo" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="56WqtlUgrGp" role="3EZMnx">
+            <property role="3F0ifm" value="column UI actions (experimental)" />
+            <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
+          </node>
+          <node concept="3F0A7n" id="56WqtlUgrGq" role="3EZMnx">
+            <ref role="1NtTu8" to="bnk3:56WqtlUgrAs" resolve="columnUIActions" />
+          </node>
+          <node concept="2iRfu4" id="56WqtlUgrGr" role="2iSdaV" />
+        </node>
         <node concept="VPM3Z" id="hEU$PEH" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>

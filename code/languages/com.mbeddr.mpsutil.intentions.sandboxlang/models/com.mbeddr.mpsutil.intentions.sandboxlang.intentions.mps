@@ -43,6 +43,9 @@
       </concept>
     </language>
     <language id="b92f861d-0184-446d-b88b-6dcf0e070241" name="com.mbeddr.mpsutil.intentions">
+      <concept id="278032644708909557" name="com.mbeddr.mpsutil.intentions.structure.ShowIntentionInReadyOnlyCell" flags="ng" index="2s3oj2">
+        <property id="278032644708944807" name="flag" index="2s3gUg" />
+      </concept>
       <concept id="5846558918537398687" name="com.mbeddr.mpsutil.intentions.structure.IntentionGroupAnnotation" flags="ng" index="1SWQZ3">
         <property id="5846558918537400330" name="label" index="1SWRpm" />
       </concept>
@@ -247,6 +250,88 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="2S6QgY" id="frLjuvPz1B">
+    <property role="TrG5h" value="ChildIntentionNotVisible" />
+    <ref role="2ZfgGC" to="iikq:5qf1oe_GcsF" resolve="IChild" />
+    <node concept="2S6ZIM" id="frLjuvPz1C" role="2ZfVej">
+      <node concept="3clFbS" id="frLjuvPz1D" role="2VODD2">
+        <node concept="3clFbF" id="frLjuvPz1E" role="3cqZAp">
+          <node concept="Xl_RD" id="frLjuvPz1F" role="3clFbG">
+            <property role="Xl_RC" value="Not Visible In Ready-Only Cell" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="frLjuvPz1G" role="2ZfgGD">
+      <node concept="3clFbS" id="frLjuvPz1H" role="2VODD2">
+        <node concept="3clFbF" id="frLjuvPz1I" role="3cqZAp">
+          <node concept="37vLTI" id="frLjuvPz1J" role="3clFbG">
+            <node concept="Xl_RD" id="frLjuvPz1K" role="37vLTx">
+              <property role="Xl_RC" value="Changed" />
+            </node>
+            <node concept="2OqwBi" id="frLjuvPz1L" role="37vLTJ">
+              <node concept="2OqwBi" id="frLjuvPz1M" role="2Oq$k0">
+                <node concept="2Sf5sV" id="frLjuvPz1N" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="frLjuvPz1O" role="2OqNvi">
+                  <node concept="1xMEDy" id="frLjuvPz1P" role="1xVPHs">
+                    <node concept="chp4Y" id="frLjuvPz1Q" role="ri$Ld">
+                      <ref role="cht4Q" to="iikq:5qf1oe_GcsA" resolve="Root" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrcHB" id="frLjuvPz1R" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2s3oj2" id="frLjuw0Btu" role="lGtFl">
+      <property role="2s3gUg" value="true" />
+    </node>
+  </node>
+  <node concept="2S6QgY" id="54O0Dxcsaou">
+    <property role="TrG5h" value="ChildIntentionNeverVisibleInReadyOnly" />
+    <ref role="2ZfgGC" to="iikq:5qf1oe_GcsF" resolve="IChild" />
+    <node concept="2S6ZIM" id="54O0Dxcsaov" role="2ZfVej">
+      <node concept="3clFbS" id="54O0Dxcsaow" role="2VODD2">
+        <node concept="3clFbF" id="54O0Dxcsaox" role="3cqZAp">
+          <node concept="Xl_RD" id="54O0Dxcsaoy" role="3clFbG">
+            <property role="Xl_RC" value="Not Visible At All In Read-Only Cells" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="54O0Dxcsaoz" role="2ZfgGD">
+      <node concept="3clFbS" id="54O0Dxcsao$" role="2VODD2">
+        <node concept="3clFbF" id="54O0Dxcsao_" role="3cqZAp">
+          <node concept="37vLTI" id="54O0DxcsaoA" role="3clFbG">
+            <node concept="Xl_RD" id="54O0DxcsaoB" role="37vLTx">
+              <property role="Xl_RC" value="Changed" />
+            </node>
+            <node concept="2OqwBi" id="54O0DxcsaoC" role="37vLTJ">
+              <node concept="2OqwBi" id="54O0DxcsaoD" role="2Oq$k0">
+                <node concept="2Sf5sV" id="54O0DxcsaoE" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="54O0DxcsaoF" role="2OqNvi">
+                  <node concept="1xMEDy" id="54O0DxcsaoG" role="1xVPHs">
+                    <node concept="chp4Y" id="54O0DxcsaoH" role="ri$Ld">
+                      <ref role="cht4Q" to="iikq:5qf1oe_GcsA" resolve="Root" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrcHB" id="54O0DxcsaoI" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2s3oj2" id="54O0DxcsaoJ" role="lGtFl" />
   </node>
 </model>
 

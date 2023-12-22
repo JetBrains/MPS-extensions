@@ -419,7 +419,7 @@
           <node concept="1Y3b0j" id="6IJAP0oQf0Q" role="YeSDq">
             <property role="2bfB8j" value="true" />
             <ref role="1Y3XeK" node="6IJAP0oQf_3" resolve="DoNothingAdditionalPainter" />
-            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
             <node concept="3Tm1VV" id="6IJAP0oQf0R" role="1B3o_S" />
             <node concept="3clFb_" id="6IJAP0oQf2H" role="jymVt">
               <property role="1EzhhJ" value="false" />
@@ -1291,7 +1291,7 @@
                       <node concept="3clFbS" id="58ijd26wXv" role="3clFbx">
                         <node concept="3cpWs6" id="58ijd26$Zg" role="3cqZAp">
                           <node concept="37vLTw" id="58ijd27jZM" role="3cqZAk">
-                            <ref role="3cqZAo" node="58ijd27jzH" resolve="inspector" />
+                            <ref role="3cqZAo" node="58ijd27jzH" resolve="inspectorComponent" />
                           </node>
                         </node>
                       </node>
@@ -1301,7 +1301,7 @@
                         </node>
                         <node concept="2OqwBi" id="58ijd26xTA" role="3uHU7B">
                           <node concept="37vLTw" id="58ijd27jzL" role="2Oq$k0">
-                            <ref role="3cqZAo" node="58ijd27jzH" resolve="inspector" />
+                            <ref role="3cqZAo" node="58ijd27jzH" resolve="inspectorComponent" />
                           </node>
                           <node concept="liA8E" id="58ijd26yLK" role="2OqNvi">
                             <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
@@ -1439,7 +1439,7 @@
                 <ref role="3cqZAo" node="7_uCKm_kbYL" resolve="project" />
               </node>
               <node concept="37vLTw" id="7_uCKm_kcU_" role="37wK5m">
-                <ref role="3cqZAo" node="7_uCKm_kcyG" resolve="hashCode" />
+                <ref role="3cqZAo" node="7_uCKm_kcyG" resolve="componentHashCode" />
               </node>
             </node>
           </node>

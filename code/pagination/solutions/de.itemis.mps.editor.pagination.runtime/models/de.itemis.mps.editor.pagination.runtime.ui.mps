@@ -302,7 +302,7 @@
           <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
           <node concept="10M0yZ" id="2mFBf1FOK3D" role="37wK5m">
             <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.NextOccurence" resolve="NextOccurence" />
-            <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="Actions" />
+            <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="AllIcons.Actions" />
           </node>
           <node concept="Xl_RD" id="2mFBf1FOaJS" role="37wK5m">
             <property role="Xl_RC" value="Previous page" />
@@ -639,7 +639,7 @@
           <ref role="37wK5l" node="5K4KrT2v2$W" resolve="ChangePageJButton" />
           <node concept="10M0yZ" id="2mFBf1FOKby" role="37wK5m">
             <ref role="3cqZAo" to="z2i8:~AllIcons$Actions.PreviousOccurence" resolve="PreviousOccurence" />
-            <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="Actions" />
+            <ref role="1PxDUh" to="z2i8:~AllIcons$Actions" resolve="AllIcons.Actions" />
           </node>
           <node concept="Xl_RD" id="2mFBf1FObrm" role="37wK5m">
             <property role="Xl_RC" value="Next page" />
@@ -875,8 +875,8 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="z60i:~Dimension.&lt;init&gt;(int,int)" resolve="Dimension" />
                 <node concept="10M0yZ" id="2mFBf1FFxwt" role="37wK5m">
-                  <ref role="1PxDUh" node="ZyH4gwmyfC" />
-                  <ref role="3cqZAo" node="2mFBf1FFjK8" />
+                  <ref role="1PxDUh" node="ZyH4gwmyfC" resolve="PaginationSearchPanel" />
+                  <ref role="3cqZAo" node="2mFBf1FFjK8" resolve="iconButtonWidth" />
                 </node>
                 <node concept="2OqwBi" id="2mFBf1FFzl5" role="37wK5m">
                   <node concept="1rXfSq" id="2mFBf1FFz1k" role="2Oq$k0">
@@ -1005,7 +1005,7 @@
               <ref role="3cqZAo" node="6nOR_0sdkTV" resolve="myUserObj" />
             </node>
             <node concept="37vLTw" id="6nOR_0sf$Yx" role="37vLTx">
-              <ref role="3cqZAo" node="6nOR_0sfzBL" resolve="userO" />
+              <ref role="3cqZAo" node="6nOR_0sfzBL" resolve="userObj" />
             </node>
           </node>
         </node>
@@ -1126,7 +1126,7 @@
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
                     <ref role="1Y3XeK" to="hyam:~ActionListener" resolve="ActionListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="2mFBf1FBTZV" role="1B3o_S" />
                     <node concept="3clFb_" id="2mFBf1FBU09" role="jymVt">
                       <property role="TrG5h" value="actionPerformed" />
@@ -1146,7 +1146,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="2mFBf1FBU0h" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
@@ -1242,7 +1242,7 @@
               <node concept="3clFbF" id="6nOR_0sduSE" role="3cqZAp">
                 <node concept="2OqwBi" id="6nOR_0sdyeu" role="3clFbG">
                   <node concept="37vLTw" id="6nOR_0sdG29" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6nOR_0sdG25" resolve="allChildren" />
+                    <ref role="3cqZAo" node="6nOR_0sdG25" resolve="allNodes" />
                   </node>
                   <node concept="2es0OD" id="6nOR_0sdzFQ" role="2OqNvi">
                     <node concept="1bVj0M" id="6nOR_0sdzFS" role="23t8la">
@@ -1522,7 +1522,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="416yvAkAtGv" role="2OqNvi">
-                        <ref role="37wK5l" node="ZyH4gwoipX" resolve="matchCase" />
+                        <ref role="37wK5l" node="ZyH4gwoipX" resolve="isMatchCase" />
                       </node>
                     </node>
                   </node>
@@ -1547,7 +1547,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="416yvAkAsIH" role="2OqNvi">
-                      <ref role="37wK5l" node="ZyH4gwoipX" resolve="matchCase" />
+                      <ref role="37wK5l" node="ZyH4gwoipX" resolve="isMatchCase" />
                     </node>
                   </node>
                 </node>
@@ -1563,7 +1563,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="416yvAkA8Dq" role="2OqNvi">
-                <ref role="37wK5l" node="416yvAk_Ghp" resolve="matchWords" />
+                <ref role="37wK5l" node="416yvAk_Ghp" resolve="isMatchWords" />
               </node>
             </node>
           </node>
@@ -1585,7 +1585,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="416yvAkArL1" role="2OqNvi">
-                    <ref role="37wK5l" node="ZyH4gwoipX" resolve="matchCase" />
+                    <ref role="37wK5l" node="ZyH4gwoipX" resolve="isMatchCase" />
                   </node>
                 </node>
               </node>
@@ -1601,7 +1601,7 @@
               </node>
             </node>
             <node concept="liA8E" id="416yvAkA76v" role="2OqNvi">
-              <ref role="37wK5l" node="ZyH4gwooa8" resolve="matchRegex" />
+              <ref role="37wK5l" node="ZyH4gwooa8" resolve="isMatchRegex" />
             </node>
           </node>
         </node>
@@ -1670,12 +1670,12 @@
       <property role="TrG5h" value="searchOptionState" />
       <node concept="3Tm6S6" id="7WXxMD8Zk67" role="1B3o_S" />
       <node concept="3uibUv" id="7WXxMD8ZoNx" role="1tU5fm">
-        <ref role="3uigEE" node="7WXxMD8XJH0" resolve="SearchOptionState" />
+        <ref role="3uigEE" node="7WXxMD8XJH0" resolve="PaginationSearchPanel.SearchOptionState" />
       </node>
       <node concept="2ShNRf" id="7WXxMD8ZrUG" role="33vP2m">
         <node concept="HV5vD" id="7WXxMD8ZBWb" role="2ShVmc">
           <property role="373rjd" value="true" />
-          <ref role="HV5vE" node="7WXxMD8XJH0" resolve="SearchOptionState" />
+          <ref role="HV5vE" node="7WXxMD8XJH0" resolve="PaginationSearchPanel.SearchOptionState" />
         </node>
       </node>
     </node>
@@ -1840,7 +1840,7 @@
               <ref role="3cqZAo" node="6nOR_0sjij3" resolve="myUserObject" />
             </node>
             <node concept="37vLTw" id="7WXxMD8UZG7" role="37vLTx">
-              <ref role="3cqZAo" node="7WXxMD8UTcN" resolve="userObjet" />
+              <ref role="3cqZAo" node="7WXxMD8UTcN" resolve="userObject" />
             </node>
           </node>
         </node>
@@ -1924,12 +1924,12 @@
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(javax.swing.Icon)" resolve="JButton" />
                 <node concept="10M0yZ" id="5Du0AriKs0A" role="37wK5m">
                   <ref role="3cqZAo" to="z2i8:~AllIcons$Chooser.Left" resolve="Left" />
-                  <ref role="1PxDUh" to="z2i8:~AllIcons$Chooser" resolve="Chooser" />
+                  <ref role="1PxDUh" to="z2i8:~AllIcons$Chooser" resolve="AllIcons.Chooser" />
                 </node>
               </node>
             </node>
             <node concept="37vLTw" id="3Pr_c30Bj42" role="37vLTJ">
-              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousButton" />
+              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousBtn" />
             </node>
           </node>
         </node>
@@ -1949,7 +1949,7 @@
         <node concept="3clFbF" id="5Du0AriJ$0V" role="3cqZAp">
           <node concept="2OqwBi" id="5Du0AriJ$0X" role="3clFbG">
             <node concept="37vLTw" id="5Du0AriJ$0Y" role="2Oq$k0">
-              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousButton" />
+              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousBtn" />
             </node>
             <node concept="liA8E" id="5Du0AriJ$0Z" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setPreferredSize(java.awt.Dimension)" resolve="setPreferredSize" />
@@ -1981,7 +1981,7 @@
         <node concept="3clFbF" id="6nOR_0s5_jG" role="3cqZAp">
           <node concept="2OqwBi" id="6nOR_0s5_jH" role="3clFbG">
             <node concept="37vLTw" id="6nOR_0s5_jI" role="2Oq$k0">
-              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousButton" />
+              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousBtn" />
             </node>
             <node concept="liA8E" id="6nOR_0s5_jJ" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setOpaque(boolean)" resolve="setOpaque" />
@@ -1992,7 +1992,7 @@
         <node concept="3clFbF" id="6nOR_0s5_jL" role="3cqZAp">
           <node concept="2OqwBi" id="6nOR_0s5_jM" role="3clFbG">
             <node concept="37vLTw" id="6nOR_0s5_jN" role="2Oq$k0">
-              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousButton" />
+              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousBtn" />
             </node>
             <node concept="liA8E" id="6nOR_0s5_jO" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~AbstractButton.addActionListener(java.awt.event.ActionListener)" resolve="addActionListener" />
@@ -2002,7 +2002,7 @@
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
                     <ref role="1Y3XeK" to="hyam:~ActionListener" resolve="ActionListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="6nOR_0s5_jS" role="1B3o_S" />
                     <node concept="3clFb_" id="6nOR_0s5_jT" role="jymVt">
                       <property role="TrG5h" value="actionPerformed" />
@@ -2049,7 +2049,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="6nOR_0s5_k3" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
@@ -2062,7 +2062,7 @@
           <node concept="1rXfSq" id="6nOR_0s5_k5" role="3clFbG">
             <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
             <node concept="37vLTw" id="3Pr_c30EUEB" role="37wK5m">
-              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousButton" />
+              <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousBtn" />
             </node>
           </node>
         </node>
@@ -2075,12 +2075,12 @@
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(javax.swing.Icon)" resolve="JButton" />
                 <node concept="10M0yZ" id="5Du0AriKAlD" role="37wK5m">
                   <ref role="3cqZAo" to="z2i8:~AllIcons$Chooser.Right" resolve="Right" />
-                  <ref role="1PxDUh" to="z2i8:~AllIcons$Chooser" resolve="Chooser" />
+                  <ref role="1PxDUh" to="z2i8:~AllIcons$Chooser" resolve="AllIcons.Chooser" />
                 </node>
               </node>
             </node>
             <node concept="37vLTw" id="3Pr_c30BSLD" role="37vLTJ">
-              <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextButton" />
+              <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextBtn" />
             </node>
           </node>
         </node>
@@ -2133,7 +2133,7 @@
         <node concept="3clFbF" id="5$hO0xBqq6$" role="3cqZAp">
           <node concept="2OqwBi" id="5$hO0xBqq6_" role="3clFbG">
             <node concept="37vLTw" id="5$hO0xBqq6A" role="2Oq$k0">
-              <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextButton" />
+              <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextBtn" />
             </node>
             <node concept="liA8E" id="5$hO0xBqq6B" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setOpaque(boolean)" resolve="setOpaque" />
@@ -2144,7 +2144,7 @@
         <node concept="3clFbF" id="5$hO0xBqq6D" role="3cqZAp">
           <node concept="2OqwBi" id="5$hO0xBqq6E" role="3clFbG">
             <node concept="37vLTw" id="5$hO0xBqq6F" role="2Oq$k0">
-              <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextButton" />
+              <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextBtn" />
             </node>
             <node concept="liA8E" id="5$hO0xBqq6G" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~AbstractButton.addActionListener(java.awt.event.ActionListener)" resolve="addActionListener" />
@@ -2154,7 +2154,7 @@
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
                     <ref role="1Y3XeK" to="hyam:~ActionListener" resolve="ActionListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="5$hO0xBqq6K" role="1B3o_S" />
                     <node concept="3clFb_" id="5$hO0xBqq6L" role="jymVt">
                       <property role="TrG5h" value="actionPerformed" />
@@ -2203,7 +2203,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="5$hO0xBqq74" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
@@ -2216,7 +2216,7 @@
           <node concept="1rXfSq" id="5$hO0xBqq76" role="3clFbG">
             <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
             <node concept="37vLTw" id="5$hO0xBqq77" role="37wK5m">
-              <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextButton" />
+              <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextBtn" />
             </node>
           </node>
         </node>
@@ -2229,7 +2229,7 @@
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(javax.swing.Icon)" resolve="JButton" />
                 <node concept="10M0yZ" id="2mFBf1FEOzS" role="37wK5m">
                   <ref role="3cqZAo" to="z2i8:~AllIcons$Vcs.Remove" resolve="Remove" />
-                  <ref role="1PxDUh" to="z2i8:~AllIcons$Vcs" resolve="Vcs" />
+                  <ref role="1PxDUh" to="z2i8:~AllIcons$Vcs" resolve="AllIcons.Vcs" />
                 </node>
               </node>
             </node>
@@ -2308,7 +2308,7 @@
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
                     <ref role="1Y3XeK" to="hyam:~ActionListener" resolve="ActionListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="6nOR_0s5Lxc" role="1B3o_S" />
                     <node concept="3clFb_" id="6nOR_0s5Lxd" role="jymVt">
                       <property role="TrG5h" value="actionPerformed" />
@@ -2359,7 +2359,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="6nOR_0s5Lxj" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
@@ -2444,7 +2444,7 @@
                         <node concept="3clFbF" id="7WXxMD8ZEtM" role="3cqZAp">
                           <node concept="2OqwBi" id="7WXxMD8ZFE5" role="3clFbG">
                             <node concept="37vLTw" id="7WXxMD8ZEtK" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7WXxMD8ZpiY" resolve="seachOptionState" />
+                              <ref role="3cqZAo" node="7WXxMD8ZpiY" resolve="searchOptionState" />
                             </node>
                             <node concept="liA8E" id="7WXxMD8ZIuq" role="2OqNvi">
                               <ref role="37wK5l" node="7WXxMD8Yvus" resolve="setMatchCase" />
@@ -2826,7 +2826,7 @@
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
                     <ref role="1Y3XeK" to="hyam:~FocusListener" resolve="FocusListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="2mFBf1FAoCQ" role="1B3o_S" />
                     <node concept="3clFb_" id="2mFBf1FAoD4" role="jymVt">
                       <property role="TrG5h" value="focusGained" />
@@ -2859,7 +2859,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="2mFBf1FAoDc" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                     <node concept="2tJIrI" id="2mFBf1FAoDd" role="jymVt" />
@@ -2875,7 +2875,7 @@
                       </node>
                       <node concept="3clFbS" id="2mFBf1FAoDk" role="3clF47" />
                       <node concept="2AHcQZ" id="2mFBf1FAoDm" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
@@ -2908,10 +2908,10 @@
                   <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
                 </node>
                 <node concept="37vLTw" id="3Pr_c30DwBY" role="3g7hyw">
-                  <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousButton" />
+                  <ref role="3cqZAo" node="3Pr_c30BDpK" resolve="previousBtn" />
                 </node>
                 <node concept="37vLTw" id="3Pr_c30Dz_S" role="3g7hyw">
-                  <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextButton" />
+                  <ref role="3cqZAo" node="3Pr_c30BYsA" resolve="nextBtn" />
                 </node>
                 <node concept="37vLTw" id="3Pr_c30D_XR" role="3g7hyw">
                   <ref role="3cqZAo" node="3Pr_c30Ckow" resolve="clearResultsBtn" />
@@ -3013,7 +3013,7 @@
       </node>
       <node concept="3Tm1VV" id="7WXxMD90X8R" role="1B3o_S" />
       <node concept="3uibUv" id="7WXxMD911s2" role="3clF45">
-        <ref role="3uigEE" node="7WXxMD8XJH0" resolve="SearchOptionState" />
+        <ref role="3uigEE" node="7WXxMD8XJH0" resolve="PaginationSearchPanel.SearchOptionState" />
       </node>
     </node>
     <node concept="3Tm1VV" id="ZyH4gwmyfD" role="1B3o_S" />
@@ -3058,7 +3058,7 @@
       <node concept="2ShNRf" id="6nOR_0sdTFq" role="33vP2m">
         <node concept="1pGfFk" id="6nOR_0sdUfz" role="2ShVmc">
           <property role="373rjd" value="true" />
-          <ref role="37wK5l" node="6nOR_0sdRS_" resolve="SearchResults" />
+          <ref role="37wK5l" node="6nOR_0sdRS_" resolve="PaginationSearchResultManager" />
         </node>
       </node>
       <node concept="3uibUv" id="6nOR_0sdTnP" role="1tU5fm">
@@ -4020,7 +4020,7 @@
               </node>
             </node>
             <node concept="liA8E" id="2mFBf1FAA0r" role="2OqNvi">
-              <ref role="37wK5l" node="2mFBf1F$Tkl" resolve="connectEditorCell" />
+              <ref role="37wK5l" node="2mFBf1F$Tkl" resolve="syncWithEditorCell" />
               <node concept="Xjq3P" id="2mFBf1FAB4r" role="37wK5m" />
             </node>
           </node>
@@ -4038,7 +4038,7 @@
                 <node concept="liA8E" id="3Pr_c316qlY" role="2OqNvi">
                   <ref role="37wK5l" to="z60i:~Component.removeKeyListener(java.awt.event.KeyListener)" resolve="removeKeyListener" />
                   <node concept="2GrUjf" id="3Pr_c316rmt" role="37wK5m">
-                    <ref role="2Gs0qQ" node="3Pr_c316o0M" resolve="keylistener" />
+                    <ref role="2Gs0qQ" node="3Pr_c316o0M" resolve="keyListener" />
                   </node>
                 </node>
               </node>
@@ -4137,7 +4137,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="3Pr_c30OvDa" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
   </node>

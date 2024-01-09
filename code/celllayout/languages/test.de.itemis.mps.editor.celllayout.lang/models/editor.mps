@@ -52,6 +52,8 @@
     <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
       <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
       <concept id="9000758320091481718" name="de.itemis.mps.editor.celllayout.structure.GridLayoutFlattenStyle" flags="lg" index="1QQdxR" />
+      <concept id="2728748097294410385" name="de.itemis.mps.editor.celllayout.structure.GrowXStyle" flags="lg" index="3T7XtY" />
+      <concept id="2728748097294412051" name="de.itemis.mps.editor.celllayout.structure.PushXStyle" flags="lg" index="3T7XNW" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -545,6 +547,8 @@
         <ref role="1NtTu8" to="ayyv:1pn4Qu08Obs" resolve="property1" />
       </node>
       <node concept="2iRkQZ" id="1pn4Qu08Ob6" role="2iSdaV" />
+      <node concept="3T7XNW" id="IT3nkH7wT0" role="3F10Kt" />
+      <node concept="3T7XtY" id="IT3nkH7wT5" role="3F10Kt" />
     </node>
   </node>
 </model>

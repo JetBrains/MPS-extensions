@@ -44,9 +44,7 @@ if (!project.hasProperty('nexusUsername')) {
 logger.info 'Repository username: {}', project.nexusUsername
 
 ext.dependencyRepositories = [
-        'https://artifacts.itemis.cloud/repository/maven-mps/',
-//        'https://projects.itemis.de/nexus/content/repositories/mbeddr',
-//        'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots',
+        'https://artifacts.itemis.cloud/repository/maven-mps/'
 ]
 // Dependency versions
 
@@ -141,7 +139,7 @@ configurations {
 }
 
 dependencies {
-    def modelixCoreVersion = "1.10.3"
+    def modelixCoreVersion = "2.1.9"
     modelApi("org.modelix:model-api:$modelixCoreVersion")
 }
 

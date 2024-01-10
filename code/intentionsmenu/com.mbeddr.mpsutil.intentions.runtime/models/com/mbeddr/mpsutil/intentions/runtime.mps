@@ -1818,33 +1818,25 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="3pwG8PSkQNH" role="3cqZAp">
-                <node concept="2OqwBi" id="3pwG8PSkUac" role="3clFbG">
-                  <node concept="37vLTw" id="3pwG8PSkUab" role="2Oq$k0">
+              <node concept="3clFbF" id="1DKEdPbwda0" role="3cqZAp">
+                <node concept="2OqwBi" id="1DKEdPbwfNR" role="3clFbG">
+                  <node concept="37vLTw" id="1DKEdPbwd9Y" role="2Oq$k0">
                     <ref role="3cqZAo" node="3pwG8PSkQMV" resolve="action" />
                   </node>
-                  <node concept="liA8E" id="3pwG8PSkUad" role="2OqNvi">
+                  <node concept="liA8E" id="1DKEdPbwhO4" role="2OqNvi">
                     <ref role="37wK5l" to="qkt:~AnAction.update(com.intellij.openapi.actionSystem.AnActionEvent)" resolve="update" />
-                    <node concept="2ShNRf" id="3pwG8PSkUae" role="37wK5m">
-                      <node concept="1pGfFk" id="3pwG8PSkUaf" role="2ShVmc">
-                        <ref role="37wK5l" to="qkt:~AnActionEvent.&lt;init&gt;(java.awt.event.InputEvent,com.intellij.openapi.actionSystem.DataContext,java.lang.String,com.intellij.openapi.actionSystem.Presentation,com.intellij.openapi.actionSystem.ActionManager,int)" resolve="AnActionEvent" />
-                        <node concept="10Nm6u" id="3pwG8PSkQNK" role="37wK5m" />
-                        <node concept="37vLTw" id="3pwG8PSkQNL" role="37wK5m">
-                          <ref role="3cqZAo" node="3pwG8PSkQN0" resolve="dataContext" />
-                        </node>
-                        <node concept="Xl_RD" id="3pwG8PSkQNM" role="37wK5m">
-                          <property role="Xl_RC" value="" />
-                        </node>
-                        <node concept="37vLTw" id="3pwG8PSkQNN" role="37wK5m">
-                          <ref role="3cqZAo" node="3pwG8PSkQNx" resolve="presentation" />
-                        </node>
-                        <node concept="2YIFZM" id="3pwG8PSkUai" role="37wK5m">
-                          <ref role="1Pybhc" to="qkt:~ActionManager" resolve="ActionManager" />
-                          <ref role="37wK5l" to="qkt:~ActionManager.getInstance()" resolve="getInstance" />
-                        </node>
-                        <node concept="3cmrfG" id="3pwG8PSkQNP" role="37wK5m">
-                          <property role="3cmrfH" value="0" />
-                        </node>
+                    <node concept="2YIFZM" id="1DKEdPbwnok" role="37wK5m">
+                      <ref role="37wK5l" to="qkt:~AnActionEvent.createFromAnAction(com.intellij.openapi.actionSystem.AnAction,java.awt.event.InputEvent,java.lang.String,com.intellij.openapi.actionSystem.DataContext)" resolve="createFromAnAction" />
+                      <ref role="1Pybhc" to="qkt:~AnActionEvent" resolve="AnActionEvent" />
+                      <node concept="37vLTw" id="1DKEdPbwqBy" role="37wK5m">
+                        <ref role="3cqZAo" node="3pwG8PSkQMV" resolve="action" />
+                      </node>
+                      <node concept="10Nm6u" id="1DKEdPbwwvS" role="37wK5m" />
+                      <node concept="Xl_RD" id="1DKEdPbw_0H" role="37wK5m">
+                        <property role="Xl_RC" value="" />
+                      </node>
+                      <node concept="37vLTw" id="1DKEdPbwGDJ" role="37wK5m">
+                        <ref role="3cqZAo" node="3pwG8PSkQN0" resolve="dataContext" />
                       </node>
                     </node>
                   </node>
@@ -4472,7 +4464,7 @@
         </node>
       </node>
       <node concept="1Z6Ecs" id="2iZPrFZnMN8" role="33vP2m">
-        <ref role="1Z6EpT" to="zddv:5qf1oe_$9mw" resolve="intentionsInReadOnlyCell" />
+        <ref role="1Z6EpT" to="zddv:5qf1oe_$9mw" resolve="intentions-in-read-only-cell" />
       </node>
     </node>
     <node concept="2tJIrI" id="5qf1oe_$8xF" role="jymVt" />
@@ -4516,7 +4508,7 @@
               <node concept="10Nm6u" id="5qf1oe_zNwG" role="3uHU7w" />
             </node>
             <node concept="1rXfSq" id="5qf1oe_zZ7k" role="3uHU7w">
-              <ref role="37wK5l" node="5qf1oe_zXNE" resolve="isCellsReadOnlyInEditor" />
+              <ref role="37wK5l" node="5qf1oe_zXNE" resolve="allowIntentionsInReadOnlyCells" />
               <node concept="37vLTw" id="5qf1oe_$h66" role="37wK5m">
                 <ref role="3cqZAo" node="5qf1oe_zNwt" resolve="editorComponent" />
               </node>
@@ -4574,7 +4566,7 @@
                   <node concept="10Nm6u" id="5qf1oe_zXO1" role="3uHU7w" />
                 </node>
                 <node concept="1rXfSq" id="5qf1oe_zXO2" role="3uHU7w">
-                  <ref role="37wK5l" node="5qf1oe_zyw2" resolve="isCellReadOnly" />
+                  <ref role="37wK5l" node="5qf1oe_zyw2" resolve="isAllowIntentionsInReadOnlyCell" />
                   <node concept="37vLTw" id="5qf1oe_zXO3" role="37wK5m">
                     <ref role="3cqZAo" node="5qf1oe_zXNU" resolve="cell" />
                   </node>
@@ -4607,7 +4599,7 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="5qf1oe_zyw5" role="1tU5fm">
-          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="jetbrains.mps.openapi.editor.cells.EditorCell" />
+          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
       </node>
       <node concept="3clFbS" id="5qf1oe_zyw6" role="3clF47">

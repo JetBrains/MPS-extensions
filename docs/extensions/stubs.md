@@ -2,6 +2,8 @@
 
 Stubs are Java libraries that can be used from MPS.
 
+!!! info "Some of the mentioned stubs on this page only exist in older versions of MPS-Extensions. They are now most likely located in the MPS.ThirdParty stub."
+
 ## Apache Commons
 
 This module contains stubs for the [Apache Commons](https://commons.apache.org/) Java library and [MigLayout](http://www.miglayout.com/).

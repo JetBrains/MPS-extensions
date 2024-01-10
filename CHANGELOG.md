@@ -7,25 +7,43 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ## December 2023
 
+### Fixed
+
+- de.itemis.editor.diagram: Further improvements to make the auto-layouter more stable.
+- de.itemis.editor.diagram: Tooltips for edge and vertex buttons work again.
+- de.itemis.editor.diagram: The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
+- The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
+
 ### Added
 
+- A new language `de.itemis.mps.statistics` was added that adds a new menu `MPS Statistics` to the `Tools`  menu. The containing action writes a file `dependencies.txt` to the root folder. It contains all the used dependencies of the current project. 
 - de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
+- de.slisson.mps.richtext: The shortcuts are now documented.
+- A new action `Copy Cell Reference` is available in the editor menu in `Language Debug` that creates a reference to the current select editor cell. It can be pasted into the MPS console to debug editor cells. It can be activated through ctrl/cmd+alt+c.
+- A new action `Copy Editor Component Reference` is available in the editor menu in `Language Debug` that creates a reference to the current editor component. It can be pasted into the MPS console to debug editor cells. To refer to the current opened editor component, use the expression `#currentEditorComponent` in the MPS console.
+- de.itemis.mps.editor.pagination: The ability to search was added.
 
 ### Fixed
 
-- The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
+- The performance of the language `de.itemis.mps.linenumbers` was improved.
+
+### Changed
+
+- de.slisson.mps.richtext: The code completion entries of word cells are now clearer and unnecessary entries were removed.
+- mpsutil.intentions: Intentions available in read-only cells are not available anymore when the annotation showIntentionInReadyOnlyCell is not added.
+- de.itemis.mps.editor.pagination: The UI was cleaned up.
 
 ## November 2023
+
+### Fixed
+
+- app.jar from the platform lib folder is not exported to platform_lib_app/app.jar anymore.
 
 ### Changed
 
 - mpsutil.modellisteners: listeners on interface concepts are now supported.
 - `@NotNull` annotations in the code are now checked at run time (the `javac2` compiler is used).
 - de.itemis.editor.diagram: Edge labels can now be annotated with the attribute editors of the edges. Previously they were floating in the diagram as external boxes. A new flag "use annotations from parent in label" is used to customize the behavior.
-
-### Fixed
-
-- app.jar from the platform lib folder is not exported to platform_lib_app/app.jar anymore.
 
 ### Added
 

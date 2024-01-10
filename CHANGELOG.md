@@ -21,14 +21,13 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 - de.slisson.mps.richtext: The shortcuts are now documented.
 - A new action `Copy Cell Reference` is available in the editor menu in `Language Debug` that creates a reference to the current select editor cell. It can be pasted into the MPS console to debug editor cells. It can be activated through ctrl/cmd+alt+c.
 - A new action `Copy Editor Component Reference` is available in the editor menu in `Language Debug` that creates a reference to the current editor component. It can be pasted into the MPS console to debug editor cells. To refer to the current opened editor component, use the expression `#currentEditorComponent` in the MPS console.
+- de.itemis.mps.editor.pagination: The ability to search was added.
 
 ### Changed
 
 - de.slisson.mps.richtext: The code completion entries of word cells are now clearer and unnecessary entries were removed.
-
-### Changed
-
 - mpsutil.intentions: Intentions available in read-only cells are not available anymore when the annotation showIntentionInReadyOnlyCell is not added.
+- de.itemis.mps.editor.pagination: The UI was cleaned up.
 
 ## November 2023
 

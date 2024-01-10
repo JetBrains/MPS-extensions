@@ -7894,8 +7894,8 @@
                 <node concept="YeOm9" id="14j$882ctUh" role="2ShVmc">
                   <node concept="1Y3b0j" id="14j$882ctUi" role="YeSDq">
                     <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" node="7XTw6OOTuT8" resolve="TargetComparator" />
-                    <ref role="37wK5l" node="7XTw6OOVqII" resolve="TargetComparator" />
+                    <ref role="1Y3XeK" node="7XTw6OOTuT8" resolve="MathEditorActions.TargetComparator" />
+                    <ref role="37wK5l" node="7XTw6OOVqII" resolve="MathEditorActions.TargetComparator" />
                     <node concept="3Tm1VV" id="14j$882ctUj" role="1B3o_S" />
                     <node concept="3clFb_" id="14j$882ctUk" role="jymVt">
                       <property role="1EzhhJ" value="false" />
@@ -8545,8 +8545,8 @@
                 <node concept="YeOm9" id="14j$8828v6r" role="2ShVmc">
                   <node concept="1Y3b0j" id="14j$8828v6s" role="YeSDq">
                     <property role="2bfB8j" value="true" />
-                    <ref role="1Y3XeK" node="7XTw6OOTuT8" resolve="TargetComparator" />
-                    <ref role="37wK5l" node="7XTw6OOVqII" resolve="TargetComparator" />
+                    <ref role="1Y3XeK" node="7XTw6OOTuT8" resolve="MathEditorActions.TargetComparator" />
+                    <ref role="37wK5l" node="7XTw6OOVqII" resolve="MathEditorActions.TargetComparator" />
                     <node concept="3Tm1VV" id="14j$8828v6t" role="1B3o_S" />
                     <node concept="3clFb_" id="14j$8828v6u" role="jymVt">
                       <property role="1EzhhJ" value="false" />

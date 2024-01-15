@@ -255,7 +255,7 @@ afterEvaluate {
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
-task resolved_diagram_dependencies(type: Sync) {
+task resolved_diagram_dependencies(type: Copy) {
     from configurations.diagram_lib
     into file('code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
 

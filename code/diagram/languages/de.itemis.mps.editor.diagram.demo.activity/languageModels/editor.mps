@@ -98,7 +98,9 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
-      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR">
+        <child id="7279578193766667846" name="addHints" index="78xua" />
+      </concept>
       <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
         <child id="1225898971709" name="getter" index="1Hhtcw" />
       </concept>
@@ -491,6 +493,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="2w$q5c" id="7MiULvSlzmm" role="78xua">
+          <node concept="2aJ2om" id="7MiULvSlzmn" role="2w$qW5">
+            <ref role="2$4xQ3" node="4XPshStfMm3" resolve="ActivityAsDiagram" />
           </node>
         </node>
       </node>

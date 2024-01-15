@@ -262,7 +262,6 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
-      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
         <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
       </concept>
@@ -2477,36 +2476,19 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1eOMI4" id="frLjuvZr4F" role="3uHU7w">
-                      <node concept="22lmx$" id="frLjuvY9S1" role="1eOMHV">
-                        <node concept="2OqwBi" id="frLjuvY9S2" role="3uHU7B">
-                          <node concept="2OqwBi" id="frLjuvY9S3" role="2Oq$k0">
-                            <node concept="37vLTw" id="frLjuvY9S4" role="2Oq$k0">
-                              <ref role="3cqZAo" node="frLjuvY9RE" resolve="intentionDeclaration" />
-                            </node>
-                            <node concept="3CFZ6_" id="frLjuvY9S5" role="2OqNvi">
-                              <node concept="3CFYIy" id="frLjuvY9S6" role="3CFYIz">
-                                <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3w_OXm" id="frLjuvY9S7" role="2OqNvi" />
+                    <node concept="2OqwBi" id="frLjuvY9S8" role="3uHU7w">
+                      <node concept="2OqwBi" id="frLjuvY9S9" role="2Oq$k0">
+                        <node concept="37vLTw" id="frLjuvY9Sa" role="2Oq$k0">
+                          <ref role="3cqZAo" node="frLjuvY9RE" resolve="intentionDeclaration" />
                         </node>
-                        <node concept="2OqwBi" id="frLjuvY9S8" role="3uHU7w">
-                          <node concept="2OqwBi" id="frLjuvY9S9" role="2Oq$k0">
-                            <node concept="37vLTw" id="frLjuvY9Sa" role="2Oq$k0">
-                              <ref role="3cqZAo" node="frLjuvY9RE" resolve="intentionDeclaration" />
-                            </node>
-                            <node concept="3CFZ6_" id="frLjuvY9Sb" role="2OqNvi">
-                              <node concept="3CFYIy" id="frLjuvY9Sc" role="3CFYIz">
-                                <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3TrcHB" id="frLjuvY9Sd" role="2OqNvi">
-                            <ref role="3TsBF5" to="tegv:frLjuvPGIB" resolve="flag" />
+                        <node concept="3CFZ6_" id="frLjuvY9Sb" role="2OqNvi">
+                          <node concept="3CFYIy" id="frLjuvY9Sc" role="3CFYIz">
+                            <ref role="3CFYIx" to="tegv:frLjuvP$7P" resolve="ShowIntentionInReadyOnlyCell" />
                           </node>
                         </node>
+                      </node>
+                      <node concept="3TrcHB" id="frLjuvY9Sd" role="2OqNvi">
+                        <ref role="3TsBF5" to="tegv:frLjuvPGIB" resolve="flag" />
                       </node>
                     </node>
                   </node>

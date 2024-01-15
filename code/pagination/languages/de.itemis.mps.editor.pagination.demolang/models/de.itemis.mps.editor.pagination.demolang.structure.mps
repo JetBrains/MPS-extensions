@@ -114,6 +114,9 @@
       <property role="20kJfa" value="r" />
       <ref role="20lvS9" node="2iSRtQtDrgE" resolve="ChildTest" />
     </node>
+    <node concept="PrWs8" id="1wtMaDEfeb" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 

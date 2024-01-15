@@ -1,69 +1,10 @@
-name: Merge and PR into next version
+name: PR to merge into the next version
 
 on:
-  workflow_call:
-    inputs:
-      from-branch:
-        required: true
-        type: string
-        description: source branch name, e.g. 'maintenance/mps20213'
-      from-version:
-        required: true
-        type: string
-        description: source version (human-readable), e.g. '2021.3'
-      to-branch:
-        required: true
-        type: string
-        description: destination branch name, e.g. 'maintenance/mps20222'
-      to-version:
-        required: true
-        type: string
-        description: destination version (human-readable), e.g. '2022.2'
+  push:
+    branches:
+      - 'maintenance/mps*'
 
 jobs:
-  merge-and-pr:
-    # only trigger if it was actually merged
-    if: github.event.pull_request.merged == true
-
-    runs-on: ubuntu-latest
-    steps:
-      # checkout the target branch
-      # Only fetch 100 commits, assuming that if the difference between branches is more than 100 commits then they
-      # probably won't be automergeable anyway.
-      - name: Checkout ${{ inputs.to-version }}
-        uses: actions/checkout@v3
-        with:
-          ref: ${{ inputs.to-branch }}
-          fetch-depth: 100
-
-      # actually merge from the previous branch
-      - name: Perform merge from ${{ inputs.from-version }} to ${{ inputs.to-version }}
-        run: |
-          # setup to allow to merge and commit
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          git fetch origin ${{ inputs.from-branch }} --depth=100
-
-          # actual merge operation
-          git merge --no-ff --message "Merge ${{ inputs.from-branch }}" origin/${{ inputs.from-branch }} -- || ( echo "Merge failed. Please merge manually!" ; exit 1 )
-
-      # actually merge from the previous branch
-      - name: Prepare environment variables for PR
-        run: |
-          NEW_TITLE='${{ github.event.pull_request.title }}'
-          NEW_TITLE="${NEW_TITLE% (* -> ${{ inputs.from-version }})} (${{ inputs.from-version }} -> ${{ inputs.to-version }})"
-
-          echo "NEW_TITLE=$NEW_TITLE" >> $GITHUB_ENV
-
-      # create a PR based on the merge
-      - name: Create PR for ${{ inputs.to-version }}
-        uses: peter-evans/create-pull-request@v5
-        with:
-          branch: 'merge/${{ inputs.to-branch }}'
-          commit-message: Merge ${{ inputs.from-branch }}
-          title: ${{ env.NEW_TITLE }}
-          body: |
-            This is an automatic PR which merges changes from `${{ inputs.from-branch }}` to `${{ inputs.to-branch }}`
-            
-            [Link to previous PR for `${{ inputs.from-branch }}`](${{ github.event.pull_request._links.html.href }})
+  create-pr:
+    uses: specificlanguages/cascading-merge/.github/workflows/workflow.yml@v1

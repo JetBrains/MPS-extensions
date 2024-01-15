@@ -14,7 +14,7 @@ import java.time.LocalDateTime
 
 
 wrapper {
-    gradleVersion '7.4.1'
+    gradleVersion '8.5'
     distributionType 'all'
 }
 
@@ -174,14 +174,43 @@ task copyModelApi() {
 
 // -----------------------------------------
 
-// Ant support
+
 configurations {
     ant_lib
+    diagram_lib
 }
 
 dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.9"
+
+    def elkVersion = "0.9.0"
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.29.0") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.35.0") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.36.0") {
+        transitive = false
+    }
 }
+
+configurations.diagram_lib.attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
 
 ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
     true
@@ -226,10 +255,27 @@ afterEvaluate {
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
+task resolved_diagram_dependencies(type: Sync) {
+    from configurations.diagram_lib
+    into file('code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.diagram_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
         'downloadJbr',
 		resolveMps,
+        resolved_diagram_dependencies,
         copyModelApi,
 ]) {
     script "$rootDir/scripts/build.xml"
@@ -284,13 +330,13 @@ dependencies {
 }
 
 task packageAllScripts(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions.allScripts'
+    archiveBaseName = 'de.itemis.mps.extensions.allScripts'
     from artifactsDir
     include 'de.itemis.mps.extensions.allScripts/**'
 }
 
 task packageExtensions(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions'
+    archiveBaseName = 'de.itemis.mps.extensions'
     from artifactsDir
     include 'de.itemis.mps.extensions/**'
 }

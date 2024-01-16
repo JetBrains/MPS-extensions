@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:17a5067a-3a81-4f86-b470-f5688a8af81d(de.itemis.mps.editor.celllayout.constraints)">
+<model ref="r:ab4bf323-79eb-4409-abf7-c3cc613fabf7(de.itemis.mps.debug.constraints)">
   <persistence version="9" />
   <languages>
+    <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />
+    <use id="ea3159bf-f48e-4720-bde2-86dba75f0d34" name="jetbrains.mps.lang.context.defs" version="0" />
+    <use id="e51810c5-7308-4642-bcb6-469e61b5dd18" name="jetbrains.mps.lang.constraints.msg.specification" version="0" />
+    <use id="134c38d4-e3af-4d9e-b069-1c7df0a4005d" name="jetbrains.mps.lang.constraints.rules.skeleton" version="0" />
+    <use id="b3551702-269c-4f05-ba61-58060cef4292" name="jetbrains.mps.lang.rulesAndMessages" version="0" />
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="3ad5badc-1d9c-461c-b7b1-fa2fcd0a0ae7" name="jetbrains.mps.lang.context" version="0" />
+    <use id="ad93155d-79b2-4759-b10c-55123e763903" name="jetbrains.mps.lang.messages" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
+    <import index="y93e" ref="r:64204879-20e9-45e0-aa9c-21e16ba032f2(de.itemis.mps.debug.structure)" />
     <import index="eynw" ref="r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)" />
-    <import index="pvux" ref="r:bb8c05bc-4758-44fe-b1ab-f9faa5a73d31(de.itemis.mps.editor.celllayout.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -53,33 +63,9 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="7_uCKm_r6CX">
-    <property role="3GE5qa" value="debug" />
-    <ref role="1M2myG" to="pvux:7_uCKm_ncp6" resolve="EditorComponentReference" />
-    <node concept="9SQb8" id="7_uCKm_r6EA" role="9SGkC">
-      <node concept="3clFbS" id="7_uCKm_r6EB" role="2VODD2">
-        <node concept="3clFbF" id="7_uCKm_r78a" role="3cqZAp">
-          <node concept="2OqwBi" id="7_uCKm_r83K" role="3clFbG">
-            <node concept="2OqwBi" id="7_uCKm_r7eG" role="2Oq$k0">
-              <node concept="nLn13" id="7_uCKm_r789" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="7_uCKm_r7p5" role="2OqNvi">
-                <node concept="1xMEDy" id="7_uCKm_r7p7" role="1xVPHs">
-                  <node concept="chp4Y" id="7_uCKm_r7wH" role="ri$Ld">
-                    <ref role="cht4Q" to="eynw:5WvH$QO98uv" resolve="Command" />
-                  </node>
-                </node>
-                <node concept="1xIGOp" id="7_uCKm_r8uo" role="1xVPHs" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="7_uCKm_r8nn" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="7_uCKm_r8P7">
     <property role="3GE5qa" value="debug" />
-    <ref role="1M2myG" to="pvux:7_uCKm_gkEm" resolve="CellReference" />
+    <ref role="1M2myG" to="y93e:7_uCKm_gkEm" resolve="CellReference" />
     <node concept="9SQb8" id="7_uCKm_r8QK" role="9SGkC">
       <node concept="3clFbS" id="7_uCKm_r8QL" role="2VODD2">
         <node concept="3clFbF" id="7_uCKm_r8S3" role="3cqZAp">
@@ -96,6 +82,30 @@
               </node>
             </node>
             <node concept="3x8VRR" id="7_uCKm_r8Sc" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7_uCKm_r6CX">
+    <property role="3GE5qa" value="debug" />
+    <ref role="1M2myG" to="y93e:7_uCKm_ncp6" resolve="EditorComponentReference" />
+    <node concept="9SQb8" id="7_uCKm_r6EA" role="9SGkC">
+      <node concept="3clFbS" id="7_uCKm_r6EB" role="2VODD2">
+        <node concept="3clFbF" id="7_uCKm_r78a" role="3cqZAp">
+          <node concept="2OqwBi" id="7_uCKm_r83K" role="3clFbG">
+            <node concept="2OqwBi" id="7_uCKm_r7eG" role="2Oq$k0">
+              <node concept="nLn13" id="7_uCKm_r789" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="7_uCKm_r7p5" role="2OqNvi">
+                <node concept="1xMEDy" id="7_uCKm_r7p7" role="1xVPHs">
+                  <node concept="chp4Y" id="7_uCKm_r7wH" role="ri$Ld">
+                    <ref role="cht4Q" to="eynw:5WvH$QO98uv" resolve="Command" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="7_uCKm_r8uo" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="7_uCKm_r8nn" role="2OqNvi" />
           </node>
         </node>
       </node>

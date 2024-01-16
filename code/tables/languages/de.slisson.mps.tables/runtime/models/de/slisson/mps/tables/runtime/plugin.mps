@@ -5,8 +5,8 @@
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -19,8 +19,8 @@
     <import index="hm5v" ref="r:3d8b4628-659e-4af1-a607-3cc893005b62(de.slisson.mps.tables.runtime.cells)" />
     <import index="9p8b" ref="r:2a738fcb-23b4-4d1d-9f52-870528559e28(de.slisson.mps.tables.runtime.selection)" />
     <import index="6tp1" ref="r:5c0390a8-12e2-407a-ba93-793107153436(de.itemis.mps.selection.runtime.mouse)" />
-    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="fnpx" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.notification(MPS.IDEA/)" />
+    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
     <import index="z2i8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.icons(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="90d" ref="r:421d64ed-8024-497f-aeab-8bddeb389dd2(jetbrains.mps.lang.extension.methods)" implicit="true" />
@@ -610,86 +610,6 @@
       </node>
     </node>
   </node>
-  <node concept="sE7Ow" id="7IUya7c4kr_">
-    <property role="TrG5h" value="DeleteTableRow" />
-    <property role="2uzpH1" value="Delete Table Row" />
-    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
-    <property role="3GE5qa" value="actions" />
-    <node concept="tnohg" id="7IUya7c4krA" role="tncku">
-      <node concept="3clFbS" id="7IUya7c4krB" role="2VODD2">
-        <node concept="3clFbF" id="7IUya7cjmzQ" role="3cqZAp">
-          <node concept="2OqwBi" id="7IUya7cjmzS" role="3clFbG">
-            <node concept="2ShNRf" id="7IUya7cjmzT" role="2Oq$k0">
-              <node concept="1pGfFk" id="7IUya7cjmzU" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:7IUya7ciSfI" resolve="DeleteAction" />
-                <node concept="2OqwBi" id="7IUya7cjmzV" role="37wK5m">
-                  <node concept="2WthIp" id="7IUya7cjmzW" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="7IUya7cjmzX" role="2OqNvi">
-                    <ref role="2WH_rO" node="7IUya7c4kto" resolve="cell" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="7IUya7cjmzY" role="2OqNvi">
-              <ref role="37wK5l" to="hm5v:40oIQyHH57H" resolve="execute" />
-              <node concept="2OqwBi" id="7IUya7cjn5Q" role="37wK5m">
-                <node concept="2WthIp" id="7IUya7cjn5T" role="2Oq$k0" />
-                <node concept="1DTwFV" id="7IUya7cjn5V" role="2OqNvi">
-                  <ref role="2WH_rO" node="7IUya7cjaQn" resolve="context" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1DS2jV" id="7IUya7c4kto" role="1NuT2Z">
-      <property role="TrG5h" value="cell" />
-      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CELL" resolve="EDITOR_CELL" />
-      <node concept="1oajcY" id="7IUya7c4ktp" role="1oa70y" />
-    </node>
-    <node concept="1DS2jV" id="7IUya7cjaQn" role="1NuT2Z">
-      <property role="TrG5h" value="context" />
-      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
-      <node concept="1oajcY" id="7IUya7cjaQo" role="1oa70y" />
-    </node>
-    <node concept="2ScWuX" id="7IUya7c4nF3" role="tmbBb">
-      <node concept="3clFbS" id="7IUya7c4nF4" role="2VODD2">
-        <node concept="3clFbF" id="7IUya7cj8SO" role="3cqZAp">
-          <node concept="2OqwBi" id="7IUya7cj9_a" role="3clFbG">
-            <node concept="2ShNRf" id="7IUya7cj8SK" role="2Oq$k0">
-              <node concept="1pGfFk" id="7IUya7cj94f" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:7IUya7ciSfI" resolve="DeleteAction" />
-                <node concept="2OqwBi" id="7IUya7cj99U" role="37wK5m">
-                  <node concept="2WthIp" id="7IUya7cj99X" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="7IUya7cj99Z" role="2OqNvi">
-                    <ref role="2WH_rO" node="7IUya7c4kto" resolve="cell" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="7IUya7cja2q" role="2OqNvi">
-              <ref role="37wK5l" to="hm5v:7IUya7cjexf" resolve="canExecute" />
-              <node concept="2OqwBi" id="7IUya7cjb3p" role="37wK5m">
-                <node concept="2WthIp" id="7IUya7cjb3s" role="2Oq$k0" />
-                <node concept="1DTwFV" id="7IUya7cjb3u" role="2OqNvi">
-                  <ref role="2WH_rO" node="7IUya7cjaQn" resolve="context" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1QGGSu" id="506gpRRkycw" role="3Uehp1">
-      <node concept="10M0yZ" id="506gpRRl6rv" role="3xaMm5">
-        <ref role="3cqZAo" to="z2i8:~AllIcons$Vcs.Remove" resolve="Remove" />
-        <ref role="1PxDUh" to="z2i8:~AllIcons$Vcs" resolve="Vcs" />
-      </node>
-    </node>
-  </node>
   <node concept="tC5Ba" id="7IUya7cdgXZ">
     <property role="TrG5h" value="TableActions" />
     <property role="3GE5qa" value="actions" />
@@ -728,7 +648,7 @@
         </node>
         <node concept="2JFkCU" id="6R0q0mZQNaK" role="3cqZAp">
           <node concept="tCFHf" id="6R0q0mZQNaL" role="2JFLmv">
-            <ref role="tCJdB" node="6R0q0mZQKWi" resolve="DeleteColumn" />
+            <ref role="tCJdB" node="6R0q0mZQKWi" resolve="DeleteTableColumn" />
           </node>
         </node>
         <node concept="2JFkCU" id="F5PM1gbFgf" role="3cqZAp">
@@ -749,7 +669,7 @@
             <node concept="2ShNRf" id="7IUya7cjq3c" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjq3d" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="InsertAction" />
+                <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="TableActions.InsertRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjq3e" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjq3f" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjq3g" role="2OqNvi">
@@ -791,7 +711,7 @@
             <node concept="2ShNRf" id="7IUya7cjo98" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjon5" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="InsertAction" />
+                <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="TableActions.InsertRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjoA_" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjoAC" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjoAE" role="2OqNvi">
@@ -832,7 +752,7 @@
             <node concept="2ShNRf" id="7IUya7cjqna" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjqnb" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="InsertAction" />
+                <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="TableActions.InsertRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjqnc" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjqnd" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjqne" role="2OqNvi">
@@ -872,7 +792,7 @@
             <node concept="2ShNRf" id="7IUya7cjqns" role="2Oq$k0">
               <node concept="1pGfFk" id="7IUya7cjqnt" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="InsertAction" />
+                <ref role="37wK5l" to="hm5v:7IUya7cfM4j" resolve="TableActions.InsertRowAction" />
                 <node concept="2OqwBi" id="7IUya7cjqnu" role="37wK5m">
                   <node concept="2WthIp" id="7IUya7cjqnv" role="2Oq$k0" />
                   <node concept="1DTwFV" id="7IUya7cjqnw" role="2OqNvi">
@@ -899,85 +819,6 @@
       <property role="1iqoE4" value="${module}/icons/insertRowBelow.svg" />
     </node>
   </node>
-  <node concept="sE7Ow" id="506gpRRl7AP">
-    <property role="TrG5h" value="InsertTableColumnAfter" />
-    <property role="2uzpH1" value="Insert a New Column After This Column" />
-    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
-    <property role="3GE5qa" value="actions" />
-    <node concept="tnohg" id="506gpRRl7AQ" role="tncku">
-      <node concept="3clFbS" id="506gpRRl7AR" role="2VODD2">
-        <node concept="3clFbF" id="6R0q0mZqoFv" role="3cqZAp">
-          <node concept="2OqwBi" id="6R0q0mZqoFw" role="3clFbG">
-            <node concept="2ShNRf" id="6R0q0mZqoFx" role="2Oq$k0">
-              <node concept="1pGfFk" id="6R0q0mZqoFy" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:6R0q0mZq1YX" resolve="InsertColumnAction" />
-                <node concept="2OqwBi" id="6R0q0mZqoFz" role="37wK5m">
-                  <node concept="2WthIp" id="6R0q0mZqoF$" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="6R0q0mZqoF_" role="2OqNvi">
-                    <ref role="2WH_rO" node="506gpRRl7B4" resolve="cell" />
-                  </node>
-                </node>
-                <node concept="3clFbT" id="6R0q0mZqoFA" role="37wK5m" />
-              </node>
-            </node>
-            <node concept="liA8E" id="6R0q0mZqoFB" role="2OqNvi">
-              <ref role="37wK5l" to="hm5v:6R0q0mZq0cq" resolve="execute" />
-              <node concept="2OqwBi" id="6R0q0mZqoFC" role="37wK5m">
-                <node concept="2WthIp" id="6R0q0mZqoFD" role="2Oq$k0" />
-                <node concept="1DTwFV" id="6R0q0mZqoFE" role="2OqNvi">
-                  <ref role="2WH_rO" node="506gpRRl7B6" resolve="context" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1DS2jV" id="506gpRRl7B4" role="1NuT2Z">
-      <property role="TrG5h" value="cell" />
-      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CELL" resolve="EDITOR_CELL" />
-      <node concept="1oajcY" id="506gpRRl7B5" role="1oa70y" />
-    </node>
-    <node concept="1DS2jV" id="506gpRRl7B6" role="1NuT2Z">
-      <property role="TrG5h" value="context" />
-      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
-      <node concept="1oajcY" id="506gpRRl7B7" role="1oa70y" />
-    </node>
-    <node concept="2ScWuX" id="506gpRRl7B8" role="tmbBb">
-      <node concept="3clFbS" id="506gpRRl7B9" role="2VODD2">
-        <node concept="3clFbF" id="6R0q0mZqnWe" role="3cqZAp">
-          <node concept="2OqwBi" id="6R0q0mZqnWf" role="3clFbG">
-            <node concept="2ShNRf" id="6R0q0mZqnWg" role="2Oq$k0">
-              <node concept="1pGfFk" id="6R0q0mZqnWh" role="2ShVmc">
-                <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:6R0q0mZq1YX" resolve="InsertColumnAction" />
-                <node concept="2OqwBi" id="6R0q0mZqnWi" role="37wK5m">
-                  <node concept="2WthIp" id="6R0q0mZqnWj" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="6R0q0mZqnWk" role="2OqNvi">
-                    <ref role="2WH_rO" node="506gpRRl7B4" resolve="cell" />
-                  </node>
-                </node>
-                <node concept="3clFbT" id="6R0q0mZqnWl" role="37wK5m" />
-              </node>
-            </node>
-            <node concept="liA8E" id="6R0q0mZqnWm" role="2OqNvi">
-              <ref role="37wK5l" to="hm5v:6R0q0mZqjgY" resolve="canExecute" />
-              <node concept="2OqwBi" id="6R0q0mZqnWn" role="37wK5m">
-                <node concept="2WthIp" id="6R0q0mZqnWo" role="2Oq$k0" />
-                <node concept="1DTwFV" id="6R0q0mZqnWp" role="2OqNvi">
-                  <ref role="2WH_rO" node="506gpRRl7B6" resolve="context" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1QGGSu" id="506gpRRl7Bm" role="3Uehp1">
-      <property role="1iqoE4" value="${module}/icons/insertColumnRight.svg" />
-    </node>
-  </node>
   <node concept="sE7Ow" id="506gpRRl7Bn">
     <property role="TrG5h" value="InsertTableColumnBefore" />
     <property role="2uzpH1" value="Insert a New Column Before This Column" />
@@ -990,7 +831,7 @@
             <node concept="2ShNRf" id="6R0q0mZqnw4" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZqnw5" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:6R0q0mZq1YX" resolve="InsertColumnAction" />
+                <ref role="37wK5l" to="hm5v:6R0q0mZq1YX" resolve="TableActions.InsertColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZqnw6" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZqnw7" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZqnw8" role="2OqNvi">
@@ -1032,7 +873,7 @@
             <node concept="2ShNRf" id="6R0q0mZqmnL" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZqmR9" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:6R0q0mZq1YX" resolve="InsertColumnAction" />
+                <ref role="37wK5l" to="hm5v:6R0q0mZq1YX" resolve="TableActions.InsertColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZqn0H" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZqn0K" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZqn0M" role="2OqNvi">
@@ -1061,6 +902,85 @@
       <property role="1iqoE4" value="${module}/icons/insertColumnLeft.svg" />
     </node>
   </node>
+  <node concept="sE7Ow" id="506gpRRl7AP">
+    <property role="TrG5h" value="InsertTableColumnAfter" />
+    <property role="2uzpH1" value="Insert a New Column After This Column" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
+    <property role="3GE5qa" value="actions" />
+    <node concept="tnohg" id="506gpRRl7AQ" role="tncku">
+      <node concept="3clFbS" id="506gpRRl7AR" role="2VODD2">
+        <node concept="3clFbF" id="6R0q0mZqoFv" role="3cqZAp">
+          <node concept="2OqwBi" id="6R0q0mZqoFw" role="3clFbG">
+            <node concept="2ShNRf" id="6R0q0mZqoFx" role="2Oq$k0">
+              <node concept="1pGfFk" id="6R0q0mZqoFy" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="hm5v:6R0q0mZq1YX" resolve="TableActions.InsertColumnAction" />
+                <node concept="2OqwBi" id="6R0q0mZqoFz" role="37wK5m">
+                  <node concept="2WthIp" id="6R0q0mZqoF$" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="6R0q0mZqoF_" role="2OqNvi">
+                    <ref role="2WH_rO" node="506gpRRl7B4" resolve="cell" />
+                  </node>
+                </node>
+                <node concept="3clFbT" id="6R0q0mZqoFA" role="37wK5m" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6R0q0mZqoFB" role="2OqNvi">
+              <ref role="37wK5l" to="hm5v:6R0q0mZq0cq" resolve="execute" />
+              <node concept="2OqwBi" id="6R0q0mZqoFC" role="37wK5m">
+                <node concept="2WthIp" id="6R0q0mZqoFD" role="2Oq$k0" />
+                <node concept="1DTwFV" id="6R0q0mZqoFE" role="2OqNvi">
+                  <ref role="2WH_rO" node="506gpRRl7B6" resolve="context" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DS2jV" id="506gpRRl7B4" role="1NuT2Z">
+      <property role="TrG5h" value="cell" />
+      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CELL" resolve="EDITOR_CELL" />
+      <node concept="1oajcY" id="506gpRRl7B5" role="1oa70y" />
+    </node>
+    <node concept="1DS2jV" id="506gpRRl7B6" role="1NuT2Z">
+      <property role="TrG5h" value="context" />
+      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
+      <node concept="1oajcY" id="506gpRRl7B7" role="1oa70y" />
+    </node>
+    <node concept="2ScWuX" id="506gpRRl7B8" role="tmbBb">
+      <node concept="3clFbS" id="506gpRRl7B9" role="2VODD2">
+        <node concept="3clFbF" id="6R0q0mZqnWe" role="3cqZAp">
+          <node concept="2OqwBi" id="6R0q0mZqnWf" role="3clFbG">
+            <node concept="2ShNRf" id="6R0q0mZqnWg" role="2Oq$k0">
+              <node concept="1pGfFk" id="6R0q0mZqnWh" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="hm5v:6R0q0mZq1YX" resolve="TableActions.InsertColumnAction" />
+                <node concept="2OqwBi" id="6R0q0mZqnWi" role="37wK5m">
+                  <node concept="2WthIp" id="6R0q0mZqnWj" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="6R0q0mZqnWk" role="2OqNvi">
+                    <ref role="2WH_rO" node="506gpRRl7B4" resolve="cell" />
+                  </node>
+                </node>
+                <node concept="3clFbT" id="6R0q0mZqnWl" role="37wK5m" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6R0q0mZqnWm" role="2OqNvi">
+              <ref role="37wK5l" to="hm5v:6R0q0mZqjgY" resolve="canExecute" />
+              <node concept="2OqwBi" id="6R0q0mZqnWn" role="37wK5m">
+                <node concept="2WthIp" id="6R0q0mZqnWo" role="2Oq$k0" />
+                <node concept="1DTwFV" id="6R0q0mZqnWp" role="2OqNvi">
+                  <ref role="2WH_rO" node="506gpRRl7B6" resolve="context" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1QGGSu" id="506gpRRl7Bm" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/insertColumnRight.svg" />
+    </node>
+  </node>
   <node concept="sE7Ow" id="6R0q0mZQKWi">
     <property role="TrG5h" value="DeleteTableColumn" />
     <property role="2uzpH1" value="Delete Table Column" />
@@ -1073,7 +993,7 @@
             <node concept="2ShNRf" id="6R0q0mZS8fb" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZS8fc" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:6R0q0mZRHmo" resolve="DeleteColumnAction" />
+                <ref role="37wK5l" to="hm5v:6R0q0mZRHmo" resolve="TableActions.DeleteColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZS8fd" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZS8fe" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZS8ff" role="2OqNvi">
@@ -1112,7 +1032,7 @@
             <node concept="2ShNRf" id="6R0q0mZS75M" role="2Oq$k0">
               <node concept="1pGfFk" id="6R0q0mZS7gf" role="2ShVmc">
                 <property role="373rjd" value="true" />
-                <ref role="37wK5l" to="hm5v:6R0q0mZRHmo" resolve="DeleteColumnAction" />
+                <ref role="37wK5l" to="hm5v:6R0q0mZRHmo" resolve="TableActions.DeleteColumnAction" />
                 <node concept="2OqwBi" id="6R0q0mZS7no" role="37wK5m">
                   <node concept="2WthIp" id="6R0q0mZS7nr" role="2Oq$k0" />
                   <node concept="1DTwFV" id="6R0q0mZS7nt" role="2OqNvi">
@@ -1137,7 +1057,87 @@
     <node concept="1QGGSu" id="6R0q0mZQKWL" role="3Uehp1">
       <node concept="10M0yZ" id="6R0q0mZSZL2" role="3xaMm5">
         <ref role="3cqZAo" to="z2i8:~AllIcons$General.Remove" resolve="Remove" />
-        <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="General" />
+        <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="7IUya7c4kr_">
+    <property role="TrG5h" value="DeleteTableRow" />
+    <property role="2uzpH1" value="Delete Table Row" />
+    <property role="2YLI8m" value="6u2MFnph2yk/editorCommand" />
+    <property role="3GE5qa" value="actions" />
+    <node concept="tnohg" id="7IUya7c4krA" role="tncku">
+      <node concept="3clFbS" id="7IUya7c4krB" role="2VODD2">
+        <node concept="3clFbF" id="7IUya7cjmzQ" role="3cqZAp">
+          <node concept="2OqwBi" id="7IUya7cjmzS" role="3clFbG">
+            <node concept="2ShNRf" id="7IUya7cjmzT" role="2Oq$k0">
+              <node concept="1pGfFk" id="7IUya7cjmzU" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="hm5v:7IUya7ciSfI" resolve="TableActions.DeleteRowAction" />
+                <node concept="2OqwBi" id="7IUya7cjmzV" role="37wK5m">
+                  <node concept="2WthIp" id="7IUya7cjmzW" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="7IUya7cjmzX" role="2OqNvi">
+                    <ref role="2WH_rO" node="7IUya7c4kto" resolve="cell" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="7IUya7cjmzY" role="2OqNvi">
+              <ref role="37wK5l" to="hm5v:40oIQyHH57H" resolve="execute" />
+              <node concept="2OqwBi" id="7IUya7cjn5Q" role="37wK5m">
+                <node concept="2WthIp" id="7IUya7cjn5T" role="2Oq$k0" />
+                <node concept="1DTwFV" id="7IUya7cjn5V" role="2OqNvi">
+                  <ref role="2WH_rO" node="7IUya7cjaQn" resolve="context" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DS2jV" id="7IUya7c4kto" role="1NuT2Z">
+      <property role="TrG5h" value="cell" />
+      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CELL" resolve="EDITOR_CELL" />
+      <node concept="1oajcY" id="7IUya7c4ktp" role="1oa70y" />
+    </node>
+    <node concept="1DS2jV" id="7IUya7cjaQn" role="1NuT2Z">
+      <property role="TrG5h" value="context" />
+      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
+      <node concept="1oajcY" id="7IUya7cjaQo" role="1oa70y" />
+    </node>
+    <node concept="2ScWuX" id="7IUya7c4nF3" role="tmbBb">
+      <node concept="3clFbS" id="7IUya7c4nF4" role="2VODD2">
+        <node concept="3clFbF" id="7IUya7cj8SO" role="3cqZAp">
+          <node concept="2OqwBi" id="7IUya7cj9_a" role="3clFbG">
+            <node concept="2ShNRf" id="7IUya7cj8SK" role="2Oq$k0">
+              <node concept="1pGfFk" id="7IUya7cj94f" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="hm5v:7IUya7ciSfI" resolve="TableActions.DeleteRowAction" />
+                <node concept="2OqwBi" id="7IUya7cj99U" role="37wK5m">
+                  <node concept="2WthIp" id="7IUya7cj99X" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="7IUya7cj99Z" role="2OqNvi">
+                    <ref role="2WH_rO" node="7IUya7c4kto" resolve="cell" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="7IUya7cja2q" role="2OqNvi">
+              <ref role="37wK5l" to="hm5v:7IUya7cjexf" resolve="canExecute" />
+              <node concept="2OqwBi" id="7IUya7cjb3p" role="37wK5m">
+                <node concept="2WthIp" id="7IUya7cjb3s" role="2Oq$k0" />
+                <node concept="1DTwFV" id="7IUya7cjb3u" role="2OqNvi">
+                  <ref role="2WH_rO" node="7IUya7cjaQn" resolve="context" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1QGGSu" id="506gpRRkycw" role="3Uehp1">
+      <node concept="10M0yZ" id="506gpRRl6rv" role="3xaMm5">
+        <ref role="3cqZAo" to="z2i8:~AllIcons$Vcs.Remove" resolve="Remove" />
+        <ref role="1PxDUh" to="z2i8:~AllIcons$Vcs" resolve="AllIcons.Vcs" />
       </node>
     </node>
   </node>

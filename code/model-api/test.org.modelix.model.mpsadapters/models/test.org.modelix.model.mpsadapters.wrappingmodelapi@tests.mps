@@ -2,7 +2,7 @@
 <model ref="r:8098c403-cec5-4660-ade2-ae13ea8b4d5c(test.org.modelix.model.mpsadapters.wrappingmodelapi@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
@@ -29,6 +29,7 @@
       </concept>
       <concept id="1225467090849" name="jetbrains.mps.lang.test.structure.ProjectExpression" flags="nn" index="1jxXqW" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1216993439383" name="methods" index="1qtyYc" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -223,6 +224,7 @@
   </node>
   <node concept="1lH9Xt" id="7g5FWGK2hei">
     <property role="TrG5h" value="JavaModuleFacetAsNode" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="7g5FWGK2jgD" role="1SL9yI">
       <property role="TrG5h" value="generated" />
       <node concept="3cqZAl" id="7g5FWGK2jgE" role="3clF45" />
@@ -419,6 +421,7 @@
   </node>
   <node concept="1lH9Xt" id="7g5FWGK2AIK">
     <property role="TrG5h" value="LanguageDependencyAsNode" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="7g5FWGK2AIL" role="1SL9yI">
       <property role="TrG5h" value="uuid_from_module" />
       <node concept="3cqZAl" id="7g5FWGK2AIM" role="3clF45" />
@@ -815,6 +818,7 @@
   </node>
   <node concept="1lH9Xt" id="7g5FWGK3VUL">
     <property role="TrG5h" value="SModuleAsNode" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="7g5FWGK3VUM" role="1SL9yI">
       <property role="TrG5h" value="name" />
       <node concept="3cqZAl" id="7g5FWGK3VUN" role="3clF45" />
@@ -1855,7 +1859,7 @@
               </node>
               <node concept="2Hmddi" id="5pW4zr_0GS$" role="3cqZAp">
                 <node concept="37vLTw" id="5pW4zr_0GS_" role="2Hmdds">
-                  <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                  <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                 </node>
               </node>
               <node concept="3vlDli" id="5pW4zr_0GSA" role="3cqZAp">
@@ -1864,7 +1868,7 @@
                 </node>
                 <node concept="2OqwBi" id="5pW4zr_0GSC" role="3tpDZA">
                   <node concept="37vLTw" id="5pW4zr_0GSD" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                   </node>
                   <node concept="liA8E" id="5pW4zr_0GSE" role="2OqNvi">
                     <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
@@ -1880,7 +1884,7 @@
                 </node>
                 <node concept="2OqwBi" id="5pW4zr_0GSI" role="3tpDZA">
                   <node concept="37vLTw" id="5pW4zr_0GSJ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                   </node>
                   <node concept="liA8E" id="5pW4zr_0GSK" role="2OqNvi">
                     <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
@@ -1896,7 +1900,7 @@
                 </node>
                 <node concept="2OqwBi" id="5pW4zr_0GSO" role="3tpDZA">
                   <node concept="37vLTw" id="5pW4zr_0GSP" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                   </node>
                   <node concept="liA8E" id="5pW4zr_0GSQ" role="2OqNvi">
                     <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
@@ -1912,7 +1916,7 @@
                 </node>
                 <node concept="2OqwBi" id="5pW4zr_0GSU" role="3tpDZA">
                   <node concept="37vLTw" id="5pW4zr_0GSV" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="kernel" />
+                    <ref role="3cqZAo" node="5pW4zr_0GSk" resolve="annotations" />
                   </node>
                   <node concept="liA8E" id="5pW4zr_0GSW" role="2OqNvi">
                     <ref role="37wK5l" to="jks5:~INode.getPropertyValue(java.lang.String)" resolve="getPropertyValue" />
@@ -1952,6 +1956,7 @@
   </node>
   <node concept="1lH9Xt" id="7LiskgSx68_">
     <property role="TrG5h" value="SModelAsNode" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="2XrIbr" id="7LiskgSx68A" role="1qtyYc">
       <property role="TrG5h" value="getSModelAsNode" />
       <node concept="3uibUv" id="7LiskgSx68B" role="3clF45">
@@ -2168,7 +2173,7 @@
               </node>
               <node concept="3vlDli" id="7LiskgSx6dc" role="3cqZAp">
                 <node concept="Xl_RD" id="7LiskgSx6dd" role="3tpDZB">
-                  <property role="Xl_RC" value="5" />
+                  <property role="Xl_RC" value="6" />
                 </node>
                 <node concept="2OqwBi" id="7LiskgSx6de" role="3tpDZA">
                   <node concept="37vLTw" id="7LiskgSx6df" role="2Oq$k0">

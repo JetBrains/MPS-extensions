@@ -47,7 +47,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -289,6 +289,18 @@
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7_uCKm_ncp6">
+    <property role="EcuMT" value="8745606771044566598" />
+    <property role="3GE5qa" value="debug" />
+    <property role="TrG5h" value="EditorComponentReference" />
+    <property role="34LRSv" value="#currentEditorComponent" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="7_uCKm_nXFw" role="1TKVEl">
+      <property role="IQ2nx" value="8745606771044768480" />
+      <property role="TrG5h" value="componentHashCode" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
   <node concept="1TIwiD" id="7_uCKm_gkEm">
     <property role="EcuMT" value="8745606771042765462" />
     <property role="TrG5h" value="CellReference" />
@@ -310,18 +322,6 @@
       <property role="IQ2nx" value="8745606771042965050" />
       <property role="TrG5h" value="cellID" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7_uCKm_ncp6">
-    <property role="EcuMT" value="8745606771044566598" />
-    <property role="3GE5qa" value="debug" />
-    <property role="TrG5h" value="EditorComponentReference" />
-    <property role="34LRSv" value="#currentEditorComponent" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyi" id="7_uCKm_nXFw" role="1TKVEl">
-      <property role="IQ2nx" value="8745606771044768480" />
-      <property role="TrG5h" value="componentHashCode" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

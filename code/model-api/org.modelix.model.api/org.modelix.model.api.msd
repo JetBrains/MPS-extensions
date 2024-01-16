@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.modelix.model.api" uuid="cc99dce1-49f3-4392-8dbf-e22ca47bd0af" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="org.modelix.model.api" uuid="cc99dce1-49f3-4392-8dbf-e22ca47bd0af" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="kotlin-stdlib-common.jar" />
@@ -15,19 +15,16 @@
   <facets>
     <facet type="java" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
+      <library location="${module}/lib/kotlin-logging-jvm.jar" />
+      <library location="${module}/lib/kotlin-stdlib-common.jar" />
+      <library location="${module}/lib/kotlin-stdlib-jdk7.jar" />
+      <library location="${module}/lib/kotlin-stdlib-jdk8.jar" />
+      <library location="${module}/lib/kotlin-stdlib.jar" />
+      <library location="${module}/lib/kotlinx-serialization-core-jvm.jar" />
+      <library location="${module}/lib/kotlinx-serialization-json-jvm.jar" />
+      <library location="${module}/lib/model-api-jvm.jar" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/lib/kotlin-logging-jvm.jar" />
-    <stubModelEntry path="${module}/lib/kotlin-stdlib-common.jar" />
-    <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk7.jar" />
-    <stubModelEntry path="${module}/lib/kotlin-stdlib-jdk8.jar" />
-    <stubModelEntry path="${module}/lib/kotlin-stdlib.jar" />
-    <stubModelEntry path="${module}/lib/kotlinx-serialization-core-jvm.jar" />
-    <stubModelEntry path="${module}/lib/kotlinx-serialization-json-jvm.jar" />
-    <stubModelEntry path="${module}/lib/model-api-jvm.jar" />
-  </stubModelEntries>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</dependency>

@@ -5,6 +5,12 @@ All notable changes to this project are documented in this file.
 Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
 The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## January 2024
+
+### Fixed
+
+- com.mbeddr.mpsutil.modellisteners: The newly supported interface listeners are now backward compatible and doesn't require regenerating the listener aspects anymore.
+
 ## December 2023
 
 ### Added

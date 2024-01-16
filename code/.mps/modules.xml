@@ -26,6 +26,8 @@
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/de.slisson.mps.conditionalEditor.runtime/de.slisson.mps.conditionalEditor.runtime.msd" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/de.slisson.mps.conditionalEditor.sandbox/de.slisson.mps.conditionalEditor.sandbox.msd" folder="conditional-editor" />
+      <modulePath path="$PROJECT_DIR$/debug/languages/de.itemis.mps.debug/de.itemis.mps.debug.mpl" folder="debug" />
+      <modulePath path="$PROJECT_DIR$/debug/solutions/de.itemis.mps.debug.runtime/de.itemis.mps.debug.runtime.msd" folder="debug" />
       <modulePath path="$PROJECT_DIR$/devkits/de.q60.mps.genplan.virutalinterfaces_incremental.devkit/de.q60.mps.genplan.virutalinterfaces_incremental.devkit.devkit" folder="shadowmodels.examples.interpreter" />
       <modulePath path="$PROJECT_DIR$/devkits/de.q60.mps.incremental.devkit/de.q60.mps.incremental.devkit.devkit" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/diagram/devkits/de.itemis.mps.editor.diagram.devkit.devkit" folder="diagram" />

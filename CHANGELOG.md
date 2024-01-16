@@ -10,6 +10,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 ### Changed
 
 - de.itemis.editor.diagram: The ELK dependencies were updated to the latest version.
+- de.itemis.mps.debug: The editor debug expressions were moved to a new plugin to avoid introducing a dependency to the MPS console in the celllayout language.
 
 ## December 2023
 

@@ -7,6 +7,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ## January 2024
 
+### Fixed
+
+- com.mbeddr.mpsutil.modellisteners: The newly supported interface listeners are now backward compatible and doesn't require regenerating the listener aspects anymore.
+
 ### Changed
 
 - de.itemis.editor.diagram: The ELK dependencies were updated to the latest version.

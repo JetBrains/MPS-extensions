@@ -16,6 +16,8 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="l7us" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.icons(MPS.Platform/)" />
+    <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
+    <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -93,6 +95,9 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
     </language>
     <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
       <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
@@ -153,19 +158,32 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7fP7o0YumFd" role="3cqZAp" />
-        <node concept="3cpWs8" id="7fP7o0Yusew" role="3cqZAp">
-          <node concept="3cpWsn" id="7fP7o0Yusex" role="3cpWs9">
+        <node concept="3cpWs8" id="1Tx15ZbNbV" role="3cqZAp">
+          <node concept="3cpWsn" id="45KItpiJNhm" role="3cpWs9">
             <property role="TrG5h" value="repo" />
-            <node concept="3uibUv" id="7fP7o0Yusev" role="1tU5fm">
+            <node concept="3uibUv" id="45KItpiJNb_" role="1tU5fm">
               <ref role="3uigEE" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
             </node>
-            <node concept="2YIFZM" id="7fP7o0Yusey" role="33vP2m">
-              <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-              <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+            <node concept="2OqwBi" id="45KItpiJOGz" role="33vP2m">
+              <node concept="2OqwBi" id="45KItpiJOij" role="2Oq$k0">
+                <node concept="2YIFZM" id="45KItpiJO6S" role="2Oq$k0">
+                  <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                  <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                </node>
+                <node concept="liA8E" id="45KItpiJOyO" role="2OqNvi">
+                  <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                </node>
+              </node>
+              <node concept="liA8E" id="45KItpiJOXp" role="2OqNvi">
+                <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                <node concept="3VsKOn" id="45KItpiJOYV" role="37wK5m">
+                  <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="7fP7o0YumFd" role="3cqZAp" />
         <node concept="1QHqEK" id="7fP7o0YusAH" role="3cqZAp">
           <node concept="1QHqEC" id="7fP7o0YusAJ" role="1QHqEI">
             <node concept="3clFbS" id="7fP7o0YusAL" role="1bW5cS">
@@ -180,7 +198,7 @@
                   <node concept="liA8E" id="52ZF9D38bDp" role="2OqNvi">
                     <ref role="37wK5l" to="slod:52ZF9D36I0I" resolve="install" />
                     <node concept="37vLTw" id="7fP7o0Yusqb" role="37wK5m">
-                      <ref role="3cqZAo" node="7fP7o0Yusex" resolve="repo" />
+                      <ref role="3cqZAo" node="45KItpiJNhm" resolve="repo" />
                     </node>
                   </node>
                 </node>
@@ -188,7 +206,7 @@
             </node>
           </node>
           <node concept="37vLTw" id="7fP7o0YusJS" role="ukAjM">
-            <ref role="3cqZAo" node="7fP7o0Yusex" resolve="repo" />
+            <ref role="3cqZAo" node="45KItpiJNhm" resolve="repo" />
           </node>
         </node>
       </node>

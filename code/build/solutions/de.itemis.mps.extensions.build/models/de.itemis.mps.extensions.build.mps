@@ -17414,6 +17414,16 @@
             <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1Tx15Zlrbc" role="3bR37C">
+          <node concept="3bR9La" id="1Tx15Zlrbd" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Tx15Zlrbe" role="3bR37C">
+          <node concept="3bR9La" id="1Tx15Zlrbf" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5QP6xyk3oCB" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -17522,6 +17532,16 @@
         <node concept="1SiIV0" id="3ofF9dt4hrh" role="3bR37C">
           <node concept="3bR9La" id="3ofF9dt4hri" role="1SiIV1">
             <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Tx15Zlrbx" role="3bR37C">
+          <node concept="3bR9La" id="1Tx15Zlrby" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Tx15Zlrbz" role="3bR37C">
+          <node concept="3bR9La" id="1Tx15Zlrb$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>

@@ -547,13 +547,10 @@
         <node concept="1eOMI4" id="75_oBQVq5FJ" role="2Oq$k0">
           <node concept="10QFUN" id="75_oBQVq5FK" role="1eOMHV">
             <node concept="2OqwBi" id="75_oBQVq5FG" role="10QFUP">
-              <node concept="2YIFZM" id="75_oBQVq5FH" role="2Oq$k0">
-                <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-              </node>
               <node concept="liA8E" id="75_oBQVq5FI" role="2OqNvi">
-                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getModules()" resolve="getModules" />
+                <ref role="37wK5l" to="z1c5:~Project.getModules()" resolve="getModules" />
               </node>
+              <node concept="14a6R6" id="1Tx15Zd9OE" role="2Oq$k0" />
             </node>
             <node concept="A3Dl8" id="75_oBQVq5GE" role="10QFUM">
               <node concept="3uibUv" id="75_oBQVq5HF" role="A3Ik2">
@@ -698,13 +695,10 @@
           <node concept="1eOMI4" id="75_oBQVX$D_" role="2Oq$k0">
             <node concept="10QFUN" id="75_oBQVX$DA" role="1eOMHV">
               <node concept="2OqwBi" id="75_oBQVX$DB" role="10QFUP">
-                <node concept="2YIFZM" id="75_oBQVX$DC" role="2Oq$k0">
-                  <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                  <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                </node>
                 <node concept="liA8E" id="75_oBQVX$DD" role="2OqNvi">
-                  <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getModules()" resolve="getModules" />
+                  <ref role="37wK5l" to="z1c5:~Project.getModules()" resolve="getModules" />
                 </node>
+                <node concept="14a6R6" id="1Tx15Zdb0W" role="2Oq$k0" />
               </node>
               <node concept="A3Dl8" id="75_oBQVX$DE" role="10QFUM">
                 <node concept="3uibUv" id="75_oBQVX$DF" role="A3Ik2">

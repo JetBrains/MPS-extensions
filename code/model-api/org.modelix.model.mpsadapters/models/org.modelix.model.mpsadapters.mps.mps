@@ -14383,12 +14383,25 @@
             <node concept="3clFbS" id="2Aao9t$9Ibw" role="3clFbx">
               <node concept="3clFbF" id="2Aao9t$9Ibx" role="3cqZAp">
                 <node concept="37vLTI" id="2Aao9t$9Iby" role="3clFbG">
-                  <node concept="2YIFZM" id="2Aao9t$9Ibz" role="37vLTx">
-                    <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                    <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                  </node>
                   <node concept="37vLTw" id="2Aao9t$9Ib$" role="37vLTJ">
                     <ref role="3cqZAo" node="2Aao9t$9IaV" resolve="repo" />
+                  </node>
+                  <node concept="2OqwBi" id="1Tx15Zfyog" role="37vLTx">
+                    <node concept="2OqwBi" id="1Tx15Zfyoh" role="2Oq$k0">
+                      <node concept="2YIFZM" id="1Tx15Zfyoi" role="2Oq$k0">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                        <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                      </node>
+                      <node concept="liA8E" id="1Tx15Zfyoj" role="2OqNvi">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1Tx15Zfyok" role="2OqNvi">
+                      <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                      <node concept="3VsKOn" id="1Tx15Zfyol" role="37wK5m">
+                        <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -17153,12 +17166,25 @@
             <node concept="3clFbS" id="2Aao9t$9zCZ" role="3clFbx">
               <node concept="3clFbF" id="2Aao9t$9zD0" role="3cqZAp">
                 <node concept="37vLTI" id="2Aao9t$9zD1" role="3clFbG">
-                  <node concept="2YIFZM" id="2Aao9t$9zD2" role="37vLTx">
-                    <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                    <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                  </node>
                   <node concept="37vLTw" id="2Aao9t$9zD3" role="37vLTJ">
                     <ref role="3cqZAo" node="2Aao9t$9zCq" resolve="repo" />
+                  </node>
+                  <node concept="2OqwBi" id="1Tx15ZfqPJ" role="37vLTx">
+                    <node concept="2OqwBi" id="1Tx15ZfqPK" role="2Oq$k0">
+                      <node concept="2YIFZM" id="1Tx15ZfqPL" role="2Oq$k0">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                        <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                      </node>
+                      <node concept="liA8E" id="1Tx15ZfqPM" role="2OqNvi">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1Tx15ZfqPN" role="2OqNvi">
+                      <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                      <node concept="3VsKOn" id="1Tx15ZfqPO" role="37wK5m">
+                        <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -19158,12 +19184,25 @@
             <node concept="3clFbS" id="2Aao9t$9pM4" role="3clFbx">
               <node concept="3clFbF" id="2Aao9t$9qkA" role="3cqZAp">
                 <node concept="37vLTI" id="2Aao9t$9qsl" role="3clFbG">
-                  <node concept="2YIFZM" id="2Aao9t$9q_C" role="37vLTx">
-                    <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                    <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                  </node>
                   <node concept="37vLTw" id="2Aao9t$9qk$" role="37vLTJ">
                     <ref role="3cqZAo" node="2Aao9t$9hk3" resolve="repo" />
+                  </node>
+                  <node concept="2OqwBi" id="1Tx15ZfcCG" role="37vLTx">
+                    <node concept="2OqwBi" id="1Tx15ZfcCH" role="2Oq$k0">
+                      <node concept="2YIFZM" id="1Tx15ZfcCI" role="2Oq$k0">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                        <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                      </node>
+                      <node concept="liA8E" id="1Tx15ZfcCJ" role="2OqNvi">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1Tx15ZfcCK" role="2OqNvi">
+                      <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                      <node concept="3VsKOn" id="1Tx15ZfcCL" role="37wK5m">
+                        <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -21013,9 +21052,22 @@
       <node concept="3clFbS" id="7cdb92Lw8bG" role="3clF47">
         <node concept="1VxSAg" id="7cdb92Lw8Py" role="3cqZAp">
           <ref role="37wK5l" node="7cdb92Lw72S" resolve="MPSArea" />
-          <node concept="2YIFZM" id="7cdb92Lw8Y0" role="37wK5m">
-            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-            <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+          <node concept="2OqwBi" id="1Tx15ZePHc" role="37wK5m">
+            <node concept="2OqwBi" id="1Tx15ZePHd" role="2Oq$k0">
+              <node concept="2YIFZM" id="1Tx15ZePHe" role="2Oq$k0">
+                <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+              </node>
+              <node concept="liA8E" id="1Tx15ZePHf" role="2OqNvi">
+                <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1Tx15ZePHg" role="2OqNvi">
+              <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+              <node concept="3VsKOn" id="1Tx15ZePHh" role="37wK5m">
+                <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -22641,14 +22693,27 @@
             <node concept="37vLTw" id="1KLm$DhJD1S" role="3K4E3e">
               <ref role="3cqZAo" node="1KLm$DhJy$3" resolve="repository" />
             </node>
-            <node concept="2YIFZM" id="1KLm$DhJDzY" role="3K4GZi">
-              <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-              <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-            </node>
             <node concept="3y3z36" id="1KLm$DhJBU9" role="3K4Cdx">
               <node concept="10Nm6u" id="1KLm$DhJCqq" role="3uHU7w" />
               <node concept="37vLTw" id="1KLm$DhJzGT" role="3uHU7B">
                 <ref role="3cqZAo" node="1KLm$DhJy$3" resolve="repository" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1Tx15ZeXDy" role="3K4GZi">
+              <node concept="2OqwBi" id="1Tx15ZeXDz" role="2Oq$k0">
+                <node concept="2YIFZM" id="1Tx15ZeXD$" role="2Oq$k0">
+                  <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                  <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                </node>
+                <node concept="liA8E" id="1Tx15ZeXD_" role="2OqNvi">
+                  <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1Tx15ZeXDA" role="2OqNvi">
+                <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                <node concept="3VsKOn" id="1Tx15ZeXDB" role="37wK5m">
+                  <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                </node>
               </node>
             </node>
           </node>
@@ -23674,14 +23739,27 @@
             <node concept="37vLTw" id="1KLm$DhKgRN" role="3K4E3e">
               <ref role="3cqZAo" node="1KLm$DhK8oZ" resolve="repository" />
             </node>
-            <node concept="2YIFZM" id="1KLm$DhKhgc" role="3K4GZi">
-              <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-              <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-            </node>
             <node concept="3y3z36" id="1KLm$DhKg6g" role="3K4Cdx">
               <node concept="10Nm6u" id="1KLm$DhKg9i" role="3uHU7w" />
               <node concept="37vLTw" id="1KLm$DhK9RR" role="3uHU7B">
                 <ref role="3cqZAo" node="1KLm$DhK8oZ" resolve="repository" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1Tx15Zf08W" role="3K4GZi">
+              <node concept="2OqwBi" id="1Tx15Zf08X" role="2Oq$k0">
+                <node concept="2YIFZM" id="1Tx15Zf08Y" role="2Oq$k0">
+                  <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                  <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                </node>
+                <node concept="liA8E" id="1Tx15Zf08Z" role="2OqNvi">
+                  <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1Tx15Zf090" role="2OqNvi">
+                <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                <node concept="3VsKOn" id="1Tx15Zf091" role="37wK5m">
+                  <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                </node>
               </node>
             </node>
           </node>
@@ -29818,9 +29896,22 @@
           <node concept="2ShNRf" id="3DfUugBV5Fl" role="3clFbG">
             <node concept="1pGfFk" id="3DfUugBV6zK" role="2ShVmc">
               <ref role="37wK5l" node="qmkA5fOYD8" resolve="SRepositoryAsNode" />
-              <node concept="2YIFZM" id="3DfUugBVaQq" role="37wK5m">
-                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+              <node concept="2OqwBi" id="1Tx15Zf4$H" role="37wK5m">
+                <node concept="2OqwBi" id="1Tx15Zf4$I" role="2Oq$k0">
+                  <node concept="2YIFZM" id="1Tx15Zf4$J" role="2Oq$k0">
+                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                    <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                  </node>
+                  <node concept="liA8E" id="1Tx15Zf4$K" role="2OqNvi">
+                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1Tx15Zf4$L" role="2OqNvi">
+                  <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                  <node concept="3VsKOn" id="1Tx15Zf4$M" role="37wK5m">
+                    <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -33924,12 +34015,25 @@
             <node concept="3clFbS" id="25OQfQHFox1" role="3clFbx">
               <node concept="3clFbF" id="25OQfQHFox2" role="3cqZAp">
                 <node concept="37vLTI" id="25OQfQHFox3" role="3clFbG">
-                  <node concept="2YIFZM" id="25OQfQHFox4" role="37vLTx">
-                    <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                    <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                  </node>
                   <node concept="37vLTw" id="25OQfQHFox5" role="37vLTJ">
                     <ref role="3cqZAo" node="25OQfQHFows" resolve="repo" />
+                  </node>
+                  <node concept="2OqwBi" id="1Tx15ZeTis" role="37vLTx">
+                    <node concept="2OqwBi" id="1Tx15ZeTit" role="2Oq$k0">
+                      <node concept="2YIFZM" id="1Tx15ZeTiu" role="2Oq$k0">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                        <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                      </node>
+                      <node concept="liA8E" id="1Tx15ZeTiv" role="2OqNvi">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1Tx15ZeTiw" role="2OqNvi">
+                      <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                      <node concept="3VsKOn" id="1Tx15ZeTix" role="37wK5m">
+                        <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -35797,12 +35901,25 @@
             <node concept="3clFbS" id="25OQfQHQeIY" role="3clFbx">
               <node concept="3clFbF" id="25OQfQHQeIZ" role="3cqZAp">
                 <node concept="37vLTI" id="25OQfQHQeJ0" role="3clFbG">
-                  <node concept="2YIFZM" id="25OQfQHQeJ1" role="37vLTx">
-                    <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                    <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                  </node>
                   <node concept="37vLTw" id="25OQfQHQeJ2" role="37vLTJ">
                     <ref role="3cqZAo" node="25OQfQHQeIp" resolve="repo" />
+                  </node>
+                  <node concept="2OqwBi" id="1Tx15ZfBfu" role="37vLTx">
+                    <node concept="2OqwBi" id="1Tx15ZfBfv" role="2Oq$k0">
+                      <node concept="2YIFZM" id="1Tx15ZfBfw" role="2Oq$k0">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                        <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                      </node>
+                      <node concept="liA8E" id="1Tx15ZfBfx" role="2OqNvi">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1Tx15ZfBfy" role="2OqNvi">
+                      <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                      <node concept="3VsKOn" id="1Tx15ZfBfz" role="37wK5m">
+                        <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -37737,12 +37854,25 @@
             <node concept="3clFbS" id="7LiskgSqM7v" role="3clFbx">
               <node concept="3clFbF" id="7LiskgSqM7w" role="3cqZAp">
                 <node concept="37vLTI" id="7LiskgSqM7x" role="3clFbG">
-                  <node concept="2YIFZM" id="7LiskgSqM7y" role="37vLTx">
-                    <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                    <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-                  </node>
                   <node concept="37vLTw" id="7LiskgSqM7z" role="37vLTJ">
                     <ref role="3cqZAo" node="7LiskgSqM6U" resolve="repo" />
+                  </node>
+                  <node concept="2OqwBi" id="1Tx15Ze9i8" role="37vLTx">
+                    <node concept="2OqwBi" id="1Tx15Ze9i9" role="2Oq$k0">
+                      <node concept="2YIFZM" id="1Tx15Ze9ia" role="2Oq$k0">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                        <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                      </node>
+                      <node concept="liA8E" id="1Tx15Ze9ib" role="2OqNvi">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1Tx15Ze9ic" role="2OqNvi">
+                      <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                      <node concept="3VsKOn" id="1Tx15Ze9id" role="37wK5m">
+                        <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

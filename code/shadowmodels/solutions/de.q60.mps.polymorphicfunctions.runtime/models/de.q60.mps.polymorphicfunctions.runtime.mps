@@ -26,6 +26,7 @@
     <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
     <import index="zy2h" ref="r:ec0fe8c4-38e5-4216-9425-8861454eaf8a(de.q60.mps.util.invalidation)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
+    <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -5744,9 +5745,22 @@
       <node concept="3clFbS" id="3zTK92KPlam" role="3clF47">
         <node concept="XkiVB" id="3zTK92KPlao" role="3cqZAp">
           <ref role="37wK5l" node="7YhLqbpjFao" resolve="ImplementationsFromRepository" />
-          <node concept="2YIFZM" id="3zTK92KPlfT" role="37wK5m">
-            <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
-            <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+          <node concept="2OqwBi" id="45KItpiJOGz" role="37wK5m">
+            <node concept="2OqwBi" id="45KItpiJOij" role="2Oq$k0">
+              <node concept="2YIFZM" id="45KItpiJO6S" role="2Oq$k0">
+                <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+              </node>
+              <node concept="liA8E" id="45KItpiJOyO" role="2OqNvi">
+                <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+              </node>
+            </node>
+            <node concept="liA8E" id="45KItpiJOXp" role="2OqNvi">
+              <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+              <node concept="3VsKOn" id="45KItpiJOYV" role="37wK5m">
+                <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -6021,9 +6035,22 @@
                   </node>
                 </node>
               </node>
-              <node concept="2YIFZM" id="QurUgitd1w" role="ukAjM">
-                <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
-                <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
+              <node concept="2OqwBi" id="1Tx15ZdQJi" role="ukAjM">
+                <node concept="2OqwBi" id="1Tx15ZdQJj" role="2Oq$k0">
+                  <node concept="2YIFZM" id="1Tx15ZdQJk" role="2Oq$k0">
+                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                    <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                  </node>
+                  <node concept="liA8E" id="1Tx15ZdQJl" role="2OqNvi">
+                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1Tx15ZdQJm" role="2OqNvi">
+                  <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                  <node concept="3VsKOn" id="1Tx15ZdQJn" role="37wK5m">
+                    <ref role="3VsUkX" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

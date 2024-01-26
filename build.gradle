@@ -1,22 +1,13 @@
 plugins {
     id 'de.itemis.mps.gradle.common' version '1.13.+'
     id "com.github.breadmoirai.github-release" version "2.4.1"
+    id 'maven-publish'
+    id 'base'
 }
-
-apply plugin: 'maven-publish'
-apply plugin: 'base'
-
-
 
 import de.itemis.mps.gradle.*
 
 import java.time.LocalDateTime
-
-
-wrapper {
-    gradleVersion '7.4.1'
-    distributionType 'all'
-}
 
 // detect if we are in a CI build
 if (project.hasProperty("forceCI")) {
@@ -62,9 +53,6 @@ if (!project.hasProperty('nexusUsername')) {
 }
 logger.info 'Repository username: {}', project.nexusUsername
 
-ext.dependencyRepositories = [
-        'https://artifacts.itemis.cloud/repository/maven-mps/'
-]
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
@@ -123,12 +111,7 @@ dependencies {
 }
 
 repositories {
-    mavenLocal()
-    for (repoUrl in project.dependencyRepositories) {
-        maven {
-            url repoUrl
-        }
-    }
+    maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
 }
 
 ext.skipResolveMps = project.hasProperty('mpsHomeDir')

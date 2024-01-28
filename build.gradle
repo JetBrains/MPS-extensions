@@ -198,14 +198,13 @@ ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir
 ext.pluginVersion = "-DversionNumber=" + version
 ext.buildDate = "-DbuildDate=" + new Date().toString()
 ext.extensions_home = '-Dextensions.home=' + rootDir
-ext.skipUnmodifiedModels = "-Dmps.generator.skipUnmodifiedModels=true" //incremental build support
 
 // ___________________ utilities ___________________
 File scriptFile(String relativePath) {
     new File("$rootDir/build/generated/$relativePath")
 }
 
-def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion, ext.skipUnmodifiedModels]
+def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
 
 // enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs

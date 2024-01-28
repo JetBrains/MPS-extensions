@@ -5,6 +5,17 @@ All notable changes to this project are documented in this file.
 Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
 The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## January 2024
+
+### Fixed
+
+- com.mbeddr.mpsutil.modellisteners: The newly supported interface listeners are now backward compatible and doesn't require regenerating the listener aspects anymore.
+
+### Changed
+
+- de.itemis.editor.diagram: The ELK dependencies were updated to the latest version.
+- de.itemis.mps.debug: The editor debug expressions were moved to a new plugin to avoid introducing a dependency to the MPS console in the celllayout language.
+
 ## December 2023
 
 ### Fixed

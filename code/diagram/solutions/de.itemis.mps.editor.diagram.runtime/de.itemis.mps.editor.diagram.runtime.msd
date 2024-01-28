@@ -6,30 +6,42 @@
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/jgraphx.jar" />
-      <sourceRoot location="lib/org.eclipse.emf.common-2.12.0.jar" />
-      <sourceRoot location="lib/org.eclipse.emf.ecore.xmi-2.12.0.jar" />
-      <sourceRoot location="lib/org.eclipse.emf.ecore-2.12.0.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.alg.common_0.9.0.202206130225.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.alg.layered_0.9.0.202206130225.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.alg.mrtree_0.9.0.202206130225.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.core_0.9.0.202206130225.jar" />
-      <sourceRoot location="lib/org.eclipse.elk.graph_0.9.0.202206130225.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.common.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.layered.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.mrtree.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.core.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.graph.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.common.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.ecore.jar" />
+      <sourceRoot location="lib/org.eclipse.emf.ecore.xmi.jar" />
     </modelRoot>
   </models>
   <facets>
     <facet type="java" languageLevel="JAVA_8" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/jgraphx.jar" />
-      <library location="${module}/lib/org.eclipse.emf.common-2.12.0.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore-2.12.0.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.xmi-2.12.0.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.common_0.9.0.202206130225.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.layered_0.9.0.202206130225.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.mrtree_0.9.0.202206130225.jar" />
-      <library location="${module}/lib/org.eclipse.elk.core_0.9.0.202206130225.jar" />
-      <library location="${module}/lib/org.eclipse.elk.graph_0.9.0.202206130225.jar" />
+      <library location="${module}/lib/org.eclipse.emf.common.jar" />
+      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
+      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
+      <library location="${module}/lib/org.eclipse.elk.core.jar" />
+      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
     </facet>
   </facets>
+  <stubModelEntries>
+    <stubModelEntry path="${module}/lib/jgraphx.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.common.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.layered.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.core.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.graph.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.common.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
+  </stubModelEntries>
+  <sourcePath />
   <dependencies>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="true">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>

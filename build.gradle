@@ -1,22 +1,13 @@
 plugins {
     id 'de.itemis.mps.gradle.common' version '1.13.+'
     id "com.github.breadmoirai.github-release" version "2.4.1"
+    id 'maven-publish'
+    id 'base'
 }
-
-apply plugin: 'maven-publish'
-apply plugin: 'base'
-
-
 
 import de.itemis.mps.gradle.*
 
 import java.time.LocalDateTime
-
-
-wrapper {
-    gradleVersion '7.4.1'
-    distributionType 'all'
-}
 
 apply plugin: 'download-jbr'
 
@@ -43,9 +34,6 @@ if (!project.hasProperty('nexusUsername')) {
 }
 logger.info 'Repository username: {}', project.nexusUsername
 
-ext.dependencyRepositories = [
-        'https://artifacts.itemis.cloud/repository/maven-mps/'
-]
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
@@ -104,12 +92,7 @@ dependencies {
 }
 
 repositories {
-    mavenLocal()
-    for (repoUrl in project.dependencyRepositories) {
-        maven {
-            url repoUrl
-        }
-    }
+    maven { url 'https://artifacts.itemis.cloud/repository/maven-mps/' }
 }
 
 ext.skipResolveMps = project.hasProperty('mpsHomeDir')
@@ -174,14 +157,43 @@ task copyModelApi() {
 
 // -----------------------------------------
 
-// Ant support
+
 configurations {
     ant_lib
+    diagram_lib
 }
 
 dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.9"
+
+    def elkVersion = "0.9.0"
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.29.0") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.35.0") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.36.0") {
+        transitive = false
+    }
 }
+
+configurations.diagram_lib.attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
 
 ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
     true
@@ -196,14 +208,13 @@ ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir
 ext.pluginVersion = "-DversionNumber=" + version
 ext.buildDate = "-DbuildDate=" + new Date().toString()
 ext.extensions_home = '-Dextensions.home=' + rootDir
-ext.skipUnmodifiedModels = "-Dmps.generator.skipUnmodifiedModels=true" //incremental build support
 
 // ___________________ utilities ___________________
 File scriptFile(String relativePath) {
-    new File("$rootDir/build/generated/$relativePath")
+    new File("$rootDir/build/patched/$relativePath")
 }
 
-def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion, ext.skipUnmodifiedModels]
+def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
 
 afterEvaluate {
     project.ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.getByName('downloadJbr').javaExecutable
@@ -226,13 +237,45 @@ afterEvaluate {
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
 
+task resolved_diagram_dependencies(type: Copy) {
+    from configurations.diagram_lib
+    into file('code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
 
-task build_allScripts(type: BuildLanguages, dependsOn: [
-        'downloadJbr',
-		resolveMps,
-        copyModelApi,
-]) {
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.diagram_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
+
+def build_allScripts_unpatched = tasks.register('build_allScripts_unpatched', BuildLanguages) {
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies
     script "$rootDir/scripts/build.xml"
+}
+
+// Patch JNA path in generated build scripts until https://github.com/JetBrains/MPS/pull/71 is fixed
+def patch_allScripts = tasks.register('patch_allScripts', Copy) {
+    dependsOn build_allScripts_unpatched
+    from 'build/generated'
+    into 'build/patched'
+
+    def isAarch64 = System.getProperty('os.arch') == 'aarch64'
+    def jnaArch = isAarch64 ? 'aarch64' : 'amd64'
+
+    filter {
+        it.replace('"-Djna.boot.library.path=${artifacts.mps}/lib/jna"',
+                   '"-Djna.boot.library.path=${artifacts.mps}/lib/jna/' + jnaArch + '"')
+    }
+}
+
+task build_allScripts {
+    dependsOn patch_allScripts
 }
 
 task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {
@@ -284,13 +327,13 @@ dependencies {
 }
 
 task packageAllScripts(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions.allScripts'
+    archiveBaseName = 'de.itemis.mps.extensions.allScripts'
     from artifactsDir
     include 'de.itemis.mps.extensions.allScripts/**'
 }
 
 task packageExtensions(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions'
+    archiveBaseName = 'de.itemis.mps.extensions'
     from artifactsDir
     include 'de.itemis.mps.extensions/**'
 }

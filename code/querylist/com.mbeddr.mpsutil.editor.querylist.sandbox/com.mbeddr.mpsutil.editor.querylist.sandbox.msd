@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.mbeddr.mpsutil.editor.querylist.sandbox" uuid="c58b797b-c53c-4442-abff-4d54c72169ea" moduleVersion="0" compileInMPS="true">
+<solution name="com.mbeddr.mpsutil.editor.querylist.sandbox" uuid="c58b797b-c53c-4442-abff-4d54c72169ea" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <languageVersions>
     <language slang="l:9b71d0db-bcaf-4144-bb2e-1ddef2b249b9:com.mbeddr.mpsutil.editor.querylist.demolang" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />

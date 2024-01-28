@@ -1,7 +1,8 @@
 # MPS Extensions
 
-<a href="https://mps.builds.itemis.cloud/project/Mbeddr2_Mbeddr_Gradle_MpsExtensions?projectTab=overview&mode=builds"><img src="https://mps.builds.itemis.cloud/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
-![JetBrains MPS 2022.3.1](https://img.shields.io/badge/JetBrains%20MPS-2022.3.1-orange)
+<a href="https://mps.builds.itemis.cloud/project.html?projectId=Mbeddr2_Mbeddr_Gradle_MpsExtensions&tab=projectOverview"><img src="https://mps.builds.itemis.cloud/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
+![JetBrains MPS 2023.2](https://img.shields.io/badge/JetBrains%20MPS-2023.2-orange)
+
 [![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
 The MPS extensions aim to ease language development within MPS. They are maintained by itemis, JetBrains, and the open source community, and its development is closely aligned with the development of MPS.
@@ -10,7 +11,7 @@ Join the discussion on [Slack](https://slack-mps.jetbrains.com) in the #mps-exte
 
 ## Building
 
-The MPS extensions can be built with gradle. To build the source code, all you need is a Java 11 JDK. Of course, if you want to hack on the MPS extensions, you need MPS. The MPS version that is used is in the [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle#L61) file.
+Of course, if you want to hack on the MPS extensions, you need MPS. The MPS version that is used is in the build.gradle file.
 
 Run the following commands to build the project:
 

@@ -32,6 +32,7 @@
         <reference id="4560297596904469363" name="module" index="22LTRN" />
       </concept>
       <concept id="6593674873639474400" name="jetbrains.mps.build.mps.tests.structure.BuildMps_TestModules_Options" flags="ng" index="24cAiW">
+        <child id="6593674873639478221" name="haltonfailure" index="24c_eh" />
         <child id="1688667350638517006" name="compressArgs" index="XX84c" />
       </concept>
       <concept id="4005526075820600484" name="jetbrains.mps.build.mps.tests.structure.BuildModuleTestsPlugin" flags="ng" index="1gjT0q" />
@@ -20134,6 +20135,11 @@
       <node concept="24cAiW" id="6hpM9fmFEj0" role="24cAkG">
         <node concept="NbPM2" id="Ja0pNCPCdu" role="XX84c">
           <node concept="3Mxwew" id="Ja0pNCPCdt" role="3MwsjC">
+            <property role="3MwjfP" value="true" />
+          </node>
+        </node>
+        <node concept="NbPM2" id="4rjYge50oSR" role="24c_eh">
+          <node concept="3Mxwew" id="4rjYge50oSU" role="3MwsjC">
             <property role="3MwjfP" value="true" />
           </node>
         </node>

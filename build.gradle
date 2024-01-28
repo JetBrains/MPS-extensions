@@ -229,7 +229,7 @@ ext.skipUnmodifiedModels = "-Dmps.generator.skipUnmodifiedModels=true" //increme
 
 // ___________________ utilities ___________________
 File scriptFile(String relativePath) {
-    new File("$rootDir/build/generated/$relativePath")
+    new File("$rootDir/build/patched/$relativePath")
 }
 
 def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion, ext.skipUnmodifiedModels]
@@ -272,13 +272,28 @@ task resolved_diagram_dependencies(type: Copy) {
     }
 }
 
-task build_allScripts(type: BuildLanguages, dependsOn: [
-        'downloadJbr',
-		resolveMps,
-        resolved_diagram_dependencies,
-        copyModelApi,
-]) {
+def build_allScripts_unpatched = tasks.register('build_allScripts_unpatched', BuildLanguages) {
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies
     script "$rootDir/scripts/build.xml"
+}
+
+// Patch JNA path in generated build scripts until https://github.com/JetBrains/MPS/pull/71 is fixed
+def patch_allScripts = tasks.register('patch_allScripts', Copy) {
+    dependsOn build_allScripts_unpatched
+    from 'build/generated'
+    into 'build/patched'
+
+    def isAarch64 = System.getProperty('os.arch') == 'aarch64'
+    def jnaArch = isAarch64 ? 'aarch64' : 'amd64'
+
+    filter {
+        it.replace('"-Djna.boot.library.path=${artifacts.mps}/lib/jna"',
+                   '"-Djna.boot.library.path=${artifacts.mps}/lib/jna/' + jnaArch + '"')
+    }
+}
+
+task build_allScripts {
+    dependsOn patch_allScripts
 }
 
 task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {

@@ -63,12 +63,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
-        <child id="1068431790190" name="initializer" index="33vP2m" />
-      </concept>
-      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
-        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
-      </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -76,14 +70,9 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
-        <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
-      </concept>
-      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -141,6 +130,13 @@
         <ref role="3uigEE" to="slod:52ZF9D36_0i" resolve="GlobalListener" />
       </node>
     </node>
+    <node concept="2BZ0e9" id="1akCdBO6iGm" role="2uRRBG">
+      <property role="TrG5h" value="repo" />
+      <node concept="3Tm6S6" id="1akCdBO6iGn" role="1B3o_S" />
+      <node concept="3uibUv" id="1akCdBO6j0A" role="1tU5fm">
+        <ref role="3uigEE" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+      </node>
+    </node>
     <node concept="2uRRBj" id="52ZF9D385Oy" role="2uRRBE">
       <node concept="3clFbS" id="52ZF9D385Oz" role="2VODD2">
         <node concept="3clFbF" id="52ZF9D385YZ" role="3cqZAp">
@@ -158,13 +154,15 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1Tx15ZbNbV" role="3cqZAp">
-          <node concept="3cpWsn" id="45KItpiJNhm" role="3cpWs9">
-            <property role="TrG5h" value="repo" />
-            <node concept="3uibUv" id="45KItpiJNb_" role="1tU5fm">
-              <ref role="3uigEE" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+        <node concept="3clFbF" id="1akCdBO6jfx" role="3cqZAp">
+          <node concept="37vLTI" id="1akCdBO6jKZ" role="3clFbG">
+            <node concept="2OqwBi" id="1akCdBO6jfr" role="37vLTJ">
+              <node concept="2WthIp" id="1akCdBO6jfu" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="1akCdBO6jfw" role="2OqNvi">
+                <ref role="2WH_rO" node="1akCdBO6iGm" resolve="repo" />
+              </node>
             </node>
-            <node concept="2OqwBi" id="45KItpiJOGz" role="33vP2m">
+            <node concept="2OqwBi" id="45KItpiJOGz" role="37vLTx">
               <node concept="2OqwBi" id="45KItpiJOij" role="2Oq$k0">
                 <node concept="2YIFZM" id="45KItpiJO6S" role="2Oq$k0">
                   <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
@@ -183,7 +181,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7fP7o0YumFd" role="3cqZAp" />
         <node concept="1QHqEK" id="7fP7o0YusAH" role="3cqZAp">
           <node concept="1QHqEC" id="7fP7o0YusAJ" role="1QHqEI">
             <node concept="3clFbS" id="7fP7o0YusAL" role="1bW5cS">
@@ -197,16 +194,22 @@
                   </node>
                   <node concept="liA8E" id="52ZF9D38bDp" role="2OqNvi">
                     <ref role="37wK5l" to="slod:52ZF9D36I0I" resolve="install" />
-                    <node concept="37vLTw" id="7fP7o0Yusqb" role="37wK5m">
-                      <ref role="3cqZAo" node="45KItpiJNhm" resolve="repo" />
+                    <node concept="2OqwBi" id="1akCdBO6jSa" role="37wK5m">
+                      <node concept="2WthIp" id="1akCdBO6jSd" role="2Oq$k0" />
+                      <node concept="2BZ7hE" id="1akCdBO6jSf" role="2OqNvi">
+                        <ref role="2WH_rO" node="1akCdBO6iGm" resolve="repo" />
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="37vLTw" id="7fP7o0YusJS" role="ukAjM">
-            <ref role="3cqZAo" node="45KItpiJNhm" resolve="repo" />
+          <node concept="2OqwBi" id="1akCdBO6jOH" role="ukAjM">
+            <node concept="2WthIp" id="1akCdBO6jOK" role="2Oq$k0" />
+            <node concept="2BZ7hE" id="1akCdBO6jOM" role="2OqNvi">
+              <ref role="2WH_rO" node="1akCdBO6iGm" resolve="repo" />
+            </node>
           </node>
         </node>
       </node>
@@ -223,6 +226,12 @@
             </node>
             <node concept="liA8E" id="52ZF9D38c83" role="2OqNvi">
               <ref role="37wK5l" to="slod:52ZF9D36Img" resolve="uninstall" />
+              <node concept="2OqwBi" id="1akCdBO6k5_" role="37wK5m">
+                <node concept="2WthIp" id="1akCdBO6jU0" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="1akCdBO6kgy" role="2OqNvi">
+                  <ref role="2WH_rO" node="1akCdBO6iGm" resolve="repo" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

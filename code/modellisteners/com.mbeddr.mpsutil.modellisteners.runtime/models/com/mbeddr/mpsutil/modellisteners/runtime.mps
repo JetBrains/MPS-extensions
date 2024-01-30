@@ -76,6 +76,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -94,6 +97,9 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+        <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
         <child id="1214996921760" name="bound" index="3ztrMU" />
@@ -912,6 +918,43 @@
             <node concept="3clFbS" id="52ZF9D39uUn" role="1zc67A">
               <node concept="3cpWs6" id="1akCdBO2dpX" role="3cqZAp">
                 <node concept="10Nm6u" id="1akCdBO2drt" role="3cqZAk" />
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="1GKgF7QTNP7" role="1zxBo5">
+            <node concept="XOnhg" id="1GKgF7QTNP8" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="1GKgF7QTNP9" role="1tU5fm">
+                <node concept="3uibUv" id="1GKgF7QTTAH" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~NoClassDefFoundError" resolve="NoClassDefFoundError" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="1GKgF7QTNPa" role="1zc67A">
+              <node concept="RRSsy" id="1GKgF7QU0CQ" role="3cqZAp">
+                <property role="RRSoG" value="gZ5fh_4/error" />
+                <node concept="3cpWs3" id="1GKgF7QUdNj" role="RRSoy">
+                  <node concept="37vLTw" id="1GKgF7QUdQa" role="3uHU7w">
+                    <ref role="3cqZAo" node="52ZF9D395cl" resolve="className" />
+                  </node>
+                  <node concept="Xl_RD" id="1GKgF7QU0CS" role="3uHU7B">
+                    <property role="Xl_RC" value="Could not load class " />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1GKgF7QUgWd" role="RRSow">
+                  <ref role="3cqZAo" node="1GKgF7QTNP8" resolve="e" />
+                </node>
+              </node>
+              <node concept="YS8fn" id="1GKgF7QUnYs" role="3cqZAp">
+                <node concept="2ShNRf" id="1GKgF7QUucd" role="YScLw">
+                  <node concept="1pGfFk" id="1GKgF7QUypG" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="1GKgF7QU$Em" role="37wK5m">
+                      <ref role="3cqZAo" node="1GKgF7QTNP8" resolve="e" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

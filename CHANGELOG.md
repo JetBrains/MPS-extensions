@@ -5,15 +5,27 @@ All notable changes to this project are documented in this file.
 Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
 The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## January 2024
+
+### Fixed
+
+- com.mbeddr.mpsutil.modellisteners: The newly supported interface listeners are now backward compatible and doesn't require regenerating the listener aspects anymore.
+
 ## December 2023
 
 ### Added
 
+- A new language `de.itemis.mps.statistics` was added that adds a new menu `MPS Statistics` to the `Tools`  menu. The containing action writes a file `dependencies.txt` to the root folder. It contains all the used dependencies of the current project. 
 - de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
 
 ### Fixed
 
 - The size of diagram cells is now recalculated before layouting the ports to fix some layout issues.
+- The performance of the language `de.itemis.mps.linenumbers` was improved.
+
+### Changed
+
+- mpsutil.intentions: Intentions available in read-only cells are not available anymore when the annotation showIntentionInReadyOnlyCell is not added.
 
 ## November 2023
 

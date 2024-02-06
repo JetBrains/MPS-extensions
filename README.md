@@ -1,15 +1,15 @@
 # MPS Extensions
 
 <a href="https://build.mbeddr.com/project.html?projectId=Mbeddr2_Mbeddr_Gradle_MpsExtensions&tab=projectOverview"><img src="https://build.mbeddr.com/app/rest/builds/buildType:(id:Mbeddr2_Mbeddr_Gradle_MpsExtenstions)/statusIcon"/></a>
-![≤ JetBrains MPS 2021.3.5](https://img.shields.io/badge/JetBrains%20MPS-%E2%89%A42021.3.5-orange)
+![JetBrains MPS 2022.2.1](https://img.shields.io/badge/JetBrains%20MPS-2022.2.1-orange)
 
 The MPS extensions aim to ease language development within MPS. They are maintained by itemis, JetBrains, and the open source community, and its development is closely aligned with the development of MPS.
 
-Join the dicussion on [Slack](https://slack-mps.jetbrains.com) in the #mps-extensions room.
+Join the discussion on [Slack](https://slack-mps.jetbrains.com) in the #mps-extensions room.
 
 ## Building
 
-The MPS extensions can be built with gradle. In order to build the source code, all you need is a Java 11 JDK. Of course, if you want to hack on the MPS extensions, you need MPS. The MPS version that is currently used is in the [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle#L61) file.
+The MPS extensions can be built with gradle. To build the source code, all you need is a Java 11 JDK. Of course, if you want to hack on the MPS extensions, you need MPS. The MPS version that is used is in the [build.gradle](https://github.com/JetBrains/MPS-extensions/blob/master/build.gradle#L61) file.
 
 Run the following commands to build the project:
 
@@ -31,9 +31,12 @@ See the [building](https://jetbrains.github.io/MPS-extensions/building/) page of
 
 ## Documentation
 
-For more information on the individual extensions, see our [documentation](https://jetbrains.github.io/MPS-extensions).
+For more information on the individual extensions, see our [documentation](https://jetbrains.github.io/MPS-extensions). The source of the documentation is located in the `docs` folder of this repository, if you would like to contribute to it. To preview the documentation run:
 
-The source of the documentation is located in the `docs` folder of this repository, in case you would like to contribute to it.
+```bash
+./gradlew previewDocs # Mac and Linux
+gradlew.bat previewDocs # Windows
+```
 
 ## Contributing
 

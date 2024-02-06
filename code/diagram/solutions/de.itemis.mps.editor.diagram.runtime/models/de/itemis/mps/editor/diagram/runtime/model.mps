@@ -20378,55 +20378,6 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1sJnak6xLmw" role="3cqZAp">
-          <node concept="3cpWsn" id="1sJnak6xLmx" role="3cpWs9">
-            <property role="TrG5h" value="rootEditorCell" />
-            <node concept="3uibUv" id="1sJnak6xLmv" role="1tU5fm">
-              <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
-            </node>
-            <node concept="2OqwBi" id="1sJnak6xLmy" role="33vP2m">
-              <node concept="37vLTw" id="1sJnak6xLmz" role="2Oq$k0">
-                <ref role="3cqZAo" node="4H2wsEjLAzh" resolve="accessor" />
-              </node>
-              <node concept="liA8E" id="1sJnak6xLm$" role="2OqNvi">
-                <ref role="37wK5l" node="4teJTSBx4sO" resolve="getRootEditorCell" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2Gpval" id="1sJnak6xLtZ" role="3cqZAp">
-          <node concept="2GrKxI" id="1sJnak6xLu1" role="2Gsz3X">
-            <property role="TrG5h" value="subdiagram" />
-          </node>
-          <node concept="2YIFZM" id="1sJnak6xLHZ" role="2GsD0m">
-            <ref role="37wK5l" to="2o4v:1sJnak6wM5g" resolve="firstLevelDescendants" />
-            <ref role="1Pybhc" to="2o4v:1sJnak6wM3n" resolve="EditorUtil" />
-            <node concept="37vLTw" id="1sJnak6xLM$" role="37wK5m">
-              <ref role="3cqZAo" node="1sJnak6xLmx" resolve="rootEditorCell" />
-            </node>
-            <node concept="3VsKOn" id="1sJnak6xLXQ" role="37wK5m">
-              <ref role="3VsUkX" node="5S8_I2FHU$b" resolve="IDiagramCell" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="1sJnak6xLu5" role="2LFqv$">
-            <node concept="3clFbF" id="1sJnak6xPXN" role="3cqZAp">
-              <node concept="1rXfSq" id="1sJnak6xPXM" role="3clFbG">
-                <ref role="37wK5l" node="4H2wsEjJQdV" resolve="fromSModel_Subdiagram" />
-                <node concept="2OqwBi" id="1sJnak6xVby" role="37wK5m">
-                  <node concept="2GrUjf" id="1sJnak6xV4I" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="1sJnak6xLu1" resolve="subdiagram" />
-                  </node>
-                  <node concept="liA8E" id="1sJnak6xWza" role="2OqNvi">
-                    <ref role="37wK5l" node="5S8_I2GeiKa" resolve="getDiagramModel" />
-                  </node>
-                </node>
-                <node concept="2GrUjf" id="iiBXaOQifN" role="37wK5m">
-                  <ref role="2Gs0qQ" node="1sJnak6xLu1" resolve="subdiagram" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="37vLTG" id="4H2wsEjLAzh" role="3clF46">
         <property role="TrG5h" value="accessor" />

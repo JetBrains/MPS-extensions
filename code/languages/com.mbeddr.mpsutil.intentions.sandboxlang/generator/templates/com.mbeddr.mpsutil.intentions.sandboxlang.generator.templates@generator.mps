@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:92df4366-26f3-462f-8611-8e215c7f3049(com.mbeddr.mpsutil.intentions.sandboxlang.templates@generator)">
+<model ref="r:92df4366-26f3-462f-8611-8e215c7f3049(com.mbeddr.mpsutil.intentions.sandboxlang.generator.templates@generator)">
   <persistence version="9" />
   <languages>
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />

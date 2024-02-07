@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="com.mbeddr.mpsutil.intentions.sandboxlang" uuid="80dab4d6-7c88-4760-9a42-0338421bd077">
+    <generator alias="main" namespace="com.mbeddr.mpsutil.intentions.sandboxlang.generator" uuid="80dab4d6-7c88-4760-9a42-0338421bd077">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -48,7 +48,7 @@
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="4972ae94-72e7-499b-8766-0d6acffdb4f2(com.mbeddr.mpsutil.intentions.sandboxlang)" version="0" />
-        <module reference="80dab4d6-7c88-4760-9a42-0338421bd077(com.mbeddr.mpsutil.intentions.sandboxlang)" version="0" />
+        <module reference="80dab4d6-7c88-4760-9a42-0338421bd077(com.mbeddr.mpsutil.intentions.sandboxlang.generator)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
       </dependencyVersions>
       <mapping-priorities />

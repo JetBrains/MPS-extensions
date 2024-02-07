@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <stubModelEntries>
-    <stubModelEntry path="${module}/resources" />
+    <stubModelEntry path="${module}/lib/resources.jar" />
   </stubModelEntries>
   <sourcePath />
   <languageVersions>

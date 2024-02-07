@@ -17,10 +17,8 @@ It supports a few different checkers. The expression `thisElement` always refers
     - all elements must match, but there can be more elements (*allOrMore*)
     - all elements must match, but there can be fewer elements (*allOrLess*)
     - none of the elements should match (*noneOfThese*).
-  
-## Example: check the structure of an ArrayList
 
-```
+``` title="Example: check the structure of an ArrayList "
 list<Object> root = new arraylist<Object>{"a", 2, new arraylist<Integer>{10, 20}, 3}; 
  
 check structure of root { 

@@ -169,9 +169,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
-        <child id="1164991057263" name="throwable" index="YScLw" />
-      </concept>
       <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
         <child id="1081256993305" name="classType" index="2ZW6by" />
         <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
@@ -8821,26 +8818,6 @@
             </node>
             <node concept="3nyPlj" id="7PuCnELASZd" role="33vP2m">
               <ref role="37wK5l" to="7e8u:~MPSTreeNode.getTree()" resolve="getTree" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="7PuCnELATv3" role="3cqZAp">
-          <node concept="3clFbS" id="7PuCnELATv5" role="3clFbx">
-            <node concept="YS8fn" id="7PuCnELAUJS" role="3cqZAp">
-              <node concept="2ShNRf" id="7PuCnELAUU9" role="YScLw">
-                <node concept="1pGfFk" id="7PuCnELAWEr" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="7PuCnELAWO7" role="37wK5m">
-                    <property role="Xl_RC" value="Tree is not set" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="7PuCnELAUdJ" role="3clFbw">
-            <node concept="10Nm6u" id="7PuCnELAUnd" role="3uHU7w" />
-            <node concept="37vLTw" id="7PuCnELATEy" role="3uHU7B">
-              <ref role="3cqZAo" node="7PuCnELASZc" resolve="tree" />
             </node>
           </node>
         </node>

@@ -8863,11 +8863,33 @@
             <ref role="37wK5l" to="7e8u:~MPSTreeNode.doUpdatePresentation()" resolve="doUpdatePresentation" />
           </node>
         </node>
+        <node concept="3cpWs8" id="632tebqvzpv" role="3cqZAp">
+          <node concept="3cpWsn" id="632tebqvzpw" role="3cpWs9">
+            <property role="TrG5h" value="tree" />
+            <node concept="3uibUv" id="632tebqvtJn" role="1tU5fm">
+              <ref role="3uigEE" node="7diJr$RhsEC" resolve="CustomProjectTree" />
+            </node>
+            <node concept="1rXfSq" id="632tebqvzpx" role="33vP2m">
+              <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="632tebqvM02" role="3cqZAp">
+          <node concept="3clFbS" id="632tebqvM04" role="3clFbx">
+            <node concept="3cpWs6" id="632tebqw7b2" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="632tebqvWtS" role="3clFbw">
+            <node concept="10Nm6u" id="632tebqw046" role="3uHU7w" />
+            <node concept="37vLTw" id="632tebqvQwi" role="3uHU7B">
+              <ref role="3cqZAo" node="632tebqvzpw" resolve="tree" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7PuCnELBlqI" role="3cqZAp">
           <node concept="2OqwBi" id="7PuCnELBqRz" role="3clFbG">
             <node concept="2OqwBi" id="7PuCnELBlWK" role="2Oq$k0">
-              <node concept="1rXfSq" id="7PuCnELBlqG" role="2Oq$k0">
-                <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
+              <node concept="37vLTw" id="632tebqvzpy" role="2Oq$k0">
+                <ref role="3cqZAo" node="632tebqvzpw" resolve="tree" />
               </node>
               <node concept="liA8E" id="7PuCnELBqLM" role="2OqNvi">
                 <ref role="37wK5l" node="7PuCnEL_inn" resolve="getUpdater" />

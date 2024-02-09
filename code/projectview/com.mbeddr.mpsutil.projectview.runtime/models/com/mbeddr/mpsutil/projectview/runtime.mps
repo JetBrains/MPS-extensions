@@ -28,6 +28,8 @@
     <import index="yyf4" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.util(MPS.OpenAPI/)" />
     <import index="mmaq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.jdom(MPS.Core/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
+    <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
+    <import index="9ti4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.extensions(MPS.IDEA/)" implicit="true" />
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
@@ -7002,6 +7004,32 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbF" id="56aJbp3MbDG" role="3cqZAp">
+                  <node concept="2OqwBi" id="56aJbp3MtJb" role="3clFbG">
+                    <node concept="2OqwBi" id="56aJbp3MhDc" role="2Oq$k0">
+                      <node concept="10M0yZ" id="56aJbp3MecH" role="2Oq$k0">
+                        <ref role="1PxDUh" to="k21q:~AbstractProjectViewPane" resolve="AbstractProjectViewPane" />
+                        <ref role="3cqZAo" to="k21q:~AbstractProjectViewPane.EP" resolve="EP" />
+                      </node>
+                      <node concept="liA8E" id="56aJbp3Ml$n" role="2OqNvi">
+                        <ref role="37wK5l" to="9ti4:~ProjectExtensionPointName.getPoint(com.intellij.openapi.extensions.AreaInstance)" resolve="getPoint" />
+                        <node concept="37vLTw" id="56aJbp3M_t4" role="37wK5m">
+                          <ref role="3cqZAo" node="2ZGhpRffcqr" resolve="ideaProject" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="56aJbp3MCHq" role="2OqNvi">
+                      <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object,com.intellij.openapi.Disposable)" resolve="registerExtension" />
+                      <node concept="37vLTw" id="56aJbp3N5pS" role="37wK5m">
+                        <ref role="3cqZAo" node="VPgi8etJvN" resolve="pane" />
+                      </node>
+                      <node concept="2YIFZM" id="56aJbp3NULh" role="37wK5m">
+                        <ref role="1Pybhc" to="zn9m:~Disposer" resolve="Disposer" />
+                        <ref role="37wK5l" to="zn9m:~Disposer.newDisposable()" resolve="newDisposable" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -7047,6 +7075,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="56aJbp3NqF8" role="3cqZAp" />
         <node concept="3clFbF" id="25jQj6XP1zC" role="3cqZAp">
           <node concept="2OqwBi" id="25jQj6XP2uo" role="3clFbG">
             <node concept="3EllGN" id="25jQj6XP2dw" role="2Oq$k0">
@@ -7127,6 +7156,29 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbF" id="56aJbp3NtF5" role="3cqZAp">
+                  <node concept="2OqwBi" id="56aJbp3NtF6" role="3clFbG">
+                    <node concept="2OqwBi" id="56aJbp3NtF7" role="2Oq$k0">
+                      <node concept="10M0yZ" id="56aJbp3NtF8" role="2Oq$k0">
+                        <ref role="1PxDUh" to="k21q:~AbstractProjectViewPane" resolve="AbstractProjectViewPane" />
+                        <ref role="3cqZAo" to="k21q:~AbstractProjectViewPane.EP" resolve="EP" />
+                      </node>
+                      <node concept="liA8E" id="56aJbp3NtF9" role="2OqNvi">
+                        <ref role="37wK5l" to="9ti4:~ProjectExtensionPointName.getPoint(com.intellij.openapi.extensions.AreaInstance)" resolve="getPoint" />
+                        <node concept="37vLTw" id="56aJbp3NtFa" role="37wK5m">
+                          <ref role="3cqZAo" node="VPgi8eujhM" resolve="ideaProject" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="56aJbp3NtFb" role="2OqNvi">
+                      <ref role="37wK5l" to="9ti4:~ExtensionPoint.unregisterExtension(java.lang.Object)" resolve="unregisterExtension" />
+                      <node concept="37vLTw" id="56aJbp3NtFc" role="37wK5m">
+                        <ref role="3cqZAo" node="VPgi8eujhx" resolve="pane" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="56aJbp3PsVr" role="3cqZAp" />
                 <node concept="3clFbF" id="6B7erwvFIwS" role="3cqZAp">
                   <node concept="2OqwBi" id="6B7erwvFIGa" role="3clFbG">
                     <node concept="37vLTw" id="6B7erwvFIwQ" role="2Oq$k0">

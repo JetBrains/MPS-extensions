@@ -9,6 +9,7 @@
       <modulePath path="$PROJECT_DIR$/blutil/solutions/com.mbeddr.mpsutil.blutil.genutil.rt/com.mbeddr.mpsutil.blutil.genutil.rt.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil.genutil.lang/test.com.mbeddr.mpsutil.blutil.genutil.lang.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil.genutil/test.com.mbeddr.mpsutil.blutil.genutil.msd" folder="blutil" />
+      <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil/test.com.mbeddr.mpsutil.blutil.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.ts.conceptswitch/test.ts.conceptswitch.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.ts.match/match.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/build/solutions/allScripts/allScripts.msd" folder="build" />

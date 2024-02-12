@@ -9,8 +9,9 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -1010,6 +1011,71 @@
     <node concept="PrWs8" id="6HZ4hJtXUR_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7zYevsMARkc">
+    <property role="EcuMT" value="8718469662504613132" />
+    <property role="TrG5h" value="IfInstanceOfStatement" />
+    <property role="34LRSv" value="ifInstanceOf" />
+    <property role="R4oN_" value="if a node is instance of concept (with branch support)" />
+    <property role="3GE5qa" value="instanceof" />
+    <ref role="1TJDcQ" to="tp25:1Cyzq4Pv$D4" resolve="IfInstanceOfStatement" />
+    <node concept="1TJgyj" id="7zYevsMD3Op" role="1TKVEi">
+      <property role="IQ2ns" value="8718469662505188633" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elseifClauses" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7zYevsMKS6i" resolve="IfInstanceOfElseIfClause" />
+    </node>
+    <node concept="1TJgyj" id="7zYevsMCWfR" role="1TKVEi">
+      <property role="IQ2ns" value="8718469662505157623" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ifFalse" />
+      <ref role="20lvS9" to="tpee:fK9aQHR" resolve="BlockStatement" />
+    </node>
+    <node concept="PrWs8" id="7zYevsNzSXk" role="PzmwI">
+      <ref role="PrY4T" node="7zYevsNzSn1" resolve="IfInstanceOfVariableProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7zYevsMKS6i">
+    <property role="EcuMT" value="8718469662507237778" />
+    <property role="3GE5qa" value="instanceof" />
+    <property role="TrG5h" value="IfInstanceOfElseIfClause" />
+    <property role="34LRSv" value="else ifInstanceOf" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1Cyzq4Pv$D8" role="1TKVEi">
+      <property role="20kJfa" value="nodeConcept" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="1883223317721008712" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1Cyzq4Pv$D5" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="1883223317721008709" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
+    <node concept="1TJgyj" id="1Cyzq4Pv$D7" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT" />
+      <property role="20kJfa" value="variable" />
+      <property role="20lbJX" value="fLJekj4" />
+      <property role="IQ2ns" value="1883223317721008711" />
+      <ref role="20lvS9" to="tp25:1Cyzq4Pv$D9" resolve="IfInstanceOfVariable" />
+    </node>
+    <node concept="PrWs8" id="7zYevsNzVeR" role="PzmwI">
+      <ref role="PrY4T" node="7zYevsNzSn1" resolve="IfInstanceOfVariableProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7zYevsNlssB">
+    <property role="EcuMT" value="8718469662516823847" />
+    <property role="3GE5qa" value="instanceof" />
+    <property role="TrG5h" value="IfInstanceOfVarReference" />
+    <ref role="1TJDcQ" to="tp25:1Cyzq4PvWDN" resolve="IfInstanceOfVarReference" />
+  </node>
+  <node concept="PlHQZ" id="7zYevsNzSn1">
+    <property role="EcuMT" value="8718469662520608193" />
+    <property role="3GE5qa" value="instanceof" />
+    <property role="TrG5h" value="IfInstanceOfVariableProvider" />
   </node>
 </model>
 

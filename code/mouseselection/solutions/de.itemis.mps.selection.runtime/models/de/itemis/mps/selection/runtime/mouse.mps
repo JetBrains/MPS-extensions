@@ -25,7 +25,6 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" implicit="true" />
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -98,6 +97,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -208,9 +208,6 @@
         <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
       </concept>
       <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
-    </language>
-    <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
-      <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -2634,28 +2631,18 @@
                       </node>
                     </node>
                     <node concept="1Wc70l" id="630t2b8eeIY" role="3clFbw">
-                      <node concept="3clFbC" id="630t2b8eeIZ" role="3uHU7w">
-                        <node concept="2EnYce" id="630t2b8eeJ0" role="3uHU7w">
-                          <node concept="2OqwBi" id="1k1VwvtQHgN" role="2Oq$k0">
-                            <node concept="37vLTw" id="1k1VwvtQHgO" role="2Oq$k0">
-                              <ref role="3cqZAo" node="630t2b8eeIF" resolve="toNode" />
-                            </node>
-                            <node concept="2NL2c5" id="1k1VwvtQHgP" role="2OqNvi" />
+                      <node concept="17R0WA" id="3oJDVADAKcB" role="3uHU7w">
+                        <node concept="2OqwBi" id="3oJDVADAKcC" role="3uHU7B">
+                          <node concept="37vLTw" id="3oJDVADAKcD" role="2Oq$k0">
+                            <ref role="3cqZAo" node="630t2b8eeI_" resolve="fromNode" />
                           </node>
-                          <node concept="liA8E" id="1k1VwvtQHgQ" role="2OqNvi">
-                            <ref role="37wK5l" to="c17a:~SNamedElement.getName()" resolve="getName" />
-                          </node>
+                          <node concept="2NL2c5" id="3oJDVADAKcE" role="2OqNvi" />
                         </node>
-                        <node concept="2EnYce" id="630t2b8eeJ3" role="3uHU7B">
-                          <node concept="2OqwBi" id="1k1VwvtQHgS" role="2Oq$k0">
-                            <node concept="37vLTw" id="1k1VwvtQHgT" role="2Oq$k0">
-                              <ref role="3cqZAo" node="630t2b8eeI_" resolve="fromNode" />
-                            </node>
-                            <node concept="2NL2c5" id="1k1VwvtQHgU" role="2OqNvi" />
+                        <node concept="2OqwBi" id="3oJDVADAKcF" role="3uHU7w">
+                          <node concept="37vLTw" id="3oJDVADAKcG" role="2Oq$k0">
+                            <ref role="3cqZAo" node="630t2b8eeIF" resolve="toNode" />
                           </node>
-                          <node concept="liA8E" id="1k1VwvtQHgV" role="2OqNvi">
-                            <ref role="37wK5l" to="c17a:~SNamedElement.getName()" resolve="getName" />
-                          </node>
+                          <node concept="2NL2c5" id="3oJDVADAKcH" role="2OqNvi" />
                         </node>
                       </node>
                       <node concept="1Wc70l" id="630t2b8eeJ6" role="3uHU7B">

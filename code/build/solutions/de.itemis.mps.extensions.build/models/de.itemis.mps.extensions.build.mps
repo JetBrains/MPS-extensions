@@ -6604,6 +6604,16 @@
               </node>
             </node>
           </node>
+          <node concept="1SiIV0" id="7zYevsNr36F" role="3bR37C">
+            <node concept="3bR9La" id="7zYevsNr36G" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7YI57w6K0rx" resolve="jetbrains.mps.lang.smodel#1139186730696" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7zYevsNr36H" role="3bR37C">
+            <node concept="3bR9La" id="7zYevsNr36I" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg8" resolve="jetbrains.mps.runtime" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="2NyZxKpUPwf" role="1E1XAP">
           <ref role="1E0d5P" node="2NyZxKpUL5F" resolve="com.mbeddr.mpsutil.blutil.rt" />
@@ -6646,6 +6656,16 @@
         <node concept="1SiIV0" id="64IPVRJm4p$" role="3bR37C">
           <node concept="Rbm2T" id="64IPVRJm4p_" role="1SiIV1">
             <ref role="1E1Vl2" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7zYevsNr36s" role="3bR37C">
+          <node concept="3bR9La" id="7zYevsNr36t" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9I" resolve="jetbrains.mps.lang.sharedConcepts" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7zYevsNr36D" role="3bR37C">
+          <node concept="1Busua" id="7zYevsNr36E" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
           </node>
         </node>
       </node>
@@ -6939,6 +6959,11 @@
         <node concept="1SiIV0" id="2obP5Y84854" role="3bR37C">
           <node concept="3bR9La" id="2obP5Y84855" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:rD7wKO6k$" resolve="MPS.Generator" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7zYevsNr37x" role="3bR37C">
+          <node concept="3bR9La" id="7zYevsNr37y" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
       </node>

@@ -13,6 +13,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ### Fixed
 
+- de.itemis.mps.editor.diagram: Avoid unnecessary layouting of sub-diagrams.
 - de.itemis.mps.editor.diagram: A layouting bug related to ports was fixed.
 
 ## January 2024

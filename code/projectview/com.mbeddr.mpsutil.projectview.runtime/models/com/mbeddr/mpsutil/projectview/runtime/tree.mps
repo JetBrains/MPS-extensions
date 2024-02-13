@@ -170,9 +170,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
-        <child id="1164991057263" name="throwable" index="YScLw" />
-      </concept>
       <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
         <child id="1081256993305" name="classType" index="2ZW6by" />
         <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
@@ -8825,26 +8822,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="7PuCnELATv3" role="3cqZAp">
-          <node concept="3clFbS" id="7PuCnELATv5" role="3clFbx">
-            <node concept="YS8fn" id="7PuCnELAUJS" role="3cqZAp">
-              <node concept="2ShNRf" id="7PuCnELAUU9" role="YScLw">
-                <node concept="1pGfFk" id="7PuCnELAWEr" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="7PuCnELAWO7" role="37wK5m">
-                    <property role="Xl_RC" value="Tree is not set" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="7PuCnELAUdJ" role="3clFbw">
-            <node concept="10Nm6u" id="7PuCnELAUnd" role="3uHU7w" />
-            <node concept="37vLTw" id="7PuCnELATEy" role="3uHU7B">
-              <ref role="3cqZAo" node="7PuCnELASZc" resolve="tree" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="7PuCnELAR2e" role="3cqZAp">
           <node concept="10QFUN" id="7PuCnELAXUT" role="3clFbG">
             <node concept="3uibUv" id="7PuCnELAYj6" role="10QFUM">
@@ -8887,11 +8864,33 @@
             <ref role="37wK5l" to="7e8u:~MPSTreeNode.doUpdatePresentation()" resolve="doUpdatePresentation" />
           </node>
         </node>
+        <node concept="3cpWs8" id="632tebqvzpv" role="3cqZAp">
+          <node concept="3cpWsn" id="632tebqvzpw" role="3cpWs9">
+            <property role="TrG5h" value="tree" />
+            <node concept="3uibUv" id="632tebqvtJn" role="1tU5fm">
+              <ref role="3uigEE" node="7diJr$RhsEC" resolve="CustomProjectTree" />
+            </node>
+            <node concept="1rXfSq" id="632tebqvzpx" role="33vP2m">
+              <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="632tebqvM02" role="3cqZAp">
+          <node concept="3clFbS" id="632tebqvM04" role="3clFbx">
+            <node concept="3cpWs6" id="632tebqw7b2" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="632tebqvWtS" role="3clFbw">
+            <node concept="10Nm6u" id="632tebqw046" role="3uHU7w" />
+            <node concept="37vLTw" id="632tebqvQwi" role="3uHU7B">
+              <ref role="3cqZAo" node="632tebqvzpw" resolve="tree" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7PuCnELBlqI" role="3cqZAp">
           <node concept="2OqwBi" id="7PuCnELBqRz" role="3clFbG">
             <node concept="2OqwBi" id="7PuCnELBlWK" role="2Oq$k0">
-              <node concept="1rXfSq" id="7PuCnELBlqG" role="2Oq$k0">
-                <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
+              <node concept="37vLTw" id="632tebqvzpy" role="2Oq$k0">
+                <ref role="3cqZAo" node="632tebqvzpw" resolve="tree" />
               </node>
               <node concept="liA8E" id="7PuCnELBqLM" role="2OqNvi">
                 <ref role="37wK5l" node="7PuCnEL_inn" resolve="getUpdater" />

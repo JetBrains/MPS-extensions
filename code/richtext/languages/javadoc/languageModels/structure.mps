@@ -77,6 +77,7 @@
     <property role="TrG5h" value="SeeClassTag" />
     <property role="EcuMT" value="842294157794129797" />
     <property role="34LRSv" value="@see" />
+    <property role="R4oN_" value="Javadoc tag" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="IKrxbBHbue" role="1TKVEi">
       <property role="20kJfa" value="classifier" />
@@ -91,6 +92,8 @@
   <node concept="1TIwiD" id="IKrxbBHfGb">
     <property role="TrG5h" value="LinkTag" />
     <property role="EcuMT" value="842294157794147083" />
+    <property role="34LRSv" value="@link" />
+    <property role="R4oN_" value="Javadoc tag" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="IKrxbBHfGy" role="1TKVEi">
       <property role="20kJfa" value="target" />
@@ -124,7 +127,7 @@
   </node>
   <node concept="1TIwiD" id="ehGfXvI$vs">
     <property role="TrG5h" value="BoldText" />
-    <property role="R4oN_" value="Bold Text" />
+    <property role="R4oN_" value="bold text" />
     <property role="34LRSv" value="&lt;b&gt;" />
     <property role="EcuMT" value="257181264606021596" />
     <ref role="1TJDcQ" node="4F4peXsrXtK" resolve="HtmlTag" />
@@ -132,6 +135,8 @@
   <node concept="1TIwiD" id="4F4peXsrXtG">
     <property role="TrG5h" value="ItalicText" />
     <property role="EcuMT" value="5387542033452750700" />
+    <property role="R4oN_" value="italicized text" />
+    <property role="34LRSv" value="&lt;i&gt;" />
     <ref role="1TJDcQ" node="4F4peXsrXtK" resolve="HtmlTag" />
     <node concept="PrWs8" id="4F4peXsrXtH" role="PzmwI">
       <ref role="PrY4T" to="87nw:2dWzqxEBBFG" resolve="IWord" />
@@ -140,6 +145,8 @@
   <node concept="1TIwiD" id="4$G0AukZXjj">
     <property role="TrG5h" value="TypeParamTag" />
     <property role="EcuMT" value="5272591907648689363" />
+    <property role="34LRSv" value="@param" />
+    <property role="R4oN_" value="Javadoc tag" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4$G0AukZXjm" role="1TKVEl">
       <property role="TrG5h" value="documentation" />

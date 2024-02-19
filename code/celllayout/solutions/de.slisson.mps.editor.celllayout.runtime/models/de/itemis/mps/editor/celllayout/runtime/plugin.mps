@@ -276,7 +276,7 @@
           <node concept="1Y3b0j" id="6IJAP0oQf0Q" role="YeSDq">
             <property role="2bfB8j" value="true" />
             <ref role="1Y3XeK" node="6IJAP0oQf_3" resolve="DoNothingAdditionalPainter" />
-            <ref role="37wK5l" to="exr9:~AbstractAdditionalPainter.&lt;init&gt;()" resolve="AbstractAdditionalPainter" />
+            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
             <node concept="3Tm1VV" id="6IJAP0oQf0R" role="1B3o_S" />
             <node concept="3clFb_" id="6IJAP0oQf2H" role="jymVt">
               <property role="1EzhhJ" value="false" />

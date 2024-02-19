@@ -841,7 +841,7 @@
     <property role="34LRSv" value="DemoOptionalCellsCapability" />
     <property role="R4oN_" value="A demo concept to show off the capabilities of the optional cell" />
     <property role="3GE5qa" value="CapabilitiesDemo" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="67iSu2wewjc" role="1TKVEl">
       <property role="IQ2nx" value="7048944721665328332" />
       <property role="TrG5h" value="property1" />
@@ -879,7 +879,7 @@
     <property role="TrG5h" value="StmtContainerParent" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="grammarWrapTest" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3Lzx5Pf0jnO" role="1TKVEi">
       <property role="IQ2ns" value="4351467201262335476" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -894,7 +894,7 @@
     <property role="TrG5h" value="DemoRoot" />
     <property role="34LRSv" value="DemoRoot" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="67iSu2w1UsD" role="1TKVEi">
       <property role="IQ2ns" value="7048944721662027561" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -942,7 +942,7 @@
     <property role="3GE5qa" value="grammarWrapTest" />
     <property role="TrG5h" value="StmtContainerParentWhitelisting" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1045PmWki1E" role="1TKVEi">
       <property role="IQ2ns" value="1154073061512781930" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -971,7 +971,7 @@
     <property role="3GE5qa" value="grammarWrapTest" />
     <property role="TrG5h" value="WrapStmtParent" />
     <property role="34LRSv" value="wrapStmt" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3Lzx5Pf0kj2" role="1TKVEi">
       <property role="IQ2ns" value="4351467201262339266" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -995,7 +995,7 @@
     <property role="3GE5qa" value="grammarWrapTest" />
     <property role="TrG5h" value="WrapStmtParentWhitelisting" />
     <property role="34LRSv" value="wrapStmt" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1045PmWkiyF" role="1TKVEi">
       <property role="IQ2ns" value="1154073061512784043" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1012,7 +1012,7 @@
     <property role="3GE5qa" value="grammarWrapTest" />
     <property role="TrG5h" value="StmtContainerAncestorWhitelisting" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6sxj0_UzcGb" role="1TKVEi">
       <property role="IQ2ns" value="7431304463732493067" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1026,7 +1026,7 @@
     <property role="3GE5qa" value="grammarWrapTest" />
     <property role="TrG5h" value="WrapStmtAncestorWhitelisting" />
     <property role="34LRSv" value="wrapStmt" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6sxj0_Uzble" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1043,7 +1043,7 @@
     <property role="3GE5qa" value="grammarWrapTest" />
     <property role="TrG5h" value="WrapType" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3aFJVZlqur9">
     <property role="EcuMT" value="3651222753554065097" />

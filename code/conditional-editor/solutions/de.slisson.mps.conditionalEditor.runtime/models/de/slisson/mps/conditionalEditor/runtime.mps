@@ -4,13 +4,14 @@
   <attribute name="concise" value="true" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
   </languages>
   <imports>
-    <import index="q7tw" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.apache.log4j(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="iwf0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.descriptor(MPS.Editor/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="ycmz" ref="r:af3e1a90-527b-4262-8066-857208a4f4fb(de.slisson.mps.reflection.runtime)" />
+    <import index="dr5r" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.logging(JDK/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -480,13 +481,18 @@
           <node concept="3cpWsn" id="nR2eIyJaRu" role="3cpWs9">
             <property role="TrG5h" value="logger" />
             <node concept="3uibUv" id="nR2eIyJaRq" role="1tU5fm">
-              <ref role="3uigEE" to="q7tw:~Logger" resolve="Logger" />
+              <ref role="3uigEE" to="dr5r:~Logger" resolve="Logger" />
             </node>
-            <node concept="2YIFZM" id="5P1DsEq50fv" role="33vP2m">
-              <ref role="37wK5l" to="q7tw:~LogManager.getLogger(java.lang.String)" resolve="getLogger" />
-              <ref role="1Pybhc" to="q7tw:~LogManager" resolve="LogManager" />
-              <node concept="37vLTw" id="5P1DsEq50fw" role="37wK5m">
-                <ref role="3cqZAo" node="5P1DsEq53Q7" resolve="editorRegistryClassName" />
+            <node concept="2OqwBi" id="1BrAZtXTq_X" role="33vP2m">
+              <node concept="2YIFZM" id="1BrAZtXTq2D" role="2Oq$k0">
+                <ref role="37wK5l" to="dr5r:~LogManager.getLogManager()" resolve="getLogManager" />
+                <ref role="1Pybhc" to="dr5r:~LogManager" resolve="LogManager" />
+              </node>
+              <node concept="liA8E" id="1BrAZtXTqKS" role="2OqNvi">
+                <ref role="37wK5l" to="dr5r:~LogManager.getLogger(java.lang.String)" resolve="getLogger" />
+                <node concept="37vLTw" id="1BrAZtXTr1J" role="37wK5m">
+                  <ref role="3cqZAo" node="5P1DsEq53Q7" resolve="editorRegistryClassName" />
+                </node>
               </node>
             </node>
           </node>
@@ -497,10 +503,10 @@
               <ref role="3cqZAo" node="nR2eIyJaRu" resolve="logger" />
             </node>
             <node concept="liA8E" id="5P1DsEq51Pe" role="2OqNvi">
-              <ref role="37wK5l" to="q7tw:~Category.setLevel(org.apache.log4j.Level)" resolve="setLevel" />
-              <node concept="10M0yZ" id="5P1DsEq51PL" role="37wK5m">
-                <ref role="1PxDUh" to="q7tw:~Level" resolve="Level" />
-                <ref role="3cqZAo" to="q7tw:~Level.OFF" resolve="OFF" />
+              <ref role="37wK5l" to="dr5r:~Logger.setLevel(java.util.logging.Level)" resolve="setLevel" />
+              <node concept="10M0yZ" id="1BrAZtXTslV" role="37wK5m">
+                <ref role="3cqZAo" to="dr5r:~Level.OFF" resolve="OFF" />
+                <ref role="1PxDUh" to="dr5r:~Level" resolve="Level" />
               </node>
             </node>
           </node>

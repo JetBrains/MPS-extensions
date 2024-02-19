@@ -43,8 +43,8 @@
     <import index="y8s3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.project(MPS.Core/)" />
     <import index="b0pz" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.facets(MPS.Core/)" />
     <import index="w0gx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.modules(MPS.Core/)" />
-    <import index="pjrh" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter(MPS.Core/)" />
     <import index="3o3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.google.common.collect(MPS.IDEA/)" />
+    <import index="pjrh" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter(MPS.Core/)" />
     <import index="g3l6" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.model(MPS.Core/)" implicit="true" />
     <import index="3ju5" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.vfs(MPS.Core/)" implicit="true" />
   </imports>
@@ -12435,7 +12435,7 @@
               <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
             </node>
             <node concept="1rXfSq" id="1oPURZ4aZSj" role="33vP2m">
-              <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
+              <ref role="37wK5l" node="6mTvcOx1jSf" resolve="getConcept" />
             </node>
           </node>
         </node>
@@ -12966,7 +12966,7 @@
               <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
             </node>
             <node concept="1rXfSq" id="1oPURZ4cp6T" role="33vP2m">
-              <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
+              <ref role="37wK5l" node="6mTvcOx1jSf" resolve="getConcept" />
             </node>
           </node>
         </node>
@@ -13058,7 +13058,7 @@
               <ref role="3uigEE" to="jks5:~IConcept" resolve="IConcept" />
             </node>
             <node concept="1rXfSq" id="1oPURZ4cvOu" role="33vP2m">
-              <ref role="37wK5l" to="jks5:~INode.getConcept()" resolve="getConcept" />
+              <ref role="37wK5l" node="6mTvcOx1jSf" resolve="getConcept" />
             </node>
           </node>
         </node>

@@ -4472,7 +4472,7 @@
         </node>
       </node>
       <node concept="1Z6Ecs" id="2iZPrFZnMN8" role="33vP2m">
-        <ref role="1Z6EpT" to="zddv:5qf1oe_$9mw" resolve="intentionsInReadOnlyCell" />
+        <ref role="1Z6EpT" to="zddv:5qf1oe_$9mw" resolve="intentions-in-read-only-cell" />
       </node>
     </node>
     <node concept="2tJIrI" id="5qf1oe_$8xF" role="jymVt" />
@@ -4516,7 +4516,7 @@
               <node concept="10Nm6u" id="5qf1oe_zNwG" role="3uHU7w" />
             </node>
             <node concept="1rXfSq" id="5qf1oe_zZ7k" role="3uHU7w">
-              <ref role="37wK5l" node="5qf1oe_zXNE" resolve="isCellsReadOnlyInEditor" />
+              <ref role="37wK5l" node="5qf1oe_zXNE" resolve="allowIntentionsInReadOnlyCells" />
               <node concept="37vLTw" id="5qf1oe_$h66" role="37wK5m">
                 <ref role="3cqZAo" node="5qf1oe_zNwt" resolve="editorComponent" />
               </node>
@@ -4574,7 +4574,7 @@
                   <node concept="10Nm6u" id="5qf1oe_zXO1" role="3uHU7w" />
                 </node>
                 <node concept="1rXfSq" id="5qf1oe_zXO2" role="3uHU7w">
-                  <ref role="37wK5l" node="5qf1oe_zyw2" resolve="isCellReadOnly" />
+                  <ref role="37wK5l" node="5qf1oe_zyw2" resolve="isAllowIntentionsInReadOnlyCell" />
                   <node concept="37vLTw" id="5qf1oe_zXO3" role="37wK5m">
                     <ref role="3cqZAo" node="5qf1oe_zXNU" resolve="cell" />
                   </node>
@@ -4607,7 +4607,7 @@
           <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
         </node>
         <node concept="3uibUv" id="5qf1oe_zyw5" role="1tU5fm">
-          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="jetbrains.mps.openapi.editor.cells.EditorCell" />
+          <ref role="3uigEE" to="f4zo:~EditorCell" resolve="EditorCell" />
         </node>
       </node>
       <node concept="3clFbS" id="5qf1oe_zyw6" role="3clF47">

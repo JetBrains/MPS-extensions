@@ -744,7 +744,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="5vc9XxaAWIx" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="2tJIrI" id="5vc9Xxa$Mn4" role="jymVt" />
@@ -771,7 +771,7 @@
         <node concept="3clFbF" id="5vc9Xxa_4do" role="3cqZAp">
           <node concept="37vLTI" id="5vc9Xxa_4NN" role="3clFbG">
             <node concept="37vLTw" id="5vc9Xxa_6nn" role="37vLTx">
-              <ref role="3cqZAo" node="5vc9Xxa_2KE" resolve="readonly" />
+              <ref role="3cqZAo" node="5vc9Xxa_2KE" resolve="readOnly" />
             </node>
             <node concept="37vLTw" id="5vc9Xxa_4dm" role="37vLTJ">
               <ref role="3cqZAo" node="5vc9Xxa$Y6e" resolve="myReadOnly" />

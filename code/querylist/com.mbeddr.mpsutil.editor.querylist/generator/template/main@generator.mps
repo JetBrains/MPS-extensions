@@ -819,7 +819,7 @@
                       </node>
                       <node concept="2ShNRf" id="1WjrBsNI_nm" role="33vP2m">
                         <node concept="1pGfFk" id="1WjrBsNI_nn" role="2ShVmc">
-                          <ref role="37wK5l" node="1BXECvJWl_s" resolve="GeneratedQueryListHandler" />
+                          <ref role="37wK5l" node="1BXECvJWl_s" resolve="_context_class_.GeneratedQueryListHandler" />
                           <node concept="37vLTw" id="1WjrBsNI_no" role="37wK5m">
                             <ref role="3cqZAo" node="fYh_FQ2" resolve="editorContext" />
                           </node>
@@ -1608,7 +1608,7 @@
           <node concept="3Tm1VV" id="1BXECvJWl_v" role="1B3o_S" />
           <node concept="3clFbS" id="1BXECvJWl_w" role="3clF47">
             <node concept="1VxSAg" id="5vc9XxaAf85" role="3cqZAp">
-              <ref role="37wK5l" node="5vc9XxaAaFz" resolve="GeneratedQueryListHandler" />
+              <ref role="37wK5l" node="5vc9XxaAaFz" resolve="_context_class_.GeneratedQueryListHandler" />
               <node concept="37vLTw" id="5vc9XxaAgTr" role="37wK5m">
                 <ref role="3cqZAo" node="1BXECvJWlHy" resolve="context" />
               </node>
@@ -1634,7 +1634,7 @@
             </node>
           </node>
           <node concept="2AHcQZ" id="5vc9XxaATPi" role="2AJF6D">
-            <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+            <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
           </node>
         </node>
         <node concept="2tJIrI" id="5vc9XxaAfFg" role="jymVt" />

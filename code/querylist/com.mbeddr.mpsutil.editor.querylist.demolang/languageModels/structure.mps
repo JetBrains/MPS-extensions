@@ -127,7 +127,7 @@
     <property role="EcuMT" value="6326475386467211568" />
     <property role="TrG5h" value="RootDynamicContent" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

@@ -3044,7 +3044,7 @@
                 <ref role="37wK5l" to="i8bi:Det6sRbgD5" resolve="asInstanceConcept" />
                 <ref role="1Pybhc" to="i8bi:5IkW5anFcyt" resolve="SNodeOperations" />
                 <node concept="37vLTw" id="4_3mV3JSKOq" role="37wK5m">
-                  <ref role="3cqZAo" node="4_3mV3JAVzT" resolve="childConcept" />
+                  <ref role="3cqZAo" node="4_3mV3JAVzT" resolve="parentConcept" />
                 </node>
               </node>
             </node>
@@ -3099,7 +3099,7 @@
                     <node concept="2OqwBi" id="6ogDZtA2c7K" role="2Oq$k0">
                       <node concept="2ShNRf" id="6ogDZtA2c7L" role="2Oq$k0">
                         <node concept="1pGfFk" id="6ogDZtA2c7M" role="2ShVmc">
-                          <ref role="37wK5l" to="pdwk:~ContainmentContext$Builder.&lt;init&gt;()" resolve="Builder" />
+                          <ref role="37wK5l" to="pdwk:~ContainmentContext$Builder.&lt;init&gt;()" resolve="ContainmentContext.Builder" />
                         </node>
                       </node>
                       <node concept="liA8E" id="6ogDZtA2c7N" role="2OqNvi">
@@ -3126,7 +3126,7 @@
                 <node concept="liA8E" id="6ogDZtA2c7V" role="2OqNvi">
                   <ref role="37wK5l" to="pdwk:~ContainmentContext$Builder.link(org.jetbrains.mps.openapi.language.SContainmentLink)" resolve="link" />
                   <node concept="37vLTw" id="6ogDZtA2c7W" role="37wK5m">
-                    <ref role="3cqZAo" node="6ogDZt_iRYF" resolve="dummyLink" />
+                    <ref role="3cqZAo" node="6ogDZt_iRYF" resolve="conceptLink" />
                   </node>
                 </node>
               </node>
@@ -3185,7 +3185,7 @@
                 <ref role="3cqZAo" node="4_3mV3K5MCz" resolve="dummyChild" />
               </node>
               <node concept="37vLTw" id="6ogDZt_UyxB" role="37wK5m">
-                <ref role="3cqZAo" node="6ogDZt_iRYF" resolve="dummyLink" />
+                <ref role="3cqZAo" node="6ogDZt_iRYF" resolve="conceptLink" />
               </node>
             </node>
           </node>
@@ -3274,7 +3274,7 @@
                             <node concept="2OqwBi" id="1iGw5Cbiv4k" role="2Oq$k0">
                               <node concept="2ShNRf" id="1iGw5Cbiv4l" role="2Oq$k0">
                                 <node concept="1pGfFk" id="1iGw5Cbiv4m" role="2ShVmc">
-                                  <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.&lt;init&gt;()" resolve="Builder" />
+                                  <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.&lt;init&gt;()" resolve="CanBeAncestorContext.Builder" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="1iGw5Cbiv4n" role="2OqNvi">
@@ -3411,7 +3411,7 @@
                               <node concept="2OqwBi" id="3Lzx5PeGbia" role="2Oq$k0">
                                 <node concept="2ShNRf" id="3Lzx5PeGbib" role="2Oq$k0">
                                   <node concept="1pGfFk" id="3Lzx5PeGbic" role="2ShVmc">
-                                    <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.&lt;init&gt;()" resolve="Builder" />
+                                    <ref role="37wK5l" to="pdwk:~CanBeAncestorContext$Builder.&lt;init&gt;()" resolve="CanBeAncestorContext.Builder" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="3Lzx5PeGbid" role="2OqNvi">

@@ -1881,7 +1881,7 @@
               <ref role="3cqZAo" node="7DPEkiwMEG5" resolve="flag" />
             </node>
             <node concept="37vLTw" id="7DPEkiwMKfS" role="37vLTJ">
-              <ref role="3cqZAo" node="7DPEkiwMnAo" resolve="myRowAndColumnUIActions" />
+              <ref role="3cqZAo" node="7DPEkiwMnAo" resolve="myRowUIActions" />
             </node>
           </node>
         </node>
@@ -1921,7 +1921,7 @@
       <node concept="3clFbS" id="7DPEkiwNldo" role="3clF47">
         <node concept="3clFbF" id="7DPEkiwNplT" role="3cqZAp">
           <node concept="37vLTw" id="7DPEkiwNplS" role="3clFbG">
-            <ref role="3cqZAo" node="7DPEkiwMnAo" resolve="myRowAndColumnUIActions" />
+            <ref role="3cqZAo" node="7DPEkiwMnAo" resolve="myRowUIActions" />
           </node>
         </node>
       </node>
@@ -28131,7 +28131,7 @@
             </node>
             <node concept="2ShNRf" id="4eOnSiwSCwR" role="37wK5m">
               <node concept="1pGfFk" id="7IUya7cg2uv" role="2ShVmc">
-                <ref role="37wK5l" node="7IUya7cfM4j" resolve="InsertAction" />
+                <ref role="37wK5l" node="7IUya7cfM4j" resolve="TableActions.InsertRowAction" />
                 <node concept="Xjq3P" id="7IUya7cg2uu" role="37wK5m" />
                 <node concept="37vLTw" id="7IUya7cgci6" role="37wK5m">
                   <ref role="3cqZAo" node="12WeXpXn$48" resolve="myLeftEnd" />
@@ -28165,7 +28165,7 @@
             </node>
             <node concept="2ShNRf" id="40oIQyHKQhe" role="37wK5m">
               <node concept="1pGfFk" id="7IUya7ciW44" role="2ShVmc">
-                <ref role="37wK5l" node="7IUya7ciSfI" resolve="DeleteAction" />
+                <ref role="37wK5l" node="7IUya7ciSfI" resolve="TableActions.DeleteRowAction" />
                 <node concept="Xjq3P" id="7IUya7ciW43" role="37wK5m" />
               </node>
             </node>
@@ -28180,7 +28180,7 @@
             </node>
             <node concept="2ShNRf" id="5AW5JoZbd$V" role="37wK5m">
               <node concept="1pGfFk" id="7IUya7ciZ9l" role="2ShVmc">
-                <ref role="37wK5l" node="7IUya7ciXQl" resolve="SelectRowNodeAction" />
+                <ref role="37wK5l" node="7IUya7ciXQl" resolve="TableActions.SelectRowNodeAction" />
                 <node concept="Xjq3P" id="7IUya7ciZ9k" role="37wK5m" />
               </node>
             </node>
@@ -28195,7 +28195,7 @@
             </node>
             <node concept="2ShNRf" id="5AW5JoZbKKJ" role="37wK5m">
               <node concept="1pGfFk" id="7IUya7cj15Z" role="2ShVmc">
-                <ref role="37wK5l" node="7IUya7ciXQl" resolve="SelectRowNodeAction" />
+                <ref role="37wK5l" node="7IUya7ciXQl" resolve="TableActions.SelectRowNodeAction" />
                 <node concept="Xjq3P" id="7IUya7cj15Y" role="37wK5m" />
               </node>
             </node>
@@ -28210,7 +28210,7 @@
             </node>
             <node concept="2ShNRf" id="5AW5JoZAbPx" role="37wK5m">
               <node concept="1pGfFk" id="7IUya7cj32B" role="2ShVmc">
-                <ref role="37wK5l" node="7IUya7cix5V" resolve="PasteAction" />
+                <ref role="37wK5l" node="7IUya7cix5V" resolve="TableActions.PasteAction" />
                 <node concept="Xjq3P" id="7IUya7cj32A" role="37wK5m" />
                 <node concept="37vLTw" id="7IUya7cj6aN" role="37wK5m">
                   <ref role="3cqZAo" node="12WeXpXn$48" resolve="myLeftEnd" />
@@ -34336,11 +34336,11 @@
       <node concept="3Tm1VV" id="56WqtlUi2Y0" role="1B3o_S" />
       <node concept="QsSxf" id="56WqtlUikN_" role="Qtgdg">
         <property role="TrG5h" value="ROW" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="56WqtlUilBp" role="Qtgdg">
         <property role="TrG5h" value="COLUMN" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
     </node>
     <node concept="2tJIrI" id="56WqtlUi0Gs" role="jymVt" />
@@ -34388,7 +34388,7 @@
         <node concept="3clFbS" id="56WqtlUiwfU" role="3clF47" />
         <node concept="3Tm1VV" id="56WqtlUiqVJ" role="1B3o_S" />
         <node concept="3uibUv" id="56WqtlUitmr" role="3clF45">
-          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActionType" />
+          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
         </node>
       </node>
       <node concept="2tJIrI" id="7IUya7chGH_" role="jymVt" />
@@ -34568,7 +34568,7 @@
                   </node>
                   <node concept="Rm8GO" id="56WqtlUjcxL" role="3uHU7w">
                     <ref role="Rm8GQ" node="56WqtlUilBp" resolve="COLUMN" />
-                    <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActionType" />
+                    <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
                   </node>
                 </node>
               </node>
@@ -34584,7 +34584,7 @@
           </node>
         </node>
         <node concept="2AHcQZ" id="7IUya7cjexm" role="2AJF6D">
-          <ref role="2AI5Lk" to="wyt6:~Override" />
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
     </node>
@@ -34600,7 +34600,7 @@
       <node concept="2tJIrI" id="6R0q0mZqdfT" role="jymVt" />
       <node concept="3Tm1VV" id="6R0q0mZpWsr" role="1B3o_S" />
       <node concept="3uibUv" id="6R0q0mZpZDz" role="1zkMxy">
-        <ref role="3uigEE" node="7IUya7ch5ON" resolve="AbstractTableCellAction" />
+        <ref role="3uigEE" node="7IUya7ch5ON" resolve="TableActions.AbstractTableCellAction" />
       </node>
       <node concept="3clFbW" id="6R0q0mZq1YX" role="jymVt">
         <node concept="3cqZAl" id="6R0q0mZq1YY" role="3clF45" />
@@ -34617,7 +34617,7 @@
         </node>
         <node concept="3clFbS" id="6R0q0mZq1Z9" role="3clF47">
           <node concept="XkiVB" id="6R0q0mZq1Za" role="3cqZAp">
-            <ref role="37wK5l" node="7IUya7chrcn" resolve="AbstractTableCellAction" />
+            <ref role="37wK5l" node="7IUya7chrcn" resolve="TableActions.AbstractTableCellAction" />
             <node concept="37vLTw" id="6R0q0mZq1Zb" role="37wK5m">
               <ref role="3cqZAo" node="6R0q0mZq1Z7" resolve="cell" />
             </node>
@@ -34642,13 +34642,13 @@
         <property role="TrG5h" value="getActionType" />
         <node concept="3Tm1VV" id="56WqtlUizPt" role="1B3o_S" />
         <node concept="3uibUv" id="56WqtlUizPu" role="3clF45">
-          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActionType" />
+          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
         </node>
         <node concept="3clFbS" id="56WqtlUizPv" role="3clF47">
           <node concept="3clFbF" id="56WqtlUiBoA" role="3cqZAp">
             <node concept="Rm8GO" id="56WqtlUiCdQ" role="3clFbG">
               <ref role="Rm8GQ" node="56WqtlUilBp" resolve="COLUMN" />
-              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActionType" />
+              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
             </node>
           </node>
         </node>
@@ -34949,7 +34949,7 @@
           </node>
         </node>
         <node concept="2AHcQZ" id="6R0q0mZq0c$" role="2AJF6D">
-          <ref role="2AI5Lk" to="wyt6:~Override" />
+          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         </node>
       </node>
       <node concept="2tJIrI" id="56WqtlUiAvB" role="jymVt" />
@@ -34968,7 +34968,7 @@
         <node concept="3cqZAl" id="7IUya7cfM4k" role="3clF45" />
         <node concept="3clFbS" id="7IUya7cfM4m" role="3clF47">
           <node concept="XkiVB" id="7IUya7chYfC" role="3cqZAp">
-            <ref role="37wK5l" node="7IUya7chrcn" resolve="AbstractTableCellAction" />
+            <ref role="37wK5l" node="7IUya7chrcn" resolve="TableActions.AbstractTableCellAction" />
             <node concept="37vLTw" id="7IUya7chZ4v" role="37wK5m">
               <ref role="3cqZAo" node="7IUya7cfRzt" resolve="cell" />
             </node>
@@ -34976,12 +34976,12 @@
           <node concept="3clFbF" id="7IUya7cfQ6s" role="3cqZAp">
             <node concept="37vLTI" id="7IUya7cfQWB" role="3clFbG">
               <node concept="37vLTw" id="7IUya7cfRoh" role="37vLTx">
-                <ref role="3cqZAo" node="7IUya7cfN09" resolve="leftSide" />
+                <ref role="3cqZAo" node="7IUya7cfN09" resolve="before" />
               </node>
               <node concept="2OqwBi" id="7IUya7cfQf4" role="37vLTJ">
                 <node concept="Xjq3P" id="7IUya7cfQ6r" role="2Oq$k0" />
                 <node concept="2OwXpG" id="7IUya7cfQB1" role="2OqNvi">
-                  <ref role="2Oxat5" node="7IUya7cfP4l" resolve="leftSide" />
+                  <ref role="2Oxat5" node="7IUya7cfP4l" resolve="before" />
                 </node>
               </node>
             </node>
@@ -35004,13 +35004,13 @@
         <property role="TrG5h" value="getActionType" />
         <node concept="3Tm1VV" id="56WqtlUiFhi" role="1B3o_S" />
         <node concept="3uibUv" id="56WqtlUiFhj" role="3clF45">
-          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActionType" />
+          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
         </node>
         <node concept="3clFbS" id="56WqtlUiFhk" role="3clF47">
           <node concept="3clFbF" id="56WqtlUiFhl" role="3cqZAp">
             <node concept="Rm8GO" id="56WqtlUiGo4" role="3clFbG">
               <ref role="Rm8GQ" node="56WqtlUikN_" resolve="ROW" />
-              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActionType" />
+              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
             </node>
           </node>
         </node>
@@ -35067,7 +35067,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="7IUya7ckLE3" role="3clFbw">
-              <ref role="3cqZAo" node="7IUya7cfP4l" resolve="leftSide" />
+              <ref role="3cqZAo" node="7IUya7cfP4l" resolve="before" />
             </node>
             <node concept="9aQIb" id="F5PM1gat1y" role="9aQIa">
               <node concept="3clFbS" id="F5PM1gat1z" role="9aQI4">
@@ -35096,7 +35096,7 @@
       </node>
       <node concept="3Tm1VV" id="7IUya7cfFCG" role="1B3o_S" />
       <node concept="3uibUv" id="7IUya7chVZy" role="1zkMxy">
-        <ref role="3uigEE" node="7IUya7ch5ON" resolve="AbstractTableCellAction" />
+        <ref role="3uigEE" node="7IUya7ch5ON" resolve="TableActions.AbstractTableCellAction" />
       </node>
     </node>
     <node concept="2tJIrI" id="7IUya7cfFbO" role="jymVt" />
@@ -35113,7 +35113,7 @@
         </node>
         <node concept="3clFbS" id="7IUya7ciXQx" role="3clF47">
           <node concept="XkiVB" id="7IUya7ciXQy" role="3cqZAp">
-            <ref role="37wK5l" node="7IUya7chrcn" resolve="AbstractTableCellAction" />
+            <ref role="37wK5l" node="7IUya7chrcn" resolve="TableActions.AbstractTableCellAction" />
             <node concept="37vLTw" id="7IUya7ciXQz" role="37wK5m">
               <ref role="3cqZAo" node="7IUya7ciXQv" resolve="cell" />
             </node>
@@ -35125,13 +35125,13 @@
         <property role="TrG5h" value="getActionType" />
         <node concept="3Tm1VV" id="56WqtlUiHfi" role="1B3o_S" />
         <node concept="3uibUv" id="56WqtlUiHfj" role="3clF45">
-          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActionType" />
+          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
         </node>
         <node concept="3clFbS" id="56WqtlUiHfk" role="3clF47">
           <node concept="3clFbF" id="56WqtlUiHfl" role="3cqZAp">
             <node concept="Rm8GO" id="56WqtlUiIEP" role="3clFbG">
               <ref role="Rm8GQ" node="56WqtlUikN_" resolve="ROW" />
-              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActionType" />
+              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
             </node>
           </node>
         </node>
@@ -35201,7 +35201,7 @@
       </node>
       <node concept="3Tm1VV" id="5AW5JoZb6HD" role="1B3o_S" />
       <node concept="3uibUv" id="7IUya7cik3F" role="1zkMxy">
-        <ref role="3uigEE" node="7IUya7ch5ON" resolve="AbstractTableCellAction" />
+        <ref role="3uigEE" node="7IUya7ch5ON" resolve="TableActions.AbstractTableCellAction" />
       </node>
     </node>
     <node concept="2tJIrI" id="7IUya7cgA7G" role="jymVt" />
@@ -35218,7 +35218,7 @@
         <node concept="3cqZAl" id="7IUya7cix5W" role="3clF45" />
         <node concept="3clFbS" id="7IUya7cix5Y" role="3clF47">
           <node concept="XkiVB" id="7IUya7ciN1Y" role="3cqZAp">
-            <ref role="37wK5l" node="7IUya7chrcn" resolve="AbstractTableCellAction" />
+            <ref role="37wK5l" node="7IUya7chrcn" resolve="TableActions.AbstractTableCellAction" />
             <node concept="37vLTw" id="7IUya7ciNyi" role="37wK5m">
               <ref role="3cqZAo" node="7IUya7ciKjU" resolve="cell" />
             </node>
@@ -35254,13 +35254,13 @@
         <property role="TrG5h" value="getActionType" />
         <node concept="3Tm1VV" id="56WqtlUiK3z" role="1B3o_S" />
         <node concept="3uibUv" id="56WqtlUiK3$" role="3clF45">
-          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActionType" />
+          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
         </node>
         <node concept="3clFbS" id="56WqtlUiK3_" role="3clF47">
           <node concept="3clFbF" id="56WqtlUiK3A" role="3cqZAp">
             <node concept="Rm8GO" id="56WqtlUiLfX" role="3clFbG">
               <ref role="Rm8GQ" node="56WqtlUikN_" resolve="ROW" />
-              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActionType" />
+              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
             </node>
           </node>
         </node>
@@ -35587,7 +35587,7 @@
       </node>
       <node concept="3Tm1VV" id="5AW5JoZCzaP" role="1B3o_S" />
       <node concept="3uibUv" id="7IUya7cilrl" role="1zkMxy">
-        <ref role="3uigEE" node="7IUya7ch5ON" resolve="AbstractTableCellAction" />
+        <ref role="3uigEE" node="7IUya7ch5ON" resolve="TableActions.AbstractTableCellAction" />
       </node>
     </node>
     <node concept="2tJIrI" id="7IUya7cgFfk" role="jymVt" />
@@ -35598,7 +35598,7 @@
         <node concept="3cqZAl" id="7IUya7ciSfJ" role="3clF45" />
         <node concept="3clFbS" id="7IUya7ciSfL" role="3clF47">
           <node concept="XkiVB" id="7IUya7ciSEJ" role="3cqZAp">
-            <ref role="37wK5l" node="7IUya7chrcn" resolve="AbstractTableCellAction" />
+            <ref role="37wK5l" node="7IUya7chrcn" resolve="TableActions.AbstractTableCellAction" />
             <node concept="37vLTw" id="7IUya7ciTaX" role="37wK5m">
               <ref role="3cqZAo" node="7IUya7ciSo5" resolve="cell" />
             </node>
@@ -35617,13 +35617,13 @@
         <property role="TrG5h" value="getActionType" />
         <node concept="3Tm1VV" id="56WqtlUiNG_" role="1B3o_S" />
         <node concept="3uibUv" id="56WqtlUiNGA" role="3clF45">
-          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActionType" />
+          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
         </node>
         <node concept="3clFbS" id="56WqtlUiNGB" role="3clF47">
           <node concept="3clFbF" id="56WqtlUiNGC" role="3cqZAp">
             <node concept="Rm8GO" id="56WqtlUiOv4" role="3clFbG">
               <ref role="Rm8GQ" node="56WqtlUikN_" resolve="ROW" />
-              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActionType" />
+              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
             </node>
           </node>
         </node>
@@ -35657,7 +35657,7 @@
       </node>
       <node concept="3Tm1VV" id="7IUya7cgVB1" role="1B3o_S" />
       <node concept="3uibUv" id="7IUya7ciRuz" role="1zkMxy">
-        <ref role="3uigEE" node="7IUya7ch5ON" resolve="AbstractTableCellAction" />
+        <ref role="3uigEE" node="7IUya7ch5ON" resolve="TableActions.AbstractTableCellAction" />
       </node>
     </node>
     <node concept="2tJIrI" id="6R0q0mZRJbf" role="jymVt" />
@@ -35668,7 +35668,7 @@
         <node concept="3cqZAl" id="6R0q0mZRHmp" role="3clF45" />
         <node concept="3clFbS" id="6R0q0mZRHmq" role="3clF47">
           <node concept="XkiVB" id="6R0q0mZRHmr" role="3cqZAp">
-            <ref role="37wK5l" node="7IUya7chrcn" resolve="AbstractTableCellAction" />
+            <ref role="37wK5l" node="7IUya7chrcn" resolve="TableActions.AbstractTableCellAction" />
             <node concept="37vLTw" id="6R0q0mZRHms" role="37wK5m">
               <ref role="3cqZAo" node="6R0q0mZRHmu" resolve="cell" />
             </node>
@@ -35687,12 +35687,12 @@
         <property role="TrG5h" value="getActionType" />
         <node concept="3Tm1VV" id="56WqtlUiRAk" role="1B3o_S" />
         <node concept="3uibUv" id="56WqtlUiRAl" role="3clF45">
-          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActionType" />
+          <ref role="3uigEE" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
         </node>
         <node concept="3clFbS" id="56WqtlUiRAm" role="3clF47">
           <node concept="3clFbF" id="56WqtlUiRAn" role="3cqZAp">
             <node concept="Rm8GO" id="56WqtlUiRAo" role="3clFbG">
-              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActionType" />
+              <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
               <ref role="Rm8GQ" node="56WqtlUilBp" resolve="COLUMN" />
             </node>
           </node>
@@ -35894,7 +35894,7 @@
       </node>
       <node concept="3Tm1VV" id="6R0q0mZRHmF" role="1B3o_S" />
       <node concept="3uibUv" id="6R0q0mZRHmG" role="1zkMxy">
-        <ref role="3uigEE" node="7IUya7ch5ON" resolve="AbstractTableCellAction" />
+        <ref role="3uigEE" node="7IUya7ch5ON" resolve="TableActions.AbstractTableCellAction" />
       </node>
     </node>
     <node concept="2tJIrI" id="7IUya7cgTJe" role="jymVt" />

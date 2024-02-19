@@ -278,11 +278,11 @@
                     <node concept="3clFbF" id="5WCc3M3CKu4" role="3cqZAp">
                       <node concept="2OqwBi" id="5WCc3M3CLkV" role="3clFbG">
                         <node concept="37vLTw" id="5WCc3M3CKu2" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5WCc3M3CyI4" resolve="languages" />
+                          <ref role="3cqZAo" node="5WCc3M3CyI4" resolve="dependencies" />
                         </node>
                         <node concept="TSZUe" id="5WCc3M3CMAn" role="2OqNvi">
                           <node concept="37vLTw" id="5WCc3M3CMHl" role="25WWJ7">
-                            <ref role="3cqZAo" node="5WCc3M3CJiU" resolve="toString" />
+                            <ref role="3cqZAo" node="5WCc3M3CJiU" resolve="dependencyStr" />
                           </node>
                         </node>
                       </node>
@@ -293,7 +293,7 @@
                     <node concept="2XshWL" id="5WCc3M3DfGy" role="2OqNvi">
                       <ref role="2WH_rO" node="5WCc3M3DcW0" resolve="isAllowed" />
                       <node concept="37vLTw" id="5WCc3M3DfIn" role="2XxRq1">
-                        <ref role="3cqZAo" node="5WCc3M3CJiU" resolve="toString" />
+                        <ref role="3cqZAo" node="5WCc3M3CJiU" resolve="dependencyStr" />
                       </node>
                     </node>
                   </node>
@@ -455,7 +455,7 @@
               <node concept="2OqwBi" id="5WCc3M3DEMB" role="2GsD0m">
                 <node concept="2OqwBi" id="5WCc3M3DCrh" role="2Oq$k0">
                   <node concept="37vLTw" id="5WCc3M3DB9T" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5WCc3M3CyI4" resolve="languages" />
+                    <ref role="3cqZAo" node="5WCc3M3CyI4" resolve="dependencies" />
                   </node>
                   <node concept="ANE8D" id="5WCc3M3DE1T" role="2OqNvi" />
                 </node>

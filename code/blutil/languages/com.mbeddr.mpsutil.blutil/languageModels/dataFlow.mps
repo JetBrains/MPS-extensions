@@ -822,7 +822,7 @@
         </node>
         <node concept="3_J$rt" id="1D9sZqffKvY" role="3cqZAp">
           <node concept="ayLgZ" id="1D9sZqffKGE" role="3_JbIs">
-            <ref role="ayMZ1" node="hIezwQF" />
+            <ref role="ayMZ1" node="hIezwQF" resolve="endOfTrue" />
           </node>
         </node>
         <node concept="3AgYrR" id="hzAj29r" role="3cqZAp">

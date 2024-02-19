@@ -7927,13 +7927,13 @@
       </node>
     </node>
     <node concept="3aamgX" id="7zYevsMTwdR" role="3acgRq">
-      <ref role="30HIoZ" to="hba4:7zYevsMKS6i" resolve="IfInstanceOfElseifClause" />
+      <ref role="30HIoZ" to="hba4:7zYevsMKS6i" resolve="IfInstanceOfElseIfClause" />
       <node concept="j$656" id="7zYevsMTwhf" role="1lVwrX">
         <ref role="v9R2y" node="7zYevsMTwhd" resolve="reduce_IfInstanceOfElseifClause" />
       </node>
     </node>
     <node concept="3aamgX" id="1Cyzq4PvXVc" role="3acgRq">
-      <ref role="30HIoZ" to="hba4:7zYevsNlssB" resolve="IfInstanceOfElseIfClauseVarReference" />
+      <ref role="30HIoZ" to="hba4:7zYevsNlssB" resolve="IfInstanceOfVarReference" />
       <node concept="gft3U" id="1Cyzq4PvXVe" role="1lVwrX">
         <node concept="3VmV3z" id="1Cyzq4PvXVg" role="gfFT$">
           <property role="3VnrPo" value="var" />
@@ -8120,7 +8120,7 @@
   <node concept="13MO4I" id="7zYevsMTwhd">
     <property role="TrG5h" value="reduce_IfInstanceOfElseifClause" />
     <property role="3GE5qa" value="ifInstanceOf" />
-    <ref role="3gUMe" to="hba4:7zYevsMKS6i" resolve="IfInstanceOfElseifClause" />
+    <ref role="3gUMe" to="hba4:7zYevsMKS6i" resolve="IfInstanceOfElseIfClause" />
     <node concept="9aQIb" id="7zYevsMTxLn" role="13RCb5">
       <node concept="3clFbS" id="7zYevsMTxLo" role="9aQI4">
         <node concept="3cpWs8" id="7zYevsMTxLp" role="3cqZAp">

@@ -1288,6 +1288,11 @@
             <ref role="3bR37D" to="ffeo:39HJr_hyAl1" resolve="jetbrains.mps.ide.vcs.core" />
           </node>
         </node>
+        <node concept="1SiIV0" id="5zhZs$9uFat" role="3bR37C">
+          <node concept="3bR9La" id="5zhZs$9uFau" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="1sO539bGQvt" role="3989C9">
@@ -18699,6 +18704,11 @@
             <node concept="3qWCbU" id="7q24334ZKMX" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5zhZs$8X86Y" role="3bR37C">
+          <node concept="3bR9La" id="5zhZs$8X86Z" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
       </node>

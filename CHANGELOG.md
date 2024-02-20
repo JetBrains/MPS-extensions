@@ -20,6 +20,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - com.mbeddr.mpsutil.editor.querylist: Dynamic generated nodes (without a model) can now be used in query lists if `read-only` is set to true.
 
+### Fixed
+
+- de.slisson.mps.editor.multiline.runtime: An issue was fixed where pressing shift+enter didn't enter a new line in the current text but in the next collection in the editor.
+
 ## January 2024
 
 ### Fixed

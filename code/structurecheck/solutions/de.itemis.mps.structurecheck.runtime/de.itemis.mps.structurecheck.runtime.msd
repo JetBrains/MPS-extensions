@@ -34,3 +34,4 @@
     <module reference="6f14e29b-9796-426f-ae46-86ea46d4d320(de.itemis.mps.structurecheck.runtime)" version="0" />
   </dependencyVersions>
 </solution>
+

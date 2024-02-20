@@ -66,3 +66,4 @@
     <module reference="a47122e4-d14a-4912-90ff-6967ad1e3b02(test.de.itemis.mps.editor.diagram.solution)" version="0" />
   </dependencyVersions>
 </solution>
+

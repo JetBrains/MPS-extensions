@@ -34,3 +34,4 @@
     <module reference="8e2aad7c-fc79-4b36-959a-919bec27b9d7(de.itemis.mps.structurecheck.sandbox)" version="0" />
   </dependencyVersions>
 </solution>
+

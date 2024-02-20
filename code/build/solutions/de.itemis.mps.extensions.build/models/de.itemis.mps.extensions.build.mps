@@ -4225,7 +4225,7 @@
       <property role="TrG5h" value="de.slisson.mps.hacks" />
       <node concept="1E1JtD" id="TAJODzTczI" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="de.slisson.mps.hacks.xmodelgen" />
+        <property role="TrG5h" value="de.itemis.mps.hacks.xmodelgen" />
         <property role="3LESm3" value="c5eeb6dc-2f3d-45ae-a7be-929daeb6bda1" />
         <node concept="398BVA" id="TAJODzTcXB" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
@@ -4234,9 +4234,9 @@
             <node concept="2Ry0Ak" id="TAJODzTe13" role="2Ry0An">
               <property role="2Ry0Am" value="languages" />
               <node concept="2Ry0Ak" id="1QLFoGOMSyO" role="2Ry0An">
-                <property role="2Ry0Am" value="de.slisson.mps.hacks.xmodelgen" />
+                <property role="2Ry0Am" value="de.itemis.mps.hacks.xmodelgen" />
                 <node concept="2Ry0Ak" id="1QLFoGOMSGv" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.slisson.mps.hacks.xmodelgen.mpl" />
+                  <property role="2Ry0Am" value="de.itemis.mps.hacks.xmodelgen.mpl" />
                 </node>
               </node>
             </node>
@@ -4274,7 +4274,7 @@
                 <node concept="2Ry0Ak" id="nsMIIcsDq5" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="nsMIIcsDq6" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.slisson.mps.hacks.xmodelgen" />
+                    <property role="2Ry0Am" value="de.itemis.mps.hacks.xmodelgen" />
                   </node>
                 </node>
               </node>
@@ -4298,7 +4298,7 @@
                 <node concept="2Ry0Ak" id="2eucapX07Pi" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
                   <node concept="2Ry0Ak" id="2eucapX07Pj" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.slisson.mps.hacks.xmodelgen" />
+                    <property role="2Ry0Am" value="de.itemis.mps.hacks.xmodelgen" />
                     <node concept="2Ry0Ak" id="2eucapX07Pk" role="2Ry0An">
                       <property role="2Ry0Am" value="models" />
                     </node>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8f6d87bf-4654-418c-9c68-7759a9e9328a(de.slisson.mps.hacks.xmodelgen.generator.template.main@generator)">
+<model ref="r:8f6d87bf-4654-418c-9c68-7759a9e9328a(de.itemis.mps.hacks.xmodelgen.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
@@ -19,4 +19,3 @@
     <property role="TrG5h" value="main" />
   </node>
 </model>
-

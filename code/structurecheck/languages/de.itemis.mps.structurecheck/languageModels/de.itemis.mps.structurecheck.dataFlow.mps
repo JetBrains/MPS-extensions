@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:27f0c215-2464-4710-bd45-9ed2f87eff3c(de.slisson.mps.structurecheck.dataFlow)">
+<model ref="r:27f0c215-2464-4710-bd45-9ed2f87eff3c(de.itemis.mps.structurecheck.dataFlow)">
   <persistence version="9" />
   <languages>
     <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="1" />
     <devkit ref="00000000-0000-4000-0000-443879f56b80(jetbrains.mps.devkit.aspect.dataflow)" />
   </languages>
   <imports>
-    <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.slisson.mps.structurecheck.structure)" implicit="true" />
+    <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.itemis.mps.structurecheck.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -236,4 +236,3 @@
     </node>
   </node>
 </model>
-

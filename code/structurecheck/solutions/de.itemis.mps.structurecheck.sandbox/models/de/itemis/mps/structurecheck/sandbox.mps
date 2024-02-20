@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:cc9af6eb-7fec-4ac7-8865-77d3a8f6764c(de.slisson.mps.structurecheck.sandbox)">
+<model ref="r:cc9af6eb-7fec-4ac7-8865-77d3a8f6764c(de.itemis.mps.structurecheck.sandbox)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
-    <use id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" name="de.slisson.mps.structurecheck" version="0" />
+    <use id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" name="de.itemis.mps.structurecheck" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -85,30 +85,30 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
-    <language id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" name="de.slisson.mps.structurecheck">
-      <concept id="380240910834177326" name="de.slisson.mps.structurecheck.structure.CheckStructureStatement" flags="ng" index="64noQ">
+    <language id="c6cfed73-685b-4891-8bdd-b38a1dcb107a" name="de.itemis.mps.structurecheck">
+      <concept id="380240910834177326" name="de.itemis.mps.structurecheck.structure.CheckStructureStatement" flags="ng" index="64noQ">
         <child id="380240910834179070" name="rootElement" index="64nzA" />
         <child id="380240910835035233" name="checkers" index="68$XT" />
       </concept>
-      <concept id="380240910834179924" name="de.slisson.mps.structurecheck.structure.SequenceChecker" flags="ng" index="64nLc">
+      <concept id="380240910834179924" name="de.itemis.mps.structurecheck.structure.SequenceChecker" flags="ng" index="64nLc">
         <property id="380240910834180118" name="ordered" index="64kce" />
         <property id="380240910834182503" name="rule" index="64kDZ" />
         <child id="380240910834182792" name="elements" index="64kAg" />
         <child id="380240910834180011" name="sequence" index="64nMN" />
       </concept>
-      <concept id="380240910834179719" name="de.slisson.mps.structurecheck.structure.ConditionChecker" flags="ng" index="64nQv">
+      <concept id="380240910834179719" name="de.itemis.mps.structurecheck.structure.ConditionChecker" flags="ng" index="64nQv">
         <child id="380240910834179723" name="condition" index="64nQj" />
       </concept>
-      <concept id="380240910834179470" name="de.slisson.mps.structurecheck.structure.PropertyChecker" flags="ng" index="64nUm">
+      <concept id="380240910834179470" name="de.itemis.mps.structurecheck.structure.PropertyChecker" flags="ng" index="64nUm">
         <child id="380240910834179505" name="expected" index="64nUD" />
         <child id="380240910834179508" name="actual" index="64nUG" />
       </concept>
-      <concept id="380240910834603300" name="de.slisson.mps.structurecheck.structure.ThisElementExpression" flags="ng" index="66foW" />
-      <concept id="380240910834210697" name="de.slisson.mps.structurecheck.structure.Element" flags="ng" index="67Jih">
+      <concept id="380240910834603300" name="de.itemis.mps.structurecheck.structure.ThisElementExpression" flags="ng" index="66foW" />
+      <concept id="380240910834210697" name="de.itemis.mps.structurecheck.structure.Element" flags="ng" index="67Jih">
         <child id="380240910834213223" name="subtype" index="67G9Z" />
         <child id="380240910835034893" name="checkers" index="68$wl" />
       </concept>
-      <concept id="380240910835034706" name="de.slisson.mps.structurecheck.structure.CompositeChecker" flags="ng" index="68$_a">
+      <concept id="380240910835034706" name="de.itemis.mps.structurecheck.structure.CompositeChecker" flags="ng" index="68$_a">
         <child id="380240910835034746" name="checkers" index="68$_y" />
       </concept>
     </language>
@@ -289,4 +289,3 @@
     <node concept="3Tm1VV" id="l6SLw3miY$" role="1B3o_S" />
   </node>
 </model>
-

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.slisson.mps.structurecheck.runtime" uuid="6f14e29b-9796-426f-ae46-86ea46d4d320" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="de.itemis.mps.structurecheck.runtime" uuid="6f14e29b-9796-426f-ae46-86ea46d4d320" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -31,7 +31,6 @@
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
-    <module reference="6f14e29b-9796-426f-ae46-86ea46d4d320(de.slisson.mps.structurecheck.runtime)" version="0" />
+    <module reference="6f14e29b-9796-426f-ae46-86ea46d4d320(de.itemis.mps.structurecheck.runtime)" version="0" />
   </dependencyVersions>
 </solution>
-

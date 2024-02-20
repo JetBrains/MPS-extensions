@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c46cda72-c4ea-4697-bc78-94cc192adb34(de.slisson.mps.structurecheck.generator.template.main@generator)">
+<model ref="r:c46cda72-c4ea-4697-bc78-94cc192adb34(de.itemis.mps.structurecheck.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
@@ -7,12 +7,12 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="bw13" ref="r:391e565b-f801-459c-891c-816917735d49(de.slisson.mps.structurecheck.runtime)" />
+    <import index="bw13" ref="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="tp2g" ref="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" />
-    <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.slisson.mps.structurecheck.structure)" implicit="true" />
+    <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.itemis.mps.structurecheck.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="fo9b" ref="r:0faf2996-2ad7-4ce2-b8c2-865ce75b30a7(de.slisson.mps.structurecheck.behavior)" implicit="true" />
+    <import index="fo9b" ref="r:0faf2996-2ad7-4ce2-b8c2-865ce75b30a7(de.itemis.mps.structurecheck.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1371,4 +1371,3 @@
     </node>
   </node>
 </model>
-

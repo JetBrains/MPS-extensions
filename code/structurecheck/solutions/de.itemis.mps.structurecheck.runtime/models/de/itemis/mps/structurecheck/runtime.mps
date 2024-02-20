@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:391e565b-f801-459c-891c-816917735d49(de.slisson.mps.structurecheck.runtime)">
+<model ref="r:391e565b-f801-459c-891c-816917735d49(de.itemis.mps.structurecheck.runtime)">
   <persistence version="9" />
   <languages>
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -2988,4 +2988,3 @@
     </node>
   </node>
 </model>
-

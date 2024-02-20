@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.slisson.mps.structurecheck.editor)">
+<model ref="r:fd9e55f8-6b11-420b-98e7-91a8eff4b12e(de.itemis.mps.structurecheck.editor)">
   <persistence version="9" />
   <languages>
     <use id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool" version="0" />
@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
-    <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.slisson.mps.structurecheck.structure)" implicit="true" />
+    <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.itemis.mps.structurecheck.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
@@ -409,4 +409,3 @@
     <node concept="22hDWj" id="uffbfdPST$" role="22hAXT" />
   </node>
 </model>
-

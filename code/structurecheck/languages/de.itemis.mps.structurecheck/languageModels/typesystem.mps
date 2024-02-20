@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.slisson.mps.structurecheck.typesystem)">
+<model ref="r:5b41f295-f455-400f-a208-b2aeba0fc5a3(de.itemis.mps.structurecheck.typesystem)">
   <persistence version="9" />
   <languages>
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.slisson.mps.structurecheck.structure)" implicit="true" />
+    <import index="7met" ref="r:d4a954d0-fb17-418d-bfe1-8fc917bd27a1(de.itemis.mps.structurecheck.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -266,4 +266,3 @@
     </node>
   </node>
 </model>
-

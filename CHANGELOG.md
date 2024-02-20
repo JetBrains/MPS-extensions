@@ -11,6 +11,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - com.mbeddr.mpsutil.editor.querylist: Dynamic generated nodes (without a model) can now be used in query lists if `read-only` is set to true.
 - The language `de.slisson.mps.structurecheck` was renamed to `de.itemis.mps.structurecheck`.
+- The stubs `com.mbeddr.mpsutil.serializer.xml` were renamed to `de.itemis.mps.utils.serializer.xml`.
 
 ### Fixed
 

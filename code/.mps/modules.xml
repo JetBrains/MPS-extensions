@@ -194,7 +194,7 @@
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.sandboxlang/com.mbeddr.mpsutil.treenotation.sandboxlang.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.styles/com.mbeddr.mpsutil.treenotation.styles.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation/com.mbeddr.mpsutil.treenotation.mpl" folder="treenotation" />
-      <modulePath path="$PROJECT_DIR$/utils/solutions/com.mbeddr.mpsutil.serializer.xml/com.mbeddr.mpsutil.serializer.xml.msd" folder="utils" />
+      <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.utils.serializer.xml/de.itemis.mps.utils.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool/de.itemis.mps.editor.bool.mpl" folder="widgets" />

@@ -6771,7 +6771,7 @@
         </node>
         <node concept="1SiIV0" id="457TI2XWfLr" role="3bR37C">
           <node concept="3bR9La" id="457TI2XWfLs" role="1SiIV1">
-            <ref role="3bR37D" node="6860Y5A00Lp" resolve="com.mbeddr.mpsutil.serializer.xml" />
+            <ref role="3bR37D" node="6860Y5A00Lp" resolve="de.itemis.mps.utils.serializer.xml" />
           </node>
         </node>
         <node concept="1SiIV0" id="457TI2XWjJw" role="3bR37C">
@@ -6869,7 +6869,7 @@
       </node>
       <node concept="1E1JtA" id="6860Y5A00Lp" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="com.mbeddr.mpsutil.serializer.xml" />
+        <property role="TrG5h" value="de.itemis.mps.utils.serializer.xml" />
         <property role="3LESm3" value="5454dbfd-2075-4de0-b85e-fa645eb6957e" />
         <node concept="3rtmxn" id="1bWvPKNGzIa" role="3bR31x">
           <node concept="3LXTmp" id="1bWvPKNGzIb" role="3rtmxm">
@@ -6883,7 +6883,7 @@
                 <node concept="2Ry0Ak" id="1bWvPKNGzIf" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="1bWvPKNGzIg" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.serializer.xml" />
+                    <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
                   </node>
                 </node>
               </node>
@@ -6897,9 +6897,9 @@
             <node concept="2Ry0Ak" id="6860Y5A031H" role="2Ry0An">
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="6860Y5A03xM" role="2Ry0An">
-                <property role="2Ry0Am" value="com.mbeddr.mpsutil.serializer.xml" />
+                <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
                 <node concept="2Ry0Ak" id="6860Y5A041R" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.mbeddr.mpsutil.serializer.xml.msd" />
+                  <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml.msd" />
                 </node>
               </node>
             </node>
@@ -6934,7 +6934,7 @@
                 <node concept="2Ry0Ak" id="6860Y5A04y3" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="6860Y5A04y4" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.serializer.xml" />
+                    <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
                     <node concept="2Ry0Ak" id="6860Y5A04y5" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
                       <node concept="2Ry0Ak" id="6860Y5A04y6" role="2Ry0An">
@@ -6959,7 +6959,7 @@
                 <node concept="2Ry0Ak" id="6860Y5A04yk" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="6860Y5A04yl" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.serializer.xml" />
+                    <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
                     <node concept="2Ry0Ak" id="6860Y5A04ym" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
                       <node concept="2Ry0Ak" id="6860Y5A04yn" role="2Ry0An">
@@ -6984,7 +6984,7 @@
                 <node concept="2Ry0Ak" id="2eucapX080L" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="2eucapX080M" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.serializer.xml" />
+                    <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
                     <node concept="2Ry0Ak" id="2eucapX080N" role="2Ry0An">
                       <property role="2Ry0Am" value="models" />
                     </node>
@@ -14579,7 +14579,7 @@
                 <node concept="2Ry0Ak" id="6860Y5A0A00" role="2Ry0An">
                   <property role="2Ry0Am" value="solutions" />
                   <node concept="2Ry0Ak" id="6860Y5A0A05" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.mbeddr.mpsutil.serializer.xml" />
+                    <property role="2Ry0Am" value="de.itemis.mps.utils.serializer.xml" />
                     <node concept="2Ry0Ak" id="6860Y5A0A0a" role="2Ry0An">
                       <property role="2Ry0Am" value="lib" />
                     </node>

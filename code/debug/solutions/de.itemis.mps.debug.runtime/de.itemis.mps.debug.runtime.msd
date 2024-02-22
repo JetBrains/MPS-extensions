@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.mps.debug.runtime" uuid="14abba35-d008-451b-8562-9bfe66c43bd0" moduleVersion="0">
   <models>
-    <modelRoot contentPath="${module}" type="default">
+    <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="yes" languageLevel="JAVA_10">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>

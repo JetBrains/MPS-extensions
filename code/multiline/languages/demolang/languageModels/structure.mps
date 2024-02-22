@@ -88,7 +88,7 @@
     <property role="EcuMT" value="6400175585350644439" />
     <property role="TrG5h" value="SelectionTest" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5zhZs$8WZLa" role="1TKVEi">
       <property role="IQ2ns" value="6400175585350646858" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

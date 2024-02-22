@@ -11,7 +11,7 @@ This is a full list of all the extensions that are contained in MPS-extensions.
 
 | Name                                | Description                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------|
-| *de.slisson.mps.structurecheck*     | adds a statement to baselanguage that allows to check the structure of a node |
+| *de.itemis.mps.structurecheck*     | adds a statement to baselanguage that allows to check the structure of a node |
 | *com.mbeddr.mpsutil.blutil*         | utilities for baselanguage                                                    |
 | *com.mbeddr.mpsutil.blutil.genutil* | baselanguage generator utilities                                              |
 

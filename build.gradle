@@ -282,9 +282,15 @@ task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {
     script scriptFile('languages/build.xml')
 }
 
-task run_tests(type: TestLanguages, dependsOn: build_languages) {
+task build_tests(type: BuildLanguages, dependsOn: build_languages) {
     description "Will execute all tests from command line"
     script scriptFile('tests/build.xml')
+}
+
+task run_tests(type: TestLanguages, dependsOn: build_tests) {
+    description "Will execute all tests from command line"
+    script scriptFile('tests/build.xml')
+    targets 'check'
 }
 
 task install_nativelibs(type: Copy, dependsOn: build_languages) {

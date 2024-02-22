@@ -28,6 +28,24 @@
       <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
       <library location="${module}/lib/org.eclipse.elk.core.jar" />
       <library location="${module}/lib/org.eclipse.elk.graph.jar" />
+      <library location="${module}/lib/jgraphx.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
+      <library location="${module}/lib/org.eclipse.elk.core.jar" />
+      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
+      <library location="${module}/lib/org.eclipse.emf.common.jar" />
+      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
+      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
+      <library location="${module}/lib/jgraphx.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
+      <library location="${module}/lib/org.eclipse.elk.core.jar" />
+      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
+      <library location="${module}/lib/org.eclipse.emf.common.jar" />
+      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
+      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
     </facet>
   </facets>
   <stubModelEntries>
@@ -41,7 +59,6 @@
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
   </stubModelEntries>
-  <sourcePath />
   <dependencies>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="true">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>

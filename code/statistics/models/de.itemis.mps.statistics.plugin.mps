@@ -467,12 +467,12 @@
                       <node concept="3clFbF" id="5WCc3M3DV36" role="3cqZAp">
                         <node concept="2OqwBi" id="5WCc3M3DVc3" role="3clFbG">
                           <node concept="37vLTw" id="5WCc3M3DV35" role="2Oq$k0">
-                            <ref role="3cqZAo" node="6I9aYRTLRcB" />
+                            <ref role="3cqZAo" node="6I9aYRTLRcB" resolve="a" />
                           </node>
                           <node concept="liA8E" id="5WCc3M3DVEn" role="2OqNvi">
                             <ref role="37wK5l" to="wyt6:~String.compareTo(java.lang.String)" resolve="compareTo" />
                             <node concept="37vLTw" id="5WCc3M3DVLf" role="37wK5m">
-                              <ref role="3cqZAo" node="6I9aYRTLRcD" />
+                              <ref role="3cqZAo" node="6I9aYRTLRcD" resolve="b" />
                             </node>
                           </node>
                         </node>

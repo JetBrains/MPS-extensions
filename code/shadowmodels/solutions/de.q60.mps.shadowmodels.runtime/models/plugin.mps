@@ -655,7 +655,7 @@
             <node concept="liA8E" id="3jGmESsMXzX" role="2OqNvi">
               <ref role="37wK5l" to="l6bp:ncHX0OS6Ab" resolve="start" />
               <node concept="37vLTw" id="1Tx15Ze9ie" role="37wK5m">
-                <ref role="3cqZAo" node="1Tx15Ze9i7" resolve="findComponent" />
+                <ref role="3cqZAo" node="1Tx15Ze9i7" resolve="moduleRepository" />
               </node>
             </node>
           </node>
@@ -700,7 +700,7 @@
               <node concept="1pGfFk" id="1lswC14_o9L" role="2ShVmc">
                 <ref role="37wK5l" to="dglc:QurUgi6nZ4" resolve="RepositoryMirror" />
                 <node concept="37vLTw" id="1Tx15Ze9if" role="37wK5m">
-                  <ref role="3cqZAo" node="1Tx15Ze9i7" resolve="findComponent" />
+                  <ref role="3cqZAo" node="1Tx15Ze9i7" resolve="moduleRepository" />
                 </node>
               </node>
             </node>

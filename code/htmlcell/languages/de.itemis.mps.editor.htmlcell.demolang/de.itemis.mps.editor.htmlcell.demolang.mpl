@@ -14,7 +14,6 @@
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/resources.jar" />
   </stubModelEntries>
-  <sourcePath />
   <languageVersions>
     <language slang="l:1919c723-b60b-4592-9318-9ce96d91da44:de.itemis.mps.editor.celllayout" version="0" />
     <language slang="l:a46e4f41-529c-4c2e-bf93-818590da160d:de.itemis.mps.editor.htmlcell" version="0" />

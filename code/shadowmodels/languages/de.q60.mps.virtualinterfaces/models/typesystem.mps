@@ -459,7 +459,7 @@
                 <ref role="3cqZAo" node="1KLm$DhSPdb" resolve="expectedModel" />
               </node>
               <node concept="Xl_RD" id="1KLm$DhT1Eo" role="3uHU7B">
-                <property role="Xl_RC" value="Expected to be in a model named " />
+                <property role="Xl_RC" value="expected to be in a model named " />
               </node>
             </node>
             <node concept="1YBJjd" id="1KLm$DhT1D7" role="1urrMF">

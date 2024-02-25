@@ -109,7 +109,7 @@
         <node concept="3clFbS" id="9$iJr8YbQH" role="3clFbx">
           <node concept="2MkqsV" id="9$iJr8YcRh" role="3cqZAp">
             <node concept="Xl_RD" id="9$iJr8YcRA" role="2MkJ7o">
-              <property role="Xl_RC" value="Not in 'listeners' aspect" />
+              <property role="Xl_RC" value="listeners must be used inside 'listeners' aspect" />
             </node>
             <node concept="1YBJjd" id="9$iJr8YcS_" role="1urrMF">
               <ref role="1YBMHb" node="9$iJr8YbQ$" resolve="n" />
@@ -182,7 +182,7 @@
         <node concept="3clFbS" id="3yGY6Wjasj3" role="3clFbx">
           <node concept="a7r0C" id="3yGY6WjaYPy" role="3cqZAp">
             <node concept="Xl_RD" id="3yGY6WjaYPR" role="a7wSD">
-              <property role="Xl_RC" value="Target concept is not rootable - listener would work only for rootable subconcepts." />
+              <property role="Xl_RC" value="The target concept is not rootable. Listeners work only for rootable subconcepts." />
             </node>
             <node concept="1YBJjd" id="3yGY6WjaYR5" role="1urrMF">
               <ref role="1YBMHb" node="3yGY6WjasiF" resolve="arl" />

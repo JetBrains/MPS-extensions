@@ -1268,7 +1268,7 @@
               <node concept="2MkqsV" id="3Ezg1fMUDSX" role="3cqZAp">
                 <node concept="3cpWs3" id="3Ezg1fMUGiq" role="2MkJ7o">
                   <node concept="Xl_RD" id="3Ezg1fMUGit" role="3uHU7w">
-                    <property role="Xl_RC" value=" input paramters expected" />
+                    <property role="Xl_RC" value=" input parameters expected" />
                   </node>
                   <node concept="2OqwBi" id="3Ezg1fMUDTi" role="3uHU7B">
                     <node concept="2OqwBi" id="3Ezg1fMUDTj" role="2Oq$k0">
@@ -1341,7 +1341,7 @@
               <node concept="2MkqsV" id="3Ezg1fMV1Mb" role="3cqZAp">
                 <node concept="3cpWs3" id="3Ezg1fMV1Mo" role="2MkJ7o">
                   <node concept="Xl_RD" id="3Ezg1fMV1Mp" role="3uHU7w">
-                    <property role="Xl_RC" value=" output paramters expected" />
+                    <property role="Xl_RC" value=" output parameters expected" />
                   </node>
                   <node concept="2OqwBi" id="3Ezg1fMV1Mq" role="3uHU7B">
                     <node concept="2OqwBi" id="3Ezg1fMV1Mr" role="2Oq$k0">
@@ -3938,7 +3938,7 @@
         <node concept="3clFbS" id="32qWz0KZD1$" role="3clFbx">
           <node concept="2MkqsV" id="32qWz0KZMBE" role="3cqZAp">
             <node concept="Xl_RD" id="32qWz0KZMBQ" role="2MkJ7o">
-              <property role="Xl_RC" value="Only transformations with one input parameter are supported" />
+              <property role="Xl_RC" value="only transformations with one input parameter supported" />
             </node>
             <node concept="1YBJjd" id="32qWz0KZMEd" role="1urrMF">
               <ref role="1YBMHb" node="32qWz0KZD1r" resolve="n" />
@@ -4142,7 +4142,7 @@
         <node concept="3clFbS" id="7zy9ho7I0Sz" role="3clFbx">
           <node concept="2MkqsV" id="7zy9ho7I2J_" role="3cqZAp">
             <node concept="Xl_RD" id="7zy9ho7I2JL" role="2MkJ7o">
-              <property role="Xl_RC" value="Use 'transform' for the descendants of a rewrite" />
+              <property role="Xl_RC" value="use 'transform' for the descendants of a rewrite" />
             </node>
             <node concept="1YBJjd" id="7zy9ho7I2NE" role="1urrMF">
               <ref role="1YBMHb" node="7zy9ho7I0Sq" resolve="n" />
@@ -5534,11 +5534,11 @@
               <node concept="2MkqsV" id="1fpIz1gn8pG" role="3cqZAp">
                 <node concept="3cpWs3" id="1fpIz1gn9_3" role="2MkJ7o">
                   <node concept="Xl_RD" id="1fpIz1gn9_6" role="3uHU7w">
-                    <property role="Xl_RC" value=" is not declared as an output languagge" />
+                    <property role="Xl_RC" value=" not declared as an output language" />
                   </node>
                   <node concept="3cpWs3" id="1fpIz1gn9iP" role="3uHU7B">
                     <node concept="Xl_RD" id="1fpIz1gn90O" role="3uHU7B">
-                      <property role="Xl_RC" value="Language " />
+                      <property role="Xl_RC" value="language " />
                     </node>
                     <node concept="37vLTw" id="1fpIz1gn9j7" role="3uHU7w">
                       <ref role="3cqZAo" node="1fpIz1gn8pT" resolve="langName" />
@@ -5716,11 +5716,11 @@
               <node concept="2MkqsV" id="1fpIz1gpaod" role="3cqZAp">
                 <node concept="3cpWs3" id="1fpIz1gpaoe" role="2MkJ7o">
                   <node concept="Xl_RD" id="1fpIz1gpaof" role="3uHU7w">
-                    <property role="Xl_RC" value=" is not declared as an input languagge" />
+                    <property role="Xl_RC" value=" not declared as an input language" />
                   </node>
                   <node concept="3cpWs3" id="1fpIz1gpaog" role="3uHU7B">
                     <node concept="Xl_RD" id="1fpIz1gpaoh" role="3uHU7B">
-                      <property role="Xl_RC" value="Language " />
+                      <property role="Xl_RC" value="language " />
                     </node>
                     <node concept="37vLTw" id="1fpIz1gpaoi" role="3uHU7w">
                       <ref role="3cqZAo" node="1fpIz1gpao6" resolve="langName" />

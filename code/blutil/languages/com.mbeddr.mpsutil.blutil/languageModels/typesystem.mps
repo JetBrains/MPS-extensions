@@ -955,7 +955,7 @@
             <node concept="3clFbS" id="5xedRWY4dau" role="3clFbx">
               <node concept="a7r0C" id="5xedRWY4huM" role="3cqZAp">
                 <node concept="Xl_RD" id="5xedRWY4hvj" role="a7wSD">
-                  <property role="Xl_RC" value="Concept is deprecated" />
+                  <property role="Xl_RC" value="concept is deprecated" />
                 </node>
                 <node concept="2OqwBi" id="5xedRWY4i$o" role="1urrMF">
                   <node concept="1YBJjd" id="5xedRWY4ix8" role="2Oq$k0">
@@ -2010,7 +2010,7 @@
             <node concept="3clFbS" id="5yvl18N9ehh" role="3clFbx">
               <node concept="2MkqsV" id="5yvl18N9ehM" role="3cqZAp">
                 <node concept="Xl_RD" id="5yvl18N9ehP" role="2MkJ7o">
-                  <property role="Xl_RC" value="cannot have two clauses of the same kind" />
+                  <property role="Xl_RC" value="cannot have two clauses of same kind" />
                 </node>
                 <node concept="2GrUjf" id="5yvl18N9ehQ" role="1urrMF">
                   <ref role="2Gs0qQ" node="5yvl18N9eg2" resolve="c" />
@@ -2091,7 +2091,7 @@
         <node concept="3clFbS" id="5yvl18N9_TV" role="3clFbx">
           <node concept="2MkqsV" id="5yvl18N9_Wf" role="3cqZAp">
             <node concept="Xl_RD" id="5yvl18N9_Wi" role="2MkJ7o">
-              <property role="Xl_RC" value="this clause needs a concept criterion (/)" />
+              <property role="Xl_RC" value="add a concept criterion" />
             </node>
             <node concept="1YBJjd" id="5yvl18N9_Wj" role="1urrMF">
               <ref role="1YBMHb" node="5yvl18N9_TS" resolve="arc" />
@@ -2135,7 +2135,7 @@
         <node concept="3clFbS" id="5yvl18N9R3D" role="3clFbx">
           <node concept="2MkqsV" id="5yvl18N9Ecu" role="3cqZAp">
             <node concept="Xl_RD" id="5yvl18N9Ecx" role="2MkJ7o">
-              <property role="Xl_RC" value="cannot be used - not corresponding criterion!" />
+              <property role="Xl_RC" value="corresponding criterion doesn't exist" />
             </node>
             <node concept="1YBJjd" id="5yvl18N9Rcm" role="1urrMF">
               <ref role="1YBMHb" node="5yvl18N9R3A" resolve="mce" />
@@ -2179,7 +2179,7 @@
                   <node concept="3clFbS" id="5yvl18Na9wa" role="3clFbx">
                     <node concept="2MkqsV" id="5yvl18Na9xJ" role="3cqZAp">
                       <node concept="Xl_RD" id="5yvl18Na9xM" role="2MkJ7o">
-                        <property role="Xl_RC" value="wrong order - referenced clause must be defined earlier" />
+                        <property role="Xl_RC" value="referenced clause must be defined earlier" />
                       </node>
                       <node concept="1YBJjd" id="5yvl18Na9xN" role="1urrMF">
                         <ref role="1YBMHb" node="5yvl18N9R3A" resolve="mce" />
@@ -2628,7 +2628,7 @@
         <node concept="3clFbS" id="7xRvYDMSZUz" role="3clFbx">
           <node concept="2MkqsV" id="7xRvYDMT4ea" role="3cqZAp">
             <node concept="Xl_RD" id="7xRvYDMT4ey" role="2MkJ7o">
-              <property role="Xl_RC" value="only nodes can be used here." />
+              <property role="Xl_RC" value="only expressions of type node are allowed" />
             </node>
             <node concept="2OqwBi" id="7xRvYDMT4pA" role="1urrMF">
               <node concept="1YBJjd" id="7xRvYDMT4jS" role="2Oq$k0">
@@ -2706,7 +2706,7 @@
               <node concept="a7r0C" id="243ufko$Ace" role="3cqZAp">
                 <node concept="3cpWs3" id="243ufko$Acf" role="a7wSD">
                   <node concept="Xl_RD" id="243ufko$Acg" role="3uHU7w">
-                    <property role="Xl_RC" value=". Will migrate automatically." />
+                    <property role="Xl_RC" value=". Migration will run automatically." />
                   </node>
                   <node concept="37vLTw" id="243ufko$Ach" role="3uHU7B">
                     <ref role="3cqZAo" node="243ufko$AbZ" resolve="msg" />
@@ -2740,7 +2740,7 @@
                 <node concept="a7r0C" id="243ufko$Acr" role="3cqZAp">
                   <node concept="3cpWs3" id="243ufko$Acs" role="a7wSD">
                     <node concept="Xl_RD" id="243ufko$Act" role="3uHU7w">
-                      <property role="Xl_RC" value=". Migrate via Quick Fix!" />
+                      <property role="Xl_RC" value=". Migrate via quick fix." />
                     </node>
                     <node concept="37vLTw" id="243ufko$Acu" role="3uHU7B">
                       <ref role="3cqZAo" node="243ufko$AbZ" resolve="msg" />
@@ -3026,7 +3026,7 @@
                       <node concept="3clFbS" id="6HZ4hJu0y1q" role="1bW5cS">
                         <node concept="2MkqsV" id="6HZ4hJu0y88" role="3cqZAp">
                           <node concept="Xl_RD" id="6HZ4hJu0ynA" role="2MkJ7o">
-                            <property role="Xl_RC" value="Duplicate name!" />
+                            <property role="Xl_RC" value="duplicate name" />
                           </node>
                           <node concept="37vLTw" id="6HZ4hJu0$ua" role="1urrMF">
                             <ref role="3cqZAo" node="6HZ4hJu0y1r" resolve="it" />
@@ -3084,7 +3084,7 @@
           <node concept="3clFbS" id="1eZSuKdVoFz" role="3clFbx">
             <node concept="a7r0C" id="1eZSuKdVpmz" role="3cqZAp">
               <node concept="Xl_RD" id="1eZSuKdVpo$" role="a7wSD">
-                <property role="Xl_RC" value="Shall specify a repository to lock" />
+                <property role="Xl_RC" value="specify a repository to lock" />
               </node>
               <node concept="1YBJjd" id="5KHBa6l7Gxk" role="1urrMF">
                 <ref role="1YBMHb" node="5KHBa6l7Glo" resolve="safeReadAction" />
@@ -3118,7 +3118,7 @@
         <node concept="3clFbS" id="5KHBa6l7GUX" role="3clFbx">
           <node concept="a7r0C" id="5KHBa6l7GUY" role="3cqZAp">
             <node concept="Xl_RD" id="5KHBa6l7GUZ" role="a7wSD">
-              <property role="Xl_RC" value="Shall specify a repository to lock" />
+              <property role="Xl_RC" value="specify a repository to lock" />
             </node>
             <node concept="1YBJjd" id="5KHBa6l7H6Y" role="1urrMF">
               <ref role="1YBMHb" node="5KHBa6l7GUS" resolve="safeWriteAction" />

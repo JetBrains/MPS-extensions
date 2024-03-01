@@ -36,6 +36,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -126,6 +127,59 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="1885109890161512398" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5PKDVfNXREN">
+    <property role="EcuMT" value="6733065834252958387" />
+    <property role="TrG5h" value="EditorComponentDeclarationWithParameters" />
+    <property role="34LRSv" value="editor component with parameters" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpc2:fGPKFH7" resolve="EditorComponentDeclaration" />
+    <node concept="1TJgyj" id="5PKDVfNY0qm" role="1TKVEi">
+      <property role="IQ2ns" value="6733065834252994198" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="parameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:4k3qd$cSlJ3" resolve="BaseVariableDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5PKDVfOkPcZ">
+    <property role="EcuMT" value="6733065834258977599" />
+    <property role="TrG5h" value="EditorComponentParameterReference" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="5PKDVfOkPd0" role="1TKVEi">
+      <property role="IQ2ns" value="6733065834258977600" />
+      <property role="20kJfa" value="parameter" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:4k3qd$cSlJ3" resolve="BaseVariableDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5PKDVfOlrE5">
+    <property role="EcuMT" value="6733065834259135109" />
+    <property role="TrG5h" value="CellModel_ComponentWithParameters" />
+    <property role="34LRSv" value="component with arguments" />
+    <ref role="1TJDcQ" to="tpc2:fGPMmym" resolve="CellModel_Component" />
+    <node concept="1TJgyj" id="fGPMmyn" role="1TKVEi">
+      <property role="20kJfa" value="editorComponent" />
+      <property role="20lbJX" value="fLJekj4/1" />
+      <property role="IQ2ns" value="1078939183255" />
+      <ref role="20ksaX" to="tpc2:fGPMmyn" resolve="editorComponent" />
+      <ref role="20lvS9" node="5PKDVfNXREN" resolve="EditorComponentDeclarationWithParameters" />
+    </node>
+    <node concept="1TJgyj" id="5PKDVfOlsvY" role="1TKVEi">
+      <property role="IQ2ns" value="6733065834259138558" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="arguments" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5PKDVfOlsvP">
+    <property role="TrG5h" value="StubCellModel_ComponentWithParameters" />
+    <property role="EcuMT" value="6733065834259138549" />
+    <ref role="1TJDcQ" node="5PKDVfOlrE5" resolve="CellModel_ComponentWithParameters" />
+    <node concept="PrWs8" id="5PKDVfOlsvR" role="PzmwI">
+      <ref role="PrY4T" to="tpck:8AYOKVCAP5" />
     </node>
   </node>
 </model>

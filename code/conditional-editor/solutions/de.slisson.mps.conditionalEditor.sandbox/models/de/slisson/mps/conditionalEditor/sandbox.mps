@@ -174,7 +174,11 @@
     </node>
     <node concept="3Tm1VV" id="2vJRo8gBQdq" role="1B3o_S" />
   </node>
-  <node concept="2IymN2" id="5PKDVfOfiLR" />
-  <node concept="2IymN1" id="5PKDVfOrikW" />
+  <node concept="2IymN2" id="5PKDVfOfiLR">
+    <property role="TrG5h" value="ANode" />
+  </node>
+  <node concept="2IymN1" id="5PKDVfOrikW">
+    <property role="TrG5h" value="BNode" />
+  </node>
 </model>
 

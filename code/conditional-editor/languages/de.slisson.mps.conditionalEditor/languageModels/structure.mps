@@ -171,7 +171,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="arguments" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" node="1gBmad3Feya" resolve="ComponentArgument" />
     </node>
   </node>
   <node concept="1TIwiD" id="5PKDVfOlsvP">
@@ -180,6 +180,17 @@
     <ref role="1TJDcQ" node="5PKDVfOlrE5" resolve="CellModel_ComponentWithParameters" />
     <node concept="PrWs8" id="5PKDVfOlsvR" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1gBmad3Feya">
+    <property role="EcuMT" value="1452226863088593034" />
+    <property role="TrG5h" value="ComponentArgument" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="1TJgyj" id="1gBmad3FeJu" role="1TKVEi">
+      <property role="IQ2ns" value="1452226863088593886" />
+      <property role="20kJfa" value="variable" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:4k3qd$cSlJ3" resolve="BaseVariableDeclaration" />
     </node>
   </node>
 </model>

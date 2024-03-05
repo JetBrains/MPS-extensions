@@ -15,6 +15,7 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="tpeq" ref="r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -117,6 +118,7 @@
       <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ng" index="2c44t0">
         <child id="1196350785111" name="expression" index="2c44t1" />
       </concept>
+      <concept id="1196350785117" name="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" flags="ng" index="2c44tb" />
       <concept id="1196350785112" name="jetbrains.mps.lang.quotation.structure.Antiquotation" flags="ng" index="2c44te" />
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
         <child id="1196350785114" name="quotedNode" index="2c44tc" />
@@ -260,6 +262,10 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
+        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
+        <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -955,7 +961,7 @@
             <node concept="3clFbS" id="5xedRWY4dau" role="3clFbx">
               <node concept="a7r0C" id="5xedRWY4huM" role="3cqZAp">
                 <node concept="Xl_RD" id="5xedRWY4hvj" role="a7wSD">
-                  <property role="Xl_RC" value="Concept is deprecated" />
+                  <property role="Xl_RC" value="concept is deprecated" />
                 </node>
                 <node concept="2OqwBi" id="5xedRWY4i$o" role="1urrMF">
                   <node concept="1YBJjd" id="5xedRWY4ix8" role="2Oq$k0">
@@ -2010,7 +2016,7 @@
             <node concept="3clFbS" id="5yvl18N9ehh" role="3clFbx">
               <node concept="2MkqsV" id="5yvl18N9ehM" role="3cqZAp">
                 <node concept="Xl_RD" id="5yvl18N9ehP" role="2MkJ7o">
-                  <property role="Xl_RC" value="cannot have two clauses of the same kind" />
+                  <property role="Xl_RC" value="cannot have two clauses of same kind" />
                 </node>
                 <node concept="2GrUjf" id="5yvl18N9ehQ" role="1urrMF">
                   <ref role="2Gs0qQ" node="5yvl18N9eg2" resolve="c" />
@@ -2091,7 +2097,7 @@
         <node concept="3clFbS" id="5yvl18N9_TV" role="3clFbx">
           <node concept="2MkqsV" id="5yvl18N9_Wf" role="3cqZAp">
             <node concept="Xl_RD" id="5yvl18N9_Wi" role="2MkJ7o">
-              <property role="Xl_RC" value="this clause needs a concept criterion (/)" />
+              <property role="Xl_RC" value="add a concept criterion" />
             </node>
             <node concept="1YBJjd" id="5yvl18N9_Wj" role="1urrMF">
               <ref role="1YBMHb" node="5yvl18N9_TS" resolve="arc" />
@@ -2135,7 +2141,7 @@
         <node concept="3clFbS" id="5yvl18N9R3D" role="3clFbx">
           <node concept="2MkqsV" id="5yvl18N9Ecu" role="3cqZAp">
             <node concept="Xl_RD" id="5yvl18N9Ecx" role="2MkJ7o">
-              <property role="Xl_RC" value="cannot be used - not corresponding criterion!" />
+              <property role="Xl_RC" value="corresponding criterion doesn't exist" />
             </node>
             <node concept="1YBJjd" id="5yvl18N9Rcm" role="1urrMF">
               <ref role="1YBMHb" node="5yvl18N9R3A" resolve="mce" />
@@ -2179,7 +2185,7 @@
                   <node concept="3clFbS" id="5yvl18Na9wa" role="3clFbx">
                     <node concept="2MkqsV" id="5yvl18Na9xJ" role="3cqZAp">
                       <node concept="Xl_RD" id="5yvl18Na9xM" role="2MkJ7o">
-                        <property role="Xl_RC" value="wrong order - referenced clause must be defined earlier" />
+                        <property role="Xl_RC" value="referenced clause must be defined earlier" />
                       </node>
                       <node concept="1YBJjd" id="5yvl18Na9xN" role="1urrMF">
                         <ref role="1YBMHb" node="5yvl18N9R3A" resolve="mce" />
@@ -2628,7 +2634,7 @@
         <node concept="3clFbS" id="7xRvYDMSZUz" role="3clFbx">
           <node concept="2MkqsV" id="7xRvYDMT4ea" role="3cqZAp">
             <node concept="Xl_RD" id="7xRvYDMT4ey" role="2MkJ7o">
-              <property role="Xl_RC" value="only nodes can be used here." />
+              <property role="Xl_RC" value="only expressions of type node are allowed" />
             </node>
             <node concept="2OqwBi" id="7xRvYDMT4pA" role="1urrMF">
               <node concept="1YBJjd" id="7xRvYDMT4jS" role="2Oq$k0">
@@ -2706,7 +2712,7 @@
               <node concept="a7r0C" id="243ufko$Ace" role="3cqZAp">
                 <node concept="3cpWs3" id="243ufko$Acf" role="a7wSD">
                   <node concept="Xl_RD" id="243ufko$Acg" role="3uHU7w">
-                    <property role="Xl_RC" value=". Will migrate automatically." />
+                    <property role="Xl_RC" value=". Migration will run automatically." />
                   </node>
                   <node concept="37vLTw" id="243ufko$Ach" role="3uHU7B">
                     <ref role="3cqZAo" node="243ufko$AbZ" resolve="msg" />
@@ -2740,7 +2746,7 @@
                 <node concept="a7r0C" id="243ufko$Acr" role="3cqZAp">
                   <node concept="3cpWs3" id="243ufko$Acs" role="a7wSD">
                     <node concept="Xl_RD" id="243ufko$Act" role="3uHU7w">
-                      <property role="Xl_RC" value=". Migrate via Quick Fix!" />
+                      <property role="Xl_RC" value=". Migrate via quick fix." />
                     </node>
                     <node concept="37vLTw" id="243ufko$Acu" role="3uHU7B">
                       <ref role="3cqZAo" node="243ufko$AbZ" resolve="msg" />
@@ -3026,7 +3032,7 @@
                       <node concept="3clFbS" id="6HZ4hJu0y1q" role="1bW5cS">
                         <node concept="2MkqsV" id="6HZ4hJu0y88" role="3cqZAp">
                           <node concept="Xl_RD" id="6HZ4hJu0ynA" role="2MkJ7o">
-                            <property role="Xl_RC" value="Duplicate name!" />
+                            <property role="Xl_RC" value="duplicate name" />
                           </node>
                           <node concept="37vLTw" id="6HZ4hJu0$ua" role="1urrMF">
                             <ref role="3cqZAo" node="6HZ4hJu0y1r" resolve="it" />
@@ -3084,7 +3090,7 @@
           <node concept="3clFbS" id="1eZSuKdVoFz" role="3clFbx">
             <node concept="a7r0C" id="1eZSuKdVpmz" role="3cqZAp">
               <node concept="Xl_RD" id="1eZSuKdVpo$" role="a7wSD">
-                <property role="Xl_RC" value="Shall specify a repository to lock" />
+                <property role="Xl_RC" value="specify a repository to lock" />
               </node>
               <node concept="1YBJjd" id="5KHBa6l7Gxk" role="1urrMF">
                 <ref role="1YBMHb" node="5KHBa6l7Glo" resolve="safeReadAction" />
@@ -3118,7 +3124,7 @@
         <node concept="3clFbS" id="5KHBa6l7GUX" role="3clFbx">
           <node concept="a7r0C" id="5KHBa6l7GUY" role="3cqZAp">
             <node concept="Xl_RD" id="5KHBa6l7GUZ" role="a7wSD">
-              <property role="Xl_RC" value="Shall specify a repository to lock" />
+              <property role="Xl_RC" value="specify a repository to lock" />
             </node>
             <node concept="1YBJjd" id="5KHBa6l7H6Y" role="1urrMF">
               <ref role="1YBMHb" node="5KHBa6l7GUS" resolve="safeWriteAction" />
@@ -3141,6 +3147,48 @@
     <node concept="1YaCAy" id="5KHBa6l7GUS" role="1YuTPh">
       <property role="TrG5h" value="safeWriteAction" />
       <ref role="1YaFvo" to="hba4:1IlnVQ9J0Vi" resolve="SafeWriteAction" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="7zYevsNnmZ9">
+    <property role="TrG5h" value="typeof_IfInstanceOfElseIfClause" />
+    <property role="3GE5qa" value="instanceof" />
+    <node concept="3clFbS" id="7zYevsNnmZa" role="18ibNy">
+      <node concept="1Z5TYs" id="1Cyzq4PvWCV" role="3cqZAp">
+        <node concept="mw_s8" id="1Cyzq4PvWCZ" role="1ZfhKB">
+          <node concept="2c44tf" id="1Cyzq4PvWD0" role="mwGJk">
+            <node concept="3Tqbb2" id="1Cyzq4PvWD2" role="2c44tc">
+              <node concept="2c44tb" id="1Cyzq4PvWD3" role="lGtFl">
+                <property role="2qtEX8" value="concept" />
+                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
+                <node concept="2OqwBi" id="1Cyzq4PvWD6" role="2c44t1">
+                  <node concept="1YBJjd" id="1Cyzq4PvWD5" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7zYevsNnmZc" resolve="ifInstanceOfElseIfClause" />
+                  </node>
+                  <node concept="3TrEf2" id="1Cyzq4PvWDa" role="2OqNvi">
+                    <ref role="3Tt5mk" to="hba4:1Cyzq4Pv$D8" resolve="nodeConcept" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="1Cyzq4PvWCY" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1Cyzq4PvWCN" role="mwGJk">
+            <node concept="2OqwBi" id="1Cyzq4PvWCQ" role="1Z2MuG">
+              <node concept="1YBJjd" id="1Cyzq4PvWCP" role="2Oq$k0">
+                <ref role="1YBMHb" node="7zYevsNnmZc" resolve="ifInstanceOfElseIfClause" />
+              </node>
+              <node concept="3TrEf2" id="1Cyzq4PvWCU" role="2OqNvi">
+                <ref role="3Tt5mk" to="hba4:1Cyzq4Pv$D7" resolve="variable" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7zYevsNnmZc" role="1YuTPh">
+      <property role="TrG5h" value="ifInstanceOfElseIfClause" />
+      <ref role="1YaFvo" to="hba4:7zYevsMKS6i" resolve="IfInstanceOfElseIfClause" />
     </node>
   </node>
 </model>

@@ -682,7 +682,7 @@
         <node concept="3clFbS" id="4FwMpYIn82i" role="3clFbx">
           <node concept="2MkqsV" id="4FwMpYInaZn" role="3cqZAp">
             <node concept="Xl_RD" id="4FwMpYInbFZ" role="2MkJ7o">
-              <property role="Xl_RC" value="Both sides must implement the same function" />
+              <property role="Xl_RC" value="both sides must implement the same function" />
             </node>
             <node concept="1YBJjd" id="4FwMpYInb7c" role="1urrMF">
               <ref role="1YBMHb" node="4FwMpYIn81p" resolve="n" />
@@ -812,7 +812,7 @@
                 </node>
               </node>
               <node concept="Xl_RD" id="2Vy1$4MWHcn" role="3uHU7B">
-                <property role="Xl_RC" value="Add the following groups to the call: " />
+                <property role="Xl_RC" value="add the following groups to the call: " />
               </node>
             </node>
             <node concept="1YBJjd" id="2Vy1$4MWJr4" role="1urrMF">

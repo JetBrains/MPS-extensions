@@ -29,7 +29,9 @@
       <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
         <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
       </concept>
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -711,7 +713,9 @@
     <property role="34LRSv" value="node" />
     <property role="EcuMT" value="2630243574828768918" />
     <ref role="1TJDcQ" node="7sHDEc2EhvQ" resolve="ThisNodeExpression" />
-    <node concept="asaX9" id="4be4ERvD6Ok" role="lGtFl" />
+    <node concept="asaX9" id="4be4ERvD6Ok" role="lGtFl">
+      <property role="YLQ7P" value="Execute the migration script &quot;Migrate Diagram Editor&quot;." />
+    </node>
   </node>
   <node concept="1TIwiD" id="3GatLR30YxB">
     <property role="3GE5qa" value="shape" />

@@ -1,6 +1,6 @@
 # Structure Check
 
-**Language Namespace:** `de.slisson.mps.structurecheck`
+**Language Namespace:** `de.itemis.mps.structurecheck`
 
 The statement `check structure of` can check the structure of a node. The statement throws a runtime exception when the check fails.
 It supports a few different checkers. The expression `thisElement` always refers to the current element:

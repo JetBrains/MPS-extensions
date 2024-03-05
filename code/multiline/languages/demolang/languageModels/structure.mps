@@ -7,6 +7,7 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -80,6 +81,28 @@
     <node concept="1TJgyi" id="4WxvFC4UpxF" role="1TKVEl">
       <property role="TrG5h" value="text" />
       <property role="IQ2nx" value="5701977940639193195" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5zhZs$8WZbn">
+    <property role="EcuMT" value="6400175585350644439" />
+    <property role="TrG5h" value="SelectionTest" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5zhZs$8WZLa" role="1TKVEi">
+      <property role="IQ2ns" value="6400175585350646858" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cls" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
+    <node concept="1TJgyi" id="5zhZs$8WZL5" role="1TKVEl">
+      <property role="IQ2nx" value="6400175585350646853" />
+      <property role="TrG5h" value="text1" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5zhZs$8WZL7" role="1TKVEl">
+      <property role="IQ2nx" value="6400175585350646855" />
+      <property role="TrG5h" value="text2" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

@@ -573,7 +573,7 @@
         <node concept="3clFbS" id="4f8kqjwl8gm" role="3clFbx">
           <node concept="2MkqsV" id="4f8kqjwl9jX" role="3cqZAp">
             <node concept="Xl_RD" id="4f8kqjwl9k9" role="2MkJ7o">
-              <property role="Xl_RC" value="No type sepcified" />
+              <property role="Xl_RC" value="no type specified" />
             </node>
             <node concept="1YBJjd" id="4f8kqjwl9lq" role="1urrMF">
               <ref role="1YBMHb" node="4f8kqjwl8gh" resolve="treeNodeElement" />

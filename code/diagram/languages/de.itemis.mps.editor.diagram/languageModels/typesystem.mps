@@ -63,9 +63,6 @@
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
-      <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
-        <child id="1207055552304" name="warningText" index="a7wSD" />
-      </concept>
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
       </concept>
@@ -656,24 +653,6 @@
       <ref role="1YaFvo" to="2qld:6uo2fN6gOXL" resolve="ShapeReference" />
     </node>
   </node>
-  <node concept="18kY7G" id="4be4ERvCU0d">
-    <property role="TrG5h" value="check_ShapeNodeExpression" />
-    <property role="3GE5qa" value="shape" />
-    <node concept="3clFbS" id="4be4ERvCU5H" role="18ibNy">
-      <node concept="a7r0C" id="4be4ERvCUgE" role="3cqZAp">
-        <node concept="Xl_RD" id="4be4ERvCUhk" role="a7wSD">
-          <property role="Xl_RC" value="Deprecated. Execute the migration script \&quot;Migrate Diagram Editor\&quot; " />
-        </node>
-        <node concept="1YBJjd" id="4be4ERvCUmM" role="1urrMF">
-          <ref role="1YBMHb" node="4be4ERvCU5J" resolve="node" />
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4be4ERvCU5J" role="1YuTPh">
-      <property role="TrG5h" value="node" />
-      <ref role="1YaFvo" to="2qld:2i0w9xYr1Um" resolve="ShapeNodeExpression" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="5RIhRmzPozO">
     <property role="TrG5h" value="typeof_ContextVariableReference" />
     <property role="3GE5qa" value="contextVar" />
@@ -1018,7 +997,7 @@
             <node concept="3clFbS" id="7W7dK_Oc3nL" role="3clFbx">
               <node concept="2MkqsV" id="7W7dK_Oc5Gb" role="3cqZAp">
                 <node concept="Xl_RD" id="7W7dK_Oc5Gq" role="2MkJ7o">
-                  <property role="Xl_RC" value="This is ignored if a shape is specified" />
+                  <property role="Xl_RC" value="disabled through get shape function" />
                 </node>
                 <node concept="2OqwBi" id="7W7dK_Oc5QT" role="1urrMF">
                   <node concept="1YBJjd" id="7W7dK_Oc5I1" role="2Oq$k0">
@@ -1046,7 +1025,7 @@
             <node concept="3clFbS" id="7W7dK_Oc6dg" role="3clFbx">
               <node concept="2MkqsV" id="7W7dK_Oc6dh" role="3cqZAp">
                 <node concept="Xl_RD" id="7W7dK_Oc6di" role="2MkJ7o">
-                  <property role="Xl_RC" value="This is ignored if a shape is specified" />
+                  <property role="Xl_RC" value="disabled through get shape function" />
                 </node>
                 <node concept="2OqwBi" id="7W7dK_Oc6dj" role="1urrMF">
                   <node concept="1YBJjd" id="7W7dK_Oc6dk" role="2Oq$k0">

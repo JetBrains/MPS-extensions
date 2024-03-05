@@ -466,7 +466,7 @@
             <node concept="3clFbS" id="1VmHfRxDuNY" role="3clFbx">
               <node concept="2MkqsV" id="1VmHfRxDyUW" role="3cqZAp">
                 <node concept="Xl_RD" id="1VmHfRxDyV8" role="2MkJ7o">
-                  <property role="Xl_RC" value="Property already chosen" />
+                  <property role="Xl_RC" value="property already chosen" />
                 </node>
                 <node concept="2GrUjf" id="1VmHfRxDyVj" role="1urrMF">
                   <ref role="2Gs0qQ" node="1VmHfRxDuo3" resolve="propPolicy" />
@@ -559,7 +559,7 @@
             <node concept="3clFbS" id="1VmHfRxDFJn" role="3clFbx">
               <node concept="2MkqsV" id="1VmHfRxDIsj" role="3cqZAp">
                 <node concept="Xl_RD" id="1VmHfRxDIsv" role="2MkJ7o">
-                  <property role="Xl_RC" value="Child already chosen" />
+                  <property role="Xl_RC" value="child already chosen" />
                 </node>
                 <node concept="2GrUjf" id="1VmHfRxDItK" role="1urrMF">
                   <ref role="2Gs0qQ" node="1VmHfRxDF4s" resolve="childPolicy" />
@@ -623,11 +623,11 @@
           <node concept="2MkqsV" id="6CwG2k8848E" role="3cqZAp">
             <node concept="3cpWs3" id="6CwG2k887OQ" role="2MkJ7o">
               <node concept="Xl_RD" id="6CwG2k887OT" role="3uHU7w">
-                <property role="Xl_RC" value="' does not define IdFunction" />
+                <property role="Xl_RC" value=" does not define ID function" />
               </node>
               <node concept="3cpWs3" id="6CwG2k8854B" role="3uHU7B">
                 <node concept="Xl_RD" id="6CwG2k88492" role="3uHU7B">
-                  <property role="Xl_RC" value="Merge Policy for concept '" />
+                  <property role="Xl_RC" value="merge policy for concept " />
                 </node>
                 <node concept="2OqwBi" id="2xeWAXXQ5u9" role="3uHU7w">
                   <node concept="37vLTw" id="2xeWAXXQxPF" role="2Oq$k0">
@@ -724,7 +724,7 @@
             <node concept="3clFbS" id="1VmHfRxTMZj" role="3clFbx">
               <node concept="2MkqsV" id="1VmHfRxTNQd" role="3cqZAp">
                 <node concept="Xl_RD" id="1VmHfRxTNQp" role="2MkJ7o">
-                  <property role="Xl_RC" value="Duplicate Subpolicy" />
+                  <property role="Xl_RC" value="duplicate subpolicy" />
                 </node>
                 <node concept="2GrUjf" id="1VmHfRxTNQ$" role="1urrMF">
                   <ref role="2Gs0qQ" node="1VmHfRxTL_u" resolve="subPolicycontainer" />
@@ -757,7 +757,7 @@
         <node concept="3clFbS" id="6CwG2k8bTHi" role="3clFbx">
           <node concept="2MkqsV" id="6CwG2k8bVQB" role="3cqZAp">
             <node concept="Xl_RD" id="6CwG2k8bVQQ" role="2MkJ7o">
-              <property role="Xl_RC" value="MultiChild Policy not completely defined" />
+              <property role="Xl_RC" value="multi-child policy not completely defined" />
             </node>
             <node concept="1YBJjd" id="6CwG2k8bVR1" role="1urrMF">
               <ref role="1YBMHb" node="1VmHfRxTFHc" resolve="multiChildPolicy" />
@@ -865,7 +865,7 @@
             <node concept="3clFbS" id="2dyrZ3FoScg" role="3clFbx">
               <node concept="2MkqsV" id="2dyrZ3FordR" role="3cqZAp">
                 <node concept="Xl_RD" id="2dyrZ3Fore6" role="2MkJ7o">
-                  <property role="Xl_RC" value="SubPolicy already defined." />
+                  <property role="Xl_RC" value="subpolicy already defined" />
                 </node>
                 <node concept="2GrUjf" id="2dyrZ3FoV9R" role="1urrMF">
                   <ref role="2Gs0qQ" node="2dyrZ3FoP03" resolve="subPolicyContainer2" />
@@ -958,7 +958,7 @@
               <property role="TrG5h" value="msg" />
               <node concept="17QB3L" id="5zr7Q_1L4AM" role="1tU5fm" />
               <node concept="Xl_RD" id="5zr7Q_1L4U4" role="33vP2m">
-                <property role="Xl_RC" value="Left and Right must be different" />
+                <property role="Xl_RC" value="left and right models must be different" />
               </node>
             </node>
           </node>
@@ -1359,14 +1359,14 @@
                       <node concept="3cpWs3" id="6MgS2un_soT" role="3uHU7B">
                         <node concept="3cpWs3" id="6MgS2un_soU" role="3uHU7B">
                           <node concept="Xl_RD" id="6MgS2un_soV" role="3uHU7B">
-                            <property role="Xl_RC" value="Concept " />
+                            <property role="Xl_RC" value="concept " />
                           </node>
                           <node concept="37vLTw" id="6MgS2un_soW" role="3uHU7w">
                             <ref role="3cqZAo" node="6MgS2un_soL" resolve="sac" />
                           </node>
                         </node>
                         <node concept="Xl_RD" id="6MgS2un_soX" role="3uHU7w">
-                          <property role="Xl_RC" value=" is missing Merge Policy for Property " />
+                          <property role="Xl_RC" value=" is missing merge policy for property " />
                         </node>
                       </node>
                     </node>
@@ -1592,14 +1592,14 @@
                       <node concept="3cpWs3" id="6MgS2un_o5A" role="3uHU7B">
                         <node concept="3cpWs3" id="6MgS2un_o5B" role="3uHU7B">
                           <node concept="Xl_RD" id="6MgS2un_o5C" role="3uHU7B">
-                            <property role="Xl_RC" value="Concept" />
+                            <property role="Xl_RC" value="concept" />
                           </node>
                           <node concept="37vLTw" id="6MgS2un_o5D" role="3uHU7w">
                             <ref role="3cqZAo" node="6MgS2un_o5s" resolve="sac" />
                           </node>
                         </node>
                         <node concept="Xl_RD" id="6MgS2un_o5E" role="3uHU7w">
-                          <property role="Xl_RC" value=" is missing Merge Policy for Child " />
+                          <property role="Xl_RC" value=" is missing merge policy for child " />
                         </node>
                       </node>
                     </node>
@@ -1824,14 +1824,14 @@
                       <node concept="3cpWs3" id="6MgS2unBUCB" role="3uHU7B">
                         <node concept="3cpWs3" id="6MgS2unBUCC" role="3uHU7B">
                           <node concept="Xl_RD" id="6MgS2unBUCD" role="3uHU7B">
-                            <property role="Xl_RC" value="Concept" />
+                            <property role="Xl_RC" value="concept" />
                           </node>
                           <node concept="37vLTw" id="6MgS2unBUCE" role="3uHU7w">
                             <ref role="3cqZAo" node="6MgS2unBUCt" resolve="sac" />
                           </node>
                         </node>
                         <node concept="Xl_RD" id="6MgS2unBUCF" role="3uHU7w">
-                          <property role="Xl_RC" value=" is missing Merge Policy for Reference " />
+                          <property role="Xl_RC" value=" is missing merge policy for reference " />
                         </node>
                       </node>
                     </node>
@@ -2050,14 +2050,14 @@
                     <node concept="3cpWs3" id="60iGZSK$Uct" role="a7wSD">
                       <node concept="3cpWs3" id="60iGZSK$Ucu" role="3uHU7B">
                         <node concept="Xl_RD" id="60iGZSK$Ucv" role="3uHU7B">
-                          <property role="Xl_RC" value="Concept " />
+                          <property role="Xl_RC" value="concept " />
                         </node>
                         <node concept="37vLTw" id="60iGZSK$Ucw" role="3uHU7w">
                           <ref role="3cqZAo" node="60iGZSK$Ucj" resolve="sac" />
                         </node>
                       </node>
                       <node concept="Xl_RD" id="60iGZSK$Ucx" role="3uHU7w">
-                        <property role="Xl_RC" value=" is missing IdFunction " />
+                        <property role="Xl_RC" value=" is missing ID function " />
                       </node>
                     </node>
                     <node concept="2YIFZM" id="60iGZSK$Ucy" role="1urrMF">
@@ -2169,56 +2169,51 @@
               </node>
             </node>
             <node concept="2MkqsV" id="7TOowlgVJ6e" role="3cqZAp">
-              <node concept="3cpWs3" id="60iGZSKhamU" role="2MkJ7o">
-                <node concept="Xl_RD" id="60iGZSKhamX" role="3uHU7w">
-                  <property role="Xl_RC" value="!" />
-                </node>
-                <node concept="3cpWs3" id="60iGZSKh7YV" role="3uHU7B">
-                  <node concept="3cpWs3" id="7TOowlgVMa_" role="3uHU7B">
-                    <node concept="3cpWs3" id="7TOowlgVKKG" role="3uHU7B">
-                      <node concept="3cpWs3" id="7TOowlgVJGd" role="3uHU7B">
-                        <node concept="3cpWs3" id="7TOowlgVJp_" role="3uHU7B">
-                          <node concept="3cpWs3" id="1trrptaDnGv" role="3uHU7B">
-                            <node concept="2OqwBi" id="1trrptaDoik" role="3uHU7B">
-                              <node concept="37vLTw" id="1trrptaDnNz" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7TOowlgVHwX" resolve="e" />
-                              </node>
-                              <node concept="2OwXpG" id="1trrptaDoB7" role="2OqNvi">
-                                <ref role="2Oxat5" to="gunp:1trrptaBV8y" resolve="type" />
-                              </node>
+              <node concept="3cpWs3" id="60iGZSKh7YV" role="2MkJ7o">
+                <node concept="3cpWs3" id="7TOowlgVMa_" role="3uHU7B">
+                  <node concept="3cpWs3" id="7TOowlgVKKG" role="3uHU7B">
+                    <node concept="3cpWs3" id="7TOowlgVJGd" role="3uHU7B">
+                      <node concept="3cpWs3" id="7TOowlgVJp_" role="3uHU7B">
+                        <node concept="3cpWs3" id="1trrptaDnGv" role="3uHU7B">
+                          <node concept="2OqwBi" id="1trrptaDoik" role="3uHU7B">
+                            <node concept="37vLTw" id="1trrptaDnNz" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7TOowlgVHwX" resolve="e" />
                             </node>
-                            <node concept="Xl_RD" id="7TOowlgVJ7c" role="3uHU7w">
-                              <property role="Xl_RC" value=" " />
+                            <node concept="2OwXpG" id="1trrptaDoB7" role="2OqNvi">
+                              <ref role="2Oxat5" to="gunp:1trrptaBV8y" resolve="type" />
                             </node>
                           </node>
-                          <node concept="37vLTw" id="582YV7z8p1V" role="3uHU7w">
-                            <ref role="3cqZAo" node="582YV7z8mrG" resolve="violationForStr" />
+                          <node concept="Xl_RD" id="7TOowlgVJ7c" role="3uHU7w">
+                            <property role="Xl_RC" value=" " />
                           </node>
                         </node>
-                        <node concept="Xl_RD" id="7TOowlgVJGg" role="3uHU7w">
-                          <property role="Xl_RC" value=" has been defined multiple times for " />
+                        <node concept="37vLTw" id="582YV7z8p1V" role="3uHU7w">
+                          <ref role="3cqZAo" node="582YV7z8mrG" resolve="violationForStr" />
                         </node>
                       </node>
-                      <node concept="2OqwBi" id="7TOowlgVLoT" role="3uHU7w">
-                        <node concept="37vLTw" id="7TOowlgVKRO" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7TOowlgVHwX" resolve="e" />
-                        </node>
-                        <node concept="2OwXpG" id="7TOowlgVLQc" role="2OqNvi">
-                          <ref role="2Oxat5" to="gunp:7TOowlgU2lk" resolve="violationConcept" />
-                        </node>
+                      <node concept="Xl_RD" id="7TOowlgVJGg" role="3uHU7w">
+                        <property role="Xl_RC" value=" is already defined multiple times for " />
                       </node>
                     </node>
-                    <node concept="Xl_RD" id="7TOowlgVMaC" role="3uHU7w">
-                      <property role="Xl_RC" value=" via SuperConcepts! Please provide a Separate Policy for " />
+                    <node concept="2OqwBi" id="7TOowlgVLoT" role="3uHU7w">
+                      <node concept="37vLTw" id="7TOowlgVKRO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7TOowlgVHwX" resolve="e" />
+                      </node>
+                      <node concept="2OwXpG" id="7TOowlgVLQc" role="2OqNvi">
+                        <ref role="2Oxat5" to="gunp:7TOowlgU2lk" resolve="violationConcept" />
+                      </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="60iGZSKh9t4" role="3uHU7w">
-                    <node concept="37vLTw" id="60iGZSKh8Tj" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7TOowlgVHwX" resolve="e" />
-                    </node>
-                    <node concept="2OwXpG" id="60iGZSKh9J4" role="2OqNvi">
-                      <ref role="2Oxat5" to="gunp:1trrptaBV8y" resolve="type" />
-                    </node>
+                  <node concept="Xl_RD" id="7TOowlgVMaC" role="3uHU7w">
+                    <property role="Xl_RC" value=" via super concepts. Provide a separate policy for " />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="60iGZSKh9t4" role="3uHU7w">
+                  <node concept="37vLTw" id="60iGZSKh8Tj" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7TOowlgVHwX" resolve="e" />
+                  </node>
+                  <node concept="2OwXpG" id="60iGZSKh9J4" role="2OqNvi">
+                    <ref role="2Oxat5" to="gunp:1trrptaBV8y" resolve="type" />
                   </node>
                 </node>
               </node>

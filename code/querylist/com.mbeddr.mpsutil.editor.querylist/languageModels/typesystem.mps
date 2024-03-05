@@ -231,7 +231,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="C$q8A2ySyV" role="3uHU7w">
-                  <property role="Xl_RC" value=", but is " />
+                  <property role="Xl_RC" value="but found " />
                 </node>
               </node>
             </node>

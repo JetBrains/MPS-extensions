@@ -236,43 +236,38 @@
                       <node concept="AMVWg" id="7cmDwXTT2ma" role="lGtFl">
                         <property role="TrG5h" value="OperatorCannotBeApplied" />
                       </node>
-                      <node concept="3cpWs3" id="4rnzj9dp8nE" role="2MkJ7o">
-                        <node concept="Xl_RD" id="4rnzj9dp8nH" role="3uHU7w">
-                          <property role="Xl_RC" value="'" />
-                        </node>
-                        <node concept="3cpWs3" id="4rnzj9dowWB" role="3uHU7B">
-                          <node concept="3cpWs3" id="4rnzj9dowWf" role="3uHU7B">
-                            <node concept="3cpWs3" id="4rnzj9dowVK" role="3uHU7B">
-                              <node concept="3cpWs3" id="4rnzj9dowVp" role="3uHU7B">
-                                <node concept="3cpWs3" id="4rnzj9dowVj" role="3uHU7B">
-                                  <node concept="2OqwBi" id="2wdLO7KfOue" role="3uHU7w">
-                                    <node concept="2OqwBi" id="1k1VwvtPGiC" role="2Oq$k0">
-                                      <node concept="2yIwOk" id="1k1VwvtPGiD" role="2OqNvi" />
-                                      <node concept="1YBJjd" id="4Ajzui6OmQB" role="2Oq$k0">
-                                        <ref role="1YBMHb" node="d4eZmVxi6E" resolve="fraction" />
-                                      </node>
+                      <node concept="3cpWs3" id="4rnzj9dowWB" role="2MkJ7o">
+                        <node concept="3cpWs3" id="4rnzj9dowWf" role="3uHU7B">
+                          <node concept="3cpWs3" id="4rnzj9dowVK" role="3uHU7B">
+                            <node concept="3cpWs3" id="4rnzj9dowVp" role="3uHU7B">
+                              <node concept="3cpWs3" id="4rnzj9dowVj" role="3uHU7B">
+                                <node concept="2OqwBi" id="2wdLO7KfOue" role="3uHU7w">
+                                  <node concept="2OqwBi" id="1k1VwvtPGiC" role="2Oq$k0">
+                                    <node concept="2yIwOk" id="1k1VwvtPGiD" role="2OqNvi" />
+                                    <node concept="1YBJjd" id="4Ajzui6OmQB" role="2Oq$k0">
+                                      <ref role="1YBMHb" node="d4eZmVxi6E" resolve="fraction" />
                                     </node>
-                                    <node concept="3n3YKJ" id="1k1VwvtPGiE" role="2OqNvi" />
                                   </node>
-                                  <node concept="Xl_RD" id="1d383CxV4OL" role="3uHU7B">
-                                    <property role="Xl_RC" value="Operator '" />
-                                  </node>
+                                  <node concept="3n3YKJ" id="1k1VwvtPGiE" role="2OqNvi" />
                                 </node>
-                                <node concept="Xl_RD" id="4rnzj9dowVm" role="3uHU7w">
-                                  <property role="Xl_RC" value="' cannot be applied to '" />
+                                <node concept="Xl_RD" id="1d383CxV4OL" role="3uHU7B">
+                                  <property role="Xl_RC" value="operator '" />
                                 </node>
                               </node>
-                              <node concept="2X3wrD" id="4rnzj9dowWE" role="3uHU7w">
-                                <ref role="2X3Bk0" node="1d383CxV4OX" resolve="leftType" />
+                              <node concept="Xl_RD" id="4rnzj9dowVm" role="3uHU7w">
+                                <property role="Xl_RC" value="' cannot be applied to " />
                               </node>
                             </node>
-                            <node concept="Xl_RD" id="4rnzj9dowWi" role="3uHU7w">
-                              <property role="Xl_RC" value="', '" />
+                            <node concept="2X3wrD" id="4rnzj9dowWE" role="3uHU7w">
+                              <ref role="2X3Bk0" node="1d383CxV4OX" resolve="leftType" />
                             </node>
                           </node>
-                          <node concept="2X3wrD" id="4rnzj9dowWF" role="3uHU7w">
-                            <ref role="2X3Bk0" node="1d383CxV4OR" resolve="rightType" />
+                          <node concept="Xl_RD" id="4rnzj9dowWi" role="3uHU7w">
+                            <property role="Xl_RC" value=" and " />
                           </node>
+                        </node>
+                        <node concept="2X3wrD" id="4rnzj9dowWF" role="3uHU7w">
+                          <ref role="2X3Bk0" node="1d383CxV4OR" resolve="rightType" />
                         </node>
                       </node>
                       <node concept="1YBJjd" id="4Ajzui6OmW1" role="1urrMF">

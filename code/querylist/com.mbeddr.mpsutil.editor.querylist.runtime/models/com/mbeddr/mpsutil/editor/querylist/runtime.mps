@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -250,6 +250,7 @@
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
+      <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
@@ -716,26 +717,26 @@
       <node concept="3Tm6S6" id="1SwultAiTII" role="1B3o_S" />
       <node concept="3Tqbb2" id="1SwultAiTIK" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="5vc9Xxa$Y6e" role="jymVt">
+      <property role="TrG5h" value="myReadOnly" />
+      <node concept="3Tm6S6" id="5vc9Xxa$V3k" role="1B3o_S" />
+      <node concept="10P_77" id="5vc9Xxa$Vjf" role="1tU5fm" />
+      <node concept="3clFbT" id="5vc9Xxa_2tf" role="33vP2m" />
+    </node>
     <node concept="2tJIrI" id="1BXECvJT4Dp" role="jymVt" />
     <node concept="3clFbW" id="1BXECvJT4Ug" role="jymVt">
       <node concept="3cqZAl" id="1BXECvJT4Ui" role="3clF45" />
       <node concept="3Tm1VV" id="1BXECvJT4Uj" role="1B3o_S" />
       <node concept="3clFbS" id="1BXECvJT4Uk" role="3clF47">
-        <node concept="XkiVB" id="1BXECvJT51l" role="3cqZAp">
-          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
-          <node concept="37vLTw" id="1BXECvJT5bk" role="37wK5m">
+        <node concept="1VxSAg" id="5vc9Xxa_7ot" role="3cqZAp">
+          <ref role="37wK5l" node="5vc9Xxa$Ii1" resolve="QueryListHandler" />
+          <node concept="37vLTw" id="5vc9Xxa_7QB" role="37wK5m">
             <ref role="3cqZAo" node="1BXECvJT53g" resolve="context" />
           </node>
-        </node>
-        <node concept="3clFbF" id="1SwultAiTIL" role="3cqZAp">
-          <node concept="37vLTI" id="1SwultAiTIN" role="3clFbG">
-            <node concept="37vLTw" id="1SwultAiTIQ" role="37vLTJ">
-              <ref role="3cqZAo" node="1SwultAiTIH" resolve="myOwner" />
-            </node>
-            <node concept="37vLTw" id="1SwultAiTIR" role="37vLTx">
-              <ref role="3cqZAo" node="1BXECvJT55G" resolve="owner" />
-            </node>
+          <node concept="37vLTw" id="5vc9Xxa_8cT" role="37wK5m">
+            <ref role="3cqZAo" node="1BXECvJT55G" resolve="owner" />
           </node>
+          <node concept="3clFbT" id="5vc9Xxa_8kA" role="37wK5m" />
         </node>
       </node>
       <node concept="37vLTG" id="1BXECvJT53g" role="3clF46">
@@ -747,6 +748,61 @@
       <node concept="37vLTG" id="1BXECvJT55G" role="3clF46">
         <property role="TrG5h" value="owner" />
         <node concept="3Tqbb2" id="1BXECvJT586" role="1tU5fm" />
+      </node>
+      <node concept="2AHcQZ" id="5vc9XxaAWIx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
+      <node concept="P$JXv" id="5vc9XxaAWIu" role="lGtFl">
+        <node concept="TZ5HI" id="5vc9XxaAWIv" role="3nqlJM">
+          <node concept="TZ5HA" id="5vc9XxaAWIw" role="3HnX3l" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5vc9Xxa$Mn4" role="jymVt" />
+    <node concept="3clFbW" id="5vc9Xxa$Ii1" role="jymVt">
+      <node concept="3cqZAl" id="5vc9Xxa$Ii2" role="3clF45" />
+      <node concept="3Tm1VV" id="5vc9Xxa$Ii3" role="1B3o_S" />
+      <node concept="3clFbS" id="5vc9Xxa$Ii4" role="3clF47">
+        <node concept="XkiVB" id="5vc9Xxa$Ii5" role="3cqZAp">
+          <ref role="37wK5l" to="emqf:~AbstractCellListHandler.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext)" resolve="AbstractCellListHandler" />
+          <node concept="37vLTw" id="5vc9Xxa$Ii6" role="37wK5m">
+            <ref role="3cqZAo" node="5vc9Xxa$Iib" resolve="context" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5vc9Xxa$Ii7" role="3cqZAp">
+          <node concept="37vLTI" id="5vc9Xxa$Ii8" role="3clFbG">
+            <node concept="37vLTw" id="5vc9Xxa$Ii9" role="37vLTJ">
+              <ref role="3cqZAo" node="1SwultAiTIH" resolve="myOwner" />
+            </node>
+            <node concept="37vLTw" id="5vc9Xxa$Iia" role="37vLTx">
+              <ref role="3cqZAo" node="5vc9Xxa$Iid" resolve="owner" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5vc9Xxa_4do" role="3cqZAp">
+          <node concept="37vLTI" id="5vc9Xxa_4NN" role="3clFbG">
+            <node concept="37vLTw" id="5vc9Xxa_6nn" role="37vLTx">
+              <ref role="3cqZAo" node="5vc9Xxa_2KE" resolve="readOnly" />
+            </node>
+            <node concept="37vLTw" id="5vc9Xxa_4dm" role="37vLTJ">
+              <ref role="3cqZAo" node="5vc9Xxa$Y6e" resolve="myReadOnly" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5vc9Xxa$Iib" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="5vc9Xxa$Iic" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5vc9Xxa$Iid" role="3clF46">
+        <property role="TrG5h" value="owner" />
+        <node concept="3Tqbb2" id="5vc9Xxa$Iie" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5vc9Xxa_2KE" role="3clF46">
+        <property role="TrG5h" value="readOnly" />
+        <node concept="10P_77" id="5vc9Xxa_3cx" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="1BXECvJT4NA" role="jymVt" />

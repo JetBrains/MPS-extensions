@@ -95,6 +95,7 @@
         <child id="393429538060968390" name="statementWrappers" index="2hc9Zi" />
         <child id="6202678563380435709" name="statementList" index="sbcQR" />
       </concept>
+      <concept id="6326475386467211568" name="com.mbeddr.mpsutil.editor.querylist.demolang.structure.RootDynamicContent" flags="ng" index="trnVC" />
       <concept id="1952741127689452125" name="com.mbeddr.mpsutil.editor.querylist.demolang.structure.RootWithChildren" flags="ng" index="2X83RC">
         <child id="1952741127689452126" name="names1" index="2X83RF" />
         <child id="1952741127690160050" name="names3" index="2Xng07" />
@@ -363,5 +364,6 @@
       <property role="Xl_RC" value="Domino" />
     </node>
   </node>
+  <node concept="trnVC" id="5vc9XxaKm$o" />
 </model>
 

@@ -17,6 +17,8 @@
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
+    <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
+    <import index="tpem" ref="r:00000000-0000-4000-0000-011c895902c2(jetbrains.mps.baseLanguage.dataFlow)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -1207,7 +1209,7 @@
       <node concept="3clFbS" id="7NouExiDxxh" role="3clF47">
         <node concept="3clFbF" id="7NouExiDxIt" role="3cqZAp">
           <node concept="Xl_RD" id="7NouExiDxIs" role="3clFbG">
-            <property role="Xl_RC" value="Please use light quotation instaed. You can do so by running the \&quot;replace with quotation\&quot; intention." />
+            <property role="Xl_RC" value="Please use light quotation instead. You can do so by running the \&quot;replace with quotation\&quot; intention." />
           </node>
         </node>
       </node>
@@ -2416,6 +2418,96 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="7NouExiE0uS" role="1B3o_S" />
+  </node>
+  <node concept="13h7C7" id="7zYevsMZWdU">
+    <property role="3GE5qa" value="instanceof" />
+    <ref role="13h7C2" to="hba4:7zYevsMKS6i" resolve="IfInstanceOfElseIfClause" />
+    <node concept="13hLZK" id="7zYevsMZWdV" role="13h7CW">
+      <node concept="3clFbS" id="7zYevsMZWdW" role="2VODD2">
+        <node concept="3clFbF" id="7zYevsMZXB_" role="3cqZAp">
+          <node concept="2OqwBi" id="7zYevsMZY0_" role="3clFbG">
+            <node concept="2OqwBi" id="7zYevsMZXD_" role="2Oq$k0">
+              <node concept="13iPFW" id="7zYevsMZXBz" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7zYevsMZXIo" role="2OqNvi">
+                <ref role="3Tt5mk" to="hba4:1Cyzq4Pv$D5" resolve="body" />
+              </node>
+            </node>
+            <node concept="zfrQC" id="7zYevsMZYtF" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="7zYevsNl7An" role="3cqZAp">
+          <node concept="2OqwBi" id="7zYevsNl8eN" role="3clFbG">
+            <node concept="2OqwBi" id="7zYevsNl7MW" role="2Oq$k0">
+              <node concept="13iPFW" id="7zYevsNl7Al" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7zYevsNl7YH" role="2OqNvi">
+                <ref role="3Tt5mk" to="hba4:1Cyzq4Pv$D7" resolve="variable" />
+              </node>
+            </node>
+            <node concept="zfrQC" id="7zYevsNl8yq" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7zYevsNzVqm" role="13h7CS">
+      <property role="TrG5h" value="getVariable" />
+      <ref role="13i0hy" node="7zYevsNzSGR" resolve="getVariable" />
+      <node concept="3Tm1VV" id="7zYevsNzVqn" role="1B3o_S" />
+      <node concept="3clFbS" id="7zYevsNzVqq" role="3clF47">
+        <node concept="3clFbF" id="7zYevsNzVvH" role="3cqZAp">
+          <node concept="2OqwBi" id="7zYevsNzVGw" role="3clFbG">
+            <node concept="13iPFW" id="7zYevsNzVvG" role="2Oq$k0" />
+            <node concept="3TrEf2" id="7zYevsNzVUc" role="2OqNvi">
+              <ref role="3Tt5mk" to="hba4:1Cyzq4Pv$D7" resolve="variable" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7zYevsNzVqr" role="3clF45">
+        <ref role="ehGHo" to="tp25:1Cyzq4Pv$D9" resolve="IfInstanceOfVariable" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7zYevsNzSEW">
+    <property role="3GE5qa" value="instanceof" />
+    <ref role="13h7C2" to="hba4:7zYevsNzSn1" resolve="IfInstanceOfVariableProvider" />
+    <node concept="13i0hz" id="7zYevsNzSGR" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getVariable" />
+      <node concept="3Tm1VV" id="7zYevsNzSGS" role="1B3o_S" />
+      <node concept="3Tqbb2" id="7zYevsNzSKv" role="3clF45">
+        <ref role="ehGHo" to="tp25:1Cyzq4Pv$D9" resolve="IfInstanceOfVariable" />
+      </node>
+      <node concept="3clFbS" id="7zYevsNzSGU" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="7zYevsNzSEX" role="13h7CW">
+      <node concept="3clFbS" id="7zYevsNzSEY" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7zYevsNzSYY">
+    <property role="3GE5qa" value="instanceof" />
+    <ref role="13h7C2" to="hba4:7zYevsMARkc" resolve="IfInstanceOfStatement" />
+    <node concept="13hLZK" id="7zYevsNzSYZ" role="13h7CW">
+      <node concept="3clFbS" id="7zYevsNzSZ0" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7zYevsNzT3J" role="13h7CS">
+      <property role="TrG5h" value="getVariable" />
+      <ref role="13i0hy" node="7zYevsNzSGR" resolve="getVariable" />
+      <node concept="3Tm1VV" id="7zYevsNzT3K" role="1B3o_S" />
+      <node concept="3clFbS" id="7zYevsNzT3N" role="3clF47">
+        <node concept="3clFbF" id="7zYevsNzTag" role="3cqZAp">
+          <node concept="2OqwBi" id="7zYevsNzTtv" role="3clFbG">
+            <node concept="13iPFW" id="7zYevsNzTaf" role="2Oq$k0" />
+            <node concept="3TrEf2" id="7zYevsNzTO8" role="2OqNvi">
+              <ref role="3Tt5mk" to="tp25:1Cyzq4Pv$D7" resolve="variable" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7zYevsNzT3O" role="3clF45">
+        <ref role="ehGHo" to="tp25:1Cyzq4Pv$D9" resolve="IfInstanceOfVariable" />
+      </node>
+    </node>
   </node>
 </model>
 

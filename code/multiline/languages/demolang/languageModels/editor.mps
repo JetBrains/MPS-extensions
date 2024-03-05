@@ -82,6 +82,7 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -316,6 +317,27 @@
     <ref role="1XX52x" to="kyaz:4WxvFC4UpxE" resolve="ConceptB" />
     <node concept="3F0A7n" id="4WxvFC4UpxI" role="2wV5jI">
       <ref role="1NtTu8" to="kyaz:4WxvFC4UpxF" resolve="text" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5zhZs$8WZWf">
+    <ref role="1XX52x" to="kyaz:5zhZs$8WZbn" resolve="SelectionTest" />
+    <node concept="3EZMnI" id="5zhZs$8X0wY" role="2wV5jI">
+      <node concept="2iRkQZ" id="5zhZs$8X0wZ" role="2iSdaV" />
+      <node concept="3F0ifn" id="5zhZs$8X0wV" role="3EZMnx">
+        <property role="3F0ifm" value="Selection test" />
+      </node>
+      <node concept="3F0ifn" id="5zhZs$8X0x4" role="3EZMnx" />
+      <node concept="3F1sOY" id="5zhZs$8X0xb" role="3EZMnx">
+        <ref role="1NtTu8" to="kyaz:5zhZs$8WZLa" resolve="cls" />
+      </node>
+      <node concept="3F0ifn" id="5zhZs$8X0xg" role="3EZMnx" />
+      <node concept="2v7bAL" id="5zhZs$8X0xr" role="3EZMnx">
+        <ref role="1NtTu8" to="kyaz:5zhZs$8WZL5" resolve="text1" />
+      </node>
+      <node concept="3F0ifn" id="5zhZs$8X0xx" role="3EZMnx" />
+      <node concept="3F0A7n" id="5zhZs$8X0xK" role="3EZMnx">
+        <ref role="1NtTu8" to="kyaz:5zhZs$8WZL7" resolve="text2" />
+      </node>
     </node>
   </node>
 </model>

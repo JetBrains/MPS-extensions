@@ -43,8 +43,8 @@
   </registry>
   <node concept="1TIwiD" id="52ZF9D3boiq">
     <property role="TrG5h" value="RootConcept" />
-    <property role="19KtqR" value="true" />
     <property role="EcuMT" value="5818559022137967770" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5iW7uqbOQqA" role="1TKVEl">
       <property role="TrG5h" value="property1" />

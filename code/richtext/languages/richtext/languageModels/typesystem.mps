@@ -138,7 +138,7 @@
               <node concept="3cpWs3" id="4nlPAM$WFUR" role="3uHU7B">
                 <node concept="3cpWs3" id="4nlPAM$Wvhx" role="3uHU7B">
                   <node concept="Xl_RD" id="IKrxbBHaKy" role="3uHU7B">
-                    <property role="Xl_RC" value="Text structure is not normalized: " />
+                    <property role="Xl_RC" value="text structure is not normalized: " />
                   </node>
                   <node concept="2OqwBi" id="4nlPAM$WFqT" role="3uHU7w">
                     <node concept="2JrnkZ" id="4nlPAM$WFqz" role="2Oq$k0">

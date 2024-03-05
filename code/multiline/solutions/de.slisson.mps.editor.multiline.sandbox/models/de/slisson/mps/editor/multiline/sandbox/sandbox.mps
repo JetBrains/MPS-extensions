@@ -7,6 +7,16 @@
   </languages>
   <imports />
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
+        <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
+      </concept>
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
+        <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+    </language>
     <language id="26a9201d-e70b-4755-acd6-40baf7a63b3a" name="de.slisson.mps.editor.multiline.demolang">
       <concept id="8006371471054141137" name="de.slisson.mps.editor.multiline.demolang.structure.ConceptA" flags="ng" index="2v7aUZ">
         <property id="8006371471054141138" name="text" index="2v7aUW" />
@@ -18,6 +28,16 @@
       </concept>
       <concept id="5701977940639193194" name="de.slisson.mps.editor.multiline.demolang.structure.ConceptB" flags="ng" index="1bMerg">
         <property id="5701977940639193195" name="text" index="1bMerh" />
+      </concept>
+      <concept id="6400175585350644439" name="de.slisson.mps.editor.multiline.demolang.structure.SelectionTest" flags="ng" index="1g8wWu">
+        <property id="6400175585350646853" name="text1" index="1g8w6c" />
+        <property id="6400175585350646855" name="text2" index="1g8w6e" />
+        <child id="6400175585350646858" name="cls" index="1g8w63" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
@@ -31,6 +51,15 @@
       <node concept="1bMerg" id="4WxvFC4Vh2H" role="1bMerd">
         <property role="1bMerh" value="def" />
       </node>
+    </node>
+  </node>
+  <node concept="1g8wWu" id="5zhZs$8X7iR">
+    <property role="1g8w6c" value="Hello" />
+    <property role="1g8w6e" value="Hello2" />
+    <node concept="312cEu" id="5zhZs$8X7Rs" role="1g8w63">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="Dummy" />
+      <node concept="3Tm1VV" id="5zhZs$8X7Rt" role="1B3o_S" />
     </node>
   </node>
 </model>

@@ -174,7 +174,7 @@
                 <ref role="3cqZAo" node="6r4GR4a3XGI" resolve="expectedModelName" />
               </node>
               <node concept="Xl_RD" id="6r4GR4a3Ys4" role="3uHU7B">
-                <property role="Xl_RC" value="Must be in a model named " />
+                <property role="Xl_RC" value="must be in a model named " />
               </node>
             </node>
             <node concept="1YBJjd" id="6r4GR4a3YEX" role="1urrMF">
@@ -310,7 +310,7 @@
                 </node>
               </node>
               <node concept="Xl_RD" id="6r4GR4adzrX" role="3uHU7B">
-                <property role="Xl_RC" value="File not found: " />
+                <property role="Xl_RC" value="file not found: " />
               </node>
             </node>
             <node concept="1YBJjd" id="6r4GR4adFzN" role="1urrMF">
@@ -410,7 +410,7 @@
                 </node>
               </node>
               <node concept="Xl_RD" id="6r4GR4adIZn" role="3uHU7B">
-                <property role="Xl_RC" value="File not found: " />
+                <property role="Xl_RC" value="file not found: " />
               </node>
             </node>
             <node concept="1YBJjd" id="6r4GR4adIZi" role="1urrMF">

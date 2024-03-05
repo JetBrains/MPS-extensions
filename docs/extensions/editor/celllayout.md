@@ -9,7 +9,9 @@ then has to fit itself into these bounds. The table and diagram language uses th
 styles defined in the `de.itemis.mps.celllayout` language. The language is partially inspired by the Java [MigLayout](http://www.miglayout.com/) and uses a box model: there's a content box (the cell itself), a padding box (space between content and border), a border box and
 a margin box (the space around the border).
 
-The language also adds some new cells and style properties:
+!!!info "The layouter is only replaced for cells that use one of the properties mentioned below because the performance is not as good as with the normal layouter."
+
+The language also adds some new cells and style properties.
 
 ## Cells
 
@@ -81,3 +83,10 @@ Supported style properties:
 For more control there are style properties in this language that support queries and allow, for example, to set the border
 size and color not only for the full border but also for a single side such as the left side. Import [LayoutStyleAttributes](http://127.0.0.1:63320/node?ref=r%3A0b928dd6-dd7e-45a8-b309-a2e315b7877a%28de.itemis.mps.editor.celllayout.styles.editor%29%2F7943214583599513397)
 as a dependency. All style attributes start with an underline.
+
+## Debugging (for developers)
+
+If you suspect that a bug is caused by this language, try to open the MPS-extensions project first and [disable the layout interceptor](http://127.0.0.1:63320/node?ref=r%3A45c19b6d-dd9a-4f15-973f-0267c5e76303%28de.itemis.mps.editor.celllayout.runtime%29%2F7943214583600374812).
+Then open your project and check if it makes a difference. A common issue is also to only use the `grow` or `push` property
+alone instead of using both properties simultaneously. If an editor cell is rendered in the wrong location or doesn't update
+correctly, it is very likely that

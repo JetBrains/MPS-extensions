@@ -2,7 +2,7 @@
 <model ref="r:c1d86077-abd7-4d43-878d-c2c86e8fa24e(de.itemis.mps.editor.pagination.test.runtime@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -24,6 +24,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
@@ -175,6 +176,7 @@
   </registry>
   <node concept="1lH9Xt" id="4TKHHURuUp">
     <property role="TrG5h" value="PageTest" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="4TKHHURuUC" role="1SL9yI">
       <property role="TrG5h" value="invalidCreation" />
       <node concept="3cqZAl" id="4TKHHURuUD" role="3clF45" />
@@ -295,6 +297,7 @@
   </node>
   <node concept="1lH9Xt" id="4TKHHURAN4">
     <property role="TrG5h" value="PageNumber" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="4TKHHURANV" role="1SL9yI">
       <property role="TrG5h" value="next" />
       <node concept="3cqZAl" id="4TKHHURANW" role="3clF45" />
@@ -459,6 +462,7 @@
   </node>
   <node concept="1lH9Xt" id="4TKHHURBm8">
     <property role="TrG5h" value="Pages" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="4TKHHUTgrd" role="1SL9yI">
       <property role="TrG5h" value="toString" />
       <node concept="3clFbS" id="4TKHHUTgqN" role="3clF47">
@@ -728,6 +732,7 @@
   </node>
   <node concept="1lH9Xt" id="4TKHHUTkvD">
     <property role="TrG5h" value="PagesUserObject" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="4TKHHUTtaU" role="1SL9yI">
       <property role="TrG5h" value="getWithPages" />
       <node concept="3clFbS" id="4TKHHUTtan" role="3clF47">

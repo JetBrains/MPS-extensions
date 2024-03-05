@@ -15,6 +15,7 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="tpeq" ref="r:00000000-0000-4000-0000-011c895902fe(jetbrains.mps.lang.smodel.typesystem)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -117,6 +118,7 @@
       <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ng" index="2c44t0">
         <child id="1196350785111" name="expression" index="2c44t1" />
       </concept>
+      <concept id="1196350785117" name="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" flags="ng" index="2c44tb" />
       <concept id="1196350785112" name="jetbrains.mps.lang.quotation.structure.Antiquotation" flags="ng" index="2c44te" />
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
         <child id="1196350785114" name="quotedNode" index="2c44tc" />
@@ -260,6 +262,10 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
+        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
+        <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -3141,6 +3147,48 @@
     <node concept="1YaCAy" id="5KHBa6l7GUS" role="1YuTPh">
       <property role="TrG5h" value="safeWriteAction" />
       <ref role="1YaFvo" to="hba4:1IlnVQ9J0Vi" resolve="SafeWriteAction" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="7zYevsNnmZ9">
+    <property role="TrG5h" value="typeof_IfInstanceOfElseIfClause" />
+    <property role="3GE5qa" value="instanceof" />
+    <node concept="3clFbS" id="7zYevsNnmZa" role="18ibNy">
+      <node concept="1Z5TYs" id="1Cyzq4PvWCV" role="3cqZAp">
+        <node concept="mw_s8" id="1Cyzq4PvWCZ" role="1ZfhKB">
+          <node concept="2c44tf" id="1Cyzq4PvWD0" role="mwGJk">
+            <node concept="3Tqbb2" id="1Cyzq4PvWD2" role="2c44tc">
+              <node concept="2c44tb" id="1Cyzq4PvWD3" role="lGtFl">
+                <property role="2qtEX8" value="concept" />
+                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
+                <node concept="2OqwBi" id="1Cyzq4PvWD6" role="2c44t1">
+                  <node concept="1YBJjd" id="1Cyzq4PvWD5" role="2Oq$k0">
+                    <ref role="1YBMHb" node="7zYevsNnmZc" resolve="ifInstanceOfElseIfClause" />
+                  </node>
+                  <node concept="3TrEf2" id="1Cyzq4PvWDa" role="2OqNvi">
+                    <ref role="3Tt5mk" to="hba4:1Cyzq4Pv$D8" resolve="nodeConcept" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="1Cyzq4PvWCY" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1Cyzq4PvWCN" role="mwGJk">
+            <node concept="2OqwBi" id="1Cyzq4PvWCQ" role="1Z2MuG">
+              <node concept="1YBJjd" id="1Cyzq4PvWCP" role="2Oq$k0">
+                <ref role="1YBMHb" node="7zYevsNnmZc" resolve="ifInstanceOfElseIfClause" />
+              </node>
+              <node concept="3TrEf2" id="1Cyzq4PvWCU" role="2OqNvi">
+                <ref role="3Tt5mk" to="hba4:1Cyzq4Pv$D7" resolve="variable" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7zYevsNnmZc" role="1YuTPh">
+      <property role="TrG5h" value="ifInstanceOfElseIfClause" />
+      <ref role="1YaFvo" to="hba4:7zYevsMKS6i" resolve="IfInstanceOfElseIfClause" />
     </node>
   </node>
 </model>

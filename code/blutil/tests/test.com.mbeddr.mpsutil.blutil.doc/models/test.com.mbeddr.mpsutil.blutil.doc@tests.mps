@@ -2,8 +2,8 @@
 <model ref="r:a0ad4fb2-84d1-4370-9588-bb53940875f7(test.com.mbeddr.mpsutil.blutil.doc@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
-    <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
+    <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="3" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
@@ -199,10 +199,15 @@
         <property role="TrG5h" value="field" />
         <node concept="3Tm6S6" id="1LCsd5kqo$z" role="1B3o_S" />
         <node concept="17QB3L" id="1LCsd5kqoV7" role="1tU5fm" />
-        <node concept="2aEySx" id="1LCsd5kqpCb" role="lGtFl">
-          <node concept="19SGf9" id="1LCsd5kqpCc" role="2aEySw">
-            <node concept="19SUe$" id="1LCsd5kqpCd" role="19SJt6">
-              <property role="19SUeA" value="test&#10;text" />
+        <node concept="z59LJ" id="1RVWLBbNxUr" role="lGtFl">
+          <node concept="TZ5HA" id="1RVWLBbNxUs" role="TZ5H$">
+            <node concept="1dT_AC" id="1RVWLBbNxUt" role="1dT_Ay">
+              <property role="1dT_AB" value="test" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="1RVWLBbNxUu" role="TZ5H$">
+            <node concept="1dT_AC" id="1RVWLBbNxUv" role="1dT_Ay">
+              <property role="1dT_AB" value="text" />
             </node>
           </node>
         </node>
@@ -238,10 +243,15 @@
         <property role="TrG5h" value="field" />
         <node concept="17QB3L" id="1LCsd5kqtbM" role="1tU5fm" />
         <node concept="3Tm6S6" id="1LCsd5kqtbL" role="1B3o_S" />
-        <node concept="2aEySx" id="1LCsd5kqtbR" role="lGtFl">
-          <node concept="19SGf9" id="1LCsd5kqtbS" role="2aEySw">
-            <node concept="19SUe$" id="1LCsd5kqtbT" role="19SJt6">
-              <property role="19SUeA" value="test&#10;text" />
+        <node concept="z59LJ" id="1RVWLBbNxUw" role="lGtFl">
+          <node concept="TZ5HA" id="1RVWLBbNxUx" role="TZ5H$">
+            <node concept="1dT_AC" id="1RVWLBbNxUy" role="1dT_Ay">
+              <property role="1dT_AB" value="test" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="1RVWLBbNxUz" role="TZ5H$">
+            <node concept="1dT_AC" id="1RVWLBbNxU$" role="1dT_Ay">
+              <property role="1dT_AB" value="text" />
             </node>
           </node>
         </node>
@@ -358,10 +368,15 @@
         <property role="2bfB8j" value="true" />
         <property role="TrG5h" value="Test" />
         <node concept="3Tm1VV" id="1LCsd5ksC7l" role="1B3o_S" />
-        <node concept="2aEySx" id="1LCsd5ksC7Y" role="lGtFl">
-          <node concept="19SGf9" id="1LCsd5ksC7Z" role="2aEySw">
-            <node concept="19SUe$" id="1LCsd5ksC80" role="19SJt6">
-              <property role="19SUeA" value="test&#10;text" />
+        <node concept="3UR2Jj" id="1RVWLBbNxU_" role="lGtFl">
+          <node concept="TZ5HA" id="1RVWLBbNxUA" role="TZ5H$">
+            <node concept="1dT_AC" id="1RVWLBbNxUB" role="1dT_Ay">
+              <property role="1dT_AB" value="test" />
+            </node>
+          </node>
+          <node concept="TZ5HA" id="1RVWLBbNxUC" role="TZ5H$">
+            <node concept="1dT_AC" id="1RVWLBbNxUD" role="1dT_Ay">
+              <property role="1dT_AB" value="text" />
             </node>
           </node>
         </node>

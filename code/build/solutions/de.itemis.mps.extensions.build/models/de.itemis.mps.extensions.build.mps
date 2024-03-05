@@ -936,16 +936,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="34iPpyhNGWr" role="3bR37C">
-          <node concept="1BurEX" id="34iPpyhNGWs" role="1SiIV1">
-            <node concept="398BVA" id="34iPpyhNGWd" role="1BurEY">
-              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="34iPpyhNGWe" role="iGT6I">
-                <property role="2Ry0Am" value="3rd-party.jar" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3rtmxn" id="7LJ_vJOlQ5R" role="3bR31x">
           <node concept="3LXTmp" id="7LJ_vJOlQ5S" role="3rtmxm">
             <node concept="3qWCbU" id="7LJ_vJOlQ5T" role="3LXTna">

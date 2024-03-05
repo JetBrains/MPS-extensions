@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.mps.structurecheck.runtime" uuid="6f14e29b-9796-426f-ae46-86ea46d4d320" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="de.itemis.mps.structurecheck.runtime" uuid="6f14e29b-9796-426f-ae46-86ea46d4d320" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.mps.structurecheck.sandbox" uuid="8e2aad7c-fc79-4b36-959a-919bec27b9d7" moduleVersion="0" compileInMPS="true">
+<solution name="de.itemis.mps.structurecheck.sandbox" uuid="8e2aad7c-fc79-4b36-959a-919bec27b9d7" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

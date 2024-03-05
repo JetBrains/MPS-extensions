@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.mps.utils.serializer.xml" uuid="5454dbfd-2075-4de0-b85e-fa645eb6957e" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="de.itemis.mps.utils.serializer.xml" uuid="5454dbfd-2075-4de0-b85e-fa645eb6957e" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

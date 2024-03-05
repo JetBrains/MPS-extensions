@@ -425,7 +425,7 @@
         <node concept="3clFbS" id="5l1k7_Rb0$q" role="3clFbx">
           <node concept="2MkqsV" id="5l1k7_Rb0AM" role="3cqZAp">
             <node concept="Xl_RD" id="5l1k7_Rb0Ba" role="2MkJ7o">
-              <property role="Xl_RC" value="You need to define a grammar rule" />
+              <property role="Xl_RC" value="define a grammar rule for it" />
             </node>
             <node concept="1YBJjd" id="5l1k7_Rb0E1" role="1urrMF">
               <ref role="1YBMHb" node="5l1k7_Rb0eN" resolve="node" />
@@ -536,7 +536,7 @@
               <ref role="1YBMHb" node="7VjNOn_D4ky" resolve="node" />
             </node>
             <node concept="Xl_RD" id="7VjNOn_DbKZ" role="Dpw9R">
-              <property role="Xl_RC" value="Will be inlined. Override will not work." />
+              <property role="Xl_RC" value="overriding will not work because of inlining" />
             </node>
           </node>
         </node>
@@ -561,7 +561,7 @@
         <node concept="3clFbS" id="7VjNOn_D4B8" role="3clFbx">
           <node concept="a7r0C" id="7VjNOn_DbJi" role="3cqZAp">
             <node concept="Xl_RD" id="7VjNOn_DbJI" role="a7wSD">
-              <property role="Xl_RC" value="Will be inlined. Override will not work." />
+              <property role="Xl_RC" value="overriding will not work because it will be inlined" />
             </node>
             <node concept="1YBJjd" id="7VjNOn_DbJX" role="1urrMF">
               <ref role="1YBMHb" node="7VjNOn_D4Bd" resolve="node" />
@@ -590,7 +590,7 @@
         <node concept="3clFbS" id="65e5JdYM4uz" role="3clFbx">
           <node concept="2MkqsV" id="65e5JdYM9Hw" role="3cqZAp">
             <node concept="Xl_RD" id="65e5JdYM9HP" role="2MkJ7o">
-              <property role="Xl_RC" value="Postprocessor not supported for single child cells without transformation text" />
+              <property role="Xl_RC" value="single child cells without transformation text don't support post-processing" />
             </node>
             <node concept="1YBJjd" id="65e5JdYM9JN" role="1urrMF">
               <ref role="1YBMHb" node="65e5JdYM4uq" resolve="n" />
@@ -684,7 +684,7 @@
         <node concept="3clFbS" id="6TEPcwQMUo8" role="3clFbx">
           <node concept="2MkqsV" id="6TEPcwQMUDX" role="3cqZAp">
             <node concept="Xl_RD" id="6TEPcwQMUEc" role="2MkJ7o">
-              <property role="Xl_RC" value="Missing dependency on jetbrains.mps.lang.core" />
+              <property role="Xl_RC" value="missing dependency on jetbrains.mps.lang.core" />
             </node>
             <node concept="1YBJjd" id="6TEPcwQMUGE" role="1urrMF">
               <ref role="1YBMHb" node="6TEPcwQMGK_" resolve="n" />

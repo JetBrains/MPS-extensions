@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/blutil/languages/com.mbeddr.mpsutil.blutil/blutil.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/languages/com.mbeddr.mpsutil.blutil/solutions/com.mbeddr.mpsutil.blutil.rt.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/solutions/com.mbeddr.mpsutil.blutil.genutil.rt/com.mbeddr.mpsutil.blutil.genutil.rt.msd" folder="blutil" />
+      <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil.doc/test.com.mbeddr.mpsutil.blutil.doc.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil.genutil.lang/test.com.mbeddr.mpsutil.blutil.genutil.lang.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil.genutil/test.com.mbeddr.mpsutil.blutil.genutil.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil/test.com.mbeddr.mpsutil.blutil.msd" folder="blutil" />
@@ -52,8 +53,8 @@
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.runtime/com.mbeddr.mpsutil.grammarcells.runtime.msd" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.sandbox/com.mbeddr.mpsutil.grammarcells.sandbox.msd" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.tests/com.mbeddr.mpsutil.grammarcells.tests.msd" folder="grammarcells" />
+      <modulePath path="$PROJECT_DIR$/hacks/languages/de.itemis.mps.hacks.xmodelgen/de.itemis.mps.hacks.xmodelgen.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="hacks" />
-      <modulePath path="$PROJECT_DIR$/hacks/languages/de.slisson.mps.hacks.xmodelgen/de.slisson.mps.hacks.xmodelgen.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.slisson.mps.reflection/de.slisson.mps.reflection.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.itemis.mps.nativelibs.loader/de.itemis.mps.nativelibs.loader.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.hacks.editor/de.slisson.mps.hacks.editor.msd" folder="hacks" />
@@ -181,9 +182,9 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test.integration/de.itemis.model.merge.test.integration.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/statistics/de.itemis.mps.statistics.mpl" folder="statistics" />
-      <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.slisson.mps.structurecheck/de.slisson.mps.structurecheck.mpl" folder="structurecheck" />
-      <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.runtime/de.slisson.mps.structurecheck.runtime.msd" folder="structurecheck" />
-      <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.slisson.mps.structurecheck.sandbox/de.slisson.mps.structurecheck.sandbox.msd" folder="structurecheck" />
+      <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.itemis.mps.structurecheck/de.itemis.mps.structurecheck.mpl" folder="structurecheck" />
+      <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.itemis.mps.structurecheck.runtime/de.itemis.mps.structurecheck.runtime.msd" folder="structurecheck" />
+      <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.itemis.mps.structurecheck.sandbox/de.itemis.mps.structurecheck.sandbox.msd" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables.demolang/de.slisson.mps.tables.demolang.mpl" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/de.slisson.mps.tables.mpl" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/runtime/de.slisson.mps.tables.runtime.msd" folder="tables" />
@@ -197,8 +198,8 @@
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.sandboxlang/com.mbeddr.mpsutil.treenotation.sandboxlang.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.styles/com.mbeddr.mpsutil.treenotation.styles.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation/com.mbeddr.mpsutil.treenotation.mpl" folder="treenotation" />
-      <modulePath path="$PROJECT_DIR$/utils/solutions/com.mbeddr.mpsutil.serializer.xml/com.mbeddr.mpsutil.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
+      <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.utils.serializer.xml/de.itemis.mps.utils.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool/de.itemis.mps.editor.bool.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.collapsible.testlang/de.itemis.mps.editor.collapsible.testlang.mpl" folder="widgets" />

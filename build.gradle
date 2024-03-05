@@ -363,7 +363,22 @@ allprojects {
         }
     }
 }
-
+def additionalPomInfo = {
+    licenses {
+        // official SPDX identifier
+        // see https://spdx.org/licenses/ for list
+        license {
+            name = "Apache-2.0"
+            url = "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            comments = "A business-friendly OSS license"
+            distribution = "repo"
+        }
+    }
+    organization {
+        name = "JetBrains s.r.o"
+        url = "https://www.jetbrains.com"
+    }
+}
 publishing {
     publications {
         extensions(MavenPublication) {
@@ -382,6 +397,7 @@ publishing {
                     dependencyNode.appendNode('scope', 'provided')
                 }
             }
+            pom additionalPomInfo
         }
     }
 }

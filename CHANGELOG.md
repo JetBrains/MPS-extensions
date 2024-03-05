@@ -5,7 +5,7 @@ All notable changes to this project are documented in this file.
 Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
 The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
-## Feburary 2024
+## February 2024
 
 ### Added
 
@@ -19,6 +19,13 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 ### Changed
 
 - com.mbeddr.mpsutil.editor.querylist: Dynamic generated nodes (without a model) can now be used in query lists if `read-only` is set to true.
+- The language `de.slisson.mps.structurecheck` was renamed to `de.itemis.mps.structurecheck`.
+- The stubs `com.mbeddr.mpsutil.serializer.xml` were renamed to `de.itemis.mps.utils.serializer.xml`.
+- The language `de.slisson.mps.hacks.xmodelgen` was renamed to `de.itemis.mps.hacks.xmodelgen`.
+
+### Deprecated
+
+- MethodLineDoc is now deprecated and an automatic migration is provided to migrate to `jetbrains.mps.baseLanguage.javadoc`.
 
 ### Fixed
 

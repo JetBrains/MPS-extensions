@@ -1209,7 +1209,7 @@
       <node concept="3clFbS" id="7NouExiDxxh" role="3clF47">
         <node concept="3clFbF" id="7NouExiDxIt" role="3cqZAp">
           <node concept="Xl_RD" id="7NouExiDxIs" role="3clFbG">
-            <property role="Xl_RC" value="Please use light quotation instaed. You can do so by running the \&quot;replace with quotation\&quot; intention." />
+            <property role="Xl_RC" value="Please use light quotation instead. You can do so by running the \&quot;replace with quotation\&quot; intention." />
           </node>
         </node>
       </node>

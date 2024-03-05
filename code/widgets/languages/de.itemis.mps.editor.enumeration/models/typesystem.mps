@@ -86,6 +86,9 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
+      <concept id="1227096498176" name="jetbrains.mps.lang.typesystem.structure.PropertyMessageTarget" flags="ng" index="2ODE4t">
+        <reference id="1227096521710" name="propertyDeclaration" index="2ODJFN" />
+      </concept>
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216383476350" name="quickFixArgument" index="Q6Id_" />
@@ -102,6 +105,7 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643443" name="messageTarget" index="1urrC5" />
         <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
         <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
@@ -229,7 +233,7 @@
             <node concept="3clFbS" id="5ZOdHncyBER" role="3clFbx">
               <node concept="2MkqsV" id="5ZOdHncyBGb" role="3cqZAp">
                 <node concept="Xl_RD" id="5ZOdHncyBGq" role="2MkJ7o">
-                  <property role="Xl_RC" value="Literal missing" />
+                  <property role="Xl_RC" value="literal missing" />
                 </node>
                 <node concept="1YBJjd" id="5ZOdHncyBGU" role="1urrMF">
                   <ref role="1YBMHb" node="5ZOdHncy9hs" resolve="ec" />
@@ -433,18 +437,24 @@
                 <node concept="3clFbS" id="44i1HsMiY4c" role="3clFbx">
                   <node concept="2MkqsV" id="44i1HsMj1wP" role="3cqZAp">
                     <node concept="Xl_RD" id="44i1HsMj324" role="2MkJ7o">
-                      <property role="Xl_RC" value="Duplicate Names" />
+                      <property role="Xl_RC" value="duplicate names" />
                     </node>
                     <node concept="2GrUjf" id="44i1HsMj4bn" role="1urrMF">
                       <ref role="2Gs0qQ" node="44i1HsMiVAJ" resolve="sel1" />
                     </node>
+                    <node concept="2ODE4t" id="xgznlzvdOi" role="1urrC5">
+                      <ref role="2ODJFN" to="tpck:h0TrG11" resolve="name" />
+                    </node>
                   </node>
                   <node concept="2MkqsV" id="44i1HsMj59T" role="3cqZAp">
                     <node concept="Xl_RD" id="44i1HsMj5ab" role="2MkJ7o">
-                      <property role="Xl_RC" value="Duplicate Names" />
+                      <property role="Xl_RC" value="duplicate names" />
                     </node>
                     <node concept="2GrUjf" id="44i1HsMj5b7" role="1urrMF">
                       <ref role="2Gs0qQ" node="44i1HsMiX1T" resolve="sel2" />
+                    </node>
+                    <node concept="2ODE4t" id="xgznlzve3X" role="1urrC5">
+                      <ref role="2ODJFN" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
                 </node>

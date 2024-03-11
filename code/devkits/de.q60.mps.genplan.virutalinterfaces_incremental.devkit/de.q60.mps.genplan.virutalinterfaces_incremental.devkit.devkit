@@ -9,6 +9,8 @@
   <exported-language name="2b95e175-4fca-48d9-982b-58c954a32b02(de.q60.mps.virtualinterfaces)" />
   <exported-language name="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <exported-language name="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
+  <exported-language name="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
+  <exported-language name="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
   <extendedDevKits>
     <extendedDevKit>b83f902a-169f-41ec-b2ae-ee1414ffa45c(de.q60.mps.virtualinterfaces.devkit)</extendedDevKit>
   </extendedDevKits>

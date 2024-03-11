@@ -4,7 +4,7 @@
 
 A JetBrains MPS plugin to visualize the structure of a language.
 
-The visualization shows in an integrated toolwindow, but the visualization can also viewed using an image viewer which refreshes on file change.
+The visualization shows in an integrated toolwindow, but the visualization can also be viewed using an image viewer which refreshes on file change.
 
 Check the Readme for the current MPS version of mps-langvis on master. Other versions can be found in the `maintenance/` branches.
 
@@ -36,25 +36,6 @@ Build prerequisites:
 
 Install the plugin from the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/10689-com-dslfoundry-langvis).
 
-### Build the plugin
-
-1. (Optional) regenerate the `build.xml` file
-
-   * Open the `mps-langstructvis` solution in MPS.
-   * Adjust the `mps_home` path in the build solution
-   * Rebuild all solutions (there should be a `build.xml` now in the top-level folder of the cloned repository)
-
-2. Run ```ant``` in the top-level folder the cloned repository
-
-   * For Windows, you would typically use the following command: `ant -Dmps_home="C:\Program Files (x86)\JetBrains\MPS 2021.1.4"`
-   * For Mac, you would typically use the following command: `ant -Dmps_home="/Applications/MPS 2021.1.4.app/Contents"`
-
-In MPS, install the plugin:
-
-1. Select `File` -> `Settings` -> `Plugins` -> `Install plugin from disk`.
-2. From the `build/artifacts/GenerateMetaModelDocumentation` subdirectory of the project select the zip file.
-3. Press `OK` and `Restart`
-
 ## Usage of the plugin
 
 You can create the following types of visualizations:
@@ -76,12 +57,12 @@ The tool window allows you to select the following options using check boxes:
 
 After adjusting the options, you need to press the `refresh icon` to apply the changes.
 
-If the provided tool panel isn't to your liking, there are two alternative methods of viewing the visualizations.
+If the provided tool panel isn't to your liking, two alternative methods of viewing the visualizations exist.
 
 ### (Optional) Viewing the visualization with PlantUML's auto-refreshing viewer
 
 1. From your home directory start `java -jar ~/plantuml.jar`. This will monitor the home directory for plantuml files and generate png files.
-2. Double click on the `mps-metamodel.txt` file and you will have a picture that autorefreshes every time you call the visualizer in MPS.
+2. Double-click on the `mps-metamodel.txt` file, and you will have a picture that autorefreshes every time you call the visualizer in MPS.
 
 ### (Optional) Viewing the visualization with your favorite image viewer
 

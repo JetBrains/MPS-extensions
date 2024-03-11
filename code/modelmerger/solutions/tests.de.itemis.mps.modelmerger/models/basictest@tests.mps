@@ -2,7 +2,7 @@
 <model ref="r:7f6c3d7a-e369-4526-b6c9-7b08b07c82da(tests.de.itemis.mps.modelmerger.basictest@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="d119cd03-ed7e-477f-adb6-22a3d2e6ea77" name="test.de.itemis.mps.modelmerger.testlanguage" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -26,6 +26,7 @@
       </concept>
       <concept id="1225469856668" name="jetbrains.mps.lang.test.structure.ModelExpression" flags="nn" index="1jGwE1" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -241,6 +242,7 @@
   </registry>
   <node concept="1lH9Xt" id="lVcTBwuwx7">
     <property role="TrG5h" value="basicTests" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="lVcTBwuwx8" role="1SKRRt">
       <node concept="2Ro1FD" id="2gRlde2S8no" role="1qenE9">
         <property role="TrG5h" value="sys1" />
@@ -900,6 +902,7 @@
   </node>
   <node concept="1lH9Xt" id="6IWRPdWGVTs">
     <property role="TrG5h" value="MergedOrder" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="6IWRPdWGWri" role="1SKRRt">
       <node concept="2Ro1FD" id="6IWRPdWGWrj" role="1qenE9">
         <property role="TrG5h" value="sys1" />

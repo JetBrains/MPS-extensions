@@ -10,6 +10,7 @@
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil.doc/test.com.mbeddr.mpsutil.blutil.doc.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil.genutil.lang/test.com.mbeddr.mpsutil.blutil.genutil.lang.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil.genutil/test.com.mbeddr.mpsutil.blutil.genutil.msd" folder="blutil" />
+      <modulePath path="$PROJECT_DIR$/blutil/tests/test.com.mbeddr.mpsutil.blutil/test.com.mbeddr.mpsutil.blutil.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.ts.conceptswitch/test.ts.conceptswitch.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/blutil/tests/test.ts.match/match.msd" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/build/solutions/allScripts/allScripts.msd" folder="build" />
@@ -27,6 +28,8 @@
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/de.slisson.mps.conditionalEditor.runtime/de.slisson.mps.conditionalEditor.runtime.msd" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/solutions/de.slisson.mps.conditionalEditor.sandbox/de.slisson.mps.conditionalEditor.sandbox.msd" folder="conditional-editor" />
+      <modulePath path="$PROJECT_DIR$/debug/languages/de.itemis.mps.debug/de.itemis.mps.debug.mpl" folder="debug" />
+      <modulePath path="$PROJECT_DIR$/debug/solutions/de.itemis.mps.debug.runtime/de.itemis.mps.debug.runtime.msd" folder="debug" />
       <modulePath path="$PROJECT_DIR$/devkits/de.q60.mps.genplan.virutalinterfaces_incremental.devkit/de.q60.mps.genplan.virutalinterfaces_incremental.devkit.devkit" folder="shadowmodels.examples.interpreter" />
       <modulePath path="$PROJECT_DIR$/devkits/de.q60.mps.incremental.devkit/de.q60.mps.incremental.devkit.devkit" folder="shadowmodels.incremental" />
       <modulePath path="$PROJECT_DIR$/diagram/devkits/de.itemis.mps.editor.diagram.devkit.devkit" folder="diagram" />
@@ -50,8 +53,8 @@
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.runtime/com.mbeddr.mpsutil.grammarcells.runtime.msd" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.sandbox/com.mbeddr.mpsutil.grammarcells.sandbox.msd" folder="grammarcells" />
       <modulePath path="$PROJECT_DIR$/grammarcells/solutions/com.mbeddr.mpsutil.grammarcells.tests/com.mbeddr.mpsutil.grammarcells.tests.msd" folder="grammarcells" />
-      <modulePath path="$PROJECT_DIR$/hacks/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.itemis.mps.hacks.xmodelgen/de.itemis.mps.hacks.xmodelgen.mpl" folder="hacks" />
+      <modulePath path="$PROJECT_DIR$/hacks/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/languages/de.slisson.mps.reflection/de.slisson.mps.reflection.mpl" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.itemis.mps.nativelibs.loader/de.itemis.mps.nativelibs.loader.msd" folder="hacks" />
       <modulePath path="$PROJECT_DIR$/hacks/solutions/de.slisson.mps.hacks.editor/de.slisson.mps.hacks.editor.msd" folder="hacks" />
@@ -188,15 +191,15 @@
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.testutils/de.slisson.mps.testutils.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
-      <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="third-party" />
+      <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="3rd-party" />
       <modulePath path="$PROJECT_DIR$/tooltips/solutions/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="tooltips" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.runtime/com.mbeddr.mpsutil.treenotation.runtime.msd" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.sandbox/com.mbeddr.mpsutil.treenotation.sandbox.msd" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.sandboxlang/com.mbeddr.mpsutil.treenotation.sandboxlang.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.styles/com.mbeddr.mpsutil.treenotation.styles.mpl" folder="treenotation" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation/com.mbeddr.mpsutil.treenotation.mpl" folder="treenotation" />
-      <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.utils.serializer.xml/de.itemis.mps.utils.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.noderversioning.sandbox/de.itemis.mps.noderversioning.sandbox.msd" folder="nodeversioning" />
+      <modulePath path="$PROJECT_DIR$/utils/solutions/de.itemis.mps.utils.serializer.xml/de.itemis.mps.utils.serializer.xml.msd" folder="utils" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool.demolang/de.itemis.mps.editor.bool.demolang.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.bool/de.itemis.mps.editor.bool.mpl" folder="widgets" />
       <modulePath path="$PROJECT_DIR$/widgets/languages/de.itemis.mps.editor.collapsible.testlang/de.itemis.mps.editor.collapsible.testlang.mpl" folder="widgets" />

@@ -935,11 +935,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="qsyhYeUL3T" role="3bR37C">
-          <node concept="3bR9La" id="qsyhYeUL3U" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="7LJ_vJOlQ5R" role="3bR31x">
           <node concept="3LXTmp" id="7LJ_vJOlQ5S" role="3rtmxm">
             <node concept="3qWCbU" id="7LJ_vJOlQ5T" role="3LXTna">
@@ -959,15 +954,21 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="28qbqxxOALs" role="3bR37C">
-          <node concept="1BurEX" id="28qbqxxOALt" role="1SiIV1">
-            <node concept="398BVA" id="28qbqxxOALn" role="1BurEY">
+        <node concept="1SiIV0" id="6U$p2g0plT7" role="3bR37C">
+          <node concept="3bR9La" id="6U$p2g0plT8" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="39MFrfLw32H" role="3bR37C">
+          <node concept="1BurEX" id="39MFrfLw3d2" role="1SiIV1">
+            <node concept="398BVA" id="39MFrfLw3nl" role="1BurEY">
               <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-              <node concept="2Ry0Ak" id="28qbqxxOALo" role="iGT6I">
+              <node concept="2Ry0Ak" id="1w78goyRUDB" role="iGT6I">
                 <property role="2Ry0Am" value="app.jar" />
               </node>
             </node>
-            <node concept="3yrxFa" id="56z5W63g4Cc" role="2gdwQb">
+            <node concept="3yrxFa" id="39MFrfLw4kI" role="2gdwQb">
               <ref role="3yrxFb" to="ffeo:4LdE6kxkp0J" />
             </node>
           </node>

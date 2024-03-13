@@ -167,7 +167,6 @@
       </concept>
       <concept id="1265949165890536423" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_ModuleJars" flags="ng" index="L2wRC">
         <reference id="1265949165890536425" name="module" index="L2wRA" />
-        <child id="4356762679305730677" name="jarLocations" index="3yL2VB" />
       </concept>
       <concept id="8971171305100238972" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyTargetLanguage" flags="ng" index="Rbm2T">
         <reference id="3189788309731922643" name="language" index="1E1Vl2" />
@@ -193,10 +192,6 @@
         <property id="6535001758416941941" name="createStaticRefs" index="3Ej$Sc" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
-      <concept id="4356762679305675652" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_ModuleXml_CustomJarLocation" flags="ng" index="3yLZsm">
-        <property id="4356762679305675654" name="packagedLocation" index="3yLZsk" />
-        <child id="4356762679305675653" name="path" index="3yLZsn" />
-      </concept>
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -14872,15 +14867,38 @@
       <node concept="m$_wl" id="2Y$Ewq9ERUo" role="39821P">
         <ref role="m_rDy" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
         <node concept="398223" id="6_UytVTj6iE" role="39821P">
-          <node concept="L2wRC" id="2Y$Ewq9F85p" role="39821P">
-            <ref role="L2wRA" node="3$A0JaN5bpX" resolve="MPS.ThirdParty" />
-            <node concept="3yLZsm" id="2Y$Ewq9F85q" role="3yL2VB">
-              <property role="3yLZsk" value="${platform_lib}/app.jar" />
-              <node concept="398BVA" id="2Y$Ewq9F85r" role="3yLZsn">
-                <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
-                <node concept="2Ry0Ak" id="2Y$Ewq9F85s" role="iGT6I">
-                  <property role="2Ry0Am" value="app.jar" />
+          <node concept="3981dx" id="6dIEilsfE9K" role="39821P">
+            <node concept="398223" id="6dIEilsfEtK" role="39821P">
+              <node concept="398223" id="6dIEilsjMqT" role="39821P">
+                <node concept="3_J27D" id="6dIEilsjMqV" role="Nbhlr">
+                  <node concept="3Mxwew" id="6dIEilsjMxC" role="3MwsjC">
+                    <property role="3MwjfP" value="MPS.ThirdParty" />
+                  </node>
                 </node>
+                <node concept="2HvfSZ" id="6dIEilsfEYU" role="39821P">
+                  <node concept="398BVA" id="6dIEilsfF5A" role="2HvfZ0">
+                    <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+                    <node concept="2Ry0Ak" id="6dIEilsfFcg" role="iGT6I">
+                      <property role="2Ry0Am" value="third-party" />
+                      <node concept="2Ry0Ak" id="6dIEilsfFcl" role="2Ry0An">
+                        <property role="2Ry0Am" value="solutions" />
+                        <node concept="2Ry0Ak" id="6dIEilsfFcq" role="2Ry0An">
+                          <property role="2Ry0Am" value="MPS.ThirdParty" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3_J27D" id="6dIEilsfEtM" role="Nbhlr">
+                <node concept="3Mxwew" id="6dIEilsfE$u" role="3MwsjC">
+                  <property role="3MwjfP" value="modules" />
+                </node>
+              </node>
+            </node>
+            <node concept="3_J27D" id="6dIEilsfE9M" role="Nbhlr">
+              <node concept="3Mxwew" id="6dIEilsfEgu" role="3MwsjC">
+                <property role="3MwjfP" value="MPS.ThirdParty.jar" />
               </node>
             </node>
           </node>

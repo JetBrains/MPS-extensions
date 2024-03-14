@@ -9,6 +9,12 @@ import de.itemis.mps.gradle.*
 
 import java.time.LocalDateTime
 
+apply plugin: 'download-jbr'
+
+downloadJbr {
+    jbrVersion = '17.0.6-b469.82'
+}
+
 // detect if we are in a CI build
 if (project.hasProperty("forceCI")) {
     ext.ciBuild = true
@@ -21,31 +27,6 @@ if (project.hasProperty("forceCI")) {
     }
 }
 
-def jdk_home
-
-if (ext.has('java11_home')) {
-    jdk_home = ext.get('java11_home')
-} else if (System.getenv('JB_JAVA11_HOME') != null) {
-    jdk_home = System.getenv('JB_JAVA11_HOME')
-} else {
-    def expected = JavaVersion.VERSION_11
-    if (JavaVersion.current() != expected) {
-        throw new GradleException("This build script requires Java 11 but you are currently using ${JavaVersion.current()}.\nWhat you can do:\n"
-            + "  * Use project property java11_home to point to the Java 11 JDK.\n"
-            + "  * Use environment variable JAVA11_HOME to point to the Java 11 JDK\n"
-            + "  * Run Gradle using Java 11")
-    }
-    jdk_home = System.getProperty('java.home')
-}
-
-// Check JDK location
-if (!new File(jdk_home, "lib").exists()) {
-    throw new GradleException("Unable to locate JDK home folder. Detected folder is: $jdk_home")
-}
-
-ext.jdk_home = jdk_home
-logger.info 'Using JDK at {}', jdk_home
-
 // Default repository credentials
 if (!project.hasProperty('nexusUsername')) {
     ext.nexusUsername = ''
@@ -56,9 +37,9 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2021.3'
+ext.mpsMajor = '2022.2'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '5'
+ext.mpsMinor = '2'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 
@@ -176,14 +157,43 @@ task copyModelApi() {
 
 // -----------------------------------------
 
-// Ant support
+
 configurations {
     ant_lib
+    diagram_lib
 }
 
 dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.9"
+
+    def elkVersion = "0.9.0"
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.29.0") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.35.0") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.36.0") {
+        transitive = false
+    }
 }
+
+configurations.diagram_lib.attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
 
 ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
     true
@@ -206,14 +216,48 @@ File scriptFile(String relativePath) {
 
 def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
 
+afterEvaluate {
+    project.ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.getByName('downloadJbr').javaExecutable
+    def jdk_home = null
+    if (ext.has('java17_home')) {
+        jdk_home = ext.get('java17_home')
+    } else if (System.getenv('JB_JAVA17_HOME') != null) {
+        jdk_home = System.getenv('JB_JAVA17_HOME')
+    }
+    if(jdk_home != null) {
+        if (!new File(jdk_home, "lib").exists()) {
+            throw new GradleException("Unable to locate JDK home folder. Detected folder is: $jdk_home")
+        } else {
+        ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
+        }
+    }
+}
+
 // enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = buildScriptClasspath
-ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = new File(jdk_home, 'bin/java')
 
+task resolved_diagram_dependencies(type: Copy) {
+    from configurations.diagram_lib
+    into file('code/diagram/solutions/de.itemis.mps.editor.diagram.runtime/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.diagram_lib.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
 
 task build_allScripts(type: BuildLanguages, dependsOn: [
+        'downloadJbr',
 		resolveMps,
+        resolved_diagram_dependencies,
         copyModelApi,
 ]) {
     script "$rootDir/scripts/build.xml"
@@ -274,15 +318,17 @@ dependencies {
 }
 
 task packageAllScripts(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions.allScripts'
+    archiveBaseName = 'de.itemis.mps.extensions.allScripts'
     from artifactsDir
     include 'de.itemis.mps.extensions.allScripts/**'
 }
 
 task packageExtensions(type: Zip, dependsOn: run_tests) {
-    baseName 'de.itemis.mps.extensions'
+    archiveBaseName = 'de.itemis.mps.extensions'
     from artifactsDir
     include 'de.itemis.mps.extensions/**'
+    //remove workaround which is required for mbeddr.platform build
+    exclude 'de.itemis.mps.extensions/MPS.ThirdParty.jar'
 }
 
 task cleanMps(type: Delete) {

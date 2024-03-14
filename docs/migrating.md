@@ -2,16 +2,15 @@
 
 !!! info "No plans exist to migrate more extensions from mbeddr to this repository at the moment."
 
-
-There are two different ways of migrating an extension from the mbeddr platform to the MPS-Extensions:
+Two different ways of migrating an extension from the mbeddr platform to the MPS-Extensions exist:
 
 1. The extension already exists as a separate plugin in the mbeddr platform 
-2. The extension is currently part of the big `com.mbeddr.mpsutil` plugin
+2. The extension is part of the big `com.mbeddr.mpsutil` plugin
 
 ### Check the Dependencies
 
 
-First of all, check if all dependencies of the extension to migrate are already migrated to [MPS-extensions](https://github.com/JetBrains/MPS-extensions/). If not, you can't migrate the extension. How do you achieve that? 
+First, check if all dependencies of the extension to migrate are already migrated to [MPS-extensions](https://github.com/JetBrains/MPS-extensions/). If not, you can't migrate the extension. How do you achieve that? 
 
 To check whether the target extension already has all its dependencies migrated:
 
@@ -26,7 +25,7 @@ To check whether the target extension already has all its dependencies migrated:
         - For this example, the link is [this](http://127.0.0.1:63320/node?ref=r%3A742f344d-4dc4-4862-992c-4bc94b094870%28com.mbeddr.mpsutil.dev.build%29%2F7231064182705610173&project=com.mbeddr.build).
     3. Clicking that link will select the corresponding plugin entry in the build script in your open MPS project.
 
-After doing the steps above, you will see something like this entry in MPS, in your open `com.mbeddr.build` project:
+After doing the steps above, you will see something like the following entry in MPS, in your open `com.mbeddr.build` project:
 
 ```text
 idea plugin com.mbeddr.mpsutil.jung 
@@ -42,11 +41,11 @@ idea plugin com.mbeddr.mpsutil.jung
   << ... >> 
 ```
 
-The first thing you do is check the `dependencies` section of the plugin. If it contains plugins that start with `com.mbeddr` then it still has dependencies on mbeddr and cannot be moved.
+Check the `dependencies` section of the plugin. If it contains plugins that start with `com.mbeddr` then it still has dependencies on mbeddr and cannot be moved.
 
 ### Move the Files
 
-If all dependencies are already part of the MPS-extensions, we can start with migrating the extension. Follow the reference(s) in the content section. `group.jung` in this case:
+If all dependencies are already part of MPS-extensions, we can start with migrating the extension. Follow the reference(s) in the content section. For example: `group.jung`:
 
 ```
 mps group group.jung 
@@ -109,7 +108,7 @@ The final step is adding the plugin to the layout section of the build project.
 
 ![Add pluging to the layout](Migrating/img/add-files-9.png)
 
-After adding the plugin to the layout it should be possible to build the model. But in most cases an error like this will be shown:
+After adding the plugin to the layout it should be possible to build the model but usually an error like this will be shown:
 
 ```
 cannot build relative path to `wstx-asl-3.2.6.jar': No such path in local layout
@@ -141,7 +140,7 @@ If you are really eager you can send a PR to the mbeddr platform repository to r
 
 ## Grammar Cells Migration
 
-Starting from version `2018.2.348` the MPS extensions also contain grammar cells which have been ported over from the mbeddr platform. For users of grammar cells this is mostly a transparent change since the mbeddr platform currently repackages the MPS extensions. This means that if you are using the mbeddr platform today you should not have to do much manual work.
+Starting from version `2018.2.348` the MPS extensions also contain Grammar Cells which have been ported over from the mbeddr platform. For users of Grammar Cells this is mostly a transparent change since the mbeddr platform currently repackages the MPS extensions. This means that if you are using the mbeddr platform today you should not have to do much manual work.
 
 ### mbeddr changes
 
@@ -155,15 +154,15 @@ Other than that the artefacts didn't change and still contain the repackaged pla
 
 ### Changes to MPS Extensions
 
-In the MPS extensions we only have additive changes. We added the mpsutil.grammarcells.* modules in that same state as they were in the mbeddr platform. You shouldn't observe any changes. In addition to that we kept the language ids to avoid any visible change for existing users of the languages.
+In the MPS extensions we only have additive changes. We added the mpsutil.grammarcells.* modules in that same state as they were in the mbeddr platform. You shouldn't observe any changes. Besides that, we kept the language ids to avoid any visible change for existing users of the languages.
 
-The version number of the MPS extensions remain in the normal scheme as documented above.
+The MPS Extensions' version number remain in the normal scheme as documented above.
 
 ### Required changes for projects
 
-If your project is using grammar cells today it is using them through the mbeddr platform. If you do so you simply need to adjust the version number the  dependency on the mbeddr platform and you are good to go.
+If your project is using Grammar Cells today it is using them through the mbeddr platform. If you do so you simply need to adjust the version number the dependency on the mbeddr platform, and you are good to go.
 
-I your build scripts show errors after changing the dependency a simple "reload modules from disk" intention should be able to fix them.
+If your build scripts show errors after changing the dependency a simple "reload modules from disk" intention should be able to fix them.
 
-In case you currently only have dependency to the mbeddr platform because you want to use grammar cells you are now able to drop that dependency. To do so replace the dependency on the mbeddr platform with a dependency on the correct version of the MPS extensions. In this case you need to modify your MPS build scripts to no longer use the mbeddr platform as dependency but the MPS extensions. Afterwards MPS will complain that it can't find the dependency on the grammar cells languages in the build. To fix this invoke the "reload modules from disk" on the affected build script and the errors should go away.
+If you only have a dependency to the mbeddr platform because you want to use Grammar Cells you are now able to drop that dependency. Replace the dependency on the mbeddr platform with a dependency on the correct version of MPS extensions. In this case you need to modify your MPS build scripts to no longer use the mbeddr platform as dependency but the MPS extensions. Afterwards, MPS will complain that it can't find the dependency on Grammar Cells language in the build. To fix this, invoke the intention *reload modules from disk' in the affected build script and the errors should go away.
 

@@ -4095,6 +4095,16 @@
               </node>
             </node>
           </node>
+          <node concept="1SiIV0" id="ng7qrr_nA0" role="3bR37C">
+            <node concept="3bR9La" id="ng7qrr_nA1" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:5cCcm$KATVz" resolve="jetbrains.mps.lang.migration.runtime" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="ng7qrr_nA2" role="3bR37C">
+            <node concept="3bR9La" id="ng7qrr_nA3" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:2Qa9MYMHrcB" resolve="jetbrains.mps.editorlang.runtime" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="3xFG3bj5MkF" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5MkG" role="3rtmxm">
@@ -4138,6 +4148,16 @@
             <node concept="3qWCbU" id="2eucapX07Ox" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="ng7qrr_n_L" role="3bR37C">
+          <node concept="3bR9La" id="ng7qrr_n_M" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="ng7qrr_n_N" role="3bR37C">
+          <node concept="3bR9La" id="ng7qrr_n_O" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
       </node>
@@ -19629,6 +19649,11 @@
             <node concept="3qWCbU" id="7q24334ZKST" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="ng7qrr_oew" role="3bR37C">
+          <node concept="3bR9La" id="ng7qrr_oex" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
       </node>

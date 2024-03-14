@@ -3934,5 +3934,26 @@
       <node concept="3Tqbb2" id="7QtHeDK7xG0" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="2PTeII0HVOC">
+    <property role="3GE5qa" value="shape" />
+    <ref role="13h7C2" to="2qld:2ZLA1heFc2L" resolve="ShapeParameterReference" />
+    <node concept="13hLZK" id="2PTeII0HVOD" role="13h7CW">
+      <node concept="3clFbS" id="2PTeII0HVOE" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2PTeII0HVON" role="13h7CS">
+      <property role="2Ki8OM" value="true" />
+      <property role="TrG5h" value="lvalue" />
+      <ref role="13i0hy" to="tpek:1653mnvAgpj" resolve="lvalue" />
+      <node concept="3Tm1VV" id="2PTeII0HVOO" role="1B3o_S" />
+      <node concept="3clFbS" id="2PTeII0HVOT" role="3clF47">
+        <node concept="3clFbF" id="2PTeII0I8SG" role="3cqZAp">
+          <node concept="3clFbT" id="2PTeII0I8SF" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="2PTeII0HVOU" role="3clF45" />
+    </node>
+  </node>
 </model>
 

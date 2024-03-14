@@ -342,6 +342,8 @@ task packageExtensions(type: Zip, dependsOn: run_tests) {
     archiveBaseName = 'de.itemis.mps.extensions'
     from artifactsDir
     include 'de.itemis.mps.extensions/**'
+    //remove workaround which is required for mbeddr.platform build
+    exclude 'de.itemis.mps.extensions/MPS.ThirdParty.jar'
 }
 
 task cleanMps(type: Delete) {

@@ -77,9 +77,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -3265,9 +3262,19 @@
     </node>
     <node concept="bXqS6" id="5a4IVL2QF5U" role="ujSXK">
       <node concept="3clFbS" id="5a4IVL2QF5V" role="2VODD2">
-        <node concept="3clFbF" id="5a4IVL2QF6s" role="3cqZAp">
-          <node concept="3clFbT" id="5a4IVL2QF6r" role="3clFbG">
-            <property role="3clFbU" value="true" />
+        <node concept="3clFbF" id="2jf67jhCsSd" role="3cqZAp">
+          <node concept="2OqwBi" id="2jf67jhCsSe" role="3clFbG">
+            <node concept="2OqwBi" id="2jf67jhCsSf" role="2Oq$k0">
+              <node concept="1YBJjd" id="2jf67jhCsSg" role="2Oq$k0">
+                <ref role="1YBMHb" node="5a4IVL2QE4G" resolve="ifInstanceOfVariable" />
+              </node>
+              <node concept="1mfA1w" id="2jf67jhCsSh" role="2OqNvi" />
+            </node>
+            <node concept="1mIQ4w" id="2jf67jhCsSi" role="2OqNvi">
+              <node concept="chp4Y" id="2jf67jhCsSj" role="cj9EA">
+                <ref role="cht4Q" to="hba4:7zYevsMKS6i" resolve="IfInstanceOfElseIfClause" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

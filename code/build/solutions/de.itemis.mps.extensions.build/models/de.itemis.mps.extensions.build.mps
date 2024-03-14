@@ -981,6 +981,19 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="7_iF8sOIXKA" role="3bR37C">
+          <node concept="1BurEX" id="7_iF8sOIXKB" role="1SiIV1">
+            <node concept="398BVA" id="7_iF8sOIXKC" role="1BurEY">
+              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+              <node concept="2Ry0Ak" id="7_iF8sOIXKD" role="iGT6I">
+                <property role="2Ry0Am" value="lib.jar" />
+              </node>
+            </node>
+            <node concept="3yrxFa" id="7_iF8sOIXKE" role="2gdwQb">
+              <ref role="3yrxFb" to="ffeo:4SADOBb5p5j" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="31bAEZ0srEa" role="3989C9">
@@ -15516,6 +15529,15 @@
             <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
             <node concept="2Ry0Ak" id="2Y$Ewq9F85s" role="iGT6I">
               <property role="2Ry0Am" value="app.jar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3yLZsm" id="7_iF8sOJA87" role="3yL2VB">
+          <property role="3yLZsk" value="${platform_lib}/lib.jar" />
+          <node concept="398BVA" id="7_iF8sOJA88" role="3yLZsn">
+            <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+            <node concept="2Ry0Ak" id="7_iF8sOJA89" role="iGT6I">
+              <property role="2Ry0Am" value="lib.jar" />
             </node>
           </node>
         </node>

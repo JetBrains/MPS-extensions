@@ -102,10 +102,12 @@
       <modulePath path="$PROJECT_DIR$/modelmerger/solutions/tests.de.itemis.mps.modelmerger/tests.de.itemis.mps.modelmerger.msd" folder="modelmerger" />
       <modulePath path="$PROJECT_DIR$/mouseselection/languages/de.itemis.mps.selection.intentions/de.itemis.mps.selection.intentions.mpl" folder="mouseselection" />
       <modulePath path="$PROJECT_DIR$/mouseselection/solutions/de.itemis.mps.selection.runtime/de.itemis.mps.selection.runtime.msd" folder="mouseselection" />
+      <modulePath path="$PROJECT_DIR$/multiline/languages/de.slisson.mps.editor.multiline.test/de.slisson.mps.editor.multiline.test.mpl" folder="multiline" />
       <modulePath path="$PROJECT_DIR$/multiline/languages/demolang/demolang.mpl" folder="multiline" />
       <modulePath path="$PROJECT_DIR$/multiline/languages/multiline/multiline.mpl" folder="multiline" />
       <modulePath path="$PROJECT_DIR$/multiline/solutions/de.slisson.mps.editor.multiline.runtime/runtime.msd" folder="multiline" />
       <modulePath path="$PROJECT_DIR$/multiline/solutions/de.slisson.mps.editor.multiline.sandbox/de.slisson.mps.editor.multiline.sandbox.msd" folder="multiline" />
+      <modulePath path="$PROJECT_DIR$/multiline/solutions/test.de.slisson.mps.editor.multiline/test.de.slisson.mps.editor.multiline.msd" folder="multiline" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/languages/de.itemis.mps.nodeversioning/de.itemis.mps.nodeversioning.mpl" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/solutions/de.itemis.mps.nodeversioning.runtime.msd" folder="nodeversioning" />
       <modulePath path="$PROJECT_DIR$/nodeversioning/tests/de.itemis.mps.nodeversioning.test/de.itemis.mps.nodeversioning.test.msd" folder="nodeversioning" />
@@ -129,10 +131,13 @@
       <modulePath path="$PROJECT_DIR$/querylist/com.mbeddr.mpsutil.editor.querylist.runtime/com.mbeddr.mpsutil.editor.querylist.runtime.msd" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/querylist/com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox.msd" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/querylist/com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.mpl" folder="querylist" />
+      <modulePath path="$PROJECT_DIR$/richtext/languages/de.slisson.mps.richtext.test/de.slisson.mps.richtext.test.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/de.slisson.richtext.customcell/de.slisson.richtext.customcell.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/javadoc/javadoc.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/languages/richtext/richtext.mpl" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.sandbox/de.slisson.mps.richtext.sandbox.msd" folder="richtext" />
+      <modulePath path="$PROJECT_DIR$/richtext/solutions/de.slisson.mps.richtext.test.runtime/de.slisson.mps.richtext.test.runtime.msd" folder="richtext" />
+      <modulePath path="$PROJECT_DIR$/richtext/solutions/test.de.slisson.mps.richtext/test.de.slisson.mps.richtext.msd" folder="richtext" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/de.q60.mps.explorer.impl/de.q60.mps.explorer.impl.msd" folder="shadowmodels.explorer" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/de.q60.mps.explorer/de.q60.mps.explorer.msd" folder="shadowmodels.explorer" />
       <modulePath path="$PROJECT_DIR$/shadowmodels/de.q60.mps.util/de.q60.mps.util.msd" folder="shadowmodels" />
@@ -191,6 +196,7 @@
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.testutils/de.slisson.mps.testutils.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
+      <modulePath path="$PROJECT_DIR$/testing/languages/de.itemis.mps.testing/de.itemis.mps.testing.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="3rd-party" />
       <modulePath path="$PROJECT_DIR$/tooltips/solutions/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="tooltips" />
       <modulePath path="$PROJECT_DIR$/treenotation/com.mbeddr.mpsutil.treenotation.runtime/com.mbeddr.mpsutil.treenotation.runtime.msd" folder="treenotation" />

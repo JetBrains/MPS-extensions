@@ -15208,19 +15208,14 @@
         <node concept="3cpWs8" id="4fk0ymyHAxG" role="3cqZAp">
           <node concept="3cpWsn" id="4fk0ymyHAxJ" role="3cpWs9">
             <property role="TrG5h" value="last" />
-            <node concept="3cpWsd" id="4fk0ymyIsGv" role="33vP2m">
-              <node concept="3cmrfG" id="4fk0ymyIsGB" role="3uHU7w">
-                <property role="3cmrfH" value="1" />
+            <node concept="2YIFZM" id="4fk0ymyHYoL" role="33vP2m">
+              <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
+              <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+              <node concept="37vLTw" id="4fk0ymyI3UY" role="37wK5m">
+                <ref role="3cqZAo" node="4iNMa1cpr8j" resolve="mySelectionStart" />
               </node>
-              <node concept="2YIFZM" id="4fk0ymyHYoL" role="3uHU7B">
-                <ref role="37wK5l" to="wyt6:~Math.max(int,int)" resolve="max" />
-                <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                <node concept="37vLTw" id="4fk0ymyI3UY" role="37wK5m">
-                  <ref role="3cqZAo" node="4iNMa1cpr8j" resolve="mySelectionStart" />
-                </node>
-                <node concept="37vLTw" id="4fk0ymyIrB2" role="37wK5m">
-                  <ref role="3cqZAo" node="4iNMa1cpr8p" resolve="mySelectionEnd" />
-                </node>
+              <node concept="37vLTw" id="4fk0ymyIrB2" role="37wK5m">
+                <ref role="3cqZAo" node="4iNMa1cpr8p" resolve="mySelectionEnd" />
               </node>
             </node>
             <node concept="10Oyi0" id="4fk0ymyHAxE" role="1tU5fm" />

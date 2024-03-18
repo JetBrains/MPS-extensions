@@ -4981,11 +4981,11 @@
                       <node concept="3clFbS" id="mbKrkPboyg" role="3clFbx">
                         <node concept="3clFbF" id="635SBilB18t" role="3cqZAp">
                           <node concept="37vLTI" id="635SBilB18R" role="3clFbG">
-                            <node concept="37vLTw" id="mbKrkPboZ8" role="37vLTJ">
-                              <ref role="3cqZAo" node="635SBilB14F" resolve="removeEnd" />
-                            </node>
                             <node concept="37vLTw" id="635SBilB18Q" role="37vLTx">
                               <ref role="3cqZAo" node="2_D0AvWRqTN" resolve="myEndTextPos" />
+                            </node>
+                            <node concept="37vLTw" id="mbKrkPboZ8" role="37vLTJ">
+                              <ref role="3cqZAo" node="635SBilB14F" resolve="removeEnd" />
                             </node>
                           </node>
                         </node>
@@ -5013,8 +5013,15 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="37vLTw" id="635SBilB194" role="3clFbw">
-                          <ref role="3cqZAo" node="635SBilB15D" resolve="isFirst" />
+                        <node concept="1Wc70l" id="2JjwJOLESHa" role="3clFbw">
+                          <node concept="3fqX7Q" id="2JjwJOLFbqk" role="3uHU7w">
+                            <node concept="37vLTw" id="2JjwJOLFhBq" role="3fr31v">
+                              <ref role="3cqZAo" node="635SBilB167" resolve="isLast" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="635SBilB194" role="3uHU7B">
+                            <ref role="3cqZAo" node="635SBilB15D" resolve="isFirst" />
+                          </node>
                         </node>
                       </node>
                       <node concept="3clFbJ" id="mbKrkPboyr" role="3cqZAp">

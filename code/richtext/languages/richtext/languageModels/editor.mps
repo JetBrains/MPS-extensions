@@ -5237,25 +5237,49 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbF" id="6wQWU6B5YYF" role="3cqZAp">
-            <node concept="2OqwBi" id="6wQWU6B60NL" role="3clFbG">
-              <node concept="37vLTw" id="6wQWU6B5YYD" role="2Oq$k0">
+          <node concept="3cpWs8" id="5nOdiEwc0T5" role="3cqZAp">
+            <node concept="3cpWsn" id="5nOdiEwc0T6" role="3cpWs9">
+              <property role="TrG5h" value="newCaretPosition" />
+              <node concept="10Oyi0" id="5nOdiEwbVFJ" role="1tU5fm" />
+              <node concept="2OqwBi" id="5nOdiEwc0T7" role="33vP2m">
+                <node concept="2OqwBi" id="5nOdiEwc0T8" role="2Oq$k0">
+                  <node concept="37vLTw" id="5nOdiEwc0T9" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
+                  </node>
+                  <node concept="liA8E" id="5nOdiEwc0Ta" role="2OqNvi">
+                    <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5nOdiEwc0Tb" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="5nOdiEwcjHa" role="3cqZAp">
+            <node concept="3clFbS" id="5nOdiEwcjHc" role="3clFbx">
+              <node concept="3clFbF" id="6wQWU6B5YYF" role="3cqZAp">
+                <node concept="2OqwBi" id="6wQWU6B60NL" role="3clFbG">
+                  <node concept="37vLTw" id="6wQWU6B5YYD" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
+                  </node>
+                  <node concept="liA8E" id="6wQWU6B63CC" role="2OqNvi">
+                    <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
+                    <node concept="37vLTw" id="5nOdiEwc0Tc" role="37wK5m">
+                      <ref role="3cqZAo" node="5nOdiEwc0T6" resolve="length" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5nOdiEwcs57" role="3clFbw">
+              <node concept="37vLTw" id="5nOdiEwcnR0" role="2Oq$k0">
                 <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
               </node>
-              <node concept="liA8E" id="6wQWU6B63CC" role="2OqNvi">
-                <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
-                <node concept="2OqwBi" id="6wQWU6B6a9t" role="37wK5m">
-                  <node concept="2OqwBi" id="6wQWU6B67L5" role="2Oq$k0">
-                    <node concept="37vLTw" id="6wQWU6B65Lo" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
-                    </node>
-                    <node concept="liA8E" id="6wQWU6B690a" role="2OqNvi">
-                      <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="6wQWU6B6cpE" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
-                  </node>
+              <node concept="liA8E" id="5nOdiEwcvsE" role="2OqNvi">
+                <ref role="37wK5l" to="g51k:~EditorCell_Label.isCaretPositionAllowed(int)" resolve="isCaretPositionAllowed" />
+                <node concept="37vLTw" id="5nOdiEwczIq" role="37wK5m">
+                  <ref role="3cqZAo" node="5nOdiEwc0T6" resolve="newCaretPosition" />
                 </node>
               </node>
             </node>
@@ -5275,18 +5299,8 @@
                 <node concept="37vLTw" id="7c02HRXo6Rb" role="37wK5m">
                   <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
                 </node>
-                <node concept="2OqwBi" id="7c02HRXluaW" role="37wK5m">
-                  <node concept="2OqwBi" id="7c02HRXltKo" role="2Oq$k0">
-                    <node concept="37vLTw" id="7c02HRXltHe" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
-                    </node>
-                    <node concept="liA8E" id="7c02HRXlu0q" role="2OqNvi">
-                      <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7c02HRXluId" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
-                  </node>
+                <node concept="37vLTw" id="5nOdiEwc0Td" role="37wK5m">
+                  <ref role="3cqZAo" node="5nOdiEwc0T6" resolve="length" />
                 </node>
               </node>
             </node>
@@ -6630,14 +6644,29 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6wQWU6ASCpB" role="3cqZAp">
-          <node concept="2OqwBi" id="6wQWU6ASGvU" role="3clFbG">
-            <node concept="37vLTw" id="6wQWU6ASG7j" role="2Oq$k0">
+        <node concept="3clFbJ" id="5nOdiEwcODY" role="3cqZAp">
+          <node concept="3clFbS" id="5nOdiEwcOE0" role="3clFbx">
+            <node concept="3clFbF" id="6wQWU6ASCpB" role="3cqZAp">
+              <node concept="2OqwBi" id="6wQWU6ASGvU" role="3clFbG">
+                <node concept="37vLTw" id="6wQWU6ASG7j" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7VgKn9UFGJ9" resolve="homeCell" />
+                </node>
+                <node concept="liA8E" id="6wQWU6ASLYx" role="2OqNvi">
+                  <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
+                  <node concept="3cmrfG" id="6wQWU6ASM8v" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5nOdiEwcPBk" role="3clFbw">
+            <node concept="37vLTw" id="5nOdiEwcPeM" role="2Oq$k0">
               <ref role="3cqZAo" node="7VgKn9UFGJ9" resolve="homeCell" />
             </node>
-            <node concept="liA8E" id="6wQWU6ASLYx" role="2OqNvi">
-              <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
-              <node concept="3cmrfG" id="6wQWU6ASM8v" role="37wK5m">
+            <node concept="liA8E" id="5nOdiEwcPV$" role="2OqNvi">
+              <ref role="37wK5l" to="g51k:~EditorCell_Label.isCaretPositionAllowed(int)" resolve="isCaretPositionAllowed" />
+              <node concept="3cmrfG" id="5nOdiEwcQHY" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
             </node>
@@ -7449,14 +7478,29 @@
             </node>
             <node concept="9aQIb" id="3QsLzsx0iQ1" role="9aQIa">
               <node concept="3clFbS" id="3QsLzsx0iQ2" role="9aQI4">
-                <node concept="3clFbF" id="24Qe2DSxdQI" role="3cqZAp">
-                  <node concept="2OqwBi" id="24Qe2DSxeaR" role="3clFbG">
-                    <node concept="37vLTw" id="24Qe2DSxdQG" role="2Oq$k0">
+                <node concept="3clFbJ" id="5nOdiEwbC29" role="3cqZAp">
+                  <node concept="3clFbS" id="5nOdiEwbC2b" role="3clFbx">
+                    <node concept="3clFbF" id="24Qe2DSxdQI" role="3cqZAp">
+                      <node concept="2OqwBi" id="24Qe2DSxeaR" role="3clFbG">
+                        <node concept="37vLTw" id="24Qe2DSxdQG" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5lBiF1A_oGC" resolve="homeCell" />
+                        </node>
+                        <node concept="liA8E" id="24Qe2DSxfWq" role="2OqNvi">
+                          <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
+                          <node concept="3cmrfG" id="24Qe2DSxgiO" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="5nOdiEwbDJj" role="3clFbw">
+                    <node concept="37vLTw" id="5nOdiEwbCyt" role="2Oq$k0">
                       <ref role="3cqZAo" node="5lBiF1A_oGC" resolve="homeCell" />
                     </node>
-                    <node concept="liA8E" id="24Qe2DSxfWq" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
-                      <node concept="3cmrfG" id="24Qe2DSxgiO" role="37wK5m">
+                    <node concept="liA8E" id="5nOdiEwbEPT" role="2OqNvi">
+                      <ref role="37wK5l" to="g51k:~EditorCell_Label.isCaretPositionAllowed(int)" resolve="isCaretPositionAllowed" />
+                      <node concept="3cmrfG" id="5nOdiEwbFL7" role="37wK5m">
                         <property role="3cmrfH" value="0" />
                       </node>
                     </node>
@@ -7686,25 +7730,49 @@
             </node>
             <node concept="9aQIb" id="3QsLzswZE9m" role="9aQIa">
               <node concept="3clFbS" id="3QsLzswZE9n" role="9aQI4">
-                <node concept="3clFbF" id="5lBiF1A_nTp" role="3cqZAp">
-                  <node concept="2OqwBi" id="5lBiF1A_nTq" role="3clFbG">
-                    <node concept="37vLTw" id="5lBiF1A_nTr" role="2Oq$k0">
+                <node concept="3cpWs8" id="5nOdiEwbHs5" role="3cqZAp">
+                  <node concept="3cpWsn" id="5nOdiEwbHs6" role="3cpWs9">
+                    <property role="TrG5h" value="newCaretPosition" />
+                    <node concept="10Oyi0" id="5nOdiEwb_So" role="1tU5fm" />
+                    <node concept="2OqwBi" id="5nOdiEwbHs7" role="33vP2m">
+                      <node concept="2OqwBi" id="5nOdiEwbHs8" role="2Oq$k0">
+                        <node concept="37vLTw" id="5nOdiEwbHs9" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5lBiF1A_nTi" resolve="endCell" />
+                        </node>
+                        <node concept="liA8E" id="5nOdiEwbHsa" role="2OqNvi">
+                          <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5nOdiEwbHsb" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="5nOdiEwbK8N" role="3cqZAp">
+                  <node concept="3clFbS" id="5nOdiEwbK8P" role="3clFbx">
+                    <node concept="3clFbF" id="5lBiF1A_nTp" role="3cqZAp">
+                      <node concept="2OqwBi" id="5lBiF1A_nTq" role="3clFbG">
+                        <node concept="37vLTw" id="5lBiF1A_nTr" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5lBiF1A_nTi" resolve="endCell" />
+                        </node>
+                        <node concept="liA8E" id="5lBiF1A_nTs" role="2OqNvi">
+                          <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
+                          <node concept="37vLTw" id="5nOdiEwbHsc" role="37wK5m">
+                            <ref role="3cqZAo" node="5nOdiEwbHs6" resolve="length" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="5nOdiEwbMp_" role="3clFbw">
+                    <node concept="37vLTw" id="5nOdiEwbLej" role="2Oq$k0">
                       <ref role="3cqZAo" node="5lBiF1A_nTi" resolve="endCell" />
                     </node>
-                    <node concept="liA8E" id="5lBiF1A_nTs" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
-                      <node concept="2OqwBi" id="5lBiF1A_nTt" role="37wK5m">
-                        <node concept="2OqwBi" id="5lBiF1A_nTu" role="2Oq$k0">
-                          <node concept="37vLTw" id="5lBiF1A_nTv" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5lBiF1A_nTi" resolve="endCell" />
-                          </node>
-                          <node concept="liA8E" id="5lBiF1A_nTw" role="2OqNvi">
-                            <ref role="37wK5l" to="93vl:1laD9eY8YDo" resolve="getText" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="5lBiF1A_nTx" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
-                        </node>
+                    <node concept="liA8E" id="5nOdiEwbNWh" role="2OqNvi">
+                      <ref role="37wK5l" to="g51k:~EditorCell_Label.isCaretPositionAllowed(int)" resolve="isCaretPositionAllowed" />
+                      <node concept="37vLTw" id="5nOdiEwbONt" role="37wK5m">
+                        <ref role="3cqZAo" node="5nOdiEwbHs6" resolve="newCaretPosition" />
                       </node>
                     </node>
                   </node>

@@ -13449,20 +13449,44 @@
             </node>
             <node concept="3clFbJ" id="1laD9eY9nbz" role="3cqZAp">
               <node concept="3clFbS" id="1laD9eY9nb$" role="3clFbx">
-                <node concept="3clFbF" id="1laD9eY9nde" role="3cqZAp">
-                  <node concept="2OqwBi" id="1laD9eY9nd$" role="3clFbG">
-                    <node concept="2GrUjf" id="1laD9eY9ndf" role="2Oq$k0">
+                <node concept="3cpWs8" id="5nOdiEw9SsX" role="3cqZAp">
+                  <node concept="3cpWsn" id="5nOdiEw9SsY" role="3cpWs9">
+                    <property role="TrG5h" value="newCaretPosition" />
+                    <node concept="10Oyi0" id="5nOdiEw9OxX" role="1tU5fm" />
+                    <node concept="3cpWsd" id="5nOdiEw9SsZ" role="33vP2m">
+                      <node concept="37vLTw" id="5nOdiEw9St0" role="3uHU7w">
+                        <ref role="3cqZAo" node="1laD9eY9hpQ" resolve="wordStart" />
+                      </node>
+                      <node concept="37vLTw" id="5nOdiEw9St1" role="3uHU7B">
+                        <ref role="3cqZAo" node="1laD9eY9nb4" resolve="caretPos" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="5nOdiEwad1o" role="3cqZAp">
+                  <node concept="3clFbS" id="5nOdiEwad1q" role="3clFbx">
+                    <node concept="3clFbF" id="1laD9eY9nde" role="3cqZAp">
+                      <node concept="2OqwBi" id="1laD9eY9nd$" role="3clFbG">
+                        <node concept="2GrUjf" id="1laD9eY9ndf" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="1laD9eY9hpX" resolve="wordCell" />
+                        </node>
+                        <node concept="liA8E" id="1laD9eY9ndE" role="2OqNvi">
+                          <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
+                          <node concept="37vLTw" id="5nOdiEw9St2" role="37wK5m">
+                            <ref role="3cqZAo" node="5nOdiEw9SsY" resolve="i" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="5nOdiEwa3cQ" role="3clFbw">
+                    <node concept="2GrUjf" id="5nOdiEwa0wY" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="1laD9eY9hpX" resolve="wordCell" />
                     </node>
-                    <node concept="liA8E" id="1laD9eY9ndE" role="2OqNvi">
-                      <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
-                      <node concept="3cpWsd" id="1laD9eY9ne0" role="37wK5m">
-                        <node concept="37vLTw" id="1rfeXz7xsFK" role="3uHU7w">
-                          <ref role="3cqZAo" node="1laD9eY9hpQ" resolve="wordStart" />
-                        </node>
-                        <node concept="37vLTw" id="1rfeXz7xs_9" role="3uHU7B">
-                          <ref role="3cqZAo" node="1laD9eY9nb4" resolve="caretPos" />
-                        </node>
+                    <node concept="liA8E" id="5nOdiEwa66$" role="2OqNvi">
+                      <ref role="37wK5l" to="g51k:~EditorCell_Label.isCaretPositionAllowed(int)" resolve="isCaretPositionAllowed" />
+                      <node concept="37vLTw" id="5nOdiEwakdU" role="37wK5m">
+                        <ref role="3cqZAo" node="5nOdiEw9SsY" resolve="newCaretPosition" />
                       </node>
                     </node>
                   </node>
@@ -14322,28 +14346,52 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5clXe2LB7Op" role="3cqZAp">
-          <node concept="2OqwBi" id="5clXe2LBuI3" role="3clFbG">
-            <node concept="37vLTw" id="5clXe2LB7Oo" role="2Oq$k0">
+        <node concept="3cpWs8" id="5nOdiEwau6b" role="3cqZAp">
+          <node concept="3cpWsn" id="5nOdiEwau6c" role="3cpWs9">
+            <property role="TrG5h" value="newCaretPosition" />
+            <node concept="10Oyi0" id="5nOdiEwasIr" role="1tU5fm" />
+            <node concept="3cpWsd" id="5nOdiEwau6d" role="33vP2m">
+              <node concept="2OqwBi" id="5nOdiEwau6e" role="3uHU7w">
+                <node concept="37vLTw" id="5nOdiEwau6f" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4iNMa1cpr8f" resolve="myMultilineCell" />
+                </node>
+                <node concept="liA8E" id="5nOdiEwau6g" role="2OqNvi">
+                  <ref role="37wK5l" node="4eM$0ePZaTR" resolve="getCellStartPosition" />
+                  <node concept="37vLTw" id="5nOdiEwau6h" role="37wK5m">
+                    <ref role="3cqZAo" node="4eM$0ePZ6mV" resolve="cursorCell" />
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="5nOdiEwau6i" role="3uHU7B">
+                <ref role="3cqZAo" node="4iNMa1cpr8p" resolve="mySelectionEnd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5nOdiEwaG21" role="3cqZAp">
+          <node concept="3clFbS" id="5nOdiEwaG23" role="3clFbx">
+            <node concept="3clFbF" id="5clXe2LB7Op" role="3cqZAp">
+              <node concept="2OqwBi" id="5clXe2LBuI3" role="3clFbG">
+                <node concept="37vLTw" id="5clXe2LB7Oo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4eM$0ePZ6mV" resolve="cursorCell" />
+                </node>
+                <node concept="liA8E" id="5clXe2LCjAy" role="2OqNvi">
+                  <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
+                  <node concept="37vLTw" id="5nOdiEwau6j" role="37wK5m">
+                    <ref role="3cqZAo" node="5nOdiEwau6c" resolve="i" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5nOdiEwaJNo" role="3clFbw">
+            <node concept="37vLTw" id="5nOdiEwaIch" role="2Oq$k0">
               <ref role="3cqZAo" node="4eM$0ePZ6mV" resolve="cursorCell" />
             </node>
-            <node concept="liA8E" id="5clXe2LCjAy" role="2OqNvi">
-              <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
-              <node concept="3cpWsd" id="5clXe2LDBmz" role="37wK5m">
-                <node concept="2OqwBi" id="5clXe2LE6J$" role="3uHU7w">
-                  <node concept="37vLTw" id="5clXe2LDOxA" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4iNMa1cpr8f" resolve="myMultilineCell" />
-                  </node>
-                  <node concept="liA8E" id="5clXe2LFDia" role="2OqNvi">
-                    <ref role="37wK5l" node="4eM$0ePZaTR" resolve="getCellStartPosition" />
-                    <node concept="37vLTw" id="5clXe2LGZYS" role="37wK5m">
-                      <ref role="3cqZAo" node="4eM$0ePZ6mV" resolve="cursorCell" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="37vLTw" id="5clXe2LCWuE" role="3uHU7B">
-                  <ref role="3cqZAo" node="4iNMa1cpr8p" resolve="mySelectionEnd" />
-                </node>
+            <node concept="liA8E" id="5nOdiEwaMtc" role="2OqNvi">
+              <ref role="37wK5l" to="g51k:~EditorCell_Label.isCaretPositionAllowed(int)" resolve="isCaretPositionAllowed" />
+              <node concept="37vLTw" id="5nOdiEwaOLr" role="37wK5m">
+                <ref role="3cqZAo" node="5nOdiEwau6c" resolve="newCaretPosition" />
               </node>
             </node>
           </node>

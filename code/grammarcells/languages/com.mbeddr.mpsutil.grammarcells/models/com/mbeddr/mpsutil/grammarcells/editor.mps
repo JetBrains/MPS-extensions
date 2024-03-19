@@ -1630,7 +1630,7 @@
   </node>
   <node concept="24kQdi" id="6jH9yJK30$K">
     <property role="3GE5qa" value="cells" />
-    <ref role="1XX52x" to="teg0:6jH9yJK30xr" resolve="SideTransformationCell" />
+    <ref role="1XX52x" to="teg0:6jH9yJK30xr" resolve="SideTransformationFromFactoryCell" />
     <node concept="3EZMnI" id="6jH9yJK30_m" role="2wV5jI">
       <node concept="2iRfu4" id="6jH9yJK30_p" role="2iSdaV" />
       <node concept="3F0ifn" id="6jH9yJK3g8e" role="3EZMnx">
@@ -1678,7 +1678,7 @@
     <node concept="3EZMnI" id="6jH9yJK3gIA" role="6VMZX">
       <node concept="2EHx9g" id="6jH9yJK3rcY" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaYG" role="3EZMnx">
-        <property role="3F0ifm" value="Side transformation cell:" />
+        <property role="3F0ifm" value="Side transformation (from factory) cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3EZMnI" id="6jH9yJK3gLR" role="3EZMnx">
@@ -1765,7 +1765,7 @@
   </node>
   <node concept="24kQdi" id="4eBi5gdn8lF">
     <property role="3GE5qa" value="cells" />
-    <ref role="1XX52x" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell2" />
+    <ref role="1XX52x" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell" />
     <node concept="3F0ifn" id="4eBi5gdn8lH" role="2wV5jI">
       <property role="3F0ifm" value="ST" />
       <node concept="VPXOz" id="4eBi5gdn8nr" role="3F10Kt">
@@ -1780,7 +1780,7 @@
     <node concept="3EZMnI" id="4eBi5gdnlmA" role="6VMZX">
       <node concept="2EHx9g" id="4eBi5gdnEZU" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaXg" role="3EZMnx">
-        <property role="3F0ifm" value="Side transformation cell 2:" />
+        <property role="3F0ifm" value="Side transformation cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3EZMnI" id="4eBi5gdnlmK" role="3EZMnx">
@@ -1855,7 +1855,7 @@
   </node>
   <node concept="24kQdi" id="6rhOS_xvraI">
     <property role="3GE5qa" value="cells" />
-    <ref role="1XX52x" to="teg0:6rhOS_xv7_i" resolve="SideTransformationCell3" />
+    <ref role="1XX52x" to="teg0:6rhOS_xv7_i" resolve="SideTransformationBothSidesCell" />
     <node concept="3EZMnI" id="6rhOS_xvraQ" role="2wV5jI">
       <node concept="3F0ifn" id="6rhOS_xvraS" role="3EZMnx">
         <property role="3F0ifm" value="ST" />
@@ -1876,7 +1876,7 @@
     <node concept="3EZMnI" id="6rhOS_xv$$V" role="6VMZX">
       <node concept="2EHx9g" id="6rhOS_xv$$W" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaXP" role="3EZMnx">
-        <property role="3F0ifm" value="Side transformation cell 3:" />
+        <property role="3F0ifm" value="Side transformation (both sides) cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3EZMnI" id="6rhOS_xv$$X" role="3EZMnx">
@@ -2424,7 +2424,7 @@
   </node>
   <node concept="24kQdi" id="Dnjeuk_JIS">
     <property role="3GE5qa" value="cells" />
-    <ref role="1XX52x" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />
+    <ref role="1XX52x" to="teg0:Dnjeuk_JIi" resolve="SideTransformationSectionCell" />
     <node concept="3F0ifn" id="Dnjeuk_JIU" role="2wV5jI">
       <property role="3F0ifm" value="ST" />
       <node concept="VPXOz" id="Dnjeuk_JIV" role="3F10Kt">
@@ -2438,7 +2438,7 @@
     </node>
     <node concept="3EZMnI" id="Dnjeun4pIE" role="6VMZX">
       <node concept="3F0ifn" id="dN43ccfaYw" role="3EZMnx">
-        <property role="3F0ifm" value="Side transformation cell 4:" />
+        <property role="3F0ifm" value="Side transformation section cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3F1sOY" id="Dnjeul18aU" role="3EZMnx">

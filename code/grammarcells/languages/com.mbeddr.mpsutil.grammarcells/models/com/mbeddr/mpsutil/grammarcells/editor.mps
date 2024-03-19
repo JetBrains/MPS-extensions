@@ -1733,9 +1733,7 @@
         <property role="VOm3f" value="true" />
       </node>
       <node concept="Veino" id="6jH9yJK5uGU" role="3F10Kt">
-        <node concept="1iSF2X" id="6jH9yJK5uGV" role="VblUZ">
-          <property role="1iTho6" value="303db2" />
-        </node>
+        <property role="Vb096" value="hGRnIZc/lightBlue" />
       </node>
     </node>
     <node concept="3EZMnI" id="6jH9yJK5uWv" role="6VMZX">

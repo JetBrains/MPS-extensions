@@ -2338,20 +2338,6 @@
   <node concept="LiM7Y" id="5nOdiEvH8Qy">
     <property role="TrG5h" value="DeleteToLineStart" />
     <property role="3GE5qa" value="deletion" />
-    <node concept="1qefOq" id="5nOdiEvH8Qz" role="25YQCW">
-      <node concept="19SGf9" id="5nOdiEvH8Q$" role="1qenE9">
-        <node concept="19SUe$" id="5nOdiEvH8Q_" role="19SJt6">
-          <property role="19SUeA" value="First Line&#10;Second Line&#10;Third Line" />
-          <node concept="LIFWc" id="5nOdiEvH8QA" role="lGtFl">
-            <property role="LIFWa" value="2" />
-            <property role="OXtK3" value="true" />
-            <property role="p6zMq" value="2" />
-            <property role="p6zMs" value="2" />
-            <property role="LIFWd" value="property_escapedValue_word0" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3clFbS" id="5nOdiEvH8QB" role="LjaKd">
       <node concept="2HxZob" id="5nOdiEvH8QC" role="3cqZAp">
         <node concept="1iFQzN" id="5nOdiEvH8QD" role="3iKnsn">
@@ -2368,6 +2354,20 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="0" />
             <property role="p6zMs" value="0" />
+            <property role="LIFWd" value="property_escapedValue_word0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="5nOdiEvH8Qz" role="25YQCW">
+      <node concept="19SGf9" id="5nOdiEvH8Q$" role="1qenE9">
+        <node concept="19SUe$" id="5nOdiEvH8Q_" role="19SJt6">
+          <property role="19SUeA" value="First Line&#10;Second Line&#10;Third Line" />
+          <node concept="LIFWc" id="5nOdiEvH8QA" role="lGtFl">
+            <property role="LIFWa" value="2" />
+            <property role="OXtK3" value="true" />
+            <property role="p6zMq" value="2" />
+            <property role="p6zMs" value="2" />
             <property role="LIFWd" value="property_escapedValue_word0" />
           </node>
         </node>

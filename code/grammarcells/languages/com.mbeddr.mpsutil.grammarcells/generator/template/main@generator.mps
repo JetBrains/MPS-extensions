@@ -546,7 +546,7 @@
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
       <concept id="7272510943426055326" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell_Factory" flags="ig" index="2kS2EP" />
       <concept id="7272510943426093121" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_SideTransformActionsBuilderContext" flags="ng" index="2kS8pE" />
-      <concept id="7272510943425988699" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell" flags="ng" index="2kSiTK">
+      <concept id="7272510943425988699" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationFromFactoryCell" flags="ng" index="2kSiTK">
         <property id="7272510943425988883" name="side" index="2kSiWS" />
         <child id="7272510943426097631" name="factory" index="2kS9vO" />
         <child id="7272510943425989076" name="wrapped" index="2kSiZZ" />
@@ -563,7 +563,7 @@
       <concept id="745148820870387403" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationHolderProcessor" flags="ng" index="2u$9CG">
         <child id="745148820870387404" name="wrappedCell" index="2u$9CF" />
       </concept>
-      <concept id="745148820867185554" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationCell4" flags="ng" index="2uKrtP">
+      <concept id="745148820867185554" name="com.mbeddr.mpsutil.grammarcells.structure.SideTransformationSectionCell" flags="ng" index="2uKrtP">
         <property id="745148820908747612" name="description" index="2thAuV" />
         <child id="745148820874363426" name="section" index="2vkWV5" />
       </concept>
@@ -8064,7 +8064,7 @@
                 <node concept="2Rf3mk" id="DnjeumMKrn" role="2OqNvi">
                   <node concept="1xMEDy" id="DnjeumMKrp" role="1xVPHs">
                     <node concept="chp4Y" id="DnjeumMKNj" role="ri$Ld">
-                      <ref role="cht4Q" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />
+                      <ref role="cht4Q" to="teg0:Dnjeuk_JIi" resolve="SideTransformationSectionCell" />
                     </node>
                   </node>
                   <node concept="hTh3S" id="DnjeumNvI7" role="1xVPHs">
@@ -8661,7 +8661,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="6jH9yJK9Q6n" role="3acgRq">
-      <ref role="30HIoZ" to="teg0:6jH9yJK30xr" resolve="SideTransformationCell" />
+      <ref role="30HIoZ" to="teg0:6jH9yJK30xr" resolve="SideTransformationFromFactoryCell" />
       <node concept="1Koe21" id="6jH9yJK9Q6o" role="1lVwrX">
         <node concept="3F0ifn" id="6jH9yJK9Q6p" role="1Koe22">
           <node concept="raruj" id="6jH9yJK9Q6q" role="lGtFl" />
@@ -8705,11 +8705,11 @@
       </node>
     </node>
     <node concept="3aamgX" id="4eBi5gdoOwJ" role="3acgRq">
-      <ref role="30HIoZ" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell2" />
+      <ref role="30HIoZ" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell" />
       <node concept="b5Tf3" id="4eBi5gdoPka" role="1lVwrX" />
     </node>
     <node concept="3aamgX" id="6rhOS_xx3Ax" role="3acgRq">
-      <ref role="30HIoZ" to="teg0:6rhOS_xv7_i" resolve="SideTransformationCell3" />
+      <ref role="30HIoZ" to="teg0:6rhOS_xv7_i" resolve="SideTransformationBothSidesCell" />
       <node concept="1Koe21" id="6rhOS_xx3Ay" role="1lVwrX">
         <node concept="3F0ifn" id="6rhOS_xx3Az" role="1Koe22">
           <node concept="raruj" id="6rhOS_xx3A$" role="lGtFl" />
@@ -16958,7 +16958,7 @@
     </node>
     <node concept="3aamgX" id="4eBi5gdp21V" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="teg0:6jH9yJK30xr" resolve="SideTransformationCell" />
+      <ref role="30HIoZ" to="teg0:6jH9yJK30xr" resolve="SideTransformationFromFactoryCell" />
       <node concept="1Koe21" id="4eBi5gdp40r" role="1lVwrX">
         <node concept="3clFb_" id="4eBi5gdp40s" role="1Koe22">
           <property role="1EzhhJ" value="false" />
@@ -17171,7 +17171,7 @@
     </node>
     <node concept="3aamgX" id="4eBi5gdpjnS" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell2" />
+      <ref role="30HIoZ" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell" />
       <node concept="1Koe21" id="4eBi5gdpjnT" role="1lVwrX">
         <node concept="3clFb_" id="4eBi5gdpjnU" role="1Koe22">
           <property role="1EzhhJ" value="false" />
@@ -18489,7 +18489,7 @@
                 <node concept="1ps_xZ" id="1_ZVVXfVZgx" role="1ps_xO">
                   <property role="TrG5h" value="st" />
                   <node concept="3Tqbb2" id="4eBi5gdU6j3" role="1ps_xK">
-                    <ref role="ehGHo" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell2" />
+                    <ref role="ehGHo" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell" />
                   </node>
                   <node concept="2jfdEK" id="4eBi5gdTZf3" role="1ps_xN">
                     <node concept="3clFbS" id="4eBi5gdTZf5" role="2VODD2">
@@ -18513,7 +18513,7 @@
     </node>
     <node concept="3aamgX" id="6rhOS_xwLRl" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="teg0:6rhOS_xv7_i" resolve="SideTransformationCell3" />
+      <ref role="30HIoZ" to="teg0:6rhOS_xv7_i" resolve="SideTransformationBothSidesCell" />
       <node concept="1Koe21" id="6rhOS_xwLRm" role="1lVwrX">
         <node concept="3clFb_" id="6rhOS_xwLRn" role="1Koe22">
           <property role="1EzhhJ" value="false" />
@@ -26322,7 +26322,7 @@
     <node concept="1N15co" id="4eBi5gdtsjr" role="1s_3oS">
       <property role="TrG5h" value="sideTransformationCell" />
       <node concept="3Tqbb2" id="4eBi5gdtsjH" role="1N15GL">
-        <ref role="ehGHo" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell2" />
+        <ref role="ehGHo" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell" />
       </node>
     </node>
     <node concept="1N15co" id="4eBi5gdtsjR" role="1s_3oS">
@@ -27157,7 +27157,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="DnjeukFymF" role="3acgRq">
-      <ref role="30HIoZ" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />
+      <ref role="30HIoZ" to="teg0:Dnjeuk_JIi" resolve="SideTransformationSectionCell" />
       <node concept="1Koe21" id="DnjeukFymG" role="1lVwrX">
         <node concept="9aQIb" id="DnjeukFymH" role="1Koe22">
           <node concept="3clFbS" id="DnjeukFymI" role="9aQI4">
@@ -29376,7 +29376,7 @@
   </node>
   <node concept="13MO4I" id="DnjeukFysO">
     <property role="TrG5h" value="reduce_SideTransformationCell4" />
-    <ref role="3gUMe" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />
+    <ref role="3gUMe" to="teg0:Dnjeuk_JIi" resolve="SideTransformationSectionCell" />
     <node concept="312cEu" id="DnjeukFysP" role="13RCb5">
       <property role="TrG5h" value="_context_class_" />
       <property role="1sVAO0" value="true" />

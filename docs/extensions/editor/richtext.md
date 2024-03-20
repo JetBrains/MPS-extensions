@@ -32,7 +32,6 @@ This languages add additional keyboard shortcuts to the editor:
 | ++ctrl+del++          | delete text until the end of the word              |
 | ++ctrl+shift+back++   | delete text until the start of the line            |
 | ++ctrl+shift+del++    | delete text until end of the line                  |
-| ++ctrl+d++            | duplicate the current line                         |
 | ++shift+left++        | increase selection to the character to the left    |
 | ++shift+right++       | increase selection to the character to the right   |
 | ++alt+shift+left++    | increase selection to the start of the word        |
@@ -49,7 +48,6 @@ This languages add additional keyboard shortcuts to the editor:
 | ++cmd+del++            | delete text until the end of the word              |
 | ++cmd+shift+back++     | delete text until the start of the line            |
 | ++cmd+shift+del++      | delete text until end of the line                  |
-| ++cmd+d++              | duplicate the current line                         |
 | ++shift+left++           | increase selection to the character to the left    |
 | ++shift+right++        | increase selection to the character to the right   |
 | ++alt+shift+left++     | increase selection to the start of the word        |

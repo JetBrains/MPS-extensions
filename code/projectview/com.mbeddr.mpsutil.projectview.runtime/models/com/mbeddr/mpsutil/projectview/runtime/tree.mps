@@ -9,7 +9,7 @@
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
@@ -51,7 +51,6 @@
     <import index="2r90" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.platform.watching(MPS.Platform/)" />
     <import index="fyhk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps(MPS.Core/)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
-    <import index="mmaq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.jdom(MPS.Core/)" />
     <import index="jkny" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.wm(MPS.IDEA/)" />
     <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
     <import index="vuys" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.projectView(MPS.Platform/)" />
@@ -83,6 +82,7 @@
     <import index="ewej" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.font(JDK/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
     <import index="ouby" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui.tree(MPS.IDEA/)" />
+    <import index="mmaq" ref="f647e48e-4568-4f4c-b48a-1546492c6a2e/java:org.jdom(org.jdom/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1398,7 +1398,7 @@
           <node concept="3clFbS" id="7PuCnELxnPv" role="3clFbx">
             <node concept="3clFbF" id="7PuCnELxtdm" role="3cqZAp">
               <node concept="1rXfSq" id="7PuCnELxtdk" role="3clFbG">
-                <ref role="37wK5l" to="dxuu:~JTree.expandPath(javax.swing.tree.TreePath):void" resolve="expandPath" />
+                <ref role="37wK5l" to="7e8u:~MPSTree.expandPath(javax.swing.tree.TreePath)" resolve="expandPath" />
                 <node concept="2ShNRf" id="7PuCnELxtQs" role="37wK5m">
                   <node concept="1pGfFk" id="7PuCnELxxBP" role="2ShVmc">
                     <ref role="37wK5l" to="rgfa:~TreePath.&lt;init&gt;(java.lang.Object[])" resolve="TreePath" />
@@ -9113,14 +9113,12 @@
                       <ref role="37wK5l" to="rgfa:~DefaultTreeModel.nodeStructureChanged(javax.swing.tree.TreeNode)" resolve="nodeStructureChanged" />
                       <node concept="Xjq3P" id="2XsGPcz60Nx" role="37wK5m" />
                     </node>
-                    <node concept="1eOMI4" id="2Ko4lD9$4n1" role="2Oq$k0">
-                      <node concept="2OqwBi" id="7PvgUNuOLth" role="1eOMHV">
-                        <node concept="1rXfSq" id="7PvgUNuOLti" role="2Oq$k0">
-                          <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
-                        </node>
-                        <node concept="liA8E" id="7PvgUNuOLtj" role="2OqNvi">
-                          <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
-                        </node>
+                    <node concept="2OqwBi" id="7PvgUNuOLth" role="2Oq$k0">
+                      <node concept="1rXfSq" id="7PvgUNuOLti" role="2Oq$k0">
+                        <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
+                      </node>
+                      <node concept="liA8E" id="7PvgUNuOLtj" role="2OqNvi">
+                        <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
                       </node>
                     </node>
                   </node>
@@ -9560,14 +9558,12 @@
                         <ref role="37wK5l" to="rgfa:~DefaultTreeModel.nodeStructureChanged(javax.swing.tree.TreeNode)" resolve="nodeStructureChanged" />
                         <node concept="Xjq3P" id="2XsGPcz6qGW" role="37wK5m" />
                       </node>
-                      <node concept="1eOMI4" id="2Ko4lD9_izc" role="2Oq$k0">
-                        <node concept="2OqwBi" id="2Ko4lD9_izf" role="1eOMHV">
-                          <node concept="1rXfSq" id="2Ko4lD9_izg" role="2Oq$k0">
-                            <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
-                          </node>
-                          <node concept="liA8E" id="2Ko4lD9_izh" role="2OqNvi">
-                            <ref role="37wK5l" to="7e8u:~MPSTree.getModel()" resolve="getModel" />
-                          </node>
+                      <node concept="2OqwBi" id="Ggg0Z6Y9um" role="2Oq$k0">
+                        <node concept="1rXfSq" id="Ggg0Z6Y9un" role="2Oq$k0">
+                          <ref role="37wK5l" node="7PuCnELAR27" resolve="getTree" />
+                        </node>
+                        <node concept="liA8E" id="Ggg0Z6Y9uo" role="2OqNvi">
+                          <ref role="37wK5l" to="7e8u:~MPSTree.getDFTreeModel()" resolve="getDFTreeModel" />
                         </node>
                       </node>
                     </node>

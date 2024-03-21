@@ -2516,7 +2516,7 @@
                         <node concept="liA8E" id="8ZBTVjWfrq" role="2OqNvi">
                           <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
                           <node concept="37vLTw" id="5nOdiEw8xtc" role="37wK5m">
-                            <ref role="3cqZAo" node="5nOdiEw8xt3" resolve="i" />
+                            <ref role="3cqZAo" node="5nOdiEw8xt3" resolve="newCaretPosition" />
                           </node>
                         </node>
                       </node>

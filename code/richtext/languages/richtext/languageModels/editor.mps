@@ -5298,7 +5298,7 @@
                   <node concept="liA8E" id="6wQWU6B63CC" role="2OqNvi">
                     <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
                     <node concept="37vLTw" id="5nOdiEwc0Tc" role="37wK5m">
-                      <ref role="3cqZAo" node="5nOdiEwc0T6" resolve="length" />
+                      <ref role="3cqZAo" node="5nOdiEwc0T6" resolve="newCaretPosition" />
                     </node>
                   </node>
                 </node>
@@ -5332,7 +5332,7 @@
                   <ref role="3cqZAo" node="7c02HRXo4Dl" resolve="lastWord" />
                 </node>
                 <node concept="37vLTw" id="5nOdiEwc0Td" role="37wK5m">
-                  <ref role="3cqZAo" node="5nOdiEwc0T6" resolve="length" />
+                  <ref role="3cqZAo" node="5nOdiEwc0T6" resolve="newCaretPosition" />
                 </node>
               </node>
             </node>
@@ -7791,7 +7791,7 @@
                         <node concept="liA8E" id="5lBiF1A_nTs" role="2OqNvi">
                           <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
                           <node concept="37vLTw" id="5nOdiEwbHsc" role="37wK5m">
-                            <ref role="3cqZAo" node="5nOdiEwbHs6" resolve="length" />
+                            <ref role="3cqZAo" node="5nOdiEwbHs6" resolve="newCaretPosition" />
                           </node>
                         </node>
                       </node>

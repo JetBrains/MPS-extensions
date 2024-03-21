@@ -444,7 +444,7 @@
     <node concept="3aamgX" id="5PKDVfOkTuY" role="3acgRq">
       <ref role="30HIoZ" to="91fu:5PKDVfOkPcZ" resolve="EditorComponentParameterReference" />
       <node concept="j$656" id="5PKDVfOkTvc" role="1lVwrX">
-        <ref role="v9R2y" node="5PKDVfOkTva" resolve="reduce_EditorComponentDeclarationReference" />
+        <ref role="v9R2y" node="5PKDVfOkTva" resolve="reduce_EditorComponentParameterReference" />
       </node>
     </node>
     <node concept="3aamgX" id="5PKDVfOlWDd" role="3acgRq">
@@ -2267,7 +2267,7 @@
                       </node>
                       <node concept="1P9Npp" id="5PKDVfOaBrN" role="2OqNvi">
                         <node concept="37vLTw" id="5PKDVfOaClO" role="1P9ThW">
-                          <ref role="3cqZAo" node="5PKDVfOaClK" resolve="replaceWithNewConcept" />
+                          <ref role="3cqZAo" node="5PKDVfOaClK" resolve="newNode" />
                         </node>
                       </node>
                     </node>

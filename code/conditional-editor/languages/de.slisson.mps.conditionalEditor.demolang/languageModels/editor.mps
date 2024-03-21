@@ -26,10 +26,10 @@
       <concept id="6733065834258977599" name="de.slisson.mps.conditionalEditor.structure.EditorComponentParameterReference" flags="ng" index="2D8Zic">
         <reference id="6733065834258977600" name="parameter" index="2D8ZjN" />
       </concept>
-      <concept id="6733065834259135109" name="de.slisson.mps.conditionalEditor.structure.CellModel_ComponentWithParameters" flags="ng" index="2D9hOQ">
+      <concept id="6733065834259135109" name="de.slisson.mps.conditionalEditor.structure.CellModel_ComponentWithParameters" flags="sg" stub="6733065834259138549" index="2D9hOQ">
         <child id="6733065834259138558" name="arguments" index="2D9m1d" />
       </concept>
-      <concept id="6733065834252958387" name="de.slisson.mps.conditionalEditor.structure.EditorComponentDeclarationWithParameters" flags="ng" index="2IxXO0">
+      <concept id="6733065834252958387" name="de.slisson.mps.conditionalEditor.structure.EditorComponentDeclarationWithParameters" flags="ig" index="2IxXO0">
         <child id="6733065834252994198" name="parameters" index="2Iya4_" />
       </concept>
       <concept id="2877762237607058140" name="de.slisson.mps.conditionalEditor.structure.NextEditor" flags="ng" index="Rtstu" />
@@ -39,7 +39,7 @@
         <property id="8436908933892732653" name="uniqueName" index="3NULOk" />
         <child id="2877762237607015161" name="condition" index="RtEXV" />
       </concept>
-      <concept id="1452226863088593034" name="de.slisson.mps.conditionalEditor.structure.ComponentArgument" flags="ng" index="1nyV0D">
+      <concept id="1452226863088593034" name="de.slisson.mps.conditionalEditor.structure.ComponentArgument" flags="ig" index="1nyV0D">
         <reference id="1452226863088593886" name="variable" index="1nyVdX" />
       </concept>
     </language>
@@ -727,7 +727,7 @@
     <node concept="19Szcq" id="6LUJA7fQCK" role="2Iya4_">
       <property role="TrG5h" value="cond" />
       <node concept="3uibUv" id="6LUJA7fY7s" role="1tU5fm">
-        <ref role="3uigEE" node="6LUJA7fXc$" resolve="SerializableRunnable" />
+        <ref role="3uigEE" node="6LUJA7fXc$" resolve="SerializablePredicate" />
       </node>
     </node>
     <node concept="19Szcq" id="1gBmad3PiPd" role="2Iya4_">

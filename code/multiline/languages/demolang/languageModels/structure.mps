@@ -106,5 +106,16 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2JjwJOLQpNp">
+    <property role="EcuMT" value="3158011787691531481" />
+    <property role="TrG5h" value="TestConcept" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2JjwJOLQpTw" role="1TKVEl">
+      <property role="IQ2nx" value="3158011787691531872" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

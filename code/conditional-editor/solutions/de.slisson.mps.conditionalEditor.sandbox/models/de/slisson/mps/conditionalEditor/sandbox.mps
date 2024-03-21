@@ -91,6 +91,8 @@
       </concept>
     </language>
     <language id="1831633c-aea1-4345-beff-4a6e7fb4f813" name="de.slisson.mps.conditionalEditor.demolang">
+      <concept id="6733065834253110130" name="de.slisson.mps.conditionalEditor.demolang.structure.B" flags="ng" index="2IymN1" />
+      <concept id="6733065834253110129" name="de.slisson.mps.conditionalEditor.demolang.structure.A" flags="ng" index="2IymN2" />
       <concept id="7172636034965390688" name="de.slisson.mps.conditionalEditor.demolang.structure.ExpressionWithInspector" flags="ng" index="3kNhso" />
     </language>
   </registry>
@@ -171,6 +173,12 @@
       <node concept="3Tm1VV" id="2vJRo8gBQeC" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="2vJRo8gBQdq" role="1B3o_S" />
+  </node>
+  <node concept="2IymN2" id="5PKDVfOfiLR">
+    <property role="TrG5h" value="ANode" />
+  </node>
+  <node concept="2IymN1" id="5PKDVfOrikW">
+    <property role="TrG5h" value="BNode" />
   </node>
 </model>
 

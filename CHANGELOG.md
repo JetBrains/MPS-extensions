@@ -9,7 +9,18 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ### Added
 
+- de.slisson.mps.conditionalEditor: Support for editor components with parameters was added.
 - com.mbeddr.mpsutil.grammarcells: Read-only model accessory cells can now also be used in places where constant cells are supported.
+
+### Fixed
+
+- de.slisson.mps.richtext: Various small issues were fixed (e.g. NullPointerExceptions, usability problems).
+- de.slisson.mps.editor.multiline: Selections are now correctly painted.
+
+### Changed
+
+- de.slisson.mps.richtext: Words are automatically insert as the default concept for IWord.
+- de.slisson.mps.richtext: The faulty duplicate line action was removed.
 
 ## February 2024
 

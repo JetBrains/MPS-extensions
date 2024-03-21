@@ -20,9 +20,6 @@
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
-      <concept id="2000375450116454183" name="jetbrains.mps.lang.editor.structure.ISubstituteMenu" flags="ngI" index="22mbnS">
-        <child id="414384289274416996" name="parts" index="3ft7WO" />
-      </concept>
       <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
@@ -81,9 +78,6 @@
       <concept id="1214406466686" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorSelectedStyleClassItem" flags="ln" index="30h1P$" />
       <concept id="1220974635399" name="jetbrains.mps.lang.editor.structure.QueryFunction_FontStyle" flags="in" index="17KAyr" />
       <concept id="1221062700015" name="jetbrains.mps.lang.editor.structure.QueryFunction_Underlined" flags="in" index="1d0yFN" />
-      <concept id="414384289274424754" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_AddConcept" flags="ng" index="3ft5Ry">
-        <reference id="697754674827630451" name="concept" index="4PJHt" />
-      </concept>
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -1636,7 +1630,7 @@
   </node>
   <node concept="24kQdi" id="6jH9yJK30$K">
     <property role="3GE5qa" value="cells" />
-    <ref role="1XX52x" to="teg0:6jH9yJK30xr" resolve="SideTransformationCell" />
+    <ref role="1XX52x" to="teg0:6jH9yJK30xr" resolve="SideTransformationFromFactoryCell" />
     <node concept="3EZMnI" id="6jH9yJK30_m" role="2wV5jI">
       <node concept="2iRfu4" id="6jH9yJK30_p" role="2iSdaV" />
       <node concept="3F0ifn" id="6jH9yJK3g8e" role="3EZMnx">
@@ -1684,7 +1678,7 @@
     <node concept="3EZMnI" id="6jH9yJK3gIA" role="6VMZX">
       <node concept="2EHx9g" id="6jH9yJK3rcY" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaYG" role="3EZMnx">
-        <property role="3F0ifm" value="Side transformation cell:" />
+        <property role="3F0ifm" value="Side transformation (from factory) cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3EZMnI" id="6jH9yJK3gLR" role="3EZMnx">
@@ -1739,9 +1733,7 @@
         <property role="VOm3f" value="true" />
       </node>
       <node concept="Veino" id="6jH9yJK5uGU" role="3F10Kt">
-        <node concept="1iSF2X" id="6jH9yJK5uGV" role="VblUZ">
-          <property role="1iTho6" value="303db2" />
-        </node>
+        <property role="Vb096" value="hGRnIZc/lightBlue" />
       </node>
     </node>
     <node concept="3EZMnI" id="6jH9yJK5uWv" role="6VMZX">
@@ -1773,7 +1765,7 @@
   </node>
   <node concept="24kQdi" id="4eBi5gdn8lF">
     <property role="3GE5qa" value="cells" />
-    <ref role="1XX52x" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell2" />
+    <ref role="1XX52x" to="teg0:4eBi5gdn8jm" resolve="SideTransformationCell" />
     <node concept="3F0ifn" id="4eBi5gdn8lH" role="2wV5jI">
       <property role="3F0ifm" value="ST" />
       <node concept="VPXOz" id="4eBi5gdn8nr" role="3F10Kt">
@@ -1788,7 +1780,7 @@
     <node concept="3EZMnI" id="4eBi5gdnlmA" role="6VMZX">
       <node concept="2EHx9g" id="4eBi5gdnEZU" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaXg" role="3EZMnx">
-        <property role="3F0ifm" value="Side transformation cell 2:" />
+        <property role="3F0ifm" value="Side transformation cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3EZMnI" id="4eBi5gdnlmK" role="3EZMnx">
@@ -1863,7 +1855,7 @@
   </node>
   <node concept="24kQdi" id="6rhOS_xvraI">
     <property role="3GE5qa" value="cells" />
-    <ref role="1XX52x" to="teg0:6rhOS_xv7_i" resolve="SideTransformationCell3" />
+    <ref role="1XX52x" to="teg0:6rhOS_xv7_i" resolve="SideTransformationBothSidesCell" />
     <node concept="3EZMnI" id="6rhOS_xvraQ" role="2wV5jI">
       <node concept="3F0ifn" id="6rhOS_xvraS" role="3EZMnx">
         <property role="3F0ifm" value="ST" />
@@ -1884,7 +1876,7 @@
     <node concept="3EZMnI" id="6rhOS_xv$$V" role="6VMZX">
       <node concept="2EHx9g" id="6rhOS_xv$$W" role="2iSdaV" />
       <node concept="3F0ifn" id="dN43ccfaXP" role="3EZMnx">
-        <property role="3F0ifm" value="Side transformation cell 3:" />
+        <property role="3F0ifm" value="Side transformation (both sides) cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3EZMnI" id="6rhOS_xv$$X" role="3EZMnx">
@@ -2403,26 +2395,6 @@
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
-  <node concept="3p309x" id="3iPRerNa4AQ">
-    <property role="3GE5qa" value="cells" />
-    <property role="TrG5h" value="contributeFlagCell" />
-    <node concept="2kknPJ" id="3iPRerNa4AS" role="1IG6uw">
-      <ref role="2ZyFGn" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
-    </node>
-    <node concept="3ft5Ry" id="3iPRerNa4AW" role="3ft7WO">
-      <ref role="4PJHt" to="teg0:6oKG1kMxv_T" resolve="FlagCell" />
-    </node>
-  </node>
-  <node concept="3p309x" id="7Pt6c$zz$Tp">
-    <property role="3GE5qa" value="cells" />
-    <property role="TrG5h" value="SplittableCell" />
-    <node concept="2kknPJ" id="7Pt6c$zz$Tr" role="1IG6uw">
-      <ref role="2ZyFGn" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
-    </node>
-    <node concept="3ft5Ry" id="7Pt6c$zz$Tx" role="3ft7WO">
-      <ref role="4PJHt" to="teg0:3pFNVizDvwD" resolve="SplittableCell" />
-    </node>
-  </node>
   <node concept="22mcaB" id="2cvVnUuAoxV">
     <ref role="aqKnT" to="teg0:3pFNVizDvwJ" resolve="StubSplittableCell" />
     <node concept="22hDWj" id="7q24335a1C7" role="22hAXT" />
@@ -2452,7 +2424,7 @@
   </node>
   <node concept="24kQdi" id="Dnjeuk_JIS">
     <property role="3GE5qa" value="cells" />
-    <ref role="1XX52x" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />
+    <ref role="1XX52x" to="teg0:Dnjeuk_JIi" resolve="SideTransformationSectionCell" />
     <node concept="3F0ifn" id="Dnjeuk_JIU" role="2wV5jI">
       <property role="3F0ifm" value="ST" />
       <node concept="VPXOz" id="Dnjeuk_JIV" role="3F10Kt">
@@ -2466,7 +2438,7 @@
     </node>
     <node concept="3EZMnI" id="Dnjeun4pIE" role="6VMZX">
       <node concept="3F0ifn" id="dN43ccfaYw" role="3EZMnx">
-        <property role="3F0ifm" value="Side transformation cell 4:" />
+        <property role="3F0ifm" value="Side transformation section cell:" />
         <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
       </node>
       <node concept="3F1sOY" id="Dnjeul18aU" role="3EZMnx">
@@ -2557,6 +2529,11 @@
       </node>
       <node concept="2iRfu4" id="J6gp_6ycJ4" role="2iSdaV" />
     </node>
+  </node>
+  <node concept="22mcaB" id="7tM9FxHDijD">
+    <property role="3GE5qa" value="cells" />
+    <ref role="aqKnT" to="teg0:6ASs6Ln2N$C" resolve="IncludeParentSideTransformations" />
+    <node concept="22hDWj" id="7tM9FxHDijE" role="22hAXT" />
   </node>
 </model>
 

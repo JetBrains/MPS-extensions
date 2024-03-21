@@ -6,6 +6,7 @@ plugins {
 }
 
 import de.itemis.mps.gradle.*
+import groovy.xml.XmlSlurper
 
 import java.time.LocalDateTime
 
@@ -287,11 +288,41 @@ task build_tests(type: BuildLanguages, dependsOn: build_languages) {
     script scriptFile('tests/build.xml')
 }
 
+task failOnTestError() {
+    description 'evaluate junit result and fail on error'
+    doLast {
+
+        def juniXml = file('TESTS-TestSuites.xml')
+        if(juniXml.exists()){
+            def junitResult = new XmlSlurper().parse(juniXml)
+            def failures = junitResult.'**'.findAll { it.name() == 'failure' }
+            def errors = junitResult.'**'.findAll { it.name() == 'error' }
+
+            if (failures || errors) {
+                def amount = failures.size() + errors.size()
+                throw new GradleException(amount + " JUnit tests failed. Check the test report for details.")
+            }
+        }
+    }
+}
+
 task run_tests(type: TestLanguages, dependsOn: build_tests) {
     description "Will execute all tests from command line"
     script scriptFile('tests/build.xml')
     targets 'check'
+    doLast {
+        ant.taskdef(name: 'junitreport',
+                classname: 'org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator',
+                classpath: configurations.junitAnt.asPath)
+        ant.junitreport {
+            fileset(dir: "$buildDir", includes: '**/TEST*.xml')
+            report(format: 'frames', todir: "$buildDir/junitreport")
+        }
+        ant.echo("JUnit report placed into $buildDir/junitreport/index.html")
+    }
 }
+
+run_tests.configure { finalizedBy failOnTestError }
 
 task install_nativelibs(type: Copy, dependsOn: build_languages) {
     from "$rootDir/artifacts/de.itemis.mps.extensions/"

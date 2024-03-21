@@ -124,7 +124,7 @@
               <node concept="2Xjw5R" id="DnjeuljDt2" role="2OqNvi">
                 <node concept="1xMEDy" id="DnjeuljDt4" role="1xVPHs">
                   <node concept="chp4Y" id="DnjeuljDwW" role="ri$Ld">
-                    <ref role="cht4Q" to="teg0:Dnjeuk_JIi" resolve="SideTransformationCell4" />
+                    <ref role="cht4Q" to="teg0:Dnjeuk_JIi" resolve="SideTransformationSectionCell" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="DnjeuljDB$" role="1xVPHs" />

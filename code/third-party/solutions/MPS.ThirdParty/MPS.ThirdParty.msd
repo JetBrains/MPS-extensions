@@ -3,6 +3,7 @@
   <models>
     <modelRoot contentPath="${platform_lib}" type="java_classes">
       <sourceRoot location="app.jar" />
+      <sourceRoot location="lib.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -13,6 +14,7 @@
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${platform_lib}/app.jar" />
+      <stubModelEntry path="${platform_lib}/lib.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

@@ -648,8 +648,8 @@
         </node>
       </node>
       <node concept="2iUeEo" id="4p3FRivDLPX" role="2iVFfd">
-        <property role="2iUeEt" value="Apache Foundation" />
-        <property role="2iUeEu" value="https://commons.apache.org" />
+        <property role="2iUeEt" value="itemis AG" />
+        <property role="2iUeEu" value="https://www.itemis.com/en/it-services/methods-and-tools/mps" />
       </node>
       <node concept="3_J27D" id="2QgPOUCCCSL" role="3s6cr7">
         <node concept="3Mxwew" id="2QgPOUCCCSN" role="3MwsjC">
@@ -913,8 +913,8 @@
         <ref role="m$f5T" node="3$A0JaN5ae8" resolve="third-party" />
       </node>
       <node concept="2iUeEo" id="3$A0JaN5j9p" role="2iVFfd">
-        <property role="2iUeEu" value="https://jetbrains.com/mps" />
-        <property role="2iUeEt" value="JetBrains s.r.o." />
+        <property role="2iUeEu" value="https://www.itemis.com/en/it-services/methods-and-tools/mps" />
+        <property role="2iUeEt" value="itemis AG" />
       </node>
     </node>
     <node concept="2G$12M" id="3$A0JaN5ae8" role="3989C9">
@@ -9010,6 +9010,10 @@
       </node>
       <node concept="m$_yC" id="6lSuB9eYYul" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="2iUeEo" id="7tg3KIs2Ebm" role="2iVFfd">
+        <property role="2iUeEt" value="itemis AG" />
+        <property role="2iUeEu" value="https://www.itemis.com/en/it-services/methods-and-tools/mps" />
       </node>
     </node>
     <node concept="2G$12M" id="6lSuB9eYLaj" role="3989C9">

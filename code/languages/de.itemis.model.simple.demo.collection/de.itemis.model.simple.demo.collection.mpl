@@ -12,6 +12,9 @@
   </facets>
   <accessoryModels />
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)</dependency>
+  </dependencies>
   <languageVersions>
     <language slang="l:81362899-970b-421b-9fe3-2b64b343f769:de.itemis.model.simple.demo.property" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -44,8 +47,6 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
   </dependencyVersions>
-  <extendedLanguages>
-    <extendedLanguage>e50b0500-6fd7-4c7f-a730-9d841358ca2b(de.itemis.model.simple.demo.property)</extendedLanguage>
-  </extendedLanguages>
+  <extendedLanguages />
 </language>
 

@@ -4,7 +4,7 @@
   <languages>
     <use id="9343567c-db05-48c8-bba6-fdc3f5c1b3c0" name="de.itemis.model.merge.baselang" version="0" />
     <use id="539e8939-08ef-497c-a5fd-25dd10137a55" name="de.itemis.model.merge" version="0" />
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -21,6 +21,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
@@ -281,6 +282,7 @@
   </node>
   <node concept="1lH9Xt" id="6QQNrZxDEL">
     <property role="TrG5h" value="ModelMergeExpression" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="6QQNrZxHtq" role="1SL9yI">
       <property role="TrG5h" value="testModelMergeExpression" />
       <node concept="3cqZAl" id="6QQNrZxHtr" role="3clF45" />

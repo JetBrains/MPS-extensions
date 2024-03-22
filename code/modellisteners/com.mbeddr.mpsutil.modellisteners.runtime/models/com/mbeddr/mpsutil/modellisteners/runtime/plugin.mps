@@ -17,6 +17,11 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
       <concept id="481983775135178851" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginInitBlock" flags="in" index="2uRRBj" />
       <concept id="481983775135178840" name="jetbrains.mps.lang.plugin.standalone.structure.ApplicationPluginDeclaration" flags="ng" index="2uRRBC">
@@ -30,6 +35,7 @@
     <language id="f159adf4-3c93-40f9-9c5a-1f245a8697af" name="jetbrains.mps.lang.aspect">
       <concept id="3433054418424672374" name="jetbrains.mps.lang.aspect.structure.SimpleLanguageAspectDescriptor" flags="ng" index="3vrhyV">
         <child id="6106419185511570295" name="mainLanguages" index="QG$2i" />
+        <child id="3433054418425083029" name="icon" index="3vqPLo" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -210,6 +216,9 @@
     <node concept="2V$Bhx" id="9$iJr8WBan" role="QG$2i">
       <property role="2V$B1T" value="309e0004-4976-4416-b947-ec02ae4ecef2" />
       <property role="2V$B1Q" value="com.mbeddr.mpsutil.modellisteners" />
+    </node>
+    <node concept="1QGGSu" id="1ClyW4gOiF9" role="3vqPLo">
+      <property role="1iqoE4" value="${mps_home}/lib/mps-icons.jar!/nodes/model.png" />
     </node>
   </node>
 </model>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.q60.mps.collections.libs" uuid="ecfb9949-7433-4db5-85de-0f84d172e4ce" moduleVersion="0" compileInMPS="true">
+<solution name="de.q60.mps.collections.libs" uuid="ecfb9949-7433-4db5-85de-0f84d172e4ce" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="trove4j-3.0.3.jar" />
@@ -12,15 +12,12 @@
   <facets>
     <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
+      <library location="${module}/lib/trove4j-3.0.3.jar" />
+      <library location="${module}/lib/vavr-0.9.3.jar" />
+      <library location="${module}/lib/guava-27.1-jre.jar" />
+      <library location="${module}/lib/commons-collections4-4.4.jar" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/lib/trove4j-3.0.3.jar" />
-    <stubModelEntry path="${module}/lib/vavr-0.9.3.jar" />
-    <stubModelEntry path="${module}/lib/guava-27.1-jre.jar" />
-    <stubModelEntry path="${module}/lib/commons-collections4-4.4.jar" />
-  </stubModelEntries>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>

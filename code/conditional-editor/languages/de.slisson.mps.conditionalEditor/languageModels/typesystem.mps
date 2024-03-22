@@ -88,7 +88,7 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -210,7 +210,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -509,7 +509,7 @@
           <node concept="2OqwBi" id="5PKDVfOmJSJ" role="33vP2m">
             <node concept="2OqwBi" id="5PKDVfOmINl" role="2Oq$k0">
               <node concept="1YBJjd" id="5PKDVfOmINm" role="2Oq$k0">
-                <ref role="1YBMHb" node="5PKDVfOmDqS" resolve="cellModel_ComponentWithParameters" />
+                <ref role="1YBMHb" node="5PKDVfOmDqS" resolve="cellModel" />
               </node>
               <node concept="3TrEf2" id="5PKDVfOmJw7" role="2OqNvi">
                 <ref role="3Tt5mk" to="91fu:fGPMmyn" resolve="editorComponent" />
@@ -529,7 +529,7 @@
           </node>
           <node concept="2OqwBi" id="5PKDVfOmLsc" role="33vP2m">
             <node concept="1YBJjd" id="5PKDVfOmLsd" role="2Oq$k0">
-              <ref role="1YBMHb" node="5PKDVfOmDqS" resolve="cellModel_ComponentWithParameters" />
+              <ref role="1YBMHb" node="5PKDVfOmDqS" resolve="cellModel" />
             </node>
             <node concept="3Tsc0h" id="5PKDVfOmLse" role="2OqNvi">
               <ref role="3TtcxE" to="91fu:5PKDVfOlsvY" resolve="arguments" />
@@ -820,7 +820,7 @@
             <node concept="2bSWHS" id="1gBmad3OmsB" role="2OqNvi" />
           </node>
           <node concept="37vLTw" id="1gBmad3OrKz" role="3uHU7B">
-            <ref role="3cqZAo" node="1gBmad3OrKv" resolve="index" />
+            <ref role="3cqZAo" node="1gBmad3OrKv" resolve="currentIndex" />
           </node>
         </node>
         <node concept="3clFbS" id="1gBmad3OjsO" role="3clFbx">

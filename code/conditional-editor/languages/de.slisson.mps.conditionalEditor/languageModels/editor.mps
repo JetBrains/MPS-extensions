@@ -786,7 +786,7 @@
   <node concept="24kQdi" id="5PKDVfOlsvS">
     <ref role="1XX52x" to="91fu:5PKDVfOlsvP" resolve="StubCellModel_ComponentWithParameters" />
     <node concept="PMmxH" id="5PKDVfOlsvT" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:37EzmTDC95l" />
+      <ref role="PMmxG" to="tpco:37EzmTDC95l" resolve="ImplementationRemovedInStubMessage" />
     </node>
   </node>
   <node concept="22mcaB" id="5PKDVfOlsvU">

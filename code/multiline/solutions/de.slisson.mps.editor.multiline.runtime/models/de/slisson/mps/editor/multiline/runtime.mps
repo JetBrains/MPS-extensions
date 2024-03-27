@@ -507,7 +507,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="1bakscM2e9F" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="2tJIrI" id="5LEeV$40Wi9" role="jymVt" />
@@ -538,7 +538,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="1bakscM7x$L" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="3Tm1VV" id="5H3MsraaLrF" role="1B3o_S" />

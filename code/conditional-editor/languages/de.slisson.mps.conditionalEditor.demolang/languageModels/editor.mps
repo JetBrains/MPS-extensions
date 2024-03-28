@@ -617,7 +617,7 @@
     <node concept="19Szcq" id="6LUJA7fQCK" role="2Iya4_">
       <property role="TrG5h" value="cond" />
       <node concept="3uibUv" id="6LUJA7fY7s" role="1tU5fm">
-        <ref role="3uigEE" node="6LUJA7fXc$" resolve="SerializableRunnable" />
+        <ref role="3uigEE" node="6LUJA7fXc$" resolve="SerializablePredicate" />
       </node>
     </node>
     <node concept="19Szcq" id="1gBmad3PiPd" role="2Iya4_">

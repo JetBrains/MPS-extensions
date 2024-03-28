@@ -14523,6 +14523,19 @@
             </node>
           </node>
         </node>
+        <node concept="3rtmxn" id="3Z_1kA5Z4k6" role="3bR31x">
+          <node concept="3LXTmp" id="3Z_1kA5Z4k7" role="3rtmxm">
+            <node concept="398BVA" id="3Z_1kA5Z4k8" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="3Z_1kA5Z4k9" role="iGT6I">
+                <property role="2Ry0Am" value="statistics" />
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3Z_1kA5Z4kb" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="4bHoaiHvmsq" role="3989C9">

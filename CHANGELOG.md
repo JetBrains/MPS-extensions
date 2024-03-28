@@ -12,6 +12,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 - de.slisson.mps.conditionalEditor: Support for editor components with parameters was added.
 - com.mbeddr.mpsutil.grammarcells: Read-only model accessory cells can now also be used in places where constant cells are supported.
 
+### Fixed
+
+- com.mbeddr.mpsutil.editor.querylist: return null in the query shows the empty cell again (regression).
+
 ## February 2024
 
 ### Changed

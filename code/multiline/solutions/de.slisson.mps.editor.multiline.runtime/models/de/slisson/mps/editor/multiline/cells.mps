@@ -13473,7 +13473,7 @@
                         <node concept="liA8E" id="1laD9eY9ndE" role="2OqNvi">
                           <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
                           <node concept="37vLTw" id="5nOdiEw9St2" role="37wK5m">
-                            <ref role="3cqZAo" node="5nOdiEw9SsY" resolve="i" />
+                            <ref role="3cqZAo" node="5nOdiEw9SsY" resolve="newCaretPosition" />
                           </node>
                         </node>
                       </node>
@@ -14378,7 +14378,7 @@
                 <node concept="liA8E" id="5clXe2LCjAy" role="2OqNvi">
                   <ref role="37wK5l" to="g51k:~EditorCell_Label.setCaretPosition(int)" resolve="setCaretPosition" />
                   <node concept="37vLTw" id="5nOdiEwau6j" role="37wK5m">
-                    <ref role="3cqZAo" node="5nOdiEwau6c" resolve="i" />
+                    <ref role="3cqZAo" node="5nOdiEwau6c" resolve="newCaretPosition" />
                   </node>
                 </node>
               </node>

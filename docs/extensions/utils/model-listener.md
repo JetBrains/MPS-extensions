@@ -34,3 +34,5 @@ model listeners for RootConcept {
     }
 }
 ```
+
+!!! warning "The listeners are called synchronously. Since they are operating on the models itself, there is no access to the opened editors. That means that the cursor might jump in the editor when a node is added or removed. The listeners also might make changes to the models unpredictable and not easily revertible, so think twice before using them."

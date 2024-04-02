@@ -5,6 +5,12 @@ All notable changes to this project are documented in this file.
 Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
 The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## April 2024
+
+### Fixed
+
+- com.mbeddr.mpsutil.projectview: Class reloading of project views now works.
+
 ## March 2024
 
 ### Added

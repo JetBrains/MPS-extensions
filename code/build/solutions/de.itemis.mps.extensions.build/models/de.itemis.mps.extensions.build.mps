@@ -12550,6 +12550,9 @@
       <node concept="m$_yC" id="6hpTCZQdXR4" role="m$_yJ">
         <ref role="m$_y1" node="2Xjt3l57iTJ" resolve="de.slisson.mps.hacks" />
       </node>
+      <node concept="m$_yC" id="5fXNsKhuyab" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:ymnOULATpW" resolve="jetbrains.mps.testing" />
+      </node>
       <node concept="3_J27D" id="6hpTCZQdXR5" role="m_cZH">
         <node concept="3Mxwew" id="6hpTCZQdXR6" role="3MwsjC">
           <property role="3MwjfP" value="com.mbeddr.mpsutil.editor.querylist" />

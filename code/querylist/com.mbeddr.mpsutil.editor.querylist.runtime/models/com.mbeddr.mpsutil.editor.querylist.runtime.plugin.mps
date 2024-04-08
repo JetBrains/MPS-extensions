@@ -13,6 +13,8 @@
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
   </languages>
   <imports>
     <import index="zyr2" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.inspector(MPS.Editor/)" />
@@ -46,9 +48,9 @@
     <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
     <import index="mk8z" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.progress(MPS.Core/)" />
     <import index="90d" ref="r:421d64ed-8024-497f-aeab-8bddeb389dd2(jetbrains.mps.lang.extension.methods)" />
-    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" implicit="true" />
-    <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
+    <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -189,6 +191,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="7024111702304501416" name="jetbrains.mps.baseLanguage.structure.OrAssignmentExpression" flags="nn" index="3vZ8r8" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
@@ -333,7 +336,7 @@
                 <node concept="2OqwBi" id="T_6DrlXiyY" role="37wK5m">
                   <node concept="1KvdUw" id="T_6DrlXiaz" role="2Oq$k0" />
                   <node concept="liA8E" id="T_6DrlXjcI" role="2OqNvi">
-                    <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
+                    <ref role="37wK5l" to="z1c4:~Project.getRepository()" resolve="getRepository" />
                   </node>
                 </node>
               </node>
@@ -356,7 +359,7 @@
             <node concept="2OqwBi" id="7uM3WAark3B" role="33vP2m">
               <node concept="1KvdUw" id="7uM3WAark3C" role="2Oq$k0" />
               <node concept="liA8E" id="7uM3WAark3D" role="2OqNvi">
-                <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="7uM3WAark3E" role="37wK5m">
                   <ref role="3VsUkX" to="exr9:~Highlighter" resolve="Highlighter" />
                 </node>
@@ -393,7 +396,7 @@
             <node concept="2OqwBi" id="7uM3WAaroxK" role="33vP2m">
               <node concept="1KvdUw" id="7uM3WAaroxL" role="2Oq$k0" />
               <node concept="liA8E" id="7uM3WAaroxM" role="2OqNvi">
-                <ref role="37wK5l" to="z1c4:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c3:~MPSProject.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="7uM3WAaroxN" role="37wK5m">
                   <ref role="3VsUkX" to="exr9:~Highlighter" resolve="Highlighter" />
                 </node>
@@ -430,7 +433,13 @@
       </node>
       <node concept="3Tm6S6" id="T_6DrlXeS4" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="T_6DrlXbhg" role="jymVt" />
+    <node concept="312cEg" id="GVgWr3MD2X" role="jymVt">
+      <property role="TrG5h" value="myHasEvents" />
+      <node concept="10P_77" id="GVgWr3MD2Z" role="1tU5fm" />
+      <node concept="3clFbT" id="GVgWr3MD30" role="33vP2m" />
+      <node concept="3Tm6S6" id="GVgWr3MD31" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="GVgWr3MBfj" role="jymVt" />
     <node concept="3clFbW" id="T_6DrlX9G9" role="jymVt">
       <node concept="3cqZAl" id="T_6DrlX9Ga" role="3clF45" />
       <node concept="3clFbS" id="T_6DrlX9Gc" role="3clF47">
@@ -1043,7 +1052,43 @@
       </node>
     </node>
     <node concept="2tJIrI" id="T_6DrlX2VO" role="jymVt" />
-    <node concept="2tJIrI" id="3GWIMuJ4oPV" role="jymVt" />
+    <node concept="3clFb_" id="GVgWr3MqPY" role="jymVt">
+      <property role="TrG5h" value="processEvents" />
+      <node concept="3Tm1VV" id="GVgWr3MqPZ" role="1B3o_S" />
+      <node concept="3cqZAl" id="GVgWr3MqQ1" role="3clF45" />
+      <node concept="37vLTG" id="GVgWr3MqQ2" role="3clF46">
+        <property role="TrG5h" value="events" />
+        <node concept="3uibUv" id="GVgWr3MqQ3" role="1tU5fm">
+          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+          <node concept="3uibUv" id="GVgWr3MqQ4" role="11_B2D">
+            <ref role="3uigEE" to="j9co:~SModelEvent" resolve="SModelEvent" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbS" id="GVgWr3MqQ5" role="3clF47">
+        <node concept="3clFbF" id="GVgWr3MI37" role="3cqZAp">
+          <node concept="3vZ8r8" id="GVgWr3MI38" role="3clFbG">
+            <node concept="37vLTw" id="GVgWr3MI39" role="37vLTJ">
+              <ref role="3cqZAo" node="GVgWr3MD2X" resolve="myHasEvents" />
+            </node>
+            <node concept="3fqX7Q" id="GVgWr3MI3a" role="37vLTx">
+              <node concept="2OqwBi" id="GVgWr3MK3v" role="3fr31v">
+                <node concept="37vLTw" id="GVgWr3MJeN" role="2Oq$k0">
+                  <ref role="3cqZAo" node="GVgWr3MqQ2" resolve="events" />
+                </node>
+                <node concept="liA8E" id="GVgWr3MK3w" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~List.isEmpty()" resolve="isEmpty" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="GVgWr3MqQ6" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="GVgWr3MvAM" role="jymVt" />
     <node concept="3clFb_" id="3GWIMuIxySs" role="jymVt">
       <property role="TrG5h" value="needsUpdate" />
       <node concept="3Tm1VV" id="3GWIMuIxySt" role="1B3o_S" />
@@ -1055,14 +1100,33 @@
         </node>
       </node>
       <node concept="3clFbS" id="3GWIMuIxyS_" role="3clF47">
-        <node concept="3clFbF" id="3GWIMuIxySC" role="3cqZAp">
-          <node concept="3clFbT" id="3GWIMuIxySB" role="3clFbG">
-            <property role="3clFbU" value="true" />
+        <node concept="3cpWs6" id="GVgWr3MNrn" role="3cqZAp">
+          <node concept="37vLTw" id="GVgWr3MNro" role="3cqZAk">
+            <ref role="3cqZAo" node="GVgWr3MD2X" resolve="myHasEvents" />
           </node>
         </node>
       </node>
       <node concept="2AHcQZ" id="3GWIMuIxySA" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="GVgWr3MRZ_" role="jymVt" />
+    <node concept="3clFb_" id="GVgWr3MOEJ" role="jymVt">
+      <property role="TrG5h" value="doneUpdating" />
+      <node concept="3Tm1VV" id="GVgWr3MOEK" role="1B3o_S" />
+      <node concept="3cqZAl" id="GVgWr3MOEM" role="3clF45" />
+      <node concept="3clFbS" id="GVgWr3MOEN" role="3clF47">
+        <node concept="3clFbF" id="GVgWr3MVs3" role="3cqZAp">
+          <node concept="37vLTI" id="GVgWr3MVs4" role="3clFbG">
+            <node concept="37vLTw" id="GVgWr3MVs5" role="37vLTJ">
+              <ref role="3cqZAo" node="GVgWr3MD2X" resolve="myHasEvents" />
+            </node>
+            <node concept="3clFbT" id="GVgWr3MVs6" role="37vLTx" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="GVgWr3MOEO" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" />
       </node>
     </node>
   </node>

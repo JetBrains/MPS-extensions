@@ -51,9 +51,19 @@
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="rfhd" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util.registry(MPS.IDEA/)" />
+    <import index="jmi8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.util(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
+        <property id="1205250923097" name="caption" index="2uzpH1" />
+        <property id="7458746815261976739" name="requiredAccess" index="2YLI8m" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
+        <child id="1203083461638" name="executeFunction" index="tncku" />
+      </concept>
+      <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
+      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
       <concept id="1204478074808" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_MPSProject" flags="nn" index="1KvdUw" />
     </language>
     <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
@@ -93,7 +103,11 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
@@ -126,6 +140,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -135,6 +150,7 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -198,6 +214,7 @@
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
@@ -436,6 +453,15 @@
   </node>
   <node concept="312cEu" id="3GWIMuIxxsa">
     <property role="TrG5h" value="QueryListChecker" />
+    <node concept="Wx3nA" id="ercpuLg7f0" role="jymVt">
+      <property role="TrG5h" value="MODELCHECK_ENABLED_KEY" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="ercpuLg1Nr" role="1tU5fm" />
+      <node concept="3Tm1VV" id="ercpuLg6A5" role="1B3o_S" />
+      <node concept="Xl_RD" id="ercpuLg6kQ" role="33vP2m">
+        <property role="Xl_RC" value="querylist.modelcheck.enabled" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3GWIMuJ1aMv" role="jymVt" />
     <node concept="312cEg" id="T_6DrlXdtT" role="jymVt">
       <property role="TrG5h" value="myRepository" />
@@ -612,6 +638,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="ercpuKTou1" role="3cqZAp" />
         <node concept="3clFbJ" id="ercpuKPoIL" role="3cqZAp">
           <node concept="3clFbS" id="ercpuKPoIN" role="3clFbx">
             <node concept="3cpWs8" id="ercpuKP8hp" role="3cqZAp">
@@ -897,13 +924,30 @@
               </node>
             </node>
           </node>
-          <node concept="3fqX7Q" id="ercpuKPs4j" role="3clFbw">
-            <node concept="2OqwBi" id="ercpuKPs4l" role="3fr31v">
-              <node concept="37vLTw" id="ercpuKPs4m" role="2Oq$k0">
-                <ref role="3cqZAo" node="13pedfatXbq" resolve="config" />
+          <node concept="1Wc70l" id="ercpuKTKp4" role="3clFbw">
+            <node concept="3fqX7Q" id="ercpuKPs4j" role="3uHU7B">
+              <node concept="2OqwBi" id="ercpuKPs4l" role="3fr31v">
+                <node concept="37vLTw" id="ercpuKPs4m" role="2Oq$k0">
+                  <ref role="3cqZAo" node="13pedfatXbq" resolve="config" />
+                </node>
+                <node concept="liA8E" id="ercpuKPs4n" role="2OqNvi">
+                  <ref role="37wK5l" node="13pedfataql" resolve="disableModelChecking" />
+                </node>
               </node>
-              <node concept="liA8E" id="ercpuKPs4n" role="2OqNvi">
-                <ref role="37wK5l" node="13pedfataql" resolve="disableModelChecking" />
+            </node>
+            <node concept="2OqwBi" id="ercpuLfUYi" role="3uHU7w">
+              <node concept="2YIFZM" id="ercpuLfUYj" role="2Oq$k0">
+                <ref role="1Pybhc" to="jmi8:~PropertiesComponent" resolve="PropertiesComponent" />
+                <ref role="37wK5l" to="jmi8:~PropertiesComponent.getInstance()" resolve="getInstance" />
+              </node>
+              <node concept="liA8E" id="ercpuLfUYk" role="2OqNvi">
+                <ref role="37wK5l" to="jmi8:~PropertiesComponent.getBoolean(java.lang.String,boolean)" resolve="getBoolean" />
+                <node concept="37vLTw" id="ercpuLgc4E" role="37wK5m">
+                  <ref role="3cqZAo" node="ercpuLg7f0" resolve="MODELCHECK_ENABLED_KEY" />
+                </node>
+                <node concept="3clFbT" id="ercpuLfUYm" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
               </node>
             </node>
           </node>
@@ -1326,6 +1370,116 @@
       <node concept="10Oyi0" id="13pedfataBL" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="13pedfat8oP" role="1B3o_S" />
+  </node>
+  <node concept="sE7Ow" id="ercpuKTQR3">
+    <property role="TrG5h" value="DisableModelcheck" />
+    <property role="2YLI8m" value="6u2MFnph2wS/none" />
+    <property role="2uzpH1" value="QueryList: Disable Model Check" />
+    <node concept="tnohg" id="ercpuKTQR4" role="tncku">
+      <node concept="3clFbS" id="ercpuKTQR5" role="2VODD2">
+        <node concept="3clFbF" id="ercpuLgdHP" role="3cqZAp">
+          <node concept="2OqwBi" id="ercpuLgdHR" role="3clFbG">
+            <node concept="2YIFZM" id="ercpuLgdHS" role="2Oq$k0">
+              <ref role="37wK5l" to="jmi8:~PropertiesComponent.getInstance()" resolve="getInstance" />
+              <ref role="1Pybhc" to="jmi8:~PropertiesComponent" resolve="PropertiesComponent" />
+            </node>
+            <node concept="liA8E" id="ercpuLgdHT" role="2OqNvi">
+              <ref role="37wK5l" to="jmi8:~PropertiesComponent.setValue(java.lang.String,boolean,boolean)" resolve="setValue" />
+              <node concept="10M0yZ" id="ercpuLgdEt" role="37wK5m">
+                <ref role="3cqZAo" node="ercpuLg7f0" resolve="MODELCHECK_ENABLED_KEY" />
+                <ref role="1PxDUh" node="3GWIMuIxxsa" resolve="QueryListChecker" />
+              </node>
+              <node concept="3clFbT" id="ercpuLgfoh" role="37wK5m" />
+              <node concept="3clFbT" id="ercpuLgfBR" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="ercpuLgecp" role="tmbBb">
+      <node concept="3clFbS" id="ercpuLgecq" role="2VODD2">
+        <node concept="3clFbF" id="ercpuLgeqb" role="3cqZAp">
+          <node concept="3clFbC" id="ercpuLggy3" role="3clFbG">
+            <node concept="3clFbT" id="ercpuLgh6H" role="3uHU7w">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="ercpuLgeqc" role="3uHU7B">
+              <node concept="2YIFZM" id="ercpuLgeqd" role="2Oq$k0">
+                <ref role="1Pybhc" to="jmi8:~PropertiesComponent" resolve="PropertiesComponent" />
+                <ref role="37wK5l" to="jmi8:~PropertiesComponent.getInstance()" resolve="getInstance" />
+              </node>
+              <node concept="liA8E" id="ercpuLgeqe" role="2OqNvi">
+                <ref role="37wK5l" to="jmi8:~PropertiesComponent.getBoolean(java.lang.String,boolean)" resolve="getBoolean" />
+                <node concept="10M0yZ" id="ercpuLgeqf" role="37wK5m">
+                  <ref role="3cqZAo" node="ercpuLg7f0" resolve="MODELCHECK_ENABLED_KEY" />
+                  <ref role="1PxDUh" node="3GWIMuIxxsa" resolve="QueryListChecker" />
+                </node>
+                <node concept="3clFbT" id="ercpuLgeqh" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="ercpuLgfNa">
+    <property role="TrG5h" value="EnableModelcheck" />
+    <property role="2YLI8m" value="6u2MFnph2wS/none" />
+    <property role="2uzpH1" value="QueryList: Enable Model Check" />
+    <node concept="tnohg" id="ercpuLgfNb" role="tncku">
+      <node concept="3clFbS" id="ercpuLgfNc" role="2VODD2">
+        <node concept="3clFbF" id="ercpuLgfNd" role="3cqZAp">
+          <node concept="2OqwBi" id="ercpuLgfNe" role="3clFbG">
+            <node concept="2YIFZM" id="ercpuLgfNf" role="2Oq$k0">
+              <ref role="1Pybhc" to="jmi8:~PropertiesComponent" resolve="PropertiesComponent" />
+              <ref role="37wK5l" to="jmi8:~PropertiesComponent.getInstance()" resolve="getInstance" />
+            </node>
+            <node concept="liA8E" id="ercpuLgfNg" role="2OqNvi">
+              <ref role="37wK5l" to="jmi8:~PropertiesComponent.setValue(java.lang.String,boolean,boolean)" resolve="setValue" />
+              <node concept="10M0yZ" id="ercpuLgfNh" role="37wK5m">
+                <ref role="3cqZAo" node="ercpuLg7f0" resolve="MODELCHECK_ENABLED_KEY" />
+                <ref role="1PxDUh" node="3GWIMuIxxsa" resolve="QueryListChecker" />
+              </node>
+              <node concept="3clFbT" id="ercpuLgfNi" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+              <node concept="3clFbT" id="ercpuLgfNj" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="ercpuLgfNk" role="tmbBb">
+      <node concept="3clFbS" id="ercpuLgfNl" role="2VODD2">
+        <node concept="3clFbF" id="ercpuLgfNm" role="3cqZAp">
+          <node concept="3clFbC" id="ercpuLghOj" role="3clFbG">
+            <node concept="3clFbT" id="ercpuLghOH" role="3uHU7w" />
+            <node concept="2OqwBi" id="ercpuLgfNn" role="3uHU7B">
+              <node concept="2YIFZM" id="ercpuLgfNo" role="2Oq$k0">
+                <ref role="1Pybhc" to="jmi8:~PropertiesComponent" resolve="PropertiesComponent" />
+                <ref role="37wK5l" to="jmi8:~PropertiesComponent.getInstance()" resolve="getInstance" />
+              </node>
+              <node concept="liA8E" id="ercpuLgfNp" role="2OqNvi">
+                <ref role="37wK5l" to="jmi8:~PropertiesComponent.getBoolean(java.lang.String,boolean)" resolve="getBoolean" />
+                <node concept="10M0yZ" id="ercpuLgfNq" role="37wK5m">
+                  <ref role="3cqZAo" node="ercpuLg7f0" resolve="MODELCHECK_ENABLED_KEY" />
+                  <ref role="1PxDUh" node="3GWIMuIxxsa" resolve="QueryListChecker" />
+                </node>
+                <node concept="3clFbT" id="ercpuLgfNr" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -10,6 +10,8 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 ### Fixed
 
 - com.mbeddr.mpsutil.projectview: Class reloading of project views now works.
+- com.mbeddr.mpsutil.editor.querylist: Query lists now support model checking for non-dynamically generated nodes and `collapse by default` is generated correctly.
+- de.slisson.mps.reflection: To fix the compilatation issues, the language is now generated earlier in the generation plan.
 
 ## March 2024
 

@@ -23,6 +23,12 @@ run into issues when the same node is shown multiple times in the same editor.
 
 <img alt="example: query list" src="../../img/querylist_cell_example.png" width="800px" />
 
+## Known limitations
+
+Some issues arise, when you try to show the same node multiple times in the same editor: folding buttons might disappear,
+the cursor might jump to the wrong part of the editor etc. You can play around with the *duplicates safe* flag but this
+is a limitation of MPS that can't be fixed at the moment.
+
 ## Blog posts
 
 - [Using the diagram editor and querylist: let’s build a graphical structure editor for MPS | dslgroundry.com](https://dslfoundry.com/using-the-diagram-editor-and-querylist-lets-build-a-graphical-structure-editor-for-mps/)

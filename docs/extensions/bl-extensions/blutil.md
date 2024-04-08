@@ -130,6 +130,29 @@ typeswitch (sourceScope) {
 }
 ```
 
+### IfInstanceOf
+
+This concept enhances the same concept from the language `jetbrains.mps.lang.smodel` with support for else if and else branches. You can give your expression a name for each branch:
+
+``````
+test withElseIfAndElse { 
+  node<ClassConcept> node = new node<ClassConcept>(); 
+  int result; 
+  ifInstanceOf (node is ClassConcept cls) { 
+    result = cls.isNotNull ? 0 : 1; 
+     
+  } else ifInstanceOf (node is AbstractCatchClause acc) { 
+    result = acc.isNotNull ? 2 : 3; 
+  } else ifInstanceOf (node is AbstractClassifierReference acr) { 
+    result = acr.isNotNull ? 5 : 6; 
+  } else { 
+    result = 7; 
+  } 
+   
+  assert 0 equals result ; 
+}
+``````
+
 ## blutil.genutil
 
 This language contains helpful expressions for generators.

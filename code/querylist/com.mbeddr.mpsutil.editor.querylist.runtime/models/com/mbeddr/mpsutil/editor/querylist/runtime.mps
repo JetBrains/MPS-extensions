@@ -1924,9 +1924,7 @@
         <node concept="3Tqbb2" id="1BXECvJT4jD" role="1tU5fm" />
       </node>
       <node concept="A3Dl8" id="lPJxik3RKj" role="3clF45">
-        <node concept="3qUE_q" id="lPJxik3RKl" role="A3Ik2">
-          <node concept="3Tqbb2" id="lPJxik3RKm" role="3qUE_r" />
-        </node>
+        <node concept="3Tqbb2" id="GVgWr3RlSe" role="A3Ik2" />
       </node>
     </node>
     <node concept="3clFb_" id="1BXECvJTOCY" role="jymVt">

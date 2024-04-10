@@ -1807,7 +1807,7 @@
                 </node>
               </node>
               <node concept="37vLTw" id="5nOdiEvJJ$y" role="37wK5m">
-                <ref role="3cqZAo" node="5nOdiEvJJ$j" resolve="lastCell" />
+                <ref role="3cqZAo" node="5nOdiEvJJ$j" resolve="firstCell" />
               </node>
               <node concept="3cmrfG" id="5nOdiEvJUG_" role="37wK5m">
                 <property role="3cmrfH" value="0" />

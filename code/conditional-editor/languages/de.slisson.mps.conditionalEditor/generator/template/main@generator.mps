@@ -24,10 +24,7 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="461n" ref="r:3b46a963-6deb-4d82-bdc0-36b5d9297fcf(de.slisson.mps.conditionalEditor.hints.editor)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
-    <import index="iwf0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.descriptor(MPS.Editor/)" />
     <import index="6f4m" ref="528ff3b9-5fc4-40dd-931f-c6ce3650640e/r:f69c3fa1-0e30-4980-84e2-190ae44e4c3d(jetbrains.mps.lang.migration.runtime/jetbrains.mps.lang.migration.runtime.base)" />
-    <import index="fwk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.textgen.trace(MPS.Core/)" />
-    <import index="ao3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.text(MPS.Core/)" />
     <import index="qvne" ref="r:8ff33705-85bf-4855-805c-06d68fbe233c(jetbrains.mps.editor.runtime.descriptor)" />
     <import index="91fu" ref="r:8d20232d-87e2-425b-b4d7-a9790e401b85(de.slisson.mps.conditionalEditor.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -449,7 +446,7 @@
     <node concept="3aamgX" id="5PKDVfOkTuY" role="3acgRq">
       <ref role="30HIoZ" to="91fu:5PKDVfOkPcZ" resolve="EditorComponentParameterReference" />
       <node concept="j$656" id="5PKDVfOkTvc" role="1lVwrX">
-        <ref role="v9R2y" node="5PKDVfOkTva" resolve="reduce_EditorComponentDeclarationReference" />
+        <ref role="v9R2y" node="5PKDVfOkTva" resolve="reduce_EditorComponentParameterReference" />
       </node>
     </node>
     <node concept="3aamgX" id="5PKDVfOlWDd" role="3acgRq">
@@ -1759,7 +1756,7 @@
                       </node>
                       <node concept="1P9Npp" id="5PKDVfOaBrN" role="2OqNvi">
                         <node concept="37vLTw" id="5PKDVfOaClO" role="1P9ThW">
-                          <ref role="3cqZAo" node="5PKDVfOaClK" resolve="replaceWithNewConcept" />
+                          <ref role="3cqZAo" node="5PKDVfOaClK" resolve="newNode" />
                         </node>
                       </node>
                     </node>

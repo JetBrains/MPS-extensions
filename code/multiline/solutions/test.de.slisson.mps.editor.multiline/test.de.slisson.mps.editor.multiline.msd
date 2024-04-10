@@ -21,6 +21,7 @@
   <languageVersions>
     <language slang="l:31c91def-a131-41a1-9018-102874f49a12:de.slisson.mps.editor.multiline" version="0" />
     <language slang="l:26a9201d-e70b-4755-acd6-40baf7a63b3a:de.slisson.mps.editor.multiline.demolang" version="0" />
+    <language slang="l:0f2ccb7a-482c-4ebf-bf26-faa5b895afe4:de.slisson.mps.editor.multiline.test" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />

@@ -18,3 +18,49 @@ The following screenshot shows a simple example from the [mbeddr documentation l
 <img alt="example: query list" src="../../img/richtext_doc_example.png" width="800px" />
 
 All the different looking strings (e.g. @sect, @node, footnode) are implemented as concepts that implement [IWord](http://127.0.0.1:63320/node?ref=r%3Aca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3%28de.slisson.mps.richtext.structure%29%2F2557074442922392300).
+
+## Keyboard Shortcuts
+
+This languages add additional keyboard shortcuts to the editor:
+
+### Windows/Linux
+
+| Shortcut              | Description                                        |
+| --------------------- | -------------------------------------------------- |
+| ++ctrl+a++            | select the full text                               |
+| ++ctrl+back++         | delete text until the start of the word            |
+| ++ctrl+del++          | delete text until the end of the word              |
+| ++ctrl+shift+back++   | delete text until the start of the line            |
+| ++ctrl+shift+del++    | delete text until end of the line                  |
+| ++shift+left++        | increase selection to the character to the left    |
+| ++shift+right++       | increase selection to the character to the right   |
+| ++alt+shift+left++    | increase selection to the start of the word        |
+| ++alt+shift+right++   | increase selection to the end of the word          |
+| ++ctrl+shift+home++   | increase selection to the start of the full text   |
+| ++ctrl+shift+end++    | increase selection to the end of the full text     |
+
+### Mac
+
+| Shortcut               | Description                                        |
+| ---------------------- | -------------------------------------------------- |
+| ++cmd+a++              | select the full text                               |
+| ++cmd+back++           | delete text until the start of the word            |
+| ++cmd+del++            | delete text until the end of the word              |
+| ++cmd+shift+back++     | delete text until the start of the line            |
+| ++cmd+shift+del++      | delete text until end of the line                  |
+| ++shift+left++           | increase selection to the character to the left    |
+| ++shift+right++        | increase selection to the character to the right   |
+| ++alt+shift+left++     | increase selection to the start of the word        |
+| ++alt+shift+right++    | increase selection to the end of the word          |
+| ++cmd+shift+fn+left++  | increase selection to the start of the full text   |
+| ++cmd+shift+fn+right++ | increase selection to the end of the full text     |
+
+## Compatibility with the [Text language](https://www.jetbrains.com/help/mps/generic-placeholders-and-generic-comments.html#thetextlanguage)( jetbrains.mps.lang.text)
+
+Both languages have similar goals but are not compatible with each other.
+The text language is line based and has builtin support for some formatting options like bold, italic, underlined and some 
+other features such as bullet and numbered lines.
+The Richtext language doesn't have those features but was built with extensibility in mind. Some mentioned features
+are implemented in the mbeddr.doc language instead. While the text language looks to have all necessary features to replace
+the richtext language, it can't be extended that easily. Before you try to migrate to it, please keep that in mind and
+do some experiments to check if the switch is possible.

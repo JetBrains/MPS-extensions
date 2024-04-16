@@ -22,9 +22,25 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ### Fixed
 
+- de.slisson.mps.richtext: Various small issues were fixed (e.g. NullPointerExceptions, usability problems).
+- de.slisson.mps.editor.multiline: Selections are now correctly painted.
 - com.mbeddr.mpsutil.editor.querylist: return null in the query shows the empty cell again (regression).
 
+### Changed
+
+- de.slisson.mps.richtext: Words are automatically insert as the default concept for IWord.
+- de.slisson.mps.richtext: The faulty duplicate line action was removed.
+
 ## February 2024
+
+### Added
+
+- com.mbeddr.mpsutil.blutil: A new ifInstanceOf statement was added that supports else if and else branches.
+
+### Fixed
+
+- de.itemis.mps.editor.diagram: Avoid unnecessary layouting of sub-diagrams.
+- de.itemis.mps.editor.diagram: A layouting bug related to ports was fixed.
 
 ### Changed
 

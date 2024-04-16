@@ -202,6 +202,7 @@
         <child id="8276990574895933173" name="catchBody" index="1zc67A" />
         <child id="8276990574895933172" name="throwable" index="1zc67B" />
       </concept>
+      <concept id="7024111702304501416" name="jetbrains.mps.baseLanguage.structure.OrAssignmentExpression" flags="nn" index="3vZ8r8" />
       <concept id="8276990574909231788" name="jetbrains.mps.baseLanguage.structure.FinallyClause" flags="ng" index="1wplmZ">
         <child id="8276990574909234106" name="finallyBody" index="1wplMD" />
       </concept>
@@ -3210,6 +3211,25 @@
         </node>
       </node>
       <node concept="3clFbS" id="4g2H4r3Ws9o" role="3clF47">
+        <node concept="3clFbF" id="6zwr99Mojd_" role="3cqZAp">
+          <node concept="3vZ8r8" id="6zwr99MojXL" role="3clFbG">
+            <node concept="3clFbC" id="6zwr99MomH6" role="37vLTx">
+              <node concept="10Nm6u" id="6zwr99Monf8" role="3uHU7w" />
+              <node concept="2OqwBi" id="6zwr99Mom4e" role="3uHU7B">
+                <node concept="1rXfSq" id="6zwr99MolmY" role="2Oq$k0">
+                  <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode()" resolve="getSNode" />
+                </node>
+                <node concept="liA8E" id="6zwr99Momq3" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="6zwr99Mojdz" role="37vLTJ">
+              <ref role="3cqZAo" to="emqf:~CellProviderWithRole.myReadOnly" resolve="myReadOnly" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6zwr99Mqi_n" role="3cqZAp" />
         <node concept="3cpWs8" id="4g2H4r3Ws9q" role="3cqZAp">
           <node concept="3cpWsn" id="4g2H4r3Ws9p" role="3cpWs9">
             <property role="3TUv4t" value="false" />

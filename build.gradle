@@ -75,13 +75,14 @@ if (ciBuild) {
     if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber)
+        def isSnapshot = !(branch.equals("master"))
+        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + (isSnapshot ? "-SNAPSHOT" : "")
     }
 
     println "##teamcity[buildNumber '${version}']"
 } else {
-    println "Local build detected, version will be SNAPSHOT"
     version = ext.mpsMajor + appendOpt(ext.mpsMinor , '.') + "-SNAPSHOT"
+    println "Local build detected, version will be $version"
 }
 
 def userHome = System.properties['user.home']

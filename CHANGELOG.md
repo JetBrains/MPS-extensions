@@ -32,6 +32,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 - de.slisson.mps.richtext: Words are automatically insert as the default concept for IWord.
 - de.slisson.mps.richtext: The faulty duplicate line action was removed.
 
+### Removed
+
+- com.mbeddr.mpsutil.projectview: The broken parameter `project` from the `Is Default` condition was removed. Use the variable `mpsProject` instead. 
+
 ## February 2024
 
 ### Added

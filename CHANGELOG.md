@@ -14,6 +14,10 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 - de.slisson.mps.reflection: To fix the compilatation issues, the language is now generated earlier in the generation plan.
 - de.slisson.mps.richtext: The duplicate action that overwrites the MPS action was added back and now duplicating lines should work again.
 
+### Added
+
+- com.mbeddr.mpsutil.editor.querylist: the `insert new` and `delete element` blocks now have an `editorContext` parameter.
+
 ## March 2024
 
 ### Added

@@ -3332,6 +3332,13 @@
             <property role="3TUv4t" value="true" />
             <node concept="10P_77" id="535SrlQalou" role="1tU5fm" />
           </node>
+          <node concept="37vLTG" id="6NOOaBwYxiL" role="3clF46">
+            <property role="3TUv4t" value="true" />
+            <property role="TrG5h" value="editorContext" />
+            <node concept="3uibUv" id="6NOOaBwYAqd" role="1tU5fm">
+              <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+            </node>
+          </node>
           <node concept="3cqZAl" id="535SrlQ6NNm" role="3clF45" />
           <node concept="3Tm1VV" id="535SrlQ6NNn" role="1B3o_S" />
           <node concept="3clFbS" id="535SrlQ6NNp" role="3clF47">
@@ -3378,6 +3385,13 @@
             <property role="TrG5h" value="nodeToDelete" />
             <property role="3TUv4t" value="true" />
             <node concept="3Tqbb2" id="puVMIbsU61" role="1tU5fm" />
+          </node>
+          <node concept="37vLTG" id="6NOOaBwYHqu" role="3clF46">
+            <property role="3TUv4t" value="true" />
+            <property role="TrG5h" value="editorContext" />
+            <node concept="3uibUv" id="6NOOaBwYK4I" role="1tU5fm">
+              <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+            </node>
           </node>
           <node concept="3cqZAl" id="puVMIbsU62" role="3clF45" />
           <node concept="3Tm1VV" id="puVMIbsU63" role="1B3o_S" />

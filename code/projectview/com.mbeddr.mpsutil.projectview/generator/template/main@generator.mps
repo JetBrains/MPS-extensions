@@ -2530,7 +2530,7 @@
                           <node concept="3nyPlj" id="16TtUNxW69D" role="3cqZAk">
                             <ref role="37wK5l" to="imq3:5i3SmuN3Fvf" resolve="isDefaultView" />
                             <node concept="37vLTw" id="16TtUNxW69E" role="37wK5m">
-                              <ref role="3cqZAo" node="16TtUNxV60b" resolve="project" />
+                              <ref role="3cqZAo" node="16TtUNxV60b" resolve="ideaProject" />
                             </node>
                           </node>
                           <node concept="2b32R4" id="16TtUNxWdS7" role="lGtFl">

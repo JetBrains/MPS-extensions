@@ -174,7 +174,7 @@
               <node concept="2OqwBi" id="XbadXRL1Nl" role="3uHU7w">
                 <node concept="EsrRn" id="XbadXRNkSb" role="2Oq$k0" />
                 <node concept="2qgKlT" id="XbadXRL28w" role="2OqNvi">
-                  <ref role="37wK5l" to="j2b5:2r0ijgcUaDV" resolve="getDate" />
+                  <ref role="37wK5l" to="j2b5:2r0ijgcUaDV" resolve="getDateAsString" />
                 </node>
               </node>
               <node concept="3cpWs3" id="XbadXRKViV" role="3uHU7B">

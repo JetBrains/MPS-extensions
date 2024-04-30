@@ -5446,7 +5446,7 @@
                   <ref role="3cqZAo" node="4gq8yQBZ6Ws" resolve="subPane" />
                 </node>
                 <node concept="liA8E" id="4gq8yQBZ6WF" role="2OqNvi">
-                  <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element" resolve="setAttribute" />
+                  <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String)" resolve="setAttribute" />
                   <node concept="Xl_RD" id="4gq8yQBZ6WG" role="37wK5m">
                     <property role="Xl_RC" value="subId" />
                   </node>
@@ -5502,7 +5502,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ6Wj" resolve="element" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ6WV" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element):org.jdom.Element" resolve="addContent" />
+              <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element)" resolve="addContent" />
               <node concept="37vLTw" id="4gq8yQBZ6WW" role="37wK5m">
                 <ref role="3cqZAo" node="4gq8yQBZ6Ws" resolve="subPane" />
               </node>
@@ -5595,7 +5595,7 @@
                   <ref role="3cqZAo" node="4gq8yQBZ6X0" resolve="parentElement" />
                 </node>
                 <node concept="liA8E" id="4gq8yQBZ6Xs" role="2OqNvi">
-                  <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element):org.jdom.Element" resolve="addContent" />
+                  <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element)" resolve="addContent" />
                   <node concept="37vLTw" id="4gq8yQBZ6Xt" role="37wK5m">
                     <ref role="3cqZAo" node="4gq8yQBZ6Xg" resolve="pathElement" />
                   </node>
@@ -5677,7 +5677,7 @@
                   <ref role="3cqZAo" node="4gq8yQBZ6X$" resolve="pathElement" />
                 </node>
                 <node concept="liA8E" id="4gq8yQBZ6XT" role="2OqNvi">
-                  <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element):org.jdom.Element" resolve="addContent" />
+                  <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element)" resolve="addContent" />
                   <node concept="37vLTw" id="4gq8yQBZ6XU" role="37wK5m">
                     <ref role="3cqZAo" node="4gq8yQBZ6XH" resolve="elm" />
                   </node>
@@ -5733,7 +5733,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ6Y4" resolve="option1" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ6Yc" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element" resolve="setAttribute" />
+              <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String)" resolve="setAttribute" />
               <node concept="Xl_RD" id="4gq8yQBZ6Yd" role="37wK5m">
                 <property role="Xl_RC" value="name" />
               </node>
@@ -5749,7 +5749,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ6Y4" resolve="option1" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ6Yi" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element" resolve="setAttribute" />
+              <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String)" resolve="setAttribute" />
               <node concept="Xl_RD" id="4gq8yQBZ6Yj" role="37wK5m">
                 <property role="Xl_RC" value="value" />
               </node>
@@ -5765,7 +5765,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ6Y0" resolve="elm" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ6Yo" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element):org.jdom.Element" resolve="addContent" />
+              <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element)" resolve="addContent" />
               <node concept="37vLTw" id="4gq8yQBZ6Yp" role="37wK5m">
                 <ref role="3cqZAo" node="4gq8yQBZ6Y4" resolve="option1" />
               </node>
@@ -5795,7 +5795,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ6Yr" resolve="option2" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ6Yz" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element" resolve="setAttribute" />
+              <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String)" resolve="setAttribute" />
               <node concept="Xl_RD" id="4gq8yQBZ6Y$" role="37wK5m">
                 <property role="Xl_RC" value="name" />
               </node>
@@ -5811,7 +5811,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ6Yr" resolve="option2" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ6YD" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String):org.jdom.Element" resolve="setAttribute" />
+              <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String)" resolve="setAttribute" />
               <node concept="Xl_RD" id="4gq8yQBZ6YE" role="37wK5m">
                 <property role="Xl_RC" value="value" />
               </node>
@@ -5827,7 +5827,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ6Y0" resolve="elm" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ6YJ" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element):org.jdom.Element" resolve="addContent" />
+              <ref role="37wK5l" to="mmaq:~Element.addContent(org.jdom.Element)" resolve="addContent" />
               <node concept="37vLTw" id="4gq8yQBZ6YK" role="37wK5m">
                 <ref role="3cqZAo" node="4gq8yQBZ6Yr" resolve="option2" />
               </node>
@@ -5903,7 +5903,7 @@
                 <ref role="3cqZAo" node="4gq8yQBZ6YP" resolve="element" />
               </node>
               <node concept="liA8E" id="4gq8yQBZ6Z1" role="2OqNvi">
-                <ref role="37wK5l" to="mmaq:~Element.getChildren(java.lang.String):java.util.List" resolve="getChildren" />
+                <ref role="37wK5l" to="mmaq:~Element.getChildren(java.lang.String)" resolve="getChildren" />
                 <node concept="Xl_RD" id="4gq8yQBZ6Z2" role="37wK5m">
                   <property role="Xl_RC" value="subPane" />
                 </node>
@@ -6098,7 +6098,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ6Zn" resolve="parentElement" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ6ZC" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.getChildren(java.lang.String):java.util.List" resolve="getChildren" />
+              <ref role="37wK5l" to="mmaq:~Element.getChildren(java.lang.String)" resolve="getChildren" />
               <node concept="37vLTw" id="4gq8yQBZ6ZD" role="37wK5m">
                 <ref role="3cqZAo" node="4gq8yQBZ6Zp" resolve="name" />
               </node>
@@ -6204,7 +6204,7 @@
               <ref role="3cqZAo" node="4gq8yQBZ700" resolve="pathElement" />
             </node>
             <node concept="liA8E" id="4gq8yQBZ70d" role="2OqNvi">
-              <ref role="37wK5l" to="mmaq:~Element.getChildren(java.lang.String):java.util.List" resolve="getChildren" />
+              <ref role="37wK5l" to="mmaq:~Element.getChildren(java.lang.String)" resolve="getChildren" />
               <node concept="Xl_RD" id="4gq8yQBZ70e" role="37wK5m">
                 <property role="Xl_RC" value="PATH_ELEMENT" />
               </node>
@@ -6303,7 +6303,7 @@
                 <ref role="3cqZAo" node="4gq8yQBZ70C" resolve="elm" />
               </node>
               <node concept="liA8E" id="4gq8yQBZ70L" role="2OqNvi">
-                <ref role="37wK5l" to="mmaq:~Element.getChildren(java.lang.String):java.util.List" resolve="getChildren" />
+                <ref role="37wK5l" to="mmaq:~Element.getChildren(java.lang.String)" resolve="getChildren" />
                 <node concept="Xl_RD" id="4gq8yQBZ70M" role="37wK5m">
                   <property role="Xl_RC" value="option" />
                 </node>
@@ -6345,7 +6345,7 @@
                       <ref role="3cqZAo" node="4gq8yQBZ70T" resolve="option" />
                     </node>
                     <node concept="liA8E" id="4gq8yQBZ712" role="2OqNvi">
-                      <ref role="37wK5l" to="mmaq:~Element.getAttributeValue(java.lang.String):java.lang.String" resolve="getAttributeValue" />
+                      <ref role="37wK5l" to="mmaq:~Element.getAttributeValue(java.lang.String)" resolve="getAttributeValue" />
                       <node concept="Xl_RD" id="4gq8yQBZ713" role="37wK5m">
                         <property role="Xl_RC" value="name" />
                       </node>
@@ -6364,7 +6364,7 @@
                         <ref role="3cqZAo" node="4gq8yQBZ70T" resolve="option" />
                       </node>
                       <node concept="liA8E" id="4gq8yQBZ71a" role="2OqNvi">
-                        <ref role="37wK5l" to="mmaq:~Element.getAttributeValue(java.lang.String):java.lang.String" resolve="getAttributeValue" />
+                        <ref role="37wK5l" to="mmaq:~Element.getAttributeValue(java.lang.String)" resolve="getAttributeValue" />
                         <node concept="Xl_RD" id="4gq8yQBZ71b" role="37wK5m">
                           <property role="Xl_RC" value="value" />
                         </node>

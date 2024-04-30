@@ -644,7 +644,7 @@
               <node concept="1pGfFk" id="1lswC14_o9L" role="2ShVmc">
                 <ref role="37wK5l" to="dglc:QurUgi6nZ4" resolve="RepositoryMirror" />
                 <node concept="2YIFZM" id="1lswC14_o9M" role="37wK5m">
-                  <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+                  <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance()" resolve="getInstance" />
                   <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
                 </node>
               </node>

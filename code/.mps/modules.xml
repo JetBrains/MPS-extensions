@@ -21,7 +21,6 @@
       <modulePath path="$PROJECT_DIR$/celllayout/languages/test.de.itemis.mps.editor.celllayout.lang/test.de.itemis.mps.editor.celllayout.lang.mpl" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.itemis.mps.editor.celllayout.sandbox/de.itemis.mps.editor.celllayout.sandbox.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.slisson.mps.editor.celllayout.runtime/de.itemis.mps.editor.celllayout.runtime.msd" folder="celllayout" />
-      <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.slisson.mps.editor.celllayout/de.slisson.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/test.de.itemis.mps.editor.celllayout.runtime/test.de.itemis.mps.editor.celllayout.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/de.slisson.mps.conditionalEditor.hints.mpl" folder="conditional-editor" />
@@ -196,7 +195,6 @@
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.testutils/de.slisson.mps.testutils.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
-      <modulePath path="$PROJECT_DIR$/testing/languages/de.itemis.mps.testing/de.itemis.mps.testing.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="3rd-party" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/third.party.usage.test/third.party.usage.test.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/tooltips/solutions/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="tooltips" />

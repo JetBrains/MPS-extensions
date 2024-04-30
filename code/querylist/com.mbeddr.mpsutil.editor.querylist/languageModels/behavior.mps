@@ -755,6 +755,9 @@
               <node concept="35c_gC" id="1zqEQG3WoHi" role="HW$Y0">
                 <ref role="35c_gD" to="bbp5:535SrlQade6" resolve="Paramter_insertBefore" />
               </node>
+              <node concept="35c_gC" id="6NOOaBwWDt6" role="HW$Y0">
+                <ref role="35c_gD" to="tpc2:gTQ80DJ" resolve="ConceptFunctionParameter_editorContext" />
+              </node>
             </node>
           </node>
         </node>
@@ -850,6 +853,9 @@
               </node>
               <node concept="35c_gC" id="1zqEQG3WoGV" role="HW$Y0">
                 <ref role="35c_gD" to="bbp5:puVMIbwgYa" resolve="Parameter_NodeToDelete" />
+              </node>
+              <node concept="35c_gC" id="6NOOaBwWDIt" role="HW$Y0">
+                <ref role="35c_gD" to="tpc2:gTQ80DJ" resolve="ConceptFunctionParameter_editorContext" />
               </node>
             </node>
           </node>

@@ -5217,41 +5217,26 @@
                     </node>
                   </node>
                 </node>
-              </node>
-            </node>
-            <node concept="3cpWs6" id="heOoiHh" role="3cqZAp">
-              <node concept="1W57fq" id="heOoiHm" role="lGtFl">
-                <node concept="3IZrLx" id="heOoiHn" role="3IZSJc">
-                  <node concept="3clFbS" id="heOoiHo" role="2VODD2">
-                    <node concept="3clFbF" id="heOoiHp" role="3cqZAp">
-                      <node concept="3clFbC" id="heOoiHq" role="3clFbG">
-                        <node concept="10Nm6u" id="heOoiHr" role="3uHU7w" />
-                        <node concept="2OqwBi" id="hxx$VWA" role="3uHU7B">
-                          <node concept="3TrEf2" id="8dI1zL60F6" role="2OqNvi">
-                            <ref role="3Tt5mk" to="bbp5:h84_6ER" resolve="nodeFactory" />
-                          </node>
-                          <node concept="30H73N" id="heOoiHt" role="2Oq$k0" />
+                <node concept="gft3U" id="6TSlAOGKYgv" role="UU_$l">
+                  <node concept="3cpWs6" id="heOoiHh" role="gfFT$">
+                    <node concept="2YIFZM" id="3Km1Pf7cimB" role="3cqZAk">
+                      <ref role="37wK5l" to="zce0:~NodeFactoryManager.createNode(org.jetbrains.mps.openapi.model.SNode,jetbrains.mps.openapi.editor.EditorContext,java.lang.String)" resolve="createNode" />
+                      <ref role="1Pybhc" to="zce0:~NodeFactoryManager" resolve="NodeFactoryManager" />
+                      <node concept="37vLTw" id="3GM_nagTBmC" role="37wK5m">
+                        <ref role="3cqZAo" node="heOoiH0" resolve="listOwner" />
+                      </node>
+                      <node concept="37vLTw" id="2BHiRxghfAu" role="37wK5m">
+                        <ref role="3cqZAo" node="heOoiHw" resolve="editorContext" />
+                      </node>
+                      <node concept="2OqwBi" id="4glh_DcqKYP" role="37wK5m">
+                        <node concept="3nyPlj" id="3Km1Pf7cimE" role="2Oq$k0">
+                          <ref role="37wK5l" to="p9jd:~RefNodeListHandler.getElementSRole()" resolve="getElementSRole" />
+                        </node>
+                        <node concept="liA8E" id="4glh_DcqNMg" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SNamedElement.getName()" resolve="getName" />
                         </node>
                       </node>
                     </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2YIFZM" id="3Km1Pf7cimB" role="3cqZAk">
-                <ref role="37wK5l" to="zce0:~NodeFactoryManager.createNode(org.jetbrains.mps.openapi.model.SNode,jetbrains.mps.openapi.editor.EditorContext,java.lang.String)" resolve="createNode" />
-                <ref role="1Pybhc" to="zce0:~NodeFactoryManager" resolve="NodeFactoryManager" />
-                <node concept="37vLTw" id="3GM_nagTBmC" role="37wK5m">
-                  <ref role="3cqZAo" node="heOoiH0" resolve="listOwner" />
-                </node>
-                <node concept="37vLTw" id="2BHiRxghfAu" role="37wK5m">
-                  <ref role="3cqZAo" node="heOoiHw" resolve="editorContext" />
-                </node>
-                <node concept="2OqwBi" id="4glh_DcqKYP" role="37wK5m">
-                  <node concept="3nyPlj" id="3Km1Pf7cimE" role="2Oq$k0">
-                    <ref role="37wK5l" to="p9jd:~RefNodeListHandler.getElementSRole()" resolve="getElementSRole" />
-                  </node>
-                  <node concept="liA8E" id="4glh_DcqNMg" role="2OqNvi">
-                    <ref role="37wK5l" to="c17a:~SNamedElement.getName()" resolve="getName" />
                   </node>
                 </node>
               </node>

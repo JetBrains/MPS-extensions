@@ -11,6 +11,7 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 - com.mbeddr.mpsutil.projectview: Class reloading of project views now works.
 - com.mbeddr.mpsutil.editor.querylist: Query lists now support model checking for non-dynamically generated nodes and `collapse by default` is generated correctly.
+- com.mbeddr.mpsutil.editor.querylist: The element's concept is not automatically forced anymore but is now rather a suggestion.
 - de.slisson.mps.reflection: To fix the compilatation issues, the language is now generated earlier in the generation plan.
 - de.slisson.mps.richtext: The duplicate action that overwrites the MPS action was added back and now duplicating lines should work again.
 

@@ -5,6 +5,7 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -177,7 +178,6 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
-      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.ConceptNodeType" flags="in" index="3THzug" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -653,7 +653,6 @@
         <node concept="3cpWs8" id="C$q8A2yC7M" role="3cqZAp">
           <node concept="3cpWsn" id="C$q8A2yC7N" role="3cpWs9">
             <property role="TrG5h" value="concept" />
-            <node concept="3THzug" id="C$q8A2yC7O" role="1tU5fm" />
             <node concept="2OqwBi" id="C$q8A2yC7P" role="33vP2m">
               <node concept="37vLTw" id="C$q8A2yC7Q" role="2Oq$k0">
                 <ref role="3cqZAo" node="C$q8A2yC7F" resolve="nodeType" />
@@ -661,6 +660,9 @@
               <node concept="3TrEf2" id="C$q8A2yC7R" role="2OqNvi">
                 <ref role="3Tt5mk" to="tp25:g$ehGDh" resolve="concept" />
               </node>
+            </node>
+            <node concept="3Tqbb2" id="6TSlAOGJC9Z" role="1tU5fm">
+              <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
             </node>
           </node>
         </node>
@@ -675,7 +677,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getConceptForInlineComponent" />
-      <ref role="13i0hy" node="Op$R499ptZ" resolve="getConceptForInlineComponent" />
+      <ref role="13i0hy" node="6TSlAOGJCRe" resolve="getConceptForInlineComponent" />
       <node concept="3Tm1VV" id="Op$R499qqW" role="1B3o_S" />
       <node concept="3clFbS" id="Op$R499qqZ" role="3clF47">
         <node concept="3clFbF" id="Op$R499qwp" role="3cqZAp">
@@ -687,7 +689,9 @@
           </node>
         </node>
       </node>
-      <node concept="3THzug" id="Op$R499qr0" role="3clF45" />
+      <node concept="3Tqbb2" id="6TSlAOGJDN8" role="3clF45">
+        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      </node>
     </node>
     <node concept="13hLZK" id="5oklODagIfC" role="13h7CW">
       <node concept="3clFbS" id="5oklODagIfD" role="2VODD2" />
@@ -1021,12 +1025,14 @@
               </node>
             </node>
             <node concept="2qgKlT" id="Op$R499s4G" role="2OqNvi">
-              <ref role="37wK5l" node="Op$R499ptZ" resolve="getConceptForInlineComponent" />
+              <ref role="37wK5l" node="6TSlAOGJCRe" resolve="getConceptForInlineComponent" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3THzug" id="6hPjX46YofF" role="3clF45" />
+      <node concept="3Tqbb2" id="6TSlAOGJHT_" role="3clF45">
+        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      </node>
     </node>
   </node>
   <node concept="13h7C7" id="Op$R494ArD">
@@ -1142,7 +1148,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getConceptForInlineComponent" />
-      <ref role="13i0hy" node="Op$R499ptZ" resolve="getConceptForInlineComponent" />
+      <ref role="13i0hy" node="6TSlAOGJCRe" resolve="getConceptForInlineComponent" />
       <node concept="3Tm1VV" id="Op$R499r2L" role="1B3o_S" />
       <node concept="3clFbS" id="Op$R499r2O" role="3clF47">
         <node concept="3cpWs6" id="Op$R499rlB" role="3cqZAp">
@@ -1154,7 +1160,9 @@
           </node>
         </node>
       </node>
-      <node concept="3THzug" id="Op$R499r2P" role="3clF45" />
+      <node concept="3Tqbb2" id="6TSlAOGJGnt" role="3clF45">
+        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      </node>
     </node>
     <node concept="13hLZK" id="Op$R496zMA" role="13h7CW">
       <node concept="3clFbS" id="Op$R496zMB" role="2VODD2" />
@@ -1165,13 +1173,15 @@
     <node concept="13hLZK" id="Op$R499ptX" role="13h7CW">
       <node concept="3clFbS" id="Op$R499ptY" role="2VODD2" />
     </node>
-    <node concept="13i0hz" id="Op$R499ptZ" role="13h7CS">
+    <node concept="13i0hz" id="6TSlAOGJCRe" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="getConceptForInlineComponent" />
-      <node concept="3Tm1VV" id="Op$R499pu0" role="1B3o_S" />
-      <node concept="3THzug" id="Op$R499q4u" role="3clF45" />
-      <node concept="3clFbS" id="Op$R499pu2" role="3clF47" />
+      <node concept="3Tm1VV" id="6TSlAOGJCRf" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6TSlAOGJCUY" role="3clF45">
+        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      </node>
+      <node concept="3clFbS" id="6TSlAOGJCRh" role="3clF47" />
     </node>
   </node>
   <node concept="13h7C7" id="8dI1zL1C6y">

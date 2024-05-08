@@ -2,13 +2,19 @@
 
 All notable changes to this project are documented in this file.
 
-Format of the log is _loosely_ based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). 
-The project does _not_ follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
+The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
 ## April 2024
 
 ### Fixed
 
+- *com.mbeddr.mpsutil.projectview*: Class reloading of project views now works.
+- *com.mbeddr.mpsutil.editor.querylist*: Query lists now support model checking for non-dynamically generated nodes and collapse by default is generated correctly.
+- *de.slisson.mps.reflection*: To fix the compilation issues, the language is now generated earlier in the generation plan.
+
+### Added
+
+- A new language *de.itemis.mps.changelog* was added to describe *CHANGELOG.md* files. This file is generated with this language.
 - com.mbeddr.mpsutil.projectview: Class reloading of project views now works.
 - com.mbeddr.mpsutil.editor.querylist: Query lists now support model checking for non-dynamically generated nodes and `collapse by default` is generated correctly.
 - com.mbeddr.mpsutil.editor.querylist: The element's concept is not automatically forced anymore but is now rather a suggestion.
@@ -23,11 +29,12 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ### Added
 
-- de.slisson.mps.conditionalEditor: Support for editor components with parameters was added.
-- com.mbeddr.mpsutil.grammarcells: Read-only model accessory cells can now also be used in places where constant cells are supported.
+- *de.slisson.mps.conditionalEditor*: Support for editor components with parameters was added.
+- *com.mbeddr.mpsutil.grammarcells*: Read-only model accessory cells can now also be used in places where constant cells are supported.
 
 ### Fixed
 
+- *com.mbeddr.mpsutil.editor.querylist*: Returning null in the query shows the empty cell again (regression).
 - de.slisson.mps.richtext: Various small issues were fixed (e.g. NullPointerExceptions, usability problems).
 - de.slisson.mps.editor.multiline: Selections are now correctly painted.
 - com.mbeddr.mpsutil.editor.querylist: return null in the query shows the empty cell again (regression).
@@ -54,69 +61,69 @@ The project does _not_ follow Semantic Versioning and the changes are documented
 
 ### Changed
 
-- com.mbeddr.mpsutil.editor.querylist: Dynamic generated nodes (without a model) can now be used in query lists if `read-only` is set to true.
-- The language `de.slisson.mps.structurecheck` was renamed to `de.itemis.mps.structurecheck`.
-- The stubs `com.mbeddr.mpsutil.serializer.xml` were renamed to `de.itemis.mps.utils.serializer.xml`.
-- The language `de.slisson.mps.hacks.xmodelgen` was renamed to `de.itemis.mps.hacks.xmodelgen`.
+- *com.mbeddr.mpsutil.editor.querylist*: Dynamic generated nodes (without a model) can now be used in query lists if read-only is set to true.
+- The language `de.slisson.mps.structurecheck` was renamed to *de.itemis.mps.structurecheck* .
+- The stubs `com.mbeddr.mpsutil.serializer.xml` were renamed to *de.itemis.mps.utils.serializer.xml* .
+- The language `de.slisson.mps.hacks.xmodelgen` was renamed to *de.itemis.mps.hacks.xmodelgen* .
 
 ### Deprecated
 
-- MethodLineDoc is now deprecated and an automatic migration is provided to migrate to `jetbrains.mps.baseLanguage.javadoc`.
+- [MethodLineDoc](http://127.0.0.1:63320/node?ref=63e0e566-5131-447e-90e3-12ea330e1a00%2Fr%3Af5bd2ad9-cd54-4408-b815-07f9f306f074%28com.mbeddr.mpsutil.blutil%2Fcom.mbeddr.mpsutil.blutil.structure%29%2F6451706574539345403) is now deprecated and an automatic migration is provided to migrate to `jetbrains.mps.baseLanguage.javadoc` .
 
 ### Fixed
 
-- de.slisson.mps.editor.multiline.runtime: An issue was fixed where pressing shift+enter didn't enter a new line in the current text but in the next collection in the editor.
+- *de.slisson.mps.editor.multiline.runtime*: An issue was fixed where pressing `shift+enter` didn't enter a new line in the current text but in the next collection in the editor.
 
 ## January 2024
 
 ### Fixed
 
-- com.mbeddr.mpsutil.modellisteners: The newly supported interface listeners are now backward compatible and doesn't require regenerating the listener aspects anymore.
+- *com.mbeddr.mpsutil.modellisteners*: The newly supported interface listeners are now backward compatible and doesn't require regenerating the listener aspects anymore.
 
 ## December 2023
 
 ### Added
 
-- A new language `de.itemis.mps.statistics` was added that adds a new menu `MPS Statistics` to the `Tools`  menu. The containing action writes a file `dependencies.txt` to the root folder. It contains all the used dependencies of the current project. 
-- de.slisson.mps.tables: tables now support a new property `column UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: *false*).
+- A new language *de.itemis.mps.statistics* was added that adds a new menu *MPS Statistics* to the *Tools* menu. The containing action writes a file dependencies.txt to the root folder. It contains all the used dependencies of the current project.
+- *de.slisson.mps.tables* tables now support a new property column UI actions (experimental): This property adds actions to the MPS toolbar to add a new column above/below the current column or to delete the current column. These actions only work for simple tables that are based on rows (default: false).
 
 ### Fixed
 
-- The performance of the language `de.itemis.mps.linenumbers` was improved.
+- The performance of the language *de.itemis.mps.linenumbers* was improved.
 
 ### Changed
 
-- mpsutil.intentions: Intentions available in read-only cells are not available anymore when the annotation showIntentionInReadyOnlyCell is not added.
+- *com.mbeddr.mpsutil.intentions*: Intentions available in read-only cells are not available anymore when the annotation showIntentionInReadyOnlyCell is not added.
 
 ## November 2023
 
 ### Changed
 
-- mpsutil.modellisteners: listeners on interface concepts are now supported.
-- `@NotNull` annotations in the code are now checked at run time (the `javac2` compiler is used).
-- de.itemis.editor.diagram: Edge labels can now be annotated with the attribute editors of the edges. Previously they were floating in the diagram as external boxes. A new flag "use annotations from parent in label" is used to customize the behavior.
+- *com.mbeddr.mpsutil.modellisteners* listeners on interface concepts are now supported.
+- [NotNull](http://127.0.0.1:63320/node?ref=3f233e7f-b8a6-46d2-a57f-795d56775243%2Fjava%3Aorg.jetbrains.annotations%28Annotations%2F%29%2F~NotNull) annotations in the code are now checked at run time (the *javac2* compiler is used).
+- *de.itemis.mps.editor.diagram*: Edge labels can now be annotated with the attribute editors of the edges. Previously they were floating in the diagram as external boxes. A new flag *use annotations from parent in label* is used to customize the behavior.
 
 ### Added
 
-- mpsutil.intentions: a new style attribute `intentions-in-read-only-cell` is now available to allow intentions in read-only cells. Single intentions can also be enabled or disabled in those cells through the intention "Toggle Show Intention In Read-Only Cell Annotation".
-- com.mbeddr.mpsutil.editor.querylist: Default editor cells now support style attributes.
-- de.slisson.mps.tables: tables now support a new property `row UI actions (experimental)`: This property adds actions to the MPS toolbar to add a new row above/below the current row or to delete the current row. These actions only work for simple tables that are based on rows (default: *false*).
+- *com.mbeddr.mpsutil.intentions*: A new style attribute *intentions-in-read-only-cell* is now available to allow intentions in read-only cells. Single intentions can also be enabled or disabled in those cells through the intention *Toggle Show Intention In Read-Only Cell Annotation* *.*
+- *com.mbeddr.mpsutil.editor.querylist*: Default editor cells now support style attributes.
+- *de.slisson.mps.tables*: Tables now support a new property row UI actions (experimental): This property adds actions to the MPS toolbar to add a new row above/below the current row or to delete the current row. These actions only work for simple tables that are based on rows (default: *false* ).
 
 ## October 2023
 
 ### Added
 
-- There is a new dsl called pagination, it provides an editor cell paginate which given an editor cell collection it displays the collection in multiple pages, with swing components to move between pages and show the current page.
+- There is a new DSL called pagination, it provides an editor cell paginate which given an editor cell collection it displays the collection in multiple pages, with swing components to move between pages and show the current page.
 
 ## September 2023
 
 ### Changed
 
-- The grammar cells grammar.wrap cell now checks constraints from the containing node when combined with grammar.rule.
+- The grammar cells *grammar.wrap* cell now checks constraints from the containing node when combined with *grammar.rule.*
 
 ## July 2023
 
 ### Changed
 
-- The auto-completion for a WrapperCell, where the wrapping node is not created yet, shows entries for possible wrapped nodes with the description of the wrapped nodes concept and not the description of the wrapping nodes concept.  
-- The auto-completion for an OptionalCell without a dedicated description shows no description anymore, instead of using the description of the concept which is using the OptionalCell.  
+- The auto-completion for a [WrapperCell](http://127.0.0.1:63320/node?ref=r%3A96165ed2-ef22-48c7-bfe5-8fce083cbabb%28com.mbeddr.mpsutil.grammarcells.structure%29%2F7363578995839435357) where the wrapping node is not created yet, shows entries for possible wrapped nodes with the description of the wrapped nodes concept and not the description of the wrapping nodes concept.
+- The auto-completion for an [OptionalCell](http://127.0.0.1:63320/node?ref=r%3A96165ed2-ef22-48c7-bfe5-8fce083cbabb%28com.mbeddr.mpsutil.grammarcells.structure%29%2F5083944728298846680) without a dedicated description shows no description anymore, instead of using the description of the concept which is using the [OptionalCell](http://127.0.0.1:63320/node?ref=r%3A96165ed2-ef22-48c7-bfe5-8fce083cbabb%28com.mbeddr.mpsutil.grammarcells.structure%29%2F5083944728298846680) .

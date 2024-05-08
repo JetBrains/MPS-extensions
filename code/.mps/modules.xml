@@ -22,6 +22,9 @@
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.itemis.mps.editor.celllayout.sandbox/de.itemis.mps.editor.celllayout.sandbox.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/de.slisson.mps.editor.celllayout.runtime/de.itemis.mps.editor.celllayout.runtime.msd" folder="celllayout" />
       <modulePath path="$PROJECT_DIR$/celllayout/solutions/test.de.itemis.mps.editor.celllayout.runtime/test.de.itemis.mps.editor.celllayout.msd" folder="celllayout" />
+      <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog.sandbox/de.itemis.mps.changelog.sandbox.msd" folder="changelog" />
+      <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog.tests/de.itemis.mps.changelog.tests.msd" folder="changelog" />
+      <modulePath path="$PROJECT_DIR$/changelog/de.itemis.mps.changelog/de.itemis.mps.changelog.mpl" folder="changelog" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.demolang/de.slisson.mps.conditionalEditor.demolang.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor.hints/de.slisson.mps.conditionalEditor.hints.mpl" folder="conditional-editor" />
       <modulePath path="$PROJECT_DIR$/conditional-editor/languages/de.slisson.mps.conditionalEditor/de.slisson.mps.conditionalEditor.mpl" folder="conditional-editor" />
@@ -185,6 +188,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.simple.demo/de.itemis.model.merge.simple.demo.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test.integration/de.itemis.model.merge.test.integration.msd" folder="modelmerger2" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.model.merge.test/de.itemis.model.merge.test.msd" folder="modelmerger2" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.extensions.changelog/de.itemis.mps.extensions.changelog.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/statistics/de.itemis.mps.statistics.mpl" folder="statistics" />
       <modulePath path="$PROJECT_DIR$/structurecheck/languages/de.itemis.mps.structurecheck/de.itemis.mps.structurecheck.mpl" folder="structurecheck" />
       <modulePath path="$PROJECT_DIR$/structurecheck/solutions/de.itemis.mps.structurecheck.runtime/de.itemis.mps.structurecheck.runtime.msd" folder="structurecheck" />

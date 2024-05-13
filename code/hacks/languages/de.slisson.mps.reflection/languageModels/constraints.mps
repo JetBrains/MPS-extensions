@@ -12,7 +12,6 @@
     <import index="fnmy" ref="r:89c0fb70-0977-4113-a076-5906f9d8630f(jetbrains.mps.baseLanguage.scopes)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="oiz3" ref="r:879596e5-224b-4613-97ab-fbcbd7050732(de.slisson.mps.reflection.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -121,12 +120,6 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
-      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
-        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
-      </concept>
-      <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
-        <child id="1145567471833" name="createdType" index="2T96Bj" />
-      </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -139,9 +132,6 @@
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
-      </concept>
-      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
-        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -174,19 +164,6 @@
       <ref role="1N5Vy1" to="oiz3:hqOxapj" resolve="fieldDeclaration" />
       <node concept="3dgokm" id="7moa1g0OIPX" role="1N6uqs">
         <node concept="3clFbS" id="5KX1OsDSYd_" role="2VODD2">
-          <node concept="3clFbF" id="5KX1OsDSYdA" role="3cqZAp">
-            <node concept="2OqwBi" id="5KX1OsDSYdB" role="3clFbG">
-              <node concept="2OqwBi" id="5KX1OsDSYdC" role="2Oq$k0">
-                <node concept="3kakTB" id="5KX1OsDSYdD" role="2Oq$k0" />
-                <node concept="3TrEf2" id="5KX1OsDSYdE" role="2OqNvi">
-                  <ref role="3Tt5mk" to="oiz3:hqOxapj" resolve="fieldDeclaration" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="5KX1OsDSYdF" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
           <node concept="3cpWs8" id="5KX1OsDSYdG" role="3cqZAp">
             <node concept="3cpWsn" id="5KX1OsDSYdH" role="3cpWs9">
               <property role="TrG5h" value="instance" />
@@ -258,21 +235,6 @@
                 </node>
               </node>
               <node concept="3w_OXm" id="5KX1OsDSYe5" role="2OqNvi" />
-            </node>
-          </node>
-          <node concept="3cpWs8" id="5KX1OsDSYe6" role="3cqZAp">
-            <node concept="3cpWsn" id="5KX1OsDSYe7" role="3cpWs9">
-              <property role="TrG5h" value="fields" />
-              <node concept="2I9FWS" id="5KX1OsDSYe8" role="1tU5fm">
-                <ref role="2I9WkF" to="tpee:fz12cDC" resolve="FieldDeclaration" />
-              </node>
-              <node concept="2ShNRf" id="5KX1OsDSYe9" role="33vP2m">
-                <node concept="2T8Vx0" id="5KX1OsDSYea" role="2ShVmc">
-                  <node concept="2I9FWS" id="5KX1OsDSYeb" role="2T96Bj">
-                    <ref role="2I9WkF" to="tpee:fz12cDC" resolve="FieldDeclaration" />
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
           <node concept="3cpWs6" id="5KX1OsDSYec" role="3cqZAp">
@@ -552,7 +514,7 @@
   <node concept="1M2fIO" id="7oXGHkvAOmq">
     <ref role="1M2myG" to="oiz3:7oXGHkvAuQL" resolve="ReflectionStaticMethodCall" />
     <node concept="1N5Pfh" id="hDMFHaZ" role="1Mr941">
-      <ref role="1N5Vy1" to="oiz3:fIYIWN3" resolve="staticMethodDeclaration" />
+      <ref role="1N5Vy1" to="tpee:fIYIWN3" resolve="staticMethodDeclaration" />
       <node concept="3dgokm" id="6QsAWbDI4MF" role="1N6uqs">
         <node concept="3clFbS" id="5KX1OsDSYct" role="2VODD2">
           <node concept="3clFbJ" id="5KX1OsDSYcu" role="3cqZAp">
@@ -595,7 +557,7 @@
                   </node>
                 </node>
                 <node concept="3TrEf2" id="5KX1OsDSYcM" role="2OqNvi">
-                  <ref role="3Tt5mk" to="oiz3:gDPybl6" resolve="classConcept" />
+                  <ref role="3Tt5mk" to="tpee:gDPybl6" resolve="classConcept" />
                 </node>
               </node>
               <node concept="3w_OXm" id="5KX1OsDSYcN" role="2OqNvi" />
@@ -617,7 +579,7 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="5KX1OsDSYcX" role="2OqNvi">
-                    <ref role="3Tt5mk" to="oiz3:gDPybl6" resolve="classConcept" />
+                    <ref role="3Tt5mk" to="tpee:gDPybl6" resolve="classConcept" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="5KX1OsDSYcY" role="2OqNvi">
@@ -697,7 +659,7 @@
                           </node>
                         </node>
                         <node concept="3TrEf2" id="5KX1OsDSYdx" role="2OqNvi">
-                          <ref role="3Tt5mk" to="oiz3:gDPybl6" resolve="classConcept" />
+                          <ref role="3Tt5mk" to="tpee:gDPybl6" resolve="classConcept" />
                         </node>
                       </node>
                       <node concept="2rP1CM" id="5KX1OsDSYdy" role="37wK5m" />
@@ -715,7 +677,7 @@
   <node concept="1M2fIO" id="7oXGHkvDLvC">
     <ref role="1M2myG" to="oiz3:7oXGHkvDI9E" resolve="ReflectionStaticFieldReference" />
     <node concept="1N5Pfh" id="hDMFJC0" role="1Mr941">
-      <ref role="1N5Vy1" to="oiz3:f_2Pw7K" resolve="staticFieldDeclaration" />
+      <ref role="1N5Vy1" to="tpee:f_2Pw7K" resolve="staticFieldDeclaration" />
       <node concept="3dgokm" id="6QsAWbDI4Jv" role="1N6uqs">
         <node concept="3clFbS" id="5KX1OsDSYb$" role="2VODD2">
           <node concept="3cpWs8" id="5KX1OsDSYb_" role="3cqZAp">
@@ -728,7 +690,7 @@
                 <node concept="2OqwBi" id="5KX1OsDSYbD" role="1m5AlR">
                   <node concept="3kakTB" id="5KX1OsDSYbE" role="2Oq$k0" />
                   <node concept="3TrEf2" id="5KX1OsDSYbF" role="2OqNvi">
-                    <ref role="3Tt5mk" to="oiz3:gDPxDYr" resolve="classifier" />
+                    <ref role="3Tt5mk" to="tpee:gDPxDYr" resolve="classifier" />
                   </node>
                 </node>
                 <node concept="chp4Y" id="5KX1OsDSYbG" role="3oSUPX">

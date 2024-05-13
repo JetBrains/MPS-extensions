@@ -84,20 +84,7 @@
   <node concept="1TIwiD" id="7oXGHkvAuQL">
     <property role="TrG5h" value="ReflectionStaticMethodCall" />
     <property role="EcuMT" value="8520162698482806193" />
-    <ref role="1TJDcQ" to="tpee:fz7wK6G" resolve="BaseMethodCall" />
-    <node concept="1TJgyj" id="gDPybl6" role="1TKVEi">
-      <property role="20kJfa" value="classConcept" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="1144433194310" />
-      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
-    </node>
-    <node concept="1TJgyj" id="fIYIWN3" role="1TKVEi">
-      <property role="20kJfa" value="staticMethodDeclaration" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="1081236769987" />
-      <ref role="20ksaX" to="tpee:fz7wK6H" resolve="baseMethodDeclaration" />
-      <ref role="20lvS9" to="tpee:fIYIFWa" resolve="StaticMethodDeclaration" />
-    </node>
+    <ref role="1TJDcQ" to="tpee:fIYIFW9" resolve="StaticMethodCall" />
     <node concept="asaX9" id="6w$Q7Mw_zX7" role="lGtFl">
       <property role="YLQ7P" value="Provisional mechanism to overcome certain limitations in MPS, don't use." />
     </node>
@@ -105,19 +92,7 @@
   <node concept="1TIwiD" id="7oXGHkvDI9E">
     <property role="TrG5h" value="ReflectionStaticFieldReference" />
     <property role="EcuMT" value="8520162698483655274" />
-    <ref role="1TJDcQ" to="tpee:fz7vLUo" resolve="VariableReference" />
-    <node concept="1TJgyj" id="gDPxDYr" role="1TKVEi">
-      <property role="20kJfa" value="classifier" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="IQ2ns" value="1144433057691" />
-      <ref role="20lvS9" to="tpee:g7pOWCK" resolve="Classifier" />
-    </node>
-    <node concept="1TJgyj" id="f_2Pw7K" role="1TKVEi">
-      <property role="20kJfa" value="staticFieldDeclaration" />
-      <property role="IQ2ns" value="1070568178160" />
-      <ref role="20ksaX" to="tpee:fzcqZ_w" resolve="variableDeclaration" />
-      <ref role="20lvS9" to="tpee:f$Wx3kv" resolve="StaticFieldDeclaration" />
-    </node>
+    <ref role="1TJDcQ" to="tpee:f_0M0x6" resolve="StaticFieldReference" />
     <node concept="asaX9" id="6w$Q7Mw_zX4" role="lGtFl">
       <property role="YLQ7P" value="Provisional mechanism to overcome certain limitations in MPS, don't use." />
     </node>

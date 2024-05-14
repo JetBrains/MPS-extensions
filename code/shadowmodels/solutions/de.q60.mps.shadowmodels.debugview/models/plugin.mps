@@ -1035,7 +1035,7 @@
               </node>
             </node>
             <node concept="liA8E" id="7rXsP$3QQV0" role="2OqNvi">
-              <ref role="37wK5l" to="71xd:~BaseTool.openTool(boolean):void" resolve="openTool" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openTool(boolean)" resolve="openTool" />
               <node concept="3clFbT" id="7rXsP$3QQV1" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>

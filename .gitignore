@@ -33,3 +33,5 @@ code/model-api/org.modelix.model.api/lib
 code/dependencies.txt
 .idea/
 *.iml
+
+TEST*.xml

@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="7fae" ref="r:120be759-a4d3-4f3c-b9c0-033221c73671(de.itemis.mps.editor.diagram.demolang.structure)" implicit="true" />
-    <import index="yv60" ref="f:diff_diff_model_0#r:fd84401f-cd0e-49f8-9cba-254f4da8c308(de.itemis.mps.editor.diagram.demolang.typesystem@diff_model_0)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -120,7 +119,7 @@
           <node concept="3cpWs3" id="6I91F6siBD7" role="2MkJ7o">
             <node concept="2OqwBi" id="6I91F6siBIu" role="3uHU7w">
               <node concept="1YBJjd" id="6I91F6siBDH" role="2Oq$k0">
-                <ref role="1YBMHb" to="yv60:6zxgcXkK1ca" resolve="node" />
+                <ref role="1YBMHb" node="6zxgcXkK1ca" resolve="node" />
               </node>
               <node concept="3TrcHB" id="6I91F6siCc0" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -131,7 +130,7 @@
             </node>
           </node>
           <node concept="1YBJjd" id="6zxgcXkK2sI" role="1urrMF">
-            <ref role="1YBMHb" to="yv60:6zxgcXkK1ca" resolve="node" />
+            <ref role="1YBMHb" node="6zxgcXkK1ca" resolve="node" />
           </node>
         </node>
       </node>

@@ -2528,5 +2528,15 @@
       <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5sXqsGQUIOP">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="SPOrECompactionAlgorithm" />
+    <property role="EcuMT" value="6286296976399723829" />
+    <property role="34LRSv" value="shrink tree" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5sXqsGQUIOQ" role="PzmwI">
+      <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
+    </node>
+  </node>
 </model>
 

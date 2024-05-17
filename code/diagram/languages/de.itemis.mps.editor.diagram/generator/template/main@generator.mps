@@ -3162,6 +3162,16 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="5sXqsGQUSsn" role="3acgRq">
+      <ref role="30HIoZ" to="2qld:5sXqsGQUIOP" resolve="SPOrECompactionAlgorithm" />
+      <node concept="gft3U" id="5sXqsGQUSso" role="1lVwrX">
+        <node concept="2ShNRf" id="5sXqsGQUSsp" role="gfFT$">
+          <node concept="1pGfFk" id="5sXqsGQUSsq" role="2ShVmc">
+            <ref role="37wK5l" to="r3rm:5sXqsGQSN2f" resolve="SPOrECompactionLayouter" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="3YGiJOY2YjG" role="3acgRq">
       <ref role="30HIoZ" to="2qld:3YGiJOY1y6Y" resolve="QueryLayoutAlgorithm" />
       <node concept="1Koe21" id="3YGiJOY38$O" role="1lVwrX">

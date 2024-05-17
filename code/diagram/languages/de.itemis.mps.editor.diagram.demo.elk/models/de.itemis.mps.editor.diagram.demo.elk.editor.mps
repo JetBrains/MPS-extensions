@@ -120,6 +120,7 @@
         <reference id="3155126767689025691" name="linkDeclaration" index="aDKIf" />
       </concept>
       <concept id="8180566525128795910" name="de.itemis.mps.editor.diagram.structure.DisconnectedGraphLayoutAlgorithm" flags="ng" index="ehXbJ" />
+      <concept id="8180566525131048001" name="de.itemis.mps.editor.diagram.structure.FixedLayoutAlgorithm" flags="ng" index="ep76C" />
       <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
         <child id="8587703283523592242" name="endpointTo" index="1PN8qh" />
@@ -461,6 +462,26 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="ehXbJ" id="767du_ZOa99" role="35U2g" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="767du_ZWqz1">
+    <property role="3GE5qa" value="fixed" />
+    <ref role="1XX52x" to="xaff:767du_ZWqpf" resolve="FixedTest" />
+    <node concept="3EZMnI" id="767du_ZWqz2" role="2wV5jI">
+      <node concept="2iRkQZ" id="767du_ZWqz3" role="2iSdaV" />
+      <node concept="PMmxH" id="767du_ZWqz4" role="3EZMnx">
+        <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
+      </node>
+      <node concept="3F0ifn" id="767du_ZWqz5" role="3EZMnx" />
+      <node concept="27vDVx" id="767du_ZWqz6" role="3EZMnx">
+        <node concept="aDKH9" id="767du_ZWqz7" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
+        </node>
+        <node concept="aDKH9" id="767du_ZWqz8" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
+        </node>
+        <node concept="ep76C" id="767du_ZWqEu" role="35U2g" />
       </node>
     </node>
   </node>

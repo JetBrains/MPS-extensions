@@ -16,6 +16,7 @@
       <sourceRoot location="lib/org.eclipse.emf.ecore.xmi.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.radial.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.force.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.disco.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -35,6 +36,7 @@
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.radial.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.force.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.disco.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

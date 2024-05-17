@@ -2488,5 +2488,15 @@
       <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
     </node>
   </node>
+  <node concept="1TIwiD" id="767du_ZKes6">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="DisconnectedGraphLayoutAlgorithm" />
+    <property role="34LRSv" value="disconnected graph" />
+    <property role="EcuMT" value="8180566525128795910" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="767du_ZKes7" role="PzmwI">
+      <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
+    </node>
+  </node>
 </model>
 

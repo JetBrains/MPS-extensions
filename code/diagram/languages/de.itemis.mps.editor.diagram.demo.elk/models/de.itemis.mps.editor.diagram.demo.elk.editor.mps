@@ -119,6 +119,7 @@
       <concept id="3155126767689025629" name="de.itemis.mps.editor.diagram.structure.Content_Childs" flags="ng" index="aDKH9">
         <reference id="3155126767689025691" name="linkDeclaration" index="aDKIf" />
       </concept>
+      <concept id="8180566525128795910" name="de.itemis.mps.editor.diagram.structure.DisconnectedGraphLayoutAlgorithm" flags="ng" index="ehXbJ" />
       <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
         <child id="8587703283523592242" name="endpointTo" index="1PN8qh" />
@@ -297,22 +298,22 @@
       <node concept="3F0ifn" id="37WsXDFJXVY" role="3EZMnx" />
       <node concept="3F2HdR" id="37WsXDFJXVZ" role="3EZMnx">
         <ref role="1NtTu8" to="xaff:4PrkOTvmfDo" resolve="nodes" />
-        <node concept="2iRkQZ" id="37WsXDFJXW0" role="2czzBx" />
         <node concept="2w$q5c" id="37WsXDFK0M$" role="78xua">
           <node concept="2aJ2om" id="37WsXDFK0M_" role="2w$qW5">
             <ref role="2$4xQ3" node="37WsXDFK0Ek" resolve="text" />
           </node>
         </node>
+        <node concept="2iRkQZ" id="37WsXDFJXW0" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="37WsXDFJXW1" role="3EZMnx" />
       <node concept="3F2HdR" id="37WsXDFJXW2" role="3EZMnx">
         <ref role="1NtTu8" to="xaff:4PrkOTvmfLW" resolve="edges" />
-        <node concept="2iRkQZ" id="37WsXDFJXW3" role="2czzBx" />
         <node concept="2w$q5c" id="37WsXDFK0K4" role="78xua">
           <node concept="2aJ2om" id="37WsXDFK0K5" role="2w$qW5">
             <ref role="2$4xQ3" node="37WsXDFK0Ek" resolve="text" />
           </node>
         </node>
+        <node concept="2iRkQZ" id="37WsXDFJXW3" role="2czzBx" />
       </node>
     </node>
   </node>
@@ -440,6 +441,26 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="37QGt5" id="5Qzx7Aqxxa5" role="35U2g" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="767du_ZO9Ys">
+    <property role="3GE5qa" value="disco" />
+    <ref role="1XX52x" to="xaff:767du_ZO9Kb" resolve="DisconnectedGraphTest" />
+    <node concept="3EZMnI" id="767du_ZO9Yt" role="2wV5jI">
+      <node concept="2iRkQZ" id="767du_ZO9Yu" role="2iSdaV" />
+      <node concept="PMmxH" id="767du_ZO9Yv" role="3EZMnx">
+        <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
+      </node>
+      <node concept="3F0ifn" id="767du_ZO9Yw" role="3EZMnx" />
+      <node concept="27vDVx" id="767du_ZO9Yx" role="3EZMnx">
+        <node concept="aDKH9" id="767du_ZO9Yy" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
+        </node>
+        <node concept="aDKH9" id="767du_ZO9Yz" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
+        </node>
+        <node concept="ehXbJ" id="767du_ZOa99" role="35U2g" />
       </node>
     </node>
   </node>

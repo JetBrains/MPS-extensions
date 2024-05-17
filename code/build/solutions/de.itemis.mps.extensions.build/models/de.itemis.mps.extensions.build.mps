@@ -5426,6 +5426,138 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6_QKC_EOmdG" role="3bR37C">
+          <node concept="1BurEX" id="6_QKC_EOmdH" role="1SiIV1">
+            <node concept="398BVA" id="6_QKC_EOmdv" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6_QKC_EOmdw" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="6_QKC_EOmdx" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6_QKC_EOmdy" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="6_QKC_EOmdz" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6_QKC_EOmd$" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.radial.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6_QKC_EOmdV" role="3bR37C">
+          <node concept="1BurEX" id="6_QKC_EOmdW" role="1SiIV1">
+            <node concept="398BVA" id="6_QKC_EOmdI" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6_QKC_EOmdJ" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="6_QKC_EOmdK" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6_QKC_EOmdL" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="6_QKC_EOmdM" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6_QKC_EOmdN" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.force.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6_QKC_EOmea" role="3bR37C">
+          <node concept="1BurEX" id="6_QKC_EOmeb" role="1SiIV1">
+            <node concept="398BVA" id="6_QKC_EOmdX" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6_QKC_EOmdY" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="6_QKC_EOmdZ" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6_QKC_EOme0" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="6_QKC_EOme1" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6_QKC_EOme2" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.disco.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6_QKC_EOmep" role="3bR37C">
+          <node concept="1BurEX" id="6_QKC_EOmeq" role="1SiIV1">
+            <node concept="398BVA" id="6_QKC_EOmec" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6_QKC_EOmed" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="6_QKC_EOmee" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6_QKC_EOmef" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="6_QKC_EOmeg" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6_QKC_EOmeh" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.rectpacking.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6_QKC_EOmeC" role="3bR37C">
+          <node concept="1BurEX" id="6_QKC_EOmeD" role="1SiIV1">
+            <node concept="398BVA" id="6_QKC_EOmer" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6_QKC_EOmes" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="6_QKC_EOmet" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6_QKC_EOmeu" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="6_QKC_EOmev" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6_QKC_EOmew" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.spore.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6_QKC_EOmeR" role="3bR37C">
+          <node concept="1BurEX" id="6_QKC_EOmeS" role="1SiIV1">
+            <node concept="398BVA" id="6_QKC_EOmeE" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6_QKC_EOmeF" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="6_QKC_EOmeG" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6_QKC_EOmeH" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="6_QKC_EOmeI" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="6_QKC_EOmeJ" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.topdownpacking.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6wEeo$QJAsB" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -13923,11 +14055,6 @@
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="52ZF9D3h0uT" role="3bR37C">
-          <node concept="1Busua" id="52ZF9D3h0uU" role="1SiIV1">
-            <ref role="1Busuk" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
           </node>
         </node>
         <node concept="1SiIV0" id="3AI_UIpOEou" role="3bR37C">

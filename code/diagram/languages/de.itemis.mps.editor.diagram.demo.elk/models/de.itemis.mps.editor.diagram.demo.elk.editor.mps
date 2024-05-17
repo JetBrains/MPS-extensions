@@ -121,6 +121,7 @@
       </concept>
       <concept id="8180566525128795910" name="de.itemis.mps.editor.diagram.structure.DisconnectedGraphLayoutAlgorithm" flags="ng" index="ehXbJ" />
       <concept id="8180566525131048001" name="de.itemis.mps.editor.diagram.structure.FixedLayoutAlgorithm" flags="ng" index="ep76C" />
+      <concept id="8180566525132050120" name="de.itemis.mps.editor.diagram.structure.RandomLayoutAlgorithm" flags="ng" index="etrGx" />
       <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
         <child id="8587703283523592242" name="endpointTo" index="1PN8qh" />
@@ -482,6 +483,26 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="ep76C" id="767du_ZWqEu" role="35U2g" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="767duA00cs$">
+    <property role="3GE5qa" value="random" />
+    <ref role="1XX52x" to="xaff:767duA00ck0" resolve="RandomTest" />
+    <node concept="3EZMnI" id="767duA00cs_" role="2wV5jI">
+      <node concept="2iRkQZ" id="767duA00csA" role="2iSdaV" />
+      <node concept="PMmxH" id="767duA00csB" role="3EZMnx">
+        <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
+      </node>
+      <node concept="3F0ifn" id="767duA00csC" role="3EZMnx" />
+      <node concept="27vDVx" id="767duA00csD" role="3EZMnx">
+        <node concept="aDKH9" id="767duA00csE" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
+        </node>
+        <node concept="aDKH9" id="767duA00csF" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
+        </node>
+        <node concept="etrGx" id="767duA00czd" role="35U2g" />
       </node>
     </node>
   </node>

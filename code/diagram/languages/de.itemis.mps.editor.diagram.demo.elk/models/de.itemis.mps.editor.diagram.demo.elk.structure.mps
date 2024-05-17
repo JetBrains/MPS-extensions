@@ -199,5 +199,15 @@
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5sXqsGR3h0a">
+    <property role="EcuMT" value="6286296976401960970" />
+    <property role="TrG5h" value="NodeOverlapRemovalTest" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="sporeOverlap" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5sXqsGR3h0b" role="PzmwI">
+      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
+    </node>
+  </node>
 </model>
 

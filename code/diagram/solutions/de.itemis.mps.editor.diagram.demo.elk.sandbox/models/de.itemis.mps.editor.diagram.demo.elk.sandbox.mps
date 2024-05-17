@@ -26,6 +26,7 @@
         <child id="5574140559873342588" name="edges" index="i0UWM" />
       </concept>
       <concept id="3601881183937359167" name="de.itemis.mps.editor.diagram.demo.elk.structure.RadialTest" flags="ng" index="1qgTV_" />
+      <concept id="6286296976401960970" name="de.itemis.mps.editor.diagram.demo.elk.structure.NodeOverlapRemovalTest" flags="ng" index="1wc7B1" />
       <concept id="6286296976400790309" name="de.itemis.mps.editor.diagram.demo.elk.structure.ShrinkingTreeTest" flags="ng" index="1xL_FI" />
       <concept id="8180566525132981504" name="de.itemis.mps.editor.diagram.demo.elk.structure.RandomTest" flags="ng" index="3LxZ3D" />
       <concept id="5257545360092388142" name="de.itemis.mps.editor.diagram.demo.elk.structure.RectanglePackingTest" flags="ng" index="1Metq8" />
@@ -2128,6 +2129,59 @@
         <node concept="gqqVs" id="5sXqsGQZCLs" role="37mO4d">
           <property role="gqqTZ" value="58.0" />
           <property role="gqqTW" value="122.07358900638971" />
+          <property role="gqqTX" value="30.0" />
+          <property role="gqqTy" value="33.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1wc7B1" id="5sXqsGR3zn8">
+    <property role="TrG5h" value="Node Overlap Removal" />
+    <property role="3GE5qa" value="sporeOverlap" />
+    <node concept="i0U1m" id="5sXqsGR3zni" role="i0UWM">
+      <ref role="i0Utg" node="5sXqsGR3zn9" resolve="1" />
+      <ref role="i0Ul0" node="5sXqsGR3znb" resolve="2" />
+    </node>
+    <node concept="i0U1m" id="5sXqsGR3znk" role="i0UWM">
+      <ref role="i0Utg" node="5sXqsGR3znb" resolve="2" />
+      <ref role="i0Ul0" node="5sXqsGR3zne" resolve="3" />
+    </node>
+    <node concept="i0VK$" id="5sXqsGR3zn9" role="i0U$m">
+      <property role="TrG5h" value="1" />
+    </node>
+    <node concept="i0VK$" id="5sXqsGR3znb" role="i0U$m">
+      <property role="TrG5h" value="2" />
+    </node>
+    <node concept="i0VK$" id="5sXqsGR3zne" role="i0U$m">
+      <property role="TrG5h" value="3" />
+    </node>
+    <node concept="37mRI7" id="5sXqsGR3zno" role="lGtFl">
+      <node concept="37mRIm" id="5sXqsGR3znp" role="37mRID">
+        <property role="37mO49" value="6286296976402036169" />
+        <node concept="gqqVs" id="5sXqsGR3znn" role="37mO4d">
+          <property role="gqqTZ" value="8.0" />
+          <property role="gqqTW" value="8.0" />
+          <property role="gqqTX" value="30.0" />
+          <property role="gqqTy" value="33.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="5sXqsGR3znr" role="37mRID">
+        <property role="37mO49" value="6286296976402036171" />
+        <node concept="gqqVs" id="5sXqsGR3znq" role="37mO4d">
+          <property role="gqqTZ" value="57.46666666666667" />
+          <property role="gqqTW" value="61.0" />
+          <property role="gqqTX" value="30.0" />
+          <property role="gqqTy" value="33.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="5sXqsGR3znt" role="37mRID">
+        <property role="37mO49" value="6286296976402036174" />
+        <node concept="gqqVs" id="5sXqsGR3zns" role="37mO4d">
+          <property role="gqqTZ" value="107.46666666666667" />
+          <property role="gqqTW" value="61.0" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />

@@ -113,7 +113,7 @@
     <property role="EcuMT" value="3601881183937359167" />
     <property role="TrG5h" value="RadialTest" />
     <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="layered" />
+    <property role="3GE5qa" value="radial" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="37WsXDFJYP1" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />

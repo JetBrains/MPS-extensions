@@ -2458,5 +2458,15 @@
     <property role="34LRSv" value="no shadow" />
     <ref role="1TJDcQ" node="6uo2fN6xziV" resolve="Function_DrawShadow" />
   </node>
+  <node concept="1TIwiD" id="37WsXDFGho9">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="RadialLayoutAlgorithm" />
+    <property role="34LRSv" value="radial" />
+    <property role="EcuMT" value="3601881183936386569" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="37WsXDFGhoa" role="PzmwI">
+      <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
+    </node>
+  </node>
 </model>
 

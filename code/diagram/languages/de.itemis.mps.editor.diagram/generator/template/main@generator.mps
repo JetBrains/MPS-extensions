@@ -3092,6 +3092,16 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="37WsXDFGijY" role="3acgRq">
+      <ref role="30HIoZ" to="2qld:37WsXDFGho9" resolve="RadialLayoutAlgorithm" />
+      <node concept="gft3U" id="37WsXDFGijZ" role="1lVwrX">
+        <node concept="2ShNRf" id="37WsXDFGik0" role="gfFT$">
+          <node concept="1pGfFk" id="37WsXDFGik1" role="2ShVmc">
+            <ref role="37wK5l" to="r3rm:28wLLJb$obL" resolve="RadialLayouter" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="3YGiJOY2YjG" role="3acgRq">
       <ref role="30HIoZ" to="2qld:3YGiJOY1y6Y" resolve="QueryLayoutAlgorithm" />
       <node concept="1Koe21" id="3YGiJOY38$O" role="1lVwrX">

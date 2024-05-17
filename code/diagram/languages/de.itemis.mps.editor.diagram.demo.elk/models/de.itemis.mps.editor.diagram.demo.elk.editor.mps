@@ -135,6 +135,7 @@
       </concept>
       <concept id="6237710625713831199" name="de.itemis.mps.editor.diagram.structure.CellModel_DiagramConnector" flags="ng" index="2ZMJ7s" />
       <concept id="6747382324544750332" name="de.itemis.mps.editor.diagram.structure.ForceLayoutAlgorithm" flags="ng" index="37BGq5" />
+      <concept id="6747382324548682556" name="de.itemis.mps.editor.diagram.structure.BoxLayoutAlgorithm" flags="ng" index="37QGt5" />
       <concept id="3601881183936386569" name="de.itemis.mps.editor.diagram.structure.RadialLayoutAlgorithm" flags="ng" index="1qjmnj" />
       <concept id="8587703283519920118" name="de.itemis.mps.editor.diagram.structure.ThisNodeExpression" flags="ng" index="1Pxb5l" />
       <concept id="8587703283523590697" name="de.itemis.mps.editor.diagram.structure.ConnectionEndpoint" flags="ng" index="1PNbMa">
@@ -419,6 +420,26 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="3fe8g" id="5Qzx7AqrMg2" role="35U2g" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5Qzx7Aqxx3s">
+    <property role="3GE5qa" value="box" />
+    <ref role="1XX52x" to="xaff:5Qzx7AqxwW6" resolve="BoxTest" />
+    <node concept="3EZMnI" id="5Qzx7Aqxx3t" role="2wV5jI">
+      <node concept="2iRkQZ" id="5Qzx7Aqxx3u" role="2iSdaV" />
+      <node concept="PMmxH" id="5Qzx7Aqxx3v" role="3EZMnx">
+        <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
+      </node>
+      <node concept="3F0ifn" id="5Qzx7Aqxx3w" role="3EZMnx" />
+      <node concept="27vDVx" id="5Qzx7Aqxx3x" role="3EZMnx">
+        <node concept="aDKH9" id="5Qzx7Aqxx3y" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
+        </node>
+        <node concept="aDKH9" id="5Qzx7Aqxx3z" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
+        </node>
+        <node concept="37QGt5" id="5Qzx7Aqxxa5" role="35U2g" />
       </node>
     </node>
   </node>

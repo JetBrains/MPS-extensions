@@ -3112,6 +3112,16 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="5Qzx7Aqut_1" role="3acgRq">
+      <ref role="30HIoZ" to="2qld:5Qzx7AqukcW" resolve="BoxLayoutAlgorithm" />
+      <node concept="gft3U" id="5Qzx7Aqut_2" role="1lVwrX">
+        <node concept="2ShNRf" id="5Qzx7Aqut_3" role="gfFT$">
+          <node concept="1pGfFk" id="5Qzx7Aqut_4" role="2ShVmc">
+            <ref role="37wK5l" to="r3rm:5Qzx7AquiCj" resolve="BoxLayouter" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="3YGiJOY2YjG" role="3acgRq">
       <ref role="30HIoZ" to="2qld:3YGiJOY1y6Y" resolve="QueryLayoutAlgorithm" />
       <node concept="1Koe21" id="3YGiJOY38$O" role="1lVwrX">

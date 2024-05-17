@@ -196,6 +196,9 @@ dependencies {
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.spore:$elkVersion") {
         transitive = false
     }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion") {
+        transitive = false
+    }
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion") {
         transitive = false
     }

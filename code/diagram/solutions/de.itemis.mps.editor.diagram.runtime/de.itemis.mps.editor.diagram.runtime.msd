@@ -19,9 +19,7 @@
       <sourceRoot location="lib/org.eclipse.elk.alg.disco.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.rectpacking.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.spore.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/lib" type="java_classes">
-      <sourceRoot location="org.eclipse.elk.alg.spore.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.topdownpacking.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -44,6 +42,7 @@
     <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.disco.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.rectpacking.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.spore.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.topdownpacking.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

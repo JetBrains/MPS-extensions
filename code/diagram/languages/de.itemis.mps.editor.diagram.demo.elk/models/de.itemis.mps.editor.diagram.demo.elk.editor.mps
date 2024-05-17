@@ -113,6 +113,7 @@
       <concept id="6554619383001456740" name="de.itemis.mps.editor.diagram.structure.BoxEndpointTarget" flags="ng" index="23hSZX">
         <child id="6554619383001456819" name="targetId" index="23hSWE" />
       </concept>
+      <concept id="7599475316691696111" name="de.itemis.mps.editor.diagram.structure.TopDownLayoutAlgorithm" flags="ng" index="3HNHA" />
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
       </concept>
@@ -587,6 +588,26 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="1wcM3y" id="5sXqsGR79Cx" role="35U2g" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6_QKC_ENXXO">
+    <property role="3GE5qa" value="topdownpacking" />
+    <ref role="1XX52x" to="xaff:6_QKC_ENX$b" resolve="TopDownPackingTest" />
+    <node concept="3EZMnI" id="6_QKC_ENXXP" role="2wV5jI">
+      <node concept="2iRkQZ" id="6_QKC_ENXXQ" role="2iSdaV" />
+      <node concept="PMmxH" id="6_QKC_ENXXR" role="3EZMnx">
+        <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
+      </node>
+      <node concept="3F0ifn" id="6_QKC_ENXXS" role="3EZMnx" />
+      <node concept="27vDVx" id="6_QKC_ENXXT" role="3EZMnx">
+        <node concept="aDKH9" id="6_QKC_ENXXU" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
+        </node>
+        <node concept="aDKH9" id="6_QKC_ENXXV" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
+        </node>
+        <node concept="3HNHA" id="6_QKC_ENYa9" role="35U2g" />
       </node>
     </node>
   </node>

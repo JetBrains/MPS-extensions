@@ -3192,6 +3192,16 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="6_QKC_EKE0O" role="3acgRq">
+      <ref role="30HIoZ" to="2qld:6_QKC_EKvBJ" resolve="TopDownLayoutAlgorithm" />
+      <node concept="gft3U" id="6_QKC_EKE0P" role="1lVwrX">
+        <node concept="2ShNRf" id="6_QKC_EKE0Q" role="gfFT$">
+          <node concept="1pGfFk" id="6_QKC_EKE0R" role="2ShVmc">
+            <ref role="37wK5l" to="r3rm:6_QKC_EIxKS" resolve="TopDownPackingLayouter" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="3YGiJOY2YjG" role="3acgRq">
       <ref role="30HIoZ" to="2qld:3YGiJOY1y6Y" resolve="QueryLayoutAlgorithm" />
       <node concept="1Koe21" id="3YGiJOY38$O" role="1lVwrX">

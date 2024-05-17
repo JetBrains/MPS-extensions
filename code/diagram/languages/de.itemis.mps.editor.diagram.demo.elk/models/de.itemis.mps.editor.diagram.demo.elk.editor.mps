@@ -140,6 +140,7 @@
       <concept id="6747382324544750332" name="de.itemis.mps.editor.diagram.structure.ForceLayoutAlgorithm" flags="ng" index="37BGq5" />
       <concept id="6747382324548682556" name="de.itemis.mps.editor.diagram.structure.BoxLayoutAlgorithm" flags="ng" index="37QGt5" />
       <concept id="3601881183936386569" name="de.itemis.mps.editor.diagram.structure.RadialLayoutAlgorithm" flags="ng" index="1qjmnj" />
+      <concept id="5257545360091622509" name="de.itemis.mps.editor.diagram.structure.RectanglePackingLayoutAlgorithm" flags="ng" index="1Mdi7b" />
       <concept id="8587703283519920118" name="de.itemis.mps.editor.diagram.structure.ThisNodeExpression" flags="ng" index="1Pxb5l" />
       <concept id="8587703283523590697" name="de.itemis.mps.editor.diagram.structure.ConnectionEndpoint" flags="ng" index="1PNbMa">
         <child id="9064581101900868073" name="target" index="ljJml" />
@@ -503,6 +504,26 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="etrGx" id="767duA00czd" role="35U2g" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4zQzqoUNPU$">
+    <property role="3GE5qa" value="rectpacking" />
+    <ref role="1XX52x" to="xaff:4zQzqoUNPGI" resolve="RectanglePackingTest" />
+    <node concept="3EZMnI" id="4zQzqoUNPU_" role="2wV5jI">
+      <node concept="2iRkQZ" id="4zQzqoUNPUA" role="2iSdaV" />
+      <node concept="PMmxH" id="4zQzqoUNPUB" role="3EZMnx">
+        <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
+      </node>
+      <node concept="3F0ifn" id="4zQzqoUNPUC" role="3EZMnx" />
+      <node concept="27vDVx" id="4zQzqoUNPUD" role="3EZMnx">
+        <node concept="aDKH9" id="4zQzqoUNPUE" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
+        </node>
+        <node concept="aDKH9" id="4zQzqoUNPUF" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
+        </node>
+        <node concept="1Mdi7b" id="4zQzqoUNQ2r" role="35U2g" />
       </node>
     </node>
   </node>

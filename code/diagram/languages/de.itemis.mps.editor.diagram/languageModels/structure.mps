@@ -2518,5 +2518,15 @@
       <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4zQzqoUKULH">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="RectanglePackingLayoutAlgorithm" />
+    <property role="34LRSv" value="rectangle packing" />
+    <property role="EcuMT" value="5257545360091622509" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4zQzqoUKULI" role="PzmwI">
+      <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
+    </node>
+  </node>
 </model>
 

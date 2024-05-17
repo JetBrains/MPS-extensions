@@ -17,6 +17,7 @@
       <sourceRoot location="lib/org.eclipse.elk.alg.radial.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.force.jar" />
       <sourceRoot location="lib/org.eclipse.elk.alg.disco.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.rectpacking.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -37,6 +38,7 @@
     <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.radial.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.force.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.disco.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.rectpacking.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

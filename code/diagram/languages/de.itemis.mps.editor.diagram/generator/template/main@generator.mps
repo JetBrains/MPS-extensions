@@ -3152,6 +3152,16 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="4zQzqoUOpbU" role="3acgRq">
+      <ref role="30HIoZ" to="2qld:4zQzqoUKULH" resolve="RectanglePackingLayoutAlgorithm" />
+      <node concept="gft3U" id="4zQzqoUOpbV" role="1lVwrX">
+        <node concept="2ShNRf" id="4zQzqoUOpbW" role="gfFT$">
+          <node concept="1pGfFk" id="4zQzqoUOpbX" role="2ShVmc">
+            <ref role="37wK5l" to="r3rm:4zQzqoUIXjy" resolve="RectanglePackingLayouter" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="3YGiJOY2YjG" role="3acgRq">
       <ref role="30HIoZ" to="2qld:3YGiJOY1y6Y" resolve="QueryLayoutAlgorithm" />
       <node concept="1Koe21" id="3YGiJOY38$O" role="1lVwrX">

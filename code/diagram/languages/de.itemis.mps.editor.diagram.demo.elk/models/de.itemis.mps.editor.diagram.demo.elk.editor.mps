@@ -109,6 +109,7 @@
     <language id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram">
       <concept id="4588124571911604221" name="de.itemis.mps.editor.diagram.structure.ContextNodeParameter" flags="ng" index="1D0O0" />
       <concept id="4588124571911463358" name="de.itemis.mps.editor.diagram.structure.QueryLayoutAlgorithm" flags="ig" index="1EAH3" />
+      <concept id="8433227566817752538" name="de.itemis.mps.editor.diagram.structure.TreeLayoutAlgorithm" flags="ng" index="3fe8g" />
       <concept id="6554619383001456740" name="de.itemis.mps.editor.diagram.structure.BoxEndpointTarget" flags="ng" index="23hSZX">
         <child id="6554619383001456819" name="targetId" index="23hSWE" />
       </concept>
@@ -398,6 +399,26 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="37BGq5" id="5Qzx7Aql3Gl" role="35U2g" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5Qzx7Aqljcc">
+    <property role="3GE5qa" value="tree" />
+    <ref role="1XX52x" to="xaff:5Qzx7Aqlj2q" resolve="TreeTest" />
+    <node concept="3EZMnI" id="5Qzx7Aqljcd" role="2wV5jI">
+      <node concept="2iRkQZ" id="5Qzx7Aqljce" role="2iSdaV" />
+      <node concept="PMmxH" id="5Qzx7Aqljcf" role="3EZMnx">
+        <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
+      </node>
+      <node concept="3F0ifn" id="5Qzx7AqodW5" role="3EZMnx" />
+      <node concept="27vDVx" id="5Qzx7Aqljch" role="3EZMnx">
+        <node concept="aDKH9" id="5Qzx7Aqljci" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
+        </node>
+        <node concept="aDKH9" id="5Qzx7Aqljcj" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
+        </node>
+        <node concept="3fe8g" id="5Qzx7AqrMg2" role="35U2g" />
       </node>
     </node>
   </node>

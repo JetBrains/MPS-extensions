@@ -129,5 +129,15 @@
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5Qzx7Aqlj2q">
+    <property role="EcuMT" value="6747382324546318490" />
+    <property role="TrG5h" value="TreeTest" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="tree" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5Qzx7Aqlj2r" role="PzmwI">
+      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
+    </node>
+  </node>
 </model>
 

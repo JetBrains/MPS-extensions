@@ -140,6 +140,7 @@
       <concept id="6747382324544750332" name="de.itemis.mps.editor.diagram.structure.ForceLayoutAlgorithm" flags="ng" index="37BGq5" />
       <concept id="6747382324548682556" name="de.itemis.mps.editor.diagram.structure.BoxLayoutAlgorithm" flags="ng" index="37QGt5" />
       <concept id="3601881183936386569" name="de.itemis.mps.editor.diagram.structure.RadialLayoutAlgorithm" flags="ng" index="1qjmnj" />
+      <concept id="6286296976402041129" name="de.itemis.mps.editor.diagram.structure.StressLayoutAlgorithm" flags="ng" index="1wcM3y" />
       <concept id="6286296976401013503" name="de.itemis.mps.editor.diagram.structure.SPOrEOverlapRemovalAlgorithm" flags="ng" index="1xKZcO" />
       <concept id="6286296976399723829" name="de.itemis.mps.editor.diagram.structure.SPOrECompactionAlgorithm" flags="ng" index="1xPSjY" />
       <concept id="5257545360091622509" name="de.itemis.mps.editor.diagram.structure.RectanglePackingLayoutAlgorithm" flags="ng" index="1Mdi7b" />
@@ -566,6 +567,26 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="1xKZcO" id="5sXqsGR3hCc" role="35U2g" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5sXqsGR79x4">
+    <property role="3GE5qa" value="force" />
+    <ref role="1XX52x" to="xaff:5sXqsGR79mu" resolve="StressTest" />
+    <node concept="3EZMnI" id="5sXqsGR79x5" role="2wV5jI">
+      <node concept="2iRkQZ" id="5sXqsGR79x6" role="2iSdaV" />
+      <node concept="PMmxH" id="5sXqsGR79x7" role="3EZMnx">
+        <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
+      </node>
+      <node concept="3F0ifn" id="5sXqsGR79x8" role="3EZMnx" />
+      <node concept="27vDVx" id="5sXqsGR79x9" role="3EZMnx">
+        <node concept="aDKH9" id="5sXqsGR79xa" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
+        </node>
+        <node concept="aDKH9" id="5sXqsGR79xb" role="aCds2">
+          <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
+        </node>
+        <node concept="1wcM3y" id="5sXqsGR79Cx" role="35U2g" />
       </node>
     </node>
   </node>

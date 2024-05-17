@@ -3182,6 +3182,16 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="5sXqsGR3HSS" role="3acgRq">
+      <ref role="30HIoZ" to="2qld:5sXqsGR3$$D" resolve="StressLayoutAlgorithm" />
+      <node concept="gft3U" id="5sXqsGR3HST" role="1lVwrX">
+        <node concept="2ShNRf" id="5sXqsGR3HSU" role="gfFT$">
+          <node concept="1pGfFk" id="5sXqsGR3HSV" role="2ShVmc">
+            <ref role="37wK5l" to="r3rm:5sXqsGR3zDn" resolve="StressLayouter" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3aamgX" id="3YGiJOY2YjG" role="3acgRq">
       <ref role="30HIoZ" to="2qld:3YGiJOY1y6Y" resolve="QueryLayoutAlgorithm" />
       <node concept="1Koe21" id="3YGiJOY38$O" role="1lVwrX">

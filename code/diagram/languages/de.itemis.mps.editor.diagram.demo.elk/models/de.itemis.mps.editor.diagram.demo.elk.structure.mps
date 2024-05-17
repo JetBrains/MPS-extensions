@@ -209,5 +209,15 @@
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5sXqsGR79mu">
+    <property role="EcuMT" value="6286296976402978206" />
+    <property role="TrG5h" value="StressTest" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="force" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5sXqsGR79mv" role="PzmwI">
+      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
+    </node>
+  </node>
 </model>
 

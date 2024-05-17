@@ -2548,5 +2548,15 @@
       <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5sXqsGR3$$D">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="TrG5h" value="StressLayoutAlgorithm" />
+    <property role="34LRSv" value="stress" />
+    <property role="EcuMT" value="6286296976402041129" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5sXqsGR3$$E" role="PzmwI">
+      <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
+    </node>
+  </node>
 </model>
 

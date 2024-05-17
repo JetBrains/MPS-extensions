@@ -5719,5 +5719,18 @@
       <ref role="1NtTu8" to="2qld:1MAkSr55XtW" resolve="config" />
     </node>
   </node>
+  <node concept="24kQdi" id="5sXqsGR3$K3">
+    <property role="3GE5qa" value="layoutAlgorithm" />
+    <ref role="1XX52x" to="2qld:5sXqsGR3$$D" resolve="StressLayoutAlgorithm" />
+    <node concept="3EZMnI" id="5sXqsGR3$K4" role="2wV5jI">
+      <node concept="PMmxH" id="5sXqsGR3$K5" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="l2Vlx" id="5sXqsGR3$K6" role="2iSdaV" />
+    </node>
+    <node concept="3F1sOY" id="5sXqsGR3$K7" role="6VMZX">
+      <ref role="1NtTu8" to="2qld:1MAkSr55XtW" resolve="config" />
+    </node>
+  </node>
 </model>
 

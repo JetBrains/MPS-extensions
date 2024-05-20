@@ -32,7 +32,6 @@
     <import index="mmaq" ref="f647e48e-4568-4f4c-b48a-1546492c6a2e/java:org.jdom(org.jdom/)" />
     <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" />
     <import index="4o98" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.core.platform(MPS.Core/)" />
-    <import index="mmar" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:org.jdom(MPS.Core/)" implicit="true" />
     <import index="9ti4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.extensions(MPS.IDEA/)" implicit="true" />
     <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" implicit="true" />
   </imports>
@@ -6484,11 +6483,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="4jHuzb0CQxg" role="3cqZAp">
-                  <node concept="1rXfSq" id="4jHuzb0CQxe" role="3clFbG">
-                    <ref role="37wK5l" node="VPgi8egh6x" resolve="dispose" />
-                  </node>
-                </node>
                 <node concept="3cpWs6" id="4jHuzb0Dm$g" role="3cqZAp" />
               </node>
               <node concept="17R0WA" id="4jHuzb0CQ$R" role="3clFbw">
@@ -6535,11 +6529,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7eKnO66oBx2" role="3cqZAp">
-          <node concept="1rXfSq" id="7eKnO66oBx0" role="3clFbG">
-            <ref role="37wK5l" node="7eKnO66ousy" resolve="syncViews" />
           </node>
         </node>
       </node>
@@ -6978,7 +6967,7 @@
           <node concept="3cpWsn" id="5ecqeSaHcBp" role="3cpWs9">
             <property role="TrG5h" value="paneState" />
             <node concept="3uibUv" id="5ecqeSaHcAX" role="1tU5fm">
-              <ref role="3uigEE" to="mmar:~Element" resolve="Element" />
+              <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
             </node>
             <node concept="2OqwBi" id="5ecqeSaHcBq" role="33vP2m">
               <node concept="2OqwBi" id="5ecqeSaHcBr" role="2Oq$k0">

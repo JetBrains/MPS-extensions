@@ -120,6 +120,11 @@
       <property role="IQ2nx" value="6240706158490734113" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="T_6DrmCUS2" role="1TKVEl">
+      <property role="IQ2nx" value="1037264524327235074" />
+      <property role="TrG5h" value="disableModelChecking" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="5oklODae9g3" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="query" />
@@ -197,6 +202,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="collapseByDefaultCondition" />
       <property role="IQ2ns" value="6240706158490734121" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="T_6DrmCTj$" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="disableModelCheckingCondition" />
+      <property role="IQ2ns" value="1037264524327228644" />
       <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
     <node concept="1TJgyj" id="h4APPx9" role="1TKVEi">

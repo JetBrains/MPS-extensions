@@ -13,6 +13,10 @@ The querylist cell allows displaying arbitrary nodes in the editor.
 - **insert new**: a function that's called when the insert action is invoked.
 - **delete element**: a function that's called when the delete/backspace action is invoked
 - **substitute info**: a custom completion menu entry
+- **uses braces**: use braces around the collection
+- **uses folding**: use folding provided by the collection cell
+- **collapse by default**: a function that decided if the cell should be collapsed by default
+- **disable model checking**: don't show model check errors
 
 The editor is set to readonly by default. The language supports nodes that can be edited but be aware that you might
 run into issues when the same node is shown multiple times in the same editor.

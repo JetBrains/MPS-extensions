@@ -2182,7 +2182,7 @@
   </node>
   <node concept="25R3W" id="7WTFIQIcYqd">
     <property role="TrG5h" value="LayoutDirection" />
-    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
     <property role="3F6X1D" value="7623784619795245496" />
     <ref role="1H5jkz" node="7WTFIQIcYqf" resolve="RIGHT" />
     <node concept="2JgGob" id="7WTFIQIcYqe" role="lGtFl">
@@ -2358,7 +2358,7 @@
   </node>
   <node concept="25R3W" id="64PP31wF2qp">
     <property role="3F6X1D" value="7004738099690088089" />
-    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
     <property role="TrG5h" value="HierarchyHandling" />
     <ref role="1H5jkz" node="64PP31wF2sd" resolve="SEPARATE_CHILDREN" />
     <node concept="25R33" id="64PP31wF2sd" role="25R1y">
@@ -2372,7 +2372,7 @@
   </node>
   <node concept="1TIwiD" id="1MAkSr55XtV">
     <property role="EcuMT" value="2064429317493348219" />
-    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
     <property role="TrG5h" value="DiagramLayoutConfig" />
     <property role="34LRSv" value="base config" />
     <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
@@ -2389,7 +2389,7 @@
   </node>
   <node concept="1TIwiD" id="2T42Bz2wQRJ">
     <property role="EcuMT" value="3333801137936756207" />
-    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
     <property role="TrG5h" value="LayeredLayoutConfig" />
     <property role="34LRSv" value="layered layout config" />
     <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />

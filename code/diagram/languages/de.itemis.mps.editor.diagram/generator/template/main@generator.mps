@@ -15534,6 +15534,7 @@
   </node>
   <node concept="13MO4I" id="1MAkSr5cr4o">
     <property role="TrG5h" value="case_DiagramLayoutConfig" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
     <ref role="3gUMe" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
     <node concept="3clFbS" id="1MAkSr5cruR" role="13RCb5">
       <node concept="3cpWs8" id="2C8x_a322xt" role="3cqZAp">
@@ -15631,6 +15632,7 @@
   </node>
   <node concept="13MO4I" id="2T42Bz2yq$5">
     <property role="TrG5h" value="case_LayeredLayoutConfig" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
     <ref role="3gUMe" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
     <node concept="3clFbS" id="2T42Bz2yqW8" role="13RCb5">
       <node concept="3cpWs8" id="2T42Bz2yqWa" role="3cqZAp">

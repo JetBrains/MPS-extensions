@@ -465,7 +465,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="2T42Bz2CwJ0">
-    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
     <ref role="1M2myG" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
     <node concept="9S07l" id="2T42Bz2CwJX" role="9Vyp8">
       <node concept="3clFbS" id="2T42Bz2CwJY" role="2VODD2">

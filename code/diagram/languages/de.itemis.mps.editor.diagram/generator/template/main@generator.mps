@@ -14508,6 +14508,13 @@
         <ref role="v9R2y" node="56jSwh$TeLX" resolve="case_RadialLayoutConfig" />
       </node>
     </node>
+    <node concept="3aamgX" id="qwNnoDFRkQ" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="2qld:qwNnoDFt09" resolve="RandomLayoutConfig" />
+      <node concept="j$656" id="qwNnoDFRkR" role="1lVwrX">
+        <ref role="v9R2y" node="qwNnoDFNri" resolve="case_RandomLayoutConfig" />
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="1xHXqL1QHNj">
     <property role="TrG5h" value="case_ButtonConfig" />
@@ -16670,6 +16677,182 @@
         </node>
         <node concept="raruj" id="56jSwh$TeO7" role="lGtFl" />
         <node concept="5jKBG" id="56jSwh$TeO8" role="lGtFl">
+          <ref role="v9R2y" node="1MAkSr5cr4o" resolve="case_DiagramLayoutConfig" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="qwNnoDFNri">
+    <property role="TrG5h" value="case_RandomLayoutConfig" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.random" />
+    <ref role="3gUMe" to="2qld:qwNnoDFt09" resolve="RandomLayoutConfig" />
+    <node concept="3clFbS" id="qwNnoDFNrj" role="13RCb5">
+      <node concept="3cpWs8" id="qwNnoDFNrk" role="3cqZAp">
+        <node concept="3cpWsn" id="qwNnoDFNrl" role="3cpWs9">
+          <property role="TrG5h" value="style" />
+          <node concept="2ShNRf" id="qwNnoDFNrm" role="33vP2m">
+            <node concept="1pGfFk" id="qwNnoDFNrn" role="2ShVmc">
+              <ref role="37wK5l" to="5ueo:~StyleImpl.&lt;init&gt;()" resolve="StyleImpl" />
+            </node>
+          </node>
+          <node concept="3uibUv" id="qwNnoDFNro" role="1tU5fm">
+            <ref role="3uigEE" to="hox0:~Style" resolve="Style" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="qwNnoDFNrp" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoDFNrq" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoDFNrr" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoDFNrl" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoDFNrs" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoDFNrt" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-aspect-ratio" />
+            </node>
+            <node concept="2$xPTn" id="qwNnoDG31v" role="37wK5m">
+              <property role="2$xPTl" value="1.6f" />
+              <node concept="17Uvod" id="qwNnoDG3dD" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/5279705229678483897/5279705229678483899" />
+                <node concept="3zFVjK" id="qwNnoDG3dE" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoDG3dF" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoDG3me" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoDG3BZ" role="3clFbG">
+                        <node concept="30H73N" id="qwNnoDG3md" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="qwNnoDG3SR" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoDFtnO" resolve="aspectRatio" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoDFNrA" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoDFNrB" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoDFNrC" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoDFNrD" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoDFNrl" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoDFNrE" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoDFNrF" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-node-spacing" />
+            </node>
+            <node concept="3cmrfG" id="qwNnoDG3ZX" role="37wK5m">
+              <property role="3cmrfH" value="15" />
+              <node concept="17Uvod" id="qwNnoDG4n8" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                <node concept="3zFVjK" id="qwNnoDG4n9" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoDG4na" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoDG8f4" role="3cqZAp">
+                      <node concept="2YIFZM" id="qwNnoDG8gC" role="3clFbG">
+                        <ref role="37wK5l" to="wyt6:~Integer.valueOf(java.lang.String)" resolve="valueOf" />
+                        <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                        <node concept="2OqwBi" id="qwNnoDG4W_" role="37wK5m">
+                          <node concept="30H73N" id="qwNnoDG4$0" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="qwNnoDG5dt" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:qwNnoDFt$2" resolve="nodeSpacing" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoDFNrQ" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoDGb_E" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoDGb_F" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoDGb_G" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoDFNrl" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoDGb_H" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoDGb_I" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-padding" />
+            </node>
+            <node concept="2ShNRf" id="qwNnoDGb_J" role="37wK5m">
+              <node concept="1pGfFk" id="qwNnoDGb_K" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="vgho:~ElkPadding.&lt;init&gt;(double)" resolve="ElkPadding" />
+                <node concept="3cmrfG" id="qwNnoDGb_L" role="37wK5m">
+                  <property role="3cmrfH" value="15" />
+                </node>
+              </node>
+              <node concept="29HgVG" id="qwNnoDGb_M" role="lGtFl">
+                <node concept="3NFfHV" id="qwNnoDGb_N" role="3NFExx">
+                  <node concept="3clFbS" id="qwNnoDGb_O" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoDGb_P" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoDGb_Q" role="3clFbG">
+                        <node concept="3TrEf2" id="qwNnoDGb_R" role="2OqNvi">
+                          <ref role="3Tt5mk" to="2qld:qwNnoDFtO2" resolve="padding" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoDGb_S" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoDGb_T" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoDFNs5" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoDFNs6" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoDFNs7" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoDFNrl" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoDFNs8" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoDFNs9" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoDG0nF" resolve="diagram-randomization-seed" />
+            </node>
+            <node concept="3cmrfG" id="qwNnoDGfdD" role="37wK5m">
+              <property role="3cmrfH" value="0" />
+              <node concept="17Uvod" id="qwNnoDGfjg" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580320020/1068580320021" />
+                <node concept="3zFVjK" id="qwNnoDGfjh" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoDGfji" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoDGflD" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoDGfId" role="3clFbG">
+                        <node concept="30H73N" id="qwNnoDGflC" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="qwNnoDGfZv" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoDFu4N" resolve="randomizationSeed" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoDFNsk" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoDFNup" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoDFNuq" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoDFNur" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoDFNrl" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoDFNus" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="10Nm6u" id="qwNnoDFNut" role="37wK5m" />
+            <node concept="10Nm6u" id="qwNnoDFNuu" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoDFNuv" role="lGtFl" />
+        <node concept="5jKBG" id="qwNnoDFNuw" role="lGtFl">
           <ref role="v9R2y" node="1MAkSr5cr4o" resolve="case_DiagramLayoutConfig" />
         </node>
       </node>

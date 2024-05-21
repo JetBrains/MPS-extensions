@@ -131,6 +131,7 @@
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
+        <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="7667708318090725848" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentAnchorStyleClassItem" flags="ln" index="1Bsynf" />
@@ -6848,6 +6849,12 @@
       <node concept="10P_77" id="56jSwh$TD6Z" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$TD7Q" role="3t49C2" />
     </node>
+    <node concept="3t5Usi" id="qwNnoDG0nF" role="V601i">
+      <property role="TrG5h" value="diagram-randomization-seed" />
+      <node concept="3uibUv" id="qwNnoDG1S$" role="3t5Oan">
+        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+      </node>
+    </node>
   </node>
   <node concept="V5hpn" id="56jSwhzYh1h">
     <property role="3GE5qa" value="layoutAlgorithm.options" />
@@ -7692,6 +7699,119 @@
         </node>
         <node concept="3F0A7n" id="56jSwh$RQvX" role="3EZMnx">
           <ref role="1NtTu8" to="2qld:56jSwh$RPdL" resolve="optimizationCriteria" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="qwNnoDFuyq">
+    <property role="3GE5qa" value="layoutAlgorithm.config.random" />
+    <ref role="1XX52x" to="2qld:qwNnoDFt09" resolve="RandomLayoutConfig" />
+    <node concept="3EZMnI" id="qwNnoDFu$m" role="2wV5jI">
+      <node concept="2EHx9g" id="qwNnoDFu$n" role="2iSdaV" />
+      <node concept="3EZMnI" id="qwNnoDFu$o" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDFu$p" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDFu$q" role="3EZMnx">
+          <property role="3F0ifm" value="aspect ratio" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDFu$r" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDFu$s" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDFu$t" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDFu$u" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDFu$v" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDFu$w" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDFu$x" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-aspectRatio.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDFu$y" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDFtnO" resolve="aspectRatio" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDFuRC" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDFuRD" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDFuRE" role="3EZMnx">
+          <property role="3F0ifm" value="node spacing" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDFuRF" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDFuRG" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDFuRH" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDFuRI" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDFuRJ" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDFuRK" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDFuRL" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-spacing-nodeNode.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDFuRM" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDFt$2" resolve="nodeSpacing" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDFu_r" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDFu_s" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDFu_t" role="3EZMnx">
+          <property role="3F0ifm" value="padding" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDFu_u" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDFu_v" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDFu_w" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDFu_x" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDFu_y" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDFu_z" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDFu_$" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-padding.html" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="qwNnoDFu__" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDFtO2" resolve="padding" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDFuTI" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDFuTJ" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDFuTK" role="3EZMnx">
+          <property role="3F0ifm" value="randomization seed" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDFuTL" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDFuTM" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDFuTN" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDFuTO" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDFuTP" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDFuTQ" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDFuTR" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-randomSeed.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDFvqi" role="3EZMnx">
+          <property role="1$x2rV" value="0" />
+          <property role="1O74Pk" value="true" />
+          <ref role="1NtTu8" to="2qld:qwNnoDFu4N" resolve="randomizationSeed" />
         </node>
       </node>
     </node>

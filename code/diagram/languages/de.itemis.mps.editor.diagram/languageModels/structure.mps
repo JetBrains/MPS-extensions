@@ -2858,5 +2858,36 @@
       <property role="TrG5h" value="CROSSING_MINIMIZATION_BY_POSITION" />
     </node>
   </node>
+  <node concept="1TIwiD" id="qwNnoDFt09">
+    <property role="EcuMT" value="477607467890364425" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.random" />
+    <property role="TrG5h" value="RandomLayoutConfig" />
+    <property role="34LRSv" value="random layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyj" id="qwNnoDFtO2" role="1TKVEi">
+      <property role="IQ2ns" value="477607467890367746" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDFtnO" role="1TKVEl">
+      <property role="IQ2nx" value="477607467890365940" />
+      <property role="TrG5h" value="aspectRatio" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDFt$2" role="1TKVEl">
+      <property role="IQ2nx" value="477607467890366722" />
+      <property role="TrG5h" value="nodeSpacing" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDFu4N" role="1TKVEl">
+      <property role="IQ2nx" value="477607467890368819" />
+      <property role="TrG5h" value="randomizationSeed" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1sEMCm" id="qwNnoDFt0n" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
 </model>
 

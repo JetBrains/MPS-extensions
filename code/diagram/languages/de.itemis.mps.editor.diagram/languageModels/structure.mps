@@ -2889,5 +2889,166 @@
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
     </node>
   </node>
+  <node concept="1TIwiD" id="qwNnoDNvBN">
+    <property role="EcuMT" value="477607467892472307" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
+    <property role="TrG5h" value="RectPackingLayoutConfig" />
+    <property role="34LRSv" value="rectangle packing layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyj" id="qwNnoDNwF8" role="1TKVEi">
+      <property role="IQ2ns" value="477607467892476616" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contentAlignment" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="56jSwh$g_0B" resolve="ContentAlignment" />
+    </node>
+    <node concept="1TJgyj" id="qwNnoDNytb" role="1TKVEi">
+      <property role="IQ2ns" value="477607467892483915" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNw2b" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892473995" />
+      <property role="TrG5h" value="aspectRatio" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNwb9" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892474569" />
+      <property role="TrG5h" value="compactionIterations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNwky" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892475170" />
+      <property role="TrG5h" value="compactionStrategy" />
+      <ref role="AX2Wp" node="qwNnoDNwqj" resolve="PackingStrategy" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNwZ_" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892477925" />
+      <property role="TrG5h" value="fixedGraphSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNxfG" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892478956" />
+      <property role="TrG5h" value="interactive" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNxn7" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892479431" />
+      <property role="TrG5h" value="interactiveLayout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNxx0" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892480064" />
+      <property role="TrG5h" value="nodeSpacing" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNxGx" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892480801" />
+      <property role="TrG5h" value="omitNodeMicroLayout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNy6h" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892482449" />
+      <property role="TrG5h" value="optimizationGoal" />
+      <ref role="AX2Wp" node="qwNnoDNycx" resolve="OptimizationGoal" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNyAb" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892484491" />
+      <property role="TrG5h" value="rowHeightReevaluation" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNyMX" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892485309" />
+      <property role="TrG5h" value="shiftLastPlaced" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNyWU" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892485946" />
+      <property role="TrG5h" value="targetWidth" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNz8U" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892486714" />
+      <property role="TrG5h" value="tryBoxLayoutFirst" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNzm9" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892487561" />
+      <property role="TrG5h" value="whiteSpaceEliminationStrategy" />
+      <ref role="AX2Wp" node="qwNnoDNzjH" resolve="WhiteSpaceEliminationStrategy" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoDNzEF" role="1TKVEl">
+      <property role="IQ2nx" value="477607467892488875" />
+      <property role="TrG5h" value="widthApproximationStrategy" />
+      <ref role="AX2Wp" node="qwNnoDNzBt" resolve="WidthApproximationStrategy" />
+    </node>
+    <node concept="1sEMCm" id="qwNnoDNvBS" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
+  <node concept="25R3W" id="qwNnoDNwqj">
+    <property role="3F6X1D" value="477607467892475539" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
+    <property role="TrG5h" value="PackingStrategy" />
+    <ref role="1H5jkz" node="qwNnoDNwqk" resolve="COMPACTION" />
+    <node concept="25R33" id="qwNnoDNwqk" role="25R1y">
+      <property role="3tVfz5" value="477607467892475540" />
+      <property role="TrG5h" value="COMPACTION" />
+    </node>
+    <node concept="25R33" id="qwNnoDNwrr" role="25R1y">
+      <property role="3tVfz5" value="477607467892475611" />
+      <property role="TrG5h" value="SIMPLE" />
+    </node>
+    <node concept="25R33" id="qwNnoDNwru" role="25R1y">
+      <property role="3tVfz5" value="477607467892475614" />
+      <property role="TrG5h" value="NONE" />
+    </node>
+  </node>
+  <node concept="25R3W" id="qwNnoDNycx">
+    <property role="3F6X1D" value="477607467892482849" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
+    <property role="TrG5h" value="OptimizationGoal" />
+    <ref role="1H5jkz" node="qwNnoDNydF" resolve="MAX_SCALE_DRIVEN" />
+    <node concept="25R33" id="qwNnoDNycy" role="25R1y">
+      <property role="3tVfz5" value="477607467892482850" />
+      <property role="TrG5h" value="ASPECT_RATIO_DRIVEN" />
+    </node>
+    <node concept="25R33" id="qwNnoDNydF" role="25R1y">
+      <property role="3tVfz5" value="477607467892482923" />
+      <property role="TrG5h" value="MAX_SCALE_DRIVEN" />
+    </node>
+    <node concept="25R33" id="qwNnoDNydK" role="25R1y">
+      <property role="3tVfz5" value="477607467892482928" />
+      <property role="TrG5h" value="AREA_DRIVEN" />
+    </node>
+  </node>
+  <node concept="25R3W" id="qwNnoDNzjH">
+    <property role="3F6X1D" value="5674835785869644800" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
+    <property role="TrG5h" value="WhiteSpaceEliminationStrategy" />
+    <node concept="25R33" id="qwNnoDNzjI" role="25R1y">
+      <property role="3tVfz5" value="477607467892487406" />
+      <property role="TrG5h" value="EQUAL_BETWEEN_STRUCTURES" />
+    </node>
+    <node concept="25R33" id="qwNnoDNzkR" role="25R1y">
+      <property role="3tVfz5" value="477607467892487479" />
+      <property role="TrG5h" value="TO_ASPECT_RATIO" />
+    </node>
+  </node>
+  <node concept="25R3W" id="qwNnoDNzBt">
+    <property role="3F6X1D" value="477607467892487405" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
+    <property role="TrG5h" value="WidthApproximationStrategy" />
+    <ref role="1H5jkz" node="qwNnoDNzBu" resolve="GREEDY" />
+    <node concept="25R33" id="qwNnoDNzBu" role="25R1y">
+      <property role="3tVfz5" value="477607467892488670" />
+      <property role="TrG5h" value="GREEDY" />
+    </node>
+    <node concept="25R33" id="qwNnoDNzBv" role="25R1y">
+      <property role="3tVfz5" value="477607467892488671" />
+      <property role="TrG5h" value="TARGET_WIDTH" />
+    </node>
+  </node>
 </model>
 

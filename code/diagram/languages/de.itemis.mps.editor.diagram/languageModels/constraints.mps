@@ -616,5 +616,46 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="qwNnoDNFgO">
+    <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
+    <ref role="1M2myG" to="2qld:qwNnoDNvBN" resolve="RectPackingLayoutConfig" />
+    <node concept="9S07l" id="qwNnoDNFjz" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoDNFj$" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoDNFkQ" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoDNFkR" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoDNFkS" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoDNFkT" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoDNFkU" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoDNFkV" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoDNFkW" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoDNFkX" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoDNFkY" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoDNFkZ" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoDNFl0" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoDNFl1" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoDNFl2" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoDNFl3" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoDNFl4" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoDNFl5" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoDNFl6" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:4zQzqoUKULH" resolve="RectanglePackingLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

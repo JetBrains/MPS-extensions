@@ -30,6 +30,7 @@
     <import index="1h9k" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p1widthapproximation(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="7bmw" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="yrb0" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.radial.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="onpr" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p3whitespaceelimination(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -6823,6 +6824,11 @@
       <node concept="10P_77" id="56jSwh$2098" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$2099" role="3t49C2" />
     </node>
+    <node concept="3t5Usi" id="qwNnoDPfBg" role="V601i">
+      <property role="TrG5h" value="diagram-interactive-layout" />
+      <node concept="10P_77" id="qwNnoDPfBh" role="3t5Oan" />
+      <node concept="3clFbT" id="qwNnoDPfBi" role="3t49C2" />
+    </node>
     <node concept="3t5Usi" id="56jSwh$3xAj" role="V601i">
       <property role="TrG5h" value="diagram-padding" />
       <node concept="3uibUv" id="56jSwh$3yjo" role="3t5Oan">
@@ -6938,7 +6944,7 @@
     <node concept="3t5Usi" id="56jSwhzYTSL" role="V601i">
       <property role="TrG5h" value="rectpacking-white-space-approximation-strategy" />
       <node concept="3uibUv" id="56jSwhzYTTQ" role="3t5Oan">
-        <ref role="3uigEE" to="gou7:~WhitespaceEliminationStrategy" resolve="WhitespaceEliminationStrategy" />
+        <ref role="3uigEE" to="onpr:~WhiteSpaceEliminationStrategy" resolve="WhiteSpaceEliminationStrategy" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTTY" role="V601i">
@@ -6974,6 +6980,11 @@
       <node concept="3clFbT" id="56jSwhzYUaP" role="3t49C2">
         <property role="3clFbU" value="true" />
       </node>
+    </node>
+    <node concept="3t5Usi" id="qwNnoDPDdx" role="V601i">
+      <property role="TrG5h" value="rectpacking-try-box-layout-first" />
+      <node concept="10P_77" id="qwNnoDPDdy" role="3t5Oan" />
+      <node concept="3clFbT" id="qwNnoDPDdz" role="3t49C2" />
     </node>
   </node>
   <node concept="V5hpn" id="56jSwhzYAzP">
@@ -7812,6 +7823,431 @@
           <property role="1$x2rV" value="0" />
           <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:qwNnoDFu4N" resolve="randomizationSeed" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="qwNnoDN$0c">
+    <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
+    <ref role="1XX52x" to="2qld:qwNnoDNvBN" resolve="RectPackingLayoutConfig" />
+    <node concept="3EZMnI" id="qwNnoDN$2y" role="2wV5jI">
+      <node concept="2EHx9g" id="qwNnoDN$2z" role="2iSdaV" />
+      <node concept="3EZMnI" id="qwNnoDN$2$" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$2_" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$2A" role="3EZMnx">
+          <property role="3F0ifm" value="aspect ratio" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$2B" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$2C" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$2D" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$2E" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$2F" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$2G" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$2H" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-aspectRatio.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$2I" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNw2b" resolve="aspectRatio" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$bP" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$bQ" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$bR" role="3EZMnx">
+          <property role="3F0ifm" value="compact iterations" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$bS" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$bT" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$bU" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$bV" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$bW" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$bX" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$bY" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-packing-compaction-iterations.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$bZ" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNwb9" resolve="compactionIterations" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$dK" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$dL" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$dM" role="3EZMnx">
+          <property role="3F0ifm" value="compaction strategy" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$dN" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$dO" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$dP" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$dQ" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$dR" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$dS" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$dT" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-packing-strategy.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$dU" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNwky" resolve="compactionStrategy" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$fg" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$fh" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$fi" role="3EZMnx">
+          <property role="3F0ifm" value="content alignment" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$fj" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$fk" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$fl" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$fm" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$fn" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$fo" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$fp" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-contentAlignment.html" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="qwNnoDNCTI" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <ref role="1NtTu8" to="2qld:qwNnoDNwF8" resolve="contentAlignment" />
+          <node concept="2iRfu4" id="qwNnoDNCTK" role="2czzBx" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$i7" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$i8" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$i9" role="3EZMnx">
+          <property role="3F0ifm" value="fixed graph size" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$ia" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$ib" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$ic" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$id" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$ie" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$if" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$ig" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-nodeSize-fixedGraphSize.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$ih" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNwZ_" resolve="fixedGraphSize" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$kz" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$k$" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$k_" role="3EZMnx">
+          <property role="3F0ifm" value="interactive layout" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$kA" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$kB" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$kC" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$kD" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$kE" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$kF" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$kG" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-interactiveLayout.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$kH" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNxn7" resolve="interactiveLayout" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$m$" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$m_" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$mA" role="3EZMnx">
+          <property role="3F0ifm" value="node spacing" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$mB" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$mC" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$mD" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$mE" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$mF" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$mG" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$mH" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-spacing-nodeNode.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$mI" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNxx0" resolve="nodeSpacing" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$pW" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$pX" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$pY" role="3EZMnx">
+          <property role="3F0ifm" value="omit node micro layout" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$pZ" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$q0" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$q1" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$q2" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$q3" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$q4" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$q5" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-omitNodeMicroLayout.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$q6" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNxGx" resolve="omitNodeMicroLayout" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$sj" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$sk" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$sl" role="3EZMnx">
+          <property role="3F0ifm" value="optimization goal" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$sm" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$sn" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$so" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$sp" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$sq" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$sr" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$ss" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-widthApproximation-optimizationGoal.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$st" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNy6h" resolve="optimizationGoal" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$w1" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$w2" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDNAyE" role="3EZMnx">
+          <property role="3F0ifm" value="padding" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$w4" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$w5" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$w6" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$w7" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$w8" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$w9" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$wa" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-padding.html" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="qwNnoDNDig" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNytb" resolve="padding" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$zk" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$zl" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$zm" role="3EZMnx">
+          <property role="3F0ifm" value="row height reevaluation" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$zn" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$zo" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$zp" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$zq" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$zr" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$zs" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$zt" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-packing-compaction-rowHeightReevaluation.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$zu" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNyAb" resolve="rowHeightReevaluation" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$Ac" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$Ad" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$Ae" role="3EZMnx">
+          <property role="3F0ifm" value="shift last placed" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$Af" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$Ag" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$Ah" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$Ai" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$Aj" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$Ak" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$Al" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-widthApproximation-lastPlaceShift.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$Am" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNyMX" resolve="shiftLastPlaced" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$Er" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$Es" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$Et" role="3EZMnx">
+          <property role="3F0ifm" value="target width" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$Eu" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$Ev" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$Ew" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$Ex" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$Ey" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$Ez" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$E$" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-widthApproximation-targetWidth.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$E_" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNyWU" resolve="targetWidth" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$If" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$Ig" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$Ih" role="3EZMnx">
+          <property role="3F0ifm" value="try box layout first" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$Ii" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$Ij" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$Ik" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$Il" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$Im" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$In" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$Io" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-trybox.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$Ip" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNz8U" resolve="tryBoxLayoutFirst" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$Me" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$Mf" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$Mg" role="3EZMnx">
+          <property role="3F0ifm" value="white space approximation strategy" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$Mh" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$Mi" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$Mj" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$Mk" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$Ml" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$Mm" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$Mn" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-whiteSpaceElimination-strategy.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$Mo" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNzm9" resolve="whiteSpaceEliminationStrategy" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoDN$PM" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoDN$PN" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoDN$PO" role="3EZMnx">
+          <property role="3F0ifm" value="width approximation strategy" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoDN$PP" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoDN$PQ" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoDN$PR" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoDN$PS" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoDN$PT" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoDN$PU" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoDN$PV" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-rectpacking-widthApproximation-strategy.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoDN$PW" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoDNzEF" resolve="widthApproximationStrategy" />
         </node>
       </node>
     </node>

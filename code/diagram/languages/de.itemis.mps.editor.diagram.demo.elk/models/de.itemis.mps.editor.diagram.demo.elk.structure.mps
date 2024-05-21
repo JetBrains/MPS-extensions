@@ -220,6 +220,13 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="rectpacking" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="qwNnoDR6zs" role="1TKVEi">
+      <property role="IQ2ns" value="477607467893418204" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" to="2qld:qwNnoDNvBN" resolve="RectPackingLayoutConfig" />
+      <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
+    </node>
     <node concept="PrWs8" id="4zQzqoUNPGJ" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>

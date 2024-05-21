@@ -3191,5 +3191,26 @@
       <property role="TrG5h" value="COMBINE_JITTER_MANHATTAN" />
     </node>
   </node>
+  <node concept="1TIwiD" id="qwNnoED$Ip">
+    <property role="EcuMT" value="477607467906648985" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.fixed" />
+    <property role="TrG5h" value="FixedLayoutConfig" />
+    <property role="34LRSv" value="fixed layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyj" id="qwNnoED_kO" role="1TKVEi">
+      <property role="IQ2ns" value="477607467906651444" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyi" id="qwNnoED_4r" role="1TKVEl">
+      <property role="IQ2nx" value="477607467906650395" />
+      <property role="TrG5h" value="fixedGraphSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1sEMCm" id="qwNnoED$Ix" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
 </model>
 

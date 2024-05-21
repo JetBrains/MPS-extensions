@@ -698,5 +698,46 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="qwNnoEDBzN">
+    <property role="3GE5qa" value="layoutAlgorithm.config.fixed" />
+    <ref role="1M2myG" to="2qld:qwNnoED$Ip" resolve="FixedLayoutConfig" />
+    <node concept="9S07l" id="qwNnoEDB_s" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoEDB_t" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEDBAJ" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoEDBAK" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEDBAL" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoEDBAM" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoEDBAN" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoEDBAO" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoEDBAP" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoEDBAQ" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoEDBAR" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoEDBAS" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoEDBAT" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoEDBAU" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoEDBAV" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoEDBAW" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoEDBAX" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoEDBAY" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoEDBAZ" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:767du_ZSOh1" resolve="FixedLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

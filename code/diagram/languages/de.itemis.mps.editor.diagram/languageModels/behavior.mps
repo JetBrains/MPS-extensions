@@ -5465,5 +5465,59 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="qwNnoEDCHk">
+    <property role="3GE5qa" value="layoutAlgorithm.config.fixed" />
+    <ref role="13h7C2" to="2qld:qwNnoED$Ip" resolve="FixedLayoutConfig" />
+    <node concept="13hLZK" id="qwNnoEDCHl" role="13h7CW">
+      <node concept="3clFbS" id="qwNnoEDCHm" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEDCHn" role="3cqZAp">
+          <node concept="37vLTI" id="qwNnoEDCHo" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEDCHp" role="37vLTJ">
+              <node concept="13iPFW" id="qwNnoEDCHq" role="2Oq$k0" />
+              <node concept="3TrcHB" id="qwNnoEDCHr" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:qwNnoED_4r" resolve="fixedGraphSize" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoEDGYk" role="37vLTx">
+              <node concept="10M0yZ" id="qwNnoEDGHU" role="2Oq$k0">
+                <ref role="3cqZAo" to="gwyy:~FixedLayouterOptions.NODE_SIZE_FIXED_GRAPH_SIZE" resolve="NODE_SIZE_FIXED_GRAPH_SIZE" />
+                <ref role="1PxDUh" to="gwyy:~FixedLayouterOptions" resolve="FixedLayouterOptions" />
+              </node>
+              <node concept="liA8E" id="qwNnoEDHe$" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="qwNnoEDCHC" role="3cqZAp">
+          <node concept="37vLTI" id="qwNnoEDCHD" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEDCHE" role="37vLTx">
+              <node concept="35c_gC" id="qwNnoEDCHF" role="2Oq$k0">
+                <ref role="35c_gD" to="2qld:56jSwh$gEVe" resolve="Padding" />
+              </node>
+              <node concept="2qgKlT" id="qwNnoEDCHG" role="2OqNvi">
+                <ref role="37wK5l" node="56jSwh$nT2X" resolve="fromElkPadding" />
+                <node concept="2OqwBi" id="3biyEnPwcXp" role="37wK5m">
+                  <node concept="10M0yZ" id="3biyEnPwcLO" role="2Oq$k0">
+                    <ref role="3cqZAo" to="gwyy:~FixedLayouterOptions.PADDING" resolve="PADDING" />
+                    <ref role="1PxDUh" to="gwyy:~FixedLayouterOptions" resolve="FixedLayouterOptions" />
+                  </node>
+                  <node concept="liA8E" id="3biyEnPwdds" role="2OqNvi">
+                    <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoEDCHK" role="37vLTJ">
+              <node concept="13iPFW" id="qwNnoEDCHL" role="2Oq$k0" />
+              <node concept="3TrEf2" id="qwNnoEDCHM" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:qwNnoED_kO" resolve="padding" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -199,6 +199,13 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="fixed" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="qwNnoEI0_O" role="1TKVEi">
+      <property role="IQ2ns" value="477607467907811700" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" to="2qld:qwNnoED$Ip" resolve="FixedLayoutConfig" />
+      <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
+    </node>
     <node concept="PrWs8" id="767du_ZWqpg" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>

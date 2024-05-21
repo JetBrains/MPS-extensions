@@ -8519,5 +8519,64 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="qwNnoED_A5">
+    <property role="3GE5qa" value="layoutAlgorithm.config.fixed" />
+    <ref role="1XX52x" to="2qld:qwNnoED$Ip" resolve="FixedLayoutConfig" />
+    <node concept="3EZMnI" id="qwNnoEDAfk" role="2wV5jI">
+      <node concept="2EHx9g" id="qwNnoEDAfl" role="2iSdaV" />
+      <node concept="3EZMnI" id="qwNnoEDAfm" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEDAfn" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEDAfo" role="3EZMnx">
+          <property role="3F0ifm" value="fixed graph size" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEDAfp" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEDAfq" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEDAfr" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEDAfs" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEDAft" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEDAfu" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEDAfv" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-nodeSize-fixedGraphSize.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEDAfw" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoED_4r" resolve="fixedGraphSize" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEDAfx" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEDAfy" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEDAfz" role="3EZMnx">
+          <property role="3F0ifm" value="padding" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEDAf$" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEDAf_" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEDAfA" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEDAfB" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEDAfC" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEDAfD" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEDAfE" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-padding.html" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="qwNnoEDAZc" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoED_kO" resolve="padding" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

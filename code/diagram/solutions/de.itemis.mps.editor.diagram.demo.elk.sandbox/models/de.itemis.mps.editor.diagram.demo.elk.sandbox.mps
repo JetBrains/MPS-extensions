@@ -8,7 +8,10 @@
   <imports />
   <registry>
     <language id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram">
-      <concept id="477607467899765827" name="de.itemis.mps.editor.diagram.structure.DiscCoLayoutConfig" flags="ng" index="GBo$P">
+      <concept id="477607467906648985" name="de.itemis.mps.editor.diagram.structure.FixedLayoutConfig" flags="ng" index="G1CrJ">
+        <child id="477607467906651444" name="padding" index="G1Dx2" />
+      </concept>
+      <concept id="477607467899765827" name="de.itemis.mps.editor.diagram.structure.DisCoLayoutConfig" flags="ng" index="GBo$P">
         <property id="477607467899768499" name="componentsSpacing" index="GBof5" />
         <property id="477607467899772077" name="fillPolyominoes" index="GBp7r" />
         <property id="477607467899771316" name="edgeThickness" index="GBpj2" />
@@ -1690,6 +1693,14 @@
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
+      </node>
+    </node>
+    <node concept="G1CrJ" id="qwNnoEIDsw" role="J81tK">
+      <node concept="POkNa" id="qwNnoEIDsx" role="G1Dx2">
+        <property role="POl1y" value="12.0" />
+        <property role="POl7g" value="12.0" />
+        <property role="POljH" value="12.0" />
+        <property role="POlmT" value="12.0" />
       </node>
     </node>
   </node>

@@ -33,6 +33,7 @@
     <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="vgho" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.math(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="y7q" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.util(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="yrb0" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.radial.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
@@ -3997,7 +3998,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="56jSwh$nmKa">
-    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.box" />
     <ref role="13h7C2" to="2qld:56jSwh$g_vp" resolve="BoxLayoutConfig" />
     <node concept="13hLZK" id="56jSwh$nmKb" role="13h7CW">
       <node concept="3clFbS" id="56jSwh$nmKc" role="2VODD2">
@@ -4425,6 +4426,324 @@
     </node>
     <node concept="13hLZK" id="56jSwh$FyJk" role="13h7CW">
       <node concept="3clFbS" id="56jSwh$FyJl" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="56jSwh$RYbh">
+    <property role="3GE5qa" value="layoutAlgorithm.config.radial" />
+    <ref role="13h7C2" to="2qld:56jSwh$RMMZ" resolve="RadialLayoutConfig" />
+    <node concept="13hLZK" id="56jSwh$RYbi" role="13h7CW">
+      <node concept="3clFbS" id="56jSwh$RYbj" role="2VODD2">
+        <node concept="3clFbF" id="56jSwh$S39S" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$S4Jn" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$S5UT" role="37vLTx">
+              <node concept="10M0yZ" id="56jSwh$SHNK" role="2Oq$k0">
+                <ref role="3cqZAo" to="yrb0:~RadialOptions.ROTATION_COMPUTE_ADDITIONAL_WEDGE_SPACE" resolve="ROTATION_COMPUTE_ADDITIONAL_WEDGE_SPACE" />
+                <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+              </node>
+              <node concept="liA8E" id="56jSwh$SI6r" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$S3MC" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$S39Q" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$S4zu" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$RN2a" resolve="additionalWedgeSpace" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$SarH" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SdkW" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$Sbk6" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$SarF" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$Sd8R" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$RNcK" resolve="annulusWedgeCriteria" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$SLjS" role="37vLTx">
+              <node concept="1XH99k" id="56jSwh$SKPB" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:56jSwh$RNll" resolve="AnnulusWedgeCriteria" />
+              </node>
+              <node concept="2ViDtW" id="56jSwh$SLCL" role="2OqNvi">
+                <node concept="2OqwBi" id="56jSwh$SO0U" role="2ViJBj">
+                  <node concept="2OqwBi" id="56jSwh$SIOa" role="2Oq$k0">
+                    <node concept="10M0yZ" id="56jSwh$SI$k" role="2Oq$k0">
+                      <ref role="3cqZAo" to="yrb0:~RadialOptions.WEDGE_CRITERIA" resolve="WEDGE_CRITERIA" />
+                      <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+                    </node>
+                    <node concept="liA8E" id="56jSwh$SJ4e" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="56jSwh$SOM0" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$SeBt" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$Sg1J" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$SPyo" role="37vLTx">
+              <node concept="10M0yZ" id="56jSwh$SPhJ" role="2Oq$k0">
+                <ref role="3cqZAo" to="yrb0:~RadialOptions.CENTER_ON_ROOT" resolve="CENTER_ON_ROOT" />
+                <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+              </node>
+              <node concept="liA8E" id="56jSwh$SPMs" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$Sf5k" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$SeBr" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$SfPs" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$RNql" resolve="centerOnRoot" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$ShfH" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SiEI" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$ShHX" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$ShfF" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$Siv3" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$RNBp" resolve="compaction" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$SRxL" role="37vLTx">
+              <node concept="1XH99k" id="56jSwh$SQVM" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:56jSwh$RNHb" resolve="RadialCompactionStrategy" />
+              </node>
+              <node concept="2ViDtW" id="56jSwh$SRQE" role="2OqNvi">
+                <node concept="2OqwBi" id="56jSwh$SSrE" role="2ViJBj">
+                  <node concept="2OqwBi" id="56jSwh$SQmH" role="2Oq$k0">
+                    <node concept="10M0yZ" id="56jSwh$SQ5a" role="2Oq$k0">
+                      <ref role="3cqZAo" to="yrb0:~RadialOptions.COMPACTOR" resolve="COMPACTOR" />
+                      <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+                    </node>
+                    <node concept="liA8E" id="56jSwh$SQBA" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="56jSwh$ST4J" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$SjTV" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$Sm8l" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$SU1G" role="37vLTx">
+              <node concept="10M0yZ" id="56jSwh$STEU" role="2Oq$k0">
+                <ref role="3cqZAo" to="yrb0:~RadialOptions.COMPACTION_STEP_SIZE" resolve="COMPACTION_STEP_SIZE" />
+                <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+              </node>
+              <node concept="liA8E" id="56jSwh$SUiA" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$SkFb" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$SjTT" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$Slc0" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$RNNr" resolve="compactionStepSize" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$Snma" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SpoE" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$So6F" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$Snm8" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$SoR1" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$RO4c" resolve="nodeSpacing" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$SWJm" role="37vLTx">
+              <node concept="2OqwBi" id="56jSwh$SVvw" role="2Oq$k0">
+                <node concept="10M0yZ" id="56jSwh$SVcW" role="2Oq$k0">
+                  <ref role="3cqZAo" to="yrb0:~RadialOptions.SPACING_NODE_NODE" resolve="SPACING_NODE_NODE" />
+                  <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+                </node>
+                <node concept="liA8E" id="56jSwh$SVK5" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="56jSwh$SXjB" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$SqCF" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SrXF" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$SYru" role="37vLTx">
+              <node concept="10M0yZ" id="56jSwh$SYaL" role="2Oq$k0">
+                <ref role="3cqZAo" to="yrb0:~RadialOptions.OMIT_NODE_MICRO_LAYOUT" resolve="OMIT_NODE_MICRO_LAYOUT" />
+                <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+              </node>
+              <node concept="liA8E" id="56jSwh$SYG0" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$Sr7I" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$SqCD" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$SrSw" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$ROhI" resolve="omitNodeMicroLayout" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$Stdx" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SviL" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$SZlB" role="37vLTx">
+              <node concept="10M0yZ" id="56jSwh$SZjM" role="2Oq$k0">
+                <ref role="3cqZAo" to="yrb0:~RadialOptions.ROTATION_OUTGOING_EDGE_ANGLES" resolve="ROTATION_OUTGOING_EDGE_ANGLES" />
+                <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+              </node>
+              <node concept="liA8E" id="56jSwh$SZrE" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$StZE" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$Stdv" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$Sv6S" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$ROtD" resolve="outgoingEdgeAngels" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$SyAk" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$S$JI" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$Szw$" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$SyAi" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$S$ff" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$ROCn" resolve="radius" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnPzG7M" role="37vLTx">
+              <node concept="2OqwBi" id="56jSwh$T04u" role="2Oq$k0">
+                <node concept="10M0yZ" id="56jSwh$SZS9" role="2Oq$k0">
+                  <ref role="3cqZAo" to="yrb0:~RadialOptions.RADIUS" resolve="RADIUS" />
+                  <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+                </node>
+                <node concept="liA8E" id="56jSwh$T0lq" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnPzGGg" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$S_ky" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SAwi" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$S_NQ" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$S_kw" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$SAkp" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$ROJQ" resolve="rotate" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$T1yf" role="37vLTx">
+              <node concept="10M0yZ" id="56jSwh$T1JZ" role="2Oq$k0">
+                <ref role="3cqZAo" to="yrb0:~RadialOptions.ROTATE" resolve="ROTATE" />
+                <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+              </node>
+              <node concept="liA8E" id="56jSwh$T1yh" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$SBwJ" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SCNO" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$SC2Y" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$SBwH" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$SCC9" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$ROR5" resolve="sorter" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$T2z4" role="37vLTx">
+              <node concept="1XH99k" id="56jSwh$T1Yz" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:56jSwh$ROPI" resolve="SortingStrategy" />
+              </node>
+              <node concept="2ViDtW" id="56jSwh$T2Uw" role="2OqNvi">
+                <node concept="2OqwBi" id="56jSwh$T4h$" role="2ViJBj">
+                  <node concept="2OqwBi" id="56jSwh$T3o4" role="2Oq$k0">
+                    <node concept="10M0yZ" id="56jSwh$T3ae" role="2Oq$k0">
+                      <ref role="3cqZAo" to="yrb0:~RadialOptions.SORTER" resolve="SORTER" />
+                      <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+                    </node>
+                    <node concept="liA8E" id="56jSwh$T3CM" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="56jSwh$T4V0" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$SDOn" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SET1" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$T6Cj" role="37vLTx">
+              <node concept="2OqwBi" id="56jSwh$T5NU" role="2Oq$k0">
+                <node concept="10M0yZ" id="56jSwh$T5xK" role="2Oq$k0">
+                  <ref role="3cqZAo" to="yrb0:~RadialOptions.ROTATION_TARGET_ANGLE" resolve="ROTATION_TARGET_ANGLE" />
+                  <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+                </node>
+                <node concept="liA8E" id="56jSwh$T64T" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="56jSwh$T7d2" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$SEl1" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$SDOl" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$SEPw" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$ROZq" resolve="targetAngle" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="56jSwh$SFUh" role="3cqZAp">
+          <node concept="37vLTI" id="56jSwh$SH76" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$T7Zh" role="37vLTx">
+              <node concept="1XH99k" id="56jSwh$T7jV" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:56jSwh$RPb0" resolve="RadialTranslationStrategy" />
+              </node>
+              <node concept="2ViDtW" id="56jSwh$T8k7" role="2OqNvi">
+                <node concept="2OqwBi" id="56jSwh$T9_e" role="2ViJBj">
+                  <node concept="2OqwBi" id="56jSwh$T8KA" role="2Oq$k0">
+                    <node concept="10M0yZ" id="56jSwh$T8$7" role="2Oq$k0">
+                      <ref role="3cqZAo" to="yrb0:~RadialOptions.OPTIMIZATION_CRITERIA" resolve="OPTIMIZATION_CRITERIA" />
+                      <ref role="1PxDUh" to="yrb0:~RadialOptions" resolve="RadialOptions" />
+                    </node>
+                    <node concept="liA8E" id="56jSwh$T92a" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="56jSwh$Taf$" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$SGqw" role="37vLTJ">
+              <node concept="13iPFW" id="56jSwh$SFUf" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56jSwh$SGV1" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:56jSwh$RPdL" resolve="optimizationCriteria" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

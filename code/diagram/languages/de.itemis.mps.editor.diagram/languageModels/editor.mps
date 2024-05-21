@@ -29,6 +29,7 @@
     <import index="ikqz" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.common.compaction.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="1h9k" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p1widthapproximation(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="7bmw" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="yrb0" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.radial.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -6842,6 +6843,11 @@
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
+    <node concept="3t5Usi" id="56jSwh$TCcP" role="V601i">
+      <property role="TrG5h" value="diagram-omit-node-micro-layout" />
+      <node concept="10P_77" id="56jSwh$TD6Z" role="3t5Oan" />
+      <node concept="3clFbT" id="56jSwh$TD7Q" role="3t49C2" />
+    </node>
   </node>
   <node concept="V5hpn" id="56jSwhzYh1h">
     <property role="3GE5qa" value="layoutAlgorithm.options" />
@@ -7014,6 +7020,16 @@
         <property role="$nhwW" value="0.0" />
       </node>
     </node>
+    <node concept="3t5Usi" id="56jSwh$TIup" role="V601i">
+      <property role="TrG5h" value="radial-translation-optimization" />
+      <node concept="Rm8GO" id="56jSwh$TIGV" role="3t49C2">
+        <ref role="Rm8GQ" to="yrb0:~RadialTranslationStrategy.NONE" resolve="NONE" />
+        <ref role="1Px2BO" to="yrb0:~RadialTranslationStrategy" resolve="RadialTranslationStrategy" />
+      </node>
+      <node concept="3uibUv" id="56jSwh$TICA" role="3t5Oan">
+        <ref role="3uigEE" to="yrb0:~RadialTranslationStrategy" resolve="RadialTranslationStrategy" />
+      </node>
+    </node>
     <node concept="3t5Usi" id="56jSwhzYKcq" role="V601i">
       <property role="TrG5h" value="radial-additional-wedge-space" />
       <node concept="10P_77" id="56jSwhzYKdi" role="3t5Oan" />
@@ -7023,6 +7039,60 @@
       <property role="TrG5h" value="radial-outgoing-edge-angles" />
       <node concept="10P_77" id="56jSwhzYKdv" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYKdw" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="56jSwh$TyOg" role="V601i">
+      <property role="TrG5h" value="radial-annulus-wedge-criteria" />
+      <node concept="3uibUv" id="56jSwh$Tz2_" role="3t5Oan">
+        <ref role="3uigEE" to="yrb0:~AnnulusWedgeCriteria" resolve="AnnulusWedgeCriteria" />
+      </node>
+      <node concept="Rm8GO" id="56jSwh$Tz66" role="3t49C2">
+        <ref role="Rm8GQ" to="yrb0:~AnnulusWedgeCriteria.NODE_SIZE" resolve="NODE_SIZE" />
+        <ref role="1Px2BO" to="yrb0:~AnnulusWedgeCriteria" resolve="AnnulusWedgeCriteria" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="56jSwh$TzMJ" role="V601i">
+      <property role="TrG5h" value="radial-center-on-root" />
+      <node concept="10P_77" id="56jSwh$TzVB" role="3t5Oan" />
+      <node concept="3clFbT" id="56jSwh$T$3e" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="56jSwh$T$A8" role="V601i">
+      <property role="TrG5h" value="radial-compaction" />
+      <node concept="Rm8GO" id="56jSwh$T$PO" role="3t49C2">
+        <ref role="Rm8GQ" to="yrb0:~CompactionStrategy.NONE" resolve="NONE" />
+        <ref role="1Px2BO" to="yrb0:~CompactionStrategy" resolve="CompactionStrategy" />
+      </node>
+      <node concept="3uibUv" id="56jSwh$T$Jt" role="3t5Oan">
+        <ref role="3uigEE" to="yrb0:~CompactionStrategy" resolve="CompactionStrategy" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="56jSwh$T$QQ" role="V601i">
+      <property role="TrG5h" value="radial-compaction-step-size" />
+      <node concept="10Oyi0" id="56jSwh$T$Yw" role="3t5Oan" />
+      <node concept="3cmrfG" id="56jSwh$T_0t" role="3t49C2">
+        <property role="3cmrfH" value="1" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="56jSwh$TDN8" role="V601i">
+      <property role="TrG5h" value="radial-radius" />
+      <node concept="10P55v" id="56jSwh$TDSn" role="3t5Oan" />
+      <node concept="3b6qkQ" id="56jSwh$TDTF" role="3t49C2">
+        <property role="$nhwW" value="0.0" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="56jSwh$TEpx" role="V601i">
+      <property role="TrG5h" value="radial-rotate" />
+      <node concept="10P_77" id="56jSwh$TEun" role="3t5Oan" />
+      <node concept="3clFbT" id="56jSwh$TEvh" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="56jSwh$TFlt" role="V601i">
+      <property role="TrG5h" value="radial-sorter" />
+      <node concept="Rm8GO" id="56jSwh$TFw3" role="3t49C2">
+        <ref role="Rm8GQ" to="yrb0:~SortingStrategy.NONE" resolve="NONE" />
+        <ref role="1Px2BO" to="yrb0:~SortingStrategy" resolve="SortingStrategy" />
+      </node>
+      <node concept="3uibUv" id="56jSwh$TFs8" role="3t5Oan">
+        <ref role="3uigEE" to="yrb0:~SortingStrategy" resolve="SortingStrategy" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="56jSwh$g_jR">
@@ -7091,7 +7161,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="56jSwh$gGA4">
-    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.box" />
     <ref role="1XX52x" to="2qld:56jSwh$g_vp" resolve="BoxLayoutConfig" />
     <node concept="3EZMnI" id="56jSwh$gGZh" role="2wV5jI">
       <node concept="2EHx9g" id="56jSwh$gH15" role="2iSdaV" />
@@ -7277,6 +7347,351 @@
         </node>
         <node concept="3F1sOY" id="56jSwh$gIxi" role="3EZMnx">
           <ref role="1NtTu8" to="2qld:56jSwh$gGj4" resolve="padding" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="56jSwh$RPzQ">
+    <property role="3GE5qa" value="layoutAlgorithm.config.radial" />
+    <ref role="1XX52x" to="2qld:56jSwh$RMMZ" resolve="RadialLayoutConfig" />
+    <node concept="3EZMnI" id="56jSwh$RP$G" role="2wV5jI">
+      <node concept="2EHx9g" id="56jSwh$RP$H" role="2iSdaV" />
+      <node concept="3EZMnI" id="56jSwh$RP$I" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RP$J" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RP$K" role="3EZMnx">
+          <property role="3F0ifm" value="additional wedge space" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RP$L" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RP$M" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RP$N" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RP$O" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RP$P" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RP$Q" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RP$R" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-rotation-computeAdditionalWedgeSpace.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RP$S" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$RN2a" resolve="additionalWedgeSpace" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RPW$" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RPW_" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RPWA" role="3EZMnx">
+          <property role="3F0ifm" value="annulus wedge criteria" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RPWB" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RPWC" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RPWD" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RPWE" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RPWF" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RPWG" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RPWH" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-wedgeCriteria.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RPWI" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$RNcK" resolve="annulusWedgeCriteria" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RPZI" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RPZJ" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RPZK" role="3EZMnx">
+          <property role="3F0ifm" value="center on root" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RPZL" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RPZM" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RPZN" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RPZO" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RPZP" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RPZQ" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RPZR" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-centerOnRoot.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RPZS" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$RNql" resolve="centerOnRoot" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQ2D" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQ2E" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQ2F" role="3EZMnx">
+          <property role="3F0ifm" value="compaction" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQ2G" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQ2H" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQ2I" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQ2J" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQ2K" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQ2L" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQ2M" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-compactor.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQ2N" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$RNBp" resolve="compaction" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQ5l" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQ5m" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQ5n" role="3EZMnx">
+          <property role="3F0ifm" value="compaction step size" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQ5o" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQ5p" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQ5q" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQ5r" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQ5s" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQ5t" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQ5u" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-compactionStepSize.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQ5v" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$RNNr" resolve="compactionStepSize" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RTpZ" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RTq0" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RTq1" role="3EZMnx">
+          <property role="3F0ifm" value="node spacing" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RTq2" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RTq3" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RTq4" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RTq5" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RTq6" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RTq7" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RTq8" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-spacing-nodeNode.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RTq9" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$RO4c" resolve="nodeSpacing" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQ80" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQ81" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQ82" role="3EZMnx">
+          <property role="3F0ifm" value="omit node micro layout" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQ83" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQ84" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQ85" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQ86" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQ87" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQ88" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQ89" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-omitNodeMicroLayout.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQ8a" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$ROhI" resolve="omitNodeMicroLayout" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQc2" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQc3" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQc4" role="3EZMnx">
+          <property role="3F0ifm" value="outgoing edge angles" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQc5" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQc6" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQc7" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQc8" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQc9" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQca" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQcb" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-rotation-outgoingEdgeAngles.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQcc" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$ROtD" resolve="outgoingEdgeAngels" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQfD" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQfE" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQfF" role="3EZMnx">
+          <property role="3F0ifm" value="radius" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQfG" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQfH" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQfI" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQfJ" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQfK" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQfL" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQfM" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-radius.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQfN" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$ROCn" resolve="radius" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQjr" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQjs" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQjt" role="3EZMnx">
+          <property role="3F0ifm" value="rotate" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQju" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQjv" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQjw" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQjx" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQjy" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQjz" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQj$" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-rotate.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQj_" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$ROJQ" resolve="rotate" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQmM" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQmN" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQmO" role="3EZMnx">
+          <property role="3F0ifm" value="sorter" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQmP" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQmQ" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQmR" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQmS" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQmT" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQmU" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQmV" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-sorter.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQmW" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$ROR5" resolve="sorter" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQrw" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQrx" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQry" role="3EZMnx">
+          <property role="3F0ifm" value="target angle" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQrz" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQr$" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQr_" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQrA" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQrB" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQrC" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQrD" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-rotation-targetAngle.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQrE" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$ROZq" resolve="targetAngle" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$RQvN" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$RQvO" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$RQvP" role="3EZMnx">
+          <property role="3F0ifm" value="translation optimization" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$RQvQ" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$RQvR" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$RQvS" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$RQvT" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$RQvU" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$RQvV" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$RQvW" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-radial-optimizationCriteria.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$RQvX" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$RPdL" resolve="optimizationCriteria" />
         </node>
       </node>
     </node>

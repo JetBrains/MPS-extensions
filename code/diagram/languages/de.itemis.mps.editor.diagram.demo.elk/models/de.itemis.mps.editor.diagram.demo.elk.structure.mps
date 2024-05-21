@@ -36,6 +36,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -94,6 +95,9 @@
     <node concept="PrWs8" id="37WsXDFJRE6" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="qwNnoDwcAa" role="PrDN$">
+      <ref role="PrY4T" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+    </node>
     <node concept="1TJgyj" id="4PrkOTvmfDo" role="1TKVEi">
       <property role="IQ2ns" value="5574140559873342040" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -108,6 +112,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4PrkOTvmfco" resolve="Edge" />
     </node>
+    <node concept="1TJgyj" id="qwNnoDwdC6" role="1TKVEi">
+      <property role="IQ2ns" value="477607467887417862" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    </node>
   </node>
   <node concept="1TIwiD" id="37WsXDFJYOZ">
     <property role="EcuMT" value="3601881183937359167" />
@@ -115,6 +126,14 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="radial" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="qwNnoDwlbU" role="1TKVEi">
+      <property role="IQ2ns" value="477607467887448826" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="2qld:56jSwh$RMMZ" resolve="RadialLayoutConfig" />
+      <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
+    </node>
     <node concept="PrWs8" id="37WsXDFJYP1" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>
@@ -145,18 +164,16 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="box" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="5Qzx7AqxwW7" role="PzmwI">
+      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
+    </node>
     <node concept="1TJgyj" id="56jSwh$rN3F" role="1TKVEi">
       <property role="IQ2ns" value="5878290447141384427" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="config" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="2qld:56jSwh$g_vp" resolve="BoxLayoutConfig" />
-    </node>
-    <node concept="PrWs8" id="5Qzx7AqxwW7" role="PzmwI">
-      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
-    </node>
-    <node concept="PrWs8" id="56jSwh$HrcE" role="PzmwI">
-      <ref role="PrY4T" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+      <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
     </node>
   </node>
   <node concept="1TIwiD" id="767du_ZO9Kb">

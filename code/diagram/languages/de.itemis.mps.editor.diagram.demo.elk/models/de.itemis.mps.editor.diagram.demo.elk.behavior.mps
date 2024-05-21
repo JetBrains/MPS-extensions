@@ -8,8 +8,8 @@
   </languages>
   <imports>
     <import index="xaff" ref="r:c7876b12-6303-45fa-a73e-a3f54d2e4e16(de.itemis.mps.editor.diagram.demo.elk.structure)" />
+    <import index="2qld" ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" />
     <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" implicit="true" />
-    <import index="2qld" ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -79,9 +79,6 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -93,12 +90,8 @@
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
     </language>
   </registry>
-  <node concept="13h7C7" id="56jSwh$Hrgn">
-    <property role="3GE5qa" value="box" />
-    <ref role="13h7C2" to="xaff:5Qzx7AqxwW6" resolve="BoxTest" />
-    <node concept="13hLZK" id="56jSwh$Hrgo" role="13h7CW">
-      <node concept="3clFbS" id="56jSwh$Hrgp" role="2VODD2" />
-    </node>
+  <node concept="13h7C7" id="qwNnoDwdWu">
+    <ref role="13h7C2" to="xaff:37WsXDFJRg1" resolve="IBaseGraphTest" />
     <node concept="13i0hz" id="56jSwh$Hrii" role="13h7CS">
       <property role="TrG5h" value="getUserDefinedConfigs" />
       <ref role="13i0hy" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
@@ -128,7 +121,7 @@
               <node concept="2OqwBi" id="56jSwh$Hw2P" role="25WWJ7">
                 <node concept="13iPFW" id="56jSwh$HvGc" role="2Oq$k0" />
                 <node concept="3TrEf2" id="56jSwh$HwtI" role="2OqNvi">
-                  <ref role="3Tt5mk" to="xaff:56jSwh$rN3F" resolve="config" />
+                  <ref role="3Tt5mk" to="xaff:qwNnoDwdC6" resolve="config" />
                 </node>
               </node>
             </node>
@@ -156,6 +149,9 @@
         </node>
       </node>
       <node concept="10P_77" id="56jSwh$Hrit" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="qwNnoDwdWv" role="13h7CW">
+      <node concept="3clFbS" id="qwNnoDwdWw" role="2VODD2" />
     </node>
   </node>
 </model>

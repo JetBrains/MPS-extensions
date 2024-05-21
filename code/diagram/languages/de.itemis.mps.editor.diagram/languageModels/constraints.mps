@@ -494,7 +494,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="56jSwh$gAa1">
-    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.box" />
     <ref role="1M2myG" to="2qld:56jSwh$g_vp" resolve="BoxLayoutConfig" />
     <node concept="9S07l" id="56jSwh$gAbE" role="9Vyp8">
       <node concept="3clFbS" id="56jSwh$gAbF" role="2VODD2">
@@ -526,6 +526,47 @@
               <node concept="1mIQ4w" id="56jSwh$gAd0" role="2OqNvi">
                 <node concept="chp4Y" id="56jSwh$gAd1" role="cj9EA">
                   <ref role="cht4Q" to="2qld:5Qzx7AqukcW" resolve="BoxLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="56jSwh$RVIG">
+    <property role="3GE5qa" value="layoutAlgorithm.config.radial" />
+    <ref role="1M2myG" to="2qld:56jSwh$RMMZ" resolve="RadialLayoutConfig" />
+    <node concept="9S07l" id="56jSwh$RVKl" role="9Vyp8">
+      <node concept="3clFbS" id="56jSwh$RVKm" role="2VODD2">
+        <node concept="3clFbF" id="56jSwh$RVM2" role="3cqZAp">
+          <node concept="22lmx$" id="56jSwh$RVM3" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$RVM4" role="3uHU7B">
+              <node concept="2OqwBi" id="56jSwh$RVM5" role="2Oq$k0">
+                <node concept="2OqwBi" id="56jSwh$RVM6" role="2Oq$k0">
+                  <node concept="nLn13" id="56jSwh$RVM7" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="56jSwh$RVM8" role="2OqNvi">
+                    <node concept="1xMEDy" id="56jSwh$RVM9" role="1xVPHs">
+                      <node concept="chp4Y" id="56jSwh$RVMa" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="56jSwh$RVMb" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="56jSwh$RVMc" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="56jSwh$RVMd" role="2OqNvi">
+                <node concept="EsrRn" id="56jSwh$RVMe" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$RVMf" role="3uHU7w">
+              <node concept="nLn13" id="56jSwh$RVMg" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="56jSwh$RVMh" role="2OqNvi">
+                <node concept="chp4Y" id="56jSwh$RVMi" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:37WsXDFGho9" resolve="RadialLayoutAlgorithm" />
                 </node>
               </node>
             </node>

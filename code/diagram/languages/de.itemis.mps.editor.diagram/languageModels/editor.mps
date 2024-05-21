@@ -5554,90 +5554,94 @@
     <property role="3GE5qa" value="layoutAlgorithm.config" />
     <property role="TrG5h" value="BaseLayoutConfig" />
     <ref role="1XX52x" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
-    <node concept="3EZMnI" id="2T42Bz2wQYp" role="2wV5jI">
-      <node concept="3F0ifn" id="2T42Bz2wQYr" role="3EZMnx">
+    <node concept="3EZMnI" id="56jSwh$qJ6I" role="2wV5jI">
+      <node concept="3F0ifn" id="56jSwh$qJkd" role="3EZMnx">
         <property role="3F0ifm" value="Base config:" />
-        <node concept="ljvvj" id="2T42Bz2wQYw" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="2T42Bz2Av8D" role="3F10Kt" />
-        <node concept="VQ3r3" id="2T42Bz2AYoN" role="3F10Kt">
+        <node concept="VPM3Z" id="56jSwh$qJkf" role="3F10Kt" />
+        <node concept="VQ3r3" id="56jSwh$qJkg" role="3F10Kt">
           <property role="2USNnj" value="gtbM8PH/underlined" />
         </node>
       </node>
-      <node concept="3F0ifn" id="2C8x_a3rNsY" role="3EZMnx">
-        <property role="3F0ifm" value="Hierarchy handling" />
-        <node concept="pVoyu" id="2C8x_a3rNta" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+      <node concept="2EHx9g" id="56jSwh$qJaE" role="2iSdaV" />
+      <node concept="3EZMnI" id="2T42Bz2wQYp" role="3EZMnx">
+        <node concept="3F0ifn" id="2C8x_a3rNsY" role="3EZMnx">
+          <property role="3F0ifm" value="Hierarchy handling" />
+          <node concept="pVoyu" id="2C8x_a3rNta" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="VPM3Z" id="2T42Bz2Av8K" role="3F10Kt" />
         </node>
-        <node concept="VPM3Z" id="2T42Bz2Av8K" role="3F10Kt" />
-      </node>
-      <node concept="1HlG4h" id="7iteTM731gE" role="3EZMnx">
-        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
-        <node concept="1HfYo3" id="7iteTM731gG" role="1HlULh">
-          <node concept="3TQlhw" id="7iteTM731gI" role="1Hhtcw">
-            <node concept="3clFbS" id="7iteTM731gK" role="2VODD2">
-              <node concept="3cpWs6" id="7iteTM731mc" role="3cqZAp">
-                <node concept="Xl_RD" id="7iteTM731rf" role="3cqZAk">
-                  <property role="Xl_RC" value="(?)" />
+        <node concept="1HlG4h" id="7iteTM731gE" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="7iteTM731gG" role="1HlULh">
+            <node concept="3TQlhw" id="7iteTM731gI" role="1Hhtcw">
+              <node concept="3clFbS" id="7iteTM731gK" role="2VODD2">
+                <node concept="3cpWs6" id="7iteTM731mc" role="3cqZAp">
+                  <node concept="Xl_RD" id="7iteTM731rf" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
+          <node concept="3u2Kpz" id="7iteTM731lK" role="3F10Kt">
+            <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-hierarchyHandling.html" />
+          </node>
+          <node concept="11LMrY" id="7iteTM76OFj" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
-        <node concept="3u2Kpz" id="7iteTM731lK" role="3F10Kt">
-          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-hierarchyHandling.html" />
+        <node concept="3F0ifn" id="7iteTM6XQWZ" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
         </node>
-        <node concept="11LMrY" id="7iteTM76OFj" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0A7n" id="2C8x_a3rNtB" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:2C8x_a3rNsJ" resolve="hierarchyHandling" />
+          <node concept="ljvvj" id="7iteTM6XQXv" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
+        <node concept="2iRfu4" id="56jSwh$qJ4D" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="7iteTM6XQWZ" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-      </node>
-      <node concept="3F0A7n" id="2C8x_a3rNtB" role="3EZMnx">
-        <ref role="1NtTu8" to="2qld:2C8x_a3rNsJ" resolve="hierarchyHandling" />
-        <node concept="ljvvj" id="7iteTM6XQXv" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+      <node concept="3EZMnI" id="56jSwh$qJxs" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$qJxt" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$qJ$T" role="3EZMnx">
+          <property role="3F0ifm" value="Edge routing" />
+          <node concept="pVoyu" id="56jSwh$qJ$U" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="VPM3Z" id="56jSwh$qJ$V" role="3F10Kt" />
         </node>
-      </node>
-      <node concept="3F0ifn" id="2T42Bz29$tH" role="3EZMnx">
-        <property role="3F0ifm" value="Edge routing" />
-        <node concept="pVoyu" id="7iteTM70blr" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VPM3Z" id="2T42Bz2Av8O" role="3F10Kt" />
-      </node>
-      <node concept="1HlG4h" id="7iteTM74hIr" role="3EZMnx">
-        <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
-        <node concept="1HfYo3" id="7iteTM74hIs" role="1HlULh">
-          <node concept="3TQlhw" id="7iteTM74hIt" role="1Hhtcw">
-            <node concept="3clFbS" id="7iteTM74hIu" role="2VODD2">
-              <node concept="3cpWs6" id="7iteTM74hIv" role="3cqZAp">
-                <node concept="Xl_RD" id="7iteTM74hIw" role="3cqZAk">
-                  <property role="Xl_RC" value="(?)" />
+        <node concept="1HlG4h" id="56jSwh$qJBt" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$qJBu" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$qJBv" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$qJBw" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$qJBx" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$qJBy" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
+          <node concept="3u2Kpz" id="56jSwh$qJBz" role="3F10Kt">
+            <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-edgeRouting.html" />
+          </node>
+          <node concept="11LMrY" id="56jSwh$qJB$" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
-        <node concept="3u2Kpz" id="7iteTM74hIx" role="3F10Kt">
-          <property role="3u2UNH" value="https://www.eclipse.org/elk/reference/options/org-eclipse-elk-edgeRouting.html" />
+        <node concept="3F0ifn" id="56jSwh$qJKc" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
         </node>
-        <node concept="11LMrY" id="7iteTM76dBk" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0A7n" id="56jSwh$qJFe" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:2T42Bz29pRt" resolve="edgeRouting" />
+          <node concept="ljvvj" id="56jSwh$qJFf" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
+        <node concept="3F0ifn" id="56jSwh$qJvF" role="3EZMnx" />
       </node>
-      <node concept="3F0ifn" id="7iteTM70bkF" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-      </node>
-      <node concept="3F0A7n" id="2T42Bz29$uu" role="3EZMnx">
-        <ref role="1NtTu8" to="2qld:2T42Bz29pRt" resolve="edgeRouting" />
-        <node concept="ljvvj" id="7iteTM70blu" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="l2Vlx" id="2T42Bz2wQYs" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="6ug9lnMIdEd">
@@ -6788,6 +6792,56 @@
         </node>
       </node>
     </node>
+    <node concept="3t5Usi" id="56jSwh$19pg" role="V601i">
+      <property role="TrG5h" value="diagram-aspect-ratio" />
+      <node concept="3uibUv" id="56jSwh$19LK" role="3t5Oan">
+        <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="56jSwh$1IEX" role="V601i">
+      <property role="TrG5h" value="diagram-content-alignment" />
+      <node concept="3uibUv" id="56jSwh$1IEY" role="3t5Oan">
+        <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
+        <node concept="3uibUv" id="56jSwh$1JU2" role="11_B2D">
+          <ref role="3uigEE" to="gwyy:~ContentAlignment" resolve="ContentAlignment" />
+        </node>
+      </node>
+      <node concept="2YIFZM" id="56jSwh$1JZX" role="3t49C2">
+        <ref role="37wK5l" to="gwyy:~ContentAlignment.topLeft()" resolve="topLeft" />
+        <ref role="1Pybhc" to="gwyy:~ContentAlignment" resolve="ContentAlignment" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="56jSwh$1SzN" role="V601i">
+      <property role="TrG5h" value="diagram-expand-nodes" />
+      <node concept="10P_77" id="56jSwh$1ULm" role="3t5Oan" />
+      <node concept="3clFbT" id="56jSwh$1UZP" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="56jSwh$2097" role="V601i">
+      <property role="TrG5h" value="diagram-interactive" />
+      <node concept="10P_77" id="56jSwh$2098" role="3t5Oan" />
+      <node concept="3clFbT" id="56jSwh$2099" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="56jSwh$3xAj" role="V601i">
+      <property role="TrG5h" value="diagram-padding" />
+      <node concept="3uibUv" id="56jSwh$3yjo" role="3t5Oan">
+        <ref role="3uigEE" to="vgho:~ElkPadding" resolve="ElkPadding" />
+      </node>
+      <node concept="2ShNRf" id="56jSwh$3yjE" role="3t49C2">
+        <node concept="1pGfFk" id="56jSwh$3yuu" role="2ShVmc">
+          <property role="373rjd" value="true" />
+          <ref role="37wK5l" to="vgho:~ElkPadding.&lt;init&gt;(double)" resolve="ElkPadding" />
+          <node concept="3cmrfG" id="56jSwh$3yuN" role="37wK5m">
+            <property role="3cmrfH" value="12" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3t5Usi" id="56jSwh$3MPE" role="V601i">
+      <property role="TrG5h" value="diagram-priority" />
+      <node concept="3uibUv" id="56jSwh$3MPF" role="3t5Oan">
+        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+      </node>
+    </node>
   </node>
   <node concept="V5hpn" id="56jSwhzYh1h">
     <property role="3GE5qa" value="layoutAlgorithm.options" />
@@ -6969,6 +7023,262 @@
       <property role="TrG5h" value="radial-outgoing-edge-angles" />
       <node concept="10P_77" id="56jSwhzYKdv" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYKdw" role="3t49C2" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="56jSwh$g_jR">
+    <property role="3GE5qa" value="layoutAlgorithm.config.core" />
+    <ref role="1XX52x" to="2qld:56jSwh$g_0B" resolve="ContentAlignment" />
+    <node concept="3EZMnI" id="56jSwh$pWiS" role="2wV5jI">
+      <node concept="2iRfu4" id="56jSwh$pWiT" role="2iSdaV" />
+      <node concept="3F0A7n" id="56jSwh$g_nz" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:56jSwh$g_6I" resolve="alignment" />
+      </node>
+      <node concept="VPM3Z" id="56jSwh$pWlq" role="3F10Kt" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="56jSwh$gFIc">
+    <property role="3GE5qa" value="layoutAlgorithm.config.core" />
+    <ref role="1XX52x" to="2qld:56jSwh$gEVe" resolve="Padding" />
+    <node concept="3EZMnI" id="56jSwh$gG0c" role="2wV5jI">
+      <node concept="3F0ifn" id="56jSwh$oW7F" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" to="tpen:hFCSAw$" resolve="LeftParen" />
+      </node>
+      <node concept="2iRfu4" id="56jSwh$gG0d" role="2iSdaV" />
+      <node concept="3F0A7n" id="56jSwh$gFY7" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:56jSwh$gF9A" resolve="top" />
+      </node>
+      <node concept="3F0ifn" id="56jSwh$oWh5" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+        <node concept="11L4FC" id="56jSwh$oXbF" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="56jSwh$oXdo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="56jSwh$gG4p" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:56jSwh$gFfk" resolve="right" />
+      </node>
+      <node concept="3F0ifn" id="56jSwh$oWiZ" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+        <node concept="11L4FC" id="56jSwh$oXf4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="56jSwh$oXf5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="56jSwh$gG6X" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:56jSwh$gFrD" resolve="bottom" />
+      </node>
+      <node concept="3F0ifn" id="56jSwh$oWll" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+        <node concept="11L4FC" id="56jSwh$oXgm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="56jSwh$oXgn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="56jSwh$gGbb" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:56jSwh$gFuX" resolve="left" />
+      </node>
+      <node concept="3F0ifn" id="56jSwh$oWcL" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="56jSwh$gGA4">
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <ref role="1XX52x" to="2qld:56jSwh$g_vp" resolve="BoxLayoutConfig" />
+    <node concept="3EZMnI" id="56jSwh$gGZh" role="2wV5jI">
+      <node concept="2EHx9g" id="56jSwh$gH15" role="2iSdaV" />
+      <node concept="3EZMnI" id="56jSwh$gGSY" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$gGSZ" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$gGQT" role="3EZMnx">
+          <property role="3F0ifm" value="aspect ratio" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$JrlQ" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$JrlR" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$JrlS" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$JrlT" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$JrlU" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$JrlV" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$JrlW" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-aspectRatio.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$gGXb" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$gAxq" resolve="aspectRatio" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$gH9L" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$gH9M" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$gHbz" role="3EZMnx">
+          <property role="3F0ifm" value="box layout mode" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$JryC" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$JryD" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$JryE" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$JryF" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$JryG" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$JryH" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$JryI" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-box-packingMode.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$gHhJ" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$gAPr" resolve="boxLayoutMode" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$gHsy" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$gHsz" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$gHl3" role="3EZMnx">
+          <property role="3F0ifm" value="content alignment" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$Jr_9" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$Jr_a" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$Jr_b" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$Jr_c" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$Jr_d" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$Jr_e" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$Jr_f" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-contentAlignment.html" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="56jSwh$gHwt" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <ref role="1NtTu8" to="2qld:56jSwh$gB74" resolve="contentAlignment" />
+          <node concept="2iRfu4" id="56jSwh$gHwv" role="2czzBx" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$gHFQ" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$gHFR" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$gH_w" role="3EZMnx">
+          <property role="3F0ifm" value="expand nodes" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$JrC5" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$JrC6" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$JrC7" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$JrC8" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$JrC9" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$JrCa" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$JrCb" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-expandNodes.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$gHLu" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$gBxA" resolve="expandNodes" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$gHVA" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$gHVB" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$gHPc" role="3EZMnx">
+          <property role="3F0ifm" value="interactive" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$JrDM" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$JrDN" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$JrDO" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$JrDP" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$JrDQ" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$JrDR" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$JrDS" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-interactive.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$gI0u" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$gBNX" resolve="interactive" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$gIek" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$gIel" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$gI7s" role="3EZMnx">
+          <property role="3F0ifm" value="node spacing" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$JrGj" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$JrGk" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$JrGl" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$JrGm" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$JrGn" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$JrGo" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$JrGp" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-spacing-nodeNode.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="56jSwh$gIjg" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$gC0O" resolve="nodeSpacing" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="56jSwh$gIt6" role="3EZMnx">
+        <node concept="2iRfu4" id="56jSwh$gIt7" role="2iSdaV" />
+        <node concept="3F0ifn" id="56jSwh$gIlL" role="3EZMnx">
+          <property role="3F0ifm" value="padding" />
+        </node>
+        <node concept="1HlG4h" id="56jSwh$JrIO" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="56jSwh$JrIP" role="1HlULh">
+            <node concept="3TQlhw" id="56jSwh$JrIQ" role="1Hhtcw">
+              <node concept="3clFbS" id="56jSwh$JrIR" role="2VODD2">
+                <node concept="3cpWs6" id="56jSwh$JrIS" role="3cqZAp">
+                  <node concept="Xl_RD" id="56jSwh$JrIT" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="56jSwh$JrIU" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-padding.html" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="56jSwh$gIxi" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:56jSwh$gGj4" resolve="padding" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

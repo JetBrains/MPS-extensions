@@ -2568,5 +2568,147 @@
       <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
     </node>
   </node>
+  <node concept="25R3W" id="56jSwh$ge_u">
+    <property role="3F6X1D" value="5878290447138351454" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.box" />
+    <property role="TrG5h" value="BoxLayoutMode" />
+    <ref role="1H5jkz" node="56jSwh$ge_v" resolve="SIMPLE" />
+    <node concept="25R33" id="56jSwh$ge_v" role="25R1y">
+      <property role="3tVfz5" value="5878290447138351455" />
+      <property role="TrG5h" value="SIMPLE" />
+    </node>
+    <node concept="25R33" id="56jSwh$ge_$" role="25R1y">
+      <property role="3tVfz5" value="5878290447138351460" />
+      <property role="TrG5h" value="GROUP_DEC" />
+    </node>
+    <node concept="25R33" id="56jSwh$ge_C" role="25R1y">
+      <property role="3tVfz5" value="5878290447138351464" />
+      <property role="TrG5h" value="GROUP_MIXED" />
+    </node>
+    <node concept="25R33" id="56jSwh$ge_I" role="25R1y">
+      <property role="3tVfz5" value="5878290447138351470" />
+      <property role="TrG5h" value="GROUP_INC" />
+    </node>
+  </node>
+  <node concept="25R3W" id="56jSwh$g$O1">
+    <property role="3F6X1D" value="5878290447138442497" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.core" />
+    <property role="TrG5h" value="ContentAlignmentEnum" />
+    <node concept="25R33" id="56jSwh$g$O2" role="25R1y">
+      <property role="3tVfz5" value="5878290447138442498" />
+      <property role="TrG5h" value="V_TOP" />
+      <property role="1L1pqM" value="vertical top" />
+    </node>
+    <node concept="25R33" id="56jSwh$g$ZU" role="25R1y">
+      <property role="3tVfz5" value="5878290447138443258" />
+      <property role="TrG5h" value="V_CENTER" />
+      <property role="1L1pqM" value="vertical center" />
+    </node>
+    <node concept="25R33" id="56jSwh$g$ZY" role="25R1y">
+      <property role="3tVfz5" value="5878290447138443262" />
+      <property role="TrG5h" value="V_BOTTOM" />
+      <property role="1L1pqM" value="vertical bottom" />
+    </node>
+    <node concept="25R33" id="56jSwh$g_03" role="25R1y">
+      <property role="3tVfz5" value="5878290447138443267" />
+      <property role="TrG5h" value="H_LEFT" />
+      <property role="1L1pqM" value="horizontal left" />
+    </node>
+    <node concept="25R33" id="56jSwh$g_09" role="25R1y">
+      <property role="3tVfz5" value="5878290447138443273" />
+      <property role="TrG5h" value="H_CENTER" />
+      <property role="1L1pqM" value="horizontal center" />
+    </node>
+    <node concept="25R33" id="56jSwh$g_0g" role="25R1y">
+      <property role="3tVfz5" value="5878290447138443280" />
+      <property role="TrG5h" value="H_RIGHT" />
+      <property role="1L1pqM" value="horizontal right" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="56jSwh$g_0B">
+    <property role="EcuMT" value="5878290447138443303" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.core" />
+    <property role="TrG5h" value="ContentAlignment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="56jSwh$g_6I" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138443694" />
+      <property role="TrG5h" value="alignment" />
+      <ref role="AX2Wp" node="56jSwh$g$O1" resolve="ContentAlignmentEnum" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="56jSwh$g_vp">
+    <property role="EcuMT" value="5878290447138445273" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <property role="TrG5h" value="BoxLayoutConfig" />
+    <property role="34LRSv" value="box layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyj" id="56jSwh$gB74" role="1TKVEi">
+      <property role="IQ2ns" value="5878290447138451908" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contentAlignment" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="56jSwh$g_0B" resolve="ContentAlignment" />
+    </node>
+    <node concept="1TJgyj" id="56jSwh$gGj4" role="1TKVEi">
+      <property role="IQ2ns" value="5878290447138473156" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyi" id="56jSwh$gAxq" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138449498" />
+      <property role="TrG5h" value="aspectRatio" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="56jSwh$gAPr" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138450779" />
+      <property role="TrG5h" value="boxLayoutMode" />
+      <ref role="AX2Wp" node="56jSwh$ge_u" resolve="BoxLayoutMode" />
+    </node>
+    <node concept="1TJgyi" id="56jSwh$gBxA" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138453606" />
+      <property role="TrG5h" value="expandNodes" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="56jSwh$gBNX" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138454781" />
+      <property role="TrG5h" value="interactive" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="56jSwh$gC0O" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138455604" />
+      <property role="TrG5h" value="nodeSpacing" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1sEMCm" id="56jSwh$g_vs" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="56jSwh$gEVe">
+    <property role="EcuMT" value="5878290447138467534" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.core" />
+    <property role="TrG5h" value="Padding" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="56jSwh$gF9A" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138468454" />
+      <property role="TrG5h" value="top" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="56jSwh$gFfk" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138468820" />
+      <property role="TrG5h" value="right" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="56jSwh$gFrD" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138469609" />
+      <property role="TrG5h" value="bottom" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="56jSwh$gFuX" role="1TKVEl">
+      <property role="IQ2nx" value="5878290447138469821" />
+      <property role="TrG5h" value="left" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+  </node>
 </model>
 

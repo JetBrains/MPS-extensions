@@ -11,6 +11,19 @@
       <concept id="477607467906648985" name="de.itemis.mps.editor.diagram.structure.FixedLayoutConfig" flags="ng" index="G1CrJ">
         <child id="477607467906651444" name="padding" index="G1Dx2" />
       </concept>
+      <concept id="477607467907982644" name="de.itemis.mps.editor.diagram.structure.TreeLayoutConfig" flags="ng" index="G6Ax2">
+        <property id="477607467907990382" name="nodeSpacing" index="G6wSo" />
+        <property id="477607467907997544" name="topdownScaleFactor" index="G6x8u" />
+        <property id="477607467907996617" name="topdownNodeType" index="G6xqZ" />
+        <property id="477607467907994695" name="topdownHierarchicalNodeAspectRatio" index="G6x$L" />
+        <property id="477607467907995335" name="topdownHierarchicalNodeWidth" index="G6xIL" />
+        <property id="477607467907994291" name="separateConnectedComponents" index="G6xZ5" />
+        <property id="477607467907998605" name="weighting" index="G6yVV" />
+        <property id="477607467907984597" name="direction" index="G6A6z" />
+        <property id="477607467907984049" name="aspectRatio" index="G6Av7" />
+        <property id="477607467907986618" name="edgeEndTextureLength" index="G6BBc" />
+        <property id="477607467907987274" name="edgeNodeSpacing" index="G6BCW" />
+      </concept>
       <concept id="477607467899765827" name="de.itemis.mps.editor.diagram.structure.DisCoLayoutConfig" flags="ng" index="GBo$P">
         <property id="477607467899768499" name="componentsSpacing" index="GBof5" />
         <property id="477607467899772077" name="fillPolyominoes" index="GBp7r" />
@@ -1220,6 +1233,19 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="G6Ax2" id="3biyEnNj316" role="J81tK">
+      <property role="G6Av7" value="1.6" />
+      <property role="G6A6z" value="2C8x_a2Qx7V/UNDEFINED" />
+      <property role="G6BBc" value="7.0" />
+      <property role="G6BCW" value="10.0" />
+      <property role="G6wSo" value="20.0" />
+      <property role="G6xZ5" value="true" />
+      <property role="G6x$L" value="1.414" />
+      <property role="G6xIL" value="150.0" />
+      <property role="G6xqZ" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
+      <property role="G6x8u" value="1.0" />
+      <property role="G6yVV" value="qwNnoEIIjr/MODEL_ORDER" />
     </node>
   </node>
   <node concept="379oHZ" id="5Qzx7AqxFFn">

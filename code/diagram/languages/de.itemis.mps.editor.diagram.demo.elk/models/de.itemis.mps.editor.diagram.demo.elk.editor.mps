@@ -25,6 +25,7 @@
     <import index="1h9k" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p1widthapproximation(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="hyfx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.disco.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="ikqz" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.common.compaction.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="4fog" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.mrtree.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -808,6 +809,10 @@
         <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
       </node>
       <node concept="3F0ifn" id="5Qzx7AqodW5" role="3EZMnx" />
+      <node concept="3F1sOY" id="3biyEnNiIx7" role="3EZMnx">
+        <ref role="1NtTu8" to="xaff:3biyEnNh_Ks" resolve="config" />
+      </node>
+      <node concept="3F0ifn" id="3biyEnNiIy4" role="3EZMnx" />
       <node concept="27vDVx" id="5Qzx7Aqljch" role="3EZMnx">
         <node concept="aDKH9" id="5Qzx7Aqljci" role="aCds2">
           <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
@@ -816,6 +821,459 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="3fe8g" id="5Qzx7AqrMg2" role="35U2g" />
+        <node concept="3tD6jV" id="vVBnaNLcK1" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+          <node concept="3sjG9q" id="vVBnaNLcK2" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLcK3" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLeGA" role="3cqZAp">
+                <node concept="2YIFZM" id="vVBnaNLeW1" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="vVBnaNLhIC" role="37wK5m">
+                    <node concept="2OqwBi" id="vVBnaNLhda" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNLgRR" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNLhwY" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="vVBnaNLi7G" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:qwNnoEIEEL" resolve="aspectRatio" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLcV9" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:qwNnoEJwkp" resolve="core-direction" />
+          <node concept="3sjG9q" id="vVBnaNLcVb" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLcVd" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLfxf" role="3cqZAp">
+                <node concept="unr1b" id="vVBnaNLfDO" role="3clFbG">
+                  <ref role="un$jP" to="gwyy:~Direction" resolve="Direction" />
+                  <node concept="2OqwBi" id="vVBnaNLiOS" role="unwt0">
+                    <node concept="2OqwBi" id="vVBnaNLiui" role="2Oq$k0">
+                      <node concept="2OqwBi" id="vVBnaNLiq9" role="2Oq$k0">
+                        <node concept="pncrf" id="vVBnaNLijG" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="vVBnaNLitb" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="vVBnaNLixU" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEIENl" resolve="direction" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="vVBnaNLj2F" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLd7v" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:qwNnoEIF79" resolve="tree-edge-end-texture-length" />
+          <node concept="3sjG9q" id="vVBnaNLd7x" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLd7z" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLeZj" role="3cqZAp">
+                <node concept="2YIFZM" id="vVBnaNLeZk" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="vVBnaNLjkp" role="37wK5m">
+                    <node concept="2OqwBi" id="vVBnaNLjf5" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNLjdu" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNLjip" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="vVBnaNLjpb" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:qwNnoEIFiU" resolve="edgeEndTextureLength" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLddU" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYNtN" resolve="core-edge-node-spacing" />
+          <node concept="3sjG9q" id="vVBnaNLddW" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLddY" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLf3_" role="3cqZAp">
+                <node concept="2YIFZM" id="vVBnaNLf3A" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="vVBnaNLkuF" role="37wK5m">
+                    <node concept="2OqwBi" id="vVBnaNLjND" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNLjt$" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNLkh1" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="vVBnaNLkTL" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:qwNnoEIFta" resolve="edgeNodeSpacing" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLdlf" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:qwNnoEJDSC" resolve="tree-edge-routing-mode" />
+          <node concept="3sjG9q" id="vVBnaNLdlh" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLdlj" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLfPt" role="3cqZAp">
+                <node concept="unr1b" id="vVBnaNLl0Z" role="3clFbG">
+                  <ref role="un$jP" to="4fog:~EdgeRoutingMode" resolve="EdgeRoutingMode" />
+                  <node concept="2OqwBi" id="vVBnaNLlEV" role="unwt0">
+                    <node concept="2OqwBi" id="vVBnaNLlqI" role="2Oq$k0">
+                      <node concept="2OqwBi" id="vVBnaNLllL" role="2Oq$k0">
+                        <node concept="pncrf" id="vVBnaNLlfk" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="vVBnaNLloN" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="vVBnaNLlxe" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEIFCe" resolve="edgeRoutingMode" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="vVBnaNLlQI" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLdwf" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+          <node concept="3sjG9q" id="vVBnaNLdwh" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLdwj" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLlW8" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNLmik" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNLm5t" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNLlW7" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNLmbT" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNLmma" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:qwNnoEIFMu" resolve="fixedGraphSize" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLdA8" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="core-interactive" />
+          <node concept="3sjG9q" id="vVBnaNLdAa" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLdAc" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLmqu" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNLmuU" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNLmqV" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNLmqt" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNLmtN" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNLmyK" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:qwNnoEIFWm" resolve="interactive" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLdG7" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:qwNnoDPfBg" resolve="core-interactive-layout" />
+          <node concept="3sjG9q" id="vVBnaNLdG9" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLdGb" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLmEC" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNLmN5" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNLmF5" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNLmEB" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNLmHX" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNLmRJ" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:qwNnoEIG5s" resolve="interactiveLayout" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLdNO" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <node concept="3sjG9q" id="vVBnaNLdNQ" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLdNS" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLfcl" role="3cqZAp">
+                <node concept="2YIFZM" id="vVBnaNLfcm" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="vVBnaNLnfR" role="37wK5m">
+                    <node concept="2OqwBi" id="vVBnaNLn05" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNLmZi" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNLn5P" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="vVBnaNLnl5" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:qwNnoEIGdI" resolve="nodeSpacing" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLdSn" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+          <node concept="3sjG9q" id="vVBnaNLdSp" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLdSr" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLo30" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNLnF9" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNLnw3" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNLnpu" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNLnD9" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNLnJL" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:qwNnoEIGoS" resolve="omitNodeMicroLayout" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLdXO" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:qwNnoEJI5F" resolve="tree-search-order" />
+          <node concept="3sjG9q" id="vVBnaNLdXQ" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLdXS" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLgbR" role="3cqZAp">
+                <node concept="unr1b" id="vVBnaNLger" role="3clFbG">
+                  <ref role="un$jP" to="4fog:~TreeifyingOrder" resolve="TreeifyingOrder" />
+                  <node concept="2OqwBi" id="vVBnaNLoOF" role="unwt0">
+                    <node concept="2OqwBi" id="vVBnaNLo_S" role="2Oq$k0">
+                      <node concept="2OqwBi" id="vVBnaNLoqU" role="2Oq$k0">
+                        <node concept="pncrf" id="vVBnaNLokt" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="vVBnaNLozX" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="vVBnaNLoEY" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEIGKH" resolve="searchOrder" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="vVBnaNLp1w" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLeac" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:qwNnoEJLcg" resolve="core-separate-connected-components" />
+          <node concept="3sjG9q" id="vVBnaNLeae" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLeag" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLp6c" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNLpoC" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNLpdf" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNLp6b" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNLplh" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNLptw" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:qwNnoEIHaN" resolve="separateConnectedComponents" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLekd" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:qwNnoEK0mZ" resolve="tree-weighting" />
+          <node concept="3sjG9q" id="vVBnaNLekf" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLekh" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLgA8" role="3cqZAp">
+                <node concept="unr1b" id="vVBnaNLgCI" role="3clFbG">
+                  <ref role="un$jP" to="4fog:~OrderWeighting" resolve="OrderWeighting" />
+                  <node concept="2OqwBi" id="vVBnaNLqca" role="unwt0">
+                    <node concept="2OqwBi" id="vVBnaNLpXn" role="2Oq$k0">
+                      <node concept="2OqwBi" id="vVBnaNLpMp" role="2Oq$k0">
+                        <node concept="pncrf" id="vVBnaNLpFW" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="vVBnaNLpWg" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="vVBnaNLq2t" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEIIed" resolve="weighting" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="vVBnaNLqoZ" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNLewL" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <node concept="3sjG9q" id="vVBnaNLewN" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNLewP" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNLqvG" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNLs4m" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNLrvg" role="2Oq$k0">
+                    <node concept="2OqwBi" id="vVBnaNLqNS" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNLqvF" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNLreB" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="vVBnaNLrR0" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:qwNnoEIGBk" resolve="padding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="vVBnaNLsmn" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNOut4" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="topdown-hierarchical-node-aspect-ratio" />
+          <node concept="3sjG9q" id="vVBnaNOut5" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNOut6" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNOut7" role="3cqZAp">
+                <node concept="2YIFZM" id="vVBnaNOut8" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="vVBnaNOut9" role="37wK5m">
+                    <node concept="2OqwBi" id="vVBnaNOuta" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNOutb" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNOutc" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="vVBnaNOutd" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNTjv8" resolve="topdownHierarchicalNodeAspectRatio" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNOute" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="topdown-hierarchical-node-width" />
+          <node concept="3sjG9q" id="vVBnaNOutf" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNOutg" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNOuth" role="3cqZAp">
+                <node concept="2YIFZM" id="vVBnaNOuti" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="vVBnaNOutj" role="37wK5m">
+                    <node concept="2OqwBi" id="vVBnaNOutk" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNOutl" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNOutm" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="vVBnaNOutn" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnO42aj" resolve="topdownHierarchicalNodeWidth" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNOuto" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="core-topdown-layout" />
+          <node concept="3sjG9q" id="vVBnaNOutp" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNOutq" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNOutr" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNOuts" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNOutt" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNOutu" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNOutv" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNOutw" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNOutx" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="topdown-node-type" />
+          <node concept="3sjG9q" id="vVBnaNOuty" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNOutz" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNOut$" role="3cqZAp">
+                <node concept="unr1b" id="vVBnaNOut_" role="3clFbG">
+                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
+                  <node concept="2OqwBi" id="vVBnaNOutA" role="unwt0">
+                    <node concept="2OqwBi" id="vVBnaNOutB" role="2Oq$k0">
+                      <node concept="2OqwBi" id="vVBnaNOutC" role="2Oq$k0">
+                        <node concept="pncrf" id="vVBnaNOutD" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="vVBnaNOutE" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="vVBnaNOutF" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="vVBnaNOutG" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNOutH" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="topdown-scale-factor" />
+          <node concept="3sjG9q" id="vVBnaNOutI" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNOutJ" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNOutK" role="3cqZAp">
+                <node concept="2YIFZM" id="vVBnaNOutL" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="vVBnaNOutM" role="37wK5m">
+                    <node concept="2OqwBi" id="vVBnaNOutN" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNOutO" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNOutP" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="vVBnaNOutQ" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNTkvp" resolve="topdownScaleFactor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

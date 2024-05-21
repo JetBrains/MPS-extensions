@@ -56,6 +56,7 @@
     <import index="7bmw" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="onpr" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p3whitespaceelimination(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="1h9k" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p1widthapproximation(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="4fog" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.mrtree.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
@@ -14544,6 +14545,13 @@
         <ref role="v9R2y" node="qwNnoEDIb8" resolve="case_FixedLayoutConfig" />
       </node>
     </node>
+    <node concept="3aamgX" id="qwNnoEJosk" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="2qld:qwNnoEIEkO" resolve="TreeLayoutConfig" />
+      <node concept="j$656" id="qwNnoEJosl" role="1lVwrX">
+        <ref role="v9R2y" node="qwNnoEJmSa" resolve="case_TreeLayoutConfig" />
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="1xHXqL1QHNj">
     <property role="TrG5h" value="case_ButtonConfig" />
@@ -18094,6 +18102,708 @@
         </node>
         <node concept="raruj" id="qwNnoEDIcg" role="lGtFl" />
         <node concept="5jKBG" id="qwNnoEDIch" role="lGtFl">
+          <ref role="v9R2y" node="1MAkSr5cr4o" resolve="case_DiagramLayoutConfig" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="qwNnoEJmSa">
+    <property role="TrG5h" value="case_TreeLayoutConfig" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.tree" />
+    <ref role="3gUMe" to="2qld:qwNnoEIEkO" resolve="TreeLayoutConfig" />
+    <node concept="3clFbS" id="qwNnoEJmSb" role="13RCb5">
+      <node concept="3cpWs8" id="qwNnoEJmSc" role="3cqZAp">
+        <node concept="3cpWsn" id="qwNnoEJmSd" role="3cpWs9">
+          <property role="TrG5h" value="style" />
+          <node concept="2ShNRf" id="qwNnoEJmSe" role="33vP2m">
+            <node concept="1pGfFk" id="qwNnoEJmSf" role="2ShVmc">
+              <ref role="37wK5l" to="5ueo:~StyleImpl.&lt;init&gt;()" resolve="StyleImpl" />
+            </node>
+          </node>
+          <node concept="3uibUv" id="qwNnoEJmSg" role="1tU5fm">
+            <ref role="3uigEE" to="hox0:~Style" resolve="Style" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="qwNnoEJmSh" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJmSi" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJmSj" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJmSk" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJmSl" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-aspect-ratio" />
+            </node>
+            <node concept="3b6qkQ" id="qwNnoEK2g6" role="37wK5m">
+              <property role="$nhwW" value="1.6" />
+              <node concept="17Uvod" id="qwNnoEK2qx" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
+                <node concept="3zFVjK" id="qwNnoEK2q$" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEK2q_" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEK2qF" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEK2qA" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEK2qD" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIEEL" resolve="aspectRatio" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEK2qE" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJmSu" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJoU_" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJoUA" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJoUB" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJoUC" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJoUD" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoEJwkp" resolve="diagram-direction" />
+            </node>
+            <node concept="Rm8GO" id="qwNnoEK2WE" role="37wK5m">
+              <ref role="Rm8GQ" to="gwyy:~Direction.UNDEFINED" resolve="UNDEFINED" />
+              <ref role="1Px2BO" to="gwyy:~Direction" resolve="Direction" />
+              <node concept="1ZhdrF" id="qwNnoEK31o" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="qwNnoEK31p" role="3$ytzL">
+                  <node concept="3clFbS" id="qwNnoEK31q" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEK350" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEK3Tr" role="3clFbG">
+                        <node concept="2OqwBi" id="qwNnoEK3lH" role="2Oq$k0">
+                          <node concept="30H73N" id="qwNnoEK34Z" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="qwNnoEK3CZ" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:qwNnoEIENl" resolve="direction" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="qwNnoEK46e" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJoUM" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJp8j" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJp8k" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJp8l" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJp8m" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJp8n" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoEIF79" resolve="tree-edge-end-texture-length" />
+            </node>
+            <node concept="3b6qkQ" id="qwNnoEKcbt" role="37wK5m">
+              <property role="$nhwW" value="7.0" />
+              <node concept="17Uvod" id="qwNnoEKcn$" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
+                <node concept="3zFVjK" id="qwNnoEKcn_" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEKcnA" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKcwz" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKb42" role="3clFbG">
+                        <node concept="30H73N" id="qwNnoEKaFt" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="qwNnoEKbpo" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIFiU" resolve="edgeEndTextureLength" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJp8w" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJpiV" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJpiW" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJpiX" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJpiY" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJpiZ" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYNtN" resolve="diagram-edge-node-spacing" />
+            </node>
+            <node concept="3b6qkQ" id="qwNnoEKcQ0" role="37wK5m">
+              <property role="$nhwW" value="3.0" />
+              <node concept="17Uvod" id="qwNnoEKd1w" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
+                <node concept="3zFVjK" id="qwNnoEKd1z" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEKd1$" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKd1E" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKd1_" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEKd1C" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIFta" resolve="edgeNodeSpacing" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEKd1D" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJpj8" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJpvJ" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJpvK" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJpvL" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJpvM" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJpvN" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoEJDSC" resolve="tree-edge-routing-mode" />
+            </node>
+            <node concept="Rm8GO" id="qwNnoEKdpl" role="37wK5m">
+              <ref role="Rm8GQ" to="4fog:~EdgeRoutingMode.AVOID_OVERLAP" resolve="AVOID_OVERLAP" />
+              <ref role="1Px2BO" to="4fog:~EdgeRoutingMode" resolve="EdgeRoutingMode" />
+              <node concept="1ZhdrF" id="qwNnoEKdBt" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="qwNnoEKdBu" role="3$ytzL">
+                  <node concept="3clFbS" id="qwNnoEKdBv" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKdGH" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKflD" role="3clFbG">
+                        <node concept="2OqwBi" id="qwNnoEKdXq" role="2Oq$k0">
+                          <node concept="30H73N" id="qwNnoEKdGG" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="qwNnoEKegG" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:qwNnoEIFCe" resolve="edgeRoutingMode" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="qwNnoEKfxC" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJpvW" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJpIh" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJpIi" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJpIj" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJpIk" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJpIl" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="diagram-fixed-graph-size" />
+            </node>
+            <node concept="3clFbT" id="qwNnoEJpIm" role="37wK5m">
+              <node concept="17Uvod" id="qwNnoEJpIn" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <node concept="3zFVjK" id="qwNnoEJpIo" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEJpIp" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEJpIq" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEJpIr" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEJpIs" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIFMu" resolve="fixedGraphSize" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEJpIt" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJpIu" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJpZp" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJpZq" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJpZr" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJpZs" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJpZt" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="diagram-interactive" />
+            </node>
+            <node concept="3clFbT" id="qwNnoEJpZu" role="37wK5m">
+              <node concept="17Uvod" id="qwNnoEJpZv" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <node concept="3zFVjK" id="qwNnoEJpZw" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEJpZx" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEJpZy" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEJpZz" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEJpZ$" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIFWm" resolve="interactive" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEJpZ_" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJpZA" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJqif" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJqig" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJqih" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJqii" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJqij" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoDPfBg" resolve="diagram-interactive-layout" />
+            </node>
+            <node concept="3clFbT" id="qwNnoEJqik" role="37wK5m">
+              <node concept="17Uvod" id="qwNnoEJqil" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <node concept="3zFVjK" id="qwNnoEJqim" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEJqin" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEJqio" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEJqip" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEJqiq" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIG5s" resolve="interactiveLayout" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEJqir" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJqis" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJqBD" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJqBE" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJqBF" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJqBG" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJqBH" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-node-spacing" />
+            </node>
+            <node concept="3b6qkQ" id="qwNnoEKg1U" role="37wK5m">
+              <property role="$nhwW" value="20.0" />
+              <node concept="17Uvod" id="qwNnoEKgbw" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
+                <node concept="3zFVjK" id="qwNnoEKgbz" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEKgb$" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKgbE" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKgb_" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEKgbC" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIGdI" resolve="nodeSpacing" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEKgbD" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJqBQ" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJqZf" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJqZg" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJqZh" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJqZi" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJqZj" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="diagram-omit-node-micro-layout" />
+            </node>
+            <node concept="3clFbT" id="qwNnoEJqZk" role="37wK5m">
+              <node concept="17Uvod" id="qwNnoEJqZl" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <node concept="3zFVjK" id="qwNnoEJqZm" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEJqZn" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEJqZo" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEJqZp" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEJqZq" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIGoS" resolve="omitNodeMicroLayout" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEJqZr" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJqZs" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJroX" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJroY" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJroZ" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJrp0" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJrp1" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-padding" />
+            </node>
+            <node concept="10Nm6u" id="qwNnoEKgUz" role="37wK5m">
+              <node concept="29HgVG" id="qwNnoEKh4a" role="lGtFl">
+                <node concept="3NFfHV" id="qwNnoEKh4b" role="3NFExx">
+                  <node concept="3clFbS" id="qwNnoEKh4c" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKh4i" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKh4d" role="3clFbG">
+                        <node concept="3TrEf2" id="qwNnoEKh4g" role="2OqNvi">
+                          <ref role="3Tt5mk" to="2qld:qwNnoEIGBk" resolve="padding" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEKh4h" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJrpa" role="lGtFl" />
+        <node concept="1W57fq" id="qwNnoEKhjd" role="lGtFl">
+          <node concept="3IZrLx" id="qwNnoEKhjg" role="3IZSJc">
+            <node concept="3clFbS" id="qwNnoEKhjh" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoEKhjn" role="3cqZAp">
+                <node concept="2OqwBi" id="qwNnoEKhEQ" role="3clFbG">
+                  <node concept="2OqwBi" id="qwNnoEKhji" role="2Oq$k0">
+                    <node concept="3TrEf2" id="qwNnoEKhq3" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:qwNnoEIGBk" resolve="padding" />
+                    </node>
+                    <node concept="30H73N" id="qwNnoEKhjm" role="2Oq$k0" />
+                  </node>
+                  <node concept="3x8VRR" id="qwNnoEKhUk" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="qwNnoEJrNq" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJrNr" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJrNs" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJrNt" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJrNu" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoEJI5F" resolve="tree-search-order" />
+            </node>
+            <node concept="Rm8GO" id="qwNnoEKijA" role="37wK5m">
+              <ref role="Rm8GQ" to="4fog:~TreeifyingOrder.DFS" resolve="DFS" />
+              <ref role="1Px2BO" to="4fog:~TreeifyingOrder" resolve="TreeifyingOrder" />
+              <node concept="1ZhdrF" id="qwNnoEKiuJ" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="qwNnoEKiuK" role="3$ytzL">
+                  <node concept="3clFbS" id="qwNnoEKiuL" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKiyn" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKj3N" role="3clFbG">
+                        <node concept="2OqwBi" id="qwNnoEKiM$" role="2Oq$k0">
+                          <node concept="30H73N" id="qwNnoEKiym" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="qwNnoEKiQK" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:qwNnoEIGKH" resolve="searchOrder" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="qwNnoEKjfM" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJrNB" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJsa5" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJsa6" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJsa7" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJsa8" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJsa9" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoEJLcg" resolve="diagram-separate-connected-components" />
+            </node>
+            <node concept="3clFbT" id="qwNnoEKjFO" role="37wK5m">
+              <property role="3clFbU" value="true" />
+              <node concept="17Uvod" id="qwNnoEKjLD" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <node concept="3zFVjK" id="qwNnoEKjLG" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEKjLH" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKjLN" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKjLI" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEKjLL" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIHaN" resolve="separateConnectedComponents" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEKjLM" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJsai" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJsw6" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJsw7" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJsw8" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJsw9" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJswa" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTPQ" resolve="topdown-hierarchical-node-aspect-ratio" />
+            </node>
+            <node concept="3b6qkQ" id="qwNnoEKka8" role="37wK5m">
+              <property role="$nhwW" value="1.414" />
+              <node concept="17Uvod" id="qwNnoEKknG" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
+                <node concept="3zFVjK" id="qwNnoEKknJ" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEKknK" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKknQ" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKknL" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEKknO" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIHh7" resolve="topdownHierarchicalNodeAspectRatio" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEKknP" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJswj" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJt1u" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJt1v" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJt1w" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJt1x" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJt1y" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTOR" resolve="topdown-hierarchical-node-width" />
+            </node>
+            <node concept="3b6qkQ" id="qwNnoEKl10" role="37wK5m">
+              <property role="$nhwW" value="150.0" />
+              <node concept="17Uvod" id="qwNnoEKlaD" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
+                <node concept="3zFVjK" id="qwNnoEKlaG" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEKlaH" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKlaN" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKlaI" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEKlaL" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIHr7" resolve="topdownHierarchicalNodeWidth" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEKlaM" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJt1F" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJN$N" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJN$O" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJN$P" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJN$Q" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJN$R" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoEJWpI" resolve="diagram-topdown-layout" />
+            </node>
+            <node concept="3clFbT" id="qwNnoEJN$S" role="37wK5m">
+              <node concept="17Uvod" id="qwNnoEJN$T" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <node concept="3zFVjK" id="qwNnoEJN$U" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEJN$V" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEJN$W" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEJN$X" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEJN$Y" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIH_7" resolve="topdownLayout" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEJN$Z" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJN_0" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJSdo" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJSdp" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJSdq" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJSdr" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJSds" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTQA" resolve="topdown-node-type" />
+            </node>
+            <node concept="Rm8GO" id="qwNnoEKm5d" role="37wK5m">
+              <ref role="Rm8GQ" to="gwyy:~TopdownNodeTypes.HIERARCHICAL_NODE" resolve="HIERARCHICAL_NODE" />
+              <ref role="1Px2BO" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
+              <node concept="1ZhdrF" id="qwNnoEKmjl" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="qwNnoEKmjm" role="3$ytzL">
+                  <node concept="3clFbS" id="qwNnoEKmjn" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKmo_" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKnar" role="3clFbG">
+                        <node concept="2OqwBi" id="qwNnoEKmDi" role="2Oq$k0">
+                          <node concept="30H73N" id="qwNnoEKmo$" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="qwNnoEKmXo" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:qwNnoEIHJ9" resolve="topdownNodeType" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="qwNnoEKnoH" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJSd_" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJTpB" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJTpC" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJTpD" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJTpE" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJTpF" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTLf" resolve="topdown-scale-factor" />
+            </node>
+            <node concept="3b6qkQ" id="qwNnoEKnSb" role="37wK5m">
+              <property role="$nhwW" value="1.0" />
+              <node concept="17Uvod" id="qwNnoEKo1N" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
+                <node concept="3zFVjK" id="qwNnoEKo1Q" role="3zH0cK">
+                  <node concept="3clFbS" id="qwNnoEKo1R" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKo1X" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKo1S" role="3clFbG">
+                        <node concept="3TrcHB" id="qwNnoEKo1V" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:qwNnoEIHXC" resolve="topdownScaleFactor" />
+                        </node>
+                        <node concept="30H73N" id="qwNnoEKo1W" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJTpO" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJUCn" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJUCo" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJUCp" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJUCq" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="qwNnoEJUCr" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:qwNnoEK0mZ" resolve="tree-weighting" />
+            </node>
+            <node concept="Rm8GO" id="qwNnoEKoyQ" role="37wK5m">
+              <ref role="Rm8GQ" to="4fog:~OrderWeighting.MODEL_ORDER" resolve="MODEL_ORDER" />
+              <ref role="1Px2BO" to="4fog:~OrderWeighting" resolve="OrderWeighting" />
+              <node concept="1ZhdrF" id="qwNnoEKoK$" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="qwNnoEKoK_" role="3$ytzL">
+                  <node concept="3clFbS" id="qwNnoEKoKA" role="2VODD2">
+                    <node concept="3clFbF" id="qwNnoEKoOc" role="3cqZAp">
+                      <node concept="2OqwBi" id="qwNnoEKp_e" role="3clFbG">
+                        <node concept="2OqwBi" id="qwNnoEKp4T" role="2Oq$k0">
+                          <node concept="30H73N" id="qwNnoEKoOb" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="qwNnoEKpob" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:qwNnoEIIed" resolve="weighting" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="qwNnoEKpSZ" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJUC$" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="qwNnoEJmSJ" role="3cqZAp">
+        <node concept="2OqwBi" id="qwNnoEJmSK" role="3clFbG">
+          <node concept="37vLTw" id="qwNnoEJmSL" role="2Oq$k0">
+            <ref role="3cqZAo" node="qwNnoEJmSd" resolve="style" />
+          </node>
+          <node concept="liA8E" id="qwNnoEJmSM" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="10Nm6u" id="qwNnoEJmSN" role="37wK5m" />
+            <node concept="10Nm6u" id="qwNnoEJmSO" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="raruj" id="qwNnoEJmSP" role="lGtFl" />
+        <node concept="5jKBG" id="qwNnoEJmSQ" role="lGtFl">
           <ref role="v9R2y" node="1MAkSr5cr4o" resolve="case_DiagramLayoutConfig" />
         </node>
       </node>

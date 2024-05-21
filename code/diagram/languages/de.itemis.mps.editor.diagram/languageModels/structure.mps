@@ -3388,5 +3388,140 @@
       <property role="TrG5h" value="CONSTRAINT" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3biyEnNoWF8">
+    <property role="EcuMT" value="3662141892363274952" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <property role="TrG5h" value="SPOrECompactionLayoutConfig" />
+    <property role="34LRSv" value="SPOrE compaction layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyj" id="3biyEnNoYdO" role="1TKVEi">
+      <property role="IQ2ns" value="3662141892363281268" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoXuW" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363278268" />
+      <property role="TrG5h" value="compactionStrategy" />
+      <ref role="AX2Wp" node="3biyEnNoX_4" resolve="CompactionStrategy" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoXHj" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363279187" />
+      <property role="TrG5h" value="spanningTreeCostFunction" />
+      <ref role="AX2Wp" node="3biyEnNoXKd" resolve="SpanningTreeCostFunction" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoXRy" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363279842" />
+      <property role="TrG5h" value="nodeSpacing" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoY0z" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363280419" />
+      <property role="TrG5h" value="orthogonalCompaction" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoYmp" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363281817" />
+      <property role="TrG5h" value="rootNodeForSpanningTreeConstruction" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoYwi" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363282450" />
+      <property role="TrG5h" value="rootSelectionForSpanningTree" />
+      <ref role="AX2Wp" node="3biyEnNoYCX" resolve="RootSelection" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoYIn" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363283351" />
+      <property role="TrG5h" value="structureExtractionStrategy" />
+      <ref role="AX2Wp" node="3biyEnNoYKW" resolve="StructureExtractionStrategy" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoYQj" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363283859" />
+      <property role="TrG5h" value="treeConstructionStrategy" />
+      <ref role="AX2Wp" node="3biyEnNoYW9" resolve="TreeConstructionStrategy" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNoZ2M" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892363284658" />
+      <property role="TrG5h" value="underlyingLayoutAlgorithm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1sEMCm" id="3biyEnNoWFg" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnNoX_4">
+    <property role="3F6X1D" value="3662141892363278660" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <property role="TrG5h" value="SPOrECompactionStrategy" />
+    <ref role="1H5jkz" node="3biyEnNoX_5" resolve="DEPTH_FIRST" />
+    <node concept="25R33" id="3biyEnNoX_5" role="25R1y">
+      <property role="3tVfz5" value="3662141892363278661" />
+      <property role="TrG5h" value="DEPTH_FIRST" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnNoXKd">
+    <property role="3F6X1D" value="3662141892363279373" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <property role="TrG5h" value="SpanningTreeCostFunction" />
+    <ref role="1H5jkz" node="3biyEnNoXKg" resolve="CIRCLE_UNDERLAP" />
+    <node concept="25R33" id="3biyEnNoXKe" role="25R1y">
+      <property role="3tVfz5" value="3662141892363279374" />
+      <property role="TrG5h" value="CENTER_DISTANCE" />
+    </node>
+    <node concept="25R33" id="3biyEnNoXKg" role="25R1y">
+      <property role="3tVfz5" value="3662141892363279376" />
+      <property role="TrG5h" value="CIRCLE_UNDERLAP" />
+    </node>
+    <node concept="25R33" id="3biyEnNoXKl" role="25R1y">
+      <property role="3tVfz5" value="3662141892363279381" />
+      <property role="TrG5h" value="RECTANGLE_UNDERLAP" />
+    </node>
+    <node concept="25R33" id="3biyEnNoXKq" role="25R1y">
+      <property role="3tVfz5" value="3662141892363279386" />
+      <property role="TrG5h" value="INVERTED_OVERLAP" />
+    </node>
+    <node concept="25R33" id="3biyEnNoXKw" role="25R1y">
+      <property role="3tVfz5" value="3662141892363279392" />
+      <property role="TrG5h" value="MINIMUM_ROOT_DISTANCE" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnNoYCX">
+    <property role="3F6X1D" value="3662141892363283005" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <property role="TrG5h" value="RootSelection" />
+    <ref role="1H5jkz" node="3biyEnNoYD0" resolve="CENTER_NODE" />
+    <node concept="25R33" id="3biyEnNoYCY" role="25R1y">
+      <property role="3tVfz5" value="3662141892363283006" />
+      <property role="TrG5h" value="FIXED" />
+    </node>
+    <node concept="25R33" id="3biyEnNoYD0" role="25R1y">
+      <property role="3tVfz5" value="3662141892363283008" />
+      <property role="TrG5h" value="CENTER_NODE" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnNoYKW">
+    <property role="3F6X1D" value="3662141892363283516" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <property role="TrG5h" value="StructureExtractionStrategy" />
+    <ref role="1H5jkz" node="3biyEnNoYKX" resolve="DELAUNAY_TRIANGULATION" />
+    <node concept="25R33" id="3biyEnNoYKX" role="25R1y">
+      <property role="3tVfz5" value="3662141892363283517" />
+      <property role="TrG5h" value="DELAUNAY_TRIANGULATION" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnNoYW9">
+    <property role="3F6X1D" value="3662141892363284233" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <property role="TrG5h" value="TreeConstructionStrategy" />
+    <ref role="1H5jkz" node="3biyEnNoYWa" resolve="MINIMUM_SPANNING_TREE" />
+    <node concept="25R33" id="3biyEnNoYWa" role="25R1y">
+      <property role="3tVfz5" value="3662141892363284234" />
+      <property role="TrG5h" value="MINIMUM_SPANNING_TREE" />
+    </node>
+    <node concept="25R33" id="3biyEnNoYWc" role="25R1y">
+      <property role="3tVfz5" value="3662141892363284236" />
+      <property role="TrG5h" value="MAXIMUM_SPANNING_TREE" />
+    </node>
+  </node>
 </model>
 

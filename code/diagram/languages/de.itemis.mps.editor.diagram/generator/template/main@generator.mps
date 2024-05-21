@@ -57,6 +57,7 @@
     <import index="onpr" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p3whitespaceelimination(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="1h9k" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p1widthapproximation(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="4fog" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.mrtree.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="76o8" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.spore.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
@@ -18804,6 +18805,432 @@
         </node>
         <node concept="raruj" id="qwNnoEJmSP" role="lGtFl" />
         <node concept="5jKBG" id="qwNnoEJmSQ" role="lGtFl">
+          <ref role="v9R2y" node="1MAkSr5cr4o" resolve="case_DiagramLayoutConfig" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="3biyEnNpCvt">
+    <property role="TrG5h" value="case_SPOrECompactionLayoutConfig" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <ref role="3gUMe" to="2qld:3biyEnNoWF8" resolve="SPOrECompactionLayoutConfig" />
+    <node concept="3clFbS" id="3biyEnNpCvu" role="13RCb5">
+      <node concept="3cpWs8" id="3biyEnNpCvv" role="3cqZAp">
+        <node concept="3cpWsn" id="3biyEnNpCvw" role="3cpWs9">
+          <property role="TrG5h" value="style" />
+          <node concept="2ShNRf" id="3biyEnNpCvx" role="33vP2m">
+            <node concept="1pGfFk" id="3biyEnNpCvy" role="2ShVmc">
+              <ref role="37wK5l" to="5ueo:~StyleImpl.&lt;init&gt;()" resolve="StyleImpl" />
+            </node>
+          </node>
+          <node concept="3uibUv" id="3biyEnNpCvz" role="1tU5fm">
+            <ref role="3uigEE" to="hox0:~Style" resolve="Style" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="3biyEnNpCv$" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpCv_" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpCvA" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpCvB" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpCvC" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbjL" resolve="spore-compaction-strategy" />
+            </node>
+            <node concept="Rm8GO" id="3biyEnNqbPl" role="37wK5m">
+              <ref role="Rm8GQ" to="76o8:~CompactionStrategy.DEPTH_FIRST" resolve="DEPTH_FIRST" />
+              <ref role="1Px2BO" to="76o8:~CompactionStrategy" resolve="CompactionStrategy" />
+              <node concept="1ZhdrF" id="3biyEnNqc4g" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="3biyEnNqc4h" role="3$ytzL">
+                  <node concept="3clFbS" id="3biyEnNqc4i" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqc7x" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqcBJ" role="3clFbG">
+                        <node concept="2OqwBi" id="3biyEnNqcnI" role="2Oq$k0">
+                          <node concept="30H73N" id="3biyEnNqc7w" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="3biyEnNqcqi" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:3biyEnNoXuW" resolve="compactionStrategy" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="3biyEnNqcMU" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpCvL" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="3biyEnNpEUR" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpEUS" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpEUT" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpEUU" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpEUV" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYJT_" resolve="spore-cost-function-for-spanning-tree" />
+            </node>
+            <node concept="Rm8GO" id="3biyEnNqdhK" role="37wK5m">
+              <ref role="Rm8GQ" to="76o8:~SpanningTreeCostFunction.CIRCLE_UNDERLAP" resolve="CIRCLE_UNDERLAP" />
+              <ref role="1Px2BO" to="76o8:~SpanningTreeCostFunction" resolve="SpanningTreeCostFunction" />
+              <node concept="1ZhdrF" id="3biyEnNqej8" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="3biyEnNqej9" role="3$ytzL">
+                  <node concept="3clFbS" id="3biyEnNqeja" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqer1" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqfbf" role="3clFbG">
+                        <node concept="2OqwBi" id="3biyEnNqeFI" role="2Oq$k0">
+                          <node concept="30H73N" id="3biyEnNqer0" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="3biyEnNqeXM" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:3biyEnNoXHj" resolve="spanningTreeCostFunction" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="3biyEnNqfoc" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpEV4" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="3biyEnNpFaF" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpFaG" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpFaH" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpFaI" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpFaJ" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-node-spacing" />
+            </node>
+            <node concept="3b6qkQ" id="3biyEnNqfT1" role="37wK5m">
+              <property role="$nhwW" value="8.0" />
+              <node concept="17Uvod" id="3biyEnNqg0u" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
+                <node concept="3zFVjK" id="3biyEnNqg0x" role="3zH0cK">
+                  <node concept="3clFbS" id="3biyEnNqg0y" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqg0C" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqg0z" role="3clFbG">
+                        <node concept="3TrcHB" id="3biyEnNqg0A" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:3biyEnNoXRy" resolve="nodeSpacing" />
+                        </node>
+                        <node concept="30H73N" id="3biyEnNqg0B" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpFaS" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="3biyEnNpFqF" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpFqG" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpFqH" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpFqI" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpFqJ" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSboo" resolve="spore-orthogonal-compaction" />
+            </node>
+            <node concept="3clFbT" id="3biyEnNqgg6" role="37wK5m">
+              <node concept="17Uvod" id="3biyEnNqgon" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <node concept="3zFVjK" id="3biyEnNqgoq" role="3zH0cK">
+                  <node concept="3clFbS" id="3biyEnNqgor" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqgox" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqgos" role="3clFbG">
+                        <node concept="3TrcHB" id="3biyEnNqgov" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:3biyEnNoY0z" resolve="orthogonalCompaction" />
+                        </node>
+                        <node concept="30H73N" id="3biyEnNqgow" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpFqS" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="3biyEnNpH6J" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpH6K" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpH6L" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpH6M" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpH6N" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-padding" />
+            </node>
+            <node concept="10Nm6u" id="3biyEnNqg_i" role="37wK5m">
+              <node concept="29HgVG" id="3biyEnNqgD4" role="lGtFl">
+                <node concept="3NFfHV" id="3biyEnNqgD5" role="3NFExx">
+                  <node concept="3clFbS" id="3biyEnNqgD6" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqgDc" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqgD7" role="3clFbG">
+                        <node concept="3TrEf2" id="3biyEnNqgDa" role="2OqNvi">
+                          <ref role="3Tt5mk" to="2qld:3biyEnNoYdO" resolve="padding" />
+                        </node>
+                        <node concept="30H73N" id="3biyEnNqgDb" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpH6W" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="3biyEnNpFCz" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpFC$" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpFC_" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpFCA" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpFCB" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYJWr" resolve="spore-root-node-for-spanning-tree-construction" />
+            </node>
+            <node concept="Xl_RD" id="3biyEnNqgP9" role="37wK5m">
+              <property role="Xl_RC" value="" />
+              <node concept="17Uvod" id="3biyEnNqgTK" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                <node concept="3zFVjK" id="3biyEnNqgTN" role="3zH0cK">
+                  <node concept="3clFbS" id="3biyEnNqgTO" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqgTU" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqgTP" role="3clFbG">
+                        <node concept="3TrcHB" id="3biyEnNqgTS" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:3biyEnNoYmp" resolve="rootNodeForSpanningTreeConstruction" />
+                        </node>
+                        <node concept="30H73N" id="3biyEnNqgTT" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpFCK" role="lGtFl" />
+        <node concept="1W57fq" id="3biyEnNqhaY" role="lGtFl">
+          <node concept="3IZrLx" id="3biyEnNqhb1" role="3IZSJc">
+            <node concept="3clFbS" id="3biyEnNqhb2" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNqhb8" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNqhYF" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNqhoo" role="2Oq$k0">
+                    <node concept="30H73N" id="3biyEnNqhhq" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="3biyEnNqhqw" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNoYmp" resolve="rootNodeForSpanningTreeConstruction" />
+                    </node>
+                  </node>
+                  <node concept="17RvpY" id="3biyEnNqiwm" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="3biyEnNpFRK" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpFRL" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpFRM" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpFRN" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpFRO" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYK29" resolve="spore-root-selection-for-spanning-tree" />
+            </node>
+            <node concept="Rm8GO" id="3biyEnNqjiB" role="37wK5m">
+              <ref role="Rm8GQ" to="76o8:~RootSelection.CENTER_NODE" resolve="CENTER_NODE" />
+              <ref role="1Px2BO" to="76o8:~RootSelection" resolve="RootSelection" />
+              <node concept="1ZhdrF" id="3biyEnNqjoG" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="3biyEnNqjoH" role="3$ytzL">
+                  <node concept="3clFbS" id="3biyEnNqjoI" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqjrw" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqkgJ" role="3clFbG">
+                        <node concept="2OqwBi" id="3biyEnNqjGd" role="2Oq$k0">
+                          <node concept="30H73N" id="3biyEnNqjrv" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="3biyEnNqjZ5" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:3biyEnNoYwi" resolve="rootSelectionForSpanningTree" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="3biyEnNqkr6" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpFRX" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="3biyEnNpG8k" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpG8l" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpG8m" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpG8n" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpG8o" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTHH" resolve="spore-structure-extraction-strategy" />
+            </node>
+            <node concept="Rm8GO" id="3biyEnNqkQk" role="37wK5m">
+              <ref role="Rm8GQ" to="76o8:~StructureExtractionStrategy.DELAUNAY_TRIANGULATION" resolve="DELAUNAY_TRIANGULATION" />
+              <ref role="1Px2BO" to="76o8:~StructureExtractionStrategy" resolve="StructureExtractionStrategy" />
+              <node concept="1ZhdrF" id="3biyEnNqkUF" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="3biyEnNqkUG" role="3$ytzL">
+                  <node concept="3clFbS" id="3biyEnNqkUH" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqkXy" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqlgC" role="3clFbG">
+                        <node concept="2OqwBi" id="3biyEnNqkY_" role="2Oq$k0">
+                          <node concept="30H73N" id="3biyEnNqkXx" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="3biyEnNql3b" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:3biyEnNoYIn" resolve="structureExtractionStrategy" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="3biyEnNqlqZ" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpG8x" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="3biyEnNpGrr" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpGrs" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpGrt" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpGru" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpGrv" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:56jSwhzYJRX" resolve="spore-tree-construction-strategy" />
+            </node>
+            <node concept="Rm8GO" id="3biyEnNqlVQ" role="37wK5m">
+              <ref role="Rm8GQ" to="76o8:~TreeConstructionStrategy.MINIMUM_SPANNING_TREE" resolve="MINIMUM_SPANNING_TREE" />
+              <ref role="1Px2BO" to="76o8:~TreeConstructionStrategy" resolve="TreeConstructionStrategy" />
+              <node concept="1ZhdrF" id="3biyEnNqm1Y" role="lGtFl">
+                <property role="2qtEX8" value="enumConstantDeclaration" />
+                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
+                <node concept="3$xsQk" id="3biyEnNqm1Z" role="3$ytzL">
+                  <node concept="3clFbS" id="3biyEnNqm20" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqm5f" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqmTO" role="3clFbG">
+                        <node concept="2OqwBi" id="3biyEnNqmlW" role="2Oq$k0">
+                          <node concept="30H73N" id="3biyEnNqm5e" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="3biyEnNqmAM" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:3biyEnNoYQj" resolve="treeConstructionStrategy" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="3biyEnNqn4_" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpGrC" role="lGtFl" />
+      </node>
+      <node concept="3clFbF" id="3biyEnNpGJK" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpGJL" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpGJM" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpGJN" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="3biyEnNpGJO" role="37wK5m">
+              <ref role="1Z6EpT" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
+            </node>
+            <node concept="Xl_RD" id="3biyEnNqnG4" role="37wK5m">
+              <property role="Xl_RC" value="" />
+              <node concept="17Uvod" id="3biyEnNqnJt" role="lGtFl">
+                <property role="2qtEX9" value="value" />
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                <node concept="3zFVjK" id="3biyEnNqnJw" role="3zH0cK">
+                  <node concept="3clFbS" id="3biyEnNqnJx" role="2VODD2">
+                    <node concept="3clFbF" id="3biyEnNqnJB" role="3cqZAp">
+                      <node concept="2OqwBi" id="3biyEnNqnJy" role="3clFbG">
+                        <node concept="3TrcHB" id="3biyEnNqnJ_" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+                        </node>
+                        <node concept="30H73N" id="3biyEnNqnJA" role="2Oq$k0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpGJX" role="lGtFl" />
+        <node concept="1W57fq" id="3biyEnNqnVK" role="lGtFl">
+          <node concept="3IZrLx" id="3biyEnNqnVL" role="3IZSJc">
+            <node concept="3clFbS" id="3biyEnNqnVM" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNqo4N" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNqorZ" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNqobM" role="2Oq$k0">
+                    <node concept="30H73N" id="3biyEnNqo4M" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="3biyEnNqoeo" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+                    </node>
+                  </node>
+                  <node concept="17RvpY" id="3biyEnNqoFV" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="3biyEnNpCwv" role="3cqZAp">
+        <node concept="2OqwBi" id="3biyEnNpCww" role="3clFbG">
+          <node concept="37vLTw" id="3biyEnNpCwx" role="2Oq$k0">
+            <ref role="3cqZAo" node="3biyEnNpCvw" resolve="style" />
+          </node>
+          <node concept="liA8E" id="3biyEnNpCwy" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="10Nm6u" id="3biyEnNpCwz" role="37wK5m" />
+            <node concept="10Nm6u" id="3biyEnNpCw$" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="raruj" id="3biyEnNpCw_" role="lGtFl" />
+        <node concept="5jKBG" id="3biyEnNpCwA" role="lGtFl">
           <ref role="v9R2y" node="1MAkSr5cr4o" resolve="case_DiagramLayoutConfig" />
         </node>
       </node>

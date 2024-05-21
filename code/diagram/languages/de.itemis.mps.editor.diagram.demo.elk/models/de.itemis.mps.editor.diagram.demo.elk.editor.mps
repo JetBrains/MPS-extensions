@@ -26,6 +26,7 @@
     <import index="hyfx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.disco.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="ikqz" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.common.compaction.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="4fog" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.mrtree.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="76o8" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.spore.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -2465,6 +2466,255 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="1xPSjY" id="5sXqsGQYNFC" role="35U2g" />
+        <node concept="3tD6jV" id="3biyEnNvvdw" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbjL" resolve="spore-compaction-strategy" />
+          <node concept="3sjG9q" id="3biyEnNvvdx" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvvdy" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNvxNW" role="3cqZAp">
+                <node concept="unr1b" id="3biyEnNvy3O" role="3clFbG">
+                  <ref role="un$jP" to="76o8:~CompactionStrategy" resolve="CompactionStrategy" />
+                  <node concept="2OqwBi" id="3biyEnNv$yL" role="unwt0">
+                    <node concept="2OqwBi" id="3biyEnNvz3M" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3biyEnNvy$A" role="2Oq$k0">
+                        <node concept="pncrf" id="3biyEnNvyfI" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="3biyEnNvySW" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="3biyEnNv$5w" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnNoXuW" resolve="compactionStrategy" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3biyEnNv$WS" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNvvtj" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYJT_" resolve="spore-cost-function-for-spanning-tree" />
+          <node concept="3sjG9q" id="3biyEnNvvtl" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvvtn" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNv_cY" role="3cqZAp">
+                <node concept="unr1b" id="3biyEnNv_mp" role="3clFbG">
+                  <ref role="un$jP" to="76o8:~SpanningTreeCostFunction" resolve="SpanningTreeCostFunction" />
+                  <node concept="2OqwBi" id="3biyEnNvA_a" role="unwt0">
+                    <node concept="2OqwBi" id="3biyEnNvAf7" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3biyEnNv_JZ" role="2Oq$k0">
+                        <node concept="pncrf" id="3biyEnNv_uH" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="3biyEnNvA3x" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="3biyEnNvAqY" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnNoXHj" resolve="spanningTreeCostFunction" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3biyEnNvALV" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNvvEt" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-node-spacing" />
+          <node concept="3sjG9q" id="3biyEnNvvEv" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvvEx" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNvAYG" role="3cqZAp">
+                <node concept="2YIFZM" id="3biyEnNvB6H" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="3biyEnNvBvb" role="37wK5m">
+                    <node concept="2OqwBi" id="3biyEnNvBnL" role="2Oq$k0">
+                      <node concept="pncrf" id="3biyEnNvBbU" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3biyEnNvBr5" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="3biyEnNvByV" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNoXRy" resolve="nodeSpacing" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNvvQE" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSboo" resolve="spore-orthogonal-compaction" />
+          <node concept="3sjG9q" id="3biyEnNvvQG" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvvQI" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNvBBF" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNvBYn" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNvBL0" role="2Oq$k0">
+                    <node concept="pncrf" id="3biyEnNvBBE" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3biyEnNvBT4" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3biyEnNvC2_" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNoY0z" resolve="orthogonalCompaction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNTkiw" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <node concept="3sjG9q" id="vVBnaNTkix" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNTkiy" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNTkiz" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNTmkQ" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNTki$" role="2Oq$k0">
+                    <node concept="2OqwBi" id="vVBnaNTki_" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNTkiA" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNTkiB" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="vVBnaNTm7b" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:3biyEnNoYdO" resolve="padding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="vVBnaNTmze" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNvwcW" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYJWr" resolve="spore-root-node-for-spanning-tree-construction" />
+          <node concept="3sjG9q" id="3biyEnNvwcY" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvwd0" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNvCc5" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNvCsT" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNvCik" role="2Oq$k0">
+                    <node concept="pncrf" id="3biyEnNvCc4" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3biyEnNvCqY" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3biyEnNvC_Z" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNoYmp" resolve="rootNodeForSpanningTreeConstruction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNvwG4" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYK29" resolve="spore-root-selection-for-spanning-tree" />
+          <node concept="3sjG9q" id="3biyEnNvwG6" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvwG8" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNvCFF" role="3cqZAp">
+                <node concept="unr1b" id="3biyEnNvCP6" role="3clFbG">
+                  <ref role="un$jP" to="76o8:~RootSelection" resolve="RootSelection" />
+                  <node concept="2OqwBi" id="3biyEnNvDx6" role="unwt0">
+                    <node concept="2OqwBi" id="3biyEnNvD8O" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3biyEnNvD3R" role="2Oq$k0">
+                        <node concept="pncrf" id="3biyEnNvCXq" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="3biyEnNvD7H" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="3biyEnNvDdg" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnNoYwi" resolve="rootSelectionForSpanningTree" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3biyEnNvDHh" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNvwRY" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYTHH" resolve="spore-structure-extraction-strategy" />
+          <node concept="3sjG9q" id="3biyEnNvwS0" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvwS2" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNvDP6" role="3cqZAp">
+                <node concept="unr1b" id="3biyEnNvEaU" role="3clFbG">
+                  <ref role="un$jP" to="76o8:~StructureExtractionStrategy" resolve="StructureExtractionStrategy" />
+                  <node concept="2OqwBi" id="3biyEnNvESx" role="unwt0">
+                    <node concept="2OqwBi" id="3biyEnNvEB9" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3biyEnNvExF" role="2Oq$k0">
+                        <node concept="pncrf" id="3biyEnNvEnC" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="3biyEnNvE$H" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="3biyEnNvEGp" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnNoYIn" resolve="structureExtractionStrategy" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3biyEnNvF4G" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNvx9c" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYJRX" resolve="spore-tree-construction-strategy" />
+          <node concept="3sjG9q" id="3biyEnNvx9e" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvx9g" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNvFl_" role="3cqZAp">
+                <node concept="unr1b" id="3biyEnNvFH1" role="3clFbG">
+                  <ref role="un$jP" to="76o8:~TreeConstructionStrategy" resolve="TreeConstructionStrategy" />
+                  <node concept="2OqwBi" id="3biyEnNvHzt" role="unwt0">
+                    <node concept="2OqwBi" id="3biyEnNvH05" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3biyEnNvGn9" role="2Oq$k0">
+                        <node concept="pncrf" id="3biyEnNvG2h" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="3biyEnNvGOi" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="3biyEnNvHn$" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnNoYQj" resolve="treeConstructionStrategy" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3biyEnNvHJC" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNvxpG" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
+          <node concept="3sjG9q" id="3biyEnNvxpI" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNvxpK" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNvHP7" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNvIb5" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNvHXA" role="2Oq$k0">
+                    <node concept="pncrf" id="3biyEnNvHP6" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3biyEnNvI74" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3biyEnNvIg7" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="PMmxH" id="3biyEnNoBCG" role="6VMZX">

@@ -6422,6 +6422,10 @@
         <ref role="1Px2BO" to="76o8:~StructureExtractionStrategy" resolve="StructureExtractionStrategy" />
       </node>
     </node>
+    <node concept="3t5Usi" id="3biyEnNpSHW" role="V601i">
+      <property role="TrG5h" value="spore-underlying-layout-algorithm" />
+      <node concept="17QB3L" id="3biyEnNpSW$" role="3t5Oan" />
+    </node>
   </node>
   <node concept="V5hpn" id="7L7aZ7jSbvH">
     <property role="3GE5qa" value="layoutAlgorithm.options" />
@@ -9138,6 +9142,273 @@
         </node>
         <node concept="3F0A7n" id="qwNnoEIKHa" role="3EZMnx">
           <ref role="1NtTu8" to="2qld:qwNnoEIIed" resolve="weighting" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3biyEnNoZmB">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <ref role="1XX52x" to="2qld:3biyEnNoWF8" resolve="SPOrECompactionLayoutConfig" />
+    <node concept="3EZMnI" id="3biyEnNoZnt" role="2wV5jI">
+      <node concept="2EHx9g" id="3biyEnNoZnu" role="2iSdaV" />
+      <node concept="3EZMnI" id="3biyEnNoZnv" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNoZnw" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNoZnx" role="3EZMnx">
+          <property role="3F0ifm" value="compaction strategy" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNoZny" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNoZnz" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNoZn$" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNoZn_" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNoZnA" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNoZnB" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNoZnC" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-compaction-compactionStrategy.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNoZnD" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoXuW" resolve="compactionStrategy" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp1YI" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp1YJ" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp1YK" role="3EZMnx">
+          <property role="3F0ifm" value="cost function for spanning tree" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp1YL" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp1YM" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp1YN" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp1YO" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp1YP" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp1YQ" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp1YR" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-processingOrder-spanningTreeCostFunction.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNp1YS" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoXHj" resolve="spanningTreeCostFunction" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp213" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp214" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp215" role="3EZMnx">
+          <property role="3F0ifm" value="node spacing" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp216" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp217" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp218" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp219" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp21a" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp21b" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp21c" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-spacing-nodeNode.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNp21d" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoXRy" resolve="nodeSpacing" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp239" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp23a" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp23b" role="3EZMnx">
+          <property role="3F0ifm" value="orthogonal compaction" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp23c" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp23d" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp23e" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp23f" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp23g" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp23h" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp23i" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-compaction-orthogonal.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNp23j" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoY0z" resolve="orthogonalCompaction" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp25q" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp25r" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp25s" role="3EZMnx">
+          <property role="3F0ifm" value="padding" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp25t" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp25u" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp25v" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp25w" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp25x" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp25y" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp25z" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-padding.html" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="3biyEnNp37M" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoYdO" resolve="padding" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp27Q" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp27R" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp27S" role="3EZMnx">
+          <property role="3F0ifm" value="root node for spanning tree construction" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp27T" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp27U" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp27V" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp27W" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp27X" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp27Y" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp27Z" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-processingOrder-preferredRoot.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNp280" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoYmp" resolve="rootNodeForSpanningTreeConstruction" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp2at" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp2au" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp2av" role="3EZMnx">
+          <property role="3F0ifm" value="root selection for spanning tree" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp2aw" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp2ax" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp2ay" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp2az" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp2a$" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp2a_" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp2aA" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-sporeCompaction.html#:~:text=null-,Root%20selection%20for%20spanning%20tree,-RootSelection.CENTER_NODE" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNp2aB" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoYwi" resolve="rootSelectionForSpanningTree" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp2cD" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp2cE" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp2cF" role="3EZMnx">
+          <property role="3F0ifm" value="structure extraction strategy" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp2cG" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp2cH" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp2cI" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp2cJ" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp2cK" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp2cL" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp2cM" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-sporeCompaction.html#:~:text=RootSelection.CENTER_NODE-,Structure%20Extraction%20Strategy,-StructureExtractionStrategy.DELAUNAY_TRIANGULATION" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNp2cN" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoYIn" resolve="structureExtractionStrategy" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp2gc" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp2gd" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp2ge" role="3EZMnx">
+          <property role="3F0ifm" value="tree construction strategy" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp2gf" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp2gg" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp2gh" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp2gi" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp2gj" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp2gk" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp2gl" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-processingOrder-treeConstruction.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNp2gm" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoYQj" resolve="treeConstructionStrategy" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNp2iI" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNp2iJ" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNp2iK" role="3EZMnx">
+          <property role="3F0ifm" value="underlying layout algorithm" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNp2iL" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNp2iM" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNp2iN" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNp2iO" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNp2iP" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNp2iQ" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNp2iR" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-underlyingLayoutAlgorithm.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNp2iS" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
         </node>
       </node>
     </node>

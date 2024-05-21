@@ -39,6 +39,7 @@
     <import index="ikqz" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.common.compaction.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="pplq" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.data(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="4fog" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.mrtree.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="76o8" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.spore.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
@@ -5931,6 +5932,239 @@
                     <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3biyEnNp6CZ">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <ref role="13h7C2" to="2qld:3biyEnNoWF8" resolve="SPOrECompactionLayoutConfig" />
+    <node concept="13hLZK" id="3biyEnNp6D0" role="13h7CW">
+      <node concept="3clFbS" id="3biyEnNp6D1" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNp8pH" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNp97F" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNp8Aj" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNp8pG" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNp8U$" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoXuW" resolve="compactionStrategy" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNpfK8" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNpfgL" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:3biyEnNoX_4" resolve="SPOrECompactionStrategy" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNpg3W" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnNpgUU" role="2ViJBj">
+                  <node concept="2OqwBi" id="3biyEnNpeyO" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnNpelH" role="2Oq$k0">
+                      <ref role="3cqZAo" to="76o8:~SporeCompactionOptions.COMPACTION_COMPACTION_STRATEGY" resolve="COMPACTION_COMPACTION_STRATEGY" />
+                      <ref role="1PxDUh" to="76o8:~SporeCompactionOptions" resolve="SporeCompactionOptions" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnNpeMD" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3biyEnNphT1" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNp9dP" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNp9w8" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNpigc" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNpi2f" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:3biyEnNoXKd" resolve="SpanningTreeCostFunction" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNpikk" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnNpjcf" role="2ViJBj">
+                  <node concept="2OqwBi" id="3biyEnNpimk" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnNpiCh" role="2Oq$k0">
+                      <ref role="3cqZAo" to="76o8:~SporeCompactionOptions.PROCESSING_ORDER_SPANNING_TREE_COST_FUNCTION" resolve="PROCESSING_ORDER_SPANNING_TREE_COST_FUNCTION" />
+                      <ref role="1PxDUh" to="76o8:~SporeCompactionOptions" resolve="SporeCompactionOptions" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnNpimm" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3biyEnNpjP_" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNp9f6" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNp9dN" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNp9kh" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoXHj" resolve="spanningTreeCostFunction" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNp9zG" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNpaas" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNp9$W" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNp9zE" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNp9Dn" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoXRy" resolve="nodeSpacing" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNplOq" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnNpk$4" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNpkig" role="2Oq$k0">
+                  <ref role="3cqZAo" to="76o8:~SporeCompactionOptions.SPACING_NODE_NODE" resolve="SPACING_NODE_NODE" />
+                  <ref role="1PxDUh" to="76o8:~SporeCompactionOptions" resolve="SporeCompactionOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnNpkNT" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNpmqw" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNpaej" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNpbec" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNpari" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNpaeh" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNpaKB" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoY0z" resolve="orthogonalCompaction" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNpmuN" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNpmSb" role="2Oq$k0">
+                <ref role="3cqZAo" to="76o8:~SporeCompactionOptions.COMPACTION_ORTHOGONAL" resolve="COMPACTION_ORTHOGONAL" />
+                <ref role="1PxDUh" to="76o8:~SporeCompactionOptions" resolve="SporeCompactionOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNpmuP" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNpdGQ" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNpe0X" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNpnv8" role="37vLTx">
+              <node concept="35c_gC" id="3biyEnNpn1P" role="2Oq$k0">
+                <ref role="35c_gD" to="2qld:56jSwh$gEVe" resolve="Padding" />
+              </node>
+              <node concept="2qgKlT" id="3biyEnNpnP4" role="2OqNvi">
+                <ref role="37wK5l" node="56jSwh$nT2X" resolve="fromElkPadding" />
+                <node concept="2OqwBi" id="3biyEnP_jJo" role="37wK5m">
+                  <node concept="10M0yZ" id="3biyEnP_jzN" role="2Oq$k0">
+                    <ref role="3cqZAo" to="76o8:~SporeCompactionOptions.PADDING" resolve="PADDING" />
+                    <ref role="1PxDUh" to="76o8:~SporeCompactionOptions" resolve="SporeCompactionOptions" />
+                  </node>
+                  <node concept="liA8E" id="3biyEnP_jZu" role="2OqNvi">
+                    <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNpdJz" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNpdGO" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3biyEnNpdOc" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:3biyEnNoYdO" resolve="padding" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNpc8H" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNpcuo" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNpcba" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNpc8F" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNpci7" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoYwi" resolve="rootSelectionForSpanningTree" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNpt5B" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNpsx9" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:3biyEnNoYCX" resolve="RootSelection" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNptpS" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnNptYf" role="2ViJBj">
+                  <node concept="2OqwBi" id="3biyEnNps00" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnNprIh" role="2Oq$k0">
+                      <ref role="3cqZAo" to="76o8:~SporeCompactionOptions.PROCESSING_ORDER_ROOT_SELECTION" resolve="PROCESSING_ORDER_ROOT_SELECTION" />
+                      <ref role="1PxDUh" to="76o8:~SporeCompactionOptions" resolve="SporeCompactionOptions" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnNpsfS" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3biyEnNpuAT" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNpc$p" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNpcRx" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNpuW5" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNpuJx" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:3biyEnNoYKW" resolve="StructureExtractionStrategy" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNpuZp" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnNpwXC" role="2ViJBj">
+                  <node concept="2OqwBi" id="3biyEnNpv0Z" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnNpv7b" role="2Oq$k0">
+                      <ref role="3cqZAo" to="76o8:~SporeCompactionOptions.STRUCTURE_STRUCTURE_EXTRACTION_STRATEGY" resolve="STRUCTURE_STRUCTURE_EXTRACTION_STRATEGY" />
+                      <ref role="1PxDUh" to="76o8:~SporeCompactionOptions" resolve="SporeCompactionOptions" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnNpv11" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3biyEnNpx5j" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNpcB7" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNpc$n" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNpcFE" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoYIn" resolve="structureExtractionStrategy" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNpcXr" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNpdg2" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNpxpJ" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNpxe0" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:3biyEnNoYW9" resolve="TreeConstructionStrategy" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNpxtR" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnNpy$V" role="2ViJBj">
+                  <node concept="2OqwBi" id="3biyEnNpxvR" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnNpxGi" role="2Oq$k0">
+                      <ref role="3cqZAo" to="76o8:~SporeCompactionOptions.PROCESSING_ORDER_TREE_CONSTRUCTION" resolve="PROCESSING_ORDER_TREE_CONSTRUCTION" />
+                      <ref role="1PxDUh" to="76o8:~SporeCompactionOptions" resolve="SporeCompactionOptions" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnNpxvT" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3biyEnNpzyv" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNpcZA" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNpcXp" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNpd4b" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoYQj" resolve="treeConstructionStrategy" />
               </node>
             </node>
           </node>

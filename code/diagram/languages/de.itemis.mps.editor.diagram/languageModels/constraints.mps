@@ -780,5 +780,46 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3biyEnNp6ah">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <ref role="1M2myG" to="2qld:3biyEnNoWF8" resolve="SPOrECompactionLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNp6bw" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNp6bx" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNp6cp" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNp6cq" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNp6cr" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNp6cs" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNp6ct" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNp6cu" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNp6cv" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNp6cw" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNp6cx" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNp6cy" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNp6cz" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNp6c$" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNp6c_" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNp6cA" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNp6cB" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNp6cC" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNp6cD" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5sXqsGQUIOP" resolve="SPOrECompactionAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

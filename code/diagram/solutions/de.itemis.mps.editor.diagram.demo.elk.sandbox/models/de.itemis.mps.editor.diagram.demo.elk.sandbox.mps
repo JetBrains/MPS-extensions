@@ -64,6 +64,11 @@
         <child id="5878290447138473156" name="padding" index="POir0" />
         <child id="5878290447138451908" name="contentAlignment" index="POpf0" />
       </concept>
+      <concept id="3662141892363274952" name="de.itemis.mps.editor.diagram.structure.SPOrECompactionLayoutConfig" flags="ng" index="31Gk1H">
+        <property id="3662141892363279842" name="nodeSpacing" index="31Glt7" />
+        <property id="3662141892363283859" name="treeConstructionStrategy" index="31GmsQ" />
+        <child id="3662141892363281268" name="padding" index="31GmBh" />
+      </concept>
     </language>
     <language id="92ad00ce-b4c0-4847-b973-b5727c0dc0b6" name="de.itemis.mps.editor.diagram.demo.elk">
       <concept id="7599475316692605195" name="de.itemis.mps.editor.diagram.demo.elk.structure.TopDownPackingTest" flags="ng" index="3IhI2" />
@@ -2301,7 +2306,7 @@
     </node>
   </node>
   <node concept="1xL_FI" id="5sXqsGQZ4u5">
-    <property role="TrG5h" value="Shrinking Tree" />
+    <property role="TrG5h" value="Minimum Spanning Tree" />
     <property role="3GE5qa" value="sporeCompaction" />
     <node concept="i0U1m" id="5sXqsGQZw_T" role="i0UWM">
       <ref role="i0Utg" node="5sXqsGQZCKE" resolve="1" />
@@ -2523,6 +2528,15 @@
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
+      </node>
+    </node>
+    <node concept="31Gk1H" id="3biyEnNvuTy" role="J81tK">
+      <property role="31Glt7" value="20.0" />
+      <node concept="POkNa" id="3biyEnNvuTz" role="31GmBh">
+        <property role="POl1y" value="8.0" />
+        <property role="POl7g" value="8.0" />
+        <property role="POljH" value="8.0" />
+        <property role="POlmT" value="8.0" />
       </node>
     </node>
   </node>
@@ -6706,6 +6720,126 @@
       <property role="JrHkQ" value="50.0" />
       <property role="JrI7b" value="true" />
       <property role="JrI9c" value="-1.0" />
+    </node>
+  </node>
+  <node concept="1xL_FI" id="3biyEnNxWAT">
+    <property role="TrG5h" value="Maximum Spanning Tree" />
+    <property role="3GE5qa" value="sporeCompaction" />
+    <node concept="i0U1m" id="3biyEnNxWAU" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBa" resolve="1" />
+      <ref role="i0Ul0" node="3biyEnNxWBb" resolve="2" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWAV" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBb" resolve="2" />
+      <ref role="i0Ul0" node="3biyEnNxWBc" resolve="3" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWAW" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBc" resolve="3" />
+      <ref role="i0Ul0" node="3biyEnNxWBd" resolve="4" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWAX" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBc" resolve="3" />
+      <ref role="i0Ul0" node="3biyEnNxWBe" resolve="5" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWAY" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBd" resolve="4" />
+      <ref role="i0Ul0" node="3biyEnNxWBf" resolve="6" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWAZ" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBd" resolve="4" />
+      <ref role="i0Ul0" node="3biyEnNxWBe" resolve="5" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB0" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBf" resolve="6" />
+      <ref role="i0Ul0" node="3biyEnNxWBg" resolve="7" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB1" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBf" resolve="6" />
+      <ref role="i0Ul0" node="3biyEnNxWBh" resolve="8" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB2" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBh" resolve="8" />
+      <ref role="i0Ul0" node="3biyEnNxWBi" resolve="9" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB3" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBh" resolve="8" />
+      <ref role="i0Ul0" node="3biyEnNxWBl" resolve="12" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB4" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBi" resolve="9" />
+      <ref role="i0Ul0" node="3biyEnNxWBj" resolve="10" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB5" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBj" resolve="10" />
+      <ref role="i0Ul0" node="3biyEnNxWBb" resolve="2" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB6" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBj" resolve="10" />
+      <ref role="i0Ul0" node="3biyEnNxWBk" resolve="11" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB7" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBk" resolve="11" />
+      <ref role="i0Ul0" node="3biyEnNxWBl" resolve="12" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB8" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBk" resolve="11" />
+      <ref role="i0Ul0" node="3biyEnNxWBe" resolve="5" />
+    </node>
+    <node concept="i0U1m" id="3biyEnNxWB9" role="i0UWM">
+      <ref role="i0Utg" node="3biyEnNxWBl" resolve="12" />
+      <ref role="i0Ul0" node="3biyEnNxWBe" resolve="5" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBa" role="i0U$m">
+      <property role="TrG5h" value="1" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBb" role="i0U$m">
+      <property role="TrG5h" value="2" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBc" role="i0U$m">
+      <property role="TrG5h" value="3" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBd" role="i0U$m">
+      <property role="TrG5h" value="4" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBe" role="i0U$m">
+      <property role="TrG5h" value="5" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBf" role="i0U$m">
+      <property role="TrG5h" value="6" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBg" role="i0U$m">
+      <property role="TrG5h" value="7" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBh" role="i0U$m">
+      <property role="TrG5h" value="8" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBi" role="i0U$m">
+      <property role="TrG5h" value="9" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBj" role="i0U$m">
+      <property role="TrG5h" value="10" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBk" role="i0U$m">
+      <property role="TrG5h" value="11" />
+    </node>
+    <node concept="i0VK$" id="3biyEnNxWBl" role="i0U$m">
+      <property role="TrG5h" value="12" />
+    </node>
+    <node concept="31Gk1H" id="3biyEnNxWBJ" role="J81tK">
+      <property role="31Glt7" value="20.0" />
+      <property role="31GmsQ" value="3biyEnNoYWc/MAXIMUM_SPANNING_TREE" />
+      <node concept="POkNa" id="3biyEnNxWBK" role="31GmBh">
+        <property role="POl1y" value="8.0" />
+        <property role="POl7g" value="8.0" />
+        <property role="POljH" value="8.0" />
+        <property role="POlmT" value="8.0" />
+      </node>
+    </node>
+    <node concept="37mRI7" id="3biyEnNFb4L" role="lGtFl">
+      <node concept="37mRIm" id="3biyEnNFb4M" role="37mRID">
+        <property role="37mO49" value="3662141892365633985" />
+        <node concept="2VclpC" id="3biyEnNFb4K" role="37mO4d" />
+      </node>
     </node>
   </node>
 </model>

@@ -23,6 +23,8 @@
     <import index="7bmw" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="onpr" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p3whitespaceelimination(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="1h9k" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p1widthapproximation(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="hyfx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.disco.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="ikqz" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.common.compaction.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -126,6 +128,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -158,6 +161,11 @@
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
         <child id="1109201940907" name="parameter" index="11_B2D" />
+      </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
@@ -1051,6 +1059,10 @@
         <ref role="PMmxG" node="37WsXDFJXMO" resolve="Header" />
       </node>
       <node concept="3F0ifn" id="767du_ZO9Yw" role="3EZMnx" />
+      <node concept="3F1sOY" id="qwNnoEldhh" role="3EZMnx">
+        <ref role="1NtTu8" to="xaff:qwNnoElcHc" resolve="config" />
+      </node>
+      <node concept="3F0ifn" id="qwNnoEldb2" role="3EZMnx" />
       <node concept="27vDVx" id="767du_ZO9Yx" role="3EZMnx">
         <node concept="aDKH9" id="767du_ZO9Yy" role="aCds2">
           <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
@@ -1059,6 +1071,272 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="ehXbJ" id="767du_ZOa99" role="35U2g" />
+        <node concept="3tD6jV" id="qwNnoEldn7" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="diagram-aspect-ratio" />
+          <node concept="3sjG9q" id="qwNnoEldn8" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoEldn9" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoEm9oi" role="3cqZAp">
+                <node concept="3K4zz7" id="qwNnoEmbj4" role="3clFbG">
+                  <node concept="10Nm6u" id="qwNnoEmb$7" role="3K4GZi" />
+                  <node concept="2OqwBi" id="qwNnoEmagW" role="3K4Cdx">
+                    <node concept="2OqwBi" id="qwNnoEm9ok" role="2Oq$k0">
+                      <node concept="2OqwBi" id="qwNnoEm9ol" role="2Oq$k0">
+                        <node concept="pncrf" id="qwNnoEm9om" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="qwNnoEm9on" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="qwNnoEm9oo" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEfkHK" resolve="aspectRatio" />
+                      </node>
+                    </node>
+                    <node concept="17RvpY" id="qwNnoEmaI6" role="2OqNvi" />
+                  </node>
+                  <node concept="2YIFZM" id="qwNnoElgBx" role="3K4E3e">
+                    <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                    <node concept="2OqwBi" id="qwNnoElfTq" role="37wK5m">
+                      <node concept="2OqwBi" id="qwNnoElfnn" role="2Oq$k0">
+                        <node concept="pncrf" id="qwNnoElf2p" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="qwNnoElfEJ" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="qwNnoElgf2" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEfkHK" resolve="aspectRatio" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoEldzT" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYLQA" resolve="diagram-components-spacing" />
+          <node concept="3sjG9q" id="qwNnoEldzV" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoEldzX" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoElgNQ" role="3cqZAp">
+                <node concept="2YIFZM" id="qwNnoElgWU" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="qwNnoElhjA" role="37wK5m">
+                    <node concept="2OqwBi" id="qwNnoElh6$" role="2Oq$k0">
+                      <node concept="pncrf" id="qwNnoElh0t" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="qwNnoElhaG" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="qwNnoElhoY" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:qwNnoEfkUN" resolve="componentsSpacing" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoEldF4" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbvI" resolve="disco-connected-components-compaction-strategy" />
+          <node concept="3sjG9q" id="qwNnoEldF6" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoEldF8" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoElhAt" role="3cqZAp">
+                <node concept="unr1b" id="qwNnoElhJS" role="3clFbG">
+                  <ref role="un$jP" to="hyfx:~CompactionStrategy" resolve="CompactionStrategy" />
+                  <node concept="2OqwBi" id="qwNnoElijf" role="unwt0">
+                    <node concept="2OqwBi" id="qwNnoEli4B" role="2Oq$k0">
+                      <node concept="2OqwBi" id="qwNnoElhYD" role="2Oq$k0">
+                        <node concept="pncrf" id="qwNnoElhSc" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="qwNnoEli1F" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="qwNnoEli9R" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEflc1" resolve="componentCompactionStrategy" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="qwNnoElivq" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoEldUK" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbyR" resolve="disco-connected-components-layout-algorithm" />
+          <node concept="3sjG9q" id="qwNnoEldUM" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoEldUO" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoEljnF" role="3cqZAp">
+                <node concept="2OqwBi" id="qwNnoElkgV" role="3clFbG">
+                  <node concept="2OqwBi" id="qwNnoEljEo" role="2Oq$k0">
+                    <node concept="pncrf" id="qwNnoEljnE" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="qwNnoElk3y" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="qwNnoElk_B" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:qwNnoEflx2" resolve="componentLayoutAlgorithm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoEle73" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSdd6" resolve="diagram-edge-thickness" />
+          <node concept="3sjG9q" id="qwNnoEle75" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoEle77" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoElkER" role="3cqZAp">
+                <node concept="2YIFZM" id="qwNnoElkNi" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="qwNnoEllje" role="37wK5m">
+                    <node concept="2OqwBi" id="qwNnoEll4w" role="2Oq$k0">
+                      <node concept="pncrf" id="qwNnoElkSD" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="qwNnoEllf8" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="qwNnoEllmY" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:qwNnoEflAO" resolve="edgeThickness" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoElecQ" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYAIl" resolve="polyomino-fill-polyominoes" />
+          <node concept="3sjG9q" id="qwNnoElecS" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoElecU" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoEllxt" role="3cqZAp">
+                <node concept="2OqwBi" id="qwNnoEllP8" role="3clFbG">
+                  <node concept="2OqwBi" id="qwNnoEllCy" role="2Oq$k0">
+                    <node concept="pncrf" id="qwNnoEllxs" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="qwNnoEllKA" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="qwNnoEllTm" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:qwNnoEflMH" resolve="fillPolyominoes" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoElen7" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-padding" />
+          <node concept="3sjG9q" id="qwNnoElen9" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoElenb" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoEllXE" role="3cqZAp">
+                <node concept="2OqwBi" id="qwNnoElmvy" role="3clFbG">
+                  <node concept="2OqwBi" id="qwNnoElmfA" role="2Oq$k0">
+                    <node concept="2OqwBi" id="qwNnoElm4y" role="2Oq$k0">
+                      <node concept="pncrf" id="qwNnoEllXD" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="qwNnoElmb_" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="qwNnoElmic" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:qwNnoEflYM" resolve="padding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="qwNnoElmIy" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoElexh" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYAE$" resolve="polyomino-primary-sorting-criterion" />
+          <node concept="3sjG9q" id="qwNnoElexj" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoElexl" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoElomZ" role="3cqZAp">
+                <node concept="unr1b" id="qwNnoEloqp" role="3clFbG">
+                  <ref role="un$jP" to="ikqz:~HighLevelSortingCriterion" resolve="HighLevelSortingCriterion" />
+                  <node concept="2OqwBi" id="qwNnoEloAq" role="unwt0">
+                    <node concept="2OqwBi" id="qwNnoElnjP" role="2Oq$k0">
+                      <node concept="2OqwBi" id="qwNnoEln6V" role="2Oq$k0">
+                        <node concept="pncrf" id="qwNnoElmYc" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="qwNnoElnfO" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="qwNnoElo00" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEflUZ" resolve="polyominoHighLevelSort" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="qwNnoEloM_" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoEleHn" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYABM" resolve="polyomino-secondary-sorting-criterion" />
+          <node concept="3sjG9q" id="qwNnoEleHp" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoEleHr" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoEloZj" role="3cqZAp">
+                <node concept="unr1b" id="qwNnoEloZk" role="3clFbG">
+                  <ref role="un$jP" to="ikqz:~LowLevelSortingCriterion" resolve="LowLevelSortingCriterion" />
+                  <node concept="2OqwBi" id="qwNnoEloZl" role="unwt0">
+                    <node concept="2OqwBi" id="qwNnoEloZm" role="2Oq$k0">
+                      <node concept="2OqwBi" id="qwNnoEloZn" role="2Oq$k0">
+                        <node concept="pncrf" id="qwNnoEloZo" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="qwNnoEloZp" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="qwNnoEloZq" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEfmrJ" resolve="polyominoLowLevelSort" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="qwNnoEloZr" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="qwNnoEleSJ" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYAzQ" resolve="polyomino-traversal-strategy" />
+          <node concept="3sjG9q" id="qwNnoEleSL" role="3tD6jU">
+            <node concept="3clFbS" id="qwNnoEleSN" role="2VODD2">
+              <node concept="3clFbF" id="qwNnoElpLo" role="3cqZAp">
+                <node concept="unr1b" id="qwNnoElq0U" role="3clFbG">
+                  <ref role="un$jP" to="ikqz:~TraversalStrategy" resolve="TraversalStrategy" />
+                  <node concept="2OqwBi" id="qwNnoElMzf" role="unwt0">
+                    <node concept="2OqwBi" id="qwNnoElqUX" role="2Oq$k0">
+                      <node concept="2OqwBi" id="qwNnoElqrk" role="2Oq$k0">
+                        <node concept="pncrf" id="qwNnoElqa2" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="qwNnoElqJE" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="qwNnoElr11" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:qwNnoEfmBG" resolve="polyominoTraversalStrategy" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="qwNnoElMIo" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

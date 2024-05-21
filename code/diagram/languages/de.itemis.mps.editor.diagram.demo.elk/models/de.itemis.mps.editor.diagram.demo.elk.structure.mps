@@ -182,6 +182,13 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="disco" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="qwNnoElcHc" role="1TKVEi">
+      <property role="IQ2ns" value="477607467901307724" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" to="2qld:qwNnoEfkh3" resolve="DiscCoLayoutConfig" />
+      <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
+    </node>
     <node concept="PrWs8" id="767du_ZO9Kc" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>

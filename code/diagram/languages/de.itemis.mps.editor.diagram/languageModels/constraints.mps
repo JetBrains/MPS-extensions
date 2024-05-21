@@ -657,5 +657,46 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="qwNnoEfsJW">
+    <property role="3GE5qa" value="layoutAlgorithm.config.disCo" />
+    <ref role="1M2myG" to="2qld:qwNnoEfkh3" resolve="DisCoLayoutConfig" />
+    <node concept="9S07l" id="qwNnoEfsNi" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoEfsNj" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEfsO_" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoEfsOA" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEfsOB" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoEfsOC" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoEfsOD" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoEfsOE" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoEfsOF" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoEfsOG" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoEfsOH" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoEfsOI" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoEfsOJ" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoEfsOK" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoEfsOL" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoEfsOM" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoEfsON" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoEfsOO" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoEfsOP" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:767du_ZKes6" resolve="DisconnectedGraphLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

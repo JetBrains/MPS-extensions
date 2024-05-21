@@ -8,6 +8,12 @@
   <imports />
   <registry>
     <language id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram">
+      <concept id="477607467899765827" name="de.itemis.mps.editor.diagram.structure.DiscCoLayoutConfig" flags="ng" index="GBo$P">
+        <property id="477607467899768499" name="componentsSpacing" index="GBof5" />
+        <property id="477607467899772077" name="fillPolyominoes" index="GBp7r" />
+        <property id="477607467899771316" name="edgeThickness" index="GBpj2" />
+        <child id="477607467899772850" name="padding" index="GBpb4" />
+      </concept>
       <concept id="477607467890364425" name="de.itemis.mps.editor.diagram.structure.RandomLayoutConfig" flags="ng" index="J3hPZ">
         <property id="477607467890366722" name="nodeSpacing" index="J3hhO" />
         <property id="477607467890365940" name="aspectRatio" index="J3hy2" />
@@ -1463,8 +1469,8 @@
       <node concept="37mRIm" id="767du_ZSM9c" role="37mRID">
         <property role="37mO49" value="8180566525130108262" />
         <node concept="gqqVs" id="767du_ZSM9a" role="37mO4d">
-          <property role="gqqTZ" value="77.52731761249129" />
-          <property role="gqqTW" value="12.199881809181576" />
+          <property role="gqqTZ" value="101.82599756946496" />
+          <property role="gqqTW" value="134.03158923390703" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1473,8 +1479,8 @@
       <node concept="37mRIm" id="767du_ZSM9e" role="37mRID">
         <property role="37mO49" value="8180566525130108264" />
         <node concept="gqqVs" id="767du_ZSM9d" role="37mO4d">
-          <property role="gqqTZ" value="28.765936744685177" />
-          <property role="gqqTW" value="69.19988180918158" />
+          <property role="gqqTZ" value="53.06461670165885" />
+          <property role="gqqTW" value="191.03158923390703" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1483,8 +1489,8 @@
       <node concept="37mRIm" id="767du_ZSM9g" role="37mRID">
         <property role="37mO49" value="8180566525130108267" />
         <node concept="gqqVs" id="767du_ZSM9f" role="37mO4d">
-          <property role="gqqTZ" value="77.52731761249134" />
-          <property role="gqqTW" value="102.1998818091816" />
+          <property role="gqqTZ" value="101.82599756946502" />
+          <property role="gqqTW" value="224.03158923390706" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1493,8 +1499,8 @@
       <node concept="37mRIm" id="767du_ZSM9i" role="37mRID">
         <property role="37mO49" value="8180566525130108271" />
         <node concept="gqqVs" id="767du_ZSM9h" role="37mO4d">
-          <property role="gqqTZ" value="126.76593674468518" />
-          <property role="gqqTW" value="58.199881809181605" />
+          <property role="gqqTZ" value="151.06461670165885" />
+          <property role="gqqTW" value="180.03158923390706" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1503,8 +1509,8 @@
       <node concept="37mRIm" id="767du_ZSM9k" role="37mRID">
         <property role="37mO49" value="8180566525130108276" />
         <node concept="gqqVs" id="767du_ZSM9j" role="37mO4d">
-          <property role="gqqTZ" value="217.76593674468512" />
-          <property role="gqqTW" value="47.49529183091771" />
+          <property role="gqqTZ" value="242.0646167016588" />
+          <property role="gqqTW" value="169.32699925564316" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1513,8 +1519,8 @@
       <node concept="37mRIm" id="767du_ZSM9m" role="37mRID">
         <property role="37mO49" value="8180566525130108282" />
         <node concept="gqqVs" id="767du_ZSM9l" role="37mO4d">
-          <property role="gqqTZ" value="310.7659367446852" />
-          <property role="gqqTW" value="47.49529183091771" />
+          <property role="gqqTZ" value="335.06461670165885" />
+          <property role="gqqTW" value="169.32699925564316" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1523,8 +1529,8 @@
       <node concept="37mRIm" id="767du_ZSM9o" role="37mRID">
         <property role="37mO49" value="8180566525130108289" />
         <node concept="gqqVs" id="767du_ZSM9n" role="37mO4d">
-          <property role="gqqTZ" value="422.8264617114425" />
-          <property role="gqqTW" value="156.32430153211254" />
+          <property role="gqqTZ" value="446.8107033496956" />
+          <property role="gqqTW" value="164.7074694295093" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1533,8 +1539,8 @@
       <node concept="37mRIm" id="767du_ZSM9q" role="37mRID">
         <property role="37mO49" value="8180566525130108297" />
         <node concept="gqqVs" id="767du_ZSM9p" role="37mO4d">
-          <property role="gqqTZ" value="505.8264617114425" />
-          <property role="gqqTW" value="156.32430153211251" />
+          <property role="gqqTZ" value="529.8107033496956" />
+          <property role="gqqTW" value="164.70746942950927" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1543,8 +1549,8 @@
       <node concept="37mRIm" id="767du_ZSM9s" role="37mRID">
         <property role="37mO49" value="8180566525130108306" />
         <node concept="gqqVs" id="767du_ZSM9r" role="37mO4d">
-          <property role="gqqTZ" value="461.0650808436364" />
-          <property role="gqqTW" value="251.32430153211251" />
+          <property role="gqqTZ" value="485.0493224818895" />
+          <property role="gqqTW" value="259.7074694295093" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1553,8 +1559,8 @@
       <node concept="37mRIm" id="767du_ZSM9u" role="37mRID">
         <property role="37mO49" value="8180566525130108316" />
         <node concept="gqqVs" id="767du_ZSM9t" role="37mO4d">
-          <property role="gqqTZ" value="309.94822611413053" />
-          <property role="gqqTW" value="224.1565492449171" />
+          <property role="gqqTZ" value="329.6029732535888" />
+          <property role="gqqTW" value="267.95308778470644" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1563,8 +1569,8 @@
       <node concept="37mRIm" id="767du_ZSM9w" role="37mRID">
         <property role="37mO49" value="8180566525130108327" />
         <node concept="gqqVs" id="767du_ZSM9v" role="37mO4d">
-          <property role="gqqTZ" value="397.82646171144245" />
-          <property role="gqqTW" value="235.4519592666532" />
+          <property role="gqqTZ" value="417.4812088509007" />
+          <property role="gqqTW" value="279.2484978064425" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1573,8 +1579,8 @@
       <node concept="37mRIm" id="767du_ZSM9y" role="37mRID">
         <property role="37mO49" value="8180566525130108339" />
         <node concept="gqqVs" id="767du_ZSM9x" role="37mO4d">
-          <property role="gqqTZ" value="397.82646171144245" />
-          <property role="gqqTW" value="297.1565492449171" />
+          <property role="gqqTZ" value="417.4812088509007" />
+          <property role="gqqTW" value="340.9530877847064" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -1583,12 +1589,23 @@
       <node concept="37mRIm" id="767du_ZSM9$" role="37mRID">
         <property role="37mO49" value="8180566525130108352" />
         <node concept="gqqVs" id="767du_ZSM9z" role="37mO4d">
-          <property role="gqqTZ" value="309.94822611413053" />
-          <property role="gqqTW" value="297.1565492449171" />
+          <property role="gqqTZ" value="329.6029732535888" />
+          <property role="gqqTW" value="340.9530877847064" />
           <property role="gqqTX" value="30.0" />
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
+      </node>
+    </node>
+    <node concept="GBo$P" id="qwNnoEnFqQ" role="J81tK">
+      <property role="GBof5" value="20.0" />
+      <property role="GBpj2" value="1.0" />
+      <property role="GBp7r" value="true" />
+      <node concept="POkNa" id="qwNnoEnFqR" role="GBpb4">
+        <property role="POl1y" value="12.0" />
+        <property role="POl7g" value="12.0" />
+        <property role="POljH" value="12.0" />
+        <property role="POlmT" value="12.0" />
       </node>
     </node>
   </node>

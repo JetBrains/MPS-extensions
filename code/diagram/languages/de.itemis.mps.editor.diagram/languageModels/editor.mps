@@ -8252,5 +8252,272 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="qwNnoEfmWY">
+    <property role="3GE5qa" value="layoutAlgorithm.config.disCo" />
+    <ref role="1XX52x" to="2qld:qwNnoEfkh3" resolve="DisCoLayoutConfig" />
+    <node concept="3EZMnI" id="qwNnoEfnmt" role="2wV5jI">
+      <node concept="2EHx9g" id="qwNnoEfnmu" role="2iSdaV" />
+      <node concept="3EZMnI" id="qwNnoEfnmv" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfnmw" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfnmx" role="3EZMnx">
+          <property role="3F0ifm" value="aspect ratio" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfnmy" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfnmz" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfnm$" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfnm_" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfnmA" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfnmB" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfnmC" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-aspectRatio.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfnmD" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEfkHK" resolve="aspectRatio" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfnKH" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfnKI" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfnKJ" role="3EZMnx">
+          <property role="3F0ifm" value="components spacing" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfnKK" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfnKL" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfnKM" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfnKN" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfnKO" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfnKP" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfnKQ" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-spacing-componentComponent.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfnKR" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEfkUN" resolve="componentsSpacing" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfnSO" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfnSP" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfnSQ" role="3EZMnx">
+          <property role="3F0ifm" value="connected components compaction strategy" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfnSR" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfnSS" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfnST" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfnSU" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfnSV" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfnSW" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfnSX" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-disco-componentCompaction-strategy.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfnSY" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEflc1" resolve="componentCompactionStrategy" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfnVk" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfnVl" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfnVm" role="3EZMnx">
+          <property role="3F0ifm" value="connected components layout algorithm" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfnVn" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfnVo" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfnVp" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfnVq" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfnVr" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfnVs" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfnVt" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-disco-componentCompaction-componentLayoutAlgorithm.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfnVu" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEflx2" resolve="componentLayoutAlgorithm" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfnXZ" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfnY0" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfnY1" role="3EZMnx">
+          <property role="3F0ifm" value="edge thickness" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfnY2" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfnY3" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfnY4" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfnY5" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfnY6" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfnY7" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfnY8" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-edge-thickness.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfnY9" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEflAO" resolve="edgeThickness" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfo0P" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfo0Q" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfo0R" role="3EZMnx">
+          <property role="3F0ifm" value="fill polyominoes" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfo0S" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfo0T" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfo0U" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfo0V" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfo0W" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfo0X" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfo0Y" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-disco.html#:~:text=1-,Fill%20Polyominoes,-true" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfo0Z" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEflMH" resolve="fillPolyominoes" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfo3s" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfo3t" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfo3u" role="3EZMnx">
+          <property role="3F0ifm" value="padding" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfo3v" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfo3w" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfo3x" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfo3y" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfo3z" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfo3$" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfo3_" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-padding.html" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="qwNnoEfpLO" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEflYM" resolve="padding" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfo6C" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfo6D" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfo6E" role="3EZMnx">
+          <property role="3F0ifm" value="polyomino primary sorting criterion" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfo6F" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfo6G" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfo6H" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfo6I" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfo6J" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfo6K" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfo6L" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-disco.html#:~:text=new%20ElkPadding(12)-,Polyomino%20Primary%20Sorting%20Criterion,-HighLevelSortingCriterion.NUM_OF_EXTERNAL_SIDES_THAN_NUM_OF_EXTENSIONS_LAST" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfo6M" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEflUZ" resolve="polyominoHighLevelSort" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfo9_" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfo9A" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfo9B" role="3EZMnx">
+          <property role="3F0ifm" value="polyomino secondary sorting criterion" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfo9C" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfo9D" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfo9E" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfo9F" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfo9G" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfo9H" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfo9I" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-polyomino-lowLevelSort.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfo9J" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEfmrJ" resolve="polyominoLowLevelSort" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="qwNnoEfod7" role="3EZMnx">
+        <node concept="2iRfu4" id="qwNnoEfod8" role="2iSdaV" />
+        <node concept="3F0ifn" id="qwNnoEfod9" role="3EZMnx">
+          <property role="3F0ifm" value="polyomino traversal strategy" />
+        </node>
+        <node concept="1HlG4h" id="qwNnoEfoda" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="qwNnoEfodb" role="1HlULh">
+            <node concept="3TQlhw" id="qwNnoEfodc" role="1Hhtcw">
+              <node concept="3clFbS" id="qwNnoEfodd" role="2VODD2">
+                <node concept="3cpWs6" id="qwNnoEfode" role="3cqZAp">
+                  <node concept="Xl_RD" id="qwNnoEfodf" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="qwNnoEfodg" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/algorithms/org-eclipse-elk-disco.html#:~:text=LowLevelSortingCriterion.BY_SIZE_AND_SHAPE-,Polyomino%20Traversal%20Strategy,-TraversalStrategy.QUADRANTS_LINE_BY_LINE" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="qwNnoEfodh" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:qwNnoEfmBG" resolve="polyominoTraversalStrategy" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

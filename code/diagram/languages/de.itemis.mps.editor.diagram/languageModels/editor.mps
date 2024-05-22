@@ -6451,14 +6451,14 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramCoreAttributes" />
     <node concept="3t5Usi" id="7L7aZ7jSdd6" role="V601i">
-      <property role="TrG5h" value="diagram-edge-thickness" />
+      <property role="TrG5h" value="core-edge-thickness" />
       <node concept="10P55v" id="7L7aZ7jSded" role="3t5Oan" />
       <node concept="3b6qkQ" id="7L7aZ7jSdep" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSdey" role="V601i">
-      <property role="TrG5h" value="diagram-edge-type" />
+      <property role="TrG5h" value="core-edge-type" />
       <node concept="3uibUv" id="7L7aZ7jSdeQ" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~EdgeType" resolve="EdgeType" />
       </node>
@@ -6468,7 +6468,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSdfK" role="V601i">
-      <property role="TrG5h" value="diagram-edge-label-placement" />
+      <property role="TrG5h" value="core-edge-label-placement" />
       <node concept="3uibUv" id="7L7aZ7jSdfL" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~EdgeLabelPlacement" resolve="EdgeLabelPlacement" />
       </node>
@@ -6478,32 +6478,32 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSdi1" role="V601i">
-      <property role="TrG5h" value="diagram-inline-edge-labels" />
+      <property role="TrG5h" value="core-inline-edge-labels" />
       <node concept="10P_77" id="7L7aZ7jSdlZ" role="3t5Oan" />
       <node concept="3clFbT" id="7L7aZ7jSdmn" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYdn_" role="V601i">
-      <property role="TrG5h" value="diagram-activate-inside-self-loops" />
+      <property role="TrG5h" value="core-activate-inside-self-loops" />
       <node concept="10P_77" id="56jSwhzYdnA" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYdnB" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYdS6" role="V601i">
-      <property role="TrG5h" value="diagram-font-name" />
+      <property role="TrG5h" value="core-font-name" />
       <node concept="17QB3L" id="56jSwhzYdTa" role="3t5Oan" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYdTh" role="V601i">
-      <property role="TrG5h" value="diagram-font-size" />
+      <property role="TrG5h" value="core-font-size" />
       <node concept="3uibUv" id="56jSwhzYg0c" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYgfH" role="V601i">
-      <property role="TrG5h" value="diagram-inside-self-loop" />
+      <property role="TrG5h" value="core-inside-self-loop" />
       <node concept="10P_77" id="56jSwhzYggJ" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYggM" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYhVL" role="V601i">
-      <property role="TrG5h" value="diagram-node-label-padding" />
+      <property role="TrG5h" value="core-node-label-padding" />
       <node concept="3uibUv" id="56jSwhzYhWN" role="3t5Oan">
         <ref role="3uigEE" to="vgho:~ElkPadding" resolve="ElkPadding" />
       </node>
@@ -6518,7 +6518,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYis2" role="V601i">
-      <property role="TrG5h" value="diagram-node-label-placement" />
+      <property role="TrG5h" value="core-node-label-placement" />
       <node concept="3uibUv" id="56jSwhzYis3" role="3t5Oan">
         <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
         <node concept="3uibUv" id="56jSwhzYiNJ" role="11_B2D">
@@ -6531,7 +6531,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYkZu" role="V601i">
-      <property role="TrG5h" value="diagram-node-size-constraints" />
+      <property role="TrG5h" value="core-node-size-constraints" />
       <node concept="3uibUv" id="56jSwhzYll5" role="3t5Oan">
         <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
         <node concept="3uibUv" id="56jSwhzYnrv" role="11_B2D">
@@ -6547,7 +6547,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYnz6" role="V601i">
-      <property role="TrG5h" value="diagram-node-size-options" />
+      <property role="TrG5h" value="core-node-size-options" />
       <node concept="3uibUv" id="56jSwhzYnz7" role="3t5Oan">
         <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
         <node concept="3uibUv" id="56jSwhzYnz8" role="11_B2D">
@@ -6564,7 +6564,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYsFZ" role="V601i">
-      <property role="TrG5h" value="diagram-node-size-minimum" />
+      <property role="TrG5h" value="core-node-size-minimum" />
       <node concept="3uibUv" id="56jSwhzYuoR" role="3t5Oan">
         <ref role="3uigEE" to="vgho:~KVector" resolve="KVector" />
       </node>
@@ -6582,18 +6582,18 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYx2J" role="V601i">
-      <property role="TrG5h" value="diagram-fixed-graph-size" />
+      <property role="TrG5h" value="core-fixed-graph-size" />
       <node concept="10P_77" id="56jSwhzYxuv" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYxvp" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYzBG" role="V601i">
-      <property role="TrG5h" value="diagram-layout-partition" />
+      <property role="TrG5h" value="core-layout-partition" />
       <node concept="3uibUv" id="56jSwhzYzW1" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzY_c7" role="V601i">
-      <property role="TrG5h" value="diagram-layout-partition-activate" />
+      <property role="TrG5h" value="core-layout-partition-activate" />
       <node concept="3uibUv" id="56jSwhzY_c8" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
       </node>
@@ -6603,19 +6603,19 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYATi" role="V601i">
-      <property role="TrG5h" value="diagram-port-anchor-offset" />
+      <property role="TrG5h" value="core-port-anchor-offset" />
       <node concept="3uibUv" id="56jSwhzYATj" role="3t5Oan">
         <ref role="3uigEE" to="vgho:~KVector" resolve="KVector" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYBCx" role="V601i">
-      <property role="TrG5h" value="diagram-port-index" />
+      <property role="TrG5h" value="core-port-index" />
       <node concept="3uibUv" id="56jSwhzYBWM" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYBWQ" role="V601i">
-      <property role="TrG5h" value="diagram-port-side" />
+      <property role="TrG5h" value="core-port-side" />
       <node concept="3uibUv" id="56jSwhzYBWR" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~PortSide" resolve="PortSide" />
       </node>
@@ -6625,13 +6625,13 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYCGh" role="V601i">
-      <property role="TrG5h" value="diagram-port-border-offset" />
+      <property role="TrG5h" value="core-port-border-offset" />
       <node concept="3uibUv" id="56jSwhzYCGi" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYEBQ" role="V601i">
-      <property role="TrG5h" value="diagram-port-alignment" />
+      <property role="TrG5h" value="core-port-alignment" />
       <node concept="3uibUv" id="56jSwhzYEBR" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
       </node>
@@ -6641,31 +6641,31 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYEWv" role="V601i">
-      <property role="TrG5h" value="diagram-port-alignment-north" />
+      <property role="TrG5h" value="core-port-alignment-north" />
       <node concept="3uibUv" id="56jSwhzYEWw" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYFgP" role="V601i">
-      <property role="TrG5h" value="diagram-port-alignment-south" />
+      <property role="TrG5h" value="core-port-alignment-south" />
       <node concept="3uibUv" id="56jSwhzYFgQ" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYGbU" role="V601i">
-      <property role="TrG5h" value="diagram-port-alignment-west" />
+      <property role="TrG5h" value="core-port-alignment-west" />
       <node concept="3uibUv" id="56jSwhzYGbV" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYGvR" role="V601i">
-      <property role="TrG5h" value="diagram-port-alignment-east" />
+      <property role="TrG5h" value="core-port-alignment-east" />
       <node concept="3uibUv" id="56jSwhzYGvS" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYGNQ" role="V601i">
-      <property role="TrG5h" value="diagram-port-label-placement" />
+      <property role="TrG5h" value="core-port-label-placement" />
       <node concept="3uibUv" id="56jSwhzYGNR" role="3t5Oan">
         <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
         <node concept="3uibUv" id="56jSwhzYHl4" role="11_B2D">
@@ -6678,117 +6678,117 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYHs9" role="V601i">
-      <property role="TrG5h" value="diagram-port-labels-next-to-port" />
+      <property role="TrG5h" value="core-port-labels-next-to-port" />
       <node concept="10P_77" id="56jSwhzYITq" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYJ7N" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYJ7T" role="V601i">
-      <property role="TrG5h" value="diagram-treat-port-labels-as-group" />
+      <property role="TrG5h" value="core-treat-port-labels-as-group" />
       <node concept="10P_77" id="56jSwhzYJ7U" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYJ7V" role="3t49C2">
         <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKF7" role="V601i">
-      <property role="TrG5h" value="diagram-comment-comment-spacing" />
+      <property role="TrG5h" value="core-comment-comment-spacing" />
       <node concept="10P55v" id="56jSwhzYLxn" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYLxv" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYLxC" role="V601i">
-      <property role="TrG5h" value="diagram-comment-node-spacing" />
+      <property role="TrG5h" value="core-comment-node-spacing" />
       <node concept="10P55v" id="56jSwhzYLxD" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYLxE" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYLQA" role="V601i">
-      <property role="TrG5h" value="diagram-components-spacing" />
+      <property role="TrG5h" value="core-components-spacing" />
       <node concept="10P55v" id="56jSwhzYLQB" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYMbL" role="3t49C2">
         <property role="$nhwW" value="20.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYMbU" role="V601i">
-      <property role="TrG5h" value="diagram-edge-spacing" />
+      <property role="TrG5h" value="core-edge-spacing" />
       <node concept="10P55v" id="56jSwhzYMbV" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYN8j" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYN8p" role="V601i">
-      <property role="TrG5h" value="diagram-edge-label-spacing" />
+      <property role="TrG5h" value="core-edge-label-spacing" />
       <node concept="10P55v" id="56jSwhzYN8q" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYNtH" role="3t49C2">
         <property role="$nhwW" value="2.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYNtN" role="V601i">
-      <property role="TrG5h" value="diagram-edge-node-spacing" />
+      <property role="TrG5h" value="core-edge-node-spacing" />
       <node concept="10P55v" id="56jSwhzYNtO" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYOqj" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYOqs" role="V601i">
-      <property role="TrG5h" value="diagram-label-spacing" />
+      <property role="TrG5h" value="core-label-spacing" />
       <node concept="10P55v" id="56jSwhzYOqt" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYOJT" role="3t49C2">
         <property role="$nhwW" value="0.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYOK2" role="V601i">
-      <property role="TrG5h" value="diagram-label-node-spacing" />
+      <property role="TrG5h" value="core-label-node-spacing" />
       <node concept="10P55v" id="56jSwhzYOK3" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYPGw" role="3t49C2">
         <property role="$nhwW" value="5.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYPGD" role="V601i">
-      <property role="TrG5h" value="diagram-horizontal-spacing-between-label-and-port" />
+      <property role="TrG5h" value="core-horizontal-spacing-between-label-and-port" />
       <node concept="10P55v" id="56jSwhzYPGE" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYQ2p" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYQ2v" role="V601i">
-      <property role="TrG5h" value="diagram-vertical-spacing-between-label-and-port" />
+      <property role="TrG5h" value="core-vertical-spacing-between-label-and-port" />
       <node concept="10P55v" id="56jSwhzYQ2w" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYQ2x" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYQYV" role="V601i">
-      <property role="TrG5h" value="diagram-node-spacing" />
+      <property role="TrG5h" value="core-node-spacing" />
       <node concept="10P55v" id="56jSwhzYQYW" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYRky" role="3t49C2">
         <property role="$nhwW" value="20.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYRkC" role="V601i">
-      <property role="TrG5h" value="diagram-self-loop-spacing" />
+      <property role="TrG5h" value="core-self-loop-spacing" />
       <node concept="10P55v" id="56jSwhzYRkD" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYREd" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYREm" role="V601i">
-      <property role="TrG5h" value="diagram-port-spacing" />
+      <property role="TrG5h" value="core-port-spacing" />
       <node concept="10P55v" id="56jSwhzYREn" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYREo" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYRZS" role="V601i">
-      <property role="TrG5h" value="diagram-individual-spacing" />
+      <property role="TrG5h" value="core-individual-spacing" />
       <node concept="10P55v" id="56jSwhzYRZT" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYRZU" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYSWK" role="V601i">
-      <property role="TrG5h" value="diagram-additional-port-space" />
+      <property role="TrG5h" value="core-additional-port-space" />
       <node concept="3uibUv" id="56jSwhzYTix" role="3t5Oan">
         <ref role="3uigEE" to="vgho:~ElkMargin" resolve="ElkMargin" />
       </node>
@@ -6803,13 +6803,13 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$19pg" role="V601i">
-      <property role="TrG5h" value="diagram-aspect-ratio" />
+      <property role="TrG5h" value="core-aspect-ratio" />
       <node concept="3uibUv" id="56jSwh$19LK" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$1IEX" role="V601i">
-      <property role="TrG5h" value="diagram-content-alignment" />
+      <property role="TrG5h" value="core-content-alignment" />
       <node concept="3uibUv" id="56jSwh$1IEY" role="3t5Oan">
         <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
         <node concept="3uibUv" id="56jSwh$1JU2" role="11_B2D">
@@ -6822,22 +6822,22 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$1SzN" role="V601i">
-      <property role="TrG5h" value="diagram-expand-nodes" />
+      <property role="TrG5h" value="core-expand-nodes" />
       <node concept="10P_77" id="56jSwh$1ULm" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$1UZP" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwh$2097" role="V601i">
-      <property role="TrG5h" value="diagram-interactive" />
+      <property role="TrG5h" value="core-interactive" />
       <node concept="10P_77" id="56jSwh$2098" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$2099" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="qwNnoDPfBg" role="V601i">
-      <property role="TrG5h" value="diagram-interactive-layout" />
+      <property role="TrG5h" value="core-interactive-layout" />
       <node concept="10P_77" id="qwNnoDPfBh" role="3t5Oan" />
       <node concept="3clFbT" id="qwNnoDPfBi" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwh$3xAj" role="V601i">
-      <property role="TrG5h" value="diagram-padding" />
+      <property role="TrG5h" value="core-padding" />
       <node concept="3uibUv" id="56jSwh$3yjo" role="3t5Oan">
         <ref role="3uigEE" to="vgho:~ElkPadding" resolve="ElkPadding" />
       </node>
@@ -6852,24 +6852,24 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$3MPE" role="V601i">
-      <property role="TrG5h" value="diagram-priority" />
+      <property role="TrG5h" value="core-priority" />
       <node concept="3uibUv" id="56jSwh$3MPF" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$TCcP" role="V601i">
-      <property role="TrG5h" value="diagram-omit-node-micro-layout" />
+      <property role="TrG5h" value="core-omit-node-micro-layout" />
       <node concept="10P_77" id="56jSwh$TD6Z" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$TD7Q" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="qwNnoDG0nF" role="V601i">
-      <property role="TrG5h" value="diagram-randomization-seed" />
+      <property role="TrG5h" value="core-randomization-seed" />
       <node concept="3uibUv" id="qwNnoDG1S$" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEJwkp" role="V601i">
-      <property role="TrG5h" value="diagram-direction" />
+      <property role="TrG5h" value="core-direction" />
       <node concept="3uibUv" id="qwNnoEJwkq" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~Direction" resolve="Direction" />
       </node>
@@ -6879,13 +6879,13 @@
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEJLcg" role="V601i">
-      <property role="TrG5h" value="diagram-separate-connected-components" />
+      <property role="TrG5h" value="core-separate-connected-components" />
       <node concept="3uibUv" id="qwNnoEJLMe" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEJWpI" role="V601i">
-      <property role="TrG5h" value="diagram-topdown-layout" />
+      <property role="TrG5h" value="core-topdown-layout" />
       <node concept="10P_77" id="qwNnoEJXvB" role="3t5Oan" />
       <node concept="3clFbT" id="qwNnoEJXwT" role="3t49C2" />
     </node>

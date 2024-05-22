@@ -64,6 +64,12 @@
         <child id="5878290447138473156" name="padding" index="POir0" />
         <child id="5878290447138451908" name="contentAlignment" index="POpf0" />
       </concept>
+      <concept id="3662141892368052716" name="de.itemis.mps.editor.diagram.structure.SPOrEOverlaRremovalLayoutConfig" flags="ng" index="31vzH9">
+        <property id="3662141892368081985" name="nodeSpacing" index="31vUV$" />
+        <property id="3662141892368085227" name="overlapRemovalMaxIterations" index="31vVDe" />
+        <property id="3662141892368087034" name="overlapRemovalRunScanLine" index="31vVPv" />
+        <child id="3662141892368082586" name="padding" index="31vUKZ" />
+      </concept>
       <concept id="3662141892363274952" name="de.itemis.mps.editor.diagram.structure.SPOrECompactionLayoutConfig" flags="ng" index="31Gk1H">
         <property id="3662141892363279842" name="nodeSpacing" index="31Glt7" />
         <property id="3662141892363283859" name="treeConstructionStrategy" index="31GmsQ" />
@@ -2590,6 +2596,17 @@
           <property role="gqqTy" value="33.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
+      </node>
+    </node>
+    <node concept="31vzH9" id="3biyEnNMb9s" role="J81tK">
+      <property role="31vUV$" value="20.0" />
+      <property role="31vVDe" value="64" />
+      <property role="31vVPv" value="true" />
+      <node concept="POkNa" id="3biyEnNMb9t" role="31vUKZ">
+        <property role="POl1y" value="8.0" />
+        <property role="POl7g" value="8.0" />
+        <property role="POljH" value="8.0" />
+        <property role="POlmT" value="8.0" />
       </node>
     </node>
   </node>

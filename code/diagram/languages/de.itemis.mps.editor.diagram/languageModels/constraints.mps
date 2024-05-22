@@ -821,5 +821,46 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3biyEnNFoer">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
+    <ref role="1M2myG" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlaRremovalLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNFogu" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNFogv" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNFohL" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNFohM" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNFohN" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNFohO" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNFohP" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNFohQ" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNFohR" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNFohS" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNFohT" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNFohU" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNFohV" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNFohW" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNFohX" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNFohY" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNFohZ" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNFoi0" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNFoi1" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5sXqsGQZDFZ" resolve="SPOrEOverlapRemovalAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -6172,5 +6172,133 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="3biyEnNFoJZ">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
+    <ref role="13h7C2" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlaRremovalLayoutConfig" />
+    <node concept="13hLZK" id="3biyEnNFoK0" role="13h7CW">
+      <node concept="3clFbS" id="3biyEnNFoK1" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNFoWj" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNFrEj" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNFweQ" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnNFvoe" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNFv6q" role="2Oq$k0">
+                  <ref role="3cqZAo" to="gwyy:~CoreOptions.SPACING_NODE_NODE" resolve="SPACING_NODE_NODE" />
+                  <ref role="1PxDUh" to="gwyy:~CoreOptions" resolve="CoreOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnNFvE5" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNFwNI" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNFroH" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNFrj6" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNFrtS" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNFih1" resolve="nodeSpacing" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNFtPK" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNFurR" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNFxsH" role="37vLTx">
+              <node concept="35c_gC" id="3biyEnNFwZa" role="2Oq$k0">
+                <ref role="35c_gD" to="2qld:56jSwh$gEVe" resolve="Padding" />
+              </node>
+              <node concept="2qgKlT" id="3biyEnNFxN3" role="2OqNvi">
+                <ref role="37wK5l" node="56jSwh$nT2X" resolve="fromElkPadding" />
+                <node concept="2ShNRf" id="3biyEnNFxTZ" role="37wK5m">
+                  <node concept="1pGfFk" id="3biyEnNFylv" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="vgho:~ElkPadding.&lt;init&gt;(double)" resolve="ElkPadding" />
+                    <node concept="3cmrfG" id="3biyEnNFyo1" role="37wK5m">
+                      <property role="3cmrfH" value="8" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNFtSd" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNFtPI" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3biyEnNFtX8" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:3biyEnNFiqq" resolve="padding" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNFrI1" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNFs04" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNFzgA" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNFyHN" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:3biyEnNoYKW" resolve="StructureExtractionStrategy" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNFz$q" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnNF_2Q" role="2ViJBj">
+                  <node concept="2OqwBi" id="3biyEnNFzYI" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnNFzLo" role="2Oq$k0">
+                      <ref role="3cqZAo" to="76o8:~SporeMetaDataProvider.STRUCTURE_STRUCTURE_EXTRACTION_STRATEGY" resolve="STRUCTURE_STRUCTURE_EXTRACTION_STRATEGY" />
+                      <ref role="1PxDUh" to="76o8:~SporeMetaDataProvider" resolve="SporeMetaDataProvider" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnNF$ej" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3biyEnNFA06" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNFrJO" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNFrHZ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNFrOB" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNFiy_" resolve="structureExtractionStrategy" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNFsi8" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNFtkd" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNFBig" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNFAVI" role="2Oq$k0">
+                <ref role="3cqZAo" to="76o8:~SporeMetaDataProvider.OVERLAP_REMOVAL_MAX_ITERATIONS" resolve="OVERLAP_REMOVAL_MAX_ITERATIONS" />
+                <ref role="1PxDUh" to="76o8:~SporeMetaDataProvider" resolve="SporeMetaDataProvider" />
+              </node>
+              <node concept="liA8E" id="3biyEnNFByU" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNFsk3" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNFsi6" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNFsow" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNFj3F" resolve="overlapRemovalMaxIterations" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNFtpb" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNFtGJ" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNFCfH" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNFBZh" role="2Oq$k0">
+                <ref role="3cqZAo" to="76o8:~SporeMetaDataProvider.OVERLAP_REMOVAL_RUN_SCANLINE" resolve="OVERLAP_REMOVAL_RUN_SCANLINE" />
+                <ref role="1PxDUh" to="76o8:~SporeMetaDataProvider" resolve="SporeMetaDataProvider" />
+              </node>
+              <node concept="liA8E" id="3biyEnNFCva" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNFtrn" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNFtp9" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNFtx4" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNFjvU" resolve="overlapRemovalRunScanLine" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -3523,5 +3523,46 @@
       <property role="TrG5h" value="MAXIMUM_SPANNING_TREE" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3biyEnNFb7G">
+    <property role="EcuMT" value="3662141892368052716" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
+    <property role="TrG5h" value="SPOrEOverlaRremovalLayoutConfig" />
+    <property role="34LRSv" value="SPOrE overlap removal layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyj" id="3biyEnNFiqq" role="1TKVEi">
+      <property role="IQ2ns" value="3662141892368082586" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNFih1" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892368081985" />
+      <property role="TrG5h" value="nodeSpacing" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNFiy_" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892368083109" />
+      <property role="TrG5h" value="structureExtractionStrategy" />
+      <ref role="AX2Wp" node="3biyEnNoYKW" resolve="StructureExtractionStrategy" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNFiQb" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892368084363" />
+      <property role="TrG5h" value="underlayingAlgorithm" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNFj3F" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892368085227" />
+      <property role="TrG5h" value="overlapRemovalMaxIterations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNFjvU" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892368087034" />
+      <property role="TrG5h" value="overlapRemovalRunScanLine" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1sEMCm" id="3biyEnNFb7R" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
 </model>
 

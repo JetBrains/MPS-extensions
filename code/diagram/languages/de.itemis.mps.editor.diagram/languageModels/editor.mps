@@ -9413,5 +9413,168 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="3biyEnNFjTM">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
+    <ref role="1XX52x" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlaRremovalLayoutConfig" />
+    <node concept="3EZMnI" id="3biyEnNFjUC" role="2wV5jI">
+      <node concept="2EHx9g" id="3biyEnNFjUD" role="2iSdaV" />
+      <node concept="3EZMnI" id="3biyEnNFjUE" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNFjUF" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNFjUG" role="3EZMnx">
+          <property role="3F0ifm" value="node spacing" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNFjUH" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNFjUI" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNFjUJ" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNFjUK" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNFjUL" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNFjUM" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNFjUN" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-spacing-nodeNode.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNFjUO" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNFih1" resolve="nodeSpacing" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNFk7Y" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNFk7Z" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNFk80" role="3EZMnx">
+          <property role="3F0ifm" value="padding" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNFk81" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNFk82" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNFk83" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNFk84" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNFk85" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNFk86" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNFk87" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-padding.html" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="3biyEnNFnku" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNFiqq" resolve="padding" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNFlQQ" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNFlQR" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNFlQS" role="3EZMnx">
+          <property role="3F0ifm" value="structure extraction strategy" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNFlQT" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNFlQU" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNFlQV" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNFlQW" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNFlQX" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNFlQY" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNFlQZ" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-structure-structureExtractionStrategy.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNFlR0" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNFiy_" resolve="structureExtractionStrategy" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNFlTm" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNFlTn" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNFlTo" role="3EZMnx">
+          <property role="3F0ifm" value="underlying layout algorithm" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNFlTp" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNFlTq" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNFlTr" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNFlTs" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNFlTt" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNFlTu" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNFlTv" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-underlyingLayoutAlgorithm.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNFlTw" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNFlW1" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNFlW2" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNFlW3" role="3EZMnx">
+          <property role="3F0ifm" value="upper limit for iterations of overlap removal" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNFlW4" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNFlW5" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNFlW6" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNFlW7" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNFlW8" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNFlW9" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNFlWa" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-overlapRemoval-maxIterations.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNFlWb" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNFj3F" resolve="overlapRemovalMaxIterations" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNFlYt" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNFlYu" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNFlYv" role="3EZMnx">
+          <property role="3F0ifm" value="run a supplementary scanline overlap check" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNFlYw" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNFlYx" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNFlYy" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNFlYz" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNFlY$" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNFlY_" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNFlYA" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-overlapRemoval-runScanline.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNFlYB" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNFjvU" resolve="overlapRemovalRunScanLine" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

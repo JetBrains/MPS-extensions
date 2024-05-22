@@ -2738,6 +2738,143 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="1xKZcO" id="5sXqsGR3hCc" role="35U2g" />
+        <node concept="3tD6jV" id="vVBnaNFPJF" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <node concept="3sjG9q" id="vVBnaNFPJG" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNFPJH" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNFQVe" role="3cqZAp">
+                <node concept="2YIFZM" id="vVBnaNFQXt" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="vVBnaNFRU1" role="37wK5m">
+                    <node concept="2OqwBi" id="vVBnaNFRnV" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNFR1Q" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNFRGz" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="vVBnaNFSgO" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNFih1" resolve="nodeSpacing" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNFPUP" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYTHH" resolve="spore-structure-extraction-strategy" />
+          <node concept="3sjG9q" id="vVBnaNFPUR" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNFPUT" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNFSp8" role="3cqZAp">
+                <node concept="unr1b" id="vVBnaNFS_l" role="3clFbG">
+                  <ref role="un$jP" to="76o8:~StructureExtractionStrategy" resolve="StructureExtractionStrategy" />
+                  <node concept="2OqwBi" id="vVBnaNFUrL" role="unwt0">
+                    <node concept="2OqwBi" id="vVBnaNFTUU" role="2Oq$k0">
+                      <node concept="2OqwBi" id="vVBnaNFT6y" role="2Oq$k0">
+                        <node concept="pncrf" id="vVBnaNFSVE" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="vVBnaNFT_w" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="vVBnaNFUip" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnNFiy_" resolve="structureExtractionStrategy" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="vVBnaNFUE8" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNFQ9X" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
+          <node concept="3sjG9q" id="vVBnaNFQ9Z" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNFQa1" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNFUIr" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNFVdc" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNFV0x" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNFUIq" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNFV9b" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNFVhq" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNFQmY" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYxvH" resolve="spore-upper-limit-for-iterations-of-overlap-removal" />
+          <node concept="3sjG9q" id="vVBnaNFQn0" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNFQn2" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNFVkU" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNFVME" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNFVy6" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNFVkT" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNFVJt" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNFVWr" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNFj3F" resolve="overlapRemovalMaxIterations" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNFQ_A" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwhzYxwR" resolve="spore-run-a-supplementary-scanline-overlap-check" />
+          <node concept="3sjG9q" id="vVBnaNFQ_C" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNFQ_E" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNFW1z" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNFWjA" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNFW8C" role="2Oq$k0">
+                    <node concept="pncrf" id="vVBnaNFW1y" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="vVBnaNFWfS" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="vVBnaNFWps" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNFjvU" resolve="overlapRemovalRunScanLine" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="vVBnaNFQK_" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <node concept="3sjG9q" id="vVBnaNFQKB" role="3tD6jU">
+            <node concept="3clFbS" id="vVBnaNFQKD" role="2VODD2">
+              <node concept="3clFbF" id="vVBnaNFWy8" role="3cqZAp">
+                <node concept="2OqwBi" id="vVBnaNFXgQ" role="3clFbG">
+                  <node concept="2OqwBi" id="vVBnaNFWVV" role="2Oq$k0">
+                    <node concept="2OqwBi" id="vVBnaNFWD0" role="2Oq$k0">
+                      <node concept="pncrf" id="vVBnaNFWy7" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="vVBnaNFWSI" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="vVBnaNFWZl" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:3biyEnNFiqq" resolve="padding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="vVBnaNFXwE" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="PMmxH" id="3biyEnNoBIO" role="6VMZX">

@@ -3627,5 +3627,125 @@
       <property role="TrG5h" value="Y" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3biyEnNTgvt">
+    <property role="EcuMT" value="3662141892371744733" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.force" />
+    <property role="TrG5h" value="ForceLayoutConfig" />
+    <property role="34LRSv" value="force layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyj" id="3biyEnNTiSN" role="1TKVEi">
+      <property role="IQ2ns" value="3662141892371754547" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTgOJ" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371746095" />
+      <property role="TrG5h" value="aspectRatio" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTgZm" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371746774" />
+      <property role="TrG5h" value="eadesRepulsion" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNThqF" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371748523" />
+      <property role="TrG5h" value="edgeLabelSpacing" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNThBn" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371749335" />
+      <property role="TrG5h" value="fixedGraphSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNThKO" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371749940" />
+      <property role="TrG5h" value="forceModel" />
+      <ref role="AX2Wp" node="3biyEnNThPp" resolve="ForceModelStrategy" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNThUO" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371750580" />
+      <property role="TrG5h" value="forceTemperature" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTi5V" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371751291" />
+      <property role="TrG5h" value="inlineEdgeLabels" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTige" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371751950" />
+      <property role="TrG5h" value="interactive" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTioV" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371752507" />
+      <property role="TrG5h" value="iterations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTiy3" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371753091" />
+      <property role="TrG5h" value="nodeSpacing" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTiFb" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371753675" />
+      <property role="TrG5h" value="omitNodeMicroLayout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTj0$" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371755044" />
+      <property role="TrG5h" value="randomizationSeed" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTjee" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371755918" />
+      <property role="TrG5h" value="separateConnectedComponents" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTjv8" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371757000" />
+      <property role="TrG5h" value="topdownHierarchicalNodeAspectRatio" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTjOZ" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371758399" />
+      <property role="TrG5h" value="topdownHierarchicalNodeWidth" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTk5X" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371759485" />
+      <property role="TrG5h" value="topdownLayout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTkhD" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371760233" />
+      <property role="TrG5h" value="topdownNodeType" />
+      <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTkvp" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371761113" />
+      <property role="TrG5h" value="topdownScaleFactor" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1sEMCm" id="3biyEnNTgv_" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnNThPp">
+    <property role="3F6X1D" value="3662141892371750233" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.force" />
+    <property role="TrG5h" value="ForceModelStrategy" />
+    <ref role="1H5jkz" node="3biyEnNThPs" resolve="FRUCHTERMAN_REINGOLD" />
+    <node concept="25R33" id="3biyEnNThPq" role="25R1y">
+      <property role="3tVfz5" value="3662141892371750234" />
+      <property role="TrG5h" value="EADES" />
+    </node>
+    <node concept="25R33" id="3biyEnNThPs" role="25R1y">
+      <property role="3tVfz5" value="3662141892371750236" />
+      <property role="TrG5h" value="FRUCHTERMAN_REINGOLD" />
+    </node>
+  </node>
 </model>
 

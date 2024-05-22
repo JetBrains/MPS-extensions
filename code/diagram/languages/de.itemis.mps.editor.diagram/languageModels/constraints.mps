@@ -903,5 +903,46 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3biyEnNTtnP">
+    <property role="3GE5qa" value="layoutAlgorithm.config.force" />
+    <ref role="1M2myG" to="2qld:3biyEnNTgvt" resolve="ForceLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNTtp4" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNTtp5" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNTtpX" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNTtpY" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTtpZ" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNTtq0" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNTtq1" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNTtq2" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNTtq3" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNTtq4" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNTtq5" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNTtq6" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNTtq7" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNTtq8" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNTtq9" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTtqa" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNTtqb" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNTtqc" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNTtqd" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5Qzx7AqfkbW" resolve="ForceLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

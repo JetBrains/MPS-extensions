@@ -80,6 +80,10 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -6456,6 +6460,447 @@
                 </node>
               </node>
               <node concept="liA8E" id="3biyEnNNCwc" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3biyEnNTtQX">
+    <property role="3GE5qa" value="layoutAlgorithm.config.force" />
+    <ref role="13h7C2" to="2qld:3biyEnNTgvt" resolve="ForceLayoutConfig" />
+    <node concept="13hLZK" id="3biyEnNTtQY" role="13h7CW">
+      <node concept="3clFbS" id="3biyEnNTtQZ" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNTtYP" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTuEZ" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTucJ" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTtYO" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTuvo" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTgOJ" resolve="aspectRatio" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnPwEpE" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnPwDDw" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnPwDpG" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~ForceOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
+                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnPwDTo" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnPwF6F" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTuJ7" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTuTO" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTuKw" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTuJ5" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTuQV" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTgZm" resolve="eadesRepulsion" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTGOK" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnNTFuH" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNTF3V" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~ForceOptions.REPULSION" resolve="REPULSION" />
+                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnNTFI5" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNTGVs" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTuYf" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTva9" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTJM4" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnNTJ8x" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNTIQH" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~ForceOptions.SPACING_EDGE_LABEL" resolve="SPACING_EDGE_LABEL" />
+                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnNTJom" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNTKls" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTv1d" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTuYd" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTv7g" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNThqF" resolve="edgeLabelSpacing" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTveq" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTvxh" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTLxD" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNTLh2" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~ForceOptions.NODE_SIZE_FIXED_GRAPH_SIZE" resolve="NODE_SIZE_FIXED_GRAPH_SIZE" />
+                <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNTLOh" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTvgl" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTveo" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTvlc" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNThBn" resolve="fixedGraphSize" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTv_e" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTvRK" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTvBq" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTv_c" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTvFT" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNThKO" resolve="forceModel" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTCvF" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNTBY7" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:3biyEnNThPp" resolve="ForceModelStrategy" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNTCP7" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnNTDS9" role="2ViJBj">
+                  <node concept="2OqwBi" id="3biyEnNTD3Z" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnNTBAE" role="2Oq$k0">
+                      <ref role="3cqZAo" to="nnri:~ForceOptions.MODEL" resolve="MODEL" />
+                      <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnNTDmr" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3biyEnNTEx6" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTvX4" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTwaZ" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTvZ7" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTvX2" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTw7G" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNThUO" resolve="forceTemperature" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTHAd" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnNTHuE" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNTHhK" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~ForceOptions.TEMPERATURE" resolve="TEMPERATURE" />
+                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnNTHzZ" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNTHGy" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTwgc" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTwr$" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTwiw" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTwga" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTwoh" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTi5V" resolve="inlineEdgeLabels" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTM2d" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNTM0t" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~ForceOptions.EDGE_LABELS_INLINE" resolve="EDGE_LABELS_INLINE" />
+                <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNTM7L" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTwxu" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTwGJ" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTw$t" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTwxs" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTwDs" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTige" resolve="interactive" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTMjD" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNTMhT" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~ForceOptions.INTERACTIVE" resolve="INTERACTIVE" />
+                <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNTMpB" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTwMW" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTxDQ" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTwPM" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTwMU" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTxff" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTioV" resolve="iterations" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTAYd" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNTAvi" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~ForceOptions.ITERATIONS" resolve="ITERATIONS" />
+                <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNTBeL" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTxKK" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTydP" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTxZf" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTxKI" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTy3S" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTiy3" resolve="nodeSpacing" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTO89" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnNTN4A" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNTMM_" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~ForceOptions.SPACING_NODE_NODE" resolve="SPACING_NODE_NODE" />
+                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnNTNkC" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNTOFY" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTyl2" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTyD$" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTyoq" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTyl0" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTytv" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTiFb" resolve="omitNodeMicroLayout" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTN_C" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNTNzS" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~ForceOptions.OMIT_NODE_MICRO_LAYOUT" resolve="OMIT_NODE_MICRO_LAYOUT" />
+                <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNTNFc" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTyLP" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTz7m" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTyPu" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTyLN" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3biyEnNTyU_" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:3biyEnNTiSN" resolve="padding" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTPjI" role="37vLTx">
+              <node concept="35c_gC" id="3biyEnNTORx" role="2Oq$k0">
+                <ref role="35c_gD" to="2qld:56jSwh$gEVe" resolve="Padding" />
+              </node>
+              <node concept="2qgKlT" id="3biyEnNTPEu" role="2OqNvi">
+                <ref role="37wK5l" node="56jSwh$nT2X" resolve="fromElkPadding" />
+                <node concept="2OqwBi" id="3biyEnPwGfW" role="37wK5m">
+                  <node concept="10M0yZ" id="3biyEnPwG4n" role="2Oq$k0">
+                    <ref role="3cqZAo" to="nnri:~ForceOptions.PADDING" resolve="PADDING" />
+                    <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                  </node>
+                  <node concept="liA8E" id="3biyEnPwGw9" role="2OqNvi">
+                    <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTzf9" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTzrv" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTziD" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTzf7" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTzoc" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTj0$" resolve="randomizationSeed" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnPwHoP" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnPwH25" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~ForceOptions.RANDOM_SEED" resolve="RANDOM_SEED" />
+                <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnPwHCv" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTzyL" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNTzJ0" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTzBm" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTzyJ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNTzG7" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTjee" resolve="separateConnectedComponents" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnPwIfp" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnPwHX6" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~ForceOptions.SEPARATE_CONNECTED_COMPONENTS" resolve="SEPARATE_CONNECTED_COMPONENTS" />
+                <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnPwIxr" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNTzRp" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNT$81" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTzWD" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNTzRn" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNT$2E" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTjv8" resolve="topdownHierarchicalNodeAspectRatio" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTRR5" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnO3xwc" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNTRPm" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~ForceOptions.TOPDOWN_HIERARCHICAL_NODE_ASPECT_RATIO" resolve="TOPDOWN_HIERARCHICAL_NODE_ASPECT_RATIO" />
+                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnO3xAu" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNTS9g" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNT$fs" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNT$uj" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNT$jJ" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNT$fq" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNT$rq" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTjOZ" resolve="topdownHierarchicalNodeWidth" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTSD8" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnO3x9N" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNTSng" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~ForceOptions.TOPDOWN_HIERARCHICAL_NODE_WIDTH" resolve="TOPDOWN_HIERARCHICAL_NODE_WIDTH" />
+                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnO3xq9" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNTSIh" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNT$GG" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNT$Wg" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNT$M4" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNT$GE" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNT$SX" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTk5X" resolve="topdownLayout" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTT9p" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNTSSN" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~ForceOptions.TOPDOWN_LAYOUT" resolve="TOPDOWN_LAYOUT" />
+                <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNTTp0" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNT_5y" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNT_v_" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNT_bb" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNT_5w" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNT_jI" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTkhD" resolve="topdownNodeType" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTU4p" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNTT$R" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:qwNnoEIHR$" resolve="TopdownNodeTypes" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNTUp1" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnO1W42" role="2ViJBj">
+                  <node concept="liA8E" id="3biyEnO1WF9" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                  <node concept="2OqwBi" id="3biyEnPwOQU" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnPwLoH" role="2Oq$k0">
+                      <ref role="3cqZAo" to="nnri:~ForceOptions.TOPDOWN_NODE_TYPE" resolve="TOPDOWN_NODE_TYPE" />
+                      <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnPwQ4T" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNT_EZ" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNT_Yp" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNT_Kv" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNT_EX" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNT_Ui" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTkvp" resolve="topdownScaleFactor" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTWjg" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnO3KqD" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNTWh7" role="2Oq$k0">
+                  <ref role="3cqZAo" to="gwyy:~CoreOptions.TOPDOWN_SCALE_FACTOR" resolve="TOPDOWN_SCALE_FACTOR" />
+                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnO3KGL" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNTWoN" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
               </node>
             </node>

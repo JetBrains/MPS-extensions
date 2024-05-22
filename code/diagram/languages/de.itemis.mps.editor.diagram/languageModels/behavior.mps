@@ -6234,8 +6234,8 @@
             <node concept="2OqwBi" id="3biyEnNFweQ" role="37vLTx">
               <node concept="2OqwBi" id="3biyEnNFvoe" role="2Oq$k0">
                 <node concept="10M0yZ" id="3biyEnNFv6q" role="2Oq$k0">
-                  <ref role="3cqZAo" to="gwyy:~CoreOptions.SPACING_NODE_NODE" resolve="SPACING_NODE_NODE" />
-                  <ref role="1PxDUh" to="gwyy:~CoreOptions" resolve="CoreOptions" />
+                  <ref role="3cqZAo" to="76o8:~SporeOverlapRemovalOptions.SPACING_NODE_NODE" resolve="SPACING_NODE_NODE" />
+                  <ref role="1PxDUh" to="76o8:~SporeOverlapRemovalOptions" resolve="SporeOverlapRemovalOptions" />
                 </node>
                 <node concept="liA8E" id="3biyEnNFvE5" role="2OqNvi">
                   <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
@@ -6261,13 +6261,13 @@
               </node>
               <node concept="2qgKlT" id="3biyEnNFxN3" role="2OqNvi">
                 <ref role="37wK5l" node="56jSwh$nT2X" resolve="fromElkPadding" />
-                <node concept="2ShNRf" id="3biyEnNFxTZ" role="37wK5m">
-                  <node concept="1pGfFk" id="3biyEnNFylv" role="2ShVmc">
-                    <property role="373rjd" value="true" />
-                    <ref role="37wK5l" to="vgho:~ElkPadding.&lt;init&gt;(double)" resolve="ElkPadding" />
-                    <node concept="3cmrfG" id="3biyEnNFyo1" role="37wK5m">
-                      <property role="3cmrfH" value="8" />
-                    </node>
+                <node concept="2OqwBi" id="3biyEnP__xJ" role="37wK5m">
+                  <node concept="10M0yZ" id="3biyEnP__ma" role="2Oq$k0">
+                    <ref role="3cqZAo" to="76o8:~SporeOverlapRemovalOptions.PADDING" resolve="PADDING" />
+                    <ref role="1PxDUh" to="76o8:~SporeOverlapRemovalOptions" resolve="SporeOverlapRemovalOptions" />
+                  </node>
+                  <node concept="liA8E" id="3biyEnP__Lo" role="2OqNvi">
+                    <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
                   </node>
                 </node>
               </node>
@@ -6290,8 +6290,8 @@
                 <node concept="2OqwBi" id="3biyEnNF_2Q" role="2ViJBj">
                   <node concept="2OqwBi" id="3biyEnNFzYI" role="2Oq$k0">
                     <node concept="10M0yZ" id="3biyEnNFzLo" role="2Oq$k0">
-                      <ref role="3cqZAo" to="76o8:~SporeMetaDataProvider.STRUCTURE_STRUCTURE_EXTRACTION_STRATEGY" resolve="STRUCTURE_STRUCTURE_EXTRACTION_STRATEGY" />
-                      <ref role="1PxDUh" to="76o8:~SporeMetaDataProvider" resolve="SporeMetaDataProvider" />
+                      <ref role="3cqZAo" to="76o8:~SporeOverlapRemovalOptions.STRUCTURE_STRUCTURE_EXTRACTION_STRATEGY" resolve="STRUCTURE_STRUCTURE_EXTRACTION_STRATEGY" />
+                      <ref role="1PxDUh" to="76o8:~SporeOverlapRemovalOptions" resolve="SporeOverlapRemovalOptions" />
                     </node>
                     <node concept="liA8E" id="3biyEnNF$ej" role="2OqNvi">
                       <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
@@ -6315,8 +6315,8 @@
           <node concept="37vLTI" id="3biyEnNFtkd" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnNFBig" role="37vLTx">
               <node concept="10M0yZ" id="3biyEnNFAVI" role="2Oq$k0">
-                <ref role="3cqZAo" to="76o8:~SporeMetaDataProvider.OVERLAP_REMOVAL_MAX_ITERATIONS" resolve="OVERLAP_REMOVAL_MAX_ITERATIONS" />
-                <ref role="1PxDUh" to="76o8:~SporeMetaDataProvider" resolve="SporeMetaDataProvider" />
+                <ref role="3cqZAo" to="76o8:~SporeOverlapRemovalOptions.OVERLAP_REMOVAL_MAX_ITERATIONS" resolve="OVERLAP_REMOVAL_MAX_ITERATIONS" />
+                <ref role="1PxDUh" to="76o8:~SporeOverlapRemovalOptions" resolve="SporeOverlapRemovalOptions" />
               </node>
               <node concept="liA8E" id="3biyEnNFByU" role="2OqNvi">
                 <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
@@ -6334,8 +6334,8 @@
           <node concept="37vLTI" id="3biyEnNFtGJ" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnNFCfH" role="37vLTx">
               <node concept="10M0yZ" id="3biyEnNFBZh" role="2Oq$k0">
-                <ref role="3cqZAo" to="76o8:~SporeMetaDataProvider.OVERLAP_REMOVAL_RUN_SCANLINE" resolve="OVERLAP_REMOVAL_RUN_SCANLINE" />
-                <ref role="1PxDUh" to="76o8:~SporeMetaDataProvider" resolve="SporeMetaDataProvider" />
+                <ref role="3cqZAo" to="76o8:~SporeOverlapRemovalOptions.OVERLAP_REMOVAL_RUN_SCANLINE" resolve="OVERLAP_REMOVAL_RUN_SCANLINE" />
+                <ref role="1PxDUh" to="76o8:~SporeOverlapRemovalOptions" resolve="SporeOverlapRemovalOptions" />
               </node>
               <node concept="liA8E" id="3biyEnNFCva" role="2OqNvi">
                 <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />

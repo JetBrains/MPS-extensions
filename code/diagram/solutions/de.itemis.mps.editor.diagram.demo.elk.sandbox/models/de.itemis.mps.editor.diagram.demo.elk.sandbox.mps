@@ -14,9 +14,6 @@
       <concept id="477607467907982644" name="de.itemis.mps.editor.diagram.structure.TreeLayoutConfig" flags="ng" index="G6Ax2">
         <property id="477607467907990382" name="nodeSpacing" index="G6wSo" />
         <property id="477607467907997544" name="topdownScaleFactor" index="G6x8u" />
-        <property id="477607467907996617" name="topdownNodeType" index="G6xqZ" />
-        <property id="477607467907994695" name="topdownHierarchicalNodeAspectRatio" index="G6x$L" />
-        <property id="477607467907995335" name="topdownHierarchicalNodeWidth" index="G6xIL" />
         <property id="477607467907994291" name="separateConnectedComponents" index="G6xZ5" />
         <property id="477607467907998605" name="weighting" index="G6yVV" />
         <property id="477607467907984597" name="direction" index="G6A6z" />
@@ -76,12 +73,9 @@
         <property id="3662141892371748523" name="edgeLabelSpacing" index="31dTKe" />
         <property id="3662141892371753091" name="nodeSpacing" index="31dU8A" />
         <property id="3662141892371752507" name="iterations" index="31dUMu" />
-        <property id="3662141892371758399" name="topdownHierarchicalNodeWidth" index="31dVuq" />
         <property id="3662141892371755918" name="separateConnectedComponents" index="31dV$F" />
         <property id="3662141892371755044" name="randomizationSeed" index="31dVE1" />
-        <property id="3662141892371757000" name="topdownHierarchicalNodeAspectRatio" index="31dVPH" />
         <property id="3662141892371761113" name="topdownScaleFactor" index="31dWPW" />
-        <property id="3662141892371760233" name="topdownNodeType" index="31dWVc" />
         <child id="3662141892371754547" name="padding" index="31dUim" />
       </concept>
       <concept id="3662141892368052716" name="de.itemis.mps.editor.diagram.structure.SPOrEOverlapRemovalLayoutConfig" flags="ng" index="31vzH9">
@@ -96,11 +90,13 @@
         <child id="3662141892363281268" name="padding" index="31GmBh" />
       </concept>
       <concept id="3662141892374563996" name="de.itemis.mps.editor.diagram.structure.TopdownPackingLayoutConfig" flags="ng" index="36KCoT">
-        <property id="3662141892374567892" name="topdownHierarchicalNodeAspectRatio" index="36KD5L" />
         <property id="3662141892374567264" name="nodeSpacing" index="36KDf5" />
+        <child id="3662141892374568027" name="padding" index="36KDrY" />
+      </concept>
+      <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ng" index="36TQxy">
+        <property id="3662141892371757000" name="topdownHierarchicalNodeAspectRatio" index="31dVPH" />
         <property id="3662141892374571168" name="topdownNodeType" index="36KE85" />
         <property id="3662141892374569619" name="topdownHierachicalNodeWidth" index="36KEwQ" />
-        <child id="3662141892374568027" name="padding" index="36KDrY" />
       </concept>
     </language>
     <language id="92ad00ce-b4c0-4847-b973-b5727c0dc0b6" name="de.itemis.mps.editor.diagram.demo.elk">
@@ -934,10 +930,10 @@
       <property role="31dU8A" value="30.0" />
       <property role="31dVE1" value="1" />
       <property role="31dV$F" value="true" />
-      <property role="31dVPH" value="1.414" />
-      <property role="31dVuq" value="150.0" />
-      <property role="31dWVc" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
       <property role="31dWPW" value="1.0" />
+      <property role="31dVPH" value="1.414" />
+      <property role="36KEwQ" value="150.0" />
+      <property role="36KE85" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
       <node concept="POkNa" id="3biyEnO3Ya7" role="31dUim">
         <property role="POl1y" value="50.0" />
         <property role="POl7g" value="50.0" />
@@ -1299,11 +1295,11 @@
       <property role="G6BCW" value="10.0" />
       <property role="G6wSo" value="20.0" />
       <property role="G6xZ5" value="true" />
-      <property role="G6x$L" value="1.414" />
-      <property role="G6xIL" value="150.0" />
-      <property role="G6xqZ" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
       <property role="G6x8u" value="1.0" />
       <property role="G6yVV" value="qwNnoEIIjr/MODEL_ORDER" />
+      <property role="31dVPH" value="1.414" />
+      <property role="36KEwQ" value="150.0" />
+      <property role="36KE85" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
     </node>
   </node>
   <node concept="379oHZ" id="5Qzx7AqxFFn">
@@ -3025,7 +3021,7 @@
     </node>
     <node concept="36KCoT" id="3biyEnOdtWP" role="J81tK">
       <property role="36KDf5" value="20.0" />
-      <property role="36KD5L" value="1.414" />
+      <property role="31dVPH" value="1.414" />
       <property role="36KEwQ" value="150.0" />
       <property role="36KE85" value="qwNnoEIHR_/PARALLEL_NODE" />
       <node concept="POkNa" id="3biyEnOdtWQ" role="36KDrY">

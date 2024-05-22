@@ -8,7 +8,7 @@
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -3284,26 +3284,6 @@
       <property role="TrG5h" value="separateConnectedComponents" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="qwNnoEIHh7" role="1TKVEl">
-      <property role="IQ2nx" value="477607467907994695" />
-      <property role="TrG5h" value="topdownHierarchicalNodeAspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-    <node concept="1TJgyi" id="qwNnoEIHr7" role="1TKVEl">
-      <property role="IQ2nx" value="477607467907995335" />
-      <property role="TrG5h" value="topdownHierarchicalNodeWidth" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-    <node concept="1TJgyi" id="qwNnoEIH_7" role="1TKVEl">
-      <property role="IQ2nx" value="477607467907995975" />
-      <property role="TrG5h" value="topdownLayout" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="qwNnoEIHJ9" role="1TKVEl">
-      <property role="IQ2nx" value="477607467907996617" />
-      <property role="TrG5h" value="topdownNodeType" />
-      <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
-    </node>
     <node concept="1TJgyi" id="qwNnoEIHXC" role="1TKVEl">
       <property role="IQ2nx" value="477607467907997544" />
       <property role="TrG5h" value="topdownScaleFactor" />
@@ -3316,6 +3296,9 @@
     </node>
     <node concept="1sEMCm" id="qwNnoEIEkR" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+    <node concept="PrWs8" id="3biyEnOdu$o" role="PzmwI">
+      <ref role="PrY4T" node="3biyEnOdub7" resolve="ISupportTopdownPacking" />
     </node>
   </node>
   <node concept="25R3W" id="qwNnoEIFHe">
@@ -3704,26 +3687,6 @@
       <property role="TrG5h" value="separateConnectedComponents" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="3biyEnNTjv8" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892371757000" />
-      <property role="TrG5h" value="topdownHierarchicalNodeAspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-    <node concept="1TJgyi" id="3biyEnNTjOZ" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892371758399" />
-      <property role="TrG5h" value="topdownHierarchicalNodeWidth" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-    <node concept="1TJgyi" id="3biyEnNTk5X" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892371759485" />
-      <property role="TrG5h" value="topdownLayout" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="3biyEnNTkhD" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892371760233" />
-      <property role="TrG5h" value="topdownNodeType" />
-      <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
-    </node>
     <node concept="1TJgyi" id="3biyEnNTkvp" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371761113" />
       <property role="TrG5h" value="topdownScaleFactor" />
@@ -3731,6 +3694,9 @@
     </node>
     <node concept="1sEMCm" id="3biyEnNTgv_" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+    <node concept="PrWs8" id="3biyEnOdupK" role="PzmwI">
+      <ref role="PrY4T" node="3biyEnOdub7" resolve="ISupportTopdownPacking" />
     </node>
   </node>
   <node concept="25R3W" id="3biyEnNThPp">
@@ -3763,26 +3729,6 @@
       <property role="TrG5h" value="nodeSpacing" />
       <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
-    <node concept="1TJgyi" id="3biyEnO41Jk" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892374567892" />
-      <property role="TrG5h" value="topdownHierarchicalNodeAspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-    <node concept="1TJgyi" id="3biyEnO42aj" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892374569619" />
-      <property role="TrG5h" value="topdownHierachicalNodeWidth" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
-    <node concept="1TJgyi" id="3biyEnO42oe" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892374570510" />
-      <property role="TrG5h" value="topdownLayout" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="3biyEnO42yw" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892374571168" />
-      <property role="TrG5h" value="topdownNodeType" />
-      <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
-    </node>
     <node concept="1TJgyi" id="3biyEnO42Hf" role="1TKVEl">
       <property role="IQ2nx" value="3662141892374571855" />
       <property role="TrG5h" value="whitespaceEliminationStrategy" />
@@ -3796,6 +3742,9 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="padding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="PrWs8" id="3biyEnOduv4" role="PzmwI">
+      <ref role="PrY4T" node="3biyEnOdub7" resolve="ISupportTopdownPacking" />
     </node>
   </node>
   <node concept="25R3W" id="3biyEnO41wY">
@@ -3816,6 +3765,31 @@
     <node concept="25R33" id="3biyEnOcCpL" role="25R1y">
       <property role="3tVfz5" value="3662141892376823409" />
       <property role="TrG5h" value="BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3biyEnOdub7">
+    <property role="EcuMT" value="3662141892377043655" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.topdownPacking" />
+    <property role="TrG5h" value="ISupportTopdownPacking" />
+    <node concept="1TJgyi" id="3biyEnNTjv8" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371757000" />
+      <property role="TrG5h" value="topdownHierarchicalNodeAspectRatio" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO42aj" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374569619" />
+      <property role="TrG5h" value="topdownHierarchicalNodeWidth" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO42oe" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374570510" />
+      <property role="TrG5h" value="topdownLayout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO42yw" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374571168" />
+      <property role="TrG5h" value="topdownNodeType" />
+      <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
     </node>
   </node>
 </model>

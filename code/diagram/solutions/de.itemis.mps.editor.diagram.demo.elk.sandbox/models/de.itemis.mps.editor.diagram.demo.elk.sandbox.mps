@@ -89,6 +89,12 @@
         <property id="3662141892363283859" name="treeConstructionStrategy" index="31GmsQ" />
         <child id="3662141892363281268" name="padding" index="31GmBh" />
       </concept>
+      <concept id="3662141892379115490" name="de.itemis.mps.editor.diagram.structure.Margin" flags="ng" index="36xZl7">
+        <property id="3662141892379115493" name="bottom" index="36xZl0" />
+        <property id="3662141892379115492" name="right" index="36xZl1" />
+        <property id="3662141892379115494" name="left" index="36xZl3" />
+        <property id="3662141892379115491" name="top" index="36xZl6" />
+      </concept>
       <concept id="3662141892374563996" name="de.itemis.mps.editor.diagram.structure.TopdownPackingLayoutConfig" flags="ng" index="36KCoT">
         <property id="3662141892374567264" name="nodeSpacing" index="36KDf5" />
         <child id="3662141892374568027" name="padding" index="36KDrY" />
@@ -96,7 +102,58 @@
       <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ng" index="36TQxy">
         <property id="3662141892371757000" name="topdownHierarchicalNodeAspectRatio" index="31dVPH" />
         <property id="3662141892374571168" name="topdownNodeType" index="36KE85" />
-        <property id="3662141892374569619" name="topdownHierachicalNodeWidth" index="36KEwQ" />
+        <property id="3662141892374569619" name="topdownHierarchicalNodeWidth" index="36KEwQ" />
+      </concept>
+      <concept id="3333801137936756207" name="de.itemis.mps.editor.diagram.structure.LayeredLayoutConfig" flags="ng" index="3GLQun">
+        <property id="3662141892379183286" name="highDegreeNodeMaximumTreeHeight" index="36x08j" />
+        <property id="3662141892379184421" name="highDegreeNodeThreshold" index="36x0u0" />
+        <property id="3662141892379181918" name="hierarchicalSweepiness" index="36x0BV" />
+        <property id="3662141892379181279" name="greedySwitchCrossingminimizationHierarchical" index="36x0DU" />
+        <property id="3662141892379187702" name="improveCuts" index="36x1dj" />
+        <property id="3662141892379188269" name="improveWrappedEdges" index="36x1q8" />
+        <property id="3662141892379186382" name="horizontalSpacingBetweenLabelAndPort" index="36x1TF" />
+        <property id="3662141892379191931" name="labelSpacing" index="36x23u" />
+        <property id="3662141892379192633" name="layerBound" index="36x2us" />
+        <property id="3662141892379191100" name="labelNodeSpacing" index="36x2Qp" />
+        <property id="3662141892379194849" name="linearSegmentDeflectionDampening" index="36x3X4" />
+        <property id="3662141892379204315" name="maxNodePromotionIterations" index="36x51Y" />
+        <property id="3662141892379206070" name="mergeHierarchyCrossingEdges" index="36x6Gj" />
+        <property id="3662141892379207456" name="msdFreedom" index="36x6Q5" />
+        <property id="3662141892379211526" name="nodeNodeBetweenLayersSpacing" index="36x7Qz" />
+        <property id="3662141892379155187" name="crossingCounterPortInfluence" index="36x91m" />
+        <property id="3662141892379153202" name="correctionFactorForWrapping" index="36x9An" />
+        <property id="3662141892379154155" name="crossingCounterNodeInfluence" index="36x9Le" />
+        <property id="3662141892379162028" name="multiEdgeDistancePenalty" index="36xbW9" />
+        <property id="3662141892379167712" name="edgeNodeBetweenLayersSpacing" index="36xc55" />
+        <property id="3662141892379166982" name="edgeLabelSpacing" index="36xcez" />
+        <property id="3662141892379164867" name="edgeEdgeBetweenLayersSpacing" index="36xcDA" />
+        <property id="3662141892379171281" name="edgeSpacing" index="36xddO" />
+        <property id="3662141892379171857" name="edgeThickness" index="36xdqO" />
+        <property id="3662141892379168833" name="edgeNodeSpacing" index="36xdF$" />
+        <property id="3662141892379180082" name="greedySwitchCrossingminimization" index="36xfqn" />
+        <property id="3662141892379178639" name="greedySwitchActivationThreshold" index="36xfKE" />
+        <property id="3662141892379216113" name="nodeSelfLoopSpacing" index="36xo9k" />
+        <property id="3662141892379216986" name="nodeSpacing" index="36xorZ" />
+        <property id="3662141892379221784" name="randomizationSeed" index="36xpmX" />
+        <property id="3662141892379218932" name="portSpacing" index="36xp_h" />
+        <property id="3662141892379224606" name="slopedEdgeZoneWidth" index="36xq2V" />
+        <property id="3662141892379225514" name="sloppySplineLayerSpacingFactor" index="36xqsf" />
+        <property id="3662141892379223673" name="separateConnectedComponents" index="36xqNs" />
+        <property id="3662141892379228412" name="thoroughness" index="36xr9p" />
+        <property id="3662141892379229824" name="topdownScaleFactor" index="36xrg_" />
+        <property id="3662141892379230763" name="upperBoundOnWidthMinWidthLayerer" index="36xsye" />
+        <property id="3662141892379231963" name="upperLayerEstimationScalingFactorMinWidthLayerer" index="36xsLY" />
+        <property id="3662141892379238267" name="verticalSpacingBetweenLabelAndPort" index="36xtnu" />
+        <property id="3662141892379139136" name="additionalWrappedEdgesSpacing" index="36xPr_" />
+        <property id="3662141892379140237" name="aspectRatio" index="36xQCC" />
+        <property id="3662141892379147547" name="considerModelOrderStrategy" index="36xRuY" />
+        <property id="3662141892379145171" name="commentNodeSpacing" index="36xR_Q" />
+        <property id="3662141892379144303" name="commentCommentSpacing" index="36xRFa" />
+        <property id="3662141892379145832" name="componentsSpacing" index="36xRNd" />
+        <child id="3662141892379210077" name="nodeLabelPadding" index="36x7JS" />
+        <child id="3662141892379152132" name="contentAlignment" index="36x8mx" />
+        <child id="3662141892379217652" name="padding" index="36xohh" />
+        <child id="3662141892379113988" name="additionalPortSpace" index="36xZ2x" />
       </concept>
     </language>
     <language id="92ad00ce-b4c0-4847-b973-b5727c0dc0b6" name="de.itemis.mps.editor.diagram.demo.elk">
@@ -507,6 +564,77 @@
     <node concept="i0U1m" id="7L7aZ7jJgez" role="i0UWM">
       <ref role="i0Utg" node="7L7aZ7jJgcK" resolve="11" />
       <ref role="i0Ul0" node="7L7aZ7jJgcW" resolve="12" />
+    </node>
+    <node concept="3GLQun" id="vVBnaNuL6z" role="J81tK">
+      <property role="36xPr_" value="10.0" />
+      <property role="36xQCC" value="1.600000023841858" />
+      <property role="36xRFa" value="10.0" />
+      <property role="36xR_Q" value="10.0" />
+      <property role="36xRNd" value="20.0" />
+      <property role="36xRuY" value="3biyEnOlw4v/NONE" />
+      <property role="36x9An" value="1.0" />
+      <property role="36x9Le" value="0.0" />
+      <property role="36x91m" value="0.0" />
+      <property role="36xbW9" value="2.0" />
+      <property role="36xcDA" value="10.0" />
+      <property role="36xcez" value="2.0" />
+      <property role="36xc55" value="10.0" />
+      <property role="36xdF$" value="10.0" />
+      <property role="36xddO" value="10.0" />
+      <property role="36xdqO" value="1.0" />
+      <property role="36xfKE" value="40" />
+      <property role="36xfqn" value="3biyEnOlBXf/TWO_SIDED" />
+      <property role="36x0DU" value="3biyEnOlBXk/OFF" />
+      <property role="36x0BV" value="0.1" />
+      <property role="36x08j" value="5" />
+      <property role="36x0u0" value="16" />
+      <property role="36x1TF" value="1.0" />
+      <property role="36x1dj" value="true" />
+      <property role="36x1q8" value="true" />
+      <property role="36x2Qp" value="5.0" />
+      <property role="36x23u" value="0.0" />
+      <property role="36x2us" value="2147483647" />
+      <property role="36x3X4" value="0.3" />
+      <property role="36x51Y" value="0" />
+      <property role="36x6Gj" value="true" />
+      <property role="36x6Q5" value="1" />
+      <property role="36x7Qz" value="20.0" />
+      <property role="36xo9k" value="10.0" />
+      <property role="36xorZ" value="20.0" />
+      <property role="36xp_h" value="10.0" />
+      <property role="36xpmX" value="1" />
+      <property role="36xqNs" value="true" />
+      <property role="36xq2V" value="2.0" />
+      <property role="36xqsf" value="0.2" />
+      <property role="36xr9p" value="7" />
+      <property role="36xrg_" value="1.0" />
+      <property role="36xsye" value="4" />
+      <property role="36xsLY" value="2" />
+      <property role="36xtnu" value="1.0" />
+      <node concept="36xZl7" id="vVBnaNuL6$" role="36xZ2x">
+        <property role="36xZl6" value="0.0" />
+        <property role="36xZl1" value="0.0" />
+        <property role="36xZl0" value="0.0" />
+        <property role="36xZl3" value="0.0" />
+      </node>
+      <node concept="POr8z" id="vVBnaNuL6_" role="36x8mx">
+        <property role="POreE" value="56jSwh$g$O2/V_TOP" />
+      </node>
+      <node concept="POr8z" id="vVBnaNuL6A" role="36x8mx">
+        <property role="POreE" value="56jSwh$g_03/H_LEFT" />
+      </node>
+      <node concept="POkNa" id="vVBnaNuL6B" role="36x7JS">
+        <property role="POl1y" value="5.0" />
+        <property role="POl7g" value="5.0" />
+        <property role="POljH" value="5.0" />
+        <property role="POlmT" value="5.0" />
+      </node>
+      <node concept="POkNa" id="vVBnaNuL6C" role="36xohh">
+        <property role="POl1y" value="12.0" />
+        <property role="POl7g" value="12.0" />
+        <property role="POljH" value="12.0" />
+        <property role="POlmT" value="12.0" />
+      </node>
     </node>
   </node>
   <node concept="1qgTV_" id="37WsXDFKzAi">

@@ -476,16 +476,39 @@
     </node>
   </node>
   <node concept="1M2fIO" id="2T42Bz2CwJ0">
-    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.layered" />
     <ref role="1M2myG" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
     <node concept="9S07l" id="2T42Bz2CwJX" role="9Vyp8">
       <node concept="3clFbS" id="2T42Bz2CwJY" role="2VODD2">
-        <node concept="3clFbF" id="2T42Bz2CwNS" role="3cqZAp">
-          <node concept="2OqwBi" id="2T42Bz2Cx7d" role="3clFbG">
-            <node concept="nLn13" id="2T42Bz2CwT0" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="2T42Bz2CxeJ" role="2OqNvi">
-              <node concept="chp4Y" id="2T42Bz2CxkG" role="cj9EA">
-                <ref role="cht4Q" to="2qld:7k8PWDQb26s" resolve="LayeredLayoutAlgorithm" />
+        <node concept="3clFbF" id="3biyEnOmq0L" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnOmq0M" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnOmq0N" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnOmq0O" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnOmq0P" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnOmq0Q" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnOmq0R" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnOmq0S" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnOmq0T" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnOmq0U" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnOmq0V" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnOmq0W" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnOmq0X" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnOmq0Y" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnOmq0Z" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnOmq10" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnOmq11" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:7k8PWDQb26s" resolve="LayeredLayoutAlgorithm" />
+                </node>
               </node>
             </node>
           </node>

@@ -80,10 +80,17 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="layered" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2nNmQB_HYH7" role="1TKVEi">
+      <property role="IQ2ns" value="2734629909127752519" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
+      <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
+    </node>
     <node concept="1TJgyi" id="7WTFIQIcYvr" role="1TKVEl">
       <property role="TrG5h" value="direction" />
       <property role="IQ2nx" value="9167550852342474715" />
-      <ref role="AX2Wp" to="2qld:7WTFIQIcYqd" resolve="LayoutDirection" />
+      <ref role="AX2Wp" to="2qld:7WTFIQIcYqd" resolve="Direction" />
     </node>
     <node concept="PrWs8" id="37WsXDFJRJ0" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />

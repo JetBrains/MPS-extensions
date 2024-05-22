@@ -3526,7 +3526,7 @@
   <node concept="1TIwiD" id="3biyEnNFb7G">
     <property role="EcuMT" value="3662141892368052716" />
     <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
-    <property role="TrG5h" value="SPOrEOverlaRremovalLayoutConfig" />
+    <property role="TrG5h" value="SPOrEOverlapRemovalLayoutConfig" />
     <property role="34LRSv" value="SPOrE overlap removal layout config" />
     <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
     <node concept="1TJgyj" id="3biyEnNFiqq" role="1TKVEi">
@@ -3562,6 +3562,69 @@
     </node>
     <node concept="1sEMCm" id="3biyEnNFb7R" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3biyEnNNklh">
+    <property role="EcuMT" value="3662141892370187601" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.stress" />
+    <property role="TrG5h" value="StressLayoutConfig" />
+    <property role="34LRSv" value="stress layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyi" id="3biyEnNNl1o" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892370190424" />
+      <property role="TrG5h" value="desiredEdgeLength" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNNler" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892370191259" />
+      <property role="TrG5h" value="fixedPosition" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNNlxF" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892370192491" />
+      <property role="TrG5h" value="interactive" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNNlLG" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892370193516" />
+      <property role="TrG5h" value="iterationLimit" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNNlXa" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892370194250" />
+      <property role="TrG5h" value="layoutDimension" />
+      <ref role="AX2Wp" node="3biyEnNNm0w" resolve="LayoutDimension" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNNm5Y" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892370194814" />
+      <property role="TrG5h" value="omitNodeMicroLayout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNNmmM" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892370195890" />
+      <property role="TrG5h" value="stressEpsilon" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1sEMCm" id="3biyEnNNkls" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnNNm0w">
+    <property role="3F6X1D" value="3662141892370194464" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.stress" />
+    <property role="TrG5h" value="LayoutDimension" />
+    <ref role="1H5jkz" node="3biyEnNNm0x" resolve="XY" />
+    <node concept="25R33" id="3biyEnNNm0x" role="25R1y">
+      <property role="3tVfz5" value="3662141892370194465" />
+      <property role="TrG5h" value="XY" />
+    </node>
+    <node concept="25R33" id="3biyEnNNm0z" role="25R1y">
+      <property role="3tVfz5" value="3662141892370194467" />
+      <property role="TrG5h" value="X" />
+    </node>
+    <node concept="25R33" id="3biyEnNNm0B" role="25R1y">
+      <property role="3tVfz5" value="3662141892370194471" />
+      <property role="TrG5h" value="Y" />
     </node>
   </node>
 </model>

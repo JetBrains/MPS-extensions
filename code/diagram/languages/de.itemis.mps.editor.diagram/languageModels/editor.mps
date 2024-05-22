@@ -32,6 +32,7 @@
     <import index="yrb0" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.radial.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="onpr" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.rectpacking.p3whitespaceelimination(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="4fog" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.mrtree.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="zebo" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.force.stress(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -9415,7 +9416,7 @@
   </node>
   <node concept="24kQdi" id="3biyEnNFjTM">
     <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
-    <ref role="1XX52x" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlaRremovalLayoutConfig" />
+    <ref role="1XX52x" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlapRemovalLayoutConfig" />
     <node concept="3EZMnI" id="3biyEnNFjUC" role="2wV5jI">
       <node concept="2EHx9g" id="3biyEnNFjUD" role="2iSdaV" />
       <node concept="3EZMnI" id="3biyEnNFjUE" role="3EZMnx">
@@ -9573,6 +9574,236 @@
         <node concept="3F0A7n" id="3biyEnNFlYB" role="3EZMnx">
           <ref role="1NtTu8" to="2qld:3biyEnNFjvU" resolve="overlapRemovalRunScanLine" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3biyEnNNmZE">
+    <property role="3GE5qa" value="layoutAlgorithm.config.stress" />
+    <ref role="1XX52x" to="2qld:3biyEnNNklh" resolve="StressLayoutConfig" />
+    <node concept="3EZMnI" id="3biyEnNNn0U" role="2wV5jI">
+      <node concept="2EHx9g" id="3biyEnNNn0V" role="2iSdaV" />
+      <node concept="3EZMnI" id="3biyEnNNn0W" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNNn0X" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNNn0Y" role="3EZMnx">
+          <property role="3F0ifm" value="desired edge length" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNNn0Z" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNNn10" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNNn11" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNNn12" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNNn13" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNNn14" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNNn15" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-stress-desiredEdgeLength.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNNn16" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNNl1o" resolve="desiredEdgeLength" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNNnvJ" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNNnvK" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNNnvL" role="3EZMnx">
+          <property role="3F0ifm" value="fixed position" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNNnvM" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNNnvN" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNNnvO" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNNnvP" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNNnvQ" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNNnvR" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNNnvS" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-stress-fixed.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNNnvT" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNNler" resolve="fixedPosition" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNNny4" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNNny5" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNNorR" role="3EZMnx">
+          <property role="3F0ifm" value="interactive" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNNny7" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNNny8" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNNny9" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNNnya" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNNnyb" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNNnyc" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNNnyd" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-interactive.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNNnye" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNNlxF" resolve="interactive" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNNn$$" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNNn$_" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNNn$A" role="3EZMnx">
+          <property role="3F0ifm" value="iteration limit" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNNn$B" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNNn$C" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNNn$D" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNNn$E" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNNn$F" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNNn$G" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNNn$H" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-stress-iterationLimit.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNNn$I" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNNlLG" resolve="iterationLimit" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNNnAP" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNNnAQ" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNNnAR" role="3EZMnx">
+          <property role="3F0ifm" value="layout dimension" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNNnAS" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNNnAT" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNNnAU" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNNnAV" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNNnAW" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNNnAX" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNNnAY" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-stress-dimension.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNNnAZ" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNNlXa" resolve="layoutDimension" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNNnDh" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNNnDi" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNNnDj" role="3EZMnx">
+          <property role="3F0ifm" value="omit node micro layout" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNNnDk" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNNnDl" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNNnDm" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNNnDn" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNNnDo" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNNnDp" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNNnDq" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-omitNodeMicroLayout.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNNnDr" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNNm5Y" resolve="omitNodeMicroLayout" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnNNnFi" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnNNnFj" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnNNnFk" role="3EZMnx">
+          <property role="3F0ifm" value="stress epsilon" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnNNnFl" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnNNnFm" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnNNnFn" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnNNnFo" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnNNnFp" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnNNnFq" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnNNnFr" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-stress-epsilon.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnNNnFs" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnNNmmM" resolve="stressEpsilon" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="V5hpn" id="3biyEnNNJxg">
+    <property role="3GE5qa" value="layoutAlgorithm.options" />
+    <property role="TrG5h" value="DiagramStressAttributes" />
+    <node concept="3t5Usi" id="3biyEnNNJxh" role="V601i">
+      <property role="TrG5h" value="stress-desired-edge-length" />
+      <node concept="10P55v" id="3biyEnNNJxi" role="3t5Oan" />
+      <node concept="3b6qkQ" id="3biyEnNNJxj" role="3t49C2">
+        <property role="$nhwW" value="100.0" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="3biyEnNNMAG" role="V601i">
+      <property role="TrG5h" value="stress-fixed-position" />
+      <node concept="10P_77" id="3biyEnNNMBu" role="3t5Oan" />
+      <node concept="3clFbT" id="3biyEnNNMB_" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="3biyEnNNO5z" role="V601i">
+      <property role="TrG5h" value="stress-iteration-limit" />
+      <node concept="10Oyi0" id="3biyEnNNO66" role="3t5Oan" />
+      <node concept="10M0yZ" id="3biyEnNNO6r" role="3t49C2">
+        <ref role="3cqZAo" to="wyt6:~Integer.MAX_VALUE" resolve="MAX_VALUE" />
+        <ref role="1PxDUh" to="wyt6:~Integer" resolve="Integer" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="3biyEnNNOHG" role="V601i">
+      <property role="TrG5h" value="stress-layout-dimension" />
+      <node concept="3uibUv" id="3biyEnNNOIB" role="3t5Oan">
+        <ref role="3uigEE" to="zebo:~StressMajorization$Dimension" resolve="Dimension" />
+      </node>
+      <node concept="Rm8GO" id="3biyEnNNOJ_" role="3t49C2">
+        <ref role="Rm8GQ" to="zebo:~StressMajorization$Dimension.XY" resolve="XY" />
+        <ref role="1Px2BO" to="zebo:~StressMajorization$Dimension" resolve="Dimension" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="3biyEnNNRzB" role="V601i">
+      <property role="TrG5h" value="stress-epsilon" />
+      <node concept="10P55v" id="3biyEnNNR_9" role="3t5Oan" />
+      <node concept="3b6qkQ" id="3biyEnNNRFw" role="3t49C2">
+        <property role="$nhwW" value="10.e-4" />
       </node>
     </node>
   </node>

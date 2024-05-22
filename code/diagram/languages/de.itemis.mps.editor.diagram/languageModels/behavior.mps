@@ -40,6 +40,7 @@
     <import index="pplq" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.data(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="4fog" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.mrtree.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="76o8" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.spore.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="nnri" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.force.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
@@ -6174,7 +6175,7 @@
   </node>
   <node concept="13h7C7" id="3biyEnNFoJZ">
     <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
-    <ref role="13h7C2" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlaRremovalLayoutConfig" />
+    <ref role="13h7C2" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlapRemovalLayoutConfig" />
     <node concept="13hLZK" id="3biyEnNFoK0" role="13h7CW">
       <node concept="3clFbS" id="3biyEnNFoK1" role="2VODD2">
         <node concept="3clFbF" id="3biyEnNFoWj" role="3cqZAp">
@@ -6293,6 +6294,169 @@
               <node concept="13iPFW" id="3biyEnNFtp9" role="2Oq$k0" />
               <node concept="3TrcHB" id="3biyEnNFtx4" role="2OqNvi">
                 <ref role="3TsBF5" to="2qld:3biyEnNFjvU" resolve="overlapRemovalRunScanLine" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3biyEnNNrp_">
+    <property role="3GE5qa" value="layoutAlgorithm.config.stress" />
+    <ref role="13h7C2" to="2qld:3biyEnNNklh" resolve="StressLayoutConfig" />
+    <node concept="13hLZK" id="3biyEnNNrpA" role="13h7CW">
+      <node concept="3clFbS" id="3biyEnNNrpB" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNNr$j" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNNsfX" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNNwnC" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnNNvxQ" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNNvfC" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~StressOptions.DESIRED_EDGE_LENGTH" resolve="DESIRED_EDGE_LENGTH" />
+                  <ref role="1PxDUh" to="nnri:~StressOptions" resolve="StressOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnNNvPj" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNNwUS" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNNrKv" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNNr$i" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNNs3W" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNNl1o" resolve="desiredEdgeLength" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNNsjF" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNNs_8" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNNskE" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNNsjD" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNNspt" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNNler" resolve="fixedPosition" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNNxp1" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNNx8A" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~StressOptions.FIXED" resolve="FIXED" />
+                <ref role="1PxDUh" to="nnri:~StressOptions" resolve="StressOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNNxCt" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNNsDz" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNNsMV" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNNxZi" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNNxXJ" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~StressOptions.INTERACTIVE" resolve="INTERACTIVE" />
+                <ref role="1PxDUh" to="nnri:~StressOptions" resolve="StressOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNNy53" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNNsFd" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNNsDx" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNNsJe" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNNlxF" resolve="interactive" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNNsQM" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNNtmp" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNNsSj" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNNsQK" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNNsXY" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNNlLG" resolve="iterationLimit" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNNyNg" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNNysH" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~StressOptions.ITERATION_LIMIT" resolve="ITERATION_LIMIT" />
+                <ref role="1PxDUh" to="nnri:~StressOptions" resolve="StressOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNNz37" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNNtqX" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNNtH5" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNNtsl" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNNtqV" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNNtxe" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNNlXa" resolve="layoutDimension" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNN$zh" role="37vLTx">
+              <node concept="1XH99k" id="3biyEnNN$52" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:3biyEnNNm0w" resolve="LayoutDimension" />
+              </node>
+              <node concept="2ViDtW" id="3biyEnNN$RW" role="2OqNvi">
+                <node concept="2OqwBi" id="3biyEnNN_rJ" role="2ViJBj">
+                  <node concept="2OqwBi" id="3biyEnNNz$h" role="2Oq$k0">
+                    <node concept="10M0yZ" id="3biyEnNNzkO" role="2Oq$k0">
+                      <ref role="3cqZAo" to="nnri:~StressOptions.DIMENSION" resolve="DIMENSION" />
+                      <ref role="1PxDUh" to="nnri:~StressOptions" resolve="StressOptions" />
+                    </node>
+                    <node concept="liA8E" id="3biyEnNNzOz" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3biyEnNNA56" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNNtMN" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNNtXu" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNNAqr" role="37vLTx">
+              <node concept="10M0yZ" id="3biyEnNNAoR" role="2Oq$k0">
+                <ref role="3cqZAo" to="nnri:~StressOptions.OMIT_NODE_MICRO_LAYOUT" resolve="OMIT_NODE_MICRO_LAYOUT" />
+                <ref role="1PxDUh" to="nnri:~StressOptions" resolve="StressOptions" />
+              </node>
+              <node concept="liA8E" id="3biyEnNNAvN" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNNtPg" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNNtML" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNNtUb" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNNm5Y" resolve="omitNodeMicroLayout" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3biyEnNNu3v" role="3cqZAp">
+          <node concept="37vLTI" id="3biyEnNNuwr" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNNu5N" role="37vLTJ">
+              <node concept="13iPFW" id="3biyEnNNu3t" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3biyEnNNut8" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNNmmM" resolve="stressEpsilon" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNNBWi" role="37vLTx">
+              <node concept="2OqwBi" id="3biyEnNNB9O" role="2Oq$k0">
+                <node concept="10M0yZ" id="3biyEnNNARW" role="2Oq$k0">
+                  <ref role="3cqZAo" to="nnri:~StressOptions.EPSILON" resolve="EPSILON" />
+                  <ref role="1PxDUh" to="nnri:~StressOptions" resolve="StressOptions" />
+                </node>
+                <node concept="liA8E" id="3biyEnNNBrJ" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3biyEnNNCwc" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
               </node>
             </node>
           </node>

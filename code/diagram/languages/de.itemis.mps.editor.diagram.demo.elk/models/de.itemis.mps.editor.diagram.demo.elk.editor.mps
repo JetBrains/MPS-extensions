@@ -27,6 +27,7 @@
     <import index="ikqz" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.common.compaction.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="4fog" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.mrtree.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="76o8" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.spore.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="zebo" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.force.stress(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -2898,6 +2899,162 @@
           <ref role="aDKIf" to="xaff:4PrkOTvmfLW" resolve="edges" />
         </node>
         <node concept="1wcM3y" id="5sXqsGR79Cx" role="35U2g" />
+        <node concept="3tD6jV" id="3biyEnNSMOw" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:3biyEnNNJxh" resolve="stress-desired-edge-length" />
+          <node concept="3sjG9q" id="3biyEnNSMOx" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNSMOy" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNSO2S" role="3cqZAp">
+                <node concept="2YIFZM" id="3biyEnNSPE7" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="3biyEnNSOVw" role="37wK5m">
+                    <node concept="2OqwBi" id="3biyEnNSOnP" role="2Oq$k0">
+                      <node concept="pncrf" id="3biyEnNSO2R" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3biyEnNSOG1" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="3biyEnNSPhJ" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNNl1o" resolve="desiredEdgeLength" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNSN0u" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:3biyEnNNMAG" resolve="stress-fixed-position" />
+          <node concept="3sjG9q" id="3biyEnNSN0w" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNSN0y" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNSPLF" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNSQ0t" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNSPSK" role="2Oq$k0">
+                    <node concept="pncrf" id="3biyEnNSPLE" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3biyEnNSPWs" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3biyEnNSQ3D" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNNler" resolve="fixedPosition" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNSNan" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-interactive" />
+          <node concept="3sjG9q" id="3biyEnNSNap" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNSNar" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNSQ7X" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNSQeP" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNSQ8q" role="2Oq$k0">
+                    <node concept="pncrf" id="3biyEnNSQ7W" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3biyEnNSQdI" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3biyEnNSQiP" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNNlxF" resolve="interactive" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNSNhA" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:3biyEnNNO5z" resolve="stress-iteration-limit" />
+          <node concept="3sjG9q" id="3biyEnNSNhC" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNSNhE" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNSQn9" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNSQPk" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNSQyL" role="2Oq$k0">
+                    <node concept="pncrf" id="3biyEnNSQn8" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3biyEnNSQL0" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3biyEnNSQTk" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNNlLG" resolve="iterationLimit" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNSNyE" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:3biyEnNNOHG" resolve="stress-layout-dimension" />
+          <node concept="3sjG9q" id="3biyEnNSNyG" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNSNyI" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNSQYK" role="3cqZAp">
+                <node concept="unr1b" id="3biyEnNSRzX" role="3clFbG">
+                  <ref role="un$jP" to="zebo:~StressMajorization$Dimension" resolve="Dimension" />
+                  <node concept="2OqwBi" id="3biyEnNST4g" role="unwt0">
+                    <node concept="2OqwBi" id="3biyEnNSSyI" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3biyEnNSS3p" role="2Oq$k0">
+                        <node concept="pncrf" id="3biyEnNSRM5" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="3biyEnNSSmV" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="3biyEnNSSSn" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnNNlXa" resolve="layoutDimension" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3biyEnNSTlT" role="2OqNvi">
+                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNSNHG" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="diagram-omit-node-micro-layout" />
+          <node concept="3sjG9q" id="3biyEnNSNHI" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNSNHK" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNSTwf" role="3cqZAp">
+                <node concept="2OqwBi" id="3biyEnNSTQV" role="3clFbG">
+                  <node concept="2OqwBi" id="3biyEnNSTD$" role="2Oq$k0">
+                    <node concept="pncrf" id="3biyEnNSTwe" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3biyEnNSTKO" role="2OqNvi">
+                      <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3biyEnNSTU7" role="2OqNvi">
+                    <ref role="3TsBF5" to="2qld:3biyEnNNm5Y" resolve="omitNodeMicroLayout" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3tD6jV" id="3biyEnNSNSL" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:3biyEnNNRzB" resolve="stress-epsilon" />
+          <node concept="3sjG9q" id="3biyEnNSNSN" role="3tD6jU">
+            <node concept="3clFbS" id="3biyEnNSNSP" role="2VODD2">
+              <node concept="3clFbF" id="3biyEnNSU63" role="3cqZAp">
+                <node concept="2YIFZM" id="3biyEnNSUWZ" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~Double.valueOf(java.lang.String)" resolve="valueOf" />
+                  <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                  <node concept="2OqwBi" id="3biyEnNSUrb" role="37wK5m">
+                    <node concept="2OqwBi" id="3biyEnNSUe$" role="2Oq$k0">
+                      <node concept="pncrf" id="3biyEnNSU62" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3biyEnNSUnY" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="3biyEnNSUvb" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNNmmM" resolve="stressEpsilon" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="PMmxH" id="3biyEnNo$1P" role="6VMZX">

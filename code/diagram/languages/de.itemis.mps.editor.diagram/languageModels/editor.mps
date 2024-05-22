@@ -6943,6 +6943,16 @@
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
+    <node concept="3t5Usi" id="3biyEnO4J6x" role="V601i">
+      <property role="TrG5h" value="topdown-whitespace-elimination-strategy" />
+      <node concept="Rm8GO" id="3biyEnO4JpJ" role="3t49C2">
+        <ref role="Rm8GQ" to="gou7:~WhitespaceEliminationStrategy.BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" resolve="BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" />
+        <ref role="1Px2BO" to="gou7:~WhitespaceEliminationStrategy" resolve="WhitespaceEliminationStrategy" />
+      </node>
+      <node concept="3uibUv" id="3biyEnO4JkT" role="3t5Oan">
+        <ref role="3uigEE" to="gou7:~WhitespaceEliminationStrategy" resolve="WhitespaceEliminationStrategy" />
+      </node>
+    </node>
   </node>
   <node concept="V5hpn" id="56jSwhzYxyZ">
     <property role="3GE5qa" value="layoutAlgorithm.options" />
@@ -10341,6 +10351,221 @@
       <node concept="10Oyi0" id="3biyEnNU9xM" role="3t5Oan" />
       <node concept="3cmrfG" id="3biyEnNU9z6" role="3t49C2">
         <property role="3cmrfH" value="300" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3biyEnO43c_">
+    <property role="3GE5qa" value="layoutAlgorithm.config.topdownPacking" />
+    <ref role="1XX52x" to="2qld:3biyEnO40Ms" resolve="TopdownPackingLayoutConfig" />
+    <node concept="3EZMnI" id="3biyEnO43dP" role="2wV5jI">
+      <node concept="2EHx9g" id="3biyEnO43dQ" role="2iSdaV" />
+      <node concept="3EZMnI" id="3biyEnO43dR" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnO43dS" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnO43dT" role="3EZMnx">
+          <property role="3F0ifm" value="node arrangment strategy" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnO43dU" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnO43dV" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnO43dW" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnO43dX" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnO43dY" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnO43dZ" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnO43e0" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-topdownpacking-nodeArrangement-strategy.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnO43e1" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnO41n_" resolve="nodeArrangementStrategy" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnO451G" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnO451H" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnO451I" role="3EZMnx">
+          <property role="3F0ifm" value="node spacing" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnO451J" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnO451K" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnO451L" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnO451M" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnO451N" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnO451O" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnO451P" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-spacing-nodeNode.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnO451Q" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnO41_w" resolve="nodeSpacing" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnO45aB" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnO45aC" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnO45aD" role="3EZMnx">
+          <property role="3F0ifm" value="padding" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnO45aE" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnO45aF" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnO45aG" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnO45aH" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnO45aI" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnO45aJ" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnO45aK" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-padding.html" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="3biyEnO480V" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnO41Lr" resolve="padding" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnO45dx" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnO45dy" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnO45dz" role="3EZMnx">
+          <property role="3F0ifm" value="topdown hierarchical node aspect ratio" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnO45d$" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnO45d_" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnO45dA" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnO45dB" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnO45dC" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnO45dD" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnO45dE" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-topdown-hierarchicalNodeAspectRatio.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnO45dF" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnO41Jk" resolve="topdownHierarchicalNodeAspectRatio" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnO45fM" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnO45fN" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnO45fO" role="3EZMnx">
+          <property role="3F0ifm" value="topdown hierarchical node width" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnO45fP" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnO45fQ" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnO45fR" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnO45fS" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnO45fT" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnO45fU" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnO45fV" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-topdown-hierarchicalNodeWidth.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnO45fW" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnO42aj" resolve="topdownHierachicalNodeWidth" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnO45iC" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnO45iD" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnO45iE" role="3EZMnx">
+          <property role="3F0ifm" value="topdown layout" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnO45iF" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnO45iG" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnO45iH" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnO45iI" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnO45iJ" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnO45iK" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnO45iL" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-topdownLayout.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnO45iM" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnO45lD" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnO45lE" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnO47mc" role="3EZMnx">
+          <property role="3F0ifm" value="topdown node type" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnO45lG" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnO45lH" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnO45lI" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnO45lJ" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnO45lK" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnO45lL" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnO45lM" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-topdown-nodeType.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnO45lN" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3biyEnO45or" role="3EZMnx">
+        <node concept="2iRfu4" id="3biyEnO45os" role="2iSdaV" />
+        <node concept="3F0ifn" id="3biyEnO45ot" role="3EZMnx">
+          <property role="3F0ifm" value="whitespace elimination strategy" />
+        </node>
+        <node concept="1HlG4h" id="3biyEnO45ou" role="3EZMnx">
+          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
+          <node concept="1HfYo3" id="3biyEnO45ov" role="1HlULh">
+            <node concept="3TQlhw" id="3biyEnO45ow" role="1Hhtcw">
+              <node concept="3clFbS" id="3biyEnO45ox" role="2VODD2">
+                <node concept="3cpWs6" id="3biyEnO45oy" role="3cqZAp">
+                  <node concept="Xl_RD" id="3biyEnO45oz" role="3cqZAk">
+                    <property role="Xl_RC" value="(?)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3u2Kpz" id="3biyEnO45o$" role="3F10Kt">
+            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-topdownpacking-whitespaceElimination-strategy.html" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="3biyEnO45o_" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:3biyEnO42Hf" resolve="whitespaceEliminationStrategy" />
+        </node>
       </node>
     </node>
   </node>

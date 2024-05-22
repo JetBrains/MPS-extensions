@@ -316,6 +316,13 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="topdownpacking" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3biyEnOc77C" role="1TKVEi">
+      <property role="IQ2ns" value="3662141892376687080" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <ref role="20lvS9" to="2qld:3biyEnO40Ms" resolve="TopdownPackingLayoutConfig" />
+      <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
+    </node>
     <node concept="PrWs8" id="6_QKC_ENX$c" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>

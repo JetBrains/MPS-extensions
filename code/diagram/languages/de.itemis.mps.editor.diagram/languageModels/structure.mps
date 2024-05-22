@@ -3026,7 +3026,7 @@
   <node concept="25R3W" id="qwNnoDNzjH">
     <property role="3F6X1D" value="5674835785869644800" />
     <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
-    <property role="TrG5h" value="WhiteSpaceEliminationStrategy" />
+    <property role="TrG5h" value="RectPackingWhiteSpaceEliminationStrategy" />
     <node concept="25R33" id="qwNnoDNzjI" role="25R1y">
       <property role="3tVfz5" value="477607467892487406" />
       <property role="TrG5h" value="EQUAL_BETWEEN_STRUCTURES" />
@@ -3745,6 +3745,77 @@
     <node concept="25R33" id="3biyEnNThPs" role="25R1y">
       <property role="3tVfz5" value="3662141892371750236" />
       <property role="TrG5h" value="FRUCHTERMAN_REINGOLD" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3biyEnO40Ms">
+    <property role="EcuMT" value="3662141892374563996" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.topdownPacking" />
+    <property role="TrG5h" value="TopdownPackingLayoutConfig" />
+    <property role="34LRSv" value="top-down packing layout config" />
+    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="1TJgyi" id="3biyEnO41n_" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374566373" />
+      <property role="TrG5h" value="nodeArrangementStrategy" />
+      <ref role="AX2Wp" node="3biyEnO41wY" resolve="NodeArrangementStrategy" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO41_w" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374567264" />
+      <property role="TrG5h" value="nodeSpacing" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO41Jk" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374567892" />
+      <property role="TrG5h" value="topdownHierarchicalNodeAspectRatio" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO42aj" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374569619" />
+      <property role="TrG5h" value="topdownHierachicalNodeWidth" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO42oe" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374570510" />
+      <property role="TrG5h" value="topdownLayout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO42yw" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374571168" />
+      <property role="TrG5h" value="topdownNodeType" />
+      <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnO42Hf" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892374571855" />
+      <property role="TrG5h" value="whitespaceEliminationStrategy" />
+      <ref role="AX2Wp" node="3biyEnOcCpK" resolve="TopdownPackingWhiteSpaceEliminationStrategy" />
+    </node>
+    <node concept="1sEMCm" id="3biyEnO40Mx" role="bvy1s">
+      <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+    <node concept="1TJgyj" id="3biyEnO41Lr" role="1TKVEi">
+      <property role="IQ2ns" value="3662141892374568027" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnO41wY">
+    <property role="3F6X1D" value="3662141892374566974" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.topdownPacking" />
+    <property role="TrG5h" value="NodeArrangementStrategy" />
+    <ref role="1H5jkz" node="3biyEnO41wZ" resolve="LEFT_RIGHT_TOP_DOWN_NODE_PLACER" />
+    <node concept="25R33" id="3biyEnO41wZ" role="25R1y">
+      <property role="3tVfz5" value="3662141892374566975" />
+      <property role="TrG5h" value="LEFT_RIGHT_TOP_DOWN_NODE_PLACER" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3biyEnOcCpK">
+    <property role="3F6X1D" value="3662141892376823408" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.topdownPacking" />
+    <property role="TrG5h" value="TopdownPackingWhiteSpaceEliminationStrategy" />
+    <ref role="1H5jkz" node="3biyEnOcCpL" resolve="BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" />
+    <node concept="25R33" id="3biyEnOcCpL" role="25R1y">
+      <property role="3tVfz5" value="3662141892376823409" />
+      <property role="TrG5h" value="BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" />
     </node>
   </node>
 </model>

@@ -95,6 +95,13 @@
         <property id="3662141892363283859" name="treeConstructionStrategy" index="31GmsQ" />
         <child id="3662141892363281268" name="padding" index="31GmBh" />
       </concept>
+      <concept id="3662141892374563996" name="de.itemis.mps.editor.diagram.structure.TopdownPackingLayoutConfig" flags="ng" index="36KCoT">
+        <property id="3662141892374567892" name="topdownHierarchicalNodeAspectRatio" index="36KD5L" />
+        <property id="3662141892374567264" name="nodeSpacing" index="36KDf5" />
+        <property id="3662141892374571168" name="topdownNodeType" index="36KE85" />
+        <property id="3662141892374569619" name="topdownHierachicalNodeWidth" index="36KEwQ" />
+        <child id="3662141892374568027" name="padding" index="36KDrY" />
+      </concept>
     </language>
     <language id="92ad00ce-b4c0-4847-b973-b5727c0dc0b6" name="de.itemis.mps.editor.diagram.demo.elk">
       <concept id="7599475316692605195" name="de.itemis.mps.editor.diagram.demo.elk.structure.TopDownPackingTest" flags="ng" index="3IhI2" />
@@ -3014,6 +3021,18 @@
           <property role="gqqTy" value="106.0820367751061" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
+      </node>
+    </node>
+    <node concept="36KCoT" id="3biyEnOdtWP" role="J81tK">
+      <property role="36KDf5" value="20.0" />
+      <property role="36KD5L" value="1.414" />
+      <property role="36KEwQ" value="150.0" />
+      <property role="36KE85" value="qwNnoEIHR_/PARALLEL_NODE" />
+      <node concept="POkNa" id="3biyEnOdtWQ" role="36KDrY">
+        <property role="POl1y" value="12.0" />
+        <property role="POl7g" value="12.0" />
+        <property role="POljH" value="12.0" />
+        <property role="POlmT" value="12.0" />
       </node>
     </node>
   </node>

@@ -77,6 +77,7 @@
         <child id="3662141892371754547" name="padding" index="31dUim" />
       </concept>
       <concept id="3662141892368052716" name="de.itemis.mps.editor.diagram.structure.SPOrEOverlapRemovalLayoutConfig" flags="ng" index="31vzH9">
+        <property id="3662141892368084363" name="underlayingAlgorithm" index="31vUsI" />
         <property id="3662141892368081985" name="nodeSpacing" index="31vUV$" />
         <property id="3662141892368085227" name="overlapRemovalMaxIterations" index="31vVDe" />
         <property id="3662141892368087034" name="overlapRemovalRunScanLine" index="31vVPv" />
@@ -2742,30 +2743,30 @@
       <node concept="37mRIm" id="5sXqsGR3znp" role="37mRID">
         <property role="37mO49" value="6286296976402036169" />
         <node concept="gqqVs" id="5sXqsGR3znn" role="37mO4d">
-          <property role="gqqTZ" value="8.0" />
+          <property role="gqqTZ" value="54.29417216676381" />
           <property role="gqqTW" value="8.0" />
-          <property role="gqqTX" value="30.0" />
-          <property role="gqqTy" value="33.0" />
+          <property role="gqqTX" value="18.0" />
+          <property role="gqqTy" value="31.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
       </node>
       <node concept="37mRIm" id="5sXqsGR3znr" role="37mRID">
         <property role="37mO49" value="6286296976402036171" />
         <node concept="gqqVs" id="5sXqsGR3znq" role="37mO4d">
-          <property role="gqqTZ" value="57.46666666666667" />
-          <property role="gqqTW" value="61.0" />
-          <property role="gqqTX" value="30.0" />
-          <property role="gqqTy" value="33.0" />
+          <property role="gqqTZ" value="46.0002" />
+          <property role="gqqTW" value="59.0" />
+          <property role="gqqTX" value="18.0" />
+          <property role="gqqTy" value="31.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
       </node>
       <node concept="37mRIm" id="5sXqsGR3znt" role="37mRID">
         <property role="37mO49" value="6286296976402036174" />
         <node concept="gqqVs" id="5sXqsGR3zns" role="37mO4d">
-          <property role="gqqTZ" value="107.46666666666667" />
-          <property role="gqqTW" value="61.0" />
-          <property role="gqqTX" value="30.0" />
-          <property role="gqqTy" value="33.0" />
+          <property role="gqqTZ" value="8.0" />
+          <property role="gqqTW" value="36.205914487295026" />
+          <property role="gqqTX" value="18.0" />
+          <property role="gqqTy" value="31.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
       </node>
@@ -2774,6 +2775,7 @@
       <property role="31vUV$" value="20.0" />
       <property role="31vVDe" value="64" />
       <property role="31vVPv" value="true" />
+      <property role="31vUsI" value="org.eclipse.elk.force" />
       <node concept="POkNa" id="3biyEnNMb9t" role="31vUKZ">
         <property role="POl1y" value="8.0" />
         <property role="POl7g" value="8.0" />

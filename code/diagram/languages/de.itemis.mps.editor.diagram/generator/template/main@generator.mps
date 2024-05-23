@@ -22830,7 +22830,7 @@
           <node concept="liA8E" id="3biyEnNU1Bn" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU1Bo" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdi1" resolve="core-inline-edge-labels" />
+              <ref role="1Z6EpT" to="88j9:vVBnaNT$lk" resolve="core-inline-edge-labels" />
             </node>
             <node concept="3clFbT" id="3biyEnNUjS_" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNUjYa" role="lGtFl">

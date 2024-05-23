@@ -264,9 +264,6 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
-        <reference id="1116615189566" name="classifier" index="3VsUkX" />
-      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -325,9 +322,6 @@
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
-      </concept>
-      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
-        <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
@@ -8034,7 +8028,7 @@
   </node>
   <node concept="V5hpn" id="7L7aZ7jSaMF">
     <property role="3GE5qa" value="layoutAlgorithm.options" />
-    <property role="TrG5h" value="DiagramtBoxAlgorithmAttributes" />
+    <property role="TrG5h" value="DiagramBoxAlgorithmAttributes" />
     <node concept="3t5Usi" id="7L7aZ7jSaMG" role="V601i">
       <property role="TrG5h" value="box-layout-mode" />
       <node concept="3uibUv" id="7L7aZ7jSaMH" role="3t5Oan">
@@ -8088,11 +8082,6 @@
       <property role="TrG5h" value="layered-consider-port-order" />
       <node concept="10P_77" id="7L7aZ7jSbGk" role="3t5Oan" />
       <node concept="3clFbT" id="7L7aZ7jSbH1" role="3t49C2" />
-    </node>
-    <node concept="3t5Usi" id="7L7aZ7jSbDl" role="V601i">
-      <property role="TrG5h" value="layered-no-model-oder" />
-      <node concept="10P_77" id="7L7aZ7jSbIG" role="3t5Oan" />
-      <node concept="3clFbT" id="7L7aZ7jSbJr" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSbJN" role="V601i">
       <property role="TrG5h" value="layered-consider-model-order-for-components" />
@@ -8155,27 +8144,6 @@
       <node concept="3clFbT" id="7L7aZ7jScNM" role="3t49C2" />
       <node concept="10P_77" id="7L7aZ7jScJg" role="3t5Oan" />
     </node>
-    <node concept="3t5Usi" id="7L7aZ7jScNS" role="V601i">
-      <property role="TrG5h" value="layered-in-layer-predecessor-of" />
-      <node concept="17QB3L" id="7L7aZ7jScPU" role="3t5Oan" />
-    </node>
-    <node concept="3t5Usi" id="7L7aZ7jScQ1" role="V601i">
-      <property role="TrG5h" value="layered-in-layer-successor-of" />
-      <node concept="17QB3L" id="7L7aZ7jScQ2" role="3t5Oan" />
-    </node>
-    <node concept="3t5Usi" id="7L7aZ7jScRo" role="V601i">
-      <property role="TrG5h" value="layered-position-choice-constraint" />
-      <node concept="3uibUv" id="7L7aZ7jScT0" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="7L7aZ7jScT9" role="V601i">
-      <property role="TrG5h" value="layered-position-ID" />
-      <node concept="10Oyi0" id="7L7aZ7jScUM" role="3t5Oan" />
-      <node concept="3cmrfG" id="7L7aZ7jScUQ" role="3t49C2">
-        <property role="3cmrfH" value="-1" />
-      </node>
-    </node>
     <node concept="3t5Usi" id="7L7aZ7jScUW" role="V601i">
       <property role="TrG5h" value="layered-greedy-switch-activation-threshold" />
       <node concept="10Oyi0" id="7L7aZ7jScUX" role="3t5Oan" />
@@ -8233,26 +8201,6 @@
         <ref role="1Px2BO" to="u8j:~CenterEdgeLabelPlacementStrategy" resolve="CenterEdgeLabelPlacementStrategy" />
       </node>
     </node>
-    <node concept="3t5Usi" id="7L7aZ7jSd_v" role="V601i">
-      <property role="TrG5h" value="layered-self-loop-distribution" />
-      <node concept="3uibUv" id="7L7aZ7jSd_w" role="3t5Oan">
-        <ref role="3uigEE" to="u8j:~SelfLoopDistributionStrategy" resolve="SelfLoopDistributionStrategy" />
-      </node>
-      <node concept="Rm8GO" id="7L7aZ7jSdGi" role="3t49C2">
-        <ref role="Rm8GQ" to="u8j:~SelfLoopDistributionStrategy.NORTH" resolve="NORTH" />
-        <ref role="1Px2BO" to="u8j:~SelfLoopDistributionStrategy" resolve="SelfLoopDistributionStrategy" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="7L7aZ7jSdGT" role="V601i">
-      <property role="TrG5h" value="layered-self-loop-ordering" />
-      <node concept="3uibUv" id="7L7aZ7jSdGU" role="3t5Oan">
-        <ref role="3uigEE" to="u8j:~SelfLoopOrderingStrategy" resolve="SelfLoopOrderingStrategy" />
-      </node>
-      <node concept="Rm8GO" id="7L7aZ7jSdMF" role="3t49C2">
-        <ref role="Rm8GQ" to="u8j:~SelfLoopOrderingStrategy.STACKED" resolve="STACKED" />
-        <ref role="1Px2BO" to="u8j:~SelfLoopOrderingStrategy" resolve="SelfLoopOrderingStrategy" />
-      </node>
-    </node>
     <node concept="3t5Usi" id="7L7aZ7jSdNn" role="V601i">
       <property role="TrG5h" value="layered-spline-routing-mode" />
       <node concept="3uibUv" id="7L7aZ7jSdNo" role="3t5Oan">
@@ -8304,22 +8252,6 @@
       <node concept="Rm8GO" id="56jSwhzYgmo" role="3t49C2">
         <ref role="Rm8GQ" to="u8j:~LayeringStrategy.NETWORK_SIMPLEX" resolve="NETWORK_SIMPLEX" />
         <ref role="1Px2BO" to="u8j:~LayeringStrategy" resolve="LayeringStrategy" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYgmA" role="V601i">
-      <property role="TrG5h" value="layered-layer-constraint" />
-      <node concept="3uibUv" id="56jSwhzYgmB" role="3t5Oan">
-        <ref role="3uigEE" to="u8j:~LayerConstraint" resolve="LayerConstraint" />
-      </node>
-      <node concept="Rm8GO" id="56jSwhzYgrr" role="3t49C2">
-        <ref role="Rm8GQ" to="u8j:~LayerConstraint.NONE" resolve="NONE" />
-        <ref role="1Px2BO" to="u8j:~LayerConstraint" resolve="LayerConstraint" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYgrI" role="V601i">
-      <property role="TrG5h" value="layered-layer-choice-constraint" />
-      <node concept="3uibUv" id="56jSwhzYgrJ" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYgxF" role="V601i">
@@ -8404,12 +8336,6 @@
         <property role="$nhwW" value="0.3" />
       </node>
     </node>
-    <node concept="3t5Usi" id="56jSwhzYk3z" role="V601i">
-      <property role="TrG5h" value="layered-node-flexibility" />
-      <node concept="3uibUv" id="56jSwhzYk86" role="3t5Oan">
-        <ref role="3uigEE" to="u8j:~NodeFlexibility" resolve="NodeFlexibility" />
-      </node>
-    </node>
     <node concept="3t5Usi" id="56jSwhzYk_5" role="V601i">
       <property role="TrG5h" value="layered-node-flexibility-default" />
       <node concept="3uibUv" id="56jSwhzYk_6" role="3t5Oan">
@@ -8418,27 +8344,6 @@
       <node concept="Rm8GO" id="56jSwhzYkDQ" role="3t49C2">
         <ref role="Rm8GQ" to="u8j:~NodeFlexibility.NONE" resolve="NONE" />
         <ref role="1Px2BO" to="u8j:~NodeFlexibility" resolve="NodeFlexibility" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYJC6" role="V601i">
-      <property role="TrG5h" value="layered-direction-priority" />
-      <node concept="10Oyi0" id="56jSwhzYJHI" role="3t5Oan" />
-      <node concept="3cmrfG" id="56jSwhzYJI3" role="3t49C2">
-        <property role="3cmrfH" value="0" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYJIe" role="V601i">
-      <property role="TrG5h" value="layered-shortness-priority" />
-      <node concept="10Oyi0" id="56jSwhzYJIf" role="3t5Oan" />
-      <node concept="3cmrfG" id="56jSwhzYJIg" role="3t49C2">
-        <property role="3cmrfH" value="0" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYJMO" role="V601i">
-      <property role="TrG5h" value="layered-straightness-priority" />
-      <node concept="10Oyi0" id="56jSwhzYJMP" role="3t5Oan" />
-      <node concept="3cmrfG" id="56jSwhzYJMQ" role="3t49C2">
-        <property role="3cmrfH" value="0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKgd" role="V601i">
@@ -8503,14 +8408,6 @@
         <ref role="1Px2BO" to="u8j:~CuttingStrategy" resolve="CuttingStrategy" />
       </node>
     </node>
-    <node concept="3t5Usi" id="56jSwhzYV2x" role="V601i">
-      <property role="TrG5h" value="layered-manually-specified-cuts" />
-      <node concept="_YKpA" id="56jSwhzYV8C" role="3t5Oan">
-        <node concept="3uibUv" id="56jSwhzYV8D" role="_ZDj9">
-          <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-        </node>
-      </node>
-    </node>
     <node concept="3t5Usi" id="56jSwhzYV9k" role="V601i">
       <property role="TrG5h" value="layered-msd-freedom" />
       <node concept="3uibUv" id="56jSwhzYVeB" role="3t5Oan">
@@ -8537,26 +8434,11 @@
         <ref role="1Px2BO" to="u8j:~ValidifyStrategy" resolve="ValidifyStrategy" />
       </node>
     </node>
-    <node concept="3t5Usi" id="56jSwhzYVTL" role="V601i">
-      <property role="TrG5h" value="layered-valid-indices-for-wrapping" />
-      <node concept="_YKpA" id="56jSwhzYW0h" role="3t5Oan">
-        <node concept="3uibUv" id="56jSwhzYW0i" role="_ZDj9">
-          <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-        </node>
-      </node>
-    </node>
     <node concept="3t5Usi" id="56jSwhzYW0Z" role="V601i">
       <property role="TrG5h" value="layered-improve-cuts" />
       <node concept="10P_77" id="56jSwhzYW6z" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYW6A" role="3t49C2">
         <property role="3clFbU" value="true" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYW6G" role="V601i">
-      <property role="TrG5h" value="layered-distance-penalty-when-improving-cuts" />
-      <node concept="10P55v" id="56jSwhzYWcY" role="3t5Oan" />
-      <node concept="3b6qkQ" id="56jSwhzYWd6" role="3t49C2">
-        <property role="$nhwW" value="2.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnOuj3A" role="V601i">
@@ -8751,51 +8633,6 @@
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
-    <node concept="3t5Usi" id="7L7aZ7jSdey" role="V601i">
-      <property role="TrG5h" value="core-edge-type" />
-      <node concept="3uibUv" id="7L7aZ7jSdeQ" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~EdgeType" resolve="EdgeType" />
-      </node>
-      <node concept="Rm8GO" id="7L7aZ7jSdfy" role="3t49C2">
-        <ref role="Rm8GQ" to="gwyy:~EdgeType.NONE" resolve="NONE" />
-        <ref role="1Px2BO" to="gwyy:~EdgeType" resolve="EdgeType" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="7L7aZ7jSdfK" role="V601i">
-      <property role="TrG5h" value="core-edge-label-placement" />
-      <node concept="3uibUv" id="7L7aZ7jSdfL" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~EdgeLabelPlacement" resolve="EdgeLabelPlacement" />
-      </node>
-      <node concept="Rm8GO" id="7L7aZ7jSdhI" role="3t49C2">
-        <ref role="Rm8GQ" to="gwyy:~EdgeLabelPlacement.CENTER" resolve="CENTER" />
-        <ref role="1Px2BO" to="gwyy:~EdgeLabelPlacement" resolve="EdgeLabelPlacement" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="7L7aZ7jSdi1" role="V601i">
-      <property role="TrG5h" value="core-inline-edge-labels" />
-      <node concept="10P_77" id="7L7aZ7jSdlZ" role="3t5Oan" />
-      <node concept="3clFbT" id="7L7aZ7jSdmn" role="3t49C2" />
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYdn_" role="V601i">
-      <property role="TrG5h" value="core-activate-inside-self-loops" />
-      <node concept="10P_77" id="56jSwhzYdnA" role="3t5Oan" />
-      <node concept="3clFbT" id="56jSwhzYdnB" role="3t49C2" />
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYdS6" role="V601i">
-      <property role="TrG5h" value="core-font-name" />
-      <node concept="17QB3L" id="56jSwhzYdTa" role="3t5Oan" />
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYdTh" role="V601i">
-      <property role="TrG5h" value="core-font-size" />
-      <node concept="3uibUv" id="56jSwhzYg0c" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYgfH" role="V601i">
-      <property role="TrG5h" value="core-inside-self-loop" />
-      <node concept="10P_77" id="56jSwhzYggJ" role="3t5Oan" />
-      <node concept="3clFbT" id="56jSwhzYggM" role="3t49C2" />
-    </node>
     <node concept="3t5Usi" id="56jSwhzYhVL" role="V601i">
       <property role="TrG5h" value="core-node-label-padding" />
       <node concept="3uibUv" id="56jSwhzYhWN" role="3t5Oan">
@@ -8807,70 +8644,6 @@
           <ref role="37wK5l" to="vgho:~ElkPadding.&lt;init&gt;(double)" resolve="ElkPadding" />
           <node concept="3cmrfG" id="56jSwhzYi5j" role="37wK5m">
             <property role="3cmrfH" value="5" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYis2" role="V601i">
-      <property role="TrG5h" value="core-node-label-placement" />
-      <node concept="3uibUv" id="56jSwhzYis3" role="3t5Oan">
-        <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
-        <node concept="3uibUv" id="56jSwhzYiNJ" role="11_B2D">
-          <ref role="3uigEE" to="gwyy:~NodeLabelPlacement" resolve="NodeLabelPlacement" />
-        </node>
-      </node>
-      <node concept="2YIFZM" id="56jSwhzYiBF" role="3t49C2">
-        <ref role="37wK5l" to="gwyy:~NodeLabelPlacement.fixed()" resolve="fixed" />
-        <ref role="1Pybhc" to="gwyy:~NodeLabelPlacement" resolve="NodeLabelPlacement" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYkZu" role="V601i">
-      <property role="TrG5h" value="core-node-size-constraints" />
-      <node concept="3uibUv" id="56jSwhzYll5" role="3t5Oan">
-        <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
-        <node concept="3uibUv" id="56jSwhzYnrv" role="11_B2D">
-          <ref role="3uigEE" to="gwyy:~SizeConstraint" resolve="SizeConstraint" />
-        </node>
-      </node>
-      <node concept="2YIFZM" id="56jSwhzYl$E" role="3t49C2">
-        <ref role="37wK5l" to="33ny:~EnumSet.noneOf(java.lang.Class)" resolve="noneOf" />
-        <ref role="1Pybhc" to="33ny:~EnumSet" resolve="EnumSet" />
-        <node concept="3VsKOn" id="56jSwhzYm$x" role="37wK5m">
-          <ref role="3VsUkX" to="gwyy:~SizeConstraint" resolve="SizeConstraint" />
-        </node>
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYnz6" role="V601i">
-      <property role="TrG5h" value="core-node-size-options" />
-      <node concept="3uibUv" id="56jSwhzYnz7" role="3t5Oan">
-        <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
-        <node concept="3uibUv" id="56jSwhzYnz8" role="11_B2D">
-          <ref role="3uigEE" to="gwyy:~SizeOptions" resolve="SizeOptions" />
-        </node>
-      </node>
-      <node concept="2YIFZM" id="56jSwhzYstQ" role="3t49C2">
-        <ref role="37wK5l" to="33ny:~EnumSet.of(java.lang.Enum)" resolve="of" />
-        <ref role="1Pybhc" to="33ny:~EnumSet" resolve="EnumSet" />
-        <node concept="Rm8GO" id="56jSwhzYstR" role="37wK5m">
-          <ref role="Rm8GQ" to="gwyy:~SizeOptions.DEFAULT_MINIMUM_SIZE" resolve="DEFAULT_MINIMUM_SIZE" />
-          <ref role="1Px2BO" to="gwyy:~SizeOptions" resolve="SizeOptions" />
-        </node>
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYsFZ" role="V601i">
-      <property role="TrG5h" value="core-node-size-minimum" />
-      <node concept="3uibUv" id="56jSwhzYuoR" role="3t5Oan">
-        <ref role="3uigEE" to="vgho:~KVector" resolve="KVector" />
-      </node>
-      <node concept="2ShNRf" id="56jSwhzYuMo" role="3t49C2">
-        <node concept="1pGfFk" id="56jSwhzYv21" role="2ShVmc">
-          <property role="373rjd" value="true" />
-          <ref role="37wK5l" to="vgho:~KVector.&lt;init&gt;(double,double)" resolve="KVector" />
-          <node concept="3cmrfG" id="56jSwhzYv$_" role="37wK5m">
-            <property role="3cmrfH" value="0" />
-          </node>
-          <node concept="3cmrfG" id="56jSwhzYwWl" role="37wK5m">
-            <property role="3cmrfH" value="0" />
           </node>
         </node>
       </node>
@@ -8894,93 +8667,6 @@
       <node concept="10M0yZ" id="56jSwhzYAzA" role="3t49C2">
         <ref role="3cqZAo" to="wyt6:~Boolean.FALSE" resolve="FALSE" />
         <ref role="1PxDUh" to="wyt6:~Boolean" resolve="Boolean" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYATi" role="V601i">
-      <property role="TrG5h" value="core-port-anchor-offset" />
-      <node concept="3uibUv" id="56jSwhzYATj" role="3t5Oan">
-        <ref role="3uigEE" to="vgho:~KVector" resolve="KVector" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYBCx" role="V601i">
-      <property role="TrG5h" value="core-port-index" />
-      <node concept="3uibUv" id="56jSwhzYBWM" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYBWQ" role="V601i">
-      <property role="TrG5h" value="core-port-side" />
-      <node concept="3uibUv" id="56jSwhzYBWR" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortSide" resolve="PortSide" />
-      </node>
-      <node concept="Rm8GO" id="56jSwhzYCG3" role="3t49C2">
-        <ref role="Rm8GQ" to="gwyy:~PortSide.UNDEFINED" resolve="UNDEFINED" />
-        <ref role="1Px2BO" to="gwyy:~PortSide" resolve="PortSide" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYCGh" role="V601i">
-      <property role="TrG5h" value="core-port-border-offset" />
-      <node concept="3uibUv" id="56jSwhzYCGi" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYEBQ" role="V601i">
-      <property role="TrG5h" value="core-port-alignment" />
-      <node concept="3uibUv" id="56jSwhzYEBR" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-      <node concept="Rm8GO" id="56jSwhzYEWh" role="3t49C2">
-        <ref role="Rm8GQ" to="gwyy:~PortAlignment.DISTRIBUTED" resolve="DISTRIBUTED" />
-        <ref role="1Px2BO" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYEWv" role="V601i">
-      <property role="TrG5h" value="core-port-alignment-north" />
-      <node concept="3uibUv" id="56jSwhzYEWw" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYFgP" role="V601i">
-      <property role="TrG5h" value="core-port-alignment-south" />
-      <node concept="3uibUv" id="56jSwhzYFgQ" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYGbU" role="V601i">
-      <property role="TrG5h" value="core-port-alignment-west" />
-      <node concept="3uibUv" id="56jSwhzYGbV" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYGvR" role="V601i">
-      <property role="TrG5h" value="core-port-alignment-east" />
-      <node concept="3uibUv" id="56jSwhzYGvS" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYGNQ" role="V601i">
-      <property role="TrG5h" value="core-port-label-placement" />
-      <node concept="3uibUv" id="56jSwhzYGNR" role="3t5Oan">
-        <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
-        <node concept="3uibUv" id="56jSwhzYHl4" role="11_B2D">
-          <ref role="3uigEE" to="gwyy:~PortLabelPlacement" resolve="PortLabelPlacement" />
-        </node>
-      </node>
-      <node concept="2YIFZM" id="56jSwhzYHr_" role="3t49C2">
-        <ref role="37wK5l" to="gwyy:~PortLabelPlacement.outside()" resolve="outside" />
-        <ref role="1Pybhc" to="gwyy:~PortLabelPlacement" resolve="PortLabelPlacement" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYHs9" role="V601i">
-      <property role="TrG5h" value="core-port-labels-next-to-port" />
-      <node concept="10P_77" id="56jSwhzYITq" role="3t5Oan" />
-      <node concept="3clFbT" id="56jSwhzYJ7N" role="3t49C2" />
-    </node>
-    <node concept="3t5Usi" id="56jSwhzYJ7T" role="V601i">
-      <property role="TrG5h" value="core-treat-port-labels-as-group" />
-      <node concept="10P_77" id="56jSwhzYJ7U" role="3t5Oan" />
-      <node concept="3clFbT" id="56jSwhzYJ7V" role="3t49C2">
-        <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKF7" role="V601i">
@@ -9074,13 +8760,6 @@
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
-    <node concept="3t5Usi" id="56jSwhzYRZS" role="V601i">
-      <property role="TrG5h" value="core-individual-spacing" />
-      <node concept="10P55v" id="56jSwhzYRZT" role="3t5Oan" />
-      <node concept="3b6qkQ" id="56jSwhzYRZU" role="3t49C2">
-        <property role="$nhwW" value="10.0" />
-      </node>
-    </node>
     <node concept="3t5Usi" id="56jSwhzYSWK" role="V601i">
       <property role="TrG5h" value="core-additional-port-space" />
       <node concept="3uibUv" id="56jSwhzYTix" role="3t5Oan">
@@ -9125,6 +8804,11 @@
       <node concept="10P_77" id="56jSwh$2098" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$2099" role="3t49C2" />
     </node>
+    <node concept="3t5Usi" id="vVBnaNT$lk" role="V601i">
+      <property role="TrG5h" value="core-inline-edge-labels" />
+      <node concept="10P_77" id="vVBnaNT$ll" role="3t5Oan" />
+      <node concept="3clFbT" id="vVBnaNT$lm" role="3t49C2" />
+    </node>
     <node concept="3t5Usi" id="qwNnoDPfBg" role="V601i">
       <property role="TrG5h" value="core-interactive-layout" />
       <node concept="10P_77" id="qwNnoDPfBh" role="3t5Oan" />
@@ -9143,12 +8827,6 @@
             <property role="3cmrfH" value="12" />
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="3t5Usi" id="56jSwh$3MPE" role="V601i">
-      <property role="TrG5h" value="core-priority" />
-      <node concept="3uibUv" id="56jSwh$3MPF" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$TCcP" role="V601i">

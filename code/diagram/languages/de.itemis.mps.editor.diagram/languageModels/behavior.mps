@@ -5938,7 +5938,7 @@
             <node concept="2OqwBi" id="qwNnoEMjfd" role="37vLTJ">
               <node concept="13iPFW" id="qwNnoEMjfe" role="2Oq$k0" />
               <node concept="3TrcHB" id="qwNnoEMjff" role="2OqNvi">
-                <ref role="3TsBF5" to="2qld:qwNnoEIHXC" resolve="topdownScaleFactor" />
+                <ref role="3TsBF5" to="2qld:3biyEnNTkvp" resolve="topdownScaleFactor" />
               </node>
             </node>
             <node concept="2OqwBi" id="3biyEnNeFhv" role="37vLTx">
@@ -6940,7 +6940,7 @@
             <node concept="2OqwBi" id="3biyEnNTWjg" role="37vLTx">
               <node concept="2OqwBi" id="3biyEnO3KqD" role="2Oq$k0">
                 <node concept="10M0yZ" id="3biyEnNTWh7" role="2Oq$k0">
-                  <ref role="3cqZAo" to="gwyy:~CoreOptions.TOPDOWN_SCALE_FACTOR" resolve="TOPDOWN_SCALE_FACTOR" />
+                  <ref role="3cqZAo" to="nnri:~ForceOptions.TOPDOWN_SCALE_FACTOR" resolve="TOPDOWN_SCALE_FACTOR" />
                   <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
                 </node>
                 <node concept="liA8E" id="3biyEnO3KGL" role="2OqNvi">
@@ -9468,12 +9468,110 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="vVBnaNCoXU" role="3cqZAp">
+          <node concept="37vLTI" id="vVBnaNCoXV" role="3clFbG">
+            <node concept="2OqwBi" id="vVBnaNCoXW" role="37vLTJ">
+              <node concept="13iPFW" id="vVBnaNCoXX" role="2Oq$k0" />
+              <node concept="3TrcHB" id="vVBnaNCoXY" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNTjv8" resolve="topdownHierarchicalNodeAspectRatio" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="vVBnaNCoXZ" role="37vLTx">
+              <node concept="2OqwBi" id="vVBnaNCoY0" role="2Oq$k0">
+                <node concept="10M0yZ" id="vVBnaNCoY1" role="2Oq$k0">
+                  <ref role="3cqZAo" to="u8j:~LayeredOptions.TOPDOWN_HIERARCHICAL_NODE_ASPECT_RATIO" resolve="TOPDOWN_HIERARCHICAL_NODE_ASPECT_RATIO" />
+                  <ref role="1PxDUh" to="u8j:~LayeredOptions" resolve="LayeredOptions" />
+                </node>
+                <node concept="liA8E" id="vVBnaNCoY2" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="vVBnaNCoY3" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="vVBnaNwaGi" role="3cqZAp">
+          <node concept="37vLTI" id="vVBnaNwaGj" role="3clFbG">
+            <node concept="2OqwBi" id="vVBnaNwaGk" role="37vLTJ">
+              <node concept="13iPFW" id="vVBnaNwaGl" role="2Oq$k0" />
+              <node concept="3TrcHB" id="vVBnaNwaGm" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnO42aj" resolve="topdownHierarchicalNodeWidth" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="vVBnaNwaGn" role="37vLTx">
+              <node concept="2OqwBi" id="vVBnaNwaGo" role="2Oq$k0">
+                <node concept="10M0yZ" id="vVBnaNwaGp" role="2Oq$k0">
+                  <ref role="3cqZAo" to="u8j:~LayeredOptions.TOPDOWN_HIERARCHICAL_NODE_WIDTH" resolve="TOPDOWN_HIERARCHICAL_NODE_WIDTH" />
+                  <ref role="1PxDUh" to="u8j:~LayeredOptions" resolve="LayeredOptions" />
+                </node>
+                <node concept="liA8E" id="vVBnaNwaGq" role="2OqNvi">
+                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                </node>
+              </node>
+              <node concept="liA8E" id="vVBnaNwaGr" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="vVBnaNwaGs" role="3cqZAp">
+          <node concept="37vLTI" id="vVBnaNwaGt" role="3clFbG">
+            <node concept="2OqwBi" id="vVBnaNwaGu" role="37vLTJ">
+              <node concept="13iPFW" id="vVBnaNwaGv" role="2Oq$k0" />
+              <node concept="3TrcHB" id="vVBnaNwaGw" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="vVBnaNwaGx" role="37vLTx">
+              <node concept="10M0yZ" id="vVBnaNwaGy" role="2Oq$k0">
+                <ref role="3cqZAo" to="u8j:~LayeredOptions.TOPDOWN_LAYOUT" resolve="TOPDOWN_LAYOUT" />
+                <ref role="1PxDUh" to="u8j:~LayeredOptions" resolve="LayeredOptions" />
+              </node>
+              <node concept="liA8E" id="vVBnaNwaGz" role="2OqNvi">
+                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="vVBnaNwaG$" role="3cqZAp">
+          <node concept="37vLTI" id="vVBnaNwaG_" role="3clFbG">
+            <node concept="2OqwBi" id="vVBnaNwaGA" role="37vLTJ">
+              <node concept="13iPFW" id="vVBnaNwaGB" role="2Oq$k0" />
+              <node concept="3TrcHB" id="vVBnaNwaGC" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="vVBnaNwaGD" role="37vLTx">
+              <node concept="1XH99k" id="vVBnaNwaGE" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:qwNnoEIHR$" resolve="TopdownNodeTypes" />
+              </node>
+              <node concept="2ViDtW" id="vVBnaNwaGF" role="2OqNvi">
+                <node concept="2OqwBi" id="vVBnaNwaGG" role="2ViJBj">
+                  <node concept="2OqwBi" id="vVBnaNwaGH" role="2Oq$k0">
+                    <node concept="10M0yZ" id="vVBnaNwaGI" role="2Oq$k0">
+                      <ref role="3cqZAo" to="u8j:~LayeredOptions.TOPDOWN_NODE_TYPE" resolve="TOPDOWN_NODE_TYPE" />
+                      <ref role="1PxDUh" to="u8j:~LayeredOptions" resolve="LayeredOptions" />
+                    </node>
+                    <node concept="liA8E" id="vVBnaNwaGJ" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="vVBnaNwaGK" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3biyEnOnqpI" role="3cqZAp">
           <node concept="37vLTI" id="3biyEnOnqXB" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnOnqJP" role="37vLTJ">
               <node concept="13iPFW" id="3biyEnOnqpG" role="2Oq$k0" />
               <node concept="3TrcHB" id="3biyEnOnqUk" role="2OqNvi">
-                <ref role="3TsBF5" to="2qld:3biyEnOlNU0" resolve="topdownScaleFactor" />
+                <ref role="3TsBF5" to="2qld:3biyEnNTkvp" resolve="topdownScaleFactor" />
               </node>
             </node>
             <node concept="2OqwBi" id="3biyEnOsx9v" role="37vLTx">

@@ -2809,11 +2809,6 @@
       <property role="TrG5h" value="thoroughness" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="3biyEnOlNU0" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892379229824" />
-      <property role="TrG5h" value="topdownScaleFactor" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
     <node concept="1TJgyi" id="3biyEnOlO8F" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379230763" />
       <property role="TrG5h" value="upperBoundOnWidthMinWidthLayerer" />
@@ -3721,11 +3716,6 @@
       <property role="TrG5h" value="separateConnectedComponents" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="qwNnoEIHXC" role="1TKVEl">
-      <property role="IQ2nx" value="477607467907997544" />
-      <property role="TrG5h" value="topdownScaleFactor" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
     <node concept="1TJgyi" id="qwNnoEIIed" role="1TKVEl">
       <property role="IQ2nx" value="477607467907998605" />
       <property role="TrG5h" value="weighting" />
@@ -4124,11 +4114,6 @@
       <property role="TrG5h" value="separateConnectedComponents" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="3biyEnNTkvp" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892371761113" />
-      <property role="TrG5h" value="topdownScaleFactor" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
     <node concept="1sEMCm" id="3biyEnNTgv_" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
     </node>
@@ -4227,6 +4212,11 @@
       <property role="IQ2nx" value="3662141892374571168" />
       <property role="TrG5h" value="topdownNodeType" />
       <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnNTkvp" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892371761113" />
+      <property role="TrG5h" value="topdownScaleFactor" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
   <node concept="1TIwiD" id="3biyEnOlnZy">

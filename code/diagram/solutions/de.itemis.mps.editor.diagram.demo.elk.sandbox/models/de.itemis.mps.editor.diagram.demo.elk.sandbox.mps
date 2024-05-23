@@ -13,7 +13,6 @@
       </concept>
       <concept id="477607467907982644" name="de.itemis.mps.editor.diagram.structure.TreeLayoutConfig" flags="ng" index="G6Ax2">
         <property id="477607467907990382" name="nodeSpacing" index="G6wSo" />
-        <property id="477607467907997544" name="topdownScaleFactor" index="G6x8u" />
         <property id="477607467907994291" name="separateConnectedComponents" index="G6xZ5" />
         <property id="477607467907998605" name="weighting" index="G6yVV" />
         <property id="477607467907984597" name="direction" index="G6A6z" />
@@ -75,7 +74,6 @@
         <property id="3662141892371752507" name="iterations" index="31dUMu" />
         <property id="3662141892371755918" name="separateConnectedComponents" index="31dV$F" />
         <property id="3662141892371755044" name="randomizationSeed" index="31dVE1" />
-        <property id="3662141892371761113" name="topdownScaleFactor" index="31dWPW" />
         <child id="3662141892371754547" name="padding" index="31dUim" />
       </concept>
       <concept id="3662141892368052716" name="de.itemis.mps.editor.diagram.structure.SPOrEOverlapRemovalLayoutConfig" flags="ng" index="31vzH9">
@@ -101,6 +99,7 @@
       </concept>
       <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ng" index="36TQxy">
         <property id="3662141892371757000" name="topdownHierarchicalNodeAspectRatio" index="31dVPH" />
+        <property id="3662141892371761113" name="topdownScaleFactor" index="31dWPW" />
         <property id="3662141892374571168" name="topdownNodeType" index="36KE85" />
         <property id="3662141892374569619" name="topdownHierarchicalNodeWidth" index="36KEwQ" />
       </concept>
@@ -140,7 +139,6 @@
         <property id="3662141892379225514" name="sloppySplineLayerSpacingFactor" index="36xqsf" />
         <property id="3662141892379223673" name="separateConnectedComponents" index="36xqNs" />
         <property id="3662141892379228412" name="thoroughness" index="36xr9p" />
-        <property id="3662141892379229824" name="topdownScaleFactor" index="36xrg_" />
         <property id="3662141892379230763" name="upperBoundOnWidthMinWidthLayerer" index="36xsye" />
         <property id="3662141892379231963" name="upperLayerEstimationScalingFactorMinWidthLayerer" index="36xsLY" />
         <property id="3662141892379238267" name="verticalSpacingBetweenLabelAndPort" index="36xtnu" />
@@ -565,7 +563,7 @@
       <ref role="i0Utg" node="7L7aZ7jJgcK" resolve="11" />
       <ref role="i0Ul0" node="7L7aZ7jJgcW" resolve="12" />
     </node>
-    <node concept="3GLQun" id="vVBnaNuL6z" role="J81tK">
+    <node concept="3GLQun" id="vVBnaND5Oc" role="J81tK">
       <property role="36xPr_" value="10.0" />
       <property role="36xQCC" value="1.600000023841858" />
       <property role="36xRFa" value="10.0" />
@@ -607,29 +605,32 @@
       <property role="36xq2V" value="2.0" />
       <property role="36xqsf" value="0.2" />
       <property role="36xr9p" value="7" />
-      <property role="36xrg_" value="1.0" />
+      <property role="31dVPH" value="1.414" />
+      <property role="36KEwQ" value="150.0" />
+      <property role="36KE85" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
+      <property role="31dWPW" value="1.0" />
       <property role="36xsye" value="4" />
       <property role="36xsLY" value="2" />
       <property role="36xtnu" value="1.0" />
-      <node concept="36xZl7" id="vVBnaNuL6$" role="36xZ2x">
+      <node concept="36xZl7" id="vVBnaND5Od" role="36xZ2x">
         <property role="36xZl6" value="0.0" />
         <property role="36xZl1" value="0.0" />
         <property role="36xZl0" value="0.0" />
         <property role="36xZl3" value="0.0" />
       </node>
-      <node concept="POr8z" id="vVBnaNuL6_" role="36x8mx">
+      <node concept="POr8z" id="vVBnaND5Oe" role="36x8mx">
         <property role="POreE" value="56jSwh$g$O2/V_TOP" />
       </node>
-      <node concept="POr8z" id="vVBnaNuL6A" role="36x8mx">
+      <node concept="POr8z" id="vVBnaND5Of" role="36x8mx">
         <property role="POreE" value="56jSwh$g_03/H_LEFT" />
       </node>
-      <node concept="POkNa" id="vVBnaNuL6B" role="36x7JS">
+      <node concept="POkNa" id="vVBnaND5Og" role="36x7JS">
         <property role="POl1y" value="5.0" />
         <property role="POl7g" value="5.0" />
         <property role="POljH" value="5.0" />
         <property role="POlmT" value="5.0" />
       </node>
-      <node concept="POkNa" id="vVBnaNuL6C" role="36xohh">
+      <node concept="POkNa" id="vVBnaND5Oh" role="36xohh">
         <property role="POl1y" value="12.0" />
         <property role="POl7g" value="12.0" />
         <property role="POljH" value="12.0" />
@@ -1058,10 +1059,10 @@
       <property role="31dU8A" value="30.0" />
       <property role="31dVE1" value="1" />
       <property role="31dV$F" value="true" />
-      <property role="31dWPW" value="1.0" />
       <property role="31dVPH" value="1.414" />
       <property role="36KEwQ" value="150.0" />
       <property role="36KE85" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
+      <property role="31dWPW" value="1.0" />
       <node concept="POkNa" id="3biyEnO3Ya7" role="31dUim">
         <property role="POl1y" value="50.0" />
         <property role="POl7g" value="50.0" />
@@ -1423,11 +1424,11 @@
       <property role="G6BCW" value="10.0" />
       <property role="G6wSo" value="20.0" />
       <property role="G6xZ5" value="true" />
-      <property role="G6x8u" value="1.0" />
       <property role="G6yVV" value="qwNnoEIIjr/MODEL_ORDER" />
       <property role="31dVPH" value="1.414" />
       <property role="36KEwQ" value="150.0" />
       <property role="36KE85" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
+      <property role="31dWPW" value="1.0" />
     </node>
   </node>
   <node concept="379oHZ" id="5Qzx7AqxFFn">

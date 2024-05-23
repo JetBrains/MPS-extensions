@@ -41,6 +41,9 @@
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1588368162884797030" name="jetbrains.mps.lang.structure.structure.EnumMigrationInfo" flags="ng" index="2JgGob">
         <property id="6491077959634662372" name="valueOpMigration" index="3scbB" />
         <property id="6491077959634650670" name="nameOpMigration" index="3sfsH" />
@@ -2432,12 +2435,12 @@
     <node concept="1TJgyi" id="3biyEnOltL0" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379139136" />
       <property role="TrG5h" value="additionalWrappedEdgesSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlu2d" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379140237" />
       <property role="TrG5h" value="aspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOludG" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379140972" />
@@ -2452,17 +2455,17 @@
     <node concept="1TJgyi" id="3biyEnOlv1J" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379144303" />
       <property role="TrG5h" value="commentCommentSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlvfj" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379145171" />
       <property role="TrG5h" value="commentNodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlvpC" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379145832" />
       <property role="TrG5h" value="componentsSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlv_A" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379146598" />
@@ -2487,17 +2490,17 @@
     <node concept="1TJgyi" id="3biyEnOlxcM" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379153202" />
       <property role="TrG5h" value="correctionFactorForWrapping" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlxrF" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379154155" />
       <property role="TrG5h" value="crossingCounterNodeInfluence" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlxFN" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379155187" />
       <property role="TrG5h" value="crossingCounterPortInfluence" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlxVW" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379156220" />
@@ -2527,7 +2530,7 @@
     <node concept="1TJgyi" id="3biyEnOlzmG" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379162028" />
       <property role="TrG5h" value="multiEdgeDistancePenalty" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlzIe" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379163534" />
@@ -2537,7 +2540,7 @@
     <node concept="1TJgyi" id="3biyEnOl$33" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379164867" />
       <property role="TrG5h" value="edgeEdgeBetweenLayersSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOl$kx" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379165985" />
@@ -2547,27 +2550,27 @@
     <node concept="1TJgyi" id="3biyEnOl$$6" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379166982" />
       <property role="TrG5h" value="edgeLabelSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOl$Jw" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379167712" />
       <property role="TrG5h" value="edgeNodeBetweenLayersSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOl_11" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379168833" />
       <property role="TrG5h" value="edgeNodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOl_Bh" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379171281" />
       <property role="TrG5h" value="edgeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOl_Kh" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379171857" />
       <property role="TrG5h" value="edgeThickness" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOl_Wa" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379172618" />
@@ -2617,7 +2620,7 @@
     <node concept="1TJgyi" id="3biyEnOlCdu" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379181918" />
       <property role="TrG5h" value="hierarchicalSweepiness" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlCyQ" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379183286" />
@@ -2637,7 +2640,7 @@
     <node concept="1TJgyi" id="3biyEnOlDje" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379186382" />
       <property role="TrG5h" value="horizontalSpacingBetweenLabelAndPort" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlDBQ" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379187702" />
@@ -2662,12 +2665,12 @@
     <node concept="1TJgyi" id="3biyEnOlEsW" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379191100" />
       <property role="TrG5h" value="labelNodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlEDV" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379191931" />
       <property role="TrG5h" value="labelSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlEOT" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379192633" />
@@ -2687,7 +2690,7 @@
     <node concept="1TJgyi" id="3biyEnOlFnx" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379194849" />
       <property role="TrG5h" value="linearSegmentDeflectionDampening" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlFD3" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379195971" />
@@ -2727,7 +2730,7 @@
     <node concept="1TJgyi" id="3biyEnOlJs6" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379211526" />
       <property role="TrG5h" value="nodeNodeBetweenLayersSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlJUK" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379213488" />
@@ -2742,12 +2745,12 @@
     <node concept="1TJgyi" id="3biyEnOlKzL" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379216113" />
       <property role="TrG5h" value="nodeSelfLoopSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlKLq" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379216986" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlL1B" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379218023" />
@@ -2757,7 +2760,7 @@
     <node concept="1TJgyi" id="3biyEnOlLfO" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379218932" />
       <property role="TrG5h" value="portSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlLqE" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379219626" />
@@ -2787,17 +2790,17 @@
     <node concept="1TJgyi" id="3biyEnOlMCu" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379224606" />
       <property role="TrG5h" value="slopedEdgeZoneWidth" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlMQE" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379225514" />
       <property role="TrG5h" value="sloppySplineLayerSpacingFactor" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlN8W" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379226684" />
       <property role="TrG5h" value="spacingBaseValue" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlNlW" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379227516" />
@@ -2827,7 +2830,7 @@
     <node concept="1TJgyi" id="3biyEnOlPXV" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379238267" />
       <property role="TrG5h" value="verticalSpacingBetweenLabelAndPort" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1sEMCm" id="1FUCB8od_g0" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
@@ -3091,7 +3094,7 @@
     <node concept="1TJgyi" id="56jSwh$gAxq" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138449498" />
       <property role="TrG5h" value="aspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="56jSwh$gAPr" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138450779" />
@@ -3111,7 +3114,7 @@
     <node concept="1TJgyi" id="56jSwh$gC0O" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138455604" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1sEMCm" id="56jSwh$g_vs" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
@@ -3125,22 +3128,22 @@
     <node concept="1TJgyi" id="56jSwh$gF9A" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138468454" />
       <property role="TrG5h" value="top" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="56jSwh$gFfk" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138468820" />
       <property role="TrG5h" value="right" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="56jSwh$gFrD" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138469609" />
       <property role="TrG5h" value="bottom" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="56jSwh$gFuX" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138469821" />
       <property role="TrG5h" value="left" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
   </node>
   <node concept="1TIwiD" id="56jSwh$RMMZ">
@@ -3177,7 +3180,7 @@
     <node concept="1TJgyi" id="56jSwh$RO4c" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148728588" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="56jSwh$ROhI" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148729454" />
@@ -3192,7 +3195,7 @@
     <node concept="1TJgyi" id="56jSwh$ROCn" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148730903" />
       <property role="TrG5h" value="radius" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="56jSwh$ROJQ" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148731382" />
@@ -3207,7 +3210,7 @@
     <node concept="1TJgyi" id="56jSwh$ROZq" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148732378" />
       <property role="TrG5h" value="targetAngle" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="56jSwh$RPdL" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148733297" />
@@ -3305,12 +3308,12 @@
     <node concept="1TJgyi" id="qwNnoDFtnO" role="1TKVEl">
       <property role="IQ2nx" value="477607467890365940" />
       <property role="TrG5h" value="aspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoDFt$2" role="1TKVEl">
       <property role="IQ2nx" value="477607467890366722" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoDFu4N" role="1TKVEl">
       <property role="IQ2nx" value="477607467890368819" />
@@ -3343,7 +3346,7 @@
     <node concept="1TJgyi" id="qwNnoDNw2b" role="1TKVEl">
       <property role="IQ2nx" value="477607467892473995" />
       <property role="TrG5h" value="aspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoDNwb9" role="1TKVEl">
       <property role="IQ2nx" value="477607467892474569" />
@@ -3373,7 +3376,7 @@
     <node concept="1TJgyi" id="qwNnoDNxx0" role="1TKVEl">
       <property role="IQ2nx" value="477607467892480064" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoDNxGx" role="1TKVEl">
       <property role="IQ2nx" value="477607467892480801" />
@@ -3398,7 +3401,7 @@
     <node concept="1TJgyi" id="qwNnoDNyWU" role="1TKVEl">
       <property role="IQ2nx" value="477607467892485946" />
       <property role="TrG5h" value="targetWidth" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoDNz8U" role="1TKVEl">
       <property role="IQ2nx" value="477607467892486714" />
@@ -3497,12 +3500,12 @@
     <node concept="1TJgyi" id="qwNnoEfkHK" role="1TKVEl">
       <property role="IQ2nx" value="477607467899767664" />
       <property role="TrG5h" value="aspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoEfkUN" role="1TKVEl">
       <property role="IQ2nx" value="477607467899768499" />
       <property role="TrG5h" value="componentsSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoEflc1" role="1TKVEl">
       <property role="IQ2nx" value="477607467899769601" />
@@ -3517,7 +3520,7 @@
     <node concept="1TJgyi" id="qwNnoEflAO" role="1TKVEl">
       <property role="IQ2nx" value="477607467899771316" />
       <property role="TrG5h" value="edgeThickness" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoEflMH" role="1TKVEl">
       <property role="IQ2nx" value="477607467899772077" />
@@ -3659,7 +3662,7 @@
     <node concept="1TJgyi" id="qwNnoEIEEL" role="1TKVEl">
       <property role="IQ2nx" value="477607467907984049" />
       <property role="TrG5h" value="aspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoEIENl" role="1TKVEl">
       <property role="IQ2nx" value="477607467907984597" />
@@ -3669,12 +3672,12 @@
     <node concept="1TJgyi" id="qwNnoEIFiU" role="1TKVEl">
       <property role="IQ2nx" value="477607467907986618" />
       <property role="TrG5h" value="edgeEndTextureLength" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoEIFta" role="1TKVEl">
       <property role="IQ2nx" value="477607467907987274" />
       <property role="TrG5h" value="edgeNodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoEIFCe" role="1TKVEl">
       <property role="IQ2nx" value="477607467907987982" />
@@ -3699,7 +3702,7 @@
     <node concept="1TJgyi" id="qwNnoEIGdI" role="1TKVEl">
       <property role="IQ2nx" value="477607467907990382" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="qwNnoEIGoS" role="1TKVEl">
       <property role="IQ2nx" value="477607467907991096" />
@@ -3823,7 +3826,7 @@
     <node concept="1TJgyi" id="3biyEnNoXRy" role="1TKVEl">
       <property role="IQ2nx" value="3662141892363279842" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnNoY0z" role="1TKVEl">
       <property role="IQ2nx" value="3662141892363280419" />
@@ -3948,7 +3951,7 @@
     <node concept="1TJgyi" id="3biyEnNFih1" role="1TKVEl">
       <property role="IQ2nx" value="3662141892368081985" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnNFiy_" role="1TKVEl">
       <property role="IQ2nx" value="3662141892368083109" />
@@ -3983,7 +3986,7 @@
     <node concept="1TJgyi" id="3biyEnNNl1o" role="1TKVEl">
       <property role="IQ2nx" value="3662141892370190424" />
       <property role="TrG5h" value="desiredEdgeLength" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnNNler" role="1TKVEl">
       <property role="IQ2nx" value="3662141892370191259" />
@@ -4013,7 +4016,7 @@
     <node concept="1TJgyi" id="3biyEnNNmmM" role="1TKVEl">
       <property role="IQ2nx" value="3662141892370195890" />
       <property role="TrG5h" value="stressEpsilon" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1sEMCm" id="3biyEnNNkls" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
@@ -4052,17 +4055,17 @@
     <node concept="1TJgyi" id="3biyEnNTgOJ" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371746095" />
       <property role="TrG5h" value="aspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnNTgZm" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371746774" />
       <property role="TrG5h" value="eadesRepulsion" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnNThqF" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371748523" />
       <property role="TrG5h" value="edgeLabelSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnNThBn" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371749335" />
@@ -4077,7 +4080,7 @@
     <node concept="1TJgyi" id="3biyEnNThUO" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371750580" />
       <property role="TrG5h" value="forceTemperature" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnNTi5V" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371751291" />
@@ -4097,7 +4100,7 @@
     <node concept="1TJgyi" id="3biyEnNTiy3" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371753091" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnNTiFb" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371753675" />
@@ -4149,7 +4152,7 @@
     <node concept="1TJgyi" id="3biyEnO41_w" role="1TKVEl">
       <property role="IQ2nx" value="3662141892374567264" />
       <property role="TrG5h" value="nodeSpacing" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnO42Hf" role="1TKVEl">
       <property role="IQ2nx" value="3662141892374571855" />
@@ -4196,12 +4199,12 @@
     <node concept="1TJgyi" id="3biyEnNTjv8" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371757000" />
       <property role="TrG5h" value="topdownHierarchicalNodeAspectRatio" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnO42aj" role="1TKVEl">
       <property role="IQ2nx" value="3662141892374569619" />
       <property role="TrG5h" value="topdownHierarchicalNodeWidth" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnO42oe" role="1TKVEl">
       <property role="IQ2nx" value="3662141892374570510" />
@@ -4216,7 +4219,7 @@
     <node concept="1TJgyi" id="3biyEnNTkvp" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371761113" />
       <property role="TrG5h" value="topdownScaleFactor" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
   </node>
   <node concept="1TIwiD" id="3biyEnOlnZy">
@@ -4227,22 +4230,22 @@
     <node concept="1TJgyi" id="3biyEnOlnZz" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379115491" />
       <property role="TrG5h" value="top" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlnZ$" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379115492" />
       <property role="TrG5h" value="right" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlnZ_" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379115493" />
       <property role="TrG5h" value="bottom" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlnZA" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379115494" />
       <property role="TrG5h" value="left" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
   </node>
   <node concept="25R3W" id="3biyEnOluyx">
@@ -4738,6 +4741,12 @@
       <property role="3tVfz5" value="3662141892379237586" />
       <property role="TrG5h" value="LOOK_BACK" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="gc$lTUB">
+    <property role="TrG5h" value="double" />
+    <property role="FLfZY" value="-?[0-9]+(\\.[0-9]*([Ee][\\+\\-]?[0-9]+)?[dD]?)?" />
+    <property role="3F6X1D" value="1113006251687" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
   </node>
 </model>
 

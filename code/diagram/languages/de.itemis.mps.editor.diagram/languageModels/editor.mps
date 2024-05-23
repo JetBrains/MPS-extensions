@@ -6,6 +6,7 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -270,6 +271,9 @@
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
+    </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="9000758320091481718" name="de.itemis.mps.editor.celllayout.structure.GridLayoutFlattenStyle" flags="lg" index="1QQdxR" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="767145758118872830" name="jetbrains.mps.lang.actions.structure.NF_Link_SetNewChildOperation" flags="nn" index="2DeJnY" />
@@ -6874,6 +6878,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="3biyEnOlUJO" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not defined&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:3biyEnOlEZ4" resolve="layoutPartition" />
         </node>
       </node>
@@ -7316,7 +7322,7 @@
           </node>
         </node>
         <node concept="3F0A7n" id="3biyEnOlVo0" role="3EZMnx">
-          <ref role="1NtTu8" to="2qld:3biyEnOlL1B" resolve="portSortingStrategy" />
+          <ref role="1NtTu8" to="2qld:3biyEnOlL1B" resolve="lportSortingStrategy" />
         </node>
       </node>
       <node concept="3EZMnI" id="3biyEnOlVo1" role="3EZMnx">
@@ -7550,6 +7556,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="3biyEnOlVIS" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not defined&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:3biyEnOlN8W" resolve="spacingBaseValue" />
         </node>
       </node>
@@ -7633,6 +7641,9 @@
       </node>
       <node concept="PMmxH" id="3biyEnOmegc" role="3EZMnx">
         <ref role="PMmxG" node="3biyEnOlZ4O" resolve="TopdownOptions" />
+        <node concept="1QQdxR" id="vVBnaOLyLt" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3EZMnI" id="3biyEnOlVJf" role="3EZMnx">
         <node concept="2iRfu4" id="3biyEnOlVJg" role="2iSdaV" />
@@ -10231,6 +10242,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="qwNnoDN$Mo" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not defined&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:qwNnoDNzm9" resolve="whiteSpaceEliminationStrategy" />
         </node>
       </node>
@@ -10290,6 +10303,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="qwNnoEfnmD" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not defined&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:qwNnoEfkHK" resolve="aspectRatio" />
         </node>
       </node>
@@ -10368,6 +10383,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="qwNnoEfnVu" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not defined&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:qwNnoEflx2" resolve="componentLayoutAlgorithm" />
         </node>
       </node>
@@ -10974,6 +10991,9 @@
       </node>
       <node concept="PMmxH" id="3biyEnOm1WP" role="3EZMnx">
         <ref role="PMmxG" node="3biyEnOlZ4O" resolve="TopdownOptions" />
+        <node concept="1QQdxR" id="vVBnaOO66j" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3EZMnI" id="qwNnoEIKBF" role="3EZMnx">
         <node concept="2iRfu4" id="qwNnoEIKBG" role="2iSdaV" />
@@ -11187,6 +11207,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="3biyEnNp280" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not defined&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:3biyEnNoYmp" resolve="rootNodeForSpanningTreeConstruction" />
         </node>
       </node>
@@ -11291,6 +11313,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="3biyEnNp2iS" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not defined&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
         </node>
       </node>
@@ -11402,6 +11426,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="3biyEnNFlTw" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not defined&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
         </node>
       </node>
@@ -12060,6 +12086,9 @@
       </node>
       <node concept="PMmxH" id="3biyEnOlZX3" role="3EZMnx">
         <ref role="PMmxG" node="3biyEnOlZ4O" resolve="TopdownOptions" />
+        <node concept="1QQdxR" id="vVBnaOJ2UP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3EZMnI" id="3biyEnNTmsh" role="3EZMnx">
         <node concept="2iRfu4" id="3biyEnNTmsi" role="2iSdaV" />
@@ -12209,6 +12238,9 @@
       </node>
       <node concept="PMmxH" id="3biyEnOlZu6" role="3EZMnx">
         <ref role="PMmxG" node="3biyEnOlZ4O" resolve="TopdownOptions" />
+        <node concept="1QQdxR" id="vVBnaOO5ST" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3EZMnI" id="3biyEnO45or" role="3EZMnx">
         <node concept="2iRfu4" id="3biyEnO45os" role="2iSdaV" />

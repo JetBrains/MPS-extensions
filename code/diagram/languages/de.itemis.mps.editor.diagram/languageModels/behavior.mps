@@ -9201,7 +9201,7 @@
             <node concept="2OqwBi" id="3biyEnOnbUv" role="37vLTJ">
               <node concept="13iPFW" id="3biyEnOnbCd" role="2Oq$k0" />
               <node concept="3TrcHB" id="3biyEnOnc1I" role="2OqNvi">
-                <ref role="3TsBF5" to="2qld:3biyEnOlL1B" resolve="portSortingStrategy" />
+                <ref role="3TsBF5" to="2qld:3biyEnOlL1B" resolve="lportSortingStrategy" />
               </node>
             </node>
             <node concept="2OqwBi" id="3biyEnOsc_I" role="37vLTx">

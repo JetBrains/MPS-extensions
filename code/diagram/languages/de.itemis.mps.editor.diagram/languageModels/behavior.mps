@@ -44,6 +44,7 @@
     <import index="nnri" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.force.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="zgxb" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.topdownpacking.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="u8j" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.options(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
@@ -83,6 +84,10 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
       </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
@@ -4042,18 +4047,36 @@
                 <ref role="3TsBF5" to="2qld:56jSwh$gAxq" resolve="aspectRatio" />
               </node>
             </node>
-            <node concept="2OqwBi" id="3biyEnPvjr7" role="37vLTx">
-              <node concept="2OqwBi" id="3biyEnPviNw" role="2Oq$k0">
-                <node concept="10M0yZ" id="3biyEnPviGT" role="2Oq$k0">
-                  <ref role="3cqZAo" to="gwyy:~BoxLayouterOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
-                  <ref role="1PxDUh" to="gwyy:~BoxLayouterOptions" resolve="BoxLayouterOptions" />
+            <node concept="2OqwBi" id="1SEN4_CSXDs" role="37vLTx">
+              <node concept="2OqwBi" id="1SEN4_CSUdy" role="2Oq$k0">
+                <node concept="2ShNRf" id="1SEN4_CSRAu" role="2Oq$k0">
+                  <node concept="1pGfFk" id="1SEN4_CST2W" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(double)" resolve="BigDecimal" />
+                    <node concept="2OqwBi" id="3biyEnPviNw" role="37wK5m">
+                      <node concept="10M0yZ" id="3biyEnPviGT" role="2Oq$k0">
+                        <ref role="3cqZAo" to="gwyy:~BoxLayouterOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
+                        <ref role="1PxDUh" to="gwyy:~BoxLayouterOptions" resolve="BoxLayouterOptions" />
+                      </node>
+                      <node concept="liA8E" id="3biyEnPviUm" role="2OqNvi">
+                        <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="3biyEnPviUm" role="2OqNvi">
-                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                <node concept="liA8E" id="1SEN4_CSUEN" role="2OqNvi">
+                  <ref role="37wK5l" to="xlxw:~BigDecimal.setScale(int,java.math.RoundingMode)" resolve="setScale" />
+                  <node concept="3cmrfG" id="1SEN4_CSUHS" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="Rm8GO" id="1SEN4_CSWX8" role="37wK5m">
+                    <ref role="Rm8GQ" to="xlxw:~RoundingMode.HALF_UP" resolve="HALF_UP" />
+                    <ref role="1Px2BO" to="xlxw:~RoundingMode" resolve="RoundingMode" />
+                  </node>
                 </node>
               </node>
-              <node concept="liA8E" id="3biyEnPvjZD" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              <node concept="liA8E" id="1SEN4_CSY9K" role="2OqNvi">
+                <ref role="37wK5l" to="xlxw:~BigDecimal.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -4839,26 +4862,44 @@
     <ref role="13h7C2" to="2qld:qwNnoDFt09" resolve="RandomLayoutConfig" />
     <node concept="13hLZK" id="qwNnoDFvCP" role="13h7CW">
       <node concept="3clFbS" id="qwNnoDFvCQ" role="2VODD2">
-        <node concept="3clFbF" id="qwNnoDFvKY" role="3cqZAp">
-          <node concept="37vLTI" id="qwNnoDFwNP" role="3clFbG">
-            <node concept="2OqwBi" id="qwNnoDFvXq" role="37vLTJ">
-              <node concept="13iPFW" id="qwNnoDFvKX" role="2Oq$k0" />
-              <node concept="3TrcHB" id="qwNnoDFwg3" role="2OqNvi">
+        <node concept="3clFbF" id="1SEN4_CVcTL" role="3cqZAp">
+          <node concept="37vLTI" id="1SEN4_CVcTM" role="3clFbG">
+            <node concept="2OqwBi" id="1SEN4_CVcTN" role="37vLTJ">
+              <node concept="13iPFW" id="1SEN4_CVcTO" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1SEN4_CVcTP" role="2OqNvi">
                 <ref role="3TsBF5" to="2qld:qwNnoDFtnO" resolve="aspectRatio" />
               </node>
             </node>
-            <node concept="2OqwBi" id="3biyEnPzUeR" role="37vLTx">
-              <node concept="2OqwBi" id="3biyEnPzTv_" role="2Oq$k0">
-                <node concept="10M0yZ" id="3biyEnPzTdL" role="2Oq$k0">
-                  <ref role="3cqZAo" to="gwyy:~RandomLayouterOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
-                  <ref role="1PxDUh" to="gwyy:~RandomLayouterOptions" resolve="RandomLayouterOptions" />
+            <node concept="2OqwBi" id="1SEN4_CVcTQ" role="37vLTx">
+              <node concept="2OqwBi" id="1SEN4_CVcTR" role="2Oq$k0">
+                <node concept="2ShNRf" id="1SEN4_CVcTS" role="2Oq$k0">
+                  <node concept="1pGfFk" id="1SEN4_CVcTT" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(double)" resolve="BigDecimal" />
+                    <node concept="2OqwBi" id="1SEN4_CVcTU" role="37wK5m">
+                      <node concept="10M0yZ" id="1SEN4_CVdnc" role="2Oq$k0">
+                        <ref role="3cqZAo" to="gwyy:~RandomLayouterOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
+                        <ref role="1PxDUh" to="gwyy:~RandomLayouterOptions" resolve="RandomLayouterOptions" />
+                      </node>
+                      <node concept="liA8E" id="1SEN4_CVcTW" role="2OqNvi">
+                        <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="3biyEnPzTJ0" role="2OqNvi">
-                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                <node concept="liA8E" id="1SEN4_CVcTX" role="2OqNvi">
+                  <ref role="37wK5l" to="xlxw:~BigDecimal.setScale(int,java.math.RoundingMode)" resolve="setScale" />
+                  <node concept="3cmrfG" id="1SEN4_CVcTY" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="Rm8GO" id="1SEN4_CVcTZ" role="37wK5m">
+                    <ref role="Rm8GQ" to="xlxw:~RoundingMode.HALF_UP" resolve="HALF_UP" />
+                    <ref role="1Px2BO" to="xlxw:~RoundingMode" resolve="RoundingMode" />
+                  </node>
                 </node>
               </node>
-              <node concept="liA8E" id="3biyEnPzUMb" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              <node concept="liA8E" id="1SEN4_CVcU0" role="2OqNvi">
+                <ref role="37wK5l" to="xlxw:~BigDecimal.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -4930,18 +4971,36 @@
                 <ref role="3TsBF5" to="2qld:qwNnoDNw2b" resolve="aspectRatio" />
               </node>
             </node>
-            <node concept="2OqwBi" id="3biyEnP_1I8" role="37vLTx">
-              <node concept="2OqwBi" id="3biyEnP_14T" role="2Oq$k0">
-                <node concept="10M0yZ" id="3biyEnP_0PN" role="2Oq$k0">
-                  <ref role="3cqZAo" to="7bmw:~RectPackingOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
-                  <ref role="1PxDUh" to="7bmw:~RectPackingOptions" resolve="RectPackingOptions" />
+            <node concept="2OqwBi" id="1SEN4_CVvFP" role="37vLTx">
+              <node concept="2OqwBi" id="1SEN4_CVvFQ" role="2Oq$k0">
+                <node concept="2ShNRf" id="1SEN4_CVvFR" role="2Oq$k0">
+                  <node concept="1pGfFk" id="1SEN4_CVvFS" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(double)" resolve="BigDecimal" />
+                    <node concept="2OqwBi" id="1SEN4_CVvFT" role="37wK5m">
+                      <node concept="10M0yZ" id="1SEN4_CVwiC" role="2Oq$k0">
+                        <ref role="3cqZAo" to="7bmw:~RectPackingOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
+                        <ref role="1PxDUh" to="7bmw:~RectPackingOptions" resolve="RectPackingOptions" />
+                      </node>
+                      <node concept="liA8E" id="1SEN4_CVvFV" role="2OqNvi">
+                        <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="3biyEnP_1kL" role="2OqNvi">
-                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                <node concept="liA8E" id="1SEN4_CVvFW" role="2OqNvi">
+                  <ref role="37wK5l" to="xlxw:~BigDecimal.setScale(int,java.math.RoundingMode)" resolve="setScale" />
+                  <node concept="3cmrfG" id="1SEN4_CVvFX" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="Rm8GO" id="1SEN4_CVvFY" role="37wK5m">
+                    <ref role="Rm8GQ" to="xlxw:~RoundingMode.HALF_UP" resolve="HALF_UP" />
+                    <ref role="1Px2BO" to="xlxw:~RoundingMode" resolve="RoundingMode" />
+                  </node>
                 </node>
               </node>
-              <node concept="liA8E" id="3biyEnP_2j6" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              <node concept="liA8E" id="1SEN4_CVvFZ" role="2OqNvi">
+                <ref role="37wK5l" to="xlxw:~BigDecimal.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -4993,6 +5052,57 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="1SEN4_CV_MK" role="3cqZAp">
+          <node concept="2GrKxI" id="1SEN4_CV_ML" role="2Gsz3X">
+            <property role="TrG5h" value="contentAlignment" />
+          </node>
+          <node concept="3clFbS" id="1SEN4_CV_MM" role="2LFqv$">
+            <node concept="3clFbF" id="1SEN4_CV_MN" role="3cqZAp">
+              <node concept="2OqwBi" id="1SEN4_CV_MO" role="3clFbG">
+                <node concept="2OqwBi" id="1SEN4_CV_MP" role="2Oq$k0">
+                  <node concept="13iPFW" id="1SEN4_CV_MQ" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="1SEN4_CV_MR" role="2OqNvi">
+                    <ref role="3TtcxE" to="2qld:qwNnoDNwF8" resolve="contentAlignment" />
+                  </node>
+                </node>
+                <node concept="TSZUe" id="1SEN4_CV_MS" role="2OqNvi">
+                  <node concept="2pJPEk" id="1SEN4_CV_MT" role="25WWJ7">
+                    <node concept="2pJPED" id="1SEN4_CV_MU" role="2pJPEn">
+                      <ref role="2pJxaS" to="2qld:56jSwh$g_0B" resolve="ContentAlignment" />
+                      <node concept="2pJxcG" id="1SEN4_CV_MV" role="2pJxcM">
+                        <ref role="2pJxcJ" to="2qld:56jSwh$g_6I" resolve="alignment" />
+                        <node concept="2OqwBi" id="1SEN4_CV_MW" role="28ntcv">
+                          <node concept="1XH99k" id="1SEN4_CV_MX" role="2Oq$k0">
+                            <ref role="1XH99l" to="2qld:56jSwh$g$O1" resolve="ContentAlignmentEnum" />
+                          </node>
+                          <node concept="2ViDtW" id="1SEN4_CV_MY" role="2OqNvi">
+                            <node concept="2OqwBi" id="1SEN4_CV_MZ" role="2ViJBj">
+                              <node concept="2GrUjf" id="1SEN4_CV_N0" role="2Oq$k0">
+                                <ref role="2Gs0qQ" node="1SEN4_CV_ML" resolve="contentAlignment" />
+                              </node>
+                              <node concept="liA8E" id="1SEN4_CV_N1" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1SEN4_CV_N2" role="2GsD0m">
+            <node concept="10M0yZ" id="1SEN4_CVCdi" role="2Oq$k0">
+              <ref role="3cqZAo" to="7bmw:~RectPackingOptions.CONTENT_ALIGNMENT" resolve="CONTENT_ALIGNMENT" />
+              <ref role="1PxDUh" to="7bmw:~RectPackingOptions" resolve="RectPackingOptions" />
+            </node>
+            <node concept="liA8E" id="1SEN4_CV_N4" role="2OqNvi">
+              <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
             </node>
           </node>
         </node>
@@ -5127,6 +5237,33 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1SEN4_CVWur" role="3cqZAp">
+          <node concept="37vLTI" id="1SEN4_CVYPQ" role="3clFbG">
+            <node concept="2OqwBi" id="1SEN4_CVZTr" role="37vLTx">
+              <node concept="35c_gC" id="1SEN4_CVZtu" role="2Oq$k0">
+                <ref role="35c_gD" to="2qld:56jSwh$gEVe" resolve="Padding" />
+              </node>
+              <node concept="2qgKlT" id="1SEN4_CW0fZ" role="2OqNvi">
+                <ref role="37wK5l" node="56jSwh$nT2X" resolve="fromElkPadding" />
+                <node concept="2OqwBi" id="1SEN4_CW0Fk" role="37wK5m">
+                  <node concept="10M0yZ" id="1SEN4_CW0wC" role="2Oq$k0">
+                    <ref role="3cqZAo" to="7bmw:~RectPackingOptions.PADDING" resolve="PADDING" />
+                    <ref role="1PxDUh" to="7bmw:~RectPackingOptions" resolve="RectPackingOptions" />
+                  </node>
+                  <node concept="liA8E" id="1SEN4_CW0WE" role="2OqNvi">
+                    <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1SEN4_CVXng" role="37vLTJ">
+              <node concept="13iPFW" id="1SEN4_CVWup" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1SEN4_CVYDF" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:qwNnoDNytb" resolve="padding" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="qwNnoDNKDV" role="3cqZAp">
           <node concept="37vLTI" id="qwNnoDNKPM" role="3clFbG">
             <node concept="2OqwBi" id="qwNnoDO6i7" role="37vLTx">
@@ -5247,30 +5384,6 @@
     <ref role="13h7C2" to="2qld:qwNnoEfkh3" resolve="DisCoLayoutConfig" />
     <node concept="13hLZK" id="qwNnoEftk6" role="13h7CW">
       <node concept="3clFbS" id="qwNnoEftk7" role="2VODD2">
-        <node concept="3clFbF" id="3biyEnPvMPL" role="3cqZAp">
-          <node concept="37vLTI" id="3biyEnPvO3$" role="3clFbG">
-            <node concept="2OqwBi" id="3biyEnPvPBN" role="37vLTx">
-              <node concept="2OqwBi" id="3biyEnPvORx" role="2Oq$k0">
-                <node concept="10M0yZ" id="3biyEnPvOH7" role="2Oq$k0">
-                  <ref role="3cqZAo" to="hyfx:~DisCoOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
-                  <ref role="1PxDUh" to="hyfx:~DisCoOptions" resolve="DisCoOptions" />
-                </node>
-                <node concept="liA8E" id="3biyEnPvP7L" role="2OqNvi">
-                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
-                </node>
-              </node>
-              <node concept="liA8E" id="3biyEnPvQcq" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3biyEnPvNkG" role="37vLTJ">
-              <node concept="13iPFW" id="3biyEnPvMPJ" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3biyEnPvNRJ" role="2OqNvi">
-                <ref role="3TsBF5" to="2qld:qwNnoEfkHK" resolve="aspectRatio" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="qwNnoEfu$S" role="3cqZAp">
           <node concept="37vLTI" id="qwNnoEfuJ_" role="3clFbG">
             <node concept="2OqwBi" id="qwNnoEfuAh" role="37vLTJ">
@@ -5559,18 +5672,36 @@
                 <ref role="3TsBF5" to="2qld:qwNnoEIEEL" resolve="aspectRatio" />
               </node>
             </node>
-            <node concept="2OqwBi" id="3biyEnPxxDG" role="37vLTx">
-              <node concept="2OqwBi" id="3biyEnPxwTw" role="2Oq$k0">
-                <node concept="10M0yZ" id="3biyEnPxwE0" role="2Oq$k0">
-                  <ref role="3cqZAo" to="4fog:~MrTreeOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
-                  <ref role="1PxDUh" to="4fog:~MrTreeOptions" resolve="MrTreeOptions" />
+            <node concept="2OqwBi" id="1SEN4_D1sU8" role="37vLTx">
+              <node concept="2OqwBi" id="1SEN4_D1sU9" role="2Oq$k0">
+                <node concept="2ShNRf" id="1SEN4_D1sUa" role="2Oq$k0">
+                  <node concept="1pGfFk" id="1SEN4_D1sUb" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(double)" resolve="BigDecimal" />
+                    <node concept="2OqwBi" id="1SEN4_D1sUc" role="37wK5m">
+                      <node concept="10M0yZ" id="1SEN4_D1HK2" role="2Oq$k0">
+                        <ref role="3cqZAo" to="4fog:~MrTreeOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
+                        <ref role="1PxDUh" to="4fog:~MrTreeOptions" resolve="MrTreeOptions" />
+                      </node>
+                      <node concept="liA8E" id="1SEN4_D1sUe" role="2OqNvi">
+                        <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="3biyEnPxx8Y" role="2OqNvi">
-                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                <node concept="liA8E" id="1SEN4_D1sUf" role="2OqNvi">
+                  <ref role="37wK5l" to="xlxw:~BigDecimal.setScale(int,java.math.RoundingMode)" resolve="setScale" />
+                  <node concept="3cmrfG" id="1SEN4_D1sUg" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="Rm8GO" id="1SEN4_D1sUh" role="37wK5m">
+                    <ref role="Rm8GQ" to="xlxw:~RoundingMode.HALF_UP" resolve="HALF_UP" />
+                    <ref role="1Px2BO" to="xlxw:~RoundingMode" resolve="RoundingMode" />
+                  </node>
                 </node>
               </node>
-              <node concept="liA8E" id="3biyEnPxydR" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              <node concept="liA8E" id="1SEN4_D1sUi" role="2OqNvi">
+                <ref role="37wK5l" to="xlxw:~BigDecimal.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -5781,6 +5912,33 @@
               </node>
               <node concept="liA8E" id="qwNnoEJhzP" role="2OqNvi">
                 <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1SEN4_D1YbF" role="3cqZAp">
+          <node concept="37vLTI" id="1SEN4_D1YbG" role="3clFbG">
+            <node concept="2OqwBi" id="1SEN4_D1YbH" role="37vLTJ">
+              <node concept="13iPFW" id="1SEN4_D1YbI" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1SEN4_D1Z$Q" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:qwNnoEIGBk" resolve="padding" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1SEN4_D20k8" role="37vLTx">
+              <node concept="35c_gC" id="1SEN4_D1ZPh" role="2Oq$k0">
+                <ref role="35c_gD" to="2qld:56jSwh$gEVe" resolve="Padding" />
+              </node>
+              <node concept="2qgKlT" id="1SEN4_D20Fa" role="2OqNvi">
+                <ref role="37wK5l" node="56jSwh$nT2X" resolve="fromElkPadding" />
+                <node concept="2OqwBi" id="1SEN4_D216G" role="37wK5m">
+                  <node concept="10M0yZ" id="1SEN4_D20Ww" role="2Oq$k0">
+                    <ref role="3cqZAo" to="4fog:~MrTreeOptions.PADDING" resolve="PADDING" />
+                    <ref role="1PxDUh" to="4fog:~MrTreeOptions" resolve="MrTreeOptions" />
+                  </node>
+                  <node concept="liA8E" id="1SEN4_D21oF" role="2OqNvi">
+                    <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -6528,18 +6686,36 @@
                 <ref role="3TsBF5" to="2qld:3biyEnNTgOJ" resolve="aspectRatio" />
               </node>
             </node>
-            <node concept="2OqwBi" id="3biyEnPwEpE" role="37vLTx">
-              <node concept="2OqwBi" id="3biyEnPwDDw" role="2Oq$k0">
-                <node concept="10M0yZ" id="3biyEnPwDpG" role="2Oq$k0">
-                  <ref role="3cqZAo" to="nnri:~ForceOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
-                  <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+            <node concept="2OqwBi" id="1SEN4_CTr6R" role="37vLTx">
+              <node concept="2OqwBi" id="1SEN4_CTr6S" role="2Oq$k0">
+                <node concept="2ShNRf" id="1SEN4_CTr6T" role="2Oq$k0">
+                  <node concept="1pGfFk" id="1SEN4_CTr6U" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(double)" resolve="BigDecimal" />
+                    <node concept="2OqwBi" id="1SEN4_CTr6V" role="37wK5m">
+                      <node concept="10M0yZ" id="1SEN4_CTs3d" role="2Oq$k0">
+                        <ref role="3cqZAo" to="nnri:~ForceOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
+                        <ref role="1PxDUh" to="nnri:~ForceOptions" resolve="ForceOptions" />
+                      </node>
+                      <node concept="liA8E" id="1SEN4_CTr6X" role="2OqNvi">
+                        <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="3biyEnPwDTo" role="2OqNvi">
-                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                <node concept="liA8E" id="1SEN4_CTr6Y" role="2OqNvi">
+                  <ref role="37wK5l" to="xlxw:~BigDecimal.setScale(int,java.math.RoundingMode)" resolve="setScale" />
+                  <node concept="3cmrfG" id="1SEN4_CTr6Z" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="Rm8GO" id="1SEN4_CTr70" role="37wK5m">
+                    <ref role="Rm8GQ" to="xlxw:~RoundingMode.HALF_UP" resolve="HALF_UP" />
+                    <ref role="1Px2BO" to="xlxw:~RoundingMode" resolve="RoundingMode" />
+                  </node>
                 </node>
               </node>
-              <node concept="liA8E" id="3biyEnPwF6F" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
+              <node concept="liA8E" id="1SEN4_CTr71" role="2OqNvi">
+                <ref role="37wK5l" to="xlxw:~BigDecimal.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -7540,24 +7716,42 @@
         </node>
         <node concept="3clFbF" id="3biyEnOmvoH" role="3cqZAp">
           <node concept="37vLTI" id="3biyEnOmvwK" role="3clFbG">
-            <node concept="2OqwBi" id="3biyEnOpa1b" role="37vLTx">
-              <node concept="2OqwBi" id="3biyEnOp9S2" role="2Oq$k0">
-                <node concept="10M0yZ" id="3biyEnOo5MY" role="2Oq$k0">
-                  <ref role="3cqZAo" to="u8j:~LayeredOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
-                  <ref role="1PxDUh" to="u8j:~LayeredOptions" resolve="LayeredOptions" />
-                </node>
-                <node concept="liA8E" id="3biyEnOp9ZN" role="2OqNvi">
-                  <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
-                </node>
-              </node>
-              <node concept="liA8E" id="3biyEnOpaG9" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Double.toString()" resolve="toString" />
-              </node>
-            </node>
             <node concept="2OqwBi" id="3biyEnOmvqe" role="37vLTJ">
               <node concept="13iPFW" id="3biyEnOmvoF" role="2Oq$k0" />
               <node concept="3TrcHB" id="3biyEnOmvtR" role="2OqNvi">
                 <ref role="3TsBF5" to="2qld:3biyEnOlu2d" resolve="aspectRatio" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1SEN4_CTL2Y" role="37vLTx">
+              <node concept="2OqwBi" id="1SEN4_CTL2Z" role="2Oq$k0">
+                <node concept="2ShNRf" id="1SEN4_CTL30" role="2Oq$k0">
+                  <node concept="1pGfFk" id="1SEN4_CTL31" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(double)" resolve="BigDecimal" />
+                    <node concept="2OqwBi" id="1SEN4_CTL32" role="37wK5m">
+                      <node concept="10M0yZ" id="1SEN4_CTM1E" role="2Oq$k0">
+                        <ref role="3cqZAo" to="u8j:~LayeredOptions.ASPECT_RATIO" resolve="ASPECT_RATIO" />
+                        <ref role="1PxDUh" to="u8j:~LayeredOptions" resolve="LayeredOptions" />
+                      </node>
+                      <node concept="liA8E" id="1SEN4_CTL34" role="2OqNvi">
+                        <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="1SEN4_CTL35" role="2OqNvi">
+                  <ref role="37wK5l" to="xlxw:~BigDecimal.setScale(int,java.math.RoundingMode)" resolve="setScale" />
+                  <node concept="3cmrfG" id="1SEN4_CTL36" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="Rm8GO" id="1SEN4_CTL37" role="37wK5m">
+                    <ref role="Rm8GQ" to="xlxw:~RoundingMode.HALF_UP" resolve="HALF_UP" />
+                    <ref role="1Px2BO" to="xlxw:~RoundingMode" resolve="RoundingMode" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="1SEN4_CTL38" role="2OqNvi">
+                <ref role="37wK5l" to="xlxw:~BigDecimal.toString()" resolve="toString" />
               </node>
             </node>
           </node>
@@ -8698,6 +8892,37 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1SEN4_CUqUP" role="3cqZAp">
+          <node concept="37vLTI" id="1SEN4_CUqUQ" role="3clFbG">
+            <node concept="2OqwBi" id="1SEN4_CUqUU" role="37vLTJ">
+              <node concept="13iPFW" id="1SEN4_CUqUV" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1SEN4_CUqUW" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:2C8x_a3rNsJ" resolve="hierarchyHandling" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1SEN4_CUx0L" role="37vLTx">
+              <node concept="1XH99k" id="1SEN4_CUwqF" role="2Oq$k0">
+                <ref role="1XH99l" to="2qld:64PP31wF2qp" resolve="HierarchyHandling" />
+              </node>
+              <node concept="2ViDtW" id="1SEN4_CUxnL" role="2OqNvi">
+                <node concept="2OqwBi" id="1SEN4_CUyk0" role="2ViJBj">
+                  <node concept="2OqwBi" id="1SEN4_CUx_t" role="2Oq$k0">
+                    <node concept="10M0yZ" id="1SEN4_CUvRJ" role="2Oq$k0">
+                      <ref role="3cqZAo" to="u8j:~LayeredOptions.HIERARCHY_HANDLING" resolve="HIERARCHY_HANDLING" />
+                      <ref role="1PxDUh" to="u8j:~LayeredOptions" resolve="LayeredOptions" />
+                    </node>
+                    <node concept="liA8E" id="1SEN4_CUxSj" role="2OqNvi">
+                      <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1SEN4_CUz7o" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3biyEnOmUdh" role="3cqZAp">
           <node concept="37vLTI" id="3biyEnOmUGY" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnOmUqS" role="37vLTJ">
@@ -9815,6 +10040,31 @@
       <node concept="TZ5HA" id="3biyEnOM4Lg" role="TZ5H$">
         <node concept="1dT_AC" id="3biyEnOM4Lh" role="1dT_Ay">
           <property role="1dT_AB" value="This class replicates the old hardcoded values of the LayeredLayouter that differ from the standard values" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1SEN4_Ds0UA">
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <ref role="13h7C2" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <node concept="13hLZK" id="1SEN4_Ds0UB" role="13h7CW">
+      <node concept="3clFbS" id="1SEN4_Ds0UC" role="2VODD2">
+        <node concept="3clFbF" id="1SEN4_Drh9D" role="3cqZAp">
+          <node concept="2OqwBi" id="1SEN4_Drh9E" role="3clFbG">
+            <node concept="2YIFZM" id="1SEN4_Drh9F" role="2Oq$k0">
+              <ref role="37wK5l" to="pplq:~LayoutMetaDataService.getInstance()" resolve="getInstance" />
+              <ref role="1Pybhc" to="pplq:~LayoutMetaDataService" resolve="LayoutMetaDataService" />
+            </node>
+            <node concept="liA8E" id="1SEN4_Drh9G" role="2OqNvi">
+              <ref role="37wK5l" to="pplq:~LayoutMetaDataService.registerLayoutMetaDataProviders(org.eclipse.elk.core.data.ILayoutMetaDataProvider...)" resolve="registerLayoutMetaDataProviders" />
+              <node concept="2ShNRf" id="1SEN4_Drh9H" role="37wK5m">
+                <node concept="1pGfFk" id="1SEN4_Drh9I" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="gwyy:~CoreOptions.&lt;init&gt;()" resolve="CoreOptions" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

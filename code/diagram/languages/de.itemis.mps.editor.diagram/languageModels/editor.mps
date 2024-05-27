@@ -12662,8 +12662,8 @@
             </node>
           </node>
           <node concept="3F0A7n" id="3biyEnNp280" role="3EZMnx">
-            <property role="1$x2rV" value="&lt;not defined&gt;" />
             <property role="1O74Pk" value="true" />
+            <property role="1$x2rV" value="null" />
             <ref role="1NtTu8" to="2qld:3biyEnNoYmp" resolve="rootNodeForSpanningTreeConstruction" />
           </node>
         </node>
@@ -14200,6 +14200,8 @@
           </node>
         </node>
         <node concept="3F0A7n" id="3biyEnNTmsr" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;not applicable&gt;" />
+          <property role="1O74Pk" value="true" />
           <ref role="1NtTu8" to="2qld:3biyEnNTkvp" resolve="topdownScaleFactor" />
         </node>
       </node>

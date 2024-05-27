@@ -2218,7 +2218,6 @@
     <node concept="25R33" id="2C8x_a2Qx7V" role="25R1y">
       <property role="3tVfz5" value="3028818438347428347" />
       <property role="TrG5h" value="UNDEFINED" />
-      <property role="1L1pqM" value="NO DIRECTION" />
     </node>
     <node concept="25R33" id="7WTFIQIcYqf" role="25R1y">
       <property role="TrG5h" value="RIGHT" />
@@ -2364,7 +2363,11 @@
     <property role="3F6X1D" value="7004738099690088089" />
     <property role="3GE5qa" value="layoutAlgorithm.config" />
     <property role="TrG5h" value="HierarchyHandling" />
-    <ref role="1H5jkz" node="64PP31wF2sd" resolve="SEPARATE_CHILDREN" />
+    <ref role="1H5jkz" node="1SEN4_CUhZX" resolve="INHERIT" />
+    <node concept="25R33" id="1SEN4_CUhZX" role="25R1y">
+      <property role="3tVfz5" value="2173774385824473085" />
+      <property role="TrG5h" value="INHERIT" />
+    </node>
     <node concept="25R33" id="64PP31wF2sd" role="25R1y">
       <property role="3tVfz5" value="7004738099690088205" />
       <property role="TrG5h" value="SEPARATE_CHILDREN" />

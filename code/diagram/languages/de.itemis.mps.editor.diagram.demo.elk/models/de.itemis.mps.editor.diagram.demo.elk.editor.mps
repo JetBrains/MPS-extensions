@@ -105,6 +105,9 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1224575136086" name="jetbrains.mps.baseLanguage.structure.EnumValueOfExpression" flags="nn" index="unr1b">
         <reference id="1224575174120" name="enumClass" index="un$jP" />
@@ -119,6 +122,9 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
@@ -141,6 +147,7 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -5290,16 +5297,57 @@
           <ref role="3tD7wE" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
           <node concept="3sjG9q" id="3biyEnNvxpI" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvxpK" role="2VODD2">
-              <node concept="3clFbF" id="3biyEnNvHP7" role="3cqZAp">
-                <node concept="2OqwBi" id="3biyEnNvIb5" role="3clFbG">
-                  <node concept="2OqwBi" id="3biyEnNvHXA" role="2Oq$k0">
-                    <node concept="pncrf" id="3biyEnNvHP6" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="3biyEnNvI74" role="2OqNvi">
-                      <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+              <node concept="3clFbJ" id="1SEN4_Bpw4q" role="3cqZAp">
+                <node concept="3clFbS" id="1SEN4_Bpw4s" role="3clFbx">
+                  <node concept="3cpWs6" id="1SEN4_BpwPf" role="3cqZAp">
+                    <node concept="2OqwBi" id="1SEN4_Bpxid" role="3cqZAk">
+                      <node concept="2OqwBi" id="1SEN4_BpwUo" role="2Oq$k0">
+                        <node concept="2OqwBi" id="1SEN4_BpwQs" role="2Oq$k0">
+                          <node concept="2OqwBi" id="1SEN4_BpwQt" role="2Oq$k0">
+                            <node concept="pncrf" id="1SEN4_BpwQu" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="1SEN4_BpwQv" role="2OqNvi">
+                              <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="1SEN4_BpwQw" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1SEN4_BpwYb" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1SEN4_BpxPL" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="1SEN4_BpxPO" role="37wK5m">
+                          <property role="Xl_RC" value="_" />
+                        </node>
+                        <node concept="Xl_RD" id="1SEN4_BpxUX" role="37wK5m">
+                          <property role="Xl_RC" value="." />
+                        </node>
+                      </node>
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="3biyEnNvIg7" role="2OqNvi">
-                    <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+                </node>
+                <node concept="2OqwBi" id="1SEN4_BpwD7" role="3clFbw">
+                  <node concept="2OqwBi" id="3biyEnNvIb5" role="2Oq$k0">
+                    <node concept="2OqwBi" id="3biyEnNvHXA" role="2Oq$k0">
+                      <node concept="pncrf" id="3biyEnNvHP6" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3biyEnNvI74" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNvzww" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="3biyEnNvIg7" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="1SEN4_BpwNi" role="2OqNvi" />
+                </node>
+                <node concept="9aQIb" id="1SEN4_Bpy6Q" role="9aQIa">
+                  <node concept="3clFbS" id="1SEN4_Bpy6R" role="9aQI4">
+                    <node concept="3cpWs6" id="1SEN4_BpyaF" role="3cqZAp">
+                      <node concept="10Nm6u" id="1SEN4_Bpyd1" role="3cqZAk" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -5385,16 +5433,57 @@
           <ref role="3tD7wE" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
           <node concept="3sjG9q" id="vVBnaNFQ9Z" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNFQa1" role="2VODD2">
-              <node concept="3clFbF" id="vVBnaNFUIr" role="3cqZAp">
-                <node concept="2OqwBi" id="vVBnaNFVdc" role="3clFbG">
-                  <node concept="2OqwBi" id="vVBnaNFV0x" role="2Oq$k0">
-                    <node concept="pncrf" id="vVBnaNFUIq" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="vVBnaNFV9b" role="2OqNvi">
-                      <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+              <node concept="3clFbJ" id="1SEN4_Bo313" role="3cqZAp">
+                <node concept="3clFbS" id="1SEN4_Bo315" role="3clFbx">
+                  <node concept="3cpWs6" id="1SEN4_Bo3pd" role="3cqZAp">
+                    <node concept="2OqwBi" id="1SEN4_Bo2MV" role="3cqZAk">
+                      <node concept="2OqwBi" id="1SEN4_Bo2H6" role="2Oq$k0">
+                        <node concept="2OqwBi" id="vVBnaNFVdc" role="2Oq$k0">
+                          <node concept="2OqwBi" id="vVBnaNFV0x" role="2Oq$k0">
+                            <node concept="pncrf" id="vVBnaNFUIq" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="vVBnaNFV9b" role="2OqNvi">
+                              <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="vVBnaNFVhq" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1SEN4_Bo2LJ" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1SEN4_Bo3AZ" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="1SEN4_Bo3B2" role="37wK5m">
+                          <property role="Xl_RC" value="_" />
+                        </node>
+                        <node concept="Xl_RD" id="1SEN4_Bo3In" role="37wK5m">
+                          <property role="Xl_RC" value="." />
+                        </node>
+                      </node>
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="vVBnaNFVhq" role="2OqNvi">
-                    <ref role="3TsBF5" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+                </node>
+                <node concept="2OqwBi" id="1SEN4_Bo3aC" role="3clFbw">
+                  <node concept="2OqwBi" id="1SEN4_Bo34X" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1SEN4_Bo34Y" role="2Oq$k0">
+                      <node concept="pncrf" id="1SEN4_Bo34Z" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="1SEN4_Bo350" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:vVBnaNFP6_" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="1SEN4_Bo351" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="1SEN4_Bo3eD" role="2OqNvi" />
+                </node>
+                <node concept="9aQIb" id="1SEN4_Bo3hc" role="9aQIa">
+                  <node concept="3clFbS" id="1SEN4_Bo3hd" role="9aQI4">
+                    <node concept="3cpWs6" id="1SEN4_Bo3k8" role="3cqZAp">
+                      <node concept="10Nm6u" id="1SEN4_Bo3kE" role="3cqZAk" />
+                    </node>
                   </node>
                 </node>
               </node>

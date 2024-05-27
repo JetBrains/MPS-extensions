@@ -3856,7 +3856,7 @@
     <node concept="1TJgyi" id="3biyEnNoZ2M" role="1TKVEl">
       <property role="IQ2nx" value="3662141892363284658" />
       <property role="TrG5h" value="underlyingLayoutAlgorithm" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="vVBnaORP31" resolve="Algorithm" />
     </node>
     <node concept="1sEMCm" id="3biyEnNoWFg" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
@@ -3961,7 +3961,7 @@
     <node concept="1TJgyi" id="3biyEnNFiQb" role="1TKVEl">
       <property role="IQ2nx" value="3662141892368084363" />
       <property role="TrG5h" value="underlayingAlgorithm" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="vVBnaORP31" resolve="Algorithm" />
     </node>
     <node concept="1TJgyi" id="3biyEnNFj3F" role="1TKVEl">
       <property role="IQ2nx" value="3662141892368085227" />
@@ -4747,6 +4747,76 @@
     <property role="FLfZY" value="-?[0-9]+(\\.[0-9]*([Ee][\\+\\-]?[0-9]+)?[dD]?)?" />
     <property role="3F6X1D" value="1113006251687" />
     <property role="3GE5qa" value="layoutAlgorithm.config" />
+  </node>
+  <node concept="25R3W" id="vVBnaORP31">
+    <property role="3F6X1D" value="575226493406236865" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <property role="TrG5h" value="Algorithm" />
+    <node concept="25R33" id="vVBnaORP32" role="25R1y">
+      <property role="3tVfz5" value="575226493406236866" />
+      <property role="TrG5h" value="org_eclipse_elk_box" />
+      <property role="1L1pqM" value="box" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2lWJ" role="25R1y">
+      <property role="3tVfz5" value="3094290469443165999" />
+      <property role="TrG5h" value="org_eclipse_elk_disco" />
+      <property role="1L1pqM" value="disconnected graph" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2lZf" role="25R1y">
+      <property role="3tVfz5" value="3094290469443166159" />
+      <property role="TrG5h" value="org_eclipse_elk_fixed" />
+      <property role="1L1pqM" value="fixed" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2lZj" role="25R1y">
+      <property role="3tVfz5" value="3094290469443166163" />
+      <property role="TrG5h" value="org_eclipse_elk_force" />
+      <property role="1L1pqM" value="force" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2lZo" role="25R1y">
+      <property role="3tVfz5" value="3094290469443166168" />
+      <property role="TrG5h" value="org_eclipse_elk_layered" />
+      <property role="1L1pqM" value="layered" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2lZu" role="25R1y">
+      <property role="3tVfz5" value="3094290469443166174" />
+      <property role="TrG5h" value="org_eclipse_elk_mrtree" />
+      <property role="1L1pqM" value="tree" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2mh_" role="25R1y">
+      <property role="3tVfz5" value="3094290469443167333" />
+      <property role="TrG5h" value="org_eclipse_elk_radial" />
+      <property role="1L1pqM" value="radial" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2lZ_" role="25R1y">
+      <property role="3tVfz5" value="3094290469443166181" />
+      <property role="TrG5h" value="org_eclipse_elk_random" />
+      <property role="1L1pqM" value="random" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2lZH" role="25R1y">
+      <property role="3tVfz5" value="3094290469443166189" />
+      <property role="TrG5h" value="org_eclipse_elk_rectpacking" />
+      <property role="1L1pqM" value="rectangle packing" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2lZQ" role="25R1y">
+      <property role="3tVfz5" value="3094290469443166198" />
+      <property role="1L1pqM" value="SPOrE compaction" />
+      <property role="TrG5h" value="org_eclipse_elk_sporeCompaction" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2mgg" role="25R1y">
+      <property role="3tVfz5" value="3094290469443167248" />
+      <property role="1L1pqM" value="SPOrE overlap removal" />
+      <property role="TrG5h" value="org_eclipse_elk_sporeOverlap" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2mgr" role="25R1y">
+      <property role="3tVfz5" value="3094290469443167259" />
+      <property role="TrG5h" value="org_eclipse_elk_stress" />
+      <property role="1L1pqM" value="stress" />
+    </node>
+    <node concept="25R33" id="2FL8cAB2mgB" role="25R1y">
+      <property role="3tVfz5" value="3094290469443167271" />
+      <property role="1L1pqM" value="top-down" />
+      <property role="TrG5h" value="org_eclipse_elk_topdownpacking" />
+    </node>
   </node>
 </model>
 

@@ -22027,11 +22027,27 @@
                 <node concept="3zFVjK" id="3biyEnNqnJw" role="3zH0cK">
                   <node concept="3clFbS" id="3biyEnNqnJx" role="2VODD2">
                     <node concept="3clFbF" id="3biyEnNqnJB" role="3cqZAp">
-                      <node concept="2OqwBi" id="3biyEnNqnJy" role="3clFbG">
-                        <node concept="3TrcHB" id="3biyEnNqnJ_" role="2OqNvi">
-                          <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+                      <node concept="2OqwBi" id="1SEN4_Bp45Y" role="3clFbG">
+                        <node concept="2OqwBi" id="1SEN4_Bp3mj" role="2Oq$k0">
+                          <node concept="2OqwBi" id="3biyEnNqnJy" role="2Oq$k0">
+                            <node concept="3TrcHB" id="3biyEnNqnJ_" role="2OqNvi">
+                              <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+                            </node>
+                            <node concept="30H73N" id="3biyEnNqnJA" role="2Oq$k0" />
+                          </node>
+                          <node concept="liA8E" id="1SEN4_Bp3x6" role="2OqNvi">
+                            <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                          </node>
                         </node>
-                        <node concept="30H73N" id="3biyEnNqnJA" role="2Oq$k0" />
+                        <node concept="liA8E" id="1SEN4_Bp4JU" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                          <node concept="Xl_RD" id="1SEN4_Bp4JY" role="37wK5m">
+                            <property role="Xl_RC" value="_" />
+                          </node>
+                          <node concept="Xl_RD" id="1SEN4_Bp4Ot" role="37wK5m">
+                            <property role="Xl_RC" value="." />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -22052,7 +22068,7 @@
                       <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
                     </node>
                   </node>
-                  <node concept="17RvpY" id="3biyEnNqoFV" role="2OqNvi" />
+                  <node concept="3x8VRR" id="1SEN4_Bp3CT" role="2OqNvi" />
                 </node>
               </node>
             </node>
@@ -22215,11 +22231,27 @@
                 <node concept="3zFVjK" id="3biyEnNFRQT" role="3zH0cK">
                   <node concept="3clFbS" id="3biyEnNFRQU" role="2VODD2">
                     <node concept="3clFbF" id="3biyEnNFRR0" role="3cqZAp">
-                      <node concept="2OqwBi" id="3biyEnNFRQV" role="3clFbG">
-                        <node concept="3TrcHB" id="3biyEnNFRQY" role="2OqNvi">
-                          <ref role="3TsBF5" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+                      <node concept="2OqwBi" id="1SEN4_BnWcg" role="3clFbG">
+                        <node concept="2OqwBi" id="1SEN4_BnVnd" role="2Oq$k0">
+                          <node concept="2OqwBi" id="3biyEnNFRQV" role="2Oq$k0">
+                            <node concept="3TrcHB" id="3biyEnNFRQY" role="2OqNvi">
+                              <ref role="3TsBF5" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+                            </node>
+                            <node concept="30H73N" id="3biyEnNFRQZ" role="2Oq$k0" />
+                          </node>
+                          <node concept="liA8E" id="1SEN4_BnVKa" role="2OqNvi">
+                            <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                          </node>
                         </node>
-                        <node concept="30H73N" id="3biyEnNFRQZ" role="2Oq$k0" />
+                        <node concept="liA8E" id="1SEN4_BnWSj" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                          <node concept="Xl_RD" id="1SEN4_BnZHF" role="37wK5m">
+                            <property role="Xl_RC" value="_" />
+                          </node>
+                          <node concept="Xl_RD" id="1SEN4_Bo1eq" role="37wK5m">
+                            <property role="Xl_RC" value="." />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -22238,7 +22270,7 @@
                       </node>
                       <node concept="30H73N" id="3biyEnNFS4h" role="2Oq$k0" />
                     </node>
-                    <node concept="17RvpY" id="3biyEnNFSLC" role="2OqNvi" />
+                    <node concept="3x8VRR" id="1SEN4_Bo1D0" role="2OqNvi" />
                   </node>
                 </node>
               </node>

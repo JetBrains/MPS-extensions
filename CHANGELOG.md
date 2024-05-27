@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## May 2024
 
+### Added
+
+- *de.itemis.mps.editor.diagram*: Support for 10 new layout algorithms was added. Most of the options of the ELK layouter (150 options) can be customized through style class items. All options can also be set in the inspector of the chosen layout algorithm in the diagram cell.
+
 ### Fixed
 
 - *de.itemis.mps.editor.celllayout.runtime*: A bug with overlapping cells when mixing indent and horizontal/vertical layouts was fixed.
@@ -21,15 +25,6 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Added
 
 - A new language *de.itemis.mps.changelog* was added to describe *CHANGELOG.md* files. This file is generated with this language.
-- com.mbeddr.mpsutil.projectview: Class reloading of project views now works.
-- com.mbeddr.mpsutil.editor.querylist: Query lists now support model checking for non-dynamically generated nodes and `collapse by default` is generated correctly.
-- com.mbeddr.mpsutil.editor.querylist: The element's concept is not automatically forced anymore but is now rather a suggestion.
-- de.slisson.mps.reflection: To fix the compilatation issues, the language is now generated earlier in the generation plan.
-- de.slisson.mps.richtext: The duplicate action that overwrites the MPS action was added back and now duplicating lines should work again.
-
-### Added
-
-- com.mbeddr.mpsutil.editor.querylist: the `insert new` and `delete element` blocks now have an `editorContext` parameter.
 
 ## March 2024
 
@@ -41,29 +36,8 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *com.mbeddr.mpsutil.editor.querylist*: Returning null in the query shows the empty cell again (regression).
-- de.slisson.mps.richtext: Various small issues were fixed (e.g. NullPointerExceptions, usability problems).
-- de.slisson.mps.editor.multiline: Selections are now correctly painted.
-- com.mbeddr.mpsutil.editor.querylist: return null in the query shows the empty cell again (regression).
-
-### Changed
-
-- de.slisson.mps.richtext: Words are automatically insert as the default concept for IWord.
-- de.slisson.mps.richtext: The faulty duplicate line action was removed.
-
-### Removed
-
-- com.mbeddr.mpsutil.projectview: The broken parameter `project` from the `Is Default` condition was removed. Use the variable `mpsProject` instead. 
 
 ## February 2024
-
-### Added
-
-- com.mbeddr.mpsutil.blutil: A new ifInstanceOf statement was added that supports else if and else branches.
-
-### Fixed
-
-- de.itemis.mps.editor.diagram: Avoid unnecessary layouting of sub-diagrams.
-- de.itemis.mps.editor.diagram: A layouting bug related to ports was fixed.
 
 ### Changed
 

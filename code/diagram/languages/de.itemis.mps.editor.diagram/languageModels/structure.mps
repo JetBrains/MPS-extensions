@@ -3515,7 +3515,7 @@
     <node concept="1TJgyi" id="qwNnoEflx2" role="1TKVEl">
       <property role="IQ2nx" value="477607467899770946" />
       <property role="TrG5h" value="componentLayoutAlgorithm" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="vVBnaORP31" resolve="Algorithm" />
     </node>
     <node concept="1TJgyi" id="qwNnoEflAO" role="1TKVEl">
       <property role="IQ2nx" value="477607467899771316" />

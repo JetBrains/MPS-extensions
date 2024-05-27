@@ -4209,18 +4209,55 @@
           <ref role="3tD7wE" to="88j9:7L7aZ7jSbyR" resolve="disco-connected-components-layout-algorithm" />
           <node concept="3sjG9q" id="qwNnoEldUM" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEldUO" role="2VODD2">
-              <node concept="3clFbF" id="qwNnoEljnF" role="3cqZAp">
-                <node concept="2OqwBi" id="qwNnoElkgV" role="3clFbG">
-                  <node concept="2OqwBi" id="qwNnoEljEo" role="2Oq$k0">
-                    <node concept="pncrf" id="qwNnoEljnE" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="qwNnoElk3y" role="2OqNvi">
-                      <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+              <node concept="3clFbJ" id="1SEN4_Ce4Cs" role="3cqZAp">
+                <node concept="3clFbS" id="1SEN4_Ce4Cu" role="3clFbx">
+                  <node concept="3cpWs6" id="1SEN4_Ce4OS" role="3cqZAp">
+                    <node concept="2OqwBi" id="1SEN4_Ce4Zd" role="3cqZAk">
+                      <node concept="2OqwBi" id="1SEN4_Ce4U3" role="2Oq$k0">
+                        <node concept="2OqwBi" id="1SEN4_Ce4Pm" role="2Oq$k0">
+                          <node concept="2OqwBi" id="1SEN4_Ce4Pn" role="2Oq$k0">
+                            <node concept="pncrf" id="1SEN4_Ce4Po" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="1SEN4_Ce4Pp" role="2OqNvi">
+                              <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="1SEN4_Ce4Pq" role="2OqNvi">
+                            <ref role="3TsBF5" to="2qld:qwNnoEflx2" resolve="componentLayoutAlgorithm" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1SEN4_Ce4XQ" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1SEN4_Ce5ac" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                        <node concept="Xl_RD" id="1SEN4_Ce5jD" role="37wK5m">
+                          <property role="Xl_RC" value="_" />
+                        </node>
+                        <node concept="Xl_RD" id="1SEN4_Ce5qf" role="37wK5m">
+                          <property role="Xl_RC" value="." />
+                        </node>
+                      </node>
                     </node>
                   </node>
-                  <node concept="3TrcHB" id="qwNnoElk_B" role="2OqNvi">
-                    <ref role="3TsBF5" to="2qld:qwNnoEflx2" resolve="componentLayoutAlgorithm" />
-                  </node>
                 </node>
+                <node concept="2OqwBi" id="1SEN4_Ce4Ka" role="3clFbw">
+                  <node concept="2OqwBi" id="qwNnoElkgV" role="2Oq$k0">
+                    <node concept="2OqwBi" id="qwNnoEljEo" role="2Oq$k0">
+                      <node concept="pncrf" id="qwNnoEljnE" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="qwNnoElk3y" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:qwNnoElcHc" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="qwNnoElk_B" role="2OqNvi">
+                      <ref role="3TsBF5" to="2qld:qwNnoEflx2" resolve="componentLayoutAlgorithm" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="1SEN4_Ce4Nf" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="3cpWs6" id="1SEN4_Ce5zN" role="3cqZAp">
+                <node concept="10Nm6u" id="1SEN4_Ce5_5" role="3cqZAk" />
               </node>
             </node>
           </node>

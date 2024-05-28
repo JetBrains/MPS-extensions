@@ -8,7 +8,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
-- *de.itemis.mps.editor.diagram*: Support for 10 new layout algorithms was added. Most of the options of the ELK layouter (150 options) can be customized through style class items. All options can also be set in the inspector of the chosen layout algorithm in the diagram cell.
+- *de.itemis.mps.editor.diagram*: Support for 10 new layout algorithms was added. Most of the options of the ELK layouter (150 options) can be customized through style class items. All options can also be set in the inspector of the chosen layout algorithm in the diagram cell. There is now also a new option *connect boxes without dummy ports* to not create dummy ports anymore when connecting 2 boxes. This avoids merging of edges from the same ports (hyperedges).
 
 ### Fixed
 

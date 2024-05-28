@@ -189,6 +189,7 @@
       </concept>
       <concept id="7599475316691696111" name="de.itemis.mps.editor.diagram.structure.TopDownLayoutAlgorithm" flags="ng" index="3HNHA" />
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
+        <property id="1526659674582244782" name="connectBoxesWithoutDummyPort" index="2Tj9lc" />
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
       </concept>
       <concept id="3155126767689025629" name="de.itemis.mps.editor.diagram.structure.Content_Childs" flags="ng" index="aDKH9">
@@ -267,6 +268,7 @@
       </node>
       <node concept="3F0ifn" id="37WsXDFNFC6" role="3EZMnx" />
       <node concept="27vDVx" id="4PrkOTvmRJn" role="3EZMnx">
+        <property role="2Tj9lc" value="true" />
         <node concept="aDKH9" id="37WsXDFKcfy" role="aCds2">
           <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
         </node>

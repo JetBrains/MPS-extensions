@@ -838,6 +838,19 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
+          <node concept="3EZMnI" id="1kJMeaGoQxt" role="3EZMnx">
+            <node concept="2iRfu4" id="1kJMeaGoQxu" role="2iSdaV" />
+            <node concept="3F0ifn" id="1kJMeaGoQxv" role="3EZMnx">
+              <property role="3F0ifm" value="connect boxes without dummy ports" />
+            </node>
+            <node concept="3F0A7n" id="1kJMeaGoR7n" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:1kJMeaGoPQI" resolve="connectBoxesWithoutDummyPort" />
+            </node>
+            <node concept="VPM3Z" id="1kJMeaGoQxy" role="3F10Kt" />
+            <node concept="VPXOz" id="1kJMeaGoQxz" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
         </node>
         <node concept="2iRfu4" id="5qgNcfDnGw9" role="2iSdaV" />
         <node concept="3F0ifn" id="5qgNcfDnGxf" role="3EZMnx" />

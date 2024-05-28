@@ -117,6 +117,11 @@
       <property role="TrG5h" value="saveSubDiagramLayoutInDiagram" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="1kJMeaGoPQI" role="1TKVEl">
+      <property role="IQ2nx" value="1526659674582244782" />
+      <property role="TrG5h" value="connectBoxesWithoutDummyPort" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="7vufT$lixNl" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paletteFolder" />

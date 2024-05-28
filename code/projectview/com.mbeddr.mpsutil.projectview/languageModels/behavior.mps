@@ -1106,9 +1106,6 @@
         <node concept="3cpWs6" id="16TtUNxULEJ" role="3cqZAp">
           <node concept="2ShNRf" id="16TtUNxULEK" role="3cqZAk">
             <node concept="Tc6Ow" id="16TtUNxULEL" role="2ShVmc">
-              <node concept="35c_gC" id="16TtUNxULEM" role="HW$Y0">
-                <ref role="35c_gD" to="d04j:16TtUNxULL$" resolve="ProjectParameter" />
-              </node>
               <node concept="3bZ5Sz" id="16TtUNxULEO" role="HW$YZ">
                 <ref role="3bZ5Sy" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
               </node>

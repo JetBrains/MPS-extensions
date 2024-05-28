@@ -9,6 +9,7 @@
     <facet type="java" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
+    <facet type="tests" />
   </facets>
   <dependencies>
     <dependency reexport="false">c527d4ce-1a24-433b-b1ec-929a89de103a(de.itemis.model.merge.simple.demo.annotated)</dependency>

@@ -660,7 +660,7 @@
           <node concept="3fqX7Q" id="6mIiWXQg8q5" role="3clFbw">
             <node concept="2OqwBi" id="6mIiWXQg8q6" role="3fr31v">
               <node concept="liA8E" id="6mIiWXQg8q8" role="2OqNvi">
-                <ref role="37wK5l" to="z60i:~Component.isFocusOwner()" resolve="isFocusOwner" />
+                <ref role="37wK5l" to="exr9:~EditorComponent.isFocusOwner()" resolve="isFocusOwner" />
               </node>
               <node concept="1rXfSq" id="1LTChO9ivR4" role="2Oq$k0">
                 <ref role="37wK5l" node="1LTChO9ip4L" resolve="getEditorComponent" />

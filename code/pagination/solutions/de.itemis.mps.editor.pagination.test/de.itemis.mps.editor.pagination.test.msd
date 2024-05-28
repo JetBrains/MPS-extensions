@@ -9,6 +9,7 @@
     <facet type="java" languageLevel="JAVA_10" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
+    <facet type="tests" />
   </facets>
   <dependencies>
     <dependency reexport="false">b8eca104-6d07-43d6-9bd7-4c8692c82707(de.itemis.mps.editor.pagination.runtime)</dependency>

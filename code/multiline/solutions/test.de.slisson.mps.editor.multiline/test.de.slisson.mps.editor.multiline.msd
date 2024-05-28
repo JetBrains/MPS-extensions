@@ -6,9 +6,10 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
+    <facet type="tests" />
   </facets>
   <dependencies>
     <dependency reexport="false">26a9201d-e70b-4755-acd6-40baf7a63b3a(de.slisson.mps.editor.multiline.demolang)</dependency>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:3014a312-a1f1-41c3-9ecc-5491810305c3(de.q60.mps.shadowmodels.runtime.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
@@ -662,6 +663,13 @@
         </node>
         <node concept="3clFbF" id="1Tx15Ze5LT" role="3cqZAp">
           <node concept="2OqwBi" id="1Tx15Ze84M" role="3clFbG">
+            <node concept="liA8E" id="1Tx15Ze8xS" role="2OqNvi">
+              <ref role="37wK5l" to="pa15:~PersistenceRegistry.addFindUsagesParticipant(org.jetbrains.mps.openapi.persistence.FindUsagesParticipant)" resolve="addFindUsagesParticipant" />
+              <node concept="10M0yZ" id="1Tx15Ze8I6" role="37wK5m">
+                <ref role="3cqZAo" node="TC$M5wTTeK" resolve="INSTANCE" />
+                <ref role="1PxDUh" node="TC$M5wTwai" resolve="ShadowModelFindUsagesParticipant" />
+              </node>
+            </node>
             <node concept="2OqwBi" id="1Tx15Ze74O" role="2Oq$k0">
               <node concept="2OqwBi" id="1Tx15Ze6ge" role="2Oq$k0">
                 <node concept="2YIFZM" id="1Tx15Ze5Sb" role="2Oq$k0">
@@ -677,13 +685,6 @@
                 <node concept="3VsKOn" id="1Tx15Ze7FQ" role="37wK5m">
                   <ref role="3VsUkX" to="pa15:~PersistenceRegistry" resolve="PersistenceRegistry" />
                 </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="1Tx15Ze8xS" role="2OqNvi">
-              <ref role="37wK5l" to="pa15:~PersistenceRegistry.addFindUsagesParticipant(org.jetbrains.mps.openapi.persistence.FindUsagesParticipant)" resolve="addFindUsagesParticipant" />
-              <node concept="10M0yZ" id="1Tx15Ze8I6" role="37wK5m">
-                <ref role="3cqZAo" node="TC$M5wTTeK" resolve="INSTANCE" />
-                <ref role="1PxDUh" node="TC$M5wTwai" resolve="ShadowModelFindUsagesParticipant" />
               </node>
             </node>
           </node>

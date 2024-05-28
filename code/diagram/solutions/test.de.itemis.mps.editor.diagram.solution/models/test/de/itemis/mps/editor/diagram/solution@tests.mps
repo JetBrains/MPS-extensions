@@ -57,6 +57,7 @@
       </concept>
       <concept id="5773579205429866751" name="jetbrains.mps.lang.test.structure.EditorComponentExpression" flags="nn" index="369mXd" />
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -8962,6 +8963,7 @@
   </node>
   <node concept="1lH9Xt" id="6MGkAko5nZ8">
     <property role="TrG5h" value="DiagramWithoutLayoutInfo" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1LZb2c" id="6MGkAko5nZD" role="1SL9yI">
       <property role="TrG5h" value="layout_info_empty" />
       <node concept="3cqZAl" id="6MGkAko5nZE" role="3clF45" />

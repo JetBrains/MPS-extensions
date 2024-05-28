@@ -1,11 +1,14 @@
 plugins {
-    id 'de.itemis.mps.gradle.common' version '1.13.+'
+    id 'de.itemis.mps.gradle.common' version '1.24.0.+'
     id "com.github.breadmoirai.github-release" version "2.4.1"
     id 'maven-publish'
     id 'base'
+    id 'de.itemis.mps.gradle.launcher' version '2.3.0.+'
 }
 
 import de.itemis.mps.gradle.*
+import de.itemis.mps.gradle.tasks.MpsMigrate
+import de.itemis.mps.gradle.downloadJBR.DownloadJbrForPlatform
 import groovy.xml.XmlSlurper
 
 import java.time.LocalDateTime
@@ -56,13 +59,14 @@ if (ciBuild) {
     if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber)
+        def isSnapshot = !(branch.equals("master"))
+        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + (isSnapshot ? "-SNAPSHOT" : "")
     }
 
     println "##teamcity[buildNumber '${version}']"
 } else {
-    println "Local build detected, version will be SNAPSHOT"
     version = ext.mpsMajor + appendOpt(ext.mpsMinor , '.') + "-SNAPSHOT"
+    println "Local build detected, version will be $version"
 }
 
 def userHome = System.properties['user.home']
@@ -499,4 +503,72 @@ githubRelease {
 
 tasks.named('githubRelease').configure {
     dependsOn packageExtensions
+}
+
+configurations {
+    rerunMigrationsBackend
+}
+
+dependencies {
+    rerunMigrationsBackend("de.itemis.mps.build-backends:rerun-migrations:0.0.3.+")
+}
+
+def usedPluginRoots = [
+        new File(mpsHomeDir, 'plugins/mps-build'),
+        new File(mpsHomeDir, 'plugins/mps-console'),
+        new File(mpsHomeDir, 'plugins/mps-tooltips'),
+        new File(mpsHomeDir, 'plugins/mps-vcs'),
+        new File(mpsHomeDir, 'plugins/mps-git4idea'),
+]
+
+tasks.register('migrate', MpsMigrate) {
+    dependsOn(resolveMps, 'downloadJbr', 'build_languages', 'build_tests')
+    javaExecutable = layout.file(
+            tasks.named('downloadJbr', DownloadJbrForPlatform).map { it.javaExecutable })
+
+    haltOnPrecheckFailure = true
+    haltOnDependencyError = true
+
+    mpsHome = mpsHomeDir
+
+    projectDirectories.from('code')
+
+    pluginRoots.from(usedPluginRoots)
+
+    maxHeapSize = '4G'
+}
+
+
+tasks.register('rerunMigrations', JavaExec) {
+    mustRunAfter('migrate')
+    mustRunAfter('build_languages', 'build_tests')
+
+    dependsOn(resolveMps, 'downloadJbr')
+    mpsBackendLauncher.builder()
+            .withMpsHome(mpsHomeDir)
+            .withJavaExecutable(tasks.named('downloadJbr', DownloadJbrForPlatform).map { it.javaExecutable.path })
+            .configure(it)
+
+    classpath(fileTree(mpsHomeDir) {
+        include("lib/**/*.jar")
+    })
+    classpath(configurations.rerunMigrationsBackend)
+    mainClass = 'de.itemis.mps.gradle.migrate.MainKt'
+
+    args("--project=${file('code')}")
+
+    // rerun-migrations needs its own jar added as a plugin
+    argumentProviders.add(new CommandLineArgumentProvider() {
+        @Override
+        Iterable<String> asArguments() {
+            def config = configurations.rerunMigrationsBackend
+
+            ["--plugin=de.itemis.mps.buildbackends.rerun-migrations::" +
+                     configurations.rerunMigrationsBackend.files(config.dependencies.first()).first()]
+        }
+    })
+
+    args(usedPluginRoots.collect { "--plugin-root=$it".toString() })
+
+    maxHeapSize = "4G"
 }

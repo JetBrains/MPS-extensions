@@ -203,6 +203,7 @@
         <child id="8276990574895933173" name="catchBody" index="1zc67A" />
         <child id="8276990574895933172" name="throwable" index="1zc67B" />
       </concept>
+      <concept id="7024111702304501416" name="jetbrains.mps.baseLanguage.structure.OrAssignmentExpression" flags="nn" index="3vZ8r8" />
       <concept id="8276990574909231788" name="jetbrains.mps.baseLanguage.structure.FinallyClause" flags="ng" index="1wplmZ">
         <child id="8276990574909234106" name="finallyBody" index="1wplMD" />
       </concept>
@@ -2987,6 +2988,12 @@
               <ref role="3uigEE" to="3ju5:~IFile" resolve="IFile" />
             </node>
             <node concept="2OqwBi" id="HtNrEHBab$" role="33vP2m">
+              <node concept="liA8E" id="HtNrEHBabA" role="2OqNvi">
+                <ref role="37wK5l" to="w827:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
+                <node concept="37vLTw" id="HtNrEHBabB" role="37wK5m">
+                  <ref role="3cqZAo" node="7bBLNlFJBbS" resolve="fileName" />
+                </node>
+              </node>
               <node concept="2OqwBi" id="1wjaGbcUt4A" role="2Oq$k0">
                 <node concept="37vLTw" id="1wjaGbcUsQ1" role="2Oq$k0">
                   <ref role="3cqZAo" node="7bBLNlFJJUu" resolve="module" />
@@ -2995,24 +3002,10 @@
                   <ref role="37wK5l" to="z1c3:~AbstractModule.getFileSystem()" resolve="getFileSystem" />
                 </node>
               </node>
-              <node concept="liA8E" id="HtNrEHBabA" role="2OqNvi">
-                <ref role="37wK5l" to="w827:~FileSystem.getFile(java.lang.String)" resolve="getFile" />
-                <node concept="37vLTw" id="HtNrEHBabB" role="37wK5m">
-                  <ref role="3cqZAo" node="7bBLNlFJBbS" resolve="fileName" />
-                </node>
-              </node>
             </node>
           </node>
         </node>
         <node concept="3clFbJ" id="7bBLNlFJKCW" role="3cqZAp">
-          <node concept="2OqwBi" id="7bBLNlFJM$O" role="3clFbw">
-            <node concept="37vLTw" id="HtNrEHBabC" role="2Oq$k0">
-              <ref role="3cqZAo" node="HtNrEHBabz" resolve="imageFile" />
-            </node>
-            <node concept="liA8E" id="7bBLNlFJMLy" role="2OqNvi">
-              <ref role="37wK5l" to="3ju5:~IFile.exists()" resolve="exists" />
-            </node>
-          </node>
           <node concept="3clFbS" id="7bBLNlFJKCY" role="3clFbx">
             <node concept="3J1_TO" id="HtNrEHBcIv" role="3cqZAp">
               <node concept="3clFbS" id="HtNrEHBcIw" role="1zxBo7">
@@ -3058,6 +3051,14 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7bBLNlFJM$O" role="3clFbw">
+            <node concept="37vLTw" id="HtNrEHBabC" role="2Oq$k0">
+              <ref role="3cqZAo" node="HtNrEHBabz" resolve="imageFile" />
+            </node>
+            <node concept="liA8E" id="7bBLNlFJMLy" role="2OqNvi">
+              <ref role="37wK5l" to="3ju5:~IFile.exists()" resolve="exists" />
             </node>
           </node>
         </node>
@@ -3212,6 +3213,25 @@
         </node>
       </node>
       <node concept="3clFbS" id="4g2H4r3Ws9o" role="3clF47">
+        <node concept="3clFbF" id="6zwr99Mojd_" role="3cqZAp">
+          <node concept="3vZ8r8" id="6zwr99MojXL" role="3clFbG">
+            <node concept="3clFbC" id="6zwr99MomH6" role="37vLTx">
+              <node concept="10Nm6u" id="6zwr99Monf8" role="3uHU7w" />
+              <node concept="2OqwBi" id="6zwr99Mom4e" role="3uHU7B">
+                <node concept="1rXfSq" id="6zwr99MolmY" role="2Oq$k0">
+                  <ref role="37wK5l" to="exr9:~AbstractCellProvider.getSNode()" resolve="getSNode" />
+                </node>
+                <node concept="liA8E" id="6zwr99Momq3" role="2OqNvi">
+                  <ref role="37wK5l" to="mhbf:~SNode.getModel()" resolve="getModel" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="6zwr99Mojdz" role="37vLTJ">
+              <ref role="3cqZAo" to="emqf:~CellProviderWithRole.myReadOnly" resolve="myReadOnly" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6zwr99Mqi_n" role="3cqZAp" />
         <node concept="3cpWs8" id="4g2H4r3Ws9q" role="3cqZAp">
           <node concept="3cpWsn" id="4g2H4r3Ws9p" role="3cpWs9">
             <property role="3TUv4t" value="false" />

@@ -22,6 +22,7 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -2494,7 +2495,7 @@
                     <node concept="3clFb_" id="16TtUNxV60a" role="jymVt">
                       <property role="TrG5h" value="isDefaultView" />
                       <node concept="37vLTG" id="16TtUNxV60b" role="3clF46">
-                        <property role="TrG5h" value="project" />
+                        <property role="TrG5h" value="ideaProject" />
                         <property role="3TUv4t" value="true" />
                         <node concept="3uibUv" id="16TtUNxV60c" role="1tU5fm">
                           <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
@@ -2509,11 +2510,27 @@
                         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                       <node concept="3clFbS" id="16TtUNxV60l" role="3clF47">
+                        <node concept="3cpWs8" id="4r73zmg5WYl" role="3cqZAp">
+                          <node concept="3cpWsn" id="4r73zmg5WYo" role="3cpWs9">
+                            <property role="TrG5h" value="mpsProject" />
+                            <node concept="3uibUv" id="4r73zmg5WYq" role="1tU5fm">
+                              <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+                            </node>
+                            <node concept="2YIFZM" id="4r73zmg6LI_" role="33vP2m">
+                              <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project)" resolve="fromIdeaProject" />
+                              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                              <node concept="37vLTw" id="4r73zmg6Tul" role="37wK5m">
+                                <ref role="3cqZAo" node="16TtUNxV60b" resolve="ideaProject" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="4r73zmg5IO9" role="3cqZAp" />
                         <node concept="3cpWs6" id="16TtUNxW69C" role="3cqZAp">
                           <node concept="3nyPlj" id="16TtUNxW69D" role="3cqZAk">
                             <ref role="37wK5l" to="imq3:5i3SmuN3Fvf" resolve="isDefaultView" />
                             <node concept="37vLTw" id="16TtUNxW69E" role="37wK5m">
-                              <ref role="3cqZAo" node="16TtUNxV60b" resolve="project" />
+                              <ref role="3cqZAo" node="16TtUNxV60b" resolve="ideaProject" />
                             </node>
                           </node>
                           <node concept="2b32R4" id="16TtUNxWdS7" role="lGtFl">

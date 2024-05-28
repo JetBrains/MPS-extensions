@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:30978237-741d-4b0b-ac0b-6600a1c5c14f(com.mbeddr.mpsutil.projectview.runtime.tree)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
@@ -80,8 +81,8 @@
     <import index="w0gx" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project.structure.modules(MPS.Core/)" />
     <import index="ewej" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.font(JDK/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
-    <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" />
     <import index="mmaq" ref="f647e48e-4568-4f4c-b48a-1546492c6a2e/java:org.jdom(org.jdom/)" />
+    <import index="v23q" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi(MPS.IDEA/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -635,8 +636,8 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="hyam:~MouseAdapter" resolve="MouseAdapter" />
                   <ref role="37wK5l" to="hyam:~MouseAdapter.&lt;init&gt;()" resolve="MouseAdapter" />
-                  <node concept="2tJIrI" id="4e52bXziywQ" role="jymVt" />
                   <node concept="3Tm1VV" id="58b0Q1$tJLQ" role="1B3o_S" />
+                  <node concept="2tJIrI" id="4e52bXziywQ" role="jymVt" />
                   <node concept="3clFb_" id="58b0Q1$tJNL" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="mouseClicked" />
@@ -1407,7 +1408,7 @@
           <node concept="3clFbS" id="7PuCnELxnPv" role="3clFbx">
             <node concept="3clFbF" id="7PuCnELxtdm" role="3cqZAp">
               <node concept="1rXfSq" id="7PuCnELxtdk" role="3clFbG">
-                <ref role="37wK5l" to="dxuu:~JTree.expandPath(javax.swing.tree.TreePath)" resolve="expandPath" />
+                <ref role="37wK5l" to="7e8u:~MPSTree.expandPath(javax.swing.tree.TreePath)" resolve="expandPath" />
                 <node concept="2ShNRf" id="7PuCnELxtQs" role="37wK5m">
                   <node concept="1pGfFk" id="7PuCnELxxBP" role="2ShVmc">
                     <ref role="37wK5l" to="rgfa:~TreePath.&lt;init&gt;(java.lang.Object[])" resolve="TreePath" />
@@ -6628,6 +6629,17 @@
           </node>
         </node>
         <node concept="3clFbJ" id="1mvsX9hskdN" role="3cqZAp">
+          <node concept="3fqX7Q" id="1mvsX9htlpt" role="3clFbw">
+            <node concept="2OqwBi" id="1mvsX9htlpv" role="3fr31v">
+              <node concept="2YIFZM" id="1mvsX9htlpw" role="2Oq$k0">
+                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
+                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+              </node>
+              <node concept="liA8E" id="1mvsX9htlpx" role="2OqNvi">
+                <ref role="37wK5l" to="bd8o:~Application.isUnitTestMode()" resolve="isUnitTestMode" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbS" id="1mvsX9hskdP" role="3clFbx">
             <node concept="3clFbF" id="4gq8yQBZ72$" role="3cqZAp">
               <node concept="2OqwBi" id="4gq8yQBZ72_" role="3clFbG">
@@ -6798,17 +6810,6 @@
                     <ref role="3cqZAo" node="4gq8yQBZ72d" resolve="autoFocusContents" />
                   </node>
                 </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3fqX7Q" id="1mvsX9htlpt" role="3clFbw">
-            <node concept="2OqwBi" id="1mvsX9htlpv" role="3fr31v">
-              <node concept="2YIFZM" id="1mvsX9htlpw" role="2Oq$k0">
-                <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication()" resolve="getApplication" />
-                <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
-              </node>
-              <node concept="liA8E" id="1mvsX9htlpx" role="2OqNvi">
-                <ref role="37wK5l" to="bd8o:~Application.isUnitTestMode()" resolve="isUnitTestMode" />
               </node>
             </node>
           </node>

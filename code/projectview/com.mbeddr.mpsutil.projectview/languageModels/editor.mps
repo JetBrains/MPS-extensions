@@ -167,7 +167,7 @@
             <property role="3F0ifm" value="Label:" />
           </node>
           <node concept="3F1sOY" id="3ZnFyBju6vm" role="3EZMnx">
-            <property role="1$x2rV" value="&lt;merge into extended view&gt;" />
+            <property role="1$x2rV" value="&lt;view is not visible&gt;" />
             <ref role="1NtTu8" to="d04j:3ZnFyBju6hN" resolve="label" />
           </node>
           <node concept="2iRfu4" id="3ZnFyBju6pS" role="2iSdaV" />

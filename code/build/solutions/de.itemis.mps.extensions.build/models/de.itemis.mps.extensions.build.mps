@@ -22324,6 +22324,38 @@
             </node>
           </node>
         </node>
+        <node concept="1yeLz9" id="FzH79A37GQ" role="1TViLv">
+          <property role="TrG5h" value="de.itemis.mps.editor.pagination.demolang.generator" />
+          <property role="3LESm3" value="60ba5622-74ea-408a-892b-572795b669e8" />
+          <node concept="1BupzO" id="FzH79A37Hb" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="FzH79A37Hc" role="1HemKq">
+              <node concept="398BVA" id="FzH79A37GR" role="3LXTmr">
+                <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+                <node concept="2Ry0Ak" id="FzH79A37GS" role="iGT6I">
+                  <property role="2Ry0Am" value="pagination" />
+                  <node concept="2Ry0Ak" id="FzH79A37GT" role="2Ry0An">
+                    <property role="2Ry0Am" value="languages" />
+                    <node concept="2Ry0Ak" id="FzH79A37GU" role="2Ry0An">
+                      <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.demolang" />
+                      <node concept="2Ry0Ak" id="FzH79A37GV" role="2Ry0An">
+                        <property role="2Ry0Am" value="generator" />
+                        <node concept="2Ry0Ak" id="FzH79A37GW" role="2Ry0An">
+                          <property role="2Ry0Am" value="templates" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="FzH79A37Hd" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4zIvKyx$cVb" role="2G$12L">
         <property role="BnDLt" value="true" />

@@ -731,14 +731,19 @@
               <node concept="3clFbF" id="2nNmQB_IQ1u" role="3cqZAp">
                 <node concept="unr1b" id="2nNmQB_IQfG" role="3clFbG">
                   <ref role="un$jP" to="gwyy:~Direction" resolve="Direction" />
-                  <node concept="2OqwBi" id="2nNmQB_IQBD" role="unwt0">
-                    <node concept="2OqwBi" id="2nNmQB_IQn1" role="2Oq$k0">
-                      <node concept="pncrf" id="2nNmQB_IQg$" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="2nNmQB_IQvg" role="2OqNvi">
-                        <ref role="3TsBF5" to="xaff:7WTFIQIcYvr" resolve="direction" />
+                  <node concept="2OqwBi" id="7AaYJ3gzIeK" role="unwt0">
+                    <node concept="2OqwBi" id="2nNmQB_IQBD" role="2Oq$k0">
+                      <node concept="2OqwBi" id="2nNmQB_IQn1" role="2Oq$k0">
+                        <node concept="pncrf" id="2nNmQB_IQg$" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="7AaYJ3gzkEd" role="2OqNvi">
+                          <ref role="3Tt5mk" to="xaff:2nNmQB_HYH7" resolve="config" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="7AaYJ3gzldY" role="2OqNvi">
+                        <ref role="3TsBF5" to="2qld:3biyEnOlyXZ" resolve="direction" />
                       </node>
                     </node>
-                    <node concept="liA8E" id="2nNmQB_IQMy" role="2OqNvi">
+                    <node concept="liA8E" id="7AaYJ3gzICb" role="2OqNvi">
                       <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
                     </node>
                   </node>

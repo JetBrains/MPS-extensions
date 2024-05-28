@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="c58b797b-c53c-4442-abff-4d54c72169ea/r:5f236bd8-eb21-40b6-825a-9e614ca27175(com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="9b71d0db-bcaf-4144-bb2e-1ddef2b249b9" name="com.mbeddr.mpsutil.editor.querylist.demolang" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -293,7 +292,6 @@
       <node concept="3cqZAl" id="puVMIbwTJy" role="3clF45" />
       <node concept="3Tm1VV" id="puVMIbwTJz" role="1B3o_S" />
     </node>
-    <node concept="3Tm1VV" id="puVMIbwTIx" role="1B3o_S" />
     <node concept="2tJIrI" id="8dI1zLapqx" role="jymVt" />
     <node concept="3clFb_" id="8dI1zLapre" role="jymVt">
       <property role="TrG5h" value="b" />
@@ -315,6 +313,7 @@
         <node concept="3clFbH" id="8dI1zLb3mW" role="3cqZAp" />
       </node>
     </node>
+    <node concept="3Tm1VV" id="puVMIbwTIx" role="1B3o_S" />
   </node>
   <node concept="2X83RC" id="1GpxVmAg3nl">
     <node concept="Xl_RD" id="1GpxVmAt5pV" role="2Xng07" />

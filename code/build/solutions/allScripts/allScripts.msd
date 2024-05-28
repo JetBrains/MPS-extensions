@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="allScripts" uuid="636fc566-0154-4fdf-9ecb-a4b788da967b" moduleVersion="0" compileInMPS="true">
+<solution name="allScripts" uuid="636fc566-0154-4fdf-9ecb-a4b788da967b" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
   </dependencies>

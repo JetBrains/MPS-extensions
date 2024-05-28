@@ -2,7 +2,7 @@
 <model ref="r:763d080d-d701-4d75-9de7-e44ee8411c4d(de.q60.mps.shadowmodels.debugview.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
@@ -58,6 +58,7 @@
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1211298967294" name="outsideCommandExecution" index="72QZ$" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
+        <property id="4692598989365753297" name="updateInBackground" index="1rBW0U" />
         <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
@@ -253,6 +254,7 @@
       <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <property id="890797661671409019" name="forceMultiLine" index="3yWfEV" />
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
@@ -295,7 +297,6 @@
         <child id="1237721435807" name="elementType" index="HW$YZ" />
         <child id="1237731803878" name="copyFrom" index="I$8f6" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
       <concept id="31378964227347002" name="jetbrains.mps.baseLanguage.collections.structure.SelectNotNullOperation" flags="ng" index="1KnU$U" />
@@ -306,6 +307,7 @@
     <property role="TrG5h" value="LoadNodeInShadowExplorer" />
     <property role="2uzpH1" value="Shadow Models: Show in Explorer" />
     <property role="72QZ$" value="true" />
+    <property role="1rBW0U" value="true" />
     <node concept="1DS2jV" id="5wnrAmTKB_K" role="1NuT2Z">
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
@@ -459,14 +461,14 @@
                                         <ref role="37wK5l" to="l6bp:22rzPegL7r4" resolve="getOutputNodeReference" />
                                         <ref role="1Pybhc" to="l6bp:1HyxlLhIXQg" resolve="SM_TransformationTrace" />
                                         <node concept="37vLTw" id="3_irx8FGc2q" role="37wK5m">
-                                          <ref role="3cqZAo" node="3_irx8FGc2r" resolve="it" />
+                                          <ref role="3cqZAo" node="7Z$RfkF7J4v" resolve="it" />
                                         </node>
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="Rh6nW" id="3_irx8FGc2r" role="1bW2Oz">
+                                  <node concept="gl6BB" id="7Z$RfkF7J4v" role="1bW2Oz">
                                     <property role="TrG5h" value="it" />
-                                    <node concept="2jxLKc" id="3_irx8FGc2s" role="1tU5fm" />
+                                    <node concept="2jxLKc" id="7Z$RfkF7J4w" role="1tU5fm" />
                                   </node>
                                 </node>
                               </node>
@@ -907,6 +909,7 @@
     <property role="TrG5h" value="LoadShadowExplorer" />
     <property role="2uzpH1" value="Shadow Repository Explorer" />
     <property role="72QZ$" value="true" />
+    <property role="1rBW0U" value="true" />
     <node concept="1DS2jV" id="55FR5sargn0" role="1NuT2Z">
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
@@ -981,6 +984,7 @@
     <property role="TrG5h" value="LoadErrors" />
     <property role="2uzpH1" value="Show Error Log" />
     <property role="72QZ$" value="true" />
+    <property role="1rBW0U" value="true" />
     <node concept="1DS2jV" id="7rXsP$3QQU4" role="1NuT2Z">
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
@@ -1048,6 +1052,7 @@
   <node concept="sE7Ow" id="6yk5G9LLa8K">
     <property role="2uzpH1" value="Clear Error Log" />
     <property role="TrG5h" value="ClearErrorLog" />
+    <property role="1rBW0U" value="true" />
     <node concept="tnohg" id="6yk5G9LLa8L" role="tncku">
       <node concept="3clFbS" id="6yk5G9LLa8M" role="2VODD2">
         <node concept="3clFbF" id="475LaDXmUa6" role="3cqZAp">

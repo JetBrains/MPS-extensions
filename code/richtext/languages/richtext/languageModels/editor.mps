@@ -7,7 +7,7 @@
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -282,6 +282,7 @@
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -384,7 +385,6 @@
       </concept>
       <concept id="1227008614712" name="jetbrains.mps.baseLanguage.collections.structure.LinkedListCreator" flags="nn" index="2Jqq0_" />
       <concept id="1227022210526" name="jetbrains.mps.baseLanguage.collections.structure.ClearAllElementsOperation" flags="nn" index="2Kehj3" />
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
@@ -3130,7 +3130,7 @@
                         <node concept="3clFbF" id="3746LTsIU5N" role="3cqZAp">
                           <node concept="2OqwBi" id="3746LTsIVxM" role="3clFbG">
                             <node concept="37vLTw" id="3746LTsIU5M" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3746LTsISqg" resolve="it" />
+                              <ref role="3cqZAo" node="7Z$RfkF7IIs" resolve="it" />
                             </node>
                             <node concept="liA8E" id="3746LTsIXcC" role="2OqNvi">
                               <ref role="37wK5l" to="f4zo:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
@@ -3152,7 +3152,7 @@
                         <node concept="3clFbF" id="3746LTsJqSM" role="3cqZAp">
                           <node concept="2OqwBi" id="3746LTsJqSN" role="3clFbG">
                             <node concept="37vLTw" id="3746LTsJqSO" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3746LTsISqg" resolve="it" />
+                              <ref role="3cqZAo" node="7Z$RfkF7IIs" resolve="it" />
                             </node>
                             <node concept="liA8E" id="3746LTsJqSP" role="2OqNvi">
                               <ref role="37wK5l" to="f4zo:~EditorCell.setAction(jetbrains.mps.openapi.editor.cells.CellActionType,jetbrains.mps.openapi.editor.cells.CellAction)" resolve="setAction" />
@@ -3172,9 +3172,9 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="Rh6nW" id="3746LTsISqg" role="1bW2Oz">
+                      <node concept="gl6BB" id="7Z$RfkF7IIs" role="1bW2Oz">
                         <property role="TrG5h" value="it" />
-                        <node concept="2jxLKc" id="3746LTsISqh" role="1tU5fm" />
+                        <node concept="2jxLKc" id="7Z$RfkF7IIt" role="1tU5fm" />
                       </node>
                     </node>
                   </node>

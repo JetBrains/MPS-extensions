@@ -69,6 +69,7 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
+    <import index="ykol" ref="8e98f4e2-decf-4e97-bf80-9109e8b759ee/java:jetbrains.mps.smodel.constraints(jetbrains.mps.lang.constraints.rules.runtime/)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -19931,8 +19932,8 @@
                         <node concept="10P_77" id="ifzjJo5yaK" role="1tU5fm" />
                         <node concept="2OqwBi" id="6g_o1CJCLQN" role="33vP2m">
                           <node concept="2YIFZM" id="6g_o1CJCGRK" role="2Oq$k0">
-                            <ref role="37wK5l" to="ykok:~ConstraintsCanBeFacade.checkCanBeParent(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeParent" />
-                            <ref role="1Pybhc" to="ykok:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
+                            <ref role="37wK5l" to="ykol:~ConstraintsCanBeFacade.checkCanBeParent(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeParent" />
+                            <ref role="1Pybhc" to="ykol:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
                             <node concept="2OqwBi" id="6g_o1CJCKuU" role="37wK5m">
                               <node concept="2OqwBi" id="6g_o1CJCJDS" role="2Oq$k0">
                                 <node concept="2OqwBi" id="6g_o1CJCIR0" role="2Oq$k0">
@@ -22101,8 +22102,8 @@
                                               <node concept="10P_77" id="49FqtR5VyJZ" role="1tU5fm" />
                                               <node concept="2OqwBi" id="6g_o1CJFeO5" role="33vP2m">
                                                 <node concept="2YIFZM" id="6g_o1CJFgp_" role="2Oq$k0">
-                                                  <ref role="37wK5l" to="ykok:~ConstraintsCanBeFacade.checkCanBeParent(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeParent" />
-                                                  <ref role="1Pybhc" to="ykok:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
+                                                  <ref role="37wK5l" to="ykol:~ConstraintsCanBeFacade.checkCanBeParent(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeParent" />
+                                                  <ref role="1Pybhc" to="ykol:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
                                                   <node concept="2OqwBi" id="6g_o1CJFgpA" role="37wK5m">
                                                     <node concept="2OqwBi" id="6g_o1CJFgpB" role="2Oq$k0">
                                                       <node concept="2OqwBi" id="6g_o1CJFgpC" role="2Oq$k0">
@@ -22188,8 +22189,8 @@
                                             <node concept="3vZ8ra" id="2ILUSdpDRKK" role="3clFbG">
                                               <node concept="2OqwBi" id="6g_o1CJEY$S" role="37vLTx">
                                                 <node concept="2YIFZM" id="6g_o1CJEWBT" role="2Oq$k0">
-                                                  <ref role="37wK5l" to="ykok:~ConstraintsCanBeFacade.checkCanBeChild(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeChild" />
-                                                  <ref role="1Pybhc" to="ykok:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
+                                                  <ref role="37wK5l" to="ykol:~ConstraintsCanBeFacade.checkCanBeChild(jetbrains.mps.core.aspects.constraints.rules.kinds.ContainmentContext)" resolve="checkCanBeChild" />
+                                                  <ref role="1Pybhc" to="ykol:~ConstraintsCanBeFacade" resolve="ConstraintsCanBeFacade" />
                                                   <node concept="2OqwBi" id="6g_o1CJEXh0" role="37wK5m">
                                                     <node concept="2OqwBi" id="6g_o1CJEWBU" role="2Oq$k0">
                                                       <node concept="2OqwBi" id="6g_o1CJEWBV" role="2Oq$k0">

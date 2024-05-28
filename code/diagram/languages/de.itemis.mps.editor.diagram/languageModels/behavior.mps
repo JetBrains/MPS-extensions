@@ -5519,7 +5519,7 @@
             </node>
             <node concept="2OqwBi" id="qwNnoEfJQM" role="37vLTx">
               <node concept="1XH99k" id="qwNnoEfJhW" role="2Oq$k0">
-                <ref role="1XH99l" to="2qld:qwNnoEfmjb" resolve="HighLevelSortingCriterion" />
+                <ref role="1XH99l" to="2qld:qwNnoEfmjb" resolve="PolyominoHighLevelSortingCriterion" />
               </node>
               <node concept="2ViDtW" id="qwNnoEfKcD" role="2OqNvi">
                 <node concept="2OqwBi" id="qwNnoEfIoA" role="2ViJBj">
@@ -5550,7 +5550,7 @@
             </node>
             <node concept="2OqwBi" id="qwNnoEfKow" role="37vLTx">
               <node concept="1XH99k" id="qwNnoEfKox" role="2Oq$k0">
-                <ref role="1XH99l" to="2qld:qwNnoEfmoh" resolve="LowLevelSortingCriterion" />
+                <ref role="1XH99l" to="2qld:qwNnoEfmoh" resolve="PolyominoLowLevelSortingCriterion" />
               </node>
               <node concept="2ViDtW" id="qwNnoEfKoy" role="2OqNvi">
                 <node concept="2OqwBi" id="qwNnoEfKoz" role="2ViJBj">
@@ -5581,7 +5581,7 @@
             </node>
             <node concept="2OqwBi" id="qwNnoEfMrt" role="37vLTx">
               <node concept="1XH99k" id="qwNnoEfMru" role="2Oq$k0">
-                <ref role="1XH99l" to="2qld:qwNnoEfmHY" resolve="TraversalStrategy" />
+                <ref role="1XH99l" to="2qld:qwNnoEfmHY" resolve="PolyominoTraversalStrategy" />
               </node>
               <node concept="2ViDtW" id="qwNnoEfMrv" role="2OqNvi">
                 <node concept="2OqwBi" id="qwNnoEfMrw" role="2ViJBj">
@@ -7381,7 +7381,7 @@
           <node concept="37vLTI" id="3biyEnOlpbR" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnOlpbS" role="37vLTJ">
               <node concept="37vLTw" id="3biyEnOlpbT" role="2Oq$k0">
-                <ref role="3cqZAo" node="3biyEnOlpbL" resolve="padding" />
+                <ref role="3cqZAo" node="3biyEnOlpbL" resolve="margin" />
               </node>
               <node concept="3TrcHB" id="3biyEnOlpbU" role="2OqNvi">
                 <ref role="3TsBF5" to="2qld:3biyEnOlnZz" resolve="top" />
@@ -7392,7 +7392,7 @@
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <node concept="2OqwBi" id="3biyEnOlpbW" role="37wK5m">
                 <node concept="37vLTw" id="3biyEnOlpbX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3biyEnOlpcs" resolve="elkPadding" />
+                  <ref role="3cqZAo" node="3biyEnOlpcs" resolve="elkMargin" />
                 </node>
                 <node concept="liA8E" id="3biyEnOlpbY" role="2OqNvi">
                   <ref role="37wK5l" to="vgho:~Spacing.getTop()" resolve="getTop" />
@@ -7405,7 +7405,7 @@
           <node concept="37vLTI" id="3biyEnOlpc0" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnOlpc1" role="37vLTJ">
               <node concept="37vLTw" id="3biyEnOlpc2" role="2Oq$k0">
-                <ref role="3cqZAo" node="3biyEnOlpbL" resolve="padding" />
+                <ref role="3cqZAo" node="3biyEnOlpbL" resolve="margin" />
               </node>
               <node concept="3TrcHB" id="3biyEnOlpc3" role="2OqNvi">
                 <ref role="3TsBF5" to="2qld:3biyEnOlnZ$" resolve="right" />
@@ -7416,7 +7416,7 @@
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <node concept="2OqwBi" id="3biyEnOlpc5" role="37wK5m">
                 <node concept="37vLTw" id="3biyEnOlpc6" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3biyEnOlpcs" resolve="elkPadding" />
+                  <ref role="3cqZAo" node="3biyEnOlpcs" resolve="elkMargin" />
                 </node>
                 <node concept="liA8E" id="3biyEnOlpc7" role="2OqNvi">
                   <ref role="37wK5l" to="vgho:~Spacing.getRight()" resolve="getRight" />
@@ -7429,7 +7429,7 @@
           <node concept="37vLTI" id="3biyEnOlpc9" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnOlpca" role="37vLTJ">
               <node concept="37vLTw" id="3biyEnOlpcb" role="2Oq$k0">
-                <ref role="3cqZAo" node="3biyEnOlpbL" resolve="padding" />
+                <ref role="3cqZAo" node="3biyEnOlpbL" resolve="margin" />
               </node>
               <node concept="3TrcHB" id="3biyEnOlpcc" role="2OqNvi">
                 <ref role="3TsBF5" to="2qld:3biyEnOlnZ_" resolve="bottom" />
@@ -7440,7 +7440,7 @@
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <node concept="2OqwBi" id="3biyEnOlpce" role="37wK5m">
                 <node concept="37vLTw" id="3biyEnOlpcf" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3biyEnOlpcs" resolve="elkPadding" />
+                  <ref role="3cqZAo" node="3biyEnOlpcs" resolve="elkMargin" />
                 </node>
                 <node concept="liA8E" id="3biyEnOlpcg" role="2OqNvi">
                   <ref role="37wK5l" to="vgho:~Spacing.getBottom()" resolve="getBottom" />
@@ -7453,7 +7453,7 @@
           <node concept="37vLTI" id="3biyEnOlpci" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnOlpcj" role="37vLTJ">
               <node concept="37vLTw" id="3biyEnOlpck" role="2Oq$k0">
-                <ref role="3cqZAo" node="3biyEnOlpbL" resolve="padding" />
+                <ref role="3cqZAo" node="3biyEnOlpbL" resolve="margin" />
               </node>
               <node concept="3TrcHB" id="3biyEnOlpcl" role="2OqNvi">
                 <ref role="3TsBF5" to="2qld:3biyEnOlnZA" resolve="left" />
@@ -7464,7 +7464,7 @@
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <node concept="2OqwBi" id="3biyEnOlpcn" role="37wK5m">
                 <node concept="37vLTw" id="3biyEnOlpco" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3biyEnOlpcs" resolve="elkPadding" />
+                  <ref role="3cqZAo" node="3biyEnOlpcs" resolve="elkMargin" />
                 </node>
                 <node concept="liA8E" id="3biyEnOlpcp" role="2OqNvi">
                   <ref role="37wK5l" to="vgho:~Spacing.getLeft()" resolve="getLeft" />
@@ -7475,7 +7475,7 @@
         </node>
         <node concept="3clFbF" id="3biyEnOlpcq" role="3cqZAp">
           <node concept="37vLTw" id="3biyEnOlpcr" role="3clFbG">
-            <ref role="3cqZAo" node="3biyEnOlpbL" resolve="padding" />
+            <ref role="3cqZAo" node="3biyEnOlpbL" resolve="margin" />
           </node>
         </node>
       </node>
@@ -9426,7 +9426,7 @@
             <node concept="2OqwBi" id="3biyEnOnbUv" role="37vLTJ">
               <node concept="13iPFW" id="3biyEnOnbCd" role="2Oq$k0" />
               <node concept="3TrcHB" id="3biyEnOnc1I" role="2OqNvi">
-                <ref role="3TsBF5" to="2qld:3biyEnOlL1B" resolve="lportSortingStrategy" />
+                <ref role="3TsBF5" to="2qld:3biyEnOlL1B" resolve="portSortingStrategy" />
               </node>
             </node>
             <node concept="2OqwBi" id="3biyEnOsc_I" role="37vLTx">

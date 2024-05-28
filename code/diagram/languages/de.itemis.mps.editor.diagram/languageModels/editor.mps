@@ -5984,7 +5984,7 @@
             </node>
           </node>
           <node concept="3F0A7n" id="3biyEnOlVo0" role="3EZMnx">
-            <ref role="1NtTu8" to="2qld:3biyEnOlL1B" resolve="lportSortingStrategy" />
+            <ref role="1NtTu8" to="2qld:3biyEnOlL1B" resolve="portSortingStrategy" />
           </node>
         </node>
         <node concept="3EZMnI" id="3biyEnOlVJ4" role="3EZMnx">
@@ -9063,11 +9063,11 @@
     <node concept="3t5Usi" id="7L7aZ7jSaMG" role="V601i">
       <property role="TrG5h" value="box-layout-mode" />
       <node concept="3uibUv" id="7L7aZ7jSaMH" role="3t5Oan">
-        <ref role="3uigEE" to="y7q:~BoxLayoutProvider$PackingMode" resolve="PackingMode" />
+        <ref role="3uigEE" to="y7q:~BoxLayoutProvider$PackingMode" resolve="BoxLayoutProvider.PackingMode" />
       </node>
       <node concept="Rm8GO" id="7L7aZ7jSaMI" role="3t49C2">
         <ref role="Rm8GQ" to="y7q:~BoxLayoutProvider$PackingMode.SIMPLE" resolve="SIMPLE" />
-        <ref role="1Px2BO" to="y7q:~BoxLayoutProvider$PackingMode" resolve="PackingMode" />
+        <ref role="1Px2BO" to="y7q:~BoxLayoutProvider$PackingMode" resolve="BoxLayoutProvider.PackingMode" />
       </node>
     </node>
   </node>
@@ -13317,11 +13317,11 @@
     <node concept="3t5Usi" id="3biyEnNNOHG" role="V601i">
       <property role="TrG5h" value="stress-layout-dimension" />
       <node concept="3uibUv" id="3biyEnNNOIB" role="3t5Oan">
-        <ref role="3uigEE" to="zebo:~StressMajorization$Dimension" resolve="Dimension" />
+        <ref role="3uigEE" to="zebo:~StressMajorization$Dimension" resolve="StressMajorization.Dimension" />
       </node>
       <node concept="Rm8GO" id="3biyEnNNOJ_" role="3t49C2">
         <ref role="Rm8GQ" to="zebo:~StressMajorization$Dimension.XY" resolve="XY" />
-        <ref role="1Px2BO" to="zebo:~StressMajorization$Dimension" resolve="Dimension" />
+        <ref role="1Px2BO" to="zebo:~StressMajorization$Dimension" resolve="StressMajorization.Dimension" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnNNRzB" role="V601i">

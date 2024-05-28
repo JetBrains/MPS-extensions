@@ -47,7 +47,7 @@
   <node concept="1TIwiD" id="4PrkOTvmeXE">
     <property role="EcuMT" value="5574140559873339242" />
     <property role="TrG5h" value="Node" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4PrkOTvmfaj" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -55,7 +55,7 @@
   <node concept="1TIwiD" id="4PrkOTvmfco">
     <property role="EcuMT" value="5574140559873340184" />
     <property role="TrG5h" value="Edge" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4PrkOTvmfgu" role="1TKVEi">
       <property role="IQ2ns" value="5574140559873340446" />
       <property role="20kJfa" value="start" />
@@ -74,7 +74,7 @@
     <property role="TrG5h" value="LayeredTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="layered" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2nNmQB_HYH7" role="1TKVEi">
       <property role="IQ2ns" value="2734629909127752519" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -122,7 +122,7 @@
     <property role="TrG5h" value="RadialTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="radial" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="qwNnoDwlbU" role="1TKVEi">
       <property role="IQ2ns" value="477607467887448826" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -140,7 +140,7 @@
     <property role="TrG5h" value="ForceTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="force" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3biyEnO0R88" role="1TKVEi">
       <property role="IQ2ns" value="3662141892373737992" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -157,7 +157,7 @@
     <property role="TrG5h" value="TreeTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="tree" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3biyEnNh_Ks" role="1TKVEi">
       <property role="IQ2ns" value="3662141892361346076" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -174,7 +174,7 @@
     <property role="TrG5h" value="BoxTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="box" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5Qzx7AqxwW7" role="PzmwI">
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>
@@ -192,12 +192,12 @@
     <property role="TrG5h" value="DisconnectedGraphTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="disco" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="qwNnoElcHc" role="1TKVEi">
       <property role="IQ2ns" value="477607467901307724" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="config" />
-      <ref role="20lvS9" to="2qld:qwNnoEfkh3" resolve="DiscCoLayoutConfig" />
+      <ref role="20lvS9" to="2qld:qwNnoEfkh3" resolve="DisCoLayoutConfig" />
       <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
     </node>
     <node concept="PrWs8" id="767du_ZO9Kc" role="PzmwI">
@@ -209,7 +209,7 @@
     <property role="TrG5h" value="FixedTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="fixed" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="qwNnoEI0_O" role="1TKVEi">
       <property role="IQ2ns" value="477607467907811700" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -226,7 +226,7 @@
     <property role="TrG5h" value="RandomTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="random" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="qwNnoDKJQZ" role="1TKVEi">
       <property role="IQ2ns" value="477607467891752383" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -244,7 +244,7 @@
     <property role="TrG5h" value="RectanglePackingTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="rectpacking" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="qwNnoDR6zs" role="1TKVEi">
       <property role="IQ2ns" value="477607467893418204" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -261,7 +261,7 @@
     <property role="TrG5h" value="ShrinkingTreeTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="sporeCompaction" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3biyEnNvzww" role="1TKVEi">
       <property role="IQ2ns" value="3662141892365006880" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -278,7 +278,7 @@
     <property role="TrG5h" value="NodeOverlapRemovalTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="sporeOverlap" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="vVBnaNFP6_" role="1TKVEi">
       <property role="IQ2ns" value="575226493386314149" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -295,7 +295,7 @@
     <property role="TrG5h" value="StressTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="force" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3biyEnNSMq2" role="1TKVEi">
       <property role="IQ2ns" value="3662141892371621506" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -312,7 +312,7 @@
     <property role="TrG5h" value="TopDownPackingTest" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="topdownpacking" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3biyEnOc77C" role="1TKVEi">
       <property role="IQ2ns" value="3662141892376687080" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

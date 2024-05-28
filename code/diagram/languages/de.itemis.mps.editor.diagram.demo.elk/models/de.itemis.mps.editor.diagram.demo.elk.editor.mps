@@ -4,7 +4,7 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
-    <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="0" />
+    <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -3919,7 +3919,7 @@
             <node concept="3clFbS" id="56jSwh$FshB" role="2VODD2">
               <node concept="3clFbF" id="56jSwh$Fsx$" role="3cqZAp">
                 <node concept="unr1b" id="56jSwh$FsDp" role="3clFbG">
-                  <ref role="un$jP" to="y7q:~BoxLayoutProvider$PackingMode" resolve="PackingMode" />
+                  <ref role="un$jP" to="y7q:~BoxLayoutProvider$PackingMode" resolve="BoxLayoutProvider.PackingMode" />
                   <node concept="2OqwBi" id="56jSwh$FtYX" role="unwt0">
                     <node concept="2OqwBi" id="56jSwh$FttZ" role="2Oq$k0">
                       <node concept="2OqwBi" id="56jSwh$Ft1G" role="2Oq$k0">
@@ -5712,7 +5712,7 @@
             <node concept="3clFbS" id="3biyEnNSNyI" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNSQYK" role="3cqZAp">
                 <node concept="unr1b" id="3biyEnNSRzX" role="3clFbG">
-                  <ref role="un$jP" to="zebo:~StressMajorization$Dimension" resolve="Dimension" />
+                  <ref role="un$jP" to="zebo:~StressMajorization$Dimension" resolve="StressMajorization.Dimension" />
                   <node concept="2OqwBi" id="3biyEnNST4g" role="unwt0">
                     <node concept="2OqwBi" id="3biyEnNSSyI" role="2Oq$k0">
                       <node concept="2OqwBi" id="3biyEnNSS3p" role="2Oq$k0">

@@ -4,7 +4,7 @@
   <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
-    <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="-1" />
+    <use id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram" version="1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="-1" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
@@ -19065,7 +19065,7 @@
             </node>
             <node concept="Rm8GO" id="56jSwh$k_y$" role="37wK5m">
               <ref role="Rm8GQ" to="y7q:~BoxLayoutProvider$PackingMode.SIMPLE" resolve="SIMPLE" />
-              <ref role="1Px2BO" to="y7q:~BoxLayoutProvider$PackingMode" resolve="PackingMode" />
+              <ref role="1Px2BO" to="y7q:~BoxLayoutProvider$PackingMode" resolve="BoxLayoutProvider.PackingMode" />
               <node concept="1ZhdrF" id="56jSwh$k_D$" role="lGtFl">
                 <property role="2qtEX8" value="enumConstantDeclaration" />
                 <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
@@ -20657,7 +20657,7 @@
   <node concept="13MO4I" id="qwNnoEsFV3">
     <property role="TrG5h" value="case_DisCoLayoutConfig" />
     <property role="3GE5qa" value="layoutAlgorithm.config.disCo" />
-    <ref role="3gUMe" to="2qld:qwNnoEfkh3" resolve="DiscCoLayoutConfig" />
+    <ref role="3gUMe" to="2qld:qwNnoEfkh3" resolve="DisCoLayoutConfig" />
     <node concept="3clFbS" id="qwNnoEsFV4" role="13RCb5">
       <node concept="3cpWs8" id="qwNnoEsFV5" role="3cqZAp">
         <node concept="3cpWsn" id="qwNnoEsFV6" role="3cpWs9">
@@ -22435,7 +22435,7 @@
           <node concept="liA8E" id="3biyEnNNEcR" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNNEcS" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNNJxh" resolve="diagram-desired-edge-length" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNNJxh" resolve="stress-desired-edge-length" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNNEcT" role="37wK5m">
               <property role="$nhwW" value="100.0" />
@@ -22569,7 +22569,7 @@
             </node>
             <node concept="Rm8GO" id="3biyEnNNU5J" role="37wK5m">
               <ref role="Rm8GQ" to="zebo:~StressMajorization$Dimension.XY" resolve="XY" />
-              <ref role="1Px2BO" to="zebo:~StressMajorization$Dimension" resolve="Dimension" />
+              <ref role="1Px2BO" to="zebo:~StressMajorization$Dimension" resolve="StressMajorization.Dimension" />
               <node concept="1ZhdrF" id="3biyEnNNUad" role="lGtFl">
                 <property role="2qtEX8" value="enumConstantDeclaration" />
                 <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />

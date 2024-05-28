@@ -3080,7 +3080,7 @@
     <property role="EcuMT" value="5878290447138443303" />
     <property role="3GE5qa" value="layoutAlgorithm.config.core" />
     <property role="TrG5h" value="ContentAlignment" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="56jSwh$g_6I" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138443694" />
       <property role="TrG5h" value="alignment" />
@@ -3139,7 +3139,7 @@
     <property role="EcuMT" value="5878290447138467534" />
     <property role="3GE5qa" value="layoutAlgorithm.config.core" />
     <property role="TrG5h" value="Padding" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="56jSwh$gF9A" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138468454" />
       <property role="TrG5h" value="top" />
@@ -3426,7 +3426,7 @@
     <node concept="1TJgyi" id="qwNnoDNzm9" role="1TKVEl">
       <property role="IQ2nx" value="477607467892487561" />
       <property role="TrG5h" value="whiteSpaceEliminationStrategy" />
-      <ref role="AX2Wp" node="qwNnoDNzjH" resolve="WhiteSpaceEliminationStrategy" />
+      <ref role="AX2Wp" node="qwNnoDNzjH" resolve="RectPackingWhiteSpaceEliminationStrategy" />
     </node>
     <node concept="1TJgyi" id="qwNnoDNzEF" role="1TKVEl">
       <property role="IQ2nx" value="477607467892488875" />
@@ -3545,17 +3545,17 @@
     <node concept="1TJgyi" id="qwNnoEflUZ" role="1TKVEl">
       <property role="IQ2nx" value="477607467899772607" />
       <property role="TrG5h" value="polyominoHighLevelSort" />
-      <ref role="AX2Wp" node="qwNnoEfmjb" resolve="HighLevelSortingCriterion" />
+      <ref role="AX2Wp" node="qwNnoEfmjb" resolve="PolyominoHighLevelSortingCriterion" />
     </node>
     <node concept="1TJgyi" id="qwNnoEfmrJ" role="1TKVEl">
       <property role="IQ2nx" value="477607467899774703" />
       <property role="TrG5h" value="polyominoLowLevelSort" />
-      <ref role="AX2Wp" node="qwNnoEfmoh" resolve="LowLevelSortingCriterion" />
+      <ref role="AX2Wp" node="qwNnoEfmoh" resolve="PolyominoLowLevelSortingCriterion" />
     </node>
     <node concept="1TJgyi" id="qwNnoEfmBG" role="1TKVEl">
       <property role="IQ2nx" value="477607467899775468" />
       <property role="TrG5h" value="polyominoTraversalStrategy" />
-      <ref role="AX2Wp" node="qwNnoEfmHY" resolve="TraversalStrategy" />
+      <ref role="AX2Wp" node="qwNnoEfmHY" resolve="PolyominoTraversalStrategy" />
     </node>
     <node concept="1sEMCm" id="qwNnoEfkhb" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
@@ -3831,7 +3831,7 @@
     <node concept="1TJgyi" id="3biyEnNoXuW" role="1TKVEl">
       <property role="IQ2nx" value="3662141892363278268" />
       <property role="TrG5h" value="compactionStrategy" />
-      <ref role="AX2Wp" node="3biyEnNoX_4" resolve="CompactionStrategy" />
+      <ref role="AX2Wp" node="3biyEnNoX_4" resolve="SPOrECompactionStrategy" />
     </node>
     <node concept="1TJgyi" id="3biyEnNoXHj" role="1TKVEl">
       <property role="IQ2nx" value="3662141892363279187" />
@@ -4241,7 +4241,7 @@
     <property role="EcuMT" value="3662141892379115490" />
     <property role="3GE5qa" value="layoutAlgorithm.config.core" />
     <property role="TrG5h" value="Margin" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3biyEnOlnZz" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379115491" />
       <property role="TrG5h" value="top" />

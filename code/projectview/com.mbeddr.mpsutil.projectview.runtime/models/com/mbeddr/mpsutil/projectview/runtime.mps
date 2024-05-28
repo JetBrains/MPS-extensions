@@ -32,8 +32,8 @@
     <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" />
     <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" />
     <import index="4o98" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.core.platform(MPS.Core/)" />
+    <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
     <import index="9ti4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.extensions(MPS.IDEA/)" implicit="true" />
-    <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" implicit="true" />
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
@@ -7009,7 +7009,7 @@
                 <node concept="liA8E" id="FzH79_I26C" role="2OqNvi">
                   <ref role="37wK5l" to="uhdf:4gq8yQBZ6YN" resolve="readExternal" />
                   <node concept="37vLTw" id="FzH79_I26D" role="37wK5m">
-                    <ref role="3cqZAo" node="5ecqeSaHcBp" resolve="paneState" />
+                    <ref role="3cqZAo" node="FzH79_I26c" resolve="paneState" />
                   </node>
                 </node>
               </node>
@@ -7018,7 +7018,7 @@
           <node concept="3y3z36" id="FzH79_I26E" role="3clFbw">
             <node concept="10Nm6u" id="FzH79_I26F" role="3uHU7w" />
             <node concept="37vLTw" id="FzH79_I26G" role="3uHU7B">
-              <ref role="3cqZAo" node="5ecqeSaHcBp" resolve="paneState" />
+              <ref role="3cqZAo" node="FzH79_I26c" resolve="paneState" />
             </node>
           </node>
         </node>
@@ -7531,7 +7531,7 @@
           <node concept="3clFbC" id="7xHPclqR5qE" role="3clFbw">
             <node concept="10Nm6u" id="7xHPclqR9el" role="3uHU7w" />
             <node concept="37vLTw" id="7xHPclqR22t" role="3uHU7B">
-              <ref role="3cqZAo" node="2oNsb9228bt" resolve="moduleRepository" />
+              <ref role="3cqZAo" node="45KItpiJNhm" resolve="moduleRepository" />
             </node>
           </node>
         </node>

@@ -5256,7 +5256,7 @@
                           <ref role="3cqZAo" node="7GMtHW6vRYH" resolve="component" />
                         </node>
                         <node concept="liA8E" id="7GMtHW6vTTU" role="2OqNvi">
-                          <ref role="37wK5l" to="dxuu:~JComponent.getWidth()" resolve="getWidth" />
+                          <ref role="37wK5l" to="exr9:~EditorComponent.getWidth()" resolve="getWidth" />
                         </node>
                       </node>
                       <node concept="3cpWs3" id="7GMtHW6vRv7" role="37wK5m">

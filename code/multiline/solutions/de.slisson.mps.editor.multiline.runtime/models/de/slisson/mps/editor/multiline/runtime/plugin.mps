@@ -427,7 +427,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="11MD$rT$uEE" role="2OqNvi">
-                  <ref role="37wK5l" to="z60i:~Component.isFocusOwner()" resolve="isFocusOwner" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.isFocusOwner()" resolve="isFocusOwner" />
                 </node>
               </node>
             </node>
@@ -641,7 +641,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="635SBilAYVS" role="2OqNvi">
-                  <ref role="37wK5l" to="z60i:~Component.isFocusOwner()" resolve="isFocusOwner" />
+                  <ref role="37wK5l" to="exr9:~EditorComponent.isFocusOwner()" resolve="isFocusOwner" />
                 </node>
               </node>
             </node>

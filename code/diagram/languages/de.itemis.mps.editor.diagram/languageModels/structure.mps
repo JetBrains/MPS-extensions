@@ -4388,7 +4388,7 @@
     </node>
     <node concept="25R33" id="3biyEnOlzeU" role="25R1y">
       <property role="3tVfz5" value="3662141892379161530" />
-      <property role="TrG5h" value="ROTATIOn" />
+      <property role="TrG5h" value="ROTATION" />
     </node>
   </node>
   <node concept="25R3W" id="3biyEnOlzVc">

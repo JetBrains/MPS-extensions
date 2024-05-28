@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="de.itemis.mps.editor.diagram" uuid="fa13cc63-c476-4d46-9c96-d53670abe7bc" languageVersion="0" moduleVersion="0">
+<language namespace="de.itemis.mps.editor.diagram" uuid="fa13cc63-c476-4d46-9c96-d53670abe7bc" languageVersion="1" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />

@@ -114,7 +114,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="config" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+      <ref role="20lvS9" to="2qld:1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     </node>
   </node>
   <node concept="1TIwiD" id="37WsXDFJYOZ">

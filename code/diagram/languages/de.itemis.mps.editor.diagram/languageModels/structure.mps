@@ -82,7 +82,6 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
-        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -1461,7 +1460,7 @@
       <property role="IQ2ns" value="2064429317493348220" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="config" />
-      <ref role="20lvS9" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+      <ref role="20lvS9" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     </node>
   </node>
   <node concept="1TIwiD" id="7k8PWDQb26s">
@@ -1484,13 +1483,6 @@
           <ref role="AX2Wp" node="6Bd7VwqYQAS" resolve="LayoutDirection" />
         </node>
       </node>
-    </node>
-    <node concept="1TJgyj" id="2T42Bz2wR7T" role="1TKVEi">
-      <property role="IQ2ns" value="3333801137936757241" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="config" />
-      <ref role="20lvS9" node="2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
-      <ref role="20ksaX" node="1MAkSr55XtW" resolve="config" />
     </node>
     <node concept="1sEMCm" id="1FUCB8ocYka" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/algorithms/org-eclipse-elk-layered.html" />
@@ -2387,16 +2379,18 @@
     <property role="3GE5qa" value="layoutAlgorithm.config" />
     <property role="TrG5h" value="DiagramLayoutConfig" />
     <property role="34LRSv" value="base config" />
-    <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyi" id="2C8x_a3rNsJ" role="1TKVEl">
       <property role="IQ2nx" value="3028818438357202735" />
-      <property role="TrG5h" value="hierarchyHandling" />
+      <property role="TrG5h" value="hierarchyHandlingOld" />
       <ref role="AX2Wp" node="64PP31wF2qp" resolve="HierarchyHandling" />
+      <node concept="asaX9" id="1kJMeaHH4h7" role="lGtFl" />
     </node>
     <node concept="1TJgyi" id="2T42Bz29pRt" role="1TKVEl">
       <property role="IQ2nx" value="3333801137930608093" />
-      <property role="TrG5h" value="edgeRouting" />
+      <property role="TrG5h" value="edgeRoutingOld" />
       <ref role="AX2Wp" node="2T42Bz29pU4" resolve="EdgeRouting" />
+      <node concept="asaX9" id="1kJMeaHH4le" role="lGtFl" />
     </node>
     <node concept="asaX9" id="1SEN4_DgUMh" role="lGtFl">
       <property role="YLQ7P" value="please use a more specific configuration instead" />
@@ -2407,7 +2401,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.layered" />
     <property role="TrG5h" value="LayeredLayoutConfig" />
     <property role="34LRSv" value="layered layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="3biyEnOlnC4" role="1TKVEi">
       <property role="IQ2ns" value="3662141892379113988" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2573,6 +2567,11 @@
       <property role="TrG5h" value="edgeNodeSpacing" />
       <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
+    <node concept="1TJgyi" id="1kJMeaHK_$S" role="1TKVEl">
+      <property role="IQ2nx" value="1526659674605246776" />
+      <property role="TrG5h" value="edgeRouting" />
+      <ref role="AX2Wp" node="2T42Bz29pU4" resolve="EdgeRouting" />
+    </node>
     <node concept="1TJgyi" id="3biyEnOl_Bh" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379171281" />
       <property role="TrG5h" value="edgeSpacing" />
@@ -2627,6 +2626,11 @@
       <property role="IQ2nx" value="3662141892379181279" />
       <property role="TrG5h" value="greedySwitchCrossingminimizationHierarchical" />
       <ref role="AX2Wp" node="3biyEnOlBXb" resolve="GreedySwitchType" />
+    </node>
+    <node concept="1TJgyi" id="1kJMeaHK_2r" role="1TKVEl">
+      <property role="IQ2nx" value="1526659674605244571" />
+      <property role="TrG5h" value="hierarchyHandling" />
+      <ref role="AX2Wp" node="64PP31wF2qp" resolve="HierarchyHandling" />
     </node>
     <node concept="1TJgyi" id="3biyEnOlCdu" role="1TKVEl">
       <property role="IQ2nx" value="3662141892379181918" />
@@ -3088,7 +3092,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.box" />
     <property role="TrG5h" value="BoxLayoutConfig" />
     <property role="34LRSv" value="box layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="56jSwh$gB74" role="1TKVEi">
       <property role="IQ2ns" value="5878290447138451908" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3162,7 +3166,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.radial" />
     <property role="TrG5h" value="RadialLayoutConfig" />
     <property role="34LRSv" value="radial layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyi" id="56jSwh$RN2a" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148724362" />
       <property role="TrG5h" value="additionalWedgeSpace" />
@@ -3309,7 +3313,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.random" />
     <property role="TrG5h" value="RandomLayoutConfig" />
     <property role="34LRSv" value="random layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="qwNnoDFtO2" role="1TKVEi">
       <property role="IQ2ns" value="477607467890367746" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3340,7 +3344,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
     <property role="TrG5h" value="RectPackingLayoutConfig" />
     <property role="34LRSv" value="rectangle packing layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="qwNnoDNwF8" role="1TKVEi">
       <property role="IQ2ns" value="477607467892476616" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3501,7 +3505,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.disCo" />
     <property role="TrG5h" value="DisCoLayoutConfig" />
     <property role="34LRSv" value="disconnected graph layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="qwNnoEflYM" role="1TKVEi">
       <property role="IQ2ns" value="477607467899772850" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3642,7 +3646,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.fixed" />
     <property role="TrG5h" value="FixedLayoutConfig" />
     <property role="34LRSv" value="fixed layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="qwNnoED_kO" role="1TKVEi">
       <property role="IQ2ns" value="477607467906651444" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3663,7 +3667,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.tree" />
     <property role="TrG5h" value="TreeLayoutConfig" />
     <property role="34LRSv" value="tree layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="qwNnoEIGBk" role="1TKVEi">
       <property role="IQ2ns" value="477607467907992020" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3817,7 +3821,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
     <property role="TrG5h" value="SPOrECompactionLayoutConfig" />
     <property role="34LRSv" value="SPOrE compaction layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="3biyEnNoYdO" role="1TKVEi">
       <property role="IQ2ns" value="3662141892363281268" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3952,7 +3956,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
     <property role="TrG5h" value="SPOrEOverlapRemovalLayoutConfig" />
     <property role="34LRSv" value="SPOrE overlap removal layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="3biyEnNFiqq" role="1TKVEi">
       <property role="IQ2ns" value="3662141892368082586" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -3993,7 +3997,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.stress" />
     <property role="TrG5h" value="StressLayoutConfig" />
     <property role="34LRSv" value="stress layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyi" id="3biyEnNNl1o" role="1TKVEl">
       <property role="IQ2nx" value="3662141892370190424" />
       <property role="TrG5h" value="desiredEdgeLength" />
@@ -4056,7 +4060,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.force" />
     <property role="TrG5h" value="ForceLayoutConfig" />
     <property role="34LRSv" value="force layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyj" id="3biyEnNTiSN" role="1TKVEi">
       <property role="IQ2ns" value="3662141892371754547" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -4154,7 +4158,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.config.topdownPacking" />
     <property role="TrG5h" value="TopdownPackingLayoutConfig" />
     <property role="34LRSv" value="top-down packing layout config" />
-    <ref role="1TJDcQ" node="1MAkSr55XtV" resolve="DiagramLayoutConfig" />
+    <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
     <node concept="1TJgyi" id="3biyEnO41n_" role="1TKVEl">
       <property role="IQ2nx" value="3662141892374566373" />
       <property role="TrG5h" value="nodeArrangementStrategy" />
@@ -4828,6 +4832,13 @@
       <property role="1L1pqM" value="top-down" />
       <property role="TrG5h" value="org_eclipse_elk_topdownpacking" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1kJMeaHH6c1">
+    <property role="EcuMT" value="1526659674604331777" />
+    <property role="3GE5qa" value="layoutAlgorithm.config" />
+    <property role="TrG5h" value="BaseDiagramLayoutConfig" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
   </node>
 </model>
 

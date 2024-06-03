@@ -76,7 +76,7 @@
     <property role="EcuMT" value="4434722703675265042" />
     <property role="TrG5h" value="TestCase_MixedVerticalAndIndent" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

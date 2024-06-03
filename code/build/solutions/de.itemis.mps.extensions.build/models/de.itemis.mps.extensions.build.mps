@@ -15277,7 +15277,7 @@
         <property role="2iUeEu" value="https://www.itemis.com/en/it-services/methods-and-tools/mps" />
       </node>
       <node concept="m$f5U" id="1$KnWE8eXE$" role="m$_yh">
-        <ref role="m$f5T" node="1$KnWE8eXEC" />
+        <ref role="m$f5T" node="1$KnWE8eXEC" resolve="de.itemis.mps.changelog" />
       </node>
       <node concept="m$_yC" id="1$KnWE8eXE_" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />

@@ -204,7 +204,7 @@
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="b7vt:Po4Z58Iad0" resolve="IReleaseHeader" />
       <node concept="j$656" id="1$KnWE8j07h" role="1lVwrX">
-        <ref role="v9R2y" node="1$KnWE8j07f" resolve="reduce_VersionDateReleaseHeader" />
+        <ref role="v9R2y" node="1$KnWE8j07f" resolve="reduce_ReleaseHeader" />
       </node>
     </node>
     <node concept="3aamgX" id="1$KnWE8j2hb" role="3acgRq">

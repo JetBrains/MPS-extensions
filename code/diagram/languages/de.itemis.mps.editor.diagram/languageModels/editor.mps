@@ -9061,7 +9061,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramBoxAlgorithmAttributes" />
     <node concept="3t5Usi" id="7L7aZ7jSaMG" role="V601i">
-      <property role="TrG5h" value="box-layout-mode" />
+      <property role="TrG5h" value="diagram-layout-box-layout-mode" />
       <node concept="3uibUv" id="7L7aZ7jSaMH" role="3t5Oan">
         <ref role="3uigEE" to="y7q:~BoxLayoutProvider$PackingMode" resolve="BoxLayoutProvider.PackingMode" />
       </node>
@@ -9075,12 +9075,12 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramLayeredAlgorithmAttributes" />
     <node concept="3t5Usi" id="7L7aZ7jSbaC" role="V601i">
-      <property role="TrG5h" value="layered-connected-component-compaction" />
+      <property role="TrG5h" value="diagram-layout-layered-connected-component-compaction" />
       <node concept="10P_77" id="7L7aZ7jSbdi" role="3t5Oan" />
       <node concept="3clFbT" id="7L7aZ7jSbdx" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSbdB" role="V601i">
-      <property role="TrG5h" value="layered-post-compaction-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-post-compaction-strategy" />
       <node concept="Rm8GO" id="7L7aZ7jSbff" role="3t49C2">
         <ref role="Rm8GQ" to="u8j:~GraphCompactionStrategy.NONE" resolve="NONE" />
         <ref role="1Px2BO" to="u8j:~GraphCompactionStrategy" resolve="GraphCompactionStrategy" />
@@ -9090,7 +9090,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSbft" role="V601i">
-      <property role="TrG5h" value="layered-post-compaction-constraint-calculation" />
+      <property role="TrG5h" value="diagram-layout-layered-post-compaction-constraint-calculation" />
       <node concept="3uibUv" id="7L7aZ7jSbfv" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~ConstraintCalculationStrategy" resolve="ConstraintCalculationStrategy" />
       </node>
@@ -9100,7 +9100,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSb_0" role="V601i">
-      <property role="TrG5h" value="layered-consider-model-order" />
+      <property role="TrG5h" value="diagram-layout-layered-consider-model-order" />
       <node concept="3uibUv" id="7L7aZ7jSb_1" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~OrderingStrategy" resolve="OrderingStrategy" />
       </node>
@@ -9110,12 +9110,12 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSbCz" role="V601i">
-      <property role="TrG5h" value="layered-consider-port-order" />
+      <property role="TrG5h" value="diagram-layout-layered-consider-port-order" />
       <node concept="10P_77" id="7L7aZ7jSbGk" role="3t5Oan" />
       <node concept="3clFbT" id="7L7aZ7jSbH1" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSbJN" role="V601i">
-      <property role="TrG5h" value="layered-consider-model-order-for-components" />
+      <property role="TrG5h" value="diagram-layout-layered-consider-model-order-for-components" />
       <node concept="3uibUv" id="7L7aZ7jSbVT" role="3t5Oan">
         <ref role="3uigEE" to="i2p:~ComponentOrderingStrategy" resolve="ComponentOrderingStrategy" />
       </node>
@@ -9125,7 +9125,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSbWN" role="V601i">
-      <property role="TrG5h" value="layered-long-edge-ordering-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-long-edge-ordering-strategy" />
       <node concept="3uibUv" id="7L7aZ7jSbWO" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~LongEdgeOrderingStrategy" resolve="LongEdgeOrderingStrategy" />
       </node>
@@ -9135,21 +9135,21 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSc0y" role="V601i">
-      <property role="TrG5h" value="layered-crossing-counter-node-order-influence" />
+      <property role="TrG5h" value="diagram-layout-layered-crossing-counter-node-order-influence" />
       <node concept="10P55v" id="7L7aZ7jSc54" role="3t5Oan" />
       <node concept="3b6qkQ" id="7L7aZ7jScyM" role="3t49C2">
         <property role="$nhwW" value="0.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSczf" role="V601i">
-      <property role="TrG5h" value="layered-crossing-counter-port-order-influence" />
+      <property role="TrG5h" value="diagram-layout-layered-crossing-counter-port-order-influence" />
       <node concept="10P55v" id="7L7aZ7jSczg" role="3t5Oan" />
       <node concept="3b6qkQ" id="7L7aZ7jSczh" role="3t49C2">
         <property role="$nhwW" value="0.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSc$p" role="V601i">
-      <property role="TrG5h" value="layered-crossing-minimization-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-crossing-minimization-strategy" />
       <node concept="Rm8GO" id="7L7aZ7jScAO" role="3t49C2">
         <ref role="Rm8GQ" to="u8j:~CrossingMinimizationStrategy.LAYER_SWEEP" resolve="LAYER_SWEEP" />
         <ref role="1Px2BO" to="u8j:~CrossingMinimizationStrategy" resolve="CrossingMinimizationStrategy" />
@@ -9159,31 +9159,31 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jScB2" role="V601i">
-      <property role="TrG5h" value="layered-force-node-model-order" />
+      <property role="TrG5h" value="diagram-layout-layered-force-node-model-order" />
       <node concept="3clFbT" id="7L7aZ7jScEt" role="3t49C2" />
       <node concept="10P_77" id="7L7aZ7jScE4" role="3t5Oan" />
     </node>
     <node concept="3t5Usi" id="7L7aZ7jScEC" role="V601i">
-      <property role="TrG5h" value="layered-hierarchical-sweepiness" />
+      <property role="TrG5h" value="diagram-layout-layered-hierarchical-sweepiness" />
       <node concept="3b6qkQ" id="7L7aZ7jScGN" role="3t49C2">
         <property role="$nhwW" value="0.1" />
       </node>
       <node concept="10P55v" id="7L7aZ7jScGH" role="3t5Oan" />
     </node>
     <node concept="3t5Usi" id="7L7aZ7jScGX" role="V601i">
-      <property role="TrG5h" value="layered-semi-interactive-crossing-minimization" />
+      <property role="TrG5h" value="diagram-layout-layered-semi-interactive-crossing-minimization" />
       <node concept="3clFbT" id="7L7aZ7jScNM" role="3t49C2" />
       <node concept="10P_77" id="7L7aZ7jScJg" role="3t5Oan" />
     </node>
     <node concept="3t5Usi" id="7L7aZ7jScUW" role="V601i">
-      <property role="TrG5h" value="layered-greedy-switch-activation-threshold" />
+      <property role="TrG5h" value="diagram-layout-layered-greedy-switch-activation-threshold" />
       <node concept="10Oyi0" id="7L7aZ7jScUX" role="3t5Oan" />
       <node concept="3cmrfG" id="7L7aZ7jScWP" role="3t49C2">
         <property role="3cmrfH" value="40" />
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jScWV" role="V601i">
-      <property role="TrG5h" value="layered-greedy-switch-crossing-minimization" />
+      <property role="TrG5h" value="diagram-layout-layered-greedy-switch-crossing-minimization" />
       <node concept="Rm8GO" id="7L7aZ7jScZw" role="3t49C2">
         <ref role="Rm8GQ" to="u8j:~GreedySwitchType.TWO_SIDED" resolve="TWO_SIDED" />
         <ref role="1Px2BO" to="u8j:~GreedySwitchType" resolve="GreedySwitchType" />
@@ -9193,7 +9193,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jScZI" role="V601i">
-      <property role="TrG5h" value="layered-greedy-switch-crossing-minimization-hierarchical" />
+      <property role="TrG5h" value="diagram-layout-layered-greedy-switch-crossing-minimization-hierarchical" />
       <node concept="Rm8GO" id="7L7aZ7jSd2z" role="3t49C2">
         <ref role="Rm8GQ" to="u8j:~GreedySwitchType.OFF" resolve="OFF" />
         <ref role="1Px2BO" to="u8j:~GreedySwitchType" resolve="GreedySwitchType" />
@@ -9203,7 +9203,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSd7N" role="V601i">
-      <property role="TrG5h" value="layered-cycle-breaking-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-cycle-breaking-strategy" />
       <node concept="3uibUv" id="7L7aZ7jSd7P" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~CycleBreakingStrategy" resolve="CycleBreakingStrategy" />
       </node>
@@ -9213,7 +9213,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSdon" role="V601i">
-      <property role="TrG5h" value="layered-edge-label-side-selection" />
+      <property role="TrG5h" value="diagram-layout-layered-edge-label-side-selection" />
       <node concept="3uibUv" id="7L7aZ7jSdoo" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~EdgeLabelSideSelection" resolve="EdgeLabelSideSelection" />
       </node>
@@ -9223,7 +9223,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSdu8" role="V601i">
-      <property role="TrG5h" value="layered-edge-center-label-placement-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-edge-center-label-placement-strategy" />
       <node concept="3uibUv" id="7L7aZ7jSdu9" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~CenterEdgeLabelPlacementStrategy" resolve="CenterEdgeLabelPlacementStrategy" />
       </node>
@@ -9233,7 +9233,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSdNn" role="V601i">
-      <property role="TrG5h" value="layered-spline-routing-mode" />
+      <property role="TrG5h" value="diagram-layout-layered-spline-routing-mode" />
       <node concept="3uibUv" id="7L7aZ7jSdNo" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~SplineRoutingMode" resolve="SplineRoutingMode" />
       </node>
@@ -9243,40 +9243,40 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYdxa" role="V601i">
-      <property role="TrG5h" value="layered-sloppy-spline-layer-spacing-factor" />
+      <property role="TrG5h" value="diagram-layout-layered-sloppy-spline-layer-spacing-factor" />
       <node concept="10P55v" id="56jSwhzYdH_" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYdHZ" role="3t49C2">
         <property role="$nhwW" value="0.2" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYdIc" role="V601i">
-      <property role="TrG5h" value="layered-sloped-edge-zone-width" />
+      <property role="TrG5h" value="diagram-layout-layered-sloped-edge-zone-width" />
       <node concept="10P55v" id="56jSwhzYdId" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYdLr" role="3t49C2">
         <property role="$nhwW" value="2.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYg3m" role="V601i">
-      <property role="TrG5h" value="layered-high-degree-node-treatment" />
+      <property role="TrG5h" value="diagram-layout-layered-high-degree-node-treatment" />
       <node concept="10P_77" id="56jSwhzYg72" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYg78" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYg7e" role="V601i">
-      <property role="TrG5h" value="layered-high-degree-node-threshold" />
+      <property role="TrG5h" value="diagram-layout-layered-high-degree-node-threshold" />
       <node concept="10Oyi0" id="56jSwhzYgaA" role="3t5Oan" />
       <node concept="3cmrfG" id="56jSwhzYgaG" role="3t49C2">
         <property role="3cmrfH" value="16" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYgaM" role="V601i">
-      <property role="TrG5h" value="layered-high-degree-node-maximum-tree-height" />
+      <property role="TrG5h" value="diagram-layout-layered-high-degree-node-maximum-tree-height" />
       <node concept="10Oyi0" id="56jSwhzYgaN" role="3t5Oan" />
       <node concept="3cmrfG" id="56jSwhzYgaO" role="3t49C2">
         <property role="3cmrfH" value="5" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYgii" role="V601i">
-      <property role="TrG5h" value="layered-node-layering-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-node-layering-strategy" />
       <node concept="3uibUv" id="56jSwhzYglG" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~LayeringStrategy" resolve="LayeringStrategy" />
       </node>
@@ -9286,21 +9286,21 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYgxF" role="V601i">
-      <property role="TrG5h" value="layered-upper-bound-on-width" />
+      <property role="TrG5h" value="diagram-layout-layered-upper-bound-on-width" />
       <node concept="10Oyi0" id="56jSwhzYg_c" role="3t5Oan" />
       <node concept="3cmrfG" id="56jSwhzYg_f" role="3t49C2">
         <property role="3cmrfH" value="4" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYg_l" role="V601i">
-      <property role="TrG5h" value="layered-upper-layer-estimation-scaling-factor" />
+      <property role="TrG5h" value="diagram-layout-layered-upper-layer-estimation-scaling-factor" />
       <node concept="10Oyi0" id="56jSwhzYg_m" role="3t5Oan" />
       <node concept="3cmrfG" id="56jSwhzYg_n" role="3t49C2">
         <property role="3cmrfH" value="2" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYgDq" role="V601i">
-      <property role="TrG5h" value="layered-node-promotion-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-node-promotion-strategy" />
       <node concept="3uibUv" id="56jSwhzYgHo" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~NodePromotionStrategy" resolve="NodePromotionStrategy" />
       </node>
@@ -9310,14 +9310,14 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYgIi" role="V601i">
-      <property role="TrG5h" value="layered-max-node-promotion-iterations" />
+      <property role="TrG5h" value="diagram-layout-layered-max-node-promotion-iterations" />
       <node concept="10Oyi0" id="56jSwhzYgNJ" role="3t5Oan" />
       <node concept="3cmrfG" id="56jSwhzYgO5" role="3t49C2">
         <property role="3cmrfH" value="0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYgOg" role="V601i">
-      <property role="TrG5h" value="layered-layer-bound" />
+      <property role="TrG5h" value="diagram-layout-layered-layer-bound" />
       <node concept="10Oyi0" id="56jSwhzYgOh" role="3t5Oan" />
       <node concept="10M0yZ" id="56jSwhzYgSl" role="3t49C2">
         <ref role="3cqZAo" to="wyt6:~Integer.MAX_VALUE" resolve="MAX_VALUE" />
@@ -9325,7 +9325,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYiVL" role="V601i">
-      <property role="TrG5h" value="layered-node-placement-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-node-placement-strategy" />
       <node concept="3uibUv" id="56jSwhzYj02" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~NodePlacementStrategy" resolve="NodePlacementStrategy" />
       </node>
@@ -9335,13 +9335,13 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYj1t" role="V601i">
-      <property role="TrG5h" value="layered-favor-straight-edges-over-balancing" />
+      <property role="TrG5h" value="diagram-layout-layered-favor-straight-edges-over-balancing" />
       <node concept="3uibUv" id="56jSwhzYjK3" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYjKC" role="V601i">
-      <property role="TrG5h" value="layered-brandes-koepf-edge-straightening" />
+      <property role="TrG5h" value="diagram-layout-layered-brandes-koepf-edge-straightening" />
       <node concept="3uibUv" id="56jSwhzYjKD" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~EdgeStraighteningStrategy" resolve="EdgeStraighteningStrategy" />
       </node>
@@ -9351,7 +9351,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYjPW" role="V601i">
-      <property role="TrG5h" value="layered-brandes-koepf-fixed-alignment" />
+      <property role="TrG5h" value="diagram-layout-layered-brandes-koepf-fixed-alignment" />
       <node concept="3uibUv" id="56jSwhzYjPX" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~FixedAlignment" resolve="FixedAlignment" />
       </node>
@@ -9361,14 +9361,14 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYjW7" role="V601i">
-      <property role="TrG5h" value="layered-linear-segments-deflection-dampening" />
+      <property role="TrG5h" value="diagram-layout-layered-linear-segments-deflection-dampening" />
       <node concept="10P55v" id="56jSwhzYk2W" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYk3j" role="3t49C2">
         <property role="$nhwW" value="0.3" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYk_5" role="V601i">
-      <property role="TrG5h" value="layered-node-flexibility-default" />
+      <property role="TrG5h" value="diagram-layout-layered-node-flexibility-default" />
       <node concept="3uibUv" id="56jSwhzYk_6" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~NodeFlexibility" resolve="NodeFlexibility" />
       </node>
@@ -9378,35 +9378,35 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKgd" role="V601i">
-      <property role="TrG5h" value="layered-spacing-base-value" />
+      <property role="TrG5h" value="diagram-layout-layered-spacing-base-value" />
       <node concept="10P55v" id="56jSwhzYKli" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYKlo" role="3t49C2">
         <property role="$nhwW" value="0.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKlu" role="V601i">
-      <property role="TrG5h" value="layered-edge-node-between-layers-spacing" />
+      <property role="TrG5h" value="diagram-layout-layered-edge-node-between-layers-spacing" />
       <node concept="10P55v" id="56jSwhzYKlv" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYKqy" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKqC" role="V601i">
-      <property role="TrG5h" value="layered-edge-edge-between-layers-spacing" />
+      <property role="TrG5h" value="diagram-layout-layered-edge-edge-between-layers-spacing" />
       <node concept="10P55v" id="56jSwhzYKqD" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYKqE" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKvl" role="V601i">
-      <property role="TrG5h" value="layered-node-node-between-layers-spacing" />
+      <property role="TrG5h" value="diagram-layout-layered-node-node-between-layers-spacing" />
       <node concept="10P55v" id="56jSwhzYKvm" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYK$G" role="3t49C2">
         <property role="$nhwW" value="20.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYUd6" role="V601i">
-      <property role="TrG5h" value="layered-graph-wrapping-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-graph-wrapping-strategy" />
       <node concept="3uibUv" id="56jSwhzYUic" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~WrappingStrategy" resolve="WrappingStrategy" />
       </node>
@@ -9416,21 +9416,21 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYUj5" role="V601i">
-      <property role="TrG5h" value="layered-additional-wrapped-edges-spacing" />
+      <property role="TrG5h" value="diagram-layout-layered-additional-wrapped-edges-spacing" />
       <node concept="10P55v" id="56jSwhzYUpu" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYUQX" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYUR8" role="V601i">
-      <property role="TrG5h" value="layered-correction-factor-for-wrapping" />
+      <property role="TrG5h" value="diagram-layout-layered-correction-factor-for-wrapping" />
       <node concept="10P55v" id="56jSwhzYUR9" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYURa" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYUWr" role="V601i">
-      <property role="TrG5h" value="layered-cutting-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-cutting-strategy" />
       <node concept="3uibUv" id="56jSwhzYV1B" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~CuttingStrategy" resolve="CuttingStrategy" />
       </node>
@@ -9440,7 +9440,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYV9k" role="V601i">
-      <property role="TrG5h" value="layered-msd-freedom" />
+      <property role="TrG5h" value="diagram-layout-layered-msd-freedom" />
       <node concept="3uibUv" id="56jSwhzYVeB" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
@@ -9456,7 +9456,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYVLC" role="V601i">
-      <property role="TrG5h" value="layered-validification-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-validification-strategy" />
       <node concept="3uibUv" id="56jSwhzYVLD" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~ValidifyStrategy" resolve="ValidifyStrategy" />
       </node>
@@ -9466,28 +9466,28 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYW0Z" role="V601i">
-      <property role="TrG5h" value="layered-improve-cuts" />
+      <property role="TrG5h" value="diagram-layout-layered-improve-cuts" />
       <node concept="10P_77" id="56jSwhzYW6z" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYW6A" role="3t49C2">
         <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnOuj3A" role="V601i">
-      <property role="TrG5h" value="layered-improve-wrapped-edges" />
+      <property role="TrG5h" value="diagram-layout-layered-improve-wrapped-edges" />
       <node concept="10P_77" id="3biyEnOuj3B" role="3t5Oan" />
       <node concept="3clFbT" id="3biyEnOuj3C" role="3t49C2">
         <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYWdc" role="V601i">
-      <property role="TrG5h" value="layered-unnecessary-bend-points" />
+      <property role="TrG5h" value="diagram-layout-layered-unnecessary-bend-points" />
       <node concept="10P_77" id="56jSwhzYWj5" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYWjb" role="3t49C2">
         <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnOuszs" role="V601i">
-      <property role="TrG5h" value="layered-direction-congruence" />
+      <property role="TrG5h" value="diagram-layout-layered-direction-congruence" />
       <node concept="3uibUv" id="3biyEnOusKH" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~DirectionCongruency" resolve="DirectionCongruency" />
       </node>
@@ -9497,24 +9497,24 @@
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnOutCp" role="V601i">
-      <property role="TrG5h" value="layered-multi-edge-distance-penalty" />
+      <property role="TrG5h" value="diagram-layout-layered-multi-edge-distance-penalty" />
       <node concept="10P55v" id="3biyEnOutSR" role="3t5Oan" />
       <node concept="3b6qkQ" id="3biyEnOutVJ" role="3t49C2">
         <property role="$nhwW" value="2.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnOuw8o" role="V601i">
-      <property role="TrG5h" value="layered-feedback-edges" />
+      <property role="TrG5h" value="diagram-layout-layered-feedback-edges" />
       <node concept="10P_77" id="3biyEnOuwlO" role="3t5Oan" />
       <node concept="3clFbT" id="3biyEnOuwn8" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="3biyEnOuxi7" role="V601i">
-      <property role="TrG5h" value="layered-generate-position-and-layer-ids" />
+      <property role="TrG5h" value="diagram-layout-layered-generate-position-and-layer-ids" />
       <node concept="10P_77" id="3biyEnOuxi8" role="3t5Oan" />
       <node concept="3clFbT" id="3biyEnOuxi9" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="3biyEnOuzUU" role="V601i">
-      <property role="TrG5h" value="layered-interactive-reference-point" />
+      <property role="TrG5h" value="diagram-layout-layered-interactive-reference-point" />
       <node concept="Rm8GO" id="3biyEnOu$cJ" role="3t49C2">
         <ref role="Rm8GQ" to="u8j:~InteractiveReferencePoint.CENTER" resolve="CENTER" />
         <ref role="1Px2BO" to="u8j:~InteractiveReferencePoint" resolve="InteractiveReferencePoint" />
@@ -9524,19 +9524,19 @@
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnOuA$8" role="V601i">
-      <property role="TrG5h" value="layered-merge-edges" />
+      <property role="TrG5h" value="diagram-layout-layered-merge-edges" />
       <node concept="10P_77" id="3biyEnOuAKd" role="3t5Oan" />
       <node concept="3clFbT" id="3biyEnOuAM5" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="3biyEnOuBMa" role="V601i">
-      <property role="TrG5h" value="layered-merge-hierarchy-crossing-edges" />
+      <property role="TrG5h" value="diagram-layout-layered-merge-hierarchy-crossing-edges" />
       <node concept="10P_77" id="3biyEnOuBMb" role="3t5Oan" />
       <node concept="3clFbT" id="3biyEnOuBMc" role="3t49C2">
         <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnOuEoM" role="V601i">
-      <property role="TrG5h" value="layered-port-sorting-strategy" />
+      <property role="TrG5h" value="diagram-layout-layered-port-sorting-strategy" />
       <node concept="3uibUv" id="3biyEnOuEA8" role="3t5Oan">
         <ref role="3uigEE" to="u8j:~PortSortingStrategy" resolve="PortSortingStrategy" />
       </node>
@@ -9546,7 +9546,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnOuIyb" role="V601i">
-      <property role="TrG5h" value="layered-thoroughness" />
+      <property role="TrG5h" value="diagram-layout-layered-thoroughness" />
       <node concept="10Oyi0" id="3biyEnOuIGZ" role="3t5Oan" />
       <node concept="3cmrfG" id="3biyEnOuIIS" role="3t49C2">
         <property role="3cmrfH" value="7" />
@@ -9557,7 +9557,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramSporeAlgorithmAttributes" />
     <node concept="3t5Usi" id="7L7aZ7jSbjL" role="V601i">
-      <property role="TrG5h" value="spore-compaction-strategy" />
+      <property role="TrG5h" value="diagram-layout-spore-compaction-strategy" />
       <node concept="3uibUv" id="7L7aZ7jSbjM" role="3t5Oan">
         <ref role="3uigEE" to="76o8:~CompactionStrategy" resolve="CompactionStrategy" />
       </node>
@@ -9567,26 +9567,26 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSboo" role="V601i">
-      <property role="TrG5h" value="spore-orthogonal-compaction" />
+      <property role="TrG5h" value="diagram-layout-spore-orthogonal-compaction" />
       <node concept="10P_77" id="7L7aZ7jSbq8" role="3t5Oan" />
       <node concept="3clFbT" id="7L7aZ7jSbuT" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYxvH" role="V601i">
-      <property role="TrG5h" value="spore-upper-limit-for-iterations-of-overlap-removal" />
+      <property role="TrG5h" value="diagram-layout-spore-upper-limit-for-iterations-of-overlap-removal" />
       <node concept="10Oyi0" id="56jSwhzYxwF" role="3t5Oan" />
       <node concept="3cmrfG" id="56jSwhzYxwL" role="3t49C2">
         <property role="3cmrfH" value="64" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYxwR" role="V601i">
-      <property role="TrG5h" value="spore-run-a-supplementary-scanline-overlap-check" />
+      <property role="TrG5h" value="diagram-layout-spore-run-a-supplementary-scanline-overlap-check" />
       <node concept="10P_77" id="56jSwhzYxyB" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYxyI" role="3t49C2">
         <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYJRX" role="V601i">
-      <property role="TrG5h" value="spore-tree-construction-strategy" />
+      <property role="TrG5h" value="diagram-layout-spore-tree-construction-strategy" />
       <node concept="3uibUv" id="56jSwhzYJSF" role="3t5Oan">
         <ref role="3uigEE" to="76o8:~TreeConstructionStrategy" resolve="TreeConstructionStrategy" />
       </node>
@@ -9596,7 +9596,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYJT_" role="V601i">
-      <property role="TrG5h" value="spore-cost-function-for-spanning-tree" />
+      <property role="TrG5h" value="diagram-layout-spore-cost-function-for-spanning-tree" />
       <node concept="3uibUv" id="56jSwhzYJTA" role="3t5Oan">
         <ref role="3uigEE" to="76o8:~SpanningTreeCostFunction" resolve="SpanningTreeCostFunction" />
       </node>
@@ -9606,13 +9606,13 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYJWr" role="V601i">
-      <property role="TrG5h" value="spore-root-node-for-spanning-tree-construction" />
+      <property role="TrG5h" value="diagram-layout-spore-root-node-for-spanning-tree-construction" />
       <node concept="3uibUv" id="56jSwhzYK21" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~String" resolve="String" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYK29" role="V601i">
-      <property role="TrG5h" value="spore-root-selection-for-spanning-tree" />
+      <property role="TrG5h" value="diagram-layout-spore-root-selection-for-spanning-tree" />
       <node concept="3uibUv" id="56jSwhzYK2a" role="3t5Oan">
         <ref role="3uigEE" to="76o8:~RootSelection" resolve="RootSelection" />
       </node>
@@ -9622,7 +9622,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTHH" role="V601i">
-      <property role="TrG5h" value="spore-structure-extraction-strategy" />
+      <property role="TrG5h" value="diagram-layout-spore-structure-extraction-strategy" />
       <node concept="3uibUv" id="56jSwhzYTHI" role="3t5Oan">
         <ref role="3uigEE" to="76o8:~StructureExtractionStrategy" resolve="StructureExtractionStrategy" />
       </node>
@@ -9632,7 +9632,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnNpSHW" role="V601i">
-      <property role="TrG5h" value="spore-underlying-layout-algorithm" />
+      <property role="TrG5h" value="diagram-layout-spore-underlying-layout-algorithm" />
       <node concept="17QB3L" id="3biyEnNpSW$" role="3t5Oan" />
     </node>
   </node>
@@ -9640,7 +9640,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramDiscoAlgorithmAttributes" />
     <node concept="3t5Usi" id="7L7aZ7jSbvI" role="V601i">
-      <property role="TrG5h" value="disco-connected-components-compaction-strategy" />
+      <property role="TrG5h" value="diagram-layout-disco-connected-components-compaction-strategy" />
       <node concept="3uibUv" id="7L7aZ7jSbvJ" role="3t5Oan">
         <ref role="3uigEE" to="hyfx:~CompactionStrategy" resolve="CompactionStrategy" />
       </node>
@@ -9650,7 +9650,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="7L7aZ7jSbyR" role="V601i">
-      <property role="TrG5h" value="disco-connected-components-layout-algorithm" />
+      <property role="TrG5h" value="diagram-layout-disco-connected-components-layout-algorithm" />
       <node concept="17QB3L" id="7L7aZ7jSb$t" role="3t5Oan" />
     </node>
   </node>
@@ -9658,14 +9658,14 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramCoreAttributes" />
     <node concept="3t5Usi" id="7L7aZ7jSdd6" role="V601i">
-      <property role="TrG5h" value="core-edge-thickness" />
+      <property role="TrG5h" value="diagram-layout-edge-thickness" />
       <node concept="10P55v" id="7L7aZ7jSded" role="3t5Oan" />
       <node concept="3b6qkQ" id="7L7aZ7jSdep" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYhVL" role="V601i">
-      <property role="TrG5h" value="core-node-label-padding" />
+      <property role="TrG5h" value="diagram-layout-node-label-padding" />
       <node concept="3uibUv" id="56jSwhzYhWN" role="3t5Oan">
         <ref role="3uigEE" to="vgho:~ElkPadding" resolve="ElkPadding" />
       </node>
@@ -9680,18 +9680,18 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYx2J" role="V601i">
-      <property role="TrG5h" value="core-fixed-graph-size" />
+      <property role="TrG5h" value="diagram-layout-fixed-graph-size" />
       <node concept="10P_77" id="56jSwhzYxuv" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYxvp" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYzBG" role="V601i">
-      <property role="TrG5h" value="core-layout-partition" />
+      <property role="TrG5h" value="diagram-layout-layout-partition" />
       <node concept="3uibUv" id="56jSwhzYzW1" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzY_c7" role="V601i">
-      <property role="TrG5h" value="core-layout-partition-activate" />
+      <property role="TrG5h" value="diagram-layout-partition-activate" />
       <node concept="3uibUv" id="56jSwhzY_c8" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
       </node>
@@ -9701,98 +9701,98 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKF7" role="V601i">
-      <property role="TrG5h" value="core-comment-comment-spacing" />
+      <property role="TrG5h" value="diagram-layout-comment-comment-spacing" />
       <node concept="10P55v" id="56jSwhzYLxn" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYLxv" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYLxC" role="V601i">
-      <property role="TrG5h" value="core-comment-node-spacing" />
+      <property role="TrG5h" value="diagram-layout-comment-node-spacing" />
       <node concept="10P55v" id="56jSwhzYLxD" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYLxE" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYLQA" role="V601i">
-      <property role="TrG5h" value="core-components-spacing" />
+      <property role="TrG5h" value="diagram-layout-components-spacing" />
       <node concept="10P55v" id="56jSwhzYLQB" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYMbL" role="3t49C2">
         <property role="$nhwW" value="20.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYMbU" role="V601i">
-      <property role="TrG5h" value="core-edge-spacing" />
+      <property role="TrG5h" value="diagram-layout-edge-spacing" />
       <node concept="10P55v" id="56jSwhzYMbV" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYN8j" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYN8p" role="V601i">
-      <property role="TrG5h" value="core-edge-label-spacing" />
+      <property role="TrG5h" value="diagram-layout-edge-label-spacing" />
       <node concept="10P55v" id="56jSwhzYN8q" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYNtH" role="3t49C2">
         <property role="$nhwW" value="2.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYNtN" role="V601i">
-      <property role="TrG5h" value="core-edge-node-spacing" />
+      <property role="TrG5h" value="diagram-layout-edge-node-spacing" />
       <node concept="10P55v" id="56jSwhzYNtO" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYOqj" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYOqs" role="V601i">
-      <property role="TrG5h" value="core-label-spacing" />
+      <property role="TrG5h" value="diagram-layout-label-spacing" />
       <node concept="10P55v" id="56jSwhzYOqt" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYOJT" role="3t49C2">
         <property role="$nhwW" value="0.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYOK2" role="V601i">
-      <property role="TrG5h" value="core-label-node-spacing" />
+      <property role="TrG5h" value="diagram-layout-label-node-spacing" />
       <node concept="10P55v" id="56jSwhzYOK3" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYPGw" role="3t49C2">
         <property role="$nhwW" value="5.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYPGD" role="V601i">
-      <property role="TrG5h" value="core-horizontal-spacing-between-label-and-port" />
+      <property role="TrG5h" value="diagram-layout-horizontal-spacing-between-label-and-port" />
       <node concept="10P55v" id="56jSwhzYPGE" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYQ2p" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYQ2v" role="V601i">
-      <property role="TrG5h" value="core-vertical-spacing-between-label-and-port" />
+      <property role="TrG5h" value="diagram-layout-vertical-spacing-between-label-and-port" />
       <node concept="10P55v" id="56jSwhzYQ2w" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYQ2x" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYQYV" role="V601i">
-      <property role="TrG5h" value="core-node-spacing" />
+      <property role="TrG5h" value="diagram-layout-node-spacing" />
       <node concept="10P55v" id="56jSwhzYQYW" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYRky" role="3t49C2">
         <property role="$nhwW" value="20.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYRkC" role="V601i">
-      <property role="TrG5h" value="core-self-loop-spacing" />
+      <property role="TrG5h" value="diagram-layout-self-loop-spacing" />
       <node concept="10P55v" id="56jSwhzYRkD" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYREd" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYREm" role="V601i">
-      <property role="TrG5h" value="core-port-spacing" />
+      <property role="TrG5h" value="diagram-layout-port-spacing" />
       <node concept="10P55v" id="56jSwhzYREn" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYREo" role="3t49C2">
         <property role="$nhwW" value="10.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYSWK" role="V601i">
-      <property role="TrG5h" value="core-additional-port-space" />
+      <property role="TrG5h" value="diagram-layout-additional-port-space" />
       <node concept="3uibUv" id="56jSwhzYTix" role="3t5Oan">
         <ref role="3uigEE" to="vgho:~ElkMargin" resolve="ElkMargin" />
       </node>
@@ -9807,13 +9807,13 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$19pg" role="V601i">
-      <property role="TrG5h" value="core-aspect-ratio" />
+      <property role="TrG5h" value="diagram-layout-aspect-ratio" />
       <node concept="3uibUv" id="56jSwh$19LK" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$1IEX" role="V601i">
-      <property role="TrG5h" value="core-content-alignment" />
+      <property role="TrG5h" value="diagram-layout-content-alignment" />
       <node concept="3uibUv" id="56jSwh$1IEY" role="3t5Oan">
         <ref role="3uigEE" to="33ny:~EnumSet" resolve="EnumSet" />
         <node concept="3uibUv" id="56jSwh$1JU2" role="11_B2D">
@@ -9826,27 +9826,27 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$1SzN" role="V601i">
-      <property role="TrG5h" value="core-expand-nodes" />
+      <property role="TrG5h" value="diagram-layout-expand-nodes" />
       <node concept="10P_77" id="56jSwh$1ULm" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$1UZP" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwh$2097" role="V601i">
-      <property role="TrG5h" value="core-interactive" />
+      <property role="TrG5h" value="diagram-layout-interactive" />
       <node concept="10P_77" id="56jSwh$2098" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$2099" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="vVBnaNT$lk" role="V601i">
-      <property role="TrG5h" value="core-inline-edge-labels" />
+      <property role="TrG5h" value="diagram-layout-inline-edge-labels" />
       <node concept="10P_77" id="vVBnaNT$ll" role="3t5Oan" />
       <node concept="3clFbT" id="vVBnaNT$lm" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="qwNnoDPfBg" role="V601i">
-      <property role="TrG5h" value="core-interactive-layout" />
+      <property role="TrG5h" value="diagram-layout-interactive-layout" />
       <node concept="10P_77" id="qwNnoDPfBh" role="3t5Oan" />
       <node concept="3clFbT" id="qwNnoDPfBi" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwh$3xAj" role="V601i">
-      <property role="TrG5h" value="core-padding" />
+      <property role="TrG5h" value="diagram-layout-padding" />
       <node concept="3uibUv" id="56jSwh$3yjo" role="3t5Oan">
         <ref role="3uigEE" to="vgho:~ElkPadding" resolve="ElkPadding" />
       </node>
@@ -9861,12 +9861,12 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$TCcP" role="V601i">
-      <property role="TrG5h" value="core-omit-node-micro-layout" />
+      <property role="TrG5h" value="diagram-layout-omit-node-micro-layout" />
       <node concept="10P_77" id="56jSwh$TD6Z" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$TD7Q" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="qwNnoDG0nF" role="V601i">
-      <property role="TrG5h" value="core-randomization-seed" />
+      <property role="TrG5h" value="diagram-layout-randomization-seed" />
       <node concept="3uibUv" id="qwNnoDG1S$" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
@@ -9879,7 +9879,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEJwkp" role="V601i">
-      <property role="TrG5h" value="core-direction" />
+      <property role="TrG5h" value="diagram-layout-direction" />
       <node concept="3uibUv" id="qwNnoEJwkq" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~Direction" resolve="Direction" />
       </node>
@@ -9889,13 +9889,13 @@
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEJLcg" role="V601i">
-      <property role="TrG5h" value="core-separate-connected-components" />
+      <property role="TrG5h" value="diagram-layout-separate-connected-components" />
       <node concept="3uibUv" id="qwNnoEJLMe" role="3t5Oan">
         <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEJWpI" role="V601i">
-      <property role="TrG5h" value="core-topdown-layout" />
+      <property role="TrG5h" value="diagram-layout-topdown-layout" />
       <node concept="10P_77" id="qwNnoEJXvB" role="3t5Oan" />
       <node concept="3clFbT" id="qwNnoEJXwT" role="3t49C2" />
     </node>
@@ -9904,7 +9904,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramTopDownAlgorithmAttributes" />
     <node concept="3t5Usi" id="56jSwhzYh1i" role="V601i">
-      <property role="TrG5h" value="topdown-node-arrangement-strategy" />
+      <property role="TrG5h" value="diagram-layout-topdown-node-arrangement-strategy" />
       <node concept="3uibUv" id="56jSwhzYh1j" role="3t5Oan">
         <ref role="3uigEE" to="gou7:~NodeArrangementStrategy" resolve="NodeArrangementStrategy" />
       </node>
@@ -9914,47 +9914,47 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTLf" role="V601i">
-      <property role="TrG5h" value="topdown-scale-factor" />
+      <property role="TrG5h" value="diagram-layout-topdown-scale-factor" />
       <node concept="10P55v" id="56jSwhzYTNs" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYTNI" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTO1" role="V601i">
-      <property role="TrG5h" value="topdown-size-approximator" />
+      <property role="TrG5h" value="diagram-layout-topdown-size-approximator" />
       <node concept="3uibUv" id="56jSwhzYTOJ" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~TopdownSizeApproximator" resolve="TopdownSizeApproximator" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTOR" role="V601i">
-      <property role="TrG5h" value="topdown-hierarchical-node-width" />
+      <property role="TrG5h" value="diagram-layout-topdown-hierarchical-node-width" />
       <node concept="10P55v" id="56jSwhzYTP$" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYTPK" role="3t49C2">
         <property role="$nhwW" value="150.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTPQ" role="V601i">
-      <property role="TrG5h" value="topdown-hierarchical-node-aspect-ratio" />
+      <property role="TrG5h" value="diagram-layout-topdown-hierarchical-node-aspect-ratio" />
       <node concept="10P55v" id="56jSwhzYTPR" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYTPS" role="3t49C2">
         <property role="$nhwW" value="1.414" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTQA" role="V601i">
-      <property role="TrG5h" value="topdown-node-type" />
+      <property role="TrG5h" value="diagram-layout-topdown-node-type" />
       <node concept="3uibUv" id="56jSwhzYTRi" role="3t5Oan">
         <ref role="3uigEE" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTRp" role="V601i">
-      <property role="TrG5h" value="topdown-scale-cap" />
+      <property role="TrG5h" value="diagram-layout-topdown-scale-cap" />
       <node concept="10P55v" id="56jSwhzYTSe" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYTSn" role="3t49C2">
         <property role="$nhwW" value="1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnO4J6x" role="V601i">
-      <property role="TrG5h" value="topdown-whitespace-elimination-strategy" />
+      <property role="TrG5h" value="diagram-layout-topdown-whitespace-elimination-strategy" />
       <node concept="Rm8GO" id="3biyEnO4JpJ" role="3t49C2">
         <ref role="Rm8GQ" to="gou7:~WhitespaceEliminationStrategy.BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" resolve="BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" />
         <ref role="1Px2BO" to="gou7:~WhitespaceEliminationStrategy" resolve="WhitespaceEliminationStrategy" />
@@ -9968,7 +9968,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramRectPackingAlgorithmAttributes" />
     <node concept="3t5Usi" id="56jSwhzYxz0" role="V601i">
-      <property role="TrG5h" value="rectpacking-compaction-strategy" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-compaction-strategy" />
       <node concept="3uibUv" id="56jSwhzYxz1" role="3t5Oan">
         <ref role="3uigEE" to="onu9:~PackingStrategy" resolve="PackingStrategy" />
       </node>
@@ -9978,25 +9978,25 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYxEl" role="V601i">
-      <property role="TrG5h" value="rectpacking-row-height-reevaluation" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-row-height-reevaluation" />
       <node concept="10P_77" id="56jSwhzYxG1" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYxGi" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYxGt" role="V601i">
-      <property role="TrG5h" value="rectpacking-compaction-iterations" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-compaction-iterations" />
       <node concept="10Oyi0" id="56jSwhzYxHg" role="3t5Oan" />
       <node concept="3cmrfG" id="56jSwhzYxHn" role="3t49C2">
         <property role="3cmrfH" value="1" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTSL" role="V601i">
-      <property role="TrG5h" value="rectpacking-white-space-approximation-strategy" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-white-space-approximation-strategy" />
       <node concept="3uibUv" id="56jSwhzYTTQ" role="3t5Oan">
         <ref role="3uigEE" to="onpr:~WhiteSpaceEliminationStrategy" resolve="WhiteSpaceEliminationStrategy" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTTY" role="V601i">
-      <property role="TrG5h" value="rectpacking-width-approximation-strategy" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-width-approximation-strategy" />
       <node concept="3uibUv" id="56jSwhzYTTZ" role="3t5Oan">
         <ref role="3uigEE" to="1h9k:~WidthApproximationStrategy" resolve="WidthApproximationStrategy" />
       </node>
@@ -10006,14 +10006,14 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYTZY" role="V601i">
-      <property role="TrG5h" value="rectpacking-target-width" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-target-width" />
       <node concept="10P55v" id="56jSwhzYU1B" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYU22" role="3t49C2">
         <property role="$nhwW" value="-1.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYU2l" role="V601i">
-      <property role="TrG5h" value="rectpacking-optimization-goal" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-optimization-goal" />
       <node concept="3uibUv" id="56jSwhzYU7h" role="3t5Oan">
         <ref role="3uigEE" to="7bmw:~OptimizationGoal" resolve="OptimizationGoal" />
       </node>
@@ -10023,14 +10023,14 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYU8b" role="V601i">
-      <property role="TrG5h" value="rectpacking-shift-last-placed" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-shift-last-placed" />
       <node concept="10P_77" id="56jSwhzYUaw" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYUaP" role="3t49C2">
         <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoDPDdx" role="V601i">
-      <property role="TrG5h" value="rectpacking-try-box-layout-first" />
+      <property role="TrG5h" value="diagram-layout-rectpacking-try-box-layout-first" />
       <node concept="10P_77" id="qwNnoDPDdy" role="3t5Oan" />
       <node concept="3clFbT" id="qwNnoDPDdz" role="3t49C2" />
     </node>
@@ -10039,7 +10039,7 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramPolyominoAttributes" />
     <node concept="3t5Usi" id="56jSwhzYAzQ" role="V601i">
-      <property role="TrG5h" value="polyomino-traversal-strategy" />
+      <property role="TrG5h" value="diagram-layout-polyomino-traversal-strategy" />
       <node concept="3uibUv" id="56jSwhzYAzR" role="3t5Oan">
         <ref role="3uigEE" to="ikqz:~TraversalStrategy" resolve="TraversalStrategy" />
       </node>
@@ -10049,7 +10049,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYABM" role="V601i">
-      <property role="TrG5h" value="polyomino-secondary-sorting-criterion" />
+      <property role="TrG5h" value="diagram-layout-polyomino-secondary-sorting-criterion" />
       <node concept="3uibUv" id="56jSwhzYABN" role="3t5Oan">
         <ref role="3uigEE" to="ikqz:~LowLevelSortingCriterion" resolve="LowLevelSortingCriterion" />
       </node>
@@ -10059,7 +10059,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYAE$" role="V601i">
-      <property role="TrG5h" value="polyomino-primary-sorting-criterion" />
+      <property role="TrG5h" value="diagram-layout-polyomino-primary-sorting-criterion" />
       <node concept="3uibUv" id="56jSwhzYAE_" role="3t5Oan">
         <ref role="3uigEE" to="ikqz:~HighLevelSortingCriterion" resolve="HighLevelSortingCriterion" />
       </node>
@@ -10069,7 +10069,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYAIl" role="V601i">
-      <property role="TrG5h" value="polyomino-fill-polyominoes" />
+      <property role="TrG5h" value="diagram-layout-polyomino-fill-polyominoes" />
       <node concept="10P_77" id="56jSwhzYALZ" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYAMC" role="3t49C2">
         <property role="3clFbU" value="true" />
@@ -10080,14 +10080,14 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramRadialAlgorithmAttributes" />
     <node concept="3t5Usi" id="56jSwhzYKas" role="V601i">
-      <property role="TrG5h" value="radial-target-angle" />
+      <property role="TrG5h" value="diagram-layout-radial-target-angle" />
       <node concept="10P55v" id="56jSwhzYKbT" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwhzYKch" role="3t49C2">
         <property role="$nhwW" value="0.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$TIup" role="V601i">
-      <property role="TrG5h" value="radial-translation-optimization" />
+      <property role="TrG5h" value="diagram-layout-radial-translation-optimization" />
       <node concept="Rm8GO" id="56jSwh$TIGV" role="3t49C2">
         <ref role="Rm8GQ" to="yrb0:~RadialTranslationStrategy.NONE" resolve="NONE" />
         <ref role="1Px2BO" to="yrb0:~RadialTranslationStrategy" resolve="RadialTranslationStrategy" />
@@ -10097,17 +10097,17 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwhzYKcq" role="V601i">
-      <property role="TrG5h" value="radial-additional-wedge-space" />
+      <property role="TrG5h" value="diagram-layout-radial-additional-wedge-space" />
       <node concept="10P_77" id="56jSwhzYKdi" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYKdo" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwhzYKdu" role="V601i">
-      <property role="TrG5h" value="radial-outgoing-edge-angles" />
+      <property role="TrG5h" value="diagram-layout-radial-outgoing-edge-angles" />
       <node concept="10P_77" id="56jSwhzYKdv" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwhzYKdw" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwh$TyOg" role="V601i">
-      <property role="TrG5h" value="radial-annulus-wedge-criteria" />
+      <property role="TrG5h" value="diagram-layout-radial-annulus-wedge-criteria" />
       <node concept="3uibUv" id="56jSwh$Tz2_" role="3t5Oan">
         <ref role="3uigEE" to="yrb0:~AnnulusWedgeCriteria" resolve="AnnulusWedgeCriteria" />
       </node>
@@ -10117,12 +10117,12 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$TzMJ" role="V601i">
-      <property role="TrG5h" value="radial-center-on-root" />
+      <property role="TrG5h" value="diagram-layout-radial-center-on-root" />
       <node concept="10P_77" id="56jSwh$TzVB" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$T$3e" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwh$T$A8" role="V601i">
-      <property role="TrG5h" value="radial-compaction" />
+      <property role="TrG5h" value="diagram-layout-radial-compaction" />
       <node concept="Rm8GO" id="56jSwh$T$PO" role="3t49C2">
         <ref role="Rm8GQ" to="yrb0:~CompactionStrategy.NONE" resolve="NONE" />
         <ref role="1Px2BO" to="yrb0:~CompactionStrategy" resolve="CompactionStrategy" />
@@ -10132,26 +10132,26 @@
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$T$QQ" role="V601i">
-      <property role="TrG5h" value="radial-compaction-step-size" />
+      <property role="TrG5h" value="diagram-layout-radial-compaction-step-size" />
       <node concept="10Oyi0" id="56jSwh$T$Yw" role="3t5Oan" />
       <node concept="3cmrfG" id="56jSwh$T_0t" role="3t49C2">
         <property role="3cmrfH" value="1" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$TDN8" role="V601i">
-      <property role="TrG5h" value="radial-radius" />
+      <property role="TrG5h" value="diagram-layout-radial-radius" />
       <node concept="10P55v" id="56jSwh$TDSn" role="3t5Oan" />
       <node concept="3b6qkQ" id="56jSwh$TDTF" role="3t49C2">
         <property role="$nhwW" value="0.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="56jSwh$TEpx" role="V601i">
-      <property role="TrG5h" value="radial-rotate" />
+      <property role="TrG5h" value="diagram-layout-radial-rotate" />
       <node concept="10P_77" id="56jSwh$TEun" role="3t5Oan" />
       <node concept="3clFbT" id="56jSwh$TEvh" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="56jSwh$TFlt" role="V601i">
-      <property role="TrG5h" value="radial-sorter" />
+      <property role="TrG5h" value="diagram-layout-radial-sorter" />
       <node concept="Rm8GO" id="56jSwh$TFw3" role="3t49C2">
         <ref role="Rm8GQ" to="yrb0:~SortingStrategy.NONE" resolve="NONE" />
         <ref role="1Px2BO" to="yrb0:~SortingStrategy" resolve="SortingStrategy" />
@@ -12044,14 +12044,14 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramTreeAlgorithmAttributes" />
     <node concept="3t5Usi" id="qwNnoEIF79" role="V601i">
-      <property role="TrG5h" value="tree-edge-end-texture-length" />
+      <property role="TrG5h" value="diagram-layout-tree-edge-end-texture-length" />
       <node concept="10P55v" id="qwNnoEJBOM" role="3t5Oan" />
       <node concept="3b6qkQ" id="qwNnoEJBSP" role="3t49C2">
         <property role="$nhwW" value="7.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEJDSC" role="V601i">
-      <property role="TrG5h" value="tree-edge-routing-mode" />
+      <property role="TrG5h" value="diagram-layout-tree-edge-routing-mode" />
       <node concept="Rm8GO" id="qwNnoEJE9F" role="3t49C2">
         <ref role="Rm8GQ" to="4fog:~EdgeRoutingMode.AVOID_OVERLAP" resolve="AVOID_OVERLAP" />
         <ref role="1Px2BO" to="4fog:~EdgeRoutingMode" resolve="EdgeRoutingMode" />
@@ -12061,7 +12061,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEJI5F" role="V601i">
-      <property role="TrG5h" value="tree-search-order" />
+      <property role="TrG5h" value="diagram-layout-tree-search-order" />
       <node concept="3uibUv" id="qwNnoEJI5H" role="3t5Oan">
         <ref role="3uigEE" to="4fog:~TreeifyingOrder" resolve="TreeifyingOrder" />
       </node>
@@ -12071,7 +12071,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="qwNnoEK0mZ" role="V601i">
-      <property role="TrG5h" value="tree-weighting" />
+      <property role="TrG5h" value="diagram-layout-tree-weighting" />
       <node concept="3uibUv" id="qwNnoEK0n0" role="3t5Oan">
         <ref role="3uigEE" to="4fog:~OrderWeighting" resolve="OrderWeighting" />
       </node>
@@ -13295,19 +13295,19 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramStressAttributes" />
     <node concept="3t5Usi" id="3biyEnNNJxh" role="V601i">
-      <property role="TrG5h" value="stress-desired-edge-length" />
+      <property role="TrG5h" value="diagram-layout-stress-desired-edge-length" />
       <node concept="10P55v" id="3biyEnNNJxi" role="3t5Oan" />
       <node concept="3b6qkQ" id="3biyEnNNJxj" role="3t49C2">
         <property role="$nhwW" value="100.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnNNMAG" role="V601i">
-      <property role="TrG5h" value="stress-fixed-position" />
+      <property role="TrG5h" value="diagram-layout-stress-fixed-position" />
       <node concept="10P_77" id="3biyEnNNMBu" role="3t5Oan" />
       <node concept="3clFbT" id="3biyEnNNMB_" role="3t49C2" />
     </node>
     <node concept="3t5Usi" id="3biyEnNNO5z" role="V601i">
-      <property role="TrG5h" value="stress-iteration-limit" />
+      <property role="TrG5h" value="diagram-layout-stress-iteration-limit" />
       <node concept="10Oyi0" id="3biyEnNNO66" role="3t5Oan" />
       <node concept="10M0yZ" id="3biyEnNNO6r" role="3t49C2">
         <ref role="3cqZAo" to="wyt6:~Integer.MAX_VALUE" resolve="MAX_VALUE" />
@@ -13315,7 +13315,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnNNOHG" role="V601i">
-      <property role="TrG5h" value="stress-layout-dimension" />
+      <property role="TrG5h" value="diagram-layout-stress-layout-dimension" />
       <node concept="3uibUv" id="3biyEnNNOIB" role="3t5Oan">
         <ref role="3uigEE" to="zebo:~StressMajorization$Dimension" resolve="StressMajorization.Dimension" />
       </node>
@@ -13325,7 +13325,7 @@
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnNNRzB" role="V601i">
-      <property role="TrG5h" value="stress-epsilon" />
+      <property role="TrG5h" value="diagram-layout-stress-epsilon" />
       <node concept="10P55v" id="3biyEnNNR_9" role="3t5Oan" />
       <node concept="3b6qkQ" id="3biyEnNNRFw" role="3t49C2">
         <property role="$nhwW" value="10.e-4" />
@@ -13831,14 +13831,14 @@
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramForceAttributes" />
     <node concept="3t5Usi" id="3biyEnNU6J$" role="V601i">
-      <property role="TrG5h" value="force-eades-repulsion" />
+      <property role="TrG5h" value="diagram-layout-force-eades-repulsion" />
       <node concept="10P55v" id="3biyEnNU6J_" role="3t5Oan" />
       <node concept="3b6qkQ" id="3biyEnNU6Za" role="3t49C2">
         <property role="$nhwW" value="5.0" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnNU85O" role="V601i">
-      <property role="TrG5h" value="force-model" />
+      <property role="TrG5h" value="diagram-layout-force-model" />
       <node concept="3uibUv" id="3biyEnNU8eP" role="3t5Oan">
         <ref role="3uigEE" to="nnri:~ForceModelStrategy" resolve="ForceModelStrategy" />
       </node>
@@ -13848,14 +13848,14 @@
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnNU8Ey" role="V601i">
-      <property role="TrG5h" value="force-temperature" />
+      <property role="TrG5h" value="diagram-layout-force-temperature" />
       <node concept="10P55v" id="3biyEnNU8K0" role="3t5Oan" />
       <node concept="3b6qkQ" id="3biyEnNU8Nc" role="3t49C2">
         <property role="$nhwW" value="0.001" />
       </node>
     </node>
     <node concept="3t5Usi" id="3biyEnNU9rP" role="V601i">
-      <property role="TrG5h" value="force-iterations" />
+      <property role="TrG5h" value="diagram-layout-force-iterations" />
       <node concept="10Oyi0" id="3biyEnNU9xM" role="3t5Oan" />
       <node concept="3cmrfG" id="3biyEnNU9z6" role="3t49C2">
         <property role="3cmrfH" value="300" />

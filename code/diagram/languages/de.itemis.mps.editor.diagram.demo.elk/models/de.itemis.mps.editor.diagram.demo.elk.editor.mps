@@ -279,7 +279,7 @@
           <property role="1NdBj4" value="6Bd7VwqYQAT/RIGHT" />
         </node>
         <node concept="3tD6jV" id="3biyEnPFnZv" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYWdc" resolve="layered-unnecessary-bend-points" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYWdc" resolve="diagram-layout-layered-unnecessary-bend-points" />
           <node concept="3sjG9q" id="3biyEnPFnZw" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnPFnZx" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_HWHw" role="3cqZAp">
@@ -299,7 +299,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnPFo4R" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYUj5" resolve="layered-additional-wrapped-edges-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYUj5" resolve="diagram-layout-layered-additional-wrapped-edges-spacing" />
           <node concept="3sjG9q" id="3biyEnPFo4T" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnPFo4V" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_I4Wz" role="3cqZAp">
@@ -323,7 +323,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnPFoao" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
           <node concept="3sjG9q" id="3biyEnPFoaq" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnPFoas" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_I5o2" role="3cqZAp">
@@ -347,7 +347,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnPFomz" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYjKC" resolve="layered-brandes-koepf-edge-straightening" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYjKC" resolve="diagram-layout-layered-brandes-koepf-edge-straightening" />
           <node concept="3sjG9q" id="3biyEnPFom_" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnPFomB" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_I6lh" role="3cqZAp">
@@ -375,7 +375,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnPFoz5" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYjPW" resolve="layered-brandes-koepf-fixed-alignment" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYjPW" resolve="diagram-layout-layered-brandes-koepf-fixed-alignment" />
           <node concept="3sjG9q" id="3biyEnPFoz7" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnPFoz9" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_ICfF" role="3cqZAp">
@@ -403,7 +403,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnPFoIT" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYKF7" resolve="core-comment-comment-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYKF7" resolve="diagram-layout-comment-comment-spacing" />
           <node concept="3sjG9q" id="3biyEnPFoIV" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnPFoIX" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IDZt" role="3cqZAp">
@@ -427,7 +427,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HCV1" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYLxC" resolve="core-comment-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYLxC" resolve="diagram-layout-comment-node-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HCV3" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HCV5" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IEOl" role="3cqZAp">
@@ -451,7 +451,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HDfI" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYLQA" resolve="core-components-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYLQA" resolve="diagram-layout-components-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HDfK" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HDfM" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IFfd" role="3cqZAp">
@@ -475,7 +475,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HDnr" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbaC" resolve="layered-connected-component-compaction" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbaC" resolve="diagram-layout-layered-connected-component-compaction" />
           <node concept="3sjG9q" id="2nNmQB_HDnt" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HDnv" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IFGr" role="3cqZAp">
@@ -495,7 +495,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HDA2" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSb_0" resolve="layered-consider-model-order" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSb_0" resolve="diagram-layout-layered-consider-model-order" />
           <node concept="3sjG9q" id="2nNmQB_HDA4" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HDA6" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IG97" role="3cqZAp">
@@ -523,7 +523,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HDMk" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbJN" resolve="layered-consider-model-order-for-components" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbJN" resolve="diagram-layout-layered-consider-model-order-for-components" />
           <node concept="3sjG9q" id="2nNmQB_HDMm" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HDMo" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IHgf" role="3cqZAp">
@@ -551,7 +551,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HEaY" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbCz" resolve="layered-consider-port-order" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbCz" resolve="diagram-layout-layered-consider-port-order" />
           <node concept="3sjG9q" id="2nNmQB_HEb0" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HEb2" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IJbL" role="3cqZAp">
@@ -571,7 +571,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HEhr" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYUR8" resolve="layered-correction-factor-for-wrapping" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYUR8" resolve="diagram-layout-layered-correction-factor-for-wrapping" />
           <node concept="3sjG9q" id="2nNmQB_HEht" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HEhv" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IJHB" role="3cqZAp">
@@ -595,7 +595,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HEnY" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSc0y" resolve="layered-crossing-counter-node-order-influence" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSc0y" resolve="diagram-layout-layered-crossing-counter-node-order-influence" />
           <node concept="3sjG9q" id="2nNmQB_HEo0" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HEo2" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IKuD" role="3cqZAp">
@@ -619,7 +619,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HEvr" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSczf" resolve="layered-crossing-counter-port-order-influence" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSczf" resolve="diagram-layout-layered-crossing-counter-port-order-influence" />
           <node concept="3sjG9q" id="2nNmQB_HEvt" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HEvv" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IKRe" role="3cqZAp">
@@ -643,7 +643,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HEDq" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSc$p" resolve="layered-crossing-minimization-strategy" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSc$p" resolve="diagram-layout-layered-crossing-minimization-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HEDs" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HEDu" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_ILma" role="3cqZAp">
@@ -671,7 +671,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HFl0" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYUWr" resolve="layered-cutting-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYUWr" resolve="diagram-layout-layered-cutting-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HFl2" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HFl4" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_INPv" role="3cqZAp">
@@ -699,7 +699,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HFyK" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSd7N" resolve="layered-cycle-breaking-strategy" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSd7N" resolve="diagram-layout-layered-cycle-breaking-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HFyM" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HFyO" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IOWq" role="3cqZAp">
@@ -727,7 +727,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HFOg" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJwkp" resolve="core-direction" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJwkp" resolve="diagram-layout-direction" />
           <node concept="3sjG9q" id="2nNmQB_HFOi" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HFOk" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IQ1u" role="3cqZAp">
@@ -755,7 +755,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HG3O" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuszs" resolve="layered-direction-congruence" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuszs" resolve="diagram-layout-layered-direction-congruence" />
           <node concept="3sjG9q" id="2nNmQB_HG3Q" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HG3S" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IRea" role="3cqZAp">
@@ -783,7 +783,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HGhQ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOutCp" resolve="layered-multi-edge-distance-penalty" />
+          <ref role="3tD7wE" to="88j9:3biyEnOutCp" resolve="diagram-layout-layered-multi-edge-distance-penalty" />
           <node concept="3sjG9q" id="2nNmQB_HGhS" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HGhU" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IRi8" role="3cqZAp">
@@ -807,7 +807,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HGpX" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSdu8" resolve="layered-edge-center-label-placement-strategy" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSdu8" resolve="diagram-layout-layered-edge-center-label-placement-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HGpZ" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HGq1" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IT3j" role="3cqZAp">
@@ -835,7 +835,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HGCb" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYKqC" resolve="layered-edge-edge-between-layers-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYKqC" resolve="diagram-layout-layered-edge-edge-between-layers-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HGCd" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HGCf" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IUhC" role="3cqZAp">
@@ -859,7 +859,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HGRM" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSdon" resolve="layered-edge-label-side-selection" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSdon" resolve="diagram-layout-layered-edge-label-side-selection" />
           <node concept="3sjG9q" id="2nNmQB_HGRO" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HGRQ" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IVYi" role="3cqZAp">
@@ -887,7 +887,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HH6c" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYN8p" resolve="core-edge-label-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYN8p" resolve="diagram-layout-edge-label-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HH6e" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HH6g" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IX3K" role="3cqZAp">
@@ -911,7 +911,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HHgj" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYKlu" resolve="layered-edge-node-between-layers-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYKlu" resolve="diagram-layout-layered-edge-node-between-layers-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HHgl" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HHgn" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IXuP" role="3cqZAp">
@@ -935,7 +935,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HHpG" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYNtN" resolve="core-edge-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYNtN" resolve="diagram-layout-edge-node-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HHpI" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HHpK" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IYaJ" role="3cqZAp">
@@ -959,7 +959,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HHFj" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYMbU" resolve="core-edge-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYMbU" resolve="diagram-layout-edge-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HHFl" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HHFn" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_IZUA" role="3cqZAp">
@@ -983,7 +983,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HHXU" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSdd6" resolve="core-edge-thickness" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSdd6" resolve="diagram-layout-edge-thickness" />
           <node concept="3sjG9q" id="2nNmQB_HHXW" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HHXY" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J0q6" role="3cqZAp">
@@ -1007,7 +1007,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HI5X" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYj1t" resolve="layered-favor-straight-edges-over-balancing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYj1t" resolve="diagram-layout-layered-favor-straight-edges-over-balancing" />
           <node concept="3sjG9q" id="2nNmQB_HI5Z" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HI61" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J0Xe" role="3cqZAp">
@@ -1027,7 +1027,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HIiu" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuw8o" resolve="layered-feedback-edges" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuw8o" resolve="diagram-layout-layered-feedback-edges" />
           <node concept="3sjG9q" id="2nNmQB_HIiw" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HIiy" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J1yo" role="3cqZAp">
@@ -1047,7 +1047,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HIqJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
           <node concept="3sjG9q" id="2nNmQB_HIqL" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HIqN" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J1OE" role="3cqZAp">
@@ -1067,7 +1067,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HIJg" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jScB2" resolve="layered-force-node-model-order" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jScB2" resolve="diagram-layout-layered-force-node-model-order" />
           <node concept="3sjG9q" id="2nNmQB_HIJi" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HIJk" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J20O" role="3cqZAp">
@@ -1087,7 +1087,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HIRF" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuxi7" resolve="layered-generate-position-and-layer-ids" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuxi7" resolve="diagram-layout-layered-generate-position-and-layer-ids" />
           <node concept="3sjG9q" id="2nNmQB_HIRH" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HIRJ" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J2jp" role="3cqZAp">
@@ -1107,7 +1107,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HJ6G" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYUd6" resolve="layered-graph-wrapping-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYUd6" resolve="diagram-layout-layered-graph-wrapping-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HJ6I" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HJ6K" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J2Ax" role="3cqZAp">
@@ -1135,7 +1135,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HJlk" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jScUW" resolve="layered-greedy-switch-activation-threshold" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jScUW" resolve="diagram-layout-layered-greedy-switch-activation-threshold" />
           <node concept="3sjG9q" id="2nNmQB_HJlm" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HJlo" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J4Qs" role="3cqZAp">
@@ -1155,7 +1155,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HJBK" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jScWV" resolve="layered-greedy-switch-crossing-minimization" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jScWV" resolve="diagram-layout-layered-greedy-switch-crossing-minimization" />
           <node concept="3sjG9q" id="2nNmQB_HJBM" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HJBO" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J69i" role="3cqZAp">
@@ -1183,7 +1183,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HJSf" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jScZI" resolve="layered-greedy-switch-crossing-minimization-hierarchical" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jScZI" resolve="diagram-layout-layered-greedy-switch-crossing-minimization-hierarchical" />
           <node concept="3sjG9q" id="2nNmQB_HJSh" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HJSj" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J74y" role="3cqZAp">
@@ -1211,7 +1211,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HK0m" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jScEC" resolve="layered-hierarchical-sweepiness" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jScEC" resolve="diagram-layout-layered-hierarchical-sweepiness" />
           <node concept="3sjG9q" id="2nNmQB_HK0o" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HK0q" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J7p3" role="3cqZAp">
@@ -1235,7 +1235,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HK9n" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYgaM" resolve="layered-high-degree-node-maximum-tree-height" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYgaM" resolve="diagram-layout-layered-high-degree-node-maximum-tree-height" />
           <node concept="3sjG9q" id="2nNmQB_HK9p" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HK9r" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J8nt" role="3cqZAp">
@@ -1255,7 +1255,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HKiu" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYg7e" resolve="layered-high-degree-node-threshold" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYg7e" resolve="diagram-layout-layered-high-degree-node-threshold" />
           <node concept="3sjG9q" id="2nNmQB_HKiw" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HKiy" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J8IL" role="3cqZAp">
@@ -1275,7 +1275,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HKtj" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYg3m" resolve="layered-high-degree-node-treatment" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYg3m" resolve="diagram-layout-layered-high-degree-node-treatment" />
           <node concept="3sjG9q" id="2nNmQB_HKtl" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HKtn" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J927" role="3cqZAp">
@@ -1295,7 +1295,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HKBX" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYPGD" resolve="core-horizontal-spacing-between-label-and-port" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYPGD" resolve="diagram-layout-horizontal-spacing-between-label-and-port" />
           <node concept="3sjG9q" id="2nNmQB_HKBZ" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HKC1" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J9xv" role="3cqZAp">
@@ -1319,7 +1319,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HKJZ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYW0Z" resolve="layered-improve-cuts" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYW0Z" resolve="diagram-layout-layered-improve-cuts" />
           <node concept="3sjG9q" id="2nNmQB_HKK1" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HKK3" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JbkI" role="3cqZAp">
@@ -1339,7 +1339,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HKTu" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuj3A" resolve="layered-improve-wrapped-edges" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuj3A" resolve="diagram-layout-layered-improve-wrapped-edges" />
           <node concept="3sjG9q" id="2nNmQB_HKTw" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HKTy" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JbR2" role="3cqZAp">
@@ -1359,7 +1359,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HL5v" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoDPfBg" resolve="core-interactive-layout" />
+          <ref role="3tD7wE" to="88j9:qwNnoDPfBg" resolve="diagram-layout-interactive-layout" />
           <node concept="3sjG9q" id="2nNmQB_HL5x" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HL5z" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_Jc8q" role="3cqZAp">
@@ -1379,7 +1379,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HLfY" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuzUU" resolve="layered-interactive-reference-point" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuzUU" resolve="diagram-layout-layered-interactive-reference-point" />
           <node concept="3sjG9q" id="2nNmQB_HLg0" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HLg2" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_Jcr_" role="3cqZAp">
@@ -1407,7 +1407,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HLuW" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYOK2" resolve="core-label-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYOK2" resolve="diagram-layout-label-node-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HLuY" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HLv0" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JdOX" role="3cqZAp">
@@ -1431,7 +1431,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HLIv" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYOqs" resolve="core-label-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYOqs" resolve="diagram-layout-label-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HLIx" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HLIz" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_Jej_" role="3cqZAp">
@@ -1455,7 +1455,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HLTg" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYgOg" resolve="layered-layer-bound" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYgOg" resolve="diagram-layout-layered-layer-bound" />
           <node concept="3sjG9q" id="2nNmQB_HLTi" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HLTk" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_Jf3t" role="3cqZAp">
@@ -1475,7 +1475,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HM47" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYzBG" resolve="core-layout-partition" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYzBG" resolve="diagram-layout-layout-partition" />
           <node concept="3sjG9q" id="2nNmQB_HM49" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HM4b" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JfQ4" role="3cqZAp">
@@ -1495,7 +1495,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HMyC" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzY_c7" resolve="core-layout-partition-activate" />
+          <ref role="3tD7wE" to="88j9:56jSwhzY_c7" resolve="diagram-layout-partition-activate" />
           <node concept="3sjG9q" id="2nNmQB_HMyE" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HMyG" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JhvO" role="3cqZAp">
@@ -1515,7 +1515,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HMLf" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYjW7" resolve="layered-linear-segments-deflection-dampening" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYjW7" resolve="diagram-layout-layered-linear-segments-deflection-dampening" />
           <node concept="3sjG9q" id="2nNmQB_HMLh" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HMLj" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_Ji5b" role="3cqZAp">
@@ -1539,7 +1539,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HN1m" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbWN" resolve="layered-long-edge-ordering-strategy" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbWN" resolve="diagram-layout-layered-long-edge-ordering-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HN1o" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HN1q" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JjnX" role="3cqZAp">
@@ -1567,7 +1567,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HNlY" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYgIi" resolve="layered-max-node-promotion-iterations" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYgIi" resolve="diagram-layout-layered-max-node-promotion-iterations" />
           <node concept="3sjG9q" id="2nNmQB_HNm0" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HNm2" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JksT" role="3cqZAp">
@@ -1587,7 +1587,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HNCA" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuA$8" resolve="layered-merge-edges" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuA$8" resolve="diagram-layout-layered-merge-edges" />
           <node concept="3sjG9q" id="2nNmQB_HNCC" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HNCE" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_Jl17" role="3cqZAp">
@@ -1607,7 +1607,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HNPF" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuBMa" resolve="layered-merge-hierarchy-crossing-edges" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuBMa" resolve="diagram-layout-layered-merge-hierarchy-crossing-edges" />
           <node concept="3sjG9q" id="2nNmQB_HNPH" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HNPJ" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JljN" role="3cqZAp">
@@ -1627,7 +1627,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HO0o" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYV9k" resolve="layered-msd-freedom" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYV9k" resolve="diagram-layout-layered-msd-freedom" />
           <node concept="3sjG9q" id="2nNmQB_HO0q" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HO0s" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JlGu" role="3cqZAp">
@@ -1647,7 +1647,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HOhJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYk_5" resolve="layered-node-flexibility-default" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYk_5" resolve="diagram-layout-layered-node-flexibility-default" />
           <node concept="3sjG9q" id="2nNmQB_HOhL" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HOhN" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JlUz" role="3cqZAp">
@@ -1675,7 +1675,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HO_T" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYgii" resolve="layered-node-layering-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYgii" resolve="diagram-layout-layered-node-layering-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HO_V" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HO_X" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_Jo6g" role="3cqZAp">
@@ -1703,7 +1703,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HOXN" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYKvl" resolve="layered-node-node-between-layers-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYKvl" resolve="diagram-layout-layered-node-node-between-layers-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HOXP" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HOXR" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JpBY" role="3cqZAp">
@@ -1727,7 +1727,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HPe$" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYiVL" resolve="layered-node-placement-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYiVL" resolve="diagram-layout-layered-node-placement-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HPeA" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HPeC" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JqBu" role="3cqZAp">
@@ -1755,7 +1755,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HP_2" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYgDq" resolve="layered-node-promotion-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYgDq" resolve="diagram-layout-layered-node-promotion-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HP_4" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HP_6" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JrQm" role="3cqZAp">
@@ -1783,7 +1783,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HQ0S" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYRkC" resolve="core-self-loop-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYRkC" resolve="diagram-layout-self-loop-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HQ0U" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HQ0W" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JsYD" role="3cqZAp">
@@ -1807,7 +1807,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HQdR" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HQdT" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HQdV" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JuSp" role="3cqZAp">
@@ -1831,7 +1831,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HQs$" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuEoM" resolve="layered-port-sorting-strategy" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuEoM" resolve="diagram-layout-layered-port-sorting-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HQsA" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HQsC" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_Jvy1" role="3cqZAp">
@@ -1859,7 +1859,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HQIW" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYREm" resolve="core-port-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYREm" resolve="diagram-layout-port-spacing" />
           <node concept="3sjG9q" id="2nNmQB_HQIY" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HQJ0" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JwGK" role="3cqZAp">
@@ -1883,7 +1883,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HQZt" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbft" resolve="layered-post-compaction-constraint-calculation" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbft" resolve="diagram-layout-layered-post-compaction-constraint-calculation" />
           <node concept="3sjG9q" id="2nNmQB_HQZv" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HQZx" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JxrW" role="3cqZAp">
@@ -1911,7 +1911,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HRxt" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbdB" resolve="layered-post-compaction-strategy" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbdB" resolve="diagram-layout-layered-post-compaction-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HRxv" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HRxx" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JyJ1" role="3cqZAp">
@@ -1939,7 +1939,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HRMv" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoDG0nF" resolve="core-randomization-seed" />
+          <ref role="3tD7wE" to="88j9:qwNnoDG0nF" resolve="diagram-layout-randomization-seed" />
           <node concept="3sjG9q" id="2nNmQB_HRMx" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HRMz" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J$oz" role="3cqZAp">
@@ -1959,7 +1959,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HRZe" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jScGX" resolve="layered-semi-interactive-crossing-minimization" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jScGX" resolve="diagram-layout-layered-semi-interactive-crossing-minimization" />
           <node concept="3sjG9q" id="2nNmQB_HRZg" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HRZi" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_J_Df" role="3cqZAp">
@@ -1979,7 +1979,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HSgr" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJLcg" resolve="core-separate-connected-components" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJLcg" resolve="diagram-layout-separate-connected-components" />
           <node concept="3sjG9q" id="2nNmQB_HSgt" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HSgv" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JA4N" role="3cqZAp">
@@ -1999,7 +1999,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HSwS" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYdIc" resolve="layered-sloped-edge-zone-width" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYdIc" resolve="diagram-layout-layered-sloped-edge-zone-width" />
           <node concept="3sjG9q" id="2nNmQB_HSwU" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HSwW" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JBiu" role="3cqZAp">
@@ -2023,7 +2023,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HSMR" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYdxa" resolve="layered-sloppy-spline-layer-spacing-factor" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYdxa" resolve="diagram-layout-layered-sloppy-spline-layer-spacing-factor" />
           <node concept="3sjG9q" id="2nNmQB_HSMT" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HSMV" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JBQN" role="3cqZAp">
@@ -2047,7 +2047,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HT86" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYKgd" resolve="layered-spacing-base-value" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYKgd" resolve="diagram-layout-layered-spacing-base-value" />
           <node concept="3sjG9q" id="2nNmQB_HT88" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HT8a" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNvd_8" role="3cqZAp">
@@ -2090,7 +2090,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNY79k" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSdNn" resolve="layered-spline-routing-mode" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSdNn" resolve="diagram-layout-layered-spline-routing-mode" />
           <node concept="3sjG9q" id="vVBnaNY79l" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNY79m" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNY79n" role="3cqZAp">
@@ -2118,7 +2118,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HTm7" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnOuIyb" resolve="layered-thoroughness" />
+          <ref role="3tD7wE" to="88j9:3biyEnOuIyb" resolve="diagram-layout-layered-thoroughness" />
           <node concept="3sjG9q" id="2nNmQB_HTm9" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HTmb" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JDid" role="3cqZAp">
@@ -2138,7 +2138,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNT7PL" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="topdown-hierarchical-node-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="diagram-layout-topdown-hierarchical-node-aspect-ratio" />
           <node concept="3sjG9q" id="vVBnaNT7PM" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNT7PN" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNT7PO" role="3cqZAp">
@@ -2162,7 +2162,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNT7PV" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="topdown-hierarchical-node-width" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="diagram-layout-topdown-hierarchical-node-width" />
           <node concept="3sjG9q" id="vVBnaNT7PW" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNT7PX" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNT7PY" role="3cqZAp">
@@ -2186,7 +2186,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNT7Q5" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="core-topdown-layout" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="diagram-layout-topdown-layout" />
           <node concept="3sjG9q" id="vVBnaNT7Q6" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNT7Q7" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNT7Q8" role="3cqZAp">
@@ -2206,7 +2206,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNT7Qe" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="topdown-node-type" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
           <node concept="3sjG9q" id="vVBnaNT7Qf" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNT7Qg" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNT7Qh" role="3cqZAp">
@@ -2234,7 +2234,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HTIL" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="topdown-scale-factor" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
           <node concept="3sjG9q" id="2nNmQB_HTIN" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HTIP" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JEC7" role="3cqZAp">
@@ -2258,7 +2258,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HTXM" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYgxF" resolve="layered-upper-bound-on-width" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYgxF" resolve="diagram-layout-layered-upper-bound-on-width" />
           <node concept="3sjG9q" id="2nNmQB_HTXO" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HTXQ" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JGkz" role="3cqZAp">
@@ -2278,7 +2278,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HUat" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYg_l" resolve="layered-upper-layer-estimation-scaling-factor" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYg_l" resolve="diagram-layout-layered-upper-layer-estimation-scaling-factor" />
           <node concept="3sjG9q" id="2nNmQB_HUav" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HUax" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JGXF" role="3cqZAp">
@@ -2298,7 +2298,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HUqu" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYVLC" resolve="layered-validification-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYVLC" resolve="diagram-layout-layered-validification-strategy" />
           <node concept="3sjG9q" id="2nNmQB_HUqw" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HUqy" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JHe1" role="3cqZAp">
@@ -2326,7 +2326,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HUJM" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQ2v" resolve="core-vertical-spacing-between-label-and-port" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQ2v" resolve="diagram-layout-vertical-spacing-between-label-and-port" />
           <node concept="3sjG9q" id="2nNmQB_HUJO" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HUJQ" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JIA$" role="3cqZAp">
@@ -2350,7 +2350,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HUYn" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYSWK" resolve="core-additional-port-space" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYSWK" resolve="diagram-layout-additional-port-space" />
           <node concept="3sjG9q" id="2nNmQB_HUYp" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HUYr" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JJoY" role="3cqZAp">
@@ -2375,7 +2375,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HVf_" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$1IEX" resolve="core-content-alignment" />
+          <ref role="3tD7wE" to="88j9:56jSwh$1IEX" resolve="diagram-layout-content-alignment" />
           <node concept="3sjG9q" id="2nNmQB_HVfB" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HVfD" role="2VODD2">
               <node concept="3cpWs8" id="2nNmQB_JONR" role="3cqZAp">
@@ -2441,7 +2441,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HW3f" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYhVL" resolve="core-node-label-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYhVL" resolve="diagram-layout-node-label-padding" />
           <node concept="3sjG9q" id="2nNmQB_HW3h" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HW3j" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JQbF" role="3cqZAp">
@@ -2466,7 +2466,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="2nNmQB_HWkJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="2nNmQB_HWkL" role="3tD6jU">
             <node concept="3clFbS" id="2nNmQB_HWkN" role="2VODD2">
               <node concept="3clFbF" id="2nNmQB_JS7h" role="3cqZAp">
@@ -2624,7 +2624,7 @@
       <node concept="3F0ifn" id="qwNnoDvKKa" role="3EZMnx" />
       <node concept="27vDVx" id="37WsXDFKjsB" role="3EZMnx">
         <node concept="3tD6jV" id="qwNnoDxkFd" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYKcq" resolve="radial-additional-wedge-space" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYKcq" resolve="diagram-layout-radial-additional-wedge-space" />
           <node concept="3sjG9q" id="qwNnoDxkFe" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxkFf" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxkHb" role="3cqZAp">
@@ -2644,7 +2644,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxlUX" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TyOg" resolve="radial-annulus-wedge-criteria" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TyOg" resolve="diagram-layout-radial-annulus-wedge-criteria" />
           <node concept="3sjG9q" id="qwNnoDxlUZ" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxlV1" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxmPQ" role="3cqZAp">
@@ -2672,7 +2672,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxmrY" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TzMJ" resolve="radial-center-on-root" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TzMJ" resolve="diagram-layout-radial-center-on-root" />
           <node concept="3sjG9q" id="qwNnoDxms0" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxms2" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxmvz" role="3cqZAp">
@@ -2692,7 +2692,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxoJ8" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$T$A8" resolve="radial-compaction" />
+          <ref role="3tD7wE" to="88j9:56jSwh$T$A8" resolve="diagram-layout-radial-compaction" />
           <node concept="3sjG9q" id="qwNnoDxoJa" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxoJc" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxpy1" role="3cqZAp">
@@ -2720,7 +2720,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxqlV" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$T$QQ" resolve="radial-compaction-step-size" />
+          <ref role="3tD7wE" to="88j9:56jSwh$T$QQ" resolve="diagram-layout-radial-compaction-step-size" />
           <node concept="3sjG9q" id="qwNnoDxqlX" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxqlZ" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxqAL" role="3cqZAp">
@@ -2740,7 +2740,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxrhz" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="qwNnoDxrh_" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxrhB" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxse9" role="3cqZAp">
@@ -2764,7 +2764,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxt7H" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
           <node concept="3sjG9q" id="qwNnoDxt7J" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxt7L" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxtfF" role="3cqZAp">
@@ -2784,7 +2784,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxuc2" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYKdu" resolve="radial-outgoing-edge-angles" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYKdu" resolve="diagram-layout-radial-outgoing-edge-angles" />
           <node concept="3sjG9q" id="qwNnoDxuc4" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxuc6" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxulc" role="3cqZAp">
@@ -2804,7 +2804,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxuEi" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TDN8" resolve="radial-radius" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TDN8" resolve="diagram-layout-radial-radius" />
           <node concept="3sjG9q" id="qwNnoDxuEk" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxuEm" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxv8l" role="3cqZAp">
@@ -2828,7 +2828,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxvr_" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TEpx" resolve="radial-rotate" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TEpx" resolve="diagram-layout-radial-rotate" />
           <node concept="3sjG9q" id="qwNnoDxvrB" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxvrD" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxvAK" role="3cqZAp">
@@ -2848,7 +2848,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxw2p" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TFlt" resolve="radial-sorter" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TFlt" resolve="diagram-layout-radial-sorter" />
           <node concept="3sjG9q" id="qwNnoDxw2r" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxw2t" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxwkV" role="3cqZAp">
@@ -2876,7 +2876,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxxlv" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYKas" resolve="radial-target-angle" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYKas" resolve="diagram-layout-radial-target-angle" />
           <node concept="3sjG9q" id="qwNnoDxxlx" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxxlz" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxxyr" role="3cqZAp">
@@ -2900,7 +2900,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDxy6E" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TIup" resolve="radial-translation-optimization" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TIup" resolve="diagram-layout-radial-translation-optimization" />
           <node concept="3sjG9q" id="qwNnoDxy6G" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDxy6I" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDxyse" role="3cqZAp">
@@ -2958,7 +2958,7 @@
         </node>
         <node concept="37BGq5" id="5Qzx7Aql3Gl" role="35U2g" />
         <node concept="3tD6jV" id="3biyEnO0ShR" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
           <node concept="3sjG9q" id="3biyEnO0ShS" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0ShT" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO0UMR" role="3cqZAp">
@@ -2982,7 +2982,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0Ssb" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNU6J$" resolve="force-eades-repulsion" />
+          <ref role="3tD7wE" to="88j9:3biyEnNU6J$" resolve="diagram-layout-force-eades-repulsion" />
           <node concept="3sjG9q" id="3biyEnO0Ssd" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0Ssf" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO0WpB" role="3cqZAp">
@@ -3006,7 +3006,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0Szk" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYN8p" resolve="core-edge-label-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYN8p" resolve="diagram-layout-edge-label-spacing" />
           <node concept="3sjG9q" id="3biyEnO0Szm" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0Szo" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO0WWT" role="3cqZAp">
@@ -3030,7 +3030,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0SDJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
           <node concept="3sjG9q" id="3biyEnO0SDL" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0SDN" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO0XoD" role="3cqZAp">
@@ -3050,7 +3050,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0SJs" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNU85O" resolve="force-model" />
+          <ref role="3tD7wE" to="88j9:3biyEnNU85O" resolve="diagram-layout-force-model" />
           <node concept="3sjG9q" id="3biyEnO0SJu" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0SJw" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO0XZr" role="3cqZAp">
@@ -3078,7 +3078,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0SUs" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNU8Ey" resolve="force-temperature" />
+          <ref role="3tD7wE" to="88j9:3biyEnNU8Ey" resolve="diagram-layout-force-temperature" />
           <node concept="3sjG9q" id="3biyEnO0SUu" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0SUw" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO0ZjU" role="3cqZAp">
@@ -3102,7 +3102,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0T4p" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:vVBnaNT$lk" resolve="core-inline-edge-labels" />
+          <ref role="3tD7wE" to="88j9:vVBnaNT$lk" resolve="diagram-layout-inline-edge-labels" />
           <node concept="3sjG9q" id="3biyEnO0T4r" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0T4t" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO114L" role="3cqZAp">
@@ -3122,7 +3122,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0T9$" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="core-interactive" />
+          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
           <node concept="3sjG9q" id="3biyEnO0T9A" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0T9C" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO11Bq" role="3cqZAp">
@@ -3142,7 +3142,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0Thh" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNU9rP" resolve="force-iterations" />
+          <ref role="3tD7wE" to="88j9:3biyEnNU9rP" resolve="diagram-layout-force-iterations" />
           <node concept="3sjG9q" id="3biyEnO0Thj" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0Thl" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO11Oe" role="3cqZAp">
@@ -3162,7 +3162,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0TpS" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="3biyEnO0TpU" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0TpW" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO12yU" role="3cqZAp">
@@ -3186,7 +3186,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0TwX" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
           <node concept="3sjG9q" id="3biyEnO0TwZ" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0Tx1" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO12Uy" role="3cqZAp">
@@ -3206,7 +3206,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNSVgT" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="vVBnaNSVgU" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNSVgV" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNSVgW" role="3cqZAp">
@@ -3231,7 +3231,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0TAw" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoDG0nF" resolve="core-randomization-seed" />
+          <ref role="3tD7wE" to="88j9:qwNnoDG0nF" resolve="diagram-layout-randomization-seed" />
           <node concept="3sjG9q" id="3biyEnO0TAy" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0TA$" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO139c" role="3cqZAp">
@@ -3251,7 +3251,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0TNx" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJLcg" resolve="core-separate-connected-components" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJLcg" resolve="diagram-layout-separate-connected-components" />
           <node concept="3sjG9q" id="3biyEnO0TNz" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0TN_" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO13A6" role="3cqZAp">
@@ -3271,7 +3271,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0U46" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="topdown-hierarchical-node-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="diagram-layout-topdown-hierarchical-node-aspect-ratio" />
           <node concept="3sjG9q" id="3biyEnO0U48" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0U4a" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO1449" role="3cqZAp">
@@ -3295,7 +3295,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0UaJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="topdown-hierarchical-node-width" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="diagram-layout-topdown-hierarchical-node-width" />
           <node concept="3sjG9q" id="3biyEnO0UaL" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0UaN" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO14tB" role="3cqZAp">
@@ -3319,7 +3319,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0Uj6" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="core-topdown-layout" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="diagram-layout-topdown-layout" />
           <node concept="3sjG9q" id="3biyEnO0Uj8" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0Uja" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO16ke" role="3cqZAp">
@@ -3339,7 +3339,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0UqJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="topdown-node-type" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
           <node concept="3sjG9q" id="3biyEnO0UqL" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0UqN" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO16Uw" role="3cqZAp">
@@ -3367,7 +3367,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnO0UAR" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="topdown-scale-factor" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
           <node concept="3sjG9q" id="3biyEnO0UAT" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnO0UAV" role="2VODD2">
               <node concept="3clFbF" id="3biyEnO186N" role="3cqZAp">
@@ -3414,7 +3414,7 @@
         </node>
         <node concept="3fe8g" id="5Qzx7AqrMg2" role="35U2g" />
         <node concept="3tD6jV" id="vVBnaNLcK1" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
           <node concept="3sjG9q" id="vVBnaNLcK2" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLcK3" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLeGA" role="3cqZAp">
@@ -3438,7 +3438,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLcV9" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJwkp" resolve="core-direction" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJwkp" resolve="diagram-layout-direction" />
           <node concept="3sjG9q" id="vVBnaNLcVb" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLcVd" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLfxf" role="3cqZAp">
@@ -3466,7 +3466,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLd7v" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEIF79" resolve="tree-edge-end-texture-length" />
+          <ref role="3tD7wE" to="88j9:qwNnoEIF79" resolve="diagram-layout-tree-edge-end-texture-length" />
           <node concept="3sjG9q" id="vVBnaNLd7x" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLd7z" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLeZj" role="3cqZAp">
@@ -3490,7 +3490,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLddU" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYNtN" resolve="core-edge-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYNtN" resolve="diagram-layout-edge-node-spacing" />
           <node concept="3sjG9q" id="vVBnaNLddW" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLddY" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLf3_" role="3cqZAp">
@@ -3514,7 +3514,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLdlf" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJDSC" resolve="tree-edge-routing-mode" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJDSC" resolve="diagram-layout-tree-edge-routing-mode" />
           <node concept="3sjG9q" id="vVBnaNLdlh" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLdlj" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLfPt" role="3cqZAp">
@@ -3542,7 +3542,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLdwf" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
           <node concept="3sjG9q" id="vVBnaNLdwh" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLdwj" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLlW8" role="3cqZAp">
@@ -3562,7 +3562,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLdA8" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="core-interactive" />
+          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
           <node concept="3sjG9q" id="vVBnaNLdAa" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLdAc" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLmqu" role="3cqZAp">
@@ -3582,7 +3582,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLdG7" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoDPfBg" resolve="core-interactive-layout" />
+          <ref role="3tD7wE" to="88j9:qwNnoDPfBg" resolve="diagram-layout-interactive-layout" />
           <node concept="3sjG9q" id="vVBnaNLdG9" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLdGb" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLmEC" role="3cqZAp">
@@ -3602,7 +3602,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLdNO" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="vVBnaNLdNQ" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLdNS" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLfcl" role="3cqZAp">
@@ -3626,7 +3626,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLdSn" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
           <node concept="3sjG9q" id="vVBnaNLdSp" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLdSr" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLo30" role="3cqZAp">
@@ -3646,7 +3646,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLdXO" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJI5F" resolve="tree-search-order" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJI5F" resolve="diagram-layout-tree-search-order" />
           <node concept="3sjG9q" id="vVBnaNLdXQ" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLdXS" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLgbR" role="3cqZAp">
@@ -3674,7 +3674,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLeac" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJLcg" resolve="core-separate-connected-components" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJLcg" resolve="diagram-layout-separate-connected-components" />
           <node concept="3sjG9q" id="vVBnaNLeae" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLeag" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLp6c" role="3cqZAp">
@@ -3694,7 +3694,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLekd" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEK0mZ" resolve="tree-weighting" />
+          <ref role="3tD7wE" to="88j9:qwNnoEK0mZ" resolve="diagram-layout-tree-weighting" />
           <node concept="3sjG9q" id="vVBnaNLekf" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLekh" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLgA8" role="3cqZAp">
@@ -3722,7 +3722,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNLewL" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="vVBnaNLewN" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNLewP" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNLqvG" role="3cqZAp">
@@ -3747,7 +3747,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNOut4" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="topdown-hierarchical-node-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="diagram-layout-topdown-hierarchical-node-aspect-ratio" />
           <node concept="3sjG9q" id="vVBnaNOut5" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNOut6" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNOut7" role="3cqZAp">
@@ -3771,7 +3771,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNOute" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="topdown-hierarchical-node-width" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="diagram-layout-topdown-hierarchical-node-width" />
           <node concept="3sjG9q" id="vVBnaNOutf" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNOutg" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNOuth" role="3cqZAp">
@@ -3795,7 +3795,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNOuto" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="core-topdown-layout" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="diagram-layout-topdown-layout" />
           <node concept="3sjG9q" id="vVBnaNOutp" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNOutq" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNOutr" role="3cqZAp">
@@ -3815,7 +3815,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNOutx" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="topdown-node-type" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
           <node concept="3sjG9q" id="vVBnaNOuty" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNOutz" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNOut$" role="3cqZAp">
@@ -3843,7 +3843,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNOutH" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="topdown-scale-factor" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
           <node concept="3sjG9q" id="vVBnaNOutI" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNOutJ" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNOutK" role="3cqZAp">
@@ -3890,7 +3890,7 @@
         </node>
         <node concept="37QGt5" id="56jSwh$J2iL" role="35U2g" />
         <node concept="3tD6jV" id="56jSwh$FqCh" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
           <node concept="3sjG9q" id="56jSwh$FqCi" role="3tD6jU">
             <node concept="3clFbS" id="56jSwh$FqCj" role="2VODD2">
               <node concept="3clFbF" id="56jSwh$Fs4m" role="3cqZAp">
@@ -3914,7 +3914,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="56jSwh$Fshz" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSaMG" resolve="box-layout-mode" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSaMG" resolve="diagram-layout-box-layout-mode" />
           <node concept="3sjG9q" id="56jSwh$Fsh_" role="3tD6jU">
             <node concept="3clFbS" id="56jSwh$FshB" role="2VODD2">
               <node concept="3clFbF" id="56jSwh$Fsx$" role="3cqZAp">
@@ -3942,7 +3942,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="56jSwh$Fu$l" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$1IEX" resolve="core-content-alignment" />
+          <ref role="3tD7wE" to="88j9:56jSwh$1IEX" resolve="diagram-layout-content-alignment" />
           <node concept="3sjG9q" id="56jSwh$Fu$n" role="3tD6jU">
             <node concept="3clFbS" id="56jSwh$Fu$p" role="2VODD2">
               <node concept="3cpWs8" id="56jSwh$FPr0" role="3cqZAp">
@@ -4008,7 +4008,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="56jSwh$FYKt" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$1SzN" resolve="core-expand-nodes" />
+          <ref role="3tD7wE" to="88j9:56jSwh$1SzN" resolve="diagram-layout-expand-nodes" />
           <node concept="3sjG9q" id="56jSwh$FYKv" role="3tD6jU">
             <node concept="3clFbS" id="56jSwh$FYKx" role="2VODD2">
               <node concept="3clFbF" id="56jSwh$FZcb" role="3cqZAp">
@@ -4028,7 +4028,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="56jSwh$G0N2" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="core-interactive" />
+          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
           <node concept="3sjG9q" id="56jSwh$G0N4" role="3tD6jU">
             <node concept="3clFbS" id="56jSwh$G0N6" role="2VODD2">
               <node concept="3clFbF" id="56jSwh$G1aK" role="3cqZAp">
@@ -4048,7 +4048,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="56jSwh$G1KL" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="56jSwh$G1KN" role="3tD6jU">
             <node concept="3clFbS" id="56jSwh$G1KP" role="2VODD2">
               <node concept="3clFbF" id="56jSwh$G29j" role="3cqZAp">
@@ -4072,7 +4072,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="56jSwh$G31k" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="56jSwh$G31l" role="3tD6jU">
             <node concept="3clFbS" id="56jSwh$G31m" role="2VODD2">
               <node concept="3clFbF" id="56jSwh$HcgC" role="3cqZAp">
@@ -4120,7 +4120,7 @@
         </node>
         <node concept="ehXbJ" id="767du_ZOa99" role="35U2g" />
         <node concept="3tD6jV" id="qwNnoEldn7" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
           <node concept="3sjG9q" id="qwNnoEldn8" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEldn9" role="2VODD2">
               <node concept="3clFbF" id="qwNnoEm9oi" role="3cqZAp">
@@ -4161,7 +4161,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoEldzT" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYLQA" resolve="core-components-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYLQA" resolve="diagram-layout-components-spacing" />
           <node concept="3sjG9q" id="qwNnoEldzV" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEldzX" role="2VODD2">
               <node concept="3clFbF" id="qwNnoElgNQ" role="3cqZAp">
@@ -4185,7 +4185,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoEldF4" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbvI" resolve="disco-connected-components-compaction-strategy" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbvI" resolve="diagram-layout-disco-connected-components-compaction-strategy" />
           <node concept="3sjG9q" id="qwNnoEldF6" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEldF8" role="2VODD2">
               <node concept="3clFbF" id="qwNnoElhAt" role="3cqZAp">
@@ -4213,7 +4213,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoEldUK" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbyR" resolve="disco-connected-components-layout-algorithm" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbyR" resolve="diagram-layout-disco-connected-components-layout-algorithm" />
           <node concept="3sjG9q" id="qwNnoEldUM" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEldUO" role="2VODD2">
               <node concept="3clFbJ" id="1SEN4_Ce4Cs" role="3cqZAp">
@@ -4270,7 +4270,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoEle73" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSdd6" resolve="core-edge-thickness" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSdd6" resolve="diagram-layout-edge-thickness" />
           <node concept="3sjG9q" id="qwNnoEle75" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEle77" role="2VODD2">
               <node concept="3clFbF" id="qwNnoElkER" role="3cqZAp">
@@ -4294,7 +4294,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoElecQ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYAIl" resolve="polyomino-fill-polyominoes" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYAIl" resolve="diagram-layout-polyomino-fill-polyominoes" />
           <node concept="3sjG9q" id="qwNnoElecS" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoElecU" role="2VODD2">
               <node concept="3clFbF" id="qwNnoEllxt" role="3cqZAp">
@@ -4314,7 +4314,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoElen7" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="qwNnoElen9" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoElenb" role="2VODD2">
               <node concept="3clFbF" id="qwNnoEllXE" role="3cqZAp">
@@ -4339,7 +4339,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoElexh" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYAE$" resolve="polyomino-primary-sorting-criterion" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYAE$" resolve="diagram-layout-polyomino-primary-sorting-criterion" />
           <node concept="3sjG9q" id="qwNnoElexj" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoElexl" role="2VODD2">
               <node concept="3clFbF" id="qwNnoElomZ" role="3cqZAp">
@@ -4367,7 +4367,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoEleHn" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYABM" resolve="polyomino-secondary-sorting-criterion" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYABM" resolve="diagram-layout-polyomino-secondary-sorting-criterion" />
           <node concept="3sjG9q" id="qwNnoEleHp" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEleHr" role="2VODD2">
               <node concept="3clFbF" id="qwNnoEloZj" role="3cqZAp">
@@ -4395,7 +4395,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoEleSJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYAzQ" resolve="polyomino-traversal-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYAzQ" resolve="diagram-layout-polyomino-traversal-strategy" />
           <node concept="3sjG9q" id="qwNnoEleSL" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEleSN" role="2VODD2">
               <node concept="3clFbF" id="qwNnoElpLo" role="3cqZAp">
@@ -4446,7 +4446,7 @@
         </node>
         <node concept="ep76C" id="767du_ZWqEu" role="35U2g" />
         <node concept="3tD6jV" id="qwNnoEI0ZV" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
           <node concept="3sjG9q" id="qwNnoEI0ZW" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEI0ZX" role="2VODD2">
               <node concept="3clFbF" id="qwNnoEI16F" role="3cqZAp">
@@ -4466,7 +4466,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoEI2nF" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="qwNnoEI2nH" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoEI2nJ" role="2VODD2">
               <node concept="3clFbF" id="qwNnoEI2uf" role="3cqZAp">
@@ -4514,7 +4514,7 @@
         </node>
         <node concept="etrGx" id="767duA00czd" role="35U2g" />
         <node concept="3tD6jV" id="qwNnoDKKjc" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
           <node concept="3sjG9q" id="qwNnoDKKjd" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDKKje" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDKKqy" role="3cqZAp">
@@ -4538,7 +4538,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDKM2V" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="qwNnoDKM2X" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDKM2Z" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDKM6l" role="3cqZAp">
@@ -4562,7 +4562,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDKMw2" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="qwNnoDKMw4" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDKMw6" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDKMCG" role="3cqZAp">
@@ -4587,7 +4587,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDKNPb" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoDG0nF" resolve="core-randomization-seed" />
+          <ref role="3tD7wE" to="88j9:qwNnoDG0nF" resolve="diagram-layout-randomization-seed" />
           <node concept="3sjG9q" id="qwNnoDKNPd" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDKNPf" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDKO3a" role="3cqZAp">
@@ -4630,7 +4630,7 @@
         </node>
         <node concept="1Mdi7b" id="4zQzqoUNQ2r" role="35U2g" />
         <node concept="3tD6jV" id="qwNnoDR7c7" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
           <node concept="3sjG9q" id="qwNnoDR7c8" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR7c9" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRbyp" role="3cqZAp">
@@ -4654,7 +4654,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR7lE" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYxGt" resolve="rectpacking-compaction-iterations" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYxGt" resolve="diagram-layout-rectpacking-compaction-iterations" />
           <node concept="3sjG9q" id="qwNnoDR7lG" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR7lI" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRbYa" role="3cqZAp">
@@ -4674,7 +4674,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR7$t" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYxz0" resolve="rectpacking-compaction-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYxz0" resolve="diagram-layout-rectpacking-compaction-strategy" />
           <node concept="3sjG9q" id="qwNnoDR7$v" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR7$x" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRec$" role="3cqZAp">
@@ -4702,7 +4702,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR7MT" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$1IEX" resolve="core-content-alignment" />
+          <ref role="3tD7wE" to="88j9:56jSwh$1IEX" resolve="diagram-layout-content-alignment" />
           <node concept="3sjG9q" id="qwNnoDR7MV" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR7MX" role="2VODD2">
               <node concept="3cpWs8" id="qwNnoDRg8r" role="3cqZAp">
@@ -4768,7 +4768,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR840" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
           <node concept="3sjG9q" id="qwNnoDR842" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR844" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRhKe" role="3cqZAp">
@@ -4788,7 +4788,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR8dr" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="core-interactive" />
+          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
           <node concept="3sjG9q" id="qwNnoDR8dt" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR8dv" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRj3u" role="3cqZAp">
@@ -4808,7 +4808,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR8gw" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoDPfBg" resolve="core-interactive-layout" />
+          <ref role="3tD7wE" to="88j9:qwNnoDPfBg" resolve="diagram-layout-interactive-layout" />
           <node concept="3sjG9q" id="qwNnoDR8gy" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR8g$" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRjfF" role="3cqZAp">
@@ -4828,7 +4828,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR8lk" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="qwNnoDR8lm" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR8lo" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRk94" role="3cqZAp">
@@ -4852,7 +4852,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR8vc" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
           <node concept="3sjG9q" id="qwNnoDR8ve" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR8vg" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRkst" role="3cqZAp">
@@ -4872,7 +4872,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR8Bm" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYU2l" resolve="rectpacking-optimization-goal" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYU2l" resolve="diagram-layout-rectpacking-optimization-goal" />
           <node concept="3sjG9q" id="qwNnoDR8Bo" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR8Bq" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRn4i" role="3cqZAp">
@@ -4900,7 +4900,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR8Mt" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="qwNnoDR8Mv" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR8Mx" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRmoa" role="3cqZAp">
@@ -4925,7 +4925,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR8X3" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYxEl" resolve="rectpacking-row-height-reevaluation" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYxEl" resolve="diagram-layout-rectpacking-row-height-reevaluation" />
           <node concept="3sjG9q" id="qwNnoDR8X5" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR8X7" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRpBQ" role="3cqZAp">
@@ -4945,7 +4945,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR95v" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYU8b" resolve="rectpacking-shift-last-placed" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYU8b" resolve="diagram-layout-rectpacking-shift-last-placed" />
           <node concept="3sjG9q" id="qwNnoDR95x" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR95z" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRqhM" role="3cqZAp">
@@ -4965,7 +4965,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR9eP" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTZY" resolve="rectpacking-target-width" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTZY" resolve="diagram-layout-rectpacking-target-width" />
           <node concept="3sjG9q" id="qwNnoDR9eR" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR9eT" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRrcC" role="3cqZAp">
@@ -4989,7 +4989,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR9oR" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoDPDdx" resolve="rectpacking-try-box-layout-first" />
+          <ref role="3tD7wE" to="88j9:qwNnoDPDdx" resolve="diagram-layout-rectpacking-try-box-layout-first" />
           <node concept="3sjG9q" id="qwNnoDR9oT" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR9oV" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRrEV" role="3cqZAp">
@@ -5009,7 +5009,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR9xZ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTSL" resolve="rectpacking-white-space-approximation-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTSL" resolve="diagram-layout-rectpacking-white-space-approximation-strategy" />
           <node concept="3sjG9q" id="qwNnoDR9y1" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR9y3" role="2VODD2">
               <node concept="3clFbJ" id="qwNnoEex00" role="3cqZAp">
@@ -5058,7 +5058,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="qwNnoDR9KQ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTTY" resolve="rectpacking-width-approximation-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTTY" resolve="diagram-layout-rectpacking-width-approximation-strategy" />
           <node concept="3sjG9q" id="qwNnoDR9KS" role="3tD6jU">
             <node concept="3clFbS" id="qwNnoDR9KU" role="2VODD2">
               <node concept="3clFbF" id="qwNnoDRv5C" role="3cqZAp">
@@ -5109,7 +5109,7 @@
         </node>
         <node concept="1xPSjY" id="5sXqsGQYNFC" role="35U2g" />
         <node concept="3tD6jV" id="3biyEnNvvdw" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSbjL" resolve="spore-compaction-strategy" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSbjL" resolve="diagram-layout-spore-compaction-strategy" />
           <node concept="3sjG9q" id="3biyEnNvvdx" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvvdy" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNvxNW" role="3cqZAp">
@@ -5137,7 +5137,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNvvtj" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYJT_" resolve="spore-cost-function-for-spanning-tree" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYJT_" resolve="diagram-layout-spore-cost-function-for-spanning-tree" />
           <node concept="3sjG9q" id="3biyEnNvvtl" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvvtn" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNv_cY" role="3cqZAp">
@@ -5165,7 +5165,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNvvEt" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="3biyEnNvvEv" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvvEx" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNvAYG" role="3cqZAp">
@@ -5189,7 +5189,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNvvQE" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:7L7aZ7jSboo" resolve="spore-orthogonal-compaction" />
+          <ref role="3tD7wE" to="88j9:7L7aZ7jSboo" resolve="diagram-layout-spore-orthogonal-compaction" />
           <node concept="3sjG9q" id="3biyEnNvvQG" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvvQI" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNvBBF" role="3cqZAp">
@@ -5209,7 +5209,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNTkiw" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="vVBnaNTkix" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNTkiy" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNTkiz" role="3cqZAp">
@@ -5234,7 +5234,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNvwcW" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYJWr" resolve="spore-root-node-for-spanning-tree-construction" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYJWr" resolve="diagram-layout-spore-root-node-for-spanning-tree-construction" />
           <node concept="3sjG9q" id="3biyEnNvwcY" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvwd0" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNvCc5" role="3cqZAp">
@@ -5254,7 +5254,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNvwG4" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYK29" resolve="spore-root-selection-for-spanning-tree" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYK29" resolve="diagram-layout-spore-root-selection-for-spanning-tree" />
           <node concept="3sjG9q" id="3biyEnNvwG6" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvwG8" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNvCFF" role="3cqZAp">
@@ -5282,7 +5282,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNvwRY" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTHH" resolve="spore-structure-extraction-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTHH" resolve="diagram-layout-spore-structure-extraction-strategy" />
           <node concept="3sjG9q" id="3biyEnNvwS0" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvwS2" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNvDP6" role="3cqZAp">
@@ -5310,7 +5310,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNvx9c" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYJRX" resolve="spore-tree-construction-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYJRX" resolve="diagram-layout-spore-tree-construction-strategy" />
           <node concept="3sjG9q" id="3biyEnNvx9e" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvx9g" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNvFl_" role="3cqZAp">
@@ -5338,7 +5338,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNvxpG" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
+          <ref role="3tD7wE" to="88j9:3biyEnNpSHW" resolve="diagram-layout-spore-underlying-layout-algorithm" />
           <node concept="3sjG9q" id="3biyEnNvxpI" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNvxpK" role="2VODD2">
               <node concept="3clFbJ" id="1SEN4_Bpw4q" role="3cqZAp">
@@ -5422,7 +5422,7 @@
         </node>
         <node concept="1xKZcO" id="5sXqsGR3hCc" role="35U2g" />
         <node concept="3tD6jV" id="vVBnaNFPJF" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="vVBnaNFPJG" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNFPJH" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNFQVe" role="3cqZAp">
@@ -5446,7 +5446,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNFPUP" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTHH" resolve="spore-structure-extraction-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTHH" resolve="diagram-layout-spore-structure-extraction-strategy" />
           <node concept="3sjG9q" id="vVBnaNFPUR" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNFPUT" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNFSp8" role="3cqZAp">
@@ -5474,7 +5474,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNFQ9X" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
+          <ref role="3tD7wE" to="88j9:3biyEnNpSHW" resolve="diagram-layout-spore-underlying-layout-algorithm" />
           <node concept="3sjG9q" id="vVBnaNFQ9Z" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNFQa1" role="2VODD2">
               <node concept="3clFbJ" id="1SEN4_Bo313" role="3cqZAp">
@@ -5535,7 +5535,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNFQmY" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYxvH" resolve="spore-upper-limit-for-iterations-of-overlap-removal" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYxvH" resolve="diagram-layout-spore-upper-limit-for-iterations-of-overlap-removal" />
           <node concept="3sjG9q" id="vVBnaNFQn0" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNFQn2" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNFVkU" role="3cqZAp">
@@ -5555,7 +5555,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNFQ_A" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYxwR" resolve="spore-run-a-supplementary-scanline-overlap-check" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYxwR" resolve="diagram-layout-spore-run-a-supplementary-scanline-overlap-check" />
           <node concept="3sjG9q" id="vVBnaNFQ_C" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNFQ_E" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNFW1z" role="3cqZAp">
@@ -5575,7 +5575,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="vVBnaNFQK_" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="vVBnaNFQKB" role="3tD6jU">
             <node concept="3clFbS" id="vVBnaNFQKD" role="2VODD2">
               <node concept="3clFbF" id="vVBnaNFWy8" role="3cqZAp">
@@ -5623,7 +5623,7 @@
         </node>
         <node concept="1wcM3y" id="5sXqsGR79Cx" role="35U2g" />
         <node concept="3tD6jV" id="3biyEnNSMOw" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNNJxh" resolve="stress-desired-edge-length" />
+          <ref role="3tD7wE" to="88j9:3biyEnNNJxh" resolve="diagram-layout-stress-desired-edge-length" />
           <node concept="3sjG9q" id="3biyEnNSMOx" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNSMOy" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNSO2S" role="3cqZAp">
@@ -5647,7 +5647,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNSN0u" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNNMAG" resolve="stress-fixed-position" />
+          <ref role="3tD7wE" to="88j9:3biyEnNNMAG" resolve="diagram-layout-stress-fixed-position" />
           <node concept="3sjG9q" id="3biyEnNSN0w" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNSN0y" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNSPLF" role="3cqZAp">
@@ -5667,7 +5667,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNSNan" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="core-interactive" />
+          <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
           <node concept="3sjG9q" id="3biyEnNSNap" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNSNar" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNSQ7X" role="3cqZAp">
@@ -5687,7 +5687,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNSNhA" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNNO5z" resolve="stress-iteration-limit" />
+          <ref role="3tD7wE" to="88j9:3biyEnNNO5z" resolve="diagram-layout-stress-iteration-limit" />
           <node concept="3sjG9q" id="3biyEnNSNhC" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNSNhE" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNSQn9" role="3cqZAp">
@@ -5707,7 +5707,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNSNyE" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNNOHG" resolve="stress-layout-dimension" />
+          <ref role="3tD7wE" to="88j9:3biyEnNNOHG" resolve="diagram-layout-stress-layout-dimension" />
           <node concept="3sjG9q" id="3biyEnNSNyG" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNSNyI" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNSQYK" role="3cqZAp">
@@ -5735,7 +5735,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNSNHG" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+          <ref role="3tD7wE" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
           <node concept="3sjG9q" id="3biyEnNSNHI" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNSNHK" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNSTwf" role="3cqZAp">
@@ -5755,7 +5755,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnNSNSL" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNNRzB" resolve="stress-epsilon" />
+          <ref role="3tD7wE" to="88j9:3biyEnNNRzB" resolve="diagram-layout-stress-epsilon" />
           <node concept="3sjG9q" id="3biyEnNSNSN" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnNSNSP" role="2VODD2">
               <node concept="3clFbF" id="3biyEnNSU63" role="3cqZAp">
@@ -5795,7 +5795,7 @@
       <node concept="3F0ifn" id="6_QKC_ENXXS" role="3EZMnx" />
       <node concept="27vDVx" id="6_QKC_ENXXT" role="3EZMnx">
         <node concept="3tD6jV" id="3biyEnOcX2$" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYh1i" resolve="topdown-node-arrangement-strategy" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYh1i" resolve="diagram-layout-topdown-node-arrangement-strategy" />
           <node concept="3sjG9q" id="3biyEnOcX2A" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnOcX2C" role="2VODD2">
               <node concept="3clFbF" id="3biyEnOcYnI" role="3cqZAp">
@@ -5823,7 +5823,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnOcXiu" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
           <node concept="3sjG9q" id="3biyEnOcXiw" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnOcXiy" role="2VODD2">
               <node concept="3clFbF" id="3biyEnOd0$h" role="3cqZAp">
@@ -5847,7 +5847,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnOcY5E" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+          <ref role="3tD7wE" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
           <node concept="3sjG9q" id="3biyEnOcY5G" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnOcY5I" role="2VODD2">
               <node concept="3clFbF" id="3biyEnOd1t_" role="3cqZAp">
@@ -5872,7 +5872,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnOcXu_" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="topdown-hierarchical-node-aspect-ratio" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTPQ" resolve="diagram-layout-topdown-hierarchical-node-aspect-ratio" />
           <node concept="3sjG9q" id="3biyEnOcXuB" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnOcXuD" role="2VODD2">
               <node concept="3clFbF" id="3biyEnOd309" role="3cqZAp">
@@ -5896,7 +5896,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnOcX_O" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="topdown-hierarchical-node-width" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTOR" resolve="diagram-layout-topdown-hierarchical-node-width" />
           <node concept="3sjG9q" id="3biyEnOcX_Q" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnOcX_S" role="2VODD2">
               <node concept="3clFbF" id="3biyEnOd4I0" role="3cqZAp">
@@ -5920,7 +5920,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnOcXGl" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="core-topdown-layout" />
+          <ref role="3tD7wE" to="88j9:qwNnoEJWpI" resolve="diagram-layout-topdown-layout" />
           <node concept="3sjG9q" id="3biyEnOcXGn" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnOcXGp" role="2VODD2">
               <node concept="3clFbF" id="3biyEnOd5ph" role="3cqZAp">
@@ -5940,7 +5940,7 @@
           </node>
         </node>
         <node concept="3tD6jV" id="3biyEnOcXSW" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="topdown-node-type" />
+          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
           <node concept="3sjG9q" id="3biyEnOcXSY" role="3tD6jU">
             <node concept="3clFbS" id="3biyEnOcXT0" role="2VODD2">
               <node concept="3clFbF" id="3biyEnOd5YQ" role="3cqZAp">

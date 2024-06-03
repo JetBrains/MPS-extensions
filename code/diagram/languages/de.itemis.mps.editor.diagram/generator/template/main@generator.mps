@@ -15967,7 +15967,7 @@
           <node concept="liA8E" id="3biyEnOsH4b" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsH4c" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYWdc" resolve="layered-unnecessary-bend-points" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYWdc" resolve="diagram-layout-layered-unnecessary-bend-points" />
             </node>
             <node concept="3clFbT" id="3biyEnOukiE" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOuktt" role="lGtFl">
@@ -15999,7 +15999,7 @@
           <node concept="liA8E" id="3biyEnOtVNa" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtVNb" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYSWK" resolve="core-additional-port-space" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYSWK" resolve="diagram-layout-additional-port-space" />
             </node>
             <node concept="10Nm6u" id="3biyEnOtVNc" role="37wK5m">
               <node concept="29HgVG" id="3biyEnOvQiG" role="lGtFl">
@@ -16046,7 +16046,7 @@
           <node concept="liA8E" id="3biyEnOsHVf" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsHVg" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYUj5" resolve="layered-additional-wrapped-edges-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYUj5" resolve="diagram-layout-layered-additional-wrapped-edges-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOvRW3" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -16079,7 +16079,7 @@
           <node concept="liA8E" id="3biyEnOsI7q" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsI7r" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOvSiy" role="37wK5m">
               <property role="$nhwW" value="1.6" />
@@ -16112,7 +16112,7 @@
           <node concept="liA8E" id="3biyEnOsIlr" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsIls" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYjKC" resolve="layered-brandes-koepf-edge-straightening" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYjKC" resolve="diagram-layout-layered-brandes-koepf-edge-straightening" />
             </node>
             <node concept="Rm8GO" id="3biyEnOvSyS" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~EdgeStraighteningStrategy.IMPROVE_STRAIGHTNESS" resolve="IMPROVE_STRAIGHTNESS" />
@@ -16151,7 +16151,7 @@
           <node concept="liA8E" id="3biyEnOsI$u" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsI$v" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYjPW" resolve="layered-brandes-koepf-fixed-alignment" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYjPW" resolve="diagram-layout-layered-brandes-koepf-fixed-alignment" />
             </node>
             <node concept="Rm8GO" id="3biyEnOvU1g" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~FixedAlignment.NONE" resolve="NONE" />
@@ -16190,7 +16190,7 @@
           <node concept="liA8E" id="3biyEnOsIBi" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsIBj" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYKF7" resolve="core-comment-comment-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYKF7" resolve="diagram-layout-comment-comment-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOvVD0" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -16223,7 +16223,7 @@
           <node concept="liA8E" id="3biyEnOsIDN" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsIDO" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYLxC" resolve="core-comment-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYLxC" resolve="diagram-layout-comment-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOvWef" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -16256,7 +16256,7 @@
           <node concept="liA8E" id="3biyEnOsIXC" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsIXD" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYLQA" resolve="core-components-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYLQA" resolve="diagram-layout-components-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOvWBo" role="37wK5m">
               <property role="$nhwW" value="20.0" />
@@ -16289,7 +16289,7 @@
           <node concept="liA8E" id="3biyEnOsJ0n" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsJ0o" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbaC" resolve="layered-connected-component-compaction" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbaC" resolve="diagram-layout-layered-connected-component-compaction" />
             </node>
             <node concept="3clFbT" id="3biyEnOvWOf" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOvWS3" role="lGtFl">
@@ -16321,7 +16321,7 @@
           <node concept="liA8E" id="3biyEnOsJn2" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsJn3" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSb_0" resolve="layered-consider-model-order" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSb_0" resolve="diagram-layout-layered-consider-model-order" />
             </node>
             <node concept="Rm8GO" id="3biyEnOvX7O" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~OrderingStrategy.NONE" resolve="NONE" />
@@ -16360,7 +16360,7 @@
           <node concept="liA8E" id="3biyEnOsK2M" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsK2N" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbJN" resolve="layered-consider-model-order-for-components" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbJN" resolve="diagram-layout-layered-consider-model-order-for-components" />
             </node>
             <node concept="Rm8GO" id="3biyEnOvYd6" role="37wK5m">
               <ref role="Rm8GQ" to="i2p:~ComponentOrderingStrategy.NONE" resolve="NONE" />
@@ -16399,7 +16399,7 @@
           <node concept="liA8E" id="3biyEnOsKPy" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsKPz" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbCz" resolve="layered-consider-port-order" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbCz" resolve="diagram-layout-layered-consider-port-order" />
             </node>
             <node concept="3clFbT" id="3biyEnOvZez" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOvZiL" role="lGtFl">
@@ -16500,7 +16500,7 @@
               <node concept="liA8E" id="3biyEnOw8nd" role="2OqNvi">
                 <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                 <node concept="1Z6Ecs" id="3biyEnOw8ne" role="37wK5m">
-                  <ref role="1Z6EpT" to="88j9:56jSwh$1IEX" resolve="core-content-alignment" />
+                  <ref role="1Z6EpT" to="88j9:56jSwh$1IEX" resolve="diagram-layout-content-alignment" />
                 </node>
                 <node concept="37vLTw" id="3biyEnOw8nf" role="37wK5m">
                   <ref role="3cqZAo" node="3biyEnOw8mK" resolve="contentAlignment" />
@@ -16520,7 +16520,7 @@
           <node concept="liA8E" id="3biyEnOsLgv" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsLgw" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYUR8" resolve="layered-correction-factor-for-wrapping" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYUR8" resolve="diagram-layout-layered-correction-factor-for-wrapping" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwenY" role="37wK5m">
               <property role="$nhwW" value="1.0" />
@@ -16553,7 +16553,7 @@
           <node concept="liA8E" id="3biyEnOsLGS" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsLGT" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSc0y" resolve="layered-crossing-counter-node-order-influence" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSc0y" resolve="diagram-layout-layered-crossing-counter-node-order-influence" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOweWB" role="37wK5m">
               <property role="$nhwW" value="0.0" />
@@ -16586,7 +16586,7 @@
           <node concept="liA8E" id="3biyEnOsMaj" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsMak" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSczf" resolve="layered-crossing-counter-port-order-influence" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSczf" resolve="diagram-layout-layered-crossing-counter-port-order-influence" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwf1J" role="37wK5m">
               <property role="$nhwW" value="0.0" />
@@ -16619,7 +16619,7 @@
           <node concept="liA8E" id="3biyEnOsMed" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsMee" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSc$p" resolve="layered-crossing-minimization-strategy" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSc$p" resolve="diagram-layout-layered-crossing-minimization-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwfmN" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~CrossingMinimizationStrategy.LAYER_SWEEP" resolve="LAYER_SWEEP" />
@@ -16658,7 +16658,7 @@
           <node concept="liA8E" id="3biyEnOsMIW" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsMIX" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYUWr" resolve="layered-cutting-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYUWr" resolve="diagram-layout-layered-cutting-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwgXK" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~CuttingStrategy.MSD" resolve="MSD" />
@@ -16697,7 +16697,7 @@
           <node concept="liA8E" id="3biyEnOsMME" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsMMF" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSd7N" resolve="layered-cycle-breaking-strategy" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSd7N" resolve="diagram-layout-layered-cycle-breaking-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwhVp" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~CycleBreakingStrategy.GREEDY" resolve="GREEDY" />
@@ -16736,7 +16736,7 @@
           <node concept="liA8E" id="3biyEnOsMQT" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsMQU" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEJwkp" resolve="core-direction" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEJwkp" resolve="diagram-layout-direction" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwjLy" role="37wK5m">
               <ref role="Rm8GQ" to="gwyy:~Direction.UNDEFINED" resolve="UNDEFINED" />
@@ -16775,7 +16775,7 @@
           <node concept="liA8E" id="3biyEnOsNr$" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsNr_" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuszs" resolve="layered-direction-congruence" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuszs" resolve="diagram-layout-layered-direction-congruence" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwkIr" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~DirectionCongruency.READING_DIRECTION" resolve="READING_DIRECTION" />
@@ -16814,7 +16814,7 @@
           <node concept="liA8E" id="3biyEnOsO21" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsO22" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOutCp" resolve="layered-multi-edge-distance-penalty" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOutCp" resolve="diagram-layout-layered-multi-edge-distance-penalty" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwlzA" role="37wK5m">
               <property role="$nhwW" value="2.0" />
@@ -16847,7 +16847,7 @@
           <node concept="liA8E" id="3biyEnOsODU" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsODV" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdu8" resolve="layered-edge-center-label-placement-strategy" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdu8" resolve="diagram-layout-layered-edge-center-label-placement-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwmDk" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~CenterEdgeLabelPlacementStrategy.MEDIAN_LAYER" resolve="MEDIAN_LAYER" />
@@ -16886,7 +16886,7 @@
           <node concept="liA8E" id="3biyEnOsPiP" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsPiQ" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYKqC" resolve="layered-edge-edge-between-layers-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYKqC" resolve="diagram-layout-layered-edge-edge-between-layers-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwnGU" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -16919,7 +16919,7 @@
           <node concept="liA8E" id="3biyEnOsPXA" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsPXB" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdon" resolve="layered-edge-label-side-selection" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdon" resolve="diagram-layout-layered-edge-label-side-selection" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwnZl" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~EdgeLabelSideSelection.SMART_DOWN" resolve="SMART_DOWN" />
@@ -16958,7 +16958,7 @@
           <node concept="liA8E" id="3biyEnOsQDN" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsQDO" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYN8p" resolve="core-edge-label-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYN8p" resolve="diagram-layout-edge-label-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwoSV" role="37wK5m">
               <property role="$nhwW" value="2.0" />
@@ -16991,7 +16991,7 @@
           <node concept="liA8E" id="3biyEnOsRn2" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsRn3" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYKlu" resolve="layered-edge-node-between-layers-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYKlu" resolve="diagram-layout-layered-edge-node-between-layers-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwpk1" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -17024,7 +17024,7 @@
           <node concept="liA8E" id="3biyEnOsS67" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsS68" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYNtN" resolve="core-edge-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYNtN" resolve="diagram-layout-edge-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwqiD" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -17057,7 +17057,7 @@
           <node concept="liA8E" id="3biyEnOsSQC" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsSQD" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYMbU" resolve="core-edge-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYMbU" resolve="diagram-layout-edge-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwqOi" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -17090,7 +17090,7 @@
           <node concept="liA8E" id="3biyEnOsTuF" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsTuG" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdd6" resolve="core-edge-thickness" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdd6" resolve="diagram-layout-edge-thickness" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwrSO" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -17123,7 +17123,7 @@
           <node concept="liA8E" id="3biyEnOsUi4" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsUi5" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYj1t" resolve="layered-favor-straight-edges-over-balancing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYj1t" resolve="diagram-layout-layered-favor-straight-edges-over-balancing" />
             </node>
             <node concept="3clFbT" id="3biyEnOws8V" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwscI" role="lGtFl">
@@ -17155,7 +17155,7 @@
           <node concept="liA8E" id="3biyEnOsV6T" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsV6U" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuw8o" resolve="layered-feedback-edges" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuw8o" resolve="diagram-layout-layered-feedback-edges" />
             </node>
             <node concept="3clFbT" id="3biyEnOwxsf" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwxvB" role="lGtFl">
@@ -17187,7 +17187,7 @@
           <node concept="liA8E" id="3biyEnOsVWK" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsVWL" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
             </node>
             <node concept="3clFbT" id="3biyEnOwxDX" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwxJ8" role="lGtFl">
@@ -17219,7 +17219,7 @@
           <node concept="liA8E" id="3biyEnOsWFh" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsWFi" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jScB2" resolve="layered-force-node-model-order" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jScB2" resolve="diagram-layout-layered-force-node-model-order" />
             </node>
             <node concept="3clFbT" id="3biyEnOwyyB" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwyAN" role="lGtFl">
@@ -17251,7 +17251,7 @@
           <node concept="liA8E" id="3biyEnOsXqY" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsXqZ" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuxi7" resolve="layered-generate-position-and-layer-ids" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuxi7" resolve="diagram-layout-layered-generate-position-and-layer-ids" />
             </node>
             <node concept="3clFbT" id="3biyEnOwyLX" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwyPJ" role="lGtFl">
@@ -17283,7 +17283,7 @@
           <node concept="liA8E" id="3biyEnOsYar" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsYas" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYUd6" resolve="layered-graph-wrapping-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYUd6" resolve="diagram-layout-layered-graph-wrapping-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwz9b" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~WrappingStrategy.OFF" resolve="OFF" />
@@ -17322,7 +17322,7 @@
           <node concept="liA8E" id="3biyEnOsYWQ" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsYWR" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jScUW" resolve="layered-greedy-switch-activation-threshold" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jScUW" resolve="diagram-layout-layered-greedy-switch-activation-threshold" />
             </node>
             <node concept="3cmrfG" id="3biyEnOwA7j" role="37wK5m">
               <property role="3cmrfH" value="40" />
@@ -17355,7 +17355,7 @@
           <node concept="liA8E" id="3biyEnOsZJt" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOsZJu" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jScWV" resolve="layered-greedy-switch-crossing-minimization" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jScWV" resolve="diagram-layout-layered-greedy-switch-crossing-minimization" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwAZv" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~GreedySwitchType.TWO_SIDED" resolve="TWO_SIDED" />
@@ -17394,7 +17394,7 @@
           <node concept="liA8E" id="3biyEnOt0y2" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt0y3" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jScZI" resolve="layered-greedy-switch-crossing-minimization-hierarchical" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jScZI" resolve="diagram-layout-layered-greedy-switch-crossing-minimization-hierarchical" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwCcK" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~GreedySwitchType.OFF" resolve="OFF" />
@@ -17433,7 +17433,7 @@
           <node concept="liA8E" id="3biyEnOt1r2" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt1r3" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jScEC" resolve="layered-hierarchical-sweepiness" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jScEC" resolve="diagram-layout-layered-hierarchical-sweepiness" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwCJo" role="37wK5m">
               <property role="$nhwW" value="0.1" />
@@ -17466,7 +17466,7 @@
           <node concept="liA8E" id="3biyEnOt2gz" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt2g$" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYgaM" resolve="layered-high-degree-node-maximum-tree-height" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYgaM" resolve="diagram-layout-layered-high-degree-node-maximum-tree-height" />
             </node>
             <node concept="3cmrfG" id="3biyEnOwDJD" role="37wK5m">
               <property role="3cmrfH" value="5" />
@@ -17499,7 +17499,7 @@
           <node concept="liA8E" id="3biyEnOt36G" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt36H" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYg7e" resolve="layered-high-degree-node-threshold" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYg7e" resolve="diagram-layout-layered-high-degree-node-threshold" />
             </node>
             <node concept="3cmrfG" id="3biyEnOwEiF" role="37wK5m">
               <property role="3cmrfH" value="16" />
@@ -17532,7 +17532,7 @@
           <node concept="liA8E" id="3biyEnOt41Y" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt41Z" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYg3m" resolve="layered-high-degree-node-treatment" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYg3m" resolve="diagram-layout-layered-high-degree-node-treatment" />
             </node>
             <node concept="3clFbT" id="3biyEnOwEHj" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwEPL" role="lGtFl">
@@ -17564,7 +17564,7 @@
           <node concept="liA8E" id="3biyEnOt4UT" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt4UU" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYPGD" resolve="core-horizontal-spacing-between-label-and-port" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYPGD" resolve="diagram-layout-horizontal-spacing-between-label-and-port" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwFkO" role="37wK5m">
               <property role="$nhwW" value="1.0" />
@@ -17597,7 +17597,7 @@
           <node concept="liA8E" id="3biyEnOt5Sf" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt5Sg" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYW0Z" resolve="layered-improve-cuts" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYW0Z" resolve="diagram-layout-layered-improve-cuts" />
             </node>
             <node concept="3clFbT" id="3biyEnOwFDR" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -17630,7 +17630,7 @@
           <node concept="liA8E" id="3biyEnOt6Zn" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt6Zo" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuj3A" resolve="layered-improve-wrapped-edges" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuj3A" resolve="diagram-layout-layered-improve-wrapped-edges" />
             </node>
             <node concept="3clFbT" id="3biyEnOwGys" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -17663,7 +17663,7 @@
           <node concept="liA8E" id="3biyEnOt89K" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt89L" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoDPfBg" resolve="core-interactive-layout" />
+              <ref role="1Z6EpT" to="88j9:qwNnoDPfBg" resolve="diagram-layout-interactive-layout" />
             </node>
             <node concept="3clFbT" id="3biyEnOwGUo" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwGYa" role="lGtFl">
@@ -17695,7 +17695,7 @@
           <node concept="liA8E" id="3biyEnOt9lb" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt9lc" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuzUU" resolve="layered-interactive-reference-point" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuzUU" resolve="diagram-layout-layered-interactive-reference-point" />
             </node>
             <node concept="10Nm6u" id="3biyEnOt9ld" role="37wK5m" />
           </node>
@@ -17710,7 +17710,7 @@
           <node concept="liA8E" id="3biyEnOtamq" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtamr" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYOK2" resolve="core-label-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYOK2" resolve="diagram-layout-label-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwH7R" role="37wK5m">
               <property role="$nhwW" value="5.0" />
@@ -17743,7 +17743,7 @@
           <node concept="liA8E" id="3biyEnOtbmx" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtbmy" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYOqs" resolve="core-label-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYOqs" resolve="diagram-layout-label-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwH_U" role="37wK5m">
               <property role="$nhwW" value="0.0" />
@@ -17776,7 +17776,7 @@
           <node concept="liA8E" id="3biyEnOtcoF" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtcoG" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYgOg" resolve="layered-layer-bound" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYgOg" resolve="diagram-layout-layered-layer-bound" />
             </node>
             <node concept="3cmrfG" id="3biyEnOwHWO" role="37wK5m">
               <property role="3cmrfH" value="0" />
@@ -17809,7 +17809,7 @@
           <node concept="liA8E" id="3biyEnOtdsW" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtdsX" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYzBG" resolve="core-layout-partition" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYzBG" resolve="diagram-layout-layout-partition" />
             </node>
             <node concept="3cmrfG" id="3biyEnOwJl0" role="37wK5m">
               <property role="3cmrfH" value="-1" />
@@ -17842,7 +17842,7 @@
           <node concept="liA8E" id="3biyEnOteJX" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOteJY" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzY_c7" resolve="core-layout-partition-activate" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzY_c7" resolve="diagram-layout-partition-activate" />
             </node>
             <node concept="3clFbT" id="3biyEnOwJHb" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwJKY" role="lGtFl">
@@ -17874,7 +17874,7 @@
           <node concept="liA8E" id="3biyEnOtfT1" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtfT2" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYjW7" resolve="layered-linear-segments-deflection-dampening" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYjW7" resolve="diagram-layout-layered-linear-segments-deflection-dampening" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwK4S" role="37wK5m">
               <property role="$nhwW" value="0.3" />
@@ -17907,7 +17907,7 @@
           <node concept="liA8E" id="3biyEnOthe6" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOthe7" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbWN" resolve="layered-long-edge-ordering-strategy" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbWN" resolve="diagram-layout-layered-long-edge-ordering-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwL3d" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~LongEdgeOrderingStrategy.DUMMY_NODE_OVER" resolve="DUMMY_NODE_OVER" />
@@ -17946,7 +17946,7 @@
           <node concept="liA8E" id="3biyEnOti_r" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOti_s" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYgIi" resolve="layered-max-node-promotion-iterations" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYgIi" resolve="diagram-layout-layered-max-node-promotion-iterations" />
             </node>
             <node concept="3cmrfG" id="3biyEnOwM8U" role="37wK5m">
               <property role="3cmrfH" value="0" />
@@ -17979,7 +17979,7 @@
           <node concept="liA8E" id="3biyEnOtjYc" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtjYd" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuA$8" resolve="layered-merge-edges" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuA$8" resolve="diagram-layout-layered-merge-edges" />
             </node>
             <node concept="3clFbT" id="3biyEnOwMSn" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOwMWb" role="lGtFl">
@@ -18011,7 +18011,7 @@
           <node concept="liA8E" id="3biyEnOtlop" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtloq" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuBMa" resolve="layered-merge-hierarchy-crossing-edges" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuBMa" resolve="diagram-layout-layered-merge-hierarchy-crossing-edges" />
             </node>
             <node concept="3clFbT" id="3biyEnOwNgC" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -18044,7 +18044,7 @@
           <node concept="liA8E" id="3biyEnOtmNC" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtmND" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYV9k" resolve="layered-msd-freedom" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYV9k" resolve="diagram-layout-layered-msd-freedom" />
             </node>
             <node concept="3cmrfG" id="3biyEnOwNsq" role="37wK5m">
               <property role="3cmrfH" value="1" />
@@ -18077,7 +18077,7 @@
           <node concept="liA8E" id="3biyEnOtogH" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtogI" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYgii" resolve="layered-node-layering-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYgii" resolve="diagram-layout-layered-node-layering-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwPce" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~LayeringStrategy.NETWORK_SIMPLEX" resolve="NETWORK_SIMPLEX" />
@@ -18116,7 +18116,7 @@
           <node concept="liA8E" id="3biyEnOtq8p" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtq8q" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYiVL" resolve="layered-node-placement-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYiVL" resolve="diagram-layout-layered-node-placement-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwQfp" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~NodePlacementStrategy.BRANDES_KOEPF" resolve="BRANDES_KOEPF" />
@@ -18155,7 +18155,7 @@
           <node concept="liA8E" id="3biyEnOtrCm" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtrCn" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYgDq" resolve="layered-node-promotion-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYgDq" resolve="diagram-layout-layered-node-promotion-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwRjD" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~NodePromotionStrategy.NONE" resolve="NONE" />
@@ -18194,7 +18194,7 @@
           <node concept="liA8E" id="3biyEnOu1H_" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOu1HA" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYhVL" resolve="core-node-label-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYhVL" resolve="diagram-layout-node-label-padding" />
             </node>
             <node concept="10Nm6u" id="3biyEnOu1HB" role="37wK5m">
               <node concept="29HgVG" id="3biyEnOwSTg" role="lGtFl">
@@ -18241,7 +18241,7 @@
           <node concept="liA8E" id="3biyEnOtt98" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtt99" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYRkC" resolve="core-self-loop-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYRkC" resolve="diagram-layout-self-loop-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwTYC" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -18274,7 +18274,7 @@
           <node concept="liA8E" id="3biyEnOtuFX" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtuFY" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwUUy" role="37wK5m">
               <property role="$nhwW" value="20.0" />
@@ -18307,7 +18307,7 @@
           <node concept="liA8E" id="3biyEnOu3IA" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOu3IB" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="10Nm6u" id="3biyEnOu3IC" role="37wK5m">
               <node concept="29HgVG" id="3biyEnOwVaj" role="lGtFl">
@@ -18354,7 +18354,7 @@
           <node concept="liA8E" id="3biyEnOtwge" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtwgf" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuEoM" resolve="layered-port-sorting-strategy" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuEoM" resolve="diagram-layout-layered-port-sorting-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwWh6" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~PortSortingStrategy.INPUT_ORDER" resolve="INPUT_ORDER" />
@@ -18393,7 +18393,7 @@
           <node concept="liA8E" id="3biyEnOtxPV" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtxPW" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYREm" resolve="core-port-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYREm" resolve="diagram-layout-port-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOwXmF" role="37wK5m">
               <property role="$nhwW" value="10.0" />
@@ -18426,7 +18426,7 @@
           <node concept="liA8E" id="3biyEnOtzsE" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtzsF" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbft" resolve="layered-post-compaction-constraint-calculation" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbft" resolve="diagram-layout-layered-post-compaction-constraint-calculation" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwXF8" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~ConstraintCalculationStrategy.SCANLINE" resolve="SCANLINE" />
@@ -18465,7 +18465,7 @@
           <node concept="liA8E" id="3biyEnOt_5f" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOt_5g" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbdB" resolve="layered-post-compaction-strategy" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbdB" resolve="diagram-layout-layered-post-compaction-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOwZiJ" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~GraphCompactionStrategy.NONE" resolve="NONE" />
@@ -18504,7 +18504,7 @@
           <node concept="liA8E" id="3biyEnOtAJg" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtAJh" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoDG0nF" resolve="core-randomization-seed" />
+              <ref role="1Z6EpT" to="88j9:qwNnoDG0nF" resolve="diagram-layout-randomization-seed" />
             </node>
             <node concept="3cmrfG" id="3biyEnOx0bD" role="37wK5m">
               <property role="3cmrfH" value="1" />
@@ -18537,7 +18537,7 @@
           <node concept="liA8E" id="3biyEnOtCkv" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtCkw" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jScGX" resolve="layered-semi-interactive-crossing-minimization" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jScGX" resolve="diagram-layout-layered-semi-interactive-crossing-minimization" />
             </node>
             <node concept="3clFbT" id="3biyEnOx0Jn" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOx0Nb" role="lGtFl">
@@ -18569,7 +18569,7 @@
           <node concept="liA8E" id="3biyEnOtDQN" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtDQO" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEJLcg" resolve="core-separate-connected-components" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEJLcg" resolve="diagram-layout-separate-connected-components" />
             </node>
             <node concept="3clFbT" id="3biyEnOx18S" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -18602,7 +18602,7 @@
           <node concept="liA8E" id="3biyEnOtFpy" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtFpz" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYdIc" resolve="layered-sloped-edge-zone-width" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYdIc" resolve="diagram-layout-layered-sloped-edge-zone-width" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOx2bc" role="37wK5m">
               <property role="$nhwW" value="2.0" />
@@ -18635,7 +18635,7 @@
           <node concept="liA8E" id="3biyEnOtH26" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtH27" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYdxa" resolve="layered-sloppy-spline-layer-spacing-factor" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYdxa" resolve="diagram-layout-layered-sloppy-spline-layer-spacing-factor" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOx3hT" role="37wK5m">
               <property role="$nhwW" value="0.2" />
@@ -18668,7 +18668,7 @@
           <node concept="liA8E" id="3biyEnOtINj" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtINk" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYKgd" resolve="layered-spacing-base-value" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYKgd" resolve="diagram-layout-layered-spacing-base-value" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOx9Vk" role="37wK5m">
               <property role="$nhwW" value="0.0" />
@@ -18718,7 +18718,7 @@
           <node concept="liA8E" id="3biyEnOtK_y" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtK_z" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdNn" resolve="layered-spline-routing-mode" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdNn" resolve="diagram-layout-layered-spline-routing-mode" />
             </node>
             <node concept="Rm8GO" id="3biyEnOxaXl" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~SplineRoutingMode.SLOPPY" resolve="SLOPPY" />
@@ -18757,7 +18757,7 @@
           <node concept="liA8E" id="3biyEnOtMpB" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtMpC" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnOuIyb" resolve="layered-thoroughness" />
+              <ref role="1Z6EpT" to="88j9:3biyEnOuIyb" resolve="diagram-layout-layered-thoroughness" />
             </node>
             <node concept="3cmrfG" id="3biyEnOxcaq" role="37wK5m">
               <property role="3cmrfH" value="7" />
@@ -18790,7 +18790,7 @@
           <node concept="liA8E" id="3biyEnOtOf8" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtOf9" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTLf" resolve="topdown-scale-factor" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOxd4y" role="37wK5m">
               <property role="$nhwW" value="1.0" />
@@ -18823,7 +18823,7 @@
           <node concept="liA8E" id="3biyEnOtQ65" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtQ66" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYgxF" resolve="layered-upper-bound-on-width" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYgxF" resolve="diagram-layout-layered-upper-bound-on-width" />
             </node>
             <node concept="3cmrfG" id="3biyEnOxe6t" role="37wK5m">
               <property role="3cmrfH" value="4" />
@@ -18856,7 +18856,7 @@
           <node concept="liA8E" id="3biyEnOtRYu" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtRYv" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYg_l" resolve="layered-upper-layer-estimation-scaling-factor" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYg_l" resolve="diagram-layout-layered-upper-layer-estimation-scaling-factor" />
             </node>
             <node concept="3cmrfG" id="3biyEnOxeNY" role="37wK5m">
               <property role="3cmrfH" value="2" />
@@ -18889,7 +18889,7 @@
           <node concept="liA8E" id="3biyEnOtTSj" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOtTSk" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYVLC" resolve="layered-validification-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYVLC" resolve="diagram-layout-layered-validification-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnOxf86" role="37wK5m">
               <ref role="Rm8GQ" to="u8j:~ValidifyStrategy.GREEDY" resolve="GREEDY" />
@@ -19028,7 +19028,7 @@
           <node concept="liA8E" id="56jSwh$kpwR" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$kpwS" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
             </node>
             <node concept="3b6qkQ" id="56jSwh$ksyH" role="37wK5m">
               <property role="$nhwW" value="1.3" />
@@ -19061,7 +19061,7 @@
           <node concept="liA8E" id="56jSwh$kpx7" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$kpx8" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSaMG" resolve="box-layout-mode" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSaMG" resolve="diagram-layout-box-layout-mode" />
             </node>
             <node concept="Rm8GO" id="56jSwh$k_y$" role="37wK5m">
               <ref role="Rm8GQ" to="y7q:~BoxLayoutProvider$PackingMode.SIMPLE" resolve="SIMPLE" />
@@ -19169,7 +19169,7 @@
               <node concept="liA8E" id="56jSwh$kA6$" role="2OqNvi">
                 <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                 <node concept="1Z6Ecs" id="56jSwh$kA6_" role="37wK5m">
-                  <ref role="1Z6EpT" to="88j9:56jSwh$1IEX" resolve="core-content-alignment" />
+                  <ref role="1Z6EpT" to="88j9:56jSwh$1IEX" resolve="diagram-layout-content-alignment" />
                 </node>
                 <node concept="37vLTw" id="56jSwh$kPAR" role="37wK5m">
                   <ref role="3cqZAo" node="56jSwh$kHCV" resolve="contentAlignment" />
@@ -19189,7 +19189,7 @@
           <node concept="liA8E" id="56jSwh$kZ30" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$kZ31" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$1SzN" resolve="core-expand-nodes" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$1SzN" resolve="diagram-layout-expand-nodes" />
             </node>
             <node concept="3clFbT" id="56jSwh$l3xI" role="37wK5m">
               <node concept="17Uvod" id="56jSwh$l3Hj" role="lGtFl">
@@ -19221,7 +19221,7 @@
           <node concept="liA8E" id="56jSwh$l4iH" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$l4iI" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="core-interactive" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
             </node>
             <node concept="3clFbT" id="56jSwh$l4iJ" role="37wK5m">
               <node concept="17Uvod" id="56jSwh$l4iK" role="lGtFl">
@@ -19253,7 +19253,7 @@
           <node concept="liA8E" id="56jSwh$l54x" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$l54y" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="56jSwh$leMf" role="37wK5m">
               <property role="$nhwW" value="15.0" />
@@ -19286,7 +19286,7 @@
           <node concept="liA8E" id="56jSwh$lfhq" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$lfhr" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="2ShNRf" id="56jSwh$li0H" role="37wK5m">
               <node concept="1pGfFk" id="56jSwh$ljvn" role="2ShVmc">
@@ -19343,7 +19343,7 @@
           <node concept="liA8E" id="56jSwh$TlmP" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$TlrN" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYKcq" resolve="radial-additional-wedge-space" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYKcq" resolve="diagram-layout-radial-additional-wedge-space" />
             </node>
             <node concept="3clFbT" id="56jSwh$TJ_9" role="37wK5m">
               <node concept="1W57fq" id="56jSwh$TJEK" role="lGtFl">
@@ -19373,7 +19373,7 @@
           <node concept="liA8E" id="56jSwh$Tlxt" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$Tlxu" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TyOg" resolve="radial-annulus-wedge-criteria" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TyOg" resolve="diagram-layout-radial-annulus-wedge-criteria" />
             </node>
             <node concept="Rm8GO" id="56jSwh$TQ2_" role="37wK5m">
               <ref role="Rm8GQ" to="yrb0:~AnnulusWedgeCriteria.NODE_SIZE" resolve="NODE_SIZE" />
@@ -19412,7 +19412,7 @@
           <node concept="liA8E" id="56jSwh$Tmbu" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$Tmbv" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TzMJ" resolve="radial-center-on-root" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TzMJ" resolve="diagram-layout-radial-center-on-root" />
             </node>
             <node concept="3clFbT" id="56jSwh$TShv" role="37wK5m">
               <node concept="17Uvod" id="56jSwh$TSmx" role="lGtFl">
@@ -19444,7 +19444,7 @@
           <node concept="liA8E" id="56jSwh$TmQF" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$TmQG" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$T$A8" resolve="radial-compaction" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$T$A8" resolve="diagram-layout-radial-compaction" />
             </node>
             <node concept="Rm8GO" id="56jSwh$TSDj" role="37wK5m">
               <ref role="Rm8GQ" to="yrb0:~CompactionStrategy.NONE" resolve="NONE" />
@@ -19483,7 +19483,7 @@
           <node concept="liA8E" id="56jSwh$Tnz4" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$Tnz5" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$T$QQ" resolve="radial-compaction-step-size" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$T$QQ" resolve="diagram-layout-radial-compaction-step-size" />
             </node>
             <node concept="3cmrfG" id="56jSwh$TU2H" role="37wK5m">
               <property role="3cmrfH" value="1" />
@@ -19516,7 +19516,7 @@
           <node concept="liA8E" id="56jSwh$TogD" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$TogE" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3cmrfG" id="56jSwh$TU_$" role="37wK5m">
               <property role="3cmrfH" value="20" />
@@ -19553,7 +19553,7 @@
           <node concept="liA8E" id="56jSwh$ToZq" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$ToZr" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
             </node>
             <node concept="3clFbT" id="56jSwh$TVZD" role="37wK5m">
               <node concept="17Uvod" id="56jSwh$TW4F" role="lGtFl">
@@ -19585,7 +19585,7 @@
           <node concept="liA8E" id="56jSwh$TpJL" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$TpJM" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYKdu" resolve="radial-outgoing-edge-angles" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYKdu" resolve="diagram-layout-radial-outgoing-edge-angles" />
             </node>
             <node concept="3clFbT" id="56jSwh$TWgY" role="37wK5m">
               <node concept="17Uvod" id="56jSwh$TWnc" role="lGtFl">
@@ -19617,7 +19617,7 @@
           <node concept="liA8E" id="56jSwh$TqwU" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$TqwV" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TDN8" resolve="radial-radius" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TDN8" resolve="diagram-layout-radial-radius" />
             </node>
             <node concept="3b6qkQ" id="56jSwh$TWte" role="37wK5m">
               <property role="$nhwW" value="0.0" />
@@ -19650,7 +19650,7 @@
           <node concept="liA8E" id="56jSwh$Trjf" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$Trjg" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TEpx" resolve="radial-rotate" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TEpx" resolve="diagram-layout-radial-rotate" />
             </node>
             <node concept="3clFbT" id="56jSwh$TWJP" role="37wK5m">
               <node concept="17Uvod" id="56jSwh$TWQ3" role="lGtFl">
@@ -19682,7 +19682,7 @@
           <node concept="liA8E" id="56jSwh$Ts6K" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$Ts6L" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TFlt" resolve="radial-sorter" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TFlt" resolve="diagram-layout-radial-sorter" />
             </node>
             <node concept="Rm8GO" id="56jSwh$TX8P" role="37wK5m">
               <ref role="Rm8GQ" to="yrb0:~SortingStrategy.NONE" resolve="NONE" />
@@ -19721,7 +19721,7 @@
           <node concept="liA8E" id="56jSwh$TsVt" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$TsVu" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYKas" resolve="radial-target-angle" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYKas" resolve="diagram-layout-radial-target-angle" />
             </node>
             <node concept="3cmrfG" id="56jSwh$TYEQ" role="37wK5m">
               <property role="3cmrfH" value="0" />
@@ -19758,7 +19758,7 @@
           <node concept="liA8E" id="56jSwh$TG52" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="56jSwh$TG53" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TIup" resolve="radial-translation-optimization" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TIup" resolve="diagram-layout-radial-translation-optimization" />
             </node>
             <node concept="Rm8GO" id="56jSwh$TZWh" role="37wK5m">
               <ref role="Rm8GQ" to="yrb0:~RadialTranslationStrategy.NONE" resolve="NONE" />
@@ -19817,7 +19817,7 @@
           <node concept="liA8E" id="qwNnoDFNrs" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoDFNrt" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
             </node>
             <node concept="2$xPTn" id="qwNnoDG31v" role="37wK5m">
               <property role="2$xPTl" value="1.6f" />
@@ -19850,7 +19850,7 @@
           <node concept="liA8E" id="qwNnoDFNrE" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoDFNrF" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3cmrfG" id="qwNnoDG3ZX" role="37wK5m">
               <property role="3cmrfH" value="15" />
@@ -19887,7 +19887,7 @@
           <node concept="liA8E" id="qwNnoDGb_H" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoDGb_I" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="2ShNRf" id="qwNnoDGb_J" role="37wK5m">
               <node concept="1pGfFk" id="qwNnoDGb_K" role="2ShVmc">
@@ -19924,7 +19924,7 @@
           <node concept="liA8E" id="qwNnoDFNs8" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoDFNs9" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoDG0nF" resolve="core-randomization-seed" />
+              <ref role="1Z6EpT" to="88j9:qwNnoDG0nF" resolve="diagram-layout-randomization-seed" />
             </node>
             <node concept="3cmrfG" id="qwNnoDGfdD" role="37wK5m">
               <property role="3cmrfH" value="0" />
@@ -19977,7 +19977,7 @@
           <node concept="liA8E" id="qwNnoE_eeI" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_eeJ" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
             </node>
             <node concept="3b6qkQ" id="qwNnoE_eeK" role="37wK5m">
               <property role="$nhwW" value="1.3" />
@@ -20010,7 +20010,7 @@
           <node concept="liA8E" id="qwNnoE_kTc" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_kTd" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYxGt" resolve="rectpacking-compaction-iterations" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYxGt" resolve="diagram-layout-rectpacking-compaction-iterations" />
             </node>
             <node concept="3cmrfG" id="qwNnoE_A9G" role="37wK5m">
               <property role="3cmrfH" value="1" />
@@ -20043,7 +20043,7 @@
           <node concept="liA8E" id="qwNnoE_kZv" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_kZw" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYxz0" resolve="rectpacking-compaction-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYxz0" resolve="diagram-layout-rectpacking-compaction-strategy" />
             </node>
             <node concept="Rm8GO" id="qwNnoE_AYt" role="37wK5m">
               <ref role="Rm8GQ" to="onu9:~PackingStrategy.COMPACTION" resolve="COMPACTION" />
@@ -20082,7 +20082,7 @@
           <node concept="liA8E" id="qwNnoE_l7x" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_l7y" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
             </node>
             <node concept="3clFbT" id="qwNnoE_CyF" role="37wK5m">
               <node concept="17Uvod" id="qwNnoE_CBH" role="lGtFl">
@@ -20114,7 +20114,7 @@
           <node concept="liA8E" id="qwNnoE_lhG" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_lhH" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="core-interactive" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
             </node>
             <node concept="3clFbT" id="qwNnoE_COV" role="37wK5m">
               <node concept="17Uvod" id="qwNnoE_CTV" role="lGtFl">
@@ -20146,7 +20146,7 @@
           <node concept="liA8E" id="qwNnoE_lu0" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_lu1" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoDPfBg" resolve="core-interactive-layout" />
+              <ref role="1Z6EpT" to="88j9:qwNnoDPfBg" resolve="diagram-layout-interactive-layout" />
             </node>
             <node concept="3clFbT" id="qwNnoE_D6K" role="37wK5m">
               <node concept="17Uvod" id="qwNnoE_DbK" role="lGtFl">
@@ -20178,7 +20178,7 @@
           <node concept="liA8E" id="qwNnoE_lG3" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_lG4" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="qwNnoE_lG5" role="37wK5m">
               <property role="$nhwW" value="15.0" />
@@ -20211,7 +20211,7 @@
           <node concept="liA8E" id="qwNnoE_lWD" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_lWE" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
             </node>
             <node concept="3clFbT" id="qwNnoE_DBt" role="37wK5m">
               <node concept="17Uvod" id="qwNnoE_DGt" role="lGtFl">
@@ -20243,7 +20243,7 @@
           <node concept="liA8E" id="qwNnoE_meY" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_meZ" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYU2l" resolve="rectpacking-optimization-goal" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYU2l" resolve="diagram-layout-rectpacking-optimization-goal" />
             </node>
             <node concept="Rm8GO" id="qwNnoE_E1V" role="37wK5m">
               <ref role="Rm8GQ" to="7bmw:~OptimizationGoal.MAX_SCALE_DRIVEN" resolve="MAX_SCALE_DRIVEN" />
@@ -20282,7 +20282,7 @@
           <node concept="liA8E" id="qwNnoE_mzQ" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_mzR" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYxEl" resolve="rectpacking-row-height-reevaluation" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYxEl" resolve="diagram-layout-rectpacking-row-height-reevaluation" />
             </node>
             <node concept="3clFbT" id="qwNnoE_EZ9" role="37wK5m">
               <node concept="17Uvod" id="qwNnoE_F5y" role="lGtFl">
@@ -20314,7 +20314,7 @@
           <node concept="liA8E" id="qwNnoE_mBz" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_mB$" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYU8b" resolve="rectpacking-shift-last-placed" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYU8b" resolve="diagram-layout-rectpacking-shift-last-placed" />
             </node>
             <node concept="3clFbT" id="qwNnoE_Ft8" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -20347,7 +20347,7 @@
           <node concept="liA8E" id="qwNnoE_n0o" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_n0p" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTZY" resolve="rectpacking-target-width" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTZY" resolve="diagram-layout-rectpacking-target-width" />
             </node>
             <node concept="3b6qkQ" id="qwNnoE_FRr" role="37wK5m">
               <property role="$nhwW" value="-1.0" />
@@ -20380,7 +20380,7 @@
           <node concept="liA8E" id="qwNnoE_nrF" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_nrG" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoDPDdx" resolve="rectpacking-try-box-layout-first" />
+              <ref role="1Z6EpT" to="88j9:qwNnoDPDdx" resolve="diagram-layout-rectpacking-try-box-layout-first" />
             </node>
             <node concept="3clFbT" id="qwNnoE_Gk1" role="37wK5m">
               <node concept="17Uvod" id="qwNnoE_Gof" role="lGtFl">
@@ -20412,7 +20412,7 @@
           <node concept="liA8E" id="qwNnoE_nSH" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_nSI" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTSL" resolve="rectpacking-white-space-approximation-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTSL" resolve="diagram-layout-rectpacking-white-space-approximation-strategy" />
             </node>
             <node concept="Rm8GO" id="qwNnoE_GTg" role="37wK5m">
               <ref role="Rm8GQ" to="onpr:~WhiteSpaceEliminationStrategy.EQUAL_BETWEEN_STRUCTURES" resolve="EQUAL_BETWEEN_STRUCTURES" />
@@ -20468,7 +20468,7 @@
           <node concept="liA8E" id="qwNnoE_nXi" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_nXj" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTTY" resolve="rectpacking-width-approximation-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTTY" resolve="diagram-layout-rectpacking-width-approximation-strategy" />
             </node>
             <node concept="Rm8GO" id="qwNnoE_Jc3" role="37wK5m">
               <ref role="Rm8GQ" to="1h9k:~WidthApproximationStrategy.GREEDY" resolve="GREEDY" />
@@ -20593,7 +20593,7 @@
               <node concept="liA8E" id="qwNnoE_N3A" role="2OqNvi">
                 <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                 <node concept="1Z6Ecs" id="qwNnoE_N3B" role="37wK5m">
-                  <ref role="1Z6EpT" to="88j9:56jSwh$1IEX" resolve="core-content-alignment" />
+                  <ref role="1Z6EpT" to="88j9:56jSwh$1IEX" resolve="diagram-layout-content-alignment" />
                 </node>
                 <node concept="37vLTw" id="qwNnoE_N3C" role="37wK5m">
                   <ref role="3cqZAo" node="qwNnoE_N39" resolve="contentAlignment" />
@@ -20613,7 +20613,7 @@
           <node concept="liA8E" id="qwNnoE_p2y" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoE_p2z" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="10Nm6u" id="qwNnoE_Vjv" role="37wK5m">
               <node concept="29HgVG" id="qwNnoE_Vps" role="lGtFl">
@@ -20680,7 +20680,7 @@
           <node concept="liA8E" id="qwNnoEsFVd" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsFVe" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
             </node>
             <node concept="3b6qkQ" id="qwNnoEsFVf" role="37wK5m">
               <property role="$nhwW" value="1.0" />
@@ -20730,7 +20730,7 @@
           <node concept="liA8E" id="qwNnoEsLoC" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsLoD" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYLQA" resolve="core-components-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYLQA" resolve="diagram-layout-components-spacing" />
             </node>
             <node concept="3b6qkQ" id="qwNnoEsLoE" role="37wK5m">
               <property role="$nhwW" value="20.0" />
@@ -20763,7 +20763,7 @@
           <node concept="liA8E" id="qwNnoEsLLA" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsLLB" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbvI" resolve="disco-connected-components-compaction-strategy" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbvI" resolve="diagram-layout-disco-connected-components-compaction-strategy" />
             </node>
             <node concept="Rm8GO" id="qwNnoEsXP_" role="37wK5m">
               <ref role="Rm8GQ" to="hyfx:~CompactionStrategy.POLYOMINO" resolve="POLYOMINO" />
@@ -20802,7 +20802,7 @@
           <node concept="liA8E" id="qwNnoEsLYn" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsLYo" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbyR" resolve="disco-connected-components-layout-algorithm" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbyR" resolve="diagram-layout-disco-connected-components-layout-algorithm" />
             </node>
             <node concept="Xl_RD" id="qwNnoEt06l" role="37wK5m">
               <property role="Xl_RC" value="" />
@@ -20868,7 +20868,7 @@
           <node concept="liA8E" id="qwNnoEsMb6" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsMb7" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdd6" resolve="core-edge-thickness" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSdd6" resolve="diagram-layout-edge-thickness" />
             </node>
             <node concept="3b6qkQ" id="qwNnoEt46D" role="37wK5m">
               <property role="$nhwW" value="1.0" />
@@ -20901,7 +20901,7 @@
           <node concept="liA8E" id="qwNnoEsMpY" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsMpZ" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYAIl" resolve="polyomino-fill-polyominoes" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYAIl" resolve="diagram-layout-polyomino-fill-polyominoes" />
             </node>
             <node concept="3clFbT" id="qwNnoEt4D8" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -20934,7 +20934,7 @@
           <node concept="liA8E" id="qwNnoEsMFn" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsMFo" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYAE$" resolve="polyomino-primary-sorting-criterion" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYAE$" resolve="diagram-layout-polyomino-primary-sorting-criterion" />
             </node>
             <node concept="Rm8GO" id="qwNnoEt5pQ" role="37wK5m">
               <ref role="Rm8GQ" to="ikqz:~HighLevelSortingCriterion.NUM_OF_EXTERNAL_SIDES_THAN_NUM_OF_EXTENSIONS_LAST" resolve="NUM_OF_EXTERNAL_SIDES_THAN_NUM_OF_EXTENSIONS_LAST" />
@@ -20973,7 +20973,7 @@
           <node concept="liA8E" id="qwNnoEsMYv" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsMYw" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYABM" resolve="polyomino-secondary-sorting-criterion" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYABM" resolve="diagram-layout-polyomino-secondary-sorting-criterion" />
             </node>
             <node concept="Rm8GO" id="qwNnoEt7e4" role="37wK5m">
               <ref role="Rm8GQ" to="ikqz:~LowLevelSortingCriterion.BY_SIZE_AND_SHAPE" resolve="BY_SIZE_AND_SHAPE" />
@@ -21012,7 +21012,7 @@
           <node concept="liA8E" id="qwNnoEsNjM" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsNjN" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYAzQ" resolve="polyomino-traversal-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYAzQ" resolve="diagram-layout-polyomino-traversal-strategy" />
             </node>
             <node concept="Rm8GO" id="qwNnoEt8I7" role="37wK5m">
               <ref role="Rm8GQ" to="ikqz:~TraversalStrategy.QUADRANTS_LINE_BY_LINE" resolve="QUADRANTS_LINE_BY_LINE" />
@@ -21051,7 +21051,7 @@
           <node concept="liA8E" id="qwNnoEsNEM" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEsNEN" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="10Nm6u" id="qwNnoEtaHh" role="37wK5m">
               <node concept="29HgVG" id="qwNnoEtaMO" role="lGtFl">
@@ -21101,7 +21101,7 @@
           <node concept="liA8E" id="qwNnoEDIbi" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEDIbj" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
             </node>
             <node concept="3clFbT" id="qwNnoEDLfe" role="37wK5m">
               <node concept="17Uvod" id="qwNnoEDLkN" role="lGtFl">
@@ -21133,7 +21133,7 @@
           <node concept="liA8E" id="qwNnoEDIbJ" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEDIbK" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="2ShNRf" id="qwNnoEDIbL" role="37wK5m">
               <node concept="1pGfFk" id="qwNnoEDIbM" role="2ShVmc">
@@ -21190,7 +21190,7 @@
           <node concept="liA8E" id="qwNnoEJmSk" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJmSl" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
             </node>
             <node concept="3b6qkQ" id="qwNnoEK2g6" role="37wK5m">
               <property role="$nhwW" value="1.6" />
@@ -21223,7 +21223,7 @@
           <node concept="liA8E" id="qwNnoEJoUC" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJoUD" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEJwkp" resolve="core-direction" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEJwkp" resolve="diagram-layout-direction" />
             </node>
             <node concept="Rm8GO" id="qwNnoEK2WE" role="37wK5m">
               <ref role="Rm8GQ" to="gwyy:~Direction.UNDEFINED" resolve="UNDEFINED" />
@@ -21262,7 +21262,7 @@
           <node concept="liA8E" id="qwNnoEJp8m" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJp8n" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEIF79" resolve="tree-edge-end-texture-length" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEIF79" resolve="diagram-layout-tree-edge-end-texture-length" />
             </node>
             <node concept="3b6qkQ" id="qwNnoEKcbt" role="37wK5m">
               <property role="$nhwW" value="7.0" />
@@ -21295,7 +21295,7 @@
           <node concept="liA8E" id="qwNnoEJpiY" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJpiZ" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYNtN" resolve="core-edge-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYNtN" resolve="diagram-layout-edge-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="qwNnoEKcQ0" role="37wK5m">
               <property role="$nhwW" value="3.0" />
@@ -21328,7 +21328,7 @@
           <node concept="liA8E" id="qwNnoEJpvM" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJpvN" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEJDSC" resolve="tree-edge-routing-mode" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEJDSC" resolve="diagram-layout-tree-edge-routing-mode" />
             </node>
             <node concept="Rm8GO" id="qwNnoEKdpl" role="37wK5m">
               <ref role="Rm8GQ" to="4fog:~EdgeRoutingMode.AVOID_OVERLAP" resolve="AVOID_OVERLAP" />
@@ -21367,7 +21367,7 @@
           <node concept="liA8E" id="qwNnoEJpIk" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJpIl" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
             </node>
             <node concept="3clFbT" id="qwNnoEJpIm" role="37wK5m">
               <node concept="17Uvod" id="qwNnoEJpIn" role="lGtFl">
@@ -21399,7 +21399,7 @@
           <node concept="liA8E" id="qwNnoEJpZs" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJpZt" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="core-interactive" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
             </node>
             <node concept="3clFbT" id="qwNnoEJpZu" role="37wK5m">
               <node concept="17Uvod" id="qwNnoEJpZv" role="lGtFl">
@@ -21431,7 +21431,7 @@
           <node concept="liA8E" id="qwNnoEJqii" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJqij" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoDPfBg" resolve="core-interactive-layout" />
+              <ref role="1Z6EpT" to="88j9:qwNnoDPfBg" resolve="diagram-layout-interactive-layout" />
             </node>
             <node concept="3clFbT" id="qwNnoEJqik" role="37wK5m">
               <node concept="17Uvod" id="qwNnoEJqil" role="lGtFl">
@@ -21463,7 +21463,7 @@
           <node concept="liA8E" id="qwNnoEJqBG" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJqBH" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="qwNnoEKg1U" role="37wK5m">
               <property role="$nhwW" value="20.0" />
@@ -21496,7 +21496,7 @@
           <node concept="liA8E" id="qwNnoEJqZi" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJqZj" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
             </node>
             <node concept="3clFbT" id="qwNnoEJqZk" role="37wK5m">
               <node concept="17Uvod" id="qwNnoEJqZl" role="lGtFl">
@@ -21528,7 +21528,7 @@
           <node concept="liA8E" id="qwNnoEJrp0" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJrp1" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="10Nm6u" id="qwNnoEKgUz" role="37wK5m">
               <node concept="29HgVG" id="qwNnoEKh4a" role="lGtFl">
@@ -21575,7 +21575,7 @@
           <node concept="liA8E" id="qwNnoEJrNt" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJrNu" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEJI5F" resolve="tree-search-order" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEJI5F" resolve="diagram-layout-tree-search-order" />
             </node>
             <node concept="Rm8GO" id="qwNnoEKijA" role="37wK5m">
               <ref role="Rm8GQ" to="4fog:~TreeifyingOrder.DFS" resolve="DFS" />
@@ -21614,7 +21614,7 @@
           <node concept="liA8E" id="qwNnoEJsa8" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJsa9" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEJLcg" resolve="core-separate-connected-components" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEJLcg" resolve="diagram-layout-separate-connected-components" />
             </node>
             <node concept="3clFbT" id="qwNnoEKjFO" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -21663,7 +21663,7 @@
           <node concept="liA8E" id="qwNnoEJTpE" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJTpF" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTLf" resolve="topdown-scale-factor" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
             </node>
             <node concept="3b6qkQ" id="qwNnoEKnSb" role="37wK5m">
               <property role="$nhwW" value="1.0" />
@@ -21696,7 +21696,7 @@
           <node concept="liA8E" id="qwNnoEJUCq" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="qwNnoEJUCr" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEK0mZ" resolve="tree-weighting" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEK0mZ" resolve="diagram-layout-tree-weighting" />
             </node>
             <node concept="Rm8GO" id="qwNnoEKoyQ" role="37wK5m">
               <ref role="Rm8GQ" to="4fog:~OrderWeighting.MODEL_ORDER" resolve="MODEL_ORDER" />
@@ -21755,7 +21755,7 @@
           <node concept="liA8E" id="3biyEnNpCvB" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpCvC" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbjL" resolve="spore-compaction-strategy" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSbjL" resolve="diagram-layout-spore-compaction-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnNqbPl" role="37wK5m">
               <ref role="Rm8GQ" to="76o8:~CompactionStrategy.DEPTH_FIRST" resolve="DEPTH_FIRST" />
@@ -21794,7 +21794,7 @@
           <node concept="liA8E" id="3biyEnNpEUU" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpEUV" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYJT_" resolve="spore-cost-function-for-spanning-tree" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYJT_" resolve="diagram-layout-spore-cost-function-for-spanning-tree" />
             </node>
             <node concept="Rm8GO" id="3biyEnNqdhK" role="37wK5m">
               <ref role="Rm8GQ" to="76o8:~SpanningTreeCostFunction.CIRCLE_UNDERLAP" resolve="CIRCLE_UNDERLAP" />
@@ -21833,7 +21833,7 @@
           <node concept="liA8E" id="3biyEnNpFaI" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpFaJ" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNqfT1" role="37wK5m">
               <property role="$nhwW" value="8.0" />
@@ -21866,7 +21866,7 @@
           <node concept="liA8E" id="3biyEnNpFqI" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpFqJ" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:7L7aZ7jSboo" resolve="spore-orthogonal-compaction" />
+              <ref role="1Z6EpT" to="88j9:7L7aZ7jSboo" resolve="diagram-layout-spore-orthogonal-compaction" />
             </node>
             <node concept="3clFbT" id="3biyEnNqgg6" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNqgon" role="lGtFl">
@@ -21898,7 +21898,7 @@
           <node concept="liA8E" id="3biyEnNpH6M" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpH6N" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="10Nm6u" id="3biyEnNqg_i" role="37wK5m">
               <node concept="29HgVG" id="3biyEnNqgD4" role="lGtFl">
@@ -21928,7 +21928,7 @@
           <node concept="liA8E" id="3biyEnNpFCA" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpFCB" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYJWr" resolve="spore-root-node-for-spanning-tree-construction" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYJWr" resolve="diagram-layout-spore-root-node-for-spanning-tree-construction" />
             </node>
             <node concept="Xl_RD" id="3biyEnNqgP9" role="37wK5m">
               <property role="Xl_RC" value="" />
@@ -21978,7 +21978,7 @@
           <node concept="liA8E" id="3biyEnNpFRN" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpFRO" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYK29" resolve="spore-root-selection-for-spanning-tree" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYK29" resolve="diagram-layout-spore-root-selection-for-spanning-tree" />
             </node>
             <node concept="Rm8GO" id="3biyEnNqjiB" role="37wK5m">
               <ref role="Rm8GQ" to="76o8:~RootSelection.CENTER_NODE" resolve="CENTER_NODE" />
@@ -22017,7 +22017,7 @@
           <node concept="liA8E" id="3biyEnNpG8n" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpG8o" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTHH" resolve="spore-structure-extraction-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTHH" resolve="diagram-layout-spore-structure-extraction-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnNqkQk" role="37wK5m">
               <ref role="Rm8GQ" to="76o8:~StructureExtractionStrategy.DELAUNAY_TRIANGULATION" resolve="DELAUNAY_TRIANGULATION" />
@@ -22056,7 +22056,7 @@
           <node concept="liA8E" id="3biyEnNpGru" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpGrv" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYJRX" resolve="spore-tree-construction-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYJRX" resolve="diagram-layout-spore-tree-construction-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnNqlVQ" role="37wK5m">
               <ref role="Rm8GQ" to="76o8:~TreeConstructionStrategy.MINIMUM_SPANNING_TREE" resolve="MINIMUM_SPANNING_TREE" />
@@ -22095,7 +22095,7 @@
           <node concept="liA8E" id="3biyEnNpGJN" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNpGJO" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNpSHW" resolve="diagram-layout-spore-underlying-layout-algorithm" />
             </node>
             <node concept="Xl_RD" id="3biyEnNqnG4" role="37wK5m">
               <property role="Xl_RC" value="" />
@@ -22181,7 +22181,7 @@
           <node concept="liA8E" id="3biyEnNFH2r" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNFH2s" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNFPl8" role="37wK5m">
               <property role="$nhwW" value="8.0" />
@@ -22214,7 +22214,7 @@
           <node concept="liA8E" id="3biyEnNFN64" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNFN65" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="10Nm6u" id="3biyEnNFN66" role="37wK5m">
               <node concept="29HgVG" id="3biyEnNFPEc" role="lGtFl">
@@ -22244,7 +22244,7 @@
           <node concept="liA8E" id="3biyEnNFNb9" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNFNba" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTHH" resolve="spore-structure-extraction-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTHH" resolve="diagram-layout-spore-structure-extraction-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnNFQbr" role="37wK5m">
               <ref role="Rm8GQ" to="76o8:~StructureExtractionStrategy.DELAUNAY_TRIANGULATION" resolve="DELAUNAY_TRIANGULATION" />
@@ -22283,7 +22283,7 @@
           <node concept="liA8E" id="3biyEnNFNhD" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNFNhE" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNpSHW" resolve="spore-underlying-layout-algorithm" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNpSHW" resolve="diagram-layout-spore-underlying-layout-algorithm" />
             </node>
             <node concept="Xl_RD" id="3biyEnNFRLH" role="37wK5m">
               <property role="Xl_RC" value="" />
@@ -22349,7 +22349,7 @@
           <node concept="liA8E" id="3biyEnNFNjq" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNFNjr" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYxvH" resolve="spore-upper-limit-for-iterations-of-overlap-removal" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYxvH" resolve="diagram-layout-spore-upper-limit-for-iterations-of-overlap-removal" />
             </node>
             <node concept="3cmrfG" id="3biyEnNFSQf" role="37wK5m">
               <property role="3cmrfH" value="64" />
@@ -22382,7 +22382,7 @@
           <node concept="liA8E" id="3biyEnNFNA$" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNFNA_" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYxwR" resolve="spore-run-a-supplementary-scanline-overlap-check" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYxwR" resolve="diagram-layout-spore-run-a-supplementary-scanline-overlap-check" />
             </node>
             <node concept="3clFbT" id="3biyEnNFTfX" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -22435,7 +22435,7 @@
           <node concept="liA8E" id="3biyEnNNEcR" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNNEcS" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNNJxh" resolve="stress-desired-edge-length" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNNJxh" resolve="diagram-layout-stress-desired-edge-length" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNNEcT" role="37wK5m">
               <property role="$nhwW" value="100.0" />
@@ -22468,7 +22468,7 @@
           <node concept="liA8E" id="3biyEnNNI4n" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNNI4o" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNNMAG" resolve="stress-fixed-position" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNNMAG" resolve="diagram-layout-stress-fixed-position" />
             </node>
             <node concept="3clFbT" id="3biyEnNNSnF" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNNSxj" role="lGtFl">
@@ -22500,7 +22500,7 @@
           <node concept="liA8E" id="3biyEnNNIiA" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNNIiB" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="core-interactive" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
             </node>
             <node concept="3clFbT" id="3biyEnNNSPg" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNNSUG" role="lGtFl">
@@ -22532,7 +22532,7 @@
           <node concept="liA8E" id="3biyEnNNIsL" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNNIsM" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNNO5z" resolve="stress-iteration-limit" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNNO5z" resolve="diagram-layout-stress-iteration-limit" />
             </node>
             <node concept="3cmrfG" id="3biyEnNNT8U" role="37wK5m">
               <property role="3cmrfH" value="0" />
@@ -22565,7 +22565,7 @@
           <node concept="liA8E" id="3biyEnNNIDy" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNNIDz" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNNOHG" resolve="stress-layout-dimension" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNNOHG" resolve="diagram-layout-stress-layout-dimension" />
             </node>
             <node concept="Rm8GO" id="3biyEnNNU5J" role="37wK5m">
               <ref role="Rm8GQ" to="zebo:~StressMajorization$Dimension.XY" resolve="XY" />
@@ -22604,7 +22604,7 @@
           <node concept="liA8E" id="3biyEnNNIOB" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNNIOC" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
             </node>
             <node concept="3clFbT" id="3biyEnNNVvp" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNNV$r" role="lGtFl">
@@ -22636,7 +22636,7 @@
           <node concept="liA8E" id="3biyEnNNJ1e" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNNJ1f" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNNRzB" resolve="stress-epsilon" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNNRzB" resolve="diagram-layout-stress-epsilon" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNNWBv" role="37wK5m">
               <property role="$nhwW" value="10.e-4" />
@@ -22689,7 +22689,7 @@
           <node concept="liA8E" id="3biyEnNTX6I" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNTX6J" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="core-aspect-ratio" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$19pg" resolve="diagram-layout-aspect-ratio" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNUd4d" role="37wK5m">
               <property role="$nhwW" value="1.6" />
@@ -22722,7 +22722,7 @@
           <node concept="liA8E" id="3biyEnNU0Va" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU0Vb" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNU6J$" resolve="force-eades-repulsion" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNU6J$" resolve="diagram-layout-force-eades-repulsion" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNUetk" role="37wK5m">
               <property role="$nhwW" value="5.0" />
@@ -22755,7 +22755,7 @@
           <node concept="liA8E" id="3biyEnNU11o" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU11p" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYN8p" resolve="core-edge-label-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYN8p" resolve="diagram-layout-edge-label-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNUgMU" role="37wK5m">
               <property role="$nhwW" value="5.0" />
@@ -22788,7 +22788,7 @@
           <node concept="liA8E" id="3biyEnNU1bb" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU1bc" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="core-fixed-graph-size" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYx2J" resolve="diagram-layout-fixed-graph-size" />
             </node>
             <node concept="3clFbT" id="3biyEnNUh2n" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNUh8K" role="lGtFl">
@@ -22820,7 +22820,7 @@
           <node concept="liA8E" id="3biyEnNU1jl" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU1jm" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNU85O" resolve="force-model" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNU85O" resolve="diagram-layout-force-model" />
             </node>
             <node concept="Rm8GO" id="3biyEnNUhzp" role="37wK5m">
               <ref role="Rm8GQ" to="nnri:~ForceModelStrategy.FRUCHTERMAN_REINGOLD" resolve="FRUCHTERMAN_REINGOLD" />
@@ -22859,7 +22859,7 @@
           <node concept="liA8E" id="3biyEnNU1sR" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU1sS" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNU8Ey" resolve="force-temperature" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNU8Ey" resolve="diagram-layout-force-temperature" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNUiZ$" role="37wK5m">
               <property role="$nhwW" value="0.001" />
@@ -22892,7 +22892,7 @@
           <node concept="liA8E" id="3biyEnNU1Bn" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU1Bo" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:vVBnaNT$lk" resolve="core-inline-edge-labels" />
+              <ref role="1Z6EpT" to="88j9:vVBnaNT$lk" resolve="diagram-layout-inline-edge-labels" />
             </node>
             <node concept="3clFbT" id="3biyEnNUjS_" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNUjYa" role="lGtFl">
@@ -22924,7 +22924,7 @@
           <node concept="liA8E" id="3biyEnNU1ND" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU1NE" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="core-interactive" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
             </node>
             <node concept="3clFbT" id="3biyEnNUkbn" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNUkmd" role="lGtFl">
@@ -22956,7 +22956,7 @@
           <node concept="liA8E" id="3biyEnNU21j" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU21k" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNU9rP" resolve="force-iterations" />
+              <ref role="1Z6EpT" to="88j9:3biyEnNU9rP" resolve="diagram-layout-force-iterations" />
             </node>
             <node concept="3cmrfG" id="3biyEnNUkzU" role="37wK5m">
               <property role="3cmrfH" value="300" />
@@ -22989,7 +22989,7 @@
           <node concept="liA8E" id="3biyEnNU2gl" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU2gm" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNWh5S" role="37wK5m">
               <property role="$nhwW" value="80.0" />
@@ -23022,7 +23022,7 @@
           <node concept="liA8E" id="3biyEnNU5gO" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU5gP" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="10Nm6u" id="3biyEnNU5gQ" role="37wK5m">
               <node concept="29HgVG" id="3biyEnNUm2d" role="lGtFl">
@@ -23052,7 +23052,7 @@
           <node concept="liA8E" id="3biyEnNU2wJ" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU2wK" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="core-omit-node-micro-layout" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$TCcP" resolve="diagram-layout-omit-node-micro-layout" />
             </node>
             <node concept="3clFbT" id="3biyEnNUmaS" role="37wK5m">
               <node concept="17Uvod" id="3biyEnNUmlb" role="lGtFl">
@@ -23084,7 +23084,7 @@
           <node concept="liA8E" id="3biyEnNU2M7" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU2M8" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoDG0nF" resolve="core-randomization-seed" />
+              <ref role="1Z6EpT" to="88j9:qwNnoDG0nF" resolve="diagram-layout-randomization-seed" />
             </node>
             <node concept="3cmrfG" id="3biyEnNUmx6" role="37wK5m">
               <property role="3cmrfH" value="1" />
@@ -23117,7 +23117,7 @@
           <node concept="liA8E" id="3biyEnNU35h" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU35i" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEJLcg" resolve="core-separate-connected-components" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEJLcg" resolve="diagram-layout-separate-connected-components" />
             </node>
             <node concept="3clFbT" id="3biyEnNUmXM" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -23166,7 +23166,7 @@
           <node concept="liA8E" id="3biyEnNU4Pq" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnNU4Pr" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTLf" resolve="topdown-scale-factor" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
             </node>
             <node concept="3b6qkQ" id="3biyEnNUqJs" role="37wK5m">
               <property role="$nhwW" value="1.0" />
@@ -23219,7 +23219,7 @@
           <node concept="liA8E" id="3biyEnO4x1x" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnO4x1y" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYh1i" resolve="topdown-node-arrangement-strategy" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYh1i" resolve="diagram-layout-topdown-node-arrangement-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnO52Xm" role="37wK5m">
               <ref role="Rm8GQ" to="gou7:~NodeArrangementStrategy.LEFT_RIGHT_TOP_DOWN_NODE_PLACER" resolve="LEFT_RIGHT_TOP_DOWN_NODE_PLACER" />
@@ -23258,7 +23258,7 @@
           <node concept="liA8E" id="3biyEnO4Ct_" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnO4CtA" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="core-node-spacing" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYQYV" resolve="diagram-layout-node-spacing" />
             </node>
             <node concept="3b6qkQ" id="3biyEnO4CtB" role="37wK5m">
               <property role="$nhwW" value="20.0" />
@@ -23291,7 +23291,7 @@
           <node concept="liA8E" id="3biyEnO4DRb" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnO4DRc" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="core-padding" />
+              <ref role="1Z6EpT" to="88j9:56jSwh$3xAj" resolve="diagram-layout-padding" />
             </node>
             <node concept="10Nm6u" id="3biyEnO569g" role="37wK5m">
               <node concept="29HgVG" id="3biyEnO56eN" role="lGtFl">
@@ -23337,7 +23337,7 @@
           <node concept="liA8E" id="3biyEnO4DzW" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnO4DzX" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnO4J6x" resolve="topdown-whitespace-elimination-strategy" />
+              <ref role="1Z6EpT" to="88j9:3biyEnO4J6x" resolve="diagram-layout-topdown-whitespace-elimination-strategy" />
             </node>
             <node concept="Rm8GO" id="3biyEnO59QX" role="37wK5m">
               <ref role="Rm8GQ" to="gou7:~WhitespaceEliminationStrategy.BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" resolve="BOTTOM_ROW_EQUAL_WHITESPACE_ELIMINATOR" />
@@ -23396,7 +23396,7 @@
           <node concept="liA8E" id="3biyEnOkGLM" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOkGLN" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTPQ" resolve="topdown-hierarchical-node-aspect-ratio" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTPQ" resolve="diagram-layout-topdown-hierarchical-node-aspect-ratio" />
             </node>
             <node concept="10Nm6u" id="3biyEnOkGLO" role="37wK5m" />
           </node>
@@ -23411,7 +23411,7 @@
           <node concept="liA8E" id="3biyEnOkGLT" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOkGLU" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTOR" resolve="topdown-hierarchical-node-width" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTOR" resolve="diagram-layout-topdown-hierarchical-node-width" />
             </node>
             <node concept="3b6qkQ" id="3biyEnOkGLV" role="37wK5m">
               <property role="$nhwW" value="1.414" />
@@ -23444,7 +23444,7 @@
           <node concept="liA8E" id="3biyEnOkGM7" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOkGM8" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:qwNnoEJWpI" resolve="core-topdown-layout" />
+              <ref role="1Z6EpT" to="88j9:qwNnoEJWpI" resolve="diagram-layout-topdown-layout" />
             </node>
             <node concept="3clFbT" id="3biyEnOkGM9" role="37wK5m">
               <node concept="17Uvod" id="3biyEnOkGMa" role="lGtFl">
@@ -23476,7 +23476,7 @@
           <node concept="liA8E" id="3biyEnOkGMl" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="3biyEnOkGMm" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTQA" resolve="topdown-node-type" />
+              <ref role="1Z6EpT" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
             </node>
             <node concept="Rm8GO" id="3biyEnOkGMn" role="37wK5m">
               <ref role="Rm8GQ" to="gwyy:~TopdownNodeTypes.HIERARCHICAL_NODE" resolve="HIERARCHICAL_NODE" />

@@ -69,7 +69,7 @@
     <property role="EcuMT" value="961540447467216844" />
     <property role="TrG5h" value="Changelog" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="Po4Z58IlRD" role="1TKVEl">
       <property role="IQ2nx" value="961540447471754729" />
       <property role="TrG5h" value="headerType" />
@@ -105,7 +105,7 @@
   <node concept="1TIwiD" id="Po4Z58tnOo">
     <property role="EcuMT" value="961540447467306264" />
     <property role="TrG5h" value="Release" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Po4Z58trdf" role="1TKVEi">
       <property role="IQ2ns" value="961540447467320143" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -159,7 +159,7 @@
   <node concept="1TIwiD" id="Po4Z58tnPb">
     <property role="EcuMT" value="961540447467306315" />
     <property role="TrG5h" value="VersionDateReleaseHeader" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Po4Z58trdd" role="1TKVEi">
       <property role="IQ2ns" value="961540447467320141" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -182,7 +182,7 @@
   <node concept="1TIwiD" id="Po4Z58tnPe">
     <property role="EcuMT" value="961540447467306318" />
     <property role="TrG5h" value="SemanticVersion" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="Po4Z58tnPf" role="1TKVEl">
       <property role="IQ2nx" value="961540447467306319" />
       <property role="TrG5h" value="major" />
@@ -210,7 +210,7 @@
   <node concept="1TIwiD" id="Po4Z58tBpZ">
     <property role="EcuMT" value="961540447467370111" />
     <property role="TrG5h" value="ChangeSection" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Po4Z58tBq_" role="1TKVEi">
       <property role="IQ2ns" value="961540447467370149" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

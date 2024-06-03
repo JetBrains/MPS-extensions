@@ -3070,14 +3070,14 @@
           <property role="TrG5h" value="longCellLength" />
         </node>
         <node concept="37vLTw" id="3QbjcQ60Q4h" role="2GsD0m">
-          <ref role="3cqZAo" node="3QbjcQ60KOE" resolve="longCellWidthValues" />
+          <ref role="3cqZAo" node="3QbjcQ60KOE" resolve="longCellLengthValues" />
         </node>
         <node concept="3clFbS" id="3QbjcQ60P2W" role="2LFqv$">
           <node concept="3clFbF" id="3QbjcQ61k6_" role="3cqZAp">
             <node concept="2OqwBi" id="3QbjcQ61k6y" role="3clFbG">
               <node concept="10M0yZ" id="3QbjcQ61k6z" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" />
-                <ref role="3cqZAo" to="wyt6:~System.out" />
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="3QbjcQ61k6$" role="2OqNvi">
                 <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />

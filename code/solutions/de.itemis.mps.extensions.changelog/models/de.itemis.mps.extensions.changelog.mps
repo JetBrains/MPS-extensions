@@ -33,6 +33,9 @@
       <concept id="961540447472285554" name="de.itemis.mps.changelog.structure.ModuleReference" flags="ng" index="15Ami3">
         <child id="961540447472292029" name="expression" index="15Aodc" />
       </concept>
+      <concept id="961540447472579023" name="de.itemis.mps.changelog.structure.ModelReference" flags="ng" index="15Bu8Y">
+        <child id="961540447472579024" name="expression" index="15Bu8x" />
+      </concept>
       <concept id="961540447472676435" name="de.itemis.mps.changelog.structure.NodeReference" flags="ng" index="15BRQy">
         <child id="961540447472676436" name="expression" index="15BRQ_" />
       </concept>
@@ -50,6 +53,13 @@
         <property id="1863527487546097500" name="moduleId" index="1XweGW" />
         <property id="1863527487545993577" name="moduleName" index="1XxBO9" />
       </concept>
+      <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
+        <property id="1863527487546097494" name="modelId" index="1XweGQ" />
+        <child id="679099339649067980" name="name" index="1j$8Uc" />
+      </concept>
+      <concept id="679099339649053840" name="jetbrains.mps.lang.modelapi.structure.ModelName" flags="ng" index="1j_P7g">
+        <property id="679099339649053841" name="value" index="1j_P7h" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="7400021826774799413" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="ng" index="2tJFMh">
@@ -57,6 +67,9 @@
       </concept>
       <concept id="1678062499342629858" name="jetbrains.mps.lang.smodel.structure.ModuleRefExpression" flags="ng" index="37shsh">
         <child id="1678062499342629861" name="moduleId" index="37shsm" />
+      </concept>
+      <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
+        <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -211,6 +224,72 @@
         </node>
         <node concept="3oM_SD" id="1$KnWE8iTo8" role="1PaTwD">
           <property role="3oM_SC" value="month." />
+        </node>
+      </node>
+    </node>
+    <node concept="15bmVD" id="4Up3BNPqrvi" role="15bmVC">
+      <node concept="15ShDW" id="4Up3BNPqrvf" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAC/June" />
+        <property role="15ShDw" value="2024" />
+      </node>
+      <node concept="15bAme" id="4Up3BNPqrvg" role="15bAlL">
+        <node concept="2DRihI" id="4Up3BNPqrvh" role="15bAlk">
+          <node concept="2hgSXJ" id="4Up3BNPqunt" role="1PaTwD">
+            <node concept="1PaTwC" id="4Up3BNPqunu" role="2hiFM$">
+              <node concept="15Bu8Y" id="4Up3BNPqunv" role="1PaTwD">
+                <node concept="1Xw6AR" id="4Up3BNPqunw" role="15Bu8x">
+                  <node concept="1dCxOl" id="4Up3BNPqunx" role="1XwpL7">
+                    <property role="1XweGQ" value="r:2a70cba0-4dc5-4697-986d-5cba44622d22" />
+                    <node concept="1j_P7g" id="4Up3BNPquny" role="1j$8Uc">
+                      <property role="1j_P7h" value="de.itemis.mps.editor.diagram.runtime" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="4Up3BNPqunz" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPqunI" role="1PaTwD">
+            <property role="3oM_SC" value="Diagrams" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPqunR" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPquo1" role="1PaTwD">
+            <property role="3oM_SC" value="now" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPquoc" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPquoo" role="1PaTwD">
+            <property role="3oM_SC" value="used" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPquo_" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPquoN" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPqup2" role="1PaTwD">
+            <property role="3oM_SC" value="headless" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPqupi" role="1PaTwD">
+            <property role="3oM_SC" value="environment" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPqupz" role="1PaTwD">
+            <property role="3oM_SC" value="(e.g." />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPqupP" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPquq8" role="1PaTwD">
+            <property role="3oM_SC" value="rendering" />
+          </node>
+          <node concept="3oM_SD" id="4Up3BNPquqs" role="1PaTwD">
+            <property role="3oM_SC" value="documentation)." />
+          </node>
         </node>
       </node>
     </node>

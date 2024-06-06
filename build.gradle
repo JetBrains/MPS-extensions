@@ -283,6 +283,12 @@ task build_allScripts {
     dependsOn patch_allScripts
 }
 
+task copyChangelog(type: Copy) {
+    from "$rootDir/code/solutions/de.itemis.mps.extensions.changelog/source_gen/de/itemis/mps/extensions/changelog"
+    into "$rootDir"
+    include "*.md"
+}
+
 task build_languages(type: BuildLanguages, dependsOn: [build_allScripts]) {
     script scriptFile('languages/build.xml')
 }

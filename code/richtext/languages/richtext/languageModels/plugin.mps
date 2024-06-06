@@ -2367,7 +2367,7 @@
                   <node concept="liA8E" id="6wQWU6ADSN4" role="2OqNvi">
                     <ref role="37wK5l" to="qkt:~Presentation.setText(java.lang.String)" resolve="setText" />
                     <node concept="Xl_RD" id="6wQWU6ADSVF" role="37wK5m">
-                      <property role="Xl_RC" value="Duplicate Node" />
+                      <property role="Xl_RC" value="Duplicate Node2" />
                     </node>
                   </node>
                 </node>

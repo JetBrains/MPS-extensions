@@ -14,6 +14,12 @@
       <sourceRoot location="lib/org.eclipse.emf.common.jar" />
       <sourceRoot location="lib/org.eclipse.emf.ecore.jar" />
       <sourceRoot location="lib/org.eclipse.emf.ecore.xmi.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.radial.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.force.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.disco.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.rectpacking.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.spore.jar" />
+      <sourceRoot location="lib/org.eclipse.elk.alg.topdownpacking.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -31,6 +37,12 @@
     <stubModelEntry path="${module}/lib/org.eclipse.emf.common.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.jar" />
     <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.radial.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.force.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.disco.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.rectpacking.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.spore.jar" />
+    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.topdownpacking.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

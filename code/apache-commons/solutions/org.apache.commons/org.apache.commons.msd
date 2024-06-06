@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.apache.commons" uuid="b0f8641f-bd77-4421-8425-30d9088a82f7" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
+<solution name="org.apache.commons" uuid="b0f8641f-bd77-4421-8425-30d9088a82f7" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/commons-csv-1.0/commons-csv-1.0.jar" />
@@ -14,18 +14,15 @@
   <facets>
     <facet type="java" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
+      <library location="${module}/lib/commons-math3-3.3/commons-math3-3.3.jar" />
+      <library location="${module}/lib/commons-csv-1.0/commons-csv-1.0.jar" />
+      <library location="${module}/lib/commons-io-2.4/commons-io-2.4.jar" />
+      <library location="${module}/lib/commons-lang3-3.3.2/commons-lang3-3.3.2.jar" />
+      <library location="${module}/lib/commons-primitives-1.0/commons-primitives-1.0.jar" />
+      <library location="${module}/lib/miglayout/miglayout-4.0-swing.jar" />
+      <library location="${module}/lib/miglayout/miglayout-4.0.jar" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/lib/commons-math3-3.3/commons-math3-3.3.jar" />
-    <stubModelEntry path="${module}/lib/commons-csv-1.0/commons-csv-1.0.jar" />
-    <stubModelEntry path="${module}/lib/commons-io-2.4/commons-io-2.4.jar" />
-    <stubModelEntry path="${module}/lib/commons-lang3-3.3.2/commons-lang3-3.3.2.jar" />
-    <stubModelEntry path="${module}/lib/commons-primitives-1.0/commons-primitives-1.0.jar" />
-    <stubModelEntry path="${module}/lib/miglayout/miglayout-4.0-swing.jar" />
-    <stubModelEntry path="${module}/lib/miglayout/miglayout-4.0.jar" />
-  </stubModelEntries>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>

@@ -14,9 +14,11 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -73,6 +75,10 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -85,6 +91,7 @@
       <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
+      <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
@@ -144,8 +151,12 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
+      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
     </language>
   </registry>
   <node concept="1M2fIO" id="2ZLA1heFcRA">
@@ -465,16 +476,531 @@
     </node>
   </node>
   <node concept="1M2fIO" id="2T42Bz2CwJ0">
-    <property role="3GE5qa" value="layoutAlgorithm" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.layered" />
     <ref role="1M2myG" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
     <node concept="9S07l" id="2T42Bz2CwJX" role="9Vyp8">
       <node concept="3clFbS" id="2T42Bz2CwJY" role="2VODD2">
-        <node concept="3clFbF" id="2T42Bz2CwNS" role="3cqZAp">
-          <node concept="2OqwBi" id="2T42Bz2Cx7d" role="3clFbG">
-            <node concept="nLn13" id="2T42Bz2CwT0" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="2T42Bz2CxeJ" role="2OqNvi">
-              <node concept="chp4Y" id="2T42Bz2CxkG" role="cj9EA">
-                <ref role="cht4Q" to="2qld:7k8PWDQb26s" resolve="LayeredLayoutAlgorithm" />
+        <node concept="3clFbF" id="3biyEnOmq0L" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnOmq0M" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnOmq0N" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnOmq0O" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnOmq0P" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnOmq0Q" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnOmq0R" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnOmq0S" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnOmq0T" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnOmq0U" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnOmq0V" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnOmq0W" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnOmq0X" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnOmq0Y" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnOmq0Z" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnOmq10" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnOmq11" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:7k8PWDQb26s" resolve="LayeredLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="56jSwh$gAa1">
+    <property role="3GE5qa" value="layoutAlgorithm.config.box" />
+    <ref role="1M2myG" to="2qld:56jSwh$g_vp" resolve="BoxLayoutConfig" />
+    <node concept="9S07l" id="56jSwh$gAbE" role="9Vyp8">
+      <node concept="3clFbS" id="56jSwh$gAbF" role="2VODD2">
+        <node concept="3clFbF" id="56jSwh$Icms" role="3cqZAp">
+          <node concept="22lmx$" id="56jSwh$J3qj" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$IfrL" role="3uHU7B">
+              <node concept="2OqwBi" id="56jSwh$Id0K" role="2Oq$k0">
+                <node concept="2OqwBi" id="56jSwh$Icxv" role="2Oq$k0">
+                  <node concept="nLn13" id="56jSwh$Icmr" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="56jSwh$IcFu" role="2OqNvi">
+                    <node concept="1xMEDy" id="56jSwh$IcFw" role="1xVPHs">
+                      <node concept="chp4Y" id="56jSwh$IcMU" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="56jSwh$IcQl" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="56jSwh$Idaw" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="56jSwh$IgRu" role="2OqNvi">
+                <node concept="EsrRn" id="56jSwh$IgWe" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$gAcY" role="3uHU7w">
+              <node concept="nLn13" id="56jSwh$gAcZ" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="56jSwh$gAd0" role="2OqNvi">
+                <node concept="chp4Y" id="56jSwh$gAd1" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5Qzx7AqukcW" resolve="BoxLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="56jSwh$RVIG">
+    <property role="3GE5qa" value="layoutAlgorithm.config.radial" />
+    <ref role="1M2myG" to="2qld:56jSwh$RMMZ" resolve="RadialLayoutConfig" />
+    <node concept="9S07l" id="56jSwh$RVKl" role="9Vyp8">
+      <node concept="3clFbS" id="56jSwh$RVKm" role="2VODD2">
+        <node concept="3clFbF" id="56jSwh$RVM2" role="3cqZAp">
+          <node concept="22lmx$" id="56jSwh$RVM3" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$RVM4" role="3uHU7B">
+              <node concept="2OqwBi" id="56jSwh$RVM5" role="2Oq$k0">
+                <node concept="2OqwBi" id="56jSwh$RVM6" role="2Oq$k0">
+                  <node concept="nLn13" id="56jSwh$RVM7" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="56jSwh$RVM8" role="2OqNvi">
+                    <node concept="1xMEDy" id="56jSwh$RVM9" role="1xVPHs">
+                      <node concept="chp4Y" id="56jSwh$RVMa" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="56jSwh$RVMb" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="56jSwh$RVMc" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="56jSwh$RVMd" role="2OqNvi">
+                <node concept="EsrRn" id="56jSwh$RVMe" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56jSwh$RVMf" role="3uHU7w">
+              <node concept="nLn13" id="56jSwh$RVMg" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="56jSwh$RVMh" role="2OqNvi">
+                <node concept="chp4Y" id="56jSwh$RVMi" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:37WsXDFGho9" resolve="RadialLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="qwNnoDFJy9">
+    <property role="3GE5qa" value="layoutAlgorithm.config.random" />
+    <ref role="1M2myG" to="2qld:qwNnoDFt09" resolve="RandomLayoutConfig" />
+    <node concept="9S07l" id="qwNnoDFJ$S" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoDFJ$T" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoDFJAb" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoDFJAc" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoDFJAd" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoDFJAe" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoDFJAf" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoDFJAg" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoDFJAh" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoDFJAi" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoDFJAj" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoDFJAk" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoDFJAl" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoDFJAm" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoDFJAn" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoDFJAo" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoDFJAp" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoDFJAq" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoDFJAr" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:767du_ZWCV8" resolve="RandomLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="qwNnoDNFgO">
+    <property role="3GE5qa" value="layoutAlgorithm.config.rectpacking" />
+    <ref role="1M2myG" to="2qld:qwNnoDNvBN" resolve="RectPackingLayoutConfig" />
+    <node concept="9S07l" id="qwNnoDNFjz" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoDNFj$" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoDNFkQ" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoDNFkR" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoDNFkS" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoDNFkT" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoDNFkU" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoDNFkV" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoDNFkW" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoDNFkX" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoDNFkY" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoDNFkZ" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoDNFl0" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoDNFl1" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoDNFl2" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoDNFl3" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoDNFl4" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoDNFl5" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoDNFl6" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:4zQzqoUKULH" resolve="RectanglePackingLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="qwNnoEfsJW">
+    <property role="3GE5qa" value="layoutAlgorithm.config.disCo" />
+    <ref role="1M2myG" to="2qld:qwNnoEfkh3" resolve="DisCoLayoutConfig" />
+    <node concept="9S07l" id="qwNnoEfsNi" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoEfsNj" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEfsO_" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoEfsOA" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEfsOB" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoEfsOC" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoEfsOD" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoEfsOE" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoEfsOF" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoEfsOG" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoEfsOH" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoEfsOI" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoEfsOJ" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoEfsOK" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoEfsOL" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoEfsOM" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoEfsON" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoEfsOO" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoEfsOP" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:767du_ZKes6" resolve="DisconnectedGraphLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="qwNnoEDBzN">
+    <property role="3GE5qa" value="layoutAlgorithm.config.fixed" />
+    <ref role="1M2myG" to="2qld:qwNnoED$Ip" resolve="FixedLayoutConfig" />
+    <node concept="9S07l" id="qwNnoEDB_s" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoEDB_t" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEDBAJ" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoEDBAK" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEDBAL" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoEDBAM" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoEDBAN" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoEDBAO" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoEDBAP" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoEDBAQ" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoEDBAR" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoEDBAS" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoEDBAT" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoEDBAU" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoEDBAV" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoEDBAW" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoEDBAX" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoEDBAY" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoEDBAZ" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:767du_ZSOh1" resolve="FixedLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="qwNnoEIRzd">
+    <property role="3GE5qa" value="layoutAlgorithm.config.tree" />
+    <ref role="1M2myG" to="2qld:qwNnoEIEkO" resolve="TreeLayoutConfig" />
+    <node concept="9S07l" id="qwNnoEIR$Q" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoEIR$R" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEIR_J" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoEIR_K" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEIR_L" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoEIR_M" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoEIR_N" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoEIR_O" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoEIR_P" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoEIR_Q" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoEIR_R" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoEIR_S" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoEIR_T" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoEIR_U" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoEIR_V" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoEIR_W" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoEIR_X" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoEIR_Y" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoEIR_Z" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:7k8PWDQd3nq" resolve="TreeLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3biyEnNp6ah">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <ref role="1M2myG" to="2qld:3biyEnNoWF8" resolve="SPOrECompactionLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNp6bw" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNp6bx" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNp6cp" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNp6cq" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNp6cr" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNp6cs" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNp6ct" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNp6cu" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNp6cv" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNp6cw" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNp6cx" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNp6cy" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNp6cz" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNp6c$" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNp6c_" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNp6cA" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNp6cB" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNp6cC" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNp6cD" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5sXqsGQUIOP" resolve="SPOrECompactionAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3biyEnNFoer">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
+    <ref role="1M2myG" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlapRemovalLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNFogu" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNFogv" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNFohL" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNFohM" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNFohN" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNFohO" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNFohP" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNFohQ" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNFohR" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNFohS" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNFohT" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNFohU" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNFohV" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNFohW" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNFohX" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNFohY" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNFohZ" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNFoi0" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNFoi1" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5sXqsGQZDFZ" resolve="SPOrEOverlapRemovalAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3biyEnNNqTf">
+    <property role="3GE5qa" value="layoutAlgorithm.config.stress" />
+    <ref role="1M2myG" to="2qld:3biyEnNNklh" resolve="StressLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNNqUu" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNNqUv" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNNqVL" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNNqVM" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNNqVN" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNNqVO" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNNqVP" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNNqVQ" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNNqVR" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNNqVS" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNNqVT" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNNqVU" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNNqVV" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNNqVW" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNNqVX" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNNqVY" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNNqVZ" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNNqW0" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNNqW1" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5sXqsGR3$$D" resolve="StressLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3biyEnNTtnP">
+    <property role="3GE5qa" value="layoutAlgorithm.config.force" />
+    <ref role="1M2myG" to="2qld:3biyEnNTgvt" resolve="ForceLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNTtp4" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNTtp5" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNTtpX" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNTtpY" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTtpZ" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNTtq0" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNTtq1" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNTtq2" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNTtq3" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNTtq4" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNTtq5" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNTtq6" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNTtq7" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNTtq8" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNTtq9" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNTtqa" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNTtqb" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNTtqc" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNTtqd" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5Qzx7AqfkbW" resolve="ForceLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3biyEnO4arg">
+    <property role="3GE5qa" value="layoutAlgorithm.config.topdownPacking" />
+    <ref role="1M2myG" to="2qld:3biyEnO40Ms" resolve="TopdownPackingLayoutConfig" />
+    <node concept="9S07l" id="3biyEnO4asT" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnO4asU" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnO4auA" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnO4auB" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnO4auC" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnO4auD" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnO4auE" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnO4auF" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnO4auG" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnO4auH" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnO4auI" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnO4auJ" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnO4auK" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnO4auL" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnO4auM" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnO4auN" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnO4auO" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnO4auP" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnO4auQ" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:6_QKC_EKvBJ" resolve="TopDownLayoutAlgorithm" />
+                </node>
               </node>
             </node>
           </node>

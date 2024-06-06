@@ -37,6 +37,7 @@
       <modulePath path="$PROJECT_DIR$/diagram/devkits/de.itemis.mps.editor.diagram.devkit.devkit" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram.demo.activity/de.itemis.mps.editor.diagram.demo.activity.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram.demo.callgraph/de.itemis.mps.editor.diagram.demo.callgraph.mpl" folder="diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram.demo.elk/de.itemis.mps.editor.diagram.demo.elk.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram.demoentities/de.itemis.mps.editor.diagram.demoentities.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram.demolang/de.itemis.mps.editor.diagram.demolang.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram.layout/de.itemis.mps.editor.diagram.layout.mpl" folder="diagram" />
@@ -44,6 +45,7 @@
       <modulePath path="$PROJECT_DIR$/diagram/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/languages/test.de.itemis.mps.editor.diagram.lang/test.de.itemis.mps.editor.diagram.lang.mpl" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.demo.activity.sandbox/de.itemis.mps.editor.diagram.demo.activity.sandbox.msd" folder="diagram" />
+      <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.demo.elk.sandbox/de.itemis.mps.editor.diagram.demo.elk.sandbox.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.demoentities.sandbox/de.itemis.mps.editor.diagram.demoentities.sandbox.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.runtime/de.itemis.mps.editor.diagram.runtime.msd" folder="diagram" />
       <modulePath path="$PROJECT_DIR$/diagram/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="diagram" />

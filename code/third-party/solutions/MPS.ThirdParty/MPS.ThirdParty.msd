@@ -6,10 +6,9 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="ext" classes="provided" ext="no">
       <classes generated="true" />
     </facet>
-    <facet pluginId="com.intellij" type="ideaPlugin" />
   </facets>
   <stubModelEntries>
     <stubModelEntry path="${platform_lib}/app.jar" />

@@ -8452,6 +8452,18 @@
           </node>
         </node>
       </node>
+      <node concept="P$JXv" id="YGA9S5rsSh" role="lGtFl">
+        <node concept="TZ5HI" id="YGA9S5rsSi" role="3nqlJM">
+          <node concept="TZ5HA" id="YGA9S5rsSj" role="3HnX3l">
+            <node concept="1dT_AC" id="YGA9S5rE$J" role="1dT_Ay">
+              <property role="1dT_AB" value="edge routing only is not supported by any of the ELK layout algorithms." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="YGA9S5rsSk" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+      </node>
     </node>
     <node concept="2tJIrI" id="1Pjj0VVwiig" role="jymVt" />
     <node concept="3clFb_" id="1Pjj0VVwjjP" role="jymVt">
@@ -17066,6 +17078,18 @@
       <node concept="10P_77" id="49KXtyXBhV9" role="3clF45" />
       <node concept="3Tm1VV" id="49KXtyXBhVa" role="1B3o_S" />
       <node concept="3clFbS" id="49KXtyXBhVb" role="3clF47" />
+      <node concept="P$JXv" id="YGA9S5raOd" role="lGtFl">
+        <node concept="TZ5HI" id="YGA9S5raOe" role="3nqlJM">
+          <node concept="TZ5HA" id="YGA9S5raOf" role="3HnX3l">
+            <node concept="1dT_AC" id="YGA9S5raS1" role="1dT_Ay">
+              <property role="1dT_AB" value="edge routing only is not supported by any of the ELK layout algorithms." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="YGA9S5raOg" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+      </node>
     </node>
     <node concept="3clFb_" id="5TlQvVDpQu" role="jymVt">
       <property role="TrG5h" value="getDefaultBoxShape" />
@@ -28598,15 +28622,14 @@
       <node concept="3Tm1VV" id="49KXtyXil4$" role="1B3o_S" />
       <node concept="3clFbS" id="49KXtyXil4_" role="3clF47">
         <node concept="3clFbF" id="49KXtyXimBD" role="3cqZAp">
-          <node concept="3clFbT" id="49KXtyXimBC" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
+          <node concept="3clFbT" id="49KXtyXimBC" role="3clFbG" />
         </node>
       </node>
       <node concept="2AHcQZ" id="1EGRR3nACVF" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="YGA9S5rcUs" role="jymVt" />
     <node concept="3clFb_" id="5TlQvVDuZZ" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getDefaultBoxShape" />

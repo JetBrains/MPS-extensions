@@ -30,12 +30,14 @@
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="99ht" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.model(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
+    <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
+      <concept id="1204908117386" name="jetbrains.mps.lang.plugin.structure.Separator" flags="ng" index="2a7GMi" />
       <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
         <child id="1207145201301" name="reference" index="ftvYc" />
       </concept>
@@ -57,6 +59,8 @@
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
+        <property id="1204991940915" name="caption" index="2f7twF" />
+        <property id="1213283637680" name="isPopup" index="1XlLyE" />
         <child id="1204991552650" name="modifier" index="2f5YQi" />
         <child id="1207145245948" name="contents" index="ftER_" />
       </concept>
@@ -636,20 +640,6 @@
   </node>
   <node concept="Zd50a" id="5K7KC_qu7y_">
     <property role="TrG5h" value="DiagramKeymap" />
-    <node concept="Zd509" id="5K7KC_qu7$D" role="Zd508">
-      <ref role="1bYAoF" node="5K7KC_qu7$R" resolve="RotateBoxClockwiseAction" />
-      <node concept="pLAjd" id="5K7KC_qu7$E" role="Zd501">
-        <property role="pLAjc" value="ctrl" />
-        <property role="pLAjf" value="VK_R" />
-      </node>
-    </node>
-    <node concept="Zd509" id="2THfnm7vNtC" role="Zd508">
-      <ref role="1bYAoF" node="2THfnm7nqSH" resolve="RotateBoxCounterClockWiseAction" />
-      <node concept="pLAjd" id="2THfnm7vNtD" role="Zd501">
-        <property role="pLAjc" value="ctrl+shift" />
-        <property role="pLAjf" value="VK_R" />
-      </node>
-    </node>
     <node concept="Zd509" id="7tfNqqCmTL3" role="Zd508">
       <ref role="1bYAoF" node="7tfNqqCmxXm" resolve="Diagram_ZoomOut" />
       <node concept="pLAjd" id="7tfNqqCmTL5" role="Zd501">
@@ -664,13 +654,6 @@
         <property role="pLAjf" value="VK_ADD" />
       </node>
     </node>
-    <node concept="Zd509" id="2THfnm7nqS7" role="Zd508">
-      <ref role="1bYAoF" node="2THfnm7nq5w" resolve="FlipBoxAction" />
-      <node concept="pLAjd" id="2THfnm7nqS9" role="Zd501">
-        <property role="pLAjc" value="ctrl" />
-        <property role="pLAjf" value="VK_I" />
-      </node>
-    </node>
     <node concept="Zd509" id="1VCXHWuksjx" role="Zd508">
       <ref role="1bYAoF" node="1VCXHWuhkT$" resolve="Diagram_SelectAll" />
       <node concept="pLAjd" id="1VCXHWuksjy" role="Zd501">
@@ -680,8 +663,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="5K7KC_qu7$R">
-    <property role="TrG5h" value="RotateBoxClockwiseAction" />
-    <property role="2uzpH1" value="Rotate Diagram Box Clockwise" />
+    <property role="TrG5h" value="DiagramSwitchPortsSideClockwise" />
+    <property role="2uzpH1" value="Switch All Port's Side Clockwise" />
     <node concept="tnohg" id="5K7KC_qu7$S" role="tncku">
       <node concept="3clFbS" id="5K7KC_qu7$T" role="2VODD2">
         <node concept="3cpWs8" id="5K7KC_q_GdP" role="3cqZAp">
@@ -719,7 +702,7 @@
               <ref role="3cqZAo" node="5K7KC_q_GdQ" resolve="selection" />
             </node>
             <node concept="liA8E" id="5K7KC_q_Ig4" role="2OqNvi">
-              <ref role="37wK5l" to="r3rm:5K7KC_q_a4P" resolve="executeRotateClockwise" />
+              <ref role="37wK5l" to="r3rm:5K7KC_q_a4P" resolve="switchPortsSideClockwise" />
             </node>
           </node>
         </node>
@@ -946,8 +929,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="2THfnm7nq5w">
-    <property role="TrG5h" value="FlipBoxAction" />
-    <property role="2uzpH1" value="Flip Diagram Box Horizontally" />
+    <property role="TrG5h" value="Diagram_FlipPortsSideHorizontally" />
+    <property role="2uzpH1" value="Diagram: Flip All Port's Side Horizontally" />
     <node concept="tnohg" id="2THfnm7nq5x" role="tncku">
       <node concept="3clFbS" id="2THfnm7nq5y" role="2VODD2">
         <node concept="3cpWs8" id="2THfnm7nq5z" role="3cqZAp">
@@ -985,7 +968,7 @@
               <ref role="3cqZAo" node="2THfnm7nq5$" resolve="selection" />
             </node>
             <node concept="liA8E" id="2THfnm7nq5M" role="2OqNvi">
-              <ref role="37wK5l" to="r3rm:2THfnm7mrrp" resolve="executeFlipHorizontally" />
+              <ref role="37wK5l" to="r3rm:2THfnm7mrrp" resolve="flipPortsSideHorizontally" />
             </node>
           </node>
         </node>
@@ -1025,8 +1008,8 @@
     </node>
   </node>
   <node concept="sE7Ow" id="2THfnm7nqSH">
-    <property role="TrG5h" value="RotateBoxCounterClockWiseAction" />
-    <property role="2uzpH1" value="Rotate Diagram Box Counterclockwise" />
+    <property role="TrG5h" value="DiagramSwitchPortsSideCounterClockwise" />
+    <property role="2uzpH1" value="Switch All Port's Side Counter-Clockwise" />
     <node concept="tnohg" id="2THfnm7nqSI" role="tncku">
       <node concept="3clFbS" id="2THfnm7nqSJ" role="2VODD2">
         <node concept="3cpWs8" id="2THfnm7nqSK" role="3cqZAp">
@@ -1064,7 +1047,7 @@
               <ref role="3cqZAo" node="2THfnm7nqSL" resolve="selection" />
             </node>
             <node concept="liA8E" id="2THfnm7nqSZ" role="2OqNvi">
-              <ref role="37wK5l" to="r3rm:2THfnm7nwN$" resolve="executeRotateCounterClockwise" />
+              <ref role="37wK5l" to="r3rm:2THfnm7nwN$" resolve="switchPortsSideCounterClockwise" />
             </node>
           </node>
         </node>
@@ -2067,6 +2050,125 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="YGA9S6m0pQ">
+    <property role="TrG5h" value="Diagram_FlipPortsSideVertically" />
+    <property role="2uzpH1" value="Diagram: Flip All Port's Side Vertically" />
+    <node concept="tnohg" id="YGA9S6m0pR" role="tncku">
+      <node concept="3clFbS" id="YGA9S6m0pS" role="2VODD2">
+        <node concept="3cpWs8" id="YGA9S6m0pT" role="3cqZAp">
+          <node concept="3cpWsn" id="YGA9S6m0pU" role="3cpWs9">
+            <property role="TrG5h" value="selection" />
+            <node concept="3uibUv" id="YGA9S6m0pV" role="1tU5fm">
+              <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+            </node>
+            <node concept="10QFUN" id="YGA9S6m0pW" role="33vP2m">
+              <node concept="2OqwBi" id="YGA9S6m0pX" role="10QFUP">
+                <node concept="2OqwBi" id="YGA9S6m0pY" role="2Oq$k0">
+                  <node concept="2OqwBi" id="YGA9S6m0pZ" role="2Oq$k0">
+                    <node concept="2WthIp" id="YGA9S6m0q0" role="2Oq$k0" />
+                    <node concept="1DTwFV" id="YGA9S6m0q1" role="2OqNvi">
+                      <ref role="2WH_rO" node="YGA9S6m0ql" resolve="editorComponent" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="YGA9S6m0q2" role="2OqNvi">
+                    <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="YGA9S6m0q3" role="2OqNvi">
+                  <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="YGA9S6m0q4" role="10QFUM">
+                <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="YGA9S6m0q5" role="3cqZAp">
+          <node concept="2OqwBi" id="YGA9S6m0q6" role="3clFbG">
+            <node concept="37vLTw" id="YGA9S6m0q7" role="2Oq$k0">
+              <ref role="3cqZAo" node="YGA9S6m0pU" resolve="selection" />
+            </node>
+            <node concept="liA8E" id="YGA9S6m0q8" role="2OqNvi">
+              <ref role="37wK5l" to="r3rm:YGA9S6mcOW" resolve="flipPortsSideVertically" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="YGA9S6m0q9" role="tmbBb">
+      <node concept="3clFbS" id="YGA9S6m0qa" role="2VODD2">
+        <node concept="3clFbF" id="YGA9S6m0qb" role="3cqZAp">
+          <node concept="2ZW3vV" id="YGA9S6m0qc" role="3clFbG">
+            <node concept="3uibUv" id="YGA9S6m0qd" role="2ZW6by">
+              <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+            </node>
+            <node concept="2OqwBi" id="YGA9S6m0qe" role="2ZW6bz">
+              <node concept="2OqwBi" id="YGA9S6m0qf" role="2Oq$k0">
+                <node concept="2OqwBi" id="YGA9S6m0qg" role="2Oq$k0">
+                  <node concept="2WthIp" id="YGA9S6m0qh" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="YGA9S6m0qi" role="2OqNvi">
+                    <ref role="2WH_rO" node="YGA9S6m0ql" resolve="editorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="YGA9S6m0qj" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorComponent.getSelectionManager()" resolve="getSelectionManager" />
+                </node>
+              </node>
+              <node concept="liA8E" id="YGA9S6m0qk" role="2OqNvi">
+                <ref role="37wK5l" to="lwvz:~SelectionManager.getSelection()" resolve="getSelection" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DS2jV" id="YGA9S6m0ql" role="1NuT2Z">
+      <property role="TrG5h" value="editorComponent" />
+      <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_COMPONENT" resolve="EDITOR_COMPONENT" />
+      <node concept="1oajcY" id="YGA9S6m0qm" role="1oa70y" />
+    </node>
+  </node>
+  <node concept="tC5Ba" id="YGA9S6qNad">
+    <property role="TrG5h" value="DiagramActions" />
+    <property role="1XlLyE" value="true" />
+    <property role="2f7twF" value="Diagram" />
+    <node concept="ftmFs" id="YGA9S6qNir" role="ftER_">
+      <node concept="tCFHf" id="YGA9S6qNiu" role="ftvYc">
+        <ref role="tCJdB" node="5IQEFjDGFIZ" resolve="Diagram_Autolayout" />
+      </node>
+      <node concept="tCFHf" id="YGA9S6qNiz" role="ftvYc">
+        <ref role="tCJdB" node="5IQEFjDErcz" resolve="Diagram_FitSizeAll" />
+      </node>
+      <node concept="tCFHf" id="YGA9S6qNiF" role="ftvYc">
+        <ref role="tCJdB" node="5IQEFjDH2SU" resolve="Diagram_FitSizeAndAutolayout" />
+      </node>
+      <node concept="2a7GMi" id="YGA9S6qNjB" role="ftvYc" />
+      <node concept="tCFHf" id="YGA9S6qNiX" role="ftvYc">
+        <ref role="tCJdB" node="5q$QTTw90T$" resolve="Diagram_ZoomIn" />
+      </node>
+      <node concept="tCFHf" id="YGA9S6qNj9" role="ftvYc">
+        <ref role="tCJdB" node="7tfNqqCmxXm" resolve="Diagram_ZoomOut" />
+      </node>
+      <node concept="2a7GMi" id="YGA9S6qNjT" role="ftvYc" />
+      <node concept="tCFHf" id="YGA9S6qNjn" role="ftvYc">
+        <ref role="tCJdB" node="2THfnm7nq5w" resolve="Diagram_FlipPortsSideHorizontally" />
+      </node>
+      <node concept="tCFHf" id="YGA9S6qNkd" role="ftvYc">
+        <ref role="tCJdB" node="YGA9S6m0pQ" resolve="Diagram_FlipPortsSideVertically" />
+      </node>
+      <node concept="tCFHf" id="YGA9S6qNkz" role="ftvYc">
+        <ref role="tCJdB" node="5K7KC_qu7$R" resolve="DiagramSwitchPortsSideClockwise" />
+      </node>
+      <node concept="tCFHf" id="YGA9S6qNkV" role="ftvYc">
+        <ref role="tCJdB" node="2THfnm7nqSH" resolve="DiagramSwitchPortsSideCounterClockwise" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="YGA9S6qSQR" role="2f5YQi">
+      <ref role="tU$_T" to="ekwn:1xsN4xJX8VI" resolve="EditorPopup" />
+      <ref role="2f8Tey" to="ekwn:6S3xhs4vzRz" resolve="diagram" />
     </node>
   </node>
 </model>

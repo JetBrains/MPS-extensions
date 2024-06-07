@@ -5558,6 +5558,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="YGA9S6qTe9" role="3bR37C">
+          <node concept="3bR9La" id="YGA9S6qTea" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6wEeo$QJAsB" role="2G$12L">
         <property role="BnDLt" value="true" />

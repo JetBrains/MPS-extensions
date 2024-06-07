@@ -675,7 +675,7 @@
       </node>
     </node>
     <node concept="312cEg" id="5elYBhUOgwY" role="jymVt">
-      <property role="TrG5h" value="myTransformation" />
+      <property role="TrG5h" value="myPortTransformation" />
       <node concept="3Tm6S6" id="5elYBhUOgwZ" role="1B3o_S" />
       <node concept="3uibUv" id="5elYBhUQoxP" role="1tU5fm">
         <ref role="3uigEE" to="fbzs:~AffineTransform" resolve="AffineTransform" />
@@ -755,14 +755,14 @@
     </node>
     <node concept="2tJIrI" id="5elYBhUOrI9" role="jymVt" />
     <node concept="3clFb_" id="5elYBhUOuhO" role="jymVt">
-      <property role="TrG5h" value="rotateClockwise" />
+      <property role="TrG5h" value="rotatePortSideClockwise" />
       <node concept="3cqZAl" id="5elYBhUOuhQ" role="3clF45" />
       <node concept="3Tm1VV" id="5elYBhUOuhR" role="1B3o_S" />
       <node concept="3clFbS" id="5elYBhUOuhS" role="3clF47">
         <node concept="3clFbF" id="5elYBhUQxv1" role="3cqZAp">
           <node concept="2OqwBi" id="5elYBhUQxND" role="3clFbG">
             <node concept="37vLTw" id="5elYBhUQxuZ" role="2Oq$k0">
-              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myTransformation" />
+              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myPortTransformation" />
             </node>
             <node concept="liA8E" id="5elYBhUQyeZ" role="2OqNvi">
               <ref role="37wK5l" to="fbzs:~AffineTransform.rotate(double)" resolve="rotate" />
@@ -782,14 +782,14 @@
     </node>
     <node concept="2tJIrI" id="5elYBhUP2eV" role="jymVt" />
     <node concept="3clFb_" id="5elYBhUOOxc" role="jymVt">
-      <property role="TrG5h" value="rotateCounterClockwise" />
+      <property role="TrG5h" value="rotatePortSideCounterClockwise" />
       <node concept="3cqZAl" id="5elYBhUOOxd" role="3clF45" />
       <node concept="3Tm1VV" id="5elYBhUOOxe" role="1B3o_S" />
       <node concept="3clFbS" id="5elYBhUOOxf" role="3clF47">
         <node concept="3clFbF" id="5elYBhUQBaW" role="3cqZAp">
           <node concept="2OqwBi" id="5elYBhUQBaX" role="3clFbG">
             <node concept="37vLTw" id="5elYBhUQBaY" role="2Oq$k0">
-              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myTransformation" />
+              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myPortTransformation" />
             </node>
             <node concept="liA8E" id="5elYBhUQBaZ" role="2OqNvi">
               <ref role="37wK5l" to="fbzs:~AffineTransform.rotate(double)" resolve="rotate" />
@@ -811,14 +811,14 @@
     </node>
     <node concept="2tJIrI" id="5elYBhUP5mC" role="jymVt" />
     <node concept="3clFb_" id="5elYBhUP8vP" role="jymVt">
-      <property role="TrG5h" value="flipVertically" />
+      <property role="TrG5h" value="flipPortSideVertically" />
       <node concept="3cqZAl" id="5elYBhUP8vR" role="3clF45" />
       <node concept="3Tm1VV" id="5elYBhUP8vS" role="1B3o_S" />
       <node concept="3clFbS" id="5elYBhUP8vT" role="3clF47">
         <node concept="3clFbF" id="5elYBhUQIN1" role="3cqZAp">
           <node concept="2OqwBi" id="5elYBhUQIN2" role="3clFbG">
             <node concept="37vLTw" id="5elYBhUQIN3" role="2Oq$k0">
-              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myTransformation" />
+              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myPortTransformation" />
             </node>
             <node concept="liA8E" id="5elYBhUQIN4" role="2OqNvi">
               <ref role="37wK5l" to="fbzs:~AffineTransform.scale(double,double)" resolve="scale" />
@@ -835,14 +835,14 @@
     </node>
     <node concept="2tJIrI" id="5elYBhUPqE6" role="jymVt" />
     <node concept="3clFb_" id="5elYBhUPtw8" role="jymVt">
-      <property role="TrG5h" value="flipHorizontally" />
+      <property role="TrG5h" value="flipPortSideHorizontally" />
       <node concept="3cqZAl" id="5elYBhUPtwa" role="3clF45" />
       <node concept="3Tm1VV" id="5elYBhUPtwb" role="1B3o_S" />
       <node concept="3clFbS" id="5elYBhUPtwc" role="3clF47">
         <node concept="3clFbF" id="5elYBhUQE2n" role="3cqZAp">
           <node concept="2OqwBi" id="5elYBhUQE9B" role="3clFbG">
             <node concept="37vLTw" id="5elYBhUQE2m" role="2Oq$k0">
-              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myTransformation" />
+              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myPortTransformation" />
             </node>
             <node concept="liA8E" id="5elYBhUQEyD" role="2OqNvi">
               <ref role="37wK5l" to="fbzs:~AffineTransform.scale(double,double)" resolve="scale" />
@@ -859,7 +859,7 @@
     </node>
     <node concept="2tJIrI" id="5elYBhUQLZf" role="jymVt" />
     <node concept="3clFb_" id="5elYBhUQOHb" role="jymVt">
-      <property role="TrG5h" value="getTransform" />
+      <property role="TrG5h" value="getPortTransform" />
       <node concept="3uibUv" id="5elYBhUR6A7" role="3clF45">
         <ref role="3uigEE" to="fbzs:~AffineTransform" resolve="AffineTransform" />
       </node>
@@ -869,7 +869,7 @@
           <node concept="10QFUN" id="5elYBhUR9nX" role="3clFbG">
             <node concept="2OqwBi" id="5elYBhUR93R" role="10QFUP">
               <node concept="37vLTw" id="5elYBhUR8WK" role="2Oq$k0">
-                <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myTransformation" />
+                <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myPortTransformation" />
               </node>
               <node concept="liA8E" id="5elYBhUR9jl" role="2OqNvi">
                 <ref role="37wK5l" to="fbzs:~AffineTransform.clone()" resolve="clone" />
@@ -921,7 +921,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="kykzH3RO7Q" role="37vLTJ">
-              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myTransformation" />
+              <ref role="3cqZAo" node="5elYBhUOgwY" resolve="myPortTransformation" />
             </node>
           </node>
         </node>
@@ -978,7 +978,7 @@
             <node concept="liA8E" id="5elYBhUShQc" role="2OqNvi">
               <ref role="37wK5l" to="fbzs:~AffineTransform.concatenate(java.awt.geom.AffineTransform)" resolve="concatenate" />
               <node concept="1rXfSq" id="5elYBhUShTf" role="37wK5m">
-                <ref role="37wK5l" node="5elYBhUQOHb" resolve="getTransform" />
+                <ref role="37wK5l" node="5elYBhUQOHb" resolve="getPortTransform" />
               </node>
             </node>
           </node>
@@ -1103,7 +1103,7 @@
             <node concept="liA8E" id="4tG260MzYvU" role="2OqNvi">
               <ref role="37wK5l" to="fbzs:~AffineTransform.concatenate(java.awt.geom.AffineTransform)" resolve="concatenate" />
               <node concept="1rXfSq" id="4tG260MzYvV" role="37wK5m">
-                <ref role="37wK5l" node="5elYBhUQOHb" resolve="getTransform" />
+                <ref role="37wK5l" node="5elYBhUQOHb" resolve="getPortTransform" />
               </node>
             </node>
           </node>
@@ -12533,7 +12533,7 @@
                           <ref role="37wK5l" node="2JYLxR6r9Ev" resolve="getBox" />
                         </node>
                         <node concept="liA8E" id="5K7KC_pqEmg" role="2OqNvi">
-                          <ref role="37wK5l" node="5elYBhUQOHb" resolve="getTransform" />
+                          <ref role="37wK5l" node="5elYBhUQOHb" resolve="getPortTransform" />
                         </node>
                       </node>
                     </node>
@@ -27543,7 +27543,7 @@
                       <ref role="3cqZAo" node="kykzH3R3Jr" resolve="data" />
                     </node>
                     <node concept="3TrcHB" id="kykzH3R5Zp" role="2OqNvi">
-                      <ref role="3TsBF5" to="suqv:3YrTy06Qzfo" resolve="transform" />
+                      <ref role="3TsBF5" to="suqv:3YrTy06Qzfo" resolve="portTransform" />
                     </node>
                   </node>
                 </node>
@@ -27756,7 +27756,7 @@
         </node>
         <node concept="3cpWs8" id="D0N6DjwhbC" role="3cqZAp">
           <node concept="3cpWsn" id="D0N6DjwhbD" role="3cpWs9">
-            <property role="TrG5h" value="transform" />
+            <property role="TrG5h" value="portTransform" />
             <node concept="3uibUv" id="D0N6DjwhbB" role="1tU5fm">
               <ref role="3uigEE" to="fbzs:~AffineTransform" resolve="AffineTransform" />
             </node>
@@ -27765,7 +27765,7 @@
                 <ref role="3cqZAo" node="D0N6DjwaiT" resolve="box" />
               </node>
               <node concept="liA8E" id="D0N6DjwhbG" role="2OqNvi">
-                <ref role="37wK5l" node="5elYBhUQOHb" resolve="getTransform" />
+                <ref role="37wK5l" node="5elYBhUQOHb" resolve="getPortTransform" />
               </node>
             </node>
           </node>
@@ -27791,13 +27791,13 @@
         </node>
         <node concept="3cpWs8" id="kykzH42BqR" role="3cqZAp">
           <node concept="3cpWsn" id="kykzH42BqU" role="3cpWs9">
-            <property role="TrG5h" value="serializedTransform" />
+            <property role="TrG5h" value="serializedPortTransform" />
             <node concept="17QB3L" id="kykzH42BqP" role="1tU5fm" />
             <node concept="2YIFZM" id="kykzH42BRT" role="33vP2m">
               <ref role="37wK5l" node="3YrTy06QCfq" resolve="serializeAffineTransform" />
               <ref role="1Pybhc" node="3YrTy06PN3D" resolve="SerializeUtil" />
               <node concept="37vLTw" id="kykzH42BT2" role="37wK5m">
-                <ref role="3cqZAo" node="D0N6DjwhbD" resolve="transform" />
+                <ref role="3cqZAo" node="D0N6DjwhbD" resolve="portTransform" />
               </node>
             </node>
           </node>
@@ -27820,14 +27820,14 @@
             <node concept="3clFbF" id="kykzH42EaV" role="3cqZAp">
               <node concept="37vLTI" id="kykzH42F7Z" role="3clFbG">
                 <node concept="37vLTw" id="kykzH42FoW" role="37vLTx">
-                  <ref role="3cqZAo" node="kykzH42BqU" resolve="serializedTransform" />
+                  <ref role="3cqZAo" node="kykzH42BqU" resolve="serializedPortTransform" />
                 </node>
                 <node concept="2OqwBi" id="kykzH42Eda" role="37vLTJ">
                   <node concept="37vLTw" id="kykzH42EaT" role="2Oq$k0">
                     <ref role="3cqZAo" node="kykzH3QzaX" resolve="data" />
                   </node>
                   <node concept="3TrcHB" id="kykzH42EJL" role="2OqNvi">
-                    <ref role="3TsBF5" to="suqv:3YrTy06Qzfo" resolve="transform" />
+                    <ref role="3TsBF5" to="suqv:3YrTy06Qzfo" resolve="portTransform" />
                   </node>
                 </node>
               </node>
@@ -27839,11 +27839,11 @@
                 <ref role="3cqZAo" node="kykzH3QzaX" resolve="data" />
               </node>
               <node concept="3TrcHB" id="kykzH42E8E" role="2OqNvi">
-                <ref role="3TsBF5" to="suqv:3YrTy06Qzfo" resolve="transform" />
+                <ref role="3TsBF5" to="suqv:3YrTy06Qzfo" resolve="portTransform" />
               </node>
             </node>
             <node concept="37vLTw" id="kykzH42CPE" role="3uHU7B">
-              <ref role="3cqZAo" node="kykzH42BqU" resolve="serializedTransform" />
+              <ref role="3cqZAo" node="kykzH42BqU" resolve="serializedPortTransform" />
             </node>
           </node>
         </node>

@@ -320,6 +320,13 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="YGA9S7vJUH" role="V601i">
+      <property role="TrG5h" value="__show-all-edges-button" />
+      <node concept="10P_77" id="YGA9S7vJUI" role="3t5Oan" />
+      <node concept="3clFbT" id="YGA9S7vJUJ" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
     <node concept="3t5Usi" id="5ZBOFE3$JmS" role="V601i">
       <property role="TrG5h" value="__layout-diagram-button" />
       <node concept="10P_77" id="5ZBOFE3$JmT" role="3t5Oan" />

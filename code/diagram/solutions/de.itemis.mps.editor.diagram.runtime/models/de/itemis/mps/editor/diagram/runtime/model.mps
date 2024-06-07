@@ -17139,10 +17139,16 @@
     </node>
     <node concept="2tJIrI" id="4m$$SBGbx2y" role="jymVt" />
     <node concept="3clFb_" id="4m$$SBGbyv7" role="jymVt">
-      <property role="TrG5h" value="runAutoLayout" />
+      <property role="TrG5h" value="runAutoLayoutOnInit" />
       <node concept="3clFbS" id="4m$$SBGbyva" role="3clF47" />
       <node concept="3Tm1VV" id="4m$$SBGbyvb" role="1B3o_S" />
       <node concept="10P_77" id="4m$$SBGbx80" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="YGA9S6HLNC" role="jymVt">
+      <property role="TrG5h" value="fitToSizeOnInit" />
+      <node concept="3clFbS" id="YGA9S6HLNF" role="3clF47" />
+      <node concept="3Tm1VV" id="YGA9S6HLNG" role="1B3o_S" />
+      <node concept="10P_77" id="YGA9S6HLIG" role="3clF45" />
     </node>
   </node>
   <node concept="3HP615" id="4teJTSBx0$0">
@@ -28709,7 +28715,7 @@
     </node>
     <node concept="2tJIrI" id="4m$$SBG98yu" role="jymVt" />
     <node concept="3clFb_" id="4m$$SBG9t4D" role="jymVt">
-      <property role="TrG5h" value="runAutoLayout" />
+      <property role="TrG5h" value="runAutoLayoutOnInit" />
       <node concept="3clFbS" id="4m$$SBG9t4G" role="3clF47">
         <node concept="3cpWs6" id="4m$$SBG9ukv" role="3cqZAp">
           <node concept="3clFbT" id="4m$$SBG9uOT" role="3cqZAk" />
@@ -28717,6 +28723,17 @@
       </node>
       <node concept="3Tm1VV" id="4m$$SBG9suH" role="1B3o_S" />
       <node concept="10P_77" id="4m$$SBG9sTQ" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="YGA9S6DkZQ" role="jymVt" />
+    <node concept="3clFb_" id="YGA9S6Dnp4" role="jymVt">
+      <property role="TrG5h" value="fitToSizeOnInit" />
+      <node concept="3clFbS" id="YGA9S6Dnp7" role="3clF47">
+        <node concept="3cpWs6" id="YGA9S6Dp2_" role="3cqZAp">
+          <node concept="3clFbT" id="YGA9S6Dqjr" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="YGA9S6Dml9" role="1B3o_S" />
+      <node concept="10P_77" id="YGA9S6Dne6" role="3clF45" />
     </node>
   </node>
   <node concept="312cEu" id="63AkbuPiu1I">

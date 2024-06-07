@@ -995,6 +995,21 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
+          <node concept="3EZMnI" id="YGA9S6CHg2" role="3EZMnx">
+            <node concept="2iRfu4" id="YGA9S6CHg3" role="2iSdaV" />
+            <node concept="3F0ifn" id="YGA9S6CHg4" role="3EZMnx">
+              <property role="3F0ifm" value="fit size on init" />
+            </node>
+            <node concept="3F1sOY" id="YGA9S6CHg5" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:YGA9S6CFKO" resolve="fitToSizeOnInit" />
+              <node concept="VPXOz" id="YGA9S6CHg6" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="VPXOz" id="YGA9S6CHg7" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
           <node concept="3EZMnI" id="2YJ6Svp2Ooy" role="3EZMnx">
             <node concept="VPM3Z" id="2YJ6Svp2Ooz" role="3F10Kt">
               <property role="VOm3f" value="false" />

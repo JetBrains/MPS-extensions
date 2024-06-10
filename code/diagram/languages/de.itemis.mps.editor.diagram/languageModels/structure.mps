@@ -2433,6 +2433,12 @@
       <property role="20kJfa" value="padding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
+    <node concept="1TJgyj" id="4bryhcnTx1k" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501214804" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
     <node concept="1TJgyi" id="1MAkSr5clWS" role="1TKVEl">
       <property role="IQ2nx" value="2064429317495021368" />
       <property role="TrG5h" value="subdiagramDirection" />
@@ -3112,6 +3118,12 @@
       <property role="20kJfa" value="padding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
+    <node concept="1TJgyj" id="4bryhcnKuAy" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941498845602" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
     <node concept="1TJgyi" id="56jSwh$gAxq" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138449498" />
       <property role="TrG5h" value="aspectRatio" />
@@ -3173,6 +3185,12 @@
     <property role="TrG5h" value="RadialLayoutConfig" />
     <property role="34LRSv" value="radial layout config" />
     <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
+    <node concept="1TJgyj" id="4bryhcnTxnr" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501216219" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
     <node concept="1TJgyi" id="56jSwh$RN2a" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148724362" />
       <property role="TrG5h" value="additionalWedgeSpace" />
@@ -3362,6 +3380,12 @@
       <property role="IQ2ns" value="477607467892483915" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyj" id="4bryhcnTxvc" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501216716" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
     <node concept="1TJgyi" id="qwNnoDNw2b" role="1TKVEl">
@@ -3678,6 +3702,12 @@
       <property role="IQ2ns" value="477607467907992020" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="padding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
+    <node concept="1TJgyj" id="4bryhcnTxcp" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501215513" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
     <node concept="1TJgyi" id="qwNnoEIEEL" role="1TKVEl">

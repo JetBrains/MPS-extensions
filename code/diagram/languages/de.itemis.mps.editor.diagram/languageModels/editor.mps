@@ -6681,6 +6681,16 @@
           <property role="3F0ifm" value="spacing" />
           <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
         </node>
+        <node concept="3EZMnI" id="4bryhcnT_aA" role="3EZMnx">
+          <node concept="2iRfu4" id="4bryhcnT_aB" role="2iSdaV" />
+          <node concept="3F0ifn" id="4bryhcnT_aC" role="3EZMnx">
+            <property role="3F0ifm" value="node size minimum padding" />
+          </node>
+          <node concept="3F1sOY" id="4bryhcnT_aD" role="3EZMnx">
+            <property role="1$x2rV" value="12" />
+            <ref role="1NtTu8" to="2qld:4bryhcnTx1k" resolve="nodeSizeMinimumPadding" />
+          </node>
+        </node>
         <node concept="3EZMnI" id="3biyEnOlR6C" role="3EZMnx">
           <node concept="2iRfu4" id="3biyEnOlR6D" role="2iSdaV" />
           <node concept="3F0ifn" id="3biyEnOlR6E" role="3EZMnx">
@@ -10615,6 +10625,16 @@
           <property role="3F0ifm" value="spacing" />
           <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
         </node>
+        <node concept="3EZMnI" id="4bryhcnTC4H" role="3EZMnx">
+          <node concept="2iRfu4" id="4bryhcnTC4I" role="2iSdaV" />
+          <node concept="3F0ifn" id="4bryhcnTC4J" role="3EZMnx">
+            <property role="3F0ifm" value="node size minimum padding" />
+          </node>
+          <node concept="3F1sOY" id="4bryhcnTC4K" role="3EZMnx">
+            <property role="1$x2rV" value="12" />
+            <ref role="1NtTu8" to="2qld:4bryhcnKuAy" resolve="nodeSizeMinimumPadding" />
+          </node>
+        </node>
         <node concept="3EZMnI" id="56jSwh$gIek" role="3EZMnx">
           <node concept="2iRfu4" id="56jSwh$gIel" role="2iSdaV" />
           <node concept="3F0ifn" id="56jSwh$gI7s" role="3EZMnx">
@@ -11086,6 +11106,16 @@
         <node concept="3F0ifn" id="1SEN4_CHwSN" role="3EZMnx">
           <property role="3F0ifm" value="spacing" />
           <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3EZMnI" id="4bryhcnTCC2" role="3EZMnx">
+          <node concept="2iRfu4" id="4bryhcnTCC3" role="2iSdaV" />
+          <node concept="3F0ifn" id="4bryhcnTCC4" role="3EZMnx">
+            <property role="3F0ifm" value="node size minimum padding" />
+          </node>
+          <node concept="3F1sOY" id="4bryhcnTCC5" role="3EZMnx">
+            <property role="1$x2rV" value="12" />
+            <ref role="1NtTu8" to="2qld:4bryhcnTxnr" resolve="nodeSizeMinimumPadding" />
+          </node>
         </node>
         <node concept="3EZMnI" id="56jSwh$RTpZ" role="3EZMnx">
           <node concept="2iRfu4" id="56jSwh$RTq0" role="2iSdaV" />
@@ -11577,6 +11607,16 @@
         <node concept="3F0ifn" id="1SEN4_CHIPt" role="3EZMnx">
           <property role="3F0ifm" value="spacing" />
           <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3EZMnI" id="4bryhcnTCXD" role="3EZMnx">
+          <node concept="2iRfu4" id="4bryhcnTCXE" role="2iSdaV" />
+          <node concept="3F0ifn" id="4bryhcnTCXF" role="3EZMnx">
+            <property role="3F0ifm" value="node size minimum padding" />
+          </node>
+          <node concept="3F1sOY" id="4bryhcnTCXG" role="3EZMnx">
+            <property role="1$x2rV" value="12" />
+            <ref role="1NtTu8" to="2qld:4bryhcnTxvc" resolve="nodeSizeMinimumPadding" />
+          </node>
         </node>
         <node concept="3EZMnI" id="qwNnoDN$m$" role="3EZMnx">
           <node concept="2iRfu4" id="qwNnoDN$m_" role="2iSdaV" />
@@ -12593,6 +12633,16 @@
         <node concept="3F0ifn" id="1SEN4_CIz4I" role="3EZMnx">
           <property role="3F0ifm" value="spacing" />
           <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3EZMnI" id="4bryhcnTCgk" role="3EZMnx">
+          <node concept="2iRfu4" id="4bryhcnTCgl" role="2iSdaV" />
+          <node concept="3F0ifn" id="4bryhcnTCgm" role="3EZMnx">
+            <property role="3F0ifm" value="node size minimum padding" />
+          </node>
+          <node concept="3F1sOY" id="4bryhcnTCgn" role="3EZMnx">
+            <property role="1$x2rV" value="12" />
+            <ref role="1NtTu8" to="2qld:4bryhcnTxcp" resolve="nodeSizeMinimumPadding" />
+          </node>
         </node>
         <node concept="3EZMnI" id="qwNnoEIJO5" role="3EZMnx">
           <node concept="2iRfu4" id="qwNnoEIJO6" role="2iSdaV" />
@@ -14443,6 +14493,25 @@
     <ref role="aqKnT" to="2qld:1MAkSr55XtV" resolve="DiagramLayoutConfig" />
     <node concept="22hDWj" id="1SEN4_Do$Un" role="22hAXT" />
     <node concept="2VfDsV" id="1SEN4_Do$Y3" role="3ft7WO" />
+  </node>
+  <node concept="V5hpn" id="4bryhcny6Ap">
+    <property role="3GE5qa" value="layoutAlgorithm.options" />
+    <property role="TrG5h" value="DiagramMPSAttributes" />
+    <node concept="3t5Usi" id="4bryhcny6At" role="V601i">
+      <property role="TrG5h" value="diagram-layout-node-size-minimum-padding" />
+      <node concept="3uibUv" id="4bryhcny6Au" role="3t5Oan">
+        <ref role="3uigEE" to="vgho:~ElkPadding" resolve="ElkPadding" />
+      </node>
+      <node concept="2ShNRf" id="4bryhcny6Av" role="3t49C2">
+        <node concept="1pGfFk" id="4bryhcny6Aw" role="2ShVmc">
+          <property role="373rjd" value="true" />
+          <ref role="37wK5l" to="vgho:~ElkPadding.&lt;init&gt;(double)" resolve="ElkPadding" />
+          <node concept="3cmrfG" id="4bryhcnyyjC" role="37wK5m">
+            <property role="3cmrfH" value="5" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

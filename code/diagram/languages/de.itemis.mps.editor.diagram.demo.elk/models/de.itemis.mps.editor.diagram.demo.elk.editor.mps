@@ -33,9 +33,9 @@
     <import index="u8j" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="i2p" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.alg.layered.components(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" implicit="true" />
+    <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
-    <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -269,6 +269,31 @@
       <node concept="3F0ifn" id="37WsXDFNFC6" role="3EZMnx" />
       <node concept="27vDVx" id="4PrkOTvmRJn" role="3EZMnx">
         <property role="2Tj9lc" value="true" />
+        <node concept="3tD6jV" id="4bryhcnQNLN" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:4bryhcny6At" resolve="diagram-layout-node-size-minimum-padding" />
+          <node concept="3sjG9q" id="4bryhcnQNLO" role="3tD6jU">
+            <node concept="3clFbS" id="4bryhcnQNLP" role="2VODD2">
+              <node concept="3clFbF" id="4bryhcnQNLQ" role="3cqZAp">
+                <node concept="2OqwBi" id="4bryhcnQNLR" role="3clFbG">
+                  <node concept="2OqwBi" id="4bryhcnQNLS" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4bryhcnQNLT" role="2Oq$k0">
+                      <node concept="pncrf" id="4bryhcnQNLU" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4bryhcnQNLV" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:2nNmQB_HYH7" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="4bryhcnQNLW" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:4bryhcnTx1k" resolve="nodeSizeMinimumPadding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="4bryhcnQNLX" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="aDKH9" id="37WsXDFKcfy" role="aCds2">
           <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
         </node>
@@ -2623,6 +2648,31 @@
       </node>
       <node concept="3F0ifn" id="qwNnoDvKKa" role="3EZMnx" />
       <node concept="27vDVx" id="37WsXDFKjsB" role="3EZMnx">
+        <node concept="3tD6jV" id="4bryhcnQU35" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:4bryhcny6At" resolve="diagram-layout-node-size-minimum-padding" />
+          <node concept="3sjG9q" id="4bryhcnQU36" role="3tD6jU">
+            <node concept="3clFbS" id="4bryhcnQU37" role="2VODD2">
+              <node concept="3clFbF" id="4bryhcnQU38" role="3cqZAp">
+                <node concept="2OqwBi" id="4bryhcnQU39" role="3clFbG">
+                  <node concept="2OqwBi" id="4bryhcnQU3a" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4bryhcnQU3b" role="2Oq$k0">
+                      <node concept="pncrf" id="4bryhcnQU3c" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4bryhcnQU3d" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:qwNnoDwlbU" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="4bryhcnQU3e" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:4bryhcnTxnr" resolve="nodeSizeMinimumPadding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="4bryhcnQU3f" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3tD6jV" id="qwNnoDxkFd" role="3F10Kt">
           <ref role="3tD7wE" to="88j9:56jSwhzYKcq" resolve="diagram-layout-radial-additional-wedge-space" />
           <node concept="3sjG9q" id="qwNnoDxkFe" role="3tD6jU">
@@ -3406,6 +3456,31 @@
       </node>
       <node concept="3F0ifn" id="3biyEnNiIy4" role="3EZMnx" />
       <node concept="27vDVx" id="5Qzx7Aqljch" role="3EZMnx">
+        <node concept="3tD6jV" id="4bryhcnR3N0" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:4bryhcny6At" resolve="diagram-layout-node-size-minimum-padding" />
+          <node concept="3sjG9q" id="4bryhcnR3N1" role="3tD6jU">
+            <node concept="3clFbS" id="4bryhcnR3N2" role="2VODD2">
+              <node concept="3clFbF" id="4bryhcnR3N3" role="3cqZAp">
+                <node concept="2OqwBi" id="4bryhcnR3N4" role="3clFbG">
+                  <node concept="2OqwBi" id="4bryhcnR3N5" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4bryhcnR3N6" role="2Oq$k0">
+                      <node concept="pncrf" id="4bryhcnR3N7" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4bryhcnR3N8" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="4bryhcnR3N9" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:4bryhcnTxcp" resolve="nodeSizeMinimumPadding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="4bryhcnR3Na" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="aDKH9" id="5Qzx7Aqljci" role="aCds2">
           <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
         </node>
@@ -3882,6 +3957,31 @@
       </node>
       <node concept="3F0ifn" id="56jSwh$xiu8" role="3EZMnx" />
       <node concept="27vDVx" id="5Qzx7Aqxx3x" role="3EZMnx">
+        <node concept="3tD6jV" id="4bryhcnQCUh" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:4bryhcny6At" resolve="diagram-layout-node-size-minimum-padding" />
+          <node concept="3sjG9q" id="4bryhcnQCUj" role="3tD6jU">
+            <node concept="3clFbS" id="4bryhcnQCUl" role="2VODD2">
+              <node concept="3clFbF" id="4bryhcnQDmb" role="3cqZAp">
+                <node concept="2OqwBi" id="4bryhcnQEN_" role="3clFbG">
+                  <node concept="2OqwBi" id="4bryhcnQEe7" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4bryhcnQDDz" role="2Oq$k0">
+                      <node concept="pncrf" id="4bryhcnQDma" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4bryhcnQDZ2" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:56jSwh$rN3F" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="4bryhcnQEAk" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:4bryhcnKuAy" resolve="nodeSizeMinimumPadding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="4bryhcnQF5u" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="aDKH9" id="5Qzx7Aqxx3y" role="aCds2">
           <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
         </node>
@@ -4622,6 +4722,31 @@
       </node>
       <node concept="3F0ifn" id="qwNnoDR6Zd" role="3EZMnx" />
       <node concept="27vDVx" id="4zQzqoUNPUD" role="3EZMnx">
+        <node concept="3tD6jV" id="4bryhcnQWmu" role="3F10Kt">
+          <ref role="3tD7wE" to="88j9:4bryhcny6At" resolve="diagram-layout-node-size-minimum-padding" />
+          <node concept="3sjG9q" id="4bryhcnQWmv" role="3tD6jU">
+            <node concept="3clFbS" id="4bryhcnQWmw" role="2VODD2">
+              <node concept="3clFbF" id="4bryhcnQWmx" role="3cqZAp">
+                <node concept="2OqwBi" id="4bryhcnQWmy" role="3clFbG">
+                  <node concept="2OqwBi" id="4bryhcnQWmz" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4bryhcnQWm$" role="2Oq$k0">
+                      <node concept="pncrf" id="4bryhcnQWm_" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4bryhcnQWmA" role="2OqNvi">
+                        <ref role="3Tt5mk" to="xaff:qwNnoDR6zs" resolve="config" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="4bryhcnQWmB" role="2OqNvi">
+                      <ref role="3Tt5mk" to="2qld:4bryhcnTxvc" resolve="nodeSizeMinimumPadding" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="4bryhcnQWmC" role="2OqNvi">
+                    <ref role="37wK5l" to="nh7q:56jSwh$Gd44" resolve="toElkPadding" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="aDKH9" id="4zQzqoUNPUE" role="aCds2">
           <ref role="aDKIf" to="xaff:4PrkOTvmfDo" resolve="nodes" />
         </node>

@@ -1998,6 +1998,11 @@
       <node concept="3Tm6S6" id="5wZ$f6KGQgv" role="1B3o_S" />
       <node concept="10P_77" id="5wZ$f6KGTtB" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="5NyYfidA49J" role="jymVt">
+      <property role="TrG5h" value="myEdgeStyle" />
+      <node concept="3Tm6S6" id="5NyYfid_Zud" role="1B3o_S" />
+      <node concept="17QB3L" id="5NyYfidA1T5" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="3cHJBdxOk8" role="jymVt" />
     <node concept="312cEg" id="3cHJBdxQzF" role="jymVt">
       <property role="TrG5h" value="myLastStartPoint" />
@@ -4609,6 +4614,41 @@
       <node concept="37vLTG" id="5wZ$f6KGVrC" role="3clF46">
         <property role="TrG5h" value="curved" />
         <node concept="10P_77" id="5wZ$f6KGVrD" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5NyYfidA8rC" role="jymVt" />
+    <node concept="3clFb_" id="5NyYfidAajZ" role="jymVt">
+      <property role="TrG5h" value="getEdgeStyle" />
+      <node concept="17QB3L" id="5NyYfidAmHj" role="3clF45" />
+      <node concept="3Tm1VV" id="5NyYfidAak1" role="1B3o_S" />
+      <node concept="3clFbS" id="5NyYfidAak2" role="3clF47">
+        <node concept="3clFbF" id="5NyYfidAweE" role="3cqZAp">
+          <node concept="37vLTw" id="5NyYfidAweD" role="3clFbG">
+            <ref role="3cqZAo" node="5NyYfidA49J" resolve="myStyle" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5NyYfidAak5" role="jymVt" />
+    <node concept="3clFb_" id="5NyYfidAak6" role="jymVt">
+      <property role="TrG5h" value="setEdgeStyle" />
+      <node concept="3cqZAl" id="5NyYfidAak7" role="3clF45" />
+      <node concept="3Tm1VV" id="5NyYfidAak8" role="1B3o_S" />
+      <node concept="3clFbS" id="5NyYfidAak9" role="3clF47">
+        <node concept="3clFbF" id="5NyYfidAaka" role="3cqZAp">
+          <node concept="37vLTI" id="5NyYfidAakb" role="3clFbG">
+            <node concept="37vLTw" id="5NyYfidAakc" role="37vLTx">
+              <ref role="3cqZAo" node="5NyYfidAake" resolve="curved" />
+            </node>
+            <node concept="37vLTw" id="5NyYfidAX$W" role="37vLTJ">
+              <ref role="3cqZAo" node="5NyYfidA49J" resolve="myStyle" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5NyYfidAake" role="3clF46">
+        <property role="TrG5h" value="style" />
+        <node concept="17QB3L" id="5NyYfidABdJ" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="7tKD69sB$eR" role="jymVt" />
@@ -17005,6 +17045,12 @@
       <node concept="3Tm1VV" id="5wZ$f6KHbcE" role="1B3o_S" />
       <node concept="3clFbS" id="5wZ$f6KHbcF" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="5NyYfidBN7M" role="jymVt">
+      <property role="TrG5h" value="getEdgeStyle" />
+      <node concept="3clFbS" id="5NyYfidBN7P" role="3clF47" />
+      <node concept="3Tm1VV" id="5NyYfidBN7Q" role="1B3o_S" />
+      <node concept="17QB3L" id="5NyYfidBMXa" role="3clF45" />
+    </node>
     <node concept="2tJIrI" id="7tKD69sBBqt" role="jymVt" />
     <node concept="3clFb_" id="7tKD69sBAWy" role="jymVt">
       <property role="TrG5h" value="canDrop" />
@@ -21626,6 +21672,24 @@
                 </node>
                 <node concept="liA8E" id="5wZ$f6KHbcG" role="2OqNvi">
                   <ref role="37wK5l" node="5wZ$f6KHbcC" resolve="isCurved" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5NyYfidBwnm" role="3cqZAp">
+          <node concept="2OqwBi" id="5NyYfidBADL" role="3clFbG">
+            <node concept="37vLTw" id="5NyYfidBwnk" role="2Oq$k0">
+              <ref role="3cqZAo" node="7jhYr4hsn8s" resolve="element" />
+            </node>
+            <node concept="liA8E" id="5NyYfidBH6W" role="2OqNvi">
+              <ref role="37wK5l" node="5NyYfidAak6" resolve="setEdgeStyle" />
+              <node concept="2OqwBi" id="5NyYfidC0QG" role="37wK5m">
+                <node concept="37vLTw" id="5NyYfidBVON" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7jhYr4hsn8q" resolve="accessor" />
+                </node>
+                <node concept="liA8E" id="5NyYfidCaZO" role="2OqNvi">
+                  <ref role="37wK5l" node="5NyYfidBN7M" resolve="getEdgeStyle" />
                 </node>
               </node>
             </node>
@@ -27255,6 +27319,24 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="5wZ$f6KHjfj" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5NyYfidGls5" role="jymVt" />
+    <node concept="3clFb_" id="5NyYfidGlOW" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getEdgeStyle" />
+      <node concept="17QB3L" id="5NyYfidGvP8" role="3clF45" />
+      <node concept="3Tm1VV" id="5NyYfidGlOY" role="1B3o_S" />
+      <node concept="3clFbS" id="5NyYfidGlOZ" role="3clF47">
+        <node concept="3clFbF" id="5NyYfidGJYi" role="3cqZAp">
+          <node concept="10M0yZ" id="5NyYfidGM9u" role="3clFbG">
+            <ref role="3cqZAo" to="r3rm:2IqJp3xFSyL" resolve="EDGESTYLE" />
+            <ref role="1PxDUh" to="r3rm:2IqJp3xDU0G" resolve="MyEdgeStyle" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5NyYfidGlP2" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

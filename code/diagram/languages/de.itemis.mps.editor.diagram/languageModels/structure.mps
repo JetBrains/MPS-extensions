@@ -1589,6 +1589,12 @@
       <property role="IQ2ns" value="6358960566596428706" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="5NyYfidG1Zv" role="1TKVEi">
+      <property role="IQ2ns" value="6693185725458816991" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="edgeStyle" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="7tKD69sBN6G" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="dropHandler" />
@@ -4875,6 +4881,68 @@
     <property role="TrG5h" value="BaseDiagramLayoutConfig" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
+  </node>
+  <node concept="25R3W" id="5NyYfidQSP5">
+    <property role="3F6X1D" value="6693185725461663045" />
+    <property role="3GE5qa" value="edgeEditor" />
+    <property role="TrG5h" value="EdgeStyle" />
+    <ref role="1H5jkz" node="5NyYfiehO7W" resolve="none" />
+    <node concept="25R33" id="5NyYfidQVgq" role="25R1y">
+      <property role="3tVfz5" value="6693185725461672986" />
+      <property role="TrG5h" value="de_itemis_mps_editor_diagram_runtime_jgraph_MyEdgeStyle" />
+      <property role="1L1pqM" value="custom with transform control points" />
+    </node>
+    <node concept="25R33" id="5NyYfiehO7W" role="25R1y">
+      <property role="3tVfz5" value="6693185725468721660" />
+      <property role="TrG5h" value="none" />
+      <property role="1L1pqM" value="none" />
+    </node>
+    <node concept="25R33" id="5NyYfidQSP6" role="25R1y">
+      <property role="3tVfz5" value="6693185725461663046" />
+      <property role="TrG5h" value="entityRelationEdgeStyle" />
+      <property role="1L1pqM" value="entity relation" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTaI" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664430" />
+      <property role="1L1pqM" value="loop" />
+      <property role="TrG5h" value="loopEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTaN" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664435" />
+      <property role="1L1pqM" value="elbow" />
+      <property role="TrG5h" value="elbowEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTaW" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664444" />
+      <property role="1L1pqM" value="side to side" />
+      <property role="TrG5h" value="sideToSideEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTb6" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664454" />
+      <property role="1L1pqM" value="top to bottom" />
+      <property role="TrG5h" value="topToBottomEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTbi" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664466" />
+      <property role="1L1pqM" value="segment connector" />
+      <property role="TrG5h" value="segmentEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTc2" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664514" />
+      <property role="1L1pqM" value="orthogonal" />
+      <property role="TrG5h" value="orthogonalEdgeStyle" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5NyYfidQYgt">
+    <property role="EcuMT" value="6693185725461685277" />
+    <property role="3GE5qa" value="edgeEditor" />
+    <property role="TrG5h" value="PredefinedEdgeStyle" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="5NyYfidQYC2" role="1TKVEl">
+      <property role="IQ2nx" value="6693185725461686786" />
+      <property role="TrG5h" value="style" />
+      <ref role="AX2Wp" node="5NyYfidQSP5" resolve="EdgeStyle" />
+    </node>
   </node>
 </model>
 

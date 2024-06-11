@@ -4869,6 +4869,45 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="5NyYfidRbof" role="3acgRq">
+      <ref role="30HIoZ" to="2qld:5NyYfidQYgt" resolve="PredefinedEdgeStyle" />
+      <node concept="gft3U" id="5NyYfidRiVX" role="1lVwrX">
+        <node concept="Xl_RD" id="5NyYfidRiW3" role="gfFT$">
+          <node concept="17Uvod" id="5NyYfidRiW9" role="lGtFl">
+            <property role="2qtEX9" value="value" />
+            <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+            <node concept="3zFVjK" id="5NyYfidRiWa" role="3zH0cK">
+              <node concept="3clFbS" id="5NyYfidRiWb" role="2VODD2">
+                <node concept="3clFbF" id="5NyYfidRiWL" role="3cqZAp">
+                  <node concept="2OqwBi" id="5NyYfidRkCd" role="3clFbG">
+                    <node concept="2OqwBi" id="5NyYfidRjSs" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5NyYfidRjdy" role="2Oq$k0">
+                        <node concept="30H73N" id="5NyYfidRiWK" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="5NyYfidRjCU" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:5NyYfidQYC2" resolve="style" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5NyYfidRk9_" role="2OqNvi">
+                        <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="5NyYfidRl8b" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                      <node concept="Xl_RD" id="5NyYfidRl8g" role="37wK5m">
+                        <property role="Xl_RC" value="_" />
+                      </node>
+                      <node concept="Xl_RD" id="5NyYfidRlk3" role="37wK5m">
+                        <property role="Xl_RC" value="." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="fXNk7yt">
     <property role="TrG5h" value="reduce_CellModel_Diagram" />
@@ -8311,6 +8350,53 @@
                             </node>
                           </node>
                         </node>
+                        <node concept="3clFb_" id="5NyYfidGVbU" role="jymVt">
+                          <property role="1EzhhJ" value="false" />
+                          <property role="TrG5h" value="getEdgeStyle" />
+                          <node concept="17QB3L" id="5NyYfidH5Fi" role="3clF45" />
+                          <node concept="3Tm1VV" id="5NyYfidGVbW" role="1B3o_S" />
+                          <node concept="2AHcQZ" id="5NyYfidGVbX" role="2AJF6D">
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                          </node>
+                          <node concept="3clFbS" id="5NyYfidGVbY" role="3clF47">
+                            <node concept="3clFbF" id="5NyYfidGVbZ" role="3cqZAp">
+                              <node concept="Xl_RD" id="5NyYfidHSgN" role="3clFbG">
+                                <node concept="29HgVG" id="5NyYfidHSgO" role="lGtFl">
+                                  <node concept="3NFfHV" id="5NyYfidHSgP" role="3NFExx">
+                                    <node concept="3clFbS" id="5NyYfidHSgQ" role="2VODD2">
+                                      <node concept="3clFbF" id="5NyYfidHSgR" role="3cqZAp">
+                                        <node concept="2OqwBi" id="5NyYfidHSgS" role="3clFbG">
+                                          <node concept="30H73N" id="5NyYfidHSgT" role="2Oq$k0" />
+                                          <node concept="3TrEf2" id="5NyYfidHSgU" role="2OqNvi">
+                                            <ref role="3Tt5mk" to="2qld:5NyYfidG1Zv" resolve="edgeStyle" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="1W57fq" id="5NyYfidGVc8" role="lGtFl">
+                            <node concept="3IZrLx" id="5NyYfidGVc9" role="3IZSJc">
+                              <node concept="3clFbS" id="5NyYfidGVca" role="2VODD2">
+                                <node concept="3clFbF" id="5NyYfidGVcb" role="3cqZAp">
+                                  <node concept="2OqwBi" id="5NyYfidGVcc" role="3clFbG">
+                                    <node concept="2OqwBi" id="5NyYfidGVcd" role="2Oq$k0">
+                                      <node concept="30H73N" id="5NyYfidGVce" role="2Oq$k0" />
+                                      <node concept="3TrEf2" id="5NyYfidGVcf" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="2qld:5NyYfidG1Zv" resolve="edgeStyle" />
+                                      </node>
+                                    </node>
+                                    <node concept="3x8VRR" id="5NyYfidGVcg" role="2OqNvi" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2tJIrI" id="5NyYfidG3_K" role="jymVt" />
                         <node concept="3clFb_" id="6_t$UUKwD9c" role="jymVt">
                           <property role="1EzhhJ" value="false" />
                           <property role="TrG5h" value="getStartShapeSize" />
@@ -12338,6 +12424,52 @@
                                                     </node>
                                                   </node>
                                                   <node concept="3x8VRR" id="5wZ$f6KHulM" role="2OqNvi" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node concept="3clFb_" id="5NyYfidHiVL" role="jymVt">
+                                        <property role="1EzhhJ" value="false" />
+                                        <property role="TrG5h" value="getEdgeStyle" />
+                                        <node concept="17QB3L" id="5NyYfidHrri" role="3clF45" />
+                                        <node concept="3Tm1VV" id="5NyYfidHiVN" role="1B3o_S" />
+                                        <node concept="2AHcQZ" id="5NyYfidHiVO" role="2AJF6D">
+                                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                        </node>
+                                        <node concept="3clFbS" id="5NyYfidHiVP" role="3clF47">
+                                          <node concept="3clFbF" id="5NyYfidHiVQ" role="3cqZAp">
+                                            <node concept="Xl_RD" id="5NyYfidHZrT" role="3clFbG">
+                                              <node concept="29HgVG" id="5NyYfidHZrU" role="lGtFl">
+                                                <node concept="3NFfHV" id="5NyYfidHZrV" role="3NFExx">
+                                                  <node concept="3clFbS" id="5NyYfidHZrW" role="2VODD2">
+                                                    <node concept="3clFbF" id="5NyYfidHZrX" role="3cqZAp">
+                                                      <node concept="2OqwBi" id="5NyYfidHZrY" role="3clFbG">
+                                                        <node concept="30H73N" id="5NyYfidHZrZ" role="2Oq$k0" />
+                                                        <node concept="3TrEf2" id="5NyYfidHZs0" role="2OqNvi">
+                                                          <ref role="3Tt5mk" to="2qld:5NyYfidG1Zv" resolve="edgeStyle" />
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="1W57fq" id="5NyYfidHiVZ" role="lGtFl">
+                                          <node concept="3IZrLx" id="5NyYfidHiW0" role="3IZSJc">
+                                            <node concept="3clFbS" id="5NyYfidHiW1" role="2VODD2">
+                                              <node concept="3clFbF" id="5NyYfidHiW2" role="3cqZAp">
+                                                <node concept="2OqwBi" id="5NyYfidHiW3" role="3clFbG">
+                                                  <node concept="2OqwBi" id="5NyYfidHiW4" role="2Oq$k0">
+                                                    <node concept="30H73N" id="5NyYfidHiW5" role="2Oq$k0" />
+                                                    <node concept="3TrEf2" id="5NyYfidHiW6" role="2OqNvi">
+                                                      <ref role="3Tt5mk" to="2qld:5NyYfidG1Zv" resolve="edgeStyle" />
+                                                    </node>
+                                                  </node>
+                                                  <node concept="3x8VRR" id="5NyYfidHiW7" role="2OqNvi" />
                                                 </node>
                                               </node>
                                             </node>

@@ -5479,7 +5479,7 @@
                                                   <node concept="3clFbS" id="6gw4xIYIZkG" role="3clF47">
                                                     <node concept="3cpWs6" id="6gw4xIYKo9P" role="3cqZAp">
                                                       <node concept="1rXfSq" id="28uWW3KVJDo" role="3cqZAk">
-                                                        <ref role="37wK5l" node="28uWW3KU_to" resolve="_query_method" />
+                                                        <ref role="37wK5l" node="28uWW3KU_to" resolve="saveSubDiagramLayoutInDiagramCondition" />
                                                         <node concept="1ZhdrF" id="28uWW3KVK_O" role="lGtFl">
                                                           <property role="2qtEX8" value="baseMethodDeclaration" />
                                                           <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
@@ -5612,7 +5612,7 @@
                                                           <ref role="3cqZAo" node="4m$$SBGdmOb" resolve="autoLayoutFlag" />
                                                         </node>
                                                         <node concept="1rXfSq" id="4m$$SBGcZYZ" role="37vLTx">
-                                                          <ref role="37wK5l" node="4m$$SBGc$_p" resolve="_query_method2" />
+                                                          <ref role="37wK5l" node="4m$$SBGc$_p" resolve="saveDiagramLayoutCondition" />
                                                           <node concept="1ZhdrF" id="4m$$SBGd1Z7" role="lGtFl">
                                                             <property role="2qtEX8" value="baseMethodDeclaration" />
                                                             <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
@@ -5729,7 +5729,7 @@
                                                     </node>
                                                     <node concept="3cpWs6" id="YGA9S6DufC" role="3cqZAp">
                                                       <node concept="37vLTw" id="YGA9S6DufD" role="3cqZAk">
-                                                        <ref role="3cqZAo" node="YGA9S6Duf7" resolve="autoLayoutFlag" />
+                                                        <ref role="3cqZAo" node="YGA9S6Duf7" resolve="fitToSize" />
                                                       </node>
                                                     </node>
                                                   </node>
@@ -6108,7 +6108,7 @@
                                             <node concept="3clFbF" id="45g3j8ia7$P" role="3cqZAp">
                                               <node concept="2OqwBi" id="45g3j8iafkm" role="3clFbG">
                                                 <node concept="37vLTw" id="YGA9S6HD5x" role="2Oq$k0">
-                                                  <ref role="3cqZAo" node="YGA9S6HD5t" resolve="cell" />
+                                                  <ref role="3cqZAo" node="YGA9S6HD5t" resolve="rootCell" />
                                                 </node>
                                                 <node concept="liA8E" id="45g3j8iahgy" role="2OqNvi">
                                                   <ref role="37wK5l" to="r3rm:45g3j8i6sLK" resolve="runAutoLayouterOnInit" />
@@ -6129,7 +6129,7 @@
                                             <node concept="3clFbF" id="YGA9S6HHOB" role="3cqZAp">
                                               <node concept="2OqwBi" id="YGA9S6HHOC" role="3clFbG">
                                                 <node concept="37vLTw" id="YGA9S6HHOD" role="2Oq$k0">
-                                                  <ref role="3cqZAo" node="YGA9S6HD5t" resolve="cell" />
+                                                  <ref role="3cqZAo" node="YGA9S6HD5t" resolve="rootCell" />
                                                 </node>
                                                 <node concept="liA8E" id="YGA9S6HHOE" role="2OqNvi">
                                                   <ref role="37wK5l" to="r3rm:YGA9S6ES$B" resolve="fitToSizeOnInit" />
@@ -15433,7 +15433,7 @@
           <node concept="liA8E" id="5ZBOFE3$Ik6" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="5ZBOFE3$Ik7" role="37wK5m">
-              <ref role="1Z6EpT" to="swi3:5ZBOFE3$JmV" resolve="__relayout-all-edges-button" />
+              <ref role="1Z6EpT" to="swi3:5ZBOFE3$JmV" resolve="__deprecated-relayout-all-edges-button" />
             </node>
             <node concept="3clFbT" id="5ZBOFE3$Ik8" role="37wK5m">
               <property role="3clFbU" value="true" />

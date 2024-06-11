@@ -8506,7 +8506,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="YGA9S5rsSk" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="2tJIrI" id="1Pjj0VVwiig" role="jymVt" />
@@ -17149,7 +17149,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="YGA9S5raOg" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" />
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="3clFb_" id="5TlQvVDpQu" role="jymVt">

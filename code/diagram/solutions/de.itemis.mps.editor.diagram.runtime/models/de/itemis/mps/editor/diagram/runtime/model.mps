@@ -51,6 +51,7 @@
     <import index="jsda" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.dnd(JDK/)" />
     <import index="qxi4" ref="r:45c19b6d-dd9a-4f15-973f-0267c5e76303(de.itemis.mps.editor.celllayout.runtime)" />
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
+    <import index="xggr" ref="r:12584d60-2d80-4ca9-9c6e-b79d499da0cf(de.itemis.mps.editor.celllayout.layout)" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
@@ -8704,6 +8705,9 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="YGA9S5rsSk" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
       <node concept="P$JXv" id="YGA9S5rsSh" role="lGtFl">
         <node concept="TZ5HI" id="YGA9S5rsSi" role="3nqlJM">
           <node concept="TZ5HA" id="YGA9S5rsSj" role="3HnX3l">
@@ -8712,9 +8716,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="2AHcQZ" id="YGA9S5rsSk" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="2tJIrI" id="1Pjj0VVwiig" role="jymVt" />
@@ -17353,6 +17354,9 @@
       <node concept="10P_77" id="49KXtyXBhV9" role="3clF45" />
       <node concept="3Tm1VV" id="49KXtyXBhVa" role="1B3o_S" />
       <node concept="3clFbS" id="49KXtyXBhVb" role="3clF47" />
+      <node concept="2AHcQZ" id="YGA9S5raOg" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
       <node concept="P$JXv" id="YGA9S5raOd" role="lGtFl">
         <node concept="TZ5HI" id="YGA9S5raOe" role="3nqlJM">
           <node concept="TZ5HA" id="YGA9S5raOf" role="3HnX3l">
@@ -17361,9 +17365,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="2AHcQZ" id="YGA9S5raOg" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="3clFb_" id="5TlQvVDpQu" role="jymVt">
@@ -27569,6 +27570,9 @@
       <node concept="3Tm1VV" id="7EPprGLk1dO" role="1B3o_S" />
       <node concept="10P_77" id="7EPprGLk6V7" role="3clF45" />
     </node>
+    <node concept="3uibUv" id="63AkbuPiuDm" role="1zkMxy">
+      <ref role="3uigEE" node="63AkbuPiu1I" resolve="AbstractDiagramElementAccessor" />
+    </node>
     <node concept="2tJIrI" id="YGA9S7hoet" role="jymVt" />
     <node concept="3clFb_" id="YGA9S7hrbl" role="jymVt">
       <property role="TrG5h" value="isVisible" />
@@ -27645,9 +27649,6 @@
         <property role="TrG5h" value="flag" />
         <node concept="10P_77" id="YGA9S7hYq0" role="1tU5fm" />
       </node>
-    </node>
-    <node concept="3uibUv" id="63AkbuPiuDm" role="1zkMxy">
-      <ref role="3uigEE" node="63AkbuPiu1I" resolve="AbstractDiagramElementAccessor" />
     </node>
   </node>
   <node concept="312cEu" id="4ChVjVunBnG">

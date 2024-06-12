@@ -291,6 +291,49 @@
             <property role="3oM_SC" value="documentation)." />
           </node>
         </node>
+        <node concept="2DRihI" id="1bznbGDfPh7" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="2hgSXJ" id="1bznbGDfPix" role="1PaTwD">
+            <node concept="1PaTwC" id="1bznbGDfPiy" role="2hiFM$">
+              <node concept="15Bu8Y" id="1bznbGDfPiz" role="1PaTwD">
+                <node concept="1Xw6AR" id="1bznbGDfPi$" role="15Bu8x">
+                  <node concept="1dCxOl" id="1bznbGDfPi_" role="1XwpL7">
+                    <property role="1XweGQ" value="r:2a70cba0-4dc5-4697-986d-5cba44622d22" />
+                    <node concept="1j_P7g" id="1bznbGDfPiA" role="1j$8Uc">
+                      <property role="1j_P7h" value="de.itemis.mps.editor.diagram.runtime" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="1bznbGDfPiB" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1bznbGDfPiM" role="1PaTwD">
+            <property role="3oM_SC" value="The" />
+          </node>
+          <node concept="3oM_SD" id="1bznbGDfPiV" role="1PaTwD">
+            <property role="3oM_SC" value="dependency" />
+          </node>
+          <node concept="3oM_SD" id="1bznbGDfPj5" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="15Ami3" id="1bznbGDfPjQ" role="1PaTwD">
+            <node concept="37shsh" id="1bznbGDfPjS" role="15Aodc">
+              <node concept="1dCxOk" id="1bznbGDfPkb" role="37shsm">
+                <property role="1XweGW" value="ecfb9949-7433-4db5-85de-0f84d172e4ce" />
+                <property role="1XxBO9" value="de.q60.mps.collections.libs" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1bznbGDfPkv" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="1bznbGDfPkI" role="1PaTwD">
+            <property role="3oM_SC" value="removed." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="5m0DUSLO1QS" role="15bmVC">

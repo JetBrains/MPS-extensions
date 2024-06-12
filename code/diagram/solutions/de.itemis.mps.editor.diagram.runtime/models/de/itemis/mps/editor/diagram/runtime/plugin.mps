@@ -145,6 +145,7 @@
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="5293379017992965193" name="jetbrains.mps.baseLanguage.structure.StubStatementList" flags="ig" index="2lzX1y" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
@@ -281,6 +282,9 @@
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615">
+        <child id="1107797138135" name="extendedInterface" index="3HQHJm" />
       </concept>
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
         <child id="1163668914799" name="condition" index="3K4Cdx" />
@@ -3252,5 +3256,36 @@
         <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
       </node>
     </node>
+  </node>
+  <node concept="vrV6u" id="1wIvqM9UMkx">
+    <property role="TrG5h" value="GlobalDiagramMPSCellClickListener" />
+    <node concept="3uibUv" id="1wIvqM9UMky" role="luc8K">
+      <ref role="3uigEE" node="~MouseListener" resolve="MPSCellMouseListener" />
+    </node>
+  </node>
+  <node concept="3HP615" id="~MouseListener">
+    <property role="TrG5h" value="MPSCellMouseListener" />
+    <node concept="3uibUv" id="1wIvqM7eNDW" role="3HQHJm">
+      <ref role="3uigEE" to="33ny:~EventListener" resolve="EventListener" />
+    </node>
+    <node concept="3clFb_" id="~MouseListener.mouseClicked(java.awt.event.MouseEvent)" role="jymVt">
+      <property role="TrG5h" value="mouseClicked" />
+      <node concept="3Tm1VV" id="1wIvqM7eNDY" role="1B3o_S" />
+      <node concept="2lzX1y" id="1wIvqM7eNDZ" role="3clF47" />
+      <node concept="3cqZAl" id="1wIvqM7eNE0" role="3clF45" />
+      <node concept="37vLTG" id="1wIvqM9W5MI" role="3clF46">
+        <property role="TrG5h" value="cell" />
+        <node concept="3uibUv" id="1wIvqM9W5Up" role="1tU5fm">
+          <ref role="3uigEE" to="r3rm:3YJYJT3M3W" resolve="MPSCell" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1wIvqM7eNE2" role="3clF46">
+        <property role="TrG5h" value="e" />
+        <node concept="3uibUv" id="1wIvqM7eNE1" role="1tU5fm">
+          <ref role="3uigEE" to="hyam:~MouseEvent" resolve="MouseEvent" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1wIvqM7eNEr" role="1B3o_S" />
   </node>
 </model>

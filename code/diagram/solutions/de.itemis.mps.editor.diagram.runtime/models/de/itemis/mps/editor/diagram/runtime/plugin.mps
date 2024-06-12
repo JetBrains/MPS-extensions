@@ -741,6 +741,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="5NyYfieMR5f" role="3cqZAp">
+          <node concept="3clFbS" id="5NyYfieMR5h" role="3clFbx">
+            <node concept="3cpWs6" id="5NyYfieMRZU" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="5NyYfieMRgm" role="3clFbw">
+            <node concept="10Nm6u" id="5NyYfieMRla" role="3uHU7w" />
+            <node concept="37vLTw" id="5NyYfieMR7s" role="3uHU7B">
+              <ref role="3cqZAo" node="5K7KC_q_GdQ" resolve="selection" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5K7KC_q_Ga2" role="3cqZAp">
           <node concept="2OqwBi" id="5K7KC_q_HeK" role="3clFbG">
             <node concept="37vLTw" id="5K7KC_q_GdY" role="2Oq$k0">
@@ -1007,6 +1018,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="5NyYfieMMz_" role="3cqZAp">
+          <node concept="3clFbS" id="5NyYfieMMzB" role="3clFbx">
+            <node concept="3cpWs6" id="5NyYfieMNQs" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="5NyYfieMNf6" role="3clFbw">
+            <node concept="10Nm6u" id="5NyYfieMNg4" role="3uHU7w" />
+            <node concept="37vLTw" id="5NyYfieMMJq" role="3uHU7B">
+              <ref role="3cqZAo" node="2THfnm7nq5$" resolve="selection" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2THfnm7nq5J" role="3cqZAp">
           <node concept="2OqwBi" id="2THfnm7nq5K" role="3clFbG">
             <node concept="37vLTw" id="2THfnm7nq5L" role="2Oq$k0">
@@ -1014,6 +1036,23 @@
             </node>
             <node concept="liA8E" id="2THfnm7nq5M" role="2OqNvi">
               <ref role="37wK5l" to="r3rm:2THfnm7mrrp" resolve="flipPortsSideHorizontally" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5NyYfieMI$Z" role="3cqZAp">
+          <node concept="2YIFZM" id="5NyYfieMI_0" role="3clFbG">
+            <ref role="37wK5l" to="r3rm:YGA9S5V62O" resolve="autoLayout" />
+            <ref role="1Pybhc" to="r3rm:YGA9S4Rvy7" resolve="DiagramActionsUtil" />
+            <node concept="2OqwBi" id="5NyYfieMKr1" role="37wK5m">
+              <node concept="2OqwBi" id="5NyYfieMJnU" role="2Oq$k0">
+                <node concept="2WthIp" id="5NyYfieMJnX" role="2Oq$k0" />
+                <node concept="1DTwFV" id="5NyYfieMJnZ" role="2OqNvi">
+                  <ref role="2WH_rO" node="2THfnm7nq5Z" resolve="editorComponent" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5NyYfieMLFr" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+              </node>
             </node>
           </node>
         </node>
@@ -1086,6 +1125,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="5NyYfieMSFD" role="3cqZAp">
+          <node concept="3clFbS" id="5NyYfieMSFF" role="3clFbx">
+            <node concept="3cpWs6" id="5NyYfieMTFf" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="5NyYfieMSRa" role="3clFbw">
+            <node concept="10Nm6u" id="5NyYfieMT0T" role="3uHU7w" />
+            <node concept="37vLTw" id="5NyYfieMSHQ" role="3uHU7B">
+              <ref role="3cqZAo" node="2THfnm7nqSL" resolve="selection" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2THfnm7nqSW" role="3cqZAp">
           <node concept="2OqwBi" id="2THfnm7nqSX" role="3clFbG">
             <node concept="37vLTw" id="2THfnm7nqSY" role="2Oq$k0">
@@ -1093,6 +1143,23 @@
             </node>
             <node concept="liA8E" id="2THfnm7nqSZ" role="2OqNvi">
               <ref role="37wK5l" to="r3rm:2THfnm7nwN$" resolve="switchPortsSideCounterClockwise" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5NyYfieMTZO" role="3cqZAp">
+          <node concept="2YIFZM" id="5NyYfieMTZP" role="3clFbG">
+            <ref role="37wK5l" to="r3rm:YGA9S5V62O" resolve="autoLayout" />
+            <ref role="1Pybhc" to="r3rm:YGA9S4Rvy7" resolve="DiagramActionsUtil" />
+            <node concept="2OqwBi" id="5NyYfieMTZQ" role="37wK5m">
+              <node concept="2OqwBi" id="5NyYfieMTZR" role="2Oq$k0">
+                <node concept="2WthIp" id="5NyYfieMTZS" role="2Oq$k0" />
+                <node concept="1DTwFV" id="5NyYfieMTZT" role="2OqNvi">
+                  <ref role="2WH_rO" node="2THfnm7nqTc" resolve="editorComponent" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5NyYfieMTZU" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+              </node>
             </node>
           </node>
         </node>
@@ -2131,6 +2198,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="5NyYfieMO$B" role="3cqZAp">
+          <node concept="3clFbS" id="5NyYfieMO$D" role="3clFbx">
+            <node concept="3cpWs6" id="5NyYfieMPJF" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="5NyYfieMORt" role="3clFbw">
+            <node concept="10Nm6u" id="5NyYfieMP47" role="3uHU7w" />
+            <node concept="37vLTw" id="5NyYfieMOI9" role="3uHU7B">
+              <ref role="3cqZAo" node="YGA9S6m0pU" resolve="selection" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="YGA9S6m0q5" role="3cqZAp">
           <node concept="2OqwBi" id="YGA9S6m0q6" role="3clFbG">
             <node concept="37vLTw" id="YGA9S6m0q7" role="2Oq$k0">
@@ -2138,6 +2216,23 @@
             </node>
             <node concept="liA8E" id="YGA9S6m0q8" role="2OqNvi">
               <ref role="37wK5l" to="r3rm:YGA9S6mcOW" resolve="flipPortsSideVertically" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5NyYfieMQ4E" role="3cqZAp">
+          <node concept="2YIFZM" id="5NyYfieMQ4F" role="3clFbG">
+            <ref role="37wK5l" to="r3rm:YGA9S5V62O" resolve="autoLayout" />
+            <ref role="1Pybhc" to="r3rm:YGA9S4Rvy7" resolve="DiagramActionsUtil" />
+            <node concept="2OqwBi" id="5NyYfieMQ4G" role="37wK5m">
+              <node concept="2OqwBi" id="5NyYfieMQ4H" role="2Oq$k0">
+                <node concept="2WthIp" id="5NyYfieMQ4I" role="2Oq$k0" />
+                <node concept="1DTwFV" id="5NyYfieMQ4J" role="2OqNvi">
+                  <ref role="2WH_rO" node="YGA9S6m0ql" resolve="editorComponent" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5NyYfieMQ4K" role="2OqNvi">
+                <ref role="37wK5l" to="exr9:~EditorComponent.getEditorContext()" resolve="getEditorContext" />
+              </node>
             </node>
           </node>
         </node>

@@ -5043,9 +5043,6 @@
       <node concept="m$_yC" id="3bNiYZ6W4aO" role="m$_yJ">
         <ref role="m$_y1" node="6SVXTgIe8wD" resolve="de.itemis.mps.celllayout" />
       </node>
-      <node concept="m$_yC" id="2OJNL7Em2Hd" role="m$_yJ">
-        <ref role="m$_y1" node="2OJNL7ElZsF" resolve="de.q60.mps.collections.libs" />
-      </node>
       <node concept="3_J27D" id="4be$WTb1MZK" role="m_cZH">
         <node concept="3Mxwew" id="4be$WTb1MZL" role="3MwsjC">
           <property role="3MwjfP" value="de.itemis.mps.editor.diagram" />
@@ -5233,11 +5230,6 @@
             <node concept="3qWCbU" id="2eucapX07UG" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2OJNL7ElR9W" role="3bR37C">
-          <node concept="3bR9La" id="2OJNL7ElR9X" role="1SiIV1">
-            <ref role="3bR37D" node="6fQhGuklQWU" resolve="de.q60.mps.collections.libs" />
           </node>
         </node>
         <node concept="1SiIV0" id="2C8x_a2N_PE" role="3bR37C">

@@ -4,12 +4,11 @@ table tbody tr:nth-child(1) td:nth-child(2) {
 }
 
 table tbody tr:nth-child(2) td:nth-child(2),
-table tbody tr:nth-child(3) td:nth-child(2) {
+table tbody tr:nth-child(3) td:nth-child(2),
+table tbody tr:nth-child(4) td:nth-child(2),
+table tbody tr:nth-child(5) td:nth-child(2),
+table tbody tr:nth-child(6) td:nth-child(2) {
    color: green;
-}
-
-table tbody tr:nth-child(4)  td:nth-child(2)   {
-    color: orange;
 }
 
 </style>
@@ -46,7 +45,7 @@ We also provide the artefacts as a maven repository. Where you can fetch them du
 		 <dependency>
 		  <groupId>de.itemis.mps</groupId>
 		  <artifactId>extensions</artifactId>
-		  <version>2022.2</version>
+		  <version>2023.2</version>
 		  <type>zip</type>
 		</dependency>
 	</dependencies>
@@ -63,7 +62,7 @@ We also provide the artefacts as a maven repository. Where you can fetch them du
     }
 
     dependencies {
-        mpsExtensions "de.itemis.mps:extensions:2022.2.+"
+        mpsExtensions "de.itemis.mps:extensions:2023.2.+"
     }
 ```
 
@@ -83,10 +82,12 @@ These following MPS versions are supported:
 
 | MPS Version | State |
 |:--|:--|
-| 2022.2 | development |
+| 2023.2 | development |
+| 2022.3 | maintenance+ development |
+| 2022.2 | maintenance+ development |
 | 2021.3 | maintenance + development |
-| 2021.2 |  maintenance + development  |
-| 2021.1 |  maintenance + development  |
+| 2021.2 |  maintenance |
+| 2021.1 |  maintenance + development |
 | <= 2020.3 | *not maintained* |
 
 A version in maintenance will not get actively new features and is only maintained with bugfixes. We are happy to accept pull request for versions in maintenance with bugfixes but active feature development only happens for the latest MPS version.

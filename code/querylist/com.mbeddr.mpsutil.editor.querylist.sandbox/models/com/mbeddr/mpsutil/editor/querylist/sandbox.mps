@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="c58b797b-c53c-4442-abff-4d54c72169ea/r:5f236bd8-eb21-40b6-825a-9e614ca27175(com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="9b71d0db-bcaf-4144-bb2e-1ddef2b249b9" name="com.mbeddr.mpsutil.editor.querylist.demolang" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -61,7 +60,7 @@
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
@@ -75,7 +74,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -84,7 +83,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -293,7 +292,6 @@
       <node concept="3cqZAl" id="puVMIbwTJy" role="3clF45" />
       <node concept="3Tm1VV" id="puVMIbwTJz" role="1B3o_S" />
     </node>
-    <node concept="3Tm1VV" id="puVMIbwTIx" role="1B3o_S" />
     <node concept="2tJIrI" id="8dI1zLapqx" role="jymVt" />
     <node concept="3clFb_" id="8dI1zLapre" role="jymVt">
       <property role="TrG5h" value="b" />
@@ -315,6 +313,7 @@
         <node concept="3clFbH" id="8dI1zLb3mW" role="3cqZAp" />
       </node>
     </node>
+    <node concept="3Tm1VV" id="puVMIbwTIx" role="1B3o_S" />
   </node>
   <node concept="2X83RC" id="1GpxVmAg3nl">
     <node concept="Xl_RD" id="1GpxVmAt5pV" role="2Xng07" />

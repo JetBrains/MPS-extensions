@@ -11,7 +11,7 @@
     </facet>
   </facets>
   <languageVersions>
-    <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="0" />
+    <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="1" />
     <language slang="l:3ba72f2f-a5c2-46e4-8b7e-b7ef6fb0cfc7:de.itemis.mps.editor.diagram.demo.callgraph" version="0" />
     <language slang="l:7cf26568-7255-45b6-b975-a44162a7e7e2:de.itemis.mps.editor.diagram.demolang" version="0" />
     <language slang="l:8ca79d43-eb45-4791-bdd4-0d6130ff895b:de.itemis.mps.editor.diagram.layout" version="0" />

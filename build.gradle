@@ -181,6 +181,24 @@ dependencies {
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion") {
         transitive = false
     }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.radial:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.force:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.disco:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.rectpacking:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.spore:$elkVersion") {
+        transitive = false
+    }
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion") {
+        transitive = false
+    }
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion") {
         transitive = false
     }

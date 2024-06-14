@@ -16,6 +16,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -40,7 +41,7 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
@@ -53,7 +54,7 @@
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ngI" index="2c44t0">
+      <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ng" index="2c44t0">
         <child id="1196350785111" name="expression" index="2c44t1" />
       </concept>
       <concept id="1196350785117" name="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" flags="ng" index="2c44tb" />
@@ -72,11 +73,15 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
+      <concept id="1227096498176" name="jetbrains.mps.lang.typesystem.structure.PropertyMessageTarget" flags="ng" index="2ODE4t">
+        <reference id="1227096521710" name="propertyDeclaration" index="2ODJFN" />
+      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643443" name="messageTarget" index="1urrC5" />
         <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
@@ -102,6 +107,12 @@
       <concept id="1174663239020" name="jetbrains.mps.lang.typesystem.structure.CreateGreaterThanInequationStatement" flags="nn" index="1ZoDhX" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -121,6 +132,9 @@
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -137,7 +151,7 @@
         <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -1200,6 +1214,120 @@
     <node concept="1YaCAy" id="6ug9lnMDKve" role="1YuTPh">
       <property role="TrG5h" value="port" />
       <ref role="1YaFvo" to="2qld:5FQFTBpWGgz" resolve="Port" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1SEN4_BLkDx">
+    <property role="TrG5h" value="check_SPOrECompactionLayoutConfig" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <node concept="3clFbS" id="1SEN4_BLkDy" role="18ibNy">
+      <node concept="3clFbJ" id="1SEN4_BLkGu" role="3cqZAp">
+        <node concept="22lmx$" id="1SEN4_BLlFe" role="3clFbw">
+          <node concept="2OqwBi" id="1SEN4_BLlQB" role="3uHU7w">
+            <node concept="2OqwBi" id="1SEN4_BLlJO" role="2Oq$k0">
+              <node concept="1YBJjd" id="1SEN4_BLlIR" role="2Oq$k0">
+                <ref role="1YBMHb" node="1SEN4_BLkD$" resolve="config" />
+              </node>
+              <node concept="3TrcHB" id="1SEN4_BLlNY" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+              </node>
+            </node>
+            <node concept="21noJN" id="1SEN4_BLlVS" role="2OqNvi">
+              <node concept="21nZrQ" id="1SEN4_BLlVU" role="21noJM">
+                <ref role="21nZrZ" to="2qld:2FL8cAB2mgg" resolve="org_eclipse_elk_sporeOverlap" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1SEN4_BLlnM" role="3uHU7B">
+            <node concept="2OqwBi" id="1SEN4_BLkW4" role="2Oq$k0">
+              <node concept="1YBJjd" id="1SEN4_BLkJX" role="2Oq$k0">
+                <ref role="1YBMHb" node="1SEN4_BLkD$" resolve="config" />
+              </node>
+              <node concept="3TrcHB" id="1SEN4_BLlbB" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+              </node>
+            </node>
+            <node concept="21noJN" id="1SEN4_BLlxW" role="2OqNvi">
+              <node concept="21nZrQ" id="1SEN4_BLlxY" role="21noJM">
+                <ref role="21nZrZ" to="2qld:2FL8cAB2lZQ" resolve="org_eclipse_elk_sporeCompaction" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="1SEN4_BLkGw" role="3clFbx">
+          <node concept="2MkqsV" id="1SEN4_BLm3E" role="3cqZAp">
+            <node concept="Xl_RD" id="1SEN4_BLm4E" role="2MkJ7o">
+              <property role="Xl_RC" value="Can't use a SPOrE algorithm as the underlying algorithm" />
+            </node>
+            <node concept="1YBJjd" id="1SEN4_BLmAf" role="1urrMF">
+              <ref role="1YBMHb" node="1SEN4_BLkD$" resolve="config" />
+            </node>
+            <node concept="2ODE4t" id="1SEN4_BLmPS" role="1urrC5">
+              <ref role="2ODJFN" to="2qld:3biyEnNoZ2M" resolve="underlyingLayoutAlgorithm" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1SEN4_BLkD$" role="1YuTPh">
+      <property role="TrG5h" value="config" />
+      <ref role="1YaFvo" to="2qld:3biyEnNoWF8" resolve="SPOrECompactionLayoutConfig" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="1SEN4_BLnic">
+    <property role="TrG5h" value="typeof_SPOrEOverlapRemovalLayoutConfig" />
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
+    <node concept="3clFbS" id="1SEN4_BLnid" role="18ibNy">
+      <node concept="3clFbJ" id="1SEN4_BLnmO" role="3cqZAp">
+        <node concept="22lmx$" id="1SEN4_BLnmP" role="3clFbw">
+          <node concept="2OqwBi" id="1SEN4_BLnmQ" role="3uHU7w">
+            <node concept="2OqwBi" id="1SEN4_BLnmR" role="2Oq$k0">
+              <node concept="1YBJjd" id="1SEN4_BLnmS" role="2Oq$k0">
+                <ref role="1YBMHb" node="1SEN4_BLnif" resolve="config" />
+              </node>
+              <node concept="3TrcHB" id="1SEN4_BLnmT" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+              </node>
+            </node>
+            <node concept="21noJN" id="1SEN4_BLnmU" role="2OqNvi">
+              <node concept="21nZrQ" id="1SEN4_BLnmV" role="21noJM">
+                <ref role="21nZrZ" to="2qld:2FL8cAB2mgg" resolve="org_eclipse_elk_sporeOverlap" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1SEN4_BLnmW" role="3uHU7B">
+            <node concept="2OqwBi" id="1SEN4_BLnmX" role="2Oq$k0">
+              <node concept="1YBJjd" id="1SEN4_BLnmY" role="2Oq$k0">
+                <ref role="1YBMHb" node="1SEN4_BLnif" resolve="config" />
+              </node>
+              <node concept="3TrcHB" id="1SEN4_BLnmZ" role="2OqNvi">
+                <ref role="3TsBF5" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+              </node>
+            </node>
+            <node concept="21noJN" id="1SEN4_BLnn0" role="2OqNvi">
+              <node concept="21nZrQ" id="1SEN4_BLnn1" role="21noJM">
+                <ref role="21nZrZ" to="2qld:2FL8cAB2lZQ" resolve="org_eclipse_elk_sporeCompaction" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="1SEN4_BLnn2" role="3clFbx">
+          <node concept="2MkqsV" id="1SEN4_BLnn3" role="3cqZAp">
+            <node concept="Xl_RD" id="1SEN4_BLnn4" role="2MkJ7o">
+              <property role="Xl_RC" value="Can't use a SPOrE algorithm as the underlying algorithm" />
+            </node>
+            <node concept="1YBJjd" id="1SEN4_BLnn5" role="1urrMF">
+              <ref role="1YBMHb" node="1SEN4_BLnif" resolve="config" />
+            </node>
+            <node concept="2ODE4t" id="1SEN4_BLnn6" role="1urrC5">
+              <ref role="2ODJFN" to="2qld:3biyEnNFiQb" resolve="underlayingAlgorithm" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1SEN4_BLnif" role="1YuTPh">
+      <property role="TrG5h" value="config" />
+      <ref role="1YaFvo" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlapRemovalLayoutConfig" />
     </node>
   </node>
 </model>

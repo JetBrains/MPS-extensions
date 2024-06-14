@@ -7130,32 +7130,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="FzH79_I26Q" role="3cqZAp">
-          <node concept="2OqwBi" id="FzH79_I26R" role="3clFbG">
-            <node concept="2OqwBi" id="FzH79_I26S" role="2Oq$k0">
-              <node concept="10M0yZ" id="FzH79_I26T" role="2Oq$k0">
-                <ref role="3cqZAo" to="k21q:~AbstractProjectViewPane.EP" resolve="EP" />
-                <ref role="1PxDUh" to="k21q:~AbstractProjectViewPane" resolve="AbstractProjectViewPane" />
-              </node>
-              <node concept="liA8E" id="FzH79_I26U" role="2OqNvi">
-                <ref role="37wK5l" to="9ti4:~ProjectExtensionPointName.getPoint(com.intellij.openapi.extensions.AreaInstance)" resolve="getPoint" />
-                <node concept="37vLTw" id="FzH79_I26V" role="37wK5m">
-                  <ref role="3cqZAo" node="2ZGhpRffcqr" resolve="ideaProject" />
-                </node>
-              </node>
-            </node>
-            <node concept="liA8E" id="FzH79_I26W" role="2OqNvi">
-              <ref role="37wK5l" to="9ti4:~ExtensionPoint.registerExtension(java.lang.Object,com.intellij.openapi.Disposable)" resolve="registerExtension" />
-              <node concept="37vLTw" id="FzH79_I26X" role="37wK5m">
-                <ref role="3cqZAo" node="VPgi8etJvN" resolve="pane" />
-              </node>
-              <node concept="2YIFZM" id="FzH79_I26Y" role="37wK5m">
-                <ref role="37wK5l" to="zn9m:~Disposer.newDisposable()" resolve="newDisposable" />
-                <ref role="1Pybhc" to="zn9m:~Disposer" resolve="Disposer" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="VPgi8eu368" role="jymVt" />

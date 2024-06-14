@@ -291,6 +291,68 @@
             <property role="3oM_SC" value="documentation)." />
           </node>
         </node>
+        <node concept="2DRihI" id="49bdBU2qVQ7" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="2hgSXJ" id="49bdBU2qZ5q" role="1PaTwD">
+            <node concept="1PaTwC" id="49bdBU2qZ5r" role="2hiFM$">
+              <node concept="15Bu8Y" id="49bdBU2qZ5s" role="1PaTwD">
+                <node concept="1Xw6AR" id="49bdBU2qZ5t" role="15Bu8x">
+                  <node concept="1dCxOl" id="49bdBU2qZ5u" role="1XwpL7">
+                    <property role="1XweGQ" value="r:f19691e5-cdba-471c-b59a-00d5ff7aea1c" />
+                    <node concept="1j_P7g" id="49bdBU2qZ5v" role="1j$8Uc">
+                      <property role="1j_P7h" value="de.slisson.mps.editor.multiline.runtime" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="49bdBU2qZ5w" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ5O" role="1PaTwD">
+            <property role="3oM_SC" value="A" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ5X" role="1PaTwD">
+            <property role="3oM_SC" value="bug" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ67" role="1PaTwD">
+            <property role="3oM_SC" value="was" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ6i" role="1PaTwD">
+            <property role="3oM_SC" value="fixed" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ6u" role="1PaTwD">
+            <property role="3oM_SC" value="where" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ6F" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ6T" role="1PaTwD">
+            <property role="3oM_SC" value="multiline" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ78" role="1PaTwD">
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ7o" role="1PaTwD">
+            <property role="3oM_SC" value="got" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ7D" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ7V" role="1PaTwD">
+            <property role="3oM_SC" value="wrong" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ8e" role="1PaTwD">
+            <property role="3oM_SC" value="background" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ8y" role="1PaTwD">
+            <property role="3oM_SC" value="color" />
+          </node>
+          <node concept="3oM_SD" id="49bdBU2qZ8R" role="1PaTwD">
+            <property role="3oM_SC" value="set." />
+          </node>
+        </node>
         <node concept="2DRihI" id="1bznbGDfPh7" role="15bAlk">
           <property role="2RT3bR" value="0" />
           <node concept="2hgSXJ" id="1bznbGDfPix" role="1PaTwD">

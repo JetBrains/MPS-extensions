@@ -5066,6 +5066,9 @@
       <node concept="m$_yC" id="3_sZyadxXAa" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:6Hpa5co69BH" resolve="jetbrains.mps.editor.tooltips" />
       </node>
+      <node concept="m$_yC" id="5CBfeKljtXO" role="m$_yJ">
+        <ref role="m$_y1" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
+      </node>
     </node>
     <node concept="2G$12M" id="4be$WTb1AxY" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.editor.diagram" />
@@ -5124,11 +5127,6 @@
         <node concept="1SiIV0" id="tUmIYfjylZ" role="3bR37C">
           <node concept="3bR9La" id="tUmIYfjym0" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="tUmIYfjym1" role="3bR37C">
-          <node concept="3bR9La" id="tUmIYfjym2" role="1SiIV1">
-            <ref role="3bR37D" node="2Xjt3l57hht" resolve="de.slisson.mps.reflection.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="tUmIYfjym3" role="3bR37C">
@@ -5561,6 +5559,26 @@
         <node concept="1SiIV0" id="YGA9S6qTe9" role="3bR37C">
           <node concept="3bR9La" id="YGA9S6qTea" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5CBfeKkVNlr" role="3bR37C">
+          <node concept="3bR9La" id="5CBfeKkVNls" role="1SiIV1">
+            <ref role="3bR37D" node="3$A0JaN5bpX" resolve="MPS.ThirdParty" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5CBfeKkVNlx" role="3bR37C">
+          <node concept="3bR9La" id="5CBfeKkVNly" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5CBfeKkVNlz" role="3bR37C">
+          <node concept="3bR9La" id="5CBfeKkVNl$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5CBfeKljzEz" role="3bR37C">
+          <node concept="3bR9La" id="5CBfeKljzE$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
           </node>
         </node>
       </node>

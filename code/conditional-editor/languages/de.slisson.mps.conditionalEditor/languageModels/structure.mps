@@ -69,6 +69,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2vJRo8gAfWr" resolve="EditorCondition" />
     </node>
+    <node concept="1TJgyj" id="1o2IFMlIz3h" role="1TKVEi">
+      <property role="IQ2ns" value="1586035337916461265" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="overridenConditionalEditor" />
+      <ref role="20lvS9" node="1o2IFMlIzJc" resolve="ConditionalEditorDeclarationReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2vJRo8gAfWr">
     <property role="TrG5h" value="EditorCondition" />
@@ -191,6 +197,17 @@
       <property role="20kJfa" value="variable" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:4k3qd$cSlJ3" resolve="BaseVariableDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1o2IFMlIzJc">
+    <property role="EcuMT" value="1586035337916464076" />
+    <property role="TrG5h" value="ConditionalEditorDeclarationReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="1o2IFMlI$KB" role="1TKVEi">
+      <property role="IQ2ns" value="1586035337916468263" />
+      <property role="20kJfa" value="conditionalEditor" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2vJRo8gA3oP" resolve="ConditionalConceptEditorDeclaration" />
     </node>
   </node>
 </model>

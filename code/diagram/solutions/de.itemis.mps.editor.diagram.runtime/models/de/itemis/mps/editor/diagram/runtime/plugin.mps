@@ -2303,12 +2303,6 @@
       <node concept="tCFHf" id="YGA9S6qNkd" role="ftvYc">
         <ref role="tCJdB" node="YGA9S6m0pQ" resolve="Diagram_FlipPortsSideVertically" />
       </node>
-      <node concept="tCFHf" id="YGA9S6qNkz" role="ftvYc">
-        <ref role="tCJdB" node="5K7KC_qu7$R" resolve="DiagramSwitchPortsSideClockwise" />
-      </node>
-      <node concept="tCFHf" id="YGA9S6qNkV" role="ftvYc">
-        <ref role="tCJdB" node="2THfnm7nqSH" resolve="DiagramSwitchPortsSideCounterClockwise" />
-      </node>
     </node>
     <node concept="tT9cl" id="YGA9S6qSQR" role="2f5YQi">
       <ref role="tU$_T" to="ekwn:1xsN4xJX8VI" resolve="EditorPopup" />

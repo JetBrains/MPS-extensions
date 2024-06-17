@@ -390,8 +390,15 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="2ZU2kH0jD_C" role="V601i">
+      <property role="TrG5h" value="__translate-to-origin-button" />
+      <node concept="10P_77" id="2ZU2kH0jD_D" role="3t5Oan" />
+      <node concept="3clFbT" id="2ZU2kH0jD_E" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
     <node concept="3t5Usi" id="2pXhcZQmJkE" role="V601i">
-      <property role="TrG5h" value="__show_ports_labels" />
+      <property role="TrG5h" value="__show_ports_labels-button" />
       <node concept="10P_77" id="2pXhcZQmJkF" role="3t5Oan" />
       <node concept="3clFbT" id="2pXhcZQmJkG" role="3t49C2">
         <property role="3clFbU" value="true" />

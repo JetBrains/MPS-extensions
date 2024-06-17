@@ -2121,6 +2121,12 @@
       <property role="IQ2nx" value="6910723851735128106" />
       <property role="TrG5h" value="hasRelayoutAllEdgesButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="asaX9" id="2ZU2kH0jA8r" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="2ZU2kH0jA_x" role="1TKVEl">
+      <property role="IQ2nx" value="3457085882766354785" />
+      <property role="TrG5h" value="hasMoveToViewerButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="5ZBOFE3vtwH" role="1TKVEl">
       <property role="IQ2nx" value="6910723851735128109" />
@@ -2149,7 +2155,22 @@
     </node>
     <node concept="1TJgyi" id="2pXhcZQn1mg" role="1TKVEl">
       <property role="IQ2nx" value="2773448605512242576" />
-      <property role="TrG5h" value="hasShowPortsLabels" />
+      <property role="TrG5h" value="hasShowPortsLabelsButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2ZU2kH0jAMG" role="1TKVEl">
+      <property role="IQ2nx" value="3457085882766355628" />
+      <property role="TrG5h" value="hasTranslateToOriginButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2ZU2kH0jB7A" role="1TKVEl">
+      <property role="IQ2nx" value="3457085882766356966" />
+      <property role="TrG5h" value="hasPNGExportButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2ZU2kH0jByh" role="1TKVEl">
+      <property role="IQ2nx" value="3457085882766358673" />
+      <property role="TrG5h" value="hasSVGExportButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>

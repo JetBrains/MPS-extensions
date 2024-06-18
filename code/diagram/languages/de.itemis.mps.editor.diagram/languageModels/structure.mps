@@ -69,6 +69,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="5404671619616246344" name="staticScope" index="2_RsDV" />
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
@@ -157,7 +158,7 @@
       <property role="IQ2ns" value="6910723851735171798" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="buttonConfig" />
-      <ref role="20lvS9" node="5ZBOFE3vobP" resolve="DiagramButtonConfig" />
+      <ref role="20lvS9" node="2ZU2kH0xQFQ" resolve="IDiagramButtonConfig" />
     </node>
     <node concept="1TJgyj" id="5wo2$NmYE$b" role="1TKVEi">
       <property role="IQ2ns" value="6347834999919257867" />
@@ -2110,7 +2111,7 @@
     <property role="EcuMT" value="6910723851735106293" />
     <property role="3GE5qa" value="config" />
     <property role="TrG5h" value="DiagramButtonConfig" />
-    <property role="34LRSv" value="diagram button configuration" />
+    <property role="34LRSv" value="button configuration" />
     <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
     <node concept="1TJgyi" id="5ZBOFE3vtwC" role="1TKVEl">
       <property role="IQ2nx" value="6910723851735128104" />
@@ -2172,6 +2173,9 @@
       <property role="IQ2nx" value="3457085882766358673" />
       <property role="TrG5h" value="hasSVGExportButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="2ZU2kH0xRJy" role="PzmwI">
+      <ref role="PrY4T" node="2ZU2kH0xQFQ" resolve="IDiagramButtonConfig" />
     </node>
   </node>
   <node concept="25R3W" id="7WTFIQIcYq4">
@@ -4970,6 +4974,62 @@
       <property role="TrG5h" value="style" />
       <ref role="AX2Wp" node="5NyYfidQSP5" resolve="EdgeStyle" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="2ZU2kH0rOtL">
+    <property role="EcuMT" value="3457085882768508785" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="CustomDiagramButtonConfig" />
+    <property role="34LRSv" value="custom configuration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2ZU2kH0rSpI" role="1TKVEi">
+      <property role="IQ2ns" value="3457085882768524910" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="root" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="gCpkWun" resolve="QueryFunction_Buttons" />
+    </node>
+    <node concept="1TJgyj" id="74e51JiKqd8" role="1TKVEi">
+      <property role="IQ2ns" value="8146470885692384072" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="vertex" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="gCpkWun" resolve="QueryFunction_Buttons" />
+    </node>
+    <node concept="1TJgyj" id="74e51JlmriF" role="1TKVEi">
+      <property role="IQ2ns" value="8146470885735904427" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="edge" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="gCpkWun" resolve="QueryFunction_Buttons" />
+    </node>
+    <node concept="PrWs8" id="2ZU2kH0xRXo" role="PzmwI">
+      <ref role="PrY4T" node="2ZU2kH0xQFQ" resolve="IDiagramButtonConfig" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="gCpkWun">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="QueryFunction_Buttons" />
+    <property role="2_RsDV" value="4G1g3fIR8JG/none" />
+    <property role="3GE5qa" value="config" />
+    <property role="34LRSv" value="buttons" />
+    <property role="EcuMT" value="1142886221719" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="gTQ80DJ">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="ConceptFunctionParameter_mxCellState" />
+    <property role="2_RsDV" value="4G1g3fIR8JG/none" />
+    <property role="3GE5qa" value="config" />
+    <property role="34LRSv" value="state" />
+    <property role="EcuMT" value="1161622981231" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="PlHQZ" id="2ZU2kH0xQFQ">
+    <property role="EcuMT" value="3457085882770090742" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="IDiagramButtonConfig" />
   </node>
 </model>
 

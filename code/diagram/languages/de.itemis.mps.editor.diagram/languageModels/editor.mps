@@ -14721,5 +14721,47 @@
       </node>
     </node>
   </node>
+  <node concept="22mcaB" id="2ZU2kH0rQmo">
+    <property role="3GE5qa" value="config" />
+    <ref role="aqKnT" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
+    <node concept="22hDWj" id="2ZU2kH0rQrO" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="2ZU2kH0rSCT">
+    <property role="3GE5qa" value="config" />
+    <ref role="1XX52x" to="2qld:2ZU2kH0rOtL" resolve="CustomDiagramButtonConfig" />
+    <node concept="3EZMnI" id="2ZU2kH0rSKr" role="2wV5jI">
+      <node concept="2iRkQZ" id="2ZU2kH0rSKs" role="2iSdaV" />
+      <node concept="3EZMnI" id="74e51Jh1YSk" role="3EZMnx">
+        <node concept="2iRfu4" id="74e51Jh1YSl" role="2iSdaV" />
+        <node concept="3F0ifn" id="74e51Jh1YUv" role="3EZMnx">
+          <property role="3F0ifm" value="root:" />
+          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3F1sOY" id="2ZU2kH0rSHW" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:2ZU2kH0rSpI" resolve="root" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="74e51JiKquJ" role="3EZMnx">
+        <node concept="2iRfu4" id="74e51JiKquK" role="2iSdaV" />
+        <node concept="3F0ifn" id="74e51JiKquL" role="3EZMnx">
+          <property role="3F0ifm" value="vertex:" />
+          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3F1sOY" id="74e51JiKquM" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:74e51JiKqd8" resolve="vertex" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="74e51JlKk1m" role="3EZMnx">
+        <node concept="2iRfu4" id="74e51JlKk1n" role="2iSdaV" />
+        <node concept="3F0ifn" id="74e51JlKk1o" role="3EZMnx">
+          <property role="3F0ifm" value="edge:" />
+          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3F1sOY" id="74e51JlKk1p" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:74e51JlmriF" resolve="edge" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

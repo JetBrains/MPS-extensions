@@ -102,6 +102,12 @@
       <property role="IQ2ns" value="4618647476140326862" />
       <ref role="20lvS9" node="40oIQyHYmAK" resolve="DecisionTable" />
     </node>
+    <node concept="1TJgyj" id="2xPJDoNfCPa" role="1TKVEi">
+      <property role="IQ2ns" value="2915445886106373450" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="collapsibleTable" />
+      <ref role="20lvS9" node="2xPJDoNfCWA" resolve="CollapsibleTable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1dAqnm8oBxc">
     <property role="TrG5h" value="RequirementsCollection" />
@@ -507,6 +513,66 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="4618647476138240644" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2xPJDoNfCWA">
+    <property role="EcuMT" value="2915445886106373926" />
+    <property role="TrG5h" value="CollapsibleTable" />
+    <property role="3GE5qa" value="foldable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="2xPJDoNiPOW" role="1TKVEi">
+      <property role="IQ2ns" value="2915445886107213116" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="columns" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2xPJDoNfDyv" resolve="CollapsibleColumnEntry" />
+    </node>
+    <node concept="1TJgyj" id="2xPJDoNfD5b" role="1TKVEi">
+      <property role="IQ2ns" value="2915445886106374475" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rows" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="jEE8gyNXhc" resolve="CollapsibleRow" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2xPJDoNfDyv">
+    <property role="EcuMT" value="2915445886106376351" />
+    <property role="3GE5qa" value="foldable" />
+    <property role="TrG5h" value="CollapsibleColumnEntry" />
+    <property role="34LRSv" value="column entry" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="2xPJDoNfDHu" role="1TKVEl">
+      <property role="IQ2nx" value="2915445886106377054" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2xPJDoNiQfp">
+    <property role="TrG5h" value="CollapsibleRowEntry" />
+    <property role="EcuMT" value="2915445886107214809" />
+    <property role="3GE5qa" value="foldable" />
+    <property role="34LRSv" value="row entry" />
+    <node concept="1TJgyi" id="2xPJDoNiQrA" role="1TKVEl">
+      <property role="IQ2nx" value="2915445886107215590" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="jEE8gyNXhc">
+    <property role="TrG5h" value="CollapsibleRow" />
+    <property role="EcuMT" value="354280806175200332" />
+    <property role="3GE5qa" value="foldable" />
+    <node concept="1TJgyj" id="jEE8gyNXkt" role="1TKVEi">
+      <property role="IQ2ns" value="354280806175200541" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="entries" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2xPJDoNiQfp" resolve="CollapsibleRowEntry" />
+    </node>
+    <node concept="1TJgyi" id="jEE8gyNXPR" role="1TKVEl">
+      <property role="IQ2nx" value="354280806175202679" />
+      <property role="TrG5h" value="comment" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

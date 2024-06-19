@@ -39,6 +39,7 @@
         <child id="1397920687866493249" name="testSuite" index="2r5t0O" />
         <child id="1397920687866493100" name="rule" index="2r5t7p" />
         <child id="1397920687866492228" name="requirementsCollection" index="2r5tKL" />
+        <child id="2915445886106373450" name="collapsibleTable" index="riNfs" />
         <child id="1397920687868193943" name="stateMachine" index="2rUWny" />
         <child id="3208761769269148869" name="stateMachine2" index="YCZch" />
         <child id="4618647476140326862" name="decisionTable" index="3I0oiA" />
@@ -68,8 +69,22 @@
         <child id="1397920687866915011" name="states" index="2r746Q" />
         <child id="1397920687866915016" name="transitions" index="2r746X" />
       </concept>
+      <concept id="2915445886107214809" name="de.slisson.mps.tables.demolang.structure.CollapsibleRowEntry" flags="ng" index="rfHPf">
+        <property id="2915445886107215590" name="value" index="rfHxK" />
+      </concept>
+      <concept id="2915445886106376351" name="de.slisson.mps.tables.demolang.structure.CollapsibleColumnEntry" flags="ng" index="riMo9">
+        <property id="2915445886106377054" name="value" index="riMn8" />
+      </concept>
+      <concept id="2915445886106373926" name="de.slisson.mps.tables.demolang.structure.CollapsibleTable" flags="ng" index="riN6K">
+        <child id="2915445886107213116" name="columns" index="rfIeE" />
+        <child id="2915445886106374475" name="rows" index="riMZt" />
+      </concept>
       <concept id="7869003205683674568" name="de.slisson.mps.tables.demolang.structure.BaseConceptComment" flags="ng" index="A6MPL">
         <property id="7869003205684092902" name="comment" index="A0oXv" />
+      </concept>
+      <concept id="354280806175200332" name="de.slisson.mps.tables.demolang.structure.CollapsibleRow" flags="ng" index="A9nN8">
+        <property id="354280806175202679" name="comment" index="A9nnN" />
+        <child id="354280806175200541" name="entries" index="A9nQp" />
       </concept>
       <concept id="3208761769267604719" name="de.slisson.mps.tables.demolang.structure.Event2" flags="ng" index="YyQcV" />
       <concept id="3208761769267604633" name="de.slisson.mps.tables.demolang.structure.State2" flags="ng" index="YyQdd">
@@ -1071,6 +1086,17 @@
         <ref role="3HSt7G" node="40oIQyI81qo" />
         <node concept="3cmrfG" id="40oIQyIsDYW" role="3HSt7J">
           <property role="3cmrfH" value="5" />
+        </node>
+      </node>
+    </node>
+    <node concept="riN6K" id="jEE8gyWhFv" role="riNfs">
+      <node concept="riMo9" id="jEE8gyWhFw" role="rfIeE">
+        <property role="riMn8" value="val1" />
+      </node>
+      <node concept="A9nN8" id="jEE8gyWhFx" role="riMZt">
+        <property role="A9nnN" value="comment" />
+        <node concept="rfHPf" id="jEE8gyWhIr" role="A9nQp">
+          <property role="rfHxK" value="row entry" />
         </node>
       </node>
     </node>

@@ -3068,9 +3068,7 @@
             <node concept="37vLTw" id="1XCA2wmsrXj" role="37wK5m">
               <ref role="3cqZAo" node="40e1npHrxWg" resolve="sizeConstraint" />
             </node>
-            <node concept="3clFbT" id="36CzSVYOsyl" role="37wK5m">
-              <property role="3clFbU" value="false" />
-            </node>
+            <node concept="3clFbT" id="6W5XfjeZlg4" role="37wK5m" />
           </node>
         </node>
         <node concept="3clFbF" id="1XCA2wmsrD_" role="3cqZAp">

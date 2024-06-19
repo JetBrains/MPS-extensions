@@ -16,7 +16,7 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="rdi9" ref="r:c30772cf-6faa-4379-900e-6719e180568e(de.itemis.mps.editor.celllayout.runtime.plugin)" />
-    <import index="pvux" ref="r:bb8c05bc-4758-44fe-b1ab-f9faa5a73d31(de.itemis.mps.editor.celllayout.structure)" implicit="true" />
+    <import index="pvux" ref="r:bb8c05bc-4758-44fe-b1ab-f9faa5a73d31(de.itemis.mps.editor.celllayout.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -920,6 +920,57 @@
     </node>
     <node concept="13hLZK" id="7d0q5VHb7R7" role="13h7CW">
       <node concept="3clFbS" id="7d0q5VHb7R8" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6W5Xfjf4TxP">
+    <ref role="13h7C2" to="pvux:6W5Xfjf4T8A" resolve="FullWidthRootStyle" />
+    <node concept="13i0hz" id="6W5Xfjf4U7P" role="13h7CS">
+      <property role="2Ki8OM" value="true" />
+      <property role="TrG5h" value="getStyleAttributeDeclaration" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="2nutuZsM_FC" resolve="getStyleAttributeDeclaration" />
+      <node concept="3Tm1VV" id="6W5Xfjf4U7Q" role="1B3o_S" />
+      <node concept="3clFbS" id="6W5Xfjf4U7R" role="3clF47">
+        <node concept="3clFbF" id="6W5Xfjf4U7S" role="3cqZAp">
+          <node concept="2OqwBi" id="6W5Xfjf4U7T" role="3clFbG">
+            <node concept="2c44tf" id="6W5Xfjf4U7U" role="2Oq$k0">
+              <node concept="1Z6Ecs" id="6W5Xfjf4U7V" role="2c44tc">
+                <ref role="1Z6EpT" to="z0fb:6W5Xfjf3D25" resolve="_full-width-root" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="6W5Xfjf4U7W" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpc2:5eGiGGGHIMM" resolve="attributeDeclaration" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6W5Xfjf4U7X" role="3clF45">
+        <ref role="ehGHo" to="tpc2:3t4KfBEkQvF" resolve="StyleAttributeDeclaration" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="6W5Xfjf4U7Y" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="TrG5h" value="getStyleAttribute" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpcb:3a0zHG4tjdX" resolve="getStyleAttribute" />
+      <node concept="3Tm1VV" id="6W5Xfjf4U7Z" role="1B3o_S" />
+      <node concept="3clFbS" id="6W5Xfjf4U80" role="3clF47">
+        <node concept="3clFbF" id="6W5Xfjf4U81" role="3cqZAp">
+          <node concept="1Z6Ecs" id="6W5Xfjf4U82" role="3clFbG">
+            <ref role="1Z6EpT" to="z0fb:6W5Xfjf3D25" resolve="_full-width-root" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="6W5Xfjf4U83" role="3clF45">
+        <ref role="3uigEE" to="hox0:~StyleAttribute" resolve="StyleAttribute" />
+        <node concept="3uibUv" id="6W5Xfjf4U84" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="6W5Xfjf4TxQ" role="13h7CW">
+      <node concept="3clFbS" id="6W5Xfjf4TxR" role="2VODD2" />
     </node>
   </node>
 </model>

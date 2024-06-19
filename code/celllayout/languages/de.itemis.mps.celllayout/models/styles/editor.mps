@@ -156,6 +156,12 @@
   </registry>
   <node concept="V5hpn" id="6SVXTgI9FWP">
     <property role="TrG5h" value="LayoutStyleAttributes" />
+    <node concept="3t5Usi" id="6W5Xfjf3D25" role="V601i">
+      <property role="iBDjm" value="7zL4upErSle/simple" />
+      <property role="TrG5h" value="_full-width-root" />
+      <node concept="10P_77" id="6W5Xfjf3D44" role="3t5Oan" />
+      <node concept="3clFbT" id="6W5Xfjf3D4k" role="3t49C2" />
+    </node>
     <node concept="3t5Usi" id="6SVXTgI9FWQ" role="V601i">
       <property role="iBDjm" value="7zL4upErSle/simple" />
       <property role="TrG5h" value="_border-color" />

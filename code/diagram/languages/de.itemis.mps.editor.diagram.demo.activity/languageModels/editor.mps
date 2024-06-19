@@ -330,7 +330,7 @@
       <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ig" index="37q72E" />
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
       <concept id="6910723851735106293" name="de.itemis.mps.editor.diagram.structure.DiagramButtonConfig" flags="ng" index="3sA_1f">
-        <property id="2773448605512242576" name="hasShowPortsLabels" index="3g8l5v" />
+        <property id="2773448605512242576" name="hasShowPortsLabelsButton" index="3g8l5v" />
         <property id="6910723851735128113" name="hasResetViewButton" index="3sAwEb" />
         <property id="6910723851735128104" name="hasLayoutDiagramButton" index="3sAwEi" />
         <property id="6910723851735128109" name="hasMaximizeDiagramButton" index="3sAwEn" />

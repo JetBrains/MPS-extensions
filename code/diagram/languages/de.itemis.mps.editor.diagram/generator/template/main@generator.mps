@@ -5817,10 +5817,10 @@
                                                     <node concept="3clFbF" id="1wIvqM8z28u" role="3cqZAp">
                                                       <node concept="37vLTI" id="1wIvqM8z28v" role="3clFbG">
                                                         <node concept="37vLTw" id="1wIvqM8z28w" role="37vLTJ">
-                                                          <ref role="3cqZAo" node="1wIvqM8z28r" resolve="fitToSize" />
+                                                          <ref role="3cqZAo" node="1wIvqM8z28r" resolve="disableEditing" />
                                                         </node>
                                                         <node concept="1rXfSq" id="1wIvqM8z28x" role="37vLTx">
-                                                          <ref role="37wK5l" node="1wIvqM8z28o" resolve="fitToSizeOnInit" />
+                                                          <ref role="37wK5l" node="1wIvqM8z28o" resolve="disableNodeEditing" />
                                                           <node concept="1ZhdrF" id="1wIvqM8z28y" role="lGtFl">
                                                             <property role="2qtEX8" value="baseMethodDeclaration" />
                                                             <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
@@ -5865,7 +5865,7 @@
                                                     </node>
                                                     <node concept="3cpWs6" id="1wIvqM8z28P" role="3cqZAp">
                                                       <node concept="37vLTw" id="1wIvqM8z28Q" role="3cqZAk">
-                                                        <ref role="3cqZAo" node="1wIvqM8z28r" resolve="fitToSize" />
+                                                        <ref role="3cqZAo" node="1wIvqM8z28r" resolve="disableEditing" />
                                                       </node>
                                                     </node>
                                                   </node>
@@ -6083,7 +6083,7 @@
                                                             <property role="2bfB8j" value="true" />
                                                             <property role="373rjd" value="true" />
                                                             <ref role="1Y3XeK" to="hyam:~ActionListener" resolve="ActionListener" />
-                                                            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                                                            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                                                             <node concept="3Tm1VV" id="1lg2r6HKUrX" role="1B3o_S" />
                                                             <node concept="3clFb_" id="1lg2r6HKUsb" role="jymVt">
                                                               <property role="TrG5h" value="actionPerformed" />
@@ -6198,7 +6198,7 @@
                                                                 </node>
                                                               </node>
                                                               <node concept="2AHcQZ" id="1lg2r6HKUsj" role="2AJF6D">
-                                                                <ref role="2AI5Lk" to="wyt6:~Override" />
+                                                                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                                                               </node>
                                                             </node>
                                                           </node>
@@ -6752,7 +6752,7 @@
                                                         </node>
                                                       </node>
                                                       <node concept="37vLTw" id="2ZU2kH0yS7M" role="2Oq$k0">
-                                                        <ref role="3cqZAo" node="2ZU2kH0yS7H" resolve="cell" />
+                                                        <ref role="3cqZAo" node="2ZU2kH0yS7H" resolve="rootDCell" />
                                                       </node>
                                                     </node>
                                                   </node>
@@ -6780,7 +6780,7 @@
                                                           <ref role="37wK5l" to="r3rm:6HawCQIBgYp" resolve="resetButtonConfig" />
                                                         </node>
                                                         <node concept="37vLTw" id="2ZU2kH0yS7N" role="2Oq$k0">
-                                                          <ref role="3cqZAo" node="2ZU2kH0yS7H" resolve="cell" />
+                                                          <ref role="3cqZAo" node="2ZU2kH0yS7H" resolve="rootDCell" />
                                                         </node>
                                                       </node>
                                                     </node>
@@ -15910,7 +15910,7 @@
           <node concept="liA8E" id="2pXhcZQn0M8" role="2OqNvi">
             <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
             <node concept="1Z6Ecs" id="2pXhcZQn0M9" role="37wK5m">
-              <ref role="1Z6EpT" to="swi3:2pXhcZQmJkE" resolve="__show_ports_labels" />
+              <ref role="1Z6EpT" to="swi3:2pXhcZQmJkE" resolve="__show_ports_labels-button" />
             </node>
             <node concept="3clFbT" id="2pXhcZQn0Ma" role="37wK5m">
               <property role="3clFbU" value="true" />
@@ -15923,7 +15923,7 @@
                       <node concept="2OqwBi" id="2pXhcZQn0Mf" role="3clFbG">
                         <node concept="30H73N" id="2pXhcZQn0Mg" role="2Oq$k0" />
                         <node concept="3TrcHB" id="2pXhcZQn0Mh" role="2OqNvi">
-                          <ref role="3TsBF5" to="2qld:2pXhcZQn1mg" resolve="hasShowPortsLabels" />
+                          <ref role="3TsBF5" to="2qld:2pXhcZQn1mg" resolve="hasShowPortsLabelsButton" />
                         </node>
                       </node>
                     </node>

@@ -172,7 +172,7 @@
   </registry>
   <node concept="1lYeZD" id="1wIvqMafKFV">
     <property role="TrG5h" value="CustomClickAction" />
-    <ref role="1lYe$Y" to="3it5:1wIvqM9UMkx" resolve="GlobalDiagramMPSCellMouseListener" />
+    <ref role="1lYe$Y" to="3it5:1wIvqM9UMkx" resolve="GlobalDiagramMPSCellClickListener" />
     <node concept="3Tm1VV" id="1wIvqMafKFW" role="1B3o_S" />
     <node concept="2tJIrI" id="1wIvqMafKFX" role="jymVt" />
     <node concept="3tTeZs" id="1wIvqMafKFY" role="jymVt">
@@ -196,7 +196,7 @@
                 <property role="2bfB8j" value="true" />
                 <property role="373rjd" value="true" />
                 <ref role="1Y3XeK" to="3it5:~MouseListener" resolve="MPSCellMouseListener" />
-                <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                 <node concept="3Tm1VV" id="1wIvqMafL61" role="1B3o_S" />
                 <node concept="3clFb_" id="1wIvqMafL6f" role="jymVt">
                   <property role="TrG5h" value="mouseClicked" />
@@ -273,7 +273,7 @@
                           <node concept="3clFbF" id="1wIvqMafOGT" role="3cqZAp">
                             <node concept="2YIFZM" id="1wIvqMag09H" role="3clFbG">
                               <ref role="37wK5l" to="fnpx:~Notifications$Bus.notify(com.intellij.notification.Notification)" resolve="notify" />
-                              <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Bus" />
+                              <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Notifications.Bus" />
                               <node concept="2ShNRf" id="1wIvqMag09I" role="37wK5m">
                                 <node concept="1pGfFk" id="1wIvqMag09J" role="2ShVmc">
                                   <property role="373rjd" value="true" />
@@ -325,7 +325,7 @@
                     </node>
                   </node>
                   <node concept="2AHcQZ" id="1wIvqMafL6p" role="2AJF6D">
-                    <ref role="2AI5Lk" to="wyt6:~Override" />
+                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                   </node>
                 </node>
               </node>

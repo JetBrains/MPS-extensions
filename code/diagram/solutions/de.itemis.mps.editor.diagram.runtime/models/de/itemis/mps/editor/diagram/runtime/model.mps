@@ -4626,7 +4626,7 @@
       <node concept="3clFbS" id="5NyYfidAak2" role="3clF47">
         <node concept="3clFbF" id="5NyYfidAweE" role="3cqZAp">
           <node concept="37vLTw" id="5NyYfidAweD" role="3clFbG">
-            <ref role="3cqZAo" node="5NyYfidA49J" resolve="myStyle" />
+            <ref role="3cqZAo" node="5NyYfidA49J" resolve="myEdgeStyle" />
           </node>
         </node>
       </node>
@@ -4640,10 +4640,10 @@
         <node concept="3clFbF" id="5NyYfidAaka" role="3cqZAp">
           <node concept="37vLTI" id="5NyYfidAakb" role="3clFbG">
             <node concept="37vLTw" id="5NyYfidAakc" role="37vLTx">
-              <ref role="3cqZAo" node="5NyYfidAake" resolve="curved" />
+              <ref role="3cqZAo" node="5NyYfidAake" resolve="style" />
             </node>
             <node concept="37vLTw" id="5NyYfidAX$W" role="37vLTJ">
-              <ref role="3cqZAo" node="5NyYfidA49J" resolve="myStyle" />
+              <ref role="3cqZAo" node="5NyYfidA49J" resolve="myEdgeStyle" />
             </node>
           </node>
         </node>

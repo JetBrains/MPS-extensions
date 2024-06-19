@@ -418,21 +418,6 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
-    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="5383422241790532083" name="tags" index="3nqlJM" />
-      </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
-    </language>
     <language id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers">
       <concept id="1213999088275" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldDeclaration" flags="ig" index="2BZ0e9" />
       <concept id="1213999117680" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierFieldAccessOperation" flags="nn" index="2BZ7hE" />
@@ -468,7 +453,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -2839,7 +2823,7 @@
                               </node>
                             </node>
                             <node concept="2AHcQZ" id="1JJYOwUgNmh" role="2AJF6D">
-                              <ref role="2AI5Lk" to="wyt6:~Override" />
+                              <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                             </node>
                           </node>
                         </node>
@@ -3259,7 +3243,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="1lg2r6HH_ma" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                   <node concept="3clFb_" id="1JJYOwUgZHi" role="jymVt">
@@ -3274,7 +3258,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="1JJYOwUgZHp" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                 </node>
@@ -3558,7 +3542,7 @@
             <node concept="1rXfSq" id="1du7vwqs_AQ" role="3fr31v">
               <ref role="37wK5l" node="5nneI6vP66F" resolve="saveAsPNG" />
               <node concept="37vLTw" id="1du7vwqs_AR" role="37wK5m">
-                <ref role="3cqZAo" node="xCk$O6otkG" resolve="node" />
+                <ref role="3cqZAo" node="xCk$O6otkG" resolve="diagramCell" />
               </node>
               <node concept="37vLTw" id="1du7vwqs_AS" role="37wK5m">
                 <ref role="3cqZAo" node="5nneI6vP63M" resolve="filename" />
@@ -4113,7 +4097,7 @@
         </node>
         <node concept="3clFbF" id="5S0CtJiOmv8" role="3cqZAp">
           <node concept="1rXfSq" id="5S0CtJiPrth" role="3clFbG">
-            <ref role="37wK5l" node="5S0CtJiMXD$" resolve="showNotification" />
+            <ref role="37wK5l" node="5S0CtJiMXD$" resolve="showSVGExportedNotification" />
             <node concept="37vLTw" id="5S0CtJiQ11F" role="37wK5m">
               <ref role="3cqZAo" node="5S0CtJiOrxq" resolve="filename" />
             </node>
@@ -4212,7 +4196,7 @@
             <node concept="1rXfSq" id="7FS6F6xRiX8" role="33vP2m">
               <ref role="37wK5l" node="7FS6F6xQJKr" resolve="getFullPathName" />
               <node concept="37vLTw" id="5CBfeKl5HwR" role="37wK5m">
-                <ref role="3cqZAo" node="5CBfeKl42Lm" resolve="diagramCell" />
+                <ref role="3cqZAo" node="5CBfeKl42Lm" resolve="cell" />
               </node>
               <node concept="37vLTw" id="7FS6F6xRiXa" role="37wK5m">
                 <ref role="3cqZAo" node="5nneI6vPj0l" resolve="path" />
@@ -4988,7 +4972,7 @@
                 </node>
                 <node concept="2OqwBi" id="5CBfeKl3kLe" role="3uHU7B">
                   <node concept="37vLTw" id="5CBfeKl3fdM" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5CBfeKl3T0S" resolve="diagramCell" />
+                    <ref role="3cqZAo" node="5CBfeKl3T0S" resolve="cell" />
                   </node>
                   <node concept="liA8E" id="5CBfeKl3mZ4" role="2OqNvi">
                     <ref role="37wK5l" to="f4zo:~EditorCell.getCellId()" resolve="getCellId" />
@@ -5380,7 +5364,7 @@
         </node>
         <node concept="3clFbF" id="xCk$O6miVJ" role="3cqZAp">
           <node concept="2YIFZM" id="xCk$O6mmin" role="3clFbG">
-            <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Bus" />
+            <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Notifications.Bus" />
             <ref role="37wK5l" to="fnpx:~Notifications$Bus.notify(com.intellij.notification.Notification)" resolve="notify" />
             <node concept="37vLTw" id="xCk$O6mmio" role="37wK5m">
               <ref role="3cqZAo" node="xCk$O6miVs" resolve="notification" />
@@ -5451,7 +5435,7 @@
         </node>
         <node concept="3clFbF" id="2ccYKJTjCi2" role="3cqZAp">
           <node concept="2YIFZM" id="2ccYKJTjCi3" role="3clFbG">
-            <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Bus" />
+            <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Notifications.Bus" />
             <ref role="37wK5l" to="fnpx:~Notifications$Bus.notify(com.intellij.notification.Notification)" resolve="notify" />
             <node concept="37vLTw" id="2ccYKJTjCi4" role="37wK5m">
               <ref role="3cqZAo" node="2ccYKJTjChH" resolve="notification" />
@@ -5527,7 +5511,7 @@
         </node>
         <node concept="3clFbF" id="3AY9Tyq2G43" role="3cqZAp">
           <node concept="2YIFZM" id="3AY9Tyq2G44" role="3clFbG">
-            <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Bus" />
+            <ref role="1Pybhc" to="fnpx:~Notifications$Bus" resolve="Notifications.Bus" />
             <ref role="37wK5l" to="fnpx:~Notifications$Bus.notify(com.intellij.notification.Notification)" resolve="notify" />
             <node concept="37vLTw" id="3AY9Tyq2G45" role="37wK5m">
               <ref role="3cqZAo" node="3AY9Tyq2G3T" resolve="notification" />
@@ -7047,3 +7031,4 @@
     <node concept="3Tm1VV" id="26AplbI1t4q" role="1B3o_S" />
   </node>
 </model>
+

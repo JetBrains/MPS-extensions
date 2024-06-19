@@ -10361,7 +10361,7 @@
                             <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
                           </node>
                           <node concept="37vLTw" id="74e51Ji6eKG" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Ji7g2u" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5ymK" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5ymM" role="2pJPEn">
@@ -10389,7 +10389,7 @@
                             <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
                           </node>
                           <node concept="37vLTw" id="74e51Jj5yM6" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5yM7" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5yM8" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5yM9" role="2pJPEn">
@@ -10417,7 +10417,7 @@
                             <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
                           </node>
                           <node concept="37vLTw" id="74e51Jj5yTk" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5yTl" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5yTm" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5yTn" role="2pJPEn">
@@ -10445,7 +10445,7 @@
                             <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
                           </node>
                           <node concept="37vLTw" id="74e51Jj5z0y" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5z0z" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5z0$" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5z0_" role="2pJPEn">
@@ -10473,7 +10473,7 @@
                             <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
                           </node>
                           <node concept="37vLTw" id="74e51Jj5z9_" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5z9A" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5z9B" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5z9C" role="2pJPEn">
@@ -10501,7 +10501,7 @@
                             <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
                           </node>
                           <node concept="37vLTw" id="74e51Jj5zkI" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5zkJ" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5zkK" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5zkL" role="2pJPEn">
@@ -10529,7 +10529,7 @@
                             <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
                           </node>
                           <node concept="37vLTw" id="74e51Jj5zxj" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5zxk" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5zxl" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5zxm" role="2pJPEn">
@@ -10557,7 +10557,7 @@
                             <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
                           </node>
                           <node concept="37vLTw" id="74e51Jj5zCn" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5zCo" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5zCp" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5zCq" role="2pJPEn">
@@ -10582,7 +10582,7 @@
                           <property role="373rjd" value="true" />
                           <ref role="37wK5l" to="r3rm:5CBfeKkr2n6" resolve="ExportDiagramAsPNGButton" />
                           <node concept="37vLTw" id="74e51Jj5zUs" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5zUt" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5zUu" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5zUv" role="2pJPEn">
@@ -10607,7 +10607,7 @@
                           <property role="373rjd" value="true" />
                           <ref role="37wK5l" to="r3rm:5CBfeKl8NWu" resolve="ExportDiagramAsSVGButton" />
                           <node concept="37vLTw" id="74e51Jj5zNw" role="37wK5m">
-                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5zNx" role="lGtFl">
                               <node concept="2pJPEk" id="74e51Jj5zNy" role="2c44t1">
                                 <node concept="2pJPED" id="74e51Jj5zNz" role="2pJPEn">
@@ -10633,7 +10633,7 @@
         <node concept="3clFbF" id="74e51Ji6f$7" role="3cqZAp">
           <node concept="37vLTI" id="74e51Ji6ivw" role="3clFbG">
             <node concept="37vLTw" id="74e51Ji6iFE" role="37vLTx">
-              <ref role="3cqZAo" node="74e51Ji6aAM" resolve="stmList" />
+              <ref role="3cqZAo" node="74e51Ji6aAM" resolve="rootStmtList" />
             </node>
             <node concept="2OqwBi" id="74e51Ji6ghg" role="37vLTJ">
               <node concept="2OqwBi" id="74e51Ji6f$9" role="2Oq$k0">
@@ -10725,7 +10725,7 @@
                         <ref role="37wK5l" to="1njx:~mxCellState.getCell()" resolve="getCell" />
                       </node>
                       <node concept="37vLTw" id="74e51Jl$Pwm" role="2Oq$k0">
-                        <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                        <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                         <node concept="2c44te" id="74e51Jl$Pwn" role="lGtFl">
                           <node concept="2pJPEk" id="74e51Jl$Pwo" role="2c44t1">
                             <node concept="2pJPED" id="74e51Jl$Pwp" role="2pJPEn">
@@ -10756,7 +10756,7 @@
                                 <ref role="37wK5l" to="1njx:~mxCellState.getCell()" resolve="getCell" />
                               </node>
                               <node concept="37vLTw" id="74e51Jl$Qni" role="2Oq$k0">
-                                <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                 <node concept="2c44te" id="74e51Jl$Qnj" role="lGtFl">
                                   <node concept="2pJPEk" id="74e51Jl$Qnk" role="2c44t1">
                                     <node concept="2pJPED" id="74e51Jl$Qnl" role="2pJPEn">
@@ -10826,7 +10826,7 @@
                                     <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
                                   </node>
                                   <node concept="37vLTw" id="74e51Jl$QLG" role="37wK5m">
-                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                     <node concept="2c44te" id="74e51Jl$QLH" role="lGtFl">
                                       <node concept="2pJPEk" id="74e51Jl$QLI" role="2c44t1">
                                         <node concept="2pJPED" id="74e51Jl$QLJ" role="2pJPEn">
@@ -10858,7 +10858,7 @@
                                     <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
                                   </node>
                                   <node concept="37vLTw" id="74e51Jl$QUm" role="37wK5m">
-                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                     <node concept="2c44te" id="74e51Jl$QUn" role="lGtFl">
                                       <node concept="2pJPEk" id="74e51Jl$QUo" role="2c44t1">
                                         <node concept="2pJPED" id="74e51Jl$QUp" role="2pJPEn">
@@ -10899,7 +10899,7 @@
                                     <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
                                   </node>
                                   <node concept="37vLTw" id="74e51Jl$R4e" role="37wK5m">
-                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                     <node concept="2c44te" id="74e51Jl$R4f" role="lGtFl">
                                       <node concept="2pJPEk" id="74e51Jl$R4g" role="2c44t1">
                                         <node concept="2pJPED" id="74e51Jl$R4h" role="2pJPEn">
@@ -10942,7 +10942,7 @@
                                     <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
                                   </node>
                                   <node concept="37vLTw" id="74e51Jl$Rb2" role="37wK5m">
-                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                     <node concept="2c44te" id="74e51Jl$Rb3" role="lGtFl">
                                       <node concept="2pJPEk" id="74e51Jl$Rb4" role="2c44t1">
                                         <node concept="2pJPED" id="74e51Jl$Rb5" role="2pJPEn">
@@ -11006,7 +11006,7 @@
                                                 <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
                                               </node>
                                               <node concept="37vLTw" id="2EnXnMFzRfQ" role="37wK5m">
-                                                <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                                <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                                 <node concept="2c44te" id="2EnXnMFzRfR" role="lGtFl">
                                                   <node concept="2pJPEk" id="2EnXnMFzRfS" role="2c44t1">
                                                     <node concept="2pJPED" id="2EnXnMFzRfT" role="2pJPEn">
@@ -11058,7 +11058,7 @@
                                                   <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
                                                 </node>
                                                 <node concept="37vLTw" id="2EnXnMFzRmU" role="37wK5m">
-                                                  <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                                  <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                                   <node concept="2c44te" id="2EnXnMFzRmV" role="lGtFl">
                                                     <node concept="2pJPEk" id="2EnXnMFzRmW" role="2c44t1">
                                                       <node concept="2pJPED" id="2EnXnMFzRmX" role="2pJPEn">
@@ -11140,7 +11140,7 @@
                         <ref role="37wK5l" to="1njx:~mxCellState.getCell()" resolve="getCell" />
                       </node>
                       <node concept="37vLTw" id="74e51Jl$PD6" role="2Oq$k0">
-                        <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                        <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                         <node concept="2c44te" id="74e51Jl$PD7" role="lGtFl">
                           <node concept="2pJPEk" id="74e51Jl$PD8" role="2c44t1">
                             <node concept="2pJPED" id="74e51Jl$PD9" role="2pJPEn">
@@ -11234,7 +11234,7 @@
                                 <ref role="37wK5l" to="1njx:~mxCellState.getCell()" resolve="getCell" />
                               </node>
                               <node concept="37vLTw" id="74e51Jl$SR6" role="2Oq$k0">
-                                <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                 <node concept="2c44te" id="74e51Jl$SR7" role="lGtFl">
                                   <node concept="2pJPEk" id="74e51Jl$SR8" role="2c44t1">
                                     <node concept="2pJPED" id="74e51Jl$SR9" role="2pJPEn">
@@ -11263,7 +11263,7 @@
                                 <ref role="3cqZAo" node="74e51Jl$Fuc" resolve="size" />
                               </node>
                               <node concept="37vLTw" id="74e51Jl$T16" role="37wK5m">
-                                <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                 <node concept="2c44te" id="74e51Jl$T17" role="lGtFl">
                                   <node concept="2pJPEk" id="74e51Jl$T18" role="2c44t1">
                                     <node concept="2pJPED" id="74e51Jl$T19" role="2pJPEn">
@@ -11296,7 +11296,7 @@
                                     <ref role="3cqZAo" node="74e51Jl$Fuc" resolve="size" />
                                   </node>
                                   <node concept="37vLTw" id="74e51Jl$T6c" role="37wK5m">
-                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                                    <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                                     <node concept="2c44te" id="74e51Jl$T6d" role="lGtFl">
                                       <node concept="2pJPEk" id="74e51Jl$T6e" role="2c44t1">
                                         <node concept="2pJPED" id="74e51Jl$T6f" role="2pJPEn">
@@ -11338,7 +11338,7 @@
                         <ref role="37wK5l" to="1njx:~mxCellState.getCell()" resolve="getCell" />
                       </node>
                       <node concept="37vLTw" id="74e51Jl$SGl" role="2Oq$k0">
-                        <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="state" />
+                        <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                         <node concept="2c44te" id="74e51Jl$SGm" role="lGtFl">
                           <node concept="2pJPEk" id="74e51Jl$SGn" role="2c44t1">
                             <node concept="2pJPED" id="74e51Jl$SGo" role="2pJPEn">
@@ -11363,7 +11363,7 @@
         <node concept="3clFbF" id="74e51Jl$Fwp" role="3cqZAp">
           <node concept="37vLTI" id="74e51Jl$Fwq" role="3clFbG">
             <node concept="37vLTw" id="74e51Jl$Fwr" role="37vLTx">
-              <ref role="3cqZAo" node="74e51Jl$Fu0" resolve="vertexStmtList" />
+              <ref role="3cqZAo" node="74e51Jl$Fu0" resolve="edgeStmtList" />
             </node>
             <node concept="2OqwBi" id="74e51Jl$Fws" role="37vLTJ">
               <node concept="2OqwBi" id="74e51Jl$Fwt" role="2Oq$k0">

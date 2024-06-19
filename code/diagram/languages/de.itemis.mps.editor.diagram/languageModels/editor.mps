@@ -5721,6 +5721,25 @@
           </node>
         </node>
       </node>
+      <node concept="3gTLQM" id="1Va40GQyvUv" role="3EZMnx">
+        <node concept="3Fmcul" id="1Va40GQyvUw" role="3FoqZy">
+          <node concept="3clFbS" id="1Va40GQyvUx" role="2VODD2">
+            <node concept="3cpWs6" id="1Va40GQyvUy" role="3cqZAp">
+              <node concept="2OqwBi" id="1Va40GQyvUz" role="3cqZAk">
+                <node concept="pncrf" id="1Va40GQyvU$" role="2Oq$k0" />
+                <node concept="2qgKlT" id="1Va40GQyvU_" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:4h7S3973QQF" resolve="getBooleanPropertyCheckBox" />
+                  <node concept="1Q80Hx" id="1Va40GQyvUA" role="37wK5m" />
+                  <node concept="355D3s" id="1Va40GQyvUB" role="37wK5m">
+                    <ref role="355D3t" to="2qld:5ZBOFE3vobP" resolve="DiagramButtonConfig" />
+                    <ref role="355D3u" to="2qld:1Va40GQyvqR" resolve="hasClearLayoutInfoButton" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="2iRkQZ" id="5ZBOFE3vv3e" role="2iSdaV" />
     </node>
   </node>

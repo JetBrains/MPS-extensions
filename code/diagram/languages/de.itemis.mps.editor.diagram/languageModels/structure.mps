@@ -2174,6 +2174,11 @@
       <property role="TrG5h" value="hasSVGExportButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="1Va40GQyvqR" role="1TKVEl">
+      <property role="IQ2nx" value="2218603406779086519" />
+      <property role="TrG5h" value="hasClearLayoutInfoButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="2ZU2kH0xRJy" role="PzmwI">
       <ref role="PrY4T" node="2ZU2kH0xQFQ" resolve="IDiagramButtonConfig" />
     </node>

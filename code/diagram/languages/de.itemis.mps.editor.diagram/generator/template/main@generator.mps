@@ -16034,6 +16034,39 @@
         </node>
         <node concept="raruj" id="2ZU2kH0jF8f" role="lGtFl" />
       </node>
+      <node concept="3clFbF" id="1Va40GQyx3R" role="3cqZAp">
+        <node concept="2OqwBi" id="1Va40GQyx3S" role="3clFbG">
+          <node concept="37vLTw" id="1Va40GQyx3T" role="2Oq$k0">
+            <ref role="3cqZAo" node="5ZBOFE3$Ijz" resolve="styleDiagram" />
+          </node>
+          <node concept="liA8E" id="1Va40GQyx3U" role="2OqNvi">
+            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
+            <node concept="1Z6Ecs" id="1Va40GQyx3V" role="37wK5m">
+              <ref role="1Z6EpT" to="swi3:1Va40GQyuLK" resolve="__clear-layout-information-button" />
+            </node>
+            <node concept="3clFbT" id="1Va40GQyx3W" role="37wK5m">
+              <property role="3clFbU" value="true" />
+              <node concept="17Uvod" id="1Va40GQyx3X" role="lGtFl">
+                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                <property role="2qtEX9" value="value" />
+                <node concept="3zFVjK" id="1Va40GQyx3Y" role="3zH0cK">
+                  <node concept="3clFbS" id="1Va40GQyx3Z" role="2VODD2">
+                    <node concept="3clFbF" id="1Va40GQyx40" role="3cqZAp">
+                      <node concept="2OqwBi" id="1Va40GQyx41" role="3clFbG">
+                        <node concept="30H73N" id="1Va40GQyx42" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="1Va40GQyx43" role="2OqNvi">
+                          <ref role="3TsBF5" to="2qld:1Va40GQyvqR" resolve="hasClearLayoutInfoButton" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="raruj" id="1Va40GQyx44" role="lGtFl" />
+      </node>
     </node>
   </node>
   <node concept="13MO4I" id="4sEzlP8p3IF">

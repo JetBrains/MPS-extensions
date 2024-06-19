@@ -378,6 +378,13 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="6OfpnAf7iDG" role="V601i">
+      <property role="TrG5h" value="__sync-with-model-button" />
+      <node concept="10P_77" id="6OfpnAf7iDH" role="3t5Oan" />
+      <node concept="3clFbT" id="6OfpnAf7iDI" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
     <node concept="3t5Usi" id="5ZBOFE3$JmV" role="V601i">
       <property role="TrG5h" value="__deprecated-relayout-all-edges-button" />
       <node concept="10P_77" id="5ZBOFE3$JmW" role="3t5Oan" />

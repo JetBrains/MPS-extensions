@@ -190,6 +190,12 @@
       <property role="20kJfa" value="disableNodeEditing" />
       <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
+    <node concept="1TJgyj" id="6OfpnAf34o9" role="1TKVEi">
+      <property role="IQ2ns" value="7858611447550199305" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="syncWithModelOnlyOnOpening" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="contentQuery" />

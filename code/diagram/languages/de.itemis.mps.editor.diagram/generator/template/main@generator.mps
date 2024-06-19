@@ -5643,6 +5643,31 @@
                                                   </node>
                                                 </node>
                                                 <node concept="2tJIrI" id="1wIvqM8yzWG" role="jymVt" />
+                                                <node concept="3clFb_" id="6OfpnAf3e9V" role="jymVt">
+                                                  <property role="TrG5h" value="syncModelWithDiagramOnlyOnOpening" />
+                                                  <node concept="3clFbS" id="6OfpnAf3e9W" role="3clF47">
+                                                    <node concept="3cpWs6" id="6OfpnAf3e9X" role="3cqZAp">
+                                                      <node concept="3clFbT" id="6OfpnAf3e9Y" role="3cqZAk" />
+                                                    </node>
+                                                  </node>
+                                                  <node concept="3Tm6S6" id="6OfpnAf3e9Z" role="1B3o_S" />
+                                                  <node concept="10P_77" id="6OfpnAf3ea0" role="3clF45" />
+                                                  <node concept="29HgVG" id="6OfpnAf3ea1" role="lGtFl">
+                                                    <node concept="3NFfHV" id="6OfpnAf3ea2" role="3NFExx">
+                                                      <node concept="3clFbS" id="6OfpnAf3ea3" role="2VODD2">
+                                                        <node concept="3clFbF" id="6OfpnAf3ea4" role="3cqZAp">
+                                                          <node concept="2OqwBi" id="6OfpnAf3ea5" role="3clFbG">
+                                                            <node concept="30H73N" id="6OfpnAf3ea6" role="2Oq$k0" />
+                                                            <node concept="3TrEf2" id="6OfpnAf3ea7" role="2OqNvi">
+                                                              <ref role="3Tt5mk" to="2qld:6OfpnAf34o9" resolve="syncWithModelOnlyOnOpening" />
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="2tJIrI" id="6OfpnAf3bW4" role="jymVt" />
                                                 <node concept="3clFb_" id="4m$$SBGcTQF" role="jymVt">
                                                   <property role="TrG5h" value="runAutoLayoutOnInit" />
                                                   <node concept="3clFbS" id="4m$$SBGcTQI" role="3clF47">
@@ -5875,6 +5900,79 @@
                                                     <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                                                   </node>
                                                 </node>
+                                                <node concept="2tJIrI" id="6OfpnAf4grd" role="jymVt" />
+                                                <node concept="3clFb_" id="6OfpnAf4kpl" role="jymVt">
+                                                  <property role="TrG5h" value="syncWithModelOnlyOnOpening" />
+                                                  <node concept="3clFbS" id="6OfpnAf4kpm" role="3clF47">
+                                                    <node concept="3cpWs8" id="6OfpnAf4kpn" role="3cqZAp">
+                                                      <node concept="3cpWsn" id="6OfpnAf4kpo" role="3cpWs9">
+                                                        <property role="TrG5h" value="flag" />
+                                                        <node concept="10P_77" id="6OfpnAf4kpp" role="1tU5fm" />
+                                                        <node concept="3clFbT" id="6OfpnAf4kpq" role="33vP2m" />
+                                                      </node>
+                                                    </node>
+                                                    <node concept="3clFbF" id="6OfpnAf4kpr" role="3cqZAp">
+                                                      <node concept="37vLTI" id="6OfpnAf4kps" role="3clFbG">
+                                                        <node concept="37vLTw" id="6OfpnAf4kpt" role="37vLTJ">
+                                                          <ref role="3cqZAo" node="6OfpnAf4kpo" resolve="disableEditing" />
+                                                        </node>
+                                                        <node concept="1rXfSq" id="6OfpnAf4kpu" role="37vLTx">
+                                                          <ref role="37wK5l" node="6OfpnAf3e9V" resolve="syncModelWithDiagramOnlyOnOpening" />
+                                                          <node concept="1ZhdrF" id="6OfpnAf4kpv" role="lGtFl">
+                                                            <property role="2qtEX8" value="baseMethodDeclaration" />
+                                                            <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
+                                                            <node concept="3$xsQk" id="6OfpnAf4kpw" role="3$ytzL">
+                                                              <node concept="3clFbS" id="6OfpnAf4kpx" role="2VODD2">
+                                                                <node concept="3clFbF" id="6OfpnAf4kpy" role="3cqZAp">
+                                                                  <node concept="2OqwBi" id="6OfpnAf4kpz" role="3clFbG">
+                                                                    <node concept="1iwH70" id="6OfpnAf4kp$" role="2OqNvi">
+                                                                      <ref role="1iwH77" to="tpc3:hG092go" resolve="query_method" />
+                                                                      <node concept="2OqwBi" id="6OfpnAf4kp_" role="1iwH7V">
+                                                                        <node concept="30H73N" id="6OfpnAf4kpA" role="2Oq$k0" />
+                                                                        <node concept="3TrEf2" id="6OfpnAf4kpB" role="2OqNvi">
+                                                                          <ref role="3Tt5mk" to="2qld:6OfpnAf34o9" resolve="syncWithModelOnlyOnOpening" />
+                                                                        </node>
+                                                                      </node>
+                                                                    </node>
+                                                                    <node concept="1iwH7S" id="6OfpnAf4kpC" role="2Oq$k0" />
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                      <node concept="1W57fq" id="6OfpnAf4kpD" role="lGtFl">
+                                                        <node concept="3IZrLx" id="6OfpnAf4kpE" role="3IZSJc">
+                                                          <node concept="3clFbS" id="6OfpnAf4kpF" role="2VODD2">
+                                                            <node concept="3clFbF" id="6OfpnAf4kpG" role="3cqZAp">
+                                                              <node concept="3y3z36" id="6OfpnAf4kpH" role="3clFbG">
+                                                                <node concept="10Nm6u" id="6OfpnAf4kpI" role="3uHU7w" />
+                                                                <node concept="2OqwBi" id="6OfpnAf4kpJ" role="3uHU7B">
+                                                                  <node concept="30H73N" id="6OfpnAf4kpK" role="2Oq$k0" />
+                                                                  <node concept="3TrEf2" id="6OfpnAf4kpL" role="2OqNvi">
+                                                                    <ref role="3Tt5mk" to="2qld:1wIvqM8yssA" resolve="disableNodeEditing" />
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                    <node concept="3cpWs6" id="6OfpnAf4kpM" role="3cqZAp">
+                                                      <node concept="37vLTw" id="6OfpnAf4kpN" role="3cqZAk">
+                                                        <ref role="3cqZAo" node="6OfpnAf4kpo" resolve="disableEditing" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                  <node concept="3Tm1VV" id="6OfpnAf4kpO" role="1B3o_S" />
+                                                  <node concept="10P_77" id="6OfpnAf4kpP" role="3clF45" />
+                                                  <node concept="2AHcQZ" id="6OfpnAf4kpQ" role="2AJF6D">
+                                                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                                                  </node>
+                                                </node>
+                                                <node concept="2tJIrI" id="6OfpnAf4i_w" role="jymVt" />
                                               </node>
                                             </node>
                                           </node>

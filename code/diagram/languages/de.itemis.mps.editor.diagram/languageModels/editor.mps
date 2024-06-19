@@ -1116,6 +1116,23 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
+          <node concept="3EZMnI" id="6OfpnAf35KX" role="3EZMnx">
+            <node concept="2iRfu4" id="6OfpnAf35KY" role="2iSdaV" />
+            <node concept="3F0ifn" id="6OfpnAf35KZ" role="3EZMnx">
+              <property role="3F0ifm" value="synchronize diagram with model only on opening" />
+            </node>
+            <node concept="3F1sOY" id="6OfpnAf35L0" role="3EZMnx">
+              <property role="1$x2rV" value="false" />
+              <ref role="1NtTu8" to="2qld:6OfpnAf34o9" resolve="syncWithModelOnlyOnOpening" />
+              <node concept="VPXOz" id="6OfpnAf35L1" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="VPM3Z" id="6OfpnAf35L2" role="3F10Kt" />
+            <node concept="VPXOz" id="6OfpnAf35L3" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
         </node>
         <node concept="2iRfu4" id="5qgNcfDnGw9" role="2iSdaV" />
         <node concept="3F0ifn" id="5qgNcfDnGxf" role="3EZMnx" />

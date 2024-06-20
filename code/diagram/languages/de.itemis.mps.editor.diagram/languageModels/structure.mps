@@ -240,6 +240,12 @@
     <property role="34LRSv" value="diagram.box" />
     <property role="EcuMT" value="6237710625713195816" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="56H44TyrBld" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="boxID" />
+      <property role="IQ2ns" value="5885378216888005965" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="1mYz8rWOnbW" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ports2" />

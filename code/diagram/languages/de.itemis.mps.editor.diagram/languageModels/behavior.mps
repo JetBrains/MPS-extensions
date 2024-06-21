@@ -10523,7 +10523,7 @@
                     <node concept="TSZUe" id="74e51Ji6nvL" role="2OqNvi">
                       <node concept="2ShNRf" id="1hKRNxFc7Pl" role="25WWJ7">
                         <node concept="1pGfFk" id="1hKRNxFc7Pm" role="2ShVmc">
-                          <ref role="37wK5l" to="r3rm:1hKRNxFaeXK" resolve="ShowPortsLabelsButton" />
+                          <ref role="37wK5l" to="r3rm:1hKRNxFaeXK" resolve="TogglePortsLabelsButton" />
                           <node concept="10M0yZ" id="2c2KnQicrD8" role="37wK5m">
                             <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
                             <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />

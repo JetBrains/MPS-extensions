@@ -6013,7 +6013,7 @@
                                                     <node concept="3clFbF" id="6OfpnAf4kpr" role="3cqZAp">
                                                       <node concept="37vLTI" id="6OfpnAf4kps" role="3clFbG">
                                                         <node concept="37vLTw" id="6OfpnAf4kpt" role="37vLTJ">
-                                                          <ref role="3cqZAo" node="6OfpnAf4kpo" resolve="disableEditing" />
+                                                          <ref role="3cqZAo" node="6OfpnAf4kpo" resolve="flag" />
                                                         </node>
                                                         <node concept="1rXfSq" id="6OfpnAf4kpu" role="37vLTx">
                                                           <ref role="37wK5l" node="6OfpnAf3e9V" resolve="syncModelWithDiagramOnlyOnOpening" />
@@ -6061,7 +6061,7 @@
                                                     </node>
                                                     <node concept="3cpWs6" id="6OfpnAf4kpM" role="3cqZAp">
                                                       <node concept="37vLTw" id="6OfpnAf4kpN" role="3cqZAk">
-                                                        <ref role="3cqZAo" node="6OfpnAf4kpo" resolve="disableEditing" />
+                                                        <ref role="3cqZAo" node="6OfpnAf4kpo" resolve="flag" />
                                                       </node>
                                                     </node>
                                                   </node>

@@ -17419,6 +17419,12 @@
       <node concept="3Tm1VV" id="4m$$SBGbyvb" role="1B3o_S" />
       <node concept="10P_77" id="4m$$SBGbx80" role="3clF45" />
     </node>
+    <node concept="3clFb_" id="2YP06h8_XH" role="jymVt">
+      <property role="TrG5h" value="runAutoLayoutOnChange" />
+      <node concept="3clFbS" id="2YP06h8_XI" role="3clF47" />
+      <node concept="3Tm1VV" id="2YP06h8_XJ" role="1B3o_S" />
+      <node concept="10P_77" id="2YP06h8_XK" role="3clF45" />
+    </node>
     <node concept="3clFb_" id="YGA9S6HLNC" role="jymVt">
       <property role="TrG5h" value="fitToSizeOnInit" />
       <node concept="3clFbS" id="YGA9S6HLNF" role="3clF47" />

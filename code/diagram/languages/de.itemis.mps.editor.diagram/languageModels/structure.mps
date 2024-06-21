@@ -178,6 +178,12 @@
       <property role="20kJfa" value="autoLayoutOnInit" />
       <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
+    <node concept="1TJgyj" id="2YP06h888s" role="1TKVEi">
+      <property role="IQ2ns" value="53713348769907228" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="autoLayoutOnChange" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
     <node concept="1TJgyj" id="YGA9S6CFKO" role="1TKVEi">
       <property role="IQ2ns" value="1129445411046734900" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

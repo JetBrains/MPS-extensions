@@ -203,6 +203,7 @@
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
         <child id="1742468285817538342" name="disableNodeEditing" index="2gDVEa" />
+        <child id="53713348769907228" name="autoLayoutOnChange" index="2hB_ot" />
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
         <child id="7858611447550199305" name="syncWithModelOnlyOnOpening" index="3y0MdK" />
         <child id="8637411062062914773" name="paletteFolder" index="1y_2dc" />
@@ -799,7 +800,14 @@
       <node concept="pkWqt" id="6OfpnAfmJCp" role="3y0MdK">
         <node concept="3clFbS" id="6OfpnAfmJCq" role="2VODD2">
           <node concept="3clFbF" id="6OfpnAfmJUy" role="3cqZAp">
-            <node concept="3clFbT" id="6OfpnAfmJUx" role="3clFbG">
+            <node concept="3clFbT" id="6OfpnAfmJUx" role="3clFbG" />
+          </node>
+        </node>
+      </node>
+      <node concept="pkWqt" id="7176I12jWIC" role="2hB_ot">
+        <node concept="3clFbS" id="7176I12jWID" role="2VODD2">
+          <node concept="3clFbF" id="7176I12jX1b" role="3cqZAp">
+            <node concept="3clFbT" id="7176I12jX1a" role="3clFbG">
               <property role="3clFbU" value="true" />
             </node>
           </node>

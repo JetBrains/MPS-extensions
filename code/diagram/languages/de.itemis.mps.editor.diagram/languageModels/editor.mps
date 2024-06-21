@@ -1036,6 +1036,21 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
+          <node concept="3EZMnI" id="2YP06h89az" role="3EZMnx">
+            <node concept="2iRfu4" id="2YP06h89a$" role="2iSdaV" />
+            <node concept="3F0ifn" id="2YP06h89a_" role="3EZMnx">
+              <property role="3F0ifm" value="autolayout on change" />
+            </node>
+            <node concept="3F1sOY" id="2YP06h89aA" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:2YP06h888s" resolve="autoLayoutOnChange" />
+              <node concept="VPXOz" id="2YP06h89aB" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="VPXOz" id="2YP06h89aC" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
           <node concept="3EZMnI" id="YGA9S6CHg2" role="3EZMnx">
             <node concept="2iRfu4" id="YGA9S6CHg3" role="2iSdaV" />
             <node concept="3F0ifn" id="YGA9S6CHg4" role="3EZMnx">

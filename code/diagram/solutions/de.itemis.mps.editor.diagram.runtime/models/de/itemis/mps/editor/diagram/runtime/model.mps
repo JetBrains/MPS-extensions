@@ -6807,38 +6807,57 @@
                       <ref role="37wK5l" to="lui2:~ModelAccess.executeCommand(java.lang.Runnable)" resolve="executeCommand" />
                       <node concept="1bVj0M" id="1HbXCcT6lDh" role="37wK5m">
                         <node concept="3clFbS" id="1HbXCcT6lDi" role="1bW5cS">
-                          <node concept="3clFbF" id="7jhYr4hGrwr" role="3cqZAp">
-                            <node concept="2OqwBi" id="7jhYr4hGr_d" role="3clFbG">
-                              <node concept="37vLTw" id="7jhYr4hGrwp" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7jhYr4hG4mW" resolve="mySynchronizer" />
-                              </node>
-                              <node concept="liA8E" id="7jhYr4hGrNK" role="2OqNvi">
-                                <ref role="37wK5l" node="4teJTSBx7R1" resolve="toSModel" />
-                                <node concept="37vLTw" id="iiBXaONOd1" role="37wK5m">
-                                  <ref role="3cqZAo" node="iiBXaONosN" resolve="diagramECell" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="2Gpval" id="6rrvvVebbkw" role="3cqZAp">
-                            <node concept="2GrKxI" id="6rrvvVebbky" role="2Gsz3X">
-                              <property role="TrG5h" value="child" />
-                            </node>
-                            <node concept="1rXfSq" id="6rrvvVebboX" role="2GsD0m">
-                              <ref role="37wK5l" node="6rrvvVe9a3n" resolve="getChildModels" />
-                            </node>
-                            <node concept="3clFbS" id="6rrvvVebbkA" role="2LFqv$">
-                              <node concept="3clFbF" id="6rrvvVebbA4" role="3cqZAp">
-                                <node concept="2OqwBi" id="6rrvvVebbB5" role="3clFbG">
-                                  <node concept="2GrUjf" id="6rrvvVebbA3" role="2Oq$k0">
-                                    <ref role="2Gs0qQ" node="6rrvvVebbky" resolve="child" />
+                          <node concept="3clFbJ" id="4a_gTs3bof_" role="3cqZAp">
+                            <node concept="3clFbS" id="4a_gTs3bofB" role="3clFbx">
+                              <node concept="3clFbF" id="7jhYr4hGrwr" role="3cqZAp">
+                                <node concept="2OqwBi" id="7jhYr4hGr_d" role="3clFbG">
+                                  <node concept="37vLTw" id="7jhYr4hGrwp" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="7jhYr4hG4mW" resolve="mySynchronizer" />
                                   </node>
-                                  <node concept="liA8E" id="6rrvvVebcnh" role="2OqNvi">
-                                    <ref role="37wK5l" node="27djZ8_ZBuo" resolve="synchronizeWrite" />
-                                    <node concept="37vLTw" id="iiBXaONPxs" role="37wK5m">
+                                  <node concept="liA8E" id="7jhYr4hGrNK" role="2OqNvi">
+                                    <ref role="37wK5l" node="4teJTSBx7R1" resolve="toSModel" />
+                                    <node concept="37vLTw" id="iiBXaONOd1" role="37wK5m">
                                       <ref role="3cqZAo" node="iiBXaONosN" resolve="diagramECell" />
                                     </node>
                                   </node>
+                                </node>
+                              </node>
+                              <node concept="2Gpval" id="6rrvvVebbkw" role="3cqZAp">
+                                <node concept="2GrKxI" id="6rrvvVebbky" role="2Gsz3X">
+                                  <property role="TrG5h" value="child" />
+                                </node>
+                                <node concept="1rXfSq" id="6rrvvVebboX" role="2GsD0m">
+                                  <ref role="37wK5l" node="6rrvvVe9a3n" resolve="getChildModels" />
+                                </node>
+                                <node concept="3clFbS" id="6rrvvVebbkA" role="2LFqv$">
+                                  <node concept="3clFbF" id="6rrvvVebbA4" role="3cqZAp">
+                                    <node concept="2OqwBi" id="6rrvvVebbB5" role="3clFbG">
+                                      <node concept="2GrUjf" id="6rrvvVebbA3" role="2Oq$k0">
+                                        <ref role="2Gs0qQ" node="6rrvvVebbky" resolve="child" />
+                                      </node>
+                                      <node concept="liA8E" id="6rrvvVebcnh" role="2OqNvi">
+                                        <ref role="37wK5l" node="27djZ8_ZBuo" resolve="synchronizeWrite" />
+                                        <node concept="37vLTw" id="iiBXaONPxs" role="37wK5m">
+                                          <ref role="3cqZAo" node="iiBXaONosN" resolve="diagramECell" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3fqX7Q" id="4a_gTs3bI8M" role="3clFbw">
+                              <node concept="2OqwBi" id="4a_gTs3bI8O" role="3fr31v">
+                                <node concept="2OqwBi" id="4a_gTs3bI8P" role="2Oq$k0">
+                                  <node concept="37vLTw" id="4a_gTs3bI8Q" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="iiBXaONosN" resolve="diagramECell" />
+                                  </node>
+                                  <node concept="liA8E" id="4a_gTs3bI8R" role="2OqNvi">
+                                    <ref role="37wK5l" to="f4zo:~EditorCell.getEditorComponent()" resolve="getEditorComponent" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="4a_gTs3bI8S" role="2OqNvi">
+                                  <ref role="37wK5l" to="cj4x:~EditorComponent.isDisposed()" resolve="isDisposed" />
                                 </node>
                               </node>
                             </node>

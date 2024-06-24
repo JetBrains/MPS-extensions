@@ -53,6 +53,7 @@
     <import index="nxzt" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:org.apache.batik.svggen(MPS.ThirdParty/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
+    <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -2193,21 +2194,59 @@
     </node>
     <node concept="2ScWuX" id="YGA9S64REO" role="tmbBb">
       <node concept="3clFbS" id="YGA9S64REP" role="2VODD2">
-        <node concept="3clFbF" id="YGA9S64RJH" role="3cqZAp">
-          <node concept="3y3z36" id="YGA9S64RJI" role="3clFbG">
-            <node concept="10Nm6u" id="YGA9S64RJJ" role="3uHU7w" />
-            <node concept="2YIFZM" id="YGA9S64RJK" role="3uHU7B">
+        <node concept="3cpWs8" id="7c8nz5HfdEm" role="3cqZAp">
+          <node concept="3cpWsn" id="7c8nz5HfdEn" role="3cpWs9">
+            <property role="TrG5h" value="activeDiagram" />
+            <node concept="3uibUv" id="7c8nz5Hf5rI" role="1tU5fm">
+              <ref role="3uigEE" to="r3rm:5S8_I2FY6vo" resolve="BaseDiagramECell" />
+            </node>
+            <node concept="2YIFZM" id="7c8nz5HfdEo" role="33vP2m">
               <ref role="1Pybhc" node="5IQEFjDGWsk" resolve="DiagramIdeaActionsUtil" />
               <ref role="37wK5l" node="5IQEFjDH1lq" resolve="getActiveDiagram" />
-              <node concept="2OqwBi" id="YGA9S64RJL" role="37wK5m">
-                <node concept="2WthIp" id="YGA9S64RJM" role="2Oq$k0" />
-                <node concept="1DTwFV" id="YGA9S64RJN" role="2OqNvi">
+              <node concept="2OqwBi" id="7c8nz5HfdEp" role="37wK5m">
+                <node concept="2WthIp" id="7c8nz5HfdEq" role="2Oq$k0" />
+                <node concept="1DTwFV" id="7c8nz5HfdEr" role="2OqNvi">
                   <ref role="2WH_rO" node="7tfNqqCmxXL" resolve="editorContext" />
                 </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="YGA9S64RJH" role="3cqZAp">
+          <node concept="1Wc70l" id="7c8nz5HfdPU" role="3clFbG">
+            <node concept="3eOSWO" id="7c8nz5HfkC3" role="3uHU7w">
+              <node concept="10M0yZ" id="7c8nz5Hfl8d" role="3uHU7w">
+                <ref role="3cqZAo" to="r3rm:7c8nz5Ham6C" resolve="MINIMUM_SCALE" />
+                <ref role="1PxDUh" to="r3rm:190K99KyNov" resolve="MyGraphComponent" />
+              </node>
+              <node concept="2OqwBi" id="7c8nz5Hfj_L" role="3uHU7B">
+                <node concept="2OqwBi" id="7c8nz5HfghI" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7c8nz5HfeS5" role="2Oq$k0">
+                    <node concept="37vLTw" id="7c8nz5HfdRE" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7c8nz5HfdEn" resolve="activeDiagram" />
+                    </node>
+                    <node concept="liA8E" id="7c8nz5Hfg2A" role="2OqNvi">
+                      <ref role="37wK5l" to="r3rm:4HMzb$XPdI$" resolve="getContextGraph" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7c8nz5Hfjkx" role="2OqNvi">
+                    <ref role="37wK5l" to="r3rm:5YRJpe$ygQu" resolve="getView" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7c8nz5Hfk05" role="2OqNvi">
+                  <ref role="37wK5l" to="1njx:~mxGraphView.getScale()" resolve="getScale" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="YGA9S64RJI" role="3uHU7B">
+              <node concept="37vLTw" id="7c8nz5HfdEs" role="3uHU7B">
+                <ref role="3cqZAo" node="7c8nz5HfdEn" resolve="activeDiagram" />
+              </node>
+              <node concept="10Nm6u" id="YGA9S64RJJ" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7c8nz5Hf5r1" role="3cqZAp" />
       </node>
     </node>
   </node>

@@ -942,24 +942,6 @@
             </node>
             <node concept="2iRfu4" id="7k8PWDQ7RRt" role="2iSdaV" />
           </node>
-          <node concept="3EZMnI" id="49KXtyXi2E_" role="3EZMnx">
-            <node concept="VPM3Z" id="49KXtyXi2EA" role="3F10Kt">
-              <property role="VOm3f" value="false" />
-            </node>
-            <node concept="VPXOz" id="49KXtyXi2EB" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-            <node concept="3F0ifn" id="49KXtyXi2EC" role="3EZMnx">
-              <property role="3F0ifm" value="disable edge routing" />
-            </node>
-            <node concept="3F0A7n" id="49KXtyXi34c" role="3EZMnx">
-              <ref role="1NtTu8" to="2qld:49KXtyXi0by" resolve="disableEdgeRouting" />
-              <node concept="VPXOz" id="49KXtyXi4_t" role="3F10Kt">
-                <property role="VOm3f" value="true" />
-              </node>
-            </node>
-            <node concept="2iRfu4" id="49KXtyXi2EF" role="2iSdaV" />
-          </node>
           <node concept="3EZMnI" id="5TlQvVxfJ6" role="3EZMnx">
             <node concept="VPM3Z" id="5TlQvVxfJ7" role="3F10Kt">
               <property role="VOm3f" value="false" />

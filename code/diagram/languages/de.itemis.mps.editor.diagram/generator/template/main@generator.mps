@@ -5149,36 +5149,6 @@
                                                     <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                                                   </node>
                                                 </node>
-                                                <node concept="3clFb_" id="49KXtyXinZd" role="jymVt">
-                                                  <property role="TrG5h" value="autoRouteEdges" />
-                                                  <property role="1EzhhJ" value="false" />
-                                                  <node concept="10P_77" id="49KXtyXinZe" role="3clF45" />
-                                                  <node concept="3Tm1VV" id="49KXtyXinZf" role="1B3o_S" />
-                                                  <node concept="3clFbS" id="49KXtyXinZk" role="3clF47">
-                                                    <node concept="3clFbF" id="49KXtyXiqVR" role="3cqZAp">
-                                                      <node concept="3clFbT" id="49KXtyXiqVQ" role="3clFbG">
-                                                        <property role="3clFbU" value="false" />
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                  <node concept="2AHcQZ" id="49KXtyXinZl" role="2AJF6D">
-                                                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                                                  </node>
-                                                  <node concept="1W57fq" id="49KXtyXir2h" role="lGtFl">
-                                                    <node concept="3IZrLx" id="49KXtyXir2k" role="3IZSJc">
-                                                      <node concept="3clFbS" id="49KXtyXir2l" role="2VODD2">
-                                                        <node concept="3clFbF" id="49KXtyXir2r" role="3cqZAp">
-                                                          <node concept="2OqwBi" id="49KXtyXir2m" role="3clFbG">
-                                                            <node concept="3TrcHB" id="49KXtyXir2p" role="2OqNvi">
-                                                              <ref role="3TsBF5" to="2qld:49KXtyXi0by" resolve="disableEdgeRouting" />
-                                                            </node>
-                                                            <node concept="30H73N" id="49KXtyXir2q" role="2Oq$k0" />
-                                                          </node>
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                </node>
                                                 <node concept="3clFb_" id="5TlQvVDCMu" role="jymVt">
                                                   <property role="1EzhhJ" value="false" />
                                                   <property role="TrG5h" value="getDefaultBoxShape" />

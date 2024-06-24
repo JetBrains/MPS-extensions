@@ -6127,14 +6127,6 @@
         </node>
       </node>
     </node>
-    <node concept="312cEg" id="1Pjj0VVuWyD" role="jymVt">
-      <property role="TrG5h" value="myAutoRouteEdges" />
-      <node concept="3Tm6S6" id="1Pjj0VVuWyE" role="1B3o_S" />
-      <node concept="3uibUv" id="1Pjj0VVv2Zb" role="1tU5fm">
-        <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
-      </node>
-      <node concept="10Nm6u" id="1Pjj0VVv32p" role="33vP2m" />
-    </node>
     <node concept="312cEg" id="48krLOg5m5A" role="jymVt">
       <property role="TrG5h" value="myPaletteEntryProvider" />
       <node concept="3Tm6S6" id="48krLOg5m5B" role="1B3o_S" />
@@ -8823,69 +8815,6 @@
               <node concept="37vLTw" id="6Bd7VwqjOf1" role="3uHU7B">
                 <ref role="3cqZAo" node="6Bd7Vwqin5G" resolve="maxY" />
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="49KXtyXnb0n" role="jymVt" />
-    <node concept="3clFb_" id="49KXtyXn0EO" role="jymVt">
-      <property role="TrG5h" value="autoRouteEdges" />
-      <node concept="10P_77" id="49KXtyXn0EP" role="3clF45" />
-      <node concept="3Tm1VV" id="49KXtyXn0EQ" role="1B3o_S" />
-      <node concept="3clFbS" id="49KXtyXn0ER" role="3clF47">
-        <node concept="3clFbF" id="1Pjj0VVwhUn" role="3cqZAp">
-          <node concept="3K4zz7" id="1Pjj0VVwia4" role="3clFbG">
-            <node concept="37vLTw" id="1Pjj0VVwif5" role="3K4GZi">
-              <ref role="3cqZAo" node="1Pjj0VVuWyD" resolve="myAutoRouteEdges" />
-            </node>
-            <node concept="3clFbC" id="1Pjj0VVwi1Z" role="3K4Cdx">
-              <node concept="10Nm6u" id="1Pjj0VVwi4a" role="3uHU7w" />
-              <node concept="37vLTw" id="1Pjj0VVwhUl" role="3uHU7B">
-                <ref role="3cqZAo" node="1Pjj0VVuWyD" resolve="myAutoRouteEdges" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="49KXtyXBa_w" role="3K4E3e">
-              <node concept="1rXfSq" id="49KXtyXBaxn" role="2Oq$k0">
-                <ref role="37wK5l" node="lNQZNowrwP" resolve="getDiagramAccessor" />
-              </node>
-              <node concept="liA8E" id="49KXtyXBp8d" role="2OqNvi">
-                <ref role="37wK5l" node="49KXtyXBhV8" resolve="autoRouteEdges" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="YGA9S5rsSk" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
-      <node concept="P$JXv" id="YGA9S5rsSh" role="lGtFl">
-        <node concept="TZ5HI" id="YGA9S5rsSi" role="3nqlJM">
-          <node concept="TZ5HA" id="YGA9S5rsSj" role="3HnX3l">
-            <node concept="1dT_AC" id="YGA9S5rE$J" role="1dT_Ay">
-              <property role="1dT_AB" value="edge routing only is not supported by any of the ELK layout algorithms." />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="1Pjj0VVwiig" role="jymVt" />
-    <node concept="3clFb_" id="1Pjj0VVwjjP" role="jymVt">
-      <property role="TrG5h" value="setAutoRouteEdges" />
-      <node concept="37vLTG" id="1Pjj0VVwpVC" role="3clF46">
-        <property role="TrG5h" value="autoRoute" />
-        <node concept="10P_77" id="1Pjj0VVwpVI" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="1Pjj0VVwjjR" role="3clF45" />
-      <node concept="3Tm1VV" id="1Pjj0VVwjjS" role="1B3o_S" />
-      <node concept="3clFbS" id="1Pjj0VVwjjT" role="3clF47">
-        <node concept="3clFbF" id="1Pjj0VVwpY6" role="3cqZAp">
-          <node concept="37vLTI" id="1Pjj0VVwqnz" role="3clFbG">
-            <node concept="37vLTw" id="1Pjj0VVwqta" role="37vLTx">
-              <ref role="3cqZAo" node="1Pjj0VVwpVC" resolve="autoRoute" />
-            </node>
-            <node concept="37vLTw" id="1Pjj0VVwpY5" role="37vLTJ">
-              <ref role="3cqZAo" node="1Pjj0VVuWyD" resolve="myAutoRouteEdges" />
             </node>
           </node>
         </node>

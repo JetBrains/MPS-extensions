@@ -135,6 +135,7 @@
       <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
+      <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -10581,6 +10582,19 @@
                         <node concept="1pGfFk" id="5CBfeKkstTc" role="2ShVmc">
                           <property role="373rjd" value="true" />
                           <ref role="37wK5l" to="r3rm:5CBfeKkr2n6" resolve="ExportDiagramAsPNGButton" />
+                          <node concept="17qRlL" id="4yNptAjsssN" role="37wK5m">
+                            <node concept="3cmrfG" id="4yNptAjssBj" role="3uHU7w">
+                              <property role="3cmrfH" value="2" />
+                            </node>
+                            <node concept="10M0yZ" id="4yNptAjss4T" role="3uHU7B">
+                              <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                              <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                            </node>
+                          </node>
+                          <node concept="10M0yZ" id="4yNptAjsrYa" role="37wK5m">
+                            <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                            <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                          </node>
                           <node concept="37vLTw" id="74e51Jj5zUs" role="37wK5m">
                             <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5zUt" role="lGtFl">
@@ -10606,6 +10620,19 @@
                         <node concept="1pGfFk" id="5CBfeKl9NCi" role="2ShVmc">
                           <property role="373rjd" value="true" />
                           <ref role="37wK5l" to="r3rm:5CBfeKl8NWu" resolve="ExportDiagramAsSVGButton" />
+                          <node concept="17qRlL" id="4yNptAjssW8" role="37wK5m">
+                            <node concept="3cmrfG" id="4yNptAjssW9" role="3uHU7w">
+                              <property role="3cmrfH" value="2" />
+                            </node>
+                            <node concept="10M0yZ" id="4yNptAjssWa" role="3uHU7B">
+                              <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                              <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                            </node>
+                          </node>
+                          <node concept="10M0yZ" id="4yNptAjstin" role="37wK5m">
+                            <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                            <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                          </node>
                           <node concept="37vLTw" id="74e51Jj5zNw" role="37wK5m">
                             <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
                             <node concept="2c44te" id="74e51Jj5zNx" role="lGtFl">
@@ -10879,6 +10906,14 @@
                         </node>
                         <node concept="liA8E" id="YGA9S7wZDh" role="2OqNvi">
                           <ref role="37wK5l" to="nkm5:74e51Jj37qu" resolve="hasInvisibleEdges" />
+                          <node concept="2OqwBi" id="4yNptAjsXwo" role="37wK5m">
+                            <node concept="37vLTw" id="4yNptAjsX02" role="2Oq$k0">
+                              <ref role="3cqZAo" node="S$ha3H7hEv" resolve="boxCell" />
+                            </node>
+                            <node concept="liA8E" id="4yNptAjsYi4" role="2OqNvi">
+                              <ref role="37wK5l" to="r3rm:5K7KC_qAcJd" resolve="getBox" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -10920,6 +10955,14 @@
                         </node>
                         <node concept="liA8E" id="5CBfeKkfRxG" role="2OqNvi">
                           <ref role="37wK5l" to="nkm5:74e51Jj1vQ3" resolve="hasVisibleEdges" />
+                          <node concept="2OqwBi" id="4yNptAjsYuE" role="37wK5m">
+                            <node concept="37vLTw" id="4yNptAjsYrB" role="2Oq$k0">
+                              <ref role="3cqZAo" node="S$ha3H7hEv" resolve="boxCell" />
+                            </node>
+                            <node concept="liA8E" id="4yNptAjsYDc" role="2OqNvi">
+                              <ref role="37wK5l" to="r3rm:5K7KC_qAcJd" resolve="getBox" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>

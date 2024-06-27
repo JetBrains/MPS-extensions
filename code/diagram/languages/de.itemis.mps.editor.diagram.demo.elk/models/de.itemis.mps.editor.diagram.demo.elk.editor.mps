@@ -208,6 +208,7 @@
       <concept id="8180566525131048001" name="de.itemis.mps.editor.diagram.structure.FixedLayoutAlgorithm" flags="ng" index="ep76C" />
       <concept id="8180566525132050120" name="de.itemis.mps.editor.diagram.structure.RandomLayoutAlgorithm" flags="ng" index="etrGx" />
       <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
+        <child id="6693185725458816991" name="edgeStyle" index="3hkIsF" />
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
         <child id="8587703283523592242" name="endpointTo" index="1PN8qh" />
       </concept>
@@ -231,6 +232,9 @@
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
       <concept id="6747382324544750332" name="de.itemis.mps.editor.diagram.structure.ForceLayoutAlgorithm" flags="ng" index="37BGq5" />
       <concept id="6747382324548682556" name="de.itemis.mps.editor.diagram.structure.BoxLayoutAlgorithm" flags="ng" index="37QGt5" />
+      <concept id="6693185725461685277" name="de.itemis.mps.editor.diagram.structure.PredefinedEdgeStyle" flags="ng" index="3hehND">
+        <property id="6693185725461686786" name="style" index="3hehbQ" />
+      </concept>
       <concept id="3601881183936386569" name="de.itemis.mps.editor.diagram.structure.RadialLayoutAlgorithm" flags="ng" index="1qjmnj" />
       <concept id="6286296976402041129" name="de.itemis.mps.editor.diagram.structure.StressLayoutAlgorithm" flags="ng" index="1wcM3y" />
       <concept id="6286296976401013503" name="de.itemis.mps.editor.diagram.structure.SPOrEOverlapRemovalAlgorithm" flags="ng" index="1xKZcO" />
@@ -2648,6 +2652,9 @@
           </node>
           <node concept="3clFbT" id="37WsXDFK2WW" role="1xbcaF" />
         </node>
+      </node>
+      <node concept="3hehND" id="5416PXjLLEB" role="3hkIsF">
+        <property role="3hehbQ" value="5NyYfidQTc2/orthogonalEdgeStyle" />
       </node>
     </node>
   </node>

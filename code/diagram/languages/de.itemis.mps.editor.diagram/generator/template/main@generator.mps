@@ -6020,7 +6020,7 @@
                                                                 <node concept="2OqwBi" id="6OfpnAf4kpJ" role="3uHU7B">
                                                                   <node concept="30H73N" id="6OfpnAf4kpK" role="2Oq$k0" />
                                                                   <node concept="3TrEf2" id="6OfpnAf4kpL" role="2OqNvi">
-                                                                    <ref role="3Tt5mk" to="2qld:1wIvqM8yssA" resolve="disableNodeEditing" />
+                                                                    <ref role="3Tt5mk" to="2qld:6OfpnAf34o9" resolve="syncWithModelOnlyOnOpening" />
                                                                   </node>
                                                                 </node>
                                                               </node>

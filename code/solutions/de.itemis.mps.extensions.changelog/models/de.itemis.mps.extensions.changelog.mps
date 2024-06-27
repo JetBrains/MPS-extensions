@@ -505,6 +505,52 @@
             <property role="3oM_SC" value="removed." />
           </node>
         </node>
+        <node concept="2DRihI" id="6OfpnAhfo9v" role="15bAlk">
+          <property role="2RT3bR" value="0" />
+          <node concept="2hgSXJ" id="6OfpnAhfoaV" role="1PaTwD">
+            <node concept="1PaTwC" id="6OfpnAhfoaW" role="2hiFM$">
+              <node concept="15Ami3" id="6OfpnAhfoaX" role="1PaTwD">
+                <node concept="37shsh" id="6OfpnAhfoaY" role="15Aodc">
+                  <node concept="1dCxOk" id="6OfpnAhfoaZ" role="37shsm">
+                    <property role="1XweGW" value="fa13cc63-c476-4d46-9c96-d53670abe7bc" />
+                    <property role="1XxBO9" value="de.itemis.mps.editor.diagram" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="6OfpnAhfob0" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfoba" role="1PaTwD">
+            <property role="3oM_SC" value="Various" />
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfobi" role="1PaTwD">
+            <property role="3oM_SC" value="improvements" />
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfobr" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfob_" role="1PaTwD">
+            <property role="3oM_SC" value="diagrams" />
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfobK" role="1PaTwD">
+            <property role="3oM_SC" value="were" />
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfobW" role="1PaTwD">
+            <property role="3oM_SC" value="made." />
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfoc9" role="1PaTwD">
+            <property role="3oM_SC" value="(see:" />
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfoY7" role="1PaTwD">
+            <property role="3oM_SC" value="PR #866" />
+            <property role="1X82VU" value="https://github.com/JetBrains/MPS-extensions/pull/866" />
+          </node>
+          <node concept="3oM_SD" id="6OfpnAhfofn" role="1PaTwD">
+            <property role="3oM_SC" value=")" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="15bmVD" id="5m0DUSLO1QS" role="15bmVC">

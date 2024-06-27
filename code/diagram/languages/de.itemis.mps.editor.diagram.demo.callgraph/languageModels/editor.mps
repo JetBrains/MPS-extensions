@@ -141,6 +141,9 @@
         <child id="6554619383005758750" name="positionX" index="2316E7" />
       </concept>
       <concept id="6554619383003875357" name="de.itemis.mps.editor.diagram.structure.InlineEditorComponent" flags="ig" index="238au4" />
+      <concept id="8433227566817223068" name="de.itemis.mps.editor.diagram.structure.LayeredLayoutAlgorithm" flags="ng" index="39fpm">
+        <property id="7623784619795245948" name="direction" index="1NdBj4" />
+      </concept>
       <concept id="6554619383001456866" name="de.itemis.mps.editor.diagram.structure.PortEndpointTarget" flags="ng" index="23hSXV">
         <child id="6554619383001456867" name="portName" index="23hSXU" />
         <child id="6554619383001456869" name="box" index="23hSXW" />
@@ -150,6 +153,7 @@
       </concept>
       <concept id="6554619382999975769" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_OuterNode" flags="ng" index="23r2z0" />
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
+        <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
       </concept>
       <concept id="3155126767690989914" name="de.itemis.mps.editor.diagram.structure.Content_GenericBoxQuery" flags="ng" index="ahg9e">
@@ -157,6 +161,7 @@
         <child id="5468226901223577682" name="ports" index="15ipcR" />
       </concept>
       <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
+        <child id="6693185725458816991" name="edgeStyle" index="3hkIsF" />
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
         <child id="8587703283523592242" name="endpointTo" index="1PN8qh" />
       </concept>
@@ -185,6 +190,9 @@
       <concept id="5468226901223973329" name="de.itemis.mps.editor.diagram.structure.PortObject" flags="ng" index="15kUEO" />
       <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ig" index="37q72E" />
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
+      <concept id="6693185725461685277" name="de.itemis.mps.editor.diagram.structure.PredefinedEdgeStyle" flags="ng" index="3hehND">
+        <property id="6693185725461686786" name="style" index="3hehbQ" />
+      </concept>
       <concept id="3454709602156468860" name="de.itemis.mps.editor.diagram.structure.ShapeParameterDeclaration" flags="ng" index="1xmO9C">
         <child id="3454709602156468949" name="type" index="1xmOb1" />
       </concept>
@@ -520,6 +528,9 @@
                 </node>
               </node>
             </node>
+            <node concept="3hehND" id="5416PXjMt8m" role="3hkIsF">
+              <property role="3hehbQ" value="5NyYfidQTc2/orthogonalEdgeStyle" />
+            </node>
           </node>
           <node concept="1xLmZY" id="5FQFTBqaTP6" role="1xLlFP">
             <node concept="3clFbS" id="5FQFTBqaTP8" role="2VODD2">
@@ -533,6 +544,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="39fpm" id="5416PXjMggS" role="35U2g">
+            <property role="1NdBj4" value="6Bd7VwqYQBH/LEFT" />
           </node>
         </node>
         <node concept="2iRkQZ" id="5FQFTBqaTLh" role="2iSdaV" />

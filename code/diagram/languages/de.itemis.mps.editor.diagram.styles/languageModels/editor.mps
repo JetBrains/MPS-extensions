@@ -11,6 +11,8 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
+    <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="r3rm" ref="r:7fc96130-6279-4a55-aeeb-422a6879539d(de.itemis.mps.editor.diagram.runtime.jgraph)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="1y6f" ref="r:a425f003-07f2-4ded-ad56-54c06b501569(de.itemis.mps.editor.diagram.styles.structure)" implicit="true" />
   </imports>
@@ -180,9 +182,23 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
+        <child id="1199542457201" name="resultType" index="1ajl9A" />
+        <child id="1199542501692" name="parameterType" index="1ajw0F" />
+      </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
     </language>
   </registry>
@@ -320,6 +336,41 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="4bryhcrFmRC" role="V601i">
+      <property role="TrG5h" value="__move-to-diagram-viewer-button" />
+      <node concept="10P_77" id="4bryhcrFmRD" role="3t5Oan" />
+      <node concept="3clFbT" id="4bryhcrFmRE" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="YGA9S7vJUH" role="V601i">
+      <property role="TrG5h" value="__show-all-edges-button" />
+      <node concept="10P_77" id="YGA9S7vJUI" role="3t5Oan" />
+      <node concept="3clFbT" id="YGA9S7vJUJ" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5CBfeKkj81X" role="V601i">
+      <property role="TrG5h" value="__hide-all-edges-button" />
+      <node concept="10P_77" id="5CBfeKkj81Y" role="3t5Oan" />
+      <node concept="3clFbT" id="5CBfeKkj81Z" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="74e51JlrHXc" role="V601i">
+      <property role="TrG5h" value="__hide-edge-button" />
+      <node concept="10P_77" id="74e51JlrHXd" role="3t5Oan" />
+      <node concept="3clFbT" id="74e51JlrHXe" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="2EnXnMFwM28" role="V601i">
+      <property role="TrG5h" value="__create-edge-button" />
+      <node concept="10P_77" id="2EnXnMFwM29" role="3t5Oan" />
+      <node concept="3clFbT" id="2EnXnMFwM2a" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
     <node concept="3t5Usi" id="5ZBOFE3$JmS" role="V601i">
       <property role="TrG5h" value="__layout-diagram-button" />
       <node concept="10P_77" id="5ZBOFE3$JmT" role="3t5Oan" />
@@ -327,8 +378,15 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="6OfpnAf7iDG" role="V601i">
+      <property role="TrG5h" value="__sync-with-model-button" />
+      <node concept="10P_77" id="6OfpnAf7iDH" role="3t5Oan" />
+      <node concept="3clFbT" id="6OfpnAf7iDI" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
     <node concept="3t5Usi" id="5ZBOFE3$JmV" role="V601i">
-      <property role="TrG5h" value="__relayout-all-edges-button" />
+      <property role="TrG5h" value="__deprecated-relayout-all-edges-button" />
       <node concept="10P_77" id="5ZBOFE3$JmW" role="3t5Oan" />
       <node concept="3clFbT" id="5ZBOFE3$JmX" role="3t49C2">
         <property role="3clFbU" value="true" />
@@ -369,11 +427,90 @@
         <property role="3clFbU" value="true" />
       </node>
     </node>
+    <node concept="3t5Usi" id="2ZU2kH0jD_C" role="V601i">
+      <property role="TrG5h" value="__translate-to-origin-button" />
+      <node concept="10P_77" id="2ZU2kH0jD_D" role="3t5Oan" />
+      <node concept="3clFbT" id="2ZU2kH0jD_E" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
     <node concept="3t5Usi" id="2pXhcZQmJkE" role="V601i">
-      <property role="TrG5h" value="__show_ports_labels" />
+      <property role="TrG5h" value="__show_ports_labels-button" />
       <node concept="10P_77" id="2pXhcZQmJkF" role="3t5Oan" />
       <node concept="3clFbT" id="2pXhcZQmJkG" role="3t49C2">
         <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5CBfeKl9in$" role="V601i">
+      <property role="TrG5h" value="__export-png-button" />
+      <node concept="10P_77" id="5CBfeKl9in_" role="3t5Oan" />
+      <node concept="3clFbT" id="5CBfeKl9inA" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="5CBfeKl9ikL" role="V601i">
+      <property role="TrG5h" value="__export-svg-button" />
+      <node concept="10P_77" id="5CBfeKl9ikM" role="3t5Oan" />
+      <node concept="3clFbT" id="5CBfeKl9ikN" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="1Va40GQyuLK" role="V601i">
+      <property role="TrG5h" value="__clear-layout-information-button" />
+      <node concept="10P_77" id="1Va40GQyuLL" role="3t5Oan" />
+      <node concept="3clFbT" id="1Va40GQyuLM" role="3t49C2">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="74e51JhIQfJ" role="V601i">
+      <property role="TrG5h" value="__root-button-creator" />
+      <node concept="1ajhzC" id="74e51JhIQiK" role="3t5Oan">
+        <node concept="_YKpA" id="74e51JhIRec" role="1ajl9A">
+          <node concept="3uibUv" id="74e51JhIS1G" role="_ZDj9">
+            <ref role="3uigEE" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+          </node>
+        </node>
+        <node concept="3uibUv" id="74e51JhIQiW" role="1ajw0F">
+          <ref role="3uigEE" to="exr9:~EditorContext" resolve="EditorContext" />
+        </node>
+        <node concept="3Tqbb2" id="74e51JhIQjo" role="1ajw0F" />
+        <node concept="3uibUv" id="74e51JhIQmB" role="1ajw0F">
+          <ref role="3uigEE" to="1njx:~mxCellState" resolve="mxCellState" />
+        </node>
+      </node>
+    </node>
+    <node concept="3t5Usi" id="74e51JiKqUz" role="V601i">
+      <property role="TrG5h" value="__vertex-button-creator" />
+      <node concept="1ajhzC" id="74e51JiKqU$" role="3t5Oan">
+        <node concept="_YKpA" id="74e51JiKqU_" role="1ajl9A">
+          <node concept="3uibUv" id="74e51JiKqUA" role="_ZDj9">
+            <ref role="3uigEE" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+          </node>
+        </node>
+        <node concept="3uibUv" id="74e51JiKqUB" role="1ajw0F">
+          <ref role="3uigEE" to="exr9:~EditorContext" resolve="EditorContext" />
+        </node>
+        <node concept="3Tqbb2" id="74e51JiKqUC" role="1ajw0F" />
+        <node concept="3uibUv" id="74e51JiKqUD" role="1ajw0F">
+          <ref role="3uigEE" to="1njx:~mxCellState" resolve="mxCellState" />
+        </node>
+      </node>
+    </node>
+    <node concept="3t5Usi" id="74e51JlmqMZ" role="V601i">
+      <property role="TrG5h" value="__edge-button-creator" />
+      <node concept="1ajhzC" id="74e51JlmqN0" role="3t5Oan">
+        <node concept="_YKpA" id="74e51JlmqN1" role="1ajl9A">
+          <node concept="3uibUv" id="74e51JlmqN2" role="_ZDj9">
+            <ref role="3uigEE" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+          </node>
+        </node>
+        <node concept="3uibUv" id="74e51JlmqN3" role="1ajw0F">
+          <ref role="3uigEE" to="exr9:~EditorContext" resolve="EditorContext" />
+        </node>
+        <node concept="3Tqbb2" id="74e51JlmqN4" role="1ajw0F" />
+        <node concept="3uibUv" id="74e51JlmqN5" role="1ajw0F">
+          <ref role="3uigEE" to="1njx:~mxCellState" resolve="mxCellState" />
+        </node>
       </node>
     </node>
   </node>

@@ -20,7 +20,6 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
-      <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -103,9 +102,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -158,7 +154,6 @@
       <concept id="6554619382999975769" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_OuterNode" flags="ng" index="23r2z0" />
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
-        <child id="53713348769907228" name="autoLayoutOnChange" index="2hB_ot" />
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
       </concept>
       <concept id="3155126767690989914" name="de.itemis.mps.editor.diagram.structure.Content_GenericBoxQuery" flags="ng" index="ahg9e">
@@ -546,15 +541,6 @@
                       <ref role="3uigEE" to="nkm5:7vufT$m5fkU" resolve="IConnectionType" />
                     </node>
                   </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="pkWqt" id="4Y8LoRLJtrY" role="2hB_ot">
-            <node concept="3clFbS" id="4Y8LoRLJtrZ" role="2VODD2">
-              <node concept="3clFbF" id="4Y8LoRLJtLv" role="3cqZAp">
-                <node concept="3clFbT" id="4Y8LoRLJtLu" role="3clFbG">
-                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>

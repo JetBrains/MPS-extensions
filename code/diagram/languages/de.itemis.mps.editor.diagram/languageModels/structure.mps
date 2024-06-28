@@ -457,11 +457,6 @@
     <property role="TrG5h" value="IDiagramCell" />
     <property role="EcuMT" value="6237710625714192596" />
   </node>
-  <node concept="1TIwiD" id="5qgNcfDxwxf">
-    <property role="TrG5h" value="Function_GetNode" />
-    <property role="EcuMT" value="6237710625716701263" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-  </node>
   <node concept="1TIwiD" id="4X6FKySlRMp">
     <property role="TrG5h" value="Function_SetConnectionEndpoint" />
     <property role="EcuMT" value="5712445629353393305" />
@@ -1260,6 +1255,9 @@
     </node>
     <node concept="PrWs8" id="5FQFTBpX7MY" role="PzmwI">
       <ref role="PrY4T" node="5FQFTBpWGk2" resolve="IPort" />
+    </node>
+    <node concept="PrWs8" id="4pZT8JhtD0_" role="PzmwI">
+      <ref role="PrY4T" to="tpc2:hJF0Tl2" resolve="IStyleContainer" />
     </node>
   </node>
   <node concept="PlHQZ" id="5FQFTBpWGk2">
@@ -5054,6 +5052,11 @@
     <property role="EcuMT" value="3457085882770090742" />
     <property role="3GE5qa" value="config" />
     <property role="TrG5h" value="IDiagramButtonConfig" />
+  </node>
+  <node concept="1TIwiD" id="5qgNcfDxwxf">
+    <property role="TrG5h" value="Function_GetNode" />
+    <property role="EcuMT" value="6237710625716701263" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

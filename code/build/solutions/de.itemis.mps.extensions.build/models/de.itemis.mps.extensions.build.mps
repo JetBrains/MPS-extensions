@@ -20789,6 +20789,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="4pZT8Jit6ic" role="3bR37C">
+          <node concept="1Busua" id="4pZT8Jit6id" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6$6tsX_CJdr" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -21482,6 +21487,16 @@
             <node concept="3qWCbU" id="vVBnaOe2eX" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4pZT8Jit6lX" role="3bR37C">
+          <node concept="3bR9La" id="4pZT8Jit6lY" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4pZT8Jit6lZ" role="3bR37C">
+          <node concept="3bR9La" id="4pZT8Jit6m0" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1AQa" resolve="de.itemis.mps.editor.diagram.runtime" />
           </node>
         </node>
       </node>

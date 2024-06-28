@@ -18,7 +18,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -229,6 +231,13 @@
     <property role="EcuMT" value="2458670456593291011" />
     <property role="TrG5h" value="DiagramWithoutLayoutStore" />
     <ref role="1TJDcQ" node="24zrZPPzcal" resolve="Diagram" />
+  </node>
+  <node concept="PlHQZ" id="4pZT8JfKnAl">
+    <property role="EcuMT" value="5080030193834359189" />
+    <property role="TrG5h" value="IExternalOptions" />
+    <node concept="PrWs8" id="4pZT8JfKnZy" role="PrDN$">
+      <ref role="PrY4T" to="tpc2:hJF0Tl2" resolve="IStyleContainer" />
+    </node>
   </node>
 </model>
 

@@ -883,6 +883,32 @@
     <node concept="13hLZK" id="190K99K7UbO" role="13h7CW">
       <node concept="3clFbS" id="190K99K7UbP" role="2VODD2" />
     </node>
+    <node concept="13i0hz" id="1be6WiHaewv" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiHaeww" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHaew_" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHaeDM" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHaeDL" role="3clFbG">
+            <property role="Xl_RC" value="[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHaewA" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHaewF" role="13h7CS">
+      <property role="TrG5h" value="getClosingText" />
+      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
+      <node concept="3Tm1VV" id="1be6WiHaewG" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHaewL" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHaeIX" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHaeIW" role="3clFbG">
+            <property role="Xl_RC" value="]" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHaewM" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="1FlH1cK0uPV">
     <ref role="13h7C2" to="2qld:1FlH1cK0tMB" resolve="Parameter_Port" />
@@ -2105,6 +2131,32 @@
         </node>
       </node>
       <node concept="3THzug" id="6clvLV1rH3J" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHadxk" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiHadxl" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHadxq" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHad$L" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHad$K" role="3clFbG">
+            <property role="Xl_RC" value="[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHadxr" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHadxw" role="13h7CS">
+      <property role="TrG5h" value="getClosingText" />
+      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
+      <node concept="3Tm1VV" id="1be6WiHadxx" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHadxA" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHadDi" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHadDh" role="3clFbG">
+            <property role="Xl_RC" value="]" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHadxB" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="6clvLV1Sc98">
@@ -11423,6 +11475,121 @@
         </node>
         <node concept="3clFbH" id="74e51Jl$FnI" role="3cqZAp" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1be6WiHaabA">
+    <ref role="13h7C2" to="2qld:3GatLR3au6A" resolve="CellModel_Compartment" />
+    <node concept="13hLZK" id="1be6WiHaabB" role="13h7CW">
+      <node concept="3clFbS" id="1be6WiHaabC" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHaahS" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiHaahT" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHaahY" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHaaET" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHaaES" role="3clFbG">
+            <property role="Xl_RC" value="[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHaahZ" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHaai4" role="13h7CS">
+      <property role="TrG5h" value="getClosingText" />
+      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
+      <node concept="3Tm1VV" id="1be6WiHaai5" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHaaia" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHaaLg" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHaaLf" role="3clFbG">
+            <property role="Xl_RC" value="]" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHaaib" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1be6WiHacqg">
+    <ref role="13h7C2" to="2qld:XBYj286mvh" resolve="CellModel_Diagram" />
+    <node concept="13hLZK" id="1be6WiHacqh" role="13h7CW">
+      <node concept="3clFbS" id="1be6WiHacqi" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHacwy" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiHacwz" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHacwC" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHacDP" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHacDO" role="3clFbG">
+            <property role="Xl_RC" value="[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHacwD" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHacwI" role="13h7CS">
+      <property role="TrG5h" value="getClosingText" />
+      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
+      <node concept="3Tm1VV" id="1be6WiHacwJ" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHacwO" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHacJO" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHacJN" role="3clFbG">
+            <property role="Xl_RC" value="]" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHacwP" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1be6WiHadR2">
+    <ref role="13h7C2" to="2qld:gKFhvEzf3v" resolve="CellModel_DiagramContent" />
+    <node concept="13hLZK" id="1be6WiHadR3" role="13h7CW">
+      <node concept="3clFbS" id="1be6WiHadR4" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHadWV" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiHadWW" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHadX1" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHae0E" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHae0D" role="3clFbG">
+            <property role="Xl_RC" value="[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHadX2" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHadX7" role="13h7CS">
+      <property role="TrG5h" value="getClosingText" />
+      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
+      <node concept="3Tm1VV" id="1be6WiHadX8" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHadXd" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHae5P" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHae5O" role="3clFbG">
+            <property role="Xl_RC" value="]" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHadXe" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1be6WiHaeUb">
+    <ref role="13h7C2" to="2qld:rKHxOEoZfO" resolve="CellModel_Shape" />
+    <node concept="13hLZK" id="1be6WiHaeUc" role="13h7CW">
+      <node concept="3clFbS" id="1be6WiHaeUd" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHaf1h" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiHaf1i" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHaf1n" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHaf3r" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHaf3q" role="3clFbG">
+            <property role="Xl_RC" value="shape[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHaf1o" role="3clF45" />
     </node>
   </node>
 </model>

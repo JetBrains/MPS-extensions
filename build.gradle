@@ -211,7 +211,7 @@ dependencies {
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.35.0") {
         transitive = false
     }
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.36.0") {
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0") {
         transitive = false
     }
 }

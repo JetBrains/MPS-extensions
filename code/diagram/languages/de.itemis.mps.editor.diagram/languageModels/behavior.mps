@@ -10544,6 +10544,34 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbF" id="5SSrxUjqjGe" role="3cqZAp">
+                  <node concept="2OqwBi" id="5SSrxUjqjGf" role="3clFbG">
+                    <node concept="37vLTw" id="5SSrxUjqjGg" role="2Oq$k0">
+                      <ref role="3cqZAo" node="74e51Ji6bH0" resolve="buttons" />
+                    </node>
+                    <node concept="TSZUe" id="5SSrxUjqjGh" role="2OqNvi">
+                      <node concept="2ShNRf" id="5SSrxUjqjGi" role="25WWJ7">
+                        <node concept="1pGfFk" id="5SSrxUjqjGj" role="2ShVmc">
+                          <ref role="37wK5l" to="r3rm:xNPLfiOze" resolve="ShowRootAllEdgesButton" />
+                          <node concept="10M0yZ" id="5SSrxUjqjGk" role="37wK5m">
+                            <ref role="3cqZAo" to="r3rm:17I5kyiXMqc" resolve="DEFAULT_BUTTON_SIZE" />
+                            <ref role="1PxDUh" to="r3rm:2KWY$Um6wZH" resolve="ContextButton" />
+                          </node>
+                          <node concept="37vLTw" id="5SSrxUjqjGl" role="37wK5m">
+                            <ref role="3cqZAo" to="r3rm:45TnPEv7YRN" resolve="mxCellState" />
+                            <node concept="2c44te" id="5SSrxUjqjGm" role="lGtFl">
+                              <node concept="2pJPEk" id="5SSrxUjqjGn" role="2c44t1">
+                                <node concept="2pJPED" id="5SSrxUjqjGo" role="2pJPEn">
+                                  <ref role="2pJxaS" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="74e51Ji6nE$" role="3cqZAp">
                   <node concept="2OqwBi" id="74e51Ji6nE_" role="3clFbG">
                     <node concept="37vLTw" id="74e51Ji6nEA" role="2Oq$k0">

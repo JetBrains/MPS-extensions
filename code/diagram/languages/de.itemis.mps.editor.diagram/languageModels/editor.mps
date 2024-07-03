@@ -5712,6 +5712,25 @@
           </node>
         </node>
       </node>
+      <node concept="3gTLQM" id="5SSrxUjqkR5" role="3EZMnx">
+        <node concept="3Fmcul" id="5SSrxUjqkR6" role="3FoqZy">
+          <node concept="3clFbS" id="5SSrxUjqkR7" role="2VODD2">
+            <node concept="3cpWs6" id="5SSrxUjqkR8" role="3cqZAp">
+              <node concept="2OqwBi" id="5SSrxUjqkR9" role="3cqZAk">
+                <node concept="pncrf" id="5SSrxUjqkRa" role="2Oq$k0" />
+                <node concept="2qgKlT" id="5SSrxUjqkRb" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:4h7S3973QQF" resolve="getBooleanPropertyCheckBox" />
+                  <node concept="1Q80Hx" id="5SSrxUjqkRc" role="37wK5m" />
+                  <node concept="355D3s" id="5SSrxUjqkRd" role="37wK5m">
+                    <ref role="355D3t" to="2qld:5ZBOFE3vobP" resolve="DiagramButtonConfig" />
+                    <ref role="355D3u" to="2qld:5SSrxUjqkgN" resolve="hasShowAllEdgesButton" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3gTLQM" id="2ZU2kH0oPym" role="3EZMnx">
         <node concept="3Fmcul" id="2ZU2kH0oPyn" role="3FoqZy">
           <node concept="3clFbS" id="2ZU2kH0oPyo" role="2VODD2">

@@ -2176,6 +2176,11 @@
       <property role="TrG5h" value="hasShowPortsLabelsButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="5SSrxUjqkgN" role="1TKVEl">
+      <property role="IQ2nx" value="6789297515862246451" />
+      <property role="TrG5h" value="hasShowAllEdgesButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="2ZU2kH0jAMG" role="1TKVEl">
       <property role="IQ2nx" value="3457085882766355628" />
       <property role="TrG5h" value="hasTranslateToOriginButton" />

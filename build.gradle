@@ -169,7 +169,7 @@ configurations {
 }
 
 dependencies {
-    ant_lib "org.apache.ant:ant-junit:1.10.9"
+    ant_lib "org.apache.ant:ant-junit:1.10.14"
 
     def elkVersion = "0.9.0"
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion") {
@@ -383,10 +383,10 @@ configurations {
 }
 dependencies {
     junitAnt 'junit:junit:4.12'
-    junitAnt('org.apache.ant:ant-junit:1.10.9') {
+    junitAnt('org.apache.ant:ant-junit:1.10.14') {
         transitive = false
     }
-    junitAnt('org.apache.ant:ant-junit4:1.10.9') {
+    junitAnt('org.apache.ant:ant-junit4:1.10.14') {
         transitive = false
     }
 }

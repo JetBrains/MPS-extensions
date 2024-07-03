@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="2qld" ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" />
+    <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -135,6 +136,12 @@
       <property role="20kJfa" value="config" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="2qld:1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
+    </node>
+    <node concept="1TJgyj" id="3QN6lkAcxdh" role="1TKVEi">
+      <property role="IQ2ns" value="4445925110648542033" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="description" />
+      <ref role="20lvS9" to="zqge:2cLqkTm6vgh" resolve="Text" />
     </node>
   </node>
   <node concept="1TIwiD" id="37WsXDFJYOZ">

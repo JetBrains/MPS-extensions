@@ -382,7 +382,7 @@ configurations {
     junitAnt
 }
 dependencies {
-    junitAnt 'junit:junit:4.12'
+    junitAnt 'junit:junit:4.13.2'
     junitAnt('org.apache.ant:ant-junit:1.10.14') {
         transitive = false
     }

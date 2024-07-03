@@ -205,7 +205,7 @@ dependencies {
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion") {
         transitive = false
     }
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.29.0") {
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0") {
         transitive = false
     }
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0") {

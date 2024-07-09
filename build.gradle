@@ -1,5 +1,5 @@
 plugins {
-    id 'de.itemis.mps.gradle.common' version '1.27.0.+'
+    id 'de.itemis.mps.gradle.common' version '1.28.0.+'
     id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'
@@ -532,4 +532,7 @@ tasks.register('remigrate', Remigrate) {
     projectDirectories.from('code')
     pluginRoots.from(usedPluginRoots)
     maxHeapSize = '4G'
+
+    // diagram migration from version 0 is currently not rerunnable, although it claims to be
+    excludeModuleMigration("de.itemis.mps.editor.diagram", 0)
 }

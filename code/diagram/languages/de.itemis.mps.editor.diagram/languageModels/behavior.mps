@@ -280,6 +280,9 @@
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
       </concept>
+      <concept id="6985522012210254362" name="jetbrains.mps.lang.quotation.structure.NodeBuilderPropertyExpression" flags="nn" index="WxPPo">
+        <child id="6985522012210254363" name="expression" index="WxPPp" />
+      </concept>
       <concept id="8182547171709614739" name="jetbrains.mps.lang.quotation.structure.NodeBuilderRef" flags="nn" index="36bGnv">
         <reference id="8182547171709614741" name="target" index="36bGnp" />
       </concept>
@@ -4221,17 +4224,19 @@
                       <ref role="2pJxaS" to="2qld:56jSwh$g_0B" resolve="ContentAlignment" />
                       <node concept="2pJxcG" id="56jSwh$nLti" role="2pJxcM">
                         <ref role="2pJxcJ" to="2qld:56jSwh$g_6I" resolve="alignment" />
-                        <node concept="2OqwBi" id="56jSwh$nG6D" role="28ntcv">
-                          <node concept="1XH99k" id="56jSwh$nFe9" role="2Oq$k0">
-                            <ref role="1XH99l" to="2qld:56jSwh$g$O1" resolve="ContentAlignmentEnum" />
-                          </node>
-                          <node concept="2ViDtW" id="56jSwh$nG_$" role="2OqNvi">
-                            <node concept="2OqwBi" id="56jSwh$nHq0" role="2ViJBj">
-                              <node concept="2GrUjf" id="56jSwh$nGPT" role="2Oq$k0">
-                                <ref role="2Gs0qQ" node="56jSwh$nD8c" resolve="contentAlignment" />
-                              </node>
-                              <node concept="liA8E" id="56jSwh$nJtv" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                        <node concept="WxPPo" id="1pHFW3u9pZ6" role="28ntcv">
+                          <node concept="2OqwBi" id="56jSwh$nG6D" role="WxPPp">
+                            <node concept="1XH99k" id="56jSwh$nFe9" role="2Oq$k0">
+                              <ref role="1XH99l" to="2qld:56jSwh$g$O1" resolve="ContentAlignmentEnum" />
+                            </node>
+                            <node concept="2ViDtW" id="56jSwh$nG_$" role="2OqNvi">
+                              <node concept="2OqwBi" id="56jSwh$nHq0" role="2ViJBj">
+                                <node concept="2GrUjf" id="56jSwh$nGPT" role="2Oq$k0">
+                                  <ref role="2Gs0qQ" node="56jSwh$nD8c" resolve="contentAlignment" />
+                                </node>
+                                <node concept="liA8E" id="56jSwh$nJtv" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -5164,17 +5169,19 @@
                       <ref role="2pJxaS" to="2qld:56jSwh$g_0B" resolve="ContentAlignment" />
                       <node concept="2pJxcG" id="1SEN4_CV_MV" role="2pJxcM">
                         <ref role="2pJxcJ" to="2qld:56jSwh$g_6I" resolve="alignment" />
-                        <node concept="2OqwBi" id="1SEN4_CV_MW" role="28ntcv">
-                          <node concept="1XH99k" id="1SEN4_CV_MX" role="2Oq$k0">
-                            <ref role="1XH99l" to="2qld:56jSwh$g$O1" resolve="ContentAlignmentEnum" />
-                          </node>
-                          <node concept="2ViDtW" id="1SEN4_CV_MY" role="2OqNvi">
-                            <node concept="2OqwBi" id="1SEN4_CV_MZ" role="2ViJBj">
-                              <node concept="2GrUjf" id="1SEN4_CV_N0" role="2Oq$k0">
-                                <ref role="2Gs0qQ" node="1SEN4_CV_ML" resolve="contentAlignment" />
-                              </node>
-                              <node concept="liA8E" id="1SEN4_CV_N1" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                        <node concept="WxPPo" id="1pHFW3u9pZ7" role="28ntcv">
+                          <node concept="2OqwBi" id="1SEN4_CV_MW" role="WxPPp">
+                            <node concept="1XH99k" id="1SEN4_CV_MX" role="2Oq$k0">
+                              <ref role="1XH99l" to="2qld:56jSwh$g$O1" resolve="ContentAlignmentEnum" />
+                            </node>
+                            <node concept="2ViDtW" id="1SEN4_CV_MY" role="2OqNvi">
+                              <node concept="2OqwBi" id="1SEN4_CV_MZ" role="2ViJBj">
+                                <node concept="2GrUjf" id="1SEN4_CV_N0" role="2Oq$k0">
+                                  <ref role="2Gs0qQ" node="1SEN4_CV_ML" resolve="contentAlignment" />
+                                </node>
+                                <node concept="liA8E" id="1SEN4_CV_N1" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -8075,17 +8082,19 @@
                       <ref role="2pJxaS" to="2qld:56jSwh$g_0B" resolve="ContentAlignment" />
                       <node concept="2pJxcG" id="3biyEnOppbx" role="2pJxcM">
                         <ref role="2pJxcJ" to="2qld:56jSwh$g_6I" resolve="alignment" />
-                        <node concept="2OqwBi" id="3biyEnOppby" role="28ntcv">
-                          <node concept="1XH99k" id="3biyEnOppbz" role="2Oq$k0">
-                            <ref role="1XH99l" to="2qld:56jSwh$g$O1" resolve="ContentAlignmentEnum" />
-                          </node>
-                          <node concept="2ViDtW" id="3biyEnOppb$" role="2OqNvi">
-                            <node concept="2OqwBi" id="3biyEnOppb_" role="2ViJBj">
-                              <node concept="2GrUjf" id="3biyEnOppbA" role="2Oq$k0">
-                                <ref role="2Gs0qQ" node="3biyEnOppbn" resolve="contentAlignment" />
-                              </node>
-                              <node concept="liA8E" id="3biyEnOppbB" role="2OqNvi">
-                                <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                        <node concept="WxPPo" id="1pHFW3u9pZ8" role="28ntcv">
+                          <node concept="2OqwBi" id="3biyEnOppby" role="WxPPp">
+                            <node concept="1XH99k" id="3biyEnOppbz" role="2Oq$k0">
+                              <ref role="1XH99l" to="2qld:56jSwh$g$O1" resolve="ContentAlignmentEnum" />
+                            </node>
+                            <node concept="2ViDtW" id="3biyEnOppb$" role="2OqNvi">
+                              <node concept="2OqwBi" id="3biyEnOppb_" role="2ViJBj">
+                                <node concept="2GrUjf" id="3biyEnOppbA" role="2Oq$k0">
+                                  <ref role="2Gs0qQ" node="3biyEnOppbn" resolve="contentAlignment" />
+                                </node>
+                                <node concept="liA8E" id="3biyEnOppbB" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~Enum.name()" resolve="name" />
+                                </node>
                               </node>
                             </node>
                           </node>

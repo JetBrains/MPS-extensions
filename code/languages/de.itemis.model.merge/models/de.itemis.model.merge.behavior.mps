@@ -19,7 +19,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.collections.libs/)" />
+    <import index="3o3z" ref="ecfb9949-7433-4db5-85de-0f84d172e4ce/java:com.google.common.collect(de.q60.mps.libs/)" />
     <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" />
     <import index="1qo3" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3.tuple(org.apache.commons/)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
@@ -1036,6 +1036,27 @@
             </node>
           </node>
           <node concept="3clFbS" id="78fCHIE_fQ1" role="Jncv$">
+            <node concept="3clFbJ" id="5pTzEX$3GZz" role="3cqZAp">
+              <node concept="3clFbS" id="5pTzEX$3GZ_" role="3clFbx">
+                <node concept="3cpWs6" id="5pTzEX$3TRH" role="3cqZAp">
+                  <node concept="2YIFZM" id="5pTzEX$3UqM" role="3cqZAk">
+                    <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+                    <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5pTzEX$3RXd" role="3clFbw">
+                <node concept="2OqwBi" id="5pTzEX$3Inr" role="2Oq$k0">
+                  <node concept="Jnkvi" id="5pTzEX$3Hz2" role="2Oq$k0">
+                    <ref role="1M0zk5" node="78fCHIE_fQF" resolve="li" />
+                  </node>
+                  <node concept="2yIwOk" id="5pTzEX$3R2B" role="2OqNvi" />
+                </node>
+                <node concept="liA8E" id="5pTzEX$3TaT" role="2OqNvi">
+                  <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract()" resolve="isAbstract" />
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="78fCHIE_fQ2" role="3cqZAp">
               <node concept="3cpWsn" id="78fCHIE_fQ3" role="3cpWs9">
                 <property role="TrG5h" value="language" />

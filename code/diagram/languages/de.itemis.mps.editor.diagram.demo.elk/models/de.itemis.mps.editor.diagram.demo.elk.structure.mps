@@ -324,5 +324,37 @@
       <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4Y8LoRLuGW4">
+    <property role="EcuMT" value="5731047739261374212" />
+    <property role="TrG5h" value="NestedTreeDiagram" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4Y8LoRLvr4V" role="1TKVEi">
+      <property role="IQ2ns" value="5731047739261563195" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="config" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="2qld:qwNnoEIEkO" resolve="TreeLayoutConfig" />
+      <ref role="20ksaX" node="qwNnoDwdC6" resolve="config" />
+    </node>
+    <node concept="1TJgyj" id="4Y8LoRLw1JJ" role="1TKVEi">
+      <property role="IQ2ns" value="5731047739261721583" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="subDiagrams" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4Y8LoRLw0Mi" resolve="TreeSubDiagram" />
+    </node>
+    <node concept="PrWs8" id="4Y8LoRLuJYn" role="PzmwI">
+      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4Y8LoRLw0Mi">
+    <property role="EcuMT" value="5731047739261717650" />
+    <property role="TrG5h" value="TreeSubDiagram" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4Y8LoRLw1kE" role="PzmwI">
+      <ref role="PrY4T" node="37WsXDFJRg1" resolve="IBaseGraphTest" />
+    </node>
+  </node>
 </model>
 

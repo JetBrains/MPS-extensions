@@ -6,11 +6,16 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## June 2024
 
+### Added
+
+- *de.itemis.mps.editor.celllayout.styles*: A new style sheet item *full-width-root* was added that can make the root cell of the editor occupy the full editor width. That means that, for example, horizontal lines with a push/grow style will extend to the full editor width as well as all other cells with the same style.
+
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime*: Diagrams can now be used in an headless environment (e.g. for rendering documentation).
 - *de.slisson.mps.editor.multiline.runtime*: A bug was fixed where the multiline cell got a wrong background color set.
 - *de.itemis.mps.editor.diagram.runtime*: The dependency to *de.q60.mps.collections.libs* was removed.
+- *de.itemis.mps.editor.diagram*: Various improvements to diagrams were made. (see: [PR #866](https://github.com/JetBrains/MPS-extensions/pull/866) )
 
 ## May 2024
 

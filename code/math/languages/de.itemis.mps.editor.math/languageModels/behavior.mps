@@ -17,6 +17,7 @@
     <import index="x4fh" ref="r:6d7e624e-8f0d-49a1-aae8-a4cb94dbe189(de.itemis.mps.editor.math.structure)" />
     <import index="fbzs" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.geom(JDK/)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -633,6 +634,32 @@
       <node concept="3uibUv" id="19RCnNmEWyn" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
+    </node>
+    <node concept="13i0hz" id="1be6WiHahCr" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiHahCs" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHahCx" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHai9r" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHai9q" role="3clFbG">
+            <property role="Xl_RC" value="[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHahCy" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHahCB" role="13h7CS">
+      <property role="TrG5h" value="getClosingText" />
+      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
+      <node concept="3Tm1VV" id="1be6WiHahCC" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHahCH" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHaify" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHaifx" role="3clFbG">
+            <property role="Xl_RC" value="]" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHahCI" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="70CVChQj1$J">

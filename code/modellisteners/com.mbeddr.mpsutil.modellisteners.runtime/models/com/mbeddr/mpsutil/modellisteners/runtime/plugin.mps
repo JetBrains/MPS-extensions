@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:36aeb616-f561-40d2-aedb-9476bc0a6442(com.mbeddr.mpsutil.modellisteners.runtime.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="f159adf4-3c93-40f9-9c5a-1f245a8697af" name="jetbrains.mps.lang.aspect" version="2" />
   </languages>
   <imports>
@@ -214,8 +215,8 @@
       <property role="2V$B1T" value="309e0004-4976-4416-b947-ec02ae4ecef2" />
       <property role="2V$B1Q" value="com.mbeddr.mpsutil.modellisteners" />
     </node>
-    <node concept="1QGGSu" id="1yLcVM11IJk" role="3vqPLo">
-      <property role="1iqoE4" value="${module}/icons/model.png" />
+    <node concept="1QGGSu" id="1ClyW4gOiF9" role="3vqPLo">
+      <property role="1iqoE4" value="${mps_home}/lib/mps-icons.jar!/nodes/model.png" />
     </node>
   </node>
 </model>

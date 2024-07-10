@@ -26,15 +26,6 @@
     <facet type="java" languageLevel="JAVA_8" compile="mps" classes="mps" ext="yes">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/jgraphx.jar" />
-      <library location="${module}/lib/org.eclipse.emf.common.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
-      <library location="${module}/lib/org.eclipse.elk.core.jar" />
-      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
-      <library location="${module}/lib/jgraphx.jar" />
       <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
       <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
       <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
@@ -43,70 +34,14 @@
       <library location="${module}/lib/org.eclipse.emf.common.jar" />
       <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
       <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
-      <library location="${module}/lib/jgraphx.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
-      <library location="${module}/lib/org.eclipse.elk.core.jar" />
-      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
-      <library location="${module}/lib/org.eclipse.emf.common.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
-      <library location="${module}/lib/jgraphx.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
-      <library location="${module}/lib/org.eclipse.elk.core.jar" />
-      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
-      <library location="${module}/lib/org.eclipse.emf.common.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
-      <library location="${module}/lib/jgraphx.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
-      <library location="${module}/lib/org.eclipse.elk.core.jar" />
-      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
-      <library location="${module}/lib/org.eclipse.emf.common.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
-      <library location="${module}/lib/jgraphx.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
-      <library location="${module}/lib/org.eclipse.elk.core.jar" />
-      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
-      <library location="${module}/lib/org.eclipse.emf.common.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
-      <library location="${module}/lib/jgraphx.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
-      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
-      <library location="${module}/lib/org.eclipse.elk.core.jar" />
-      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
-      <library location="${module}/lib/org.eclipse.emf.common.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
-      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.radial.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.force.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.disco.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.rectpacking.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.spore.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.topdownpacking.jar" />
     </facet>
   </facets>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/lib/jgraphx.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.common.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.layered.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.core.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.graph.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.emf.common.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.radial.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.force.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.disco.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.rectpacking.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.spore.jar" />
-    <stubModelEntry path="${module}/lib/org.eclipse.elk.alg.topdownpacking.jar" />
-  </stubModelEntries>
   <dependencies>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="true">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>

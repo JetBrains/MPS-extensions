@@ -1010,15 +1010,20 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="3pwG8PSkQKT" role="3cqZAp">
-                <node concept="2OqwBi" id="3pwG8PSkU2T" role="3clFbG">
-                  <node concept="37vLTw" id="3pwG8PSkU2S" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
+              <node concept="3clFbF" id="5n09TztlwKo" role="3cqZAp">
+                <node concept="2OqwBi" id="5n09TztlN8Y" role="3clFbG">
+                  <node concept="2OqwBi" id="5n09TztlBNr" role="2Oq$k0">
+                    <node concept="37vLTw" id="5n09TztlwKm" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
+                    </node>
+                    <node concept="liA8E" id="5n09TztlJC1" role="2OqNvi">
+                      <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="3pwG8PSkU2U" role="2OqNvi">
-                    <ref role="37wK5l" to="qkt:~DefaultActionGroup.addAll(java.util.Collection)" resolve="addAll" />
-                    <node concept="37vLTw" id="3pwG8PSkQKV" role="37wK5m">
-                      <ref role="3cqZAo" node="3pwG8PSkQJB" resolve="intentionActions" />
+                  <node concept="liA8E" id="5n09TztlQ_0" role="2OqNvi">
+                    <ref role="37wK5l" to="qkt:~Presentation.setPerformGroup(boolean)" resolve="setPerformGroup" />
+                    <node concept="3clFbT" id="5n09TztlTIf" role="37wK5m">
+                      <property role="3clFbU" value="true" />
                     </node>
                   </node>
                 </node>
@@ -1037,6 +1042,19 @@
                     <ref role="37wK5l" to="qkt:~Presentation.setIcon(javax.swing.Icon)" resolve="setIcon" />
                     <node concept="37vLTw" id="3pwG8PSkQL0" role="37wK5m">
                       <ref role="3cqZAo" node="3pwG8PSkQJp" resolve="icon" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="3pwG8PSkQKT" role="3cqZAp">
+                <node concept="2OqwBi" id="3pwG8PSkU2T" role="3clFbG">
+                  <node concept="37vLTw" id="3pwG8PSkU2S" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3pwG8PSkQKs" resolve="intentionActionGroup" />
+                  </node>
+                  <node concept="liA8E" id="3pwG8PSkU2U" role="2OqNvi">
+                    <ref role="37wK5l" to="qkt:~DefaultActionGroup.addAll(java.util.Collection)" resolve="addAll" />
+                    <node concept="37vLTw" id="3pwG8PSkQKV" role="37wK5m">
+                      <ref role="3cqZAo" node="3pwG8PSkQJB" resolve="intentionActions" />
                     </node>
                   </node>
                 </node>
@@ -1154,30 +1172,6 @@
                 <property role="1EXbeo" value="false" />
                 <ref role="37wK5l" to="qkt:~DefaultActionGroup.&lt;init&gt;(java.lang.String,boolean)" resolve="DefaultActionGroup" />
                 <ref role="1Y3XeK" to="qkt:~DefaultActionGroup" resolve="DefaultActionGroup" />
-                <node concept="3clFb_" id="2xgTENkWrZW" role="jymVt">
-                  <property role="TrG5h" value="canBePerformed" />
-                  <property role="DiZV1" value="false" />
-                  <property role="od$2w" value="false" />
-                  <node concept="2AHcQZ" id="2xgTENkWrZX" role="2AJF6D">
-                    <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-                  </node>
-                  <node concept="37vLTG" id="2xgTENkWrZY" role="3clF46">
-                    <property role="TrG5h" value="c" />
-                    <property role="3TUv4t" value="false" />
-                    <node concept="3uibUv" id="2xgTENkWrZZ" role="1tU5fm">
-                      <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
-                    </node>
-                  </node>
-                  <node concept="3clFbS" id="2xgTENkWs00" role="3clF47">
-                    <node concept="3cpWs6" id="2xgTENkWs01" role="3cqZAp">
-                      <node concept="3clFbT" id="2xgTENkWs02" role="3cqZAk">
-                        <property role="3clFbU" value="true" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3Tm1VV" id="2xgTENkWs03" role="1B3o_S" />
-                  <node concept="10P_77" id="2xgTENkWs04" role="3clF45" />
-                </node>
                 <node concept="3clFb_" id="2xgTENkWs05" role="jymVt">
                   <property role="TrG5h" value="actionPerformed" />
                   <property role="DiZV1" value="false" />
@@ -4326,6 +4320,19 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbF" id="5n09TztmivX" role="3cqZAp">
+            <node concept="2OqwBi" id="5n09Tztmlf1" role="3clFbG">
+              <node concept="1rXfSq" id="5n09TztmivV" role="2Oq$k0">
+                <ref role="37wK5l" to="qkt:~AnAction.getTemplatePresentation()" resolve="getTemplatePresentation" />
+              </node>
+              <node concept="liA8E" id="5n09TztmqFj" role="2OqNvi">
+                <ref role="37wK5l" to="qkt:~Presentation.setPerformGroup(boolean)" resolve="setPerformGroup" />
+                <node concept="3clFbT" id="5n09TztmtVP" role="37wK5m">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="37vLTG" id="2xgTENkSP2J" role="3clF46">
           <property role="TrG5h" value="shortName" />
@@ -4379,31 +4386,6 @@
         </node>
       </node>
       <node concept="2tJIrI" id="2xgTENkTEle" role="jymVt" />
-      <node concept="3clFb_" id="2xgTENkWmQZ" role="jymVt">
-        <property role="TrG5h" value="canBePerformed" />
-        <property role="DiZV1" value="false" />
-        <property role="od$2w" value="false" />
-        <node concept="2AHcQZ" id="2xgTENkWmR5" role="2AJF6D">
-          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-        </node>
-        <node concept="37vLTG" id="2xgTENkWmR7" role="3clF46">
-          <property role="TrG5h" value="c" />
-          <property role="3TUv4t" value="false" />
-          <node concept="3uibUv" id="2xgTENkWmR1" role="1tU5fm">
-            <ref role="3uigEE" to="qkt:~DataContext" resolve="DataContext" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="2xgTENkWmR3" role="3clF47">
-          <node concept="3cpWs6" id="2xgTENkWmRd" role="3cqZAp">
-            <node concept="3clFbT" id="2xgTENkWmRf" role="3cqZAk">
-              <property role="3clFbU" value="true" />
-            </node>
-          </node>
-        </node>
-        <node concept="3Tm1VV" id="2xgTENkWmR9" role="1B3o_S" />
-        <node concept="10P_77" id="2xgTENkWmRb" role="3clF45" />
-      </node>
-      <node concept="2tJIrI" id="2xgTENkURlQ" role="jymVt" />
       <node concept="3clFb_" id="2xgTENkWmRl" role="jymVt">
         <property role="TrG5h" value="actionPerformed" />
         <property role="DiZV1" value="false" />

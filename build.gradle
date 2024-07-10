@@ -41,9 +41,9 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2023.2'
+ext.mpsMajor = '9999.9'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '1'
+ext.mpsMinor = ''
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 
@@ -59,8 +59,7 @@ if (ciBuild) {
     if (branch.matches(/(maintenance|mps)[\/-](mps)?\d+(\.\d+)*/)) {
         version = "$buildMajor.$buildMinor.$buildNumber.${GitBasedVersioning.gitShortCommitHash}"
     } else {
-        def isSnapshot = !(branch.equals("master"))
-        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + (isSnapshot ? "-SNAPSHOT" : "")
+        version = GitBasedVersioning.getVersionWithCount(buildMajor, buildMinor, buildNumber) + "-SNAPSHOT"
     }
 
     println "##teamcity[buildNumber '${version}']"
@@ -93,7 +92,9 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:$mpsVersion"
+    // For published releases adjust ext.mpsMajor and ext.mpsMinor above and use this dependency:
+    // mps "com.jetbrains:mps:$mpsVersion"
+    mps "com.jetbrains.mps:mps-prerelease:241.18034.993"
 }
 
 repositories {

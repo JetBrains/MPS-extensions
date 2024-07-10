@@ -101,7 +101,7 @@
         <property id="3662141892374567264" name="nodeSpacing" index="36KDf5" />
         <child id="3662141892374568027" name="padding" index="36KDrY" />
       </concept>
-      <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ng" index="36TQxy">
+      <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ngI" index="36TQxy">
         <property id="3662141892371757000" name="topdownHierarchicalNodeAspectRatio" index="31dVPH" />
         <property id="3662141892371761113" name="topdownScaleFactor" index="31dWPW" />
         <property id="3662141892374571168" name="topdownNodeType" index="36KE85" />
@@ -173,7 +173,7 @@
       <concept id="6747382324549521158" name="de.itemis.mps.editor.diagram.demo.elk.structure.BoxTest" flags="ng" index="379oHZ" />
       <concept id="6747382324546318490" name="de.itemis.mps.editor.diagram.demo.elk.structure.TreeTest" flags="ng" index="37XFjz" />
       <concept id="6747382324546254300" name="de.itemis.mps.editor.diagram.demo.elk.structure.ForceTest" flags="ng" index="37XV6_" />
-      <concept id="3601881183937328129" name="de.itemis.mps.editor.diagram.demo.elk.structure.IBaseGraphTest" flags="ng" index="1qgKvr">
+      <concept id="3601881183937328129" name="de.itemis.mps.editor.diagram.demo.elk.structure.IBaseGraphTest" flags="ngI" index="1qgKvr">
         <child id="5574140559873342040" name="nodes" index="i0U$m" />
         <child id="5574140559873342588" name="edges" index="i0UWM" />
         <child id="477607467887417862" name="config" index="J81tK" />
@@ -190,7 +190,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>

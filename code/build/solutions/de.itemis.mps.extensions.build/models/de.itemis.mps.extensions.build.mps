@@ -21079,6 +21079,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="2CZpRVi8lN1" role="3bR37C">
+          <node concept="3bR9La" id="2CZpRVi8lN2" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7qi8mU1OzOZ" role="2G$12L">
         <property role="BnDLt" value="true" />

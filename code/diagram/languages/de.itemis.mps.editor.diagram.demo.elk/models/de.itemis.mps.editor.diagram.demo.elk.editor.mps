@@ -7640,6 +7640,42 @@
     <property role="TrG5h" value="LayeredTestStyleSheet" />
     <node concept="14StLt" id="4pZT8JgcGZ_" role="V601i">
       <property role="TrG5h" value="LayeredNodes" />
+      <node concept="3tD6jV" id="5SSrxUjIAsI" role="3F10Kt">
+        <ref role="3tD7wE" to="88j9:4pZT8JeBtm1" resolve="diagram-layout-node-size-minimum" />
+        <node concept="3sjG9q" id="5SSrxUjIAsJ" role="3tD6jU">
+          <node concept="3clFbS" id="5SSrxUjIAsK" role="2VODD2">
+            <node concept="3cpWs8" id="5SSrxUjIAsL" role="3cqZAp">
+              <node concept="3cpWsn" id="5SSrxUjIAsM" role="3cpWs9">
+                <property role="TrG5h" value="size" />
+                <node concept="10Oyi0" id="5SSrxUjIAsN" role="1tU5fm" />
+                <node concept="17qRlL" id="5SSrxUjIAsO" role="33vP2m">
+                  <node concept="3cmrfG" id="5SSrxUjIAsP" role="3uHU7w">
+                    <property role="3cmrfH" value="30" />
+                  </node>
+                  <node concept="2OqwBi" id="5SSrxUjIAsQ" role="3uHU7B">
+                    <node concept="pncrf" id="5SSrxUjIAsR" role="2Oq$k0" />
+                    <node concept="2bSWHS" id="5SSrxUjIAsS" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5SSrxUjIAsT" role="3cqZAp">
+              <node concept="2ShNRf" id="5SSrxUjIAsU" role="3clFbG">
+                <node concept="1pGfFk" id="5SSrxUjIAsV" role="2ShVmc">
+                  <property role="373rjd" value="true" />
+                  <ref role="37wK5l" to="vgho:~KVector.&lt;init&gt;(double,double)" resolve="KVector" />
+                  <node concept="37vLTw" id="5SSrxUjIAsW" role="37wK5m">
+                    <ref role="3cqZAo" node="5SSrxUjIAsM" resolve="size" />
+                  </node>
+                  <node concept="37vLTw" id="5SSrxUjIAsX" role="37wK5m">
+                    <ref role="3cqZAo" node="5SSrxUjIAsM" resolve="size" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="14StLt" id="4pZT8JgcGZA" role="V601i">
       <property role="TrG5h" value="LayeredEdges" />

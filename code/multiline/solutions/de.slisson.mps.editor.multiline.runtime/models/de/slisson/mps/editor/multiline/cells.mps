@@ -3450,13 +3450,27 @@
       </node>
       <node concept="3clFbS" id="3PRvLzCPliW" role="3clF47">
         <node concept="3clFbJ" id="3PRvLzCPltq" role="3cqZAp">
-          <node concept="3fqX7Q" id="3PRvLzCPltr" role="3clFbw">
-            <node concept="2OqwBi" id="3PRvLzCPlts" role="3fr31v">
-              <node concept="37vLTw" id="1rfeXz7xt9w" role="2Oq$k0">
-                <ref role="3cqZAo" node="3PRvLzCPliU" resolve="parentSettings" />
+          <node concept="1Wc70l" id="49bdBU2p8lP" role="3clFbw">
+            <node concept="2OqwBi" id="49bdBU2pse1" role="3uHU7w">
+              <node concept="1rXfSq" id="49bdBU2pm7P" role="2Oq$k0">
+                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle()" resolve="getStyle" />
               </node>
-              <node concept="liA8E" id="3PRvLzCPltu" role="2OqNvi">
-                <ref role="37wK5l" to="g51k:~ParentSettings.isSkipBackground()" resolve="isSkipBackground" />
+              <node concept="liA8E" id="49bdBU2p$No" role="2OqNvi">
+                <ref role="37wK5l" to="hox0:~Style.isSpecified(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="isSpecified" />
+                <node concept="10M0yZ" id="49bdBU2pQV3" role="37wK5m">
+                  <ref role="3cqZAo" to="5ueo:~StyleAttributes.BACKGROUND_COLOR" resolve="BACKGROUND_COLOR" />
+                  <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="3PRvLzCPltr" role="3uHU7B">
+              <node concept="2OqwBi" id="3PRvLzCPlts" role="3fr31v">
+                <node concept="37vLTw" id="1rfeXz7xt9w" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3PRvLzCPliU" resolve="parentSettings" />
+                </node>
+                <node concept="liA8E" id="3PRvLzCPltu" role="2OqNvi">
+                  <ref role="37wK5l" to="g51k:~ParentSettings.isSkipBackground()" resolve="isSkipBackground" />
+                </node>
               </node>
             </node>
           </node>

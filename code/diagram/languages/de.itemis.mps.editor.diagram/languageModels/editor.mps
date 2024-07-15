@@ -362,6 +362,9 @@
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
       </concept>
+      <concept id="6985522012210254362" name="jetbrains.mps.lang.quotation.structure.NodeBuilderPropertyExpression" flags="nn" index="WxPPo">
+        <child id="6985522012210254363" name="expression" index="WxPPp" />
+      </concept>
     </language>
     <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
       <concept id="9000758320091481718" name="de.itemis.mps.editor.celllayout.structure.GridLayoutFlattenStyle" flags="lg" index="1QQdxR" />
@@ -14824,7 +14827,9 @@
                   <ref role="2pJxaS" to="2qld:5NyYfidQYgt" resolve="PredefinedEdgeStyle" />
                   <node concept="2pJxcG" id="5NyYfidRmQd" role="2pJxcM">
                     <ref role="2pJxcJ" to="2qld:5NyYfidQYC2" resolve="style" />
-                    <node concept="2ZBlsa" id="5NyYfidRmZQ" role="28ntcv" />
+                    <node concept="WxPPo" id="32x4VsYWY1B" role="28ntcv">
+                      <node concept="2ZBlsa" id="5NyYfidRmZQ" role="WxPPp" />
+                    </node>
                   </node>
                 </node>
               </node>

@@ -344,13 +344,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="6$Hx0f8ohdL" role="3EZMnx">
-        <property role="3F0ifm" value="]" />
-        <ref role="1k5W1q" node="3HMKjsylBr3" resolve="nogap" />
-        <node concept="VechU" id="6FSgq4qb97A" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5A/lightGray" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6$Hx0f8mwDI">

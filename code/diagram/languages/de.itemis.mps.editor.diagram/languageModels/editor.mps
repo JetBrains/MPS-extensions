@@ -452,11 +452,21 @@
       <node concept="VPXOz" id="5qgNcfDnnxJ" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
-      <node concept="PMmxH" id="5qgNcfDnkpp" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="Veino" id="5qgNcfDnkqf" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5_/gray" />
+      <node concept="3EZMnI" id="1be6WiHabRh" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+        <node concept="PMmxH" id="1be6WiHabRi" role="3EZMnx">
+          <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
         </node>
+        <node concept="3F0ifn" id="1be6WiHabRj" role="3EZMnx">
+          <property role="3F0ifm" value="diagram" />
+          <node concept="Vb9p2" id="1be6WiHabRk" role="3F10Kt" />
+        </node>
+        <node concept="PMmxH" id="1be6WiHabRl" role="3EZMnx">
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+          <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+        </node>
+        <node concept="2iRfu4" id="1be6WiHabRm" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="5qgNcfDnD4M" role="3EZMnx">
         <node concept="ljvvj" id="5qgNcfDnD6I" role="3F10Kt">
@@ -1182,11 +1192,21 @@
       <node concept="VPXOz" id="4KKQOHJ7LTj" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
-      <node concept="PMmxH" id="4KKQOHJ7LTk" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="Veino" id="4KKQOHJ7LTl" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5_/gray" />
+      <node concept="3EZMnI" id="1be6WiHaejn" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+        <node concept="PMmxH" id="1be6WiHaejo" role="3EZMnx">
+          <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
         </node>
+        <node concept="3F0ifn" id="1be6WiHaejp" role="3EZMnx">
+          <property role="3F0ifm" value="diagram box" />
+          <node concept="Vb9p2" id="1be6WiHaejq" role="3F10Kt" />
+        </node>
+        <node concept="PMmxH" id="1be6WiHaejr" role="3EZMnx">
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+          <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+        </node>
+        <node concept="2iRfu4" id="1be6WiHaejs" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="4KKQOHJ7LTm" role="3EZMnx">
         <node concept="ljvvj" id="4KKQOHJ7LTn" role="3F10Kt">
@@ -1606,11 +1626,21 @@
       <node concept="VPXOz" id="5qgNcfDxJtr" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
-      <node concept="PMmxH" id="5qgNcfDxJts" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="Veino" id="5qgNcfDxJtt" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5_/gray" />
+      <node concept="3EZMnI" id="1be6WiHad6y" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+        <node concept="PMmxH" id="1be6WiHad6z" role="3EZMnx">
+          <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
         </node>
+        <node concept="3F0ifn" id="1be6WiHad6$" role="3EZMnx">
+          <property role="3F0ifm" value="diagram edge" />
+          <node concept="Vb9p2" id="1be6WiHad6_" role="3F10Kt" />
+        </node>
+        <node concept="PMmxH" id="1be6WiHad6A" role="3EZMnx">
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+          <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+        </node>
+        <node concept="2iRfu4" id="1be6WiHad6B" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="5qgNcfDxJtu" role="3EZMnx">
         <node concept="ljvvj" id="5qgNcfDxJtv" role="3F10Kt">
@@ -2497,12 +2527,6 @@
   </node>
   <node concept="24kQdi" id="3GatLR3aIzB">
     <ref role="1XX52x" to="2qld:3GatLR3au6A" resolve="CellModel_Compartment" />
-    <node concept="PMmxH" id="3GatLR3aIEj" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <node concept="VPXOz" id="3GatLR3n3dM" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-    </node>
     <node concept="3EZMnI" id="7WiZGib1IHs" role="6VMZX">
       <node concept="PMmxH" id="7WiZGib1IHt" role="3EZMnx">
         <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
@@ -2529,6 +2553,22 @@
         <property role="VOm3f" value="false" />
       </node>
       <node concept="2iRkQZ" id="7WiZGib1IHA" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="1be6WiHa4m$" role="2wV5jI">
+      <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+      <node concept="PMmxH" id="1be6WiHa4m_" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+        <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+      </node>
+      <node concept="3F0ifn" id="1be6WiHa4mA" role="3EZMnx">
+        <property role="3F0ifm" value="compartment" />
+        <node concept="Vb9p2" id="1be6WiHa4mB" role="3F10Kt" />
+      </node>
+      <node concept="PMmxH" id="1be6WiHa4mC" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+        <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+      </node>
+      <node concept="2iRfu4" id="1be6WiHa4mD" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="3FRjz$v4XHA">
@@ -4238,18 +4278,6 @@
   </node>
   <node concept="24kQdi" id="rKHxOEoZm3">
     <ref role="1XX52x" to="2qld:rKHxOEoZfO" resolve="CellModel_Shape" />
-    <node concept="3EZMnI" id="rKHxOEoZmW" role="2wV5jI">
-      <node concept="3F0ifn" id="rKHxOEoZmY" role="3EZMnx">
-        <property role="3F0ifm" value="[shape|" />
-      </node>
-      <node concept="3F1sOY" id="rKHxOEoZno" role="3EZMnx">
-        <ref role="1NtTu8" to="2qld:rKHxOEoZlD" resolve="shape" />
-      </node>
-      <node concept="3F0ifn" id="rKHxOEoZnb" role="3EZMnx">
-        <property role="3F0ifm" value="|]" />
-      </node>
-      <node concept="2iRfu4" id="rKHxOEoZmZ" role="2iSdaV" />
-    </node>
     <node concept="3EZMnI" id="rKHxOEr9FU" role="6VMZX">
       <node concept="PMmxH" id="rKHxOEr9FV" role="3EZMnx">
         <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
@@ -4315,6 +4343,21 @@
       </node>
       <node concept="2iRkQZ" id="rKHxOEr9G4" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="1be6WiHaeQJ" role="2wV5jI">
+      <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+      <node concept="PMmxH" id="1be6WiHaeQK" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+        <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+      </node>
+      <node concept="3F1sOY" id="1be6WiHafg7" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:rKHxOEoZlD" resolve="shape" />
+      </node>
+      <node concept="PMmxH" id="1be6WiHaeQN" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+        <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+      </node>
+      <node concept="2iRfu4" id="1be6WiHaeQO" role="2iSdaV" />
+    </node>
   </node>
   <node concept="24kQdi" id="gKFhvEzfRh">
     <ref role="1XX52x" to="2qld:gKFhvEzf3v" resolve="CellModel_DiagramContent" />
@@ -4322,11 +4365,21 @@
       <node concept="VPXOz" id="gKFhvEzgcX" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
-      <node concept="PMmxH" id="gKFhvEzgcY" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <node concept="Veino" id="gKFhvEzgcZ" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5_/gray" />
+      <node concept="3EZMnI" id="1be6WiHadJM" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+        <node concept="PMmxH" id="1be6WiHadJN" role="3EZMnx">
+          <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
         </node>
+        <node concept="3F0ifn" id="1be6WiHadJO" role="3EZMnx">
+          <property role="3F0ifm" value="diagram content" />
+          <node concept="Vb9p2" id="1be6WiHadJP" role="3F10Kt" />
+        </node>
+        <node concept="PMmxH" id="1be6WiHadJQ" role="3EZMnx">
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+          <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+        </node>
+        <node concept="2iRfu4" id="1be6WiHadJR" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="gKFhvEzgd0" role="3EZMnx">
         <node concept="ljvvj" id="gKFhvEzgd1" role="3F10Kt">
@@ -14915,6 +14968,100 @@
       </node>
     </node>
   </node>
+  <node concept="V5hpn" id="4pZT8JgX2pA">
+    <property role="3GE5qa" value="layoutAlgorithm.options" />
+    <property role="TrG5h" value="DiagramFixedAttributes" />
+    <node concept="3t5Usi" id="4pZT8JgX2pB" role="V601i">
+      <property role="TrG5h" value="diagram-layout-fixed-position" />
+      <node concept="3uibUv" id="4pZT8JgX2qG" role="3t5Oan">
+        <ref role="3uigEE" to="vgho:~KVector" resolve="KVector" />
+      </node>
+    </node>
+  </node>
+  <node concept="V5hpn" id="4pZT8Je_sr$">
+    <property role="3GE5qa" value="layoutAlgorithm.options" />
+    <property role="TrG5h" value="DiagramPortAttributes" />
+    <node concept="3t5Usi" id="4pZT8Je_srB" role="V601i">
+      <property role="TrG5h" value="diagram-layout-allow-non-flow-ports-to-switch-sides" />
+      <node concept="10P_77" id="4pZT8Je_srP" role="3t5Oan" />
+      <node concept="3clFbT" id="4pZT8Je_srS" role="3t49C2" />
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeByJg" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-alignment" />
+      <node concept="3uibUv" id="4pZT8JeB_8j" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeB_$c" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-alignment-east" />
+      <node concept="3uibUv" id="4pZT8JeB_$d" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeB_QC" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-alignment-north" />
+      <node concept="3uibUv" id="4pZT8JeB_QD" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeBA9j" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-alignment-south" />
+      <node concept="3uibUv" id="4pZT8JeBA9k" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeBB1Q" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-alignment-west" />
+      <node concept="3uibUv" id="4pZT8JeBB1R" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeBBaK" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-anchor-offset" />
+      <node concept="3uibUv" id="4pZT8JeBBaL" role="3t5Oan">
+        <ref role="3uigEE" to="vgho:~KVector" resolve="KVector" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeBBk3" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-border-offset" />
+      <node concept="3uibUv" id="4pZT8JeBBUL" role="3t5Oan">
+        <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeBBUP" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-index" />
+      <node concept="3uibUv" id="4pZT8JeBBUQ" role="3t5Oan">
+        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeBGnI" role="V601i">
+      <property role="TrG5h" value="diagram-layout-port-side" />
+      <node concept="3uibUv" id="4pZT8JeBGnJ" role="3t5Oan">
+        <ref role="3uigEE" to="gwyy:~PortSide" resolve="PortSide" />
+      </node>
+      <node concept="Rm8GO" id="4pZT8JeBGoT" role="3t49C2">
+        <ref role="Rm8GQ" to="gwyy:~PortSide.UNDEFINED" resolve="UNDEFINED" />
+        <ref role="1Px2BO" to="gwyy:~PortSide" resolve="PortSide" />
+      </node>
+    </node>
+  </node>
+  <node concept="V5hpn" id="4pZT8Je_sN3">
+    <property role="3GE5qa" value="layoutAlgorithm.options" />
+    <property role="TrG5h" value="DiagramLabelAttributes" />
+    <node concept="3t5Usi" id="4pZT8JeAlQL" role="V601i">
+      <property role="TrG5h" value="diagram-layout-font-name" />
+      <node concept="3uibUv" id="4pZT8JeAlQM" role="3t5Oan">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+    </node>
+    <node concept="3t5Usi" id="4pZT8JeAlUu" role="V601i">
+      <property role="TrG5h" value="diagram-layout-layout-font-size" />
+      <node concept="10Oyi0" id="4pZT8JeAlV8" role="3t5Oan" />
+      <node concept="3cmrfG" id="4pZT8JeAlVb" role="3t49C2">
+        <property role="3cmrfH" value="1" />
+      </node>
+    </node>
+  </node>
   <node concept="V5hpn" id="4pZT8Je_qZf">
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramNodeAttributes" />
@@ -15048,73 +15195,6 @@
       </node>
     </node>
   </node>
-  <node concept="V5hpn" id="4pZT8Je_sr$">
-    <property role="3GE5qa" value="layoutAlgorithm.options" />
-    <property role="TrG5h" value="DiagramPortAttributes" />
-    <node concept="3t5Usi" id="4pZT8Je_srB" role="V601i">
-      <property role="TrG5h" value="diagram-layout-allow-non-flow-ports-to-switch-sides" />
-      <node concept="10P_77" id="4pZT8Je_srP" role="3t5Oan" />
-      <node concept="3clFbT" id="4pZT8Je_srS" role="3t49C2" />
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeByJg" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-alignment" />
-      <node concept="3uibUv" id="4pZT8JeB_8j" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeB_$c" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-alignment-east" />
-      <node concept="3uibUv" id="4pZT8JeB_$d" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeB_QC" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-alignment-north" />
-      <node concept="3uibUv" id="4pZT8JeB_QD" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeBA9j" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-alignment-south" />
-      <node concept="3uibUv" id="4pZT8JeBA9k" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeBB1Q" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-alignment-west" />
-      <node concept="3uibUv" id="4pZT8JeBB1R" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortAlignment" resolve="PortAlignment" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeBBaK" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-anchor-offset" />
-      <node concept="3uibUv" id="4pZT8JeBBaL" role="3t5Oan">
-        <ref role="3uigEE" to="vgho:~KVector" resolve="KVector" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeBBk3" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-border-offset" />
-      <node concept="3uibUv" id="4pZT8JeBBUL" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeBBUP" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-index" />
-      <node concept="3uibUv" id="4pZT8JeBBUQ" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeBGnI" role="V601i">
-      <property role="TrG5h" value="diagram-layout-port-side" />
-      <node concept="3uibUv" id="4pZT8JeBGnJ" role="3t5Oan">
-        <ref role="3uigEE" to="gwyy:~PortSide" resolve="PortSide" />
-      </node>
-      <node concept="Rm8GO" id="4pZT8JeBGoT" role="3t49C2">
-        <ref role="Rm8GQ" to="gwyy:~PortSide.UNDEFINED" resolve="UNDEFINED" />
-        <ref role="1Px2BO" to="gwyy:~PortSide" resolve="PortSide" />
-      </node>
-    </node>
-  </node>
   <node concept="V5hpn" id="4pZT8Je_sEG">
     <property role="3GE5qa" value="layoutAlgorithm.options" />
     <property role="TrG5h" value="DiagramEdgeAttributes" />
@@ -15152,33 +15232,6 @@
       <node concept="10Oyi0" id="4pZT8JeBM2D" role="3t5Oan" />
       <node concept="3cmrfG" id="4pZT8JeBM2J" role="3t49C2">
         <property role="3cmrfH" value="0" />
-      </node>
-    </node>
-  </node>
-  <node concept="V5hpn" id="4pZT8Je_sN3">
-    <property role="3GE5qa" value="layoutAlgorithm.options" />
-    <property role="TrG5h" value="DiagramLabelAttributes" />
-    <node concept="3t5Usi" id="4pZT8JeAlQL" role="V601i">
-      <property role="TrG5h" value="diagram-layout-font-name" />
-      <node concept="3uibUv" id="4pZT8JeAlQM" role="3t5Oan">
-        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-      </node>
-    </node>
-    <node concept="3t5Usi" id="4pZT8JeAlUu" role="V601i">
-      <property role="TrG5h" value="diagram-layout-layout-font-size" />
-      <node concept="10Oyi0" id="4pZT8JeAlV8" role="3t5Oan" />
-      <node concept="3cmrfG" id="4pZT8JeAlVb" role="3t49C2">
-        <property role="3cmrfH" value="1" />
-      </node>
-    </node>
-  </node>
-  <node concept="V5hpn" id="4pZT8JgX2pA">
-    <property role="3GE5qa" value="layoutAlgorithm.options" />
-    <property role="TrG5h" value="DiagramFixedAttributes" />
-    <node concept="3t5Usi" id="4pZT8JgX2pB" role="V601i">
-      <property role="TrG5h" value="diagram-layout-fixed-position" />
-      <node concept="3uibUv" id="4pZT8JgX2qG" role="3t5Oan">
-        <ref role="3uigEE" to="vgho:~KVector" resolve="KVector" />
       </node>
     </node>
   </node>

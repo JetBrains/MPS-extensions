@@ -53,6 +53,7 @@
     <import index="3a50" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide(MPS.Platform/)" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="xggr" ref="r:12584d60-2d80-4ca9-9c6e-b79d499da0cf(de.itemis.mps.editor.celllayout.layout)" />
+    <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" implicit="true" />
     <import index="lwvz" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.selection(MPS.Editor/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
@@ -5802,16 +5803,16 @@
         <property role="TrG5h" value="cellId" />
         <node concept="17QB3L" id="3fwTI8g960_" role="1tU5fm" />
       </node>
+      <node concept="3uibUv" id="27djZ8Aj_tL" role="3clF45">
+        <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+      </node>
+      <node concept="3Tm1VV" id="27djZ8AjmAw" role="1B3o_S" />
       <node concept="37vLTG" id="7oZMtr6903H" role="3clF46">
         <property role="TrG5h" value="accessor" />
         <node concept="3uibUv" id="7oZMtr691xv" role="1tU5fm">
           <ref role="3uigEE" node="4teJTSBwQIn" resolve="IDiagramAccessor" />
         </node>
       </node>
-      <node concept="3uibUv" id="27djZ8Aj_tL" role="3clF45">
-        <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
-      </node>
-      <node concept="3Tm1VV" id="27djZ8AjmAw" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="7GZDrCwGfKx" role="jymVt" />
     <node concept="2YIFZL" id="7GZDrCwG7$l" role="jymVt">
@@ -5856,16 +5857,16 @@
         <property role="TrG5h" value="cellId" />
         <node concept="17QB3L" id="7GZDrCwG7$E" role="1tU5fm" />
       </node>
+      <node concept="3uibUv" id="7GZDrCwG7$H" role="3clF45">
+        <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
+      </node>
+      <node concept="3Tm1VV" id="7GZDrCwG7$I" role="1B3o_S" />
       <node concept="37vLTG" id="7GZDrCwG7$F" role="3clF46">
         <property role="TrG5h" value="accessor" />
         <node concept="3uibUv" id="7GZDrCwG7$G" role="1tU5fm">
           <ref role="3uigEE" node="4teJTSBwQIn" resolve="IDiagramAccessor" />
         </node>
       </node>
-      <node concept="3uibUv" id="7GZDrCwG7$H" role="3clF45">
-        <ref role="3uigEE" node="27djZ8_ZBps" resolve="DiagramModel" />
-      </node>
-      <node concept="3Tm1VV" id="7GZDrCwG7$I" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="27djZ8Ai$jR" role="jymVt" />
     <node concept="312cEg" id="27djZ8A4l0K" role="jymVt">
@@ -23386,6 +23387,25 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="2CZpRVieZ5c" role="jymVt" />
+    <node concept="3clFbW" id="2CZpRVif4l4" role="jymVt">
+      <node concept="37vLTG" id="2CZpRVif7RU" role="3clF46">
+        <property role="TrG5h" value="id" />
+        <node concept="3uibUv" id="2CZpRVif7RV" role="1tU5fm">
+          <ref role="3uigEE" node="18fiNKZvCpQ" resolve="IAccessorKey" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2CZpRVif4l5" role="3clF45" />
+      <node concept="3clFbS" id="2CZpRVif4l7" role="3clF47">
+        <node concept="XkiVB" id="2CZpRVif9j6" role="3cqZAp">
+          <ref role="37wK5l" node="4rVJEOko8ae" resolve="AbstractBoxAccessor" />
+          <node concept="37vLTw" id="2CZpRVifa0i" role="37wK5m">
+            <ref role="3cqZAo" node="2CZpRVif7RU" resolve="id" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2CZpRVif3E4" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="7jhYr4hIpz3" role="jymVt" />
     <node concept="3Tm1VV" id="7jhYr4hIoSU" role="1B3o_S" />

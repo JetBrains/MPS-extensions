@@ -4,6 +4,16 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## July 2024
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: Preserving the port order works the same way as before to avoid layouting issues. The clear layout style attribute now works properly.
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: ELK layout attributes on the box, edge and label level are now also supported.
+
 ## June 2024
 
 ### Added

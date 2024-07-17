@@ -170,6 +170,11 @@ configurations {
         exclude(group: 'com.google.guava')
         attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
     }
+    batik {
+        exclude(group: 'xml-apis')
+        exclude(group: 'commons-io')
+        exclude(group: 'commons-logging')
+    }
 }
 
 dependencies {
@@ -190,6 +195,9 @@ dependencies {
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+
+    batik ("org.apache.xmlgraphics:batik-svggen:1.17")
+    batik ("org.apache.xmlgraphics:batik-dom:1.17")
 }
 
 
@@ -253,8 +261,25 @@ task resolved_diagram_dependencies(type: Copy) {
     }
 }
 
+task resolved_batik_dependencies(type: Sync) {
+    from configurations.batik
+    into file('code/batik/solutions/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.batik.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
+
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies
     script "$rootDir/scripts/build.xml"
 }
 

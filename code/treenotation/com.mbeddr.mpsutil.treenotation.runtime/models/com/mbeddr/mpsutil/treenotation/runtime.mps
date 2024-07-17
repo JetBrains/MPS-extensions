@@ -434,7 +434,6 @@
         <child id="1562299158920737514" name="initSize" index="3lWHg$" />
       </concept>
       <concept id="1227022210526" name="jetbrains.mps.baseLanguage.collections.structure.ClearAllElementsOperation" flags="nn" index="2Kehj3" />
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
@@ -11460,7 +11459,7 @@
                   <node concept="3clFbF" id="4zqe6sJq1PA" role="3cqZAp">
                     <node concept="2OqwBi" id="4zqe6sJq1PB" role="3clFbG">
                       <node concept="37vLTw" id="4zqe6sJq1PC" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2rPTijxCTmZ" resolve="it" />
+                        <ref role="3cqZAo" node="524LU1tOAPm" resolve="it" />
                       </node>
                       <node concept="liA8E" id="4zqe6sJq1PD" role="2OqNvi">
                         <ref role="37wK5l" to="g51k:~EditorCell_Basic.relayout()" resolve="relayout" />
@@ -11468,9 +11467,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="2rPTijxCTmZ" role="1bW2Oz">
+                <node concept="gl6BB" id="524LU1tOAPm" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="2rPTijxCTn0" role="1tU5fm" />
+                  <node concept="2jxLKc" id="524LU1tOAPn" role="1tU5fm" />
                 </node>
               </node>
             </node>

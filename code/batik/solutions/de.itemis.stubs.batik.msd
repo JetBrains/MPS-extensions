@@ -45,3 +45,4 @@
     <module reference="563a0770-eb88-4f4f-83ed-f708776fc2fe(de.itemis.stubs.batik)" version="0" />
   </dependencyVersions>
 </solution>
+

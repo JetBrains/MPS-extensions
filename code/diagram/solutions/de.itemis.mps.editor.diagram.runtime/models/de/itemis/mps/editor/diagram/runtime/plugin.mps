@@ -488,7 +488,6 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
         <child id="4611582986551314344" name="requestedType" index="UnYnz" />
       </concept>
@@ -4887,7 +4886,7 @@
                       </node>
                       <node concept="2OqwBi" id="5nneI6vPijM" role="33vP2m">
                         <node concept="37vLTw" id="5nneI6vPijN" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5nneI6vPikk" resolve="it" />
+                          <ref role="3cqZAo" node="524LU1t$DOx" resolve="it" />
                         </node>
                         <node concept="liA8E" id="5nneI6vPijO" role="2OqNvi">
                           <ref role="37wK5l" to="exr9:~EditorCell_WithComponent.getComponent()" resolve="getComponent" />
@@ -4975,9 +4974,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="5nneI6vPikk" role="1bW2Oz">
+                <node concept="gl6BB" id="524LU1t$DOx" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="5nneI6vPikl" role="1tU5fm" />
+                  <node concept="2jxLKc" id="524LU1t$DOy" role="1tU5fm" />
                 </node>
               </node>
             </node>

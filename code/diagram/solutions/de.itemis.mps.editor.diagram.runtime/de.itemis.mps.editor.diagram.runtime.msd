@@ -88,6 +88,21 @@
       <library location="${module}/lib/org.eclipse.emf.common.jar" />
       <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
       <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
+      <library location="${module}/lib/jgraphx.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.common.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.layered.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.mrtree.jar" />
+      <library location="${module}/lib/org.eclipse.elk.core.jar" />
+      <library location="${module}/lib/org.eclipse.elk.graph.jar" />
+      <library location="${module}/lib/org.eclipse.emf.common.jar" />
+      <library location="${module}/lib/org.eclipse.emf.ecore.jar" />
+      <library location="${module}/lib/org.eclipse.emf.ecore.xmi.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.radial.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.force.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.disco.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.rectpacking.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.spore.jar" />
+      <library location="${module}/lib/org.eclipse.elk.alg.topdownpacking.jar" />
     </facet>
   </facets>
   <stubModelEntries>

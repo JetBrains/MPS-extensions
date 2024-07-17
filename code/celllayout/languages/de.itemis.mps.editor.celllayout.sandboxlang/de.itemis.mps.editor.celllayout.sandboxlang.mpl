@@ -11,7 +11,6 @@
     </facet>
   </facets>
   <accessoryModels />
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">24c96a96-b7a1-4f30-82da-0f8e279a2661(de.itemis.mps.editor.celllayout.styles)</dependency>
   </dependencies>

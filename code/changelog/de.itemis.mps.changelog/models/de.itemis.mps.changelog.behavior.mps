@@ -1093,7 +1093,7 @@
                     <node concept="3clFbF" id="1$KnWE8uRcV" role="3cqZAp">
                       <node concept="2OqwBi" id="1$KnWE8uRoD" role="3clFbG">
                         <node concept="37vLTw" id="1$KnWE8uRcU" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7NOAvu7SULC" />
+                          <ref role="3cqZAo" node="7NOAvu7SULC" resolve="it" />
                         </node>
                         <node concept="2qgKlT" id="1$KnWE8uRHI" role="2OqNvi">
                           <ref role="37wK5l" to="vdrq:fB3l81it7u" resolve="getTextualRepresentation" />

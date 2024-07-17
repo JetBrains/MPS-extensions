@@ -19,6 +19,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -562,19 +563,47 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbH" id="1JVIYvy4f1_" role="3cqZAp" />
+                      <node concept="3cpWs8" id="32x4VsZf0FU" role="3cqZAp">
+                        <node concept="3cpWsn" id="32x4VsZf0FX" role="3cpWs9">
+                          <property role="TrG5h" value="needsReplacement" />
+                          <node concept="10P_77" id="32x4VsZf0FS" role="1tU5fm" />
+                          <node concept="22lmx$" id="32x4VsZf3sy" role="33vP2m">
+                            <node concept="3y3z36" id="32x4VsZf46W" role="3uHU7w">
+                              <node concept="10Nm6u" id="32x4VsZf4om" role="3uHU7w" />
+                              <node concept="37vLTw" id="32x4VsZf3LG" role="3uHU7B">
+                                <ref role="3cqZAo" node="1JVIYvy4oNy" resolve="hierarchHandlingOld" />
+                              </node>
+                            </node>
+                            <node concept="3y3z36" id="32x4VsZf2Ql" role="3uHU7B">
+                              <node concept="37vLTw" id="32x4VsZf22e" role="3uHU7B">
+                                <ref role="3cqZAo" node="1JVIYvy4ktm" resolve="edgeRoutingOld" />
+                              </node>
+                              <node concept="10Nm6u" id="32x4VsZf37s" role="3uHU7w" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="32x4VsZeZLd" role="3cqZAp" />
                       <node concept="3cpWs8" id="1JVIYvy47KL" role="3cqZAp">
                         <node concept="3cpWsn" id="1JVIYvy47KM" role="3cpWs9">
-                          <property role="TrG5h" value="newConfig" />
+                          <property role="TrG5h" value="config" />
                           <node concept="3Tqbb2" id="1JVIYvy47DR" role="1tU5fm">
                             <ref role="ehGHo" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
                           </node>
-                          <node concept="2OqwBi" id="1JVIYvy47KN" role="33vP2m">
-                            <node concept="37vLTw" id="1JVIYvy47KO" role="2Oq$k0">
+                          <node concept="3K4zz7" id="32x4VsZf6rZ" role="33vP2m">
+                            <node concept="37vLTw" id="32x4VsZf76n" role="3K4GZi">
                               <ref role="3cqZAo" node="1kJMeaHPv2S" resolve="it" />
                             </node>
-                            <node concept="1_qnLN" id="1JVIYvy47KP" role="2OqNvi">
-                              <ref role="1_rbq0" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
+                            <node concept="37vLTw" id="32x4VsZf5FT" role="3K4Cdx">
+                              <ref role="3cqZAo" node="32x4VsZf0FX" resolve="needsReplacement" />
+                            </node>
+                            <node concept="2OqwBi" id="1JVIYvy47KN" role="3K4E3e">
+                              <node concept="37vLTw" id="1JVIYvy47KO" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1kJMeaHPv2S" resolve="it" />
+                              </node>
+                              <node concept="1_qnLN" id="1JVIYvy47KP" role="2OqNvi">
+                                <ref role="1_rbq0" to="2qld:2T42Bz2wQRJ" resolve="LayeredLayoutConfig" />
+                              </node>
                             </node>
                           </node>
                         </node>

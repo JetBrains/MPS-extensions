@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="test.de.slisson.mps.richtext" uuid="e9b5f5ea-256e-472e-acdf-cae84b82a030" moduleVersion="0" compileInMPS="true">
+<solution name="test.de.slisson.mps.richtext" uuid="e9b5f5ea-256e-472e-acdf-cae84b82a030" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -11,7 +11,6 @@
     </facet>
     <facet type="tests" />
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)</dependency>
     <dependency reexport="false">dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)</dependency>

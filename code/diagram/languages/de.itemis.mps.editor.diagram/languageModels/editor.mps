@@ -345,6 +345,7 @@
       <concept id="8974276187400348177" name="jetbrains.mps.lang.access.structure.ExecuteCommandStatement" flags="nn" index="1QHqEO" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -440,7 +441,6 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
@@ -803,6 +803,7 @@
             <node concept="3F0ifn" id="7k8PWDQ7RRq" role="3EZMnx">
               <property role="3F0ifm" value="layout algorithm" />
             </node>
+            <node concept="2iRfu4" id="7k8PWDQ7RRt" role="2iSdaV" />
             <node concept="3EZMnI" id="YGA9S5OMjV" role="3EZMnx">
               <node concept="3F1sOY" id="7k8PWDQ7RRr" role="3EZMnx">
                 <property role="1$x2rV" value="layered left to right" />
@@ -954,7 +955,6 @@
               </node>
               <node concept="2iRkQZ" id="YGA9S5Rp75" role="2iSdaV" />
             </node>
-            <node concept="2iRfu4" id="7k8PWDQ7RRt" role="2iSdaV" />
           </node>
           <node concept="3EZMnI" id="5TlQvVxfJ6" role="3EZMnx">
             <node concept="VPM3Z" id="5TlQvVxfJ7" role="3F10Kt">
@@ -2781,7 +2781,7 @@
                                 <node concept="17QB3L" id="6QwB8wTLFic" role="10QFUM" />
                                 <node concept="2OqwBi" id="6QwB8wTLBkf" role="10QFUP">
                                   <node concept="37vLTw" id="6QwB8wTLB4l" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="6QwB8wTLAzV" resolve="it" />
+                                    <ref role="3cqZAo" node="7Z$RfkF7ICO" resolve="it" />
                                   </node>
                                   <node concept="liA8E" id="6QwB8wTLCLP" role="2OqNvi">
                                     <ref role="37wK5l" to="wyt6:~Enum.toString()" resolve="toString" />
@@ -2790,9 +2790,9 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="Rh6nW" id="6QwB8wTLAzV" role="1bW2Oz">
+                          <node concept="gl6BB" id="7Z$RfkF7ICO" role="1bW2Oz">
                             <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="6QwB8wTLAzW" role="1tU5fm" />
+                            <node concept="2jxLKc" id="7Z$RfkF7ICP" role="1tU5fm" />
                           </node>
                         </node>
                       </node>
@@ -5825,6 +5825,7 @@
           </node>
         </node>
       </node>
+      <node concept="2iRkQZ" id="5ZBOFE3vv3e" role="2iSdaV" />
       <node concept="3gTLQM" id="2ZU2kH0oRyi" role="3EZMnx">
         <node concept="3Fmcul" id="2ZU2kH0oRyj" role="3FoqZy">
           <node concept="3clFbS" id="2ZU2kH0oRyk" role="2VODD2">
@@ -5863,7 +5864,6 @@
           </node>
         </node>
       </node>
-      <node concept="2iRkQZ" id="5ZBOFE3vv3e" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="6FffmPTa0wd">
@@ -14831,40 +14831,10 @@
     <node concept="22hDWj" id="1SEN4_Do$Un" role="22hAXT" />
     <node concept="2VfDsV" id="1SEN4_Do$Y3" role="3ft7WO" />
   </node>
-  <node concept="V5hpn" id="4bryhcny6Ap">
-    <property role="3GE5qa" value="layoutAlgorithm.options" />
-    <property role="TrG5h" value="DiagramMPSAttributes" />
-    <node concept="3t5Usi" id="4bryhcny6At" role="V601i">
-      <property role="TrG5h" value="diagram-layout-node-size-minimum-padding" />
-      <node concept="3uibUv" id="4bryhcny6Au" role="3t5Oan">
-        <ref role="3uigEE" to="vgho:~ElkPadding" resolve="ElkPadding" />
-      </node>
-      <node concept="2ShNRf" id="4bryhcny6Av" role="3t49C2">
-        <node concept="1pGfFk" id="4bryhcny6Aw" role="2ShVmc">
-          <property role="373rjd" value="true" />
-          <ref role="37wK5l" to="vgho:~ElkPadding.&lt;init&gt;(double)" resolve="ElkPadding" />
-          <node concept="3cmrfG" id="4bryhcnyyjC" role="37wK5m">
-            <property role="3cmrfH" value="5" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="5NyYfidQYKI">
-    <property role="3GE5qa" value="edgeEditor" />
-    <ref role="1XX52x" to="2qld:5NyYfidQYgt" resolve="PredefinedEdgeStyle" />
-    <node concept="3EZMnI" id="5NyYfidYVp3" role="2wV5jI">
-      <node concept="2iRfu4" id="5NyYfidYVp4" role="2iSdaV" />
-      <node concept="3F0ifn" id="5NyYfidYVqU" role="3EZMnx">
-        <property role="3F0ifm" value="edgeStyle/" />
-        <node concept="11LMrY" id="5NyYfidYVxw" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="5NyYfidQYNc" role="3EZMnx">
-        <ref role="1NtTu8" to="2qld:5NyYfidQYC2" resolve="style" />
-      </node>
-    </node>
+  <node concept="22mcaB" id="2ZU2kH0rQmo">
+    <property role="3GE5qa" value="config" />
+    <ref role="aqKnT" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
+    <node concept="22hDWj" id="2ZU2kH0rQrO" role="22hAXT" />
   </node>
   <node concept="22mcaB" id="5NyYfidRmer">
     <property role="3GE5qa" value="edgeEditor" />
@@ -14922,48 +14892,6 @@
               <node concept="2ViDtN" id="5NyYfidRoeF" role="2OqNvi" />
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="22mcaB" id="2ZU2kH0rQmo">
-    <property role="3GE5qa" value="config" />
-    <ref role="aqKnT" to="2qld:gTQ80DJ" resolve="ConceptFunctionParameter_mxCellState" />
-    <node concept="22hDWj" id="2ZU2kH0rQrO" role="22hAXT" />
-  </node>
-  <node concept="24kQdi" id="2ZU2kH0rSCT">
-    <property role="3GE5qa" value="config" />
-    <ref role="1XX52x" to="2qld:2ZU2kH0rOtL" resolve="CustomDiagramButtonConfig" />
-    <node concept="3EZMnI" id="2ZU2kH0rSKr" role="2wV5jI">
-      <node concept="2iRkQZ" id="2ZU2kH0rSKs" role="2iSdaV" />
-      <node concept="3EZMnI" id="74e51Jh1YSk" role="3EZMnx">
-        <node concept="2iRfu4" id="74e51Jh1YSl" role="2iSdaV" />
-        <node concept="3F0ifn" id="74e51Jh1YUv" role="3EZMnx">
-          <property role="3F0ifm" value="root:" />
-          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
-        </node>
-        <node concept="3F1sOY" id="2ZU2kH0rSHW" role="3EZMnx">
-          <ref role="1NtTu8" to="2qld:2ZU2kH0rSpI" resolve="root" />
-        </node>
-      </node>
-      <node concept="3EZMnI" id="74e51JiKquJ" role="3EZMnx">
-        <node concept="2iRfu4" id="74e51JiKquK" role="2iSdaV" />
-        <node concept="3F0ifn" id="74e51JiKquL" role="3EZMnx">
-          <property role="3F0ifm" value="vertex:" />
-          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
-        </node>
-        <node concept="3F1sOY" id="74e51JiKquM" role="3EZMnx">
-          <ref role="1NtTu8" to="2qld:74e51JiKqd8" resolve="vertex" />
-        </node>
-      </node>
-      <node concept="3EZMnI" id="74e51JlKk1m" role="3EZMnx">
-        <node concept="2iRfu4" id="74e51JlKk1n" role="2iSdaV" />
-        <node concept="3F0ifn" id="74e51JlKk1o" role="3EZMnx">
-          <property role="3F0ifm" value="edge:" />
-          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
-        </node>
-        <node concept="3F1sOY" id="74e51JlKk1p" role="3EZMnx">
-          <ref role="1NtTu8" to="2qld:74e51JlmriF" resolve="edge" />
         </node>
       </node>
     </node>
@@ -15232,6 +15160,78 @@
       <node concept="10Oyi0" id="4pZT8JeBM2D" role="3t5Oan" />
       <node concept="3cmrfG" id="4pZT8JeBM2J" role="3t49C2">
         <property role="3cmrfH" value="0" />
+      </node>
+    </node>
+  </node>
+  <node concept="V5hpn" id="4bryhcny6Ap">
+    <property role="3GE5qa" value="layoutAlgorithm.options" />
+    <property role="TrG5h" value="DiagramMPSAttributes" />
+    <node concept="3t5Usi" id="4bryhcny6At" role="V601i">
+      <property role="TrG5h" value="diagram-layout-node-size-minimum-padding" />
+      <node concept="3uibUv" id="4bryhcny6Au" role="3t5Oan">
+        <ref role="3uigEE" to="vgho:~ElkPadding" resolve="ElkPadding" />
+      </node>
+      <node concept="2ShNRf" id="4bryhcny6Av" role="3t49C2">
+        <node concept="1pGfFk" id="4bryhcny6Aw" role="2ShVmc">
+          <property role="373rjd" value="true" />
+          <ref role="37wK5l" to="vgho:~ElkPadding.&lt;init&gt;(double)" resolve="ElkPadding" />
+          <node concept="3cmrfG" id="4bryhcnyyjC" role="37wK5m">
+            <property role="3cmrfH" value="5" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5NyYfidQYKI">
+    <property role="3GE5qa" value="edgeEditor" />
+    <ref role="1XX52x" to="2qld:5NyYfidQYgt" resolve="PredefinedEdgeStyle" />
+    <node concept="3EZMnI" id="5NyYfidYVp3" role="2wV5jI">
+      <node concept="2iRfu4" id="5NyYfidYVp4" role="2iSdaV" />
+      <node concept="3F0ifn" id="5NyYfidYVqU" role="3EZMnx">
+        <property role="3F0ifm" value="edgeStyle/" />
+        <node concept="11LMrY" id="5NyYfidYVxw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="5NyYfidQYNc" role="3EZMnx">
+        <ref role="1NtTu8" to="2qld:5NyYfidQYC2" resolve="style" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2ZU2kH0rSCT">
+    <property role="3GE5qa" value="config" />
+    <ref role="1XX52x" to="2qld:2ZU2kH0rOtL" resolve="CustomDiagramButtonConfig" />
+    <node concept="3EZMnI" id="2ZU2kH0rSKr" role="2wV5jI">
+      <node concept="2iRkQZ" id="2ZU2kH0rSKs" role="2iSdaV" />
+      <node concept="3EZMnI" id="74e51Jh1YSk" role="3EZMnx">
+        <node concept="2iRfu4" id="74e51Jh1YSl" role="2iSdaV" />
+        <node concept="3F0ifn" id="74e51Jh1YUv" role="3EZMnx">
+          <property role="3F0ifm" value="root:" />
+          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3F1sOY" id="2ZU2kH0rSHW" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:2ZU2kH0rSpI" resolve="root" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="74e51JiKquJ" role="3EZMnx">
+        <node concept="2iRfu4" id="74e51JiKquK" role="2iSdaV" />
+        <node concept="3F0ifn" id="74e51JiKquL" role="3EZMnx">
+          <property role="3F0ifm" value="vertex:" />
+          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3F1sOY" id="74e51JiKquM" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:74e51JiKqd8" resolve="vertex" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="74e51JlKk1m" role="3EZMnx">
+        <node concept="2iRfu4" id="74e51JlKk1n" role="2iSdaV" />
+        <node concept="3F0ifn" id="74e51JlKk1o" role="3EZMnx">
+          <property role="3F0ifm" value="edge:" />
+          <ref role="1k5W1q" to="tpc5:hF4yUZ8" resolve="header" />
+        </node>
+        <node concept="3F1sOY" id="74e51JlKk1p" role="3EZMnx">
+          <ref role="1NtTu8" to="2qld:74e51JlmriF" resolve="edge" />
+        </node>
       </node>
     </node>
   </node>

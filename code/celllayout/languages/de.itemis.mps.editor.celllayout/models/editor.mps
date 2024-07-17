@@ -699,6 +699,7 @@
   <node concept="24kQdi" id="3ATi8gIrB_2">
     <ref role="1XX52x" to="pvux:3ATi8gIrB$_" resolve="TopDownLayoutCell" />
     <node concept="3EZMnI" id="3ATi8gIrB_4" role="2wV5jI">
+      <node concept="2iRkQZ" id="3ATi8gIrB_7" role="2iSdaV" />
       <node concept="3EZMnI" id="2peXSsL72c0" role="3EZMnx">
         <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
         <node concept="PMmxH" id="i0vcES5" role="3EZMnx">
@@ -722,7 +723,6 @@
           <ref role="1NtTu8" to="pvux:3ATi8gIrB$A" resolve="childCell" />
         </node>
       </node>
-      <node concept="2iRkQZ" id="3ATi8gIrB_7" role="2iSdaV" />
     </node>
   </node>
 </model>

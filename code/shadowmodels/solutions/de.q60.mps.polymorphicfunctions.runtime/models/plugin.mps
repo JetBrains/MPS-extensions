@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:46a0b328-d35b-4723-b795-005cdd95d53f(de.q60.mps.polymorphicfunctions.runtime.plugin)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="f159adf4-3c93-40f9-9c5a-1f245a8697af" name="jetbrains.mps.lang.aspect" version="2" />
@@ -77,8 +76,8 @@
       <property role="2V$B1T" value="bc963c22-d419-49b6-8543-ea411eb9d3a1" />
       <property role="2V$B1Q" value="de.q60.mps.polymorphicfunctions" />
     </node>
-    <node concept="1QGGSu" id="2BsQ8RDZtTB" role="3vqPLo">
-      <property role="1iqoE4" value="${mps_home}/lib/mps-icons.jar!/nodes/model.png" />
+    <node concept="1QGGSu" id="1yLcVM11IJk" role="3vqPLo">
+      <property role="1iqoE4" value="${module}/icons/model.png" />
     </node>
   </node>
   <node concept="2uRRBC" id="6N6zH_i3F_8">

@@ -1,5 +1,5 @@
 plugins {
-    id 'de.itemis.mps.gradle.common' version '1.27.0.+'
+    id 'de.itemis.mps.gradle.common' version '1.28.0.+'
     id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'
@@ -8,6 +8,7 @@ plugins {
 
 import de.itemis.mps.gradle.*
 import de.itemis.mps.gradle.tasks.MpsMigrate
+import de.itemis.mps.gradle.tasks.Remigrate
 import de.itemis.mps.gradle.downloadJBR.DownloadJbrForPlatform
 import groovy.xml.XmlSlurper
 
@@ -169,6 +170,11 @@ configurations {
         exclude(group: 'com.google.guava')
         attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
     }
+    batik {
+        exclude(group: 'xml-apis')
+        exclude(group: 'commons-io')
+        exclude(group: 'commons-logging')
+    }
 }
 
 dependencies {
@@ -189,6 +195,9 @@ dependencies {
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+
+    batik ("org.apache.xmlgraphics:batik-svggen:1.17")
+    batik ("org.apache.xmlgraphics:batik-dom:1.17")
 }
 
 
@@ -252,8 +261,25 @@ task resolved_diagram_dependencies(type: Copy) {
     }
 }
 
+task resolved_batik_dependencies(type: Sync) {
+    from configurations.batik
+    into file('code/batik/solutions/lib')
+
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.batik.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
+    }
+}
+
 tasks.register('build_allScripts', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies
     script "$rootDir/scripts/build.xml"
 }
 
@@ -499,12 +525,12 @@ def usedPluginRoots = [
         new File(mpsHomeDir, 'plugins/mps-tooltips'),
         new File(mpsHomeDir, 'plugins/mps-vcs'),
         new File(mpsHomeDir, 'plugins/mps-git4idea'),
+        new File(mpsHomeDir, 'plugins/mps-httpsupport'),
 ]
 
 tasks.register('migrate', MpsMigrate) {
     dependsOn(resolveMps, 'downloadJbr', 'build_languages', 'build_tests')
-    javaExecutable = layout.file(
-            tasks.named('downloadJbr', DownloadJbrForPlatform).map { it.javaExecutable })
+    javaLauncher = tasks.named('downloadJbr', DownloadJbrForPlatform).flatMap { it.javaLauncher }
 
     haltOnPrecheckFailure = true
     haltOnDependencyError = true
@@ -518,37 +544,19 @@ tasks.register('migrate', MpsMigrate) {
     maxHeapSize = '4G'
 }
 
-
-tasks.register('rerunMigrations', JavaExec) {
+tasks.register('remigrate', Remigrate) {
     mustRunAfter('migrate')
     mustRunAfter('build_languages', 'build_tests')
 
     dependsOn(resolveMps, 'downloadJbr')
-    mpsBackendLauncher.builder()
-            .withMpsHome(mpsHomeDir)
-            .withJavaExecutable(tasks.named('downloadJbr', DownloadJbrForPlatform).map { it.javaExecutable.path })
-            .configure(it)
 
-    classpath(fileTree(mpsHomeDir) {
-        include("lib/**/*.jar")
-    })
-    classpath(configurations.rerunMigrationsBackend)
-    mainClass = 'de.itemis.mps.gradle.migrate.MainKt'
+    javaLauncher = tasks.named('downloadJbr', DownloadJbrForPlatform).flatMap { it.javaLauncher }
 
-    args("--project=${file('code')}")
+    mpsHome = mpsHomeDir
+    projectDirectories.from('code')
+    pluginRoots.from(usedPluginRoots)
+    maxHeapSize = '4G'
 
-    // rerun-migrations needs its own jar added as a plugin
-    argumentProviders.add(new CommandLineArgumentProvider() {
-        @Override
-        Iterable<String> asArguments() {
-            def config = configurations.rerunMigrationsBackend
-
-            ["--plugin=de.itemis.mps.buildbackends.rerun-migrations::" +
-                     configurations.rerunMigrationsBackend.files(config.dependencies.first()).first()]
-        }
-    })
-
-    args(usedPluginRoots.collect { "--plugin-root=$it".toString() })
-
-    maxHeapSize = "4G"
+    // diagram migration from version 0 is currently not rerunnable, although it claims to be
+    excludeModuleMigration("de.itemis.mps.editor.diagram", 0)
 }

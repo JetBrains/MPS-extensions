@@ -78,7 +78,7 @@
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
-      <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
+      <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ngI" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
         <child id="5991739802479788259" name="type" index="22hAXT" />
       </concept>
@@ -94,7 +94,7 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
@@ -125,7 +125,7 @@
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ngI" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
@@ -215,7 +215,7 @@
       </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -234,7 +234,7 @@
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
@@ -263,9 +263,6 @@
       </concept>
     </language>
     <language id="fa13cc63-c476-4d46-9c96-d53670abe7bc" name="de.itemis.mps.editor.diagram">
-      <concept id="8433227566816385664" name="de.itemis.mps.editor.diagram.structure.ILayoutAlgorithm" flags="ng" index="35SPa">
-        <child id="2064429317493348220" name="config" index="3pGojU" />
-      </concept>
       <concept id="6554619383003875357" name="de.itemis.mps.editor.diagram.structure.InlineEditorComponent" flags="ig" index="238au4" />
       <concept id="8433227566817223068" name="de.itemis.mps.editor.diagram.structure.LayeredLayoutAlgorithm" flags="ng" index="39fpm">
         <property id="7623784619795245948" name="direction" index="1NdBj4" />
@@ -292,7 +289,7 @@
         <reference id="3155126767689025691" name="linkDeclaration" index="aDKIf" />
       </concept>
       <concept id="3462102746004176270" name="de.itemis.mps.editor.diagram.structure.DeleteHandler" flags="ig" index="2fs66k" />
-      <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
+      <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ngI" index="ljJFv">
         <child id="621570459749703015" name="splitHandler" index="KSpTH" />
         <child id="621570459751239491" name="canSplit" index="KYgL9" />
         <child id="5725606875425248008" name="delete" index="1ide8m" />
@@ -317,7 +314,7 @@
       <concept id="500099795019625460" name="de.itemis.mps.editor.diagram.structure.CellModel_Shape" flags="ng" index="G$OnD">
         <child id="500099795019625833" name="shape" index="G$OdO" />
       </concept>
-      <concept id="5383048119156619323" name="de.itemis.mps.editor.diagram.structure.IDiagramElementsProvider" flags="ng" index="HB_m5">
+      <concept id="5383048119156619323" name="de.itemis.mps.editor.diagram.structure.IDiagramElementsProvider" flags="ngI" index="HB_m5">
         <child id="3155126767688717334" name="contentList" index="aCds2" />
       </concept>
       <concept id="621570459749702197" name="de.itemis.mps.editor.diagram.structure.EdgeEditor_SplitHandler" flags="ig" index="KSp$Z" />
@@ -329,33 +326,12 @@
         <child id="7890587897031726225" name="query" index="2M4AHN" />
       </concept>
       <concept id="7890587897031711745" name="de.itemis.mps.editor.diagram.structure.Content_GenericEdgeQuery" flags="ng" index="2M4Efz" />
-      <concept id="5878290447138467534" name="de.itemis.mps.editor.diagram.structure.Padding" flags="ng" index="POkNa">
-        <property id="5878290447138468454" name="top" index="POl1y" />
-        <property id="5878290447138468820" name="right" index="POl7g" />
-        <property id="5878290447138469609" name="bottom" index="POljH" />
-        <property id="5878290447138469821" name="left" index="POlmT" />
-      </concept>
-      <concept id="5878290447138443303" name="de.itemis.mps.editor.diagram.structure.ContentAlignment" flags="ng" index="POr8z">
-        <property id="5878290447138443694" name="alignment" index="POreE" />
-      </concept>
       <concept id="6237710625713942002" name="de.itemis.mps.editor.diagram.structure.Content_BLQuery" flags="ig" index="2ZMM4L" />
       <concept id="6237710625713964946" name="de.itemis.mps.editor.diagram.structure.Parameter_Node" flags="ng" index="2ZN8Hh" />
-      <concept id="3662141892379115490" name="de.itemis.mps.editor.diagram.structure.Margin" flags="ng" index="36xZl7">
-        <property id="3662141892379115493" name="bottom" index="36xZl0" />
-        <property id="3662141892379115492" name="right" index="36xZl1" />
-        <property id="3662141892379115494" name="left" index="36xZl3" />
-        <property id="3662141892379115491" name="top" index="36xZl6" />
-      </concept>
-      <concept id="3662141892377043655" name="de.itemis.mps.editor.diagram.structure.ISupportTopdownPacking" flags="ng" index="36TQxy">
-        <property id="3662141892371757000" name="topdownHierarchicalNodeAspectRatio" index="31dVPH" />
-        <property id="3662141892371761113" name="topdownScaleFactor" index="31dWPW" />
-        <property id="3662141892374571168" name="topdownNodeType" index="36KE85" />
-        <property id="3662141892374569619" name="topdownHierarchicalNodeWidth" index="36KEwQ" />
-      </concept>
       <concept id="8963411245957652387" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_Query" flags="ig" index="37q72E" />
       <concept id="8963411245958754161" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject" flags="ng" index="37u81S" />
       <concept id="6910723851735106293" name="de.itemis.mps.editor.diagram.structure.DiagramButtonConfig" flags="ng" index="3sA_1f">
-        <property id="2773448605512242576" name="hasShowPortsLabels" index="3g8l5v" />
+        <property id="2773448605512242576" name="hasShowPortsLabelsButton" index="3g8l5v" />
         <property id="6910723851735128113" name="hasResetViewButton" index="3sAwEb" />
         <property id="6910723851735128104" name="hasLayoutDiagramButton" index="3sAwEi" />
         <property id="6910723851735128109" name="hasMaximizeDiagramButton" index="3sAwEn" />
@@ -372,56 +348,6 @@
       <concept id="6987730699889040828" name="de.itemis.mps.editor.diagram.structure.LineColor" flags="lg" index="3C0NmK" />
       <concept id="6987730699889040827" name="de.itemis.mps.editor.diagram.structure.LineWidth" flags="lg" index="3C0NmR">
         <property id="6987730699889499559" name="value" index="3DY3mF" />
-      </concept>
-      <concept id="3333801137936756207" name="de.itemis.mps.editor.diagram.structure.LayeredLayoutConfig" flags="ng" index="3GLQun">
-        <property id="3662141892379183286" name="highDegreeNodeMaximumTreeHeight" index="36x08j" />
-        <property id="3662141892379184421" name="highDegreeNodeThreshold" index="36x0u0" />
-        <property id="3662141892379181918" name="hierarchicalSweepiness" index="36x0BV" />
-        <property id="3662141892379181279" name="greedySwitchCrossingminimizationHierarchical" index="36x0DU" />
-        <property id="3662141892379187702" name="improveCuts" index="36x1dj" />
-        <property id="3662141892379188269" name="improveWrappedEdges" index="36x1q8" />
-        <property id="3662141892379186382" name="horizontalSpacingBetweenLabelAndPort" index="36x1TF" />
-        <property id="3662141892379191931" name="labelSpacing" index="36x23u" />
-        <property id="3662141892379192633" name="layerBound" index="36x2us" />
-        <property id="3662141892379191100" name="labelNodeSpacing" index="36x2Qp" />
-        <property id="3662141892379194849" name="linearSegmentDeflectionDampening" index="36x3X4" />
-        <property id="3662141892379204315" name="maxNodePromotionIterations" index="36x51Y" />
-        <property id="3662141892379206070" name="mergeHierarchyCrossingEdges" index="36x6Gj" />
-        <property id="3662141892379207456" name="msdFreedom" index="36x6Q5" />
-        <property id="3662141892379211526" name="nodeNodeBetweenLayersSpacing" index="36x7Qz" />
-        <property id="3662141892379155187" name="crossingCounterPortInfluence" index="36x91m" />
-        <property id="3662141892379153202" name="correctionFactorForWrapping" index="36x9An" />
-        <property id="3662141892379154155" name="crossingCounterNodeInfluence" index="36x9Le" />
-        <property id="3662141892379162028" name="multiEdgeDistancePenalty" index="36xbW9" />
-        <property id="3662141892379167712" name="edgeNodeBetweenLayersSpacing" index="36xc55" />
-        <property id="3662141892379166982" name="edgeLabelSpacing" index="36xcez" />
-        <property id="3662141892379164867" name="edgeEdgeBetweenLayersSpacing" index="36xcDA" />
-        <property id="3662141892379171281" name="edgeSpacing" index="36xddO" />
-        <property id="3662141892379171857" name="edgeThickness" index="36xdqO" />
-        <property id="3662141892379168833" name="edgeNodeSpacing" index="36xdF$" />
-        <property id="3662141892379180082" name="greedySwitchCrossingminimization" index="36xfqn" />
-        <property id="3662141892379178639" name="greedySwitchActivationThreshold" index="36xfKE" />
-        <property id="3662141892379216113" name="nodeSelfLoopSpacing" index="36xo9k" />
-        <property id="3662141892379216986" name="nodeSpacing" index="36xorZ" />
-        <property id="3662141892379221784" name="randomizationSeed" index="36xpmX" />
-        <property id="3662141892379218932" name="portSpacing" index="36xp_h" />
-        <property id="3662141892379224606" name="slopedEdgeZoneWidth" index="36xq2V" />
-        <property id="3662141892379225514" name="sloppySplineLayerSpacingFactor" index="36xqsf" />
-        <property id="3662141892379223673" name="separateConnectedComponents" index="36xqNs" />
-        <property id="3662141892379228412" name="thoroughness" index="36xr9p" />
-        <property id="3662141892379230763" name="upperBoundOnWidthMinWidthLayerer" index="36xsye" />
-        <property id="3662141892379231963" name="upperLayerEstimationScalingFactorMinWidthLayerer" index="36xsLY" />
-        <property id="3662141892379238267" name="verticalSpacingBetweenLabelAndPort" index="36xtnu" />
-        <property id="3662141892379139136" name="additionalWrappedEdgesSpacing" index="36xPr_" />
-        <property id="3662141892379140237" name="aspectRatio" index="36xQCC" />
-        <property id="3662141892379147547" name="considerModelOrderStrategy" index="36xRuY" />
-        <property id="3662141892379145171" name="commentNodeSpacing" index="36xR_Q" />
-        <property id="3662141892379144303" name="commentCommentSpacing" index="36xRFa" />
-        <property id="3662141892379145832" name="componentsSpacing" index="36xRNd" />
-        <child id="3662141892379210077" name="nodeLabelPadding" index="36x7JS" />
-        <child id="3662141892379152132" name="contentAlignment" index="36x8mx" />
-        <child id="3662141892379217652" name="padding" index="36xohh" />
-        <child id="3662141892379113988" name="additionalPortSpace" index="36xZ2x" />
       </concept>
       <concept id="301931493264781535" name="de.itemis.mps.editor.diagram.structure.CellModel_DiagramContent" flags="ng" index="3IJ5R8">
         <child id="301931493268065286" name="ingoingRedirect" index="3IzU4h" />
@@ -482,7 +408,7 @@
       <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -1711,82 +1637,7 @@
             <property role="3sAwEi" value="true" />
             <property role="3g8l5v" value="false" />
           </node>
-          <node concept="3fe8g" id="1MAkSr4BiCN" role="35U2g">
-            <node concept="3GLQun" id="1JVIYvy9lAX" role="3pGojU">
-              <property role="36xPr_" value="10.0" />
-              <property role="36xQCC" value="1.6" />
-              <property role="36xRFa" value="10.0" />
-              <property role="36xR_Q" value="10.0" />
-              <property role="36xRNd" value="20.0" />
-              <property role="36xRuY" value="3biyEnOlw4v/NONE" />
-              <property role="36x9An" value="1.0" />
-              <property role="36x9Le" value="0.0" />
-              <property role="36x91m" value="0.0" />
-              <property role="36xbW9" value="2.0" />
-              <property role="36xcDA" value="10.0" />
-              <property role="36xcez" value="2.0" />
-              <property role="36xc55" value="10.0" />
-              <property role="36xdF$" value="10.0" />
-              <property role="36xddO" value="10.0" />
-              <property role="36xdqO" value="1.0" />
-              <property role="36xfKE" value="40" />
-              <property role="36xfqn" value="3biyEnOlBXf/TWO_SIDED" />
-              <property role="36x0DU" value="3biyEnOlBXk/OFF" />
-              <property role="36x0BV" value="0.1" />
-              <property role="36x08j" value="5" />
-              <property role="36x0u0" value="16" />
-              <property role="36x1TF" value="1.0" />
-              <property role="36x1dj" value="true" />
-              <property role="36x1q8" value="true" />
-              <property role="36x2Qp" value="5.0" />
-              <property role="36x23u" value="0.0" />
-              <property role="36x2us" value="2147483647" />
-              <property role="36x3X4" value="0.3" />
-              <property role="36x51Y" value="0" />
-              <property role="36x6Gj" value="true" />
-              <property role="36x6Q5" value="1" />
-              <property role="36x7Qz" value="20.0" />
-              <property role="36xo9k" value="10.0" />
-              <property role="36xorZ" value="20.0" />
-              <property role="36xp_h" value="10.0" />
-              <property role="36xpmX" value="1" />
-              <property role="36xqNs" value="true" />
-              <property role="36xq2V" value="2.0" />
-              <property role="36xqsf" value="0.2" />
-              <property role="36xr9p" value="7" />
-              <property role="31dVPH" value="1.414" />
-              <property role="36KEwQ" value="150.0" />
-              <property role="36KE85" value="qwNnoEIHRM/HIERARCHICAL_NODE" />
-              <property role="31dWPW" value="1.0" />
-              <property role="36xsye" value="4" />
-              <property role="36xsLY" value="2" />
-              <property role="36xtnu" value="1.0" />
-              <node concept="36xZl7" id="1JVIYvy9lAY" role="36xZ2x">
-                <property role="36xZl6" value="0.0" />
-                <property role="36xZl1" value="0.0" />
-                <property role="36xZl0" value="0.0" />
-                <property role="36xZl3" value="0.0" />
-              </node>
-              <node concept="POr8z" id="1JVIYvy9lAZ" role="36x8mx">
-                <property role="POreE" value="56jSwh$g$O2/V_TOP" />
-              </node>
-              <node concept="POr8z" id="1JVIYvy9lB0" role="36x8mx">
-                <property role="POreE" value="56jSwh$g_03/H_LEFT" />
-              </node>
-              <node concept="POkNa" id="1JVIYvy9lB1" role="36x7JS">
-                <property role="POl1y" value="5.0" />
-                <property role="POl7g" value="5.0" />
-                <property role="POljH" value="5.0" />
-                <property role="POlmT" value="5.0" />
-              </node>
-              <node concept="POkNa" id="1JVIYvy9lB2" role="36xohh">
-                <property role="POl1y" value="12.0" />
-                <property role="POl7g" value="12.0" />
-                <property role="POljH" value="12.0" />
-                <property role="POlmT" value="12.0" />
-              </node>
-            </node>
-          </node>
+          <node concept="3fe8g" id="1MAkSr4BiCN" role="35U2g" />
         </node>
         <node concept="2w$q5c" id="5kFTseQTjoA" role="2whIAn">
           <node concept="2aJ2om" id="5kFTseQTjoB" role="2w$qW5">

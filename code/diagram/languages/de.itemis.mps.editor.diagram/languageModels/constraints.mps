@@ -45,6 +45,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -66,7 +67,7 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -79,7 +80,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -91,6 +92,7 @@
       <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
+      <concept id="4303308395523343364" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_link" flags="ng" index="2DA6wF" />
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
@@ -119,6 +121,10 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
+        <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
+        <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
+      </concept>
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -144,7 +150,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -516,162 +522,39 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="qwNnoEIRzd">
-    <property role="3GE5qa" value="layoutAlgorithm.config.tree" />
-    <ref role="1M2myG" to="2qld:qwNnoEIEkO" resolve="TreeLayoutConfig" />
-    <node concept="9S07l" id="qwNnoEIR$Q" role="9Vyp8">
-      <node concept="3clFbS" id="qwNnoEIR$R" role="2VODD2">
-        <node concept="3clFbF" id="qwNnoEIR_J" role="3cqZAp">
-          <node concept="22lmx$" id="qwNnoEIR_K" role="3clFbG">
-            <node concept="2OqwBi" id="qwNnoEIR_L" role="3uHU7B">
-              <node concept="2OqwBi" id="qwNnoEIR_M" role="2Oq$k0">
-                <node concept="2OqwBi" id="qwNnoEIR_N" role="2Oq$k0">
-                  <node concept="nLn13" id="qwNnoEIR_O" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="qwNnoEIR_P" role="2OqNvi">
-                    <node concept="1xMEDy" id="qwNnoEIR_Q" role="1xVPHs">
-                      <node concept="chp4Y" id="qwNnoEIR_R" role="ri$Ld">
+  <node concept="1M2fIO" id="56jSwh$gAa1">
+    <property role="3GE5qa" value="layoutAlgorithm.config.box" />
+    <ref role="1M2myG" to="2qld:56jSwh$g_vp" resolve="BoxLayoutConfig" />
+    <node concept="9S07l" id="56jSwh$gAbE" role="9Vyp8">
+      <node concept="3clFbS" id="56jSwh$gAbF" role="2VODD2">
+        <node concept="3clFbF" id="56jSwh$Icms" role="3cqZAp">
+          <node concept="22lmx$" id="56jSwh$J3qj" role="3clFbG">
+            <node concept="2OqwBi" id="56jSwh$IfrL" role="3uHU7B">
+              <node concept="2OqwBi" id="56jSwh$Id0K" role="2Oq$k0">
+                <node concept="2OqwBi" id="56jSwh$Icxv" role="2Oq$k0">
+                  <node concept="nLn13" id="56jSwh$Icmr" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="56jSwh$IcFu" role="2OqNvi">
+                    <node concept="1xMEDy" id="56jSwh$IcFw" role="1xVPHs">
+                      <node concept="chp4Y" id="56jSwh$IcMU" role="ri$Ld">
                         <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
                       </node>
                     </node>
-                    <node concept="1xIGOp" id="qwNnoEIR_S" role="1xVPHs" />
+                    <node concept="1xIGOp" id="56jSwh$IcQl" role="1xVPHs" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="qwNnoEIR_T" role="2OqNvi">
+                <node concept="2qgKlT" id="56jSwh$Idaw" role="2OqNvi">
                   <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
                 </node>
               </node>
-              <node concept="3JPx81" id="qwNnoEIR_U" role="2OqNvi">
-                <node concept="EsrRn" id="qwNnoEIR_V" role="25WWJ7" />
+              <node concept="3JPx81" id="56jSwh$IgRu" role="2OqNvi">
+                <node concept="EsrRn" id="56jSwh$IgWe" role="25WWJ7" />
               </node>
             </node>
-            <node concept="2OqwBi" id="qwNnoEIR_W" role="3uHU7w">
-              <node concept="nLn13" id="qwNnoEIR_X" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="qwNnoEIR_Y" role="2OqNvi">
-                <node concept="chp4Y" id="qwNnoEIR_Z" role="cj9EA">
-                  <ref role="cht4Q" to="2qld:7k8PWDQd3nq" resolve="TreeLayoutAlgorithm" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="3biyEnNFoer">
-    <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
-    <ref role="1M2myG" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlapRemovalLayoutConfig" />
-    <node concept="9S07l" id="3biyEnNFogu" role="9Vyp8">
-      <node concept="3clFbS" id="3biyEnNFogv" role="2VODD2">
-        <node concept="3clFbF" id="3biyEnNFohL" role="3cqZAp">
-          <node concept="22lmx$" id="3biyEnNFohM" role="3clFbG">
-            <node concept="2OqwBi" id="3biyEnNFohN" role="3uHU7B">
-              <node concept="2OqwBi" id="3biyEnNFohO" role="2Oq$k0">
-                <node concept="2OqwBi" id="3biyEnNFohP" role="2Oq$k0">
-                  <node concept="nLn13" id="3biyEnNFohQ" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="3biyEnNFohR" role="2OqNvi">
-                    <node concept="1xMEDy" id="3biyEnNFohS" role="1xVPHs">
-                      <node concept="chp4Y" id="3biyEnNFohT" role="ri$Ld">
-                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
-                      </node>
-                    </node>
-                    <node concept="1xIGOp" id="3biyEnNFohU" role="1xVPHs" />
-                  </node>
-                </node>
-                <node concept="2qgKlT" id="3biyEnNFohV" role="2OqNvi">
-                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
-                </node>
-              </node>
-              <node concept="3JPx81" id="3biyEnNFohW" role="2OqNvi">
-                <node concept="EsrRn" id="3biyEnNFohX" role="25WWJ7" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3biyEnNFohY" role="3uHU7w">
-              <node concept="nLn13" id="3biyEnNFohZ" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="3biyEnNFoi0" role="2OqNvi">
-                <node concept="chp4Y" id="3biyEnNFoi1" role="cj9EA">
-                  <ref role="cht4Q" to="2qld:5sXqsGQZDFZ" resolve="SPOrEOverlapRemovalAlgorithm" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="3biyEnNp6ah">
-    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
-    <ref role="1M2myG" to="2qld:3biyEnNoWF8" resolve="SPOrECompactionLayoutConfig" />
-    <node concept="9S07l" id="3biyEnNp6bw" role="9Vyp8">
-      <node concept="3clFbS" id="3biyEnNp6bx" role="2VODD2">
-        <node concept="3clFbF" id="3biyEnNp6cp" role="3cqZAp">
-          <node concept="22lmx$" id="3biyEnNp6cq" role="3clFbG">
-            <node concept="2OqwBi" id="3biyEnNp6cr" role="3uHU7B">
-              <node concept="2OqwBi" id="3biyEnNp6cs" role="2Oq$k0">
-                <node concept="2OqwBi" id="3biyEnNp6ct" role="2Oq$k0">
-                  <node concept="nLn13" id="3biyEnNp6cu" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="3biyEnNp6cv" role="2OqNvi">
-                    <node concept="1xMEDy" id="3biyEnNp6cw" role="1xVPHs">
-                      <node concept="chp4Y" id="3biyEnNp6cx" role="ri$Ld">
-                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
-                      </node>
-                    </node>
-                    <node concept="1xIGOp" id="3biyEnNp6cy" role="1xVPHs" />
-                  </node>
-                </node>
-                <node concept="2qgKlT" id="3biyEnNp6cz" role="2OqNvi">
-                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
-                </node>
-              </node>
-              <node concept="3JPx81" id="3biyEnNp6c$" role="2OqNvi">
-                <node concept="EsrRn" id="3biyEnNp6c_" role="25WWJ7" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3biyEnNp6cA" role="3uHU7w">
-              <node concept="nLn13" id="3biyEnNp6cB" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="3biyEnNp6cC" role="2OqNvi">
-                <node concept="chp4Y" id="3biyEnNp6cD" role="cj9EA">
-                  <ref role="cht4Q" to="2qld:5sXqsGQUIOP" resolve="SPOrECompactionAlgorithm" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="qwNnoEDBzN">
-    <property role="3GE5qa" value="layoutAlgorithm.config.fixed" />
-    <ref role="1M2myG" to="2qld:qwNnoED$Ip" resolve="FixedLayoutConfig" />
-    <node concept="9S07l" id="qwNnoEDB_s" role="9Vyp8">
-      <node concept="3clFbS" id="qwNnoEDB_t" role="2VODD2">
-        <node concept="3clFbF" id="qwNnoEDBAJ" role="3cqZAp">
-          <node concept="22lmx$" id="qwNnoEDBAK" role="3clFbG">
-            <node concept="2OqwBi" id="qwNnoEDBAL" role="3uHU7B">
-              <node concept="2OqwBi" id="qwNnoEDBAM" role="2Oq$k0">
-                <node concept="2OqwBi" id="qwNnoEDBAN" role="2Oq$k0">
-                  <node concept="nLn13" id="qwNnoEDBAO" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="qwNnoEDBAP" role="2OqNvi">
-                    <node concept="1xMEDy" id="qwNnoEDBAQ" role="1xVPHs">
-                      <node concept="chp4Y" id="qwNnoEDBAR" role="ri$Ld">
-                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
-                      </node>
-                    </node>
-                    <node concept="1xIGOp" id="qwNnoEDBAS" role="1xVPHs" />
-                  </node>
-                </node>
-                <node concept="2qgKlT" id="qwNnoEDBAT" role="2OqNvi">
-                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
-                </node>
-              </node>
-              <node concept="3JPx81" id="qwNnoEDBAU" role="2OqNvi">
-                <node concept="EsrRn" id="qwNnoEDBAV" role="25WWJ7" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="qwNnoEDBAW" role="3uHU7w">
-              <node concept="nLn13" id="qwNnoEDBAX" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="qwNnoEDBAY" role="2OqNvi">
-                <node concept="chp4Y" id="qwNnoEDBAZ" role="cj9EA">
-                  <ref role="cht4Q" to="2qld:767du_ZSOh1" resolve="FixedLayoutAlgorithm" />
+            <node concept="2OqwBi" id="56jSwh$gAcY" role="3uHU7w">
+              <node concept="nLn13" id="56jSwh$gAcZ" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="56jSwh$gAd0" role="2OqNvi">
+                <node concept="chp4Y" id="56jSwh$gAd1" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5Qzx7AqukcW" resolve="BoxLayoutAlgorithm" />
                 </node>
               </node>
             </node>
@@ -721,39 +604,39 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="3biyEnNTtnP">
-    <property role="3GE5qa" value="layoutAlgorithm.config.force" />
-    <ref role="1M2myG" to="2qld:3biyEnNTgvt" resolve="ForceLayoutConfig" />
-    <node concept="9S07l" id="3biyEnNTtp4" role="9Vyp8">
-      <node concept="3clFbS" id="3biyEnNTtp5" role="2VODD2">
-        <node concept="3clFbF" id="3biyEnNTtpX" role="3cqZAp">
-          <node concept="22lmx$" id="3biyEnNTtpY" role="3clFbG">
-            <node concept="2OqwBi" id="3biyEnNTtpZ" role="3uHU7B">
-              <node concept="2OqwBi" id="3biyEnNTtq0" role="2Oq$k0">
-                <node concept="2OqwBi" id="3biyEnNTtq1" role="2Oq$k0">
-                  <node concept="nLn13" id="3biyEnNTtq2" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="3biyEnNTtq3" role="2OqNvi">
-                    <node concept="1xMEDy" id="3biyEnNTtq4" role="1xVPHs">
-                      <node concept="chp4Y" id="3biyEnNTtq5" role="ri$Ld">
+  <node concept="1M2fIO" id="qwNnoDFJy9">
+    <property role="3GE5qa" value="layoutAlgorithm.config.random" />
+    <ref role="1M2myG" to="2qld:qwNnoDFt09" resolve="RandomLayoutConfig" />
+    <node concept="9S07l" id="qwNnoDFJ$S" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoDFJ$T" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoDFJAb" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoDFJAc" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoDFJAd" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoDFJAe" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoDFJAf" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoDFJAg" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoDFJAh" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoDFJAi" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoDFJAj" role="ri$Ld">
                         <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
                       </node>
                     </node>
-                    <node concept="1xIGOp" id="3biyEnNTtq6" role="1xVPHs" />
+                    <node concept="1xIGOp" id="qwNnoDFJAk" role="1xVPHs" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="3biyEnNTtq7" role="2OqNvi">
+                <node concept="2qgKlT" id="qwNnoDFJAl" role="2OqNvi">
                   <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
                 </node>
               </node>
-              <node concept="3JPx81" id="3biyEnNTtq8" role="2OqNvi">
-                <node concept="EsrRn" id="3biyEnNTtq9" role="25WWJ7" />
+              <node concept="3JPx81" id="qwNnoDFJAm" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoDFJAn" role="25WWJ7" />
               </node>
             </node>
-            <node concept="2OqwBi" id="3biyEnNTtqa" role="3uHU7w">
-              <node concept="nLn13" id="3biyEnNTtqb" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="3biyEnNTtqc" role="2OqNvi">
-                <node concept="chp4Y" id="3biyEnNTtqd" role="cj9EA">
-                  <ref role="cht4Q" to="2qld:5Qzx7AqfkbW" resolve="ForceLayoutAlgorithm" />
+            <node concept="2OqwBi" id="qwNnoDFJAo" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoDFJAp" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoDFJAq" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoDFJAr" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:767du_ZWCV8" resolve="RandomLayoutAlgorithm" />
                 </node>
               </node>
             </node>
@@ -803,39 +686,39 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="qwNnoDFJy9">
-    <property role="3GE5qa" value="layoutAlgorithm.config.random" />
-    <ref role="1M2myG" to="2qld:qwNnoDFt09" resolve="RandomLayoutConfig" />
-    <node concept="9S07l" id="qwNnoDFJ$S" role="9Vyp8">
-      <node concept="3clFbS" id="qwNnoDFJ$T" role="2VODD2">
-        <node concept="3clFbF" id="qwNnoDFJAb" role="3cqZAp">
-          <node concept="22lmx$" id="qwNnoDFJAc" role="3clFbG">
-            <node concept="2OqwBi" id="qwNnoDFJAd" role="3uHU7B">
-              <node concept="2OqwBi" id="qwNnoDFJAe" role="2Oq$k0">
-                <node concept="2OqwBi" id="qwNnoDFJAf" role="2Oq$k0">
-                  <node concept="nLn13" id="qwNnoDFJAg" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="qwNnoDFJAh" role="2OqNvi">
-                    <node concept="1xMEDy" id="qwNnoDFJAi" role="1xVPHs">
-                      <node concept="chp4Y" id="qwNnoDFJAj" role="ri$Ld">
+  <node concept="1M2fIO" id="qwNnoEfsJW">
+    <property role="3GE5qa" value="layoutAlgorithm.config.disCo" />
+    <ref role="1M2myG" to="2qld:qwNnoEfkh3" resolve="DisCoLayoutConfig" />
+    <node concept="9S07l" id="qwNnoEfsNi" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoEfsNj" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEfsO_" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoEfsOA" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEfsOB" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoEfsOC" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoEfsOD" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoEfsOE" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoEfsOF" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoEfsOG" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoEfsOH" role="ri$Ld">
                         <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
                       </node>
                     </node>
-                    <node concept="1xIGOp" id="qwNnoDFJAk" role="1xVPHs" />
+                    <node concept="1xIGOp" id="qwNnoEfsOI" role="1xVPHs" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="qwNnoDFJAl" role="2OqNvi">
+                <node concept="2qgKlT" id="qwNnoEfsOJ" role="2OqNvi">
                   <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
                 </node>
               </node>
-              <node concept="3JPx81" id="qwNnoDFJAm" role="2OqNvi">
-                <node concept="EsrRn" id="qwNnoDFJAn" role="25WWJ7" />
+              <node concept="3JPx81" id="qwNnoEfsOK" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoEfsOL" role="25WWJ7" />
               </node>
             </node>
-            <node concept="2OqwBi" id="qwNnoDFJAo" role="3uHU7w">
-              <node concept="nLn13" id="qwNnoDFJAp" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="qwNnoDFJAq" role="2OqNvi">
-                <node concept="chp4Y" id="qwNnoDFJAr" role="cj9EA">
-                  <ref role="cht4Q" to="2qld:767du_ZWCV8" resolve="RandomLayoutAlgorithm" />
+            <node concept="2OqwBi" id="qwNnoEfsOM" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoEfsON" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoEfsOO" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoEfsOP" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:767du_ZKes6" resolve="DisconnectedGraphLayoutAlgorithm" />
                 </node>
               </node>
             </node>
@@ -844,39 +727,162 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="56jSwh$gAa1">
-    <property role="3GE5qa" value="layoutAlgorithm.config.box" />
-    <ref role="1M2myG" to="2qld:56jSwh$g_vp" resolve="BoxLayoutConfig" />
-    <node concept="9S07l" id="56jSwh$gAbE" role="9Vyp8">
-      <node concept="3clFbS" id="56jSwh$gAbF" role="2VODD2">
-        <node concept="3clFbF" id="56jSwh$Icms" role="3cqZAp">
-          <node concept="22lmx$" id="56jSwh$J3qj" role="3clFbG">
-            <node concept="2OqwBi" id="56jSwh$IfrL" role="3uHU7B">
-              <node concept="2OqwBi" id="56jSwh$Id0K" role="2Oq$k0">
-                <node concept="2OqwBi" id="56jSwh$Icxv" role="2Oq$k0">
-                  <node concept="nLn13" id="56jSwh$Icmr" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="56jSwh$IcFu" role="2OqNvi">
-                    <node concept="1xMEDy" id="56jSwh$IcFw" role="1xVPHs">
-                      <node concept="chp4Y" id="56jSwh$IcMU" role="ri$Ld">
+  <node concept="1M2fIO" id="qwNnoEDBzN">
+    <property role="3GE5qa" value="layoutAlgorithm.config.fixed" />
+    <ref role="1M2myG" to="2qld:qwNnoED$Ip" resolve="FixedLayoutConfig" />
+    <node concept="9S07l" id="qwNnoEDB_s" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoEDB_t" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEDBAJ" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoEDBAK" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEDBAL" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoEDBAM" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoEDBAN" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoEDBAO" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoEDBAP" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoEDBAQ" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoEDBAR" role="ri$Ld">
                         <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
                       </node>
                     </node>
-                    <node concept="1xIGOp" id="56jSwh$IcQl" role="1xVPHs" />
+                    <node concept="1xIGOp" id="qwNnoEDBAS" role="1xVPHs" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="56jSwh$Idaw" role="2OqNvi">
+                <node concept="2qgKlT" id="qwNnoEDBAT" role="2OqNvi">
                   <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
                 </node>
               </node>
-              <node concept="3JPx81" id="56jSwh$IgRu" role="2OqNvi">
-                <node concept="EsrRn" id="56jSwh$IgWe" role="25WWJ7" />
+              <node concept="3JPx81" id="qwNnoEDBAU" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoEDBAV" role="25WWJ7" />
               </node>
             </node>
-            <node concept="2OqwBi" id="56jSwh$gAcY" role="3uHU7w">
-              <node concept="nLn13" id="56jSwh$gAcZ" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="56jSwh$gAd0" role="2OqNvi">
-                <node concept="chp4Y" id="56jSwh$gAd1" role="cj9EA">
-                  <ref role="cht4Q" to="2qld:5Qzx7AqukcW" resolve="BoxLayoutAlgorithm" />
+            <node concept="2OqwBi" id="qwNnoEDBAW" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoEDBAX" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoEDBAY" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoEDBAZ" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:767du_ZSOh1" resolve="FixedLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="qwNnoEIRzd">
+    <property role="3GE5qa" value="layoutAlgorithm.config.tree" />
+    <ref role="1M2myG" to="2qld:qwNnoEIEkO" resolve="TreeLayoutConfig" />
+    <node concept="9S07l" id="qwNnoEIR$Q" role="9Vyp8">
+      <node concept="3clFbS" id="qwNnoEIR$R" role="2VODD2">
+        <node concept="3clFbF" id="qwNnoEIR_J" role="3cqZAp">
+          <node concept="22lmx$" id="qwNnoEIR_K" role="3clFbG">
+            <node concept="2OqwBi" id="qwNnoEIR_L" role="3uHU7B">
+              <node concept="2OqwBi" id="qwNnoEIR_M" role="2Oq$k0">
+                <node concept="2OqwBi" id="qwNnoEIR_N" role="2Oq$k0">
+                  <node concept="nLn13" id="qwNnoEIR_O" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="qwNnoEIR_P" role="2OqNvi">
+                    <node concept="1xMEDy" id="qwNnoEIR_Q" role="1xVPHs">
+                      <node concept="chp4Y" id="qwNnoEIR_R" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="qwNnoEIR_S" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="qwNnoEIR_T" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="qwNnoEIR_U" role="2OqNvi">
+                <node concept="EsrRn" id="qwNnoEIR_V" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="qwNnoEIR_W" role="3uHU7w">
+              <node concept="nLn13" id="qwNnoEIR_X" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="qwNnoEIR_Y" role="2OqNvi">
+                <node concept="chp4Y" id="qwNnoEIR_Z" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:7k8PWDQd3nq" resolve="TreeLayoutAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3biyEnNp6ah">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeCompaction" />
+    <ref role="1M2myG" to="2qld:3biyEnNoWF8" resolve="SPOrECompactionLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNp6bw" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNp6bx" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNp6cp" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNp6cq" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNp6cr" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNp6cs" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNp6ct" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNp6cu" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNp6cv" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNp6cw" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNp6cx" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNp6cy" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNp6cz" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNp6c$" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNp6c_" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNp6cA" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNp6cB" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNp6cC" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNp6cD" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5sXqsGQUIOP" resolve="SPOrECompactionAlgorithm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3biyEnNFoer">
+    <property role="3GE5qa" value="layoutAlgorithm.config.sporeOverlapRemoval" />
+    <ref role="1M2myG" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlapRemovalLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNFogu" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNFogv" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNFohL" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNFohM" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNFohN" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNFohO" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNFohP" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNFohQ" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNFohR" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNFohS" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNFohT" role="ri$Ld">
+                        <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="3biyEnNFohU" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3biyEnNFohV" role="2OqNvi">
+                  <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
+                </node>
+              </node>
+              <node concept="3JPx81" id="3biyEnNFohW" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNFohX" role="25WWJ7" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3biyEnNFohY" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNFohZ" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNFoi0" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNFoi1" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5sXqsGQZDFZ" resolve="SPOrEOverlapRemovalAlgorithm" />
                 </node>
               </node>
             </node>
@@ -926,39 +932,39 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="qwNnoEfsJW">
-    <property role="3GE5qa" value="layoutAlgorithm.config.disCo" />
-    <ref role="1M2myG" to="2qld:qwNnoEfkh3" resolve="DisCoLayoutConfig" />
-    <node concept="9S07l" id="qwNnoEfsNi" role="9Vyp8">
-      <node concept="3clFbS" id="qwNnoEfsNj" role="2VODD2">
-        <node concept="3clFbF" id="qwNnoEfsO_" role="3cqZAp">
-          <node concept="22lmx$" id="qwNnoEfsOA" role="3clFbG">
-            <node concept="2OqwBi" id="qwNnoEfsOB" role="3uHU7B">
-              <node concept="2OqwBi" id="qwNnoEfsOC" role="2Oq$k0">
-                <node concept="2OqwBi" id="qwNnoEfsOD" role="2Oq$k0">
-                  <node concept="nLn13" id="qwNnoEfsOE" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="qwNnoEfsOF" role="2OqNvi">
-                    <node concept="1xMEDy" id="qwNnoEfsOG" role="1xVPHs">
-                      <node concept="chp4Y" id="qwNnoEfsOH" role="ri$Ld">
+  <node concept="1M2fIO" id="3biyEnNTtnP">
+    <property role="3GE5qa" value="layoutAlgorithm.config.force" />
+    <ref role="1M2myG" to="2qld:3biyEnNTgvt" resolve="ForceLayoutConfig" />
+    <node concept="9S07l" id="3biyEnNTtp4" role="9Vyp8">
+      <node concept="3clFbS" id="3biyEnNTtp5" role="2VODD2">
+        <node concept="3clFbF" id="3biyEnNTtpX" role="3cqZAp">
+          <node concept="22lmx$" id="3biyEnNTtpY" role="3clFbG">
+            <node concept="2OqwBi" id="3biyEnNTtpZ" role="3uHU7B">
+              <node concept="2OqwBi" id="3biyEnNTtq0" role="2Oq$k0">
+                <node concept="2OqwBi" id="3biyEnNTtq1" role="2Oq$k0">
+                  <node concept="nLn13" id="3biyEnNTtq2" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="3biyEnNTtq3" role="2OqNvi">
+                    <node concept="1xMEDy" id="3biyEnNTtq4" role="1xVPHs">
+                      <node concept="chp4Y" id="3biyEnNTtq5" role="ri$Ld">
                         <ref role="cht4Q" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
                       </node>
                     </node>
-                    <node concept="1xIGOp" id="qwNnoEfsOI" role="1xVPHs" />
+                    <node concept="1xIGOp" id="3biyEnNTtq6" role="1xVPHs" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="qwNnoEfsOJ" role="2OqNvi">
+                <node concept="2qgKlT" id="3biyEnNTtq7" role="2OqNvi">
                   <ref role="37wK5l" to="nh7q:1xHXqL1PbjC" resolve="getUserDefinedConfigs" />
                 </node>
               </node>
-              <node concept="3JPx81" id="qwNnoEfsOK" role="2OqNvi">
-                <node concept="EsrRn" id="qwNnoEfsOL" role="25WWJ7" />
+              <node concept="3JPx81" id="3biyEnNTtq8" role="2OqNvi">
+                <node concept="EsrRn" id="3biyEnNTtq9" role="25WWJ7" />
               </node>
             </node>
-            <node concept="2OqwBi" id="qwNnoEfsOM" role="3uHU7w">
-              <node concept="nLn13" id="qwNnoEfsON" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="qwNnoEfsOO" role="2OqNvi">
-                <node concept="chp4Y" id="qwNnoEfsOP" role="cj9EA">
-                  <ref role="cht4Q" to="2qld:767du_ZKes6" resolve="DisconnectedGraphLayoutAlgorithm" />
+            <node concept="2OqwBi" id="3biyEnNTtqa" role="3uHU7w">
+              <node concept="nLn13" id="3biyEnNTtqb" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="3biyEnNTtqc" role="2OqNvi">
+                <node concept="chp4Y" id="3biyEnNTtqd" role="cj9EA">
+                  <ref role="cht4Q" to="2qld:5Qzx7AqfkbW" resolve="ForceLayoutAlgorithm" />
                 </node>
               </node>
             </node>
@@ -1003,6 +1009,23 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5NyYfie4KDY">
+    <property role="3GE5qa" value="edgeEditor" />
+    <ref role="1M2myG" to="2qld:5NyYfidQYgt" resolve="PredefinedEdgeStyle" />
+    <node concept="9S07l" id="5NyYfie4KGr" role="9Vyp8">
+      <node concept="3clFbS" id="5NyYfie4KGs" role="2VODD2">
+        <node concept="3clFbF" id="5NyYfie4KO_" role="3cqZAp">
+          <node concept="17R0WA" id="5NyYfie4LgR" role="3clFbG">
+            <node concept="359W_D" id="5NyYfie4LMa" role="3uHU7w">
+              <ref role="359W_E" to="2qld:7RbR7LCxiqz" resolve="IEdgeEditor" />
+              <ref role="359W_F" to="2qld:5NyYfidG1Zv" resolve="edgeStyle" />
+            </node>
+            <node concept="2DA6wF" id="5NyYfie4KO$" role="3uHU7B" />
           </node>
         </node>
       </node>

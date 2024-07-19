@@ -4,13 +4,28 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## July 2024
+
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: Preserving the port order works the same way as before to avoid layouting issues. The clear layout style attribute now works properly.
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: ELK layout attributes on the box, edge and label level are now also supported.
+
 ## June 2024
+
+### Added
+
+- *de.itemis.mps.editor.celllayout.styles*: A new style sheet item *full-width-root* was added that can make the root cell of the editor occupy the full editor width. That means that, for example, horizontal lines with a push/grow style will extend to the full editor width as well as all other cells with the same style.
 
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime*: Diagrams can now be used in an headless environment (e.g. for rendering documentation).
 - *de.slisson.mps.editor.multiline.runtime*: A bug was fixed where the multiline cell got a wrong background color set.
 - *de.itemis.mps.editor.diagram.runtime*: The dependency to *de.q60.mps.collections.libs* was removed.
+- *de.itemis.mps.editor.diagram*: Various improvements to diagrams were made. (see: [PR #866](https://github.com/JetBrains/MPS-extensions/pull/866) )
 
 ## May 2024
 

@@ -8,9 +8,10 @@
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
-    <import index="kl84" ref="r:04146354-a55e-4279-a2c9-199d983d46c4(de.itemis.mps.editor.htmlcell.structure)" implicit="true" />
+    <import index="kl84" ref="r:04146354-a55e-4279-a2c9-199d983d46c4(de.itemis.mps.editor.htmlcell.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -37,6 +38,9 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -183,6 +187,38 @@
     </node>
     <node concept="13hLZK" id="7XmAYSGTgVx" role="13h7CW">
       <node concept="3clFbS" id="7XmAYSGTgVy" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1be6WiHagcr">
+    <ref role="13h7C2" to="kl84:7XmAYSGTdxu" resolve="CellModel_HTML" />
+    <node concept="13hLZK" id="1be6WiHagcs" role="13h7CW">
+      <node concept="3clFbS" id="1be6WiHagct" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHagiI" role="13h7CS">
+      <property role="TrG5h" value="getOpeningText" />
+      <ref role="13i0hy" to="tpcb:hKxU$w9" resolve="getOpeningText" />
+      <node concept="3Tm1VV" id="1be6WiHagiJ" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHagiO" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHagq7" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHagq6" role="3clFbG">
+            <property role="Xl_RC" value="[" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHagiP" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1be6WiHagiU" role="13h7CS">
+      <property role="TrG5h" value="getClosingText" />
+      <ref role="13i0hy" to="tpcb:hKxUEwj" resolve="getClosingText" />
+      <node concept="3Tm1VV" id="1be6WiHagiV" role="1B3o_S" />
+      <node concept="3clFbS" id="1be6WiHagj0" role="3clF47">
+        <node concept="3clFbF" id="1be6WiHagw4" role="3cqZAp">
+          <node concept="Xl_RD" id="1be6WiHagw3" role="3clFbG">
+            <property role="Xl_RC" value="]" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1be6WiHagj1" role="3clF45" />
     </node>
   </node>
 </model>

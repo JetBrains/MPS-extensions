@@ -10004,6 +10004,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.shadowmodels.genplan" />
         <property role="3LESm3" value="f5997610-4d27-40a3-872c-d06cf404755b" />
+        <property role="3vZFNd" value="3kCd1ud3JDF/none" />
         <node concept="398BVA" id="1RCZH7X6p$k" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="1RCZH7X6pQP" role="iGT6I">
@@ -12285,6 +12286,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.q60.mps.virtualinterfaces.genplan" />
         <property role="3LESm3" value="4c0d9543-a1b0-4384-8a5d-1cb92075413c" />
+        <property role="3vZFNd" value="3kCd1ud3JDF/none" />
         <node concept="398BVA" id="4hqUO9aIgA1" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="4hqUO9aIgGT" role="iGT6I">

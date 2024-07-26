@@ -70,6 +70,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="5404671619616246344" name="staticScope" index="2_RsDV" />
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
@@ -91,7 +92,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -105,6 +106,7 @@
       <property role="TrG5h" value="disableEdgeRouting" />
       <property role="IQ2nx" value="4787596715132191458" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="asaX9" id="7c8nz5G_rYp" role="lGtFl" />
     </node>
     <node concept="1TJgyi" id="45g3j8ia4nb" role="1TKVEl">
       <property role="IQ2nx" value="4706276119306323403" />
@@ -153,7 +155,7 @@
       <property role="IQ2ns" value="6910723851735171798" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="buttonConfig" />
-      <ref role="20lvS9" node="5ZBOFE3vobP" resolve="DiagramButtonConfig" />
+      <ref role="20lvS9" node="2ZU2kH0xQFQ" resolve="IDiagramButtonConfig" />
     </node>
     <node concept="1TJgyj" id="5wo2$NmYE$b" role="1TKVEi">
       <property role="IQ2ns" value="6347834999919257867" />
@@ -171,6 +173,30 @@
       <property role="IQ2ns" value="5018298105379062639" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="autoLayoutOnInit" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="2YP06h888s" role="1TKVEi">
+      <property role="IQ2ns" value="53713348769907228" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="autoLayoutOnChange" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="YGA9S6CFKO" role="1TKVEi">
+      <property role="IQ2ns" value="1129445411046734900" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="fitToSizeOnInit" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="1wIvqM8yssA" role="1TKVEi">
+      <property role="IQ2ns" value="1742468285817538342" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="disableNodeEditing" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
+    <node concept="1TJgyj" id="6OfpnAf34o9" role="1TKVEi">
+      <property role="IQ2ns" value="7858611447550199305" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="syncWithModelOnlyOnOpening" />
       <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
@@ -222,6 +248,12 @@
     <property role="34LRSv" value="diagram.box" />
     <property role="EcuMT" value="6237710625713195816" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="56H44TyrBld" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="boxID" />
+      <property role="IQ2ns" value="5885378216888005965" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="1mYz8rWOnbW" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ports2" />
@@ -1230,6 +1262,9 @@
     <node concept="PrWs8" id="5FQFTBpX7MY" role="PzmwI">
       <ref role="PrY4T" node="5FQFTBpWGk2" resolve="IPort" />
     </node>
+    <node concept="PrWs8" id="4pZT8JhtD0_" role="PzmwI">
+      <ref role="PrY4T" to="tpc2:hJF0Tl2" resolve="IStyleContainer" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5FQFTBpWGk2">
     <property role="TrG5h" value="IPort" />
@@ -1582,6 +1617,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="curved" />
       <property role="IQ2ns" value="6358960566596428706" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="5NyYfidG1Zv" role="1TKVEi">
+      <property role="IQ2ns" value="6693185725458816991" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="edgeStyle" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="7tKD69sBN6G" role="1TKVEi">
@@ -2093,7 +2134,7 @@
     <property role="EcuMT" value="6910723851735106293" />
     <property role="3GE5qa" value="config" />
     <property role="TrG5h" value="DiagramButtonConfig" />
-    <property role="34LRSv" value="diagram button configuration" />
+    <property role="34LRSv" value="button configuration" />
     <ref role="1TJDcQ" node="1xHXqL1PbjB" resolve="UserDefinedConfig" />
     <node concept="1TJgyi" id="5ZBOFE3vtwC" role="1TKVEl">
       <property role="IQ2nx" value="6910723851735128104" />
@@ -2103,6 +2144,12 @@
     <node concept="1TJgyi" id="5ZBOFE3vtwE" role="1TKVEl">
       <property role="IQ2nx" value="6910723851735128106" />
       <property role="TrG5h" value="hasRelayoutAllEdgesButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="asaX9" id="2ZU2kH0jA8r" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="2ZU2kH0jA_x" role="1TKVEl">
+      <property role="IQ2nx" value="3457085882766354785" />
+      <property role="TrG5h" value="hasMoveToViewerButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="5ZBOFE3vtwH" role="1TKVEl">
@@ -2132,8 +2179,36 @@
     </node>
     <node concept="1TJgyi" id="2pXhcZQn1mg" role="1TKVEl">
       <property role="IQ2nx" value="2773448605512242576" />
-      <property role="TrG5h" value="hasShowPortsLabels" />
+      <property role="TrG5h" value="hasShowPortsLabelsButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5SSrxUjqkgN" role="1TKVEl">
+      <property role="IQ2nx" value="6789297515862246451" />
+      <property role="TrG5h" value="hasShowAllEdgesButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2ZU2kH0jAMG" role="1TKVEl">
+      <property role="IQ2nx" value="3457085882766355628" />
+      <property role="TrG5h" value="hasTranslateToOriginButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2ZU2kH0jB7A" role="1TKVEl">
+      <property role="IQ2nx" value="3457085882766356966" />
+      <property role="TrG5h" value="hasPNGExportButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2ZU2kH0jByh" role="1TKVEl">
+      <property role="IQ2nx" value="3457085882766358673" />
+      <property role="TrG5h" value="hasSVGExportButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="1Va40GQyvqR" role="1TKVEl">
+      <property role="IQ2nx" value="2218603406779086519" />
+      <property role="TrG5h" value="hasClearLayoutInfoButton" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="2ZU2kH0xRJy" role="PzmwI">
+      <ref role="PrY4T" node="2ZU2kH0xQFQ" resolve="IDiagramButtonConfig" />
     </node>
   </node>
   <node concept="25R3W" id="7WTFIQIcYq4">
@@ -2854,6 +2929,12 @@
       <property role="20kJfa" value="padding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
+    <node concept="1TJgyj" id="4bryhcnTx1k" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501214804" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
   </node>
   <node concept="25R3W" id="2T42Bz29pU4">
     <property role="3F6X1D" value="3333801137930608260" />
@@ -2974,6 +3055,12 @@
     </node>
     <node concept="1sEMCm" id="56jSwh$g_vs" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+    <node concept="1TJgyj" id="4bryhcnKuAy" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941498845602" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
   </node>
   <node concept="25R3W" id="3biyEnOlBgI">
@@ -3331,6 +3418,12 @@
     </node>
     <node concept="PrWs8" id="3biyEnOdu$o" role="PzmwI">
       <ref role="PrY4T" node="3biyEnOdub7" resolve="ISupportTopdownPacking" />
+    </node>
+    <node concept="1TJgyj" id="4bryhcnTxcp" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501215513" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
   </node>
   <node concept="25R3W" id="3biyEnO41wY">
@@ -4710,6 +4803,12 @@
     <node concept="1sEMCm" id="qwNnoDNvBS" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
     </node>
+    <node concept="1TJgyj" id="4bryhcnTxvc" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501216716" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
   </node>
   <node concept="25R3W" id="3biyEnOlLB8">
     <property role="3F6X1D" value="3662141892379220424" />
@@ -4816,6 +4915,12 @@
     <node concept="1sEMCm" id="56jSwh$RMN7" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
     </node>
+    <node concept="1TJgyj" id="4bryhcnTxnr" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501216219" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
   </node>
   <node concept="25R3W" id="qwNnoEfmoh">
     <property role="3F6X1D" value="477607467899774481" />
@@ -4839,6 +4944,124 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4zQzqoUKULI" role="PzmwI">
       <ref role="PrY4T" node="7k8PWDQ7PE0" resolve="ILayoutAlgorithm" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5NyYfidQSP5">
+    <property role="3F6X1D" value="6693185725461663045" />
+    <property role="3GE5qa" value="edgeEditor" />
+    <property role="TrG5h" value="EdgeStyle" />
+    <ref role="1H5jkz" node="5NyYfiehO7W" resolve="none" />
+    <node concept="25R33" id="5NyYfidQVgq" role="25R1y">
+      <property role="3tVfz5" value="6693185725461672986" />
+      <property role="TrG5h" value="de_itemis_mps_editor_diagram_runtime_jgraph_MyEdgeStyle" />
+      <property role="1L1pqM" value="custom with transform control points" />
+    </node>
+    <node concept="25R33" id="5NyYfiehO7W" role="25R1y">
+      <property role="3tVfz5" value="6693185725468721660" />
+      <property role="TrG5h" value="none" />
+      <property role="1L1pqM" value="none" />
+    </node>
+    <node concept="25R33" id="5NyYfidQSP6" role="25R1y">
+      <property role="3tVfz5" value="6693185725461663046" />
+      <property role="TrG5h" value="entityRelationEdgeStyle" />
+      <property role="1L1pqM" value="entity relation" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTaI" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664430" />
+      <property role="1L1pqM" value="loop" />
+      <property role="TrG5h" value="loopEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTaN" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664435" />
+      <property role="1L1pqM" value="elbow" />
+      <property role="TrG5h" value="elbowEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTaW" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664444" />
+      <property role="1L1pqM" value="side to side" />
+      <property role="TrG5h" value="sideToSideEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTb6" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664454" />
+      <property role="1L1pqM" value="top to bottom" />
+      <property role="TrG5h" value="topToBottomEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTbi" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664466" />
+      <property role="1L1pqM" value="segment connector" />
+      <property role="TrG5h" value="segmentEdgeStyle" />
+    </node>
+    <node concept="25R33" id="5NyYfidQTc2" role="25R1y">
+      <property role="3tVfz5" value="6693185725461664514" />
+      <property role="1L1pqM" value="orthogonal" />
+      <property role="TrG5h" value="orthogonalEdgeStyle" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2ZU2kH0xQFQ">
+    <property role="EcuMT" value="3457085882770090742" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="IDiagramButtonConfig" />
+  </node>
+  <node concept="1TIwiD" id="gTQ80DJ">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="ConceptFunctionParameter_mxCellState" />
+    <property role="2_RsDV" value="4G1g3fIR8JG/none" />
+    <property role="3GE5qa" value="config" />
+    <property role="34LRSv" value="state" />
+    <property role="EcuMT" value="1161622981231" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="2ZU2kH0rOtL">
+    <property role="EcuMT" value="3457085882768508785" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="CustomDiagramButtonConfig" />
+    <property role="34LRSv" value="custom configuration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2ZU2kH0rSpI" role="1TKVEi">
+      <property role="IQ2ns" value="3457085882768524910" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="root" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="gCpkWun" resolve="QueryFunction_Buttons" />
+    </node>
+    <node concept="1TJgyj" id="74e51JiKqd8" role="1TKVEi">
+      <property role="IQ2ns" value="8146470885692384072" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="vertex" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="gCpkWun" resolve="QueryFunction_Buttons" />
+    </node>
+    <node concept="1TJgyj" id="74e51JlmriF" role="1TKVEi">
+      <property role="IQ2ns" value="8146470885735904427" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="edge" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="gCpkWun" resolve="QueryFunction_Buttons" />
+    </node>
+    <node concept="PrWs8" id="2ZU2kH0xRXo" role="PzmwI">
+      <ref role="PrY4T" node="2ZU2kH0xQFQ" resolve="IDiagramButtonConfig" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="gCpkWun">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="QueryFunction_Buttons" />
+    <property role="2_RsDV" value="4G1g3fIR8JG/none" />
+    <property role="3GE5qa" value="config" />
+    <property role="34LRSv" value="buttons" />
+    <property role="EcuMT" value="1142886221719" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="5NyYfidQYgt">
+    <property role="EcuMT" value="6693185725461685277" />
+    <property role="3GE5qa" value="edgeEditor" />
+    <property role="TrG5h" value="PredefinedEdgeStyle" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="5NyYfidQYC2" role="1TKVEl">
+      <property role="IQ2nx" value="6693185725461686786" />
+      <property role="TrG5h" value="style" />
+      <ref role="AX2Wp" node="5NyYfidQSP5" resolve="EdgeStyle" />
     </node>
   </node>
 </model>

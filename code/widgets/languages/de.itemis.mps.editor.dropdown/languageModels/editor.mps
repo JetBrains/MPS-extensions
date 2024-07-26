@@ -20,22 +20,15 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
-      <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
-        <property id="1186414551515" name="flag" index="VOm3f" />
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
-      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
-      </concept>
-      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
-        <property id="1073389577007" name="text" index="3F0ifm" />
-      </concept>
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
-        <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
@@ -45,20 +38,23 @@
   </registry>
   <node concept="24kQdi" id="_i_acSf75t">
     <ref role="1XX52x" to="9b3t:_i_acSf54w" resolve="CellModel_DropDown" />
-    <node concept="3EZMnI" id="_i_acSfcTc" role="2wV5jI">
-      <node concept="3F0ifn" id="_i_acSfcTe" role="3EZMnx">
-        <property role="3F0ifm" value="dropdown" />
-      </node>
-      <node concept="3F1sOY" id="_i_acSfcTm" role="3EZMnx">
-        <ref role="1NtTu8" to="9b3t:_i_acSf75m" resolve="labelCell" />
-      </node>
-      <node concept="2iRfu4" id="_i_acSfcTf" role="2iSdaV" />
-      <node concept="VPXOz" id="_i_acSfih1" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-    </node>
     <node concept="PMmxH" id="hF4FFz6" role="6VMZX">
       <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+    </node>
+    <node concept="3EZMnI" id="1be6WiHa4m$" role="2wV5jI">
+      <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+      <node concept="PMmxH" id="1be6WiHa4m_" role="3EZMnx">
+        <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+        <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+      </node>
+      <node concept="3F1sOY" id="1be6WiHaf_7" role="3EZMnx">
+        <ref role="1NtTu8" to="9b3t:_i_acSf75m" resolve="labelCell" />
+      </node>
+      <node concept="PMmxH" id="1be6WiHa4mC" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+        <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+      </node>
+      <node concept="2iRfu4" id="1be6WiHa4mD" role="2iSdaV" />
     </node>
   </node>
 </model>

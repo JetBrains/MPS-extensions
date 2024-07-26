@@ -289,5 +289,11 @@
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6W5Xfjf4T8A">
+    <property role="TrG5h" value="FullWidthRootStyle" />
+    <property role="34LRSv" value="full-width-root" />
+    <property role="EcuMT" value="8000069645376918054" />
+    <ref role="1TJDcQ" node="2nutuZsKn6Q" resolve="BooleanStyle" />
+  </node>
 </model>
 

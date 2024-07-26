@@ -5,8 +5,8 @@
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
   </languages>
   <imports>
+    <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
     <import index="1d4c" ref="r:7f43e4ab-5881-4ab5-a0b9-d27c04d2a2ce(de.itemis.mps.editor.pagination.structure)" implicit="true" />
-    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -25,14 +25,13 @@
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styles" index="V601i" />
       </concept>
-      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
-        <property id="1186403713874" name="color" index="Vb096" />
-      </concept>
-      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
+      </concept>
       <concept id="3982520150113085419" name="jetbrains.mps.lang.editor.structure.StyleAttributeDeclaration" flags="ig" index="3t5Usi">
         <child id="3982520150113147643" name="defaultValue" index="3t49C2" />
         <child id="3982520150113092206" name="valueType" index="3t5Oan" />
@@ -68,17 +67,20 @@
   <node concept="24kQdi" id="2iSRtQtCL7D">
     <ref role="1XX52x" to="1d4c:2iSRtQtBV$6" resolve="Paginate_CellModel" />
     <node concept="3EZMnI" id="1ndn0Iae4WT" role="2wV5jI">
-      <node concept="3EZMnI" id="2iSRtQtCL7F" role="3EZMnx">
-        <node concept="PMmxH" id="1ndn0Iam711" role="3EZMnx">
-          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-          <node concept="Veino" id="1ndn0Iam71J" role="3F10Kt">
-            <property role="Vb096" value="fLJRk5_/gray" />
-          </node>
+      <node concept="3EZMnI" id="1be6WiHa$Bx" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+        <node concept="PMmxH" id="1be6WiHa$By" role="3EZMnx">
+          <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
         </node>
-        <node concept="2iRfu4" id="2iSRtQtCL7I" role="2iSdaV" />
-        <node concept="3F1sOY" id="2iSRtQtCL7S" role="3EZMnx">
+        <node concept="3F1sOY" id="1be6WiHaBSF" role="3EZMnx">
           <ref role="1NtTu8" to="1d4c:2iSRtQtCL7w" resolve="collectionToPaginate" />
         </node>
+        <node concept="PMmxH" id="1be6WiHa$B_" role="3EZMnx">
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+          <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+        </node>
+        <node concept="2iRfu4" id="1be6WiHa$BA" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="1ndn0Iae54k" role="3EZMnx">
         <node concept="3F0ifn" id="1ndn0IadIhW" role="3EZMnx">

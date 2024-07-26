@@ -36,12 +36,16 @@
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styles" index="V601i" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
         <property id="1238091709220" name="labelName" index="1413C4" />
@@ -93,8 +97,21 @@
   <node concept="24kQdi" id="9L22EoX1XI">
     <ref role="1XX52x" to="x4fh:1lPTJf7_6lc" resolve="CellModel_MathBase" />
     <node concept="3EZMnI" id="9L22EoX1Yz" role="2wV5jI">
-      <node concept="3F0ifn" id="9L22EoX1YE" role="3EZMnx">
-        <property role="3F0ifm" value="math" />
+      <node concept="3EZMnI" id="1be6WiHa4m$" role="3EZMnx">
+        <ref role="1k5W1q" to="tpc5:hX5ZSzR" resolve="borderedCollection" />
+        <node concept="PMmxH" id="1be6WiHa4m_" role="3EZMnx">
+          <ref role="PMmxG" to="tpc5:h7TMiuR" resolve="_OpenTag" />
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+        </node>
+        <node concept="3F0ifn" id="1be6WiHa4mA" role="3EZMnx">
+          <property role="3F0ifm" value="math" />
+          <node concept="Vb9p2" id="1be6WiHa4mB" role="3F10Kt" />
+        </node>
+        <node concept="PMmxH" id="1be6WiHa4mC" role="3EZMnx">
+          <ref role="1k5W1q" to="tpc5:i12920y" resolve="tag" />
+          <ref role="PMmxG" to="tpc5:h7TMK$j" resolve="_CloseTag" />
+        </node>
+        <node concept="2iRfu4" id="1be6WiHa4mD" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="5fk$COuBDmu" role="3EZMnx">
         <property role="S$Qs1" value="true" />

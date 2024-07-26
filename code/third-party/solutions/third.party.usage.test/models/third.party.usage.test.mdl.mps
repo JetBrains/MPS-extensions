@@ -5,7 +5,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
   </languages>
   <imports>
-    <import index="lhlt" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind.node(MPS.ThirdParty/)" />
+    <import index="3oi6" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.jetbrains.jsonSchema(MPS.ThirdParty/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -37,7 +37,7 @@
       <property role="TrG5h" value="jacksonStuff" />
       <node concept="3Tm1VV" id="6wECU8wtfSU" role="1B3o_S" />
       <node concept="3uibUv" id="6yNnJSJYgI_" role="1tU5fm">
-        <ref role="3uigEE" to="lhlt:~ArrayNode" resolve="ArrayNode" />
+        <ref role="3uigEE" to="3oi6:~JsonMappingKind" resolve="JsonMappingKind" />
       </node>
     </node>
     <node concept="3Tm1VV" id="6wECU8wtfQI" role="1B3o_S" />

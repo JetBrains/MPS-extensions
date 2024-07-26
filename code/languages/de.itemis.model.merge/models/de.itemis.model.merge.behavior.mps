@@ -1036,6 +1036,27 @@
             </node>
           </node>
           <node concept="3clFbS" id="78fCHIE_fQ1" role="Jncv$">
+            <node concept="3clFbJ" id="5pTzEX$3GZz" role="3cqZAp">
+              <node concept="3clFbS" id="5pTzEX$3GZ_" role="3clFbx">
+                <node concept="3cpWs6" id="5pTzEX$3TRH" role="3cqZAp">
+                  <node concept="2YIFZM" id="5pTzEX$3UqM" role="3cqZAk">
+                    <ref role="37wK5l" to="33ny:~Collections.emptyList()" resolve="emptyList" />
+                    <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5pTzEX$3RXd" role="3clFbw">
+                <node concept="2OqwBi" id="5pTzEX$3Inr" role="2Oq$k0">
+                  <node concept="Jnkvi" id="5pTzEX$3Hz2" role="2Oq$k0">
+                    <ref role="1M0zk5" node="78fCHIE_fQF" resolve="li" />
+                  </node>
+                  <node concept="2yIwOk" id="5pTzEX$3R2B" role="2OqNvi" />
+                </node>
+                <node concept="liA8E" id="5pTzEX$3TaT" role="2OqNvi">
+                  <ref role="37wK5l" to="c17a:~SAbstractConcept.isAbstract()" resolve="isAbstract" />
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="78fCHIE_fQ2" role="3cqZAp">
               <node concept="3cpWsn" id="78fCHIE_fQ3" role="3cpWs9">
                 <property role="TrG5h" value="language" />

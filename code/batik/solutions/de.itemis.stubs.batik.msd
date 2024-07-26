@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.itemis.stubs.batik" uuid="563a0770-eb88-4f4f-83ed-f708776fc2fe" moduleVersion="0">
   <models>
-    <modelRoot type="java_classes" contentPath="${module}/lib">
+    <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="batik-awt-util.jar" />
       <sourceRoot location="batik-constants.jar" />
       <sourceRoot location="batik-css.jar" />
@@ -16,7 +16,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="mps" classes="mps" ext="no">
+    <facet type="java" compile="off" classes="mps" ext="yes" languageLevel="JAVA_8">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/batik-awt-util.jar" />
       <library location="${module}/lib/batik-constants.jar" />

@@ -13,7 +13,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="mps" classes="mps" ext="yes">
+    <facet type="java" compile="off" classes="mps" ext="no" languageLevel="JAVA_8">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/kotlin-logging-jvm.jar" />
       <library location="${module}/lib/kotlin-stdlib-common.jar" />

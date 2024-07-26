@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="de.q60.mps.collections.libs" uuid="ecfb9949-7433-4db5-85de-0f84d172e4ce" moduleVersion="0">
   <models>
-    <modelRoot contentPath="${module}" type="default" />
     <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="trove4j-3.0.3.jar" />
       <sourceRoot location="vavr-0.9.3.jar" />
@@ -10,7 +9,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" compile="mps" classes="mps" ext="no">
+    <facet type="java" compile="off" classes="mps" ext="yes" languageLevel="JAVA_8">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/trove4j-3.0.3.jar" />
       <library location="${module}/lib/vavr-0.9.3.jar" />

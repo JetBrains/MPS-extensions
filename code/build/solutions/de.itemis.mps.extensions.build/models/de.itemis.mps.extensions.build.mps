@@ -10005,6 +10005,7 @@
         <property role="TrG5h" value="de.q60.mps.shadowmodels.genplan" />
         <property role="3LESm3" value="f5997610-4d27-40a3-872c-d06cf404755b" />
         <property role="3vZFNd" value="3kCd1ud3JDF/none" />
+        <property role="aoJFB" value="77WRb6jODAF/none" />
         <node concept="398BVA" id="1RCZH7X6p$k" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="1RCZH7X6pQP" role="iGT6I">
@@ -12287,6 +12288,7 @@
         <property role="TrG5h" value="de.q60.mps.virtualinterfaces.genplan" />
         <property role="3LESm3" value="4c0d9543-a1b0-4384-8a5d-1cb92075413c" />
         <property role="3vZFNd" value="3kCd1ud3JDF/none" />
+        <property role="aoJFB" value="77WRb6jODAF/none" />
         <node concept="398BVA" id="4hqUO9aIgA1" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="4hqUO9aIgGT" role="iGT6I">
@@ -12532,6 +12534,8 @@
       <node concept="1E1JtA" id="6fQhGuklQWU" role="2G$12L">
         <property role="TrG5h" value="de.q60.mps.collections.libs" />
         <property role="3LESm3" value="ecfb9949-7433-4db5-85de-0f84d172e4ce" />
+        <property role="3vZFNd" value="3kCd1ud3JDF/none" />
+        <property role="aoJFB" value="77WRb6jODAF/none" />
         <node concept="398BVA" id="6fQhGuklR81" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="42yR2aTbyNG" role="iGT6I">
@@ -12666,6 +12670,8 @@
       <node concept="1E1JtA" id="6bkzxtWPDx1" role="2G$12L">
         <property role="TrG5h" value="de.itemis.stubs.batik" />
         <property role="3LESm3" value="563a0770-eb88-4f4f-83ed-f708776fc2fe" />
+        <property role="3vZFNd" value="3kCd1ud3JDF/none" />
+        <property role="aoJFB" value="77WRb6jODAF/none" />
         <node concept="398BVA" id="6bkzxtWPDx2" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="6bkzxtWPDx3" role="iGT6I">
@@ -13344,6 +13350,7 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modelix.model.api" />
         <property role="3LESm3" value="cc99dce1-49f3-4392-8dbf-e22ca47bd0af" />
+        <property role="3vZFNd" value="3kCd1ud3JDF/none" />
         <node concept="398BVA" id="5U8hsWC70GO" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5U8hsWC71b5" role="iGT6I">

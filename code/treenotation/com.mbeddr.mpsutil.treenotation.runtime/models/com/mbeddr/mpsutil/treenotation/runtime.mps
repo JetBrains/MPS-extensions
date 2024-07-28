@@ -10570,41 +10570,17 @@
           </node>
         </node>
         <node concept="3clFbH" id="2rPTijxCTie" role="3cqZAp" />
-        <node concept="3clFbH" id="2rPTijxCTif" role="3cqZAp" />
-        <node concept="3SKdUt" id="2rPTijxCTig" role="3cqZAp">
-          <node concept="1PaTwC" id="17qUVvSZlRP" role="1aUNEU">
-            <node concept="3oM_SD" id="17qUVvSZlRQ" role="1PaTwD">
-              <property role="3oM_SC" value="delete" />
+        <node concept="3clFbF" id="1g$O6okcGur" role="3cqZAp">
+          <node concept="1rXfSq" id="1g$O6okcGup" role="3clFbG">
+            <ref role="37wK5l" node="5pTzEXzrBOC" resolve="layoutDeleteButtons" />
+            <node concept="37vLTw" id="1g$O6okd2DA" role="37wK5m">
+              <ref role="3cqZAo" node="2rPTijxCTdK" resolve="childrenBounds" />
             </node>
-            <node concept="3oM_SD" id="17qUVvSZlRR" role="1PaTwD">
-              <property role="3oM_SC" value="buttons" />
+            <node concept="37vLTw" id="1g$O6okdh4m" role="37wK5m">
+              <ref role="3cqZAo" node="2rPTijxCAfm" resolve="tree" />
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5pTzEXzsfoT" role="3cqZAp">
-          <node concept="2OqwBi" id="2rPTijxCTmQ" role="3clFbG">
-            <node concept="37vLTw" id="2rPTijxCTmR" role="2Oq$k0">
-              <ref role="3cqZAo" node="2rPTijxCTdZ" resolve="insertButtons" />
-            </node>
-            <node concept="2es0OD" id="2rPTijxCTmS" role="2OqNvi">
-              <node concept="1bVj0M" id="2rPTijxCTmT" role="23t8la">
-                <node concept="3clFbS" id="2rPTijxCTmU" role="1bW5cS">
-                  <node concept="3clFbF" id="2rPTijxCTmV" role="3cqZAp">
-                    <node concept="2OqwBi" id="2rPTijxCTmW" role="3clFbG">
-                      <node concept="37vLTw" id="2rPTijxCTmX" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7Z$RfkF7JcR" resolve="it" />
-                      </node>
-                      <node concept="liA8E" id="2rPTijxCTmY" role="2OqNvi">
-                        <ref role="37wK5l" to="g51k:~EditorCell_Basic.relayout()" resolve="relayout" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="gl6BB" id="7Z$RfkF7JcR" role="1bW2Oz">
-                  <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="7Z$RfkF7JcS" role="1tU5fm" />
-                </node>
-              </node>
+            <node concept="37vLTw" id="1g$O6okdjqa" role="37wK5m">
+              <ref role="3cqZAo" node="2rPTijxCTcX" resolve="transposed" />
             </node>
           </node>
         </node>

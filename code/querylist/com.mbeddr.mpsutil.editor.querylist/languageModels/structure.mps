@@ -50,7 +50,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -118,11 +118,6 @@
     <node concept="1TJgyi" id="5qrsiYWrGSx" role="1TKVEl">
       <property role="TrG5h" value="collapseByDefault" />
       <property role="IQ2nx" value="6240706158490734113" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="T_6DrmCUS2" role="1TKVEl">
-      <property role="IQ2nx" value="1037264524327235074" />
-      <property role="TrG5h" value="disableModelChecking" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyj" id="5oklODae9g3" role="1TKVEi">
@@ -226,6 +221,11 @@
     </node>
     <node concept="PrWs8" id="57wonSM2T_V" role="PzmwI">
       <ref role="PrY4T" to="tpc2:itlittTD3X" resolve="LayoutContainer" />
+    </node>
+    <node concept="1TJgyi" id="T_6DrmCUS2" role="1TKVEl">
+      <property role="IQ2nx" value="1037264524327235074" />
+      <property role="TrG5h" value="disableModelChecking" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="5oklODadpyz">

@@ -92,7 +92,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -457,6 +457,11 @@
   <node concept="PlHQZ" id="5qgNcfDnW3k">
     <property role="TrG5h" value="IDiagramCell" />
     <property role="EcuMT" value="6237710625714192596" />
+  </node>
+  <node concept="1TIwiD" id="5qgNcfDxwxf">
+    <property role="TrG5h" value="Function_GetNode" />
+    <property role="EcuMT" value="6237710625716701263" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="4X6FKySlRMp">
     <property role="TrG5h" value="Function_SetConnectionEndpoint" />
@@ -2498,12 +2503,6 @@
       <property role="20kJfa" value="padding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
-    <node concept="1TJgyj" id="4bryhcnTx1k" role="1TKVEi">
-      <property role="IQ2ns" value="4817594941501214804" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="nodeSizeMinimumPadding" />
-      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
-    </node>
     <node concept="1TJgyi" id="1MAkSr5clWS" role="1TKVEl">
       <property role="IQ2nx" value="2064429317495021368" />
       <property role="TrG5h" value="subdiagramDirection" />
@@ -2930,6 +2929,12 @@
     <node concept="PrWs8" id="3biyEnOlNRV" role="PzmwI">
       <ref role="PrY4T" node="3biyEnOdub7" resolve="ISupportTopdownPacking" />
     </node>
+    <node concept="1TJgyj" id="4bryhcnTx1k" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501214804" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
+    </node>
   </node>
   <node concept="25R3W" id="2T42Bz29pU4">
     <property role="3F6X1D" value="3333801137930608260" />
@@ -3183,12 +3188,6 @@
       <property role="20kJfa" value="padding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
-    <node concept="1TJgyj" id="4bryhcnKuAy" role="1TKVEi">
-      <property role="IQ2ns" value="4817594941498845602" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="nodeSizeMinimumPadding" />
-      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
-    </node>
     <node concept="1TJgyi" id="56jSwh$gAxq" role="1TKVEl">
       <property role="IQ2nx" value="5878290447138449498" />
       <property role="TrG5h" value="aspectRatio" />
@@ -3216,6 +3215,12 @@
     </node>
     <node concept="1sEMCm" id="56jSwh$g_vs" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+    <node concept="1TJgyj" id="4bryhcnKuAy" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941498845602" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
   </node>
   <node concept="1TIwiD" id="56jSwh$gEVe">
@@ -3250,12 +3255,6 @@
     <property role="TrG5h" value="RadialLayoutConfig" />
     <property role="34LRSv" value="radial layout config" />
     <ref role="1TJDcQ" node="1kJMeaHH6c1" resolve="BaseDiagramLayoutConfig" />
-    <node concept="1TJgyj" id="4bryhcnTxnr" role="1TKVEi">
-      <property role="IQ2ns" value="4817594941501216219" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="nodeSizeMinimumPadding" />
-      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
-    </node>
     <node concept="1TJgyi" id="56jSwh$RN2a" role="1TKVEl">
       <property role="IQ2nx" value="5878290447148724362" />
       <property role="TrG5h" value="additionalWedgeSpace" />
@@ -3323,6 +3322,12 @@
     </node>
     <node concept="1sEMCm" id="56jSwh$RMN7" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+    <node concept="1TJgyj" id="4bryhcnTxnr" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501216219" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
   </node>
   <node concept="25R3W" id="56jSwh$RNll">
@@ -3447,12 +3452,6 @@
       <property role="20kJfa" value="padding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
-    <node concept="1TJgyj" id="4bryhcnTxvc" role="1TKVEi">
-      <property role="IQ2ns" value="4817594941501216716" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="nodeSizeMinimumPadding" />
-      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
-    </node>
     <node concept="1TJgyi" id="qwNnoDNw2b" role="1TKVEl">
       <property role="IQ2nx" value="477607467892473995" />
       <property role="TrG5h" value="aspectRatio" />
@@ -3530,6 +3529,12 @@
     </node>
     <node concept="1sEMCm" id="qwNnoDNvBS" role="bvy1s">
       <property role="1sEMCp" value="https://www.eclipse.org/elk/reference/options.html" />
+    </node>
+    <node concept="1TJgyj" id="4bryhcnTxvc" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501216716" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
   </node>
   <node concept="25R3W" id="qwNnoDNwqj">
@@ -3769,12 +3774,6 @@
       <property role="20kJfa" value="padding" />
       <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
-    <node concept="1TJgyj" id="4bryhcnTxcp" role="1TKVEi">
-      <property role="IQ2ns" value="4817594941501215513" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="nodeSizeMinimumPadding" />
-      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
-    </node>
     <node concept="1TJgyi" id="qwNnoEIEEL" role="1TKVEl">
       <property role="IQ2nx" value="477607467907984049" />
       <property role="TrG5h" value="aspectRatio" />
@@ -3845,6 +3844,12 @@
     </node>
     <node concept="PrWs8" id="3biyEnOdu$o" role="PzmwI">
       <ref role="PrY4T" node="3biyEnOdub7" resolve="ISupportTopdownPacking" />
+    </node>
+    <node concept="1TJgyj" id="4bryhcnTxcp" role="1TKVEi">
+      <property role="IQ2ns" value="4817594941501215513" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="nodeSizeMinimumPadding" />
+      <ref role="20lvS9" node="56jSwh$gEVe" resolve="Padding" />
     </node>
   </node>
   <node concept="25R3W" id="qwNnoEIFHe">
@@ -4992,16 +4997,20 @@
       <property role="TrG5h" value="orthogonalEdgeStyle" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5NyYfidQYgt">
-    <property role="EcuMT" value="6693185725461685277" />
-    <property role="3GE5qa" value="edgeEditor" />
-    <property role="TrG5h" value="PredefinedEdgeStyle" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyi" id="5NyYfidQYC2" role="1TKVEl">
-      <property role="IQ2nx" value="6693185725461686786" />
-      <property role="TrG5h" value="style" />
-      <ref role="AX2Wp" node="5NyYfidQSP5" resolve="EdgeStyle" />
-    </node>
+  <node concept="PlHQZ" id="2ZU2kH0xQFQ">
+    <property role="EcuMT" value="3457085882770090742" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="IDiagramButtonConfig" />
+  </node>
+  <node concept="1TIwiD" id="gTQ80DJ">
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="ConceptFunctionParameter_mxCellState" />
+    <property role="2_RsDV" value="4G1g3fIR8JG/none" />
+    <property role="3GE5qa" value="config" />
+    <property role="34LRSv" value="state" />
+    <property role="EcuMT" value="1161622981231" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
   <node concept="1TIwiD" id="2ZU2kH0rOtL">
     <property role="EcuMT" value="3457085882768508785" />
@@ -5044,25 +5053,16 @@
     <property role="EcuMT" value="1142886221719" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
-  <node concept="1TIwiD" id="gTQ80DJ">
-    <property role="R5$K7" value="false" />
-    <property role="R5$K2" value="false" />
-    <property role="TrG5h" value="ConceptFunctionParameter_mxCellState" />
-    <property role="2_RsDV" value="4G1g3fIR8JG/none" />
-    <property role="3GE5qa" value="config" />
-    <property role="34LRSv" value="state" />
-    <property role="EcuMT" value="1161622981231" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="PlHQZ" id="2ZU2kH0xQFQ">
-    <property role="EcuMT" value="3457085882770090742" />
-    <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="IDiagramButtonConfig" />
-  </node>
-  <node concept="1TIwiD" id="5qgNcfDxwxf">
-    <property role="TrG5h" value="Function_GetNode" />
-    <property role="EcuMT" value="6237710625716701263" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  <node concept="1TIwiD" id="5NyYfidQYgt">
+    <property role="EcuMT" value="6693185725461685277" />
+    <property role="3GE5qa" value="edgeEditor" />
+    <property role="TrG5h" value="PredefinedEdgeStyle" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="5NyYfidQYC2" role="1TKVEl">
+      <property role="IQ2nx" value="6693185725461686786" />
+      <property role="TrG5h" value="style" />
+      <ref role="AX2Wp" node="5NyYfidQSP5" resolve="EdgeStyle" />
+    </node>
   </node>
 </model>
 

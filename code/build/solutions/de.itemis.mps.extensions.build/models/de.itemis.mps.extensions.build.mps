@@ -79,6 +79,10 @@
         <reference id="2591537044435828006" name="module" index="Saw0g" />
       </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
+      <concept id="7181125477683417252" name="jetbrains.mps.build.structure.BuildExternalLayoutDependency" flags="ng" index="13uUGR">
+        <reference id="7181125477683417255" name="layout" index="13uUGO" />
+        <child id="7181125477683417254" name="artifacts" index="13uUGP" />
+      </concept>
       <concept id="7389400916848050074" name="jetbrains.mps.build.structure.BuildLayout_Jar" flags="ng" index="3981dx" />
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
@@ -108,7 +112,7 @@
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
-      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
+      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ngI" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="5610619299014309452" name="jetbrains.mps.build.structure.BuildSource_JavaExternalJarRef" flags="ng" index="3yrxFa">
@@ -127,7 +131,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -664,7 +668,6 @@
         <property role="3LESm3" value="b0f8641f-bd77-4421-8425-30d9088a82f7" />
         <property role="TrG5h" value="org.apache.commons" />
         <property role="aoJFB" value="eYcmk9QOli/sources" />
-        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="PE3B26QCyu" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="PE3B26QCyv" role="iGT6I">
@@ -974,6 +977,19 @@
             </node>
             <node concept="3yrxFa" id="39MFrfLw4kI" role="2gdwQb">
               <ref role="3yrxFb" to="ffeo:4LdE6kxkp0J" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7_iF8sOIXKA" role="3bR37C">
+          <node concept="1BurEX" id="7_iF8sOIXKB" role="1SiIV1">
+            <node concept="398BVA" id="7_iF8sOIXKC" role="1BurEY">
+              <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+              <node concept="2Ry0Ak" id="7_iF8sOIXKD" role="iGT6I">
+                <property role="2Ry0Am" value="lib.jar" />
+              </node>
+            </node>
+            <node concept="3yrxFa" id="7_iF8sOIXKE" role="2gdwQb">
+              <ref role="3yrxFb" to="ffeo:4SADOBb5p5j" />
             </node>
           </node>
         </node>
@@ -5074,6 +5090,9 @@
       <node concept="m$_yC" id="Lh$XQAfAuF" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
       </node>
+      <node concept="m$_yC" id="6bkzxtWPKB0" role="m$_yJ">
+        <ref role="m$_y1" node="6bkzxtWP$OT" resolve="de.itemis.stubs.batik" />
+      </node>
     </node>
     <node concept="2G$12M" id="4be$WTb1AxY" role="3989C9">
       <property role="TrG5h" value="de.itemis.mps.editor.diagram" />
@@ -5424,138 +5443,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="6_QKC_EOmdG" role="3bR37C">
-          <node concept="1BurEX" id="6_QKC_EOmdH" role="1SiIV1">
-            <node concept="398BVA" id="6_QKC_EOmdv" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6_QKC_EOmdw" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="6_QKC_EOmdx" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6_QKC_EOmdy" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="6_QKC_EOmdz" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6_QKC_EOmd$" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.radial.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6_QKC_EOmdV" role="3bR37C">
-          <node concept="1BurEX" id="6_QKC_EOmdW" role="1SiIV1">
-            <node concept="398BVA" id="6_QKC_EOmdI" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6_QKC_EOmdJ" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="6_QKC_EOmdK" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6_QKC_EOmdL" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="6_QKC_EOmdM" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6_QKC_EOmdN" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.force.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6_QKC_EOmea" role="3bR37C">
-          <node concept="1BurEX" id="6_QKC_EOmeb" role="1SiIV1">
-            <node concept="398BVA" id="6_QKC_EOmdX" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6_QKC_EOmdY" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="6_QKC_EOmdZ" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6_QKC_EOme0" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="6_QKC_EOme1" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6_QKC_EOme2" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.disco.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6_QKC_EOmep" role="3bR37C">
-          <node concept="1BurEX" id="6_QKC_EOmeq" role="1SiIV1">
-            <node concept="398BVA" id="6_QKC_EOmec" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6_QKC_EOmed" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="6_QKC_EOmee" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6_QKC_EOmef" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="6_QKC_EOmeg" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6_QKC_EOmeh" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.rectpacking.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6_QKC_EOmeC" role="3bR37C">
-          <node concept="1BurEX" id="6_QKC_EOmeD" role="1SiIV1">
-            <node concept="398BVA" id="6_QKC_EOmer" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6_QKC_EOmes" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="6_QKC_EOmet" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6_QKC_EOmeu" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="6_QKC_EOmev" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6_QKC_EOmew" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.spore.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6_QKC_EOmeR" role="3bR37C">
-          <node concept="1BurEX" id="6_QKC_EOmeS" role="1SiIV1">
-            <node concept="398BVA" id="6_QKC_EOmeE" role="1BurEY">
-              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
-              <node concept="2Ry0Ak" id="6_QKC_EOmeF" role="iGT6I">
-                <property role="2Ry0Am" value="diagram" />
-                <node concept="2Ry0Ak" id="6_QKC_EOmeG" role="2Ry0An">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="6_QKC_EOmeH" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
-                    <node concept="2Ry0Ak" id="6_QKC_EOmeI" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                      <node concept="2Ry0Ak" id="6_QKC_EOmeJ" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.eclipse.elk.alg.topdownpacking.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="YGA9S6qTe9" role="3bR37C">
           <node concept="3bR9La" id="YGA9S6qTea" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
@@ -5574,6 +5461,143 @@
         <node concept="1SiIV0" id="5CBfeKkVNlz" role="3bR37C">
           <node concept="3bR9La" id="5CBfeKkVNl$" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4zqe6sJrV9C" role="3bR37C">
+          <node concept="1BurEX" id="4zqe6sJrV9D" role="1SiIV1">
+            <node concept="398BVA" id="4zqe6sJrV9r" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4zqe6sJrV9s" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="4zqe6sJrV9t" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4zqe6sJrV9u" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="4zqe6sJrV9v" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4zqe6sJrV9w" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.radial.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4zqe6sJrV9R" role="3bR37C">
+          <node concept="1BurEX" id="4zqe6sJrV9S" role="1SiIV1">
+            <node concept="398BVA" id="4zqe6sJrV9E" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4zqe6sJrV9F" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="4zqe6sJrV9G" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4zqe6sJrV9H" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="4zqe6sJrV9I" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4zqe6sJrV9J" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.force.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4zqe6sJrVa6" role="3bR37C">
+          <node concept="1BurEX" id="4zqe6sJrVa7" role="1SiIV1">
+            <node concept="398BVA" id="4zqe6sJrV9T" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4zqe6sJrV9U" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="4zqe6sJrV9V" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4zqe6sJrV9W" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="4zqe6sJrV9X" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4zqe6sJrV9Y" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.disco.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4zqe6sJrVal" role="3bR37C">
+          <node concept="1BurEX" id="4zqe6sJrVam" role="1SiIV1">
+            <node concept="398BVA" id="4zqe6sJrVa8" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4zqe6sJrVa9" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="4zqe6sJrVaa" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4zqe6sJrVab" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="4zqe6sJrVac" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4zqe6sJrVad" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.rectpacking.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4zqe6sJrVa$" role="3bR37C">
+          <node concept="1BurEX" id="4zqe6sJrVa_" role="1SiIV1">
+            <node concept="398BVA" id="4zqe6sJrVan" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4zqe6sJrVao" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="4zqe6sJrVap" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4zqe6sJrVaq" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="4zqe6sJrVar" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4zqe6sJrVas" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.spore.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4zqe6sJrVaN" role="3bR37C">
+          <node concept="1BurEX" id="4zqe6sJrVaO" role="1SiIV1">
+            <node concept="398BVA" id="4zqe6sJrVaA" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="4zqe6sJrVaB" role="iGT6I">
+                <property role="2Ry0Am" value="diagram" />
+                <node concept="2Ry0Ak" id="4zqe6sJrVaC" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="4zqe6sJrVaD" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.runtime" />
+                    <node concept="2Ry0Ak" id="4zqe6sJrVaE" role="2Ry0An">
+                      <property role="2Ry0Am" value="lib" />
+                      <node concept="2Ry0Ak" id="4zqe6sJrVaF" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.eclipse.elk.alg.topdownpacking.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPUa_" role="3bR37C">
+          <node concept="3bR9La" id="6bkzxtWPUaA" role="1SiIV1">
+            <ref role="3bR37D" node="6bkzxtWPDx1" resolve="de.itemis.stubs.batik" />
           </node>
         </node>
       </node>
@@ -8786,6 +8810,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg8" resolve="jetbrains.mps.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6xN9NKsIrst" role="3bR37C">
+          <node concept="3bR9La" id="6xN9NKsIrsu" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3qkjbZn8cF0" resolve="jetbrains.mps.lang.feedback.problem.legacy-constraints" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="F1NWDr9_MX" role="2G$12L">
         <property role="TrG5h" value="com.mbeddr.mpsutil.grammarcells" />
@@ -9321,8 +9350,8 @@
               <ref role="3bR37D" node="7eO$0O_5kAC" resolve="de.itemis.mps.editor.pagination.runtime" />
             </node>
           </node>
-          <node concept="1SiIV0" id="2eBSs8Als7t" role="3bR37C">
-            <node concept="3bR9La" id="2eBSs8Als7u" role="1SiIV1">
+          <node concept="1SiIV0" id="6mt9je7Kv0I" role="3bR37C">
+            <node concept="3bR9La" id="6mt9je7Kv0J" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
             </node>
           </node>
@@ -9336,18 +9365,33 @@
         <node concept="1E0d5M" id="RcSIglfk4f" role="1E1XAP">
           <ref role="1E0d5P" node="7eO$0O_5kAC" resolve="de.itemis.mps.editor.pagination.runtime" />
         </node>
-        <node concept="1SiIV0" id="6nOR_0sia3Q" role="3bR37C">
-          <node concept="Rbm2T" id="6nOR_0sia3R" role="1SiIV1">
+        <node concept="1SiIV0" id="6mt9je7Kv0r" role="3bR37C">
+          <node concept="3bR9La" id="6mt9je7Kv0s" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KZG" resolve="jetbrains.mps.baseLanguage.closures" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6mt9je7Kv0C" role="3bR37C">
+          <node concept="1Busua" id="6mt9je7Kv0D" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6mt9je7Kv0E" role="3bR37C">
+          <node concept="Rbm2T" id="6mt9je7Kv0F" role="1SiIV1">
             <ref role="1E1Vl2" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6nOR_0smXt$" role="3bR37C">
-          <node concept="3bR9La" id="6nOR_0smXt_" role="1SiIV1">
+        <node concept="1SiIV0" id="6mt9je7Kv0G" role="3bR37C">
+          <node concept="Rbm2T" id="6mt9je7Kv0H" role="1SiIV1">
+            <ref role="1E1Vl2" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6I9aYRTLUfo" role="3bR37C">
+          <node concept="3bR9La" id="6I9aYRTLUfp" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="5$hO0xBtFGf" role="3bR37C">
-          <node concept="1Busua" id="5$hO0xBtFGg" role="1SiIV1">
+        <node concept="1SiIV0" id="6I9aYRTLUf_" role="3bR37C">
+          <node concept="1Busua" id="6I9aYRTLUfA" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
@@ -9769,6 +9813,39 @@
       <node concept="3_J27D" id="3vhhDKcvK$z" role="3s6cr7">
         <node concept="3Mxwew" id="3vhhDKcvK$_" role="3MwsjC">
           <property role="3MwjfP" value="Collections for use in MPS logic (as a replacement for Guava libs)" />
+        </node>
+      </node>
+    </node>
+    <node concept="m$_wf" id="6bkzxtWP$OT" role="3989C9">
+      <property role="m$_wk" value="de.itemis.stubs.batik" />
+      <node concept="3_J27D" id="6bkzxtWP$OU" role="m$_yQ">
+        <node concept="3Mxwew" id="6bkzxtWP$OV" role="3MwsjC">
+          <property role="3MwjfP" value="MPS Apache Batik SVGGen+Dom (Stubs)" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6bkzxtWP$OW" role="m_cZH">
+        <node concept="3Mxwew" id="6bkzxtWP$OX" role="3MwsjC">
+          <property role="3MwjfP" value="de.itemis.stubs.batik" />
+        </node>
+      </node>
+      <node concept="3_J27D" id="6bkzxtWP$OY" role="m$_w8">
+        <node concept="3Mxwey" id="6bkzxtWP$OZ" role="3MwsjC">
+          <ref role="3Mxwex" node="4MKCCgA1ncQ" resolve="versionNumber" />
+        </node>
+      </node>
+      <node concept="m$f5U" id="6bkzxtWP$P0" role="m$_yh">
+        <ref role="m$f5T" node="6bkzxtWPDx0" resolve="de.itemis.stubs.batik" />
+      </node>
+      <node concept="m$_yC" id="6bkzxtWP$P1" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="2iUeEo" id="6bkzxtWP$P2" role="2iVFfd">
+        <property role="2iUeEt" value="itemis AG" />
+        <property role="2iUeEu" value="https://www.itemis.com/en/it-services/methods-and-tools/mps" />
+      </node>
+      <node concept="3_J27D" id="6bkzxtWP$P3" role="3s6cr7">
+        <node concept="3Mxwew" id="6bkzxtWP$P4" role="3MwsjC">
+          <property role="3MwjfP" value="JARs and their stubs for using the Apache Batik SVGGen and Dom Library in MPS." />
         </node>
       </node>
     </node>
@@ -11934,6 +12011,11 @@
             <ref role="1E1Vl2" node="4iIKqJTZ5Hs" resolve="de.q60.mps.polymorphicfunctions" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6mt9je7Kv5T" role="3bR37C">
+          <node concept="3bR9La" id="6mt9je7Kv5U" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4iIKqJTZ5I0" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -12380,6 +12462,11 @@
             <ref role="1E1Vl2" node="4iIKqJTZ5Hs" resolve="de.q60.mps.polymorphicfunctions" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6mt9je7Kv6O" role="3bR37C">
+          <node concept="3bR9La" id="6mt9je7Kv6P" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
       </node>
       <node concept="3LEwk6" id="4hqUO9aIkau" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -12560,6 +12647,334 @@
                       <node concept="2Ry0Ak" id="42yR2aTbzQr" role="2Ry0An">
                         <property role="2Ry0Am" value="commons-collections4-4.4.jar" />
                       </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2G$12M" id="6bkzxtWPDx0" role="3989C9">
+      <property role="TrG5h" value="de.itemis.stubs.batik" />
+      <node concept="1E1JtA" id="6bkzxtWPDx1" role="2G$12L">
+        <property role="TrG5h" value="de.itemis.stubs.batik" />
+        <property role="3LESm3" value="563a0770-eb88-4f4f-83ed-f708776fc2fe" />
+        <node concept="398BVA" id="6bkzxtWPDx2" role="3LF7KH">
+          <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+          <node concept="2Ry0Ak" id="6bkzxtWPDx3" role="iGT6I">
+            <property role="2Ry0Am" value="batik" />
+            <node concept="2Ry0Ak" id="6bkzxtWPDx4" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="6bkzxtWPDx5" role="2Ry0An">
+                <property role="2Ry0Am" value="de.itemis.stubs.batik.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPDx7" role="3bR37C">
+          <node concept="3bR9La" id="6bkzxtWPDx8" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="6bkzxtWPDx9" role="3bR31x">
+          <node concept="3LXTmp" id="6bkzxtWPDxa" role="3rtmxm">
+            <node concept="3qWCbU" id="6bkzxtWPDxb" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="6bkzxtWPDxc" role="3LXTmr">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPDxd" role="iGT6I">
+                <property role="2Ry0Am" value="shadowmodels" />
+                <node concept="2Ry0Ak" id="6bkzxtWPDxe" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPDxf" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.q60.mps.collections.libs" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPInt" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPInu" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIni" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPInj" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPInk" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPInl" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPInm" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-awt-util.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPInE" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPInF" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPInv" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPInw" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPInx" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIny" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPInz" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-constants.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPInR" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPInS" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPInG" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPInH" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPInI" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPInJ" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPInK" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-css.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIo4" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIo5" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPInT" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPInU" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPInV" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPInW" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPInX" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-dom.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIoh" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIoi" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIo6" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIo7" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIo8" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIo9" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIoa" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-ext.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIou" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIov" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIoj" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIok" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIol" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIom" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIon" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-i18n.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIoF" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIoG" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIow" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIox" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIoy" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIoz" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIo$" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-shared-resources.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIoS" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIoT" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIoH" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIoI" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIoJ" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIoK" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIoL" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-svggen.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIp5" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIp6" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIoU" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIoV" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIoW" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIoX" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIoY" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-util.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIpi" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIpj" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIp7" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIp8" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIp9" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIpa" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIpb" role="2Ry0An">
+                      <property role="2Ry0Am" value="batik-xml.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIpv" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIpw" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIpk" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIpl" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIpm" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIpn" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIpo" role="2Ry0An">
+                      <property role="2Ry0Am" value="commons-io.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIpG" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIpH" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIpx" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIpy" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIpz" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIp$" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIp_" role="2Ry0An">
+                      <property role="2Ry0Am" value="commons-logging.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIpT" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIpU" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIpI" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIpJ" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIpK" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIpL" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIpM" role="2Ry0An">
+                      <property role="2Ry0Am" value="xml-apis-ext.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIq6" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIq7" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIpV" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIpW" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIpX" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIpY" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIpZ" role="2Ry0An">
+                      <property role="2Ry0Am" value="xml-apis.jar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6bkzxtWPIqj" role="3bR37C">
+          <node concept="1BurEX" id="6bkzxtWPIqk" role="1SiIV1">
+            <node concept="398BVA" id="6bkzxtWPIq8" role="1BurEY">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPIq9" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPIqa" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPIqb" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                    <node concept="2Ry0Ak" id="6bkzxtWPIqc" role="2Ry0An">
+                      <property role="2Ry0Am" value="xmlgraphics-commons.jar" />
                     </node>
                   </node>
                 </node>
@@ -13000,7 +13415,6 @@
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modelix.model.api" />
         <property role="3LESm3" value="cc99dce1-49f3-4392-8dbf-e22ca47bd0af" />
-        <property role="2GAjPV" value="true" />
         <node concept="398BVA" id="5U8hsWC70GO" role="3LF7KH">
           <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
           <node concept="2Ry0Ak" id="5U8hsWC71b5" role="iGT6I">
@@ -13997,6 +14411,11 @@
             <node concept="3qWCbU" id="4PRpvcZJNIQ" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6mt9je7Kvbi" role="3bR37C">
+          <node concept="3bR9La" id="6mt9je7Kvbj" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
           </node>
         </node>
       </node>
@@ -15694,6 +16113,15 @@
             </node>
           </node>
         </node>
+        <node concept="3yLZsm" id="7_iF8sOJA87" role="3yL2VB">
+          <property role="3yLZsk" value="${platform_lib}/lib.jar" />
+          <node concept="398BVA" id="7_iF8sOJA88" role="3yLZsn">
+            <ref role="398BVh" node="5Ngh5kRcxhz" resolve="platform_lib" />
+            <node concept="2Ry0Ak" id="7_iF8sOJA89" role="iGT6I">
+              <property role="2Ry0Am" value="lib.jar" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="m$_wl" id="2Y$Ewq9ERUo" role="39821P">
         <ref role="m_rDy" node="3$A0JaN5ezp" resolve="MPS.ThirdParty" />
@@ -16060,6 +16488,31 @@
         </node>
         <node concept="pUk6x" id="2OJNL7Em2kA" role="pUk7w" />
       </node>
+      <node concept="m$_wl" id="6bkzxtWPMLl" role="39821P">
+        <ref role="m_rDy" node="6bkzxtWP$OT" resolve="de.itemis.stubs.batik" />
+        <node concept="398223" id="6bkzxtWPMLm" role="39821P">
+          <node concept="3_J27D" id="6bkzxtWPMLn" role="Nbhlr">
+            <node concept="3Mxwew" id="6bkzxtWPMLo" role="3MwsjC">
+              <property role="3MwjfP" value="lib" />
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="6bkzxtWPMLp" role="39821P">
+            <node concept="398BVA" id="6bkzxtWPMLq" role="2HvfZ0">
+              <ref role="398BVh" node="2fo8bJE$D4t" resolve="extensions.code" />
+              <node concept="2Ry0Ak" id="6bkzxtWPMLr" role="iGT6I">
+                <property role="2Ry0Am" value="batik" />
+                <node concept="2Ry0Ak" id="6bkzxtWPMLs" role="2Ry0An">
+                  <property role="2Ry0Am" value="solutions" />
+                  <node concept="2Ry0Ak" id="6bkzxtWPMLt" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="pUk6x" id="6bkzxtWPMLv" role="pUk7w" />
+      </node>
       <node concept="m$_wl" id="1RCZH7X6nZZ" role="39821P">
         <ref role="m_rDy" node="BRK1N8p1BI" resolve="de.q60.shadowmodels.examples" />
         <node concept="pUk6x" id="3D0nl1ssJJZ" role="pUk7w" />
@@ -16103,6 +16556,18 @@
       <node concept="m$_wl" id="1$KnWE8f0_$" role="39821P">
         <ref role="m_rDy" node="1$KnWE8eXEs" resolve="de.itemis.mps.changelog" />
         <node concept="pUk6x" id="1$KnWE8f0__" role="pUk7w" />
+      </node>
+    </node>
+    <node concept="13uUGR" id="6aQMI6nH4L1" role="1l3spa">
+      <ref role="13uUGO" to="ffeo:6eCuTcwOnJO" resolve="IDEA" />
+      <node concept="398BVA" id="6aQMI6nH4VT" role="13uUGP">
+        <ref role="398BVh" node="2Xjt3l56m0Y" resolve="mps.home" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="6aQMI6nHNaz" role="1l3spa">
+      <ref role="1l3spb" to="ffeo:6S1jmf0xDFC" resolve="mpsBootstrapCore" />
+      <node concept="398BVA" id="6aQMI6nHNlt" role="2JcizS">
+        <ref role="398BVh" node="2Xjt3l56m0Y" resolve="mps.home" />
       </node>
     </node>
   </node>
@@ -16478,6 +16943,11 @@
               <node concept="3qWCbU" id="7q24334ZK_s" role="3LXTna">
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3pxqrffBJYp" role="3bR37C">
+            <node concept="3bR9La" id="3pxqrffBJYq" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L0h" resolve="jetbrains.mps.baseLanguage.collections" />
             </node>
           </node>
         </node>
@@ -18960,6 +19430,16 @@
             <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1Tx15Zlrbc" role="3bR37C">
+          <node concept="3bR9La" id="1Tx15Zlrbd" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Tx15Zlrbe" role="3bR37C">
+          <node concept="3bR9La" id="1Tx15Zlrbf" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="5QP6xyk3oCB" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -19068,6 +19548,16 @@
         <node concept="1SiIV0" id="3ofF9dt4hrh" role="3bR37C">
           <node concept="3bR9La" id="3ofF9dt4hri" role="1SiIV1">
             <ref role="3bR37D" node="5U8hsWC71Xh" resolve="org.modelix.model.mpsadapters" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Tx15Zlrbx" role="3bR37C">
+          <node concept="3bR9La" id="1Tx15Zlrby" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Tx15Zlrbz" role="3bR37C">
+          <node concept="3bR9La" id="1Tx15Zlrb$" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
       </node>
@@ -21782,6 +22272,38 @@
             </node>
             <node concept="3qWCbU" id="4zIvKyxCsb$" role="3LXTna">
               <property role="3qWCbO" value="icons/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="FzH79A37GQ" role="1TViLv">
+          <property role="TrG5h" value="de.itemis.mps.editor.pagination.demolang.generator" />
+          <property role="3LESm3" value="60ba5622-74ea-408a-892b-572795b669e8" />
+          <node concept="1BupzO" id="FzH79A37Hb" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="FzH79A37Hc" role="1HemKq">
+              <node concept="398BVA" id="FzH79A37GR" role="3LXTmr">
+                <ref role="398BVh" node="PE3B26neqW" resolve="extensions.code" />
+                <node concept="2Ry0Ak" id="FzH79A37GS" role="iGT6I">
+                  <property role="2Ry0Am" value="pagination" />
+                  <node concept="2Ry0Ak" id="FzH79A37GT" role="2Ry0An">
+                    <property role="2Ry0Am" value="languages" />
+                    <node concept="2Ry0Ak" id="FzH79A37GU" role="2Ry0An">
+                      <property role="2Ry0Am" value="de.itemis.mps.editor.pagination.demolang" />
+                      <node concept="2Ry0Ak" id="FzH79A37GV" role="2Ry0An">
+                        <property role="2Ry0Am" value="generator" />
+                        <node concept="2Ry0Ak" id="FzH79A37GW" role="2Ry0An">
+                          <property role="2Ry0Am" value="templates" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="FzH79A37Hd" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
             </node>
           </node>
         </node>

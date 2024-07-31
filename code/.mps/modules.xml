@@ -201,6 +201,10 @@
       <modulePath path="$PROJECT_DIR$/tables/languages/de.slisson.mps.tables/sandbox/de.slisson.mps.tables.sandbox.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/de.slisson.mps.testutils/de.slisson.mps.testutils.msd" folder="tables" />
       <modulePath path="$PROJECT_DIR$/tables/solutions/test.de.slisson.mps.tables/test.de.slisson.mps.tables.msd" folder="tables" />
+      <modulePath path="$PROJECT_DIR$/temporaryModels/languages/de.itemis.mps.temporarymodels.demo/de.itemis.mps.temporarymodels.demo.mpl" folder="temporarymodels" />
+      <modulePath path="$PROJECT_DIR$/temporaryModels/languages/de.itemis.mps.temporarymodels/de.itemis.mps.temporarymodels.mpl" folder="temporarymodels" />
+      <modulePath path="$PROJECT_DIR$/temporaryModels/solutions/de.itemis.mps.temporarymodels.runtime/de.itemis.mps.temporarymodels.runtime.msd" folder="temporarymodels" />
+      <modulePath path="$PROJECT_DIR$/temporaryModels/solutions/de.itemis.mps.temporarymodels.test/de.itemis.mps.temporarymodels.test.msd" folder="temporarymodels" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/MPS.ThirdParty/MPS.ThirdParty.msd" folder="3rd-party" />
       <modulePath path="$PROJECT_DIR$/third-party/solutions/third.party.usage.test/third.party.usage.test.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/tooltips/solutions/de.itemis.mps.tooltips.runtime/de.itemis.mps.tooltips.runtime.msd" folder="tooltips" />

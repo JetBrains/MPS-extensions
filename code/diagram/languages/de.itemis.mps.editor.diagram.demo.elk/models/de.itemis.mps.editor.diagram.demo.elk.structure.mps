@@ -8,6 +8,7 @@
   <imports>
     <import index="2qld" ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" />
     <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
+    <import index="7nxb" ref="r:6a1f18e3-f0f5-4630-97f1-151e91d47e12(test.de.itemis.mps.editor.diagram.lang.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -115,6 +116,9 @@
     </node>
     <node concept="PrWs8" id="qwNnoDwcAa" role="PrDN$">
       <ref role="PrY4T" to="2qld:1xHXqL1Pbi0" resolve="IHasUserDefinedConfig" />
+    </node>
+    <node concept="PrWs8" id="1mqidcxOm13" role="PrDN$">
+      <ref role="PrY4T" to="7nxb:1mqidcxOjqp" resolve="IDiagram" />
     </node>
     <node concept="1TJgyj" id="4PrkOTvmfDo" role="1TKVEi">
       <property role="IQ2ns" value="5574140559873342040" />

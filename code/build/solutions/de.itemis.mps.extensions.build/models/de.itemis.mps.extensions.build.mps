@@ -20808,6 +20808,11 @@
             <ref role="1Busuk" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1mqidcyBhjB" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhjC" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6$6tsX_CJdr" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -20892,6 +20897,16 @@
         <node concept="1SiIV0" id="5m1M1V$YXTw" role="3bR37C">
           <node concept="3bR9La" id="5m1M1V$YXTx" role="1SiIV1">
             <ref role="3bR37D" node="56Tfdun3uan" resolve="de.itemis.mps.editor.diagram.layout" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1mqidcyBhjY" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhjZ" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1mqidcyBhk0" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhk1" role="1SiIV1">
+            <ref role="3bR37D" node="PE3B26QCrP" resolve="org.apache.commons" />
           </node>
         </node>
       </node>
@@ -21098,6 +21113,11 @@
             <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1mqidcyBhlq" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhlr" role="1SiIV1">
+            <ref role="3bR37D" node="6$6tsX_CISo" resolve="test.de.itemis.mps.editor.diagram.lang" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7qi8mU1OzOZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -21286,6 +21306,16 @@
         <node concept="1SiIV0" id="3QN6lkAcxXE" role="3bR37C">
           <node concept="3bR9La" id="3QN6lkAcxXF" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1mqidcyBhm6" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhm7" role="1SiIV1">
+            <ref role="3bR37D" node="6$6tsX_CISo" resolve="test.de.itemis.mps.editor.diagram.lang" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1mqidcyBhmt" role="3bR37C">
+          <node concept="1Busua" id="1mqidcyBhmu" role="1SiIV1">
+            <ref role="1Busuk" node="6$6tsX_CISo" resolve="test.de.itemis.mps.editor.diagram.lang" />
           </node>
         </node>
       </node>

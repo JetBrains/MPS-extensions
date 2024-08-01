@@ -57,6 +57,7 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="4242538589859161874" name="jetbrains.mps.lang.editor.structure.ExplicitHintsSpecification" flags="ng" index="2w$q5c">
         <child id="4242538589859162459" name="hints" index="2w$qW5" />
@@ -275,6 +276,7 @@
         <property id="4706276119306323403" name="runAutoLayoutOnInit" index="1ju4zT" />
         <property id="4787596715132191458" name="disableEdgeRouting" index="3ZefsU" />
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
+        <child id="8316481512155640329" name="saveLayout" index="qiu7m" />
         <child id="6910723851735171798" name="buttonConfig" index="3sAl1G" />
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
         <child id="8637411062062914773" name="paletteFolder" index="1y_2dc" />
@@ -1638,6 +1640,13 @@
             <property role="3g8l5v" value="false" />
           </node>
           <node concept="3fe8g" id="1MAkSr4BiCN" role="35U2g" />
+          <node concept="pkWqt" id="1mqidcy3KR3" role="qiu7m">
+            <node concept="3clFbS" id="1mqidcy3KR4" role="2VODD2">
+              <node concept="3clFbF" id="1mqidcy3Lc8" role="3cqZAp">
+                <node concept="3clFbT" id="1mqidcy3Lc7" role="3clFbG" />
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="2w$q5c" id="5kFTseQTjoA" role="2whIAn">
           <node concept="2aJ2om" id="5kFTseQTjoB" role="2w$qW5">

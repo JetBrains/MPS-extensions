@@ -80,6 +80,7 @@
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
         <property id="1204991940915" name="caption" index="2f7twF" />
+        <property id="1217005992861" name="isInvisibleWhenDisabled" index="1rdrE6" />
         <property id="1213283637680" name="isPopup" index="1XlLyE" />
         <child id="1204991552650" name="modifier" index="2f5YQi" />
         <child id="1207145245948" name="contents" index="ftER_" />
@@ -2420,6 +2421,7 @@
     <property role="TrG5h" value="DiagramActions" />
     <property role="1XlLyE" value="true" />
     <property role="2f7twF" value="Diagram" />
+    <property role="1rdrE6" value="true" />
     <node concept="ftmFs" id="YGA9S6qNir" role="ftER_">
       <node concept="tCFHf" id="YGA9S6qNiu" role="ftvYc">
         <ref role="tCJdB" node="5IQEFjDGFIZ" resolve="Diagram_Autolayout" />

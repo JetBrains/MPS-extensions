@@ -6894,7 +6894,47 @@
                                           <ref role="v9R2y" to="tpc3:4v1iCryNDHi" resolve="template_cellSetupBlock" />
                                         </node>
                                       </node>
-                                      <node concept="3clFbH" id="7L7aZ7jOD1z" role="3cqZAp" />
+                                      <node concept="3clFbF" id="1mqidcwJELl" role="3cqZAp">
+                                        <node concept="2OqwBi" id="1mqidcwJELn" role="3clFbG">
+                                          <node concept="37vLTw" id="1mqidcwJELo" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="2C8x_a2Mvx4" resolve="layouter" />
+                                          </node>
+                                          <node concept="liA8E" id="1mqidcwJELp" role="2OqNvi">
+                                            <ref role="37wK5l" to="r3rm:2C8x_a2MUYW" resolve="setParentsStyle" />
+                                            <node concept="37vLTw" id="1mqidcwJELq" role="37wK5m">
+                                              <ref role="3cqZAo" node="7L7aZ7jMxm0" resolve="style" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="1W57fq" id="1mqidcwODon" role="lGtFl">
+                                          <node concept="3IZrLx" id="1mqidcwODoq" role="3IZSJc">
+                                            <node concept="3clFbS" id="1mqidcwODor" role="2VODD2">
+                                              <node concept="3clFbF" id="1mqidcwOFxG" role="3cqZAp">
+                                                <node concept="22lmx$" id="1mqidcwOFxI" role="3clFbG">
+                                                  <node concept="2OqwBi" id="1mqidcwOFxJ" role="3uHU7B">
+                                                    <node concept="2OqwBi" id="1mqidcwOFxK" role="2Oq$k0">
+                                                      <node concept="3TrEf2" id="1mqidcwOFxL" role="2OqNvi">
+                                                        <ref role="3Tt5mk" to="tpc2:1cEk0X7fp1l" resolve="parentStyleClass" />
+                                                      </node>
+                                                      <node concept="30H73N" id="1mqidcwOFxM" role="2Oq$k0" />
+                                                    </node>
+                                                    <node concept="3x8VRR" id="1mqidcwOFxN" role="2OqNvi" />
+                                                  </node>
+                                                  <node concept="2OqwBi" id="1mqidcwOFxO" role="3uHU7w">
+                                                    <node concept="2OqwBi" id="1mqidcwOFxP" role="2Oq$k0">
+                                                      <node concept="3Tsc0h" id="1mqidcwOFxQ" role="2OqNvi">
+                                                        <ref role="3TtcxE" to="tpc2:hJF10O6" resolve="styleItem" />
+                                                      </node>
+                                                      <node concept="30H73N" id="1mqidcwOFxR" role="2Oq$k0" />
+                                                    </node>
+                                                    <node concept="3GX2aA" id="1mqidcwOFxS" role="2OqNvi" />
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
                                       <node concept="3clFbH" id="7L7aZ7jOEfd" role="3cqZAp" />
                                       <node concept="3clFbF" id="13c7lpEz_Ad" role="3cqZAp">
                                         <node concept="5jKBG" id="13c7lpEz_Ai" role="lGtFl">

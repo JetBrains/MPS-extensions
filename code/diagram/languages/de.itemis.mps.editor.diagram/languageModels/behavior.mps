@@ -6636,25 +6636,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3biyEnNNsjF" role="3cqZAp">
-          <node concept="37vLTI" id="3biyEnNNs_8" role="3clFbG">
-            <node concept="2OqwBi" id="3biyEnNNskE" role="37vLTJ">
-              <node concept="13iPFW" id="3biyEnNNsjD" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3biyEnNNspt" role="2OqNvi">
-                <ref role="3TsBF5" to="2qld:3biyEnNNler" resolve="fixedPosition" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3biyEnNNxp1" role="37vLTx">
-              <node concept="10M0yZ" id="3biyEnNNx8A" role="2Oq$k0">
-                <ref role="3cqZAo" to="nnri:~StressOptions.FIXED" resolve="FIXED" />
-                <ref role="1PxDUh" to="nnri:~StressOptions" resolve="StressOptions" />
-              </node>
-              <node concept="liA8E" id="3biyEnNNxCt" role="2OqNvi">
-                <ref role="37wK5l" to="voxa:~IProperty.getDefault()" resolve="getDefault" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="3biyEnNNsDz" role="3cqZAp">
           <node concept="37vLTI" id="3biyEnNNsMV" role="3clFbG">
             <node concept="2OqwBi" id="3biyEnNNxZi" role="37vLTx">

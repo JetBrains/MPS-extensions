@@ -4104,11 +4104,6 @@
       <property role="TrG5h" value="desiredEdgeLength" />
       <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
-    <node concept="1TJgyi" id="3biyEnNNler" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892370191259" />
-      <property role="TrG5h" value="fixedPosition" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyi" id="3biyEnNNlxF" role="1TKVEl">
       <property role="IQ2nx" value="3662141892370192491" />
       <property role="TrG5h" value="interactive" />

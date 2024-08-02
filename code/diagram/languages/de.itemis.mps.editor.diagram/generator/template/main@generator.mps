@@ -23954,38 +23954,6 @@
         </node>
         <node concept="raruj" id="3biyEnNNEd1" role="lGtFl" />
       </node>
-      <node concept="3clFbF" id="3biyEnNNI4k" role="3cqZAp">
-        <node concept="2OqwBi" id="3biyEnNNI4l" role="3clFbG">
-          <node concept="37vLTw" id="3biyEnNNI4m" role="2Oq$k0">
-            <ref role="3cqZAo" node="3biyEnNNEcK" resolve="style" />
-          </node>
-          <node concept="liA8E" id="3biyEnNNI4n" role="2OqNvi">
-            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
-            <node concept="1Z6Ecs" id="3biyEnNNI4o" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:3biyEnNNMAG" resolve="diagram-layout-stress-fixed-position" />
-            </node>
-            <node concept="3clFbT" id="3biyEnNNSnF" role="37wK5m">
-              <node concept="17Uvod" id="3biyEnNNSxj" role="lGtFl">
-                <property role="2qtEX9" value="value" />
-                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
-                <node concept="3zFVjK" id="3biyEnNNSxm" role="3zH0cK">
-                  <node concept="3clFbS" id="3biyEnNNSxn" role="2VODD2">
-                    <node concept="3clFbF" id="3biyEnNNSxt" role="3cqZAp">
-                      <node concept="2OqwBi" id="3biyEnNNSxo" role="3clFbG">
-                        <node concept="3TrcHB" id="3biyEnNNSxr" role="2OqNvi">
-                          <ref role="3TsBF5" to="2qld:3biyEnNNler" resolve="fixedPosition" />
-                        </node>
-                        <node concept="30H73N" id="3biyEnNNSxs" role="2Oq$k0" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="raruj" id="3biyEnNNI4x" role="lGtFl" />
-      </node>
       <node concept="3clFbF" id="3biyEnNNIiz" role="3cqZAp">
         <node concept="2OqwBi" id="3biyEnNNIi$" role="3clFbG">
           <node concept="37vLTw" id="3biyEnNNIi_" role="2Oq$k0">

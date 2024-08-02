@@ -6991,26 +6991,6 @@
             </node>
           </node>
         </node>
-        <node concept="3tD6jV" id="3biyEnNSN0u" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNNMAG" resolve="diagram-layout-stress-fixed-position" />
-          <node concept="3sjG9q" id="3biyEnNSN0w" role="3tD6jU">
-            <node concept="3clFbS" id="3biyEnNSN0y" role="2VODD2">
-              <node concept="3clFbF" id="3biyEnNSPLF" role="3cqZAp">
-                <node concept="2OqwBi" id="3biyEnNSQ0t" role="3clFbG">
-                  <node concept="2OqwBi" id="3biyEnNSPSK" role="2Oq$k0">
-                    <node concept="pncrf" id="3biyEnNSPLE" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="3biyEnNSPWs" role="2OqNvi">
-                      <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="3biyEnNSQ3D" role="2OqNvi">
-                    <ref role="3TsBF5" to="2qld:3biyEnNNler" resolve="fixedPosition" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3tD6jV" id="3biyEnNSNan" role="3F10Kt">
           <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
           <node concept="3sjG9q" id="3biyEnNSNap" role="3tD6jU">

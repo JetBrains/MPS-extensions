@@ -1104,6 +1104,9 @@
             </node>
             <node concept="3F0A7n" id="1kJMeaGoR7n" role="3EZMnx">
               <ref role="1NtTu8" to="2qld:1kJMeaGoPQI" resolve="connectBoxesWithoutDummyPort" />
+              <node concept="VPXOz" id="1mqidcwir$6" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
             <node concept="VPM3Z" id="1kJMeaGoQxy" role="3F10Kt" />
             <node concept="VPXOz" id="1kJMeaGoQxz" role="3F10Kt">

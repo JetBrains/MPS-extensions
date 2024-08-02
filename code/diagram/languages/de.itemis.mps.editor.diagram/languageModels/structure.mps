@@ -4322,11 +4322,6 @@
       <property role="TrG5h" value="topdownLayout" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="3biyEnO42yw" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892374571168" />
-      <property role="TrG5h" value="topdownNodeType" />
-      <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
-    </node>
     <node concept="1TJgyi" id="3biyEnNTkvp" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371761113" />
       <property role="TrG5h" value="topdownScaleFactor" />

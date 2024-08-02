@@ -24930,45 +24930,6 @@
         </node>
         <node concept="raruj" id="3biyEnOkGMh" role="lGtFl" />
       </node>
-      <node concept="3clFbF" id="3biyEnOkGMi" role="3cqZAp">
-        <node concept="2OqwBi" id="3biyEnOkGMj" role="3clFbG">
-          <node concept="37vLTw" id="3biyEnOkGMk" role="2Oq$k0">
-            <ref role="3cqZAo" node="3biyEnOkGI_" resolve="style" />
-          </node>
-          <node concept="liA8E" id="3biyEnOkGMl" role="2OqNvi">
-            <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
-            <node concept="1Z6Ecs" id="3biyEnOkGMm" role="37wK5m">
-              <ref role="1Z6EpT" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-            </node>
-            <node concept="Rm8GO" id="3biyEnOkGMn" role="37wK5m">
-              <ref role="Rm8GQ" to="gwyy:~TopdownNodeTypes.HIERARCHICAL_NODE" resolve="HIERARCHICAL_NODE" />
-              <ref role="1Px2BO" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-              <node concept="1ZhdrF" id="3biyEnOkGMo" role="lGtFl">
-                <property role="2qtEX8" value="enumConstantDeclaration" />
-                <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
-                <node concept="3$xsQk" id="3biyEnOkGMp" role="3$ytzL">
-                  <node concept="3clFbS" id="3biyEnOkGMq" role="2VODD2">
-                    <node concept="3clFbF" id="3biyEnOkGMr" role="3cqZAp">
-                      <node concept="2OqwBi" id="3biyEnOkGMs" role="3clFbG">
-                        <node concept="2OqwBi" id="3biyEnOkGMt" role="2Oq$k0">
-                          <node concept="30H73N" id="3biyEnOkGMu" role="2Oq$k0" />
-                          <node concept="3TrcHB" id="3biyEnOkGMv" role="2OqNvi">
-                            <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="3biyEnOkGMw" role="2OqNvi">
-                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="raruj" id="3biyEnOkGMx" role="lGtFl" />
-      </node>
     </node>
   </node>
   <node concept="13MO4I" id="2ZU2kH0yZlN">

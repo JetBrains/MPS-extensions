@@ -16,7 +16,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet compile="mps" classes="mps" ext="no" type="java">
+    <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
       <library location="${module}/lib/batik-awt-util.jar" />
       <library location="${module}/lib/batik-constants.jar" />

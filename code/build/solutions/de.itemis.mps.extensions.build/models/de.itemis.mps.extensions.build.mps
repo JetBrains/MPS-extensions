@@ -20818,6 +20818,12 @@
             <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
           </node>
         </node>
+        <node concept="1SiIV0" id="3yqOawE1ycg" role="3bR37C">
+          <node concept="3bR9La" id="3yqOawE1ych" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="4be$WTb1AQa" resolve="de.itemis.mps.editor.diagram.runtime" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6$6tsX_CJdr" role="2G$12L">
         <property role="BnDLt" value="true" />

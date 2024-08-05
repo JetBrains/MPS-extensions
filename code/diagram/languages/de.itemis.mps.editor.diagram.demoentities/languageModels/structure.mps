@@ -6,7 +6,6 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
-    <import index="7nxb" ref="r:6a1f18e3-f0f5-4630-97f1-151e91d47e12(test.de.itemis.mps.editor.diagram.lang.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -129,9 +128,6 @@
     </node>
     <node concept="PrWs8" id="4_qW8fWLenV" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="1mqidcyAa3o" role="PzmwI">
-      <ref role="PrY4T" to="7nxb:1mqidcxOjqp" resolve="IDiagram" />
     </node>
   </node>
   <node concept="1TIwiD" id="4_qW8fWLMYX">

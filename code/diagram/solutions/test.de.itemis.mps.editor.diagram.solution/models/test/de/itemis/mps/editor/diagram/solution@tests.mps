@@ -13291,7 +13291,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="1mqidcybI6y" role="2Oq$k0">
-              <ref role="3cqZAo" node="1mqidcybI6u" resolve="list" />
+              <ref role="3cqZAo" node="1mqidcybI6u" resolve="children" />
             </node>
           </node>
           <node concept="2HxqBE" id="1mqidcy95gL" role="2OqNvi">
@@ -16604,7 +16604,7 @@
           <property role="TrG5h" value="rootECell" />
           <node concept="2OqwBi" id="1mqidcxRFZG" role="33vP2m">
             <node concept="37vLTw" id="1mqidcxRXGk" role="2Oq$k0">
-              <ref role="3cqZAo" node="1mqidcxRXGe" resolve="descendants" />
+              <ref role="3cqZAo" node="1mqidcxRXGe" resolve="diagrams" />
             </node>
             <node concept="liA8E" id="1mqidcxRFZM" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
@@ -16626,13 +16626,13 @@
           </node>
           <node concept="2OqwBi" id="1mqidcxRFZS" role="33vP2m">
             <node concept="37vLTw" id="1mqidcxRFZT" role="2Oq$k0">
-              <ref role="3cqZAo" node="1mqidcxRFZF" resolve="diagramECell" />
+              <ref role="3cqZAo" node="1mqidcxRFZF" resolve="rootECell" />
             </node>
             <node concept="liA8E" id="1mqidcxRFZU" role="2OqNvi">
               <ref role="37wK5l" to="r3rm:1M7dGa3$9rX" resolve="getDCell" />
               <node concept="2OqwBi" id="1mqidcxRFZV" role="37wK5m">
                 <node concept="37vLTw" id="1mqidcxRFZW" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1mqidcxRFZF" resolve="diagramECell" />
+                  <ref role="3cqZAo" node="1mqidcxRFZF" resolve="rootECell" />
                 </node>
                 <node concept="liA8E" id="1mqidcxRFZX" role="2OqNvi">
                   <ref role="37wK5l" to="r3rm:4dus55SGE6v" resolve="getGraph" />
@@ -16644,7 +16644,7 @@
       </node>
       <node concept="64noQ" id="1mqidcxRFZY" role="3cqZAp">
         <node concept="37vLTw" id="1mqidcxRFZZ" role="64nzA">
-          <ref role="3cqZAo" node="1mqidcxRFZQ" resolve="diagramDCell" />
+          <ref role="3cqZAo" node="1mqidcxRFZQ" resolve="rootDCell" />
         </node>
         <node concept="68$_a" id="1mqidcxRG00" role="68$XT">
           <node concept="64nLc" id="1mqidcxRG01" role="68$_y">
@@ -17799,7 +17799,7 @@
     </node>
     <node concept="1qefOq" id="1mqidcxRN3T" role="25YQCW">
       <node concept="yRWHJ" id="1mqidcxRN3U" role="1qenE9">
-        <ref role="yRWHI" node="5sXqsGR7shQ" resolve="Stress" />
+        <ref role="yRWHI" node="5sXqsGR7shQ" resolve="Smoke:Stress" />
         <node concept="LIFWc" id="1mqidcxRN3V" role="lGtFl">
           <property role="LIFWa" value="5" />
           <property role="OXtK3" value="true" />
@@ -23977,7 +23977,7 @@
       </node>
       <node concept="1kFiQP" id="6actlYiqUo$" role="1kFUp8">
         <node concept="1kFiQa" id="6actlYiqUoA" role="1kF7lU">
-          <ref role="1kF7lA" node="6actlYiqUoj" resolve="Box4.onput" />
+          <ref role="1kF7lA" node="6actlYiqUoj" resolve="Box4.output" />
         </node>
         <node concept="1kFiQa" id="6actlYiqUoC" role="1kF7lN">
           <ref role="1kF7lA" node="6actlYijSDh" resolve="SubBox1.input" />
@@ -24011,8 +24011,8 @@
         <node concept="37mRIm" id="6actlYijSTx" role="37mRID">
           <property role="37mO49" value="7101179765793458767" />
           <node concept="gqqVs" id="6actlYijSTv" role="37mO4d">
-            <property role="gqqTZ" value="24.0" />
-            <property role="gqqTW" value="32.0" />
+            <property role="gqqTZ" value="21.0" />
+            <property role="gqqTW" value="29.0" />
             <property role="gqqTX" value="74.0" />
             <property role="gqqTy" value="31.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -24029,8 +24029,8 @@
         <node concept="37mRIm" id="6actlYijST_" role="37mRID">
           <property role="37mO49" value="7101179765793459792" />
           <node concept="gqqVs" id="6actlYijST$" role="37mO4d">
-            <property role="gqqTZ" value="142.0" />
-            <property role="gqqTW" value="32.0" />
+            <property role="gqqTZ" value="139.0" />
+            <property role="gqqTW" value="29.0" />
             <property role="gqqTX" value="74.0" />
             <property role="gqqTy" value="31.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -24047,8 +24047,8 @@
         <node concept="37mRIm" id="6actlYijSTU" role="37mRID">
           <property role="37mO49" value="7101179765793459817" />
           <node concept="gqqVs" id="6actlYijSTT" role="37mO4d">
-            <property role="gqqTZ" value="260.0" />
-            <property role="gqqTW" value="32.0" />
+            <property role="gqqTZ" value="257.0" />
+            <property role="gqqTW" value="29.0" />
             <property role="gqqTX" value="82.0" />
             <property role="gqqTy" value="31.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />

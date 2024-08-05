@@ -85,7 +85,7 @@
       <ref role="20lvS9" node="24zrZPPzcAu" resolve="IDiagramElement" />
     </node>
     <node concept="PrWs8" id="1mqidcxOjqr" role="PzmwI">
-      <ref role="PrY4T" node="1mqidcxOjqp" resolve="IDiagram" />
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="24zrZPP$xKe" role="PzmwI">
       <ref role="PrY4T" node="24zrZPPzcB8" resolve="IBoxContent" />
@@ -260,12 +260,12 @@
     <property role="EcuMT" value="5356444056661139986" />
     <property role="TrG5h" value="DiagramReference" />
     <property role="34LRSv" value="diagram reference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4DlUnPCyy8j" role="1TKVEi">
       <property role="IQ2ns" value="5356444056661139987" />
       <property role="20kJfa" value="diagram" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1mqidcxOjqp" resolve="IDiagram" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="1mqidcvJf_1">

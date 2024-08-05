@@ -22185,6 +22185,12 @@
       <node concept="L2wRC" id="6$6tsX_CJST" role="39821P">
         <ref role="L2wRA" node="6$6tsX_CJdr" resolve="test.de.itemis.mps.editor.diagram.solution" />
       </node>
+      <node concept="L2wRC" id="naXaFmGxTu" role="39821P">
+        <ref role="L2wRA" node="vVBnaOe2hH" resolve="de.itemis.mps.editor.diagram.demo.elk" />
+      </node>
+      <node concept="L2wRC" id="naXaFmHkQT" role="39821P">
+        <ref role="L2wRA" node="7qi8mU1Oz$v" resolve="de.itemis.mps.editor.diagram.demoentities" />
+      </node>
       <node concept="L2wRC" id="1x_$NGQM_y3" role="39821P">
         <ref role="L2wRA" node="6$6tsX_CUvL" resolve="de.itemis.mps.structurecheck" />
       </node>

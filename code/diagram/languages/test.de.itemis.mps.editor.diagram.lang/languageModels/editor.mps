@@ -4735,8 +4735,11 @@
     <ref role="1XX52x" to="7nxb:24zrZPPzcal" resolve="Diagram" />
     <node concept="3EZMnI" id="1mqidcwdDvl" role="2wV5jI">
       <node concept="l2Vlx" id="1mqidcwdDvm" role="2iSdaV" />
-      <node concept="3F0ifn" id="1mqidcwdDvn" role="3EZMnx">
+      <node concept="3F0ifn" id="3yqOawDWskd" role="3EZMnx">
         <property role="3F0ifm" value="diagram" />
+      </node>
+      <node concept="3F0A7n" id="3yqOawDWskg" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="1mqidcwdDvo" role="3EZMnx">
         <property role="3F0ifm" value="{" />

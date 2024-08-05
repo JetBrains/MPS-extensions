@@ -115,9 +115,6 @@
     <node concept="PrWs8" id="24zrZPPz$a5" role="PzmwI">
       <ref role="PrY4T" node="24zrZPPz$9p" resolve="IEndpoint" />
     </node>
-    <node concept="PrWs8" id="24zrZPPz$aA" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="PlHQZ" id="24zrZPPzcAu">
     <property role="TrG5h" value="IDiagramElement" />
@@ -139,9 +136,6 @@
       <property role="20kJfa" value="positionY" />
       <property role="IQ2ns" value="2387875361826070459" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="PrWs8" id="24zrZPPz$6U" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="24zrZPPzV$E" role="PzmwI">
       <ref role="PrY4T" node="24zrZPPz$9p" resolve="IEndpoint" />
@@ -211,6 +205,9 @@
   <node concept="PlHQZ" id="24zrZPPz$9p">
     <property role="TrG5h" value="IEndpoint" />
     <property role="EcuMT" value="2387875361826161241" />
+    <node concept="PrWs8" id="6actlYigqCe" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="24zrZPPz$9R">
     <property role="TrG5h" value="EndpointReference" />
@@ -254,7 +251,7 @@
   </node>
   <node concept="1TIwiD" id="21ib$h2$w$t">
     <property role="EcuMT" value="2328974828013488413" />
-    <property role="TrG5h" value="ButtonTest" />
+    <property role="TrG5h" value="BaseDiagram" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="testDiagrams" />
     <ref role="1TJDcQ" node="24zrZPPzcal" resolve="Diagram" />
@@ -306,20 +303,34 @@
     <property role="TrG5h" value="DiagramDontSynchronizeChanges" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="testDiagrams" />
-    <ref role="1TJDcQ" node="21ib$h2$w$t" resolve="ButtonTest" />
+    <ref role="1TJDcQ" node="21ib$h2$w$t" resolve="BaseDiagram" />
   </node>
   <node concept="1TIwiD" id="1mqidcwcjlU">
     <property role="EcuMT" value="1556636692825322874" />
     <property role="TrG5h" value="DiagramAutoLayoutOnChanges" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="testDiagrams" />
-    <ref role="1TJDcQ" node="21ib$h2$w$t" resolve="ButtonTest" />
+    <ref role="1TJDcQ" node="21ib$h2$w$t" resolve="BaseDiagram" />
   </node>
   <node concept="PlHQZ" id="1mqidcxOjqp">
     <property role="EcuMT" value="1556636692852586137" />
     <property role="TrG5h" value="IDiagram" />
     <node concept="PrWs8" id="1mqidcxOjqq" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6actlYifpFa">
+    <property role="EcuMT" value="7101179765792283338" />
+    <property role="3GE5qa" value="testDiagrams" />
+    <property role="TrG5h" value="SubDiagrams" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="21ib$h2$w$t" resolve="BaseDiagram" />
+    <node concept="1TJgyj" id="6actlYifqfn" role="1TKVEi">
+      <property role="IQ2ns" value="7101179765792285655" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="subDiagrams" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="21ib$h2$w$t" resolve="BaseDiagram" />
     </node>
   </node>
 </model>

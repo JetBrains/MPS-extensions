@@ -5010,6 +5010,12 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="76bI8XWtudM" role="3bR37C">
+          <node concept="3bR9La" id="76bI8XWtudN" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="2Xjt3l57hht" resolve="de.slisson.mps.reflection.runtime" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="4be$WTb1MZD" role="3989C9">
@@ -13513,6 +13519,11 @@
         <node concept="1SiIV0" id="T_6DrkEOyF" role="3bR37C">
           <node concept="3bR9La" id="T_6DrkEOyG" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:ymnOULAU1u" resolve="jetbrains.mps.lang.test.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="76bI8XWtuxR" role="3bR37C">
+          <node concept="3bR9La" id="76bI8XWtuxS" role="1SiIV1">
+            <ref role="3bR37D" node="2Xjt3l57hht" resolve="de.slisson.mps.reflection.runtime" />
           </node>
         </node>
       </node>

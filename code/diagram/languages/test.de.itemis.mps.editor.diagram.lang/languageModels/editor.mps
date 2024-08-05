@@ -220,6 +220,7 @@
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
         <child id="7858611447550199305" name="syncWithModelOnlyOnOpening" index="3y0MdK" />
         <child id="8637411062062914773" name="paletteFolder" index="1y_2dc" />
+        <child id="7101179765790059658" name="diagramID" index="3K_XBl" />
         <child id="1981294357059564524" name="paletteSources" index="1RuSHk" />
         <child id="106212170332965259" name="defaultShape" index="3UZ5VG" />
       </concept>
@@ -920,6 +921,19 @@
       </node>
       <node concept="1RuTs0" id="24zrZPP_mXX" role="1RuSHk">
         <ref role="1RuSHD" to="7nxb:24zrZPPzcAP" resolve="elements" />
+      </node>
+      <node concept="2OqwBi" id="6actlYicDlx" role="3K_XBl">
+        <node concept="2OqwBi" id="6actlYicD1F" role="2Oq$k0">
+          <node concept="2JrnkZ" id="6actlYicCLe" role="2Oq$k0">
+            <node concept="1Pxb5l" id="6actlYicCil" role="2JrQYb" />
+          </node>
+          <node concept="liA8E" id="6actlYicDaM" role="2OqNvi">
+            <ref role="37wK5l" to="mhbf:~SNode.getNodeId()" resolve="getNodeId" />
+          </node>
+        </node>
+        <node concept="liA8E" id="6actlYicDur" role="2OqNvi">
+          <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
+        </node>
       </node>
     </node>
   </node>

@@ -487,6 +487,25 @@
           <node concept="VPM3Z" id="5qgNcfDnhdG" role="3F10Kt">
             <property role="VOm3f" value="false" />
           </node>
+          <node concept="3EZMnI" id="6actlYi6VD2" role="3EZMnx">
+            <node concept="VPM3Z" id="6actlYi6VD3" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="6actlYi6VD4" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="6actlYi6VD5" role="3EZMnx">
+              <property role="3F0ifm" value="id" />
+            </node>
+            <node concept="3F1sOY" id="6actlYi6VD6" role="3EZMnx">
+              <property role="1$x2rV" value="derived from node" />
+              <ref role="1NtTu8" to="2qld:6actlYi6UMa" resolve="diagramID" />
+              <node concept="VPXOz" id="6actlYi6VD7" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="6actlYi6VD8" role="2iSdaV" />
+          </node>
           <node concept="3EZMnI" id="2J9gLgxqvP$" role="3EZMnx">
             <node concept="VPM3Z" id="2J9gLgxqvP_" role="3F10Kt">
               <property role="VOm3f" value="false" />

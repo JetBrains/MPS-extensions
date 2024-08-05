@@ -124,6 +124,12 @@
       <property role="TrG5h" value="connectBoxesWithoutDummyPort" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyj" id="6actlYi6UMa" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="diagramID" />
+      <property role="IQ2ns" value="7101179765790059658" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="7vufT$lixNl" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paletteFolder" />

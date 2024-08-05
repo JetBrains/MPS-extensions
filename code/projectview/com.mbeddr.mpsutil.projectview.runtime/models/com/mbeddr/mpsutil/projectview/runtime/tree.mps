@@ -468,6 +468,7 @@
         <child id="1197683475734" name="valueType" index="3rvSg0" />
       </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
         <child id="1197932505799" name="map" index="3ElQJh" />
@@ -9504,6 +9505,7 @@
                   <ref role="1Pybhc" node="1CDgnklJqNP" resolve="FolderStructureBuilder" />
                   <ref role="37wK5l" node="1CDgnklK5W1" resolve="build" />
                   <node concept="2OqwBi" id="Ggg0Z6Y9u0" role="37wK5m">
+                    <node concept="ANE8D" id="Ggg0Z6Y9uc" role="2OqNvi" />
                     <node concept="2OqwBi" id="Ggg0Z6Y9u1" role="2Oq$k0">
                       <node concept="37vLTw" id="Ggg0Z6Y9uy" role="2Oq$k0">
                         <ref role="3cqZAo" node="Ggg0Z6Y9uv" resolve="queryResult" />
@@ -9529,7 +9531,6 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="ANE8D" id="Ggg0Z6Y9uc" role="2OqNvi" />
                   </node>
                   <node concept="Xjq3P" id="Ggg0Z6Y9ud" role="37wK5m" />
                 </node>
@@ -15041,9 +15042,6 @@
       <node concept="3clFbS" id="7PuCnEL_TSP" role="3clF47">
         <node concept="3clFbF" id="7PuCnELBxCb" role="3cqZAp">
           <node concept="2OqwBi" id="7PuCnELBxL$" role="3clFbG">
-            <node concept="37vLTw" id="7PuCnELBxCa" role="2Oq$k0">
-              <ref role="3cqZAo" node="7PuCnEL_XWZ" resolve="parentTreeNodes" />
-            </node>
             <node concept="2es0OD" id="7PuCnELByiD" role="2OqNvi">
               <node concept="1bVj0M" id="7PuCnELByiF" role="23t8la">
                 <node concept="3clFbS" id="7PuCnELByiG" role="1bW5cS">
@@ -15059,6 +15057,31 @@
                 <node concept="Rh6nW" id="7PuCnELByiH" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
                   <node concept="2jxLKc" id="7PuCnELByiI" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6rydjJtONCP" role="2Oq$k0">
+              <node concept="37vLTw" id="6rydjJtONCQ" role="2Oq$k0">
+                <ref role="3cqZAo" node="7PuCnEL_XWZ" resolve="parentTreeNodes" />
+              </node>
+              <node concept="3zZkjj" id="6rydjJtONCR" role="2OqNvi">
+                <node concept="1bVj0M" id="6rydjJtONCS" role="23t8la">
+                  <node concept="3clFbS" id="6rydjJtONCT" role="1bW5cS">
+                    <node concept="3clFbF" id="6rydjJtONCU" role="3cqZAp">
+                      <node concept="2OqwBi" id="6rydjJtONCV" role="3clFbG">
+                        <node concept="37vLTw" id="6rydjJtONCW" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6rydjJtONCY" resolve="it" />
+                        </node>
+                        <node concept="liA8E" id="6rydjJtONCX" role="2OqNvi">
+                          <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="6rydjJtONCY" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="6rydjJtONCZ" role="1tU5fm" />
+                  </node>
                 </node>
               </node>
             </node>

@@ -12,6 +12,8 @@
     <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ekjq" ref="r:5ecde3cb-6b12-4b03-ab5c-d1450223a70b(test.de.itemis.mps.editor.diagram.lang.behavior)" implicit="true" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
     <import index="88j9" ref="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -413,6 +415,9 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
@@ -1008,6 +1013,19 @@
               <ref role="37wK5l" to="ekjq:24zrZPPzzOs" resolve="getPositionY" />
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="2OqwBi" id="6actlYi6leF" role="NKQk3">
+        <node concept="2OqwBi" id="6actlYi6kRv" role="2Oq$k0">
+          <node concept="2JrnkZ" id="6actlYi6k$k" role="2Oq$k0">
+            <node concept="1Pxb5l" id="6actlYi6klq" role="2JrQYb" />
+          </node>
+          <node concept="liA8E" id="6actlYi6l2O" role="2OqNvi">
+            <ref role="37wK5l" to="mhbf:~SNode.getNodeId()" resolve="getNodeId" />
+          </node>
+        </node>
+        <node concept="liA8E" id="6actlYi6lpN" role="2OqNvi">
+          <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
         </node>
       </node>
     </node>

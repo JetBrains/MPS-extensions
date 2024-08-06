@@ -468,7 +468,6 @@
         <child id="1197683475734" name="valueType" index="3rvSg0" />
       </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
-      <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
         <child id="1197932505799" name="map" index="3ElQJh" />
@@ -15060,30 +15059,8 @@
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="6rydjJtONCP" role="2Oq$k0">
-              <node concept="37vLTw" id="6rydjJtONCQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="7PuCnEL_XWZ" resolve="parentTreeNodes" />
-              </node>
-              <node concept="3zZkjj" id="6rydjJtONCR" role="2OqNvi">
-                <node concept="1bVj0M" id="6rydjJtONCS" role="23t8la">
-                  <node concept="3clFbS" id="6rydjJtONCT" role="1bW5cS">
-                    <node concept="3clFbF" id="6rydjJtONCU" role="3cqZAp">
-                      <node concept="2OqwBi" id="6rydjJtONCV" role="3clFbG">
-                        <node concept="37vLTw" id="6rydjJtONCW" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6rydjJtONCY" resolve="it" />
-                        </node>
-                        <node concept="liA8E" id="6rydjJtONCX" role="2OqNvi">
-                          <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="6rydjJtONCY" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="6rydjJtONCZ" role="1tU5fm" />
-                  </node>
-                </node>
-              </node>
+            <node concept="37vLTw" id="6rydjJtONCQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="7PuCnEL_XWZ" resolve="parentTreeNodes" />
             </node>
           </node>
         </node>
@@ -15118,13 +15095,25 @@
         </node>
         <node concept="3clFbJ" id="58b0Q1$shCO" role="3cqZAp">
           <node concept="3clFbS" id="58b0Q1$shCQ" role="3clFbx">
-            <node concept="3clFbF" id="7PuCnELBtuq" role="3cqZAp">
-              <node concept="2OqwBi" id="7PuCnELBtAA" role="3clFbG">
-                <node concept="37vLTw" id="7PuCnELBtup" role="2Oq$k0">
+            <node concept="3clFbJ" id="4rAMcYzlevq" role="3cqZAp">
+              <node concept="3clFbS" id="4rAMcYzlevs" role="3clFbx">
+                <node concept="3clFbF" id="7PuCnELBtuq" role="3cqZAp">
+                  <node concept="2OqwBi" id="7PuCnELBtAA" role="3clFbG">
+                    <node concept="37vLTw" id="7PuCnELBtup" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7PuCnELAhCw" resolve="parentTreeNode" />
+                    </node>
+                    <node concept="liA8E" id="7PuCnELBul$" role="2OqNvi">
+                      <ref role="37wK5l" to="7e8u:~MPSTreeNode.updateSubTree()" resolve="updateSubTree" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4rAMcYzkalG" role="3clFbw">
+                <node concept="37vLTw" id="4rAMcYzk6Fc" role="2Oq$k0">
                   <ref role="3cqZAo" node="7PuCnELAhCw" resolve="parentTreeNode" />
                 </node>
-                <node concept="liA8E" id="7PuCnELBul$" role="2OqNvi">
-                  <ref role="37wK5l" to="7e8u:~MPSTreeNode.updateSubTree()" resolve="updateSubTree" />
+                <node concept="liA8E" id="4rAMcYzkfHL" role="2OqNvi">
+                  <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
                 </node>
               </node>
             </node>

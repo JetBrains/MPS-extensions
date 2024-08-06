@@ -5651,7 +5651,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="26AplbI234y" role="3cqZAp" />
         <node concept="3SKdUt" id="26AplbI234_" role="3cqZAp">
           <node concept="1PaTwC" id="26AplbI234A" role="1aUNEU">
             <node concept="3oM_SD" id="26AplbI234B" role="1PaTwD">
@@ -5685,9 +5684,12 @@
             </node>
             <node concept="2ShNRf" id="26AplbI234L" role="33vP2m">
               <node concept="1pGfFk" id="26AplbI234M" role="2ShVmc">
-                <ref role="37wK5l" to="nxzt:~SVGGraphics2D.&lt;init&gt;(org.w3c.dom.Document)" resolve="SVGGraphics2D" />
-                <node concept="37vLTw" id="26AplbI234N" role="37wK5m">
-                  <ref role="3cqZAo" node="26AplbI2345" resolve="document" />
+                <ref role="37wK5l" to="nxzt:~SVGGraphics2D.&lt;init&gt;(org.apache.batik.svggen.SVGGeneratorContext,boolean)" resolve="SVGGraphics2D" />
+                <node concept="37vLTw" id="4L2spQ5c$p_" role="37wK5m">
+                  <ref role="3cqZAo" node="26AplbI234f" resolve="ctx" />
+                </node>
+                <node concept="3clFbT" id="4L2spQ5cRtH" role="37wK5m">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>

@@ -15218,13 +15218,25 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7PuCnELBuB8" role="3cqZAp">
-          <node concept="2OqwBi" id="7PuCnELBuJ$" role="3clFbG">
-            <node concept="37vLTw" id="7PuCnELBuB7" role="2Oq$k0">
+        <node concept="3clFbJ" id="4rAMcYzmca9" role="3cqZAp">
+          <node concept="3clFbS" id="4rAMcYzmcab" role="3clFbx">
+            <node concept="3clFbF" id="7PuCnELBuB8" role="3cqZAp">
+              <node concept="2OqwBi" id="7PuCnELBuJ$" role="3clFbG">
+                <node concept="37vLTw" id="7PuCnELBuB7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7PuCnELAm3c" resolve="treeNode" />
+                </node>
+                <node concept="liA8E" id="7PuCnELBvuy" role="2OqNvi">
+                  <ref role="37wK5l" to="7e8u:~MPSTreeNode.renewPresentation()" resolve="renewPresentation" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4rAMcYzmotO" role="3clFbw">
+            <node concept="37vLTw" id="4rAMcYzmhV9" role="2Oq$k0">
               <ref role="3cqZAo" node="7PuCnELAm3c" resolve="treeNode" />
             </node>
-            <node concept="liA8E" id="7PuCnELBvuy" role="2OqNvi">
-              <ref role="37wK5l" to="7e8u:~MPSTreeNode.renewPresentation()" resolve="renewPresentation" />
+            <node concept="liA8E" id="4rAMcYzmtGT" role="2OqNvi">
+              <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
             </node>
           </node>
         </node>

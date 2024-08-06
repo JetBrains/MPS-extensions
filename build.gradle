@@ -3,7 +3,7 @@ plugins {
     id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'
-    id 'de.itemis.mps.gradle.launcher' version '2.4.2.+'
+    id 'de.itemis.mps.gradle.launcher' version '2.5.2.+'
 }
 
 import de.itemis.mps.gradle.*

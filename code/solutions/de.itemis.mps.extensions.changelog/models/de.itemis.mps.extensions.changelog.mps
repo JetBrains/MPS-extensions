@@ -227,6 +227,64 @@
         </node>
       </node>
     </node>
+    <node concept="15bmVD" id="4rAMcYzsxpI" role="15bmVC">
+      <node concept="15ShDW" id="4rAMcYzsxpJ" role="15bq2Y">
+        <property role="15ShDY" value="Po4Z58IgAR/August" />
+        <property role="15ShDw" value="2024" />
+      </node>
+      <node concept="15bAme" id="4rAMcYzsxpK" role="15bAlL">
+        <node concept="2DRihI" id="4rAMcYzsxpL" role="15bAlk">
+          <node concept="2hgSXJ" id="4rAMcYzsxpM" role="1PaTwD">
+            <node concept="1PaTwC" id="4rAMcYzsxpN" role="2hiFM$">
+              <node concept="15Ami3" id="4rAMcYzsxpO" role="1PaTwD">
+                <node concept="37shsh" id="4rAMcYzsxpP" role="15Aodc">
+                  <node concept="1dCxOk" id="4rAMcYzsxWf" role="37shsm">
+                    <property role="1XweGW" value="732373f1-0d48-4122-bb43-c1606db4baca" />
+                    <property role="1XxBO9" value="com.mbeddr.mpsutil.projectview.runtime" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="4rAMcYzsxpR" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy26" role="1PaTwD">
+            <property role="3oM_SC" value="Fixed" />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy2e" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy54" role="1PaTwD">
+            <property role="3oM_SC" value="several" />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy2n" role="1PaTwD">
+            <property role="3oM_SC" value="NPEs." />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy6J" role="1PaTwD">
+            <property role="3oM_SC" value="See:" />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy6Y" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy3y" role="1PaTwD">
+            <property role="3oM_SC" value="#903," />
+            <property role="1X82VU" value="https://github.com/JetBrains/MPS-extensions/issues/903" />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy3z" role="1PaTwD">
+            <property role="3oM_SC" value="#904" />
+            <property role="1X82VU" value="(https://github.com/JetBrains/MPS-extensions/issues/904" />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy7e" role="1PaTwD">
+            <property role="3oM_SC" value="," />
+          </node>
+          <node concept="3oM_SD" id="4rAMcYzsy3$" role="1PaTwD">
+            <property role="3oM_SC" value="#901" />
+            <property role="1X82VU" value="https://github.com/JetBrains/MPS-extensions/issues/901" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="15bmVD" id="2CZpRVi8gx5" role="15bmVC">
       <node concept="15ShDW" id="2CZpRVi8gx2" role="15bq2Y">
         <property role="15ShDY" value="Po4Z58IgAJ/July" />

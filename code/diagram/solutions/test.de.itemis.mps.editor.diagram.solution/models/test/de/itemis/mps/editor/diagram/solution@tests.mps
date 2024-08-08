@@ -20,6 +20,8 @@
     <use id="92ad00ce-b4c0-4847-b973-b5727c0dc0b6" name="de.itemis.mps.editor.diagram.demo.elk" version="0" />
     <use id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection" version="0" />
     <use id="46b1f1f4-3955-4255-af94-7acb92d5711a" name="de.itemis.mps.editor.diagram.demoentities" version="0" />
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="2" />
   </languages>
   <imports>
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
@@ -54,11 +56,12 @@
     <import index="gwyy" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:org.eclipse.elk.core.options(de.itemis.mps.editor.diagram.runtime/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
     <import index="9w4s" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.util(MPS.IDEA/)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="vux5" ref="r:d4785159-376e-4d99-a1d3-5a6f377de3e6(de.itemis.mps.editor.diagram.demo.activity.structure)" implicit="true" />
-    <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
-    <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
-    <import index="2qld" ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" />
+    <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" />
+    <import index="2qld" ref="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" />
+    <import index="vux5" ref="r:d4785159-376e-4d99-a1d3-5a6f377de3e6(de.itemis.mps.editor.diagram.demo.activity.structure)" />
+    <import index="ddhc" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.intellij.ide(MPS.ThirdParty/)" />
   </imports>
   <registry>
     <language id="654422bf-e75f-44dc-936d-188890a746ce" name="de.slisson.mps.reflection">
@@ -3340,16 +3343,26 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1laJE2$n4Jk" role="3cqZAp">
-          <node concept="2YIFZM" id="1laJE2$n4Jm" role="3clFbG">
+        <node concept="3clFbF" id="6V1GCQrp2oa" role="3cqZAp">
+          <node concept="2YIFZM" id="6V1GCQrp2_t" role="3clFbG">
             <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
             <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-            <node concept="1bVj0M" id="1laJE2$n4Jn" role="37wK5m">
-              <node concept="3clFbS" id="1laJE2$n4Jo" role="1bW5cS">
-                <node concept="3clFbF" id="1laJE2$n5dD" role="3cqZAp">
-                  <node concept="2Sg_IR" id="1laJE2$n5mn" role="3clFbG">
-                    <node concept="37vLTw" id="1laJE2$n5mo" role="2SgG2M">
-                      <ref role="3cqZAo" node="1laJE2$n2ab" resolve="runnable" />
+            <node concept="1bVj0M" id="6V1GCQrp2Mv" role="37wK5m">
+              <node concept="3clFbS" id="6V1GCQrp2Mw" role="1bW5cS">
+                <node concept="3clFbF" id="1laJE2$n4Jk" role="3cqZAp">
+                  <node concept="2YIFZM" id="1laJE2$n4Jm" role="3clFbG">
+                    <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
+                    <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
+                    <node concept="1bVj0M" id="1laJE2$n4Jn" role="37wK5m">
+                      <node concept="3clFbS" id="1laJE2$n4Jo" role="1bW5cS">
+                        <node concept="3clFbF" id="1laJE2$n5dD" role="3cqZAp">
+                          <node concept="2Sg_IR" id="1laJE2$n5mn" role="3clFbG">
+                            <node concept="37vLTw" id="1laJE2$n5mo" role="2SgG2M">
+                              <ref role="3cqZAo" node="1laJE2$n2ab" resolve="runnable" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -8529,8 +8542,8 @@
       </node>
       <node concept="3clFbF" id="50fzH4xe3d8" role="3cqZAp">
         <node concept="2YIFZM" id="50fzH4xe3kz" role="3clFbG">
-          <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
           <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
+          <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
           <node concept="1bVj0M" id="50fzH4xe3kM" role="37wK5m">
             <node concept="3clFbS" id="50fzH4xe3kN" role="1bW5cS">
               <node concept="3clFbF" id="50fzH4xcRax" role="3cqZAp">
@@ -8540,6 +8553,17 @@
                   </node>
                   <node concept="liA8E" id="50fzH4xcSyW" role="2OqNvi">
                     <ref role="37wK5l" to="s6s:48DYfEtDwni" resolve="toggle" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="6V1GCQrp$EN" role="3cqZAp">
+                <node concept="2OqwBi" id="6V1GCQrpGhk" role="3clFbG">
+                  <node concept="2YIFZM" id="6V1GCQrpG3I" role="2Oq$k0">
+                    <ref role="37wK5l" to="ddhc:~IdeEventQueue.getInstance()" resolve="getInstance" />
+                    <ref role="1Pybhc" to="ddhc:~IdeEventQueue" resolve="IdeEventQueue" />
+                  </node>
+                  <node concept="liA8E" id="6V1GCQrpGyw" role="2OqNvi">
+                    <ref role="37wK5l" to="ddhc:~IdeEventQueue.flushQueue()" resolve="flushQueue" />
                   </node>
                 </node>
               </node>
@@ -13224,6 +13248,17 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="6V1GCQrsKeE" role="3cqZAp">
+                <node concept="2OqwBi" id="6V1GCQrsKeF" role="3clFbG">
+                  <node concept="2YIFZM" id="6V1GCQrsKeG" role="2Oq$k0">
+                    <ref role="37wK5l" to="ddhc:~IdeEventQueue.getInstance()" resolve="getInstance" />
+                    <ref role="1Pybhc" to="ddhc:~IdeEventQueue" resolve="IdeEventQueue" />
+                  </node>
+                  <node concept="liA8E" id="6V1GCQrsKeH" role="2OqNvi">
+                    <ref role="37wK5l" to="ddhc:~IdeEventQueue.flushQueue()" resolve="flushQueue" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
           <node concept="1bVj0M" id="2$jd4EQGIe3" role="37wK5m">
@@ -13239,15 +13274,6 @@
                 </node>
                 <node concept="37vLTw" id="1mqidcvpvqE" role="3tpDZB">
                   <ref role="3cqZAo" node="1mqidcvpvqu" resolve="originalSize" />
-                </node>
-              </node>
-              <node concept="3clFbF" id="1mqidcvpvqF" role="3cqZAp">
-                <node concept="2YIFZM" id="1mqidcvpvqG" role="3clFbG">
-                  <ref role="1Pybhc" to="3a50:~ThreadUtils" resolve="ThreadUtils" />
-                  <ref role="37wK5l" to="3a50:~ThreadUtils.runInUIThreadAndWait(java.lang.Runnable)" resolve="runInUIThreadAndWait" />
-                  <node concept="1bVj0M" id="1mqidcvpvqH" role="37wK5m">
-                    <node concept="3clFbS" id="1mqidcvpvqI" role="1bW5cS" />
-                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="1laJE2$nanz" role="3cqZAp">
@@ -13354,6 +13380,17 @@
                             </node>
                           </node>
                           <node concept="3clFbT" id="1laJE2$nbr1" role="37wK5m" />
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="6V1GCQrsKVj" role="3cqZAp">
+                        <node concept="2OqwBi" id="6V1GCQrsKVk" role="3clFbG">
+                          <node concept="2YIFZM" id="6V1GCQrsKVl" role="2Oq$k0">
+                            <ref role="37wK5l" to="ddhc:~IdeEventQueue.getInstance()" resolve="getInstance" />
+                            <ref role="1Pybhc" to="ddhc:~IdeEventQueue" resolve="IdeEventQueue" />
+                          </node>
+                          <node concept="liA8E" id="6V1GCQrsKVm" role="2OqNvi">
+                            <ref role="37wK5l" to="ddhc:~IdeEventQueue.flushQueue()" resolve="flushQueue" />
+                          </node>
                         </node>
                       </node>
                     </node>

@@ -545,11 +545,6 @@
   </registry>
   <node concept="2ABfQD" id="24zrZPPz$8u">
     <property role="TrG5h" value="Hints" />
-    <node concept="2BsEeg" id="24zrZPPz$8v" role="2ABdcP">
-      <property role="2gpH_U" value="true" />
-      <property role="TrG5h" value="asDiagram" />
-      <property role="2BUmq6" value="asDiagram" />
-    </node>
     <node concept="2BsEeg" id="6actlYihpBx" role="2ABdcP">
       <property role="2gpH_U" value="true" />
       <property role="TrG5h" value="asText" />
@@ -697,12 +692,12 @@
         </node>
       </node>
     </node>
+    <node concept="2aJ2om" id="6V1GCQrk6bZ" role="CpUAK">
+      <ref role="2$4xQ3" node="6actlYihpBx" resolve="asText" />
+    </node>
   </node>
   <node concept="24kQdi" id="24zrZPP$0If">
     <ref role="1XX52x" to="7nxb:24zrZPPz$98" resolve="Edge" />
-    <node concept="2aJ2om" id="24zrZPP_q0a" role="CpUAK">
-      <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
-    </node>
     <node concept="2ZMJ7s" id="24zrZPP_q0o" role="2wV5jI">
       <node concept="1PNbMa" id="24zrZPP_q0q" role="1PN8q7">
         <node concept="23g$fm" id="24zrZPP_q14" role="ljJml">
@@ -1002,35 +997,38 @@
   </node>
   <node concept="24kQdi" id="24zrZPP$wBg">
     <ref role="1XX52x" to="7nxb:24zrZPPzcal" resolve="Diagram" />
-    <node concept="2aJ2om" id="24zrZPP_mXb" role="CpUAK">
-      <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
-    </node>
-    <node concept="27vDVx" id="24zrZPP_mXp" role="2wV5jI">
-      <node concept="1xLmZY" id="6V1GCQrb4W4" role="1xLlFP">
-        <node concept="3clFbS" id="6V1GCQrb4W6" role="2VODD2">
-          <node concept="3clFbF" id="6V1GCQrb4Xk" role="3cqZAp">
-            <node concept="2ShNRf" id="6V1GCQrb4Xm" role="3clFbG">
-              <node concept="Tc6Ow" id="6V1GCQrb4Xn" role="2ShVmc">
-                <node concept="3uibUv" id="6V1GCQrb4Xo" role="HW$YZ">
-                  <ref role="3uigEE" to="nkm5:7vufT$m5fkU" resolve="IConnectionType" />
-                </node>
-                <node concept="2ShNRf" id="6V1GCQrb4Xp" role="HW$Y0">
-                  <node concept="1pGfFk" id="6V1GCQrb4Xq" role="2ShVmc">
-                    <property role="373rjd" value="true" />
-                    <ref role="37wK5l" node="5UUX0AoLQLI" resolve="PortToPortConnector" />
-                    <node concept="2ZN8Hh" id="6V1GCQrb4Xr" role="37wK5m" />
+    <node concept="3EZMnI" id="6V1GCQrhPWY" role="2wV5jI">
+      <node concept="3F0ifn" id="6V1GCQrhQ0V" role="3EZMnx">
+        <property role="3F0ifm" value="Diagram as diagram" />
+      </node>
+      <node concept="2iRkQZ" id="6V1GCQrhPWZ" role="2iSdaV" />
+      <node concept="27vDVx" id="24zrZPP_mXp" role="3EZMnx">
+        <node concept="1xLmZY" id="6V1GCQrb4W4" role="1xLlFP">
+          <node concept="3clFbS" id="6V1GCQrb4W6" role="2VODD2">
+            <node concept="3clFbF" id="6V1GCQrb4Xk" role="3cqZAp">
+              <node concept="2ShNRf" id="6V1GCQrb4Xm" role="3clFbG">
+                <node concept="Tc6Ow" id="6V1GCQrb4Xn" role="2ShVmc">
+                  <node concept="3uibUv" id="6V1GCQrb4Xo" role="HW$YZ">
+                    <ref role="3uigEE" to="nkm5:7vufT$m5fkU" resolve="IConnectionType" />
+                  </node>
+                  <node concept="2ShNRf" id="6V1GCQrb4Xp" role="HW$Y0">
+                    <node concept="1pGfFk" id="6V1GCQrb4Xq" role="2ShVmc">
+                      <property role="373rjd" value="true" />
+                      <ref role="37wK5l" node="5UUX0AoLQLI" resolve="PortToPortConnector" />
+                      <node concept="2ZN8Hh" id="6V1GCQrb4Xr" role="37wK5m" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-      </node>
-      <node concept="aDKH9" id="24zrZPP_mXx" role="aCds2">
-        <ref role="aDKIf" to="7nxb:24zrZPPzcAP" resolve="elements" />
-      </node>
-      <node concept="1RuTs0" id="24zrZPP_mXX" role="1RuSHk">
-        <ref role="1RuSHD" to="7nxb:24zrZPPzcAP" resolve="elements" />
+        <node concept="aDKH9" id="24zrZPP_mXx" role="aCds2">
+          <ref role="aDKIf" to="7nxb:24zrZPPzcAP" resolve="elements" />
+        </node>
+        <node concept="1RuTs0" id="24zrZPP_mXX" role="1RuSHk">
+          <ref role="1RuSHD" to="7nxb:24zrZPPzcAP" resolve="elements" />
+        </node>
       </node>
     </node>
   </node>
@@ -1088,12 +1086,12 @@
         </node>
       </node>
     </node>
+    <node concept="2aJ2om" id="6V1GCQrklyw" role="CpUAK">
+      <ref role="2$4xQ3" node="6actlYihpBx" resolve="asText" />
+    </node>
   </node>
   <node concept="24kQdi" id="24zrZPP_mYn">
     <ref role="1XX52x" to="7nxb:24zrZPPzcAr" resolve="Box" />
-    <node concept="2aJ2om" id="24zrZPP_mYQ" role="CpUAK">
-      <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
-    </node>
     <node concept="2ZK4vF" id="24zrZPP_mZ4" role="2wV5jI">
       <node concept="3F1sOY" id="24zrZPP_mZq" role="1ytjkN">
         <ref role="1NtTu8" to="7nxb:24zrZPPz$7Y" resolve="content" />
@@ -1154,6 +1152,9 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+    <node concept="2aJ2om" id="6V1GCQrkl_Z" role="CpUAK">
+      <ref role="2$4xQ3" node="6actlYihpBx" resolve="asText" />
     </node>
   </node>
   <node concept="24kQdi" id="24zrZPPCEsZ">
@@ -1241,9 +1242,6 @@
   <node concept="24kQdi" id="28uWW3KZptk">
     <property role="3GE5qa" value="testDiagrams" />
     <ref role="1XX52x" to="7nxb:28uWW3KZps3" resolve="DiagramWithoutLayoutStore" />
-    <node concept="2aJ2om" id="28uWW3KZpv2" role="CpUAK">
-      <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
-    </node>
     <node concept="27vDVx" id="28uWW3KZpv4" role="2wV5jI">
       <node concept="1xLmZY" id="5UUX0AoM0LJ" role="1xLlFP">
         <node concept="3clFbS" id="5UUX0AoM0LK" role="2VODD2">
@@ -1288,6 +1286,9 @@
     <ref role="1XX52x" to="7nxb:28uWW3KZps3" resolve="DiagramWithoutLayoutStore" />
     <node concept="PMmxH" id="1mqidcwdD$G" role="2wV5jI">
       <ref role="PMmxG" node="1mqidcwdDvj" resolve="DiagramInspector" />
+    </node>
+    <node concept="2aJ2om" id="6V1GCQrkltR" role="CpUAK">
+      <ref role="2$4xQ3" node="6actlYihpBx" resolve="asText" />
     </node>
   </node>
   <node concept="24kQdi" id="21ib$h2$zAR">
@@ -1368,11 +1369,7 @@
         </node>
         <node concept="1Pxb5l" id="6actlYifquy" role="3K_XBl" />
       </node>
-      <node concept="2w$q5c" id="4DlUnPCyeei" role="2whIAn">
-        <node concept="2aJ2om" id="4DlUnPCyeej" role="2w$qW5">
-          <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
-        </node>
-      </node>
+      <node concept="2w$q5c" id="4DlUnPCyeei" role="2whIAn" />
     </node>
     <node concept="PMmxH" id="1mqidcwdDDH" role="6VMZX">
       <ref role="PMmxG" node="1mqidcwdDvj" resolve="DiagramInspector" />
@@ -4628,11 +4625,7 @@
           </node>
         </node>
       </node>
-      <node concept="2w$q5c" id="1mqidcvPRb8" role="2whIAn">
-        <node concept="2aJ2om" id="1mqidcvPRb9" role="2w$qW5">
-          <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
-        </node>
-      </node>
+      <node concept="2w$q5c" id="1mqidcvPRb8" role="2whIAn" />
     </node>
     <node concept="3EZMnI" id="1mqidcvPRga" role="6VMZX">
       <node concept="l2Vlx" id="1mqidcvPRgb" role="2iSdaV" />
@@ -4741,11 +4734,7 @@
           </node>
         </node>
       </node>
-      <node concept="2w$q5c" id="1mqidcwcjvA" role="2whIAn">
-        <node concept="2aJ2om" id="1mqidcwcjvB" role="2w$qW5">
-          <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
-        </node>
-      </node>
+      <node concept="2w$q5c" id="1mqidcwcjvA" role="2whIAn" />
     </node>
     <node concept="PMmxH" id="1mqidcwdDvD" role="6VMZX">
       <ref role="PMmxG" node="1mqidcwdDvj" resolve="DiagramInspector" />
@@ -4899,11 +4888,7 @@
         </node>
         <node concept="1Pxb5l" id="6actlYifqwN" role="3K_XBl" />
       </node>
-      <node concept="2w$q5c" id="6actlYifqwO" role="2whIAn">
-        <node concept="2aJ2om" id="6actlYifqwP" role="2w$qW5">
-          <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
-        </node>
-      </node>
+      <node concept="2w$q5c" id="6actlYifqwO" role="2whIAn" />
     </node>
     <node concept="3EZMnI" id="6actlYifUVf" role="6VMZX">
       <node concept="2iRkQZ" id="6actlYifUVg" role="2iSdaV" />

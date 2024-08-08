@@ -1006,6 +1006,26 @@
       <ref role="2$4xQ3" node="24zrZPPz$8v" resolve="asDiagram" />
     </node>
     <node concept="27vDVx" id="24zrZPP_mXp" role="2wV5jI">
+      <node concept="1xLmZY" id="6V1GCQrb4W4" role="1xLlFP">
+        <node concept="3clFbS" id="6V1GCQrb4W6" role="2VODD2">
+          <node concept="3clFbF" id="6V1GCQrb4Xk" role="3cqZAp">
+            <node concept="2ShNRf" id="6V1GCQrb4Xm" role="3clFbG">
+              <node concept="Tc6Ow" id="6V1GCQrb4Xn" role="2ShVmc">
+                <node concept="3uibUv" id="6V1GCQrb4Xo" role="HW$YZ">
+                  <ref role="3uigEE" to="nkm5:7vufT$m5fkU" resolve="IConnectionType" />
+                </node>
+                <node concept="2ShNRf" id="6V1GCQrb4Xp" role="HW$Y0">
+                  <node concept="1pGfFk" id="6V1GCQrb4Xq" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" node="5UUX0AoLQLI" resolve="PortToPortConnector" />
+                    <node concept="2ZN8Hh" id="6V1GCQrb4Xr" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="aDKH9" id="24zrZPP_mXx" role="aCds2">
         <ref role="aDKIf" to="7nxb:24zrZPPzcAP" resolve="elements" />
       </node>

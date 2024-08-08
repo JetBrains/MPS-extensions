@@ -219,6 +219,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -2021,13 +2022,33 @@
       <node concept="3Tm1VV" id="2ZGhpRfeyBd" role="1B3o_S" />
       <node concept="17QB3L" id="2ZGhpRffgws" role="3clF45" />
       <node concept="3clFbS" id="2ZGhpRfeyBh" role="3clF47">
-        <node concept="3cpWs6" id="16TtUNxFN8a" role="3cqZAp">
-          <node concept="2EnYce" id="16TtUNxFN8b" role="3cqZAk">
-            <node concept="liA8E" id="16TtUNxFN8c" role="2OqNvi">
-              <ref role="37wK5l" to="imq3:VPgi8ei9p0" resolve="getLabel" />
+        <node concept="3cpWs8" id="4rAMcYzp4uW" role="3cqZAp">
+          <node concept="3cpWsn" id="4rAMcYzp4uX" role="3cpWs9">
+            <property role="TrG5h" value="label" />
+            <node concept="17QB3L" id="4rAMcYzoZEG" role="1tU5fm" />
+            <node concept="2EnYce" id="4rAMcYzp4uY" role="33vP2m">
+              <node concept="liA8E" id="4rAMcYzp4uZ" role="2OqNvi">
+                <ref role="37wK5l" to="imq3:VPgi8ei9p0" resolve="getLabel" />
+              </node>
+              <node concept="1rXfSq" id="4rAMcYzp4v0" role="2Oq$k0">
+                <ref role="37wK5l" node="5GuprjjgR5R" resolve="getMyViewDescriptor" />
+              </node>
             </node>
-            <node concept="1rXfSq" id="16TtUNxFN8d" role="2Oq$k0">
-              <ref role="37wK5l" node="5GuprjjgR5R" resolve="getMyViewDescriptor" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="16TtUNxFN8a" role="3cqZAp">
+          <node concept="3K4zz7" id="4rAMcYznTlv" role="3cqZAk">
+            <node concept="Xl_RD" id="4rAMcYzoUAl" role="3K4GZi">
+              <property role="Xl_RC" value="no title" />
+            </node>
+            <node concept="2OqwBi" id="4rAMcYzojTR" role="3K4Cdx">
+              <node concept="37vLTw" id="4rAMcYzp4v1" role="2Oq$k0">
+                <ref role="3cqZAo" node="4rAMcYzp4uX" resolve="label" />
+              </node>
+              <node concept="17RvpY" id="4rAMcYzoxUs" role="2OqNvi" />
+            </node>
+            <node concept="37vLTw" id="4rAMcYzp4v2" role="3K4E3e">
+              <ref role="3cqZAo" node="4rAMcYzp4uX" resolve="label" />
             </node>
           </node>
         </node>
@@ -5042,12 +5063,6 @@
       </node>
       <node concept="3clFbS" id="4gq8yQBZ6V4" role="3clF47">
         <node concept="3clFbJ" id="4gq8yQBZ6V9" role="3cqZAp">
-          <node concept="3y3z36" id="4gq8yQBZ6Va" role="3clFbw">
-            <node concept="37vLTw" id="4gq8yQBZ6Vb" role="3uHU7B">
-              <ref role="3cqZAo" to="k21q:~AbstractProjectViewPane.myTree" resolve="myTree" />
-            </node>
-            <node concept="10Nm6u" id="4gq8yQBZ6Vc" role="3uHU7w" />
-          </node>
           <node concept="3clFbS" id="4gq8yQBZ6Vn" role="3clFbx">
             <node concept="3cpWs8" id="1zw8Mi3ZBVR" role="3cqZAp">
               <node concept="3cpWsn" id="1zw8Mi3ZBVS" role="3cpWs9">
@@ -5129,6 +5144,30 @@
                   <ref role="3cqZAo" node="1zw8Mi3YZrR" resolve="treeState" />
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="4rAMcYzpLen" role="3clFbw">
+            <node concept="3y3z36" id="4rAMcYzqVaM" role="3uHU7w">
+              <node concept="10Nm6u" id="4rAMcYzr50e" role="3uHU7w" />
+              <node concept="2OqwBi" id="4rAMcYzqyRs" role="3uHU7B">
+                <node concept="2OqwBi" id="4rAMcYzqcnI" role="2Oq$k0">
+                  <node concept="37vLTw" id="4rAMcYzq12I" role="2Oq$k0">
+                    <ref role="3cqZAo" to="k21q:~AbstractProjectViewPane.myTree" resolve="myTree" />
+                  </node>
+                  <node concept="liA8E" id="4rAMcYzqpCu" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~JTree.getModel()" resolve="getModel" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="4rAMcYzqM$r" role="2OqNvi">
+                  <ref role="37wK5l" to="rgfa:~TreeModel.getRoot()" resolve="getRoot" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="4gq8yQBZ6Va" role="3uHU7B">
+              <node concept="37vLTw" id="4gq8yQBZ6Vb" role="3uHU7B">
+                <ref role="3cqZAo" to="k21q:~AbstractProjectViewPane.myTree" resolve="myTree" />
+              </node>
+              <node concept="10Nm6u" id="4gq8yQBZ6Vc" role="3uHU7w" />
             </node>
           </node>
         </node>
@@ -15037,7 +15076,7 @@
       <node concept="3clFbS" id="7PuCnEL_TSP" role="3clF47">
         <node concept="3clFbF" id="7PuCnELBxCb" role="3cqZAp">
           <node concept="2OqwBi" id="7PuCnELBxL$" role="3clFbG">
-            <node concept="37vLTw" id="7PuCnELBxCa" role="2Oq$k0">
+            <node concept="37vLTw" id="6rydjJtONCQ" role="2Oq$k0">
               <ref role="3cqZAo" node="7PuCnEL_XWZ" resolve="parentTreeNodes" />
             </node>
             <node concept="2es0OD" id="7PuCnELByiD" role="2OqNvi">
@@ -15091,13 +15130,25 @@
         </node>
         <node concept="3clFbJ" id="58b0Q1$shCO" role="3cqZAp">
           <node concept="3clFbS" id="58b0Q1$shCQ" role="3clFbx">
-            <node concept="3clFbF" id="7PuCnELBtuq" role="3cqZAp">
-              <node concept="2OqwBi" id="7PuCnELBtAA" role="3clFbG">
-                <node concept="37vLTw" id="7PuCnELBtup" role="2Oq$k0">
+            <node concept="3clFbJ" id="4rAMcYzlevq" role="3cqZAp">
+              <node concept="3clFbS" id="4rAMcYzlevs" role="3clFbx">
+                <node concept="3clFbF" id="7PuCnELBtuq" role="3cqZAp">
+                  <node concept="2OqwBi" id="7PuCnELBtAA" role="3clFbG">
+                    <node concept="37vLTw" id="7PuCnELBtup" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7PuCnELAhCw" resolve="parentTreeNode" />
+                    </node>
+                    <node concept="liA8E" id="7PuCnELBul$" role="2OqNvi">
+                      <ref role="37wK5l" to="7e8u:~MPSTreeNode.updateSubTree()" resolve="updateSubTree" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4rAMcYzkalG" role="3clFbw">
+                <node concept="37vLTw" id="4rAMcYzk6Fc" role="2Oq$k0">
                   <ref role="3cqZAo" node="7PuCnELAhCw" resolve="parentTreeNode" />
                 </node>
-                <node concept="liA8E" id="7PuCnELBul$" role="2OqNvi">
-                  <ref role="37wK5l" to="7e8u:~MPSTreeNode.updateSubTree()" resolve="updateSubTree" />
+                <node concept="liA8E" id="4rAMcYzkfHL" role="2OqNvi">
+                  <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
                 </node>
               </node>
             </node>
@@ -15202,13 +15253,25 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7PuCnELBuB8" role="3cqZAp">
-          <node concept="2OqwBi" id="7PuCnELBuJ$" role="3clFbG">
-            <node concept="37vLTw" id="7PuCnELBuB7" role="2Oq$k0">
+        <node concept="3clFbJ" id="4rAMcYzmca9" role="3cqZAp">
+          <node concept="3clFbS" id="4rAMcYzmcab" role="3clFbx">
+            <node concept="3clFbF" id="7PuCnELBuB8" role="3cqZAp">
+              <node concept="2OqwBi" id="7PuCnELBuJ$" role="3clFbG">
+                <node concept="37vLTw" id="7PuCnELBuB7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7PuCnELAm3c" resolve="treeNode" />
+                </node>
+                <node concept="liA8E" id="7PuCnELBvuy" role="2OqNvi">
+                  <ref role="37wK5l" to="7e8u:~MPSTreeNode.renewPresentation()" resolve="renewPresentation" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4rAMcYzmotO" role="3clFbw">
+            <node concept="37vLTw" id="4rAMcYzmhV9" role="2Oq$k0">
               <ref role="3cqZAo" node="7PuCnELAm3c" resolve="treeNode" />
             </node>
-            <node concept="liA8E" id="7PuCnELBvuy" role="2OqNvi">
-              <ref role="37wK5l" to="7e8u:~MPSTreeNode.renewPresentation()" resolve="renewPresentation" />
+            <node concept="liA8E" id="4rAMcYzmtGT" role="2OqNvi">
+              <ref role="37wK5l" node="Ggg0Z743sM" resolve="isInTree" />
             </node>
           </node>
         </node>

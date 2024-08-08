@@ -183,6 +183,7 @@
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -271,7 +272,6 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1175845471038" name="jetbrains.mps.baseLanguage.collections.structure.ReverseOperation" flags="nn" index="35Qw8J" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
@@ -2606,7 +2606,7 @@
                                     <node concept="3clFbF" id="6Ehn3QO4dlj" role="3cqZAp">
                                       <node concept="2OqwBi" id="6Ehn3QO4dPf" role="3clFbG">
                                         <node concept="37vLTw" id="6Ehn3QO4dli" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="6Ehn3QO4cPu" resolve="it" />
+                                          <ref role="3cqZAo" node="7Z$RfkF7IEJ" resolve="it" />
                                         </node>
                                         <node concept="3TrcHB" id="6Ehn3QO4f$M" role="2OqNvi">
                                           <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
@@ -2614,9 +2614,9 @@
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="Rh6nW" id="6Ehn3QO4cPu" role="1bW2Oz">
+                                  <node concept="gl6BB" id="7Z$RfkF7IEJ" role="1bW2Oz">
                                     <property role="TrG5h" value="it" />
-                                    <node concept="2jxLKc" id="6Ehn3QO4cPv" role="1tU5fm" />
+                                    <node concept="2jxLKc" id="7Z$RfkF7IEK" role="1tU5fm" />
                                   </node>
                                 </node>
                               </node>

@@ -124,6 +124,12 @@
       <property role="TrG5h" value="connectBoxesWithoutDummyPort" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyj" id="6actlYi6UMa" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="diagramID" />
+      <property role="IQ2ns" value="7101179765790059658" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="7vufT$lixNl" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="paletteFolder" />
@@ -4104,11 +4110,6 @@
       <property role="TrG5h" value="desiredEdgeLength" />
       <ref role="AX2Wp" node="gc$lTUB" resolve="double" />
     </node>
-    <node concept="1TJgyi" id="3biyEnNNler" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892370191259" />
-      <property role="TrG5h" value="fixedPosition" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyi" id="3biyEnNNlxF" role="1TKVEl">
       <property role="IQ2nx" value="3662141892370192491" />
       <property role="TrG5h" value="interactive" />
@@ -4326,11 +4327,6 @@
       <property role="IQ2nx" value="3662141892374570510" />
       <property role="TrG5h" value="topdownLayout" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="3biyEnO42yw" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892374571168" />
-      <property role="TrG5h" value="topdownNodeType" />
-      <ref role="AX2Wp" node="qwNnoEIHR$" resolve="TopdownNodeTypes" />
     </node>
     <node concept="1TJgyi" id="3biyEnNTkvp" role="1TKVEl">
       <property role="IQ2nx" value="3662141892371761113" />

@@ -487,6 +487,25 @@
           <node concept="VPM3Z" id="5qgNcfDnhdG" role="3F10Kt">
             <property role="VOm3f" value="false" />
           </node>
+          <node concept="3EZMnI" id="6actlYi6VD2" role="3EZMnx">
+            <node concept="VPM3Z" id="6actlYi6VD3" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="6actlYi6VD4" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="6actlYi6VD5" role="3EZMnx">
+              <property role="3F0ifm" value="id" />
+            </node>
+            <node concept="3F1sOY" id="6actlYi6VD6" role="3EZMnx">
+              <property role="1$x2rV" value="derived from node" />
+              <ref role="1NtTu8" to="2qld:6actlYi6UMa" resolve="diagramID" />
+              <node concept="VPXOz" id="6actlYi6VD7" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="6actlYi6VD8" role="2iSdaV" />
+          </node>
           <node concept="3EZMnI" id="2J9gLgxqvP$" role="3EZMnx">
             <node concept="VPM3Z" id="2J9gLgxqvP_" role="3F10Kt">
               <property role="VOm3f" value="false" />
@@ -1104,6 +1123,9 @@
             </node>
             <node concept="3F0A7n" id="1kJMeaGoR7n" role="3EZMnx">
               <ref role="1NtTu8" to="2qld:1kJMeaGoPQI" resolve="connectBoxesWithoutDummyPort" />
+              <node concept="VPXOz" id="1mqidcwir$6" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
             </node>
             <node concept="VPM3Z" id="1kJMeaGoQxy" role="3F10Kt" />
             <node concept="VPXOz" id="1kJMeaGoQxz" role="3F10Kt">
@@ -10751,6 +10773,12 @@
         <ref role="1k5W1q" to="tpen:hFCSAw$" resolve="LeftParen" />
       </node>
       <node concept="2iRfu4" id="56jSwh$gG0d" role="2iSdaV" />
+      <node concept="3F0ifn" id="6jSQEAjs9R_" role="3EZMnx">
+        <property role="3F0ifm" value="top:" />
+        <node concept="11LMrY" id="6jSQEAjs9RK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F0A7n" id="56jSwh$gFY7" role="3EZMnx">
         <ref role="1NtTu8" to="2qld:56jSwh$gF9A" resolve="top" />
       </node>
@@ -10760,6 +10788,12 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="11LMrY" id="56jSwh$oXdo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6jSQEAjs9RC" role="3EZMnx">
+        <property role="3F0ifm" value="right:" />
+        <node concept="11LMrY" id="6jSQEAjs9RL" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -10775,6 +10809,12 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="6jSQEAjs9RF" role="3EZMnx">
+        <property role="3F0ifm" value="bottom:" />
+        <node concept="11LMrY" id="6jSQEAjs9RM" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F0A7n" id="56jSwh$gG6X" role="3EZMnx">
         <ref role="1NtTu8" to="2qld:56jSwh$gFrD" resolve="bottom" />
       </node>
@@ -10784,6 +10824,12 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="11LMrY" id="56jSwh$oXgn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6jSQEAjs9RI" role="3EZMnx">
+        <property role="3F0ifm" value="left:" />
+        <node concept="11LMrY" id="6jSQEAjs9RN" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -13760,32 +13806,6 @@
             <ref role="1NtTu8" to="2qld:3biyEnNNl1o" resolve="desiredEdgeLength" />
           </node>
         </node>
-        <node concept="3EZMnI" id="3biyEnNNnvJ" role="3EZMnx">
-          <node concept="2iRfu4" id="3biyEnNNnvK" role="2iSdaV" />
-          <node concept="3F0ifn" id="3biyEnNNnvL" role="3EZMnx">
-            <property role="3F0ifm" value="fixed position" />
-          </node>
-          <node concept="1HlG4h" id="3biyEnNNnvM" role="3EZMnx">
-            <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
-            <node concept="1HfYo3" id="3biyEnNNnvN" role="1HlULh">
-              <node concept="3TQlhw" id="3biyEnNNnvO" role="1Hhtcw">
-                <node concept="3clFbS" id="3biyEnNNnvP" role="2VODD2">
-                  <node concept="3cpWs6" id="3biyEnNNnvQ" role="3cqZAp">
-                    <node concept="Xl_RD" id="3biyEnNNnvR" role="3cqZAk">
-                      <property role="Xl_RC" value="(?)" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3u2Kpz" id="3biyEnNNnvS" role="3F10Kt">
-              <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-stress-fixed.html" />
-            </node>
-          </node>
-          <node concept="3F0A7n" id="3biyEnNNnvT" role="3EZMnx">
-            <ref role="1NtTu8" to="2qld:3biyEnNNler" resolve="fixedPosition" />
-          </node>
-        </node>
         <node concept="3EZMnI" id="3biyEnNNn$$" role="3EZMnx">
           <node concept="2iRfu4" id="3biyEnNNn$_" role="2iSdaV" />
           <node concept="3F0ifn" id="3biyEnNNn$A" role="3EZMnx">
@@ -14763,32 +14783,6 @@
         </node>
         <node concept="3F0A7n" id="3biyEnOlZby" role="3EZMnx">
           <ref role="1NtTu8" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
-        </node>
-      </node>
-      <node concept="3EZMnI" id="3biyEnOlZbz" role="3EZMnx">
-        <node concept="2iRfu4" id="3biyEnOlZb$" role="2iSdaV" />
-        <node concept="3F0ifn" id="3biyEnOlZb_" role="3EZMnx">
-          <property role="3F0ifm" value="top-down node type" />
-        </node>
-        <node concept="1HlG4h" id="3biyEnOlZbA" role="3EZMnx">
-          <ref role="1k5W1q" to="tpen:hshU_KJ" resolve="Annotation" />
-          <node concept="1HfYo3" id="3biyEnOlZbB" role="1HlULh">
-            <node concept="3TQlhw" id="3biyEnOlZbC" role="1Hhtcw">
-              <node concept="3clFbS" id="3biyEnOlZbD" role="2VODD2">
-                <node concept="3cpWs6" id="3biyEnOlZbE" role="3cqZAp">
-                  <node concept="Xl_RD" id="3biyEnOlZbF" role="3cqZAk">
-                    <property role="Xl_RC" value="(?)" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3u2Kpz" id="3biyEnOlZbG" role="3F10Kt">
-            <property role="3u2UNH" value="https://eclipse.dev/elk/reference/options/org-eclipse-elk-topdown-nodeType.html" />
-          </node>
-        </node>
-        <node concept="3F0A7n" id="3biyEnOlZbH" role="3EZMnx">
-          <ref role="1NtTu8" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
         </node>
       </node>
       <node concept="3EZMnI" id="3biyEnNTmsh" role="3EZMnx">

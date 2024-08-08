@@ -6,6 +6,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ## August 2024
 
+### Fixed
+
+- *de.itemis.mps.editor.diagram*: Some issues related to ELK styles and custom IDs were fixed.
+
 ### Changed
 
 - *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.

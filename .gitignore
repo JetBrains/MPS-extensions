@@ -35,3 +35,6 @@ code/dependencies.txt
 *.iml
 
 TEST*.xml
+
+# screenshots
+code/cell-screenshots

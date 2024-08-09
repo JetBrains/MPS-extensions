@@ -73,13 +73,13 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="1094247804558289146" name="jetbrains.mps.lang.text.structure.BulletLine" flags="ng" index="2DRihI" />
-      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ng" index="2RT3b8">
+      <concept id="5106752179536586436" name="jetbrains.mps.lang.text.structure.IndentedPoint" flags="ngI" index="2RT3b8">
         <property id="5106752179536586491" name="indentation" index="2RT3bR" />
       </concept>
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -294,6 +294,50 @@
           </node>
           <node concept="3oM_SD" id="76bI8XWtwjj" role="1PaTwD">
             <property role="3oM_SC" value="anymore." />
+          </node>
+        </node>
+        <node concept="2DRihI" id="3E4xQE1Em8e" role="15bAlk">
+          <node concept="2hgSXJ" id="3E4xQE1Em8f" role="1PaTwD">
+            <node concept="1PaTwC" id="3E4xQE1Em8g" role="2hiFM$">
+              <node concept="15Ami3" id="3E4xQE1Em8h" role="1PaTwD">
+                <node concept="37shsh" id="3E4xQE1Em8i" role="15Aodc">
+                  <node concept="1dCxOk" id="3E4xQE1Em9j" role="37shsm">
+                    <property role="1XweGW" value="94b17d5e-87d9-4868-8101-157e83e33243" />
+                    <property role="1XxBO9" value="com.mbeddr.mpsutil.editor.querylist.runtime" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="3E4xQE1Em8k" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1Em8l" role="1PaTwD">
+            <property role="3oM_SC" value="Querylist" />
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1Ema7" role="1PaTwD">
+            <property role="3oM_SC" value="calls" />
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1Emau" role="1PaTwD">
+            <property role="3oM_SC" value="model" />
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1EmaQ" role="1PaTwD">
+            <property role="3oM_SC" value="checks" />
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1Embf" role="1PaTwD">
+            <property role="3oM_SC" value="of" />
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1EmbD" role="1PaTwD">
+            <property role="3oM_SC" value="target" />
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1Emc4" role="1PaTwD">
+            <property role="3oM_SC" value="nodes" />
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1Emcw" role="1PaTwD">
+            <property role="3oM_SC" value="less" />
+          </node>
+          <node concept="3oM_SD" id="3E4xQE1Emi6" role="1PaTwD">
+            <property role="3oM_SC" value="agressively." />
           </node>
         </node>
       </node>

@@ -12,7 +12,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Changed
 
-- *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
+- *com.mbeddr.mpsutil.projectview.runtime*: Fixed  several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
 
 ## July 2024
 
@@ -33,7 +33,6 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime*: Diagrams can now be used in an headless environment (e.g. for rendering documentation).
-- *de.slisson.mps.editor.multiline.runtime*: A bug was fixed where the multiline cell got a wrong background color set.
 - *de.itemis.mps.editor.diagram.runtime*: The dependency to *de.q60.mps.collections.libs* was removed.
 - *de.itemis.mps.editor.diagram*: Various improvements to diagrams were made. (see: [PR #866](https://github.com/JetBrains/MPS-extensions/pull/866) )
 

@@ -8,6 +8,10 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Fixed
 
+- *de.itemis.mps.editor.diagram*: Some issues related to ELK styles and custom IDs were fixed.
+
+### Changed
+
 - *com.mbeddr.mpsutil.projectview.runtime*: Fixed  several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
 
 ## July 2024

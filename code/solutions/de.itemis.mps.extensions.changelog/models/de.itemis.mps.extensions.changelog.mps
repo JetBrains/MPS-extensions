@@ -284,6 +284,58 @@
         <property role="15ShDY" value="Po4Z58IgAR/August" />
         <property role="15ShDw" value="2024" />
       </node>
+      <node concept="15bAme" id="1laJE2$pd25" role="15bAlL">
+        <node concept="2DRihI" id="1laJE2$pd26" role="15bAlk">
+          <node concept="2hgSXJ" id="1laJE2$pdhl" role="1PaTwD">
+            <node concept="1PaTwC" id="1laJE2$pdhm" role="2hiFM$">
+              <node concept="15Ami3" id="1laJE2$pdhn" role="1PaTwD">
+                <node concept="37shsh" id="1laJE2$pdho" role="15Aodc">
+                  <node concept="1dCxOk" id="1laJE2$pdhp" role="37shsm">
+                    <property role="1XweGW" value="fa13cc63-c476-4d46-9c96-d53670abe7bc" />
+                    <property role="1XxBO9" value="de.itemis.mps.editor.diagram" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="1laJE2$pdhq" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdBB" role="1PaTwD">
+            <property role="3oM_SC" value="Some" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdrU" role="1PaTwD">
+            <property role="3oM_SC" value="issues" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdt5" role="1PaTwD">
+            <property role="3oM_SC" value="related" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdug" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdvr" role="1PaTwD">
+            <property role="3oM_SC" value="ELK" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdwA" role="1PaTwD">
+            <property role="3oM_SC" value="styles" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdxL" role="1PaTwD">
+            <property role="3oM_SC" value="and" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdxM" role="1PaTwD">
+            <property role="3oM_SC" value="custom" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdyX" role="1PaTwD">
+            <property role="3oM_SC" value="IDs" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pd$8" role="1PaTwD">
+            <property role="3oM_SC" value="were" />
+          </node>
+          <node concept="3oM_SD" id="1laJE2$pdCM" role="1PaTwD">
+            <property role="3oM_SC" value="fixed." />
+          </node>
+        </node>
+      </node>
       <node concept="15bAme" id="76bI8XWtvkt" role="15bAlL">
         <property role="15bAli" value="Po4Z58tnOF/changed" />
         <node concept="2DRihI" id="76bI8XWtvku" role="15bAlk">

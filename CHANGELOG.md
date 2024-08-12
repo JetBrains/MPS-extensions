@@ -8,6 +8,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
+- *de.itemis.mps.editor.diagram*: A new option for diagrams was added to allow boxes to set a new required minimum size.
 - *de.slisson.mps.editor.multiline*: A new cell *constant multi-line* can be used to create dynamic read-only text that spans multiple lines.
 
 ### Fixed

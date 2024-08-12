@@ -36,6 +36,9 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="7651593722933768974" name="jetbrains.mps.lang.editor.structure.MaxWidthStyleClassItem" flags="ln" index="nf9zX">
+        <property id="7651593722933768975" name="value" index="nf9zW" />
+      </concept>
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
@@ -76,7 +79,9 @@
         <child id="3982520150122341379" name="query" index="3tD6jU" />
       </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
+        <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -279,6 +284,7 @@
         <child id="53713348769907228" name="autoLayoutOnChange" index="2hB_ot" />
         <child id="8316481512155640329" name="saveLayout" index="qiu7m" />
         <child id="5018298105379062639" name="autoLayoutOnInit" index="2Dxx3A" />
+        <child id="2060885462441433843" name="allowElementsBelowRequiredSize" index="2F3Mqr" />
         <child id="6910723851735171798" name="buttonConfig" index="3sAl1G" />
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
         <child id="7858611447550199305" name="syncWithModelOnlyOnOpening" index="3y0MdK" />
@@ -937,8 +943,16 @@
   </node>
   <node concept="24kQdi" id="24zrZPP$0Pk">
     <ref role="1XX52x" to="7nxb:24zrZPPz$8d" resolve="TextBoxContent" />
-    <node concept="3F0A7n" id="21ib$h2_aLB" role="2wV5jI">
-      <ref role="1NtTu8" to="7nxb:24zrZPPz$8l" resolve="value" />
+    <node concept="3EZMnI" id="2PdRDsXByHw" role="2wV5jI">
+      <node concept="l2Vlx" id="2PdRDsXByHx" role="2iSdaV" />
+      <node concept="3F0A7n" id="21ib$h2_aLB" role="3EZMnx">
+        <ref role="1NtTu8" to="7nxb:24zrZPPz$8l" resolve="value1" />
+      </node>
+      <node concept="3F0A7n" id="2PdRDsXByHz" role="3EZMnx">
+        <property role="1$x2rV" value=" " />
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="7nxb:2PdRDsXByHv" resolve="value2" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="24zrZPP$0Q6">
@@ -2511,6 +2525,34 @@
           </node>
           <node concept="3clFbF" id="1mqidcvKIWM" role="3cqZAp">
             <node concept="3clFbT" id="1mqidcvKIWL" role="3clFbG">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="pkWqt" id="1MpJ6ySnYcO" role="2F3Mqr">
+        <node concept="3clFbS" id="1MpJ6ySnYcP" role="2VODD2">
+          <node concept="RRSsy" id="1MpJ6ySnYsA" role="3cqZAp">
+            <node concept="3cpWs3" id="1MpJ6ySnYsB" role="RRSoy">
+              <node concept="1Q80Hx" id="1MpJ6ySnYsC" role="3uHU7w" />
+              <node concept="Xl_RD" id="1MpJ6ySnYsD" role="3uHU7B">
+                <property role="Xl_RC" value="editor context:" />
+              </node>
+            </node>
+          </node>
+          <node concept="RRSsy" id="1MpJ6ySnYsE" role="3cqZAp">
+            <node concept="3cpWs3" id="1MpJ6ySnYsF" role="RRSoy">
+              <node concept="2OqwBi" id="1MpJ6ySnYsG" role="3uHU7w">
+                <node concept="pncrf" id="1MpJ6ySnYsH" role="2Oq$k0" />
+                <node concept="2Iv5rx" id="1MpJ6ySnYsI" role="2OqNvi" />
+              </node>
+              <node concept="Xl_RD" id="1MpJ6ySnYsJ" role="3uHU7B">
+                <property role="Xl_RC" value="node:" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="1MpJ6ySnYsK" role="3cqZAp">
+            <node concept="3clFbT" id="1MpJ6ySnYsL" role="3clFbG">
               <property role="3clFbU" value="true" />
             </node>
           </node>
@@ -5310,6 +5352,81 @@
     <node concept="3Tm1VV" id="5UUX0AoLQa$" role="1B3o_S" />
     <node concept="3uibUv" id="5UUX0AoLQIc" role="1zkMxy">
       <ref role="3uigEE" to="nkm5:5BPceOJSo9l" resolve="SNodeConnectionType" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2PdRDsXzRa6">
+    <property role="3GE5qa" value="testDiagrams" />
+    <ref role="1XX52x" to="7nxb:2PdRDsXzQMw" resolve="DiagramSmallerThanRequiredSize" />
+    <node concept="3EZMnI" id="2PdRDsXzRa8" role="2wV5jI">
+      <node concept="3EZMnI" id="2PdRDsXzRa9" role="3EZMnx">
+        <node concept="2iRfu4" id="2PdRDsXzRaa" role="2iSdaV" />
+        <node concept="3F0ifn" id="2PdRDsXzRab" role="3EZMnx">
+          <property role="3F0ifm" value="smaller than required size" />
+        </node>
+        <node concept="3F0A7n" id="2PdRDsXzRac" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="2PdRDsXzRad" role="2iSdaV" />
+      <node concept="27vDVx" id="2PdRDsXzRae" role="3EZMnx">
+        <node concept="1xLmZY" id="2PdRDsXzRaf" role="1xLlFP">
+          <node concept="3clFbS" id="2PdRDsXzRag" role="2VODD2">
+            <node concept="3clFbF" id="2PdRDsXzRah" role="3cqZAp">
+              <node concept="2ShNRf" id="2PdRDsXzRai" role="3clFbG">
+                <node concept="Tc6Ow" id="2PdRDsXzRaj" role="2ShVmc">
+                  <node concept="3uibUv" id="2PdRDsXzRak" role="HW$YZ">
+                    <ref role="3uigEE" to="nkm5:7vufT$m5fkU" resolve="IConnectionType" />
+                  </node>
+                  <node concept="2ShNRf" id="2PdRDsXzRal" role="HW$Y0">
+                    <node concept="1pGfFk" id="2PdRDsXzRam" role="2ShVmc">
+                      <property role="373rjd" value="true" />
+                      <ref role="37wK5l" node="5UUX0AoLQLI" resolve="PortToPortConnector" />
+                      <node concept="2ZN8Hh" id="2PdRDsXzRan" role="37wK5m" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="aDKH9" id="2PdRDsXzRao" role="aCds2">
+          <ref role="aDKIf" to="7nxb:24zrZPPzcAP" resolve="elements" />
+        </node>
+        <node concept="1RuTs0" id="2PdRDsXzRap" role="1RuSHk">
+          <ref role="1RuSHD" to="7nxb:24zrZPPzcAP" resolve="elements" />
+        </node>
+        <node concept="39fpm" id="2PdRDsXzRaq" role="35U2g">
+          <property role="1NdBj4" value="6Bd7VwqYQAT/RIGHT" />
+        </node>
+        <node concept="pkWqt" id="2PdRDsXzRvT" role="2F3Mqr">
+          <node concept="3clFbS" id="2PdRDsXzRvU" role="2VODD2">
+            <node concept="3clFbF" id="2PdRDsXzRxY" role="3cqZAp">
+              <node concept="3clFbT" id="2PdRDsXzRxX" role="3clFbG">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2w$q5c" id="2PdRDsXzRav" role="2whIAn" />
+    </node>
+    <node concept="PMmxH" id="2PdRDsX$org" role="6VMZX">
+      <ref role="PMmxG" node="1mqidcwdDvj" resolve="DiagramInspector" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2PdRDsXC_op">
+    <ref role="1XX52x" to="7nxb:2PdRDsXC_h7" resolve="TextTextBoxContent" />
+    <node concept="3F1sOY" id="2PdRDsXC_or" role="2wV5jI">
+      <ref role="1NtTu8" to="7nxb:2PdRDsXC_hc" resolve="text" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2PdRDsXC_ow">
+    <ref role="1XX52x" to="7nxb:2PdRDsXC_ot" resolve="TextMaxWithTextBoxContent" />
+    <node concept="3F1sOY" id="2PdRDsXC_oy" role="2wV5jI">
+      <ref role="1NtTu8" to="7nxb:2PdRDsXC_ov" resolve="text" />
+      <node concept="nf9zX" id="2PdRDsXC_o$" role="3F10Kt">
+        <property role="nf9zW" value="200" />
+      </node>
     </node>
   </node>
 </model>

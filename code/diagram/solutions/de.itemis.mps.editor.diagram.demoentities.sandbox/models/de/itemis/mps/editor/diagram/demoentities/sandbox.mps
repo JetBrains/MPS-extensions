@@ -7,6 +7,14 @@
   </languages>
   <imports />
   <registry>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
     <language id="46b1f1f4-3955-4255-af94-7acb92d5711a" name="de.itemis.mps.editor.diagram.demoentities">
       <concept id="5285801562344992701" name="de.itemis.mps.editor.diagram.demoentities.structure.EntityDiagram" flags="ng" index="2PBtWY" />
       <concept id="5285801562344842019" name="de.itemis.mps.editor.diagram.demoentities.structure.Reference" flags="ng" index="2PBxew">
@@ -22,6 +30,7 @@
         <reference id="5285801562344842742" name="supertype" index="2PBxlP" />
         <child id="5285801562344842739" name="references" index="2PBxlK" />
         <child id="5285801562344842737" name="attributes" index="2PBxlM" />
+        <child id="5315831828518285715" name="additionalDescription" index="1Tip5L" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -416,50 +425,50 @@
         <node concept="37mRIm" id="6OfpnAgaoxx" role="37mRID">
           <property role="37mO49" value="7858611447568891607" />
           <node concept="gqqVs" id="6OfpnAgaoxw" role="37mO4d">
-            <property role="gqqTZ" value="386.0002831054687" />
-            <property role="gqqTW" value="177.0" />
-            <property role="gqqTX" value="154.0" />
-            <property role="gqqTy" value="94.0" />
+            <property role="gqqTZ" value="574.000344140625" />
+            <property role="gqqTW" value="409.0" />
+            <property role="gqqTX" value="290.0" />
+            <property role="gqqTy" value="142.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
         <node concept="37mRIm" id="6OfpnAgaoxz" role="37mRID">
           <property role="37mO49" value="7858611447568893985" />
           <node concept="gqqVs" id="6OfpnAgaoxy" role="37mO4d">
-            <property role="gqqTZ" value="792.0004662109375" />
-            <property role="gqqTW" value="187.5" />
-            <property role="gqqTX" value="170.0" />
-            <property role="gqqTy" value="73.0" />
+            <property role="gqqTZ" value="1116.00058828125" />
+            <property role="gqqTW" value="262.5" />
+            <property role="gqqTX" value="308.0" />
+            <property role="gqqTy" value="137.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
         <node concept="37mRIm" id="6OfpnAgaox_" role="37mRID">
           <property role="37mO49" value="7858611447568893988" />
           <node concept="gqqVs" id="6OfpnAgaox$" role="37mO4d">
-            <property role="gqqTZ" value="402.0002831054687" />
-            <property role="gqqTW" value="291.0" />
-            <property role="gqqTX" value="138.0" />
-            <property role="gqqTy" value="52.0" />
+            <property role="gqqTZ" value="566.000344140625" />
+            <property role="gqqTW" value="273.0" />
+            <property role="gqqTX" value="298.0" />
+            <property role="gqqTy" value="116.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
         <node concept="37mRIm" id="6OfpnAgaoxB" role="37mRID">
           <property role="37mO49" value="7858611447568893992" />
           <node concept="gqqVs" id="6OfpnAgaoxA" role="37mO4d">
-            <property role="gqqTZ" value="406.0002831054687" />
-            <property role="gqqTW" value="84.0" />
-            <property role="gqqTX" value="114.0" />
-            <property role="gqqTy" value="73.0" />
+            <property role="gqqTZ" value="558.000344140625" />
+            <property role="gqqTW" value="132.0" />
+            <property role="gqqTX" value="306.0" />
+            <property role="gqqTy" value="121.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
         <node concept="37mRIm" id="6OfpnAgaoxD" role="37mRID">
           <property role="37mO49" value="7858611447568893997" />
           <node concept="gqqVs" id="6OfpnAgaoxC" role="37mO4d">
-            <property role="gqqTZ" value="12.000100000000003" />
-            <property role="gqqTW" value="84.0" />
-            <property role="gqqTX" value="122.0" />
-            <property role="gqqTy" value="73.0" />
+            <property role="gqqTZ" value="12.000099999999975" />
+            <property role="gqqTW" value="132.0" />
+            <property role="gqqTX" value="294.0" />
+            <property role="gqqTy" value="121.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
@@ -470,14 +479,22 @@
               <property role="3ul5GH" value="label" />
               <node concept="3wpmZ1" id="6OfpnAgaoxH" role="3ul5Gz">
                 <node concept="2VclrF" id="6OfpnAgaoxI" role="3wpmZR">
-                  <property role="2Vclpx" value="568.0003662109375" />
-                  <property role="2Vclpz" value="214.00005" />
+                  <property role="2Vclpx" value="892.0004272460938" />
+                  <property role="2Vclpz" value="470.00005" />
                 </node>
                 <node concept="2VclrF" id="6OfpnAgaoxJ" role="3wpmZP">
                   <property role="2Vclpx" value="0.0" />
                   <property role="2Vclpz" value="0.0" />
                 </node>
               </node>
+            </node>
+            <node concept="2VclrF" id="1MpJ6yR4V35" role="2Vcluh">
+              <property role="2Vclpx" value="1096.00048828125" />
+              <property role="2Vclpz" value="481.00005" />
+            </node>
+            <node concept="2VclrF" id="1MpJ6yR4V36" role="2Vcluh">
+              <property role="2Vclpx" value="1096.00048828125" />
+              <property role="2Vclpz" value="332.00005" />
             </node>
           </node>
         </node>
@@ -488,8 +505,8 @@
               <property role="3ul5GH" value="label" />
               <node concept="3wpmZ1" id="6OfpnAgaoxN" role="3ul5Gz">
                 <node concept="2VclrF" id="6OfpnAgaoxO" role="3wpmZR">
-                  <property role="2Vclpx" value="560.0003662109375" />
-                  <property role="2Vclpz" value="352.0" />
+                  <property role="2Vclpx" value="884.0004272460938" />
+                  <property role="2Vclpz" value="560.0" />
                 </node>
                 <node concept="2VclrF" id="6OfpnAgaoxP" role="3wpmZP">
                   <property role="2Vclpx" value="0.0" />
@@ -498,28 +515,28 @@
               </node>
             </node>
             <node concept="2VclrF" id="6OfpnAgao_r" role="2Vcluh">
-              <property role="2Vclpx" value="982.0005493164062" />
-              <property role="2Vclpz" value="225.00005" />
+              <property role="2Vclpx" value="1444.000732421875" />
+              <property role="2Vclpz" value="332.00005" />
             </node>
             <node concept="2VclrF" id="6OfpnAgao_s" role="2Vcluh">
-              <property role="2Vclpx" value="982.0005493164062" />
-              <property role="2Vclpz" value="363.0" />
+              <property role="2Vclpx" value="1444.000732421875" />
+              <property role="2Vclpz" value="571.0" />
             </node>
             <node concept="2VclrF" id="6OfpnAgao_t" role="2Vcluh">
-              <property role="2Vclpx" value="877.0004662109375" />
-              <property role="2Vclpz" value="363.0" />
+              <property role="2Vclpx" value="1270.00058828125" />
+              <property role="2Vclpz" value="571.0" />
             </node>
             <node concept="2VclrF" id="6OfpnAgao_u" role="2Vcluh">
-              <property role="2Vclpx" value="463.0002831054687" />
-              <property role="2Vclpz" value="363.0" />
+              <property role="2Vclpx" value="711.000344140625" />
+              <property role="2Vclpz" value="571.0" />
             </node>
             <node concept="2VclrF" id="6OfpnAgao_v" role="2Vcluh">
-              <property role="2Vclpx" value="366.00018310546875" />
-              <property role="2Vclpz" value="363.0" />
+              <property role="2Vclpx" value="538.0002136230469" />
+              <property role="2Vclpz" value="571.0" />
             </node>
             <node concept="2VclrF" id="6OfpnAgao_w" role="2Vcluh">
-              <property role="2Vclpx" value="366.00018310546875" />
-              <property role="2Vclpz" value="225.00005" />
+              <property role="2Vclpx" value="538.0002136230469" />
+              <property role="2Vclpz" value="481.00005" />
             </node>
           </node>
         </node>
@@ -530,22 +547,14 @@
               <property role="3ul5GH" value="label" />
               <node concept="3wpmZ1" id="6OfpnAgaoxT" role="3ul5Gz">
                 <node concept="2VclrF" id="6OfpnAgaoxU" role="3wpmZR">
-                  <property role="2Vclpx" value="568.0003662109375" />
-                  <property role="2Vclpz" value="307.00005" />
+                  <property role="2Vclpx" value="892.0004272460938" />
+                  <property role="2Vclpz" value="321.00005" />
                 </node>
                 <node concept="2VclrF" id="6OfpnAgaoxV" role="3wpmZP">
                   <property role="2Vclpx" value="0.0" />
                   <property role="2Vclpz" value="0.0" />
                 </node>
               </node>
-            </node>
-            <node concept="2VclrF" id="1mqidcyBgJT" role="2Vcluh">
-              <property role="2Vclpx" value="772.0003662109375" />
-              <property role="2Vclpz" value="318.00005" />
-            </node>
-            <node concept="2VclrF" id="1mqidcyBgJU" role="2Vcluh">
-              <property role="2Vclpx" value="772.0003662109375" />
-              <property role="2Vclpz" value="225.00005" />
             </node>
           </node>
         </node>
@@ -556,8 +565,8 @@
               <property role="3ul5GH" value="label" />
               <node concept="3wpmZ1" id="6OfpnAgaoxZ" role="3ul5Gz">
                 <node concept="2VclrF" id="6OfpnAgaoy0" role="3wpmZR">
-                  <property role="2Vclpx" value="560.0003662109375" />
-                  <property role="2Vclpz" value="110.50004999999999" />
+                  <property role="2Vclpx" value="884.0004272460938" />
+                  <property role="2Vclpz" value="182.50005" />
                 </node>
                 <node concept="2VclrF" id="6OfpnAgaoy1" role="3wpmZP">
                   <property role="2Vclpx" value="0.0" />
@@ -566,12 +575,12 @@
               </node>
             </node>
             <node concept="2VclrF" id="6OfpnAgao_z" role="2Vcluh">
-              <property role="2Vclpx" value="772.0003662109375" />
-              <property role="2Vclpz" value="121.50004999999999" />
+              <property role="2Vclpx" value="1096.00048828125" />
+              <property role="2Vclpz" value="193.50005" />
             </node>
             <node concept="2VclrF" id="6OfpnAgao_$" role="2Vcluh">
-              <property role="2Vclpx" value="772.0003662109375" />
-              <property role="2Vclpz" value="225.00005" />
+              <property role="2Vclpx" value="1096.00048828125" />
+              <property role="2Vclpz" value="332.00005" />
             </node>
           </node>
         </node>
@@ -582,8 +591,8 @@
               <property role="3ul5GH" value="label" />
               <node concept="3wpmZ1" id="6OfpnAgaoy5" role="3ul5Gz">
                 <node concept="2VclrF" id="6OfpnAgaoy6" role="3wpmZR">
-                  <property role="2Vclpx" value="154.0001983642578" />
-                  <property role="2Vclpz" value="110.50004999999999" />
+                  <property role="2Vclpx" value="326.0002136230469" />
+                  <property role="2Vclpz" value="182.50005" />
                 </node>
                 <node concept="2VclrF" id="6OfpnAgaoy7" role="3wpmZP">
                   <property role="2Vclpx" value="0.0" />
@@ -596,10 +605,10 @@
         <node concept="37mRIm" id="6OfpnAgaoAe" role="37mRID">
           <property role="37mO49" value="7858611447568894324" />
           <node concept="gqqVs" id="6OfpnAgaoAd" role="37mO4d">
-            <property role="gqqTZ" value="12.000100000000003" />
+            <property role="gqqTZ" value="12.000099999999975" />
             <property role="gqqTW" value="12.0" />
-            <property role="gqqTX" value="106.0" />
-            <property role="gqqTy" value="52.0" />
+            <property role="gqqTX" value="266.0" />
+            <property role="gqqTy" value="100.0" />
             <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
           </node>
         </node>
@@ -620,6 +629,11 @@
         <property role="TrG5h" value="contains" />
         <ref role="2PBxlG" node="6OfpnAgaowx" resolve="Department" />
       </node>
+      <node concept="19SGf9" id="4B5Ce8KzrjW" role="1Tip5L">
+        <node concept="19SUe$" id="4B5Ce8KzrjX" role="19SJt6">
+          <property role="19SUeA" value=" A university is a high-level educational institution where students study for degrees, and academic research is conducted." />
+        </node>
+      </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgaowx" role="2PBxlY">
       <property role="TrG5h" value="Department" />
@@ -634,11 +648,21 @@
         <property role="TrG5h" value="belongs to" />
         <ref role="2PBxlG" node="6OfpnAganVn" resolve="University" />
       </node>
+      <node concept="19SGf9" id="4B5Ce8Kzrk0" role="1Tip5L">
+        <node concept="19SUe$" id="4B5Ce8Kzrk1" role="19SJt6">
+          <property role="19SUeA" value=" A department is a division within a large organization (such as a government, university, or business) that deals with a specific area of activity." />
+        </node>
+      </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgao_O" role="2PBxlY">
       <property role="TrG5h" value="Human" />
       <node concept="2PBxex" id="6OfpnAgaox9" role="2PBxlM">
         <property role="TrG5h" value="name" />
+      </node>
+      <node concept="19SGf9" id="4B5Ce8Kzrk4" role="1Tip5L">
+        <node concept="19SUe$" id="4B5Ce8Kzrk5" role="19SJt6">
+          <property role="19SUeA" value="Human: A human refers to a person or individual, belonging to the species Homo sapiens. " />
+        </node>
       </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgaow$" role="2PBxlY">
@@ -649,6 +673,11 @@
       <node concept="2PBxew" id="6OfpnAgaoxq" role="2PBxlK">
         <property role="TrG5h" value="works in" />
         <ref role="2PBxlG" node="6OfpnAgaowx" resolve="Department" />
+      </node>
+      <node concept="19SGf9" id="4B5Ce8Kzrk8" role="1Tip5L">
+        <node concept="19SUe$" id="4B5Ce8Kzrk9" role="19SJt6">
+          <property role="19SUeA" value=" A professor is an academic rank at universities and other post-secondary institutions, usually an expert in their field and a teacher of the highest rank" />
+        </node>
       </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgaowC" role="2PBxlY">
@@ -664,6 +693,11 @@
         <property role="2PBxlI" value="4_qW8fWLecA/composition" />
         <ref role="2PBxlG" node="6OfpnAgaowx" resolve="Department" />
       </node>
+      <node concept="19SGf9" id="4B5Ce8Kzrkc" role="1Tip5L">
+        <node concept="19SUe$" id="4B5Ce8Kzrkd" role="19SJt6">
+          <property role="19SUeA" value=" A course is a set of classes or a plan of study on a particular subject, often leading to an exam or qualification" />
+        </node>
+      </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgaowH" role="2PBxlY">
       <property role="TrG5h" value="Student" />
@@ -677,6 +711,11 @@
       <node concept="2PBxew" id="6OfpnAgaoxu" role="2PBxlK">
         <property role="TrG5h" value="enrolls in" />
         <ref role="2PBxlG" node="6OfpnAgaowC" resolve="Course" />
+      </node>
+      <node concept="19SGf9" id="4B5Ce8Kzrkg" role="1Tip5L">
+        <node concept="19SUe$" id="4B5Ce8Kzrkh" role="19SJt6">
+          <property role="19SUeA" value=" A student is an individual enrolled in an educational institution, pursuing learning and academic goals" />
+        </node>
       </node>
     </node>
   </node>

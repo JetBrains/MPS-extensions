@@ -42,7 +42,7 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
@@ -55,7 +55,7 @@
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ngI" index="2c44t0">
+      <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ng" index="2c44t0">
         <child id="1196350785111" name="expression" index="2c44t1" />
       </concept>
       <concept id="1196350785117" name="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" flags="ng" index="2c44tb" />
@@ -152,7 +152,7 @@
         <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -1353,6 +1353,38 @@
     <node concept="1YaCAy" id="1SEN4_BLnif" role="1YuTPh">
       <property role="TrG5h" value="config" />
       <ref role="1YaFvo" to="2qld:3biyEnNFb7G" resolve="SPOrEOverlapRemovalLayoutConfig" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6actlYi6WnD">
+    <property role="TrG5h" value="typeof_CellModel_Diagram" />
+    <node concept="3clFbS" id="6actlYi6WnE" role="18ibNy">
+      <node concept="1ZobV4" id="6actlYi6WtD" role="3cqZAp">
+        <property role="3wDh2S" value="false" />
+        <node concept="mw_s8" id="6actlYi6WtE" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6actlYi6WtF" role="mwGJk">
+            <node concept="2OqwBi" id="6actlYi6WtG" role="1Z2MuG">
+              <node concept="1YBJjd" id="6actlYi6WtH" role="2Oq$k0">
+                <ref role="1YBMHb" node="6actlYi6WnG" resolve="node" />
+              </node>
+              <node concept="3TrEf2" id="6actlYi6WtI" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:6actlYi6UMa" resolve="diagramID" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6actlYi6WtJ" role="1ZfhKB">
+          <node concept="2c44tf" id="6actlYi6WtK" role="mwGJk">
+            <node concept="2usRSg" id="6actlYi6WtL" role="2c44tc">
+              <node concept="3Tqbb2" id="6actlYi6WtM" role="2usUpS" />
+              <node concept="17QB3L" id="6actlYi6WtN" role="2usUpS" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6actlYi6WnG" role="1YuTPh">
+      <property role="TrG5h" value="node" />
+      <ref role="1YaFvo" to="2qld:XBYj286mvh" resolve="CellModel_Diagram" />
     </node>
   </node>
 </model>

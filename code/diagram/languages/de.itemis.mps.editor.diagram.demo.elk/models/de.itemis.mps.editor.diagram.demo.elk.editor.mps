@@ -82,7 +82,7 @@
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
-      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
@@ -110,7 +110,7 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
@@ -162,7 +162,7 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
@@ -201,7 +201,7 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -259,7 +259,7 @@
       <concept id="8180566525128795910" name="de.itemis.mps.editor.diagram.structure.DisconnectedGraphLayoutAlgorithm" flags="ng" index="ehXbJ" />
       <concept id="8180566525131048001" name="de.itemis.mps.editor.diagram.structure.FixedLayoutAlgorithm" flags="ng" index="ep76C" />
       <concept id="8180566525132050120" name="de.itemis.mps.editor.diagram.structure.RandomLayoutAlgorithm" flags="ng" index="etrGx" />
-      <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ngI" index="ljJFv">
+      <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
         <child id="6693185725458816991" name="edgeStyle" index="3hkIsF" />
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
         <child id="8587703283523592242" name="endpointTo" index="1PN8qh" />
@@ -268,7 +268,7 @@
         <reference id="7464726264117677938" name="shape" index="2xQOue" />
         <child id="3454709602159778495" name="parameterValues" index="1xbcaF" />
       </concept>
-      <concept id="5383048119156619323" name="de.itemis.mps.editor.diagram.structure.IDiagramElementsProvider" flags="ngI" index="HB_m5">
+      <concept id="5383048119156619323" name="de.itemis.mps.editor.diagram.structure.IDiagramElementsProvider" flags="ng" index="HB_m5">
         <child id="3155126767688717334" name="contentList" index="aCds2" />
       </concept>
       <concept id="7890587897031726207" name="de.itemis.mps.editor.diagram.structure.Content_GenericElementQuery" flags="ng" index="2M4AIt">
@@ -338,7 +338,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
@@ -2326,34 +2326,6 @@
                   </node>
                   <node concept="3TrcHB" id="vVBnaNT7Qd" role="2OqNvi">
                     <ref role="3TsBF5" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3tD6jV" id="vVBnaNT7Qe" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-          <node concept="3sjG9q" id="vVBnaNT7Qf" role="3tD6jU">
-            <node concept="3clFbS" id="vVBnaNT7Qg" role="2VODD2">
-              <node concept="3clFbF" id="vVBnaNT7Qh" role="3cqZAp">
-                <node concept="unr1b" id="vVBnaNT7Qi" role="3clFbG">
-                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-                  <node concept="2OqwBi" id="vVBnaNT7Qj" role="unwt0">
-                    <node concept="2OqwBi" id="vVBnaNT7Qk" role="2Oq$k0">
-                      <node concept="2OqwBi" id="vVBnaNT7Ql" role="2Oq$k0">
-                        <node concept="pncrf" id="vVBnaNT7Qm" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="vVBnaNT7Qn" role="2OqNvi">
-                          <ref role="3Tt5mk" to="xaff:2nNmQB_HYH7" resolve="config" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="vVBnaNT7Qo" role="2OqNvi">
-                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="vVBnaNT7Qp" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                    </node>
                   </node>
                 </node>
               </node>
@@ -4551,34 +4523,6 @@
             </node>
           </node>
         </node>
-        <node concept="3tD6jV" id="3biyEnO0UqJ" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-          <node concept="3sjG9q" id="3biyEnO0UqL" role="3tD6jU">
-            <node concept="3clFbS" id="3biyEnO0UqN" role="2VODD2">
-              <node concept="3clFbF" id="3biyEnO16Uw" role="3cqZAp">
-                <node concept="unr1b" id="3biyEnO1798" role="3clFbG">
-                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-                  <node concept="2OqwBi" id="3biyEnO17Nm" role="unwt0">
-                    <node concept="2OqwBi" id="3biyEnO17yA" role="2Oq$k0">
-                      <node concept="2OqwBi" id="3biyEnO17tD" role="2Oq$k0">
-                        <node concept="pncrf" id="3biyEnO17nc" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="3biyEnO17wF" role="2OqNvi">
-                          <ref role="3Tt5mk" to="xaff:3biyEnO0R88" resolve="config" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="3biyEnO17DY" role="2OqNvi">
-                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="3biyEnO180P" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3tD6jV" id="3biyEnO0UAR" role="3F10Kt">
           <ref role="3tD7wE" to="88j9:56jSwhzYTLf" resolve="diagram-layout-topdown-scale-factor" />
           <node concept="3sjG9q" id="3biyEnO0UAT" role="3tD6jU">
@@ -5055,34 +4999,6 @@
                   </node>
                   <node concept="3TrcHB" id="vVBnaNOutw" role="2OqNvi">
                     <ref role="3TsBF5" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3tD6jV" id="vVBnaNOutx" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-          <node concept="3sjG9q" id="vVBnaNOuty" role="3tD6jU">
-            <node concept="3clFbS" id="vVBnaNOutz" role="2VODD2">
-              <node concept="3clFbF" id="vVBnaNOut$" role="3cqZAp">
-                <node concept="unr1b" id="vVBnaNOut_" role="3clFbG">
-                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-                  <node concept="2OqwBi" id="vVBnaNOutA" role="unwt0">
-                    <node concept="2OqwBi" id="vVBnaNOutB" role="2Oq$k0">
-                      <node concept="2OqwBi" id="vVBnaNOutC" role="2Oq$k0">
-                        <node concept="pncrf" id="vVBnaNOutD" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="vVBnaNOutE" role="2OqNvi">
-                          <ref role="3Tt5mk" to="xaff:3biyEnNh_Ks" resolve="config" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="vVBnaNOutF" role="2OqNvi">
-                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="vVBnaNOutG" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                    </node>
                   </node>
                 </node>
               </node>
@@ -6991,26 +6907,6 @@
             </node>
           </node>
         </node>
-        <node concept="3tD6jV" id="3biyEnNSN0u" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:3biyEnNNMAG" resolve="diagram-layout-stress-fixed-position" />
-          <node concept="3sjG9q" id="3biyEnNSN0w" role="3tD6jU">
-            <node concept="3clFbS" id="3biyEnNSN0y" role="2VODD2">
-              <node concept="3clFbF" id="3biyEnNSPLF" role="3cqZAp">
-                <node concept="2OqwBi" id="3biyEnNSQ0t" role="3clFbG">
-                  <node concept="2OqwBi" id="3biyEnNSPSK" role="2Oq$k0">
-                    <node concept="pncrf" id="3biyEnNSPLE" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="3biyEnNSPWs" role="2OqNvi">
-                      <ref role="3Tt5mk" to="xaff:3biyEnNSMq2" resolve="config" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="3biyEnNSQ3D" role="2OqNvi">
-                    <ref role="3TsBF5" to="2qld:3biyEnNNler" resolve="fixedPosition" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3tD6jV" id="3biyEnNSNan" role="3F10Kt">
           <ref role="3tD7wE" to="88j9:56jSwh$2097" resolve="diagram-layout-interactive" />
           <node concept="3sjG9q" id="3biyEnNSNap" role="3tD6jU">
@@ -7287,34 +7183,6 @@
                   </node>
                   <node concept="3TrcHB" id="3biyEnOd5Ta" role="2OqNvi">
                     <ref role="3TsBF5" to="2qld:3biyEnO42oe" resolve="topdownLayout" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3tD6jV" id="3biyEnOcXSW" role="3F10Kt">
-          <ref role="3tD7wE" to="88j9:56jSwhzYTQA" resolve="diagram-layout-topdown-node-type" />
-          <node concept="3sjG9q" id="3biyEnOcXSY" role="3tD6jU">
-            <node concept="3clFbS" id="3biyEnOcXT0" role="2VODD2">
-              <node concept="3clFbF" id="3biyEnOd5YQ" role="3cqZAp">
-                <node concept="unr1b" id="3biyEnOd6f6" role="3clFbG">
-                  <ref role="un$jP" to="gwyy:~TopdownNodeTypes" resolve="TopdownNodeTypes" />
-                  <node concept="2OqwBi" id="3biyEnOd7jR" role="unwt0">
-                    <node concept="2OqwBi" id="3biyEnOd6$h" role="2Oq$k0">
-                      <node concept="2OqwBi" id="3biyEnOd6tR" role="2Oq$k0">
-                        <node concept="pncrf" id="3biyEnOd6nq" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="3biyEnOd6wT" role="2OqNvi">
-                          <ref role="3Tt5mk" to="xaff:3biyEnOc77C" resolve="config" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="3biyEnOd6Jw" role="2OqNvi">
-                        <ref role="3TsBF5" to="2qld:3biyEnO42yw" resolve="topdownNodeType" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="3biyEnOd7FQ" role="2OqNvi">
-                      <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
-                    </node>
                   </node>
                 </node>
               </node>

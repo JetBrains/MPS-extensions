@@ -5670,25 +5670,6 @@
           </node>
         </node>
       </node>
-      <node concept="3gTLQM" id="5ZBOFE3vyye" role="3EZMnx">
-        <node concept="3Fmcul" id="5ZBOFE3vyyf" role="3FoqZy">
-          <node concept="3clFbS" id="5ZBOFE3vyyg" role="2VODD2">
-            <node concept="3cpWs6" id="5ZBOFE3vyyh" role="3cqZAp">
-              <node concept="2OqwBi" id="5ZBOFE3vyyi" role="3cqZAk">
-                <node concept="pncrf" id="5ZBOFE3vyyj" role="2Oq$k0" />
-                <node concept="2qgKlT" id="5ZBOFE3vyyk" role="2OqNvi">
-                  <ref role="37wK5l" to="nh7q:4h7S3973QQF" resolve="getBooleanPropertyCheckBox" />
-                  <node concept="1Q80Hx" id="5ZBOFE3vyyl" role="37wK5m" />
-                  <node concept="355D3s" id="5ZBOFE3vyym" role="37wK5m">
-                    <ref role="355D3t" to="2qld:5ZBOFE3vobP" resolve="DiagramButtonConfig" />
-                    <ref role="355D3u" to="2qld:2ZU2kH0jA_x" resolve="hasMoveToViewerButton" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3gTLQM" id="2ZU2kH0oQNe" role="3EZMnx">
         <node concept="3Fmcul" id="2ZU2kH0oQNf" role="3FoqZy">
           <node concept="3clFbS" id="2ZU2kH0oQNg" role="2VODD2">

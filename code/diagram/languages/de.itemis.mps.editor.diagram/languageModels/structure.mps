@@ -2154,11 +2154,6 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
       <node concept="asaX9" id="2ZU2kH0jA8r" role="lGtFl" />
     </node>
-    <node concept="1TJgyi" id="2ZU2kH0jA_x" role="1TKVEl">
-      <property role="IQ2nx" value="3457085882766354785" />
-      <property role="TrG5h" value="hasMoveToViewerButton" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyi" id="5ZBOFE3vtwH" role="1TKVEl">
       <property role="IQ2nx" value="6910723851735128109" />
       <property role="TrG5h" value="hasMaximizeDiagramButton" />

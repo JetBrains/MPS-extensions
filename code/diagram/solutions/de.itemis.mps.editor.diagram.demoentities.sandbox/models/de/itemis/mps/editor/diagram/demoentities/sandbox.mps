@@ -28,7 +28,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -539,11 +539,11 @@
                 </node>
               </node>
             </node>
-            <node concept="2VclrF" id="2CZpRVislLe" role="2Vcluh">
+            <node concept="2VclrF" id="1mqidcyBgJT" role="2Vcluh">
               <property role="2Vclpx" value="772.0003662109375" />
               <property role="2Vclpz" value="318.00005" />
             </node>
-            <node concept="2VclrF" id="2CZpRVislLf" role="2Vcluh">
+            <node concept="2VclrF" id="1mqidcyBgJU" role="2Vcluh">
               <property role="2Vclpx" value="772.0003662109375" />
               <property role="2Vclpz" value="225.00005" />
             </node>

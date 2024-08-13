@@ -88,7 +88,7 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
@@ -146,7 +146,7 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ng" index="366HgL">
+      <concept id="1513279640923991009" name="jetbrains.mps.baseLanguage.structure.IGenericClassCreator" flags="ngI" index="366HgL">
         <property id="1513279640906337053" name="inferTypeParams" index="373rjd" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -195,7 +195,7 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
@@ -211,13 +211,14 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
+      <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -316,7 +317,7 @@
       <concept id="8377729485192417786" name="de.itemis.mps.editor.diagram.structure.PaletteSource_ReplaceEntry" flags="ig" index="htBPI">
         <child id="8377729485192417789" name="source" index="htBPD" />
       </concept>
-      <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
+      <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ngI" index="ljJFv">
         <child id="8606559630272704940" name="dropHandler" index="FVTne" />
         <child id="621570459749703015" name="splitHandler" index="KSpTH" />
         <child id="621570459751239491" name="canSplit" index="KYgL9" />
@@ -359,7 +360,7 @@
         <child id="2531824743736393627" name="height" index="2gOmqF" />
         <child id="500099795019625833" name="shape" index="G$OdO" />
       </concept>
-      <concept id="5383048119156619323" name="de.itemis.mps.editor.diagram.structure.IDiagramElementsProvider" flags="ng" index="HB_m5">
+      <concept id="5383048119156619323" name="de.itemis.mps.editor.diagram.structure.IDiagramElementsProvider" flags="ngI" index="HB_m5">
         <child id="3155126767688717334" name="contentList" index="aCds2" />
       </concept>
       <concept id="7859343581441233262" name="de.itemis.mps.editor.diagram.structure.Parameter_AnnotationNode" flags="ng" index="2IBeSQ" />
@@ -519,7 +520,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -537,7 +538,6 @@
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
@@ -2149,7 +2149,7 @@
                                 </node>
                                 <node concept="2OqwBi" id="5UUX0AoLSJa" role="3uHU7B">
                                   <node concept="37vLTw" id="5UUX0AoLSJb" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="5UUX0AoLSJd" resolve="it" />
+                                    <ref role="3cqZAo" node="4Jof1$wCncm" resolve="it" />
                                   </node>
                                   <node concept="2qgKlT" id="5UUX0AoLSJc" role="2OqNvi">
                                     <ref role="37wK5l" to="ekjq:24zrZPPB6_c" resolve="getPortName" />
@@ -2158,9 +2158,9 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="Rh6nW" id="5UUX0AoLSJd" role="1bW2Oz">
+                          <node concept="gl6BB" id="4Jof1$wCncm" role="1bW2Oz">
                             <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="5UUX0AoLSJe" role="1tU5fm" />
+                            <node concept="2jxLKc" id="4Jof1$wCncn" role="1tU5fm" />
                           </node>
                         </node>
                       </node>
@@ -2206,7 +2206,7 @@
                                 </node>
                                 <node concept="2OqwBi" id="5UUX0AoLSJy" role="3uHU7B">
                                   <node concept="37vLTw" id="5UUX0AoLSJz" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="5UUX0AoLSJ_" resolve="it" />
+                                    <ref role="3cqZAo" node="4Jof1$wCnco" resolve="it" />
                                   </node>
                                   <node concept="2qgKlT" id="5UUX0AoLSJ$" role="2OqNvi">
                                     <ref role="37wK5l" to="ekjq:24zrZPPB6_c" resolve="getPortName" />
@@ -2215,9 +2215,9 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="Rh6nW" id="5UUX0AoLSJ_" role="1bW2Oz">
+                          <node concept="gl6BB" id="4Jof1$wCnco" role="1bW2Oz">
                             <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="5UUX0AoLSJA" role="1tU5fm" />
+                            <node concept="2jxLKc" id="4Jof1$wCncp" role="1tU5fm" />
                           </node>
                         </node>
                       </node>

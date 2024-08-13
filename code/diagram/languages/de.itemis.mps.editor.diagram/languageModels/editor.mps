@@ -345,6 +345,7 @@
       <concept id="8974276187400348177" name="jetbrains.mps.lang.access.structure.ExecuteCommandStatement" flags="nn" index="1QHqEO" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
@@ -440,7 +441,6 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
@@ -2803,7 +2803,7 @@
                                 <node concept="17QB3L" id="6QwB8wTLFic" role="10QFUM" />
                                 <node concept="2OqwBi" id="6QwB8wTLBkf" role="10QFUP">
                                   <node concept="37vLTw" id="6QwB8wTLB4l" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="6QwB8wTLAzV" resolve="it" />
+                                    <ref role="3cqZAo" node="7Z$RfkF7ICO" resolve="it" />
                                   </node>
                                   <node concept="liA8E" id="6QwB8wTLCLP" role="2OqNvi">
                                     <ref role="37wK5l" to="wyt6:~Enum.toString()" resolve="toString" />
@@ -2812,9 +2812,9 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="Rh6nW" id="6QwB8wTLAzV" role="1bW2Oz">
+                          <node concept="gl6BB" id="7Z$RfkF7ICO" role="1bW2Oz">
                             <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="6QwB8wTLAzW" role="1tU5fm" />
+                            <node concept="2jxLKc" id="7Z$RfkF7ICP" role="1tU5fm" />
                           </node>
                         </node>
                       </node>

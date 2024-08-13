@@ -11,8 +11,8 @@
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -59,6 +59,13 @@
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7XmAYSGTgVv">
+    <property role="EcuMT" value="9175692738071695071" />
+    <property role="TrG5h" value="QueryFunction_Content" />
+    <property role="34LRSv" value="content" />
+    <property role="R4oN_" value="embedded block of code" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
   <node concept="1TIwiD" id="1TZykZL8TNr">
     <property role="TrG5h" value="CellModel_Multiline_Constant" />
     <property role="34LRSv" value="constant multi-line" />
@@ -80,13 +87,6 @@
     <node concept="PrWs8" id="1TZykZL8TNu" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="7XmAYSGTgVv">
-    <property role="EcuMT" value="9175692738071695071" />
-    <property role="TrG5h" value="QueryFunction_Content" />
-    <property role="34LRSv" value="content" />
-    <property role="R4oN_" value="embedded block of code" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

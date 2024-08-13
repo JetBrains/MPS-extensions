@@ -72,11 +72,6 @@
     <property role="34LRSv" value="diagram" />
     <property role="EcuMT" value="2387875361826062997" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="3biyEnOlyXZ" role="1TKVEl">
-      <property role="IQ2nx" value="3662141892379160447" />
-      <property role="TrG5h" value="direction" />
-      <ref role="AX2Wp" to="2qld:7WTFIQIcYqd" resolve="Direction" />
-    </node>
     <node concept="1TJgyj" id="24zrZPPzcAP" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="elements" />
@@ -89,6 +84,11 @@
     </node>
     <node concept="PrWs8" id="24zrZPP$xKe" role="PzmwI">
       <ref role="PrY4T" node="24zrZPPzcB8" resolve="IBoxContent" />
+    </node>
+    <node concept="1TJgyi" id="3biyEnOlyXZ" role="1TKVEl">
+      <property role="IQ2nx" value="3662141892379160447" />
+      <property role="TrG5h" value="direction" />
+      <ref role="AX2Wp" to="2qld:7WTFIQIcYqd" resolve="Direction" />
     </node>
   </node>
   <node concept="1TIwiD" id="24zrZPPzcAr">
@@ -249,61 +249,12 @@
       <ref role="PrY4T" to="tpc2:hJF0Tl2" resolve="IStyleContainer" />
     </node>
   </node>
-  <node concept="1TIwiD" id="21ib$h2$w$t">
-    <property role="EcuMT" value="2328974828013488413" />
-    <property role="TrG5h" value="BaseDiagram" />
-    <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="testDiagrams" />
-    <ref role="1TJDcQ" node="24zrZPPzcal" resolve="Diagram" />
-  </node>
-  <node concept="1TIwiD" id="4DlUnPCyy8i">
-    <property role="EcuMT" value="5356444056661139986" />
-    <property role="TrG5h" value="DiagramReference" />
-    <property role="34LRSv" value="diagram reference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4DlUnPCyy8j" role="1TKVEi">
-      <property role="IQ2ns" value="5356444056661139987" />
-      <property role="20kJfa" value="diagram" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+  <node concept="PlHQZ" id="1mqidcxOjqp">
+    <property role="EcuMT" value="1556636692852586137" />
+    <property role="TrG5h" value="IDiagram" />
+    <node concept="PrWs8" id="1mqidcxOjqq" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="1mqidcvJf_1">
-    <property role="EcuMT" value="1556636692817705281" />
-    <property role="TrG5h" value="Compilation_CellModel_Diagram" />
-    <property role="3GE5qa" value="compilation" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="1mqidcvNQTn">
-    <property role="EcuMT" value="1556636692818914903" />
-    <property role="3GE5qa" value="compilation" />
-    <property role="TrG5h" value="Compilation_CellModel_Compartment" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="1mqidcvNROQ">
-    <property role="EcuMT" value="1556636692818918710" />
-    <property role="3GE5qa" value="compilation" />
-    <property role="TrG5h" value="Compilation_CellModel_Diagram_Connector" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="1mqidcvOWfP">
-    <property role="EcuMT" value="1556636692819198965" />
-    <property role="3GE5qa" value="compilation" />
-    <property role="TrG5h" value="Compilation_CellModel_DiagramContent" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="1mqidcvPJAs">
-    <property role="EcuMT" value="1556636692819409308" />
-    <property role="3GE5qa" value="compilation" />
-    <property role="TrG5h" value="Compilation_CellModel_DiagramNode" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="1mqidcvPR5P">
-    <property role="EcuMT" value="1556636692819439989" />
-    <property role="TrG5h" value="DiagramDontSynchronizeChanges" />
-    <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="testDiagrams" />
-    <ref role="1TJDcQ" node="21ib$h2$w$t" resolve="BaseDiagram" />
   </node>
   <node concept="1TIwiD" id="1mqidcwcjlU">
     <property role="EcuMT" value="1556636692825322874" />
@@ -312,12 +263,24 @@
     <property role="3GE5qa" value="testDiagrams" />
     <ref role="1TJDcQ" node="21ib$h2$w$t" resolve="BaseDiagram" />
   </node>
-  <node concept="PlHQZ" id="1mqidcxOjqp">
-    <property role="EcuMT" value="1556636692852586137" />
-    <property role="TrG5h" value="IDiagram" />
-    <node concept="PrWs8" id="1mqidcxOjqq" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+  <node concept="1TIwiD" id="1mqidcvPJAs">
+    <property role="EcuMT" value="1556636692819409308" />
+    <property role="3GE5qa" value="compilation" />
+    <property role="TrG5h" value="Compilation_CellModel_DiagramNode" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="1mqidcvNQTn">
+    <property role="EcuMT" value="1556636692818914903" />
+    <property role="3GE5qa" value="compilation" />
+    <property role="TrG5h" value="Compilation_CellModel_Compartment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="21ib$h2$w$t">
+    <property role="EcuMT" value="2328974828013488413" />
+    <property role="TrG5h" value="BaseDiagram" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="testDiagrams" />
+    <ref role="1TJDcQ" node="24zrZPPzcal" resolve="Diagram" />
   </node>
   <node concept="1TIwiD" id="6actlYifpFa">
     <property role="EcuMT" value="7101179765792283338" />
@@ -332,6 +295,43 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="21ib$h2$w$t" resolve="BaseDiagram" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1mqidcvPR5P">
+    <property role="EcuMT" value="1556636692819439989" />
+    <property role="TrG5h" value="DiagramDontSynchronizeChanges" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="testDiagrams" />
+    <ref role="1TJDcQ" node="21ib$h2$w$t" resolve="BaseDiagram" />
+  </node>
+  <node concept="1TIwiD" id="1mqidcvOWfP">
+    <property role="EcuMT" value="1556636692819198965" />
+    <property role="3GE5qa" value="compilation" />
+    <property role="TrG5h" value="Compilation_CellModel_DiagramContent" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="4DlUnPCyy8i">
+    <property role="EcuMT" value="5356444056661139986" />
+    <property role="TrG5h" value="DiagramReference" />
+    <property role="34LRSv" value="diagram reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4DlUnPCyy8j" role="1TKVEi">
+      <property role="IQ2ns" value="5356444056661139987" />
+      <property role="20kJfa" value="diagram" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1mqidcvNROQ">
+    <property role="EcuMT" value="1556636692818918710" />
+    <property role="3GE5qa" value="compilation" />
+    <property role="TrG5h" value="Compilation_CellModel_Diagram_Connector" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="1mqidcvJf_1">
+    <property role="EcuMT" value="1556636692817705281" />
+    <property role="TrG5h" value="Compilation_CellModel_Diagram" />
+    <property role="3GE5qa" value="compilation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

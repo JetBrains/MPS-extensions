@@ -847,10 +847,10 @@
     <property role="1sVAO0" value="true" />
     <node concept="2tJIrI" id="2WlJ6VKPQeq" role="jymVt" />
     <node concept="312cEg" id="2WlJ6VKPQi6" role="jymVt">
-      <property role="TrG5h" value="myIdeaProject" />
+      <property role="TrG5h" value="myProject" />
       <node concept="3Tm6S6" id="2WlJ6VKPQi7" role="1B3o_S" />
       <node concept="3uibUv" id="2WlJ6VKQO3B" role="1tU5fm">
-        <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+        <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
       </node>
     </node>
     <node concept="2tJIrI" id="2WlJ6VKQQft" role="jymVt" />
@@ -858,13 +858,13 @@
       <node concept="3cqZAl" id="3pwG8PSjV95" role="3clF45" />
       <node concept="3Tm1VV" id="3pwG8PSjV96" role="1B3o_S" />
       <node concept="3clFbS" id="3pwG8PSjV97" role="3clF47">
-        <node concept="1VxSAg" id="3pwG8PSjXP3" role="3cqZAp">
-          <ref role="37wK5l" node="2WlJ6VKQQJ7" resolve="EditorComponentCreationListener" />
-          <node concept="2YIFZM" id="3pwG8PSjXQ8" role="37wK5m">
-            <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
-            <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-            <node concept="37vLTw" id="3pwG8PSjXRm" role="37wK5m">
+        <node concept="3clFbF" id="DrREDhnysd" role="3cqZAp">
+          <node concept="37vLTI" id="DrREDhn$dp" role="3clFbG">
+            <node concept="37vLTw" id="DrREDhn_6m" role="37vLTx">
               <ref role="3cqZAo" node="3pwG8PSjXGn" resolve="project" />
+            </node>
+            <node concept="37vLTw" id="DrREDhnysb" role="37vLTJ">
+              <ref role="3cqZAo" node="2WlJ6VKPQi6" resolve="myProject" />
             </node>
           </node>
         </node>
@@ -882,12 +882,12 @@
       <node concept="3cqZAl" id="2WlJ6VKQQJ8" role="3clF45" />
       <node concept="3Tm1VV" id="2WlJ6VKQQJ9" role="1B3o_S" />
       <node concept="3clFbS" id="2WlJ6VKQQJb" role="3clF47">
-        <node concept="3clFbF" id="2WlJ6VKQQJf" role="3cqZAp">
-          <node concept="37vLTI" id="2WlJ6VKQQJh" role="3clFbG">
-            <node concept="37vLTw" id="2WlJ6VKQQJl" role="37vLTJ">
-              <ref role="3cqZAo" node="2WlJ6VKPQi6" resolve="myIdeaProject" />
-            </node>
-            <node concept="37vLTw" id="2WlJ6VKQQJm" role="37vLTx">
+        <node concept="1VxSAg" id="DrREDhnDk4" role="3cqZAp">
+          <ref role="37wK5l" node="3pwG8PSjV93" resolve="EditorComponentCreationListener" />
+          <node concept="2YIFZM" id="DrREDhn_xo" role="37wK5m">
+            <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project)" resolve="fromIdeaProject" />
+            <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+            <node concept="37vLTw" id="DrREDhn_xp" role="37wK5m">
               <ref role="3cqZAo" node="2WlJ6VKQQJe" resolve="ideaProject" />
             </node>
           </node>
@@ -999,12 +999,73 @@
     <node concept="3clFb_" id="2WlJ6VKQR6W" role="jymVt">
       <property role="TrG5h" value="start" />
       <node concept="37vLTG" id="2WlJ6VKQWQ$" role="3clF46">
-        <property role="TrG5h" value="eventForExisting" />
+        <property role="TrG5h" value="ignored_eventForExisting" />
         <node concept="10P_77" id="2WlJ6VKQX0w" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="2WlJ6VKQR6Y" role="3clF45" />
       <node concept="3Tm1VV" id="2WlJ6VKQR6Z" role="1B3o_S" />
       <node concept="3clFbS" id="2WlJ6VKQR70" role="3clF47">
+        <node concept="3SKdUt" id="DrREDhnFwc" role="3cqZAp">
+          <node concept="1PaTwC" id="DrREDhnFwd" role="1aUNEU">
+            <node concept="3oM_SD" id="DrREDhnFHG" role="1PaTwD">
+              <property role="3oM_SC" value="EditorExtensionRegistry" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFHX" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFIP" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFOl" role="1PaTwD">
+              <property role="3oM_SC" value="CoreComponent" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFLy" role="1PaTwD">
+              <property role="3oM_SC" value="since" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFT$" role="1PaTwD">
+              <property role="3oM_SC" value="2024.1," />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFVb" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFX8" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFXp" role="1PaTwD">
+              <property role="3oM_SC" value="project" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFZQ" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnFZR" role="1PaTwD">
+              <property role="3oM_SC" value="access" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnG0I" role="1PaTwD">
+              <property role="3oM_SC" value="component" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnG0J" role="1PaTwD">
+              <property role="3oM_SC" value="instance" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnG1Q" role="1PaTwD">
+              <property role="3oM_SC" value="(backward" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnG5p" role="1PaTwD">
+              <property role="3oM_SC" value="compatible" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnG7m" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnG9N" role="1PaTwD">
+              <property role="3oM_SC" value="earlier" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnGba" role="1PaTwD">
+              <property role="3oM_SC" value="MPS" />
+            </node>
+            <node concept="3oM_SD" id="DrREDhnGch" role="1PaTwD">
+              <property role="3oM_SC" value="versions)" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="2BYLcdcOEca" role="3cqZAp">
           <node concept="2OqwBi" id="2BYLcdcOFbX" role="3clFbG">
             <node concept="2OqwBi" id="2BYLcdcOEvN" role="2Oq$k0">
@@ -1012,7 +1073,7 @@
                 <ref role="3cqZAo" node="2WlJ6VKPQi6" resolve="myIdeaProject" />
               </node>
               <node concept="liA8E" id="2BYLcdcOEIo" role="2OqNvi">
-                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="2BYLcdcOF5v" role="37wK5m">
                   <ref role="3VsUkX" to="wvnl:~EditorExtensionRegistry" resolve="EditorExtensionRegistry" />
                 </node>
@@ -1039,7 +1100,7 @@
                 <ref role="3cqZAo" node="2WlJ6VKPQi6" resolve="myIdeaProject" />
               </node>
               <node concept="liA8E" id="2BYLcdcOVTA" role="2OqNvi">
-                <ref role="37wK5l" to="1m72:~ComponentManager.getComponent(java.lang.Class)" resolve="getComponent" />
+                <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class)" resolve="getComponent" />
                 <node concept="3VsKOn" id="2BYLcdcOVTB" role="37wK5m">
                   <ref role="3VsUkX" to="wvnl:~EditorExtensionRegistry" resolve="EditorExtensionRegistry" />
                 </node>

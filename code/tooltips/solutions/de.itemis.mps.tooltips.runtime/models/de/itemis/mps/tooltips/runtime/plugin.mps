@@ -51,9 +51,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
-        <child id="1068431790190" name="initializer" index="33vP2m" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -80,10 +77,6 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
-      <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
-        <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
-      </concept>
-      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -133,13 +126,6 @@
   <node concept="2DaZZR" id="2vJRo8g$$xe" />
   <node concept="2uRRBy" id="2vJRo8g$$xf">
     <property role="TrG5h" value="ProjectPlugin" />
-    <node concept="2BZ0e9" id="2vJRo8g$$xg" role="2uRRBA">
-      <property role="TrG5h" value="myConnection" />
-      <node concept="3Tm6S6" id="2vJRo8g$$xh" role="1B3o_S" />
-      <node concept="3uibUv" id="2vJRo8g$$xi" role="1tU5fm">
-        <ref role="3uigEE" to="4b2m:~MessageBusConnection" resolve="MessageBusConnection" />
-      </node>
-    </node>
     <node concept="2BZ0e9" id="5VSAssGMyfR" role="2uRRBA">
       <property role="TrG5h" value="myCreateListener" />
       <node concept="3Tm6S6" id="5VSAssGMyfS" role="1B3o_S" />
@@ -149,19 +135,6 @@
     </node>
     <node concept="2uRRBT" id="2vJRo8g$$xj" role="2uRRB$">
       <node concept="3clFbS" id="2vJRo8g$$xk" role="2VODD2">
-        <node concept="3cpWs8" id="2vJRo8g$$xl" role="3cqZAp">
-          <node concept="3cpWsn" id="2vJRo8g$$xm" role="3cpWs9">
-            <property role="TrG5h" value="ideaProject" />
-            <node concept="3uibUv" id="2vJRo8g$$xn" role="1tU5fm">
-              <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-            </node>
-            <node concept="2YIFZM" id="2vJRo8g$$xo" role="33vP2m">
-              <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project)" resolve="toIdeaProject" />
-              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-              <node concept="1KvdUw" id="2vJRo8g$$xp" role="37wK5m" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="5VSAssGMnPV" role="3cqZAp" />
         <node concept="3clFbF" id="5VSAssGMySi" role="3cqZAp">
           <node concept="37vLTI" id="5VSAssGMz1G" role="3clFbG">

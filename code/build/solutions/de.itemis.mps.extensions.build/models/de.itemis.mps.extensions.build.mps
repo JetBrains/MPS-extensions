@@ -2313,11 +2313,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2hz1PZpEco5" role="3bR37C">
-          <node concept="3bR9La" id="2hz1PZpEco6" role="1SiIV1">
-            <ref role="3bR37D" node="64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
-          </node>
-        </node>
         <node concept="3rtmxn" id="3xFG3bj5MoU" role="3bR31x">
           <node concept="3LXTmp" id="3xFG3bj5MoV" role="3rtmxm">
             <node concept="3qWCbU" id="3xFG3bj5MoW" role="3LXTna">
@@ -6352,12 +6347,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6SVXTgIekIm" role="3bR37C">
-          <node concept="3bR9La" id="6SVXTgIekIn" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
           </node>
         </node>
         <node concept="1SiIV0" id="6SVXTgIekIo" role="3bR37C">

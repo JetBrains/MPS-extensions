@@ -228,6 +228,99 @@
       </node>
     </node>
     <node concept="15bmVD" id="76bI8XWtvkv" role="15bmVC">
+      <node concept="15bAme" id="quM1lwyFcb" role="15bAlL">
+        <property role="15bAli" value="Po4Z58tnOE/added" />
+        <node concept="2DRihI" id="quM1lwyFcc" role="15bAlk">
+          <node concept="2hgSXJ" id="quM1lwyFcp" role="1PaTwD">
+            <node concept="1PaTwC" id="quM1lwyFcq" role="2hiFM$">
+              <node concept="15Ami3" id="quM1lwyFcr" role="1PaTwD">
+                <node concept="37shsh" id="quM1lwyFcs" role="15Aodc">
+                  <node concept="1dCxOk" id="quM1lwyFct" role="37shsm">
+                    <property role="1XweGW" value="7e450f4e-1ac3-41ef-a851-4598161bdb94" />
+                    <property role="1XxBO9" value="de.slisson.mps.tables" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3oM_SD" id="quM1lwyFcu" role="1PaTwD">
+                <property role="3oM_SC" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="quM1lwyFcy" role="1PaTwD">
+            <property role="3oM_SC" value="Sticky" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyFcz" role="1PaTwD">
+            <property role="3oM_SC" value="table" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBJ" role="1PaTwD">
+            <property role="3oM_SC" value="cells" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyFc$" role="1PaTwD">
+            <property role="3oM_SC" value="were" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyFc_" role="1PaTwD">
+            <property role="3oM_SC" value="added." />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBx" role="1PaTwD">
+            <property role="3oM_SC" value="Add" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBy" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBz" role="1PaTwD">
+            <property role="3oM_SC" value="style" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBA" role="1PaTwD">
+            <property role="3oM_SC" value="sheet" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBD" role="1PaTwD">
+            <property role="3oM_SC" value="item" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMB_" role="1PaTwD">
+            <property role="3oM_SC" value="horizontal-sticky-cell" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="3IadBSLmzI7" role="1PaTwD">
+            <property role="3oM_SC" value="or" />
+          </node>
+          <node concept="3oM_SD" id="3IadBSLmzI8" role="1PaTwD">
+            <property role="3oM_SC" value="vertical-sticky-cell" />
+            <property role="1X82VY" value="true" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBI" role="1PaTwD">
+            <property role="1X82VY" value="true" />
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBK" role="1PaTwD">
+            <property role="1X82VY" value="true" />
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBL" role="1PaTwD">
+            <property role="1X82VY" value="true" />
+            <property role="3oM_SC" value="table" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBM" role="1PaTwD">
+            <property role="1X82VY" value="true" />
+            <property role="3oM_SC" value="cell" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBN" role="1PaTwD">
+            <property role="1X82VY" value="true" />
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBO" role="1PaTwD">
+            <property role="1X82VY" value="true" />
+            <property role="3oM_SC" value="activate" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBP" role="1PaTwD">
+            <property role="1X82VY" value="true" />
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="quM1lwyMBQ" role="1PaTwD">
+            <property role="1X82VY" value="true" />
+            <property role="3oM_SC" value="feature." />
+          </node>
+        </node>
+      </node>
       <node concept="15bAme" id="4rAMcYzsxpK" role="15bAlL">
         <node concept="2DRihI" id="4rAMcYzsxpL" role="15bAlk">
           <node concept="2hgSXJ" id="4rAMcYzsxpM" role="1PaTwD">

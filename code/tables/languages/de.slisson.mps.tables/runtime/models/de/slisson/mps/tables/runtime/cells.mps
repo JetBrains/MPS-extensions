@@ -36086,11 +36086,9 @@
       </node>
       <node concept="17QB3L" id="3qQrmwQc6nC" role="3clF45" />
       <node concept="3clFbS" id="3qQrmwQbCMz" role="3clF47">
-        <node concept="YS8fn" id="3qQrmwQc6i8" role="3cqZAp">
-          <node concept="2ShNRf" id="3qQrmwQc6i9" role="YScLw">
-            <node concept="1pGfFk" id="3qQrmwQc6ia" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
-            </node>
+        <node concept="3clFbF" id="4fVtJFvhrgN" role="3cqZAp">
+          <node concept="Xl_RD" id="4fVtJFvhrgM" role="3clFbG">
+            <property role="Xl_RC" value="dummy" />
           </node>
         </node>
       </node>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:3d8b4628-659e-4af1-a607-3cc893005b62(de.slisson.mps.tables.runtime.cells)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -61,8 +62,8 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
     <import index="9hsz" ref="r:16d53f5e-7835-4b72-9581-fafeae0db9b1(jetbrains.mps.lang.editor.enumMigration)" />
-    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
     <import index="nivk" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.descriptor(MPS.Editor/)" implicit="true" />
@@ -12357,8 +12358,8 @@
                         <node concept="liA8E" id="7VuKdVa5Us_" role="2OqNvi">
                           <ref role="37wK5l" to="z60i:~Graphics.setColor(java.awt.Color)" resolve="setColor" />
                           <node concept="10M0yZ" id="7VuKdVa7FRR" role="37wK5m">
-                            <ref role="3cqZAo" to="lzb2:~JBColor.lightGray" resolve="lightGray" />
                             <ref role="1PxDUh" to="lzb2:~JBColor" resolve="JBColor" />
+                            <ref role="3cqZAo" to="lzb2:~JBColor.lightGray" resolve="lightGray" />
                           </node>
                         </node>
                       </node>
@@ -15084,12 +15085,12 @@
         </node>
         <node concept="3clFbF" id="1362cT3iaI5" role="3cqZAp">
           <node concept="2OqwBi" id="1362cT3ibbW" role="3clFbG">
+            <node concept="37vLTw" id="7N9Z2vLQ7Kr" role="2Oq$k0">
+              <ref role="3cqZAo" node="7N9Z2vLQ7Kp" resolve="instance" />
+            </node>
             <node concept="liA8E" id="1362cT3ibyX" role="2OqNvi">
               <ref role="37wK5l" node="1362cT3cM2o" resolve="registerChild" />
               <node concept="Xjq3P" id="1362cT3ib$7" role="37wK5m" />
-            </node>
-            <node concept="37vLTw" id="7N9Z2vLQ7Kr" role="2Oq$k0">
-              <ref role="3cqZAo" node="7N9Z2vLQ7Kp" resolve="instance" />
             </node>
           </node>
         </node>
@@ -34273,11 +34274,9 @@
       </node>
       <node concept="17QB3L" id="3qQrmwQc6nC" role="3clF45" />
       <node concept="3clFbS" id="3qQrmwQbCMz" role="3clF47">
-        <node concept="YS8fn" id="3qQrmwQc6i8" role="3cqZAp">
-          <node concept="2ShNRf" id="3qQrmwQc6i9" role="YScLw">
-            <node concept="1pGfFk" id="3qQrmwQc6ia" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
-            </node>
+        <node concept="3clFbF" id="4fVtJFvhrgN" role="3cqZAp">
+          <node concept="Xl_RD" id="4fVtJFvhrgM" role="3clFbG">
+            <property role="Xl_RC" value="dummy" />
           </node>
         </node>
       </node>

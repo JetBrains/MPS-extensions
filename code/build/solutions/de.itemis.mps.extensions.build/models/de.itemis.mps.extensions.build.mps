@@ -1170,6 +1170,16 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="1TZykZLaTdO" role="3bR37C">
+          <node concept="3bR9La" id="1TZykZLaTdP" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1TZykZLaTdQ" role="3bR37C">
+          <node concept="3bR9La" id="1TZykZLaTdR" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5nOdiEvyVh5" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -19850,6 +19860,11 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1TZykZLaU4v" role="3bR37C">
+          <node concept="3bR9La" id="1TZykZLaU4w" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7qi8mU1OzdF" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -20736,6 +20751,11 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6actlYi6hIq" role="3bR37C">
+          <node concept="3bR9La" id="6actlYi6hIr" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="6$6tsX_CISo" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -20817,6 +20837,17 @@
         <node concept="1SiIV0" id="4pZT8Jit6ic" role="3bR37C">
           <node concept="1Busua" id="4pZT8Jit6id" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1mqidcyBhjB" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhjC" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3yqOawE1ycg" role="3bR37C">
+          <node concept="3bR9La" id="3yqOawE1ych" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="4be$WTb1AQa" resolve="de.itemis.mps.editor.diagram.runtime" />
           </node>
         </node>
       </node>
@@ -20903,6 +20934,21 @@
         <node concept="1SiIV0" id="5m1M1V$YXTw" role="3bR37C">
           <node concept="3bR9La" id="5m1M1V$YXTx" role="1SiIV1">
             <ref role="3bR37D" node="56Tfdun3uan" resolve="de.itemis.mps.editor.diagram.layout" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1mqidcyBhjY" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhjZ" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1mqidcyBhk0" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhk1" role="1SiIV1">
+            <ref role="3bR37D" node="PE3B26QCrP" resolve="org.apache.commons" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6qGdjWm4Pdb" role="3bR37C">
+          <node concept="3bR9La" id="6qGdjWm4Pdc" role="1SiIV1">
+            <ref role="3bR37D" node="3$A0JaN5bpX" resolve="MPS.ThirdParty" />
           </node>
         </node>
       </node>
@@ -21109,6 +21155,11 @@
             <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1mqidcyBhlq" role="3bR37C">
+          <node concept="3bR9La" id="1mqidcyBhlr" role="1SiIV1">
+            <ref role="3bR37D" node="6$6tsX_CISo" resolve="test.de.itemis.mps.editor.diagram.lang" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7qi8mU1OzOZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -21199,104 +21250,101 @@
             </node>
           </node>
         </node>
-        <node concept="1E0d5M" id="vVBnaOe2hM" role="1E1XAP">
-          <ref role="1E0d5P" node="PE3B26QCrP" resolve="org.apache.commons" />
-        </node>
-        <node concept="1SiIV0" id="vVBnaOe2hN" role="3bR37C">
-          <node concept="3bR9La" id="vVBnaOe2hO" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="vVBnaOe2hR" role="3bR37C">
-          <node concept="3bR9La" id="vVBnaOe2hS" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-          </node>
-        </node>
-        <node concept="3rtmxn" id="vVBnaOe2hT" role="3bR31x">
-          <node concept="3LXTmp" id="vVBnaOe2hU" role="3rtmxm">
-            <node concept="3qWCbU" id="vVBnaOe2hV" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
-            <node concept="398BVA" id="vVBnaOe2hW" role="3LXTmr">
-              <ref role="398BVh" node="6$6tsX_CF7m" resolve="diagram.home" />
-              <node concept="2Ry0Ak" id="vVBnaOe2hX" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="vVBnaOe2hY" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.demo.callgraph" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="vVBnaOe2hZ" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="vVBnaOe2H_" role="1HemKq">
-            <node concept="398BVA" id="vVBnaOe2Hg" role="3LXTmr">
-              <ref role="398BVh" node="6$6tsX_CF7m" resolve="diagram.home" />
-              <node concept="2Ry0Ak" id="vVBnaOe2Hh" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="vVBnaOe2Hi" role="2Ry0An">
-                  <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.demo.elk" />
-                  <node concept="2Ry0Ak" id="vVBnaOe2Hj" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="vVBnaOe2HA" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="vVBnaOe2Hc" role="3bR37C">
-          <node concept="3bR9La" id="vVBnaOe2Hd" role="1SiIV1">
-            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="vVBnaOe2He" role="3bR37C">
-          <node concept="3bR9La" id="vVBnaOe2Hf" role="1SiIV1">
-            <ref role="3bR37D" node="6wEeo$QJAsB" resolve="de.itemis.mps.editor.diagram.shapes" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="vVBnaOe2HB" role="3bR37C">
-          <node concept="1Busua" id="vVBnaOe2HC" role="1SiIV1">
-            <ref role="1Busuk" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
-          </node>
-        </node>
         <node concept="1yeLz9" id="vVBnaOe2HD" role="1TViLv">
           <property role="TrG5h" value="de.itemis.mps.editor.diagram.demo.elk.generator" />
           <property role="3LESm3" value="48d94ad6-a113-4499-aacc-a4391725805d" />
-          <node concept="1BupzO" id="vVBnaOe2I3" role="3bR31x">
+          <node concept="1BupzO" id="naXaFmz4ke" role="3bR31x">
             <property role="3ZfqAx" value="generator/templates" />
             <property role="1Hdu6h" value="true" />
             <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="vVBnaOe2I4" role="1HemKq">
-              <node concept="398BVA" id="vVBnaOe2HE" role="3LXTmr">
+            <node concept="3LXTmp" id="naXaFmz4kf" role="1HemKq">
+              <node concept="398BVA" id="naXaFmz4jP" role="3LXTmr">
                 <ref role="398BVh" node="6$6tsX_CF7m" resolve="diagram.home" />
-                <node concept="2Ry0Ak" id="vVBnaOe2HF" role="iGT6I">
+                <node concept="2Ry0Ak" id="naXaFmz4jQ" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="vVBnaOe2HG" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="naXaFmz4jR" role="2Ry0An">
                     <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.demo.elk" />
-                    <node concept="2Ry0Ak" id="vVBnaOe2HH" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="naXaFmz4jS" role="2Ry0An">
                       <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="vVBnaOe2HI" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="naXaFmz4jT" role="2Ry0An">
                         <property role="2Ry0Am" value="templates" />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3qWCbU" id="vVBnaOe2I5" role="3LXTna">
+              <node concept="3qWCbU" id="naXaFmz4kg" role="3LXTna">
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3QN6lkAcxXE" role="3bR37C">
-          <node concept="3bR9La" id="3QN6lkAcxXF" role="1SiIV1">
+        <node concept="1SiIV0" id="naXaFmz4jd" role="3bR37C">
+          <node concept="3bR9La" id="naXaFmz4je" role="1SiIV1">
+            <ref role="3bR37D" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="naXaFmz4jf" role="3bR37C">
+          <node concept="3bR9La" id="naXaFmz4jg" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="naXaFmz4jh" role="3bR37C">
+          <node concept="3bR9La" id="naXaFmz4ji" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="naXaFmz4jl" role="3bR37C">
+          <node concept="3bR9La" id="naXaFmz4jm" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="naXaFmz4jn" role="3bR37C">
+          <node concept="3bR9La" id="naXaFmz4jo" role="1SiIV1">
+            <ref role="3bR37D" node="6wEeo$QJAsB" resolve="de.itemis.mps.editor.diagram.shapes" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="naXaFmz4jI" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="naXaFmz4jJ" role="1HemKq">
+            <node concept="398BVA" id="naXaFmz4jp" role="3LXTmr">
+              <ref role="398BVh" node="6$6tsX_CF7m" resolve="diagram.home" />
+              <node concept="2Ry0Ak" id="naXaFmz4jq" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="naXaFmz4jr" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.demo.elk" />
+                  <node concept="2Ry0Ak" id="naXaFmz4js" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="naXaFmz4jK" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="naXaFmz4jL" role="3bR37C">
+          <node concept="1Busua" id="naXaFmz4jM" role="1SiIV1">
+            <ref role="1Busuk" node="4be$WTb1CbJ" resolve="de.itemis.mps.editor.diagram" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="naXaFmzPtx" role="3bR31x">
+          <node concept="3LXTmp" id="naXaFmzPty" role="3rtmxm">
+            <node concept="398BVA" id="naXaFmzPtz" role="3LXTmr">
+              <ref role="398BVh" node="6$6tsX_CF7m" resolve="diagram.home" />
+              <node concept="2Ry0Ak" id="naXaFmzPt$" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="naXaFmzPt_" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.itemis.mps.editor.diagram.demo.elk" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="naXaFmzPtB" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
           </node>
         </node>
       </node>
@@ -22156,6 +22204,12 @@
       </node>
       <node concept="L2wRC" id="6$6tsX_CJST" role="39821P">
         <ref role="L2wRA" node="6$6tsX_CJdr" resolve="test.de.itemis.mps.editor.diagram.solution" />
+      </node>
+      <node concept="L2wRC" id="naXaFmGxTu" role="39821P">
+        <ref role="L2wRA" node="vVBnaOe2hH" resolve="de.itemis.mps.editor.diagram.demo.elk" />
+      </node>
+      <node concept="L2wRC" id="naXaFmHkQT" role="39821P">
+        <ref role="L2wRA" node="7qi8mU1Oz$v" resolve="de.itemis.mps.editor.diagram.demoentities" />
       </node>
       <node concept="L2wRC" id="1x_$NGQM_y3" role="39821P">
         <ref role="L2wRA" node="6$6tsX_CUvL" resolve="de.itemis.mps.structurecheck" />

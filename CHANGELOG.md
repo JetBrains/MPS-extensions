@@ -8,11 +8,13 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 
 ### Added
 
+- *de.slisson.mps.editor.multiline*: A new cell *constant multi-line* can be used to create dynamic read-only text that spans multiple lines.
 - *de.slisson.mps.tables*: Sticky table cells were added. Add the style sheet item *horizontal-sticky-cell* or *vertical-sticky-cell* *to* *a* *table* *cell* *to* *activate* *the* *feature.*
 
 ### Fixed
 
-- *com.mbeddr.mpsutil.projectview.runtime*: Fixed  several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
+- *com.mbeddr.mpsutil.projectview.runtime*: Fixed several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
+- *de.itemis.mps.editor.diagram*: Some issues related to ELK styles and custom IDs were fixed.
 
 ### Changed
 
@@ -37,7 +39,6 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime*: Diagrams can now be used in an headless environment (e.g. for rendering documentation).
-- *de.slisson.mps.editor.multiline.runtime*: A bug was fixed where the multiline cell got a wrong background color set.
 - *de.itemis.mps.editor.diagram.runtime*: The dependency to *de.q60.mps.collections.libs* was removed.
 - *de.itemis.mps.editor.diagram*: Various improvements to diagrams were made. (see: [PR #866](https://github.com/JetBrains/MPS-extensions/pull/866) )
 

@@ -20850,6 +20850,11 @@
             <ref role="3bR37D" node="4be$WTb1AQa" resolve="de.itemis.mps.editor.diagram.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="4Dfm9e0q5f" role="3bR37C">
+          <node concept="3bR9La" id="4Dfm9e0q5g" role="1SiIV1">
+            <ref role="3bR37D" node="1sO539bGQvB" resolve="de.slisson.mps.richtext" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6$6tsX_CJdr" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -21158,6 +21163,11 @@
         <node concept="1SiIV0" id="1mqidcyBhlq" role="3bR37C">
           <node concept="3bR9La" id="1mqidcyBhlr" role="1SiIV1">
             <ref role="3bR37D" node="6$6tsX_CISo" resolve="test.de.itemis.mps.editor.diagram.lang" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4Dfm9e0q6Y" role="3bR37C">
+          <node concept="3bR9La" id="4Dfm9e0q6Z" role="1SiIV1">
+            <ref role="3bR37D" node="1sO539bGQvB" resolve="de.slisson.mps.richtext" />
           </node>
         </node>
       </node>

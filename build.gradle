@@ -193,7 +193,7 @@ dependencies {
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
     diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.31.0")
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
     diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
 

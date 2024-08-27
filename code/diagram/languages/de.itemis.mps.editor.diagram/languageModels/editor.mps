@@ -1166,6 +1166,19 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
+          <node concept="3EZMnI" id="1MpJ6yS8GU4" role="3EZMnx">
+            <node concept="2iRfu4" id="1MpJ6yS8GU5" role="2iSdaV" />
+            <node concept="3F0ifn" id="1MpJ6yS8GU6" role="3EZMnx">
+              <property role="3F0ifm" value="ignore elements' minimum size restriction (indent layout) " />
+            </node>
+            <node concept="3F1sOY" id="1MpJ6yS8Hfy" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:1MpJ6yR_DFN" resolve="allowElementsBelowRequiredSize" />
+            </node>
+            <node concept="VPM3Z" id="1MpJ6yS8GU9" role="3F10Kt" />
+            <node concept="VPXOz" id="1MpJ6yS8GUa" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
         </node>
         <node concept="2iRfu4" id="5qgNcfDnGw9" role="2iSdaV" />
         <node concept="3F0ifn" id="5qgNcfDnGxf" role="3EZMnx" />
@@ -5650,25 +5663,6 @@
                   <node concept="355D3s" id="5ZBOFE3vv_k" role="37wK5m">
                     <ref role="355D3t" to="2qld:5ZBOFE3vobP" resolve="DiagramButtonConfig" />
                     <ref role="355D3u" to="2qld:5ZBOFE3vtwC" resolve="hasLayoutDiagramButton" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3gTLQM" id="5ZBOFE3vyye" role="3EZMnx">
-        <node concept="3Fmcul" id="5ZBOFE3vyyf" role="3FoqZy">
-          <node concept="3clFbS" id="5ZBOFE3vyyg" role="2VODD2">
-            <node concept="3cpWs6" id="5ZBOFE3vyyh" role="3cqZAp">
-              <node concept="2OqwBi" id="5ZBOFE3vyyi" role="3cqZAk">
-                <node concept="pncrf" id="5ZBOFE3vyyj" role="2Oq$k0" />
-                <node concept="2qgKlT" id="5ZBOFE3vyyk" role="2OqNvi">
-                  <ref role="37wK5l" to="nh7q:4h7S3973QQF" resolve="getBooleanPropertyCheckBox" />
-                  <node concept="1Q80Hx" id="5ZBOFE3vyyl" role="37wK5m" />
-                  <node concept="355D3s" id="5ZBOFE3vyym" role="37wK5m">
-                    <ref role="355D3t" to="2qld:5ZBOFE3vobP" resolve="DiagramButtonConfig" />
-                    <ref role="355D3u" to="2qld:2ZU2kH0jA_x" resolve="hasMoveToViewerButton" />
                   </node>
                 </node>
               </node>

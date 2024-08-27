@@ -87,6 +87,9 @@
         <reference id="934534792594006923" name="variable" index="1adK7U" />
         <child id="934534792594006925" name="value" index="1adK7W" />
       </concept>
+      <concept id="477038604670626401" name="de.slisson.mps.tables.demolang.structure.ICanHaveStickyHeaders" flags="ng" index="1p5a9O">
+        <property id="477038604670636722" name="stickyHeaders" index="1p55EB" />
+      </concept>
       <concept id="4618647476138240641" name="de.slisson.mps.tables.demolang.structure.DecisionTableResult" flags="ng" index="3HSt7D">
         <reference id="4618647476138240642" name="xExpression" index="3HSt7E" />
         <reference id="4618647476138240644" name="yExpression" index="3HSt7G" />
@@ -108,14 +111,16 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
   <node concept="2r1zlX" id="1dAqnm8uyos">
     <property role="21aGsb" value="0" />
+    <property role="TrG5h" value="Tables Demo" />
     <node concept="YyQDZ" id="2M7NXgiajmZ" role="YCZch">
+      <property role="1p55EB" value="true" />
       <node concept="YyQdd" id="XrIi9uRTZK" role="YyQc$">
         <property role="TrG5h" value="state1" />
         <node concept="YyQdW" id="XrIi9v7Qgy" role="YyQcJ">
@@ -720,6 +725,7 @@
       </node>
     </node>
     <node concept="2r74Ui" id="1rJc_yteLeb" role="2rUWny">
+      <property role="1p55EB" value="true" />
       <node concept="2r747w" id="1rJc_yteLed" role="2r746P">
         <property role="TrG5h" value="Event0" />
       </node>
@@ -983,12 +989,13 @@
       </node>
     </node>
     <node concept="3HStbo" id="40oIQyI7ZNv" role="3I0oiA">
+      <property role="1p55EB" value="true" />
       <node concept="3clFbC" id="40oIQyI81qo" role="3HSt4g">
         <node concept="3cmrfG" id="40oIQyI81qJ" role="3uHU7w">
           <property role="3cmrfH" value="2" />
         </node>
         <node concept="3cmrfG" id="40oIQyI80Bm" role="3uHU7B">
-          <property role="3cmrfH" value="2" />
+          <property role="3cmrfH" value="20" />
         </node>
       </node>
       <node concept="3clFbC" id="40oIQyImh$y" role="3HSt4g">
@@ -996,7 +1003,7 @@
           <property role="3cmrfH" value="3" />
         </node>
         <node concept="3cmrfG" id="40oIQyImgLt" role="3uHU7B">
-          <property role="3cmrfH" value="3" />
+          <property role="3cmrfH" value="30" />
         </node>
       </node>
       <node concept="3clFbC" id="40oIQyI80A_" role="3HSt4u">

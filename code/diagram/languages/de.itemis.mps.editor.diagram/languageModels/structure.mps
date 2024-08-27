@@ -210,6 +210,12 @@
       <property role="20kJfa" value="syncWithModelOnlyOnOpening" />
       <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
     </node>
+    <node concept="1TJgyj" id="1MpJ6yR_DFN" role="1TKVEi">
+      <property role="IQ2ns" value="2060885462441433843" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="allowElementsBelowRequiredSize" />
+      <ref role="20lvS9" to="tpc2:gCpkWun" resolve="QueryFunction_NodeCondition" />
+    </node>
     <node concept="1TJgyj" id="5qgNcfDnbtd" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="contentQuery" />
@@ -2147,11 +2153,6 @@
       <property role="TrG5h" value="hasRelayoutAllEdgesButton" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
       <node concept="asaX9" id="2ZU2kH0jA8r" role="lGtFl" />
-    </node>
-    <node concept="1TJgyi" id="2ZU2kH0jA_x" role="1TKVEl">
-      <property role="IQ2nx" value="3457085882766354785" />
-      <property role="TrG5h" value="hasMoveToViewerButton" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="5ZBOFE3vtwH" role="1TKVEl">
       <property role="IQ2nx" value="6910723851735128109" />

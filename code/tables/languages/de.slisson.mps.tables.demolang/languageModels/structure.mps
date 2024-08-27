@@ -51,7 +51,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -102,6 +102,9 @@
       <property role="IQ2ns" value="4618647476140326862" />
       <ref role="20lvS9" node="40oIQyHYmAK" resolve="DecisionTable" />
     </node>
+    <node concept="PrWs8" id="quM1lwDXPH" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1dAqnm8oBxc">
     <property role="TrG5h" value="RequirementsCollection" />
@@ -114,6 +117,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="1397920687865457249" />
       <ref role="20lvS9" node="1dAqnm8oBxv" resolve="Requirement" />
+    </node>
+    <node concept="PrWs8" id="quM1lvyDaL" role="PzmwI">
+      <ref role="PrY4T" node="quM1lvyADx" resolve="ICanHaveStickyHeaders" />
     </node>
   </node>
   <node concept="1TIwiD" id="1dAqnm8oBxv">
@@ -180,6 +186,9 @@
     </node>
     <node concept="PrWs8" id="1dAqnm8qrI7" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="quM1lvyKH9" role="PzmwI">
+      <ref role="PrY4T" node="quM1lvyADx" resolve="ICanHaveStickyHeaders" />
     </node>
   </node>
   <node concept="1TIwiD" id="1dAqnm8qrJT">
@@ -265,6 +274,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="IQ2ns" value="1397920687866915016" />
       <ref role="20lvS9" node="1dAqnm8uyyZ" resolve="Transition" />
+    </node>
+    <node concept="PrWs8" id="quM1lvyKHb" role="PzmwI">
+      <ref role="PrY4T" node="quM1lvyADx" resolve="ICanHaveStickyHeaders" />
     </node>
   </node>
   <node concept="1TIwiD" id="1dAqnm8uyyl">
@@ -411,6 +423,9 @@
       <property role="IQ2ns" value="3208761769267604722" />
       <ref role="20lvS9" node="2M7NXgi3aNJ" resolve="Event2" />
     </node>
+    <node concept="PrWs8" id="quM1lvyKHc" role="PzmwI">
+      <ref role="PrY4T" node="quM1lvyADx" resolve="ICanHaveStickyHeaders" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2M7NXgi3aMp">
     <property role="3GE5qa" value="StateMachine2" />
@@ -483,6 +498,9 @@
       <property role="IQ2ns" value="4618647476138240651" />
       <ref role="20lvS9" node="40oIQyHYmE1" resolve="DecisionTableResult" />
     </node>
+    <node concept="PrWs8" id="quM1lvyKHd" role="PzmwI">
+      <ref role="PrY4T" node="quM1lvyADx" resolve="ICanHaveStickyHeaders" />
+    </node>
   </node>
   <node concept="1TIwiD" id="40oIQyHYmE1">
     <property role="3GE5qa" value="DecisionTable" />
@@ -507,6 +525,15 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <property role="IQ2ns" value="4618647476138240644" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="quM1lvyADx">
+    <property role="EcuMT" value="477038604670626401" />
+    <property role="TrG5h" value="ICanHaveStickyHeaders" />
+    <node concept="1TJgyi" id="quM1lvyDaM" role="1TKVEl">
+      <property role="IQ2nx" value="477038604670636722" />
+      <property role="TrG5h" value="stickyHeaders" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>

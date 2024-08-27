@@ -5,14 +5,14 @@
   <languages>
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -39,7 +39,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -58,6 +58,13 @@
     <node concept="PrWs8" id="7wXnfGDY5lq" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7XmAYSGTgVv">
+    <property role="EcuMT" value="9175692738071695071" />
+    <property role="TrG5h" value="QueryFunction_Content" />
+    <property role="34LRSv" value="content" />
+    <property role="R4oN_" value="embedded block of code" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
   <node concept="1TIwiD" id="1TZykZL8TNr">
     <property role="TrG5h" value="CellModel_Multiline_Constant" />
@@ -80,13 +87,6 @@
     <node concept="PrWs8" id="1TZykZL8TNu" role="PzmwI">
       <ref role="PrY4T" to="tpck:8AYOKVCAP5" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="7XmAYSGTgVv">
-    <property role="EcuMT" value="9175692738071695071" />
-    <property role="TrG5h" value="QueryFunction_Content" />
-    <property role="34LRSv" value="content" />
-    <property role="R4oN_" value="embedded block of code" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

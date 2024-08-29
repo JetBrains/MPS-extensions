@@ -13536,6 +13536,11 @@
             <ref role="3bR37D" node="2Xjt3l57hht" resolve="de.slisson.mps.reflection.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7k$nxOjfAAV" role="3bR37C">
+          <node concept="3bR9La" id="7k$nxOjfAAW" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="4Hbnsm4O7VL" role="2G$12L">
         <property role="BnDLt" value="true" />

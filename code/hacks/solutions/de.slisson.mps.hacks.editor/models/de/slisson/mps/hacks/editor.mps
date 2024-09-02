@@ -1070,7 +1070,7 @@
           <node concept="2OqwBi" id="2BYLcdcOFbX" role="3clFbG">
             <node concept="2OqwBi" id="2BYLcdcOEvN" role="2Oq$k0">
               <node concept="37vLTw" id="2BYLcdcOVvK" role="2Oq$k0">
-                <ref role="3cqZAo" node="2WlJ6VKPQi6" resolve="myIdeaProject" />
+                <ref role="3cqZAo" node="2WlJ6VKPQi6" resolve="myProject" />
               </node>
               <node concept="liA8E" id="2BYLcdcOEIo" role="2OqNvi">
                 <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class)" resolve="getComponent" />
@@ -1097,7 +1097,7 @@
           <node concept="2OqwBi" id="2BYLcdcOVTz" role="3clFbG">
             <node concept="2OqwBi" id="2BYLcdcOVT$" role="2Oq$k0">
               <node concept="37vLTw" id="2BYLcdcOVT_" role="2Oq$k0">
-                <ref role="3cqZAo" node="2WlJ6VKPQi6" resolve="myIdeaProject" />
+                <ref role="3cqZAo" node="2WlJ6VKPQi6" resolve="myProject" />
               </node>
               <node concept="liA8E" id="2BYLcdcOVTA" role="2OqNvi">
                 <ref role="37wK5l" to="z1c3:~Project.getComponent(java.lang.Class)" resolve="getComponent" />

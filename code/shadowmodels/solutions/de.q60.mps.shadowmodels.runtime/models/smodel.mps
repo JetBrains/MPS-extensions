@@ -60,6 +60,7 @@
     <import index="xxte" ref="r:a79f28f8-6055-40c6-bc5e-47a42a3b97e8(org.modelix.model.mpsadapters.mps)" />
     <import index="ouht" ref="cc99dce1-49f3-4392-8dbf-e22ca47bd0af/java:kotlin.jvm.functions(org.modelix.model.api/)" />
     <import index="y071" ref="r:57711a24-29ad-4bd9-8062-d4259c0a2ba5(de.q60.mps.logging.runtime)" />
+    <import index="z1o6" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.serviceContainer(MPS.IDEA/)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="jh6v" ref="r:f2f39a18-fd23-4090-b7f2-ba8da340eec2(org.modelix.model.repositoryconcepts.structure)" implicit="true" />
     <import index="wyuk" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.components(MPS.Core/)" implicit="true" />
@@ -18135,44 +18136,63 @@
     <node concept="2YIFZL" id="6HiBqPCpI$v" role="jymVt">
       <property role="TrG5h" value="getProject" />
       <node concept="3clFbS" id="6HiBqPCpCC9" role="3clF47">
-        <node concept="3cpWs8" id="6HiBqPCpGBm" role="3cqZAp">
-          <node concept="3cpWsn" id="6HiBqPCpGBn" role="3cpWs9">
-            <property role="TrG5h" value="projects" />
-            <node concept="_YKpA" id="6HiBqPCpGBo" role="1tU5fm">
-              <node concept="3uibUv" id="6HiBqPCpGBp" role="_ZDj9">
-                <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        <node concept="3J1_TO" id="1TCM8oZU66G" role="3cqZAp">
+          <node concept="3uVAMA" id="1TCM8oZU6jd" role="1zxBo5">
+            <node concept="XOnhg" id="1TCM8oZU6je" role="1zc67B">
+              <property role="TrG5h" value="e" />
+              <node concept="nSUau" id="1TCM8oZU6jf" role="1tU5fm">
+                <node concept="3uibUv" id="1TCM8oZU7c2" role="nSUat">
+                  <ref role="3uigEE" to="z1o6:~AlreadyDisposedException" resolve="AlreadyDisposedException" />
+                </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="6HiBqPCpGBq" role="33vP2m">
-              <node concept="liA8E" id="6HiBqPCpGBs" role="2OqNvi">
-                <ref role="37wK5l" to="z1c3:~ProjectManager.getOpenedProjects()" resolve="getOpenedProjects" />
-              </node>
-              <node concept="2OqwBi" id="378Fdx2PHE5" role="2Oq$k0">
-                <node concept="2OqwBi" id="378Fdx2PGVt" role="2Oq$k0">
-                  <node concept="2YIFZM" id="378Fdx2PGwd" role="2Oq$k0">
-                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
-                    <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
-                  </node>
-                  <node concept="liA8E" id="378Fdx2PHdP" role="2OqNvi">
-                    <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="378Fdx2PHQK" role="2OqNvi">
-                  <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
-                  <node concept="3VsKOn" id="378Fdx2PI$7" role="37wK5m">
-                    <ref role="3VsUkX" to="z1c3:~ProjectManager" resolve="ProjectManager" />
-                  </node>
-                </node>
+            <node concept="3clFbS" id="1TCM8oZU6jg" role="1zc67A">
+              <node concept="3cpWs6" id="1TCM8oZU80o" role="3cqZAp">
+                <node concept="10Nm6u" id="1TCM8oZU8hu" role="3cqZAk" />
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="6HiBqPCpHG4" role="3cqZAp">
-          <node concept="2OqwBi" id="6HiBqPCpGBw" role="3clFbG">
-            <node concept="37vLTw" id="6HiBqPCpGBx" role="2Oq$k0">
-              <ref role="3cqZAo" node="6HiBqPCpGBn" resolve="projects" />
+          <node concept="3clFbS" id="1TCM8oZU66I" role="1zxBo7">
+            <node concept="3cpWs8" id="6HiBqPCpGBm" role="3cqZAp">
+              <node concept="3cpWsn" id="6HiBqPCpGBn" role="3cpWs9">
+                <property role="TrG5h" value="projects" />
+                <node concept="_YKpA" id="6HiBqPCpGBo" role="1tU5fm">
+                  <node concept="3uibUv" id="6HiBqPCpGBp" role="_ZDj9">
+                    <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="6HiBqPCpGBq" role="33vP2m">
+                  <node concept="liA8E" id="6HiBqPCpGBs" role="2OqNvi">
+                    <ref role="37wK5l" to="z1c3:~ProjectManager.getOpenedProjects()" resolve="getOpenedProjects" />
+                  </node>
+                  <node concept="2OqwBi" id="378Fdx2PHE5" role="2Oq$k0">
+                    <node concept="2OqwBi" id="378Fdx2PGVt" role="2Oq$k0">
+                      <node concept="2YIFZM" id="378Fdx2PGwd" role="2Oq$k0">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getInstance()" resolve="getInstance" />
+                        <ref role="1Pybhc" to="3a50:~MPSCoreComponents" resolve="MPSCoreComponents" />
+                      </node>
+                      <node concept="liA8E" id="378Fdx2PHdP" role="2OqNvi">
+                        <ref role="37wK5l" to="3a50:~MPSCoreComponents.getPlatform()" resolve="getPlatform" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="378Fdx2PHQK" role="2OqNvi">
+                      <ref role="37wK5l" to="wyuk:~ComponentHost.findComponent(java.lang.Class)" resolve="findComponent" />
+                      <node concept="3VsKOn" id="378Fdx2PI$7" role="37wK5m">
+                        <ref role="3VsUkX" to="z1c3:~ProjectManager" resolve="ProjectManager" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="1uHKPH" id="6HiBqPCpGBy" role="2OqNvi" />
+            <node concept="3cpWs6" id="4u9aV0WjInp" role="3cqZAp">
+              <node concept="2OqwBi" id="6HiBqPCpGBw" role="3cqZAk">
+                <node concept="37vLTw" id="6HiBqPCpGBx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6HiBqPCpGBn" resolve="projects" />
+                </node>
+                <node concept="1uHKPH" id="6HiBqPCpGBy" role="2OqNvi" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -18181,7 +18201,6 @@
       </node>
       <node concept="3Tmbuc" id="6HiBqPCpHS$" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="6FW8YbU5vPy" role="jymVt" />
     <node concept="3Tm1VV" id="6FW8YbU5vOT" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7NImM04Z3QF">

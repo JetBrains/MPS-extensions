@@ -369,7 +369,7 @@ dependencies {
     junitAnt('org.apache.ant:ant-junit:1.10.14') {
         transitive = false
     }
-    junitAnt('org.apache.ant:ant-junit4:1.10.14') {
+    junitAnt('org.apache.ant:ant-junit4:1.10.15') {
         transitive = false
     }
 }

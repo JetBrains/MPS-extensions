@@ -95,7 +95,7 @@ configurations {
 dependencies {
     // For published releases adjust ext.mpsMajor and ext.mpsMinor above and use this dependency:
     // mps "com.jetbrains:mps:$mpsVersion"
-    mps "com.jetbrains.mps:mps-prerelease:241.19072.10217"
+    mps "com.jetbrains.mps:mps-prerelease:241.19072.10271"
 }
 
 repositories {
@@ -527,6 +527,7 @@ def usedPluginRoots = [
         new File(mpsHomeDir, 'plugins/mps-vcs'),
         new File(mpsHomeDir, 'plugins/mps-git4idea'),
         new File(mpsHomeDir, 'plugins/mps-httpsupport'),
+        new File(mpsHomeDir, 'plugins/mps-testing'),
 ]
 
 tasks.register('migrate', MpsMigrate) {

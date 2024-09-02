@@ -1488,7 +1488,7 @@
                 <node concept="1Y3b0j" id="2mjECGQOG57" role="YeSDq">
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="wvnl:~EditorExtension" resolve="EditorExtension" />
-                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                   <node concept="3Tm1VV" id="2mjECGQOG58" role="1B3o_S" />
                   <node concept="3clFb_" id="DrREDhpmfz" role="jymVt">
                     <property role="TrG5h" value="isApplicable" />
@@ -1516,7 +1516,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="DrREDhpmfG" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                   <node concept="3clFb_" id="DrREDhpmfJ" role="jymVt">
@@ -1554,7 +1554,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="DrREDhpmfS" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                   <node concept="3clFb_" id="DrREDhpmfT" role="jymVt">
@@ -1592,7 +1592,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="DrREDhpmg2" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                 </node>

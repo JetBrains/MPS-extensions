@@ -7594,11 +7594,11 @@
                             <node concept="2OqwBi" id="2OALdl4V1ce" role="2Oq$k0">
                               <node concept="30H73N" id="2OALdl4V19w" role="2Oq$k0" />
                               <node concept="3TrEf2" id="2OALdl4V6Wt" role="2OqNvi">
-                                <ref role="3Tt5mk" to="hba4:2OALdl52Q47" />
+                                <ref role="3Tt5mk" to="hba4:2OALdl52Q47" resolve="profiledStatements" />
                               </node>
                             </node>
                             <node concept="3Tsc0h" id="2aDr00AvawI" role="2OqNvi">
-                              <ref role="3TtcxE" to="tpee:fzcqZ_x" />
+                              <ref role="3TtcxE" to="tpee:fzcqZ_x" resolve="statement" />
                             </node>
                           </node>
                         </node>

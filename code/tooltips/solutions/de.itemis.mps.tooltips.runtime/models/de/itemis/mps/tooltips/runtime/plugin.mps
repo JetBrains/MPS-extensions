@@ -164,7 +164,7 @@
                 <node concept="1Y3b0j" id="5VSAssGMz5B" role="YeSDq">
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="wvnl:~EditorExtension" resolve="EditorExtension" />
-                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                   <node concept="3Tm1VV" id="5VSAssGMz5C" role="1B3o_S" />
                   <node concept="3clFb_" id="DrREDhpAx9" role="jymVt">
                     <property role="TrG5h" value="isApplicable" />
@@ -192,7 +192,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="DrREDhpAxi" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                   <node concept="3clFb_" id="DrREDhpAxl" role="jymVt">
@@ -256,7 +256,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="DrREDhpAxu" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                   <node concept="3clFb_" id="DrREDhpAxv" role="jymVt">
@@ -289,7 +289,7 @@
                       </node>
                     </node>
                     <node concept="2AHcQZ" id="DrREDhpAxC" role="2AJF6D">
-                      <ref role="2AI5Lk" to="wyt6:~Override" />
+                      <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                     </node>
                   </node>
                 </node>

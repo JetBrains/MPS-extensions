@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## September 2024
+
+### Added
+
+- A module stub solution *MPS.Kotlin* was added to support referencing Kotlin classes and libraries from MPS.ThirdParty.
+
 ## August 2024
 
 ### Added
@@ -20,7 +26,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Changed
 
 - *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
-- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less agressively.
+- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less  aggressively.
 
 ## July 2024
 

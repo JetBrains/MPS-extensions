@@ -3327,8 +3327,8 @@
                   <node concept="1Y3b0j" id="1laJE2$mTlK" role="YeSDq">
                     <property role="2bfB8j" value="true" />
                     <property role="373rjd" value="true" />
-                    <ref role="1Y3XeK" to="18t6:~mxEventSource$mxIEventListener" resolve="mxIEventListener" />
-                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                    <ref role="1Y3XeK" to="18t6:~mxEventSource$mxIEventListener" resolve="mxEventSource.mxIEventListener" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                     <node concept="3Tm1VV" id="1laJE2$mTlL" role="1B3o_S" />
                     <node concept="3clFb_" id="1laJE2$mTlM" role="jymVt">
                       <property role="TrG5h" value="invoke" />
@@ -3362,7 +3362,7 @@
                         </node>
                       </node>
                       <node concept="2AHcQZ" id="1laJE2$mTlZ" role="2AJF6D">
-                        <ref role="2AI5Lk" to="wyt6:~Override" />
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                       </node>
                     </node>
                   </node>
@@ -13370,7 +13370,7 @@
           </node>
         </node>
         <node concept="37vLTw" id="1mqidcvpvrC" role="3tpDZB">
-          <ref role="3cqZAo" node="1mqidcvpvqu" resolve="expectedSize" />
+          <ref role="3cqZAo" node="1mqidcvpvqu" resolve="expectedSize1" />
         </node>
       </node>
       <node concept="3vlDli" id="1mqidcvsD6F" role="3cqZAp">
@@ -14619,7 +14619,7 @@
                             <node concept="2pJPED" id="1mqidcvQObB" role="28nt2d">
                               <ref role="2pJxaS" to="7nxb:24zrZPPz$8d" resolve="TextBoxContent" />
                               <node concept="2pJxcG" id="1mqidcvQOlZ" role="2pJxcM">
-                                <ref role="2pJxcJ" to="7nxb:24zrZPPz$8l" resolve="value" />
+                                <ref role="2pJxcJ" to="7nxb:24zrZPPz$8l" resolve="value1" />
                                 <node concept="WxPPo" id="1mqidcvQOwD" role="28ntcv">
                                   <node concept="Xl_RD" id="1mqidcvQOwC" role="WxPPp">
                                     <property role="Xl_RC" value="text" />
@@ -24921,7 +24921,7 @@
       </node>
       <node concept="3vlDli" id="2PdRDsXEsQU" role="3cqZAp">
         <node concept="37vLTw" id="2PdRDsXEHxj" role="3tpDZB">
-          <ref role="3cqZAo" node="2PdRDsXEHxe" resolve="d" />
+          <ref role="3cqZAo" node="2PdRDsXEHxe" resolve="originalBox1Bounds" />
         </node>
         <node concept="2OqwBi" id="2PdRDsXEtFu" role="3tpDZA">
           <node concept="37vLTw" id="2PdRDsXEt4v" role="2Oq$k0">
@@ -24978,11 +24978,11 @@
       </node>
       <node concept="3vlDli" id="2PdRDsXEC26" role="3cqZAp">
         <node concept="37vLTw" id="2PdRDsXEI7J" role="3tpDZB">
-          <ref role="3cqZAo" node="2PdRDsXEI7E" resolve="d" />
+          <ref role="3cqZAo" node="2PdRDsXEI7E" resolve="originalBox2Bounds" />
         </node>
         <node concept="2OqwBi" id="2PdRDsXEC2b" role="3tpDZA">
           <node concept="37vLTw" id="2PdRDsXEC2c" role="2Oq$k0">
-            <ref role="3cqZAo" node="2PdRDsXEC1Y" resolve="box1" />
+            <ref role="3cqZAo" node="2PdRDsXEC1Y" resolve="box2" />
           </node>
           <node concept="AQDAd" id="2PdRDsXEC2d" role="2OqNvi">
             <ref role="37wK5l" to="r3rm:1mqidcvpTcD" resolve="getSize" />
@@ -25035,11 +25035,11 @@
       </node>
       <node concept="3vlDli" id="2PdRDsXEDCc" role="3cqZAp">
         <node concept="37vLTw" id="2PdRDsXEJ7U" role="3tpDZB">
-          <ref role="3cqZAo" node="2PdRDsXEJ7P" resolve="d" />
+          <ref role="3cqZAo" node="2PdRDsXEJ7P" resolve="originalBox3Bounds" />
         </node>
         <node concept="2OqwBi" id="2PdRDsXEDCh" role="3tpDZA">
           <node concept="37vLTw" id="2PdRDsXEDCi" role="2Oq$k0">
-            <ref role="3cqZAo" node="2PdRDsXEDC4" resolve="box1" />
+            <ref role="3cqZAo" node="2PdRDsXEDC4" resolve="box3" />
           </node>
           <node concept="AQDAd" id="2PdRDsXEDCj" role="2OqNvi">
             <ref role="37wK5l" to="r3rm:1mqidcvpTcD" resolve="getSize" />
@@ -25092,11 +25092,11 @@
       </node>
       <node concept="3vlDli" id="2PdRDsXEDXF" role="3cqZAp">
         <node concept="37vLTw" id="2PdRDsXEJDH" role="3tpDZB">
-          <ref role="3cqZAo" node="2PdRDsXEJDC" resolve="d" />
+          <ref role="3cqZAo" node="2PdRDsXEJDC" resolve="originalBox4Bounds" />
         </node>
         <node concept="2OqwBi" id="2PdRDsXEDXK" role="3tpDZA">
           <node concept="37vLTw" id="2PdRDsXEDXL" role="2Oq$k0">
-            <ref role="3cqZAo" node="2PdRDsXEDXz" resolve="box1" />
+            <ref role="3cqZAo" node="2PdRDsXEDXz" resolve="box4" />
           </node>
           <node concept="AQDAd" id="2PdRDsXEDXM" role="2OqNvi">
             <ref role="37wK5l" to="r3rm:1mqidcvpTcD" resolve="getSize" />

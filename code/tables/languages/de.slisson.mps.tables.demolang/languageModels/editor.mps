@@ -1422,7 +1422,7 @@
                 </node>
               </node>
               <node concept="3tD6jV" id="quM1lwJjW9" role="3F10Kt">
-                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                 <node concept="3sjG9q" id="quM1lwJjWb" role="3tD6jU">
                   <node concept="3clFbS" id="quM1lwJjWd" role="2VODD2">
                     <node concept="3clFbF" id="quM1lwLWHg" role="3cqZAp">
@@ -1586,7 +1586,7 @@
                     <property role="3cmrfH" value="0" />
                   </node>
                   <node concept="1Z6Ecs" id="quM1lwMOU2" role="37wK5m">
-                    <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                    <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                   </node>
                   <node concept="3clFbT" id="quM1lwMQJp" role="37wK5m">
                     <property role="3clFbU" value="true" />
@@ -1701,7 +1701,7 @@
                         <property role="3cmrfH" value="1" />
                       </node>
                       <node concept="1Z6Ecs" id="quM1lwSSS9" role="37wK5m">
-                        <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                        <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                       </node>
                       <node concept="3clFbT" id="quM1lwSSWZ" role="37wK5m">
                         <property role="3clFbU" value="true" />
@@ -1870,7 +1870,7 @@
                 <property role="Qq2$K" value="3NocqOaFOpk/CENTER" />
               </node>
               <node concept="3tD6jV" id="quM1lwSRmw" role="3F10Kt">
-                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                 <node concept="3sjG9q" id="quM1lwSRmy" role="3tD6jU">
                   <node concept="3clFbS" id="quM1lwSRm$" role="2VODD2">
                     <node concept="3clFbF" id="quM1lwSRnl" role="3cqZAp">
@@ -1917,7 +1917,7 @@
                 <property role="Qq2$K" value="3NocqOaFOpk/CENTER" />
               </node>
               <node concept="3tD6jV" id="quM1lwSRnR" role="3F10Kt">
-                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                 <node concept="3sjG9q" id="quM1lwSRnS" role="3tD6jU">
                   <node concept="3clFbS" id="quM1lwSRnT" role="2VODD2">
                     <node concept="3clFbF" id="quM1lwSRnU" role="3cqZAp">
@@ -2870,7 +2870,7 @@
                 </node>
               </node>
               <node concept="3tD6jV" id="quM1lwA_lu" role="3F10Kt">
-                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+                <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
                 <node concept="3sjG9q" id="quM1lwA_lv" role="3tD6jU">
                   <node concept="3clFbS" id="quM1lwA_lw" role="2VODD2">
                     <node concept="3clFbF" id="quM1lwA_qI" role="3cqZAp">
@@ -3643,7 +3643,7 @@
           </node>
           <node concept="1g0IQG" id="quM1lwzJhe" role="1geGt4">
             <node concept="3tD6jV" id="quM1lwzKWW" role="3F10Kt">
-              <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+              <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
               <node concept="3sjG9q" id="quM1lwzKWX" role="3tD6jU">
                 <node concept="3clFbS" id="quM1lwzKWY" role="2VODD2">
                   <node concept="3clFbF" id="quM1lwzL2c" role="3cqZAp">
@@ -4428,7 +4428,7 @@
           </node>
           <node concept="1g0IQG" id="quM1lvHDcq" role="1geGt4">
             <node concept="3tD6jV" id="quM1lvHEAc" role="3F10Kt">
-              <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+              <ref role="3tD7wE" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
               <node concept="3sjG9q" id="quM1lvHEAd" role="3tD6jU">
                 <node concept="3clFbS" id="quM1lvHEAe" role="2VODD2">
                   <node concept="3clFbF" id="quM1lvHEFr" role="3cqZAp">

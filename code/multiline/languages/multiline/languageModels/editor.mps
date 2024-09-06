@@ -296,7 +296,7 @@
   <node concept="24kQdi" id="1TZykZL8TNv">
     <ref role="1XX52x" to="wap1:1TZykZL8TNs" resolve="StubCellModel_Multiline_Constant" />
     <node concept="PMmxH" id="1TZykZL8TNw" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:37EzmTDC95l" />
+      <ref role="PMmxG" to="tpco:37EzmTDC95l" resolve="ImplementationRemovedInStubMessage" />
     </node>
   </node>
   <node concept="22mcaB" id="1TZykZL8TNx">

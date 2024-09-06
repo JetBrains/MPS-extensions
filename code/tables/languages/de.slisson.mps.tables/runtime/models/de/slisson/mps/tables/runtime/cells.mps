@@ -4093,7 +4093,7 @@
                       </node>
                     </node>
                     <node concept="37vLTw" id="3IadBSKPn1X" role="37vLTJ">
-                      <ref role="3cqZAo" node="3IadBSKPn1H" resolve="lastY" />
+                      <ref role="3cqZAo" node="3IadBSKPn1H" resolve="lastX" />
                     </node>
                   </node>
                 </node>
@@ -4103,7 +4103,7 @@
                   <property role="3cmrfH" value="-1" />
                 </node>
                 <node concept="37vLTw" id="3IadBSKPn20" role="3uHU7B">
-                  <ref role="3cqZAo" node="3IadBSKPn1H" resolve="lastY" />
+                  <ref role="3cqZAo" node="3IadBSKPn1H" resolve="lastX" />
                 </node>
               </node>
               <node concept="9aQIb" id="3IadBSKPn21" role="9aQIa">
@@ -4115,7 +4115,7 @@
                       </node>
                       <node concept="3cpWsd" id="3IadBSKPn26" role="37vLTx">
                         <node concept="37vLTw" id="3IadBSKPn27" role="3uHU7w">
-                          <ref role="3cqZAo" node="3IadBSKPn1H" resolve="lastY" />
+                          <ref role="3cqZAo" node="3IadBSKPn1H" resolve="lastX" />
                         </node>
                         <node concept="2OqwBi" id="3IadBSKPn28" role="3uHU7B">
                           <node concept="2GrUjf" id="3IadBSKPn29" role="2Oq$k0">
@@ -4139,7 +4139,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="3IadBSKPn2g" role="37vLTJ">
-                        <ref role="3cqZAo" node="3IadBSKPn1H" resolve="lastY" />
+                        <ref role="3cqZAo" node="3IadBSKPn1H" resolve="lastX" />
                       </node>
                     </node>
                   </node>
@@ -8709,7 +8709,7 @@
         </node>
       </node>
       <node concept="1Z6Ecs" id="2fUANpqf29$" role="33vP2m">
-        <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="sticky-cell" />
+        <ref role="1Z6EpT" to="reoo:2fUANpqfeyN" resolve="vertical-sticky-cell" />
       </node>
     </node>
     <node concept="2tJIrI" id="4td5AAyZFSN" role="jymVt" />
@@ -8777,7 +8777,7 @@
                 </node>
               </node>
               <node concept="2AHcQZ" id="5prQSJ52grK" role="2AJF6D">
-                <ref role="2AI5Lk" to="wyt6:~Override" />
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
               </node>
             </node>
             <node concept="2tJIrI" id="quM1lwigq6" role="jymVt" />
@@ -9256,7 +9256,7 @@
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="6L2tYd2OL4J" role="2OqNvi">
-                                  <ref role="37wK5l" node="6L2tYd2Kkna" resolve="getStickeCellOffset" />
+                                  <ref role="37wK5l" node="6L2tYd2Kkna" resolve="getVerticalStickyCellOffset" />
                                   <node concept="37vLTw" id="6L2tYd2OUcN" role="37wK5m">
                                     <ref role="3cqZAo" node="1oWwpQDTgkn" resolve="cell" />
                                   </node>
@@ -9308,7 +9308,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="3IadBSKYt8r" role="2OqNvi">
-                                    <ref role="37wK5l" node="3IadBSKPn1A" resolve="getStickyCellOffsetX" />
+                                    <ref role="37wK5l" node="3IadBSKPn1A" resolve="getHorizonalStickyCellOffset" />
                                     <node concept="37vLTw" id="3IadBSKYt8s" role="37wK5m">
                                       <ref role="3cqZAo" node="1oWwpQDTgkn" resolve="cell" />
                                     </node>
@@ -9535,7 +9535,7 @@
                 </node>
               </node>
               <node concept="2AHcQZ" id="5prQSJ52grW" role="2AJF6D">
-                <ref role="2AI5Lk" to="wyt6:~Override" />
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
               </node>
             </node>
             <node concept="2tJIrI" id="5prQSJ52grX" role="jymVt" />
@@ -9549,7 +9549,7 @@
                 </node>
               </node>
               <node concept="2AHcQZ" id="5prQSJ52gs4" role="2AJF6D">
-                <ref role="2AI5Lk" to="wyt6:~Override" />
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
               </node>
             </node>
             <node concept="2tJIrI" id="5prQSJ52gs5" role="jymVt" />
@@ -9571,7 +9571,7 @@
               </node>
               <node concept="3clFbS" id="5prQSJ52gse" role="3clF47" />
               <node concept="2AHcQZ" id="5prQSJ52gsg" role="2AJF6D">
-                <ref role="2AI5Lk" to="wyt6:~Override" />
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
               </node>
             </node>
             <node concept="2tJIrI" id="5prQSJ52gsh" role="jymVt" />
@@ -9587,12 +9587,12 @@
                 </node>
               </node>
               <node concept="2AHcQZ" id="5prQSJ52gso" role="2AJF6D">
-                <ref role="2AI5Lk" to="wyt6:~Override" />
+                <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
               </node>
             </node>
             <node concept="2tJIrI" id="5prQSJ53hsj" role="jymVt" />
             <node concept="3uibUv" id="5prQSJ52gsq" role="2Ghqu4">
-              <ref role="3uigEE" to="wyt6:~Object" />
+              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
             </node>
             <node concept="3clFb_" id="5prQSJ52A6m" role="jymVt">
               <property role="TrG5h" value="isAbove" />
@@ -11115,7 +11115,7 @@
             <node concept="1rXfSq" id="quM1lwQEi1" role="33vP2m">
               <ref role="37wK5l" node="4BfDHEukWm" resolve="getStyleValue" />
               <node concept="37vLTw" id="quM1lwQJt6" role="37wK5m">
-                <ref role="3cqZAo" node="2fUANpqf29w" resolve="STYLE__STICKY_CELL" />
+                <ref role="3cqZAo" node="2fUANpqf29w" resolve="STYLE__VERTICAL_STICKY_CELL" />
               </node>
             </node>
           </node>
@@ -12439,7 +12439,7 @@
                   </node>
                   <node concept="2OqwBi" id="7$DZq89UiA_" role="37wK5m">
                     <node concept="37vLTw" id="7$DZq89UiAA" role="2Oq$k0">
-                      <ref role="3cqZAo" node="quM1lvMLKY" resolve="style" />
+                      <ref role="3cqZAo" node="quM1lvMLKY" resolve="wrappedStyle" />
                     </node>
                     <node concept="liA8E" id="7$DZq89UiAB" role="2OqNvi">
                       <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
@@ -12475,16 +12475,16 @@
                 <node concept="liA8E" id="quM1lvMk7r" role="2OqNvi">
                   <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object)" resolve="set" />
                   <node concept="37vLTw" id="quM1lvNKN_" role="37wK5m">
-                    <ref role="3cqZAo" node="2fUANpqf29w" resolve="STYLE__STICKY_CELL" />
+                    <ref role="3cqZAo" node="2fUANpqf29w" resolve="STYLE__VERTICAL_STICKY_CELL" />
                   </node>
                   <node concept="2OqwBi" id="quM1lvJ0da" role="37wK5m">
                     <node concept="37vLTw" id="quM1lvMLL2" role="2Oq$k0">
-                      <ref role="3cqZAo" node="quM1lvMLKY" resolve="style" />
+                      <ref role="3cqZAo" node="quM1lvMLKY" resolve="wrappedStyle" />
                     </node>
                     <node concept="liA8E" id="quM1lvJBs5" role="2OqNvi">
                       <ref role="37wK5l" to="hox0:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="get" />
                       <node concept="37vLTw" id="quM1lvNKNU" role="37wK5m">
-                        <ref role="3cqZAo" node="2fUANpqf29w" resolve="STYLE__STICKY_CELL" />
+                        <ref role="3cqZAo" node="2fUANpqf29w" resolve="STYLE__VERTICAL_STICKY_CELL" />
                       </node>
                     </node>
                   </node>
@@ -12499,7 +12499,7 @@
             <node concept="liA8E" id="quM1lvNojb" role="2OqNvi">
               <ref role="37wK5l" to="hox0:~Style.isSpecified(jetbrains.mps.openapi.editor.style.StyleAttribute)" resolve="isSpecified" />
               <node concept="37vLTw" id="quM1lvNxne" role="37wK5m">
-                <ref role="3cqZAo" node="2fUANpqf29w" resolve="STYLE__STICKY_CELL" />
+                <ref role="3cqZAo" node="2fUANpqf29w" resolve="STYLE__VERTICAL_STICKY_CELL" />
               </node>
             </node>
           </node>
@@ -12756,7 +12756,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="1sFAfq9_KtM" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" />
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="2FAXvauIxnl" role="jymVt" />
@@ -30017,11 +30017,11 @@
           <node concept="3cpWsn" id="4fVtJFvllvF" role="3cpWs9">
             <property role="TrG5h" value="insertRowAction" />
             <node concept="3uibUv" id="4fVtJFvlkow" role="1tU5fm">
-              <ref role="3uigEE" node="4db20qfqg3Y" resolve="InsertRowAction" />
+              <ref role="3uigEE" node="4db20qfqg3Y" resolve="TableActions.InsertRowAction" />
             </node>
             <node concept="2ShNRf" id="4fVtJFvllvG" role="33vP2m">
               <node concept="1pGfFk" id="4fVtJFvllvH" role="2ShVmc">
-                <ref role="37wK5l" node="7IUya7cfM4j" resolve="InsertRowAction" />
+                <ref role="37wK5l" node="7IUya7cfM4j" resolve="TableActions.InsertRowAction" />
                 <node concept="Xjq3P" id="4fVtJFvllvI" role="37wK5m" />
                 <node concept="37vLTw" id="4fVtJFvllvJ" role="37wK5m">
                   <ref role="3cqZAo" node="12WeXpXn$48" resolve="myLeftEnd" />
@@ -30051,7 +30051,7 @@
               <ref role="Rm8GQ" to="f4zo:~CellActionType.INSERT" resolve="INSERT" />
             </node>
             <node concept="37vLTw" id="4fVtJFvllvK" role="37wK5m">
-              <ref role="3cqZAo" node="4fVtJFvllvF" resolve="action" />
+              <ref role="3cqZAo" node="4fVtJFvllvF" resolve="insertRowAction" />
             </node>
           </node>
         </node>
@@ -36551,7 +36551,7 @@
                     </node>
                     <node concept="Rm8GO" id="56WqtlUjcxL" role="3uHU7w">
                       <ref role="Rm8GQ" node="56WqtlUilBp" resolve="COLUMN" />
-                      <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActionType" />
+                      <ref role="1Px2BO" node="56WqtlUi2XZ" resolve="TableActions.TableActionType" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="7DPEkiwPONM" role="3K4E3e">

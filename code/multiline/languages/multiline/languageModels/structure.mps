@@ -78,7 +78,7 @@
     <property role="EcuMT" value="2197626119621156060" />
     <ref role="1TJDcQ" node="1TZykZL8TNr" resolve="CellModel_Multiline_Constant" />
     <node concept="PrWs8" id="1TZykZL8TNu" role="PzmwI">
-      <ref role="PrY4T" to="tpck:8AYOKVCAP5" />
+      <ref role="PrY4T" to="tpck:8AYOKVCAP5" resolve="IStubForAnotherConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7XmAYSGTgVv">

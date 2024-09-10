@@ -44,7 +44,7 @@ logger.info 'Repository username: {}', project.nexusUsername
 // major version, e.g. '2021.1', '2021.2'
 ext.mpsMajor = '2023.2'
 // optional minor/bugfix number (not added to the final build version)
-ext.mpsMinor = '2'
+ext.mpsMinor = '1'
 // e.g. Beta, EAP, RC
 ext.mpsReleaseType = ''
 

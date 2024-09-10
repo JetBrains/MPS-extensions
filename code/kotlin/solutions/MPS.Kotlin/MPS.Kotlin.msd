@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="MPS.Kotlin" uuid="47198eff-d292-4dcd-85af-227f983426b5" moduleVersion="0" compileInMPS="true">
+<solution name="MPS.Kotlin" uuid="47198eff-d292-4dcd-85af-227f983426b5" moduleVersion="0">
   <models>
     <modelRoot type="java_classes" contentPath="${mps_home}/plugins/mps-kotlin/lib">
       <sourceRoot location="kotlin-builtins.jar" />
@@ -19,7 +19,6 @@
     <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.7.0.jar" />
     <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.7.0.jar" />
   </stubModelEntries>
-  <sourcePath />
   <dependencies>
     <dependency reexport="true">39983771-4e9b-401b-a1a9-1da6c777c843(MPS.ThirdParty)</dependency>
   </dependencies>

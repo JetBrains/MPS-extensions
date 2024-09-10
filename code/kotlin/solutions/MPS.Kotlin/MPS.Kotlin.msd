@@ -4,8 +4,8 @@
     <modelRoot type="java_classes" contentPath="${mps_home}/plugins/mps-kotlin/lib">
       <sourceRoot location="kotlin-builtins.jar" />
       <sourceRoot location="kotlin-ide.jar" />
-      <sourceRoot location="kotlin-stdlib-1.7.0.jar" />
-      <sourceRoot location="kotlin-stdlib-common-1.7.0.jar" />
+      <sourceRoot location="kotlin-stdlib-1.9.0.jar" />
+      <sourceRoot location="kotlin-stdlib-common-1.9.0.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -16,8 +16,8 @@
   <stubModelEntries>
     <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-builtins.jar" />
     <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-ide.jar" />
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.7.0.jar" />
-    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.7.0.jar" />
+    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-1.9.0.jar" />
+    <stubModelEntry path="${mps_home}/plugins/mps-kotlin/lib/kotlin-stdlib-common-1.9.0.jar" />
   </stubModelEntries>
   <dependencies>
     <dependency reexport="true">39983771-4e9b-401b-a1a9-1da6c777c843(MPS.ThirdParty)</dependency>
@@ -36,4 +36,3 @@
     <module reference="39983771-4e9b-401b-a1a9-1da6c777c843(MPS.ThirdParty)" version="0" />
   </dependencyVersions>
 </solution>
-

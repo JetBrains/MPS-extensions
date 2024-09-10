@@ -1160,7 +1160,7 @@
                   <node concept="2Ry0Ak" id="2PSVZXMBj4t" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="2PSVZXMBj4u" role="2Ry0An">
-                      <property role="2Ry0Am" value="kotlin-stdlib-1.7.0.jar" />
+                      <property role="2Ry0Am" value="kotlin-stdlib-1.9.0.jar" />
                     </node>
                   </node>
                 </node>
@@ -1182,7 +1182,7 @@
                   <node concept="2Ry0Ak" id="2PSVZXMBj4$" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
                     <node concept="2Ry0Ak" id="2PSVZXMBj4_" role="2Ry0An">
-                      <property role="2Ry0Am" value="kotlin-stdlib-common-1.7.0.jar" />
+                      <property role="2Ry0Am" value="kotlin-stdlib-common-1.9.0.jar" />
                     </node>
                   </node>
                 </node>
@@ -23238,4 +23238,3 @@
     </node>
   </node>
 </model>
-

@@ -3,12 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="2" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -49,8 +49,8 @@
     <import index="tqbz" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.actions(MPS.IDEA/)" />
     <import index="lhjl" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:org.w3c.dom(JDK/)" />
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
-    <import index="ujg5" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:org.apache.batik.dom(MPS.ThirdParty/)" />
-    <import index="nxzt" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:org.apache.batik.svggen(MPS.ThirdParty/)" />
+    <import index="ujg5" ref="563a0770-eb88-4f4f-83ed-f708776fc2fe/java:org.apache.batik.dom(de.itemis.stubs.batik/)" />
+    <import index="nxzt" ref="563a0770-eb88-4f4f-83ed-f708776fc2fe/java:org.apache.batik.svggen(de.itemis.stubs.batik/)" />
     <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="1njx" ref="1144260c-e9a5-49a2-9add-39a1a1a7077e/java:com.mxgraph.view(de.itemis.mps.editor.diagram.runtime/)" implicit="true" />
@@ -69,6 +69,7 @@
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <property id="7458746815261976739" name="requiredAccess" index="2YLI8m" />
+        <property id="4692598989365753297" name="updateInBackground" index="1rBW0U" />
         <child id="394857668356997869" name="places" index="med8o" />
         <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
@@ -406,6 +407,7 @@
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="2524418899405758586" name="jetbrains.mps.baseLanguage.closures.structure.InferredClosureParameterDeclaration" flags="ig" index="gl6BB" />
       <concept id="1235746970280" name="jetbrains.mps.baseLanguage.closures.structure.CompactInvokeFunctionExpression" flags="nn" index="2Sg_IR">
         <child id="1235746996653" name="function" index="2SgG2M" />
         <child id="1235747002942" name="parameter" index="2SgHGx" />
@@ -487,7 +489,6 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
-      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="4611582986551314327" name="jetbrains.mps.baseLanguage.collections.structure.OfTypeOperation" flags="nn" index="UnYns">
         <child id="4611582986551314344" name="requestedType" index="UnYnz" />
       </concept>
@@ -975,7 +976,7 @@
                                   <node concept="2OqwBi" id="2iIfscZJziY" role="2Oq$k0">
                                     <node concept="2OqwBi" id="2iIfscZJziZ" role="2Oq$k0">
                                       <node concept="37vLTw" id="2iIfscZJzj0" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="3Y7loYI1IIO" resolve="it" />
+                                        <ref role="3cqZAo" node="7u$$6UQs3Ic" resolve="it" />
                                       </node>
                                       <node concept="liA8E" id="2iIfscZJzj1" role="2OqNvi">
                                         <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
@@ -1013,9 +1014,9 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="Rh6nW" id="3Y7loYI1IIO" role="1bW2Oz">
+                          <node concept="gl6BB" id="7u$$6UQs3Ic" role="1bW2Oz">
                             <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="3Y7loYI1IIP" role="1tU5fm" />
+                            <node concept="2jxLKc" id="7u$$6UQs3Id" role="1tU5fm" />
                           </node>
                         </node>
                       </node>
@@ -1316,6 +1317,7 @@
     <property role="TrG5h" value="Diagram_FitSizeAll" />
     <property role="2uzpH1" value="Diagram: Fit Size on Selected Boxes" />
     <property role="2YLI8m" value="6u2MFnph2wS/none" />
+    <property role="1rBW0U" value="true" />
     <node concept="tnohg" id="5IQEFjDErc$" role="tncku">
       <node concept="3clFbS" id="5IQEFjDErc_" role="2VODD2">
         <node concept="3clFbF" id="YGA9S4RPCw" role="3cqZAp">
@@ -1364,6 +1366,7 @@
     <property role="TrG5h" value="Diagram_Autolayout" />
     <property role="2uzpH1" value="Diagram: Auto Layout Diagram" />
     <property role="2YLI8m" value="6u2MFnph2wS/none" />
+    <property role="1rBW0U" value="true" />
     <node concept="tnohg" id="5IQEFjDGFJ0" role="tncku">
       <node concept="3clFbS" id="5IQEFjDGFJ1" role="2VODD2">
         <node concept="3clFbF" id="YGA9S5V9kG" role="3cqZAp">
@@ -2069,6 +2072,7 @@
     <property role="TrG5h" value="Diagram_FitSizeAndAutolayout" />
     <property role="2uzpH1" value="Diagram: Fit Size on Selected Boxes and Run Layouter" />
     <property role="2YLI8m" value="6u2MFnph2wS/none" />
+    <property role="1rBW0U" value="true" />
     <node concept="tnohg" id="5IQEFjDH2SV" role="tncku">
       <node concept="3clFbS" id="5IQEFjDH2SW" role="2VODD2">
         <node concept="3clFbF" id="YGA9S4RMiB" role="3cqZAp">
@@ -2128,6 +2132,7 @@
   <node concept="sE7Ow" id="5q$QTTw90T$">
     <property role="TrG5h" value="Diagram_ZoomIn" />
     <property role="2uzpH1" value="Diagram: Zoom In" />
+    <property role="1rBW0U" value="true" />
     <node concept="1DS2jV" id="5q$QTTw90UX" role="1NuT2Z">
       <property role="TrG5h" value="editorContext" />
       <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
@@ -2172,6 +2177,7 @@
   <node concept="sE7Ow" id="7tfNqqCmxXm">
     <property role="TrG5h" value="Diagram_ZoomOut" />
     <property role="2uzpH1" value="Diagram: Zoom Out" />
+    <property role="1rBW0U" value="true" />
     <node concept="1DS2jV" id="7tfNqqCmxXL" role="1NuT2Z">
       <property role="TrG5h" value="editorContext" />
       <ref role="1DUlNI" to="k3nr:~MPSEditorDataKeys.EDITOR_CONTEXT" resolve="EDITOR_CONTEXT" />
@@ -4711,7 +4717,7 @@
                       </node>
                       <node concept="2OqwBi" id="5nneI6vPijM" role="33vP2m">
                         <node concept="37vLTw" id="5nneI6vPijN" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5nneI6vPikk" resolve="it" />
+                          <ref role="3cqZAo" node="524LU1t$DOx" resolve="it" />
                         </node>
                         <node concept="liA8E" id="5nneI6vPijO" role="2OqNvi">
                           <ref role="37wK5l" to="exr9:~EditorCell_WithComponent.getComponent()" resolve="getComponent" />
@@ -4799,9 +4805,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="5nneI6vPikk" role="1bW2Oz">
+                <node concept="gl6BB" id="524LU1t$DOx" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="5nneI6vPikl" role="1tU5fm" />
+                  <node concept="2jxLKc" id="524LU1t$DOy" role="1tU5fm" />
                 </node>
               </node>
             </node>
@@ -6821,7 +6827,7 @@
               <ref role="3uigEE" to="nxzt:~GenericImageHandler" resolve="GenericImageHandler" />
             </node>
             <node concept="2ShNRf" id="26AplbI234r" role="33vP2m">
-              <node concept="1pGfFk" id="5CBfeKkRFLa" role="2ShVmc">
+              <node concept="1pGfFk" id="6bkzxtWOXtB" role="2ShVmc">
                 <ref role="37wK5l" to="nxzt:~CachedImageHandlerBase64Encoder.&lt;init&gt;()" resolve="CachedImageHandlerBase64Encoder" />
               </node>
             </node>

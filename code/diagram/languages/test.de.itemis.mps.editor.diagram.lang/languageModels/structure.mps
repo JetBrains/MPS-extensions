@@ -177,13 +177,13 @@
       <property role="IQ2nx" value="2387875361826161173" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="24zrZPPz$8e" role="PzmwI">
+      <ref role="PrY4T" node="24zrZPPzcB8" resolve="IBoxContent" />
+    </node>
     <node concept="1TJgyi" id="2PdRDsXByHv" role="1TKVEl">
       <property role="IQ2nx" value="3264510046068681567" />
       <property role="TrG5h" value="value2" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="PrWs8" id="24zrZPPz$8e" role="PzmwI">
-      <ref role="PrY4T" node="24zrZPPzcB8" resolve="IBoxContent" />
     </node>
   </node>
   <node concept="1TIwiD" id="24zrZPPz$98">
@@ -339,6 +339,22 @@
       <ref role="20lvS9" node="21ib$h2$w$t" resolve="BaseDiagram" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2PdRDsXC_ot">
+    <property role="TrG5h" value="TextMaxWithTextBoxContent" />
+    <property role="34LRSv" value="text (Text maxWidth=200)" />
+    <property role="EcuMT" value="3264510046068954653" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2PdRDsXC_ou" role="PzmwI">
+      <ref role="PrY4T" node="24zrZPPzcB8" resolve="IBoxContent" />
+    </node>
+    <node concept="1TJgyj" id="2PdRDsXC_ov" role="1TKVEi">
+      <property role="IQ2ns" value="3264510046068954655" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="text" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
+    </node>
+  </node>
   <node concept="1TIwiD" id="2PdRDsXzQMw">
     <property role="EcuMT" value="3264510046067715232" />
     <property role="TrG5h" value="DiagramSmallerThanRequiredSize" />
@@ -356,22 +372,6 @@
     </node>
     <node concept="1TJgyj" id="2PdRDsXC_hc" role="1TKVEi">
       <property role="IQ2ns" value="3264510046068954188" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="text" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2PdRDsXC_ot">
-    <property role="TrG5h" value="TextMaxWithTextBoxContent" />
-    <property role="34LRSv" value="text (Text maxWidth=200)" />
-    <property role="EcuMT" value="3264510046068954653" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2PdRDsXC_ou" role="PzmwI">
-      <ref role="PrY4T" node="24zrZPPzcB8" resolve="IBoxContent" />
-    </node>
-    <node concept="1TJgyj" id="2PdRDsXC_ov" role="1TKVEi">
-      <property role="IQ2ns" value="3264510046068954655" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="fLJekj4/_1" />

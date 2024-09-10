@@ -1,8 +1,9 @@
 plugins {
     id 'de.itemis.mps.gradle.common' version '1.28.0.+'
-    id "com.github.breadmoirai.github-release" version "2.4.1"
+    id "com.github.breadmoirai.github-release" version "2.5.2"
     id 'maven-publish'
     id 'base'
+    id 'de.itemis.mps.gradle.launcher' version '2.4.2.+'
 }
 
 import de.itemis.mps.gradle.*
@@ -16,7 +17,7 @@ import java.time.LocalDateTime
 apply plugin: 'download-jbr'
 
 downloadJbr {
-    jbrVersion = '17.0.6-b653.34'
+    jbrVersion = '17.0.8.1-b1000.32'
 }
 
 // detect if we are in a CI build
@@ -41,7 +42,7 @@ logger.info 'Repository username: {}', project.nexusUsername
 // Dependency versions
 
 // major version, e.g. '2021.1', '2021.2'
-ext.mpsMajor = '2022.3'
+ext.mpsMajor = '2023.2'
 // optional minor/bugfix number (not added to the final build version)
 ext.mpsMinor = '2'
 // e.g. Beta, EAP, RC
@@ -165,58 +166,40 @@ task copyModelApi() {
 
 configurations {
     ant_lib
-    diagram_lib
+    diagram_lib {
+        exclude(group: 'com.google.guava')
+        attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
+    }
+    batik {
+        exclude(group: 'xml-apis')
+        exclude(group: 'commons-io')
+        exclude(group: 'commons-logging')
+    }
 }
 
 dependencies {
-    ant_lib "org.apache.ant:ant-junit:1.10.9"
+    ant_lib "org.apache.ant:ant-junit:1.10.14"
 
-    def elkVersion = "0.9.0"
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.radial:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.force:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.disco:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.rectpacking:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.spore:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.29.0") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.35.0") {
-        transitive = false
-    }
-    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.36.0") {
-        transitive = false
-    }
+    def elkVersion = "0.9.1"
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.common:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.layered:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.mrtree:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.radial:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.force:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.disco:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.rectpacking:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.spore:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.alg.topdownpacking:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.core:$elkVersion")
+    diagram_lib ("org.eclipse.elk:org.eclipse.elk.graph:$elkVersion")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.common:2.30.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore:2.36.0")
+    diagram_lib ("org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.37.0")
+
+    batik ("org.apache.xmlgraphics:batik-svggen:1.17")
+    batik ("org.apache.xmlgraphics:batik-dom:1.17")
 }
 
-configurations.diagram_lib.attributes.attribute(Attribute.of('org.gradle.jvm.environment', String), 'standard-jvm')
 
 ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({
     true
@@ -234,10 +217,11 @@ ext.extensions_home = '-Dextensions.home=' + rootDir
 
 // ___________________ utilities ___________________
 File scriptFile(String relativePath) {
-    new File("$rootDir/build/patched/$relativePath")
+    new File("$rootDir/build/generated/$relativePath")
 }
 
-def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
+def defaultScriptArgs = [mps_home, build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion,
+                         '-Dbuild.jna.library.path=' + new File(mpsHomeDir, 'lib/jna/' + System.getProperty('os.arch'))]
 
 afterEvaluate {
     project.ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.getByName('downloadJbr').javaExecutable
@@ -277,28 +261,26 @@ task resolved_diagram_dependencies(type: Copy) {
     }
 }
 
-def build_allScripts_unpatched = tasks.register('build_allScripts_unpatched', BuildLanguages) {
-    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies
-    script "$rootDir/scripts/build.xml"
-}
+task resolved_batik_dependencies(type: Sync) {
+    from configurations.batik
+    into file('code/batik/solutions/lib')
 
-// Patch JNA path in generated build scripts until https://github.com/JetBrains/MPS/pull/71 is fixed
-def patch_allScripts = tasks.register('patch_allScripts', Copy) {
-    dependsOn build_allScripts_unpatched
-    from 'build/generated'
-    into 'build/patched'
-
-    def isAarch64 = System.getProperty('os.arch') == 'aarch64'
-    def jnaArch = isAarch64 ? 'aarch64' : 'amd64'
-
-    filter {
-        it.replace('"-Djna.boot.library.path=${artifacts.mps}/lib/jna"',
-                   '"-Djna.boot.library.path=${artifacts.mps}/lib/jna/' + jnaArch + '"')
+    // Strip version numbers from file names
+    rename { filename ->
+        def ra = configurations.batik.resolvedConfiguration.resolvedArtifacts.find { ResolvedArtifact ra -> ra.file.name == filename }
+        String finalName
+        if (ra.classifier != null) {
+            finalName = "${ra.name}-${ra.classifier}.${ra.extension}"
+        } else {
+            finalName = "${ra.name}.${ra.extension}"
+        }
+        return finalName
     }
 }
 
-task build_allScripts {
-    dependsOn patch_allScripts
+tasks.register('build_allScripts', BuildLanguages) {
+    dependsOn 'downloadJbr', resolveMps, copyModelApi, resolved_diagram_dependencies, resolved_batik_dependencies
+    script "$rootDir/scripts/build.xml"
 }
 
 task copyChangelog(type: Copy) {
@@ -382,11 +364,11 @@ configurations {
     junitAnt
 }
 dependencies {
-    junitAnt 'junit:junit:4.12'
-    junitAnt('org.apache.ant:ant-junit:1.10.9') {
+    junitAnt 'junit:junit:4.13.2'
+    junitAnt('org.apache.ant:ant-junit:1.10.14') {
         transitive = false
     }
-    junitAnt('org.apache.ant:ant-junit4:1.10.9') {
+    junitAnt('org.apache.ant:ant-junit4:1.10.14') {
         transitive = false
     }
 }

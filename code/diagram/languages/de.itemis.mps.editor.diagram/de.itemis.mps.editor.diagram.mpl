@@ -14,7 +14,7 @@
   <generators>
     <generator alias="" namespace="de.itemis.mps.editor.diagram#1110129820007083940" uuid="9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f">
       <models>
-        <modelRoot type="default" contentPath="${module}">
+        <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
       </models>

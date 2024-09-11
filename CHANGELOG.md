@@ -4,11 +4,29 @@ All notable changes to this project are documented in this file.
 
 The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) .The project does *not* follow Semantic Versioning and the changes are documented in reverse chronological order, grouped by calendar month.
 
+## September 2024
+
+### Added
+
+- A module stub solution *MPS.Kotlin* was added to support referencing Kotlin classes and libraries from MPS.ThirdParty.
+
 ## August 2024
+
+### Added
+
+- *de.itemis.mps.editor.diagram*: A new option for diagrams was added to allow boxes to set a new required minimum size.
+- *de.slisson.mps.tables*: Sticky table cells were added. Add the style sheet item *horizontal-sticky-cell* or *vertical-sticky-cell* *to* *a* *table* *cell* *to* *activate* *the* *feature.*
+- *de.slisson.mps.editor.multiline*: A new cell *constant multi-line* can be used to create dynamic read-only text that spans multiple lines.
 
 ### Fixed
 
-- *com.mbeddr.mpsutil.projectview.runtime*: Fixed  several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
+- *com.mbeddr.mpsutil.projectview.runtime*: Fixed several NPEs. See:  [#903,](https://github.com/JetBrains/MPS-extensions/issues/903) [#904]((https://github.com/JetBrains/MPS-extensions/issues/904) , [#901](https://github.com/JetBrains/MPS-extensions/issues/901)
+- *de.itemis.mps.editor.diagram*: Some issues related to ELK styles and custom IDs were fixed.
+
+### Changed
+
+- *de.slisson.mps.reflection*: The language uses the class ReflectionUtil directly and doesn't copy ReflectionUtil_copy in the model anymore.
+- *com.mbeddr.mpsutil.editor.querylist.runtime*: Querylist calls model checks of target nodes less  aggressively.
 
 ## July 2024
 
@@ -29,6 +47,7 @@ The format is *loosely* based on [Keep a Changelog](https://keepachangelog.com/e
 ### Fixed
 
 - *de.itemis.mps.editor.diagram.runtime*: Diagrams can now be used in an headless environment (e.g. for rendering documentation).
+- *de.slisson.mps.editor.multiline.runtime*: A bug was fixed where the multiline cell got a wrong background color set.
 - *de.itemis.mps.editor.diagram.runtime*: The dependency to *de.q60.mps.collections.libs* was removed.
 - *de.itemis.mps.editor.diagram*: Various improvements to diagrams were made. (see: [PR #866](https://github.com/JetBrains/MPS-extensions/pull/866) )
 

@@ -63,7 +63,6 @@
         <module reference="a46e4f41-529c-4c2e-bf93-818590da160d(de.itemis.mps.editor.htmlcell)" version="0" />
         <module reference="8bc2c756-c8be-4af8-a74e-4b8bbda72bb5(de.itemis.mps.editor.htmlcell.generator)" version="0" />
         <module reference="5af3b4c1-0c4a-4bb7-9e0d-df3c07ff6b84(de.itemis.mps.editor.htmlcell.runtime)" version="0" />
-        <module reference="f0fff802-6d26-4d2e-b89d-391357265626(de.slisson.mps.hacks.editor)" version="0" />
         <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" version="0" />
         <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />
